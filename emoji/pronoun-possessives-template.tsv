@@ -1,0 +1,84 @@
+# possessed-case  	possessed-gender	possessed-plurality	emoji
+nominative        	neuter          	singular           	{{possessive}}<sub>🏠</sub> →                                                   
+nominative        	masculine       	singular           	{{possessive}}<sub>👦</sub> →                                                
+nominative        	feminine        	singular           	{{possessive}}<sub>👧</sub> →                                                
+nominative        	neuter          	dual               	{{possessive}}<sub>🏠🏠</sub> →                                                 
+nominative        	masculine       	dual               	{{possessive}}<sub>👦👦</sub> →                                          
+nominative        	feminine        	dual               	{{possessive}}<sub>👧👧</sub> →                                          
+nominative        	neuter          	plural             	{{possessive}}<sub>🏘️</sub> →                                                
+nominative        	masculine       	plural             	{{possessive}}<sub>👦👦👦</sub> →                                              
+nominative        	feminine        	plural             	{{possessive}}<sub>👧👧👧</sub> →                                              
+                  
+accusative        	neuter          	singular           	{{possessive}}<sub>🏠</sub>                                                         
+accusative        	masculine       	singular           	{{possessive}}<sub>👦</sub>                                                  
+accusative        	feminine        	singular           	{{possessive}}<sub>👧</sub>                                                
+accusative        	neuter          	dual               	{{possessive}}<sub>🏠🏠</sub>                                                     
+accusative        	masculine       	dual               	{{possessive}}<sub>👦👦</sub>                                           
+accusative        	feminine        	dual               	{{possessive}}<sub>👧👧</sub>                                         
+accusative        	neuter          	plural             	{{possessive}}<sub>🏘️</sub>                                                 
+accusative        	masculine       	plural             	{{possessive}}<sub>👦👦👦</sub>                                               
+accusative        	feminine        	plural             	{{possessive}}<sub>👧👧👧</sub>                                             
+                  
+dative            	neuter          	singular           	{{possessive}}<sub>🏠</sub>←🚶‍♂️🐎                                         
+dative            	masculine       	singular           	{{possessive}}<sub>👦</sub>←🚶‍♂️🐎                                      
+dative            	feminine        	singular           	{{possessive}}<sub>👧</sub>←🚶‍♂️🐎                                      
+dative            	neuter          	dual               	{{possessive}}<sub>🏠🏠</sub>←🚶‍♂️🐎                                   
+dative            	masculine       	dual               	{{possessive}}<sub>👦👦</sub>←🚶‍♂️🐎                                     
+dative            	feminine        	dual               	{{possessive}}<sub>👧👧</sub>←🚶‍♂️🐎                                     
+dative            	neuter          	plural             	{{possessive}}<sub>🏘️</sub>←🚶‍♂️🐎                                   
+dative            	masculine       	plural             	{{possessive}}<sub>👦👦👦</sub>←🚶‍♂️🐎                                     
+dative            	feminine        	plural             	{{possessive}}<sub>👧👧👧</sub>←🚶‍♂️🐎                                     
+                  
+ablative          	neuter          	singular           	←🚶‍♂️🐎{{possessive}}<sub>🏠</sub>                                       
+ablative          	masculine       	singular           	←🚶‍♂️🐎{{possessive}}<sub>👦</sub>                                    
+ablative          	feminine        	singular           	←🚶‍♂️🐎{{possessive}}<sub>👧</sub>                                    
+ablative          	neuter          	dual               	←🚶‍♂️🐎{{possessive}}<sub>🏠🏠</sub>                                 
+ablative          	masculine       	dual               	←🚶‍♂️🐎{{possessive}}<sub>👦👦</sub>                                   
+ablative          	feminine        	dual               	←🚶‍♂️🐎{{possessive}}<sub>👧👧</sub>                                   
+ablative          	neuter          	plural             	←🚶‍♂️🐎{{possessive}}<sub>🏘️</sub>                                 
+ablative          	masculine       	plural             	←🚶‍♂️🐎{{possessive}}<sub>👦👦👦</sub>                                   
+ablative          	feminine        	plural             	←🚶‍♂️🐎{{possessive}}<sub>👧👧👧</sub>                                   
+                  
+instrumental      	neuter          	singular           	←🚶‍♂️<sup>{{possessive}}<sub>🪢</sub></sup>🐎                                     
+instrumental      	masculine       	singular           	←🚶‍♂️<sup>{{possessive}}<sub>👦</sub></sup>🐎                                 
+instrumental      	feminine        	singular           	←🚶‍♂️<sup>{{possessive}}<sub>👧</sub></sup>🐎                                 
+instrumental      	neuter          	dual               	←🚶‍♂️<sup>{{possessive}}<sub>🪢🪢</sub></sup>🐎                              
+instrumental      	masculine       	dual               	←🚶‍♂️<sup>{{possessive}}<sub>👦👦</sub></sup>🐎                                
+instrumental      	feminine        	dual               	←🚶‍♂️<sup>{{possessive}}<sub>👧👧</sub></sup>🐎                                
+instrumental      	neuter          	plural             	←🚶‍♂️<sup>{{possessive}}<sub>🪢🪢🪢</sub></sup>🐎                         
+instrumental      	masculine       	plural             	←🚶‍♂️<sup>{{possessive}}<sub>👦👦👦</sub></sup>🐎                                
+instrumental      	feminine        	plural             	←🚶‍♂️<sup>{{possessive}}<sub>👧👧👧</sub></sup>🐎                                
+                  
+locative          	neuter          	singular           	{{possessive}}<sub>🏠</sub>🐎←🚶‍♂️                                              
+locative          	masculine       	singular           	{{possessive}}<sub>👦</sub>🐎←🚶‍♂️                                           
+locative          	feminine        	singular           	{{possessive}}<sub>👧</sub>🐎←🚶‍♂️                                           
+locative          	neuter          	dual               	{{possessive}}<sub>🏠🏠</sub>🐎←🚶‍♂️                                        
+locative          	masculine       	dual               	{{possessive}}<sub>👦👦</sub>🐎←🚶‍♂️                                          
+locative          	feminine        	dual               	{{possessive}}<sub>👧👧</sub>🐎←🚶‍♂️                                          
+locative          	neuter          	plural             	{{possessive}}<sub>🏘️</sub>🐎←🚶‍♂️                                        
+locative          	masculine       	plural             	{{possessive}}<sub>👦👦👦</sub>🐎←🚶‍♂️                                          
+locative          	feminine        	plural             	{{possessive}}<sub>👧👧👧</sub>🐎←🚶‍♂️                                          
+                  
+#                 	                	                   	NOTE: genitive and vocative are not applicable for all pronouns                                                                           
+                  
+reflexive         	neuter          	singular           	{{possessive}}<sub>🤵</sub>    
+reflexive         	masculine       	singular           	{{possessive}}<sub>🤵</sub>    
+reflexive         	feminine        	singular           	{{possessive}}<sub>🤵</sub>    
+reflexive         	neuter          	dual               	{{possessive}}<sub>🤵</sub>    
+reflexive         	masculine       	dual               	{{possessive}}<sub>🤵</sub>    
+reflexive         	feminine        	dual               	{{possessive}}<sub>🤵</sub>    
+reflexive         	neuter          	plural             	{{possessive}}<sub>🤵</sub>    
+reflexive         	masculine       	plural             	{{possessive}}<sub>🤵</sub>    
+reflexive         	feminine        	plural             	{{possessive}}<sub>🤵</sub>    
+                  
+emphatic-reflexive	neuter          	singular           	{{possessive}}<sub>🤵</sub>
+emphatic-reflexive	masculine       	singular           	{{possessive}}<sub>🤵</sub>
+emphatic-reflexive	feminine        	singular           	{{possessive}}<sub>🤵</sub>
+emphatic-reflexive	neuter          	dual               	{{possessive}}<sub>🤵</sub>
+emphatic-reflexive	masculine       	dual               	{{possessive}}<sub>🤵</sub>
+emphatic-reflexive	feminine        	dual               	{{possessive}}<sub>🤵</sub>
+emphatic-reflexive	neuter          	plural             	{{possessive}}<sub>🤵</sub>
+emphatic-reflexive	masculine       	plural             	{{possessive}}<sub>🤵</sub>
+emphatic-reflexive	feminine        	plural             	{{possessive}}<sub>🤵</sub>
+                  
+                  

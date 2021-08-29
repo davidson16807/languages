@@ -1,0 +1,31 @@
+#possessor-person	possessor-gender	possessor-plurality	en-possessive	en-audience-address
+1                	neuter          	singular           	my           	                   
+1                	masculine       	singular           	my♂          	                   
+1                	feminine        	singular           	my♀          	                   
+1                	neuter          	dual               	our          	[you there:]         
+1                	masculine       	dual               	our          	[you♂ there:]        
+1                	feminine        	dual               	our          	[you♀ there:]        
+1                	neuter          	plural             	our          	[everybody:]   
+1                	masculine       	plural             	our          	[everybody♂:]  
+1                	feminine        	plural             	our          	[everybody♀:]  
+                 
+2                	neuter          	singular           	your         	
+2                	masculine       	singular           	your♂        	
+2                	feminine        	singular           	your♀        	
+2                	neuter          	dual               	your         	[you two:]     
+2                	masculine       	dual               	your         	[you two♂:]    
+2                	feminine        	dual               	your         	[you two♀:]    
+2                	neuter          	plural             	your         	[everybody:]   
+2                	masculine       	plural             	your         	[everybody♂:]  
+2                	feminine        	plural             	your         	[everybody♀:]  
+                 
+3                	neuter          	singular           	its          	
+3                	masculine       	singular           	his          	
+3                	feminine        	singular           	her          	
+3                	neuter          	dual               	those two's  	
+3                	masculine       	dual               	those two's♂ 	
+3                	feminine        	dual               	those two's♀ 	
+3                	neuter          	plural             	their        	
+3                	masculine       	plural             	their♂       	
+3                	feminine        	plural             	their♀       	
+                 	                	                   	             

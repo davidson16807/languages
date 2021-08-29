@@ -1,0 +1,7 @@
+# mood     	tense     	pie                                          
+indicative 	present   	{{subject}} {{present-indicative}} {{object}}
+indicative 	perfect   	{{subject}} {{past-indicative}} {{object}}   
+imperative 	present   	{{subject}} {{imperative}} {{object}}        
+subjunctive	present   	{{subject}} {{subjunctive}} {{object}}       
+optative   	present   	{{subject}} {{optative}} {{object}}          
+nonfinite  	participle	{{subject}} {{participle}} {{object}} 

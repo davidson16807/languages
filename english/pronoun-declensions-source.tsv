@@ -1,0 +1,541 @@
+case            	person	gender   	plurality	declension                	
+nominative        	1     	neuter   	singular 	I                         
+accusative        	1     	neuter   	singular 	me                        
+reflexive         	1     	neuter   	singular 	myself                    
+emphatic-reflexive	1     	neuter   	singular 	my<i>self</i>             
+genitive          	1     	neuter   	singular 	mine                      
+ablative          	1     	neuter   	singular 	me                        
+dative            	1     	neuter   	singular 	me                        
+instrumental      	1     	neuter   	singular 	me                        
+locative          	1     	neuter   	singular 	me                        
+vocative          	1     	neuter   	singular 	me                        
+nominative        	1     	masculine	singular 	I♂                        
+accusative        	1     	masculine	singular 	me♂                       
+reflexive         	1     	masculine	singular 	myself♂                   
+emphatic-reflexive	1     	masculine	singular 	my<i>self</i>♂            
+genitive          	1     	masculine	singular 	mine♂                     
+ablative          	1     	masculine	singular 	me♂                       
+dative            	1     	masculine	singular 	me♂                       
+instrumental      	1     	masculine	singular 	me♂                       
+locative          	1     	masculine	singular 	me♂                       
+vocative          	1     	masculine	singular 	me♂                       
+nominative        	1     	feminine 	singular 	I♀                        
+accusative        	1     	feminine 	singular 	me♀                       
+reflexive         	1     	feminine 	singular 	myself♀                   
+emphatic-reflexive	1     	feminine 	singular 	my<i>self</i>♀            
+genitive          	1     	feminine 	singular 	mine♀                     
+ablative          	1     	feminine 	singular 	me♀                       
+dative            	1     	feminine 	singular 	me♀                       
+instrumental      	1     	feminine 	singular 	me♀                       
+locative          	1     	feminine 	singular 	me♀                       
+vocative          	1     	feminine 	singular 	me♀                       
+nominative        	1     	neuter   	dual     	we both                   
+accusative        	1     	neuter   	dual     	both of us                
+reflexive         	1     	neuter   	dual     	both of ourselves         
+emphatic-reflexive	1     	neuter   	dual     	both of our<i>selves</i>  
+genitive          	1     	neuter   	dual     	both of ours              
+ablative          	1     	neuter   	dual     	both of us                
+dative            	1     	neuter   	dual     	both of us                
+instrumental      	1     	neuter   	dual     	both of us                
+locative          	1     	neuter   	dual     	both of us                
+vocative          	1     	neuter   	dual     	both of us                
+nominative        	1     	masculine	dual     	we both♂                  
+accusative        	1     	masculine	dual     	both of us♂               
+reflexive         	1     	masculine	dual     	both of ourselves♂        
+emphatic-reflexive	1     	masculine	dual     	both of our<i>selves</i>♂ 
+genitive          	1     	masculine	dual     	both of ours♂             
+ablative          	1     	masculine	dual     	both of us♂               
+dative            	1     	masculine	dual     	both of us♂               
+instrumental      	1     	masculine	dual     	both of us♂               
+locative          	1     	masculine	dual     	both of us♂               
+vocative          	1     	masculine	dual     	both of us♂               
+nominative        	1     	feminine 	dual     	we both♀                  
+accusative        	1     	feminine 	dual     	both of us♀               
+reflexive         	1     	feminine 	dual     	both of ourselves♀        
+emphatic-reflexive	1     	feminine 	dual     	both of our<i>selves</i>♀ 
+genitive          	1     	feminine 	dual     	both of ours♀             
+ablative          	1     	feminine 	dual     	both of us♀               
+dative            	1     	feminine 	dual     	both of us♀               
+instrumental      	1     	feminine 	dual     	both of us♀               
+locative          	1     	feminine 	dual     	both of us♀               
+vocative          	1     	feminine 	dual     	both of us♀               
+nominative        	1     	neuter   	plural   	we                        
+accusative        	1     	neuter   	plural   	us                        
+reflexive         	1     	neuter   	plural   	ourselves                 
+emphatic-reflexive	1     	neuter   	plural   	our<i>selves</i>          
+genitive          	1     	neuter   	plural   	ours                      
+ablative          	1     	neuter   	plural   	us                        
+dative            	1     	neuter   	plural   	us                        
+instrumental      	1     	neuter   	plural   	us                        
+locative          	1     	neuter   	plural   	us                        
+vocative          	1     	neuter   	plural   	us                        
+nominative        	1     	masculine	plural   	we♂                       
+accusative        	1     	masculine	plural   	us♂                       
+reflexive         	1     	masculine	plural   	ourselves♂                
+emphatic-reflexive	1     	masculine	plural   	our<i>selves</i>♂         
+genitive          	1     	masculine	plural   	ours♂                     
+ablative          	1     	masculine	plural   	us♂                       
+dative            	1     	masculine	plural   	us♂                       
+instrumental      	1     	masculine	plural   	us♂                       
+locative          	1     	masculine	plural   	us♂                       
+vocative          	1     	masculine	plural   	us♂                       
+nominative        	1     	feminine 	plural   	we♀                       
+accusative        	1     	feminine 	plural   	us♀                       
+reflexive         	1     	feminine 	plural   	ourselves♀                
+emphatic-reflexive	1     	feminine 	plural   	our<i>selves</i>♀         
+genitive          	1     	feminine 	plural   	ours♀                     
+ablative          	1     	feminine 	plural   	us♀                       
+dative            	1     	feminine 	plural   	us♀                       
+instrumental      	1     	feminine 	plural   	us♀                       
+locative          	1     	feminine 	plural   	us♀                       
+vocative          	1     	feminine 	plural   	us♀                       
+nominative        	2     	neuter   	singular 	you                       
+accusative        	2     	neuter   	singular 	you                       
+reflexive         	2     	neuter   	singular 	yourself                  
+emphatic-reflexive	2     	neuter   	singular 	your<i>self</i>           
+genitive          	2     	neuter   	singular 	yours                     
+ablative          	2     	neuter   	singular 	you                       
+dative            	2     	neuter   	singular 	you                       
+instrumental      	2     	neuter   	singular 	you                       
+locative          	2     	neuter   	singular 	you                       
+vocative          	2     	neuter   	singular 	you                       
+nominative        	2     	masculine	singular 	you♂                      
+accusative        	2     	masculine	singular 	you♂                      
+reflexive         	2     	masculine	singular 	yourself♂                 
+emphatic-reflexive	2     	masculine	singular 	your<i>self</i>♂          
+genitive          	2     	masculine	singular 	yours♂                    
+ablative          	2     	masculine	singular 	you♂                      
+dative            	2     	masculine	singular 	you♂                      
+instrumental      	2     	masculine	singular 	you♂                      
+locative          	2     	masculine	singular 	you♂                      
+vocative          	2     	masculine	singular 	you♂                      
+nominative        	2     	feminine 	singular 	you♀                      
+accusative        	2     	feminine 	singular 	you♀                      
+reflexive         	2     	feminine 	singular 	yourself♀                 
+emphatic-reflexive	2     	feminine 	singular 	your<i>self</i>♀          
+genitive          	2     	feminine 	singular 	yours♀                    
+ablative          	2     	feminine 	singular 	you♀                      
+dative            	2     	feminine 	singular 	you♀                      
+instrumental      	2     	feminine 	singular 	you♀                      
+locative          	2     	feminine 	singular 	you♀                      
+vocative          	2     	feminine 	singular 	you♀                      
+nominative        	2     	neuter   	dual     	you both                  
+accusative        	2     	neuter   	dual     	both of you               
+reflexive         	2     	neuter   	dual     	both of yourselves        
+emphatic-reflexive	2     	neuter   	dual     	both of your<i>selves</i> 
+genitive          	2     	neuter   	dual     	both of yours             
+ablative          	2     	neuter   	dual     	both of you               
+dative            	2     	neuter   	dual     	both of you               
+instrumental      	2     	neuter   	dual     	both of you               
+locative          	2     	neuter   	dual     	both of you               
+vocative          	2     	neuter   	dual     	both of you               
+nominative        	2     	masculine	dual     	you both♂                 
+accusative        	2     	masculine	dual     	both of you♂              
+reflexive         	2     	masculine	dual     	both of yourselves♂       
+emphatic-reflexive	2     	masculine	dual     	both of your<i>selves</i>♂
+genitive          	2     	masculine	dual     	both of yours♂            
+ablative          	2     	masculine	dual     	both of you♂              
+dative            	2     	masculine	dual     	both of you♂              
+instrumental      	2     	masculine	dual     	both of you♂              
+locative          	2     	masculine	dual     	both of you♂              
+vocative          	2     	masculine	dual     	both of you♂              
+nominative        	2     	feminine 	dual     	you both♀                 
+accusative        	2     	feminine 	dual     	both of you♀              
+reflexive         	2     	feminine 	dual     	both of yourselves♀       
+emphatic-reflexive	2     	feminine 	dual     	both of your<i>selves</i>♀
+genitive          	2     	feminine 	dual     	both of yours♀            
+ablative          	2     	feminine 	dual     	both of you♀              
+dative            	2     	feminine 	dual     	both of you♀              
+instrumental      	2     	feminine 	dual     	both of you♀              
+locative          	2     	feminine 	dual     	both of you♀              
+vocative          	2     	feminine 	dual     	both of you♀              
+nominative        	2     	neuter   	plural   	you all                   
+accusative        	2     	neuter   	plural   	all of you                
+reflexive         	2     	neuter   	plural   	all of yourselves         
+emphatic-reflexive	2     	neuter   	plural   	all of your<i>selves</i>  
+genitive          	2     	neuter   	plural   	all of yours              
+ablative          	2     	neuter   	plural   	all of you                
+dative            	2     	neuter   	plural   	all of you                
+instrumental      	2     	neuter   	plural   	all of you                
+locative          	2     	neuter   	plural   	all of you                
+vocative          	2     	neuter   	plural   	all of you                
+nominative        	2     	masculine	plural   	you all♂                  
+accusative        	2     	masculine	plural   	all of you♂               
+reflexive         	2     	masculine	plural   	all of yourselves♂        
+emphatic-reflexive	2     	masculine	plural   	all of your<i>selves</i>♂ 
+genitive          	2     	masculine	plural   	all of yours♂             
+ablative          	2     	masculine	plural   	all of you♂               
+dative            	2     	masculine	plural   	all of you♂               
+instrumental      	2     	masculine	plural   	all of you♂               
+locative          	2     	masculine	plural   	all of you♂               
+vocative          	2     	masculine	plural   	all of you♂               
+nominative        	2     	feminine 	plural   	you all♀                  
+accusative        	2     	feminine 	plural   	all of you♀               
+reflexive         	2     	feminine 	plural   	all of yourselves♀        
+emphatic-reflexive	2     	feminine 	plural   	all of your<i>selves</i>♀ 
+genitive          	2     	feminine 	plural   	all of yours♀             
+ablative          	2     	feminine 	plural   	all of you♀               
+dative            	2     	feminine 	plural   	all of you♀               
+instrumental      	2     	feminine 	plural   	all of you♀               
+locative          	2     	feminine 	plural   	all of you♀               
+vocative          	2     	feminine 	plural   	all of you♀               
+nominative        	3     	masculine	singular 	he                        
+accusative        	3     	masculine	singular 	him                       
+reflexive         	3     	masculine	singular 	himself                   
+emphatic-reflexive	3     	masculine	singular 	him<i>self</i>            
+genitive          	3     	masculine	singular 	his                       
+ablative          	3     	masculine	singular 	him                       
+dative            	3     	masculine	singular 	him                       
+instrumental      	3     	masculine	singular 	him                       
+locative          	3     	masculine	singular 	him                       
+vocative          	3     	masculine	singular 	                          
+nominative        	3     	feminine 	singular 	she                       
+accusative        	3     	feminine 	singular 	her                       
+reflexive         	3     	feminine 	singular 	herself                   
+emphatic-reflexive	3     	feminine 	singular 	her<i>self</i>            
+genitive          	3     	feminine 	singular 	her                       
+ablative          	3     	feminine 	singular 	her                       
+dative            	3     	feminine 	singular 	her                       
+instrumental      	3     	feminine 	singular 	her                       
+locative          	3     	feminine 	singular 	her                       
+vocative          	3     	feminine 	singular 	                          
+nominative        	3     	neuter   	singular 	it                        
+accusative        	3     	neuter   	singular 	it                        
+reflexive         	3     	neuter   	singular 	itself                    
+emphatic-reflexive	3     	neuter   	singular 	it<i>self</i>             
+genitive          	3     	neuter   	singular 	its                        
+ablative          	3     	neuter   	singular 	it                        
+dative            	3     	neuter   	singular 	it                        
+instrumental      	3     	neuter   	singular 	it                        
+locative          	3     	neuter   	singular 	it                        
+vocative          	3     	neuter   	singular 	                          
+nominative        	3     	masculine	dual     	they both♂                
+accusative        	3     	masculine	dual     	both of them♂             
+reflexive         	3     	masculine	dual     	both of themselves♂       
+emphatic-reflexive	3     	masculine	dual     	both of them<i>selves</i>♂
+genitive          	3     	masculine	dual     	both of theirs♂           
+ablative          	3     	masculine	dual     	both of them♂             
+dative            	3     	masculine	dual     	both of them♂             
+instrumental      	3     	masculine	dual     	both of them♂             
+locative          	3     	masculine	dual     	both of them♂             
+vocative          	3     	masculine	dual     	                          
+nominative        	3     	feminine 	dual     	they both♀                
+accusative        	3     	feminine 	dual     	both of them♀             
+reflexive         	3     	feminine 	dual     	both of themselves♀       
+emphatic-reflexive	3     	feminine 	dual     	both of them<i>selves</i>♀
+genitive          	3     	feminine 	dual     	both of theirs♀           
+ablative          	3     	feminine 	dual     	both of them♀             
+dative            	3     	feminine 	dual     	both of them♀             
+instrumental      	3     	feminine 	dual     	both of them♀             
+locative          	3     	feminine 	dual     	both of them♀             
+vocative          	3     	feminine 	dual     	                          
+nominative        	3     	neuter   	dual     	they both                 
+accusative        	3     	neuter   	dual     	both of them              
+reflexive         	3     	neuter   	dual     	both of themselves        
+emphatic-reflexive	3     	neuter   	dual     	both of them<i>selves</i> 
+genitive          	3     	neuter   	dual     	both of theirs            
+ablative          	3     	neuter   	dual     	both of them              
+dative            	3     	neuter   	dual     	both of them              
+instrumental      	3     	neuter   	dual     	both of them              
+locative          	3     	neuter   	dual     	both of them              
+vocative          	3     	neuter   	dual     	                          
+nominative        	3     	masculine	plural   	they♂                     
+accusative        	3     	masculine	plural   	them♂                     
+reflexive         	3     	masculine	plural   	themselves♂               
+emphatic-reflexive	3     	masculine	plural   	them<i>selves</i>♂        
+genitive          	3     	masculine	plural   	theirs♂                   
+ablative          	3     	masculine	plural   	them♂                     
+dative            	3     	masculine	plural   	them♂                     
+instrumental      	3     	masculine	plural   	them♂                     
+locative          	3     	masculine	plural   	them♂                     
+vocative          	3     	masculine	plural   	                          
+nominative        	3     	feminine 	plural   	they♀                     
+accusative        	3     	feminine 	plural   	them♀                     
+reflexive         	3     	feminine 	plural   	themselves♀               
+emphatic-reflexive	3     	feminine 	plural   	them<i>selves</i>♀        
+genitive          	3     	feminine 	plural   	theirs♀                   
+ablative          	3     	feminine 	plural   	them♀                     
+dative            	3     	feminine 	plural   	them♀                     
+instrumental      	3     	feminine 	plural   	them♀                     
+locative          	3     	feminine 	plural   	them♀                     
+vocative          	3     	feminine 	plural   	                          
+nominative        	3     	neuter   	plural   	they                      
+accusative        	3     	neuter   	plural   	them                      
+reflexive         	3     	neuter   	plural   	themselves                
+emphatic-reflexive	3     	neuter   	plural   	them<i>selves</i>         
+genitive          	3     	neuter   	plural   	theirs                    
+ablative          	3     	neuter   	plural   	them                      
+dative            	3     	neuter   	plural   	them                      
+instrumental      	3     	neuter   	plural   	them                      
+locative          	3     	neuter   	plural   	them                      
+vocative          	3     	neuter   	plural   	                          
+nominative        	interrogative      	masculine	singular 	who♂                      	
+accusative        	interrogative      	masculine	singular 	whom♂                     	
+reflexive         	interrogative      	masculine	singular 	whoseself♂                	
+emphatic-reflexive	interrogative      	masculine	singular 	whose<i>self</i>♂         	
+genitive          	interrogative      	masculine	singular 	whose♂                    	
+ablative          	interrogative      	masculine	singular 	whose♂                    	
+dative            	interrogative      	masculine	singular 	whom♂                     	
+instrumental      	interrogative      	masculine	singular 	whom♂                     	
+locative          	interrogative      	masculine	singular 	whom♂                     	
+vocative          	interrogative      	masculine	singular 	whom♂                     	
+nominative        	interrogative      	feminine 	singular 	who♀                      	
+accusative        	interrogative      	feminine 	singular 	whom♀                     	
+reflexive         	interrogative      	feminine 	singular 	whoseself♀                	
+emphatic-reflexive	interrogative      	feminine 	singular 	whose<i>self</i>♀         	
+genitive          	interrogative      	feminine 	singular 	whose♀                    	
+ablative          	interrogative      	feminine 	singular 	whose♀                    	
+dative            	interrogative      	feminine 	singular 	whom♀                     	
+instrumental      	interrogative      	feminine 	singular 	whom♀                     	
+locative          	interrogative      	feminine 	singular 	whom♀                     	
+vocative          	interrogative      	feminine 	singular 	whom♀                     	
+nominative        	interrogative      	neuter   	singular 	what                      	
+accusative        	interrogative      	neuter   	singular 	what                      	
+reflexive         	interrogative      	neuter   	singular 	what                      	
+emphatic-reflexive	interrogative      	neuter   	singular 	what                      	
+genitive          	interrogative      	neuter   	singular 	what                      	
+ablative          	interrogative      	neuter   	singular 	what                      	
+dative            	interrogative      	neuter   	singular 	what                      	
+instrumental      	interrogative      	neuter   	singular 	what                      
+locative          	interrogative      	neuter   	singular 	what                      
+vocative          	interrogative      	neuter   	singular 	what                      
+nominative        	interrogative      	masculine	dual     	what two♂                 
+accusative        	interrogative      	masculine	dual     	what two♂                 
+reflexive         	interrogative      	masculine	dual     	what two♂                 
+emphatic-reflexive	interrogative      	masculine	dual     	what two♂                 
+genitive          	interrogative      	masculine	dual     	what two♂                 
+ablative          	interrogative      	masculine	dual     	what two♂                 
+dative            	interrogative      	masculine	dual     	what two♂                 
+instrumental      	interrogative      	masculine	dual     	what two♂                 
+locative          	interrogative      	masculine	dual     	what two♂                 
+vocative          	interrogative      	masculine	dual     	what two♂                 
+nominative        	interrogative      	feminine 	dual     	what two♀                 
+accusative        	interrogative      	feminine 	dual     	what two♀                 
+reflexive         	interrogative      	feminine 	dual     	what two♀                 
+emphatic-reflexive	interrogative      	feminine 	dual     	what two♀                 
+genitive          	interrogative      	feminine 	dual     	what two♀                 
+ablative          	interrogative      	feminine 	dual     	what two♀                 
+dative            	interrogative      	feminine 	dual     	what two♀                 
+instrumental      	interrogative      	feminine 	dual     	what two♀                 
+locative          	interrogative      	feminine 	dual     	what two♀                 
+vocative          	interrogative      	feminine 	dual     	what two♀                 
+nominative        	interrogative      	neuter   	dual     	what two                  
+accusative        	interrogative      	neuter   	dual     	what two                  
+reflexive         	interrogative      	neuter   	dual     	what two                  
+emphatic-reflexive	interrogative      	neuter   	dual     	what two                  
+genitive          	interrogative      	neuter   	dual     	what two                  
+ablative          	interrogative      	neuter   	dual     	what two                  
+dative            	interrogative      	neuter   	dual     	what two                  
+instrumental      	interrogative      	neuter   	dual     	what two                  
+locative          	interrogative      	neuter   	dual     	what two                  
+vocative          	interrogative      	neuter   	dual     	what two                  
+nominative        	interrogative      	masculine	plural   	who all♂                  	
+accusative        	interrogative      	masculine	plural   	who all♂                  	
+reflexive         	interrogative      	masculine	plural   	who all♂                  	
+emphatic-reflexive	interrogative      	masculine	plural   	who all♂                  	
+genitive          	interrogative      	masculine	plural   	who all♂                  	
+ablative          	interrogative      	masculine	plural   	who all♂                  	
+dative            	interrogative      	masculine	plural   	who all♂                  	
+instrumental      	interrogative      	masculine	plural   	who all♂                  	
+locative          	interrogative      	masculine	plural   	who all♂                  	
+vocative          	interrogative      	masculine	plural   	who all♂                  	
+nominative        	interrogative      	feminine 	plural   	who all♀                  	
+accusative        	interrogative      	feminine 	plural   	who all♀                  	
+reflexive         	interrogative      	feminine 	plural   	who all♀                  	
+emphatic-reflexive	interrogative      	feminine 	plural   	who all♀                  	
+genitive          	interrogative      	feminine 	plural   	who all♀                  	
+ablative          	interrogative      	feminine 	plural   	who all♀                  	
+dative            	interrogative      	feminine 	plural   	who all♀                  	
+instrumental      	interrogative      	feminine 	plural   	who all♀                  	
+locative          	interrogative      	feminine 	plural   	who all♀                  	
+vocative          	interrogative      	feminine 	plural   	who all♀                  	
+nominative        	interrogative      	neuter   	plural   	what ones                 	
+accusative        	interrogative      	neuter   	plural   	what ones                 	
+reflexive         	interrogative      	neuter   	plural   	what ones                 	
+emphatic-reflexive	interrogative      	neuter   	plural   	what ones                 	
+genitive          	interrogative      	neuter   	plural   	what ones                 	
+ablative          	interrogative      	neuter   	plural   	what ones                 	
+dative            	interrogative      	neuter   	plural   	what ones                 	
+instrumental      	interrogative      	neuter   	plural   	what ones                 	
+locative          	interrogative      	neuter   	plural   	what ones                 	
+vocative          	interrogative      	neuter   	plural   	what ones                 	
+nominative        	interrogative      	masculine	singular 	which♂                    	
+accusative        	interrogative      	masculine	singular 	which♂                    	
+reflexive         	interrogative      	masculine	singular 	which♂                    	
+emphatic-reflexive	interrogative      	masculine	singular 	which♂                    	
+genitive          	interrogative      	masculine	singular 	which♂                    	
+ablative          	interrogative      	masculine	singular 	which♂                    	
+dative            	interrogative      	masculine	singular 	which♂                    	
+instrumental      	interrogative      	masculine	singular 	which♂                    	
+locative          	interrogative      	masculine	singular 	which♂                    	
+vocative          	interrogative      	masculine	singular 	which♂                    	
+nominative        	interrogative      	feminine 	singular 	which♀                    	
+accusative        	interrogative      	feminine 	singular 	which♀                    	
+reflexive         	interrogative      	feminine 	singular 	which♀                    	
+emphatic-reflexive	interrogative      	feminine 	singular 	which♀                    	
+genitive          	interrogative      	feminine 	singular 	which♀                    	
+ablative          	interrogative      	feminine 	singular 	which♀                    	
+dative            	interrogative      	feminine 	singular 	which♀                    	
+instrumental      	interrogative      	feminine 	singular 	which♀                    	
+locative          	interrogative      	feminine 	singular 	which♀                    	
+vocative          	interrogative      	feminine 	singular 	which♀                    	
+nominative        	interrogative      	neuter   	singular 	which                     	
+accusative        	interrogative      	neuter   	singular 	which                     	
+reflexive         	interrogative      	neuter   	singular 	which                     	
+emphatic-reflexive	interrogative      	neuter   	singular 	which                     	
+genitive          	interrogative      	neuter   	singular 	which                     	
+ablative          	interrogative      	neuter   	singular 	which                     	
+dative            	interrogative      	neuter   	singular 	which                     
+instrumental      	interrogative      	neuter   	singular 	which                     
+locative          	interrogative      	neuter   	singular 	which                     
+vocative          	interrogative      	neuter   	singular 	which                     
+nominative        	interrogative      	masculine	dual     	which two♂                
+accusative        	interrogative      	masculine	dual     	which two♂                
+reflexive         	interrogative      	masculine	dual     	which two♂                
+emphatic-reflexive	interrogative      	masculine	dual     	which two♂                
+genitive          	interrogative      	masculine	dual     	which two♂                
+ablative          	interrogative      	masculine	dual     	which two♂                
+dative            	interrogative      	masculine	dual     	which two♂                
+instrumental      	interrogative      	masculine	dual     	which two♂                
+locative          	interrogative      	masculine	dual     	which two♂                
+vocative          	interrogative      	masculine	dual     	which two♂                
+nominative        	interrogative      	feminine 	dual     	which two♀                
+accusative        	interrogative      	feminine 	dual     	which two♀                
+reflexive         	interrogative      	feminine 	dual     	which two♀                
+emphatic-reflexive	interrogative      	feminine 	dual     	which two♀                
+genitive          	interrogative      	feminine 	dual     	which two♀                
+ablative          	interrogative      	feminine 	dual     	which two♀                
+dative            	interrogative      	feminine 	dual     	which two♀                
+instrumental      	interrogative      	feminine 	dual     	which two♀                
+locative          	interrogative      	feminine 	dual     	which two♀                
+vocative          	interrogative      	feminine 	dual     	which two♀                
+nominative        	interrogative      	neuter   	dual     	which two                 
+accusative        	interrogative      	neuter   	dual     	which two                 
+reflexive         	interrogative      	neuter   	dual     	which two                 
+emphatic-reflexive	interrogative      	neuter   	dual     	which two                 
+genitive          	interrogative      	neuter   	dual     	which two                 
+ablative          	interrogative      	neuter   	dual     	which two                 
+dative            	interrogative      	neuter   	dual     	which two                 
+instrumental      	interrogative      	neuter   	dual     	which two                 
+locative          	interrogative      	neuter   	dual     	which two                 
+vocative          	interrogative      	neuter   	dual     	which two                 
+nominative        	interrogative      	masculine	plural   	which ones♂               	
+accusative        	interrogative      	masculine	plural   	which ones♂               	
+reflexive         	interrogative      	masculine	plural   	which ones♂               	
+emphatic-reflexive	interrogative      	masculine	plural   	which ones♂               	
+genitive          	interrogative      	masculine	plural   	which ones♂               	
+ablative          	interrogative      	masculine	plural   	which ones♂               	
+dative            	interrogative      	masculine	plural   	which ones♂               	
+instrumental      	interrogative      	masculine	plural   	which ones♂               	
+locative          	interrogative      	masculine	plural   	which ones♂               	
+vocative          	interrogative      	masculine	plural   	which ones♂               	
+nominative        	interrogative      	feminine 	plural   	which ones♀               	
+accusative        	interrogative      	feminine 	plural   	which ones♀               	
+reflexive         	interrogative      	feminine 	plural   	which ones♀               	
+emphatic-reflexive	interrogative      	feminine 	plural   	which ones♀               	
+genitive          	interrogative      	feminine 	plural   	which ones♀               	
+ablative          	interrogative      	feminine 	plural   	which ones♀               	
+dative            	interrogative      	feminine 	plural   	which ones♀               	
+instrumental      	interrogative      	feminine 	plural   	which ones♀               	
+locative          	interrogative      	feminine 	plural   	which ones♀               	
+vocative          	interrogative      	feminine 	plural   	which ones♀               	
+nominative        	interrogative      	neuter   	plural   	which ones                	
+accusative        	interrogative      	neuter   	plural   	which ones                	
+reflexive         	interrogative      	neuter   	plural   	which ones                	
+emphatic-reflexive	interrogative      	neuter   	plural   	which ones                	
+genitive          	interrogative      	neuter   	plural   	which ones                	
+ablative          	interrogative      	neuter   	plural   	which ones                	
+dative            	interrogative      	neuter   	plural   	which ones                
+instrumental      	interrogative      	neuter   	plural   	which ones                
+locative          	interrogative      	neuter   	plural   	which ones                
+vocative          	interrogative      	neuter   	plural   	which ones                
+nominative        	demonstrative      	masculine	singular 	that♂                     	
+accusative        	demonstrative      	masculine	singular 	that♂                     	
+reflexive         	demonstrative      	masculine	singular 	that♂                     	
+emphatic-reflexive	demonstrative      	masculine	singular 	that♂                     	
+genitive          	demonstrative      	masculine	singular 	that♂                     	
+ablative          	demonstrative      	masculine	singular 	that♂                     	
+dative            	demonstrative      	masculine	singular 	that♂                     	
+instrumental      	demonstrative      	masculine	singular 	that♂                     	
+locative          	demonstrative      	masculine	singular 	that♂                     	
+vocative          	demonstrative      	masculine	singular 	that♂                     	
+nominative        	demonstrative      	feminine 	singular 	that♀                     	
+accusative        	demonstrative      	feminine 	singular 	that♀                     	
+reflexive         	demonstrative      	feminine 	singular 	that♀                     	
+emphatic-reflexive	demonstrative      	feminine 	singular 	that♀                     	
+genitive          	demonstrative      	feminine 	singular 	that♀                     	
+ablative          	demonstrative      	feminine 	singular 	that♀                     	
+dative            	demonstrative      	feminine 	singular 	that♀                     	
+instrumental      	demonstrative      	feminine 	singular 	that♀                     	
+locative          	demonstrative      	feminine 	singular 	that♀                     	
+vocative          	demonstrative      	feminine 	singular 	that♀                     	
+nominative        	demonstrative      	neuter   	singular 	that                      	
+accusative        	demonstrative      	neuter   	singular 	that                      	
+reflexive         	demonstrative      	neuter   	singular 	that                      	
+emphatic-reflexive	demonstrative      	neuter   	singular 	that                      	
+genitive          	demonstrative      	neuter   	singular 	that                      	
+ablative          	demonstrative      	neuter   	singular 	that                      	
+dative            	demonstrative      	neuter   	singular 	that                      	
+instrumental      	demonstrative      	neuter   	singular 	that                      	
+locative          	demonstrative      	neuter   	singular 	that                      	
+vocative          	demonstrative      	neuter   	singular 	that                      	
+nominative        	demonstrative      	masculine	dual     	those two♂                
+accusative        	demonstrative      	masculine	dual     	those two♂                
+reflexive         	demonstrative      	masculine	dual     	those two♂                
+emphatic-reflexive	demonstrative      	masculine	dual     	those two♂                
+genitive          	demonstrative      	masculine	dual     	those two♂                
+ablative          	demonstrative      	masculine	dual     	those two♂                
+dative            	demonstrative      	masculine	dual     	those two♂                
+instrumental      	demonstrative      	masculine	dual     	those two♂                
+locative          	demonstrative      	masculine	dual     	those two♂                
+vocative          	demonstrative      	masculine	dual     	those two♂                
+nominative        	demonstrative      	feminine 	dual     	those two♀                
+accusative        	demonstrative      	feminine 	dual     	those two♀                
+reflexive         	demonstrative      	feminine 	dual     	those two♀                
+emphatic-reflexive	demonstrative      	feminine 	dual     	those two♀                
+genitive          	demonstrative      	feminine 	dual     	those two♀                
+ablative          	demonstrative      	feminine 	dual     	those two♀                
+dative            	demonstrative      	feminine 	dual     	those two♀                
+instrumental      	demonstrative      	feminine 	dual     	those two♀                
+locative          	demonstrative      	feminine 	dual     	those two♀                
+vocative          	demonstrative      	feminine 	dual     	those two♀                
+nominative        	demonstrative      	neuter   	dual     	those two                 
+accusative        	demonstrative      	neuter   	dual     	those two                 
+reflexive         	demonstrative      	neuter   	dual     	those two                 
+emphatic-reflexive	demonstrative      	neuter   	dual     	those two                 
+genitive          	demonstrative      	neuter   	dual     	those two                 
+ablative          	demonstrative      	neuter   	dual     	those two                 
+dative            	demonstrative      	neuter   	dual     	those two                 
+instrumental      	demonstrative      	neuter   	dual     	those two                 
+locative          	demonstrative      	neuter   	dual     	those two                 
+vocative          	demonstrative      	neuter   	dual     	those two                 
+nominative        	demonstrative      	masculine	plural   	those♂                    	
+accusative        	demonstrative      	masculine	plural   	those♂                    	
+reflexive         	demonstrative      	masculine	plural   	those♂                    	
+emphatic-reflexive	demonstrative      	masculine	plural   	those♂                    	
+genitive          	demonstrative      	masculine	plural   	those♂                    	
+ablative          	demonstrative      	masculine	plural   	those♂                    	
+dative            	demonstrative      	masculine	plural   	those♂                    	
+instrumental      	demonstrative      	masculine	plural   	those♂                    	
+locative          	demonstrative      	masculine	plural   	those♂                    	
+vocative          	demonstrative      	masculine	plural   	those♂                    	
+nominative        	demonstrative      	feminine 	plural   	those♀                    	
+accusative        	demonstrative      	feminine 	plural   	those♀                    	
+reflexive         	demonstrative      	feminine 	plural   	those♀                    	
+emphatic-reflexive	demonstrative      	feminine 	plural   	those♀                    	
+genitive          	demonstrative      	feminine 	plural   	those♀                    	
+ablative          	demonstrative      	feminine 	plural   	those♀                    	
+dative            	demonstrative      	feminine 	plural   	those♀                    	
+instrumental      	demonstrative      	feminine 	plural   	those♀                    	
+locative          	demonstrative      	feminine 	plural   	those♀                    	
+vocative          	demonstrative      	feminine 	plural   	those♀                    	
+nominative        	demonstrative      	neuter   	plural   	those                     	
+accusative        	demonstrative      	neuter   	plural   	those                     	
+reflexive         	demonstrative      	neuter   	plural   	those                     	
+emphatic-reflexive	demonstrative      	neuter   	plural   	those                     	
+genitive          	demonstrative      	neuter   	plural   	those                     	
+ablative          	demonstrative      	neuter   	plural   	those                     	
+dative            	demonstrative      	neuter   	plural   	those                     	
+instrumental      	demonstrative      	neuter   	plural   	those                     	
+locative          	demonstrative      	neuter   	plural   	those                     	
+vocative          	demonstrative      	neuter   	plural   	those                     	
