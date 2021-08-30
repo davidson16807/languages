@@ -6,36 +6,9 @@ import collections
 # 3rd party
 import inflection
 
-def csv_dict(filename, columns, keys):
-	result = {}
-	with open(filename) as file:
-		for line in file.readlines():
-			if not line.strip().startswith('#') and not len(line.strip()) < 1:
-				cells = [column.strip(' \t\r\n*?') for column in line.split('\t') ]
-				row = {columns[i]:cells[i] for i, cell in enumerate(cells) if i < len(columns)}
-				value = {column:row[column] for column in row if column not in keys}
-				result[tuple(row[key] for key in keys)] = value if len(value) > 1 else list(value.values())[0]
-	return result
-
-def dict_function(dict_, sentinel=lambda *x: ''):
-	def result(*keys):
-		keys_tuple = tuple(keys)
-		return dict_[keys_tuple] if keys_tuple in dict_ else sentinel(*keys)
-	return result
-
-def curried_dict_function(dict_, sentinel=lambda attribute: ''):
-	def result(*keys):
-		keys_tuple = tuple(keys)
-		result = lambda attribute: dict_[keys_tuple][attribute]
-		return (result if keys_tuple in dict_ else sentinel)
-	return result
-
-
-def batch_replace(string, replacements):
-	result = string
-	for replaced, replacement in replacements:
-		result = result.replace(replaced, replacement) 
-	return result
+# in-house
+from csv_functions import csv_dict, dict_function, curried_dict_function
+from card import batch_replace, card
 
 
 emoji_possessives_templates_lookup = csv_dict('../emoji/pronoun-possessives-template.tsv',  
@@ -47,13 +20,13 @@ emoji_possessives_templates = dict_function(emoji_possessives_templates_lookup)
 en_possessives_templates_lookup = csv_dict('../english/pronoun-possessives-template.tsv',  
 	 ['possessed-case', 'possessed-gender', 'possessed-plurality', 'template'], 
 	 ['possessed-case', 'possessed-gender', 'possessed-plurality'])
-en_possessives_templates = dict_function(en_possessives_templates_lookup, sentinel=lambda *x:None)
+en_possessives_templates = dict_function(en_possessives_templates_lookup, sentinel=None)
 
 
 ie_possessives_templates_lookup = csv_dict('pronoun-possessives-template.tsv',  
 	 ['possessed-case', 'possessed-gender', 'possessed-plurality', 'template'], 
 	 ['possessed-case', 'possessed-gender', 'possessed-plurality'])
-ie_possessives_templates = dict_function(ie_possessives_templates_lookup, sentinel=lambda *x:None)
+ie_possessives_templates = dict_function(ie_possessives_templates_lookup, sentinel=None)
 
 
 
@@ -68,13 +41,13 @@ emoji_reflexives_templates = dict_function(emoji_reflexives_templates_lookup)
 en_reflexives_templates_lookup = csv_dict('../english/pronoun-reflexive-possessives-template.tsv',  
 	 ['possessed-case', 'possessed-gender', 'possessed-plurality', 'template'], 
 	 ['possessed-case', 'possessed-gender', 'possessed-plurality'])
-en_reflexives_templates = dict_function(en_reflexives_templates_lookup, sentinel=lambda *x:None)
+en_reflexives_templates = dict_function(en_reflexives_templates_lookup, sentinel=None)
 
 
 ie_reflexives_templates_lookup = csv_dict('pronoun-reflexive-possessives-template.tsv',  
 	 ['possessed-case', 'possessed-gender', 'possessed-plurality', 'template'], 
 	 ['possessed-case', 'possessed-gender', 'possessed-plurality'])
-ie_reflexives_templates = dict_function(ie_reflexives_templates_lookup, sentinel=lambda *x:None)
+ie_reflexives_templates = dict_function(ie_reflexives_templates_lookup, sentinel=None)
 
 
 

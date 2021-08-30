@@ -6,30 +6,9 @@ import collections
 # 3rd party
 import inflection
 
-def csv_dict(filename, columns, keys):
-	result = {}
-	with open(filename) as file:
-		for line in file.readlines():
-			if not line.strip().startswith('#') and not len(line.strip()) < 1:
-				cells = [column.strip(' \t\r\n*?') for column in line.split('\t') ]
-				row = {columns[i]:cells[i] for i, cell in enumerate(cells) if i < len(columns)}
-				value = {column:row[column] for column in row if column not in keys}
-				result[tuple(row[key] for key in keys)] = value if len(value) > 1 else list(value.values())[0]
-	return result
-
-def dict_function(dict_, sentinel=''):
-	def result(*keys):
-		keys_tuple = tuple(keys)
-		return dict_[keys_tuple] if keys_tuple in dict_ else sentinel
-	return result
-
-def curried_dict_function(dict_, sentinel=''):
-	def result(*keys):
-		keys_tuple = tuple(keys)
-		result = lambda attribute: dict_[keys_tuple][attribute]
-		fallback = lambda attribute: sentinel
-		return (result if keys_tuple in dict_ else fallback)
-	return result
+# in-house
+from csv_functions import csv_dict, dict_function, curried_dict_function
+from card import batch_replace, card
 
 
 en_declension_templates_lookup = csv_dict('../english/declensions-template.tsv',  
