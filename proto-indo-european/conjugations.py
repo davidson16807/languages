@@ -9,7 +9,7 @@ def csv_dict(filename, columns, keys):
 	with open(filename) as file:
 		for line in file.readlines():
 			if not line.strip().startswith('#') and not len(line.strip()) < 1:
-				cells = [column.strip() for column in line.split('\t') ]
+				cells = [column.strip(' \t\r\n*?') for column in line.split('\t') ]
 				row = {columns[i]:cells[i] for i, cell in enumerate(cells) if i < len(columns)}
 				value = {column:row[column] for column in row if column not in keys}
 				result[tuple(row[key] for key in keys)] = value if len(value) > 1 else list(value.values())[0]
@@ -117,16 +117,18 @@ for verb, voice, mood, tense, person, plurality in combinations:
 		replacements = [
 			('{{subject}}', ie_decline_pronoun('nominative', person, gender, plurality, 'enclitic')),
 			('{{object}}', target_voice_row('ie-object')),
-			('imperative', f'c1::{target_voice_row('ie-imperative')}'),
-			('optative', f'c1::{target_voice_row('ie-optative')}'),
-			('participle', f'c1::{target_voice_row('ie-participle')}'),
-			('past-indicative', f'c1::{target_voice_row('ie-past-indicative')}'),
-			('present-indicative', f'c1::{target_voice_row('ie-present-indicative')}'),
-			('subjunctive', f'c1::{target_voice_row('ie-subjunctive')}'),
+			('imperative', f'c1::{target_voice_row("ie-imperative")}'),
+			('optative', f'c1::{target_voice_row("ie-optative")}'),
+			('participle', f'c1::{target_voice_row("ie-participle")}'),
+			('past-indicative', f'c1::{target_voice_row("ie-past-indicative")}'),
+			('present-indicative', f'c1::{target_voice_row("ie-present-indicative")}'),
+			('subjunctive', f'c1::{target_voice_row("ie-subjunctive")}'),
 			('mₒ', 'm̥'),
 			('nₒ', 'n̥'),
 			('rₒ', 'r̥'),
 			('lₒ', 'l̥'),
+			('(', ''),
+			(')', ''),
 		]
 		for replaced, replacement in replacements:
 			ie = ie.replace(replaced, replacement)
@@ -135,5 +137,5 @@ for verb, voice, mood, tense, person, plurality in combinations:
 		emoji = emoji.replace('{{subject}}', emoji_decline_pronoun(person, gender, plurality))
 
 		if '{{c1::}}' not in ie:
-			emoji_style = "font-size:11em; font-family: 'DejaVu Sans', 'sans-serif', Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
+			emoji_style = "font-size:11em; font-family: 'DejaVu Sans', 'sans-serif', 'Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
 			print(f'<div style="{emoji_style}">{emoji}</div><div style="font-size:small">{en}</div><div style="font-size:large">{ie}</div>')

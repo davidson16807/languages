@@ -1,65 +1,65 @@
 # possessed-case  	possessed-gender	possessed-plurality
-nominative        	neuter          	singular           	{{audience-address}} {{possessive}} house is over there                                                   
-nominative        	masculine       	singular           	{{audience-address}} {{possessive}} son is over there                                                
-nominative        	feminine        	singular           	{{audience-address}} {{possessive}} daughter is over there                                                
-nominative        	neuter          	dual               	{{audience-address}} {{possessive}} two houses are over there                                                 
-nominative        	masculine       	dual               	{{audience-address}} {{possessive}} two sons are over there                                          
-nominative        	feminine        	dual               	{{audience-address}} {{possessive}} two daughters are over there                                          
-nominative        	neuter          	plural             	{{audience-address}} {{possessive}} houses are over there                                                
-nominative        	masculine       	plural             	{{audience-address}} {{possessive}} sons are over there                                              
-nominative        	feminine        	plural             	{{audience-address}} {{possessive}} daughters are over there                                              
+nominative        	neuter          	singular           	{{audience-address}} {{possessive}} house is over there                                      
+nominative        	masculine       	singular           	{{audience-address}} {{possessive}} son is over there                                        
+nominative        	feminine        	singular           	{{audience-address}} {{possessive}} daughter is over there                                   
+nominative        	neuter          	dual               	{{audience-address}} {{possessive}} two houses are over there                                
+nominative        	masculine       	dual               	{{audience-address}} {{possessive}} two sons are over there                                  
+nominative        	feminine        	dual               	{{audience-address}} {{possessive}} two daughters are over there                             
+nominative        	neuter          	plural             	{{audience-address}} {{possessive}} houses are over there                                    
+nominative        	masculine       	plural             	{{audience-address}} {{possessive}} sons are over there                                      
+nominative        	feminine        	plural             	{{audience-address}} {{possessive}} daughters are over there                                 
                   
-accusative        	neuter          	singular           	{{audience-address}} this is {{possessive}} house                                                         
-accusative        	masculine       	singular           	{{audience-address}} this man is {{possessive}} son                                                  
-accusative        	feminine        	singular           	{{audience-address}} this woman is {{possessive}} daughter                                                
-accusative        	neuter          	dual               	{{audience-address}} these are {{possessive}} two houses                                                     
-accusative        	masculine       	dual               	{{audience-address}} these two men are {{possessive}} sons                                           
-accusative        	feminine        	dual               	{{audience-address}} these two women are {{possessive}} daughters                                         
-accusative        	neuter          	plural             	{{audience-address}} these are {{possessive}} houses                                                 
-accusative        	masculine       	plural             	{{audience-address}} these men are {{possessive}} sons                                               
-accusative        	feminine        	plural             	{{audience-address}} these women are {{possessive}} daughters                                             
+accusative        	neuter          	singular           	{{audience-address}} this is {{possessive}} house                                            
+accusative        	masculine       	singular           	{{audience-address}} this man is {{possessive}} son                                          
+accusative        	feminine        	singular           	{{audience-address}} this woman is {{possessive}} daughter                                   
+accusative        	neuter          	dual               	{{audience-address}} these are {{possessive}} two houses                                     
+accusative        	masculine       	dual               	{{audience-address}} these two men are {{possessive}} sons                                   
+accusative        	feminine        	dual               	{{audience-address}} these two women are {{possessive}} daughters                            
+accusative        	neuter          	plural             	{{audience-address}} these are {{possessive}} houses                                         
+accusative        	masculine       	plural             	{{audience-address}} these men are {{possessive}} sons                                       
+accusative        	feminine        	plural             	{{audience-address}} these women are {{possessive}} daughters                                
                   
-dative            	neuter          	singular           	{{audience-address}} the man directs the horse to {{possessive}} house                                         
-dative            	masculine       	singular           	{{audience-address}} the man directs the horse to {{possessive}} son                                      
-dative            	feminine        	singular           	{{audience-address}} the man directs the horse to {{possessive}} daughter                                      
-dative            	neuter          	dual               	{{audience-address}} the man directs the horse to {{possessive}} two houses                                   
-dative            	masculine       	dual               	{{audience-address}} the man directs the horse to {{possessive}} two sons                                     
-dative            	feminine        	dual               	{{audience-address}} the man directs the horse to {{possessive}} two daughters                                     
-dative            	neuter          	plural             	{{audience-address}} the man directs the horse to {{possessive}} houses                                   
-dative            	masculine       	plural             	{{audience-address}} the man directs the horse to {{possessive}} sons                                     
-dative            	feminine        	plural             	{{audience-address}} the man directs the horse to {{possessive}} daughters                                     
+dative            	neuter          	singular           	{{audience-address}} the man directs the horse to {{possessive}} house                       
+dative            	masculine       	singular           	{{audience-address}} the man directs the horse to {{possessive}} son                         
+dative            	feminine        	singular           	{{audience-address}} the man directs the horse to {{possessive}} daughter                    
+dative            	neuter          	dual               	{{audience-address}} the man directs the horse to {{possessive}} two houses                  
+dative            	masculine       	dual               	{{audience-address}} the man directs the horse to {{possessive}} two sons                    
+dative            	feminine        	dual               	{{audience-address}} the man directs the horse to {{possessive}} two daughters               
+dative            	neuter          	plural             	{{audience-address}} the man directs the horse to {{possessive}} houses                      
+dative            	masculine       	plural             	{{audience-address}} the man directs the horse to {{possessive}} sons                        
+dative            	feminine        	plural             	{{audience-address}} the man directs the horse to {{possessive}} daughters                   
                   
-ablative          	neuter          	singular           	{{audience-address}} the man directs the horse from {{possessive}} house                                       
-ablative          	masculine       	singular           	{{audience-address}} the man directs the horse from {{possessive}} son                                    
-ablative          	feminine        	singular           	{{audience-address}} the man directs the horse from {{possessive}} daughter                                    
-ablative          	neuter          	dual               	{{audience-address}} the man directs the horse from {{possessive}} two houses                                 
-ablative          	masculine       	dual               	{{audience-address}} the man directs the horse from {{possessive}} two sons                                   
-ablative          	feminine        	dual               	{{audience-address}} the man directs the horse from {{possessive}} two daughters                                   
-ablative          	neuter          	plural             	{{audience-address}} the man directs the horse from {{possessive}} houses                                 
-ablative          	masculine       	plural             	{{audience-address}} the man directs the horse from {{possessive}} sons                                   
-ablative          	feminine        	plural             	{{audience-address}} the man directs the horse from {{possessive}} daughters                                   
+ablative          	neuter          	singular           	{{audience-address}} the man directs the horse away from {{possessive}} house                
+ablative          	masculine       	singular           	{{audience-address}} the man directs the horse away from {{possessive}} son                  
+ablative          	feminine        	singular           	{{audience-address}} the man directs the horse away from {{possessive}} daughter             
+ablative          	neuter          	dual               	{{audience-address}} the man directs the horse away from {{possessive}} two houses           
+ablative          	masculine       	dual               	{{audience-address}} the man directs the horse away from {{possessive}} two sons             
+ablative          	feminine        	dual               	{{audience-address}} the man directs the horse away from {{possessive}} two daughters        
+ablative          	neuter          	plural             	{{audience-address}} the man directs the horse away from {{possessive}} houses               
+ablative          	masculine       	plural             	{{audience-address}} the man directs the horse away from {{possessive}} sons                 
+ablative          	feminine        	plural             	{{audience-address}} the man directs the horse away from {{possessive}} daughters            
                   
-instrumental      	neuter          	singular           	{{audience-address}} the man directs the horse using {{possessive}} rope                                     
-instrumental      	masculine       	singular           	{{audience-address}} the man directs the horse using {{possessive}} son                                 
-instrumental      	feminine        	singular           	{{audience-address}} the man directs the horse using {{possessive}} daughter                                 
-instrumental      	neuter          	dual               	{{audience-address}} the man directs the horse using {{possessive}} two ropes                              
-instrumental      	masculine       	dual               	{{audience-address}} the man directs the horse using {{possessive}} two sons                                
-instrumental      	feminine        	dual               	{{audience-address}} the man directs the horse using {{possessive}} two daughters                                
-instrumental      	neuter          	plural             	{{audience-address}} the man directs the horse using {{possessive}} ropes                         
-instrumental      	masculine       	plural             	{{audience-address}} the man directs the horse using {{possessive}} sons                                
-instrumental      	feminine        	plural             	{{audience-address}} the man directs the horse using {{possessive}} daughters                                
+instrumental      	neuter          	singular           	{{audience-address}} the man directs the horse with [the help of] {{possessive}} rope                     
+instrumental      	masculine       	singular           	{{audience-address}} the man directs the horse with [the help of] {{possessive}} son                      
+instrumental      	feminine        	singular           	{{audience-address}} the man directs the horse with [the help of] {{possessive}} daughter                 
+instrumental      	neuter          	dual               	{{audience-address}} the man directs the horse with [the help of] {{possessive}} two ropes                
+instrumental      	masculine       	dual               	{{audience-address}} the man directs the horse with [the help of] {{possessive}} two sons                 
+instrumental      	feminine        	dual               	{{audience-address}} the man directs the horse with [the help of] {{possessive}} two daughters            
+instrumental      	neuter          	plural             	{{audience-address}} the man directs the horse with [the help of] {{possessive}} ropes                    
+instrumental      	masculine       	plural             	{{audience-address}} the man directs the horse with [the help of] {{possessive}} sons                     
+instrumental      	feminine        	plural             	{{audience-address}} the man directs the horse with [the help of] {{possessive}} daughters                
                   
-locative          	neuter          	singular           	{{audience-address}} the man directs the horse near {{possessive}} house                                              
-locative          	masculine       	singular           	{{audience-address}} the man directs the horse near {{possessive}} son                                           
-locative          	feminine        	singular           	{{audience-address}} the man directs the horse near {{possessive}} daughter                                           
-locative          	neuter          	dual               	{{audience-address}} the man directs the horse near {{possessive}} two houses                                        
-locative          	masculine       	dual               	{{audience-address}} the man directs the horse near {{possessive}} two sons                                          
-locative          	feminine        	dual               	{{audience-address}} the man directs the horse near {{possessive}} two daughters                                          
-locative          	neuter          	plural             	{{audience-address}} the man directs the horse near {{possessive}} houses                                        
-locative          	masculine       	plural             	{{audience-address}} the man directs the horse near {{possessive}} sons                                          
-locative          	feminine        	plural             	{{audience-address}} the man directs the horse near {{possessive}} daughters                                          
+locative          	neuter          	singular           	{{audience-address}} the man directs the horse near {{possessive}} house                     
+locative          	masculine       	singular           	{{audience-address}} the man directs the horse near {{possessive}} son                       
+locative          	feminine        	singular           	{{audience-address}} the man directs the horse near {{possessive}} daughter                  
+locative          	neuter          	dual               	{{audience-address}} the man directs the horse near {{possessive}} two houses                
+locative          	masculine       	dual               	{{audience-address}} the man directs the horse near {{possessive}} two sons                  
+locative          	feminine        	dual               	{{audience-address}} the man directs the horse near {{possessive}} two daughters             
+locative          	neuter          	plural             	{{audience-address}} the man directs the horse near {{possessive}} houses                    
+locative          	masculine       	plural             	{{audience-address}} the man directs the horse near {{possessive}} sons                      
+locative          	feminine        	plural             	{{audience-address}} the man directs the horse near {{possessive}} daughters                 
                   
-#                 	                	                   	NOTE: genitive and vocative are not applicable for all pronouns                                                                           
+#                 	                	                   	NOTE: genitive and vocative are not applicable for all pronouns                              
                   
 reflexive         	neuter          	singular           	{{audience-address}} {{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
 reflexive         	masculine       	singular           	{{audience-address}} {{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    

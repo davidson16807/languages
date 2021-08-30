@@ -70,13 +70,13 @@ with open('../emoji/vocabulary_and_sequence.txt') as file:
 # however until we reach MVP we don't want to spend time creating the additional map to English,
 # so for right now we settle on using English word frequencies from the Project Gutenberg corpus.
 # words_ignored = set()
-with open('../english/gutenberg_ignored.txt') as file:
+with open('../english/frequency_in_gutenberg_ignored.txt') as file:
 	words_ignored = { 
 		line.strip().lower() 
 		for line in file.readlines()
 	}
 
-with open('../english/gutenberg_frequency.txt') as file:
+with open('../english/frequency_in_gutenberg.txt') as file:
 	lines = [
 		line.strip().lower().split(' ', 2)[0]
 		for line in file.readlines()
@@ -115,11 +115,11 @@ def keys_to_values(listdict, keys):
 		for value in listdict[key] ]
 
 def pie_to_english_card(emoji, question, answer):
-	emoji_style = "font-size:11em; font-family: 'DejaVu Sans', 'sans-serif', Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
+	emoji_style = "font-size:11em; font-family: 'DejaVu Sans', 'sans-serif', 'Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
 	return f'''<br/><div style="font-size:5em">{question}</div>\t<div style="{emoji_style}">{emoji}</div><div style="font-size:medium">{answer}</div><br/>'''
 
 def english_to_pie_card(emoji, question, answer):
-	emoji_style = "font-size:11em; font-family: 'DejaVu Sans', 'sans-serif', Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
+	emoji_style = "font-size:11em; font-family: 'DejaVu Sans', 'sans-serif', 'Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
 	return f'<br/><div style="{emoji_style}">{emoji}</div><div style="font-size:medium">{question}</div>\t<div style="font-size:5em">{answer}</div><br/>'
 
 def standardize_word(word):

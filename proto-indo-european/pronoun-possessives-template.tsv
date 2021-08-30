@@ -1,72 +1,63 @@
-# possessed-case  	possessed-gender	possessed-plurality
-nominative        	neuter          	singular           	{{possessive}} dṓm h₁ésti h₂en                                                   
-nominative        	masculine       	singular           	{{possessive}} suHnús h₁ésti h₂en                                                
-nominative        	feminine        	singular           	{{possessive}} dʰugh₂tḗr h₁ésti h₂en                                                
-nominative        	neuter          	dual               	{{possessive}} dómh₁(e) h₁stés h₂en                                                 
-nominative        	masculine       	dual               	{{possessive}} suHnúsh₁(e) h₁stés h₂en                                          
-nominative        	feminine        	dual               	{{possessive}} dʰugh₂térh₁(e) h₁stés h₂en                                          
-nominative        	neuter          	plural             	{{possessive}} dómes h₁sénti h₂en                                                
-nominative        	masculine       	plural             	{{possessive}} suHnéwes h₁sénti h₂en                                              
-nominative        	feminine        	plural             	{{possessive}} dʰugh₂téres h₁sénti h₂en                                              
-                  
-accusative        	neuter          	singular           	ḱe íd h₁ésti {{possessive}} dṓm                                                         
-accusative        	masculine       	singular           	ḱe ǵʰmṓ h₁ésti {{possessive}} suHnúm                                                  
-accusative        	feminine        	singular           	ḱe gʷénh₂s h₁ésti {{possessive}} dʰugh₂térm̥                                                
-accusative        	neuter          	dual               	ḱe h₁stés {{possessive}} dómh₁(e)                                                      
-accusative        	masculine       	dual               	ḱe ǵʰmónh₁(e) h₁stés {{possessive}} suHnúmh₁(e)                                       
-accusative        	feminine        	dual               	ḱe gʷénh₂h₁(e) h₁stés {{possessive}} dʰugh₂térh₁(e)                                         
-accusative        	neuter          	plural             	ḱe íh₂ h₁sénti {{possessive}} dómh₁(e)                                                 
-accusative        	masculine       	plural             	ḱe ǵʰmónes h₁sénti {{possessive}} suHnúms                                               
-accusative        	feminine        	plural             	ḱe gʷénh₂es h₁sénti {{possessive}} dʰugh₂térm̥s                                             
-                  
-dative            	neuter          	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démey                                         
-dative            	masculine       	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnéwey                                      
-dative            	feminine        	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtréy                                      
-#dative            	neuter          	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two houses]                                   
-#dative            	masculine       	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two sons]                                     
-#dative            	feminine        	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two daughters]                                     
-dative            	neuter          	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démmos                                   
-dative            	masculine       	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnúbʰ-                                      
-dative            	feminine        	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtr̥mós                                     
-                  
-ablative          	neuter          	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} déms                                       
-ablative          	masculine       	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnóws                                    
-ablative          	feminine        	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtrés                                    
-#ablative          	neuter          	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two houses]                                 
-#ablative          	masculine       	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two sons]                                   
-#ablative          	feminine        	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two daughters]                                   
-ablative          	neuter          	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démmos                                 
-ablative          	masculine       	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnúbʰ-                                   
-ablative          	feminine        	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtr̥mós                                   
-                  
-instrumental      	neuter          	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} roypnós                                     
-instrumental      	masculine       	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnwéh₁                                 
-instrumental      	feminine        	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtréh₁                                 
-#instrumental      	neuter          	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two ropes]                              
-#instrumental      	masculine       	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two son]                                
-#instrumental      	feminine        	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two daughters]                                
-instrumental      	neuter          	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} roypnōys                         
-instrumental      	masculine       	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnúbʰ-                                
-instrumental      	feminine        	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtr̥bʰí                                
-                  
-locative          	neuter          	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démi                                              
-locative          	masculine       	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnḗw                                           
-locative          	feminine        	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugh₂téri                                           
-#locative          	neuter          	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two houses]                                        
-#locative          	masculine       	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two sons]                                          
-#locative          	feminine        	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two daughters]                                          
-locative          	neuter          	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démsu                                        
-locative          	masculine       	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnúsu                                          
-locative          	feminine        	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtr̥sú                                          
-                  
-#                 	                	                   	NOTE: genitive and vocative are not applicable for all pronouns                                                                          
-                  
-reflexive         	neuter          	singular           	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
-reflexive         	masculine       	singular           	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
-reflexive         	feminine        	singular           	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
-reflexive         	neuter          	dual               	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
-reflexive         	masculine       	dual               	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
-reflexive         	feminine        	dual               	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
-reflexive         	neuter          	plural             	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
-reflexive         	masculine       	plural             	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.    
-reflexive         	feminine        	plural             	{{possessed-nominative}} {{possessed-is}} {{possessive}} own master.   
+# possessed-case	possessed-gender	possessed-plurality
+nominative      	neuter          	singular           	{{possessive}} dṓm h₁ésti h₂en                                 
+nominative      	masculine       	singular           	{{possessive}} suHnús h₁ésti h₂en                              
+nominative      	feminine        	singular           	{{possessive}} dʰugh₂tḗr h₁ésti h₂en                           
+nominative      	neuter          	dual               	{{possessive}} dómh₁e h₁stés h₂en                              
+nominative      	masculine       	dual               	{{possessive}} suHnúsh₁e h₁stés h₂en                           
+nominative      	feminine        	dual               	{{possessive}} dʰugh₂térh₁e h₁stés h₂en                        
+nominative      	neuter          	plural             	{{possessive}} dómes h₁sénti h₂en                              
+nominative      	masculine       	plural             	{{possessive}} suHnéwes h₁sénti h₂en                           
+nominative      	feminine        	plural             	{{possessive}} dʰugh₂téres h₁sénti h₂en                        
+                
+accusative      	neuter          	singular           	ḱe íd h₁ésti {{possessive}} dṓm                                
+accusative      	masculine       	singular           	ḱe ǵʰmṓ h₁ésti {{possessive}} suHnúm                           
+accusative      	feminine        	singular           	ḱe gʷénh₂s h₁ésti {{possessive}} dʰugh₂térm̥                   
+accusative      	neuter          	dual               	ḱe h₁stés {{possessive}} dómh₁e                                
+accusative      	masculine       	dual               	ḱe ǵʰmónh₁e h₁stés {{possessive}} suHnúmh₁e                    
+accusative      	feminine        	dual               	ḱe gʷénh₂h₁e h₁stés {{possessive}} dʰugh₂térh₁e                
+accusative      	neuter          	plural             	ḱe íh₂ h₁sénti {{possessive}} dómh₁e                           
+accusative      	masculine       	plural             	ḱe ǵʰmónes h₁sénti {{possessive}} suHnúms                      
+accusative      	feminine        	plural             	ḱe gʷénh₂es h₁sénti {{possessive}} dʰugh₂térm̥s                
+                
+dative          	neuter          	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démey                       
+dative          	masculine       	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnéwey                    
+dative          	feminine        	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtréy                    
+#dative         	neuter          	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two houses]                
+#dative         	masculine       	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two sons]                  
+#dative         	feminine        	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two daughters]             
+dative          	neuter          	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démmos                      
+dative          	masculine       	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnúbʰ-                    
+dative          	feminine        	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtr̥mós                  
+                
+ablative        	neuter          	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} déms                        
+ablative        	masculine       	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnóws                     
+ablative        	feminine        	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtrés                    
+#ablative       	neuter          	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two houses]                
+#ablative       	masculine       	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two sons]                  
+#ablative       	feminine        	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two daughters]             
+ablative        	neuter          	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démmos                      
+ablative        	masculine       	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnúbʰ-                    
+ablative        	feminine        	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtr̥mós                  
+                
+instrumental    	neuter          	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} roypnós                     
+instrumental    	masculine       	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnwéh₁                    
+instrumental    	feminine        	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtréh₁                   
+#instrumental   	neuter          	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two ropes]                 
+#instrumental   	masculine       	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two son]                   
+#instrumental   	feminine        	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two daughters]             
+instrumental    	neuter          	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} roypnōys                    
+instrumental    	masculine       	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnúbʰ-                    
+instrumental    	feminine        	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtr̥bʰí                  
+                
+locative        	neuter          	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démi                        
+locative        	masculine       	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnḗw                      
+locative        	feminine        	singular           	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugh₂téri                  
+#locative       	neuter          	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two houses]                
+#locative       	masculine       	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two sons]                  
+#locative       	feminine        	dual               	ǵʰmṓ déwkti h₁éḱwom {{possessive}} [two daughters]             
+locative        	neuter          	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} démsu                       
+locative        	masculine       	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} suHnúsu                     
+locative        	feminine        	plural             	ǵʰmṓ déwkti h₁éḱwom {{possessive}} dʰugtr̥sú                   
+                
+#               	                	                   	NOTE: genitive and vocative are not applicable for all pronouns
+                

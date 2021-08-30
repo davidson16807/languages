@@ -11,7 +11,7 @@ def csv_dict(filename, columns, keys):
 	with open(filename) as file:
 		for line in file.readlines():
 			if not line.strip().startswith('#') and not len(line.strip()) < 1:
-				cells = [column.strip() for column in line.split('\t') ]
+				cells = [column.strip(' \t\r\n*?') for column in line.split('\t') ]
 				row = {columns[i]:cells[i] for i, cell in enumerate(cells) if i < len(columns)}
 				value = {column:row[column] for column in row if column not in keys}
 				result[tuple(row[key] for key in keys)] = value if len(value) > 1 else list(value.values())[0]
@@ -77,12 +77,12 @@ ie_declension = dict_function(ie_declension_lookup,
 
 plurality_representative = {'singular': 1, 'dual': 2, 'plural': 3}
 combinations = itertools.product(
-	list(dict.fromkeys([case for case, person, gender, plurality, clitic in ie_declension_lookup])),
 	['singular', 'dual', 'plural'],
 	['1', '2', '3'],
 	['neuter', 'masculine', 'feminine'],
+	list(dict.fromkeys([case for case, person, gender, plurality, clitic in ie_declension_lookup])),
 )
-for case, plurality, person, gender in combinations:
+for plurality, person, gender, case in combinations:
 	representative_count = plurality_representative[plurality]
 	en = en_declension_templates(case)
 	ie = ie_declension_templates(case)
@@ -101,6 +101,12 @@ for case, plurality, person, gender in combinations:
 		('declined', f'c1::{ie_declension(case, person, gender, plurality, "enclitic")}'),
 		('{{direct}}', {1:'déwkti',2:'duktés',3:'dukénti'}[representative_count]),
 		('{{nominative}}', ie_declension('nominative', person, gender, plurality, "")),
+		('mₒ', 'm̥'),
+		('nₒ', 'n̥'),
+		('rₒ', 'r̥'),
+		('lₒ', 'l̥'),
+		('(', ''),
+		(')', ''),
 	])
 
 	emoji = batch_replace(emoji, [
@@ -108,5 +114,5 @@ for case, plurality, person, gender in combinations:
 	])
 
 	if '{{c1::}}' not in ie:
-		emoji_style = "font-size:7em; font-family: 'DejaVu Sans', 'sans-serif', Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
+		emoji_style = "font-size:7em; font-family: 'DejaVu Sans', 'sans-serif', 'Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
 		print(f'<div style="{emoji_style}">{emoji}</div><div style="font-size:small">{en}</div><div style="font-size:large">{ie}</div>')

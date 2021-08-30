@@ -1,25 +1,84 @@
-#case       	singular     	dual            	plural         	being	m	nt    	athematic
-nominative  	*ténh₂us     	*ténh₂uh₁(e)    	*ténh₂ewes     	thin 	m	u/wih₂	athematic
-vocative    	*ténh₂u      	*ténh₂uh₁(e)    	*ténh₂ewes     	thin 	m	u/wih₂	athematic
-accusative  	*ténh₂um     	*ténh₂uh₁(e)    	*ténh₂ums      	thin 	m	u/wih₂	athematic
-genitive    	*tnₒh₂éws    	*?              	*tnₒh₂éwoHom   	thin 	m	u/wih₂	athematic
-ablative    	*tnₒh₂éws    	*?              	*tnₒh₂úmos     	thin 	m	u/wih₂	athematic
-dative      	*tnₒh₂éwey   	*?              	*tnₒh₂úmos     	thin 	m	u/wih₂	athematic
-locative    	*tnₒh₂éwi    	*?              	*tnₒh₂úsu      	thin 	m	u/wih₂	athematic
-instrumental	*tnₒh₂úh₁    	*?              	*tnₒh₂úbʰi     	thin 	m	u/wih₂	athematic
-nominative  	*tnₒh₂éwih₂  	*tnₒh₂éwih₂h₁(e)	*tnₒh₂éwih₂es  	thin 	f	u/wih₂	athematic
-vocative    	*tnₒh₂éwih₂  	*tnₒh₂éwih₂h₁(e)	*tnₒh₂éwih₂es  	thin 	f	u/wih₂	athematic
-accusative  	*tnₒh₂éwih₂mₒ	*tnₒh₂éwih₂h₁(e)	*tnₒh₂éwih₂mₒs 	thin 	f	u/wih₂	athematic
-genitive    	*tnₒh₂uyéh₂s 	*?              	*tnₒh₂uyéh₂oHom	thin 	f	u/wih₂	athematic
-ablative    	*tnₒh₂uyéh₂s 	*?              	*tnₒh₂uyéh₂mos 	thin 	f	u/wih₂	athematic
-dative      	*tnₒh₂uyéh₂ey	*?              	*tnₒh₂uyéh₂mos 	thin 	f	u/wih₂	athematic
-locative    	*tnₒh₂uyéh₂i 	*?              	*tnₒh₂uyéh₂su  	thin 	f	u/wih₂	athematic
-instrumental	*tnₒh₂uyéh₂h₁	*?              	*tnₒh₂uyéh₂bʰi 	thin 	f	u/wih₂	athematic
-nominative  	*ténh₂u      	*ténh₂wih₁      	*ténh₂uh₂      	thin 	n	u/wih₂	athematic
-vocative    	*ténh₂u      	*ténh₂wih₁      	*ténh₂uh₂      	thin 	n	u/wih₂	athematic
-accusative  	*ténh₂u      	*ténh₂wih₁      	*ténh₂uh₂      	thin 	n	u/wih₂	athematic
-genitive    	*tnₒh₂éws    	*?              	*tnₒh₂éwoHom   	thin 	n	u/wih₂	athematic
-ablative    	*tnₒh₂éws    	*?              	*tnₒh₂úmos     	thin 	n	u/wih₂	athematic
-dative      	*tnₒh₂éwey   	*?              	*tnₒh₂úmos     	thin 	n	u/wih₂	athematic
-locative    	*tnₒh₂éwi    	*?              	*tnₒh₂úsu      	thin 	n	u/wih₂	athematic
-instrumental	*tnₒh₂úh₁    	*?              	*tnₒh₂úbʰi     	thin 	n	u/wih₂	athematic
+# case      	gender   	singular      	dual            	plural          	en   	emoji	emoji-property	type          
+            
+nominative  	masculine	h₂yuHn̥ḱós    	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóes     	young	👦    	💎             	thematic      
+vocative    	masculine	h₂yuHn̥ḱé     	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóes     	young	👦    	💎             	thematic      
+accusative  	masculine	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóms     	young	👦    	💎             	thematic      
+genitive    	masculine	h₂yuHn̥ḱósyo  	                	h₂yuHn̥ḱóHom    	young	👦    	💎             	thematic      
+ablative    	masculine	h₂yuHn̥ḱéad   	                	h₂yuHn̥ḱómos    	young	👦    	💎             	thematic      
+dative      	masculine	h₂yuHn̥ḱóey   	                	h₂yuHn̥ḱómos    	young	👦    	💎             	thematic      
+locative    	masculine	h₂yuHn̥ḱóy    	                	h₂yuHn̥ḱóysu    	young	👦    	💎             	thematic      
+instrumental	masculine	h₂yuHn̥ḱóh₁   	                	h₂yuHn̥ḱṓys     	young	👦    	💎             	thematic      
+            
+nominative  	feminine 	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂es   	young	👧    	💎             	thematic      
+vocative    	feminine 	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂es   	young	👧    	💎             	thematic      
+accusative  	feminine 	h₂yuHn̥ḱā́m   	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂m̥s  	young	👧    	💎             	thematic      
+genitive    	feminine 	h₂yuHn̥ḱéh₂s  	                	h₂yuHn̥ḱéh₂oHom 	young	👧    	💎             	thematic      
+ablative    	feminine 	h₂yuHn̥ḱéh₂s  	                	h₂yuHn̥ḱéh₂mos  	young	👧    	💎             	thematic      
+dative      	feminine 	h₂yuHn̥ḱéh₂ey 	                	h₂yuHn̥ḱéh₂mos  	young	👧    	💎             	thematic      
+locative    	feminine 	h₂yuHn̥ḱéh₂i  	                	h₂yuHn̥ḱéh₂su   	young	👧    	💎             	thematic      
+instrumental	feminine 	h₂yuHn̥ḱéh₂h₁ 	                	h₂yuHn̥ḱéh₂bʰi  	young	👧    	💎             	thematic      
+            
+nominative  	neuter   	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱéh₂     	young	🐱    	🐟             	thematic      
+vocative    	neuter   	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱéh₂     	young	🐱    	🐟             	thematic      
+accusative  	neuter   	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱéh₂     	young	🐱    	🐟             	thematic      
+genitive    	neuter   	h₂yuHn̥ḱósyo  	                	h₂yuHn̥ḱóHom    	young	🐱    	🐟             	thematic      
+ablative    	neuter   	h₂yuHn̥ḱéad   	                	h₂yuHn̥ḱómos    	young	🐱    	🐟             	thematic      
+dative      	neuter   	h₂yuHn̥ḱóey   	                	h₂yuHn̥ḱómos    	young	🐱    	🐟             	thematic      
+locative    	neuter   	h₂yuHn̥ḱóy    	                	h₂yuHn̥ḱóysu    	young	🐱    	🐟             	thematic      
+instrumental	neuter   	h₂yuHn̥ḱóh₁   	                	h₂yuHn̥ḱṓys     	young	🐱    	🐟             	thematic      
+            
+            
+nominative  	masculine	ǵérh₂onts     	ǵérh₂onth₁(e)   	ǵérh₂ontes      	old  	👴    	💎             	amphikinetic  
+vocative    	masculine	ǵérh₂ont      	ǵérh₂onth₁(e)   	ǵérh₂ontes      	old  	👴    	💎             	amphikinetic  
+accusative  	masculine	ǵérh₂ontm̥    	ǵérh₂onth₁(e)   	ǵérh₂ontm̥s     	old  	👴    	💎             	amphikinetic  
+genitive    	masculine	ǵr̥h₂n̥tés    	                	ǵr̥h₂n̥tóHom    	old  	👴    	💎             	amphikinetic  
+ablative    	masculine	ǵr̥h₂n̥tés    	                	ǵr̥h₂n̥tmós     	old  	👴    	💎             	amphikinetic  
+dative      	masculine	ǵr̥h₂n̥téy    	                	ǵr̥h₂n̥tmós     	old  	👴    	💎             	amphikinetic  
+locative    	masculine	ǵr̥h₂énti     	                	ǵr̥h₂n̥tsú      	old  	👴    	💎             	amphikinetic  
+instrumental	masculine	ǵr̥h₂n̥téh₁   	                	ǵr̥h₂n̥tbʰí     	old  	👴    	💎             	amphikinetic  
+            
+nominative  	feminine 	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂es   	old  	👵    	💎             	amphikinetic  
+vocative    	feminine 	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂es   	old  	👵    	💎             	amphikinetic  
+accusative  	feminine 	ǵr̥h₂éntih₂m̥ 	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂m̥s  	old  	👵    	💎             	amphikinetic  
+genitive    	feminine 	ǵr̥h₂n̥tyéh₂s 	                	ǵr̥h₂n̥tyéh₂oHom	old  	👵    	💎             	amphikinetic  
+ablative    	feminine 	ǵr̥h₂n̥tyéh₂s 	                	ǵr̥h₂n̥tyéh₂mos 	old  	👵    	💎             	amphikinetic  
+dative      	feminine 	ǵr̥h₂n̥tyéh₂ey	                	ǵr̥h₂n̥tyéh₂mos 	old  	👵    	💎             	amphikinetic  
+locative    	feminine 	ǵr̥h₂n̥tyéh₂i 	                	ǵr̥h₂n̥tyéh₂su  	old  	👵    	💎             	amphikinetic  
+instrumental	feminine 	ǵr̥h₂n̥tyéh₂h₁	                	ǵr̥h₂n̥tyéh₂bʰi 	old  	👵    	💎             	amphikinetic  
+            
+nominative  	neuter   	ǵérh₂ont      	ǵérh₂ontih₁     	ǵérh₂onth₂      	old  	🦁  	🐟             	amphikinetic  
+vocative    	neuter   	ǵérh₂ont      	ǵérh₂ontih₁     	ǵérh₂onth₂      	old  	🦁  	🐟             	amphikinetic  
+accusative  	neuter   	ǵérh₂ont      	ǵérh₂ontih₁     	ǵérh₂onth₂      	old  	🦁  	🐟             	amphikinetic  
+genitive    	neuter   	ǵr̥h₂n̥tés    	                	ǵr̥h₂n̥tóHom    	old  	🦁  	🐟             	amphikinetic  
+ablative    	neuter   	ǵr̥h₂n̥tés    	                	ǵr̥h₂n̥tmós     	old  	🦁  	🐟             	amphikinetic  
+dative      	neuter   	ǵr̥h₂n̥téy    	                	ǵr̥h₂n̥tmós     	old  	🦁  	🐟             	amphikinetic  
+locative    	neuter   	ǵr̥h₂énti     	                	ǵr̥h₂n̥tsú      	old  	🦁  	🐟             	amphikinetic  
+instrumental	neuter   	ǵr̥h₂n̥téh₁   	                	ǵr̥h₂n̥tbʰí     	old  	🦁  	🐟             	amphikinetic  
+            
+            
+nominative  	masculine	tréystis      	tréystih₁(e)    	tréysteyes      	angry	🙍‍♂️ 	💎             	proterokinetic
+vocative    	masculine	tréysti       	tréystih₁(e)    	tréysteyes      	angry	🙍‍♂️ 	💎             	proterokinetic
+accusative  	masculine	tréystim      	tréystih₁(e)    	tréystims       	angry	🙍‍♂️ 	💎             	proterokinetic
+genitive    	masculine	tristéys      	                	tristéyoHom     	angry	🙍‍♂️ 	💎             	proterokinetic
+ablative    	masculine	tristéys      	                	tristímos       	angry	🙍‍♂️ 	💎             	proterokinetic
+dative      	masculine	tristéyey     	                	tristímos       	angry	🙍‍♂️ 	💎             	proterokinetic
+locative    	masculine	tristḗy       	                	tristísu        	angry	🙍‍♂️ 	💎             	proterokinetic
+instrumental	masculine	tristíh₁      	                	tristíbʰi       	angry	🙍‍♂️ 	💎             	proterokinetic
+            
+nominative  	feminine 	tristéyih₂    	tristéyih₂h₁(e) 	tristéyih₂es    	angry	🙍‍♀️ 	💎             	proterokinetic
+vocative    	feminine 	tristéyih₂    	tristéyih₂h₁(e) 	tristéyih₂es    	angry	🙍‍♀️ 	💎             	proterokinetic
+accusative  	feminine 	tristéyih₂m̥  	tristéyih₂h₁(e) 	tristéyih₂m̥s   	angry	🙍‍♀️ 	💎             	proterokinetic
+genitive    	feminine 	tristiyéh₂s   	                	tristiyéh₂oHom  	angry	🙍‍♀️ 	💎             	proterokinetic
+ablative    	feminine 	tristiyéh₂s   	                	tristiyéh₂mos   	angry	🙍‍♀️ 	💎             	proterokinetic
+dative      	feminine 	tristiyéh₂ey  	                	tristiyéh₂mos   	angry	🙍‍♀️ 	💎             	proterokinetic
+locative    	feminine 	tristiyéh₂i   	                	tristiyéh₂su    	angry	🙍‍♀️ 	💎             	proterokinetic
+instrumental	feminine 	tristiyéh₂h₁  	                	tristiyéh₂bʰi   	angry	🙍‍♀️ 	💎             	proterokinetic
+            
+nominative  	neuter   	tréysti       	tréystyih₁      	tréystih₂       	angry	😾    	🐟             	proterokinetic
+vocative    	neuter   	tréysti       	tréystyih₁      	tréystih₂       	angry	😾    	🐟             	proterokinetic
+accusative  	neuter   	tréysti       	tréystyih₁      	tréystih₂       	angry	😾    	🐟             	proterokinetic
+genitive    	neuter   	tristéys      	                	tristéyoHom     	angry	😾    	🐟             	proterokinetic
+ablative    	neuter   	tristéys      	                	tristímos       	angry	😾    	🐟             	proterokinetic
+dative      	neuter   	tristéyey     	                	tristímos       	angry	😾    	🐟             	proterokinetic
+locative    	neuter   	tristḗy       	                	tristísu        	angry	😾    	🐟             	proterokinetic
+instrumental	neuter   	tristíh₁      	                	tristíbʰi       	angry	😾    	🐟             	proterokinetic

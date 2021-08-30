@@ -1,32 +1,32 @@
 singular	nominative        	the {{declined}} {{direct}} him                                  
 singular	accusative        	he directs the {{declined}}                                      
-singular	reflexive         	the {{declined}} {{direct}} the {{declined}}                     
+singular	reflexive         	the {{nominative}} {{direct}} the {{declined}}                     
 singular	emphatic-reflexive	no, the {{nominative}} {{direct}} <i>the {{declined}}</i>        
 singular	genitive          	it is of the {{declined}}                                           
 singular	ablative          	he directs it away from the {{declined}}                         
 singular	dative            	he directs it to the {{declined}}                                
-singular	instrumental      	he directs it using the {{declined}}                             
+singular	instrumental      	he directs it with [the help of] the {{declined}}                             
 singular	locative          	he was {{preposition}} the {{declined}}                          
 singular	vocative          	[damn you] {{declined}}!                                              
         	                  
 dual    	nominative        	the two {{declined}} {{direct}} him                              
 dual    	accusative        	he directs the two {{declined}}                                  
-dual    	reflexive         	the two {{declined}} {{direct}} the two {{declined}}             
+dual    	reflexive         	the two {{nominative}} {{direct}} the two {{declined}}             
 dual    	emphatic-reflexive	no, the two {{nominative}} {{direct}} <i>the two {{declined}}</i>
 dual    	genitive          	it is of the two {{declined}}                                       
 dual    	ablative          	he directs it away from the two {{declined}}                     
 dual    	dative            	he directs it to the two {{declined}}                            
-dual    	instrumental      	he directs it using the two {{declined}}                         
+dual    	instrumental      	he directs it with [the help of] the two {{declined}}                         
 dual    	locative          	he was {{preposition}} the two {{declined}}                      
 dual    	vocative          	[damn both you] {{declined}}!                                     
         	                  
 plural  	nominative        	the {{declined}} {{direct}} him                                  
 plural  	accusative        	he directs the {{declined}}                                      
-plural  	reflexive         	the {{declined}} {{direct}} the {{declined}}                     
+plural  	reflexive         	the {{nominative}} {{direct}} the {{declined}}                     
 plural  	emphatic-reflexive	no, the {{nominative}} {{direct}} <i>the {{declined}}</i>        
 plural  	genitive          	it is of the {{declined}}                                          
 plural  	ablative          	he directs it away from the {{declined}}                         
 plural  	dative            	he directs it to the {{declined}}                                
-plural  	instrumental      	he directs it using the {{declined}}                             
+plural  	instrumental      	he directs it with [the help of] the {{declined}}                             
 plural  	locative          	he was {{preposition}} the {{declined}}                          
 plural  	vocative          	[damn you] {{declined}}!                                              

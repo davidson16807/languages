@@ -51,7 +51,7 @@
 🧍🧑‍🤝‍🧑	you all
 🧍🧍🧍‍♂️	him
 🧍🧍🧍‍♀️	her
-🧍🧍🐜	it
+🧍🧍🐍	it
 🧍🧍👫	them 
 🧍🧍🧑‍🤝‍🧑	them⚲
 🧍🧍👬	them♂, the men
@@ -64,7 +64,7 @@
 🧍🧑‍🤝‍🧑	yourselves, yourself
 🧍🧍🧍‍♂️	himself, himself
 🧍🧍🧍‍♀️	herself, herself
-🧍🧍🐜	itself, itself
+🧍🧍🐍	itself, itself
 🧍🧍👫	theirselves, theirself
 🧍🧍🧑‍🤝‍🧑	theirselves⚲, theirself⚲
 🧍🧍👬	theirselves♂, theirself♂
@@ -77,7 +77,7 @@
 🧍🧑‍🤝‍🧑<sub>💎</sub>	all yours
 🧍🧍🧍‍♂️<sub>💎</sub>	his
 🧍🧍🧍‍♀️<sub>💎</sub>	hers
-🧍🧍🐜<sub>💎</sub>	its
+🧍🧍🐍<sub>💎</sub>	its
 🧍🧍👫<sub>💎</sub>	theirs
 🧍🧍🧑‍🤝‍🧑<sub>💎</sub>	theirs⚲
 🧍🧍👬<sub>💎</sub>	theirs♂, the mens'
@@ -90,7 +90,7 @@
 🧍🧑‍🤝‍🧑<sub>💎</sub>	all your
 🧍🧍🧍‍♂️<sub>💎</sub>	his
 🧍🧍🧍‍♀️<sub>💎</sub>	her
-🧍🧍🐜<sub>💎</sub>	its
+🧍🧍🐍<sub>💎</sub>	its
 🧍🧍👫<sub>💎</sub>	their 
 🧍🧍🧑‍🤝‍🧑<sub>💎</sub>	their⚲
 🧍🧍👬<sub>💎</sub>	their♂, the mens'
@@ -927,6 +927,12 @@
 
 🗣️	voice
 
+🗣️	shout, shouted, shouting	to shout
+
+🗣️	call, called, calling	to call
+
+🗣️	invoke, invoked, invoking	to invoke
+
 🗯️	understand, understood	to understand
 
 
@@ -1210,6 +1216,8 @@ F	false
 🙏	pray, prayed, praying	to pray
 🙏	worship, worshipped, worshipping
 
+🤏	pluck, plucked, plucking	to pluck
+
 ✍️	write, writed, writing	to write
 📖	read, readed, reading	to read
 
@@ -1235,6 +1243,8 @@ F	false
 🙇	thank, thanked, thanking	to thank
 🙇	apologize, apologized, apologizing	to apologize
 
+🙇 	honor, honored, honoring 	to honor
+
 🤷	shrug, shruged, shrugging	to shrug
 🙇	bow, bowed, bowing	to bow
 
@@ -1242,13 +1252,17 @@ F	false
 
 💁‍♂️	transport, transported, transporting	to transport
 
-🏃	escape, escaped, escaping	to escape
+←🏃🏃	escape, escaped, escaping	to escape
+
+🏃←🏃	chase, chased, chasing	to chase
 
 🤦	frustrate, frustrated, frustrating
 
 🧍	earthling
 
 🧑‍🦯	blind
+
+🧑‍🤝‍🧑	twin
 
 🧑‍⚕️	doctor
 👩‍⚕️	nurse
@@ -2332,7 +2346,7 @@ F	false
 
 #	scatalogical
 🚽	urine, urinate, urinated, urinating, pee, peed, peeing, piss, pissed, pissing
-💩	feces, excrement, dung, defectation, defectate, defectated, defecating, poo, poop, pooped, pooping, shit, shat, shitted, shitting
+💩	feces, excrement, dung, defectation, defecate, defecated, defecating, poo, poop, pooped, pooping, shit, shat, shitted, shitting
 
 #	profane: see religion
 #	lewd
