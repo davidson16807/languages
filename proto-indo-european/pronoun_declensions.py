@@ -48,6 +48,20 @@ ie_declension_fallback = dict_function(ie_declension_lookup, fallback=lambda *x:
 ie_declension = dict_function(ie_declension_lookup, 
 	fallback=lambda case,person,gender,plurality,clitic: ie_declension_fallback(case,person,gender,plurality,''))
 
+ie_declension_lookup = csv_dict('pronoun-declensions-source.tsv',
+	 ['case','person','gender','plurality','clitic','pie'],
+	 ['case','person','gender','plurality','clitic'])
+ie_declension_fallback = dict_function(ie_declension_lookup, fallback=lambda *x:None)
+ie_declension = dict_function(ie_declension_lookup, 
+	fallback=lambda case,person,gender,plurality,clitic: ie_declension_fallback(case,person,gender,plurality,''))
+
+conjugation_lookup = csv_dict('pronoun-declensions-conjugation-source.tsv',  
+	 ['person', 'plurality', 'ie', 'en'],
+	 ['person', 'plurality'])
+conjugation_fallback = dict_function(conjugation_lookup, fallback=lambda *x:None)
+conjugation = dict_function(conjugation_lookup, 
+	fallback=lambda case,person,gender,plurality,clitic: conjugation_fallback(case,person,gender,plurality,''))
+
 plurality_representative = {'singular': 1, 'dual': 2, 'plural': 3}
 combinations = itertools.product(
 	['singular', 'dual', 'plural'],
@@ -56,7 +70,6 @@ combinations = itertools.product(
 	list(dict.fromkeys([case for case, person, gender, plurality, clitic in ie_declension_lookup])),
 )
 for plurality, person, gender, case in combinations:
-	representative_count = plurality_representative[plurality]
 	en = en_declension_templates(case)
 	ie = ie_declension_templates(case)
 	emoji = emoji_declension_templates(case)
@@ -66,13 +79,13 @@ for plurality, person, gender, case in combinations:
 
 	en = batch_replace(en, [
 		('{{declined}}', en_declension(case, person, gender, plurality)),
-		('{{direct}}', 'direct' if representative_count > 1 or person!='3' else 'directs'),
+		('{{direct}}', conjugation(person, plurality)('en')),
 		('{{nominative}}', en_declension('nominative', person, gender, plurality)),
 	])
 
 	ie = batch_replace(ie, [
 		('declined', f'c1::{ie_declension(case, person, gender, plurality, "enclitic")}'),
-		('{{direct}}', {1:'déwkti',2:'duktés',3:'dukénti'}[representative_count]),
+		('{{direct}}', conjugation(person, plurality)('ie')),
 		('{{nominative}}', ie_declension('nominative', person, gender, plurality, "")),
 		('mₒ', 'm̥'),
 		('nₒ', 'n̥'),

@@ -1,0 +1,102 @@
+ 
+#	The following is an attempt to create a computer friendly featural alphabet that can be used in place of the IPA                   
+#	It is not intended to be easily read or written outside programming.                                                               
+#	It is only meant to express broad sound laws that reoccur across many languages                                                    
+#	without having to consider all the possible characters that are supported by the IPA.                                              
+ 
+#	Vowel modifiers ↑ and → can be repeated, the number of repetitions indicates cartesian coordinates on the vowel chart              
+#	A base character indicates the origin of the cartesian coordinate system.                                                          
+#	For instance, 'u' could be denoted either 'ɯʷ' or 'ə↑→ʷ' or 'a↑↑↑→→ʷ'. 'a' could be denoted 'a' or 'ə↓←'.                           
+#	It is up to the user to select a base character that is best suited for the sound law.                                             
+#	For instance a sound law that represents a rotation within vowel space may use a pivot such as 'ə' as the origin to simplify logic,
+#	whereas a simple heightening or fronting may be easiest to implement using 'a'.                                                    
+ 
+y	a↑↑↑ʷ                                                                                                                              
+i	a↑↑↑                                                                                                                               
+ 
+ʏ	a↑↑↑ʷ                                                                                                                    
+ɪ	a↑↑↑
+
+ʉ	a↑↑↑→ʷ                                                                                                                             
+ɨ	a↑↑↑→                                                                                                                              
+ 
+ʊ 	a↑↑↑→→ʷ
+
+u	a↑↑↑→→ʷ                                                                                                                            
+ɯ	a↑↑↑→→         
+
+ 
+ø	a↑↑ʷ                                                                                                                               
+e	a↑↑                                                                                                                                
+ 
+ɵ	a↑↑→ʷ                                                                                                                              
+ɘ	a↑↑→                                                                                                                               
+ 
+o	a↑↑→→ʷ                                                                                                                             
+ɤ	a↑↑→→                                                                                                                              
+ 
+œ	a↑ʷ                                                                                                                                
+ɛ	a↑                                                                                                                                 
+ 
+ɞ	a↑→ʷ                                                                                                                               
+ɜ	a↑→                                                                                                                                
+ 
+ɔ	a↑→→ʷ                                                                                                                              
+ʌ	a↑→→                                                                                                                               
+ 
+æ	a↑                                                                                                                                 
+ɶ	aʷ                                                                                                                                 
+a	a                                                                                                                                  
+ 
+ɒ	a→→ʷ                                                                                                                               
+ɑ	a→→                                                                                                                                
+ 
+#	Characters for fricatives are used to denote place of articulation since IPA symbols exist for all possible placements             
+#	plosives are denoted by ᵖ, voiced consonants by ᵛ                                                                                  
+ 
+p	ϕᵖ                                                                                                                                 
+b	ϕᵖᵛ                                                                                                                                
+t	fᵖ                                                                                                                                 
+d	fᵖᵛ                                                                                                                                
+ʈ	ʂᵖ                                                                                                                                 
+ɖ	ʂᵖᵛ                                                                                                                                
+c	çᵖ                                                                                                                                 
+ɟ	çᵖᵛ                                                                                                                                
+k	xᵖ                                                                                                                                 
+ɡ	xᵖᵛ                                                                                                                                
+q	χᵖ                                                                                                                                 
+ɢ	χᵖᵛ                                                                                                                                
+ʔ	hᵖ                                                                                                                                 
+ 
+ϕ	ϕ                                                                                                                                  
+β	ϕᵛ                                                                                                                                 
+f	f                                                                                                                                  
+v	fᵛ                                                                                                                                 
+θ	θ                                                                                                                                  
+ð	θᵛ                                                                                                                                 
+s	s                                                                                                                                  
+z	sᵛ                                                                                                                                 
+ʃ	ʃ                                                                                                                                  
+ʒ	ʃᵛ                                                                                                                                 
+ʂ	ʂ                                                                                                                                  
+ʐ	ʂᵛ                                                                                                                                 
+ç	ç                                                                                                                                  
+ʝ	çᵛ                                                                                                                                 
+x	x                                                                                                                                  
+ɣ	xᵛ                                                                                                                                 
+χ	χ                                                                                                                                  
+ʁ	χᵛ                                                                                                                                 
+ħ	ħ                                                                                                                                  
+ʕ	ħᵛ                                                                                                                                 
+h	h                                                                                                                                  
+ɦ	hᵛ                                                                                                                                 
+ 
+m	ϕⁿ                                                                                                                                 
+ɱ	fⁿ                                                                                                                                 
+n	zⁿ                                                                                                                                 
+ɳ	ʂⁿ                                                                                                                                 
+ɲ	çⁿ                                                                                                                                 
+ŋ	xⁿ                                                                                                                                 
+ɴ	χⁿ                                                                                                                                 
+ 
+ 

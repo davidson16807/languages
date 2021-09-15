@@ -33,11 +33,11 @@ def pages(raw):
 
 
 ################################### SECTIONS ###################################
-def header2(language):
+def header2(language, allow_if_no_headers_exist=True):
     def header2_(entries):
         header_regex = re.compile('^'+'='*2+'([^=]+)'+'='*2+'\\s*$', re.MULTILINE)
         for word, layer, entry in entries:
-            if not header_regex.search(entry):
+            if not header_regex.search(entry) and allow_if_no_headers_exist:
                 yield word, 2, entry
             else:
                 matches = header_regex.finditer(entry)
@@ -179,7 +179,7 @@ def must_include_any_of_text(*texts):
 def must_not_include_any_of_text(*texts):
     def must_not_include_any_of_text_(items):
         for word, layer, item in items:
-            if not any(text in item for text in texts):
+            if not any(text.lower() in item.lower() for text in texts):
                 yield word, layer, item
     return must_not_include_any_of_text_
 
@@ -230,6 +230,10 @@ def unique(hashes):
             existing.add((word, hash_))
             yield word, layer, hash_
     
+def passthrough(entries):
+    for word, layer, entry in entries:
+        yield word, layer, entry
+
 ignored_annotations = [
     'archaic',
     'dialectal',

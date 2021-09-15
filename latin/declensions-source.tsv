@@ -1,0 +1,150 @@
+# note: words with latin etymology come before those with greek etymology 
+# since they are more common and easier to learn on average.
+# words are ordered by frequency, so the most useful declensions can be prioritized in case the user quits early          
+# case    	singular   	plural       	translation	declension	gender	stem        	etymology
+nominative	homō       	hominēs      	man        	3         	m     	consonant   	latin    
+genitive  	hominis    	hominum      	man        	3         	m     	consonant   	latin    
+dative    	hominī     	hominibus    	man        	3         	m     	consonant   	latin    
+accusative	hominem    	hominēs      	man        	3         	m     	consonant   	latin    
+ablative  	homine     	hominibus    	man        	3         	m     	consonant   	latin    
+vocative  	homō       	hominēs      	man        	3         	m     	consonant   	latin    
+locative  	homine     	hominibus    	man        	3         	m     	consonant   	latin    
+nominative	diēs       	diēs         	day        	5         	m|f   	-iēs        	latin    
+genitive  	diēī       	diērum       	day        	5         	m|f   	-iēs        	latin    
+dative    	diēī       	diēbus       	day        	5         	m|f   	-iēs        	latin    
+accusative	diem       	diēs         	day        	5         	m|f   	-iēs        	latin    
+ablative  	diē        	diēbus       	day        	5         	m|f   	-iēs        	latin    
+vocative  	diēs       	diēs         	day        	5         	m|f   	-iēs        	latin    
+nominative	manus      	manūs        	hand       	4         	m|f   	-us         	latin    
+genitive  	manūs      	manuum       	hand       	4         	m|f   	-us         	latin    
+dative    	manuī      	manibus      	hand       	4         	m|f   	-us         	latin    
+accusative	manum      	manūs        	hand       	4         	m|f   	-us         	latin    
+ablative  	manū       	manibus      	hand       	4         	m|f   	-us         	latin    
+vocative  	manus      	manūs        	hand       	4         	m|f   	-us         	latin    
+nominative	nox        	noctēs       	night      	3         	f     	mixed -i    	latin    
+genitive  	noctis     	noctium      	night      	3         	f     	mixed -i    	latin    
+dative    	noctī      	noctibus     	night      	3         	f     	mixed -i    	latin    
+accusative	noctem     	noctēs       	night      	3         	f     	mixed -i    	latin    
+ablative  	nocte      	noctibus     	night      	3         	f     	mixed -i    	latin    
+vocative  	nox        	noctēs       	night      	3         	f     	mixed -i    	latin    
+locative  	noctī      	noctibus     	night      	3         	f     	mixed -i    	latin    
+nominative	rēs        	rēs          	thing      	5         	f     	-ēs         	latin    
+genitive  	reī        	rērum        	thing      	5         	f     	-ēs         	latin    
+dative    	reī        	rēbus        	thing      	5         	f     	-ēs         	latin    
+accusative	rem        	rēs          	thing      	5         	f     	-ēs         	latin    
+ablative  	rē         	rēbus        	thing      	5         	f     	-ēs         	latin    
+vocative  	rēs        	rēs          	thing      	5         	f     	-ēs         	latin    
+nominative	nōmen      	nōmina       	name       	3         	n     	consonant   	latin    
+genitive  	nōminis    	nōminum      	name       	3         	n     	consonant   	latin    
+dative    	nōminī     	nōminibus    	name       	3         	n     	consonant   	latin    
+accusative	nōmen      	nōmina       	name       	3         	n     	consonant   	latin    
+ablative  	nōmine     	nōminibus    	name       	3         	n     	consonant   	latin    
+vocative  	nōmen      	nōmina       	name       	3         	n     	consonant   	latin    
+#locative  	nōminī     	nōminibus    	name       	3         	n     	consonant   	latin    
+nominative	fīlius     	fīliī        	son        	2         	m     	-us         	latin    
+genitive  	fīliī      	fīliōrum     	son        	2         	m     	-us         	latin    
+dative    	fīliō      	fīliīs       	son        	2         	m     	-us         	latin    
+accusative	fīlium     	fīliōs       	son        	2         	m     	-us         	latin    
+ablative  	fīliō      	fīliīs       	son        	2         	m     	-us         	latin    
+vocative  	fīlī       	fīliī        	son        	2         	m     	-us         	latin    
+nominative	bellum     	bella        	war        	2         	m     	-um         	latin    
+genitive  	bellī      	bellōrum     	war        	2         	m     	-um         	latin    
+dative    	bellō      	bellīs       	war        	2         	m     	-um         	latin    
+accusative	bellum     	bella        	war        	2         	m     	-um         	latin    
+ablative  	bellō      	bellīs       	war        	2         	m     	-um         	latin    
+vocative  	bellum     	bella        	war        	2         	m     	-um         	latin    
+locative  	bellī      	bellīs       	war        	2         	m     	-um         	latin    
+nominative	āēr        	āerēs        	air        	3         	m     	-i          	greek    
+genitive  	āeris      	āerum        	air        	3         	m     	-i          	greek    
+dative    	āerī       	āeribus      	air        	3         	m     	-i          	greek    
+accusative	āera       	āerēs        	air        	3         	m     	-i          	greek    
+ablative  	āere       	āeribus      	air        	3         	m     	-i          	greek    
+vocative  	āēr        	āerēs        	air        	3         	m     	-i          	greek    
+locative  	āerī       	āeribus      	air        	3         	m     	-i          	greek    
+nominative	puer       	puerī        	boy        	2         	m     	-er         	latin    
+genitive  	puerī      	puerōrum     	boy        	2         	m     	-er         	latin    
+dative    	puerō      	puerīs       	boy        	2         	m     	-er         	latin    
+accusative	puerum     	puerōs       	boy        	2         	m     	-er         	latin    
+ablative  	puerō      	puerīs       	boy        	2         	m     	-er         	latin    
+vocative  	puer       	puerī        	boy        	2         	m     	-er         	latin    
+nominative	animal     	animālia     	animal     	3         	n     	pure -i     	latin    
+genitive  	animālis   	animālium    	animal     	3         	n     	pure -i     	latin    
+dative    	animālī    	animālibus   	animal     	3         	n     	pure -i     	latin    
+accusative	animal     	animālia     	animal     	3         	n     	pure -i     	latin    
+ablative  	animālī    	animālibus   	animal     	3         	n     	pure -i     	latin    
+vocative  	animal     	animālia     	animal     	3         	n     	pure -i     	latin    
+locative  	animālī    	animālibus   	animal     	3         	n     	pure -i     	latin    
+nominative	stēlla     	stēllae      	star       	1         	f     	-a          	latin    
+genitive  	stēllae    	stēllārum    	star       	1         	f     	-a          	latin    
+dative    	stēllae    	stēllīs      	star       	1         	f     	-a          	latin    
+accusative	stēllam    	stēllās      	star       	1         	f     	-a          	latin    
+ablative  	stēllā     	stēllīs      	star       	1         	f     	-a          	latin    
+vocative  	stēlla     	stēllae      	star       	1         	f     	-a          	latin    
+nominative	turris     	turrēs       	tower      	3         	f     	-i          	latin    
+genitive  	turris     	turrium      	tower      	3         	f     	-i          	latin    
+dative    	turrī      	turribus     	tower      	3         	f     	-i          	latin    
+accusative	turrem     	turrēs (-īs) 	tower      	3         	f     	-i          	latin    
+ablative  	turre      	turribus     	tower      	3         	f     	-i          	latin    
+vocative  	turris     	turrēs       	tower      	3         	f     	-i          	latin    
+locative  	turrī      	turribus     	tower      	3         	f     	-i          	latin    
+nominative	cornū      	cornua       	horn       	4         	n     	-ū          	latin    
+genitive  	cornūs     	cornuum      	horn       	4         	n     	-ū          	latin    
+dative    	cornū      	cornibus     	horn       	4         	n     	-ū          	latin    
+accusative	cornū      	cornua       	horn       	4         	n     	-ū          	latin    
+ablative  	cornū      	cornibus     	horn       	4         	n     	-ū          	latin    
+vocative  	cornū      	cornua       	horn       	4         	n     	-ū          	latin    
+nominative	nauta      	nautae       	sailor     	1         	m     	-a          	latin    
+genitive  	nautae     	nautārum     	sailor     	1         	m     	-a          	latin    
+dative    	nautae     	nautīs       	sailor     	1         	m     	-a          	latin    
+accusative	nautam     	nautās       	sailor     	1         	m     	-a          	latin    
+ablative  	nautā      	nautīs       	sailor     	1         	m     	-a          	latin    
+vocative  	nauta      	nautae       	sailor     	1         	m     	-a          	latin    
+nominative	basis      	basēs        	basis      	3         	f     	alternate -i	greek    
+genitive  	basis      	basium       	basis      	3         	f     	alternate -i	greek    
+dative    	basī       	basibus      	basis      	3         	f     	alternate -i	greek    
+accusative	basim      	basēs        	basis      	3         	f     	alternate -i	greek    
+ablative  	basī       	basibus      	basis      	3         	f     	alternate -i	greek    
+vocative  	basis      	basēs        	basis      	3         	f     	alternate -i	greek    
+nominative	ēchō       	             	echo       	4         	n     	-ū          	greek    
+genitive  	ēchūs      	             	echo       	4         	n     	-ū          	greek    
+dative    	ēchō       	             	echo       	4         	n     	-ū          	greek    
+accusative	ēchō       	             	echo       	4         	n     	-ū          	greek    
+ablative  	ēchō       	             	echo       	4         	n     	-ū          	greek    
+vocative  	ēchō       	             	echo       	4         	n     	-ū          	greek    
+nominative	phaenomenon	phaenomena   	phenomenon 	2         	n     	-on         	greek    
+genitive  	phaenomenī 	phaenomenōrum	phenomenon 	2         	n     	-on         	greek    
+dative    	phaenomenō 	phaenomenīs  	phenomenon 	2         	n     	-on         	greek    
+accusative	phaenomenon	phaenomena   	phenomenon 	2         	n     	-on         	greek    
+ablative  	phaenomenō 	phaenomenīs  	phenomenon 	2         	n     	-on         	greek    
+vocative  	phaenomenon	phaenomena   	phenomenon 	2         	n     	-on         	greek    
+nominative	ampelos    	ampelī       	vine       	2         	f     	-os         	greek    
+genitive  	ampelī     	ampelōrum    	vine       	2         	f     	-os         	greek    
+dative    	ampelō     	ampelīs      	vine       	2         	f     	-os         	greek    
+accusative	ampelon    	ampelōs      	vine       	2         	f     	-os         	greek    
+ablative  	ampelō     	ampelīs      	vine       	2         	f     	-os         	greek    
+vocative  	ampele     	ampelī       	vine       	2         	f     	-os         	greek    
+nominative	mȳthos     	mȳthī        	myth       	2         	m     	-os         	greek    
+genitive  	mȳthī      	mȳthōrum     	myth       	2         	m     	-os         	greek    
+dative    	mȳthō      	mȳthīs       	myth       	2         	m     	-os         	greek    
+accusative	mȳthon     	mȳthōs       	myth       	2         	m     	-os         	greek    
+ablative  	mȳthō      	mȳthīs       	myth       	2         	m     	-os         	greek    
+vocative  	mȳthe      	mȳthī        	myth       	2         	m     	-os         	greek    
+nominative	atomus     	atomī        	atom       	2         	f     	-us         	greek    
+genitive  	atomī      	atomōrum     	atom       	2         	f     	-us         	greek    
+dative    	atomō      	atomīs       	atom       	2         	f     	-us         	greek    
+accusative	atomum     	atomōs       	atom       	2         	f     	-us         	greek    
+ablative  	atomō      	atomīs       	atom       	2         	f     	-us         	greek    
+vocative  	atome      	atomī        	atom       	2         	f     	-us         	greek    
+nominative	nymphē     	nymphae      	nymph      	1         	f     	-ē          	greek    
+genitive  	nymphēs    	nymphārum    	nymph      	1         	f     	-ē          	greek    
+dative    	nymphae    	nymphīs      	nymph      	1         	f     	-ē          	greek    
+accusative	nymphēn    	nymphās      	nymph      	1         	f     	-ē          	greek    
+ablative  	nymphē     	nymphīs      	nymph      	1         	f     	-ē          	greek    
+vocative  	nymphē     	nymphae      	nymph      	1         	f     	-ē          	greek    
+nominative	comētēs    	comētae      	comet      	1         	m     	-ēs         	greek    
+genitive  	comētae    	comētārum    	comet      	1         	m     	-ēs         	greek    
+dative    	comētae    	comētīs      	comet      	1         	m     	-ēs         	greek    
+accusative	comētēn    	             	comet      	1         	m     	-ēs         	greek    
+comētem   	comētās    	             	comet      	1         	m     	-ēs         	greek    
+ablative  	comētē     	comētīs      	comet      	1         	m     	-ēs         	greek    
+vocative  	comētē     	comētae      	comet      	1         	m     	-ēs         	greek    

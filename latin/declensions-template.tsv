@@ -1,0 +1,51 @@
+the {{singular}} guides them             	{{nominative-singular}} dūcit ea 
+it is the {{singular}}'s                 	id est {{genitive-singular}}     
+he guides them to the {{singular}}       	is dūcit ea {{dative-singular}}  
+he guides the {{singular}}               	is dūcit {{accusative-singular}} 
+he guides them away from the {{singular}}	is dūcit ea {{ablative-singular}}
+come, {{singular}}!                      	venī, {{vocative-singular}}!     
+he was {{preposition}} the {{singular}}            	is fuerat {{locative-singular}}  
+the {{plural}} guide them                	{{nominative-plural}} dūcunt ea  
+it is the {{plural}}'                    	id est {{genitive-plural}}       
+he guides them to the {{plural}}         	is dūcit ea {{dative-plural}}    
+he guides the {{plural}}                 	is dūcit {{accusative-plural}}   
+he guides them away from the {{plural}}  	is dūcit ea {{ablative-plural}}  
+come, {{plural}}!                        	venīte, {{vocative-plural}}!     
+he was {{preposition}} the {{plural}}              	is fuerat {{locative-plural}}    
+
+
+
+
+
+singular	nominative        	the {{declined}} {{direct}} him                                  
+singular	accusative        	he directs the {{declined}}                                      
+singular	reflexive         	the {{declined}} {{direct}} the {{declined}}                     
+singular	emphatic-reflexive	no, the {{nominative}} {{direct}} <i>the {{declined}}</i>        
+singular	genitive          	it is of the {{declined}}                                           
+singular	ablative          	he directs it away from the {{declined}}                         
+singular	dative            	he directs it to the {{declined}}                                
+singular	instrumental      	he directs it using the {{declined}}                             
+singular	locative          	he was {{preposition}} the {{declined}}                          
+singular	vocative          	[damn you] {{declined}}!                                              
+        	                  
+dual    	nominative        	the two {{declined}} {{direct}} him                              
+dual    	accusative        	he directs the two {{declined}}                                  
+dual    	reflexive         	the two {{declined}} {{direct}} the two {{declined}}             
+dual    	emphatic-reflexive	no, the two {{nominative}} {{direct}} <i>the two {{declined}}</i>
+dual    	genitive          	it is of the two {{declined}}                                       
+dual    	ablative          	he directs it away from the two {{declined}}                     
+dual    	dative            	he directs it to the two {{declined}}                            
+dual    	instrumental      	he directs it using the two {{declined}}                         
+dual    	locative          	he was {{preposition}} the two {{declined}}                      
+dual    	vocative          	[damn both you] {{declined}}!                                     
+        	                  
+plural  	nominative        	the {{declined}} {{direct}} him                                  
+plural  	accusative        	he directs the {{declined}}                                      
+plural  	reflexive         	the {{declined}} {{direct}} the {{declined}}                     
+plural  	emphatic-reflexive	no, the {{nominative}} {{direct}} <i>the {{declined}}</i>        
+plural  	genitive          	it is of the {{declined}}                                          
+plural  	ablative          	he directs it away from the {{declined}}                         
+plural  	dative            	he directs it to the {{declined}}                                
+plural  	instrumental      	he directs it using the {{declined}}                             
+plural  	locative          	he was {{preposition}} the {{declined}}                          
+plural  	vocative          	[damn you] {{declined}}!                                              

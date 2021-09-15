@@ -2,7 +2,7 @@
 #		https://en.wikipedia.org/wiki/indo-european_vocabulary
 #		https://en.wikipedia.org/wiki/esperanto_vocabulary#correlatives
 #		https://en.wikipedia.org/wiki/emotion_classification#lists_of_emotions
-#		lists should be large enough to feel comprehensive, but short enough not to feel exhausting or "laundry-listish"
+#		lists should be large enough to feel comprehensive, but short enough not to feel exhausting or laundry-listish
 
 #		CONJUGATION LISTS
 
@@ -12,21 +12,21 @@
 🧑‍🤝‍🧑	are	we are
 🧍	are	you are
 🧑‍🤝‍🧑	are	you all are
-🐜	is	it is
+🐍	is	it is
 🧑‍🤝‍🧑	are	they are
 
 🧍	was	I was
 🧑‍🤝‍🧑	were	we were
 🧍	were	you were
 🧑‍🤝‍🧑	were	you all were
-🐜	was	it was
+🐍	was	it was
 🧑‍🤝‍🧑	were	they were
 
 🧍	will	I will be
 🧑‍🤝‍🧑	will	we will be
 🧍	will	you will be
 🧑‍🤝‍🧑	will	you all will be
-🐜	will	it will be
+🐍	will	it will be
 🧑‍🤝‍🧑	will	they will be
 
 
@@ -38,8 +38,8 @@
 🧍🧑‍🤝‍🧑	you all
 🧍🧍🧍‍♂️	he
 🧍🧍🧍‍♀️	she
-🧍🧍🐜	it
-🧍🧍👫	they 
+🧍🧍🐍	it
+🧍🧍👫	they
 🧍🧍🧑‍🤝‍🧑	they⚲
 🧍🧍👬	they♂, the men
 🧍🧍👭	they♀, the women
@@ -52,7 +52,7 @@
 🧍🧍🧍‍♂️	him
 🧍🧍🧍‍♀️	her
 🧍🧍🐍	it
-🧍🧍👫	them 
+🧍🧍👫	them
 🧍🧍🧑‍🤝‍🧑	them⚲
 🧍🧍👬	them♂, the men
 🧍🧍👭	them♀, the women
@@ -91,7 +91,7 @@
 🧍🧍🧍‍♂️<sub>💎</sub>	his
 🧍🧍🧍‍♀️<sub>💎</sub>	her
 🧍🧍🐍<sub>💎</sub>	its
-🧍🧍👫<sub>💎</sub>	their 
+🧍🧍👫<sub>💎</sub>	their
 🧍🧍🧑‍🤝‍🧑<sub>💎</sub>	their⚲
 🧍🧍👬<sub>💎</sub>	their♂, the mens'
 🧍🧍👭<sub>💎</sub>	their♀, the womens'
@@ -103,11 +103,11 @@
 
 #		correlative
 ##		question
-🧍?	who
+🧍?	who, whom
 🔩?	what
 🗺️?	where
 🕐?	when
-🤌?	how much
+🤌?	how much, how many
 📝?	how
 📈?	why
 💎?	whose
@@ -184,8 +184,11 @@
 👍	yes
 👎	no
 
-🛌	in
-🛏️🧍	out
+# 🛌	in
+# 🛏️🧍	out
+
+→🕳️	in
+🕳️→	out
 
 ∧	and
 ∨	or
@@ -194,6 +197,8 @@
 
 >	more
 <	less
+
+=	equal
 
 #		become
 
@@ -226,23 +231,37 @@
 <sub>🚶🚶</sub>🚶	back
 
 ##		velocity
-🚶	go, went, going	to go
+←🚶	go, went, going, gone	to go
 
 🏠←🚶	come, came, coming	to come
 
+🏠←🚶	to
+←🚶🏠	from
 
+🏠←🚶	enter, entered, entering 	to enter
 ←🚶🏠	leave, leaving	to leave
+
+🏠←🚶	toward, towards
+
 🏠←🚶	arrive, arrived, arriving	to arrive
 ←🚶🚶	lead, lead, leading	to lead
 🚶←🚶	follow, followed, following	to follow
 
 🚶	walk, walked, walking	to walk
-🧎	kneel, kneeled, kneeling	to kneel
+
 🏃	run, ran, running	to run
-🏊	swim, swam, swimming	to swim
+
 🧗	climb, climbed, climing	to climb
+
+🏊	swim, swam, swimming	to swim
+
+🧎	kneel, kneeled, kneeling	to kneel
+
 🕺	dance, danced, dancing	to dance
+
 🤾	throw, threw, thrown, throwing	to throw
+
+🚶	step, stepped, stepping 	to step
 
 🐇	jump, jumped, jumping	to jump
 🦅	fly, flew, flown, flying	to fly
@@ -305,6 +324,7 @@
 🌇	evening
 🏙️	noon
 🌃	night
+🌃	midnight
 🌆	dusk
 
 🕰️	hour
@@ -346,6 +366,7 @@
 ⛰️	high, tall
 🏞️	low
 
+
 🚬	smoke
 ⚱️	ash
 🔥	burn, burned, burning	to burn
@@ -381,7 +402,7 @@
 🦶	foot
 👂	ear
 👃	nose
-🖐️ 	hand
+🖐️	hand
 😶	head
 😐	face
 👁️	eye
@@ -409,15 +430,13 @@
 💀	skull
 🦷	tooth
 🦴	bone
+🫁	organ
+🌭	guts, entrails, intestines
 🩸	blood
 🥩	muscle
 🧈	fat
 
 🧠	mind
-
-🫁	organ
-
-🩸	guts, entrails
 
 😅	sweat
 😢	tear
@@ -463,11 +482,15 @@
 #		PSYCHOLOGY
 ##		mental functions
 💬	say, said, saying	to say
+
 💭	think, thought, thinking	to think
+
 💡	know, knew, knowing	to know
+
 🔎	find, found, finding	to find
 
 🙋	ask, asked, asking	to ask
+
 🧑‍🏫	tell, told, telling	to tell
 
 🤓	smart
@@ -479,6 +502,8 @@
 😢	sad
 😠	mad
 😨	afraid
+
+😢	sorrow
 
 😒	bored
 🥳	excited
@@ -493,7 +518,15 @@
 😆	laugh, laughed, laughing	to laugh
 😭	cry, cried, crying	to cry
 
+😭	wail
+
+😭	lament
+
+😭	mourn
+
 🤑	want, wanted, wanting	to want
+
+🤐	shut up, shutting up
 
 #		sensation
 👀	see, saw, look, looking	to see
@@ -506,6 +539,7 @@
 🏙️	light, bright
 🌃	dark
 
+🟥🟧🟨🟩🟦🟪	color
 🟥	red
 🟧	orange
 🟨	yellow
@@ -533,13 +567,21 @@
 🍖	savory
 🌶️	spicy
 
-🌾	grain
+#		types of food
 🍏	fruit
-🥛	milk
-🍯	honey
+🥦	vegetable
+🌰	nut
+🍞	bread
 🥚	egg
+🥛	milk
+🧀	cheese
+🍯	honey
 🍖	meat
+
+#		condiments
+🧈	butter
 🧂	salt
+🥣	sugar
 
 ##		touch
 🥵	hot
@@ -553,29 +595,33 @@
 ##		people
 👨	man
 👩	woman
+
 🧒	child
 👦	boy
 👧	girl
 👶	baby
+
 🧍	person
 🧑‍🤝‍🧑	people
 
 ##		family
-👨‍👧‍👦	father, dad	father
-👩‍👦‍👦	mother, mom	mother
-👦	brother
-👧	sister
-🤵	husband
-👰‍♀️	wife
+👨‍👧‍👦	father, dad, daddy, dadda, papa, pop, pa	father
+👩‍👦‍👦	mother, mom, mommy, momma, mama, mum, ma	mother
 👨‍👩‍👦	son
 👨‍👩‍👧	daughter
+👦	brother
+👧	sister
 👨‍👩‍👧‍👦	family
+
 🏠	home
 
 👨‍👧‍👦	parent
 
-👴	grandfather
-👵	grandmother
+🤵	husband
+👰‍♀️	wife
+
+👴	grandfather, grandpa
+👵	grandmother, grandma
 👦	grandson
 👧	granddaughter
 
@@ -603,14 +649,20 @@
 
 👸	goddess
 
-👼	heaven
-👹	hell
+👼	soul
 
-👼	heavenly
-👹	hellish
+👼	angel
+👹	demon
+
+☁️👼☁️	heaven
+🔥👹🔥	hell
+
+☁️👼☁️	heavenly
+🔥👹🔥	hellish
 
 👼	bless, blessed, blessing	to bless
-👹	curse, cursed, cursing, damn, damed, damning	to curse, to damn
+
+👼	miracle
 
 👻	spirit
 
@@ -621,6 +673,7 @@
 🚧	fence
 
 🚗	wheel
+
 👚	clothes, clothing
 🪡	sew
 👳	wear, wore, worn, wearing	to wear
@@ -648,6 +701,7 @@
 🪴	plant
 🍄	fungus
 🦠	microbe
+🦠	virus
 
 #		pie animals
 🐚	shell
@@ -664,7 +718,7 @@
 🍃	leaf
 🪵	wood
 🪢	rope
-#🌳	root
+🌳	root
 
 🧑‍🦱	hair
 🧎	knee
@@ -678,6 +732,7 @@
 🤺	stab, stabbed, stabbing	to stab
 🥆	hunt, hunted, hunting	to hunt
 🔨	hit, hitting	to hit
+🔨	strike, struck, striking	to strike
 🔪	cut, cutting	to cut
 🪓	split, splitting	to split
 😼	scratch, scratched, scratching	to scratch
@@ -690,10 +745,13 @@
 
 🤮	vomit, vomited, vomiting	to vomit
 🤧	sneeze, sneezed, sneezing	to sneeze
-😪	spit, spat, spitting	to spit
-🍼	suck, sucked, sucking	to suck
-😘	blow, blowed, blown, blowing	to blow
 😓	sweat, sweated, sweating	to sweat
+😪	spit, spat, spitting	to spit
+
+💨	blow, blowed, blown, blowing	to blow
+
+🍼	suck, sucked, sucking	to suck
+
 😨	fear, feared, afraid, fearing	to fear
 
 🧼	wash, washed, washing	to wash
@@ -703,6 +761,10 @@
 🍼	squeeze, squeezed, squeezing	to squeeze
 🧴	rub, rubbed, rubbing	to rub
 🧽	wipe, wiped, wiping	to wipe
+
+🧗	grasp, grasped, grasping	to grasp
+
+🧗	grab, grabbed, grabbing	to grab
 
 🚶←🪨	pull, pulled, pulling	to pull
 🪨←🚶	push, pushed, pushing	to push
@@ -734,7 +796,19 @@
 
 🛣️	road
 
-👣	path, track, way
+🛣️	lane
+
+🚦	traffic
+
+👣	path
+
+👣	pathway
+
+👣	track
+
+👣	way
+
+👣	trail
 
 #		MOST COMMON WORDS, DERIVED MOSTLY FROM GUTENBERG WORD FREQUENCY LIST
 #		some reordering was done to propose best introduction to a language
@@ -745,6 +819,10 @@
 🙇	please
 🙇	thank you
 🙇	sorry
+
+🙇	pardon me, pardon
+
+🤧	bless you
 
 #&	and
 #|	or
@@ -759,7 +837,7 @@
 #🧑‍🤝‍🧑	you all
 #🧍‍♂️	he
 #🧍‍♀️	she
-#🐜	it
+#🐍	it
 #🧑‍🤝‍🧑	they
 
 #		🧘	to be
@@ -785,7 +863,7 @@
 #🧍🧑‍🤝‍🧑	you all
 #🧍🧍🧍‍♂️	him
 #🧍🧍🧍‍♀️	her
-#🧍🧍🐜	it
+#🧍🧍🐍	it
 #🧍🧍👫	them
 
 🧍<sub>💎</sub>	have, had, having	to have
@@ -797,7 +875,7 @@
 #🧍🧑‍🤝‍🧑<sub>💎</sub>	all yours
 #🧍🧍🧍‍♂️<sub>💎</sub>	his
 #🧍🧍🧍‍♀️<sub>💎</sub>	hers
-#🧍🧍🐜<sub>💎</sub>	theirs
+#🧍🧍🐍<sub>💎</sub>	theirs
 #🧍🧍👫<sub>💎</sub>	theirs
 
 🔩	thing
@@ -810,7 +888,7 @@
 #🧍🧑‍🤝‍🧑<sub>💎</sub>	all your
 #🧍🧍🧍‍♂️<sub>💎</sub>	his
 #🧍🧍🧍‍♀️<sub>💎</sub>	her
-#🧍🧍🐜<sub>💎</sub>	its
+#🧍🧍🐍<sub>💎</sub>	its
 #🧍🧍👫<sub>💎</sub>	their
 
 #		🚶	to go
@@ -852,7 +930,9 @@
 🏢	company
 ⛪	church
 🏦	bank
+
 🌍	world
+
 📍	place
 
 📍	placed, placing	to place
@@ -861,6 +941,9 @@
 
 #✔️	right
 ❌	wrong
+
+→	right
+←	left
 
 🆕	new
 
@@ -874,7 +957,7 @@
 
 #🤰	begotten
 
-#🤰	born
+#🤰	born, be born
 #🌱	grown
 #🌹	alive
 #🪦	dead
@@ -890,9 +973,13 @@
 
 🤴	ruler, leader, boss, chief
 
+🤴	rule, ruled, ruling	to rule
+
+🤴	reign, reigned, reigning	to reign
+
 👨‍💼	mister, mr	mister
 👩‍💼	misses, mrs	misses
-👧	miss, ms	miss
+👧	ms	miss
 📛	name
 
 👨‍💼	sir
@@ -905,17 +992,17 @@
 
 🤗	feel, felt, feeling	to feel
 
-🎗️	remember, remembered, remembering	to remember
-🎗️	forget, fogot, forgotten, forgetting	to forget
+🤔	remember, remembered, remembering	to remember
+🤔	forget, fogot, forgotten, forgetting	to forget
 
 📤	send, sent, sending	to send
 📥	receive, received, receiving	to receive
 
 📥	get, got, gotten, getting	to get
 
-📇	fact
+📊	fact
+
 📝	problem
-💼	case, situation
 
 👂	listen, listened, listening	to listen
 
@@ -944,7 +1031,10 @@ F	false
 ∴	therefore
 ∵	because
 
-∃	existance, exist, existed, existing 	to exist
+T	truth
+F	falsehood
+
+∃	existance, exist, existed, existing	to exist
 
 ∀	all, every, each
 
@@ -964,50 +1054,51 @@ F	false
 9	9, nine	nine
 10	10, ten	ten
 
-1	1st, first	first
-2	2nd, second	second
-3	3rd, third	third
-4	4th, fourth	fourth
-5	5th, fifth	fifth
-6	6th, sixth	sixth
-7	7th, seventh	seventh
-8	8th, eighth	eighth
-9	9th, ninth	ninth
-10	10th, tenth	tenth
+# 	ordinals
+1<sup>st</sup>	1st, first	first
+2<sup>nd</sup>	2nd, second	second
+3<sup>rd</sup>	3rd, third	third
+4<sup>th</sup>	4th, fourth	fourth
+5<sup>th</sup>	5th, fifth	fifth
+6<sup>th</sup>	6th, sixth	sixth
+7<sup>th</sup>	7th, seventh	seventh
+8<sup>th</sup>	8th, eighth	eighth
+9<sup>th</sup>	9th, ninth	ninth
+10<sup>th</sup>	10th, tenth	tenth
 
 #		multiplier
-1	single
-2	double
-3	triple
+×1	single
+×2	double
+×3	triple
 
-4	quadruple
-5	pentuple
-6	sextuple
-7	septuple
-8	octuple
-9	nonuple
-10	decuple
+×4	quadruple
+×5	pentuple
+×6	sextuple
+×7	septuple
+×8	octuple
+×9	nonuple
+×10	decuple
 
 #		distributive
-1	singly
-2	doubly
-3	triply
+×1	singly
+×2	doubly
+×3	triply
 
 #		collective
-
-½	1/2, half 	half
-⅓	1/3, third 	third
-¼	1/4, fourth 	fourth
-⅕	1/5, fifth 	fifth
-⅙	1/6, sixth 	sixth
-⅐	1/7, seventh 	seventh
-⅛	1/8, eighth 	eighth
-⅑	1/9, ninth 	ninth
-⅒	1/10, tenth 	tenth
-%	1/11, percent 	percent
+# disabled due to ambiguity with ordinals
+# ½	1/2, half	half
+# ⅓	1/3, third	third
+# ¼	1/4, fourth	fourth
+# ⅕	1/5, fifth	fifth
+# ⅙	1/6, sixth	sixth
+# ⅐	1/7, seventh	seventh
+# ⅛	1/8, eighth	eighth
+# ⅑	1/9, ninth	ninth
+# ⅒	1/10, tenth	tenth
+%	1/11, percent	percent
 
 20	20, twenty	twenty
-30	30, thirty 	thirty
+30	30, thirty	thirty
 40	40, forty	forty
 50	50, fifty	fifty
 60	60, sixty	sixty
@@ -1016,15 +1107,15 @@ F	false
 90	90, ninety	ninety
 100	100, hundred	hundred
 
-11	11, eleven 	eleven
-12	12, twelve 	twelve
-13	13, thirteen 	thirteen
-14	14, fourteen 	fourteen
-15	15, fifteen 	fifteen
-16	16, sixteen 	sixteen
-17	17, seventeen 	seventeen
-18	18, eighteen 	eighteen
-19	19, nineteen 	nineteen
+11	11, eleven	eleven
+12	12, twelve	twelve
+13	13, thirteen	thirteen
+14	14, fourteen	fourteen
+15	15, fifteen	fifteen
+16	16, sixteen	sixteen
+17	17, seventeen	seventeen
+18	18, eighteen	eighteen
+19	19, nineteen	nineteen
 
 21	21, twenty-one	twenty-one
 22	22, twenty-two	twenty-two
@@ -1036,15 +1127,15 @@ F	false
 28	28, twenty-eight	twenty-eight
 29	29, twenty-nine	twenty-nine
 
-31	31, thirty-one 	thirty-one
-32	32, thirty-two 	thirty-two
-33	33, thirty-three 	thirty-three
-34	34, thirty-four 	thirty-four
-35	35, thirty-five 	thirty-five
-36	36, thirty-six 	thirty-six
-37	37, thirty-seven 	thirty-seven
-38	38, thirty-eight 	thirty-eight
-39	39, thirty-nine 	thirty-nine
+31	31, thirty-one	thirty-one
+32	32, thirty-two	thirty-two
+33	33, thirty-three	thirty-three
+34	34, thirty-four	thirty-four
+35	35, thirty-five	thirty-five
+36	36, thirty-six	thirty-six
+37	37, thirty-seven	thirty-seven
+38	38, thirty-eight	thirty-eight
+39	39, thirty-nine	thirty-nine
 
 41	41, forty-one	forty-one
 42	42, forty-two	forty-two
@@ -1107,9 +1198,10 @@ F	false
 99	99, ninety-nine	ninety-nine
 
 1000	1000, thousand	thousand
-1M	million
 
-1G	billion
+1,000,000	million
+
+1,000,000,000	billion
 
 
 
@@ -1117,17 +1209,50 @@ F	false
 
 #		faces depicting wellbeing
 😮‍💨	tired, tiring
+
 🤕	hurt, injured, wounded
+
 🤒	sick
+
 🥱	sleepy
+
 😋	hunger, hungry
+
 🤢	nauseous
+
 😅	nervous
-🤪	crazy, crazed
+
+🤪	crazy
+
+🤪	fool
+
+🤪	idiot
+
+🤪	moron
+
+🤪	retard
+
+🤪	zany
+
+🤪	crazed
+
+🤪	insanity
+
+🤪	madness
+
+🙃	silly
+
+👿	heartless
+
+👿	cruel
 
 <sub>😴</sub><sup>💭</sup>	dream, dreamt, dreamed, dreaming	to dream
 
-🤕	injury, injure, injuring, wound, wounding
+🤕	harm, harmed, harming	to harm
+
+🤕	injury, injure, injuring	to injure
+
+🤕	wound, wounded, wounding	to wound
 
 🤕	heal, healing, mend, mending
 
@@ -1146,30 +1271,50 @@ F	false
 
 #		faces depicting miscellaneous emotions
 😞	disappointed, disappointing
+
 😫	exhausted, exhausting
+
 😖	upset, upsetting
+
 😡	angry
+
 🤬	furious
+
 😱	horrified, mortified, terrified
+
 😍	enamored, enraptured
+
 🥴	drunken
+
 😵‍💫	dizzy
+
 🥸	disguised, disguising
+
+😡	anger
 
 #		faces depicting situation
 😌	relaxed, relaxing
+
 🤯	amazed, amazing
+
 😄	funny
+
 🤣	ridiculous
+
 😤	insulting
+
 😬	painful
+
+🤯	incredible
+
+🤯	unbelievable
 
 #		faces depicting verbs
 😁	grin, grined, grining	to grin
 
 🙂	smile, smiled, smiling	to smile
 
-🤥	deceive, deceived, deceiving, deception, falsehood 	to lie
+🤥	deceive, deceived, deceiving, deception	to lie
 
 🤥	liar, deceiver
 
@@ -1207,19 +1352,42 @@ F	false
 
 🤬	insult, insulted, insulting	to insult
 
+😯	hush, hushed	to hush
+
+😯	whoa, wow
+
 👋	wave, waved, waving	to wave
+
 🤏	pinch, pinched, pinching	to pinch
+
 👉	point, pointed, pointing	to point
+
 🤜	punch, punched, punching	to punch
+
 👏	clap, claped, claping	to clap
+
 🤝	shake, shaked, shaking	to shake
+
 🙏	pray, prayed, praying	to pray
+
 🙏	worship, worshipped, worshipping
+
+🤝	handshake
+
+🤝	friendship
+
+👌	okay, ok
+
+👌	perfect
+
+👌	flawless
+
+🤞 	hope, hoped, hoping 	to hope
 
 🤏	pluck, plucked, plucking	to pluck
 
-✍️	write, writed, writing	to write
 📖	read, readed, reading	to read
+✍️	write, writed, writing	to write
 
 🤝	trust, trusted, trusting	to trust
 
@@ -1229,9 +1397,17 @@ F	false
 
 👅	lick, licked, licking
 
+💭	reason
+
+💭	reasoning
+
+💭	reckon, reckoned	to reckon
+
 🏋️	strength
 
 🏋️	power
+
+🏋️	mighty
 
 👱	blond
 🧑	brunette
@@ -1243,7 +1419,7 @@ F	false
 🙇	thank, thanked, thanking	to thank
 🙇	apologize, apologized, apologizing	to apologize
 
-🙇 	honor, honored, honoring 	to honor
+🙇	honor, honored, honoring	to honor
 
 🤷	shrug, shruged, shrugging	to shrug
 🙇	bow, bowed, bowing	to bow
@@ -1252,7 +1428,13 @@ F	false
 
 💁‍♂️	transport, transported, transporting	to transport
 
+🐍←🚶	encounter, encountered, encountering	to encounter
+
 ←🏃🏃	escape, escaped, escaping	to escape
+
+🏃	hurry
+
+🏃	quickly
 
 🏃←🏃	chase, chased, chasing	to chase
 
@@ -1263,6 +1445,16 @@ F	false
 🧑‍🦯	blind
 
 🧑‍🤝‍🧑	twin
+
+🧑‍🤝‍🧑	friendship
+
+🧑‍🤝‍🧑	friend, friends
+
+🧑‍🤝‍🧑	relationship
+
+🧑‍🤝‍🧑	relation
+
+👮	police
 
 🧑‍⚕️	doctor
 👩‍⚕️	nurse
@@ -1279,14 +1471,55 @@ F	false
 🧑‍💼	manager
 🧑‍🎤	singer
 🧑‍🎨	artist
-🧑‍✈️	pilot
+🧑‍✈️	captain
 🧑‍🚀	astronaut
 🧑‍🚒	firefighter
-👮	police
 🕵️	detective
 💂	guard
 👷	builder
 🤡	clown
+
+👮	officer
+
+🧑‍🏫	professor
+
+🧑‍🎓	education
+
+🧑‍⚖️	justice
+
+🧑‍⚖️	judgement
+
+🧑‍🌾	agriculture
+
+🧑‍🏭	industry
+
+🧑‍🔬	science
+
+🧑‍💻	technology
+
+🧑‍💼	leadership
+
+🧑‍🎤	entertainment
+
+🧑‍🎨	artistry
+
+🧑‍🚀	exploration
+
+🧑‍🚀	explore, explored, exploring	to explore
+
+🧑‍🚒	rescue
+
+🕵️	investigation
+
+👷	development
+
+🧑‍🏫	education
+
+👷	safety
+
+🤵	president
+
+🧑‍⚕️	medic
 
 🧑‍🌾	plough, ploughed, ploughing	to plow
 
@@ -1295,7 +1528,7 @@ F	false
 
 🧑‍🔧	job
 
-🧑‍🔧	work, worked, working 	to work
+🧑‍🔧	work, worked, working	to work
 
 🧑‍🔧	worker
 
@@ -1303,20 +1536,30 @@ F	false
 
 🧑‍🔧	industrious
 
+👮	arrest, arrested	to arrest
+
+👮	policed, policing	to police
+
+🏊	pool, swimming pool
+
 🧕	veil
 
 🧕	scarf
 
 👰	bride
 🤵	groom
+
+💒	wed
 💒	wedding
 💒	marry, married, marrying	to marry
 💒	marriage
 
+←👰🤵→	divorce, divorced, divorcing	to divorce
+
 🤰	pregnant
 🤱	breast-feeding
 
-👩‍🍼	care, cared, carrying	to care
+👩‍🍼	care, cared, carrying, take care, take care of	to care
 
 🎅	santa claus
 🤶	mrs. claus
@@ -1326,7 +1569,10 @@ F	false
 
 🧙‍♂️	wizard
 🧙‍♀️	witch
+
 🪄	magic
+
+🪄	charm
 
 #		mythical and legendary humanoids
 🧚	fairy
@@ -1345,10 +1591,9 @@ F	false
 
 👳	foreigner
 
-
-
 #		clothing
 #		types of clothing
+👗	dress
 👕	shirt
 👖	pants
 🧦	socks
@@ -1367,13 +1612,14 @@ F	false
 🧤	gloves
 🧥	coat
 
+🧥	jacket
+
 #		kinds of clothing
 🩴	sandal
 👟	sneakers
 🥾	boot
 👠	high-heels
 
-👗	dress
 🩱	swimsuit
 🩳	shorts
 👙	bikini
@@ -1385,6 +1631,13 @@ F	false
 🪖	helmet
 👑	crown
 
+🥆🪖	army
+
+🥆🪖	military
+
+⚔️	war
+
+⚔️	warfare
 
 🥼	lab coat
 🦺	safety vest
@@ -1399,13 +1652,17 @@ F	false
 💼	business
 
 ☂️	umbrella
+
 💄	lipstick
+
 💍	ring
 
 #☔	cover, covered, covering
 
 👓	glasses
+
 🕶️	sunglasses
+
 🥽	goggles
 
 
@@ -1452,6 +1709,10 @@ F	false
 
 🐃	yak
 
+🐃	beast
+
+🐘	giant
+
 🐎	stallion
 🐂	bull
 🐐	goat, he-goat, billy-goat, billy goat
@@ -1462,7 +1723,7 @@ F	false
 
 🐎	mare
 🐄	heifer
-🐖 	sow
+🐖	sow
 🐑	ewe
 🦌	doe
 🐔	hen
@@ -1488,6 +1749,10 @@ F	false
 
 🔪🐂	sacrifice, sacrificed, sacrificing
 
+🔪🐂	slaughter, slaughtered, slaughtering
+
+😐🔫	slay, slayed, slaying	to slay
+
 #	prehistoric
 🦣	mammoth
 🦖	dinosaur
@@ -1510,6 +1775,8 @@ F	false
 🦢	crane, heron
 🦉 owl
 
+🐦	tweet, twote, tweeted, tweeting	to tweet
+
 🐦	goose
 
 🐦	sparrow
@@ -1525,6 +1792,8 @@ F	false
 🐍	snake
 🐢	turtle
 🦎	lizard
+
+🦎	species
 
 #		amphibians
 🐸	frog
@@ -1552,12 +1821,14 @@ F	false
 🕷️	spider
 🪱	worm
 🐝	wasp
-<sub>🐛</sub> 	maggot, larva, leech
-<sub>🐜</sub> 	lice, louse, flea
+<sub>🐛</sub>	maggot, larva, leech
+<sub>🐜</sub>	lice, louse, flea
 
 🕸️	web
 
-<sub>🐜🥚</sub> 	nit
+<sub>🐜🥚</sub>	nit
+
+🐜	creature
 
 🐛	creep, creeped, creeping	to creep
 
@@ -1574,6 +1845,22 @@ F	false
 👽	alien
 🤖	robot
 
+👽	weird
+
+👽	strange
+
+👽	odd
+
+🤖	automatic
+
+🤖	automated
+
+🤖	automation
+
+👹	monster
+
+👹	ugly
+
 #		plants
 🌹	rose
 🌺	hibiscus
@@ -1582,9 +1869,8 @@ F	false
 
 🌲	pine
 🌴	palm
-🌳	oak
 🍁	maple
-
+🌳	oak
 🌳	elm
 🌳	alder
 🌳	birch
@@ -1593,23 +1879,17 @@ F	false
 🌳	lineage
 
 🌵	cactus
+
 🎋	bamboo
 
 🌾	wheat
 🌾	rye
 🌾	rice
+🌾	grain
 
+🍀	luck
 
 #		food
-#		types of food
-🍏	fruit
-🥦	vegetable
-🌰	nut
-🍞	bread
-🥚	egg
-🥛	milk
-🧀	cheese
-🍖	meat
 
 #		fruits
 #		traditional western
@@ -1647,7 +1927,7 @@ F	false
 🌽	corn
 🌶️	pepper
 
-# 		exports
+#		exports
 🥥	coconut
 🥑	avocado
 🍆	eggplant
@@ -1689,14 +1969,9 @@ F	false
 🥡	noodles
 
 #		preparation
-🥘	cook, cooked, cooking	to cook
+🥘	cooked, cooking	to cook
 🍳	fry, fried, frying	to fry
 🍲	boil, boiled, boiling	to boil
-
-#		condiments
-🧈	butter
-🧂	salt
-🥣	sugar
 
 🧈	grease, oil
 
@@ -1723,6 +1998,8 @@ F	false
 🎂	cake
 🥧	pie
 
+🍬	treat
+
 🍯	nectar
 
 #		beverage
@@ -1733,6 +2010,11 @@ F	false
 #		alcoholic
 🍷	wine
 🍺	beer
+🥃	liquor
+
+🥃	whiskey
+🥃	vodka
+🥃	tequila
 
 🍷	libation, libate, libated, libating	libation
 
@@ -1762,9 +2044,15 @@ F	false
 ⛸️	ice skating
 🛹	skateboarding
 
+🤺	thrust
+
+🤺	thrusted, thrusting	to thrust
+
 🏋️	lift, lifted, lifting	to lift
 
 🏋️	weight
+
+🏋️	try, tried, trying	to try
 
 🛼	skate
 ⛸️	ice skate
@@ -1832,6 +2120,8 @@ F	false
 
 🎭	theater
 
+🎭	actor
+
 🎭	perform, performed, performing	to perform
 
 🎨	paint, painted, painting	to paint
@@ -1849,6 +2139,8 @@ F	false
 🎹	piano
 🥁	drum
 
+🥁	rhythm
+
 🎬	direct, directed, directing	to direct
 
 🎬	movie
@@ -1863,6 +2155,8 @@ F	false
 
 🌃	shadow, shade
 
+🔥	inferno
+
 🏞️	nature
 
 🏞️	wilderness
@@ -1874,6 +2168,12 @@ F	false
 🏞️	wild
 
 ⛰️	slope, sloped, sloping
+
+⛰️	height
+
+⛰️	altitude
+
+⛰️	elevation
 
 ⛰️	incline, inclined, inclining
 
@@ -1891,11 +2191,15 @@ F	false
 
 🏛️	ancient
 
+🏛️	federal
+
 🏗️	construction, construct, constructed, constructing
 
 🏗️	build, built
 
 🏢	building
+
+🏢	skyscraper
 
 🛖	hut
 
@@ -1914,6 +2218,10 @@ F	false
 🏘️	village
 
 🏘️	settle
+
+🏘️	settlement
+
+🏘️	neighborhood
 
 🏚️	abandoned
 
@@ -1935,7 +2243,17 @@ F	false
 🏰	castle
 🗼	tower
 
+🏫	elementary school
+🏫	middle school
+🏫	high school
+
+🏥	medical
+
 🗽	statue
+
+🗽	liberty
+
+🗽	freedom
 
 #	places of worship
 ⛪	church
@@ -1964,6 +2282,8 @@ F	false
 🚢	boat
 ✈️	plane
 🚀	rocket
+
+🚗	automobile, auto
 
 🚌	bus
 🚐	van
@@ -1994,10 +2314,10 @@ F	false
 
 
 #		currency
-💴	yen
 💵	dollar
 💶	euro
 💷	pound
+💴	yen
 
 
 
@@ -2013,9 +2333,9 @@ F	false
 
 💣	bombed, bombing	to bomb
 
-🪅	explosion
+💣🔥	explosion
 
-🪅	explode, exploded, exploding	to explode
+💣🔥	explode, exploded, exploding	to explode
 
 🛀	bathe, bathed, bathing	to bathe
 
@@ -2053,6 +2373,14 @@ F	false
 ⌚	watch
 ⏰	alarm
 🕰️	clock
+
+⌛	past
+⌚	present
+📟	future
+
+📟	technology
+
+📛	badge
 
 🌡️	thermometer
 
@@ -2106,12 +2434,18 @@ F	false
 
 🎙️	microphone
 
+🎙️	song
+
 🎚️	dial
 🎛️	knob
 
 📻	radio
-☎️	phone
+
+📞	phone
+
 📠	fax
+
+☎️	telephone
 
 💻	laptop
 🖥️	computer
@@ -2120,8 +2454,13 @@ F	false
 🖱️	computer mouse
 📀	disk
 
+🖥️	system
+
+🖥️	software
+
 🔌	electricity
 🧲	magnetism
+
 🔋	battery
 
 📸	flash
@@ -2135,12 +2474,23 @@ F	false
 
 📖	book
 📃	page
+
 📰	newspaper
+
+📃	menu
+
+📕	oath
+
+📕	pledge
+
+📰	news
 
 📜	scroll
 📓	notebook
 📒	ledger
 📝	memo
+
+📝	plan
 
 🏷️	label
 
@@ -2149,6 +2499,9 @@ F	false
 💸	payment
 💸	buy, bought, buying
 💸	sell, sold, selling
+
+💸	purchase
+💸	purchased, purchasing	to purchase
 
 🪙	coin
 
@@ -2164,6 +2517,7 @@ F	false
 💌	letter
 ✉️	envelope
 
+✉️	message
 
 🗳️	vote, voted, voting	to vote
 
@@ -2180,8 +2534,10 @@ F	false
 
 📊	chart
 
-📈	increase, increased, increasing 	to increase
-📉	decrease, decreased, decreasing 	to decrease
+📈	increase, increased, increasing	to increase
+📉	decrease, decreased, decreasing	to decrease
+
+📈	change
 
 📌	pin
 📎	clip
@@ -2198,8 +2554,10 @@ F	false
 
 🔒	lock
 🔑	key
-🔐	lock, locked, locking 	to lock
-🔓	unlock, unlocked, unlocking 	to unlock
+🔐	lock, locked, locking	to lock
+🔓	unlock, unlocked, unlocking	to unlock
+
+🔒	security
 
 🔧	tool
 
@@ -2227,7 +2585,7 @@ F	false
 
 🔩	screw
 
-🔩	fasten, fastened, fastening 	to fasten
+🔩	fasten, fastened, fastening	to fasten
 
 🪛	screwdriver
 
@@ -2249,15 +2607,15 @@ F	false
 🔗	link
 🪝	hook
 
-🧲←	attract, attracted, attracting 	to attract
-🧲→	repel, repeled, repeling 	to repel
+🧲←	attract, attracted, attracting	to attract
+🧲→	repel, repeled, repeling	to repel
 
 🪜	ladder
 
 ⚗️	science
 ⚙️	technology
-⚗️	experiment, experimented, experimenting 	to experiment
-🧪	test, tested, testing 	to test
+⚗️	experiment, experimented, experimenting	to experiment
+🧪	test, tested, testing	to test
 
 🧫	biology
 
@@ -2273,14 +2631,19 @@ F	false
 🩹	bandage, gause
 🩺	stethoscope
 
-💊	cure, cured, curing 	to cure
+💊	cure, cured, curing	to cure
 
 💊	pill
 
 🛏️	bed
-🛋️	couch
+🛋️	couch, sofa
 🪑	chair
 🚽	toilet
+
+🛏️	bedroom
+🛋️	livingroom
+🚽	bathroom
+🍽️	kitchen
 
 🪒	razor
 
@@ -2291,7 +2654,7 @@ F	false
 
 🪠	plunger
 
-🪤	trap, trapped, trapping 	to trap
+🪤	trap, trapped, trapping	to trap
 
 🧴	lotion
 
@@ -2331,18 +2694,24 @@ F	false
 
 🪧	signal
 
-♠️	spade	spade
+#♠️	spade	spade
 #♥️	heart
-♦️	diamond	diamond
-♣️	club	club
+#♦️	diamond	diamond
+#♣️	club	club
 🃏	joker	joker
 
 📯	horn
 🔔	bell
 
 #	curse words
-# 	worst offenders are omitted
+#	worst offenders are omitted
 🤬	swear, sweared, swearing	to swear
+
+🤬	curse, cursed, cursing	to curse
+
+🤬	damn, damned, damning	to damn
+
+🤬	damn it, damnit, dammit
 
 #	scatalogical
 🚽	urine, urinate, urinated, urinating, pee, peed, peeing, piss, pissed, pissing
@@ -2355,12 +2724,14 @@ F	false
 🍒	breast, breasts, boob, boobs
 🤱	teat, nipple
 🍑	buttock, buttock, butt, arse, ass
-🐱	vagina, vulva, pussy 	pussy
-🍆	penis, cock 	cock
+🐱	vagina, vulva, pussy	pussy
+🍆	penis, cock	cock
 🥚🥚	testicle
 🍑💨	fart, farted, farting	to fart
 🔞	naked
-🔞	copulate, copulated, copulating, sex 	to have sex
+🔞	copulate, copulated, copulating, sex	to have sex
+
+💃	beautiful
 
 ⚛️	science
 
@@ -2413,8 +2784,10 @@ F	false
 🌀	cyclone
 
 🛗	elevator
-🚻	bathroom
+🚻	restroom
+
 🚮	litter
+
 🏧	atm
 
 ⚠️	warn, warned, warning	to warn
@@ -2425,11 +2798,15 @@ F	false
 
 ⚠️	attention
 
+⚠️	important
+
 🚸	to cross
 
 ⛔	no entry
 
-🚫	prohibited
+🚫	prohibit, prohibited, prohibiting	to prohibit
+
+🚫	forbid, forbade, forbidden, forbidding	to forbid
 
 ☢️	radioactive
 ☣️	biohazard
@@ -2456,7 +2833,7 @@ F	false
 ⏭️	next
 ⏮️	previous
 
-▶️	play
+#▶️	play
 ◀️	reverse
 ⏩	forward
 ⏪	rewind
@@ -2483,6 +2860,10 @@ F	false
 
 📳	vibration
 
+📳	cellphone
+
+📳	mobile
+
 📴	off
 
 ♀️	female
@@ -2498,11 +2879,21 @@ F	false
 ❓	question
 ❗	exclamation
 
+❓	eh
+
+❗	hey
+
+❓	query, queried, querying	to query
+
 💸	wealth
 
 💸	fortune
 
 💸	prosperity
+
+💸	success
+
+🥇	win, won, winning	to win
 
 〰️	wavy
 ➰	curly
@@ -2557,11 +2948,18 @@ F	false
 🏴‍☠️	pirate
 
 🇨🇦	canada
-🇺🇸	america	united states
+🇺🇸	america, united states
 🇲🇽	mexico
 🇨🇴	colombia
 🇧🇷	brazil
 🇦🇷	argentina
+
+🇨🇦	canadian
+🇺🇸	american
+🇲🇽	mexican
+🇨🇴	colombian
+🇧🇷	brazilian
+🇦🇷	argentenian
 
 🇺🇳	nation
 

@@ -1,0 +1,50 @@
+                    
+#                    	vowel heightening:                                                               
+a                   	a↑                                                                               
+#                    	vowel lowering:                                                                  
+a↑                  	a                                                                                
+#                    	vowel fronting:                                                                  
+(a↑*)→              	\1                                                                               
+#                    	vowel backing:                                                                   
+(a↑*)               	\1→                                                                              
+#                    	vowel brightening:                                                               
+(a[↑→]*)ʷ           	\1                                                                               
+#                    	vowel rounding:                                                                  
+(a[↑→]*)            	\1ʷ                                                                              
+#                    	nasal raising                                                                    
+(a[↑→ʷ]+)(?=.ⁿ)     	↑\1                                                                              
+#                    	Verner's Law                                                                     
+([a↑→ʷ]+[F])        	\1ᵛ                                                                              
+#                    	denasalization                                                                   
+([a↑→ʷ]+)[F]ⁿ       	\1ⁿ                                                                              
+([a↑→ʷ]+)ⁿ          	\1                                                                               
+#                    	voicing/sonorization                                                             
+#                    
+#                    	dipthong height harmonization                                                    
+a(→+ʷ+)a(↑+)(→+ʷ+)  	a\2\1a\2\3                                                                       
+a(↑+)(→+ʷ+)a(→+ʷ+)  	a\1\2a\1\3                                                                       
+#                    
+#                    	old english palatalization laws:                                                 
+(?<=a[↑ʷ]+)xᵖ       	sᵖʃ                                                                              
+(?<=a[↑ʷ]+)xᵛ       	xᵃ                                                                               
+(?<=i)xᵖ(?!a[↑ʷ]+→→)	sᵖʃ                                                                              
+#                    
+#                    	Grimm's Law                                                                      
+#                    	voiceless stops fricativize                                                      
+(?<=[^sᵖʷ][F])ᵖ     	∅                                                                                
+#                    	voiced stops unvoice                                                             
+(?<=[F])ᵛᵖ          	ᵖ                                                                                
+#                    	voiced spirates unaspirate                                                       
+(?<=[F])ʰᵛᵖ         	ᵛᵖ                                                                               
+#                    	this sound law applies when phoneme features are depicted in the following order:
+xʰᵛᵖʷ               	gʷʰ                                                                              
+#                    
+#                    	Great Vowel Shift                                                                
+#                   	high front and back vowels are split                                             
+ɜ↑↑(?=[←→])         	ɜ↑ɜ↑↑                                                                            
+#                   	lower vowels are heightened                                                      
+ɜ(?=[↑↓]*[←→])      	ɜ↑                                                                               	
+#                   	high front vowels are heightened again                                           
+ɜ(?=↑*←)            	ɜ↑                                                                               	
+#                   	dipthongs introduced earlier are dropped again                                   
+ɜ↑ɜ↑↑(?=[←→])       	ɜ↓←ɜ↑↑                                                                            	

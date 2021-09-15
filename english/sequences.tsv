@@ -1,0 +1,2679 @@
+# 
+# noun 	i
+# noun 	we
+# noun 	you
+# noun 	you all
+# noun 	he
+# noun 	she
+# noun 	it
+# noun 	they
+# noun 	they⚲
+# noun 	they♂
+# noun 	the men
+# noun 	they♀
+# noun 	the women
+# 
+# noun 	me
+# noun 	us
+# noun 	you
+# noun 	you all
+# noun 	him
+# noun 	her
+# noun 	it
+# noun 	them
+# noun 	them⚲
+# noun 	them♂
+# noun 	the men
+# noun 	them♀
+# noun 	the women
+# 
+# noun 	myself
+# noun 	ourselves
+# noun 	ourself
+# noun 	yourself
+# noun 	yourself
+# noun 	yourselves
+# noun 	yourself
+# noun 	himself
+# noun 	himself
+# noun 	herself
+# noun 	herself
+# noun 	itself
+# noun 	itself
+# noun 	theirselves
+# noun 	theirself
+# noun 	theirselves⚲
+# noun 	theirself⚲
+# noun 	theirselves♂
+# noun 	theirself♂
+# noun 	theirselves♀
+# noun 	theirself♀
+# 
+# noun 	mine
+# noun 	ours
+# noun 	yours
+# noun 	all yours
+# noun 	his
+# noun 	hers
+# noun 	its
+# noun 	theirs
+# noun 	theirs⚲
+# noun 	theirs♂
+# noun 	the mens'
+# noun 	theirs♀
+# noun 	the womens'
+# 
+# noun 	my
+# noun 	our
+# noun 	your
+# noun 	all your
+# noun 	his
+# noun 	her
+# noun 	its
+# noun 	their
+# noun 	their⚲
+# noun 	their♂
+# noun 	the mens'
+# noun 	their♀
+# noun 	the womens'
+# 
+# noun 	who
+# noun 	whom
+# noun 	what
+# noun 	where
+# noun 	when
+# noun 	how much
+# noun 	how many
+# noun 	how
+# noun 	why
+# noun 	whose
+# 
+# noun 	this person
+# noun 	this
+# noun 	here
+# noun 	now
+# noun 	this much
+# noun 	this way
+# noun 	this reason
+# noun 	this person's
+# 
+# noun 	that person
+# noun 	that
+# noun 	there
+# noun 	then
+# noun 	that much
+# noun 	that way
+# noun 	that reason
+# noun 	that person's
+# 
+# noun 	these people
+# noun 	these
+# noun 	these places
+# noun 	these times
+# noun 	these many
+# noun 	these ways
+# noun 	these reasons
+# noun 	these people's
+# 
+# noun 	those people
+# noun 	those
+# noun 	those places
+# noun 	those times
+# noun 	those many
+# noun 	those ways
+# noun 	those reasons
+# noun 	those people's
+# 
+# noun 	somebody
+# noun 	something
+# noun 	somewhere
+# noun 	sometime
+# noun 	some
+# noun 	somehow
+# noun 	for some reason
+# noun 	somebody's
+# 
+# noun 	anybody
+# noun 	anything
+# noun 	anywhere
+# noun 	anytime
+# noun 	any
+# noun 	any way
+# noun 	for any reason
+# noun 	anybody's
+# 
+# noun 	everybody
+# noun 	everything
+# noun 	everywhere
+# noun 	everytime
+# noun 	always
+# noun 	every
+# noun 	all
+# noun 	every way
+# noun 	for every reason
+# noun 	everybody's
+# 
+# noun 	nobody
+# noun 	nothing
+# noun 	nowhere
+# noun 	never
+# noun 	none
+# noun 	no way
+# noun 	for no reason
+# noun 	nobody's
+
+noun 	yes
+noun 	no
+
+preposition 	in
+preposition 	out
+
+adjective 	in
+adjective 	out
+
+adverb 	in
+adverb 	out
+
+conjunction 	and
+conjunction 	or
+conjunction 	not
+conjunction 	but
+
+determiner 	more
+determiner 	less
+
+adverb 	more
+adverb 	less
+
+pronoun 	more
+pronoun 	less
+
+noun 	north
+noun 	south
+noun 	east
+noun 	west
+
+adjective 	north
+adjective 	south
+adjective 	east
+adjective 	west
+
+adverb 	north
+adverb 	south
+adverb 	east
+adverb 	west
+
+adverb 	up
+adverb 	down
+adverb 	left
+adverb 	right
+
+preposition 	up
+preposition 	down
+preposition 	left
+preposition 	right
+
+adjective 	up
+adjective 	down
+adjective 	left
+adjective 	right
+
+noun 	up
+noun 	down
+noun 	left
+noun 	right
+
+noun 	top
+noun 	bottom
+
+verb 	top
+verb 	bottom
+
+adjective 	top
+adjective 	bottom
+
+adverb 	top
+adverb 	bottom
+
+noun 	front
+noun 	middle
+noun 	back
+
+adjective 	front
+adjective 	middle
+adjective 	back
+
+verb 	front
+verb 	middle
+verb 	back
+
+preposition 	to
+preposition 	from
+
+verb 	enter
+verb 	entered
+verb 	entering
+verb 	exit
+verb 	exited
+verb 	exiting
+
+noun 	entrance
+noun 	exit
+
+verb 	arrive
+verb 	arrived
+verb 	arriving
+verb 	leave
+verb 	left
+verb 	leaving
+
+noun 	arrival
+noun 	departure
+
+verb 	lead
+verb 	lead
+verb 	leading
+verb 	follow
+verb 	followed
+verb 	following
+
+noun 	leader
+noun 	follower
+
+adverb 	fast
+adverb 	slow
+
+adjective 	fast
+adjective 	slow
+
+adverb 	through
+adverb 	over
+
+adjective 	through
+adjective 	over
+
+preposition 	through
+preposition 	over
+
+adjective 	heavy
+adjective 	light
+
+noun 	heavyweight
+noun 	lightweight
+
+adjective 	heavyweight
+adjective 	lightweight
+
+adjective 	large
+adjective 	small
+
+adjective 	long
+adjective 	short
+
+adjective 	wide
+adjective 	narrow
+
+adjective 	thick
+adjective 	thin
+
+adjective 	broad
+adjective 	slender
+
+adjective 	strong
+adjective 	weak
+
+adjective 	new
+adjective 	old
+
+adjective 	young
+adjective 	old
+
+noun 	youth
+noun 	elder
+
+adjective 	high
+adjective 	tall
+adjective 	low
+
+adverb 	high
+adverb 	tall
+adverb 	low
+
+# time: overview
+noun 	past
+noun 	present
+noun 	future
+
+# time: seasons
+noun 	year
+noun 	spring
+noun 	summer
+noun 	autumn
+noun 	winter
+noun 	month
+
+# time: months of the year
+noun 	january
+noun 	february
+noun 	march
+noun 	april
+noun 	may
+noun 	june
+noun 	july
+noun 	august
+noun 	september
+noun 	october
+noun 	november
+noun 	december
+
+# time: days of the week
+noun 	sunday
+noun 	monday
+noun 	tuesday
+noun 	wednesday
+noun 	thursday
+noun 	friday
+noun 	saturday
+
+# time: days
+noun 	yesterday
+noun 	today
+noun 	tomorrow
+
+# time: times of day
+noun 	day
+noun 	dawn
+noun 	morning
+noun 	evening
+noun 	noon
+noun 	night
+noun 	midnight
+noun 	dusk
+
+adjective 	annual
+adjective 	seasonal
+adjective 	yearly
+adjective 	annually
+adjective 	seasonally
+adjective 	monthly
+adjective 	daily
+adjective 	hourly
+
+# time: subdaily
+noun 	hour
+noun 	minute
+noun 	second
+noun 	now
+
+# swadesh list metals
+noun 	copper
+noun 	silver
+noun 	gold
+
+# phases of matter
+noun 	solid
+noun 	gas
+noun 	liquid
+noun 	energy
+
+# nature: astronomy
+noun 	sun
+noun 	moon
+noun 	star
+noun 	planet
+noun 	earth
+noun 	galaxy
+noun 	milky way
+
+# nature: biomes
+noun 	field
+noun 	mountain
+noun 	valley
+noun 	forest
+noun 	desert
+noun 	island
+noun 	beach
+
+# elementals: overview
+noun 	earth
+noun 	fire
+noun 	air
+noun 	water
+
+# elementals: earth
+noun 	rock
+noun 	stone
+noun 	sand
+noun 	dust
+noun 	ash
+
+# elementals: fire
+noun 	smoke
+noun 	soot
+noun 	burn
+verb 	burned
+verb 	burning
+
+# elementals: air
+noun 	cloud
+noun 	rain
+noun 	storm
+noun 	snow
+noun 	tornado
+noun 	wind
+noun 	fog
+adjective 	sky
+noun 	ice
+noun 	rainbow
+
+# elementals: water
+noun 	river
+noun 	lake
+noun 	sea
+noun 	ocean
+
+# body parts: overview
+noun 	body
+noun 	chest
+noun 	arm
+noun 	leg
+noun 	foot
+noun 	ear
+noun 	nose
+noun 	hand
+noun 	head
+noun 	face
+noun 	eye
+noun 	mouth
+noun 	tongue
+
+# body parts: chest
+noun 	breast
+noun 	belly
+noun 	abdomen
+noun 	stomach
+
+# body parts: leg
+noun 	thigh
+noun 	knee
+noun 	calve
+noun 	shin
+noun 	ankle
+
+# body parts: hands
+noun 	finger
+noun 	thumb
+noun 	palm
+noun 	wrist
+noun 	fingernail
+
+# body parts: head
+noun 	forehead
+noun 	cheek
+noun 	chin
+noun 	jaw
+noun 	hair
+
+# body parts: internals
+noun 	heart
+noun 	brain
+noun 	lung
+noun 	skull
+noun 	tooth
+noun 	bone
+noun 	organ
+noun 	guts
+noun 	entrails
+noun 	intestines
+noun 	blood
+noun 	muscle
+noun 	fat
+
+# body parts: fluids
+noun 	sweat
+noun 	tear
+noun 	spit
+noun 	drool
+noun 	snot
+
+# necessities of life
+noun 	eat
+noun 	ate
+noun 	eaten
+verb 	eating
+noun 	drink
+noun 	drunk
+verb 	drinking
+noun 	breath
+noun 	breathe
+verb 	breathed
+verb 	breathing
+noun 	sleep
+noun 	slept
+verb 	sleeping
+
+# parts of life: nouns
+noun 	birth
+noun 	growth
+noun 	life
+noun 	death
+
+# parts of life: adjectives
+adjective 	born
+adjective 	growing
+adjective 	living
+adjective 	dying
+
+# parts of life: verbs
+verb 	birth
+verb 	birthed
+verb 	born
+verb 	birthing
+verb 	grow
+verb 	grew
+verb 	grown
+verb 	growing
+verb 	live
+verb 	lived
+verb 	living
+verb 	die
+verb 	died
+verb 	dying
+
+# swadesh list animals
+noun 	human
+noun 	horse
+noun 	cow
+noun 	pig
+noun 	sheep
+noun 	dog
+noun 	cat
+noun 	mouse
+noun 	bear
+noun 	wolf
+noun 	fox
+noun 	deer
+noun 	beaver
+noun 	duck
+noun 	eagle
+noun 	bird
+
+# swadesh list plants
+noun 	tree
+noun 	bush
+noun 	grass
+noun 	flower
+
+# mental states
+noun 	smart
+noun 	dumb
+
+# emotional states
+adjective 	happy
+noun 	sad
+noun 	mad
+noun 	afraid
+
+verb 	bored
+verb 	excited
+
+noun 	calm
+noun 	joyful
+
+noun 	love
+noun 	hate
+
+verb 	like
+verb 	liked
+verb 	liking
+verb 	love
+verb 	loved
+verb 	loving
+verb 	hate
+verb 	hated
+verb 	hating
+
+verb 	laugh
+verb 	laughed
+verb 	laughing
+verb 	cry
+verb 	cried
+verb 	crying
+
+# senses: overview
+verb 	see
+verb 	saw
+verb 	seeing
+verb 	hear
+verb 	heard
+verb 	hearing
+verb 	smell
+verb 	smelled
+verb 	smelling
+verb 	taste
+verb 	tasted
+verb 	tasting
+verb 	touch
+verb 	touched
+verb 	touching
+
+# senses: sight
+noun 	light
+noun 	bright
+noun 	dark
+
+# senses: colors
+noun 	color
+adjective 	red
+adjective 	orange
+adjective 	yellow
+adjective 	green
+adjective 	blue
+adjective 	purple
+adjective 	brown
+adjective 	black
+adjective 	white
+
+# senses: sound
+noun 	loud
+noun 	quiet
+noun 	silent
+
+# senses: smell
+noun 	fragrant
+noun 	foul
+
+# senses: taste
+noun 	sweet
+noun 	sour
+adjective 	salty
+noun 	bitter
+adjective 	savory
+adjective 	spicy
+
+# senses: taste, food
+noun 	fruit
+noun 	vegetable
+noun 	nut
+noun 	bread
+noun 	egg
+noun 	milk
+noun 	cheese
+noun 	honey
+noun 	meat
+
+# senses: taste, food elements
+noun 	butter
+noun 	salt
+noun 	sugar
+
+# senses: touch, temperature
+noun 	hot
+noun 	cold
+
+# senses: touch
+noun 	sharp
+noun 	dull
+noun 	soft
+
+# people
+noun 	man
+noun 	woman
+
+noun 	child
+noun 	boy
+noun 	girl
+noun 	baby
+
+noun 	person
+noun 	people
+
+# family
+noun 	father
+noun 	mother
+
+noun 	dad
+noun 	mom
+
+noun 	daddy
+noun 	mommy
+
+noun 	dadda
+noun 	momma
+
+noun 	papa
+noun 	mama
+
+noun 	pop
+noun 	mum
+
+noun 	pa
+noun 	ma
+
+noun 	son
+noun 	daughter
+
+noun 	brother
+noun 	sister
+
+noun 	husband
+noun 	wife
+
+noun 	grandfather
+noun 	grandmother
+
+noun 	grandpa
+noun 	grandma
+
+noun 	grandson
+noun 	granddaughter
+
+noun 	uncle
+noun 	aunt
+noun 	niece
+noun 	nephew
+
+noun 	hero
+noun 	villain
+
+noun 	friend
+noun 	enemy
+
+# good and evil
+noun 	good
+noun 	bad
+
+noun 	holy
+noun 	evil
+
+noun 	god
+noun 	devil
+
+noun 	angel
+noun 	demon
+
+noun 	heaven
+noun 	hell
+
+adjective 	heavenly
+adjective 	hellish
+
+verb 	bless
+verb 	blessed
+verb 	blessing
+verb 	curse
+verb 	cursed
+verb 	cursing
+
+# swadesh list parts of a house
+noun 	door
+noun 	window
+noun 	house
+noun 	fence
+
+# swadesh list agriculture
+noun 	plow
+noun 	grind
+noun 	sow
+noun 	yoke
+verb 	yoke
+verb 	yoked
+verb 	yoking
+
+noun 	little
+noun 	big
+
+# taxonomy: overview
+noun 	animal
+noun 	plant
+noun 	fungus
+noun 	microbe
+noun 	virus
+
+# swadesh list materials from animals
+noun 	shell
+noun 	horn
+noun 	feather
+
+# swadesh list parts of animals
+noun 	tail
+verb 	wing
+noun 	neck
+noun 	back
+
+# swadesh list parts of plants
+noun 	stick
+noun 	branch
+noun 	stem
+noun 	twig
+verb 	seed
+noun 	leaf
+noun 	wood
+noun 	rope
+noun 	root
+
+# swadesh list warfare
+noun 	fight
+noun 	fought
+verb 	fighting
+noun 	kill
+verb 	killed
+verb 	killing
+noun 	murder
+verb 	murdered
+verb 	murdering
+noun 	stab
+verb 	stabbed
+verb 	stabbing
+noun 	hunt
+verb 	hunted
+verb 	hunting
+noun 	hit
+verb 	hitting
+noun 	strike
+noun 	struck
+verb 	striking
+noun 	cut
+verb 	cutting
+noun 	split
+verb 	splitting
+noun 	scratch
+verb 	scratched
+verb 	scratching
+noun 	bite
+verb 	bited
+noun 	bitten
+verb 	biting
+
+# body functions: fluids
+noun 	vomit
+noun 	sneeze
+noun 	sweat
+noun 	spit
+
+verb 	vomit
+verb 	vomited
+verb 	vomiting
+verb 	sneeze
+verb 	sneezed
+verb 	sneezing
+verb 	sweat
+verb 	sweated
+verb 	sweating
+verb 	spit
+verb 	spat
+verb 	spitting
+
+noun 	vomiting
+noun 	sneezing
+noun 	sweating
+noun 	spitting
+
+noun 	blow
+noun 	suck
+
+verb 	blow
+verb 	blowed
+verb 	blown
+verb 	blowing
+verb 	sucked
+verb 	sucking
+
+adjective 	clean
+adjective 	dirty
+
+verb 	clean
+verb 	dirty
+
+adjective 	straight
+adjective 	round
+
+adjective 	wet
+adjective 	dry
+
+# pleasantries
+noun 	hello
+noun 	hi
+noun 	goodbye
+noun 	bye
+
+noun 	please
+noun 	thank you
+noun 	sorry
+noun 	bless you
+
+noun 	before
+noun 	after
+
+noun 	above
+noun 	below
+
+noun 	on top
+noun 	beneath
+
+noun 	the
+noun 	a
+
+noun 	to
+noun 	from
+
+noun 	into
+noun 	out of
+
+noun 	right
+noun 	left
+
+noun 	king
+noun 	queen
+
+noun 	mister
+noun 	mr
+noun 	misses
+noun 	mrs
+noun 	ms
+
+noun 	sir
+noun 	ma'am
+
+verb 	give
+verb 	gave
+verb 	given
+verb 	giving
+verb 	take
+verb 	took
+verb 	taken
+verb 	taking
+
+verb 	remember
+verb 	remembered
+verb 	remembering
+verb 	forget
+verb 	fogot
+verb 	forgotten
+verb 	forgetting
+
+verb 	send
+verb 	sent
+verb 	sending
+verb 	receive
+verb 	received
+verb 	receiving
+
+verb 	talk
+verb 	talked
+verb 	talking
+verb 	listen
+verb 	listened
+verb 	listening
+
+noun 	true
+noun 	false
+
+noun 	if
+noun 	then
+noun 	else
+
+noun 	truth
+noun 	falsehood
+
+noun 	all
+adjective 	every
+noun 	each
+noun 	none
+
+noun 	0
+noun 	zero
+noun 	1
+noun 	one
+noun 	2
+noun 	two
+noun 	3
+noun 	three
+noun 	4
+noun 	four
+noun 	5
+noun 	five
+noun 	6
+noun 	six
+noun 	7
+noun 	seven
+noun 	8
+noun 	eight
+noun 	9
+noun 	nine
+noun 	10
+noun 	ten
+
+noun 	1st
+noun 	first
+noun 	2nd
+noun 	second
+noun 	3rd
+noun 	4th
+noun 	5th
+noun 	6th
+noun 	7th
+noun 	8th
+noun 	9th
+noun 	10th
+
+noun	1/1
+noun	whole
+noun	1/2
+noun	half
+noun	1/3
+noun	1/4
+noun	1/5
+noun	1/6
+noun	1/7
+noun	1/8
+noun	1/9
+noun	1/10
+noun	1/100
+noun	percent
+
+noun 	single
+noun 	double
+noun 	triple
+
+noun 	quadruple
+noun 	pentuple
+noun 	sextuple
+noun 	septuple
+noun 	octuple
+noun 	nonuple
+noun 	decuple
+
+adjective 	singly
+adjective 	doubly
+adjective 	triply
+
+noun 	20
+adjective 	twenty
+noun 	30
+adjective 	thirty
+noun 	40
+adjective 	forty
+noun 	50
+adjective 	fifty
+noun 	60
+adjective 	sixty
+noun 	70
+adjective 	seventy
+noun 	80
+adjective 	eighty
+noun 	90
+adjective 	ninety
+noun 	100
+verb 	hundred
+
+noun 	11
+noun 	eleven
+noun 	12
+noun 	twelve
+noun 	13
+noun 	thirteen
+noun 	14
+noun 	fourteen
+noun 	15
+noun 	fifteen
+noun 	16
+noun 	sixteen
+noun 	17
+noun 	seventeen
+noun 	18
+noun 	eighteen
+noun 	19
+noun 	nineteen
+
+noun 	21
+noun 	twenty-one
+noun 	22
+noun 	twenty-two
+noun 	23
+noun 	twenty-three
+noun 	24
+noun 	twenty-four
+noun 	25
+noun 	twenty-five
+noun 	26
+noun 	twenty-six
+noun 	27
+noun 	twenty-seven
+noun 	28
+noun 	twenty-eight
+noun 	29
+noun 	twenty-nine
+
+noun 	31
+noun 	thirty-one
+noun 	32
+noun 	thirty-two
+noun 	33
+noun 	thirty-three
+noun 	34
+noun 	thirty-four
+noun 	35
+noun 	thirty-five
+noun 	36
+noun 	thirty-six
+noun 	37
+noun 	thirty-seven
+noun 	38
+noun 	thirty-eight
+noun 	39
+noun 	thirty-nine
+
+noun 	41
+noun 	forty-one
+noun 	42
+noun 	forty-two
+noun 	43
+noun 	forty-three
+noun 	44
+noun 	forty-four
+noun 	45
+noun 	forty-five
+noun 	46
+noun 	forty-six
+noun 	47
+noun 	forty-seven
+noun 	48
+noun 	forty-eight
+noun 	49
+noun 	forty-nine
+
+noun 	51
+noun 	fifty-one
+noun 	52
+noun 	fifty-two
+noun 	53
+noun 	fifty-three
+noun 	54
+noun 	fifty-four
+noun 	55
+noun 	fifty-five
+noun 	56
+noun 	fifty-six
+noun 	57
+noun 	fifty-seven
+noun 	58
+noun 	fifty-eight
+noun 	59
+noun 	fifty-nine
+
+noun 	61
+noun 	sixty-one
+noun 	62
+noun 	sixty-two
+noun 	63
+noun 	sixty-three
+noun 	64
+noun 	sixty-four
+noun 	65
+noun 	sixty-five
+noun 	66
+noun 	sixty-six
+noun 	67
+noun 	sixty-seven
+noun 	68
+noun 	sixty-eight
+noun 	69
+noun 	sixty-nine
+
+noun 	71
+noun 	seventy-one
+noun 	72
+noun 	seventy-two
+noun 	73
+noun 	seventy-three
+noun 	74
+noun 	seventy-four
+noun 	75
+noun 	seventy-five
+noun 	76
+noun 	seventy-six
+noun 	77
+noun 	seventy-seven
+noun 	78
+noun 	seventy-eight
+noun 	79
+noun 	seventy-nine
+
+noun 	81
+noun 	eighty-one
+noun 	82
+noun 	eighty-two
+noun 	83
+noun 	eighty-three
+noun 	84
+noun 	eighty-four
+noun 	85
+noun 	eighty-five
+noun 	86
+noun 	eighty-six
+noun 	87
+noun 	eighty-seven
+noun 	88
+noun 	eighty-eight
+noun 	89
+noun 	eighty-nine
+
+noun 	91
+noun 	ninety-one
+noun 	92
+noun 	ninety-two
+noun 	93
+noun 	ninety-three
+noun 	94
+noun 	ninety-four
+noun 	95
+noun 	ninety-five
+noun 	96
+noun 	ninety-six
+noun 	97
+noun 	ninety-seven
+noun 	98
+noun 	ninety-eight
+noun 	99
+noun 	ninety-nine
+
+noun 	1000
+noun 	thousand
+noun 	million
+noun 	billion
+
+noun 	pride
+noun 	embarassment
+
+adjective 	proud
+adjective 	embarassed
+
+adjective 	rich
+adjective 	poor
+
+noun 	rich
+noun 	poor
+
+adjective 	cool
+adjective 	lame
+
+verb 	read
+verb 	readed
+verb 	reading
+verb 	write
+verb 	writed
+verb 	writing
+
+adjective 	blond
+adjective 	brunette
+adjective 	redhead
+adjective 	bearded
+adjective 	bald
+
+noun 	blond
+noun 	brunette
+noun 	redhead
+
+noun 	doctor
+noun 	nurse
+noun 	student
+noun 	teacher
+noun 	judge
+noun 	farmer
+noun 	cook
+noun 	mechanic
+noun 	welder
+noun 	accountant
+noun 	scientist
+noun 	programmer
+noun 	manager
+noun 	singer
+noun 	artist
+noun 	captain
+noun 	astronaut
+noun 	firefighter
+noun 	detective
+noun 	guard
+noun 	builder
+noun 	clown
+
+noun 	lord
+adjective 	lady
+
+noun 	bride
+noun 	groom
+
+noun 	marriage
+noun 	divorce
+
+verb 	marry
+verb 	married
+verb 	marrying
+verb 	divorce
+verb 	divorced
+verb 	divorcing
+
+noun 	hero
+noun 	villain
+
+noun 	wizard
+noun 	witch
+
+# mythical and legendary humanoids
+noun 	fairy
+noun 	vampire
+noun 	merman
+noun 	mermaid
+noun 	elf
+noun 	genie
+noun 	zombie
+noun 	ninja
+
+noun 	widow
+noun 	widower
+
+# clothing: overview
+noun 	dress
+noun 	shirt
+noun 	pants
+noun 	socks
+noun 	briefs
+noun 	billed cap
+noun 	shoe
+
+# clothing: fabric
+noun 	cotton
+noun 	wool
+noun 	silk
+noun 	nylon
+noun 	spandex
+noun 	denim
+
+# clothing: cold weather
+noun 	scarf
+noun 	gloves
+noun 	coat
+
+# clothing: shoes
+noun 	sandal
+noun 	sneakers
+noun 	boot
+noun 	high-heels
+
+# clothing: hats
+noun 	tophat
+noun 	sunhat
+noun 	mortarboard
+noun 	helmet
+noun 	crown
+
+# clothing: specialty
+noun 	swimsuit
+noun 	shorts
+noun 	bikini
+noun 	suite
+noun 	lab coat
+noun 	safety vest
+
+# clothing: baggage
+noun 	baggage
+noun 	luggage
+noun 	purse
+noun 	backpack
+noun 	briefcase
+
+# taxonomy: mammals
+noun 	monkey
+noun 	gorilla
+noun 	lion
+noun 	tiger
+noun 	leopard
+noun 	raccoon
+noun 	panther
+noun 	zebra
+noun 	bison
+noun 	ox
+noun 	goat
+noun 	camel
+noun 	llama
+noun 	giraffe
+noun 	elephant
+noun 	rhinoceros
+noun 	hippopotamus
+noun 	rat
+noun 	rabbit
+noun 	chipmunk
+noun 	hedgehog
+noun 	bat
+noun 	bear
+noun 	polar bear
+noun 	panda
+noun 	sloth
+noun 	skunk
+noun 	badger
+noun 	buffalo
+noun 	yak
+
+noun 	giant
+noun 	dwarf
+
+# taxonomy: males
+noun 	stallion
+noun 	bull
+noun 	goat
+noun 	he-goat
+noun 	billy-goat
+noun 	billy goat
+noun 	ram
+noun 	boar
+noun 	buck
+noun 	rooster
+
+# taxonomy: females
+noun 	mare
+noun 	heifer
+noun 	sow
+noun 	ewe
+noun 	doe
+noun 	hen
+noun 	bitch
+
+# taxonomy: immature
+adjective 	puppy
+noun 	kitten
+adjective 	bunny
+noun 	cub
+noun 	piglet
+noun 	lamb
+noun 	calf
+adjective 	pony
+noun 	foal
+noun 	chick
+
+# taxonomy: ancient
+noun 	mammoth
+noun 	dinosaur
+
+# taxonomy: marine mammals
+noun 	otter
+noun 	whale
+noun 	dolphin
+noun 	seal
+
+# taxonomy: marsupials
+noun 	kangaroo
+noun 	koala
+
+# taxonomy: birds
+noun 	penguin
+adjective 	turkey
+noun 	chicken
+noun 	rooster
+noun 	crane
+noun 	heron
+noun 	goose
+noun 	sparrow
+
+# taxonomy: collections
+noun 	herd
+noun 	swarm
+noun 	flock
+
+# taxonomy: reptiles
+noun 	aligator
+noun 	crocodile
+noun 	snake
+noun 	turtle
+noun 	lizard
+
+# taxonomy: amphibians
+noun 	frog
+noun 	salamander
+
+# taxonomy: fish
+noun 	shark
+noun 	fish
+
+# taxonomy: molluscs
+noun 	octopus
+noun 	squid
+noun 	snail
+
+# taxonomy: invertebrates
+noun 	shrimp
+noun 	crab
+adjective 	butterfly
+noun 	caterpillar
+noun 	ant
+noun 	bee
+noun 	cricket
+noun 	roach
+noun 	mosquito
+noun 	bug
+noun 	wasp
+noun 	maggot
+noun 	larva
+noun 	lice
+noun 	louse
+noun 	flea
+noun 	scorpion
+noun 	spider
+
+# taxonomy: molluscs
+noun 	leech
+noun 	worm
+
+# taxonomy: mythical and paranormal
+noun 	dragon
+noun 	unicorn
+noun 	ogre
+noun 	goblin
+noun 	ghost
+noun 	alien
+noun 	robot
+
+# taxonomy: flowers
+noun 	rose
+noun 	hibiscus
+noun 	sunflower
+noun 	tulip
+
+# taxonomy: trees
+noun 	pine
+noun 	palm
+noun 	maple
+noun 	oak
+noun 	elm
+noun 	alder
+noun 	birch
+noun 	beech
+
+# taxonomy: agricultural
+noun 	wheat
+noun 	rye
+noun 	rice
+noun 	grain
+
+# taxonomy: old world fruit
+noun 	grapes
+noun 	apple
+noun 	pear
+noun 	lemon
+noun 	peach
+noun 	cherries
+adjective 	strawberry
+noun 	blueberries
+
+# taxonomy: exotic fruit
+noun 	orange
+noun 	melon
+noun 	watermelon
+noun 	tangerine
+noun 	banana
+noun 	pineapple
+noun 	mango
+noun 	kiwi fruit
+
+# taxonomy: old world vegetables
+noun 	tomato
+noun 	olive
+noun 	carrot
+noun 	cucumber
+noun 	broccoli
+noun 	lettuce
+noun 	garlic
+noun 	onion
+
+# taxonomy: new world vegetables
+noun 	potato
+noun 	corn
+noun 	pepper
+
+# taxonomy: exotic vegetables
+noun 	coconut
+noun 	avocado
+noun 	eggplant
+
+# taxonomy: nuts
+noun 	peanut
+noun 	almond
+
+# food: grains
+noun 	croissant
+noun 	baguette
+noun 	pretzel
+noun 	pancake
+noun 	waffle
+
+# food: meats
+noun 	chicken
+noun 	beef
+noun 	pork
+noun 	ham
+noun 	bacon
+
+# food: seafood
+noun 	sushi
+noun 	oyster
+noun 	shrimp
+
+# food: fastfood
+noun 	hamburger
+noun 	fries
+noun 	pizza
+noun 	hot dog
+noun 	taco
+noun 	burrito
+noun 	popcorn
+noun 	noodles
+
+# food: preparation
+verb 	cooked
+verb 	cooking
+verb 	fry
+verb 	fried
+verb 	frying
+verb 	boil
+verb 	boiled
+verb 	boiling
+
+# food: constituents
+noun 	grease
+noun 	oil
+
+# food: meals
+noun 	breakfast
+noun 	lunch
+noun 	dinner
+
+# food: breakfast
+noun 	cereal
+noun 	eggs
+
+# food: lunch
+noun 	sandwich
+noun 	salad
+
+# food: dinner
+noun 	pasta
+noun 	soup
+
+# food: dessert
+noun 	ice-cream
+noun 	chocolate
+adjective 	candy
+noun 	cookie
+noun 	cake
+noun 	pie
+
+# food: utinsels
+noun 	chopsticks
+noun 	plate
+noun 	fork
+noun 	knife
+noun 	spoon
+
+# beverages: caffeinated
+noun 	coffee
+noun 	tea
+
+# beverages: alcoholic
+noun 	wine
+noun 	beer
+noun 	liquor
+
+# beverages: hard liquor
+adjective 	whiskey
+noun 	vodka
+noun 	tequila
+
+# beverages: soft drink
+noun 	soda
+noun 	juice
+
+# sports: athletics
+noun 	ski
+noun 	snowboard
+verb 	surfing
+verb 	biking
+verb 	golfing
+noun 	gymnastics
+verb 	wrestling
+verb 	skating
+verb 	ice skating
+verb 	skateboarding
+noun 	martial arts
+
+# sports: athletic equipment
+noun 	skate
+noun 	ice skate
+noun 	skateboard
+
+# sports: ball sports
+noun 	soccer
+noun 	baseball
+noun 	softball
+noun 	basketball
+noun 	volleyball
+noun 	football
+noun 	rugby
+noun 	tennis
+noun 	bowling
+noun 	cricket
+noun 	field hockey
+noun 	ice hockey
+noun 	lacrosse
+noun 	ping pong
+noun 	badminton
+noun 	boxing
+
+# games
+noun 	dice
+noun 	puzzle
+noun 	chess
+
+# music
+noun 	saxophone
+noun 	trumpet
+noun 	violin
+noun 	guitar
+noun 	banjo
+noun 	accordion
+noun 	piano
+noun 	drum
+
+# film
+noun 	movie
+noun 	camera
+noun 	film
+noun 	television
+noun 	camera
+
+# buildings: overview
+noun 	office
+noun 	post office
+noun 	hospital
+noun 	hotel
+noun 	store
+noun 	school
+noun 	factory
+noun 	castle
+noun 	tower
+
+# buildings: school
+noun 	elementary school
+noun 	middle school
+noun 	high school
+
+# buildings: religious
+noun 	church
+noun 	mosque
+noun 	temple
+noun 	synagogue
+noun 	shrine
+
+# buildings: amusement
+noun 	carousel
+noun 	ferris wheel
+noun 	roller coaster
+
+# transportation: overview
+noun 	vehicle
+noun 	train
+noun 	car
+noun 	boat
+noun 	plane
+noun 	rocket
+
+# transportation: cars
+noun 	automobile
+noun 	auto
+noun 	bus
+noun 	van
+noun 	ambulance
+noun 	taxi
+noun 	sport utility vehicle
+noun 	truck
+noun 	tractor
+noun 	racecar
+noun 	motorcycle
+noun 	scooter
+noun 	bike
+
+# currency
+noun 	dollar
+noun 	euro
+noun 	pound
+noun 	yen
+
+# continents
+noun 	europe
+noun 	africa
+noun 	north america
+noun 	south america
+noun 	asia
+noun 	australia
+noun 	antarctica
+
+# timepieces
+noun 	watch
+noun 	alarm
+noun 	clock
+
+# technology: overview
+noun 	radio
+noun 	phone
+noun 	telephone
+noun 	fax
+noun 	computer
+
+# technology: computers
+noun 	laptop
+noun 	desktop
+noun 	printer
+noun 	keyboard
+noun 	computer mouse
+noun 	disk
+noun 	system
+noun 	software
+
+# technology: illumination
+noun 	candle
+noun 	light bulb
+noun 	flashlight
+noun 	lantern
+
+# mail terminology
+noun 	mail
+verb 	mailed
+verb 	mailing
+noun 	letter
+noun 	envelope
+
+# writing utinsels
+noun 	pencil
+noun 	pen
+noun 	paintbrush
+noun 	crayon
+
+# tools
+noun 	hammer
+noun 	axe
+noun 	pick
+noun 	wrench
+noun 	saw
+noun 	harrow
+noun 	adze
+
+# weapons
+noun 	dagger
+noun 	sword
+noun 	blade
+noun 	gun
+noun 	boomerang
+noun 	shield
+noun 	spear
+
+verb 	attract
+verb 	attracted
+verb 	attracting
+verb 	repel
+verb 	repeled
+verb 	repeling
+
+# optics
+noun 	microscope
+noun 	telescope
+
+# medicine
+noun 	syringe
+noun 	medicine
+noun 	bandage
+noun 	gause
+noun 	stethoscope
+noun 	pill
+
+# furniture
+verb 	bed
+noun 	couch
+noun 	sofa
+noun 	chair
+noun 	toilet
+
+# rooms of a house
+noun 	bedroom
+noun 	livingroom
+noun 	bathroom
+noun 	kitchen
+
+# funeral terminology
+noun 	coffin
+noun 	headstone
+noun 	urn
+adjective 	bury
+verb 	buryed
+verb 	burying
+noun 	burial
+
+# swear words: scatalogical
+noun 	urine
+noun 	urinate
+verb 	urinated
+verb 	urinating
+noun 	pee
+verb 	peed
+verb 	peeing
+noun 	piss
+verb 	pissed
+verb 	pissing
+noun 	feces
+noun 	excrement
+noun 	dung
+noun 	defectation
+noun 	defecate
+verb 	defecated
+verb 	defecating
+noun 	poo
+noun 	poop
+verb 	pooped
+verb 	pooping
+noun 	shit
+noun 	shat
+verb 	shitted
+verb 	shitting
+
+# swear words: lewd
+noun 	bastard
+noun 	prostitute
+noun 	whore
+noun 	slut
+noun 	breast
+noun 	breasts
+noun 	boob
+noun 	boobs
+noun 	teat
+noun 	nipple
+noun 	buttock
+noun 	buttock
+noun 	butt
+noun 	arse
+noun 	ass
+noun 	vagina
+noun 	vulva
+adjective 	pussy
+noun 	penis
+noun 	cock
+noun 	testicle
+noun 	fart
+verb 	farted
+verb 	farting
+verb 	naked
+noun 	copulate
+verb 	copulated
+verb 	copulating
+noun 	sex
+
+# religion: denominations
+adjective 	christianity
+noun 	islam
+noun 	judaism
+noun 	buddhism
+
+# religion: adherants
+noun 	christian
+noun 	muslim
+noun 	jew
+noun 	jewish
+noun 	buddhist
+
+# hours of the day
+noun 	twelve o’clock
+adjective 	twelve-thirty
+noun 	one o’clock
+adjective 	one-thirty
+noun 	two o’clock
+adjective 	two-thirty
+noun 	three o’clock
+adjective 	three-thirty
+noun 	four o’clock
+adjective 	four-thirty
+noun 	five o’clock
+adjective 	five-thirty
+noun 	six o’clock
+adjective 	six-thirty
+noun 	seven o’clock
+adjective 	seven-thirty
+noun 	eight o’clock
+adjective 	eight-thirty
+noun 	nine o’clock
+adjective 	nine-thirty
+noun 	ten o’clock
+adjective 	ten-thirty
+noun 	eleven o’clock
+adjective 	eleven-thirty
+
+# astrological signs
+noun 	aries
+noun 	taurus
+noun 	gemini
+noun 	cancer
+noun 	leo
+noun 	virgo
+noun 	libra
+noun 	scorpio
+noun 	sagittarius
+noun 	capricorn
+noun 	aquarius
+noun 	pisces
+noun 	ophiuchus
+
+noun 	next
+noun 	previous
+
+noun 	reverse
+noun 	forward
+noun 	rewind
+noun 	pause
+noun 	record
+noun 	stop
+noun 	eject
+
+noun 	upward
+noun 	upward
+noun 	downward
+noun 	downward
+
+noun 	female
+noun 	male
+
+# mathematics
+noun 	add
+noun 	plus
+adjective 	multiply
+noun 	subtract
+noun 	minus
+noun 	divide
+
+verb 	win
+verb 	won
+verb 	winning
+verb 	lose
+verb 	lost
+verb 	losing
+
+noun 	copyright
+noun 	registered
+noun 	trade marked
+
+noun	canada
+noun	america
+noun	united states
+noun	united states of america
+noun	mexico
+noun	colombia
+noun	brazil
+noun	argentina
+noun	nation
+noun	united nations
+noun	european union
+noun	united kingdom
+noun	england
+noun	brittain
+noun	france
+noun	germany
+noun	italy
+noun	spain
+noun	russia
+noun	china
+noun	japan
+noun	india
+noun	australia
+noun	new zealand
+noun	egypt
+noun	ethiopia
+noun	nigeria
+noun	albania
+noun	austria
+noun	åland
+noun	bosnia
+noun	herzegovina
+noun	belgium
+noun	bulgaria
+noun	belarus
+noun	croatia
+noun	cyprus
+noun	czech republic
+noun	denmark
+noun	estonia
+noun	finland
+noun	faroe islands
+noun	georgia
+noun	guernsey
+noun	gibraltar
+noun	greece
+noun	hungary
+noun	ireland
+noun	isle of man
+noun	iceland
+noun	jersey
+noun	kosovo
+noun	liechtenstein
+noun	lithuania
+noun	luxembourg
+noun	latvia
+noun	monaco
+noun	moldova
+noun	montenegro
+noun	macedonia
+noun	malta
+noun	netherlands
+noun	norway
+noun	poland
+noun	portugal
+noun	romania
+noun	serbia
+noun	switzerland
+noun	sweden
+noun	slovenia
+noun	slovakia
+noun	san marino
+noun	turkey
+noun	ukraine
+noun	vatican
+noun	algeria
+noun	afghanistan
+noun	armenia
+noun	azerbaijan
+noun	bangladesh
+noun	bahrain
+noun	brunei
+noun	bhutan
+noun	christmas
+noun	hong kong
+noun	indonesia
+noun	israel
+noun	iraq
+noun	iran
+noun	jordan
+noun	kyrgyzstan
+noun	cambodia
+noun	north korea
+noun	south korea
+noun	kuwait
+noun	kazakhstan
+noun	laos
+noun	lebanon
+noun	sri lanka
+noun	myanmar
+noun	mongolia
+noun	macau
+noun	maldives
+noun	malaysia
+noun	nepal
+noun	oman
+noun	philippines
+noun	pakistan
+noun	palestine
+noun	qatar
+noun	russia
+noun	saudi arabia
+noun	singapore
+noun	syria
+noun	thailand
+noun	tajikistan
+noun	turkmenistan
+noun	turkey
+noun	taiwan
+noun	united arab emirates
+noun	uzbekistan
+noun	vietnam
+noun	yemen
+noun	algeria
+noun	angola
+noun	burkina faso
+noun	burundi
+noun	benin
+noun	botswana
+noun	congo kinshasa
+noun	central african republic
+noun	congo brazzaville
+noun	ivory coast
+noun	cameroon
+noun	cape verde
+noun	djibouti
+noun	eritrea
+noun	gabon
+noun	ghana
+noun	gambia
+noun	guinea
+noun	equatorial guinea
+noun	guinea-bissau
+noun	kenya
+noun	comoros
+noun	liberia
+noun	lesotho
+noun	libya
+noun	morocco
+noun	madagascar
+noun	mali
+noun	mauritania
+noun	mauritius
+noun	malawi
+noun	mozambique
+noun	namibia
+noun	niger
+noun	réunion
+noun	rwanda
+noun	seychelles
+noun	sudan
+noun	sierra leone
+noun	senegal
+noun	somalia
+noun	south sudan
+noun	são tomé
+noun	príncipe
+noun	swaziland
+noun	chad
+noun	togo
+noun	tunisia
+noun	tanzania
+noun	uganda
+noun	mayotte
+noun	south africa
+noun	zambia
+noun	zimbabwe
+noun	argentina
+noun	bolivia
+noun	brazil
+noun	chile
+noun	ecuador
+noun	french guiana
+noun	guyana
+noun	peru
+noun	paraguay
+noun	suriname
+noun	uruguay
+noun	venezuela
+noun	antigua
+noun	barbuda
+noun	anguilla
+noun	aruba
+noun	barbados
+noun	bermuda
+noun	bahamas
+noun	belize
+noun	costa rica
+noun	cuba
+noun	curaçao
+noun	dominica
+noun	dominican republic
+noun	el salvador
+noun	grenada
+noun	greenland
+noun	guadeloupe
+noun	honduras
+noun	haiti
+noun	jamaica
+noun	st. kitts
+noun	nevis
+noun	st. lucia
+noun	martinique
+noun	montserrat
+noun	nicaragua
+noun	panama
+noun	st. pierre
+noun	miquelon
+noun	puerto rico
+noun	st. vincent
+noun	grenadines
+noun	sint maarten
+noun	trinidad
+noun	tobago
+
+
+
+
+noun	canadian
+noun	american
+noun	mexican
+noun	colombian
+noun	brazilian
+noun	argentinian
+noun	european
+noun	englishman
+noun	frenchman
+noun	german
+noun	italian
+noun	spaniard
+noun	russian
+noun	indian
+noun	australian
+noun	aussie
+noun	new zealander
+noun	egyptian
+noun	ethiopian
+noun	nigerian
+noun	albanian
+noun	austrian
+noun	ålander
+noun	bosnian
+noun	herzegovinian
+noun	belgian
+noun	bulgarian
+noun	belarusian
+noun	croat
+noun	croatian
+noun	cyprus
+noun	cypriot
+noun	dane
+noun	estonian
+noun	finlander
+noun	georgian
+noun	grecian
+noun	hungarian
+noun	irishman
+noun	icelander
+noun	lithuanian
+noun	luxembourgite
+noun	latvian
+noun	monacan
+noun	moldovian
+noun	montenegran
+noun	macedonian
+noun	netherlander
+noun	nord
+noun	polishman
+noun	romanian
+noun	serbian
+noun	swede
+noun	slovak
+noun	slovakian
+noun	turk
+noun	ukrainian
+noun	algerian
+noun	afghan
+noun	afghani
+noun	armeni
+noun	azerbaiji
+noun	bangladeshi
+noun	bahraini
+noun	bahrainian
+noun	brunei
+noun	bruneian
+noun	bhutani
+noun	bhutanian
+noun	indonesian
+noun	israeli
+noun	iraqi
+noun	irani
+noun	jordanian
+noun	kyrg
+noun	kyrgistani
+noun	kyrgistani
+noun	kyrgishman
+noun	cambodian
+noun	north korean
+noun	south korean
+noun	kuwaiti
+noun	kazakhstan
+noun	laotian
+noun	sri lankan
+noun	mongolian
+noun	malaysian
+noun	nepali
+noun	omani
+noun	philippinian
+noun	pakistani
+noun	palestinian
+noun	qatari
+noun	russian
+noun	saudi arabian
+noun	syrian
+noun	tajikistani
+noun	turkmenistani
+noun	turk
+noun	emirati
+noun	uzbekistani
+noun	yemeni
+noun	algerian
+noun	angolian
+noun	burundi
+noun	benin
+noun	botswanan
+noun	gambian
+noun	guinean
+noun	kenyan
+noun	liberian
+noun	lesothan
+noun	libyan
+noun	moroccan
+noun	mali
+noun	mauritanian
+noun	malawi
+noun	namibian
+noun	rwandan
+noun	sudan
+noun	senegali
+noun	somali
+noun	swazilander
+noun	tunisian
+noun	tanzanian
+noun	ugandan
+noun	south african
+noun	zambian
+noun	argentinan
+noun	bolivian
+noun	brazilian
+noun	chilean
+noun	ecuadorian
+noun	guyanan
+noun	peruvian
+noun	paraguayan
+noun	uruguayan
+noun	venezuelan
+noun	antiguan
+noun	barbudan
+noun	anguillan
+noun	aruban
+noun	bermudan
+noun	costa rican
+noun	cuban
+noun	dominican
+noun	grenadan
+noun	greenlander
+noun	honduran
+noun	haitian
+noun	jamaican
+noun	st. lucian
+noun	nicaraguan
+noun	panamanian
+noun	puerto rican
+
+
+
+adjective	canadian
+adjective	american
+adjective	mexican
+adjective	colombian
+adjective	brazilian
+adjective	argentinan
+adjective	english
+adjective	french
+adjective	german
+adjective	italian
+adjective	spanish
+adjective	russian
+adjective	chinese
+adjective	japanese
+adjective	indian
+adjective	australian
+adjective	new zealandic
+adjective	kiwi
+adjective	egyptian
+adjective	ethiopian
+adjective	nigerian
+adjective	albanian
+adjective	austrian
+adjective	ålandic
+adjective	bosnian
+adjective	herzegovinan
+adjective	belgian
+adjective	bulgarian
+adjective	belarusian
+adjective	croatian
+adjective	cypriot
+adjective	cyprian
+adjective	czech
+adjective	danish
+adjective	estonian
+adjective	finnish
+adjective	faroe islandic
+adjective	georgian
+adjective	guernsian
+adjective	gibraltarian
+adjective	greek
+adjective	grecian
+adjective	hungarian
+adjective	irish
+adjective	mannish
+adjective	icelandic
+adjective	jersian
+adjective	kosovan
+adjective	liechtensteinian
+adjective	lithuanian
+adjective	luxembourgian
+adjective	latvian
+adjective	monacan
+adjective	moldovan
+adjective	montenegro
+adjective	macedonian
+adjective	maltese
+adjective	netherlandic
+adjective	norwegian
+adjective	polish
+adjective	portugese
+adjective	romanian
+adjective	serbian
+adjective	swiss
+adjective	sweden
+adjective	slovenian
+adjective	slovakian
+adjective	san marinoan
+adjective	turkish
+adjective	ukrainian
+adjective	vatican
+adjective	algerian
+adjective	afghan
+adjective	afghani
+adjective	afghanistan
+adjective	armeni
+adjective	armenian
+adjective	azerbaiji
+adjective	azerbaijan
+adjective	bangladeshi
+adjective	bahrain
+adjective	bahrainian
+adjective	brunei
+adjective	bruneian
+adjective	bhutani
+adjective	bhutanese
+adjective	bhutanian
+adjective	hong kong
+adjective	indonesian
+adjective	israeli
+adjective	israelian
+adjective	iraqi
+adjective	irani
+adjective	iranian
+adjective	jordan
+adjective	jordanian
+adjective	kyrgyzstani
+adjective	kyrgyzstanian
+adjective	cambodian
+adjective	north korean
+adjective	south korean
+adjective	kuwaiti
+adjective	kazakhstani
+adjective	laotian
+adjective	lebanese
+adjective	sri lankan
+adjective	myanmar
+adjective	mongolian
+adjective	macau
+adjective	maldive
+adjective	malaysian
+adjective	nepalese
+adjective	omani
+adjective	philippinian
+adjective	pakistani
+adjective	palestinian
+adjective	qatari
+adjective	russian
+adjective	saudi arabian
+adjective	singapore
+adjective	syrian
+adjective	thai
+adjective	tajikistan
+adjective	turkmenistan
+adjective	turkey
+adjective	taiwanese
+adjective	uzbekistani
+adjective	vietnamese
+adjective	yemeni
+adjective	algerian
+adjective	angolian
+adjective	burundi
+adjective	benin
+adjective	botswani
+adjective	botswanian
+adjective	botswanese
+adjective	congoese
+adjective	gambian
+adjective	guinean
+adjective	kenyan
+adjective	liberian
+adjective	lesothan
+adjective	libyan
+adjective	moroccan
+adjective	mali
+adjective	mauritanian
+adjective	mauritian
+adjective	malawian
+adjective	namibian
+adjective	rwandan
+adjective	sudanese
+adjective	senegalese
+adjective	somalian
+adjective	south sudanese
+adjective	swazilandic
+adjective	tunisian
+adjective	tanzanian
+adjective	ugandan
+adjective	south african
+adjective	zambian
+adjective	zimbabwean
+adjective	argentinan
+adjective	bolivian
+adjective	brazilian
+adjective	chilean
+adjective	ecuadorian
+adjective	peruvian
+adjective	paraguayan
+adjective	suriname
+adjective	uruguay
+adjective	venezuelan
+adjective	costa rican
+adjective	cuban
+adjective	dominican
+adjective	el salvadorian
+adjective	grenadian
+adjective	greenlandic
+adjective	guadeloupean
+adjective	honduran
+adjective	haitian
+adjective	jamaican
+adjective	nicaraguan
+adjective	panamanian
+adjective	puerto rican
+
