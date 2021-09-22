@@ -28,6 +28,7 @@ We use fricatives to represent the base consonants (rather than, e.g. plosives) 
 fricative characters exist for all possible placements within the IPA chart.
 Fricatives are modified by at least the following superscripts:
 
+```
 ⁿ 	nasals 
 ᴿ	trills
 ᴸ	taps/flaps
@@ -38,6 +39,7 @@ Fricatives are modified by at least the following superscripts:
 ᵛ 	voiced consonants 
 ᵖ 	plosives 
 ʷ 	rounded/labialized
+```
 
 It is up to the user to choose an order for modifiers that is best suited for the sound law.
 By default, we order modifiers in the same way they are listed above.
