@@ -336,6 +336,9 @@
 🌃	noun	night
 🌃	noun	midnight
 🌆	noun	dusk
+🌆	noun	twilight
+🌅	noun	early
+🌇	noun	late
 🕰️	noun	hour
 ⏲️	noun	minute
 ⏱️	noun	second
@@ -418,6 +421,18 @@
 🍖	adjective	burned
 🔥	adjective	burning
 🔥	adjective	burnt
+🔥	noun	ignite
+🔥	verb	ignite
+🔥	verb	ignited
+🔥	verb	igniting
+🍖	adjective	ignited
+🔥	adjective	igniting
+🔥	noun	incinerate
+🔥	verb	incinerate
+🔥	verb	incinerated
+🔥	verb	incinerating
+🍖	adjective	incinerated
+🔥	adjective	incinerating
 ☁️	noun	cloud
 ☁️	adjective	cloudy
 🌧️	noun	rain
@@ -458,7 +473,16 @@
 🌌	noun	sky
 🧊	noun	ice
 🌈	noun	rainbow
+🪨	noun	boulder
+<sub>🪨</sub>	noun	stone
+<sub>🪨</sub>	noun	gravel
+<sub>🪨</sub>	noun	pebble
+⛱️	noun	sand
+⚱️	noun 	clay
 🏞️	noun	river
+🌊	noun	wave
+🌊	noun	flood
+🌊	noun	tsunami
 🚣‍♂️	noun	lake
 ⛵	noun	sea
 🚢	noun	ocean
@@ -820,6 +844,13 @@
 🌈	adjective	colored
 🌈	adjective	colorful
 🌫️ 	adjective 	colorless
+🌈	noun	colour
+🖍️	verb	colour
+🖍️	verb	coloured
+🖍️	verb	colouring
+🌈	adjective	coloured
+🌈	adjective	colourful
+🌫️ 	adjective 	colourless
 🟥	adjective	red
 🟧	adjective	orange
 🟨	adjective	yellow
@@ -912,6 +943,7 @@
 👨	noun	man
 👩	noun	woman
 🧒	noun	child
+🧒	noun	kid
 👦	noun	boy
 👧	noun	girl
 👶	noun	baby
@@ -1001,6 +1033,11 @@
 🪟	noun	window
 🏠	noun	house
 🚧	noun	fence
+🚧	verb	fence
+🚧	verb	fenced
+🚧	verb	fencing
+🚧	noun	fencing
+🚧	adjective	fenced
 🚗	noun	wheel
 👚	noun	cloth
 👚	noun	clothes
@@ -1045,6 +1082,7 @@
 🐂🐂	verb	yoking
 🐁	adjective	little
 🐘	adjective	big
+🐘	adjective	great
 🐃	noun	animal
 🪴	noun	plant
 🍄	noun	mushroom
@@ -1070,9 +1108,9 @@
 🦅	verb	wing
 🦅	adjective	winged
 🥢	noun	stick
-🥢	noun	branch
-🥢	noun	stem
-🥢	noun	twig
+🌿	noun	branch
+🌿	noun	stem
+🌿	noun	twig
 🌰	noun	seed
 🌰	verb	seed
 🌰	verb	seeded
@@ -1273,6 +1311,10 @@
 🧗	verb	holding
 🧗	adjective	held
 🏠	noun	holding
+🚧	verb	cordon
+🚧	verb	cordoned
+🚧	verb	cordoning
+🚧	adjective	cordoned
 🍼	verb	squeeze
 🍼	verb	squeezed
 🍼	verb	squeezing
@@ -1441,6 +1483,8 @@
 🚶←🏠	preposition	from
 →🕳️	preposition	into
 🕳️→	preposition	out of
+→🕳️	preposition	inside
+🕳️→	preposition	outside
 🏛️	noun	government
 🏢	noun	company
 ⛪	noun	church
@@ -1504,6 +1548,7 @@
 🗾	noun	territory
 🗾	noun	province
 🗾	noun	empire
+🗾	noun	kingdom
 🤴	noun	ruler
 🤴	verb	rule
 🤴	verb	ruled
@@ -1710,6 +1755,7 @@ F	adverb	false
 🤪	noun	retardation
 🤪	adjective	zany
 🤪	noun	zanyness
+🤪	adjective	bizarre
 🤪	adjective	insane
 🤪	noun	insanity
 🤪	noun	psycho
@@ -1753,11 +1799,11 @@ F	adverb	false
 🦹🏻	adjective	cruel
 🦹🏻	noun	cruelty
 🦹🏻	noun	deceiver
-🦹🏻	verb	deceive
-🦹🏻	verb	deceived
-🦹🏻	verb	deceiving
-🦹🏻	noun	deception
-🦹🏻	adjective	deceptive
+🥸😐	verb	deceive
+🥸😐	verb	deceived
+🥸😐	verb	deceiving
+🥸	noun	deception
+🥸	adjective	deceptive
 🦹🏻	noun	betrayer
 🦹🏻	verb	betray
 🦹🏻	verb	betrayed
@@ -1985,11 +2031,11 @@ F	adverb	false
 🤥	adverb	dishonestly
 🤥	noun	dishonesty
 🪄	noun	trick
-🤥	verb	trick
-🤥	verb	tricked
-🤥	verb	tricking
-🤥	adjective	tricked
-🤥	adjective	tricky
+🥸	verb	trick
+🥸	verb	tricked
+🥸	verb	tricking
+🥸	adjective	tricked
+🥸	adjective	tricky
 😉	noun	wink
 😉	verb	wink
 😉	verb	winked
@@ -2000,6 +2046,11 @@ F	adverb	false
 😗	verb	kissed
 😗	verb	kissing
 😗	adjective	kissing
+😗	noun	whistle
+😗	verb	whistle
+😗	verb	whistled
+😗	verb	whistling
+😗	adjective	whistling
 🤑	noun	desire
 🤑	verb	desire
 🤑	verb	desired
@@ -2010,6 +2061,10 @@ F	adverb	false
 🤗	verb	hugged
 🤗	verb	hugging
 🤗	adjective	hugging
+🤗	adjective	dear
+🤗	adjective	beloved
+🤗	noun	dear
+🤗	noun	beloved
 🤗	noun	heartfelt
 😏	noun	smirk
 😏	verb	smirk
@@ -2048,12 +2103,12 @@ F	adverb	false
 🥳	verb	partied
 🥳	verb	partying
 🥳	adjective	partying
-#🥸	verb	hide
-#🥸	verb	hid
-#🥸	verb	hiding
-#🥸	verb	hidden
-#🥸	adjective	hidden
-#🥸	adjective	hiding
+🥸	verb	hide
+🥸	verb	hid
+🥸	verb	hiding
+🥸	verb	hidden
+🥸	adjective	hidden
+🥸	adjective	hiding
 🥺	verb	plead
 🥺	verb	pleaded
 🥺	verb	pleading
@@ -2087,7 +2142,6 @@ F	adverb	false
 😯	adjective	hushed
 😯	interjection	whoa
 😯	interjection	wow
-👋	noun	wave
 👋	verb	wave
 👋	verb	waved
 👋	verb	waving
@@ -2409,10 +2463,11 @@ F	adverb	false
 🧑‍💼💰	verb 	swindling
 🧑‍💼💰😐	adjective 	swindled
 🧑‍💼💰	noun 	scandal
-🦹🏻💰	verb 	rob
-🦹🏻💰	verb 	robbed
-🦹🏻💰	verb 	robbing
-🦹🏻💰😐	adjective 	robbed
+👨💰	verb 	rob
+👨💰	verb 	robbed
+👨💰	verb 	robbery
+👨💰	verb 	robbing
+👨💰😐	adjective 	robbed
 🦹🏻💰	noun 	steal
 🦹🏻💰	verb 	steal
 🦹🏻💰	verb 	stole
@@ -2425,6 +2480,18 @@ F	adverb	false
 🦹🏻	adjective 	outlaw
 🦹🏻💰	noun 	felony
 🦹🏻💰	adjective 	felonous
+🦹🏻😐 	noun 	victim
+🦹🏻😐 	verb 	victimize
+🦹🏻😐 	verb 	victimized
+🦹🏻😐 	verb 	victimizing
+🦹🏻😐 	adjective 	victimized
+🦹🏻😐 	adjective 	victimizing
+🦹🏻😐 	noun 	kidnap
+🦹🏻😐 	verb 	kidnap
+🦹🏻😐 	verb 	kidnapped
+🦹🏻😐 	verb 	kidnapping
+🦹🏻😐 	adjective 	kidnapped
+🦹🏻😐 	adjective 	kidnapping
 🙁👽 	verb 	abduct
 🙁👽 	verb 	abducted
 🙁👽 	verb 	abducting
@@ -2471,6 +2538,7 @@ F	adverb	false
 🧑‍🏫	verb	teached
 🧑‍🏫	verb	taught
 🧑‍🏫	verb	teaching
+🧑‍🏫	noun	lesson
 🧑‍🏫	noun	class
 🧑‍🏫	noun	physicist
 🧑‍🏫	noun	engineer
@@ -2485,6 +2553,16 @@ F	adverb	false
 🧑‍⚖️	verb	judged
 🧑‍⚖️	verb	judging
 🧑‍⚖️	noun	judgement
+🧑‍⚖️	verb	punish
+🧑‍⚖️	verb	punished
+🧑‍⚖️	verb	punishing
+🧑‍⚖️	adjective	punished
+🧑‍⚖️	noun	punishment
+🧑‍⚖️	verb	condem
+🧑‍⚖️	verb	condemed
+🧑‍⚖️	verb	condeming
+🧑‍⚖️	adjective	condemed
+🧑‍⚖️	noun	condemnation
 🧑‍⚖️	noun	judiciary
 🧑‍⚖️🤵	noun	lawyer
 🧑‍⚖️🤵	noun	prosecutor
@@ -2612,9 +2690,13 @@ F	adverb	false
 🧑‍💼	noun	clerk
 👩‍💼	noun	secretary
 🧑‍💼	noun	mayor
+🧑‍💼	noun	governor
 🧑‍💼	noun	senator
 🧑‍💼	noun	representative
 🧑‍💼	adjective	mayoral
+🧑‍💼	adjective	gubernatorial
+🧑‍💼	adjective	senatorial
+🧑‍💼	adjective	representative
 🧑‍💼🤵	noun	interview
 🧑‍💼🤵	verb	interview
 🧑‍💼🤵	verb	interviewed
@@ -2640,6 +2722,11 @@ F	adverb	false
 🧑‍✈️	verb	piloted
 🧑‍✈️	verb	piloting
 🧑‍✈️	adjective	piloted
+🧑‍✈️	noun	commandeer
+🧑‍✈️	verb	commandeer
+🧑‍✈️	verb	commandeered
+🧑‍✈️	verb	commandeering
+🧑‍✈️	adjective	commandeered
 🧑‍🚀	noun	astronaut
 🧑‍🚀	noun	astronautics
 🧑‍🚒	noun	firefighter
@@ -2845,6 +2932,7 @@ F	adverb	false
 👴	noun	widower
 👳	noun	stranger
 👳	noun	foreigner
+👗	noun	skirt
 👗	noun	dress
 👗	verb	dress
 👗	verb	dressed
@@ -2865,10 +2953,12 @@ F	adverb	false
 👚	noun	nylon
 🩱	noun	spandex
 👖	noun	denim
+👗	noun	satin
 🧣	noun	scarf
 🧤	noun	gloves
 🧤	noun	glove
 🧥	noun	coat
+🧥	noun	overcoat
 🧥	noun	jacket
 🩴	noun	sandal
 👟	noun	sneakers
@@ -2876,6 +2966,7 @@ F	adverb	false
 👠	noun	high-heels
 🩱	noun	swimsuit
 🩳	noun	shorts
+🩳	noun	trunks
 👙	noun	bikini
 👔	noun	suite
 🎩	noun	tophat
@@ -2909,6 +3000,11 @@ F	adverb	false
 ⚔️	noun	swordfight
 🥼	noun	lab coat
 🦺	noun	safety vest
+🦺	adjective	safe
+🙂🦸 	verb 	save
+🙂🦸 	verb 	saved
+🙂🦸 	verb 	saving
+🙂🦸 	adjective 	saved
 🧳	noun	luggage
 👛	noun	purse
 🎒	noun	backpack
@@ -3025,6 +3121,12 @@ F	adverb	false
 🐖	verb	oinked
 🐖	verb	oinking
 🐖	adjectinve	oinking
+🐁	noun	squeak
+🐁	verb	squeak
+🐁	verb	squeaked
+🐁	verb	squeaking
+🐁	adjective	squeaked
+🐁	adjective	squeaking
 🐎	noun	neigh
 🐎	verb	neigh
 🐎	verb	neighed
@@ -3066,6 +3168,15 @@ F	adverb	false
 🦔	noun	spine
 🦔	adjective	spiney
 
+🏇	verb 	ride
+🏇	verb 	rode
+🏇	verb 	riding
+🏇	adjective 	riding
+🏇	verb 	mount
+🏇	verb 	mounted
+🏇	verb 	mounting
+🏇	adjective 	mounted
+
 🔪🐂	noun	sacrifice
 🔪🐂	verb	sacrifice
 🔪🐂	verb	sacrificed
@@ -3080,6 +3191,7 @@ F	adverb	false
 😐🔫	verb	slayed
 😐🔫	verb	slaying
 😐🔫	noun	slaying
+
 🦣	noun	mammoth
 🦖	noun	dinosaur
 🦖	adjective	prehistoric
@@ -3124,8 +3236,13 @@ F	adverb	false
 🦬🦬	noun	herd
 🐝🐝	noun	swarm
 🐦🐦	noun	flock
+
 🐊	noun	crocodile
 🐍	noun	snake
+🐍	noun	python
+🐍	noun	constrictor
+🐍	noun	viper
+🐍	noun	adder
 🐍	noun	serpent
 🐢	noun	turtle
 🦎	noun	lizard
@@ -3137,11 +3254,20 @@ F	adverb	false
 🐍	verb	hissed
 🐍	verb	hissing
 🐍	adjective	hissing
+
 🦈	noun	shark
 🐟	noun	fish
 🐟	noun	tuna
 🐟	noun	salmon
 🐟	noun	herring
+
+🎣 	verb 	fish
+🎣 	verb 	fished
+🎣 	verb 	fishing
+🎣🧑 	noun 	fisher
+🎣🧑 	noun 	fisherman
+🎣 	adjective 	fishing
+
 🐙	noun	octopus
 🐌	noun	snail
 🦐	noun	shrimp
@@ -3162,6 +3288,14 @@ F	adverb	false
 🪱	noun	worm
 🐝	noun	wasp
 
+🐌	noun	mollusc
+🦐	noun	crustacean
+🦋	noun	lepidopteran
+🐜	noun	hymenopteran
+🪲	noun	hemipteran
+🕷️	noun	arachnid
+🪱	noun	annelid
+
 🐍	adjective	scaley
 🐍	adjective	serpentine
 🪱	adjective	slimey
@@ -3174,6 +3308,7 @@ F	adverb	false
 🦟	noun	parasite
 🪱	noun	tapeworm
 🕸️	noun	web
+🕸️	noun	cobweb
 <sub>🐜🥚</sub>	noun	nit
 🐜	noun	insect
 🐜	noun	creature
@@ -3193,12 +3328,10 @@ F	adverb	false
 🐝🐝	verb	swarmed
 🐝🐝	verb	swarming
 🐝🐝	adjective	swarming
-🎣 	verb 	fish
-🎣 	verb 	fished
-🎣 	verb 	fishing
-🎣🧑 	noun 	fisher
-🎣🧑 	noun 	fisherman
-🎣 	adjective 	fishing
+🐙	adjective	incomprehensible
+
+🐜	noun	thorax
+
 🐉	noun	dragon
 🦄	noun	unicorn
 👹	noun	ogre
@@ -3347,12 +3480,14 @@ F	adverb	false
 🍿	noun	popcorn
 🥡	noun	noodles
 🍟	noun	fry
+🍳	noun	pan
+🍳	noun	skillet
 🍳	verb	fry
 🍳	verb	fried
 🍳	verb	frying
 🍳	adjective	fried
-	noun	soup
-	adjective	soupy
+🍲	noun	soup
+🍲	adjective	soupy
 🥐 	verb 	toast
 🥐 	verb 	toasted
 🥐 	verb 	toasting
@@ -3368,6 +3503,11 @@ F	adverb	false
 🍲	verb	boiling
 🍲	adjective	boiled
 🍲	adjective	boiling
+🌡️	noun	heat
+🍲	verb	heated
+🍲	verb	heating
+🍲	adjective	heated
+♨️	noun	heating
 🍲	noun	marinara
 🍲	noun	marinate
 🍲	verb	marinate
@@ -3384,6 +3524,7 @@ F	adverb	false
 🍝	noun	dinner
 🥣	noun	cereal
 🍳	noun	eggs
+🍳	adjective	eggy
 🥪	noun	sandwich
 🥗	noun	salad
 🍝	noun	pasta
@@ -3402,6 +3543,11 @@ F	adverb	false
 	verb	treating
 	verb	treatment
 🍯	noun	nectar
+🥛	verb	fill
+🥛	verb	filled
+🥛	verb	filling
+🥛	adjective	full
+🥛	adjective	filled
 ☕	noun	coffee
 🍵	noun	tea
 🍷	noun	wine
@@ -3421,6 +3567,10 @@ F	adverb	false
 🍷	verb	libated
 🍷	verb	libating
 🥤	noun	soda
+🥤	noun	sip
+🥤	verb	sip
+🥤	verb	sipped
+🥤	verb	sipping
 🧃	noun	juice
 🥫	noun	can
 🥫	verb	can
@@ -3429,7 +3579,10 @@ F	adverb	false
 🥫	noun	canning
 🏭	noun	cannery
 🥢	noun	chopsticks
+🥢	noun	chopstick
+🥢	noun	rod
 🍽️	noun	plate
+🍽️	noun	dish
 🍴	noun	fork
 🔪	noun	knife
 🥄	noun	spoon
@@ -3472,6 +3625,11 @@ F	adverb	false
 🤸	noun	gymnastics
 🤸	noun	gymnasium
 🏋️	noun	gym
+🤸	noun	cartwheel
+🤸	verb	cartwheel
+🤸	verb	cartwheeled
+🤸	verb	cartwheeling
+🤸	adjective	cartwheeling
 🤼	verb	wrestle
 🤼	verb	wrestled
 🤼	verb	wrestling
@@ -3497,6 +3655,7 @@ F	adverb	false
 🏋️	verb	lifted
 🏋️	verb	lifting
 🏋️	noun	weight
+🏋️	noun	burden
 🏋️	verb	be able to
 ⚖️	verb	weigh
 ⚖️	verb	weighed
@@ -3504,6 +3663,10 @@ F	adverb	false
 🏋️	verb	try
 🏋️	verb	tried
 🏋️	verb	trying
+🏋️	noun	strain
+🏋️	verb	strain
+🏋️	verb	strained
+🏋️	verb	straining
 🧑‍⚖️	adjective	trial
 🧑‍⚖️	noun	law
 🧑‍⚖️	adjective	lawful
@@ -3615,6 +3778,7 @@ F	adverb	false
 🪕	noun	banjo
 🪗	noun	accordion
 🎹	noun	piano
+🎹	noun	ivory
 🥁	noun	drum
 🥁	noun	noise
 🥁	adjective	noisy
@@ -3714,6 +3878,7 @@ F	adverb	false
 ⭐	adjective	shiny
 🏟️	noun	stadium
 🏛️	noun	museum
+🏛️	noun	library
 🏛️	noun	capitol
 🏛️	noun	ruin
 🏛️	adjective	ruined
@@ -3753,6 +3918,7 @@ F	adverb	false
 🏘️	adjective	settled
 🏘️	noun	settlement
 🏘️	noun	neighborhood
+🏘️	noun	neighbourhood
 🏚️	verb	abandon
 🏚️	verb	abandoned
 🏚️	verb	abandoning
@@ -3784,6 +3950,12 @@ F	adverb	false
 🏪	noun 	diner
 🏫	noun	school
 🏭	noun	factory
+⛪ 	noun 	church
+⛪ 	noun 	cathedral
+🕌 	noun 	mosque
+🕌	noun 	palace
+🏯	noun 	pagoda
+🏯	adjective 	exotic
 🏰	noun	castle
 🏰	noun	fort
 🏰	noun	fortress
@@ -3797,8 +3969,6 @@ F	adverb	false
 🏹🏰	verb	besieging
 🏹🏰	adjective	besieged
 🏹🏰	adjective	besieging
-🕌	noun 	palace
-🕌	adjective 	exotic
 🗼	noun	tower
 🏫	noun	elementary school
 🏫	noun	middle school
@@ -3816,6 +3986,7 @@ F	adverb	false
 🗿	verb	sculpting
 🗿	noun	sculpture
 🗿	noun	monument
+🗿	noun	monumental
 ⛪	noun	church
 🕌	noun	mosque
 🛕	noun	temple
@@ -3838,6 +4009,8 @@ F	adverb	false
 🚂	noun	train
 🚢	noun	boat
 🚢🚢	noun	fleet
+🚢	noun	port
+🚢	noun	harbor
 ⛵	noun	ship
 ⛵	noun	sail
 ⛵	verb	sail
@@ -3907,6 +4080,7 @@ F	adverb	false
 🛰️🌎	adjective	orbited
 🛰️🌎	adjective	orbiting
 💵	noun	dollar
+💵	noun	cash
 💶	noun	euro
 #💷	noun	pound
 💴	noun	yen
@@ -4038,11 +4212,13 @@ F	adverb	false
 	verb	monitoring
 🖥️	noun	software
 🖥️	noun	modern
+🔌	noun	cable
+🔌	noun	cord
+🔌	noun	chord
 🔌	noun	electricity
 🔌	adjective	electric
 🧲	noun	magnetism
 🧲	adjective	magnetic
-🌡️	noun	heat
 🌡️	adjective	thermal
 🔋	noun	battery
 📸	noun	flash
@@ -4063,20 +4239,39 @@ F	adverb	false
 📑 	verb 	marked
 📑 	verb 	marking
 📑 	adjective 	marked
+📑 	verb 	annotate
+📑 	verb 	annotated
+📑 	verb 	annotating
+📑 	adjective 	annotated
+📑 	noun 	annotation
 📃	noun	page
 📰	noun	newspaper
 📃	noun	menu
+📋 	noun 	board
+📋 	noun 	clipboard
 📃→📃	noun	copy
 📃→📃	verb	copy
 📃→📃	verb	copied
 📃→📃	verb	copying
 📃→📃	adjective	copied
 📚	noun 	stack
+📚	verb 	stack
+📚	verb 	stacked
+📚	verb 	stacking
+📚	adjective 	stacked
 📚	noun 	heap
+📚	verb 	heap
+📚	verb 	heaped
+📚	verb 	heaping
+📚	adjective 	heaping
 📘 	noun 	passport
 📕 	noun 	book
-📔	noun	album
+📔 	verb 	book
+📔 	verb 	booked
+📔 	verb 	booking
+📔 	adjective 	booked
 📔 	noun 	booking
+📔	noun	album
 📔 	noun 	manual
 📙	noun 	handbook
 📕 	noun 	bible
@@ -4088,15 +4283,25 @@ F	adverb	false
 📕 	noun 	classic
 📕 	noun 	novel
 📕 	noun 	epic
+📕 	adjective 	classic
+📕 	adjective 	epic
 📕	noun	oath
 📕	noun	pledge
 📰	noun	news
 📜	noun	scroll
+📜	verb	scroll
+📜	verb	scrolled
+📜	verb	scrolling
 📓	noun	notebook
 📒	noun	ledger
 📝	noun	memo
 📝	noun	plan
 🏷️	noun	label
+🏷️	verb	label
+🏷️	verb	labeled
+🏷️	verb	labeling
+🏷️	noun	labeling
+🏷️	adjective	labeled
 💰	noun	money
 💰	noun	loot
 💰	noun	bounty
@@ -4136,7 +4341,7 @@ F	adverb	false
 🪙	noun	penny
 🪙	noun	dime
 🪙	noun	nickel
-🪙	noun	quarter
+#🪙	noun	quarter
 🪙	noun	farthing
 🪙	noun	pence
 🪙	noun	shilling
@@ -4145,6 +4350,7 @@ F	adverb	false
 🪙	noun	loonie
 🪙	noun	toonie
 💳	noun	card
+💳	noun	credit
 🧾	noun	account
 🧾	noun	report
 🧾	noun	receipt
@@ -4155,6 +4361,7 @@ F	adverb	false
 🧾	noun	document
 🧾	noun	treaty
 🧾	noun	bill
+🧾	noun	writ
 🧾	noun	record
 📫	noun	mail
 📫	verb	mail
@@ -4182,6 +4389,10 @@ F	adverb	false
 🗳️	adjective	chosen
 ✏️	noun	pencil
 🖊️	noun	pen
+🖊️	verb	pen
+🖊️	verb	penned
+🖊️	verb	penning
+🖊️	adjective	penned
 🖌️	noun	paintbrush
 🖍️	noun	crayon
 📁	noun	folder
@@ -4197,8 +4408,10 @@ F	adverb	false
 📅	noun	event
 📅	noun	date
 📅	noun	occasion
-📇	noun	card
 📊	noun	chart
+📈	noun	analysis
+📈	adjective	analytic
+📈	adjective	analytical
 📈	noun	statistic
 📈	adjective	statistical
 📈	noun	increase
@@ -4219,8 +4432,26 @@ F	adverb	false
 📈	adjective	changing
 🃏 	noun 	solitaire
 📌	noun	pin
+📌	verb	pin
+📌	verb	pinned
+📌	verb	pinning
+📌	adjective	pinned
+📌	noun	pinning
 📎	noun	clip
+📎	verb	clip
+📎	verb	clipped
+📎	verb	clipping
+📎	adjective	clipped
+📎	noun	clipping
 ✂️	noun	scissors
+🐑<sup>✂️</sup>	verb	shear
+🐑<sup>✂️</sup>	verb	sheared
+🐑<sup>✂️</sup>	verb	shearing
+🐑<sup>✂️</sup>	adjective	sheared
+🌿<sup>✂️</sup>	verb	prune
+🌿<sup>✂️</sup>	verb	pruned
+🌿<sup>✂️</sup>	verb	pruning
+🌿<sup>✂️</sup>	adjective	pruned
 📏	noun 	unit
 📏	noun 	meter
 📏	noun 	measure
@@ -4230,10 +4461,37 @@ F	adverb	false
 📏	noun 	measurement
 📏	adjective 	measured
 📦	noun	box
+📦	verb	box
+📦	verb	boxed
+📦	verb	boxing
+📦	adjective	boxed
 📦	noun	package
+📦	verb	package
+📦	verb	packaged
+📦	verb	packaging
+📦	noun	packaging
+📦	adjective	packaged
 📦	noun	parcel
+📦	verb	parcel
+📦	verb	parceled
+📦	verb	parceling
+📦	adjective	parceled
 🗄️	noun	cabinet
+🗄️	verb	store
+🗄️	verb	stored
+🗄️	verb	storing
+🗄️	adjective	stored
+🗄️	noun	storage
 🗑️	noun	trash
+🗑️	verb	trash
+🗑️	verb	trashed
+🗑️	verb	trashing
+🗑️	adjective	trashed
+🗑️	noun	junk
+🗑️	verb	junk
+🗑️	verb	junked
+🗑️	verb	junking
+🗑️	adjective	junked
 🗑️	noun	garbage
 🗑️	noun	waste
 🔒	noun	lock
@@ -4260,6 +4518,11 @@ F	adverb	false
 🔨	verb	hammered
 🔨	verb	hammering
 🔨	adjective	hammered
+	noun	nail
+🔨	verb	nail
+🔨	verb	nailed
+🔨	verb	nailing
+🔨	adjective	nailed
 🪟🔨	verb	break
 🪟🔨	verb	broke
 🪟🔨	verb	breaking
@@ -4338,6 +4601,7 @@ F	adverb	false
 🧫	adjective	biological
 🧫	noun	biology
 🧬	noun	dna
+🧬	noun	chromosome
 🧬	noun	genetics
 🧬	adjective	genetic
 🔬	noun	microscope
@@ -4422,6 +4686,7 @@ F	adverb	false
 🛒	adjective	shopping
 🚬	noun	cigarette
 ⚰️	noun	coffin
+⚰️	noun	sarcophagus
 🪦	noun	headstone
 🪦	noun	tomb
 🪦	noun	grave
@@ -4500,6 +4765,7 @@ F	adverb	false
 💩	adjective	shitting
 🕺	noun	bastard
 💃	noun	prostitute
+💃	noun	courtesan
 💃	noun	whore
 💃	verb	whore
 💃	verb	whored
@@ -4522,7 +4788,9 @@ F	adverb	false
 🐱	noun	pussy
 🍆	noun	penis
 🍆	noun	cock
+🍆	noun	dick
 🥚🥚	noun	testicle
+🥚🥚	noun	scrotum
 🍑💨	noun	fart
 🍑💨	verb	fart
 🍑💨	verb	farted
@@ -4548,6 +4816,11 @@ F	adverb	false
 🔞	noun	anus
 🔞	noun	porn
 🔞	noun	hardcore
+🔞	verb	castrate
+🔞	verb	castrated
+🔞	verb	castrating
+🔞	noun	castrated
+🔞	adjective	castrated
 💃	adjective	racy
 💃	adjective	sexy
 💃	adjective	carnal
@@ -4584,8 +4857,16 @@ F	adverb	false
 ✝️	adjective	episcopalian
 ✝️	adjective	methodist
 💝	noun	valentine
-♨️	noun	heat
 🌀	noun	cyclone
+🌀	noun	typhoon
+🌀	noun	hurricane
+🌀	noun	vortex
+🌀	noun	maelstrom
+🌀	noun	swirl
+🌀	verb	swirl
+🌀	verb	swirled
+🌀	verb	swirling
+🌀	adjective	swirling
 🛗	noun	elevator
 🚻	noun	restroom
 🚻	adjective	public
@@ -4611,6 +4892,10 @@ F	adverb	false
 ⚠️	noun	attention
 ⚠️	noun	important
 ⚠️	noun	importance
+⚠️	noun	danger
+🐍	adjective	dangerous
+⚠️	noun	hazard
+⚠️	adjective	hazardous
 🚸	verb	cross
 🚸	verb	crossed
 🚸	verb	crossing
@@ -4636,6 +4921,8 @@ F	adverb	false
 ☠️ 	adjective 	poisonous
 ☠️ 	noun 	toxin
 ☠️ 	adjective 	toxic
+☠️ 	noun 	acid
+☠️ 	adjective 	acidic
 ☢️	adjective	nuclear
 ☢️	adjective	atomic
 ☢️	adjective 	radioactive
@@ -4801,6 +5088,8 @@ F	adverb	false
 ➰	adjective	looping
 💱	adjective	currency
 ⚕️	noun	medic
+⚕️	noun	health
+⚕️	adjective	healthy
 ♻️	noun	recycle
 🔱	noun	trident
 🔰	noun	beginner
@@ -5447,124 +5736,124 @@ F	adverb	false
 🇵🇦	adjective	panamanian
 🇵🇷	adjective	puerto rican
 
-H 	noun	hydrogen
-He 	noun	helium
-Li 	noun	lithium
-Be 	noun	beryllium
-B 	noun	boron
-C 	noun	carbon
-N 	noun	nitrogen
-O 	noun	oxygen
-F 	noun	fluorine
-Ne 	noun	neon
-Na 	noun	sodium
-Mg 	noun	magnesium
-Al 	noun	aluminium
-Si 	noun	silicon
-P 	noun	phosphorus
-S 	noun	sulfur
-Cl 	noun	chlorine
-Ar 	noun	argon
-K 	noun	potassium
-Ca 	noun	calcium
-Sc 	noun	scadium
-Ti 	noun	titanium
-V 	noun	vanadium
-Cr 	noun	chromium
-Mn 	noun	manganese
-Fe 	noun	iron
-Co 	noun	cobalt
-Ni 	noun	nickel
-#Cu 	noun	copper
-Zn 	noun	zinc
-Ga 	noun	gallium
-Ge 	noun	germanium
-As 	noun	arsenic
-Se 	noun	selenium
-Br 	noun	bromine
-Kr 	noun	krypton
-Rb 	noun	rubidium
-Sr 	noun	strontium
-Y 	noun	yttrium
-Zr 	noun	zirconium
-Nb 	noun	niobium
-Mo 	noun	molybdenum
-Tc 	noun	technetium
-Ru 	noun	ruthenium
-Rh 	noun	rhodium
-Pd 	noun	palladium
-#Ag 	noun	silver
-Cd 	noun	cadmium
-In 	noun	indium
-Sn 	noun	tin
-Sb 	noun	antimony
-Te 	noun	tellurium
-I 	noun	iodine
-Xe 	noun	xenon
-Cs 	noun	caesium
-Ba 	noun	barium
-La 	noun	lanthanum
-Ce 	noun	cerium
-Pr 	noun	praseodymium
-Nd 	noun	neodymium
-Pm 	noun	promethium
-Sm 	noun	samarium
-Eu 	noun	europium
-Gd 	noun	gadolinium
-Tb 	noun	terbium
-Dy 	noun	dysprosium
-Ho 	noun	holmium
-Er 	noun	erbium
-Tm 	noun	thulium
-Yb 	noun	ytterbium
-Lu 	noun	lutetium
-Hf 	noun	hafnium
-Ta 	noun	tantalum
-W 	noun	tungsten
-Re 	noun	rhenium
-Os 	noun	osmium
-Ir 	noun	iridium
-Pt 	noun	platinum
-#Au 	noun	gold
-Hg 	noun	mercury
-Tl 	noun	thallium
-Pb 	noun	lead
-Bi 	noun	bismuth
-Po 	noun	polonium
-At 	noun	astatine
-Rn 	noun	radon
-Fr 	noun	francium
-Ra 	noun	radium
-Ac 	noun	actinium
-Th 	noun	thorium
-Pa 	noun	protactinium
-U 	noun	uranium
-Np 	noun	neptunium
-Pu 	noun	plutonium
-Am 	noun	americium
-Cm 	noun	curium
-Bk 	noun	berkelium
-Cf 	noun	californium
-Es 	noun	einsteinium
-Fm 	noun	fermium
-Md 	noun	mendelevium
-No 	noun	nobelium
-Lr 	noun	lawrencium
-Rf 	noun	rutherfordium
-Db 	noun	dubnium
-Sg 	noun	seaborgium
-Bh 	noun	bohrium
-Hs 	noun	hassium
-Mt 	noun	meitnerium
-Ds 	noun	darmstadtium
-Rg 	noun	roentgenium
-Cn 	noun	copernicium
-Nh 	noun	nihonium
-Fl 	noun	flerovium
-Mc 	noun	moscovium
-Lv 	noun	livermorium
-Ts 	noun	tennessine
-Og 	noun	oganesson
+<span style="border: 1px solid black">H</span> 	noun	hydrogen
+<span style="border: 1px solid black">He</span> 	noun	helium
+<span style="border: 1px solid black">Li</span> 	noun	lithium
+<span style="border: 1px solid black">Be</span> 	noun	beryllium
+<span style="border: 1px solid black">B</span> 	noun	boron
+<span style="border: 1px solid black">C</span> 	noun	carbon
+<span style="border: 1px solid black">N</span> 	noun	nitrogen
+<span style="border: 1px solid black">O</span> 	noun	oxygen
+<span style="border: 1px solid black">F</span> 	noun	fluorine
+<span style="border: 1px solid black">Ne</span> 	noun	neon
+<span style="border: 1px solid black">Na</span> 	noun	sodium
+<span style="border: 1px solid black">Mg</span> 	noun	magnesium
+<span style="border: 1px solid black">Al</span> 	noun	aluminium
+<span style="border: 1px solid black">Si</span> 	noun	silicon
+<span style="border: 1px solid black">P</span> 	noun	phosphorus
+<span style="border: 1px solid black">S</span> 	noun	sulfur
+<span style="border: 1px solid black">Cl</span> 	noun	chlorine
+<span style="border: 1px solid black">Ar</span> 	noun	argon
+<span style="border: 1px solid black">K</span> 	noun	potassium
+<span style="border: 1px solid black">Ca</span> 	noun	calcium
+<span style="border: 1px solid black">Sc</span> 	noun	scadium
+<span style="border: 1px solid black">Ti</span> 	noun	titanium
+<span style="border: 1px solid black">V</span> 	noun	vanadium
+<span style="border: 1px solid black">Cr</span> 	noun	chromium
+<span style="border: 1px solid black">Mn</span> 	noun	manganese
+<span style="border: 1px solid black">Fe</span> 	noun	iron
+<span style="border: 1px solid black">Co</span> 	noun	cobalt
+<span style="border: 1px solid black">Ni</span> 	noun	nickel
+#<span style="border: 1px solid black">Cu</span> 	noun	copper
+<span style="border: 1px solid black">Zn</span> 	noun	zinc
+<span style="border: 1px solid black">Ga</span> 	noun	gallium
+<span style="border: 1px solid black">Ge</span> 	noun	germanium
+<span style="border: 1px solid black">As</span> 	noun	arsenic
+<span style="border: 1px solid black">Se</span> 	noun	selenium
+<span style="border: 1px solid black">Br</span> 	noun	bromine
+<span style="border: 1px solid black">Kr</span> 	noun	krypton
+<span style="border: 1px solid black">Rb</span> 	noun	rubidium
+<span style="border: 1px solid black">Sr</span> 	noun	strontium
+<span style="border: 1px solid black">Y</span> 	noun	yttrium
+<span style="border: 1px solid black">Zr</span> 	noun	zirconium
+<span style="border: 1px solid black">Nb</span> 	noun	niobium
+<span style="border: 1px solid black">Mo</span> 	noun	molybdenum
+<span style="border: 1px solid black">Tc</span> 	noun	technetium
+<span style="border: 1px solid black">Ru</span> 	noun	ruthenium
+<span style="border: 1px solid black">Rh</span> 	noun	rhodium
+<span style="border: 1px solid black">Pd</span> 	noun	palladium
+#<span style="border: 1px solid black">Ag</span> 	noun	silver
+<span style="border: 1px solid black">Cd</span> 	noun	cadmium
+<span style="border: 1px solid black">In</span> 	noun	indium
+<span style="border: 1px solid black">Sn</span> 	noun	tin
+<span style="border: 1px solid black">Sb</span> 	noun	antimony
+<span style="border: 1px solid black">Te</span> 	noun	tellurium
+<span style="border: 1px solid black">I</span> 	noun	iodine
+<span style="border: 1px solid black">Xe</span> 	noun	xenon
+<span style="border: 1px solid black">Cs</span> 	noun	caesium
+<span style="border: 1px solid black">Ba</span> 	noun	barium
+<span style="border: 1px solid black">La</span> 	noun	lanthanum
+<span style="border: 1px solid black">Ce</span> 	noun	cerium
+<span style="border: 1px solid black">Pr</span> 	noun	praseodymium
+<span style="border: 1px solid black">Nd</span> 	noun	neodymium
+<span style="border: 1px solid black">Pm</span> 	noun	promethium
+<span style="border: 1px solid black">Sm</span> 	noun	samarium
+<span style="border: 1px solid black">Eu</span> 	noun	europium
+<span style="border: 1px solid black">Gd</span> 	noun	gadolinium
+<span style="border: 1px solid black">Tb</span> 	noun	terbium
+<span style="border: 1px solid black">Dy</span> 	noun	dysprosium
+<span style="border: 1px solid black">Ho</span> 	noun	holmium
+<span style="border: 1px solid black">Er</span> 	noun	erbium
+<span style="border: 1px solid black">Tm</span> 	noun	thulium
+<span style="border: 1px solid black">Yb</span> 	noun	ytterbium
+<span style="border: 1px solid black">Lu</span> 	noun	lutetium
+<span style="border: 1px solid black">Hf</span> 	noun	hafnium
+<span style="border: 1px solid black">Ta</span> 	noun	tantalum
+<span style="border: 1px solid black">W</span> 	noun	tungsten
+<span style="border: 1px solid black">Re</span> 	noun	rhenium
+<span style="border: 1px solid black">Os</span> 	noun	osmium
+<span style="border: 1px solid black">Ir</span> 	noun	iridium
+<span style="border: 1px solid black">Pt</span> 	noun	platinum
+#<span style="border: 1px solid black">Au</span> 	noun	gold
+<span style="border: 1px solid black">Hg</span> 	noun	mercury
+<span style="border: 1px solid black">Tl</span> 	noun	thallium
+<span style="border: 1px solid black">Pb</span> 	noun	lead
+<span style="border: 1px solid black">Bi</span> 	noun	bismuth
+<span style="border: 1px solid black">Po</span> 	noun	polonium
+<span style="border: 1px solid black">At</span> 	noun	astatine
+<span style="border: 1px solid black">Rn</span> 	noun	radon
+<span style="border: 1px solid black">Fr</span> 	noun	francium
+<span style="border: 1px solid black">Ra</span> 	noun	radium
+<span style="border: 1px solid black">Ac</span> 	noun	actinium
+<span style="border: 1px solid black">Th</span> 	noun	thorium
+<span style="border: 1px solid black">Pa</span> 	noun	protactinium
+<span style="border: 1px solid black">U</span> 	noun	uranium
+<span style="border: 1px solid black">Np</span> 	noun	neptunium
+<span style="border: 1px solid black">Pu</span> 	noun	plutonium
+<span style="border: 1px solid black">Am</span> 	noun	americium
+<span style="border: 1px solid black">Cm</span> 	noun	curium
+<span style="border: 1px solid black">Bk</span> 	noun	berkelium
+<span style="border: 1px solid black">Cf</span> 	noun	californium
+<span style="border: 1px solid black">Es</span> 	noun	einsteinium
+<span style="border: 1px solid black">Fm</span> 	noun	fermium
+<span style="border: 1px solid black">Md</span> 	noun	mendelevium
+<span style="border: 1px solid black">No</span> 	noun	nobelium
+<span style="border: 1px solid black">Lr</span> 	noun	lawrencium
+<span style="border: 1px solid black">Rf</span> 	noun	rutherfordium
+<span style="border: 1px solid black">Db</span> 	noun	dubnium
+<span style="border: 1px solid black">Sg</span> 	noun	seaborgium
+<span style="border: 1px solid black">Bh</span> 	noun	bohrium
+<span style="border: 1px solid black">Hs</span> 	noun	hassium
+<span style="border: 1px solid black">Mt</span> 	noun	meitnerium
+<span style="border: 1px solid black">Ds</span> 	noun	darmstadtium
+<span style="border: 1px solid black">Rg</span> 	noun	roentgenium
+<span style="border: 1px solid black">Cn</span> 	noun	copernicium
+<span style="border: 1px solid black">Nh</span> 	noun	nihonium
+<span style="border: 1px solid black">Fl</span> 	noun	flerovium
+<span style="border: 1px solid black">Mc</span> 	noun	moscovium
+<span style="border: 1px solid black">Lv</span> 	noun	livermorium
+<span style="border: 1px solid black">Ts</span> 	noun	tennessine
+<span style="border: 1px solid black">Og</span> 	noun	oganesson
 
 🕛	noun	twelve o’clock
 🕧	noun	twelve-thirty

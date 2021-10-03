@@ -1,0 +1,16 @@
+code: it
+name: Italian
+wiktionary: ../../enwiktionary-latest-pages-articles.xml
+frequency: frequency_from_subtitles.txt
+frequency_delimeter: ' '
+standardize: standardize.tsv
+part_of_speech: part_of_speech.tsv
+frequency_tallies: frequency_tallies.tsv
+definition: vocabulary_definition_source.tsv
+translation: vocabulary_translation_source.tsv
+manually_translated_parts_of_speech: manually_translated_parts_of_speech.tsv
+manually_translated_exceptions: manually_translated_exceptions.tsv
+sequence: vocabulary_sequence.tsv
+emoji: ../../emoji/vocabulary.tsv
+english_banned: ../../english/banned-words.tsv
+english_frequency: ../../english/frequency-from-subtitles.tsv

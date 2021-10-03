@@ -1,0 +1,221 @@
+article     	el          	the       	the                                                       
+article     	la          	the       	the                                                       
+article     	un          	a         	a                                                         
+article     	una         	a         	a                                                         
+conjunction 	y           	and       	and                                                       
+conjunction 	e           	and       	and [before a word that starts with 'i']                  
+conjunction 	o           	or        	or                                                        
+conjunction 	u           	or        	or [before a word that starts with 'o']                   
+conjunction 	pero        	but       	but                                                       
+conjunction 	sino        	but       	but [after a negative clause]                             
+conjunction 	si          	if        	if                                                        
+conjunction 	como        	how       	how; like                                                 
+conjunction 	más         	more      	more; plus                                                
+conjunction 	ya          	already   	already                                                   
+conjunction 	ahora       	now       	now; today                                                
+conjunction 	cuando      	when      	when                                                      
+conjunction 	porque      	because   	because                                                   
+conjunction 	ni          	nor       	neither; nor                                              
+conjunction 	donde       	where     	where                                                     
+conjunction 	pues        	well      	well [you see...]                                         
+conjunction 	mas         	yet       	yet [formal]                                              
+conjunction 	conforme    	as        	as, while varying through time to the same proportion that
+conjunction 	conque      	therefore 	consequently, thus, hence, so                             
+conjunction 	ca          	because   	because [obsolete]                                        
+conjunction 	sii         	if        	iff [rare]                                                
+conjunction 	ergo        	therefore 	therefore                                                 
+determiner  	tan         	such      	such, such a                                              
+determiner  	cada        	every     	each; every                                               
+determiner  	este        	this      	this                                                      
+determiner  	ese         	this      	that                                                      
+determiner  	aquel       	that      	that [over there]                                         
+determiner  	estos       	these     	these                                                     
+determiner  	esos        	those     	those                                                     
+determiner  	aquellos    	those     	those [over there]                                        
+determiner  	esta        	this      	this                                                      
+determiner  	esa         	that      	that                                                      
+determiner  	aquella     	that      	that [over there]                                         
+determiner  	estas       	these     	these                                                     
+determiner  	esas        	those     	those                                                     
+determiner  	aquellas    	those     	those [over there]                                        
+interjection	no?         	what      	eh?                                                       
+interjection	ya!         	come      	come on!, let's go!                                       
+interjection	bueno       	ok        	good; okay; fine                                          
+interjection	este...     	think     	uh... [filler word]                                       
+interjection	cómo?       	what      	pardon?                                                   
+interjection	gracias     	thanks    	thank you                                                 
+interjection	de nada     	welcome   	you're welcome; no problem                                
+interjection	hola        	hello     	hello                                                     
+interjection	verdad      	right     	right                                                     
+interjection	hombre!     	man       	Man!                                                      
+interjection	claro       	obviously 	of course                                                 
+interjection	otro!       	again     	Not again!                                                
+interjection	vale        	ok        	ok [Spain]                                                
+interjection	oye!        	attention 	hey!                                                      
+interjection	mierda!     	shit      	shit!                                                     
+interjection	vaya!       	woah      	whoa! geez!                                               
+interjection	adiós       	goodbye   	goodbye                                                   
+interjection	suerte!     	luck      	good luck!                                                
+interjection	adelante    	enter     	come in                                                   
+interjection	cuidado!    	caution   	watch out!                                                
+interjection	venga!      	come      	come on!                                                  
+interjection	punto!      	that      	that's it!                                                
+interjection	arriba!     	come      	come on!                                                  
+interjection	listo!      	ready     	get set!                                                  
+interjection	abajo       	destroy   	down with                                                 
+interjection	atrás!      	scram     	back off!                                                 
+interjection	alto!       	stop      	stop!                                                     
+interjection	basta!      	enough    	enough!                                                   
+interjection	diablos!    	damnit    	damnit!                                                   
+interjection	perdón      	sorry     	sorry                                                     
+interjection	fuego!      	fire      	fire!                                                     
+interjection	maldito!    	damnit    	damn!                                                     
+interjection	cambio      	radio     	over [and out]                                            
+interjection	largo!      	scram     	scram!                                                    
+interjection	aire!       	scram     	away with you!                                            
+interjection	ay!         	woah      	ah! alas!                                                 
+interjection	mira!       	look      	look!                                                     
+interjection	tranquilo!  	relax     	relax!                                                    
+interjection	entendido   	ok        	got it; roger that                                        
+interjection	sale        	ok        	ok [Mexico]                                               
+interjection	dale        	ok        	all right [Argentina]                                     
+interjection	anda!       	come      	come on!                                                  
+interjection	salud!      	bless you 	cheers! gesundheit!                                       
+interjection	adentro!    	enter     	come in!                                                  
+interjection	jesús!      	bless you 	gesundheit!                                               
+interjection	ojo!        	look      	look! watch out!                                          
+interjection	ojalá       	pray      	god willing                                               
+interjection	bienvenida  	welcome   	welcome                                                   
+interjection	leche       	shit      	shit [Spain]                                              
+interjection	coño        	fuck      	fuck! [Dominican Republic]                                
+interjection	rayos       	darn      	bother; shoot                                             
+interjection	bravo       	ok        	well done!, good show!                                    
+interjection	ja!         	laugh     	ha!                                                       
+interjection	socorro     	help      	help! mayday!                                             
+interjection	jo!         	woah      	woah! [stop!]                                             
+interjection	amén        	pray      	amen                                                      
+interjection	igualmente  	point     	likewise; right back at you                               
+interjection	miércoles!  	darn      	shoot!                                                    
+interjection	tocado!     	fence     	touché! [fencing]                                         
+interjection	cojones!    	testicles 	bollocks!                                                 
+interjection	ánimo!      	happy     	cheer up!                                                 
+interjection	guay        	cool      	alas; cool [Spain]                                        
+interjection	caramba!    	woah      	blimey!                                                   
+interjection	aguas!      	caution   	be careful!                                               
+interjection	so          	woah      	whoa; so [El Salvador]                                    
+interjection	bo          	dude      	hey; dude                                                 
+interjection	chau        	bye       	bye [Spain]                                               
+interjection	ajá!        	laugh     	aha!                                                      
+interjection	sip         	yes       	yep                                                       
+interjection	hostia      	woah      	christ; jeez [Spain]                                      
+interjection	hurra!      	laugh     	yay!                                                      
+interjection	fu          	bite      	hissing of a cat                                          
+interjection	descuida!   	ok        	no worries!                                               
+interjection	bum!        	explosion 	boom!                                                     
+interjection	simón!      	excited   	hell yeah! [Mexico]                                       
+interjection	conforme    	radio     	roger that                                                
+interjection	huy!        	hurt      	ouch! yikes!                                              
+interjection	tá          	ok        	ok [Uruguay]                                              
+interjection	che         	attention 	hey [Valencia]                                            
+interjection	aló?        	telephone 	hello? [answering telephone] [Latin America]              
+interjection	ostras!     	darn      	fiddlesticks!                                             
+interjection	pum!        	gun       	pow! bang!                                                
+interjection	bah!        	dubious   	yeah right!                                               
+interjection	arre!       	horse     	giddyup!                                                  
+interjection	filo        	dubious   	whatever [I don't care]                                   
+interjection	ca!         	woah      	oh no! [Spain]                                            
+interjection	uf!         	hurt      	oof!                                                      
+interjection	caracoles!  	woah      	gosh!                                                     
+interjection	fa          	disgusted 	ew! [disgusting] [Argentina]                              
+interjection	hala        	come      	come on! let’s go! wow!                                   
+interjection	cremallera! 	shut up   	zip it! shush!                                            
+interjection	cresta!     	shit      	shit! [Chile]                                             
+interjection	eureka!     	idea      	eureka!                                                   
+interjection	fije!       	cool      	cool!                                                     
+interjection	porra!      	woah      	no way! hell no!                                          
+interjection	ups         	oops      	oops                                                      
+interjection	miau        	cat       	meow                                                      
+interjection	meca        	darn      	shoot!                                                    
+interjection	abracadabra!	wizard    	abracadabra!                                              
+interjection	olé         	come      	come on! [you can do it!]                                 
+interjection	zas!        	gun       	pow! bang!                                                
+interjection	puf!        	explosion 	poof!                                                     
+interjection	síp         	yes       	yup                                                       
+interjection	ea!         	ok        	come now! [you can do it!]                                
+interjection	órale!      	come      	let's go! [Mexico]                                        
+interjection	bombo!      	attention 	attention!                                                
+interjection	posta!      	really    	really! [it's true!]                                      
+interjection	voilá       	magic     	voila                                                     
+interjection	jaja!       	laugh     	haha!                                                     
+interjection	ñam!        	delicious 	yum!                                                      
+interjection	tictac!     	clock     	tick tock!                                                
+interjection	tachán!     	magic     	ta-da!                                                    
+interjection	ops!        	oops      	oops!                                                     
+interjection	za!         	scram     	scat! [get out of here!]                                  
+particle    	sí          	yes       	yes                                                       
+particle    	no          	no        	no                                                        
+preposition 	de          	from      	of; from                                                  
+preposition 	que         	than      	than                                                      
+preposition 	a           	to        	to                                                        
+preposition 	en          	in        	in; on                                                    
+preposition 	por         	through   	through; by; for                                          
+preposition 	con         	with      	with                                                      
+preposition 	para        	for       	by; for; to                                               
+preposition 	como        	like      	such as; like                                             
+preposition 	hace        	          	it's been                                                 
+preposition 	sobre       	about     	on; about; concerning                                     
+preposition 	sin         	without   	without                                                   
+preposition 	hasta       	until     	until                                                     
+preposition 	antes       	until     	until                                                     
+preposition 	desde       	from      	from; since                                               
+preposition 	donde       	where     	where                                                     
+preposition 	menos       	except    	except; minus                                             
+preposition 	entre       	between   	among; between                                            
+preposition 	durante     	during    	during                                                    
+preposition 	contra      	against   	against; versus                                           
+preposition 	hacia       	towards   	towards                                                   
+preposition 	bajo        	beneath   	beneath; below                                            
+preposition 	tras        	upon      	upon; after                                               
+preposition 	según       	according 	according to                                              
+preposition 	junto       	together  	together                                                  
+preposition 	ante        	before    	in front of; before                                       
+preposition 	excepto     	except    	besides; except; save                                     
+preposition 	vía         	via       	via                                                       
+preposition 	mediante    	through   	through                                                   
+preposition 	cabe        	beside    	beside; next to                                           
+preposition 	pro         	for       	in favor of                                               
+preposition 	sub         	under     	under                                                     
+preposition 	versus      	versus    	versus                                                    
+preposition 	allende     	beyond    	beyond                                                    
+pronoun     	yo          	i         	I                                                         
+pronoun     	nosotros    	we        	we                                                        
+pronoun     	tú          	you       	you                                                       
+pronoun     	usted       	you       	you [respectfully]                                        
+pronoun     	ustedes     	you       	you all [respectfully]                                    
+pronoun     	vosotros    	you       	you all                                                   
+pronoun     	ella        	she       	she                                                       
+pronoun     	él          	he        	he                                                        
+pronoun     	ello        	it        	it                                                        
+pronoun     	que         	who       	who; that                                                 
+pronoun     	qué         	what      	what                                                      
+pronoun     	ellos       	they      	they                                                      
+pronoun     	ellas       	they      	they [the women]                                          
+pronoun     	se          	self      	self                                                      
+pronoun     	todo        	everything	everything                                                
+pronoun     	algo        	something 	something; anything                                       
+pronoun     	nada        	nothing   	nothing                                                   
+pronoun     	otro        	other     	other                                                     
+pronoun     	mucho       	many      	a lot                                                     
+pronoun     	quién       	who       	who                                                       
+pronoun     	alguien     	somebody  	somebody                                                  
+pronoun     	alguno      	somebody  	somebody                                                  
+pronoun     	alguna      	somebody  	somebody                                                  
+pronoun     	nadie       	nobody    	nobody                                                    
+pronoun     	ningún      	none      	none                                                      
+pronoun     	donde       	where     	where                                                     
+pronoun     	tanto       	many      	so much; so many                                          
+pronoun     	cuál        	which     	which                                                     
+pronoun     	cuanto      	many      	how much; as much                                         
+pronoun     	demás       	others    	the others                                                
+pronoun     	ambos       	both      	both                                                      
+pronoun     	cuyo        	whose     	whom; whose                                               

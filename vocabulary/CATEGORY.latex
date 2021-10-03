@@ -1,0 +1,28 @@
+% https://q.uiver.app/?q=WzAsMTYsWzEsMSwiXFxidWxsZXQiXSxbMSwzLCJcXHRleHR7ZnJlcXVlbmN5LXRhbGxpZXN9Il0sWzIsMCwiXFx0ZXh0e3N0YW5kYXJkaXplfSJdLFswLDEsIlxcdGV4dHtmcmVxdWVuY3ktZnJvbS1zdWJ0aXRsZXN9Il0sWzIsMSwiXFx0ZXh0e3BhcnQtb2Ytc3BlZWNofSJdLFsxLDQsIlxcYnVsbGV0Il0sWzAsNSwiXFx0ZXh0e2Vtb2ppL3ZvY2FidWxhcnl9Il0sWzAsNCwiXFx0ZXh0e2VuZ2xpc2gvYmFubmVkLXdvcmRzfSJdLFswLDMsIlxcdGV4dHtlbmdsaXNoL2ZyZXF1ZW5jeS1mcm9tLXN1YnRpdGxlc30iXSxbMiwzLCJcXHRleHR7dm9jYWJ1bGFyeS1kZWZpbml0aW9uLXNvdXJjZX0iXSxbMiw0LCJcXHRleHR7dm9jYWJ1bGFyeS10cmFuc2xhdGlvbi1zb3VyY2V9Il0sWzIsNSwiXFx0ZXh0e21hbnVhbGx5LXRyYW5zbGF0ZWR9Il0sWzEsNSwiXFx0ZXh0e3ZvY2FidWxhcnktc2VxdWVuY2V9Il0sWzEsNiwiXFx0ZXh0e3ZvY2FidWxhcnl9Il0sWzAsMCwiXFx0ZXh0e2luZmxlY3Rpb259Il0sWzMsMiwiXFx0ZXh0e2Vud2lrdGlvbmFyeX0iXSxbMCwxXSxbMCwyXSxbMCwzXSxbMCw0XSxbNSwxXSxbNSw2XSxbNSw3XSxbNSw4XSxbNSwxMF0sWzUsOV0sWzUsMTFdLFs1LDEyXSxbMTIsMTNdLFswLDE0XSxbMTUsNF0sWzE1LDJdLFsxNSwxMF0sWzE1LDldXQ==
+\begin{tikzcd}
+	{\text{inflection}} && {\text{standardize}} \\
+	{\text{frequency-from-subtitles}} & \bullet & {\text{part-of-speech}} \\
+	&&& {\text{enwiktionary}} \\
+	{\text{english/frequency-from-subtitles}} & {\text{frequency-tallies}} & {\text{vocabulary-definition-source}} \\
+	{\text{english/banned-words}} & \bullet & {\text{vocabulary-translation-source}} \\
+	{\text{emoji/vocabulary}} & {\text{vocabulary-sequence}} & {\text{manually-translated}} \\
+	& {\text{vocabulary}}
+	\arrow[from=2-2, to=4-2]
+	\arrow[from=2-2, to=1-3]
+	\arrow[from=2-2, to=2-1]
+	\arrow[from=2-2, to=2-3]
+	\arrow[from=5-2, to=4-2]
+	\arrow[from=5-2, to=6-1]
+	\arrow[from=5-2, to=5-1]
+	\arrow[from=5-2, to=4-1]
+	\arrow[from=5-2, to=5-3]
+	\arrow[from=5-2, to=4-3]
+	\arrow[from=5-2, to=6-3]
+	\arrow[from=5-2, to=6-2]
+	\arrow[from=6-2, to=7-2]
+	\arrow[from=2-2, to=1-1]
+	\arrow[from=3-4, to=2-3]
+	\arrow[from=3-4, to=1-3]
+	\arrow[from=3-4, to=5-3]
+	\arrow[from=3-4, to=4-3]
+\end{tikzcd}
