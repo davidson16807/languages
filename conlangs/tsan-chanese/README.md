@@ -10,7 +10,7 @@ Scientists begin to press against the limits of comfortable human understanding.
 Many of the most talented scientists abandon their fields or succumb to worse fates, 
 leaving their less talented colleagues to pick up where they left off.
 Human technological progress continues but faces increasing stagnation on account of these limits.
-Mandarin and English undergo typical sound changes. Additional borrowings bring English words into Mandarin.
+Mandarin and English undergo typical sound changes. Additional borrowings bring English words into Mandarin. 
 
 The resulting languages are addressed as "neo-Mandarin" and "neo-English"
 
@@ -53,7 +53,13 @@ Survivors are protected only by the influence of the Elder god Nyarlathotep
 and Lovecraftian races such as the Ophidians.
 A caste of priests emerge to worship and conspire with these beings, known as the "Deathless".
 The language of the Deathless is a creole descended from pidgin Chinese.
-It borrows heavily from Ophidian words, especially words that describe concepts within the Lovecraft mythos,
+Being spoken predominantly in close quarters, sound laws cause the language to become less sonorous.
+The language also becomes agglutinative, 
+following the hypothesized (albeit controversial) pattern of fusional>analytic>agglutivative 
+proposed by R.M.W. Dixon, if only because it gives us a pattern on which to base language design.
+
+The deathless language also borrows heavily from Ophidian words, 
+especially words that describe concepts within the Lovecraft mythos,
 and words for scientific concepts which were previous lost to time.
 
 Ophidian loan words share the same phonology as the Ophidian language, 
@@ -67,10 +73,10 @@ meaning an equivalent primary color that only the Ophidians can perceive.
 
 Outside the caverns of western China, the thralls of Cthulhu speak different languages.
 These languages retain most of the features of their substrate languages (e.g. tonality)
-but only retain the most conserved words within theri vocabularies.
+but only retain the most conserved words within their vocabularies.
 The majority of words in these languages are borrowed from the language of the Great Old Ones, 
 referred to here as "R'lyehian". (See [here](http://yog-sothoth.com/wiki/index.php/R%27lyehian) for known vocabulary)
-All but the most concerved words are borrowed.
+All but the most conserved words are borrowed.
 Language borrowing mirrors the kind of borrowing that occurred in English during the Norman Invasion, 
 or Vietnamese during the Han dynasty.
 Native words are replace across most of the semantic fields 
@@ -85,6 +91,7 @@ Even the most conserved words submit to strange sound laws.
 These sound laws serve to expand the phonetic inventories of substrate languages,
 making use of distinctions that are important within R'lyehian, 
 while also torturously slurring loan words that were never meant for human tongues.
+Finally, this language also continues the pattern toward agglutination.
 
 # 3500-4000?
 Deathless priests emerge from their caverns to capture and enslave thralls of Cthulhu, known as "Dreamers". 
@@ -98,7 +105,7 @@ social strata, law, warfare, but also fashion, cuisine, literature, philosophy,
 and terminology for concepts that are specific to the game expansion, such as the Inderdiction or the Judgement.
 We will refer to this language as the "Serf" language.
 
-The resulting language is analytical, with an SVO sentence structure.
+The resulting language is agglutinative with an SVO sentence structure.
 The most conserved words in the language are derived from Mandarin and retain tonality, 
 but have undergone many unusual sound laws.
 Words for concepts specific to the Lovecraft mythos are based on R'lyehian.
@@ -126,3 +133,5 @@ creating a new nobility class that allow the fortunes of the Empire to be briefl
 Progress is made in science during this time. Several lost concepts and technologies are rediscovered.
 Neologisms are created to describe rediscovered concepts, 
 and many of these words are derived from existing words within Court language. 
+Both court and vulgar languages now show signs of becoming inflectional,
+with standardized morpheme combinations that are on their way to becoming conjugation and declension systems.

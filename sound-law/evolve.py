@@ -3,62 +3,8 @@ import inflection
 
 import csv_functions
 from featural_phonetic_alphabet import FeaturalPhoneticAlphabet
-
-pronunciation_tuples = csv_functions.tuples_from_csv('../english/pronunciation/ipa_narrow_pronunciation_to_word.tsv')
-pronunciation_lookup = csv_functions.setdict_from_tuples(pronunciation_tuples, ['pronunciation','word'], ['word'])
-
-custom_pronunciation_lookup = {
-	'i': 'aɪ',
-	'my': 'maɪ',
-	'him': 'hɪm',
-	'who': 'hu',
-	'wʌ': 'wʌt',
-	's': 'z',
-	'said': 'sɛd',
-}
-
-replacements = [
-	('ch','t∫'),
-	('sh','∫'),
-	('th','θ'),
-	('qu','kw'),
-	('x','ks'),
-	('ng','ŋ'),
-	('ca','ka'),
-	('ce','se'),
-	('ci','si'),
-	('co','ko'),
-	('cu','ku'),
-	('ey','eɪ'),
-	('ss','s'),
-	('tt','t'),
-	('tia','t∫ɪeɪ'),
-	('tion','t∫n'),
-]
-def guess_pronunciation(word):
-	result = word
-	for replaced, replacement in replacements:
-		result = result.replace(replaced, replacement)
-	return result
-
-def pronounce_plural(singular_ipa):
-	return f'{singular_ipa}z' if singular_ipa[-1] in 'bvdðgmnrl' else f'{singular_ipa}s'
-
-def pronounce(word):
-	lower_case = word.lower()
-	stripped = lower_case.strip("'")
-	singular = inflection.singularize(lower_case)
-	return (custom_pronunciation_lookup[lower_case] if lower_case in custom_pronunciation_lookup
-		else list(pronunciation_lookup[lower_case])[0] if lower_case in pronunciation_lookup
-		else pronounce_plural(list(pronunciation_lookup[singular])[0]) if singular in pronunciation_lookup
-		else f"'{pronounce(stripped)}" if lower_case.startswith("'")
-		else f"{pronounce(stripped)}'" if lower_case.endswith("'")
-		else pronounce_plural(pronounce(stripped.split("'")[0])) if "'" in stripped
-		else guess_pronunciation(lower_case))
-
-featural = FeaturalPhoneticAlphabet(
-	csv_functions.tuples_from_csv('../featural-alphabet/ipa-vowel-to-schwa-relative-featural.tsv'), 
-	csv_functions.tuples_from_csv('../featural-alphabet/ipa-consonant-to-featural.tsv'))
+from international_phonetic_alphabet import EnglishIpaInflection, EnglishTextInflection, LanguageIpaInference, LanguageIpaReference
+from sound_law import SoundLawNotation
 
 # A short sample text with good coverage over the English alphabet
 text = 'the quick brown fox jumps over the lazy dog'
@@ -152,8 +98,132 @@ And with that he flew back to the nest.
 It's not likely we'll see much of his kind anymore, eh?" 
 '''
 
-pronunciation = ''.join(pronounce(block) for block in re.findall('''[a-zA-Z']+|[^a-zA-Z']+''', text))
+ipa_text_tuples = csv_functions.tuples_from_csv('../english/pronunciation/ipa_narrow_us_pronunciation_to_word.tsv')
+ipa_text_tuples_proscription = csv_functions.tuples_from_csv('../english/pronunciation/ipa_narrow_us_pronunciation_to_word_prescriptions.tsv')
+text_to_ipa_lookup = csv_functions.setdict_from_tuples(ipa_text_tuples, ['pronunciation','word'], ['word'])
+text_to_ipa_lookup.update(csv_functions.setdict_from_tuples(ipa_text_tuples_proscription, ['pronunciation','word'], ['word']))
 
-print(pronunciation)
-print(featural.from_ipa(pronunciation))
-print(featural.to_ipa(featural.from_ipa(pronunciation)))
+ipa_inflection = EnglishIpaInflection()
+text_inflection = EnglishTextInflection()
+ipa_inference = LanguageIpaInference(csv_functions.tuples_from_csv('../english/pronunciation/regex_to_ipa_guess.tsv'))
+ipa_reference = LanguageIpaReference(text_to_ipa_lookup, ipa_inflection, text_inflection)
+
+'''
+# uncomment this code in order to iterate through all possible words by frequency and examine correctness exhaustively
+word_frequency_tuples = csv_functions.tuples_from_csv('../english/vocabulary/frequency_from_subtitles.txt', delimeter=' ')
+for (i, (word, frequency)) in enumerate(word_frequency_tuples):
+	if i < 1e3 and ipa_reference.pronounce(word) != ipa_inference.pronounce(word):
+		print(word, '\t', ipa_reference.pronounce(word) or '', '\t', ipa_inference.pronounce(word))
+'''
+
+ipa = ''.join(ipa_reference.pronounce(block) or ipa_inference.pronounce(block) 
+	for block in re.findall('''[a-zA-Z']+|[^a-zA-Z']+''', text))
+
+featural_map = FeaturalPhoneticAlphabet(
+	csv_functions.tuples_from_csv('../featural-alphabet/ipa-vowel-to-a-relative-featural.tsv'), 
+	csv_functions.tuples_from_csv('../featural-alphabet/ipa-consonant-to-h-relative-featural.tsv'),
+	# csv_functions.tuples_from_csv('../featural-alphabet/ipa-consonant-to-fricative-featural.tsv'),
+)
+
+'''
+# uncomment this code in order to test that the featural alphabet can uniquely represent any text given to it
+# This is done by demonstrating isomorphism with the ipa version of text
+print(ipa)
+print(featural_map.from_ipa(ipa))
+print(featural_map.to_ipa(featural_map.from_ipa(ipa)))
+'''
+
+# ipa = 'dʒode'
+# ipa = 'dʒode'
+# sound_law_notation = SoundLawNotation([('F','ϕθʂçxχhfsʃħzʁ'), ('V','yiʏɪʉɨʊuɯøeɵɘəoɤœɛɞɜɐɔʌæɶaɒɑ')], [('∅','')])
+sound_law_notation = SoundLawNotation(
+	[
+	("\b", "(?!([ha↑↓←→]|[ᴿᴸʳˡⁿⁱ'ᶠʰᵛᵖʷ]))"),
+	("`", "[ᴿᴸʳˡⁿⁱ'ᶠʰᵛᵖʷ]")
+	], 
+	[('∅','')])
+sound_laws = [
+	#Grimm's Law                                                                      
+	# ("(?<=[^sᵖʷ][F])ᵖ", "∅"), #voiceless stops fricativize                                                      
+	# ("(?<=[F])ᵛᵖ",      "ᵖ"), #voiced stops unvoice                                                             
+	# ("(?<=[F])ʰᵛᵖ",     "ᵛᵖ"),#voiced spirates unaspirate                                                       
+]
+
+def test(n, replaced, replacement, ipa):
+	return featural_map.to_ipa( # featural_map.to_ipa
+		sound_law_notation.apply(
+			replaced.replace("{{n}}",str(n)), replacement, featural_map.from_ipa(ipa)))
+
+# The following is the result of a traversal through Ohala (1983), "The Origin of Sound Patterns in Vocal Tract Constraints" 
+# Identifying sound laws that can be described in a highly generic way using sound laws,
+# along with examples of that sound law having occured in real languages, where possible
+
+# voicing requires airflow but plosives cause rapid pressure build up and equilibration, preventing further sound
+# so long voiced plosives cause issues, one resolution is to prenasalize (Japanese 'read' /dʒode/→/dʒonde/)     
+print(test(8, "(a[↑→ʷⁿ]*)(h←{0,{{n}}})(`*?ᵛᵖ)a", "\\1\\2ⁿ\\2\\3a", 'dʒode'))# == 'dʒonde') # Japanese "read"
+# voicing requires airflow but plosives cause rapid pressure build up and equilibration, preventing further sound
+# so long voiced plosives cause issues, one resolution is to produce an implosive (Sindhi 'donkey' /gaddaha/→/gaɗahu/)       
+print(test(8, "(h←{0,{{n}}}`*?)ᵛᵖa", "\\1ᶠᵛa", "da"))# == "ða") # Ngɔm, "lie down"
+# voicing requires airflow but plosives cause rapid pressure build up and equilibration, preventing further sound
+# so long voiced plosives cause issues, one resolution is to spirantize/fricativize (Ngɔm 'lie down' /daad/→/ðað/)             
+print(test(8, "(a[↑→ʷⁿ]*)(h←{0,{{n}}}`*?)ᵛᵖa", "\\1\\2ⁱᵛᵖa", "gadaha")) # == "gaɗaha") # Sindhi "donkey"
+# voicing requires airflow but plosives cause rapid pressure build up and equilibration, preventing further sound
+# so long voiced plosives cause issues, one resolution is to devoice (Nubian 'scorpion' /mugɔn/→/mukɔn/)        
+print(test(8, "(h←{0,{{n}}}`*?)ᵛᵖa", "\\1ᵖa", "mugɔn"))  # == "mukɔn") # Nubian "scorpion"
+# voicing requires airflow but plosives cause rapid pressure build up and equilibration, preventing further sound
+# but voicing can be enabled if the length of subsequent vowels are shortened (English 'butter' /bʌtər/→/bʌdər/)
+print(test(8, "(h←{0,{{n}}}`*?)ᵖ(a[↑→ʷⁿ]*h←*`*?[ᴿʳ])", "\\1ᵛᵖ\\2", "bʌtəɹ")) # == "bʌdər" # English "butter"
+
+# 
+# voicing requires airflow and therefore need low pressure to go at length, but fricatives requires high pressure to be effective,
+# so voiced fricatives causes issues, one resolution is to defricativize (English 'live', hypothetical sound law)
+print(test(10, "(h←{0,{{n}}}`*?)ᶠᵛ`*\\b", "\\1ᵛᵖ", "lɪv")) # == "lib" # English "live", hypothetical example
+# voicing requires airflow and therefore need low pressure to go at length, but fricatives requires high pressure to be effective,
+# so voiced fricatives causes issues, one resolution is to devoice (English 'live', hypothetical sound law)
+print(test(10, "(h←{0,{{n}}}`*?)ᶠᵛ`*\\b", "\\1ᶠ", "lɪv")) # == "lif" # English "live", hypothetical example
+
+# DEVOICING FINAL VOWELS
+# word boundaries require a cessation in pressure but closed vowels also cause constriction, 
+# subglottal pressure, equilibration and thereby cessation, so final closed vowels tend to drop
+print(test(6, "a↑{{{n}},}[→ʷⁿ]*\b", "", "nunt∫aku")) # == "live" # English "nunchuk"
+
+# FRICATIVIZATION
+# frication and affrication occurs with sufficient air velocity and thereby constriction
+# so plosives followed by close vowels tend to fricativize, unless an adjacent nasal vents pressure elsewhere
+print(test(6, "(?<!ⁿ)(h←*)([ⁱ'ʰ]*?)(ᵛ?)ᵖ([ʷ]*)(a↑{{{n}},}[→ʷ]*)(?!ⁿ)", "\\1\\2ᶠ\\3ᵖ\\4\\5", "bumo")) # == "bvumo" # Mvumbo "fruit"
+# frication and affrication occurs with sufficient air velocity and thereby constriction, 
+# so plosives followed by close vowels tend to fricativize, unless an adjacent nasal vents pressure elsewhere
+print(test(6, "(?<!ⁿ)(h←{5,8})([ⁱ'ʰᵛ]*?)ᵖ([ʷ]*)(a↑{{{n}},}[→ʷ]*)(?!ⁿ)", "h←←←←←←\\2ᶠᵖ\\3\\4", "nætuɹəl")) # == "næt∫uɹəl" # English "natural"
+print(test(6, "(?<!ⁿ)(h←{0,4})([ⁱ'ʰᵛ]*?)ᶠ([ʷ]*)(a↑{{{n}},}[→ʷ]*)(?!ⁿ)", "h←←←←\\2ᶠ\\3\\4", "hi")) # == "çi" # Fante "underlying"
+print(test(6, "(?<!ⁿ)(h←{0,4})([ⁱ'ʰᵛ]*?)ᶠ([ʷ]*)(a↑{{{n}},}[→ʷ]*)(?!ⁿ)", "h←←←←\\2ᶠ\\3\\4", "hĩ")) # == "hĩ" # Fante "where"
+# frication and affrication occurs with sufficient air velocity and thereby constriction
+# so plosives followed by glides tend to fricativize, unless a preceding nasal vents pressure elsewhere
+print(test(6, "(?<!ⁿ)(h←{5,8})([ⁱ'ʰᵛ]*?)ᵖ([ʷ]*)(h←*[ᴿᴸʳˡ]*)", "h←←←←←←\\2ᶠᵖ\\3\\4", "trʌk")) # == "t∫rʌk" # American English Dialect "truck"
+# frication and affrication occurs with sufficient air velocity and thereby constriction
+# so plosives followed by glides tend to fricativize, unless a preceding nasal vents pressure elsewhere
+print(test(6, "(?<!ⁿ)(h←{0,4})([ⁱ'ʰ]*?)ᶠ([ʷ]*)(h←*[ᴿᴸʳˡ]*)", "\\1\\2ᶠᵖ\\3\\4", "hjumən")) # == "çjumən" # English mispronunciation "human"
+print(test(6, "(?<!ⁿ)(h←{0,4})([ⁱ'ʰ]*?)ᶠ([ʷ]*)(h←*[ᴿᴸʳˡ]*)", "\\1\\2ᶠᵖ\\3\\4", "ʌnhjumən")) # == "ʌnhjumən", not "ʌnçjumən" # English mispronunciation "human"
+
+# EPENTHESIS/ASSIMILATION
+# the "valves" of the glottis and tongue do not open and close immediately, 
+# so if two phonemes occur in sequence and use different valves, such as a fricative and nasal, 
+# the speaker may anticipate the blend and produce a plosive 
+print(test(6, "(h←*[ⁱ'ᶠʰᵛʷ]*)(h←*)ⁿ", "\\1\\2ᵖ\\2ⁿ", "krʂɳa")) # == "krʂʈɳa" # Indo-European variants "Krishna"
+# the "valves" of the glottis and tongue do not open and close immediately, 
+# so if two phonemes occur in sequence and use different valves, such as a fricative and nasal, 
+# the speaker may perservere through the blend and produce a plosive
+print(test(6, "(h←*)ⁿ(h←*[ⁱ'ᶠʰᵛʷ]*)(?!ᵖ)", "\\1ⁿ\\1ᵖ\\2", "wɔɹmθ")) # == "wɔɹmpθ" # English "warmth"
+print(test(6, "(h←*)ⁿ(h←*[ᴿᴸʳˡ]*)(?!ᵖ)", "\\1ⁿ\\1ᵛᵖ\\2", "venre")) # == "vendre" # Spanish "sell"
+
+
+# print(test(8, "(h←{0,{{n}}}[^ᵛᵖha]*)ᵖ(a[^h]*h←*[^ʳha]*[ᴿʳ])", "\\1ᵛᵖ\\2", ipa)) 
+
+# print(ipa)
+# featural = featural_map.from_ipa(ipa)
+# print(featural)
+# for replaced, replacement in sound_laws:
+# 	featural = sound_law_notation.apply(replaced, replacement, featural)
+# ipa = featural_map.to_ipa(featural)
+# print(featural)
+# print(ipa)
+

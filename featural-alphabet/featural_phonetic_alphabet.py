@@ -5,9 +5,9 @@ from csv_functions import csv_tuples
 class FeaturalPhoneticAlphabet:
 	def __init__(self, vowels, consonants):
 		self.preclean = [('←→',''),('↑↓','')]
-		self.vowels = [(replaced, replacement) for (replaced, replacement) in vowels]
-		self.consonants = [(replaced, replacement) for (replaced, replacement) in consonants]
-		self.postclean = [('[↑↓←→ⁿᴿᴸʳˡₒʰᵛᵖʷ]+',''),]
+		self.vowels = [(ipa, featural) for (ipa, featural) in vowels]
+		self.consonants = [(ipa, featural) for (ipa, featural) in consonants]
+		self.postclean = [('[↑↓←→ⁿᴿᴸʳˡₒʰᵛᵖʷᴵ`]+',''),]
 	def from_ipa(self, ipa_text):
 		featural_text = ipa_text
 		for ipa, featural in self.vowels:

@@ -1,0 +1,12 @@
+% https://q.uiver.app/?q=WzAsNSxbMCwwLCJcXHRleHR7dGV4dH0iXSxbMCwxLCJcXHRleHR7SVBBfSJdLFsxLDEsIlxcdGV4dHtmZWF0dXJhbH0iXSxbMSwyLCJcXHRleHR7ZmVhdHVyYWx9Il0sWzAsMiwiXFx0ZXh0e0lQQX0iXSxbMCwxLCJwcm9ub3VuY2UiXSxbMSwyXSxbMiwxXSxbMiwzLCJcXHRleHR7c291bmQgbGF3fSJdLFsxLDQsIlxcdGV4dHtzb3VuZCBsYXd9Il0sWzEsMCwic3BlbGwiXV0=
+\begin{tikzcd}
+	{\text{text}} \\
+	{\text{IPA}} & {\text{featural}} \\
+	{\text{IPA}} & {\text{featural}}
+	\arrow["pronounce", from=1-1, to=2-1]
+	\arrow[from=2-1, to=2-2]
+	\arrow[from=2-2, to=2-1]
+	\arrow["{\text{sound law}}", from=2-2, to=3-2]
+	\arrow["{\text{sound law}}", from=2-1, to=3-1]
+	\arrow["spell", from=2-1, to=1-1]
+\end{tikzcd}

@@ -13,4 +13,4 @@ manually_translated_exceptions: manually_translated_exceptions.tsv
 sequence: vocabulary_sequence.tsv
 emoji: ../../emoji/vocabulary.tsv
 english_banned: ../../english/banned-words.tsv
-english_frequency: ../../english/frequency-from-subtitles.tsv
+english_frequency: ../../english/vocabulary/frequency_from_subtitles.txt

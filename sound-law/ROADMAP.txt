@@ -1,0 +1,15 @@
+TODO:
+sound laws
+	compile a list of sound laws that are attested in historical linguistics, denoted in ipa using regex substitutions
+	compile a list of pronunciations within a target language, denoted in ipa
+	map text or vocabulary lists in target language to ipa and perform regex substitutions to mimic sound laws
+word borrowing
+	compile vocabulary for source languages
+	compile a lookup that indicates semantic field for english words (e.g. warfare, religion, cuisine, fashion, various technologies, etc.)
+	compile a map between forms of linguistic influence (e.g. military conquest, religious expansion, cultural influence, technological advancement) to semantic field
+	during mass word borrowing events, map the kind of influence to semantic field, and modify words with that semantic field in source language vocabulary, 
+		either replacing words with those of the influencing language or introducing new words from the influencing language, depending on the kind of influence
+pidginization
+	compile synonym pairs for english
+	during pidginization, randomly select a word from each synonym group and replace all words in that group with the randomly selected word
+	the intent is to mimic the reduction in vocabulary experienced during pidginization

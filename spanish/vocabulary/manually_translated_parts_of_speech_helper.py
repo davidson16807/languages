@@ -5,7 +5,7 @@ import inflection
 
 import csv_functions
 
-english_frequency = csv_functions.tuples_from_csv('../english/frequency-from-subtitles.tsv', delimeter=' ')
+english_frequency = csv_functions.tuples_from_csv('../english/vocabulary/frequency_from_subtitles.txt', delimeter=' ')
 frequency_to_english = [english for (english, frequency) in english_frequency]
 english_to_frequency = csv_functions.function_from_dict(
 	{english:int(frequency) for (english, frequency) in english_frequency},
