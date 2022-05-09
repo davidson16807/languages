@@ -3,4 +3,4 @@ name: English
 wiktionary: ../enwiktionary-latest-pages-articles.xml
 sequences: sequences.tsv
 english_banned: banned-words.tsv
-english_frequency: frequency-from-subtitles.tsv
+english_frequency: vocabulary/frequency_from_subtitles.tsv

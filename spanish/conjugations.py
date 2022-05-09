@@ -116,5 +116,5 @@ for verb, voice, mood, tense, person, plurality in combinations:
 		emoji = emoji.replace('{{subject}}', emoji_decline_pronoun(person, gender, plurality))
 
 		if '{{c1::}}' not in ie:
-			emoji_style = "font-size:11em; font-family: 'DejaVu Sans', 'sans-serif', 'Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
+			emoji_style = "font-size:5em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
 			print(f'<div style="{emoji_style}">{emoji}</div><div style="font-size:small">{en}</div><div style="font-size:large">{ie}</div>')

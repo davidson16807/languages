@@ -87,5 +87,5 @@ for plurality, person, gender, case in combinations:
 	])
 
 	if '{{c1::}}' not in ie:
-		emoji_style = "font-size:7em; font-family: 'DejaVu Sans', 'sans-serif', 'Twemoji Mozilla','Segoe UI Emoji','Noto Color Emoji'"
+		emoji_style = "font-size:5em; font-family: 'Twemoji', 'Twemoji Mozilla', 'DejaVu Sans', 'sans-serif', 'Segoe UI Emoji','Noto Color Emoji'"
 		print(f'<div style="{emoji_style}">{emoji}</div><div style="font-size:small">{en}</div><div style="font-size:large">{ie}</div>')
