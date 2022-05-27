@@ -29,7 +29,7 @@ ie_declension_demo_lookup = csv_dict('declensions-source.tsv',
 ie_declension_demo = curried_dict_function(ie_declension_demo_lookup)
 
 
-emoji_declension_templates_lookup = csv_dict('../emoji/declensions-source.tsv',  
+emoji_declension_templates_lookup = csv_dict('emoji-declensions-source.tsv',  
 	 ['case', 'template'], 
 	 ['case'])
 emoji_declension_templates = dict_function(emoji_declension_templates_lookup)
@@ -79,5 +79,5 @@ for noun, plurality, case in combinations:
 		emoji = emoji.replace(replaced, replacement)
 
 	if '{{c1::}}' not in ie:
-		emoji_style = "font-size:5em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
+		emoji_style = "font-size:3em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
 		print(f'<div style="{emoji_style}">{emoji}</div><div style="font-size:small">{en}</div><div style="font-size:large">{ie}</div>')

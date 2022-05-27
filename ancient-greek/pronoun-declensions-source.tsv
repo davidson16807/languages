@@ -1,0 +1,63 @@
+		 								
+#person	gender	plurality	nominative	genitive	dative	accusative	vocative			
+1	neuter	singular 	ἐγώ	ἐμοῦ, μου	ἐμοί, μοι	ἐμέ, με				
+1	neuter	dual 	νώ	νῷν	νῷν	νώ				
+1	neuter	plural 	ἡμεῖς	ἡμῶν	ἡμῖν	ἡμᾶς				
+2	neuter	singular 	σύ	σοῦ, σου	σοί, σοι	σέ, σε				
+2	neuter	dual 	σφώ	σφῷν	σφῷν	σφώ				
+2	neuter	plural 	ὑμεῖς	ὑμῶν	ὑμῖν	ὑμᾶς				
+3	neuter	singular 	—	(οὗ)	οἷ	(ἓ)				
+3	neuter	plural	(σφεῖς)	(σφῶν)	σφίσι(ν)	(σφᾶς) 				
+										
+demonstrative	masculine	singular 	οὗτος	τούτου	τούτῳ	τοῦτον	οὗτος			
+demonstrative	masculine	dual	τούτω	τούτοιν	τούτοιν	τούτω				
+demonstrative	masculine	plural 	οὗτοι	τούτων	τούτοις	τούτους				
+demonstrative	feminine	singular 	αὕτη	ταύτης	ταύτῃ	ταύτην	αὕτη			
+demonstrative	feminine	dual	τούτω	τούτοιν	τούτοιν	τούτω				
+demonstrative	feminine	plural 	αὗται	τούτων	ταύταις	ταύτας				
+demonstrative	neuter	singular 	τοῦτο	τούτου	τούτῳ	τοῦτο				
+demonstrative	neuter	dual	τούτω	τούτοιν	τούτοιν	τούτω				
+demonstrative	neuter	plural 	ταῦτα	τούτων	τούτοις	ταῦτα				
+										
+interrogative	masculine	singular 	τίς	τίνος or τοῦ	τίνι or τῷ	τίνα				
+interrogative	masculine	dual	τίνε	τίνοιν	τίνοιν	τίνε 				
+interrogative	masculine	plural 	τίνες	τίνων	τίσι(ν)	τίνας				
+interrogative	feminine	singular 	τίς	τίνος or τοῦ	τίνι or τῷ	τίνα				
+interrogative	feminine	dual	τίνε	τίνοιν	τίνοιν	τίνε 				
+interrogative	feminine	plural 	τίνες	τίνων	τίσι(ν)	τίνας				
+interrogative	neuter	singular 	τί	τίνος or τοῦ	τίνι or τῷ	τί				
+interrogative	neuter	dual	τίνε	τίνοιν	τίνοιν	τίνε 				
+interrogative	neuter	plural 	τίνα or ἄττα	τίνων	τίσι(ν)	τίνα or ἄττα				
+										
+indefinite	masculine	singular 	τίς	τινός or του	τινί or τῳ	τινά				
+indefinite	masculine	dual	τινέ	τινοῖν	τινοῖν	τινέ 				
+indefinite	masculine	plural 	τινές	τινῶν	τισί(ν)	τινάς				
+indefinite	feminine	singular 	τίς	τινός or του	τινί or τῳ	τινά				
+indefinite	feminine	dual	τινέ	τινοῖν	τινοῖν	τινέ 				
+indefinite	feminine	plural 	τινές	τινῶν	τισί(ν)	"τινάς	"				
+indefinite	neuter	singular 	τί	τινός or του	τινί or τῳ	τί				
+indefinite	neuter	dual	τινέ	τινοῖν	τινοῖν	τινέ 				
+indefinite	neuter	plural 	τινά or ἄττα	τινῶν	τισί(ν)	τινά or ἄττα				
+										
+relative	masculine	singular 	ὅς	οὗ	ᾧ	ὅν				
+relative	masculine	dual 	ὥ	οἷν	οἷν	ὥ				
+relative	masculine	plural 	οἵ	ὧν	οἷς	οὕς				
+relative	feminine	singular 	ἥ	ἧς	ᾗ	ἥν				
+relative	feminine	dual 	ὥ (ἅ)	οἷν (αἷν)	οἷν (αἷν)	ὥ (ἅ)				
+relative	feminine	plural 	αἵ	ὧν	αἷς	ἅς				
+relative	neuter	singular 	ὅ	οὗ	ᾧ	ὅ				
+relative	neuter	dual 	ὥ	οἷν	οἷν	ὥ				
+relative	neuter	plural	ἅ	ὧν	οἷς	ἅ 				
+										
+numeral	masculine 	singular	εἷς	ἑνός	ἑνί	ἕνα				
+numeral	feminine 	singular	μία	μιᾶς	μιᾷ	μίαν				
+numeral	neuter 	singular	ἕν	ἑνός	ἑνί	ἕν				
+numeral	masculine 	dual	δύο	δυοῖν (δύο)	δυοῖν (δύο)	δύο				
+numeral	feminine 	dual	δύο	δυοῖν (δύο)	δυοῖν (δύο)	δύο				
+numeral	neuter 	dual	δύο	δυοῖν (δύο)	δυοῖν (δύο)	δύο				
+numeral	masculine	triple	τρεῖς	τριῶν	τρισί(ν)	τρεῖς				
+numeral	feminine	triple	τρεῖς	τριῶν	τρισί(ν)	τρεῖς				
+numeral	neuter	triple	τρία	τριῶν	τρισί(ν)	τρία				
+numeral	masculine	quadruple	τέσσαρες	τεσσάρων	τέσσαρσι(ν)	τέσσαρας				
+numeral	feminine	quadruple	τέσσαρες	τεσσάρων	τέσσαρσι(ν)	τέσσαρας				
+numeral	neuter	quadruple	τέσσαρα	τεσσάρων	τέσσαρσι(ν)	τέτταρα 				

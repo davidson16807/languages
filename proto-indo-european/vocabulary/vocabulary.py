@@ -3,7 +3,7 @@ import csv_functions
 import re
 
 def foreign_to_english_card(emoji, part_of_speech, foreign, english):
-	emoji_style = "font-size:5em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
+	emoji_style = "font-size:3em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
 	return f'''<br/>
 <div style="font-size:3em">{foreign}</div>
 \t
@@ -12,7 +12,7 @@ def foreign_to_english_card(emoji, part_of_speech, foreign, english):
 <div style="font-size:large">{english}</div><br/>'''.replace('\n','')
 
 def english_to_foreign_card(emoji, part_of_speech, english, foreign):
-	emoji_style = "font-size:5em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
+	emoji_style = "font-size:3em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
 	return f'''<br/>
 <div style="{emoji_style}">{emoji}</div>
 <div style="font-size:large">{english}</div>

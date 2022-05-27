@@ -1,241 +1,33 @@
-# case      	person       	gender   	plurality	clitic  	pie-declined     	
-nominative  	3            	masculine	singular 	        	ís               
-accusative  	3            	masculine	singular 	        	ím               
-genitive    	3            	masculine	singular 	        	ésyo             
-ablative    	3            	masculine	singular 	        	ésmod            
-dative      	3            	masculine	singular 	        	ésmey            
-locative    	3            	masculine	singular 	        	ésmi             
-nominative  	3            	feminine 	singular 	        	íh₂              
-accusative  	3            	feminine 	singular 	        	íh₂m             
-genitive    	3            	feminine 	singular 	        	ésyeh₂s          
-ablative    	3            	feminine 	singular 	        	ésyeh₂s          
-dative      	3            	feminine 	singular 	        	ésyeh₂ey         
-locative    	3            	feminine 	singular 	        	                 
-nominative  	3            	neuter   	singular 	        	íd               
-accusative  	3            	neuter   	singular 	        	íd               
-genitive    	3            	neuter   	singular 	        	ésyo             
-ablative    	3            	neuter   	singular 	        	ésyo             
-dative      	3            	neuter   	singular 	        	ésmey            
-locative    	3            	neuter   	singular 	        	ésmi             
-nominative  	3            	masculine	plural   	        	éyes             
-accusative  	3            	masculine	plural   	        	íns              
-genitive    	3            	masculine	plural   	        	éysom            
-ablative    	3            	masculine	plural   	        	éysom            
-dative      	3            	masculine	plural   	        	eybʰ             
-locative    	3            	masculine	plural   	        	eysu             
-nominative  	3            	feminine 	plural   	        	íh₂es            
-accusative  	3            	feminine 	plural   	        	íh₂ms            
-genitive    	3            	feminine 	plural   	        	éysom            
-ablative    	3            	feminine 	plural   	        	éysom            
-dative      	3            	feminine 	plural   	        	eybʰ             
-locative    	3            	feminine 	plural   	        	eysu             
-nominative  	3            	neuter   	plural   	        	íh₂              
-accusative  	3            	neuter   	plural   	        	íh₂              
-genitive    	3            	neuter   	plural   	        	éysom            
-ablative    	3            	neuter   	plural   	        	éysom            
-dative      	3            	neuter   	plural   	        	eybʰ             
-locative    	3            	neuter   	plural   	        	eysu             
-            
-nominative  	1            	neuter   	singular 	        	eǵoH             
-accusative  	1            	neuter   	singular 	tonic   	mé               
-accusative  	1            	neuter   	singular 	enclitic	me               
-genitive    	1            	neuter   	singular 	tonic   	méme             
-genitive    	1            	neuter   	singular 	enclitic	mos              
-dative      	1            	neuter   	singular 	tonic   	mébhi            
-dative      	1            	neuter   	singular 	enclitic	mey              
-ablative    	1            	neuter   	singular 	        	mét              
-            
-nominative  	1            	neuter   	dual     	        	weh₁             
-accusative  	1            	neuter   	dual     	tonic   	nₒh₁wé           
-accusative  	1            	neuter   	dual     	enclitic	nō̆h₁            
-genitive    	1            	neuter   	dual     	tonic   	nō̆h₁            
-genitive    	1            	neuter   	dual     	enclitic	nō̆h₁            
-dative      	1            	neuter   	dual     	tonic   	nō̆h₁            
-dative      	1            	neuter   	dual     	enclitic	nō̆h₁            
-ablative    	1            	neuter   	dual     	        	nō̆h₁            
-            
-nominative  	1            	neuter   	plural   	        	wei              
-accusative  	1            	neuter   	plural   	tonic   	n̥smé            
-accusative  	1            	neuter   	plural   	enclitic	nō̆s             
-genitive    	1            	neuter   	plural   	tonic   	n̥sóm            
-genitive    	1            	neuter   	plural   	enclitic	nō̆s             
-dative      	1            	neuter   	plural   	tonic   	n̥sméy           
-dative      	1            	neuter   	plural   	enclitic	nō̆s             
-ablative    	1            	neuter   	plural   	        	n̥smét           
-            
-nominative  	2            	neuter   	singular 	        	tī̆              
-accusative  	2            	neuter   	singular 	tonic   	twé              
-accusative  	2            	neuter   	singular 	enclitic	te               
-genitive    	2            	neuter   	singular 	tonic   	téwe             
-genitive    	2            	neuter   	singular 	enclitic	tos              
-dative      	2            	neuter   	singular 	tonic   	tébhi            
-dative      	2            	neuter   	singular 	enclitic	tey              
-ablative    	2            	neuter   	singular 	        	twét             
-            
-nominative  	2            	neuter   	dual     	        	yuh₁             
-accusative  	2            	neuter   	dual     	tonic   	uh₁wé            
-accusative  	2            	neuter   	dual     	enclitic	wō̆h₁            
-genitive    	2            	neuter   	dual     	tonic   	wō̆h₁            
-genitive    	2            	neuter   	dual     	enclitic	wō̆h₁            
-dative      	2            	neuter   	dual     	tonic   	wō̆h₁            
-dative      	2            	neuter   	dual     	enclitic	wō̆h₁            
-ablative    	2            	neuter   	dual     	        	wō̆h₁            
-            
-nominative  	2            	neuter   	plural   	        	yūs              
-accusative  	2            	neuter   	plural   	tonic   	usmé             
-accusative  	2            	neuter   	plural   	enclitic	wō̆s             
-genitive    	2            	neuter   	plural   	tonic   	usóm             
-genitive    	2            	neuter   	plural   	enclitic	wō̆s             
-dative      	2            	neuter   	plural   	tonic   	usméy            
-dative      	2            	neuter   	plural   	enclitic	wō̆s             
-ablative    	2            	neuter   	plural   	        	usmét            
-            
-nominative  	reflexive    	         	         	        	–                
-accusative  	reflexive    	         	         	        	swé ~ se         
-genitive    	reflexive    	         	         	        	séwe ~ sos (adj.)
-ablative    	reflexive    	         	         	        	swét             
-dative      	reflexive    	         	         	        	sébʰi ~ sey, soy 
-nominative  	interrogative	         	         	        	kʷís             	
-accusative  	interrogative	         	         	        	kʷím             	
-genitive    	interrogative	         	         	        	kʷésyo           	
-dative      	interrogative	         	         	        	kʷésmey          	
-locative    	interrogative	         	         	        	kʷésmi           	
-nominative  	interrogative	         	         	        	kʷís             	
-accusative  	interrogative	         	         	        	kʷím             	
-genitive    	interrogative	         	         	        	kʷésyo           	
-dative      	interrogative	         	         	        	kʷésmey          	
-locative    	interrogative	         	         	        	kʷésmi           	
-nominative  	interrogative	         	         	        	kʷíd             	
-accusative  	interrogative	         	         	        	kʷíd             	
-genitive    	interrogative	         	         	        	kʷésyo           	
-dative      	interrogative	         	         	        	kʷésmey          	
-locative    	interrogative	         	         	        	kʷésmi           
-nominative  	interrogative	         	         	        	                 
-accusative  	interrogative	         	         	        	                 
-genitive    	interrogative	         	         	        	                 
-dative      	interrogative	         	         	        	                 
-locative    	interrogative	         	         	        	                 
-nominative  	interrogative	         	         	        	                 
-accusative  	interrogative	         	         	        	                 
-genitive    	interrogative	         	         	        	                 
-dative      	interrogative	         	         	        	                 
-locative    	interrogative	         	         	        	                 
-nominative  	interrogative	         	         	        	                 
-accusative  	interrogative	         	         	        	                 
-genitive    	interrogative	         	         	        	                 
-dative      	interrogative	         	         	        	                 
-locative    	interrogative	         	         	        	                 
-nominative  	interrogative	         	         	        	kʷéyes           	
-accusative  	interrogative	         	         	        	kʷíms            	
-genitive    	interrogative	         	         	        	kʷéysom          	
-dative      	interrogative	         	         	        	kʷeybʰ           	
-locative    	interrogative	         	         	        	kʷeysu           	
-nominative  	interrogative	         	         	        	kʷéyes           	
-accusative  	interrogative	         	         	        	kʷíms            	
-genitive    	interrogative	         	         	        	kʷéysom          	
-dative      	interrogative	         	         	        	kʷeybʰ           	
-locative    	interrogative	         	         	        	kʷeysu           	
-nominative  	interrogative	         	         	        	kʷíh₂            	
-accusative  	interrogative	         	         	        	kʷíh₂            	
-genitive    	interrogative	         	         	        	kʷéysom          	
-dative      	interrogative	         	         	        	kʷeybʰ           	
-locative    	interrogative	         	         	        	kʷeysu           	
-nominative  	interrogative	         	         	        	kʷós             	
-accusative  	interrogative	         	         	        	kʷóm             	
-genitive    	interrogative	         	         	        	kʷósyo           	
-dative      	interrogative	         	         	        	kʷósmey          	
-nominative  	interrogative	         	         	        	kʷéh₂            	
-accusative  	interrogative	         	         	        	kʷéh₂m           	
-genitive    	interrogative	         	         	        	                 	
-dative      	interrogative	         	         	        	                 	
-nominative  	interrogative	         	         	        	kʷód             	
-accusative  	interrogative	         	         	        	kʷód             	
-genitive    	interrogative	         	         	        	kʷósyo           	
-dative      	interrogative	         	         	        	kʷósmey          
-nominative  	interrogative	         	         	        	kʷóy             	
-accusative  	interrogative	         	         	        	kʷóms            	
-genitive    	interrogative	         	         	        	                 	
-dative      	interrogative	         	         	        	                 	
-nominative  	interrogative	         	         	        	kʷeh₂(e)s        	
-accusative  	interrogative	         	         	        	kʷeh₂ms          	
-genitive    	interrogative	         	         	        	                 	
-dative      	interrogative	         	         	        	                 	
-nominative  	interrogative	         	         	        	kʷeh₂            	
-accusative  	interrogative	         	         	        	kʷeh₂            	
-genitive    	interrogative	         	         	        	                 	
-dative      	interrogative	         	         	        	                 
-nominative  	demonstrative	         	         	        	só               	
-accusative  	demonstrative	         	         	        	tóm              	
-genitive    	demonstrative	         	         	        	tósyo            	
-ablative    	demonstrative	         	         	        	tósmead          	
-dative      	demonstrative	         	         	        	tósmey           	
-locative    	demonstrative	         	         	        	tósmi            	
-instrumental	demonstrative	         	         	        	tónoh₁           	
-nominative  	demonstrative	         	         	        	séh₂             	
-accusative  	demonstrative	         	         	        	tā́m             	
-genitive    	demonstrative	         	         	        	tósyeh₂s         	
-ablative    	demonstrative	         	         	        	tósyeh₂s         	
-dative      	demonstrative	         	         	        	tósyeh₂ey        	
-locative    	demonstrative	         	         	        	tósyeh₂          	
-instrumental	demonstrative	         	         	        	téh₂(e)h₁        	
-nominative  	demonstrative	         	         	        	tód              	
-accusative  	demonstrative	         	         	        	tód              	
-genitive    	demonstrative	         	         	        	tósyo            	
-ablative    	demonstrative	         	         	        	tósmead          	
-dative      	demonstrative	         	         	        	tósmey           	
-locative    	demonstrative	         	         	        	tósmi            	
-instrumental	demonstrative	         	         	        	tónoh₁           
-nominative  	demonstrative	         	         	        	                 
-accusative  	demonstrative	         	         	        	                 
-genitive    	demonstrative	         	         	        	                 
-dative      	demonstrative	         	         	        	                 
-nominative  	demonstrative	         	         	        	                 
-accusative  	demonstrative	         	         	        	                 
-genitive    	demonstrative	         	         	        	                 
-dative      	demonstrative	         	         	        	                 
-nominative  	demonstrative	         	         	        	                 
-accusative  	demonstrative	         	         	        	                 
-genitive    	demonstrative	         	         	        	                 
-dative      	demonstrative	         	         	        	                 
-nominative  	demonstrative	         	         	        	tóh₁             
-accusative  	demonstrative	         	         	        	tóh₁             
-genitive    	demonstrative	         	         	        	                 
-ablative    	demonstrative	         	         	        	                 
-dative      	demonstrative	         	         	        	                 
-locative    	demonstrative	         	         	        	                 
-instrumental	demonstrative	         	         	        	                 
-nominative  	demonstrative	         	         	        	                 
-accusative  	demonstrative	         	         	        	                 
-genitive    	demonstrative	         	         	        	                 
-ablative    	demonstrative	         	         	        	                 
-dative      	demonstrative	         	         	        	                 
-locative    	demonstrative	         	         	        	                 
-instrumental	demonstrative	         	         	        	                 
-nominative  	demonstrative	         	         	        	tóy              
-accusative  	demonstrative	         	         	        	tóy              
-genitive    	demonstrative	         	         	        	                 
-ablative    	demonstrative	         	         	        	                 
-dative      	demonstrative	         	         	        	                 
-locative    	demonstrative	         	         	        	                 
-instrumental	demonstrative	         	         	        	                 
-nominative  	demonstrative	         	         	        	tóy              	
-accusative  	demonstrative	         	         	        	tóms             	
-genitive    	demonstrative	         	         	        	tóysoHom         	
-ablative    	demonstrative	         	         	        	tóymos           	
-dative      	demonstrative	         	         	        	tóymos           	
-locative    	demonstrative	         	         	        	tóysu            	
-instrumental	demonstrative	         	         	        	tṓys             	
-nominative  	demonstrative	         	         	        	téh₂es           	
-accusative  	demonstrative	         	         	        	téh₂m̥s          	
-genitive    	demonstrative	         	         	        	téh₂soHom        	
-ablative    	demonstrative	         	         	        	téh₂mos          	
-dative      	demonstrative	         	         	        	téh₂mos          	
-locative    	demonstrative	         	         	        	téh₂su           	
-instrumental	demonstrative	         	         	        	téh₂bʰi          	
-nominative  	demonstrative	         	         	        	téh₂             	
-accusative  	demonstrative	         	         	        	téh₂             	
-genitive    	demonstrative	         	         	        	tóysoHom         	
-ablative    	demonstrative	         	         	        	tóymos           	
-dative      	demonstrative	         	         	        	tóymos           	
-locative    	demonstrative	         	         	        	tóysu            	
-instrumental	demonstrative	         	         	        	tṓys             	
+person       	gender   	plurality	clitic  	nominative  	accusative  	genitive    	ablative    	dative      	locative    	instrumental																												
+3            	masculine	singular 		ís               	ím               	ésyo             	ésmod            	ésmey            	ésmi             																													
+3	feminine	singular		íh₂              	íh₂m             	ésyeh₂s          	ésyeh₂s          	ésyeh₂ey         	                 																													
+3	neuter	singular		íd               	íd               	ésyo             	ésyo             	ésmey            	ésmi             																													
+3	masculine	plural		éyes             	íns              	éysom            	éysom            	eybʰ             	eysu             																													
+3	feminine	plural		íh₂es            	íh₂ms            	éysom            	éysom            	eybʰ             	eysu             																													
+3	neuter	plural		íh₂              	íh₂              	éysom            	éysom            	eybʰ             	eysu             																													
+1            	neuter   	singular 	tonic   	eǵoH             	mé               	méme             	mét              	mébhi            																														
+1            	neuter   	singular 	enclitic	eǵoH             	me               	mos              	mét              	mey              																														
+1            	neuter   	dual     	tonic   	weh₁             	nₒh₁wé           	nō̆h₁            	nō̆h₁            	nō̆h₁            																														
+1            	neuter   	dual     	enclitic	weh₁             	nō̆h₁            	nō̆h₁            	nō̆h₁            	nō̆h₁            																														
+1            	neuter   	plural   	tonic   	wei              	n̥smé            	n̥sóm            	n̥smét           	n̥sméy           																														
+1            	neuter   	plural   	enclitic	wei              	nō̆s             	nō̆s             	n̥smét           	nō̆s             																														
+2            	neuter   	singular 	tonic   	tī̆              	twé              	téwe             	twét             	tébhi            																														
+2            	neuter   	singular 	enclitic	tī̆              	te               	tos              	twét             	tey              																														
+2            	neuter   	dual     	tonic   	yuh₁             	uh₁wé            	wō̆h₁            	wō̆h₁            	wō̆h₁            																														
+2            	neuter   	dual     	enclitic	yuh₁             	wō̆h₁            	wō̆h₁            	wō̆h₁            	wō̆h₁            																														
+2            	neuter   	plural   	tonic   	yūs              	usmé             	usóm             	usmét            	usméy            																														
+2            	neuter   	plural   	enclitic	yūs              	wō̆s             	wō̆s             	usmét            	wō̆s             																														
+reflexive    	neuter				swé ~ se         	séwe ~ sos (adj.)	swét             	sébʰi ~ sey, soy 																														
+interrogative	masculine	singular		kʷís             	kʷím             	kʷésyo           		kʷésmey          	kʷésmi           																													
+interrogative	feminine	singular	        	kʷís             	kʷím             	kʷésyo           		kʷésmey          	kʷésmi           																													
+interrogative	neuter	singular	        	kʷíd             	kʷíd             	kʷésyo           		kʷésmey          	kʷésmi           																													
+interrogative	masculine	plural	        	kʷéyes           	kʷíms            	kʷéysom          		kʷeybʰ           	kʷeysu           																													
+interrogative	feminine	plural	        	kʷéyes           	kʷíms            	kʷéysom          		kʷeybʰ           	kʷeysu           																													
+interrogative	neuter	plural	        	kʷíh₂            	kʷíh₂            	kʷéysom          		kʷeybʰ           	kʷeysu           																													
+demonstrative	masculine	singular	        	só               	tóm              	tósyo            	tósmead          	tósmey           	tósmi            	tónoh₁           																												
+demonstrative	feminine	singular	        	séh₂             	tā́m             	tósyeh₂s         	tósyeh₂s         	tósyeh₂ey        	tósyeh₂          	téh₂(e)h₁        																												
+demonstrative	neuter	singular	        	tód              	tód              	tósyo            	tósmead          	tósmey           	tósmi            	tónoh₁           																												
+demonstrative	masculine	plural	        	tóy              	tóms             	tóysoHom         	tóymos           	tóymos           	tóysu            	tṓys             																												
+demonstrative	feminine	plural	        	téh₂es           	téh₂m̥s          	téh₂soHom        	téh₂mos          	téh₂mos          	téh₂su           	téh₂bʰi          																												
+demonstrative	neuter	plural	        	téh₂             	téh₂             	tóysoHom         	tóymos           	tóymos           	tóysu            	tṓys             																												
+	         	         	        	                 																																		

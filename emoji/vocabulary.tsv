@@ -616,8 +616,6 @@
 🩸	noun	bleeding
 🩸	adjective	bleeding
 🧠	noun	mind
-🧠	noun	psychology
-🧠	adjective	psychological
 🧠	adjective	mental
 🧠	adjective	cerebral
 🫀	adjective	cardiac
@@ -2082,6 +2080,7 @@ F	adverb	false
 😡	verb	angered
 😡	verb	angering
 😡	adjective	angered
+😌	noun	relief
 😌	verb	relax
 😌	verb	relaxed
 😌	verb	relaxing
@@ -2411,11 +2410,6 @@ F	adverb	false
 💭	verb	reckon
 💭	verb	reckoned
 💭	verb	reckoning
-🔥🌍🔥	noun	reckoning
-🔥🌍🔥	noun	apocalypse
-🔥🌍🔥	noun	armageddon
-🔥🌍🔥	noun	eschaton
-🔥🌍🔥	noun	doom
 
 🧑‍🤝‍🧑🧑‍🤝‍🧑	noun	mankind
 🧑‍🤝‍🧑🧑‍🤝‍🧑	noun	humanity
@@ -3398,13 +3392,13 @@ F	adverb	false
 
 ↘🐄 	noun 	hoof
 🐄↙ 	noun 	udder
-🦔	noun	spike
+🦔←	noun	spike
 🦔	adjective	spikey
-🦔	noun	spine
+🦔←	noun	spine
 🦔	adjective	spiney
-🐏	noun	horn
+↗🐏	noun	horn
 🐏	adjective	horned
-🐒	noun	tail
+🐒↖	noun	tail
 
 🐃	noun	beast
 🐘	noun	giant
@@ -4365,6 +4359,42 @@ F	adverb	false
 🌋	verb	erupted
 🌋	verb	erupting
 🌋	noun	eruption
+🌋	verb	occur
+🌋	verb	occurred
+🌋	verb	occurring
+🌋	noun	occurence
+🌋	verb	happen
+🌋	verb	happened
+🌋	verb	happening
+🌋	noun	happening
+🌋	noun	phenomenon
+🌋	noun	incident
+🌋	noun	event
+🌋	noun	disruption
+🌋	noun	disturbance
+🌋	noun	debacle
+🌋	noun	crisis
+🌋	noun	fiasco
+🌋	noun	tribulation
+🌋	noun	ruination
+🌋	noun	upheaval
+🌋	noun	woe
+🌋	noun	misfortune
+🌋	adjective	unfortunate
+🌋	noun	disaster
+🌋	noun	chaos
+🌋	noun	havoc
+🌋	noun	pandemonium
+🌋	noun	catastrophe
+🌋	noun	annihilation
+🌋	noun	calamity
+🌋	noun	cataclysm
+🌋	noun	reckoning
+🌋	noun	apocalypse
+🌋	noun	armageddon
+🌋	noun	eschaton
+🌋	noun	doomsday
+🌋	noun	doom
 ⭐	noun	special
 ⭐	noun	favorite
 ⭐	adjective	special
@@ -5187,7 +5217,6 @@ F	adverb	false
 🧲→	verb	repeled
 🧲→	verb	repeling
 🧲→	noun	repulsion
-🧲	noun	physics
 🧟	adjective	repulsive
 🪜	noun	ladder
 ⚗️	noun	experiment
@@ -5859,6 +5888,11 @@ F	adverb	false
 🎃👻	noun 	halloween
 🌹💝	noun	valentine
 🥚🐇	noun 	easter
+
+🌋	noun	geology
+🧲	noun	physics
+🌌	noun 	astronomy
+🧠	noun	psychology
 
 💎	noun	diamond
 💎	noun	emerald

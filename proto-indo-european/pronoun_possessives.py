@@ -76,7 +76,7 @@ ie_possessives = curried_dict_function(ie_possessives_lookup)
 
 
 
-emoji_style = "font-size:5em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
+emoji_style = "font-size:3em; font-family: 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji', 'sans-serif'"
 plurality_representative = {'singular': 1, 'dual': 2, 'plural': 3}
 combinations = itertools.product(
 	list(dict.fromkeys([case for person, gender1, plurality, gender2, case in ie_possessives_lookup])), #possessed case
