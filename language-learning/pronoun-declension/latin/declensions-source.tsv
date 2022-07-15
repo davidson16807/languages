@@ -1,0 +1,47 @@
+#	plurality	declension	gender	ending	etymology	nominative	genitive  	dative    	accusative	ablative  	vocative  	locative	# note: words with latin etymology come before those with greek etymology 
+man	singular	3	m	consonant	latin	homō       	hominis    	hominī     	hominem    	homine     	homō       	homine     	# since they are more common and easier to learn on average.
+man	plural	3	m	consonant	latin	hominēs      	hominum      	hominibus    	hominēs      	hominibus    	hominēs      	hominibus    	# declensions are ordered by frequency, so the most useful declensions can be prioritized in case the user quits early          
+day        	singular	5         	m|f   	-iēs        	latin    	diēs       	diēī       	diēī       	diem       	diē        	diēs       		
+day        	plural	5         	m|f   	-iēs        	latin    	diēs         	diērum       	diēbus       	diēs         	diēbus       	"diēs         	"		
+hand       	singular	4         	m|f   	-us         	latin    	manus      	manūs      	manuī      	manum      	manū       	manus      		
+hand       	plural	4         	m|f   	-us         	latin    	manūs        	manuum       	manibus      	manūs        	manibus      	"manūs        	"		
+night      	singular	3         	f     	mixed -i    	latin    	nox        	noctis     	noctī      	noctem     	nocte      	nox        	noctī      	
+night      	plural	3         	f     	mixed -i    	latin    	noctēs       	noctium      	noctibus     	noctēs       	noctibus     	noctēs       	noctibus     	
+thing      	singular	5         	f     	-ēs         	latin    	rēs        	reī        	reī        	rem        	rē         	rēs        		
+thing      	plural	5         	f     	-ēs         	latin    	rēs          	rērum        	rēbus        	rēs          	rēbus        	"rēs          	"		
+name       	singular	3         	n     	consonant   	"latin    	"	nōmen      	nōminis    	nōminī     	nōmen      	nōmine     	nōmen      	nōminī     	
+name       	plural	3         	n     	consonant   	"latin    	"	nōmina       	nōminum      	nōminibus    	nōmina       	nōminibus    	nōmina       	nōminibus    	
+son        	singular	2         	m     	-us         	"latin    	"	fīlius     	fīliī      	fīliō      	fīlium     	fīliō      	fīlī       		
+son        	plural	2         	m     	-us         	"latin    	"	fīliī        	fīliōrum     	fīliīs       	fīliōs       	fīliīs       	"fīliī        	"		
+war        	singular	2         	m     	-um         	latin    	bellum     	bellī      	bellō      	bellum     	bellō      	bellum     	bellī      	
+war        	plural	2         	m     	-um         	latin    	bella        	bellōrum     	bellīs       	bella        	bellīs       	bella        	bellīs       	
+air        	singular	3         	m     	-i          	greek    	āēr        	āeris      	āerī       	āera       	āere       	āēr        	āerī       	
+air        	plural	3         	m     	-i          	greek    	āerēs        	āerum        	āeribus      	āerēs        	āeribus      	āerēs        	āēr        	
+boy        	singular	2         	m     	-er         	latin    	puer       	puerī      	puerō      	puerum     	puerō      	puer       		
+boy        	plural	2         	m     	-er         	latin    	puerī	puerōrum	puerīs	puerōs	puerīs	"puerī	"		
+animal     	singular	3         	n     	pure -i     	latin    	animal     	animālis   	animālī    	animal     	animālī    	animal     	animālī    	
+animal     	plural	3         	n     	pure -i     	latin    	animālia     	animālium    	animālibus   	animālia     	animālibus   	animālia     	animālibus   	
+star       	singular	1         	f     	-a          	latin    	stēlla     	stēllae    	stēllae    	stēllam    	stēllā     	stēlla     		
+star       	plural	1         	f     	-a          	latin    	stēllae      	stēllārum    	stēllīs      	stēllās      	stēllīs      	"stēllae      	"		
+tower      	singular	3         	f     	-i          	latin    	turris     	turris     	turrī      	turrem     	turre      	turris     	turrī      	
+tower      	plural	3         	f     	-i          	latin    	turrēs       	turrium      	turribus     	turrēs (-īs) 	turribus     	turrēs       	turribus     	
+horn       	singular	4         	n     	-ū          	latin    	cornū      	cornūs     	cornū      	cornū      	cornū      	cornū      		
+horn       	plural	4         	n     	-ū          	latin    	cornua       	cornuum      	cornibus     	cornua       	cornibus     	"cornua       	"		
+sailor     	singular	1         	m     	-a          	latin    	nauta      	nautae     	nautae     	nautam     	nautā      	nauta      		
+sailor     	plural	1         	m     	-a          	latin    	nautae       	nautārum     	nautīs       	nautās       	nautīs       	"nautae       	"		
+foundation 	singular	3         	f     	alternate -i	greek    	basis      	basis      	basī       	basim      	basī       	basis      		
+foundation 	plural	3         	f     	alternate -i	greek    	basēs        	basium       	basibus      	basēs        	basibus      	"basēs        	"		
+echo       	singular	4         	n     	-ū          	greek    	ēchō       	ēchūs      	ēchō       	ēchō       	ēchō       	ēchō       		
+echo       	plural	4         	n     	-ū          	greek    	ēchūs	ēchuum	ēchibus	ēchūs	ēchibus	"ēchūs	"		
+phenomenon 	singular	2         	n     	-on         	greek    	phaenomenon	phaenomenī 	phaenomenō 	phaenomenon	phaenomenō 	phaenomenon		
+phenomenon 	plural	2         	n     	-on         	greek    	phaenomena   	phaenomenōrum	phaenomenīs  	phaenomena   	phaenomenīs  	phaenomena  		
+vine       	singular	2         	f     	-os         	greek    	ampelos    	ampelī     	ampelō     	ampelon    	ampelō     	ampele     		
+vine       	plural	2         	f     	-os         	greek    	ampelī       	ampelōrum    	ampelīs      	ampelōs      	ampelīs      	"ampelī       	"		
+myth       	singular	2         	m     	-os         	greek    	mȳthos     	mȳthī      	mȳthō      	mȳthon     	mȳthō      	mȳthe      		
+myth       	plural	2         	m     	-os         	greek    	mȳthī        	mȳthōrum     	mȳthīs       	mȳthōs       	mȳthīs       	"mȳthī        	"		
+atom       	singular	2         	f     	-us         	greek    	atomus     	atomī      	atomō      	atomum     	atomō      	atome      		
+atom       	plural	2         	f     	-us         	greek    	atomī        	atomōrum     	atomīs       	atomōs       	atomīs       	"atomī        	"		
+nymph      	singular	1         	f     	-ē          	greek    	nymphē     	nymphēs    	nymphae    	nymphēn    	nymphē     	nymphē     		
+nymph      	plural	1         	f     	-ē          	greek    	nymphae      	nymphārum    	nymphīs      	nymphās      	nymphīs      	"nymphae      	"		
+comet      	singular	1         	m     	-ēs         	greek    	comētēs    	comētae    	comētae    	comētēn    	comētās    	comētē     		
+comet      	plural	1         	m     	-ēs         	greek    	comētae      	comētārum    	comētīs      	comētās	comētīs      	"comētae      	"		

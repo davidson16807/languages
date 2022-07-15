@@ -1,0 +1,210 @@
+#swadesh 207 id	part-of-speech	English	Proto-Hellenic	Ancient Greek	Modern Greek	Modern Greek IPA
+1	noun                 	I	*egṓ	ἐγώ (egṓ)	εγώ (egó) 	eˈɣo
+2	noun                 	you	*tú	σύ (sú)	εσύ (esý), εσείς (eseís) (formal) 	eˈsi, eˈsis
+3	noun                 	he, she, it	*ho	αὐτός (autós), οὗ (hoû), ὅς (hós), ὁ (ho), οὗτος (hoûtos)	αυτός (aftós) 	afˈtos
+4	noun                 	we	*əsmey	ἡμεῖς (hēmeîs)	εμείς (emeís) 	eˈmis
+5	noun                 	you all	*usmey	ὑμεῖς (humeîs)	εσείς (eseís) 	eˈsis
+6	noun                 	they		αὐτοί (autoí), σφεῖς (spheîs)	αυτοί (aftoí) 	afˈti
+7	noun                 	this	*yós	ὅδε (hóde)	αυτός (aftós) 	afˈto
+8	noun                 	that	*ho	ἐκεῖνος (ekeînos)	εκείνος (ekeínos) 	eˈcino
+9	noun                 	here	*hode	ἔνθα (éntha), ἐνθάδε (entháde), ἐνταῦθα (entaûtha)	εδώ (edó) 	eˈðo
+10	noun                 	there	*ím	ἐκεῖ (ekeî)	εκεί (ekeí) 	eˈci
+11	noun                 	who	*kʷís	τίς (tís)	ποιος (poios) 	pços
+12	noun                 	what	*kʷíd	τί (tí)	τι (ti) 	ti
+13	noun                 	where	*kʷos	ποῦ (poû), πόθι (póthi)	πού (poú) 	pu
+14	noun                 	when	*kʷokʷe	πότε (póte), πῆμος (pêmos)	πότε (póte) 	ˈpote
+15	noun                 	how	*kʷeyes	πῶς (pôs)	πώς (pós) 	pos
+16	adverb              	not	*mḗ	οὐ (ou), μή (mḗ)	δε(ν) (de(n)), μη(ν) (mi(n)) 	ðe(n), mi(n)
+17	determiner            	all	*pānts	πᾶς (pâs), ἅπᾱς (hápās)	όλοι (óloi) 	ˈoli
+18	determiner            	many	*polús	πολύς (polús)	πολλοί (polloí) 	poˈli
+19	determiner            	some	*merikós	τις (tis)	μερικοί (merikoí) 	meriˈci
+20	determiner            	few	*olígos	ὀλίγος (olígos), βαιός (baiós), παῦρος (paûros)	λίγοι (lígoi) 	ˈliʝi
+21	determiner            	other	*áľľos	ἄλλος (állos), ἕτερος (héteros)	άλλοι (álloi) 	ˈali
+22	noun                 	one	*hens	εἷς (heîs)	ένα (éna) 	ˈena
+23	noun                 	two	*dúwō	δύο (dúo)	δύο (dýo) 	ˈðio
+24	noun                 	three	*tréyes	τρεῖς (treîs)	τρία (tría) 	ˈtria
+25	noun                 	four	*kʷétwores	τέσσαρες (téssares)	τέσσερα (téssera) 	ˈtesera
+26	noun                 	five	*pénkʷe	πέντε (pénte)	πέντε (pénte) 	ˈpende
+27	adjective	big	*mégas	μέγας (mégas)	μεγάλος (megálos) 	meˈɣalos
+28	adjective	long	*dolikʰós, *makrós	μακρός (makrós)	μακρύς (makrýs) 	maˈkris
+29	adjective	wide	*plətús, *eurús	εὐρύς (eurús)	πλατύς (platýs), φαρδύς (fardýs) 	plaˈtis, farˈðis
+30	adjective	thick	*puknos, *pəkʰús	πυκνός (puknós)	παχύς (pachýs), χοντρός (chontrós) 	paˈçis, xonˈdros
+31	adjective	heavy	*gʷarus	βαρύς (barús)	βαρύς (varýs) 	vaˈris
+32	adjective	small	*mīkrós	μῑκρός (mīkrós)	μικρός (mikrós) 	miˈkros
+33	adjective	short	*brəkʰús	βραχύς (brakhús)	κοντός (kontós) 	koˈndos
+34	adjective	narrow	*ankʰús	στενός (stenós)	στενός (stenós) 	steˈnos
+35	adjective	thin	*leptós	μανός (manós)	λεπτός (leptós) 	leˈptos
+36	noun	woman	*gunā́	γυνή (gunḗ)	γυναίκα (gynaíka) 	ʝiˈneka
+37	noun	man	*anḗr	ἀνήρ (anḗr)	άνδρας (ándras) 	ˈandras
+38	noun	human	*ántʰrōkʷos	ἄνθρωπος (ánthrōpos)	άνθρωπος (ánthropos) 	ˈan̪θropos
+39	noun	child	*pā́wits	τέκνον (téknon), παῖς (paîs), παιδίον (paidíon)	παιδί (paidí) 	peˈði
+40	noun	wife	*pótnia	γυνή (gunḗ)	σύζυγος (sýzygos), γυναίκα (gynaíka) 	ˈsiziɣos, ʝiˈneka
+41	noun	husband	*pótis	ἀνήρ (anḗr)	σύζυγος (sýzygos), άντρας (ántras) 	ˈsiziɣos, ˈandras
+42	noun	mother	*mā́tēr	μήτηρ (mḗtēr)	μητέρα (mitéra), μάνα (mána) 	miˈtera, ˈmana
+43	noun	father	*patḗr	πατήρ (patḗr)	πατέρας (patéras) 	paˈteras
+44	noun	animal	*ďṓyyon	ζῷον (zôion)	ζώο (zóo) 	ˈzoo
+45	noun	fish	*itʰkʰús	ἰχθύς (ikhthús)	ψάρι (psári) 	ˈpsari
+46	noun	bird	*órnīks	ὄρνις (órnis), πετεινόν (peteinón)	πουλί (poulí) 	puˈli
+47	noun	dog	*kúōn	κύων (kúōn)	σκύλος (skýlos) 	ˈscilos
+48	noun	louse	*kʷʰtʰéřřos	φθείρ (phtheír)	ψείρα (pseíra) 	ˈpsira
+49	noun	snake	*ókʷʰis	ὄφις (óphis)	φίδι (fídi) 	ˈfiði
+50	noun	worm	*skṓlāks	ἑρπετόν (herpetón), σκώληξ (skṓlēx), ἕλμινς (hélmins)	σκουλήκι (skoulíki) 	skuˈlici
+51	noun	tree	*dóru 	δένδρον (déndron)	δέντρο (déntro) 	ˈðendro
+52	noun	forest		ὕλη (húlē)	δάσος (dásos) 	ˈðasos
+53	noun	stick	*klṓn	βακτηρία (baktēría), ῥάβδος (rhábdos)	ραβδί (ravdí), βέργα (vérga) 	raˈvði, ˈverɣa
+54	noun	fruit	*karpós	καρπός (karpós)	φρούτο (froúto) 	ˈfruto
+55	noun	seed	*spóros	σπέρμα (spérma)	σπόρος (spóros) 	ˈsporos
+56	noun	leaf	*pʰóľľon	φύλλον (phúllon)	φύλλο (fýllo) 	ˈfilo
+57	noun	root	*wrédia 	ῥίζα (rhíza)	ρίζα (ríza) 	ˈriza
+58	noun	bark		φλοιός (phloiós)	φλοιός (floiós) 	fliˈos
+59	noun	flower	*ántʰos	ἄνθος (ánthos)	λουλούδι (louloúdi) 	luˈluði
+60	noun	grass	*póiwā	πόα (póa), χλόη (khlóē)	χορτάρι (chortári) 	xorˈtari
+61	noun	rope	*tónos 	δεσμός (desmós), σχοινίον (skhoiníon)	σχοινί (schoiní) 	sçiˈni
+62	noun	skin		δέρμα (dérma)	δέρμα (dérma) 	ˈðerma
+63	noun	meat	*kréwas	κρέας (kréas)	κρέας (kréas) 	ˈkreas
+64	noun	blood	*éhər 	αἷμα (haîma)	αίμα (aíma) 	ˈema
+65	noun	bone		ὀστοῦν (ostoûn)	κόκαλο (kókalo) 	ˈkokalo
+66	noun	fat	*lípos	δημός (dēmós)	λίπος (lípos) 	ˈlipos
+67	noun	egg	*ōyyón	ᾠόν (ōión)	αυγό (avgó) 	avˈɣo
+68	noun	horn	*kéras 	κέρας (kéras)	κέρατο (kérato) 	ˈcerato
+69	noun	tail		οὐρά (ourá), κέρκος (kérkos)	ουρά (ourá) 	uˈra
+70	noun	feather	*ptílon 	πτερόν (pterón)	πούπουλο (poúpoulo), φτερό (fteró) 	ˈpupulo, fteˈro
+71	noun	hair		θρίξ (thríx), κόμη (kómē)	τρίχα (trícha) (single), μαλλιά (malliá) (collective) 	ˈtrixa, maˈʎa
+72	noun	head		κεφαλή (kephalḗ)	κεφάλι (kefáli) 	ceˈfali
+73	noun	ear	*ṓws	οὖς (oûs)	αυτί (aftí) 	afˈti
+74	noun	eye	*ókʷs 	ὀφθαλμός (ophthalmós)	μάτι (máti) 	ˈmati
+75	noun	nose		ῥίς (rhís)	μύτη (mýti) 	ˈmiti
+76	noun	mouth	*stómə	στόμα (stóma)	στόμα (stóma) 	ˈstoma
+77	noun	tooth	*odónts 	ὀδούς (odoús)	δόντι (dónti) 	ˈðondi
+78	noun	tongue		γλῶσσα (glôssa)	γλώσσα (glóssa) 	ˈɣlosa
+79	noun	fingernail		ὄνυξ (ónux)	νύχι (nýchi) 	ˈniçi
+80	noun	foot	*pṓts	πούς (poús)	πόδι (pódi) 	ˈpoði
+81	noun	leg	*skélos	κῶλον (kôlon), σκέλος (skélos)	πόδι (pódi) 	ˈpoði
+82	noun	knee	*gónu	γόνυ (gónu)	γόνατο (gónato) 	ˈɣonato
+83	noun	hand	*kʰéhr 	χείρ (kheír)	χέρι (chéri) 	ˈçeri
+84	noun	wing		πτέρυξ (ptérux)	φτερό (fteró) 	fteˈro
+85	noun	belly		γαστήρ (gastḗr), κοιλία (koilía)	κοιλιά (koiliá) 	ciˈʎa
+86	noun	guts	*énteron 	ἔντερα (éntera), σπλάγχνα (splánkhna)	σπλάχνα (spláchna), εντόσθια (entósthia) 	ˈsplaxna, eˈndosθia
+87	noun	neck		αὐχήν (aukhḗn), τράχηλος (trákhēlos)	λαιμός (laimós) 	leˈmos
+88	noun	back		νῶτον (nôton)	πλάτη (pláti) 	ˈplati
+89	noun	breast		μαστός (mastós), στῆθος (stêthos, “chest”)	στήθος (stíthos) 	ˈstiθos
+90	noun	heart	*kərdíyā	καρδία (kardía)	καρδιά (kardiá) 	karˈðʝa
+91	noun	liver	*yékʷər 	ἧπαρ (hêpar)	συκώτι (sykóti) 	siˈkoti
+92	verb	drink		πίνω (pínō)	πίνω (píno) 	ˈpino
+93	verb	eat	*édō 	ἐσθίω (esthíō), ἔφαγον (éphagon)	τρώ(γ)ω 	ˈtro(ɣ)o
+94	verb	bite		δάκνω (dáknō)	δαγκώνω (dagkóno) 	ðaˈŋɡono
+95	verb	suck		σπάω (spáō)	ρουφώ (roufó) 	ruˈfo
+96	verb	spit		πτύω (ptúō)	φτύνω (ftýno) 	ˈftino
+97	verb	vomit		ἐμέω (eméō)	ξερνώ (xernó) 	kserˈno
+98	verb	blow		φυσάω (phusáō)	φυσάω (fysáo) 	fiˈsao
+99	verb	breathe	*pnéwō 	πνέω (pnéō)	αναπνέω (anapnéo), ανασαίνω (anasaíno) 	anaˈpneo, anaˈseno
+100	verb	laugh		γελάω (geláō)	γελάω (geláo) 	ʝeˈlao
+101	verb	see	*wéydō, *gʷlépō	βλέπω (blépō), ὁράω (horáō), εἶδον (eîdon)	βλέπω (vlépo) 	ˈvlepo
+102	verb	hear	*akouhō, *awiyō	ἀκούω (akoúō), ἀΐω (aḯō)	ακούω (akoúo) 	aˈkuo
+103	verb	know	*wóyda, *gignṓskō 	οἶδα (oîda), γιγνώσκω (gignṓskō)	ξέρω (xéro), γνωρίζω (gnorízo) 	ˈksero, ɣnoˈrizo
+104	verb	think		νομίζω (nomízō), δοκέω (dokéō), νοέω (noéō), οἴομαι (oíomai)	σκέφτομαι (skéftomai), νομίζω (nomízo) 	ˈsceftome, noˈmizo
+105	verb	smell	*óďďō	ὀσφραίνομαι (osphraínomai)	μυρίζω (myrízo) 	miˈrizo
+106	verb	fear	*dédwoya	φοβέομαι (phobéomai)	φοβάμαι (fovámai) 	foˈvame
+107	verb	sleep	*séudō, *iauhō	καθεύδω (katheúdō), εὕδω (heúdō), εὐνάζομαι (eunázomai), κοιμάομαι (koimáomai), ἰαύω (iaúō)	κοιμάμαι (koimámai) 	ciˈmame
+108	verb	live	*ďṓwō 	ζάω (záō), βιόω (bióō), οἰκέω (oikéō)	ζω (zo) 	zo
+109	verb	die		ἀποθνῄσκω (apothnḗiskō), θνῄσκω (thnḗiskō), τελευτάω (teleutáō), ὄλομαι (ólomai)	πεθαίνω (pethaíno) 	peˈθeno
+110	verb	kill	*kʷʰékʷʰnon, *kʷʰéňňō 	ἀποκτείνω (apokteínō), ἔπεφνον (épephnon)	σκοτώνω (skotóno) 	skoˈtono
+111	verb	fight		μάχομαι (mákhomai)	μαλώνω (malóno) 	maˈlono
+112	verb	hunt		θηρεύω (thēreúō), θηράω (thēráō), ἰχνεύω (ikhneúō), κυνηγετέω (kunēgetéō), κυνηγέω (kunēgéō), σεύω (seúō)	κυνηγώ (kynigó) 	ciniˈɣo
+113	verb	hit	*túpťō	τύπτω (túptō)	χτυπώ (chtypó) 	xtiˈpo
+114	verb	cut	*támnō	τέμνω (témnō)	κόβω (kóvo) 	ˈkovo
+115	verb	split	*skʰíďďō 	σχίζω (skhízō)	χωρίζω (chorízo) 	xoˈrizo
+116	verb	stab		κεντέω (kentéō)	μαχαιρώνω (machairóno) 	maçeˈrono
+117	verb	scratch		κνάω (knáō)	ξύνω (xýno) 	ˈksino
+118	verb	dig	*orúťťō 	ὀρύσσω (orússō), σκᾰ́πτω (skáptō)	σκάβω (skávo) 	ˈskavo
+119	verb	swim		νέω (néō), κολυμβάω (kolumbáō)	κολυμπώ (kolympó) 	kolimˈbo
+120	verb	fly	*pétamai	πέτομαι (pétomai)	πετάω (petáo) 	peˈtao
+121	verb	walk	*gʷəňňō	περιπατέω (peripatéō), πατέω (patéō), στείχω (steíkhō), βαίνω (baínō), βαδίζω (badízō), πεζεύω (pezeúō), πορεύω (poreúō)	περπατώ (perpató) 	perpaˈto
+122	verb	come	*gʷəskō	ἱκνέομαι (hiknéomai), ἵκω (híkō), ἔρχομαι (érkhomai), εἶμι (eîmi)	έρχομαι (érchomai) 	ˈerxome
+123	verb	lay	*kéimai	κεῖμαι (keîmai)	ξαπλώνω (xaplóno), πλαγιάζω (plagiázo) 	ksaˈplono, plaˈʝazo
+124	verb	sit	*hízdō, *heďďomai	καθίζω (kathízō)	κάθομαι (káthomai) 	ˈkaθome
+125	verb	stand	*hístāmi 	ἵστημι (hístēmi)	στέκομαι (stékomai) 	ˈstekome
+126	verb	turn		τρέπω (trépō)	γυρίζω (gyrízo) 	ʝiˈrizo
+127	verb	fall	*píptō	πίπτω (píptō)	πέφτω (péfto) 	ˈpefto
+128	verb	give	*dídōmi	παρέχω (parékhō), δίδωμι (dídōmi)	δίνω (díno) 	ˈðino
+129	verb	hold	*hékʰō 	ἔχω (ékhō)	κρατάω (kratáo) 	kraˈtao
+130	verb	squeeze		πιέζω (piézō)	ζουλάω (zouláo) 	zuˈlao
+131	verb	rub		τρίβω (tríbō)	τρίβω (trívo) 	ˈtrivo
+132	verb	wash	*niďďō, *pluňňō 	λούω (loúō), πλύνω (plúnō), νίπτω (níptō)	πλένω (pléno) 	ˈpleno
+133	verb	wipe		ἀπομάσσω (apomássō)	σκουπίζω (skoupízo) 	skuˈpizo
+134	verb	pull		ἕλκω (hélkō)	τραβώ (travó) 	traˈvo
+135	verb	push		ὠθέω (ōthéō)	σπρώχνω (spróchno) 	ˈzbroxno
+136	verb	throw		ῥίπτω (rhíptō), βάλλω (bállō)	ρίχνω (ríchno), πετώ (petó) 	ˈrixno
+137	verb	tie	*déyō 	δέω (déō)	δένω (déno) 	ˈðeno
+138	verb	sew		ῥάπτω (rháptō)	ράβω (rávo) 	ˈravo
+139	verb	count		ἀριθμέω (arithméō)	μετράω (metráo) 	meˈtrao
+140	verb	say	*enhékʷō, *pʰā́mi	φημί (phēmí), λέγω (légō), ἐνέπω (enépō)	λέω (léo) 	ˈleo
+141	verb	sing	*awéidō 	ἀείδω (aeídō)	τραγουδώ (tragoudó) 	traɣuˈðo
+142	verb	play		παίζω (paízō)	παίζω (paízo) 	ˈpezo
+143	verb	float	*pléwō	νέω (néō)	πλέω (pléo), επιπλέω (epipléo) 	ˈpleo, epiˈpleo
+144	verb	flow	*hréyyō 	ῥέω (rhéō)	τρέχω (trécho) 	ˈtrexo
+145	verb	freeze		πήγνυμαι (pḗgnumai)	παγώνω (pagóno) 	paˈɣono
+146	verb	swell	*áuksō	αὐξάνω (auxánō)	φουσκώνω (fouskóno), πρήζομαι (prízomai) 	fuˈskono, ˈprizome
+147	noun	sun	*hāwélios	ἥλιος (hḗlios)	ήλιος (ílios) 	ˈiʎos
+148	noun	moon	*méns?	σελήνη (selḗnē)	φεγγάρι (fengári), Σελήνη (Selíni) 	feˈŋɡari, seˈlini
+149	noun	star	*astḗr	ἀστήρ (astḗr)	αστέρι (astéri), άστρο (ástro) 	aˈsteri
+150	noun	water	*údōr 	ὕδωρ (húdōr)	νερό (neró) 	neˈro
+151	noun	rain		ὑετός (huetós), βροχή (brokhḗ)	βροχή (vrochí) 	vroˈçi
+152	noun	river		ποταμός (potamós)	ποτάμι (potámi) 	poˈtami
+153	noun	lake		λίμνη (límnē)	λίμνη (límni) 	ˈlimni
+154	noun	sea	*póntos	θάλασσα (thálassa), πέλαγος (pélagos), πόντος (póntos)	θάλασσα (thálassa) 	ˈθalasa
+155	noun	salt	*hā́ls 	ἅλς (háls)	αλάτι (aláti) 	aˈlati
+156	noun	stone		λίθος (líthos)	πέτρα (pétra) 	ˈpetra
+157	noun	sand		ἄμμος (ámmos)	άμμος (ámmos) 	ˈamos
+158	noun	dust		κόνις (kónis)	σκόνη (skóni) 	ˈskoni
+159	noun	earth	*kʰtʰṓn	γῆ (gê), χθών (khthṓn)	γη (gi) 	ʝi
+160	noun	cloud	*népʰos	νέφος (néphos)	σύννεφο (sýnnefo) 	ˈsinefo
+161	noun	fog	*omíkʰlā 	ὀμίχλη (omíkhlē)	ομίχλη (omíchli) 	oˈmixli
+162	noun	sky		οὐρανός (ouranós)	ουρανός (ouranós) 	uraˈnos
+163	noun	wind	*ánemos	ἄνεμος (ánemos)	αέρας (aéras) 	aˈeras
+164	noun	snow	*kʰiyōn? 	χιών (khiṓn)	χιόνι (chióni) 	ˈçoni
+165	noun	ice		κρύσταλλος (krústallos)	πάγος (págos) 	ˈpaɣos
+166	noun	smoke	*kapnós?	καπνός (kapnós)	καπνός (kapnós) 	kaˈpnos
+167	noun	fire	*pū́r, *áitʰos 	πῦρ (pûr)	φωτιά (fotiá) 	foˈtça
+168	noun	ash		τέφρα (téphra)	στάχτη (stáchti) 	ˈstaxti
+169	verb	to burn		καίω (kaíō)	καίω (kaío) 	ˈceo
+170	noun	road		ὁδός (hodós)	δρόμος (drómos) 	ˈðromos
+171	noun	mountain	*óros	ἄκρα (ákra), ὄρος (óros), βουνός (bounós, “hill”)	βουνό (vounó) 	vuˈno
+172	adjective	red	*erutʰrós	ἐρυθρός (eruthrós), πυρρός (purrhós)	κόκκινος (kókkinos) 	ˈkocinos
+173	adjective	green	*kʰlōrós 	χλωρός (khlōrós)	πράσινος (prásinos) 	ˈprasinos
+174	adjective	yellow		ξανθός (xanthós)	κίτρινος (kítrinos) 	ˈcitrinos
+175	adjective	white	*leukós 	λευκός (leukós)	άσπρος (áspros) 	ˈaspros
+176	adjective	black		μέλας (mélas)	μαύρος (mávros) 	ˈmavros
+177	noun	night	*nókʷts	νύξ (núx)	νύχτα (nýchta) 	ˈnixta
+178	noun	day	*ā́mər	ἡμέρα (hēméra), ἦμαρ (êmar)	μέρα (méra) 	ˈmera
+179	noun	year	*wétos	ἔτος (étos)	χρόνος (chrónos) 	xroˈnos
+180	adjective	warm	*kʷʰermós 	θερμός (thermós)	ζεστός (zestós) 	zeˈstos
+181	adjective	cold		ψυχρός (psukhrós)	κρύος (krýos) 	ˈkrios
+182	adjective	full		μεστός (mestós), πλήρης (plḗrēs)	γεμάτος (gemátos) 	ʝeˈmatos
+183	adjective	new	*néwos, *kəňňós	νέος (néos)	καινούργιος (kainoúrgios) 	ceˈnurʝos
+184	adjective	old	*palaiós, *hénos?	παλαιός (palaiós)	παλιός (paliós) 	paˈʎos
+185	adjective	good	*ewéhus, *ehu- 	ἀγαθός (agathós)	καλός (kalós) 	kaˈlos
+186	adjective	bad		κακός (kakós)	κακός (kakós) 	kaˈkos
+187	adjective	rotten		σαπρός (saprós)	σάπιος (sápios) 	ˈsapços
+188	adjective	dirty		θολερός (tholerós)	βρόμικος (vrómikos) 	ˈvromikos
+189	adjective	straight	*ortʰwós 	εὐθύς (euthús), ὀρθός (orthós)	ίσιος (ísios) 	ˈisços
+190	adjective	round		κυκλοτερής (kukloterḗs)	στρογγυλός (strongylós) 	stroɲɟiˈlos
+191	adjective	sharp (as a knife)	*akros 	τομός (tomós), ὀξύς (oxús)	κοφτερός (kofterós) 	kofteˈros
+192	adjective	dull (as a knife)		ἀμβλύς (amblús), βαρύς (barús)	στομωμένος (stomoménos) 	stomoˈmenos
+193	adjective	smooth	*léiwos	λεῖος (leîos)	λείος (leíos) 	ˈlios
+194	adjective	wet	*ugrós	ὑγρός (hugrós)	βρεγμένος (vregménos), υγρός (ygrós) 	vreɣˈmenos, iˈɣros
+195	adjective	dry	*ksērós? 	ξηρός (xērós)	στεγνός (stegnós), ξερός (xerós) 	steˈɣnos, kseˈros
+196	adjective	correct		δίκαιος (díkaios)	σωστός (sostós) 	soˈstos
+197	adjective	near		ἐγγύς (engús)	κοντά (kontá) 	koˈnda
+198	adjective	far	*makrós	μακράν (makrán)	μακριά (makriá) 	makriˈa
+199	adjective	right	*deksiwós	δεξιός (dexiós)	δεξιά (dexiá) 	ðeksiˈa
+200	adjective	left	*laiwós, *skaiwós	ἀριστερός (aristerós), εὐώνυμος (euṓnumos)	αριστερά (aristerá) 	aristeˈra
+201	preposition	at	*epí, *opí	ἐν (en)	σε (se) 	se
+202	preposition	in	*en, *ení	ἐν (en)	μέσα (mésa) 	ˈmesa se
+203	preposition	with	*ksun, *meta	μετά (metá, with genitive), σύν (sún)	με (me) 	me
+204	preposition	and	*kʷe, *de 	καί (kaí), τε (te)	και (kai) 	ce
+205	preposition	if		εἰ (ei)	εάν (eán), αν (an) 	eˈan, an
+206	preposition	because		ὅτι (hóti)	επειδή (epeidí), γιατί (giatí) 	epiˈði, ʝaˈti
+207	noun	name	*ónomə 	ὄνομα (ónoma) 	όνομα (ónoma) 	ˈonoma 
+						
+						

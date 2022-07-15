@@ -1,0 +1,44 @@
+#	        	       	          	                  	               	indicative 	indicative	indicative   	indicative	subjunctive 	subjunctive 	conditional 	imperative 	         
+#person	plurality	verb	infinitive	present-participle	past-participle	present    	perfect   	imperfect    	future    	present     	imperfect   	present     	present    	group    
+1	singular	have   	avoir     	ayant             	eu             	ai         	eus       	avais        	aurai     	aie         	eusse       	aurais      	           	unique   
+2	singular	have   	avoir     	ayant             	eu             	as         	eus       	avais        	auras     	aies        	eusses      	aurais      	aie        	unique   
+3	singular	have   	avoir     	ayant             	eu             	a          	eut       	avait        	aura      	ait         	eût         	aurait      	           	unique   
+1	plural  	have   	avoir     	ayant             	eu             	avons      	eûmes     	avions       	aurons    	ayons       	eussions    	aurions     	ayons      	unique   
+2	plural  	have   	avoir     	ayant             	eu             	avez       	eûtes     	aviez        	aurez     	ayez        	eussiez     	auriez      	ayez       	unique   
+3	plural  	have   	avoir     	ayant             	eu             	ont        	eurent    	avaient      	auront    	aient       	eussent     	auraient    	           	unique   
+1	singular	be     	être      	étant             	été            	suis       	fus       	étais        	serai     	sois        	fusse       	serais      	           	unique   
+2	singular	be     	être      	étant             	été            	es         	fus       	étais        	seras     	sois        	fusses      	serais      	sois       	unique   
+3	singular	be     	être      	étant             	été            	est        	fut       	était        	sera      	soit        	fût         	serait      	           	unique   
+1	plural  	be     	être      	étant             	été            	sommes     	fûmes     	étions       	serons    	soyons      	fuissions   	serions     	soyons     	unique   
+2	plural  	be     	être      	étant             	été            	êtes       	fûtes     	étiez        	serez     	soyez       	fuissiez    	seriez      	soyez      	unique   
+3	plural  	be     	être      	étant             	été            	sont       	furent    	étaient      	seront    	soient      	fussent     	seraient    	           	unique   
+1	singular	go     	aller     	allant            	allé           	vais       	allai     	allais       	irai      	aille       	allasse     	irais       	           	unique   
+2	singular	go     	aller     	allant            	allé           	vas        	allas     	allais       	iras      	ailles      	allasses    	irais       	va         	unique   
+3	singular	go     	aller     	allant            	allé           	va         	alla      	allait       	ira       	aille       	allât       	irait       	           	unique   
+1	plural  	go     	aller     	allant            	allé           	allons     	allâmes   	allions      	irons     	allions     	allassions  	irions      	allons     	unique   
+2	plural  	go     	aller     	allant            	allé           	allez      	allâtes   	alliez       	irez      	alliez      	allassiez   	iriez       	allez      	unique   
+3	plural  	go     	aller     	allant            	allé           	vont       	allèrent  	allaient     	iront     	aillent     	allassent   	iraient     	           	unique   
+1	singular	speak  	parler    	parlant           	parlé          	parle      	parlai    	parlais      	parlerai  	parle       	parlasse    	parlerais   	           	1        
+2	singular	speak  	parler    	parlant           	parlé          	parles     	parlas    	parlais      	parleras  	parles      	parlasses   	parlerais   	parle      	1        
+3	singular	speak  	parler    	parlant           	parlé          	parle      	parla     	parlait      	parlera   	parle       	parlât      	parlerait   	           	1        
+1	plural  	speak  	parler    	parlant           	parlé          	parlons    	parlâmes  	parlions     	parlerons 	parlions    	parlassions 	parlerions  	parlons    	1        
+2	plural  	speak  	parler    	parlant           	parlé          	parlez     	parlâtes  	parliez      	parlerez  	parliez     	parlassiez  	parleriez   	parlez     	1        
+3	plural  	speak  	parler    	parlant           	parlé          	parlent    	parlèrent 	parlaient    	parleront 	parlent     	parlassent  	parleraient 	           	1        
+1	singular	choose 	choisir   	choisissant       	choisi         	choisis    	choisis   	choisissais  	choisirai 	choisisse   	choisisse   	choisirais  	           	2        
+2	singular	choose 	choisir   	choisissant       	choisi         	choisis    	choisis   	choisissais  	choisiras 	choisisses  	choisisses  	choisirais  	choisis    	2        
+3	singular	choose 	choisir   	choisissant       	choisi         	choisit    	choisit   	choisissait  	choisira  	choisisse   	choisît     	choisirait  	           	2        
+1	plural  	choose 	choisir   	choisissant       	choisi         	choisissons	choisîmes 	choisissions 	choisirons	choisissions	choisissions	choisirions 	choisissons	2        
+2	plural  	choose 	choisir   	choisissant       	choisi         	choisissez 	choisîtes 	choisissiez  	choisirez 	choisissiez 	choisissiez 	choisiriez  	choisissez 	2        
+3	plural  	choose 	choisir   	choisissant       	choisi         	choisissent	choisirent	choisissaient	choisiront	choisissent 	choisissent 	choisiraient	           	2        
+1	singular	lose   	perdre    	perdant           	perdu          	perds      	perdis    	perdais      	perdrai   	perde       	perdisse    	perdrais    	           	3        
+2	singular	lose   	perdre    	perdant           	perdu          	perds      	perdis    	perdais      	perdras   	perdes      	perdisses   	perdrais    	perds      	3        
+3	singular	lose   	perdre    	perdant           	perdu          	perd       	perdit    	perdait      	perdra    	perde       	perdît      	perdrait    	           	3        
+1	plural  	lose   	perdre    	perdant           	perdu          	perdons    	perdîmes  	perdions     	perdrons  	perions     	perdissions 	perdrions   	perdons    	3        
+2	plural  	lose   	perdre    	perdant           	perdu          	perdez     	perdîtes  	perdiez      	perdrez   	perdiez     	perdissiez  	perdriez    	perdez     	3        
+3	plural  	lose   	perdre    	perdant           	perdu          	perdent    	perdirent 	perdaient    	perdront  	perdent     	perdissent  	perdraient  	           	3        
+1	singular	receive	recevoir  	recevant          	reçu           	reçois     	reçus     	recevais     	recevrai  	reçoive     	reçusse     	recevrais   	           	irregular
+2	singular	receive	recevoir  	recevant          	reçu           	reçois     	reçus     	recevais     	recevras  	reçoives    	reçusses    	recevrais   	reçois     	irregular
+3	singular	receive	recevoir  	recevant          	reçu           	reçoit     	reçut     	recevait     	recevra   	reçoive     	reçût       	recevrait   	           	irregular
+1	plural  	receive	recevoir  	recevant          	reçu           	recevons   	reçûmes   	recevions    	recevrons 	recevions   	reçussions  	recevrions  	recevons   	irregular
+2	plural  	receive	recevoir  	recevant          	reçu           	recevez    	reçûtes   	receviez     	recevrez  	receviez    	reçussiez   	recevriez   	recevez    	irregular
+3	plural  	receive	recevoir  	recevant          	reçu           	reçoivent  	reçurent  	recevaient   	recevront 	reçoivent   	reçussent   	recevraient 	           	irregular

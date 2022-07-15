@@ -1,0 +1,31 @@
+plurality	declension	en-template	la-template
+singular	nominative        	the {{nominative}} frobulates	{{nominative}} frobit
+singular	accusative        	it frobulates the {{accusative}}	is frobit {{accusative}} 
+singular	reflexive         	the {{nominative}} frobulates the {{reflexive}}                     	
+singular	emphatic-reflexive	no, the {{nominative}} frobulates <i>the {{emphatic-reflexive}}</i>        	
+singular	genitive          	it is the frob of the {{genitive}}                                           	id est frobum {{genitive}}     
+singular	ablative          	he frobulates it away from the {{ablative}}                         	is frobit ea {{ablative}}
+singular	dative            	he frobulates it to the {{dative}}                                	is frobit ea {{dative}}  
+singular	instrumental      	he frobulates it using the {{instrumental}}                             	
+singular	locative          	he was near the {{locative}}                          	is fuerat {{locative}}    
+singular	vocative          	damn you, {{vocative}}!                                              	dampnare, {{vocative}}!     
+dual    	nominative        	both of the {{nominative}} frobulate	{{nominative}} frobunt
+dual    	accusative        	it frobulates both {{accusative}}                                  	is frobit {{accusative}} 
+dual    	reflexive         	the two {{nominative}} frobulates both {{reflexive}}             	
+dual    	emphatic-reflexive	no, the two {{nominative}} frobulates <i>both {{emphatic-reflexive}}</i>	
+dual    	genitive          	it is the frob of the {{genitive}}                                           	id est frobum {{genitive}}     
+dual    	ablative          	he frobulates away from both {{ablative}}                     	is frobit ea {{ablative}}
+dual    	dative            	he frobulates to both {{dative}}                            	is frobit ea {{dative}}  
+dual    	instrumental      	he frobulates using both {{instrumental}}                         	
+dual    	locative          	he was near both {{locative}}	is fuerat {{locative}}    
+dual    	vocative          	damn you, {{vocative}}!                                     	dampnare, {{vocative}}!     
+plural  	nominative        	the {{nominative}} frobulate	{{nominative}} frobunt
+plural  	accusative        	it frobulates the {{accusative}}                                      	is frobit {{accusative}} 
+plural  	reflexive         	the {{nominative}} frobulate the {{reflexive}}                     	
+plural  	emphatic-reflexive	no, the {{nominative}} frobulate <i>the {{emphatic-reflexive}}</i>        	
+plural  	genitive          	it is the frob of the {{genitive}}                                           	id est frobus {{genitive}}     
+plural  	ablative          	he directs it away from the {{ablative}}                         	is frobit ea {{ablative}}
+plural  	dative            	he directs it to the {{dative}}                                	is frobit ea {{dative}}  
+plural  	instrumental      	he directs it using the {{instrumental}}                             	
+plural  	locative          	he was near the {{locative}}                          	is fuerat {{locative}}    
+plural  	vocative          	damn you, {{vocative}}!                                              	dampnare, {{vocative}}!     

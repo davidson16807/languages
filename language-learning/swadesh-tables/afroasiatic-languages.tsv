@@ -1,0 +1,273 @@
+#swadesh 207 id	part-of-speech	English	Standard Arabic	Standard Arabic IPA	Modern Hebrew	Modern Hebrew IPA	Akkadian	Old Egyptian	Middle Egyptian	Late Egyptian
+1	noun                 	I	أَنَا‎ (ʾanā)	/ʔa.na/	אני‎ 	/aˈni/	𒀀𒈾𒆪 (anāku)	jnk	jnk	jnk
+2	noun                 	you	أَنْتَ‎‎ (ʾanta) (♂), أَنْتِ‎ (ʾanti) (♀)	/ʔan.ta/, /ʔan.ti/	אתה‎, את‎ 	/aˈta/ ♂, /ˈat/ ♀	𒀜𒋫 (atta) ♂, 𒀜𒋾 (atti) ♀	ṯwt ♂, ṯmt ♀	ntk ♂, ntṯ ♀	mntk ♂, mntt ♀
+3	noun                 	he, she, it	هُوَ‎ (huwa) (♂), هِيَ‎ (hiya) (♀)	/hu.wa/, /hi.ja/	הוא‎ 	/ˈhu/	𒋗𒌑 (šū)	swt ♂, stt ♀	ntf ♂, nts ♀	mntf ♂, mntst ♀
+4	noun                 	we	نَحْنُ‎ (naḥnu)	/naħ.nu/	אנחנו‎ 	/aˈnaχnu/	𒉌𒉡 (nīnu)	jnn	jnn	jnn
+5	noun                 	you all	أَنْتُمْ‎‎ (ʾantum) (♂ pl), أَنْتُنَّ‎ (ʾantunna) (♀ pl), أَنْتُمَا‎ (ʾantumā) (dual)	/ʔan.tum/, /ʔan.tun.na/, /ʔan.tu.maː/	אתם‎ 	/aˈtem/	attunu ♂, attina ♀	ntṯn	ntṯn	mnttn
+6	noun                 	they	هُمْ‎ (hum) (♂ pl), هُنَّ‎ (hunna) (♀ pl), هُمَا‎ (humā) (dual)	/humm/, /hun.na/, /hu.maː/	הם‎ 	/ˈhem/	𒋗𒉡 (šunu) ♂,𒅆𒈾 (šina) ♀	ntsn	ntsn	mntw
+7	noun                 	this	هٰذَا‎ (hāḏā) (♂ sentient), هٰذِهِ‎ (hāḏihi) (♀ non-sentient), هٰذِي‎ (hāḏī) (♀ non-sentient)	/haː.ðaː/, /haː.ði.hi/, /haː.ðiː/	זה‎, זאת‎, אלה‎ 	/ˈze/ ♂, /ˈzot/ ♀, /ˈele/ pl	annû	pj, pw, pn (♂ det.), tj, tw, tn (♀ det.), nw, nn (pron.)	pn ♂, tn ♀, nn (pl.)	pꜣj ♂, tꜣj ♀, nꜣj (pl.)
+8	noun                 	that	ذٰلِكَ‎ (ḏālika), ذَاكَ‎ (ḏāka), تِلْكَ‎ (tilka), تِيكَ‎ (tīka)	/ðaː.li.ka/, /ðaː.ka/, /til.ka/, /tiː.ka/	הוא‎, היא‎, הם‎ 	/ˈhu/ ♂, /ˈhi/ ♀, /ˈhem/ pl	šū, ullû	pf (♂ det.), tf (♀ det.), nf (pron.)	pf ♂, tf ♀, nf (pl.)	pꜣj ♂, tꜣj ♀, nꜣj (pl.)
+9	noun                 	here	هُنَا‎ (hunā)	/hu.naː/	פה‎, כאן‎ 	/ˈpo/, /ˈkan/	annânu	ꜥn, ꜥꜣ	ꜥn, ꜥꜣ	ꜥn, ꜥꜣ
+10	noun                 	there	هُنَاكَ‎ (hunāka), هُنَالِكَ‎ (hunālika), ثَمَّ‎ (ṯamma)	/hu.naː.ka/, /hu.naː.li.ka/, /θam.ma/	שם‎ 	/ˈʃam/	akannaka	ꜥf	ꜥf	ꜥf
+11	noun                 	who	مَنْ‎‎ (man)	/man/	מי‎ 	/ˈmi/	mannu	mj	mj	mj
+12	noun                 	what	مَا‎ (mā), مَاذَا‎ (māḏā)	/maː/, /maː.ðaː/	מה‎ 	/ˈma/	mīnu	mj, jḫ, jšst	mj, jḫ, jšst	mj, jḫ, jšst
+13	noun                 	where	أَيْن‎ (ʾayn)	/ʔaj.na/	איפה‎ 	/ˈefo/	ali	ṯnj	ṯnj	ṯnj
+14	noun                 	when	مَتَى‎ (matā)	/ma.taː/	מתי‎ 	/maˈtaj/	ayyānu, mati	zy nw	zy nw	zy nw
+15	noun                 	how	كَيْف‎ (kayf)	/kaj.fa/	איך‎ 	/ˈeχ/	ana mīni, ammīni	mj mj, mj jḫ	mj mj, mj jḫ	mj mj, mj jḫ
+16	adverb              	not	لَا‎ (lā), مَا‎ (mā), لَنْ‎ (lan) (future), لَمْ‎ (lam) (past)	/laː/, /maː/, /lan/, /lam/	לא‎, אין‎ 	/ˈlo/, /ˈen/	𒉡 (ula, lā)	nj	nj, nn	bw, bn
+17	determiner            	all	كُلّ‎ (kull)	/kull/	כל‎ 	/ˈkol/	kalû	nb	nb	nb
+18	determiner            	many	كَثِير‎ (kaṯīr)	/ka.θiːr/	הרבה‎ 	/haʁˈbe/	mādu	ꜥšꜣ	ꜥšꜣ	ꜥšꜣ
+19	determiner            	some	بَعْض‎ (baʿḍ)	/baʕdˤ/	כמה‎, קצת‎ 	/ˈkama/, /ˈkt͡sat/		nhj	nhj	nhj
+20	determiner            	few	قَلِيل‎ (qalīl)	/qa.liːl/	מעט‎ 	/meˈʔat/	ēṣu	nhj	nhj	nhj
+21	determiner            	other	آخَر‎ (ʾāḵar), أُخْرَى‎ (ʾuḵrā), آخَرُون‎ (ʾāḵarūn), أُخَر‎ (ʾuḵar), أُخْرَيَات‎ (ʾuḵrayāt)	/ʔaː.xar/, /ʔux.raː/, /ʔaː.xa.ruːn/, /ʔu.xar/, /ʔux.ra.jaːt/	אחר‎ 	/aχˈeʁ/	šanû	ky	ky	ky
+22	noun                 	one	وَاحِد‎ (wāḥid), وَاحِدَة‎ (wāḥida)	/waː.ħid/, /waː.ħi.da/	אחת‎ 	/aχˈat/	ištēn ♂, ištēt ♀	wꜥ	wꜥ	wꜥ
+23	noun                 	two	اِثْنَان‎ (iṯnān), اِثْنَتَان‎ (iṯnatān)	/ʔiθ.naːn/, /ʔiθ.na.taːn/	שתיים‎ 	/ˈʃtaim/	šinā ♂, šittā ♀	snwj	snwj	snwj
+24	noun                 	three	ثَلَاثَة‎ (ṯalāṯa), ثَلَاث‎ (ṯalāṯ)	/θa.laː.θa/, /θa.laːθ/	שלוש‎ 	/ʃaˈloʃ/	šalāš ♂, šalāšat ♀	ḫmtw	ḫmtw	ḫmtw
+25	noun                 	four	أَرْبَعَة‎ (ʾarbaʿa), أَرْبَع‎ (ʾarbaʿ)	/ʔar.ba.ʕa/, /ʔar.baʕ/	ארבע‎ 	/ˈaʁba/	erbe ♂, erbet ♀	jfdw	jfdw	jfdw
+26	noun                 	five	خَمْسَة‎ (ḵamsa), خَمْس‎ (ḵams)	/xam.sa/, /xams/	חמש‎ 	/χaˈmeʃ/	xamiš ♂, xamšat ♀	djw	djw	djw
+27	adjective	big	كَبِير‎ (kabīr)	/ka.biːr/	גדול‎ 	/ɡaˈdol/	𒃲 (rabûm)	ꜥꜣ, wr	ꜥꜣ, wr	ꜥꜣ, wr
+28	adjective	long	طَوِيل‎ (ṭawīl)	/tˤa.wiːl/	ארוך‎ 	/aˈʁoχ/	arku	ꜣw	ꜣw	ꜣw
+29	adjective	wide	رَحْب‎ (raḥb), وَاسِع‎ (wāsiʿ)	/raħb/, /waː.siʕ/	רחב‎ 	/ʁaˈχav/	rupšu	wsḫ	wsḫ	wsḫ
+30	adjective	thick	سَمِيك‎ (samīk)	/sa.miːk/	עבה‎ 	/aˈve/		wmt	wmt	wmt
+31	adjective	heavy	ثَقِيل‎ (ṯaqīl)	/θa.qiːl/	כבד‎ 	/kaˈved/	kabtu	dns	dns	dns
+32	adjective	small	صَغِير‎ (ṣaḡīr)	/sˤa.ɣiːr/	קטן‎ 	/kaˈtan/	ṭexru	nḏs	nḏs	šrr
+33	adjective	short	قَصِير‎ (qaṣīr)	/qa.sˤiːr/	קצר‎ 	/kaˈt͡saʁ/	karû	ḥwꜥ	ḥwꜥ	ḥwꜥ
+34	adjective	narrow	ضَيِّق‎ (ḍayyiq)	/dˤaj.jiq/	צר‎ 	/ˈt͡saʁ/	qatnu	gꜣw, ḥns	gꜣw, ḥns	gꜣw, ḥns
+35	adjective	thin	رَقِيق‎ (raqīq)	/ra.qiːq/	דק‎ 	/ˈdak/	qatnu	pꜣq	pꜣq	pꜣq
+36	noun	woman	اِمْرَأَة‎ (imraʾa), مَرْأَة‎ (marʾa)	/im.ra.ʔa/, /mar.ʔa/	אישה‎ 	/iʃa/	𒊩 (sinništu)	zt, ḥmt	zt, ḥmt	zt, ḥmt
+37	noun	man	رَجُل‎ (rajul)	/ra.d͡ʒul/	גבר‎, איש‎ 	/ˈɡeveʁ/, /ˈiʃ/	zikaru	z	z	z
+38	noun	human	إِنْسَان‎ (ʾinsān)	/ʔin.saːn/	אדם‎, בן אדם‎ 	/aˈdam/, /ˈben aˈdam/	awīlu	rmṯ	rmṯ	rmṯ
+39	noun	child	طِفْل‎ (ṭifl)	/tˤifl/	ילד‎ 	/ˈjeled/	ṣexru, māru	ẖrd, ms	ẖrd, ms	ẖrd, ms
+40	noun	wife	زَوْجَة‎ (zawja)	/zaw.d͡ʒa/	אישה‎ 	/iˈʃa/	aššatu	ḥmt	ḥmt	ḥmt
+41	noun	husband	زَوْج‎ (zawj), بَعْل‎ (baʿl)	/zawd͡ʒ/, /baʕl/	בעל‎ 	/ˈbaʔal/	mutu	hj	hj	hj
+42	noun	mother	أُمّ‎ (ʾumm)	/ʔumm/	אם‎ 	/ˈem/	ummu	mwt	mwt	mwt
+43	noun	father	أَب‎ (ʾab)	/ʔab/	אב‎ 	/ˈav/	abu	jt	jt	jt
+44	noun	animal	حَيَوَان‎ (ḥayawān)	/ħa.ja.waːn/	חיה‎ 	/χaˈja/	būlu, emāmu	ꜥwt (four-legged animals)	ꜥwt (four-legged animals)	ꜥwt (four-legged animals)
+45	noun	fish	سَمَك‎ (samak), حُوت‎ (ḥūt)	/sa.mak/, /ħuːt/	דג‎ 	/ˈdaɡ/	𒄩 (nūnu)	rm	rm	rm
+46	noun	bird	طَائِر‎ (ṭāʾir), عُصْفُور‎ (ʿuṣfūr)	/tˤaːʔir/, /ʕusˤ.fuːr/	ציפור‎ 	/t͡siˈpoʁ/	𒄷 (iṣṣūru)	ꜣpd	ꜣpd	ꜣpd
+47	noun	dog	كَلْب‎ (kalb)	/kalb/	כלב‎ 	/ˈkelev/	𒌨𒌆 (kalbu)	ṯzm	ṯzm	ṯzm
+48	noun	louse	قَمْل‎ (qaml)	/qaml/	כינה‎ 	/kiˈna/	𒄴 (uplu)	ktt	ktt	ktt
+49	noun	snake	حَنَش‎ (ḥanaš), ثُعْبَان‎ (ṯuʿbān), حَيَّة‎ (ḥayya), أَفْعًى‎ (ʾafʿan)	/ħa.naʃ/, /θuʕ.baːn/, /ħaj.ja/, /ʔaf.ʕan/	נחש‎ 	/naˈχaʃ/	ṣēru	ḥfꜣw ♂, ḥfꜣt ♀	ḥfꜣw ♂, ḥfꜣt ♀	ḥfꜣw ♂, ḥfꜣt ♀
+50	noun	worm	دُود‎ (dūd)	/duːd/	תולעת‎ 	/toˈlaʔat/		fnṯ	fnṯ	fnṯ
+51	noun	tree	شَجَرَة‎ (šajara)	/ʃa.d͡ʒa.ra/	עץ‎ 	/ˈet͡s/	𒄑 (iṣu)	nht, šn	nht, šn	nht, šn
+52	noun	forest	غَابَة‎ (ḡāba)	/ɣaː.ba/	יער‎ 	/ˈjaʔaʁ/	gūru	—	—	—
+53	noun	stick	عَصًا‎ (ʿaṣan)	/ʕa.sˤan/	מקל‎ 	/maˈkel/		ḫt	ḫt	ḫt
+54	noun	fruit	فَاكِهَة‎ (fākiha)	/faː.ki.ha/	פרי‎ 	/ˈpʁi/	inbu	dqr, jšdt	dqr, jšdt	dqr, jšdt
+55	noun	seed	زَرْع‎ (zarʿ), زَرِّيعَة‎ (zarrīʿa)	/zarʕ/, /zar.riː.ʕa/	זרע‎ 	/ˈzeʁa/	𒆰 (zēru)	prt	prt	prt
+56	noun	leaf	وَرَقَة‎ (waraqa)	/wa.ra.qa/	עלה‎ 	/aˈle/	ḫasḫaltu	gꜣbt	gꜣbt	gꜣbt
+57	noun	root	جِذْر‎ (jiḏr), جَذْر‎ (jaḏr)	/d͡ʒiðr/, /d͡ʒaðr/	שורש‎ 	/ˈʃoʁeʃ/	𒁼 (šuršu)	wꜣb, mnyt	wꜣb, mnyt	wꜣb, mnyt
+58	noun	bark	قِلْف‎ (qilf)	/qilf/	קליפה‎ 	/kliˈpa/	𒄑𒁇𒄯 (sihpu)	qqtj	qqtj	qqtj
+59	noun	flower	زَهْرَة‎ (zahra)	/zah.ra/	פרח‎ 	/ˈpeʁaχ/	inbu	ḥrrt, wnb	ḥrrt, wnb	ḥrrt, wnb
+60	noun	grass	حَشِيش‎ (ḥašīš)	/ħa.ʃiːʃ/	דשא‎, עשב‎ 	/ˈdeʃe/, /ˈesev/	dīšu	ꜥnb	ꜥnb	ꜥnb
+61	noun	rope	حَبْل‎ (ḥabl)	/ħabl/	חבל‎ 	/ˈχevel/	𒂠 (eblu)	nwḥ	nwḥ	nwḥ
+62	noun	skin	جِلْد‎ (jild)	/d͡ʒild/	עור‎ 	/ˈoʁ/	gildu	jnm	jnm	jnm
+63	noun	meat	لَحْم‎ (laḥm)	/laħm/	בשר‎ 	/baˈsaʁ/	ṭabhu	jwf	jwf	jwf
+64	noun	blood	دَم‎ (dam)	/dam/	דם‎ 	/ˈdam/	𒁱 (dāmu)	znf	znf	znf
+65	noun	bone	عَظْم‎ (ʿaẓm)	/ʕaðˤm/	עצם‎ 	/ˈet͡sem/	𒄈𒉻𒁺 (eṣemtu)	qs	qs	qs
+66	noun	fat	دُهْن‎ (duhn)	/duhn/	שומן‎ 	/ʃuˈman/	𒉌𒄑 (šamnu)	mrḥt	mrḥt	mrḥt
+67	noun	egg	بَيْضَة‎ (bayḍa)	/baj.dˤa/	ביצה‎ 	/bejˈt͡sa/	𒉭 (pelû)	swḥt	swḥt	swḥt
+68	noun	horn	قَرْن‎ (qarn)	/qarn/	קרן‎ 	/ˈkeʁen/	qarnu	ꜥb, ḥnwt, db	ꜥb, ḥnwt, db	ꜥb, ḥnwt, db
+69	noun	tail	ذَنَب‎ (ḏanab)	/ðanb/	זנב‎ 	/zaˈnav/	zibbatu	ḫbzt, sd	ḫbzt, sd	ḫbzt, sd
+70	noun	feather	رِيشَة‎ (rīša)	/riː.ʃa/	נוצה‎ 	/noˈt͡sa/	nāṣu	šwt	šwt	šwt
+71	noun	hair	شَعْر‎ (šaʿr), شَعَر‎ (šaʿar)	/ʃaʕr/, /ʃa.ʕar/	שערה‎ 	/seʔaˈʁa/	šārtu	šnj	šnj	šnj
+72	noun	head	رَأْس‎ (raʾs)	/raʔs/	ראש‎ 	/ˈʁoʃ/	rēšu	chiefly tp	chiefly tp	chiefly ḏꜣḏꜣ
+73	noun	ear	أُذُن‎ (ʾuḏun), أُذْن‎ (ʾuḏn)	/ʔuðn/, /ʔu.ðun/	אוזן‎ 	/ˈozen/	uznu	msḏr	msḏr	msḏr
+74	noun	eye	عَيْن‎ (ʿayn)	/ʕajn/	עין‎ 	/ˈain/	īnu	jrt	jrt	jrt
+75	noun	nose	أَنْف‎ (ʾanf)	/ʔanf/	אף‎ 	/ˈaf/	appu	fnḏ	fnḏ	fnḏ
+76	noun	mouth	فَم‎ (fam)	/fam/	פה‎ 	/ˈpe/	pû	r(ꜣ)	r(ꜣ)	r(ꜣ)
+77	noun	tooth	سِنّ‎ (sinn)	/sinn/	שן‎ 	/ˈʃen/	šinnu	jbḥ, nḥḏt	jbḥ, nḥḏt	jbḥ, nḥḏt
+78	noun	tongue	لِسَان‎ (lisān)	/li.saːn/	לשון‎ 	/laˈʃon/	lišānu	ns	ns	ns
+79	noun	fingernail	ظُفْر‎ (ẓufr)	/ðˤufr/	ציפורן‎ 	/t͡siˈpoʁen/	ṣupru	ꜥnt	ꜥnt	ꜥnt
+80	noun	foot	قَدَم‎ (qadam)	/qa.dam/	רגל‎ 	/ˈʁeɡel/	šēpu	rd	rd	rd
+81	noun	leg	رِجْل‎ (rijl)	/rid͡ʒl/	רגל‎ 	/ˈʁeɡel/	kimṣu	wꜥrt, sbq	wꜥrt, sbq	wꜥrt, sbq
+82	noun	knee	رُكْبَة‎ (rukba)	/ruk.ba/	ברך‎ 	/ˈbeʁeχ/	birku	pꜣḏ	pꜣḏ	pꜣḏ
+83	noun	hand	يَد‎ (yad)	/jad/	יד‎ 	/ˈjad/	qātu	ḏrt, ꜥ	ḏrt, ꜥ	ḏrt, ꜥ
+84	noun	wing	كَنَف‎ (kanaf), جَنَاح‎ (janāḥ)	/ka.naf/, /d͡ʒa.naːħ/	כנף‎ 	/kaˈnaf/	kappu	ḏnḥ, dmꜣt	ḏnḥ, dmꜣt	ḏnḥ, dmꜣt
+85	noun	belly	بَطْن‎ (baṭn)	/batˤn/	בטן‎ 	/ˈbeten/	libbu	ẖt	ẖt	ẖt
+86	noun	guts	أَمْعَاء‎ (ʾamʿāʾ)	/ʔamʕaːʔ/	מעיים‎ 	/meʔaim/	erru	mẖtw, ꜣjs	mẖtw, ꜣjs	mẖtw, ꜣjs
+87	noun	neck	رَقَبَة‎ (raqaba)	/ra.qa.ba/	צוואר‎ 	/t͡saˈvaʁ/	kišādu, labiānu	ḫḫ, nḥbt	ḫḫ, nḥbt	ḫḫ, nḥbt
+88	noun	back	ظَهْر‎ (ẓahr)	/ðˤahr/	גב‎ 	/ˈɡav/	šašallu	sꜣ, psḏ, jꜣt	sꜣ, psḏ, jꜣt	sꜣ, psḏ, jꜣt
+89	noun	breast	ثَدْي‎ (ṯady), صَدْر‎ (ṣadr)	/θadj/, /sˤadr/	שד‎ 	/ˈʃad/	irtu	mnḏ	mnḏ	mnḏ
+90	noun	heart	لُبّ‎ (lubb), قَلْب‎ (qalb)	/lubb/, /qalb/	לב‎ 	/ˈlev/	libbu	jb, ḥꜣtj	jb, ḥꜣtj	jb, ḥꜣtj
+91	noun	liver	كَبِد‎ (kabid)	/ka.bid/	כבד‎ 	/kaˈved/	kabattu	mjzt	mjzt	mjzt
+92	verb	drink	شَرِبَ‎ (šariba)	/ʃa.ri.ba/	שתה‎ 	/ʃaˈta/	šatû	zwr	Middle and zwj	Middle and zwj
+93	verb	eat	أَكَلَ‎ (ʾakala)	/ʔa.ka.la/	אכל‎ 	/aˈχal/	akālu	wnm	wnm	wnm
+94	verb	bite	عَضَّ‎ (ʿaḍḍa)	/ʕadˤ.dˤa/	נשך‎ 	/naˈʃaχ/	našāku	pzḥ	pzḥ	pzḥ
+95	verb	suck	مَصَّ‎ (maṣṣa)	/masˤ.sˤa/	מצץ‎ 	/maˈt͡sat͡s/	enēqu	snq	snq	snq
+96	verb	spit	بَصَقَ‎ (baṣaqa)	/ba.sˤa.qa/	ירק‎ 	/jaˈʁak/		bšj, psg, tf	bšj, psg, tf	bšj, psg, tf
+97	verb	vomit	تَقَيَّأَ‎ (taqayyaʾa)	/ta.qaj.ja.ʔa/	הקיא‎ 	/heˈki/	arû	qꜣꜥ, qjs	qꜣꜥ, qjs	qꜣꜥ, qjs
+98	verb	blow	نَفَخَ‎ (nafaḵa)	/na.fa.xa/	נשף‎ 	/naˈʃaf/	napāxu	nfj	nfj	nfj
+99	verb	breathe	تَنَفَّسَ‎ (tanaffasa)	/ta.naf.fa.sa/	נשם‎ 	/naˈʃam/	napāšu	ssn, tpr	ssn, tpr	ssn, tpr
+100	verb	laugh	ضَحِكَ‎ (ḍaḥika)	/dˤa.ħi.ka/	צחק‎ 	/t͡saˈχak/	ṣuxxu	zbṯ	zbṯ	zbṯ
+101	verb	see	رَأَى‎ (raʾā)	/ra.ʔaː/	ראה‎ 	/ʁaˈʔa/	amāru	mꜣꜣ	mꜣꜣ	mꜣꜣ
+102	verb	hear	سَمِعَ‎ (samiʿa)	/sa.mi.ʕa/	שמע‎ 	/ʃaˈma/	šemû	sḏm	sḏm	sḏm
+103	verb	know	عَرَفَ‎ (ʿarafa)	/ʕa.ra.fa/	ידע‎ 	/jaˈda/	idû	rḫ	rḫ	rḫ
+104	verb	think	فَكَرَ‎ (fakara)	/fa.ka.ra/	חשב‎ 	/χaˈʃav/		ḫmt	ḫmt	ḫmt
+105	verb	smell	شَمَّ‎ (šamma)	/ʃam.ma/	הריח‎ 	/heˈʁiaχ/	ešēnu	sn	sn	sn
+106	verb	fear	خَافَ‎ (ḵāfa)	/xaː.fa/	פחד‎ 	/paˈχad/	palāxu, šaxātu	snḏ	snḏ	snḏ
+107	verb	sleep	نَامَ‎ (nāma)	/naː.ma/	ישן‎ 	/jaˈʃan/	šalālu	qdd	qdd	qdd
+108	verb	live	عَاشَ‎ (ʿāša)	/ʕaː.ʃa/	חי‎ 	/ˈχaj/	balāṭu	ꜥnḫ	ꜥnḫ	ꜥnḫ
+109	verb	die	مَاتَ‎ (māta)	/maː.ta/	מת‎ 	/ˈmet/	mâtu	mwt	mwt	mwt
+110	verb	kill	قَتَلَ‎ (qatala)	/qa.ta.la/	הרג‎ 	/haˈʁaɡ/	dâku	ẖdb	ẖdb	ẖdb
+111	verb	fight	قَاتَلَ‎ (qātala)	/qaː.ta.la/	נלחם‎ 	/nilˈχam/		ꜥḥꜣ	ꜥḥꜣ	ꜥḥꜣ
+112	verb	hunt	صَادَ‎ (ṣāda)	/sˤaː.da/	צד‎ 	/ˈt͡sad/	ṣâdu	nw, bḥs	nw, bḥs	nw, bḥs
+113	verb	hit	ضَرَبَ‎ (ḍaraba)	/dˤa.ra.ba/	הכה‎ 	/hiˈka/	naṭû	ḥwj, zḫj	ḥwj, zḫj	ḥwj, zḫj
+114	verb	cut	قَطَعَ‎ (qaṭaʿa)	/qa.tˤa.ʕa/	חתך‎ 	/χaˈtaχ/	nakāsu	šꜥd, šꜥ	šꜥd, šꜥ	šꜥd, šꜥ
+115	verb	split	شَقَّ‎ (šaqqa)	/ʃaq.qa/	פיצל‎ 	/piˈt͡sel/	nesû, šalātu	wpj	wpj	wpj
+116	verb	stab	طَعَنَ‎ (ṭaʿana)	/tˤa.ʕa.na/	דקר‎ 	/daˈkaʁ/	dakāšu	ḫmt, dm	ḫmt, dm	ḫmt, dm
+117	verb	scratch	خَدَشَ‎ (ḵadaša)	/xa.da.ʃa/	שרט‎ 	/saˈʁat/	xarāsu	ꜣẖꜥ, nqꜥ	ꜣẖꜥ, nqꜥ	ꜣẖꜥ, nqꜥ
+118	verb	dig	حَفَرَ‎ (ḥafara)	/ħa.fa.ra/	חפר‎ 	/χaˈfaʁ/	napālu, xerû	šꜣd	šꜣd	šꜣd
+119	verb	swim	سَبَحَ‎ (sabaḥa), عَامَ‎ (ʿāma)	/sa.ba.ħa/, /ʕaː.ma/	שחה‎ 	/saˈχa/		nbj, mḥj	nbj, mḥj	nbj, mḥj
+120	verb	fly	طَارَ‎ (ṭāra)	/tˤaː.ra/	עף‎ 	/ˈaf/		pꜣj, ꜥpj	pꜣj, ꜥpj	pꜣj, ꜥpj
+121	verb	walk	مَشَى‎ (mašā)	/ma.ʃaː/	הלך‎ 	/haˈlaχ/	akāšu	ḫpj	ḫpj	ḫpj
+122	verb	come	جَاءَ‎ (jāʾa), بَاءَ‎ (bāʾa), أتَى‎	/d͡ʒaː.ʔa/, /baː.ʔa/, /ʔa.taː/	בא‎ 	/ˈba/	ṭexû	jj, jwj	jj, jwj	jj, jwj
+123	verb	lay	رَقَدَ‎ (raqada)	/ra.qa.da/	שכב‎ 	/ʃaˈχav/	utulu	sḏr	sḏr	sḏr
+124	verb	sit	جَلَسَ‎ (jalasa)	/d͡ʒa.la.sa/	ישב‎ 	/jaˈʃav/	wašābu	ḥmsj	ḥmsj	ḥmsj
+125	verb	stand	وَقَفَ‎ (waqafa)	/wa.qa.fa/	עמד‎ 	/aˈmad/	izuzzu	ꜥḥꜥ	ꜥḥꜥ	ꜥḥꜥ
+126	verb	turn	دَارَ‎ (dāra)	/daː.ra/	הסתובב‎ 	/ˌhistoˈvev/	saxāru	pẖr	pẖr	pẖr
+127	verb	fall	وَقَعَ‎ (waqaʿa), سَقَطَ‎ (saqaṭa), طَاحَ‎ (ṭāḥa)	/wa.qa.ʕa/, /sa.qa.tˤa/, /tˤaː.ħa/	נפל‎ 	/naˈfal/	maqātu	ḫr	ḫr	ḫr
+128	verb	give	أَعْطَى‎ (ʾaʿṭā)	/ʔaʕ.tˤaː/	נתן‎ 	/naˈtan/	nadānu	rḏj	rḏj	rḏj
+129	verb	hold	أَخَذَ‎ (ʾaḵaḏa)	/ʔa.xa.ða/	החזיק‎ 	/heχˈzik/	naṣāru	mḥ	mḥ	mḥ
+130	verb	squeeze	عَصَرَ‎ (ʿaṣara)	/ʔa.sˤa.ra/	לחץ‎ 	/laˈχat͡s/	mazû	jꜥf	jꜥf	jꜥf
+131	verb	rub	حَكَّ‎ (ḥakka)	/ħak.ka/	שפשף‎ 	/ˈʃifˈʃef/	lapātu	zjn	zjn	zjn
+132	verb	wash	غَسَلَ‎ (ḡasala)	/ɣa.sa.la/	שטף‎ 	/ʃaˈtaf/	ramāku	jꜥj	jꜥj	jꜥj
+133	verb	wipe	مَحَا‎ (maḥā), مَسَحَ‎ (masaḥa)	/ma.ħaː/, /ma.sa.ħa/	ניגב‎ 	/niˈɡev/	kapāru	sk	sk	sk
+134	verb	pull	جَرَّ‎ (jarra)	/d͡ʒar.ra/	משך‎ 	/maˈʃaχ/		sṯꜣ, jtḥ	sṯꜣ, jtḥ	sṯꜣ, jtḥ
+135	verb	push	دَفَعَ‎ (dafaʿa)	/da.fa.ʕa/	דחף‎ 	/daˈχaf/		wdj	wdj	wdj
+136	verb	throw	رَمَى‎ (ramā)	/ra.maː/	זרק‎ 	/zaˈʁak/	nadû	qmꜣ	qmꜣ	qmꜣ
+137	verb	tie	رَبَطَ‎ (rabaṭa)	/ra.ba.tˤa/	קשר‎ 	/kaˈʃaʁ/	kaṣāru, rakāsu, ṣamādu	ṯz	ṯz	ṯz
+138	verb	sew	خَاطَ‎ (ḵāṭa), خَيَّطَ‎ (ḵayyaṭa)	/xaː.tˤa/, /xaj.ja.tˤa/	תפר‎ 	/taˈfaʁ/	kubbû	sṯꜣ, jtḥ	sṯꜣ, jtḥ	sṯꜣ, jtḥ
+139	verb	count	عَدَّ‎ (ʿadda)	/ʕad.da/	ספר‎ 	/saˈfaʁ/	manû	ḥsb	ḥsb	ḥsb
+140	verb	say	قَالَ‎ (qāla)	/qaː.la/	אמר‎ 	/aˈmaʁ/	qabû	ḏd	ḏd	ḏd
+141	verb	sing	غَنَّى‎ (ḡannā)	/ɣan.naː/	שר‎ 	/ˈʃaʁ/	zamāru	ḥsj	ḥsj	ḥsj
+142	verb	play	لَعِبَ‎ (laʿiba)	/la.ʕi.ba/	שיחק‎ 	/siˈχek/	mēlelu	ḥꜥb	ḥꜥb	ḥꜥb
+143	verb	float	عَامَ‎ (ʿāma), طَفَا‎ (ṭafā)	/ʕaː.ma/, /tˤa.faː/	צף‎ 	/ˈt͡saf/				
+144	verb	flow	تَدَفَّقَ‎ (tadaffaqa)	/ta.daf.fa.qa/	זרם‎ 	/zaˈram/	alāku	ḫdj, ꜥnq	ḫdj, ꜥnq	ḫdj, ꜥnq
+145	verb	freeze	جَمَدَ‎ (jamada)	/d͡ʒa.ma.da/	קפא‎ 	/kaˈfa/		ḥs	ḥs	ḥs
+146	verb	swell	وَرِمَ‎ (warima), اِنْتَفَخَ‎ (intafaḵa)	/wa.ri.ma/, /in.ta.fa.xa/	התנפח‎ 	/ˌhitnaˈpeaχ/		šfw	šfw	šfw
+147	noun	sun	شَمْس‎ (šams)	/ʃams/	שמש‎ 	/ˈʃemeʃ/	šamšu	rꜥ	rꜥ	rꜥ
+148	noun	moon	قَمَر‎ (qamar)	/qa.mar/	ירח‎ 	/ˈjaˈʁeaχ/	sîn, warxu	jꜥḥ	jꜥḥ	jꜥḥ
+149	noun	star	نَجْم‎ (najm), كَوْكَب‎ (kawkab)	/nad͡ʒm/, /kaw.kab/	כוכב‎ 	/koˈχav/	kakkabu	sbꜣ	sbꜣ	sbꜣ
+150	noun	water	مَاء‎ (māʾ)	/maːʔ/	מים‎ 	/ˈmaim/	mû	mw	mw	mw
+151	noun	rain	مَطَر‎ (maṭar)	/ma.tˤar/	גשם‎ 	/ˈɡeʃem/	zunnu	ḥwt	ḥwt	ḥwt
+152	noun	river	نَهْر‎ (nahr), نَهَر‎ (nahar)	/nahr/, /na.har/	נהר‎ 	/naˈhaʁ/	nāru	jtrw	jtrw	jtrw
+153	noun	lake	بُحَيْرَة‎ (buḥayra)	/bu.ħaj.ra/	אגם‎ 	/aˈɡam/	tāmtu	š, ḥnt	š, ḥnt	š, ḥnt
+154	noun	sea	بَحْر‎ (baḥr), يَمّ‎ (yamm)	/baħr/, /jamm/	ים‎ 	/ˈjam/	tâmtu	wꜣḏ-wr	wꜣḏ-wr	wꜣḏ-wr
+155	noun	salt	مِلْح‎ (milḥ)	/milħ/	מלח‎ 	/ˈmelaχ/	𒁵 (ṭabtu)	ḥmꜣt	ḥmꜣt	ḥmꜣt
+156	noun	stone	حَجَر‎ (ḥajar)	/ħa.d͡ʒar/	אבן‎ 	/ˈeven/	abnu	jnr	jnr	jnr
+157	noun	sand	رَمْل‎ (raml)	/raml/	חול‎ 	/ˈχol/	bāṣu	šꜥy	šꜥy	šꜥy
+158	noun	dust	غُبَار‎ (ḡubār)	/ɣu.baːr/	אבק‎ 	/aˈvak/	eperu	ḫmw	ḫmw	ḫmw
+159	noun	earth	أَرْض‎ (ʾarḍ)	/ʔardˤ/	אדמה‎ 	/adaˈma/	erṣetu	tꜣ	tꜣ	tꜣ
+160	noun	cloud	سَحَابَة‎ (saḥāba), غَيْمَة‎ (ḡayma), غَمَامَة‎ (ḡamāma), عَنَانَة‎ (ʿanāna)	/sa.ħaː.ba/, /ɣaj.ma/, /ɣa.maː.ma/, /ʕa.naː.na/	ענן‎ 	/aˈnan/	erpetu	sṯzw, gp	sṯzw, gp	sṯzw, gp
+161	noun	fog	ضَبَاب‎ (ḍabāb)	/dˤa.baːb/	ערפל‎ 	/aʁaˈfel/	imbāru	sjm	sjm	sjm
+162	noun	sky	سَمَاء‎ (samāʾ)	/sa.maːʔ/	שמים‎ 	/ʃaˈmaim/	šamû	pt	pt	pt
+163	noun	wind	رِيح‎ (rīḥ)	/riːħ/	רוח‎ 	/ˈʁuaχ/	šāru	ṯꜣw	ṯꜣw	ṯꜣw
+164	noun	snow	ثَلْج‎ (ṯalj)	/θald͡ʒ/	שלג‎ 	/ˈʃeleɡ/	šalgu	—	—	sꜣrꜣqw
+165	noun	ice	جَلِيد‎ (jalīd)	/d͡ʒa.liːd/	קרח‎ 	/ˈkeʁaχ/		—	—	—
+166	noun	smoke	دُخَان‎ (duḵān), دُخَّان‎ (duḵḵān)	/du.xaːn/, /dux.xaːn/	עשן‎ 	/aˈʃan/	qutru	ḥtj	ḥtj	ḥtj
+167	noun	fire	نَارَ‎ (nāra)	/naːr/	אש‎ 	/ˈeʃ/	išātu	sḏt, ḫt	sḏt, ḫt	sḏt, ḫt
+168	noun	ash	رَمَاد‎ (ramād)	/ra.maːd/	אפר‎ 	/ˈefeʁ/	didallu, ṭikmēnu	ssf, later sfsf	ssf, later sfsf	ssf, later sfsf
+169	verb	to burn	حَرَقَ‎ (ḥaraqa)	/ħa.ra.qa/	שרף‎ 	/saˈʁaf/	napāxu	ḏꜣf, rkḥ, mꜣẖ	ḏꜣf, rkḥ, mꜣẖ	ḏꜣf, rkḥ, mꜣẖ
+170	noun	road	طَرِيق‎ (ṭarīq)	/tˤa.riːq/	דרך‎ 	/ˈdeʁeχ/	xūlu	wꜣt	wꜣt	wꜣt
+171	noun	mountain	جَبَل‎ (jabal)	/d͡ʒa.bal/	הר‎ 	/ˈhaʁ/	šadû	ḏw	ḏw	ḏw
+172	adjective	red	أَحْمَر‎ (ʾaḥmar), حَمْرَاء‎ (ḥamrāʾ)	/ʔaħ.mar/, /ħam.raːʔ/	אדום‎ 	/aˈdom/	ruššû, pēlu	dšr (including pink, orange, brown)	dšr (including pink, orange, brown)	dšr (including pink, orange, brown)
+173	adjective	green	أَخْضَر‎ (ʾaḵḍar), خَضْرَاء‎ (ḵaḍrāʾ)	/ʔax.dˤar/, /xadˤ.raːʔ/	ירוק‎ 	/jaˈʁok/	warqu	wꜣḏ (including blue)	wꜣḏ (including blue)	wꜣḏ (including blue)
+174	adjective	yellow	أَصْفَر‎ (ʾaṣfar), صَفْرَاء‎ (ṣafrāʾ)	/ʔasˤ.far/, /sˤaf.raːʔ/	צהוב‎ 	/t͡saˈhov/	warqu	qnjt	qnjt	qnjt
+175	adjective	white	أَبْيَض‎ (ʾabyaḍ), بَيْضَاء‎ (bayḍāʾ)	/ʔab.jadˤ/, /baj.dˤaːʔ/	לבן‎ 	/laˈvan/	peṣû	ḥḏ	ḥḏ	ḥḏ
+176	adjective	black	أَسْوَد‎ (ʾaswad), سَوْدَاء‎ (sawdāʾ)	/ʔas.wad/, /saw.daːʔ/	שחור‎ 	/ʃaˈχoʁ/	ṣalmu	km	km	km
+177	noun	night	لَيْل‎ (layl)	/lajl/	לילה‎ 	/ˈlajla/	mūšu	grḥ	grḥ	grḥ
+178	noun	day	يَوْم‎ (yawm)	/jawm/	יום‎ 	/ˈjom/	ūmu	hrw	hrw	hrw
+179	noun	year	سَنَة‎ (sana), عَام‎ (ʿām)	/sa.na/, /ʕaːm/	שנה‎ 	/ʃaˈna/	šattu	rnpt	rnpt	rnpt
+180	adjective	warm	دَافِئ‎ (dāfiʾ)	/daː.fiʔ/	חם‎ 	/ˈχam/	šaḫnu	šm	šm	šm
+181	adjective	cold	بَارِد‎ (bārid)	/baː.rid/	קר‎ 	/ˈkaʁ/	kaṣû	qb	qb	qb
+182	adjective	full	مُمْتَلِئ‎ (mumtaliʾ)	/mum.ta.liʔ/	מלא‎ 	/maˈle/	malû	mḥ	mḥ	mḥ
+183	adjective	new	جَدِيد‎ (jadīd), حَدِيث‎ (ḥadīṯ)	/d͡ʒa.diːd/, /ħa.diːθ/	חדש‎ 	/χaˈdaʃ/	𒉋 (eššu)	mꜣw	mꜣw	mꜣw
+184	adjective	old	قَدِيم‎ (qadīm), عَتِيق‎ (ʿatīq)	/qa.diːm/, /ʕa.tiːq/	ישן‎ 	/jaˈʃan/	labru, 𒋗𒄄 (šību)	jꜣw	jꜣw	jꜣw
+185	adjective	good	طَيِّب‎ (ṭayyib)	/tˤaj.jib/	טוב‎ 	/ˈtov/	𒄭 (ṭābu)	nfr	nfr	nfr
+186	adjective	bad	سَيِّئ‎ (sayyiʾ)	/saj.jiʔ/	רע‎ 	/ˈʁa/	𒅆𒌨 (lemnu)	bjn	bjn	bjn
+187	adjective	rotten	مُتَعَفِّن‎ (mutaʿaffin)	/mu.ta.ʕaf.fin/	רקוב‎ 	/ʁaˈkuv/	𒅆𒌨𒁶 (masku)	ḥwꜣ	ḥwꜣ	ḥwꜣ
+188	adjective	dirty	قَذِر‎ (qaḏir), وَسِخ‎ (wasiḵ)	/qa.ðir/, /wa.six/	מלוכלך‎ 	/meluχˈlaχ/	𒈬𒁍 ((w)aršu)	ꜥb	ꜥb	ꜥb
+189	adjective	straight	مُسْتَقِيم‎ (mustaqīm)	/mus.ta.qiːm/	ישר‎ 	/jaˈʃaʁ/	ešru	ꜥqꜣ	ꜥqꜣ	ꜥqꜣ
+190	adjective	round	مُسْتَدِير‎ (mustadīr)	/mus.ta.diːr/	עגול‎ 	/aˈɡol/	kippatu	dbn, šn	dbn, šn	dbn, šn
+191	adjective	sharp	حَادّ‎ (ḥādd)	/ħaːdd/	חד‎ 	/ˈχad/	šēlu	spd	spd	spd
+192	adjective	dull	ثَلِم‎ (ṯalim), كَلِيل‎ (kalīl)	/θa.mil/, /ka.liːl/	קהה‎ 	/keˈhe/		nẖs	nẖs	nẖs
+193	adjective	smooth	نَاعِم‎ (nāʿim)	/naː.ʕim/	חלק‎ 	/χaˈlak/		nꜥꜥ	nꜥꜥ	nꜥꜥ
+194	adjective	wet	رَطْب‎ (raṭb)	/ratˤb/	רטוב‎ 	/ʁaˈtuv/	raṭbu	bꜣ	bꜣ	bꜣ
+195	adjective	dry	جَافّ‎ (jāff), يَابِس‎ (yābis)	/d͡ʒaːff/, /jaː.bis/	יבש‎ 	/jaˈveʃ/	ablu	šw	šw	šw
+196	adjective	correct	صَحِيح‎ (ṣaḥīḥ)	/sˤa.ħiːħ/	נכון‎ 	/naˈχon/	damqu	ꜥqꜣ, mꜣꜥ, mtj	ꜥqꜣ, mꜣꜥ, mtj	ꜥqꜣ, mꜣꜥ, mtj
+197	adjective	near	قَرِيب‎ (qarīb)	/qa.riːb/	קרוב‎ 	/kaˈʁov/	𒋼 (ṭexû)	tkn	tkn	tkn
+198	adjective	far	بَعِيد‎ (baʿīd)	/ba.ʕiːd/	רחוק‎ 	/ʁaˈχok/	nešû	wꜣ, ḥr	wꜣ, ḥr	wꜣ, ḥr
+199	adjective	right	يَمِين‎ (yamīn)	/ja.miːn/	ימין‎ 	/jaˈmin/	𒍠 (imittu)	wnmj, jmn	wnmj, jmn	wnmj, jmn
+200	adjective	left	شِمَال‎ (šimāl), يَسَار‎ (yasār)	/ʃi.maːl/, /ja.saːr/	שמאל‎ 	/ˈsmol/	𒆏𒁍 (šumēlu)	smḥj, jꜣbj	smḥj, jꜣbj	smḥj, jꜣbj
+201	preposition	at	عِنْدَ‎ (ʿinda)	/ʕin.da/	ב־‎, אצל‎ 	/ˈbe-/, /et͡sel/		ḥr, m	ḥr, m	ḥr, m
+202	preposition	in	فِي‎ (fī), بِ‎ (bi)	/fiː/, /bi/	ב־‎, בתוך‎ 	/be-/, /beˈtoχ/	ina	m	m	m
+203	preposition	with	مَعَ‎ (maʿa), بِ‎ (bi)	/ma.ʕa/, /bi/	עם‎ 	/ˈim/		ḥnꜥ, ḫr	ḥnꜥ, ḫr	ḥnꜥ, ḫr, jrm
+204	preposition	and	وَ‎ (wa)	/wa/	ו־‎ 	/ve-/	u	—	—	—
+205	preposition	if	لَوْ‎ (law), إِذَا‎ (ʾiḏā), إِنْ‎ (ʾin)	/law/, /ʔi.ðaː/, /ʔin/	אם‎ 	/ˈim/	šumma	jr	jr	jr
+206	preposition	because	لِأَنَّ‎ (liʾanna), بِسَبَبِ‎ (bisababi), حَيْثُ‎ (ḥayṯu)	/li.ʔan.na/, /bi.sa.ba.bi/, /ħaj.θu/	כי‎, בגלל‎ 	/ˈki/, /biˈɡlal/	aššum	ḏr ntt, n ntt, ḥr ntt	ḏr ntt, n ntt, ḥr ntt	ḏr ntt, n ntt, ḥr ntt
+207	noun	name	اِسْم‎ (ism)	/ism/	שם‎ 	/ˈʃem/ 	𒈬 (šumu) 	rn 	rn 	rn 
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										

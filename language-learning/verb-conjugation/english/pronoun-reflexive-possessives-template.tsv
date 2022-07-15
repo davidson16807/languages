@@ -1,0 +1,63 @@
+# possessed-case  	possessed-gender	possessed-plurality
+nominative        	neuter          	singular           	his own house is over there                                                   
+nominative        	masculine       	singular           	his own son is over there                                                
+nominative        	feminine        	singular           	his own daughter is over there                                                
+nominative        	neuter          	dual               	his own two houses are over there                                                 
+nominative        	masculine       	dual               	his own two sons are over there                                          
+nominative        	feminine        	dual               	his own two daughters are over there                                          
+nominative        	neuter          	plural             	his own houses are over there                                                
+nominative        	masculine       	plural             	his own sons are over there                                              
+nominative        	feminine        	plural             	his own daughters are over there                                              
+                  
+accusative        	neuter          	singular           	this one is their own master.
+accusative        	masculine       	singular           	this man is {{possessive}} own master.
+accusative        	feminine        	singular           	this woman is {{possessive}} own master.
+accusative        	neuter          	dual               	these two are {{possessive}} own master.
+accusative        	masculine       	dual               	these two men are {{possessive}} own master.
+accusative        	feminine        	dual               	these two women are {{possessive}} own master.
+accusative        	neuter          	plural             	these are {{possessive}} own master.
+accusative        	masculine       	plural             	these men are {{possessive}} own master.
+accusative        	feminine        	plural             	these women are {{possessive}} own master.
+                  
+dative            	neuter          	singular           	the man directs the horse to his own house                                         
+dative            	masculine       	singular           	the man directs the horse to his own son                                      
+dative            	feminine        	singular           	the man directs the horse to his own daughter                                      
+dative            	neuter          	dual               	the man directs the horse to his own two houses                                   
+dative            	masculine       	dual               	the man directs the horse to his own two sons                                     
+dative            	feminine        	dual               	the man directs the horse to his own two daughters                                     
+dative            	neuter          	plural             	the man directs the horse to his own houses                                   
+dative            	masculine       	plural             	the man directs the horse to his own sons                                     
+dative            	feminine        	plural             	the man directs the horse to his own daughters                                     
+                  
+ablative          	neuter          	singular           	the man directs the horse away from his own house                                       
+ablative          	masculine       	singular           	the man directs the horse away from his own son                                    
+ablative          	feminine        	singular           	the man directs the horse away from his own daughter                                    
+ablative          	neuter          	dual               	the man directs the horse away from his own two houses                                 
+ablative          	masculine       	dual               	the man directs the horse away from his own two sons                                   
+ablative          	feminine        	dual               	the man directs the horse away from his own two daughters                                   
+ablative          	neuter          	plural             	the man directs the horse away from his own houses                                 
+ablative          	masculine       	plural             	the man directs the horse away from his own sons                                   
+ablative          	feminine        	plural             	the man directs the horse away from his own daughters                                   
+                  
+instrumental      	neuter          	singular           	the man directs the horse using his own rope                                     
+instrumental      	masculine       	singular           	the man directs the horse using his own son                                 
+instrumental      	feminine        	singular           	the man directs the horse using his own daughter                                 
+instrumental      	neuter          	dual               	the man directs the horse using his own two ropes                              
+instrumental      	masculine       	dual               	the man directs the horse using his own two sons                                
+instrumental      	feminine        	dual               	the man directs the horse using his own two daughters                                
+instrumental      	neuter          	plural             	the man directs the horse using his own ropes                         
+instrumental      	masculine       	plural             	the man directs the horse using his own sons                                
+instrumental      	feminine        	plural             	the man directs the horse using his own daughters                                
+                  
+locative          	neuter          	singular           	the man directs the horse near his own house                                              
+locative          	masculine       	singular           	the man directs the horse near his own son                                           
+locative          	feminine        	singular           	the man directs the horse near his own daughter                                           
+locative          	neuter          	dual               	the man directs the horse near his own two houses                                        
+locative          	masculine       	dual               	the man directs the horse near his own two sons                                          
+locative          	feminine        	dual               	the man directs the horse near his own two daughters                                          
+locative          	neuter          	plural             	the man directs the horse near his own houses                                        
+locative          	masculine       	plural             	the man directs the horse near his own sons                                          
+locative          	feminine        	plural             	the man directs the horse near his own daughters                                          
+                  
+#                 	                	                   	NOTE: genitive and vocative are not applicable for all pronouns                                                                           
+                 

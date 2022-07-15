@@ -1,0 +1,54 @@
+# mood     	voice  	tense         	pie                                                                 
+indicative 	active 	present       	{{subject}} {{present}} {{object}}                                  
+indicative 	active 	future        	{{subject}} will {{infinitive}} {{object}}                          
+indicative 	active 	imperfect     	{{subject}} {{was}} {{imperfect}} {{object}}                        
+indicative 	active 	perfect       	{{subject}} {{perfect}} {{object}}                                  
+indicative 	active 	future-perfect	{{subject}} will have {{perfect}} {{object}}                        
+indicative 	active 	pluperfect    	{{subject}} had {{perfect}} {{object}}                              
+subjunctive	active 	present       	[suppose that] {{subject}} {{present}} {{object}}                   
+subjunctive	active 	imperfect     	[suppose that] {{subject}} {{was}} {{imperfect}} {{object}}         
+subjunctive	active 	perfect       	[suppose that] {{subject}} {{perfect}} {{object}}                   
+subjunctive	active 	pluperfect    	[suppose that] {{subject}} had {{perfect}} {{object}}               
+optative   	active 	present       	[may it be that] {{subject}} {{present}} {{object}}                 
+optative   	active 	imperfect     	[may it be that] {{subject}} {{was}} {{imperfect}} {{object}}       
+optative   	active 	perfect       	[may it be that] {{subject}} {{perfect}} {{object}}                 
+optative   	active 	pluperfect    	[may it be that] {{subject}} had {{perfect}} {{object}}             
+imperative 	active 	present       	[I command that] {{subject}} {{infinitive}} {{object}}                
+imperative 	active 	future        	[I command that] {{subject}} will {{infinitive}} {{object}}              
+nonfinite  	active 	participle    	{{subject}} {{is}} {{imperfect}}
+           
+indicative 	middle 	present       	{{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{is}} being</a>] {{perfect}} {{object}}                           
+indicative 	middle 	future        	{{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>will be</a>] {{perfect}} {{object}}                   
+indicative 	middle 	imperfect     	{{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{was}} being</a>] {{perfect}} {{object}}                 
+indicative 	middle 	perfect       	{{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{was}}</a>] {{perfect}}                           
+indicative 	middle 	future-perfect	{{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>will have been</a>] {{perfect}} {{object}}                 
+indicative 	middle 	pluperfect    	{{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>had been</a>] {{perfect}} {{object}}                       
+subjunctive	middle 	present       	[suppose that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{is}} being</a>] {{perfect}} {{object}}            
+subjunctive	middle 	imperfect     	[suppose that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{was}} being</a>] {{perfect}} {{object}}  
+subjunctive	middle 	perfect       	[suppose that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{was}}</a>] {{perfect}} {{object}}            
+subjunctive	middle 	pluperfect    	[suppose that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>had been</a>] {{perfect}} {{object}}        
+optative   	middle 	present       	[may it be that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{is}}</a>] {{perfect}} {{object}}          
+optative   	middle 	imperfect     	[may it be that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{was}} being</a>] {{perfect}} {{object}}
+optative   	middle 	perfect       	[may it be that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{was}}</a>] {{perfect}} {{object}}          
+optative   	middle 	pluperfect    	[may it be that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>had been</a>] {{perfect}} {{object}}      
+imperative 	middle 	present       	[I command that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>be</a>] {{perfect}} {{object}}    
+imperative 	middle 	future        	[I command that] {{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>will be</a>] {{perfect}} {{object}}  
+nonfinite  	middle 	participle    	{{subject}} [<a href='https://en.wikipedia.org/wiki/Mediopassive_voice' title='this translation is imprecise, the correct translation would use mediopassive tense, which does not exist in English'>{{is}} being</a>] {{perfect}}
+           
+indicative 	passive	present       	{{subject}} {{is}} {{perfect}} {{object}}                           
+indicative 	passive	future        	{{subject}} will be {{perfect}} {{object}}                          
+indicative 	passive	imperfect     	{{subject}} {{was}} being {{perfect}} {{object}}                    
+indicative 	passive	perfect       	{{subject}} {{was}} {{perfect}} {{object}}                          
+indicative 	passive	future        	{{subject}} will have been {{perfect}} {{object}}                   
+indicative 	passive	imperfect     	{{subject}} had been {{perfect}} {{object}}                         
+subjunctive	passive	present       	[suppose that] {{subject}} {{is}} {{perfect}} {{object}}            
+subjunctive	passive	imperfect     	[suppose that] {{subject}} {{was}} being {{perfect}} {{object}}     
+subjunctive	passive	perfect       	[suppose that] {{subject}} {{was}} {{perfect}} {{object}}           
+subjunctive	passive	pluperfect    	[suppose that] {{subject}} had been {{perfect}} {{object}}          	
+optative   	passive	present       	[may it be that] {{subject}} {{is}} {{perfect}} {{object}}          
+optative   	passive	imperfect     	[may it be that] {{subject}} {{was}} being {{perfect}} {{object}}   
+optative   	passive	perfect       	[may it be that] {{subject}} {{was}} {{perfect}} {{object}}         
+optative   	passive	pluperfect    	[may it be that] {{subject}} had been {{perfect}} {{object}}        	
+imperative 	passive	present       	[I command that] {{subject}} to be {{perfect}} {{object}}                
+imperative 	passive	future        	[I command that] {{subject}} will be {{perfect}} {{object}}               
+nonfinite  	passive	participle    	{{subject}} {{is}} {{imperfect}}

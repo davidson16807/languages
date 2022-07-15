@@ -1,0 +1,208 @@
+#swadesh 207 id	part-of-speech	English	Sumerian
+1	noun                 	I	ĝae, ĝe
+2	noun                 	you	zae, ze
+3	noun                 	he, she, it	ane, ene
+4	noun                 	we	menden
+5	noun                 	you all	menzen, zaemenzen, zaenzen
+6	noun                 	they	anene, enene
+7	noun                 	this	nen, ne
+8	noun                 	that	re
+9	noun                 	here	gu'e
+10	noun                 	there	gure
+11	noun                 	who	aba
+12	noun                 	what	ana, ta
+13	noun                 	where	mea, me, ma
+14	noun                 	when	menam
+15	noun                 	how	anagin, tagin
+16	adverb              	not	nu
+17	determiner            	all	du
+18	determiner            	many	i'iz
+19	determiner            	some	balare
+20	determiner            	few	aš, diš, did
+21	determiner            	other	min
+22	noun                 	one	eš, peš
+23	noun                 	two	limmu
+24	noun                 	three	ya
+25	noun                 	four	gal
+26	noun                 	five	sud4, gíd[BU]
+27	adjective	big	peš, dangal
+28	adjective	long	kul
+29	adjective	wide	dugud, kul
+30	adjective	thick	gi17, tur
+31	adjective	heavy	gud8
+32	adjective	small	sig
+33	adjective	short	gi17
+34	adjective	narrow	mu10, munus, géme
+35	adjective	thin	na, lú
+36	noun	woman	erim, lú
+37	noun	man	dumu, tur
+38	noun	human	dam
+39	noun	child	dam, ngitlam
+40	noun	wife	ama
+41	noun	husband	ada, pab
+42	noun	mother	ning-úr-limmu (quadruped)
+43	noun	father	ku6
+44	noun	animal	mušen, hu
+45	noun	fish	ur
+46	noun	bird	uh3
+47	noun	dog	muš, ušum
+48	noun	louse	mar
+49	noun	snake	ngiš
+50	noun	worm	tir
+51	noun	tree	ngiš
+52	noun	forest	gurun
+53	noun	stick	a
+54	noun	fruit	(ngiš)pa
+55	noun	seed	(ngiš) i-ri9-na
+56	noun	leaf	ul, gi-rin
+57	noun	root	ú
+58	noun	bark	éše
+59	noun	flower	su
+60	noun	grass	uzu, su
+61	noun	rope	úš, múd, ùri
+62	noun	skin	(ngiš)gag
+63	noun	meat	ìa
+64	noun	blood	nuz
+65	noun	bone	si
+66	noun	fat	kun
+67	noun	egg	(ngiš)pa
+68	noun	horn	siki
+69	noun	tail	sang, ugu
+70	noun	feather	ngeštug
+71	noun	hair	igi
+72	noun	head	kiri3,4
+73	noun	ear	ka
+74	noun	eye	zu
+75	noun	nose	eme
+76	noun	mouth	umbin
+77	noun	tooth	ngìri
+78	noun	tongue	pah[LUL], úr
+79	noun	fingernail	(ngiš)gag
+80	noun	foot	buzur, šu
+81	noun	leg	(ngiš)pa
+82	noun	knee	šag4
+83	noun	hand	gú
+84	noun	wing	háš
+85	noun	belly	gaba
+86	noun	guts	ur5HAR, šà, lipiš
+87	noun	neck	bà, ur5HAR
+88	noun	back	nang
+89	noun	breast	gu7
+90	noun	heart	zú-gub
+91	noun	liver	sub
+92	verb	drink	zug4
+93	verb	eat	buru8
+94	verb	bite	ru
+95	verb	suck	zi
+96	verb	spit	išiš2,3
+97	verb	vomit	igi
+98	verb	blow	ngeštug
+99	verb	breathe	zu
+100	verb	laugh	ngeštug
+101	verb	see	hab2, ir10
+102	verb	hear	ní
+103	verb	know	ù
+104	verb	think	sig7
+105	verb	smell	ug4,5,7,8
+106	verb	fear	ug4,5,7,8
+107	verb	sleep	du14
+108	verb	live	taka
+109	verb	die	ra
+110	verb	kill	kud, tar, ša5
+111	verb	fight	dar
+112	verb	hunt	ra
+113	verb	hit	hur
+114	verb	cut	bal
+115	verb	split	dal
+116	verb	stab	du
+117	verb	scratch	du
+118	verb	dig	ku, nud
+119	verb	swim	suš
+120	verb	fly	gub
+121	verb	walk	gur
+122	verb	come	šub
+123	verb	lay	ba, ru
+124	verb	sit	da
+125	verb	stand	hir[KEŠDA]
+126	verb	turn	sub
+127	verb	fall	tu5,17
+128	verb	give	sub
+129	verb	hold	rig
+130	verb	squeeze	taka
+131	verb	rub	ri
+132	verb	wash	dab2,4,5
+133	verb	wipe	šita5
+134	verb	pull	ég, bi
+135	verb	push	mud6, tuš
+136	verb	throw	ešemen2,3
+137	verb	tie	dirig
+138	verb	sew	zal
+139	verb	count	halba2,3
+140	verb	say	mah
+141	verb	sing	ud
+142	verb	play	iti, itud
+143	verb	float	ul, mul
+144	verb	flow	a
+145	verb	freeze	im
+146	verb	swell	id, ída
+147	noun	sun	ab, aba
+148	noun	moon	ab, aba, nab
+149	noun	star	mun
+150	noun	water	na4
+151	noun	rain	sahar
+152	noun	river	ukum
+153	noun	lake	ki
+154	noun	sea	imi, muru9, dugud
+155	noun	salt	muru9
+156	noun	stone	an
+157	noun	sand	líl
+158	noun	dust	šeg,8,9
+159	noun	earth	šeg8,9
+160	noun	cloud	i-bí
+161	noun	fog	izi
+162	noun	sky	dé
+163	noun	wind	tab, bil
+164	noun	snow	a-rá, sila3
+165	noun	ice	kur, iši
+166	noun	smoke	sa-sa
+167	noun	fire	sig7
+168	noun	ash	sig7
+169	verb	to burn	kug
+170	noun	road	gíg
+171	noun	mountain	ngi6
+172	adjective	red	u4
+173	adjective	green	mu
+174	adjective	yellow	kúm
+175	adjective	white	ten
+176	adjective	black	éšša
+177	noun	night	gibil
+178	noun	day	ul, libir
+179	noun	year	dùg
+180	adjective	warm	hul
+181	adjective	cold	hab2, sungin
+182	adjective	full	pe-el-lá
+183	adjective	new	ninda
+184	adjective	old	lah
+185	adjective	good	háda
+186	adjective	bad	gi-na
+187	adjective	rotten	da
+188	adjective	dirty	ta, sud
+189	adjective	straight	zi-da
+190	adjective	round	gùb-bu
+191	adjective	sharp	da
+192	adjective	dull	a
+193	adjective	smooth	ga
+194	adjective	wet	mu
+195	adjective	dry	mu 
+196	adjective	correct	
+197	adjective	near	
+198	adjective	far	
+199	adjective	right	
+200	adjective	left	
+201	preposition	at	
+202	preposition	in	
+203	preposition	with	
+204	preposition	and	
+205	preposition	if	
+206	preposition	because	
+207	noun	name	

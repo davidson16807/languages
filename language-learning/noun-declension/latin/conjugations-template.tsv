@@ -1,0 +1,155 @@
+voice	mood	tense	person	plurality	pre-subject	post-subject
+active	indicative	present	1	singular		
+active	indicative	present	2	singular		
+active	indicative	present	3	singular		
+active	indicative	present	1	plural		
+active	indicative	present	2	plural		
+active	indicative	present	3	plural		
+						
+active	indicative	future	1	singular		will
+active	indicative	future	2	singular		will
+active	indicative	future	3	singular		will
+active	indicative	future	1	plural		will
+active	indicative	future	2	plural		will
+active	indicative	future	3	plural		will
+						
+active	indicative	imperfect	1	singular		used to
+active	indicative	imperfect	2	singular		used to
+active	indicative	imperfect	3	singular		used to
+active	indicative	imperfect	1	plural		used to
+active	indicative	imperfect	2	plural		used to
+active	indicative	imperfect	3	plural		used to
+						
+active	indicative	perfect	1	singular		have been
+active	indicative	perfect	2	singular		have been
+active	indicative	perfect	3	singular		has been
+active	indicative	perfect	1	plural		have been
+active	indicative	perfect	2	plural		have been
+active	indicative	perfect	3	plural		have been
+						
+active	indicative	future perfect	1	singular		will have been
+active	indicative	future perfect	2	singular		will have been
+active	indicative	future perfect	3	singular		will have been
+active	indicative	future perfect	1	plural		will have been
+active	indicative	future perfect	2	plural		will have been
+active	indicative	future perfect	3	plural		will have been
+						
+active	indicative	pluperfect	1	singular		had been
+active	indicative	pluperfect	2	singular		had been
+active	indicative	pluperfect	3	singular		had been
+active	indicative	pluperfect	1	plural		had been
+active	indicative	pluperfect	2	plural		had been
+active	indicative	pluperfect	3	plural		had been
+						
+active	subjunctive	present	1	singular	[may it be that] 	
+active	subjunctive	present	2	singular	[may it be that] 	
+active	subjunctive	present	3	singular	[may it be that] 	
+active	subjunctive	present	1	plural	[may it be that] 	
+active	subjunctive	present	2	plural	[may it be that] 	
+active	subjunctive	present	3	plural	[may it be that] 	
+						
+active	subjunctive	imperfect	1	singular	[may it be that] 	used to
+active	subjunctive	imperfect	2	singular	[may it be that] 	used to
+active	subjunctive	imperfect	3	singular	[may it be that] 	used to
+active	subjunctive	imperfect	1	plural	[may it be that] 	used to
+active	subjunctive	imperfect	2	plural	[may it be that] 	used to
+active	subjunctive	imperfect	3	plural	[may it be that] 	used to
+						
+active	subjunctive	perfect	1	singular	[may it be that] 	have been
+active	subjunctive	perfect	2	singular	[may it be that] 	have been
+active	subjunctive	perfect	3	singular	[may it be that] 	has been
+active	subjunctive	perfect	1	plural	[may it be that] 	have been
+active	subjunctive	perfect	2	plural	[may it be that] 	have been
+active	subjunctive	perfect	3	plural	[may it be that] 	have been
+						
+active	subjunctive	pluperfect	1	singular	[may it be that] 	
+active	subjunctive	pluperfect	2	singular	[may it be that] 	
+active	subjunctive	pluperfect	3	singular	[may it be that] 	
+active	subjunctive	pluperfect	1	plural	[may it be that] 	
+active	subjunctive	pluperfect	2	plural	[may it be that] 	
+active	subjunctive	pluperfect	3	plural	[may it be that] 	
+						
+active	imperative	present	1	singular	[I command] 	
+active	imperative	present	2	singular	[I command] 	
+active	imperative	present	3	singular	[I command] 	
+active	imperative	present	1	plural	[I command] 	
+active	imperative	present	2	plural	[I command] 	
+active	imperative	present	3	plural	[I command] 	
+						
+active	imperative	future	1	singular	[I command] 	will
+active	imperative	future	2	singular	[I command] 	will
+active	imperative	future	3	singular	[I command] 	will
+active	imperative	future	1	plural	[I command] 	will
+active	imperative	future	2	plural	[I command] 	will
+active	imperative	future	3	plural	[I command] 	will
+						
+passive	indicative	present	1	singular		am
+passive	indicative	present	2	singular		are
+passive	indicative	present	3	singular		is
+passive	indicative	present	1	plural		are
+passive	indicative	present	2	plural		are
+passive	indicative	present	3	plural		are
+						
+passive	indicative	future	1	singular		will be
+passive	indicative	future	2	singular		will be
+passive	indicative	future	3	singular		will be
+passive	indicative	future	1	plural		will be
+passive	indicative	future	2	plural		will be
+passive	indicative	future	3	plural		will be
+						
+passive	indicative	imperfect	1	singular		was being
+passive	indicative	imperfect	2	singular		were being
+passive	indicative	imperfect	3	singular		was being
+passive	indicative	imperfect	1	plural		were being
+passive	indicative	imperfect	2	plural		were being
+passive	indicative	imperfect	3	plural		were being
+						
+passive	indicative	perfect	1	singular		was
+passive	indicative	perfect	2	singular		were
+passive	indicative	perfect	3	singular		was
+passive	indicative	perfect	1	plural		were
+passive	indicative	perfect	2	plural		were
+passive	indicative	perfect	3	plural		were
+						
+passive	indicative	future perfect	1	singular		will have been
+passive	indicative	future perfect	2	singular		will have been
+passive	indicative	future perfect	3	singular		will have been
+passive	indicative	future perfect	1	plural		will have been
+passive	indicative	future perfect	2	plural		will have been
+passive	indicative	future perfect	3	plural		will have been
+						
+passive	indicative	pluperfect	1	singular		had been
+passive	indicative	pluperfect	2	singular		had been
+passive	indicative	pluperfect	3	singular		had been
+passive	indicative	pluperfect	1	plural		had been
+passive	indicative	pluperfect	2	plural		had been
+passive	indicative	pluperfect	3	plural		had been
+						
+passive	subjunctive	present	1	singular	[may it be that]	am
+passive	subjunctive	present	2	singular	[may it be that]	am
+passive	subjunctive	present	3	singular	[may it be that]	am
+passive	subjunctive	present	1	plural	[may it be that]	am
+passive	subjunctive	present	2	plural	[may it be that]	am
+passive	subjunctive	present	3	plural	[may it be that]	am
+						
+passive	subjunctive	imperfect	1	singular	[may it be that]	I was being
+passive	subjunctive	imperfect	2	singular	[may it be that]	I was being
+passive	subjunctive	imperfect	3	singular	[may it be that]	I was being
+passive	subjunctive	imperfect	1	plural	[may it be that]	I was being
+passive	subjunctive	imperfect	2	plural	[may it be that]	I was being
+passive	subjunctive	imperfect	3	plural	[may it be that]	I was being
+						
+passive	subjunctive	perfect	1	singular	[may it be that]	was
+passive	subjunctive	perfect	2	singular	[may it be that]	were
+passive	subjunctive	perfect	3	singular	[may it be that]	was
+passive	subjunctive	perfect	1	plural	[may it be that]	were
+passive	subjunctive	perfect	2	plural	[may it be that]	were
+passive	subjunctive	perfect	3	plural	[may it be that]	were
+						
+passive	subjunctive	pluperfect	1	singular	[may it be that]	had been
+passive	subjunctive	pluperfect	2	singular	[may it be that]	had been
+passive	subjunctive	pluperfect	3	singular	[may it be that]	had been
+passive	subjunctive	pluperfect	1	plural	[may it be that]	had been
+passive	subjunctive	pluperfect	2	plural	[may it be that]	had been
+passive	subjunctive	pluperfect	3	plural	[may it be that]	had been
+						

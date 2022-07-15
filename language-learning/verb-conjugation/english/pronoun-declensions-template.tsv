@@ -1,0 +1,10 @@
+nominative        	{{declined}} {{direct}} the horse                      
+accusative        	the man directs {{declined}}                                   
+reflexive         	{{declined}} {{direct}} {{declined}}           
+emphatic-reflexive	no, {{nominative}} {{direct}} {{declined}}
+genitive          	the horse is {{declined}}                                      
+ablative          	the man directs the horse away from {{declined}}               
+dative            	the man directs the horse to {{declined}}                      
+instrumental      	the man directs the horse using {{declined}} [as help]         
+locative          	the man directs the horse near {{declined}}                    
+vocative          	[damn] {{declined}}!                                            

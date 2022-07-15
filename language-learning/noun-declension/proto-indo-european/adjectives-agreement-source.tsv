@@ -1,0 +1,39 @@
+#english	emoji	emoji-possession	declension	plurality	nominative  	vocative    	accusative  	genitive    	ablative    	dative      	locative    	instrumental
+#					neuter   	neuter   	neuter   	neuter   	neuter   	neuter   	neuter   	neuter   
+young	👦    	💎             	thematic      	singular	h₂yuHn̥ḱós    	h₂yuHn̥ḱé     	h₂yuHn̥ḱóm    	h₂yuHn̥ḱósyo  	h₂yuHn̥ḱéad   	h₂yuHn̥ḱóey   	h₂yuHn̥ḱóy    	h₂yuHn̥ḱóh₁   
+young	👦    	💎             	thematic      	dual	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóh₁     	                	                	                	                	                
+young	👦    	💎             	thematic      	plural	h₂yuHn̥ḱóes     	h₂yuHn̥ḱóes     	h₂yuHn̥ḱóms     	h₂yuHn̥ḱóHom    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱóysu    	h₂yuHn̥ḱṓys     
+            												
+young	👧    	💎             	thematic      	single	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱā́m   	h₂yuHn̥ḱéh₂s  	h₂yuHn̥ḱéh₂s  	h₂yuHn̥ḱéh₂ey 	h₂yuHn̥ḱéh₂i  	h₂yuHn̥ḱéh₂h₁ 
+young	👧    	💎             	thematic      	dual	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂h₁(e)	                	                	                	                	                
+young	👧    	💎             	thematic      	plural	h₂yuHn̥ḱéh₂es   	h₂yuHn̥ḱéh₂es   	h₂yuHn̥ḱéh₂m̥s  	h₂yuHn̥ḱéh₂oHom 	h₂yuHn̥ḱéh₂mos  	h₂yuHn̥ḱéh₂mos  	h₂yuHn̥ḱéh₂su   	h₂yuHn̥ḱéh₂bʰi  
+            												
+young	🐱    	🐟             	thematic      	single	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóm    	h₂yuHn̥ḱósyo  	h₂yuHn̥ḱéad   	h₂yuHn̥ḱóey   	h₂yuHn̥ḱóy    	h₂yuHn̥ḱóh₁   
+young	🐱    	🐟             	thematic      	dual	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱóy(h₁)  	                	                	                	                	                
+young	🐱    	🐟             	thematic      	plural	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱóHom    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱóysu    	h₂yuHn̥ḱṓys     
+            												
+old  	👴    	💎             	amphikinetic  	single	ǵérh₂onts     	ǵérh₂ont      	ǵérh₂ontm̥    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥téy    	ǵr̥h₂énti     	ǵr̥h₂n̥téh₁   
+old  	👴    	💎             	amphikinetic  	dual	ǵérh₂onth₁(e)   	ǵérh₂onth₁(e)   	ǵérh₂onth₁(e)   	                	                	                	                	                
+old  	👴    	💎             	amphikinetic  	plural	ǵérh₂ontes      	ǵérh₂ontes      	ǵérh₂ontm̥s     	ǵr̥h₂n̥tóHom    	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tsú      	ǵr̥h₂n̥tbʰí     
+            												
+old  	👵    	💎             	amphikinetic  	single	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂m̥ 	ǵr̥h₂n̥tyéh₂s 	ǵr̥h₂n̥tyéh₂s 	ǵr̥h₂n̥tyéh₂ey	ǵr̥h₂n̥tyéh₂i 	ǵr̥h₂n̥tyéh₂h₁
+old  	👵    	💎             	amphikinetic  	dual	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂h₁(e)	                	                	                	                	                
+old  	👵    	💎             	amphikinetic  	plural	ǵr̥h₂éntih₂es   	ǵr̥h₂éntih₂es   	ǵr̥h₂éntih₂m̥s  	ǵr̥h₂n̥tyéh₂oHom	ǵr̥h₂n̥tyéh₂mos 	ǵr̥h₂n̥tyéh₂mos 	ǵr̥h₂n̥tyéh₂su  	ǵr̥h₂n̥tyéh₂bʰi 
+            												
+old  	🦁  	🐟             	amphikinetic  	single	ǵérh₂ont      	ǵérh₂ont      	ǵérh₂ont      	ǵr̥h₂n̥tés    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥téy    	ǵr̥h₂énti     	ǵr̥h₂n̥téh₁   
+old  	🦁  	🐟             	amphikinetic  	dual	ǵérh₂ontih₁     	ǵérh₂ontih₁     	ǵérh₂ontih₁     	                	                	                	                	                
+old  	🦁  	🐟             	amphikinetic  	plural	ǵérh₂onth₂      	ǵérh₂onth₂      	ǵérh₂onth₂      	ǵr̥h₂n̥tóHom    	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tsú      	ǵr̥h₂n̥tbʰí     
+            												
+angry	🙍‍♂️ 	💎             	proterokinetic	single	tréystis      	tréysti       	tréystim      	tristéys      	tristéys      	tristéyey     	tristḗy       	tristíh₁      
+angry	🙍‍♂️ 	💎             	proterokinetic	dual	tréystih₁(e)    	tréystih₁(e)    	tréystih₁(e)    	                	                	                	                	                
+angry	🙍‍♂️ 	💎             	proterokinetic	plural	tréysteyes      	tréysteyes      	tréystims       	tristéyoHom     	tristímos       	tristímos       	tristísu        	tristíbʰi       
+            												
+angry	🙍‍♀️ 	💎             	proterokinetic	single	tristéyih₂    	tristéyih₂    	tristéyih₂m̥  	tristiyéh₂s   	tristiyéh₂s   	tristiyéh₂ey  	tristiyéh₂i   	tristiyéh₂h₁  
+angry	🙍‍♀️ 	💎             	proterokinetic	dual	tristéyih₂h₁(e) 	tristéyih₂h₁(e) 	tristéyih₂h₁(e) 	                	                	                	                	                
+angry	🙍‍♀️ 	💎             	proterokinetic	plural	tristéyih₂es    	tristéyih₂es    	tristéyih₂m̥s   	tristiyéh₂oHom  	tristiyéh₂mos   	tristiyéh₂mos   	tristiyéh₂su    	tristiyéh₂bʰi   
+												
+upset	😾    	🐟             	proterokinetic	single	tréysti       	tréysti       	tréysti       	tristéys      	tristéys      	tristéyey     	tristḗy       	tristíh₁      
+upset	😾    	🐟             	proterokinetic	dual	tréystyih₁      	tréystyih₁      	tréystyih₁      	                	                	                	                	                
+upset	😾    	🐟             	proterokinetic	plural	tréystih₂       	tréystih₂       	tréystih₂       	tristéyoHom     	tristímos       	tristímos       	tristísu        	tristíbʰi       
+												
+												
