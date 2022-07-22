@@ -1,0 +1,75 @@
+#			indicative	indicative	indicative	conditional	conditional	conditional	conjunctive	imperative	group								
+#			present	imperfect	future	present	I	II	future										
+love	1	singular	liebe	liebte	werde lieben	würde lieben	liebe	liebte	werde lieben		regular -en verbs, weak								
+love	2	singular	liebst	liebtest	wirst lieben	würdest lieben	liebest	liebtest	werdest lieben	lieb(e)	regular -en verbs, weak								
+love	3	singular	liebt	liebte	wird lieben	würde lieben	liebe	liebte	werde lieben	liebe	regular -en verbs, weak								
+love	1	plural	lieben	liebten	werden lieben	würden lieben	lieben	liebten	werden lieben	lieben	regular -en verbs, weak								
+love	2	plural	liebt	liebtet	werdet lieben	würdet lieben	liebet	liebtet	werdet lieben	liebt	regular -en verbs, weak								
+love	3	plural	lieben	liebten	werden lieben 	würden lieben 	lieben	liebten	werden lieben 	lieben 	regular -en verbs, weak								
+act	1	singular	handle/handele	handelte	werde handeln	würde handeln	handle	handelte	werde handeln		regular -n verbs, weak								
+act	2	singular	handelst	handeltest	wirst handeln	würdest handeln	handlest	handeltest	werdest handeln	handle	regular -n verbs, weak								
+act	3	singular	handelt	handelte	wird handeln	würde handeln	handle	handelte	werde handeln	 	regular -n verbs, weak								
+act	1	plural	handeln	handelten	werden handeln	würden handeln	handlen	handelten	werden handeln	handeln	regular -n verbs, weak								
+act	2	plural	handelt	handeltet	werdet handeln	würdet handeln	handlet	handeltet	werdet handeln	handelt	regular -n verbs, weak								
+act	3	plural	handeln	handelten	werden handeln 	würden handeln 	handlen	handelten	werden handeln 	handeln 	regular -n verbs, weak								
+work	1	singular	arbeite	arbeitete	werde arbeiten	würde arbeiten	arbeite	arbeitete	werde arbeiten		regular -ten verbs, weak								
+work	2	singular	arbeitest	arbeitetest	wirst arbeiten	würdest arbeiten	arbeitest	arbeitetest	werdest arbeiten	arbeite	regular -ten verbs, weak								
+work	3	singular	arbeitet	arbeitete	wird arbeiten	würde arbeiten	arbeite	arbeitete	werde arbeiten	 	regular -ten verbs, weak								
+work	1	plural	arbeiten	arbeiteten	werden arbeiten	würden arbeiten	arbeiten	arbeiteten	werden arbeiten	arbeiten	regular -ten verbs, weak								
+work	2	plural	arbeitet	arbeitetet	werdet arbeiten	würdet arbeiten	arbeitet	arbeitetet	werdet arbeiten	arbeitet	regular -ten verbs, weak								
+work	3	plural	arbeiten	arbeiteten	werden arbeiten 	würden arbeiten 	arbeiten	arbeiteten	werden arbeiten 	arbeiten 	regular -ten verbs, weak								
+drive	1	singular	fahre	fuhr	werde fahren	würde fahren	fahre	führe	werde fahren		irregular -en verbs, strong								
+drive	2	singular	fährst	fuhrst	wirst fahren	würdest fahren	fahrest	führest	werdest fahren	fahr(e)	irregular -en verbs, strong								
+drive	3	singular	fährt	fuhr	wird fahren	würde fahren	fahre	führe	werde fahren	 	irregular -en verbs, strong								
+drive	1	plural	fahren	fuhren	werden fahren	würden fahren	fahren	führen	werden fahren	fahren	irregular -en verbs, strong								
+drive	2	plural	fahrt	fuhrt	werdet fahren	würdet fahren	fahret	führet	werdet fahren	fahrt	irregular -en verbs, strong								
+drive	3	plural	fahren	fuhren	werden fahren 	würden fahren 	fahren	führen	werden fahren 	fahren 	irregular -en verbs, strong								
+give	1	singular	gebe	gab	werde geben	würde geben	gebe	gäbe	werde geben		irregular -en verbs, strong								
+give	2	singular	gibst	gabst	wirst geben	würdest geben	gebest	gäbest	werdest geben	gib	irregular -en verbs, strong								
+give	3	singular	gibt	gab	wird geben	würde geben	gebe	gäbe	werde geben	 	irregular -en verbs, strong								
+give	1	plural	geben	gaben	werden geben	würden geben	geben	gäben	werden geben	geben	irregular -en verbs, strong								
+give	2	plural	gebt	gabt	werdet geben	würdet geben	gebet	gäbet	werdet geben	gebt	irregular -en verbs, strong								
+give	3	plural	geben	gaben	werden geben 	würden geben 	geben	gäben	werden geben 	geben 	irregular -en verbs, strong								
+go	1	singular	gehe	ging	werde gehen	würde gehen	gehe	ginge	werde gehen		irregular								
+go	2	singular	gehst	gingst	wirst gehen	würdest gehen	gehest	gingest	werdest gehen	geh(e)'	irregular								
+go	3	singular	geht	ging	wird gehen	würde gehen	gehe	ginge	werde gehen	 	irregular								
+go	1	plural	gehen	gingen	werden gehen	würden gehen	gehen	gingen	werden gehen	gehen	irregular								
+go	2	plural	geht	gingt	werdet gehen	würdet gehen	gehet	ginget	werdet gehen	geht	irregular								
+go	3	plural	gehen	gingen	werden gehen 	würden gehen 	gehen	gingen	werden gehen 	gehen 	irregular								
+may	1	singular	darf	durfte	werde dürfen	würde dürfen	dürfe	dürfte	werde dürfen		irregular								
+may	2	singular	darfst	durftest	wirst dürfen	würdest dürfen	dürfest	dürftest	werdest dürfen	dürfe	irregular								
+may	3	singular	darf	durfte	wird dürfen	würde dürfen	dürfe	dürfte	werde dürfen	 	irregular								
+may	1	plural	dürfen	durften	werden dürfen	würden dürfen	dürfen	dürften	werden dürfen	dürfen	irregular								
+may	2	plural	dürft	durftet	werdet dürfen	würdet dürfen	dürfet	dürftet	werdet dürfen	dürft	irregular								
+may	3	plural	dürfen	durften	werden dürfen 	würden dürfen 	dürfen	dürften	werden dürfen 	dürfen 	irregular								
+become	1	singular	werde	wurde	werde werden	würde werden	werde	würde	werde werden		irregular								
+become	2	singular	wirst	wurdest	wirst werden	würdest werden	werdest	würdest	werdest werden	werde	irregular								
+become	3	singular	wird	wurde	wird werden	würde werden	werde	würde	werde werden	 	irregular								
+become	1	plural	werden	wurden	werden werden	würden werden	werden	würden	werden werden	werden	irregular								
+become	2	plural	werdet	wurdet	werdet werden	würdet werden	werdet	würdet	werdet werden	werdet	irregular								
+become	3	plural	werden 	wurden 	werden werden 	würden werden 	werden	würden	werden werden 	werden 	irregular								
+be	1	singular	bin	war	werde sein	würde sein	sei	wäre	werde sein		irregular								
+be	2	singular	bist	warst	wirst sein	würdest sein	sei(e)st	wärest	werdest sein	sei	irregular								
+be	3	singular	ist	war	wird sein	würde sein	sei	wäre	werde sein	 	irregular								
+be	1	plural	sind	waren	werden sein	würden sein	seien	wären	werden sein	seien	irregular								
+be	2	plural	seid	wart	werdet sein	würdet sein	seiet	wäret	werdet sein	seid	irregular								
+be	3	plural	sind	waren	werden sein 	würden sein 	seien	wären	werden sein 	seien 	irregular								
+have	1	singular	habe	hatte	werde haben	würde haben	habe	hätte	werde haben		irregular								
+have	2	singular	hast	hattest	wirst haben	würdest haben	habest	hättest	werdest haben	hab(e)	irregular								
+have	3	singular	hat	hatte	wird haben	würde haben	habe	hätte	werde haben	 	irregular								
+have	1	plural	haben	hatten	werden haben	würden haben	haben	hätten	werden haben	haben	irregular								
+have	2	plural	habt	hattet	werdet haben	würdet haben	habet	hättet	werdet haben	habt	irregular								
+have	3	plural	haben	hatten	werden haben 	würden haben 	haben	hätten	werden haben 	haben 	irregular								
+do	1	singular	tue	tat	werde tun	würde tun	tue	täte	werde tun		irregular								
+do	2	singular	tust	tatest	wirst tun	würdest tun	tuest	tätest	werdest tun	tu(e)	irregular								
+do	3	singular	tut	tat	wird tun	würde tun	tue	täte	werde tun	 	irregular								
+do	1	plural	tun	taten	werden tun	würden tun	tuen	täten	werden tun	tun	irregular								
+do	2	plural	tut	tatet	werdet tun	würdet tun	tuet	tätet	werdet tun	tut	irregular								
+do	3	plural	tun	taten	werden tun 	würden tun 	tuen	täten	werden tun 	tun 	irregular								
+																			
+																			
+																			
+																			
+																			
+																			
+																			

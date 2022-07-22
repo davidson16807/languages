@@ -1,0 +1,36 @@
+#										
+#mood	hand position		hand	neuter speaker	bubble-style	bubble-type	pre-scene	post-scene	non-infinitive alternative	explanation
+indicative				\p1{🧑\g1\c1}	affirmative	speech				
+subjunctive				\p1{🤷\c1\g1}	affirmative	thought		→…	[even if]	Event is considered unlikely (mainly used in dependent clauses)
+conditional				\p1{🤷\c1\g1}	affirmative	thought	…→		[if so, then]	Event depends upon another condition.
+optative	raised		🤞	\p1{🧑\g1\c1}	affirmative	speech			[may it be]	Event is hoped, expected, or awaited.
+benedictive	lowered		🙏	\p1{🧑\g1\c1}	affirmative	speech			[may it be]	Event is blessed by the speaker
+jussive	lowered		🙏	\p1{🙇\c1\g1}	affirmative	speech			[it should be]	Event is pleaded, implored or asked.
+potential				\p1{🧑\g1\c1}	affirmative	thought			[it's likely]	Event is probable or considered likely.
+imperative				\p1{🤴\g1\c1}	affirmative	speech			[I command that]	Event is directly ordered or requested by the speaker.
+prohibitive				\p1{🤴\g1\c1}	negative	speech			[I forbid that]	Event is directly prohibited by the speaker.
+desiderative				\p1{🧑\g1\c1}	affirmative	speech	{subject}<sup>🤞</sup>			Event is desired/wished by the subject
+dubitative				\p1{🤷\c1\g1}	affirmative	speech			[maybe]	Event is uncertain, doubtful, dubious.
+hypothetical				\p1{🤷\c1\g1}	affirmative	speech	∃		[it's at least possible]	Event is hypothetical, or it is counterfactual, but possible.
+presumptive				\p1{🤷\c1\g1}	affirmative	speech	⊦		[suppose that]	Event is assumed, presupposed by the speaker.
+permissive	chestlevel	mirror	👍	\p1{🧑\g1\c1}	affirmative	speech			[I'm fine that]	Event is permitted by the speaker.
+admirative				\p1{🧑\g1\c1}	affirmative	speech		!	[wow!]	Event is genuinely surprising or amazing
+ironic-admirative				\p1{🙎\c1\g1}	affirmative	speech		!	[gee!]	Event is surprising or amazing, in irony or sarcasm
+hortative	raised		✊	\p1{🧑\g1\c1}	affirmative	speech		!	[may it be]	Event is exhorted, implored, insisted or encouraged by speaker.
+eventitive				\p1{🧑\g1\c1}	affirmative	speech	…→		[if so, it's likely]	Event is likely but depends upon a condition. 
+precative	lowered	flip	🤲	\p1{🧑\g1\c1}	affirmative	speech		?	[please, can it be that]	Event is requested by the speaker.
+volitive	raised		🤞	\p1{🙍\c1\g1}	affirmative	speech			[if only]	Event is desired, wished or feared by the speaker.
+involutive	raised		🤞	\p1{🙍\c1\g1}	negative	speech			[heaven forbid]	Event is feared by the speaker.
+inferential			☝️	\p1{🧑\g1\c1}	affirmative	quote			[it is said that]	Event is nonwitnessed, and not confirmed.
+necessitative				\p1{🙇\c1\g1}	affirmative	speech		!	[it is imperative that]	Event is necessary, or it is both desired and encouraged. 
+interrogative				\p1{🤷\c1\g1}	affirmative	speech		?	[is it true that]	Event is asked or questioned by the speaker 
+injunctive				\p1{🧑\g1\c1\⚖️}	affirmative	speech			[I intend]	Event is intended by the speaker
+suggestive	raised		☝️	\p1{🧑\g1\c1}	affirmative	speech			[I suggest]	Event is proposed by the speaker
+comissive	raised		✋	\p1{🧑\g1\c1}	affirmative	speech			[I vow]	Event is committed to by the speaker, such as by promise or threat
+deliberative				\p1{💁\c1\g1}	affirmative	speech		?	[shall it be]	Event is considered by the speaker, asking for confirmation
+propositive				\p1{🤷\c1\g1}	affirmative	speech		?	[should it be]	Event is proposed by the speaker, asking for consideration
+dynamic	chestlevel		💪	\p1{🧑\g1\c1}	affirmative	speech				Event is able to be done by the subject
+										
+										
+										
+										

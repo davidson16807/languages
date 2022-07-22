@@ -1,0 +1,130 @@
+#			mood->	indicative	indicative	indicative	indicative	indicative	indicative	subjunctive	subjunctive	subjunctive	subjunctive	imperative	imperative										
+#			tense->	present	past	future	present	past	future	present	past	present	past	present	future										
+#verb	voice	person	aspect->	aortist	imperfect	aortist	perfect	perfect	perfect	aortist	imperfect	perfect	perfect	simple	simple										
+be	active	1	singular	sum	eram	erō	fuī	fueram	fuerō	sim	essem	fuerim	fuissem		estō	irregular									
+be	active	2	singular	es	erās	eris	fuistī	fuerās	fuerīs	sīs	essēs	fuerīs	fuissēs	es	estō	irregular									
+be	active	3	singular	est	erat	erit	fuit	fuerat	fuerit	sit	esset	fuerit	fuisset		estō	irregular									
+be	active	1	plural	sumus	erāmus	erimus	fuimus	fuerāmus	fuerīmus	sīmus	essēmus	fuerīmus	fuissēmus		estō	irregular									
+be	active	2	plural	estis	erātis	eritis	fuistis	fuerātis	fuerītis	sītis	essētis	fuerītis	fuissētis	este	estōte	irregular									
+be	active	3	plural	sunt	erant	erunt	fuērunt/fuēre	fuerant	fuerint	sint	essent	fuerint	fuissent		suntō	irregular									
+be able	active	1	singular	possum	poteram	poterō	potuī	potueram	potuerō	possim	possem	potuerim	potuissem			irregular									
+be able	active	2	singular	potes	poterās	poteris	potuistī	potuerās	potuerīs	possīs	possēs	potuerīs	potuissēs			irregular									
+be able	active	3	singular	potest	poterat	poterit	potuit	potuerat	potuerit	possit	posset	potuerit	potuisset			irregular									
+be able	active	1	plural	possumus	poterāmus	poterimus	potuimus	potuerāmus	potuerīmus	possīmus	possēmus	potuerīmus	potuissēmus			irregular									
+be able	active	2	plural	potestis	poterātis	poteritis	potuistis	potuerātis	potuerītis	possītis	possētis	potuerītis	potuissētis			irregular									
+be able	active	3	plural	possunt	poterant	poterunt	potuērunt/-ēre	potuerant	potuerint	possint	possent	potuerint	potuissent			irregular									
+want	active	1	singular	volō	volēbam	volam	voluī	volueram	voluerō	velim	vellem	voluerim	voluissem			irregular									
+want	active	2	singular	vīs	volēbās	volēs	voluistī	voluerās	voluerīs	velīs	vellēs	voluerīs	voluissēs			irregular									
+want	active	3	singular	vult	volēbat	volet	voluit	voluerat	voluerit	velit	vellet	voluerit	voluisset			irregular									
+want	active	1	plural	volumus	volēbāmus	volēmus	voluimus	voluerāmus	voluerīmus	velīmus	vellēmus	voluerīmus	voluissēmus			irregular									
+want	active	2	plural	vultis	volēbātis	volētis	voluistis	voluerātis	voluerītis	velītis	vellētis	voluerītis	voluissētis			irregular									
+want	active	3	plural	volunt	volēbant	volent	voluērunt/-ēre	voluerant	voluerint	velint	vellent	voluerint	voluissent			irregular									
+go	active	1	singular	eō	ībam	ībō	iī/īvī	ieram	ierō	eam	īrem	ierim	īssem			irregular									
+go	active	2	singular	īs	ībās	ībis	iistī	ierās	ierīs	eās	īrēs	ierīs	īssēs	ī	ītō	irregular									
+go	active	3	singular	it	ībat	ībit	iit	ierat	ierit	eat	īret	ierit	īsset		ītō	irregular									
+go	active	1	plural	īmus	ībāmus	ībimus	iimus	ierāmus	ierīmus	eāmus	īrēmus	ierīmus	īssēmus			irregular									
+go	active	2	plural	ītis	ībātis	ībitis	iistis	ierātis	ierītis	eātis	īrētis	ierītis	īssētis	īte	ītōte 	irregular									
+go	active	3	plural	eunt	ībant	ībunt	iērunt/iēre	ierant	ierint	eant	īrent	ierint	īssent		euntō	irregular									
+go	passive	1	singular	eor	ībar	ībor 	itus sum	itus eram	itus erō	eam 	īrem 	ierim 	īssem 			irregular									
+go	passive	2	singular	īris	ībāris	īberis	itus es	itus erās	itus eris	eās 	īrēs 	ierīs 	īssēs 	īre	ītor 	irregular									
+go	passive	3	singular	ītur	ībātur	ībitur 	itus est	itus erat	itus erit	eat 	īret 	ierit 	īsset 		ītor	irregular									
+go	passive	1	plural	īmur 	ībāmur 	ībimur 	itūs sumus	itūs erāmus	itūs erimus	eāmus 	īrēmus 	ierīmus 	īssēmus 			irregular									
+go	passive	2	plural	īminī 	ībāminī 	ībiminī 	itūs estis	itūs erātis	itūs eritis	eātis 	īrētis 	ierītis 	īssētis 	īminī		irregular									
+go	passive	3	plural	euntur	ībantur	ībuntur 	itūs sunt	itūs erant	itūs erunt	eant	īrent	ierint	īssent 		euntor	irregular									
+active	bear	1	singular	ferō	ferēbam	feram	tulī	tuleram	tulerō 	feram	ferrem	tulerim	tulissem 			irregular									
+active	bear	2	singular	fers	ferēbās	ferēs	tulistī	tulerās	tuleris 	ferās	ferrēs	tulerīs	tulissēs 	fer	fertō	irregular									
+active	bear	3	singular	fert	ferēbat	feret	tulit	tulerat	tulerit	ferat	ferret	tulerit	tulisset 		fertō	irregular									
+active	bear	1	plural	ferimus	ferēbāmus	ferēmus	tulimus	tulerāmus	tulerimus 	ferāmus	ferrēmus	tulerīmus	tulissēmus 			irregular									
+active	bear	2	plural	fertis	ferēbātis	ferētis	tulistis	tulerātis	tuleritis 	ferātis	ferrētis	tulerītis	tulissētis 	ferte	fertōte	irregular									
+active	bear	3	plural	ferunt	ferēbant	ferent	tulērunt	tulerant	tulerint 	ferant	ferrent	tulerint	tulissent 		feruntō	irregular									
+passive	bear	1	singular	feror	ferēbar	ferar 	lātus sum	lātus eram	lātus erō	ferar	ferrer 	lātus sim	lātus essem			irregular									
+passive	bear	2	singular	ferris	ferēbāris	ferēris 	lātus es	lātus erās	lātus eris	ferāris	ferrēris 	lātus sīs	lātus essēs	ferre	fertor 	irregular									
+passive	bear	3	singular	fertur 	ferēbātur 	ferētur 	lātus est	lātus erat	lātus erit	ferātur 	ferrētur 	lātus sit	lātus esset		fertor	irregular									
+passive	bear	1	plural	ferimur 	ferēbāmur 	ferēmur 	lātī sumus	lātī erāmus	lātī erimus	ferāmur 	ferrēmur 	lātī sīmus	lātī essēmus			irregular									
+passive	bear	2	plural	feriminī 	ferēbāminī 	ferēminī 	lātī estis	lātī erātis	lātī eritis	ferāminī 	ferrēminī 	lātī sītis	lātī essētis	feriminī 		irregular									
+passive	bear	3	plural	feruntur	ferēbantur	ferentur 	lātī sunt	lātī erant	lātī erunt	ferantur	ferrentur 	lātī sint	lātī essent		feruntor	irregular									
+active	become	1	singular	fīō 	fīēbam 	fīam 	factus sum	factus eram	factus erō	fīam 	fierem 	factus sim	factus essem			irregular									
+active	become	2	singular	fīs 	fīēbās 	fīēs 	factus es	factus erās	factus eris	fīās 	fierēs 	factus sīs	factus essēs	fī	fītō 	irregular									
+active	become	3	singular	fit 	fīēbat 	fīet 	factus est	factus erat	factus erit	fīat 	fieret 	factus sit	factus esset		fītō	irregular									
+active	become	1	plural	fīmus 	fīēbāmus 	fīēmus 	factī sumus	factī erāmus	factī erimus	fīāmus 	fierēmus 	factī sīmus	factī essēmus			irregular									
+active	become	2	plural	fītis 	fīēbātis 	fīētis 	factī estis	factī erātis	factī eritis	fīātis 	fierētis 	factī sītis	factī essētis	fīte	fītōte 	irregular									
+active	become	3	plural	fīunt	fīēbant	fīent 	factī sunt	factī erant	factī erunt	fīant	fierent 	factī sint	factī essent		fīuntō	irregular									
+active	eat	1	singular	edō	edēbam	edam	ēdī	ēderam	ēderō 	edam/edim	ederem/ēssem	ēderim	ēdissem 			irregular									
+active	eat	2	singular	edis/ēs	edēbās	edēs	ēdistī	ēderās	ēderis 	edās/edīs	ederēs/ēssēs	ēderīs	ēdissēs 	ede/ēs	editō/ēstō 	irregular									
+active	eat	3	singular	edit/ēst	edēbat	edet	ēdit	ēderat	ēderit 	edat/edit	ederet/ēsset	ēderit	ēdisset 		editō/ēstō	irregular									
+active	eat	1	plural	edimus	edēbāmus	edēmus	ēdimus	ēderāmus	ēderimus 	edāmus/edīmus	ederēmus/ēssēmus	ēderīmus	ēdissēmus 			irregular									
+active	eat	2	plural	editis/ēstis	edēbātis	edētis	ēdistis	ēderātis	ēderitis 	edātis/edītis	ederētis/ēssētis	ēderītis	ēdissētis 	edite/ēste	editōte/ēstōte 	irregular									
+active	eat	3	plural	edunt	edēbant	edent 	ēdērunt/ēdēre	ēderant	ēderint 	edant/edint	ederent/ēssent	ēderint	ēdissent 		eduntō	irregular									
+passive	eat	1	singular	edor	edēbar	edar 	ēsus sum	ēsus eram	ēsus erō	edar	ederer 	ēsus sim	ēsus essem			irregular									
+passive	eat	2	singular	ederis/edere	edēbāris/edēbāre	edēris/edēre 	ēsus es	ēsus erās	ēsus eris	edāris/edāre	ederēris/ederēre 	ēsus sīs	ēsus essēs	edere	editor 	irregular									
+passive	eat	3	singular	editur/ēstur	edēbātur	edētur 	ēsus est	ēsus erat	ēsus erit	edātur	ederētur 	ēsus sit	ēsus esset		editor	irregular									
+passive	eat	1	plural	edimur 	edēbāmur 	edēmur 	ēsī sumus	ēsī erāmus	ēsī erimus	edāmur 	ederēmur 	esī sīmus	esī essēmus			irregular									
+passive	eat	2	plural	ediminī 	edēbāminī 	edēminī 	ēsī estis	ēsī erātis	ēsī eritis	edāminī 	ederēminī 	esī sītis	esī essētis	ediminī		irregular									
+passive	eat	3	plural	eduntur	edēbantur	edentur 	ēsī sunt	ēsī erant	ēsī erunt	edantur	ederentur 	esī sint	esī essent		eduntor	irregular									
+love	active	1	singular	amō	amābam	amābō	amāvī	amāveram	amāverō	amem	amārem	amāverim	amā(vi)ssem			1st conjugation									
+love	active	2	singular	amās	amābās	amābis	amāvistī	amāverās	amāverīs	amēs	amārēs	amāverīs	amāssēs	amā	amātō	1st conjugation									
+love	active	3	singular	amat	amābat	amābit	amāvit	amāverat	amāverit	amet	amāret	amāverit	amāsset			1st conjugation									
+love	active	1	plural	amāmus	amābāmus	amābimus	amāvimus	amāverāmus	amāverīmus	amēmu	amārēmus	amāverīmus	amāssēmus			1st conjugation									
+love	active	2	plural	amātis	amābātis	amābitis	amāvistis	amāverātis	amāverītis	amētis	amārētis	amāverītis	amāssētis	amāte	amātōte	1st conjugation									
+love	active	3	plural	amant	amābant	amābunt	amāvērunt/-ēre	amāverant	amāverint	ament	amārent	amāverint	amāssent			1st conjugation									
+love	passive	1	singular	amor	amābar	amābor	amātus sum	amātus eram	amātus erō	amer	amārer	amātus sim	amātus essem			1st conjugation									
+love	passive	2	singular	amāris	amābāris	amāberis	amātus es	amātus erās	amātus eris	amēris	amārēris	amātus sīs	amātus essēs	amāre		1st conjugation									
+love	passive	3	singular	amātur	amābātur	amābitur	amātus est	amātus erat	amātus erit	amētur	amārētur	amātus sit	amātus esset			1st conjugation									
+love	passive	1	plural	amāmur	amābāmur	amābimur	amātī sumus	amātī erāmus	amātī erimus	amēmur	amārēmur	amātī sīmus	amātī essēmus			1st conjugation									
+love	passive	2	plural	amāminī	amābāminī	amābiminī	amātī estis	amātī erātis	amātī eritis	amēminī	amārēminī	amātī sītis	amātī essētis	amāminī		1st conjugation									
+love	passive	3	plural	amāntur	amābantur	amābuntur	amātī sunt	amātī erant	amātī erunt	amentur	amārentur	amātī sint	amātī essent			1st conjugation									
+advise	active	1	singular	moneō	monēbam	monēbō	monuī	monueram	monuerō	moneam	monērem	monuerim	monuissem			2nd conjugation									
+advise	active	2	singular	monēs	monēbās	monēbis	monuistī	monuerās	monuerīs	moneās	monērēs	monuerīs	monuissēs	monē	monētō	2nd conjugation									
+advise	active	3	singular	monet	monēbat	monēbit	monuit	monuerat	monuerit	moneat	monēret	monuerit	monuisset			2nd conjugation									
+advise	active	1	plural	monēmus	monēbāmus	monēbimus	monuimus	monuerāmus	monuerīmus	moneāmus	monērēmus	monuerīmus	monuissēmus			2nd conjugation									
+advise	active	2	plural	monitis	monēbātis	monēbitis	monuistis	monuerātis	monuerītis	moneātis	monērētis	monuerītis	monuissētis	monēte	monētōte	2nd conjugation									
+advise	active	3	plural	monent	monēbant	monēbunt	monuērunt/-ēre	monuerant	monuerint	moneant	monērent	monuerint	monuissent			2nd conjugation									
+advise	passive	1	singular	moneor	monēbar	monēbor	monitus sum	monitus eram	monitus erō	monear	monērer	monitus sim	monitus essem			2nd conjugation									
+advise	passive	2	singular	monēris	monēbāris	monēberis	monitus es	monitus erās	monitus eris	moneāris	monērēris	monitus sīs	monitus essēs	monēre		2nd conjugation									
+advise	passive	3	singular	monētur	monēbātur	monēbitur	monitus est	monitus erat	monitus erit	moneātur	monērētur	monitus sit	monitus esset			2nd conjugation									
+advise	passive	1	plural	monēmur	monēbāmur	monēbimur	monitī sumus	monitī erāmus	monitī erimus	moneāmur	monērēmur	monitī sīmus	monitī essēmus			2nd conjugation									
+advise	passive	2	plural	monēminī	monēbāminī	monēbiminī	monitī estis	monitī erātis	monitī eritis	moneāminī	monērēminī	monitī sītis	monitī essētis	monēminī		2nd conjugation									
+advise	passive	3	plural	monēntur	monēbantur	monēbuntur	monitī sunt	monitī erant	monitī erunt	moneantur	monērentur	monitī sint	monitī essent			2nd conjugation									
+direct	active	1	singular	dūcō	dūcēbam	dūcam	dūxī	dūxeram	dūxerō	dūcam	dūcerem	dūxerim	dūxissem			3rd conjugation									
+direct	active	2	singular	dūcis	dūcēbās	dūcēs	dūxistī	dūxerās	dūxerīs	dūcās	dūcerēs	dūxerīs	dūxissēs	dūc	dūcitō	3rd conjugation									
+direct	active	3	singular	dūcit	dūcēbat	dūcet	dūxit	dūxerat	dūxerit	dūcat	dūceret	dūxerit	dūxisset			3rd conjugation									
+direct	active	1	plural	dūcimus	dūcēbāmus	dūcēmus	dūximus	dūxerāmus	dūxerīmus	dūcāmus	dūcerēmus	dūxerīmus	dūxissēmus			3rd conjugation									
+direct	active	2	plural	dūcitis	dūcēbātis	dūcētis	dūxistis	dūxerātis	dūxerītis	dūcātis	dūcerētis	dūxerītis	dūxissētis	dūcite	dūcitōte	3rd conjugation									
+direct	active	3	plural	dūcunt	dūcēbant	dūcent	dūxērunt/-ēre	dūxerant	dūxerint	dūcant	dūcerent	dūxerint	dūxissent			3rd conjugation									
+direct	passive	1	singular	dūcor	dūcēbar	dūcar	ductus sum	ductus eram	ductus erō	dūcar	dūcerer	ductus sim	ductus essem			3rd conjugation									
+direct	passive	2	singular	dūceris	dūcēbāris	dūcēris	ductus es	ductus erās	ductus eris	dūcāris	dūcerēris	ductus sīs	ductus essēs	dūcere		3rd conjugation									
+direct	passive	3	singular	dūcitur	dūcēbātur	dūcētur	ductus est	ductus erat	ductus erit	dūcātur	dūcerētur	ductus sit	ductus esset			3rd conjugation									
+direct	passive	1	plural	dūcimur	dūcēbāmur	dūcēmur	ductī sumus	ductī erāmus	ductī erimus	dūcāmur	dūcerēmur	ductī sīmus	ductī essēmus			3rd conjugation									
+direct	passive	2	plural	dūciminī	dūcēbāminī	dūcēminī	ductī estis	ductī erātis	dūctī eritis	dūcāminī	dūcerēminī	ductī sītis	ductī essētis	dūciminī		3rd conjugation									
+direct	passive	3	plural	dūcuntur	dūcēbantur	dūcentur	ductī sunt	ductī erant	ductī erunt	dūcantur	dūcerentur	ductī sint	ductī essent			3rd conjugation									
+capture	active	1	singular	capiō	capiēbam	capiam	cēpī 	cēperam 	cēperō 	capiam	caperem	cēperim 	cēpissem 			3rd conjugation, -iō variant									
+capture	active	2	singular	capis	capiēbās	capiēs	cēpistī 	cēperās 	cēperis 	capiās	caperēs	cēperīs 	cēpissēs 	cape	capitō	3rd conjugation, -iō variant									
+capture	active	3	singular	capit	capiēbat	capiet	cēpit 	cēperat 	cēperit 	capiat	caperet	cēperit 	cēpisset 		capitō	3rd conjugation, -iō variant									
+capture	active	1	plural	capimus	capiēbāmus	capiēmus	cēpimus 	cēperāmus 	cēperimus 	capiāmus	caperēmus	cēperīmus 	cēpissēmus 			3rd conjugation, -iō variant									
+capture	active	2	plural	capitis	capiēbātis	capiētis	cēpistis 	cēperātis 	cēperitis 	capiātis	caperētis	cēperītis 	cēpissētis 	capite	capitōte	3rd conjugation, -iō variant									
+capture	active	3	plural	capiunt	capiēbant	capient	cēpērunt,	cēperant	cēperint 	capiant	caperent	cēperint	cēpissent 		capiuntō	3rd conjugation, -iō variant									
+capture	passive	1	singular	capior	capiēbar	capiar	captus sum	captus eram	captus erō	capiar	caperer	captus sim	captus essem			3rd conjugation, -iō variant									
+capture	passive	2	singular	caperis	capiēbāris/re	capiēris/re	captus es	captus erās	captus eris	capiāris/re	caperēris/re	captus sīs	captus essēs	capere	capitor 	3rd conjugation, -iō variant									
+capture	passive	3	singular	capitur	capiēbātur	capiētur	captus est	captus erat	captus erit	capiātur	caperētur	captus sit	captus esset		capitor	3rd conjugation, -iō variant									
+capture	passive	1	plural	capimur	capiēbāmur	capiēmur	captī sumus	captī erāmus	captī erimus	capiāmur	caperēmur	captī sīmus	captī essēmus			3rd conjugation, -iō variant									
+capture	passive	2	plural	capiminī	capiēbāminī	capiēminī	captī estis	captī erātis	dūctī eritis	capiāminī	caperēminī	captī sītis	captī essētis	capiminī 		3rd conjugation, -iō variant									
+capture	passive	3	plural	capiuntur	capiēbantur	capientur	captī sunt	captī erant	captī erunt	capiantur	caperentur	captī sint	captī essent		capiuntor	3rd conjugation, -iō variant									
+hear	active	1	singular	audiō	audiēbam	audiam	audīvī	audieram	audierō	audiam	audīrem	audierim	audīssem			4th conjugation									
+hear	active	2	singular	audīs	audiēbās	audiēs	audīstī	audierās	audierīs	audiās	audīrēs	audierīs	audīssēs	audī	audītō	4th conjugation									
+hear	active	3	singular	audit	audiēbat	audiet	audīvit	audierat	audierit	audiat	audīret	audierit	audīsset		audītō	4th conjugation									
+hear	active	1	plural	audīmus	audiēbāmus	audiēmus	audīvimus	audierāmus	audierīmus	audiāmus	audīrēmus	audierīmus	audīssēmus			4th conjugation									
+hear	active	2	plural	audītis	audiēbātis	audiētis	audīstis	audierātis	audierītis	audiātis	audīrētis	audierītis	audīssētis	audīte	audītōte 	4th conjugation									
+hear	active	3	plural	audiunt	audiēbant	audient	audiērunt/-ēre	audierant	audierint	audiant	audīrent	audierint	audīssent		audiuntō	4th conjugation									
+hear	passive	1	singular	audior	audiēbar	audiar	audītus sum	audītus eram	audītus erō	audiar	audīrer	audītus sim	audītus essem			4th conjugation									
+hear	passive	2	singular	audīris	audiēbāris	audiēris	audītus es	audītus erās	audītus eris	audiāris	audīrēris	audītus sīs	audītus essēs	audīre	audītor 	4th conjugation									
+hear	passive	3	singular	audītur	audiēbātur	audiētur	audītus est	audītus erat	audītus erit	audiātur	audīrētur	audītus sit	audītus esset		audītor	4th conjugation									
+hear	passive	1	plural	audīmur	audiēbāmur	audiēmur	audītī sumus	audītī erāmus	audītī erimus	audiāmur	audīrēmur	audītī sīmus	audītī essēmus			4th conjugation									
+hear	passive	2	plural	audīminī	audiēbāminī	audiēminī	audītī estis	audītī erātis	audītī eritis	audiāminī	audīrēminī	audītī sītis	audītī essētis	audīminī		4th conjugation									
+hear	passive	3	plural	audiuntur	audiēbantur	audientur	audītī sunt	audītī erant	audītī erunt	audiantur	audīrentur	audītī sint	audītī essent 		audiuntor	4th conjugation									
+																									
+																									
+																									
+																									
+																									
+																									
+																									

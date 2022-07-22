@@ -1,0 +1,282 @@
+#			mood->	indicative	indicative	indicative	subjunctive     	optative        	participle    	
+#verb	voice	person	plurality	present	past	imperative   				
+be	active	1     	singular 	h₁ésmi            	h₁ésmₒ         	             	h₁ésoh₂         	h₁syéh₁mₒ       	h₁sónts       	
+be	active	2     	singular 	h₁ési             	h₁és           	h₁és         	h₁ésesi         	h₁syéh₁s        	h₁sónts       	
+be	active	3     	singular 	h₁ésti            	h₁ést          	h₁éstu       	h₁éseti         	h₁syéh₁t        	h₁sónts       	
+be	active	1     	dual     	h₁swós            	h₁swé          	             	h₁ésowos        	h₁sih₁wé        	h₁sónts       	
+be	active	2     	dual     	h₁stés            	h₁stóm         	h₁stóm       	h₁ésetes        	h₁sih₁tóm       	h₁sónts       	
+be	active	3     	dual     	h₁stés            	h₁stā´m        	h₁stā´m      	h₁ésetes        	h₁sih₁tā´m      	h₁sónts       	
+be	active	1     	plural   	h₁smós            	h₁smé          	             	h₁ésomos        	h₁sih₁mé        	h₁sónts       	
+be	active	2     	plural   	h₁sté             	h₁sté          	h₁sté        	h₁ésete         	h₁sih₁té        	h₁sónts       	
+be	active	3     	plural   	h₁sénti           	h₁sént         	h₁séntu      	h₁ésonti        	h₁sih₁ént       	h₁sónts       	
+become	active	1     	singular 	bʰúHmₒ            	bʰúHmₒ         	             	bʰúHoh₂         	yéh₁mₒ          	ónts          	
+become	active	2     	singular 	bʰúHs             	bʰúHs          	bʰúH         	bʰúHesi         	yéh₁s           	ónts          	
+become	active	3     	singular 	bʰúHt             	bʰúHt          	bʰúHtu       	bʰúHeti         	yéh₁t           	ónts          	
+become	active	1     	dual     	wé                	wé             	             	bʰúHowos        	ih₁wé           	ónts          	
+become	active	2     	dual     	tóm               	tóm            	tóm          	bʰúHetes        	ih₁tóm          	ónts          	
+become	active	3     	dual     	tā´m              	tā´m           	tā´m         	bʰúHetes        	ih₁tā´m         	ónts          	
+become	active	1     	plural   	mé                	mé             	             	bʰúHomos        	ih₁mé           	ónts          	
+become	active	2     	plural   	té                	té             	té           	bʰúHete         	ih₁té           	ónts          	
+become	active	3     	plural   	ént               	ént            	éntu         	bʰúHonti        	ih₁ént          	ónts          	
+carry	active	1     	singular 	bʰéroh₂           	bʰérom         	             	bʰérōh₂         	bʰéroyh₁mₒ      	bʰéronts      	
+carry	active	2     	singular 	bʰéresi           	bʰéres         	bʰére        	bʰérēsi         	bʰéroys         	bʰéronts      	
+carry	active	3     	singular 	bʰéreti           	bʰéret         	bʰéretu      	bʰérēti         	bʰéroyt         	bʰéronts      	
+carry	active	1     	dual     	bʰérowos          	bʰérowe        	             	bʰérōwos        	bʰéroywe        	bʰéronts      	
+carry	active	2     	dual     	bʰéretes          	bʰéretom       	bʰéretom     	bʰérētes        	bʰéroytom       	bʰéronts      	
+carry	active	3     	dual     	bʰéretes          	bʰéretām       	bʰéretām     	bʰérētes        	bʰéroytām       	bʰéronts      	
+carry	active	1     	plural   	bʰéromos          	bʰérome        	             	bʰérōmos        	bʰéroyme        	bʰéronts      	
+carry	active	2     	plural   	bʰérete           	bʰérete        	bʰérete      	bʰérēte         	bʰéroyte        	bʰéronts      	
+carry	active	3     	plural   	bʰéronti          	bʰéront        	bʰérontu     	bʰérōnti        	bʰéroyh₁nₒt     	bʰéronts      	
+carry	middle	1     	singular 	bʰéroh₂er         	bʰéroh₂e       	             	bʰérōh₂er       	bʰéroyh₂e       	bʰéromnos     	
+carry	middle	2     	singular 	bʰéreth₂er        	bʰéreth₂e      	bʰéreso      	bʰérēth₂er      	bʰéroyth₂e      	bʰéromnos     	
+carry	middle	3     	singular 	bʰéretor          	bʰéreto        	             	bʰérētor        	bʰéroyto        	bʰéromnos     	
+carry	middle	1     	dual     	bʰérowosdʰh₂      	bʰérowedʰh₂    	             	bʰérōwosdʰh₂    	bʰéroywedʰh₂    	bʰéromnos     	
+carry	middle	2     	dual     	                  	               	             	                	                	bʰéromnos     	
+carry	middle	3     	dual     	                  	               	             	                	                	bʰéromnos     	
+carry	middle	1     	plural   	bʰéromosdʰh₂      	bʰéromedʰh₂    	             	bʰérōmosdʰh₂    	bʰéroymedʰh₂    	bʰéromnos     	
+carry	middle	2     	plural   	bʰéredʰh₂we       	bʰéredʰh₂we    	bʰéredʰh₂we  	bʰérēdʰh₂we     	bʰéroydʰh₂we    	bʰéromnos     	
+carry	middle	3     	plural   	bʰéroror          	bʰéroro        	             	bʰérōror        	bʰéroyro        	bʰéromnos     	
+leave	active	1     	singular 	linékʷmi          	linékʷmₒ       	             	linékʷoh₂       	linkʷyéh₁mₒ     	linkʷónts     	
+leave	active	2     	singular 	linékʷsi          	linékʷs        	linékʷ       	linékʷesi       	linkʷyéh₁s      	linkʷónts     	
+leave	active	3     	singular 	linékʷti          	linékʷt        	linékʷtu     	linékʷeti       	linkʷyéh₁t      	linkʷónts     	
+leave	active	1     	dual     	linkwós           	linkwé         	             	linékʷowos      	linkʷih₁wé      	linkʷónts     	
+leave	active	2     	dual     	linkʷtés          	linkʷtóm       	linkʷtóm     	linékʷetes      	linkʷih₁tóm     	linkʷónts     	
+leave	active	3     	dual     	linkʷtés          	linkʷtā´m      	linkʷtā´m    	linékʷetes      	linkʷih₁tā´m    	linkʷónts     	
+leave	active	1     	plural   	linkʷmós          	linkʷmé        	             	linékʷomos      	linkʷih₁mé      	linkʷónts     	
+leave	active	2     	plural   	linkʷté           	linkʷté        	linkʷté      	linékʷete       	linkʷih₁té      	linkʷónts     	
+leave	active	3     	plural   	linkʷénti         	linkʷént       	linkʷéntu    	linékʷonti      	linkʷih₁ént     	linkʷónts     	
+leave	middle	1     	singular 	linkʷh₂ér         	linkʷh₂é       	             	linékʷoh₂er     	linkʷih₁h₂é     	linkʷmₒh₁nós  	
+leave	middle	2     	singular 	linkʷth₂ér        	linkʷth₂é      	linkʷsó      	linékʷeth₂er    	linkʷih₁th₂é    	linkʷmₒh₁nós  	
+leave	middle	3     	singular 	linkʷtór          	linkʷtó        	             	linékʷetor      	linkʷih₁tó      	linkʷmₒh₁nós  	
+leave	middle	1     	dual     	linkwósdʰh₂       	linkwédʰh₂     	             	linékʷowosdʰh₂  	linkʷih₁wédʰh₂  	linkʷmₒh₁nós  	
+leave	middle	2     	dual     	                  	               	             	                	                	linkʷmₒh₁nós  	
+leave	middle	3     	dual     	                  	               	             	                	                	linkʷmₒh₁nós  	
+leave	middle	1     	plural   	linkʷmósdʰh₂      	linkʷmédʰh₂    	             	linékʷomosdʰh₂  	linkʷih₁médʰh₂  	linkʷmₒh₁nós  	
+leave	middle	2     	plural   	linkʷdʰh₂wé       	linkʷdʰh₂wé    	linkʷdʰh₂wé  	linékʷedʰh₂we   	linkʷih₁dʰh₂wé  	linkʷmₒh₁nós  	
+leave	middle	3     	plural   	linkʷrór          	linkʷró        	             	linékʷoror      	linkʷih₁ró      	linkʷmₒh₁nós  	
+work	active	1     	singular 	wrₒǵyóh₂          	wrₒǵyóm        	             	wrₒǵyṓh₂        	wrₒǵyóyh₁mₒ     	wrₒǵyónts     	
+work	active	2     	singular 	wrₒǵyési          	wrₒǵyés        	wrₒǵyé       	wrₒǵyḗsi        	wrₒǵyóys        	wrₒǵyónts     	
+work	active	3     	singular 	wrₒǵyéti          	wrₒǵyét        	wrₒǵyétu     	wrₒǵyḗti        	wrₒǵyóyt        	wrₒǵyónts     	
+work	active	1     	dual     	wrₒǵyówos         	wrₒǵyówe       	             	wrₒǵyṓwos       	wrₒǵyóywe       	wrₒǵyónts     	
+work	active	2     	dual     	wrₒǵyétes         	wrₒǵyétom      	wrₒǵyétom    	wrₒǵyḗtes       	wrₒǵyóytom      	wrₒǵyónts     	
+work	active	3     	dual     	wrₒǵyétes         	wrₒǵyétām      	wrₒǵyétām    	wrₒǵyḗtes       	wrₒǵyóytām      	wrₒǵyónts     	
+work	active	1     	plural   	wrₒǵyómos         	wrₒǵyóme       	             	wrₒǵyṓmos       	wrₒǵyóyme       	wrₒǵyónts     	
+work	active	2     	plural   	wrₒǵyéte          	wrₒǵyéte       	wrₒǵyéte     	wrₒǵyḗte        	wrₒǵyóyte       	wrₒǵyónts     	
+work	active	3     	plural   	wrₒǵyónti         	wrₒǵyónt       	wrₒǵyóntu    	wrₒǵyṓnti       	wrₒǵyóyh₁nₒt    	wrₒǵyónts     	
+work	middle	1     	singular 	wrₒǵyóh₂er        	wrₒǵyóh₂e      	             	wrₒǵyṓh₂er      	wrₒǵyóyh₂e      	wrₒǵyómnos    	
+work	middle	2     	singular 	wrₒǵyéth₂er       	wrₒǵyéth₂e     	wrₒǵyéso     	wrₒǵyḗth₂er     	wrₒǵyóyth₂e     	wrₒǵyómnos    	
+work	middle	3     	singular 	wrₒǵyétor         	wrₒǵyéto       	             	wrₒǵyḗtor       	wrₒǵyóyto       	wrₒǵyómnos    	
+work	middle	1     	dual     	wrₒǵyówosdʰh₂     	wrₒǵyówedʰh₂   	             	wrₒǵyṓwosdʰh₂   	wrₒǵyóywedʰh₂   	wrₒǵyómnos    	
+work	middle	2     	dual     	                  	               	             	                	                	wrₒǵyómnos    	
+work	middle	3     	dual     	                  	               	             	                	                	wrₒǵyómnos    	
+work	middle	1     	plural   	wrₒǵyómosdʰh₂     	wrₒǵyómedʰh₂   	             	wrₒǵyṓmosdʰh₂   	wrₒǵyóymedʰh₂   	wrₒǵyómnos    	
+work	middle	2     	plural   	wrₒǵyédʰh₂we      	wrₒǵyédʰh₂we   	wrₒǵyédʰh₂we 	wrₒǵyḗdʰh₂we    	wrₒǵyóydʰh₂we   	wrₒǵyómnos    	
+work	middle	3     	plural   	wrₒǵyóror         	wrₒǵyóro       	             	wrₒǵyṓror       	wrₒǵyóyro       	wrₒǵyómnos    	
+do	active	1     	singular 	dʰédʰeh₁mi        	dʰédʰeh₁mₒ     	             	dʰédʰeh₁oh₂     	dʰédʰh₁yeh₁mₒ   	dʰédʰh₁nₒts   	
+do	active	2     	singular 	dʰédʰeh₁si        	dʰédʰeh₁s      	dʰédʰeh₁     	dʰédʰeh₁esi     	dʰédʰh₁yeh₁s    	dʰédʰh₁nₒts   	
+do	active	3     	singular 	dʰédʰeh₁ti        	dʰédʰeh₁t      	dʰédʰeh₁tu   	dʰédʰeh₁eti     	dʰédʰh₁yeh₁t    	dʰédʰh₁nₒts   	
+do	active	1     	dual     	dʰédʰh₁wos        	dʰédʰh₁we      	             	dʰédʰeh₁owos    	dʰédʰh₁ih₁we    	dʰédʰh₁nₒts   	
+do	active	2     	dual     	dʰédʰh₁tes        	dʰédʰh₁tom     	dʰédʰh₁tom   	dʰédʰeh₁etes    	dʰédʰh₁ih₁tom   	dʰédʰh₁nₒts   	
+do	active	3     	dual     	dʰédʰh₁tes        	dʰédʰh₁tām     	dʰédʰh₁tām   	dʰédʰeh₁etes    	dʰédʰh₁ih₁tām   	dʰédʰh₁nₒts   	
+do	active	1     	plural   	dʰédʰh₁mos        	dʰédʰh₁me      	             	dʰédʰeh₁omos    	dʰédʰh₁ih₁me    	dʰédʰh₁nₒts   	
+do	active	2     	plural   	dʰédʰh₁te         	dʰédʰh₁te      	dʰédʰh₁te    	dʰédʰeh₁ete     	dʰédʰh₁ih₁te    	dʰédʰh₁nₒts   	
+do	active	3     	plural   	dʰédʰh₁nₒti       	dʰédʰh₁nₒt     	dʰédʰh₁nₒtu  	dʰédʰeh₁onti    	dʰédʰh₁ih₁nₒt   	dʰédʰh₁nₒts   	
+do	middle	1     	singular 	dʰédʰh₁h₂er       	dʰédʰh₁h₂e     	             	dʰédʰeh₁oh₂er   	dʰédʰh₁ih₁h₂e   	dʰédʰh₁mₒh₁nos	
+do	middle	2     	singular 	dʰédʰh₁th₂er      	dʰédʰh₁th₂e    	dʰédʰh₁so    	dʰédʰeh₁eth₂er  	dʰédʰh₁ih₁th₂e  	dʰédʰh₁mₒh₁nos	
+do	middle	3     	singular 	dʰédʰh₁tor        	dʰédʰh₁to      	             	dʰédʰeh₁etor    	dʰédʰh₁ih₁to    	dʰédʰh₁mₒh₁nos	
+do	middle	1     	dual     	dʰédʰh₁wosdʰh₂    	dʰédʰh₁wedʰh₂  	             	dʰédʰeh₁owosdʰh₂	dʰédʰh₁ih₁wedʰh₂	dʰédʰh₁mₒh₁nos	
+do	middle	2     	dual     	                  	               	             	                	                	dʰédʰh₁mₒh₁nos	
+do	middle	3     	dual     	                  	               	             	                	                	dʰédʰh₁mₒh₁nos	
+do	middle	1     	plural   	dʰédʰh₁mosdʰh₂    	dʰédʰh₁medʰh₂  	             	dʰédʰeh₁omosdʰh₂	dʰédʰh₁ih₁medʰh₂	dʰédʰh₁mₒh₁nos	
+do	middle	2     	plural   	dʰédʰh₁dʰh₂we     	dʰédʰh₁dʰh₂we  	dʰédʰh₁dʰh₂we	dʰédʰeh₁edʰh₂we 	dʰédʰh₁ih₁dʰh₂we	dʰédʰh₁mₒh₁nos	
+do	middle	3     	plural   	dʰédʰh₁ror        	dʰédʰh₁ro      	             	dʰédʰeh₁oror    	dʰédʰh₁ih₁ro    	dʰédʰh₁mₒh₁nos	
+ask	active	1     	singular 	prₒsḱóh₂          	prₒsḱóm        	             	prₒsḱṓh₂        	prₒsḱóyh₁mₒ     	prₒsḱónts     	
+ask	active	2     	singular 	prₒsḱési          	prₒsḱés        	prₒsḱé       	prₒsḱḗsi        	prₒsḱóys        	prₒsḱónts     	
+ask	active	3     	singular 	prₒsḱéti          	prₒsḱét        	prₒsḱétu     	prₒsḱḗti        	prₒsḱóyt        	prₒsḱónts     	
+ask	active	1     	dual     	prₒsḱówos         	prₒsḱówe       	             	prₒsḱṓwos       	prₒsḱóywe       	prₒsḱónts     	
+ask	active	2     	dual     	prₒsḱétes         	prₒsḱétom      	prₒsḱétom    	prₒsḱḗtes       	prₒsḱóytom      	prₒsḱónts     	
+ask	active	3     	dual     	prₒsḱétes         	prₒsḱétām      	prₒsḱétām    	prₒsḱḗtes       	prₒsḱóytām      	prₒsḱónts     	
+ask	active	1     	plural   	prₒsḱómos         	prₒsḱóme       	             	prₒsḱṓmos       	prₒsḱóyme       	prₒsḱónts     	
+ask	active	2     	plural   	prₒsḱéte          	prₒsḱéte       	prₒsḱéte     	prₒsḱḗte        	prₒsḱóyte       	prₒsḱónts     	
+ask	active	3     	plural   	prₒsḱónti         	prₒsḱónt       	prₒsḱóntu    	prₒsḱṓnti       	prₒsḱóyh₁nₒt    	prₒsḱónts     	
+ask	middle	1     	singular 	prₒsḱóh₂er        	prₒsḱóh₂e      	             	prₒsḱṓh₂er      	prₒsḱóyh₂e      	prₒsḱómnos    	
+ask	middle	2     	singular 	prₒsḱéth₂er       	prₒsḱéth₂e     	prₒsḱéso     	prₒsḱḗth₂er     	prₒsḱóyth₂e     	prₒsḱómnos    	
+ask	middle	3     	singular 	prₒsḱétor         	prₒsḱéto       	             	prₒsḱḗtor       	prₒsḱóyto       	prₒsḱómnos    	
+ask	middle	1     	dual     	prₒsḱówosdʰh₂     	prₒsḱówedʰh₂   	             	prₒsḱṓwosdʰh₂   	prₒsḱóywedʰh₂   	prₒsḱómnos    	
+ask	middle	2     	dual     	                  	               	             	                	                	prₒsḱómnos    	
+ask	middle	3     	dual     	                  	               	             	                	                	prₒsḱómnos    	
+ask	middle	1     	plural   	prₒsḱómosdʰh₂     	prₒsḱómedʰh₂   	             	prₒsḱṓmosdʰh₂   	prₒsḱóymedʰh₂   	prₒsḱómnos    	
+ask	middle	2     	plural   	prₒsḱédʰh₂we      	prₒsḱédʰh₂we   	prₒsḱédʰh₂we 	prₒsḱḗdʰh₂we    	prₒsḱóydʰh₂we   	prₒsḱómnos    	
+ask	middle	3     	plural   	prₒsḱóror         	prₒsḱóro       	             	prₒsḱṓror       	prₒsḱóyro       	prₒsḱómnos    	
+stretch	active	1     	singular 	tnₒnéwmi          	tnₒnḗm         	             	tnₒnéwoh₂       	tnₒnuyéh₁mₒ     	tnnₒwónts     	
+stretch	active	2     	singular 	tnₒnéwsi          	tnₒnéws        	tnₒnéw       	tnₒnéwesi       	tnₒnuyéh₁s      	tnnₒwónts     	
+stretch	active	3     	singular 	tnₒnéwti          	tnₒnéwt        	tnₒnéwtu     	tnₒnéweti       	tnₒnuyéh₁t      	tnnₒwónts     	
+stretch	active	1     	dual     	tnₒnuwós          	tnₒnuwé        	             	tnₒnéwowos      	tnnₒwih₁wé      	tnnₒwónts     	
+stretch	active	2     	dual     	tnₒnutés          	tnₒnutóm       	tnₒnutóm     	tnₒnéwetes      	tnnₒwih₁tóm     	tnnₒwónts     	
+stretch	active	3     	dual     	tnₒnutés          	tnₒnutā´m      	tnₒnutā´m    	tnₒnéwetes      	tnnₒwih₁tā´m    	tnnₒwónts     	
+stretch	active	1     	plural   	tnₒnumós          	tnₒnumé        	             	tnₒnéwomos      	tnnₒwih₁mé      	tnnₒwónts     	
+stretch	active	2     	plural   	tnₒnuté           	tnₒnuté        	tnₒnuté      	tnₒnéwete       	tnnₒwih₁té      	tnnₒwónts     	
+stretch	active	3     	plural   	tnnₒwénti         	tnnₒwént       	tnnₒwéntu    	tnₒnéwonti      	tnnₒwih₁ént     	tnnₒwónts     	
+stretch	middle	1     	singular 	tnₒnuh₂ér         	tnₒnuh₂é       	             	tnₒnéwoh₂er     	tnnₒwih₁h₂é     	tnnₒwmₒh₁nós  	
+stretch	middle	2     	singular 	tnₒnuth₂ér        	tnₒnuth₂é      	tnₒnusó      	tnₒnéweth₂er    	tnnₒwih₁th₂é    	tnnₒwmₒh₁nós  	
+stretch	middle	3     	singular 	tnₒnutór          	tnₒnutó        	             	tnₒnéwetor      	tnnₒwih₁tó      	tnnₒwmₒh₁nós  	
+stretch	middle	1     	dual     	tnₒnuwósdʰh₂      	tnₒnuwédʰh₂    	             	tnₒnéwowosdʰh₂  	tnnₒwih₁wédʰh₂  	tnnₒwmₒh₁nós  	
+stretch	middle	2     	dual     	                  	               	             	                	                	tnnₒwmₒh₁nós  	
+stretch	middle	3     	dual     	                  	               	             	                	                	tnnₒwmₒh₁nós  	
+stretch	middle	1     	plural   	tnₒnumósdʰh₂      	tnₒnumédʰh₂    	             	tnₒnéwomosdʰh₂  	tnnₒwih₁médʰh₂  	tnnₒwmₒh₁nós  	
+stretch	middle	2     	plural   	tnₒnudʰh₂wé       	tnₒnudʰh₂wé    	tnₒnudʰh₂wé  	tnₒnéwedʰh₂we   	tnnₒwih₁dʰh₂wé  	tnnₒwmₒh₁nós  	
+stretch	middle	3     	plural   	tnₒnurór          	tnₒnuró        	             	tnₒnéworor      	tnnₒwih₁ró      	tnnₒwmₒh₁nós  	
+know	active	1     	singular 	wóydh₂e           	wóydh₂e        	             	wéydoh₂         	widyéh₁mₒ       	widwṓs        	
+know	active	2     	singular 	wóydth₂e          	wóydth₂e       	wóyd         	wéydesi         	widyéh₁s        	widwṓs        	
+know	active	3     	singular 	wóyde             	wóyde          	wóydtu       	wéydeti         	widyéh₁t        	widwṓs        	
+know	active	1     	dual     	widwé             	widwé          	             	wéydowos        	widih₁wé        	widwṓs        	
+know	active	2     	dual     	                  	               	widtóm       	wéydetes        	widih₁tóm       	widwṓs        	
+know	active	3     	dual     	                  	               	widtā´m      	wéydetes        	widih₁tā´m      	widwṓs        	
+know	active	1     	plural   	widmé             	widmé          	             	wéydomos        	widih₁mé        	widwṓs        	
+know	active	2     	plural   	widé              	widé           	widté        	wéydete         	widih₁té        	widwṓs        	
+know	active	3     	plural   	widḗr             	widḗr          	widéntu      	wéydonti        	widih₁ént       	widwṓs        	
+know	active	1     	singular 	sísdoh₂           	sísdom         	             	sísdōh₂         	sísdoyh₁mₒ      	sísdonts      	
+sit	active	2     	singular 	sísdesi           	sísdes         	sísde        	sísdēsi         	sísdoys         	sísdonts      	
+sit	active	3     	singular 	sísdeti           	sísdet         	sísdetu      	sísdēti         	sísdoyt         	sísdonts      	
+sit	active	1     	dual     	sísdowos          	sísdowe        	             	sísdōwos        	sísdoywe        	sísdonts      	
+sit	active	2     	dual     	sísdetes          	sísdetom       	sísdetom     	sísdētes        	sísdoytom       	sísdonts      	
+sit	active	3     	dual     	sísdetes          	sísdetām       	sísdetām     	sísdētes        	sísdoytām       	sísdonts      	
+sit	active	1     	plural   	sísdomos          	sísdome        	             	sísdōmos        	sísdoyme        	sísdonts      	
+sit	active	2     	plural   	sísdete           	sísdete        	sísdete      	sísdēte         	sísdoyte        	sísdonts      	
+sit	active	3     	plural   	sísdonti          	sísdont        	sísdontu     	sísdōnti        	sísdoyh₁nₒt     	sísdonts      	
+protect	active	1     	singular 	h₂léksoh₂         	h₂léksom       	             	h₂léksōh₂       	h₂léksoyh₁mₒ    	h₂léksonts    	
+protect	active	2     	singular 	h₂léksesi         	h₂lékses       	h₂lékse      	h₂léksēsi       	h₂léksoys       	h₂léksonts    	
+protect	active	3     	singular 	h₂lékseti         	h₂lékset       	h₂léksetu    	h₂léksēti       	h₂léksoyt       	h₂léksonts    	
+protect	active	1     	dual     	h₂léksowos        	h₂léksowe      	             	h₂léksōwos      	h₂léksoywe      	h₂léksonts    	
+protect	active	2     	dual     	h₂léksetes        	h₂léksetom     	h₂léksetom   	h₂léksētes      	h₂léksoytom     	h₂léksonts    	
+protect	active	3     	dual     	h₂léksetes        	h₂léksetām     	h₂léksetām   	h₂léksētes      	h₂léksoytām     	h₂léksonts    	
+protect	active	1     	plural   	h₂léksomos        	h₂léksome      	             	h₂léksōmos      	h₂léksoyme      	h₂léksonts    	
+protect	active	2     	plural   	h₂léksete         	h₂léksete      	h₂léksete    	h₂léksēte       	h₂léksoyte      	h₂léksonts    	
+protect	active	3     	plural   	h₂léksonti        	h₂léksont      	h₂léksontu   	h₂léksōnti      	h₂léksoyh₁nₒt   	h₂léksonts    	
+protect	middle	1     	singular 	h₂léksoh₂er       	h₂léksoh₂e     	             	h₂léksōh₂er     	h₂léksoyh₂e     	h₂léksomnos   	
+protect	middle	2     	singular 	h₂lékseth₂er      	h₂lékseth₂e    	h₂lékseso    	h₂léksēth₂er    	h₂léksoyth₂e    	h₂léksomnos   	
+protect	middle	3     	singular 	h₂léksetor        	h₂lékseto      	             	h₂léksētor      	h₂léksoyto      	h₂léksomnos   	
+protect	middle	1     	dual     	h₂léksowosdʰh₂    	h₂léksowedʰh₂  	             	h₂léksōwosdʰh₂  	h₂léksoywedʰh₂  	h₂léksomnos   	
+protect	middle	2     	dual     	                  	               	             	                	                	h₂léksomnos   	
+protect	middle	3     	dual     	                  	               	             	                	                	h₂léksomnos   	
+protect	middle	1     	plural   	h₂léksomosdʰh₂    	h₂léksomedʰh₂  	             	h₂léksōmosdʰh₂  	h₂léksoymedʰh₂  	h₂léksomnos   	
+protect	middle	2     	plural   	h₂léksedʰh₂we     	h₂léksedʰh₂we  	h₂léksedʰh₂we	h₂léksēdʰh₂we   	h₂léksoydʰh₂we  	h₂léksomnos   	
+protect	middle	3     	plural   	h₂léksoror        	h₂léksoro      	             	h₂léksōror      	h₂léksoyro      	h₂léksomnos   	
+be red	active	1     	singular 	h₁rudʰéh₁mi       	h₁rudʰéh₁mₒ    	             	h₁rudʰéh₁oh₂    	h₁rudʰéh₁yeh₁mₒ 	h₁rudʰéh₁nₒts 	
+be red	active	2     	singular 	h₁rudʰéh₁si       	h₁rudʰéh₁s     	h₁rudʰéh₁    	h₁rudʰéh₁esi    	h₁rudʰéh₁yeh₁s  	h₁rudʰéh₁nₒts 	
+be red	active	3     	singular 	h₁rudʰéh₁ti       	h₁rudʰéh₁t     	h₁rudʰéh₁tu  	h₁rudʰéh₁eti    	h₁rudʰéh₁yeh₁t  	h₁rudʰéh₁nₒts 	
+be red	active	1     	dual     	h₁rudʰéh₁wos      	h₁rudʰéh₁we    	             	h₁rudʰéh₁owos   	h₁rudʰéh₁ih₁we  	h₁rudʰéh₁nₒts 	
+be red	active	2     	dual     	h₁rudʰéh₁tes      	h₁rudʰéh₁tom   	h₁rudʰéh₁tom 	h₁rudʰéh₁etes   	h₁rudʰéh₁ih₁tom 	h₁rudʰéh₁nₒts 	
+be red	active	3     	dual     	h₁rudʰéh₁tes      	h₁rudʰéh₁tām   	h₁rudʰéh₁tām 	h₁rudʰéh₁etes   	h₁rudʰéh₁ih₁tām 	h₁rudʰéh₁nₒts 	
+be red	active	1     	plural   	h₁rudʰéh₁mos      	h₁rudʰéh₁me    	             	h₁rudʰéh₁omos   	h₁rudʰéh₁ih₁me  	h₁rudʰéh₁nₒts 	
+be red	active	2     	plural   	h₁rudʰéh₁te       	h₁rudʰéh₁te    	h₁rudʰéh₁te  	h₁rudʰéh₁ete    	h₁rudʰéh₁ih₁te  	h₁rudʰéh₁nₒts 	
+be red	active	3     	plural   	h₁rudʰéh₁nₒti     	h₁rudʰéh₁nₒt   	h₁rudʰéh₁nₒtu	h₁rudʰéh₁onti   	h₁rudʰéh₁ih₁nₒt 	h₁rudʰéh₁nₒts 	
+set down	active	1     	singular 	sodéyoh₂          	sodéyom        	             	sodéyōh₂        	sodéyoyh₁mₒ     	sodéyonts     	
+set down	active	2     	singular 	sodéyesi          	sodéyes        	sodéye       	sodéyēsi        	sodéyoys        	sodéyonts     	
+set down	active	3     	singular 	sodéyeti          	sodéyet        	sodéyetu     	sodéyēti        	sodéyoyt        	sodéyonts     	
+set down	active	1     	dual     	sodéyowos         	sodéyowe       	             	sodéyōwos       	sodéyoywe       	sodéyonts     	
+set down	active	2     	dual     	sodéyetes         	sodéyetom      	sodéyetom    	sodéyētes       	sodéyoytom      	sodéyonts     	
+set down	active	3     	dual     	sodéyetes         	sodéyetām      	sodéyetām    	sodéyētes       	sodéyoytām      	sodéyonts     	
+set down	active	1     	plural   	sodéyomos         	sodéyome       	             	sodéyōmos       	sodéyoyme       	sodéyonts     	
+set down	active	2     	plural   	sodéyete          	sodéyete       	sodéyete     	sodéyēte        	sodéyoyte       	sodéyonts     	
+set down	active	3     	plural   	sodéyonti         	sodéyont       	sodéyontu    	sodéyōnti       	sodéyoyh₁nₒt    	sodéyonts     	
+set down	middle	1     	singular 	sodéyoh₂er        	sodéyoh₂e      	             	sodéyōh₂er      	sodéyoyh₂e      	sodéyomnos    	
+set down	middle	2     	singular 	sodéyeth₂er       	sodéyeth₂e     	sodéyeso     	sodéyēth₂er     	sodéyoyth₂e     	sodéyomnos    	
+set down	middle	3     	singular 	sodéyetor         	sodéyeto       	             	sodéyētor       	sodéyoyto       	sodéyomnos    	
+set down	middle	1     	dual     	sodéyowosdʰh₂     	sodéyowedʰh₂   	             	sodéyōwosdʰh₂   	sodéyoywedʰh₂   	sodéyomnos    	
+set down	middle	2     	dual     	                  	               	             	                	                	sodéyomnos    	
+set down	middle	3     	dual     	                  	               	             	                	                	sodéyomnos    	
+set down	middle	1     	plural   	sodéyomosdʰh₂     	sodéyomedʰh₂   	             	sodéyōmosdʰh₂   	sodéyoymedʰh₂   	sodéyomnos    	
+set down	middle	2     	plural   	sodéyedʰh₂we      	sodéyedʰh₂we   	sodéyedʰh₂we 	sodéyēdʰh₂we    	sodéyoydʰh₂we   	sodéyomnos    	
+set down	middle	3     	plural   	sodéyoror         	sodéyoro       	             	sodéyōror       	sodéyoyro       	sodéyomnos    	
+want to see	active	1     	singular 	wéydsoh₂          	wéydsom        	             	wéydsōh₂        	wéydsoyh₁mₒ     	wéydsonts     	
+want to see	active	2     	singular 	wéydsesi          	wéydses        	wéydse       	wéydsēsi        	wéydsoys        	wéydsonts     	
+want to see	active	3     	singular 	wéydseti          	wéydset        	wéydsetu     	wéydsēti        	wéydsoyt        	wéydsonts     	
+want to see	active	1     	dual     	wéydsowos         	wéydsowe       	             	wéydsōwos       	wéydsoywe       	wéydsonts     	
+want to see	active	2     	dual     	wéydsetes         	wéydsetom      	wéydsetom    	wéydsētes       	wéydsoytom      	wéydsonts     	
+want to see	active	3     	dual     	wéydsetes         	wéydsetām      	wéydsetām    	wéydsētes       	wéydsoytām      	wéydsonts     	
+want to see	active	1     	plural   	wéydsomos         	wéydsome       	             	wéydsōmos       	wéydsoyme       	wéydsonts     	
+want to see	active	2     	plural   	wéydsete          	wéydsete       	wéydsete     	wéydsēte        	wéydsoyte       	wéydsonts     	
+want to see	active	3     	plural   	wéydsonti         	wéydsont       	wéydsontu    	wéydsōnti       	wéydsoyh₁nₒt    	wéydsonts     	
+want to see	middle	1     	singular 	wéydsoh₂er        	wéydsoh₂e      	             	wéydsōh₂er      	wéydsoyh₂e      	wéydsomnos    	
+want to see	middle	2     	singular 	wéydseth₂er       	wéydseth₂e     	wéydseso     	wéydsēth₂er     	wéydsoyth₂e     	wéydsomnos    	
+want to see	middle	3     	singular 	wéydsetor         	wéydseto       	             	wéydsētor       	wéydsoyto       	wéydsomnos    	
+want to see	middle	1     	dual     	wéydsowosdʰh₂     	wéydsowedʰh₂   	             	wéydsōwosdʰh₂   	wéydsoywedʰh₂   	wéydsomnos    	
+want to see	middle	2     	dual     	                  	               	             	                	                	wéydsomnos    	
+want to see	middle	3     	dual     	                  	               	             	                	                	wéydsomnos    	
+want to see	middle	1     	plural   	wéydsomosdʰh₂     	wéydsomedʰh₂   	             	wéydsōmosdʰh₂   	wéydsoymedʰh₂   	wéydsomnos    	
+want to see	middle	2     	plural   	wéydsedʰh₂we      	wéydsedʰh₂we   	wéydsedʰh₂we 	wéydsēdʰh₂we    	wéydsoydʰh₂we   	wéydsomnos    	
+want to see	middle	3     	plural   	wéydsoror         	wéydsoro       	             	wéydsōror       	wéydsoyro       	wéydsomnos    	
+renew	active	1     	singular 	néweh₂mi          	néwām          	             	néweh₂oh₂       	néweh₂yeh₁mₒ    	néweh₂nₒts    	
+renew	active	2     	singular 	néweh₂si          	néweh₂s        	néweh₂       	néweh₂esi       	néweh₂yeh₁s     	néweh₂nₒts    	
+renew	active	3     	singular 	néweh₂ti          	néweh₂t        	néweh₂tu     	néweh₂eti       	néweh₂yeh₁t     	néweh₂nₒts    	
+renew	active	1     	dual     	néweh₂wos         	néweh₂we       	             	néweh₂owos      	néweh₂ih₁we     	néweh₂nₒts    	
+renew	active	2     	dual     	néweh₂tes         	néweh₂tom      	néweh₂tom    	néweh₂etes      	néweh₂ih₁tom    	néweh₂nₒts    	
+renew	active	3     	dual     	néweh₂tes         	néweh₂tām      	néweh₂tām    	néweh₂etes      	néweh₂ih₁tām    	néweh₂nₒts    	
+renew	active	1     	plural   	néweh₂mos         	néweh₂me       	             	néweh₂omos      	néweh₂ih₁me     	néweh₂nₒts    	
+renew	active	2     	plural   	néweh₂te          	néweh₂te       	néweh₂te     	néweh₂ete       	néweh₂ih₁te     	néweh₂nₒts    	
+renew	active	3     	plural   	néweh₂nₒti        	néweh₂nₒt      	néweh₂nₒtu   	néweh₂onti      	néweh₂ih₁nₒt    	néweh₂nₒts    	
+renew	middle	1     	singular 	néweh₂h₂er        	néweh₂h₂e      	             	néweh₂oh₂er     	néweh₂ih₁h₂e    	néweh₂mₒh₁nos 	
+renew	middle	2     	singular 	néweh₂th₂er       	néweh₂th₂e     	néweh₂so     	néweh₂eth₂er    	néweh₂ih₁th₂e   	néweh₂mₒh₁nos 	
+renew	middle	3     	singular 	néweh₂tor         	néweh₂to       	             	néweh₂etor      	néweh₂ih₁to     	néweh₂mₒh₁nos 	
+renew	middle	1     	dual     	néweh₂wosdʰh₂     	néweh₂wedʰh₂   	             	néweh₂owosdʰh₂  	néweh₂ih₁wedʰh₂ 	néweh₂mₒh₁nos 	
+renew	middle	2     	dual     	                  	               	             	                	                	néweh₂mₒh₁nos 	
+renew	middle	3     	dual     	                  	               	             	                	                	néweh₂mₒh₁nos 	
+renew	middle	1     	plural   	néweh₂mosdʰh₂     	néweh₂medʰh₂   	             	néweh₂omosdʰh₂  	néweh₂ih₁medʰh₂ 	néweh₂mₒh₁nos 	
+renew	middle	2     	plural   	néweh₂dʰh₂we      	néweh₂dʰh₂we   	néweh₂dʰh₂we 	néweh₂edʰh₂we   	néweh₂ih₁dʰh₂we 	néweh₂mₒh₁nos 	
+renew	middle	3     	plural   	néweh₂ror         	néweh₂ro       	             	néweh₂oror      	néweh₂ih₁ro     	néweh₂mₒh₁nos 	
+arrive	active	1     	singular 	h₁ludʰóm          	h₁ludʰóm       	             	h₁ludʰṓh₂       	h₁ludʰóyh₁mₒ    	h₁ludʰónts    	
+arrive	active	2     	singular 	h₁ludʰés          	h₁ludʰés       	h₁ludʰé      	h₁ludʰḗsi       	h₁ludʰóys       	h₁ludʰónts    	
+arrive	active	3     	singular 	h₁ludʰét          	h₁ludʰét       	h₁ludʰétu    	h₁ludʰḗti       	h₁ludʰóyt       	h₁ludʰónts    	
+arrive	active	1     	dual     	h₁ludʰówe         	h₁ludʰówe      	             	h₁ludʰṓwos      	h₁ludʰóywe      	h₁ludʰónts    	
+arrive	active	2     	dual     	h₁ludʰétom        	h₁ludʰétom     	h₁ludʰétom   	h₁ludʰḗtes      	h₁ludʰóytom     	h₁ludʰónts    	
+arrive	active	3     	dual     	h₁ludʰétām        	h₁ludʰétām     	h₁ludʰétām   	h₁ludʰḗtes      	h₁ludʰóytām     	h₁ludʰónts    	
+arrive	active	1     	plural   	h₁ludʰóme         	h₁ludʰóme      	             	h₁ludʰṓmos      	h₁ludʰóyme      	h₁ludʰónts    	
+arrive	active	2     	plural   	h₁ludʰéte         	h₁ludʰéte      	h₁ludʰéte    	h₁ludʰḗte       	h₁ludʰóyte      	h₁ludʰónts    	
+arrive	active	3     	plural   	h₁ludʰónt         	h₁ludʰónt      	h₁ludʰóntu   	h₁ludʰṓnti      	h₁ludʰóyh₁nₒt   	h₁ludʰónts    	
+say	active	1     	singular 	wéwkom            	wéwkom         	             	wéwkōh₂         	wéwkoyh₁mₒ      	wéwkonts      	
+say	active	2     	singular 	wéwkes            	wéwkes         	wéwke        	wéwkēsi         	wéwkoys         	wéwkonts      	
+say	active	3     	singular 	wéwket            	wéwket         	wéwketu      	wéwkēti         	wéwkoyt         	wéwkonts      	
+say	active	1     	dual     	wéwkowe           	wéwkowe        	             	wéwkōwos        	wéwkoywe        	wéwkonts      	
+say	active	2     	dual     	wéwketom          	wéwketom       	wéwketom     	wéwkētes        	wéwkoytom       	wéwkonts      	
+say	active	3     	dual     	wéwketām          	wéwketām       	wéwketām     	wéwkētes        	wéwkoytām       	wéwkonts      	
+say	active	1     	plural   	wéwkome           	wéwkome        	             	wéwkōmos        	wéwkoyme        	wéwkonts      	
+say	active	2     	plural   	wéwkete           	wéwkete        	wéwkete      	wéwkēte         	wéwkoyte        	wéwkonts      	
+say	active	3     	plural   	wéwkont           	wéwkont        	wéwkontu     	wéwkōnti        	wéwkoyh₁nₒt     	wéwkonts      	
+say	middle	1     	singular 	wéwkoh₂e          	wéwkoh₂e       	             	wéwkōh₂er       	wéwkoyh₂e       	wéwkomnos     	
+say	middle	2     	singular 	wéwketh₂e         	wéwketh₂e      	wéwkeso      	wéwkēth₂er      	wéwkoyth₂e      	wéwkomnos     	
+say	middle	3     	singular 	wéwketo           	wéwketo        	             	wéwkētor        	wéwkoyto        	wéwkomnos     	
+say	middle	1     	dual     	wéwkowedʰh₂       	wéwkowedʰh₂    	             	wéwkōwosdʰh₂    	wéwkoywedʰh₂    	wéwkomnos     	
+say	middle	2     	dual     	                  	               	             	                	                	wéwkomnos     	
+say	middle	3     	dual     	                  	               	             	                	                	wéwkomnos     	
+say	middle	1     	plural   	wéwkomedʰh₂       	wéwkomedʰh₂    	             	wéwkōmosdʰh₂    	wéwkoymedʰh₂    	wéwkomnos     	
+say	middle	2     	plural   	wéwkedʰh₂we       	wéwkedʰh₂we    	wéwkedʰh₂we  	wéwkēdʰh₂we     	wéwkoydʰh₂we    	wéwkomnos     	
+say	middle	3     	plural   	wéwkoro           	wéwkoro        	             	wéwkōror        	wéwkoyro        	wéwkomnos     	
+say	active	1     	singular 	dḗyḱsmₒ           	dḗyḱsmₒ        	             	dḗyḱsoh₂        	déyḱsyeh₁mₒ     	déyḱsnₒts     	
+say	active	2     	singular 	dḗyḱs             	dḗyḱs          	dḗyḱs        	dḗyḱsesi        	déyḱsyeh₁s      	déyḱsnₒts     	
+say	active	3     	singular 	dḗyḱst            	dḗyḱst         	dḗyḱstu      	dḗyḱseti        	déyḱsyeh₁t      	déyḱsnₒts     	
+say	active	1     	dual     	déyḱswe           	déyḱswe        	             	dḗyḱsowos       	déyḱsih₁we      	déyḱsnₒts     	
+say	active	2     	dual     	déyḱstom          	déyḱstom       	déyḱstom     	dḗyḱsetes       	déyḱsih₁tom     	déyḱsnₒts     	
+say	active	3     	dual     	déyḱstām          	déyḱstām       	déyḱstām     	dḗyḱsetes       	déyḱsih₁tām     	déyḱsnₒts     	
+say	active	1     	plural   	déyḱsme           	déyḱsme        	             	dḗyḱsomos       	déyḱsih₁me      	déyḱsnₒts     	
+say	active	2     	plural   	déyḱste           	déyḱste        	déyḱste      	dḗyḱsete        	déyḱsih₁te      	déyḱsnₒts     	
+say	active	3     	plural   	déyḱsnₒt          	déyḱsnₒt       	déyḱsnₒtu    	dḗyḱsonti       	déyḱsih₁nₒt     	déyḱsnₒts     	
+pointed out	middle	1     	singular 	déyḱsh₂e          	déyḱsh₂e       	             	dḗyḱsoh₂er      	déyḱsih₁h₂e     	déyḱsmₒh₁nos  	
+pointed out	middle	2     	singular 	déyḱsth₂e         	déyḱsth₂e      	déyḱso       	dḗyḱseth₂er     	déyḱsih₁th₂e    	déyḱsmₒh₁nos  	
+pointed out	middle	3     	singular 	déyḱsto           	déyḱsto        	             	dḗyḱsetor       	déyḱsih₁to      	déyḱsmₒh₁nos  	
+pointed out	middle	1     	dual     	déyḱswedʰh₂       	déyḱswedʰh₂    	             	dḗyḱsowosdʰh₂   	déyḱsih₁wedʰh₂  	déyḱsmₒh₁nos  	
+pointed out	middle	2     	dual     	                  	               	             	                	                	déyḱsmₒh₁nos  	
+pointed out	middle	3     	dual     	                  	               	             	                	                	déyḱsmₒh₁nos  	
+pointed out	middle	1     	plural   	déyḱsmedʰh₂       	déyḱsmedʰh₂    	             	dḗyḱsomosdʰh₂   	déyḱsih₁medʰh₂  	déyḱsmₒh₁nos  	
+pointed out	middle	2     	plural   	déyḱsdʰh₂we       	déyḱsdʰh₂we    	déyḱsdʰh₂we  	dḗyḱsedʰh₂we    	déyḱsih₁dʰh₂we  	déyḱsmₒh₁nos  	
+pointed out	middle	3     	plural   	déyḱsro           	déyḱsro        	             	dḗyḱsoror       	déyḱsih₁ro      	déyḱsmₒh₁nos  	
+pointed out	active	1     	singular 	memónh₂e          	memónh₂e       	             	meménoh₂        	memnₒyéh₁mₒ     	memnₒwṓs      	
+pointed out	active	2     	singular 	memónth₂e         	memónth₂e      	memón        	meménesi        	memnₒyéh₁s      	memnₒwṓs      	
+pointed out	active	3     	singular 	memóne            	memóne         	memóntu      	meméneti        	memnₒyéh₁t      	memnₒwṓs      	
+pointed out	active	1     	dual     	memnₒwé           	memnₒwé        	             	meménowos       	memnih₁wé       	memnₒwṓs      	
+pointed out	active	2     	dual     	                  	               	memnₒtóm     	meménetes       	memnih₁tóm      	memnₒwṓs      	
+pointed out	active	3     	dual     	                  	               	memnₒtā´m    	meménetes       	memnih₁tā´m     	memnₒwṓs      	
+pointed out	active	1     	plural   	memnₒmé           	memnₒmé        	             	meménomos       	memnih₁mé       	memnₒwṓs      	
+pointed out	active	2     	plural   	memné             	memné          	memnₒté      	meménete        	memnih₁té       	memnₒwṓs      	
+pointed out	active	3     	plural   	memnḗr            	memnḗr         	memnéntu     	meménonti       	memnih₁ént      	memnₒwṓs      	
+	      	      								

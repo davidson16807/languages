@@ -1,6 +1,5 @@
 
 import re
-# import sys
 
 def column(filename, column_id, *formatters, delimeter='\t', padding=' \t\r\n'):
 	cells = []

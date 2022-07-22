@@ -1,0 +1,23 @@
+#english-infinitive	mood	infinitive	supine	indicative	indicative	indicative	indicative	subjunctive	subjunctive	imperative	imperative	participle	participle	         
+#				present	present	past	past	present	past			present	past	
+#				singular	plural	singular	plural			singular	plural			
+be	active	vara	varit	är 	äro 	var	voro	vare 	vore 	var	varen	varande		irregular
+go	active	gå	gått 	går 	gå 	gick	gingo 	gå, gånge 	ginge 	gå, gack	gån 	gående	gången	irregular
+go	passive	gås	gåtts 	gås 	gås 	gicks	gingos 	gås, gånges 	ginges 			gående	gången	irregular
+call	active	kalla	kallat 	kallar 	kalla 	kallade	kallade	kalle 	kallade 	kalla	kallen 	kallande	kallad	regular -ar
+call	passive	kallas	kallats	kallas 	kallas 	kallades	kallades 	kalles 	kallades 			kallande	kallad	regular -ar
+close	active	stänga	stängt 	stänger 	stänga 	stängde	stängde 	stänge 	stängde 	stäng	stängen 	stängande	stängd	regular -er, -de past tense
+close	passive	stängas	stängts 	stängs/stänges 	stängas 	stängdes	stängdes 	stänges 	stängdes 			stängande	stängd	regular -er, -de past tense
+read	active	läsa	läst 	läser 	läsa 	läste	läste 	läse 	läste 	läs	läsen 	läsande	läst	regular -er, -te past tense
+read	passive	läsas	lästs 	läses 	läsas 	lästes	lästes 	läses 	lästes 			läsande	läst	regular -er, -te past tense
+sew	active	sy	sytt 	syr 	sy 	sydde	sydde 	sy 	sydde 	sy	syn 	syende	sydd	short -r
+sew	passive	sys	sytts 	sys 	sys 	syddes	syddes 	sys 	syddes 			syende	sydd	short -r
+strike	active	stryka	strukit 	stryker 	stryka 	strök	ströko 	stryke 	ströke 	stryk	stryken 	strykande	struken	strong irregular
+strike	passive	strykas	strukits 	stryks, strykes 	strykas 	ströks	strökos 	strykes 	strökes 			strykande	struken	strong irregular
+														
+														
+														
+														
+														
+														
+														

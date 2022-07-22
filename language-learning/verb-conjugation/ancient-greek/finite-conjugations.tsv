@@ -1,17 +1,17 @@
-				present	present	present	present	present	present	imperfect	future	future	future	future	aortist	aortist	aortist	aortist	aortist	aortist	perfect	perfect	perfect	perfect	perfect	perfect					
-				infinitive	indicative	subjunctive	optative	imperative	participle	indicative	infinitive	indicative	optative	participle	infinitive	indicative	subjunctive	optative	imperative	participle	infinitive	indicative	subjunctive	optative	imperative	participle	infinitive	indicative	optative	participle	pluperfect
-be		1	singular	εἶναι	εἰμί	ὦ	εἴην	—	ὤν	ἦν/ἦ/ἤμην	ἔσεσθαι	ἔσομαι	ἐσοίμην	ἐσόμενος																	
-be		2	singular	εἶναι	εἶ	ᾖς	εἴης/εἴησθα	ἴσθι	οὖσα	ἦσθα/ἦς	ἔσεσθαι	ἔσῃ/ἔσει	ἔσοιο	ἐσομένη																	
-be		3	singular	εἶναι	ἐστί(ν)	ᾖ	εἴη	ἔστω	ὄν	ἦν	ἔσεσθαι	ἔσται	ἔσοιτο	ἐσόμενον																	
-be		1	plural	εἶναι	ἐσμέν	ὦμεν	εἴημεν/εἶμεν	—	ὤν	ἦμεν	ἔσεσθαι	ἐσόμεθα	ἐσοίμεθα	ἐσόμενος																	
-be		2	plural	εἶναι	ἐστέ	ἦτε	εἴητε/εἶτε	ἔστε	οὖσα	ἦτε/ἦστε	ἔσεσθαι	ἔσεσθε	ἔσοισθε	ἐσομένη																	
-be		3	plural	εἶναι	εἰσί(ν) 	ὦσι(ν) 	εἴησαν/εἶεν 	ἔστων/ὄντων/ἔστωσαν 	ὄν	ἦσαν 	ἔσεσθαι	ἔσονται 	ἔσοιντο	ἐσόμενον																	
-go		1	singular	ἰέναι		ἴω	ἴοιμι	—	ἰών	ᾔειν/ἦα		εἶμι		ὤν																	
-go		2	singular	ἰέναι		ἴης	ἴοις	ἴθι	ἰοῦσα	ᾔεισθα		εἶ		οὖσα																	
-go		3	singular	ἰέναι		ἴῃ	ἴοι	ἴτω	ἰόν	ᾔει		εἶσι(ν)		ὄν																	
-go		1	plural	ἰέναι		ἴωμεν	ἴοιμεν	—	ἰών	ᾖμεν		ἴμεν		ὤν																	
-go		2	plural	ἰέναι		ἴητε	ἴοιτε	ἴτε	ἰοῦσα	ᾖτε		ἴτε		οὖσα																	
-go		3	plural	ἰέναι		ἴωσι	ἴοιεν 	ἰόντων	ἰόν	ᾖσαν 		ἴᾱσι(ν) 		ὄν																	
+#			mood->	infinitive	indicative	subjunctive	optative	imperative	participle	indicative	infinitive	indicative	optative	participle	infinitive	indicative	subjunctive	optative	imperative	participle	infinitive	indicative	subjunctive	optative	imperative	participle	infinitive	indicative	optative	participle	pluperfect
+#verb	voice	person	plurality	present	present	present	present	present	present	imperfect	future	future	future	future	aortist	aortist	aortist	aortist	aortist	aortist	perfect	perfect	perfect	perfect	perfect	perfect					
+be	active	1	singular	εἶναι	εἰμί	ὦ	εἴην	—	ὤν	ἦν/ἦ/ἤμην	ἔσεσθαι	ἔσομαι	ἐσοίμην	ἐσόμενος																	
+be	active	2	singular	εἶναι	εἶ	ᾖς	εἴης/εἴησθα	ἴσθι	οὖσα	ἦσθα/ἦς	ἔσεσθαι	ἔσῃ/ἔσει	ἔσοιο	ἐσομένη																	
+be	active	3	singular	εἶναι	ἐστί(ν)	ᾖ	εἴη	ἔστω	ὄν	ἦν	ἔσεσθαι	ἔσται	ἔσοιτο	ἐσόμενον																	
+be	active	1	plural	εἶναι	ἐσμέν	ὦμεν	εἴημεν/εἶμεν	—	ὤν	ἦμεν	ἔσεσθαι	ἐσόμεθα	ἐσοίμεθα	ἐσόμενος																	
+be	active	2	plural	εἶναι	ἐστέ	ἦτε	εἴητε/εἶτε	ἔστε	οὖσα	ἦτε/ἦστε	ἔσεσθαι	ἔσεσθε	ἔσοισθε	ἐσομένη																	
+be	active	3	plural	εἶναι	εἰσί(ν) 	ὦσι(ν) 	εἴησαν/εἶεν 	ἔστων/ὄντων/ἔστωσαν 	ὄν	ἦσαν 	ἔσεσθαι	ἔσονται 	ἔσοιντο	ἐσόμενον																	
+go	active	1	singular	ἰέναι		ἴω	ἴοιμι	—	ἰών	ᾔειν/ἦα		εἶμι		ὤν																	
+go	active	2	singular	ἰέναι		ἴης	ἴοις	ἴθι	ἰοῦσα	ᾔεισθα		εἶ		οὖσα																	
+go	active	3	singular	ἰέναι		ἴῃ	ἴοι	ἴτω	ἰόν	ᾔει		εἶσι(ν)		ὄν																	
+go	active	1	plural	ἰέναι		ἴωμεν	ἴοιμεν	—	ἰών	ᾖμεν		ἴμεν		ὤν																	
+go	active	2	plural	ἰέναι		ἴητε	ἴοιτε	ἴτε	ἰοῦσα	ᾖτε		ἴτε		οὖσα																	
+go	active	3	plural	ἰέναι		ἴωσι	ἴοιεν 	ἰόντων	ἰόν	ᾖσαν 		ἴᾱσι(ν) 		ὄν																	
 release	active	1	singular	λῡ́ειν	λῡ́ω	λῡ́ω	λῡ́οιμι	—	λῡ́ων	ἔλῡον	λῡ́σειν	λῡ́σω	λῡ́σοιμι	λῡ́σων	λῦσαι	ἔλῡσα	λῡ́σω	λῡ́σαιμι	—	λῡ́σας	λελυκέναι	λέλυκα	λελυκώς ὦ	λελυκώς εἴην	—	λελυκώς		λελυκώς ἔσομαι			ἐλελύκη (-κειν)
 release	active	2	singular	λῡ́ειν	λῡ́εις	λῡ́ῃς	λῡ́οις	λῦε	λῡ́ουσα	ἔλῡες	λῡ́σειν	λῡ́σεις	λῡ́σοις	λῡ́σουσα	λῦσαι	ἔλῡσας	λῡ́σῃς	λῡ́σαις/λῡ́σειας	λῦσον	λῡ́σασα	λελυκέναι	λέλυκας	λελυκὼς ᾖς	λελυκώς εἴης	λελυκώς ἴσθι	λελυκυῖα		λελυκώς ἔσῃ/ἔσει			ἐλελύκης (-κεις)
 release	active	3	singular	λῡ́ειν	λῡ́ει	λῡ́ῃ	λῡ́οι	λῡέτω	λῦον	ἔλῡε(ν)	λῡ́σειν	λῡ́σει	λῡ́σοι	λῦσον 	λῦσαι	ἔλῡσε	λῡ́σῃ	λῡ́σαι/λῡ́σειε	λῡσάτω	λῦσαν	λελυκέναι	λέλυκε	λελυκὼς ᾖ	λελυκώς εἴη	λελυκὼς ἔστω	λελυκός		λελυκώς ἔσται			ἐλελύκει(ν) (-κει)

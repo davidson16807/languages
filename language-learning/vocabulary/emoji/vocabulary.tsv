@@ -95,15 +95,19 @@
 📝?	noun	how
 📈?	noun	why
 💎?	noun	whose
+🧍<span style="font-size:60%">→🔧🔧</span>	noun	this
+🧍<span style="font-size:60%">🔧🔧←</span>	noun	that
+🧍→🧰🧰	noun	these
+🧍🧰🧰←	noun	those
+↘🧍🏞️	noun	here
+🧍🏞️↖	noun	there
 🧍←	noun	this person
-←	noun	this
 🗺️←	noun	here
 🕐←	noun	now
 🤌←	noun	this much
 📝←	noun	this way
 📈←	noun	this reason
 💎←	noun	this person's
-🧰←	noun	these
 🧍←	noun	that person
 ←	noun	that
 🗺️←	noun	there
@@ -112,7 +116,6 @@
 📝←	noun	that way
 📈←	noun	that reason
 💎←	noun	that person's
-🧰←	noun	these
 ∃🧍	noun	somebody
 ∃	noun	something
 ∃🗺️	noun	somewhere
@@ -161,8 +164,6 @@
 <	noun	less
 =	noun	equal
 =	adjective	equality
-	noun	much
-	adjective	many
 🧍	noun	stand
 🧍	noun	stood
 🧍	verb	standing
@@ -225,16 +226,16 @@
 🚶🚶	verb	queuing
 🚶🚶	adjective	queued
 🚶🚶	adjective	queuing
-🧍🚪	verb	open
-🧍🚪	verb	opened
-🧍🚪	verb	opening
-🧍🚪	adjective	opened
-🧍🚪	adjective	opening
-🧍🚪	verb	close
-🧍🚪	verb	closed
-🧍🚪	verb	closing
-🧍🚪	adjective	closed
-🧍🚪	adjective	closing
+🔓	verb	open
+🔓	verb	opened
+🔓	verb	opening
+🔓	adjective	opened
+🔓	adjective	opening
+🔒	verb	close
+🔒	verb	closed
+🔒	verb	closing
+🔒	adjective	closed
+🔒	adjective	closing
 🧍🚪	verb	shut
 🧍🚪	verb	shutting
 🧍🚪	adjective	shut
@@ -341,7 +342,7 @@
 🐘	adjective	large
 🐁	adjective	small
 🐍	adjective	long
-<sub>🦔</sub>	adjective	short
+<span style="font-size:60%">🦔</span>	adjective	short
 👐	adjective	wide
 🤏	adjective	narrow
 👐	adjective	thick
@@ -408,10 +409,10 @@
 💧	adjective	liquid
 🔥	adjective	energetic
 
-🪨	noun	boulder
-<sub>🪨</sub>	noun	stone
-<sub>🪨</sub>	noun	gravel
-<sub>🪨</sub>	noun	pebble
+<big>🪨</big>	noun	boulder
+<span>🪨</span>	noun	stone
+<span style="font-size: 60%">🪨🪨🪨</span>	noun	gravel
+<span style="font-size: 30%">🪨</span>	noun	pebble
 ⛱️	noun	sand
 ⚱️	noun 	clay
 
@@ -957,7 +958,7 @@
 🖍️	verb	coloring
 🌈	adjective	colored
 🌈	adjective	colorful
-<span color="grey">■</span> 	adjective 	colorless
+<span style="color:grey">■</span> 	adjective 	colorless
 🌈	noun	colour
 🖍️	verb	colour
 🖍️	verb	coloured
@@ -965,8 +966,8 @@
 🌈	adjective	coloured
 🌈	adjective	colourful
 
-🔊	adjective	loud
-🔊	noun	loudness
+📢	adjective	loud
+📢	noun	loudness
 🔉	adjective	quiet
 🔉	adjective	quieted
 🔉	noun	quiet
@@ -1525,10 +1526,6 @@
 <	adverb	less
 <	pronoun	less
 🧍←	noun	that person
-🧍→🧰🧰	noun	this
-🧍🧰🧰←	noun	that
-↘🧍🏞️	noun	here
-🧍🏞️↖	noun	there
 🕐←	noun	then
 🤌←	noun	that much
 📝←	noun	so
@@ -1543,6 +1540,10 @@
 🤏 	noun 	few
 🤏 	adjective 	few
 🤏 	determiner 	few
+👐 	noun 	many
+👐 	adjective 	many
+👐 	determiner 	many
+🤌	noun	much
 🧍<sub>💎</sub>	verb	have
 🧍<sub>💎</sub>	verb	had
 🧍<sub>💎</sub>	verb	having
@@ -1744,41 +1745,54 @@
 👂	verb	listened
 👂	verb	listening
 👂	adjective	listening
-🗣️	noun	talk
-🗣️	verb	talk
-🗣️	verb	talked
-🗣️	verb	talking
-🗣️	adjective	talking
-🗣️	noun	speak
-🗣️	verb	speak
-🗣️	verb	spoke
-🗣️	verb	speaking
-🗣️	noun	speaker
-🗣️	adjective	speaking
-🗣️	noun	speech
-🗣️	noun	voice
-🗣️	verb	voice
-🗣️	verb	voiced
-🗣️	verb	voicing
-🗣️	noun	shout
-🗣️	verb	shout
-🗣️	verb	shouted
-🗣️	verb	shouting
-🗣️	noun	call
-🗣️	verb	call
-🗣️	verb	called
-🗣️	verb	calling
-🗣️	verb	invoke
-🗣️	verb	invoked
-🗣️	verb	invoking
-🗣️	adjective	invoked
-🗣️	noun	invokation
-🗯️	verb	understand
-🗯️	verb	understood
-🗯️	verb	understanding
-🗯️	noun	understanding
-🗯️	adjective	understood
-🗯️	adjective	understanding
+<sub>🧑</sub><sup>💬</sup>	noun	talk
+<sub>🧑</sub><sup>💬</sup>	verb	talk
+<sub>🧑</sub><sup>💬</sup>	verb	talked
+<sub>🧑</sub><sup>💬</sup>	verb	talking
+<sub>🧑</sub><sup>💬</sup>	adjective	talking
+<sub>🧑</sub><sup>💬</sup>	noun	speak
+<sub>🧑</sub><sup>💬</sup>	verb	speak
+<sub>🧑</sub><sup>💬</sup>	verb	spoke
+<sub>🧑</sub><sup>💬</sup>	verb	spoken
+<sub>🧑</sub><sup>💬</sup>	verb	speaking
+<sub>🧑</sub><sup>💬</sup>	adjective	spoken
+<sub>🧑</sub><sup>💬</sup>	adjective	speaking
+<sub>🧑</sub><sup>💬</sup>	noun	speaker
+<sub>🧑</sub><sup>💬</sup>	noun	speech
+<sub>🧑</sub><sup>💬</sup>	noun	voice
+<sub>🧑</sub><sup>💬</sup>	verb	voice
+<sub>🧑</sub><sup>💬</sup>	verb	voiced
+<sub>🧑</sub><sup>💬</sup>	verb	voicing
+<sub>🧑</sub><sup>🗯️</sup>	noun	shout
+<sub>🧑</sub><sup>🗯️</sup>	verb	shout
+<sub>🧑</sub><sup>🗯️</sup>	verb	shouted
+<sub>🧑</sub><sup>🗯️</sup>	verb	shouting
+<sub>🧑</sub><sup>🗯️</sup>	adjective	shouting
+<sub>🧑</sub><sup>🗯️</sup>	noun	yell
+<sub>🧑</sub><sup>🗯️</sup>	verb	yell
+<sub>🧑</sub><sup>🗯️</sup>	verb	yelled
+<sub>🧑</sub><sup>🗯️</sup>	verb	yelling
+<sub>🧑</sub><sup>🗯️</sup>	adjective	yelling
+<sub>😱</sub><sup>🗯️</sup>	noun	scream
+<sub>😱</sub><sup>🗯️</sup>	verb	scream
+<sub>😱</sub><sup>🗯️</sup>	verb	screamed
+<sub>😱</sub><sup>🗯️</sup>	verb	screaming
+<sub>😱</sub><sup>🗯️</sup>	adjective	screaming
+<sub>🧑</sub><sup>💬</sup>🧑	noun	call
+<sub>🧑</sub><sup>💬</sup>🧑	verb	call
+<sub>🧑</sub><sup>💬</sup>🧑	verb	called
+<sub>🧑</sub><sup>💬</sup>🧑	verb	calling
+<sub>🧑</sub><sup>💬</sup>🧑	verb	invoke
+<sub>🧑</sub><sup>💬</sup>🧑	verb	invoked
+<sub>🧑</sub><sup>💬</sup>🧑	verb	invoking
+<sub>🧑</sub><sup>💬</sup>🧑	adjective	invoked
+<sub>🧑</sub><sup>💬</sup>🧑	noun	invokation
+<sub>🧑</sub><sup>💡</sup>	verb	understand
+<sub>🧑</sub><sup>💡</sup>	verb	understood
+<sub>🧑</sub><sup>💡</sup>	verb	understanding
+<sub>🧑</sub><sup>💡</sup>	noun	understanding
+<sub>🧑</sub><sup>💡</sup>	adjective	understood
+<sub>🧑</sub><sup>💡</sup>	adjective	understanding
 T	noun	truth
 F	noun	falsehood
 T	adjective	true
@@ -2318,11 +2332,6 @@ F	adverb	false
 🙁	verb	frowned
 🙁	verb	frowning
 🙁	adjective	frowning
-😱	noun	scream
-😱	verb	scream
-😱	verb	screamed
-😱	verb	screaming
-😱	adjective	screaming
 🤬	noun	insult
 🤬	verb	insult
 🤬	verb	insulted
@@ -3069,7 +3078,7 @@ F	adverb	false
 🕵️	noun	investigate
 🕵️	noun	investigated
 🕵️	noun	investigating
-🕵️	adjective	investigated
+👨‍🦱🕵️	adjective	investigated
 🕵️	adjective	investigating
 🕵️	adjective	undercover
 🕵️	noun	espionage
@@ -3148,7 +3157,13 @@ F	adverb	false
 🤰	noun	pregnant
 🤰	adjective	pregnant
 🤰	noun	pregnancy
+🤰	noun	womb
 🤱	verb	breast-feeding
+🤱	verb	suckle
+🤱	verb	suckled
+🤱	verb	suckling
+🤱	adjective	suckled
+🤱	adjective	suckling
 👩‍🍼	noun	care
 👩‍🍼	verb	cared
 👩‍🍼	verb	caring
@@ -3319,6 +3334,7 @@ F	adverb	false
 🍗	noun	drumstick
 🥓	noun	bacon
 🍣	noun	sushi
+🍣	noun	sashimi
 🦑	noun	kalamari
 🥐	noun	croissant
 🥖	noun	baguette
@@ -3722,6 +3738,11 @@ F	adverb	false
 🖼️	adjective	painted
 🖼️	noun	painting
 🖼️	noun	portrait
+🖼️	noun	picture
+🖼️	verb	picture
+🖼️	verb	pictured
+🖼️	verb	picturing
+🖼️	adjective	pictured
 🖼️	noun	photo
 🖼️	noun	photograph
 📷	verb	photograph
@@ -3742,9 +3763,13 @@ F	adverb	false
 🎷	noun	instrument
 🎷	noun	saxophone
 🎺	noun	trumpet
-🎺	verb	trumpet
-🎺	verb	trumpeted
-🎺	verb	trumpeting
+<sub>🎺</sub><sup>🗯️</sup>	verb	trumpet
+<sub>🎺</sub><sup>🗯️</sup>	verb	trumpeted
+<sub>🎺</sub><sup>🗯️</sup>	verb	trumpeting
+<sub>🎺</sub><sup>🗯️</sup> 	verb 	blare
+<sub>🎺</sub><sup>🗯️</sup> 	verb 	blared
+<sub>🎺</sub><sup>🗯️</sup> 	verb 	blaring
+<sub>🎺</sub><sup>🗯️</sup> 	adjective 	blaring
 🪈	noun	flute
 🪈	verb	pipe
 🪈	verb	piped
@@ -3955,6 +3980,10 @@ F	adverb	false
 🏛️	noun	rome
 🏛️	noun	marble
 🏛️	adjective	marble
+🏗️	noun 	concrete
+🏗️	adjective 	concrete
+🏗️	noun 	cement
+🏗️	adjective	cement
 🏗️	verb	construct
 🏗️	verb	constructed
 🏗️	verb	constructing
@@ -4059,10 +4088,12 @@ F	adverb	false
 🗿	verb	carved
 🗿	verb	carving
 🗿	noun	carving
+🗿	adjective	carved
 🗿	verb	sculpt
 🗿	verb	sculpted
 🗿	verb	sculpting
-🗿	noun	sculpture
+🗿	verb	sculpted
+🗿	adjective	sculpture
 🗿	noun	monument
 🗿	noun	monumental
 ⛪	noun	church
@@ -4218,15 +4249,15 @@ F	adverb	false
 👳💣	noun	terrorist
 👳💣	noun	terrorism
 🏚️🔥	adjective	bombed
-💣🔥	noun	boom
+💣💥	noun	boom
 📢	verb	boom
 📢	verb	boomed
 📢	verb	booming
-💣🔥	noun	explosion
-💣🔥	noun	explode
-💣🔥	verb	exploded
-💣🔥	verb	exploding
-💣🔥	adjective	explosive
+💣💥	noun	explosion
+💣💥	noun	explode
+💣💥	verb	exploded
+💣💥	verb	exploding
+💣	adjective	explosive
 🛀	noun	bath
 🛀	verb	bathe
 🛀	verb	bathed
@@ -4285,7 +4316,7 @@ F	adverb	false
 🎎	noun	doll
 🎎	noun	puppet
 🎎	noun	marionette
-🎎	noun	matryoshka
+🪆	noun	matryoshka
 🎀	noun	ribbon
 🎁	noun	gift
 🎁	verb	gift
@@ -4821,7 +4852,16 @@ F	adverb	false
 🔒	verb	securing
 🔒	adjective	secured
 🔒	adjective	secure
-🔒	noun	security
+🔓	verb	unsecure
+🔓	verb	unsecured
+🔓	verb	unsecuring
+🔓	adjective	unsecured
+🔓	adjective	unsecure
+🔓	verb	insecure
+🔓	verb	insecured
+🔓	verb	insecuring
+🔓	adjective	insecured
+🔓	adjective	insecure
 🔧	noun	tool
 🔨	noun	mallet
 🔨	noun	hammer
@@ -4872,7 +4912,12 @@ F	adverb	false
 🪃	noun	boomerang
 🛡️	noun	shield
 🍢	noun	spear
+🍢	verb	spear
+🍢	verb	speared
+🍢	verb	spearing
+🍢	adjective	speared
 🍢	noun	skewer
+🍢	verb	skewer
 🍢	verb	skewered
 🍢	verb	skewering
 🔩	noun	bolt
@@ -4882,7 +4927,12 @@ F	adverb	false
 🔩	verb	fastening
 🔩	noun	part
 🔩	noun	piece
+🔩	noun	screw
 🪛	noun	screwdriver
+🪛	verb	screw
+🪛	verb	screwed
+🪛	verb	screwing
+🪛	adjective	screwed
 ⚙️	noun	gear
 🗜️	noun	clamp
 ⚖️	noun 	kilo
@@ -4890,10 +4940,28 @@ F	adverb	false
 ⚖️	noun 	pound
 ⚖️	noun	justice
 ⚖️	noun	balance
+⚖️	verb	balance
+⚖️	verb	balanced
+⚖️	verb	balancing
+⚖️	adjective	balanced
+⚖️	adjective	balancing
 🦯	noun	cane
 ⛓️	noun	chain
+⛓️	verb	chain
+⛓️	verb	chained
+⛓️	verb	chaining
+⛓️	adjective	chained
 🔗	noun	link
+🔗	verb	link
+🔗	verb	linked
+🔗	verb	linking
+🔗	adjective	linked
+🔗	noun	linkage
 🪝	noun	hook
+🪝	verb	hook
+🪝	verb	hooked
+🪝	verb	hooking
+🪝	adjective	hooked
 🧲←	verb	attract
 🧲←	verb	attracted
 🧲←	verb	attracting
@@ -5206,14 +5274,14 @@ F	adverb	false
 💃	adjective	sexy
 💃	adjective	carnal
 💃	adjective	sexual
-💃	noun	lust
-💃	verb	lust
-💃	verb	lusted
-💃	verb	lusting
-💃	adjective	lustful
 💃	adjective	beautiful
 💃	noun	beauty
 💃	adjective	pretty
+💃😳	noun	lust
+💃😳	verb	lust
+💃😳	verb	lusted
+💃😳	verb	lusting
+💃😳	adjective	lustful
 ⚛️	noun	theory
 ⚛️	noun	atom
 ⚛️	noun	quantum
@@ -5626,17 +5694,21 @@ F	adverb	false
 🦌	noun	deer
 🦫	noun	beaver
 
+
 🧍🐕	noun 	pet
 
 🐒	noun	monkey
 🦍	noun	gorilla
 🦍	noun	ape
+🦧	noun 	orangutan
 🦁	noun	lion
 🐅	noun	tiger
+<span style="filter: contrast(0.1) brightness(1.1) sepia(1) saturate(3)">🐆</span> 	noun 	lioness
+<span style="filter: contrast(0.1) brightness(1.1) sepia(1) saturate(3)">🐆</span> 	noun 	mountain lion
 🐆	noun	leopard
 🐆	noun	cheetah
+<span style="filter: greyscale(100%) brightness(50%);">🐆</span>	noun	panther
 🦝	noun	raccoon
-🐈‍⬛	noun	panther
 🦓	noun	zebra
 🦬	noun	bison
 🐂	noun	ox
@@ -5710,53 +5782,54 @@ F	adverb	false
 🐕 	adjective 	canine
 🐦	adjective	avian
 
-🐕 	noun 	bark
-🐕 	verb	bark
-🐕 	verb	barked
-🐕 	verb	barking
-🐕 	adjective 	barking
-🐈 	noun 	meow
-🐈 	verb	meow
-🐈 	verb	meowed
-🐈 	verb	meowing
-🐈 	adjective 	meowing
-🐄	noun	udder
-🐄	noun	moo
-🐄	verb	moo
-🐄	verb	mooed
-🐄	verb	mooing
-🐄	adjective	mooing
-🐖	noun	oink
-🐖	verb	oink
-🐖	verb	oinked
-🐖	verb	oinking
-🐖	adjectinve	oinking
-🐁	noun	squeak
-🐁	verb	squeak
-🐁	verb	squeaked
-🐁	verb	squeaking
-🐁	adjective	squeaked
-🐁	adjective	squeaking
-🐎	noun	neigh
-🐎	verb	neigh
-🐎	verb	neighed
-🐎	verb	neighing
-🐎	adjective	neighing
-🐑	noun	bleat
-🐑	verb	bleat
-🐑	verb	bleated
-🐑	verb	bleating
-🐑	adjective	bleating
-🦁 	noun 	roar
-🦁 	verb	roar
-🦁 	verb	roared
-🦁 	verb	roaring
-🦁 	adjective 	roaring
-🐗	noun	snort
-🐗	verb	snort
-🐗	verb	snorted
-🐗	verb	snorting
-🐗	adjective	snorting
+
+<sub>🐕</sub><sup>🗯️</sup> 	noun 	bark
+<sub>🐕</sub><sup>🗯️</sup> 	verb	bark
+<sub>🐕</sub><sup>🗯️</sup> 	verb	barked
+<sub>🐕</sub><sup>🗯️</sup> 	verb	barking
+<sub>🐕</sub><sup>🗯️</sup> 	adjective 	barking
+<sub>🐈</sub><sup>🗯️</sup> 	noun 	meow
+<sub>🐈</sub><sup>🗯️</sup> 	verb	meow
+<sub>🐈</sub><sup>🗯️</sup> 	verb	meowed
+<sub>🐈</sub><sup>🗯️</sup> 	verb	meowing
+<sub>🐈</sub><sup>🗯️</sup> 	adjective 	meowing
+<sub>🐄</sub><sup>🗯️</sup>	noun	udder
+<sub>🐄</sub><sup>🗯️</sup>	noun	moo
+<sub>🐄</sub><sup>🗯️</sup>	verb	moo
+<sub>🐄</sub><sup>🗯️</sup>	verb	mooed
+<sub>🐄</sub><sup>🗯️</sup>	verb	mooing
+<sub>🐄</sub><sup>🗯️</sup>	adjective	mooing
+<sub>🐖</sub><sup>🗯️</sup>	noun	oink
+<sub>🐖</sub><sup>🗯️</sup>	verb	oink
+<sub>🐖</sub><sup>🗯️</sup>	verb	oinked
+<sub>🐖</sub><sup>🗯️</sup>	verb	oinking
+<sub>🐖</sub><sup>🗯️</sup>	adjectinve	oinking
+<sub>🐁</sub><sup>🗯️</sup>	noun	squeak
+<sub>🐁</sub><sup>🗯️</sup>	verb	squeak
+<sub>🐁</sub><sup>🗯️</sup>	verb	squeaked
+<sub>🐁</sub><sup>🗯️</sup>	verb	squeaking
+<sub>🐁</sub><sup>🗯️</sup>	adjective	squeaked
+<sub>🐁</sub><sup>🗯️</sup>	adjective	squeaking
+<sub>🐎</sub><sup>🗯️</sup>	noun	neigh
+<sub>🐎</sub><sup>🗯️</sup>	verb	neigh
+<sub>🐎</sub><sup>🗯️</sup>	verb	neighed
+<sub>🐎</sub><sup>🗯️</sup>	verb	neighing
+<sub>🐎</sub><sup>🗯️</sup>	adjective	neighing
+<sub>🐑</sub><sup>🗯️</sup>	noun	bleat
+<sub>🐑</sub><sup>🗯️</sup>	verb	bleat
+<sub>🐑</sub><sup>🗯️</sup>	verb	bleated
+<sub>🐑</sub><sup>🗯️</sup>	verb	bleating
+<sub>🐑</sub><sup>🗯️</sup>	adjective	bleating
+<sub>🦁</sub><sup>🗯️</sup> 	noun 	roar
+<sub>🦁</sub><sup>🗯️</sup> 	verb	roar
+<sub>🦁</sub><sup>🗯️</sup> 	verb	roared
+<sub>🦁</sub><sup>🗯️</sup> 	verb	roaring
+<sub>🦁</sub><sup>🗯️</sup> 	adjective 	roaring
+<sub>🐗</sub><sup>🗯️</sup>	noun	snort
+<sub>🐗</sub><sup>🗯️</sup>	verb	snort
+<sub>🐗</sub><sup>🗯️</sup>	verb	snorted
+<sub>🐗</sub><sup>🗯️</sup>	verb	snorting
+<sub>🐗</sub><sup>🗯️</sup>	adjective	snorting
 🐰	adjective	cute
 🐶	adjective	adorable
 🐶	adjective	lovable
@@ -5764,7 +5837,7 @@ F	adverb	false
 
 🐄🐄	noun	cattle
 🐄🐖🐓	noun	livestock
-🧍<sub>🐑🐑</sub>	noun	shepherd
+🧍<span style="font-size:60%">🐑🐑</span>	noun	shepherd
 
 🦬🦬	noun	herd
 
@@ -5830,15 +5903,20 @@ F	adverb	false
 🦢	noun	swan
 🦩 	noun 	flamingo
 🦚 	noun 	peacock
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🦚</span> 	noun 	peahen
 🦜 	noun 	parrot
 🦤 	noun 	dodo
 🦉	noun 	owl
 🕊️ 	noun 	dove
 🪿	noun	goose
-🐦	noun	sparrow
-🐦	noun	pigeon
-🐦‍⬛	noun	crow
-🐦‍⬛	noun	raven
+<span style="filter: grayscale(100%) sepia(200%) saturate(250%) hue-rotate(315deg)">🐦</span> 	noun 	robbin
+<span style="filter: grayscale(100%) sepia(200%) saturate(400%) hue-rotate(315deg)">🐦</span> 	noun 	cardinal
+<span style="filter: grayscale(100%) sepia(200%) saturate(400%) hue-rotate(150deg)">🐦</span> 	noun 	bluejay
+<span style="filter: grayscale(100%) sepia(200%) saturate(300%)">🐦</span>	noun	sparrow
+<span style="filter: grayscale(100%) brightness(1.3)">🐦</span>	noun	pigeon
+<span style="filter: grayscale(100%) brightness(70%)">🐦</span>	noun	crow
+<span style="filter: grayscale(100%) brightness(60%)">🐦</span>	noun	blackbird
+<span style="filter: grayscale(100%) brightness(50%)">🐦</span>	noun	raven
 
 🕊️ 	noun 	peace
 🕊️ 	adjective 	peaceful
@@ -5847,22 +5925,29 @@ F	adverb	false
 🕊️ 	verb	pacifying
 🕊️ 	adjective 	pacified
 🕊️ 	adjective 	pacifying
-🐦	noun	tweet
-🐦	verb	tweet
-🐦	verb	twote
-🐦	verb	tweeted
-🐦	verb	tweeting
-🐦	adjective	tweeting
-🐥	noun	cheep
-🐥	verb	cheep
-🐥	verb	cheeped
-🐥	verb	cheeping
-🐥	adjective	cheeping
+<sub>🐦</sub><sup>🗯️</sup>	noun	tweet
+<sub>🐦</sub><sup>🗯️</sup>	verb	tweet
+<sub>🐦</sub><sup>🗯️</sup>	verb	twote
+<sub>🐦</sub><sup>🗯️</sup>	verb	tweeted
+<sub>🐦</sub><sup>🗯️</sup>	verb	tweeting
+<sub>🐦</sub><sup>🗯️</sup>	adjective	tweeting
+<sub>🐥</sub><sup>🗯️</sup>	noun	cheep
+<sub>🐥</sub><sup>🗯️</sup>	verb	cheep
+<sub>🐥</sub><sup>🗯️</sup>	verb	cheeped
+<sub>🐥</sub><sup>🗯️</sup>	verb	cheeping
+<sub>🐥</sub><sup>🗯️</sup>	adjective	cheeping
+<sub><span style="filter: grayscale(100%) brightness(50%)">🐦</span></sub><sup>🗯️</sup>	noun	caw
+<sub><span style="filter: grayscale(100%) brightness(50%)">🐦</span></sub><sup>🗯️</sup>	verb	caw
+<sub><span style="filter: grayscale(100%) brightness(50%)">🐦</span></sub><sup>🗯️</sup>	verb	cawed
+<sub><span style="filter: grayscale(100%) brightness(50%)">🐦</span></sub><sup>🗯️</sup>	verb	cawing
+<sub><span style="filter: grayscale(100%) brightness(50%)">🐦</span></sub><sup>🗯️</sup>	adjective	cawing
 🪺	noun	nest
 🪺	verb	nest
 🪺	verb	nested
 🪺	verb	nesting
 🪺	adjective	nesting
+
+<span style="filter: drop-shadow(16px 16px 1px black)">🕊️</span> 	noun 	shadow
 
 🐦🐦	noun	flock
 
@@ -5890,11 +5975,11 @@ F	adverb	false
 🐸	noun	toad
 🦎	noun	salamander
 
-🐍	noun	hiss
-🐍	verb	hiss
-🐍	verb	hissed
-🐍	verb	hissing
-🐍	adjective	hissing
+<sub>🐍</sub><sup>🗯️</sup>	noun	hiss
+<sub>🐍</sub><sup>🗯️</sup>	verb	hiss
+<sub>🐍</sub><sup>🗯️</sup>	verb	hissed
+<sub>🐍</sub><sup>🗯️</sup>	verb	hissing
+<sub>🐍</sub><sup>🗯️</sup>	adjective	hissing
 
 🐍	verb	slither
 🐍	verb	slithered
@@ -5907,16 +5992,16 @@ F	adverb	false
 
 🦈	noun	shark
 🐟	noun	tuna
-🐟	noun	salmon
-🐟	noun	bass
-🐟	noun	herring
-🐟	noun	mackerel
-🐟	noun	cod
-🐟	noun	catfish
-🐟	noun	carp
 🐟	noun	barracuda
-🐟	noun	flounder
-🐟	noun	sturgeon
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	salmon
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	bass
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	herring
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	mackerel
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	cod
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	catfish
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	carp
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	flounder
+<span style="filter: contrast(0.5) sepia(1) saturate(1.5)">🐟</span>	noun	sturgeon
 🐡	noun 	puffer
 <sub>🐟</sub>	noun	anchovy
 
@@ -5937,10 +6022,10 @@ F	adverb	false
 
 🪸 	noun 	coral
 🪼 	noun 	jellyfish
-🪱	noun	flatworm
-🪱	noun	nematode
-🪱	noun	roundworm
-🪱	noun	tapeworm
+<span style="filter: contrast(0.1) sepia(1) saturate(1.5)">🪱</span>	noun	flatworm
+<span style="filter: contrast(0.1) sepia(1) saturate(1.5)">🪱</span>	noun	nematode
+<span style="filter: contrast(0.1) sepia(1) saturate(1.5)">🪱</span>	noun	roundworm
+<span style="filter: contrast(0.1) sepia(1) saturate(1.5)">🪱</span>	noun	tapeworm
 🪱	noun	worm
 🐌	noun	snail
 🦪	noun 	clam
@@ -5974,12 +6059,12 @@ F	adverb	false
 🕷️	noun	arachnid
 🪱	noun	annelid
 
-🐜🐜	noun	colony
-🐝🐝	noun	swarm
-🐝🐝	verb	swarm
-🐝🐝	verb	swarmed
-🐝🐝	verb	swarming
-🐝🐝	adjective	swarming
+<span style="font-size: 60%;">🐜🐜🐜</span>	noun	colony
+<span style="font-size: 60%;">🐝🐝🐝</span>	noun	swarm
+<span style="font-size: 60%;">🐝🐝🐝</span>	verb	swarm
+<span style="font-size: 60%;">🐝🐝🐝</span>	verb	swarmed
+<span style="font-size: 60%;">🐝🐝🐝</span>	verb	swarming
+<span style="font-size: 60%;">🐝🐝🐝</span>	adjective	swarming
 
 ↘🦂	noun	pincer
 🦂↖	noun	stinger
@@ -6012,30 +6097,31 @@ F	adverb	false
 🐛	verb	creeping
 🐛	adjective	creeping
 
-🪰	noun	buzz
-🪰	verb	buzz
-🪰	verb	buzzed
-🪰	verb	buzzing
-🪰	adjective	buzzing
+<sub>🪰</sub><sup>🗯️</sup>	noun	buzz
+<sub>🪰</sub><sup>🗯️</sup>	verb	buzz
+<sub>🪰</sub><sup>🗯️</sup>	verb	buzzed
+<sub>🪰</sub><sup>🗯️</sup>	verb	buzzing
+<sub>🪰</sub><sup>🗯️</sup>	adjective	buzzing
 
 🪲	noun	bug
 🪱	noun	slime
 🪱	adjective	slimey
 🕷️	noun	venom
 🕷️	adjective	venomous
-<sub>🐛</sub>	noun	maggot
-<sub>🐛</sub>	noun	grub
-<sub>🐛</sub>	noun	larva
-<sub>🐛</sub>	noun	leech
-<sub>🐜</sub>	noun	lice
-<sub>🐜</sub>	noun	louse
-<sub>🐜</sub>	noun	flea
+<span style="font-size: 60%;">🐛</span>	noun	maggot
+<span style="font-size: 60%;">🐛</span>	noun	grub
+<span style="font-size: 60%;">🐛</span>	noun	larva
+<span style="font-size: 60%;">🐛</span>	noun	leech
+<span style="font-size: 60%;">🐜</span>	noun	lice
+<span style="font-size: 60%;">🐜</span>	noun	louse
+<span style="font-size: 60%;">🐜</span>	noun	flea
 🦟	noun	parasite
 🕸️	noun	web
 🕸️	noun	cobweb
 🕸️	noun	net
 🕸️	noun	network
-<sub>🐜🥚</sub>	noun	nit
+🐜<span style="font-size: 60%;">🥚</span>	noun	nit
+🐜<span style="font-size: 60%;">💩</span>	noun	frass
 🐜	noun	insect
 🐜	noun	creature
 🐙	adjective	incomprehensible
@@ -6101,31 +6187,46 @@ F	adverb	false
 🐉	noun	basilisk
 🦄	noun	unicorn
 🦄	noun	pegasus
-🦍	noun 	bigfoot
-🦍	noun 	sasquatch
-🦍	noun 	yeti
+<span style="font-size: 120%; filter: sepia(100%) saturate(300%)">🦍</span>	noun 	bigfoot
+<span style="font-size: 120%; filter: sepia(100%) saturate(300%)">🦍</span>	noun 	sasquatch
+<span style="font-size: 120%; filter: invert(100%) brightness(110%)">🦍</span>	noun 	yeti
 🐺🐺🐺	noun 	cerberus
 🐺🐺🐺	noun 	kerberos
-🐙	noun 	kraken
-🦛	noun	behemoth
-🐋	noun 	leviathan
+<big>🧍</big><span style="font-size:60%">🧍</span> 	adjective 	giant
+<big>🧍</big><span style="font-size:60%">🧍</span> 	noun 	giant
+<big>🐙</big><span style="font-size:60%">⛵</span>	noun 	kraken
+<big>🦛</big><span style="font-size:30%">🧍</span>	noun	behemoth
+<big>🐋</big><span style="font-size:30%">⛵</span>	noun 	leviathan
+<span style="font-size:40%">🐘</span><big>🦅</big>	noun 	roc
+
+<big>🦖</big><span style="font-size:30%">🧍</span>	noun 	godzilla
+<big>🦋</big><span style="font-size:30%">🧍</span>	noun 	mothra
+<big>🦍</big><span style="font-size:30%">🧍</span>	noun 	kong
+
+<span style="font-size:40%">🏢🏢</span><big>🐙</big>	noun 	cthulhu
+<sup><span style="font-size:30%">⭐</span></sup><big>🐙</big><span style="font-size:30%">🪐</span>	noun 	azathoth
+<big>🏋️</big><span style="font-size:60%">🧍</span> 	noun 	titan
+
+<big>🧍</big><span style="font-size:60%">🧍</span> 	adjective 	enormous
+<big>🧍</big><span style="font-size:60%">🧍</span> 	adjective 	huge
+<big>🧍</big><span style="font-size:60%">🧍</span> 	adjective 	gargantuan
 
 🤖🧑‍🚀	noun 	science fiction
 🤖🧑‍🚀	noun 	scifi
 🤖🧑‍🚀	noun 	sci-fi
 🐎🤠	noun 	western
-🐉🧙‍♂️	noun 	fantasy
-🐉🧙‍♂️	noun 	myth
-🐉🧙‍♂️	noun 	mythology
-🐉🧙‍♂️	noun 	quest
-🐉🧙‍♂️	noun 	adventure
-🐉🧙‍♂️	noun 	roleplay
-🐉🧙‍♂️	noun 	legend
-🐉🧙‍♂️	noun 	tale
-🐉🧙‍♂️	noun 	story
-🐉🧙‍♂️	noun 	fable
-🐉🧙‍♂️	noun 	makebelieve
-🐉🧙‍♂️	adjective 	fanciful
+<big>🐉</big>🧙‍♂️	noun 	fantasy
+<big>🐉</big>🧙‍♂️	noun 	myth
+<big>🐉</big>🧙‍♂️	noun 	mythology
+<big>🐉</big>🧙‍♂️	noun 	quest
+<big>🐉</big>🧙‍♂️	noun 	adventure
+<big>🐉</big>🧙‍♂️	noun 	roleplay
+<big>🐉</big>🧙‍♂️	noun 	legend
+<big>🐉</big>🧙‍♂️	noun 	tale
+<big>🐉</big>🧙‍♂️	noun 	story
+<big>🐉</big>🧙‍♂️	noun 	fable
+<big>🐉</big>🧙‍♂️	noun 	makebelieve
+<big>🐉</big>🧙‍♂️	adjective 	fanciful
 🦄🌈	noun	nonsense
 🦄🌈	adjective	ludicrous
 🏰🦄	noun	fairytale
@@ -6248,6 +6349,8 @@ F	adverb	false
 🐈‍⬛	noun	unlucky
 🥺	noun	luckless
 🍇	noun	grapes
+<span style="filter:  hue-rotate(-30deg) brightness(60%)">🍇</span>	noun	blackberry
+<span style="filter:  hue-rotate(60deg)">🍇</span>	noun	raspberry
 🍎	noun	apple
 🍊	noun 	orange
 🍐	noun	pear
@@ -6424,44 +6527,75 @@ F	adverb	false
 ⛎	noun	ophiuchus
 
 # MINERALS
-💎	noun	diamond
-💎	noun	emerald
-💎	noun	ruby
-💎	noun	sapphire
-💎	noun	beryl
-💎	noun	aquamarine
-💎	noun	peridot
-💎	noun	spinel
-💎	noun	tourmaline
-💎	noun	zircon
-💎	noun	amethyst
-💎	noun	quartz
+<span style="filter: grayscale(90%) brightness(130%)">💎</span>	noun	diamond
+<span style="filter: hue-rotate(270deg)">💎</span>	noun	emerald
+<span style="filter:  brightness(0.5) contrast(1.5) saturate(1.5) brightness(1.7) hue-rotate(135deg)">💎</span>	noun	ruby
+<span style="filter: hue-rotate(0deg)">💎</span>	noun	sapphire
+<span style="filter: grayscale(70%) brightness(120%)">💎</span>	noun	beryl
+<span style="filter: brightness(80%)">💎</span>	noun	aquamarine
+<span style="filter: hue-rotate(270deg) brightness(90%)">💎</span>	noun	peridot
+<span style="filter: hue-rotate(270deg) brightness(90%)">💎</span>	noun	chrysolite
+<span style="filter: sepia(100%)">💎</span>	noun	spinel
+<span style="filter: hue-rotate(225deg) brightness(90%)">💎</span>	noun	tourmaline
+<span style="filter: sepia(1)">💎</span> 	noun 	topaz
+<span style="filter: brightness(0.35) contrast(1.5) saturate(1.5) brightness(1.7) hue-rotate(135deg)">💎</span> 	noun 	garnet
+<span style="filter: hue-rotate(60deg)">💎</span> 	noun 	alexandrite
+<span style="filter: grayscale(100%) brightness(120%)">💎</span>	noun	zircon
+<span style="filter: grayscale(100%) brightness(90%)">💎</span> 	noun 	moonstone
+<span style="filter: grayscale(100%) brightness(110%)">💎</span>	noun	quartz
+<span style="filter: hue-rotate(45deg)">💎</span>	noun	amethyst
+<span style="filter: sepia(1) saturate(3)">💎</span> 	noun 	citrine
 
 # ROCKS
-🪨 	noun 	chalk
+<span style="filter: grayscale(100%) brightness(120%)">🪨</span> 	noun 	chalk
 🪨 	noun 	chert
-🪨 	noun 	coal
-🪨 	noun 	flint
-🪨 	noun 	marl
-🪨 	noun 	sandstone
-🪨 	noun 	limestone
-🪨 	noun 	mudstone
-🪨 	noun 	shale
+<span style="filter: grayscale(100%) brightness(20%)">🪨</span> 	noun 	coal
+<span style="filter: grayscale(100%) brightness(30%)">🪨</span> 	noun 	flint
+<span style="filter: grayscale(100%) brightness(110%)">🪨</span> 	noun 	marl
+<span style="filter: brightness(80%) sepia(100%) saturate(150%)">🪨</span> 	noun 	sandstone
+<span style="filter: sepia(70%) saturate(100%)">🪨</span> 	noun 	limestone
+<span style="filter: brightness(70%) sepia(100%) saturate(100%)">🪨</span> 	noun 	mudstone
+<span style="filter: grayscale(100%) brightness(50%)">🪨</span> 	noun 	shale
 
-🪨 	noun 	slate
-🪨 	noun 	gneiss
-🪨 	noun 	hornfel
-🪨 	noun 	marble
-🪨 	noun 	schist
-🪨 	noun 	turquoise
+<span style="filter: grayscale(100%) brightness(40%)">🪨</span> 	noun 	slate
+<span style="filter: sepia(70%) brightness(40%)">🪨</span> 	noun 	gneiss
+<span style="filter: sepia(70%) brightness(50%)">🪨</span> 	noun 	hornfel
+<span style="filter: grayscale(100%) brightness(130%)">🪨</span> 	noun 	marble
+<span style="filter: grayscale(100%) brightness(70%)">🪨</span> 	noun 	schist
 
-🪨 	noun 	granite
-🪨 	noun 	basalt
-🪨 	noun 	gabbro
-🪨 	noun 	diorite
-🪨 	noun 	obsidian
-🪨 	noun 	pumice
-🪨 	noun 	hornblende
+<span style="filter: brightness(0.7) sepia(1) saturate(2) hue-rotate(135deg)">🪨</span> 	noun 	turquoise
+<span style="filter: brightness(0.7) sepia(1) saturate(3) hue-rotate(135deg)">🪨</span> 	noun 	azurite
+<span style="filter: brightness(0.5) sepia(1) saturate(5) hue-rotate(180deg)">🪨</span> 	noun 	lapis
+<span style="filter: brightness(0.5) sepia(1) saturate(5) hue-rotate(180deg)">🪨</span> 	noun 	lapis lazuli
+<span style="filter: brightness(0.7) sepia(1) saturate(3) hue-rotate(90deg)">🪨</span> 	noun 	chrysoprase
+<span style="filter: brightness(0.7) sepia(1) saturate(3) hue-rotate(90deg)">🪨</span> 	noun 	chrysocolla
+<span style="filter: brightness(0.5) sepia(1) saturate(5) hue-rotate(90deg)">🪨</span> 	noun 	malachite
+<span style="filter:  brightness(0.5) contrast(2) sepia(1) saturate(4) hue-rotate(135deg) ">🪨</span> 	noun 	labradorite
+<span style="filter:  brightness(0.5) sepia(1) saturate(5) hue-rotate(-15deg)">🪨</span> 	noun 	sunstone
+<span style="filter: sepia(100%) saturate(5) hue-rotate(180deg)">🪨</span> 	noun 	opal
+<span style="filter:  brightness(0.5) contrast(2) sepia(1) saturate(4) hue-rotate(295deg) ">🪨</span> 	noun 	agate
+<span style="filter:  brightness(0.5) sepia(1) saturate(4) hue-rotate(295deg) ">🪨</span> 	noun 	cinnabar
+<span style="filter:  brightness(0.4) sepia(1) saturate(5) hue-rotate(295deg) ">🪨</span> 	noun 	carnelian
+<span style="filter:  brightness(0.5) sepia(1) saturate(2) hue-rotate(295deg) ">🪨</span>	noun 	jasper
+🦪 	noun 	pearl
+
+<span style="filter: brightness(50%) sepia(100%) saturate(100%)">🪨</span> 	noun 	granite
+<span style="filter: grayscale(100%) brightness(30%)">🪨</span> 	noun 	basalt
+<span style="filter: brightness(40%) sepia(100%) saturate(100%)">🪨</span> 	noun 	gabbro
+<span style="filter: brightness(40%) sepia(50%) saturate(100%)">🪨</span> 	noun 	diorite
+<span style="filter: grayscale(100%) brightness(10%)">🪨</span> 	noun 	obsidian
+<span style="filter: grayscale(100%) brightness(10%)">🪨</span> 	noun 	onyx
+<span style="filter: grayscale(100%) brightness(110%)">🪨</span> 	noun 	pumice
+<span style="filter: sepia(70%) brightness(50%)">🪨</span> 	noun 	hornblende
+
+<span style="filter: sepia(100%) saturate(5)">🪨</span> 	noun 	nugget
+
+<span style="filter: sepia(100%) saturate(5) hue-rotate(275deg)">🪨</span> 	noun 	gum
+<span style="filter: sepia(100%) saturate(5) hue-rotate(275deg)">🪨</span> 	noun 	bubblegum
+<span style="filter: sepia(100%) saturate(5) hue-rotate(275deg)">🪨</span> 	noun 	chewing gum
+<span style="filter: sepia(100%) saturate(5) hue-rotate(275deg)">🪨</span> 	noun 	cotton candy
+<span style="filter: sepia(100%) saturate(5) hue-rotate(275deg)">🪨</span> 	noun 	candy floss
+<span style="filter: sepia(100%) saturate(5) hue-rotate(275deg)">🪨</span> 	noun 	taffy
 
 # METALS
 🥉	noun	bronze
@@ -7618,37 +7752,37 @@ m 	noun 	meter
 %	noun	percent
 
 # COLORS
-<span color="grey">■</span> 	adjective 	colourless
-<span color="red">■</span>	adjective	red
-<span color="pink">■</span>	adjective 	pink
-<span color="orange">■</span>	adjective	orange
-<span color="yellow">■</span>	adjective	yellow
-<span color="yellow">■</span>	adjective	sallow
-<span color="green">■</span>	adjective	green
-<span color="green">■</span>	adjective	verdant
-<span color="blue">■</span>	adjective	blue
-<span color="blue">■</span>	adjective	azure
-<span color="blue">■</span>	adjective	cerulean
-<span color="purple">■</span>	adjective	purple
-<span color="purple">■</span>	adjective	violet
-<span color="brown">■</span>	adjective	brown
-<span color="black">■</span>	adjective	black
-<span color="grey">■</span> 	adjective 	grey
-<span color="grey">■</span> 	adjective 	gray
-<span color="white">■</span> 	adjective 	white
-<span color="cyan">■</span> 	adjective 	cyan
-<span color="magenta">■</span> 	adjective 	magenta
-<span color="chartreuse">■</span> 	adjective 	chartreuse
-<span color="crimson">■</span> 	adjective 	crimson
-<span color="azure">■</span> 	adjective 	azure
-<span color="beige">■</span> 	adjective 	beige
-<span color="violet">■</span> 	adjective 	violet
-<span color="fuchsia">■</span> 	adjective 	fuchsia
-<span color="indigo">■</span> 	adjective 	indigo
-<span color="khaki">■</span> 	adjective 	khaki
-<span color="maroon">■</span> 	adjective 	maroon
-<span color="tan">■</span> 	adjective 	tan
-<span color="teal">■</span> 	adjective 	teal
+<span style="color:grey">■</span> 	adjective 	colourless
+<span style="color:red">■</span>	adjective	red
+<span style="color:pink">■</span>	adjective 	pink
+<span style="color:orange">■</span>	adjective	orange
+<span style="color:yellow">■</span>	adjective	yellow
+<span style="color:yellow">■</span>	adjective	sallow
+<span style="color:green">■</span>	adjective	green
+<span style="color:green">■</span>	adjective	verdant
+<span style="color:blue">■</span>	adjective	blue
+<span style="color:blue">■</span>	adjective	azure
+<span style="color:blue">■</span>	adjective	cerulean
+<span style="color:purple">■</span>	adjective	purple
+<span style="color:purple">■</span>	adjective	violet
+<span style="color:brown">■</span>	adjective	brown
+<span style="color:black">■</span>	adjective	black
+<span style="color:grey">■</span> 	adjective 	grey
+<span style="color:grey">■</span> 	adjective 	gray
+<span style="color:white">■</span> 	adjective 	white
+<span style="color:cyan">■</span> 	adjective 	cyan
+<span style="color:magenta">■</span> 	adjective 	magenta
+<span style="color:chartreuse">■</span> 	adjective 	chartreuse
+<span style="color:crimson">■</span> 	adjective 	crimson
+<span style="color:azure">■</span> 	adjective 	azure
+<span style="color:beige">■</span> 	adjective 	beige
+<span style="color:violet">■</span> 	adjective 	violet
+<span style="color:fuchsia">■</span> 	adjective 	fuchsia
+<span style="color:indigo">■</span> 	adjective 	indigo
+<span style="color:khaki">■</span> 	adjective 	khaki
+<span style="color:maroon">■</span> 	adjective 	maroon
+<span style="color:tan">■</span> 	adjective 	tan
+<span style="color:teal">■</span> 	adjective 	teal
 
 # 2D SHAPES
 ▲ 	noun 	triangle

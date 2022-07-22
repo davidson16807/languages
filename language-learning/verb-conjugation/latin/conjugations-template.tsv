@@ -1,155 +1,407 @@
-voice	mood	tense	person	plurality	pre-subject	post-subject
-active	indicative	present	1	singular		
-active	indicative	present	2	singular		
-active	indicative	present	3	singular		
-active	indicative	present	1	plural		
-active	indicative	present	2	plural		
-active	indicative	present	3	plural		
-						
-active	indicative	future	1	singular		will
-active	indicative	future	2	singular		will
-active	indicative	future	3	singular		will
-active	indicative	future	1	plural		will
-active	indicative	future	2	plural		will
-active	indicative	future	3	plural		will
-						
-active	indicative	imperfect	1	singular		used to
-active	indicative	imperfect	2	singular		used to
-active	indicative	imperfect	3	singular		used to
-active	indicative	imperfect	1	plural		used to
-active	indicative	imperfect	2	plural		used to
-active	indicative	imperfect	3	plural		used to
-						
-active	indicative	perfect	1	singular		have been
-active	indicative	perfect	2	singular		have been
-active	indicative	perfect	3	singular		has been
-active	indicative	perfect	1	plural		have been
-active	indicative	perfect	2	plural		have been
-active	indicative	perfect	3	plural		have been
-						
-active	indicative	future perfect	1	singular		will have been
-active	indicative	future perfect	2	singular		will have been
-active	indicative	future perfect	3	singular		will have been
-active	indicative	future perfect	1	plural		will have been
-active	indicative	future perfect	2	plural		will have been
-active	indicative	future perfect	3	plural		will have been
-						
-active	indicative	pluperfect	1	singular		had been
-active	indicative	pluperfect	2	singular		had been
-active	indicative	pluperfect	3	singular		had been
-active	indicative	pluperfect	1	plural		had been
-active	indicative	pluperfect	2	plural		had been
-active	indicative	pluperfect	3	plural		had been
-						
-active	subjunctive	present	1	singular	[may it be that] 	
-active	subjunctive	present	2	singular	[may it be that] 	
-active	subjunctive	present	3	singular	[may it be that] 	
-active	subjunctive	present	1	plural	[may it be that] 	
-active	subjunctive	present	2	plural	[may it be that] 	
-active	subjunctive	present	3	plural	[may it be that] 	
-						
-active	subjunctive	imperfect	1	singular	[may it be that] 	used to
-active	subjunctive	imperfect	2	singular	[may it be that] 	used to
-active	subjunctive	imperfect	3	singular	[may it be that] 	used to
-active	subjunctive	imperfect	1	plural	[may it be that] 	used to
-active	subjunctive	imperfect	2	plural	[may it be that] 	used to
-active	subjunctive	imperfect	3	plural	[may it be that] 	used to
-						
-active	subjunctive	perfect	1	singular	[may it be that] 	have been
-active	subjunctive	perfect	2	singular	[may it be that] 	have been
-active	subjunctive	perfect	3	singular	[may it be that] 	has been
-active	subjunctive	perfect	1	plural	[may it be that] 	have been
-active	subjunctive	perfect	2	plural	[may it be that] 	have been
-active	subjunctive	perfect	3	plural	[may it be that] 	have been
-						
-active	subjunctive	pluperfect	1	singular	[may it be that] 	
-active	subjunctive	pluperfect	2	singular	[may it be that] 	
-active	subjunctive	pluperfect	3	singular	[may it be that] 	
-active	subjunctive	pluperfect	1	plural	[may it be that] 	
-active	subjunctive	pluperfect	2	plural	[may it be that] 	
-active	subjunctive	pluperfect	3	plural	[may it be that] 	
-						
-active	imperative	present	1	singular	[I command] 	
-active	imperative	present	2	singular	[I command] 	
-active	imperative	present	3	singular	[I command] 	
-active	imperative	present	1	plural	[I command] 	
-active	imperative	present	2	plural	[I command] 	
-active	imperative	present	3	plural	[I command] 	
-						
-active	imperative	future	1	singular	[I command] 	will
-active	imperative	future	2	singular	[I command] 	will
-active	imperative	future	3	singular	[I command] 	will
-active	imperative	future	1	plural	[I command] 	will
-active	imperative	future	2	plural	[I command] 	will
-active	imperative	future	3	plural	[I command] 	will
-						
-passive	indicative	present	1	singular		am
-passive	indicative	present	2	singular		are
-passive	indicative	present	3	singular		is
-passive	indicative	present	1	plural		are
-passive	indicative	present	2	plural		are
-passive	indicative	present	3	plural		are
-						
-passive	indicative	future	1	singular		will be
-passive	indicative	future	2	singular		will be
-passive	indicative	future	3	singular		will be
-passive	indicative	future	1	plural		will be
-passive	indicative	future	2	plural		will be
-passive	indicative	future	3	plural		will be
-						
-passive	indicative	imperfect	1	singular		was being
-passive	indicative	imperfect	2	singular		were being
-passive	indicative	imperfect	3	singular		was being
-passive	indicative	imperfect	1	plural		were being
-passive	indicative	imperfect	2	plural		were being
-passive	indicative	imperfect	3	plural		were being
-						
-passive	indicative	perfect	1	singular		was
-passive	indicative	perfect	2	singular		were
-passive	indicative	perfect	3	singular		was
-passive	indicative	perfect	1	plural		were
-passive	indicative	perfect	2	plural		were
-passive	indicative	perfect	3	plural		were
-						
-passive	indicative	future perfect	1	singular		will have been
-passive	indicative	future perfect	2	singular		will have been
-passive	indicative	future perfect	3	singular		will have been
-passive	indicative	future perfect	1	plural		will have been
-passive	indicative	future perfect	2	plural		will have been
-passive	indicative	future perfect	3	plural		will have been
-						
-passive	indicative	pluperfect	1	singular		had been
-passive	indicative	pluperfect	2	singular		had been
-passive	indicative	pluperfect	3	singular		had been
-passive	indicative	pluperfect	1	plural		had been
-passive	indicative	pluperfect	2	plural		had been
-passive	indicative	pluperfect	3	plural		had been
-						
-passive	subjunctive	present	1	singular	[may it be that]	am
-passive	subjunctive	present	2	singular	[may it be that]	am
-passive	subjunctive	present	3	singular	[may it be that]	am
-passive	subjunctive	present	1	plural	[may it be that]	am
-passive	subjunctive	present	2	plural	[may it be that]	am
-passive	subjunctive	present	3	plural	[may it be that]	am
-						
-passive	subjunctive	imperfect	1	singular	[may it be that]	I was being
-passive	subjunctive	imperfect	2	singular	[may it be that]	I was being
-passive	subjunctive	imperfect	3	singular	[may it be that]	I was being
-passive	subjunctive	imperfect	1	plural	[may it be that]	I was being
-passive	subjunctive	imperfect	2	plural	[may it be that]	I was being
-passive	subjunctive	imperfect	3	plural	[may it be that]	I was being
-						
-passive	subjunctive	perfect	1	singular	[may it be that]	was
-passive	subjunctive	perfect	2	singular	[may it be that]	were
-passive	subjunctive	perfect	3	singular	[may it be that]	was
-passive	subjunctive	perfect	1	plural	[may it be that]	were
-passive	subjunctive	perfect	2	plural	[may it be that]	were
-passive	subjunctive	perfect	3	plural	[may it be that]	were
-						
-passive	subjunctive	pluperfect	1	singular	[may it be that]	had been
-passive	subjunctive	pluperfect	2	singular	[may it be that]	had been
-passive	subjunctive	pluperfect	3	singular	[may it be that]	had been
-passive	subjunctive	pluperfect	1	plural	[may it be that]	had been
-passive	subjunctive	pluperfect	2	plural	[may it be that]	had been
-passive	subjunctive	pluperfect	3	plural	[may it be that]	had been
-						
+voice	mood	tense	aspect	pre-subject	post-subject	
+active	indicative	present	aortist		{verb:present}	
+active	indicative	past	aortist		{verb:past}	
+active	indicative	future	aortist		will {verb:infinitive}	
+active	indicative	present	habitual		{be:present} {verb:imperfect} [for a time]	
+active	indicative	past	habitual		used to {verb:infinitive} [for a time]	
+active	indicative	future	habitual		will be {verb:imperfect} [for a time]	
+active	indicative	present	progressive		{be:present} {verb:imperfect} [for now]	
+active	indicative	past	progressive		{be:past} {verb:imperfect} [at that point]	
+active	indicative	future	progressive		will be {verb:imperfect} [at that point]	
+active	indicative	present	imperfect		{be:present} {verb:imperfect}	
+active	indicative	past	imperfect		{be:past} {verb:imperfect}	
+active	indicative	future	imperfect		will be {verb:imperfect}	
+active	indicative	present	perfect		{have:present} {verb:perfect}	
+active	indicative	past	perfect		{have:past} {verb:perfect}	
+active	indicative	future	perfect		will have {verb:perfect}	
+active	indicative	present	perfect-progressive		{have:present} been {verb:imperfect} 	
+active	indicative	past	perfect-progressive		{have:past} been {verb:imperfect}	
+active	indicative	future	perfect-progressive		will have been {verb:imperfect}	
+active	conditional	present	aortist	[then]	would [now] {verb:infinitive}	
+active	conditional	past	aortist	[then]	would [back then] {verb:infinitive}	
+active	conditional	future	aortist	[then]	would [soon] {verb:infinitive}	
+active	conditional	present	habitual	[then]	would [now] be {verb:imperfect} [for a time]	
+active	conditional	past	habitual	[then]	would [back then] be {verb:imperfect} [for a time]	
+active	conditional	future	habitual	[then]	would [soon] be {verb:imperfect} [for a time]	
+active	conditional	present	progressive	[then]	would [now] be [briefly] {verb:imperfect}	
+active	conditional	past	progressive	[then]	would [back then] be [briefly] {verb:imperfect}	
+active	conditional	future	progressive	[then]	would [soon] be [briefly] {verb:imperfect}	
+active	conditional	present	imperfect	[then]	would [now] be {verb:imperfect}	
+active	conditional	past	imperfect	[then]	would [back then] be {verb:imperfect}	
+active	conditional	future	imperfect	[then]	would [soon] be {verb:imperfect}	
+active	conditional	present	perfect	[then]	would [now] have {verb:perfect}	
+active	conditional	present	perfect	[then]	would [back then] have {verb:perfect}	
+active	conditional	present	perfect	[then]	would [soon] have {verb:perfect} 	
+active	conditional	present	perfect-progressive	[then]	would [now] have been {verb:imperfect} 	
+active	conditional	present	perfect-progressive	[then]	would [back then] have been {verb:imperfect}	
+active	conditional	present	perfect-progressive	[then]	would [soon] have been {verb:imperfect}	
+active	hypothetical	present	aortist	[suppose]	{verb:present}	
+active	hypothetical	past	aortist	[suppose]	{verb:past}	
+active	hypothetical	future	aortist	[suppose]	will {verb:infinitive}	
+active	hypothetical	present	habitual	[suppose]	{be:present} {verb:imperfect} [for a time]	
+active	hypothetical	past	habitual	[suppose]	used to {verb:infinitive} [for a time]	
+active	hypothetical	future	habitual	[suppose]	will be {verb:imperfect} [for a time]	
+active	hypothetical	present	progressive	[suppose]	{be:present} {verb:imperfect} [for now]	
+active	hypothetical	past	progressive	[suppose]	{be:past} {verb:imperfect} [at that point]	
+active	hypothetical	future	progressive	[suppose]	will be {verb:imperfect} [at that point]	
+active	hypothetical	present	imperfect	[suppose]	{be:present} {verb:imperfect}	
+active	hypothetical	past	imperfect	[suppose]	{be:past} {verb:imperfect}	
+active	hypothetical	future	imperfect	[suppose]	will be {verb:imperfect}	
+active	hypothetical	present	perfect	[suppose]	{have:present} {verb:perfect}	
+active	hypothetical	past	perfect	[suppose]	{have:past} {verb:perfect}	
+active	hypothetical	future	perfect	[suppose]	will have {verb:perfect}	
+active	hypothetical	present	perfect-progressive	[suppose]	{have:present} been {verb:imperfect} 	
+active	hypothetical	past	perfect-progressive	[suppose]	{have:past} been {verb:imperfect}	
+active	hypothetical	future	perfect-progressive	[suppose]	will have been {verb:imperfect}	
+active	potential	present	aortist	[maybe]	{verb:infinitive}	
+active	potential	past	aortist	[maybe]	{verb:past}	
+active	potential	future	aortist	[maybe]	will {verb:infinitive}	
+active	potential	present	habitual	[maybe]	{be:present} {verb:imperfect} [for a time]	
+active	potential	past	habitual	[maybe]	used to {verb:infinitive} [for a time]	
+active	potential	future	habitual	[maybe]	will be {verb:imperfect} [for a time]	
+active	potential	present	progressive	[maybe]	{be:present} {verb:imperfect} [for now]	
+active	potential	past	progressive	[maybe]	{be:past} {verb:imperfect} [at that point]	
+active	potential	future	progressive	[maybe]	will be {verb:imperfect} [at that point]	
+active	potential	present	imperfect	[maybe]	{be:present} {verb:imperfect}	
+active	potential	past	imperfect	[maybe]	{be:past} {verb:imperfect}	
+active	potential	future	imperfect	[maybe]	will be {verb:imperfect}	
+active	potential	present	perfect	[maybe]	{have:present} {verb:perfect}	
+active	potential	past	perfect	[maybe]	{have:past} {verb:perfect}	
+active	potential	future	perfect	[maybe]	will have {verb:perfect}	
+active	potential	present	perfect-progressive	[maybe]	{have:present} been {verb:imperfect} 	
+active	potential	past	perfect-progressive	[maybe]	{have:past} been {verb:imperfect}	
+active	potential	future	perfect-progressive	[maybe]	will have been {verb:imperfect}	
+active	optative	present	aortist	[may it be]	{verb:present}	
+active	optative	past	aortist	[may it be]	{verb:past}	
+active	optative	future	aortist	[may it be]	will {verb:infinitive}	
+active	optative	present	habitual	[may it be]	{be:present} {verb:imperfect} [for a time]	
+active	optative	past	habitual	[may it be]	used to {verb:infinitive} [for a time]	
+active	optative	future	habitual	[may it be]	will be {verb:imperfect} [for a time]	
+active	optative	present	progressive	[may it be]	{be:present} {verb:imperfect} [for now]	
+active	optative	past	progressive	[may it be]	{be:past} {verb:imperfect} [at that point]	
+active	optative	future	progressive	[may it be]	will be {verb:imperfect} [at that point]	
+active	optative	present	imperfect	[may it be]	{be:present} {verb:imperfect}	
+active	optative	past	imperfect	[may it be]	{be:past} {verb:imperfect}	
+active	optative	future	imperfect	[may it be]	will be {verb:imperfect}	
+active	optative	present	perfect	[may it be]	{have:present} {verb:perfect}	
+active	optative	present	perfect	[may it be]	{have:past} {verb:perfect}	
+active	optative	present	perfect	[may it be]	will have {verb:perfect}	
+active	optative	present	perfect-progressive	[may it be]	{have:present} been {verb:imperfect} 	
+active	optative	present	perfect-progressive	[may it be]	{have:past} been {verb:imperfect}	
+active	optative	present	perfect-progressive	[may it be]	will have been {verb:imperfect}	
+active	jussive	present	aortist	[let it be]	{verb:infinitive}	
+active	jussive	future	aortist	[let it be]	will {verb:infinitive}	
+active	jussive	present	habitual	[let it be]	{be:present} {verb:imperfect} [for a time]	
+active	jussive	future	habitual	[let it be]	will be {verb:imperfect} [for a time]	
+active	jussive	present	progressive	[let it be]	{be:present} {verb:imperfect} [for now]	
+active	jussive	future	progressive	[let it be]	will be {verb:imperfect} [at that point]	
+active	jussive	present	imperfect	[let it be]	{be:present} {verb:imperfect}	
+active	jussive	future	imperfect	[let it be]	will be {verb:imperfect}	
+active	jussive	present	perfect	[let it be]	{have:present} {verb:perfect}	
+active	jussive	future	perfect	[let it be]	will have {verb:perfect}	
+active	jussive	present	perfect-progressive	[let it be]	{have:present} been {verb:imperfect} 	
+active	jussive	future	perfect-progressive	[let it be]	will have been {verb:imperfect}	
+active	injunctive	present	aortist	[I intend]	will now {verb:infinitive}	
+active	injunctive	future	aortist	[I intend]	will {verb:infinitive}	
+active	injunctive	present	habitual	[I intend]	will now be {verb:imperfect} [for a time]	
+active	injunctive	future	habitual	[I intend]	will be {verb:imperfect} [for a time]	
+active	injunctive	present	progressive	[I intend]	will now be {verb:imperfect} [at that point]	
+active	injunctive	future	progressive	[I intend]	will be {verb:imperfect} [at that point]	
+active	injunctive	present	imperfect	[I intend]	will now be {verb:imperfect}	
+active	injunctive	future	imperfect	[I intend]	will be {verb:imperfect}	
+active	injunctive	present	perfect	[I intend]	will now have {verb:perfect}	
+active	injunctive	future	perfect	[I intend]	will have {verb:perfect}	
+active	injunctive	present	perfect-progressive	[I intend]	will now have been {verb:imperfect}	
+active	injunctive	future	perfect-progressive	[I intend]	will have been {verb:imperfect}	
+active	suggestive	present	aortist	[I suggest]	{verb:present}	
+active	suggestive	future	aortist	[I suggest]	will {verb:infinitive}	
+active	suggestive	present	habitual	[I suggest]	{be:present} {verb:imperfect} [for a time]	
+active	suggestive	future	habitual	[I suggest]	will be {verb:imperfect} [for a time]	
+active	suggestive	present	progressive	[I suggest]	{be:present} {verb:imperfect} [for now]	
+active	suggestive	future	progressive	[I suggest]	will be {verb:imperfect} [at that point]	
+active	suggestive	present	imperfect	[I suggest]	{be:present} {verb:imperfect}	
+active	suggestive	future	imperfect	[I suggest]	will be {verb:imperfect}	
+active	imperative	present	aortist	[I command]	{verb:infinitive}	
+active	imperative	future	aortist	[I command]	will {verb:infinitive}	
+active	imperative	present	habitual	[I command]	be {verb:imperfect} [for a time]	
+active	imperative	future	habitual	[I command]	will be {verb:imperfect} [for a time]	
+active	imperative	present	progressive	[I command]	be {verb:imperfect} [for now]	
+active	imperative	future	progressive	[I command]	will be {verb:imperfect} [at that point]	
+active	imperative	present	imperfect	[I command]	be {verb:imperfect}	
+active	imperative	future	imperfect	[I command]	will be {verb:imperfect}	
+passive	indicative	present	aortist		{be:present} {verb:perfect}	
+passive	indicative	past	aortist		{be:past} {verb:perfect}	
+passive	indicative	future	aortist		will be {verb:perfect}	
+passive	indicative	present	habitual		{be:present} being {verb:perfect} [for a time]	
+passive	indicative	past	habitual		{be:past} being {verb:perfect} [for a time]	
+passive	indicative	future	habitual		will be {verb:perfect} [for a time]	
+passive	indicative	present	progressive		{be:present} being [briefly] {verb:perfect}	
+passive	indicative	past	progressive		{be:past} being [briefly] {verb:perfect}	
+passive	indicative	future	progressive		will be [briefly] {verb:perfect} 	
+passive	indicative	present	imperfect		{be:present} being {verb:perfect}	
+passive	indicative	past	imperfect		{be:past} being {verb:perfect}	
+passive	indicative	future	imperfect		will be {verb:perfect} 	
+passive	indicative	present	perfect		{have:present} been {verb:perfect}	
+passive	indicative	past	perfect		{have:past} been {verb:perfect}	
+passive	indicative	future	perfect		will have been {verb:perfect}	
+passive	indicative	present	perfect-progressive		{have:present} been [repeatedly] {verb:perfect} 	
+passive	indicative	past	perfect-progressive		{have:past} been [repeatedly] {verb:perfect} 	
+passive	indicative	future	perfect-progressive		will have been [repeatedly] {verb:perfect} 	
+passive	conditional	present	aortist	[then]	would [now] {be:present} {verb:perfect}	
+passive	conditional	past	aortist	[then]	would [back then] {be:past} {verb:perfect}	
+passive	conditional	future	aortist	[then]	would [soon] be {verb:perfect}	
+passive	conditional	present	habitual	[then]	would [now] be [regularly] {verb:perfect}	
+passive	conditional	past	habitual	[then]	would [back then] be [regularly] {verb:perfect}	
+passive	conditional	future	habitual	[then]	would [soon] be [regularly] {verb:perfect}	
+passive	conditional	present	progressive	[then]	would [now] be [repeatedly] {verb:perfect} [for a little while]	
+passive	conditional	past	progressive	[then]	would [back then] be [repeatedly] {verb:perfect} [for a little while]	
+passive	conditional	future	progressive	[then]	would [soon] be [repeatedly] {verb:perfect} [for a little while]	
+passive	conditional	present	imperfect	[then]	would [now] be [repeatedly] {verb:perfect}	
+passive	conditional	past	imperfect	[then]	would [back then] be [repeatedly] {verb:perfect}	
+passive	conditional	future	imperfect	[then]	would [soon] be [repeatedly] {verb:perfect}	
+passive	conditional	present	perfect	[then]	would [now] have been {verb:perfect}	
+passive	conditional	past	perfect	[then]	would [back then] have been {verb:perfect}	
+passive	conditional	future	perfect	[then]	would [soon] have been {verb:perfect} 	
+passive	conditional	present	perfect-progressive	[then]	would [now] have been [repeatedly] {verb:perfect} 	
+passive	conditional	past	perfect-progressive	[then]	would [back then] have been [repeatedly] {verb:perfect} 	
+passive	conditional	future	perfect-progressive	[then]	would [soon] have been [repeatedly] {verb:perfect} 	
+passive	hypothetical	present	aortist	[suppose]	{be:present} {verb:perfect}	
+passive	hypothetical	past	aortist	[suppose]	{be:past} {verb:perfect}	
+passive	hypothetical	future	aortist	[suppose]	will be {verb:perfect}	
+passive	hypothetical	present	habitual	[suppose]	{be:present} being {verb:perfect} [for a time]	
+passive	hypothetical	past	habitual	[suppose]	{be:past} being {verb:perfect} [for a time]	
+passive	hypothetical	future	habitual	[suppose]	will be {verb:perfect} [for a time]	
+passive	hypothetical	present	progressive	[suppose]	{be:present} being [briefly] {verb:perfect}	
+passive	hypothetical	past	progressive	[suppose]	{be:past} being [briefly] {verb:perfect}	
+passive	hypothetical	future	progressive	[suppose]	will be [briefly] {verb:perfect} 	
+passive	hypothetical	present	imperfect	[suppose]	{be:present} being {verb:perfect}	
+passive	hypothetical	past	imperfect	[suppose]	{be:past} being {verb:perfect}	
+passive	hypothetical	future	imperfect	[suppose]	will be {verb:perfect} 	
+passive	hypothetical	present	perfect	[suppose]	{have:present} been {verb:perfect}	
+passive	hypothetical	past	perfect	[suppose]	{have:past} been {verb:perfect}	
+passive	hypothetical	future	perfect	[suppose]	will have been {verb:perfect}	
+passive	hypothetical	present	perfect-progressive	[suppose]	{have:present} been [repeatedly] {verb:perfect} 	
+passive	hypothetical	past	perfect-progressive	[suppose]	{have:past} been [repeatedly] {verb:perfect} 	
+passive	hypothetical	future	perfect-progressive	[suppose]	will have been [repeatedly] {verb:perfect} 	
+passive	potential	present	aortist	[maybe]	{be:present} {verb:perfect}	
+passive	potential	past	aortist	[maybe]	{be:past} {verb:perfect}	
+passive	potential	future	aortist	[maybe]	will be {verb:perfect}	
+passive	potential	present	habitual	[maybe]	{be:present} being {verb:perfect} [for a time]	
+passive	potential	past	habitual	[maybe]	{be:past} being {verb:perfect} [for a time]	
+passive	potential	future	habitual	[maybe]	will be {verb:perfect} [for a time]	
+passive	potential	present	progressive	[maybe]	{be:present} being [briefly] {verb:perfect}	
+passive	potential	past	progressive	[maybe]	{be:past} being [briefly] {verb:perfect}	
+passive	potential	future	progressive	[maybe]	will be [briefly] {verb:perfect} 	
+passive	potential	present	imperfect	[maybe]	{be:present} being {verb:perfect}	
+passive	potential	past	imperfect	[maybe]	{be:past} being {verb:perfect}	
+passive	potential	future	imperfect	[maybe]	will be {verb:perfect} 	
+passive	potential	present	perfect	[maybe]	{have:present} been {verb:perfect}	
+passive	potential	past	perfect	[maybe]	{have:past} been {verb:perfect}	
+passive	potential	future	perfect	[maybe]	will have been {verb:perfect}	
+passive	potential	present	perfect-progressive	[maybe]	{have:present} been [repeatedly] {verb:perfect} 	
+passive	potential	past	perfect-progressive	[maybe]	{have:past} been [repeatedly] {verb:perfect} 	
+passive	potential	future	perfect-progressive	[maybe]	will have been [repeatedly] {verb:perfect} 	
+passive	optative	present	aortist	[may it be]	{be:present} {verb:perfect}	
+passive	optative	past	aortist	[may it be]	{be:past} {verb:perfect}	
+passive	optative	future	aortist	[may]	[soon] be {verb:perfect}	
+passive	optative	present	habitual	[may it be]	{be:present} being {verb:perfect} [for a time]	
+passive	optative	past	habitual	[may it be]	{be:past} being {verb:perfect} [for a time]	
+passive	optative	future	habitual	[may]	[soon] be {verb:perfect} [for a time]	
+passive	optative	present	progressive	[may it be]	{be:present} being [briefly] {verb:perfect}	
+passive	optative	past	progressive	[may it be]	{be:past} being [briefly] {verb:perfect}	
+passive	optative	future	progressive	[may]	[soon] be [briefly] {verb:perfect} 	
+passive	optative	present	imperfect	[may it be]	{be:present} being {verb:perfect}	
+passive	optative	past	imperfect	[may it be]	{be:past} being {verb:perfect}	
+passive	optative	future	imperfect	[may]	[soon] be {verb:perfect} 	
+passive	optative	present	perfect	[may it be]	{have:present} been {verb:perfect}	
+passive	optative	past	perfect	[may it be]	{have:past} been {verb:perfect}	
+passive	optative	future	perfect	[may it be]	will have been {verb:perfect}	
+passive	optative	present	perfect-progressive	[may it be]	{have:present} been [repeatedly] {verb:perfect} 	
+passive	optative	past	perfect-progressive	[may it be]	{have:past} been [repeatedly] {verb:perfect} 	
+passive	optative	future	perfect-progressive	[may it be]	will have been [repeatedly] {verb:perfect} 	
+passive	jussive	present	aortist	[let it be]	{be:present} {verb:perfect}	
+passive	jussive	future	aortist	[let]	[soon] be {verb:perfect}	
+passive	jussive	present	habitual	[let it be]	{be:present} being {verb:perfect} [for a time]	
+passive	jussive	future	habitual	[let]	[soon] be {verb:perfect} [for a time]	
+passive	jussive	present	progressive	[let it be]	{be:present} being [briefly] {verb:perfect}	
+passive	jussive	future	progressive	[let]	[soon] be [briefly] {verb:perfect} 	
+passive	jussive	present	imperfect	[let it be]	{be:present} being {verb:perfect}	
+passive	jussive	future	imperfect	[let]	[soon] be {verb:perfect} 	
+passive	jussive	present	perfect	[let it be]	{have:present} been {verb:perfect}	
+passive	jussive	future	perfect	[let it be]	will have been {verb:perfect}	
+passive	jussive	present	perfect-progressive	[let it be]	{have:present} been [repeatedly] {verb:perfect} 	
+passive	jussive	future	perfect-progressive	[let it be]	will have been [repeatedly] {verb:perfect} 	
+passive	injunctive	present	aortist	[I intend]	will [now] be {verb:perfect}	
+passive	injunctive	future	aortist	[I intend]	will be {verb:perfect}	
+passive	injunctive	present	habitual	[I intend]	will [now] be {verb:perfect} [for a time]	
+passive	injunctive	future	habitual	[I intend]	will be {verb:perfect} [for a time]	
+passive	injunctive	present	progressive	[I intend]	will [now] be [briefly] {verb:perfect} 	
+passive	injunctive	future	progressive	[I intend]	will be [briefly] {verb:perfect} 	
+passive	injunctive	present	imperfect	[I intend]	will [now] be {verb:perfect} 	
+passive	injunctive	future	imperfect	[I intend]	will be {verb:perfect} 	
+passive	injunctive	present	perfect	[I intend]	will [now] have been {verb:perfect}	
+passive	injunctive	future	perfect	[I intend]	will have been {verb:perfect}	
+passive	injunctive	present	perfect-progressive	[I intend]	will [now] have been [repeatedly] {verb:perfect} 	
+passive	injunctive	future	perfect-progressive	[I intend]	will have been [repeatedly] {verb:perfect} 	
+passive	suggestive	present	aortist	[I suggest]	{be:present} {verb:perfect}	
+passive	suggestive	future	aortist	[I suggest]	[soon] be {verb:perfect}	
+passive	suggestive	present	habitual	[I suggest]	{be:present} being {verb:perfect} [for a time]	
+passive	suggestive	future	habitual	[I suggest]	[soon] be {verb:perfect} [for a time]	
+passive	suggestive	present	progressive	[I suggest]	{be:present} being [briefly] {verb:perfect}	
+passive	suggestive	future	progressive	[I suggest]	[soon] be [briefly] {verb:perfect} 	
+passive	suggestive	present	imperfect	[I suggest]	{be:present} being {verb:perfect}	
+passive	suggestive	future	imperfect	[I suggest]	[soon] be {verb:perfect} 	
+passive	suggestive	present	perfect	[I suggest]	{have:present} been {verb:perfect}	
+passive	suggestive	future	perfect	[I suggest]	will have been {verb:perfect}	
+passive	suggestive	present	perfect-progressive	[I suggest]	{have:present} been [repeatedly] {verb:perfect} 	
+passive	suggestive	future	perfect-progressive	[I suggest]	will have been [repeatedly] {verb:perfect} 	
+passive	imperative	present	aortist	[I command]	{be:present} {verb:perfect}	
+passive	imperative	future	aortist	[I command]	[soon] be {verb:perfect}	
+passive	imperative	present	habitual	[I command]	{be:present} being {verb:perfect} [for a time]	
+passive	imperative	future	habitual	[I command]	[soon] be {verb:perfect} [for a time]	
+passive	imperative	present	progressive	[I command]	{be:present} being [briefly] {verb:perfect}	
+passive	imperative	future	progressive	[I command]	[soon] be [briefly] {verb:perfect} 	
+passive	imperative	present	imperfect	[I command]	{be:present} being {verb:perfect}	
+passive	imperative	future	imperfect	[I command]	[soon] be {verb:perfect} 	
+passive	imperative	present	perfect	[I command]	{have:present} been {verb:perfect}	
+passive	imperative	future	perfect	[I command]	will have been {verb:perfect}	
+passive	imperative	present	perfect-progressive	[I command]	{have:present} been [repeatedly] {verb:perfect} 	
+passive	imperative	future	perfect-progressive	[I command]	will have been [repeatedly] {verb:perfect} 	
+middle	indicative	present	aortist	[middle voice:]	{be:present} {verb:perfect}	
+middle	indicative	past	aortist	[middle voice:]	{be:past} {verb:perfect}	
+middle	indicative	future	aortist	[middle voice:]	will be {verb:perfect}	
+middle	indicative	present	habitual	[middle voice:]	{be:present} being {verb:perfect} [for a time]	
+middle	indicative	past	habitual	[middle voice:]	{be:past} being {verb:perfect} [for a time]	
+middle	indicative	future	habitual	[middle voice:]	will be {verb:perfect} [for a time]	
+middle	indicative	present	progressive	[middle voice:]	{be:present} being [briefly] {verb:perfect}	
+middle	indicative	past	progressive	[middle voice:]	{be:past} being [briefly] {verb:perfect}	
+middle	indicative	future	progressive	[middle voice:]	will be [briefly] {verb:perfect} 	
+middle	indicative	present	imperfect	[middle voice:]	{be:present} being {verb:perfect}	
+middle	indicative	past	imperfect	[middle voice:]	{be:past} being {verb:perfect}	
+middle	indicative	future	imperfect	[middle voice:]	will be {verb:perfect} 	
+middle	indicative	present	perfect	[middle voice:]	{have:present} been {verb:perfect}	
+middle	indicative	past	perfect	[middle voice:]	{have:past} been {verb:perfect}	
+middle	indicative	future	perfect	[middle voice:]	will have been {verb:perfect}	
+middle	indicative	present	perfect-progressive	[middle voice:]	{have:present} been [repeatedly] {verb:perfect} 	
+middle	indicative	past	perfect-progressive	[middle voice:]	{have:past} been [repeatedly] {verb:perfect} 	
+middle	indicative	future	perfect-progressive	[middle voice:]	will have been [repeatedly] {verb:perfect} 	
+middle	conditional	present	aortist	[middle voice:]	would [now] {be:present} {verb:perfect}	
+middle	conditional	past	aortist	[middle voice:]	would [back then] {be:past} {verb:perfect}	
+middle	conditional	future	aortist	[middle voice:]	would [soon] be {verb:perfect}	
+middle	conditional	present	habitual	[middle voice:]	would [now] be [regularly] {verb:perfect}	
+middle	conditional	past	habitual	[middle voice:]	would [back then] be [regularly] {verb:perfect}	
+middle	conditional	future	habitual	[middle voice:]	would [soon] be [regularly] {verb:perfect}	
+middle	conditional	present	progressive	[middle voice:]	would [now] be [repeatedly] {verb:perfect} [for a little while]	
+middle	conditional	past	progressive	[middle voice:]	would [back then] be [repeatedly] {verb:perfect} [for a little while]	
+middle	conditional	future	progressive	[middle voice:]	would [soon] be [repeatedly] {verb:perfect} [for a little while]	
+middle	conditional	present	imperfect	[middle voice:]	would [now] be [repeatedly] {verb:perfect}	
+middle	conditional	past	imperfect	[middle voice:]	would [back then] be [repeatedly] {verb:perfect}	
+middle	conditional	future	imperfect	[middle voice:]	would [soon] be [repeatedly] {verb:perfect}	
+middle	conditional	present	perfect	[middle voice:]	would [now] have been {verb:perfect}	
+middle	conditional	past	perfect	[middle voice:]	would [back then] have been {verb:perfect}	
+middle	conditional	future	perfect	[middle voice:]	would [soon] have been {verb:perfect} 	
+middle	conditional	present	perfect-progressive	[middle voice:]	would [now] have been [repeatedly] {verb:perfect} 	
+middle	conditional	past	perfect-progressive	[middle voice:]	would [back then] have been [repeatedly] {verb:perfect} 	
+middle	conditional	future	perfect-progressive	[middle voice:]	would [soon] have been [repeatedly] {verb:perfect} 	
+middle	hypothetical	present	aortist	[middle voice:] [suppose]	{be:present} {verb:perfect}	
+middle	hypothetical	past	aortist	[middle voice:] [suppose]	{be:past} {verb:perfect}	
+middle	hypothetical	future	aortist	[middle voice:] [suppose]	will be {verb:perfect}	
+middle	hypothetical	present	habitual	[middle voice:] [suppose]	{be:present} being {verb:perfect} [for a time]	
+middle	hypothetical	past	habitual	[middle voice:] [suppose]	{be:past} being {verb:perfect} [for a time]	
+middle	hypothetical	future	habitual	[middle voice:] [suppose]	will be {verb:perfect} [for a time]	
+middle	hypothetical	present	progressive	[middle voice:] [suppose]	{be:present} being [briefly] {verb:perfect}	
+middle	hypothetical	past	progressive	[middle voice:] [suppose]	{be:past} being [briefly] {verb:perfect}	
+middle	hypothetical	future	progressive	[middle voice:] [suppose]	will be [briefly] {verb:perfect} 	
+middle	hypothetical	present	imperfect	[middle voice:] [suppose]	{be:present} being {verb:perfect}	
+middle	hypothetical	past	imperfect	[middle voice:] [suppose]	{be:past} being {verb:perfect}	
+middle	hypothetical	future	imperfect	[middle voice:] [suppose]	will be {verb:perfect} 	
+middle	hypothetical	present	perfect	[middle voice:] [suppose]	{have:present} been {verb:perfect}	
+middle	hypothetical	past	perfect	[middle voice:] [suppose]	{have:past} been {verb:perfect}	
+middle	hypothetical	future	perfect	[middle voice:] [suppose]	will have been {verb:perfect}	
+middle	hypothetical	present	perfect-progressive	[middle voice:] [suppose]	{have:present} been [repeatedly] {verb:perfect} 	
+middle	hypothetical	past	perfect-progressive	[middle voice:] [suppose]	{have:past} been [repeatedly] {verb:perfect} 	
+middle	hypothetical	future	perfect-progressive	[middle voice:] [suppose]	will have been [repeatedly] {verb:perfect} 	
+middle	potential	present	aortist	[middle voice:] [maybe]	{be:present} {verb:perfect}	
+middle	potential	past	aortist	[middle voice:] [maybe]	{be:past} {verb:perfect}	
+middle	potential	future	aortist	[middle voice:] [maybe]	will be {verb:perfect}	
+middle	potential	present	habitual	[middle voice:] [maybe]	{be:present} being {verb:perfect} [for a time]	
+middle	potential	past	habitual	[middle voice:] [maybe]	{be:past} being {verb:perfect} [for a time]	
+middle	potential	future	habitual	[middle voice:] [maybe]	will be {verb:perfect} [for a time]	
+middle	potential	present	progressive	[middle voice:] [maybe]	{be:present} being [briefly] {verb:perfect}	
+middle	potential	past	progressive	[middle voice:] [maybe]	{be:past} being [briefly] {verb:perfect}	
+middle	potential	future	progressive	[middle voice:] [maybe]	will be [briefly] {verb:perfect} 	
+middle	potential	present	imperfect	[middle voice:] [maybe]	{be:present} being {verb:perfect}	
+middle	potential	past	imperfect	[middle voice:] [maybe]	{be:past} being {verb:perfect}	
+middle	potential	future	imperfect	[middle voice:] [maybe]	will be {verb:perfect} 	
+middle	potential	present	perfect	[middle voice:] [maybe]	{have:present} been {verb:perfect}	
+middle	potential	past	perfect	[middle voice:] [maybe]	{have:past} been {verb:perfect}	
+middle	potential	future	perfect	[middle voice:] [maybe]	will have been {verb:perfect}	
+middle	potential	present	perfect-progressive	[middle voice:] [maybe]	{have:present} been [repeatedly] {verb:perfect} 	
+middle	potential	past	perfect-progressive	[middle voice:] [maybe]	{have:past} been [repeatedly] {verb:perfect} 	
+middle	potential	future	perfect-progressive	[middle voice:] [maybe]	will have been [repeatedly] {verb:perfect} 	
+middle	optative	present	aortist	[middle voice:] [may it be]	{be:present} {verb:perfect}	
+middle	optative	past	aortist	[middle voice:] [may it be]	{be:past} {verb:perfect}	
+middle	optative	future	aortist	[middle voice:] [may]	[soon] be {verb:perfect}	
+middle	optative	present	habitual	[middle voice:] [may it be]	{be:present} being {verb:perfect} [for a time]	
+middle	optative	past	habitual	[middle voice:] [may it be]	{be:past} being {verb:perfect} [for a time]	
+middle	optative	future	habitual	[middle voice:] [may]	[soon] be {verb:perfect} [for a time]	
+middle	optative	present	progressive	[middle voice:] [may it be]	{be:present} being [briefly] {verb:perfect}	
+middle	optative	past	progressive	[middle voice:] [may it be]	{be:past} being [briefly] {verb:perfect}	
+middle	optative	future	progressive	[middle voice:] [may]	[soon] be [briefly] {verb:perfect} 	
+middle	optative	present	imperfect	[middle voice:] [may it be]	{be:present} being {verb:perfect}	
+middle	optative	past	imperfect	[middle voice:] [may it be]	{be:past} being {verb:perfect}	
+middle	optative	future	imperfect	[middle voice:] [may]	[soon] be {verb:perfect} 	
+middle	optative	present	perfect	[middle voice:] [may it be]	{have:present} been {verb:perfect}	
+middle	optative	past	perfect	[middle voice:] [may it be]	{have:past} been {verb:perfect}	
+middle	optative	future	perfect	[middle voice:] [may it be]	will have been {verb:perfect}	
+middle	optative	present	perfect-progressive	[middle voice:] [may it be]	{have:present} been [repeatedly] {verb:perfect} 	
+middle	optative	past	perfect-progressive	[middle voice:] [may it be]	{have:past} been [repeatedly] {verb:perfect} 	
+middle	optative	future	perfect-progressive	[middle voice:] [may it be]	will have been [repeatedly] {verb:perfect} 	
+middle	jussive	present	aortist	[middle voice:] [let it be]	{be:present} {verb:perfect}	
+middle	jussive	future	aortist	[middle voice:] [let]	[soon] be {verb:perfect}	
+middle	jussive	present	habitual	[middle voice:] [let it be]	{be:present} being {verb:perfect} [for a time]	
+middle	jussive	future	habitual	[middle voice:] [let]	[soon] be {verb:perfect} [for a time]	
+middle	jussive	present	progressive	[middle voice:] [let it be]	{be:present} being [briefly] {verb:perfect}	
+middle	jussive	future	progressive	[middle voice:] [let]	[soon] be [briefly] {verb:perfect} 	
+middle	jussive	present	imperfect	[middle voice:] [let it be]	{be:present} being {verb:perfect}	
+middle	jussive	future	imperfect	[middle voice:] [let]	[soon] be {verb:perfect} 	
+middle	jussive	present	perfect	[middle voice:] [let it be]	{have:present} been {verb:perfect}	
+middle	jussive	future	perfect	[middle voice:] [let it be]	will have been {verb:perfect}	
+middle	jussive	present	perfect-progressive	[middle voice:] [let it be]	{have:present} been [repeatedly] {verb:perfect} 	
+middle	jussive	future	perfect-progressive	[middle voice:] [let it be]	will have been [repeatedly] {verb:perfect} 	
+middle	injunctive	present	aortist	[middle voice:] [I intend]	will [now] be {verb:perfect}	
+middle	injunctive	future	aortist	[middle voice:] [I intend]	will be {verb:perfect}	
+middle	injunctive	present	habitual	[middle voice:] [I intend]	will [now] be {verb:perfect} [for a time]	
+middle	injunctive	future	habitual	[middle voice:] [I intend]	will be {verb:perfect} [for a time]	
+middle	injunctive	present	progressive	[middle voice:] [I intend]	will [now] be [briefly] {verb:perfect} 	
+middle	injunctive	future	progressive	[middle voice:] [I intend]	will be [briefly] {verb:perfect} 	
+middle	injunctive	present	imperfect	[middle voice:] [I intend]	will [now] be {verb:perfect} 	
+middle	injunctive	future	imperfect	[middle voice:] [I intend]	will be {verb:perfect} 	
+middle	injunctive	present	perfect	[middle voice:] [I intend]	will [now] have been {verb:perfect}	
+middle	injunctive	future	perfect	[middle voice:] [I intend]	will have been {verb:perfect}	
+middle	injunctive	present	perfect-progressive	[middle voice:] [I intend]	will [now] have been [repeatedly] {verb:perfect} 	
+middle	injunctive	future	perfect-progressive	[middle voice:] [I intend]	will have been [repeatedly] {verb:perfect} 	
+middle	suggestive	present	aortist	[middle voice:] [I suggest]	{be:present} {verb:perfect}	
+middle	suggestive	future	aortist	[middle voice:] [I suggest]	[soon] be {verb:perfect}	
+middle	suggestive	present	habitual	[middle voice:] [I suggest]	{be:present} being {verb:perfect} [for a time]	
+middle	suggestive	future	habitual	[middle voice:] [I suggest]	[soon] be {verb:perfect} [for a time]	
+middle	suggestive	present	progressive	[middle voice:] [I suggest]	{be:present} being [briefly] {verb:perfect}	
+middle	suggestive	future	progressive	[middle voice:] [I suggest]	[soon] be [briefly] {verb:perfect} 	
+middle	suggestive	present	imperfect	[middle voice:] [I suggest]	{be:present} being {verb:perfect}	
+middle	suggestive	future	imperfect	[middle voice:] [I suggest]	[soon] be {verb:perfect} 	
+middle	suggestive	present	perfect	[middle voice:] [I suggest]	{have:present} been {verb:perfect}	
+middle	suggestive	future	perfect	[middle voice:] [I suggest]	will have been {verb:perfect}	
+middle	suggestive	present	perfect-progressive	[middle voice:] [I suggest]	{have:present} been [repeatedly] {verb:perfect} 	
+middle	suggestive	future	perfect-progressive	[middle voice:] [I suggest]	will have been [repeatedly] {verb:perfect} 	
+middle	imperative	present	aortist	[middle voice:] [I command]	{be:present} {verb:perfect}	
+middle	imperative	future	aortist	[middle voice:] [I command]	[soon] be {verb:perfect}	
+middle	imperative	present	habitual	[middle voice:] [I command]	{be:present} being {verb:perfect} [for a time]	
+middle	imperative	future	habitual	[middle voice:] [I command]	[soon] be {verb:perfect} [for a time]	
+middle	imperative	present	progressive	[middle voice:] [I command]	{be:present} being [briefly] {verb:perfect}	
+middle	imperative	future	progressive	[middle voice:] [I command]	[soon] be [briefly] {verb:perfect} 	
+middle	imperative	present	imperfect	[middle voice:] [I command]	{be:present} being {verb:perfect}	
+middle	imperative	future	imperfect	[middle voice:] [I command]	[soon] be {verb:perfect} 	
+middle	imperative	present	perfect	[middle voice:] [I command]	{have:present} been {verb:perfect}	
+middle	imperative	future	perfect	[middle voice:] [I command]	will have been {verb:perfect}	
+middle	imperative	present	perfect-progressive	[middle voice:] [I command]	{have:present} been [repeatedly] {verb:perfect} 	
+middle	imperative	future	perfect-progressive	[middle voice:] [I command]	will have been [repeatedly] {verb:perfect} 	

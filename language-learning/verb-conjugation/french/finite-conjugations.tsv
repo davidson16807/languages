@@ -1,0 +1,45 @@
+#		mood->	indicative 	indicative	indicative   	indicative	subjunctive 	subjunctive 	conditional 	imperative 	
+#		tense->	present    	past	past	future    	present     	past	past	present    	
+#verb	person	plurality	aortist	perfect   	imperfect    	aortist	aortist	imperfect   	aortist	aortist	group    
+have   	1	singular	ai         	eus       	avais        	aurai     	aie         	eusse       	aurais      	           	unique   
+have   	2	singular	as         	eus       	avais        	auras     	aies        	eusses      	aurais      	aie        	unique   
+have   	3	singular	a          	eut       	avait        	aura      	ait         	eût         	aurait      	           	unique   
+have   	1	plural  	avons      	eûmes     	avions       	aurons    	ayons       	eussions    	aurions     	ayons      	unique   
+have   	2	plural  	avez       	eûtes     	aviez        	aurez     	ayez        	eussiez     	auriez      	ayez       	unique   
+have   	3	plural  	ont        	eurent    	avaient      	auront    	aient       	eussent     	auraient    	           	unique   
+be     	1	singular	suis       	fus       	étais        	serai     	sois        	fusse       	serais      	           	unique   
+be     	2	singular	es         	fus       	étais        	seras     	sois        	fusses      	serais      	sois       	unique   
+be     	3	singular	est        	fut       	était        	sera      	soit        	fût         	serait      	           	unique   
+be     	1	plural  	sommes     	fûmes     	étions       	serons    	soyons      	fuissions   	serions     	soyons     	unique   
+be     	2	plural  	êtes       	fûtes     	étiez        	serez     	soyez       	fuissiez    	seriez      	soyez      	unique   
+be     	3	plural  	sont       	furent    	étaient      	seront    	soient      	fussent     	seraient    	           	unique   
+go     	1	singular	vais       	allai     	allais       	irai      	aille       	allasse     	irais       	           	unique   
+go     	2	singular	vas        	allas     	allais       	iras      	ailles      	allasses    	irais       	va         	unique   
+go     	3	singular	va         	alla      	allait       	ira       	aille       	allât       	irait       	           	unique   
+go     	1	plural  	allons     	allâmes   	allions      	irons     	allions     	allassions  	irions      	allons     	unique   
+go     	2	plural  	allez      	allâtes   	alliez       	irez      	alliez      	allassiez   	iriez       	allez      	unique   
+go     	3	plural  	vont       	allèrent  	allaient     	iront     	aillent     	allassent   	iraient     	           	unique   
+speak  	1	singular	parle      	parlai    	parlais      	parlerai  	parle       	parlasse    	parlerais   	           	1        
+speak  	2	singular	parles     	parlas    	parlais      	parleras  	parles      	parlasses   	parlerais   	parle      	1        
+speak  	3	singular	parle      	parla     	parlait      	parlera   	parle       	parlât      	parlerait   	           	1        
+speak  	1	plural  	parlons    	parlâmes  	parlions     	parlerons 	parlions    	parlassions 	parlerions  	parlons    	1        
+speak  	2	plural  	parlez     	parlâtes  	parliez      	parlerez  	parliez     	parlassiez  	parleriez   	parlez     	1        
+speak  	3	plural  	parlent    	parlèrent 	parlaient    	parleront 	parlent     	parlassent  	parleraient 	           	1        
+choose 	1	singular	choisis    	choisis   	choisissais  	choisirai 	choisisse   	choisisse   	choisirais  	           	2        
+choose 	2	singular	choisis    	choisis   	choisissais  	choisiras 	choisisses  	choisisses  	choisirais  	choisis    	2        
+choose 	3	singular	choisit    	choisit   	choisissait  	choisira  	choisisse   	choisît     	choisirait  	           	2        
+choose 	1	plural  	choisissons	choisîmes 	choisissions 	choisirons	choisissions	choisissions	choisirions 	choisissons	2        
+choose 	2	plural  	choisissez 	choisîtes 	choisissiez  	choisirez 	choisissiez 	choisissiez 	choisiriez  	choisissez 	2        
+choose 	3	plural  	choisissent	choisirent	choisissaient	choisiront	choisissent 	choisissent 	choisiraient	           	2        
+lose   	1	singular	perds      	perdis    	perdais      	perdrai   	perde       	perdisse    	perdrais    	           	3        
+lose   	2	singular	perds      	perdis    	perdais      	perdras   	perdes      	perdisses   	perdrais    	perds      	3        
+lose   	3	singular	perd       	perdit    	perdait      	perdra    	perde       	perdît      	perdrait    	           	3        
+lose   	1	plural  	perdons    	perdîmes  	perdions     	perdrons  	perions     	perdissions 	perdrions   	perdons    	3        
+lose   	2	plural  	perdez     	perdîtes  	perdiez      	perdrez   	perdiez     	perdissiez  	perdriez    	perdez     	3        
+lose   	3	plural  	perdent    	perdirent 	perdaient    	perdront  	perdent     	perdissent  	perdraient  	           	3        
+receive	1	singular	reçois     	reçus     	recevais     	recevrai  	reçoive     	reçusse     	recevrais   	           	irregular
+receive	2	singular	reçois     	reçus     	recevais     	recevras  	reçoives    	reçusses    	recevrais   	reçois     	irregular
+receive	3	singular	reçoit     	reçut     	recevait     	recevra   	reçoive     	reçût       	recevrait   	           	irregular
+receive	1	plural  	recevons   	reçûmes   	recevions    	recevrons 	recevions   	reçussions  	recevrions  	recevons   	irregular
+receive	2	plural  	recevez    	reçûtes   	receviez     	recevrez  	receviez    	reçussiez   	recevriez   	recevez    	irregular
+receive	3	plural  	reçoivent  	reçurent  	recevaient   	recevront 	reçoivent   	reçussent   	recevraient 	           	irregular
