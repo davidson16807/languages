@@ -1,20 +1,21 @@
-#	infinitive	infinitive	infinitive	participle	participle	participle	participle	participle	participle	participle	participle	participle	participle	group	english post-verb	german post-verb	neuter
-#	present	future	substantive	present	present	present	present	present	perfect	perfect	perfect	perfect	perfect				
-#					masculine	feminine	neuter	plural		masculine	feminine	neuter	plural				
-be	sein	sein werden	das Sein	seiend 	seiender	seiende	seiendes	seiende	gewesen 	gewesener	gewesene	gewesenes	gewesene 	irregular	well	wohlauf	\p1{🧘\c1\g1}
-do	tun	tun werden	das Tun	tuend 	tuender	tuende	tuendes	tuende	getan 	getaner	getane	getanes	getane 	irregular	work	arbeitet	\p1{🧑\g1\c1\🏭}
-go	geben	geben werden	das Geben	gebend 	gebender	gebende	gebendes	gebende	gegeben 	gegebener	gegebene	gegebenes	gegebene 	irregular	to school	zur Schule	"<big>🏫</big><span style=""font-size:60%"">←\p1{🚶\c1\g1}</span>"
-become	werden	werden werden	das Werden	werdend 	werdender	werdende	werdendes	werdende	geworden 	gewordener	gewordene	gewordenes	gewordene	irregular	strong	stark	\p1{🏋️\c1\g1}
-may	dürfen	dürfen werden	das Dürfen	dürfend 	dürfender	dürfende	dürfendes	dürfende	gedurft 	gedurfter	gedurfte	gedurftes	gedurfte 	irregular	ride his bike to school	ride his bike to school	💁🏽<big>🏫</big>←\p1{🚴\c1\g1}
-have	haben	haben werden	das Haben	habend 	habender	habende	habendes	habende	gehabt 	gehabter	gehabte	gehabtes	gehabte 	irregular	the money	das Geld	\p1{💁\c1\g1}<sub>💶</sub> 
-love	lieben	lieben werden	das Lieben	liebend 	liebender	liebende	liebendes	liebende	geliebt 	geliebter	geliebte	geliebtes	geliebte 	regular -en verbs, weak	the pet	das Haustier	🐈<big>\p1{🧎\c1\g1}</big><sup>❤️</sup>
-act	handeln	handeln werden	das Handeln	handelnd 	handelnder	handelnde	handelndes	handelnde	gehandelt 	gehandelter	gehandelte	gehandeltes	gehandelte 	regular -n verbs, weak	foolish	dumm	\p1{🤡}
-work	arbeiten	arbeiten werden	das Arbeiten	arbeitend 	arbeitender	arbeitende	arbeitendes	arbeitende	gearbeitet 	gearbeiteter	gearbeitetet	gearbeitetes	gearbeitete 	regular -ten verbs, weak	at an office	in einem büro	\p1{🧑g1\c1\💼}
-drive	fahren	fahren werden	das Fahren	fahrend 	fahrender	fahrende	fahrendes	fahrende	gefahren 	gefahrener	gefahrene	gefahrenes	gefahrene 	irregular -en verbs, strong	the car	das Auto	🚘←\p1{🚶\c1\g1}
-																	
-																	
-																	
-																	
-																	
-																	
-																	
+english	translated	translated	translated	translated	translated	translated	translated	translated	translated	translated	translated	translated		english	translated	emoji
+infinitive	infinitive	infinitive	participle	participle	participle	participle	participle	participle	participle	participle	participle	participle		context	context	
+	present	future	present	present	present	present	present	perfect	perfect	perfect	perfect	perfect				
+				masculine	feminine	neuter	plural		masculine	feminine	neuter	plural	group			
+be	sein	sein werden	seiend 	seiender	seiende	seiendes	seiende	gewesen 	gewesener	gewesene	gewesenes	gewesene 	irregular	well	wohlauf	\p1{🧘\c1\g1}
+do	tun	tun werden	tuend 	tuender	tuende	tuendes	tuende	getan 	getaner	getane	getanes	getane 	irregular	work	arbeitet	\p1{🧑\g1\c1\🏭}
+go	geben	geben werden	gebend 	gebender	gebende	gebendes	gebende	gegeben 	gegebener	gegebene	gegebenes	gegebene 	irregular	to school	zur Schule	"<big>🏫</big><span style=""font-size:60%"">←\p1{🚶\c1\g1}</span>"
+become	werden	werden werden	werdend 	werdender	werdende	werdendes	werdende	geworden 	gewordener	gewordene	gewordenes	gewordene	irregular	strong	stark	\p1{🏋️\c1\g1}
+may	dürfen	dürfen werden	dürfend 	dürfender	dürfende	dürfendes	dürfende	gedurft 	gedurfter	gedurfte	gedurftes	gedurfte 	irregular	ride his bike to school	mit dem Fahrrad zur Schule fahren	💁🏽<big>🏫</big>←\p1{🚴\c1\g1}
+have	haben	haben werden	habend 	habender	habende	habendes	habende	gehabt 	gehabter	gehabte	gehabtes	gehabte 	irregular	the money	das Geld	\p1{💁\c1\g1}<sub>💶</sub> 
+love	lieben	lieben werden	liebend 	liebender	liebende	liebendes	liebende	geliebt 	geliebter	geliebte	geliebtes	geliebte 	regular -en verbs, weak	the pet	das Haustier	🐈<big>\p1{🧎\c1\g1}</big><sup>❤️</sup>
+act	handeln	handeln werden	handelnd 	handelnder	handelnde	handelndes	handelnde	gehandelt 	gehandelter	gehandelte	gehandeltes	gehandelte 	regular -n verbs, weak	foolish	dumm	\p1{🤡}
+work	arbeiten	arbeiten werden	arbeitend 	arbeitender	arbeitende	arbeitendes	arbeitende	gearbeitet 	gearbeiteter	gearbeitetet	gearbeitetes	gearbeitete 	regular -ten verbs, weak	at an office	in einem büro	\p1{🧑g1\c1\💼}
+drive	fahren	fahren werden	fahrend 	fahrender	fahrende	fahrendes	fahrende	gefahren 	gefahrener	gefahrene	gefahrenes	gefahrene 	irregular -en verbs, strong	the car	das Auto	🚘←\p1{🚶\c1\g1}
+																
+																
+																
+																
+																
+																
+																

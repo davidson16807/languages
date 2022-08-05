@@ -1,44 +1,40 @@
-#		
-#verb	conjugation	
-be	irregular	
-see	irregular	
-give	irregular	
-give	irregular	
-eat	irregular	
-live	irregular	
-call	irregular	
-go	irregular	
-write	irregular	
-read	1	
-return	1	-нуть
-draw	1	-овать
-spit	1	-евать
-dance	1	-евать
-be able	1	-чь
-bake	1	-чь
-carry	1	-сти
-lead	1	-сти
-sweep	1	-сти
-row	1	-сти
-steal	1	-сть
-convey	1	-зти
-climb	1	-зть
-wash	1	-ыть
-beat	1	
-wind	1	
-pour	1	
-drink	1	
-sew	1	
-live	1	
-swim	1	
-pass for	1	
-speak	2	
-love	2	-бить
-catch	2	-вить
-sink	2	-пить
-feed	2	-мить
-ask	2	-сить
-convey	2	-зить
-pay	2	-тить
-go	2	-дить
-forgive	2	-стить
+english		english	translated	emoji
+infinitive	group	context	context	
+be	irregular	well	хорошо	\p1{🧘\c1\g1}
+see	irregular	the man	человека	\p1{💁\c1\g1}🙋\c4\m
+give	irregular	the gift	подарок	\p1{💁\c1\g1}<sub>🎁</sub> 
+eat	irregular	the food	еду	\p1{💁\c1\g1}<sub>🍲</sub> 
+live	irregular	in a house	в доме	<big>🏠</big>\p1{🧍\c1\g1}
+call	irregular	on the phone	по телефону	<sub>📞</sub>\p1{🧑\g1\c1}
+go	irregular	to work	на работу	"<big>🏭</big><span style=""font-size:60%"">←\p1{🚶\c1\g1}</span>"
+write	irregular	a letter	письмо	\p1{✍️\c1\g1}
+read		a book	книгу	\p1{🧑\g1\c1}<sub>📕</sub>
+return	1, -нуть	the book	книгу	<big>\p1{💁\c1\g1}</big><sub>📕</sub> 
+draw	1, -овать	a picture	картину	\p1{🧑\g1\c1\🎨}
+spit	1, -евать			\p1{😪}
+dance	1, -евать			\p1{🕺\c1}
+be able	1, -чь	to work	работать	\p1{🧑\g1\c1\🏭}
+bake	1, -чь	a cake	торт	\p1{🧑\g1\c1\🍳}
+carry	1, -сти	the stone	камень	←<sup>🪨</sup><big> \p1{🚶\c1\g1}</big>
+lead	1, -сти	the group	группу	←\p1{🚶\c1\g1}\p{🚶\c4\m}
+sweep	1, -сти	the floor	пол	\p1{💁\c1\g1}<sub>🧹</sub> 
+row	1, -сти	a boat	на лодке	\p1{🚣\c1\g1}
+steal	1, -сть	the ring	кольцо	←<sup>💍</sup>\p1{🏃\c1\g1}
+climb	1, -зть	the rock	на скалу	\p1{🧗\c1\g1}
+wash	1, -ыть	the dishes	посуду	<big>\p1{💁\c1\g1}</big><sub>\p{🍴}</sub> 
+beat	1	the man	человека	\p1{🤼\c1\g1}
+wind	1	the rope	веревку	<big>\p1{🧑\g1\c1}</big>🪢
+pour	1	the glass	стакан	<big>\p1{🧑\g1\c1}</big>🫗
+drink	1	the vodka	водку	<big>\p1{🧑\g1\c1}</big>🥃
+sew	1	the shirt	рубашку	\p1{💁\c1\g1}<sub>👕</sub> 
+swim	1	in the lake	в озере	\p1{🏊\c1\g1}
+pass for	1	the guard	охранника	💂\c4\m\p1{💂\g1\c1}💂\c4\m
+speak	2	to the crowd	с толпой	\p{🧍\c4}\p1{🙋\c1\g1}<sup>💬</sup>
+love	2, -бить	the dog	собаку	🐕<big>\p1{🧎\c1\g1}</big><sup>❤️</sup>
+catch	2, -вить	the bus	автобус	<big>🚌</big>←\p1{🏃\c1\g1}
+sink	2, -пить	the ship	корабль	↓⛵\p1{🙍\c1\g1}
+feed	2, -мить	the baby	ребенка	\p1{🧑\g1\c1\🍼}
+ask	2, -сить	the man	человека	🙍\c4\m\p1{🤷\c1\g1}<sup>💬</sup>
+convey	2, -зить	the idea	идею	\p1{🙋\c1\g1}<sup>💬</sup>🤷\c4\m
+pay	2, -тить	the bill	счет	\p1{💁\c1\g1}<sub>💰</sub> 
+forgive	2, -стить	the debt	долг	\p1{💁\c1\g1}🤷\c4\m

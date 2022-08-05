@@ -1,25 +1,26 @@
-#	english	latin	latin	latin	latin	latin	latin	latin		english	english	emoji
-#	infinitive	infinitive	infinitive	infinitive	participle	participle	participle	gerundive	supine	post-verb	post-verb	
-#					masculine	masculine	masculine	masculine	masculine			
-#					nominative	nominative	nominative	nominative	accusative			
-#voice	verb	present	perfect	future	present	perfect	future					
-active	be	esse	fuisse	fore			futūrus			well	bene	🧘\c1\g1
-active	be able	posse	potuisse		potēns					to work	operari	🧑\g1\c1\🌾
-active	want	velle			volāns		volātūrus			to study	studere	🧑\g1\c1\🎓📯<sup>💬<sup>
-active	become	fierī 	factum esse 	factum īrī 				fiendus	factum	wealthy	dives	🤵\c1\g1
-active	go	īre 	īsse 	itūrum esse 	iēns		itūrus	eundus	itum	to the forum	forō	"<big>🏛️</big><span style=""font-size:60%"">←🚶\c1\g1</span>"
-passive	go	īrī	itum esse 	itum īrī 		itus	eundus			to the forum	forō	"<big>🏛️</big><span style=""font-size:60%"">←🚶\c1\g1</span>"
-active	carried	ferre	tulisse	lātūrum esse 	ferēns		lātūrus	ferendus	lātum	a sword	gladium	🧑\g1\c1<sub>🗡️</sub>
-passive	carried	ferrī	lātum esse	lātum īrī	lātus		ferendus			by the wind	vento	💨🪂→
-active	eat	edere/esse	ēdisse	ēsūrum esse	edēns		ēsūrus	edendus	ēsum	bread	panem	🧑\g1\c1<sub>🥯</sub>
-passive	eat	edī	ēsum esse 	ēsum īrī 		ēsus	edendus/edundus			by the tiger	a tigris	🏃\c1\g1🐅
-active	love	amāre	amāvisse	amātūrum esse	amāns		amātūrus	amandus	amātum	the dog	canem	🐕<big>🧎\c1\g1</big><sup>❤️</sup>
-passive	love	amārī	amātum esse 	amātum īrī 		amātus	amandus			by the dog	a cane	🐕<sup>❤️</sup><big>🧎\c1\g1</big><sup>❤️</sup>
-active	advise	monēre	monuisse	monitūrum esse 	monēns		vīsūrus	monendus	monitum	the patient	patientem	🤷\4🧑\g1\c1\⚕️
-passive	advise	monērī	monitum esse 	monitum īrī 		monitus	monendus			by the doctor	a medicō	🤷\c1\g1🧑\4\⚕️
-active	direct	dūcere	dūxisse	ductūrum esse 	dūcēns		ductūrus	dūcendus	ductum	the horse	equum	←🚶\c1\g1🐎
-passive	direct	dūcī	ductum esse 	ductum īrī 		ductus	dūcendus/dūcundus			by the official	a officiālī	🙍\c1\g1👮\c1→
-active	capture	capere 	cēpisse 	captūrum esse 	capiēns		captūrus	capiendus	captum	the flag	vexillum	🚩🏃\c1\g1
-passive	capture	capī 	captum esse 	captum īrī 		captus	capiendus			by the enemy	ab hoste	🙍\c1\g1🦹\c1
-active	hear	audīre	audīvisse	audītūrum esse	audiēns		audītūrus	audiendus	audītum	the horn	cornu	🧑\g1\c1📯<sup>🗯️<sup>
-passive	hear	audīrī	audītum esse 	audītum īrī 		audītus	audiendus			by the guard	a custodibus	💂<sup>❗<sup>🥷
+english		translated	translated	translated	translated	translated	translated	translated	english	translated	emoji
+infinitive		infinitive	infinitive	infinitive	participle	participle	participle	supine	context	context	
+					masculine	masculine	masculine				
+					nominative	nominative	nominative				
+	mood	present	past	future	present	past	future				
+		perfect				perfect					
+be	active	esse	fuisse	fore			futūrus		well	bene	\p1{🧘\c1\g1}
+be able	active	posse	potuisse		potēns				to work	operari	\p1{🧑\g1\c1\🌾}
+want	active	velle			volāns		volātūrus		to study	studere	\p1{🧑\g1\c1\🎓}
+become	active	fierī 	factum esse 	factum īrī 				factum	wealthy	dives	\p1{🤵\c1\g1}
+go	active	īre 	īsse 	itūrum esse 	iēns		itūrus	itum	to the forum	forō	"<big>🏛️</big><span style=""font-size:60%"">←\p1{🚶\c1\g1}</span>"
+go	passive	īrī	itum esse 	itum īrī 		itus	eundus		from the forum	forō	"<span style=""font-size:60%"">←\p1{🚶\c1\g1}</span><big>🏛️</big>"
+carried	active	ferre	tulisse	lātūrum esse 	ferēns		lātūrus	lātum	a sword	gladium	\p1{🧑\g1\c1}<sub>🗡️</sub>
+carried	passive	ferrī	lātum esse	lātum īrī	lātus		ferendus		by the wind	vento	💨\p1{🪂}→
+eat	active	edere/esse	ēdisse	ēsūrum esse	edēns		ēsūrus	ēsum	bread	panem	\p1{🧑\g1\c1}<sub>🥯</sub>
+eat	passive	edī	ēsum esse 	ēsum īrī 		ēsus	edendus/edundus		by the tiger	a tigris	\p1{🏃\c1\g1}🐅
+love	active	amāre	amāvisse	amātūrum esse	amāns		amātūrus	amātum	the dog	canem	🐕<big>\p1{🧎\c1\g1}</big><sup>❤️</sup>
+love	passive	amārī	amātum esse 	amātum īrī 		amātus	amandus		by the dog	a cane	<sup>❤️</sup>🐕<big>\p1{🧎\c1\g1}</big>
+advise	active	monēre	monuisse	monitūrum esse 	monēns		vīsūrus	monitum	the patient	patientem	🤷\c4\p1{🧑\g1\c1\⚕️}
+advise	passive	monērī	monitum esse 	monitum īrī 		monitus	monendus		by the doctor	a medicō	\p1{🤷\c1\g1}🧑\c4\⚕️
+direct	active	dūcere	dūxisse	ductūrum esse 	dūcēns		ductūrus	ductum	the horse	equum	\p1{←🚶\c1\g1}🐎
+direct	passive	dūcī	ductum esse 	ductum īrī 		ductus	dūcendus/dūcundus		by the official	a officiālī	\p1{🙍\c1\g1}👮\c4→
+capture	active	capere 	cēpisse 	captūrum esse 	capiēns		captūrus	captum	the flag	vexillum	🚩\p1{🏃\c1\g1}
+capture	passive	capī 	captum esse 	captum īrī 		captus	capiendus		by the enemy	ab hoste	\p1{🙍\c1\g1}🦹\c4
+hear	active	audīre	audīvisse	audītūrum esse	audiēns		audītūrus	audītum	the horn	cornu	\p1{🧑\g1\c1}📯<sup>🗯️<sup>
+hear	passive	audīrī	audītum esse 	audītum īrī 		audītus	audiendus		by the guard	a custodibus	💂\c4<sup>❗<sup>\p1{🥷\c1}

@@ -1,11 +1,13 @@
-#verb	infinitive	progressive	participle	en-object	es-object	emoji-object	
-be [inherently]	ser	siendo	sido	a student	un estudiante		irregular
-be [temporarily]	estar	estando	estado	tired	cansada		irregular
-have	haber	habiendo	habido				irregular
-have [in my posession]	tener	teniendo	tenido	the money	el dinero		irregular
-go	ir	yendo	ido	to the house	a la casa		irregular
-love	amar	amando	amado	the girl	la chica		regular -ar
-fear	temer	temiendo	temido	the dark	el oscuro		regular -er
-part	partir	partiendo	partido	the money	el dinero		regular -ir
-know	conocer	conociendo	conocido	of the man	el hombre		irregular
-drive	conducir	conduciendo	conducido	the car	el coche		irregular
+english	translated	translated	translated	english	translated	emoji	
+infinitive	infinitive	participle	participle	context	context		
+		imperfect	perfect				group
+be [inherently]	ser	siendo	sido	a student	estudiante	\p1{🧑\g1\c1\🎓}	irregular
+be [temporarily]	estar	estando	estado	well	bien	\p1{🧘\c1\g1}	irregular
+have	haber	habiendo	habido	eaten	comido	\p1{🧑\c1\g1}<sub>🌮</sub> 	irregular
+have [in my posession]	tener	teniendo	tenido	the money	el dinero	\p1{💁\c1\g1}<sub>💰</sub> 	irregular
+go	ir	yendo	ido	to the house	a la casa	"<big>🏠</big><span style=""font-size:60%"">←\p1{🚶\c1\g1}</span>"	irregular
+love	amar	amando	amado	the dog	el perro	🐕<big>\p1{🧎\c1\g1}</big><sup>❤️</sup>	regular -ar
+fear	temer	temiendo	temido	the dark	el oscuro	🕳️\p1{🙎\c1\g1}	regular -er
+part	partir	partiendo	partido	the waters	las aguas	\p1{💁\c1\g1}<big>\mirror{🌊}🌊</big> 	regular -ir
+know	conocer	conociendo	conocido	of the man	el hombre	\p1{🙋\c1\g1}<sup>💬</sup>🙍\c4\m	irregular
+drive	conducir	conduciendo	conducido	the car	el coche	🚘←\p1{🚶\c1\g1}	irregular

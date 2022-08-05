@@ -1,46 +1,46 @@
-#verb					voice	primary	causative	desiderative	intensive															
-become	3	singular	Present stem	Present	active	bháv·a·ti	bhāv·áya·ti	búbhū·ṣa·ti	bóbho·ti / bóbhav·ī·ti															
-become	3	singular	Present stem	Present	middle	bháv·a·te	bhāv·áya·te	búbhū·ṣa·ti	bobhū·yá·te															
-become	3	singular	Present stem	Imperfect	active	á·bhav·a·t	á·bhāv·aya·t	á·bubhū·ṣa·t	á·bobho.t															
-become	3	singular	Present stem	Imperfect	middle	á·bhav·a·ta	á·bhāv·aya·ta	á·bubhū·ṣa·t	á·bobhū·yá·t															
-become	3	singular	Present stem	Imperative	active	bháv·a·tu	bhāv·áya·tu	búbhū·ṣa·tu	bóbho·tu / bóbhav·ī·tu															
-become	3	singular	Present stem	Imperative	middle	bháv·a·tām	bhāv·áya·tām	búbhū·ṣa·tu	bobhū·yá·tām															
-become	3	singular	Present stem	Optative	active	bháv·et	bhāv·áye·t	búbhū·ṣe·t	bobhav·yā́t															
-become	3	singular	Present stem	Optative	middle	bháv·e·ta	bhāv·áye·ta	búbhū·ṣe·t	bobhū·yé·ta															
-become	3	singular	Present stem	Present participle	active	bháv·ant-	bhāv·áy·ant-	búbhū·ṣ·ant- 	bóbhav·ant-															
-become	3	singular	Present stem	Present participle	middle	bháv·a·māna-	bhāv·áya·māna-	búbhū·ṣ·ant- 	bóbhū·ya·māna 															
-become	3	singular	Passive	Present		bhū·yá·te	bhāv·yá·te	 bubhū·ṣ·yá·te																
-become	3	singular	Passive	Imperfect		á·bhū·ya·ta	á·bhāv·ya·ta	á·bubhū·ṣ·ya·ta																
-become	3	singular	Passive	Imperative		bhū·yá·tām	bhāv·yá·tām	bubhū·ṣ·yá·tām																
-become	3	singular	Passive	Optative		bhū·yé·ta	bhāv·yé·ta	bubhū·ṣ·yé·ta																
-become	3	singular	Passive	Passive participle 		bhū·yá·māna-	bhāv·yá·māna-	bubhū·ṣ·yá·māna-																
-become	3	singular	Future stem 	Future	active	bhav·iṣyá·ti	 bhāv·ay·iṣyá-ti	bubhū·ṣ·iṣyá·ti																
-become	3	singular	Future stem 	Future	middle		bhāv·ay·iṣyá·te	bubhū·ṣ·iṣyá·ti																
-become	3	singular	Future stem 	Conditional		á·bhav·iṣya·t	á·bhāv·ay·iṣya·t	á·bubhū·ṣ·iṣya·t																
-become	3	singular	Future stem 	Future participle 	active	bhav·iṣyá·nt-	bhav·iṣyá·māna-	bubhū·ṣ·iṣyá·nt-																
-become	3	singular	Future stem 	Future participle 	middle		bhāv·ay·iṣyá·māna-	bubhū·ṣ·iṣyá·nt-																
-become	3	singular	Periphrastic future			bhav·i·tá	bhāv·ay·i·tá	bubhū·ṣi·tā́																
-become	3	singular	Perfect			babhū́ v·a	bhāv·áya·māsa	bubhū́·ṣā-māsa																
-become	3	singular	Aortist	Aorist 		á·bhū·t																		
-become	3	singular	Aortist	Benedictive / precative		bhū·yā́·t																		
-become	3	singular	Aortist	Injunctive 		mā bhūt																		
-become	3	singular	Past participle 		active	bhū·tá-	bhāv·i·tá-	bubhū·ṣi·tá-																
-become	3	singular	Past participle 		middle	bhū·tá·vant-	bhāv·i·tá·vant-	bubhū·ṣi·tá·vant-																
-become	3	singular	Gerundive 			bháv·ya	bhāv·ayi·távya / bhāv·ayi·tavyá 																	
-become	3	singular	Gerundive 			bhav·i·távya / bhav·i·tavyá	bhāv·ayi·távya / bhāv·ayi·tavyá 																	
-become	3	singular	Infinitive			bháv·i·tum																		
-become	3	singular	Gerund 			bhū·tvā́ , -bhū́·ya																		
-																								
-																								
-																								
-																								
-																								
-																								
-																								
-																								
-																								
-																								
-																								
-																								
-																								
-																								
+verb	person	plurality	form	mood		tense	aspect	voice	primary	causative	desiderative	intensive															
+become	3	singular		indicative	primary	present		active	bháv·a·ti	bhāv·áya·ti	búbhū·ṣa·ti	bóbho·ti / bóbhav·ī·ti															
+become	3	singular		indicative	primary	present		middle	bháv·a·te	bhāv·áya·te	búbhū·ṣa·ti	bobhū·yá·te															
+become	3	singular			secondary	present	imperfect	active	á·bhav·a·t	á·bhāv·aya·t	á·bubhū·ṣa·t	á·bobho.t															
+become	3	singular			secondary	present	imperfect	middle	á·bhav·a·ta	á·bhāv·aya·ta	á·bubhū·ṣa·t	á·bobhū·yá·t															
+become	3	singular		imperative	imperative	present		active	bháv·a·tu	bhāv·áya·tu	búbhū·ṣa·tu	bóbho·tu / bóbhav·ī·tu															
+become	3	singular		imperative	imperative	present		middle	bháv·a·tām	bhāv·áya·tām	búbhū·ṣa·tu	bobhū·yá·tām															
+become	3	singular		optative	secondary	present		active	bháv·et	bhāv·áye·t	búbhū·ṣe·t	bobhav·yā́t															
+become	3	singular		optative	secondary	present		middle	bháv·e·ta	bhāv·áye·ta	búbhū·ṣe·t	bobhū·yé·ta															
+become	3	singular	participle		nonfinite	present		active	bháv·ant-	bhāv·áy·ant-	búbhū·ṣ·ant- 	bóbhav·ant-															
+become	3	singular	participle		nonfinite	present		middle	bháv·a·māna-	bhāv·áya·māna-	búbhū·ṣ·ant- 	bóbhū·ya·māna 															
+become	3	singular		passive	passive	present		passive	bhū·yá·te	bhāv·yá·te	bubhū·ṣ·yá·te																
+become	3	singular		passive	secondary		imperfect	passive	á·bhū·ya·ta	á·bhāv·ya·ta	á·bubhū·ṣ·ya·ta																
+become	3	singular		passive	imperative			passive	bhū·yá·tām	bhāv·yá·tām	bubhū·ṣ·yá·tām																
+become	3	singular		passive	secondary			passive	bhū·yé·ta	bhāv·yé·ta	bubhū·ṣ·yé·ta																
+become	3	singular	participle	passive	nonfinite			passive	bhū·yá·māna-	bhāv·yá·māna-	bubhū·ṣ·yá·māna-																
+become	3	singular			primary	future		active	bhav·iṣyá·ti	bhāv·ay·iṣyá-ti	bubhū·ṣ·iṣyá·ti																
+become	3	singular			primary	future		middle		bhāv·ay·iṣyá·te	bubhū·ṣ·iṣyá·ti																
+become	3	singular		conditional	secondary	future			á·bhav·iṣya·t	á·bhāv·ay·iṣya·t	á·bubhū·ṣ·iṣya·t																
+become	3	singular	participle		nonfinite	future		active	bhav·iṣyá·nt-	bhav·iṣyá·māna-	bubhū·ṣ·iṣyá·nt-																
+become	3	singular	participle		nonfinite	future		middle		bhāv·ay·iṣyá·māna-	bubhū·ṣ·iṣyá·nt-																
+become	3	singular			primary	periphrastic future			bhav·i·tá	bhāv·ay·i·tá	bubhū·ṣi·tā́																
+become	3	singular			perfect		perfect		babhū́ v·a	bhāv·áya·māsa	bubhū́·ṣā-māsa																
+become	3	singular		indicative	secondary			aortist	á·bhū·t																		
+become	3	singular		benedictive	secondary			aortist	bhū·yā́·t																		
+become	3	singular		injunctive 	secondary			aortist	mā bhūt																		
+become	3	singular	participle		nonfinite	past		active	bhū·tá-	bhāv·i·tá-	bubhū·ṣi·tá-																
+become	3	singular	participle		nonfinite	past		middle	bhū·tá·vant-	bhāv·i·tá·vant-	bubhū·ṣi·tá·vant-																
+become	3	singular	gerundive 		nonfinite				bháv·ya	bhāv·ayi·távya / bhāv·ayi·tavyá 																	
+become	3	singular	gerundive 		nonfinite				bhav·i·távya / bhav·i·tavyá	bhāv·ayi·távya / bhāv·ayi·tavyá 																	
+become	3	singular	infinitive		nonfinite				bháv·i·tum																		
+become	3	singular	gerund 		nonfinite				bhū·tvā́ , -bhū́·ya																		
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											

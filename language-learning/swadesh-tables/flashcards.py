@@ -101,11 +101,19 @@ write('flashcards/proto-germanic-to-old english.html', [
 ])
 
 # english ↔ old english
-write('flashcards/english-and-old english.html', [
+write('flashcards/english-and-old-english.html', [
 	column('emoji.tsv', 3, cloze(1), emoji), 
 	column('germanic-languages.tsv', 2, cloze(1), english_word), 
 	column('germanic-languages.tsv', 4, require, cloze(2), foreign_focus), 
-	column('germanic-languages.tsv', 5, require, cloze(3), foreign_side_note), 
+	column('germanic-languages.tsv', 5, require, cloze(2), foreign_side_note), 
+])
+
+# old english → old english pronunciation
+write('flashcards/old-english-to-old-english-pronunciation.html', [
+	column('emoji.tsv', 3, emoji), 
+	column('germanic-languages.tsv', 2, english_word), 
+	column('germanic-languages.tsv', 4, require, foreign_focus), 
+	column('germanic-languages.tsv', 5, require, cloze(1), foreign_side_note), 
 ])
 
 # proto-germanic → swedish
@@ -124,7 +132,7 @@ write('flashcards/english-and-swedish.html', [
 # proto-indo-european → proto-italic
 write('flashcards/proto-indo-european-to-proto-italic.html', [
 	column('indo-european-branches.tsv', 3, require, strip_asterisks, foreign_focus), 
-	column('indo-european-branches.tsv', 5, require, strip_asterisks, cloze(1), foreign_side_note), 
+	column('indo-european-branches.tsv', 5, require, strip_asterisks, cloze(1), foreign_focus), 
 ])
 
 # english ↔ proto-italic
@@ -133,7 +141,6 @@ write('flashcards/english-and-proto-italic.html', [
 	column('indo-european-branches.tsv', 2, cloze(1), english_word), 
 	column('indo-european-branches.tsv', 5, require, strip_asterisks, cloze(2), foreign_focus), 
 ])
-
 
 # proto-italic → latin
 write('flashcards/proto-italic-to-latin.html', [
@@ -152,7 +159,22 @@ write('flashcards/english-and-latin.html', [
 	column('emoji.tsv', 3, cloze(1), emoji), 
 	column('romance-languages.tsv', 2, cloze(1), english_word), 
 	column('romance-languages.tsv', 4, require, cloze(2), foreign_focus), 
-	column('romance-languages.tsv', 5, require, cloze(3), foreign_side_note), 
+	# column('romance-languages.tsv', 5, require, cloze(2), foreign_side_note), 
+])
+
+# latin → latin pronunciation
+write('flashcards/latin-to-latin-pronunciation.html', [
+	column('emoji.tsv', 3, cloze(1), emoji), 
+	column('romance-languages.tsv', 2, english_word), 
+	column('romance-languages.tsv', 4, require, foreign_focus), 
+	column('romance-languages.tsv', 5, require, cloze(1), foreign_side_note), 
+])
+
+# english ↔ vulgar latin
+write('flashcards/english-and-latin.html', [
+	column('emoji.tsv', 3, cloze(1), emoji), 
+	column('romance-languages.tsv', 2, cloze(1), english_word), 
+	column('romance-languages.tsv', 6, require, cloze(2), foreign_focus), 
 ])
 
 # latin → vulgar latin
@@ -185,9 +207,16 @@ write('flashcards/english-and-french.html', [
 	column('emoji.tsv', 3, cloze(1), emoji), 
 	column('romance-languages.tsv', 2, cloze(1), english_word),
 	column('romance-languages.tsv', 7, require, cloze(2), foreign_focus),
-	column('romance-languages.tsv', 8, require, cloze(3), foreign_side_note),
+	# column('romance-languages.tsv', 8, require, cloze(2), foreign_side_note),
 ])
 
+# french → french pronunciation
+write('flashcards/french-to-french-pronunciation.html', [
+	column('emoji.tsv', 3, emoji), 
+	column('romance-languages.tsv', 2, english_word),
+	column('romance-languages.tsv', 7, require, foreign_focus),
+	column('romance-languages.tsv', 8, require, cloze(1), foreign_side_note),
+])
 
 # proto-indo-european → proto-hellenic
 write('flashcards/proto-indo-european-to-proto-hellenic.html', [
@@ -203,19 +232,26 @@ write('flashcards/english-and-proto-hellenic.html', [
 ])
 
 # proto-hellenic → ancient greek
-write('flashcards/proto-hellenic-to-ancient greek.html', [
+write('flashcards/proto-hellenic-to-ancient-greek.html', [
 	column('hellenic-languages.tsv', 3, require, strip_asterisks, foreign_focus), 
 	column('hellenic-languages.tsv', 4, require, inside_first_parens, cloze(1), foreign_focus), 
 ])
 
 # english ↔ ancient greek
-write('flashcards/english-and-ancient greek.html', [
+write('flashcards/english-and-ancient-greek.html', [
 	column('emoji.tsv', 3, cloze(1), emoji),
 	column('hellenic-languages.tsv', 2, cloze(1), english_word), 
 	column('hellenic-languages.tsv', 4, require, outside_first_parens, cloze(2), foreign_focus), 
-	column('hellenic-languages.tsv', 4, require, inside_first_parens, cloze(3), foreign_side_note), 
+	column('hellenic-languages.tsv', 4, require, inside_first_parens, cloze(2), foreign_side_note), 
 ])
 
+# ancient greek ↔ ancient greek transliteration
+write('flashcards/ancient-greek-and-ancient-greek-transliteration.html', [
+	column('emoji.tsv', 3, emoji),
+	column('hellenic-languages.tsv', 2, english_word), 
+	column('hellenic-languages.tsv', 4, require, outside_first_parens, cloze(1), foreign_focus), 
+	column('hellenic-languages.tsv', 4, require, inside_first_parens, cloze(2), foreign_side_note), 
+])
 
 # proto-indo-european → proto-indo-iranian
 write('flashcards/proto-indo-european-to-proto-indo-iranian.html', [
@@ -241,9 +277,16 @@ write('flashcards/english-and-sanskrit.html', [
 	column('emoji.tsv', 3, cloze(1), emoji),
 	column('indo-iranian-languages.tsv', 2, cloze(1), english_word), 
 	column('indo-iranian-languages.tsv', 4, require, outside_first_parens, cloze(2), foreign_focus), 
-	column('indo-iranian-languages.tsv', 4, require, inside_first_parens, cloze(3), foreign_side_note), 
+	column('indo-iranian-languages.tsv', 4, require, inside_first_parens, cloze(2), foreign_side_note), 
 ])
 
+# english ↔ sanskrit transliteration
+write('flashcards/sanskrit-and-sanskrit-transliteration.html', [
+	column('emoji.tsv', 3, emoji),
+	column('indo-iranian-languages.tsv', 2, english_word), 
+	column('indo-iranian-languages.tsv', 4, require, outside_first_parens, cloze(1), foreign_focus), 
+	column('indo-iranian-languages.tsv', 4, require, inside_first_parens, cloze(2), foreign_side_note), 
+])
 
 # english ↔ vietnamese
 write('flashcards/english-and-vietnamese.html', [

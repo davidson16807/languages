@@ -1,84 +1,83 @@
-#mood->	indicative	indicative	indicative	indicative	indicative	indicative	indicative	indicative	perfect	imperfect	
-#tense->	present	present	present	present	past	past	past	past	past	present	featured language
-#person->	1	2	3		1	2	3				
-#infinitive	singular	singular	singular	plural	singular	singular	singular	plural			common
-be     	am	are	is	are	was	were	was	were	been	being	common
-be [inherently]	am [inherently]	are [inherently]	is [inherently]	are [inherently]	was [inherently]	were [inherently]	was [inherently]	were [inherently]	been [inherently]	being [inherently]	spanish, old-english
-be [temporarily]	am [temporarily]	are [temporarily]	is [temporarily]	are [temporarily]	was [temporarily]	were [temporarily]	was [temporarily]	were [temporarily]	been [temporarily]	being [temporarily]	spanish, old-english
-do	do	do	does	do	did	did	did	did	done	doing	common
-go     	go	go	goes	go	went	went	went	went	gone	going	common
-want	want	want	wants	want	wanted	wanted	wanted	wanted	wanted	wanting	common
-have   	have	have	has	have	had	had	had	had	had	having	common
-have [in my posession]	have [in my posession]	have [in my posession]	has [in my posession]	have [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	having [in my posession]	spanish
-give	give	give	gives	give	gave	gave	gave	gave	given	giving	common
-say	say	say	say	say	said	said	said	said	said	saying	common
-be able	can	can	can	can	could	could	could	could	been able	being able	common
-live	live	live	lives	live	lived	lived	lived	lived	lived	living	common
-read	read	read	reads	read	read	read [in the past]	read [in the past]	read [in the past]	read	reading	common
-carry	carry	carry	carries	carry	carried	carried	carried	carried	carried	carrying	common
-become	become	become	becomes	become	became	became	became	became	become	becoming	common
-eat	eat	eat	eats	eat	ate	ate	ate	ate	eaten	eating	common
-write	write	write	writes	write	wrote	wrote	wrote	wrote	written	writing	russian
-see	see 	see	sees	see	saw	saw	saw	saw	seen	seeing	russian
-choose 	choose	choose	chooses	choose	chose	chose	chose	chose	chosen	choosing	french
-love	love	love	loves	love	loved	loved	loved	loved	loved	loving	common
-sew	sew	sew	sews	sew	sewed	sewed	sewed	sewed	sewn	sewing	common
-know	know	know	knows	know	knew	knew	knew	knew	known	knowing	spanish
-drive	drive	drive	drives	drive	drive	drive	drive	drive	driven	driving	spanish
-draw	draw	draw	draws	draw	drew	drew	drew	drew	drawn	drawing	russian
-drink	drink	drink	drinks	drink	drank	drank	drank	drank	drunken	drinking	russian
-steal	steal	steal	steals	steal	stole	stole	stole	stole	stolen	stealing	russian
-swim	swim	swim	swims	swim	swam	swam	swam	swam	swum	swimming	russian
-sink	sink	sink	sinks	sink	sunk	sunk	sunk	sunk	sunken	sinking	russian
-forgive	forgive	forgive	forgives	forgive	forgave	forgave	forgave	forgave	forgiven	forgiving	russian
-beat	beat	beat	beats	beat	beated	beated	beated	beated	beaten	beating	russian
-call	call	call	calls	call	called	called	called	called	called	calling	russian
-return	return	return	returns	return	returned	returned	returned	returned	returned	returning	russian
-spit	spit	spit	spits	spit	spat	spat	spat	spat	spat	spitting	russian
-dance	dance	dance	dance	dance	danced	danced	danced	danced	danced	dancing	russian
-bake	bake	bake	bakes	bake	baked	baked	baked	baked	baked	baking	russian
-lead	lead	lead	leads	lead	leaded	leaded	leaded	leaded	leaded	leading	russian
-sweep	sweep	sweep	sweeps	sweep	swept	swept	swept	swept	swept	sweeping	russian
-row	row	row	rows	row	rowed	rowed	rowed	rowed	rowed	rowing	russian
-convey	convey	convey	conveys	convey	conveyed	conveyed	conveyed	conveyed	conveyed	conveying	russian
-climb	climb	climb	climbs	climb	climbed	climbed	climbed	climbed	climbed	climbing	russian
-wash	wash	wash	washes	wash	washed	washed	washed	washed	washed	washing	russian
-wind	wind	wind	winds	wind	winded	winded	winded	winded	winded	winding	russian
-pour	pour	pour	pours	pour	poured	poured	poured	poured	poured	pouring	russian
-catch	catch	catch	catches	catch	caught	caught	caught	caught	caught	catching	russian
-feed	feed	feed	feeds	feed	fed	fed	fed	fed	fed	feeding	russian
-pay	pay	pay	pays	pay	paid	paid	paid	paid	paid	paying	russian
-lose   	lose	lose	loses	lose	lost	lost	lost	lost	lost	losing	french
-receive	receive	receive	receives	receive	received	received	received	received	received	receiving	french
-release	release	release	releases	release	release	release	release	released	released	releasing	ancient-greek
-speak  	speak	speak	speaks	speak	spoke	spoke	spoke	spoke	spoken	speaking	latin
-advise	advise	advise	advises	advise	advised	advised	advised	advised	advised	advising	latin
-direct	direct	direct	directs	direct	directed	directed	directed	directed	directed	directing	latin
-hear	hear	hear	hears	hear	heard	heard	heard	heard	heard	hearing	latin
-carry	carry	carry	carries	carry	carried	carried	carried	carried	carried	carrying	proto-indo-european
-leave	leave	leave	leaves	leave	left	left	left	left	left	leaving	proto-indo-european
-work	work	work	works	work	worked	worked	worked	worked	worked	working	proto-indo-european
-ask	ask	ask	asks	ask	asked	asked	asked	asked	asked	asking	common
-stretch	stretch	stretch	stretches	stretch	stretched	stretched	stretched	stretched	stretched	stretching	proto-indo-european
-sit	sit	sit	sits	sit	sat	sat	sat	sat	sat	sitting	proto-indo-european
-protect	protect	protect	protect	protect	protected	protected	protected	protected	protected	protecting	proto-indo-european
-renew	renew	renew	renews	renew	renewed	renewed	renewed	renewed	renewed	renewing	proto-indo-european
-arrive	arrive	arrive	arrives	arrive	arrived	arrived	arrived	arrived	arrived	arriving	proto-indo-european
-fear	fear	fear	fears	fear	feared	feared	feared	feared	feared	fearing	spanish
-part	part	part	parts	part	parted	parted	parted	parted	parted	parting	spanish
-call	call	call	calls	call	called	called	called	called	called	calling	swedish
-close	close	close	closes	close	closed	closed	closed	closed	closed	closing	swedish
-strike	strike	strike	strikes	strike	struck	struck	struck	struck	struck	striking	swedish
-steal	steal	steal	steals	steal	stole	stole	stole	stole	stolen	stealing	old-english
-share	share	share	shares	share	shared	shared	shared	shared	shared	sharing	old-english
-tame	tame	tame	tames	tame	tamed	tamed	tamed	tamed	tamed	taming	old-english
-move	move	move	moves	move	moved	moved	moved	moved	moved	moving	old-english
-think	think	think	thinks	think	thought	thought	thought	thought	thought	thinking	old-english
-point out	point out	point out	points out	point out	pointed out	pointed out	pointed out	pointed out	pointed out	pointing out	proto-indo-european
-set down	set down	set down	sets down	set down	seated	seated	seated	seated	seated	setting down	proto-indo-european
-be red	am red	are red	is red	are red	was red	were red	was red	were red	been made red	being red	proto-indo-european
-want to see	want to see	want to see	wants to see	want to see	wanted to see	wanted to see	wanted to see	wanted to see	wanted seen	wanting to see	proto-indo-european
-pass for	pass for	pass for	passes for	pass for	passed for	passed for	passed for	passed for	passed for	passing for	russian
+person→		1	2	3		1	2	3			
+plurality→		singular	singular	singular	plural	singular	singular	singular	plural		
+tense→		present	present	present	present	past	past	past	past	perfect	imperfect
+be     	featured language	am	are	is	are	was	were	was	were	been	being
+be [inherently]	spanish, old-english	am [inherently]	are [inherently]	is [inherently]	are [inherently]	was [inherently]	were [inherently]	was [inherently]	were [inherently]	been [inherently]	being [inherently]
+be [temporarily]	spanish, old-english	am [temporarily]	are [temporarily]	is [temporarily]	are [temporarily]	was [temporarily]	were [temporarily]	was [temporarily]	were [temporarily]	been [temporarily]	being [temporarily]
+do	common	do	do	does	do	did	did	did	did	done	doing
+go     	common	go	go	goes	go	went	went	went	went	gone	going
+want	common	want	want	wants	want	wanted	wanted	wanted	wanted	wanted	wanting
+have   	common	have	have	has	have	had	had	had	had	had	having
+have [in my posession]	spanish	have [in my posession]	have [in my posession]	has [in my posession]	have [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	having [in my posession]
+give	common	give	give	gives	give	gave	gave	gave	gave	given	giving
+say	common	say	say	say	say	said	said	said	said	said	saying
+be able	common	can	can	can	can	could	could	could	could	been able	being able
+live	common	live	live	lives	live	lived	lived	lived	lived	lived	living
+read	common	read	read	reads	read	read	read [in the past]	read [in the past]	read [in the past]	read	reading
+carry	common	carry	carry	carries	carry	carried	carried	carried	carried	carried	carrying
+become	common	become	become	becomes	become	became	became	became	became	become	becoming
+eat	common	eat	eat	eats	eat	ate	ate	ate	ate	eaten	eating
+write	russian	write	write	writes	write	wrote	wrote	wrote	wrote	written	writing
+see	russian	see 	see	sees	see	saw	saw	saw	saw	seen	seeing
+choose 	french	choose	choose	chooses	choose	chose	chose	chose	chose	chosen	choosing
+love	common	love	love	loves	love	loved	loved	loved	loved	loved	loving
+sew	common	sew	sew	sews	sew	sewed	sewed	sewed	sewed	sewn	sewing
+know	spanish	know	know	knows	know	knew	knew	knew	knew	known	knowing
+drive	spanish	drive	drive	drives	drive	drive	drive	drive	drive	driven	driving
+draw	russian	draw	draw	draws	draw	drew	drew	drew	drew	drawn	drawing
+drink	russian	drink	drink	drinks	drink	drank	drank	drank	drank	drunken	drinking
+steal	russian	steal	steal	steals	steal	stole	stole	stole	stole	stolen	stealing
+swim	russian	swim	swim	swims	swim	swam	swam	swam	swam	swum	swimming
+sink	russian	sink	sink	sinks	sink	sunk	sunk	sunk	sunk	sunken	sinking
+forgive	russian	forgive	forgive	forgives	forgive	forgave	forgave	forgave	forgave	forgiven	forgiving
+beat	russian	beat	beat	beats	beat	beated	beated	beated	beated	beaten	beating
+call	russian	call	call	calls	call	called	called	called	called	called	calling
+return	russian	return	return	returns	return	returned	returned	returned	returned	returned	returning
+spit	russian	spit	spit	spits	spit	spat	spat	spat	spat	spat	spitting
+dance	russian	dance	dance	dance	dance	danced	danced	danced	danced	danced	dancing
+bake	russian	bake	bake	bakes	bake	baked	baked	baked	baked	baked	baking
+lead	russian	lead	lead	leads	lead	leaded	leaded	leaded	leaded	leaded	leading
+sweep	russian	sweep	sweep	sweeps	sweep	swept	swept	swept	swept	swept	sweeping
+row	russian	row	row	rows	row	rowed	rowed	rowed	rowed	rowed	rowing
+convey	russian	convey	convey	conveys	convey	conveyed	conveyed	conveyed	conveyed	conveyed	conveying
+climb	russian	climb	climb	climbs	climb	climbed	climbed	climbed	climbed	climbed	climbing
+wash	russian	wash	wash	washes	wash	washed	washed	washed	washed	washed	washing
+wind	russian	wind	wind	winds	wind	winded	winded	winded	winded	winded	winding
+pour	russian	pour	pour	pours	pour	poured	poured	poured	poured	poured	pouring
+catch	russian	catch	catch	catches	catch	caught	caught	caught	caught	caught	catching
+feed	russian	feed	feed	feeds	feed	fed	fed	fed	fed	fed	feeding
+pay	russian	pay	pay	pays	pay	paid	paid	paid	paid	paid	paying
+lose   	french	lose	lose	loses	lose	lost	lost	lost	lost	lost	losing
+receive	french	receive	receive	receives	receive	received	received	received	received	received	receiving
+release	ancient-greek	release	release	releases	release	release	release	release	released	released	releasing
+speak  	latin	speak	speak	speaks	speak	spoke	spoke	spoke	spoke	spoken	speaking
+advise	latin	advise	advise	advises	advise	advised	advised	advised	advised	advised	advising
+direct	latin	direct	direct	directs	direct	directed	directed	directed	directed	directed	directing
+hear	latin	hear	hear	hears	hear	heard	heard	heard	heard	heard	hearing
+carry	proto-indo-european	carry	carry	carries	carry	carried	carried	carried	carried	carried	carrying
+leave	proto-indo-european	leave	leave	leaves	leave	left	left	left	left	left	leaving
+work	proto-indo-european	work	work	works	work	worked	worked	worked	worked	worked	working
+ask	common	ask	ask	asks	ask	asked	asked	asked	asked	asked	asking
+stretch	proto-indo-european	stretch	stretch	stretches	stretch	stretched	stretched	stretched	stretched	stretched	stretching
+sit	proto-indo-european	sit	sit	sits	sit	sat	sat	sat	sat	sat	sitting
+protect	proto-indo-european	protect	protect	protect	protect	protected	protected	protected	protected	protected	protecting
+renew	proto-indo-european	renew	renew	renews	renew	renewed	renewed	renewed	renewed	renewed	renewing
+arrive	proto-indo-european	arrive	arrive	arrives	arrive	arrived	arrived	arrived	arrived	arrived	arriving
+fear	spanish	fear	fear	fears	fear	feared	feared	feared	feared	feared	fearing
+part	spanish	part	part	parts	part	parted	parted	parted	parted	parted	parting
+call	swedish	call	call	calls	call	called	called	called	called	called	calling
+close	swedish	close	close	closes	close	closed	closed	closed	closed	closed	closing
+strike	swedish	strike	strike	strikes	strike	struck	struck	struck	struck	struck	striking
+steal	old-english	steal	steal	steals	steal	stole	stole	stole	stole	stolen	stealing
+share	old-english	share	share	shares	share	shared	shared	shared	shared	shared	sharing
+tame	old-english	tame	tame	tames	tame	tamed	tamed	tamed	tamed	tamed	taming
+move	old-english	move	move	moves	move	moved	moved	moved	moved	moved	moving
+think	old-english	think	think	thinks	think	thought	thought	thought	thought	thought	thinking
+point out	proto-indo-european	point out	point out	points out	point out	pointed out	pointed out	pointed out	pointed out	pointed out	pointing out
+set down	proto-indo-european	set down	set down	sets down	set down	seated	seated	seated	seated	seated	setting down
+be red	proto-indo-european	am red	are red	is red	are red	was red	were red	was red	were red	been made red	being red
+want to see	proto-indo-european	want to see	want to see	wants to see	want to see	wanted to see	wanted to see	wanted to see	wanted to see	wanted seen	wanting to see
+pass for	russian	pass for	pass for	passes for	pass for	passed for	passed for	passed for	passed for	passed for	passing for
 											
 											
 											

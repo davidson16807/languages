@@ -1,32 +1,31 @@
-#								
-#mood	non-infinitive alternative	pre-phrase	pre-subject auxillary	post-subject auxillary	adjective	conjugation	post-phrase	explanation
-indicative								
-subjunctive	[even if]	[even if]					[...]	Event is considered unlikely (mainly used in dependent clauses)
-conditional	[if so, then]	[if so, then]		would		bare-infinitive		Event depends upon another condition.
-optative	[may it be]		may			bare-infinitive		Event is hoped, expected, or awaited.
-benedictive	[may it be]		may			bare-infinitive		Event is blessed by the speaker
-jussive	[it should be]			should		bare-infinitive		Event is pleaded, implored or asked.
-potential	[it's likely]				[likely]			Event is probable or considered likely.
-imperative	[I command that]	[I command]				bare-infinitive		Event is directly ordered or requested by the speaker.
-prohibitive	[I forbid that]	[I forbid]				bare-infinitive		Event is directly prohibited by the speaker.
-desiderative				want		full-infinitive		Event is desired/wished by the subject
-dubitative	[maybe]			may		bare-infinitive		Event is uncertain, doubtful, dubious.
-hypothetical	[it's at least possible]			can	[technically]	bare-infinitive		Event is hypothetical, or it is counterfactual, but possible.
-presumptive	[suppose that]	[suppose that]						Event is assumed, presupposed by the speaker.
-permissive	[I'm fine that]	[I'm fine that]						Event is permitted by the speaker.
-admirative	[wow!]	[wow!]						Event is genuinely surprising or amazing
-ironic-admirative	[gee!]	[gee!]			[sure]			Event is surprising or amazing, in irony or sarcasm
-hortative	[may it be]		may			bare-infinitive	!	Event is exhorted, implored, insisted or encouraged by speaker.
-eventitive	[if so, it's likely]	[if so, then]			[likely]			Event is likely but depends upon a condition. 
-precative	[please, can it be that]	[please]	would			bare-infinitive	?	Event is requested by the speaker.
-volitive	[if only]	[if only]						Event is desired, wished or feared by the speaker.
-involutive	[heaven forbid]	[heaven forbid]						Event is feared by the speaker.
-inferential	[it is said that]	[it is said that]						Event is nonwitnessed, and not confirmed.
-necessitative	[it is imperative that]			must		bare-infinitive		Event is necessary, or it is both desired and encouraged. 
-interrogative	[is it true that]	[is it true that]					?	Event is asked or questioned by the speaker 
-injunctive	[I intend]	[I intend]						Event is intended by the speaker
-suggestive	[I suggest]	[I suggest]						Event is proposed by the speaker
-comissive	[I vow]	[I vow]						Event is committed to by the speaker, such as by promise or threat
-deliberative	[shall it be]		shall			bare-infinitive	?	Event is considered by the speaker, asking for confirmation
-propositive	[should it be]		should			bare-infinitive	?	Event is proposed by the speaker, asking for consideration
-dynamic				can		bare-infinitive		Event is able to be done by the subject
+mood	template	alternate prephrase	explanation
+indicative	{subject} {phrase}		
+subjunctive	[even if] {subject} {phrase}, [...]	[even if]	Event is considered unlikely (mainly used in dependent clauses)
+conditional	[if so, then] {subject} would {phrase|infinitive}	[if so, then]	Event depends upon another condition.
+optative	may {subject} {phrase|infinitive}	[may it be]	Event is hoped, expected, or awaited.
+benedictive	may {subject} {phrase|infinitive}	[may it be]	Event is blessed by the speaker
+jussive	{subject} should {phrase|infinitive}	[it should be]	Event is pleaded, implored or asked.
+potential	{subject} [likely] {phrase}	[it's likely]	Event is probable or considered likely.
+imperative	[I command] {subject} {phrase|infinitive}	[I command that]	Event is directly ordered or requested by the speaker.
+prohibitive	[I forbid] {subject} {phrase|infinitive}	[I forbid that]	Event is directly prohibited by the speaker.
+desiderative	{subject} [{wish|present} that] {subject} {phrase|infinitive}		Event is desired/wished by the subject
+dubitative	{subject} [possibly] {phrase}	[maybe]	Event is uncertain, doubtful, dubious.
+hypothetical	{subject} can [technically] {phrase|infinitive}	[it's at least possible]	Event is hypothetical, or it is counterfactual, but possible.
+presumptive	[suppose that] {subject} {phrase}	[suppose that]	Event is assumed, presupposed by the speaker.
+permissive	[I permit that] {subject} {phrase}	[I'm fine that]	Event is permitted by the speaker.
+admirative	[wow!] {subject} {phrase}!	[wow!]	Event is genuinely surprising or amazing
+ironic-admirative	[gee!] {subject} [sure] {phrase}	[gee!]	Event is surprising or amazing, in irony or sarcasm
+hortative	may {subject} {phrase|infinitive}!	[may it be]	Event is exhorted, implored, insisted or encouraged by speaker.
+eventitive	[if so, then] {subject} [likely] {phrase}	[if so, it's likely]	Event is likely but depends upon a condition. 
+precative	[please,] would {subject} {phrase|infinitive}?	[please, can it be that]	Event is requested by the speaker.
+volitive	[if only] {subject} {phrase}	[if only]	Event is desired, wished or feared by the speaker.
+involutive	[heaven forbid] {subject} {phrase}	[heaven forbid]	Event is feared by the speaker.
+inferential	[it is said that] {subject} {phrase}	[it is said that]	Event is nonwitnessed, and not confirmed.
+necessitative	{subject} must {phrase|infinitive}	[it is imperative that]	Event is necessary, or it is both desired and encouraged. 
+interrogative	[is it true that] {subject} {phrase}?	[is it true that]	Event is asked or questioned by the speaker 
+injunctive	[I intend] {subject} {phrase}	[I intend]	Event is intended by the speaker
+suggestive	[I propose] {subject} {phrase}	[I suggest]	Event is proposed by the speaker
+comissive	[I vow that] {subject} {phrase}	[I vow]	Event is committed to by the speaker, such as by promise or threat
+deliberative	shall {subject} {phrase|infinitive}?	[shall it be]	Event is considered by the speaker, asking for confirmation
+propositive	should {subject} {phrase|infinitive}?	[should it be]	Event is proposed by the speaker, asking for consideration
+dynamic	{subject} can {phrase|infinitive}		Event is able to be done by the subject

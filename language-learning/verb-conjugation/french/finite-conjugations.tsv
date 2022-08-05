@@ -1,6 +1,7 @@
-#		mood->	indicative 	indicative	indicative   	indicative	subjunctive 	subjunctive 	conditional 	imperative 	
-#		tense->	present    	past	past	future    	present     	past	past	present    	
-#verb	person	plurality	aortist	perfect   	imperfect    	aortist	aortist	imperfect   	aortist	aortist	group    
+english			translated	translated	translated	translated	translated	translated	translated	translated	
+		mood->	indicative 	indicative	indicative   	indicative	subjunctive 	subjunctive 	conditional 	imperative 	
+		tense->	present    	past	past	future    	present     	past	past	present    	
+infinitive	person	aspect->	aortist	perfect   	imperfect    	aortist	aortist	imperfect   	aortist	aortist	group    
 have   	1	singular	ai         	eus       	avais        	aurai     	aie         	eusse       	aurais      	           	unique   
 have   	2	singular	as         	eus       	avais        	auras     	aies        	eusses      	aurais      	aie        	unique   
 have   	3	singular	a          	eut       	avait        	aura      	ait         	eût         	aurait      	           	unique   

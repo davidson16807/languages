@@ -1,5 +1,6 @@
-#			mood->	infinitive	indicative	subjunctive	optative	imperative	participle	indicative	infinitive	indicative	optative	participle	infinitive	indicative	subjunctive	optative	imperative	participle	infinitive	indicative	subjunctive	optative	imperative	participle	infinitive	indicative	optative	participle	pluperfect
-#verb	voice	person	plurality	present	present	present	present	present	present	imperfect	future	future	future	future	aortist	aortist	aortist	aortist	aortist	aortist	perfect	perfect	perfect	perfect	perfect	perfect					
+#			mood->	infinitive	indicative	subjunctive	optative	imperative	participle	indicative	infinitive	indicative	optative	participle	infinitive	indicative	subjunctive	optative	imperative	participle	infinitive	indicative	subjunctive	optative	imperative	participle	infinitive	indicative	optative	participle	indicative
+				present	present	present	present	present	present	past	future	future	future	future	past	past	past	past	past	past	present	present	present	present	present	present	future	future	future	future	past
+#verb	voice	person	plurality							imperfect					aorist	aorist	aorist	aorist	aorist	aorist	perfect	perfect	perfect	perfect	perfect	perfect	perfect	perfect	perfect	perfect	perfect
 be	active	1	singular	εἶναι	εἰμί	ὦ	εἴην	—	ὤν	ἦν/ἦ/ἤμην	ἔσεσθαι	ἔσομαι	ἐσοίμην	ἐσόμενος																	
 be	active	2	singular	εἶναι	εἶ	ᾖς	εἴης/εἴησθα	ἴσθι	οὖσα	ἦσθα/ἦς	ἔσεσθαι	ἔσῃ/ἔσει	ἔσοιο	ἐσομένη																	
 be	active	3	singular	εἶναι	ἐστί(ν)	ᾖ	εἴη	ἔστω	ὄν	ἦν	ἔσεσθαι	ἔσται	ἔσοιτο	ἐσόμενον																	
