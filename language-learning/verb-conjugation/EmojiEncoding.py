@@ -86,6 +86,50 @@ class HtmlBubbleType:
     def quote(content, audience, speaker): 
         return f'''{content}<sup style="padding-left: 0.5em; color:#ddd;">◤</sup><sub>{audience}{speaker}</sub>'''
 
+class Enclosures:
+    '''
+    Finds start and end positions of the first region of text enclosed 
+    by an outermost pair of start and end markers, 
+    denoted "L" and "R" for short.
+    Text is assumed to follow a grammar that can be described 
+    by a Stack Automata featuring only the given start and end markers
+    '''
+    def __init__(self, L='{', R='}'):
+        self.L = L
+        self.R = R
+    def find(self, string):
+        open_count = 0
+        start = None
+        for match in re.finditer(f'[{self.L}{self.R}]', string):
+            start = match.end() if start is None else start 
+            delimeter = match.group(0)
+            open_count += (1 if delimeter == self.L else -1)
+            if open_count == 0:
+                return start, match.start()
+
+class BracketedShorthand:
+    '''
+    Introduces LaTEX style escape sequences (e.g.\\foo{bar}) that 
+    feature text enclosed start and end markers (e.g. '{' and '}').
+    The style of start and end marker is described by the given `enclosure`.
+    When the shorthand is decoded 
+    '''
+    def __init__(self, enclosure):
+        self.enclosure = enclosure
+    def decode(self, pattern, string, get_replacement):
+        match = re.search(pattern, string)
+        while match is not None:
+            posttag = string[match.end():]
+            bracket_range = self.enclosure.find(posttag)
+            if not bracket_range: break
+            start, end = bracket_range
+            string = ''.join([
+                string[:match.start()],
+                get_replacement(posttag[start:end]), 
+                posttag[end+len(self.enclosure.R):]])
+            match = re.search(pattern, string)
+        return string
+
 class EmojiEntityShorthand:
     '''
     Introduces LaTEX style escape sequences that are
@@ -143,29 +187,15 @@ class EmojiGestureShorthand:
         \overhead{}
         \chestlevel{}
     '''
-    def __init__(self, htmlGesturePositioning):
+    def __init__(self, htmlGesturePositioning, bracketedShorthand):
         self.htmlGesturePositioning = htmlGesturePositioning
+        self.bracketedShorthand = bracketedShorthand
     def decode(self, code):
         emoji = code
-        brackets = '[{]([^}]*?)[}]'
-        print('vanilla', emoji)
-        print()
-        emoji = re.sub(r'\\raised'+brackets, 
-            self.htmlGesturePositioning.raised('\\1'), emoji)
-        print('raised', emoji)
-        print()
-        emoji = re.sub(r'\\lowered'+brackets, 
-            self.htmlGesturePositioning.lowered('\\1'), emoji)
-        print('lowered', emoji)
-        print()
-        emoji = re.sub(r'\\overhead'+brackets, 
-            self.htmlGesturePositioning.overhead('\\1'), emoji)
-        print('overhead', emoji)
-        print()
-        emoji = re.sub(r'\\chestlevel'+brackets, 
-            self.htmlGesturePositioning.chestlevel('\\1'), emoji)
-        print('chestlevel', emoji)
-        print()
+        emoji = self.bracketedShorthand.decode(r'\\raised', emoji, self.htmlGesturePositioning.raised)
+        emoji = self.bracketedShorthand.decode(r'\\lowered', emoji, self.htmlGesturePositioning.lowered)
+        emoji = self.bracketedShorthand.decode(r'\\overhead', emoji, self.htmlGesturePositioning.overhead)
+        emoji = self.bracketedShorthand.decode(r'\\chestlevel', emoji, self.htmlGesturePositioning.chestlevel)
         return emoji
 
 class TextTransformShorthand:
@@ -178,22 +208,16 @@ class TextTransformShorthand:
         \mirror{}
         \flip{}
     '''
-    def __init__(self, htmlTextTransform):
+    def __init__(self, htmlTextTransform, bracketedShorthand):
         self.htmlTextTransform = htmlTextTransform
+        self.bracketedShorthand = bracketedShorthand
     def decode(self, code):
         emoji = code
-        brackets = '[{]([^}]*?)[}]'
-        print('premirror', emoji)
-        print()
-        emoji = re.sub(r'\\mirror'+brackets, 
-            self.htmlTextTransform.mirror('\\1'), emoji)
-        print('mirror', emoji)
-        print()
-        emoji = re.sub(r'\\flip'+brackets, 
-            self.htmlTextTransform.flip('\\1'), emoji)
-        print('flip', emoji)
-        print()
+        emoji = self.bracketedShorthand.decode(r'\\mirror', emoji, self.htmlTextTransform.mirror)
+        emoji = self.bracketedShorthand.decode(r'\\flip', emoji, self.htmlTextTransform.flip)
         return emoji
+
+
 
 class EmojiPluralityShorthand:
     '''
@@ -207,69 +231,33 @@ class EmojiPluralityShorthand:
     with other identical emoji characters.
     Information is lost in decoding so no encode() function exists.
     '''
-    def __init__(self, htmlPluralityTransform):
+    def __init__(self, htmlPluralityTransform, bracketedShorthand):
         self.htmlPluralityTransform = htmlPluralityTransform
+        self.bracketedShorthand = bracketedShorthand
     def decode(self, code):
-        emoji1 = code
-        brackets = '[{]([^}]*?)[}]'
-        # emoji1 = re.sub(r'\\s'+brackets, 
-        #     self.htmlPluralityTransform.singular('\\1'), emoji1)
-        # emoji1 = re.sub(r'\\d'+brackets, 
-        #     self.htmlPluralityTransform.dual('\\1','\\1'), emoji1)
-        # emoji1 = re.sub(r'\\p'+brackets, 
-        #     self.htmlPluralityTransform.plural('\\1','\\1','\\1'), emoji1)
-        emoji2 = emoji1
+        emoji = code
+
+        def get_transform(inner_transform, gestureless_count, inclusive=False):
+            def _transform(content):
+                gestureless = self.bracketedShorthand.decode(
+                    r'\\(chestlevel|raised|lowered|overhead)', content, lambda x:'')
+                person2 = content.replace('\\g1','\\g2').replace('\\c1','\\c2')
+                return inner_transform(
+                        person2 if inclusive else content, 
+                        *([gestureless]*gestureless_count))
+            return _transform
+
         '''
         "inclusive" plural and "inclusive" dual include the audience,
         so substitute markers for skin color and gender with 
         the equivalent markers for the audience.
         '''
-        for match in re.finditer(r'\\d'+brackets, emoji1):
-            markup = match.group(0)
-            content = match.group(1)
-            gestureless = re.sub(
-                r'\\(chestlevel|raised|lowered|overhead)'+brackets, 
-                '', content)
-            replacement = self.htmlPluralityTransform.dual_inclusive(
-                            content, 
-                            gestureless)
-            emoji2 = emoji2.replace(markup, replacement)
-        for match in re.finditer(r'\\di'+brackets, emoji1):
-            markup = match.group(0)
-            content = match.group(1)
-            person2 = content.replace('\\g1','\\g2').replace('\\c1','\\c2')
-            gestureless = re.sub(
-                r'\\(chestlevel|raised|lowered|overhead)'+brackets, 
-                '', content)
-            replacement = self.htmlPluralityTransform.dual_inclusive(
-                            person2, 
-                            gestureless)
-            emoji2 = emoji2.replace(markup, replacement)
-        emoji1 = emoji2
-        for match in re.finditer(r'\\p'+brackets, emoji1):
-            markup = match.group(0)
-            content = match.group(1)
-            gestureless = re.sub(
-                r'\\(chestlevel|raised|lowered|overhead)'+brackets, 
-                '', content)
-            replacement = self.htmlPluralityTransform.plural_inclusive(
-                            content, 
-                            gestureless, 
-                            gestureless)
-            emoji2 = emoji2.replace(markup, replacement)
-        emoji1 = emoji2
-        for match in re.finditer(r'\\pi'+brackets, emoji1):
-            markup = match.group(0)
-            content = match.group(1)
-            gestureless = re.sub(
-                r'\\(chestlevel|raised|lowered|overhead)'+brackets, 
-                '', content)
-            replacement = self.htmlPluralityTransform.plural_inclusive(
-                            content.replace('\\g1','\\g2').replace('\\c1','\\c2'), 
-                            gestureless, 
-                            gestureless)
-            emoji2 = emoji2.replace(markup, replacement)
-        return emoji2
+        emoji = self.bracketedShorthand.decode(r'\\s',  emoji, get_transform(self.htmlPluralityTransform.singular, 0))
+        emoji = self.bracketedShorthand.decode(r'\\di', emoji, get_transform(self.htmlPluralityTransform.dual_inclusive, 1, True))
+        emoji = self.bracketedShorthand.decode(r'\\d',  emoji, get_transform(self.htmlPluralityTransform.dual, 1))
+        emoji = self.bracketedShorthand.decode(r'\\pi', emoji, get_transform(self.htmlPluralityTransform.plural_inclusive, 2, True))
+        emoji = self.bracketedShorthand.decode(r'\\p',  emoji, get_transform(self.htmlPluralityTransform.plural, 2))
+        return emoji
 
 class EmojiModifierShorthand:
     '''
@@ -311,7 +299,7 @@ class EmojiModifierShorthand:
             emoji = emoji.replace(escape, character)
         return emoji
 
-class EmojiShorthands:
+class AggregateShorthand:
     '''
     Compiles up to several shorthands that 
     are applied in sequence when decoding text.
@@ -324,12 +312,8 @@ class EmojiShorthands:
         self.shorthands = shorthands
     def decode(self, code):
         emoji = code
-        print(emoji)
-        print()
         for (i, shorthand) in enumerate(self.shorthands):
             emoji = shorthand.decode(emoji)
-            print(i, emoji)
-            print()
         return emoji
 
 depiction = lambda content: f'''<div style="font-size:3em; padding: 0.5em;">{content}</div>'''
@@ -340,25 +324,28 @@ for emoji in ['👨🏿‍🌾', '🏋🏿‍♂️️', '🏋🏿‍♀️', '�
 for code in ['🧑\\m\\4\\🌾', '🧍\\4\\♂️', '🤼\\4\\♂️', '🕺\\m', '🤴\\m', '🕺\\f', '🤴\\f']:
     assert modifiers.encode(modifiers.decode(code))==code
 
-pluralities = \
-	EmojiPluralityShorthand(
-		HtmlPluralityTransform(
-			HtmlPersonPositioning()))
+
+bracket_shorthand = BracketedShorthand(Enclosures())
+
+plurality_shorhand = \
+    EmojiPluralityShorthand(
+        HtmlPluralityTransform(HtmlPersonPositioning()),
+        bracket_shorthand)
 for emoji in ['🧑\\g1\\c1\\🌾']:
-	for plurality in ['s','d','p','di','pi']:
-		print(depiction(pluralities.decode('\\'+plurality+'{'+emoji+'}')))
+    for plurality in ['s','d','p','di','pi']:
+        print(depiction(plurality_shorhand.decode('\\'+plurality+'{'+emoji+'}')))
 
-
-entities = EmojiEntityShorthand(pluralities, ['pi','p'], ['f','m'], ['2','3'])
+entities = EmojiEntityShorthand(plurality_shorhand, ['pi','p'], ['f','m'], ['2','3'])
 print(depiction(
     entities.decode('\\p1{\\🧑\\g1\\c1\\🌾}')))
 
-shorthand = EmojiShorthands( 
-    TextTransformShorthand(HtmlTextTransform()), 
-    EmojiEntityShorthand(pluralities, ['pi','p'], ['f','m'], ['2','3']),
-    EmojiGestureShorthand(HtmlGesturePositioning()),
+emoji_shorthand = AggregateShorthand( 
+    EmojiEntityShorthand(plurality_shorhand, ['pi','p'], ['f','m'], ['2','3']),
+    TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
+    EmojiGestureShorthand(HtmlGesturePositioning(), bracket_shorthand),
     EmojiModifierShorthand()
 )
 
 print(depiction(
-    shorthand.decode('\\p1{\\raised{\\mirror{🖕}}🧑\\g1\\c1\\🌾}')))
+    emoji_shorthand.decode('\\p1{\\chestlevel{\\mirror{👍\\c1}}🧑\\g1\\c1\\🌾}')))
+
