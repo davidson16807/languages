@@ -4,10 +4,6 @@ import collections
 import itertools
 
 category_to_grammemes = {
-	# needed to tip off which key/lookup should be used to stored cell contents
-	'lookup':     ['finite', 'infinitive', 
-	               'participle', 'gerundive', 'gerund', 'adverbial', 'supine', 
-	               'context', 'group', 'emoji'],
 
 	# needed for context in a sentence
 	'language':   ['english', 'translated'], 
@@ -19,7 +15,7 @@ category_to_grammemes = {
 	'person':     ['1','2','3'],
 	'plurality':  ['singular', 'dual', 'plural'],
 	'inclusivity':['inclusive', 'exclusive', 'voseo', 'formal'],
-	'modifier':   ['familiar', 
+	'modifier':   ['unmodified','familiar', 
 	               'formal', 'voseo' # needed for Spanish
 	              ],
 	'mood':       ['indicative', 'subjunctive', 'conditional', 
@@ -39,7 +35,7 @@ category_to_grammemes = {
 
 	# needed for gerunds, supines, participles, and gerundives
 	'gender':     ['masculine', 'feminine', 'neuter'],
-	'declension': ['nominative', 'accusative', 'dative', 'ablative', 
+	'case':       ['nominative', 'accusative', 'dative', 'ablative', 
 	               'genitive', 'locative', 'instrumental'],
 
     # needed for infinitive forms, finite forms, participles, context in sentences, and graphic depictions
@@ -50,9 +46,18 @@ category_to_grammemes = {
 	'aspect':     ['aorist', 'imperfect', 'perfect', 'perfect-progressive'], 
 }
 
+
+category_to_grammemes_with_lookups = {
+	**category_to_grammemes,
+	# needed to tip off which key/lookup should be used to stored cell contents
+	'lookup':     ['finite', 'infinitive', 
+	               'participle', 'gerundive', 'gerund', 'adverbial', 'supine', 
+	               'context', 'group', 'emoji'],
+}
+
 grammeme_to_category = {
     instance:type_ 
-    for (type_, instances) in category_to_grammemes.items() 
+    for (type_, instances) in category_to_grammemes_with_lookups.items() 
     for instance in instances
 }
 
@@ -81,13 +86,13 @@ class TableAnnotation:
 	When a predifined keyword occurs within the cell contents of a header row or column, 
 	 the row or column associated with that header is marked as having that keyword 
 	 for an associated attribute.
-	Keywords are indicated by keys within `content_to_attribute`.
+	Keywords are indicated by keys within `keyword_to_attribute`.
 	Keywords that are not known at the time of execution may be 
 	 indicated using `header_column_id_to_attribute`, 
 	 which marks all cell contents of a given column as keywords for a given attribute.
 
 	As an example, if a header row is marked "green", and "green" is a type of "color",
-	 then `content_to_attribute` may store "green":"color" as a key:value pair.
+	 then `keyword_to_attribute` may store "green":"color" as a key:value pair.
 	Anytime "green" is listed in a header row or column, 
 	 all contents of the row or column associated with that header cell 
 	 will be marked as having the color "green".
@@ -96,14 +101,17 @@ class TableAnnotation:
 	two reprepresentations: 
 	The first representation is a list of rows, where rows are lists of cell contents.
 	The second representation is a list where each element is a tuple,
-	 (cell, annotations), where "cell" is the contents of a cell within the table,
+	 (annotation,cell), where "cell" is the contents of a cell within the table,
 	 and "annotations" is a dict of attribute:keyword associated with a cell.
 	'''
 	def __init__(self, 
-			content_to_attribute, header_row_id_to_attribute, header_column_id_to_attribute):
-		self.content_to_attribute = content_to_attribute
+			keyword_to_attribute, 
+			header_row_id_to_attribute, header_column_id_to_attribute,
+			default_attributes):
+		self.keyword_to_attribute = keyword_to_attribute
 		self.header_column_id_to_attribute = header_column_id_to_attribute
 		self.header_row_id_to_attribute = header_row_id_to_attribute
+		self.default_attributes = default_attributes
 	def annotate(self, rows, header_row_count=None, header_column_count=None):
 		header_row_count = header_row_count if header_row_count is not None else len(self.header_row_id_to_attribute)
 		header_column_count = header_column_count if header_column_count is not None else len(self.header_column_id_to_attribute)
@@ -115,31 +123,47 @@ class TableAnnotation:
 			for j, cell in enumerate(row):
 				if i in self.header_row_id_to_attribute:
 					column_base_attributes[j][self.header_row_id_to_attribute[i]] = cell
-				if cell in self.content_to_attribute:
-					column_base_attributes[j][self.content_to_attribute[cell]] = cell
+				if cell in self.keyword_to_attribute:
+					column_base_attributes[j][self.keyword_to_attribute[cell]] = cell
 		annotations = []
 		for row in nonheader_rows:
-			header_cells = row[:header_column_count]
-			nonheader_cells = row[header_column_count:]
 			row_base_attributes = {}
 			for i in range(0,header_column_count):
 				cell = row[i]
 				if i in self.header_column_id_to_attribute:
 					row_base_attributes[self.header_column_id_to_attribute[i]] = cell
-				if cell in self.content_to_attribute:
-					row_base_attributes[self.content_to_attribute[cell]] = cell
+				if cell in self.keyword_to_attribute:
+					row_base_attributes[self.keyword_to_attribute[cell]] = cell
 			for i in range(header_column_count,len(row)):
 				cell = row[i]
-				if cell and column_base_attributes[i]:
+				# if cell and column_base_attributes[i]:
+				if cell:
 					annotation = {}
+					annotation.update(self.default_attributes)
 					annotation.update(row_base_attributes)
 					annotation.update(column_base_attributes[i])
-					annotations.append((cell, annotation))
+					annotations.append((annotation,cell))
 		return annotations
 
-class TableIndexing:
+class FlatTableIndexing:
 	'''
-	`TableIndexing` converts a list of (cell, annotation) tuples
+	`FlatTableIndexing` converts a list of (annotation,cell) tuples
+	(such as those output by `TableAnnotation`)
+	to a representation where cells are stored in a lookup.
+	The cells are indexed by their annotations according to the indexing behavior 
+	within a given `template_lookup`.
+	'''
+	def __init__(self, template_lookup):
+		self.template_lookup = template_lookup
+	def index(self, annotations):
+		lookups = copy.deepcopy(self.template_lookup)
+		for annotation,cell in annotations:
+			lookups[annotation] = cell
+		return lookups
+
+class NestedTableIndexing:
+	'''
+	`NestedTableIndexing` converts a list of (annotation,cell) tuples
 	(such as those output by `TableAnnotation`)
 	to a representation where cells are stored in nested lookups.
 	The cells are indexed by their annotations according to the indexing behavior 
@@ -149,275 +173,320 @@ class TableIndexing:
 		self.template_lookups = template_lookups
 	def index(self, annotations):
 		lookups = copy.deepcopy(self.template_lookups)
-		for cell, annotation in annotations:
+		for annotation,cell in annotations:
 			lookups[annotation][annotation] = cell
 		return lookups
 
 class DictKeyHashing:
+	'''
+	`DictKeyHashing` represents a method for using dictionaries as hashable objects.
+	It does so by converting between two domains, known as "dictkeys" and "tuplekeys".
+	A "dictkey" is a dictionary that maps each key to either a value or a set of values.
+	A "dictkey" is indexed by one or more "tuplekeys", which are ordinary tuples of values
+	 that can be indexed natively in Python dictionaries.
+	`DictKeyHashing` works by selecting a single key:value pair 
+	 within a dictkey to serve as the tuplekey(s) to index by.
+	It offers several conveniences to allow 
+	 working with both dictkeys and the values they are indexed by
+	'''
 	def __init__(self, key, default=None):
 		self.key = key
 		self.default = default
-	def encode(self, dict_):
-		'''
-		Converts an arbitrary dict object to a tuple 
-		whose values are the values of the dict ordered by a given list of keys
-		'''
-		if isinstance(dict_, dict):
-			return dict_[self.key] if self.key in dict_ else self.default
-		elif isinstance(dict_, str):
-			return dict_
-	def decode(self, value):
-		return {self.key:value}
-	def iterate(self, keys_to_values):
+	def dictkey(self, tuplekey):
+		return {self.key:tuplekey}
+	def tuplekeys(self, dictkey):
 		'''
 		Returns a generator that iterates through 
 		possible tuples whose keys are given by `keys_and_defaults`
-		and whose values are given by a `keys_to_values` dict 
-		that maps keys in `keys_and_defaults` to sets of possible values.
+		and whose values are given by a `dictkey` dict 
+		that maps a key from `keys_and_defaults` to either a value or a set of possible values.
 		'''
-		return itertools.chain(
-				[default] if default not in keys_to_values[self.key] else [], 
-				keys_to_values[key])
+		key = self.key
+		default = self.default
+		if type(dictkey) in {dict}:
+			return itertools.chain(
+					[default] if default is not None and default not in dictkey[key] else [], 
+					dictkey[key] if type(dictkey[key]) in {set,list} else [dictkey[key]])
+		elif type(dictkey) in {set,list}:
+			return dictkey
+		else:
+			return [dictkey]
+
 
 class DictTupleHashing:
-	def __init__(self, keys_and_defaults=None, keys=None):
+	'''
+	`DictTupleHashing` represents a method for using dictionaries as hashable objects.
+	It does so by converting between two domains, known as "dictkeys" and "tuplekeys".
+	A "dictkey" is a dictionary that maps each key to either a value or a set of values.
+	A "dictkey" is indexed by one or more "tuplekeys", which are ordinary tuples of values
+	 that can be indexed natively in Python dictionaries.
+	`DictKeyHashing` works by ordering values in a dictkey 
+	 into one or more tuplekeys according to a given list of `keys`.
+	'''
+	def __init__(self, keys=None, keys_and_defaults=None):
 		self.keys_and_defaults = (
-			[(key,'') for key in keys] if keys_and_defaults is None 
+			[(key,None) for key in keys] if keys_and_defaults is None 
 			 else keys_and_defaults)
-	def encode(self, dict_):
-		'''
-		Converts an arbitrary dict object to a tuple 
-		whose values are the values of the dict ordered by a given list of keys
-		'''
-		return tuple([
-			(dict_[key] if key in dict_ else default)
-			for key, default in self.keys_and_defaults
-		])
-	def decode(self, values):
-		return {key:values[i] for i, (key, default) in enumerate(self.keys_and_defaults)}
-	def iterate(self, keys_to_values):
+	def dictkey(self, tuplekey):
+		return {key:tuplekey[i] for i, (key, default) in enumerate(self.keys_and_defaults)}
+	def tuplekeys(self, dictkey):
 		'''
 		Returns a generator that iterates through 
 		possible tuples whose keys are given by `keys_and_defaults`
-		and whose values are given by a `keys_to_values` dict 
-		that maps keys in `keys_and_defaults` to sets of possible values.
+		and whose values are given by a `dictkey` dict 
+		that maps a key from `keys_and_defaults` to either a value or a set of possible values.
 		'''
 		return itertools.product(
 			*[itertools.chain(
-				[default] if default not in keys_to_values[key] else [], 
-				keys_to_values[key])
+				[default] if default is not None and default not in dictkey[key] else [], 
+				dictkey[key] if type(dictkey[key]) in {set,list} else [dictkey[key]])
 			  for key, default in self.keys_and_defaults])
-'''
-options:
-* iterate through hashes and populate wildcard substitutions after lookup is constructed
-* iterate through wildcard substitutions upon call to lookup's __setitem__()
-* iterate through wildcard substitutions upon call to lookup's __getitem__()
-'''
 
 class DictLookup:
+	'''
+	`DictLookup` is a lookup that indexes "dictkeys" by a given `hashing` method,
+	where `hashing` is of a class that shares the same iterface as `DictHashing`.
+	A "dictkey" is a dictionary that maps each key to either a value or a set of values.
+	A "dictkey" is indexed by one or more "tuplekeys", which are ordinary tuples of values.
+	'''
 	def __init__(self, hashing, content=None):
 		self.hashing = hashing
 		self.content = {} if content is None else content
 	def __getitem__(self, key):
-		return self.content[self.hashing.encode(key)]
+		'''
+		Return the value that is indexed by `key` 
+		if it is the only such value, otherwise return None.
+		'''
+		if isinstance(key, tuple):
+			return self.content[key]
+		else:
+			tuplekeys = [tuplekey 
+				for tuplekey in self.hashing.tuplekeys(key)
+				if tuplekey in self.content]
+			if len(tuplekeys) == 1:
+				return self.content[tuplekeys[0]]
+			elif len(tuplekeys) == 0:
+				raise IndexError('\n'.join([
+									'Key does not exist within the dictionary.',
+									'Key:',
+									  '\t'+str(key),
+								]))
+			else:
+				raise IndexError('\n'.join([
+									'Key is ambiguous.',
+									'Key:',
+									  '\t'+str(key),
+									'Available interpretations:',
+									*['\t'+str(self.hashing.dictkey(tuplekey)) 
+									  for tuplekey in tuplekeys]
+								]))
 	def __setitem__(self, key, value):
-		self.content[self.hashing.encode(key)] = value
+		'''
+		Store `value` within the indices represented by `key`.
+		'''
+		if isinstance(key, tuple):
+			return self.content[key]
+		else:
+			for tuplekey in self.hashing.tuplekeys(key):
+				self.content[tuplekey] = value
 	def __contains__(self, key):
-		return self.hashing.encode(key) in self.content
+		if isinstance(key, tuple):
+			return key in self.content
+		else:
+			return any(tuplekey in self.content 
+				       for tuplekey in self.hashing.tuplekeys(key))
 	def __iter__(self):
 		return self.content.__iter__()
 	def __len__(self):
 		return self.content.__len__()
-	def values():
-		return self.content.values()
-	def keys(self, keys_to_values):
-		for code in self.hashing.iterate(keys_to_values):
-			if code in self.content:
-				yield self.hashing.decode(code)
-	def items(self, keys_to_values):
-		for code in self.hashing.iterate(keys_to_values):
-			if code in self.content:
-				yield self.hashing.decode(code), self.content[code]
+	def values(self, dictkey):
+		for tuplekey in self.hashing.tuplekeys(dictkey):
+			if tuplekey in self.content:
+				yield self.content[tuplekey]
+	def keys(self, dictkey):
+		for tuplekey in self.hashing.tuplekeys(dictkey):
+			if tuplekey in self.content:
+				yield self.hashing.dictkey(tuplekey)
+	def items(self, dictkey):
+		for tuplekey in self.hashing.tuplekeys(dictkey):
+			if tuplekey in self.content:
+				yield self.hashing.dictkey(tuplekey), self.content[tuplekey]
 
-inflection_lookup_hashing = DictKeyHashing('lookup', 'finite')
 
-inflection_template_lookups = DictLookup(
+inflection_lookup_hashing = DictKeyHashing('lookup')
+
+conjugation_template_lookups = DictLookup(
 	inflection_lookup_hashing, 
 	{
 		# verbs that indicate a subject
 		'finite': DictLookup(
 			DictTupleHashing([
-				('lemma',     'unspecified'),
-				('person',    'unspecified'),
-				('plurality', 'unspecified'),
-				('modifier',  'unspecified'), # needed for Spanish ("voseo")
-				('mood',      'indicative' ),
-				('voice',     'active'     ),
-				('tense',     'present'    ),
-				('aspect',    'aorist'     ),
-			])),
+					'lemma',           
+					'person',           
+					'plurality',           
+					'modifier',   # needed for Spanish ("voseo")
+					'mood',           
+					'voice',           
+					'tense',           
+					'aspect',           
+				])),
 
 		# verbs that do not indicate a subject
 		'infinitive': DictLookup(
 			DictTupleHashing([
-				('lemma',     'unspecified'),
-				('completion','bare'       ), # needed for Old English
-				('voice',     'active'     ), # needed for Latin, Swedish
-				('tense',     'present'    ), # needed for German, Latin
-				('aspect',    'aorist'     ), # needed for Greek
-			])),
+					'lemma',           
+					'completion', # needed for Old English
+					'voice',      # needed for Latin, Swedish
+					'tense',      # needed for German, Latin
+					'aspect',     # needed for Greek
+				])),
 
 		# verbs used as adjectives, indicating that an action is done upon a noun at some point in time
 		'participle': DictLookup(
 			DictTupleHashing([
-				('lemma',     'unspecified'),
-				('plurality', 'unspecified'), # needed for German
-				('gender',    'unspecified'), # needed for Latin, German, Russian
-				('declension','unspecified'), # needed for Latin
-				('voice',     'active'     ), # needed for Russian
-				('tense',     'present'    ), # needed for Greek, Russian, Spanish, Swedish, French
-				('aspect',    'aorist'     ), # needed for Greek, Latin, German, Russian
-			])),
+					'lemma',           
+					'plurality',  # needed for German
+					'gender',     # needed for Latin, German, Russian
+					'case',       # needed for Latin
+					'voice',      # needed for Russian
+					'tense',      # needed for Greek, Russian, Spanish, Swedish, French
+					'aspect',     # needed for Greek, Latin, German, Russian
+				])),
 
 		# verbs used as adjectives, indicating the purpose of something
 		'gerundive': DictLookup(
 			DictTupleHashing([
-				('lemma',     'unspecified'),
-				('plurality', 'unspecified'), # needed in principle
-				('gender',    'unspecified'), # needed in principle
-				('declension','unspecified'), # needed in principle
-			])),
+					'lemma',           
+					'plurality',  # needed in principle
+					'gender',     # needed in principle
+					'case',       # needed in principle
+				])),
 
 		# verbs used as nouns
 		'gerund': DictLookup(
 			DictTupleHashing([
-				('lemma',     'unspecified'),
-				('plurality', 'unspecified'), # needed for German
-				('gender',    'unspecified'), # needed for Latin, German, Russian
-				('declension','unspecified'), # needed for Latin
-			])),
+					'lemma',           
+					'plurality',  # needed for German
+					'gender',     # needed for Latin, German, Russian
+					'case',       # needed for Latin
+				])),
 
 		# verbs used as nouns, indicating the objective of something
 		'supine': DictLookup(
 			DictTupleHashing([
-				('lemma',     'unspecified'),
-				('plurality', 'unspecified'), # needed for German
-				('gender',    'unspecified'), # needed for Latin, German, Russian
-				('declension','unspecified'), # needed for Latin
-			])),
+					'lemma',           
+					'plurality',  # needed for German
+					'gender',     # needed for Latin, German, Russian
+					'case',       # needed for Latin
+				])),
 
 		# verbs used as adverbs
 		'adverbial': DictLookup(
-			DictKeyHashing('lemma', 'unspecified')),
+			DictKeyHashing('lemma')),
 
 		# a pattern in conjugation that the verb is meant to demonstrate
 		'group': DictLookup(
-			DictKeyHashing('lemma', 'unspecified' )),
+			DictKeyHashing('lemma')),
 
 		# text that follows a verb in a sentence that demonstrates the verb
 		'context': DictLookup(
 			DictTupleHashing([
-				('lemma',     'unspecified' ),
-				('language',  'unspecified' ),
-				('voice',     'active'      ), # needed for Greek
-				('gender',    'unspecified' ), # needed for Greek
-				('plurality', 'unspecified' ), # needed for Russian
-			])),
+					'lemma',           
+					'language',           
+					'voice',      # needed for Greek
+					'gender',     # needed for Greek
+					'plurality',  # needed for Russian
+				])),
 
 		# an emoji depiction of a sentence that demonstrates the verb
 		'emoji': DictLookup(
 			DictTupleHashing([
-				('lemma',     'unspecified' ),
-				('voice',     'active'      ), # needed for Greek, Latin, Proto-Indo-Eurpean, Sanskrit, Swedish
-			])),
+					'lemma',           
+					'voice',      # needed for Greek, Latin, Proto-Indo-Eurpean, Sanskrit, Swedish
+				])),
 	})
+
 
 def constantdict(value):
 	return collections.defaultdict(lambda: value)
 
 tsv_parsing = SeparatedValuesFileParsing()
-inflection_annotation  = TableAnnotation(grammeme_to_category, {}, {0:'lemma'})
-mood_annotation        = TableAnnotation(grammeme_to_category, {0:'lookup'}, {})
-verb_phrase_annotation = TableAnnotation(grammeme_to_category, {}, {})
+inflection_annotation  = TableAnnotation(
+	grammeme_to_category, {}, {0:'lemma'}, 
+	{**category_to_grammemes, 'lookup':'finite'})
+verb_phrase_annotation = TableAnnotation(
+	grammeme_to_category, {}, {}, 
+	{**category_to_grammemes, 'lookup':'finite'})
+mood_annotation        = TableAnnotation(
+	{}, {0:'column'}, {0:'mood'}, {})
 
-inflection_indexing = TableIndexing(inflection_template_lookups)
-mood_indexing = TableIndexing(
-	DictLookup(DictKeyHashing('lookup','template'), 
-		constantdict(DictLookup(DictKeyHashing('mood')))))
-verb_phrase_indexing = TableIndexing(
-	DictLookup(DictKeyHashing('lookup','template'),
-		constantdict(DictLookup(DictTupleHashing(keys=['voice','tense','aspect'])))))
+conjugation_indexing = NestedTableIndexing(conjugation_template_lookups)
+declension_indexing  = FlatTableIndexing(DictLookup(DictTupleHashing(['person','plurality','case'])))
+verb_phrase_indexing = FlatTableIndexing(DictLookup(DictTupleHashing(['lookup','voice','tense','aspect'])))
+mood_indexing = FlatTableIndexing(DictLookup(DictTupleHashing(['mood','column'])))
 
 english_conjugation = \
-	inflection_indexing.index(
+	conjugation_indexing.index(
 		inflection_annotation.annotate(
 			tsv_parsing.rows('english/conjugations.tsv'), 3, 2))
+english_declension = \
+	declension_indexing.index(
+		inflection_annotation.annotate(tsv_parsing.rows('english/pronoun-declensions.tsv'), 1, 3))
 english_mood_templates = \
 	mood_indexing.index(
 		mood_annotation.annotate(
 			tsv_parsing.rows('english/mood-templates.tsv'), 1, 1))
-emoji_mood_templates = \
-	mood_indexing.index(
-		mood_annotation.annotate(
-			tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1))
 english_verb_phrase_templates = \
 	verb_phrase_indexing.index(
 		verb_phrase_annotation.annotate(
 			tsv_parsing.rows('english/verb-phrase-templates.tsv'), 1, 4))
 
+emoji_mood_templates = \
+	mood_indexing.index(
+		mood_annotation.annotate(
+			tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1))
+
+for k,v in list(english_conjugation['finite'].items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
+for k,v in list(english_verb_phrase_templates.items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
+for k,v in list(english_declension.items({**category_to_grammemes}))[:100]: print(k,v)
+
 def english(grammemes, 
 		pronoun_declensions, conjugations, 
 		contexts, mood_templates, verb_phrase_templates):
-	be_base = {
-		'lemma':     'be',
-		'person':    grammemes['person'], 
-		'plurality': grammemes['plurality'], 
+	base = {**grammemes, 'gender': 'masculine', 'language':'english'}
+	speaker_base = {
+		'person':    '1', 
+		'plurality': 'singular', 
+		'tense':     base['tense'] if base['tense'] in {'past','present'} else 'present'
 	}
-	have_base = {
-		'lemma':     'have',
-		'person':    grammemes['person'], 
-		'plurality': grammemes['plurality'], 
-	}
-	verb_base = {
-		'lemma':     grammemes['lemma'],
-		'person':    grammemes['person'], 
-		'plurality': grammemes['plurality'], 
-	}
-	verb_phrase_replacements = [
-		('{have|present}',    conjugations[{**have_base, 'tense':  'present'  }]),
-		('{have|past}',       conjugations[{**have_base, 'tense':  'past'     }]),
-		('{have|imperfect}',  conjugations[{**have_base, 'aspect': 'imperfect'}]),
-		('{have|perfect}',    conjugations[{**have_base, 'aspect': 'perfect'  }]),
-		('{be|present}',      conjugations[{**be_base,   'tense':  'present'  }]),
-		('{be|past}',         conjugations[{**be_base,   'tense':  'past'     }]),
-		('{be|imperfect}',    conjugations[{**be_base,   'aspect': 'imperfect'}]),
-		('{be|perfect}',      conjugations[{**be_base,   'aspect': 'perfect'  }]),
-		('{verb|present}',    conjugations[{**verb_base, 'tense':  'present'  }]),
-		('{verb|past}',       conjugations[{**verb_base, 'tense':  'past'     }]),
-		('{verb|imperfect}',  conjugations[{**verb_base, 'aspect': 'imperfect'}]),
-		('{verb|perfect}',    conjugations[{**verb_base, 'aspect': 'perfect'  }]),
-		('{verb|infinitive}', grammemes['lemma']),
-	]
-	verb_phrase_conjugated = verb_phrase_templates['finite'][grammemes]
-	for replaced, replacement in replacements:
-		verb_phrase_conjugated = verb_phrase_conjugated.replace(replaced, replacement)
-	verb_phrase_infinitive = verb_phrase_templates['infinitive'][grammemes]
-	for replaced, replacement in replacements:
-		verb_phrase_infinitive = verb_phrase_infinitive.replace(replaced, replacement)
-	context = contexts[{**grammemes, 'language':'english'}]
+	lemmas = ['be', 'have', 'command', 'forbid', 'permit', 'wish', 'intend', grammemes['lemma']]
+	context = contexts[{**base}]
 	mood_replacements = [
-		#('{subject}',           pronoun_declensions[{**grammemes, 'case':'nominative'}]),
-		('{phrase}',            ' '.join([verb_phrase_conjugated, *([context] if context else [])])),
-		('{phrase|infinitive}', ' '.join([verb_phrase_infinitive, *([context] if context else [])])),
+		('{subject}',            pronoun_declensions[{**grammemes, 'case':'nominative'}]),
+		('{phrase}',             verb_phrase_templates[{**grammemes,'lookup':'finite'}]),
+		('{phrase|infinitive}',  verb_phrase_templates[{**grammemes,'lookup':'infinitive'}]),
 	]
-	sentence = mood_templates['template'][grammemes]
-	for replaced, replacement in replacements:
+	sentence = mood_templates[{**grammemes,'column':'template'}]
+	for replaced, replacement in mood_replacements:
 		sentence = sentence.replace(replaced, replacement)
+	sentence = sentence.replace('{verb', '{'+grammemes['lemma'])
+	sentence = sentence.replace('{context}', context)
+	for lemma in lemmas:
+		replacements = [
+			('{'+lemma+'|speaker}',    conjugations[{**base, 'lemma':lemma, **speaker_base}]),
+			('{'+lemma+'|present}',    conjugations[{**base, 'lemma':lemma, 'tense':   'present'    }]),
+			('{'+lemma+'|past}',       conjugations[{**base, 'lemma':lemma, 'tense':   'past'       }]),
+			('{'+lemma+'|perfect}',    conjugations[{**base, 'lemma':lemma, 'aspect':  'perfect'    }]),
+			('{'+lemma+'|imperfect}',  conjugations[{**base, 'lemma':lemma, 'aspect':  'imperfect'  }]),
+			('{'+lemma+'|infinitive}', lemma),
+		]
+		for replaced, replacement in replacements:
+			sentence = sentence.replace(replaced, replacement)
+	if grammemes['voice'] == 'middle':
+		sentence = f'[middle voice:] {sentence}'
+	return sentence
 
-def format(lookups, lemmas, category_to_grammemes):
-	category_to_grammemes = {**category_to_grammemes, 'lemma':lemmas}
-	for grammemes, conjugation in lookups['finite'].items(category_to_grammemes):
-		print((grammemes, conjugation))
+english({**grammemes, 'voice':'middle'}, english_declension, english_conjugation['finite'], lookups['context'], english_mood_templates, english_verb_phrase_templates)
 
 lookups = inflection_indexing.index([
 	*inflection_annotation.annotate(
@@ -426,22 +495,27 @@ lookups = inflection_indexing.index([
 		tsv_parsing.rows('ancient-greek/nonfinite-conjugations.tsv'), 3, 2)
 ])
 
+def format(lookups, lemmas, category_to_grammemes):
+	category_to_grammemes = {**category_to_grammemes, 'lemma':lemmas}
+	for grammemes, conjugation in lookups['finite'].items(category_to_grammemes):
+		print((grammemes, conjugation))
+
+for k,v in list(lookups['finite'].items({'lemma':'release',**category_to_grammemes}))[:100]: print(k,v)
+
 grammemes = {
 	'lemma': 'release', 
 	'person': '3', 
 	'plurality': 'plural', 
-	'modifier': 'unspecified', 
+	'modifier': 'unmodified', 
 	'mood': 'imperative', 
 	'voice': 'passive', 
 	'tense': 'past', 
 	'aspect': 'aorist'
 }
 
-for grammemes, conjugation in conjugations.items(category_to_grammemes):
-	print((grammemes, conjugation))
 
-english(grammemes, {}, english_conjugation['finite'], 
-	lookups['context'], english_mood_templates, english_verb_phrase_templates)
+def update(default, annotations):
+	for content, annotation in annotations:
 
 
 lookups = inflection_indexing.index([
@@ -500,11 +574,6 @@ lookups = inflection_indexing.index(
 		tsv_parsing.rows('swedish/conjugations.tsv'), 4, 2),
 )
 
-for lookup_id, lookup in lookups.items(): 
-	print(lookup_id)
-	for k,v in lookup.items():
-		print(k,v)
-
 
 def emoji(cell):
 	fonts = "'sans-serif', 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji'"
@@ -530,10 +599,3 @@ def write(filename, columns):
 		for row in zip(*columns):
 			if all(cell is not None for cell in row):
 				file.write(''.join(row)+'\n')
-
-write('flashcards/proto-indo-european.html', [
-	column('emoji.tsv', 3, cloze(1), emoji),
-	column('indo-european-branches.tsv', 2, cloze(1), english_word), 
-	column('indo-european-branches.tsv', 3, require, strip_asterisks, cloze(2), foreign_focus), 
-])
-

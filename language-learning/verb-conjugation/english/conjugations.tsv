@@ -1,13 +1,18 @@
 person→		1	2	3		1	2	3			
 plurality→		singular	singular	singular	plural	singular	singular	singular	plural		
 tense→		present	present	present	present	past	past	past	past	perfect	imperfect
-be     	featured language	am	are	is	are	was	were	was	were	been	being
+be     	templates	am	are	is	are	was	were	was	were	been	being
 be [inherently]	spanish, old-english	am [inherently]	are [inherently]	is [inherently]	are [inherently]	was [inherently]	were [inherently]	was [inherently]	were [inherently]	been [inherently]	being [inherently]
 be [temporarily]	spanish, old-english	am [temporarily]	are [temporarily]	is [temporarily]	are [temporarily]	was [temporarily]	were [temporarily]	was [temporarily]	were [temporarily]	been [temporarily]	being [temporarily]
+have   	templates	have	have	has	have	had	had	had	had	had	having
+command	templates	command	command	commands	command	commanded	commanded	commanded	commanded	commanded	commanding
+forbid	templates	forbid	forbid	forbids	forbid	forbade	forbade	forbade	forbade	forbidden	forbidding
+permit	templates	permit	permit	permits	permit	permitted	permitted	permitted	permitted	permitted	permitting
+intend	templates	intend	intend	intends	intend	intended	intended	intended	intended	intended	intending
+wish	templates	wish	wish	wishes	wish	wished	wished	wished	wished	wished	wishing
 do	common	do	do	does	do	did	did	did	did	done	doing
 go     	common	go	go	goes	go	went	went	went	went	gone	going
 want	common	want	want	wants	want	wanted	wanted	wanted	wanted	wanted	wanting
-have   	common	have	have	has	have	had	had	had	had	had	having
 have [in my posession]	spanish	have [in my posession]	have [in my posession]	has [in my posession]	have [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	having [in my posession]
 give	common	give	give	gives	give	gave	gave	gave	gave	given	giving
 say	common	say	say	say	say	said	said	said	said	said	saying

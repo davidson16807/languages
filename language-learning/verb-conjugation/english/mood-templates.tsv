@@ -6,13 +6,13 @@ optative	may {subject} {phrase|infinitive}	[may it be]	Event is hoped, expected,
 benedictive	may {subject} {phrase|infinitive}	[may it be]	Event is blessed by the speaker
 jussive	{subject} should {phrase|infinitive}	[it should be]	Event is pleaded, implored or asked.
 potential	{subject} [likely] {phrase}	[it's likely]	Event is probable or considered likely.
-imperative	[I command] {subject} {phrase|infinitive}	[I command that]	Event is directly ordered or requested by the speaker.
-prohibitive	[I forbid] {subject} {phrase|infinitive}	[I forbid that]	Event is directly prohibited by the speaker.
-desiderative	{subject} [{wish|present} that] {subject} {phrase|infinitive}		Event is desired/wished by the subject
+imperative	[I {command|speaker}] {subject} {phrase|infinitive}	[I command that]	Event is directly ordered or requested by the speaker.
+prohibitive	[I {forbid|speaker}] {subject} {phrase|infinitive}	[I forbid that]	Event is directly prohibited by the speaker.
+desiderative	{subject} [{wish|present}] {subject} {phrase|infinitive}		Event is desired/wished by the subject
 dubitative	{subject} [possibly] {phrase}	[maybe]	Event is uncertain, doubtful, dubious.
 hypothetical	{subject} can [technically] {phrase|infinitive}	[it's at least possible]	Event is hypothetical, or it is counterfactual, but possible.
 presumptive	[suppose that] {subject} {phrase}	[suppose that]	Event is assumed, presupposed by the speaker.
-permissive	[I permit that] {subject} {phrase}	[I'm fine that]	Event is permitted by the speaker.
+permissive	[I {permit|speaker} that] {subject} {phrase}	[I'm fine that]	Event is permitted by the speaker.
 admirative	[wow!] {subject} {phrase}!	[wow!]	Event is genuinely surprising or amazing
 ironic-admirative	[gee!] {subject} [sure] {phrase}	[gee!]	Event is surprising or amazing, in irony or sarcasm
 hortative	may {subject} {phrase|infinitive}!	[may it be]	Event is exhorted, implored, insisted or encouraged by speaker.
@@ -23,8 +23,8 @@ involutive	[heaven forbid] {subject} {phrase}	[heaven forbid]	Event is feared by
 inferential	[it is said that] {subject} {phrase}	[it is said that]	Event is nonwitnessed, and not confirmed.
 necessitative	{subject} must {phrase|infinitive}	[it is imperative that]	Event is necessary, or it is both desired and encouraged. 
 interrogative	[is it true that] {subject} {phrase}?	[is it true that]	Event is asked or questioned by the speaker 
-injunctive	[I intend] {subject} {phrase}	[I intend]	Event is intended by the speaker
-suggestive	[I propose] {subject} {phrase}	[I suggest]	Event is proposed by the speaker
+injunctive	[I {intend|speaker}] {subject} {phrase}	[I intend]	Event is intended by the speaker
+suggestive	[I propose] {subject} {phrase}	[I propose]	Event is proposed by the speaker
 comissive	[I vow that] {subject} {phrase}	[I vow]	Event is committed to by the speaker, such as by promise or threat
 deliberative	shall {subject} {phrase|infinitive}?	[shall it be]	Event is considered by the speaker, asking for confirmation
 propositive	should {subject} {phrase|infinitive}?	[should it be]	Event is proposed by the speaker, asking for consideration
