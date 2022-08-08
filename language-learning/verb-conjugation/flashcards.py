@@ -5,7 +5,7 @@ import itertools
 
 category_to_grammemes = {
 
-	# needed for context in a sentence
+	# needed to lookup the argument that is used to demonstrate a verb
 	'language':   ['english', 'translated'], 
 
 	# needed for infinitives
@@ -37,7 +37,7 @@ category_to_grammemes = {
 	'case':       ['nominative', 'accusative', 'dative', 'ablative', 
 	               'genitive', 'locative', 'instrumental'],
 
-    # needed for infinitive forms, finite forms, participles, context in sentences, and graphic depictions
+    # needed for infinitive forms, finite forms, participles, arguments, and graphic depictions
 	'voice':      ['active', 'passive', 'middle'], 
 
     # needed for infinitive forms, finite forms, and participles
@@ -396,7 +396,7 @@ tsv_parsing = SeparatedValuesFileParsing()
 inflection_annotation  = TableAnnotation(
 	grammeme_to_category, {}, {0:'lemma'}, 
 	{**category_to_grammemes, 'lookup':'finite'})
-verb_phrase_annotation = TableAnnotation(
+predicate_annotation = TableAnnotation(
 	grammeme_to_category, {}, {}, 
 	{**category_to_grammemes, 'lookup':'finite'})
 mood_annotation        = TableAnnotation(
@@ -404,7 +404,7 @@ mood_annotation        = TableAnnotation(
 
 conjugation_indexing = NestedTableIndexing(conjugation_template_lookups)
 declension_indexing  = FlatTableIndexing(DictLookup(DictTupleHashing(['person','plurality','case','gender'])))
-verb_phrase_indexing = FlatTableIndexing(DictLookup(DictTupleHashing(['lookup','voice','tense','aspect'])))
+predicate_indexing = FlatTableIndexing(DictLookup(DictTupleHashing(['lookup','voice','tense','aspect'])))
 mood_indexing = FlatTableIndexing(DictLookup(DictTupleHashing(['mood','column'])))
 
 english_conjugation = \
@@ -418,9 +418,9 @@ english_mood_templates = \
 	mood_indexing.index(
 		mood_annotation.annotate(
 			tsv_parsing.rows('english/mood-templates.tsv'), 1, 1))
-english_verb_phrase_templates = \
-	verb_phrase_indexing.index(
-		verb_phrase_annotation.annotate(
+english_predicate_templates = \
+	predicate_indexing.index(
+		predicate_annotation.annotate(
 			tsv_parsing.rows('english/predicate-templates.tsv'), 1, 4))
 
 emoji_mood_templates = \
@@ -436,12 +436,12 @@ lookups = conjugation_indexing.index([
 ])
 
 class English:
-	def __init__(self, pronoun_declensions, conjugations, mood_templates, verb_phrase_templates):
+	def __init__(self, pronoun_declensions, conjugations, mood_templates, predicate_templates):
 		self.pronoun_declensions = pronoun_declensions
 		self.conjugations = conjugations
 		self.mood_templates = mood_templates
-		self.verb_phrase_templates = verb_phrase_templates
-	def conjugate(self, grammemes, contexts):
+		self.predicate_templates = predicate_templates
+	def conjugate(self, grammemes, arguments):
 		dependant_clause = {
 			**grammemes,
 			'language': 'english',
@@ -458,18 +458,18 @@ class English:
 		lemmas = ['be', 'have', 
 		          'command', 'forbid', 'permit', 'wish', 'intend', 'be able', 
 		          dependant_clause['lemma']]
-		context = contexts[{**dependant_clause}]
+		argument = arguments[{**dependant_clause}]
 		mood_replacements = [
 			('{subject}',            self.pronoun_declensions[{**dependant_clause, 'case':'nominative'}]),
 			('{subject|accusative}', self.pronoun_declensions[{**dependant_clause, 'case':'accusative'}]),
-			('{predicate}',             self.verb_phrase_templates[{**dependant_clause,'lookup':'finite'}]),
-			('{predicate|infinitive}',  self.verb_phrase_templates[{**dependant_clause,'lookup':'infinitive'}]),
+			('{predicate}',             self.predicate_templates[{**dependant_clause,'lookup':'finite'}]),
+			('{predicate|infinitive}',  self.predicate_templates[{**dependant_clause,'lookup':'infinitive'}]),
 		]
 		sentence = self.mood_templates[{**dependant_clause,'column':'template'}]
 		for replaced, replacement in mood_replacements:
 			sentence = sentence.replace(replaced, replacement)
 		sentence = sentence.replace('{verb', '{'+dependant_clause['lemma'])
-		sentence = sentence.replace('{argument}', context)
+		sentence = sentence.replace('{argument}', argument)
 		for lemma in lemmas:
 			replacements = [
 				('{'+lemma+'|independant}',         self.conjugations[{**independant_clause, 'lemma':lemma, }]),
@@ -488,7 +488,7 @@ class English:
 
 english = English(
 	english_declension, english_conjugation['finite'], 
-	english_mood_templates, english_verb_phrase_templates)
+	english_mood_templates, english_predicate_templates)
 
 finite_defaults = {
 	'language': 'english',
@@ -524,7 +524,7 @@ for lemma in lemmas:
 		print(english.conjugate(dictkey, lookups['argument']))
 
 for k,v in list(english_conjugation['finite'].items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
-for k,v in list(english_verb_phrase_templates.items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
+for k,v in list(english_predicate_templates.items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
 for k,v in list(english_declension.items({**category_to_grammemes}))[:100]: print(k,v)
 
 def format(lookups, lemmas, category_to_grammemes):
