@@ -173,7 +173,8 @@ class NestedTableIndexing:
 	def index(self, annotations):
 		lookups = copy.deepcopy(self.template_lookups)
 		for annotation,cell in annotations:
-			lookups[annotation][annotation] = cell
+			lookup = lookups[annotation]
+			lookup[annotation] = cell
 		return lookups
 
 class DictKeyHashing:
@@ -259,13 +260,13 @@ class DictLookup:
 			elif len(tuplekeys) == 0:
 				raise IndexError('\n'.join([
 									'Key does not exist within the dictionary.',
-									['Lookup:', '\t'+str(self.name)] if self.name else [],
+									*(['Lookup:', '\t'+str(self.name)] if self.name else []),
 									'Key:', '\t'+str(key),
 								]))
 			else:
 				raise IndexError('\n'.join([
 									'Key is ambiguous.',
-									['Lookup:', '\t'+str(self.name)] if self.name else [],
+									*(['Lookup:', '\t'+str(self.name)] if self.name else []),
 									'Key:',
 									  '\t'+str(key),
 									'Available interpretations:',
@@ -369,7 +370,7 @@ conjugation_template_lookups = DictLookup(
 		'group': DictLookup(lemma_hashing),
 
 		# text that follows a verb in a sentence that demonstrates the verb
-		'context': DictLookup(
+		'argument': DictLookup(
 			DictTupleHashing([
 					'lemma',           
 					'language',           
@@ -422,7 +423,7 @@ emoji_mood_templates = \
 		mood_annotation.annotate(
 			tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1))
 
-lookups = conjugation_indexing.index([
+greek_conjugation = conjugation_indexing.index([
 	*inflection_annotation.annotate(
 		tsv_parsing.rows('ancient-greek/finite-conjugations.tsv'), 3, 4),
 	*inflection_annotation.annotate(
@@ -480,9 +481,25 @@ class English:
 			sentence = f'[middle voice:] {sentence}'
 		return sentence
 
+class Translation:
+	def __init__(self, pronoun_declensions, conjugations):
+		self.pronoun_declensions = pronoun_declensions
+		self.conjugations = conjugations
+	def conjugate(self, grammemes, arguments):
+		if grammemes not in self.conjugations:
+			return None
+		else:
+			return ' '.join([
+					# self.pronoun_declensions[{**grammemes, 'case':'nominative'}],
+					self.conjugations[grammemes],
+					arguments[grammemes],
+				])
+
 english = English(
 	english_declension, english_conjugation['finite'], 
 	english_mood_templates, english_predicate_templates)
+
+translation = Translation(None, greek_conjugation['finite'])
 
 finite_defaults = {
 	'language': 'english',
@@ -515,7 +532,12 @@ for lemma in lemmas:
 				**finite_traversal.dictkey(tuplekey), 
 				'lemma': lemma
 			}
-		print(english.conjugate(dictkey, lookups['argument']))
+		# print(dictkey)
+		translated_text = translation.conjugate({**dictkey, 'language':'translated'}, greek_conjugation['argument'])
+		english_text    = english.conjugate({**dictkey, 'language':'english'}, greek_conjugation['argument'])
+		if translated_text:
+			print(english_text)
+			print(translated_text)
 
 for k,v in list(english_conjugation['finite'].items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
 for k,v in list(english_predicate_templates.items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
