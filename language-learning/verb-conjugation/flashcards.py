@@ -308,17 +308,6 @@ conjugation_lookup_hashing = DictKeyHashing('lookup')
 
 lemma_hashing = DictKeyHashing('lemma')
 
-finite_hashing = DictTupleHashing([
-		'lemma',           
-		'person',           
-		'plurality',           
-		'modifier',   # needed for Spanish ("voseo")
-		'mood',           
-		'voice',           
-		'tense',           
-		'aspect',           
-	])
-
 declension_hashing = DictTupleHashing([
 		'lemma',           
 		'plurality',  # needed for German
@@ -332,13 +321,14 @@ conjugation_template_lookups = DictLookup(
 		# verbs that indicate a subject
 		'finite': DictLookup(
 			DictTupleHashing([
-					'person',
-					'plurality',
+					'lemma',           
+					'person',           
+					'plurality',           
 					'modifier',   # needed for Spanish ("voseo")
-					'tense', 
-					'aspect', 
-					'mood', 
-					'voice'
+					'mood',           
+					'voice',           
+					'tense',           
+					'aspect',           
 				])),
 
 		# verbs that do not indicate a subject
@@ -365,17 +355,21 @@ conjugation_template_lookups = DictLookup(
 
 		# verbs used as adjectives, indicating the purpose of something
 		'gerundive': DictLookup(declension_hashing),
+
 		# verbs used as nouns
 		'gerund': DictLookup(declension_hashing),
+
 		# verbs used as nouns, indicating the objective of something
 		'supine': DictLookup(declension_hashing),
+
 		# verbs used as adverbs
 		'adverbial': DictLookup(lemma_hashing),
+
 		# a pattern in conjugation that the verb is meant to demonstrate
 		'group': DictLookup(lemma_hashing),
 
 		# text that follows a verb in a sentence that demonstrates the verb
-		'argument': DictLookup(
+		'context': DictLookup(
 			DictTupleHashing([
 					'lemma',           
 					'language',           
