@@ -1,5 +1,5 @@
-#			mood->	indicative	indicative	indicative	indicative	indicative	indicative	subjunctive	subjunctive	subjunctive	subjunctive	imperative	imperative										
-#			tense->	present	past	future	present	past	future	present	past	present	past	present	future										
+			mood->	indicative	indicative	indicative	indicative	indicative	indicative	subjunctive	subjunctive	subjunctive	subjunctive	imperative	imperative										
+			tense->	present	past	future	present	past	future	present	past	present	past	present	future										
 #verb	voice	person	aspect->	aortist	imperfect	aortist	perfect	perfect	perfect	aortist	imperfect	perfect	perfect	simple	simple										
 be	active	1	singular	sum	eram	erō	fuī	fueram	fuerō	sim	essem	fuerim	fuissem		estō	irregular									
 be	active	2	singular	es	erās	eris	fuistī	fuerās	fuerīs	sīs	essēs	fuerīs	fuissēs	es	estō	irregular									

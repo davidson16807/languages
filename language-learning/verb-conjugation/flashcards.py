@@ -13,11 +13,8 @@ category_to_grammemes = {
 
 	# needed for finite forms
 	'person':     ['1','2','3'],
-	'plurality':  ['singular', 'dual', 'plural'],
-	'inclusivity':['inclusive', 'exclusive', 'voseo', 'formal'],
-	'modifier':   ['unmodified','familiar', 
-	               'formal', 'voseo' # needed for Spanish
-	              ],
+	'number':     ['singular', 'dual', 'plural'],
+	'inclusivity':['inclusive', 'exclusive'],
 	'mood':       ['indicative', 'subjunctive', 'conditional', 
 	               'optative', 'benedictive', 'jussive', 'potential', 
 	               'imperative', 'prohibitive', 'desiderative', 
@@ -28,6 +25,17 @@ category_to_grammemes = {
 	               'suggestive', 'comissive', 'deliberative', 
 	               'propositive', 'dynamic', 
 	              ],
+
+	# needed for correlatives in general
+	'proform':    ['personal', 
+	               'interrogative', 'demonstrative', 'indefinite', 'elective', 'universal', 'negative', 
+	               'relative', 'numeral'],
+	'pronoun':    ['human','nonhuman','selection'],
+	'proadverb':  ['location','source','goal','time','manner','reason','quality','amount'],
+	'distance':   ['proximal','medial','distal'],
+
+	# needed for Spanish
+	'formality':  ['familiar', 'formal', 'voseo'],
 
 	# needed for Sanskrit
 	'stem':       ['primary', 'causative', 'intensive',],
@@ -61,7 +69,7 @@ grammeme_to_category = {
 }
 
 class SeparatedValuesFileParsing:
-	def __init__(self, comment=None, delimeter='\t', padding=' \t\r\n'):
+	def __init__(self, comment='#', delimeter='\t', padding=' \t\r\n'):
 		self.comment = comment
 		self.delimeter = delimeter
 		self.padding = padding
@@ -206,7 +214,6 @@ class DictKeyHashing:
 		else:
 			return [dictkey]
 
-
 class DictTupleHashing:
 	'''
 	`DictTupleHashing` represents a method for using dictionaries as hashable objects.
@@ -240,7 +247,7 @@ class DictLookup:
 	A "dictkey" is a dictionary that maps each key to either a value or a set of values.
 	A "dictkey" is indexed by one or more "tuplekeys", which are ordinary tuples of values.
 	'''
-	def __init__(self, hashing, content=None, name=None):
+	def __init__(self, name, hashing, content=None):
 		self.name = name
 		self.hashing = hashing
 		self.content = {} if content is None else content
@@ -305,35 +312,35 @@ class DictLookup:
 			if tuplekey in self.content:
 				yield self.hashing.dictkey(tuplekey), self.content[tuplekey]
 
-conjugation_lookup_hashing = DictKeyHashing('lookup')
-
 lemma_hashing = DictKeyHashing('lemma')
 
 declension_hashing = DictTupleHashing([
 		'lemma',           
-		'plurality',  # needed for German
+		'number',     # needed for German
 		'gender',     # needed for Latin, German, Russian
 		'case',       # needed for Latin
 	])
 
 conjugation_template_lookups = DictLookup(
-	conjugation_lookup_hashing, 
+	'conjugation',
+	DictKeyHashing('lookup'), 
 	{
 		# verbs that indicate a subject
 		'finite': DictLookup(
+			'finite',
 			DictTupleHashing([
 					'lemma',           
 					'person',           
-					'plurality',           
-					'modifier',   # needed for Spanish ("voseo")
+					'number',           
+					'formality',   # needed for Spanish ("voseo")
 					'mood',           
 					'voice',           
 					'tense',           
 					'aspect',           
 				])),
-
 		# verbs that do not indicate a subject
 		'infinitive': DictLookup(
+			'infinitive',
 			DictTupleHashing([
 					'lemma',           
 					'completion', # needed for Old English
@@ -341,56 +348,88 @@ conjugation_template_lookups = DictLookup(
 					'tense',      # needed for German, Latin
 					'aspect',     # needed for Greek
 				])),
-
 		# verbs used as adjectives, indicating that an action is done upon a noun at some point in time
 		'participle': DictLookup(
+			'participle',
 			DictTupleHashing([
 					'lemma',           
-					'plurality',  # needed for German
+					'number',  # needed for German
 					'gender',     # needed for Latin, German, Russian
 					'case',       # needed for Latin
 					'voice',      # needed for Russian
 					'tense',      # needed for Greek, Russian, Spanish, Swedish, French
 					'aspect',     # needed for Greek, Latin, German, Russian
 				])),
-
 		# verbs used as adjectives, indicating the purpose of something
-		'gerundive': DictLookup(declension_hashing),
-
+		'gerundive': DictLookup('gerundive', declension_hashing),
 		# verbs used as nouns
-		'gerund': DictLookup(declension_hashing),
-
+		'gerund': DictLookup('gerund', declension_hashing),
 		# verbs used as nouns, indicating the objective of something
-		'supine': DictLookup(declension_hashing),
-
+		'supine': DictLookup('supine', declension_hashing),
 		# verbs used as adverbs
-		'adverbial': DictLookup(lemma_hashing),
-
+		'adverbial': DictLookup('adverbial', lemma_hashing),
 		# a pattern in conjugation that the verb is meant to demonstrate
-		'group': DictLookup(lemma_hashing),
-
+		'group': DictLookup('group', lemma_hashing),
 		# text that follows a verb in a sentence that demonstrates the verb
 		'argument': DictLookup(
+			'argument',
 			DictTupleHashing([
 					'lemma',           
 					'language',           
 					'voice',      # needed for Greek
 					'gender',     # needed for Greek
-					'plurality',  # needed for Russian
+					'number',  # needed for Russian
 				])),
-
 		# an emoji depiction of a sentence that demonstrates the verb
 		'emoji': DictLookup(
+			'emoji',
 			DictTupleHashing([
 					'lemma',           
 					'voice',      # needed for Greek, Latin, Proto-Indo-Eurpean, Sanskrit, Swedish
 				])),
 	})
 
+basic_pronoun_declension_hashing = DictTupleHashing([
+		'number',     # needed for German
+		'gender',     # needed for Latin, German, Russian
+		'case',       # needed for Latin
+	])
+
+declension_template_lookups = DictLookup(
+	'declension',
+	DictKeyHashing('proform'), 
+	{
+		'personal': DictLookup(
+			'personal',
+			DictTupleHashing([
+					'person',           
+					'number',           
+					'formality',   # needed for Spanish ("voseo")
+					'gender',           
+					'case',           
+				])),
+		'demonstrative': DictLookup(
+			'demonstrative',
+			DictTupleHashing([
+					'distance',
+					'number',     
+					'gender',     
+					'case',       
+				])),
+		'interrogative': DictLookup('interrogative', basic_pronoun_declension_hashing),
+		'indefinite': DictLookup('indefinite', basic_pronoun_declension_hashing),
+		'universal': DictLookup('universal', basic_pronoun_declension_hashing),
+		'relative': DictLookup('relative', basic_pronoun_declension_hashing),
+		'numeral': DictLookup('numeral', basic_pronoun_declension_hashing),
+	})
+
 tsv_parsing = SeparatedValuesFileParsing()
-inflection_annotation  = TableAnnotation(
+conjugation_annotation  = TableAnnotation(
 	grammeme_to_category, {}, {0:'lemma'}, 
 	{**category_to_grammemes, 'lookup':'finite'})
+pronoun_annotation  = TableAnnotation(
+	grammeme_to_category, {}, {}, 
+	{**category_to_grammemes, 'proform':'personal'})
 predicate_annotation = TableAnnotation(
 	grammeme_to_category, {}, {}, 
 	{**category_to_grammemes, 'lookup':'finite'})
@@ -398,45 +437,21 @@ mood_annotation        = TableAnnotation(
 	{}, {0:'column'}, {0:'mood'}, {})
 
 conjugation_indexing = NestedTableIndexing(conjugation_template_lookups)
-declension_indexing  = FlatTableIndexing(DictLookup(DictTupleHashing(['person','plurality','case','gender'])))
-predicate_indexing = FlatTableIndexing(DictLookup(DictTupleHashing(['lookup','voice','tense','aspect'])))
-mood_indexing = FlatTableIndexing(DictLookup(DictTupleHashing(['mood','column'])))
-
-english_conjugation = \
-	conjugation_indexing.index(
-		inflection_annotation.annotate(
-			tsv_parsing.rows('english/conjugations.tsv'), 3, 2))
-english_declension = \
-	declension_indexing.index(
-		inflection_annotation.annotate(tsv_parsing.rows('english/pronoun-declensions.tsv'), 1, 3))
-english_mood_templates = \
-	mood_indexing.index(
-		mood_annotation.annotate(
-			tsv_parsing.rows('english/mood-templates.tsv'), 1, 1))
-english_predicate_templates = \
-	predicate_indexing.index(
-		predicate_annotation.annotate(
-			tsv_parsing.rows('english/predicate-templates.tsv'), 1, 4))
-
-emoji_mood_templates = \
-	mood_indexing.index(
-		mood_annotation.annotate(
-			tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1))
-
-greek_conjugation = conjugation_indexing.index([
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('ancient-greek/finite-conjugations.tsv'), 3, 4),
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('ancient-greek/nonfinite-conjugations.tsv'), 3, 2)
-])
+declension_indexing  = NestedTableIndexing(declension_template_lookups)
+predicate_indexing = FlatTableIndexing(DictLookup('predicate', DictTupleHashing(['lookup','voice','tense','aspect'])))
+mood_indexing = FlatTableIndexing(DictLookup('mood', DictTupleHashing(['mood','column'])))
 
 class English:
-	def __init__(self, pronoun_declensions, conjugations, mood_templates, predicate_templates):
-		self.pronoun_declensions = pronoun_declensions
-		self.conjugations = conjugations
-		self.mood_templates = mood_templates
+	def __init__(self, 
+			pronoun_declension_lookups, 
+			conjugation_lookups, 
+			predicate_templates, 
+			mood_templates):
+		self.pronoun_declension_lookups = pronoun_declension_lookups
+		self.conjugation_lookups = conjugation_lookups
 		self.predicate_templates = predicate_templates
-	def conjugate(self, grammemes, arguments):
+		self.mood_templates = mood_templates
+	def conjugate(self, grammemes, argument_lookup):
 		dependant_clause = {
 			**grammemes,
 			'language': 'english',
@@ -453,26 +468,29 @@ class English:
 		lemmas = ['be', 'have', 
 		          'command', 'forbid', 'permit', 'wish', 'intend', 'be able', 
 		          dependant_clause['lemma']]
-		argument = arguments[{**dependant_clause}]
+		if dependant_clause not in argument_lookup:
+			return None
+		argument = argument_lookup[dependant_clause]
 		mood_replacements = [
-			('{subject}',            self.pronoun_declensions[{**dependant_clause, 'case':'nominative'}]),
-			('{subject|accusative}', self.pronoun_declensions[{**dependant_clause, 'case':'accusative'}]),
-			('{predicate}',             self.predicate_templates[{**dependant_clause,'lookup':'finite'}]),
-			('{predicate|infinitive}',  self.predicate_templates[{**dependant_clause,'lookup':'infinitive'}]),
+			('{subject}',              self.pronoun_declension_lookups['personal'][{**dependant_clause, 'case':'nominative'}]),
+			('{subject|accusative}',   self.pronoun_declension_lookups['personal'][{**dependant_clause, 'case':'accusative'}]),
+			('{predicate}',            self.predicate_templates[{**dependant_clause,'lookup':'finite'}]),
+			('{predicate|infinitive}', self.predicate_templates[{**dependant_clause,'lookup':'infinitive'}]),
 		]
 		sentence = self.mood_templates[{**dependant_clause,'column':'template'}]
 		for replaced, replacement in mood_replacements:
 			sentence = sentence.replace(replaced, replacement)
 		sentence = sentence.replace('{verb', '{'+dependant_clause['lemma'])
 		sentence = sentence.replace('{argument}', argument)
+		table = self.conjugation_lookups['finite']
 		for lemma in lemmas:
 			replacements = [
-				('{'+lemma+'|independant}',         self.conjugations[{**independant_clause, 'lemma':lemma, }]),
-				('{'+lemma+'|independant|speaker}', self.conjugations[{**independant_clause, 'lemma':lemma, 'person':'1', 'plurality':'singular'}]),
-				('{'+lemma+'|present}',             self.conjugations[{**dependant_clause,   'lemma':lemma, 'tense':  'present',  'aspect':'aorist'}]),
-				('{'+lemma+'|past}',                self.conjugations[{**dependant_clause,   'lemma':lemma, 'tense':  'past',     'aspect':'aorist'}]),
-				('{'+lemma+'|perfect}',             self.conjugations[{**dependant_clause,   'lemma':lemma, 'aspect': 'perfect'    }]),
-				('{'+lemma+'|imperfect}',           self.conjugations[{**dependant_clause,   'lemma':lemma, 'aspect': 'imperfect'  }]),
+				('{'+lemma+'|independant}',         table[{**independant_clause, 'lemma':lemma, }]),
+				('{'+lemma+'|independant|speaker}', table[{**independant_clause, 'lemma':lemma, 'person':'1', 'number':'singular'}]),
+				('{'+lemma+'|present}',             table[{**dependant_clause,   'lemma':lemma, 'tense':  'present',  'aspect':'aorist'}]),
+				('{'+lemma+'|past}',                table[{**dependant_clause,   'lemma':lemma, 'tense':  'past',     'aspect':'aorist'}]),
+				('{'+lemma+'|perfect}',             table[{**dependant_clause,   'lemma':lemma, 'aspect': 'perfect'    }]),
+				('{'+lemma+'|imperfect}',           table[{**dependant_clause,   'lemma':lemma, 'aspect': 'imperfect'  }]),
 				('{'+lemma+'|infinitive}',          lemma),
 			]
 			for replaced, replacement in replacements:
@@ -481,135 +499,60 @@ class English:
 			sentence = f'[middle voice:] {sentence}'
 		return sentence
 
+english = English(
+	declension_indexing.index(
+		pronoun_annotation.annotate(tsv_parsing.rows('english/pronoun-declensions.tsv'), 1, 3)),
+	conjugation_indexing.index(
+		conjugation_annotation.annotate(
+			tsv_parsing.rows('english/conjugations.tsv'), 3, 2)),
+	predicate_indexing.index(
+		predicate_annotation.annotate(
+			tsv_parsing.rows('english/predicate-templates.tsv'), 1, 4)),
+	mood_indexing.index(
+		mood_annotation.annotate(
+			tsv_parsing.rows('english/mood-templates.tsv'), 1, 1)),
+)
+
 class Translation:
-	def __init__(self, pronoun_declensions, conjugations):
-		self.pronoun_declensions = pronoun_declensions
-		self.conjugations = conjugations
-	def conjugate(self, grammemes, arguments):
-		if grammemes not in self.conjugations:
+	def __init__(self, 
+			pronoun_declension_lookups, 
+			conjugation_lookups, 
+			subject_map=lambda x:x, 
+			verb_map=lambda x:x):
+		self.pronoun_declension_lookups = pronoun_declension_lookups
+		self.conjugation_lookups = conjugation_lookups
+		self.subject_map = subject_map
+		self.verb_map = verb_map
+	def conjugate(self, grammemes, argument_lookup):
+		grammemes = {**grammemes, 'language':'translated'}
+		if grammemes not in self.conjugation_lookups['finite']:
+			return None
+		elif grammemes not in argument_lookup:
 			return None
 		else:
 			return ' '.join([
-					# self.pronoun_declensions[{**grammemes, 'case':'nominative'}],
-					self.conjugations[grammemes],
-					arguments[grammemes],
+					self.subject_map(self.pronoun_declension_lookups['personal'][{**grammemes, 'case':'nominative'}]),
+					self.verb_map(self.conjugation_lookups['finite'][grammemes]),
+					argument_lookup[grammemes],
 				])
 
-english = English(
-	english_declension, english_conjugation['finite'], 
-	english_mood_templates, english_predicate_templates)
-
-translation = Translation(None, greek_conjugation['finite'])
-
-finite_defaults = {
-	'language': 'english',
-	'gender': 'masculine',
-}
-
-grammemes = {
-	'lemma': 'release', 
-	'person': '3', 
-	'plurality': 'singular', 
-	'modifier': 'unmodified', 
-	'voice': 'active', 
-	'tense': 'present', 
-	'aspect': 'aorist',
-	'mood': 'indicative', 
-	'gender': 'masculine', 
-	'language':'english',
-}
-
-finite_traversal = DictTupleHashing(
-	['person','plurality','modifier','tense', 'aspect', 'mood', 'voice'])
-infinitive_traversal = DictTupleHashing(
-	['person','plurality','modifier','tense', 'aspect', 'mood', 'voice'])
-
-lemmas = ['release']
-for lemma in lemmas:
-	for tuplekey in finite_traversal.tuplekeys(category_to_grammemes):
-		dictkey = {
-				**finite_defaults,
-				**finite_traversal.dictkey(tuplekey), 
-				'lemma': lemma
-			}
-		# print(dictkey)
-		translated_text = translation.conjugate({**dictkey, 'language':'translated'}, greek_conjugation['argument'])
-		english_text    = english.conjugate({**dictkey, 'language':'english'}, greek_conjugation['argument'])
-		if translated_text:
-			print(english_text)
-			print(translated_text)
-
-for k,v in list(english_conjugation['finite'].items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
-for k,v in list(english_predicate_templates.items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
-for k,v in list(english_declension.items({**category_to_grammemes}))[:100]: print(k,v)
-
-def format(lookups, lemmas, category_to_grammemes):
-	category_to_grammemes = {**category_to_grammemes, 'lemma':lemmas}
-	for grammemes, conjugation in lookups['finite'].items(category_to_grammemes):
-		print((grammemes, conjugation))
-
-for k,v in list(lookups['finite'].items({'lemma':'release',**category_to_grammemes}))[:100]: print(k,v)
-
-def update(default, annotations):
-	for content, annotation in annotations:
-
-
-lookups = conjugation_indexing.index([
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('french/finite-conjugations.tsv'), 4, 3),
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('french/nonfinite-conjugations.tsv'), 3, 1),
-])
-
-lookups = conjugation_indexing.index([
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('german/finite-conjugations.tsv'), 2, 3),
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('german/nonfinite-conjugations.tsv'), 4, 1),
-])
-
-lookups = conjugation_indexing.index([
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('latin/finite-conjugations.tsv'), 3, 4),
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('latin/nonfinite-conjugations.tsv'), 6, 2),
-])
-
-lookups = conjugation_indexing.index(
-	inflection_annotation.annotate(
-		tsv_parsing.rows('old-english/conjugations.tsv'), 5, 1))
-
-lookups = conjugation_indexing.index([
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('proto-indo-european/finite-conjugations.tsv'), 2, 4),
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
-])
-
-lookups = conjugation_indexing.index([
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('russian/finite-conjugations.tsv'), 2, 4),
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('russian/nonfinite-conjugations.tsv'), 2, 2),
-])
-
-lookups = conjugation_indexing.index([
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('sanskrit/conjugations.tsv'), 2, 4),
-])
-
-lookups = conjugation_indexing.index([
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('spanish/finite-conjugations.tsv'), 2, 4),
-	*inflection_annotation.annotate(
-		tsv_parsing.rows('spanish/nonfinite-conjugations.tsv'), 3, 1),
-])
-
-lookups = conjugation_indexing.index(
-	inflection_annotation.annotate(
-		tsv_parsing.rows('swedish/conjugations.tsv'), 4, 2),
-)
-
+class CardGeneration:
+	def __init__(self, category_to_grammemes, finite_traversal):
+		self.category_to_grammemes = category_to_grammemes
+		self.finite_traversal = finite_traversal
+	def generate(self, translation, lemmas):
+		for lemma in lemmas:
+			for tuplekey in self.finite_traversal.tuplekeys(self.category_to_grammemes):
+				dictkey = {
+						**self.finite_traversal.dictkey(tuplekey), 
+						'lemma':   lemma,
+						'proform': 'personal'
+					}
+				argument_lookup = translation.conjugation_lookups['argument']
+				translated_text = translation.conjugate(dictkey, argument_lookup)
+				english_text    = english.conjugate(dictkey, argument_lookup)
+				if translated_text and english_text:
+					yield dictkey, english_text, translated_text
 
 def emoji(cell):
 	fonts = "'sans-serif', 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji'"
@@ -624,14 +567,161 @@ def foreign_side_note(cell):
 def english_word(cell):
 	return f'<div>{cell}</div>'
 
+def first_of_options(cell):
+	return cell.split('/')[0]
+
 def cloze(id):
 	return lambda cell: '{{'+f'c{id}::{cell}'+'}}'
 
+def replace(replacements):
+	def _replace(cell):
+		for replaced, replacement in replacements:
+			cell = cell.replace(replaced, replacement)
+		return cell
+	return _replace
+
 def require(cell):
 	return cell if cell.strip() else None
+
+def compose(*cell_functions):
+	if len(cell_functions) > 1:
+		return lambda cell: cell_functions[0](compose(cell_functions[1:]))
+	else:
+		return cell_functions[0]
+
+greek_conjugation = conjugation_indexing.index([
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('ancient-greek/finite-conjugations.tsv'), 3, 4),
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('ancient-greek/nonfinite-conjugations.tsv'), 3, 2)
+])
+
+
+greek_pronoun_declension = declension_indexing.index(
+	pronoun_annotation.annotate(
+		tsv_parsing.rows('ancient-greek/pronoun-declensions.tsv'), 1, 4))
+
+
+translation = Translation(
+	greek_pronoun_declension, 
+	greek_conjugation, 
+	subject_map=first_of_options, 
+	verb_map=cloze(1))
+
+translation.conjugate({**grammemes, 'proform':'personal'}, translation.conjugation_lookups['argument'])
+
+infinitive_traversal = DictTupleHashing(
+	['tense', 'aspect', 'mood', 'voice'])
+
+def irrelevant_gender_and_formality_filter(grammemes):
+	number = grammemes['number']
+	person = grammemes['person']
+	gender = grammemes['gender']
+	formality = grammemes['formality']
+	if formality != 'familiar':
+		return False
+	elif person == '3' and number == 'singular' and gender != 'masculine':
+		return False
+	elif gender != 'neuter':
+		return False
+	else:
+		return True
+
+card_generation = CardGeneration(category_to_grammemes, 
+	DictTupleHashing(['person','number','gender','formality','tense', 'aspect', 'mood', 'voice']))
+for grammemes, english_text, translated_text in card_generation.generate(translation, ['be','go','release']):
+	if irrelevant_gender_and_formality_filter(grammemes):
+		print(grammemes)
+		print(english_text)
+		print(translated_text)
+
+
+for k,v in list(english_conjugation['finite'].items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
+for k,v in list(english_predicate_templates.items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
+for k,v in list(english_declension.items({**category_to_grammemes}))[:100]: print(k,v)
+for k,v in list(lookups['finite'].items({'lemma':'release',**category_to_grammemes}))[:100]: print(k,v)
+
+
+
+lookups = conjugation_indexing.index([
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('french/finite-conjugations.tsv'), 4, 3),
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('french/nonfinite-conjugations.tsv'), 3, 1),
+])
+
+lookups = conjugation_indexing.index([
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('german/finite-conjugations.tsv'), 2, 3),
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('german/nonfinite-conjugations.tsv'), 4, 1),
+])
+
+lookups = conjugation_indexing.index([
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('latin/finite-conjugations.tsv'), 3, 4),
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('latin/nonfinite-conjugations.tsv'), 6, 2),
+])
+
+lookups = conjugation_indexing.index(
+	conjugation_annotation.annotate(
+		tsv_parsing.rows('old-english/conjugations.tsv'), 5, 1))
+
+lookups = conjugation_indexing.index([
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('proto-indo-european/finite-conjugations.tsv'), 2, 4),
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
+])
+
+lookups = conjugation_indexing.index([
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('russian/finite-conjugations.tsv'), 2, 4),
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('russian/nonfinite-conjugations.tsv'), 2, 2),
+])
+
+lookups = conjugation_indexing.index([
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('sanskrit/conjugations.tsv'), 2, 4),
+])
+
+lookups = conjugation_indexing.index([
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('spanish/finite-conjugations.tsv'), 2, 4),
+	*conjugation_annotation.annotate(
+		tsv_parsing.rows('spanish/nonfinite-conjugations.tsv'), 3, 1),
+])
+
+lookups = conjugation_indexing.index(
+	conjugation_annotation.annotate(
+		tsv_parsing.rows('swedish/conjugations.tsv'), 4, 2),
+)
+
 
 def write(filename, columns):
 	with open(filename, 'w') as file:
 		for row in zip(*columns):
 			if all(cell is not None for cell in row):
 				file.write(''.join(row)+'\n')
+
+grammemes = {
+	'lemma': 'release', 
+	'person': '3', 
+	'number': 'singular', 
+	'formality': 'familiar', 
+	'voice': 'active', 
+	'tense': 'present', 
+	'aspect': 'aorist',
+	'mood': 'indicative', 
+	'gender': 'masculine', 
+	'language':'english',
+}
+
+
+emoji_mood_templates = \
+	mood_indexing.index(
+		mood_annotation.annotate(
+			tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1))
+
