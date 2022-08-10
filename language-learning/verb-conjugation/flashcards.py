@@ -544,8 +544,7 @@ class DictLookup:
                 raise IndexError('\n'.join([
                                     'Key is ambiguous.',
                                     *(['Lookup:', '\t'+str(self.name)] if self.name else []),
-                                    'Key:',
-                                      '\t'+str(key),
+                                    'Key:', '\t'+str(key),
                                     'Available interpretations:',
                                     *['\t'+str(self.hashing.dictkey(tuplekey)) 
                                       for tuplekey in tuplekeys]
@@ -558,8 +557,16 @@ class DictLookup:
             return self.content[key]
         else:
             for tuplekey in self.hashing.tuplekeys(key):
-            	    # if tuplekey not in self.content:
-                	self.content[tuplekey] = value
+                if tuplekey in self.content and value != self.content[tuplekey]:
+                    raise IndexError('\n'.join([
+                                    'Key already exists within the dictionary.',
+                                    *(['Lookup:', '\t'+str(self.name)] if self.name else []),
+                                    'Key:', '\t'+str(self.hashing.dictkey(tuplekey)),
+                                    'Old Value:', '\t'+str(self.content[tuplekey]),
+                                    'New Value:', '\t'+str(value),
+                                ]))
+                else:
+                    self.content[tuplekey] = value
     def __contains__(self, key):
         if isinstance(key, tuple):
             return key in self.content
@@ -618,7 +625,7 @@ category_to_grammemes = {
     'distance':   ['proximal','medial','distal'],
 
     # needed for Spanish
-    'formality':  ['familiar', 'polite', 'elevated', 'formal', 'voseo'],
+    'formality':  ['familiar', 'polite', 'elevated', 'formal', 'tuteo', 'voseo'],
 
     # needed for Sanskrit
     'stem':       ['primary', 'causative', 'intensive',],
@@ -742,6 +749,7 @@ declension_template_lookups = DictLookup(
             DictTupleHashing([
                     'person',           
                     'number',           
+                    'clusivity',   # needed for Quechua
                     'formality',   # needed for Spanish ('voseo')
                     'gender',           
                     'case',           
@@ -791,6 +799,7 @@ class English:
                   'command', 'forbid', 'permit', 'wish', 'intend', 'be able', 
                   dependant_clause['lemma']]
         if dependant_clause not in argument_lookup:
+            # print('ignored english argument:', dependant_clause)
             return None
         argument = argument_lookup[dependant_clause]
         mood_replacements = [
@@ -839,6 +848,7 @@ class Emoji:
         self.person_colors = person_colors
     def conjugate(self, grammemes, argument_lookup):
         if grammemes not in argument_lookup:
+            # print('ignored emoji:', grammemes)
             return None
         audience     = '\\n2{🧑\\g2\\c2}'
         speaker      = self.mood_templates[{**grammemes,'column':'speaker'}]
@@ -879,21 +889,26 @@ class Translation:
     def __init__(self, 
             pronoun_declension_lookups, 
             conjugation_lookups, 
-            lemmas,
+            category_to_grammemes,
+            filter_lookup,
             subject_map=lambda x:x, 
             verb_map=lambda x:x):
         self.pronoun_declension_lookups = pronoun_declension_lookups
         self.conjugation_lookups = conjugation_lookups
-        self.lemmas = lemmas
+        self.category_to_grammemes = category_to_grammemes
+        self.filter_lookup = filter_lookup
         self.subject_map = subject_map
         self.verb_map = verb_map
     def conjugate(self, grammemes, argument_lookup):
         grammemes = {**grammemes, 'language':'translated', 'case':'nominative'}
         if grammemes not in self.pronoun_declension_lookups['personal']:
-        	return None
-        if grammemes not in self.conjugation_lookups['finite']:
+            print('ignored pronoun:', grammemes)
             return None
-        elif grammemes not in argument_lookup:
+        if grammemes not in self.conjugation_lookups['finite']:
+            # print('ignored finite:', grammemes)
+            return None
+        if grammemes not in argument_lookup:
+            # print('ignored argument:', grammemes)
             return None
         else:
             return ' '.join([
@@ -922,8 +937,8 @@ predicate_indexing = FlatTableIndexing(DictLookup('predicate', DictTupleHashing(
 mood_indexing = FlatTableIndexing(DictLookup('mood', DictTupleHashing(['mood','column'])))
 
 class CardFormatting:
-	def __init__(self):
-		pass
+    def __init__(self):
+        pass
 
 def emoji_focus(content):
     fonts = '''sans-serif', 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji'''
@@ -962,78 +977,27 @@ def compose(*text_functions):
 
 
 class CardGeneration:
-    def __init__(self, english, emoji, category_to_grammemes, finite_traversal):
+    def __init__(self, english, emoji, finite_traversal):
         self.english = english
         self.emoji = emoji
-        self.category_to_grammemes = category_to_grammemes
         self.finite_traversal = finite_traversal
     def generate(self, translation):
-        for lemma in translation.lemmas:
-            for tuplekey in self.finite_traversal.tuplekeys(self.category_to_grammemes):
+        for lemma in translation.category_to_grammemes['lemma']:
+            for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
                 dictkey = {
                         **self.finite_traversal.dictkey(tuplekey), 
                         'lemma':   lemma,
                         'proform': 'personal'
                     }
-                translated_text = translation.conjugate(dictkey, translation.conjugation_lookups['argument'])
-                english_text    = self.english.conjugate(dictkey, translation.conjugation_lookups['argument'])
-                emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'])
-                if translated_text and english_text:
-                    yield dictkey, emoji_focus(emoji_text), english_word(english_text), foreign_focus(translated_text)
+                if dictkey in translation.filter_lookup:
+	                translated_text = translation.conjugate(dictkey, translation.conjugation_lookups['argument'])
+	                english_text    = self.english.conjugate(dictkey, translation.conjugation_lookups['argument'])
+	                emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'])
+	                if translated_text and english_text:
+	                    yield dictkey, emoji_focus(emoji_text), english_word(english_text), foreign_focus(translated_text)
 
 infinitive_traversal = DictTupleHashing(
     ['tense', 'aspect', 'mood', 'voice'])
-
-def irrelevant_gender_and_formality_filter(grammemes):
-    number = grammemes['number']
-    person = grammemes['person']
-    gender = grammemes['gender']
-    clusivity = grammemes['clusivity']
-    formality = grammemes['formality']
-    if clusivity != 'exclusive':
-        return False
-    if formality != 'familiar':
-        return False
-    elif person == '3' and number == 'singular' and gender != 'masculine':
-        return False
-    elif gender != 'neuter':
-        return False
-    else:
-        return True
-
-def irrelevant_gender_and_formality_filter(grammemes):
-    number = grammemes['number']
-    person = grammemes['person']
-    gender = grammemes['gender']
-    clusivity = grammemes['clusivity']
-    formality = grammemes['formality']
-    if clusivity != 'exclusive':
-        return False
-    if formality != 'familiar':
-        return False
-    elif person == '3' and number == 'singular' and gender != 'masculine':
-        return False
-    elif gender != 'neuter':
-        return False
-    else:
-        return True
-
-def irrelevant_formality_filter(grammemes):
-    return grammemes['formality'] == 'familiar'
-
-def irrelevant_clusivity_filter(grammemes):
-    return grammemes['clusivity'] == 'exclusive'
-
-def irrelevant_gender_filter(grammemes):
-    number = grammemes['number']
-    person = grammemes['person']
-    gender = grammemes['gender']
-    if person == '3' and number == 'singular' and gender != 'masculine':
-        return False
-    elif gender != 'neuter':
-        return False
-    else:
-        return True
 
 bracket_shorthand = BracketedShorthand(Enclosures())
 
@@ -1053,12 +1017,13 @@ emoji = Emoji(
             tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1)),
     ['s']*5, 
     ['n']*5, 
-    [3,2,4,1,5])
+    [3,2,1,1,5])
     # [3,1,5,2,4])
+
 
 english = English(
     declension_indexing.index(
-        pronoun_annotation.annotate(tsv_parsing.rows('english/pronoun-declensions.tsv'), 1, 3)),
+        pronoun_annotation.annotate(tsv_parsing.rows('english/pronoun-declensions.tsv'), 1, 5)),
     conjugation_indexing.index(
         conjugation_annotation.annotate(
             tsv_parsing.rows('english/conjugations.tsv'), 4, 2)),
@@ -1094,26 +1059,47 @@ translation = Translation(
         *conjugation_annotation.annotate(
             tsv_parsing.rows('spanish/finite-conjugations.tsv'), 3, 4),
         *conjugation_annotation.annotate(
-            tsv_parsing.rows('spanish/nonfinite-conjugations.tsv'), 3, 1)
+            tsv_parsing.rows('spanish/nonfinite-conjugations.tsv'), 3, 2)
     ]), 
     subject_map=first_of_options, 
     verb_map=cloze(1),
-    lemmas = [
-    	'be [inherently]', 'be [temporarily]', 
-    	'have', 'have [in my posession]', 
-    	'go', 'love', 'fear', 'part', 'know', 'drive',])
+    category_to_grammemes = {
+	        **category_to_grammemes,
+	        'number':    ['singular','plural'],
+	        'clusivity':  'exclusive',
+	        'formality': ['familiar','tuteo','voseo','formal'],
+	        'gender':    ['neuter', 'masculine'],
+	        'voice':      'active',
+	        'mood':      ['indicative','conditional','subjunctive'],
+	        'lemma':     ['be [inherently]', 'be [temporarily]', 
+					      'have', 'have [in my posession]', 
+					      'go', 'love', 'fear', 'part', 'know', 'drive'],
+	    },
+    filter_lookup = DictLookup(
+		'filter', 
+		DictTupleHashing(['formality', 'person', 'number', 'gender']),
+		content = {
+			('familiar', '1', 'singular', 'neuter'),
+			('tuteo',    '2', 'singular', 'neuter'),
+			('familiar', '3', 'singular', 'masculine'),
+			('familiar', '1', 'plural',   'masculine'),
+			('familiar', '2', 'plural',   'masculine'),
+			('familiar', '3', 'plural',   'masculine'),
+			('voseo',    '2', 'singular', 'neuter'),
+			('formal',   '2', 'singular', 'masculine'),
+			('formal',   '2', 'plural',   'masculine'),
+		}),
+)
 
+	
 
-card_generation = CardGeneration(english, emoji, category_to_grammemes, 
-    DictTupleHashing(['person','number','gender','clusivity','formality','tense', 'aspect', 'mood', 'voice']))
+card_generation = CardGeneration(english, emoji, 
+    DictTupleHashing(['formality','clusivity','person','number','gender','tense', 'aspect', 'mood', 'voice']))
 for grammemes, emoji_text, english_text, translated_text in card_generation.generate(translation):
-    if all([irrelevant_gender_filter(grammemes), 
-    	    irrelevant_clusivity_filter(grammemes), 
-    	    irrelevant_formality_filter(grammemes)]):
-        print(grammemes)
-        print(emoji_text)
-        print(english_text)
-        print(translated_text)
+    print(grammemes)
+    print(emoji_text)
+    print(english_text.replace('♂',''))
+    print(translated_text)
 
 # print(emoji.conjugate(grammemes, translation.conjugation_lookups['emoji']))
 # print(emoji.conjugate({**grammemes, 'mood':'imperative', 'aspect':'imperfect', 'person':'2', 'number':'dual'}, translation.conjugation_lookups['emoji']))

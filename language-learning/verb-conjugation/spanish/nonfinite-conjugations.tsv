@@ -1,13 +1,13 @@
-english	translated	translated	translated	english	translated	emoji	
-infinitive	infinitive	participle	participle	argument	argument		
-		imperfect	perfect				group
-be [inherently]	ser	siendo	sido	a student	estudiante	\nx{🧑\gx\cx\🎓}	irregular
-be [temporarily]	estar	estando	estado	well	bien	\nx{🧘\cx\gx}	irregular
-have	haber	habiendo	habido	eaten	comido	\nx{🧑\cx\gx}<sub>🌮</sub> 	irregular
-have [in my posession]	tener	teniendo	tenido	the money	el dinero	\nx{💁\cx\gx}<sup>💰</sup> 	irregular
-go	ir	yendo	ido	to the house	a la casa	"<big>🏠</big><span style=""font-size:60%"">←\nx{🚶\cx\gx}</span>"	irregular
-love	amar	amando	amado	the dog	el perro	🐕<big>\nx{🧎\cx\gx}</big><sup>❤️</sup>	regular -ar
-fear	temer	temiendo	temido	the dark	el oscuro	🕳️\nx{🙎\cx\gx}	regular -er
-part	partir	partiendo	partido	the waters	las aguas	\nx{💁\cx\gx}<big>\mirror{🌊}🌊</big> 	regular -ir
-know	conocer	conociendo	conocido	of the man	el hombre	\nx{🙋\cx\gx}<sup>💬</sup>🙍\c4\m	irregular
-drive	conducir	conduciendo	conducido	the car	el coche	🚘←\nx{🚶\cx\gx}	irregular
+english	voice	translated	translated	translated	english	english	translated	translated	emoji	
+infinitive		infinitive	participle	participle	argument	argument	argument	argument		
+			imperfect	perfect	singular	plural	singular	plural		group
+be [inherently]	active	ser	siendo	sido	a student	students	estudiante	estudiantes	\nx{🧑\gx\cx\🎓}	irregular
+be [temporarily]	active	estar	estando	estado	well	well	bien	bien	\nx{🧘\cx\gx}	irregular
+have	active	haber	habiendo	habido	eaten	eaten	comido	comido	\nx{🧑\gx\cx}<sub>🌮</sub> 	irregular
+have [in my posession]	active	tener	teniendo	tenido	the money	the money	el dinero	el dinero	\nx{💁\cx\gx}<sup>💰</sup> 	irregular
+go	active	ir	yendo	ido	to the house	to the house	a la casa	a la casa	<big>🏠</big><span style='font-size:60%'>←\nx{🚶\cx\gx}</span>	irregular
+love	active	amar	amando	amado	the dog	the dog	el perro	el perro	<span style='font-size:60%'>🐕</span><big>\nx{🧎\cx\gx}</big><sup>❤️</sup>	regular -ar
+fear	active	temer	temiendo	temido	the dark	the dark	el oscuro	el oscuro	🕳️\nx{🙎\cx\gx}	regular -er
+part	active	partir	partiendo	partido	the waters	the waters	las aguas	las aguas	\nx{💁\cx\gx}<big>\mirror{🌊}🌊</big> 	regular -ir
+know	active	conocer	conociendo	conocido	of the man	of the man	el hombre	el hombre	\nx{🙋\cx\gx}<sup>💬</sup>🙋\c4\m	irregular
+drive	active	conducir	conduciendo	conducido	the car	the car	el coche	el coche	🚘←\nx{🚶\cx\gx}	irregular
