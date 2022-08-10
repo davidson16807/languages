@@ -1,4 +1,4 @@
-voice	tense	aspect	lookup	template	
+voice	aspect	tense	lookup	template	
 active	aorist	present		{verb|present} {argument} 	
 active	aorist	past		{verb|past} {argument} 	
 active	aorist	future		will {verb|infinitive} {argument} 	

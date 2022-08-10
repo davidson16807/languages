@@ -76,7 +76,7 @@ class HtmlBubble:
     def negative(scene): 
         return f'''<div><span style="border-radius: 0.5em; padding: 0.3em; background: linear-gradient(to left top, #ddd 47%, red 48%, red 52%, #ddd 53%); border-style: solid; border-color:red; border-width:6px;">{scene}</span></div>'''
 
-class HtmlBubbleType:
+class HtmlBubbleStem:
     def __init__(self):
         pass
     def speech(content, audience, speaker): 
@@ -135,7 +135,6 @@ class EmojiEntityShorthand:
     Introduces LaTEX style escape sequences that are
     shorthands for characteristics of entities
     that are depicted one or more times within a scene using emoji. 
-
     For instance, the first entity may 
     be a group of two people ('d' for 'dual')
     who are both male ('m' for 'male')
@@ -161,7 +160,6 @@ class EmojiEntityShorthand:
         emoji = code
         for (i, pluralty) in enumerate(self.pluralities):
             emoji = emoji.replace(f'\\p{i+1}', f'\\{pluralty}')
-
         '''
         Plurality potentially adds entities to the group
         (e.g. "1st person plural inclusive" includes the 2nd person)
@@ -180,7 +178,6 @@ class EmojiGestureShorthand:
     Introduces LaTEX style escape sequences that represent
     standardized patterns of styled html elements 
     that surround emoji characters and represent gestures.
-
     Current supported gestures include:
         \raised{}
         \lowered{}
@@ -203,7 +200,6 @@ class TextTransformShorthand:
     Introduces LaTEX style escape sequences that represent
     standardized patterns of styled html elements 
     that surround text and represent common transformations.
-
     Current supported transforms include:
         \mirror{}
         \flip{}
@@ -217,14 +213,11 @@ class TextTransformShorthand:
         emoji = self.bracketedShorthand.decode(r'\\flip', emoji, self.htmlTextTransform.flip)
         return emoji
 
-
-
 class EmojiPluralityShorthand:
     '''
     Introduces LaTEX style escape sequences that represent
     standardized patterns of styled html elements 
     that surround emoji characters and represent the size of groups.
-
     As an example, plurality is indicated in the shorthand 
     by a 's', 'd', or 'p' (singular, dual, or plural).
     This causes an emoji to be depicted overlapping 
@@ -236,7 +229,6 @@ class EmojiPluralityShorthand:
         self.bracketedShorthand = bracketedShorthand
     def decode(self, code):
         emoji = code
-
         def get_transform(inner_transform, gestureless_count, inclusive=False):
             def _transform(content):
                 gestureless = self.bracketedShorthand.decode(
@@ -246,7 +238,6 @@ class EmojiPluralityShorthand:
                         person2 if inclusive else content, 
                         *([gestureless]*gestureless_count))
             return _transform
-
         '''
         "inclusive" plural and "inclusive" dual include the audience,
         so substitute markers for skin color and gender with 
@@ -316,28 +307,12 @@ class AggregateShorthand:
             emoji = shorthand.decode(emoji)
         return emoji
 
-depiction = lambda content: f'''<div style="font-size:3em; padding: 0.5em;">{content}</div>'''
-
-modifiers = EmojiModifierShorthand()
-for emoji in ['👨🏿‍🌾', '🏋🏿‍♂️️', '🏋🏿‍♀️', '👨‍🎓', '👮🏽‍♀️', '🕺', '💃', '🤴', '👸']:
-    assert modifiers.decode(modifiers.encode(emoji))==emoji
-for code in ['🧑\\m\\4\\🌾', '🧍\\4\\♂️', '🤼\\4\\♂️', '🕺\\m', '🤴\\m', '🕺\\f', '🤴\\f']:
-    assert modifiers.encode(modifiers.decode(code))==code
-
-
 bracket_shorthand = BracketedShorthand(Enclosures())
 
 plurality_shorhand = \
     EmojiPluralityShorthand(
         HtmlPluralityTransform(HtmlPersonPositioning()),
         bracket_shorthand)
-for emoji in ['🧑\\g1\\c1\\🌾']:
-    for plurality in ['s','d','p','di','pi']:
-        print(depiction(plurality_shorhand.decode('\\'+plurality+'{'+emoji+'}')))
-
-entities = EmojiEntityShorthand(plurality_shorhand, ['pi','p'], ['f','m'], ['2','3'])
-print(depiction(
-    entities.decode('\\p1{\\🧑\\g1\\c1\\🌾}')))
 
 emoji_shorthand = AggregateShorthand( 
     EmojiEntityShorthand(plurality_shorhand, ['pi','p'], ['f','m'], ['2','3']),
@@ -345,6 +320,24 @@ emoji_shorthand = AggregateShorthand(
     EmojiGestureShorthand(HtmlGesturePositioning(), bracket_shorthand),
     EmojiModifierShorthand()
 )
+
+depiction = lambda content: f'''<div style="font-size:3em; padding: 0.5em;">{content}</div>'''
+
+
+
+modifiers = EmojiModifierShorthand()
+for emoji in ['👨🏿‍🌾', '🏋🏿‍♂️️', '🏋🏿‍♀️', '👨‍🎓', '👮🏽‍♀️', '🕺', '💃', '🤴', '👸']:
+    assert modifiers.decode(modifiers.encode(emoji))==emoji
+for code in ['🧑\\m\\4\\🌾', '🧍\\4\\♂️', '🤼\\4\\♂️', '🕺\\m', '🤴\\m', '🕺\\f', '🤴\\f']:
+    assert modifiers.encode(modifiers.decode(code))==code
+
+for emoji in ['🧑\\g1\\c1\\🌾']:
+    for plurality in ['s','d','p','di','pi']:
+        print(depiction(plurality_shorhand.decode('\\'+plurality+'{'+emoji+'}')))
+
+entities = EmojiEntityShorthand(plurality_shorhand, ['pi','p'], ['f','m'], ['2','3'])
+print(depiction(
+    entities.decode('\\p1{\\🧑\\g1\\c1\\🌾}')))
 
 print(depiction(
     emoji_shorthand.decode('\\p1{\\chestlevel{\\mirror{👍\\c1}}🧑\\g1\\c1\\🌾}')))

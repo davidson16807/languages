@@ -1,78 +1,79 @@
-       	#	        		indicative 	indicative	indicative   	indicative	indicative	subjunctive 	subjunctive 	subjunctive 	subjunctive 	imperative	imperative	         
-verb	#person	plurality	modifier	present    	imperfect	preterite	future	conditional	present	preterite	imperfect   	future    	affirmative	negative	group
-love	1	singular		amo	amaba	amé	amaré	amaría 	ame	amara	amase	amare 			regular -ar
-love	2	singular		amas	amabas	amaste	amarás	amarías 	ames	amaras	amases	amares 	ama	ames	regular -ar
-love	2	singular	voseo	amás	amabas	amaste	amarás	amarías 	amés	amaras	amases	amares 	amá	ames	regular -ar
-love	3	singular		ama	amaba	amó	amará	amaría 	ame	amara	amase	amare 	ame	ame	regular -ar
-love	1	plural  		amamos 	amábamos 	amamos 	amaremos 	amaríamos 	amemos 	amáramos 	amásemos 	amáremos 	amemos 	amemos 	regular -ar
-love	2	plural  		amáis 	amabais 	amasteis 	amaréis 	amaríais 	améis 	amarais 	amaseis 	amareis 	amad 	améis 	regular -ar
-love	3	"plural  	"		aman	amaban	amaron	amarán	amarían 	amen	amaran	amasen	amaren 	amen	amen 	regular -ar
-fear	1	singular		temo	temía	temí	temeré	temería 	tema	temiera 	temiese 	temiere 			regular -er
-fear	2	singular		temes	temías	temiste	temerás	temerías 	temas	temieras	temieses	temieres 	teme	temas	regular -er
-fear	2	singular	voseo	temés	temías	temiste	temerás	temerías 	temás	temieras	temieses	temieres 	temé	temas	regular -er
-fear	3	singular		teme 	temía 	temió 	temerá 	temería 	tema 	temiera 	temiese 	temiere 	tema 	no tema 	regular -er
-fear	1	plural  		tememos 	temíamos 	temimos 	temeremos 	temeríamos 	temamos 	temiéramos 	temiésemos 	temiéremos 	temamos 	no temamos 	regular -er
-fear	2	plural  		teméis 	temíais 	temisteis 	temeréis 	temeríais 	temáis 	temierais 	temieseis 	temiereis 	temed 	no temáis 	regular -er
-fear	3	plural  		temen	temían	temieron	temerán	temerían 	teman	temieran	temiesen	temieren 	teman	no teman 	regular -er
-part	1	singular		parto	partía	partí	partiré	partiría 	parta	partiera 	partiese 	partiere 			regular -ir
-part	2	singular		partes	partías	partiste	partirás	partirías 	partas	partieras 	partieses 	partieres 	parte	no partas 	regular -ir
-part	2	singular	voseo	partís	partías	partiste	partirás	partirías 	partás	partiera	partiese	partiere 	partí	no partas 	regular -ir
-part	3	singular		parte 	partía 	partió 	partirá 	partiría 	parta 	partiera 	partiese 	partiere 	parta 	no parta 	regular -ir
-part	1	plural  		partimos 	partíamos 	partimos 	partiremos 	partiríamos 	partamos 	partiéramos 	partiésemos 	partiéremos 	partamos 	no partamos 	regular -ir
-part	2	plural  		partís 	partíais 	partisteis 	partiréis 	partiríais 	partáis 	partierais 	partieseis 	partiereis 	partid 	no partáis 	regular -ir
-part	3	plural  		parten	partían	partieron	partirán	partirían 	partan	partieran	partiesen	partieren 	partan	no partan 	regular -ir
-be [inherently]	1	singular		soy	era	fui	seré	sería 	sea	fuera	fuese	fuere 			irregular
-be [inherently]	2	singular		eres	eras	fuiste	serás	serías 	seas	fueras	fueses	fueres 	sé	no seas 	irregular
-be [inherently]	2	singular	voseo	sos	eras	fuiste	serás	serías 	seás	fueras	fueses	fueres 	sé	no seas 	irregular
-be [inherently]	3	singular		es 	era 	fue 	será 	sería 	sea 	fuera 	fuese 	fuere 	sea 	no sea 	irregular
-be [inherently]	1	plural  		somos 	éramos 	fuimos 	seremos 	seríamos 	seamos 	fuéramos 	fuésemos 	fuéremos 	seamos 	no seamos 	irregular
-be [inherently]	2	plural  		sois 	erais 	fuisteis 	seréis 	seríais 	seáis 	fuerais 	fueseis 	fuereis 	sed 	no seáis 	irregular
-be [inherently]	3	plural  		son	eran	fueron	serán	serían 	sean	fueran	fuesen	fueren 	sean	no sean 	irregular
-be [temporarily]	1	singular		estoy 	estaba 	estuve 	estaré 	estaría 	esté 	estuviera 	estuviese 	estuviere 			irregular
-be [temporarily]	2	singular		estás 	estabas 	estuviste 	estarás 	estarías 	estés 	estuvieras 	estuvieses 	estuvieres 	está 	no estés 	irregular
-be [temporarily]	2	singular	voseo	estás 	estabas 	estuviste 	estarás 	estarías 	estés 	estuvieras 	estuvieses 	estuvieres 	está 	no estés 	irregular
-be [temporarily]	3	singular		está 	estaba 	estuvo 	estará 	estaría 	esté 	estuviera 	estuviese 	estuviere 	esté 	no esté 	irregular
-be [temporarily]	1	plural  		estamos 	estábamos 	estuvimos 	estaremos 	estaríamos 	estemos 	estuviéramos 	estuviésemos 	estuviéremos 	estemos 	no estemos 	irregular
-be [temporarily]	2	plural  		estáis 	estabais 	estuvisteis 	estaréis 	estaríais 	estéis 	estuvierais 	estuvieseis 	estuviereis 	estad 	no estéis 	irregular
-be [temporarily]	3	plural  		están	estaban	estuvieron	estarán	estarían 	estén	estuvieran	estuviesen	estuvieren 	estén	no estén 	irregular
-have	1	singular		he 	había 	hube 	habré 	habría 	haya	hubiera	hubiese	hubiere 			irregular
-have	2	singular		has 	habías 	hubiste 	habrás 	habrías 	hayas	hubieras	hubieses	hubieres 	habe/he 	no hayas 	irregular
-have	2	singular	voseo	has 	habías 	hubiste 	habrás 	habrías 	hayás	hubieras	hubieses	hubieres 	habe/he	no hayas 	irregular
-have	3	singular		ha	había 	hubo 	habrá 	habría 	haya 	hubiera 	hubiese 	hubiere 	haya 	no haya 	irregular
-have	1	plural  		hemos 	habíamos 	hubimos 	habremos 	habríamos 	hayamos 	hubiéramos 	hubiésemos 	hubiéremos 	hayamos 	no hayamos 	irregular
-have	2	plural  		habéis 	habíais 	hubisteis 	habréis 	habríais 	hayáis 	hubierais 	hubieseis 	hubiereis 	habed 	no hayáis 	irregular
-have	3	plural  		han	habían	hubieron	habrán	habrían 	hayan	hubieran	hubiesen	hubieren 	hayan	no hayan 	irregular
-have [in my posession]	1	singular		tengo	tenía	tuve	tendré	tendría 	tenga	tuviera	tuviese	tuviere 			irregular
-have [in my posession]	2	singular		tienes	tenías	tuviste	tendrás	tendrías 	tengas	tuvieras	tuvieses	tuvieres 	ten	no tengas 	irregular
-have [in my posession]	2	singular	voseo	tenés	tenías	tuviste	tendrás	tendrías 	tengás	tuvieras	tuvieses	tuvieres 	tené	no tengas 	irregular
-have [in my posession]	3	singular		tiene 	tenía 	tuvo 	tendrá 	tendría 	tenga 	tuviera 	tuviese 	tuviere 	tenga 	no tenga 	irregular
-have [in my posession]	1	plural  		tenemos 	teníamos 	tuvimos 	tendremos 	tendríamos 	tengamos 	tuviéramos 	tuviésemos 	tuviéremos 	tengamos 	no tengamos 	irregular
-have [in my posession]	2	plural  		tenéis 	teníais 	tuvisteis 	tendréis 	tendríais 	tengáis 	tuvierais 	tuvieseis 	tuviereis 	tened 	no tengáis 	irregular
-have [in my posession]	3	plural  		tienen	tenían	tuvieron	tendrán	tendrían 	tengan	tuvieran	tuviesen	tuvieren 	tengan	no tengan 	irregular
-go	1	singular		voy 	iba 	fui 	iré 	iría 	vaya	fuera	fuese	fuere 			irregular
-go	2	singular		vas 	ibas 	fuiste 	irás 	irías 	vayas	fueras	fueses	fueres 	ve	no vayas 	irregular
-go	2	singular	voseo	vas 	ibas 	fuiste 	irás 	irías 	vayás	fueras	fueses	fueres 	andá	no vayas 	irregular
-go	3	singular		va 	iba 	fue 	irá 	iría 	vaya 	fuera 	fuese 	fuere 	vaya 	no vaya 	irregular
-go	1	plural  		vamos 	íbamos 	fuimos 	iremos 	iríamos 	vayamos 	fuéramos 	fuésemos 	fuéremos 	vayamos 	no vayamos 	irregular
-go	2	plural  		vais 	ibais 	fuisteis 	iréis 	iríais 	vayáis 	fuerais 	fueseis 	fuereis 	id 	no vayáis 	irregular
-go	3	"plural  	"		van	iban	fueron	irán	irían 	vayan	fueran	fuesen	fueren 	vayan	no vayan 	irregular
-know	1	singular		conozco	conocía	conocí	conoceré	conocería 	conozca	conociera	conociese	conociere 			irregular
-know	2	singular		conoces	conocías	conociste	conocerás	conocerías 	conozcas	conocieras	conocieses	conocieres 	conoce	no conozcas 	irregular
-know	2	singular	voseo	conocés	conocías	conociste	conocerás	conocerías 	conozcás	conocieras	conocieses	conocieres 	conocé	no conozcas 	irregular
-know	3	singular		conoce 	conocía 	conoció 	conocerá 	conocería 	conozca 	conociera 	conociese 	conociere 	conozca 	no conozca 	irregular
-know	1	plural  		conocemos 	conocíamos 	conocimos 	conoceremos 	conoceríamos 	conozcamos 	conociéramos 	conociésemos 	conociéremos 	conozcamos 	no conozcamos 	irregular
-know	2	plural  		conocéis 	conocíais 	conocisteis 	conoceréis 	conoceríais 	conozcáis 	conocierais 	conocieseis 	conociereis 	conoced 	no conozcáis 	irregular
-know	3	"plural  	"		conocen	conocían	conocieron	conocerán	conocerían 	conozcan	conocieran	conociesen	conocieren 	conozcan	no conozcan 	irregular
-drive	1	singular		conduzco	conducía	conduje	conduciré	conduciría 	conduzca	condujera	condujese	condujere 			irregular
-drive	2	singular		conduces	conducías	condujiste	conducirás	conducirías 	conduzcas	condujeras	condujeses	condujeres 	conduce	no conduzcas 	irregular
-drive	2	singular	voseo	conducís	conducías	condujiste	conducirás	conducirías 	conduzcás	condujeras	condujeses	condujeres 	conducí	no conduzcas 	irregular
-drive	3	singular		conduce 	conducía 	condujo 	conducirá 	conduciría 	conduzca 	condujera 	condujese 	condujere 	conduzca 	no conduzca 	irregular
-drive	1	plural  		conducimos 	conducíamos 	condujimos 	conduciremos 	conduciríamos 	conduzcamos 	condujéramos 	condujésemos 	condujéremos 	conduzcamos 	no conduzcamos 	irregular
-drive	2	plural  		conducís 	conducíais 	condujisteis 	conduciréis 	conduciríais 	conduzcáis 	condujerais 	condujeseis 	condujereis 	conducid 	no conduzcáis 	irregular
-drive	3	"plural  	"		conducen	conducían	condujeron	conducirán	conducirían 	conduzcan	condujeran	condujesen	condujeren 	conduzcan	no conduzcan 	irregular
-															
-															
-															
-															
-															
-															
+       	#	        		indicative 	indicative	indicative   	indicative	conditional	subjunctive 	subjunctive	subjunctive 	imperative	prohibitive	         
+				aorist	imperfect	perfect	aorist	aorist	aorist	imperfect	aorist	aorist	aorist	
+verb	person	plurality	modifier	present    	past	past	future	present	present	past	future    	present	present	group
+love	1	singular		amo	amaba	amé	amaré	amaría 	ame	amara|amase	amare 			regular -ar
+love	2	singular		amas	amabas	amaste	amarás	amarías 	ames	amaras|amases	amares 	ama	no ames	regular -ar
+love	2	singular	voseo	amás	amabas	amaste	amarás	amarías 	amés	amaras|amases	amares 	amá	no ames	regular -ar
+love	3	singular		ama	amaba	amó	amará	amaría 	ame	amara|amase	amare 	ame	no ame	regular -ar
+love	1	plural  		amamos 	amábamos 	amamos 	amaremos 	amaríamos 	amemos 	amáramos |amásemos 	amáremos 	amemos 	no amemos 	regular -ar
+love	2	plural  		amáis 	amabais 	amasteis 	amaréis 	amaríais 	améis 	amarais |amaseis 	amareis 	amad 	no améis 	regular -ar
+love	3	"plural  	"		aman	amaban	amaron	amarán	amarían 	amen	amaran|amasen	amaren 	amen	no amen 	regular -ar
+fear	1	singular		temo	temía	temí	temeré	temería 	tema	temiera |temiese 	temiere 			regular -er
+fear	2	singular		temes	temías	temiste	temerás	temerías 	temas	temieras|temieses	temieres 	teme	no temas	regular -er
+fear	2	singular	voseo	temés	temías	temiste	temerás	temerías 	temás	temieras|temieses	temieres 	temé	no temas	regular -er
+fear	3	singular		teme 	temía 	temió 	temerá 	temería 	tema 	temiera |temiese 	temiere 	tema 	no tema 	regular -er
+fear	1	plural  		tememos 	temíamos 	temimos 	temeremos 	temeríamos 	temamos 	temiéramos |temiésemos 	temiéremos 	temamos 	no temamos 	regular -er
+fear	2	plural  		teméis 	temíais 	temisteis 	temeréis 	temeríais 	temáis 	temierais |temieseis 	temiereis 	temed 	no temáis 	regular -er
+fear	3	plural  		temen	temían	temieron	temerán	temerían 	teman	temieran|temiesen	temieren 	teman	no teman 	regular -er
+part	1	singular		parto	partía	partí	partiré	partiría 	parta	partiera |partiese 	partiere 			regular -ir
+part	2	singular		partes	partías	partiste	partirás	partirías 	partas	partieras |partieses 	partieres 	parte	no partas 	regular -ir
+part	2	singular	voseo	partís	partías	partiste	partirás	partirías 	partás	partiera|partiese	partiere 	partí	no partas 	regular -ir
+part	3	singular		parte 	partía 	partió 	partirá 	partiría 	parta 	partiera |partiese 	partiere 	parta 	no parta 	regular -ir
+part	1	plural  		partimos 	partíamos 	partimos 	partiremos 	partiríamos 	partamos 	partiéramos |partiésemos 	partiéremos 	partamos 	no partamos 	regular -ir
+part	2	plural  		partís 	partíais 	partisteis 	partiréis 	partiríais 	partáis 	partierais |partieseis 	partiereis 	partid 	no partáis 	regular -ir
+part	3	plural  		parten	partían	partieron	partirán	partirían 	partan	partieran|partiesen	partieren 	partan	no partan 	regular -ir
+be [inherently]	1	singular		soy	era	fui	seré	sería 	sea	fuera|fuese	fuere 			irregular
+be [inherently]	2	singular		eres	eras	fuiste	serás	serías 	seas	fueras|fueses	fueres 	sé	no seas 	irregular
+be [inherently]	2	singular	voseo	sos	eras	fuiste	serás	serías 	seás	fueras|fueses	fueres 	sé	no seas 	irregular
+be [inherently]	3	singular		es 	era 	fue 	será 	sería 	sea 	fuera |fuese 	fuere 	sea 	no sea 	irregular
+be [inherently]	1	plural  		somos 	éramos 	fuimos 	seremos 	seríamos 	seamos 	fuéramos |fuésemos 	fuéremos 	seamos 	no seamos 	irregular
+be [inherently]	2	plural  		sois 	erais 	fuisteis 	seréis 	seríais 	seáis 	fuerais |fueseis 	fuereis 	sed 	no seáis 	irregular
+be [inherently]	3	plural  		son	eran	fueron	serán	serían 	sean	fueran|fuesen	fueren 	sean	no sean 	irregular
+be [temporarily]	1	singular		estoy 	estaba 	estuve 	estaré 	estaría 	esté 	estuviera |estuviese 	estuviere 			irregular
+be [temporarily]	2	singular		estás 	estabas 	estuviste 	estarás 	estarías 	estés 	estuvieras |estuvieses 	estuvieres 	está 	no estés 	irregular
+be [temporarily]	2	singular	voseo	estás 	estabas 	estuviste 	estarás 	estarías 	estés 	estuvieras |estuvieses 	estuvieres 	está 	no estés 	irregular
+be [temporarily]	3	singular		está 	estaba 	estuvo 	estará 	estaría 	esté 	estuviera |estuviese 	estuviere 	esté 	no esté 	irregular
+be [temporarily]	1	plural  		estamos 	estábamos 	estuvimos 	estaremos 	estaríamos 	estemos 	estuviéramos |estuviésemos 	estuviéremos 	estemos 	no estemos 	irregular
+be [temporarily]	2	plural  		estáis 	estabais 	estuvisteis 	estaréis 	estaríais 	estéis 	estuvierais |estuvieseis 	estuviereis 	estad 	no estéis 	irregular
+be [temporarily]	3	plural  		están	estaban	estuvieron	estarán	estarían 	estén	estuvieran|estuviesen	estuvieren 	estén	no estén 	irregular
+have	1	singular		he 	había 	hube 	habré 	habría 	haya	hubiera|hubiese	hubiere 			irregular
+have	2	singular		has 	habías 	hubiste 	habrás 	habrías 	hayas	hubieras|hubieses	hubieres 	habe/he 	no hayas 	irregular
+have	2	singular	voseo	has 	habías 	hubiste 	habrás 	habrías 	hayás	hubieras|hubieses	hubieres 	habe/he	no hayas 	irregular
+have	3	singular		ha	había 	hubo 	habrá 	habría 	haya 	hubiera |hubiese 	hubiere 	haya 	no haya 	irregular
+have	1	plural  		hemos 	habíamos 	hubimos 	habremos 	habríamos 	hayamos 	hubiéramos |hubiésemos 	hubiéremos 	hayamos 	no hayamos 	irregular
+have	2	plural  		habéis 	habíais 	hubisteis 	habréis 	habríais 	hayáis 	hubierais |hubieseis 	hubiereis 	habed 	no hayáis 	irregular
+have	3	plural  		han	habían	hubieron	habrán	habrían 	hayan	hubieran|hubiesen	hubieren 	hayan	no hayan 	irregular
+have [in my posession]	1	singular		tengo	tenía	tuve	tendré	tendría 	tenga	tuviera|tuviese	tuviere 			irregular
+have [in my posession]	2	singular		tienes	tenías	tuviste	tendrás	tendrías 	tengas	tuvieras|tuvieses	tuvieres 	ten	no tengas 	irregular
+have [in my posession]	2	singular	voseo	tenés	tenías	tuviste	tendrás	tendrías 	tengás	tuvieras|tuvieses	tuvieres 	tené	no tengas 	irregular
+have [in my posession]	3	singular		tiene 	tenía 	tuvo 	tendrá 	tendría 	tenga 	tuviera |tuviese 	tuviere 	tenga 	no tenga 	irregular
+have [in my posession]	1	plural  		tenemos 	teníamos 	tuvimos 	tendremos 	tendríamos 	tengamos 	tuviéramos |tuviésemos 	tuviéremos 	tengamos 	no tengamos 	irregular
+have [in my posession]	2	plural  		tenéis 	teníais 	tuvisteis 	tendréis 	tendríais 	tengáis 	tuvierais |tuvieseis 	tuviereis 	tened 	no tengáis 	irregular
+have [in my posession]	3	plural  		tienen	tenían	tuvieron	tendrán	tendrían 	tengan	tuvieran|tuviesen	tuvieren 	tengan	no tengan 	irregular
+go	1	singular		voy 	iba 	fui 	iré 	iría 	vaya	fuera|fuese	fuere 			irregular
+go	2	singular		vas 	ibas 	fuiste 	irás 	irías 	vayas	fueras|fueses	fueres 	ve	no vayas 	irregular
+go	2	singular	voseo	vas 	ibas 	fuiste 	irás 	irías 	vayás	fueras|fueses	fueres 	andá	no vayas 	irregular
+go	3	singular		va 	iba 	fue 	irá 	iría 	vaya 	fuera |fuese 	fuere 	vaya 	no vaya 	irregular
+go	1	plural  		vamos 	íbamos 	fuimos 	iremos 	iríamos 	vayamos 	fuéramos |fuésemos 	fuéremos 	vayamos 	no vayamos 	irregular
+go	2	plural  		vais 	ibais 	fuisteis 	iréis 	iríais 	vayáis 	fuerais |fueseis 	fuereis 	id 	no vayáis 	irregular
+go	3	"plural  	"		van	iban	fueron	irán	irían 	vayan	fueran|fuesen	fueren 	vayan	no vayan 	irregular
+know	1	singular		conozco	conocía	conocí	conoceré	conocería 	conozca	conociera|conociese	conociere 			irregular
+know	2	singular		conoces	conocías	conociste	conocerás	conocerías 	conozcas	conocieras|conocieses	conocieres 	conoce	no conozcas 	irregular
+know	2	singular	voseo	conocés	conocías	conociste	conocerás	conocerías 	conozcás	conocieras|conocieses	conocieres 	conocé	no conozcas 	irregular
+know	3	singular		conoce 	conocía 	conoció 	conocerá 	conocería 	conozca 	conociera |conociese 	conociere 	conozca 	no conozca 	irregular
+know	1	plural  		conocemos 	conocíamos 	conocimos 	conoceremos 	conoceríamos 	conozcamos 	conociéramos |conociésemos 	conociéremos 	conozcamos 	no conozcamos 	irregular
+know	2	plural  		conocéis 	conocíais 	conocisteis 	conoceréis 	conoceríais 	conozcáis 	conocierais |conocieseis 	conociereis 	conoced 	no conozcáis 	irregular
+know	3	"plural  	"		conocen	conocían	conocieron	conocerán	conocerían 	conozcan	conocieran|conociesen	conocieren 	conozcan	no conozcan 	irregular
+drive	1	singular		conduzco	conducía	conduje	conduciré	conduciría 	conduzca	condujera|condujese	condujere 			irregular
+drive	2	singular		conduces	conducías	condujiste	conducirás	conducirías 	conduzcas	condujeras|condujeses	condujeres 	conduce	no conduzcas 	irregular
+drive	2	singular	voseo	conducís	conducías	condujiste	conducirás	conducirías 	conduzcás	condujeras|condujeses	condujeres 	conducí	no conduzcas 	irregular
+drive	3	singular		conduce 	conducía 	condujo 	conducirá 	conduciría 	conduzca 	condujera |condujese 	condujere 	conduzca 	no conduzca 	irregular
+drive	1	plural  		conducimos 	conducíamos 	condujimos 	conduciremos 	conduciríamos 	conduzcamos 	condujéramos |condujésemos 	condujéremos 	conduzcamos 	no conduzcamos 	irregular
+drive	2	plural  		conducís 	conducíais 	condujisteis 	conduciréis 	conduciríais 	conduzcáis 	condujerais |condujeseis 	condujereis 	conducid 	no conduzcáis 	irregular
+drive	3	"plural  	"		conducen	conducían	condujeron	conducirán	conducirían 	conduzcan	condujeran|condujesen	condujeren 	conduzcan	no conduzcan 	irregular
+														
+														
+														
+														
+														
+														

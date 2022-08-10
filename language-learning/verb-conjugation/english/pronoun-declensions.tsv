@@ -1,16 +1,16 @@
-			nominative	accusative	genitive	dative	ablative	instrumental	locative
-1	singular		I	me	mine	me	me	me	me
-2	singular		you	you	yours	you	you	you	you
-3	singular	masculine	he	him	his	him	him	him	him
-3	singular	feminine	she	her	hers	her	her	her	her
-3	singular	neuter	it	it	its	it	it	it	it
-1	dual		we both	us both	both of ours	us both	us both	us both	us both
-2	dual		you both	you both	both of yours	you both	you both	you both	both of you
-3	dual	masculine	they♂ both	them♂ both	both of theirs♂	them♂ both	them♂ both	them♂ both	them♂
-3	dual	feminine	they♀ both	them♀ both	both theirs♀	them♀ both	them♀ both	them♀ both	them♀
-3	dual	neuter	they both	them both	both theirs	them both	them both	them both	them
-1	plural		we	us	ours	us	us	us	us
-2	plural		you all	all of you	all of yours	all of you	all of you	all of you	all of you
-3	plural	masculine	they♂	them♂	theirs♂	them♂	them♂	them♂	them♂
-3	plural	feminine	they♀	them♀	theirs♀	them♀	them♀	them♀	them♀
-3	plural	neuter	they	them	theirs	them	them	them	them
+proform	person	number	gender	nominative	accusative	genitive	dative	ablative	instrumental	locative
+personal	1	singular		I	me	mine	me	me	me	me
+personal	2	singular		you	you	yours	you	you	you	you
+personal	3	singular	masculine	he	him	his	him	him	him	him
+personal	3	singular	feminine	she	her	hers	her	her	her	her
+personal	3	singular	neuter	it	it	its	it	it	it	it
+personal	1	dual		we both	us both	both of ours	us both	us both	us both	us both
+personal	2	dual		you both	you both	both of yours	you both	you both	you both	both of you
+personal	3	dual	masculine	they♂ both	them♂ both	both of theirs♂	them♂ both	them♂ both	them♂ both	them♂
+personal	3	dual	feminine	they♀ both	them♀ both	both theirs♀	them♀ both	them♀ both	them♀ both	them♀
+personal	3	dual	neuter	they both	them both	both theirs	them both	them both	them both	them
+personal	1	plural		we	us	ours	us	us	us	us
+personal	2	plural		you all	all of you	all of yours	all of you	all of you	all of you	all of you
+personal	3	plural	masculine	they♂	them♂	theirs♂	them♂	them♂	them♂	them♂
+personal	3	plural	feminine	they♀	them♀	theirs♀	them♀	them♀	them♀	them♀
+personal	3	plural	neuter	they	them	theirs	them	them	them	them
