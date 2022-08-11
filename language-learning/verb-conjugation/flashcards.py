@@ -28,7 +28,7 @@ class HtmlGesturePositioning:
     def chestlevel(self, hand): 
         return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:0.7em; top:0em;'>{hand}</span>'''
     def background(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:0.6em; bottom:0.9em; z-index:-1'>{hand}</span>'''
+        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:1em; bottom:0.9em; z-index:-1'>{hand}</span>'''
 
 class HtmlTextTransform:
     def __init__(self):
@@ -903,12 +903,14 @@ class Translation:
             conjugation_lookups, 
             category_to_grammemes,
             filter_lookup,
+            english_map=lambda x:x, 
             subject_map=lambda x:x, 
             verb_map=lambda x:x):
         self.pronoun_declension_lookups = pronoun_declension_lookups
         self.conjugation_lookups = conjugation_lookups
         self.category_to_grammemes = category_to_grammemes
         self.filter_lookup = filter_lookup
+        self.english_map = english_map
         self.subject_map = subject_map
         self.verb_map = verb_map
     def conjugate(self, grammemes, argument_lookup):
@@ -951,19 +953,15 @@ mood_indexing = FlatTableIndexing(DictLookup('mood', DictTupleHashing(['mood','c
 class CardFormatting:
     def __init__(self):
         pass
-
-def emoji_focus(content):
-    fonts = '''sans-serif', 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji'''
-    return f'''<div style='font-size:3em; padding: 0.5em; font-family: {fonts}'>{content}</div>'''
-
-def foreign_focus(content):
-    return f'''<div style='font-size:3em'>{content}</div>'''
-
-def foreign_side_note(content):
-    return f'''<div style='font-size:2em'>{content}</div>'''
-
-def english_word(content):
-    return f'''<div>{content}</div>'''
+    def emoji_focus(self, content):
+        fonts = '''sans-serif', 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji'''
+        return f'''<div style='font-size:3em; padding: 0.5em; font-family: {fonts}'>{content}</div>'''
+    def foreign_focus(self, content):
+        return f'''<div style='font-size:3em'>{content}</div>'''
+    def foreign_side_note(self, content):
+        return f'''<div style='font-size:2em'>{content}</div>'''
+    def english_word(self, content):
+        return f'''<div>{content}</div>'''
 
 def first_of_options(content):
     return content.split('/')[0]
@@ -989,24 +987,26 @@ def compose(*text_functions):
 
 
 class CardGeneration:
-    def __init__(self, english, emoji, finite_traversal):
+    def __init__(self, english, emoji, cardFormatting, finite_traversal):
         self.english = english
         self.emoji = emoji
+        self.cardFormatting = cardFormatting
         self.finite_traversal = finite_traversal
     def generate(self, translation):
-        for lemma in translation.category_to_grammemes['lemma']:
-            for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
-                dictkey = {
-                        **self.finite_traversal.dictkey(tuplekey), 
-                        'lemma':   lemma,
-                        'proform': 'personal'
-                    }
-                if dictkey in translation.filter_lookup:
-                    translated_text = translation.conjugate(dictkey, translation.conjugation_lookups['argument'])
-                    english_text    = self.english.conjugate(dictkey, translation.conjugation_lookups['argument'])
-                    emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'])
-                    if translated_text and english_text:
-                        yield dictkey, emoji_focus(emoji_text), english_word(english_text), foreign_focus(translated_text)
+        for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
+            dictkey = {
+                **self.finite_traversal.dictkey(tuplekey), 
+                'proform': 'personal'
+            }
+            if dictkey in translation.filter_lookup:
+                translated_text = translation.conjugate(dictkey, translation.conjugation_lookups['argument'])
+                english_text    = self.english.conjugate(dictkey, translation.conjugation_lookups['argument'])
+                emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'])
+                if translated_text and english_text:
+                    yield (dictkey, 
+                        self.cardFormatting.emoji_focus(emoji_text), 
+                        self.cardFormatting.english_word(translation.english_map(english_text)), 
+                        self.cardFormatting.foreign_focus(translated_text))
 
 infinitive_traversal = DictTupleHashing(
     ['tense', 'aspect', 'mood', 'voice'])
@@ -1073,10 +1073,12 @@ translation = Translation(
         *conjugation_annotation.annotate(
             tsv_parsing.rows('spanish/nonfinite-conjugations.tsv'), 3, 2)
     ]), 
+    english_map=replace([('♂','')]),
     subject_map=first_of_options, 
     verb_map=cloze(1),
     category_to_grammemes = {
             **category_to_grammemes,
+            'proform':    'personal',
             'number':    ['singular','plural'],
             'clusivity':  'exclusive',
             'formality': ['familiar','tuteo','voseo','formal'],
@@ -1103,14 +1105,16 @@ translation = Translation(
         }),
 )
 
-    
 
-card_generation = CardGeneration(english, emoji, 
-    DictTupleHashing(['formality','clusivity','person','number','gender','tense', 'aspect', 'mood', 'voice']))
+
+card_generation = CardGeneration(
+    english, emoji, CardFormatting(),
+    DictTupleHashing([
+    	'formality','clusivity','person','number','gender','tense', 'aspect', 'mood', 'voice', 'lemma']))
 for grammemes, emoji_text, english_text, translated_text in card_generation.generate(translation):
     print(grammemes)
     print(emoji_text)
-    print(english_text.replace('♂',''))
+    print(english_text)
     print(translated_text)
 
 # print(emoji.conjugate(grammemes, translation.conjugation_lookups['emoji']))
