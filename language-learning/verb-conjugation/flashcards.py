@@ -27,6 +27,8 @@ class HtmlGesturePositioning:
         return f'''<span style='display: inline-block; width:0; position:relative; bottom:0.8em;'>{hand}</span>'''
     def chestlevel(self, hand): 
         return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:0.7em; top:0em;'>{hand}</span>'''
+    def background(self, hand): 
+        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:0.6em; bottom:0.9em; z-index:-1'>{hand}</span>'''
 
 class HtmlTextTransform:
     def __init__(self):
@@ -209,6 +211,7 @@ class EmojiGestureShorthand:
         \lowered{}
         \overhead{}
         \chestlevel{}
+        \background{}
     '''
     def __init__(self, htmlGesturePositioning, bracketedShorthand):
         self.htmlGesturePositioning = htmlGesturePositioning
@@ -219,6 +222,7 @@ class EmojiGestureShorthand:
         emoji = self.bracketedShorthand.decode(r'\\lowered', emoji, self.htmlGesturePositioning.lowered)
         emoji = self.bracketedShorthand.decode(r'\\overhead', emoji, self.htmlGesturePositioning.overhead)
         emoji = self.bracketedShorthand.decode(r'\\chestlevel', emoji, self.htmlGesturePositioning.chestlevel)
+        emoji = self.bracketedShorthand.decode(r'\\background', emoji, self.htmlGesturePositioning.background)
         return emoji
 
 class TextTransformShorthand:
@@ -258,7 +262,7 @@ class EmojiNumberShorthand:
         def get_transform(inner_transform, gestureless_count, inclusive=False):
             def _transform(content):
                 gestureless = self.bracketedShorthand.decode(
-                    r'\\(chestlevel|raised|lowered|overhead)', content, lambda x:'')
+                    r'\\(chestlevel|raised|lowered|overhead|background)', content, lambda x:'')
                 person2 = content.replace('\\g1','\\g2').replace('\\c1','\\c2')
                 return inner_transform(
                         person2 if inclusive else content, 
@@ -850,8 +854,16 @@ class Emoji:
         if grammemes not in argument_lookup:
             # print('ignored emoji:', grammemes)
             return None
-        audience     = '\\n2{🧑\\g2\\c2}'
+        audience_lookup = {
+            'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
+            'polite':   '\\n2{🧑\\g2\\c2\\💼}',
+            'formal':   '\\n2{🤵\\c2\\g2}',
+            'elevated': '\\n2{🤴\\g2\\c2}',
+        }
         speaker      = self.mood_templates[{**grammemes,'column':'speaker'}]
+        audience     = (audience_lookup[grammemes['formality']] 
+                        if grammemes['formality'] in audience_lookup 
+                        else '\\n2{🧑\\g2\\c2}')
         bubble_style = self.mood_templates[{**grammemes,'column':'bubble-style'}]
         bubble_stem  = self.mood_templates[{**grammemes,'column':'bubble-stem'}]
         prescene_key  = {**grammemes,'column':'prescene'}
@@ -990,11 +1002,11 @@ class CardGeneration:
                         'proform': 'personal'
                     }
                 if dictkey in translation.filter_lookup:
-	                translated_text = translation.conjugate(dictkey, translation.conjugation_lookups['argument'])
-	                english_text    = self.english.conjugate(dictkey, translation.conjugation_lookups['argument'])
-	                emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'])
-	                if translated_text and english_text:
-	                    yield dictkey, emoji_focus(emoji_text), english_word(english_text), foreign_focus(translated_text)
+                    translated_text = translation.conjugate(dictkey, translation.conjugation_lookups['argument'])
+                    english_text    = self.english.conjugate(dictkey, translation.conjugation_lookups['argument'])
+                    emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'])
+                    if translated_text and english_text:
+                        yield dictkey, emoji_focus(emoji_text), english_word(english_text), foreign_focus(translated_text)
 
 infinitive_traversal = DictTupleHashing(
     ['tense', 'aspect', 'mood', 'voice'])
@@ -1064,34 +1076,34 @@ translation = Translation(
     subject_map=first_of_options, 
     verb_map=cloze(1),
     category_to_grammemes = {
-	        **category_to_grammemes,
-	        'number':    ['singular','plural'],
-	        'clusivity':  'exclusive',
-	        'formality': ['familiar','tuteo','voseo','formal'],
-	        'gender':    ['neuter', 'masculine'],
-	        'voice':      'active',
-	        'mood':      ['indicative','conditional','subjunctive'],
-	        'lemma':     ['be [inherently]', 'be [temporarily]', 
-					      'have', 'have [in my posession]', 
-					      'go', 'love', 'fear', 'part', 'know', 'drive'],
-	    },
+            **category_to_grammemes,
+            'number':    ['singular','plural'],
+            'clusivity':  'exclusive',
+            'formality': ['familiar','tuteo','voseo','formal'],
+            'gender':    ['neuter', 'masculine'],
+            'voice':      'active',
+            'mood':      ['indicative','conditional','subjunctive'],
+            'lemma':     ['be [inherently]', 'be [temporarily]', 
+                          'have', 'have [in posession]', 
+                          'go', 'love', 'fear', 'part', 'know', 'drive'],
+        },
     filter_lookup = DictLookup(
-		'filter', 
-		DictTupleHashing(['formality', 'person', 'number', 'gender']),
-		content = {
-			('familiar', '1', 'singular', 'neuter'),
-			('tuteo',    '2', 'singular', 'neuter'),
-			('familiar', '3', 'singular', 'masculine'),
-			('familiar', '1', 'plural',   'masculine'),
-			('familiar', '2', 'plural',   'masculine'),
-			('familiar', '3', 'plural',   'masculine'),
-			('voseo',    '2', 'singular', 'neuter'),
-			('formal',   '2', 'singular', 'masculine'),
-			('formal',   '2', 'plural',   'masculine'),
-		}),
+        'filter', 
+        DictTupleHashing(['formality', 'person', 'number', 'gender']),
+        content = {
+            ('familiar', '1', 'singular', 'neuter'),
+            ('tuteo',    '2', 'singular', 'neuter'),
+            ('familiar', '3', 'singular', 'masculine'),
+            ('familiar', '1', 'plural',   'masculine'),
+            ('familiar', '2', 'plural',   'masculine'),
+            ('familiar', '3', 'plural',   'masculine'),
+            ('voseo',    '2', 'singular', 'neuter'),
+            ('formal',   '2', 'singular', 'masculine'),
+            ('formal',   '2', 'plural',   'masculine'),
+        }),
 )
 
-	
+    
 
 card_generation = CardGeneration(english, emoji, 
     DictTupleHashing(['formality','clusivity','person','number','gender','tense', 'aspect', 'mood', 'voice']))
