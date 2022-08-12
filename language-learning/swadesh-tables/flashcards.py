@@ -116,9 +116,22 @@ write('flashcards/old-english-to-old-english-pronunciation.html', [
 	column('germanic-languages.tsv', 5, require, cloze(1), foreign_side_note), 
 ])
 
-# proto-germanic → swedish
-write('flashcards/proto-germanic-to-swedish.html', [
+# proto-germanic → old norse
+write('flashcards/proto-germanic-to-old-norse.html', [
 	column('germanic-languages.tsv', 3, require, strip_asterisks, foreign_focus), 
+	column('germanic-languages.tsv', 16, require, cloze(1), foreign_focus), 
+])
+
+# english ↔ old-norse
+write('flashcards/english-and-old-norse.html', [
+	column('emoji.tsv', 3, cloze(1), emoji),
+	column('germanic-languages.tsv', 2, cloze(1), english_word), 
+	column('germanic-languages.tsv', 16, require, cloze(2), foreign_focus), 
+])
+
+# old norse → swedish
+write('flashcards/old-norse-to-swedish.html', [
+	column('germanic-languages.tsv', 16, require, foreign_focus), 
 	column('germanic-languages.tsv', 18, require, cloze(1), foreign_focus), 
 ])
 
@@ -127,6 +140,19 @@ write('flashcards/english-and-swedish.html', [
 	column('emoji.tsv', 3, cloze(1), emoji),
 	column('germanic-languages.tsv', 2, cloze(1), english_word), 
 	column('germanic-languages.tsv', 18, require, cloze(2), foreign_focus), 
+])
+
+# old norse → danish
+write('flashcards/old-norse-to-danish.html', [
+	column('germanic-languages.tsv', 16, require, foreign_focus), 
+	column('germanic-languages.tsv', 17, require, cloze(1), foreign_focus), 
+])
+
+# english ↔ danish
+write('flashcards/english-and-danish.html', [
+	column('emoji.tsv', 3, cloze(1), emoji),
+	column('germanic-languages.tsv', 2, cloze(1), english_word), 
+	column('germanic-languages.tsv', 17, require, cloze(2), foreign_focus), 
 ])
 
 # proto-indo-european → proto-italic

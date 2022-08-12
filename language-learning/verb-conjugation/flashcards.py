@@ -10,11 +10,11 @@ class HtmlPersonPositioning:
     def farleft(self, person):
         return f'''<span style='position:relative; left:0.22em; top:0.2em;'>{person}</span>'''
     def left(self, person):
-        return f'''<span style='position:relative; left:0.45em; top:0.2em;'>{person}</span>'''
+        return f'''<span style='position:relative; left:0.4em; top:0.2em;'>{person}</span>'''
     def center(self, person):
         return f'''{person}'''
     def right(self, person):
-        return f'''<span style='position:relative; right:0.45em; top:0.2em;'>{person}</span>'''
+        return f'''<span style='position:relative; right:0.4em; top:0.2em;'>{person}</span>'''
 
 class HtmlGesturePositioning:
     def __init__(self):
@@ -81,16 +81,9 @@ class HtmlBubble:
         return f'''<div><span style='border-radius: 0.5em; padding: 0.6em; background:#ddd; '>{scene}</span></div>'''
     def negative(self, scene): 
         return f'''<div><span style='border-radius: 0.5em; padding: 0.6em; background: linear-gradient(to left top, #ddd 47%, red 48%, red 52%, #ddd 53%); border-style: solid; border-color:red; border-width:6px;'>{scene}</span></div>'''
+    def box(self, scene):
+        return f"<span style='border-radius: 0.5em; padding: 0.4em; border-style: solid; border-color:grey; border-width:3px;'>{scene}</span>"
 
-class HtmlBubbleScene:
-    def __init__(self):
-        pass
-    def speech(self, content, audience, speaker): 
-        return f'''{content}<sub>{audience}</sub><sup style='color:#ddd;'>◥</sup><sub>{speaker}</sub>'''
-    def thought(self, content, audience, speaker): 
-        return f'''{content}<sub>{audience}</sub><span style='color:#ddd;'>•<sub>•</sub></span><sub>{speaker}</sub>'''
-    def quote(self, content, audience, speaker): 
-        return f'''{content}<sup style='padding-left: 0.5em; color:#ddd;'>◤</sup><sub>{audience}{speaker}</sub>'''
 
 class Enclosures:
     '''
@@ -319,6 +312,33 @@ class EmojiModifierShorthand:
         emoji = code
         for (escape, character) in self.equivalences:
             emoji = emoji.replace(escape, character)
+        return emoji
+
+class EmojiBubbleShorthand:
+    '''
+    Introduces LaTEX style escape sequences that represent
+    standardized patterns of styled html elements 
+    that surround emoji characters and represent speech and thought bubbles.
+    Current supported sequences include:
+        \bubble{}
+        \forbidden{}
+        \lspeech{}
+        \rspeech{}
+        \lthought{}
+        \rthought{}
+    '''
+    def __init__(self, htmlBubble, bracketedShorthand):
+        self.htmlBubble = htmlBubble
+        self.bracketedShorthand = bracketedShorthand
+    def decode(self, code):
+        emoji = code
+        emoji = self.bracketedShorthand.decode(r'\\bubble', emoji, self.htmlBubble.affirmative)
+        emoji = self.bracketedShorthand.decode(r'\\forbidden', emoji, self.htmlBubble.negative)
+        emoji = self.bracketedShorthand.decode(r'\\box', emoji, self.htmlBubble.box)
+        emoji = emoji.replace('\\rspeech', "<sup style='color:#ddd;'>◥</sup>")
+        emoji = emoji.replace('\\lspeech', "<sup style='padding-left: 0.5em; color:#ddd;'>◤</sup>")
+        emoji = emoji.replace('\\rthought', "<span style='color:#ddd;'>•<sub>•</sub></span>")
+        emoji = emoji.replace('\\lthought', "<span style='padding-left: 0.5em; color:#ddd;'><sub>•</sub>•</span>")
         return emoji
 
 class AggregateShorthand:
@@ -842,15 +862,13 @@ class English:
 class Emoji:
     def __init__(self, 
             emojiSubjectShorthand, emojiPersonShorthand, emojiShorthand, 
-            htmlTenseTransform, htmlAspectTransform, htmlBubble, htmlBubbleScene, 
+            htmlTenseTransform, htmlAspectTransform, 
             mood_templates):
         self.emojiSubjectShorthand = emojiSubjectShorthand
         self.emojiPersonShorthand = emojiPersonShorthand
         self.emojiShorthand = emojiShorthand
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
-        self.htmlBubble = htmlBubble
-        self.htmlBubbleScene = htmlBubbleScene
         self.mood_templates = mood_templates
     def conjugate(self, grammemes, argument_lookup, persons):
         if grammemes not in argument_lookup:
@@ -862,28 +880,18 @@ class Emoji:
             'formal':   '\\n2{🤵\\c2\\g2}',
             'elevated': '\\n2{🤴\\g2\\c2}',
         }
-        speaker      = self.mood_templates[{**grammemes,'column':'speaker'}]
-        audience     = (audience_lookup[grammemes['formality']] 
-                        if grammemes['formality'] in audience_lookup 
-                        else '\\n2{🧑\\g2\\c2}')
-        bubble_style = self.mood_templates[{**grammemes,'column':'bubble-style'}]
-        bubble_stem  = self.mood_templates[{**grammemes,'column':'bubble-stem'}]
-        prescene_key  = {**grammemes,'column':'prescene'}
-        postscene_key = {**grammemes,'column':'postscene'}
-        prescene     = self.mood_templates[prescene_key]  if prescene_key  in self.mood_templates else ''
-        postscene    = self.mood_templates[postscene_key] if postscene_key in self.mood_templates else ''
-        scene        = argument_lookup[grammemes]
-        bubble_content = ''.join([
-            prescene,
-            getattr(self.htmlTenseTransform, grammemes['tense'])(
-                getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(scene)),
-            postscene,
-        ])
-        bubble = getattr(self.htmlBubble, bubble_style)(bubble_content)
-        encoded_recounting = getattr(self.htmlBubbleScene, bubble_stem)(bubble, audience, speaker)
+        # TODO: reimplement formality as emoji modifier shorthand
+        # audience = (audience_lookup[grammemes['formality']] 
+        #          if grammemes['formality'] in audience_lookup 
+        #          else '\\n2{🧑\\g2\\c2}')
+        scene = getattr(self.htmlTenseTransform, grammemes['tense'])(
+                    getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(
+                        argument_lookup[grammemes]))
+        encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
         subject_number = grammemes['number'][0]+('i' if grammemes['clusivity']=='inclusive' else '')
         subject_gender = grammemes['gender'][0]
         recounting = encoded_recounting
+        recounting = recounting.replace('\\scene', scene)
         recounting = self.emojiSubjectShorthand.decode(
             recounting, 
             'n'+grammemes['person'], 
@@ -900,10 +908,10 @@ class Emoji:
         return recounting
 
 class Person:
-	def __init__(self, number, gender, color):
-		self.number = number
-		self.gender = gender
-		self.color  = color 
+    def __init__(self, number, gender, color):
+        self.number = number
+        self.gender = gender
+        self.color  = color 
 
 class Translation:
     def __init__(self, 
@@ -920,7 +928,7 @@ class Translation:
     def conjugate(self, grammemes, argument_lookup):
         grammemes = {**grammemes, 'language':'translated', 'case':'nominative'}
         if grammemes not in self.pronoun_declension_lookups['personal']:
-            print('ignored pronoun:', grammemes)
+            # print('ignored pronoun:', grammemes)
             return None
         if grammemes not in self.conjugation_lookups['finite']:
             # print('ignored finite:', grammemes)
@@ -937,8 +945,8 @@ class Translation:
             for case in cases:
                 subject_case = {**grammemes, 'case':case}
                 if subject_case in self.pronoun_declension_lookups['personal']:
-	                sentence = sentence.replace('{subject|'+case+'}', 
-	                    self.subject_map(self.pronoun_declension_lookups['personal'][subject_case]))
+                    sentence = sentence.replace('{subject|'+case+'}', 
+                        self.subject_map(self.pronoun_declension_lookups['personal'][subject_case]))
             return sentence
 
 tsv_parsing = SeparatedValuesFileParsing()
@@ -1035,11 +1043,12 @@ emoji = Emoji(
         EmojiNumberShorthand(
             HtmlNumberTransform(HtmlPersonPositioning()), bracket_shorthand)),
     AggregateShorthand( 
+        EmojiBubbleShorthand(HtmlBubble(), bracket_shorthand),
         TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
         EmojiGestureShorthand(HtmlGesturePositioning(), bracket_shorthand),
         EmojiModifierShorthand()
     ), 
-    HtmlTenseTransform(), HtmlAspectTransform(), HtmlBubble(), HtmlBubbleScene(), 
+    HtmlTenseTransform(), HtmlAspectTransform(), 
     mood_indexing.index(
         mood_annotation.annotate(
             tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1)),
@@ -1087,16 +1096,16 @@ write('flashcards/ancient-greek.html',
                     'optative':    '{subject|nominative} {{c1::{verb}}} {argument}',
                     'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
                 },
-	        category_to_grammemes = {
-	                **category_to_grammemes,
-	                'proform':    'personal',
-	                'number':    ['singular','plural'],
-	                'clusivity':  'exclusive',
-	                'formality':  'familiar',
-	                'gender':    ['neuter', 'masculine'],
-	                'mood':      ['indicative','subjunctive','optative','imperative'],
-	                'lemma':     ['be','go','release'],
-	            },
+            category_to_grammemes = {
+                    **category_to_grammemes,
+                    'proform':    'personal',
+                    'number':    ['singular','plural'],
+                    'clusivity':  'exclusive',
+                    'formality':  'familiar',
+                    'gender':    ['neuter', 'masculine'],
+                    'mood':      ['indicative','subjunctive','optative','imperative'],
+                    'lemma':     ['be','go','release'],
+                },
             subject_map = first_of_options,
         ),
         english_map=replace([('♂','')]), 
@@ -1133,17 +1142,17 @@ write('flashcards/swedish.html',
                     'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
                     'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
                 },
-	        category_to_grammemes = {
-	                **category_to_grammemes,
-	                'proform':    'personal',
-	                'number':    ['singular','plural'],
-	                'clusivity':  'exclusive',
-	                'formality':  'familiar',
-	                'gender':    ['neuter', 'masculine'],
-	                'mood':      ['indicative','subjunctive','imperative'],
-	                'aspect':     'aorist',
-	                'lemma':     ['be','go','call','close','read','sew','strike'],
-	            },
+            category_to_grammemes = {
+                    **category_to_grammemes,
+                    'proform':    'personal',
+                    'number':    ['singular','plural'],
+                    'clusivity':  'exclusive',
+                    'formality':  'familiar',
+                    'gender':    ['neuter', 'masculine'],
+                    'mood':      ['indicative','subjunctive','imperative'],
+                    'aspect':     'aorist',
+                    'lemma':     ['be','go','call','close','read','sew','strike'],
+                },
             subject_map = first_of_options,
         ),
         english_map=replace([('♂','')]), 
@@ -1194,19 +1203,19 @@ write('flashcards/spanish.html',
                     'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
                     'prohibitive': '{subject|nominative}, {{c1::{verb}}} {argument}!',
                 },
-	        category_to_grammemes = {
-	                **category_to_grammemes,
-	                'proform':    'personal',
-	                'number':    ['singular','plural'],
-	                'clusivity':  'exclusive',
-	                'formality': ['familiar','tuteo','voseo','formal'],
-	                'gender':    ['neuter', 'masculine'],
-	                'voice':      'active',
-	                'mood':      ['indicative','conditional','subjunctive','imperative','prohibitive'],
-	                'lemma':     ['be [inherently]', 'be [temporarily]', 
-	                              'have', 'have [in posession]', 
-	                              'go', 'love', 'fear', 'part', 'know', 'drive'],
-	            },
+            category_to_grammemes = {
+                    **category_to_grammemes,
+                    'proform':    'personal',
+                    'number':    ['singular','plural'],
+                    'clusivity':  'exclusive',
+                    'formality': ['familiar','tuteo','voseo','formal'],
+                    'gender':    ['neuter', 'masculine'],
+                    'voice':      'active',
+                    'mood':      ['indicative','conditional','subjunctive','imperative','prohibitive'],
+                    'lemma':     ['be [inherently]', 'be [temporarily]', 
+                                  'have', 'have [in posession]', 
+                                  'go', 'love', 'fear', 'part', 'know', 'drive'],
+                },
             subject_map = first_of_options,
         ),
         english_map=replace([('♂','')]), 
@@ -1236,28 +1245,28 @@ write('flashcards/french.html',
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('french/pronoun-declensions.tsv'), 1, 4)),
             conjugation_indexing.index([
-				    *conjugation_annotation.annotate(
-				        tsv_parsing.rows('french/finite-conjugations.tsv'), 4, 3),
-				    *conjugation_annotation.annotate(
-				        tsv_parsing.rows('french/nonfinite-conjugations.tsv'), 3, 1),
-				]),
+                    *conjugation_annotation.annotate(
+                        tsv_parsing.rows('french/finite-conjugations.tsv'), 4, 3),
+                    *conjugation_annotation.annotate(
+                        tsv_parsing.rows('french/nonfinite-conjugations.tsv'), 3, 1),
+                ]),
             mood_templates = {
                     'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
                     'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
                     'conditional': '{subject|nominative} {{c1::{verb}}} {argument}',
                     'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
                 },
-	        category_to_grammemes = {
-	                **category_to_grammemes,
-	                'proform':    'personal',
-	                'number':    ['singular','plural'],
-	                'clusivity':  'exclusive',
-	                'formality':  'familiar',
-	                'gender':    ['neuter', 'masculine'],
-	                'voice':      'active',
-	                'mood':      ['indicative','conditional','subjunctive','imperative',],
-	                'lemma':     ['have','be','go','speak','choose','lose','receive'],
-	            },
+            category_to_grammemes = {
+                    **category_to_grammemes,
+                    'proform':    'personal',
+                    'number':    ['singular','plural'],
+                    'clusivity':  'exclusive',
+                    'formality':  'familiar',
+                    'gender':    ['neuter', 'masculine'],
+                    'voice':      'active',
+                    'mood':      ['indicative','conditional','subjunctive','imperative',],
+                    'lemma':     ['have','be','go','speak','choose','lose','receive'],
+                },
             subject_map = first_of_options,
         ),
         english_map=replace([('♂','')]), 
@@ -1284,31 +1293,31 @@ write('flashcards/german.html',
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('german/pronoun-declensions.tsv'), 1, 5)),
             conjugation_indexing.index([
-				    *conjugation_annotation.annotate(
-				        tsv_parsing.rows('german/finite-conjugations.tsv'), 4, 3),
-				    *conjugation_annotation.annotate(
-				        tsv_parsing.rows('german/nonfinite-conjugations.tsv'), 7, 1),
-				]),
+                    *conjugation_annotation.annotate(
+                        tsv_parsing.rows('german/finite-conjugations.tsv'), 4, 3),
+                    *conjugation_annotation.annotate(
+                        tsv_parsing.rows('german/nonfinite-conjugations.tsv'), 7, 1),
+                ]),
             mood_templates = {
-            		'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
-            		'conditional': '{subject|nominative} {{c1::{verb}}} {argument}',
-            		'inferential': '{subject|nominative} {{c1::{verb}}} {argument}',
-            		'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'conditional': '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'inferential': '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
                     'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
                 },
-	        category_to_grammemes = {
-	                **category_to_grammemes,
-	                'proform':    'personal',
-	                'number':    ['singular','plural'],
-	                'clusivity':  'exclusive',
-	                'formality': ['familiar','polite','formal','elevated'],
-	                'gender':    ['neuter', 'masculine'],
-	                'voice':      'active',
-	                'mood':      ['indicative','conditional','inferential',
-	                              'subjunctive','imperative',],
-	                'lemma':     ['be', 'do', 'go', 'become', 'may', 
-	                              'have', 'love', 'act', 'work', 'drive'], 
-	            },
+            category_to_grammemes = {
+                    **category_to_grammemes,
+                    'proform':    'personal',
+                    'number':    ['singular','plural'],
+                    'clusivity':  'exclusive',
+                    'formality': ['familiar','polite','formal','elevated'],
+                    'gender':    ['neuter', 'masculine'],
+                    'voice':      'active',
+                    'mood':      ['indicative','conditional','inferential',
+                                  'subjunctive','imperative',],
+                    'lemma':     ['be', 'do', 'go', 'become', 'may', 
+                                  'have', 'love', 'act', 'work', 'drive'], 
+                },
             subject_map = first_of_options,
         ),
         english_map=replace([('♂','')]), 
