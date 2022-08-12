@@ -907,10 +907,12 @@ class Translation:
             pronoun_declension_lookups, 
             conjugation_lookups, 
             mood_templates,
+            category_to_grammemes,
             subject_map=lambda x:x):
         self.pronoun_declension_lookups = pronoun_declension_lookups
         self.conjugation_lookups = conjugation_lookups
         self.mood_templates = mood_templates
+        self.category_to_grammemes = category_to_grammemes
         self.subject_map = subject_map
     def conjugate(self, grammemes, argument_lookup):
         grammemes = {**grammemes, 'language':'translated', 'case':'nominative'}
@@ -926,9 +928,7 @@ class Translation:
         else:
             sentence = self.mood_templates[grammemes['mood']]
             # TODO: read this as an attribute
-            cases = ['nominative','oblique',
-                     'accusative','genitive',
-                     'dative','ablative','instrumental','vocative']
+            cases = self.category_to_grammemes['case']
             sentence = sentence.replace('{verb}',     self.conjugation_lookups['finite'][grammemes])
             sentence = sentence.replace('{argument}', argument_lookup[grammemes])
             for case in cases:
@@ -1004,8 +1004,8 @@ class CardGeneration:
         self.emoji = emoji
         self.cardFormatting = cardFormatting
         self.finite_traversal = finite_traversal
-    def generate(self, translation, category_to_grammemes, filter_lookups, english_map=lambda x:x):
-        for tuplekey in self.finite_traversal.tuplekeys(category_to_grammemes):
+    def generate(self, translation, filter_lookups, english_map=lambda x:x):
+        for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = {
                 **self.finite_traversal.dictkey(tuplekey), 
                 'proform': 'personal'
@@ -1087,19 +1087,19 @@ write('flashcards/ancient-greek.html',
                     'optative':    '{subject|nominative} {{c1::{verb}}} {argument}',
                     'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
                 },
+	        category_to_grammemes = {
+	                **category_to_grammemes,
+	                'proform':    'personal',
+	                'number':    ['singular','plural'],
+	                'clusivity':  'exclusive',
+	                'formality':  'familiar',
+	                'gender':    ['neuter', 'masculine'],
+	                'mood':      ['indicative','subjunctive','optative','imperative'],
+	                'lemma':     ['be','go','release'],
+	            },
             subject_map = first_of_options,
         ),
         english_map=replace([('♂','')]), 
-        category_to_grammemes = {
-                **category_to_grammemes,
-                'proform':    'personal',
-                'number':    ['singular','plural'],
-                'clusivity':  'exclusive',
-                'formality':  'familiar',
-                'gender':    ['neuter', 'masculine'],
-                'mood':      ['indicative','subjunctive','optative','imperative'],
-                'lemma':     ['be','go','release'],
-            },
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
@@ -1132,20 +1132,20 @@ write('flashcards/swedish.html',
                     'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
                     'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
                 },
+	        category_to_grammemes = {
+	                **category_to_grammemes,
+	                'proform':    'personal',
+	                'number':    ['singular','plural'],
+	                'clusivity':  'exclusive',
+	                'formality':  'familiar',
+	                'gender':    ['neuter', 'masculine'],
+	                'mood':      ['indicative','subjunctive','imperative'],
+	                'aspect':     'aorist',
+	                'lemma':     ['be','go','call','close','read','sew','strike'],
+	            },
             subject_map = first_of_options,
         ),
         english_map=replace([('♂','')]), 
-        category_to_grammemes = {
-                **category_to_grammemes,
-                'proform':    'personal',
-                'number':    ['singular','plural'],
-                'clusivity':  'exclusive',
-                'formality':  'familiar',
-                'gender':    ['neuter', 'masculine'],
-                'mood':      ['indicative','subjunctive','imperative'],
-                'aspect':     'aorist',
-                'lemma':     ['be','go','call','close','read','sew','strike'],
-            },
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
@@ -1192,22 +1192,22 @@ write('flashcards/spanish.html',
                     'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
                     'prohibitive': '{subject|nominative}, {{c1::{verb}}} {argument}!',
                 },
+	        category_to_grammemes = {
+	                **category_to_grammemes,
+	                'proform':    'personal',
+	                'number':    ['singular','plural'],
+	                'clusivity':  'exclusive',
+	                'formality': ['familiar','tuteo','voseo','formal'],
+	                'gender':    ['neuter', 'masculine'],
+	                'voice':      'active',
+	                'mood':      ['indicative','conditional','subjunctive','imperative','prohibitive'],
+	                'lemma':     ['be [inherently]', 'be [temporarily]', 
+	                              'have', 'have [in posession]', 
+	                              'go', 'love', 'fear', 'part', 'know', 'drive'],
+	            },
             subject_map = first_of_options,
         ),
         english_map=replace([('♂','')]), 
-        category_to_grammemes = {
-                **category_to_grammemes,
-                'proform':    'personal',
-                'number':    ['singular','plural'],
-                'clusivity':  'exclusive',
-                'formality': ['familiar','tuteo','voseo','formal'],
-                'gender':    ['neuter', 'masculine'],
-                'voice':      'active',
-                'mood':      ['indicative','conditional','subjunctive','imperative','prohibitive'],
-                'lemma':     ['be [inherently]', 'be [temporarily]', 
-                              'have', 'have [in posession]', 
-                              'go', 'love', 'fear', 'part', 'know', 'drive'],
-            },
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
