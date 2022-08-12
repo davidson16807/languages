@@ -1,10 +1,10 @@
 #swadesh 207 id	part-of-speech	English	Emoji	
-1	noun                 	I	🧍	
-2	noun                 	you	🧍🧍	
-3	noun                 	he, she, it	🧍‍♂️ 🧍‍♀️ 🐍	
-4	noun                 	we	🧑‍🤝‍🧑	
-5	noun                 	you all	🧍🧑‍🤝‍🧑	
-6	noun                 	they	👬 👭 🧑‍🤝‍🧑	
+1	noun                 	I	\s{🧑\g2\c2}<sup>\mirror{💬}</sup>\s{🧑\g1\c1}←	
+2	noun                 	you	→\s{🧑\g2\c2}<sup>\mirror{💬}</sup>\s{🧑\g1\c1}	
+3	noun                 	he, she, it	\s{🧑\g2\c2}<sup>\mirror{💬}</sup>\s{🧑\g1\c1}🧑\c3←	
+4	noun                 	we	\s{🧑\g2\c2}<sup>\mirror{💬}</sup>\p{🧑\g1\c1}←	
+5	noun                 	you all	→\p{🧑\g2\c2}<sup>\mirror{💬}</sup>\s{🧑\g1\c1}	
+6	noun                 	they	\s{🧑\g2\c2}<sup>\mirror{💬}</sup>\s{🧑\g1\c1}\p{🧑\c3}←	
 7	noun                 	this	🧍→🧰🧰	
 8	noun                 	that	🧍🧰🧰←	
 9	noun                 	here	↘🧍🏞️	

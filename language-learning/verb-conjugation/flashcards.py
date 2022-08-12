@@ -2,619 +2,13 @@ import re
 import copy
 import collections
 import itertools
-
-
-class HtmlPersonPositioning:
-    def __init__(self):
-        pass
-    def farleft(self, person):
-        return f'''<span style='position:relative; left:0.22em; top:0.2em;'>{person}</span>'''
-    def left(self, person):
-        return f'''<span style='position:relative; left:0.4em; top:0.2em;'>{person}</span>'''
-    def center(self, person):
-        return f'''{person}'''
-    def right(self, person):
-        return f'''<span style='position:relative; right:0.4em; top:0.2em;'>{person}</span>'''
-
-class HtmlGesturePositioning:
-    def __init__(self):
-        pass
-    def lowered(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; left:0.3em; top:0.8em;'>{hand}</span>'''
-    def raised(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:0.6em; bottom:0.7em;'>{hand}</span>'''
-    def overhead(self, hand): 
-        return f'''<span style='display: inline-block; width:0; position:relative; bottom:0.8em;'>{hand}</span>'''
-    def chestlevel(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:0.7em; top:0em;'>{hand}</span>'''
-    def background(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:1em; bottom:0.9em; z-index:-1'>{hand}</span>'''
-
-class HtmlTextTransform:
-    def __init__(self):
-        pass
-    def mirror(self, emoji):
-        return f'''<span style='display: inline-block; transform: scale(-1,1)'>{emoji}</span>'''
-    def flip(self, emoji):
-        return f'''<span style='display: inline-block; transform: scale(1,-1)'>{emoji}</span>'''
-
-class HtmlNumberTransform:
-    def __init__(self, htmlPersonPositioning):
-        self.person = htmlPersonPositioning
-    def singular(self, a): 
-        return a
-    def dual(self, a,b): 
-        return f'''{self.person.left(a)}{self.person.center(b)}'''
-    def plural(self, a,b,c): 
-        return f'''{self.person.left(a)}{self.person.center(b)}{self.person.right(c)}'''
-    def dual_inclusive(self, a,b): 
-        return f'''{self.person.farleft(a)}{self.person.center(b)}'''
-    def plural_inclusive(self, a,b,c): 
-        return f'''{self.person.farleft(a)}{self.person.center(b)}{self.person.right(c)}'''
-
-class HtmlTenseTransform:
-    def __init__(self):
-        pass
-    def present(self, scene): 
-        return f'''{scene}'''
-    def past(self, scene): 
-        return f'''<span style='filter: sepia(0.8)  drop-shadow(0px 0px 5px black)'>{scene}</span>'''
-    def future(self, scene): 
-        return f'''<span style='filter: blur(1px) drop-shadow(0px 0px 5px black)'>{scene}</span>'''
-
-class HtmlAspectTransform:
-    def __init__(self):
-        pass
-    def imperfect(self, scene): 
-        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='7'></progress>'''
-    def perfect(self, scene): 
-        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress>'''
-    def aorist(self, scene): 
-        return f'''{scene}'''
-    def perfect_progressive(self, scene): 
-        return f'''<span style='filter: sepia(0.3) drop-shadow(0px 0px 2px black)'>{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress></span>'''
-
-class HtmlBubble:
-    def __init__(self):
-        pass
-    def affirmative(self, scene): 
-        return f'''<div><span style='border-radius: 0.5em; padding: 0.6em; background:#ddd; '>{scene}</span></div>'''
-    def negative(self, scene): 
-        return f'''<div><span style='border-radius: 0.5em; padding: 0.6em; background: linear-gradient(to left top, #ddd 47%, red 48%, red 52%, #ddd 53%); border-style: solid; border-color:red; border-width:6px;'>{scene}</span></div>'''
-    def box(self, scene):
-        return f"<span style='border-radius: 0.5em; padding: 0.4em; border-style: solid; border-color:grey; border-width:3px;'>{scene}</span>"
-
-
-class Enclosures:
-    '''
-    Finds start and end positions of the first region of text enclosed 
-    by an outermost pair of start and end markers, 
-    denoted 'L' and 'R' for short.
-    Text is assumed to follow a grammar that can be described 
-    by a Stack Automata featuring only the given start and end markers
-    '''
-    def __init__(self, L='{', R='}'):
-        self.L = L
-        self.R = R
-    def find(self, string):
-        open_count = 0
-        start = None
-        for match in re.finditer(f'[{self.L}{self.R}]', string):
-            start = match.end() if start is None else start 
-            delimeter = match.group(0)
-            open_count += (1 if delimeter == self.L else -1)
-            if open_count == 0:
-                return start, match.start()
-
-class BracketedShorthand:
-    '''
-    Introduces LaTEX style escape sequences (e.g.\\foo{bar}) that 
-    feature text enclosed start and end markers (e.g. '{' and '}').
-    The style of start and end marker is described by the given `enclosure`.
-    When the shorthand is decoded 
-    '''
-    def __init__(self, enclosure):
-        self.enclosure = enclosure
-    def decode(self, pattern, string, get_replacement):
-        match = re.search(pattern, string)
-        while match is not None:
-            posttag = string[match.end():]
-            bracket_range = self.enclosure.find(posttag)
-            if not bracket_range: break
-            start, end = bracket_range
-            string = ''.join([
-                string[:match.start()],
-                get_replacement(posttag[start:end]), 
-                posttag[end+len(self.enclosure.R):]])
-            match = re.search(pattern, string)
-        return string
-
-class EmojiSubjectShorthand:
-    '''
-    Introduces LaTEX style escape sequences that are
-    shorthands for characteristics of a grammatical subject
-    that are depicted one or more times within a scene using emoji. 
-    For instance, the subject may be a group of two people ('d' for 'dual')
-    who are both male ('m' for 'male')
-    and have medium shade skin color (3 on a scale from 1 to 5)
-    Whenever the shorthand user desires an emoji modifier 
-    that represents these aspects, he can write \ns, \gs, and \cs respectively.
-    [The letters n, g, and c are short for 'number', 'gender', and 'color'] 
-    '''
-    def __init__(self):
-        pass
-    def decode(self, code, number, gender, color):
-        '''
-        Example usage: 
-        shorthand.decode('\n1{🤷\c1\g1}', 's','m',3)
-        '''
-        emoji = code
-        emoji = emoji.replace('\\nx', f'\\{number}')
-        emoji = emoji.replace('\\gx', f'\\{gender}')
-        emoji = emoji.replace('\\cx', f'\\{color}')
-        return emoji
-
-class EmojiPersonShorthand:
-    '''
-    Introduces LaTEX style escape sequences that are
-    shorthands for characteristics of grammatical persons (e.g. 1st person, 2nd person)
-    that are depicted one or more times within a scene using emoji. 
-    For instance, the first entity may 
-    be a group of two people ('d' for 'dual')
-    who are both male ('m' for 'male')
-    and have medium shade skin color (3 on a scale from 1 to 5)
-    Whenever the shorthand user desires an emoji modifier 
-    that represents these aspects, he can write \n1, \g1, and \c1 respectively.
-    [The letters n, g, and c are short for 'number', 'gender', and 'color'] 
-    '''
-    def __init__(self, emojiNumberShorthand):
-        self.emojiNumberShorthand = emojiNumberShorthand
-    def decode(self, code, numbers, genders, colors):
-        '''
-        Example usage: 
-        shorthand.decode(
-            '\n1{🤷\c1\g1}'
-            ['s','d','p','di','pi'], 
-            ['m','f','m'],
-            [3,4,2,3] )
-        '''
-        emoji = code
-        for (i, number) in enumerate(numbers):
-            emoji = emoji.replace(f'\\n{i+1}', f'\\{number}')
-        '''
-        Number potentially adds persons to the group
-        (e.g. '1st person plural inclusive' includes the 2nd person)
-        Therefore we need to decode the number shorhand before 
-        processing any other characteristics of persons.
-        '''
-        emoji = self.emojiNumberShorthand.decode(emoji)
-        for (i, gender) in enumerate(genders):
-            emoji = emoji.replace(f'\\g{i+1}', f'\\{gender}')
-        for (i, color) in enumerate(colors):
-            emoji = emoji.replace(f'\\c{i+1}', f'\\{color}')
-        return emoji
-
-class EmojiGestureShorthand:
-    '''
-    Introduces LaTEX style escape sequences that represent
-    standardized patterns of styled html elements 
-    that surround emoji characters and represent gestures.
-    Current supported gestures include:
-        \raised{}
-        \lowered{}
-        \overhead{}
-        \chestlevel{}
-        \background{}
-    '''
-    def __init__(self, htmlGesturePositioning, bracketedShorthand):
-        self.htmlGesturePositioning = htmlGesturePositioning
-        self.bracketedShorthand = bracketedShorthand
-    def decode(self, code):
-        emoji = code
-        emoji = self.bracketedShorthand.decode(r'\\raised', emoji, self.htmlGesturePositioning.raised)
-        emoji = self.bracketedShorthand.decode(r'\\lowered', emoji, self.htmlGesturePositioning.lowered)
-        emoji = self.bracketedShorthand.decode(r'\\overhead', emoji, self.htmlGesturePositioning.overhead)
-        emoji = self.bracketedShorthand.decode(r'\\chestlevel', emoji, self.htmlGesturePositioning.chestlevel)
-        emoji = self.bracketedShorthand.decode(r'\\background', emoji, self.htmlGesturePositioning.background)
-        return emoji
-
-class TextTransformShorthand:
-    '''
-    Introduces LaTEX style escape sequences that represent
-    standardized patterns of styled html elements 
-    that surround text and represent common transformations.
-    Current supported transforms include:
-        \mirror{}
-        \flip{}
-    '''
-    def __init__(self, htmlTextTransform, bracketedShorthand):
-        self.htmlTextTransform = htmlTextTransform
-        self.bracketedShorthand = bracketedShorthand
-    def decode(self, code):
-        emoji = code
-        emoji = self.bracketedShorthand.decode(r'\\mirror', emoji, self.htmlTextTransform.mirror)
-        emoji = self.bracketedShorthand.decode(r'\\flip', emoji, self.htmlTextTransform.flip)
-        return emoji
-
-class EmojiNumberShorthand:
-    '''
-    Introduces LaTEX style escape sequences that represent
-    standardized patterns of styled html elements 
-    that surround emoji characters and represent the size of groups.
-    As an example, number is indicated in the shorthand 
-    by a 's', 'd', or 'p' (singular, dual, or plural).
-    This causes an emoji to be depicted overlapping 
-    with other identical emoji characters.
-    Information is lost in decoding so no encode() function exists.
-    '''
-    def __init__(self, htmlNumberTransform, bracketedShorthand):
-        self.htmlNumberTransform = htmlNumberTransform
-        self.bracketedShorthand = bracketedShorthand
-    def decode(self, code):
-        emoji = code
-        def get_transform(inner_transform, gestureless_count, inclusive=False):
-            def _transform(content):
-                gestureless = self.bracketedShorthand.decode(
-                    r'\\(chestlevel|raised|lowered|overhead|background)', content, lambda x:'')
-                person2 = content.replace('\\g1','\\g2').replace('\\c1','\\c2')
-                return inner_transform(
-                        person2 if inclusive else content, 
-                        *([gestureless]*gestureless_count))
-            return _transform
-        '''
-        'inclusive' plural and 'inclusive' dual include the audience,
-        so substitute markers for skin color and gender with 
-        the equivalent markers for the audience.
-        '''
-        emoji = self.bracketedShorthand.decode(r'\\s',  emoji, get_transform(self.htmlNumberTransform.singular, 0))
-        emoji = self.bracketedShorthand.decode(r'\\di', emoji, get_transform(self.htmlNumberTransform.dual_inclusive, 1, True))
-        emoji = self.bracketedShorthand.decode(r'\\d',  emoji, get_transform(self.htmlNumberTransform.dual, 1))
-        emoji = self.bracketedShorthand.decode(r'\\pi', emoji, get_transform(self.htmlNumberTransform.plural_inclusive, 2, True))
-        emoji = self.bracketedShorthand.decode(r'\\p',  emoji, get_transform(self.htmlNumberTransform.plural, 2))
-        return emoji
-
-class EmojiModifierShorthand:
-    '''
-    Introduces LaTEX style escape sequences that represent
-    characters within emoji modifier sequences 
-    The shorthand here is strictly bijective, 
-    so that shorthands and text can be encoded and decoded 
-    without any loss of information.
-    '''
-    def __init__(self):
-        self.equivalences = [
-            ('\\1',u'\U0001F3FB'), # light
-            ('\\2',u'\U0001F3FC'),
-            ('\\3',u'\U0001F3FD'), # medium
-            ('\\4',u'\U0001F3FE'),
-            ('\\5',u'\U0001F3FF'), # dark
-            ('🧒\\m','👦'),
-            ('🧒\\f','👧'),
-            ('🧑\\m','👨'),
-            ('🧑\\f','👩'),
-            ('🧓\\m','👴'),
-            ('🧓\\f','👵'),
-            ('🕺\\m','🕺'),
-            ('🕺\\f','💃'),
-            ('🤴\\m','🤴'),
-            ('🤴\\f','👸'),
-            ('\\m',u'\U0000200D♂️️'),
-            ('\\f',u'\U0000200D♀️'),
-            ('\\n',''),
-            ('\\',u'\U0000200D'),
-        ]
-    def encode(self, emoji):
-        code = emoji
-        for (escape, character) in self.equivalences:
-            code = code.replace(character, escape)
-        return code
-    def decode(self, code):
-        emoji = code
-        for (escape, character) in self.equivalences:
-            emoji = emoji.replace(escape, character)
-        return emoji
-
-class EmojiBubbleShorthand:
-    '''
-    Introduces LaTEX style escape sequences that represent
-    standardized patterns of styled html elements 
-    that surround emoji characters and represent speech and thought bubbles.
-    Current supported sequences include:
-        \bubble{}
-        \forbidden{}
-        \lspeech{}
-        \rspeech{}
-        \lthought{}
-        \rthought{}
-    '''
-    def __init__(self, htmlBubble, bracketedShorthand):
-        self.htmlBubble = htmlBubble
-        self.bracketedShorthand = bracketedShorthand
-    def decode(self, code):
-        emoji = code
-        emoji = self.bracketedShorthand.decode(r'\\bubble', emoji, self.htmlBubble.affirmative)
-        emoji = self.bracketedShorthand.decode(r'\\forbidden', emoji, self.htmlBubble.negative)
-        emoji = self.bracketedShorthand.decode(r'\\box', emoji, self.htmlBubble.box)
-        emoji = emoji.replace('\\rspeech', "<sup style='color:#ddd;'>◥</sup>")
-        emoji = emoji.replace('\\lspeech', "<sup style='padding-left: 0.5em; color:#ddd;'>◤</sup>")
-        emoji = emoji.replace('\\rthought', "<span style='color:#ddd;'>•<sub>•</sub></span>")
-        emoji = emoji.replace('\\lthought', "<span style='padding-left: 0.5em; color:#ddd;'><sub>•</sub>•</span>")
-        return emoji
-
-class AggregateShorthand:
-    '''
-    Compiles up to several shorthands that 
-    are applied in sequence when decoding text.
-    Typical usage involves shorthands 
-    that use LaTEX style escape sequences 
-    to represent transformations on text 
-    that depict scenes through a combination of html and emoji.
-    '''
-    def __init__(self, *shorthands):
-        self.shorthands = shorthands
-    def decode(self, code):
-        emoji = code
-        for (i, shorthand) in enumerate(self.shorthands):
-            emoji = shorthand.decode(emoji)
-        return emoji
-
-class SeparatedValuesFileParsing:
-    def __init__(self, comment='#', delimeter='\t', padding=' \t\r\n'):
-        self.comment = comment
-        self.delimeter = delimeter
-        self.padding = padding
-    def rows(self, filename):
-        rows_ = []
-        with open(filename) as file:
-            for line in file.readlines():
-                if self.comment is not None and line.startswith(self.comment):
-                    continue
-                elif len(line.strip()) < 1:
-                    continue
-                rows_.append([column.strip(self.padding) for column in line.split(self.delimeter)])
-        return rows_
-
-class TableAnnotation:
-    '''
-    `TableAnnotation` instances represent a system for storing tabular data 
-    that comes up naturally in things like conjugation or declension tables.
-
-    A table has a given number of header rows and header columns.
-    When a predifined keyword occurs within the cell contents of a header row or column, 
-     the row or column associated with that header is marked as having that keyword 
-     for an associated attribute.
-    Keywords are indicated by keys within `keyword_to_attribute`.
-    Keywords that are not known at the time of execution may be 
-     indicated using `header_column_id_to_attribute`, 
-     which marks all cell contents of a given column as keywords for a given attribute.
-
-    As an example, if a header row is marked 'green', and 'green' is a type of 'color',
-     then `keyword_to_attribute` may store 'green':'color' as a key:value pair.
-    Anytime 'green' is listed in a header row or column, 
-     all contents of the row or column associated with that header cell 
-     will be marked as having the color 'green'.
-
-    `TableAnnotation` converts tables that are written in this manner between 
-    two reprepresentations: 
-    The first representation is a list of rows, where rows are lists of cell contents.
-    The second representation is a list where each element is a tuple,
-     (annotation,cell), where 'cell' is the contents of a cell within the table,
-     and 'annotations' is a dict of attribute:keyword associated with a cell.
-    '''
-    def __init__(self, 
-            keyword_to_attribute, 
-            header_row_id_to_attribute, header_column_id_to_attribute,
-            default_attributes):
-        self.keyword_to_attribute = keyword_to_attribute
-        self.header_column_id_to_attribute = header_column_id_to_attribute
-        self.header_row_id_to_attribute = header_row_id_to_attribute
-        self.default_attributes = default_attributes
-    def annotate(self, rows, header_row_count=None, header_column_count=None):
-        header_row_count = header_row_count if header_row_count is not None else len(self.header_row_id_to_attribute)
-        header_column_count = header_column_count if header_column_count is not None else len(self.header_column_id_to_attribute)
-        column_count = max([len(row) for row in rows])
-        column_base_attributes = [{} for i in range(column_count)]
-        header_rows = rows[:header_row_count]
-        nonheader_rows = rows[header_row_count:]
-        for i, row in enumerate(header_rows):
-            for j, cell in enumerate(row):
-                if i in self.header_row_id_to_attribute:
-                    column_base_attributes[j][self.header_row_id_to_attribute[i]] = cell
-                if cell in self.keyword_to_attribute:
-                    column_base_attributes[j][self.keyword_to_attribute[cell]] = cell
-        annotations = []
-        for row in nonheader_rows:
-            row_base_attributes = {}
-            for i in range(0,header_column_count):
-                cell = row[i]
-                if i in self.header_column_id_to_attribute:
-                    row_base_attributes[self.header_column_id_to_attribute[i]] = cell
-                if cell in self.keyword_to_attribute:
-                    row_base_attributes[self.keyword_to_attribute[cell]] = cell
-            for i in range(header_column_count,len(row)):
-                cell = row[i]
-                # if cell and column_base_attributes[i]:
-                if cell and row_base_attributes and column_base_attributes[i]:
-                    annotation = {}
-                    annotation.update(self.default_attributes)
-                    annotation.update(row_base_attributes)
-                    annotation.update(column_base_attributes[i])
-                    annotations.append((annotation,cell))
-        return annotations
-
-class FlatTableIndexing:
-    '''
-    `FlatTableIndexing` converts a list of (annotation,cell) tuples
-    (such as those output by `TableAnnotation`)
-    to a representation where cells are stored in a lookup.
-    The cells are indexed by their annotations according to the indexing behavior 
-    within a given `template_lookup`.
-    '''
-    def __init__(self, template_lookup):
-        self.template_lookup = template_lookup
-    def index(self, annotations):
-        lookups = copy.deepcopy(self.template_lookup)
-        for annotation,cell in annotations:
-            lookups[annotation] = cell
-        return lookups
-
-class NestedTableIndexing:
-    '''
-    `NestedTableIndexing` converts a list of (annotation,cell) tuples
-    (such as those output by `TableAnnotation`)
-    to a representation where cells are stored in nested lookups.
-    The cells are indexed by their annotations according to 
-    the indexing behavior within a given `template_lookups`.
-    Nested lookups can be especially useful if the data 
-    that they are indexing is nonnormalized, 
-    since inner nested lookups can each use separate indexing methods,
-    so that their content is a strict function of the key and nothing else.
-    '''
-    def __init__(self, template_lookups):
-        self.template_lookups = template_lookups
-    def index(self, annotations):
-        lookups = copy.deepcopy(self.template_lookups)
-        for annotation,cell in annotations:
-            lookup = lookups[annotation]
-            lookup[annotation] = cell
-        return lookups
-
-class DictKeyHashing:
-    '''
-    `DictKeyHashing` represents a method for using dictionaries as hashable objects.
-    It does so by converting between two domains, known as 'dictkeys' and 'tuplekeys'.
-    A 'dictkey' is a dictionary that maps each key to either a value or a set of values.
-    A 'dictkey' is indexed by one or more 'tuplekeys', which are ordinary tuples of values
-     that can be indexed natively in Python dictionaries.
-    `DictKeyHashing` works by selecting a single key:value pair 
-     within a dictkey to serve as the tuplekey(s) to index by.
-    It offers several conveniences to allow 
-     working with both dictkeys and the values they are indexed by
-    '''
-    def __init__(self, key):
-        self.key = key
-    def dictkey(self, tuplekey):
-        return {self.key:tuplekey}
-    def tuplekeys(self, dictkey):
-        '''
-        Returns a generator that iterates through possible values for the given `key`
-        given values from a `dictkey` dict that maps a key to either a value or a set of possible values.
-        '''
-        key = self.key
-        if type(dictkey) in {dict}:
-            return dictkey[key] if type(dictkey[key]) in {set,list} else [dictkey[key]]
-        elif type(dictkey) in {set,list}:
-            return dictkey
-        else:
-            return [dictkey]
-
-class DictTupleHashing:
-    '''
-    `DictTupleHashing` represents a method for using dictionaries as hashable objects.
-    It does so by converting between two domains, known as 'dictkeys' and 'tuplekeys'.
-    A 'dictkey' is a dictionary that maps each key to either a value or a set of values.
-    A 'dictkey' is indexed by one or more 'tuplekeys', which are ordinary tuples of values
-     that can be indexed natively in Python dictionaries.
-    `DictKeyHashing` works by ordering values in a dictkey 
-     into one or more tuplekeys according to a given list of `keys`.
-    '''
-    def __init__(self, keys):
-        self.keys = keys
-    def dictkey(self, tuplekey):
-        return {key:tuplekey[i] for i, key in enumerate(self.keys)}
-    def tuplekeys(self, dictkey):
-        '''
-        Returns a generator that iterates through 
-        possible tuples whose keys are given by `keys`
-        and whose values are given by a `dictkey` dict 
-        that maps a key from `keys` to either a value or a set of possible values.
-        '''
-        return [tuple(reversed(tuplekey)) 
-                for tuplekey in itertools.product(
-                    *[dictkey[key] if type(dictkey[key]) in {set,list} else [dictkey[key]]
-                      for key in reversed(self.keys)])]
-
-class DictLookup:
-    '''
-    `DictLookup` is a lookup that indexes 'dictkeys' by a given `hashing` method,
-    where `hashing` is of a class that shares the same iterface as `DictHashing`.
-    A 'dictkey' is a dictionary that maps each key to either a value or a set of values.
-    A 'dictkey' is indexed by one or more 'tuplekeys', which are ordinary tuples of values.
-    '''
-    def __init__(self, name, hashing, content=None):
-        self.name = name
-        self.hashing = hashing
-        self.content = {} if content is None else content
-    def __getitem__(self, key):
-        '''
-        Return the value that is indexed by `key` 
-        if it is the only such value, otherwise return None.
-        '''
-        if isinstance(key, tuple):
-            return self.content[key]
-        else:
-            tuplekeys = [tuplekey 
-                for tuplekey in self.hashing.tuplekeys(key)
-                if tuplekey in self.content]
-            if len(tuplekeys) == 1:
-                return self.content[tuplekeys[0]]
-            elif len(tuplekeys) == 0:
-                raise IndexError('\n'.join([
-                                    'Key does not exist within the dictionary.',
-                                    *(['Lookup:', '\t'+str(self.name)] if self.name else []),
-                                    'Key:', '\t'+str(key),
-                                ]))
-            else:
-                raise IndexError('\n'.join([
-                                    'Key is ambiguous.',
-                                    *(['Lookup:', '\t'+str(self.name)] if self.name else []),
-                                    'Key:', '\t'+str(key),
-                                    'Available interpretations:',
-                                    *['\t'+str(self.hashing.dictkey(tuplekey)) 
-                                      for tuplekey in tuplekeys]
-                                ]))
-    def __setitem__(self, key, value):
-        '''
-        Store `value` within the indices represented by `key`.
-        '''
-        if isinstance(key, tuple):
-            return self.content[key]
-        else:
-            for tuplekey in self.hashing.tuplekeys(key):
-                if tuplekey in self.content and value != self.content[tuplekey]:
-                    raise IndexError('\n'.join([
-                                    'Key already exists within the dictionary.',
-                                    *(['Lookup:', '\t'+str(self.name)] if self.name else []),
-                                    'Key:', '\t'+str(self.hashing.dictkey(tuplekey)),
-                                    'Old Value:', '\t'+str(self.content[tuplekey]),
-                                    'New Value:', '\t'+str(value),
-                                ]))
-                else:
-                    self.content[tuplekey] = value
-    def __contains__(self, key):
-        if isinstance(key, tuple):
-            return key in self.content
-        else:
-            return any(tuplekey in self.content 
-                       for tuplekey in self.hashing.tuplekeys(key))
-    def __iter__(self):
-        return self.content.__iter__()
-    def __len__(self):
-        return self.content.__len__()
-    def values(self, dictkey):
-        for tuplekey in self.hashing.tuplekeys(dictkey):
-            if tuplekey in self.content:
-                yield self.content[tuplekey]
-    def keys(self, dictkey):
-        for tuplekey in self.hashing.tuplekeys(dictkey):
-            if tuplekey in self.content:
-                yield self.hashing.dictkey(tuplekey)
-    def items(self, dictkey):
-        for tuplekey in self.hashing.tuplekeys(dictkey):
-            if tuplekey in self.content:
-                yield self.hashing.dictkey(tuplekey), self.content[tuplekey]
-
-
+from transforms import *
+from shorthands import *
+from parsing import *
+from annotation import *
+from indexing import *
+from lookup import *
+from population import *
 
 category_to_grammemes = {
 
@@ -685,9 +79,9 @@ grammeme_to_category = {
     for instance in instances
 }
 
-lemma_hashing = DictKeyHashing('lemma')
+lemma_hashing = DictKeyIndexing('lemma')
 
-verbial_declension_hashing = DictTupleHashing([
+verbial_declension_hashing = DictTupleIndexing([
         'lemma',           
         'voice',      # needed for Swedish
         'number',     # needed for German
@@ -697,12 +91,12 @@ verbial_declension_hashing = DictTupleHashing([
 
 conjugation_template_lookups = DictLookup(
     'conjugation',
-    DictKeyHashing('lookup'), 
+    DictKeyIndexing('lookup'), 
     {
         # verbs that indicate a subject
         'finite': DictLookup(
             'finite',
-            DictTupleHashing([
+            DictTupleIndexing([
                     'lemma',           
                     'person',           
                     'number',           
@@ -715,7 +109,7 @@ conjugation_template_lookups = DictLookup(
         # verbs that do not indicate a subject
         'infinitive': DictLookup(
             'infinitive',
-            DictTupleHashing([
+            DictTupleIndexing([
                     'lemma',           
                     'completion', # needed for Old English
                     'voice',      # needed for Latin, Swedish
@@ -725,7 +119,7 @@ conjugation_template_lookups = DictLookup(
         # verbs used as adjectives, indicating that an action is done upon a noun at some point in time
         'participle': DictLookup(
             'participle',
-            DictTupleHashing([
+            DictTupleIndexing([
                     'lemma',           
                     'number',  # needed for German
                     'gender',     # needed for Latin, German, Russian
@@ -747,7 +141,7 @@ conjugation_template_lookups = DictLookup(
         # text that follows a verb in a sentence that demonstrates the verb
         'argument': DictLookup(
             'argument',
-            DictTupleHashing([
+            DictTupleIndexing([
                     'lemma',           
                     'language',           
                     'voice',      # needed for Greek
@@ -757,13 +151,13 @@ conjugation_template_lookups = DictLookup(
         # an emoji depiction of a sentence that demonstrates the verb
         'emoji': DictLookup(
             'emoji',
-            DictTupleHashing([
+            DictTupleIndexing([
                     'lemma',           
                     'voice',      # needed for Greek, Latin, Proto-Indo-Eurpean, Sanskrit, Swedish
                 ])),
     })
 
-basic_pronoun_declension_hashing = DictTupleHashing([
+basic_pronoun_declension_hashing = DictTupleIndexing([
         'number',     # needed for German
         'gender',     # needed for Latin, German, Russian
         'case',       # needed for Latin
@@ -771,11 +165,11 @@ basic_pronoun_declension_hashing = DictTupleHashing([
 
 declension_template_lookups = DictLookup(
     'declension',
-    DictKeyHashing('proform'), 
+    DictKeyIndexing('proform'), 
     {
         'personal': DictLookup(
             'personal',
-            DictTupleHashing([
+            DictTupleIndexing([
                     'person',           
                     'number',           
                     'clusivity',   # needed for Quechua
@@ -785,7 +179,7 @@ declension_template_lookups = DictLookup(
                 ])),
         'demonstrative': DictLookup(
             'demonstrative',
-            DictTupleHashing([
+            DictTupleIndexing([
                     'distance',
                     'number',     
                     'gender',     
@@ -962,11 +356,10 @@ predicate_annotation = TableAnnotation(
 mood_annotation        = TableAnnotation(
     {}, {0:'column'}, {0:'mood'}, {})
 
-
-conjugation_indexing = NestedTableIndexing(conjugation_template_lookups)
-declension_indexing  = NestedTableIndexing(declension_template_lookups)
-predicate_indexing = FlatTableIndexing(DictLookup('predicate', DictTupleHashing(['lookup','voice','tense','aspect'])))
-mood_indexing = FlatTableIndexing(DictLookup('mood', DictTupleHashing(['mood','column'])))
+conjugation_population = NestedLookupPopulation(conjugation_template_lookups)
+declension_population  = NestedLookupPopulation(declension_template_lookups)
+predicate_population = FlatLookupPopulation(DictLookup('predicate', DictTupleIndexing(['lookup','voice','tense','aspect'])))
+mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])))
 
 class CardFormatting:
     def __init__(self):
@@ -1032,7 +425,7 @@ class CardGeneration:
                             self.cardFormatting.foreign_focus(translated_text),
                         ])
 
-infinitive_traversal = DictTupleHashing(
+infinitive_traversal = DictTupleIndexing(
     ['tense', 'aspect', 'mood', 'voice'])
 
 bracket_shorthand = BracketedShorthand(Enclosures())
@@ -1049,28 +442,28 @@ emoji = Emoji(
         EmojiModifierShorthand()
     ), 
     HtmlTenseTransform(), HtmlAspectTransform(), 
-    mood_indexing.index(
+    mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1)),
     )
 
 english = English(
-    declension_indexing.index(
+    declension_population.index(
         pronoun_annotation.annotate(tsv_parsing.rows('english/pronoun-declensions.tsv'), 1, 5)),
-    conjugation_indexing.index(
+    conjugation_population.index(
         conjugation_annotation.annotate(
             tsv_parsing.rows('english/conjugations.tsv'), 4, 2)),
-    predicate_indexing.index(
+    predicate_population.index(
         predicate_annotation.annotate(
             tsv_parsing.rows('english/predicate-templates.tsv'), 1, 4)),
-    mood_indexing.index(
+    mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('english/mood-templates.tsv'), 1, 1)),
 )
 
 card_generation = CardGeneration(
     english, emoji, CardFormatting(),
-    DictTupleHashing([
+    DictTupleIndexing([
         'formality','clusivity','person','number','gender','tense', 'aspect', 'mood', 'voice', 'lemma']))
 
 def write(filename, rows):
@@ -1081,10 +474,10 @@ def write(filename, rows):
 write('flashcards/ancient-greek.html', 
     card_generation.generate(
         Translation(
-            declension_indexing.index(
+            declension_population.index(
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('ancient-greek/pronoun-declensions.tsv'), 1, 4)),
-            conjugation_indexing.index([
+            conjugation_population.index([
                     *conjugation_annotation.annotate(
                         tsv_parsing.rows('ancient-greek/finite-conjugations.tsv'), 3, 4),
                     *conjugation_annotation.annotate(
@@ -1112,7 +505,7 @@ write('flashcards/ancient-greek.html',
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
-                DictTupleHashing(['person', 'number', 'gender']),
+                DictTupleIndexing(['person', 'number', 'gender']),
                 content = {
                     ('1', 'singular', 'neuter'),
                     ('2', 'singular', 'neuter'),
@@ -1131,10 +524,10 @@ write('flashcards/ancient-greek.html',
 write('flashcards/swedish.html', 
     card_generation.generate(
         Translation(
-            declension_indexing.index(
+            declension_population.index(
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('swedish/pronoun-declensions.tsv'), 1, 4)),
-            conjugation_indexing.index(
+            conjugation_population.index(
                 conjugation_annotation.annotate(
                     tsv_parsing.rows('swedish/conjugations.tsv'), 4, 3)),
             mood_templates = {
@@ -1159,7 +552,7 @@ write('flashcards/swedish.html',
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
-                DictTupleHashing(['person', 'number', 'gender']),
+                DictTupleIndexing(['person', 'number', 'gender']),
                 content = {
                     ('1', 'singular', 'neuter'),
                     ('2', 'singular', 'neuter'),
@@ -1170,7 +563,7 @@ write('flashcards/swedish.html',
                 }),
             DictLookup(
                 'imperative filter', 
-                DictTupleHashing(['mood', 'person']),
+                DictTupleIndexing(['mood', 'person']),
                 content = {
                     ('indicative',  '1'),
                     ('indicative',  '2'),
@@ -1187,10 +580,10 @@ write('flashcards/swedish.html',
 write('flashcards/spanish.html', 
     card_generation.generate(
         Translation(
-            declension_indexing.index(
+            declension_population.index(
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('spanish/pronoun-declensions.tsv'), 1, 5)),
-            conjugation_indexing.index([
+            conjugation_population.index([
                 *conjugation_annotation.annotate(
                     tsv_parsing.rows('spanish/finite-conjugations.tsv'), 3, 4),
                 *conjugation_annotation.annotate(
@@ -1222,7 +615,7 @@ write('flashcards/spanish.html',
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
-                DictTupleHashing(['formality', 'person', 'number', 'gender']),
+                DictTupleIndexing(['formality', 'person', 'number', 'gender']),
                 content = {
                     ('familiar', '1', 'singular', 'neuter'),
                     ('tuteo',    '2', 'singular', 'neuter'),
@@ -1241,10 +634,10 @@ write('flashcards/spanish.html',
 write('flashcards/french.html', 
     card_generation.generate(
         Translation(
-            declension_indexing.index(
+            declension_population.index(
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('french/pronoun-declensions.tsv'), 1, 4)),
-            conjugation_indexing.index([
+            conjugation_population.index([
                     *conjugation_annotation.annotate(
                         tsv_parsing.rows('french/finite-conjugations.tsv'), 4, 3),
                     *conjugation_annotation.annotate(
@@ -1273,7 +666,7 @@ write('flashcards/french.html',
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
-                DictTupleHashing(['person', 'number', 'gender']),
+                DictTupleIndexing(['person', 'number', 'gender']),
                 content = {
                     ('1', 'singular', 'neuter'),
                     ('2', 'singular', 'neuter'),
@@ -1289,10 +682,10 @@ write('flashcards/french.html',
 write('flashcards/german.html', 
     card_generation.generate(
         Translation(
-            declension_indexing.index(
+            declension_population.index(
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('german/pronoun-declensions.tsv'), 1, 5)),
-            conjugation_indexing.index([
+            conjugation_population.index([
                     *conjugation_annotation.annotate(
                         tsv_parsing.rows('german/finite-conjugations.tsv'), 4, 3),
                     *conjugation_annotation.annotate(
@@ -1324,7 +717,7 @@ write('flashcards/german.html',
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
-                DictTupleHashing(['person', 'number', 'formality', 'gender']),
+                DictTupleIndexing(['person', 'number', 'formality', 'gender']),
                 content = {
                     ('1', 'singular', 'familiar', 'neuter'),
                     ('2', 'singular', 'familiar', 'neuter'),
@@ -1357,39 +750,39 @@ write('flashcards/german.html',
 
 
 
-# lookups = conjugation_indexing.index([
+# lookups = conjugation_population.index([
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('german/finite-conjugations.tsv'), 2, 3),
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('german/nonfinite-conjugations.tsv'), 4, 1),
 # ])
 
-# lookups = conjugation_indexing.index([
+# lookups = conjugation_population.index([
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('latin/finite-conjugations.tsv'), 3, 4),
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('latin/nonfinite-conjugations.tsv'), 6, 2),
 # ])
 
-# lookups = conjugation_indexing.index(
+# lookups = conjugation_population.index(
 #     conjugation_annotation.annotate(
 #         tsv_parsing.rows('old-english/conjugations.tsv'), 5, 1))
 
-# lookups = conjugation_indexing.index([
+# lookups = conjugation_population.index([
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('proto-indo-european/finite-conjugations.tsv'), 2, 4),
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
 # ])
 
-# lookups = conjugation_indexing.index([
+# lookups = conjugation_population.index([
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('russian/finite-conjugations.tsv'), 2, 4),
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('russian/nonfinite-conjugations.tsv'), 2, 2),
 # ])
 
-# lookups = conjugation_indexing.index([
+# lookups = conjugation_population.index([
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('sanskrit/conjugations.tsv'), 2, 4),
 # ])
