@@ -26,10 +26,12 @@ eat	common	eat	eat	eats	eat	eat	ate	ate	ate	ate	ate	eaten	eating
 write	russian	write	write	writes	write	write	wrote	wrote	wrote	wrote	wrote	written	writing
 see	russian	see 	see	sees	see	see	saw	saw	saw	saw	saw	seen	seeing
 choose 	french	choose	choose	chooses	choose	choose	chose	chose	chose	chose	chose	chosen	choosing
-love	common	love	love	loves	love	love	loved	loved	loved	loved	loved	loved	loving
 sew	common	sew	sew	sews	sew	sew	sewed	sewed	sewed	sewed	sewed	sewn	sewing
+love	common	love	love	loves	love	love	loved	loved	loved	loved	loved	loved	loving
+work	common	work	work	works	work	work	worked	worked	worked	worked	worked	worked	working
+ask	common	ask	ask	asks	ask	ask	asked	asked	asked	asked	asked	asked	asking
 know	spanish	know	know	knows	know	know	knew	knew	knew	knew	knew	known	knowing
-drive	spanish	drive	drive	drives	drive	drive	drive	drive	drive	drive	drive	driven	driving
+drive	spanish, german	drive	drive	drives	drive	drive	drive	drive	drive	drive	drive	driven	driving
 draw	russian	draw	draw	draws	draw	draw	drew	drew	drew	drew	drew	drawn	drawing
 drink	russian	drink	drink	drinks	drink	drink	drank	drank	drank	drank	drank	drunken	drinking
 steal	russian	steal	steal	steals	steal	steal	stole	stole	stole	stole	stole	stolen	stealing
@@ -62,8 +64,6 @@ direct	latin	direct	direct	directs	direct	direct	directed	directed	directed	dire
 hear	latin	hear	hear	hears	hear	hear	heard	heard	heard	heard	heard	heard	hearing
 carry	proto-indo-european	carry	carry	carries	carry	carry	carried	carried	carried	carried	carried	carried	carrying
 leave	proto-indo-european	leave	leave	leaves	leave	leave	left	left	left	left	left	left	leaving
-work	proto-indo-european	work	work	works	work	work	worked	worked	worked	worked	worked	worked	working
-ask	common	ask	ask	asks	ask	ask	asked	asked	asked	asked	asked	asked	asking
 stretch	proto-indo-european	stretch	stretch	stretches	stretch	stretch	stretched	stretched	stretched	stretched	stretched	stretched	stretching
 sit	proto-indo-european	sit	sit	sits	sit	sit	sat	sat	sat	sat	sat	sat	sitting
 protect	proto-indo-european	protect	protect	protect	protect	protect	protected	protected	protected	protected	protected	protected	protecting
@@ -79,13 +79,13 @@ share	old-english	share	share	shares	share	share	shared	shared	shared	shared	sha
 tame	old-english	tame	tame	tames	tame	tame	tamed	tamed	tamed	tamed	tamed	tamed	taming
 move	old-english	move	move	moves	move	move	moved	moved	moved	moved	moved	moved	moving
 think	old-english	think	think	thinks	think	think	thought	thought	thought	thought	thought	thought	thinking
+act	german	act	act	acts	act	act	acted	acted	acted	acted	acted	acted	acting
 point out	proto-indo-european	point out	point out	points out	point out	point out	pointed out	pointed out	pointed out	pointed out	pointed out	pointed out	pointing out
 set down	proto-indo-european	set down	set down	sets down	set down	set down	seated	seated	seated	seated	seated	seated	setting down
 be red	proto-indo-european	am red	are red	is red	are red	are red	was red	were red	was red	were red	were red	been made red	being red
 want to see	proto-indo-european	want to see	want to see	wants to see	want to see	want to see	wanted to see	wanted to see	wanted to see	wanted to see	wanted to see	wanted seen	wanting to see
 pass for	russian	pass for	pass for	passes for	pass for	pass for	passed for	passed for	passed for	passed for	passed for	passed for	passing for
-													
-													
+may	german	am allowed	are allowed	is allowed	are allowed	are allowed	was allowed	were allowed	was allowed	were allowed	were allowed	been allowed	being allowed
 													
 													
 													

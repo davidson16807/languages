@@ -66,21 +66,21 @@ class HtmlAspectTransform:
     def __init__(self):
         pass
     def imperfect(self, scene): 
-        return f'''{scene}<progress style='width:1em; height:0.8em; position:relative; top:0.5em; right:0.3em;' max='10' value='7'></progress>'''
+        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='7'></progress>'''
     def perfect(self, scene): 
-        return f'''{scene}<progress style='width:1em; height:0.8em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress>'''
+        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress>'''
     def aorist(self, scene): 
         return f'''{scene}'''
     def perfect_progressive(self, scene): 
-        return f'''<span style='filter: sepia(0.3) drop-shadow(0px 0px 2px black)'>{scene}<progress style='width:1em; height:0.8em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress></span>'''
+        return f'''<span style='filter: sepia(0.3) drop-shadow(0px 0px 2px black)'>{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress></span>'''
 
 class HtmlBubble:
     def __init__(self):
         pass
     def affirmative(self, scene): 
-        return f'''<div><span style='border-radius: 0.5em; padding: 0.5em; background:#ddd; '>{scene}</span></div>'''
+        return f'''<div><span style='border-radius: 0.5em; padding: 0.6em; background:#ddd; '>{scene}</span></div>'''
     def negative(self, scene): 
-        return f'''<div><span style='border-radius: 0.5em; padding: 0.5em; background: linear-gradient(to left top, #ddd 47%, red 48%, red 52%, #ddd 53%); border-style: solid; border-color:red; border-width:6px;'>{scene}</span></div>'''
+        return f'''<div><span style='border-radius: 0.5em; padding: 0.6em; background: linear-gradient(to left top, #ddd 47%, red 48%, red 52%, #ddd 53%); border-style: solid; border-color:red; border-width:6px;'>{scene}</span></div>'''
 
 class HtmlBubbleScene:
     def __init__(self):
@@ -641,7 +641,7 @@ category_to_grammemes = {
     # needed for gerunds, supines, participles, and gerundives
     'gender':     ['masculine', 'feminine', 'neuter'],
     'case':       ['nominative', 'oblique', 'accusative', 'dative', 'ablative', 
-                   'genitive', 'locative', 'instrumental','disjunctive'],
+                   'genitive', 'locative', 'instrumental','disjunctive', 'undeclined'],
 
     # needed for infinitive forms, finite forms, participles, arguments, and graphic depictions
     'voice':      ['active', 'passive', 'middle'], 
@@ -709,7 +709,7 @@ conjugation_template_lookups = DictLookup(
                     'lemma',           
                     'number',  # needed for German
                     'gender',     # needed for Latin, German, Russian
-                    'case',       # needed for Latin
+                    'case',       # needed for Latin, German
                     'voice',      # needed for Russian
                     'tense',      # needed for Greek, Russian, Spanish, Swedish, French
                     'aspect',     # needed for Greek, Latin, German, Russian
@@ -843,7 +843,7 @@ class Emoji:
     def __init__(self, 
             emojiSubjectShorthand, emojiPersonShorthand, emojiShorthand, 
             htmlTenseTransform, htmlAspectTransform, htmlBubble, htmlBubbleScene, 
-            mood_templates, person_numbers, person_genders, person_colors):
+            mood_templates):
         self.emojiSubjectShorthand = emojiSubjectShorthand
         self.emojiPersonShorthand = emojiPersonShorthand
         self.emojiShorthand = emojiShorthand
@@ -852,10 +852,7 @@ class Emoji:
         self.htmlBubble = htmlBubble
         self.htmlBubbleScene = htmlBubbleScene
         self.mood_templates = mood_templates
-        self.person_numbers = person_numbers
-        self.person_genders = person_genders
-        self.person_colors = person_colors
-    def conjugate(self, grammemes, argument_lookup):
+    def conjugate(self, grammemes, argument_lookup, persons):
         if grammemes not in argument_lookup:
             # print('ignored emoji:', grammemes)
             return None
@@ -894,13 +891,19 @@ class Emoji:
             'c'+grammemes['person'])
         recounting = self.emojiPersonShorthand.decode(
             recounting,
-            [subject_number if str(i+1)==grammemes['person'] else number
-             for i, number in enumerate(self.person_numbers)],
-            [subject_gender if str(i+1)==grammemes['person'] else gender
-             for i, gender in enumerate(self.person_genders)],
-            self.person_colors)
+            [subject_number if str(i+1)==grammemes['person'] else person.number
+             for i, person in enumerate(persons)],
+            [subject_gender if str(i+1)==grammemes['person'] else person.gender
+             for i, person in enumerate(persons)],
+            [person.color for person in persons])
         recounting = self.emojiShorthand.decode(recounting)
         return recounting
+
+class Person:
+	def __init__(self, number, gender, color):
+		self.number = number
+		self.gender = gender
+		self.color  = color 
 
 class Translation:
     def __init__(self, 
@@ -1004,7 +1007,7 @@ class CardGeneration:
         self.emoji = emoji
         self.cardFormatting = cardFormatting
         self.finite_traversal = finite_traversal
-    def generate(self, translation, filter_lookups, english_map=lambda x:x):
+    def generate(self, translation, filter_lookups, persons, english_map=lambda x:x):
         for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = {
                 **self.finite_traversal.dictkey(tuplekey), 
@@ -1013,7 +1016,7 @@ class CardGeneration:
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
                 translated_text = translation.conjugate(dictkey, translation.conjugation_lookups['argument'])
                 english_text    = self.english.conjugate(dictkey, translation.conjugation_lookups['argument'])
-                emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'])
+                emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'], persons)
                 if translated_text and english_text:
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
@@ -1040,10 +1043,7 @@ emoji = Emoji(
     mood_indexing.index(
         mood_annotation.annotate(
             tsv_parsing.rows('emoji/mood-templates.tsv'), 1, 1)),
-    ['s']*5, 
-    ['n']*5, 
-    [3,2,1,5,4])
-    # [3,1,5,2,4])
+    )
 
 english = English(
     declension_indexing.index(
@@ -1115,7 +1115,8 @@ write('flashcards/ancient-greek.html',
                     ('2', 'plural',   'neuter'),
                     ('3', 'plural',   'masculine'),
                 }),
-        ]
+        ],
+        persons = [Person('s','n',color) for color in [3,2,4,1,5]],
     ))
 
 write('flashcards/swedish.html', 
@@ -1170,7 +1171,8 @@ write('flashcards/swedish.html',
                     ('subjunctive', '3'),
                     ('imperative',  '2'),
                 }),
-        ]
+        ],
+        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
     ))
 
 write('flashcards/spanish.html', 
@@ -1224,6 +1226,111 @@ write('flashcards/spanish.html',
                     ('formal',   '2', 'plural',   'masculine'),
                 })
             ],
+        persons = [Person('s','n',color) for color in [3,2,4,1,5]],
+    ))
+
+write('flashcards/french.html', 
+    card_generation.generate(
+        Translation(
+            declension_indexing.index(
+                pronoun_annotation.annotate(
+                    tsv_parsing.rows('french/pronoun-declensions.tsv'), 1, 4)),
+            conjugation_indexing.index([
+				    *conjugation_annotation.annotate(
+				        tsv_parsing.rows('french/finite-conjugations.tsv'), 4, 3),
+				    *conjugation_annotation.annotate(
+				        tsv_parsing.rows('french/nonfinite-conjugations.tsv'), 3, 1),
+				]),
+            mood_templates = {
+                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'conditional': '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
+                },
+	        category_to_grammemes = {
+	                **category_to_grammemes,
+	                'proform':    'personal',
+	                'number':    ['singular','plural'],
+	                'clusivity':  'exclusive',
+	                'formality':  'familiar',
+	                'gender':    ['neuter', 'masculine'],
+	                'voice':      'active',
+	                'mood':      ['indicative','conditional','subjunctive','imperative',],
+	                'lemma':     ['have','be','go','speak','choose','lose','receive'],
+	            },
+            subject_map = first_of_options,
+        ),
+        english_map=replace([('♂','')]), 
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleHashing(['person', 'number', 'gender']),
+                content = {
+                    ('1', 'singular', 'neuter'),
+                    ('2', 'singular', 'neuter'),
+                    ('3', 'singular', 'masculine'),
+                    ('1', 'plural',   'neuter'),
+                    ('2', 'plural',   'neuter'),
+                    ('3', 'plural',   'masculine'),
+                })
+            ],
+        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+    ))
+
+write('flashcards/german.html', 
+    card_generation.generate(
+        Translation(
+            declension_indexing.index(
+                pronoun_annotation.annotate(
+                    tsv_parsing.rows('german/pronoun-declensions.tsv'), 1, 5)),
+            conjugation_indexing.index([
+				    *conjugation_annotation.annotate(
+				        tsv_parsing.rows('german/finite-conjugations.tsv'), 4, 3),
+				    *conjugation_annotation.annotate(
+				        tsv_parsing.rows('german/nonfinite-conjugations.tsv'), 7, 1),
+				]),
+            mood_templates = {
+            		'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
+            		'conditional': '{subject|nominative} {{c1::{verb}}} {argument}',
+            		'inferential': '{subject|nominative} {{c1::{verb}}} {argument}',
+            		'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
+                },
+	        category_to_grammemes = {
+	                **category_to_grammemes,
+	                'proform':    'personal',
+	                'number':    ['singular','plural'],
+	                'clusivity':  'exclusive',
+	                'formality': ['familiar','polite','formal','elevated'],
+	                'gender':    ['neuter', 'masculine'],
+	                'voice':      'active',
+	                'mood':      ['indicative','conditional','inferential',
+	                              'subjunctive','imperative',],
+	                'lemma':     ['be', 'do', 'go', 'become', 'may', 
+	                              'have', 'love', 'act', 'work', 'drive'], 
+	            },
+            subject_map = first_of_options,
+        ),
+        english_map=replace([('♂','')]), 
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleHashing(['person', 'number', 'formality', 'gender']),
+                content = {
+                    ('1', 'singular', 'familiar', 'neuter'),
+                    ('2', 'singular', 'familiar', 'neuter'),
+                    ('2', 'singular', 'polite',   'masculine'),
+                    ('2', 'singular', 'polite',   'feminine'),
+                    ('2', 'singular', 'elevated', 'neuter'),
+                    ('3', 'singular', 'familiar', 'masculine'),
+                    ('1', 'plural',   'familiar', 'neuter'),
+                    ('2', 'plural',   'familiar', 'neuter'),
+                    ('2', 'plural',   'polite',   'neuter'),
+                    ('2', 'plural',   'elevated', 'neuter'),
+                    ('3', 'plural',   'familiar', 'masculine'),
+                })
+            ],
+        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
     ))
 
 # print(emoji.conjugate(grammemes, translation.conjugation_lookups['emoji']))
@@ -1240,13 +1347,6 @@ write('flashcards/spanish.html',
 # for k,v in list(lookups['finite'].items({'lemma':'release',**category_to_grammemes}))[:100]: print(k,v)
 
 
-
-# lookups = conjugation_indexing.index([
-#     *conjugation_annotation.annotate(
-#         tsv_parsing.rows('french/finite-conjugations.tsv'), 4, 3),
-#     *conjugation_annotation.annotate(
-#         tsv_parsing.rows('french/nonfinite-conjugations.tsv'), 3, 1),
-# ])
 
 # lookups = conjugation_indexing.index([
 #     *conjugation_annotation.annotate(

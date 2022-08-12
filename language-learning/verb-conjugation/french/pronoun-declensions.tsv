@@ -1,12 +1,12 @@
-# number  	person	gender   	nominative	accusative	dative	locative	genitive	disjunctive
-singular	1     	         	je        	me        	me    	        	        	moi        
-singular	2     	         	tu        	te        	te    	        	        	toi        
-singular	3     	masculine	il        	le        	lui   	y       	en      	lui        
-singular	3     	feminine 	elle      	la        	lui   	y       	en      	elle       
-singular	3     	neuter   	on        	          	      	        	        	           
-singular	3     	reflexive	          	se        	se    	        	        	soi        
-plural  	1     	neuter   	nous      	nous      	nous  	        	        	nous       
-plural  	2     	neuter   	vous      	vous      	vous  	        	        	vous       
-plural  	3     	masculine	ils       	les       	leur  	y       	en      	eux        
-plural  	3     	feminine 	elles     	les       	leur  	y       	en      	elles      
-        
+	# number  	person	gender   	nominative	accusative	dative	locative	genitive	disjunctive
+personal	singular	1     	         	je        	me        	me    	        	        	moi        
+personal	singular	2     	         	tu        	te        	te    	        	        	toi        
+personal	singular	3     	masculine	il        	le        	lui   	y       	en      	lui        
+personal	singular	3     	feminine 	elle      	la        	lui   	y       	en      	elle       
+personal	singular	3     	neuter   	on        	          	      	        	        	           
+personal	plural  	1     		nous      	nous      	nous  	        	        	nous       
+personal	plural  	2     		vous      	vous      	vous  	        	        	vous       
+personal	plural  	3     	masculine	ils       	les       	leur  	y       	en      	eux        
+personal	plural  	3     	feminine 	elles     	les       	leur  	y       	en      	elles      
+reflexive	singular	3     	reflexive	          	se        	se    	        	        	soi        
+	        								

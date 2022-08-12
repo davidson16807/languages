@@ -1,7 +1,7 @@
 mood	speaker	bubble-style	bubble-stem	prescene	postscene	example	explanation
 indicative	\n1{🧑\g1\c1}	affirmative	speech				
-subjunctive	\n1{🤷\c1\g1}	affirmative	thought		→…	[even if]	Event is considered unlikely (mainly used in dependent clauses)
-conditional	\n1{🤷\c1\g1}	affirmative	thought	…→		[if so, then]	Event depends upon another condition.
+subjunctive	\n1{🤷\c1\g1}	affirmative	thought	<span style='border-radius: 0.5em; padding: 0.4em; border-style: solid; border-color:grey; border-width:3px;'>	</span>→…	[even if]	Event is considered unlikely (mainly used in dependent clauses)
+conditional	\n1{🤷\c1\g1}	affirmative	thought	…→<span style='border-radius: 0.5em; padding: 0.4em; border-style: solid; border-color:grey; border-width:3px;'>	</span>	[if so, then]	Event depends upon another condition.
 optative	\n1{\raised{🤞\c1}🧑\g1\c1}	affirmative	speech			[may it be]	Event is hoped, expected, or awaited.
 benedictive	\n1{\lowered{🙏\c1}🧑\g1\c1}	affirmative	speech			[may it be]	Event is blessed by the speaker
 jussive	\n1{🙇\c1\g1}	affirmative	speech			[it should be]	Event is pleaded, implored or asked.
