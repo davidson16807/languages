@@ -1,0 +1,57 @@
+proform	person	number	formality	gender	possessive
+personal	1	singular		masculine	my♂
+personal	1	singular		feminine	my♀
+personal	1	singular		neuter	my
+personal	2	singular	familiar	masculine	your♂
+personal	2	singular	familiar	feminine	your♀
+personal	2	singular	familiar	neuter	your
+personal	2	singular	polite	masculine	[politely] your♂
+personal	2	singular	polite	feminine	[politely] your♀
+personal	2	singular	polite	neuter	[politely] your
+personal	2	singular	elevated	masculine	[elevated] your♂
+personal	2	singular	elevated	feminine	[elevated] your♀
+personal	2	singular	elevated	neuter	[elevated] your
+personal	2	singular	formal	masculine	[sir] your♂
+personal	2	singular	formal	feminine	[ma'am] your♀
+personal	2	singular	formal	neuter	[respectfully] your
+personal	2	singular	tuteo		your♀
+personal	2	singular	voseo		your [voseo]
+personal	3	singular		masculine	his♂
+personal	3	singular		feminine	her♀
+personal	3	singular		neuter	its
+personal	1	dual		masculine	both of our♂
+personal	1	dual		feminine	both of our♀
+personal	1	dual		neuter	both of our
+personal	2	dual	familiar	masculine	both of your♂
+personal	2	dual	familiar	feminine	both of your♀
+personal	2	dual	familiar	neuter	both of your
+personal	2	dual	polite	masculine	[politely] both of your♂
+personal	2	dual	polite	feminine	[politely] both of your♀
+personal	2	dual	polite	neuter	[politely] both of your
+personal	2	dual	elevated	masculine	[elevated] both of your♂
+personal	2	dual	elevated	feminine	[elevated] both of your♀
+personal	2	dual	elevated	neuter	[elevated] both of your
+personal	2	dual	formal	masculine	both of your [gentlemen]
+personal	2	dual	formal	feminine	both of your [ladies]
+personal	2	dual	formal	neuter	both of your [respectfully]
+personal	3	dual		masculine	both of their
+personal	3	dual		feminine	both of their
+personal	3	dual		neuter	both of their
+personal	1	plural		masculine	all of our♂
+personal	1	plural		feminine	all of our♀
+personal	1	plural		neuter	all of our
+personal	2	plural	familiar	masculine	all of your♂
+personal	2	plural	familiar	feminine	all of your♀
+personal	2	plural	familiar	neuter	all of your
+personal	2	plural	polite	masculine	[politely] all of your♂
+personal	2	plural	polite	feminine	[politely] all of your♀
+personal	2	plural	polite	neuter	[politely] all of your
+personal	2	plural	elevated	masculine	[elevated] all of your♂
+personal	2	plural	elevated	feminine	[elevated] all of your♀
+personal	2	plural	elevated	neuter	[elevated] all of your
+personal	2	plural	formal	masculine	all of your [gentlemen]
+personal	2	plural	formal	feminine	all of your [ladies]
+personal	2	plural	formal	neuter	all of your [respectfully]
+personal	3	plural		masculine	their♂
+personal	3	plural		feminine	their♀
+personal	3	plural		neuter	"their	"
