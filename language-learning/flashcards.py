@@ -253,16 +253,10 @@ class English:
             sentence = f'[middle voice:] {sentence}'
         return sentence
 
-class Person:
-    def __init__(self, number, gender, color):
-        self.number = number
-        self.gender = gender
-        self.color  = color 
-
 class Emoji:
-    def __init__(self, emojiShorthand, 
+    def __init__(self, emojiInflectionShorthand, 
             htmlTenseTransform, htmlAspectTransform, mood_templates):
-        self.emojiShorthand = emojiShorthand
+        self.emojiInflectionShorthand = emojiInflectionShorthand
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
         self.mood_templates = mood_templates
@@ -293,7 +287,7 @@ class Emoji:
             for i, person in enumerate(persons)]
         recounting = encoded_recounting
         recounting = recounting.replace('\\scene', scene)
-        recounting = self.emojiShorthand.decode(recounting, subject, persons)
+        recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
         return recounting
 
 class Translation:
@@ -419,7 +413,7 @@ infinitive_traversal = DictTupleIndexing(
 
 bracket_shorthand = BracketedShorthand(Enclosures())
 
-emoji_shorthand = EmojiShorthand(
+emoji_shorthand = EmojiInflectionShorthand(
     EmojiSubjectShorthand(), 
     EmojiPersonShorthand(
         EmojiNumberShorthand(

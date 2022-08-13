@@ -256,24 +256,13 @@ class EmojiBubbleShorthand:
         emoji = emoji.replace('\\lthought', "<span style='padding-left: 0.5em; color:#ddd;'><sub>•</sub>•</span>")
         return emoji
 
-class AggregateShorthand:
-    '''
-    Compiles up to several shorthands that 
-    are applied in sequence when decoding text.
-    Typical usage involves shorthands 
-    that use LaTEX style escape sequences 
-    to represent transformations on text 
-    that depict scenes through a combination of html and emoji.
-    '''
-    def __init__(self, *shorthands):
-        self.shorthands = shorthands
-    def decode(self, code):
-        emoji = code
-        for (i, shorthand) in enumerate(self.shorthands):
-            emoji = shorthand.decode(emoji)
-        return emoji
+class Person:
+    def __init__(self, number, gender, color):
+        self.number = number
+        self.gender = gender
+        self.color  = color 
 
-class EmojiShorthand:
+class EmojiInflectionShorthand:
     def __init__(self, emojiSubjectShorthand, emojiPersonShorthand, *simple_shorthands):
         self.emojiSubjectShorthand = emojiSubjectShorthand
         self.emojiPersonShorthand = emojiPersonShorthand
@@ -289,6 +278,28 @@ class EmojiShorthand:
             [person.number for person in persons],
             [person.gender for person in persons],
             [person.color for person in persons])
+        for shorthand in self.simple_shorthands:
+            code = shorthand.decode(code)
+        return code
+
+class EmojiVocabularyShorthand:
+    """
+    Same as EmojiInflectionShorthand, 
+    but tailored to formatting emoji for vocabulary lists.
+    In this context, there is no concept of a subject,
+    and the decode method needs to be formatted as a univariate function,
+    so skin color must be specified upon initialization.
+    """
+    def __init__(self, skin_colors, emojiPersonShorthand, *simple_shorthands):
+        self.skin_colors = skin_colors
+        self.emojiPersonShorthand = emojiPersonShorthand
+        self.simple_shorthands = simple_shorthands
+    def decode(self, code):
+        code = self.emojiPersonShorthand.decode(
+            code,
+            ['s']*len(self.skin_colors),
+            ['n']*len(self.skin_colors),
+            self.skin_colors)
         for shorthand in self.simple_shorthands:
             code = shorthand.decode(code)
         return code
