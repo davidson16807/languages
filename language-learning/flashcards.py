@@ -253,13 +253,15 @@ class English:
             sentence = f'[middle voice:] {sentence}'
         return sentence
 
+class Person:
+    def __init__(self, number, gender, color):
+        self.number = number
+        self.gender = gender
+        self.color  = color 
+
 class Emoji:
-    def __init__(self, 
-            emojiSubjectShorthand, emojiPersonShorthand, emojiShorthand, 
-            htmlTenseTransform, htmlAspectTransform, 
-            mood_templates):
-        self.emojiSubjectShorthand = emojiSubjectShorthand
-        self.emojiPersonShorthand = emojiPersonShorthand
+    def __init__(self, emojiShorthand, 
+            htmlTenseTransform, htmlAspectTransform, mood_templates):
         self.emojiShorthand = emojiShorthand
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
@@ -282,30 +284,17 @@ class Emoji:
                     getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(
                         argument_lookup[grammemes]))
         encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
-        subject_number = grammemes['number'][0]+('i' if grammemes['clusivity']=='inclusive' else '')
-        subject_gender = grammemes['gender'][0]
+        subject = Person(
+            grammemes['number'][0]+('i' if grammemes['clusivity']=='inclusive' else ''), 
+            grammemes['gender'][0], 
+            persons[int(grammemes['person'])-1].color)
+        persons = [
+            subject if str(i+1)==grammemes['person'] else person
+            for i, person in enumerate(persons)]
         recounting = encoded_recounting
         recounting = recounting.replace('\\scene', scene)
-        recounting = self.emojiSubjectShorthand.decode(
-            recounting, 
-            'n'+grammemes['person'], 
-            'g'+grammemes['person'],
-            'c'+grammemes['person'])
-        recounting = self.emojiPersonShorthand.decode(
-            recounting,
-            [subject_number if str(i+1)==grammemes['person'] else person.number
-             for i, person in enumerate(persons)],
-            [subject_gender if str(i+1)==grammemes['person'] else person.gender
-             for i, person in enumerate(persons)],
-            [person.color for person in persons])
-        recounting = self.emojiShorthand.decode(recounting)
+        recounting = self.emojiShorthand.decode(recounting, subject, persons)
         return recounting
-
-class Person:
-    def __init__(self, number, gender, color):
-        self.number = number
-        self.gender = gender
-        self.color  = color 
 
 class Translation:
     def __init__(self, 
@@ -430,17 +419,19 @@ infinitive_traversal = DictTupleIndexing(
 
 bracket_shorthand = BracketedShorthand(Enclosures())
 
-emoji = Emoji(
+emoji_shorthand = EmojiShorthand(
     EmojiSubjectShorthand(), 
     EmojiPersonShorthand(
         EmojiNumberShorthand(
             HtmlNumberTransform(HtmlPersonPositioning()), bracket_shorthand)),
-    AggregateShorthand( 
-        EmojiBubbleShorthand(HtmlBubble(), bracket_shorthand),
-        TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
-        EmojiGestureShorthand(HtmlGesturePositioning(), bracket_shorthand),
-        EmojiModifierShorthand()
-    ), 
+    EmojiBubbleShorthand(HtmlBubble(), bracket_shorthand),
+    TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
+    EmojiGestureShorthand(HtmlGesturePositioning(), bracket_shorthand),
+    EmojiModifierShorthand()
+)
+
+emoji = Emoji(
+    emoji_shorthand,
     HtmlTenseTransform(), HtmlAspectTransform(), 
     mood_population.index(
         mood_annotation.annotate(
@@ -750,12 +741,6 @@ write('flashcards/verb-conjugation/german.html',
 
 
 
-# lookups = conjugation_population.index([
-#     *conjugation_annotation.annotate(
-#         tsv_parsing.rows('data/inflection/german/finite-conjugations.tsv'), 2, 3),
-#     *conjugation_annotation.annotate(
-#         tsv_parsing.rows('data/inflection/german/nonfinite-conjugations.tsv'), 4, 1),
-# ])
 
 # lookups = conjugation_population.index([
 #     *conjugation_annotation.annotate(

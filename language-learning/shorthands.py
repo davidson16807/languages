@@ -272,3 +272,23 @@ class AggregateShorthand:
         for (i, shorthand) in enumerate(self.shorthands):
             emoji = shorthand.decode(emoji)
         return emoji
+
+class EmojiShorthand:
+    def __init__(self, emojiSubjectShorthand, emojiPersonShorthand, *simple_shorthands):
+        self.emojiSubjectShorthand = emojiSubjectShorthand
+        self.emojiPersonShorthand = emojiPersonShorthand
+        self.simple_shorthands = simple_shorthands
+    def decode(self, code, subject, persons):
+        code = self.emojiSubjectShorthand.decode(
+            code, 
+            subject.number, 
+            subject.gender,
+            subject.color)
+        code = self.emojiPersonShorthand.decode(
+            code,
+            [person.number for person in persons],
+            [person.gender for person in persons],
+            [person.color for person in persons])
+        for shorthand in self.simple_shorthands:
+            code = shorthand.decode(code)
+        return code
