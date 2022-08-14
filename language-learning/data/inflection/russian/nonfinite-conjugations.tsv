@@ -1,40 +1,382 @@
-english		english	translated	emoji
-infinitive	group	argument	argument	
-be	irregular	well	хорошо	\nx{🧘\cx\gx}
-see	irregular	the man	человека	\nx{💁\cx\gx}🙋\c4\m
-give	irregular	the gift	подарок	\nx{💁\cx\gx}<sub>🎁</sub> 
-eat	irregular	the food	еду	\nx{💁\cx\gx}<sub>🍲</sub> 
-live	irregular	in a house	в доме	<big>🏠</big>\nx{🧍\cx\gx}
-call	irregular	on the phone	по телефону	<sub>📞</sub>\nx{🧑\gx\cx}
-go	irregular	to work	на работу	<big>🏭</big><span style='font-size:60%'>←\nx{🚶\cx\gx}</span>
-write	irregular	a letter	письмо	\nx{✍️\cx\gx}
-read		a book	книгу	\nx{🧑\gx\cx}<sub>📕</sub>
-return	1, -нуть	the book	книгу	<big>\nx{💁\cx\gx}</big><sub>📕</sub> 
-draw	1, -овать	a picture	картину	\nx{🧑\gx\cx\🎨}
-spit	1, -евать			\nx{😪}
-dance	1, -евать			\nx{🕺\cx}
-be able	1, -чь	to work	работать	\nx{🧑\gx\cx\🏭}
-bake	1, -чь	a cake	торт	\nx{🧑\gx\cx\🍳}
-carry	1, -сти	the stone	камень	←<sup>🪨</sup><big> \nx{🚶\cx\gx}</big>
-lead	1, -сти	the group	группу	←\nx{🚶\cx\gx}\p{🚶\c4\m}
-sweep	1, -сти	the floor	пол	\nx{💁\cx\gx}<sub>🧹</sub> 
-row	1, -сти	a boat	на лодке	\nx{🚣\cx\gx}
-steal	1, -сть	the ring	кольцо	←<sup>💍</sup>\nx{🏃\cx\gx}
-climb	1, -зть	the rock	на скалу	\nx{🧗\cx\gx}
-wash	1, -ыть	the dishes	посуду	<big>\nx{💁\cx\gx}</big><sub>\p{🍴}</sub> 
-beat	1	the man	человека	\nx{🤼\cx\gx}
-wind	1	the rope	веревку	<big>\nx{🧑\gx\cx}</big>🪢
-pour	1	the glass	стакан	<big>\nx{🧑\gx\cx}</big>🫗
-drink	1	the vodka	водку	<big>\nx{🧑\gx\cx}</big>🥃
-sew	1	the shirt	рубашку	\nx{💁\cx\gx}<sub>👕</sub> 
-swim	1	in the lake	в озере	\nx{🏊\cx\gx}
-pass for	1	the guard	охранника	💂\c4\m\nx{💂\gx\cx}💂\c4\m
-speak	2	to the crowd	с толпой	\p{🧍\c4}\nx{🙋\cx\gx}<sup>💬</sup>
-love	2, -бить	the dog	собаку	🐕<big>\nx{🧎\cx\gx}</big><sup>❤️</sup>
-catch	2, -вить	the bus	автобус	<big>🚌</big>←\nx{🏃\cx\gx}
-sink	2, -пить	the ship	корабль	↓⛵\nx{🙍\cx\gx}
-feed	2, -мить	the baby	ребенка	\nx{🧑\gx\cx\🍼}
-ask	2, -сить	the man	человека	🙍\c4\m\nx{🤷\cx\gx}<sup>💬</sup>
-convey	2, -зить	the idea	идею	\nx{🙋\cx\gx}<sup>💬</sup>🤷\c4\m
-pay	2, -тить	the bill	счет	\nx{💁\cx\gx}<sub>💰</sub> 
-forgive	2, -стить	the debt	долг	\nx{💁\cx\gx}🤷\c4\m
+english	translated	english	english	translated	emoji
+infinitive	infinitive	group	argument	argument	
+be	бы́ть	irregular	well	хорошо	\nx{🧘\cx\gx}
+see	ви́деть	irregular	the man	человека	\nx{💁\cx\gx}🙋\c4\m
+give	дава́ть	irregular	the gift	подарок	\nx{💁\cx\gx}<sub>🎁</sub> 
+give2	да́ть				
+eat	е́сть	irregular	the food	еду	\nx{💁\cx\gx}<sub>🍲</sub> 
+live	жить	irregular	in a house	в доме	<big>🏠</big>\nx{🧍\cx\gx}
+call	зва́ть	irregular	on the phone	по телефону	<sub>📞</sub>\nx{🧑\gx\cx}
+go	идти́	irregular	to work	на работу	<big>🏭</big><span style='font-size:60%'>←\nx{🚶\cx\gx}</span>
+write	писа́ть	irregular	a letter	письмо	\nx{✍️\cx\gx}
+read	чита́ть		a book	книгу	\nx{🧑\gx\cx}<sub>📕</sub>
+return	верну́ть	1, -нуть	the book	книгу	<big>\nx{💁\cx\gx}</big><sub>📕</sub> 
+draw	рисова́ть	1, -овать	a picture	картину	\nx{🧑\gx\cx\🎨}
+spit	плевать	1, -евать			\nx{😪}
+dance	танцева́ть	1, -евать			\nx{🕺\cx}
+be able	мо́чь	1, -чь	to work	работать	\nx{🧑\gx\cx\🏭}
+bake	пе́чь	1, -чь	a cake	торт	\nx{\lowered{🎂}🧑‍🍳\gx\cx\}
+carry	нести́	1, -сти	the stone	камень	←<sup>🪨</sup><big> \nx{🚶\cx\gx}</big>
+lead	вести́	1, -сти	the group	группу	←\nx{🚶\cx\gx}\p{🚶\c4\m}
+sweep	мести́	1, -сти	the floor	пол	\nx{💁\cx\gx}<sub>🧹</sub> 
+row	грести́	1, -сти	a boat	на лодке	\nx{🚣\cx\gx}
+steal	кра́сть	1, -сть	the ring	кольцо	←<sup>💍</sup>\nx{🏃\cx\gx}
+convey	везти́				
+climb	ле́зть	1, -зть	the rock	на скалу	\nx{🧗\cx\gx}
+wash	мы́ть	1, -ыть	the dishes	посуду	<big>\nx{💁\cx\gx}</big><sub>\p{🍴}</sub> 
+beat	би́ть	1	the man	человека	\nx{🤼\cx\gx}
+wind	ви́ть	1	the rope	веревку	<big>\nx{🧑\gx\cx}</big>🪢
+pour	лить	1	the glass	стакан	<big>\nx{🧑\gx\cx}</big>🫗
+drink	пи́ть	1	the vodka	водку	<big>\nx{🧑\gx\cx}</big>🥃
+sew	шить	1	the shirt	рубашку	\nx{💁\cx\gx}<sub>👕</sub> 
+live	жи́ть				
+swim	плы́ть	1	in the lake	в озере	\nx{🏊\cx\gx}
+pass for	слыть	1	the guard	охранника	💂\c4\m\nx{💂\gx\cx}💂\c4\m
+speak	говори́ть	2	to the crowd	с толпой	\p{🧍\c4}\nx{🙋\cx\gx}<sup>💬</sup>
+love	люби́ть	2, -бить	the dog	собаку	🐕<big>\nx{🧎\cx\gx}</big><sup>❤️</sup>
+catch	лови́ть	2, -вить	the bus	автобус	<big>🚌</big>←\nx{🏃\cx\gx}
+sink	топи́ть	2, -пить	the ship	корабль	↓⛵\nx{🙍\cx\gx}
+feed	корми́ть	2, -мить	the baby	ребенка	\nx{🧑\gx\cx\🍼}
+ask	проси́ть	2, -сить	the man	человека	🙍\c4\m\nx{🤷\cx\gx}<sup>💬</sup>
+convey	вози́ть	2, -зить	the idea	идею	\nx{🙋\cx\gx}<sup>💬</sup>🤷\c4\m
+pay	плати́ть	2, -тить	the bill	счет	\nx{💁\cx\gx}<sub>💰</sub> 
+go	ходи́ть	2, -стить			
+forgive	прости́ть		the debt	долг	\nx{💁\cx\gx}🤷\c4\m
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
