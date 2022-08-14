@@ -37,7 +37,7 @@ category_to_grammemes = {
     'proform':    ['personal', 'reflexive', 'emphatic-reflexive',
                    'demonstrative', 'interrogative', 'indefinite', 'elective', 'universal', 'negative', 
                    'relative', 'numeral'],
-    'pronoun':    ['human','nonhuman','selection'],
+    'pronoun':    ['human','nonhuman','selection','selection-of-two'],
     'clitic':     ['tonic', 'enclitic'],
     'proadverb':  ['location','source','goal','time','manner','reason','quality','amount'],
     'distance':   ['proximal','medial','distal'],
@@ -159,6 +159,7 @@ conjugation_template_lookups = DictLookup(
 
 basic_pronoun_declension_hashing = DictTupleIndexing([
         'number',     # needed for German
+        'pronoun',    # needed for Old English
         'gender',     # needed for Latin, German, Russian
         'case',       # needed for Latin
     ])
@@ -638,6 +639,56 @@ write('flashcards/verb-conjugation/latin.html',
                     'lemma':     ['be', 'be able', 'want', 'become', 'go', 
                                   'carry', 'eat', 'love', 'advise', 'direct', 
                                   'capture', 'hear'],
+                },
+            subject_map = first_of_options,
+        ),
+        english_map=replace([('♂','')]), 
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleIndexing(['person', 'number', 'gender']),
+                content = {
+                    ('1', 'singular', 'neuter'),
+                    ('2', 'singular', 'neuter'),
+                    ('3', 'singular', 'masculine'),
+                    ('1', 'plural',   'neuter'),
+                    ('2', 'plural',   'neuter'),
+                    ('3', 'plural',   'masculine'),
+                })
+            ],
+        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+    ))
+
+print(pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5))
+
+write('flashcards/verb-conjugation/old-english.html', 
+    card_generation.generate(
+        Translation(
+            declension_population.index(
+                pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5)),
+            conjugation_population.index(
+                conjugation_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/old-english/conjugations.tsv'), 5, 1)),
+            mood_templates = {
+                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
+                },
+            category_to_grammemes = {
+                    **category_to_grammemes,
+                    'proform':    'personal',
+                    'number':    ['singular','plural'],
+                    'clusivity':  'exclusive',
+                    'formality':  'familiar',
+                    'gender':    ['neuter', 'masculine'],
+                    'voice':     ['active', 'passive'],
+                    'mood':      ['indicative','subjunctive','imperative',],
+                    'lemma':     ['be [temporarily]', 'be [inherently]', 
+                                  'do', 'go', 'want', 
+                                  'steal', 'share', 'tame', 'move', 'love', 
+                                  'have', 'live', 'say', 'think',],
                 },
             subject_map = first_of_options,
         ),
