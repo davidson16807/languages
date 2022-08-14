@@ -173,6 +173,7 @@ declension_template_lookups = DictLookup(
             DictTupleIndexing([
                     'person',           
                     'number',           
+                    'clitic',
                     'clusivity',   # needed for Quechua
                     'formality',   # needed for Spanish ('voseo')
                     'gender',           
@@ -449,7 +450,7 @@ english = English(
 card_generation = CardGeneration(
     english, emoji, CardFormatting(),
     DictTupleIndexing([
-        'formality','clusivity','person','number','gender','tense', 'aspect', 'mood', 'voice', 'lemma']))
+        'formality','clusivity','person','number','clitic','gender','tense', 'aspect', 'mood', 'voice', 'lemma']))
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -478,6 +479,7 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
                     'gender':    ['neuter', 'masculine'],
@@ -528,6 +530,7 @@ write('flashcards/verb-conjugation/french.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
                     'gender':    ['neuter', 'masculine'],
@@ -577,6 +580,7 @@ write('flashcards/verb-conjugation/german.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality': ['familiar','polite','formal','elevated'],
                     'gender':    ['neuter', 'masculine'],
@@ -631,6 +635,7 @@ write('flashcards/verb-conjugation/latin.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
                     'gender':    ['neuter', 'masculine'],
@@ -659,9 +664,6 @@ write('flashcards/verb-conjugation/latin.html',
         persons = [Person('s','n',color) for color in [2,3,1,4,5]],
     ))
 
-print(pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5))
-
 write('flashcards/verb-conjugation/old-english.html', 
     card_generation.generate(
         Translation(
@@ -680,6 +682,7 @@ write('flashcards/verb-conjugation/old-english.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
                     'gender':    ['neuter', 'masculine'],
@@ -689,6 +692,58 @@ write('flashcards/verb-conjugation/old-english.html',
                                   'do', 'go', 'want', 
                                   'steal', 'share', 'tame', 'move', 'love', 
                                   'have', 'live', 'say', 'think',],
+                },
+            subject_map = first_of_options,
+        ),
+        english_map=replace([('♂','')]), 
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleIndexing(['person', 'number', 'gender']),
+                content = {
+                    ('1', 'singular', 'neuter'),
+                    ('2', 'singular', 'neuter'),
+                    ('3', 'singular', 'masculine'),
+                    ('1', 'plural',   'neuter'),
+                    ('2', 'plural',   'neuter'),
+                    ('3', 'plural',   'masculine'),
+                })
+            ],
+        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+    ))
+
+write('flashcards/verb-conjugation/proto-indo-european.html', 
+    card_generation.generate(
+        Translation(
+            declension_population.index(
+                pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/pronoun-declensions.tsv'), 1, 5)),
+            conjugation_population.index([
+                *conjugation_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/finite-conjugations.tsv'), 2, 4),
+                *conjugation_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
+            ]),
+            mood_templates = {
+                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'optative':    '{subject|nominative} {{c1::{verb}}} {argument}',
+                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
+                },
+            category_to_grammemes = {
+                    **category_to_grammemes,
+                    'proform':    'personal',
+                    'number':    ['singular','dual','plural'],
+                    'tense':     ['present','past'],
+                    'clitic':     'tonic',
+                    'clusivity':  'exclusive',
+                    'formality':  'familiar',
+                    'gender':    ['neuter', 'masculine'],
+                    'voice':     ['active', 'middle'],
+                    'mood':      ['indicative','imperative','subjunctive','optative'],
+                    'lemma':     ['be','become','carry','leave','work','do','ask',
+                                  'stretch','know','sit','protect','be red','setdown',
+                                  'want to see','renew','arrive','say','pointed out'],
                 },
             subject_map = first_of_options,
         ),
@@ -732,6 +787,7 @@ write('flashcards/verb-conjugation/spanish.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality': ['familiar','tuteo','voseo','formal'],
                     'gender':    ['neuter', 'masculine'],
@@ -781,6 +837,7 @@ write('flashcards/verb-conjugation/swedish.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
                     'gender':    ['neuter', 'masculine'],
@@ -830,17 +887,6 @@ write('flashcards/verb-conjugation/swedish.html',
 # for k,v in list(english_predicate_templates.items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
 # for k,v in list(english_declension.items({**category_to_grammemes}))[:100]: print(k,v)
 # for k,v in list(lookups['finite'].items({'lemma':'release',**category_to_grammemes}))[:100]: print(k,v)
-
-# lookups = conjugation_population.index(
-#     conjugation_annotation.annotate(
-#         tsv_parsing.rows('data/inflection/old-english/conjugations.tsv'), 5, 1))
-
-# lookups = conjugation_population.index([
-#     *conjugation_annotation.annotate(
-#         tsv_parsing.rows('data/inflection/proto-indo-european/finite-conjugations.tsv'), 2, 4),
-#     *conjugation_annotation.annotate(
-#         tsv_parsing.rows('data/inflection/proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
-# ])
 
 # lookups = conjugation_population.index([
 #     *conjugation_annotation.annotate(
