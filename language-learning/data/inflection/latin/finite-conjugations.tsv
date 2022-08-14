@@ -1,6 +1,6 @@
 			mood->	indicative	indicative	indicative	indicative	indicative	indicative	subjunctive	subjunctive	subjunctive	subjunctive	imperative	imperative										
 			tense->	present	past	future	present	past	future	present	past	present	past	present	future										
-#verb	voice	person	aspect->	aortist	imperfect	aortist	perfect	perfect	perfect	aortist	imperfect	perfect	perfect	simple	simple										
+verb	voice	person	aspect->	aorist	imperfect	aorist	perfect	perfect	perfect	aorist	imperfect	perfect	perfect	aorist	aorist	group									
 be	active	1	singular	sum	eram	erō	fuī	fueram	fuerō	sim	essem	fuerim	fuissem		estō	irregular									
 be	active	2	singular	es	erās	eris	fuistī	fuerās	fuerīs	sīs	essēs	fuerīs	fuissēs	es	estō	irregular									
 be	active	3	singular	est	erat	erit	fuit	fuerat	fuerit	sit	esset	fuerit	fuisset		estō	irregular									
@@ -31,36 +31,36 @@ go	passive	3	singular	ītur	ībātur	ībitur 	itus est	itus erat	itus erit	eat 	
 go	passive	1	plural	īmur 	ībāmur 	ībimur 	itūs sumus	itūs erāmus	itūs erimus	eāmus 	īrēmus 	ierīmus 	īssēmus 			irregular									
 go	passive	2	plural	īminī 	ībāminī 	ībiminī 	itūs estis	itūs erātis	itūs eritis	eātis 	īrētis 	ierītis 	īssētis 	īminī		irregular									
 go	passive	3	plural	euntur	ībantur	ībuntur 	itūs sunt	itūs erant	itūs erunt	eant	īrent	ierint	īssent 		euntor	irregular									
-active	bear	1	singular	ferō	ferēbam	feram	tulī	tuleram	tulerō 	feram	ferrem	tulerim	tulissem 			irregular									
-active	bear	2	singular	fers	ferēbās	ferēs	tulistī	tulerās	tuleris 	ferās	ferrēs	tulerīs	tulissēs 	fer	fertō	irregular									
-active	bear	3	singular	fert	ferēbat	feret	tulit	tulerat	tulerit	ferat	ferret	tulerit	tulisset 		fertō	irregular									
-active	bear	1	plural	ferimus	ferēbāmus	ferēmus	tulimus	tulerāmus	tulerimus 	ferāmus	ferrēmus	tulerīmus	tulissēmus 			irregular									
-active	bear	2	plural	fertis	ferēbātis	ferētis	tulistis	tulerātis	tuleritis 	ferātis	ferrētis	tulerītis	tulissētis 	ferte	fertōte	irregular									
-active	bear	3	plural	ferunt	ferēbant	ferent	tulērunt	tulerant	tulerint 	ferant	ferrent	tulerint	tulissent 		feruntō	irregular									
-passive	bear	1	singular	feror	ferēbar	ferar 	lātus sum	lātus eram	lātus erō	ferar	ferrer 	lātus sim	lātus essem			irregular									
-passive	bear	2	singular	ferris	ferēbāris	ferēris 	lātus es	lātus erās	lātus eris	ferāris	ferrēris 	lātus sīs	lātus essēs	ferre	fertor 	irregular									
-passive	bear	3	singular	fertur 	ferēbātur 	ferētur 	lātus est	lātus erat	lātus erit	ferātur 	ferrētur 	lātus sit	lātus esset		fertor	irregular									
-passive	bear	1	plural	ferimur 	ferēbāmur 	ferēmur 	lātī sumus	lātī erāmus	lātī erimus	ferāmur 	ferrēmur 	lātī sīmus	lātī essēmus			irregular									
-passive	bear	2	plural	feriminī 	ferēbāminī 	ferēminī 	lātī estis	lātī erātis	lātī eritis	ferāminī 	ferrēminī 	lātī sītis	lātī essētis	feriminī 		irregular									
-passive	bear	3	plural	feruntur	ferēbantur	ferentur 	lātī sunt	lātī erant	lātī erunt	ferantur	ferrentur 	lātī sint	lātī essent		feruntor	irregular									
-active	become	1	singular	fīō 	fīēbam 	fīam 	factus sum	factus eram	factus erō	fīam 	fierem 	factus sim	factus essem			irregular									
-active	become	2	singular	fīs 	fīēbās 	fīēs 	factus es	factus erās	factus eris	fīās 	fierēs 	factus sīs	factus essēs	fī	fītō 	irregular									
-active	become	3	singular	fit 	fīēbat 	fīet 	factus est	factus erat	factus erit	fīat 	fieret 	factus sit	factus esset		fītō	irregular									
-active	become	1	plural	fīmus 	fīēbāmus 	fīēmus 	factī sumus	factī erāmus	factī erimus	fīāmus 	fierēmus 	factī sīmus	factī essēmus			irregular									
-active	become	2	plural	fītis 	fīēbātis 	fīētis 	factī estis	factī erātis	factī eritis	fīātis 	fierētis 	factī sītis	factī essētis	fīte	fītōte 	irregular									
-active	become	3	plural	fīunt	fīēbant	fīent 	factī sunt	factī erant	factī erunt	fīant	fierent 	factī sint	factī essent		fīuntō	irregular									
-active	eat	1	singular	edō	edēbam	edam	ēdī	ēderam	ēderō 	edam/edim	ederem/ēssem	ēderim	ēdissem 			irregular									
-active	eat	2	singular	edis/ēs	edēbās	edēs	ēdistī	ēderās	ēderis 	edās/edīs	ederēs/ēssēs	ēderīs	ēdissēs 	ede/ēs	editō/ēstō 	irregular									
-active	eat	3	singular	edit/ēst	edēbat	edet	ēdit	ēderat	ēderit 	edat/edit	ederet/ēsset	ēderit	ēdisset 		editō/ēstō	irregular									
-active	eat	1	plural	edimus	edēbāmus	edēmus	ēdimus	ēderāmus	ēderimus 	edāmus/edīmus	ederēmus/ēssēmus	ēderīmus	ēdissēmus 			irregular									
-active	eat	2	plural	editis/ēstis	edēbātis	edētis	ēdistis	ēderātis	ēderitis 	edātis/edītis	ederētis/ēssētis	ēderītis	ēdissētis 	edite/ēste	editōte/ēstōte 	irregular									
-active	eat	3	plural	edunt	edēbant	edent 	ēdērunt/ēdēre	ēderant	ēderint 	edant/edint	ederent/ēssent	ēderint	ēdissent 		eduntō	irregular									
-passive	eat	1	singular	edor	edēbar	edar 	ēsus sum	ēsus eram	ēsus erō	edar	ederer 	ēsus sim	ēsus essem			irregular									
-passive	eat	2	singular	ederis/edere	edēbāris/edēbāre	edēris/edēre 	ēsus es	ēsus erās	ēsus eris	edāris/edāre	ederēris/ederēre 	ēsus sīs	ēsus essēs	edere	editor 	irregular									
-passive	eat	3	singular	editur/ēstur	edēbātur	edētur 	ēsus est	ēsus erat	ēsus erit	edātur	ederētur 	ēsus sit	ēsus esset		editor	irregular									
-passive	eat	1	plural	edimur 	edēbāmur 	edēmur 	ēsī sumus	ēsī erāmus	ēsī erimus	edāmur 	ederēmur 	esī sīmus	esī essēmus			irregular									
-passive	eat	2	plural	ediminī 	edēbāminī 	edēminī 	ēsī estis	ēsī erātis	ēsī eritis	edāminī 	ederēminī 	esī sītis	esī essētis	ediminī		irregular									
-passive	eat	3	plural	eduntur	edēbantur	edentur 	ēsī sunt	ēsī erant	ēsī erunt	edantur	ederentur 	esī sint	esī essent		eduntor	irregular									
+carry	active	1	singular	ferō	ferēbam	feram	tulī	tuleram	tulerō 	feram	ferrem	tulerim	tulissem 			irregular									
+carry	active	2	singular	fers	ferēbās	ferēs	tulistī	tulerās	tuleris 	ferās	ferrēs	tulerīs	tulissēs 	fer	fertō	irregular									
+carry	active	3	singular	fert	ferēbat	feret	tulit	tulerat	tulerit	ferat	ferret	tulerit	tulisset 		fertō	irregular									
+carry	active	1	plural	ferimus	ferēbāmus	ferēmus	tulimus	tulerāmus	tulerimus 	ferāmus	ferrēmus	tulerīmus	tulissēmus 			irregular									
+carry	active	2	plural	fertis	ferēbātis	ferētis	tulistis	tulerātis	tuleritis 	ferātis	ferrētis	tulerītis	tulissētis 	ferte	fertōte	irregular									
+carry	active	3	plural	ferunt	ferēbant	ferent	tulērunt	tulerant	tulerint 	ferant	ferrent	tulerint	tulissent 		feruntō	irregular									
+carry	passive	1	singular	feror	ferēbar	ferar 	lātus sum	lātus eram	lātus erō	ferar	ferrer 	lātus sim	lātus essem			irregular									
+carry	passive	2	singular	ferris	ferēbāris	ferēris 	lātus es	lātus erās	lātus eris	ferāris	ferrēris 	lātus sīs	lātus essēs	ferre	fertor 	irregular									
+carry	passive	3	singular	fertur 	ferēbātur 	ferētur 	lātus est	lātus erat	lātus erit	ferātur 	ferrētur 	lātus sit	lātus esset		fertor	irregular									
+carry	passive	1	plural	ferimur 	ferēbāmur 	ferēmur 	lātī sumus	lātī erāmus	lātī erimus	ferāmur 	ferrēmur 	lātī sīmus	lātī essēmus			irregular									
+carry	passive	2	plural	feriminī 	ferēbāminī 	ferēminī 	lātī estis	lātī erātis	lātī eritis	ferāminī 	ferrēminī 	lātī sītis	lātī essētis	feriminī 		irregular									
+carry	passive	3	plural	feruntur	ferēbantur	ferentur 	lātī sunt	lātī erant	lātī erunt	ferantur	ferrentur 	lātī sint	lātī essent		feruntor	irregular									
+become	active	1	singular	fīō 	fīēbam 	fīam 	factus sum	factus eram	factus erō	fīam 	fierem 	factus sim	factus essem			irregular									
+become	active	2	singular	fīs 	fīēbās 	fīēs 	factus es	factus erās	factus eris	fīās 	fierēs 	factus sīs	factus essēs	fī	fītō 	irregular									
+become	active	3	singular	fit 	fīēbat 	fīet 	factus est	factus erat	factus erit	fīat 	fieret 	factus sit	factus esset		fītō	irregular									
+become	active	1	plural	fīmus 	fīēbāmus 	fīēmus 	factī sumus	factī erāmus	factī erimus	fīāmus 	fierēmus 	factī sīmus	factī essēmus			irregular									
+become	active	2	plural	fītis 	fīēbātis 	fīētis 	factī estis	factī erātis	factī eritis	fīātis 	fierētis 	factī sītis	factī essētis	fīte	fītōte 	irregular									
+become	active	3	plural	fīunt	fīēbant	fīent 	factī sunt	factī erant	factī erunt	fīant	fierent 	factī sint	factī essent		fīuntō	irregular									
+eat	active	1	singular	edō	edēbam	edam	ēdī	ēderam	ēderō 	edam/edim	ederem/ēssem	ēderim	ēdissem 			irregular									
+eat	active	2	singular	edis/ēs	edēbās	edēs	ēdistī	ēderās	ēderis 	edās/edīs	ederēs/ēssēs	ēderīs	ēdissēs 	ede/ēs	editō/ēstō 	irregular									
+eat	active	3	singular	edit/ēst	edēbat	edet	ēdit	ēderat	ēderit 	edat/edit	ederet/ēsset	ēderit	ēdisset 		editō/ēstō	irregular									
+eat	active	1	plural	edimus	edēbāmus	edēmus	ēdimus	ēderāmus	ēderimus 	edāmus/edīmus	ederēmus/ēssēmus	ēderīmus	ēdissēmus 			irregular									
+eat	active	2	plural	editis/ēstis	edēbātis	edētis	ēdistis	ēderātis	ēderitis 	edātis/edītis	ederētis/ēssētis	ēderītis	ēdissētis 	edite/ēste	editōte/ēstōte 	irregular									
+eat	active	3	plural	edunt	edēbant	edent 	ēdērunt/ēdēre	ēderant	ēderint 	edant/edint	ederent/ēssent	ēderint	ēdissent 		eduntō	irregular									
+eat	passive	1	singular	edor	edēbar	edar 	ēsus sum	ēsus eram	ēsus erō	edar	ederer 	ēsus sim	ēsus essem			irregular									
+eat	passive	2	singular	ederis/edere	edēbāris/edēbāre	edēris/edēre 	ēsus es	ēsus erās	ēsus eris	edāris/edāre	ederēris/ederēre 	ēsus sīs	ēsus essēs	edere	editor 	irregular									
+eat	passive	3	singular	editur/ēstur	edēbātur	edētur 	ēsus est	ēsus erat	ēsus erit	edātur	ederētur 	ēsus sit	ēsus esset		editor	irregular									
+eat	passive	1	plural	edimur 	edēbāmur 	edēmur 	ēsī sumus	ēsī erāmus	ēsī erimus	edāmur 	ederēmur 	esī sīmus	esī essēmus			irregular									
+eat	passive	2	plural	ediminī 	edēbāminī 	edēminī 	ēsī estis	ēsī erātis	ēsī eritis	edāminī 	ederēminī 	esī sītis	esī essētis	ediminī		irregular									
+eat	passive	3	plural	eduntur	edēbantur	edentur 	ēsī sunt	ēsī erant	ēsī erunt	edantur	ederentur 	esī sint	esī essent		eduntor	irregular									
 love	active	1	singular	amō	amābam	amābō	amāvī	amāveram	amāverō	amem	amārem	amāverim	amā(vi)ssem			1st conjugation									
 love	active	2	singular	amās	amābās	amābis	amāvistī	amāverās	amāverīs	amēs	amārēs	amāverīs	amāssēs	amā	amātō	1st conjugation									
 love	active	3	singular	amat	amābat	amābit	amāvit	amāverat	amāverit	amet	amāret	amāverit	amāsset			1st conjugation									
