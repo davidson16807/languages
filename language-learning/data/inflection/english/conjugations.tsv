@@ -3,6 +3,12 @@ person→		1	2	3			1	2	3
 plurality→		singular	singular	singular	dual	plural	singular	singular	singular	dual	plural		
 tense→		present	present	present	present	present	past	past	past	past	past		
 be     	templates	am	are	is	are	are	was	were	was	were	were	been	being
+have   	templates	have	have	has	have	have	had	had	had	had	had	had	having
+command	templates	command	command	commands	command	command	commanded	commanded	commanded	commanded	commanded	commanded	commanding
+forbid	templates	forbid	forbid	forbids	forbid	forbid	forbade	forbade	forbade	forbade	forbade	forbidden	forbidding
+permit	templates	permit	permit	permits	permit	permit	permitted	permitted	permitted	permitted	permitted	permitted	permitting
+intend	templates	intend	intend	intends	intend	intend	intended	intended	intended	intended	intended	intended	intending
+wish	templates	wish	wish	wishes	wish	wish	wished	wished	wished	wished	wished	wished	wishing
 do	common	do	do	does	do	do	did	did	did	did	did	done	doing
 go     	common	go	go	goes	go	go	went	went	went	went	went	gone	going
 want	common	want	want	wants	want	want	wanted	wanted	wanted	wanted	wanted	wanted	wanting
@@ -34,7 +40,6 @@ share	old-english	share	share	shares	share	share	shared	shared	shared	shared	sha
 tame	old-english	tame	tame	tames	tame	tame	tamed	tamed	tamed	tamed	tamed	tamed	taming
 move	old-english	move	move	moves	move	move	moved	moved	moved	moved	moved	moved	moving
 think	old-english	think	think	thinks	think	think	thought	thought	thought	thought	thought	thought	thinking
-carry	proto-indo-european	carry	carry	carries	carry	carry	carried	carried	carried	carried	carried	carried	carrying
 leave	proto-indo-european	leave	leave	leaves	leave	leave	left	left	left	left	left	left	leaving
 stretch	proto-indo-european	stretch	stretch	stretches	stretch	stretch	stretched	stretched	stretched	stretched	stretched	stretched	stretching
 sit	proto-indo-european	sit	sit	sits	sit	sit	sat	sat	sat	sat	sat	sat	sitting
@@ -54,7 +59,7 @@ swim	russian	swim	swim	swims	swim	swim	swam	swam	swam	swam	swam	swum	swimming
 sink	russian	sink	sink	sinks	sink	sink	sunk	sunk	sunk	sunk	sunk	sunken	sinking
 forgive	russian	forgive	forgive	forgives	forgive	forgive	forgave	forgave	forgave	forgave	forgave	forgiven	forgiving
 beat	russian	beat	beat	beats	beat	beat	beated	beated	beated	beated	beated	beaten	beating
-call	russian	call	call	calls	call	call	called	called	called	called	called	called	calling
+call	common 	call	call	calls	call	call	called	called	called	called	called	called	calling
 return	russian	return	return	returns	return	return	returned	returned	returned	returned	returned	returned	returning
 spit	russian	spit	spit	spits	spit	spit	spat	spat	spat	spat	spat	spat	spitting
 dance	russian	dance	dance	dance	dance	dance	danced	danced	danced	danced	danced	danced	dancing
@@ -78,15 +83,8 @@ part	spanish	part	part	parts	part	part	parted	parted	parted	parted	parted	parted
 drive	spanish, german	drive	drive	drives	drive	drive	drive	drive	drive	drive	drive	driven	driving
 be [inherently]	spanish, old-english	am [inherently]	are [inherently]	is [inherently]	are [inherently]	are [inherently]	was [inherently]	were [inherently]	was [inherently]	were [inherently]	were [inherently]	been [inherently]	being [inherently]
 be [temporarily]	spanish, old-english	am [temporarily]	are [temporarily]	is [temporarily]	are [temporarily]	are [temporarily]	was [temporarily]	were [temporarily]	was [temporarily]	were [temporarily]	were [temporarily]	been [temporarily]	being [temporarily]
-call	swedish	call	call	calls	call	call	called	called	called	called	called	called	calling
 close	swedish	close	close	closes	close	close	closed	closed	closed	closed	closed	closed	closing
 strike	swedish	strike	strike	strikes	strike	strike	struck	struck	struck	struck	struck	struck	striking
-have   	templates	have	have	has	have	have	had	had	had	had	had	had	having
-command	templates	command	command	commands	command	command	commanded	commanded	commanded	commanded	commanded	commanded	commanding
-forbid	templates	forbid	forbid	forbids	forbid	forbid	forbade	forbade	forbade	forbade	forbade	forbidden	forbidding
-permit	templates	permit	permit	permits	permit	permit	permitted	permitted	permitted	permitted	permitted	permitted	permitting
-intend	templates	intend	intend	intends	intend	intend	intended	intended	intended	intended	intended	intended	intending
-wish	templates	wish	wish	wishes	wish	wish	wished	wished	wished	wished	wished	wished	wishing
 													
 													
 													

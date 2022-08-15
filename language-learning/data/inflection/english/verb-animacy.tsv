@@ -1,0 +1,87 @@
+aspect→		
+person→		
+plurality→		
+tense→		
+be     	animacy	templates
+have   	animate	templates
+command	sapient	templates
+forbid	sapient	templates
+permit	sapient	templates
+intend	sapient	templates
+wish	sapient	templates
+do	animate	common
+go     	animate	common
+want	sapient	common
+give	sapient	common
+say	sapient	common
+be able	animate	common
+live	animate	common
+read	sapient	common
+carry	animate	common
+become	animate	common
+eat	animate	common
+sew	sapient	common
+love	animate	common
+work	sapient	common
+ask	sapient	common
+call	sapient	common 
+release	sapient	ancient-greek
+choose 	sapient	french
+lose   	animate	french
+receive	sapient	french
+act	animate	german
+may	animate	german
+speak  	sapient	latin
+advise	sapient	latin
+direct	sapient	latin
+capture	animate	latin
+hear	animate	latin
+steal	sapient	old-english
+share	sapient	old-english
+tame	sapient	old-english
+move	animate	old-english
+think	sapient	old-english
+leave	sapient	proto-indo-european
+stretch	animate	proto-indo-european
+sit	animate	proto-indo-european
+protect	animate	proto-indo-european
+renew	sapient	proto-indo-european
+arrive	sapient	proto-indo-european
+point out	sapient	proto-indo-european
+set down	sapient	proto-indo-european
+be red	concrete	proto-indo-european
+want to see	sapient	proto-indo-european
+write	sapient	russian
+see	animate	russian
+draw	sapient	russian
+drink	animate	russian
+steal	sapient	russian
+swim	animate	russian
+sink	concrete	russian
+forgive	sapient	russian
+beat	sapient	russian
+return	sapient	russian
+spit	animate	russian
+dance	sapient	russian
+bake	sapient	russian
+lead	animate	russian
+sweep	sapient	russian
+row	sapient	russian
+convey	sapient	russian
+climb	animate	russian
+wash	sapient	russian
+wind	sapient	russian
+pour	sapient	russian
+catch	sapient	russian
+feed	animate	russian
+pay	sapient	russian
+pass for	sapient	russian
+have [in my posession]	animate	spanish
+know	sapient	spanish
+fear	animate	spanish
+part	sapient	spanish
+drive	sapient	spanish, german
+be [inherently]		spanish, old-english
+be [temporarily]		spanish, old-english
+close	sapient	swedish
+strike	concrete	swedish

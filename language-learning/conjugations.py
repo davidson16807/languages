@@ -50,7 +50,8 @@ category_to_grammemes = {
                    'agent',    'institution', 'nonagent',    # able to make decisions
                    'living',   'plant',       'nonliving',   # able to grow and reproduce
                    'dynamic',  'phenomenon',  'static',      # able to exhibit change without influence
-                   'concrete', 'substance',   'abstract'],   # a physical object
+                   'concrete', 'substance',   'abstract',
+                   'thing'],      # a physical object
     'abstraction':['location','origin','destination','time','manner','reason','quality','amount'],
     'partitivity':['nonpartitive', 'partitive', 'bipartitive'],
     'clitic':     ['tonic', 'proclitic', 'mesoclitic', 'endoclitic', 'enclitic'],
@@ -966,7 +967,7 @@ write('flashcards/verb-conjugation/swedish.html',
                     ('imperative',  '2'),
                 }),
         ],
-        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+        persons = [Person('s','n',color) for color in [2,1,3,4,5]],
     ))
 
 # print(pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5))
