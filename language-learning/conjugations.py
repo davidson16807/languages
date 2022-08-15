@@ -37,16 +37,23 @@ category_to_grammemes = {
     'proform':    ['personal', 'reflexive', 'emphatic-reflexive',
                    'demonstrative', 'interrogative', 'indefinite', 'elective', 'universal', 'negative', 
                    'relative', 'numeral'],
-    'animacy':    [            'human',           'nonhuman',
-                   'sentient', 'anthropomorphic', 'nonsentient',
-                   'animate',  'animal',          'inanimate',
-                   'agent',    'institution',     'nonagent',
-                   'living',   'plant',           'nonliving',
-                   'dynamic',  'phenomenon',      'static',
-                   'concrete', 'substance',       'abstract'],
+    # animacy ordered as follows:
+    # 1st column: represents any of the grammemes that precede the entry in the middle column of that row
+    # 2nd column: represents its own unique grammeme that excludes all preceding rows and following entries
+    # 3rd column: represents any of the grammemes that follow the entry in the middle column of that row
+    # As an example, all "animate" things are "living" but not all "dynamic" things are "living",
+    # all "static" things are "nonliving" but not all static things are "abstract",
+    # and a "plant" is "living", "dynamic", "nonagent", and "inanimate", among others.
+    'animacy':    [            'human',       'nonhuman',    # member of the species homo sapiens
+                   'sentient', 'humanoid',    'nonsentient', # able to carry out concious thought
+                   'animate',  'animal',      'inanimate',   # able to move around on its own
+                   'agent',    'institution', 'nonagent',    # able to make decisions
+                   'living',   'plant',       'nonliving',   # able to grow and reproduce
+                   'dynamic',  'phenomenon',  'static',      # able to exhibit change without influence
+                   'concrete', 'substance',   'abstract'],   # a physical object
     'abstraction':['location','origin','destination','time','manner','reason','quality','amount'],
     'partitivity':['nonpartitive', 'partitive', 'bipartitive'],
-    'clitic':     ['tonic', 'enclitic'],
+    'clitic':     ['tonic', 'proclitic', 'mesoclitic', 'endoclitic', 'enclitic'],
     'distance':   ['proximal','medial','distal'],
 
     # needed for possessive pronouns
@@ -174,7 +181,7 @@ basic_pronoun_declension_hashing = DictTupleIndexing([
         'number',     # needed for German
         'gender',     # needed for Latin, German, Russian
         'animacy',    # needed for Old English, Russian
-        'partitivity',# needed for Old English, Quenya
+        'partitivity',# needed for Old English, Quenya, Finnish
         'case',       # needed for Latin
     ])
 
@@ -200,7 +207,7 @@ declension_template_lookups = DictLookup(
                     'number',     
                     'gender',     
                     'animacy',     # needed for Russian
-                    'partitivity', # needed for Old English
+                    'partitivity', # needed for Old English, Quenya, Finnish
                     'case',       
                 ])),
         'interrogative':      DictLookup('interrogative', basic_pronoun_declension_hashing),
@@ -389,12 +396,6 @@ def replace(replacements):
         return content
     return _replace
 
-def valuemap(f):
-    def _valuemap(items):
-        for key, value in items:
-            yield key, f(value)
-    return _valuemap
-
 def require(content):
     return content if content.strip() else None
 
@@ -466,7 +467,8 @@ english = English(
 card_generation = CardGeneration(
     english, emoji, CardFormatting(),
     DictTupleIndexing([
-        'number','formality','clusivity','person','clitic','gender','tense', 'aspect', 'mood', 'voice', 'lemma']))
+        'number','formality','clusivity','person','clitic','gender',
+        'tense', 'aspect', 'mood', 'voice', 'lemma']))
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -495,6 +497,7 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
@@ -546,6 +549,7 @@ write('flashcards/verb-conjugation/french.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
@@ -596,6 +600,7 @@ write('flashcards/verb-conjugation/german.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality': ['familiar','polite','formal','elevated'],
@@ -651,6 +656,7 @@ write('flashcards/verb-conjugation/latin.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
@@ -698,6 +704,7 @@ write('flashcards/verb-conjugation/old-english.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
@@ -751,6 +758,7 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                     'proform':    'personal',
                     'number':    ['singular','dual','plural'],
                     'tense':     ['present','past'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
@@ -800,6 +808,7 @@ write('flashcards/verb-conjugation/russian.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
@@ -869,6 +878,7 @@ write('flashcards/verb-conjugation/spanish.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality': ['familiar','tuteo','voseo','formal'],
@@ -919,6 +929,7 @@ write('flashcards/verb-conjugation/swedish.html',
                     **category_to_grammemes,
                     'proform':    'personal',
                     'number':    ['singular','plural'],
+                    'animacy':    'human',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
