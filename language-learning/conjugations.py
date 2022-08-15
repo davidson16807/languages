@@ -23,29 +23,30 @@ category_to_grammemes = {
     'number':     ['singular', 'dual', 'plural'],
     'clusivity':  ['inclusive', 'exclusive'],
     'mood':       ['indicative', 'subjunctive', 'conditional', 
-                   'optative', 'benedictive', 'jussive', 'potential', 
+                   'optative', 'benedictive', 'jussive', 'probable', 
                    'imperative', 'prohibitive', 'desiderative', 
                    'dubitative', 'hypothetical', 'presumptive', 'permissive', 
                    'admirative', 'ironic-admirative', 'hortative', 'eventitive', 
                    'precative', 'volitive', 'involutive', 'inferential', 
                    'necessitative', 'interrogative', 'injunctive', 
                    'suggestive', 'comissive', 'deliberative', 
-                   'propositive', 'dynamic', 
+                   'propositive', 'potential', 
                   ],
 
     # needed for correlatives in general
     'proform':    ['personal', 'reflexive', 'emphatic-reflexive',
                    'demonstrative', 'interrogative', 'indefinite', 'elective', 'universal', 'negative', 
                    'relative', 'numeral'],
-    'animacy':    [            'human',         'nonhuman',
-                   'sentient', 'humanized',     'nonsentient',
-                   'animate',  'animal',        'inanimate',
-                   'living',   'plant',         'nonliving',
-                   'moving',   'natural force', 'nonmoving',
-                   'concrete', 'abstract',
-                   'selection','selection-of-two'],
+    'animacy':    [            'human',           'nonhuman',
+                   'sentient', 'anthropomorphic', 'nonsentient',
+                   'animate',  'animal',          'inanimate',
+                   'agent',    'institution',     'nonagent',
+                   'living',   'plant',           'nonliving',
+                   'dynamic',  'phenomenon',      'static',
+                   'concrete', 'substance',       'abstract'],
+    'abstraction':['location','origin','destination','time','manner','reason','quality','amount'],
+    'partitivity':['nonpartitive', 'partitive', 'bipartitive'],
     'clitic':     ['tonic', 'enclitic'],
-    'proadverb':  ['location','source','goal','time','manner','reason','quality','amount'],
     'distance':   ['proximal','medial','distal'],
 
     # needed for possessive pronouns
@@ -135,14 +136,19 @@ conjugation_template_lookups = DictLookup(
                     'tense',      # needed for Greek, Russian, Spanish, Swedish, French
                     'aspect',     # needed for Greek, Latin, German, Russian
                 ])),
+        # verbs used as adverbs
+        'adverbial': DictLookup(
+            'participle',
+            DictTupleIndexing([
+                    'lemma',           
+                    'tense',      # needed for Russian
+                ])),
         # verbs used as adjectives, indicating the purpose of something
         'gerundive': DictLookup('gerundive', verbial_declension_hashing),
         # verbs used as nouns
         'gerund': DictLookup('gerund', verbial_declension_hashing),
         # verbs used as nouns, indicating the objective of something
         'supine': DictLookup('supine', verbial_declension_hashing),
-        # verbs used as adverbs
-        'adverbial': DictLookup('adverbial', lemma_hashing),
         # a pattern in conjugation that the verb is meant to demonstrate
         'group': DictLookup('group', lemma_hashing),
         # text that follows a verb in a sentence that demonstrates the verb
@@ -166,8 +172,9 @@ conjugation_template_lookups = DictLookup(
 
 basic_pronoun_declension_hashing = DictTupleIndexing([
         'number',     # needed for German
-        'animacy',    # needed for Old English, Russian
         'gender',     # needed for Latin, German, Russian
+        'animacy',    # needed for Old English, Russian
+        'partitivity',# needed for Old English, Quenya
         'case',       # needed for Latin
     ])
 
@@ -193,6 +200,7 @@ declension_template_lookups = DictLookup(
                     'number',     
                     'gender',     
                     'animacy',     # needed for Russian
+                    'partitivity', # needed for Old English
                     'case',       
                 ])),
         'interrogative':      DictLookup('interrogative', basic_pronoun_declension_hashing),
@@ -458,7 +466,7 @@ english = English(
 card_generation = CardGeneration(
     english, emoji, CardFormatting(),
     DictTupleIndexing([
-        'formality','clusivity','person','number','clitic','gender','tense', 'aspect', 'mood', 'voice', 'lemma']))
+        'number','formality','clusivity','person','clitic','gender','tense', 'aspect', 'mood', 'voice', 'lemma']))
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -475,7 +483,7 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                     *conjugation_annotation.annotate(
                         tsv_parsing.rows('data/inflection/ancient-greek/finite-conjugations.tsv'), 3, 4),
                     *conjugation_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/ancient-greek/nonfinite-conjugations.tsv'), 6, 2)
+                        tsv_parsing.rows('data/inflection/ancient-greek/nonfinite-conjugations.tsv'), 6, 2),
                 ]),
             mood_templates = {
                     'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
@@ -769,10 +777,8 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                     ('3', 'plural',   'masculine'),
                 })
             ],
-        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+        persons = [Person('s','n',color) for color in [3,2,1,4,5]],
     ))
-
-# print(pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5))
 
 write('flashcards/verb-conjugation/russian.html', 
     card_generation.generate(
@@ -782,7 +788,7 @@ write('flashcards/verb-conjugation/russian.html',
                     tsv_parsing.rows('data/inflection/russian/pronoun-declensions.tsv'), 1, 5)),
             conjugation_population.index([
                 *conjugation_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/russian/finite-conjugations.tsv'), 3, 5),
+                    tsv_parsing.rows('data/inflection/russian/finite-conjugations.tsv'), 3, 4),
                 *conjugation_annotation.annotate(
                     tsv_parsing.rows('data/inflection/russian/nonfinite-conjugations.tsv'), 2, 3),
             ]),
@@ -797,7 +803,7 @@ write('flashcards/verb-conjugation/russian.html',
                     'clitic':     'tonic',
                     'clusivity':  'exclusive',
                     'formality':  'familiar',
-                    'gender':    ['masculine', 'feminine', 'neuter'],
+                    'gender':    ['neuter', 'masculine', 'feminine'],
                     'tense':     ['present','future','past'],
                     'voice':      'active',
                     'aspect':     'aorist',
@@ -837,9 +843,8 @@ write('flashcards/verb-conjugation/russian.html',
                     ('past',    '3', 'plural',   'neuter'    ),
                 })
             ],
-        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+        persons = [Person('s','n',color) for color in [1,2,3,4,5]],
     ))
-
 
 write('flashcards/verb-conjugation/spanish.html', 
     card_generation.generate(
@@ -953,6 +958,8 @@ write('flashcards/verb-conjugation/swedish.html',
         persons = [Person('s','n',color) for color in [2,3,1,4,5]],
     ))
 
+# print(pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5))
+
 # print(emoji.conjugate(grammemes, translation.conjugation_lookups['emoji']))
 # print(emoji.conjugate({**grammemes, 'mood':'imperative', 'aspect':'imperfect', 'person':'2', 'number':'dual'}, translation.conjugation_lookups['emoji']))
 # print(emoji.conjugate({**grammemes, 'mood':'imperative', 'tense':'past', 'number':'dual'}, translation.conjugation_lookups['emoji']))
@@ -969,12 +976,6 @@ write('flashcards/verb-conjugation/swedish.html',
 #     *conjugation_annotation.annotate(
 #         tsv_parsing.rows('data/inflection/sanskrit/conjugations.tsv'), 2, 4),
 # ])
-
-
-
-
-
-
 
 # grammemes = {
 #     'lemma': 'release', 

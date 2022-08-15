@@ -3,18 +3,9 @@ person→		1	2	3			1	2	3
 plurality→		singular	singular	singular	dual	plural	singular	singular	singular	dual	plural		
 tense→		present	present	present	present	present	past	past	past	past	past		
 be     	templates	am	are	is	are	are	was	were	was	were	were	been	being
-be [inherently]	spanish, old-english	am [inherently]	are [inherently]	is [inherently]	are [inherently]	are [inherently]	was [inherently]	were [inherently]	was [inherently]	were [inherently]	were [inherently]	been [inherently]	being [inherently]
-be [temporarily]	spanish, old-english	am [temporarily]	are [temporarily]	is [temporarily]	are [temporarily]	are [temporarily]	was [temporarily]	were [temporarily]	was [temporarily]	were [temporarily]	were [temporarily]	been [temporarily]	being [temporarily]
-have   	templates	have	have	has	have	have	had	had	had	had	had	had	having
-command	templates	command	command	commands	command	command	commanded	commanded	commanded	commanded	commanded	commanded	commanding
-forbid	templates	forbid	forbid	forbids	forbid	forbid	forbade	forbade	forbade	forbade	forbade	forbidden	forbidding
-permit	templates	permit	permit	permits	permit	permit	permitted	permitted	permitted	permitted	permitted	permitted	permitting
-intend	templates	intend	intend	intends	intend	intend	intended	intended	intended	intended	intended	intended	intending
-wish	templates	wish	wish	wishes	wish	wish	wished	wished	wished	wished	wished	wished	wishing
 do	common	do	do	does	do	do	did	did	did	did	did	done	doing
 go     	common	go	go	goes	go	go	went	went	went	went	went	gone	going
 want	common	want	want	wants	want	want	wanted	wanted	wanted	wanted	wanted	wanted	wanting
-have [in my posession]	spanish	have [in my posession]	have [in my posession]	has [in my posession]	have [in my posession]	have [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	having [in my posession]
 give	common	give	give	gives	give	give	gave	gave	gave	gave	gave	given	giving
 say	common	say	say	say	say	say	said	said	said	said	said	said	saying
 be able	common	can	can	can	can	can	could	could	could	could	could	been able	being able
@@ -23,15 +14,39 @@ read	common	read	read	reads	read	read	read	read [in the past]	read [in the past]
 carry	common	carry	carry	carries	carry	carry	carried	carried	carried	carried	carried	carried	carrying
 become	common	become	become	becomes	become	become	became	became	became	became	became	become	becoming
 eat	common	eat	eat	eats	eat	eat	ate	ate	ate	ate	ate	eaten	eating
-write	russian	write	write	writes	write	write	wrote	wrote	wrote	wrote	wrote	written	writing
-see	russian	see 	see	sees	see	see	saw	saw	saw	saw	saw	seen	seeing
-choose 	french	choose	choose	chooses	choose	choose	chose	chose	chose	chose	chose	chosen	choosing
 sew	common	sew	sew	sews	sew	sew	sewed	sewed	sewed	sewed	sewed	sewn	sewing
 love	common	love	love	loves	love	love	loved	loved	loved	loved	loved	loved	loving
 work	common	work	work	works	work	work	worked	worked	worked	worked	worked	worked	working
 ask	common	ask	ask	asks	ask	ask	asked	asked	asked	asked	asked	asked	asking
-know	spanish	know	know	knows	know	know	knew	knew	knew	knew	knew	known	knowing
-drive	spanish, german	drive	drive	drives	drive	drive	drive	drive	drive	drive	drive	driven	driving
+release	ancient-greek	release	release	releases	release	release	released	released	released	released	released	released	releasing
+choose 	french	choose	choose	chooses	choose	choose	chose	chose	chose	chose	chose	chosen	choosing
+lose   	french	lose	lose	loses	lose	lose	lost	lost	lost	lost	lost	lost	losing
+receive	french	receive	receive	receives	receive	receive	received	received	received	received	received	received	receiving
+act	german	act	act	acts	act	act	acted	acted	acted	acted	acted	acted	acting
+may	german	am allowed	are allowed	is allowed	are allowed	are allowed	was allowed	were allowed	was allowed	were allowed	were allowed	been allowed	being allowed
+speak  	latin	speak	speak	speaks	speak	speak	spoke	spoke	spoke	spoke	spoke	spoken	speaking
+advise	latin	advise	advise	advises	advise	advise	advised	advised	advised	advised	advised	advised	advising
+direct	latin	direct	direct	directs	direct	direct	directed	directed	directed	directed	directed	directed	directing
+capture	latin	capture	capture	captures	capture	capture	captured	captured	captured	captured	captured	captured	capturing
+hear	latin	hear	hear	hears	hear	hear	heard	heard	heard	heard	heard	heard	hearing
+steal	old-english	steal	steal	steals	steal	steal	stole	stole	stole	stole	stole	stolen	stealing
+share	old-english	share	share	shares	share	share	shared	shared	shared	shared	shared	shared	sharing
+tame	old-english	tame	tame	tames	tame	tame	tamed	tamed	tamed	tamed	tamed	tamed	taming
+move	old-english	move	move	moves	move	move	moved	moved	moved	moved	moved	moved	moving
+think	old-english	think	think	thinks	think	think	thought	thought	thought	thought	thought	thought	thinking
+carry	proto-indo-european	carry	carry	carries	carry	carry	carried	carried	carried	carried	carried	carried	carrying
+leave	proto-indo-european	leave	leave	leaves	leave	leave	left	left	left	left	left	left	leaving
+stretch	proto-indo-european	stretch	stretch	stretches	stretch	stretch	stretched	stretched	stretched	stretched	stretched	stretched	stretching
+sit	proto-indo-european	sit	sit	sits	sit	sit	sat	sat	sat	sat	sat	sat	sitting
+protect	proto-indo-european	protect	protect	protect	protect	protect	protected	protected	protected	protected	protected	protected	protecting
+renew	proto-indo-european	renew	renew	renews	renew	renew	renewed	renewed	renewed	renewed	renewed	renewed	renewing
+arrive	proto-indo-european	arrive	arrive	arrives	arrive	arrive	arrived	arrived	arrived	arrived	arrived	arrived	arriving
+point out	proto-indo-european	point out	point out	points out	point out	point out	pointed out	pointed out	pointed out	pointed out	pointed out	pointed out	pointing out
+set down	proto-indo-european	set down	set down	sets down	set down	set down	seated	seated	seated	seated	seated	seated	setting down
+be red	proto-indo-european	am red	are red	is red	are red	are red	was red	were red	was red	were red	were red	been made red	being red
+want to see	proto-indo-european	want to see	want to see	wants to see	want to see	want to see	wanted to see	wanted to see	wanted to see	wanted to see	wanted to see	wanted seen	wanting to see
+write	russian	write	write	writes	write	write	wrote	wrote	wrote	wrote	wrote	written	writing
+see	russian	see 	see	sees	see	see	saw	saw	saw	saw	saw	seen	seeing
 draw	russian	draw	draw	draws	draw	draw	drew	drew	drew	drew	drew	drawn	drawing
 drink	russian	drink	drink	drinks	drink	drink	drank	drank	drank	drank	drank	drunken	drinking
 steal	russian	steal	steal	steals	steal	steal	stole	stole	stole	stole	stole	stolen	stealing
@@ -55,38 +70,23 @@ pour	russian	pour	pour	pours	pour	pour	poured	poured	poured	poured	poured	poured
 catch	russian	catch	catch	catches	catch	catch	caught	caught	caught	caught	caught	caught	catching
 feed	russian	feed	feed	feeds	feed	feed	fed	fed	fed	fed	fed	fed	feeding
 pay	russian	pay	pay	pays	pay	pay	paid	paid	paid	paid	paid	paid	paying
-lose   	french	lose	lose	loses	lose	lose	lost	lost	lost	lost	lost	lost	losing
-receive	french	receive	receive	receives	receive	receive	received	received	received	received	received	received	receiving
-release	ancient-greek	release	release	releases	release	release	released	released	released	released	released	released	releasing
-speak  	latin	speak	speak	speaks	speak	speak	spoke	spoke	spoke	spoke	spoke	spoken	speaking
-advise	latin	advise	advise	advises	advise	advise	advised	advised	advised	advised	advised	advised	advising
-direct	latin	direct	direct	directs	direct	direct	directed	directed	directed	directed	directed	directed	directing
-capture	latin	capture	capture	captures	capture	capture	captured	captured	captured	captured	captured	captured	capturing
-hear	latin	hear	hear	hears	hear	hear	heard	heard	heard	heard	heard	heard	hearing
-carry	proto-indo-european	carry	carry	carries	carry	carry	carried	carried	carried	carried	carried	carried	carrying
-leave	proto-indo-european	leave	leave	leaves	leave	leave	left	left	left	left	left	left	leaving
-stretch	proto-indo-european	stretch	stretch	stretches	stretch	stretch	stretched	stretched	stretched	stretched	stretched	stretched	stretching
-sit	proto-indo-european	sit	sit	sits	sit	sit	sat	sat	sat	sat	sat	sat	sitting
-protect	proto-indo-european	protect	protect	protect	protect	protect	protected	protected	protected	protected	protected	protected	protecting
-renew	proto-indo-european	renew	renew	renews	renew	renew	renewed	renewed	renewed	renewed	renewed	renewed	renewing
-arrive	proto-indo-european	arrive	arrive	arrives	arrive	arrive	arrived	arrived	arrived	arrived	arrived	arrived	arriving
+pass for	russian	pass for	pass for	passes for	pass for	pass for	passed for	passed for	passed for	passed for	passed for	passed for	passing for
+have [in my posession]	spanish	have [in my posession]	have [in my posession]	has [in my posession]	have [in my posession]	have [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	had [in my posession]	having [in my posession]
+know	spanish	know	know	knows	know	know	knew	knew	knew	knew	knew	known	knowing
 fear	spanish	fear	fear	fears	fear	fear	feared	feared	feared	feared	feared	feared	fearing
 part	spanish	part	part	parts	part	part	parted	parted	parted	parted	parted	parted	parting
+drive	spanish, german	drive	drive	drives	drive	drive	drive	drive	drive	drive	drive	driven	driving
+be [inherently]	spanish, old-english	am [inherently]	are [inherently]	is [inherently]	are [inherently]	are [inherently]	was [inherently]	were [inherently]	was [inherently]	were [inherently]	were [inherently]	been [inherently]	being [inherently]
+be [temporarily]	spanish, old-english	am [temporarily]	are [temporarily]	is [temporarily]	are [temporarily]	are [temporarily]	was [temporarily]	were [temporarily]	was [temporarily]	were [temporarily]	were [temporarily]	been [temporarily]	being [temporarily]
 call	swedish	call	call	calls	call	call	called	called	called	called	called	called	calling
 close	swedish	close	close	closes	close	close	closed	closed	closed	closed	closed	closed	closing
 strike	swedish	strike	strike	strikes	strike	strike	struck	struck	struck	struck	struck	struck	striking
-steal	old-english	steal	steal	steals	steal	steal	stole	stole	stole	stole	stole	stolen	stealing
-share	old-english	share	share	shares	share	share	shared	shared	shared	shared	shared	shared	sharing
-tame	old-english	tame	tame	tames	tame	tame	tamed	tamed	tamed	tamed	tamed	tamed	taming
-move	old-english	move	move	moves	move	move	moved	moved	moved	moved	moved	moved	moving
-think	old-english	think	think	thinks	think	think	thought	thought	thought	thought	thought	thought	thinking
-act	german	act	act	acts	act	act	acted	acted	acted	acted	acted	acted	acting
-point out	proto-indo-european	point out	point out	points out	point out	point out	pointed out	pointed out	pointed out	pointed out	pointed out	pointed out	pointing out
-set down	proto-indo-european	set down	set down	sets down	set down	set down	seated	seated	seated	seated	seated	seated	setting down
-be red	proto-indo-european	am red	are red	is red	are red	are red	was red	were red	was red	were red	were red	been made red	being red
-want to see	proto-indo-european	want to see	want to see	wants to see	want to see	want to see	wanted to see	wanted to see	wanted to see	wanted to see	wanted to see	wanted seen	wanting to see
-pass for	russian	pass for	pass for	passes for	pass for	pass for	passed for	passed for	passed for	passed for	passed for	passed for	passing for
-may	german	am allowed	are allowed	is allowed	are allowed	are allowed	was allowed	were allowed	was allowed	were allowed	were allowed	been allowed	being allowed
+have   	templates	have	have	has	have	have	had	had	had	had	had	had	having
+command	templates	command	command	commands	command	command	commanded	commanded	commanded	commanded	commanded	commanded	commanding
+forbid	templates	forbid	forbid	forbids	forbid	forbid	forbade	forbade	forbade	forbade	forbade	forbidden	forbidding
+permit	templates	permit	permit	permits	permit	permit	permitted	permitted	permitted	permitted	permitted	permitted	permitting
+intend	templates	intend	intend	intends	intend	intend	intended	intended	intended	intended	intended	intended	intending
+wish	templates	wish	wish	wishes	wish	wish	wished	wished	wished	wished	wished	wished	wishing
 													
 													
 													

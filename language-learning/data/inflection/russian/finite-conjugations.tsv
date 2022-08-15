@@ -1,381 +1,381 @@
-				indicative	indicative	indicative	indicative	indicative	imperative	
-				present	future	past	past	past	present	
-verb		person	plurality			masculine	feminine	neuter		
-be	active	participle		су́щий		бы́вший	бы́вший	бы́вший		
-be	passive	participle								
-be	active	adverbial		бу́дучи		бы́в	бы́в	бы́в		
-be	active	1	singular	есть	бу́ду	бы́л	была́	бы́ло		
-be	active	2	singular	есть	бу́дешь	бы́л	была́	бы́ло	бу́дь	
-be	active	3	singular	есть	бу́дет	бы́л	была́	бы́ло		
-be	active	1	plural	есть	бу́дем	бы́ли	бы́ли	бы́ли		
-be	active	2	plural	есть	бу́дете	бы́ли	бы́ли	бы́ли	бу́дьте	
-be	active	3	plural	есть	бу́дут	бы́ли	бы́ли	бы́ли		
-see	active	participle		ви́дящий		ви́девший				
-see	passive	participle		ви́димый		ви́денный				
-see	active	adverbial		ви́дя		ви́дев				
-see	active	1	singular	ви́жу		ви́дел	ви́дела	ви́дело		
-see	active	2	singular	ви́дишь		ви́дел	ви́дела	ви́дело		
-see	active	3	singular	ви́дит		ви́дел	ви́дела	ви́дело		
-see	active	1	plural	ви́дим		ви́дели	ви́дели	ви́дели		
-see	active	2	plural	ви́дите		ви́дели	ви́дели	ви́дели		
-see	active	3	plural	ви́дят		ви́дели	ви́дели	ви́дели		
-give	active	participle		даю́щий		дава́вший				
-give	passive	participle		дава́емый						
-give	active	adverbial		дава́я		дава́в				
-give	active	1	singular	даю́	дава́ть	дава́л	дава́ла	дава́ло		
-give	active	2	singular	даёшь	дава́ть	дава́л	дава́ла	дава́ло	дава́й	
-give	active	3	singular	даёт	дава́ть	дава́л	дава́ла	дава́ло		
-give	active	1	plural	даём	дава́ть	дава́ли	дава́ли	дава́ли		
-give	active	2	plural	даёте	дава́ть	дава́ли	дава́ли	дава́ли	дава́йте	
-give	active	3	plural	даю́т	дава́ть	дава́ли	дава́ли	дава́ли		
-give2	active	participle				да́вший	да́вший	да́вший		
-give2	passive	participle				да́нный	да́нный	да́нный		
-give2	active	adverbial				да́в	да́в	да́в		
-give2	active	1	singular		да́м	да́л	дала́	да́ло		
-give2	active	2	singular		да́шь	да́л	дала́	да́ло	да́й	
-give2	active	3	singular		да́ст	да́л	дала́	да́ло		
-give2	active	1	plural		дади́м	да́ли	да́ли	да́ли		
-give2	active	2	plural		дади́те	да́ли	да́ли	да́ли	да́йте	
-give2	active	3	plural		даду́т	да́ли	да́ли	да́ли		
-eat	active	participle		едя́щий		е́вший				
-eat	passive	participle		едо́мый		е́денный				
-eat	active	adverbial		едя́		е́в				
-eat	active	1	singular	е́м	е́сть	е́л	е́ла	е́ло		
-eat	active	2	singular	е́шь	е́сть	е́л	е́ла	е́ло	е́шь	
-eat	active	3	singular	е́ст	е́сть	е́л	е́ла	е́ло		
-eat	active	1	plural	еди́м	е́сть	е́ли	е́ли	е́ли		
-eat	active	2	plural	еди́те	е́сть	е́ли	е́ли	е́ли	е́шьте	
-eat	active	3	plural	едя́т	е́сть	е́ли	е́ли	е́ли		
-live	active	participle		живу́щий		жи́вший	жи́вший	жи́вший		
-live	passive	participle								
-live	active	adverbial		живя́		жи́в	жи́в	жи́в		
-live	active	1	singular	живу́	жи́ть	жи́л	жила́	жи́ло		
-live	active	2	singular	живёшь	жи́ть	жи́л	жила́	жи́ло	живи́	
-live	active	3	singular	живёт	жи́ть	жи́л	жила́	жи́ло		
-live	active	1	plural	живём	жи́ть	жи́ли	жи́ли	жи́ли		
-live	active	2	plural	живёте	жи́ть	жи́ли	жи́ли	жи́ли	живи́те	
-live	active	3	plural	живу́т	жи́ть	жи́ли	жи́ли	жи́ли		
-call	active	participle		зову́щий		зва́вший	зва́вший	зва́вший		
-call	passive	participle				зва́нный	зва́нный	зва́нный		
-call	active	adverbial		зовя́		зва́в	зва́в	зва́в		
-call	active	1	singular	зову́	зва́ть	зва́л	звала́	зва́ло		
-call	active	2	singular	зовёшь	зва́ть	зва́л	звала́	зва́ло	зови́	
-call	active	3	singular	зовёт	зва́ть	зва́л	звала́	зва́ло		
-call	active	1	plural	зовём	зва́ть	зва́ли	зва́ли	зва́ли		
-call	active	2	plural	зовёте	зва́ть	зва́ли	зва́ли	зва́ли	зови́те	
-call	active	3	plural	зову́т	зва́ть	зва́ли	зва́ли	зва́ли		
-go	active	participle		иду́щий		ше́дший	ше́дший	ше́дший		
-go	passive	participle								
-go	adverbial	adverbial		идя́		ше́дши	ше́дши	ше́дши		
-go	active	1	singular	иду́	идти́	шёл	шла́	шло́		
-go	active	2	singular	идёшь	идти́	шёл	шла́	шло́	иди́	
-go	active	3	singular	идёт	идти́	шёл	шла́	шло́		
-go	active	1	plural	идём	идти́	шли́	шли́	шли́		
-go	active	2	plural	идёте	идти́	шли́	шли́	шли́	иди́те	
-go	active	3	plural	иду́т	идти́	шли́	шли́	шли́		
-write	active	participle		пи́шущий		писа́вший	писа́вший	писа́вший		
-write	passive	participle				пи́санный	пи́санный	пи́санный		
-write	adverbial	adverbial		пиша́		писа́в	писа́в	писа́в		
-write	active	1	singular	пишу́	писа́ть	писа́л	писа́ла	писа́ло		
-write	active	2	singular	пи́шешь	писа́ть	писа́л	писа́ла	писа́ло	пиши́	
-write	active	3	singular	пи́шет	писа́ть	писа́л	писа́ла	писа́ло		
-write	active	1	plural	пи́шем	писа́ть	писа́ли	писа́ли	писа́ли		
-write	active	2	plural	пи́шете	писа́ть	писа́ли	писа́ли	писа́ли	пиши́те	
-write	active	3	plural	пи́шут	писа́ть	писа́ли	писа́ли	писа́ли		
-read	active	participle		чита́ющий		чита́вший	чита́вший	чита́вший		
-read	passive	participle		чита́емый		чи́танный	чи́танный	чи́танный		
-read	adverbial	adverbial		чита́я		чита́в	чита́в	чита́в		
-read	active	1	singular	чита́ю	чита́ть	чита́л	чита́ла	чита́ло		
-read	active	2	singular	чита́ешь	чита́ть	чита́л	чита́ла	чита́ло	чита́й	
-read	active	3	singular	чита́ет	чита́ть	чита́л	чита́ла	чита́ло		
-read	active	1	plural	чита́ем	чита́ть	чита́ли	чита́ли	чита́ли		
-read	active	2	plural	чита́ете	чита́ть	чита́ли	чита́ли	чита́ли	чита́йте	
-read	active	3	plural	чита́ют	чита́ть	чита́ли	чита́ли	чита́ли		
-return	active	participle				верну́вший	верну́вший	верну́вший		
-return	passive	participle				верну́в	верну́в	верну́в		
-return	adverbial	adverbial				верну́вши	верну́вши	верну́вши		
-return	active	1	singular		верну́	верну́л	верну́ла	верну́ло		
-return	active	2	singular		вернёшь	верну́л	верну́ла	верну́ло	верни́	
-return	active	3	singular		вернёт	верну́л	верну́ла	верну́ло		
-return	active	1	plural		вернём	верну́ли	верну́ли	верну́ли		
-return	active	2	plural		вернёте	верну́ли	верну́ли	верну́ли	верни́те	
-return	active	3	plural		верну́т	верну́ли	верну́ли	верну́ли		
-draw	active	participle		рису́ющий		рисова́вший	рисова́вший	рисова́вший		
-draw	passive	participle		рису́емый		рисо́ванный	рисо́ванный	рисо́ванный		
-draw	adverbial	adverbial		рису́я		рисова́в	рисова́в	рисова́в		
-draw	active	1	singular	рису́ю	рисова́ть	рисова́л	рисова́ла	рисова́ло		
-draw	active	2	singular	рису́ешь	рисова́ть	рисова́л	рисова́ла	рисова́ло	рису́й	
-draw	active	3	singular	рису́ет	рисова́ть	рисова́л	рисова́ла	рисова́ло		
-draw	active	1	plural	рису́ем	рисова́ть	рисова́ли	рисова́ли	рисова́ли		
-draw	active	2	plural	рису́ете	рисова́ть	рисова́ли	рисова́ли	рисова́ли	рису́йте	
-draw	active	3	plural	рису́ют	рисова́ть	рисова́ли	рисова́ли	рисова́ли		
-spit	active	participle		плюю́щий		плева́вший	плева́вший	плева́вший		
-spit	passive	participle								
-spit	adverbial	adverbial		плюя́		плева́в	плева́в	плева́в		
-spit	active	1	singular	плюю́	плюю́	плева́л	плева́ла	плева́ло		
-spit	active	2	singular	плюёшь	плюёшь	плева́л	плева́ла	плева́ло	плю́й	
-spit	active	3	singular	плюёт	плюёт	плева́л	плева́ла	плева́ло		
-spit	active	1	plural	плюём	плюём	плева́ли	плева́ли	плева́ли		
-spit	active	2	plural	плюёте	плюёте	плева́ли	плева́ли	плева́ли	плю́йте	
-spit	active	3	plural	плюю́т	плюю́т	плева́ли	плева́ли	плева́ли		
-dance	active	participle		танцу́ющий		танцева́вший	танцева́вший	танцева́вший		
-dance	passive	participle		танцу́емый		танцо́ванный	танцо́ванный	танцо́ванный		
-dance	adverbial	adverbial		танцу́я		танцева́в	танцева́в	танцева́в		
-dance	active	1	singular	танцу́ю	танцева́ть	танцева́л	танцева́ла	танцева́ло		
-dance	active	2	singular	танцу́ешь	танцева́ть	танцева́л	танцева́ла	танцева́ло	танцу́й	
-dance	active	3	singular	танцу́ет	танцева́ть	танцева́л	танцева́ла	танцева́ло		
-dance	active	1	plural	танцу́ем	танцева́ть	танцева́ли	танцева́ли	танцева́ли		
-dance	active	2	plural	танцу́ете	танцева́ть	танцева́ли	танцева́ли	танцева́ли	танцу́йте	
-dance	active	3	plural	танцу́ют	танцева́ть	танцева́ли	танцева́ли	танцева́ли		
-be able	active	participle		могу́щий		мо́гший	мо́гший	мо́гший		
-be able	passive	participle								
-be able	adverbial	adverbial								
-be able	active	1	singular	могу́	мо́чь	мо́г	могла́	могло́		
-be able	active	2	singular	мо́жешь	мо́чь	мо́г	могла́	могло́	моги́	
-be able	active	3	singular	мо́жет	мо́чь	мо́г	могла́	могло́		
-be able	active	1	plural	мо́жем	мо́чь	могли́	могли́	могли́		
-be able	active	2	plural	мо́жете	мо́чь	могли́	могли́	могли́	моги́те	
-be able	active	3	plural	мо́гут	мо́чь	могли́	могли́	могли́		
-bake	active	participle		пеку́щий		пёкший	пёкший	пёкший		
-bake	passive	participle				печённый	печённый	печённый		
-bake	adverbial	adverbial				пёкши	пёкши	пёкши		
-bake	active	1	singular	пеку́	пе́чь	пёк	пекла́	пекло́		
-bake	active	2	singular	печёшь	пе́чь	пёк	пекла́	пекло́	пеки́	
-bake	active	3	singular	печёт	пе́чь	пёк	пекла́	пекло́		
-bake	active	1	plural	печём	пе́чь	пекли́	пекли́	пекли́		
-bake	active	2	plural	печёте	пе́чь	пекли́	пекли́	пекли́	пеки́те	
-bake	active	3	plural	пеку́т	пе́чь	пекли́	пекли́	пекли́		
-carry	active	participle		несу́щий		нёсший	нёсший	нёсший		
-carry	passive	participle				несённый	несённый	несённый		
-carry	adverbial	adverbial		неся́		нёсши	нёсши	нёсши		
-carry	active	1	singular	несу́	нести́	нёс	несла́	несло́		
-carry	active	2	singular	несёшь	нести́	нёс	несла́	несло́	неси́	
-carry	active	3	singular	несёт	нести́	нёс	несла́	несло́		
-carry	active	1	plural	несём	нести́	несли́	несли́	несли́		
-carry	active	2	plural	несёте	нести́	несли́	несли́	несли́	неси́те	
-carry	active	3	plural	несу́т	нести́	несли́	несли́	несли́		
-lead	active	participle		веду́щий		ве́дший	ве́дший	ве́дший		
-lead	passive	participle		ведо́мый		ведённый	ведённый	ведённый		
-lead	adverbial	adverbial		ведя́		ве́дши	ве́дши	ве́дши		
-lead	active	1	singular	веду́	вести́	вёл	вела́	вело́		
-lead	active	2	singular	ведёшь	вести́	вёл	вела́	вело́	веди́	
-lead	active	3	singular	ведёт	вести́	вёл	вела́	вело́		
-lead	active	1	plural	ведём	вести́	вели́	вели́	вели́		
-lead	active	2	plural	ведёте	вести́	вели́	вели́	вели́	веди́те	
-lead	active	3	plural	веду́т	вести́	вели́	вели́	вели́		
-sweep	active	participle		мету́щий		мётший	мётший	мётший		
-sweep	passive	participle				метённый	метённый	метённый		
-sweep	adverbial	adverbial		метя́		мётши	мётши	мётши		
-sweep	active	1	singular	мету́	мести́	мёл	мела́	мело́		
-sweep	active	2	singular	метёшь	мести́	мёл	мела́	мело́	мети́	
-sweep	active	3	singular	метёт	мести́	мёл	мела́	мело́		
-sweep	active	1	plural	метём	мести́	мели́	мели́	мели́		
-sweep	active	2	plural	метёте	мести́	мели́	мели́	мели́	мети́те	
-sweep	active	3	plural	мету́т	мести́	мели́	мели́	мели́		
-row	active	participle		гребу́щий		грёбший	грёбший	грёбший		
-row	passive	participle				гребённый	гребённый	гребённый		
-row	adverbial	adverbial		гребя́		грёбши	грёбши	грёбши		
-row	active	1	singular	гребу́	грести́	грёб	гребла́	гребло́		
-row	active	2	singular	гребёшь	грести́	грёб	гребла́	гребло́	греби́	
-row	active	3	singular	гребёт	грести́	грёб	гребла́	гребло́		
-row	active	1	plural	гребём	грести́	гребли́	гребли́	гребли́		
-row	active	2	plural	гребёте	грести́	гребли́	гребли́	гребли́	греби́те	
-row	active	3	plural	гребу́т	грести́	гребли́	гребли́	гребли́		
-steal	active	participle		краду́щий		кра́вший	кра́вший	кра́вший		
-steal	passive	participle				кра́денный	кра́денный	кра́денный		
-steal	adverbial	adverbial		крадя́		кра́в	кра́в	кра́в		
-steal	active	1	singular	краду́	кра́сть	кра́л	кра́ла	кра́ло		
-steal	active	2	singular	крадёшь	кра́сть	кра́л	кра́ла	кра́ло	кради́	
-steal	active	3	singular	крадёт	кра́сть	кра́л	кра́ла	кра́ло		
-steal	active	1	plural	крадём	кра́сть	кра́ли	кра́ли	кра́ли		
-steal	active	2	plural	крадёте	кра́сть	кра́ли	кра́ли	кра́ли	кради́те	
-steal	active	3	plural	краду́т	кра́сть	кра́ли	кра́ли	кра́ли		
-convey	active	participle		везу́щий		вёзший	вёзший	вёзший		
-convey	passive	participle		везо́мый		везённый	везённый	везённый		
-convey	adverbial	adverbial		везя́		вёзши	вёзши	вёзши		
-convey	active	1	singular	везу́	везти́	вёз	везла́	везло́		
-convey	active	2	singular	везёшь	везти́	вёз	везла́	везло́	вези́	
-convey	active	3	singular	везёт	везти́	вёз	везла́	везло́		
-convey	active	1	plural	везём	везти́	везли́	везли́	везли́		
-convey	active	2	plural	везёте	везти́	везли́	везли́	везли́	вези́те	
-convey	active	3	plural	везу́т	везти́	везли́	везли́	везли́		
-climb	active	participle		ле́зущий		ле́зший	ле́зший	ле́зший		
-climb	passive	participle								
-climb	adverbial	adverbial		ле́зя		ле́зши	ле́зши	ле́зши		
-climb	active	1	singular	ле́зу	ле́зть	ле́з	ле́зла	ле́зло		
-climb	active	2	singular	ле́зешь	ле́зть	ле́з	ле́зла	ле́зло	ле́зь	
-climb	active	3	singular	ле́зет	ле́зть	ле́з	ле́зла	ле́зло		
-climb	active	1	plural	ле́зем	ле́зть	ле́зли	ле́зли	ле́зли		
-climb	active	2	plural	ле́зете	ле́зть	ле́зли	ле́зли	ле́зли	ле́зьте	
-climb	active	3	plural	ле́зут	ле́зть	ле́зли	ле́зли	ле́зли		
-wash	active	participle		мо́ющий		мы́вший	мы́вший	мы́вший		
-wash	passive	participle		мо́емый		мы́тый	мы́тый	мы́тый		
-wash	adverbial	adverbial		мо́я		мы́в	мы́в	мы́в		
-wash	active	1	singular	мо́ю	мы́ть	мы́л	мы́ла	мы́ло		
-wash	active	2	singular	мо́ешь	мы́ть	мы́л	мы́ла	мы́ло	мо́й	
-wash	active	3	singular	мо́ет	мы́ть	мы́л	мы́ла	мы́ло		
-wash	active	1	plural	мо́ем	мы́ть	мы́ли	мы́ли	мы́ли		
-wash	active	2	plural	мо́ете	мы́ть	мы́ли	мы́ли	мы́ли	мо́йте	
-wash	active	3	plural	мо́ют	мы́ть	мы́ли	мы́ли	мы́ли		
-beat	active	participle		бью́щий		би́вший				
-beat	passive	participle				би́тый				
-beat	adverbial	adverbial				би́в				
-beat	active	1	singular	бью́	би́ть	би́л	би́ла	би́ло		
-beat	active	2	singular	бьёшь	би́ть	би́л	би́ла	би́ло	бе́й	
-beat	active	3	singular	бьёт	би́ть	би́л	би́ла	би́ло		
-beat	active	1	plural	бьём	би́ть	би́ли	би́ли	би́ли		
-beat	active	2	plural	бьёте	би́ть	би́ли	би́ли	би́ли	бе́йте	
-beat	active	3	plural	бью́т	би́ть	би́ли	би́ли	би́ли		
-wind	active	participle		вью́щий		ви́вший	ви́вший	ви́вший		
-wind	passive	participle				ви́тый	ви́тый	ви́тый		
-wind	adverbial	adverbial		вья́		ви́в	ви́в	ви́в		
-wind	active	1	singular	вью́	ви́ть	ви́л	вила́	ви́ло		
-wind	active	2	singular	вьёшь	ви́ть	ви́л	вила́	ви́ло	ве́й	
-wind	active	3	singular	вьёт	ви́ть	ви́л	вила́	ви́ло		
-wind	active	1	plural	вьём	ви́ть	ви́ли	ви́ли	ви́ли		
-wind	active	2	plural	вьёте	ви́ть	ви́ли	ви́ли	ви́ли	ве́йте	
-wind	active	3	plural	вью́т	ви́ть	ви́ли	ви́ли	ви́ли		
-pour	active	participle		лью́щий	ли́вший	ли́вший	ли́вший	ли́вший		
-pour	passive	participle			ли́тый	ли́тый	ли́тый	ли́тый		
-pour	adverbial	adverbial		лья́	ли́в	ли́в	ли́в	ли́в		
-pour	active	1	singular	лью́	ли́ть	ли́л	лила́	ли́ло		
-pour	active	2	singular	льёшь	ли́ть	ли́л	лила́	ли́ло	ле́й	
-pour	active	3	singular	льёт	ли́ть	ли́л	лила́	ли́ло		
-pour	active	1	plural	льём	ли́ть	ли́ли	ли́ли	ли́ли		
-pour	active	2	plural	льёте	ли́ть	ли́ли	ли́ли	ли́ли	ле́йте	
-pour	active	3	plural	лью́т	ли́ть	ли́ли	ли́ли	ли́ли		
-drink	active	participle		пью́щий		пи́вший	пи́вший	пи́вший		
-drink	passive	participle				пи́тый	пи́тый	пи́тый		
-drink	adverbial	adverbial				пи́в	пи́в	пи́в		
-drink	active	1	singular	пью́	пи́ть	пи́л	пила́	пи́ло		
-drink	active	2	singular	пьёшь	пи́ть	пи́л	пила́	пи́ло	пе́й	
-drink	active	3	singular	пьёт	пи́ть	пи́л	пила́	пи́ло		
-drink	active	1	plural	пьём	пи́ть	пи́ли	пи́ли	пи́ли		
-drink	active	2	plural	пьёте	пи́ть	пи́ли	пи́ли	пи́ли	пе́йте	
-drink	active	3	plural	пью́т	пи́ть	пи́ли	пи́ли	пи́ли		
-sew	active	participle		шью́щий		ши́вший				
-sew	passive	participle				ши́тый				
-sew	adverbial	adverbial				ши́в				
-sew	active	1	singular	шью́	ши́ть	ши́л	ши́ла	ши́ло		
-sew	active	2	singular	шьёшь	ши́ть	ши́л	ши́ла	ши́ло	ше́й	
-sew	active	3	singular	шьёт	ши́ть	ши́л	ши́ла	ши́ло		
-sew	active	1	plural	шьём	ши́ть	ши́ли	ши́ли	ши́ли		
-sew	active	2	plural	шьёте	ши́ть	ши́ли	ши́ли	ши́ли	ше́йте	
-sew	active	3	plural	шью́т	ши́ть	ши́ли	ши́ли	ши́ли		
-live	active	participle		живу́щий		жи́вший	жи́вший	жи́вший		
-live	passive	participle								
-live	adverbial	adverbial		живя́		жи́в	жи́в	жи́в		
-live	active	1	singular	живу́	жи́ть	жи́л	жила́	жи́ло		
-live	active	2	singular	живёшь	жи́ть	жи́л	жила́	жи́ло	живи́	
-live	active	3	singular	живёт	жи́ть	жи́л	жила́	жи́ло		
-live	active	1	plural	живём	жи́ть	жи́ли	жи́ли	жи́ли		
-live	active	2	plural	живёте	жи́ть	жи́ли	жи́ли	жи́ли	живи́те	
-live	active	3	plural	живу́т	жи́ть	жи́ли	жи́ли	жи́ли		
-swim	active	participle		плыву́щий		плы́вший	плы́вший	плы́вший		
-swim	passive	participle								
-swim	adverbial	adverbial		плывя́		плы́в	плы́в	плы́в		
-swim	active	1	singular	плыву́	плы́ть	плы́л	плыла́	плы́ло		
-swim	active	2	singular	плывёшь	плы́ть	плы́л	плыла́	плы́ло	плыви́	
-swim	active	3	singular	плывёт	плы́ть	плы́л	плыла́	плы́ло		
-swim	active	1	plural	плывём	плы́ть	плы́ли	плы́ли	плы́ли		
-swim	active	2	plural	плывёте	плы́ть	плы́ли	плы́ли	плы́ли	плыви́те	
-swim	active	3	plural	плыву́т	плы́ть	плы́ли	плы́ли	плы́ли		
-pass for	active	participle		слыву́щий		слы́вший	слы́вший	слы́вший		
-pass for	passive	participle								
-pass for	adverbial	adverbial		слывя́		слы́в	слы́в	слы́в		
-pass for	active	1	singular	слыву́	слы́ть	слы́л	слыла́	слы́ло		
-pass for	active	2	singular	слывёшь	слы́ть	слы́л	слыла́	слы́ло	слыви́	
-pass for	active	3	singular	слывёт	слы́ть	слы́л	слыла́	слы́ло		
-pass for	active	1	plural	слывём	слы́ть	слы́ли	слы́ли	слы́ли		
-pass for	active	2	plural	слывёте	слы́ть	слы́ли	слы́ли	слы́ли	слыви́те	
-pass for	active	3	plural	слыву́т	слы́ть	слы́ли	слы́ли	слы́ли		
-speak	active	participle		говоря́щий		говори́вший	говори́вший	говори́вший		
-speak	passive	participle		говори́мый		говорённый	говорённый	говорённый		
-speak	adverbial	adverbial		говоря́		говори́в	говори́в	говори́в		
-speak	active	1	singular	говорю́	говори́ть	говори́л	говори́ла	говори́ло		
-speak	active	2	singular	говори́шь	говори́ть	говори́л	говори́ла	говори́ло	говори́	
-speak	active	3	singular	говори́т	говори́ть	говори́л	говори́ла	говори́ло		
-speak	active	1	plural	говори́м	говори́ть	говори́ли	говори́ли	говори́ли		
-speak	active	2	plural	говори́те	говори́ть	говори́ли	говори́ли	говори́ли	говори́те	
-speak	active	3	plural	говоря́т	говори́ть	говори́ли	говори́ли	говори́ли		
-love	active	participle		лю́бящий		люби́вший	люби́вший	люби́вший		
-love	passive	participle		люби́мый		лю́бленный	лю́бленный	лю́бленный		
-love	adverbial	adverbial		любя́		люби́в	люби́в	люби́в		
-love	active	1	singular	люблю́	люби́ть	люби́л	люби́ла	люби́ло		
-love	active	2	singular	лю́бишь	люби́ть	люби́л	люби́ла	люби́ло	люби́	
-love	active	3	singular	лю́бит	люби́ть	люби́л	люби́ла	люби́ло		
-love	active	1	plural	лю́бим	люби́ть	люби́ли	люби́ли	люби́ли		
-love	active	2	plural	лю́бите	люби́ть	люби́ли	люби́ли	люби́ли	люби́те	
-love	active	3	plural	лю́бят	люби́ть	люби́ли	люби́ли	люби́ли		
-catch	active	participle		ловя́щий		лови́вший	лови́вший	лови́вший		
-catch	passive	participle		лови́мый		ло́вленный	ло́вленный	ло́вленный		
-catch	adverbial	adverbial		ловя́		лови́в	лови́в	лови́в		
-catch	active	1	singular	ловлю́	лови́ть	лови́л	лови́ла	лови́ло		
-catch	active	2	singular	ло́вишь	лови́ть	лови́л	лови́ла	лови́ло	лови́	
-catch	active	3	singular	ло́вит	лови́ть	лови́л	лови́ла	лови́ло		
-catch	active	1	plural	ло́вим	лови́ть	лови́ли	лови́ли	лови́ли		
-catch	active	2	plural	ло́вите	лови́ть	лови́ли	лови́ли	лови́ли	лови́те	
-catch	active	3	plural	ло́вят	лови́ть	лови́ли	лови́ли	лови́ли		
-sink	active	participle		топя́щий		топи́вший	топи́вший	топи́вший		
-sink	passive	participle		топи́мый1		то́пленный	то́пленный	то́пленный		
-sink	adverbial	adverbial		топя́		топи́в	топи́в	топи́в		
-sink	active	1	singular	топлю́	топи́ть	топи́л	топи́ла	топи́ло		
-sink	active	2	singular	то́пишь	топи́ть	топи́л	топи́ла	топи́ло	топи́	
-sink	active	3	singular	то́пит	топи́ть	топи́л	топи́ла	топи́ло		
-sink	active	1	plural	то́пим	топи́ть	топи́ли	топи́ли	топи́ли		
-sink	active	2	plural	то́пите	топи́ть	топи́ли	топи́ли	топи́ли	топи́те	
-sink	active	3	plural	то́пят	топи́ть	топи́ли	топи́ли	топи́ли		
-feed	active	participle		кормя́щий		корми́вший	корми́вший	корми́вший		
-feed	passive	participle		корми́мый1		ко́рмленный	ко́рмленный	ко́рмленный		
-feed	adverbial	adverbial		кормя́		корми́в	корми́в	корми́в		
-feed	active	1	singular	кормлю́	корми́ть	корми́л	корми́ла	корми́ло		
-feed	active	2	singular	ко́рмишь	корми́ть	корми́л	корми́ла	корми́ло	корми́	
-feed	active	3	singular	ко́рмит	корми́ть	корми́л	корми́ла	корми́ло		
-feed	active	1	plural	ко́рмим	корми́ть	корми́ли	корми́ли	корми́ли		
-feed	active	2	plural	ко́рмите	корми́ть	корми́ли	корми́ли	корми́ли	корми́те	
-feed	active	3	plural	ко́рмят	корми́ть	корми́ли	корми́ли	корми́ли		
-ask	active	participle		прося́щий		проси́вший	проси́вший	проси́вший		
-ask	passive	participle		проси́мый		про́шенный	про́шенный	про́шенный		
-ask	adverbial	adverbial		прося́		проси́в	проси́в	проси́в		
-ask	active	1	singular	прошу́	проси́ть	проси́л	проси́л	проси́л		
-ask	active	2	singular	про́сишь	проси́ть	проси́ла	проси́ла	проси́ла	проси́	
-ask	active	3	singular	про́сит	проси́ть	проси́ло	проси́ло	проси́ло		
-ask	active	1	plural	про́сим	проси́ть	проси́ли	проси́ли	проси́ли		
-ask	active	2	plural	про́сите	проси́ть	проси́ли	проси́ли	проси́ли	проси́те	
-ask	active	3	plural	про́сят	проси́ть	проси́ли	проси́ли	проси́ли		
-convey2	active	participle		возя́щий		вози́вший	вози́вший	вози́вший		
-convey2	passive	participle		вози́мый		во́женный	во́женный	во́женный		
-convey2	adverbial	adverbial		возя́		вози́в	вози́в	вози́в		
-convey2	active	1	singular	вожу́	вози́ть	вози́л	вози́ла	вози́ло		
-convey2	active	2	singular	во́зишь	вози́ть	вози́л	вози́ла	вози́ло	вози́	
-convey2	active	3	singular	во́зит	вози́ть	вози́л	вози́ла	вози́ло		
-convey2	active	1	plural	во́зим	вози́ть	вози́ли	вози́ли	вози́ли		
-convey2	active	2	plural	во́зите	вози́ть	вози́ли	вози́ли	вози́ли	вози́те	
-convey2	active	3	plural	во́зят	вози́ть	вози́ли	вози́ли	вози́ли		
-pay	active	participle		платя́щий		плати́вший	плати́вший	плати́вший		
-pay	passive	participle		плати́мый1		пла́ченный	пла́ченный	пла́ченный		
-pay	adverbial	adverbial		платя́		плати́в	плати́в	плати́в		
-pay	active	1	singular	плачу́	плати́ть	плати́л	плати́ла	плати́ло		
-pay	active	2	singular	пла́тишь	плати́ть	плати́л	плати́ла	плати́ло	плати́	
-pay	active	3	singular	пла́тит	плати́ть	плати́л	плати́ла	плати́ло		
-pay	active	1	plural	пла́тим	плати́ть	плати́ли	плати́ли	плати́ли		
-pay	active	2	plural	пла́тите	плати́ть	плати́ли	плати́ли	плати́ли	плати́те	
-pay	active	3	plural	пла́тят	плати́ть	плати́ли	плати́ли	плати́ли		
-go2	active	participle		ходя́щий		ходи́вший	ходи́вший	ходи́вший		
-go2	passive	participle								
-go2	adverbial	adverbial		ходя́		ходи́в	ходи́в	ходи́в		
-go2	active	1	singular	хожу́	ходи́ть	ходи́л	ходи́ла	ходи́ло		
-go2	active	2	singular	хо́дишь	ходи́ть	ходи́л	ходи́ла	ходи́ло		
-go2	active	3	singular	хо́дит	ходи́ть	ходи́л	ходи́ла	ходи́ло		
-go2	active	1	plural	хо́дим	ходи́ть	ходи́ли	ходи́ли	ходи́ли		
-go2	active	2	plural	хо́дите	ходи́ть	ходи́ли	ходи́ли	ходи́ли		
-go2	active	3	plural	хо́дят	ходи́ть	ходи́ли	ходи́ли	ходи́ли		
-forgive	active	participle		ходя́щий		ходи́вший	ходи́вший	ходи́вший		
-forgive	passive	participle								
-forgive	adverbial	adverbial		ходя́		ходи́в	ходи́в	ходи́в		
-forgive	active	1	singular	хожу́	ходи́ть	ходи́л	ходи́ла	ходи́ло		
-forgive	active	2	singular	хо́дишь	ходи́ть	ходи́л	ходи́ла	ходи́ло	ходи́	
-forgive	active	3	singular	хо́дит	ходи́ть	ходи́л	ходи́ла	ходи́ло		
-forgive	active	1	plural	хо́дим	ходи́ть	ходи́ли	ходи́ли	ходи́ли		
-forgive	active	2	plural	хо́дите	ходи́ть	ходи́ли	ходи́ли	ходи́ли	ходи́те	
-forgive	active	3	plural	хо́дят	ходи́ть	ходи́ли	ходи́ли	ходи́ли		
+				indicative	indicative	indicative	indicative	indicative	indicative	imperative	
+				present	future	past	past	past	past	present	
+verb		person	plurality			masculine	feminine	neuter			
+be	active	participle		су́щий					бы́вший		
+be	passive	participle									
+be	active	adverbial		бу́дучи					бы́в		
+be	active	1	singular	есть	бу́ду	бы́л	была́	бы́ло			
+be	active	2	singular	есть	бу́дешь	бы́л	была́	бы́ло		бу́дь	
+be	active	3	singular	есть	бу́дет	бы́л	была́	бы́ло			
+be	active	1	plural	есть	бу́дем	бы́ли	бы́ли	бы́ли			
+be	active	2	plural	есть	бу́дете	бы́ли	бы́ли	бы́ли		бу́дьте	
+be	active	3	plural	есть	бу́дут	бы́ли	бы́ли	бы́ли			
+see	active	participle		ви́дящий					ви́девший		
+see	passive	participle		ви́димый					ви́денный		
+see	active	adverbial		ви́дя					ви́дев		
+see	active	1	singular	ви́жу		ви́дел	ви́дела	ви́дело			
+see	active	2	singular	ви́дишь		ви́дел	ви́дела	ви́дело			
+see	active	3	singular	ви́дит		ви́дел	ви́дела	ви́дело			
+see	active	1	plural	ви́дим		ви́дели	ви́дели	ви́дели			
+see	active	2	plural	ви́дите		ви́дели	ви́дели	ви́дели			
+see	active	3	plural	ви́дят		ви́дели	ви́дели	ви́дели			
+give	active	participle		даю́щий					дава́вший		
+give	passive	participle		дава́емый							
+give	active	adverbial		дава́я					дава́в		
+give	active	1	singular	даю́	дава́ть	дава́л	дава́ла	дава́ло			
+give	active	2	singular	даёшь	дава́ть	дава́л	дава́ла	дава́ло		дава́й	
+give	active	3	singular	даёт	дава́ть	дава́л	дава́ла	дава́ло			
+give	active	1	plural	даём	дава́ть	дава́ли	дава́ли	дава́ли			
+give	active	2	plural	даёте	дава́ть	дава́ли	дава́ли	дава́ли		дава́йте	
+give	active	3	plural	даю́т	дава́ть	дава́ли	дава́ли	дава́ли			
+give2	active	participle							да́вший		
+give2	passive	participle							да́нный		
+give2	active	adverbial							да́в		
+give2	active	1	singular		да́м	да́л	дала́	да́ло			
+give2	active	2	singular		да́шь	да́л	дала́	да́ло		да́й	
+give2	active	3	singular		да́ст	да́л	дала́	да́ло			
+give2	active	1	plural		дади́м	да́ли	да́ли	да́ли			
+give2	active	2	plural		дади́те	да́ли	да́ли	да́ли		да́йте	
+give2	active	3	plural		даду́т	да́ли	да́ли	да́ли			
+eat	active	participle		едя́щий					е́вший		
+eat	passive	participle		едо́мый					е́денный		
+eat	active	adverbial		едя́					е́в		
+eat	active	1	singular	е́м	е́сть	е́л	е́ла	е́ло			
+eat	active	2	singular	е́шь	е́сть	е́л	е́ла	е́ло		е́шь	
+eat	active	3	singular	е́ст	е́сть	е́л	е́ла	е́ло			
+eat	active	1	plural	еди́м	е́сть	е́ли	е́ли	е́ли			
+eat	active	2	plural	еди́те	е́сть	е́ли	е́ли	е́ли		е́шьте	
+eat	active	3	plural	едя́т	е́сть	е́ли	е́ли	е́ли			
+live	active	participle		живу́щий					жи́вший		
+live	passive	participle									
+live	active	adverbial		живя́					жи́в		
+live	active	1	singular	живу́	жи́ть	жи́л	жила́	жи́ло			
+live	active	2	singular	живёшь	жи́ть	жи́л	жила́	жи́ло		живи́	
+live	active	3	singular	живёт	жи́ть	жи́л	жила́	жи́ло			
+live	active	1	plural	живём	жи́ть	жи́ли	жи́ли	жи́ли			
+live	active	2	plural	живёте	жи́ть	жи́ли	жи́ли	жи́ли		живи́те	
+live	active	3	plural	живу́т	жи́ть	жи́ли	жи́ли	жи́ли			
+call	active	participle		зову́щий					зва́вший		
+call	passive	participle							зва́нный		
+call	active	adverbial		зовя́					зва́в		
+call	active	1	singular	зову́	зва́ть	зва́л	звала́	зва́ло			
+call	active	2	singular	зовёшь	зва́ть	зва́л	звала́	зва́ло		зови́	
+call	active	3	singular	зовёт	зва́ть	зва́л	звала́	зва́ло			
+call	active	1	plural	зовём	зва́ть	зва́ли	зва́ли	зва́ли			
+call	active	2	plural	зовёте	зва́ть	зва́ли	зва́ли	зва́ли		зови́те	
+call	active	3	plural	зову́т	зва́ть	зва́ли	зва́ли	зва́ли			
+go	active	participle		иду́щий					ше́дший		
+go	passive	participle									
+go	adverbial	adverbial		идя́					ше́дши		
+go	active	1	singular	иду́	идти́	шёл	шла́	шло́			
+go	active	2	singular	идёшь	идти́	шёл	шла́	шло́		иди́	
+go	active	3	singular	идёт	идти́	шёл	шла́	шло́			
+go	active	1	plural	идём	идти́	шли́	шли́	шли́			
+go	active	2	plural	идёте	идти́	шли́	шли́	шли́		иди́те	
+go	active	3	plural	иду́т	идти́	шли́	шли́	шли́			
+write	active	participle		пи́шущий					писа́вший		
+write	passive	participle							пи́санный		
+write	adverbial	adverbial		пиша́					писа́в		
+write	active	1	singular	пишу́	писа́ть	писа́л	писа́ла	писа́ло			
+write	active	2	singular	пи́шешь	писа́ть	писа́л	писа́ла	писа́ло		пиши́	
+write	active	3	singular	пи́шет	писа́ть	писа́л	писа́ла	писа́ло			
+write	active	1	plural	пи́шем	писа́ть	писа́ли	писа́ли	писа́ли			
+write	active	2	plural	пи́шете	писа́ть	писа́ли	писа́ли	писа́ли		пиши́те	
+write	active	3	plural	пи́шут	писа́ть	писа́ли	писа́ли	писа́ли			
+read	active	participle		чита́ющий					чита́вший		
+read	passive	participle		чита́емый					чи́танный		
+read	adverbial	adverbial		чита́я					чита́в		
+read	active	1	singular	чита́ю	чита́ть	чита́л	чита́ла	чита́ло			
+read	active	2	singular	чита́ешь	чита́ть	чита́л	чита́ла	чита́ло		чита́й	
+read	active	3	singular	чита́ет	чита́ть	чита́л	чита́ла	чита́ло			
+read	active	1	plural	чита́ем	чита́ть	чита́ли	чита́ли	чита́ли			
+read	active	2	plural	чита́ете	чита́ть	чита́ли	чита́ли	чита́ли		чита́йте	
+read	active	3	plural	чита́ют	чита́ть	чита́ли	чита́ли	чита́ли			
+return	active	participle							верну́вший		
+return	passive	participle							верну́в		
+return	adverbial	adverbial							верну́вши		
+return	active	1	singular		верну́	верну́л	верну́ла	верну́ло			
+return	active	2	singular		вернёшь	верну́л	верну́ла	верну́ло		верни́	
+return	active	3	singular		вернёт	верну́л	верну́ла	верну́ло			
+return	active	1	plural		вернём	верну́ли	верну́ли	верну́ли			
+return	active	2	plural		вернёте	верну́ли	верну́ли	верну́ли		верни́те	
+return	active	3	plural		верну́т	верну́ли	верну́ли	верну́ли			
+draw	active	participle		рису́ющий					рисова́вший		
+draw	passive	participle		рису́емый					рисо́ванный		
+draw	adverbial	adverbial		рису́я					рисова́в		
+draw	active	1	singular	рису́ю	рисова́ть	рисова́л	рисова́ла	рисова́ло			
+draw	active	2	singular	рису́ешь	рисова́ть	рисова́л	рисова́ла	рисова́ло		рису́й	
+draw	active	3	singular	рису́ет	рисова́ть	рисова́л	рисова́ла	рисова́ло			
+draw	active	1	plural	рису́ем	рисова́ть	рисова́ли	рисова́ли	рисова́ли			
+draw	active	2	plural	рису́ете	рисова́ть	рисова́ли	рисова́ли	рисова́ли		рису́йте	
+draw	active	3	plural	рису́ют	рисова́ть	рисова́ли	рисова́ли	рисова́ли			
+spit	active	participle		плюю́щий					плева́вший		
+spit	passive	participle									
+spit	adverbial	adverbial		плюя́					плева́в		
+spit	active	1	singular	плюю́	плюю́	плева́л	плева́ла	плева́ло			
+spit	active	2	singular	плюёшь	плюёшь	плева́л	плева́ла	плева́ло		плю́й	
+spit	active	3	singular	плюёт	плюёт	плева́л	плева́ла	плева́ло			
+spit	active	1	plural	плюём	плюём	плева́ли	плева́ли	плева́ли			
+spit	active	2	plural	плюёте	плюёте	плева́ли	плева́ли	плева́ли		плю́йте	
+spit	active	3	plural	плюю́т	плюю́т	плева́ли	плева́ли	плева́ли			
+dance	active	participle		танцу́ющий					танцева́вший		
+dance	passive	participle		танцу́емый					танцо́ванный		
+dance	adverbial	adverbial		танцу́я					танцева́в		
+dance	active	1	singular	танцу́ю	танцева́ть	танцева́л	танцева́ла	танцева́ло			
+dance	active	2	singular	танцу́ешь	танцева́ть	танцева́л	танцева́ла	танцева́ло		танцу́й	
+dance	active	3	singular	танцу́ет	танцева́ть	танцева́л	танцева́ла	танцева́ло			
+dance	active	1	plural	танцу́ем	танцева́ть	танцева́ли	танцева́ли	танцева́ли			
+dance	active	2	plural	танцу́ете	танцева́ть	танцева́ли	танцева́ли	танцева́ли		танцу́йте	
+dance	active	3	plural	танцу́ют	танцева́ть	танцева́ли	танцева́ли	танцева́ли			
+be able	active	participle		могу́щий					мо́гший		
+be able	passive	participle									
+be able	adverbial	adverbial									
+be able	active	1	singular	могу́	мо́чь	мо́г	могла́	могло́			
+be able	active	2	singular	мо́жешь	мо́чь	мо́г	могла́	могло́		моги́	
+be able	active	3	singular	мо́жет	мо́чь	мо́г	могла́	могло́			
+be able	active	1	plural	мо́жем	мо́чь	могли́	могли́	могли́			
+be able	active	2	plural	мо́жете	мо́чь	могли́	могли́	могли́		моги́те	
+be able	active	3	plural	мо́гут	мо́чь	могли́	могли́	могли́			
+bake	active	participle		пеку́щий					пёкший		
+bake	passive	participle							печённый		
+bake	adverbial	adverbial							пёкши		
+bake	active	1	singular	пеку́	пе́чь	пёк	пекла́	пекло́			
+bake	active	2	singular	печёшь	пе́чь	пёк	пекла́	пекло́		пеки́	
+bake	active	3	singular	печёт	пе́чь	пёк	пекла́	пекло́			
+bake	active	1	plural	печём	пе́чь	пекли́	пекли́	пекли́			
+bake	active	2	plural	печёте	пе́чь	пекли́	пекли́	пекли́		пеки́те	
+bake	active	3	plural	пеку́т	пе́чь	пекли́	пекли́	пекли́			
+carry	active	participle		несу́щий					нёсший		
+carry	passive	participle							несённый		
+carry	adverbial	adverbial		неся́					нёсши		
+carry	active	1	singular	несу́	нести́	нёс	несла́	несло́			
+carry	active	2	singular	несёшь	нести́	нёс	несла́	несло́		неси́	
+carry	active	3	singular	несёт	нести́	нёс	несла́	несло́			
+carry	active	1	plural	несём	нести́	несли́	несли́	несли́			
+carry	active	2	plural	несёте	нести́	несли́	несли́	несли́		неси́те	
+carry	active	3	plural	несу́т	нести́	несли́	несли́	несли́			
+lead	active	participle		веду́щий					ве́дший		
+lead	passive	participle		ведо́мый					ведённый		
+lead	adverbial	adverbial		ведя́					ве́дши		
+lead	active	1	singular	веду́	вести́	вёл	вела́	вело́			
+lead	active	2	singular	ведёшь	вести́	вёл	вела́	вело́		веди́	
+lead	active	3	singular	ведёт	вести́	вёл	вела́	вело́			
+lead	active	1	plural	ведём	вести́	вели́	вели́	вели́			
+lead	active	2	plural	ведёте	вести́	вели́	вели́	вели́		веди́те	
+lead	active	3	plural	веду́т	вести́	вели́	вели́	вели́			
+sweep	active	participle		мету́щий					мётший		
+sweep	passive	participle							метённый		
+sweep	adverbial	adverbial		метя́					мётши		
+sweep	active	1	singular	мету́	мести́	мёл	мела́	мело́			
+sweep	active	2	singular	метёшь	мести́	мёл	мела́	мело́		мети́	
+sweep	active	3	singular	метёт	мести́	мёл	мела́	мело́			
+sweep	active	1	plural	метём	мести́	мели́	мели́	мели́			
+sweep	active	2	plural	метёте	мести́	мели́	мели́	мели́		мети́те	
+sweep	active	3	plural	мету́т	мести́	мели́	мели́	мели́			
+row	active	participle		гребу́щий					грёбший		
+row	passive	participle							гребённый		
+row	adverbial	adverbial		гребя́					грёбши		
+row	active	1	singular	гребу́	грести́	грёб	гребла́	гребло́			
+row	active	2	singular	гребёшь	грести́	грёб	гребла́	гребло́		греби́	
+row	active	3	singular	гребёт	грести́	грёб	гребла́	гребло́			
+row	active	1	plural	гребём	грести́	гребли́	гребли́	гребли́			
+row	active	2	plural	гребёте	грести́	гребли́	гребли́	гребли́		греби́те	
+row	active	3	plural	гребу́т	грести́	гребли́	гребли́	гребли́			
+steal	active	participle		краду́щий					кра́вший		
+steal	passive	participle							кра́денный		
+steal	adverbial	adverbial		крадя́					кра́в		
+steal	active	1	singular	краду́	кра́сть	кра́л	кра́ла	кра́ло			
+steal	active	2	singular	крадёшь	кра́сть	кра́л	кра́ла	кра́ло		кради́	
+steal	active	3	singular	крадёт	кра́сть	кра́л	кра́ла	кра́ло			
+steal	active	1	plural	крадём	кра́сть	кра́ли	кра́ли	кра́ли			
+steal	active	2	plural	крадёте	кра́сть	кра́ли	кра́ли	кра́ли		кради́те	
+steal	active	3	plural	краду́т	кра́сть	кра́ли	кра́ли	кра́ли			
+convey	active	participle		везу́щий					вёзший		
+convey	passive	participle		везо́мый					везённый		
+convey	adverbial	adverbial		везя́					вёзши		
+convey	active	1	singular	везу́	везти́	вёз	везла́	везло́			
+convey	active	2	singular	везёшь	везти́	вёз	везла́	везло́		вези́	
+convey	active	3	singular	везёт	везти́	вёз	везла́	везло́			
+convey	active	1	plural	везём	везти́	везли́	везли́	везли́			
+convey	active	2	plural	везёте	везти́	везли́	везли́	везли́		вези́те	
+convey	active	3	plural	везу́т	везти́	везли́	везли́	везли́			
+climb	active	participle		ле́зущий					ле́зший		
+climb	passive	participle									
+climb	adverbial	adverbial		ле́зя					ле́зши		
+climb	active	1	singular	ле́зу	ле́зть	ле́з	ле́зла	ле́зло			
+climb	active	2	singular	ле́зешь	ле́зть	ле́з	ле́зла	ле́зло		ле́зь	
+climb	active	3	singular	ле́зет	ле́зть	ле́з	ле́зла	ле́зло			
+climb	active	1	plural	ле́зем	ле́зть	ле́зли	ле́зли	ле́зли			
+climb	active	2	plural	ле́зете	ле́зть	ле́зли	ле́зли	ле́зли		ле́зьте	
+climb	active	3	plural	ле́зут	ле́зть	ле́зли	ле́зли	ле́зли			
+wash	active	participle		мо́ющий					мы́вший		
+wash	passive	participle		мо́емый					мы́тый		
+wash	adverbial	adverbial		мо́я					мы́в		
+wash	active	1	singular	мо́ю	мы́ть	мы́л	мы́ла	мы́ло			
+wash	active	2	singular	мо́ешь	мы́ть	мы́л	мы́ла	мы́ло		мо́й	
+wash	active	3	singular	мо́ет	мы́ть	мы́л	мы́ла	мы́ло			
+wash	active	1	plural	мо́ем	мы́ть	мы́ли	мы́ли	мы́ли			
+wash	active	2	plural	мо́ете	мы́ть	мы́ли	мы́ли	мы́ли		мо́йте	
+wash	active	3	plural	мо́ют	мы́ть	мы́ли	мы́ли	мы́ли			
+beat	active	participle		бью́щий					би́вший		
+beat	passive	participle							би́тый		
+beat	adverbial	adverbial							би́в		
+beat	active	1	singular	бью́	би́ть	би́л	би́ла	би́ло			
+beat	active	2	singular	бьёшь	би́ть	би́л	би́ла	би́ло		бе́й	
+beat	active	3	singular	бьёт	би́ть	би́л	би́ла	би́ло			
+beat	active	1	plural	бьём	би́ть	би́ли	би́ли	би́ли			
+beat	active	2	plural	бьёте	би́ть	би́ли	би́ли	би́ли		бе́йте	
+beat	active	3	plural	бью́т	би́ть	би́ли	би́ли	би́ли			
+wind	active	participle		вью́щий					ви́вший		
+wind	passive	participle							ви́тый		
+wind	adverbial	adverbial		вья́					ви́в		
+wind	active	1	singular	вью́	ви́ть	ви́л	вила́	ви́ло			
+wind	active	2	singular	вьёшь	ви́ть	ви́л	вила́	ви́ло		ве́й	
+wind	active	3	singular	вьёт	ви́ть	ви́л	вила́	ви́ло			
+wind	active	1	plural	вьём	ви́ть	ви́ли	ви́ли	ви́ли			
+wind	active	2	plural	вьёте	ви́ть	ви́ли	ви́ли	ви́ли		ве́йте	
+wind	active	3	plural	вью́т	ви́ть	ви́ли	ви́ли	ви́ли			
+pour	active	participle		лью́щий					ли́вший		
+pour	passive	participle							ли́тый		
+pour	adverbial	adverbial		лья́					ли́в		
+pour	active	1	singular	лью́	ли́ть	ли́л	лила́	ли́ло			
+pour	active	2	singular	льёшь	ли́ть	ли́л	лила́	ли́ло		ле́й	
+pour	active	3	singular	льёт	ли́ть	ли́л	лила́	ли́ло			
+pour	active	1	plural	льём	ли́ть	ли́ли	ли́ли	ли́ли			
+pour	active	2	plural	льёте	ли́ть	ли́ли	ли́ли	ли́ли		ле́йте	
+pour	active	3	plural	лью́т	ли́ть	ли́ли	ли́ли	ли́ли			
+drink	active	participle		пью́щий					пи́вший		
+drink	passive	participle							пи́тый		
+drink	adverbial	adverbial							пи́в		
+drink	active	1	singular	пью́	пи́ть	пи́л	пила́	пи́ло			
+drink	active	2	singular	пьёшь	пи́ть	пи́л	пила́	пи́ло		пе́й	
+drink	active	3	singular	пьёт	пи́ть	пи́л	пила́	пи́ло			
+drink	active	1	plural	пьём	пи́ть	пи́ли	пи́ли	пи́ли			
+drink	active	2	plural	пьёте	пи́ть	пи́ли	пи́ли	пи́ли		пе́йте	
+drink	active	3	plural	пью́т	пи́ть	пи́ли	пи́ли	пи́ли			
+sew	active	participle		шью́щий					ши́вший		
+sew	passive	participle							ши́тый		
+sew	adverbial	adverbial							ши́в		
+sew	active	1	singular	шью́	ши́ть	ши́л	ши́ла	ши́ло			
+sew	active	2	singular	шьёшь	ши́ть	ши́л	ши́ла	ши́ло		ше́й	
+sew	active	3	singular	шьёт	ши́ть	ши́л	ши́ла	ши́ло			
+sew	active	1	plural	шьём	ши́ть	ши́ли	ши́ли	ши́ли			
+sew	active	2	plural	шьёте	ши́ть	ши́ли	ши́ли	ши́ли		ше́йте	
+sew	active	3	plural	шью́т	ши́ть	ши́ли	ши́ли	ши́ли			
+live	active	participle		живу́щий					жи́вший		
+live	passive	participle									
+live	adverbial	adverbial		живя́					жи́в		
+live	active	1	singular	живу́	жи́ть	жи́л	жила́	жи́ло			
+live	active	2	singular	живёшь	жи́ть	жи́л	жила́	жи́ло		живи́	
+live	active	3	singular	живёт	жи́ть	жи́л	жила́	жи́ло			
+live	active	1	plural	живём	жи́ть	жи́ли	жи́ли	жи́ли			
+live	active	2	plural	живёте	жи́ть	жи́ли	жи́ли	жи́ли		живи́те	
+live	active	3	plural	живу́т	жи́ть	жи́ли	жи́ли	жи́ли			
+swim	active	participle		плыву́щий					плы́вший		
+swim	passive	participle									
+swim	adverbial	adverbial		плывя́					плы́в		
+swim	active	1	singular	плыву́	плы́ть	плы́л	плыла́	плы́ло			
+swim	active	2	singular	плывёшь	плы́ть	плы́л	плыла́	плы́ло		плыви́	
+swim	active	3	singular	плывёт	плы́ть	плы́л	плыла́	плы́ло			
+swim	active	1	plural	плывём	плы́ть	плы́ли	плы́ли	плы́ли			
+swim	active	2	plural	плывёте	плы́ть	плы́ли	плы́ли	плы́ли		плыви́те	
+swim	active	3	plural	плыву́т	плы́ть	плы́ли	плы́ли	плы́ли			
+pass for	active	participle		слыву́щий					слы́вший		
+pass for	passive	participle									
+pass for	adverbial	adverbial		слывя́					слы́в		
+pass for	active	1	singular	слыву́	слы́ть	слы́л	слыла́	слы́ло			
+pass for	active	2	singular	слывёшь	слы́ть	слы́л	слыла́	слы́ло		слыви́	
+pass for	active	3	singular	слывёт	слы́ть	слы́л	слыла́	слы́ло			
+pass for	active	1	plural	слывём	слы́ть	слы́ли	слы́ли	слы́ли			
+pass for	active	2	plural	слывёте	слы́ть	слы́ли	слы́ли	слы́ли		слыви́те	
+pass for	active	3	plural	слыву́т	слы́ть	слы́ли	слы́ли	слы́ли			
+speak	active	participle		говоря́щий					говори́вший		
+speak	passive	participle		говори́мый					говорённый		
+speak	adverbial	adverbial		говоря́					говори́в		
+speak	active	1	singular	говорю́	говори́ть	говори́л	говори́ла	говори́ло			
+speak	active	2	singular	говори́шь	говори́ть	говори́л	говори́ла	говори́ло		говори́	
+speak	active	3	singular	говори́т	говори́ть	говори́л	говори́ла	говори́ло			
+speak	active	1	plural	говори́м	говори́ть	говори́ли	говори́ли	говори́ли			
+speak	active	2	plural	говори́те	говори́ть	говори́ли	говори́ли	говори́ли		говори́те	
+speak	active	3	plural	говоря́т	говори́ть	говори́ли	говори́ли	говори́ли			
+love	active	participle		лю́бящий					люби́вший		
+love	passive	participle		люби́мый					лю́бленный		
+love	adverbial	adverbial		любя́					люби́в		
+love	active	1	singular	люблю́	люби́ть	люби́л	люби́ла	люби́ло			
+love	active	2	singular	лю́бишь	люби́ть	люби́л	люби́ла	люби́ло		люби́	
+love	active	3	singular	лю́бит	люби́ть	люби́л	люби́ла	люби́ло			
+love	active	1	plural	лю́бим	люби́ть	люби́ли	люби́ли	люби́ли			
+love	active	2	plural	лю́бите	люби́ть	люби́ли	люби́ли	люби́ли		люби́те	
+love	active	3	plural	лю́бят	люби́ть	люби́ли	люби́ли	люби́ли			
+catch	active	participle		ловя́щий					лови́вший		
+catch	passive	participle		лови́мый					ло́вленный		
+catch	adverbial	adverbial		ловя́					лови́в		
+catch	active	1	singular	ловлю́	лови́ть	лови́л	лови́ла	лови́ло			
+catch	active	2	singular	ло́вишь	лови́ть	лови́л	лови́ла	лови́ло		лови́	
+catch	active	3	singular	ло́вит	лови́ть	лови́л	лови́ла	лови́ло			
+catch	active	1	plural	ло́вим	лови́ть	лови́ли	лови́ли	лови́ли			
+catch	active	2	plural	ло́вите	лови́ть	лови́ли	лови́ли	лови́ли		лови́те	
+catch	active	3	plural	ло́вят	лови́ть	лови́ли	лови́ли	лови́ли			
+sink	active	participle		топя́щий					топи́вший		
+sink	passive	participle		топи́мый1					то́пленный		
+sink	adverbial	adverbial		топя́					топи́в		
+sink	active	1	singular	топлю́	топи́ть	топи́л	топи́ла	топи́ло			
+sink	active	2	singular	то́пишь	топи́ть	топи́л	топи́ла	топи́ло		топи́	
+sink	active	3	singular	то́пит	топи́ть	топи́л	топи́ла	топи́ло			
+sink	active	1	plural	то́пим	топи́ть	топи́ли	топи́ли	топи́ли			
+sink	active	2	plural	то́пите	топи́ть	топи́ли	топи́ли	топи́ли		топи́те	
+sink	active	3	plural	то́пят	топи́ть	топи́ли	топи́ли	топи́ли			
+feed	active	participle		кормя́щий					корми́вший		
+feed	passive	participle		корми́мый1					ко́рмленный		
+feed	adverbial	adverbial		кормя́					корми́в		
+feed	active	1	singular	кормлю́	корми́ть	корми́л	корми́ла	корми́ло			
+feed	active	2	singular	ко́рмишь	корми́ть	корми́л	корми́ла	корми́ло		корми́	
+feed	active	3	singular	ко́рмит	корми́ть	корми́л	корми́ла	корми́ло			
+feed	active	1	plural	ко́рмим	корми́ть	корми́ли	корми́ли	корми́ли			
+feed	active	2	plural	ко́рмите	корми́ть	корми́ли	корми́ли	корми́ли		корми́те	
+feed	active	3	plural	ко́рмят	корми́ть	корми́ли	корми́ли	корми́ли			
+ask	active	participle		прося́щий					проси́вший		
+ask	passive	participle		проси́мый					про́шенный		
+ask	adverbial	adverbial		прося́					проси́в		
+ask	active	1	singular	прошу́	проси́ть	проси́л	проси́л	проси́л			
+ask	active	2	singular	про́сишь	проси́ть	проси́ла	проси́ла	проси́ла		проси́	
+ask	active	3	singular	про́сит	проси́ть	проси́ло	проси́ло	проси́ло			
+ask	active	1	plural	про́сим	проси́ть	проси́ли	проси́ли	проси́ли			
+ask	active	2	plural	про́сите	проси́ть	проси́ли	проси́ли	проси́ли		проси́те	
+ask	active	3	plural	про́сят	проси́ть	проси́ли	проси́ли	проси́ли			
+convey2	active	participle		возя́щий					вози́вший		
+convey2	passive	participle		вози́мый					во́женный		
+convey2	adverbial	adverbial		возя́					вози́в		
+convey2	active	1	singular	вожу́	вози́ть	вози́л	вози́ла	вози́ло			
+convey2	active	2	singular	во́зишь	вози́ть	вози́л	вози́ла	вози́ло		вози́	
+convey2	active	3	singular	во́зит	вози́ть	вози́л	вози́ла	вози́ло			
+convey2	active	1	plural	во́зим	вози́ть	вози́ли	вози́ли	вози́ли			
+convey2	active	2	plural	во́зите	вози́ть	вози́ли	вози́ли	вози́ли		вози́те	
+convey2	active	3	plural	во́зят	вози́ть	вози́ли	вози́ли	вози́ли			
+pay	active	participle		платя́щий					плати́вший		
+pay	passive	participle		плати́мый1					пла́ченный		
+pay	adverbial	adverbial		платя́					плати́в		
+pay	active	1	singular	плачу́	плати́ть	плати́л	плати́ла	плати́ло			
+pay	active	2	singular	пла́тишь	плати́ть	плати́л	плати́ла	плати́ло		плати́	
+pay	active	3	singular	пла́тит	плати́ть	плати́л	плати́ла	плати́ло			
+pay	active	1	plural	пла́тим	плати́ть	плати́ли	плати́ли	плати́ли			
+pay	active	2	plural	пла́тите	плати́ть	плати́ли	плати́ли	плати́ли		плати́те	
+pay	active	3	plural	пла́тят	плати́ть	плати́ли	плати́ли	плати́ли			
+go2	active	participle		ходя́щий					ходи́вший		
+go2	passive	participle									
+go2	adverbial	adverbial		ходя́					ходи́в		
+go2	active	1	singular	хожу́	ходи́ть	ходи́л	ходи́ла	ходи́ло			
+go2	active	2	singular	хо́дишь	ходи́ть	ходи́л	ходи́ла	ходи́ло			
+go2	active	3	singular	хо́дит	ходи́ть	ходи́л	ходи́ла	ходи́ло			
+go2	active	1	plural	хо́дим	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
+go2	active	2	plural	хо́дите	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
+go2	active	3	plural	хо́дят	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
+forgive	active	participle		ходя́щий					ходи́вший		
+forgive	passive	participle									
+forgive	adverbial	adverbial		ходя́					ходи́в		
+forgive	active	1	singular	хожу́	ходи́ть	ходи́л	ходи́ла	ходи́ло			
+forgive	active	2	singular	хо́дишь	ходи́ть	ходи́л	ходи́ла	ходи́ло		ходи́	
+forgive	active	3	singular	хо́дит	ходи́ть	ходи́л	ходи́ла	ходи́ло			
+forgive	active	1	plural	хо́дим	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
+forgive	active	2	plural	хо́дите	ходи́ть	ходи́ли	ходи́ли	ходи́ли		ходи́те	
+forgive	active	3	plural	хо́дят	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
