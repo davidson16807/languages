@@ -1,0 +1,54 @@
+		nominative	accusative	genitive	dative	declension	gender	weight			
+dog	singular	hund	hund	hundes	hunde	a-stem	masculine				
+dog	plural	hundas	hundas	hunda	hundum	a-stem	masculine				
+light	singular	sċip	sċip	sċipes	sċipe	a-stem	neuter	light			
+light	plural	sċipu	sċipu	sċipa	sċipum	a-stem	neuter	light			
+house	singular	hūs	hūs	hūses	hūse	a-stem	neuter	heavy			
+house	plural	hūs	hūs	hūsa	hūsum	a-stem	neuter	heavy			
+gift	singular	ġiefu	ġiefe	ġiefe	ġiefe	ō-stem		light			
+gift	plural	ġiefa	ġiefa	ġiefa	ġiefum	ō-stem		light			
+raid	singular	rād	rāde	rāde	rāde	ō-stem		heavy			
+raid	plural	rāda	rāde	rāda	rādum	ō-stem		heavy			
+moon	singular	mōna	mōnan	mōnan	mōnan	n-stem	masculine				
+moon	plural	mōnan	mōnan	mōnena	mōnum	n-stem	masculine				
+sun	singular	sunne	sunnan	sunnan	sunnan	n-stem	feminine				
+sun	plural	sunnan	sunnan	sunnena	sunnum	n-stem	feminine				
+eye	singular	ēage	ēage	ēagan	ēagan	n-stem	neuter				
+eye	plural	ēagan	ēagan	ēagena	ēagum	n-stem	neuter				
+time	singular	tīd	tīd, tīde	tīde	tīde	i-stem					
+time	plural	tīda	tīda	tīda	tīdum	i-stem					
+English	plural	Engle	Engle	Engla	Englum	i-stem					
+son	singular	sunu	sunu	suna	suna	u-stem	light				
+son	plural	suna	suna	suna	sunum	u-stem	light				
+hand	singular	hand	hand	handa	handa	u-stem	heavy				
+hand	plural	handa	handa	handa	handum	u-stem	heavy				
+person	singular	mann	mann	mannes	menn	root noun	masculine				
+person	plural	menn	menn	manna	mannum	root noun	masculine				
+nut	singular	hnutu	hnutu	hnute	hnyte	root noun	feminine	light			
+nut	plural	hnyte	hnyte	hnuta	hnutum	root noun	feminine	light			
+goose	singular	gōs	gōs	gōse	gēs	root noun	feminine	heavy			
+goose	plural	gēs	gēs	gōsa	gōsum	root noun	feminine	heavy			
+friend	singular	frēond	frēond	frēondes	frīend	nd-stem, monosyllablic					
+friend	plural	frīend	frīend	frēonda	frēondum	nd-stem, monosyllablic					
+bystander	singular	ymbstandend	ymbstandend	ymbstandendes	ymbstandende	nd-stem, multisyllabic					
+bystander	plural	ymbstandend	ymbstandend	ymbstandendra	ymbstandendum	nd-stem, multisyllabic					
+father	singular	fæder	fæder	fæder	fæder	r-stem					
+father	plural	fæderas	fæderas	fædera	fæderum	r-stem					
+mother	singular	mōdor	mōdor	mōdor	mēder	r-stem					
+mother	plural	mōdru	mōdru	mōdra	mōdrum	r-stem					
+brother	singular	brōþor	brōþor	brōþor	brēþer	r-stem					
+brother	plural	(ġe)brōþor	(ġe)brōþor	(ġe)brōþra	(ġe)brōþrum	r-stem					
+sister	singular	sweostor	sweostor	sweostor	sweostor	r-stem					
+sister	plural	(ġe)sweostor	(ġe)sweostor	(ġe)sweostra	(ġe)sweostrum	r-stem					
+daughter	singular	dohtor	dohtor	dohtor	dehter	r-stem					
+daughter	plural	dohtor	dohtor	dohtra	dohtrum	r-stem					
+lamb	singular	lamb	lamb	lambes	lambe	z-stem					
+lamb	plural	lambru	lambru	lambra	lambrum	z-stem					
+shoe	singular	sċōh	sċōh	sċōs	sċō	h-ending					
+shoe	plural	sċōs	sċōs	sċōna	sċōm	h-ending					
+piglet	singular	fearh	fearh	fēares	fēare	h-ending					
+piglet	plural	fēaras	fēaras	fēara	fēarum	h-ending					
+shadow	singular	sċeadu	sċeadwe	sċeadwe	sċeadwe	wō-stem	light				
+shadow	plural	sċeadwa	sċeadwa	sċeadwa	sċeadwum	wō-stem	light				
+meadow	singular	mǣd	mǣdwe	mǣdwe	mǣdwe	wō-stem	heavy				
+meadow	plural	mǣdwa	mǣdwa	mǣdwa	mǣdwum	wō-stem	heavy				
