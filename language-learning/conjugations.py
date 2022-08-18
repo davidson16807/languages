@@ -44,15 +44,18 @@ category_to_grammemes = {
     # As an example, all "animate" things are "living" but not all "dynamic" things are "living",
     # all "static" things are "nonliving" but not all static things are "abstract",
     # and a "plant" is "living", "dynamic", "nonagent", and "inanimate", among others.
-    'animacy':    [            'human',       'nonhuman',    # member of the species homo sapiens
-                   'sentient', 'humanoid',    'nonsentient', # able to carry out concious thought
-                   'animate',  'animal',      'inanimate',   # able to move around on its own
-                   'agent',    'institution', 'nonagent',    # able to make decisions
-                   'living',   'plant',       'nonliving',   # able to grow and reproduce
-                   'dynamic',  'phenomenon',  'static',      # able to exhibit change without influence
-                   'concrete', 'substance',   'abstract',
-                   'thing'],      # a physical object
-    'abstraction':['location','origin','destination','time','manner','reason','quality','amount'],
+    'animacy':    [             'human',               'nonhuman',    # member of the species homo sapiens
+                   'sapient',   'humanoid',            'nonsapient',  # having the ability to think and speak
+                   'relatable', 'anthropomorphizable', 'unrelatable', # able to be empathized with
+                   'animate',   'creature',            'inanimate',   # able to move around on its own
+                   'living',    'plant',               'nonliving',   # able to grow and reproduce
+                   'dynamic',   'phenomenon',          'static',      # able to exhibit change without influence
+                   'mutable',   'item',                'immutable',   # able to exhibit change under influence
+                   'reachable', 'location',            'unreachable', # able to be physically accessed
+                   'concrete',  'perceptible',         'abstract',    # able to take physical form
+                   'thing'],     
+    'abstraction':['institution','location','origin',
+                   'destination','time','manner','reason','quality','amount'],
     'partitivity':['nonpartitive', 'partitive', 'bipartitive'],
     'clitic':     ['tonic', 'proclitic', 'mesoclitic', 'endoclitic', 'enclitic'],
     'distance':   ['proximal','medial','distal'],
