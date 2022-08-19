@@ -1,0 +1,20 @@
+swadesh number				
+	work		32	
+121	walk		18	
+	be		11	
+122	come/arrive		11	
+185	good	accusative	2	
+186	bad	accusative	2	
+27	big	accusative	1	
+28	long	accusative	1	
+	size	any case	1	
+	length	any case	1	
+	thought	any case	1	# only if sample declensions feature concepts
+101	see		10	# only if the language lacks passive and middle voice
+104	think/talk		4	# only for prepositional case
+	look		3	# only for unreachable observables in initiative, apudessive, terminative
+	navigate		1	# only for unreachable observables in initiative, apudessive, terminative
+103	know		1	# only if sample declensions feature emotion and the language lacks passive and middle voice
+102	hear		1	# only if sample declensions feature audible and the language lacks passive and middle voice
+	love		1	# only if sample declensions feature time and the language lacks passive and middle voice
+	consider		1	# only if sample declensions feature concepts and the language lacks passive and middle voice

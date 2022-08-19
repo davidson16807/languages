@@ -1,0 +1,15 @@
+	
+scurry	move-fast
+run	move-fast
+fly	move-fast
+	
+move	move-slow
+creep	move-slow
+crawl	move-slow
+walk	move-slow
+jump	move-slow
+hop	move-slow
+fly	move-slow
+	
+move-slow	move
+move-fast	move

@@ -1,0 +1,84 @@
+predicate	predicand
+	
+time	concept
+time	has-length
+	
+event	concept
+event	can-be-seen
+	
+work	concept
+work	has-difficulty
+	
+movie	event
+movie	can-be-seen
+movie	has-length
+	
+time-of-day	time
+season	time
+	
+morning	time-of-day
+evening	time-of-day
+day	time-of-day
+night	time-of-day
+	
+winter	season
+spring	season
+summer	season
+fall	season
+	
+affair	event
+affair	has-size
+myth	event
+myth	has-length
+conflict	event
+conflict	has-size
+	
+motion	concept
+motion	has-speed
+	
+fight	conflict
+war	conflict
+raid	conflict
+	
+job	work
+	
+circumnavigation	concept
+	
+emotion	concept
+	
+negative-emotion	emotion
+positive-emotion	emotion
+	
+ethical-emotion	emotion
+suspect-emotion	emotion
+	
+desire	suspect-emotion
+desire	positive-emotion
+joy	ethical-emotion
+joy	positive-emotion
+sorrow	ethical-emotion
+sorrow	negative-emotion
+fear	ethical-emotion
+fear	negative-emotion
+anger	suspect-emotion
+anger	negative-emotion
+pride	suspect-emotion
+pride	positive-emotion
+shame	ethical-emotion
+shame	negative-emotion
+	
+quantity	attribute
+	
+weight	quantity
+mass	quantity
+length	quantity
+width	quantity
+height	quantity
+distance	quantity
+area	quantity
+volume	quantity
+density	quantity
+speed	quantity
+momentum	quantity
+force	quantity
+energy	quantity

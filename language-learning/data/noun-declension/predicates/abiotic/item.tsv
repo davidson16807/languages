@@ -1,0 +1,166 @@
+				
+# natural items				
+			ingredient	natural
+			ingredient	item
+			resource	natural
+			resource	item
+			material	item
+				
+			rock	natural
+			rock	item
+			rock	can-be-thrown
+				
+			bone	natural
+			bone	biotic
+			bone	item
+				
+	# potables			
+			potable	can-be-drunk
+			potable	liquid
+				
+			alcoholic	potable
+			caffeinated	potable
+			nonpsychoactive	potable
+				
+			water	nonpsychoactive
+			wine	alcoholic
+			wine	alcoholic
+			beer	alcoholic
+			mead	alcoholic
+			coffee	caffeinated
+			tea	caffeinated
+			soda	caffeinated
+			milk	nonpsychoactive
+			milk	dairy
+			cocoa	nonpsychoactive
+			lemonade	nonpsychoactive
+			cider	nonpsychoactive
+				
+	#edibles		edible	can-be-tasted
+			edible	can-be-eaten
+			edible	item
+				
+			egg	edible
+			meat	edible
+			cheese	edible
+			cheese	dairly
+				
+			beef	meat
+			pork	meat
+			mutton	meat
+			venison	meat
+			bacon	pork
+				
+"# artificial items (""artifacts"")"				
+			artifact	artificial
+			artifact	item
+			artifact	can-be-used
+			artifact	can-be-owned
+				
+			luggage	artifact
+			luggage	container
+				
+			textual	artifact
+			textual	can-be-read
+			textual	can-be-written
+			textual	can-be-carried
+			textual	can-be-held
+			textual	can-be-used
+			textual	has-length
+				
+			book	textual
+			book	can-be-owned
+			message	textual
+			letter	textual
+				
+			pictoral	artifact
+			pictoral	can-be-drawn
+				
+			scetch	pictoral
+			painting	pictoral
+			portrait	pictoral
+				
+			line	graphical-element
+			circle	graphical-element
+				
+			valuable	item
+			valuable	can-be-owned
+			valuable	has-value
+			valuable	can-be-given
+			valuable	can-be-lost
+				
+	#clothing			
+			clothing	artifact
+			clothing	can-be-worn
+			clothing	can-be-owned
+				
+			underwear	clothing
+			bra	clothing
+			sock	clothing
+			pants	clothing
+			shirt	clothing
+			shoe	clothing
+			hat	clothing
+			belt	clothing
+			tie	clothing
+			gloves	clothing
+			scarf	clothing
+			jacket	clothing
+			coat	clothing
+				
+			jeans	pants
+			trousers	pants
+				
+			female-clothing	clothing
+			dress	female-clothing
+			skirt	female-clothing
+			blouse	female-clothing
+				
+			armor	clothing
+			armor	can-shield
+			armor	can-protect
+				
+	# weildable			
+			weildable	artifact
+			weildable	can-be-held
+				
+			light-source	artifact
+			light-source	can-light
+				
+			gift	valuable
+			ring	valuable
+			money	valuable
+				
+			tipstaff	weildable
+				
+			tool	weildable
+				
+			ax	weildable
+				
+		#weapons	weapon	weildable
+			weapon	can-hit
+				
+			blunt-weapon	weapon
+			blunt-weapon	can-bash
+				
+			piercing-weapon	weapon
+			piercing-weapon	can-stab
+				
+			slashing-weapon	weapon
+			slashing-weapon	can-cut
+			slashing-weapon	can-slash
+				
+			ballistic-weapon	weapon
+			ballistic-weapon	can-shoot
+			gun	ballistic-weapon
+			bow	ballistic-weapon
+				
+			projectile	weapon
+			projectile	can-be-shot
+				
+			blunt-projectile	projectile
+			bullet	blunt-projectile
+				
+			piercing-projectile	projectile
+			piercing-projectile	can-stab
+			arrow	piercing-projectile

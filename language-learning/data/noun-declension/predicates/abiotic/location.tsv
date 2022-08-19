@@ -1,0 +1,72 @@
+predicate	predicand
+	
+location	fixed
+location	static
+location	physical
+	
+geography	location
+geography	can-be-walked-to
+construction	location
+	
+land	geography
+land	can-be-owned
+	
+water-body	geography
+water-body	can-be-swam-in
+water-body	can-be-floated-on
+	
+grassland	land
+grassland	can-be-walked-in
+forest	land
+forest	can-be-walked-in
+desert	land
+desert	can-be-walked-in
+savanna	land
+savanna	can-be-walked-on
+valley	can-be-walked-in
+town	can-be-walked-in
+	
+polity	town
+meadow	grassland
+	
+salt-water-body	water-body
+fresh-water-body	water-body
+	
+ocean	salt-water-body
+sea	salt-water-body
+gulf	salt-water-body
+lake	fresh-water-body
+river	fresh-water-body
+pond	fresh-water-body
+	
+construction	man-made
+construction	installed
+construction	location
+	
+tunnel	construction
+tunnel	can-be-walked-in
+bridge	construction
+bridge	can-be-walked-on
+street	location
+street	can-be-walked-on
+road	location
+road	can-be-walked-on
+foundation	construction
+foundation	can-be-walked-on
+town	construction
+town	can-be-walked-in
+building	construction
+building	can-be-walked-in
+building	can-be-owned
+	
+tower	building
+tower	can-be-climbed-on
+citadel	building
+citadel	can-be-climbed-on
+ship	building
+ship	can-be-walked-in
+ship	can-be-walked-on
+boat	can-be-walked-in
+bathhouse	building
+house	building
+	

@@ -1,0 +1,98 @@
+PIE case																							
+nominative					be		bad concept	bad															
+nominative					be		good concept	good															
+nominative					be		ethical emotion	good															
+nominative					be		suspect emotion	bad															
+nominative					be		has-size	big															
+nominative					be		has-length	long															
+nominative					come/arrive		time																
+nominative					come/arrive		event																
+nominative					walk		walking																
+nominative					work		draft animal																
+nominative					work		sapient																
+accusative				man	consider		concept																
+accusative				man	know		emotion																
+accusative				man	know		sapient																
+accusative				man	love		time																
+accusative				man	love		pet																
+accusative				man	love		woman																
+accusative				man	see		can-be-seen																
+accusative				man	hear		can-be-heard																
+genitive				thought		of	concept																
+genitive				thought		of	emotion																
+genitive				size		of	has-size																
+genitive				length		of	has-length																
+genitive				sound		of	can-be-heard																
+ablative	from	the location of	origin	man	look	away from	can-be-seen																
+locative	at	the location of	location	man	look	at	can-be-seen																
+dative	to	the location of	destination	man	look	toward	can-be-seen																
+instrumental	using	the location of	location used	man	navigate	by way of	can-be-seen																
+ablative	from	the location of	origin	man	walk	away from	can-be-walked-to																
+locative	at	the location of	location	man	walk	at	can-be-walked-to																
+dative	to	the location of	destination	man	walk	to	can-be-walked-to																
+instrumental	using	the location of	location used	man	walk	via	can-be-walked-to																
+ablative	from	the vicinity of	starting vicinity	man	walk	from around	can-be-walked-by																
+locative	in	the vicinity of	vicinity	man	walk	by	can-be-walked-by																
+dative	to	the vicinity of	ending vicinity	man	walk	to around	can-be-walked-by																
+instrumental	using	the vicinity of	approximate location used	man	walk	via	can-be-walked-by																
+ablative	from	the interior of	exit	man	walk	out of	can-be-walked-in																
+locative	in	the interior of	interior	man	walk	in	can-be-walked-in																
+dative	to	the interior of	entrance	man	walk	into	can-be-walked-in																
+instrumental	using	the interior of	interior used	man	walk	through	can-be-walked-in																
+ablative	from	the surface of	starting surface	man	walk	off of	can-be-walked-on																
+locative	on	the surface of	surface	man	walk	on	can-be-walked-on																
+dative	to	the surface of	ending surface	man	walk	onto	can-be-walked-on																
+instrumental	using	the surface of	surface used	man	walk	over	can-be-walked-on																
+instrumental	from	the presence of	catalyst	man	work	due to the presence of	concrete & inanimate																
+instrumental	in	the presence of	presence	man	work	in the presence of	concrete & inanimate																
+dative	to	the presence of	product	man	work	to produce	concrete & inanimate																
+instrumental	using	the presence of	object used	man	work	by using the presence of	concrete & inanimate																
+instrumental	from	the presence of	catalyst	man	work	due to the presence of	animate																
+instrumental	in	the presence of	presence	man	work	in the presence of	animate																
+dative	to	the presence of	product	man	work	to draw in	animate																
+instrumental	using	the presence of	object used	man	work	by using the presence of	animate																
+instrumental	from	the aid of	enabler	man	work	thanks to the aid of	concrete & inanimate																
+instrumental	in	the aid of	assistance	man	work	with the aid of	concrete & inanimate																
+dative	to	the aid of	enabled	man	come/arrive	to aid the	concrete & inanimate																
+instrumental	using	the aid of	assistance used	man	work	by using the aid of 	concrete & inanimate																
+instrumental	from	the aid of	enabler	man	work	thanks to the aid of	animate																
+instrumental	in	the aid of	assistance	man	work	with the aid of	animate																
+dative	to	the aid of	enabled	man	come/arrive	to the aid of	animate																
+instrumental	using	the aid of	assistance used	man	work	by using the aid of 	animate																
+instrumental	from	the lack of	inhibitor	man	work	for want of	concrete																
+instrumental	in	the lack of	absence	man	work	in the absence of	concrete																
+dative	to	the lack of	aversion	man	work	to avoid	concrete																
+instrumental	using	the lack of	absence used	man	work	by taking advantage of the lack of	concrete																
+dative	from	the interest of	causal premise	man	work	out of the interest of	thing																
+dative	in	the interest of	interest	man	work	in the interest of	thing																
+dative	to	the interest of	causal goal	man	work	for the sake of	thing																
+instrumental	using	the interest of	interest used	man	work	by leveraging the interest of	thing																
+genitive	from	the ownership of	starting possession of	ownable	come/arrive	from the ownership of	owner																
+genitive	in	the ownership of	possession of	ownable	be	owned by	owner																
+genitive	to	the ownership of	ending possession of	ownable	come/arrive	into the ownership of	owner																
+dative	using	the ownership of	ownership used	ownable	work	due to being owned by	owner																
+ablative	from	the time of	starting time	man	work	following	time																
+instrumental	in	the time of	time	man	work	during	time																
+dative	to	the time of	ending time	man	work	until	time																
+instrumental	using	the time of	time used	man	work	by make use of	time																
+ablative	from	the time of	starting time	man	work	following	event																
+instrumental	in	the time of	time	man	work	during	event																
+dative	to	the time of	ending time	man	work	until	event																
+instrumental	using	the time of	time used	man	work	by make use of the time during	event																
+instrumental	from	the state of being	starting state	man	work	from having been	professional																
+instrumental	in	the state of being	state	man	work	as a	professional																
+instrumental	to	the state of being	ending state	man	work	in order to be	professional																
+instrumental	using	the state of being	state used	man	work	due to having been	professional																
+ablative	from	the topic of	topical premise	man	talk/think	of topics following from	thing																
+locative	of	the topic of	topic	man	talk/think	about	thing																
+dative	to	the topic of	topical goal	man	talk/think	towards the topic of	thing																
+instrumental	using	the topic of	topic used	man	talk/think	by using the example of	thing																
+locative	in	the company of		man	walk	in the company of	concrete | nonanimated																
+locative	in	the company of		man	walk	along with	animated																
+	in	the resemblance of	resemblance	concept	be	like	thing																
+	in	the resemblance of	resemblance	time	be	like	animate																
+	in	the resemblance of	resemblance	event	be	like	animate																
+	in	the resemblance of	resemblance	item	be	like	item																
+	in	the resemblance of	resemblance	phenomenon	be	like	animate																
+	in	the resemblance of	resemblance	plant	be	like	plant																
+	in	the resemblance of	resemblance	man	be	like	animate																

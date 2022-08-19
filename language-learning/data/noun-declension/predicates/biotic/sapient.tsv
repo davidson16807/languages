@@ -1,0 +1,16 @@
+	
+literate	can-read
+literate	can-write
+	
+has-name	can-be-named
+	
+proper-noun	has-name
+	
+character	proper-noun
+character	fictitious
+figure	proper-noun
+figure	historical
+	
+religious	can-be-believed
+mythical	fictitious
+legendary	fictitious

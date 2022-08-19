@@ -1,0 +1,28 @@
+predicate	predicand
+	
+plant	phototroph
+plant	autotroph
+	
+moss	plant
+fern	plant
+flower	color
+flower	plant
+grass	plant
+cactus	plant
+	
+tree	plant
+tree	climbable
+	
+deciduous	tree
+conifer	tree
+palm	tree
+ginko	tree
+	
+oak	deciduous
+maple	deciduous
+birch	deciduous
+beech	deciduous
+aspen	deciduous
+	
+pine	conifer
+spruce	conifer

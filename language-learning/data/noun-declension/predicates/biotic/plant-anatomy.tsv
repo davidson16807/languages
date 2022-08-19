@@ -1,0 +1,134 @@
+		
+		
+plant-anatomy	vascular-plant-anatomy	
+vascular-plant-anatomy	seed-bearing-plant-anatomy	
+seed-bearing-plant-anatomy	tree-anatomy	
+seed-bearing-plant-anatomy	fruit-bearing-plant-anatomy	
+seed-bearing-plant-anatomy	cereal-anatomy	
+seed-bearing-plant-anatomy	legume-anatomy	
+fruit-bearing-plant-anatomy	creeping-plant-anatomy	
+		
+leaf	vascular-plant-anatomy	
+stem	vascular-plant-anatomy	
+root	vascular-plant-anatomy	
+tuber	vascular-plant-anatomy	
+		
+seed	seed-bearing-plant-anatomy	
+nut	seed-bearing-plant-anatomy	
+		
+wood	tree-anatomy	
+		
+acorn	nut	
+		
+grain	cereal-anatomy	
+grain	item	
+		
+lettuce	edible	
+lettuce	leaf	
+		
+celery	edible	
+celery	stem	
+		
+sesame	edible	
+sesame	seed	
+		
+carrot	edible	
+carrot	tuber	
+radish	edible	
+radish	tuber	
+potato	edible	
+potato	tuber	
+sweet-potato	edible	
+sweet-potato	tuber	
+yam	edible	
+yam	tuber	
+		
+walnut	edible	
+walnut	nut	
+chestnut	edible	
+chestnut	nut	
+hazelnut	edible	
+hazelnut	nut	
+pecan	edible	
+pecan	nut	
+almond	edible	
+almond	nut	
+macadamia	edible	
+macadamia	nut	
+		
+cereal	edible	
+cereal	grain	
+chaff	cereal-anatomy	
+		
+bean	legume-plant-anatomy	
+bean	edible	
+		
+fruit	colorful	
+fruit	edible	
+fruit	fruit-bearing-plant-anatomy	
+		
+wheat	cereal	
+barley	cereal	
+rice	cereal	
+oat	cereal	
+rye	cereal	
+millet	cereal	
+corn	cereal	
+buckwheat	cereal	
+quinoa	cereal	
+chia	cereal	
+flax	cereal	
+hemp	cereal	
+		
+peanut	legume	
+soybean	legume	
+pea	legume	
+chickpea	legume	
+lentil	legume	
+		
+berry	colorful	
+berry	fruit	
+citrus-fruit	colorful	
+citrus-fruit	fruit	
+tropical-fruit	colorful	
+tropical-fruit	fruit	
+vegetable-fruit	fruit	#-fruit-that-is-occasionally-classified-as-a-vegetable
+		
+grape	fruit	
+cherry	fruit	
+apple	fruit	
+peach	fruit	
+pear	fruit	
+plum	fruit	
+pomegranate	fruit	
+cantaloupe	fruit	
+watermelon	fruit	
+		
+tomato	vegetable-fruit	
+avocado	vegetable-fruit	
+		
+raspberry	berry	
+blackberry	berry	
+blueberry	berry	
+strawberry	berry	
+cranberry	berry	
+elderberry	berry	
+mulberry	berry	
+		
+grapefruit	citrus-fruit	
+tangerine	citrus-fruit	
+orange	citrus-fruit	
+lemon	citrus-fruit	
+		
+kiwi	tropical-fruit	
+banana	tropical-fruit	
+kiwi	tropical-fruit	
+pineapple	tropical-fruit	
+papaya	tropical-fruit	
+dragonfruit	tropical-fruit	
+mango	tropical-fruit	
+coconut	tropical-fruit	
+durian	tropical-fruit	
+jackfruit	tropical-fruit	
+		
+vine	creeping-plant-anatomy	

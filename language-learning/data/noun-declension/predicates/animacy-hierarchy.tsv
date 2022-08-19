@@ -1,0 +1,109 @@
+predicand	predicate		
+			
+sapient	relatable	# able to think and speak	
+relatable	motile	# able to be-empathized with	
+motile	living	# able to move around on its own	
+living	physical	# able to grow and reproduce	
+physical	thing	# able to be-physically accessed	
+			
+abstract	nonphysical		
+nonphysical	nonliving		
+nonliving	inmotile		
+inmotile	unrelatable		
+unrelatable	nonsapient		
+nonsapient	nonhuman		
+			
+human	sapient		
+humanoid	sapient		
+anthropomorphizable	relatable		
+creature	motile		
+sessile	living		
+concept	thing		
+			
+humanoid	nonhuman		
+anthropomorphizable	nonsapient		
+creature	unrelatable		
+sessile	inmotile		
+concept	abstract		
+			
+sapient	can-think		
+sapient	can-speak		
+sapient	can-be-named		
+			
+relatable	has-emotion		
+relatable	can-taste		
+relatable	can-touch		
+relatable	can-feel		
+relatable	can-love		
+relatable	can-be-loved		
+relatable	can-be-spoken-to		
+			
+motile	can-sense		
+motile	can-move-willingly		
+			
+plant	sessile		
+fungus	sessile		
+barnacle	sessile		
+coral	sessile		
+			
+living	physical		
+living	can-grow		
+living	can-live		
+living	can-reproduce		
+			
+physical	can-exist		
+			
+concept	can-be-thought-of		
+concept	can-be-talked-about		
+			
+		# the following are ways that the hierarchy could be subdivided further	
+		# but we do not choose any single subdivision since it imposes unecessary structure	
+		# we provide applicable subdivisions here so they may be opted into when describing concepts	
+			
+mortal	living	# mortal/immortal	
+mortal	can-die		
+immortal	sapient		
+			
+human	mortal		
+animal	mortal		
+plant	mortal		
+fungus	"mortal	"		
+			
+deity	immortal		
+			
+biotic	physical	# biotic/abiotic	
+abiotic	nonliving		
+abiotic	physical		
+			
+living	biotic		
+egg	biotic		
+meat	biotic		
+food	biotic		
+dead	biotic		
+feces	biotic		
+urine	biotic		
+detritus	biotic		
+hummus	biotic		
+			
+natural	physical	#natural/artificial	
+artificial	nonliving		
+artificial	can-be-built		
+			
+dynamic	physical	# dynamic/static	
+dynamic	can-move		
+static	physical		
+			
+motile	dynamic		
+cloud	dynamic		
+water	dynamic		
+fire	dynamic		
+sessile	static		
+			
+movable	static	#movable/immovable	
+movable	can-be-moved		
+immovable	static		
+			
+can-move	mobile		
+can-be-moved	mobile		
+immobile	physical		
+			

@@ -1,0 +1,86 @@
+PIE case																																																			
+nominative					swim		swimming																																												
+nominative					crawl		crawling																																												
+nominative					hop		jumping																																												
+nominative					fly		flying																																												
+genitive				color		of	observable																																												
+genitive				location		of	location																																												
+genitive				weight		of	nonvaluable																																												
+genitive				name		of	pet																																												
+genitive				name		of	sapient																																												
+ablative	from	the location of	origin	man	walk	away from	reachable																																												
+locative	at	the location of	location	man	walk	at	reachable																																												
+dative	to	the location of	destination	man	walk	to	reachable																																												
+instrumental	using	the location of	location used	man	walk	via	reachable																																												
+ablative	from	the vicinity of	starting vicinity	swimming	swim	away from	aquatic																																												
+locative	in	the vicinity of	vicinity	swimming	swim	near	aquatic																																												
+dative	to	the vicinity of	ending vicinity	swimming	swim	toward	aquatic																																												
+instrumental	using	the vicinity of	approximate location used	swimming	swim	"by way of	"	aquatic																																												
+ablative	from	the vicinity of	starting vicinity	small-game-animal	move-fast	away from	small-game-predator																																												
+ablative	from	the vicinity of	starting vicinity	big-game-animal	move-fast	"away from	"	big-game-predator																																												
+ablative	from	the vicinity of	starting vicinity	insect	move-fast	away from	insect-eating																																												
+ablative	from	the vicinity of	starting vicinity	fish	move-fast	away from	fish-eating																																												
+ablative	from	the vicinity of	starting vicinity	snake	move-fast	away from	snake-eating																																												
+ablative	from	the vicinity of	starting vicinity	man	move-fast	away from	"man-eating	"																																												
+locative	in	the vicinity of	vicinity	small-game-animal	move-slow	near	small-game-predator																																												
+dative	to	the vicinity of	ending vicinity	big-game-animal	move-slow	near	big-game-predator																																												
+dative	to	the vicinity of	ending vicinity	insect	move-slow	near	insect-eating																																											c	c
+locative	in	the vicinity of	vicinity	fish	move-slow	near	fish-eating																																												
+locative	in	the vicinity of	vicinity	snake	move-slow	near	snake-eating																																												
+dative	to	the vicinity of	ending vicinity	man	move-slow	near	"man-eating	"																																												
+locative	in	the vicinity of	vicinity	small-game-predator	move-slow	near	small-game-animal																																												
+dative	to	the vicinity of	ending vicinity	big-game-predator	move-slow	near	big-game-animal																																												
+dative	to	the vicinity of	ending vicinity	insect-eating	move-slow	near	insect																																											c	c
+dative	to	the vicinity of	ending vicinity	fish-eating	move-slow	near	fish																																												
+dative	to	the vicinity of	ending vicinity	snake-eating	move-slow	near	snake																																												
+locative	in	the vicinity of	vicinity	"man-eating	"	move-slow	near	man																																												
+dative	to	the vicinity of	ending vicinity	small-game-predator	move-fast	"toward	"	small-game-animal																																												
+dative	to	the vicinity of	ending vicinity	big-game-predator	move-fast	"toward	"	big-game-animal																																												
+dative	to	the vicinity of	ending vicinity	insect-eating	move-fast	toward	insect																																												
+dative	to	the vicinity of	ending vicinity	fish-eating	move-fast	toward	fish																																												
+dative	to	the vicinity of	ending vicinity	snake-eating	move-fast	toward	snake																																												
+dative	to	the vicinity of	ending vicinity	"man-eating	"	move-fast	toward	man																																												
+locative	in	the vicinity of	vicinity	berry-eating	move-slow	toward	berry																																												
+dative	to	the vicinity of	ending vicinity	carrot-eating	move-slow	toward	carrot																																												
+dative	to	the vicinity of	ending vicinity	grass-eating	move-slow	toward	grass																																												
+dative	to	the vicinity of	ending vicinity	grass-eating	move-slow	toward	meadow																																												
+ablative	from	the interior of	exit	swimming	walk	out of	fresh-water-body																																												
+locative	in	the interior of	interior	swimming	swim	in	fresh-water-body																																												
+dative	to	the interior of	entrance	swimming	walk	into	fresh-water-body																																												
+instrumental	using	the interior of	interior used	swimming	swim	through	fresh-water-body																																												
+ablative	from	the interior of	exit	swimming	walk	out of	water																																												
+locative	in	the interior of	interior	swimming	swim	in	water																																												
+dative	to	the interior of	entrance	swimming	walk	into	water																																												
+instrumental	using	the interior of	interior used	swimming	swim	through	water																																												
+ablative	from	the interior of	exit	flying	fall	out of	air																																												
+locative	in	the interior of	interior	flying	fly	in	air																																												
+dative	to	the interior of	entrance	flying	fly	into	wind																																												
+instrumental	using	the interior of	interior used	flying	fly	through	air																																												
+ablative	from	the interior of	exit	burrowing	dig	out of	earth																																												
+locative	in	the interior of	interior	burrowing	dig	in	earth																																												
+dative	to	the interior of	entrance	burrowing	dig	into	earth																																												
+instrumental	using	the interior of	interior used	burrowing	dig	through	earth																																												
+ablative	from	the interior of	exit	burrowing	dig	out of	soil																																												
+locative	in	the interior of	interior	burrowing	dig	in	soil																																												
+dative	to	the interior of	entrance	burrowing	dig	into	soil																																												
+instrumental	using	the interior of	interior used	burrowing	dig	through	soil																																												
+ablative	from	the interior of	exit	burrowing	dig	out of	dirt																																												
+locative	in	the interior of	interior	burrowing	dig	in	dirt																																												
+dative	to	the interior of	entrance	burrowing	dig	into	dirt																																												
+instrumental	using	the interior of	interior used	burrowing	dig	through	dirt																																												
+ablative	from	the interior of	exit	burrowing	dig	out of	ground																																												
+locative	in	the interior of	interior	burrowing	dig	in	ground																																												
+dative	to	the interior of	entrance	burrowing	dig	into	ground																																												
+instrumental	using	the interior of	interior used	burrowing	dig	through	ground																																												
+ablative	from	the interior of	exit	flying	fly	off of	has-surface																																												
+locative	in	the interior of	interior	flying	fly	on	air																																												
+dative	to	the interior of	entrance	flying	fly	onto	has-surface																																												
+instrumental	using	the interior of	interior used	flying	fly	over	has-surface																																												
+ablative	from	the surface of	starting surface	climbing	climb	off of	climbable																																												
+locative	on	the surface of	surface	climbing	climb	on	climbable																																												
+dative	to	the surface of	ending surface	climbing	climb	onto	climbable																																												
+instrumental	using	the surface of	surface used	climbing	climb	over	climbable																																												
+ablative	from	the surface of	starting surface	waterfowl	fly	off of	water-body																																												
+locative	on	the surface of	surface	waterfowl	swim	on	water-body																																												
+dative	to	the surface of	ending surface	waterfowl	fly	onto	water-body																																												
+instrumental	using	the surface of	surface used	waterfowl	swim	over	water-body																																												

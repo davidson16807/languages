@@ -1,0 +1,168 @@
+																																																			
+human	terrestrial	# formal definition																																																	
+human	primate																																																		
+human	sapient																																																		
+																																																			
+human	can-eat-berries	# attributes as an animal																																																	
+human	can-eat-carrots																																																		
+human	can-eat-fish																																																		
+human	can-eat-fruit																																																		
+human	small-game-predator																																																		
+human	big-game-predator																																																		
+human	omnivore																																																		
+human	can-swim																																																		
+human	can-walk																																																		
+human	can-run																																																		
+human	can-jump																																																		
+human	can-climb																																																		
+human	can-live-on-land																																																		
+human	can-affiliate-with-salt-water																																																		
+human	can-affiliate-with-fresh-water																																																		
+human	can-affiliate-with-desert																																																		
+human	can-affiliate-with-jungle																																																		
+human	can-affiliate-with-forest																																																		
+human	can-affiliate-with-polar-desert																																																		
+human	can-affiliate-with-savanna																																																		
+human	can-affiliate-with-grassland																																																		
+human	can-affiliate-with-tundra																																																		
+human	can-use-tools																																																		
+human	can-read																																																		
+human	can-write																																																		
+human	can-own																																																		
+human	can-domesticate																																																		
+human	is-self-aware																																																		
+																																																			
+person	adult																																																		
+person	human																																																		
+																																																			
+man	male																																																		
+man	person																																																		
+woman	female																																																		
+woman	person																																																		
+boy	juvenile																																																		
+boy	human																																																		
+boy	male																																																		
+girl	juvenile																																																		
+girl	human																																																		
+girl	female																																																		
+child	juvenile																																																		
+child	human																																																		
+baby	juvenile																																																		
+baby	human																																																		
+																																																			
+old-man	old																																																		
+old-man	man																																																		
+old-woman	old																																																		
+old-woman	woman																																																		
+young-man	young																																																		
+young-man	man																																																		
+young-woman	young																																																		
+young-woman	woman																																																		
+																																																			
+crone	old-woman																																																		
+maiden	young-woman																																																		
+																																																			
+family-member	human																																																		
+																																																			
+professional	adult																																																		
+professional	human																																																		
+																																																			
+royalty	royal																																																		
+royalty	human																																																		
+																																																			
+hero	legendary																																																		
+hero	person																																																		
+																																																			
+demigod	mythical																																																		
+demigod	man																																																		
+demigoddess	woman																																																		
+demigoddess	woman																																																		
+																																																			
+cannibal	human																																																		
+cannibal	can-eat-humans																																																		
+																																																			
+parent	adult																																																		
+parent	family-member																																																		
+grandparent	adult																																																		
+grandparent	family-member																																																		
+offspring	family-member																																																		
+sibling	family-member																																																		
+parent-sibling	adult																																																		
+parent-sibling	family-member																																																		
+sibling-offspring	family-member																																																		
+spouse	adult																																																		
+spouse	family-member																																																		
+spouse	married																																																		
+																																																			
+wife	spouse																																																		
+wife	woman																																																		
+husband	spouse																																																		
+husband	man																																																		
+father	male																																																		
+father	parent																																																		
+mother	female																																																		
+mother	parent																																																		
+son	male																																																		
+son	offspring																																																		
+daughter	female																																																		
+daughter	offspring																																																		
+brother	male																																																		
+brother	sibling																																																		
+sister	female																																																		
+sister	sibling																																																		
+grandfather	male																																																		
+grandfather	granparent																																																		
+grandmother	female																																																		
+grandmother	grandparent																																																		
+uncle	male																																																		
+uncle	parent-sibling																																																		
+aunt	female																																																		
+aunt	parent-sibling																																																		
+niece	male																																																		
+niece	sibling-offspring																																																		
+nephew	female																																																		
+nephew	sibling-offspring																																																		
+																																																			
+friend	person																																																		
+enemy	person																																																		
+master	person																																																		
+servant	person																																																		
+neighbor	person																																																		
+bystander	person																																																		
+																																																			
+king	royalty																																																		
+king	ruler																																																		
+queen	royalty																																																		
+queen	wife																																																		
+queen	ruler																																																		
+prince	royalty																																																		
+prince	son																																																		
+princess	royalty																																																		
+princess	daughter																																																		
+																																																			
+orator	professional																																																		
+soldier	professional																																																		
+guide	professional																																																		
+shepherd	professional																																																		
+sailor	professional																																																		
+guard	professional																																																		
+writer	professional																																																		
+philosopher	professional																																																		
+sage	professional																																																		
+yogi	professional																																																		
+																																																			
+Hellen	mythical	#-Greek																																																	
+Hellen	demigoddess	#-Greek																																																	
+Hellen	character																																																		
+Oedipus	fictitious	#-Greek																																																	
+Oedipus	king	#-Greek																																																	
+Oedipus	character																																																		
+Pericles	historical	#-Greek																																																	
+Pericles	king	#-Greek																																																	
+Pericles	figure																																																		
+Socrates	historical	#-Greek																																																	
+Socrates	philosopher	#-Greek																																																	
+Socrates	figure																																																		
+Thales	historical	#-Greek																																																	
+Thales	philosopher	#-Greek																																																	
+Thales	figure																																																		

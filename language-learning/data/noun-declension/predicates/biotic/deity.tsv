@@ -1,0 +1,43 @@
+prediand	predicate	
+		
+deity	immortal	
+deity	sapient	
+deity	can-be-praised	
+deity	can-be-	
+		
+god	male	
+god	deity	
+		
+goddess	female	
+goddess	deity	
+		
+greek-deity	mythical	
+hindi-deity	religious	
+		
+sun-deity	god	
+moon-deity	god	
+thunder-deity	god	
+fire-deity	god	
+fertility-deity	god	
+war-deity	god	
+		
+titan	"greek-deity	"	
+olympic	"greek-deity	"	
+		
+Apollo	olympic	
+Apollo	sun-deity	
+Apollo	character	
+Ares	war-deity	
+Ares	olympic	
+Ares	character	
+Zeus	thunder-deity	
+Zeus	olympic	
+Zeus	character	
+Demeter	fertility-deity	
+Demeter	olympic	
+Demeter	character	
+		
+Agni	fire-deity	#-Hindi
+Agni	named	#-Hindi
+Agni	hindi-deity	
+		

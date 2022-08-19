@@ -1,0 +1,51 @@
+	
+can-move-willingly	can-move
+	
+can-be-walked-to	can-be-walked-by
+can-be-walked-to	can-be-run-to
+can-be-walked-to	can-move-willingly
+	
+can-be-walked-in	can-be-walked-to
+can-be-walked-in	can-be-run-in
+can-be-walked-in	can-be-crawled-in
+can-be-walked-in	can-be-creeped-in
+can-be-walked-in	can-be-slithered-in
+	
+can-be-walked-on	can-be-walked-to
+can-be-walked-on	can-be-run-on
+can-be-walked-on	can-be-crawled-on
+can-be-walked-on	can-be-creeped-on
+can-be-walked-on	can-be-slithered-on
+	
+can-be-swam-in	can-be-swam-on
+	
+can-live-in-water	can-be-swam-to
+can-live-in-water	can-be-floated-to
+	
+can-affiliate-with-land	can-be-crawled-to
+can-affiliate-with-land	can-be-creeped-to
+can-affiliate-with-land	can-be-walked-to
+can-affiliate-with-land	can-be-run-to
+can-affiliate-with-land	can-be-jumped-to
+	
+can-affiliate-with-air	can-be-flown-to
+	
+can-live-in-water	can-affiliate-with-water
+can-live-on-land	can-affiliate-with-land
+	
+can-affiliate-with-salt-water	can-affiliate-with-water
+can-affiliate-with-fresh-water	can-affiliate-with-water
+	
+can-live-on-land	can-be-walked-to
+	
+can-affiliate-with-desert	can-live-on-land
+can-affiliate-with-jungle	can-live-on-land
+can-affiliate-with-forest	can-live-on-land
+can-affiliate-with-forest	can-live-on-land
+can-affiliate-with-polar-desert	can-live-on-land
+can-affiliate-with-savanna	can-live-on-land
+can-affiliate-with-grassland	can-live-on-land
+can-affiliate-with-tundra	can-live-on-land
+	
+can-be-seen	has-size
+can-be-carried	has-mass
