@@ -1,7 +1,6 @@
 predicand	predicate		
 			
-sapient	relatable	# able to think and speak	
-relatable	motile	# able to be-empathized with	
+sapient	motile	# able to think and speak	
 motile	living	# able to move around on its own	
 living	physical	# able to grow and reproduce	
 physical	thing	# able to be-physically accessed	
@@ -9,34 +8,22 @@ physical	thing	# able to be-physically accessed
 abstract	nonphysical		
 nonphysical	nonliving		
 nonliving	inmotile		
-inmotile	unrelatable		
-unrelatable	nonsapient		
+inmotile	nonsapient		
 nonsapient	nonhuman		
 			
 human	sapient		
-humanoid	sapient		
-anthropomorphizable	relatable		
-creature	motile		
-sessile	living		
-concept	thing		
-			
 humanoid	nonhuman		
-anthropomorphizable	nonsapient		
-creature	unrelatable		
+humanoid	sapient		
+creature	nonsapient		
+creature	motile		
 sessile	inmotile		
+sessile	living		
 concept	abstract		
+concept	thing		
 			
 sapient	can-think		
 sapient	can-speak		
 sapient	can-be-named		
-			
-relatable	has-emotion		
-relatable	can-taste		
-relatable	can-touch		
-relatable	can-feel		
-relatable	can-love		
-relatable	can-be-loved		
-relatable	can-be-spoken-to		
 			
 motile	can-sense		
 motile	can-move-willingly		
@@ -52,6 +39,7 @@ living	can-live
 living	can-reproduce		
 			
 physical	can-exist		
+physical	has-location		
 			
 concept	can-be-thought-of		
 concept	can-be-talked-about		
@@ -60,7 +48,24 @@ concept	can-be-talked-about
 		# but we do not choose any single subdivision since it imposes unecessary structure	
 		# we provide applicable subdivisions here so they may be opted into when describing concepts	
 			
-mortal	living	# mortal/immortal	
+		# able to be-empathized with	
+relatable	relatable		
+relatable	motile		
+unrelatable	nonsapient		
+			
+relatable	has-emotion		
+relatable	can-taste		
+relatable	can-touch		
+relatable	can-feel		
+relatable	can-love		
+relatable	can-be-loved		
+relatable	can-be-spoken-to		
+			
+anthropomorphizable	nonhuman		
+anthropomorphizable	relatable		
+			
+		# mortal/immortal	
+mortal	living		
 mortal	can-die		
 immortal	sapient		
 			
@@ -70,8 +75,8 @@ plant	mortal
 fungus	"mortal	"		
 			
 deity	immortal		
-			
-biotic	physical	# biotic/abiotic	
+		# biotic/abiotic	
+biotic	physical		
 abiotic	nonliving		
 abiotic	physical		
 			
@@ -84,12 +89,12 @@ feces	biotic
 urine	biotic		
 detritus	biotic		
 hummus	biotic		
-			
-natural	physical	#natural/artificial	
+		#natural/artificial	
+natural	physical		
 artificial	nonliving		
 artificial	can-be-built		
-			
-dynamic	physical	# dynamic/static	
+		# dynamic/static	
+dynamic	physical		
 dynamic	can-move		
 static	physical		
 			
@@ -98,8 +103,8 @@ cloud	dynamic
 water	dynamic		
 fire	dynamic		
 sessile	static		
-			
-movable	static	#movable/immovable	
+		#movable/immovable	
+movable	static		
 movable	can-be-moved		
 immovable	static		
 			

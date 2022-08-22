@@ -4,7 +4,7 @@ import collections
 import itertools
 from transforms import *
 from shorthands import *
-from parsing import *
+from parsing import SeparatedValuesFileParsing
 from annotation import *
 from indexing import *
 from lookup import *

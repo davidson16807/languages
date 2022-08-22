@@ -7,9 +7,6 @@ nominative					be		has-size	big
 nominative					be		has-length	long															
 nominative					come/arrive		time																
 nominative					come/arrive		event																
-nominative					walk		walking																
-nominative					work		draft animal																
-nominative					work		sapient																
 accusative				man	consider		concept																
 accusative				man	know		emotion																
 accusative				man	know		sapient																
@@ -21,7 +18,6 @@ accusative				man	hear		can-be-heard
 genitive				thought		of	concept																
 genitive				thought		of	emotion																
 genitive				size		of	has-size																
-genitive				length		of	has-length																
 genitive				sound		of	can-be-heard																
 ablative	from	the location of	origin	man	look	away from	can-be-seen																
 locative	at	the location of	location	man	look	at	can-be-seen																

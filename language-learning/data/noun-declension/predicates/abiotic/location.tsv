@@ -4,8 +4,13 @@ location	fixed
 location	static
 location	physical
 	
+world	location
+	
+region	location
+	
 geography	location
 geography	can-be-walked-to
+construction	artificial
 construction	location
 	
 land	geography
@@ -39,7 +44,7 @@ lake	fresh-water-body
 river	fresh-water-body
 pond	fresh-water-body
 	
-construction	man-made
+construction	artificial
 construction	installed
 construction	location
 	

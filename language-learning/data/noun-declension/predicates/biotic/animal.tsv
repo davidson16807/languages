@@ -535,7 +535,7 @@ ungulate	can-walk
 ungulate	can-eat-grass					
 ungulate	has-hoof					
 ungulate	placental					
-primate	relatable	# not strictly anthropomorphizable, to be anthropomorphizable requires being nonhuman				
+primate	relatable	# not strictly anthropomorphizable, to be anthropomorphizable requires being nonhuman, and humans are primates				
 primate	can-live-on-land	# not strictly arboreal, humans are not arboreal				
 primate	placental					
 						
@@ -576,13 +576,13 @@ canine	predator
 canine	can-walk					
 canine	can-run					
 canine	has-fur					
-feline	carnivoran					
-feline	predator					
-feline	can-walk					
-feline	can-run					
-feline	can-jump					
-feline	can-scratch					
-feline	has-fur					
+cat	carnivoran					
+cat	predator					
+cat	can-walk					
+cat	can-run					
+cat	can-jump					
+cat	can-scratch					
+cat	has-fur					
 						
 wolf	can-eat-big-game-animal					
 wolf	canine					
@@ -599,24 +599,24 @@ dog	canine
 						
 lion	can-eat-humans					
 lion	can-eat-big-game-animal					
-lion	feline					
+lion	cat					
 tiger	can-eat-humans					
 tiger	can-eat-big-game-animal					
-tiger	feline					
-cheetah	feline					
+tiger	cat					
+cheetah	cat					
 cheetah	can-eat-big-game-animal					
-leopard	feline					
+leopard	cat					
 leopard	can-eat-humans					
 leopard	can-eat-big-game-animal					
-puma	feline					
+puma	cat					
 puma	can-eat-big-game-animal					
-lynx	feline					
+lynx	cat					
 lynx	can-eat-small-game-animal					
-bobcat	feline					
+bobcat	cat					
 bobcat	can-eat-small-game-animal					
-cat	pet					
-cat	can-eat-small-game-animal					
-cat	feline					
+house-cat	pet					
+house-cat	can-eat-small-game-animal					
+house-cat	cat					
 						
 rhinoceros	can-affiliate-with-savanna					
 rhinoceros	has-horn					

@@ -1,4 +1,5 @@
 	
+can-be-moved	can-move
 can-move-willingly	can-move
 	
 can-be-walked-to	can-be-walked-by
@@ -48,4 +49,5 @@ can-affiliate-with-grassland	can-live-on-land
 can-affiliate-with-tundra	can-live-on-land
 	
 can-be-seen	has-size
+can-be-seen	has-color
 can-be-carried	has-mass

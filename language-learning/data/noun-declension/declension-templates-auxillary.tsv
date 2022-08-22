@@ -3,9 +3,13 @@ nominative					swim		swimming
 nominative					crawl		crawling																																												
 nominative					hop		jumping																																												
 nominative					fly		flying																																												
-genitive				color		of	observable																																												
-genitive				location		of	location																																												
-genitive				weight		of	nonvaluable																																												
+nominative					walk		walking																																												
+nominative					work		draft animal																																												
+nominative					work		sapient																																												
+genitive				color		of	has-color																																												
+genitive				location		of	has-location																																												
+genitive				value		of	has-value																																												
+genitive				weight		of																																													
 genitive				name		of	pet																																												
 genitive				name		of	sapient																																												
 ablative	from	the location of	origin	man	walk	away from	reachable																																												
