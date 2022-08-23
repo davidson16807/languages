@@ -3,33 +3,33 @@ be	human		terrestrial	# formal definition
 be	human		primate																																																		
 be	human		sapient																																																		
 																																																					
-be	human	can	can-eat-berries	# attributes as an animal																																																	
-be	human	can	can-eat-carrots																																																		
-be	human	can	can-eat-fish																																																		
-be	human	can	can-eat-fruit																																																		
+be	human	can	eat-berries	# attributes as an animal																																																	
+be	human	can	eat-carrots																																																		
+be	human	can	eat-fish																																																		
+be	human	can	eat-fruit																																																		
 be	human	be	small-game-predator																																																		
 be	human	be	big-game-predator																																																		
 be	human	be	omnivore																																																		
-be	human	can	can-swim																																																		
-be	human	can	can-walk																																																		
-be	human	can	can-run																																																		
-be	human	can	can-jump																																																		
-be	human	can	can-climb																																																		
-be	human	can	can-live-on-land																																																		
-be	human	can	can-affiliate-with-salt-water																																																		
-be	human	can	can-affiliate-with-fresh-water																																																		
-be	human	can	can-affiliate-with-desert																																																		
-be	human	can	can-affiliate-with-jungle																																																		
-be	human	can	can-affiliate-with-forest																																																		
-be	human	can	can-affiliate-with-polar-desert																																																		
-be	human	can	can-affiliate-with-savanna																																																		
-be	human	can	can-affiliate-with-grassland																																																		
-be	human	can	can-affiliate-with-tundra																																																		
-be	human	can	can-use-tools																																																		
-be	human	can	can-read																																																		
-be	human	can	can-write																																																		
-be	human	can	can-own																																																		
-be	human	can	can-domesticate																																																		
+be	human	can	swim																																																		
+be	human	can	walk																																																		
+be	human	can	run																																																		
+be	human	can	jump																																																		
+be	human	can	climb																																																		
+be	human	can	live-on-land																																																		
+be	human	can	affiliate-with-salt-water																																																		
+be	human	can	affiliate-with-fresh-water																																																		
+be	human	can	affiliate-with-desert																																																		
+be	human	can	affiliate-with-jungle																																																		
+be	human	can	affiliate-with-forest																																																		
+be	human	can	affiliate-with-polar-desert																																																		
+be	human	can	affiliate-with-savanna																																																		
+be	human	can	affiliate-with-grassland																																																		
+be	human	can	affiliate-with-tundra																																																		
+be	human	can	use-tools																																																		
+be	human	can	read																																																		
+be	human	can	write																																																		
+be	human	can	own																																																		
+be	human	can	domesticate																																																		
 be	human	be	self-aware																																																		
 																																																					
 be	person	be	adult																																																		
@@ -79,7 +79,7 @@ be	demigoddess	be	woman
 be	demigoddess	be	woman																																																		
 																																																					
 be	cannibal	be	human																																																		
-be	cannibal	can	can-eat-humans																																																		
+be	cannibal	can	eat-humans																																																		
 																																																					
 be	parent	be	adult																																																		
 be	parent	be	family-member																																																		

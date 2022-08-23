@@ -4,13 +4,13 @@ be	time	be	concept
 be	time	bear	has-length
 			
 be	event	be	concept
-be	event	cna	can-be-seen
+be	event	cna	be-seen
 			
 be	work	be	concept
 be	work	bear	has-difficulty
 			
 be	movie	be	event
-be	movie	can	can-be-seen
+be	movie	can	be-seen
 be	movie	bear	has-length
 			
 be	time-of-day	be	time

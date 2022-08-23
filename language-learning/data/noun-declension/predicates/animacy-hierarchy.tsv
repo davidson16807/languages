@@ -21,12 +21,12 @@ be	sessile	be	living
 be	concept	be	abstract		
 be	concept	be	thing		
 					
-be	sapient	can	can-think		
-be	sapient	can	can-speak		
-be	sapient	can	can-be-named		
+be	sapient	can	think		
+be	sapient	can	speak		
+be	sapient	can	be-named		
 					
-be	motile	can	can-sense		
-be	motile	can	can-move-willingly		
+be	motile	can	sense		
+be	motile	can	move-willingly		
 					
 be	plant	be	sessile		
 be	fungus	be	sessile		
@@ -34,15 +34,15 @@ be	barnacle	be	sessile
 be	coral	be	sessile		
 					
 be	living	be	physical		
-be	living	can	can-grow		
-be	living	can	can-live		
-be	living	can	can-reproduce		
+be	living	can	grow		
+be	living	can	live		
+be	living	can	reproduce		
 					
-be	physical	can	can-exist		
+be	physical	can	exist		
 be	physical	bear	has-location		
 					
-be	concept	can	can-be-thought-of		
-be	concept	can	can-be-talked-about		
+be	concept	can	be-thought-of		
+be	concept	can	be-talked-about		
 					
 				# the following are ways that the hierarchy could be subdivided further	
 				# but we do not choose any single subdivision since it imposes unecessary structure	
@@ -54,19 +54,19 @@ be	relatable	be	motile
 be	unrelatable	be	nonsapient		
 					
 be	relatable	be	has-emotion		
-be	relatable	can	can-taste		
-be	relatable	can	can-touch		
-be	relatable	can	can-feel		
-be	relatable	can	can-love		
-be	relatable	can	can-be-loved		
-be	relatable	can	can-be-spoken-to		
+be	relatable	can	taste		
+be	relatable	can	touch		
+be	relatable	can	feel		
+be	relatable	can	love		
+be	relatable	can	be-loved		
+be	relatable	can	be-spoken-to		
 					
 be	anthropomorphizable	be	nonhuman		
 be	anthropomorphizable	be	relatable		
 					
 				# mortal/immortal	
 be	mortal	be	living		
-be	mortal	can	can-die		
+be	mortal	can	die		
 be	immortal	be	sapient		
 					
 be	human	be	mortal		
@@ -92,10 +92,10 @@ be	hummus	be	biotic
 				#natural/artificial	
 be	natural	be	physical		
 be	artificial	be	nonliving		
-be	artificial	can	can-be-built		
+be	artificial	can	be-built		
 				# dynamic/static	
 be	dynamic	be	physical		
-be	dynamic	can	can-move		
+be	dynamic	can	move		
 be	static	be	physical		
 					
 be	motile	be	dynamic		
@@ -105,7 +105,7 @@ be	fire	be	dynamic
 be	sessile	be	static		
 				#movable/immovable	
 be	movable	be	static		
-be	movable	can	can-be-moved		
+be	movable	can	be-moved		
 be	immovable	be	static		
 					
 can	can-move	be	mobile		

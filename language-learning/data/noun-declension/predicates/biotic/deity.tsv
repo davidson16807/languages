@@ -2,8 +2,8 @@
 				
 be	deity	be	immortal	
 be	deity	be	sapient	
-be	deity	can	can-be-praised	
-be	deity	can	can-be-worshipped	
+be	deity	can	be-praised	
+be	deity	can	be-worshipped	
 				
 be	god	be	male	
 be	god	be	deity	

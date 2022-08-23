@@ -9,27 +9,27 @@ be	world	be	location
 be	region	be	location
 			
 be	geography	be	location
-be	geography		can-be-walked-to
+be	geography		be-walked-to
 be	construction	be	artificial
 be	construction	be	location
 			
 be	land	be	geography
-be	land		can-be-owned
+be	land		be-owned
 			
 be	water-body	be	geography
-be	water-body		can-be-swam-in
-be	water-body		can-be-floated-on
+be	water-body		be-swam-in
+be	water-body		be-floated-on
 			
 be	grassland	be	land
-be	grassland		can-be-walked-in
+be	grassland		be-walked-in
 be	forest	be	land
-be	forest		can-be-walked-in
+be	forest		be-walked-in
 be	desert	be	land
-be	desert		can-be-walked-in
+be	desert		be-walked-in
 be	savanna	be	land
-be	savanna		can-be-walked-on
-be	valley		can-be-walked-in
-be	town		can-be-walked-in
+be	savanna		be-walked-on
+be	valley		be-walked-in
+be	town		be-walked-in
 			
 be	polity	be	town
 be	meadow	be	grassland
@@ -49,29 +49,29 @@ be	construction	be	installed
 be	construction	be	location
 			
 be	tunnel	be	construction
-be	tunnel		can-be-walked-in
+be	tunnel		be-walked-in
 be	bridge	be	construction
-be	bridge		can-be-walked-on
+be	bridge		be-walked-on
 be	street	be	location
-be	street		can-be-walked-on
+be	street		be-walked-on
 be	road	be	location
-be	road		can-be-walked-on
+be	road		be-walked-on
 be	foundation	be	construction
-be	foundation		can-be-walked-on
+be	foundation		be-walked-on
 be	town	be	construction
-be	town		can-be-walked-in
+be	town		be-walked-in
 be	building	be	construction
-be	building		can-be-walked-in
-be	building		can-be-owned
+be	building		be-walked-in
+be	building		be-owned
 			
 be	tower	be	building
-be	tower		can-be-climbed-on
+be	tower		be-climbed-on
 be	citadel	be	building
-be	citadel		can-be-climbed-on
+be	citadel		be-climbed-on
 be	ship	be	building
-be	ship		can-be-walked-in
-be	ship		can-be-walked-on
-be	boat		can-be-walked-in
+be	ship		be-walked-in
+be	ship		be-walked-on
+be	boat		be-walked-in
 be	bathhouse	be	building
 be	house	be	building
 			

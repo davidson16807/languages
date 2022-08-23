@@ -1,8 +1,8 @@
 			
-be	literate	can	can-read
-be	literate	can	can-write
+be	literate	can	read
+be	literate	can	write
 			
-bear	name	can	can-be-named
+bear	name	can	be-named
 			
 be	proper-noun	bear	name
 			
@@ -11,6 +11,6 @@ be	character	be	fictitious
 be	figure	be	proper-noun
 be	figure	be	historical
 			
-be	religious	can	can-be-believed
+be	religious	can	be-believed
 be	mythical	be	fictitious
 be	legendary	be	fictitious

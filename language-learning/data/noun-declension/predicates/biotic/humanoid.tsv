@@ -5,8 +5,8 @@ be	humanoid	can	own
 				
 be	nymph	be	humanoid	
 be	nymph	be	female	
-be	nymph	can	can-swim	
-be	nymph	can	can-live-in-water	
+be	nymph	can	swim	
+be	nymph	can	live-in-water	
 be	nymph	bear	has-legs	
 				
 be	giant	be	humanoid	

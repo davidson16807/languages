@@ -1,53 +1,53 @@
 			
-can	can-be-moved	can	can-move
-can	can-move-willingly	can	can-move
+can	can-be-moved	can	move
+can	can-move-willingly	can	move
 			
-can	can-be-walked-to	can	can-be-walked-by
-can	can-be-walked-to	can	can-be-run-to
-can	can-be-walked-to	can	can-move-willingly
+can	can-be-walked-to	can	be-walked-by
+can	can-be-walked-to	can	be-run-to
+can	can-be-walked-to	can	move-willingly
 			
-can	can-be-walked-in	can	can-be-walked-to
-can	can-be-walked-in	can	can-be-run-in
-can	can-be-walked-in	can	can-be-crawled-in
-can	can-be-walked-in	can	can-be-creeped-in
-can	can-be-walked-in	can	can-be-slithered-in
+can	can-be-walked-in	can	be-walked-to
+can	can-be-walked-in	can	be-run-in
+can	can-be-walked-in	can	be-crawled-in
+can	can-be-walked-in	can	be-creeped-in
+can	can-be-walked-in	can	be-slithered-in
 			
-can	can-be-walked-on	can	can-be-walked-to
-can	can-be-walked-on	can	can-be-run-on
-can	can-be-walked-on	can	can-be-crawled-on
-can	can-be-walked-on	can	can-be-creeped-on
-can	can-be-walked-on	can	can-be-slithered-on
+can	can-be-walked-on	can	be-walked-to
+can	can-be-walked-on	can	be-run-on
+can	can-be-walked-on	can	be-crawled-on
+can	can-be-walked-on	can	be-creeped-on
+can	can-be-walked-on	can	be-slithered-on
 			
-can	can-be-swam-in	can	can-be-swam-on
+can	can-be-swam-in	can	be-swam-on
 			
-can	can-live-in-water	can	can-be-swam-to
-can	can-live-in-water	can	can-be-floated-to
+can	can-live-in-water	can	be-swam-to
+can	can-live-in-water	can	be-floated-to
 			
-can	can-affiliate-with-land	can	can-be-crawled-to
-can	can-affiliate-with-land	can	can-be-creeped-to
-can	can-affiliate-with-land	can	can-be-walked-to
-can	can-affiliate-with-land	can	can-be-run-to
-can	can-affiliate-with-land	can	can-be-jumped-to
+can	can-affiliate-with-land	can	be-crawled-to
+can	can-affiliate-with-land	can	be-creeped-to
+can	can-affiliate-with-land	can	be-walked-to
+can	can-affiliate-with-land	can	be-run-to
+can	can-affiliate-with-land	can	be-jumped-to
 			
-can	can-affiliate-with-air	can	can-be-flown-to
+can	can-affiliate-with-air	can	be-flown-to
 			
-can	can-live-in-water	can	can-affiliate-with-water
-can	can-live-on-land	can	can-affiliate-with-land
+can	can-live-in-water	can	affiliate-with-water
+can	can-live-on-land	can	affiliate-with-land
 			
-can	can-affiliate-with-salt-water	can	can-affiliate-with-water
-can	can-affiliate-with-fresh-water	can	can-affiliate-with-water
+can	can-affiliate-with-salt-water	can	affiliate-with-water
+can	can-affiliate-with-fresh-water	can	affiliate-with-water
 			
-can	can-live-on-land	can	can-be-walked-to
+can	can-live-on-land	can	be-walked-to
 			
-can	can-affiliate-with-desert	can	can-live-on-land
-can	can-affiliate-with-jungle	can	can-live-on-land
-can	can-affiliate-with-forest	can	can-live-on-land
-can	can-affiliate-with-forest	can	can-live-on-land
-can	can-affiliate-with-polar-desert	can	can-live-on-land
-can	can-affiliate-with-savanna	can	can-live-on-land
-can	can-affiliate-with-grassland	can	can-live-on-land
-can	can-affiliate-with-tundra	can	can-live-on-land
+can	can-affiliate-with-desert	can	live-on-land
+can	can-affiliate-with-jungle	can	live-on-land
+can	can-affiliate-with-forest	can	live-on-land
+can	can-affiliate-with-forest	can	live-on-land
+can	can-affiliate-with-polar-desert	can	live-on-land
+can	can-affiliate-with-savanna	can	live-on-land
+can	can-affiliate-with-grassland	can	live-on-land
+can	can-affiliate-with-tundra	can	live-on-land
 			
-can	can-be-seen	attribute	has-size
-can	can-be-seen	attribute	has-color
-can	can-be-carried	attribute	has-mass
+can	can-be-seen	attribute	size
+can	can-be-seen	attribute	color
+can	can-be-carried	attribute	mass

@@ -8,14 +8,14 @@ be	material	be	item
 						
 be	rock	be	natural			
 be	rock	be	item			
-be	rock	can	can-be-thrown			
+be	rock	can	be-thrown			
 						
 be	bone	be	natural			
 be	bone	be	biotic			
 be	bone	be	item			
 						
 					# potables	
-be	potable	can	can-be-drunk			
+be	potable	can	be-drunk			
 be	potable	be	liquid			
 						
 be	alcoholic	be	potable			
@@ -36,8 +36,8 @@ be	cocoa	be	nonpsychoactive
 be	lemonade	be	nonpsychoactive			
 be	cider	be	nonpsychoactive			
 						
-be	edible	can	can-be-tasted		#edibles	
-be	edible	can	can-be-eaten			
+be	edible	can	be-tasted		#edibles	
+be	edible	can	be-eaten			
 be	edible	be	item			
 						
 be	egg	be	edible			
@@ -54,27 +54,27 @@ be	bacon	be	pork
 						"# artificial items (""artifacts"")"
 be	artifact	be	artificial			
 be	artifact	be	item			
-be	artifact	can	can-be-used			
-be	artifact	can	can-be-owned			
+be	artifact	can	be-used			
+be	artifact	can	be-owned			
 						
 be	luggage	be	artifact			
 be	luggage	be	container			
 						
 be	textual	be	artifact			
-be	textual	can	can-be-read			
-be	textual	can	can-be-written			
-be	textual	can	can-be-carried			
-be	textual	can	can-be-held			
-be	textual	can	can-be-used			
+be	textual	can	be-read			
+be	textual	can	be-written			
+be	textual	can	be-carried			
+be	textual	can	be-held			
+be	textual	can	be-used			
 be	textual	bear	has-length			
 						
 be	book	be	textual			
-be	book	can	can-be-owned			
+be	book	can	be-owned			
 be	message	be	textual			
 be	letter	be	textual			
 						
 be	pictoral	be	artifact			
-be	pictoral	can	can-be-drawn			
+be	pictoral	can	be-drawn			
 						
 be	scetch	be	pictoral			
 be	painting	be	pictoral			
@@ -84,15 +84,15 @@ be	line	be	graphical-element
 be	circle	be	graphical-element			
 						
 be	valuable	be	item			
-be	valuable	can	can-be-owned			
+be	valuable	can	be-owned			
 be	valuable	bear	has-value			
-be	valuable	can	can-be-given			
-be	valuable	can	can-be-lost			
+be	valuable	can	be-given			
+be	valuable	can	be-lost			
 						
 					#clothing	
 be	clothing	be	artifact			
-be	clothing	can	can-be-worn			
-be	clothing	can	can-be-owned			
+be	clothing	can	be-worn			
+be	clothing	can	be-owned			
 						
 be	underwear	be	clothing			
 be	bra	be	clothing			
@@ -117,15 +117,15 @@ be	skirt	be	female-clothing
 be	blouse	be	female-clothing			
 						
 be	armor	be	clothing			
-be	armor	can	can-shield			
-be	armor	can	can-protect			
+be	armor	can	shield			
+be	armor	can	protect			
 						
 					# weildable	
 be	weildable	be	artifact			
-be	weildable	can	can-be-held			
+be	weildable	can	be-held			
 						
 be	light-source	be	artifact			
-be	light-source	can	can-light			
+be	light-source	can	light			
 						
 be	gift	be	valuable			
 be	ring	be	valuable			
@@ -138,29 +138,29 @@ be	tool	be	weildable
 be	ax	be	weildable			
 						
 be	weapon	be	weildable	#weapons		
-be	weapon	can	can-hit			
+be	weapon	can	hit			
 						
 be	blunt-weapon	be	weapon			
-be	blunt-weapon	can	can-bash			
+be	blunt-weapon	can	bash			
 						
 be	piercing-weapon	be	weapon			
-be	piercing-weapon	can	can-stab			
+be	piercing-weapon	can	stab			
 						
 be	slashing-weapon	be	weapon			
-be	slashing-weapon	can	can-cut			
-be	slashing-weapon	can	can-slash			
+be	slashing-weapon	can	cut			
+be	slashing-weapon	can	slash			
 						
 be	ballistic-weapon	be	weapon			
-be	ballistic-weapon	can	can-shoot			
+be	ballistic-weapon	can	shoot			
 be	gun	be	ballistic-weapon			
 be	bow	be	ballistic-weapon			
 						
 be	projectile	be	weapon			
-be	projectile	can	can-be-shot			
+be	projectile	can	be-shot			
 						
 be	blunt-projectile	be	projectile			
 be	bullet	be	blunt-projectile			
 						
 be	piercing-projectile	be	projectile			
-be	piercing-projectile	can	can-stab			
+be	piercing-projectile	can	stab			
 be	arrow	be	piercing-projectile			

@@ -1,15 +1,15 @@
 								
 						# immaterial or inaccessible physical observables		
 be	phenomenon	be	physical					
-be	phenomenon	can	can-be-sensed					
+be	phenomenon	can	be-sensed					
 								
 be	celestial	be	physical					
 be	celestial	be	immovable					
-be	celestial	can	can-be-seen					
+be	celestial	can	be-seen					
 								
 be	atmospheric	be	physical					
 be	atmospheric	be	immovable					
-be	atmospheric	can	can-be-seen					
+be	atmospheric	can	be-seen					
 								
 					# celestials			
 be	sun	be	celestial					
@@ -21,19 +21,19 @@ be	planet	be	celestial
 be	weather	be	atmospheric					
 be	weather	be	phenomenon					
 								
-be	rain	can	can-fall					
+be	rain	can	fall					
 be	rain	be	weather					
-be	snow	can	can-fall					
+be	snow	can	fall					
 be	snow	be	weather					
-be	wind	can	can-blow					
+be	wind	can	blow					
 be	wind	be	weather					
 								
 					# phenomenon			
 be	visible-phenomenon	be	phenomenon					
-be	visible-phenomenon	can	can-be-seen					
+be	visible-phenomenon	can	be-seen					
 								
 be	audible-phenomenon	be	phenomenon					
-be	audible-phenomenon	can	can-be-heard					
+be	audible-phenomenon	can	be-heard					
 								
 				# visible phenomenon				
 be	shadow	be	phenomenon					
@@ -61,27 +61,27 @@ be	location	be	physical
 						#matter/energy		
 be	energy	be	physical					
 								
-be	matter	can	can-be-seen					
+be	matter	can	be-seen					
 be	matter	be	physical					
 								
 be	light	be	energy					
-be	light	can	can-be-seen					
+be	light	can	be-seen					
 be	lightning	be	atmospheric					
 be	lightning	be	energy					
-be	lightning	can	can-be-seen					
+be	lightning	can	be-seen					
 be	wind	be	energy					
 								
 					#solid/liquid/gas			
-be	fluid	can	can-flow					
+be	fluid	can	flow					
 be	fluid	be	matter					
 								
 be	solid	bear	has-shape					
 be	solid	be	matter					
 be	liquid	be	fluid					
-be	liquid	can	can-be-poured					
+be	liquid	can	be-poured					
 be	gas	be	fluid					
-be	gas	can	can-be-breathed					
-be	gas	can	can-be-smelled					
+be	gas	can	be-breathed					
+be	gas	can	be-smelled					
 								
 be	living	be	solid					
 								
@@ -93,27 +93,27 @@ be	water	be	liquid
 								
 be	fire	be	dynamic					
 be	fire	be	visible-phenomenon					
-be	fire	can	can-burn					
-be	fire	can	can-grow					
-be	fire	can	can-move					
+be	fire	can	burn					
+be	fire	can	grow					
+be	fire	can	move					
 								
 be	water	be	potable					
-be	water	can	can-be-swam-in					
-be	water	can	can-be-swam-on					
-be	water	can	can-be-floated-in					
-be	water	can	can-be-floated-on					
+be	water	can	be-swam-in					
+be	water	can	be-swam-on					
+be	water	can	be-floated-in					
+be	water	can	be-floated-on					
 								
-be	earth	can	can-be-burrowed-in					
-be	earth	can	can-be-grown-in					
-be	earth	can	can-be-grown-on					
+be	earth	can	be-burrowed-in					
+be	earth	can	be-grown-in					
+be	earth	can	be-grown-on					
 be	earth	bear	has-surface					
 								
 be	ground	be	earth					
-be	ground	can	can-be-walked-on					
+be	ground	can	be-walked-on					
 be	dirt	be	earth					
-be	dirt	can	can-be-walked-on					
+be	dirt	can	be-walked-on					
 be	soil	be	earth					
-be	soil	can	can-be-walked-on					
+be	soil	can	be-walked-on					
 be	hummus	be	earth					
 be	hummus	be	biotic					
 								
@@ -132,14 +132,14 @@ be	unfixed	be	solid
 be	furniture	be	artificial					
 be	furniture	be	static					
 be	furniture	be	solid					
-be	furniture	can	can-be-used					
-be	furniture	can	can-be-walked-to					
+be	furniture	can	be-used					
+be	furniture	can	be-walked-to					
 								
 be	container	be	artificial					
 be	container	be	static					
 be	container	be	solid					
-be	container	can	can-be-used					
-be	container	can	can-store					
+be	container	can	be-used					
+be	container	can	store					
 be	container	can	has-interior					
 								
 				# fixed solids				
@@ -152,20 +152,20 @@ be	construction	be	installation
 be	construction	be	location					
 								
 be	apparatus	be	installation					
-be	apparatus	can	can-be-used					
+be	apparatus	can	be-used					
 								
 be	door	be	apparatus					
-be	door	can	can-open					
-be	door	can	can-close					
-be	door	can	can-lock					
-be	door	can	can-unlock					
+be	door	can	open					
+be	door	can	close					
+be	door	can	lock					
+be	door	can	unlock					
 be	door	bear	has-interior					
 								
 				"# unfixed solids (""items"")"				
 				# see item.tsv for more examples				
 be	item	be	unfixed					
-be	item	can	can-be-carried					
-be	item	can	can-be-walked-to					
+be	item	can	be-carried					
+be	item	can	be-walked-to					
 								
 								
 								
