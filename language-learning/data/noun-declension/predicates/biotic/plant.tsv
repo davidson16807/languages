@@ -1,28 +1,28 @@
-predicate	predicand
-	
-plant	phototroph
-plant	autotroph
-	
-moss	plant
-fern	plant
-flower	color
-flower	plant
-grass	plant
-cactus	plant
-	
-tree	plant
-tree	climbable
-	
-deciduous	tree
-conifer	tree
-palm	tree
-ginko	tree
-	
-oak	deciduous
-maple	deciduous
-birch	deciduous
-beech	deciduous
-aspen	deciduous
-	
-pine	conifer
-spruce	conifer
+	predicate		predicand
+			
+be	plant	be	phototroph
+be	plant	be	autotroph
+			
+be	moss	be	plant
+be	fern	be	plant
+be	flower	be	color
+be	flower	be	plant
+be	grass	be	plant
+be	cactus	be	plant
+			
+be	tree	be	plant
+be	tree	can	be-climbed
+			
+be	deciduous	be	tree
+be	conifer	be	tree
+be	palm	be	tree
+be	ginko	be	tree
+			
+be	oak	be	deciduous
+be	maple	be	deciduous
+be	birch	be	deciduous
+be	beech	be	deciduous
+be	aspen	be	deciduous
+			
+be	pine	be	conifer
+be	spruce	be	conifer

@@ -1,46 +1,46 @@
-predicand	predicate	
-		
-humanoid	mythical	
-humanoid	can-own	
-		
-nymph	humanoid	
-nymph	female	
-nymph	can-swim	
-nymph	can-live-in-water	
-nymph	has-legs	
-		
-giant	humanoid	
-giant	large	
-giant	strong	
-		
-Clio	nymph	
-Clio	character	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	predicand		predicate	
+				
+be	humanoid	be	mythical	
+be	humanoid	can	own	
+				
+be	nymph	be	humanoid	
+be	nymph	be	female	
+be	nymph	can	can-swim	
+be	nymph	can	can-live-in-water	
+be	nymph	bear	has-legs	
+				
+be	giant	be	humanoid	
+be	giant	be	large	
+be	giant	be	strong	
+				
+be	Clio	be	nymph	
+be	Clio	be	character	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

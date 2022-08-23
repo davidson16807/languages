@@ -1,171 +1,171 @@
-						
-# immaterial or inaccessible physical observables						
-				phenomenon	physical	
-				phenomenon	can-be-sensed	
-						
-				celestial	physical	
-				celestial	immovable	
-				celestial	can-be-seen	
-						
-				atmospheric	physical	
-				atmospheric	immovable	
-				atmospheric	can-be-seen	
-						
-	# celestials					
-				sun	celestial	
-				moon	celestial	
-				star	celestial	
-				planet	celestial	
-						
-	# weather					
-				weather	atmospheric	
-				weather	phenomenon	
-						
-				rain	can-fall	
-				rain	weather	
-				snow	can-fall	
-				snow	weather	
-				wind	can-blow	
-				wind	weather	
-						
-	# phenomenon					
-				visible-phenomenon	phenomenon	
-				visible-phenomenon	can-be-seen	
-						
-				audible-phenomenon	phenomenon	
-				audible-phenomenon	can-be-heard	
-						
-		# visible phenomenon				
-				shadow	phenomenon	
-				light-ray	phenomenon	
-						
-		# audible phenomenon				
-				echo	audible	
-				echo	phenomenon	
-				rain	audible	
-				thunder	audible	
-				horn	audible	
-						
-				spoken	audible	
-						
-				name	spoken	
-				comment	spoken	
-				comment	has-length	
-						
-"# accessible fixed statics (""location"")"						
-# see location.tsv for more examples						
-				location	fixed	
-				location	static	
-				location	physical	
-						
-#matter/energy						
-				energy	physical	
-						
-				matter	can-be-seen	
-				matter	physical	
-						
-				light	energy	
-				light	can-be-seen	
-				lightning	atmospheric	
-				lightning	energy	
-				lightning	can-be-seen	
-				wind	energy	
-						
-	#solid/liquid/gas					
-				fluid	can-flow	
-				fluid	matter	
-						
-				solid	has-shape	
-				solid	matter	
-				liquid	fluid	
-				liquid	can-be-poured	
-				gas	fluid	
-				gas	can-be-breathed	
-				gas	can-be-smelled	
-						
-				living	solid	
-						
-	#classical elements					
-				earth	solid	
-				fire	energy	
-				air	gas	
-				water	liquid	
-						
-				fire	dynamic	
-				fire	visible-phenomenon	
-				fire	can-burn	
-				fire	can-grow	
-				fire	can-move	
-						
-				water	potable	
-				water	can-be-swam-in	
-				water	can-be-swam-on	
-				water	can-be-floated-in	
-				water	can-be-floated-on	
-						
-				earth	can-be-burrowed-in	
-				earth	can-be-grown-in	
-				earth	can-be-grown-on	
-				earth	has-surface	
-						
-				ground	earth	
-				ground	can-be-walked-on	
-				dirt	earth	
-				dirt	can-be-walked-on	
-				soil	earth	
-				soil	can-be-walked-on	
-				hummus	earth	
-				hummus	biotic	
-						
-	# solids					
-				sessile	fixed	
-				motile	unfixed	
-						
-				fixed	immoble	
-				fixed	static	
-				fixed	solid	
-						
-				unfixed	mobile	
-				unfixed	solid	
-						
-		# solids that are not strictly fixed or unfixed				
-				furniture	artificial	
-				furniture	static	
-				furniture	solid	
-				furniture	can-be-used	
-				furniture	can-be-walked-to	
-						
-				container	artificial	
-				container	static	
-				container	solid	
-				container	can-be-used	
-				container	can-store	
-				container	has-interior	
-						
-		# fixed solids				
-				tree	fixed	
-						
-				installation	artificial	
-				installation	fixed	
-						
-				construction	installation	
-				construction	location	
-						
-				apparatus	installation	
-				apparatus	can-be-used	
-						
-				door	apparatus	
-				door	can-open	
-				door	can-close	
-				door	can-lock	
-				door	can-unlock	
-				door	has-interior	
-						
-		"# unfixed solids (""items"")"				
-		# see item.tsv for more examples				
-				item	unfixed	
-				item	can-be-carried	
-				item	can-be-walked-to	
-						
-						
-						
+								
+						# immaterial or inaccessible physical observables		
+be	phenomenon	be	physical					
+be	phenomenon	can	can-be-sensed					
+								
+be	celestial	be	physical					
+be	celestial	be	immovable					
+be	celestial	can	can-be-seen					
+								
+be	atmospheric	be	physical					
+be	atmospheric	be	immovable					
+be	atmospheric	can	can-be-seen					
+								
+					# celestials			
+be	sun	be	celestial					
+be	moon	be	celestial					
+be	star	be	celestial					
+be	planet	be	celestial					
+								
+					# weather			
+be	weather	be	atmospheric					
+be	weather	be	phenomenon					
+								
+be	rain	can	can-fall					
+be	rain	be	weather					
+be	snow	can	can-fall					
+be	snow	be	weather					
+be	wind	can	can-blow					
+be	wind	be	weather					
+								
+					# phenomenon			
+be	visible-phenomenon	be	phenomenon					
+be	visible-phenomenon	can	can-be-seen					
+								
+be	audible-phenomenon	be	phenomenon					
+be	audible-phenomenon	can	can-be-heard					
+								
+				# visible phenomenon				
+be	shadow	be	phenomenon					
+be	light-ray	be	phenomenon					
+								
+				# audible phenomenon				
+be	echo	be	audible					
+be	echo	be	phenomenon					
+be	rain	be	audible					
+be	thunder	be	audible					
+be	horn	be	audible					
+								
+be	spoken	be	audible					
+								
+be	name	be	spoken					
+be	comment	be	spoken					
+be	comment	bear	has-length					
+								
+						"# accessible fixed statics (""location"")"		
+						# see location.tsv for more examples		
+be	location	be	fixed					
+be	location	be	static					
+be	location	be	physical					
+								
+						#matter/energy		
+be	energy	be	physical					
+								
+be	matter	can	can-be-seen					
+be	matter	be	physical					
+								
+be	light	be	energy					
+be	light	can	can-be-seen					
+be	lightning	be	atmospheric					
+be	lightning	be	energy					
+be	lightning	can	can-be-seen					
+be	wind	be	energy					
+								
+					#solid/liquid/gas			
+be	fluid	can	can-flow					
+be	fluid	be	matter					
+								
+be	solid	bear	has-shape					
+be	solid	be	matter					
+be	liquid	be	fluid					
+be	liquid	can	can-be-poured					
+be	gas	be	fluid					
+be	gas	can	can-be-breathed					
+be	gas	can	can-be-smelled					
+								
+be	living	be	solid					
+								
+					#classical elements			
+be	earth	be	solid					
+be	fire	be	energy					
+be	air	be	gas					
+be	water	be	liquid					
+								
+be	fire	be	dynamic					
+be	fire	be	visible-phenomenon					
+be	fire	can	can-burn					
+be	fire	can	can-grow					
+be	fire	can	can-move					
+								
+be	water	be	potable					
+be	water	can	can-be-swam-in					
+be	water	can	can-be-swam-on					
+be	water	can	can-be-floated-in					
+be	water	can	can-be-floated-on					
+								
+be	earth	can	can-be-burrowed-in					
+be	earth	can	can-be-grown-in					
+be	earth	can	can-be-grown-on					
+be	earth	bear	has-surface					
+								
+be	ground	be	earth					
+be	ground	can	can-be-walked-on					
+be	dirt	be	earth					
+be	dirt	can	can-be-walked-on					
+be	soil	be	earth					
+be	soil	can	can-be-walked-on					
+be	hummus	be	earth					
+be	hummus	be	biotic					
+								
+					# solids			
+be	sessile	be	fixed					
+be	motile	be	unfixed					
+								
+be	fixed	be	immoble					
+be	fixed	be	static					
+be	fixed	be	solid					
+								
+be	unfixed	be	mobile					
+be	unfixed	be	solid					
+								
+				# solids that are not strictly fixed or unfixed				
+be	furniture	be	artificial					
+be	furniture	be	static					
+be	furniture	be	solid					
+be	furniture	can	can-be-used					
+be	furniture	can	can-be-walked-to					
+								
+be	container	be	artificial					
+be	container	be	static					
+be	container	be	solid					
+be	container	can	can-be-used					
+be	container	can	can-store					
+be	container	can	has-interior					
+								
+				# fixed solids				
+be	tree	be	fixed					
+								
+be	installation	be	artificial					
+be	installation	be	fixed					
+								
+be	construction	be	installation					
+be	construction	be	location					
+								
+be	apparatus	be	installation					
+be	apparatus	can	can-be-used					
+								
+be	door	be	apparatus					
+be	door	can	can-open					
+be	door	can	can-close					
+be	door	can	can-lock					
+be	door	can	can-unlock					
+be	door	bear	has-interior					
+								
+				"# unfixed solids (""items"")"				
+				# see item.tsv for more examples				
+be	item	be	unfixed					
+be	item	can	can-be-carried					
+be	item	can	can-be-walked-to					
+								
+								
+								

@@ -1,105 +1,105 @@
-	
-	
-organ	internal-anatomy
-internal-anatomy	vertebrate-anatomy
-	
-internal-arthropod-anatomy	arthropod-anatomy
-internal-god-anatomy	god-anatomy
-	
-animal-anatomy	arthropod-anatomy
-animal-anatomy	vertebrate-anatomy
-vertebrate-anatomy	fish-anatomy
-vertebrate-anatomy	reptile-anatomy
-vertebrate-anatomy	bird-anatomy
-vertebrate-anatomy	mammal-anatomy
-	
-mammal-anatomy	human-anatomy
-mammal-anatomy	ungulate-anatomy
-mammal-anatomy	canine-anatomy
-mammal-anatomy	feline-anatomy
-	
-human-anatomy	god-anatomy
-internal-god-anatomy	god-anatomy
-internal-anatomy	internal-god-anatomy
-	
-heart	organ
-lung	organ
-brain	organ
-liver	organ
-kidney	organ
-stomach	organ
-gut	organ
-	
-blood	liquid
-blood	internal-anatomy
-bile	liquid
-bile	internal-anatomy
-ichor	liquid
-ichor	internal-god-anatomy
-ichor	internal-arthropod-anatomy
-	
-head	arthropod-anatomy
-eye	arthropod-anatomy
-	
-head	vertibrate-anatomy
-eye	vertibrate-anatomy
-mouth	vertibrate-anatomy
-tongue	vertibrate-anatomy
-jaw	vertibrate-anatomy
-	
-scale	fish-anatomy
-fin	fish-anatomy
-	
-scale	reptile-anatomy
-tooth	reptile-anatomy
-	
-feather	bird-anatomy
-wing	bird-anatomy
-claw	bird-anatomy
-talon	bird-anatomy
-neck	bird-anatomy
-beak	bird-anatomy
-	
-ear	mammal-anatomy
-tooth	mammal-anatomy
-nose	mammal-anatomy
-neck	mammal-anatomy
-chin	mammal-anatomy
-	
-leg	ungulate-anatomy
-foot	ungulate-anatomy
-hoof	ungulate-anatomy
-	
-hair	feline-anatomy
-fur	feline-anatomy
-claw	feline-anatomy
-leg	feline-anatomy
-foot	feline-anatomy
-paw	feline-anatomy
-fang	feline-anatomy
-	
-hair	canine-anatomy
-fur	canine-anatomy
-leg	canine-anatomy
-foot	canine-anatomy
-paw	canine-anatomy
-snout	canine-anatomy
-	
-lip	human-anatomy
-cheek	human-anatomy
-eyebrow	human-anatomy
-hair	human-anatomy
-	
-hand	human-anatomy
-arm	human-anatomy
-finger	human-anatomy
-	
-foot	human-anatomy
-leg	human-anatomy
-toe	human-anatomy
-	
-elbow	human-anatomy
-shoulder	human-anatomy
-knee	human-anatomy
-butt	human-anatomy
-breast	human-anatomy
+			
+			
+	organ		internal-anatomy
+	internal-anatomy		vertebrate-anatomy
+			
+	internal-arthropod-anatomy		arthropod-anatomy
+	internal-god-anatomy		god-anatomy
+			
+	animal-anatomy		arthropod-anatomy
+	animal-anatomy		vertebrate-anatomy
+	vertebrate-anatomy		fish-anatomy
+	vertebrate-anatomy		reptile-anatomy
+	vertebrate-anatomy		bird-anatomy
+	vertebrate-anatomy		mammal-anatomy
+			
+	mammal-anatomy		human-anatomy
+	mammal-anatomy		ungulate-anatomy
+	mammal-anatomy		canine-anatomy
+	mammal-anatomy		feline-anatomy
+			
+	human-anatomy		god-anatomy
+	internal-god-anatomy		god-anatomy
+	internal-anatomy		internal-god-anatomy
+			
+	heart		organ
+	lung		organ
+	brain		organ
+	liver		organ
+	kidney		organ
+	stomach		organ
+	gut		organ
+			
+	blood		liquid
+	blood		internal-anatomy
+	bile		liquid
+	bile		internal-anatomy
+	ichor		liquid
+	ichor		internal-god-anatomy
+	ichor		internal-arthropod-anatomy
+			
+	head		arthropod-anatomy
+	eye		arthropod-anatomy
+			
+	head		vertibrate-anatomy
+	eye		vertibrate-anatomy
+	mouth		vertibrate-anatomy
+	tongue		vertibrate-anatomy
+	jaw		vertibrate-anatomy
+			
+	scale		fish-anatomy
+	fin		fish-anatomy
+			
+	scale		reptile-anatomy
+	tooth		reptile-anatomy
+			
+	feather		bird-anatomy
+	wing		bird-anatomy
+	claw		bird-anatomy
+	talon		bird-anatomy
+	neck		bird-anatomy
+	beak		bird-anatomy
+			
+	ear		mammal-anatomy
+	tooth		mammal-anatomy
+	nose		mammal-anatomy
+	neck		mammal-anatomy
+	chin		mammal-anatomy
+			
+	leg		ungulate-anatomy
+	foot		ungulate-anatomy
+	hoof		ungulate-anatomy
+			
+	hair		feline-anatomy
+	fur		feline-anatomy
+	claw		feline-anatomy
+	leg		feline-anatomy
+	foot		feline-anatomy
+	paw		feline-anatomy
+	fang		feline-anatomy
+			
+	hair		canine-anatomy
+	fur		canine-anatomy
+	leg		canine-anatomy
+	foot		canine-anatomy
+	paw		canine-anatomy
+	snout		canine-anatomy
+			
+	lip		human-anatomy
+	cheek		human-anatomy
+	eyebrow		human-anatomy
+	hair		human-anatomy
+			
+	hand		human-anatomy
+	arm		human-anatomy
+	finger		human-anatomy
+			
+	foot		human-anatomy
+	leg		human-anatomy
+	toe		human-anatomy
+			
+	elbow		human-anatomy
+	shoulder		human-anatomy
+	knee		human-anatomy
+	butt		human-anatomy
+	breast		human-anatomy

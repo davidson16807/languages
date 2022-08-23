@@ -1,166 +1,166 @@
-				
-# natural items				
-			ingredient	natural
-			ingredient	item
-			resource	natural
-			resource	item
-			material	item
-				
-			rock	natural
-			rock	item
-			rock	can-be-thrown
-				
-			bone	natural
-			bone	biotic
-			bone	item
-				
-	# potables			
-			potable	can-be-drunk
-			potable	liquid
-				
-			alcoholic	potable
-			caffeinated	potable
-			nonpsychoactive	potable
-				
-			water	nonpsychoactive
-			wine	alcoholic
-			wine	alcoholic
-			beer	alcoholic
-			mead	alcoholic
-			coffee	caffeinated
-			tea	caffeinated
-			soda	caffeinated
-			milk	nonpsychoactive
-			milk	dairy
-			cocoa	nonpsychoactive
-			lemonade	nonpsychoactive
-			cider	nonpsychoactive
-				
-	#edibles		edible	can-be-tasted
-			edible	can-be-eaten
-			edible	item
-				
-			egg	edible
-			meat	edible
-			cheese	edible
-			cheese	dairly
-				
-			beef	meat
-			pork	meat
-			mutton	meat
-			venison	meat
-			bacon	pork
-				
-"# artificial items (""artifacts"")"				
-			artifact	artificial
-			artifact	item
-			artifact	can-be-used
-			artifact	can-be-owned
-				
-			luggage	artifact
-			luggage	container
-				
-			textual	artifact
-			textual	can-be-read
-			textual	can-be-written
-			textual	can-be-carried
-			textual	can-be-held
-			textual	can-be-used
-			textual	has-length
-				
-			book	textual
-			book	can-be-owned
-			message	textual
-			letter	textual
-				
-			pictoral	artifact
-			pictoral	can-be-drawn
-				
-			scetch	pictoral
-			painting	pictoral
-			portrait	pictoral
-				
-			line	graphical-element
-			circle	graphical-element
-				
-			valuable	item
-			valuable	can-be-owned
-			valuable	has-value
-			valuable	can-be-given
-			valuable	can-be-lost
-				
-	#clothing			
-			clothing	artifact
-			clothing	can-be-worn
-			clothing	can-be-owned
-				
-			underwear	clothing
-			bra	clothing
-			sock	clothing
-			pants	clothing
-			shirt	clothing
-			shoe	clothing
-			hat	clothing
-			belt	clothing
-			tie	clothing
-			gloves	clothing
-			scarf	clothing
-			jacket	clothing
-			coat	clothing
-				
-			jeans	pants
-			trousers	pants
-				
-			female-clothing	clothing
-			dress	female-clothing
-			skirt	female-clothing
-			blouse	female-clothing
-				
-			armor	clothing
-			armor	can-shield
-			armor	can-protect
-				
-	# weildable			
-			weildable	artifact
-			weildable	can-be-held
-				
-			light-source	artifact
-			light-source	can-light
-				
-			gift	valuable
-			ring	valuable
-			money	valuable
-				
-			tipstaff	weildable
-				
-			tool	weildable
-				
-			ax	weildable
-				
-		#weapons	weapon	weildable
-			weapon	can-hit
-				
-			blunt-weapon	weapon
-			blunt-weapon	can-bash
-				
-			piercing-weapon	weapon
-			piercing-weapon	can-stab
-				
-			slashing-weapon	weapon
-			slashing-weapon	can-cut
-			slashing-weapon	can-slash
-				
-			ballistic-weapon	weapon
-			ballistic-weapon	can-shoot
-			gun	ballistic-weapon
-			bow	ballistic-weapon
-				
-			projectile	weapon
-			projectile	can-be-shot
-				
-			blunt-projectile	projectile
-			bullet	blunt-projectile
-				
-			piercing-projectile	projectile
-			piercing-projectile	can-stab
-			arrow	piercing-projectile
+						
+						# natural items
+be	ingredient	be	natural			
+be	ingredient	be	item			
+be	resource	be	natural			
+be	resource	be	item			
+be	material	be	item			
+						
+be	rock	be	natural			
+be	rock	be	item			
+be	rock	can	can-be-thrown			
+						
+be	bone	be	natural			
+be	bone	be	biotic			
+be	bone	be	item			
+						
+					# potables	
+be	potable	can	can-be-drunk			
+be	potable	be	liquid			
+						
+be	alcoholic	be	potable			
+be	caffeinated	be	potable			
+be	nonpsychoactive	be	potable			
+						
+be	water	be	nonpsychoactive			
+be	wine	be	alcoholic			
+be	wine	be	alcoholic			
+be	beer	be	alcoholic			
+be	mead	be	alcoholic			
+be	coffee	be	caffeinated			
+be	tea	be	caffeinated			
+be	soda	be	caffeinated			
+be	milk	be	nonpsychoactive			
+be	milk	be	dairy			
+be	cocoa	be	nonpsychoactive			
+be	lemonade	be	nonpsychoactive			
+be	cider	be	nonpsychoactive			
+						
+be	edible	can	can-be-tasted		#edibles	
+be	edible	can	can-be-eaten			
+be	edible	be	item			
+						
+be	egg	be	edible			
+be	meat	be	edible			
+be	cheese	be	edible			
+be	cheese	be	dairly			
+						
+be	beef	be	meat			
+be	pork	be	meat			
+be	mutton	be	meat			
+be	venison	be	meat			
+be	bacon	be	pork			
+						
+						"# artificial items (""artifacts"")"
+be	artifact	be	artificial			
+be	artifact	be	item			
+be	artifact	can	can-be-used			
+be	artifact	can	can-be-owned			
+						
+be	luggage	be	artifact			
+be	luggage	be	container			
+						
+be	textual	be	artifact			
+be	textual	can	can-be-read			
+be	textual	can	can-be-written			
+be	textual	can	can-be-carried			
+be	textual	can	can-be-held			
+be	textual	can	can-be-used			
+be	textual	bear	has-length			
+						
+be	book	be	textual			
+be	book	can	can-be-owned			
+be	message	be	textual			
+be	letter	be	textual			
+						
+be	pictoral	be	artifact			
+be	pictoral	can	can-be-drawn			
+						
+be	scetch	be	pictoral			
+be	painting	be	pictoral			
+be	portrait	be	pictoral			
+						
+be	line	be	graphical-element			
+be	circle	be	graphical-element			
+						
+be	valuable	be	item			
+be	valuable	can	can-be-owned			
+be	valuable	bear	has-value			
+be	valuable	can	can-be-given			
+be	valuable	can	can-be-lost			
+						
+					#clothing	
+be	clothing	be	artifact			
+be	clothing	can	can-be-worn			
+be	clothing	can	can-be-owned			
+						
+be	underwear	be	clothing			
+be	bra	be	clothing			
+be	sock	be	clothing			
+be	pants	be	clothing			
+be	shirt	be	clothing			
+be	shoe	be	clothing			
+be	hat	be	clothing			
+be	belt	be	clothing			
+be	tie	be	clothing			
+be	gloves	be	clothing			
+be	scarf	be	clothing			
+be	jacket	be	clothing			
+be	coat	be	clothing			
+						
+be	jeans	be	pants			
+be	trousers	be	pants			
+						
+be	female-clothing	be	clothing			
+be	dress	be	female-clothing			
+be	skirt	be	female-clothing			
+be	blouse	be	female-clothing			
+						
+be	armor	be	clothing			
+be	armor	can	can-shield			
+be	armor	can	can-protect			
+						
+					# weildable	
+be	weildable	be	artifact			
+be	weildable	can	can-be-held			
+						
+be	light-source	be	artifact			
+be	light-source	can	can-light			
+						
+be	gift	be	valuable			
+be	ring	be	valuable			
+be	money	be	valuable			
+						
+be	tipstaff	be	weildable			
+						
+be	tool	be	weildable			
+						
+be	ax	be	weildable			
+						
+be	weapon	be	weildable	#weapons		
+be	weapon	can	can-hit			
+						
+be	blunt-weapon	be	weapon			
+be	blunt-weapon	can	can-bash			
+						
+be	piercing-weapon	be	weapon			
+be	piercing-weapon	can	can-stab			
+						
+be	slashing-weapon	be	weapon			
+be	slashing-weapon	can	can-cut			
+be	slashing-weapon	can	can-slash			
+						
+be	ballistic-weapon	be	weapon			
+be	ballistic-weapon	can	can-shoot			
+be	gun	be	ballistic-weapon			
+be	bow	be	ballistic-weapon			
+						
+be	projectile	be	weapon			
+be	projectile	can	can-be-shot			
+						
+be	blunt-projectile	be	projectile			
+be	bullet	be	blunt-projectile			
+						
+be	piercing-projectile	be	projectile			
+be	piercing-projectile	can	can-stab			
+be	arrow	be	piercing-projectile			

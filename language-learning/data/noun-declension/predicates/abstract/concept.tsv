@@ -1,84 +1,84 @@
-predicate	predicand
-	
-time	concept
-time	has-length
-	
-event	concept
-event	can-be-seen
-	
-work	concept
-work	has-difficulty
-	
-movie	event
-movie	can-be-seen
-movie	has-length
-	
-time-of-day	time
-season	time
-	
-morning	time-of-day
-evening	time-of-day
-day	time-of-day
-night	time-of-day
-	
-winter	season
-spring	season
-summer	season
-fall	season
-	
-affair	event
-affair	has-size
-myth	event
-myth	has-length
-conflict	event
-conflict	has-size
-	
-motion	concept
-motion	has-speed
-	
-fight	conflict
-war	conflict
-raid	conflict
-	
-job	work
-	
-circumnavigation	concept
-	
-emotion	concept
-	
-negative-emotion	emotion
-positive-emotion	emotion
-	
-ethical-emotion	emotion
-suspect-emotion	emotion
-	
-desire	suspect-emotion
-desire	positive-emotion
-joy	ethical-emotion
-joy	positive-emotion
-sorrow	ethical-emotion
-sorrow	negative-emotion
-fear	ethical-emotion
-fear	negative-emotion
-anger	suspect-emotion
-anger	negative-emotion
-pride	suspect-emotion
-pride	positive-emotion
-shame	ethical-emotion
-shame	negative-emotion
-	
-quantity	attribute
-	
-weight	quantity
-mass	quantity
-length	quantity
-width	quantity
-height	quantity
-distance	quantity
-area	quantity
-volume	quantity
-density	quantity
-speed	quantity
-momentum	quantity
-force	quantity
-energy	quantity
+	predicate		predicand
+			
+be	time	be	concept
+be	time	bear	has-length
+			
+be	event	be	concept
+be	event	cna	can-be-seen
+			
+be	work	be	concept
+be	work	bear	has-difficulty
+			
+be	movie	be	event
+be	movie	can	can-be-seen
+be	movie	bear	has-length
+			
+be	time-of-day	be	time
+be	season	be	time
+			
+be	morning	be	time-of-day
+be	evening	be	time-of-day
+be	day	be	time-of-day
+be	night	be	time-of-day
+			
+be	winter	be	season
+be	spring	be	season
+be	summer	be	season
+be	fall	be	season
+			
+be	affair	be	event
+be	affair	bear	has-size
+be	myth	be	event
+be	myth	bear	has-length
+be	conflict	be	event
+be	conflict	bear	has-size
+			
+be	motion	be	concept
+be	motion	bear	has-speed
+			
+be	fight	be	conflict
+be	war	be	conflict
+be	raid	be	conflict
+			
+be	job	be	work
+			
+be	circumnavigation	be	concept
+			
+be	emotion	be	concept
+			
+be	negative-emotion	be	emotion
+be	positive-emotion	be	emotion
+			
+be	ethical-emotion	be	emotion
+be	suspect-emotion	be	emotion
+			
+be	desire	be	suspect-emotion
+be	desire	be	positive-emotion
+be	joy	be	ethical-emotion
+be	joy	be	positive-emotion
+be	sorrow	be	ethical-emotion
+be	sorrow	be	negative-emotion
+be	fear	be	ethical-emotion
+be	fear	be	negative-emotion
+be	anger	be	suspect-emotion
+be	anger	be	negative-emotion
+be	pride	be	suspect-emotion
+be	pride	be	positive-emotion
+be	shame	be	ethical-emotion
+be	shame	be	negative-emotion
+			
+be	quantity	be	attribute
+			
+be	weight	be	quantity
+be	mass	be	quantity
+be	length	be	quantity
+be	width	be	quantity
+be	height	be	quantity
+be	distance	be	quantity
+be	area	be	quantity
+be	volume	be	quantity
+be	density	be	quantity
+be	speed	be	quantity
+be	momentum	be	quantity
+be	force	be	quantity
+be	energy	be	quantity

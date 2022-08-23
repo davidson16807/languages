@@ -1,77 +1,77 @@
-predicate	predicand
-	
-location	fixed
-location	static
-location	physical
-	
-world	location
-	
-region	location
-	
-geography	location
-geography	can-be-walked-to
-construction	artificial
-construction	location
-	
-land	geography
-land	can-be-owned
-	
-water-body	geography
-water-body	can-be-swam-in
-water-body	can-be-floated-on
-	
-grassland	land
-grassland	can-be-walked-in
-forest	land
-forest	can-be-walked-in
-desert	land
-desert	can-be-walked-in
-savanna	land
-savanna	can-be-walked-on
-valley	can-be-walked-in
-town	can-be-walked-in
-	
-polity	town
-meadow	grassland
-	
-salt-water-body	water-body
-fresh-water-body	water-body
-	
-ocean	salt-water-body
-sea	salt-water-body
-gulf	salt-water-body
-lake	fresh-water-body
-river	fresh-water-body
-pond	fresh-water-body
-	
-construction	artificial
-construction	installed
-construction	location
-	
-tunnel	construction
-tunnel	can-be-walked-in
-bridge	construction
-bridge	can-be-walked-on
-street	location
-street	can-be-walked-on
-road	location
-road	can-be-walked-on
-foundation	construction
-foundation	can-be-walked-on
-town	construction
-town	can-be-walked-in
-building	construction
-building	can-be-walked-in
-building	can-be-owned
-	
-tower	building
-tower	can-be-climbed-on
-citadel	building
-citadel	can-be-climbed-on
-ship	building
-ship	can-be-walked-in
-ship	can-be-walked-on
-boat	can-be-walked-in
-bathhouse	building
-house	building
-	
+	predicate		predicand
+			
+be	location	be	fixed
+be	location	be	static
+be	location	be	physical
+			
+be	world	be	location
+			
+be	region	be	location
+			
+be	geography	be	location
+be	geography		can-be-walked-to
+be	construction	be	artificial
+be	construction	be	location
+			
+be	land	be	geography
+be	land		can-be-owned
+			
+be	water-body	be	geography
+be	water-body		can-be-swam-in
+be	water-body		can-be-floated-on
+			
+be	grassland	be	land
+be	grassland		can-be-walked-in
+be	forest	be	land
+be	forest		can-be-walked-in
+be	desert	be	land
+be	desert		can-be-walked-in
+be	savanna	be	land
+be	savanna		can-be-walked-on
+be	valley		can-be-walked-in
+be	town		can-be-walked-in
+			
+be	polity	be	town
+be	meadow	be	grassland
+			
+be	salt-water-body	be	water-body
+be	fresh-water-body	be	water-body
+			
+be	ocean	be	salt-water-body
+be	sea	be	salt-water-body
+be	gulf	be	salt-water-body
+be	lake	be	fresh-water-body
+be	river	be	fresh-water-body
+be	pond	be	fresh-water-body
+			
+be	construction	be	artificial
+be	construction	be	installed
+be	construction	be	location
+			
+be	tunnel	be	construction
+be	tunnel		can-be-walked-in
+be	bridge	be	construction
+be	bridge		can-be-walked-on
+be	street	be	location
+be	street		can-be-walked-on
+be	road	be	location
+be	road		can-be-walked-on
+be	foundation	be	construction
+be	foundation		can-be-walked-on
+be	town	be	construction
+be	town		can-be-walked-in
+be	building	be	construction
+be	building		can-be-walked-in
+be	building		can-be-owned
+			
+be	tower	be	building
+be	tower		can-be-climbed-on
+be	citadel	be	building
+be	citadel		can-be-climbed-on
+be	ship	be	building
+be	ship		can-be-walked-in
+be	ship		can-be-walked-on
+be	boat		can-be-walked-in
+be	bathhouse	be	building
+be	house	be	building
+			

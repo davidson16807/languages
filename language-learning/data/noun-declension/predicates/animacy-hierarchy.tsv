@@ -1,114 +1,114 @@
-predicand	predicate		
-			
-sapient	motile	# able to think and speak	
-motile	living	# able to move around on its own	
-living	physical	# able to grow and reproduce	
-physical	thing	# able to be-physically accessed	
-			
-abstract	nonphysical		
-nonphysical	nonliving		
-nonliving	inmotile		
-inmotile	nonsapient		
-nonsapient	nonhuman		
-			
-human	sapient		
-humanoid	nonhuman		
-humanoid	sapient		
-creature	nonsapient		
-creature	motile		
-sessile	inmotile		
-sessile	living		
-concept	abstract		
-concept	thing		
-			
-sapient	can-think		
-sapient	can-speak		
-sapient	can-be-named		
-			
-motile	can-sense		
-motile	can-move-willingly		
-			
-plant	sessile		
-fungus	sessile		
-barnacle	sessile		
-coral	sessile		
-			
-living	physical		
-living	can-grow		
-living	can-live		
-living	can-reproduce		
-			
-physical	can-exist		
-physical	has-location		
-			
-concept	can-be-thought-of		
-concept	can-be-talked-about		
-			
-		# the following are ways that the hierarchy could be subdivided further	
-		# but we do not choose any single subdivision since it imposes unecessary structure	
-		# we provide applicable subdivisions here so they may be opted into when describing concepts	
-			
-		# able to be-empathized with	
-relatable	relatable		
-relatable	motile		
-unrelatable	nonsapient		
-			
-relatable	has-emotion		
-relatable	can-taste		
-relatable	can-touch		
-relatable	can-feel		
-relatable	can-love		
-relatable	can-be-loved		
-relatable	can-be-spoken-to		
-			
-anthropomorphizable	nonhuman		
-anthropomorphizable	relatable		
-			
-		# mortal/immortal	
-mortal	living		
-mortal	can-die		
-immortal	sapient		
-			
-human	mortal		
-animal	mortal		
-plant	mortal		
-fungus	"mortal	"		
-			
-deity	immortal		
-		# biotic/abiotic	
-biotic	physical		
-abiotic	nonliving		
-abiotic	physical		
-			
-living	biotic		
-egg	biotic		
-meat	biotic		
-food	biotic		
-dead	biotic		
-feces	biotic		
-urine	biotic		
-detritus	biotic		
-hummus	biotic		
-		#natural/artificial	
-natural	physical		
-artificial	nonliving		
-artificial	can-be-built		
-		# dynamic/static	
-dynamic	physical		
-dynamic	can-move		
-static	physical		
-			
-motile	dynamic		
-cloud	dynamic		
-water	dynamic		
-fire	dynamic		
-sessile	static		
-		#movable/immovable	
-movable	static		
-movable	can-be-moved		
-immovable	static		
-			
-can-move	mobile		
-can-be-moved	mobile		
-immobile	physical		
-			
+	predicand		predicate		
+					
+be	sapient	be	motile	# able to think and speak	
+be	motile	be	living	# able to move around on its own	
+be	living	be	physical	# able to grow and reproduce	
+be	physical	be	thing	# able to be-physically accessed	
+					
+be	abstract	be	nonphysical		
+be	nonphysical	be	nonliving		
+be	nonliving	be	inmotile		
+be	inmotile	be	nonsapient		
+be	nonsapient	be	nonhuman		
+					
+be	human	be	sapient		
+be	humanoid	be	nonhuman		
+be	humanoid	be	sapient		
+be	creature	be	nonsapient		
+be	creature	be	motile		
+be	sessile	be	inmotile		
+be	sessile	be	living		
+be	concept	be	abstract		
+be	concept	be	thing		
+					
+be	sapient	can	can-think		
+be	sapient	can	can-speak		
+be	sapient	can	can-be-named		
+					
+be	motile	can	can-sense		
+be	motile	can	can-move-willingly		
+					
+be	plant	be	sessile		
+be	fungus	be	sessile		
+be	barnacle	be	sessile		
+be	coral	be	sessile		
+					
+be	living	be	physical		
+be	living	can	can-grow		
+be	living	can	can-live		
+be	living	can	can-reproduce		
+					
+be	physical	can	can-exist		
+be	physical	bear	has-location		
+					
+be	concept	can	can-be-thought-of		
+be	concept	can	can-be-talked-about		
+					
+				# the following are ways that the hierarchy could be subdivided further	
+				# but we do not choose any single subdivision since it imposes unecessary structure	
+				# we provide applicable subdivisions here so they may be opted into when describing concepts	
+					
+				# able to be-empathized with	
+be	relatable	be	relatable		
+be	relatable	be	motile		
+be	unrelatable	be	nonsapient		
+					
+be	relatable	be	has-emotion		
+be	relatable	can	can-taste		
+be	relatable	can	can-touch		
+be	relatable	can	can-feel		
+be	relatable	can	can-love		
+be	relatable	can	can-be-loved		
+be	relatable	can	can-be-spoken-to		
+					
+be	anthropomorphizable	be	nonhuman		
+be	anthropomorphizable	be	relatable		
+					
+				# mortal/immortal	
+be	mortal	be	living		
+be	mortal	can	can-die		
+be	immortal	be	sapient		
+					
+be	human	be	mortal		
+be	animal	be	mortal		
+be	plant	be	mortal		
+be	fungus	be	"mortal	"		
+					
+be	deity	be	immortal		
+				# biotic/abiotic	
+be	biotic	be	physical		
+be	abiotic	be	nonliving		
+be	abiotic	be	physical		
+					
+be	living	be	biotic		
+be	egg	be	biotic		
+be	meat	be	biotic		
+be	food	be	biotic		
+be	dead	be	biotic		
+be	feces	be	biotic		
+be	urine	be	biotic		
+be	detritus	be	biotic		
+be	hummus	be	biotic		
+				#natural/artificial	
+be	natural	be	physical		
+be	artificial	be	nonliving		
+be	artificial	can	can-be-built		
+				# dynamic/static	
+be	dynamic	be	physical		
+be	dynamic	can	can-move		
+be	static	be	physical		
+					
+be	motile	be	dynamic		
+be	cloud	be	dynamic		
+be	water	be	dynamic		
+be	fire	be	dynamic		
+be	sessile	be	static		
+				#movable/immovable	
+be	movable	be	static		
+be	movable	can	can-be-moved		
+be	immovable	be	static		
+					
+can	can-move	be	mobile		
+can	can-be-moved	be	mobile		
+be	immobile	be	physical		
+					

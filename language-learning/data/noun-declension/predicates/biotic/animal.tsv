@@ -1,767 +1,767 @@
-predicate	predicand					
-						
-animal	chemotroph	# formal definition				
-animal	heterotroph					
-						
-human	animal	# a member of the species homo sapiens				
-humanoid	animal	"# a typically mythical being that resembles a human, addressed as ""he"" or ""she"""				
-anthropomorphizable	animal	"# an animal that can be empathized with, addressed as ""he"" or ""she"""				
-creature	animal	"# moves, but not subject to empathy, addressed as ""it"""				
-coral	animal	# a sessile animal				
-barnacle	animal	# a sessile animal				
-						
-amphibious	can-live-in-water					
-amphibious	can-live-on-land					
-						
-oviparous	can-lay-eggs					
-oviparous	creature					
-viviparous	can-birthe					
-viviparous	animate					
-						
-can-lay-soft-shell-egg	can-lay-eggs					
-can-lay-hard-shell-egg	can-lay-eggs					
-						
-invertebrate	animal					
-vertebrate	animate					
-						
-venomous	toxic					
-venomous	has-venom					
-venomous	has-fangs					
-venomous	can-bite					
-poisonous	toxic					
-poisonous	can-not-be-eaten					
-has-stinger	toxic					
-has-stinger	can-sting	# note the order: papercuts can string, but they have no stinger				
-						
-male	animate					
-female	animate					
-						
-nocturnal	animate					
-diurnal	animate					
-						
-game-animal	can-live-on-land					
-game-animal	vertebrate					
-small-game-animal	game-animal					
-big-game-animal	game-animal					
-draft-animal	can-be-domesticated					
-guard-animal	can-be-domesticated					
-guard-animal	can-eat-small-game-animal					
-meat-producer	can-be-domesticated					
-dairy-producer	can-be-domesticated					
-dairy-producer	mammal					
-wool-producer	can-be-domesticated					
-wool-producer	mammal					
-egg-producer	can-be-domesticated					
-egg-producer	bird					
-pest	creature					
-pet	anthropomorphizable					
-pet	can-be-domesticated					
-						
-carnivore	creature	# eats some kind of animal upon its death				
-carnivore	can-eat-meat					
-herbivore	creature	# eats some kind of plant				
-herbivore	can-eat-plants					
-omnivore	carnivore	# eats some kind of plant and animal				
-omnivore	herbivore					
-						
-predator	carnivore	# eats some kind of animal by killing it				
-predator	can-hunt					
-scavenger	carnivore	# eats some kind of dead animal or refuse				
-scavenger	can-search					
-parasite	creature	# consumes some kind of animal in some way without killing it				
-parasite	can-consume-animal					
-						
-can-consume-animal	can-bite					
-						
-can-drink-nectar	creature	# drinks nectar				
-can-drink-blood	creature	# drinks blood				
-can-drink-blood	can-bite					
-can-drink-blood	can-consume-animal					
-						
-can-eat-grass	herbivore	# eats grass				
-can-eat-seeds	herbivore	# eats seeds				
-can-eat-carrots	herbivore	# eats carrots				
-can-eat-berries	herbivore	# eats berries				
-						
-can-eat-refuse	scavenger	# eats refuse				
-can-eat-carrion	scavenger	# eats carrion				
-can-eat-detritus	scavenger	# drinks nectar				
-						
-can-eat-meat	can-consume-animal					
-can-eat-insects	predator	# eats insects				
-can-eat-fish	predator	# eats fish				
-can-eat-snakes	predator	# eats snakes				
-can-eat-small-game-animal	predator	# eats big game, like deer				
-can-eat-big-game-animal	predator	# eats small game, like rabbits				
-						
-can-swim	creature	# not strictly aquatic, humans swim too				
-can-float	creature					
-can-burrow	creature					
-can-slither	can-creep					
-can-slither	can-crawl					
-can-slither	has-no-legs					
-can-creep	has-no-legs					
-can-crawl	animate					
-can-crawl	animate					
-can-waddle	can-live-on-land					
-can-waddle	animate					
-can-walk	has-legs					
-can-walk	can-live-on-land					
-can-walk	animate					
-can-jump	has-legs					
-can-jump	can-live-on-land					
-can-jump	animate					
-can-glide	creature					
-can-fly	creature					
-can-fly	has-wings					
-can-use-tools	can-hold					
-can-scratch	has-claws	# note the order, cats scratch and lobsters pinch				
-can-pinch	has-claws	# note the order, cats scratch and lobsters pinch				
-can-see	has-eyes	"# note the order, insects have eyes and technically see but ""the insect sees"" is an odd statement because they do not perceive as we do"				
-						
-has-fins	can-swim					
-has-fins	can-live-in-water					
-has-flipper	can-swim					
-has-flipper	can-live-in-water					
-has-legs	animate					
-has-horns	has-horn					
-						
-coral	sessile					
-coral	can-live-in-water					
-coral	invertebrate					
-worm	can-burrow					
-worm	can-crawl					
-worm	can-creep					
-worm	invertebrate					
-worm	creature					
-arthropod	has-legs					
-arthropod	invertebrate					
-arthropod	creature					
-mollusk	invertebrate					
-						
-barnacle	sessile					
-barnacle	mollusk					
-barnacle	can-live-in-water					
-mussel	can-live-in-water					
-mussel	mollusk					
-oyster	sessile					
-oyster	can-live-in-water					
-oyster	mollusk					
-clam	sessile					
-clam	can-live-in-water					
-clam	mollusk					
-slug	can-crawl					
-slug	can-live-on-land					
-slug	mollusk					
-snail	can-crawl					
-snail	can-live-on-land					
-snail	mollusk					
-cephalopod	can-see					
-cephalopod	can-swim					
-cephalopod	can-live-in-water					
-cephalopod	has-tentacles					
-cephalopod	has-ink					
-cephalopod	mollusk					
-squid	cephalopod					
-octopus	can-use-tools					
-octopus	cephalopod					
-						
-trilobite	ancient					
-trilobite	can-live-in-water					
-trilobite	arthropod					
-millipede	can-crawl					
-millipede	can-eat-detritus					
-millipede	arthropod					
-centipede	can-crawl					
-centipede	can-eat-insects					
-centipede	arthropod					
-crustacean	can-crawl					
-crustacean	can-live-in-water					
-crustacean	arthropod					
-chelicerate	can-crawl					
-chelicerate	can-live-on-land					
-chelicerate	arthropod					
-insect	arthropod					
-						
-crab	crustacean					
-krill	crustacean					
-shrimp	crustacean					
-prawn	crustacean					
-crawdad	crustacean					
-lobster	crustacean					
-						
-spider	venomous					
-spider	can-crawl					
-spider	can-bite					
-spider	can-eat-insects					
-spider	chelicerate					
-scorpion	can-crawl					
-scorpion	can-sting					
-scorpion	can-pinch					
-scorpion	chelicerate					
-tick	can-crawl					
-tick	can-drink-blood					
-tick	parasite					
-tick	chelicerate					
-						
-silverfish	can-crawl					
-silverfish	can-live-on-land					
-silverfish	can-eat-detritus					
-silverfish	insect					
-earwig	can-crawl					
-earwig	can-live-on-land					
-earwig	can-eat-detritus					
-earwig	insect					
-mayfly	can-fly					
-mayfly	insect					
-dragonfly	fast					
-dragonfly	can-fly					
-dragonfly	insect					
-lacewing	can-fly					
-lacewing	insect					
-grasshopper	can-jump					
-grasshopper	insect					
-locust	can-fly					
-locust	pest					
-locust	insect					
-cricket	can-jump					
-cricket	can-sing					
-cricket	can-chirp					
-cricket	insect					
-can-walk-stick	camoflaged					
-can-walk-stick	can-crawl					
-can-walk-stick	can-live-on-land					
-can-walk-stick	insect					
-cockroach	can-crawl					
-cockroach	can-live-on-land					
-cockroach	can-eat-refuse					
-cockroach	can-eat-detritus					
-cockroach	pest					
-cockroach	insect					
-termite	can-crawl					
-termite	can-live-on-land					
-termite	can-eat-wood					
-termite	colonial					
-termite	insect					
-bug	can-crawl					
-bug	can-live-on-land					
-bug	insect					
-lacewing	can-fly					
-lacewing	insect					
-flea	can-jump					
-flea	can-drink-blood					
-flea	parasite					
-flea	insect					
-beetle	can-crawl					
-beetle	can-live-on-land					
-beetle	insect					
-fly	can-fly					
-fly	can-eat-carrion					
-fly	can-eat-refuse					
-fly	pest					
-fly	insect					
-mosquito	can-fly					
-mosquito	can-drink-blood					
-mosquito	parasite					
-mosquito	pest					
-mosquito	insect					
-butterfly	can-fly					
-butterfly	colorful					
-butterfly	insect					
-moth	can-fly					
-moth	insect					
-wasp	can-fly					
-wasp	can-sting					
-wasp	colonial					
-wasp	insect					
-bee	can-fly					
-bee	can-sting					
-bee	colonial					
-bee	can-drink-nectar					
-bee	insect					
-ant	can-crawl					
-ant	can-live-on-land					
-ant	colonial					
-ant	insect					
-						
-fish	edible					
-fish	can-lay-soft-shell-egg					
-fish	can-live-in-water					
-fish	can-swim					
-fish	has-fins					
-fish	vertebrate					
-amphibian	can-see					
-amphibian	can-live-on-land					
-amphibian	can-live-in-water					
-amphibian	vertebrate					
-reptile	can-lay-hard-shell-egg					
-reptile	can-see					
-reptile	can-smell					
-reptile	vertebrate					
-bird	can-lay-hard-shell-egg					
-bird	can-see					
-bird	can-hear					
-bird	can-sleep					
-bird	has-wings					
-bird	vertebrate					
-mammal	can-see					
-mammal	can-hear					
-mammal	can-smell					
-mammal	can-sleep					
-mammal	vertebrate					
-						
-fresh-water-fish	fish					
-salt-water-fish	fish					
-shark	salt-water-fish					
-shark	can-eat-fish					
-shark	can-eat-humans					
-shark	predator					
-						
-toad	can-live-on-land					
-toad	has-legs					
-toad	can-jump					
-toad	amphibian					
-frog	can-affiliate-with-fresh-water					
-frog	has-legs					
-frog	can-jump					
-frog	amphibian					
-dart frog	poisonous					
-dart frog	frog					
-salamander	can-crawl					
-salamander	has-legs					
-salamander	amphibian					
-caecillian	can-slither					
-caecillian	amphibian					
-						
-lizard	can-affiliate-with-desert					
-lizard	can-affiliate-with-jungle					
-lizard	can-live-on-land					
-lizard	can-crawl					
-lizard	can-climb					
-lizard	can-live-on-land					
-lizard	has-legs					
-lizard	reptile					
-chameleon	can-affiliate-with-forest					
-chameleon	camoflaged					
-chameleon	can-live-on-land					
-chameleon	can-crawl					
-chameleon	can-climb					
-chameleon	has-legs					
-chameleon	reptile					
-turtle	can-live-in-water					
-turtle	has-armor					
-turtle	can-crawl					
-turtle	can-swim					
-turtle	has-legs					
-turtle	reptile					
-tortoise	can-live-on-land					
-tortoise	has-armor					
-tortoise	can-crawl					
-tortoise	can-live-on-land					
-tortoise	has-legs					
-tortoise	reptile					
-alligator	can-affiliate-with-fresh-water					
-alligator	can-eat-big-game-animal					
-alligator	can-eat-humans					
-alligator	can-swim					
-alligator	can-walk					
-alligator	can-live-in-water					
-alligator	"reptile	"					
-crocodile	can-affiliate-with-fresh-water					
-crocodile	can-eat-big-game-animal					
-crocodile	can-eat-humans					
-crocodile	can-swim					
-crocodile	can-walk					
-crocodile	can-live-in-water					
-crocodile	reptile					
-snake	can-live-on-land					
-snake	can-slither					
-snake	venomous					
-snake	can-eat-small-game-animal					
-						
-						
-ostrich	can-affiliate-with-savanna					
-ostrich	can-walk					
-ostrich	bird					
-emu	can-walk					
-emu	bird					
-moa	can-walk					
-moa	bird					
-landfowl	can-walk					
-landfowl	bird					
-waterfowl	can-affiliate-with-fresh-water					
-waterfowl	can-swim					
-waterfowl	can-paddle					
-waterfowl	can-float					
-waterfowl	can-fly					
-waterfowl	can-waddle					
-waterfowl	bird					
-neoavian	can-fly					
-neoavian	bird					
-bird-of-prey	can-eat-small-game-animal					
-bird-of-prey	can-fly					
-bird-of-prey	neoavian					
-songbird	can-sing					
-songbird	neoavian					
-						
-chicken	can-eat-seeds					
-chicken	edible					
-chicken	egg-producer					
-chicken	landfowl					
-turkey	landfowl					
-turkey	edible					
-turkey	game-animal					
-quail	landfowl					
-quail	game-animal					
-goose	waterfowl					
-goose	edible					
-goose	egg-producer					
-goose	game-animal					
-duck	waterfowl					
-duck	edible					
-duck	game-animal					
-swan	waterfowl					
-penguin	can-affiliate-with-polar-desert					
-penguin	can-swim					
-penguin	cold-tolerant					
-penguin	waterfowl	# I know it's not technically the case, it's just easier this way				
-						
-pigeon	can-affiliate-with-city					
-pigeon	can-eat-refuse					
-pigeon	neoavian					
-pigeon	game-animal					
-dove	neoavian					
-hummingbird	can-affiliate-with-forest					
-hummingbird	can-drink-nectar					
-hummingbird	neoavian					
-crane	neoavian					
-heron	neoavian					
-stork	can-eat-fish					
-stork	neoavian					
-pelican	can-affiliate-with-salt-water					
-pelican	can-eat-fish					
-pelican	neoavian					
-albatross	can-affiliate-with-salt-water					
-albatross	neoavian					
-crow	neoavian					
-raven	neoavian					
-blackbird	neoavian					
-seagull	can-affiliate-with-salt-water					
-seagull	neoavian					
-peacock	colorful					
-peacock	neoavian					
-parrot	colorful					
-parrot	neoavian					
-flamingo	colorful					
-flamingo	neoavian					
-owl	can-eat-small-game-animal					
-owl	nocturnal					
-owl	neoavian					
-vulture	can-eat-refuse					
-vulture	can-eat-carrion					
-vulture	neoavian					
-kingfisher	can-eat-fish					
-kingfisher	neoavian					
-hawk	bird-of-prey					
-hawk	neoavian					
-osprey	bird-of-prey					
-osprey	can-eat-birds					
-osprey	neoavian					
-falcon	bird-of-prey					
-falcon	can-eat-bird					
-falcon	neoavian					
-eagle	bird-of-prey					
-eagle	neoavian					
-						
-sparrow	songbird					
-robbin	songbird					
-cardinal	songbird					
-bluejay	songbird					
-starling	songbird					
-finch	songbird					
-wren	songbird					
-						
-monotreme	can-lay-hard-shell-egg					
-monotreme	mammal					
-marsupial	mammal					
-placental	mammal					
-						
-rodent	can-scurry					
-rodent	small-game-animal					
-rodent	placental					
-shrew	can-scurry					
-shrew	venomous					
-shrew	can-eat-insects					
-shrew	placental					
-hedgehog	can-scurry					
-hedgehog	placental					
-hedgehog	can-eat-insects					
-bat	can-affiliate-with-jungle					
-bat	can-affiliate-with-cave					
-bat	can-fly					
-bat	nocturnal					
-bat	can-eat-insects					
-bat	can-eat-fruit					
-bat	can-drink-blood					
-bat	placental					
-armadillo	can-affiliate-with-grassland					
-armadillo	can-scurry					
-armadillo	has-armor					
-armadillo	placental					
-rabbit	can-affiliate-with-grassland					
-rabbit	can-affiliate-with-forest					
-rabbit	can-jump					
-rabbit	can-eat-carrots					
-rabbit	small-game-animal					
-rabbit	placental					
-elephant	can-affiliate-with-savanna					
-elephant	can-eat-grass					
-elephant	placental					
-dolphin	can-affiliate-with-salt-water					
-dolphin	can-swim					
-dolphin	can-eat-fish					
-dolphin	has-fins					
-dolphin	self-aware					
-dolphin	can-live-in-water					
-dolphin	anthropomorphizable					
-dolphin	placental					
-whale	can-affiliate-with-salt-water					
-whale	can-live-in-water					
-whale	has-fins					
-whale	can-swim					
-carnivoran	carnivore					
-carnivoran	placental					
-ungulate	can-walk					
-ungulate	can-eat-grass					
-ungulate	has-hoof					
-ungulate	placental					
-primate	relatable	# not strictly anthropomorphizable, to be anthropomorphizable requires being nonhuman, and humans are primates				
-primate	can-live-on-land	# not strictly arboreal, humans are not arboreal				
-primate	placental					
-						
-mouse	rodent					
-rat	rodent					
-rat	can-eat-refuse					
-rat	pest					
-squirrel	rodent					
-squirrel	can-affiliate-with-forest					
-						
-seal	can-live-in-water					
-seal	can-eat-fish					
-seal	can-swim					
-seal	carnivoran					
-walrus	can-live-in-water					
-walrus	cold-tolerant					
-walrus	can-swim					
-walrus	can-eat-fish					
-walrus	carnivoran					
-raccoon	can-eat-refuse					
-raccoon	pest					
-raccoon	can-scurry					
-raccoon	carnivoran					
-wolverine	can-eat-small-game-animal					
-wolverine	can-walk					
-wolverine	can-run					
-wolverine	carnivoran					
-bear	omnivore					
-bear	can-eat-small-game-animal					
-bear	can-eat-fish					
-bear	can-eat-berries					
-bear	can-eat-humans					
-bear	can-walk					
-bear	can-run					
-bear	carnivoran					
-canine	carnivoran					
-canine	predator					
-canine	can-walk					
-canine	can-run					
-canine	has-fur					
-cat	carnivoran					
-cat	predator					
-cat	can-walk					
-cat	can-run					
-cat	can-jump					
-cat	can-scratch					
-cat	has-fur					
-						
-wolf	can-eat-big-game-animal					
-wolf	canine					
-coyote	can-eat-small-game-animal					
-coyote	canine					
-fox	can-eat-small-game-animal					
-fox	canine					
-jackal	carrion-eater					
-jackal	canine					
-dog	pet					
-dog	guard-animal					
-dog	can-eat-small-game-animal					
-dog	canine					
-						
-lion	can-eat-humans					
-lion	can-eat-big-game-animal					
-lion	cat					
-tiger	can-eat-humans					
-tiger	can-eat-big-game-animal					
-tiger	cat					
-cheetah	cat					
-cheetah	can-eat-big-game-animal					
-leopard	cat					
-leopard	can-eat-humans					
-leopard	can-eat-big-game-animal					
-puma	cat					
-puma	can-eat-big-game-animal					
-lynx	cat					
-lynx	can-eat-small-game-animal					
-bobcat	cat					
-bobcat	can-eat-small-game-animal					
-house-cat	pet					
-house-cat	can-eat-small-game-animal					
-house-cat	cat					
-						
-rhinoceros	can-affiliate-with-savanna					
-rhinoceros	has-horn					
-rhinoceros	can-run					
-rhinoceros	ungulate					
-giraffe	ungulate					
-deer	can-affiliate-with-forest					
-deer	can-run					
-deer	has-antlers					
-deer	can-eat-grass					
-deer	big-game-animal					
-deer	ungulate					
-antelope	can-affiliate-with-savanna					
-antelope	can-run					
-antelope	has-antlers					
-antelope	can-jump					
-antelope	can-eat-grass					
-antelope	big-game-animal					
-antelope	ungulate					
-hippo	can-affiliate-with-fresh-water					
-hippo	amphibious					
-hippo	can-swim					
-hippo	ungulate					
-camel	can-affiliate-with-desert					
-camel	can-spit					
-camel	draft-animal					
-camel	ungulate					
-llama	ungulate					
-llama	draft-animal					
-llama	wool-producer					
-sheep	ungulate					
-sheep	wool-producer					
-goat	ungulate					
-goat	dairy-producer					
-goat	meat-producer					
-porcine	ungulate					
-equine	ungulate					
-equine	can-eat-carrots					
-equine	can-eat-grass					
-bovine	ungulate					
-bovine	can-eat-grass					
-						
-horse	can-run					
-horse	equine					
-horse	draft-animal					
-donkey	equine					
-donkey	draft-animal					
-mule	equine					
-mule	draft-animal					
-zebra	equine					
-zebra	can-run					
-zebra	big-game-animal					
-						
-pig	porcine					
-pig	meat-producer					
-boar	porcine					
-boar	big-game-animal					
-						
-cow	bovine					
-cow	dairy-producer					
-cow	meat-producer					
-						
-livestock	can-be-domesticated					
-cattle	cow					
-						
-stallion	horse					
-stallion	male					
-mare	horse					
-mare	female					
-bull	cow					
-bull	male					
-bull	has-horns					
-ox	cow					
-ox	male					
-ox	has-horns					
-heifer	cow					
-heifer	female					
-boar	porcine					
-boar	male					
-sow	porcine					
-sow	female					
-rooster	chicken					
-rooster	male					
-buck	deer					
-buck	male					
-doe	deer					
-doe	female					
-						
-foal	horse					
-foal	juvenile					
-pony	horse					
-pony	juvenile					
-calf	cow					
-calf	juvenile					
-piglet	pig					
-piglet	juvenile					
-lamb	sheep					
-lamb	juvenile					
-chick	chicken					
-chick	juvenile					
-fawn	deer					
-fawn	juvenile					
-bunny	rabbit					
-bunny	juvenile					
-						
-monkey	can-affiliate-with-jungle					
-monkey	can-scurry					
-monkey	can-walk					
-monkey	can-climb					
-monkey	can-climb					
-monkey	has-tail					
-monkey	has-fur					
-monkey	can-eat-fruit					
-monkey	can-use-tools					
-monkey	anthropomorphizable					
-monkey	primate					
-ape	can-affiliate-with-jungle					
-ape	strong					
-ape	primate					
-chimp	can-affiliate-with-jungle					
-chimp	"can-climb	"					
-chimp	can-eat-fruit					
-chimp	can-eat-meat					
-chimp	"omnivore	"					
-chimp	self-aware					
-chimp	anthropomorphizable					
-chimp	primate					
-						
-		# see human.tsv for definition of humans				
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
+	predicate		predicand					
+								
+be	animal	be	chemotroph	# formal definition				
+be	animal	be	heterotroph					
+								
+be	human	be	animal	# a member of the species homo sapiens				
+be	humanoid	be	animal	"# a typically mythical being that resembles a human, addressed as ""he"" or ""she"""				
+be	anthropomorphizable	be	animal	"# an animal that can be empathized with, addressed as ""he"" or ""she"""				
+be	creature	be	animal	"# moves, but not subject to empathy, addressed as ""it"""				
+be	coral	be	animal	# a sessile animal				
+be	barnacle	be	animal	# a sessile animal				
+								
+be	amphibious	can	can-live-in-water					
+be	amphibious	can	can-live-on-land					
+								
+be	oviparous	can	can-lay-eggs					
+be	oviparous	be	creature					
+be	viviparous	can	can-birthe					
+be	viviparous	be	animate					
+								
+can	can-lay-soft-shell-egg	can	can-lay-eggs					
+can	can-lay-hard-shell-egg	can	can-lay-eggs					
+								
+be	invertebrate	be	animal					
+be	vertebrate	be	animate					
+								
+be	venomous	be	toxic					
+be	venomous	bear	has-venom					
+be	venomous	bear	has-fangs					
+be	venomous	can	can-bite					
+be	poisonous	be	toxic					
+be	poisonous	can	can-not-be-eaten					
+bear	has-stinger	be	toxic					
+bear	has-stinger	can	can-sting	# note the order: papercuts can string, but they have no stinger				
+								
+be	male	be	animate					
+be	female	be	animate					
+								
+be	nocturnal	be	animate					
+be	diurnal	be	animate					
+								
+be	game-animal	can	can-live-on-land					
+be	game-animal	be	vertebrate					
+be	small-game-animal	be	game-animal					
+be	big-game-animal	be	game-animal					
+be	draft-animal	can	can-be-domesticated					
+be	guard-animal	can	can-be-domesticated					
+be	guard-animal	can	can-eat-small-game-animal					
+be	meat-producer	can	can-be-domesticated					
+be	dairy-producer	can	can-be-domesticated					
+be	dairy-producer	be	mammal					
+be	wool-producer	can	can-be-domesticated					
+be	wool-producer	be	mammal					
+be	egg-producer	be	can-be-domesticated					
+be	egg-producer	be	bird					
+be	pest	be	creature					
+be	pet	be	anthropomorphizable					
+be	pet	can	can-be-domesticated					
+								
+be	carnivore	be	creature	# eats some kind of animal upon its death				
+be	carnivore	can	can-eat-meat					
+be	herbivore	be	creature	# eats some kind of plant				
+be	herbivore	can	can-eat-plants					
+be	omnivore	be	carnivore	# eats some kind of plant and animal				
+be	omnivore	be	herbivore					
+								
+be	predator	be	carnivore	# eats some kind of animal by killing it				
+be	predator	can	can-hunt					
+be	scavenger	be	carnivore	# eats some kind of dead animal or refuse				
+be	scavenger	can	can-search					
+be	parasite	be	creature	# consumes some kind of animal in some way without killing it				
+be	parasite	can	can-consume-animal					
+								
+can	can-consume-animal	can	can-bite					
+								
+can	can-drink-nectar	be	creature	# drinks nectar				
+can	can-drink-blood	be	creature	# drinks blood				
+can	can-drink-blood	can	can-bite					
+can	can-drink-blood	can	can-consume-animal					
+								
+can	can-eat-grass	be	herbivore	# eats grass				
+can	can-eat-seeds	be	herbivore	# eats seeds				
+can	can-eat-carrots	be	herbivore	# eats carrots				
+can	can-eat-berries	be	herbivore	# eats berries				
+								
+can	can-eat-refuse	be	scavenger	# eats refuse				
+can	can-eat-carrion	be	scavenger	# eats carrion				
+can	can-eat-detritus	be	scavenger	# drinks nectar				
+								
+can	can-eat-meat	can	can-consume-animal					
+can	can-eat-insects	be	predator	# eats insects				
+can	can-eat-fish	be	predator	# eats fish				
+can	can-eat-snakes	be	predator	# eats snakes				
+can	can-eat-small-game-animal	be	predator	# eats big game, like deer				
+can	can-eat-big-game-animal	be	predator	# eats small game, like rabbits				
+								
+can	can-swim	be	creature	# not strictly aquatic, humans swim too				
+can	can-float	be	creature					
+can	can-burrow	be	creature					
+can	can-slither	can	can-creep					
+can	can-slither	can	can-crawl					
+can	can-slither	bear	has-no-legs					
+can	can-creep	bear	has-no-legs					
+can	can-crawl	be	animate					
+can	can-crawl	be	animate					
+can	can-waddle	can	can-live-on-land					
+can	can-waddle	be	animate					
+can	can-walk	bear	has-legs					
+can	can-walk	can	can-live-on-land					
+can	can-walk	be	animate					
+can	can-jump	bear	has-legs					
+can	can-jump	can	can-live-on-land					
+can	can-jump	be	animate					
+can	can-glide	be	creature					
+can	can-fly	be	creature					
+can	can-fly	bear	has-wings					
+can	can-use-tools	can	can-hold					
+can	can-scratch	bear	has-claws	# note the order, cats scratch and lobsters pinch				
+can	can-pinch	bear	has-claws	# note the order, cats scratch and lobsters pinch				
+can	can-see	bear	has-eyes	"# note the order, insects have eyes and technically see but ""the insect sees"" is an odd statement because they do not perceive as we do"				
+								
+bear	has-fins	can	can-swim					
+bear	has-fins	can	can-live-in-water					
+bear	has-flipper	can	can-swim					
+bear	has-flipper	can	can-live-in-water					
+bear	has-legs	be	animate					
+bear	has-horns	bear	has-horn					
+								
+be	coral	be	sessile					
+be	coral	can	can-live-in-water					
+be	coral	be	invertebrate					
+be	worm	can	can-burrow					
+be	worm	can	can-crawl					
+be	worm	can	can-creep					
+be	worm	be	invertebrate					
+be	worm	be	creature					
+be	arthropod	bear	has-legs					
+be	arthropod	be	invertebrate					
+be	arthropod	be	creature					
+be	mollusk	be	invertebrate					
+								
+be	barnacle	be	sessile					
+be	barnacle	be	mollusk					
+be	barnacle	can	can-live-in-water					
+be	mussel	can	can-live-in-water					
+be	mussel	be	mollusk					
+be	oyster	be	sessile					
+be	oyster	can	can-live-in-water					
+be	oyster	be	mollusk					
+be	clam	be	sessile					
+be	clam	can	can-live-in-water					
+be	clam	be	mollusk					
+be	slug	can	can-crawl					
+be	slug	can	can-live-on-land					
+be	slug	be	mollusk					
+be	snail	can	can-crawl					
+be	snail	can	can-live-on-land					
+be	snail	be	mollusk					
+be	cephalopod	can	can-see					
+be	cephalopod	can	can-swim					
+be	cephalopod	can	can-live-in-water					
+be	cephalopod	bear	has-tentacles					
+be	cephalopod	bear	has-ink					
+be	cephalopod	be	mollusk					
+be	squid	be	cephalopod					
+be	octopus	can	can-use-tools					
+be	octopus	be	cephalopod					
+								
+be	trilobite	be	ancient					
+be	trilobite	can	can-live-in-water					
+be	trilobite	be	arthropod					
+be	millipede	can	can-crawl					
+be	millipede	can	can-eat-detritus					
+be	millipede	be	arthropod					
+be	centipede	can	can-crawl					
+be	centipede	can	can-eat-insects					
+be	centipede	be	arthropod					
+be	crustacean	can	can-crawl					
+be	crustacean	can	can-live-in-water					
+be	crustacean	be	arthropod					
+be	chelicerate	can	can-crawl					
+be	chelicerate	can	can-live-on-land					
+be	chelicerate	be	arthropod					
+be	insect	be	arthropod					
+								
+be	crab	be	crustacean					
+be	krill	be	crustacean					
+be	shrimp	be	crustacean					
+be	prawn	be	crustacean					
+be	crawdad	be	crustacean					
+be	lobster	be	crustacean					
+								
+be	spider	be	venomous					
+be	spider	can	can-crawl					
+be	spider	can	can-bite					
+be	spider	can	can-eat-insects					
+be	spider	be	chelicerate					
+be	scorpion	can	can-crawl					
+be	scorpion	can	can-sting					
+be	scorpion	can	can-pinch					
+be	scorpion	be	chelicerate					
+be	tick	can	can-crawl					
+be	tick	can	can-drink-blood					
+be	tick	be	parasite					
+be	tick	be	chelicerate					
+								
+be	silverfish	can	can-crawl					
+be	silverfish	can	can-live-on-land					
+be	silverfish	can	can-eat-detritus					
+be	silverfish	be	insect					
+be	earwig	can	can-crawl					
+be	earwig	can	can-live-on-land					
+be	earwig	can	can-eat-detritus					
+be	earwig	be	insect					
+be	mayfly	can	can-fly					
+be	mayfly	be	insect					
+be	dragonfly	be	fast					
+be	dragonfly	can	can-fly					
+be	dragonfly	be	insect					
+be	lacewing	can	can-fly					
+be	lacewing	be	insect					
+be	grasshopper	can	can-jump					
+be	grasshopper	be	insect					
+be	locust	can	can-fly					
+be	locust	be	pest					
+be	locust	be	insect					
+be	cricket	can	can-jump					
+be	cricket	can	can-sing					
+be	cricket	can	can-chirp					
+be	cricket	be	insect					
+be	walking-stick	be	camoflaged					
+be	walking-stick	can	can-crawl					
+be	walking-stick	can	can-live-on-land					
+be	walking-stick	be	insect					
+be	cockroach	can	can-crawl					
+be	cockroach	can	can-live-on-land					
+be	cockroach	can	can-eat-refuse					
+be	cockroach	can	can-eat-detritus					
+be	cockroach	be	pest					
+be	cockroach	be	insect					
+be	termite	can	can-crawl					
+be	termite	can	can-live-on-land					
+be	termite	can	can-eat-wood					
+be	termite	be	colonial					
+be	termite	be	insect					
+be	bug	can	can-crawl					
+be	bug	can	can-live-on-land					
+be	bug	be	insect					
+be	lacewing	can	can-fly					
+be	lacewing	be	insect					
+be	flea	can	can-jump					
+be	flea	can	can-drink-blood					
+be	flea	be	parasite					
+be	flea	be	insect					
+be	beetle	can	can-crawl					
+be	beetle	can	can-live-on-land					
+be	beetle	be	insect					
+be	fly	can	can-fly					
+be	fly	can	can-eat-carrion					
+be	fly	can	can-eat-refuse					
+be	fly	be	pest					
+be	fly	be	insect					
+be	mosquito	can	can-fly					
+be	mosquito	can	can-drink-blood					
+be	mosquito	be	parasite					
+be	mosquito	be	pest					
+be	mosquito	be	insect					
+be	butterfly	can	can-fly					
+be	butterfly	be	colorful					
+be	butterfly	be	insect					
+be	moth	can	can-fly					
+be	moth	be	insect					
+be	wasp	can	can-fly					
+be	wasp	can	can-sting					
+be	wasp	be	colonial					
+be	wasp	be	insect					
+be	bee	can	can-fly					
+be	bee	can	can-sting					
+be	bee	be	colonial					
+be	bee	can	can-drink-nectar					
+be	bee	be	insect					
+be	ant	can	can-crawl					
+be	ant	can	can-live-on-land					
+be	ant	be	colonial					
+be	ant	be	insect					
+								
+be	fish	be	edible					
+be	fish	can	can-lay-soft-shell-egg					
+be	fish	can	can-live-in-water					
+be	fish	can	can-swim					
+be	fish	bear	has-fins					
+be	fish	be	vertebrate					
+be	amphibian	can	can-see					
+be	amphibian	can	can-live-on-land					
+be	amphibian	can	can-live-in-water					
+be	amphibian	be	vertebrate					
+be	reptile	can	can-lay-hard-shell-egg					
+be	reptile	can	can-see					
+be	reptile	can	can-smell					
+be	reptile	be	vertebrate					
+be	bird	can	can-lay-hard-shell-egg					
+be	bird	can	can-see					
+be	bird	can	can-hear					
+be	bird	can	can-sleep					
+be	bird	bear	has-wings					
+be	bird	be	vertebrate					
+be	mammal	can	can-see					
+be	mammal	can	can-hear					
+be	mammal	can	can-smell					
+be	mammal	can	can-sleep					
+be	mammal	be	vertebrate					
+								
+be	fresh-water-fish	be	fish					
+be	salt-water-fish	be	fish					
+be	shark	be	salt-water-fish					
+be	shark	can	can-eat-fish					
+be	shark	can	can-eat-humans					
+be	shark	be	predator					
+								
+be	toad	can	can-live-on-land					
+be	toad	bear	has-legs					
+be	toad	can	can-jump					
+be	toad	be	amphibian					
+be	frog	can	can-affiliate-with-fresh-water					
+be	frog	bear	has-legs					
+be	frog	can	can-jump					
+be	frog	be	amphibian					
+be	dart frog	be	poisonous					
+be	dart frog	be	frog					
+be	salamander	can	can-crawl					
+be	salamander	bear	has-legs					
+be	salamander	be	amphibian					
+be	caecillian	can	can-slither					
+be	caecillian	be	amphibian					
+								
+be	lizard	can	can-affiliate-with-desert					
+be	lizard	can	can-affiliate-with-jungle					
+be	lizard	can	can-live-on-land					
+be	lizard	can	can-crawl					
+be	lizard	can	can-climb					
+be	lizard	can	can-live-on-land					
+be	lizard	bear	has-legs					
+be	lizard	be	reptile					
+be	chameleon	can	can-affiliate-with-forest					
+be	chameleon	be	camoflaged					
+be	chameleon	can	can-live-on-land					
+be	chameleon	can	can-crawl					
+be	chameleon	can	can-climb					
+be	chameleon	bear	has-legs					
+be	chameleon	be	reptile					
+be	turtle	can	can-live-in-water					
+be	turtle	bear	shell					
+be	turtle	can	can-crawl					
+be	turtle	can	can-swim					
+be	turtle	bear	has-legs					
+be	turtle	be	reptile					
+be	tortoise	can	can-live-on-land					
+be	tortoise	bear	has-armor					
+be	tortoise	can	can-crawl					
+be	tortoise	can	can-live-on-land					
+be	tortoise	bear	has-legs					
+be	tortoise	be	reptile					
+be	alligator	can	can-affiliate-with-fresh-water					
+be	alligator	can	can-eat-big-game-animal					
+be	alligator	can	can-eat-humans					
+be	alligator	can	can-swim					
+be	alligator	can	can-walk					
+be	alligator	can	can-live-in-water					
+be	alligator	be	"reptile	"					
+be	crocodile	can	can-affiliate-with-fresh-water					
+be	crocodile	can	can-eat-big-game-animal					
+be	crocodile	can	can-eat-humans					
+be	crocodile	can	can-swim					
+be	crocodile	can	can-walk					
+be	crocodile	can	can-live-in-water					
+be	crocodile	be	reptile					
+be	snake	can	can-live-on-land					
+be	snake	can	can-slither					
+be	snake	be	venomous					
+be	snake	can	can-eat-small-game-animal					
+								
+								
+be	ostrich	can	can-affiliate-with-savanna					
+be	ostrich	can	can-walk					
+be	ostrich	be	bird					
+be	emu	can	can-walk					
+be	emu	be	bird					
+be	moa	can	can-walk					
+be	moa	be	bird					
+be	landfowl	can	can-walk					
+be	landfowl	be	bird					
+be	waterfowl	can	can-affiliate-with-fresh-water					
+be	waterfowl	can	can-swim					
+be	waterfowl	can	can-paddle					
+be	waterfowl	can	can-float					
+be	waterfowl	can	can-fly					
+be	waterfowl	can	can-waddle					
+be	waterfowl	be	bird					
+be	neoavian	can	can-fly					
+be	neoavian	be	bird					
+be	bird-of-prey	can	can-eat-small-game-animal					
+be	bird-of-prey	can	can-fly					
+be	bird-of-prey	be	neoavian					
+be	songbird	can	can-sing					
+be	songbird	be	neoavian					
+								
+be	chicken	can	can-eat-seeds					
+be	chicken	be	edible					
+be	chicken	be	egg-producer					
+be	chicken	be	landfowl					
+be	turkey	be	landfowl					
+be	turkey	be	edible					
+be	turkey	be	game-animal					
+be	quail	be	landfowl					
+be	quail	be	game-animal					
+be	goose	be	waterfowl					
+be	goose	be	edible					
+be	goose	be	egg-producer					
+be	goose	be	game-animal					
+be	duck	be	waterfowl					
+be	duck	be	edible					
+be	duck	be	game-animal					
+be	swan	be	waterfowl					
+be	penguin	can	can-affiliate-with-polar-desert					
+be	penguin	can	can-swim					
+be	penguin	be	cold-tolerant					
+be	penguin	be	waterfowl	# I know it's not technically the case, it's just easier this way				
+								
+be	pigeon	can	can-affiliate-with-city					
+be	pigeon	can	can-eat-refuse					
+be	pigeon	be	neoavian					
+be	pigeon	be	game-animal					
+be	dove	be	neoavian					
+be	hummingbird	can	can-affiliate-with-forest					
+be	hummingbird	can	can-drink-nectar					
+be	hummingbird	be	neoavian					
+be	crane	be	neoavian					
+be	heron	be	neoavian					
+be	stork	can	can-eat-fish					
+be	stork	be	neoavian					
+be	pelican	can	can-affiliate-with-salt-water					
+be	pelican	can	can-eat-fish					
+be	pelican	be	neoavian					
+be	albatross	can	can-affiliate-with-salt-water					
+be	albatross	be	neoavian					
+be	crow	be	neoavian					
+be	raven	be	neoavian					
+be	blackbird	be	neoavian					
+be	seagull	can	can-affiliate-with-salt-water					
+be	seagull	be	neoavian					
+be	peacock	be	colorful					
+be	peacock	be	neoavian					
+be	parrot	be	colorful					
+be	parrot	be	neoavian					
+be	flamingo	be	colorful					
+be	flamingo	be	neoavian					
+be	owl	can	can-eat-small-game-animal					
+be	owl	be	nocturnal					
+be	owl	be	neoavian					
+be	vulture	can	can-eat-refuse					
+be	vulture	can	can-eat-carrion					
+be	vulture	be	neoavian					
+be	kingfisher	can	can-eat-fish					
+be	kingfisher	be	neoavian					
+be	hawk	be	bird-of-prey					
+be	hawk	be	neoavian					
+be	osprey	be	bird-of-prey					
+be	osprey	can	can-eat-birds					
+be	osprey	be	neoavian					
+be	falcon	be	bird-of-prey					
+be	falcon	can	can-eat-bird					
+be	falcon	be	neoavian					
+be	eagle	be	bird-of-prey					
+be	eagle	be	neoavian					
+								
+be	sparrow	be	songbird					
+be	robbin	be	songbird					
+be	cardinal	be	songbird					
+be	bluejay	be	songbird					
+be	starling	be	songbird					
+be	finch	be	songbird					
+be	wren	be	songbird					
+								
+be	monotreme	can	can-lay-hard-shell-egg					
+be	monotreme	be	mammal					
+be	marsupial	be	mammal					
+be	placental	be	mammal					
+								
+be	rodent	can	can-scurry					
+be	rodent	be	small-game-animal					
+be	rodent	be	placental					
+be	shrew	can	can-scurry					
+be	shrew	be	venomous					
+be	shrew	can	can-eat-insects					
+be	shrew	be	placental					
+be	hedgehog	can	can-scurry					
+be	hedgehog	be	placental					
+be	hedgehog	can	can-eat-insects					
+be	bat	can	can-affiliate-with-jungle					
+be	bat	can	can-affiliate-with-cave					
+be	bat	can	can-fly					
+be	bat	be	nocturnal					
+be	bat	can	can-eat-insects					
+be	bat	can	can-eat-fruit					
+be	bat	can	can-drink-blood					
+be	bat	be	placental					
+be	armadillo	can	can-affiliate-with-grassland					
+be	armadillo	can	can-scurry					
+be	armadillo	bear	shell					
+be	armadillo	be	placental					
+be	rabbit	can	can-affiliate-with-grassland					
+be	rabbit	can	can-affiliate-with-forest					
+be	rabbit	can	can-jump					
+be	rabbit	can	can-eat-carrots					
+be	rabbit	be	small-game-animal					
+be	rabbit	be	placental					
+be	elephant	can	can-affiliate-with-savanna					
+be	elephant	can	can-eat-grass					
+be	elephant	be	placental					
+be	dolphin	can	can-affiliate-with-salt-water					
+be	dolphin	can	can-swim					
+be	dolphin	can	can-eat-fish					
+be	dolphin	bear	has-fins					
+be	dolphin	be	self-aware					
+be	dolphin	can	can-live-in-water					
+be	dolphin	be	anthropomorphizable					
+be	dolphin	be	placental					
+be	whale	can	can-affiliate-with-salt-water					
+be	whale	can	can-live-in-water					
+be	whale	bear	has-fins					
+be	whale	can	can-swim					
+be	carnivoran	be	carnivore					
+be	carnivoran	be	placental					
+be	ungulate	can	can-walk					
+be	ungulate	can	can-eat-grass					
+be	ungulate	bear	has-hoof					
+be	ungulate	be	placental					
+be	primate	be	relatable	# not strictly anthropomorphizable, to be anthropomorphizable requires being nonhuman, and humans are primates				
+be	primate	can	can-live-on-land	# not strictly arboreal, humans are not arboreal				
+be	primate	be	placental					
+								
+be	mouse	be	rodent					
+be	rat	be	rodent					
+be	rat	can	can-eat-refuse					
+be	rat	be	pest					
+be	squirrel	be	rodent					
+be	squirrel	can	can-affiliate-with-forest					
+								
+be	seal	can	can-live-in-water					
+be	seal	can	can-eat-fish					
+be	seal	can	can-swim					
+be	seal	be	carnivoran					
+be	walrus	can	can-live-in-water					
+be	walrus	be	cold-tolerant					
+be	walrus	can	can-swim					
+be	walrus	can	can-eat-fish					
+be	walrus	be	carnivoran					
+be	raccoon	can	can-eat-refuse					
+be	raccoon	be	pest					
+be	raccoon	can	can-scurry					
+be	raccoon	be	carnivoran					
+be	wolverine	can	can-eat-small-game-animal					
+be	wolverine	can	can-walk					
+be	wolverine	can	can-run					
+be	wolverine	be	carnivoran					
+be	bear	be	omnivore					
+be	bear	can	can-eat-small-game-animal					
+be	bear	can	can-eat-fish					
+be	bear	can	can-eat-berries					
+be	bear	can	can-eat-humans					
+be	bear	can	can-walk					
+be	bear	can	can-run					
+be	bear	be	carnivoran					
+be	canine	be	carnivoran					
+be	canine	be	predator					
+be	canine	can	can-walk					
+be	canine	can	can-run					
+be	canine	bear	has-fur					
+be	cat	be	carnivoran					
+be	cat	be	predator					
+be	cat	can	can-walk					
+be	cat	can	can-run					
+be	cat	can	can-jump					
+be	cat	can	can-scratch					
+be	cat	bear	has-fur					
+								
+be	wolf	can	can-eat-big-game-animal					
+be	wolf	be	canine					
+be	coyote	can	can-eat-small-game-animal					
+be	coyote	be	canine					
+be	fox	can	can-eat-small-game-animal					
+be	fox	be	canine					
+be	jackal	be	carrion-eater					
+be	jackal	be	canine					
+be	dog	be	pet					
+be	dog	be	guard-animal					
+be	dog	can	can-eat-small-game-animal					
+be	dog	be	canine					
+								
+be	lion	can	can-eat-humans					
+be	lion	can	can-eat-big-game-animal					
+be	lion	be	cat					
+be	tiger	can	can-eat-humans					
+be	tiger	can	can-eat-big-game-animal					
+be	tiger	be	cat					
+be	cheetah	be	cat					
+be	cheetah	can	can-eat-big-game-animal					
+be	leopard	be	cat					
+be	leopard	can	can-eat-humans					
+be	leopard	can	can-eat-big-game-animal					
+be	puma	be	cat					
+be	puma	can	can-eat-big-game-animal					
+be	lynx	be	cat					
+be	lynx	can	can-eat-small-game-animal					
+be	bobcat	be	cat					
+be	bobcat	can	can-eat-small-game-animal					
+be	house-cat	be	pet					
+be	house-cat	can	can-eat-small-game-animal					
+be	house-cat	be	cat					
+								
+be	rhinoceros	can	can-affiliate-with-savanna					
+be	rhinoceros	bear	has-horn					
+be	rhinoceros	can	can-run					
+be	rhinoceros	be	ungulate					
+be	giraffe	be	ungulate					
+be	deer	can	can-affiliate-with-forest					
+be	deer	can	can-run					
+be	deer	bear	has-antlers					
+be	deer	can	can-eat-grass					
+be	deer	be	big-game-animal					
+be	deer	be	ungulate					
+be	antelope	can	can-affiliate-with-savanna					
+be	antelope	can	can-run					
+be	antelope	bear	has-antlers					
+be	antelope	can	can-jump					
+be	antelope	can	can-eat-grass					
+be	antelope	be	big-game-animal					
+be	antelope	be	ungulate					
+be	hippo	can	can-affiliate-with-fresh-water					
+be	hippo	be	amphibious					
+be	hippo	can	can-swim					
+be	hippo	be	ungulate					
+be	camel	can	can-affiliate-with-desert					
+be	camel	can	can-spit					
+be	camel	be	draft-animal					
+be	camel	be	ungulate					
+be	llama	be	ungulate					
+be	llama	be	draft-animal					
+be	llama	be	wool-producer					
+be	sheep	be	ungulate					
+be	sheep	be	wool-producer					
+be	goat	be	ungulate					
+be	goat	be	dairy-producer					
+be	goat	be	meat-producer					
+be	porcine	be	ungulate					
+be	equine	be	ungulate					
+be	equine	can	can-eat-carrots					
+be	equine	can	can-eat-grass					
+be	bovine	be	ungulate					
+be	bovine	can	can-eat-grass					
+								
+be	horse	can	can-run					
+be	horse	be	equine					
+be	horse	be	draft-animal					
+be	donkey	be	equine					
+be	donkey	be	draft-animal					
+be	mule	be	equine					
+be	mule	be	draft-animal					
+be	zebra	be	equine					
+be	zebra	can	can-run					
+be	zebra	be	big-game-animal					
+								
+be	pig	be	porcine					
+be	pig	be	meat-producer					
+be	boar	be	porcine					
+be	boar	be	big-game-animal					
+								
+be	cow	be	bovine					
+be	cow	be	dairy-producer					
+be	cow	be	meat-producer					
+								
+be	livestock	can	can-be-domesticated					
+be	cattle	be	cow					
+								
+be	stallion	be	horse					
+be	stallion	be	male					
+be	mare	be	horse					
+be	mare	be	female					
+be	bull	be	cow					
+be	bull	be	male					
+be	bull	be	has-horns					
+be	ox	be	cow					
+be	ox	be	male					
+be	ox	be	has-horns					
+be	heifer	be	cow					
+be	heifer	be	female					
+be	boar	be	porcine					
+be	boar	be	male					
+be	sow	be	porcine					
+be	sow	be	female					
+be	rooster	be	chicken					
+be	rooster	be	male					
+be	buck	be	deer					
+be	buck	be	male					
+be	doe	be	deer					
+be	doe	be	female					
+								
+be	foal	be	horse					
+be	foal	be	juvenile					
+be	pony	be	horse					
+be	pony	be	juvenile					
+be	calf	be	cow					
+be	calf	be	juvenile					
+be	piglet	be	pig					
+be	piglet	be	juvenile					
+be	lamb	be	sheep					
+be	lamb	be	juvenile					
+be	chick	be	chicken					
+be	chick	be	juvenile					
+be	fawn	be	deer					
+be	fawn	be	juvenile					
+be	bunny	be	rabbit					
+be	bunny	be	juvenile					
+								
+be	monkey	can	can-affiliate-with-jungle					
+be	monkey	can	can-scurry					
+be	monkey	can	can-walk					
+be	monkey	can	can-climb					
+be	monkey	can	can-climb					
+be	monkey	bear	has-tail					
+be	monkey	bear	has-fur					
+be	monkey	can	can-eat-fruit					
+be	monkey	can	can-use-tools					
+be	monkey	be	anthropomorphizable					
+be	monkey	be	primate					
+be	ape	can	can-affiliate-with-jungle					
+be	ape	be	strong					
+be	ape	be	primate					
+be	chimp	can	can-affiliate-with-jungle					
+be	chimp	can	"can-climb	"					
+be	chimp	can	can-eat-fruit					
+be	chimp	can	can-eat-meat					
+be	chimp	be	"omnivore	"					
+be	chimp	be	self-aware					
+be	chimp	be	anthropomorphizable					
+be	chimp	be	primate					
+								
+				# see human.tsv for definition of humans				
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								

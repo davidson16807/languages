@@ -416,18 +416,18 @@ instance of a "be" predicate is also a "can" predicate, or,
 if B denotes the function B, we say that for a any value x∈ℂ, 
 it is true that B(x) ⊆ C(x). More formally, "can(be)" implies:
 
-    ∀(x,B(x))∈B: B(x) ⊆ C(x)                                                          4
+    ∀x∈𝔹: B(x) ⊆ C(x)                                                           4
 
 This will serve as our formal defintion.
 
 As we showed earlier though, "can(be)" is also purportedly represented by function B⊆C,
 and based on this we know that
 
-    ∀(x,B(x))∈B: B(x) = C(c)
+    ∀x∈𝔹: B(x) = C(c)
 
 This is still consistent with equation 4, but it also implies that:
 
-    ∀(x,B(x))∈B: B(x) ⊇ C(x)                                                          4
+    ∀x∈𝔹: B(x) ⊇ C(x)                                                           5
 
 which could only represent the claim which we know to be false, that "be(can)". A paradox.
 
@@ -436,22 +436,77 @@ can be represented using the subset relation B⊆C.
 This cannot be the case. We will have to find another operation, 
 but I'm unaware of any other existing relation that matches this behavior. 
 This is likly more due to my lack of experience, 
-but without feedback as to what it could be, I will have to define my own.
-Fortunately, we have equation 4 available to serve as the definition for the relation.
-As for how to notate it, I will take on the letter "ᕮ" 
-from Canadian Aboriginal Syllabics to avoid any future mathematicians 
-coming to beat me up because I used a symbol with an already 
-well known definition attached to it.
-It looks like a mix between the subset and set membership, which 
-seems to work well with the concept of a predicate,
-and it has a convenient reversed version, too, which is "ᕭ".
+but without feedback as to what existing relation could be used, 
+I will have to define my own. Fortunately, we have equation 4 available 
+to serve as the definition for this relation.
+As for how to notate it, I will use the letter "⊆¹" to denote this relation,
+for reasons that will become clear.
 
-So BᕮC is equivalent to writing "can(be)" in predicate notation.
+So B⊆¹C is equivalent to the statement "can(be)" in predicate notation.
+
+There are also a number of other related characters 
+that can be used to indicate related concepts.
+I will personally use "⊇¹" to indicate the relation in equation 5.
+I will use "⊂¹" and "⊃¹" to indicate variants of equations 4
+where the "⊆" symbol is replaced by "⊂" and "⊃", respectively,
+and I will use "∪¹" and "∩¹" to indicate variants of equation 4 
+where the "⊆" symbol is replaced by "∪" and "∩", respectively.
 
 We now have a definition for a relation that motivates 
 us to support univariate calls to the existing `__call__()` and `__contains__()` 
 methods within `PredicateSystem`, and, moreover, 
 we now have at least some idea how to implement it.
+
+# A Note About ⊇¹⊆¹⊃¹⊂¹∪¹∩¹ operators
+
+Finally, while we're on this subject, 
+we will note that there exists a kind of function F that 
+can map an arbitrary set Y to another function G:1→Y. 
+simply by saying that ∀i∈1:(i,Y)∈F.
+When a set is mapped by F to the domain 1→Y, 
+the operators ⊇¹⊆¹⊃¹⊂¹∪¹∩¹ can carry out functionality 
+that is functorial to the operators ⊇⊆⊃⊂∪∩,
+and when done the set can be returned to the domain of F
+using the inverse function, F⁻¹=F(x)(i) where i∈1.
+All this is to say that the operators ⊇⊆⊃⊂∪∩ 
+can be respectively represented by the operators ⊇¹⊆¹⊃¹⊂¹∪¹∩¹
+once their operands are transported to the domain 1→Y,
+so by using set notation, a statement that represents "socrates(man)" 
+can be transported to the statement "be(socrates, man)" using the function F.
+However the domain 1→Y is subset to a larger domain X→Y
+for any arbitrary set X where 1⊆X, 
+so it can be trivially transported to these domains
+where it can participate in a much richer set of behavior.
+This is demonstrated when we combine predicate clauses such as "can(be)",
+"can(mortal, die)", and "be(socrates, man)", 
+which is represented in set notation as B⊆¹C, C(m)⊆C(d), and B(s)⊆B(e)
+where m, d, and e denote the set of all things that are mortals, 
+the set of all things that die, and the set of all men. 
+However the set notation here also goes beyond what can be represented strictly using 
+bipredicates, since we also wind up with statements such as C(w)⊆H(l),
+or "the set of all things that have legs includes the set of all things that can walk".
+This statement is not captured by "can(leg,walk)", which reads 
+"if you can be a leg, then you can walk" or "has(leg,walk)", which reads
+"if you have a leg, then you have a walk" or "a leg is a component of a walk",
+or "be(leg,walk)", which reads "if you are a leg, you walk"
+
+But this is not all. Since the function G itself has a set representation,
+it can be treated as another set, meaning we can reapply a variant of F to it.
+Much like the operators ⊇¹⊆¹⊃¹⊂¹∪¹∩¹ perform functorially to ⊇⊆⊃⊂∪∩ in the domain 1→Y,
+the domains introduced by repeatedly calling F on its own output will have their 
+own operators. To denote these operators we will superset the 
+symbols ⊇⊆⊃⊂∪∩ by a number n to denote the operators that behave 
+functorially to ⊇⊆⊃⊂∪∩ in the domain 1→1→…→1→Y, 
+where the number of maps that are represented by the domain is n.
+We will indicate this by saying the operators ⊇ⁿ⊆ⁿ⊃ⁿ⊂ⁿ∪ⁿ∩ⁿ operate 
+in the domain 1→ⁿA for some arbitrary set A.
+The operators ⊇⊆⊃⊂∪∩ can then assume the notation ⊇⁰⊆⁰⊃⁰⊂⁰∪⁰∩⁰, i.e., 
+there are no maps in the domain of these operators,
+and the mapping from X→ⁿA to 1→X→ⁿA for an arbitrary set X 
+will be denoted Fⁿ:(X→ⁿA)→(1→X→ⁿA)
+All this is to return to the idea that function currying 
+can be performed on a set theoretical representation of predicates, 
+only now more formally described.
 
 # Conclusion
 We conclude this section with a summary for the definition of a `PredicateSystem`:
@@ -479,7 +534,7 @@ and there is a special relation B~C defined for PredicateSystems B and C such th
 While the above is a lot to take in, we find it allows practical uses. Observe:
 
 ```python
-    be, has, can = PredicateSystem(), PredicateSystem(), PredicateSystem()
+    be, can = PredicateSystem(), PredicateSystem()
     can(be)                     # if you already are something, then you know you have the ability to be it
     can('mortal','die')        # if you can be mortal, you can die
     be('men','mortal')         # if you are a man, you are mortal
@@ -489,7 +544,7 @@ While the above is a lot to take in, we find it allows practical uses. Observe:
 
 # Footnote on linguistic overloading
 
-There is one catch we've noticed to our implementation, which is a linguistic one: 
+There is one catch we've noticed in our implementation, which is a linguistic one: 
 within natural language, "has" has overloaded meaning. 
 
 In natural language, "has" could mean not only that one has something as part of their anatomy,
