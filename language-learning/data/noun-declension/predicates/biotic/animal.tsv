@@ -25,13 +25,13 @@ be	invertebrate	be	animal
 be	vertebrate	be	animate					
 								
 be	venomous	be	toxic					
-be	venomous	bear	has-venom					
-be	venomous	bear	has-fangs					
+be	venomous	bear	venom					
+be	venomous	bear	fangs					
 be	venomous	can	bite					
 be	poisonous	be	toxic					
 be	poisonous	can	not-be-eaten					
-bear	has-stinger	be	toxic					
-bear	has-stinger	can	sting	# note the order: papercuts can string, but they have no stinger				
+bear	stinger	be	toxic					
+bear	stinger	can	sting	# note the order: papercuts can string, but they have no stinger				
 								
 be	male	be	animate					
 be	female	be	animate					
@@ -99,32 +99,32 @@ can	float	be	creature
 can	burrow	be	creature					
 can	slither	can	creep					
 can	slither	can	crawl					
-can	slither	bear	has-no-legs					
-can	creep	bear	has-no-legs					
+can	slither	bear	no-legs					
+can	creep	bear	no-legs					
 can	crawl	be	animate					
 can	crawl	be	animate					
 can	waddle	can	live-on-land					
 can	waddle	be	animate					
-can	walk	bear	has-legs					
+can	walk	bear	legs					
 can	walk	can	live-on-land					
 can	walk	be	animate					
-can	jump	bear	has-legs					
+can	jump	bear	legs					
 can	jump	can	live-on-land					
 can	jump	be	animate					
 can	glide	be	creature					
 can	fly	be	creature					
-can	fly	bear	has-wings					
+can	fly	bear	wings					
 can	use-tools	can	hold					
-can	scratch	bear	has-claws	# note the order, cats scratch and lobsters pinch				
-can	pinch	bear	has-claws	# note the order, cats scratch and lobsters pinch				
-can	see	bear	has-eyes	"# note the order, insects have eyes and technically see but ""the insect sees"" is an odd statement because they do not perceive as we do"				
+can	scratch	bear	claws	# note the order, cats scratch and lobsters pinch				
+can	pinch	bear	claws	# note the order, cats scratch and lobsters pinch				
+can	see	bear	eyes	"# note the order, insects have eyes and technically see but ""the insect sees"" is an odd statement because they do not perceive as we do"				
 								
-bear	has-fins	can	swim					
-bear	has-fins	can	live-in-water					
-bear	has-flipper	can	swim					
-bear	has-flipper	can	live-in-water					
-bear	has-legs	be	animate					
-bear	has-horns	bear	has-horn					
+bear	fins	can	swim					
+bear	fins	can	live-in-water					
+bear	flipper	can	swim					
+bear	flipper	can	live-in-water					
+bear	legs	be	animate					
+bear	horns	bear	horn					
 								
 be	coral	be	sessile					
 be	coral	can	live-in-water					
@@ -134,7 +134,7 @@ be	worm	can	crawl
 be	worm	can	creep					
 be	worm	be	invertebrate					
 be	worm	be	creature					
-be	arthropod	bear	has-legs					
+be	arthropod	bear	legs					
 be	arthropod	be	invertebrate					
 be	arthropod	be	creature					
 be	mollusk	be	invertebrate					
@@ -159,8 +159,8 @@ be	snail	be	mollusk
 be	cephalopod	can	see					
 be	cephalopod	can	swim					
 be	cephalopod	can	live-in-water					
-be	cephalopod	bear	has-tentacles					
-be	cephalopod	bear	has-ink					
+be	cephalopod	bear	tentacles					
+be	cephalopod	bear	ink					
 be	cephalopod	be	mollusk					
 be	squid	be	cephalopod					
 be	octopus	can	use-tools					
@@ -288,7 +288,7 @@ be	fish	be	edible
 be	fish	can	lay-soft-shell-egg					
 be	fish	can	live-in-water					
 be	fish	can	swim					
-be	fish	bear	has-fins					
+be	fish	bear	fins					
 be	fish	be	vertebrate					
 be	amphibian	can	see					
 be	amphibian	can	live-on-land					
@@ -302,7 +302,7 @@ be	bird	can	lay-hard-shell-egg
 be	bird	can	see					
 be	bird	can	hear					
 be	bird	can	sleep					
-be	bird	bear	has-wings					
+be	bird	bear	wings					
 be	bird	be	vertebrate					
 be	mammal	can	see					
 be	mammal	can	hear					
@@ -318,17 +318,17 @@ be	shark	can	eat-humans
 be	shark	be	predator					
 								
 be	toad	can	live-on-land					
-be	toad	bear	has-legs					
+be	toad	bear	legs					
 be	toad	can	jump					
 be	toad	be	amphibian					
 be	frog	can	affiliate-with-fresh-water					
-be	frog	bear	has-legs					
+be	frog	bear	legs					
 be	frog	can	jump					
 be	frog	be	amphibian					
 be	dart frog	be	poisonous					
 be	dart frog	be	frog					
 be	salamander	can	crawl					
-be	salamander	bear	has-legs					
+be	salamander	bear	legs					
 be	salamander	be	amphibian					
 be	caecillian	can	slither					
 be	caecillian	be	amphibian					
@@ -339,26 +339,26 @@ be	lizard	can	live-on-land
 be	lizard	can	crawl					
 be	lizard	can	climb					
 be	lizard	can	live-on-land					
-be	lizard	bear	has-legs					
+be	lizard	bear	legs					
 be	lizard	be	reptile					
 be	chameleon	can	affiliate-with-forest					
 be	chameleon	be	camoflaged					
 be	chameleon	can	live-on-land					
 be	chameleon	can	crawl					
 be	chameleon	can	climb					
-be	chameleon	bear	has-legs					
+be	chameleon	bear	legs					
 be	chameleon	be	reptile					
 be	turtle	can	live-in-water					
 be	turtle	bear	shell					
 be	turtle	can	crawl					
 be	turtle	can	swim					
-be	turtle	bear	has-legs					
+be	turtle	bear	legs					
 be	turtle	be	reptile					
 be	tortoise	can	live-on-land					
-be	tortoise	bear	has-armor					
+be	tortoise	bear	armor					
 be	tortoise	can	crawl					
 be	tortoise	can	live-on-land					
-be	tortoise	bear	has-legs					
+be	tortoise	bear	legs					
 be	tortoise	be	reptile					
 be	alligator	can	affiliate-with-fresh-water					
 be	alligator	can	eat-big-game-animal					
@@ -520,20 +520,20 @@ be	elephant	be	placental
 be	dolphin	can	affiliate-with-salt-water					
 be	dolphin	can	swim					
 be	dolphin	can	eat-fish					
-be	dolphin	bear	has-fins					
+be	dolphin	bear	fins					
 be	dolphin	be	self-aware					
 be	dolphin	can	live-in-water					
 be	dolphin	be	anthropomorphizable					
 be	dolphin	be	placental					
 be	whale	can	affiliate-with-salt-water					
 be	whale	can	live-in-water					
-be	whale	bear	has-fins					
+be	whale	bear	fins					
 be	whale	can	swim					
 be	carnivoran	be	carnivore					
 be	carnivoran	be	placental					
 be	ungulate	can	walk					
 be	ungulate	can	eat-grass					
-be	ungulate	bear	has-hoof					
+be	ungulate	bear	hoof					
 be	ungulate	be	placental					
 be	primate	be	relatable	# not strictly anthropomorphizable, to be anthropomorphizable requires being nonhuman, and humans are primates				
 be	primate	can	live-on-land	# not strictly arboreal, humans are not arboreal				
@@ -575,14 +575,14 @@ be	canine	be	carnivoran
 be	canine	be	predator					
 be	canine	can	walk					
 be	canine	can	run					
-be	canine	bear	has-fur					
+be	canine	bear	fur					
 be	cat	be	carnivoran					
 be	cat	be	predator					
 be	cat	can	walk					
 be	cat	can	run					
 be	cat	can	jump					
 be	cat	can	scratch					
-be	cat	bear	has-fur					
+be	cat	bear	fur					
 								
 be	wolf	can	eat-big-game-animal					
 be	wolf	be	canine					
@@ -619,19 +619,19 @@ be	house-cat	can	eat-small-game-animal
 be	house-cat	be	cat					
 								
 be	rhinoceros	can	affiliate-with-savanna					
-be	rhinoceros	bear	has-horn					
+be	rhinoceros	bear	horn					
 be	rhinoceros	can	run					
 be	rhinoceros	be	ungulate					
 be	giraffe	be	ungulate					
 be	deer	can	affiliate-with-forest					
 be	deer	can	run					
-be	deer	bear	has-antlers					
+be	deer	bear	antlers					
 be	deer	can	eat-grass					
 be	deer	be	big-game-animal					
 be	deer	be	ungulate					
 be	antelope	can	affiliate-with-savanna					
 be	antelope	can	run					
-be	antelope	bear	has-antlers					
+be	antelope	bear	antlers					
 be	antelope	can	jump					
 be	antelope	can	eat-grass					
 be	antelope	be	big-game-animal					
@@ -688,10 +688,10 @@ be	mare	be	horse
 be	mare	be	female					
 be	bull	be	cow					
 be	bull	be	male					
-be	bull	be	has-horns					
+be	bull	be	horns					
 be	ox	be	cow					
 be	ox	be	male					
-be	ox	be	has-horns					
+be	ox	be	horns					
 be	heifer	be	cow					
 be	heifer	be	female					
 be	boar	be	porcine					
@@ -727,8 +727,8 @@ be	monkey	can	scurry
 be	monkey	can	walk					
 be	monkey	can	climb					
 be	monkey	can	climb					
-be	monkey	bear	has-tail					
-be	monkey	bear	has-fur					
+be	monkey	bear	tail					
+be	monkey	bear	fur					
 be	monkey	can	eat-fruit					
 be	monkey	can	use-tools					
 be	monkey	be	anthropomorphizable					

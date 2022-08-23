@@ -50,7 +50,7 @@ be	spoken	be	audible
 								
 be	name	be	spoken					
 be	comment	be	spoken					
-be	comment	bear	has-length					
+be	comment	bear	length					
 								
 						"# accessible fixed statics (""location"")"		
 						# see location.tsv for more examples		
@@ -75,7 +75,7 @@ be	wind	be	energy
 be	fluid	can	flow					
 be	fluid	be	matter					
 								
-be	solid	bear	has-shape					
+be	solid	bear	shape					
 be	solid	be	matter					
 be	liquid	be	fluid					
 be	liquid	can	be-poured					
@@ -106,7 +106,7 @@ be	water	can	be-floated-on
 be	earth	can	be-burrowed-in					
 be	earth	can	be-grown-in					
 be	earth	can	be-grown-on					
-be	earth	bear	has-surface					
+be	earth	bear	surface					
 								
 be	ground	be	earth					
 be	ground	can	be-walked-on					
@@ -140,7 +140,7 @@ be	container	be	static
 be	container	be	solid					
 be	container	can	be-used					
 be	container	can	store					
-be	container	can	has-interior					
+be	container	can	interior					
 								
 				# fixed solids				
 be	tree	be	fixed					
@@ -159,7 +159,7 @@ be	door	can	open
 be	door	can	close					
 be	door	can	lock					
 be	door	can	unlock					
-be	door	bear	has-interior					
+be	door	bear	interior					
 								
 				"# unfixed solids (""items"")"				
 				# see item.tsv for more examples				

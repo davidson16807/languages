@@ -39,7 +39,7 @@ be	living	can	live
 be	living	can	reproduce		
 					
 be	physical	can	exist		
-be	physical	bear	has-location		
+be	physical	bear	location		
 					
 be	concept	can	be-thought-of		
 be	concept	can	be-talked-about		
@@ -53,7 +53,7 @@ be	relatable	be	relatable
 be	relatable	be	motile		
 be	unrelatable	be	nonsapient		
 					
-be	relatable	be	has-emotion		
+be	relatable	be	emotion		
 be	relatable	can	taste		
 be	relatable	can	touch		
 be	relatable	can	feel		
