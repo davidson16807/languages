@@ -6,6 +6,7 @@ tsv_parsing = parsing.SeparatedValuesFileParsing()
 rows = [
   *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal.tsv'),
   *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal-anatomy.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal-anatomy.tsv'),
 ]
 
 level0_subset_relations = set()

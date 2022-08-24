@@ -1,134 +1,127 @@
 				
 				
-	plant-anatomy		vascular-plant-anatomy	
-	vascular-plant-anatomy		seed-bearing-plant-anatomy	
-	seed-bearing-plant-anatomy		tree-anatomy	
-	seed-bearing-plant-anatomy		fruit-bearing-plant-anatomy	
-	seed-bearing-plant-anatomy		cereal-anatomy	
-	seed-bearing-plant-anatomy		legume-anatomy	
-	fruit-bearing-plant-anatomy		creeping-plant-anatomy	
+be	vascular-plant	has-part	leaf	
+be	vascular-plant	has-part	stem	
+be	vascular-plant	has-part	root	
+be	vascular-plant	has-part	tuber	
 				
-	leaf		vascular-plant-anatomy	
-	stem		vascular-plant-anatomy	
-	root		vascular-plant-anatomy	
-	tuber		vascular-plant-anatomy	
+be	seed-bearing-plant	has-part	seed	
+be	seed-bearing-plant	has-part	nut	
 				
-	seed		seed-bearing-plant-anatomy	
-	nut		seed-bearing-plant-anatomy	
+be	tree	has-part	wood	
 				
-	wood		tree-anatomy	
+be	oak	has-part	acorn	
+be	acorn	be	nut	
 				
-	acorn		nut	
+be	grain	be	cereal	
+be	grain	be	item	
 				
-	grain		cereal-anatomy	
-	grain		item	
+be	lettuce	be	edible	
+be	lettuce	be	leaf	
 				
-	lettuce		edible	
-	lettuce		leaf	
+be	celery	be	edible	
+be	celery	be	stem	
 				
-	celery		edible	
-	celery		stem	
+be	sesame	be	edible	
+be	sesame	be	seed	
 				
-	sesame		edible	
-	sesame		seed	
+be	carrot	be	edible	
+be	carrot	be	tuber	
+be	radish	be	edible	
+be	radish	be	tuber	
+be	potato	be	edible	
+be	potato	be	tuber	
+be	sweet-potato	be	edible	
+be	sweet-potato	be	tuber	
+be	yam	be	edible	
+be	yam	be	tuber	
 				
-	carrot		edible	
-	carrot		tuber	
-	radish		edible	
-	radish		tuber	
-	potato		edible	
-	potato		tuber	
-	sweet-potato		edible	
-	sweet-potato		tuber	
-	yam		edible	
-	yam		tuber	
+be	walnut	be	edible	
+be	walnut	be	nut	
+be	chestnut	be	edible	
+be	chestnut	be	nut	
+be	hazelnut	be	edible	
+be	hazelnut	be	nut	
+be	pecan	be	edible	
+be	pecan	be	nut	
+be	almond	be	edible	
+be	almond	be	nut	
+be	macadamia	be	edible	
+be	macadamia	be	nut	
 				
-	walnut		edible	
-	walnut		nut	
-	chestnut		edible	
-	chestnut		nut	
-	hazelnut		edible	
-	hazelnut		nut	
-	pecan		edible	
-	pecan		nut	
-	almond		edible	
-	almond		nut	
-	macadamia		edible	
-	macadamia		nut	
+be	cereal	be	edible	
+be	cereal	be	grain	
+be	cereal	has-part	chaff	
 				
-	cereal		edible	
-	cereal		grain	
-	chaff		cereal-anatomy	
+be	legume	has-part	bean	
+be	bean	be	edible	
 				
-	bean		legume-plant-anatomy	
-	bean		edible	
+be	fruit-bearing-plant	has-part	fruit	
+be	fruit	be	colorful	
+be	fruit	be	edible	
 				
-	fruit		colorful	
-	fruit		edible	
-	fruit		fruit-bearing-plant-anatomy	
+be	wheat	be	cereal	
+be	barley	be	cereal	
+be	rice	be	cereal	
+be	oat	be	cereal	
+be	rye	be	cereal	
+be	millet	be	cereal	
+be	corn	be	cereal	
+be	buckwheat	be	cereal	
+be	quinoa	be	cereal	
+be	chia	be	cereal	
+be	flax	be	cereal	
+be	hemp	be	cereal	
 				
-	wheat		cereal	
-	barley		cereal	
-	rice		cereal	
-	oat		cereal	
-	rye		cereal	
-	millet		cereal	
-	corn		cereal	
-	buckwheat		cereal	
-	quinoa		cereal	
-	chia		cereal	
-	flax		cereal	
-	hemp		cereal	
+be	peanut	be	legume	
+be	soybean	be	legume	
+be	pea	be	legume	
+be	chickpea	be	legume	
+be	lentil	be	legume	
 				
-	peanut		legume	
-	soybean		legume	
-	pea		legume	
-	chickpea		legume	
-	lentil		legume	
+be	berry	be	colorful	
+be	berry	be	fruit	
+be	citrus-fruit	be	colorful	
+be	citrus-fruit	be	fruit	
+be	tropical-fruit	be	colorful	
+be	tropical-fruit	be	fruit	
+be	vegetable-fruit	be	fruit	#-fruit-that-is-occasionally-classified-as-a-vegetable
 				
-	berry		colorful	
-	berry		fruit	
-	citrus-fruit		colorful	
-	citrus-fruit		fruit	
-	tropical-fruit		colorful	
-	tropical-fruit		fruit	
-	vegetable-fruit		fruit	#-fruit-that-is-occasionally-classified-as-a-vegetable
+be	grape	be	fruit	
+be	cherry	be	fruit	
+be	apple	be	fruit	
+be	peach	be	fruit	
+be	pear	be	fruit	
+be	plum	be	fruit	
+be	pomegranate	be	fruit	
+be	cantaloupe	be	fruit	
+be	watermelon	be	fruit	
 				
-	grape		fruit	
-	cherry		fruit	
-	apple		fruit	
-	peach		fruit	
-	pear		fruit	
-	plum		fruit	
-	pomegranate		fruit	
-	cantaloupe		fruit	
-	watermelon		fruit	
+be	tomato	be	vegetable-fruit	
+be	avocado	be	vegetable-fruit	
 				
-	tomato		vegetable-fruit	
-	avocado		vegetable-fruit	
+be	raspberry	be	berry	
+be	blackberry	be	berry	
+be	blueberry	be	berry	
+be	strawberry	be	berry	
+be	cranberry	be	berry	
+be	elderberry	be	berry	
+be	mulberry	be	berry	
 				
-	raspberry		berry	
-	blackberry		berry	
-	blueberry		berry	
-	strawberry		berry	
-	cranberry		berry	
-	elderberry		berry	
-	mulberry		berry	
+be	grapefruit	be	citrus-fruit	
+be	tangerine	be	citrus-fruit	
+be	orange	be	citrus-fruit	
+be	lemon	be	citrus-fruit	
 				
-	grapefruit		citrus-fruit	
-	tangerine		citrus-fruit	
-	orange		citrus-fruit	
-	lemon		citrus-fruit	
+be	kiwi	be	tropical-fruit	
+be	banana	be	tropical-fruit	
+be	kiwi	be	tropical-fruit	
+be	pineapple	be	tropical-fruit	
+be	papaya	be	tropical-fruit	
+be	dragonfruit	be	tropical-fruit	
+be	mango	be	tropical-fruit	
+be	coconut	be	tropical-fruit	
+be	durian	be	tropical-fruit	
+be	jackfruit	be	tropical-fruit	
 				
-	kiwi		tropical-fruit	
-	banana		tropical-fruit	
-	kiwi		tropical-fruit	
-	pineapple		tropical-fruit	
-	papaya		tropical-fruit	
-	dragonfruit		tropical-fruit	
-	mango		tropical-fruit	
-	coconut		tropical-fruit	
-	durian		tropical-fruit	
-	jackfruit		tropical-fruit	
-				
-	vine		creeping-plant-anatomy	
+be	creeping-plant	has-part	vine	
