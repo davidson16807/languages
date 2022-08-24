@@ -49,11 +49,10 @@ be	concept	can	be-talked-about
 				# we provide applicable subdivisions here so they may be opted into when describing concepts	
 					
 				# able to be-empathized with	
-be	relatable	be	relatable		
 be	relatable	be	motile		
 be	unrelatable	be	nonsapient		
 					
-be	relatable	be	emotion		
+be	relatable	has-trait	emotion		
 be	relatable	can	taste		
 be	relatable	can	touch		
 be	relatable	can	feel		
