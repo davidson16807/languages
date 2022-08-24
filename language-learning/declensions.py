@@ -4,9 +4,18 @@ from predicates import Predicate, Bipredicate
 
 tsv_parsing = parsing.SeparatedValuesFileParsing()
 rows = [
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal-anatomy.tsv'),
   *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal-anatomy.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal-anatomy.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/deity.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/human.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/humanoid.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/mythical.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/plant-anatomy.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/plant.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/biotic/sapient.tsv'),
+  # *tsv_parsing.rows('data/noun-declension/predicates/animacy-hierarchy.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/capability.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/property.tsv'),
 ]
 
 level0_subset_relations = set()
@@ -20,15 +29,16 @@ for row in rows:
         fxgy = (f,x),(g,y)
         level0_subset_relations.add(fxgy)
 
-systems = collections.defaultdict(Predicate)
+allthat = collections.defaultdict(Predicate)
 for (f,x),(g,y) in level0_subset_relations:
-    systems[g,y](systems[f,x])
+    allthat[g,y](allthat[f,x])
     if g == f:
         for f2 in level1_subset_relations[f]:
-            systems[f2,y](systems[f2,x])
+            allthat[f2,y](allthat[f2,x])
 
-systems['be','mouse'] in systems['can','scurry']
-systems['be','mouse'] in systems['can','hop']
-systems['be','mouse'] in systems['has-part','heart']
-systems['be','mouse'] in systems['has-part','gill']
-systems['be','mouse'] in systems['has-part','organ']
+allthat['be','mouse'] in allthat['can','scurry']
+allthat['be','mouse'] in allthat['can','hop']
+allthat['be','mouse'] in allthat['has-part','heart']
+allthat['be','mouse'] in allthat['has-part','gill']
+allthat['be','mouse'] in allthat['has-part','organ']
+

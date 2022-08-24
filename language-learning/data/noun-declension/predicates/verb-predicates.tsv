@@ -1,15 +1,15 @@
 			
-can	scurry	can	move-fast
-can	run	can	move-fast
-can	fly	can	move-fast
+be	scurry	be	move-fast
+be	run	be	move-fast
+be	fly	be	move-fast
 			
-can	move	can	move-slow
-can	creep	can	move-slow
-can	crawl	can	move-slow
-can	walk	can	move-slow
-can	jump	can	move-slow
-can	hop	can	move-slow
-can	fly	can	move-slow
+be	move	be	move-slow
+be	creep	be	move-slow
+be	crawl	be	move-slow
+be	walk	be	move-slow
+be	jump	be	move-slow
+be	hop	be	move-slow
+be	fly	be	move-slow
 			
-can	move-slow	can	move
-can	move-fast	can	move
+be	move-slow	be	move
+be	move-fast	be	move

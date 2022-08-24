@@ -1,5 +1,4 @@
 				
-				
 be	vascular-plant	has-part	leaf	
 be	vascular-plant	has-part	stem	
 be	vascular-plant	has-part	root	
@@ -13,7 +12,6 @@ be	tree	has-part	wood
 be	oak	has-part	acorn	
 be	acorn	be	nut	
 				
-be	grain	be	cereal	
 be	grain	be	item	
 				
 be	lettuce	be	edible	
