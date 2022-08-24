@@ -439,17 +439,17 @@ This is likly more due to my lack of experience,
 but without feedback as to what existing relation could be used, 
 I will have to define my own. Fortunately, we have equation 4 available 
 to serve as the definition for this relation.
-As for how to notate it, I will use the letter "⊆¹" to denote this relation,
+As for how to notate it, I will use the letter "⊆₁" to denote this relation,
 for reasons that will become clear.
 
-So B⊆¹C is equivalent to the statement "can(be)" in predicate notation.
+So B⊆₁C is equivalent to the statement "can(be)" in predicate notation.
 
 There are also a number of other related characters 
 that can be used to indicate related concepts.
-I will personally use "⊇¹" to indicate the relation in equation 5.
-I will use "⊂¹" and "⊃¹" to indicate variants of equations 4
+I will personally use "⊇₁" to indicate the relation in equation 5.
+I will use "⊂₁" and "⊃₁" to indicate variants of equations 4
 where the "⊆" symbol is replaced by "⊂" and "⊃", respectively,
-and I will use "∪¹" and "∩¹" to indicate variants of equation 4 
+and I will use "∪₁" and "∩₁" to indicate variants of equation 4 
 where the "⊆" symbol is replaced by "∪" and "∩", respectively.
 
 We now have a definition for a relation that motivates 
@@ -457,19 +457,19 @@ us to support univariate calls to the existing `__call__()` and `__contains__()`
 methods within `PredicateSystem`, and, moreover, 
 we now have at least some idea how to implement it.
 
-# A Note About ⊇¹⊆¹⊃¹⊂¹∪¹∩¹ operators
+# A Note About ⊇₁⊆₁⊃₁⊂₁∪₁∩₁ operators
 
 Finally, while we're on this subject, 
 we will note that there exists a kind of function F that 
 can map an arbitrary set Y to another function G:1→Y. 
 simply by saying that ∀i∈1:(i,Y)∈F.
 When a set is mapped by F to the domain 1→Y, 
-the operators ⊇¹⊆¹⊃¹⊂¹∪¹∩¹ can carry out functionality 
+the operators ⊇₁⊆₁⊃₁⊂₁∪₁∩₁ can carry out functionality 
 that is functorial to the operators ⊇⊆⊃⊂∪∩,
 and when done the set can be returned to the domain of F
-using the inverse function, F⁻¹=F(x)(i) where i∈1.
+using the inverse function, F⁻₁=F(x)(i) where i∈1.
 All this is to say that the operators ⊇⊆⊃⊂∪∩ 
-can be respectively represented by the operators ⊇¹⊆¹⊃¹⊂¹∪¹∩¹
+can be respectively represented by the operators ⊇₁⊆₁⊃₁⊂₁∪₁∩₁
 once their operands are transported to the domain 1→Y,
 so by using set notation, a statement that represents "socrates(man)" 
 can be transported to the statement "be(socrates, man)" using the function F.
@@ -479,7 +479,7 @@ so it can be trivially transported to these domains
 where it can participate in a much richer set of behavior.
 This is demonstrated when we combine predicate clauses such as "can(be)",
 "can(mortal, die)", and "be(socrates, man)", 
-which is represented in set notation as B⊆¹C, C(m)⊆C(d), and B(s)⊆B(e)
+which is represented in set notation as B⊆₁C, C(m)⊆C(d), and B(s)⊆B(e)
 where m, d, and e denote the set of all things that are mortals, 
 the set of all things that die, and the set of all men. 
 However the set notation here also goes beyond what can be represented strictly using 
@@ -488,22 +488,59 @@ or "the set of all things that have legs includes the set of all things that can
 This statement is not captured by "can(leg,walk)", which reads 
 "if you can be a leg, then you can walk" or "has(leg,walk)", which reads
 "if you have a leg, then you have a walk" or "a leg is a component of a walk",
-or "be(leg,walk)", which reads "if you are a leg, you walk"
+or "be(leg,walk)", which reads "if you are a leg, you walk".
 
-But this is not all. Since the function G itself has a set representation,
+This might make you wonder, if a statement such as A(x)⊆B(y) can have significance,
+could other statements such as A(x)⊆B or C⊆D(y) have significance as well?
+A statement such as A(x)⊆B implies that A(x) contains the same duples that A 
+has in order to fulfill its definition as a function. 
+A statement such as C⊆D(y) implies that D(y) also contains all the duples 
+that C has as a function. One way this condition could be satisfied is 
+if both A(x) and D(y) are functions themselves, 
+so that A and D are curried bivariate functions.
+To construct a linguistic example, something like A(x₁)(x₂) and D(y₁)(y₂) 
+might indicate a noun as it has in past examples, for instance "man", 
+A(x₁) and D(y₁) might indicate a property such as "have",
+and A and D might indicate a modifier on a verb. 
+Seeing how the word "can" serve as an auxillary verb,
+we can attach it as a suffix to other verbs, as we saw earlier with 
+the functions "canhave", and even "can" can be reinterpreted to 
+modify the verb "be" (a more appropriate name might be "canbe")
+In this light, "can" might serve as a function C:X→Y→Z that 
+augments verbs such as "be" and "has", such that C(H)(b) might 
+be read as "can has cheeseburger", and B(c) ⊆ C(H)(b) might 
+be read as:
+    "the set of all things that are cats includes the set of things that can have cheeseburgers"
+or for brevity:
+    "cats can has cheezeburger"
+Jokes aside, C(H) reads:
+    "the set of all relations indicating the potential to possess of things"
+and if you have a set H₂ that represents all relations indicating the actual possession of things,
+you can then say:
+
+    H₂ ⊆ C(H)
+
+However you could just as well introduce a new function A:X→Y→Z that returns a function
+that indicates not the potential for actions but their actual execution, 
+so A(H) indicates the set of all relations indicating the actual possession of things,
+and:
+
+    A(H) ⊆₁ C(H)
+
+Lastly, since the function G itself has a set representation,
 it can be treated as another set, meaning we can reapply a variant of F to it.
-Much like the operators ⊇¹⊆¹⊃¹⊂¹∪¹∩¹ perform functorially to ⊇⊆⊃⊂∪∩ in the domain 1→Y,
+Much like the operators ⊇₁⊆₁⊃₁⊂₁∪₁∩₁ perform functorially to ⊇⊆⊃⊂∪∩ in the domain 1→Y,
 the domains introduced by repeatedly calling F on its own output will have their 
 own operators. To denote these operators we will superset the 
 symbols ⊇⊆⊃⊂∪∩ by a number n to denote the operators that behave 
 functorially to ⊇⊆⊃⊂∪∩ in the domain 1→1→…→1→Y, 
 where the number of maps that are represented by the domain is n.
-We will indicate this by saying the operators ⊇ⁿ⊆ⁿ⊃ⁿ⊂ⁿ∪ⁿ∩ⁿ operate 
-in the domain 1→ⁿA for some arbitrary set A.
-The operators ⊇⊆⊃⊂∪∩ can then assume the notation ⊇⁰⊆⁰⊃⁰⊂⁰∪⁰∩⁰, i.e., 
+We will indicate this by saying the operators ⊇ₙ⊆ₙ⊃ₙ⊂ₙ∪ₙ∩ₙ operate 
+in the domain 1→ₙA for some arbitrary set A.
+The operators ⊇⊆⊃⊂∪∩ can then assume the notation ⊇₀⊆₀⊃₀⊂₀∪₀∩₀, i.e., 
 there are no maps in the domain of these operators,
-and the mapping from X→ⁿA to 1→X→ⁿA for an arbitrary set X 
-will be denoted Fⁿ:(X→ⁿA)→(1→X→ⁿA)
+and the mapping from X→ₙA to 1→X→ₙA for an arbitrary set X 
+will be denoted Fₙ:(X→ₙA)→(1→X→ₙA)
 All this is to return to the idea that function currying 
 can be performed on a set theoretical representation of predicates, 
 only now more formally described.

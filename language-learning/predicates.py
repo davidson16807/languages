@@ -101,8 +101,8 @@ be, can = Bipredicate(), Bipredicate()
 can(be)                    # if you already are something, then you know you have the ability to be it
 can('mortal','die')        # if you can be mortal, then you can die
 ('mortal','die') in can    # if you are a mortal, can you die?
-all('man','mortal')        # if you are a man, you are mortal
-all('socrates','man')      # if you are socrates, you are a man
+be('man','mortal')        # if you are a man, you are mortal
+be('socrates','man')      # if you are socrates, you are a man
 ('socrates','die') in can  # if you are socrates, can you die?
 
 # taxonomy(head) ⊆ taxonomy(human)
