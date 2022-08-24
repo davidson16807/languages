@@ -1,105 +1,98 @@
 			
+be	heart	be	organ
+be	lung	be	organ
+be	brain	be	organ
+be	liver	be	organ
+be	kidney	be	organ
+be	stomach	be	organ
+be	gut	be	organ
 			
-	organ		internal-anatomy
-	internal-anatomy		vertebrate-anatomy
+be	vertebrate	has-part	heart
+be	vertebrate	has-part	brain
+be	vertebrate	has-part	liver
+be	vertebrate	has-part	kidney
+be	vertebrate	has-part	stomach
+be	vertebrate	has-part	gut
 			
-	internal-arthropod-anatomy		arthropod-anatomy
-	internal-god-anatomy		god-anatomy
+be	chelicerate	has-part	lung
+be	amphibian	has-part	lung
+be	reptile	has-part	lung
+be	bird	has-part	lung
+be	mammal	has-part	lung
 			
-	animal-anatomy		arthropod-anatomy
-	animal-anatomy		vertebrate-anatomy
-	vertebrate-anatomy		fish-anatomy
-	vertebrate-anatomy		reptile-anatomy
-	vertebrate-anatomy		bird-anatomy
-	vertebrate-anatomy		mammal-anatomy
+be	vertebrate	has-part	blood
+be	arthropod	has-part	ichor
+be	god	has-part	ichor
 			
-	mammal-anatomy		human-anatomy
-	mammal-anatomy		ungulate-anatomy
-	mammal-anatomy		canine-anatomy
-	mammal-anatomy		feline-anatomy
+be	blood	be	liquid
+be	bile	be	liquid
+be	ichor	be	liquid
 			
-	human-anatomy		god-anatomy
-	internal-god-anatomy		god-anatomy
-	internal-anatomy		internal-god-anatomy
+be	arthropod	has-part	shell
+be	arthropod	has-part	leg
+be	insect	has-part	antenna
 			
-	heart		organ
-	lung		organ
-	brain		organ
-	liver		organ
-	kidney		organ
-	stomach		organ
-	gut		organ
+be	vertibrate	has-part	head
+be	vertibrate	has-part	eye
+be	vertibrate	has-part	mouth
+be	vertibrate	has-part	tongue
+be	vertibrate	has-part	jaw
+be	vertibrate	has-part	skin
 			
-	blood		liquid
-	blood		internal-anatomy
-	bile		liquid
-	bile		internal-anatomy
-	ichor		liquid
-	ichor		internal-god-anatomy
-	ichor		internal-arthropod-anatomy
+be	fish	has-part	gill
+be	fish	has-part	scale
+be	fish	has-part	fin
 			
-	head		arthropod-anatomy
-	eye		arthropod-anatomy
+be	reptile	has-part	scale
+be	reptile	has-part	tooth
 			
-	head		vertibrate-anatomy
-	eye		vertibrate-anatomy
-	mouth		vertibrate-anatomy
-	tongue		vertibrate-anatomy
-	jaw		vertibrate-anatomy
+be	bird	has-part	feather
+be	bird	has-part	wing
+be	bird	has-part	claw
+be	bird	has-part	talon
+be	bird	has-part	neck
+be	bird	has-part	beak
 			
-	scale		fish-anatomy
-	fin		fish-anatomy
+be	mammal	has-part	ear
+be	mammal	has-part	tooth
+be	mammal	has-part	nose
+be	mammal	has-part	neck
+be	mammal	has-part	chin
 			
-	scale		reptile-anatomy
-	tooth		reptile-anatomy
+be	ungulate	has-part	leg
+be	ungulate	has-part	foot
+be	ungulate	has-part	hoof
 			
-	feather		bird-anatomy
-	wing		bird-anatomy
-	claw		bird-anatomy
-	talon		bird-anatomy
-	neck		bird-anatomy
-	beak		bird-anatomy
+be	feline	has-part	hair
+be	feline	has-part	fur
+be	feline	has-part	claw
+be	feline	has-part	leg
+be	feline	has-part	foot
+be	feline	has-part	paw
+be	feline	has-part	fang
 			
-	ear		mammal-anatomy
-	tooth		mammal-anatomy
-	nose		mammal-anatomy
-	neck		mammal-anatomy
-	chin		mammal-anatomy
+be	canine	has-part	hair
+be	canine	has-part	fur
+be	canine	has-part	leg
+be	canine	has-part	foot
+be	canine	has-part	paw
+be	canine	has-part	snout
 			
-	leg		ungulate-anatomy
-	foot		ungulate-anatomy
-	hoof		ungulate-anatomy
+be	human	has-part	lip
+be	human	has-part	cheek
+be	human	has-part	eyebrow
+be	human	has-part	hair
 			
-	hair		feline-anatomy
-	fur		feline-anatomy
-	claw		feline-anatomy
-	leg		feline-anatomy
-	foot		feline-anatomy
-	paw		feline-anatomy
-	fang		feline-anatomy
+be	human	has-part	hand
+be	human	has-part	arm
+be	human	has-part	finger
 			
-	hair		canine-anatomy
-	fur		canine-anatomy
-	leg		canine-anatomy
-	foot		canine-anatomy
-	paw		canine-anatomy
-	snout		canine-anatomy
+be	human	has-part	foot
+be	human	has-part	leg
+be	human	has-part	toe
 			
-	lip		human-anatomy
-	cheek		human-anatomy
-	eyebrow		human-anatomy
-	hair		human-anatomy
-			
-	hand		human-anatomy
-	arm		human-anatomy
-	finger		human-anatomy
-			
-	foot		human-anatomy
-	leg		human-anatomy
-	toe		human-anatomy
-			
-	elbow		human-anatomy
-	shoulder		human-anatomy
-	knee		human-anatomy
-	butt		human-anatomy
-	breast		human-anatomy
+be	human	has-part	elbow
+be	human	has-part	shoulder
+be	human	has-part	knee
+be	human	has-part	butt
+be	human	has-part	breast

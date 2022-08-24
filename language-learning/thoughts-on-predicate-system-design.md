@@ -376,175 +376,6 @@ If the "be" system was never encoded, you would need to reintroduce
 all of the same predicates of "be" to "has" in order to capture 
 statements such as "if you have a socrates, you always have a man".
 
-This might seem to suggest that the statements made earlier, such as:
-
-      ⋃   A(x) ⊆ A(s)                                                           3 
-    x∈T(s)
-
-Could therefore be noted as:
-
-             T ⊆ A
-
-However let's explore this thought. 
-
-Since we have previously interpreted bipredicates such as A 
-as functions that return sets, let's interpret them in light of a function within set theory. 
-Set theory represents a function F:I→O as a set of duples {(i,o):i∈I ∧ o∈O} 
-such that no value in I is ever repeated or omitted, i.e. ∀i∈I: |{(i,o)∈F}|=1. 
-In this light, we will denote a bipredicate such as "can" by the function C:𝕏→ℙ,
-which is the set of duples {(x,P):x∈𝕏 ∧ P⊆ℙ} where 𝕏 is an arbitrary set 
-of elements representing the domain of C, ℙ is the set of all elements 
-that are considered by the predicate system, and P⊆ℙ is the set returned for C(x).
-In this case, if we have two sets (representing "can" and "be")
-that fit the definition of a function:
-
-    B:𝔹→ℙ = {(x,P):x∈𝔹 ∧ P⊆ℙ} for 𝔹⊆ℙ
-
-and 
-
-    C:ℂ→ℙ = {(x,P):x∈ℂ ∧ P⊆ℙ} for ℂ⊆ℙ
-
-then by definition of a function,
-any value x∈𝔹 must correspond to only one element (x,B(x))∈B,
-and since B⊆C, we must also say that (x,B(x))∈C,
-but there can be only one element (x,C(x))∈C for each x∈ℂ,
-so the only (x,C(x))∈C that could satisfy this condition is (x,B(x)),
-and therefore B(x)=C(x). 
-
-However for us to make a statement such as "can(be)" would be to say that each 
-instance of a "be" predicate is also a "can" predicate, or, 
-if B denotes the function B, we say that for a any value x∈ℂ, 
-it is true that B(x) ⊆ C(x). More formally, "can(be)" implies:
-
-    ∀x∈𝔹: B(x) ⊆ C(x)                                                           4
-
-This will serve as our formal defintion.
-
-As we showed earlier though, "can(be)" is also purportedly represented by function B⊆C,
-and based on this we know that
-
-    ∀x∈𝔹: B(x) = C(c)
-
-This is still consistent with equation 4, but it also implies that:
-
-    ∀x∈𝔹: B(x) ⊇ C(x)                                                           5
-
-which could only represent the claim which we know to be false, that "be(can)". A paradox.
-
-The paradox occurs because we assert that that statements like "can(be)"
-can be represented using the subset relation B⊆C.
-This cannot be the case. We will have to find another operation, 
-but I'm unaware of any other existing relation that matches this behavior. 
-This is likly more due to my lack of experience, 
-but without feedback as to what existing relation could be used, 
-I will have to define my own. Fortunately, we have equation 4 available 
-to serve as the definition for this relation.
-As for how to notate it, I will use the letter "⊆₁" to denote this relation,
-for reasons that will become clear.
-
-So B⊆₁C is equivalent to the statement "can(be)" in predicate notation.
-
-There are also a number of other related characters 
-that can be used to indicate related concepts.
-I will personally use "⊇₁" to indicate the relation in equation 5.
-I will use "⊂₁" and "⊃₁" to indicate variants of equations 4
-where the "⊆" symbol is replaced by "⊂" and "⊃", respectively,
-and I will use "∪₁" and "∩₁" to indicate variants of equation 4 
-where the "⊆" symbol is replaced by "∪" and "∩", respectively.
-
-We now have a definition for a relation that motivates 
-us to support univariate calls to the existing `__call__()` and `__contains__()` 
-methods within `PredicateSystem`, and, moreover, 
-we now have at least some idea how to implement it.
-
-# A Note About ⊇₁⊆₁⊃₁⊂₁∪₁∩₁ operators
-
-Finally, while we're on this subject, 
-we will note that there exists a kind of function F that 
-can map an arbitrary set Y to another function G:1→Y. 
-simply by saying that ∀i∈1:(i,Y)∈F.
-When a set is mapped by F to the domain 1→Y, 
-the operators ⊇₁⊆₁⊃₁⊂₁∪₁∩₁ can carry out functionality 
-that is functorial to the operators ⊇⊆⊃⊂∪∩,
-and when done the set can be returned to the domain of F
-using the inverse function, F⁻₁=F(x)(i) where i∈1.
-All this is to say that the operators ⊇⊆⊃⊂∪∩ 
-can be respectively represented by the operators ⊇₁⊆₁⊃₁⊂₁∪₁∩₁
-once their operands are transported to the domain 1→Y,
-so by using set notation, a statement that represents "socrates(man)" 
-can be transported to the statement "be(socrates, man)" using the function F.
-However the domain 1→Y is subset to a larger domain X→Y
-for any arbitrary set X where 1⊆X, 
-so it can be trivially transported to these domains
-where it can participate in a much richer set of behavior.
-This is demonstrated when we combine predicate clauses such as "can(be)",
-"can(mortal, die)", and "be(socrates, man)", 
-which is represented in set notation as B⊆₁C, C(m)⊆C(d), and B(s)⊆B(e)
-where m, d, and e denote the set of all things that are mortals, 
-the set of all things that die, and the set of all men. 
-However the set notation here also goes beyond what can be represented strictly using 
-bipredicates, since we also wind up with statements such as C(w)⊆H(l),
-or "the set of all things that have legs includes the set of all things that can walk".
-This statement is not captured by "can(leg,walk)", which reads 
-"if you can be a leg, then you can walk" or "has(leg,walk)", which reads
-"if you have a leg, then you have a walk" or "a leg is a component of a walk",
-or "be(leg,walk)", which reads "if you are a leg, you walk".
-
-This might make you wonder, if a statement such as A(x)⊆B(y) can have significance,
-could other statements such as A(x)⊆B or C⊆D(y) have significance as well?
-A statement such as A(x)⊆B implies that A(x) contains the same duples that A 
-has in order to fulfill its definition as a function. 
-A statement such as C⊆D(y) implies that D(y) also contains all the duples 
-that C has as a function. One way this condition could be satisfied is 
-if both A(x) and D(y) are functions themselves, 
-so that A and D are curried bivariate functions.
-To construct a linguistic example, something like A(x₁)(x₂) and D(y₁)(y₂) 
-might indicate a noun as it has in past examples, for instance "man", 
-A(x₁) and D(y₁) might indicate a property such as "have",
-and A and D might indicate a modifier on a verb. 
-Seeing how the word "can" serve as an auxillary verb,
-we can attach it as a suffix to other verbs, as we saw earlier with 
-the functions "canhave", and even "can" can be reinterpreted to 
-modify the verb "be" (a more appropriate name might be "canbe")
-In this light, "can" might serve as a function C:X→Y→Z that 
-augments verbs such as "be" and "has", such that C(H)(b) might 
-be read as "can has cheeseburger", and B(c) ⊆ C(H)(b) might 
-be read as:
-    "the set of all things that are cats includes the set of things that can have cheeseburgers"
-or for brevity:
-    "cats can has cheezeburger"
-Jokes aside, C(H) reads:
-    "the set of all relations indicating the potential to possess of things"
-and if you have a set H₂ that represents all relations indicating the actual possession of things,
-you can then say:
-
-    H₂ ⊆ C(H)
-
-However you could just as well introduce a new function A:X→Y→Z that returns a function
-that indicates not the potential for actions but their actual execution, 
-so A(H) indicates the set of all relations indicating the actual possession of things,
-and:
-
-    A(H) ⊆₁ C(H)
-
-Lastly, since the function G itself has a set representation,
-it can be treated as another set, meaning we can reapply a variant of F to it.
-Much like the operators ⊇₁⊆₁⊃₁⊂₁∪₁∩₁ perform functorially to ⊇⊆⊃⊂∪∩ in the domain 1→Y,
-the domains introduced by repeatedly calling F on its own output will have their 
-own operators. To denote these operators we will superset the 
-symbols ⊇⊆⊃⊂∪∩ by a number n to denote the operators that behave 
-functorially to ⊇⊆⊃⊂∪∩ in the domain 1→1→…→1→Y, 
-where the number of maps that are represented by the domain is n.
-We will indicate this by saying the operators ⊇ₙ⊆ₙ⊃ₙ⊂ₙ∪ₙ∩ₙ operate 
-in the domain 1→ₙA for some arbitrary set A.
-The operators ⊇⊆⊃⊂∪∩ can then assume the notation ⊇₀⊆₀⊃₀⊂₀∪₀∩₀, i.e., 
-there are no maps in the domain of these operators,
-and the mapping from X→ₙA to 1→X→ₙA for an arbitrary set X 
-will be denoted Fₙ:(X→ₙA)→(1→X→ₙA)
-All this is to return to the idea that function currying 
-can be performed on a set theoretical representation of predicates, 
-only now more formally described.
-
 # Conclusion
 We conclude this section with a summary for the definition of a `PredicateSystem`:
 
@@ -566,7 +397,7 @@ such that 𝕏⊆𝕐 is an arbitrary set of elements representing the domain of
 𝕐 is the set of all elements that are considered by the predicate system,
 and there is a special relation B~C defined for PredicateSystems B and C such that:
 
-    ∀(x,B(x))∈B: B(x) ⊆ C(x)
+    ∀(x,B(x))∈B: B(x) ⊆ B(x) ⟹ C(x) ⊆ C(x)
 
 While the above is a lot to take in, we find it allows practical uses. Observe:
 
@@ -659,8 +490,8 @@ On examining the alternate definitions of "has" in natural language,
 we find there is clear need to create distinct predicates for them,
 however there is no clear need to articulate rules for composition, 
 other than to state it does not exist.
-For brevity we'll call these predicates "owns" for ownership, "has_part" for anatomy, 
-and (for lack of a shorter term) "has_attribute" for attributes.
-Each of these will have respective can_own, can_have_part, and can_have_attribute, 
+For brevity we'll call these predicates "owns" for ownership, 
+"has_part" for anatomy, and "has_trait" for attributes.
+Each of these will have respective can_own, can_have_part, and can_have_trait, 
 to indicate where only potential exists.
 

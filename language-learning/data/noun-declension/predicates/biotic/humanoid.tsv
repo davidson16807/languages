@@ -7,7 +7,7 @@ be	nymph	be	humanoid
 be	nymph	be	female	
 be	nymph	can	swim	
 be	nymph	can	live-in-water	
-be	nymph	bear	legs	
+be	nymph	has-part	legs	
 				
 be	giant	be	humanoid	
 be	giant	be	large	

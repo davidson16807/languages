@@ -1,17 +1,17 @@
 	predicate		predicand
 			
 be	time	be	concept
-be	time	bear	length
+be	time	has-trait	length
 			
 be	event	be	concept
 be	event	cna	be-seen
 			
 be	work	be	concept
-be	work	bear	difficulty
+be	work	has-trait	difficulty
 			
 be	movie	be	event
 be	movie	can	be-seen
-be	movie	bear	length
+be	movie	has-trait	length
 			
 be	time-of-day	be	time
 be	season	be	time
@@ -27,14 +27,14 @@ be	summer	be	season
 be	fall	be	season
 			
 be	affair	be	event
-be	affair	bear	size
+be	affair	has-trait	size
 be	myth	be	event
-be	myth	bear	length
+be	myth	has-trait	length
 be	conflict	be	event
-be	conflict	bear	size
+be	conflict	has-trait	size
 			
 be	motion	be	concept
-be	motion	bear	speed
+be	motion	has-trait	speed
 			
 be	fight	be	conflict
 be	war	be	conflict

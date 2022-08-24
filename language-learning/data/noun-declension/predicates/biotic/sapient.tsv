@@ -2,9 +2,9 @@
 be	literate	can	read
 be	literate	can	write
 			
-bear	name	can	be-named
+has-part	name	can	be-named
 			
-be	proper-noun	bear	name
+be	proper-noun	has-trait	name
 			
 be	character	be	proper-noun
 be	character	be	fictitious

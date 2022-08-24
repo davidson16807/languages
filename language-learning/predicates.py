@@ -64,7 +64,7 @@ class Bipredicate:
      𝕐 is the set of all elements that are considered by the predicate system,
      𝒫(𝕐) is the powerset of 𝕐, and there is a special relation denoted B⊆¹C 
      defined for Bipredicates B and C such that:
-        ∀(x,B(x))∈B: B(x) ⊆ C(x)
+        ∀(x,B(x))∈B: B(x) ⊆ B(x) ⟹ C(x) ⊆ C(x)
     See "thoughts-on-predicate-system-design.md" for design docs,
      how it works, an explanation of this definition, and additional use cases. 
     '''

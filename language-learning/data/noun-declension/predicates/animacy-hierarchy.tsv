@@ -39,7 +39,7 @@ be	living	can	live
 be	living	can	reproduce		
 					
 be	physical	can	exist		
-be	physical	bear	location		
+be	physical	has-trait	location		
 					
 be	concept	can	be-thought-of		
 be	concept	can	be-talked-about		
