@@ -1,30 +1,30 @@
-	swadesh number				
-# verbs					
-		be	all conjugations	11	
-	122	come/arrive	all conjugations	11	
-		work	3rd person singular	32	
-	121	walk	3rd person singular	18	
-	101	see	3rd person singular	10	# only if the language lacks passive and middle voice
-	104	think/talk	3rd person singular	4	# only for prepositional case
-		look	3rd person singular	3	# only for unreachable observables in initiative, apudessive, terminative
-		navigate	3rd person singular	1	# only for unreachable observables in initiative, apudessive, terminative
-	103	know	3rd person singular	1	# only if sample declensions feature emotion and the language lacks passive and middle voice
-	102	hear	3rd person singular	1	# only if sample declensions feature audible and the language lacks passive and middle voice
-		love	3rd person singular	1	# only if sample declensions feature time and the language lacks passive and middle voice
-		consider	3rd person singular	1	# only if sample declensions feature concepts and the language lacks passive and middle voice
-					
-#adjectives and nouns					
-		well	accusative	1	# only used for pronouns
-	185	good	accusative	2	
-	186	bad	accusative	2	
-	27	big	accusative	1	
-	28	long	accusative	1	
-		size	any case	1	
-		sound	any case	1	# only if sample declensions feature audibles
-		thought	any case	1	# only if sample declensions feature concepts
-		{concept}	nominative		# only for comparative, semblative, similative
-		{time}	nominative		# only for comparative, semblative, similative
-		{event}	nominative		# only for comparative, semblative, similative
-		{item}	nominative		# only for comparative, semblative, similative
-		{phenomenon}	nominative		# only for comparative, semblative, similative
-		{plant}	nominative		# only for comparative, semblative, similative
+	swadesh number					
+# verbs						
+		be	all conjugations		11	
+	122	come/arrive	all conjugations		11	
+		work	3rd person singular		32	
+	121	walk	3rd person singular		18	
+	101	see	3rd person singular		10	# only if the language lacks passive and middle voice
+	102	hear	3rd person singular		1	# only if sample declensions feature audible and the language lacks passive and middle voice
+	104	speak	3rd person singular		4	# only for prepositional case
+		direct/lead/guide	3rd person singular		1	# for observables, audibles, and concepts in dative and ablative
+		navigate/orient/righten	3rd person singular		1	# only for unreachable observables in initiative, apudessive, terminative
+		love/like/enjoy	3rd person singular		1	# only if sample declensions feature concepts and the language lacks passive and middle voice
+		hate/dislike	3rd person singular		1	# only if sample declensions feature concepts and the language lacks passive and middle voice
+						
+#adjectives and nouns						
+		well	accusative	singular	1	# only used for pronouns
+	185	good	accusative	singular	2	
+	186	bad	accusative	singular	2	
+	27	big	accusative	singular	1	
+	28	long	accusative	singular	1	
+		attention	accusative	singular	1	# for concepts, observables, and audibles in dative and ablative
+		size	any case	singular	1	
+		sound	any case	singular	1	# only if sample declensions feature audibles
+		thought	any case	singular	1	# only if sample declensions feature concepts
+		{concept}	nominative	singular		# only for comparative, semblative, similative
+		{time}	nominative	singular		# only for comparative, semblative, similative
+		{event}	nominative	singular		# only for comparative, semblative, similative
+		{item}	nominative	singular		# only for comparative, semblative, similative
+		{phenomenon}	nominative	singular		# only for comparative, semblative, similative
+		{plant}	nominative	singular		# only for comparative, semblative, similative

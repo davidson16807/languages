@@ -1,7 +1,7 @@
 																																																					
-be	human		terrestrial	# formal definition																																																	
-be	human		primate																																																		
-be	human		sapient																																																		
+be	human	be	terrestrial	# formal definition																																																	
+be	human	be	primate																																																		
+be	human	be	sapient																																																		
 																																																					
 be	human	can	eat-berries	# attributes as an animal																																																	
 be	human	can	eat-carrots																																																		

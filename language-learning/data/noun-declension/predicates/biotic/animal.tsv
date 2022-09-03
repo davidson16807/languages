@@ -258,11 +258,13 @@ be	fly	can	eat-carrion
 be	fly	can	eat-refuse					
 be	fly	be	pest					
 be	fly	be	insect					
+be	fly	can	buzz					
 be	mosquito	can	fly					
 be	mosquito	can	drink-blood					
 be	mosquito	be	parasite					
 be	mosquito	be	pest					
 be	mosquito	be	insect					
+be	mosquito	can	buzz					
 be	butterfly	can	fly					
 be	butterfly	be	colorful					
 be	butterfly	be	insect					
@@ -272,11 +274,13 @@ be	wasp	can	fly
 be	wasp	can	sting					
 be	wasp	be	colonial					
 be	wasp	be	insect					
+be	wasp	can	buzz					
 be	bee	can	fly					
 be	bee	can	sting					
 be	bee	be	colonial					
 be	bee	can	drink-nectar					
 be	bee	be	insect					
+be	bee	can	buzz					
 be	ant	can	crawl					
 be	ant	can	live-on-land					
 be	ant	be	colonial					
@@ -319,10 +323,16 @@ be	toad	can	live-on-land
 be	toad	has-part	legs					
 be	toad	can	jump					
 be	toad	be	amphibian					
+be	toad	can	sing					
+be	toad	can	croak					
+be	toad	can	ribbit					
 be	frog	can	affiliate-with-fresh-water					
 be	frog	has-part	legs					
 be	frog	can	jump					
 be	frog	be	amphibian					
+be	frog	can	sing					
+be	frog	can	croak					
+be	frog	can	ribbit					
 be	dart frog	be	poisonous					
 be	dart frog	be	frog					
 be	salamander	can	crawl					
@@ -376,7 +386,8 @@ be	snake	can	live-on-land
 be	snake	can	slither					
 be	snake	be	venomous					
 be	snake	can	eat-small-game-animal					
-								
+be	snake	can	hiss					
+be	snake	can	rattle					
 								
 be	ostrich	can	affiliate-with-savanna					
 be	ostrich	can	walk					
@@ -399,16 +410,22 @@ be	neoavian	be	bird
 be	bird-of-prey	can	eat-small-game-animal					
 be	bird-of-prey	can	fly					
 be	bird-of-prey	be	neoavian					
+be	bird-of-prey	be	screech					
 be	songbird	can	sing					
+be	songbird	can	chirp					
 be	songbird	be	neoavian					
+								
 								
 be	chicken	can	eat-seeds					
 be	chicken	be	edible					
 be	chicken	be	egg-producer					
 be	chicken	be	landfowl					
+be	chicken	can	cluck					
+be	chicken	can	crow					
 be	turkey	be	landfowl					
 be	turkey	be	edible					
 be	turkey	be	game-animal					
+be	turkey	be	gobble					
 be	quail	be	landfowl					
 be	quail	be	game-animal					
 be	goose	be	waterfowl					
@@ -418,11 +435,12 @@ be	goose	be	game-animal
 be	duck	be	waterfowl					
 be	duck	be	edible					
 be	duck	be	game-animal					
+be	duck	be	quack					
 be	swan	be	waterfowl					
 be	penguin	can	affiliate-with-polar-desert					
 be	penguin	can	swim					
-be	penguin	be	cold-tolerant					
-be	penguin	be	waterfowl	# I know it's not technically the case, it's just easier this way				
+be	penguin	be	cold-tolerant	# I know it's not technically the case, it's just easier this way				
+be	penguin	be	waterfowl					
 								
 be	pigeon	can	affiliate-with-city					
 be	pigeon	can	eat-refuse					
@@ -502,6 +520,7 @@ be	bat	can	eat-insects
 be	bat	can	eat-fruit					
 be	bat	can	drink-blood					
 be	bat	be	placental					
+be	bat	can	screech					
 be	armadillo	can	affiliate-with-grassland					
 be	armadillo	can	scurry					
 be	armadillo	has-part	shell					
@@ -515,6 +534,7 @@ be	rabbit	be	placental
 be	elephant	can	affiliate-with-savanna					
 be	elephant	can	eat-grass					
 be	elephant	be	placental					
+be	elephant	be	be-heard					
 be	dolphin	can	affiliate-with-salt-water					
 be	dolphin	can	swim					
 be	dolphin	can	eat-fish					
@@ -536,6 +556,7 @@ be	ungulate	be	placental
 be	primate	be	relatable	# not strictly anthropomorphizable, to be anthropomorphizable requires being nonhuman, and humans are primates				
 be	primate	can	live-on-land	# not strictly arboreal, humans are not arboreal				
 be	primate	be	placental					
+be	primate	can	scream					
 								
 be	mouse	be	rodent					
 be	rat	be	rodent					
@@ -569,17 +590,22 @@ be	bear	can	eat-humans
 be	bear	can	walk					
 be	bear	can	run					
 be	bear	be	carnivoran					
+be	bear	can	roar					
 be	canine	be	carnivoran					
 be	canine	be	predator					
 be	canine	can	walk					
 be	canine	can	run					
 be	canine	has-part	fur					
+be	canine	can	bark					
+be	canine	can	growl					
 be	cat	be	carnivoran					
 be	cat	be	predator					
 be	cat	can	walk					
 be	cat	can	run					
 be	cat	can	jump					
 be	cat	can	scratch					
+be	canine	can	growl					
+be	canine	can	hiss					
 be	cat	has-part	fur					
 								
 be	wolf	can	eat-big-game-animal					
@@ -595,26 +621,30 @@ be	dog	be	guard-animal
 be	dog	can	eat-small-game-animal					
 be	dog	be	canine					
 								
+be	wild-cat	be	cat					
+be	wild-cat	can	roar					
+								
 be	lion	can	eat-humans					
 be	lion	can	eat-big-game-animal					
-be	lion	be	cat					
+be	lion	be	wild-cat					
 be	tiger	can	eat-humans					
 be	tiger	can	eat-big-game-animal					
-be	tiger	be	cat					
-be	cheetah	be	cat					
+be	tiger	be	wild-cat					
+be	cheetah	be	wild-cat					
 be	cheetah	can	eat-big-game-animal					
-be	leopard	be	cat					
+be	leopard	be	wild-cat					
 be	leopard	can	eat-humans					
 be	leopard	can	eat-big-game-animal					
-be	puma	be	cat					
+be	puma	be	wild-cat					
 be	puma	can	eat-big-game-animal					
-be	lynx	be	cat					
+be	lynx	be	wild-cat					
 be	lynx	can	eat-small-game-animal					
-be	bobcat	be	cat					
+be	bobcat	be	wild-cat					
 be	bobcat	can	eat-small-game-animal					
 be	house-cat	be	pet					
 be	house-cat	can	eat-small-game-animal					
 be	house-cat	be	cat					
+be	house-cat	can	meow					
 								
 be	rhinoceros	can	affiliate-with-savanna					
 be	rhinoceros	has-part	horn					
@@ -660,8 +690,10 @@ be	bovine	can	eat-grass
 be	horse	can	run					
 be	horse	be	equine					
 be	horse	be	draft-animal					
+be	horse	can	neigh					
 be	donkey	be	equine					
 be	donkey	be	draft-animal					
+be	donkey	can	be-heard					
 be	mule	be	equine					
 be	mule	be	draft-animal					
 be	zebra	be	equine					
@@ -670,10 +702,12 @@ be	zebra	be	big-game-animal
 								
 be	pig	be	porcine					
 be	pig	be	meat-producer					
+be	pig	can	oink					
 be	boar	be	porcine					
 be	boar	be	big-game-animal					
 								
 be	cow	be	bovine					
+be	cow	can	moo					
 be	cow	be	dairy-producer					
 be	cow	be	meat-producer					
 								
@@ -744,22 +778,3 @@ be	chimp	be	anthropomorphizable
 be	chimp	be	primate					
 								
 				# see human.tsv for definition of humans				
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								

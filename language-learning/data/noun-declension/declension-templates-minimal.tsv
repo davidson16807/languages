@@ -1,94 +1,103 @@
-PIE case																							
-nominative					be		bad concept	bad															
-nominative					be		good concept	good															
-nominative					be		ethical emotion	good															
-nominative					be		suspect emotion	bad															
-nominative					be		has-size	big															
-nominative					be		has-length	long															
-nominative					come/arrive		time																
-nominative					come/arrive		event																
-accusative				man	consider		concept																
-accusative				man	know		emotion																
-accusative				man	know		sapient																
-accusative				man	love		time																
-accusative				man	love		pet																
-accusative				man	love		woman																
-accusative				man	see		can-be-seen																
-accusative				man	hear		can-be-heard																
-genitive				thought		of	concept																
-genitive				thought		of	emotion																
-genitive				size		of	has-size																
-genitive				sound		of	can-be-heard																
-ablative	from	the location of	origin	man	look	away from	can-be-seen																
-locative	at	the location of	location	man	look	at	can-be-seen																
-dative	to	the location of	destination	man	look	toward	can-be-seen																
-instrumental	using	the location of	location used	man	navigate	by way of	can-be-seen																
-ablative	from	the location of	origin	man	walk	away from	can-be-walked-to																
-locative	at	the location of	location	man	walk	at	can-be-walked-to																
-dative	to	the location of	destination	man	walk	to	can-be-walked-to																
-instrumental	using	the location of	location used	man	walk	via	can-be-walked-to																
-ablative	from	the vicinity of	starting vicinity	man	walk	from around	can-be-walked-by																
-locative	in	the vicinity of	vicinity	man	walk	by	can-be-walked-by																
-dative	to	the vicinity of	ending vicinity	man	walk	to around	can-be-walked-by																
-instrumental	using	the vicinity of	approximate location used	man	walk	via	can-be-walked-by																
-ablative	from	the interior of	exit	man	walk	out of	can-be-walked-in																
-locative	in	the interior of	interior	man	walk	in	can-be-walked-in																
-dative	to	the interior of	entrance	man	walk	into	can-be-walked-in																
-instrumental	using	the interior of	interior used	man	walk	through	can-be-walked-in																
-ablative	from	the surface of	starting surface	man	walk	off of	can-be-walked-on																
-locative	on	the surface of	surface	man	walk	on	can-be-walked-on																
-dative	to	the surface of	ending surface	man	walk	onto	can-be-walked-on																
-instrumental	using	the surface of	surface used	man	walk	over	can-be-walked-on																
-instrumental	from	the presence of	catalyst	man	work	due to the presence of	concrete & inanimate																
-instrumental	in	the presence of	presence	man	work	in the presence of	concrete & inanimate																
-dative	to	the presence of	product	man	work	to produce	concrete & inanimate																
-instrumental	using	the presence of	object used	man	work	by using the presence of	concrete & inanimate																
-instrumental	from	the presence of	catalyst	man	work	due to the presence of	animate																
-instrumental	in	the presence of	presence	man	work	in the presence of	animate																
-dative	to	the presence of	product	man	work	to draw in	animate																
-instrumental	using	the presence of	object used	man	work	by using the presence of	animate																
-instrumental	from	the aid of	enabler	man	work	thanks to the aid of	concrete & inanimate																
-instrumental	in	the aid of	assistance	man	work	with the aid of	concrete & inanimate																
-dative	to	the aid of	enabled	man	come/arrive	to aid the	concrete & inanimate																
-instrumental	using	the aid of	assistance used	man	work	by using the aid of 	concrete & inanimate																
-instrumental	from	the aid of	enabler	man	work	thanks to the aid of	animate																
-instrumental	in	the aid of	assistance	man	work	with the aid of	animate																
-dative	to	the aid of	enabled	man	come/arrive	to the aid of	animate																
-instrumental	using	the aid of	assistance used	man	work	by using the aid of 	animate																
-instrumental	from	the lack of	inhibitor	man	work	for want of	concrete																
-instrumental	in	the lack of	absence	man	work	in the absence of	concrete																
-dative	to	the lack of	aversion	man	work	to avoid	concrete																
-instrumental	using	the lack of	absence used	man	work	by taking advantage of the lack of	concrete																
-dative	from	the interest of	causal premise	man	work	out of the interest of	thing																
-dative	in	the interest of	interest	man	work	in the interest of	thing																
-dative	to	the interest of	causal goal	man	work	for the sake of	thing																
-instrumental	using	the interest of	interest used	man	work	by leveraging the interest of	thing																
-genitive	from	the ownership of	starting possession of	ownable	come/arrive	from the ownership of	owner																
-genitive	in	the ownership of	possession of	ownable	be	owned by	owner																
-genitive	to	the ownership of	ending possession of	ownable	come/arrive	into the ownership of	owner																
-dative	using	the ownership of	ownership used	ownable	work	due to being owned by	owner																
-ablative	from	the time of	starting time	man	work	following	time																
-instrumental	in	the time of	time	man	work	during	time																
-dative	to	the time of	ending time	man	work	until	time																
-instrumental	using	the time of	time used	man	work	by make use of	time																
-ablative	from	the time of	starting time	man	work	following	event																
-instrumental	in	the time of	time	man	work	during	event																
-dative	to	the time of	ending time	man	work	until	event																
-instrumental	using	the time of	time used	man	work	by make use of the time during	event																
-instrumental	from	the state of being	starting state	man	work	from having been	professional																
-instrumental	in	the state of being	state	man	work	as a	professional																
-instrumental	to	the state of being	ending state	man	work	in order to be	professional																
-instrumental	using	the state of being	state used	man	work	due to having been	professional																
-ablative	from	the topic of	topical premise	man	talk/think	of topics following from	thing																
-locative	of	the topic of	topic	man	talk/think	about	thing																
-dative	to	the topic of	topical goal	man	talk/think	towards the topic of	thing																
-instrumental	using	the topic of	topic used	man	talk/think	by using the example of	thing																
-locative	in	the company of		man	walk	in the company of	concrete | nonanimated																
-locative	in	the company of		man	walk	along with	animated																
-	in	the resemblance of	resemblance	concept	be	like	thing																
-	in	the resemblance of	resemblance	time	be	like	animate																
-	in	the resemblance of	resemblance	event	be	like	animate																
-	in	the resemblance of	resemblance	item	be	like	item																
-	in	the resemblance of	resemblance	phenomenon	be	like	animate																
-	in	the resemblance of	resemblance	plant	be	like	plant																
-	in	the resemblance of	resemblance	man	be	like	animate																
+# sytsematic case name	PIE case name	motion	attribute	subject	subject	verb	direct object	preposition	declined noun	declined noun																
+				function	argument				function	argument																
+nominative	nominative					be	bad		be	bad concept																
+nominative	nominative					be	good		be	good concept																
+nominative	nominative					be	good		be	ethical emotion																
+nominative	nominative					be	bad		be	suspect emotion																
+nominative	nominative					be	big		has-trait	size																
+nominative	nominative					be	long		has-trait	length																
+nominative	nominative					come/arrive			be	time																
+nominative	nominative					come/arrive			be	event																
+accusative	accusative			be	man	love			be	bad concept																
+accusative	accusative			be	man	hate			be	good concept																
+accusative	accusative			be	man	love			be	positive emotion																
+accusative	accusative			be	man	hate			be	negative emotion																
+accusative	accusative			be	man	love			be	time																
+accusative	accusative			be	man	love			be	pet																
+accusative	accusative			be	man	love			be	woman																
+accusative	accusative			be	man	see			can	be-seen																
+accusative	accusative			be	man	hear			can	be-heard																
+genitive	genitive			be	thought			of	be	concept																
+genitive	genitive			be	thought			of	be	emotion																
+genitive	genitive			be	size			of	has-trait	size																
+genitive	genitive			be	sound			of	can	be-heard																
+location used	instrumental	using	the location of	be	man	right oneself		by way of	can	be-seen																
+location used	instrumental	using	the location of	be	man	navigate		by way of	can	be-seen																
+origin	ablative	from	the location of	be	man	direct	his attention	at	can	be-seen																
+location	locative	in	the location of	be	man	direct	his attention	at	can	be-seen																
+destination	dative	to	the location of	be	man	direct	his attention	toward	can	be-seen																
+origin	ablative	from	the location of	be	man	direct	his attention	from	can	be-heard																
+location	locative	in	the location of	be	man	direct	his attention	at	can	be-heard																
+destination	dative	to	the location of	be	man	direct	his attention	toward	can	be-heard																
+origin	ablative	from	the location of	be	man	direct	his attention	from	be	concept																
+location	locative	in	the location of	be	man	direct	his attention	at	be	concept																
+destination	dative	to	the location of	be	man	direct	his attention	toward	be	concept																
+origin	ablative	from	the location of	be	man	walk		away from	can	be-walked-to																
+location	locative	in	the location of	be	man	walk		at	can	be-walked-to																
+destination	dative	to	the location of	be	man	walk		to	can	be-walked-to																
+location used	instrumental	using	the location of	be	man	walk		via	can	be-walked-to																
+starting vicinity	ablative	from	the vicinity of	be	man	walk		from around	can	be-walked-by																
+vicinity	locative	in	the vicinity of	be	man	walk		by	can	be-walked-by																
+ending vicinity	dative	to	the vicinity of	be	man	walk		to around	can	be-walked-by																
+approximate location used	instrumental	using	the vicinity of	be	man	walk		via	can	be-walked-by																
+exit	ablative	from	the interior of	be	man	walk		out of	can	be-walked-in																
+interior	locative	in	the interior of	be	man	walk		in	can	be-walked-in																
+entrance	dative	to	the interior of	be	man	walk		into	can	be-walked-in																
+interior used	instrumental	using	the interior of	be	man	walk		through	can	be-walked-in																
+starting surface	ablative	from	the surface of	be	man	walk		off of	can	be-walked-on																
+surface	locative	in	the surface of	be	man	walk		on	can	be-walked-on																
+ending surface	dative	to	the surface of	be	man	walk		onto	can	be-walked-on																
+surface used	instrumental	using	the surface of	be	man	walk		over	can	be-walked-on																
+catalyst	instrumental	from	the presence of	be	man	work		due to the presence of	be	concrete & inanimate																
+presence	instrumental	in	the presence of	be	man	work		in the presence of	be	concrete & inanimate																
+product	dative	to	the presence of	be	man	work		to produce	be	concrete & inanimate																
+object used	instrumental	using	the presence of	be	man	work		by using the presence of	be	concrete & inanimate																
+catalyst	instrumental	from	the presence of	be	man	work		due to the presence of	be	animate																
+presence	instrumental	in	the presence of	be	man	work		in the presence of	be	animate																
+product	dative	to	the presence of	be	man	work		to draw in	be	animate																
+object used	instrumental	using	the presence of	be	man	work		by using the presence of	be	animate																
+enabler	instrumental	from	the aid of	be	man	work		thanks to the aid of	be	concrete & inanimate																
+assistance	instrumental	in	the aid of	be	man	work		with the aid of	be	concrete & inanimate																
+enabled	dative	to	the aid of	be	man	come/arrive		to aid the	be	concrete & inanimate																
+assistance used	instrumental	using	the aid of	be	man	work		by using the aid of 	be	concrete & inanimate																
+enabler	instrumental	from	the aid of	be	man	work		thanks to the aid of	be	animate																
+assistance	instrumental	in	the aid of	be	man	work		with the aid of	be	animate																
+enabled	dative	to	the aid of	be	man	come/arrive		to the aid of	be	animate																
+assistance used	instrumental	using	the aid of	be	man	work		by using the aid of 	be	animate																
+inhibitor	instrumental	from	the lack of	be	man	work		for want of	be	concrete																
+absence	instrumental	in	the lack of	be	man	work		in the absence of	be	concrete																
+aversion	dative	to	the lack of	be	man	work		to avoid	be	concrete																
+absence used	instrumental	using	the lack of	be	man	work		by taking advantage of the lack of	be	concrete																
+causal premise	dative	from	the interest of	be	man	work		out of the interest of	be	thing																
+interest	dative	in	the interest of	be	man	work		in the interest of	be	thing																
+causal goal	dative	to	the interest of	be	man	work		for the sake of	be	thing																
+interest used	instrumental	using	the interest of	be	man	work		by leveraging the interest of	be	thing																
+starting possession of	genitive	from	the ownership of	be	ownable	come/arrive		from the ownership of	be	owner																
+possession of	genitive	in	the ownership of	be	ownable	be		owned by	be	owner																
+ending possession of	genitive	to	the ownership of	be	ownable	come/arrive		into the ownership of	be	owner																
+ownership used	dative	using	the ownership of	be	ownable	work		due to being owned by	be	owner																
+starting time	ablative	from	the time of	be	man	work		following	be	time																
+time	instrumental	in	the time of	be	man	work		during	be	time																
+ending time	dative	to	the time of	be	man	work		until	be	time																
+time used	instrumental	using	the time of	be	man	work		by make use of	be	time																
+starting time	ablative	from	the time of	be	man	work		following	be	event																
+time	instrumental	in	the time of	be	man	work		during	be	event																
+ending time	dative	to	the time of	be	man	work		until	be	event																
+time used	instrumental	using	the time of	be	man	work		by make use of the time during	be	event																
+starting state	instrumental	from	the state of being	be	man	work		from having been	be	professional																
+state	instrumental	in	the state of being	be	man	work		as a	be	professional																
+ending state	instrumental	to	the state of being	be	man	work		in order to be	be	professional																
+state used	instrumental	using	the state of being	be	man	work		due to having been	be	professional																
+topical premise	ablative	from	the topic of	be	man	direct	his attention	away from the topic of	be	thing																
+topic	locative	in	the topic of	be	man	talk		on the topic of	be	thing																
+topical goal	dative	to	the topic of	be	man	direct	his attention	to the topic of	be	thing																
+topic used	instrumental	using	the topic of	be	man	direct	his attention	by using the example of	be	thing																
+	locative	in	the company of	be	man	walk		in the company of	be	concrete | nonanimated																
+	locative	in	the company of	be	man	walk		along with	be	animated																
+resemblance		in	the resemblance of	be	concept	be		like	be	thing																
+resemblance		in	the resemblance of	be	time	be		like	be	animate																
+resemblance		in	the resemblance of	be	event	be		like	be	animate																
+resemblance		in	the resemblance of	be	item	be		like	be	item																
+resemblance		in	the resemblance of	be	phenomenon	be		like	be	animate																
+resemblance		in	the resemblance of	be	plant	be		like	be	plant																
+resemblance		in	the resemblance of	be	man	be		like	be	animate																

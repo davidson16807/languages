@@ -1,53 +1,94 @@
 			
-can	can-be-moved	can	move
-can	can-move-willingly	can	move
+can	be-moved	can	move
+can	move-willingly	can	move
 			
-can	can-be-walked-to	can	be-walked-by
-can	can-be-walked-to	can	be-run-to
-can	can-be-walked-to	can	move-willingly
+can	be-walked-to	can	be-walked-by
+can	be-walked-to	can	be-run-to
+can	be-walked-to	can	move-willingly
 			
-can	can-be-walked-in	can	be-walked-to
-can	can-be-walked-in	can	be-run-in
-can	can-be-walked-in	can	be-crawled-in
-can	can-be-walked-in	can	be-creeped-in
-can	can-be-walked-in	can	be-slithered-in
+can	be-walked-in	can	be-walked-to
+can	be-walked-in	can	be-run-in
+can	be-walked-in	can	be-crawled-in
+can	be-walked-in	can	be-creeped-in
+can	be-walked-in	can	be-slithered-in
 			
-can	can-be-walked-on	can	be-walked-to
-can	can-be-walked-on	can	be-run-on
-can	can-be-walked-on	can	be-crawled-on
-can	can-be-walked-on	can	be-creeped-on
-can	can-be-walked-on	can	be-slithered-on
+can	be-walked-on	can	be-walked-to
+can	be-walked-on	can	be-run-on
+can	be-walked-on	can	be-crawled-on
+can	be-walked-on	can	be-creeped-on
+can	be-walked-on	can	be-slithered-on
 			
-can	can-be-swam-in	can	be-swam-on
+can	be-swam-in	can	be-swam-on
 			
-can	can-live-in-water	can	be-swam-to
-can	can-live-in-water	can	be-floated-to
+can	live-in-water	can	be-swam-to
+can	live-in-water	can	be-floated-to
 			
-can	can-affiliate-with-land	can	be-crawled-to
-can	can-affiliate-with-land	can	be-creeped-to
-can	can-affiliate-with-land	can	be-walked-to
-can	can-affiliate-with-land	can	be-run-to
-can	can-affiliate-with-land	can	be-jumped-to
+can	affiliate-with-land	can	be-crawled-to
+can	affiliate-with-land	can	be-creeped-to
+can	affiliate-with-land	can	be-walked-to
+can	affiliate-with-land	can	be-run-to
+can	affiliate-with-land	can	be-jumped-to
 			
-can	can-affiliate-with-air	can	be-flown-to
+can	affiliate-with-air	can	be-flown-to
 			
-can	can-live-in-water	can	affiliate-with-water
-can	can-live-on-land	can	affiliate-with-land
+can	live-in-water	can	affiliate-with-water
+can	live-on-land	can	affiliate-with-land
 			
-can	can-affiliate-with-salt-water	can	affiliate-with-water
-can	can-affiliate-with-fresh-water	can	affiliate-with-water
+can	affiliate-with-salt-water	can	affiliate-with-water
+can	affiliate-with-fresh-water	can	affiliate-with-water
 			
-can	can-live-on-land	can	be-walked-to
+can	live-on-land	can	be-walked-to
 			
-can	can-affiliate-with-desert	can	live-on-land
-can	can-affiliate-with-jungle	can	live-on-land
-can	can-affiliate-with-forest	can	live-on-land
-can	can-affiliate-with-forest	can	live-on-land
-can	can-affiliate-with-polar-desert	can	live-on-land
-can	can-affiliate-with-savanna	can	live-on-land
-can	can-affiliate-with-grassland	can	live-on-land
-can	can-affiliate-with-tundra	can	live-on-land
+can	affiliate-with-desert	can	live-on-land
+can	affiliate-with-jungle	can	live-on-land
+can	affiliate-with-forest	can	live-on-land
+can	affiliate-with-forest	can	live-on-land
+can	affiliate-with-polar-desert	can	live-on-land
+can	affiliate-with-savanna	can	live-on-land
+can	affiliate-with-grassland	can	live-on-land
+can	affiliate-with-tundra	can	live-on-land
 			
-can	can-be-seen	attribute	size
-can	can-be-seen	attribute	color
-can	can-be-carried	attribute	mass
+can	be-seen	has-trait	size
+can	be-seen	has-trait	color
+			
+can	be-carried	has-trait	mass
+			
+can	be-heard	has-trait	sound
+			
+can	buzz	can	be-heard
+can	croak	can	be-heard
+can	ribbit	can	be-heard
+can	hiss	can	be-heard
+can	rattle	can	be-heard
+can	cluck	can	be-heard
+can	crow	can	be-heard
+can	quack	can	be-heard
+can	gobble	can	be-heard
+can	chirp	can	be-heard
+can	screech	can	be-heard
+can	roar	can	be-heard
+can	bark	can	be-heard
+can	growl	can	be-heard
+can	meow	can	be-heard
+can	oink	can	be-heard
+can	moo	can	be-heard
+can	neigh	can	be-heard
+can	sing	can	be-heard
+can	scream	can	be-heard
+can	speak	can	be-heard
+			
+can	eat-grass	can	eat
+can	eat-seeds	can	eat
+can	eat-carrots	can	eat
+can	eat-berries	can	eat
+			
+can	eat-refuse	can	eat
+can	eat-carrion	can	eat
+can	eat-detritus	can	eat
+			
+can	eat-meat	can	eat
+can	eat-insects	can	eat
+can	eat-fish	can	eat
+can	eat-snakes	can	eat
+can	eat-small-game-animal	can	eat
+can	eat-big-game-animal	can	eat

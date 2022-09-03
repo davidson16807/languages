@@ -39,7 +39,9 @@ be	living	can	live
 be	living	can	reproduce		
 					
 be	physical	can	exist		
+be	physical	can	be-seen		
 be	physical	has-trait	location		
+be	physical	has-trait	size		
 					
 be	concept	can	be-thought-of		
 be	concept	can	be-talked-about		
@@ -105,9 +107,15 @@ be	sessile	be	static
 				#movable/immovable	
 be	movable	be	static		
 be	movable	can	be-moved		
+be	movable	has-trait	size		
 be	immovable	be	static		
 					
 can	can-move	be	mobile		
 can	can-be-moved	be	mobile		
 be	immobile	be	physical		
+					
+		can	move		
+					
+					
+					
 					
