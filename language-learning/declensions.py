@@ -1,8 +1,14 @@
-import parsing
-import collections
-from predicates import Predicate, Bipredicate
 
-tsv_parsing = parsing.SeparatedValuesFileParsing()
+import collections
+
+from parsing import SeparatedValuesFileParsing
+from annotation import RowAnnotation
+from predicates import Predicate, Bipredicate
+from lookup import DefaultDictLookup
+from indexing import DictTupleIndexing, DictKeyIndexing
+from population import ListLookupPopulation
+
+tsv_parsing = SeparatedValuesFileParsing()
 rows = [
   *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal-anatomy.tsv'),
   *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal.tsv'),
@@ -13,9 +19,8 @@ rows = [
   *tsv_parsing.rows('data/noun-declension/predicates/biotic/plant-anatomy.tsv'),
   *tsv_parsing.rows('data/noun-declension/predicates/biotic/plant.tsv'),
   *tsv_parsing.rows('data/noun-declension/predicates/biotic/sapient.tsv'),
-  # *tsv_parsing.rows('data/noun-declension/predicates/animacy-hierarchy.tsv'),
+  *tsv_parsing.rows('data/noun-declension/predicates/animacy-hierarchy.tsv'),
   *tsv_parsing.rows('data/noun-declension/predicates/capability.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/property.tsv'),
 ]
 
 level0_subset_relations = set()
@@ -42,3 +47,35 @@ allthat['be','mouse'] in allthat['has-part','heart']
 allthat['be','mouse'] in allthat['has-part','gill']
 allthat['be','mouse'] in allthat['has-part','organ']
 
+allthat['be','man'] in allthat['can','be-seen']
+allthat['be','man'] in allthat['has-trait','size']
+allthat['be','man'] in allthat['has-part','skin']
+
+allthat['be','man']   in allthat['be','human']
+allthat['be','human'] in allthat['be','primate']
+allthat['be','human'] in allthat['be','primate']
+
+header_columns = [
+    'case', 'PIE-case-name', 'motion', 'attribute', 
+    'subject-function','subject-argument', 
+    'verb', 'direct-object', 'preposition', 
+    'declined-noun-function', 'declined-noun-argument']
+rows = tsv_parsing.rows('data/noun-declension/declension-templates-minimal.tsv')
+annotation = RowAnnotation(header_columns)
+population = ListLookupPopulation(
+    DefaultDictLookup('declension-template',
+        DictKeyIndexing('case'), list))
+templates = \
+    population.index(
+        annotation.annotate(
+            tsv_parsing.rows(
+                'data/noun-declension/declension-templates-minimal.tsv')))
+
+relevant = sorted([template for template in templates['origin']], 
+                  key=lambda template: len(allthat[template['declined-noun-function'],template['declined-noun-argument']]))
+
+for template in relevant:
+    f = template['declined-noun-function']
+    x = template['declined-noun-argument']
+    if allthat['be','horse'] in allthat[f,x]:
+        print(f,x, len(allthat[f,x]), template)

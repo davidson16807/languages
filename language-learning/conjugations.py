@@ -357,16 +357,16 @@ class Translation:
             return sentence
 
 tsv_parsing = SeparatedValuesFileParsing()
-conjugation_annotation  = TableAnnotation(
+conjugation_annotation  = CellAnnotation(
     grammeme_to_category, {}, {0:'lemma'}, 
     {**category_to_grammemes, 'lookup':'finite'})
-pronoun_annotation  = TableAnnotation(
+pronoun_annotation  = CellAnnotation(
     grammeme_to_category, {}, {}, 
     {**category_to_grammemes, 'proform':'personal'})
-predicate_annotation = TableAnnotation(
+predicate_annotation = CellAnnotation(
     grammeme_to_category, {0:'column'}, {}, 
     {**category_to_grammemes, 'lookup':'finite'})
-mood_annotation        = TableAnnotation(
+mood_annotation        = CellAnnotation(
     {}, {0:'column'}, {0:'mood'}, {})
 
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups)

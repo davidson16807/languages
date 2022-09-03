@@ -11,10 +11,10 @@ class FlatLookupPopulation:
     def __init__(self, template_lookup):
         self.template_lookup = template_lookup
     def index(self, annotations):
-        lookups = copy.deepcopy(self.template_lookup)
+        lookup = copy.deepcopy(self.template_lookup)
         for annotation,cell in annotations:
-            lookups[annotation] = cell
-        return lookups
+            lookup[annotation] = cell
+        return lookup
 
 class NestedLookupPopulation:
     '''
@@ -36,3 +36,19 @@ class NestedLookupPopulation:
             lookup = lookups[annotation]
             lookup[annotation] = cell
         return lookups
+
+class ListLookupPopulation:
+    '''
+    `FlatLookupIndexing` converts a list of (annotation,cell) tuples
+    (such as those output by `TableAnnotation`)
+    to a representation where cells are stored in a lookup.
+    The cells are indexed by their annotations according to the indexing behavior 
+    within a given `template_lookup`.
+    '''
+    def __init__(self, template_lookup):
+        self.template_lookup = template_lookup
+    def index(self, annotations):
+        lookup = copy.deepcopy(self.template_lookup)
+        for annotation,cell in annotations:
+            lookup[annotation].append(cell)
+        return lookup

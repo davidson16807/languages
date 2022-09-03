@@ -1,7 +1,17 @@
 
-class TableAnnotation:
+class RowAnnotation:
+    def __init__(self, header_column_names):
+        self.header_column_names = header_column_names
+    def annotate(self, rows):
+        annotations = []
+        for row in rows:
+            dict_row = dict(zip(self.header_column_names, row))
+            annotations.append((dict_row, dict_row))
+        return annotations
+
+class CellAnnotation:
     '''
-    `TableAnnotation` instances represent a system for storing tabular data 
+    `CellAnnotation` instances represent a system for storing tabular data 
     that comes up naturally in things like conjugation or declension tables.
 
     A table has a given number of header rows and header columns.
@@ -19,7 +29,7 @@ class TableAnnotation:
      all contents of the row or column associated with that header cell 
      will be marked as having the color 'green'.
 
-    `TableAnnotation` converts tables that are written in this manner between 
+    `CellAnnotation` converts tables that are written in this manner between 
     two reprepresentations: 
     The first representation is a list of rows, where rows are lists of cell contents.
     The second representation is a list where each element is a tuple,

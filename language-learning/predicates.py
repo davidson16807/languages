@@ -20,6 +20,13 @@ class Predicate:
         return (predicand in self.set_of_subsets or
                 any([predicand in subset 
                      for subset in self.set_of_subsets]))
+    def __len__(self):
+        evaluated_set = set()
+        for subset in self.set_of_subsets:
+            evaluated_set.add(subset)
+            for content in subset:
+                evaluated_set.add(content)
+        return len(evaluated_set)
     def __iter__(self):
         evaluated_set = set()
         for subset in self.set_of_subsets:
