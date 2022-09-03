@@ -1,0 +1,62 @@
+				nominative	nominative	accusative	accusative	instrumental	instrumental	dative	dative	ablative	ablative	genitive	genitive	locative	locative	
+proform	person		number	transcribed	translated	transcribed	translated	transcribed	translated	transcribed	translated	transcribed	translated	transcribed	translated	transcribed	translated	
+personal	1		singular	अहम्	aham	माम्	mām	मया	mayā	मह्यम्	mahyam	मत्	mat	मम	mama	मयि	mayi	
+personal	1		dual	आवाम्	āvām	आवाम्	āvām	आवाभ्याम्	āvābhyām	आवाभ्याम्	āvābhyām	आवाभ्याम्	āvābhyām	आवयोः	āvayoḥ	आवयोः	āvayoḥ	
+personal	1		plural	वयम्	vayam	अस्मान्	asmān	अस्माभिः	asmābhiḥ	अस्मभ्यम्	asmabhyam	अस्मत्	asmat	अस्माकम्	asmākam	अस्मासु	asmāsu	
+personal	2		singular	त्वम्	tvam	त्वाम्	tvām	त्वया	tvayā	तुभ्यम्	tubhyam	त्वत्	tvat	तव	tava	त्वयि	tvayi	
+personal	2		dual	युवाम्	yuvām	युवाम्	yuvām	युवाभ्याम्	yuvābhyām	युवाभ्याम्	yuvābhyām	युवाभ्याम्	yuvābhyām	युवयोः	yuvayoḥ	युवयोः	yuvayoḥ	
+personal	2		plural	यूयम्	yūyam	युष्मान्	yuṣmān	युष्माभिः	yuṣmābhiḥ	युष्मभ्यम्	yuṣmabhyam	युष्मत्	yuṣmat	युष्माकम्	yuṣmākam	युष्मासु	yuṣmāsu	
+determiner	absent	masculine	singular	सः	saḥ	तम्	tam	तेन	tena	तस्मै	tasmai	तस्मात्	tasmāt	तस्य	tasya	तस्मिन्	tasmin	
+determiner	absent	masculine	dual	तौ	tau	तौ	tau	ताभ्याम्	tābhyām	ताभ्याम्	tābhyām	ताभ्याम्	tābhyām	तयोः	tayoḥ	तयोः	tayoḥ	
+determiner	absent	masculine	plural	ते	te	तान्	tān	तैः	taiḥ	तेभ्यः	tebhyaḥ	तेभ्यः	tebhyaḥ	तेषाम्	teṣām	तेषु	teṣu	
+determiner	absent	feminine	singular	सा	sā	ताम्	tām	तया	tayā	तस्यै	tasyai	तस्याः	tasyāḥ	तस्याः	tasyāḥ	तस्याम्	tasyām	
+determiner	absent	feminine	dual	ते	te	ते	te	ताभ्याम्	tābhyām	ताभ्याम्	tābhyām	ताभ्याम्	tābhyām	तयोः	tayoḥ	तयोः	tayoḥ	
+determiner	absent	feminine	plural	ताः	tāḥ	ताः	tāḥ	ताभिः	tābhiḥ	ताभ्यः	tābhyaḥ	ताभ्यः	tābhyaḥ	तासाम्	tāsām	तासु	tāsu	
+determiner	absent	neuter	singular	तत्	tat	तत्	tat											
+determiner	absent	neuter	dual	ते	te	ते	te											
+determiner	absent	neuter	plural	तानि	tāni	तानि	tāni											
+determiner	proximal	masculine	singular		eṣaḥ		etam		etena		etasmai		etasmāt		etasya		tasmin	
+determiner	proximal	masculine	dual		etau		etau		etābhyām		etābhyām		etābhyām		etayoḥ		tayoḥ	
+determiner	proximal	masculine	plural		ete		etān		etaiḥ		etebhyaḥ		etebhyaḥ		eteṣām		teṣu	
+determiner	proximal	feminine	singular		eṣā		etām		etayā		etasyai		etasyāḥ		etasyāḥ		tasyām	
+determiner	proximal	feminine	dual		ete		ete		etābhyām		etābhyām		etābhyām		etayoḥ		tayoḥ	
+determiner	proximal	feminine	plural		etāḥ		etāḥ		etābhiḥ		etābhyaḥ		etābhyaḥ		etāsām		tāsu	
+determiner	proximal	neuter	singular		etat		etat											
+determiner	proximal	neuter	dual		ete		ete											
+determiner	proximal	neuter	plural		etāni		etāni											
+determiner	medial	masculine	singular	अयम्	ayam	इमम्	imam	अनेन	anena	अस्मै	asmai	अस्मात्	asmāt	अस्य	asya	अस्मिन्	asmin	
+determiner	medial	masculine	dual	इमौ	imau	इमौ	imau	आभ्याम्	ābhyām	आभ्याम्	ābhyām	आभ्याम्	ābhyām	अनयोः	anayoḥ	अनयोः	anayoḥ	
+determiner	medial	masculine	plural	इमे	ime	इमान्	imān	एभिः	ebhiḥ	एभ्यः	ebhyaḥ	एभ्यः	ebhyaḥ	एषाम्	eṣām	एषु	eṣu	
+determiner	medial	feminine	singular	इयम्	iyam	इमाम्	imām	अनया	anayā	अस्यै	asyai	अस्याः	asyāḥ	अस्याः	asyāḥ	अस्याम्	asyām	
+determiner	medial	feminine	dual	इमे	ime	इमे	ime	आभ्याम्	ābhyām	आभ्याम्	ābhyām	आभ्याम्	ābhyām	अनयोः	anayoḥ	अनयोः	anayoḥ	
+determiner	medial	feminine	plural	इमाः	imāḥ	इमाः	imāḥ	आभिः	ābhiḥ	आभ्यः	ābhyaḥ	आभ्यः	ābhyaḥ	आसाम्	āsām	आसु	āsu	
+determiner	medial	neuter	singular	इदम्	idam	इदम्	idam											
+determiner	medial	neuter	dual	इमे	ime	इमे	ime											
+determiner	medial	neuter	plural	इमानि	imāni	इमानि	imāni											
+determiner	distal	masculine	singular	असौ	asau	अमुम्	amum	अमुना	amunā	अमुष्मै	amuṣmai	अमुष्मात्	amuṣmāt	अमुष्य	amuṣya	अमुष्मिन्	amuṣmin	
+determiner	distal	masculine	dual	अमू	amū	अमू	amū	अमूभ्याम्	amūbhyām	अमूभ्याम्	amūbhyām	अमूभ्याम्	amūbhyām	अमुयोः	amuyoḥ	अमुयोः	amuyoḥ	
+determiner	distal	masculine	plural	अमी	amī	अमून्	amūn	अमीभिः	amībhiḥ	अमीभ्यः	amībhyaḥ	अमीभ्यः	amībhyaḥ	अमीषाम्	amīṣām	अमीषु	amīṣu	
+determiner	distal	feminine	singular	असौ	asau	अमूम्	amūm	अमुया	amuyā	अमुष्यै	amuṣyai	अमुष्याः	amuṣyāḥ	अमुष्याः	amuṣyāḥ	अमुष्याम्	amuṣyām	
+determiner	distal	feminine	dual	अमू	amū	अमू	amū	अमूभ्याम्	amūbhyām	अमूभ्याम्	amūbhyām	अमूभ्याम्	amūbhyām	अमुयोः	amuyoḥ	अमुयोः	amuyoḥ	
+determiner	distal	feminine	plural	अमूः	amūḥ	अमूः	amūḥ	अमूभिः	amūbhiḥ	अमूभ्यः	amūbhyaḥ	अमूभ्यः	amūbhyaḥ	अमूषाम्	amūṣām	अमूषु	amūṣu	
+determiner	distal	neuter	singular	अदः	adaḥ	अदः	adaḥ											
+determiner	distal	neuter	dual	अमू	amū	अमू	amū											
+determiner	distal	neuter	plural	अमूनि	amūni	अमूनि	amūni											
+interrogative		masculine	singular		kaḥ		kam		kena		kasmai		kasmāt		kasya		kasmin	
+interrogative		masculine	dual		kau		kau		kābhyām		kābhyām		kābhyām		kayoḥ		kayoḥ	
+interrogative		masculine	plural		ke		kān		kaiḥ		kebhyaḥ		kebhyaḥ		keṣām		keṣu	
+interrogative		feminine	singular		kā		kām		kayā		kasyai		kasyāḥ		kasyāḥ		kasyām	
+interrogative		feminine	dual		ke		ke		kābhyām		kābhyām		kābhyām		kayoḥ		kayoḥ	
+interrogative		feminine	plural		kāḥ		kāḥ		kābhiḥ		kābhyaḥ		kābhyaḥ		kāsām		kāsu	
+interrogative		neuter	singular		kim		kim											
+interrogative		neuter	dual		ke		ke											
+interrogative		neuter	plural		kāni		kāni											
+interrogative		masculine	singular		yaḥ		yam		yena		yasmai		yasmāt		yasya		yasmin	
+interrogative		masculine	dual		yau		yau		yābhyām		yābhyām		yābhyām		yayoḥ		yayoḥ	
+interrogative		masculine	plural		ye		yān		yaiḥ		yebhyaḥ		yebhyaḥ		yeṣām		yeṣu	
+interrogative		feminine	singular		yā		yām		yayā		yasyai		yasyāḥ		yasyāḥ		yasyām	
+interrogative		feminine	dual		ye		ye		yābhyām		yābhyām		yābhyām		yayoḥ		yayoḥ	
+interrogative		feminine	plural		yāḥ		yāḥ		yābhiḥ		yābhyaḥ		yābhyaḥ		yāsām		yāsu	
+interrogative		neuter	singular		yat		yat											
+interrogative		neuter	dual		ye		ye											
+interrogative		neuter	plural		yāni		yāni											

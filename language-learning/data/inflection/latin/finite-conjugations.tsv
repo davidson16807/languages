@@ -121,10 +121,32 @@ hear	passive	3	singular	audītur	audiēbātur	audiētur	audītus est	audītus er
 hear	passive	1	plural	audīmur	audiēbāmur	audiēmur	audītī sumus	audītī erāmus	audītī erimus	audiāmur	audīrēmur	audītī sīmus	audītī essēmus			4th conjugation									
 hear	passive	2	plural	audīminī	audiēbāminī	audiēminī	audītī estis	audītī erātis	audītī eritis	audiāminī	audīrēminī	audītī sītis	audītī essētis	audīminī		4th conjugation									
 hear	passive	3	plural	audiuntur	audiēbantur	audientur	audītī sunt	audītī erant	audītī erunt	audiantur	audīrentur	audītī sint	audītī essent 		audiuntor	4th conjugation									
+arrive	active	1	singular	adveniō	adveniēbam	adveniam	advēnī	advēneram	advēnerō	adveniam	advenīrem	advēnerim	advēnissem			needed to demonstrate declensions									
+arrive	active	2	singular	advenīs	adveniēbās	adveniēs	advēnistī	advēnerās	advēneris	adveniās	advenīrēs	advēnerīs	advēnissēs	advenī	advenītō	needed to demonstrate declensions									
+arrive	active	3	singular	advenit	adveniēbat	adveniet	advēnit	advēnerat	advēnerit	adveniat	advenīret	advēnerit	advēnisset		advenītō	needed to demonstrate declensions									
+arrive	active	1	plural	advenīmus	adveniēbāmus	adveniēmus	advēnimus	advēnerāmus	advēnerimus	adveniāmus	advenīrēmus	advēnerīmus	advēnissēmus			needed to demonstrate declensions									
+arrive	active	2	plural	advenītis	adveniēbātis	adveniētis	advēnistis	advēnerātis	advēneritis	adveniātis	advenīrētis	advēnerītis	advēnissētis	advenīte	advenītōte	needed to demonstrate declensions									
+arrive	active	3	plural	adveniunt	adveniēbant	advenient	advēnērunt	advēnerant	advēnerint	adveniant	advenīrent	advēnerint	advēnissent		adveniuntō	needed to demonstrate declensions									
+arrive	passive	1	singular													needed to demonstrate declensions									
+arrive	passive	2	singular													needed to demonstrate declensions									
+arrive	passive	3	singular	advenītur	adveniēbātur	adveniētur	adventum est	adventum erat	adventum erit	adveniātur	advenīrētur	adventum sit	adventum esset,			needed to demonstrate declensions									
+arrive	passive	1	plural													needed to demonstrate declensions									
+arrive	passive	2	plural													needed to demonstrate declensions									
+arrive	passive	3	plural													needed to demonstrate declensions									
+																									
+			mood->	indicative	indicative	indicative	indicative	indicative	indicative	subjunctive	subjunctive	subjunctive	subjunctive	imperative	imperative										
+			tense->	present	past	future	present	past	future	present	past	present	past	present	future										
+verb	voice	person	aspect->	aorist	imperfect	aorist	perfect	perfect	perfect	aorist	imperfect	perfect	perfect	aorist	aorist	group									
 																									
 																									
-																									
-																									
-																									
+				present	imperfect	perfect	pluperfect			present	imperfect	perfect	pluperfect	adventum foret											
+				adveniam	advenīrem	advēnerim	advēnissem																		
+				adveniās	advenīrēs	advēnerīs	advēnissēs																		
+				adveniat	advenīret	advēnerit	advēnisset																		
+				adveniāmus	advenīrēmus	advēnerīmus	advēnissēmus	—	—																
+				adveniātis	advenīrētis	advēnerītis	advēnissētis	—	—																
+				adveniant	advenīrent	advēnerint	advēnissent	—	—																
+							advēnistis																		
+							advēnērunt																		
 																									
 																									
