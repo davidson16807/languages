@@ -71,11 +71,19 @@ templates = \
             tsv_parsing.rows(
                 'data/noun-declension/declension-templates-minimal.tsv')))
 
-relevant = sorted([template for template in templates['origin']], 
-                  key=lambda template: len(allthat[template['declined-noun-function'],template['declined-noun-argument']]))
+class DeclensionTemplateMatching:
+    def __init__(self, templates, predicates):
+        self.templates = templates
+        self.predicates = predicates
+    def match(self, noun, case):
+        def subject(template):
+            return self.predicates[template['subject-function'], template['subject-argument']]
+        def declined_noun(template):
+            return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
+        return sorted([template
+            for template in self.templates[case]
+            if self.predicates['be',noun] in declined_noun(template)],
+                      key=lambda template: len(declined_noun(template)))
 
-for template in relevant:
-    f = template['declined-noun-function']
-    x = template['declined-noun-argument']
-    if allthat['be','horse'] in allthat[f,x]:
-        print(f,x, len(allthat[f,x]), template)
+matching = DeclensionTemplateMatching(templates, allthat)
+print(matching.match('horse','origin')[0])
