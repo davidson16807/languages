@@ -1,0 +1,63 @@
+motion	attribute	russian case name
+subject		nominative
+addressed		nominative
+direct object		accusative
+associated		genitive
+departed	location	genitive
+associated	location	prepositional
+acquired	location	dative
+leveraged	location	instrumental
+departed	extent	genitive
+associated	extent	prepositional
+acquired	extent	dative
+leveraged	extent	instrumental
+departed	vicinity	genitive
+associated	vicinity	genitive
+acquired	vicinity	accusative
+leveraged	vicinity	instrumental
+departed	interior	genitive
+associated	interior	prepositional
+acquired	interior	accusative
+leveraged	interior	accusative
+departed	surface	genitive
+associated	surface	dative
+acquired	surface	accusative
+leveraged	surface	accusative
+departed	presence	instrumental
+associated	presence	instrumental
+acquired	presence	dative
+leveraged	presence	instrumental
+departed	aid	accusative
+associated	aid	instrumental
+acquired	aid	dative
+leveraged	aid	instrumental
+departed	aid	instrumental
+associated	aid	instrumental
+acquired	aid	dative
+leveraged	aid	instrumental
+departed	lack	instrumental
+associated	lack	instrumental
+acquired	lack	dative
+leveraged	lack	instrumental
+departed	interest	dative
+associated	interest	dative
+acquired	interest	dative
+leveraged	interest	instrumental
+departed	ownership	genitive
+associated	ownership	genitive
+acquired	ownership	genitive
+leveraged	ownership	dative
+departed	time	ablative
+associated	time	instrumental
+acquired	time	dative
+leveraged	time	instrumental
+departed	state of being	instrumental
+associated	state of being	instrumental
+acquired	state of being	instrumental
+leveraged	state of being	instrumental
+departed	topic	ablative
+associated	topic	prepositional
+acquired	topic	dative
+leveraged	topic	instrumental
+associated	company	instrumental
+associated	resemblance	prepositional

@@ -1,0 +1,63 @@
+motion	attribute	latin case name
+subject		nominative
+addressed		vocative
+direct object		accusative
+associated		genitive
+departed	location	ablative
+associated	location	ablative
+acquired	location	ablative
+leveraged	location	dative
+departed	extent	ablative
+associated	extent	ablative
+acquired	extent	ablative
+leveraged	extent	dative
+departed	vicinity	ablative
+associated	vicinity	ablative
+acquired	vicinity	ablative
+leveraged	vicinity	dative
+departed	interior	ablative
+associated	interior	ablative
+acquired	interior	ablative
+leveraged	interior	dative
+departed	surface	ablative
+associated	surface	ablative
+acquired	surface	ablative
+leveraged	surface	dative
+departed	presence	ablative
+associated	presence	ablative
+acquired	presence	ablative
+leveraged	presence	dative
+departed	aid	ablative
+associated	aid	ablative
+acquired	aid	ablative
+leveraged	aid	dative
+departed	aid	ablative
+associated	aid	ablative
+acquired	aid	ablative
+leveraged	aid	dative
+departed	lack	ablative
+associated	lack	dative
+acquired	lack	dative
+leveraged	lack	dative
+departed	interest	ablative
+associated	interest	genitive
+acquired	interest	genitive
+leveraged	interest	genitive
+departed	ownership	dative
+associated	ownership	ablative
+acquired	ownership	ablative
+leveraged	ownership	dative
+departed	time	ablative
+associated	time	ablative
+acquired	time	ablative
+leveraged	time	ablative
+departed	state of being	ablative
+associated	state of being	ablative
+acquired	state of being	ablative
+leveraged	state of being	dative
+departed	topic	ablative
+associated	topic	ablative
+acquired	topic	ablative
+leveraged	topic	ablative
+associated	company	
+associated	resemblance	

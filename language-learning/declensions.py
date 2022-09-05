@@ -56,15 +56,15 @@ allthat['be','human'] in allthat['be','primate']
 allthat['be','human'] in allthat['be','primate']
 
 header_columns = [
-    'case', 'PIE-case-name', 'motion', 'attribute', 
-    'subject-function','subject-argument', 
-    'verb', 'direct-object', 'preposition', 
+    'motion', 'attribute', 
+    'subject-function', 'subject-argument', 
+    'verb', 'direct object', 'preposition', 
     'declined-noun-function', 'declined-noun-argument']
 rows = tsv_parsing.rows('data/noun-declension/declension-templates-minimal.tsv')
 annotation = RowAnnotation(header_columns)
 population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
-        DictKeyIndexing('case'), list))
+        DictTupleIndexing(['motion','attribute']), list))
 templates = \
     population.index(
         annotation.annotate(
@@ -75,15 +75,15 @@ class DeclensionTemplateMatching:
     def __init__(self, templates, predicates):
         self.templates = templates
         self.predicates = predicates
-    def match(self, noun, case):
+    def match(self, noun, motion, attribute):
         def subject(template):
             return self.predicates[template['subject-function'], template['subject-argument']]
         def declined_noun(template):
             return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
         return sorted([template
-            for template in self.templates[case]
-            if self.predicates['be',noun] in declined_noun(template)],
+            for template in self.templates[motion, attribute]
+            if self.predicates['be', noun] in declined_noun(template)],
                       key=lambda template: len(declined_noun(template)))
 
 matching = DeclensionTemplateMatching(templates, allthat)
-print(matching.match('horse','origin')[0])
+print(matching.match('horse','departed','location')[0])

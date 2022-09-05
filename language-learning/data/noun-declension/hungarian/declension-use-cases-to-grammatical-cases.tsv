@@ -1,0 +1,63 @@
+motion	attribute	hungarian case name	
+subject		nominative	
+addressed			
+direct object		accusative	
+associated		genitive	
+departed	location	ablative	
+associated	location	adessive	
+acquired	location	allative	
+leveraged	location		
+departed	extent		
+associated	extent		
+acquired	extent	terminative	
+leveraged	extent		
+departed	vicinity		
+associated	vicinity	adessive	
+acquired	vicinity		
+leveraged	vicinity		
+departed	interior	elative	
+associated	interior	inessive	
+acquired	interior	illative	
+leveraged	interior		
+departed	surface	delative	
+associated	surface	superessive	
+acquired	surface	sublative	
+leveraged	surface		
+departed	presence		
+associated	presence	sociative	
+acquired	presence		
+leveraged	presence	instrumental-comitative	
+departed	aid		
+associated	aid		
+acquired	aid		
+leveraged	aid	instrumental-comitative	
+departed	aid		
+associated	aid		
+acquired	aid		
+leveraged	aid		
+departed	lack		
+associated	lack		
+acquired	lack		
+leveraged	lack		
+departed	interest		
+associated	interest	essive-modal	
+acquired	interest	essive-modal	
+leveraged	interest		
+departed	ownership	genitive	
+associated	ownership	genitive	
+acquired	ownership	genitive	
+leveraged	ownership		
+departed	time		
+associated	time	temporal	
+acquired	time		
+leveraged	time		
+departed	state of being		
+associated	state of being	essive-formal	
+acquired	state of being	translative	
+leveraged	state of being	formal	
+departed	topic		
+associated	topic	delative	
+acquired	topic		
+leveraged	topic		
+associated	company		
+associated	resemblance		
