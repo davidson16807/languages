@@ -134,19 +134,6 @@ arrive	passive	1	plural													needed to demonstrate declensions
 arrive	passive	2	plural													needed to demonstrate declensions									
 arrive	passive	3	plural													needed to demonstrate declensions									
 																									
-			mood->	indicative	indicative	indicative	indicative	indicative	indicative	subjunctive	subjunctive	subjunctive	subjunctive	imperative	imperative										
-			tense->	present	past	future	present	past	future	present	past	present	past	present	future										
-verb	voice	person	aspect->	aorist	imperfect	aorist	perfect	perfect	perfect	aorist	imperfect	perfect	perfect	aorist	aorist	group									
-																									
-																									
-				present	imperfect	perfect	pluperfect			present	imperfect	perfect	pluperfect	adventum foret											
-				adveniam	advenīrem	advēnerim	advēnissem																		
-				adveniās	advenīrēs	advēnerīs	advēnissēs																		
-				adveniat	advenīret	advēnerit	advēnisset																		
-				adveniāmus	advenīrēmus	advēnerīmus	advēnissēmus	—	—																
-				adveniātis	advenīrētis	advēnerītis	advēnissētis	—	—																
-				adveniant	advenīrent	advēnerint	advēnissent	—	—																
-							advēnistis																		
-							advēnērunt																		
-																									
-																									
+#			mood->	indicative	indicative	indicative	indicative	indicative	indicative	subjunctive	subjunctive	subjunctive	subjunctive	imperative	imperative										
+#			tense->	present	past	future	present	past	future	present	past	present	past	present	future										
+#verb	voice	person	aspect->	aorist	imperfect	aorist	perfect	perfect	perfect	aorist	imperfect	perfect	perfect	aorist	aorist	group									

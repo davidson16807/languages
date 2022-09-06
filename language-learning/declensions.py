@@ -4,9 +4,10 @@ import collections
 from parsing import SeparatedValuesFileParsing
 from annotation import RowAnnotation
 from predicates import Predicate, Bipredicate
-from lookup import DefaultDictLookup
+from lookup import DefaultDictLookup, DictLookup
 from indexing import DictTupleIndexing, DictKeyIndexing
-from population import ListLookupPopulation
+from evaluation import KeyEvaluation
+from population import ListLookupPopulation, FlatLookupPopulation
 
 tsv_parsing = SeparatedValuesFileParsing()
 rows = [
@@ -58,16 +59,15 @@ allthat['be','human'] in allthat['be','primate']
 header_columns = [
     'motion', 'attribute', 
     'subject-function', 'subject-argument', 
-    'verb', 'direct object', 'preposition', 
+    'verb', 'direct-object', 'preposition', 
     'declined-noun-function', 'declined-noun-argument']
-rows = tsv_parsing.rows('data/noun-declension/declension-templates-minimal.tsv')
-annotation = RowAnnotation(header_columns)
-population = ListLookupPopulation(
+template_annotation = RowAnnotation(header_columns)
+template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
         DictTupleIndexing(['motion','attribute']), list))
 templates = \
-    population.index(
-        annotation.annotate(
+    template_population.index(
+        template_annotation.annotate(
             tsv_parsing.rows(
                 'data/noun-declension/declension-templates-minimal.tsv')))
 
@@ -80,10 +80,68 @@ class DeclensionTemplateMatching:
             return self.predicates[template['subject-function'], template['subject-argument']]
         def declined_noun(template):
             return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
-        return sorted([template
-            for template in self.templates[motion, attribute]
-            if self.predicates['be', noun] in declined_noun(template)],
+        templates = sorted([template 
+                            for template in (self.templates[motion, attribute] 
+                                if (motion, attribute) in self.templates else [])
+                            if self.predicates['be', noun] in declined_noun(template)],
                       key=lambda template: len(declined_noun(template)))
+        return templates[0] if len(templates) > 0 else None
+
+case_annotation = RowAnnotation(['motion','attribute','case'])
+case_indexing = DictTupleIndexing(['motion','attribute'])
+case_population = \
+    FlatLookupPopulation(
+        DictLookup('declension-use-case-to-grammatical-case', case_indexing),
+        KeyEvaluation('case'))
+use_case_to_grammatical_case = \
+    case_population.index(
+        case_annotation.annotate(
+            tsv_parsing.rows('data/noun-declension/latin/declension-use-case-to-grammatical-case.tsv')))
+
+case_category_to_grammemes = {
+    'motion': ['departed', 'associated', 'acquired', 'leveraged'],
+    'attribute': [
+        'location', 'extent', 'vicinity', 'interior', 'surface', 
+        'presence', 'aid', 'lack', 'interest', 'purpose', 'owner', 
+        'time', 'state of being', 'topic', 'company', 'resemblance'],
+    'voice':  'active',
+    'tense':  'present',
+    'aspect': 'aorist',
+    'mood':   'indicative',
+    'person': ['1','2','3'],
+    'number': ['singular','dual','plural'],
+}
+
+
+
+case_grammeme_to_category = {
+    instance:type_ 
+    for (type_, instances) in case_category_to_grammemes.items() 
+    for instance in instances
+}
+
+conjugation_annotation = CellAnnotation(
+    case_grammeme_to_category, {0:'lemma'}, {0:'language'}, case_category_to_grammemes)
 
 matching = DeclensionTemplateMatching(templates, allthat)
-print(matching.match('horse','departed','location')[0])
+
+for lemma in ['fish']:
+    for tuplekey in case_indexing.tuplekeys(case_category_to_grammemes):
+        dictkey = {
+            **case_category_to_grammemes,
+            **case_indexing.dictkey(tuplekey), 
+            'person': '3',
+            'lemma': lemma,
+        }
+        match = matching.match(lemma, dictkey['motion'], dictkey['attribute'])
+        if match:
+            argument = ' '.join([
+                match['direct-object'],
+                english.decline(dictkey)
+            ])
+            sentence = ' '.join([
+                match['subject-argument'],
+                english.conjugate(match['verb'], argument),
+                match[''],
+            ])
+

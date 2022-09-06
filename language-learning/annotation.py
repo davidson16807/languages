@@ -60,19 +60,20 @@ class CellAnnotation:
         annotations = []
         for row in nonheader_rows:
             row_base_attributes = {}
-            for i in range(0,header_column_count):
-                cell = row[i]
-                if i in self.header_column_id_to_attribute:
-                    row_base_attributes[self.header_column_id_to_attribute[i]] = cell
-                if cell in self.keyword_to_attribute:
-                    row_base_attributes[self.keyword_to_attribute[cell]] = cell
-            for i in range(header_column_count,len(row)):
-                cell = row[i]
-                # if cell and column_base_attributes[i]:
-                if cell and row_base_attributes and column_base_attributes[i]:
-                    annotation = {}
-                    annotation.update(self.default_attributes)
-                    annotation.update(row_base_attributes)
-                    annotation.update(column_base_attributes[i])
-                    annotations.append((annotation,cell))
+            if len(row) >= header_column_count:
+                for i in range(0,header_column_count):
+                    cell = row[i]
+                    if i in self.header_column_id_to_attribute:
+                        row_base_attributes[self.header_column_id_to_attribute[i]] = cell
+                    if cell in self.keyword_to_attribute:
+                        row_base_attributes[self.keyword_to_attribute[cell]] = cell
+                for i in range(header_column_count,len(row)):
+                    cell = row[i]
+                    # if cell and column_base_attributes[i]:
+                    if cell and row_base_attributes and column_base_attributes[i]:
+                        annotation = {}
+                        annotation.update(self.default_attributes)
+                        annotation.update(row_base_attributes)
+                        annotation.update(column_base_attributes[i])
+                        annotations.append((annotation,cell))
         return annotations

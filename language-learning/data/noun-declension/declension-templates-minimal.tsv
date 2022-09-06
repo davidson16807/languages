@@ -23,7 +23,7 @@ motion	attribute	subject	subject	verb	direct object	preposition	declined noun	de
 		be	sound			of	can	be-heard																
 leveraged	location	be	man	right oneself		by way of	can	be-seen																
 leveraged	location	be	man	navigate		by way of	can	be-seen																
-departed	location	be	man	direct	his attention	at	can	be-seen																
+departed	location	be	man	direct	his attention	from	can	be-seen																
 associated	location	be	man	direct	his attention	at	can	be-seen																
 acquired	location	be	man	direct	his attention	toward	can	be-seen																
 departed	location	be	man	direct	his attention	from	can	be-heard																
@@ -36,10 +36,20 @@ departed	location	be	man	walk		away from	can	be-walked-to
 associated	location	be	man	walk		at	can	be-walked-to																
 acquired	location	be	man	walk		to	can	be-walked-to																
 leveraged	location	be	man	walk		via	can	be-walked-to																
-departed	extent	be	man	walk		starting from																		
-associated	extent	be	man	walk																				
-acquired	extent	be	man	walk		up to																		
-leveraged	extent	be	man	walk																				
+departed	extent	be	man	direct	his attention	starting from	can	be-seen																
+associated	extent	be	man	direct	his attention	beside	can	be-seen																
+acquired	extent	be	man	direct	his attention	up to	can	be-seen																
+acquired	extent	be	man	direct	his attention	along [the edges of]	can	be-seen																
+departed	extent	be	man	direct	his attention	starting from	can	be-heard																
+associated	extent	be	man	direct	his attention	beside	can	be-heard																
+acquired	extent	be	man	direct	his attention	up to	can	be-heard																
+departed	extent	be	man	direct	his attention	starting from	be	concept																
+associated	extent	be	man	direct	his attention	beside	be	concept																
+acquired	extent	be	man	direct	his attention	up to	be	concept																
+departed	location	be	man	walk		starting from	can	be-walked-to																
+associated	location	be	man	walk		beside	can	be-walked-to																
+acquired	location	be	man	walk		up to	can	be-walked-to																
+leveraged	location	be	man	walk		along	can	be-walked-to																
 departed	vicinity	be	man	walk		from around	can	be-walked-by																
 associated	vicinity	be	man	walk		by	can	be-walked-by																
 acquired	vicinity	be	man	walk		to around	can	be-walked-by																

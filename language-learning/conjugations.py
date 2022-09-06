@@ -13,7 +13,7 @@ from population import *
 category_to_grammemes = {
 
     # needed to lookup the argument that is used to demonstrate a verb
-    'language':   ['english', 'translated'], 
+    'language-type':   ['english', 'translated', 'transcripted'], 
 
     # needed for infinitives
     'completion': ['full', 'bare'],
@@ -167,7 +167,7 @@ conjugation_template_lookups = DictLookup(
             'argument',
             DictTupleIndexing([
                     'lemma',           
-                    'language',           
+                    'language-type',           
                     'voice',    # needed for Greek
                     'gender',   # needed for Greek
                     'number',   # needed for Russian
@@ -214,13 +214,13 @@ declension_template_lookups = DictLookup(
                     'partitivity', # needed for Old English, Quenya, Finnish
                     'case',       
                 ])),
-        'interrogative':      DictLookup('interrogative', basic_pronoun_declension_hashing),
-        'indefinite':         DictLookup('indefinite', basic_pronoun_declension_hashing),
-        'universal':          DictLookup('universal', basic_pronoun_declension_hashing),
-        'negative':           DictLookup('negative', basic_pronoun_declension_hashing),
-        'relative':           DictLookup('relative', basic_pronoun_declension_hashing),
-        'numeral':            DictLookup('numeral', basic_pronoun_declension_hashing),
-        'reflexive':          DictLookup('reflexive', basic_pronoun_declension_hashing),
+        'interrogative':      DictLookup('interrogative',      basic_pronoun_declension_hashing),
+        'indefinite':         DictLookup('indefinite',         basic_pronoun_declension_hashing),
+        'universal':          DictLookup('universal',          basic_pronoun_declension_hashing),
+        'negative':           DictLookup('negative',           basic_pronoun_declension_hashing),
+        'relative':           DictLookup('relative',           basic_pronoun_declension_hashing),
+        'numeral':            DictLookup('numeral',            basic_pronoun_declension_hashing),
+        'reflexive':          DictLookup('reflexive',          basic_pronoun_declension_hashing),
         'emphatic-reflexive': DictLookup('emphatic-reflexive', basic_pronoun_declension_hashing),
     })
 
@@ -234,14 +234,23 @@ class English:
         self.conjugation_lookups = conjugation_lookups
         self.predicate_templates = predicate_templates
         self.mood_templates = mood_templates
-    def conjugate(self, grammemes, argument_lookup):
+    def stock_argument(self, grammemes, argument_lookup):
         dependant_clause = {
             **grammemes,
-            'language': 'english',
+            'language-type': 'english',
+        }
+        if dependant_clause not in argument_lookup:
+            return ''
+        else:
+            return argument_lookup[dependant_clause]
+    def conjugate(self, grammemes, argument):
+        dependant_clause = {
+            **grammemes,
+            'language-type': 'english',
         }
         independant_clause = {
             **grammemes,
-            'language': 'english',
+            'language-type': 'english',
             'aspect': 'aorist',
             'tense':     
                 'past' if dependant_clause['aspect'] in {'perfect', 'perfect-progressive'} else
@@ -251,10 +260,6 @@ class English:
         lemmas = ['be', 'have', 
                   'command', 'forbid', 'permit', 'wish', 'intend', 'be able', 
                   dependant_clause['lemma']]
-        if dependant_clause not in argument_lookup:
-            # print('ignored english argument:', dependant_clause)
-            return None
-        argument = argument_lookup[dependant_clause]
         mood_replacements = [
             ('{subject}',              self.pronoun_declension_lookups['personal'][{**dependant_clause, 'case':'nominative'}]),
             ('{subject|oblique}',      self.pronoun_declension_lookups['personal'][{**dependant_clause, 'case':'oblique'}]),
@@ -290,10 +295,12 @@ class Emoji:
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
         self.mood_templates = mood_templates
-    def conjugate(self, grammemes, argument_lookup, persons):
+    def stock_argument(self, grammemes, argument_lookup):
         if grammemes not in argument_lookup:
-            # print('ignored emoji:', grammemes)
-            return None
+            return ''
+        else:
+            return argument_lookup[grammemes]
+    def conjugate(self, grammemes, argument, persons):
         audience_lookup = {
             'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
             'polite':   '\\n2{🧑\\g2\\c2\\💼}',
@@ -305,8 +312,7 @@ class Emoji:
         #          if grammemes['formality'] in audience_lookup 
         #          else '\\n2{🧑\\g2\\c2}')
         scene = getattr(self.htmlTenseTransform, grammemes['tense'])(
-                    getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(
-                        argument_lookup[grammemes]))
+                    getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(argument))
         encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
         subject = Person(
             grammemes['number'][0]+('i' if grammemes['clusivity']=='inclusive' else ''), 
@@ -332,23 +338,24 @@ class Translation:
         self.mood_templates = mood_templates
         self.category_to_grammemes = category_to_grammemes
         self.subject_map = subject_map
-    def conjugate(self, grammemes, argument_lookup):
-        grammemes = {**grammemes, 'language':'translated', 'case':'nominative'}
+    def stock_argument(self, grammemes, argument_lookup):
+        grammemes = {**grammemes, 'language-type':'translated'}
+        if grammemes not in argument_lookup:
+            return ''
+        else:
+            return argument_lookup[grammemes]
+    def conjugate(self, grammemes, argument):
+        grammemes = {**grammemes, 'language-type':'translated', 'case':'nominative'}
         if grammemes not in self.pronoun_declension_lookups['personal']:
-            # print('ignored pronoun:', grammemes)
             return None
         if grammemes not in self.conjugation_lookups['finite']:
-            # print('ignored finite:', grammemes)
-            return None
-        if grammemes not in argument_lookup:
-            # print('ignored argument:', grammemes)
             return None
         else:
             sentence = self.mood_templates[grammemes['mood']]
             # TODO: read this as an attribute
             cases = self.category_to_grammemes['case']
             sentence = sentence.replace('{verb}',     self.conjugation_lookups['finite'][grammemes])
-            sentence = sentence.replace('{argument}', argument_lookup[grammemes])
+            sentence = sentence.replace('{argument}', argument)
             for case in cases:
                 subject_case = {**grammemes, 'case':case}
                 if subject_case in self.pronoun_declension_lookups['personal']:
@@ -422,9 +429,12 @@ class CardGeneration:
                 'proform': 'personal'
             }
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
-                translated_text = translation.conjugate(dictkey, translation.conjugation_lookups['argument'])
-                english_text    = self.english.conjugate(dictkey, translation.conjugation_lookups['argument'])
-                emoji_text      = self.emoji.conjugate(dictkey, translation.conjugation_lookups['emoji'], persons)
+                translated_argument = translation.stock_argument(dictkey, translation.conjugation_lookups['argument'])
+                translated_text     = translation.conjugate(dictkey, translated_argument)
+                english_argument    = self.english.stock_argument(dictkey, translation.conjugation_lookups['argument'])
+                english_text        = self.english.conjugate(dictkey, english_argument)
+                emoji_argument      = self.emoji.stock_argument(dictkey, translation.conjugation_lookups['emoji'])
+                emoji_text          = self.emoji.conjugate(dictkey, emoji_argument, persons)
                 if translated_text and english_text:
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
@@ -1003,5 +1013,5 @@ write('flashcards/verb-conjugation/swedish.html',
 #     'aspect': 'aorist',
 #     'mood': 'indicative', 
 #     'gender': 'masculine', 
-#     'language':'english',
+#     'language-type':'english',
 # }
