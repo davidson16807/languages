@@ -93,10 +93,10 @@ grammeme_to_category = {
     for instance in instances
 }
 
-lemma_hashing = DictKeyIndexing('lemma')
+lemma_hashing = DictKeyIndexing('verb')
 
 verbial_declension_hashing = DictTupleIndexing([
-        'lemma',           
+        'verb',           
         'voice',      # needed for Swedish
         'number',     # needed for German
         'gender',     # needed for Latin, German, Russian
@@ -111,7 +111,7 @@ conjugation_template_lookups = DictLookup(
         'finite': DictLookup(
             'finite',
             DictTupleIndexing([
-                    'lemma',           
+                    'verb',           
                     'person',           
                     'number',           
                     'gender',      # needed for Russian
@@ -125,7 +125,7 @@ conjugation_template_lookups = DictLookup(
         'infinitive': DictLookup(
             'infinitive',
             DictTupleIndexing([
-                    'lemma',           
+                    'verb',           
                     'completion', # needed for Old English
                     'voice',      # needed for Latin, Swedish
                     'tense',      # needed for German, Latin
@@ -135,7 +135,7 @@ conjugation_template_lookups = DictLookup(
         'participle': DictLookup(
             'participle',
             DictTupleIndexing([
-                    'lemma',           
+                    'verb',           
                     'number',  # needed for German
                     'gender',     # needed for Latin, German, Russian
                     'case',       # needed for Latin, German
@@ -147,7 +147,7 @@ conjugation_template_lookups = DictLookup(
         'adverbial': DictLookup(
             'participle',
             DictTupleIndexing([
-                    'lemma',           
+                    'verb',           
                     'tense',      # needed for Russian
                 ])),
         # verbs used as adjectives, indicating the purpose of something
@@ -162,7 +162,7 @@ conjugation_template_lookups = DictLookup(
         'argument': DictLookup(
             'argument',
             DictTupleIndexing([
-                    'lemma',           
+                    'verb',           
                     'language-type',           
                     'voice',    # needed for Greek
                     'gender',   # needed for Greek
@@ -172,7 +172,7 @@ conjugation_template_lookups = DictLookup(
         'emoji': DictLookup(
             'emoji',
             DictTupleIndexing([
-                    'lemma',           
+                    'verb',           
                     'voice',      # needed for Greek, Latin, Proto-Indo-Eurpean, Sanskrit, Swedish
                 ])),
     })
@@ -248,8 +248,12 @@ class English:
         else:
             return argument_lookup[dependant_clause]
     def decline(self, grammemes):
+        grammemes = {
+            **grammemes,
+            'language-type': 'english',
+        }
         return self.declension_lookups[grammemes][grammemes]
-    def conjugate(self, grammemes, argument):
+    def conjugate(self, grammemes, noun_phrases):
         dependant_clause = {
             **grammemes,
             'language-type': 'english',
@@ -265,33 +269,36 @@ class English:
         }
         lemmas = ['be', 'have', 
                   'command', 'forbid', 'permit', 'wish', 'intend', 'be able', 
-                  dependant_clause['lemma']]
+                  dependant_clause['verb']]
         mood_replacements = [
-            ('{subject}',              self.decline({**dependant_clause, 'case':'nominative'})),
-            ('{subject|oblique}',      self.decline({**dependant_clause, 'case':'oblique'})),
             ('{predicate}',            self.predicate_templates[{**dependant_clause,'lookup':'finite'}]),
             ('{predicate|infinitive}', self.predicate_templates[{**dependant_clause,'lookup':'infinitive'}]),
         ]
         sentence = self.mood_templates[{**dependant_clause,'column':'template'}]
         for replaced, replacement in mood_replacements:
             sentence = sentence.replace(replaced, replacement)
-        sentence = sentence.replace('{verb', '{'+dependant_clause['lemma'])
-        sentence = sentence.replace('{argument}', argument)
+        for noun_phrase in ['invocation', 'subject|nominative', 'subject|oblique', 'direct', 'indirect']:
+            sentence = sentence.replace('{'+noun_phrase+'}', 
+                noun_phrases[noun_phrase] if noun_phrase in noun_phrases else '')
+        sentence = sentence.replace('{modifiers}', 
+            ' '.join(noun_phrases['modifiers'] if 'modifiers' in noun_phrases else []))
+        sentence = sentence.replace('{verb', '{'+dependant_clause['verb'])
         table = self.conjugation_lookups['finite']
         for lemma in lemmas:
             replacements = [
-                ('{'+lemma+'|independant}',         table[{**independant_clause, 'lemma':lemma, }]),
-                ('{'+lemma+'|independant|speaker}', table[{**independant_clause, 'lemma':lemma, 'person':'1', 'number':'singular'}]),
-                ('{'+lemma+'|present}',             table[{**dependant_clause,   'lemma':lemma, 'tense':  'present',  'aspect':'aorist'}]),
-                ('{'+lemma+'|past}',                table[{**dependant_clause,   'lemma':lemma, 'tense':  'past',     'aspect':'aorist'}]),
-                ('{'+lemma+'|perfect}',             table[{**dependant_clause,   'lemma':lemma, 'aspect': 'perfect'    }]),
-                ('{'+lemma+'|imperfect}',           table[{**dependant_clause,   'lemma':lemma, 'aspect': 'imperfect'  }]),
+                ('{'+lemma+'|independant}',         table[{**independant_clause, 'verb':lemma, }]),
+                ('{'+lemma+'|independant|speaker}', table[{**independant_clause, 'verb':lemma, 'person':'1', 'number':'singular'}]),
+                ('{'+lemma+'|present}',             table[{**dependant_clause,   'verb':lemma, 'tense':  'present',  'aspect':'aorist'}]),
+                ('{'+lemma+'|past}',                table[{**dependant_clause,   'verb':lemma, 'tense':  'past',     'aspect':'aorist'}]),
+                ('{'+lemma+'|perfect}',             table[{**dependant_clause,   'verb':lemma, 'aspect': 'perfect'    }]),
+                ('{'+lemma+'|imperfect}',           table[{**dependant_clause,   'verb':lemma, 'aspect': 'imperfect'  }]),
                 ('{'+lemma+'|infinitive}',          lemma),
             ]
             for replaced, replacement in replacements:
                 sentence = sentence.replace(replaced, replacement)
         if dependant_clause['voice'] == 'middle':
             sentence = f'[middle voice:] {sentence}'
+        sentence = re.sub('\s+', ' ', sentence)
         return sentence
 
 class Emoji:
@@ -319,7 +326,7 @@ class Emoji:
         encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
         subject = Person(
             ''.join([
-                    (grammemes['number'][0] if grammemes['proform']=='personal' else '4'),
+                    (grammemes['number'][0]),
                     ('i' if grammemes['clusivity']=='inclusive' else ''),
                 ]), 
             grammemes['gender'][0], 
@@ -337,13 +344,11 @@ class Translation:
             declension_lookups, 
             conjugation_lookups, 
             mood_templates,
-            category_to_grammemes,
-            subject_map=lambda x:x):
+            category_to_grammemes):
         self.declension_lookups = declension_lookups
         self.conjugation_lookups = conjugation_lookups
         self.mood_templates = mood_templates
         self.category_to_grammemes = category_to_grammemes
-        self.subject_map = subject_map
     def stock_argument(self, grammemes, argument_lookup):
         grammemes = {**grammemes, 'language-type':'translated'}
         if grammemes not in argument_lookup:
@@ -357,7 +362,7 @@ class Translation:
         with language specific annotations that represent 
         the words that must be conjugated or declined.
         These annotations can be transformed using 
-        e.g. {subject|nominative} {verb|present} {direct-object|accusative}
+        e.g. {subject} {verb|present} {direct}
         '''
         return self.mood_templates[grammemes['mood']]
     def decline(self, grammemes):
@@ -366,10 +371,8 @@ class Translation:
         if grammemes not in self.declension_lookups[grammemes]:
             return None
         return self.declension_lookups[grammemes][grammemes]
-    def conjugate(self, grammemes, argument):
+    def conjugate(self, grammemes, noun_phrases={}):
         grammemes = {**grammemes, 'language-type':'translated', 'case':'nominative'}
-        if self.decline(grammemes) is None:
-            return None
         if grammemes not in self.conjugation_lookups['finite']:
             return None
         else:
@@ -377,18 +380,17 @@ class Translation:
             # TODO: read this as an attribute
             cases = self.category_to_grammemes['case']
             sentence = sentence.replace('{verb}',     self.conjugation_lookups['finite'][grammemes])
-            sentence = sentence.replace('{argument}', argument)
-            for case in cases:
-                subject_case = {**grammemes, 'case':case}
-                subject_declension = self.decline(subject_case)
-                if subject_declension:
-                    sentence = sentence.replace('{subject|'+case+'}', 
-                        self.subject_map(subject_declension))
+            sentence = sentence.replace('{modifiers}', 
+                ' '.join(noun_phrases['modifiers'] if 'modifiers' in noun_phrases else []))
+            for noun_phrase in ['invocation', 'subject', 'direct', 'indirect']:
+                sentence = sentence.replace('{'+noun_phrase+'}', 
+                    noun_phrases[noun_phrase] if noun_phrase in noun_phrases and noun_phrases[noun_phrase] is not None else '')
+            sentence = re.sub('\s+', ' ', sentence)
             return sentence
 
 tsv_parsing = SeparatedValuesFileParsing()
 conjugation_annotation  = CellAnnotation(
-    grammeme_to_category, {}, {0:'lemma'}, 
+    grammeme_to_category, {}, {0:'verb'}, 
     {**category_to_grammemes, 'lookup':'finite'})
 pronoun_annotation  = CellAnnotation(
     grammeme_to_category, {}, {}, 
@@ -447,15 +449,17 @@ class CardGeneration:
         self.finite_traversal = finite_traversal
     def generate(self, translation, filter_lookups, persons, english_map=lambda x:x):
         for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
-            dictkey = {
-                **self.finite_traversal.dictkey(tuplekey), 
-                'proform': 'personal'
-            }
+            dictkey = self.finite_traversal.dictkey(tuplekey)
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
-                translated_argument = translation.stock_argument(dictkey, translation.conjugation_lookups['argument'])
-                translated_text     = translation.conjugate(dictkey, translated_argument)
-                english_argument    = self.english.stock_argument(dictkey, translation.conjugation_lookups['argument'])
-                english_text        = self.english.conjugate(dictkey, english_argument)
+                translated_text = translation.conjugate(dictkey, {
+                    'subject':    translation.decline({**dictkey, 'proform': 'personal', 'case':'nominative'}),
+                    'modifiers': [translation.stock_argument(dictkey, translation.conjugation_lookups['argument'])],
+                })
+                english_text = self.english.conjugate(dictkey, {
+                    'subject|nominative': self.english.decline({**dictkey, 'proform': 'personal', 'case':'nominative'}),
+                    'subject|oblique':    self.english.decline({**dictkey, 'proform': 'personal', 'case':'oblique'}),
+                    'modifiers':         [self.english.stock_argument(dictkey, translation.conjugation_lookups['argument'])],
+                })
                 emoji_argument      = self.emoji.stock_argument(dictkey, translation.conjugation_lookups['emoji'])
                 emoji_text          = self.emoji.conjugate(dictkey, emoji_argument, persons)
                 if translated_text and english_text:
@@ -505,7 +509,7 @@ card_generation = CardGeneration(
     english, emoji, CardFormatting(),
     DictTupleIndexing([
         'number','formality','clusivity','person','clitic','gender',
-        'tense', 'aspect', 'mood', 'voice', 'lemma']))
+        'tense', 'aspect', 'mood', 'voice', 'verb']))
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -519,30 +523,29 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/ancient-greek/pronoun-declensions.tsv'), 1, 4)),
             conjugation_population.index([
-                    *conjugation_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/ancient-greek/finite-conjugations.tsv'), 3, 4),
-                    *conjugation_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/ancient-greek/nonfinite-conjugations.tsv'), 6, 2),
-                ]),
+                *conjugation_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/ancient-greek/finite-conjugations.tsv'), 3, 4),
+                *conjugation_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/ancient-greek/nonfinite-conjugations.tsv'), 6, 2),
+            ]),
             mood_templates = {
-                    'indicative':  '{subject|nominative} {argument} {{c1::{verb}}}',
-                    'subjunctive': '{subject|nominative} {argument} {{c1::{verb}}}',
-                    'optative':    '{subject|nominative} {argument} {{c1::{verb}}}',
-                    'imperative':  '{subject|nominative}, {argument} {{c1::{verb}}}!',
-                },
+                'indicative':  '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
+                'subjunctive': '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
+                'optative':    '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
+                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {{c1::{verb}}}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','plural'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality':  'familiar',
-                    'gender':    ['neuter', 'masculine'],
-                    'mood':      ['indicative','subjunctive','optative','imperative'],
-                    'lemma':     ['be','go','release'],
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','plural'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality':  'familiar',
+                'gender':    ['neuter', 'masculine'],
+                'mood':      ['indicative','subjunctive','optative','imperative'],
+                'verb':     ['be','go','release'],
+            },
         ),
         english_map=replace([('♂','')]), 
         filter_lookups = [
@@ -571,31 +574,30 @@ write('flashcards/verb-conjugation/french.html',
                 pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/french/pronoun-declensions.tsv'), 1, 4)),
             conjugation_population.index([
-                    *conjugation_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/french/finite-conjugations.tsv'), 4, 3),
-                    *conjugation_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/french/nonfinite-conjugations.tsv'), 3, 1),
-                ]),
+                *conjugation_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/french/finite-conjugations.tsv'), 4, 3),
+                *conjugation_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/french/nonfinite-conjugations.tsv'), 3, 1),
+            ]),
             mood_templates = {
-                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'conditional': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
-                },
+                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'conditional': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','plural'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality':  'familiar',
-                    'gender':    ['neuter', 'masculine'],
-                    'voice':      'active',
-                    'mood':      ['indicative','conditional','subjunctive','imperative',],
-                    'lemma':     ['have','be','go','speak','choose','lose','receive'],
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','plural'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality':  'familiar',
+                'gender':    ['neuter', 'masculine'],
+                'voice':      'active',
+                'mood':      ['indicative','conditional','subjunctive','imperative',],
+                'verb':     ['have','be','go','speak','choose','lose','receive'],
+            },
         ),
         english_map=replace([('♂','')]), 
         filter_lookups = [
@@ -627,28 +629,27 @@ write('flashcards/verb-conjugation/german.html',
                         tsv_parsing.rows('data/inflection/german/nonfinite-conjugations.tsv'), 7, 1),
                 ]),
             mood_templates = {
-                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'conditional': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'inferential': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
-                },
+                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'conditional': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'inferential': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','plural'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality': ['familiar','polite','formal','elevated'],
-                    'gender':    ['neuter', 'masculine'],
-                    'voice':      'active',
-                    'mood':      ['indicative','conditional','inferential',
-                                  'subjunctive','imperative',],
-                    'lemma':     ['be', 'do', 'go', 'become', 'may', 
-                                  'have', 'love', 'act', 'work', 'drive'], 
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','plural'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality': ['familiar','polite','formal','elevated'],
+                'gender':    ['neuter', 'masculine'],
+                'voice':      'active',
+                'mood':      ['indicative','conditional','inferential',
+                              'subjunctive','imperative',],
+                'verb':     ['be', 'do', 'go', 'become', 'may', 
+                              'have', 'love', 'act', 'work', 'drive'], 
+            },
         ),
         english_map=replace([('♂','')]), 
         filter_lookups = [
@@ -685,26 +686,25 @@ write('flashcards/verb-conjugation/latin.html',
                     tsv_parsing.rows('data/inflection/latin/nonfinite-conjugations.tsv'), 6, 2),
             ]),
             mood_templates = {
-                    'indicative':  '{subject|nominative} {argument} {{c1::{verb}}}',
-                    'subjunctive': '{subject|nominative} {argument} {{c1::{verb}}}',
-                    'imperative':  '{subject|nominative}, {argument} {{c1::{verb}}}!',
-                },
+                'indicative':  '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
+                'subjunctive': '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
+                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {{c1::{verb}}}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','plural'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality':  'familiar',
-                    'gender':    ['neuter', 'masculine'],
-                    'voice':     ['active', 'passive'],
-                    'mood':      ['indicative','subjunctive','imperative',],
-                    'lemma':     ['be', 'be able', 'want', 'become', 'go', 
-                                  'carry', 'eat', 'love', 'advise', 'direct', 
-                                  'capture', 'hear'],
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','plural'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality':  'familiar',
+                'gender':    ['neuter', 'masculine'],
+                'voice':     ['active', 'passive'],
+                'mood':      ['indicative','subjunctive','imperative',],
+                'verb':     ['be', 'be able', 'want', 'become', 'go', 
+                              'carry', 'eat', 'love', 'advise', 'direct', 
+                              'capture', 'hear'],
+            },
         ),
         english_map=replace([('♂','')]), 
         filter_lookups = [
@@ -733,27 +733,26 @@ write('flashcards/verb-conjugation/old-english.html',
                 conjugation_annotation.annotate(
                     tsv_parsing.rows('data/inflection/old-english/conjugations.tsv'), 5, 1)),
             mood_templates = {
-                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
-                },
+                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','plural'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality':  'familiar',
-                    'gender':    ['neuter', 'masculine'],
-                    'voice':     ['active', 'passive'],
-                    'mood':      ['indicative','subjunctive','imperative',],
-                    'lemma':     ['be [temporarily]', 'be [inherently]', 
-                                  'do', 'go', 'want', 
-                                  'steal', 'share', 'tame', 'move', 'love', 
-                                  'have', 'live', 'say', 'think',],
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','plural'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality':  'familiar',
+                'gender':    ['neuter', 'masculine'],
+                'voice':     ['active', 'passive'],
+                'mood':      ['indicative','subjunctive','imperative',],
+                'verb':     ['be [temporarily]', 'be [inherently]', 
+                              'do', 'go', 'want', 
+                              'steal', 'share', 'tame', 'move', 'love', 
+                              'have', 'live', 'say', 'think',],
+            },
         ),
         english_map=replace([('♂','')]), 
         filter_lookups = [
@@ -785,28 +784,27 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                     tsv_parsing.rows('data/inflection/proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
             ]),
             mood_templates = {
-                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'optative':    '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
-                },
+                'indicative':  '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
+                'subjunctive': '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
+                'optative':    '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
+                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {{c1::{verb}}}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','dual','plural'],
-                    'tense':     ['present','past'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality':  'familiar',
-                    'gender':    ['neuter', 'masculine'],
-                    'voice':     ['active', 'middle'],
-                    'mood':      ['indicative','imperative','subjunctive','optative'],
-                    'lemma':     ['be','become','carry','leave','work','do','ask',
-                                  'stretch','know','sit','protect','be red','set down',
-                                  'want to see','renew','arrive','say','point out'],
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','dual','plural'],
+                'tense':     ['present','past'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality':  'familiar',
+                'gender':    ['neuter', 'masculine'],
+                'voice':     ['active', 'middle'],
+                'mood':      ['indicative','imperative','subjunctive','optative'],
+                'verb':     ['be','become','carry','leave','work','do','ask',
+                              'stretch','know','sit','protect','be red','set down',
+                              'want to see','renew','arrive','say','point out'],
+            },
         ),
         english_map=replace([('♂','')]), 
         filter_lookups = [
@@ -838,31 +836,30 @@ write('flashcards/verb-conjugation/russian.html',
                     tsv_parsing.rows('data/inflection/russian/nonfinite-conjugations.tsv'), 2, 3),
             ]),
             mood_templates = {
-                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
-                },
+                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','plural'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality':  'familiar',
-                    'gender':    ['neuter', 'masculine', 'feminine'],
-                    'tense':     ['present','future','past'],
-                    'voice':      'active',
-                    'aspect':     'aorist',
-                    'mood':      ['indicative','imperative'],
-                    'lemma':     ['be', 'see', 'give', 'eat', 'live', 'call', 'go', 
-                                  'write', 'read', 'return', 'draw', 'spit', 'dance', 
-                                  'be able', 'bake', 'carry', 'lead', 'sweep', 'row', 
-                                  'steal', 'convey', 'climb', 'wash', 'beat', 'wind', 
-                                  'pour', 'drink', 'sew', 'live', 'swim', 'pass for', 
-                                  'speak', 'love', 'catch', 'sink', 'feed', 'ask', 
-                                  'convey', 'pay', 'go', 'forgive'],
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','plural'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality':  'familiar',
+                'gender':    ['neuter', 'masculine', 'feminine'],
+                'tense':     ['present','future','past'],
+                'voice':      'active',
+                'aspect':     'aorist',
+                'mood':      ['indicative','imperative'],
+                'verb':     ['be', 'see', 'give', 'eat', 'live', 'call', 'go', 
+                              'write', 'read', 'return', 'draw', 'spit', 'dance', 
+                              'be able', 'bake', 'carry', 'lead', 'sweep', 'row', 
+                              'steal', 'convey', 'climb', 'wash', 'beat', 'wind', 
+                              'pour', 'drink', 'sew', 'live', 'swim', 'pass for', 
+                              'speak', 'love', 'catch', 'sink', 'feed', 'ask', 
+                              'convey', 'pay', 'go', 'forgive'],
+            },
         ),
         filter_lookups = [
             DictLookup(
@@ -905,28 +902,27 @@ write('flashcards/verb-conjugation/spanish.html',
                     tsv_parsing.rows('data/inflection/spanish/nonfinite-conjugations.tsv'), 3, 2)
             ]), 
             mood_templates = {
-                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'conditional': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
-                    'prohibitive': '{subject|nominative}, {{c1::{verb}}} {argument}!',
-                },
+                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'conditional': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+                'prohibitive': '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','plural'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality': ['familiar','tuteo','voseo','formal'],
-                    'gender':    ['neuter', 'masculine'],
-                    'voice':      'active',
-                    'mood':      ['indicative','conditional','subjunctive','imperative','prohibitive'],
-                    'lemma':     ['be [inherently]', 'be [temporarily]', 
-                                  'have', 'have [in possession]', 
-                                  'go', 'love', 'fear', 'part', 'know', 'drive'],
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','plural'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality': ['familiar','tuteo','voseo','formal'],
+                'gender':    ['neuter', 'masculine'],
+                'voice':      'active',
+                'mood':      ['indicative','conditional','subjunctive','imperative','prohibitive'],
+                'verb':     ['be [inherently]', 'be [temporarily]', 
+                              'have', 'have [in possession]', 
+                              'go', 'love', 'fear', 'part', 'know', 'drive'],
+            },
         ),
         english_map=replace([('♂','')]), 
         filter_lookups = [
@@ -958,24 +954,23 @@ write('flashcards/verb-conjugation/swedish.html',
                 conjugation_annotation.annotate(
                     tsv_parsing.rows('data/inflection/swedish/conjugations.tsv'), 4, 3)),
             mood_templates = {
-                    'indicative':  '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'subjunctive': '{subject|nominative} {{c1::{verb}}} {argument}',
-                    'imperative':  '{subject|nominative}, {{c1::{verb}}} {argument}!',
-                },
+                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+            },
             category_to_grammemes = {
-                    **category_to_grammemes,
-                    'proform':    'personal',
-                    'number':    ['singular','plural'],
-                    'animacy':    'human',
-                    'clitic':     'tonic',
-                    'clusivity':  'exclusive',
-                    'formality':  'familiar',
-                    'gender':    ['neuter', 'masculine'],
-                    'mood':      ['indicative','subjunctive','imperative'],
-                    'aspect':     'aorist',
-                    'lemma':     ['be','go','call','close','read','sew','strike'],
-                },
-            subject_map = first_of_options,
+                **category_to_grammemes,
+                'proform':    'personal',
+                'number':    ['singular','plural'],
+                'animacy':    'human',
+                'clitic':     'tonic',
+                'clusivity':  'exclusive',
+                'formality':  'familiar',
+                'gender':    ['neuter', 'masculine'],
+                'mood':      ['indicative','subjunctive','imperative'],
+                'aspect':     'aorist',
+                'verb':     ['be','go','call','close','read','sew','strike'],
+            },
         ),
         english_map=replace([('♂','')]), 
         filter_lookups = [
@@ -1015,10 +1010,10 @@ write('flashcards/verb-conjugation/swedish.html',
 
 # translation.conjugate({**grammemes, 'proform':'personal'}, translation.conjugation_lookups['argument'])
 
-# for k,v in list(english_conjugation['finite'].items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
-# for k,v in list(english_predicate_templates.items({'lemma':'do',**category_to_grammemes}))[:100]: print(k,v)
+# for k,v in list(english_conjugation['finite'].items({'verb':'do',**category_to_grammemes}))[:100]: print(k,v)
+# for k,v in list(english_predicate_templates.items({'verb':'do',**category_to_grammemes}))[:100]: print(k,v)
 # for k,v in list(english_declension.items({**category_to_grammemes}))[:100]: print(k,v)
-# for k,v in list(lookups['finite'].items({'lemma':'release',**category_to_grammemes}))[:100]: print(k,v)
+# for k,v in list(lookups['finite'].items({'verb':'release',**category_to_grammemes}))[:100]: print(k,v)
 
 # lookups = conjugation_population.index([
 #     *conjugation_annotation.annotate(
@@ -1026,7 +1021,7 @@ write('flashcards/verb-conjugation/swedish.html',
 # ])
 
 # grammemes = {
-#     'lemma': 'release', 
+#     'verb': 'release', 
 #     'person': '3', 
 #     'number': 'singular', 
 #     'clusivity': 'exclusive', 

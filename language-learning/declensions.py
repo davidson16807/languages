@@ -132,7 +132,8 @@ for lemma in ['fish']:
             **case_category_to_grammemes,
             **case_indexing.dictkey(tuplekey), 
             'person': '3',
-            'lemma': lemma,
+            'noun': lemma,
+            'verb': match['verb'],
         }
         match = matching.match(lemma, dictkey['motion'], dictkey['attribute'])
         if match:
@@ -141,8 +142,7 @@ for lemma in ['fish']:
                 english.decline(dictkey)
             ])
             sentence = ' '.join([
-                match['subject-argument'],
-                english.conjugate(match['verb'], argument),
+                english.conjugate(, argument),
                 match[''],
             ])
 
