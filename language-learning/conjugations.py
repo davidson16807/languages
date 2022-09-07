@@ -253,7 +253,7 @@ class English:
             'language-type': 'english',
         }
         return self.declension_lookups[grammemes][grammemes]
-    def conjugate(self, grammemes, noun_phrases):
+    def structure(self, grammemes, noun_phrases):
         dependant_clause = {
             **grammemes,
             'language-type': 'english',
@@ -310,7 +310,7 @@ class Emoji:
         self.mood_templates = mood_templates
     def stock_argument(self, grammemes, argument_lookup):
         return argument_lookup[grammemes] if grammemes in argument_lookup else ''
-    def conjugate(self, grammemes, argument, persons):
+    def structure(self, grammemes, argument, persons):
         audience_lookup = {
             'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
             'polite':   '\\n2{🧑\\g2\\c2\\💼}',
@@ -355,38 +355,29 @@ class Translation:
             return ''
         else:
             return argument_lookup[grammemes]
-    def structure(self, grammemes):
-        '''
-        Returns sentence structure that is appropriate for a given set of grammemes.
-        The sentence structure is represented as a string 
-        with language specific annotations that represent 
-        the words that must be conjugated or declined.
-        These annotations can be transformed using 
-        e.g. {subject} {verb|present} {direct}
-        '''
-        return self.mood_templates[grammemes['mood']]
     def decline(self, grammemes):
         if grammemes not in self.declension_lookups:
             return None
         if grammemes not in self.declension_lookups[grammemes]:
             return None
         return self.declension_lookups[grammemes][grammemes]
-    def conjugate(self, grammemes, noun_phrases={}):
-        grammemes = {**grammemes, 'language-type':'translated', 'case':'nominative'}
+    def conjugate(self, grammemes):
         if grammemes not in self.conjugation_lookups['finite']:
             return None
-        else:
-            sentence = self.mood_templates[grammemes['mood']]
-            # TODO: read this as an attribute
-            cases = self.category_to_grammemes['case']
-            sentence = sentence.replace('{verb}',     self.conjugation_lookups['finite'][grammemes])
-            sentence = sentence.replace('{modifiers}', 
-                ' '.join(noun_phrases['modifiers'] if 'modifiers' in noun_phrases else []))
-            for noun_phrase in ['invocation', 'subject', 'direct', 'indirect']:
-                sentence = sentence.replace('{'+noun_phrase+'}', 
-                    noun_phrases[noun_phrase] if noun_phrase in noun_phrases and noun_phrases[noun_phrase] is not None else '')
-            sentence = re.sub('\s+', ' ', sentence)
-            return sentence
+        return self.conjugation_lookups['finite'][grammemes]
+    def structure(self, grammemes, verb, noun_phrases):
+        if verb is None: return None
+        sentence = self.mood_templates[grammemes['mood']]
+        # TODO: read this as an attribute
+        cases = self.category_to_grammemes['case']
+        sentence = sentence.replace('{verb}', verb)
+        sentence = sentence.replace('{modifiers}', 
+            ' '.join(noun_phrases['modifiers'] if 'modifiers' in noun_phrases else []))
+        for noun_phrase in ['invocation', 'subject', 'direct', 'indirect']:
+            sentence = sentence.replace('{'+noun_phrase+'}', 
+                noun_phrases[noun_phrase] if noun_phrase in noun_phrases and noun_phrases[noun_phrase] is not None else '')
+        sentence = re.sub('\s+', ' ', sentence)
+        return sentence
 
 tsv_parsing = SeparatedValuesFileParsing()
 conjugation_annotation  = CellAnnotation(
@@ -447,21 +438,27 @@ class CardGeneration:
         self.emoji = emoji
         self.cardFormatting = cardFormatting
         self.finite_traversal = finite_traversal
-    def generate(self, translation, filter_lookups, persons, english_map=lambda x:x):
+    def conjugation(self, translation, filter_lookups, persons, english_map=lambda x:x):
         for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = self.finite_traversal.dictkey(tuplekey)
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
-                translated_text = translation.conjugate(dictkey, {
-                    'subject':    translation.decline({**dictkey, 'proform': 'personal', 'case':'nominative'}),
-                    'modifiers': [translation.stock_argument(dictkey, translation.conjugation_lookups['argument'])],
-                })
-                english_text = self.english.conjugate(dictkey, {
-                    'subject|nominative': self.english.decline({**dictkey, 'proform': 'personal', 'case':'nominative'}),
-                    'subject|oblique':    self.english.decline({**dictkey, 'proform': 'personal', 'case':'oblique'}),
-                    'modifiers':         [self.english.stock_argument(dictkey, translation.conjugation_lookups['argument'])],
-                })
+                translated_text = translation.structure(
+                    dictkey, 
+                    cloze(1)(translation.conjugate(dictkey)),
+                    {
+                        'subject':    translation.decline({**dictkey, 'proform': 'personal', 'case':'nominative'}),
+                        'invocation': translation.decline({**dictkey, 'proform': 'personal', 'case':'vocative'}),
+                        'modifiers': [translation.stock_argument(dictkey, translation.conjugation_lookups['argument'])],
+                    })
+                english_text = self.english.structure(
+                    dictkey, 
+                    {
+                        'subject|nominative': self.english.decline({**dictkey, 'proform': 'personal', 'case':'nominative'}),
+                        'subject|oblique':    self.english.decline({**dictkey, 'proform': 'personal', 'case':'oblique'}),
+                        'modifiers':         [self.english.stock_argument(dictkey, translation.conjugation_lookups['argument'])],
+                    })
                 emoji_argument      = self.emoji.stock_argument(dictkey, translation.conjugation_lookups['emoji'])
-                emoji_text          = self.emoji.conjugate(dictkey, emoji_argument, persons)
+                emoji_text          = self.emoji.structure(dictkey, emoji_argument, persons)
                 if translated_text and english_text:
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
@@ -517,7 +514,7 @@ def write(filename, rows):
             file.write(f'{row}\n')
 
 write('flashcards/verb-conjugation/ancient-greek.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -529,10 +526,10 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                     tsv_parsing.rows('data/inflection/ancient-greek/nonfinite-conjugations.tsv'), 6, 2),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
-                'subjunctive': '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
-                'optative':    '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
-                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {{c1::{verb}}}!',
+                'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
+                'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
+                'optative':    '{subject} {modifiers} {indirect} {direct} {verb}',
+                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -568,7 +565,7 @@ write('flashcards/verb-conjugation/ancient-greek.html',
     ))
 
 write('flashcards/verb-conjugation/french.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -580,10 +577,10 @@ write('flashcards/verb-conjugation/french.html',
                     tsv_parsing.rows('data/inflection/french/nonfinite-conjugations.tsv'), 3, 1),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'conditional': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'conditional': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -617,7 +614,7 @@ write('flashcards/verb-conjugation/french.html',
     ))
 
 write('flashcards/verb-conjugation/german.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -629,11 +626,11 @@ write('flashcards/verb-conjugation/german.html',
                         tsv_parsing.rows('data/inflection/german/nonfinite-conjugations.tsv'), 7, 1),
                 ]),
             mood_templates = {
-                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'conditional': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'inferential': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
+                'conditional': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'inferential': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -674,7 +671,7 @@ write('flashcards/verb-conjugation/german.html',
     ))
 
 write('flashcards/verb-conjugation/latin.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -686,9 +683,9 @@ write('flashcards/verb-conjugation/latin.html',
                     tsv_parsing.rows('data/inflection/latin/nonfinite-conjugations.tsv'), 6, 2),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
-                'subjunctive': '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
-                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {{c1::{verb}}}!',
+                'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
+                'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
+                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -724,7 +721,7 @@ write('flashcards/verb-conjugation/latin.html',
     ))
 
 write('flashcards/verb-conjugation/old-english.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -733,9 +730,9 @@ write('flashcards/verb-conjugation/old-english.html',
                 conjugation_annotation.annotate(
                     tsv_parsing.rows('data/inflection/old-english/conjugations.tsv'), 5, 1)),
             mood_templates = {
-                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -772,7 +769,7 @@ write('flashcards/verb-conjugation/old-english.html',
     ))
 
 write('flashcards/verb-conjugation/proto-indo-european.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -784,10 +781,10 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                     tsv_parsing.rows('data/inflection/proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
-                'subjunctive': '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
-                'optative':    '{subject} {modifiers} {indirect} {direct} {{c1::{verb}}}',
-                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {{c1::{verb}}}!',
+                'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
+                'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
+                'optative':    '{subject} {modifiers} {indirect} {direct} {verb}',
+                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -824,7 +821,7 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
     ))
 
 write('flashcards/verb-conjugation/russian.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -836,8 +833,8 @@ write('flashcards/verb-conjugation/russian.html',
                     tsv_parsing.rows('data/inflection/russian/nonfinite-conjugations.tsv'), 2, 3),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -890,7 +887,7 @@ write('flashcards/verb-conjugation/russian.html',
     ))
 
 write('flashcards/verb-conjugation/spanish.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -902,11 +899,11 @@ write('flashcards/verb-conjugation/spanish.html',
                     tsv_parsing.rows('data/inflection/spanish/nonfinite-conjugations.tsv'), 3, 2)
             ]), 
             mood_templates = {
-                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'conditional': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
-                'prohibitive': '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
+                'conditional': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
+                'prohibitive': '{subject}, {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -945,7 +942,7 @@ write('flashcards/verb-conjugation/spanish.html',
     ))
 
 write('flashcards/verb-conjugation/swedish.html', 
-    card_generation.generate(
+    card_generation.conjugation(
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
@@ -954,9 +951,9 @@ write('flashcards/verb-conjugation/swedish.html',
                 conjugation_annotation.annotate(
                     tsv_parsing.rows('data/inflection/swedish/conjugations.tsv'), 4, 3)),
             mood_templates = {
-                'indicative':  '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {{c1::{verb}}} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {{c1::{verb}}} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
+                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1003,12 +1000,12 @@ write('flashcards/verb-conjugation/swedish.html',
 
 # print(pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5))
 
-# print(emoji.conjugate(grammemes, translation.conjugation_lookups['emoji']))
-# print(emoji.conjugate({**grammemes, 'mood':'imperative', 'aspect':'imperfect', 'person':'2', 'number':'dual'}, translation.conjugation_lookups['emoji']))
-# print(emoji.conjugate({**grammemes, 'mood':'imperative', 'tense':'past', 'number':'dual'}, translation.conjugation_lookups['emoji']))
-# print(emoji.conjugate({**grammemes, 'mood':'dynamic', 'tense':'future', 'number':'plural'}, translation.conjugation_lookups['emoji']))
+# print(emoji.structure(grammemes, translation.conjugation_lookups['emoji']))
+# print(emoji.structure({**grammemes, 'mood':'imperative', 'aspect':'imperfect', 'person':'2', 'number':'dual'}, translation.conjugation_lookups['emoji']))
+# print(emoji.structure({**grammemes, 'mood':'imperative', 'tense':'past', 'number':'dual'}, translation.conjugation_lookups['emoji']))
+# print(emoji.structure({**grammemes, 'mood':'dynamic', 'tense':'future', 'number':'plural'}, translation.conjugation_lookups['emoji']))
 
-# translation.conjugate({**grammemes, 'proform':'personal'}, translation.conjugation_lookups['argument'])
+# translation.structure({**grammemes, 'proform':'personal'}, translation.conjugation_lookups['argument'])
 
 # for k,v in list(english_conjugation['finite'].items({'verb':'do',**category_to_grammemes}))[:100]: print(k,v)
 # for k,v in list(english_predicate_templates.items({'verb':'do',**category_to_grammemes}))[:100]: print(k,v)
