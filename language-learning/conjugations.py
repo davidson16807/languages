@@ -34,7 +34,7 @@ category_to_grammemes = {
                   ],
 
     # needed for correlatives in general
-    'proform':    ['personal', 'reflexive', 'emphatic-reflexive',
+    'proform':    ['common', 'personal', 'reflexive', 'emphatic-reflexive',
                    'demonstrative', 'interrogative', 'indefinite', 'elective', 'universal', 'negative', 
                    'relative', 'numeral'],
     # animacy ordered as follows:
@@ -46,14 +46,10 @@ category_to_grammemes = {
     # and a "plant" is "living", "dynamic", "nonagent", and "inanimate", among others.
     'animacy':    [             'human',               'nonhuman',    # member of the species homo sapiens
                    'sapient',   'humanoid',            'nonsapient',  # having the ability to think and speak
-                   'relatable', 'anthropomorphizable', 'unrelatable', # able to be empathized with
                    'animate',   'creature',            'inanimate',   # able to move around on its own
                    'living',    'plant',               'nonliving',   # able to grow and reproduce
-                   'dynamic',   'phenomenon',          'static',      # able to exhibit change without influence
-                   'mutable',   'item',                'immutable',   # able to exhibit change under influence
-                   'reachable', 'location',            'unreachable', # able to be physically accessed
                    'concrete',  'perceptible',         'abstract',    # able to take physical form
-                   'thing'],     
+                   'thing'],
     'abstraction':['institution','location','origin',
                    'destination','time','manner','reason','quality','amount'],
     'partitivity':['nonpartitive', 'partitive', 'bipartitive'],
@@ -193,6 +189,14 @@ declension_template_lookups = DictLookup(
     'declension',
     DictKeyIndexing('proform'), 
     {
+        'common': DictLookup(
+            'common',
+            DictTupleIndexing([
+                    'number',           
+                    'gender',           
+                    'partitivity', # needed for Quenya, Finnish
+                    'case',           
+                ])),
         'personal': DictLookup(
             'personal',
             DictTupleIndexing([
@@ -226,11 +230,11 @@ declension_template_lookups = DictLookup(
 
 class English:
     def __init__(self, 
-            pronoun_declension_lookups, 
+            declension_lookups, 
             conjugation_lookups, 
             predicate_templates, 
             mood_templates):
-        self.pronoun_declension_lookups = pronoun_declension_lookups
+        self.declension_lookups = declension_lookups
         self.conjugation_lookups = conjugation_lookups
         self.predicate_templates = predicate_templates
         self.mood_templates = mood_templates
@@ -243,6 +247,8 @@ class English:
             return ''
         else:
             return argument_lookup[dependant_clause]
+    def decline(self, grammemes):
+        return self.declension_lookups[grammemes][grammemes]
     def conjugate(self, grammemes, argument):
         dependant_clause = {
             **grammemes,
@@ -261,8 +267,8 @@ class English:
                   'command', 'forbid', 'permit', 'wish', 'intend', 'be able', 
                   dependant_clause['lemma']]
         mood_replacements = [
-            ('{subject}',              self.pronoun_declension_lookups['personal'][{**dependant_clause, 'case':'nominative'}]),
-            ('{subject|oblique}',      self.pronoun_declension_lookups['personal'][{**dependant_clause, 'case':'oblique'}]),
+            ('{subject}',              self.decline({**dependant_clause, 'case':'nominative'})),
+            ('{subject|oblique}',      self.decline({**dependant_clause, 'case':'oblique'})),
             ('{predicate}',            self.predicate_templates[{**dependant_clause,'lookup':'finite'}]),
             ('{predicate|infinitive}', self.predicate_templates[{**dependant_clause,'lookup':'infinitive'}]),
         ]
@@ -296,10 +302,7 @@ class Emoji:
         self.htmlAspectTransform = htmlAspectTransform
         self.mood_templates = mood_templates
     def stock_argument(self, grammemes, argument_lookup):
-        if grammemes not in argument_lookup:
-            return ''
-        else:
-            return argument_lookup[grammemes]
+        return argument_lookup[grammemes] if grammemes in argument_lookup else ''
     def conjugate(self, grammemes, argument, persons):
         audience_lookup = {
             'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
@@ -315,7 +318,10 @@ class Emoji:
                     getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(argument))
         encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
         subject = Person(
-            grammemes['number'][0]+('i' if grammemes['clusivity']=='inclusive' else ''), 
+            ''.join([
+                    (grammemes['number'][0] if grammemes['proform']=='personal' else '4'),
+                    ('i' if grammemes['clusivity']=='inclusive' else ''),
+                ]), 
             grammemes['gender'][0], 
             persons[int(grammemes['person'])-1].color)
         persons = [
@@ -328,12 +334,12 @@ class Emoji:
 
 class Translation:
     def __init__(self, 
-            pronoun_declension_lookups, 
+            declension_lookups, 
             conjugation_lookups, 
             mood_templates,
             category_to_grammemes,
             subject_map=lambda x:x):
-        self.pronoun_declension_lookups = pronoun_declension_lookups
+        self.declension_lookups = declension_lookups
         self.conjugation_lookups = conjugation_lookups
         self.mood_templates = mood_templates
         self.category_to_grammemes = category_to_grammemes
@@ -344,9 +350,25 @@ class Translation:
             return ''
         else:
             return argument_lookup[grammemes]
+    def structure(self, grammemes):
+        '''
+        Returns sentence structure that is appropriate for a given set of grammemes.
+        The sentence structure is represented as a string 
+        with language specific annotations that represent 
+        the words that must be conjugated or declined.
+        These annotations can be transformed using 
+        e.g. {subject|nominative} {verb|present} {direct-object|accusative}
+        '''
+        return self.mood_templates[grammemes['mood']]
+    def decline(self, grammemes):
+        if grammemes not in self.declension_lookups:
+            return None
+        if grammemes not in self.declension_lookups[grammemes]:
+            return None
+        return self.declension_lookups[grammemes][grammemes]
     def conjugate(self, grammemes, argument):
         grammemes = {**grammemes, 'language-type':'translated', 'case':'nominative'}
-        if grammemes not in self.pronoun_declension_lookups['personal']:
+        if self.decline(grammemes) is None:
             return None
         if grammemes not in self.conjugation_lookups['finite']:
             return None
@@ -358,9 +380,10 @@ class Translation:
             sentence = sentence.replace('{argument}', argument)
             for case in cases:
                 subject_case = {**grammemes, 'case':case}
-                if subject_case in self.pronoun_declension_lookups['personal']:
+                subject_declension = self.decline(subject_case)
+                if subject_declension:
                     sentence = sentence.replace('{subject|'+case+'}', 
-                        self.subject_map(self.pronoun_declension_lookups['personal'][subject_case]))
+                        self.subject_map(subject_declension))
             return sentence
 
 tsv_parsing = SeparatedValuesFileParsing()
@@ -780,8 +803,8 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                     'voice':     ['active', 'middle'],
                     'mood':      ['indicative','imperative','subjunctive','optative'],
                     'lemma':     ['be','become','carry','leave','work','do','ask',
-                                  'stretch','know','sit','protect','be red','setdown',
-                                  'want to see','renew','arrive','say','pointed out'],
+                                  'stretch','know','sit','protect','be red','set down',
+                                  'want to see','renew','arrive','say','point out'],
                 },
             subject_map = first_of_options,
         ),
@@ -900,7 +923,7 @@ write('flashcards/verb-conjugation/spanish.html',
                     'voice':      'active',
                     'mood':      ['indicative','conditional','subjunctive','imperative','prohibitive'],
                     'lemma':     ['be [inherently]', 'be [temporarily]', 
-                                  'have', 'have [in posession]', 
+                                  'have', 'have [in possession]', 
                                   'go', 'love', 'fear', 'part', 'know', 'drive'],
                 },
             subject_map = first_of_options,

@@ -108,6 +108,7 @@ case_category_to_grammemes = {
     'tense':  'present',
     'aspect': 'aorist',
     'mood':   'indicative',
+    'proform':'common',
     'person': ['1','2','3'],
     'number': ['singular','dual','plural'],
 }
