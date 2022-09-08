@@ -6,8 +6,8 @@ motion	attribute	subject	subject	verb	direct object	preposition	declined noun	de
 				be	bad		be	suspect emotion																
 				be	big		has-trait	size																
 				be	long		has-trait	length																
-				come/arrive			be	time																
-				come/arrive			be	event																
+				come			be	time																
+				come			be	event																
 		be	man	love			be	bad concept																
 		be	man	hate			be	good concept																
 		be	man	love			be	positive emotion																
@@ -21,7 +21,6 @@ motion	attribute	subject	subject	verb	direct object	preposition	declined noun	de
 		be	thought			of	be	emotion																
 		be	size			of	has-trait	size																
 		be	sound			of	can	be-heard																
-leveraged	location	be	man	right oneself		by way of	can	be-seen																
 leveraged	location	be	man	navigate		by way of	can	be-seen																
 departed	location	be	man	direct	his attention	from	can	be-seen																
 associated	location	be	man	direct	his attention	at	can	be-seen																
@@ -72,11 +71,11 @@ acquired	presence	be	man	work		to draw in	be	animate
 leveraged	presence	be	man	work		by using the presence of	be	animate																
 departed	aid	be	man	work		thanks to the aid of	be	concrete & inanimate																
 associated	aid	be	man	work		with the aid of	be	concrete & inanimate																
-acquired	aid	be	man	come/arrive		to aid the	be	concrete & inanimate																
+acquired	aid	be	man	come		to aid the	be	concrete & inanimate																
 leveraged	aid	be	man	work		by using the aid of 	be	concrete & inanimate																
 departed	aid	be	man	work		thanks to the aid of	be	animate																
 associated	aid	be	man	work		with the aid of	be	animate																
-acquired	aid	be	man	come/arrive		to the aid of	be	animate																
+acquired	aid	be	man	come		to the aid of	be	animate																
 leveraged	aid	be	man	work		by using the aid of 	be	animate																
 departed	lack	be	man	work		for want of	be	concrete																
 associated	lack	be	man	work		in the absence of	be	concrete																
@@ -86,9 +85,9 @@ departed	interest	be	man	work		out of the interest of	be	thing
 associated	interest	be	man	work		in the interest of	be	thing																
 acquired	interest	be	man	work		for the sake of	be	thing																
 leveraged	interest	be	man	work		by leveraging the interest of	be	thing																
-departed	ownership	be	ownable	come/arrive		from the ownership of	be	owner																
+departed	ownership	be	ownable	come		from the ownership of	be	owner																
 associated	ownership	be	ownable	be		owned by	be	owner																
-acquired	ownership	be	ownable	come/arrive		into the ownership of	be	owner																
+acquired	ownership	be	ownable	come		into the ownership of	be	owner																
 leveraged	ownership	be	ownable	work		due to being owned by	be	owner																
 departed	time	be	man	work		following	be	time																
 associated	time	be	man	work		during	be	time																

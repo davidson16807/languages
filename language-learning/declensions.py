@@ -126,23 +126,3 @@ conjugation_annotation = CellAnnotation(
 
 matching = DeclensionTemplateMatching(templates, allthat)
 
-for lemma in ['fish']:
-    for tuplekey in case_indexing.tuplekeys(case_category_to_grammemes):
-        dictkey = {
-            **case_category_to_grammemes,
-            **case_indexing.dictkey(tuplekey), 
-            'person': '3',
-            'noun': lemma,
-            'verb': match['verb'],
-        }
-        match = matching.match(lemma, dictkey['motion'], dictkey['attribute'])
-        if match:
-            argument = ' '.join([
-                match['direct-object'],
-                english.decline(dictkey)
-            ])
-            sentence = ' '.join([
-                english.conjugate(, argument),
-                match[''],
-            ])
-

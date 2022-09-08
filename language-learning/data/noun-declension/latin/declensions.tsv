@@ -1,4 +1,4 @@
-#	plurality	declension	gender	ending	etymology	nominative	genitive  	dative    	accusative	ablative  	vocative  	locative	# note: words with latin etymology come before those with greek etymology 
+noun	plurality	declension	gender	ending	etymology	nominative	genitive  	dative    	accusative	ablative  	vocative  	locative	# note: words with latin etymology come before those with greek etymology 
 man	singular	3	m	consonant	latin	homō       	hominis    	hominī     	hominem    	homine     	homō       	homine     	# since they are more common and easier to learn on average.
 man	plural	3	m	consonant	latin	hominēs      	hominum      	hominibus    	hominēs      	hominibus    	hominēs      	hominibus    	# declensions are ordered by frequency, so the most useful declensions can be prioritized in case the user quits early          
 day        	singular	5         	m|f   	-iēs        	latin    	diēs       	diēī       	diēī       	diem       	diē        	diēs       		
