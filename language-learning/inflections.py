@@ -843,6 +843,7 @@ matching = DeclensionTemplateMatching(templates, allthat)
 for lemma in ['animal']:
     for tuplekey in case_indexing.tuplekeys(category_to_grammemes):
         dictkey = case_indexing.dictkey(tuplekey)
+        case = use_case_to_grammatical_case[dictkey]
         match = matching.match(lemma, dictkey['motion'], dictkey['attribute'])
         if match:
             base_noun_key = {
@@ -853,35 +854,47 @@ for lemma in ['animal']:
                 'formality':   'familiar',
                 'gender':      'masculine',
             }
-            base_verb_key = {
+            nominative_key = {**base_noun_key, 'case':'nominative'}
+            accusative_key = {**base_noun_key, 'case':'accusative'}
+            oblique_key = {**base_noun_key, 'case':'oblique'}
+            modifier_key = {**base_noun_key, 'case':case}
+            verb_key = {
                 **base_noun_key,
-                'verb':      match['verb'], 
-                'tense':     'present', 
-                'voice':     'active',
-                'aspect':    'aorist', 
-                'mood':      'indicative',
+                'verb':   match['verb'], 
+                'tense':  'present', 
+                'voice':  'active',
+                'aspect': 'aorist', 
+                'mood':   'indicative',
             }
-            case = use_case_to_grammatical_case[dictkey]
             print(tuplekey, case)
             declension = latin.decline({**base_noun_key, 'noun':lemma, 'case':case})
             translated_text = latin.structure(
-                base_verb_key, 
-                latin.conjugate(base_verb_key),
+                verb_key, 
+                latin.conjugate(verb_key),
                 {
-                    'subject':    latin.decline({**base_noun_key, 'noun':match['subject-argument'], 'case':'nominative'}),
-                    'direct':     latin.decline({**base_noun_key, 'noun':match['direct-object'], 'case':'accusative'}),
-                    'modifiers': [cloze(1)(declension)],
+                    'subject':    ' '.join([
+                        latin.decline({**nominative_key, 'noun':'the'}) or '',
+                        latin.decline({**nominative_key, 'noun':match['subject-argument']})
+                    ]),
+                    'direct':     ' '.join([
+                        latin.decline({**accusative_key, 'noun':'the'}) or '',
+                        latin.decline({**accusative_key, 'noun':match['direct-object']}) or ''
+                    ]),
+                    'modifiers': [' '.join([
+                        latin.decline({**modifier_key, 'noun':'the', 'case':case}) or '', 
+                        cloze(1)(latin.decline({**modifier_key, 'noun':lemma, 'case':case}))
+                    ])],
                 })
             english_text = card_generation.english.structure(
-                base_verb_key,
+                verb_key,
                 {
-                    'subject|nominative': card_generation.english.decline({**base_noun_key, 'noun':match['subject-argument'], 'case':'nominative'}),
-                    'subject|nominative': card_generation.english.decline({**base_noun_key, 'noun':match['subject-argument'], 'case':'oblique'}),
-                    'direct': match['direct-object'],
+                    'subject|nominative': ' '.join(['the', card_generation.english.decline({**nominative_key, 'noun':match['subject-argument']})]),
+                    'subject|oblique':    ' '.join(['the', card_generation.english.decline({**oblique_key, 'noun':match['direct-object']})]),
+                    'direct':             ' '.join(['the', match['direct-object']]),
                     'modifiers':         [' '.join([
                         match['preposition'],
                         'the',
-                        card_generation.english.decline({**base_noun_key, 'noun':lemma, 'case':'oblique'})
+                        card_generation.english.decline({**oblique_key, 'noun':lemma})
                     ])],
                 })
             print(translated_text)
