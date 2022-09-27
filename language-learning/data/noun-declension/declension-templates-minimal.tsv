@@ -1,116 +1,116 @@
-motion	attribute	subject	subject	verb	direct object	preposition	declined noun	declined noun																
-		function	argument				function	argument																
-				be	bad		be	bad concept																
-				be	good		be	good concept																
-				be	good		be	ethical emotion																
-				be	bad		be	suspect emotion																
-				be	big		has-trait	size																
-				be	long		has-trait	length																
-				come			be	time																
-				come			be	event																
-		be	man	love			be	bad concept																
-		be	man	hate			be	good concept																
-		be	man	love			be	positive emotion																
-		be	man	hate			be	negative emotion																
-		be	man	love			be	time																
-		be	man	love			be	pet																
-		be	man	love			be	woman																
-		be	man	see			can	be-seen																
-		be	man	hear			can	be-heard																
-		be	thought			of	be	concept																
-		be	thought			of	be	emotion																
-		be	size			of	has-trait	size																
-		be	sound			of	can	be-heard																
-leveraged	location	be	man	navigate		by way of	can	be-seen																
-departed	location	be	man	direct	his attention	from	can	be-seen																
-associated	location	be	man	direct	his attention	at	can	be-seen																
-acquired	location	be	man	direct	his attention	toward	can	be-seen																
-departed	location	be	man	direct	his attention	from	can	be-heard																
-associated	location	be	man	direct	his attention	at	can	be-heard																
-acquired	location	be	man	direct	his attention	toward	can	be-heard																
-departed	location	be	man	direct	his attention	from	be	concept																
-associated	location	be	man	direct	his attention	at	be	concept																
-acquired	location	be	man	direct	his attention	toward	be	concept																
-departed	location	be	man	walk		away from	can	be-walked-to																
-associated	location	be	man	walk		at	can	be-walked-to																
-acquired	location	be	man	walk		to	can	be-walked-to																
-leveraged	location	be	man	walk		via	can	be-walked-to																
-departed	extent	be	man	direct	his attention	starting from	can	be-seen																
-associated	extent	be	man	direct	his attention	beside	can	be-seen																
-acquired	extent	be	man	direct	his attention	up to	can	be-seen																
-acquired	extent	be	man	direct	his attention	along [the edges of]	can	be-seen																
-departed	extent	be	man	direct	his attention	starting from	can	be-heard																
-associated	extent	be	man	direct	his attention	beside	can	be-heard																
-acquired	extent	be	man	direct	his attention	up to	can	be-heard																
-departed	extent	be	man	direct	his attention	starting from	be	concept																
-associated	extent	be	man	direct	his attention	beside	be	concept																
-acquired	extent	be	man	direct	his attention	up to	be	concept																
-departed	location	be	man	walk		starting from	can	be-walked-to																
-associated	location	be	man	walk		beside	can	be-walked-to																
-acquired	location	be	man	walk		up to	can	be-walked-to																
-leveraged	location	be	man	walk		along	can	be-walked-to																
-departed	vicinity	be	man	walk		from around	can	be-walked-by																
-associated	vicinity	be	man	walk		by	can	be-walked-by																
-acquired	vicinity	be	man	walk		to around	can	be-walked-by																
-leveraged	vicinity	be	man	walk		via	can	be-walked-by																
-departed	interior	be	man	walk		out of	can	be-walked-in																
-associated	interior	be	man	walk		in	can	be-walked-in																
-acquired	interior	be	man	walk		into	can	be-walked-in																
-leveraged	interior	be	man	walk		through	can	be-walked-in																
-departed	surface	be	man	walk		off of	can	be-walked-on																
-associated	surface	be	man	walk		on	can	be-walked-on																
-acquired	surface	be	man	walk		onto	can	be-walked-on																
-leveraged	surface	be	man	walk		over	can	be-walked-on																
-departed	presence	be	man	work		due to the presence of	be	concrete & inanimate																
-associated	presence	be	man	work		in the presence of	be	concrete & inanimate																
-acquired	presence	be	man	work		to produce	be	concrete & inanimate																
-leveraged	presence	be	man	work		by using the presence of	be	concrete & inanimate																
-departed	presence	be	man	work		due to the presence of	be	animate																
-associated	presence	be	man	work		in the presence of	be	animate																
-acquired	presence	be	man	work		to draw in	be	animate																
-leveraged	presence	be	man	work		by using the presence of	be	animate																
-departed	aid	be	man	work		thanks to the aid of	be	concrete & inanimate																
-associated	aid	be	man	work		with the aid of	be	concrete & inanimate																
-acquired	aid	be	man	come		to aid the	be	concrete & inanimate																
-leveraged	aid	be	man	work		by using the aid of 	be	concrete & inanimate																
-departed	aid	be	man	work		thanks to the aid of	be	animate																
-associated	aid	be	man	work		with the aid of	be	animate																
-acquired	aid	be	man	come		to the aid of	be	animate																
-leveraged	aid	be	man	work		by using the aid of 	be	animate																
-departed	lack	be	man	work		for want of	be	concrete																
-associated	lack	be	man	work		in the absence of	be	concrete																
-acquired	lack	be	man	work		to avoid	be	concrete																
-leveraged	lack	be	man	work		by taking advantage of the lack of	be	concrete																
-departed	interest	be	man	work		out of the interest of	be	thing																
-associated	interest	be	man	work		in the interest of	be	thing																
-acquired	interest	be	man	work		for the sake of	be	thing																
-leveraged	interest	be	man	work		by leveraging the interest of	be	thing																
-departed	ownership	be	ownable	come		from the ownership of	be	owner																
-associated	ownership	be	ownable	be		owned by	be	owner																
-acquired	ownership	be	ownable	come		into the ownership of	be	owner																
-leveraged	ownership	be	ownable	work		due to being owned by	be	owner																
-departed	time	be	man	work		following	be	time																
-associated	time	be	man	work		during	be	time																
-acquired	time	be	man	work		until	be	time																
-leveraged	time	be	man	work		by make use of	be	time																
-departed	time	be	man	work		following	be	event																
-associated	time	be	man	work		during	be	event																
-acquired	time	be	man	work		until	be	event																
-leveraged	time	be	man	work		by make use of the time during	be	event																
-departed	state of being	be	man	work		from having been	be	professional																
-associated	state of being	be	man	work		as a	be	professional																
-acquired	state of being	be	man	work		in order to be	be	professional																
-leveraged	state of being	be	man	work		due to having been	be	professional																
-departed	topic	be	man	direct	his attention	away from the topic of	be	thing																
-associated	topic	be	man	talk		on the topic of	be	thing																
-acquired	topic	be	man	direct	his attention	to the topic of	be	thing																
-leveraged	topic	be	man	direct	his attention	by using the example of	be	thing																
-associated	company	be	man	walk		in the company of	be	concrete | nonanimated																
-associated	company	be	man	walk		along with	be	animated																
-associated	resemblance	be	concept	be		like	be	thing																
-associated	resemblance	be	time	be		like	be	animate																
-associated	resemblance	be	event	be		like	be	animate																
-associated	resemblance	be	item	be		like	be	item																
-associated	resemblance	be	phenomenon	be		like	be	animate																
-associated	resemblance	be	plant	be		like	be	plant																
-associated	resemblance	be	man	be		like	be	animate																
+motion	cast	subject	subject	subject	verb	direct object	preposition	declined noun	declined noun	declined noun																
+		modifier	function	argument				modifier	function	argument																
+					be	bad			be	bad concept																
+					be	good			be	good concept																
+					be	good			be	ethical emotion																
+					be	bad			be	suspect emotion																
+					be	big			has-trait	size																
+					be	long			has-trait	length																
+					come			the	be	time																
+					come			the	be	event																
+		the	be	man	love				be	bad concept																
+		the	be	man	hate				be	good concept																
+		the	be	man	love				be	positive emotion																
+		the	be	man	hate				be	negative emotion																
+		the	be	man	love			the	be	time																
+		the	be	man	love			the	be	pet																
+		the	be	man	love			the	be	woman																
+		the	be	man	see			the	can	be-seen																
+		the	be	man	hear			the	can	be-heard																
+		the	be	thought			of		be	concept																
+		the	be	thought			of		be	emotion																
+		the	be	size			of		has-trait	size																
+		the	be	sound			of		can	be-heard																
+leveraged	location	the	be	man	navigate		by way of	the	can	be-seen																
+departed	location	the	be	man	direct	his attention	from	the	can	be-seen																
+associated	location	the	be	man	direct	his attention	at	the	can	be-seen																
+acquired	location	the	be	man	direct	his attention	toward	the	can	be-seen																
+departed	location	the	be	man	direct	his attention	from	the	can	be-heard																
+associated	location	the	be	man	direct	his attention	at	the	can	be-heard																
+acquired	location	the	be	man	direct	his attention	toward	the	can	be-heard																
+departed	location	the	be	man	direct	his attention	from	the	be	concept																
+associated	location	the	be	man	direct	his attention	at	the	be	concept																
+acquired	location	the	be	man	direct	his attention	toward	the	be	concept																
+departed	location	the	be	man	walk		away from	the	can	be-walked-to																
+associated	location	the	be	man	walk		at	the	can	be-walked-to																
+acquired	location	the	be	man	walk		to	the	can	be-walked-to																
+leveraged	location	the	be	man	walk		via	the	can	be-walked-to																
+departed	extent	the	be	man	direct	his attention	starting from	the	can	be-seen																
+associated	extent	the	be	man	direct	his attention	beside	the	can	be-seen																
+acquired	extent	the	be	man	direct	his attention	up to	the	can	be-seen																
+acquired	extent	the	be	man	direct	his attention	along [the edges of]	the	can	be-seen																
+departed	extent	the	be	man	direct	his attention	starting from	the	can	be-heard																
+associated	extent	the	be	man	direct	his attention	beside	the	can	be-heard																
+acquired	extent	the	be	man	direct	his attention	up to	the	can	be-heard																
+departed	extent	the	be	man	direct	his attention	starting from	the	be	concept																
+associated	extent	the	be	man	direct	his attention	beside	the	be	concept																
+acquired	extent	the	be	man	direct	his attention	up to	the	be	concept																
+departed	location	the	be	man	walk		starting from	the	can	be-walked-to																
+associated	location	the	be	man	walk		beside	the	can	be-walked-to																
+acquired	location	the	be	man	walk		up to	the	can	be-walked-to																
+leveraged	location	the	be	man	walk		along	the	can	be-walked-to																
+departed	vicinity	the	be	man	walk		from around	the	can	be-walked-by																
+associated	vicinity	the	be	man	walk		by	the	can	be-walked-by																
+acquired	vicinity	the	be	man	walk		to around	the	can	be-walked-by																
+leveraged	vicinity	the	be	man	walk		via	the	can	be-walked-by																
+departed	interior	the	be	man	walk		out of	the	can	be-walked-in																
+associated	interior	the	be	man	walk		in	the	can	be-walked-in																
+acquired	interior	the	be	man	walk		into	the	can	be-walked-in																
+leveraged	interior	the	be	man	walk		through	the	can	be-walked-in																
+departed	surface	the	be	man	walk		off of	the	can	be-walked-on																
+associated	surface	the	be	man	walk		on	the	can	be-walked-on																
+acquired	surface	the	be	man	walk		onto	the	can	be-walked-on																
+leveraged	surface	the	be	man	walk		over	the	can	be-walked-on																
+departed	presence	the	be	man	work		due to the presence of	the	be	concrete & inanimate																
+associated	presence	the	be	man	work		in the presence of	the	be	concrete & inanimate																
+acquired	presence	the	be	man	work		to produce	the	be	concrete & inanimate																
+leveraged	presence	the	be	man	work		by using the presence of	the	be	concrete & inanimate																
+departed	presence	the	be	man	work		due to the presence of	the	be	animate																
+associated	presence	the	be	man	work		in the presence of	the	be	animate																
+acquired	presence	the	be	man	work		to draw in	the	be	animate																
+leveraged	presence	the	be	man	work		by using the presence of	the	be	animate																
+departed	aid	the	be	man	work		thanks to the aid of	the	be	concrete & inanimate																
+associated	aid	the	be	man	work		with the aid of	the	be	concrete & inanimate																
+acquired	aid	the	be	man	come		to aid the	the	be	concrete & inanimate																
+leveraged	aid	the	be	man	work		by using the aid of 	the	be	concrete & inanimate																
+departed	aid	the	be	man	work		thanks to the aid of	the	be	animate																
+associated	aid	the	be	man	work		with the aid of	the	be	animate																
+acquired	aid	the	be	man	come		to the aid of	the	be	animate																
+leveraged	aid	the	be	man	work		by using the aid of 	the	be	animate																
+departed	lack	the	be	man	work		for want of	the	be	concrete																
+associated	lack	the	be	man	work		in the absence of	the	be	concrete																
+acquired	lack	the	be	man	work		to avoid	the	be	concrete																
+leveraged	lack	the	be	man	work		by taking advantage of the lack of	the	be	concrete																
+departed	interest	the	be	man	work		out of the interest of	the	be	thing																
+associated	interest	the	be	man	work		in the interest of	the	be	thing																
+acquired	interest	the	be	man	work		for the sake of	the	be	thing																
+leveraged	interest	the	be	man	work		by leveraging the interest of	the	be	thing																
+departed	ownership	the	be	ownable	come		from the ownership of	the	be	owner																
+associated	ownership	the	be	ownable	be		owned by	the	be	owner																
+acquired	ownership	the	be	ownable	come		into the ownership of	the	be	owner																
+leveraged	ownership	the	be	ownable	work		due to being owned by	the	be	owner																
+departed	time	the	be	man	work		following	the	be	time																
+associated	time	the	be	man	work		during	the	be	time																
+acquired	time	the	be	man	work		until	the	be	time																
+leveraged	time	the	be	man	work		by make use of	the	be	time																
+departed	time	the	be	man	work		following	the	be	event																
+associated	time	the	be	man	work		during	the	be	event																
+acquired	time	the	be	man	work		until	the	be	event																
+leveraged	time	the	be	man	work		by make use of the time during	the	be	event																
+departed	state of being	the	be	man	work		from having been	the	be	professional																
+associated	state of being	the	be	man	work		as a	the	be	professional																
+acquired	state of being	the	be	man	work		in order to be	the	be	professional																
+leveraged	state of being	the	be	man	work		due to having been	the	be	professional																
+departed	topic	the	be	man	direct	his attention	away from the topic of	the	be	thing																
+associated	topic	the	be	man	talk		on the topic of	the	be	thing																
+acquired	topic	the	be	man	direct	his attention	to the topic of	the	be	thing																
+leveraged	topic	the	be	man	direct	his attention	by using the example of	the	be	thing																
+associated	company	the	be	man	walk		in the company of	the	be	concrete | nonanimated																
+associated	company	the	be	man	walk		along with	the	be	animated																
+associated	resemblance	the	be	concept	be		like	the	be	thing																
+associated	resemblance	the	be	time	be		like	the	be	animate																
+associated	resemblance	the	be	event	be		like	the	be	animate																
+associated	resemblance	the	be	item	be		like	the	be	item																
+associated	resemblance	the	be	phenomenon	be		like	the	be	animate																
+associated	resemblance	the	be	plant	be		like	the	be	plant																
+associated	resemblance	the	be	man	be		like	the	be	animate																
