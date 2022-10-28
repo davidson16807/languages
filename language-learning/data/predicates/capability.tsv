@@ -4,7 +4,7 @@ can	move-willingly	can	move
 			
 can	be-walked-to	can	be-walked-by
 can	be-walked-to	can	be-run-to
-can	be-walked-to	can	move-willingly
+can	move-willingly	can	be-walked-to
 			
 can	be-walked-in	can	be-walked-to
 can	be-walked-in	can	be-run-in

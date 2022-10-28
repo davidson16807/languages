@@ -43,6 +43,7 @@ be	game-animal	can	live-on-land
 be	game-animal	be	vertebrate					
 be	small-game-animal	be	game-animal					
 be	big-game-animal	be	game-animal					
+be	draft-animal	can	live-on-land					
 be	draft-animal	can	be-domesticated					
 be	guard-animal	can	be-domesticated					
 be	guard-animal	can	eat-small-game-animal					

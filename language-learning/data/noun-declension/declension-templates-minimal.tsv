@@ -61,42 +61,46 @@ departed	surface	the	be	man	walk		off of	the	can	be-walked-on
 associated	surface	the	be	man	walk		on	the	can	be-walked-on																
 acquired	surface	the	be	man	walk		onto	the	can	be-walked-on																
 leveraged	surface	the	be	man	walk		over	the	can	be-walked-on																
-departed	presence	the	be	man	work		due to the presence of	the	be	concrete & inanimate																
-associated	presence	the	be	man	work		in the presence of	the	be	concrete & inanimate																
-acquired	presence	the	be	man	work		to produce	the	be	concrete & inanimate																
-leveraged	presence	the	be	man	work		by using the presence of	the	be	concrete & inanimate																
-departed	presence	the	be	man	work		due to the presence of	the	be	animate																
-associated	presence	the	be	man	work		in the presence of	the	be	animate																
-acquired	presence	the	be	man	work		to draw in	the	be	animate																
-leveraged	presence	the	be	man	work		by using the presence of	the	be	animate																
-departed	aid	the	be	man	work		thanks to the aid of	the	be	concrete & inanimate																
-associated	aid	the	be	man	work		with the aid of	the	be	concrete & inanimate																
-acquired	aid	the	be	man	come		to aid the	the	be	concrete & inanimate																
-leveraged	aid	the	be	man	work		by using the aid of 	the	be	concrete & inanimate																
-departed	aid	the	be	man	work		thanks to the aid of	the	be	animate																
-associated	aid	the	be	man	work		with the aid of	the	be	animate																
-acquired	aid	the	be	man	come		to the aid of	the	be	animate																
-leveraged	aid	the	be	man	work		by using the aid of 	the	be	animate																
-departed	lack	the	be	man	work		for want of	the	be	concrete																
-associated	lack	the	be	man	work		in the absence of	the	be	concrete																
-acquired	lack	the	be	man	work		to avoid	the	be	concrete																
-leveraged	lack	the	be	man	work		by taking advantage of the lack of	the	be	concrete																
-departed	interest	the	be	man	work		out of the interest of	the	be	thing																
-associated	interest	the	be	man	work		in the interest of	the	be	thing																
-acquired	interest	the	be	man	work		for the sake of	the	be	thing																
-leveraged	interest	the	be	man	work		by leveraging the interest of	the	be	thing																
-departed	ownership	the	be	ownable	come		from the ownership of	the	be	owner																
-associated	ownership	the	be	ownable	be		owned by	the	be	owner																
-acquired	ownership	the	be	ownable	come		into the ownership of	the	be	owner																
-leveraged	ownership	the	be	ownable	work		due to being owned by	the	be	owner																
+departed	presence	the	be	man	work		[due to the presence of]	the	be	concrete & inanimate																
+associated	presence	the	be	man	work		[in the presence of]	the	be	concrete & inanimate																
+acquired	presence	the	be	man	work		[to produce]	the	be	concrete & inanimate																
+leveraged	presence	the	be	man	work		[by using the presence of]	the	be	concrete & inanimate																
+departed	presence	the	be	man	work		[due to the presence of]	the	be	animate																
+associated	presence	the	be	man	work		[in the presence of]	the	be	animate																
+acquired	presence	the	be	man	work		[to draw in]	the	be	animate																
+leveraged	presence	the	be	man	work		[by using the presence of]	the	be	animate																
+departed	aid	the	be	man	work		[thanks to the aid of]	the	be	concrete & inanimate																
+associated	aid	the	be	man	work		[with the aid of]	the	be	concrete & inanimate																
+acquired	aid	the	be	man	come		[to aid the]	the	be	concrete & inanimate																
+leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	concrete & inanimate																
+departed	aid	the	be	man	work		[thanks to the aid of]	the	be	animate																
+associated	aid	the	be	man	work		[with the aid of]	the	be	animate																
+acquired	aid	the	be	man	come		[to the aid of]	the	be	animate																
+leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	animate																
+departed	lack	the	be	man	work		[for want of]	the	be	concrete																
+associated	lack	the	be	man	work		[in the absence of]	the	be	concrete																
+acquired	lack	the	be	man	work		[to avoid]	the	be	concrete																
+leveraged	lack	the	be	man	work		[by taking advantage of the lack of]	the	be	concrete																
+departed	interest	the	be	man	work		[out of the interest of]	the	be	thing																
+associated	interest	the	be	man	work		[in the interest of]	the	be	thing																
+acquired	interest	the	be	man	work		[for the sake of]	the	be	thing																
+leveraged	interest	the	be	man	work		[by appealing to the interest of]	the	be	thing																
+departed	purpose	the	be	man	work		[following from the purpose of]	the	be	thing																
+associated	purpose	the	be	man	work		[assuming the purpose of]	the	be	thing																
+acquired	purpose	the	be	man	work		[for the purpose of]	the	be	thing																
+leveraged	purpose	the	be	man	work		[by leveraging the purpose of]	the	be	thing																
+departed	ownership	the	be	ownable	come		from [the ownership of]	the	be	owner																
+associated	ownership	the	be	ownable	be		[in the ownership] of	the	be	owner																
+acquired	ownership	the	be	ownable	come		to [the ownership of]	the	be	owner																
+leveraged	ownership	the	be	ownable	work		[due to the ownership] of	the	be	owner																
 departed	time	the	be	man	work		following	the	be	time																
 associated	time	the	be	man	work		during	the	be	time																
 acquired	time	the	be	man	work		until	the	be	time																
-leveraged	time	the	be	man	work		by make use of	the	be	time																
+leveraged	time	the	be	man	work		by making use of	the	be	time																
 departed	time	the	be	man	work		following	the	be	event																
 associated	time	the	be	man	work		during	the	be	event																
 acquired	time	the	be	man	work		until	the	be	event																
-leveraged	time	the	be	man	work		by make use of the time during	the	be	event																
+leveraged	time	the	be	man	work		by making use of the time during	the	be	event																
 departed	state of being	the	be	man	work		from having been	the	be	professional																
 associated	state of being	the	be	man	work		as a	the	be	professional																
 acquired	state of being	the	be	man	work		in order to be	the	be	professional																

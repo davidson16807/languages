@@ -3,7 +3,7 @@ import copy
 import collections
 import itertools
 
-import inflector
+import plurality
 
 from transforms import *
 from shorthands import *
@@ -17,6 +17,8 @@ category_to_grammemes = {
 
     # needed to lookup the argument that is used to demonstrate a verb
     'language-type':   ['english', 'translated', 'transcripted'], 
+
+    'writing-system':['latin','greek','cyrillic','devangari'],
 
     # needed for infinitives
     'completion': ['full', 'bare'],
@@ -76,7 +78,7 @@ category_to_grammemes = {
     'motion': ['departed', 'associated', 'acquired', 'leveraged'],
     'attribute': [
         'location', 'extent', 'vicinity', 'interior', 'surface', 
-        'presence', 'aid', 'lack', 'interest', 'purpose', 'owner', 
+        'presence', 'aid', 'lack', 'interest', 'purpose', 'ownership', 
         'time', 'state of being', 'topic', 'company', 'resemblance'],
     
 
@@ -259,7 +261,7 @@ class English:
         if content is None:
             return (
                 self.declension_lookups[grammemes][grammemes] if grammemes['proform'] != 'common'
-                else inflector.pluralize(grammemes['noun']) if grammemes['number'] != 'singular'
+                else plurality.english.pluralize(grammemes['noun']) if grammemes['number'] != 'singular'
                 else grammemes['noun'])
         if type(content) in {list,set}:
             return [self.decline(grammemes, element) for element in content]
@@ -865,6 +867,9 @@ write('flashcards/verb-conjugation/german.html',
     ))
 '''
 
+
+declension_verb_annotation = CellAnnotation(grammeme_to_category, {0:'language'}, {0:'verb'}, {'lookup':'finite','gender':['masculine','feminine']})
+
 latin = Translation(
     declension_population.index([
         *pronoun_annotation.annotate(
@@ -880,6 +885,11 @@ latin = Translation(
             tsv_parsing.rows('data/inflection/latin/finite-conjugations.tsv'), 3, 4),
         *conjugation_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/nonfinite-conjugations.tsv'), 6, 2),
+        *[(annotation, cell) for (annotation, cell) in 
+            declension_verb_annotation.annotate(
+                tsv_parsing.rows(
+                    'data/noun-declension/declension-template-verbs.tsv'), 2, 9)
+            if annotation['language'] == 'latin']
     ]),
     mood_templates = {
         'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
@@ -934,17 +944,17 @@ from population import ListLookupPopulation, FlatLookupPopulation
 
 tsv_parsing = SeparatedValuesFileParsing()
 rows = [
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal-anatomy.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/animal.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/deity.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/human.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/humanoid.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/mythical.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/plant-anatomy.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/plant.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/biotic/sapient.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/animacy-hierarchy.tsv'),
-  *tsv_parsing.rows('data/noun-declension/predicates/capability.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/animal-anatomy.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/animal.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/deity.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/human.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/humanoid.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/mythical.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/plant-anatomy.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/plant.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/sapient.tsv'),
+  *tsv_parsing.rows('data/predicates/animacy-hierarchy.tsv'),
+  *tsv_parsing.rows('data/predicates/capability.tsv'),
 ]
 
 level0_subset_relations = set()
@@ -965,12 +975,11 @@ for (f,x),(g,y) in level0_subset_relations:
         for f2 in level1_subset_relations[f]:
             allthat[f2,y](allthat[f2,x])
 
-header_columns = [
+template_annotation = RowAnnotation([
     'motion', 'attribute', 
     'subject-adjective', 'subject-function', 'subject-argument', 
     'verb', 'direct-object', 'preposition', 
-    'declined-noun-adjective', 'declined-noun-function', 'declined-noun-argument']
-template_annotation = RowAnnotation(header_columns)
+    'declined-noun-adjective', 'declined-noun-function', 'declined-noun-argument'])
 template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
         DictTupleIndexing(['motion','attribute']), list))
@@ -979,6 +988,7 @@ templates = \
         template_annotation.annotate(
             tsv_parsing.rows(
                 'data/noun-declension/declension-templates-minimal.tsv')))
+
 
 class DeclensionTemplateMatching:
     def __init__(self, templates, predicates):
@@ -996,7 +1006,7 @@ class DeclensionTemplateMatching:
                       key=lambda template: len(declined_noun(template)))
         return templates[0] if len(templates) > 0 else None
 
-case_annotation = RowAnnotation(['motion','attribute','case'])
+case_annotation = RowAnnotation(['motion','attribute','case','preposition'])
 case_indexing = DictTupleIndexing(['motion','attribute'])
 case_population = \
     FlatLookupPopulation(
@@ -1009,42 +1019,54 @@ use_case_to_grammatical_case = \
 
 matching = DeclensionTemplateMatching(templates, allthat)
 
+'''
+ROADMAP:
+* template maching should find the template for "walking", not "directing attention"
+* fix issue where certain verbs cannot be found in csv
+* template population should produce an error if no verb is found for them
+* add templates for nominative, accusative, genitive, and dative
+* add bracketed comments to english templates
+'''
+
 for lemma in ['animal']:
+    emoji_representation = 'horse'
     for tuplekey in case_indexing.tuplekeys(category_to_grammemes):
         dictkey = case_indexing.dictkey(tuplekey)
-        case = use_case_to_grammatical_case[dictkey]
-        match = matching.match(lemma, dictkey['motion'], dictkey['attribute'])
-        if match:
-            base_key = {
-                'proform':     'common',
-                'person':      '3',
-                'number':      'singular', 
-                'partitivity': 'nonpartitive',
-                'formality':   'familiar',
-                'gender':      'masculine',
-                'tense':  'present', 
-                'voice':  'active',
-                'aspect': 'aorist', 
-                'mood':   'indicative',
-            }
-            print(tuplekey, case)
-            translated_text = latin.inflect(
-                Clause(base_key, match['verb'],
-                {
-                    'subject':    NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                    'direct':     latin.parse(lambda x: NounPhrase({'case':'accusative'}, x), match['direct-object']),
-                    'modifiers':  NounPhrase({'case':case}, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
-                }))
-            english_text = card_generation.english.inflect(
-                Clause(base_key, match['verb'],
-                {
-                    'subject|nominative': NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                    'subject|oblique':    NounPhrase({'case':'oblique'}, ['the',match['subject-argument']]),
-                    'direct':             NounPhrase({'case':'oblique'}, [match['direct-object']]),
-                    'modifiers':          NounPhrase({'case':'oblique'}, [match['preposition'], match['declined-noun-adjective'] or None, lemma]),
-                }))
-            print(translated_text)
-            print(english_text)
+        if dictkey in use_case_to_grammatical_case:
+            case = use_case_to_grammatical_case[dictkey]
+            match = matching.match(emoji_representation, dictkey['motion'], dictkey['attribute'])
+            if match:
+                base_key = {
+                    'proform':     'common',
+                    'person':      '3',
+                    'number':      'singular', 
+                    'partitivity': 'nonpartitive',
+                    'formality':   'familiar',
+                    'gender':      'masculine',
+                    'tense':  'present', 
+                    'voice':  'active',
+                    'aspect': 'aorist', 
+                    'mood':   'indicative',
+                }
+                print(tuplekey, case)
+                translated_text = latin.inflect(
+                    Clause(base_key, match['verb'],
+                    {
+                        'subject':    NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
+                        'direct':     latin.parse(lambda x: NounPhrase({'case':'accusative'}, x), match['direct-object']),
+                        'modifiers':  NounPhrase({'case':case}, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
+                    }))
+                print(translated_text)
+                english_text = card_generation.english.inflect(
+                    Clause(base_key, match['verb'],
+                    {
+                        'subject|nominative': NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
+                        'subject|oblique':    NounPhrase({'case':'oblique'}, ['the',match['subject-argument']]),
+                        'direct':             NounPhrase({'case':'oblique'}, [match['direct-object']]),
+                        'modifiers':          NounPhrase({'case':'oblique'}, [match['preposition'], match['declined-noun-adjective'] or None, lemma]),
+                    }))
+                print(english_text)
+
 
 
 
