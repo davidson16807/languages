@@ -268,8 +268,6 @@ class English:
                 self.decline({**grammemes, **content.grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
-        elif type(content) in {Literal}:
-            return content
         elif type(content) in {Cloze}:
             return Cloze(content.id, self.decline(grammemes, content.content))
         else:
@@ -282,8 +280,6 @@ class English:
             if grammemes not in self.conjugation_lookups['finite']:
                 return None
             return self.conjugation_lookups['finite'][grammemes]
-        elif type(content) in {Literal}:
-            return content
         elif type(content) in {Cloze}:
             return Cloze(content.id, self.conjugate(grammemes, content.content))
         else:
@@ -344,8 +340,6 @@ class English:
             return content
         elif type(content) in {NounPhrase}:
             return self.format(content.content)
-        elif type(content) in {Literal}:
-            return content.text
         elif type(content) in {Cloze}:
             return '{{c'+str(content.id)+'::'+self.format(content.content)+'}}'
     def parse(self, NodeClass, text):
@@ -355,8 +349,6 @@ class English:
             return text.split(' ')
         elif NodeClass in {str}:
             return text
-        elif NodeClass in Literal:
-            return Literal(text)
         else:
             return NodeClass(self.parse(text))
 
@@ -395,10 +387,6 @@ class Emoji:
         recounting = recounting.replace('\\scene', scene)
         recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
         return recounting
-
-class Literal:
-    def __init__(self, text):
-        self.text = text
 
 class Cloze:
     def __init__(self, id_, content):
@@ -443,8 +431,6 @@ class Translation:
             return text.split(' ')
         elif NodeClass in {str}:
             return text
-        elif NodeClass in {Literal}:
-            return Literal(text)
         else:
             return NodeClass(text.split(' '))
     def format(self, content):
@@ -468,8 +454,6 @@ class Translation:
         elif type(content) in {AdpositionalPhrase}:
             return ' '.join([content.preposition, self.format(content.content)])
             # TODO: implement language agnostic way to specify location of adpositions
-        elif type(content) in {Literal}:
-            return content.text
         elif type(content) in {Cloze}:
             return '{{c'+str(content.id)+'::'+self.format(content.content)+'}}'
     def exists(self, content):
@@ -485,8 +469,6 @@ class Translation:
             return self.exists(content.preposition)
         elif type(content) in {Clause}:
             return self.exists(content.verb)
-        elif type(content) in {Literal}:
-            return True
         elif type(content) in {Cloze}:
             return self.exists(content.content)
     def decline(self, grammemes, content):
@@ -513,8 +495,6 @@ class Translation:
                 self.decline({**grammemes, **content.grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
-        elif type(content) in {Literal}:
-            return content
         elif type(content) in {Cloze}:
             return Cloze(content.id, self.decline(grammemes, content.content))
         else:
@@ -528,8 +508,6 @@ class Translation:
                 return None
             else:
                 return self.conjugation_lookups['finite'][grammemes]
-        elif type(content) in {Literal}:
-            return content
         elif type(content) in {Cloze}:
             return Cloze(content.id, self.conjugate(grammemes, content.content))
         else:
@@ -628,10 +606,10 @@ class CardGeneration:
                         'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
                     }))
                 if translation.exists(inflected_translation):
-                    english_text = self.english.format(inflected_english)
+                    english_text    = self.english.format(inflected_english)
                     translated_text = translation.format(inflected_translation)
-                    emoji_argument      = translation.conjugation_lookups['emoji'][dictkey]
-                    emoji_text          = self.emoji.inflect(dictkey, emoji_argument, persons)
+                    emoji_argument  = translation.conjugation_lookups['emoji'][dictkey]
+                    emoji_text      = self.emoji.inflect(dictkey, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.english_word(english_map(english_text)), 
