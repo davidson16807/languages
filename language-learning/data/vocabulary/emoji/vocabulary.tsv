@@ -654,6 +654,9 @@
 💀	noun	skull
 🦷	noun	tooth
 🦴	noun	bone
+🩻 	noun 	skeleton
+🩻 	noun 	rib
+🩻 	noun 	ribcage
 🫁	noun	organ
 🌭	noun	guts
 🌭	noun	entrails
@@ -1141,6 +1144,13 @@
 🚧	noun	fencing
 🚧	adjective	fenced
 🛞	noun	wheel
+🛞	noun	cart
+🛞	noun	wagon
+🛞	noun	carriage
+🛞	verb	roll
+🛞	verb	rolled
+🛞	verb	rolling
+🛞	adjective	rolling
 👚	noun	cloth
 👚	noun	clothes
 👚	noun	clothing
@@ -3374,6 +3384,12 @@ F	adverb	false
 🍲 	verb	bubbled
 🍲 	verb	bubbling
 🍲 	adjective 	bubbling
+🍲 	adjective 	bubbly
+🫧 	noun 	foam
+🫧 	verb 	foam
+🫧 	verb 	foamed
+🫧 	verb 	foaming
+🫧 	adjective 	foaming
 🥐 	verb	toast
 🥐 	verb	toasted
 🥐 	verb	toasting
@@ -6359,7 +6375,7 @@ F	adverb	false
 🍒	noun	cherries
 🍒	noun	cherry
 🍓	noun	strawberry
-🫐	noun	blueberries
+🫐	noun	blueberry
 🫐	noun	berry
 🍈	noun	melon
 🍉	noun	watermelon
@@ -6385,6 +6401,11 @@ F	adverb	false
 🥜	noun	peanut
 🌰	noun	almond
 🫘 	noun 	bean
+<span style="filter: saturate(10%)">🫘</span> 	noun 	blackbean
+<span style="filter: brightness(3) sepia(2)">🫘</span> 	noun 	chickpea
+<span style="filter: brightness(3) sepia(1) hue-rotate(90deg)">🫘</span> 	noun 	edamame
+<span style="filter: brightness(3) sepia(1) hue-rotate(90deg)">🫘</span> 	noun 	soybean
+<span style="filter: hue-rotate(270deg)">🫘</span> 	noun 	jellybean
 🫛 	noun 	pea
 🫛 	noun 	pod
 🫚 	noun 	ginger

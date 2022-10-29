@@ -17,52 +17,52 @@ Buck_ID	English		Emoji
 1-320	sea	noun	⛵
 1-322	calm	adjective	😌
 1-323	rough	adjective	🪨
-1-324	foam	noun	🌊
+1-324	foam	noun	🫧
 1-329	ocean	noun	🚢
 1-330	lake	noun	🚣‍♂️
 1-340	gulf|bay		
 1-341	lagoon		
-1-342	reef		
+1-342	reef	noun	🪸
 1-343	headland|point		
-1-350	wave		🌊
+1-350	wave	noun	🌊
 1-352	tide		
 1-353	lowtide		
 1-354	hightide		
-1-360	river|stream|brook		
+1-360	river|stream|brook	noun	🏞️
 1-362	whirlpool		
 1-370	spring|well		
 1-380	swamp		
 1-390	waterfall		
-1-410	woods|forest		
-1-420	tree		
-1-430	wood		
-1-440	stone|rock		
+1-410	woods|forest	noun	🌳🌳🌳
+1-420	tree	noun	🌳
+1-430	wood	noun	🪵
+1-440	stone|rock	noun	🪨
 1-450	earthquake		
-1-510	sky		
-1-520	sun		
-1-530	moon		
-1-540	star		
-1-550	lightning		
-1-560	thunder		
-1-570	lightning		
-1-580	storm		
-1-590	rainbow		
-1-610	light		
-1-620	darkness		
-1-630	shade|shadow		
+1-510	sky	noun	🌌
+1-520	sun	noun	☀️
+1-530	moon	noun	🌙
+1-540	star	noun	⭐
+1-550	lightning	noun	⚡
+1-560	thunder		⚡
+1-570	lightning	noun	🌩️⸩👂
+1-580	storm	noun	⛈️
+1-590	rainbow	noun	🌈
+1-610	light	noun	💡
+1-620	darkness	noun	🌃
+1-630	shade|shadow	noun	<span style="filter: drop-shadow(16px 16px 1px black)">🕊️</span>
 1-640	dew		
-1-710	air		
-1-720	wind		
-1-730	cloud		
-1-740	fog		
-1-750	rain		
-1-760	snow		
-1-770	ice		
-1-780	weather		
-1-810	fire		
-1-820	flame		
-1-830	smoke		
-1-840	ashes		
+1-710	air	noun	💨
+1-720	wind	noun	💨
+1-730	cloud	noun	☁️
+1-740	fog	noun	🌫️
+1-750	rain	noun	🌧️
+1-760	snow	noun	🌨️
+1-770	ice	noun	🧊
+1-780	weather	noun	⛅
+1-810	fire	noun	🔥
+1-820	flame	noun	🕯️
+1-830	smoke	noun	🚬
+1-840	ashes	noun	⚱️
 1-841	embers		
 1-851	burn		
 1-852	burn		
@@ -70,11 +70,11 @@ Buck_ID	English		Emoji
 1-861	extinguish		
 1-870	match		
 1-880	firewood		
-1-890	charcoal		
+1-890	charcoal	noun	<span style="filter: grayscale(100%) brightness(20%)">🪨</span>
 10-110	move		
 10-120	turn over		
 10-130	turn around		
-10-140	wind|wrap		
+10-140	wind|wrap	verb	🪢
 10-150	roll		
 10-160	drop		
 10-170	twist		
@@ -82,41 +82,41 @@ Buck_ID	English		Emoji
 10-220	raise|lift		
 10-230	fall		
 10-240	drip		
-10-250	throw		
+10-250	throw	verb	🤾
 10-252	catch ball		
-10-260	shake		
+10-260	shake	verb	🫨
 10-320	flow		
 10-330	sink		
-10-340	float		
-10-350	swim		
+10-340	float	verb	🎈
+10-350	swim	verb	🏊
 10-351	dive		
 10-352	splash		
-10-360	sail		
-10-370	fly		
+10-360	sail	noun	⛵
+10-370	fly	verb	🦅
 10-380	blow		
-10-410	creep|crawl		
-10-412	kneel		
+10-410	creep|crawl	verb	🐛
+10-412	kneel	verb	🧎
 10-413	crouch		
-10-420	slide|slip		
-10-430	jump|leap		
+10-420	slide|slip	verb	🛝
+10-430	jump|leap	verb	🐇
 10-431	kick		
-10-440	dance		
-10-450	walk		
+10-440	dance	verb	🕺
+10-450	walk	verb	🚶
 10-451	limp		
-10-460	run		
+10-460	run	verb	🏃
 10-470	go		
 10-471	go up		
-10-472	climb		
+10-472	climb	verb	🧗
 10-473	go down		
 10-474	go out		
 10-480	come		
 10-481	come back		
 10-490	go away|depart		
-10-491	disappear		
-10-510	flee		
-10-520	follow		
-10-530	pursue		
-10-550	reach|arrive		
+10-491	disappear	verb	🫥
+10-510	flee	verb	←🏃🏃
+10-520	follow	verb	🚶←🚶
+10-530	pursue	verb	🏃←🏃
+10-550	reach|arrive	verb	🏠←🚶
 10-560	approach		
 10-570	enter		
 10-610	carry		
@@ -125,32 +125,32 @@ Buck_ID	English		Emoji
 10-614	carry-on-head		
 10-615	carry-underarm		
 10-620	bring		
-10-630	send		
+10-630	send	verb	📤
 10-640	lead		
-10-650	drive		
-10-660	ride		
-10-670	push|shove		
-10-710	road		
-10-720	path		
-10-740	bridge		
-10-750	carriage|wagon|cart		
-10-760	wheel		
+10-650	drive	verb	🚗
+10-660	ride	verb	🏇
+10-670	push|shove	verb	🫸→
+10-710	road	noun	🛣️
+10-720	path	noun	👣
+10-740	bridge	noun	🌉
+10-750	carriage|wagon|cart 		
+10-760	wheel	noun	🛞
 10-770	axle		
-10-780	yoke		
-10-810	ship		
-10-830	boat		
-10-831	canoe		
+10-780	yoke	noun	🐂
+10-810	ship	noun	⛵
+10-830	boat	noun	🚢
+10-831	canoe	noun	🛶
 10-832	outrigger		
 10-840	raft		
-10-850	oar		
-10-851	paddle		
-10-852	row		
+10-850	oar	noun	🚣‍♂️←
+10-851	paddle	noun	🚣‍♂️←
+10-852	row	verb	🚣‍♂️
 10-860	rudder		
-10-870	mast		
-10-880	sail		
-10-890	anchor		
+10-870	mast	noun	⛵←
+10-880	sail	noun	⛵←
+10-890	anchor	noun	⚓
 10-910	harbor|port		
-10-920	land		
+10-920	land	noun	🗾
 11-110	have		
 11-120	own|possess		
 11-130	take		
@@ -159,38 +159,38 @@ Buck_ID	English		Emoji
 11-160	get|obtain		
 11-170	keep|retain		
 11-180	thing		
-11-210	give		
+11-210	give	verb	🎁
 11-220	give back		
 11-240	preserve|look after		
-11-250	save|rescue		
+11-250	save|rescue	verb	🛟
 11-270	destroy		
-11-280	harm|injure|damage		
-11-310	seek|look for		
+11-280	harm|injure|damage	verb	🤕😠
+11-310	seek|look for	verb	🔎
 11-320	find		
 11-330	lose		
 11-340	release|let go		
-11-430	money		
-11-440	coin		
-11-510	rich		
-11-520	poor		
+11-430	money	noun	💰
+11-440	coin	noun	🪙
+11-510	rich	adjective	🧐
+11-520	poor	adjective	🥺
 11-530	beggar		
 11-540	avaricious|stingy		
 11-610	lend		
 11-620	borrow		
 11-630	owe		
 11-640	debt		
-11-650	pay		
+11-650	pay	verb	💸
 11-660	account|reckoning		
 11-690	tax|tribute		
 11-770	hire		
 11-780	wages		
 11-790	earn		
-11-810	buy		
-11-820	sell		
+11-810	buy	verb	👨‍🦱💸→
+11-820	sell	verb	💸→🧑‍💼
 11-830	trade|barter		
 11-840	merchant		
-11-850	market place		
-11-860	store|shop		
+11-850	market place	noun	🏪
+11-860	store|shop	noun	🏬
 11-870	price		
 11-880	dear|costly|expensive		
 11-890	cheap		
@@ -285,26 +285,26 @@ Buck_ID	English		Emoji
 13-180	enough		
 13-181	some		
 13-190	multitude|crowd		
-13-20	two		
+13-20	two	noun	2
 13-210	full		
 13-220	empty		
 13-230	part|piece		
-13-240	half		
-13-30	three		
+13-240	half	noun	½
+13-30	three	noun	3
 13-330	alone|only		
-13-340	first		
+13-340	first	noun	1ˢᵗ
 13-350	last		
-13-360	second		
+13-360	second	noun	2ⁿᵈ
 13-370	pair		
-13-380	two times		
-13-40	four		
-13-420	third		
+13-380	two times	noun	x2
+13-40	four	noun	4ᵗʰ
+13-420	third	noun	3ʳᵈ
 13-440	three times		
-13-50	five		
-13-60	six		
-13-70	seven		
-13-80	eight		
-13-90	nine		
+13-50	five	noun	5
+13-60	six	noun	6
+13-70	seven	noun	7
+13-80	eight	noun	8
+13-90	nine	noun	9
 14-110	time		
 14-120	age		
 14-130	new		
@@ -331,35 +331,35 @@ Buck_ID	English		Emoji
 14-332	long-time		
 14-340	never		
 14-350	again		
-14-410	day		
-14-420	night		
-14-430	dawn		
-14-440	morning		
-14-450	noon|midday		
-14-451	afternoon		
-14-460	evening		
+14-410	day	noun	🌅🏙️🌇🌃
+14-420	night	noun	🌃
+14-430	dawn	noun	🌆
+14-440	morning	noun	🌅
+14-450	noon|midday	noun	🏙️
+14-451	afternoon	noun	🏙️
+14-460	evening	noun	🌇
 14-470	today		
 14-480	tomorrow		
 14-481	day-after-tomorrow		
 14-490	yesterday		
 14-491	day-before-yesterday		
-14-510	hour		
+14-510	hour	noun	🕰️
 14-530	clock|timepiece		
-14-610	week		
-14-620	Sunday		
-14-630	Monday		
-14-640	Tuesday		
-14-650	Wednesday		
-14-660	Thursday		
-14-670	Friday		
-14-680	Saturday		
+14-610	week	noun	📅
+14-620	Sunday	noun	Sun
+14-630	Monday	noun	Mon
+14-640	Tuesday	noun	Tue
+14-650	Wednesday	noun	Wed
+14-660	Thursday	noun	Thu
+14-670	Friday	noun	Fri
+14-680	Saturday	noun	Sat
 14-710	month		
-14-730	year		
-14-740	winter		
-14-750	spring		
-14-760	summer		
-14-770	autumn		
-14-780	season		
+14-730	year	noun	🌱🌿🍂☃️
+14-740	winter	noun	☃️
+14-750	spring	noun	🌱
+14-760	summer	noun	🌿
+14-770	autumn	noun	🍂
+14-780	season	noun	🌱🌿🍂☃️
 15-210	smell		
 15-212	sniff		
 15-220	smell		
