@@ -250,12 +250,6 @@ class English:
         self.conjugation_lookups = conjugation_lookups
         self.predicate_templates = predicate_templates
         self.mood_templates = mood_templates
-    def stock_argument(self, grammemes, argument_lookup):
-        grammemes = {**grammemes, 'language-type':'english'}
-        if grammemes not in argument_lookup:
-            return []
-        else:
-            return Literal(argument_lookup[grammemes])
     def decline(self, grammemes, content):
         grammemes = {**grammemes, 'language-type':'english'}
         if content is None:
@@ -272,6 +266,8 @@ class English:
         elif type(content) in {NounPhrase}:
             return NounPhrase(content.grammemes, 
                 self.decline({**grammemes, **content.grammemes}, content.content))
+        elif type(content) in {StockModifier}:
+            return content.lookup[grammemes] if grammemes in content.lookup else []
         elif type(content) in {Literal}:
             return content
         elif type(content) in {Cloze}:
@@ -371,8 +367,6 @@ class Emoji:
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
         self.mood_templates = mood_templates
-    def stock_argument(self, grammemes, argument_lookup):
-        return argument_lookup[grammemes] if grammemes in argument_lookup else ''
     def inflect(self, grammemes, argument, persons):
         audience_lookup = {
             'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
@@ -421,6 +415,10 @@ class AdpositionalPhrase:
         self.grammemes = grammemes
         self.preposition = preposition
         self.content = content
+
+class StockModifier:
+    def __init__(self, lookup):
+        self.lookup = lookup
 
 class Clause:
     def __init__(self, grammemes, verb, nouns=[]):
@@ -491,12 +489,6 @@ class Translation:
             return True
         elif type(content) in {Cloze}:
             return self.exists(content.content)
-    def stock_argument(self, grammemes, argument_lookup): # TODO: find a way to do away with this
-        grammemes = {**grammemes, 'language-type':'translated'}
-        if grammemes not in argument_lookup:
-            return []
-        else:
-            return Literal(argument_lookup[grammemes])
     def decline(self, grammemes, content):
         grammemes = {**grammemes, 'language-type':'translated'}
         if content is None:
@@ -519,6 +511,8 @@ class Translation:
         elif type(content) in {AdpositionalPhrase}:
             return AdpositionalPhrase(content.grammemes, content.preposition,
                 self.decline({**grammemes, **content.grammemes}, content.content))
+        elif type(content) in {StockModifier}:
+            return content.lookup[grammemes] if grammemes in content.lookup else []
         elif type(content) in {Literal}:
             return content
         elif type(content) in {Cloze}:
@@ -624,19 +618,19 @@ class CardGeneration:
                     {
                         'subject|nominative': NounPhrase({'proform': 'personal', 'case':'nominative'}),
                         'subject|oblique':    NounPhrase({'proform': 'personal', 'case':'oblique'}),
-                        'modifiers': self.english.stock_argument(dictkey, translation.conjugation_lookups['argument']),
+                        'modifiers':          StockModifier(translation.conjugation_lookups['argument']),
                     }))
                 inflected_translation = translation.inflect(
                     Clause(dictkey, Cloze(1, dictkey['verb']),
                     {
                         'subject':    NounPhrase({'proform': 'personal', 'case':'nominative'}),
                         'invocation': NounPhrase({'proform': 'personal', 'case':'vocative'}),
-                        'modifiers':  translation.stock_argument(dictkey, translation.conjugation_lookups['argument']),
+                        'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
                     }))
                 if translation.exists(inflected_translation):
                     english_text = self.english.format(inflected_english)
                     translated_text = translation.format(inflected_translation)
-                    emoji_argument      = self.emoji.stock_argument(dictkey, translation.conjugation_lookups['emoji'])
+                    emoji_argument      = translation.conjugation_lookups['emoji'][dictkey]
                     emoji_text          = self.emoji.inflect(dictkey, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
@@ -1042,9 +1036,9 @@ for lemma in ['animal']:
                 translated_text = latin.inflect(
                     Clause(base_key, match['verb'],
                     {
-                        'subject':    NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                        'direct':     latin.parse(lambda x: NounPhrase({'case':'accusative'}, x), match['direct-object']),
-                        'modifiers':  AdpositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
+                        'subject':   NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
+                        'direct':    latin.parse(lambda x: NounPhrase({'case':'accusative'}, x), match['direct-object']),
+                        'modifiers': AdpositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
                     }))
                 english_text = (
                     Clause(base_key, match['verb'],
