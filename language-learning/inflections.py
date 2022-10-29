@@ -431,6 +431,12 @@ class NounPhrase:
         self.grammemes = grammemes
         self.content = content
 
+class PrepositionalPhrase:
+    def __init__(self, grammemes, preposition, content=None):
+        self.grammemes = grammemes
+        self.preposition = preposition
+        self.content = content
+
 class Clause:
     def __init__(self, grammemes, verb, nouns=[]):
         self.grammemes = grammemes
@@ -456,6 +462,8 @@ class Translation:
             return content
         elif type(content) in {NounPhrase}:
             return NounPhrase(content.grammemes, self.order(content.content))
+        elif type(content) in {PrepositionalPhrase}:
+            return PrepositionalPhrase(content.grammemes, content.preposition, self.order(content.content))
         elif type(content) in {Literal}:
             return content
         elif type(content) in {Cloze}:
@@ -480,6 +488,9 @@ class Translation:
             return self.decline({**grammemes, 'noun':content}, None) 
         elif type(content) in {NounPhrase}:
             return NounPhrase(content.grammemes, 
+                self.decline({**grammemes, **content.grammemes}, content.content))
+        elif type(content) in {PrepositionalPhrase}:
+            return PrepositionalPhrase(content.grammemes, content.preposition,
                 self.decline({**grammemes, **content.grammemes}, content.content))
         elif type(content) in {Literal}:
             return content
@@ -513,6 +524,8 @@ class Translation:
             return [content]
         elif type(content) in {NounPhrase}:
             return self.flatten(content.content)
+        elif type(content) in {PrepositionalPhrase}:
+            return self.flatten(content.content)
         elif type(content) in {Cloze}:
             return [Cloze(content.id, self.flatten(content.content))]
         else:
@@ -527,6 +540,8 @@ class Translation:
             return content
         elif type(content) in {NounPhrase}:
             return self.format(content.content)
+        elif type(content) in {PrepositionalPhrase}:
+            return f'{content.preposition} {self.format(content.content)}'
         elif type(content) in {Literal}:
             return content.text
         elif type(content) in {Cloze}:
@@ -939,7 +954,7 @@ from annotation import RowAnnotation
 from predicates import Predicate, Bipredicate
 from lookup import DefaultDictLookup, DictLookup
 from indexing import DictTupleIndexing, DictKeyIndexing
-from evaluation import KeyEvaluation
+from evaluation import KeyEvaluation, MultiKeyEvaluation
 from population import ListLookupPopulation, FlatLookupPopulation
 
 tsv_parsing = SeparatedValuesFileParsing()
@@ -989,7 +1004,6 @@ templates = \
             tsv_parsing.rows(
                 'data/noun-declension/declension-templates-minimal.tsv')))
 
-
 class DeclensionTemplateMatching:
     def __init__(self, templates, predicates):
         self.templates = templates
@@ -1011,7 +1025,8 @@ case_indexing = DictTupleIndexing(['motion','attribute'])
 case_population = \
     FlatLookupPopulation(
         DictLookup('declension-use-case-to-grammatical-case', case_indexing),
-        KeyEvaluation('case'))
+        MultiKeyEvaluation(['case','preposition']))
+
 use_case_to_grammatical_case = \
     case_population.index(
         case_annotation.annotate(
@@ -1033,7 +1048,8 @@ for lemma in ['animal']:
     for tuplekey in case_indexing.tuplekeys(category_to_grammemes):
         dictkey = case_indexing.dictkey(tuplekey)
         if dictkey in use_case_to_grammatical_case:
-            case = use_case_to_grammatical_case[dictkey]
+            case = use_case_to_grammatical_case[dictkey]['case']
+            preposition = use_case_to_grammatical_case[dictkey]['preposition']
             match = matching.match(emoji_representation, dictkey['motion'], dictkey['attribute'])
             if match:
                 base_key = {
@@ -1054,7 +1070,7 @@ for lemma in ['animal']:
                     {
                         'subject':    NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
                         'direct':     latin.parse(lambda x: NounPhrase({'case':'accusative'}, x), match['direct-object']),
-                        'modifiers':  NounPhrase({'case':case}, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
+                        'modifiers':  PrepositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
                     }))
                 print(translated_text)
                 english_text = card_generation.english.inflect(
