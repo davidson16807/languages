@@ -922,7 +922,7 @@ latin = Translation(
         'gender':    ['neuter', 'masculine'],
         'voice':     ['active', 'passive'],
         'mood':      ['indicative','subjunctive','imperative',],
-        'verb':     ['be', 'be able', 'want', 'become', 'go', 
+        'verb':      ['be', 'be able', 'want', 'become', 'go', 
                       'carry', 'eat', 'love', 'advise', 'direct', 
                       'capture', 'hear'],
     },

@@ -37,7 +37,7 @@ Buck_ID	English		Emoji
 1-420	tree	noun	🌳
 1-430	wood	noun	🪵
 1-440	stone|rock	noun	🪨
-1-450	earthquake		
+1-450	earthquake	noun	🫨
 1-510	sky	noun	🌌
 1-520	sun	noun	☀️
 1-530	moon	noun	🌙
@@ -158,7 +158,7 @@ Buck_ID	English		Emoji
 11-150	hold		
 11-160	get|obtain		
 11-170	keep|retain		
-11-180	thing		
+11-180	thing	noun	🔩
 11-210	give	verb	🎁
 11-220	give back		
 11-240	preserve|look after		
@@ -174,7 +174,7 @@ Buck_ID	English		Emoji
 11-510	rich	adjective	🧐
 11-520	poor	adjective	🥺
 11-530	beggar		
-11-540	avaricious|stingy		
+11-540	avaricious|stingy	adjective	🤑
 11-610	lend		
 11-620	borrow		
 11-630	owe		
@@ -258,25 +258,25 @@ Buck_ID	English		Emoji
 12-740	crooked		
 12-750	hook		
 12-760	corner		
-12-770	cross		
-12-780	square		
+12-770	cross	noun	†
+12-780	square	noun	■
 12-80	up|above		
 12-810	round		
-12-820	circle		
+12-820	circle	noun	⬤
 12-830	sphere|ball		
 12-840	line		
-12-850	hole		
+12-850	hole	noun	🕳️
 12-920	like|similar		
 12-930	change		
-13-0	zero|nothing		
-13-10	one		
-13-100	ten		
-13-101	eleven		
-13-102	twelve		
-13-103	fifteen		
-13-104	twenty		
-13-105	hundred		
-13-106	thousand		
+13-0	zero|nothing		0
+13-10	one		1
+13-100	ten		10
+13-101	eleven		11
+13-102	twelve		12
+13-103	fifteen		15
+13-104	twenty		20
+13-105	hundred		100
+13-106	thousand		1000
 13-107	count		
 13-140	every|all		
 13-150	much|many		
@@ -284,7 +284,7 @@ Buck_ID	English		Emoji
 13-170	little|few		
 13-180	enough		
 13-181	some		
-13-190	multitude|crowd		
+13-190	multitude|crowd	noun	🧑‍🤝‍🧑🧑‍🤝‍🧑
 13-20	two	noun	2
 13-210	full		
 13-220	empty		
@@ -308,8 +308,8 @@ Buck_ID	English		Emoji
 14-110	time		
 14-120	age		
 14-130	new		
-14-140	young		
-14-150	old		
+14-140	young	adjective	🧒
+14-150	old	adjective	🧓
 14-160	early		
 14-170	late		
 14-180	now		
@@ -321,7 +321,7 @@ Buck_ID	English		Emoji
 14-250	begin|beginning		
 14-252	last|endure		
 14-260	end		
-14-270	finish		
+14-270	finish		🏁
 14-280	cease|stop		
 14-290	ready		
 14-310	always		
@@ -360,36 +360,36 @@ Buck_ID	English		Emoji
 14-760	summer	noun	🌿
 14-770	autumn	noun	🍂
 14-780	season	noun	🌱🌿🍂☃️
-15-210	smell		
-15-212	sniff		
-15-220	smell		
-15-250	fragrant|good smelling		
-15-260	stinking|bad smelling		
-15-310	taste		
-15-350	sweet		
-15-360	salty		
-15-370	bitter		
-15-380	acid|sour		
+15-210	smell	noun	👃
+15-212	sniff	verb	👃
+15-220	smell	verb	👃
+15-250	fragrant|good smelling	adjective	🌹
+15-260	stinking|bad smelling	adjective	💩
+15-310	taste	noun	👅
+15-350	sweet	adjective	🍬
+15-360	salty	adjective	🍿
+15-370	bitter	adjective	🍵
+15-380	acid|sour	adjective	🍋
 15-390	brackish		
-15-410	hear		
-15-420	listen		
-15-440	sound|noise		
-15-450	loud		
-15-460	quiet|silence		
-15-510	see		
-15-520	look|look at		
+15-410	hear	verb	👂
+15-420	listen	verb	👂
+15-440	sound|noise	noun	🔊
+15-450	loud	noun	🔊
+15-460	quiet|silence	noun	🔉
+15-510	see	verb	👀
+15-520	look|look at	verb	👀
 15-550	show		
 15-560	shine		
 15-570	bright		
-15-610	color		
-15-620	light		
-15-630	dark		
-15-640	white		
-15-650	black		
-15-660	red		
-15-670	blue		
-15-680	green		
-15-690	yellow		
+15-610	color		🌈
+15-620	light	adjective	🏙️
+15-630	dark	adjective	🌃
+15-640	white		<span style="color:white">■</span>
+15-650	black		<span style="color:black">■</span>
+15-660	red		<span style="color:red">■</span>
+15-670	blue		<span style="color:blue">■</span>
+15-680	green		<span style="color:green">■</span>
+15-690	yellow		<span style="color:yellow">■</span>
 15-710	touch		
 15-712	pinch		
 15-720	feel		
@@ -1209,8 +1209,8 @@ Buck_ID	English		Emoji
 8-570	flower		
 8-600	tree		
 8-610	oak		
-8-620	beech		
-8-630	birch		
+8-620	beech	noun	🌳
+8-630	birch	noun	🌳
 8-640	pine		
 8-650	fir		
 8-660	acorn		
@@ -1233,7 +1233,7 @@ Buck_ID	English		Emoji
 8-920	tapioca|manioc|cassava		
 8-930	gourd		
 8-931	pumpkin|squash		
-8-940	bamboo		
+8-940	bamboo	noun	🎋
 8-941	sugar cane		
 8-960	fish poison		
 8-970	nettle		
@@ -1244,22 +1244,22 @@ Buck_ID	English		Emoji
 9-150	fold		
 9-160	tie|bind		
 9-161	untie		
-9-180	chain		
+9-180	chain	noun	⛓️
 9-190	rope|cord		
 9-192	knot		
 9-210	strike|hit|beat		
 9-211	pound with fist		
 9-220	cut		
-9-221	cut down		
-9-222	chop|hew		
+9-221	cut down		🌳🪓
+9-222	chop|hew	verb	🪵🪓
 9-223	stab		
-9-230	knife		
+9-230	knife	noun	🔪
 9-240	scissors|shears		
-9-250	ax		
+9-250	ax	noun	🪓
 9-251	adze		
 9-260	break		
 9-261	broken		
-9-270	split		
+9-270	split	verb	🪵🪓
 9-280	tear		
 9-290	flay|skin		
 9-310	rub|wipe		
@@ -1268,36 +1268,36 @@ Buck_ID	English		Emoji
 9-340	spread out		
 9-341	hang up		
 9-342	press		
-9-343	squeeze|wring		
-9-350	pour		
-9-360	wash		
-9-370	sweep		
-9-380	broom		
+9-343	squeeze|wring	verb	🧽
+9-350	pour	verb	🫗
+9-360	wash	verb	🧼
+9-370	sweep	verb	🧹
+9-380	broom	noun	🧹
 9-422	tool		
 9-430	carpenter		
 9-440	build		
 9-460	bore		
 9-461	hollow out		
-9-480	saw		
-9-490	hammer		
+9-480	saw	noun	🪚
+9-490	hammer	noun	🔨
 9-500	nail		
 9-560	glue		
 9-600	smith|blacksmith		
 9-610	forge		
 9-620	anvil		
 9-630	cast metals		
-9-640	gold		
-9-650	silver		
-9-660	copper|bronze		
-9-670	iron		
-9-680	lead		
+9-640	gold	noun	🥇
+9-650	silver	noun	🥈
+9-660	copper|bronze	noun	🥉
+9-670	iron	noun	⚔️
+9-680	lead	noun	✏️
 9-690	tin|tinplate		
 9-710	potter		
 9-720	mold		
-9-730	clay		
-9-740	glass		
+9-730	clay	noun	⚱️
+9-740	glass	noun	🪟
 9-750	weave|plait		
-9-760	basket		
+9-760	basket	noun	🧺
 9-770	mat		
 9-771	rug		
 9-780	netbag		

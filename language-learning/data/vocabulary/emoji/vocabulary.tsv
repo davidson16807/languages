@@ -2405,9 +2405,9 @@ F	adverb	false
 👏	verb	clapping
 👏	adjective	clapping
 🤝	noun	shake
-🤝	verb	shake
-🤝	verb	shaked
-🤝	verb	shaking
+🫨	verb	shake
+🫨	verb	shaked
+🫨	verb	shaking
 🥶	adjective	shaking
 🏹	noun	quiver
 🥶	verb	quiver
@@ -6342,7 +6342,7 @@ F	adverb	false
 🌳	noun	willow
 🌳	noun	poplar
 🌳	noun	walnut
-🌳	noun	birch
+<span style="filter: invert(1) hue-rotate(60deg)">🌳</span>	noun	birch
 🌳	noun	beech
 🌳	noun	mahogany
 🌳	noun	teak
@@ -6400,11 +6400,12 @@ F	adverb	false
 🍆	noun	eggplant
 🥜	noun	peanut
 🌰	noun	almond
+<span style="filter: brightness(3) sepia(1.5)">🌰</span> 	noun 	chickpea
 🫘 	noun 	bean
 <span style="filter: saturate(10%)">🫘</span> 	noun 	blackbean
-<span style="filter: brightness(3) sepia(2)">🫘</span> 	noun 	chickpea
-<span style="filter: brightness(3) sepia(1) hue-rotate(90deg)">🫘</span> 	noun 	edamame
-<span style="filter: brightness(3) sepia(1) hue-rotate(90deg)">🫘</span> 	noun 	soybean
+<span style="filter: brightness(3) sepia(2)">🫘</span> 	noun 	canellini bean
+<span style="filter: brightness(2.5) hue-rotate(90deg) sepia(0.4) ">🫘</span> 	noun 	edamame
+<span style="filter: brightness(2.5) hue-rotate(90deg) sepia(0.4) ">🫘</span> 	noun 	soybean
 <span style="filter: hue-rotate(270deg)">🫘</span> 	noun 	jellybean
 🫛 	noun 	pea
 🫛 	noun 	pod
