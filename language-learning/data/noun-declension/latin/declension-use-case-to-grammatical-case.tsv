@@ -1,8 +1,8 @@
 motion	attribute	latin case name	preposition
-subject		nominative	
-addressed		vocative	
-direct object		accusative	
-associated		genitive	
+	subject	nominative	
+associated	addressed	vocative	
+associated	direct-object	accusative	
+	possessor	genitive	
 departed	location	ablative	ab
 associated	location	accusative	apud
 acquired	location	accusative	ad

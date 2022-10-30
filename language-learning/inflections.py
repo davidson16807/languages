@@ -76,7 +76,8 @@ category_to_grammemes = {
     'case':       ['nominative', 'oblique', 'accusative', 'dative', 'ablative', 
                    'genitive', 'locative', 'instrumental','disjunctive', 'undeclined'],
     'motion': ['departed', 'associated', 'acquired', 'leveraged'],
-    'attribute': [
+    'cast': [
+        'subject', 'direct-object', 'possessor',
         'location', 'extent', 'vicinity', 'interior', 'surface', 
         'presence', 'aid', 'lack', 'interest', 'purpose', 'ownership', 
         'time', 'state of being', 'topic', 'company', 'resemblance'],
@@ -310,11 +311,11 @@ class English:
             sentence = self.mood_templates[{**dependant_clause,'column':'template'}]
             for replaced, replacement in mood_replacements:
                 sentence = sentence.replace(replaced, replacement)
-            for noun in ['subject', 'direct', 'indirect', 'modifiers']:
+            for noun in ['subject', 'direct-object', 'indirect-object', 'modifiers']:
                 sentence = sentence.replace('{'+noun+'}', 
                     self.format(self.decline(clause.grammemes, 
                         clause.nouns[noun] if noun in clause.nouns else [])))
-            for noun in ['subject', 'direct', 'indirect', 'modifiers']:
+            for noun in ['subject', 'direct-object', 'indirect-object', 'modifiers']:
                 for case in ['nominative','oblique']:
                     sentence = sentence.replace('{'+f'{noun}|{case}'+'}', 
                         self.format(self.decline({**clause.grammemes, 'case':case}, 
@@ -442,7 +443,7 @@ class Translation:
         if type(content) in {Clause}:
             sentence = self.mood_templates[content.grammemes['mood']]
             sentence = sentence.replace('{verb}', self.format(content.verb))
-            for noun_tag in ['subject', 'direct', 'indirect', 'modifiers']:
+            for noun_tag in ['subject', 'direct-object', 'indirect-object', 'modifiers']:
                 sentence = sentence.replace('{'+noun_tag+'}', 
                     self.format(content.nouns[noun_tag] if noun_tag in content.nouns else ''))
             sentence = re.sub('\s+', ' ', sentence)
@@ -518,7 +519,7 @@ class Translation:
         else:
             raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
     def inflect(self, clause):
-        noun_tags = ['subject', 'direct', 'indirect', 'modifiers']
+        noun_tags = ['subject', 'direct-object', 'indirect-object', 'modifiers']
         return Clause(
             clause.grammemes,
             self.conjugate(clause.grammemes, clause.verb), 
@@ -589,7 +590,7 @@ class CardGeneration:
         self.emoji = emoji
         self.cardFormatting = cardFormatting
         self.finite_traversal = finite_traversal
-    def declensions(self, translation, filter_lookups, persons, english_map=lambda x:x):
+    def declension(self, translation, filter_lookups, persons, english_map=lambda x:x):
         for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = self.finite_traversal.dictkey(tuplekey)
     def conjugation(self, translation, filter_lookups, persons, english_map=lambda x:x):
@@ -686,10 +687,10 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                     tsv_parsing.rows('data/inflection/ancient-greek/nonfinite-conjugations.tsv'), 6, 2),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
-                'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
-                'optative':    '{subject} {modifiers} {indirect} {direct} {verb}',
-                'imperative':  '{subject} {modifiers} {indirect} {direct} {verb}!',
+                'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'optative':    '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -737,10 +738,10 @@ write('flashcards/verb-conjugation/french.html',
                     tsv_parsing.rows('data/inflection/french/nonfinite-conjugations.tsv'), 3, 1),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'conditional': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'conditional': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -786,11 +787,11 @@ write('flashcards/verb-conjugation/german.html',
                         tsv_parsing.rows('data/inflection/german/nonfinite-conjugations.tsv'), 7, 1),
                 ]),
             mood_templates = {
-                'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
-                'conditional': '{subject} {modifiers} {indirect} {direct} {verb}',
-                'inferential': '{subject} {modifiers} {indirect} {direct} {verb}',
-                'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
-                'imperative':  '{subject} {modifiers} {indirect} {direct} {verb}!',
+                'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'conditional': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'inferential': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -856,9 +857,9 @@ latin = Translation(
             if annotation['language'] == 'latin']
     ]),
     mood_templates = {
-        'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
-        'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
-        'imperative':  '{subject} {modifiers} {indirect} {direct} {verb}!',
+        'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+        'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+        'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
     },
     category_to_grammemes = {
         **category_to_grammemes,
@@ -872,7 +873,7 @@ latin = Translation(
         'voice':     ['active', 'passive'],
         'mood':      ['indicative','subjunctive','imperative',],
         'verb':      ['be', 'be able', 'want', 'become', 'go', 
-                      'carry', 'eat', 'love', 'advise', 'direct', 
+                      'carry', 'eat', 'love', 'advise', 'direct-object', 
                       'capture', 'hear'],
     },
 )
@@ -940,13 +941,13 @@ for (f,x),(g,y) in level0_subset_relations:
             allthat[f2,y](allthat[f2,x])
 
 template_annotation = RowAnnotation([
-    'motion', 'attribute', 
+    'motion', 'cast', 
     'subject-adjective', 'subject-function', 'subject-argument', 
-    'verb', 'direct-object', 'preposition', 
+    'verb', 'direct-object-object', 'preposition', 
     'declined-noun-adjective', 'declined-noun-function', 'declined-noun-argument'])
 template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
-        DictTupleIndexing(['motion','attribute']), list))
+        DictTupleIndexing(['motion','cast']), list))
 templates = \
     template_population.index(
         template_annotation.annotate(
@@ -957,20 +958,20 @@ class DeclensionTemplateMatching:
     def __init__(self, templates, predicates):
         self.templates = templates
         self.predicates = predicates
-    def match(self, noun, motion, attribute):
+    def match(self, noun, motion, cast):
         def subject(template):
             return self.predicates[template['subject-function'], template['subject-argument']]
         def declined_noun(template):
             return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
         templates = sorted([template 
-                            for template in (self.templates[motion, attribute] 
-                                if (motion, attribute) in self.templates else [])
+                            for template in (self.templates[motion, cast] 
+                                if (motion, cast) in self.templates else [])
                             if self.predicates['be', noun] in declined_noun(template)],
                       key=lambda template: len(declined_noun(template)))
         return templates[0] if len(templates) > 0 else None
 
-case_annotation = RowAnnotation(['motion','attribute','case','preposition'])
-case_indexing = DictTupleIndexing(['motion','attribute'])
+case_annotation = RowAnnotation(['motion','cast','case','preposition'])
+case_indexing = DictTupleIndexing(['motion','cast'])
 case_population = \
     FlatLookupPopulation(
         DictLookup('declension-use-case-to-grammatical-case', case_indexing),
@@ -999,7 +1000,7 @@ for lemma in ['animal']:
         if dictkey in use_case_to_grammatical_case:
             case = use_case_to_grammatical_case[dictkey]['case']
             preposition = use_case_to_grammatical_case[dictkey]['preposition']
-            match = matching.match(emoji_representation, dictkey['motion'], dictkey['attribute'])
+            match = matching.match(emoji_representation, dictkey['motion'], dictkey['cast'])
             if match:
                 base_key = {
                     'proform':     'common',
@@ -1017,16 +1018,16 @@ for lemma in ['animal']:
                 translated_text = latin.inflect(
                     Clause(base_key, match['verb'],
                     {
-                        'subject':   NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                        'direct':    NounPhrase({'case':'accusative'}, latin.parse(list, match['direct-object'])),
-                        'modifiers': AdpositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
+                        'subject':       NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
+                        'direct-object': NounPhrase({'case':'accusative'}, latin.parse(list, match['direct-object-object'])),
+                        'modifiers':     AdpositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
                     }))
                 english_text = (
                     Clause(base_key, match['verb'],
                     {
-                        'subject':   NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                        'direct':    NounPhrase({'case':'oblique'}, [match['direct-object']]),
-                        'modifiers': NounPhrase({'case':'oblique'}, [match['preposition'], match['declined-noun-adjective'] or None, lemma]),
+                        'subject':       NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
+                        'direct-object': NounPhrase({'case':'oblique'}, [match['direct-object-object']]),
+                        'modifiers':     NounPhrase({'case':'oblique'}, [match['preposition'], match['declined-noun-adjective'] or None, lemma]),
                     }))
                 if latin.exists(translated_text):
                     print(latin.format(translated_text))
@@ -1046,9 +1047,9 @@ write('flashcards/verb-conjugation/old-english.html',
                 conjugation_annotation.annotate(
                     tsv_parsing.rows('data/inflection/old-english/conjugations.tsv'), 5, 1)),
             mood_templates = {
-                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1097,10 +1098,10 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                     tsv_parsing.rows('data/inflection/proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
-                'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
-                'optative':    '{subject} {modifiers} {indirect} {direct} {verb}',
-                'imperative':  '{subject} {modifiers} {indirect} {direct} {verb}!',
+                'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'optative':    '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+                'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1149,8 +1150,8 @@ write('flashcards/verb-conjugation/russian.html',
                     tsv_parsing.rows('data/inflection/russian/nonfinite-conjugations.tsv'), 2, 3),
             ]),
             mood_templates = {
-                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1215,11 +1216,11 @@ write('flashcards/verb-conjugation/spanish.html',
                     tsv_parsing.rows('data/inflection/spanish/nonfinite-conjugations.tsv'), 3, 2)
             ]), 
             mood_templates = {
-                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
-                'conditional': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
-                'prohibitive': '{subject} {verb} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'conditional': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
+                'prohibitive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1267,9 +1268,9 @@ write('flashcards/verb-conjugation/swedish.html',
                 conjugation_annotation.annotate(
                     tsv_parsing.rows('data/inflection/swedish/conjugations.tsv'), 4, 3)),
             mood_templates = {
-                'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
-                'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
+                'indicative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'subjunctive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
+                'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,

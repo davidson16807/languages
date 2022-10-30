@@ -1,26 +1,26 @@
 motion	cast	subject	subject	subject	verb	direct object	preposition	declined noun	declined noun	declined noun																
 		modifier	function	argument				modifier	function	argument																
-					be	bad			be	bad concept																
-					be	good			be	good concept																
-					be	good			be	ethical emotion																
-					be	bad			be	suspect emotion																
-					be	big			has-trait	size																
-					be	long			has-trait	length																
-					come			the	be	time																
-					come			the	be	event																
-		the	be	man	love				be	bad concept																
-		the	be	man	hate				be	good concept																
-		the	be	man	love				be	positive emotion																
-		the	be	man	hate				be	negative emotion																
-		the	be	man	love			the	be	time																
-		the	be	man	love			the	be	pet																
-		the	be	man	love			the	be	woman																
-		the	be	man	see			the	can	be-seen																
-		the	be	man	hear			the	can	be-heard																
-		the	be	thought			of		be	concept																
-		the	be	thought			of		be	emotion																
-		the	be	size			of		has-trait	size																
-		the	be	sound			of		can	be-heard																
+associated	subject				be	bad			be	bad concept																
+associated	subject				be	good			be	good concept																
+associated	subject				be	good			be	ethical emotion																
+associated	subject				be	bad			be	suspect emotion																
+associated	subject				be	big			has-trait	size																
+associated	subject				be	long			has-trait	length																
+associated	subject				come			the	be	time																
+associated	subject				come			the	be	event																
+associated	direct-object	the	be	man	love				be	bad concept																
+associated	direct-object	the	be	man	hate				be	good concept																
+associated	direct-object	the	be	man	love				be	positive emotion																
+associated	direct-object	the	be	man	hate				be	negative emotion																
+associated	direct-object	the	be	man	love			the	be	time																
+associated	direct-object	the	be	man	love			the	be	pet																
+associated	direct-object	the	be	man	love			the	be	woman																
+associated	direct-object	the	be	man	see			the	can	be-seen																
+associated	direct-object	the	be	man	hear			the	can	be-heard																
+associated	possessor	the	be	thought			of		be	concept																
+associated	possessor	the	be	thought			of		be	emotion																
+associated	possessor	the	be	size			of		has-trait	size																
+associated	possessor	the	be	sound			of		can	be-heard																
 leveraged	location	the	be	man	navigate		by way of	the	can	be-seen																
 departed	location	the	be	man	direct	his attention	from	the	can	be-seen																
 associated	location	the	be	man	direct	his attention	at	the	can	be-seen																

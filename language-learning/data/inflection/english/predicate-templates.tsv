@@ -1,73 +1,73 @@
 voice	aspect	tense	lookup	template	
-active	aorist	present		{verb|present} {direct} {indirect} {modifiers} 	
-active	aorist	past		{verb|past} {direct} {indirect} {modifiers} 	
-active	aorist	future		will {verb|infinitive} {direct} {indirect} {modifiers} 	
-active	imperfect	present		{be|present} {verb|imperfect} {direct} {indirect} {modifiers} 	
-active	imperfect	past		{be|past} {verb|imperfect} {direct} {indirect} {modifiers} 	
-active	imperfect	future		will be {verb|imperfect} {direct} {indirect} {modifiers} 	
-active	perfect	present		{have|present} {verb|perfect} {direct} {indirect} {modifiers} 	
-active	perfect	past		{have|past} {verb|perfect} {direct} {indirect} {modifiers} 	
-active	perfect	future		will have {verb|perfect} {direct} {indirect} {modifiers} 	
-active	perfect-progressive	present		{have|present} been {verb|imperfect} {direct} {indirect} {modifiers} 	
-active	perfect-progressive	past		{have|past} been {verb|imperfect} {direct} {indirect} {modifiers} 	
-active	perfect-progressive	future		will have been {verb|imperfect} {direct} {indirect} {modifiers} 	
-active	aorist	present	infinitive	{verb|infinitive} {direct} {indirect} {modifiers} [right now]	
-active	aorist	past	infinitive	{verb|infinitive} {direct} {indirect} {modifiers} [back then]	
-active	aorist	future	infinitive	{verb|infinitive} {direct} {indirect} {modifiers} [by then]	
-active	imperfect	present	infinitive	be {verb|imperfect} {direct} {indirect} {modifiers} [right now]	
-active	imperfect	past	infinitive	be {verb|imperfect} {direct} {indirect} {modifiers} [back then]	
-active	imperfect	future	infinitive	be {verb|imperfect} {direct} {indirect} {modifiers} [by then]	
-active	perfect	present	infinitive	have {verb|perfect} {direct} {indirect} {modifiers} [right now]	
-active	perfect	past	infinitive	have {verb|perfect} {direct} {indirect} {modifiers} [back then]	
-active	perfect	future	infinitive	have {verb|perfect} {direct} {indirect} {modifiers} [by then]	
-active	perfect-progressive	present	infinitive	have been {verb|imperfect} {direct} {indirect} {modifiers} [just now]	
-active	perfect-progressive	past	infinitive	have been {verb|imperfect} {direct} {indirect} {modifiers} [back then]	
-active	perfect-progressive	future	infinitive	have been {verb|imperfect} {direct} {indirect} {modifiers} [by then]	
-passive	aorist	present		{be|present} {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	aorist	past		{be|past} {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	aorist	future		will be {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	imperfect	present		{be|present} being {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	imperfect	past		{be|past} being {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	imperfect	future		will be [occasionally] {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	perfect	present		{have|present} been {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	perfect	past		{have|past} been {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	perfect	future		will have been {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	perfect-progressive	present		{have|present} been [occasionally] {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	perfect-progressive	past		{have|past} been [occasionally] {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	perfect-progressive	future		will have been [occasionally] {verb|perfect} {direct} {indirect} {modifiers} 	
-passive	aorist	present	infinitive	be {verb|perfect} {direct} {indirect} {modifiers} [right now]	
-passive	aorist	past	infinitive	be {verb|perfect} {direct} {indirect} {modifiers} [back then]	
-passive	aorist	future	infinitive	be {verb|perfect} {direct} {indirect} {modifiers} [by then]	
-passive	imperfect	present	infinitive	be [occasionally] {verb|perfect} {direct} {indirect} {modifiers} [right now]	
-passive	imperfect	past	infinitive	be [occasionally] {verb|perfect} {direct} {indirect} {modifiers} [back then]	
-passive	imperfect	future	infinitive	be [occasionally] {verb|perfect} {direct} {indirect} {modifiers} [by then]	
-passive	perfect	present	infinitive	have been {verb|perfect} {direct} {indirect} {modifiers} [just now]	
-passive	perfect	past	infinitive	have been {verb|perfect} {direct} {indirect} {modifiers} [back then]	
-passive	perfect	future	infinitive	have been {verb|perfect} {direct} {indirect} {modifiers} [by then]	
-passive	perfect-progressive	present	infinitive	have been [occasionally] {verb|perfect} {direct} {indirect} {modifiers} [just now]	
-passive	perfect-progressive	past	infinitive	have been [occasionally] {verb|perfect}  {direct} {indirect} {modifiers} [back then]	
-passive	perfect-progressive	future	infinitive	have been [occasionally] {verb|perfect} {direct} {indirect} {modifiers} [by then]	
-middle	aorist	present		[{be|present}] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	aorist	past		[{be|past}] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	aorist	future		will [be] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	imperfect	present		{be|present} [being] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	imperfect	past		{be|past} [being] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	imperfect	future		will [be [occasionally]] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	perfect	present		{have|present} [been] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	perfect	past		{have|past} [been] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	perfect	future		will have [been] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	perfect-progressive	present		{have|present} [been occasionally] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	perfect-progressive	past		{have|past} [been occasionally] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	perfect-progressive	future		will have [been occasionally] {verb|perfect} {direct} {indirect} {modifiers} 	
-middle	aorist	present	infinitive	[be] {verb|perfect} {direct} {indirect} {modifiers} [right now]	
-middle	aorist	past	infinitive	[be] {verb|perfect} {direct} {indirect} {modifiers} [back then]	
-middle	aorist	future	infinitive	[be] {verb|perfect} {direct} {indirect} {modifiers} [by then]	
-middle	imperfect	present	infinitive	[be [occasionally]] {verb|perfect} {direct} {indirect} {modifiers} [right now]	
-middle	imperfect	past	infinitive	[be [occasionally]] {verb|perfect} {direct} {indirect} {modifiers} [back then]	
-middle	imperfect	future	infinitive	[be [occasionally]] {verb|perfect} {direct} {indirect} {modifiers} [by then]	
-middle	perfect	present	infinitive	have [been] {verb|perfect} {direct} {indirect} {modifiers} [just now]	
-middle	perfect	past	infinitive	have [been] {verb|perfect} {direct} {indirect} {modifiers} [back then]	
-middle	perfect	future	infinitive	have [been] {verb|perfect} {direct} {indirect} {modifiers} [by then]	
-middle	perfect-progressive	present	infinitive	have [been occasionally] {verb|perfect} {direct} {indirect} {modifiers} [just now]	
-middle	perfect-progressive	past	infinitive	have [been occasionally] {verb|perfect}  {direct} {indirect} {modifiers} [back then]	
-middle	perfect-progressive	future	infinitive	have [been occasionally] {verb|perfect} {direct} {indirect} {modifiers} [by then]	
+active	aorist	present		{verb|present} {direct-object} {indirect-object} {modifiers} 	
+active	aorist	past		{verb|past} {direct-object} {indirect-object} {modifiers} 	
+active	aorist	future		will {verb|infinitive} {direct-object} {indirect-object} {modifiers} 	
+active	imperfect	present		{be|present} {verb|imperfect} {direct-object} {indirect-object} {modifiers} 	
+active	imperfect	past		{be|past} {verb|imperfect} {direct-object} {indirect-object} {modifiers} 	
+active	imperfect	future		will be {verb|imperfect} {direct-object} {indirect-object} {modifiers} 	
+active	perfect	present		{have|present} {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+active	perfect	past		{have|past} {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+active	perfect	future		will have {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+active	perfect-progressive	present		{have|present} been {verb|imperfect} {direct-object} {indirect-object} {modifiers} 	
+active	perfect-progressive	past		{have|past} been {verb|imperfect} {direct-object} {indirect-object} {modifiers} 	
+active	perfect-progressive	future		will have been {verb|imperfect} {direct-object} {indirect-object} {modifiers} 	
+active	aorist	present	infinitive	{verb|infinitive} {direct-object} {indirect-object} {modifiers} [right now]	
+active	aorist	past	infinitive	{verb|infinitive} {direct-object} {indirect-object} {modifiers} [back then]	
+active	aorist	future	infinitive	{verb|infinitive} {direct-object} {indirect-object} {modifiers} [by then]	
+active	imperfect	present	infinitive	be {verb|imperfect} {direct-object} {indirect-object} {modifiers} [right now]	
+active	imperfect	past	infinitive	be {verb|imperfect} {direct-object} {indirect-object} {modifiers} [back then]	
+active	imperfect	future	infinitive	be {verb|imperfect} {direct-object} {indirect-object} {modifiers} [by then]	
+active	perfect	present	infinitive	have {verb|perfect} {direct-object} {indirect-object} {modifiers} [right now]	
+active	perfect	past	infinitive	have {verb|perfect} {direct-object} {indirect-object} {modifiers} [back then]	
+active	perfect	future	infinitive	have {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
+active	perfect-progressive	present	infinitive	have been {verb|imperfect} {direct-object} {indirect-object} {modifiers} [just now]	
+active	perfect-progressive	past	infinitive	have been {verb|imperfect} {direct-object} {indirect-object} {modifiers} [back then]	
+active	perfect-progressive	future	infinitive	have been {verb|imperfect} {direct-object} {indirect-object} {modifiers} [by then]	
+passive	aorist	present		{be|present} {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	aorist	past		{be|past} {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	aorist	future		will be {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	imperfect	present		{be|present} being {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	imperfect	past		{be|past} being {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	imperfect	future		will be [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	perfect	present		{have|present} been {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	perfect	past		{have|past} been {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	perfect	future		will have been {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	perfect-progressive	present		{have|present} been [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	perfect-progressive	past		{have|past} been [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	perfect-progressive	future		will have been [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+passive	aorist	present	infinitive	be {verb|perfect} {direct-object} {indirect-object} {modifiers} [right now]	
+passive	aorist	past	infinitive	be {verb|perfect} {direct-object} {indirect-object} {modifiers} [back then]	
+passive	aorist	future	infinitive	be {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
+passive	imperfect	present	infinitive	be [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} [right now]	
+passive	imperfect	past	infinitive	be [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} [back then]	
+passive	imperfect	future	infinitive	be [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
+passive	perfect	present	infinitive	have been {verb|perfect} {direct-object} {indirect-object} {modifiers} [just now]	
+passive	perfect	past	infinitive	have been {verb|perfect} {direct-object} {indirect-object} {modifiers} [back then]	
+passive	perfect	future	infinitive	have been {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
+passive	perfect-progressive	present	infinitive	have been [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} [just now]	
+passive	perfect-progressive	past	infinitive	have been [occasionally] {verb|perfect}  {direct-object} {indirect-object} {modifiers} [back then]	
+passive	perfect-progressive	future	infinitive	have been [occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
+middle	aorist	present		[{be|present}] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	aorist	past		[{be|past}] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	aorist	future		will [be] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	imperfect	present		{be|present} [being] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	imperfect	past		{be|past} [being] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	imperfect	future		will [be [occasionally]] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	perfect	present		{have|present} [been] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	perfect	past		{have|past} [been] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	perfect	future		will have [been] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	perfect-progressive	present		{have|present} [been occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	perfect-progressive	past		{have|past} [been occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	perfect-progressive	future		will have [been occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} 	
+middle	aorist	present	infinitive	[be] {verb|perfect} {direct-object} {indirect-object} {modifiers} [right now]	
+middle	aorist	past	infinitive	[be] {verb|perfect} {direct-object} {indirect-object} {modifiers} [back then]	
+middle	aorist	future	infinitive	[be] {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
+middle	imperfect	present	infinitive	[be [occasionally]] {verb|perfect} {direct-object} {indirect-object} {modifiers} [right now]	
+middle	imperfect	past	infinitive	[be [occasionally]] {verb|perfect} {direct-object} {indirect-object} {modifiers} [back then]	
+middle	imperfect	future	infinitive	[be [occasionally]] {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
+middle	perfect	present	infinitive	have [been] {verb|perfect} {direct-object} {indirect-object} {modifiers} [just now]	
+middle	perfect	past	infinitive	have [been] {verb|perfect} {direct-object} {indirect-object} {modifiers} [back then]	
+middle	perfect	future	infinitive	have [been] {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
+middle	perfect-progressive	present	infinitive	have [been occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} [just now]	
+middle	perfect-progressive	past	infinitive	have [been occasionally] {verb|perfect}  {direct-object} {indirect-object} {modifiers} [back then]	
+middle	perfect-progressive	future	infinitive	have [been occasionally] {verb|perfect} {direct-object} {indirect-object} {modifiers} [by then]	
