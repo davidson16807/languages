@@ -264,8 +264,8 @@ class English:
             #  where grammemes contain the lemma for the declension
             return self.decline({**grammemes, 'noun':content}, None) 
         elif type(content) in {NounPhrase}:
-            return NounPhrase(content.grammemes, 
-                self.decline({**grammemes, **content.grammemes}, content.content))
+            return NounPhrase({**content.grammemes, **grammemes}, 
+                self.decline({**content.grammemes, **grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
         elif type(content) in {Cloze}:
@@ -310,10 +310,15 @@ class English:
             sentence = self.mood_templates[{**dependant_clause,'column':'template'}]
             for replaced, replacement in mood_replacements:
                 sentence = sentence.replace(replaced, replacement)
-            for noun_tag in ['invocation', 'subject|nominative', 'subject|oblique', 'direct', 'indirect', 'modifiers']:
-                sentence = sentence.replace('{'+noun_tag+'}', 
+            for noun in ['invocation', 'subject', 'direct', 'indirect', 'modifiers']:
+                sentence = sentence.replace('{'+noun+'}', 
                     self.format(self.decline(clause.grammemes, 
-                        clause.nouns[noun_tag] if noun_tag in clause.nouns else [])))
+                        clause.nouns[noun] if noun in clause.nouns else [])))
+            for noun in ['invocation', 'subject', 'direct', 'indirect', 'modifiers']:
+                for case in ['nominative','oblique']:
+                    sentence = sentence.replace('{'+f'{noun}|{case}'+'}', 
+                        self.format(self.decline({**clause.grammemes, 'case':case}, 
+                            clause.nouns[noun] if noun in clause.nouns else [])))
             sentence = sentence.replace('{verb', '{'+clause.verb)
             table = self.conjugation_lookups['finite']
             for lemma in lemmas:
@@ -594,9 +599,8 @@ class CardGeneration:
                 inflected_english = (
                     Clause(dictkey, dictkey['verb'],
                     {
-                        'subject|nominative': NounPhrase({'proform': 'personal', 'case':'nominative'}),
-                        'subject|oblique':    NounPhrase({'proform': 'personal', 'case':'oblique'}),
-                        'modifiers':          StockModifier(translation.conjugation_lookups['argument']),
+                        'subject':   NounPhrase({'proform': 'personal', 'case':'nominative'}),
+                        'modifiers': StockModifier(translation.conjugation_lookups['argument']),
                     }))
                 inflected_translation = translation.inflect(
                     Clause(dictkey, Cloze(1, dictkey['verb']),
@@ -1021,10 +1025,9 @@ for lemma in ['animal']:
                 english_text = (
                     Clause(base_key, match['verb'],
                     {
-                        'subject|nominative': NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                        'subject|oblique':    NounPhrase({'case':'oblique'}, ['the',match['subject-argument']]),
-                        'direct':             NounPhrase({'case':'oblique'}, [match['direct-object']]),
-                        'modifiers':          NounPhrase({'case':'oblique'}, [match['preposition'], match['declined-noun-adjective'] or None, lemma]),
+                        'subject':   NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
+                        'direct':    NounPhrase({'case':'oblique'}, [match['direct-object']]),
+                        'modifiers': NounPhrase({'case':'oblique'}, [match['preposition'], match['declined-noun-adjective'] or None, lemma]),
                     }))
                 if latin.exists(translated_text):
                     print(latin.format(translated_text))
