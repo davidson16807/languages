@@ -310,11 +310,11 @@ class English:
             sentence = self.mood_templates[{**dependant_clause,'column':'template'}]
             for replaced, replacement in mood_replacements:
                 sentence = sentence.replace(replaced, replacement)
-            for noun in ['invocation', 'subject', 'direct', 'indirect', 'modifiers']:
+            for noun in ['subject', 'direct', 'indirect', 'modifiers']:
                 sentence = sentence.replace('{'+noun+'}', 
                     self.format(self.decline(clause.grammemes, 
                         clause.nouns[noun] if noun in clause.nouns else [])))
-            for noun in ['invocation', 'subject', 'direct', 'indirect', 'modifiers']:
+            for noun in ['subject', 'direct', 'indirect', 'modifiers']:
                 for case in ['nominative','oblique']:
                     sentence = sentence.replace('{'+f'{noun}|{case}'+'}', 
                         self.format(self.decline({**clause.grammemes, 'case':case}, 
@@ -442,7 +442,7 @@ class Translation:
         if type(content) in {Clause}:
             sentence = self.mood_templates[content.grammemes['mood']]
             sentence = sentence.replace('{verb}', self.format(content.verb))
-            for noun_tag in ['invocation', 'subject', 'direct', 'indirect', 'modifiers']:
+            for noun_tag in ['subject', 'direct', 'indirect', 'modifiers']:
                 sentence = sentence.replace('{'+noun_tag+'}', 
                     self.format(content.nouns[noun_tag] if noun_tag in content.nouns else ''))
             sentence = re.sub('\s+', ' ', sentence)
@@ -518,7 +518,7 @@ class Translation:
         else:
             raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
     def inflect(self, clause):
-        noun_tags = ['invocation', 'subject', 'direct', 'indirect', 'modifiers']
+        noun_tags = ['subject', 'direct', 'indirect', 'modifiers']
         return Clause(
             clause.grammemes,
             self.conjugate(clause.grammemes, clause.verb), 
@@ -606,7 +606,6 @@ class CardGeneration:
                     Clause(dictkey, Cloze(1, dictkey['verb']),
                     {
                         'subject':    NounPhrase({'proform': 'personal', 'case':'nominative'}),
-                        'invocation': NounPhrase({'proform': 'personal', 'case':'vocative'}),
                         'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
                     }))
                 if translation.exists(inflected_translation):
@@ -690,7 +689,7 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                 'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
                 'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
                 'optative':    '{subject} {modifiers} {indirect} {direct} {verb}',
-                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {verb}!',
+                'imperative':  '{subject} {modifiers} {indirect} {direct} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -741,7 +740,7 @@ write('flashcards/verb-conjugation/french.html',
                 'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
                 'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
                 'conditional': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
+                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -791,7 +790,7 @@ write('flashcards/verb-conjugation/german.html',
                 'conditional': '{subject} {modifiers} {indirect} {direct} {verb}',
                 'inferential': '{subject} {modifiers} {indirect} {direct} {verb}',
                 'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
-                'imperative':  '{subject}, {modifiers} {indirect} {direct} {verb}!',
+                'imperative':  '{subject} {modifiers} {indirect} {direct} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -859,7 +858,7 @@ latin = Translation(
     mood_templates = {
         'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
         'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
-        'imperative':  '{invocation}, {modifiers} {indirect} {direct} {verb}!',
+        'imperative':  '{subject} {modifiers} {indirect} {direct} {verb}!',
     },
     category_to_grammemes = {
         **category_to_grammemes,
@@ -1049,7 +1048,7 @@ write('flashcards/verb-conjugation/old-english.html',
             mood_templates = {
                 'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
                 'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
+                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1101,7 +1100,7 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                 'indicative':  '{subject} {modifiers} {indirect} {direct} {verb}',
                 'subjunctive': '{subject} {modifiers} {indirect} {direct} {verb}',
                 'optative':    '{subject} {modifiers} {indirect} {direct} {verb}',
-                'imperative':  '{invocation}, {modifiers} {indirect} {direct} {verb}!',
+                'imperative':  '{subject} {modifiers} {indirect} {direct} {verb}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1151,7 +1150,7 @@ write('flashcards/verb-conjugation/russian.html',
             ]),
             mood_templates = {
                 'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
+                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1219,8 +1218,8 @@ write('flashcards/verb-conjugation/spanish.html',
                 'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
                 'conditional': '{subject} {verb} {direct} {indirect} {modifiers}',
                 'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
-                'prohibitive': '{subject}, {verb} {direct} {indirect} {modifiers}!',
+                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
+                'prohibitive': '{subject} {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
@@ -1270,7 +1269,7 @@ write('flashcards/verb-conjugation/swedish.html',
             mood_templates = {
                 'indicative':  '{subject} {verb} {direct} {indirect} {modifiers}',
                 'subjunctive': '{subject} {verb} {direct} {indirect} {modifiers}',
-                'imperative':  '{subject}, {verb} {direct} {indirect} {modifiers}!',
+                'imperative':  '{subject} {verb} {direct} {indirect} {modifiers}!',
             },
             category_to_grammemes = {
                 **category_to_grammemes,
