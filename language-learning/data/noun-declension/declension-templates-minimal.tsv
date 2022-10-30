@@ -4,8 +4,8 @@ associated	subject				be	bad			be	bad concept
 associated	subject				be	good			be	good concept																
 associated	subject				be	good			be	ethical emotion																
 associated	subject				be	bad			be	suspect emotion																
-associated	subject				be	big			has-trait	size																
-associated	subject				be	long			has-trait	length																
+associated	subject				be	big		the	has-trait	size																
+associated	subject				be	long		the	has-trait	length																
 associated	subject				come			the	be	time																
 associated	subject				come			the	be	event																
 associated	direct-object	the	be	man	love				be	bad concept																
@@ -19,8 +19,8 @@ associated	direct-object	the	be	man	see			the	can	be-seen
 associated	direct-object	the	be	man	hear			the	can	be-heard																
 associated	possessor	the	be	thought			of		be	concept																
 associated	possessor	the	be	thought			of		be	emotion																
-associated	possessor	the	be	size			of		has-trait	size																
-associated	possessor	the	be	sound			of		can	be-heard																
+associated	possessor	the	be	size			of	the	has-trait	size																
+associated	possessor	the	be	sound			of	the	can	be-heard																
 leveraged	location	the	be	man	navigate		by way of	the	can	be-seen																
 departed	location	the	be	man	direct	his attention	from	the	can	be-seen																
 associated	location	the	be	man	direct	his attention	at	the	can	be-seen																
@@ -89,10 +89,10 @@ departed	purpose	the	be	man	work		[following from the purpose of]	the	be	thing
 associated	purpose	the	be	man	work		[assuming the purpose of]	the	be	thing																
 acquired	purpose	the	be	man	work		[for the purpose of]	the	be	thing																
 leveraged	purpose	the	be	man	work		[by leveraging the purpose of]	the	be	thing																
-departed	ownership	the	be	ownable	come		from [the ownership of]	the	be	owner																
-associated	ownership	the	be	ownable	be		[in the ownership] of	the	be	owner																
-acquired	ownership	the	be	ownable	come		to [the ownership of]	the	be	owner																
-leveraged	ownership	the	be	ownable	work		[due to the ownership] of	the	be	owner																
+departed	ownership	the	can	be-owned	come		from [the ownership of]	the	be	owner																
+associated	ownership	the	can	be-owned	be		[in the ownership] of	the	be	owner																
+acquired	ownership	the	can	be-owned	come		to [the ownership of]	the	be	owner																
+leveraged	ownership	the	can	be-owned	work		[due to the ownership] of	the	be	owner																
 departed	time	the	be	man	work		following	the	be	time																
 associated	time	the	be	man	work		during	the	be	time																
 acquired	time	the	be	man	work		until	the	be	time																

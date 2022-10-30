@@ -341,7 +341,7 @@ class English:
         if content is None:
             return ''
         if type(content) in {list,set}:
-            return ' '.join(content)
+            return ' '.join([self.format(element) for element in content])
         elif type(content) in {str}:
             return content
         elif type(content) in {NounPhrase}:
@@ -518,12 +518,17 @@ class Translation:
             return Cloze(content.id, self.conjugate(grammemes, content.content))
         else:
             raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
-    def inflect(self, clause):
-        noun_tags = ['subject', 'direct-object', 'indirect-object', 'modifiers']
-        return Clause(
-            clause.grammemes,
-            self.conjugate(clause.grammemes, clause.verb), 
-            {key:self.decline(clause.grammemes, value) for (key,value) in clause.nouns.items()})
+    def inflect(self, grammemes, content):
+        if type(content) in {Clause}:
+            grammemes = {**content.grammemes, **grammemes}
+            return Clause(grammemes,
+                self.conjugate(grammemes, content.verb), 
+                {key:self.decline(grammemes, value) for (key,value) in content.nouns.items()})
+        elif type(content) in {list,set}:
+            return [self.inflect(grammemes, element) for element in content]
+        elif type(content) in {NounPhrase, AdpositionalPhrase}:
+            grammemes = {**content.grammemes, **grammemes}
+            return self.decline(grammemes, content)
 
 tsv_parsing = SeparatedValuesFileParsing()
 conjugation_annotation  = CellAnnotation(
@@ -604,6 +609,7 @@ class CardGeneration:
                         'modifiers': StockModifier(translation.conjugation_lookups['argument']),
                     }))
                 inflected_translation = translation.inflect(
+                    dictkey,
                     Clause(dictkey, Cloze(1, dictkey['verb']),
                     {
                         'subject':    NounPhrase({'proform': 'personal', 'case':'nominative'}),
@@ -850,11 +856,10 @@ latin = Translation(
             tsv_parsing.rows('data/inflection/latin/finite-conjugations.tsv'), 3, 4),
         *conjugation_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/nonfinite-conjugations.tsv'), 6, 2),
-        *[(annotation, cell) for (annotation, cell) in 
+        *filter(has_annotation('language','latin'),
             declension_verb_annotation.annotate(
                 tsv_parsing.rows(
-                    'data/noun-declension/declension-template-verbs.tsv'), 2, 9)
-            if annotation['language'] == 'latin']
+                    'data/noun-declension/declension-template-verbs.tsv'), 2, 9)),
     ]),
     mood_templates = {
         'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
@@ -943,7 +948,7 @@ for (f,x),(g,y) in level0_subset_relations:
 template_annotation = RowAnnotation([
     'motion', 'cast', 
     'subject-adjective', 'subject-function', 'subject-argument', 
-    'verb', 'direct-object-object', 'preposition', 
+    'verb', 'direct-object', 'preposition', 
     'declined-noun-adjective', 'declined-noun-function', 'declined-noun-argument'])
 template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
@@ -1015,20 +1020,36 @@ for lemma in ['animal']:
                     'mood':   'indicative',
                 }
                 print(tuplekey, case)
-                translated_text = latin.inflect(
-                    Clause(base_key, match['verb'],
-                    {
-                        'subject':       NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                        'direct-object': NounPhrase({'case':'accusative'}, latin.parse(list, match['direct-object-object'])),
-                        'modifiers':     AdpositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
-                    }))
-                english_text = (
-                    Clause(base_key, match['verb'],
-                    {
-                        'subject':       NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                        'direct-object': NounPhrase({'case':'oblique'}, [match['direct-object-object']]),
-                        'modifiers':     NounPhrase({'case':'oblique'}, [match['preposition'], match['declined-noun-adjective'] or None, lemma]),
-                    }))
+                translated_nouns = {}
+                english_nouns = {}
+                if match['subject-argument']:
+                    translated_nouns['subject'] = NounPhrase({'case':'nominative'}, ['the', match['subject-argument']])
+                    english_nouns['subject'] = NounPhrase({'case':'nominative'}, ['the', match['subject-argument']])
+                if match['direct-object']:
+                    translated_nouns['direct-object'] = NounPhrase({'case':'accusative'}, match['direct-object'].split(' '))
+                    english_nouns['direct-object'] = NounPhrase({'case':'accusative'}, match['direct-object'].split(' '))
+                if case == 'nominative':
+                    translated_nouns['subject'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['subject'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], lemma])
+                elif case == 'accusative':
+                    translated_nouns['direct-object'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['direct-object'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], lemma])
+                else:
+                    translated_nouns['modifiers'] = NounPhrase({'case':case}, [preposition, match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['modifiers'] = NounPhrase({'case':case}, [match['preposition'], match['declined-noun-adjective'], lemma])
+                if case == 'genitive':
+                    translated_text = latin.inflect(base_key,
+                    [
+                        NounPhrase({'case':'nominative'}, ['the', match['subject-argument']]),
+                        NounPhrase({'case':case}, [match['declined-noun-adjective'], Cloze(1, lemma)]),
+                    ])
+                    english_text = [
+                        NounPhrase({'case':'nominative'}, ['the', match['subject-argument']]),
+                        NounPhrase({'case':case}, [match['preposition'], match['declined-noun-adjective'], lemma]),
+                    ]
+                else:
+                    translated_text = latin.inflect(base_key, Clause(base_key, match['verb'], translated_nouns))
+                    english_text = Clause(base_key, match['verb'], english_nouns)
                 if latin.exists(translated_text):
                     print(latin.format(translated_text))
                     print(english.format(english_text))
