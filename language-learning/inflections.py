@@ -1015,7 +1015,7 @@ for lemma in ['animal']:
                     Clause(base_key, match['verb'],
                     {
                         'subject':   NounPhrase({'case':'nominative'}, ['the',match['subject-argument']]),
-                        'direct':    latin.parse(lambda x: NounPhrase({'case':'accusative'}, x), match['direct-object']),
+                        'direct':    NounPhrase({'case':'accusative'}, latin.parse(list, match['direct-object'])),
                         'modifiers': AdpositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'] or None, Cloze(1, lemma)]),
                     }))
                 english_text = (
