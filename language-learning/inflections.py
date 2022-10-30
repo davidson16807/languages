@@ -268,7 +268,7 @@ class English:
             return NounPhrase({**content.grammemes, **grammemes}, 
                 self.decline({**content.grammemes, **grammemes}, content.content))
         elif type(content) in {AdpositionalPhrase}:
-            return AdpositionalPhrase({**content.grammemes, **grammemes}, content.preposition,
+            return AdpositionalPhrase({**content.grammemes, **grammemes}, content.adposition,
                 self.decline({**content.grammemes, **grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
@@ -350,7 +350,7 @@ class English:
         elif type(content) in {NounPhrase}:
             return self.format(content.content)
         elif type(content) in {AdpositionalPhrase}:
-            return ' '.join([content.preposition, self.format(content.content)])
+            return ' '.join([content.adposition, self.format(content.content)])
         elif type(content) in {Cloze}:
             return '{{c'+str(content.id)+'::'+self.format(content.content)+'}}'
     def parse(self, NodeClass, text):
@@ -410,9 +410,9 @@ class NounPhrase:
         self.content = content
 
 class AdpositionalPhrase:
-    def __init__(self, grammemes, preposition, content=None):
+    def __init__(self, grammemes, adposition, content=None):
         self.grammemes = grammemes
-        self.preposition = preposition
+        self.adposition = adposition
         self.content = content
 
 class StockModifier:
@@ -463,7 +463,7 @@ class Translation:
         elif type(content) in {NounPhrase}:
             return self.format(content.content)
         elif type(content) in {AdpositionalPhrase}:
-            return ' '.join([content.preposition, self.format(content.content)])
+            return ' '.join([content.adposition, self.format(content.content)])
             # TODO: implement language agnostic way to specify location of adpositions
         elif type(content) in {Cloze}:
             return '{{c'+str(content.id)+'::'+self.format(content.content)+'}}'
@@ -477,7 +477,7 @@ class Translation:
         elif type(content) in {NounPhrase}:
             return True
         elif type(content) in {AdpositionalPhrase}:
-            return self.exists(content.preposition)
+            return self.exists(content.adposition)
         elif type(content) in {Clause}:
             return self.exists(content.verb)
         elif type(content) in {Cloze}:
@@ -502,7 +502,7 @@ class Translation:
             return NounPhrase(content.grammemes, 
                 self.decline({**grammemes, **content.grammemes}, content.content))
         elif type(content) in {AdpositionalPhrase}:
-            return AdpositionalPhrase(content.grammemes, content.preposition,
+            return AdpositionalPhrase(content.grammemes, content.adposition,
                 self.decline({**grammemes, **content.grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
@@ -953,7 +953,7 @@ for (f,x),(g,y) in level0_subset_relations:
 template_annotation = RowAnnotation([
     'motion', 'cast', 
     'subject-adjective', 'subject-function', 'subject-argument', 
-    'verb', 'direct-object', 'preposition', 
+    'verb', 'direct-object', 'adposition', 
     'declined-noun-adjective', 'declined-noun-function', 'declined-noun-argument'])
 template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
@@ -980,12 +980,12 @@ class DeclensionTemplateMatching:
                       key=lambda template: len(declined_noun(template)))
         return templates[0] if len(templates) > 0 else None
 
-case_annotation = RowAnnotation(['motion','cast','case','preposition'])
+case_annotation = RowAnnotation(['motion','cast','case','adposition'])
 case_indexing = DictTupleIndexing(['motion','cast'])
 case_population = \
     FlatLookupPopulation(
         DictLookup('declension-use-case-to-grammatical-case', case_indexing),
-        MultiKeyEvaluation(['case','preposition']))
+        MultiKeyEvaluation(['case','adposition']))
 
 use_case_to_grammatical_case = \
     case_population.index(
@@ -1009,7 +1009,7 @@ for lemma in ['animal']:
         dictkey = case_indexing.dictkey(tuplekey)
         if dictkey in use_case_to_grammatical_case:
             case = use_case_to_grammatical_case[dictkey]['case']
-            preposition = use_case_to_grammatical_case[dictkey]['preposition']
+            adposition = use_case_to_grammatical_case[dictkey]['adposition']
             match = matching.match(emoji_representation, dictkey['motion'], dictkey['cast'])
             if match:
                 base_key = {
@@ -1037,11 +1037,11 @@ for lemma in ['animal']:
                     translated_nouns['subject'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], Cloze(1, lemma)])
                     english_nouns['subject'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], lemma])
                 elif case == 'accusative':
-                    translated_nouns['direct-object'] = NounPhrase({'case':case}, [preposition, match['declined-noun-adjective'], Cloze(1, lemma)])
-                    english_nouns['direct-object'] = NounPhrase({'case':case}, [match['preposition'], match['declined-noun-adjective'], lemma])
+                    translated_nouns['direct-object'] = NounPhrase({'case':case}, [adposition, match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['direct-object'] = NounPhrase({'case':case}, [match['adposition'], match['declined-noun-adjective'], lemma])
                 else:
-                    translated_nouns['modifiers'] = AdpositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'], Cloze(1, lemma)])
-                    english_nouns['modifiers'] = AdpositionalPhrase({'case':case}, match['preposition'], [match['declined-noun-adjective'], lemma])
+                    translated_nouns['modifiers'] = AdpositionalPhrase({'case':case}, adposition, [match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['modifiers'] = AdpositionalPhrase({'case':case}, match['adposition'], [match['declined-noun-adjective'], lemma])
                 if case == 'genitive':
                     translated_text = latin.inflect(base_key,
                     [
@@ -1050,7 +1050,7 @@ for lemma in ['animal']:
                     ])
                     english_text = [
                         NounPhrase({'case':'nominative'}, ['the', match['subject-argument']]),
-                        NounPhrase({'case':case}, [match['preposition'], match['declined-noun-adjective'], lemma]),
+                        NounPhrase({'case':case}, [match['adposition'], match['declined-noun-adjective'], lemma]),
                     ]
                 else:
                     translated_text = latin.inflect(base_key, Clause(base_key, match['verb'], translated_nouns))
