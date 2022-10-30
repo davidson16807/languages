@@ -267,6 +267,9 @@ class English:
         elif type(content) in {NounPhrase}:
             return NounPhrase({**content.grammemes, **grammemes}, 
                 self.decline({**content.grammemes, **grammemes}, content.content))
+        elif type(content) in {AdpositionalPhrase}:
+            return AdpositionalPhrase({**content.grammemes, **grammemes}, content.preposition,
+                self.decline({**content.grammemes, **grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
         elif type(content) in {Cloze}:
@@ -346,6 +349,8 @@ class English:
             return content
         elif type(content) in {NounPhrase}:
             return self.format(content.content)
+        elif type(content) in {AdpositionalPhrase}:
+            return ' '.join([content.preposition, self.format(content.content)])
         elif type(content) in {Cloze}:
             return '{{c'+str(content.id)+'::'+self.format(content.content)+'}}'
     def parse(self, NodeClass, text):
@@ -1032,11 +1037,11 @@ for lemma in ['animal']:
                     translated_nouns['subject'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], Cloze(1, lemma)])
                     english_nouns['subject'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], lemma])
                 elif case == 'accusative':
-                    translated_nouns['direct-object'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], Cloze(1, lemma)])
-                    english_nouns['direct-object'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], lemma])
+                    translated_nouns['direct-object'] = NounPhrase({'case':case}, [preposition, match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['direct-object'] = NounPhrase({'case':case}, [match['preposition'], match['declined-noun-adjective'], lemma])
                 else:
-                    translated_nouns['modifiers'] = NounPhrase({'case':case}, [preposition, match['declined-noun-adjective'], Cloze(1, lemma)])
-                    english_nouns['modifiers'] = NounPhrase({'case':case}, [match['preposition'], match['declined-noun-adjective'], lemma])
+                    translated_nouns['modifiers'] = AdpositionalPhrase({'case':case}, preposition, [match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['modifiers'] = AdpositionalPhrase({'case':case}, match['preposition'], [match['declined-noun-adjective'], lemma])
                 if case == 'genitive':
                     translated_text = latin.inflect(base_key,
                     [
