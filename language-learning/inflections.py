@@ -851,10 +851,10 @@ latin = Translation(
         *pronoun_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/pronoun-declensions.tsv'), 1, 4),
         *noun_annotation.annotate(
-            tsv_parsing.rows('data/noun-declension/latin/declensions.tsv'), 1, 6),
+            tsv_parsing.rows('data/inflection/latin/declensions.tsv'), 1, 6),
         *filter(has_annotation('language','latin'),
             template_annotation.annotate(
-                tsv_parsing.rows('data/noun-declension/declension-template-accusatives.tsv'), 2, 7)),
+                tsv_parsing.rows('data/inflection/declension-template-accusatives.tsv'), 2, 7)),
     ]),
     conjugation_population.index([
         *conjugation_annotation.annotate(
@@ -864,7 +864,7 @@ latin = Translation(
         *filter(has_annotation('language','latin'),
             declension_verb_annotation.annotate(
                 tsv_parsing.rows(
-                    'data/noun-declension/declension-template-verbs.tsv'), 2, 9)),
+                    'data/inflection/declension-template-verbs.tsv'), 2, 9)),
     ]),
     mood_templates = {
         'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
@@ -962,7 +962,7 @@ templates = \
     template_population.index(
         template_annotation.annotate(
             tsv_parsing.rows(
-                'data/noun-declension/declension-templates-minimal.tsv')))
+                'data/inflection/declension-templates-minimal.tsv')))
 
 class DeclensionTemplateMatching:
     def __init__(self, templates, predicates):
@@ -990,7 +990,7 @@ case_population = \
 use_case_to_grammatical_case = \
     case_population.index(
         case_annotation.annotate(
-            tsv_parsing.rows('data/noun-declension/latin/declension-use-case-to-grammatical-case.tsv')))
+            tsv_parsing.rows('data/inflection/latin/declension-use-case-to-grammatical-case.tsv')))
 
 matching = DeclensionTemplateMatching(templates, allthat)
 

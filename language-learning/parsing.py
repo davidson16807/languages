@@ -10,7 +10,7 @@ class SeparatedValuesFileParsing:
             for line in file.readlines():
                 if self.comment is not None:
                     line = line.split(self.comment)[0]
-                elif len(line.strip()) < 1:
+                if len(line.strip()) < 1:
                     continue
                 rows_.append([column.strip(self.padding) for column in line.split(self.delimeter)])
         return rows_
