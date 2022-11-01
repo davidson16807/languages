@@ -181,10 +181,10 @@ Buck_ID	English		Emoji
 11-640	debt		
 11-650	pay	verb	💸
 11-660	account|reckoning		
-11-690	tax|tribute		
+11-690	tax|tribute		💸→🏛️
 11-770	hire		
-11-780	wages		
-11-790	earn		
+11-780	wages	noun	💸
+11-790	earn	verb	👨‍🦱←💸
 11-810	buy	verb	👨‍🦱💸→
 11-820	sell	verb	💸→🧑‍💼
 11-830	trade|barter		
@@ -200,8 +200,8 @@ Buck_ID	English		Emoji
 12-11	behind		
 12-110	place		
 12-120	put		
-12-130	sit		
-12-140	lie down		
+12-130	sit	verb	🪑←🧍
+12-140	lie down	verb	🛏️←🧍
 12-150	stand		
 12-160	remain|stay		
 12-170	remains|left overs		
@@ -228,35 +228,35 @@ Buck_ID	English		Emoji
 12-370	middle|center		
 12-40	before		
 12-41	front		
-12-410	right		
-12-420	left		
+12-410	right	noun	→
+12-420	left	noun	←
 12-430	near		
 12-440	far		
-12-450	east		
-12-460	west		
-12-470	north		
-12-480	south		
-12-50	inside|in		
+12-450	east	noun	🧭→
+12-460	west	noun	🧭←
+12-470	north	noun	🧭↑
+12-480	south	noun	🧭↓
+12-50	inside|in	adjective	🛋️
 12-530	grow		
-12-540	measure		
+12-540	measure	noun	📏
 12-541	span|fathom		
-12-550	large|big		
-12-560	small|little		
-12-570	long		
-12-580	tall		
-12-590	short		
-12-60	outside		
-12-610	wide|broad		
-12-620	narrow		
-12-630	thick		
-12-650	thin		
+12-550	large|big	adjective	🐘
+12-560	small|little	adjective	🐁
+12-570	long	adjective	🐍
+12-580	tall	adjective	🦒
+12-590	short	adjective	<span style="font-size:60%">🦔</span>
+12-60	outside	adjective	🏞️
+12-610	wide|broad	adjective	🦛
+12-620	narrow	adjective	🪱
+12-630	thick	adjective	🐖
+12-650	thin	adjective	🐛
 12-670	deep		
 12-680	shallow		
 12-70	under		
 12-710	flat		
 12-730	straight		
 12-740	crooked		
-12-750	hook		
+12-750	hook	noun	🪝
 12-760	corner		
 12-770	cross	noun	†
 12-780	square	noun	■
@@ -314,15 +314,15 @@ Buck_ID	English		Emoji
 14-170	late		
 14-180	now		
 14-190	immediately		
-14-210	swift|fast|quick		
-14-220	slow		
+14-210	swift|fast|quick	adjective	🐆
+14-220	slow	adjective	🦥
 14-230	hasten|hurry		
 14-240	retard|delay		
 14-250	begin|beginning		
-14-252	last|endure		
+14-252	last|endure	verb	🗿
 14-260	end		
 14-270	finish		🏁
-14-280	cease|stop		
+14-280	cease|stop	noun	🛑
 14-290	ready		
 14-310	always		
 14-320	often		
@@ -401,130 +401,130 @@ Buck_ID	English		Emoji
 15-790	blunt|dull		
 15-810	heavy		
 15-820	light-weight		
-15-830	wet|damp		
-15-840	dry		
-15-850	hot		
+15-830	wet|damp	adjective	🧽
+15-840	dry	adjective	🏜️
+15-850	hot	adjective	🥵
 15-851	warm		
-15-860	cold		
-15-870	clean		
-15-880	dirty|soiled		
+15-860	cold	adjective	🥶
+15-870	clean	adjective	🧼
+15-880	dirty|soiled	adjective	💩
 15-890	wrinkled		
-16-110	soul|spirit		
-16-150	surprised|astonished		
-16-180	good fortune|luck		
-16-190	misfortune|bad luck		
-16-230	joyful|glad|happy		
-16-250	laugh		
-16-251	smile		
-16-260	play		
-16-270	love		
-16-290	kiss		
-16-300	embrace		
-16-310	pain		
-16-320	grief|sorrow|sadness		
-16-330	anxiety|worry		
+16-110	soul|spirit	noun	👻
+16-150	surprised|astonished	adjective	😳
+16-180	good fortune|luck	noun	🍀
+16-190	misfortune|bad luck	noun	🐈‍⬛
+16-230	joyful|glad|happy	adjective	😂
+16-250	laugh	verb	😆
+16-251	smile	verb	🙂
+16-260	play	verb	🤾‍♂️
+16-270	love	verb	🥰
+16-290	kiss	verb	😗
+16-300	embrace	verb	🤗
+16-310	pain	noun	😬
+16-320	grief|sorrow|sadness	noun	😢
+16-330	anxiety|worry	noun	😨
 16-340	regret|be sorry		
 16-350	pity		
-16-370	cry|weep		
-16-380	tear		
-16-390	groan		
-16-410	hate		
-16-420	anger		
-16-440	envy|jealousy		
+16-370	cry|weep	verb	😭
+16-380	tear	noun	😢
+16-390	groan	verb	😮‍💨
+16-410	hate	noun	😡
+16-420	anger	noun	😠
+16-440	envy|jealousy	noun	😒
 16-450	shame		
-16-480	proud		
+16-480	proud	adjective	🥲
 16-510	dare		
-16-520	brave		
-16-530	fear|fright		
-16-540	danger		
-16-620	desire|want		
-16-622	choose		
+16-520	brave	adjective	🦸
+16-530	fear|fright	noun	😨
+16-540	danger	noun	⚠️
+16-620	desire|want	noun	🤑
+16-622	choose	verb	🤞
 16-630	hope		
-16-650	faithful		
-16-660	TRUE		
-16-670	lie|tell lies		
-16-680	deceit		
+16-650	faithful	adjective	🙏
+16-660	true	adjective	T
+16-670	lie|tell lies	verb	🤥
+16-680	deceit	noun	🥸
 16-690	forgive		
-16-710	good		
-16-720	bad		
-16-730	right|correct		
-16-740	wrong		
+16-710	good	adjective	😇
+16-720	bad	adjective	👿
+16-730	right|correct	adjective	✔️
+16-740	wrong	adjective	❌
 16-760	fault		
 16-770	mistake|error		
 16-780	blame		
 16-790	praise		
-16-810	beautiful		
-16-820	ugly		
-16-830	greedy		
-16-840	clever		
-17-110	mind		
-17-130	think|reflect		
-17-140	think		
+16-810	beautiful	adjective	💃
+16-820	ugly	adjective	🧌
+16-830	greedy	adjective	🤑
+16-840	clever	adjective	🤓
+17-110	mind	noun	🧠
+17-130	think|reflect	verb	🤔
+17-140	think	verb	🤔
 17-150	believe		
 17-160	understand		
 17-170	know		
 17-171	guess		
-17-172	imitate		
+17-172	imitate	verb	🥸
 17-180	seem		
 17-190	idea|notion		
-17-210	wise		
-17-220	foolish|stupid		
-17-230	insane|crazy		
-17-240	learn		
-17-242	study		
-17-250	teach		
-17-260	pupil		
-17-270	teacher		
-17-280	school		
+17-210	wise	adjective	🧙‍♂️
+17-220	foolish|stupid	adjective	🤪
+17-230	insane|crazy	adjective	🤪
+17-240	learn	verb	🧑‍🎓
+17-242	study	verb	🧑‍🔬
+17-250	teach	verb	🧑‍🏫
+17-260	pupil	noun	🧑‍🎓
+17-270	teacher	noun	🧑‍🏫
+17-280	school	noun	🏫
 17-310	remember		
 17-320	forget		
 17-340	clear|plain		
 17-350	obscure		
-17-360	secret		
+17-360	secret	adjective	🔒
 17-370	sure|certain		
 17-380	explain		
 17-410	intention|purpose		
 17-420	cause		
 17-430	doubt		
-17-440	suspect		
-17-441	betray		
+17-440	suspect	verb	🥸🤔
+17-441	betray	verb	🦹🏻
 17-450	need|necessity		
 17-460	easy		
 17-470	difficult		
 17-480	try|attempt		
 17-490	way|manner		
-17-510	and		
+17-510	and	conjunction	∧
 17-520	because		
 17-530	if		
-17-540	or		
-17-550	yes|affirmative		
-17-560	no|negative		
-17-610	how		
-17-620	how many		
-17-630	how much		
-17-640	what		
-17-650	when		
-17-660	where		
-17-670	which		
-17-680	who		
-17-690	why		
-18-110	voice		
-18-120	sing		
+17-540	or	conjunction	∨
+17-550	yes|affirmative	interjection	👍
+17-560	no|negative	interjection	👎
+17-610	how	noun	📝?
+17-620	how many	noun	🤌?
+17-630	how much	noun	🤌?
+17-640	what	noun	?
+17-650	when	noun	🕐?
+17-660	where	noun	🗺️?
+17-670	which	noun	🧍🧰🧰?
+17-680	who	noun	🧍?
+17-690	why	noun	📈?
+18-110	voice	noun	<sub>🧑</sub><sup>💬</sup>
+18-120	sing	verb	🧑‍🎤<sup>💬</sup>
 18-130	shout|cry out		
 18-150	whisper		
 18-160	mumble		
 18-170	whistle		
-18-180	shriek|screech		
-18-190	howl		
-18-210	speak|talk		
+18-180	shriek|screech	verb	<sub>🦇</sub><sup>🗯️</sup>
+18-190	howl	verb	<sub>🐺</sub><sup>🗯️</sup>
+18-210	speak|talk	verb	<sub>🧑</sub><sup>💬</sup>
 18-211	stutter|stammer		
 18-220	say		
 18-221	tell story		
-18-222	speech		
+18-222	speech	noun	<sub>🧑</sub><sup>💬</sup>
 18-230	silent		
 18-240	language		
-18-260	word		
-18-280	name		
+18-260	word	noun	🔤
+18-280	name	noun	📛
 18-310	ask question|inquire		
 18-320	answer		
 18-330	admit|confess		
@@ -539,97 +539,97 @@ Buck_ID	English		Emoji
 18-430	announce		
 18-440	threaten		
 18-450	boast		
-18-510	write		
-18-520	read		
-18-560	paper		
-18-570	pen		
-18-610	book		
-18-670	poet		
-18-710	flute		
-18-720	drum		
-18-730	horn|trumpet		
-18-740	rattle		
-19-110	country		
+18-510	write	verb	✍️
+18-520	read	verb	📖👀
+18-560	paper	noun	🧾
+18-570	pen	noun	🖊️
+18-610	book	noun	📕
+18-670	poet	verb	🧑‍🏫
+18-710	flute	noun	🪈
+18-720	drum	noun	🥁
+18-730	horn|trumpet	noun	🎺
+18-740	rattle	verb	🪇
+19-110	country	noun	🗾
 19-120	one's native country		
-19-150	city|town		
-19-160	village		
+19-150	city|town	noun	🏙️
+19-160	village	noun	🏘️
 19-170	boundary		
-19-210	people|populace		
-19-230	tribe|clan		
-19-240	chief|chieftain		
+19-210	people|populace	noun	🧑‍🤝‍🧑
+19-230	tribe|clan	noun	🧑‍🤝‍🧑🛖
+19-240	chief|chieftain		🤴🛖
 19-250	staff|walking stick		
 19-310	rule|govern		
-19-320	king|ruler		
-19-330	queen		
-19-360	noble|nobleman		
-19-370	citizen|subject		
-19-410	master		
+19-320	king|ruler	noun	🤴
+19-330	queen	noun	👸
+19-360	noble|nobleman	noun	🧐
+19-370	citizen|subject	noun	🗳️🙂
+19-410	master	noun	🤴
 19-420	slave		
-19-430	servant		
+19-430	servant	noun	🤵
 19-440	freeman		
 19-450	command|order		
 19-460	obey		
 19-470	let|permit		
 19-510	friend|companion		
-19-520	enemy		
+19-520	enemy	noun	🦹
 19-540	neighbor		
-19-550	stranger		
+19-550	stranger	noun	👳
 19-560	guest		
 19-570	host		
-19-580	help|aid		
+19-580	help|aid	noun	🆘
 19-590	hinder|prevent		
 19-610	custom		
 19-620	strife|quarrel		
 19-630	conspiracy|plot		
 19-650	meet		
-19-720	prostitute		
-2-100	person|human being		
-2-210	man		
-2-220	woman		
-2-230	male		
-2-240	female		
-2-250	boy		
-2-251	young man		
-2-260	girl		
-2-261	young woman		
-2-270	child		
-2-280	infant|baby		
-2-310	husband		
-2-320	wife		
-2-330	marry		
-2-340	marriage|wedding		
-2-341	divorce		
-2-350	father		
-2-360	mother		
-2-370	parents		
-2-380	married man		
-2-390	married woman		
-2-410	son		
-2-420	daughter		
-2-430	offspring		
-2-440	brother		
-2-444	older brother		
-2-445	younger brother		
-2-450	sister		
-2-454	older sister		
-2-455	younger sister		
-2-456	sibling		
-2-458	twins		
-2-460	grandfather		
-2-461	old man		
-2-470	grandmother		
-2-471	old woman		
-2-480	grandson		
-2-490	granddaughter		
-2-510	uncle		
-2-511	mother's brother		
-2-512	father's brother		
-2-520	aunt		
-2-521	mother's sister		
-2-522	father's sister		
-2-530	nephew		
-2-540	niece		
-2-550	cousin		
+19-720	prostitute	noun	💃
+2-100	person|human being	noun	🧍
+2-210	man	noun	👨
+2-220	woman	noun	👩
+2-230	male	noun	👨
+2-240	female	noun	👩
+2-250	boy	noun	👦
+2-251	young man	noun	👨
+2-260	girl	noun	👧
+2-261	young woman	noun	👩
+2-270	child	noun	🧒
+2-280	infant|baby	noun	👶
+2-310	husband	noun	🤵
+2-320	wife	noun	👰‍♀️
+2-330	marry	verb	👰🤵
+2-340	marriage|wedding	noun	👰🤵
+2-341	divorce	noun	←👰🤵→
+2-350	father	noun	👨‍👧‍👦↖
+2-360	mother	noun	👩‍👦‍👦↖
+2-370	parents	noun	👨‍👩‍👧‍👦↖
+2-380	married man	noun	🤵
+2-390	married woman	noun	👰‍♀️
+2-410	son	noun	👨‍👩‍👦↙
+2-420	daughter	noun	👨‍👩‍👧↙
+2-430	offspring	noun	👪↙
+2-440	brother	noun	🧒👦←
+2-444	older brother	noun	👦👨←
+2-445	younger brother	noun	→👦👨
+2-450	sister	noun	🧒👧←
+2-454	older sister	noun	👧👩←
+2-455	younger sister	noun	→👧👩
+2-456	sibling	noun	🧒👧
+2-458	twins	noun	🧒🧒
+2-460	grandfather	noun	🧒👴←
+2-461	old man	noun	👴
+2-470	grandmother	noun	🧒👵←
+2-471	old woman	noun	👵
+2-480	grandson	noun	→👦🧓
+2-490	granddaughter	noun	→👧🧓
+2-510	uncle		👨‍👩‍👧‍👦🧍‍♂️←
+2-511	mother's brother		👨‍👩‍👧‍👦🧍‍♂️←
+2-512	father's brother		→🧍‍♂️👨‍👩‍👧‍👦
+2-520	aunt		👨‍👩‍👧‍👦🧍‍♀️←
+2-521	mother's sister		👨‍👩‍👧‍👦🧍‍♀️←
+2-522	father's sister		→🧍‍♀️👨‍👩‍👧‍👦
+2-530	nephew		↘👨‍👩‍👦🧍
+2-540	niece		↘👨‍👩‍👧🧍
+2-550	cousin		👨‍👩‍👦👨‍👩‍👦↙
 2-560	ancestors		
 2-570	descendants		
 2-610	father-in-law		
@@ -648,7 +648,7 @@ Buck_ID	English		Emoji
 2-760	widow		
 2-770	widower		
 2-810	relatives|kinsmen		
-2-820	family		
+2-820	family	noun	👪
 2-910	I		
 2-920	you		
 2-930	he|she|it		
@@ -907,67 +907,67 @@ Buck_ID	English		Emoji
 4-370	foot		
 4-371	ankle		
 4-372	heel		
-4-374	footprint		
-4-380	toe		
-4-392	wing		
-4-393	feather		
-4-400	chest		
-4-410	breast		
-4-412	nipple|teat		
-4-420	udder		
+4-374	footprint	noun	👣
+4-380	toe	noun	🦶↙
+4-392	wing	noun	🪽
+4-393	feather	noun	🪶
+4-400	chest	noun	🧍←
+4-410	breast	noun	🤱
+4-412	nipple|teat	noun	🤱
+4-420	udder	noun	🐄←
 4-430	navel		
-4-440	heart		
-4-441	lung		
+4-440	heart	noun	🫀
+4-441	lung	noun	🫁
 4-450	liver		
 4-451	kidney		
 4-452	spleen		
-4-460	stomach		
-4-461	intestines|guts		
-4-462	waist		
-4-463	hip		
-4-464	buttocks		
-4-470	womb		
-4-490	testicle		
-4-492	penis		
-4-510	breathe|breath		
-4-520	yawn|gape		
+4-460	stomach	noun	🫄
+4-461	intestines|guts	noun	🌭
+4-462	waist	noun	🧍←
+4-463	hip	noun	🧍←
+4-464	buttocks	noun	🍑
+4-470	womb	noun	🤰
+4-490	testicle	noun	🥚🥚
+4-492	penis	noun	🍆
+4-510	breathe|breath	verb	😮‍💨
+4-520	yawn|gape	verb	🥱
 4-521	hiccough		
 4-530	cough		
-4-540	sneeze		
-4-550	perspire		
-4-560	spit		
-4-570	vomit		
-4-580	bite		
-4-590	lick		
+4-540	sneeze	verb	🤧
+4-550	perspire	verb	😓
+4-560	spit	verb	😪
+4-570	vomit	verb	🤮
+4-580	bite	verb	😾
+4-590	lick	verb	👅
 4-591	dribble		
-4-610	sleep		
-4-612	snore		
-4-620	dream		
+4-610	sleep	verb	😴
+4-612	snore	verb	😴
+4-620	dream	verb	<sub>😴</sub><sup>💭</sup>
 4-630	wake up		
-4-640	break wind		
-4-650	urinate		
-4-660	defecate		
-4-670	have sexual intercourse		
-4-680	shiver		
-4-690	bathe		
-4-710	beget		
-4-720	born		
-4-730	pregnant		
+4-640	break wind	verb	🍑💨
+4-650	urinate	verb	🚽
+4-660	defecate	verb	💩
+4-670	have sexual intercourse	verb	🔞
+4-680	shiver	verb	🥶
+4-690	bathe	verb	🛀
+4-710	beget	verb	🤰
+4-720	born	adjective	🤰
+4-730	pregnant	adjective	🤰
 4-732	conceive		
-4-740	live|living|life		
-4-750	die|dead		
+4-740	live|living|life	verb	🌹
+4-750	die|dead	verb	🪦
 4-751	drowned		
-4-760	kill		
-4-770	corpse		
-4-780	bury		
-4-790	grave|tomb		
-4-810	strong|mighty|powerful		
-4-820	weak		
+4-760	kill	verb	😐🔪😐
+4-770	corpse	noun	🧟
+4-780	bury	verb	🪦
+4-790	grave|tomb	noun	🪦
+4-810	strong|mighty|powerful	adjective	🐂
+4-820	weak	adjective	🐁
 4-830	well|health		
-4-840	sick|sickness		
-4-841	fever		
+4-840	sick|sickness	noun	🤒
+4-841	fever	noun	🤒
 4-842	goiter		
-4-843	cold		
+4-843	cold	noun	🤒
 4-850	wound|sore		
 4-852	bruise		
 4-853	swelling		
@@ -976,63 +976,63 @@ Buck_ID	English		Emoji
 4-856	boil		
 4-857	pus		
 4-858	scar		
-4-860	cure|heal		
-4-870	physician		
+4-860	cure|heal	verb	🤕
+4-870	physician	noun	🧑‍⚕️
 4-880	medicine|drug		
-4-890	poison		
-4-910	tired|weary		
+4-890	poison	noun	☠️
+4-910	tired|weary	adjective	😮‍💨
 4-912	rest		
 4-920	lazy		
-4-930	bald		
-4-940	lame		
-4-950	deaf		
-4-960	mute		
-4-970	blind		
-4-980	intoxicated		
+4-930	bald	adjective	🧑‍🦲
+4-940	lame	adjective	🤓
+4-950	deaf	adjective	🧏
+4-960	mute	adjective	🧏
+4-970	blind	adjective	🧑‍🦯
+4-980	intoxicated	adjective	🥴
 4-990	naked|bare		
-5-110	eat		
-5-120	food		
+5-110	eat	noun	🍽️
+5-120	food	noun	🍔
 5-121	cooked		
 5-122	raw		
 5-123	ripe		
 5-124	green|unripe		
 5-125	rotten		
-5-130	drink		
+5-130	drink	noun	🥛
 5-140	hunger		
 5-141	famine		
 5-150	thirst		
-5-160	suck		
+5-160	suck	verb	🍼
 5-180	chew		
 5-181	swallow		
 5-190	choke		
-5-210	cook		
-5-220	boil		
-5-230	roast|fry		
+5-210	cook	verb	🥘
+5-220	boil	noun	🍲
+5-230	roast|fry	noun	🍳
 5-240	bake		
 5-250	oven		
-5-260	pot|cooking vessel		
+5-260	pot|cooking vessel	noun	🍲
 5-270	kettle		
-5-280	pan		
-5-310	dish		
-5-320	plate		
-5-330	bowl		
+5-280	pan	noun	🍳
+5-310	dish	noun	🍽️
+5-320	plate	noun	🍽️
+5-330	bowl	noun	🥣
 5-340	pitcher|jug		
-5-350	cup|drinking vessel		
-5-360	saucer		
-5-370	spoon		
-5-380	knife		
-5-390	fork		
+5-350	cup|drinking vessel	noun	🍵
+5-360	saucer	noun	🍽️
+5-370	spoon	noun	🥄
+5-380	knife	noun	🔪
+5-390	fork	noun	→🍴
 5-391	tongs		
-5-410	meal		
-5-420	breakfast		
-5-430	lunch		
-5-440	dinner		
-5-450	supper		
+5-410	meal	noun	🍝
+5-420	breakfast	noun	🥣
+5-430	lunch	noun	🥪
+5-440	dinner	noun	🍝
+5-450	supper	noun	🍝
 5-460	peel		
 5-470	sieve|strain		
 5-480	scrape		
 5-490	stir|mix		
-5-510	bread		
+5-510	bread	noun	🍞
 5-530	dough		
 5-540	knead		
 5-550	meal|flour		
@@ -1040,127 +1040,127 @@ Buck_ID	English		Emoji
 5-570	mill		
 5-580	mortar		
 5-590	pestle		
-5-610	meat		
+5-610	meat	noun	🍖
 5-630	sausage		
-5-640	soup|broth		
-5-650	vegetables		
-5-660	bean		
-5-700	potato		
-5-710	fruit		
+5-640	soup|broth	noun	🍲
+5-650	vegetables	noun	🥦
+5-660	bean	noun	🫘
+5-700	potato	noun	🥔
+5-710	fruit	noun	🍏
 5-712	bunch		
 5-750	fig		
-5-760	grape		
-5-770	nut		
-5-780	olive		
-5-790	oil		
-5-791	grease|fat		
-5-810	salt		
-5-820	pepper		
-5-821	chili pepper		
-5-840	honey		
-5-850	sugar		
-5-860	milk		
+5-760	grape	noun	🍇
+5-770	nut	noun	🌰
+5-780	olive	noun	🫒
+5-790	oil	noun	🧈
+5-791	grease|fat	noun	🧈
+5-810	salt	noun	🧂
+5-820	pepper	noun	🌶️
+5-821	chili pepper	noun	🌶️
+5-840	honey	noun	🍯
+5-850	sugar	noun	🥣
+5-860	milk	noun	🥛
 5-870	milk		
-5-880	cheese		
-5-890	butter		
-5-900	beverage|drink		
-5-910	mead		
-5-920	wine		
-5-930	beer		
+5-880	cheese	noun	🧀
+5-890	butter	noun	🧈
+5-900	beverage|drink	noun	🥛
+5-910	mead	noun	🍯
+5-920	wine	noun	🍷
+5-930	beer	noun	🍺
 5-940	fermented drink		
-5-970	egg		
-5-971	egg yolk		
+5-970	egg	noun	🥚
+5-971	egg yolk	noun	🍳
 6-110	put on clothes		
 6-120	clothing|clothes		
 6-130	tailor		
-6-210	cloth		
-6-220	wool		
-6-230	linen|flax		
-6-240	cotton		
-6-250	silk		
-6-270	felt		
-6-280	fur		
-6-290	leather		
+6-210	cloth	noun	👚
+6-220	wool	noun	🧥
+6-230	linen|flax	noun	👗
+6-240	cotton	noun	👕
+6-250	silk	noun	🥻
+6-270	felt	noun	🎩
+6-280	fur	noun	🐇
+6-290	leather	noun	👜
 6-310	spin		
 6-320	spindle		
 6-330	weave		
 6-340	loom		
-6-350	sew		
-6-360	needle		
+6-350	sew	noun	🪡
+6-360	needle	noun	🪡
 6-370	awl		
 6-380	thread		
 6-390	dye		
 6-410	cloak		
 6-411	poncho		
-6-420	woman's dress		
-6-430	coat		
-6-440	shirt		
+6-420	woman's dress	noun	👗
+6-430	coat	noun	🧥
+6-440	shirt	noun	👕
 6-450	collar		
-6-460	skirt		
+6-460	skirt	noun	👗
 6-461	grass-skirt		
-6-480	trousers		
-6-490	stocking|sock		
-6-510	shoe		
-6-520	boot		
+6-480	trousers	noun	👖
+6-490	stocking|sock	noun	🧦
+6-510	shoe	noun	👞
+6-520	boot	noun	🥾
 6-540	shoemaker|cobbler		
-6-550	hat|cap		
+6-550	hat|cap	noun	🧢
 6-570	belt|girdle		
-6-580	glove		
-6-590	veil		
+6-580	glove	noun	🧤
+6-590	veil	noun	👰
 6-610	pocket		
 6-620	button		
-6-630	pin		
+6-630	pin	noun	📌
 6-710	ornament|adornment		
-6-720	jewel		
-6-730	ring		
-6-740	bracelet		
-6-750	necklace		
-6-760	bead		
-6-770	earring		
+6-720	jewel	noun	💎
+6-730	ring	noun	💍
+6-740	bracelet	noun	📿
+6-750	necklace	noun	📿
+6-760	bead	noun	📿
+6-770	earring	noun	💍
 6-780	headband|headdress		
 6-790	tattoo		
 6-810	handkerchief|rag		
 6-820	towel		
-6-910	comb		
-6-920	brush		
+6-910	comb	noun	🪮
+6-920	brush	noun	🖌️
 6-921	braid		
-6-930	razor		
-6-940	ointment		
-6-950	soap		
-6-960	mirror		
+6-930	razor	noun	🪒
+6-940	ointment	noun	🧴
+6-950	soap	noun	🧼
+6-960	mirror	noun	🪞
 7-110	dwell|live		
-7-120	house		
-7-130	hut		
-7-131	garden-house		
-7-140	tent		
-7-150	yard|court		
+7-120	house	noun	🏠
+7-130	hut	noun	🛖
+7-131	garden-house	noun	🏡
+7-140	tent	noun	⛺
+7-150	yard|court	noun	⛲
 7-160	men's house		
 7-170	cookhouse		
 7-180	meeting house		
-7-210	room		
-7-220	door|gate		
+7-210	room	noun	🛋️
+7-220	door|gate	noun	🚪
 7-221	doorpost|jamb		
-7-230	lock		
+7-230	lock	noun	🔐
 7-231	latch|door-bolt		
-7-240	key		
-7-250	window		
+7-240	key	noun	🔑
+7-250	window	noun	🪟
 7-260	floor		
 7-270	wall		
 7-310	fireplace		
 7-320	stove		
 7-330	chimney		
-7-370	ladder		
-7-420	bed		
+7-370	ladder	noun	🪜
+7-420	bed	noun	🛌
 7-421	pillow		
 7-422	blanket		
-7-430	chair		
+7-430	chair	noun	🪑
 7-440	table		
-7-450	lamp|torch		
-7-460	candle		
+7-450	lamp|torch	noun	🪔
+7-460	candle	noun	🕯️
 7-470	shelf		
 7-480	trough		
-7-510	roof		
-7-520	thatch		
+7-510	roof	noun	🏠↖
+7-520	thatch	noun	🛖↖
 7-530	ridgepole		
 7-540	rafter		
 7-550	beam		
@@ -1168,14 +1168,14 @@ Buck_ID	English		Emoji
 7-570	board		
 7-580	arch		
 7-610	mason		
-7-620	brick		
+7-620	brick	noun	🧱
 7-630	mortar		
 7-640	adobe		
-8-110	farmer		
-8-120	field		
+8-110	farmer	noun	🧑‍🌾
+8-120	field	noun	🌾
 8-130	garden		
 8-150	cultivate|till		
-8-160	fence		
+8-160	fence	noun	🚧
 8-170	ditch		
 8-210	plow		
 8-212	furrow		
@@ -1186,64 +1186,64 @@ Buck_ID	English		Emoji
 8-260	fork		
 8-270	rake		
 8-310	sow		
-8-311	seed		
+8-311	seed	noun	🌰
 8-320	mow|reap		
 8-330	sickle|scythe		
 8-340	thresh		
 8-350	threshing-floor		
-8-410	crop|harvest		
-8-420	grain		
-8-430	wheat		
-8-440	barley		
-8-450	rye		
-8-460	oats		
-8-470	maize|corn		
-8-480	rice		
-8-510	grass		
-8-520	hay		
-8-530	plant		
-8-531	plant		
-8-540	root		
-8-550	branch		
-8-560	leaf		
-8-570	flower		
-8-600	tree		
-8-610	oak		
+8-410	crop|harvest	noun	🌾
+8-420	grain	noun	🌾
+8-430	wheat	noun	🌾
+8-440	barley	noun	🌾
+8-450	rye	noun	🌾
+8-460	oats	noun	🌾
+8-470	maize|corn	noun	🌽
+8-480	rice	noun	🍚
+8-510	grass	noun	🌾
+8-520	hay	noun	🌾
+8-530	plant	noun	🪴
+8-531	plant	verb	🪴
+8-540	root	noun	🥕
+8-550	branch	noun	🌿
+8-560	leaf	noun	🍃
+8-570	flower	noun	🌻
+8-600	tree	noun	🌳
+8-610	oak	noun	🌳
 8-620	beech	noun	🌳
-8-630	birch	noun	🌳
-8-640	pine		
-8-650	fir		
-8-660	acorn		
+8-630	birch	noun	<span style="filter: invert(1) hue-rotate(60deg)">🌳</span>
+8-640	pine	noun	🌲
+8-650	fir	noun	🌲
+8-660	acorn	noun	🌰
 8-670	vine		
-8-680	tobacco		
-8-690	smoke		
-8-691	pipe		
-8-720	tree stump		
-8-730	tree trunk		
+8-680	tobacco	noun	🚬
+8-690	smoke	verb	🚬
+8-691	pipe	noun	🚬
+8-720	tree stump	noun	🪵
+8-730	tree trunk	noun	🌳←
 8-740	forked branch		
-8-750	bark		
+8-750	bark	noun	🪵←
 8-760	sap		
-8-810	palm tree		
-8-820	coconut		
-8-830	citrus fruit		
-8-840	banana tree		
+8-810	palm tree	noun	🌴
+8-820	coconut	noun	🥥
+8-830	citrus fruit	noun	🍊
+8-840	banana tree	noun	🌴→🍌
 8-850	banyan		
-8-910	sweet potato		
-8-912	yam		
+8-910	sweet potato	noun	🍠
+8-912	yam	noun	🍠
 8-920	tapioca|manioc|cassava		
-8-930	gourd		
-8-931	pumpkin|squash		
+8-930	gourd	noun	🎃
+8-931	pumpkin|squash	noun	🎃
 8-940	bamboo	noun	🎋
 8-941	sugar cane		
 8-960	fish poison		
 8-970	nettle		
-8-980	mushroom		
+8-980	mushroom	noun	🍄
 9-110	do|make		
-9-120	work		
+9-120	work	verb	🧑‍🔧
 9-140	bend		
 9-150	fold		
-9-160	tie|bind		
-9-161	untie		
+9-160	tie|bind	verb	🧶→🪢
+9-161	untie	verb	🪢→🧶
 9-180	chain	noun	⛓️
 9-190	rope|cord		
 9-192	knot		
@@ -1273,7 +1273,7 @@ Buck_ID	English		Emoji
 9-360	wash	verb	🧼
 9-370	sweep	verb	🧹
 9-380	broom	noun	🧹
-9-422	tool		
+9-422	tool	noun	🔧
 9-430	carpenter		
 9-440	build		
 9-460	bore		
@@ -1305,7 +1305,7 @@ Buck_ID	English		Emoji
 9-791	fan		
 9-810	carve		
 9-820	sculptor		
-9-830	statue		
+9-830	statue	noun	🗿
 9-840	chisel		
-9-880	paint		
-9-890	paint		
+9-880	paint	noun	🎨
+9-890	paint	verb	🎨

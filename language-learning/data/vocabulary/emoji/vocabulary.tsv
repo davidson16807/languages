@@ -342,6 +342,7 @@
 🐘	adjective	large
 🐁	adjective	small
 🐍	adjective	long
+🦒	adjective	tall
 <span style="font-size:60%">🦔</span>	adjective	short
 👐	adjective	wide
 🤏	adjective	narrow
@@ -444,7 +445,6 @@
 🛝	adjective	sliding
 🏞️	adjective	mountaineous
 ⛰️	adjective	high
-⛰️	adjective	tall
 🏞️	adjective	low
 
 🔥	noun	flame
@@ -1036,6 +1036,7 @@
 🍦	adjective 	cool
 🥵	adjective	hot
 🥶	adjective	cold
+🥶	adjective	cold
 🔪	adjective	sharp
 🥄	adjective	dull
 🐑	adjective	soft
@@ -1137,6 +1138,7 @@
 🚪	noun	door
 🪟	noun	window
 🏠	noun	house
+🏠↖	noun	roof
 🚧	noun	fence
 🚧	verb	fence
 🚧	verb	fenced
@@ -1510,6 +1512,7 @@
 🚦	verb	trafficked
 🚦	verb	trafficking
 🚦	noun	trafficking
+👣	noun	footprint
 👣	noun	path
 👣	noun	pathway
 👣	noun	track
@@ -2742,6 +2745,7 @@ F	adverb	false
 🧑🐕‍🦺 	verb	training
 🧑🐕‍🦺 	adjective 	trained
 🧑🐕‍🦺 	adjective 	training
+🧑‍⚕️	noun	physician
 🧑‍⚕️	noun	doctor
 🖼️	verb	doctor
 🖼️	verb	doctored
@@ -3376,6 +3380,7 @@ F	adverb	false
 🍳	verb	frying
 🍳	adjective	fried
 🥘	noun	curry
+🍲	noun	pot
 🍲	noun	soup
 🍲	adjective	soupy
 🍲	noun	gumbo
@@ -3424,6 +3429,7 @@ F	adverb	false
 🥣	noun	breakfast
 🥪	noun	lunch
 🍝	noun	dinner
+🍝	noun	supper
 🍝	noun	meal
 🥖	noun 	appetizer
 🥧	noun 	dessert
@@ -3517,6 +3523,7 @@ F	adverb	false
 🥢	noun	rod
 🍽️	noun	plate
 🍽️	noun	dish
+🥣	noun	bowl
 🍴	noun	fork
 🔪	noun	knife
 🥄	noun	spoon
@@ -4021,6 +4028,7 @@ F	adverb	false
 🛖	verb	dwelled
 🛖	verb	dwelling
 🛖	noun	dwelling
+🛖↖ 	noun 	thatch
 🏘️	noun	village
 🏘️	noun	town
 🏘️	verb	settle
@@ -4156,6 +4164,7 @@ F	adverb	false
 ⛵	verb	voyage
 ⛵	verb	voyaged
 ⛵	verb	voyaging
+⛵🧍	noun 	sailor
 ✈️	noun	plane
 ✈️	noun	jet
 ✈️	noun	airplane
@@ -4383,6 +4392,7 @@ F	adverb	false
 🛍️	noun	bag
 📿	noun	bead
 📿	noun	neclace
+📿	noun	bracelet
 💎	noun	gem
 💎	noun	jewel
 💎	noun	possession
@@ -5675,7 +5685,7 @@ F	adverb	false
 
 
 # BIOLOGICAL TAXONOMY
-🐃	noun	animalf
+🐃	noun	animal
 🪴	noun	plant
 🍄	noun	mushroom
 🍄	noun	fungus
@@ -5846,6 +5856,21 @@ F	adverb	false
 <sub>🐗</sub><sup>🗯️</sup>	verb	snorted
 <sub>🐗</sub><sup>🗯️</sup>	verb	snorting
 <sub>🐗</sub><sup>🗯️</sup>	adjective	snorting
+<sub>🦇</sub><sup>🗯️</sup>	noun	shriek
+<sub>🦇</sub><sup>🗯️</sup>	verb	shriek
+<sub>🦇</sub><sup>🗯️</sup>	verb	shrieked
+<sub>🦇</sub><sup>🗯️</sup>	verb	shrieking
+<sub>🦇</sub><sup>🗯️</sup>	adjective	shrieking
+<sub>🦇</sub><sup>🗯️</sup>	noun	screech
+<sub>🦇</sub><sup>🗯️</sup>	verb	screech
+<sub>🦇</sub><sup>🗯️</sup>	verb	screeched
+<sub>🦇</sub><sup>🗯️</sup>	verb	screeching
+<sub>🦇</sub><sup>🗯️</sup>	adjective	screeching
+<sub>🐺</sub><sup>🗯️</sup> 	noun 	howl
+<sub>🐺</sub><sup>🗯️</sup> 	verb 	howl
+<sub>🐺</sub><sup>🗯️</sup> 	verb 	howled
+<sub>🐺</sub><sup>🗯️</sup> 	verb 	howling
+<sub>🐺</sub><sup>🗯️</sup> 	adjective 	howling
 🐰	adjective	cute
 🐶	adjective	adorable
 🐶	adjective	lovable
@@ -6145,6 +6170,7 @@ F	adverb	false
 🐙	adjective	lovecraftian
 
 #		mythological humanoids
+🧟	noun	corpse
 🧟	noun	zombie
 🧟	noun	ghoul
 🧟	noun	undead
@@ -6358,13 +6384,13 @@ F	adverb	false
 🎋	noun	bamboo
 🌾	noun	wheat
 🌾	noun	rye
-🌾	noun	rice
+🍚	noun	rice
 🌾	noun	grain
 🌾	noun	crop
 🍀	noun	luck
 🐈‍⬛	noun	unlucky
 🥺	noun	luckless
-🍇	noun	grapes
+🍇	noun	grape
 <span style="filter:  hue-rotate(-30deg) brightness(60%)">🍇</span>	noun	blackberry
 <span style="filter:  hue-rotate(60deg)">🍇</span>	noun	raspberry
 🍎	noun	apple
@@ -6433,6 +6459,7 @@ F	adverb	false
 🍃	noun	leaf
 🥗	adjective	leafy
 🪵	noun	wood
+🪵	noun	stump
 🪵	adjective	woody
 🪵←	noun	bark
 🥕	noun	root

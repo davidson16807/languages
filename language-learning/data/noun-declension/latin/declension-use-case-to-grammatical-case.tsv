@@ -7,14 +7,14 @@ departed	location	ablative	ab
 associated	location	accusative	apud
 acquired	location	accusative	ad
 leveraged	location	accusative	per
-departed	extent	ablative	ab
-associated	extent	accusative	apud
-acquired	extent	accusative	ad
-leveraged	extent	accusative	per
-departed	vicinity	ablative	ab
-associated	vicinity	accusative	apud
-acquired	vicinity	accusative	ad
-leveraged	vicinity	accusative	per
+#departed	extent	ablative	ab
+#associated	extent	accusative	apud
+#acquired	extent	accusative	ad
+#leveraged	extent	accusative	per
+#departed	vicinity	ablative	ab
+#associated	vicinity	accusative	apud
+#acquired	vicinity	accusative	ad
+#leveraged	vicinity	accusative	per
 departed	interior	ablative	ex
 associated	interior	accusative	intrā
 acquired	interior	ablative	in
@@ -27,17 +27,17 @@ departed	presence	ablative	coram
 associated	presence	ablative	coram
 acquired	presence	accusative	coram
 leveraged	presence	accusative	propter
-departed	aid	ablative	cum
+#departed	aid	ablative	cum
 associated	aid	ablative	cum
-acquired	aid	ablative	cum
-leveraged	aid	ablative	cum
-departed	lack	ablative	sine
-associated	lack	ablative	sine in
-acquired	lack	ablative	sine
-leveraged	lack	ablative	sine
-departed	interest	ablative	pro
-associated	interest	accusative	per
-acquired	interest	accusative	per
+#acquired	aid	ablative	cum
+#leveraged	aid	ablative	cum
+#departed	lack	ablative	sine
+associated	lack	ablative	sine
+#acquired	lack	ablative	sine
+#leveraged	lack	ablative	sine
+departed	interest	dative	
+associated	interest	dative	
+acquired	interest	dative	
 leveraged	interest	accusative	per
 departed	time	ablative	post
 associated	time	ablative	inter

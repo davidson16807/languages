@@ -1,120 +1,120 @@
-motion	cast	subject	subject	subject	verb	direct object	preposition	declined noun	declined noun	declined noun																
+motion	cast	subject	subject	subject	verb	direct object	preposition	declined noun	declined noun	declined noun	emoji															
 		modifier	function	argument				modifier	function	argument																
-associated	subject				be	bad			be	bad concept																
-associated	subject				be	good			be	good concept																
-associated	subject				be	good			be	ethical emotion																
-associated	subject				be	bad			be	suspect emotion																
-associated	subject				be	big		the	has-trait	size																
-associated	subject				be	long		the	has-trait	length																
-associated	subject				come			the	be	time																
-associated	subject				come			the	be	event																
-associated	direct-object	the	be	man	love				be	bad concept																
-associated	direct-object	the	be	man	hate				be	good concept																
-associated	direct-object	the	be	man	love				be	positive emotion																
-associated	direct-object	the	be	man	hate				be	negative emotion																
-associated	direct-object	the	be	man	love			the	be	time																
-associated	direct-object	the	be	man	love			the	be	pet																
-associated	direct-object	the	be	man	love			the	be	woman																
-associated	direct-object	the	be	man	see			the	can	be-seen																
-associated	direct-object	the	be	man	hear			the	can	be-heard																
-associated	possessor	the	be	thought			of		be	concept																
-associated	possessor	the	be	thought			of		be	emotion																
-associated	possessor	the	be	size			of	the	has-trait	size																
-associated	possessor	the	be	sound			of	the	can	be-heard																
-leveraged	location	the	be	man	navigate		by way of	the	can	be-seen																
-departed	location	the	be	man	direct	his attention	from	the	can	be-seen																
-associated	location	the	be	man	direct	his attention	at	the	can	be-seen																
-acquired	location	the	be	man	direct	his attention	toward	the	can	be-seen																
-departed	location	the	be	man	direct	his attention	from	the	can	be-heard																
-associated	location	the	be	man	direct	his attention	at	the	can	be-heard																
-acquired	location	the	be	man	direct	his attention	toward	the	can	be-heard																
-departed	location	the	be	man	direct	his attention	from	the	be	concept																
-associated	location	the	be	man	direct	his attention	at	the	be	concept																
-acquired	location	the	be	man	direct	his attention	toward	the	be	concept																
-departed	location	the	be	man	walk		away from	the	can	be-walked-to																
-associated	location	the	be	man	walk		at	the	can	be-walked-to																
-acquired	location	the	be	man	walk		to	the	can	be-walked-to																
-leveraged	location	the	be	man	walk		via	the	can	be-walked-to																
-departed	extent	the	be	man	direct	his attention	starting from	the	can	be-seen																
-associated	extent	the	be	man	direct	his attention	beside	the	can	be-seen																
-acquired	extent	the	be	man	direct	his attention	up to	the	can	be-seen																
-acquired	extent	the	be	man	direct	his attention	along [the edges of]	the	can	be-seen																
-departed	extent	the	be	man	direct	his attention	starting from	the	can	be-heard																
-associated	extent	the	be	man	direct	his attention	beside	the	can	be-heard																
-acquired	extent	the	be	man	direct	his attention	up to	the	can	be-heard																
-departed	extent	the	be	man	direct	his attention	starting from	the	be	concept																
-associated	extent	the	be	man	direct	his attention	beside	the	be	concept																
-acquired	extent	the	be	man	direct	his attention	up to	the	be	concept																
-departed	location	the	be	man	walk		starting from	the	can	be-walked-to																
-associated	location	the	be	man	walk		beside	the	can	be-walked-to																
-acquired	location	the	be	man	walk		up to	the	can	be-walked-to																
+associated	subject				be	bad			be	bad concept	\declined=👎															
+associated	subject				be	good			be	good concept	\declined=👍															
+associated	subject				be	good			be	ethical emotion	\declined=👎															
+associated	subject				be	bad			be	suspect emotion	\declined=👍															
+associated	subject				be	big		the	has-trait	size	<big>\declined</big>\declined															
+associated	subject				be	long		the	has-trait	length	<span>\declined</span>\declined															
+associated	subject				come			the	be	time	\declined															
+associated	subject				come			the	be	event	\declined															
+associated	direct-object	the	be	man	love				be	good concept	\declined🚶‍♂️<sup>❤️</sup>															
+associated	direct-object	the	be	man	hate				be	bad concept	\declined🙍‍♂️															
+associated	direct-object	the	be	man	love				be	positive emotion	\declined🚶‍♂️<sup>❤️</sup>															
+associated	direct-object	the	be	man	hate				be	negative emotion	\declined🙍‍♂️															
+associated	direct-object	the	be	man	love			the	be	time	\declined🚶‍♂️<sup>❤️</sup>															
+associated	direct-object	the	be	man	love			the	be	pet	\declined<big>🧎‍♂️</big><sup>❤️</sup>															
+associated	direct-object	the	be	man	love			the	be	woman	🧍‍♀️<sup>❤️</sup>🧍‍♂️															
+associated	direct-object	the	be	man	see			the	can	be-seen	💁‍♂️\declined															
+associated	direct-object	the	be	man	hear			the	can	be-heard	\declined🧏‍♂️															
+associated	possessor	the	be	thought			of		be	concept	\bubble{\declined}\rthought															
+associated	possessor	the	be	thought			of		be	emotion	\bubble{\declined}\rthought															
+associated	possessor	the	be	size			of	the	has-trait	size	📏\declined															
+associated	possessor	the	be	sound			of	the	can	be-heard	👂\declined															
+leveraged	location	the	be	man	navigate		by way of	the	can	be-seen	\declined←🚶‍♂️															
+departed	location	the	be	man	direct	his attention	from	the	can	be-seen	🚶‍♂️\declined															
+associated	location	the	be	man	direct	his attention	at	the	can	be-seen	\declined🚶‍♂️															
+acquired	location	the	be	man	direct	his attention	toward	the	can	be-seen	\declined🚶‍♂️															
+departed	location	the	be	man	direct	his attention	from	the	can	be-heard	🚶‍♂️\declined															
+associated	location	the	be	man	direct	his attention	at	the	can	be-heard	\declined🚶‍♂️															
+acquired	location	the	be	man	direct	his attention	toward	the	can	be-heard	\declined🚶‍♂️															
+departed	location	the	be	man	direct	his attention	from	the	be	concept	🚶‍♂️\declined															
+associated	location	the	be	man	direct	his attention	at	the	be	concept	\declined🚶‍♂️															
+acquired	location	the	be	man	direct	his attention	toward	the	be	concept	\declined🚶‍♂️															
+departed	location	the	be	man	walk		away from	the	can	be-walked-to	🚶‍♂️\declined															
+associated	location	the	be	man	walk		at	the	can	be-walked-to	\declined🚶‍♂️															
+acquired	location	the	be	man	walk		to	the	can	be-walked-to	\declined🚶‍♂️															
+leveraged	location	the	be	man	walk		via	the	can	be-walked-to	←\declined🚶‍♂️															
+departed	extent	the	be	man	direct	his attention	starting from	the	can	be-seen	🚶‍♂️\declined															
+associated	extent	the	be	man	direct	his attention	beside	the	can	be-seen	\declined🚶‍♂️															
+acquired	extent	the	be	man	direct	his attention	up to	the	can	be-seen	\declined🚶‍♂️															
+leveraged	extent	the	be	man	direct	his attention	along [the edges of]	the	can	be-seen	\declined🚶‍♂️															
+departed	extent	the	be	man	direct	his attention	starting from	the	can	be-heard	🚶‍♂️\declined															
+associated	extent	the	be	man	direct	his attention	beside	the	can	be-heard	\declined🚶‍♂️															
+acquired	extent	the	be	man	direct	his attention	up to	the	can	be-heard	\declined🚶‍♂️															
+departed	extent	the	be	man	direct	his attention	starting from	the	be	concept	\declined🚶‍♂️															
+associated	extent	the	be	man	direct	his attention	beside	the	be	concept	\declined🚶‍♂️															
+acquired	extent	the	be	man	direct	his attention	up to	the	be	concept	\declined🚶‍♂️															
+departed	location	the	be	man	walk		starting from	the	can	be-walked-to	←🚶‍♂️\declined															
+associated	location	the	be	man	walk		beside	the	can	be-walked-to	🚶‍♂️\declined															
+acquired	location	the	be	man	walk		up to	the	can	be-walked-to	\declined←🚶‍♂️															
 leveraged	location	the	be	man	walk		along	the	can	be-walked-to																
-departed	vicinity	the	be	man	walk		from around	the	can	be-walked-by																
-associated	vicinity	the	be	man	walk		by	the	can	be-walked-by																
-acquired	vicinity	the	be	man	walk		to around	the	can	be-walked-by																
-leveraged	vicinity	the	be	man	walk		via	the	can	be-walked-by																
-departed	interior	the	be	man	walk		out of	the	can	be-walked-in																
-associated	interior	the	be	man	walk		in	the	can	be-walked-in																
-acquired	interior	the	be	man	walk		into	the	can	be-walked-in																
-leveraged	interior	the	be	man	walk		through	the	can	be-walked-in																
-departed	surface	the	be	man	walk		off of	the	can	be-walked-on																
-associated	surface	the	be	man	walk		on	the	can	be-walked-on																
-acquired	surface	the	be	man	walk		onto	the	can	be-walked-on																
-leveraged	surface	the	be	man	walk		over	the	can	be-walked-on																
-departed	presence	the	be	man	work		[due to the presence of]	the	be	concrete & inanimate																
-associated	presence	the	be	man	work		[in the presence of]	the	be	concrete & inanimate																
-acquired	presence	the	be	man	work		[to produce]	the	be	concrete & inanimate																
-leveraged	presence	the	be	man	work		[by using the presence of]	the	be	concrete & inanimate																
-departed	presence	the	be	man	work		[due to the presence of]	the	be	animate																
-associated	presence	the	be	man	work		[in the presence of]	the	be	animate																
-acquired	presence	the	be	man	work		[to draw in]	the	be	animate																
-leveraged	presence	the	be	man	work		[by using the presence of]	the	be	animate																
-departed	aid	the	be	man	work		[thanks to the aid of]	the	be	concrete & inanimate																
-associated	aid	the	be	man	work		[with the aid of]	the	be	concrete & inanimate																
-acquired	aid	the	be	man	come		[to aid the]	the	be	concrete & inanimate																
-leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	concrete & inanimate																
-departed	aid	the	be	man	work		[thanks to the aid of]	the	be	animate																
-associated	aid	the	be	man	work		[with the aid of]	the	be	animate																
-acquired	aid	the	be	man	come		[to the aid of]	the	be	animate																
-leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	animate																
-departed	lack	the	be	man	work		[for want of]	the	be	concrete																
-associated	lack	the	be	man	work		[in the absence of]	the	be	concrete																
-acquired	lack	the	be	man	work		[to avoid]	the	be	concrete																
-leveraged	lack	the	be	man	work		[by taking advantage of the lack of]	the	be	concrete																
-departed	interest	the	be	man	work		[out of the interest of]	the	be	thing																
-associated	interest	the	be	man	work		[in the interest of]	the	be	thing																
-acquired	interest	the	be	man	work		[for the sake of]	the	be	thing																
-leveraged	interest	the	be	man	work		[by appealing to the interest of]	the	be	thing																
-departed	purpose	the	be	man	work		[following from the purpose of]	the	be	thing																
-associated	purpose	the	be	man	work		[assuming the purpose of]	the	be	thing																
-acquired	purpose	the	be	man	work		[for the purpose of]	the	be	thing																
-leveraged	purpose	the	be	man	work		[by leveraging the purpose of]	the	be	thing																
-departed	ownership	the	can	be-owned	come		from [the ownership of]	the	be	owner																
-associated	ownership	the	can	be-owned	be		[in the ownership] of	the	be	owner																
-acquired	ownership	the	can	be-owned	come		to [the ownership of]	the	be	owner																
-leveraged	ownership	the	can	be-owned	work		[due to the ownership] of	the	be	owner																
-departed	time	the	be	man	work		following	the	be	time																
-associated	time	the	be	man	work		during	the	be	time																
-acquired	time	the	be	man	work		until	the	be	time																
-leveraged	time	the	be	man	work		by making use of	the	be	time																
-departed	time	the	be	man	work		following	the	be	event																
-associated	time	the	be	man	work		during	the	be	event																
-acquired	time	the	be	man	work		until	the	be	event																
-leveraged	time	the	be	man	work		by making use of the time during	the	be	event																
-departed	state of being	the	be	man	work		from having been	the	be	professional																
-associated	state of being	the	be	man	work		as a	the	be	professional																
-acquired	state of being	the	be	man	work		in order to be	the	be	professional																
-leveraged	state of being	the	be	man	work		due to having been	the	be	professional																
-departed	topic	the	be	man	direct	his attention	away from the topic of	the	be	thing																
-associated	topic	the	be	man	talk		on the topic of	the	be	thing																
-acquired	topic	the	be	man	direct	his attention	to the topic of	the	be	thing																
-leveraged	topic	the	be	man	direct	his attention	by using the example of	the	be	thing																
-associated	company	the	be	man	walk		in the company of	the	be	concrete | nonanimated																
-associated	company	the	be	man	walk		along with	the	be	animated																
-associated	resemblance	the	be	concept	be		like	the	be	thing																
-associated	resemblance	the	be	time	be		like	the	be	animate																
-associated	resemblance	the	be	event	be		like	the	be	animate																
-associated	resemblance	the	be	item	be		like	the	be	item																
-associated	resemblance	the	be	phenomenon	be		like	the	be	animate																
-associated	resemblance	the	be	plant	be		like	the	be	plant																
-associated	resemblance	the	be	man	be		like	the	be	animate																
+departed	vicinity	the	be	man	walk		from around	the	can	be-walked-by	"←🚶‍♂️<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+associated	vicinity	the	be	man	walk		by	the	can	be-walked-by	"<span style=""position:relative; left:1.1em; bottom:0.6em; z-index:-1"">\declined</span>🚶‍♂️"															
+acquired	vicinity	the	be	man	walk		to around	the	can	be-walked-by	"<span style=""position:relative; left:1.2em; bottom:0.6em; z-index:-1"">\declined</span>←🚶‍♂️"															
+leveraged	vicinity	the	be	man	walk		via	the	can	be-walked-by	"<span style=""position:relative; left:1.8em; bottom:0.6em; z-index:-1"">\declined</span>←🚶‍♂️←"															
+departed	interior	the	be	man	walk		out of	the	can	be-walked-in	"<span style=""font-size:0.5em"">←🚶‍♂️</span><span style=""font-size:1.5em"">\declined</span>"															
+associated	interior	the	be	man	walk		in	the	can	be-walked-in	"<span style=""font-size:1.5em; position:relative; left:0.7em; z-index:-1"">\declined</span><span style=""font-size:0.5em; position:relative"">🚶‍♂️</span>"															
+acquired	interior	the	be	man	walk		into	the	can	be-walked-in	"<span style=""font-size:1.5em"">\declined</span><span style=""font-size:0.5em"">←🚶‍♂️</span>"															
+leveraged	interior	the	be	man	walk		through	the	can	be-walked-in	"<span style=""font-size:0.5em; position:relative; left:2em;"">←</span><span style=""font-size:1.5em; position:relative; left:0.7em; z-index:-1"">\declined</span><span style=""font-size:0.5em; position:relative; left:1.7em;"">←🚶‍♂️</span>"															
+departed	surface	the	be	man	walk		off of	the	can	be-walked-on	"<span style=""font-size:1.5em; position:relative; left:0.9em; top:0.7em; z-index:-1"">\declined</span><span style=""font-size:0.5em; position:relative; right:1em;"">↙🚶‍♂️</span>"															
+associated	surface	the	be	man	walk		on	the	can	be-walked-on	"<span style=""font-size:1.5em; position:relative; left:0.7em; top:0.8em; z-index:-1"">\declined</span><span style=""font-size:0.5em; position:relative;"">🚶‍♂️</span>"															
+acquired	surface	the	be	man	walk		onto	the	can	be-walked-on	"<span style=""font-size:1.5em; position:relative; left:0.4em; top:0.7em; z-index:-1"">\declined</span><span style=""font-size:0.5em; position:relative;"">🚶‍♂️↖</span>"															
+leveraged	surface	the	be	man	walk		over	the	can	be-walked-on	"<span style=""font-size:1.5em; position:relative; left:0.9em; top:0.8em; z-index:-1"">\declined</span><span style=""font-size:0.5em; position:relative;"">↙🚶‍♂️↖</span>"															
+departed	presence	the	be	man	work		[due to the presence of]	the	be	concrete & inanimate	\box{👨‍🔧}→\box{\declined}															
+associated	presence	the	be	man	work		[in the presence of]	the	be	concrete & inanimate	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+acquired	presence	the	be	man	work		[to produce]	the	be	concrete & inanimate	\box{\declined}→\box{👨‍🔧}															
+leveraged	presence	the	be	man	work		[by using the presence of]	the	be	concrete & inanimate	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+departed	presence	the	be	man	work		[due to the presence of]	the	be	animate	\box{👨‍🔧}→\box{\declined}															
+associated	presence	the	be	man	work		[in the presence of]	the	be	animate	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+acquired	presence	the	be	man	work		[to draw in]	the	be	animate	\box{\declined}→\box{👨‍🔧}															
+leveraged	presence	the	be	man	work		[by using the presence of]	the	be	animate	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+departed	aid	the	be	man	work		[thanks to the aid of]	the	be	concrete & inanimate	\box{👨‍🔧}→\box{\declined}															
+associated	aid	the	be	man	work		[with the aid of]	the	be	concrete & inanimate	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+acquired	aid	the	be	man	come		[to aid the]	the	be	concrete & inanimate	\box{\declined}→\box{👨‍🔧}															
+leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	concrete & inanimate	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+departed	aid	the	be	man	work		[thanks to the aid of]	the	be	animate	\box{👨‍🔧}→\box{\declined}															
+associated	aid	the	be	man	work		[with the aid of]	the	be	animate	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+acquired	aid	the	be	man	come		[to the aid of]	the	be	animate	\box{\declined}→\box{👨‍🔧}															
+leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	animate	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+departed	lack	the	be	man	work		[for want of]	the	be	concrete	\box{\declined}→\box{👨‍🔧}															
+associated	lack	the	be	man	work		[in the absence of]	the	be	concrete	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\forbidden{\declined}</span>"															
+acquired	lack	the	be	man	work		[to avoid]	the	be	concrete	\box{👨‍🔧}→\box{\declined}															
+leveraged	lack	the	be	man	work		[by taking advantage of the lack of]	the	be	concrete	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\forbidden{\declined}</span>"															
+departed	interest	the	be	man	work		[out of the interest of]	the	be	thing	\box{👨‍🔧}→\box{\declined}															
+associated	interest	the	be	man	work		[in the interest of]	the	be	thing	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+acquired	interest	the	be	man	work		[for the sake of]	the	be	thing	\box{\declined}→\box{👨‍🔧}															
+leveraged	interest	the	be	man	work		[by appealing to the interest of]	the	be	thing	"🔧<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
+departed	purpose	the	be	man	work		[following from the purpose of]	the	be	thing	\box{\declined}→\box{👨‍🔧}															
+associated	purpose	the	be	man	work		[assuming the purpose of]	the	be	thing	🔧≈\declined															
+acquired	purpose	the	be	man	work		[for the purpose of]	the	be	thing	\box{👨‍🔧}→\box{\declined}															
+leveraged	purpose	the	be	man	work		[by leveraging the purpose of]	the	be	thing	🔧≈\declined															
+departed	ownership	the	can	be-owned	come		from [the ownership of]	the	can	be-owner	"<span style=""position:relative; left:0.3em; bottom:0.3em; z-index:-1"">\declined</span>\subject→"															
+associated	ownership	the	can	be-owned	be		[in the ownership] of	the	can	be-owner	"<span style=""position:relative; left:0.6em; bottom:0.3em; z-index:-1"">\declined</span>\subject"															
+acquired	ownership	the	can	be-owned	come		to [the ownership of]	the	can	be-owner	"\subject→<span style=""position:relative; right:0em; bottom:0.6em; z-index:-1"">\declined</span>"															
+leveraged	ownership	the	can	be-owned	work		[due to its ownership by]	the	can	be-owner	"\box{<span style=""position:relative; left:0.6em; bottom:0.3em; z-index:-1"">\declined</span>\subject}→\subject"															
+departed	time	the	be	man	work		following	the	be	time	"<span style=""font-size:1.5em;position:relative; right:0em; bottom:0.1em; z-index:-1"">\declined</span><span style=""font-size:0.8em"">🧑‍🔧→</span>"															
+associated	time	the	be	man	work		during	the	be	time	"<span style=""font-size:0.8em"">🧑‍🔧</span><span style=""font-size:1.5em;position:relative; right:0.4em; bottom:0.1em; z-index:-1"">\declined</span>"															
+acquired	time	the	be	man	work		until	the	be	time	"<span style=""font-size:0.8em"">🧑‍🔧→</span><span style=""font-size:1.5em;position:relative; right:0em; bottom:0.1em; z-index:-1"">\declined</span>"															
+leveraged	time	the	be	man	work		by making use of	the	be	time	"<span style=""font-size:0.8em"">🧑‍🔧</span><span style=""font-size:1.5em;position:relative; right:0.4em; bottom:0.1em; z-index:-1"">\declined</span>"															
+departed	time	the	be	man	work		following	the	be	event	"<span style=""font-size:1.5em;position:relative; right:0em; bottom:0.1em; z-index:-1"">\declined</span><span style=""font-size:0.8em"">🧑‍🔧</span>"															
+associated	time	the	be	man	work		during	the	be	event	"<span style=""font-size:0.8em"">🧑‍🔧</span><span style=""font-size:1.5em;position:relative; right:0.4em; bottom:0.1em; z-index:-1"">\declined</span>"															
+acquired	time	the	be	man	work		until	the	be	event	"<span style=""font-size:0.8em"">🧑‍🔧</span><span style=""font-size:1.5em;position:relative; right:0em; bottom:0.1em; z-index:-1"">\declined</span>"															
+leveraged	time	the	be	man	work		by making use of the time during	the	be	event	"<span style=""font-size:0.8em"">🧑‍🔧</span><span style=""font-size:1.5em;position:relative; right:0.4em; bottom:0.1em; z-index:-1"">\declined</span>"															
+departed	state of being	the	be	man	work		from having been	the	be	professional	\box{\declined}→🧑‍🔧															
+associated	state of being	the	be	man	work		as a	the	be	professional	\declined															
+acquired	state of being	the	be	man	work		in order to be	the	be	professional	🧑‍🔧→\box{\declined}															
+leveraged	state of being	the	be	man	work		due to having been	the	be	professional	\box{\declined}→🧑‍🔧															
+departed	topic	the	be	man	direct	his attention	away from the topic of	the	be	thing	\bubble{\declined}🚶‍♂️\rspeech															
+associated	topic	the	be	man	talk		on the topic of	the	be	thing	\bubble{\declined}\rspeech💁‍♂️															
+acquired	topic	the	be	man	direct	his attention	to the topic of	the	be	thing	\bubble{\declined}\lspeech🚶‍♂️															
+leveraged	topic	the	be	man	talk		by using the example of	the	be	thing	\bubble{\declined}\rspeech💁‍♂️															
+associated	company	the	be	man	walk		in the company of	the	be	concrete | nonanimated	"←🚶‍♂️<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">←\declined</span>"															
+associated	company	the	be	man	walk		along with	the	be	animated	"←🚶‍♂️<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">←\declined</span>"															
+associated	resemblance	the	be	concept	be		like	the	be	thing	\subject≈\declined															
+associated	resemblance	the	be	time	be		like	the	be	animate	\subject≈\declined															
+associated	resemblance	the	be	event	be		like	the	be	animate	\subject≈\declined															
+associated	resemblance	the	be	item	be		like	the	be	item	\subject≈\declined															
+associated	resemblance	the	be	phenomenon	be		like	the	be	animate	\subject≈\declined															
+associated	resemblance	the	be	plant	be		like	the	be	plant	\subject≈\declined															
+associated	resemblance	the	be	man	be		like	the	be	animate	\subject≈\declined															

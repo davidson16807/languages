@@ -250,6 +250,7 @@ class EmojiBubbleShorthand:
         emoji = self.bracketedShorthand.decode(r'\\bubble', emoji, self.htmlBubble.affirmative)
         emoji = self.bracketedShorthand.decode(r'\\forbidden', emoji, self.htmlBubble.negative)
         emoji = self.bracketedShorthand.decode(r'\\box', emoji, self.htmlBubble.box)
+        emoji = self.bracketedShorthand.decode(r'\\forbiddenbox', emoji, self.htmlBubble.negative_box)
         emoji = emoji.replace('\\rspeech', "<sup style='color:#ddd;'>◥</sup>")
         emoji = emoji.replace('\\lspeech', "<sup style='padding-left: 0.5em; color:#ddd;'>◤</sup>")
         emoji = emoji.replace('\\rthought', "<span style='color:#ddd;'>•<sub>•</sub></span>")
