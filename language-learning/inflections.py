@@ -1022,6 +1022,8 @@ ROADMAP:
 * add bracketed comments to english templates
 '''
 
+cardFormatting = CardFormatting()
+
 for lemma in ['animal']:
     emoji_representation = 'horse'
     for tuplekey in case_indexing.tuplekeys(category_to_grammemes):
@@ -1079,9 +1081,11 @@ for lemma in ['animal']:
                 emoji_text = emoji_text.replace('\\declined', latin.declension_lookups['common'][{**base_key, 'noun':lemma, 'case':case, 'script': 'emoji'}])
                 emoji_text = emoji.emojiInflectionShorthand.decode(emoji_text, Person(base_key['number'][0],base_key['gender'][0],1), [])
                 if latin.exists(translated_text):
-                    print(f'<div>{latin.format(translated_text)}</div>')
-                    print(f'<div>{english.format(english_text)}</div>')
-                    print(f'<div>{emoji_text}</div>')
+                    print(' '.join([
+                            cardFormatting.emoji_focus(emoji_text), 
+                            cardFormatting.english_word(english.format(english_text)), 
+                            cardFormatting.foreign_focus(latin.format(translated_text)),
+                        ]))
 
 
 

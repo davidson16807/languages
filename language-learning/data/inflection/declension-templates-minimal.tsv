@@ -4,7 +4,7 @@ associated	subject				be	bad			be	bad concept	\declined=👎
 associated	subject				be	good			be	good concept	\declined=👍															
 associated	subject				be	good			be	ethical emotion	\declined=👎															
 associated	subject				be	bad			be	suspect emotion	\declined=👍															
-associated	subject				be	big		the	has-trait	size	"<span style=""font-size:1.5em"">\declined</span>\declined"															
+associated	subject				be	big		the	has-trait	size	"<span style=""font-size:1.5em"">\declined</span><span style=""font-size:0.6em"">\declined</span>"															
 associated	subject				be	long		the	has-trait	length	<span>\declined</span>\declined															
 associated	subject				come			the	be	time	\declined															
 associated	subject				come			the	be	event	\declined															
@@ -16,21 +16,21 @@ associated	direct-object	the	be	man	love			the	be	time	\declined🚶‍♂️<su
 associated	direct-object	the	be	man	love			the	be	pet	\declined<big>🧎‍♂️</big><sup>❤️</sup>															
 associated	direct-object	the	be	man	love			the	be	woman	🧍‍♀️<sup>❤️</sup>🧍‍♂️															
 associated	direct-object	the	be	man	see			the	can	be-seen	💁‍♂️\declined															
-associated	direct-object	the	be	man	hear			the	can	be-heard	\declined🧏‍♂️															
+associated	direct-object	the	be	man	hear			the	can	be-heard	<sub>💁‍♂️\declined</sub><sup>🗯️</sup>															
 associated	possessor	the	be	thought			of		be	concept	\bubble{\declined}\rthought															
 associated	possessor	the	be	thought			of		be	emotion	\bubble{\declined}\rthought															
 associated	possessor	the	be	size			of	the	has-trait	size	📏\declined															
 associated	possessor	the	be	sound			of	the	can	be-heard	<sub>\declined</sub><sup>🗯️</sup>															
 leveraged	location	the	be	man	navigate		by way of	the	can	be-seen	\declined←🚶‍♂️															
-departed	location	the	be	man	direct	his attention	from	the	can	be-seen	🚶‍♂️\declined															
-associated	location	the	be	man	direct	his attention	at	the	can	be-seen	\declined🚶‍♂️															
-acquired	location	the	be	man	direct	his attention	toward	the	can	be-seen	\declined🚶‍♂️															
-departed	location	the	be	man	direct	his attention	from	the	can	be-heard	🚶‍♂️\declined															
-associated	location	the	be	man	direct	his attention	at	the	can	be-heard	\declined🚶‍♂️															
-acquired	location	the	be	man	direct	his attention	toward	the	can	be-heard	\declined🚶‍♂️															
-departed	location	the	be	man	direct	his attention	from	the	be	concept	🚶‍♂️\declined															
-associated	location	the	be	man	direct	his attention	at	the	be	concept	\declined🚶‍♂️															
-acquired	location	the	be	man	direct	his attention	toward	the	be	concept	\declined🚶‍♂️															
+departed	location	the	be	man	direct	his attention	from	the	can	be-seen	"<span style=""position:relative; left:1.3em; top:0.8em"">↺ </span>🚶‍♂️\declined"															
+associated	location	the	be	man	direct	his attention	at	the	can	be-seen	\mirror{🚶‍♂️}\declined															
+acquired	location	the	be	man	direct	his attention	toward	the	can	be-seen	"\mirror{<span style=""position:relative; left:1.3em; top:0.8em"">↺ </span>🚶‍♂️}\declined"															
+departed	location	the	be	man	direct	his attention	from	the	can	be-heard	"<span style=""position:relative; left:1.3em; top:0.8em"">↺ </span>🚶‍♂️\declined<sup>🗯️</sup>"															
+associated	location	the	be	man	direct	his attention	at	the	can	be-heard	\mirror{🚶‍♂️}\declined<sup>🗯️</sup>															
+acquired	location	the	be	man	direct	his attention	toward	the	can	be-heard	"\mirror{<span style=""position:relative; left:1.3em; top:0.8em"">↺ </span>🚶‍♂️}\declined<sup>🗯️</sup>"															
+departed	location	the	be	man	direct	his attention	from	the	be	concept	\bubble{\declined}\rthought\mirror{🚶‍♂️}															
+associated	location	the	be	man	direct	his attention	at	the	be	concept	\bubble{\declined}\rthought🚶‍♂️															
+acquired	location	the	be	man	direct	his attention	toward	the	be	concept	\bubble{\declined}\rthought🚶‍♂️															
 departed	location	the	be	man	walk		away from	the	can	be-walked-to	🚶‍♂️\declined															
 associated	location	the	be	man	walk		at	the	can	be-walked-to	\declined🚶‍♂️															
 acquired	location	the	be	man	walk		to	the	can	be-walked-to	\declined🚶‍♂️															
@@ -45,10 +45,10 @@ acquired	extent	the	be	man	direct	his attention	up to	the	can	be-heard	\declined
 departed	extent	the	be	man	direct	his attention	starting from	the	be	concept	\declined🚶‍♂️															
 associated	extent	the	be	man	direct	his attention	beside	the	be	concept	\declined🚶‍♂️															
 acquired	extent	the	be	man	direct	his attention	up to	the	be	concept	\declined🚶‍♂️															
-departed	location	the	be	man	walk		starting from	the	can	be-walked-to	←🚶‍♂️\declined															
-associated	location	the	be	man	walk		beside	the	can	be-walked-to	🚶‍♂️\declined															
-acquired	location	the	be	man	walk		up to	the	can	be-walked-to	\declined←🚶‍♂️															
-leveraged	location	the	be	man	walk		along	the	can	be-walked-to																
+departed	extent	the	be	man	walk		starting from	the	can	be-walked-to	←🚶‍♂️\declined															
+associated	extent	the	be	man	walk		beside	the	can	be-walked-to	🚶‍♂️\declined															
+acquired	extent	the	be	man	walk		up to	the	can	be-walked-to	\declined←🚶‍♂️															
+leveraged	extent	the	be	man	walk		along	the	can	be-walked-to																
 departed	vicinity	the	be	man	walk		from around	the	can	be-walked-by	"←🚶‍♂️<span style=""position:relative; right:0.3em; bottom:0.3em; z-index:-1"">\declined</span>"															
 associated	vicinity	the	be	man	walk		by	the	can	be-walked-by	"<span style=""position:relative; left:1.1em; bottom:0.6em; z-index:-1"">\declined</span>🚶‍♂️"															
 acquired	vicinity	the	be	man	walk		to around	the	can	be-walked-by	"<span style=""position:relative; left:1.2em; bottom:0.6em; z-index:-1"">\declined</span>←🚶‍♂️"															
