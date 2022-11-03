@@ -39,10 +39,14 @@ class DictTupleIndexing:
     `DictKeyIndexing` works by ordering values in a dictkey 
      into one or more tuplekeys according to a given list of `keys`.
     '''
-    def __init__(self, keys):
+    def __init__(self, keys, defaults={}):
         self.keys = keys
+        self.defaults = defaults
     def dictkey(self, tuplekey):
-        return {key:tuplekey[i] for i, key in enumerate(self.keys)}
+        return {
+            **self.defaults, 
+            **{key:tuplekey[i] for i, key in enumerate(self.keys)}
+        }
     def tuplekeys(self, dictkey):
         '''
         Returns a generator that iterates through 
@@ -50,6 +54,7 @@ class DictTupleIndexing:
         and whose values are given by a `dictkey` dict 
         that maps a key from `keys` to either a value or a set of possible values.
         '''
+        dictkey = {**self.defaults, **dictkey}
         return [tuple(reversed(tuplekey)) 
                 for tuplekey in itertools.product(
                     *[dictkey[key] if type(dictkey[key]) in {set,list} else [dictkey[key]]

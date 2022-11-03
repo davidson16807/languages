@@ -71,9 +71,10 @@ class CellAnnotation:
                     cell = row[i]
                     # if cell and column_base_attributes[i]:
                     if cell and row_base_attributes and column_base_attributes[i]:
-                        annotation = {}
-                        annotation.update(self.default_attributes)
-                        annotation.update(row_base_attributes)
-                        annotation.update(column_base_attributes[i])
+                        annotation = {
+                            **self.default_attributes,
+                            **row_base_attributes,
+                            **column_base_attributes[i],
+                        }
                         annotations.append((annotation,cell))
         return annotations
