@@ -73,18 +73,18 @@ departed	aid	the	be	man	work		[thanks to the aid of]	the	be	concrete & inanimate
 associated	aid	the	be	man	work		[with the aid of]	the	be	concrete & inanimate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
 acquired	aid	the	be	man	come		[to aid the]	the	be	concrete & inanimate	\box{\declined}→\box{👨‍🌾}															
 leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	concrete & inanimate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-departed	aid	the	be	man	work		[thanks to the aid of]	the	be	animate	\box{👨‍🌾}→\box{\declined}															
-associated	aid	the	be	man	work		[with the aid of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-acquired	aid	the	be	man	come		[to the aid of]	the	be	animate	\box{\declined}→\box{👨‍🌾}															
-leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-departed	lack	the	be	man	work		[for want of]	the	be	concrete	\box{\declined}→\box{👨‍🌾}															
+departed	aid	the	be	man	work		[thanks to the aid of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
+associated	aid	the	be	man	work		[with the aid of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
+acquired	aid	the	be	man	come		[to the aid of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
+leveraged	aid	the	be	man	work		[by using the aid of ]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
+departed	lack	the	be	man	work		[for want of]	the	be	concrete	\forbidden{\declined}→\box{👨‍🌾}															
 associated	lack	the	be	man	work		[in the absence of]	the	be	concrete	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\forbidden{\declined}</span>															
-acquired	lack	the	be	man	work		[to avoid]	the	be	concrete	\box{👨‍🌾}→\box{\declined}															
+acquired	lack	the	be	man	work		[to avoid]	the	be	concrete	\box{👨‍🌾}→\forbidden{\declined}															
 leveraged	lack	the	be	man	work		[by taking advantage of the lack of]	the	be	concrete	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\forbidden{\declined}</span>															
-departed	interest	the	be	man	work		[out of the interest of]	the	be	thing	\box{👨‍🌾}→\box{\declined}															
-associated	interest	the	be	man	work		[in the interest of]	the	be	thing	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-acquired	interest	the	be	man	work		[for the sake of]	the	be	thing	\box{\declined}→\box{👨‍🌾}															
-leveraged	interest	the	be	man	work		[by appealing to the interest of]	the	be	thing	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
+departed	interest	the	be	man	work		[out of the interest of]	the	be	thing	<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span>👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
+associated	interest	the	be	man	work		[in the interest of]	the	be	thing	<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span>👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
+acquired	interest	the	be	man	work		[for the sake of]	the	be	thing	<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span>👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
+leveraged	interest	the	be	man	work		[by appealing to the interest of]	the	be	thing	<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span>👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
 departed	purpose	the	be	man	work		[following from the purpose of]	the	be	thing	\box{\declined}→\box{👨‍🌾}															
 associated	purpose	the	be	man	work		[assuming the purpose of]	the	be	thing	👨‍🌾≈\declined															
 acquired	purpose	the	be	man	work		[for the purpose of]	the	be	thing	\box{👨‍🌾}→\box{\declined}															
@@ -105,10 +105,10 @@ departed	state of being	the	be	man	work		from having been	the	be	professional	\b
 associated	state of being	the	be	man	work		as a	the	be	professional	\declined															
 acquired	state of being	the	be	man	work		in order to be	the	be	professional	👨‍🌾→\box{\declined}															
 leveraged	state of being	the	be	man	work		due to having been	the	be	professional	\box{\declined}→👨‍🌾															
-departed	topic	the	be	man	direct	his attention	away from the topic of	the	be	thing	\bubble{\declined}\lspeech\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}															
-associated	topic	the	be	man	talk		on the topic of	the	be	thing	\bubble{\declined}\lspeech🚶‍♂️															
-acquired	topic	the	be	man	direct	his attention	to the topic of	the	be	thing	\bubble{\declined}\lspeech<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️															
-leveraged	topic	the	be	man	talk		by using the example of	the	be	thing	\bubble{\declined}\rspeech💁‍♂️															
+departed	topic	the	be	man	direct	his attention	away from [the topic of]	the	be	thing	\bubble{\declined}\lspeech\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}															
+associated	topic	the	be	man	talk		on [the topic of]	the	be	thing	\bubble{\declined}\lspeech🚶‍♂️															
+acquired	topic	the	be	man	direct	his attention	to [the topic of]	the	be	thing	\bubble{\declined}\lspeech<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️															
+leveraged	topic	the	be	man	talk		by using [the example of]	the	be	thing	\bubble{\declined}\rspeech💁‍♂️															
 associated	company	the	be	man	walk		in the company of	the	be	concrete | nonanimated	←🚶‍♂️<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>←\declined</span>															
 associated	company	the	be	man	walk		along with	the	be	animated	←🚶‍♂️<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>←\declined</span>															
 associated	resemblance	the	be	concept	be		like	the	be	thing	\subject≈\declined															

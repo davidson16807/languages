@@ -507,6 +507,7 @@ class Translation:
         elif type(content) in {str}:
             # NOTE: string types are degenerate cases of None types invocations
             #  where grammemes contain the lemma for the declension
+            # print({**grammemes, 'noun':content}, self.decline({**grammemes, 'noun':content}, None) )
             return self.decline({**grammemes, 'noun':content}, None) 
         elif type(content) in {NounPhrase}:
             return NounPhrase(content.grammemes, 
@@ -867,7 +868,7 @@ latin = Translation(
         *pronoun_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/pronoun-declensions.tsv'), 1, 4),
         *noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/declensions.tsv'), 1, 6),
+            tsv_parsing.rows('data/inflection/latin/declensions.tsv'), 1, 5),
         *filter(has_annotation('language','latin'),
             template_annotation.annotate(
                 tsv_parsing.rows('data/inflection/declension-template-accusatives.tsv'), 2, 7)),
