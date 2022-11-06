@@ -131,14 +131,55 @@ be	gift	be	valuable
 be	ring	be	valuable			
 be	money	be	valuable			
 						
+be	torch	be	weildable			
+be	torch	be	light-source			
+						
+be	torch	be	weildable			
+be	torch	be	light-source			
+						
+be	musical-instrument	be	weildable			
+be	musical-instrument	be	audible			
+be	musical-instrument	can	be-played			
+						
+be	percussion-instrument	be	musical-instrument			
+be	percussion-instrument	can	be-hit			
+be	wind-instrument	be	musical-instrument			
+be	wind-instrument	can	be-blown			
+be	string-instrument	be	string-instrument			
+						
+be	woodwind-instrument	be	wind-instrument			
+be	woodwind-instrument	has-part	wood			
+be	brass-instrument	be	wind-instrument			
+be	brass-instrument	has-part	brass			
+be	strummed-instrument	be	stringed-instrument			
+be	strummed-instrument	can	be-strummed			
+be	bow-instrument	be	stringed-instrument			
+						
+be	drum	be	percussion-instrument			
+						
+be	flute	be	woodwind-instrument			
+						
+be	horn	be	brass-instrument			
+be	trumpet	be	brass-instrument			
+be	trombone	be	brass-instrument			
+be	saxaphone	be	brass-instrument			
+						
+be	violin	be	bow-instrument			
+						
+be	lute	be	strummed-instrument			
+be	ukulele	be	strummed-instrument			
+be	mandolin	be	strummed-instrument			
+be	guitar	be	strummed-instrument			
+						
 be	tipstaff	be	weildable			
 						
 be	tool	be	weildable			
 						
-be	ax	be	weildable			
-						
 be	weapon	be	weildable	#weapons		
 be	weapon	can	hit			
+						
+be	axe	be	tool			
+be	axe	be	weapon			
 						
 be	blunt-weapon	be	weapon			
 be	blunt-weapon	can	bash			

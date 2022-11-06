@@ -18,6 +18,8 @@ be	creature	be	nonsapient
 be	creature	be	motile		
 be	sessile	be	inmotile		
 be	sessile	be	living		
+be	manifestation	be	nonliving		
+be	manifestation	be	physical		
 be	concept	be	abstract		
 be	concept	be	thing		
 					
@@ -113,9 +115,6 @@ be	immovable	be	static
 can	can-move	be	mobile		
 can	can-be-moved	be	mobile		
 be	immobile	be	physical		
-					
-		can	move		
-					
 					
 					
 					

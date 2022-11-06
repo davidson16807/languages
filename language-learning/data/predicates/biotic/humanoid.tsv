@@ -3,18 +3,12 @@
 be	humanoid	be	mythical	
 be	humanoid	can	own	
 				
-be	nymph	be	humanoid	
-be	nymph	be	female	
-be	nymph	can	swim	
-be	nymph	can	live-in-water	
-be	nymph	has-part	legs	
-				
 be	giant	be	humanoid	
 be	giant	be	large	
 be	giant	be	strong	
 				
-be	Clio	be	nymph	
-be	Clio	be	character	
+				
+				
 				
 				
 				

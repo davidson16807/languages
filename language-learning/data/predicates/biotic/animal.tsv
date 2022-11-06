@@ -30,8 +30,8 @@ be	venomous	has-part	fangs
 be	venomous	can	bite					
 be	poisonous	be	toxic					
 be	poisonous	can	not-be-eaten					
-bear	stinger	be	toxic					
-bear	stinger	can	sting	# note the order: papercuts can string, but they have no stinger				
+has-part	stinger	be	toxic					
+has-part	stinger	can	sting	# note the order: papercuts can string, but they have no stinger				
 								
 be	male	be	animate					
 be	female	be	animate					
@@ -118,12 +118,12 @@ can	scratch	has-part	claws	# note the order, cats scratch and lobsters pinch
 can	pinch	has-part	claws	# note the order, cats scratch and lobsters pinch				
 can	see	has-part	eyes	"# note the order, insects have eyes and technically see but ""the insect sees"" is an odd statement because they do not perceive as we do"				
 								
-bear	fins	can	swim					
-bear	fins	can	live-in-water					
-bear	flipper	can	swim					
-bear	flipper	can	live-in-water					
-bear	legs	be	animate					
-bear	horns	has-part	horn					
+has-part	fins	can	swim					
+has-part	fins	can	live-in-water					
+has-part	flipper	can	swim					
+has-part	flipper	can	live-in-water					
+has-part	legs	be	animate					
+has-part	horns	has-part	horn					
 								
 be	coral	be	sessile					
 be	coral	can	live-in-water					

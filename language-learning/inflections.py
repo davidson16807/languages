@@ -560,7 +560,7 @@ pronoun_annotation  = CellAnnotation(
 noun_annotation  = CellAnnotation(
     grammeme_to_category, {}, {0:'noun'}, 
     {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3', 'language-type':'translated'})
-template_annotation = CellAnnotation(
+declension_template_noun_annotation = CellAnnotation(
     grammeme_to_category, {0:'language'}, {0:'noun'}, 
     {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3', 'language-type':'translated'})
 predicate_annotation = CellAnnotation(
@@ -870,7 +870,7 @@ latin = Translation(
         *noun_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/declensions.tsv'), 1, 5),
         *filter(has_annotation('language','latin'),
-            template_annotation.annotate(
+            declension_template_noun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/declension-template-accusatives.tsv'), 2, 7)),
     ]),
     conjugation_population.index([
@@ -969,8 +969,8 @@ for (f,x),(g,y) in level0_subset_relations:
         for f2 in level1_subset_relations[f]:
             allthat[f2,y](allthat[f2,x])
 
-template_annotation = RowAnnotation([
-    'motion', 'cast', 
+declension_template_annotation = RowAnnotation([
+    'motion', 'cast', 'specificity',
     'subject-adjective', 'subject-function', 'subject-argument', 
     'verb', 'direct-object', 'adposition', 
     'declined-noun-adjective', 'declined-noun-function', 'declined-noun-argument',
@@ -980,7 +980,7 @@ template_population = ListLookupPopulation(
         DictTupleIndexing(['motion','cast']), list))
 templates = \
     template_population.index(
-        template_annotation.annotate(
+        declension_template_annotation.annotate(
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
 
@@ -997,7 +997,7 @@ class DeclensionTemplateMatching:
                             for template in (self.templates[motion, cast] 
                                 if (motion, cast) in self.templates else [])
                             if self.predicates['be', noun] in declined_noun(template)],
-                      key=lambda template: len(declined_noun(template)))
+                      key=lambda template: (-int(template['specificity']), len(declined_noun(template))))
         return templates[0] if len(templates) > 0 else None
 
 case_annotation = RowAnnotation(['motion','cast','case','adposition'])

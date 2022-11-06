@@ -1,4 +1,4 @@
-	prediand		predicate	
+	predicand		predicate	
 				
 be	deity	be	immortal	
 be	deity	be	sapient	
@@ -21,23 +21,23 @@ be	fire-deity	be	god
 be	fertility-deity	be	god	
 be	war-deity	be	god	
 				
-be	titan	be	"greek-deity	"	
-be	olympic	be	"greek-deity	"	
 				
-be	Apollo	be	olympic	
-be	Apollo	be	sun-deity	
-be	Apollo	be	character	
-be	Ares	be	war-deity	
-be	Ares	be	olympic	
-be	Ares	be	character	
-be	Zeus	be	thunder-deity	
-be	Zeus	be	olympic	
-be	Zeus	be	character	
-be	Demeter	be	fertility-deity	
-be	Demeter	be	olympic	
-be	Demeter	be	character	
 				
-be	Agni	be	fire-deity	#-Hindi
-be	Agni	be	named	#-Hindi
-be	Agni	be	hindi-deity	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 				

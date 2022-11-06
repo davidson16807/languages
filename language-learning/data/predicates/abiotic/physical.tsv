@@ -1,13 +1,19 @@
 								
-						# immaterial or inaccessible physical observables		
-be	phenomenon	be	physical					
+						"# high level categorization of ""manifestations"": abiotic physical things"		
+be	substance	be	manifestation					
+								
+be	location	be	manifestation					
+be	location	be	fixed					
+be	location	be	static					
+								
+be	phenomenon	be	manifestation					
 be	phenomenon	can	be-sensed					
 								
-be	celestial	be	physical					
+be	celestial	be	manifestation					
 be	celestial	be	immovable					
 be	celestial	can	be-seen					
 								
-be	atmospheric	be	physical					
+be	atmospheric	be	manifestation					
 be	atmospheric	be	immovable					
 be	atmospheric	can	be-seen					
 								
@@ -19,7 +25,6 @@ be	planet	be	celestial
 								
 					# weather			
 be	weather	be	atmospheric					
-be	weather	be	phenomenon					
 								
 be	rain	can	fall					
 be	rain	be	weather					
@@ -36,15 +41,14 @@ be	audible-phenomenon	be	phenomenon
 be	audible-phenomenon	can	be-heard					
 								
 				# visible phenomenon				
-be	shadow	be	phenomenon					
-be	light-ray	be	phenomenon					
+be	shadow	be	visible-phenomenon					
+be	light-ray	be	visible-phenomenon					
 								
 				# audible phenomenon				
-be	echo	be	audible					
-be	echo	be	phenomenon					
-be	rain	be	audible					
-be	thunder	be	audible					
-be	horn	be	audible					
+be	echo	be	audible-phenomenon					
+be	rain	be	audible-phenomenon					
+be	thunder	be	audible-phenomenon					
+								
 								
 be	spoken	be	audible					
 								
@@ -54,30 +58,33 @@ be	comment	has-trait	length
 								
 						"# accessible fixed statics (""location"")"		
 						# see location.tsv for more examples		
-be	location	be	fixed					
-be	location	be	static					
-be	location	be	physical					
+								
+								
+								
 								
 						#matter/energy		
-be	energy	be	physical					
+be	energy	be	manifestation					
 								
-be	matter	can	be-seen					
-be	matter	be	physical					
+be	substance	be	matter					
 								
 be	light	be	energy					
 be	light	can	be-seen					
 be	lightning	be	atmospheric					
 be	lightning	be	energy					
 be	lightning	can	be-seen					
+be	thunder	be	atmospheric					
+be	thunder	can	be-heard					
 be	wind	be	energy					
 								
 					#solid/liquid/gas			
 be	fluid	can	flow					
-be	fluid	be	matter					
+be	fluid	be	substance					
 								
-be	solid	has-trait	shape					
 be	solid	be	matter					
+be	solid	has-trait	shape					
+be	solid	can	be-seen					
 be	liquid	be	fluid					
+be	liquid	can	be-seen					
 be	liquid	can	be-poured					
 be	gas	be	fluid					
 be	gas	can	be-breathed					
@@ -161,9 +168,16 @@ be	door	can	lock
 be	door	can	unlock					
 be	door	has-trait	interior					
 								
+be	fireplace	be	installation					
+be	fireplace	be	light-source					
+								
+be	campfire	be	installation					
+be	campfire	be	light-source					
+								
 				"# unfixed solids (""items"")"				
 				# see item.tsv for more examples				
 be	item	be	unfixed					
+be	item	be	manifestation					
 be	item	can	be-carried					
 be	item	can	be-walked-to					
 								
