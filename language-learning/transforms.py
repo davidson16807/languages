@@ -1,11 +1,23 @@
 
+class HtmlTextTransform:
+    def __init__(self):
+        pass
+    def mirror(self, emoji):
+        return f'''<span style='display:inline-flex; transform: scale(-1,1)'>{emoji}</span>'''
+    def flip(self, emoji):
+        return f'''<span style='display:inline-flex; transform: scale(1,-1)'>{emoji}</span>'''
+    def scale(self, emoji, x,y):
+        return f'''<span style='display:inline-flex; transform: scale({x},{y})'>{emoji}</span>'''
+
 class HtmlGroupPositioning:
     def __init__(self):
         pass
     def offset(self, emoji, x, y, size=1):
-        return f'''<span style='font-size:{size*100}%; transform:translate({-x/2}em,{-y}em); '>{emoji}</span>'''
+        return f'''<span style='font-size:{size*100}%; transform:translate({-x/2}em,{-y}em);'>{emoji}</span>'''
     def group(self, emoji, max_width):
         return f'''<span style='max-width:{max_width}em; display:inline-flex; justify-content:center; align-items:center;'>{emoji}</span>'''
+    def flex(self, emoji):
+        return f'''<span style='display:inline-flex;'>{emoji}</span>'''
 
 class HtmlPersonPositioning:
     def __init__(self, htmlGroupPositioning):
@@ -34,14 +46,6 @@ class HtmlNumberTransform:
         return self.positions.group(self.positions.farleft(a), self.positions.center(b))
     def plural_inclusive(self, a,b,c): 
         return self.positions.group(self.positions.farleft(a), self.positions.center(b), self.positions.right(c))
-
-class HtmlTextTransform:
-    def __init__(self):
-        pass
-    def mirror(self, emoji):
-        return f'''<span style='transform: scale(-1,1)'>{emoji}</span>'''
-    def flip(self, emoji):
-        return f'''<span style='transform: scale(1,-1)'>{emoji}</span>'''
 
 class HtmlTenseTransform:
     def __init__(self):

@@ -48,19 +48,28 @@ class TextTransformShorthand:
     '''
     Introduces LaTEX style escape sequences that represent
     standardized patterns of styled html elements 
-    that surround text and represent common transformations.
-    Current supported transforms include:
-        \mirror{}
-        \flip{}
+    that surround emoji characters and represent gestures.
+    Current supported gestures include:
+        \lg
+        \sm
     '''
     def __init__(self, htmlTextTransform, bracketedShorthand):
         self.htmlTextTransform = htmlTextTransform
         self.bracketedShorthand = bracketedShorthand
+        self.shorthand_functions = [
+            (r'\\small', (0.7,0.7)),
+            (r'\\large', (1.5,1.5)),
+            (r'\\tall',  (0.7,1.5)),
+            (r'\\wide',  (1.5,0.7)),
+            (r'\\mirror',(-1,1)),
+            (r'\\flip',  (1,-1)),
+        ]
     def decode(self, code):
-        emoji = code
-        emoji = self.bracketedShorthand.decode(r'\\mirror', emoji, self.htmlTextTransform.mirror)
-        emoji = self.bracketedShorthand.decode(r'\\flip', emoji, self.htmlTextTransform.flip)
-        return emoji
+        text = code
+        for (shorthand, parameters) in self.shorthand_functions:
+            text = self.bracketedShorthand.decode(shorthand, text, 
+                        lambda code:self.htmlTextTransform.scale(code,*parameters))
+        return text
 
 class EmojiSubjectShorthand:
     '''
@@ -122,6 +131,7 @@ class EmojiAnnotationShorthand:
         emoji = code
         emoji = self.bracketedShorthand.decode(r'\\group', emoji, 
                     lambda code:self.positioning.group(code,1.5))
+        emoji = self.bracketedShorthand.decode(r'\\flex', emoji, self.positioning.flex(code))
         for (shorthand, parameters) in self.shorthand_functions:
             emoji = self.bracketedShorthand.decode(shorthand, emoji, 
                         lambda code:self.positioning.offset(code,*parameters))

@@ -4,8 +4,8 @@ associated	subject	0				be	bad			be	bad concept	\declined=👎
 associated	subject	0				be	good			be	good concept	\declined=👍															
 associated	subject	0				be	good			be	ethical emotion	\declined=👎															
 associated	subject	0				be	bad			be	suspect emotion	\declined=👍															
-associated	subject	0				be	big		the	has-trait	size	<span style='font-size:1.5em'>\declined</span><span style='font-size:0.6em'>\declined</span>															
-associated	subject	0				be	long		the	has-trait	length	<span>\declined</span>\declined															
+associated	subject	0				be	big		the	has-trait	size	\small{\declined}\large{\declined}\small{\declined}															
+associated	subject	0				be	long		the	has-trait	length	\small{\declined}\wide{\declined}\small{\declined}															
 associated	subject	0				come			the	be	time	\declined															
 associated	subject	0				come			the	be	event	\declined															
 associated	direct-object	0	the	be	man	love				be	good concept	\declined\group{🚶‍♂️\rhi{❤️}}															
@@ -22,17 +22,17 @@ associated	possessor	0	the	be	thought			of		be	emotion	\bubble{\declined}\rthoug
 associated	possessor	0	the	be	size			of	the	has-trait	size	📏\declined															
 associated	possessor	0	the	be	sound			of	the	can	be-heard	\group{\declined\r{🗯️}}															
 departed	location	1	the	be	man	walk		away from	the	can	be-walked-to	←🚶‍♂️\declined															
-associated	location	1	the	be	man	walk		by	the	can	be-walked-to	🚶‍♂️\r{\declined}															
+associated	location	1	the	be	man	walk		by	the	can	be-walked-to	←\group{🚶‍♂️\r{\declined}}															
 acquired	location	1	the	be	man	walk		to	the	can	be-walked-to	\mirror{←🚶‍♂️}\declined															
-leveraged	location	1	the	be	man	walk		via	the	can	be-walked-to	←🚶‍♂️\r{\declined}															
-leveraged	location	1	the	be	man	navigate		by way of	the	can	be-seen	\mirror{←🚶‍♂️}\declined															
-departed	location	0	the	be	man	direct	his attention	from	the	can	be-seen	<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️\declined															
+leveraged	location	1	the	be	man	walk		via	the	can	be-walked-to	←\group{🚶‍♂️\r{\declined}}															
+leveraged	location	1	the	be	man	navigate		by way of	the	can	be-seen	\group{\l{\declined}\mirror{←🚶‍♂️}}															
+departed	location	0	the	be	man	direct	his attention	from	the	can	be-seen	\group{\llo{↻}🚶‍♂️\declined}															
 associated	location	0	the	be	man	direct	his attention	at	the	can	be-seen	\mirror{🚶‍♂️}\declined															
-acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-seen	\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}\declined															
+acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-seen	\group{\mirror{\llo{↻}🚶‍♂️}\declined}															
 acquired	location	0	the	be	man	direct	his attention	by way of	the	can	be-seen	\mirror{🚶‍♂️}\declined															
-departed	location	0	the	be	man	direct	his attention	from	the	can	be-heard	<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️\declined<sup>🗯️</sup>															
+departed	location	0	the	be	man	direct	his attention	from	the	can	be-heard	\group{\llo{↻}🚶‍♂️\declined\rhi{🗯️}}															
 associated	location	0	the	be	man	direct	his attention	at	the	can	be-heard	\mirror{🚶‍♂️}\group{\declined\rhi{🗯️}}															
-acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-heard	\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}\declined<sup>🗯️</sup>															
+acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-heard	\group{\mirror{\llo{↻}🚶‍♂️}\declined\rhi{🗯️}}															
 acquired	location	0	the	be	man	direct	his attention	by way of	the	can	be-heard	\mirror{🚶‍♂️}\declined															
 departed	location	0	the	be	man	direct	his attention	from	the	be	concept	\bubble{\declined}\rthought\mirror{🚶‍♂️}															
 associated	location	0	the	be	man	direct	his attention	at	the	be	concept	\bubble{\declined}\rthought🚶‍♂️															

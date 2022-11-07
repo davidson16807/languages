@@ -650,6 +650,7 @@ infinitive_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
 bracket_shorthand = BracketedShorthand(Enclosures())
 
+html_text_transform = HtmlTextTransform()
 html_group_positioning = HtmlGroupPositioning()
 html_person_positioning = HtmlPersonPositioning(html_group_positioning)
 
@@ -659,7 +660,7 @@ emoji_shorthand = EmojiInflectionShorthand(
         EmojiNumberShorthand(
             HtmlNumberTransform(html_person_positioning), bracket_shorthand)),
     EmojiBubbleShorthand(HtmlBubble(), bracket_shorthand),
-    TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
+    TextTransformShorthand(html_text_transform, bracket_shorthand),
     EmojiAnnotationShorthand(html_group_positioning, bracket_shorthand),
     EmojiModifierShorthand(),
 )
