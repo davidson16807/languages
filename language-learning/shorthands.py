@@ -44,6 +44,24 @@ class BracketedShorthand:
             match = re.search(pattern, string)
         return string
 
+class TextTransformShorthand:
+    '''
+    Introduces LaTEX style escape sequences that represent
+    standardized patterns of styled html elements 
+    that surround text and represent common transformations.
+    Current supported transforms include:
+        \mirror{}
+        \flip{}
+    '''
+    def __init__(self, htmlTextTransform, bracketedShorthand):
+        self.htmlTextTransform = htmlTextTransform
+        self.bracketedShorthand = bracketedShorthand
+    def decode(self, code):
+        emoji = code
+        emoji = self.bracketedShorthand.decode(r'\\mirror', emoji, self.htmlTextTransform.mirror)
+        emoji = self.bracketedShorthand.decode(r'\\flip', emoji, self.htmlTextTransform.flip)
+        return emoji
+
 class EmojiSubjectShorthand:
     '''
     Introduces LaTEX style escape sequences that are
@@ -67,6 +85,46 @@ class EmojiSubjectShorthand:
         emoji = emoji.replace('\\nx', f'\\{number}')
         emoji = emoji.replace('\\gx', f'\\{gender}')
         emoji = emoji.replace('\\cx', f'\\{color}')
+        return emoji
+
+class EmojiAnnotationShorthand:
+    '''
+    Introduces LaTEX style escape sequences that represent
+    standardized patterns of styled html elements 
+    that surround emoji characters and represent gestures.
+    Current supported gestures include:
+        \group
+        \mhi
+        \mlo
+        \lhi
+        \lmid
+        \llo
+        \l
+        \rhi
+        \rmid
+        \rlo
+        \r
+    '''
+    def __init__(self, htmlGroupPositioning, bracketedShorthand):
+        self.positioning = htmlGroupPositioning
+        self.bracketedShorthand = bracketedShorthand
+        self.shorthand_functions = [
+            (r'\\lhi',  (-1, 1, 0.4)),
+            (r'\\lmid', (-1, 0, 0.4)),
+            (r'\\llo',  (-1,-1, 0.4)),
+            (r'\\l',    (-0,0.5, 0.9)),
+            (r'\\rhi',  ( 1, 1, 0.4)),
+            (r'\\rmid', ( 1, 0, 0.4)),
+            (r'\\rlo',  ( 1,-1, 0.4)),
+            (r'\\r',    ( 0,0.5, 0.9)),
+        ]
+    def decode(self, code):
+        emoji = code
+        emoji = self.bracketedShorthand.decode(r'\\group', emoji, 
+                    lambda code:self.positioning.group(code,1.5))
+        for (shorthand, parameters) in self.shorthand_functions:
+            emoji = self.bracketedShorthand.decode(shorthand, emoji, 
+                        lambda code:self.positioning.offset(code,*parameters))
         return emoji
 
 class EmojiPersonShorthand:
@@ -109,48 +167,6 @@ class EmojiPersonShorthand:
             emoji = emoji.replace(f'\\c{i+1}', f'\\{color}')
         return emoji
 
-class EmojiGestureShorthand:
-    '''
-    Introduces LaTEX style escape sequences that represent
-    standardized patterns of styled html elements 
-    that surround emoji characters and represent gestures.
-    Current supported gestures include:
-        \raised{}
-        \lowered{}
-        \overhead{}
-        \chestlevel{}
-        \background{}
-    '''
-    def __init__(self, htmlGesturePositioning, bracketedShorthand):
-        self.htmlGesturePositioning = htmlGesturePositioning
-        self.bracketedShorthand = bracketedShorthand
-    def decode(self, code):
-        emoji = code
-        emoji = self.bracketedShorthand.decode(r'\\raised', emoji, self.htmlGesturePositioning.raised)
-        emoji = self.bracketedShorthand.decode(r'\\lowered', emoji, self.htmlGesturePositioning.lowered)
-        emoji = self.bracketedShorthand.decode(r'\\overhead', emoji, self.htmlGesturePositioning.overhead)
-        emoji = self.bracketedShorthand.decode(r'\\chestlevel', emoji, self.htmlGesturePositioning.chestlevel)
-        emoji = self.bracketedShorthand.decode(r'\\background', emoji, self.htmlGesturePositioning.background)
-        return emoji
-
-class TextTransformShorthand:
-    '''
-    Introduces LaTEX style escape sequences that represent
-    standardized patterns of styled html elements 
-    that surround text and represent common transformations.
-    Current supported transforms include:
-        \mirror{}
-        \flip{}
-    '''
-    def __init__(self, htmlTextTransform, bracketedShorthand):
-        self.htmlTextTransform = htmlTextTransform
-        self.bracketedShorthand = bracketedShorthand
-    def decode(self, code):
-        emoji = code
-        emoji = self.bracketedShorthand.decode(r'\\mirror', emoji, self.htmlTextTransform.mirror)
-        emoji = self.bracketedShorthand.decode(r'\\flip', emoji, self.htmlTextTransform.flip)
-        return emoji
-
 class EmojiNumberShorthand:
     '''
     Introduces LaTEX style escape sequences that represent
@@ -170,7 +186,7 @@ class EmojiNumberShorthand:
         def get_transform(inner_transform, gestureless_count, inclusive=False):
             def _transform(content):
                 gestureless = self.bracketedShorthand.decode(
-                    r'\\(chestlevel|raised|lowered|overhead|background)', content, lambda x:'')
+                    r'\\[mlr](lo|mid|hi)', content, lambda x:'')
                 person2 = content.replace('\\g1','\\g2').replace('\\c1','\\c2')
                 return inner_transform(
                         person2 if inclusive else content, 
@@ -251,10 +267,10 @@ class EmojiBubbleShorthand:
         emoji = self.bracketedShorthand.decode(r'\\forbidden', emoji, self.htmlBubble.negative)
         emoji = self.bracketedShorthand.decode(r'\\box', emoji, self.htmlBubble.box)
         emoji = self.bracketedShorthand.decode(r'\\forbiddenbox', emoji, self.htmlBubble.negative_box)
-        emoji = emoji.replace('\\rspeech', "<sup style='color:#ddd;'>◥</sup>")
-        emoji = emoji.replace('\\lspeech', "<sup style='padding-left: 0.5em; color:#ddd;'>◤</sup>")
-        emoji = emoji.replace('\\rthought', "<span style='color:#ddd;'>•<sub>•</sub></span>")
-        emoji = emoji.replace('\\lthought', "<span style='padding-left: 0.5em; color:#ddd;'><sub>•</sub>•</span>")
+        emoji = emoji.replace('\\rspeech', "<span style='color:#ddd; position:relative; bottom: 0.5em;'>◥</span>")
+        emoji = emoji.replace('\\lspeech', "<span style='padding-left: 0.5em; color:#ddd; position:relative; bottom: 0.5em;'>◤</span>")
+        emoji = emoji.replace('\\rthought', "<span style='color:#ddd; position:relative; bottom: 0.5em;'>•<sub>•</sub></span>")
+        emoji = emoji.replace('\\lthought', "<span style='padding-left: 0.5em; color:#ddd; position:relative; bottom: 0.5em;'><sub>•</sub>•</span>")
         return emoji
 
 class Person:

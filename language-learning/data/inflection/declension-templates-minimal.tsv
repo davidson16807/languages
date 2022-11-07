@@ -8,47 +8,49 @@ associated	subject	0				be	big		the	has-trait	size	<span style='font-size:1.5em'
 associated	subject	0				be	long		the	has-trait	length	<span>\declined</span>\declined															
 associated	subject	0				come			the	be	time	\declined															
 associated	subject	0				come			the	be	event	\declined															
-associated	direct-object	0	the	be	man	love				be	good concept	\declined🚶‍♂️<sup>❤️</sup>															
+associated	direct-object	0	the	be	man	love				be	good concept	\declined\group{🚶‍♂️\rhi{❤️}}															
 associated	direct-object	0	the	be	man	hate				be	bad concept	\declined🙍‍♂️															
-associated	direct-object	0	the	be	man	love				be	positive emotion	\declined🚶‍♂️<sup>❤️</sup>															
+associated	direct-object	0	the	be	man	love				be	positive emotion	\declined\group{🚶‍♂️\rhi{❤️}}															
 associated	direct-object	0	the	be	man	hate				be	negative emotion	\declined🙍‍♂️															
-associated	direct-object	0	the	be	man	love			the	be	time	\declined🚶‍♂️<sup>❤️</sup>															
-associated	direct-object	0	the	be	man	love			the	be	pet	\declined<big>🧎‍♂️</big><sup>❤️</sup>															
-associated	direct-object	0	the	be	man	love			the	be	woman	🧍‍♀️<sup>❤️</sup>🧍‍♂️															
+associated	direct-object	0	the	be	man	love			the	be	time	\declined🚶‍♂️\group{\rhi{❤️}}															
+associated	direct-object	0	the	be	man	love			the	be	pet	\declined\group{🧎‍♂️\rhi{❤️}}															
+associated	direct-object	0	the	be	man	love			the	be	woman	🧍‍♀️\group{🧍‍♂️\rhi{❤️}}															
 associated	direct-object	0	the	be	man	see			the	can	be-seen	💁‍♂️\declined															
-associated	direct-object	0	the	be	man	hear			the	can	be-heard	<sub>💁‍♂️\declined</sub><sup>🗯️</sup>															
+associated	direct-object	0	the	be	man	hear			the	can	be-heard	💁‍♂️\group{\declined\rhi{🗯️}}															
 associated	possessor	0	the	be	thought			of		be	concept	\bubble{\declined}\rthought															
 associated	possessor	0	the	be	thought			of		be	emotion	\bubble{\declined}\rthought															
 associated	possessor	0	the	be	size			of	the	has-trait	size	📏\declined															
-associated	possessor	0	the	be	sound			of	the	can	be-heard	<sub>\declined</sub><sup>🗯️</sup>															
-leveraged	location	0	the	be	man	navigate		by way of	the	can	be-seen	\declined←🚶‍♂️															
+associated	possessor	0	the	be	sound			of	the	can	be-heard	\group{\declined\r{🗯️}}															
+departed	location	1	the	be	man	walk		away from	the	can	be-walked-to	←🚶‍♂️\declined															
+associated	location	1	the	be	man	walk		by	the	can	be-walked-to	🚶‍♂️\r{\declined}															
+acquired	location	1	the	be	man	walk		to	the	can	be-walked-to	\mirror{←🚶‍♂️}\declined															
+leveraged	location	1	the	be	man	walk		via	the	can	be-walked-to	←🚶‍♂️\r{\declined}															
+leveraged	location	1	the	be	man	navigate		by way of	the	can	be-seen	\mirror{←🚶‍♂️}\declined															
 departed	location	0	the	be	man	direct	his attention	from	the	can	be-seen	<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️\declined															
 associated	location	0	the	be	man	direct	his attention	at	the	can	be-seen	\mirror{🚶‍♂️}\declined															
 acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-seen	\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}\declined															
+acquired	location	0	the	be	man	direct	his attention	by way of	the	can	be-seen	\mirror{🚶‍♂️}\declined															
 departed	location	0	the	be	man	direct	his attention	from	the	can	be-heard	<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️\declined<sup>🗯️</sup>															
-associated	location	0	the	be	man	direct	his attention	at	the	can	be-heard	\mirror{🚶‍♂️}\declined<sup>🗯️</sup>															
+associated	location	0	the	be	man	direct	his attention	at	the	can	be-heard	\mirror{🚶‍♂️}\group{\declined\rhi{🗯️}}															
 acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-heard	\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}\declined<sup>🗯️</sup>															
+acquired	location	0	the	be	man	direct	his attention	by way of	the	can	be-heard	\mirror{🚶‍♂️}\declined															
 departed	location	0	the	be	man	direct	his attention	from	the	be	concept	\bubble{\declined}\rthought\mirror{🚶‍♂️}															
 associated	location	0	the	be	man	direct	his attention	at	the	be	concept	\bubble{\declined}\rthought🚶‍♂️															
 acquired	location	0	the	be	man	direct	his attention	toward	the	be	concept	\bubble{\declined}\rthought🚶‍♂️															
-departed	location	1	the	be	man	walk		away from	the	can	be-walked-to	🚶‍♂️\declined															
-associated	location	1	the	be	man	walk		at	the	can	be-walked-to	\declined🚶‍♂️															
-acquired	location	1	the	be	man	walk		to	the	can	be-walked-to	\declined🚶‍♂️															
-leveraged	location	1	the	be	man	walk		via	the	can	be-walked-to	←\declined🚶‍♂️															
-departed	extent	0	the	be	man	direct	his attention	starting from	the	can	be-seen	🚶‍♂️\declined															
-associated	extent	0	the	be	man	direct	his attention	beside	the	can	be-seen	\declined🚶‍♂️															
-acquired	extent	0	the	be	man	direct	his attention	up to	the	can	be-seen	\declined🚶‍♂️															
-leveraged	extent	0	the	be	man	direct	his attention	along [the edges of]	the	can	be-seen	\declined🚶‍♂️															
-departed	extent	0	the	be	man	direct	his attention	starting from	the	can	be-heard	🚶‍♂️\declined															
-associated	extent	0	the	be	man	direct	his attention	beside	the	can	be-heard	\declined🚶‍♂️															
-acquired	extent	0	the	be	man	direct	his attention	up to	the	can	be-heard	\declined🚶‍♂️															
-departed	extent	0	the	be	man	direct	his attention	starting from	the	be	concept	\declined🚶‍♂️															
-associated	extent	0	the	be	man	direct	his attention	beside	the	be	concept	\declined🚶‍♂️															
-acquired	extent	0	the	be	man	direct	his attention	up to	the	be	concept	\declined🚶‍♂️															
 departed	extent	1	the	be	man	walk		starting from	the	can	be-walked-to	←🚶‍♂️\declined															
 associated	extent	1	the	be	man	walk		beside	the	can	be-walked-to	🚶‍♂️\declined															
 acquired	extent	1	the	be	man	walk		up to	the	can	be-walked-to	\declined←🚶‍♂️															
 leveraged	extent	1	the	be	man	walk		along	the	can	be-walked-to																
+departed	extent	0	the	be	man	direct	his attention	starting from	the	can	be-seen	<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️\declined															
+associated	extent	0	the	be	man	direct	his attention	beside	the	can	be-seen	\mirror{🚶‍♂️}\declined															
+acquired	extent	0	the	be	man	direct	his attention	up to	the	can	be-seen	\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}\declined															
+leveraged	extent	0	the	be	man	direct	his attention	along [the edges of]	the	can	be-seen	\declined🚶‍♂️															
+departed	extent	0	the	be	man	direct	his attention	starting from	the	can	be-heard	<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️\declined															
+associated	extent	0	the	be	man	direct	his attention	beside	the	can	be-heard	\mirror{🚶‍♂️}\declined															
+acquired	extent	0	the	be	man	direct	his attention	up to	the	can	be-heard	\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}\declined															
+departed	extent	0	the	be	man	direct	his attention	starting from	the	be	concept	<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️\declined															
+associated	extent	0	the	be	man	direct	his attention	beside	the	be	concept	\mirror{🚶‍♂️}\declined															
+acquired	extent	0	the	be	man	direct	his attention	up to	the	be	concept	\mirror{<span style='position:relative; left:1.3em; top:1em'>↻ </span>🚶‍♂️}\declined															
 departed	vicinity	1	the	be	man	walk		from around	the	can	be-walked-by	←🚶‍♂️<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
 associated	vicinity	1	the	be	man	walk		by	the	can	be-walked-by	<span style='position:relative; left:1.1em; bottom:0.6em; z-index:-1'>\declined</span>🚶‍♂️															
 acquired	vicinity	1	the	be	man	walk		to around	the	can	be-walked-by	<span style='position:relative; left:1.2em; bottom:0.6em; z-index:-1'>\declined</span>←🚶‍♂️															
@@ -61,30 +63,30 @@ departed	surface	1	the	be	man	walk		off of	the	can	be-walked-on	<span style='fon
 associated	surface	1	the	be	man	walk		on	the	can	be-walked-on	<span style='font-size:1.5em; position:relative; left:0.7em; top:0.8em; z-index:-1'>\declined</span><span style='font-size:0.5em; position:relative;'>🚶‍♂️</span>															
 acquired	surface	1	the	be	man	walk		onto	the	can	be-walked-on	<span style='font-size:1.5em; position:relative; left:0.4em; top:0.7em; z-index:-1'>\declined</span><span style='font-size:0.5em; position:relative;'>🚶‍♂️↖</span>															
 leveraged	surface	1	the	be	man	walk		over	the	can	be-walked-on	<span style='font-size:1.5em; position:relative; left:0.9em; top:0.8em; z-index:-1'>\declined</span><span style='font-size:0.5em; position:relative;'>↙🚶‍♂️↖</span>															
-departed	presence	0	the	be	man	work		[due to the presence of]	the	be	manifestation	\box{👨‍🌾}→\box{\declined}															
-associated	presence	0	the	be	man	work		[in the presence of]	the	be	manifestation	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-acquired	presence	0	the	be	man	work		[to produce]	the	be	manifestation	\box{\declined}→\box{👨‍🌾}															
-leveraged	presence	0	the	be	man	work		[by using the presence of]	the	be	manifestation	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-departed	presence	0	the	be	man	work		[due to the presence of]	the	be	animate	\box{👨‍🌾}→\box{\declined}															
-associated	presence	0	the	be	man	work		[in the presence of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-acquired	presence	0	the	be	man	work		[to draw in]	the	be	animate	\declined→👨‍🌾															
-leveraged	presence	0	the	be	man	work		[by using the presence of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-departed	aid	0	the	be	man	work		[thanks to the aid of]	the	be	manifestation	\box{👨‍🌾}→\box{\declined}															
-associated	aid	0	the	be	man	work		[with the aid of]	the	be	manifestation	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-acquired	aid	0	the	be	man	come		[to aid the]	the	be	manifestation	\box{\declined}→\box{👨‍🌾}															
-leveraged	aid	0	the	be	man	work		[by using the aid of ]	the	be	manifestation	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-departed	aid	0	the	be	man	work		[thanks to the aid of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
-associated	aid	0	the	be	man	work		[with the aid of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
-acquired	aid	0	the	be	man	come		[to the aid of]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
-leveraged	aid	0	the	be	man	work		[by using the aid of ]	the	be	animate	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
+departed	presence	0	the	be	man	work		[due to the presence of]	the	be	manifestation	\box{\declined}→\box{👨‍🌾}															
+associated	presence	0	the	be	man	work		[in the presence of]	the	be	manifestation	\group{👨‍🌾\r{\declined}}															
+acquired	presence	0	the	be	man	work		[to produce]	the	be	manifestation	\box{👨‍🌾}→\box{\declined}															
+leveraged	presence	0	the	be	man	work		[by using the presence of]	the	be	manifestation	\group{👨‍🌾\r{\declined}}															
+departed	presence	0	the	be	man	work		[due to the presence of]	the	be	animate	\box{\declined}→\box{👨‍🌾}															
+associated	presence	0	the	be	man	work		[in the presence of]	the	be	animate	\group{👨‍🌾\r{\declined}}															
+acquired	presence	0	the	be	man	work		[to draw in]	the	be	animate	👨‍🌾←\declined															
+leveraged	presence	0	the	be	man	work		[by using the presence of]	the	be	animate	\group{👨‍🌾\r{\declined}}															
+departed	aid	0	the	be	man	work		[thanks to the aid of]	the	be	manifestation	\box{\declined}→\box{👨‍🌾}															
+associated	aid	0	the	be	man	work		[with the aid of]	the	be	manifestation	\group{👨‍🌾\r{\declined}}															
+acquired	aid	0	the	be	man	come		[to aid the]	the	be	manifestation	\box{👨‍🌾}→\box{\declined}															
+leveraged	aid	0	the	be	man	work		[by using the aid of ]	the	be	manifestation	\group{👨‍🌾\r{\declined}}															
+departed	aid	0	the	be	man	work		[thanks to the aid of]	the	be	animate	\group{👨‍🌾\r{\group{\declined\rhi{❤️}}}}															
+associated	aid	0	the	be	man	work		[with the aid of]	the	be	animate	\group{👨‍🌾\r{\group{\declined\rhi{❤️}}}}															
+acquired	aid	0	the	be	man	come		[to the aid of]	the	be	animate	\group{👨‍🌾\r{\group{\declined\rhi{❤️}}}}															
+leveraged	aid	0	the	be	man	work		[by using the aid of ]	the	be	animate	\group{👨‍🌾\r{\group{\declined\rhi{❤️}}}}															
 departed	lack	0	the	be	man	work		[for want of]	the	be	physical	\forbiddenbox{\declined}→\box{👨‍🌾}															
 associated	lack	0	the	be	man	work		[in the absence of]	the	be	physical	<span style='position:relative; bottom:0.3em; z-index:-1'>\forbiddenbox{\declined}</span>👨‍🌾															
 acquired	lack	0	the	be	man	work		[to avoid]	the	be	physical	\box{👨‍🌾}→\forbiddenbox{\declined}															
-leveraged	lack	0	the	be	man	work		[by taking advantage of the lack of]	the	be	physical	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\forbiddenbox{\declined}</span>															
-departed	interest	0	the	be	man	work		[out of the interest of]	the	be	thing	<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span>👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-associated	interest	0	the	be	man	work		[in the interest of]	the	be	thing	<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span>👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-acquired	interest	0	the	be	man	work		[for the sake of]	the	be	thing	<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span>👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined</span>															
-leveraged	interest	0	the	be	man	work		[by appealing to the interest of]	the	be	thing	👨‍🌾<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\declined<span style='position:relative; bottom:2em; font-size:0.3em'>❤️</span></span>															
+leveraged	lack	0	the	be	man	work		[by taking advantage of the lack of]	the	be	physical	👨‍🌾\<span style='position:relative; right:0.3em; bottom:0.3em; z-index:-1'>\forbiddenbox{\declined}</span>															
+departed	interest	0	the	be	man	work		[out of the interest of]	the	be	thing	\group{\lhi{❤️}👨‍🌾\r{\declined}}															
+associated	interest	0	the	be	man	work		[in the interest of]	the	be	thing	\group{\lhi{❤️}👨‍🌾\r{\declined}}															
+acquired	interest	0	the	be	man	work		[for the sake of]	the	be	thing	\group{\lhi{❤️}👨‍🌾\r{\declined}}															
+leveraged	interest	0	the	be	man	work		[by appealing to the interest of]	the	be	thing	\group{\mirror{\lhi{💬}}👨‍🌾\r{\group{\declined\rhi{❤️}}}}															
 departed	purpose	0	the	be	man	work		[following from the purpose of]	the	be	thing	\box{\declined}→\box{👨‍🌾}															
 associated	purpose	0	the	be	man	work		[assuming the purpose of]	the	be	thing	👨‍🌾≈\declined															
 acquired	purpose	0	the	be	man	work		[for the purpose of]	the	be	thing	\box{👨‍🌾}→\box{\declined}															

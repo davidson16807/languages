@@ -578,8 +578,8 @@ class CardFormatting:
     def __init__(self):
         pass
     def emoji_focus(self, content):
-        fonts = '''sans-serif', 'Twemoji', 'Twemoji Mozilla', 'Segoe UI Emoji', 'Noto Color Emoji'''
-        return f'''<div style='font-size:3em; padding: 0.5em; font-family: {fonts}'>{content}</div>'''
+        fonts = ''' "sans-serif", "Twemoji", "Twemoji Mozilla", "Segoe UI Emoji", "Noto Color Emoji" '''
+        return f'''<div style='font-size:3em; padding: 0.5em; display:inline-box; font-family: {fonts}'>{content}</div>'''
     def foreign_focus(self, content):
         return f'''<div style='font-size:3em'>{content}</div>'''
     def foreign_side_note(self, content):
@@ -650,15 +650,18 @@ infinitive_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
 bracket_shorthand = BracketedShorthand(Enclosures())
 
+html_group_positioning = HtmlGroupPositioning()
+html_person_positioning = HtmlPersonPositioning(html_group_positioning)
+
 emoji_shorthand = EmojiInflectionShorthand(
     EmojiSubjectShorthand(), 
     EmojiPersonShorthand(
         EmojiNumberShorthand(
-            HtmlNumberTransform(HtmlPersonPositioning()), bracket_shorthand)),
+            HtmlNumberTransform(html_person_positioning), bracket_shorthand)),
     EmojiBubbleShorthand(HtmlBubble(), bracket_shorthand),
     TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
-    EmojiGestureShorthand(HtmlGesturePositioning(), bracket_shorthand),
-    EmojiModifierShorthand()
+    EmojiAnnotationShorthand(html_group_positioning, bracket_shorthand),
+    EmojiModifierShorthand(),
 )
 
 emoji = Emoji(

@@ -1,51 +1,47 @@
 
-class HtmlPersonPositioning:
+class HtmlGroupPositioning:
     def __init__(self):
         pass
-    def farleft(self, person):
-        return f'''<span style='position:relative; left:0.22em; top:0.2em;'>{person}</span>'''
-    def left(self, person):
-        return f'''<span style='position:relative; left:0.4em; top:0.2em;'>{person}</span>'''
-    def center(self, person):
-        return f'''{person}'''
-    def right(self, person):
-        return f'''<span style='position:relative; right:0.4em; top:0.2em;'>{person}</span>'''
+    def offset(self, emoji, x, y, size=1):
+        return f'''<span style='font-size:{size*100}%; transform:translate({-x/2}em,{-y}em); '>{emoji}</span>'''
+    def group(self, emoji, max_width):
+        return f'''<span style='max-width:{max_width}em; display:inline-flex; justify-content:center; align-items:center;'>{emoji}</span>'''
 
-class HtmlGesturePositioning:
-    def __init__(self):
-        pass
-    def lowered(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; left:0.3em; top:0.8em;'>{hand}</span>'''
-    def raised(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:0.6em; bottom:0.7em;'>{hand}</span>'''
-    def overhead(self, hand): 
-        return f'''<span style='display: inline-block; width:0; position:relative; bottom:0.8em;'>{hand}</span>'''
-    def chestlevel(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:0.7em; top:0em;'>{hand}</span>'''
-    def background(self, hand): 
-        return f'''<span style='font-size: 50%; display: inline-block; width:0; position:relative; right:1em; bottom:0.9em; z-index:-1'>{hand}</span>'''
+class HtmlPersonPositioning:
+    def __init__(self, htmlGroupPositioning):
+        self.positions = htmlGroupPositioning
+    def farleft(self, person):
+        return self.positions.offset(person,-1,-0.1)
+    def left(self, person):
+        return self.positions.offset(person,-1,-0.1)
+    def center(self, person):
+        return person
+    def right(self, person):
+        return self.positions.offset(person, 1,-0.1)
+    def group(self, *people):
+        return self.positions.group(''.join(people), len(people))
+
+class HtmlNumberTransform:
+    def __init__(self, htmlPersonPositioning):
+        self.positions = htmlPersonPositioning
+    def singular(self, a): 
+        return a
+    def dual(self, a,b): 
+        return self.positions.group(self.positions.left(a), self.positions.center(b))
+    def plural(self, a,b,c): 
+        return self.positions.group(self.positions.left(a), self.positions.center(b), self.positions.right(c))
+    def dual_inclusive(self, a,b): 
+        return self.positions.group(self.positions.farleft(a), self.positions.center(b))
+    def plural_inclusive(self, a,b,c): 
+        return self.positions.group(self.positions.farleft(a), self.positions.center(b), self.positions.right(c))
 
 class HtmlTextTransform:
     def __init__(self):
         pass
     def mirror(self, emoji):
-        return f'''<span style='display: inline-block; transform: scale(-1,1)'>{emoji}</span>'''
+        return f'''<span style='transform: scale(-1,1)'>{emoji}</span>'''
     def flip(self, emoji):
-        return f'''<span style='display: inline-block; transform: scale(1,-1)'>{emoji}</span>'''
-
-class HtmlNumberTransform:
-    def __init__(self, htmlPersonPositioning):
-        self.person = htmlPersonPositioning
-    def singular(self, a): 
-        return a
-    def dual(self, a,b): 
-        return f'''{self.person.left(a)}{self.person.center(b)}'''
-    def plural(self, a,b,c): 
-        return f'''{self.person.left(a)}{self.person.center(b)}{self.person.right(c)}'''
-    def dual_inclusive(self, a,b): 
-        return f'''{self.person.farleft(a)}{self.person.center(b)}'''
-    def plural_inclusive(self, a,b,c): 
-        return f'''{self.person.farleft(a)}{self.person.center(b)}{self.person.right(c)}'''
+        return f'''<span style='transform: scale(1,-1)'>{emoji}</span>'''
 
 class HtmlTenseTransform:
     def __init__(self):
@@ -73,9 +69,9 @@ class HtmlBubble:
     def __init__(self):
         pass
     def affirmative(self, scene): 
-        return f'''<div><span style='border-radius: 0.5em; padding: 0.6em; background:#ddd; '>{scene}</span></div>'''
+        return f'''<div style='margin-bottom:0.5em;'><span style='border-radius: 0.5em; padding: 0.6em; background:#ddd; z-index:-2;'>{scene}</span></div>'''
     def negative(self, scene): 
-        return f'''<div><span style='border-radius: 0.5em; padding: 0.6em; background: linear-gradient(to left top, #ddd 47%, red 48%, red 52%, #ddd 53%); border-style: solid; border-color:red; border-width:6px;'>{scene}</span></div>'''
+        return f'''<div style='margin-bottom:0.5em;'><span style='border-radius: 0.5em; padding: 0.6em; background: linear-gradient(to left top, #ddd 47%, red 48%, red 52%, #ddd 53%); border-style: solid; border-color:red; border-width:6px; z-index:-2;'>{scene}</span></div>'''
     def box(self, scene):
         return f"<span style='border-radius: 0.5em; padding: 0.4em; border-style: solid; border-color:grey; border-width:3px;'>{scene}</span>"
     def negative_box(self, scene):
