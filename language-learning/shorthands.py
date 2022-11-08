@@ -57,8 +57,8 @@ class TextTransformShorthand:
         self.htmlTextTransform = htmlTextTransform
         self.bracketedShorthand = bracketedShorthand
         self.shorthand_functions = [
-            (r'\\small', (0.7,0.7)),
-            (r'\\large', (1.5,1.5)),
+            # (r'\\small', (0.7,0.7)),
+            # (r'\\large', (1.5,1.5)),
             (r'\\tall',  (0.7,1.5)),
             (r'\\wide',  (1.5,0.7)),
             (r'\\mirror',(-1,1)),
@@ -66,6 +66,10 @@ class TextTransformShorthand:
         ]
     def decode(self, code):
         text = code
+        text = self.bracketedShorthand.decode(r'\\small', text, 
+                    lambda code:self.htmlTextTransform.fontsize(code,0.7))
+        text = self.bracketedShorthand.decode(r'\\large', text, 
+                    lambda code:self.htmlTextTransform.fontsize(code,1.5))
         for (shorthand, parameters) in self.shorthand_functions:
             text = self.bracketedShorthand.decode(shorthand, text, 
                         lambda code:self.htmlTextTransform.scale(code,*parameters))

@@ -8,6 +8,8 @@ class HtmlTextTransform:
         return f'''<span style='display:inline-flex; transform: scale(1,-1)'>{emoji}</span>'''
     def scale(self, emoji, x,y):
         return f'''<span style='display:inline-flex; transform: scale({x},{y})'>{emoji}</span>'''
+    def fontsize(self, emoji, size):
+        return f'''<span style='display:inline-flex; font-size:{size}em'>{emoji}</span>'''
 
 class HtmlGroupPositioning:
     def __init__(self):
