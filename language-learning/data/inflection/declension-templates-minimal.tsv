@@ -26,13 +26,13 @@ associated	location	1	the	be	man	walk		by	the	can	be-walked-to	←\group{🚶‍
 acquired	location	1	the	be	man	walk		to	the	can	be-walked-to	\mirror{←🚶‍♂️}\declined															
 leveraged	location	1	the	be	man	walk		via	the	can	be-walked-to	←\group{🚶‍♂️\r{\declined}}															
 leveraged	location	1	the	be	man	navigate		by way of	the	can	be-seen	\group{\l{\declined}\mirror{←🚶‍♂️}}															
-departed	location	0	the	be	man	direct	his attention	from	the	can	be-seen	\group{\llo{↻}🚶‍♂️\declined}															
+departed	location	0	the	be	man	direct	his attention	from	the	can	be-seen	\group{🚶‍♂️\lmid{↺}\declined}															
 associated	location	0	the	be	man	direct	his attention	at	the	can	be-seen	\mirror{🚶‍♂️}\declined															
-acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-seen	\group{\mirror{\llo{↻}🚶‍♂️}\declined}															
+acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-seen	\group{\mirror{🚶‍♂️\lmid{↺}}\declined}															
 acquired	location	0	the	be	man	direct	his attention	by way of	the	can	be-seen	\mirror{🚶‍♂️}\declined															
-departed	location	0	the	be	man	direct	his attention	from	the	can	be-heard	\group{\llo{↻}🚶‍♂️\declined\rhi{🗯️}}															
+departed	location	0	the	be	man	direct	his attention	from	the	can	be-heard	\group{🚶‍♂️\lmid{↺}\declined\rhi{🗯️}}															
 associated	location	0	the	be	man	direct	his attention	at	the	can	be-heard	\mirror{🚶‍♂️}\group{\declined\rhi{🗯️}}															
-acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-heard	\group{\mirror{\llo{↻}🚶‍♂️}\declined\rhi{🗯️}}															
+acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-heard	\group{\mirror{🚶‍♂️\lmid{↺}}\declined\rhi{🗯️}}															
 acquired	location	0	the	be	man	direct	his attention	by way of	the	can	be-heard	\mirror{🚶‍♂️}\declined															
 departed	location	0	the	be	man	direct	his attention	from	the	be	concept	\bubble{\declined}\rthought\mirror{🚶‍♂️}															
 associated	location	0	the	be	man	direct	his attention	at	the	be	concept	\bubble{\declined}\rthought🚶‍♂️															
@@ -41,13 +41,13 @@ departed	extent	1	the	be	man	walk		starting from	the	can	be-walked-to	←🚶‍
 associated	extent	1	the	be	man	walk		beside	the	can	be-walked-to	🚶‍♂️\declined															
 acquired	extent	1	the	be	man	walk		up to	the	can	be-walked-to	\declined←🚶‍♂️															
 leveraged	extent	1	the	be	man	walk		along	the	can	be-walked-to	←\group{🚶‍♂️\r{\declined}}															
-departed	extent	0	the	be	man	direct	his attention	starting from	the	can	be-seen	\group{\llo{↻}🚶‍♂️\declined}															
+departed	extent	0	the	be	man	direct	his attention	starting from	the	can	be-seen	\group{🚶‍♂️\lmid{↺}\declined}															
 associated	extent	0	the	be	man	direct	his attention	beside	the	can	be-seen	\mirror{🚶‍♂️}\declined															
-acquired	extent	0	the	be	man	direct	his attention	up to	the	can	be-seen	\group{\mirror{\llo{↻}🚶‍♂️}\declined}															
+acquired	extent	0	the	be	man	direct	his attention	up to	the	can	be-seen	\group{\mirror{🚶‍♂️\lmid{↺}}\declined}															
 leveraged	extent	0	the	be	man	direct	his attention	along [the edges of]	the	can	be-seen	\declined🚶‍♂️															
-departed	extent	0	the	be	man	direct	his attention	starting from	the	can	be-heard	\group{\llo{↻}🚶‍♂️\declined\rhi{🗯️}}															
+departed	extent	0	the	be	man	direct	his attention	starting from	the	can	be-heard	\group{🚶‍♂️\lmid{↺}\declined\rhi{🗯️}}															
 associated	extent	0	the	be	man	direct	his attention	beside	the	can	be-heard	\mirror{🚶‍♂️}\group{\declined\rhi{🗯️}}															
-acquired	extent	0	the	be	man	direct	his attention	up to	the	can	be-heard	\group{\mirror{\llo{↻}🚶‍♂️}\declined\rhi{🗯️}}															
+acquired	extent	0	the	be	man	direct	his attention	up to	the	can	be-heard	\group{\mirror{🚶‍♂️\lmid{↺}}\declined\rhi{🗯️}}															
 departed	extent	0	the	be	man	direct	his attention	starting from	the	be	concept	\bubble{\declined}\rthought\mirror{🚶‍♂️}															
 associated	extent	0	the	be	man	direct	his attention	beside	the	be	concept	\bubble{\declined}\rthought🚶‍♂️															
 acquired	extent	0	the	be	man	direct	his attention	up to	the	be	concept	\bubble{\declined}\rthought🚶‍♂️															
@@ -107,9 +107,9 @@ departed	state of being	0	the	be	man	work		from having been	the	be	professional	
 associated	state of being	0	the	be	man	work		as a	the	be	professional	\declined															
 acquired	state of being	0	the	be	man	work		in order to be	the	be	professional	👨‍🌾→\box{\declined}															
 leveraged	state of being	0	the	be	man	work		due to having been	the	be	professional	\box{\declined}→👨‍🌾															
-departed	topic	0	the	be	man	direct	his attention	away from [the topic of]	the	be	thing	\bubble{\declined}\lspeech\group{\mirror{\llo{↻}🚶‍♂️}}															
+departed	topic	0	the	be	man	direct	his attention	away from [the topic of]	the	be	thing	\bubble{\declined}\lspeech\mirror{\group{🚶‍♂️\lmid{↺}}}															
 associated	topic	0	the	be	man	talk		on [the topic of]	the	be	thing	\bubble{\declined}\lspeech\mirror{🚶‍♂️}															
-acquired	topic	0	the	be	man	direct	his attention	to [the topic of]	the	be	thing	\bubble{\declined}\lspeech\group{\llo{↻}🚶‍♂️}															
+acquired	topic	0	the	be	man	direct	his attention	to [the topic of]	the	be	thing	\bubble{\declined}\lspeech\group{🚶‍♂️\lmid{↺}}															
 leveraged	topic	0	the	be	man	talk		by using [the example of]	the	be	thing	\bubble{\declined}\rspeech💁‍♂️															
 associated	company	0	the	be	man	walk		in the company of	the	be	manifestation	\group{←🚶‍♂️\r{←\declined}}															
 associated	company	0	the	be	man	walk		along with	the	be	animated	\group{←🚶‍♂️\r{←\declined}}															
