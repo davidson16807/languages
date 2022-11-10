@@ -1,5 +1,3 @@
-	predicate		predicand
-			
 be	time	be	concept
 be	time	has-trait	length
 			
@@ -8,77 +6,17 @@ be	event	cna	be-seen
 			
 be	work	be	concept
 be	work	has-trait	difficulty
+be	job	be	work
 			
 be	movie	be	event
 be	movie	can	be-seen
 be	movie	has-trait	length
 			
-be	time-of-day	be	time
-be	season	be	time
-			
-be	morning	be	time-of-day
-be	evening	be	time-of-day
-be	day	be	time-of-day
-be	night	be	time-of-day
-			
-be	winter	be	season
-be	spring	be	season
-be	summer	be	season
-be	fall	be	season
-			
-be	affair	be	event
-be	affair	has-trait	size
-be	myth	be	event
-be	myth	has-trait	length
-be	conflict	be	event
-be	conflict	has-trait	size
-			
 be	motion	be	concept
 be	motion	has-trait	speed
-			
-be	fight	be	conflict
-be	war	be	conflict
-be	raid	be	conflict
-			
-be	job	be	work
 			
 be	circumnavigation	be	concept
 			
 be	emotion	be	concept
 			
-be	negative-emotion	be	emotion
-be	positive-emotion	be	emotion
-			
-be	ethical-emotion	be	emotion
-be	suspect-emotion	be	emotion
-			
-be	desire	be	suspect-emotion
-be	desire	be	positive-emotion
-be	joy	be	ethical-emotion
-be	joy	be	positive-emotion
-be	sorrow	be	ethical-emotion
-be	sorrow	be	negative-emotion
-be	fear	be	ethical-emotion
-be	fear	be	negative-emotion
-be	anger	be	suspect-emotion
-be	anger	be	negative-emotion
-be	pride	be	suspect-emotion
-be	pride	be	positive-emotion
-be	shame	be	ethical-emotion
-be	shame	be	negative-emotion
-			
-be	quantity	be	attribute
-			
-be	weight	be	quantity
-be	mass	be	quantity
-be	length	be	quantity
-be	width	be	quantity
-be	height	be	quantity
-be	distance	be	quantity
-be	area	be	quantity
-be	volume	be	quantity
-be	density	be	quantity
-be	speed	be	quantity
-be	momentum	be	quantity
-be	force	be	quantity
-be	energy	be	quantity
+be	attribute	be	concept

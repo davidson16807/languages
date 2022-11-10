@@ -13,26 +13,26 @@ name       	singular	3         	n     	consonant   	nōmen      	nōminis    	n�
 name       	plural	3         	n     	consonant   	nōmina       	nōminum      	nōminibus    	nōmina       	nōminibus    	nōmina       	nōminibus    	\nx{📛}	#	"latin    	"	
 son        	singular	2         	m     	-us         	fīlius     	fīliī      	fīliō      	fīlium     	fīliō      	fīlī       		\nx{👨‍👩‍👦}	#	"latin    	"	
 son        	plural	2         	m     	-us         	fīliī        	fīliōrum     	fīliīs       	fīliōs       	fīliīs       	"fīliī        	"		\nx{👨‍👩‍👦}	#	"latin    	"	
-war        	singular	2         	m     	-um         	bellum     	bellī      	bellō      	bellum     	bellō      	bellum     	bellī      	\nx{⚔️}	#	latin    	
-war        	plural	2         	m     	-um         	bella        	bellōrum     	bellīs       	bella        	bellīs       	bella        	bellīs       	\nx{⚔️}	#	latin    	
+war        	singular	2         	m     	-um         	bellum     	bellī      	bellō      	bellum     	bellō      	bellum     	bellī      	\nx{\group{\hi{🤼‍♂️}\mid{🤼‍♂️}\lo{🤼‍♂️}}}	#	latin    	
+war        	plural	2         	m     	-um         	bella        	bellōrum     	bellīs       	bella        	bellīs       	bella        	bellīs       	\nx{\group{\hi{🤼‍♂️}\mid{🤼‍♂️}\lo{🤼‍♂️}}}	#	latin    	
 air        	singular	3         	m     	-i          	āēr        	āeris      	āerī       	āera       	āere       	āēr        	āerī       	\nx{💨}	#	greek    	
 air        	plural	3         	m     	-i          	āerēs        	āerum        	āeribus      	āerēs        	āeribus      	āerēs        	āēr        	\nx{💨}	#	greek    	
 boy        	singular	2         	m     	-er         	puer       	puerī      	puerō      	puerum     	puerō      	puer       		\nx{👦}	#	latin    	
 boy        	plural	2         	m     	-er         	puerī	puerōrum	puerīs	puerōs	puerīs	"puerī	"		\nx{👦}	#	latin    	
 animal     	singular	3         	n     	pure -i     	animal     	animālis   	animālī    	animal     	animālī    	animal     	animālī    	\nx{🐃}	#	latin    	
 animal     	plural	3         	n     	pure -i     	animālia     	animālium    	animālibus   	animālia     	animālibus   	animālia     	animālibus   	\nx{🐃}	#	latin    	
-star       	singular	1         	f     	-a          	stēlla     	stēllae    	stēllae    	stēllam    	stēllā     	stēlla     		\nx{⭐}	#	latin    	
-star       	plural	1         	f     	-a          	stēllae      	stēllārum    	stēllīs      	stēllās      	stēllīs      	"stēllae      	"		\nx{⭐}	#	latin    	
+star       	singular	1         	f     	-a          	stēlla     	stēllae    	stēllae    	stēllam    	stēllā     	stēlla     		\hi{\nx{⭐}}	#	latin    	
+star       	plural	1         	f     	-a          	stēllae      	stēllārum    	stēllīs      	stēllās      	stēllīs      	"stēllae      	"		\hi{\nx{⭐}}	#	latin    	
 tower      	singular	3         	f     	-i          	turris     	turris     	turrī      	turrem     	turre      	turris     	turrī      	\nx{🏰}	#	latin    	
 tower      	plural	3         	f     	-i          	turrēs       	turrium      	turribus     	turrēs (-īs) 	turribus     	turrēs       	turribus     	\nx{🏰}	#	latin    	
 horn       	singular	4         	n     	-ū          	cornū      	cornūs     	cornū      	cornū      	cornū      	cornū      		\nx{📯}	#	latin    	
 horn       	plural	4         	n     	-ū          	cornua       	cornuum      	cornibus     	cornua       	cornibus     	"cornua       	"		\nx{📯}	#	latin    	
 sailor     	singular	1         	m     	-a          	nauta      	nautae     	nautae     	nautam     	nautā      	nauta      		⛵\nx{🧍}	#	latin    	
 sailor     	plural	1         	m     	-a          	nautae       	nautārum     	nautīs       	nautās       	nautīs       	"nautae       	"		⛵\nx{🧍}	#	latin    	
-foundation 	singular	3         	f     	alternate -i	basis      	basis      	basī       	basim      	basī       	basis      		\nx{🏗️}	#	greek    	
-foundation 	plural	3         	f     	alternate -i	basēs        	basium       	basibus      	basēs        	basibus      	"basēs        	"		\nx{🏗️}	#	greek    	
-echo       	singular	4         	n     	-ū          	ēchō       	ēchūs      	ēchō       	ēchō       	ēchō       	ēchō       		\nx{⸨}⸩🧱	#	greek    	
-echo       	plural	4         	n     	-ū          	ēchūs	ēchuum	ēchibus	ēchūs	ēchibus	"ēchūs	"		\nx{⸨}⸩🧱	#	greek    	
+foundation 	singular	3         	f     	alternate -i	basis      	basis      	basī       	basim      	basī       	basis      		\nx{🏛️}	#	greek    	
+foundation 	plural	3         	f     	alternate -i	basēs        	basium       	basibus      	basēs        	basibus      	"basēs        	"		\nx{🏛️}	#	greek    	
+echo       	singular	4         	n     	-ū          	ēchō       	ēchūs      	ēchō       	ēchō       	ēchō       	ēchō       		\nx{⸨}\small(⸩)🧱	#	greek    	
+echo       	plural	4         	n     	-ū          	ēchūs	ēchuum	ēchibus	ēchūs	ēchibus	"ēchūs	"		\nx{⸨}\small(⸩)🧱	#	greek    	
 phenomenon 	singular	2         	n     	-on         	phaenomenon	phaenomenī 	phaenomenō 	phaenomenon	phaenomenō 	phaenomenon		\nx{🌋}	#	greek    	
 phenomenon 	plural	2         	n     	-on         	phaenomena   	phaenomenōrum	phaenomenīs  	phaenomena   	phaenomenīs  	phaenomena  		\nx{🌋}	#	greek    	
 vine       	singular	2         	f     	-os         	ampelos    	ampelī     	ampelō     	ampelon    	ampelō     	ampele     		\nx{🍇}	#	greek    	

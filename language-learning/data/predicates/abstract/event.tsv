@@ -1,0 +1,16 @@
+	predicate		predicand
+			
+be	movie	be	event
+be	movie	can	be-seen
+be	movie	has-trait	length
+			
+be	affair	be	event
+be	affair	has-trait	size
+be	myth	be	event
+be	myth	has-trait	length
+be	conflict	be	event
+be	conflict	has-trait	size
+			
+be	fight	be	conflict
+be	war	be	conflict
+be	raid	be	conflict

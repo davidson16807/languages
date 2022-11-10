@@ -17,7 +17,7 @@ class HtmlGroupPositioning:
     def offset(self, emoji, x, y, size=1):
         return f'''<span style='font-size:{size*100}%; transform:translate({-x/2}em,{-y}em);'>{emoji}</span>'''
     def group(self, emoji, max_width):
-        return f'''<span style='max-width:{max_width}em; display:inline-flex; justify-content:center; align-items:center;'>{emoji}</span>'''
+        return f'''<span style='max-width:{max_width}em; display:inline-flex; justify-content:center; align-items:center; white-space:nowrap;'>{emoji}</span>'''
     def flex(self, emoji):
         return f'''<span style='display:inline-flex;'>{emoji}</span>'''
 
@@ -81,4 +81,4 @@ class HtmlBubble:
     def box(self, scene):
         return f"<span style='border-radius: 0.5em; padding: 0.4em; border-style: solid; border-color:grey; border-width:3px;'>{scene}</span>"
     def negative_box(self, scene):
-        return f"<span style='border-radius: 0.5em; padding: 0.4em; border-style: solid; border-color:grey; border-width:3px;'>{scene}</span>"
+        return f"<span style='border-radius: 0.5em; padding: 0.4em; background: linear-gradient(to left top, transparent 47%, red 48%, red 52%, transparent 53%); border-style: solid; border-color:red; border-width:6px;'>{scene}</span>"

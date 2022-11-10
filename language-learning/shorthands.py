@@ -125,10 +125,13 @@ class EmojiAnnotationShorthand:
             (r'\\lhi',  (-1, 1, 0.4)),
             (r'\\lmid', (-1, 0, 0.4)),
             (r'\\llo',  (-1,-1, 0.4)),
-            (r'\\l',    (-0,0.5, 0.9)),
             (r'\\rhi',  ( 1, 1, 0.4)),
             (r'\\rmid', ( 1, 0, 0.4)),
             (r'\\rlo',  ( 1,-1, 0.4)),
+            (r'\\hi',   ( 0, 1, 0.4)),
+            (r'\\mid',  ( 0, 0, 0.4)),
+            (r'\\lo',   ( 0,-1, 0.4)),
+            (r'\\l',    (-0,0.5, 0.9)),
             (r'\\r',    ( 0,0.5, 0.9)),
         ]
     def decode(self, code):
@@ -277,10 +280,10 @@ class EmojiBubbleShorthand:
         self.bracketedShorthand = bracketedShorthand
     def decode(self, code):
         emoji = code
-        emoji = self.bracketedShorthand.decode(r'\\bubble', emoji, self.htmlBubble.affirmative)
-        emoji = self.bracketedShorthand.decode(r'\\forbidden', emoji, self.htmlBubble.negative)
         emoji = self.bracketedShorthand.decode(r'\\box', emoji, self.htmlBubble.box)
         emoji = self.bracketedShorthand.decode(r'\\forbiddenbox', emoji, self.htmlBubble.negative_box)
+        emoji = self.bracketedShorthand.decode(r'\\bubble', emoji, self.htmlBubble.affirmative)
+        emoji = self.bracketedShorthand.decode(r'\\forbidden', emoji, self.htmlBubble.negative)
         emoji = emoji.replace('\\rspeech', "<span style='color:#ddd; position:relative; bottom: 0.5em;'>◥</span>")
         emoji = emoji.replace('\\lspeech', "<span style='padding-left: 0.5em; color:#ddd; position:relative; bottom: 0.5em;'>◤</span>")
         emoji = emoji.replace('\\rthought', "<span style='color:#ddd; position:relative; bottom: 0.5em;'>•<sub>•</sub></span>")

@@ -942,15 +942,23 @@ from population import ListLookupPopulation, FlatLookupPopulation
 
 tsv_parsing = SeparatedValuesFileParsing()
 rows = [
+  *tsv_parsing.rows('data/predicates/mythical/greek.tsv'),
+  *tsv_parsing.rows('data/predicates/mythical/hindi.tsv'),
   *tsv_parsing.rows('data/predicates/biotic/animal-anatomy.tsv'),
   *tsv_parsing.rows('data/predicates/biotic/animal.tsv'),
   *tsv_parsing.rows('data/predicates/biotic/deity.tsv'),
   *tsv_parsing.rows('data/predicates/biotic/human.tsv'),
   *tsv_parsing.rows('data/predicates/biotic/humanoid.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/mythical.tsv'),
   *tsv_parsing.rows('data/predicates/biotic/plant-anatomy.tsv'),
   *tsv_parsing.rows('data/predicates/biotic/plant.tsv'),
   *tsv_parsing.rows('data/predicates/biotic/sapient.tsv'),
+  *tsv_parsing.rows('data/predicates/abiotic/item.tsv'),
+  *tsv_parsing.rows('data/predicates/abiotic/location.tsv'),
+  *tsv_parsing.rows('data/predicates/abiotic/physical.tsv'),
+  *tsv_parsing.rows('data/predicates/abstract/attribute.tsv'),
+  *tsv_parsing.rows('data/predicates/abstract/time.tsv'),
+  *tsv_parsing.rows('data/predicates/abstract/event.tsv'),
+  *tsv_parsing.rows('data/predicates/abstract/concept.tsv'),
   *tsv_parsing.rows('data/predicates/animacy-hierarchy.tsv'),
   *tsv_parsing.rows('data/predicates/capability.tsv'),
 ]
@@ -1029,8 +1037,12 @@ ROADMAP:
 
 cardFormatting = CardFormatting()
 
-for lemma in ['animal']:
-    emoji_representation = 'horse'
+lemmas = [
+    'man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
+    'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
+    'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet']
+for lemma in lemmas:
+    emoji_representation = 'horse' if lemma == 'animal' else lemma
     for tuplekey in case_indexing.tuplekeys(category_to_grammemes):
         dictkey = case_indexing.dictkey(tuplekey)
         if dictkey in use_case_to_grammatical_case:

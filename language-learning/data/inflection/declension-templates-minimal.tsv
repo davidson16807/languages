@@ -16,16 +16,16 @@ associated	direct-object	0	the	be	man	love			the	be	time	\declined🚶‍♂️\
 associated	direct-object	0	the	be	man	love			the	be	pet	\declined\group{🧎‍♂️\rhi{❤️}}															
 associated	direct-object	0	the	be	man	love			the	be	woman	🧍‍♀️\group{🧍‍♂️\rhi{❤️}}															
 associated	direct-object	0	the	be	man	see			the	can	be-seen	💁‍♂️\declined															
-associated	direct-object	0	the	be	man	hear			the	can	be-heard	💁‍♂️\group{\declined\rhi{🗯️}}															
+associated	direct-object	0	the	be	man	hear			the	can	be-heard	💁‍♂️\group{\declined\r{🗯️}}															
 associated	possessor	0	the	be	thought			of		be	concept	\bubble{\declined}\rthought															
 associated	possessor	0	the	be	thought			of		be	emotion	\bubble{\declined}\rthought															
 associated	possessor	0	the	be	size			of	the	has-trait	size	📏\declined															
 associated	possessor	0	the	be	sound			of	the	can	be-heard	\group{\declined\r{🗯️}}															
 departed	location	1	the	be	man	walk		away from	the	can	be-walked-to	←🚶‍♂️\declined															
-associated	location	1	the	be	man	walk		by	the	can	be-walked-to	←\group{🚶‍♂️\r{\declined}}															
+associated	location	1	the	be	man	walk		by	the	can	be-walked-to	\group{🚶‍♂️\r{\declined}}															
 acquired	location	1	the	be	man	walk		to	the	can	be-walked-to	\mirror{←🚶‍♂️}\declined															
-leveraged	location	1	the	be	man	walk		via	the	can	be-walked-to	←\group{🚶‍♂️\r{\declined}}															
-leveraged	location	1	the	be	man	navigate		by way of	the	can	be-seen	\group{\l{\declined}\mirror{←🚶‍♂️}}															
+leveraged	location	1	the	be	man	walk		via	the	can	be-walked-to	←\group{🚶‍♂️\r{\declined↙}}															
+leveraged	location	1	the	be	man	navigate		by way of	the	can	be-seen	\group{\mirror{←🚶‍♂️}\r{\declined}}															
 departed	location	0	the	be	man	direct	his attention	from	the	can	be-seen	\group{🚶‍♂️\lmid{↺}\declined}															
 associated	location	0	the	be	man	direct	his attention	at	the	can	be-seen	\mirror{🚶‍♂️}\declined															
 acquired	location	0	the	be	man	direct	his attention	toward	the	can	be-seen	\group{\mirror{🚶‍♂️\lmid{↺}}\declined}															
@@ -58,7 +58,7 @@ leveraged	vicinity	1	the	be	man	walk		via	the	can	be-walked-by	←\group{🚶‍
 departed	interior	1	the	be	man	walk		out of	the	can	be-walked-in	\group{\llo{←🚶‍♂️}\large{\declined}}															
 associated	interior	1	the	be	man	walk		in	the	can	be-walked-in	\group{\llo{🚶‍♂️}\large{\declined}}															
 acquired	interior	1	the	be	man	walk		into	the	can	be-walked-in	\group{\large{\declined}\rlo{←🚶‍♂️}}															
-leveraged	interior	1	the	be	man	walk		through	the	can	be-walked-in	\group{\llo{←}\large{\declined}\rlo{←🚶‍♂️}}															
+leveraged	interior	1	the	be	man	walk		through	the	can	be-walked-in	\group{\llo{←}\large{\declined}\rlo{🚶‍♂️←}}															
 departed	surface	1	the	be	man	walk		off of	the	can	be-walked-on	\group{\lhi{↙🚶‍♂️}\large{\declined}}															
 associated	surface	1	the	be	man	walk		on	the	can	be-walked-on	\group{\lhi{🚶‍♂️}\large{\declined}}															
 acquired	surface	1	the	be	man	walk		onto	the	can	be-walked-on	\group{\large{\declined}\rhi{↖🚶‍♂️}}															
@@ -80,7 +80,7 @@ associated	aid	0	the	be	man	work		[with the aid of]	the	be	animate	\group{👨�
 acquired	aid	0	the	be	man	come		[to the aid of]	the	be	animate	\group{👨‍🌾\r{\group{\declined\rhi{❤️}}}}															
 leveraged	aid	0	the	be	man	work		[by using the aid of ]	the	be	animate	\group{👨‍🌾\r{\group{\declined\rhi{❤️}}}}															
 departed	lack	0	the	be	man	work		[for want of]	the	be	physical	\forbiddenbox{\declined}→\box{👨‍🌾}															
-associated	lack	0	the	be	man	work		[in the absence of]	the	be	physical	\forbiddenbox{\declined}👨‍🌾															
+associated	lack	0	the	be	man	work		[in the absence of]	the	be	physical	\group{👨‍🌾\r{\forbiddenbox{\declined}}}															
 acquired	lack	0	the	be	man	work		[to avoid]	the	be	physical	\box{👨‍🌾}→\forbiddenbox{\declined}															
 leveraged	lack	0	the	be	man	work		[by taking advantage of the lack of]	the	be	physical	\group{👨‍🌾\r{\forbiddenbox{\declined}}}															
 departed	interest	0	the	be	man	work		[out of the interest of]	the	be	thing	\group{\lhi{❤️}👨‍🌾\r{\declined}}															
@@ -95,14 +95,14 @@ departed	ownership	0	the	can	be-owned	come		from [the ownership of]	the	can	be-o
 associated	ownership	0	the	can	be-owned	be		[in the ownership] of	the	can	be-owner	\group{\subject\r{\declined}}															
 acquired	ownership	0	the	can	be-owned	come		to [the ownership of]	the	can	be-owner	\group{\mirror{←\subject}\r{\declined}}															
 leveraged	ownership	0	the	can	be-owned	work		[due to its ownership by]	the	can	be-owner	\group{\subject\r{\declined}}															
-departed	time	0	the	be	man	work		following	the	be	time	\group{\big{\declined}👨‍🌾→}															
-associated	time	0	the	be	man	work		during	the	be	time	\group{\big{\llo{👨‍🌾}\declined}}															
-acquired	time	0	the	be	man	work		until	the	be	time	\group{👨‍🌾→\big{\declined}}															
-leveraged	time	0	the	be	man	work		by making use of	the	be	time	\group{\big{\llo{👨‍🌾}\declined}}															
-departed	time	0	the	be	man	work		following	the	be	event	\group{\big{\declined}→👨‍🌾}															
-associated	time	0	the	be	man	work		during	the	be	event	\group{\big{\llo{👨‍🌾}\declined}}															
-acquired	time	0	the	be	man	work		until	the	be	event	\group{👨‍🌾→\big{\declined}}															
-leveraged	time	0	the	be	man	work		by making use of the time during	the	be	event	\group{\big{\llo{👨‍🌾}\declined}}															
+departed	time	0	the	be	man	work		following	the	be	time	\group{\large{\declined}👨‍🌾→}															
+associated	time	0	the	be	man	work		during	the	be	time	\group{\large{\llo{👨‍🌾}\declined}}															
+acquired	time	0	the	be	man	work		until	the	be	time	\group{👨‍🌾→\large{\declined}}															
+leveraged	time	0	the	be	man	work		by making use of	the	be	time	\group{\large{\llo{👨‍🌾}\declined}}															
+departed	time	0	the	be	man	work		following	the	be	event	\group{\large{\declined}→👨‍🌾}															
+associated	time	0	the	be	man	work		during	the	be	event	\group{\large{\llo{👨‍🌾}\declined}}															
+acquired	time	0	the	be	man	work		until	the	be	event	\group{👨‍🌾→\large{\declined}}															
+leveraged	time	0	the	be	man	work		by making use of the time during	the	be	event	\group{\large{\llo{👨‍🌾}\declined}}															
 departed	state of being	0	the	be	man	work		from having been	the	be	professional	\box{\declined}→👨‍🌾															
 associated	state of being	0	the	be	man	work		as a	the	be	professional	\declined															
 acquired	state of being	0	the	be	man	work		in order to be	the	be	professional	👨‍🌾→\box{\declined}															
