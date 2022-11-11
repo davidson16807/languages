@@ -1,16 +1,33 @@
 				
+part	plant	part	vascular-plant	
+part	vascular-plant	part	seed-bearing-plant	
+part	vascular-plant	part	creeping-plant	
+part	seed-bearing-plant	part	tree	
+				
 be	vascular-plant	has-part	leaf	
 be	vascular-plant	has-part	stem	
 be	vascular-plant	has-part	root	
 be	vascular-plant	has-part	tuber	
 				
+be	leaf	part	vascular-plant	
+be	stem	part	vascular-plant	
+be	root	part	vascular-plant	
+be	tuber	part	vascular-plant	
+				
 be	seed-bearing-plant	has-part	seed	
 be	seed-bearing-plant	has-part	nut	
 				
+be	seed	part	seed-bearing-plant	
+be	nut	part	seed-bearing-plant	
+				
 be	tree	has-part	wood	
+				
+be	wood	part	tree	
 				
 be	oak	has-part	acorn	
 be	acorn	be	nut	
+				
+be	acorn	part	oak	
 				
 be	grain	be	item	
 				
@@ -123,3 +140,5 @@ be	durian	be	tropical-fruit
 be	jackfruit	be	tropical-fruit	
 				
 be	creeping-plant	has-part	vine	
+				
+be	vine	part	creeping-plant	

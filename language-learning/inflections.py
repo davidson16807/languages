@@ -578,7 +578,7 @@ class CardFormatting:
     def __init__(self):
         pass
     def emoji_focus(self, content):
-        fonts = ''' "sans-serif", "Twemoji", "Twemoji Mozilla", "Segoe UI Emoji", "Noto Color Emoji" '''
+        fonts = ''' sans-serif, Twemoji, "Twemoji Mozilla", "Segoe UI Emoji", "Noto Color Emoji" '''
         return f'''<div style='font-size:3em; padding: 0.5em; display:inline-box; font-family: {fonts}'>{content}</div>'''
     def foreign_focus(self, content):
         return f'''<div style='font-size:3em'>{content}</div>'''
@@ -1037,24 +1037,28 @@ ROADMAP:
 
 cardFormatting = CardFormatting()
 
+declension_traversal = DictTupleIndexing(['motion','cast','number'])
 lemmas = [
-    'man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
+    'man', 'daytime', 'hand', 'nighttime', 'thing', 'name', 'son', 'war',
     'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
     'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet']
 for lemma in lemmas:
-    emoji_representation = 'horse' if lemma == 'animal' else lemma
-    for tuplekey in case_indexing.tuplekeys(category_to_grammemes):
-        dictkey = case_indexing.dictkey(tuplekey)
+    emoji_representations = {'animal':'cow','thing':'bolt'}
+    emoji_representation = emoji_representations[lemma] if lemma in emoji_representations else lemma
+    for tuplekey in declension_traversal.tuplekeys(category_to_grammemes):
+        dictkey = declension_traversal.dictkey(tuplekey)
         if dictkey in use_case_to_grammatical_case:
             case = use_case_to_grammatical_case[dictkey]['case']
             adposition = use_case_to_grammatical_case[dictkey]['adposition']
             match = matching.match(emoji_representation, dictkey['motion'], dictkey['cast'])
             if match:
                 base_key = {
+                    **dictkey,
                     'script':      'latin',
-                    'noun-form':   'common',
                     'person':      '3',
-                    'number':      'singular', 
+                    # 'number':      'singular', 
+                    'clusivity':   'exclusive',
+                    'clitic':      'tonic',
                     'partitivity': 'nonpartitive',
                     'formality':   'familiar',
                     'gender':      'masculine',
@@ -1063,46 +1067,52 @@ for lemma in lemmas:
                     'aspect': 'aorist', 
                     'mood':   'indicative',
                 }
-                print(tuplekey, case)
+                subject_key = {**base_key, 'case':'nominative', 'noun-form':'personal'}
+                common_subject_key = {**base_key, 'case':'nominative', 'noun-form':'common'}
+                direct_object_key = {**base_key, 'case':'accusative', 'noun-form':'common'}
+                case_key = {**base_key, 'case':case, 'noun-form':'common'}
                 translated_nouns = {}
                 english_nouns = {}
                 if match['subject-argument']:
-                    translated_nouns['subject'] = NounPhrase({'case':'nominative'}, ['the', match['subject-argument']])
-                    english_nouns['subject'] = NounPhrase({'case':'nominative'}, ['the', match['subject-argument']])
+                    translated_nouns['subject'] = NounPhrase(subject_key, [match['subject-argument']])
+                    english_nouns['subject'] = NounPhrase(subject_key, [match['subject-argument']])
                 if match['direct-object']:
-                    translated_nouns['direct-object'] = NounPhrase({'case':'accusative'}, match['direct-object'].split(' '))
-                    english_nouns['direct-object'] = NounPhrase({'case':'accusative'}, match['direct-object'].split(' '))
+                    translated_nouns['direct-object'] = NounPhrase(direct_object_key, match['direct-object'].split(' '))
+                    english_nouns['direct-object'] = NounPhrase(direct_object_key, match['direct-object'].split(' '))
                 if case == 'nominative':
-                    translated_nouns['subject'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], Cloze(1, lemma)])
-                    english_nouns['subject'] = NounPhrase({'case':case}, [match['declined-noun-adjective'], lemma])
+                    translated_nouns['subject'] = NounPhrase(case_key, [match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['subject'] = NounPhrase(case_key, [match['declined-noun-adjective'], lemma])
                 elif case == 'accusative':
-                    translated_nouns['direct-object'] = NounPhrase({'case':case}, [adposition, match['declined-noun-adjective'], Cloze(1, lemma)])
-                    english_nouns['direct-object'] = NounPhrase({'case':case}, [match['adposition'], match['declined-noun-adjective'], lemma])
+                    translated_nouns['direct-object'] = AdpositionalPhrase(case_key, adposition, [match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['direct-object'] = AdpositionalPhrase(case_key, match['adposition'], [match['declined-noun-adjective'], lemma])
                 else:
-                    translated_nouns['modifiers'] = AdpositionalPhrase({'case':case}, adposition, [match['declined-noun-adjective'], Cloze(1, lemma)])
-                    english_nouns['modifiers'] = AdpositionalPhrase({'case':case}, match['adposition'], [match['declined-noun-adjective'], lemma])
+                    translated_nouns['modifiers'] = AdpositionalPhrase(case_key, adposition, [match['declined-noun-adjective'], Cloze(1, lemma)])
+                    english_nouns['modifiers'] = AdpositionalPhrase(case_key, match['adposition'], [match['declined-noun-adjective'], lemma])
                 if case == 'genitive':
                     translated_text = latin.inflect(base_key,
                     [
-                        NounPhrase({'case':'nominative'}, ['the', match['subject-argument']]),
-                        NounPhrase({'case':case}, [match['declined-noun-adjective'], Cloze(1, lemma)]),
+                        NounPhrase(common_subject_key, ['the', match['subject-argument']]),
+                        NounPhrase(case_key, [match['declined-noun-adjective'], Cloze(1, lemma)]),
                     ])
                     english_text = [
-                        NounPhrase({'case':'nominative'}, ['the', match['subject-argument']]),
-                        NounPhrase({'case':case}, [match['adposition'], match['declined-noun-adjective'], lemma]),
+                        NounPhrase(common_subject_key, ['the', match['subject-argument']]),
+                        NounPhrase(case_key, [match['adposition'], match['declined-noun-adjective'], lemma]),
                     ]
                 else:
                     translated_text = latin.inflect(base_key, Clause(base_key, match['verb'], translated_nouns))
                     english_text = Clause(base_key, match['verb'], english_nouns)
-                emoji_text = match['emoji']
-                emoji_text = emoji_text.replace('\\declined', latin.declension_lookups['common'][{**base_key, 'noun':lemma, 'case':case, 'script': 'emoji'}])
-                emoji_text = emoji.emojiInflectionShorthand.decode(emoji_text, Person(base_key['number'][0],base_key['gender'][0],1), [])
-                if latin.exists(translated_text):
-                    print(' '.join([
-                            cardFormatting.emoji_focus(emoji_text), 
-                            cardFormatting.english_word(english.format(english_text)), 
-                            cardFormatting.foreign_focus(latin.format(translated_text)),
-                        ]))
+                # if latin.exists(translated_text):
+                if {**base_key, 'noun':lemma, 'case':case, 'script': 'emoji'} in latin.declension_lookups['common']:
+                    emoji_text = match['emoji']
+                    emoji_text = emoji_text.replace('\\declined', latin.declension_lookups['common'][{**base_key, 'noun':lemma, 'case':case, 'script': 'emoji'}])
+                    emoji_text = emoji.emojiInflectionShorthand.decode(emoji_text, Person(base_key['number'][0],base_key['gender'][0],1), [])
+                    if latin.exists(translated_text):
+                        print(tuplekey, case)
+                        print(' '.join([
+                                cardFormatting.emoji_focus(emoji_text), 
+                                cardFormatting.english_word(english.format(english_text)), 
+                                cardFormatting.foreign_focus(latin.format(translated_text)),
+                            ]))
 
 
 

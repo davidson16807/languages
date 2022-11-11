@@ -9,6 +9,8 @@ be	morning	be	time-of-day
 be	evening	be	time-of-day
 be	day	be	time-of-day
 be	night	be	time-of-day
+be	daytime	be	day
+be	nighttime	be	night
 			
 be	winter	be	season
 be	spring	be	season

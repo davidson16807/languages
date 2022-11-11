@@ -122,17 +122,23 @@ class EmojiAnnotationShorthand:
         self.positioning = htmlGroupPositioning
         self.bracketedShorthand = bracketedShorthand
         self.shorthand_functions = [
-            (r'\\lhi',  (-1, 1, 0.4)),
-            (r'\\lmid', (-1, 0, 0.4)),
-            (r'\\llo',  (-1,-1, 0.4)),
-            (r'\\rhi',  ( 1, 1, 0.4)),
-            (r'\\rmid', ( 1, 0, 0.4)),
-            (r'\\rlo',  ( 1,-1, 0.4)),
-            (r'\\hi',   ( 0, 1, 0.4)),
-            (r'\\mid',  ( 0, 0, 0.4)),
-            (r'\\lo',   ( 0,-1, 0.4)),
-            (r'\\l',    (-0,0.5, 0.9)),
-            (r'\\r',    ( 0,0.5, 0.9)),
+            (r'\\inlhi', (-2, 1.5, 0.4)),
+            (r'\\inlmid',(-2, 0,   0.4)),
+            (r'\\inllo', (-2,-1.5, 0.4)),
+            (r'\\inrhi', ( 2, 1.5, 0.4)),
+            (r'\\inrmid',( 2, 0,   0.4)),
+            (r'\\inrlo', ( 2,-1.5, 0.4)),
+            (r'\\lhi',   (-1, 1, 0.4)),
+            (r'\\lmid',  (-1, 0, 0.4)),
+            (r'\\llo',   (-1,-1, 0.4)),
+            (r'\\rhi',   ( 1, 1, 0.4)),
+            (r'\\rmid',  ( 1, 0, 0.4)),
+            (r'\\rlo',   ( 1,-1, 0.4)),
+            (r'\\hi',    ( 0, 1, 0.4)),
+            (r'\\mid',   ( 0, 0, 0.4)),
+            (r'\\lo',    ( 0,-1, 0.4)),
+            (r'\\l',     (-0,0.5, 0.9)),
+            (r'\\r',     ( 0,0.5, 0.9)),
         ]
     def decode(self, code):
         emoji = code
@@ -250,6 +256,10 @@ class EmojiModifierShorthand:
             ('\\f',u'\U0000200D♀️'),
             ('\\n',''),
             ('\\',u'\U0000200D'),
+            ('↖',"<span style='font-family: sans-serif;'>↖</span>"),
+            ('↗',"<span style='font-family: sans-serif;'>↗</span>"),
+            ('↙',"<span style='font-family: sans-serif;'>↙</span>"),
+            ('↘',"<span style='font-family: sans-serif;'>↘</span>"),
         ]
     def encode(self, emoji):
         code = emoji

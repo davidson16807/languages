@@ -23,9 +23,9 @@ departed	surface	ablative	super
 associated	surface	accusative	super
 acquired	surface	ablative	super
 leveraged	surface	accusative	trans
-departed	presence	ablative	coram
+#departed	presence	ablative	coram
 associated	presence	ablative	coram
-acquired	presence	accusative	coram
+#acquired	presence	accusative	coram
 leveraged	presence	accusative	propter
 #departed	aid	ablative	cum
 associated	aid	ablative	cum
@@ -35,16 +35,16 @@ associated	aid	ablative	cum
 associated	lack	ablative	sine
 #acquired	lack	ablative	sine
 #leveraged	lack	ablative	sine
-departed	interest	dative	
+#departed	interest	dative	
 associated	interest	dative	
-acquired	interest	dative	
+#acquired	interest	dative	
 leveraged	interest	accusative	per
 departed	time	ablative	post
 associated	time	ablative	inter
 acquired	time	accusative	usque ad
 leveraged	time	accusative	inter
-departed	topic	ablative	
-associated	topic	ablative	
-acquired	topic	ablative	
-leveraged	topic	ablative	
+#departed	topic	ablative	
+#associated	topic	ablative	
+#acquired	topic	ablative	
+#leveraged	topic	ablative	
 associated	company	accusative	inter

@@ -76,12 +76,28 @@ be	letter	be	textual
 be	pictoral	be	artifact			
 be	pictoral	can	be-drawn			
 						
-be	scetch	be	pictoral			
+be	sketch	be	pictoral			
 be	painting	be	pictoral			
 be	portrait	be	pictoral			
 						
 be	line	be	graphical-element			
 be	circle	be	graphical-element			
+						
+be	fastener	be	artifact			
+be	fastener	can	be-fastened			
+						
+be	clothing-fastener	be	fastener			
+be	clothing-fastener	be	fastener			
+						
+be	button	be	clothing-fastener			
+be	staple	be	paper-fastener			
+be	paperclip	be	fastener			
+be	seal	be	fastener			
+be	nail	be	construction-fastener			
+be	screw	be	construction-fastener			
+be	bolt	be	construction-fastener			
+be	nut	be	construction-fastener			
+be	washer	be	construction-fastener			
 						
 be	valuable	be	item			
 be	valuable	can	be-owned			
@@ -138,7 +154,7 @@ be	torch	be	weildable
 be	torch	be	light-source			
 						
 be	musical-instrument	be	weildable			
-be	musical-instrument	be	audible			
+be	musical-instrument	can	be-heard			
 be	musical-instrument	can	be-played			
 						
 be	percussion-instrument	be	musical-instrument			

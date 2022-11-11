@@ -102,27 +102,21 @@ english = Plurality(
         (r"(?i)s$", ''),
     ],
     {
-        'yes',
-        'mysterious',
-        'nervous',
-        'has',
-        'was',
-        'always',
-        'perhaps',
+        'the',
+        'his',
         'us',
         'ours',
         'yours',
-        'his',
         'this',
         'equipment',
         'fish',
-        'information',
         'jeans',
         'money',
         'rice',
         'series',
         'sheep',
         'species'
+        'information',
     },
     [
         ('person', 'people'),
@@ -133,5 +127,7 @@ english = Plurality(
         ('cow', 'kine'),
         ('zombie', 'zombies'),
         ('sex', 'sexes'),
+        ('phenomenon', 'phenomena'),
+        ('datum', 'data'),
     ]
 )
