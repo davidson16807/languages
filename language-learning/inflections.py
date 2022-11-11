@@ -1051,6 +1051,7 @@ for lemma in lemmas:
             case = use_case_to_grammatical_case[dictkey]['case']
             adposition = use_case_to_grammatical_case[dictkey]['adposition']
             match = matching.match(emoji_representation, dictkey['motion'], dictkey['cast'])
+            print(dictkey)
             if match:
                 base_key = {
                     **dictkey,
@@ -1067,9 +1068,9 @@ for lemma in lemmas:
                     'aspect': 'aorist', 
                     'mood':   'indicative',
                 }
-                subject_key = {**base_key, 'case':'nominative', 'noun-form':'personal'}
-                common_subject_key = {**base_key, 'case':'nominative', 'noun-form':'common'}
-                direct_object_key = {**base_key, 'case':'accusative', 'noun-form':'common'}
+                subject_key = {**base_key, 'case':'nominative', 'noun-form':'personal', 'number':'singular'}
+                common_subject_key = {**base_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
+                direct_object_key = {**base_key, 'case':'accusative', 'noun-form':'common', 'number':'singular'}
                 case_key = {**base_key, 'case':case, 'noun-form':'common'}
                 translated_nouns = {}
                 english_nouns = {}
