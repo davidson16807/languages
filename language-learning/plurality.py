@@ -102,7 +102,6 @@ english = Plurality(
         (r"(?i)s$", ''),
     ],
     {
-        'the',
         'his',
         'us',
         'ours',
