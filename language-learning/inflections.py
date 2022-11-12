@@ -521,7 +521,6 @@ class Translation:
         elif type(content) in {str}:
             # NOTE: string types are degenerate cases of None types invocations
             #  where grammemes contain the lemma for the declension
-            # print({**grammemes, 'noun':content}, self.decline({**grammemes, 'noun':content}, None) )
             return self.decline({**grammemes, 'noun':content}, None) 
         elif type(content) in {NounPhrase}:
             return NounPhrase(content.grammemes, 
@@ -890,7 +889,7 @@ latin = Translation(
         *pronoun_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/pronoun-declensions.tsv'), 1, 4),
         *noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/declensions.tsv'), 1, 5),
+            tsv_parsing.rows('data/inflection/latin/declensions.tsv'), 1, 2),
         *filter(has_annotation('language','latin'),
             declension_template_noun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/declension-template-accusatives.tsv'), 2, 7)),
@@ -1070,7 +1069,6 @@ for lemma in lemmas:
             adposition = use_case_to_grammatical_case[dictkey]['adposition']
             match = matching.match(emoji_representation, dictkey['motion'], dictkey['cast'])
             if match:
-                print(dictkey)
                 base_key = {
                     **dictkey,
                     'script':      'latin',
@@ -1122,17 +1120,19 @@ for lemma in lemmas:
                     translated_text = latin.inflect(base_key, Clause(base_key, match['verb'], translated_nouns))
                     english_text = Clause(base_key, match['verb'], english_nouns)
                 # if latin.exists(translated_text):
-                if {**base_key, 'noun':lemma, 'case':case, 'script': 'emoji'} in latin.declension_lookups['common']:
-                    emoji_text = match['emoji']
-                    emoji_text = emoji_text.replace('\\declined', latin.declension_lookups['common'][{**base_key, 'noun':lemma, 'case':case, 'script': 'emoji'}])
-                    emoji_text = emoji.emojiInflectionShorthand.decode(emoji_text, Person(base_key['number'][0],base_key['gender'][0],1), [])
-                    if latin.exists(translated_text):
-                        print(tuplekey, case)
-                        print(' '.join([
-                                cardFormatting.emoji_focus(emoji_text), 
-                                cardFormatting.english_word(english.format(english_text)), 
-                                cardFormatting.foreign_focus(latin.format(translated_text)),
-                            ]))
+                emoji_key = {**base_key, 'noun':lemma, 'case':case, 'number':dictkey['number'], 'script': 'emoji', 'noun-form':'common'}
+                if emoji_key in latin.declension_lookups[emoji_key]:
+                    emoji_noun = latin.declension_lookups['common'][emoji_key]
+                    emoji_template = match['emoji']
+                    emoji_template = emoji_template.replace('\\declined', emoji_noun)
+                    emoji_template = emoji.emojiInflectionShorthand.decode(emoji_template, Person(base_key['number'][0], base_key['gender'][0],1), [])
+                    # if latin.exists(translated_text):
+                    print(tuplekey, case)
+                    print(' '.join([
+                            cardFormatting.emoji_focus(emoji_template), 
+                            cardFormatting.english_word(english.format(english_text)), 
+                            cardFormatting.foreign_focus(latin.format(translated_text)),
+                        ]))
 
 
 

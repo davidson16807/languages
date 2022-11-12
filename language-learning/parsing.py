@@ -1,6 +1,6 @@
 
 class SeparatedValuesFileParsing:
-    def __init__(self, comment='#', delimeter='\t', padding=' \t\r\n'):
+    def __init__(self, comment='#', delimeter='\t', padding=' \t\r\n', quotation='"'):
         self.comment = comment
         self.delimeter = delimeter
         self.padding = padding
@@ -10,7 +10,6 @@ class SeparatedValuesFileParsing:
             for line in file.readlines():
                 if self.comment is not None:
                     line = line.split(self.comment)[0]
-                if len(line.strip()) < 1:
-                    continue
-                rows_.append([column.strip(self.padding) for column in line.split(self.delimeter)])
+                if len(line.strip()) >= 1:
+                    rows_.append([column.strip(self.padding) for column in line.split(self.delimeter)])
         return rows_
