@@ -38,6 +38,8 @@ class Predicate:
     def __call__(self, predicand):
         self.add(predicand)
     def add(self, predicand):
+        if self == predicand:
+            raise Exception(f'Circular reference detected between {self.name} and {predicand.name}')
         if self in predicand:
             raise Exception(f'Circular reference detected between {self.name} and {predicand.name}')
         else:

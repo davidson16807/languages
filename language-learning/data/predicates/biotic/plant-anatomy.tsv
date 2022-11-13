@@ -10,13 +10,13 @@ part	seed-bearing-plant	part	evergreen-plant
 part	seed-bearing-plant	part	flowering-plant																																														
 part	flowering-plant	part	fruit-bearing-plant																																														
 																																																	
-part	vascular-plant	can-be-part	plant																																														
-part	seed-bearing-plant	can-be-part	vascular-plant																																														
-part	creeping-plant	can-be-part	vascular-plant																																														
-part	tree	can-be-part	seed-bearing-plant																																														
-part	evergreen-plant	can-be-part	seed-bearing-plant																																														
-part	flowering-plant	can-be-part	seed-bearing-plant																																														
-part	fruit-bearing-plant	can-be-part	flowering-plant																																														
+can-be-part	vascular-plant	can-be-part	plant																																														
+can-be-part	seed-bearing-plant	can-be-part	vascular-plant																																														
+can-be-part	creeping-plant	can-be-part	vascular-plant																																														
+can-be-part	tree	can-be-part	seed-bearing-plant																																														
+can-be-part	evergreen-plant	can-be-part	seed-bearing-plant																																														
+can-be-part	flowering-plant	can-be-part	seed-bearing-plant																																														
+can-be-part	fruit-bearing-plant	can-be-part	flowering-plant																																														
 																																																	
 be	vascular-plant	has-part	leaf																																														
 be	vascular-plant	has-part	stem																																														

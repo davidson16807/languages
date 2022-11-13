@@ -170,7 +170,7 @@ be	percussion-instrument	be	musical-instrument
 be	percussion-instrument	can	be-hit			
 be	wind-instrument	be	musical-instrument			
 be	wind-instrument	can	be-blown			
-be	string-instrument	be	string-instrument			
+be	string-instrument	be	musical-instrument			
 						
 be	woodwind-instrument	be	wind-instrument			
 be	woodwind-instrument	has-part	wood			

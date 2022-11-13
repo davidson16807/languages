@@ -984,7 +984,7 @@ level0_subset_relations = set()
 level1_subset_relations = collections.defaultdict(
     set, 
     {
-        'be':{'can','has-trait','has-part'},
+        'be':{'can'},
         'part':{'can-be-part'},
     })
 
@@ -998,12 +998,12 @@ for (f,x),(g,y) in level0_subset_relations:
     allthat[f,x].name = str((f,x))
     allthat[g,y].name = str((g,y))
     allthat[g,y](allthat[f,x])
-    # for h in level1_subset_relations[f]:
-    #     allthat[h,x].name = str((h,x))
-    #     allthat[h,x](allthat[f,x])
-    # for h in level1_subset_relations[g]:
-    #     allthat[h,y].name = str((h,y))
-    #     allthat[h,y](allthat[g,y])
+    for h in level1_subset_relations[f]:
+        allthat[h,x].name = str((h,x))
+        allthat[h,x](allthat[f,x])
+    for h in level1_subset_relations[g]:
+        allthat[h,y].name = str((h,y))
+        allthat[h,y](allthat[g,y])
 
 # allthat = collections.defaultdict(Predicate)
 # for (f,x),(g,y) in level0_subset_relations:
