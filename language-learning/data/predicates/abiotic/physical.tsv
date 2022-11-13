@@ -1,39 +1,52 @@
 								
-						"# high level categorization of ""manifestations"": abiotic physical things"		
-be	substance	be	manifestation					
+						# high level categorization		
+				"# ""manifestations"": abiotic things that exist in the physical world"				
+be	energy	be	manifestation	# energy: specifically, the manefestations of energy				
+be	matter	be	manifestation	# matter: things that have mass in classical physics, but not necessarily apparent to the senses				
 								
-be	location	be	manifestation					
+be	phenomenon	be	manifestation	# phenomenon: things that occur in the physical world without necessarily having mass or energy				
+be	phenomenon	can	be-sensed					
+								
+be	substance	be	matter	# substance: matter that can be sensed				
+								
+be	location	be	manifestation	# location: regions of physical space				
 be	location	be	fixed					
 be	location	be	static					
 								
-be	phenomenon	be	manifestation					
-be	phenomenon	can	be-sensed					
-								
-be	celestial	be	manifestation					
+be	celestial	be	manifestation	# celestial bodies: regions of physical space that appear in the sky and typically cannot be reached				
 be	celestial	be	immovable					
+be	celestial	has-trait	size					
 be	celestial	can	be-seen					
 								
-be	atmospheric	be	manifestation					
-be	atmospheric	be	immovable					
-be	atmospheric	can	be-seen					
+be	weather	be	manifestation	# weather: things that occur in the physical world realted to weather				
+be	weather	be	immovable					
 								
 					# celestials			
 be	sun	be	celestial					
 be	moon	be	celestial					
 be	star	be	celestial					
 be	planet	be	celestial					
+be	comet	be	celestial					
 								
-					# weather			
-be	weather	be	atmospheric					
+be	precipitation	can	fall					
+be	precipitation	be	weather					
+be	precipitation	can	be-seen					
 								
-be	rain	can	fall					
-be	rain	be	weather					
-be	snow	can	fall					
-be	snow	be	weather					
-be	wind	can	blow					
+be	rain	be	precipitation					
+be	rain	can	be-heard					
+be	snow	be	precipitation					
+be	hail	be	precipitation					
+be	sleet	be	precipitation					
 be	wind	be	weather					
+be	wind	be	energy					
+be	wind	can	blow					
+be	wind	can	be-heard					
+be	lightning	be	weather					
+be	lightning	be	energy					
+be	lightning	can	be-seen					
+be	thunder	be	weather					
+be	thunder	be	be-heard					
 								
-					# phenomenon			
 be	visible-phenomenon	be	phenomenon					
 be	visible-phenomenon	can	be-seen					
 								
@@ -43,44 +56,30 @@ be	audible-phenomenon	can	be-heard
 				# visible phenomenon				
 be	shadow	be	visible-phenomenon					
 be	light-ray	be	visible-phenomenon					
+be	volcano	be	visible-phenomenon					
+be	eruption	be	visible-phenomenon					
 								
 				# audible phenomenon				
 be	echo	be	audible-phenomenon					
-be	rain	be	audible-phenomenon					
-be	thunder	be	audible-phenomenon					
 								
+be	utterance	be	audible-phenomenon					
 								
-be	spoken	be	audible					
-								
-be	name	be	spoken					
-be	comment	be	spoken					
+be	speech	be	utterance					
+be	speech	has-trait	length					
+be	comment	be	utterance					
 be	comment	has-trait	length					
 								
-						"# accessible fixed statics (""location"")"		
-						# see location.tsv for more examples		
-								
-								
-								
-								
-						#matter/energy		
-be	energy	be	manifestation					
-								
-be	substance	be	matter					
+be	atom	be	matter					
+be	atom	has-trait	mass					
+be	atom	has-trait	size					
 								
 be	light	be	energy					
 be	light	can	be-seen					
-be	lightning	be	atmospheric					
-be	lightning	be	energy					
-be	lightning	can	be-seen					
-be	thunder	be	atmospheric					
-be	thunder	can	be-heard					
-be	wind	be	energy					
 								
-					#solid/liquid/gas			
-be	fluid	can	flow					
 be	fluid	be	substance					
+be	fluid	can	flow					
 								
-be	solid	be	matter					
+be	solid	be	substance					
 be	solid	has-trait	shape					
 be	solid	can	be-seen					
 be	liquid	be	fluid					
@@ -89,8 +88,6 @@ be	liquid	can	be-poured
 be	gas	be	fluid					
 be	gas	can	be-breathed					
 be	gas	can	be-smelled					
-								
-be	living	be	solid					
 								
 					#classical elements			
 be	earth	be	solid					
@@ -134,17 +131,23 @@ be	fixed	be	solid
 								
 be	unfixed	be	mobile					
 be	unfixed	be	solid					
+be	unfixed	has-trait	size					
+be	unfixed	has-trait	shape					
 								
 				# solids that are not strictly fixed or unfixed				
 be	furniture	be	artificial					
 be	furniture	be	static					
 be	furniture	be	solid					
+be	furniture	has-trait	size					
+be	furniture	has-trait	shape					
 be	furniture	can	be-used					
 be	furniture	can	be-walked-to					
 								
 be	container	be	artificial					
 be	container	be	static					
 be	container	be	solid					
+be	container	has-trait	size					
+be	container	has-trait	shape					
 be	container	can	be-used					
 be	container	can	store					
 be	container	can	interior					
@@ -154,6 +157,8 @@ be	tree	be	fixed
 								
 be	installation	be	artificial					
 be	installation	be	fixed					
+be	installation	has-trait	size					
+be	installation	has-trait	shape					
 								
 be	construction	be	installation					
 be	construction	be	location					
@@ -177,7 +182,7 @@ be	campfire	be	light-source
 				"# unfixed solids (""items"")"				
 				# see item.tsv for more examples				
 be	item	be	unfixed					
-be	item	be	manifestation					
+be	item	be	solid					
 be	item	can	be-carried					
 be	item	can	be-walked-to					
 								

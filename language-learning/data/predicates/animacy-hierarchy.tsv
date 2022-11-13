@@ -1,7 +1,7 @@
 	predicand		predicate		
 					
 be	sapient	be	motile	# able to think and speak	
-be	motile	be	living	# able to move around on its own	
+be	motile	be	living	# able to change its location willingly	
 be	living	be	physical	# able to grow and reproduce	
 be	physical	be	thing	# able to be-physically accessed	
 					
@@ -26,6 +26,7 @@ be	concept	be	thing
 be	sapient	can	think		
 be	sapient	can	speak		
 be	sapient	can	be-named		
+be	sapient	has-trait	name		
 					
 be	motile	can	sense		
 be	motile	can	move-willingly		
@@ -36,24 +37,23 @@ be	barnacle	be	sessile
 be	coral	be	sessile		
 					
 be	living	be	physical		
+be	living	be	solid		
+be	living	has-trait	size		
 be	living	can	grow		
 be	living	can	live		
 be	living	can	reproduce		
 					
 be	physical	can	exist		
-be	physical	can	be-seen		
-be	physical	has-trait	location		
-be	physical	has-trait	size		
 					
 be	concept	can	be-thought-of		
 be	concept	can	be-talked-about		
 					
 				# the following are ways that the hierarchy could be subdivided further	
-				# but we do not choose any single subdivision since it imposes unecessary structure	
+				# but we do not choose any single subdivision since it imposes arbitrary structure	
 				# we provide applicable subdivisions here so they may be opted into when describing concepts	
 					
-				# able to be-empathized with	
-be	relatable	be	motile		
+					
+be	relatable	be	motile	"# ""relatable"": able to be-empathized with"	
 be	unrelatable	be	nonsapient		
 					
 be	relatable	has-trait	emotion		
@@ -64,13 +64,13 @@ be	relatable	can	love
 be	relatable	can	be-loved		
 be	relatable	can	be-spoken-to		
 					
-be	anthropomorphizable	be	nonhuman		
+be	anthropomorphizable	be	nonhuman	"#""anthropomorphizable"": a nonhuman entity that is able to be empathized with"	
 be	anthropomorphizable	be	relatable		
 					
 				# mortal/immortal	
-be	mortal	be	living		
+be	mortal	be	living	"# ""mortal"": life that is capable of death"	
 be	mortal	can	die		
-be	immortal	be	sapient		
+be	immortal	be	sapient	"# ""mortal"": life that is incapable of death"	
 					
 be	human	be	mortal		
 be	animal	be	mortal		
@@ -79,9 +79,11 @@ be	fungus	be	"mortal	"
 					
 be	deity	be	immortal		
 				# biotic/abiotic	
-be	biotic	be	physical		
-be	abiotic	be	nonliving		
-be	abiotic	be	physical		
+be	biotic	be	physical	"#""biotic"": matter that is either living or produced by life"	
+be	biotic	be	matter		
+be	abiotic	be	nonliving	"# ""abiotic"": matter that is not produced by life"	
+be	abiotic	be	matter		
+be	abiotic	be	manifestation		
 					
 be	living	be	biotic		
 be	egg	be	biotic		
@@ -92,14 +94,17 @@ be	feces	be	biotic
 be	urine	be	biotic		
 be	detritus	be	biotic		
 be	hummus	be	biotic		
+part	animal	be	biotic		
+part	plant	be	biotic		
 				#natural/artificial	
-be	natural	be	physical		
-be	artificial	be	nonliving		
+be	natural	be	substance	"#""natural"": matter that has not been affected by man"	
+be	artificial	be	nonliving	"#""artificial"" matter that has been affected by man"	
+be	artificial	be	substance		
 be	artificial	can	be-built		
 				# dynamic/static	
-be	dynamic	be	physical		
+be	dynamic	be	physical	"#""dynamic"": a physical manifestation capable of independant motion, regardless of whether it is conscious"	
 be	dynamic	can	move		
-be	static	be	physical		
+be	static	be	physical	"#""static"": a physical manifestation incapable of independant motion"	
 					
 be	motile	be	dynamic		
 be	cloud	be	dynamic		
@@ -107,10 +112,10 @@ be	water	be	dynamic
 be	fire	be	dynamic		
 be	sessile	be	static		
 				#movable/immovable	
-be	movable	be	static		
+be	movable	be	static	"#""movable"": a static object that is capable of being moved"	
 be	movable	can	be-moved		
 be	movable	has-trait	size		
-be	immovable	be	static		
+be	immovable	be	static	"#""movable"": a static object that is incapable of being moved"	
 					
 can	can-move	be	mobile		
 can	can-be-moved	be	mobile		

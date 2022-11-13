@@ -48,12 +48,13 @@ can	affiliate-with-savanna	can	live-on-land
 can	affiliate-with-grassland	can	live-on-land
 can	affiliate-with-tundra	can	live-on-land
 			
-can	be-seen	has-trait	size
 can	be-seen	has-trait	color
+can	be-seen	can	be-perceived
 			
 can	be-carried	has-trait	mass
 			
 can	be-heard	has-trait	sound
+can	be-heard	can	be-perceived
 			
 can	buzz	can	be-heard
 can	croak	can	be-heard

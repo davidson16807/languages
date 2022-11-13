@@ -6,8 +6,10 @@ be	movie	has-trait	length
 			
 be	affair	be	event
 be	affair	has-trait	size
+			
 be	myth	be	event
 be	myth	has-trait	length
+			
 be	conflict	be	event
 be	conflict	has-trait	size
 			

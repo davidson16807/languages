@@ -15,11 +15,13 @@ be	bone	be	biotic
 be	bone	be	item			
 						
 					# potables	
-be	potable	can	be-drunk			
 be	potable	be	liquid			
+be	potable	can	be-drunk			
 						
 be	alcoholic	be	potable			
+be	alcoholic	be	depressant			
 be	caffeinated	be	potable			
+be	caffeinated	be	stimulant			
 be	nonpsychoactive	be	potable			
 						
 be	water	be	nonpsychoactive			
@@ -36,9 +38,14 @@ be	cocoa	be	nonpsychoactive
 be	lemonade	be	nonpsychoactive			
 be	cider	be	nonpsychoactive			
 						
-be	edible	can	be-tasted		#edibles	
-be	edible	can	be-eaten			
+be	stimulant	be	drug			
+be	depressant	be	drug			
+be	hallucinogenic	be	drug			
+						
+					#edibles	
 be	edible	be	item			
+be	edible	can	be-tasted			
+be	edible	can	be-eaten			
 						
 be	egg	be	edible			
 be	meat	be	edible			
@@ -87,14 +94,16 @@ be	fastener	be	artifact
 be	fastener	can	be-fastened			
 						
 be	clothing-fastener	be	fastener			
-be	clothing-fastener	be	fastener			
+be	paper-fastener	be	fastener			
+be	construction-fastener	be	fastener			
 						
 be	button	be	clothing-fastener			
 be	staple	be	paper-fastener			
-be	paperclip	be	fastener			
-be	seal	be	fastener			
+be	paperclip	be	paper-fastener			
+be	seal	be	paper-fastener			
 be	nail	be	construction-fastener			
 be	screw	be	construction-fastener			
+be	rivet	be	construction-fastener			
 be	bolt	be	construction-fastener			
 be	nut	be	construction-fastener			
 be	washer	be	construction-fastener			

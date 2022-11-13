@@ -1,5 +1,9 @@
 							proto-indo-european	old-english	latin	"russian	"		ancient-greek	ancient-greek	sanksrit				
 							translation	translation	translation	translation	transcription	translation	transcription	translated	transliterated			
+size	3	singular	masculine	nominative	strong	animate	méh₁tis 	miċelnes	magnitūdō	разме́р	razmér	μέγεθος	mégethos	मानम्	mā́nam	"# PIE is closer to ""measurement"""		
+sound	3	singular	masculine	nominative	strong	animate	swónh₂os	swēġ	sonus	зву́к	zvúk	φθόγγος	phthóngos	स्वरः	sváraḥ			
+thought	3	singular	masculine	nominative	strong	animate	tóngos	þōht	idea	иде́я	idéja	ἰδέᾱ	idéā	धीः	dhī́ḥ			
+thought	3	singular	masculine	accusative	strong	animate	tóngom	þōht	ideam	иде́ю	idéju	ἰδέᾱν	idéān	धियम्	dhíyam			
 well	3	singular	masculine	accusative	strong	animate	kóylom	wel	bene	порядке	poryadke	ὑγῐῆ 	ygií	भविक	bhavika			
 good	3	singular	masculine	accusative	strong	inanimate	h₁wésum	gōdne	bonum	до́брый	dóbryj	ἐσθλόν	esthlón	साधुम्	sādhúm			
 bad	3	singular	masculine	accusative	strong	inanimate	dusom	yfelne	"malum	"	плохо́й	ploxój	κᾰκός	kakós	अघम्	aghám			
@@ -8,15 +12,5 @@ small	3	singular	masculine	accusative	strong	animate	(s)melom	smælne	parvum	м�
 long	3	singular	masculine	accusative	strong	animate	dl̥h₁gʰóm	longne	longum	дли́нного	dlínnovo	μᾰκρόν	makrón	दीर्घम्	dīrghám			
 loud	3	singular	masculine	accusative	strong	animate	ḱlewtom	miċelne	magnum	гро́мкого	grómkovo	μέγᾰν	mégan	महम्	mahám	"# most translations are equivalent to ""great"""		
 short	3	singular	masculine	accusative	strong	animate	mr̥ǵʰúm	sċortne	brevem	коро́ткого	korótkovo	βρᾰχῠ́ν	brakhún	ह्रस्वम्	hrasvám			
-his	3	singular	masculine	possessive	strong	animate	ésyo	his	eius	его́	jevó	τοῦ	toû	तयोः	tayoḥ			
 attention	3	singular	masculine	accusative	strong	animate	méntim	begíemenne	attentiōnem	внима́ние	vnimánije	φροντῐ́ς 	phrontís	अवधान	avadhāna	"# PIE is closer to ""thoughts"""		
-size	3	singular	masculine	nominative	strong	animate	méh₁tis 	miċelnes	magnitūdō	разме́р	razmér	μέγεθος	mégethos	मानम्	mā́nam	"# PIE is closer to ""measurement"""		
-sound	3	singular	masculine	nominative	strong	animate	swónh₂os	swēġ	sonus	зву́к	zvúk	φθόγγος	phthóngos	स्वरः	sváraḥ			
-thought	3	singular	masculine	nominative	strong	animate	tóngos	þōht	idea	иде́я	idéja	ἰδέᾱ	idéā	धीः	dhī́ḥ			
-																		
-																		
-																		
-																		
-																		
-																		
-																		
+his	3	singular	masculine	possessive	strong	animate	ésyo	his	eius	его́	jevó	τοῦ	toû	तस्य	tasya			

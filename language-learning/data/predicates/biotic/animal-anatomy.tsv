@@ -1,21 +1,41 @@
 			
+can-be-part	animal	be	biotic
+can-be-part	animal	be	substance
 			
 part	animal	part	invertebrate
 part	animal	part	vertebrate
 			
+part	invertebrate	can-be-part	animal
+part	vertebrate	can-be-part	animal
+			
 part	invertebrate	part	chelicerate
 part	invertebrate	part	arthropod
 			
+part	chelicerate	can-be-part	invertebrate
+part	arthropod	can-be-part	invertebrate
+			
 part	arthropod	part	insect
+			
+part	insect	can-be-part	arthropod
 			
 part	vertebrate	part	amphibian
 part	vertebrate	part	reptile
 part	vertebrate	part	bird
 part	vertebrate	part	mammal
 			
+part	amphibian	can-be-part	vertebrate
+part	reptile	can-be-part	vertebrate
+part	bird	can-be-part	vertebrate
+part	mammal	can-be-part	vertebrate
+			
 part	mammal	part	feline
 part	mammal	part	canine
 part	mammal	part	human
+			
+part	ungulate	can-be-part	mammal
+part	feline	can-be-part	mammal
+part	canine	can-be-part	mammal
+part	human	can-be-part	mammal
 			
 part	human	part	god
 			
