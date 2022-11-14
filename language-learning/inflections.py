@@ -18,14 +18,21 @@ category_to_grammemes = {
     # needed to lookup the argument that is used to demonstrate a verb
     'language-type':   ['english', 'translated', 'transcripted'], 
 
-    'script':['latin','cyrillic','greek','hebrew','arabic','phoenician',
-              'hirigana','katakana','hangul',
-              'traditional han','simplified han','kanji','hanja','chữ hán','chữ nôm',
-              'devanagari','bengali','gujarati','gurmukhi','oria','tibetan',
-              'simhala','malayalam','tamil','telugu','kannada',
-              'burmese','khmer','thai','lao','balinese','javanese','sundanese',
-              'coptic','meroitic','demotic','hieratic',
-              'runic','heiroglyphic','cuneiform','emoji'],
+    'script':[
+        # scripts that were derived from the phoenecian alphabet:
+        'latin','cyrillic','greek','hebrew','arabic','phoenician',
+        # scripts that were invented, borrowing aesthetics from chinese logograms:
+        'hirigana','katakana','hangul',
+        # scripts that were derived from chinese logograms:
+        'traditional han','simplified han','kanji','hanja','chữ hán','chữ nôm',
+        # scripts that were derived from the brahmic abugida:
+        'devanagari','bengali','gujarati','gurmukhi','oria','tibetan',
+        'simhala','malayalam','tamil','telugu','kannada',
+        'burmese','khmer','thai','lao','balinese','javanese','sundanese','brahmic',
+        # scripts that were derived from egyptian heiroglyphs:
+        'coptic','meroitic','demotic','hieratic',
+        # broad categories of script to handle niche applications:
+        'runes','heiroglyphs','cuneiform','emoji'],
 
     # needed for infinitives
     'completion': ['full', 'bare'],
@@ -281,12 +288,9 @@ class English:
         elif type(content) in {NounPhrase}:
             return NounPhrase({**grammemes, **content.grammemes}, 
                 self.decline({**grammemes, **content.grammemes}, content.content))
-        elif type(content) in {AdpositionalPhrase}:
-            return AdpositionalPhrase({**grammemes, **content.grammemes}, content.adposition,
-                self.decline({**grammemes, **content.grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
-        elif type(content) in {Adjective, Article}:
+        elif type(content) in {Adjective, Article, Adposition}:
             return content
         elif type(content) in {Cloze}:
             return Cloze(content.id, self.decline(grammemes, content.content))
@@ -320,9 +324,10 @@ class English:
                     'present' if dependant_clause['tense'] in {'future'} else
                     dependant_clause['tense']
             }
+            verb = self.format(clause.verb)
             lemmas = ['be', 'have', 
                       'command', 'forbid', 'permit', 'wish', 'intend', 'be able', 
-                      clause.verb]
+                      verb]
             mood_replacements = [
                 ('{predicate}',            self.predicate_templates[{**dependant_clause,'verb-form':'finite'}]),
                 ('{predicate|infinitive}', self.predicate_templates[{**dependant_clause,'verb-form':'infinitive'}]),
@@ -339,7 +344,7 @@ class English:
                     sentence = sentence.replace('{'+f'{noun}|{case}'+'}', 
                         self.format(self.decline({**clause.grammemes, 'case':case}, 
                             clause.nouns[noun] if noun in clause.nouns else [])))
-            sentence = sentence.replace('{verb', '{'+clause.verb)
+            sentence = sentence.replace('{verb', '{'+verb)
             table = self.conjugation_lookups['finite']
             for lemma in lemmas:
                 replacements = [
@@ -363,12 +368,14 @@ class English:
             return ' '.join([self.format(element) for element in content])
         elif type(content) in {str}:
             return content
-        elif type(content) in {AdpositionalPhrase}:
-            return ' '.join([content.adposition, self.format(content.content)])
         elif type(content) in {NounPhrase, Adjective, Article}:
             return self.format(content.content)
+        elif type(content) in {Adposition}:
+            return self.format(content.native)
         elif type(content) in {Cloze}:
-            return '{{c'+str(content.id)+'::'+self.format(content.content)+'}}'
+            # NOTE: Cloze is only ever used to prompt for the foreign language being learned,
+            # so for the user's native language it is simply equal to the formatted content.
+            return self.format(content.content) 
     def parse(self, NodeClass, text):
         if NodeClass in {set}:
             return set(text.split(' '))
@@ -425,15 +432,14 @@ class NounPhrase:
         self.grammemes = grammemes
         self.content = content
 
-class AdpositionalPhrase:
-    def __init__(self, grammemes, adposition, content=None):
-        self.grammemes = grammemes
-        self.adposition = adposition
-        self.content = content
-
 class Adjective:
     def __init__(self, content):
         self.content = content
+
+class Adposition:
+    def __init__(self, native, foreign):
+        self.native = native
+        self.foreign = foreign
 
 class Article:
     def __init__(self, content):
@@ -486,11 +492,11 @@ class Translation:
             return content
         elif type(content) in {NounPhrase}:
             return self.format(content.content)
-        elif type(content) in {AdpositionalPhrase}:
-            return ' '.join([content.adposition, self.format(content.content)])
             # TODO: implement language agnostic way to specify location of adpositions
         elif type(content) in {Adjective, Article}:
             return self.format(content.content)
+        elif type(content) in {Adposition}:
+            return self.format(content.foreign)
         elif type(content) in {Cloze}:
             return '{{c'+str(content.id)+'::'+self.format(content.content)+'}}'
     def exists(self, content):
@@ -500,12 +506,10 @@ class Translation:
             return all([self.exists(element) for element in content])
         elif type(content) in {str}:
             return True
-        elif type(content) in {Adjective, Article}:
+        elif type(content) in {Adjective, Article, Adposition}:
             return True
         elif type(content) in {NounPhrase}:
             return True
-        elif type(content) in {AdpositionalPhrase}:
-            return self.exists(content.adposition)
         elif type(content) in {Clause}:
             return self.exists(content.verb)
         elif type(content) in {Cloze}:
@@ -529,15 +533,16 @@ class Translation:
         elif type(content) in {NounPhrase}:
             return NounPhrase(content.grammemes, 
                 self.decline({**grammemes, **content.grammemes}, content.content))
-        elif type(content) in {AdpositionalPhrase}:
-            return AdpositionalPhrase(content.grammemes, content.adposition,
-                self.decline({**grammemes, **content.grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
         elif type(content) in {Adjective}:
             return Adjective(self.decline(grammemes, content.content))
         elif type(content) in {Article}:
             return Article(self.decline(grammemes, content.content))
+        elif type(content) in {Adposition}:
+            return Adposition(
+                native=content.native, 
+                foreign=self.decline(grammemes, content.foreign))
         elif type(content) in {Cloze}:
             return Cloze(content.id, self.decline(grammemes, content.content))
         else:
@@ -563,7 +568,7 @@ class Translation:
                 {key:self.decline(grammemes, value) for (key,value) in content.nouns.items()})
         elif type(content) in {list,set}:
             return [self.inflect(grammemes, element) for element in content]
-        elif type(content) in {NounPhrase, AdpositionalPhrase}:
+        elif type(content) in {NounPhrase}:
             grammemes = {**grammemes, **content.grammemes}
             return self.decline(grammemes, content)
 
@@ -640,23 +645,16 @@ class CardGeneration:
         for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = {**default_grammemes, **self.finite_traversal.dictkey(tuplekey)}
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
-                inflected_english = (
-                    Clause(dictkey, dictkey['verb'],
-                    {
-                        'subject':   NounPhrase({'noun-form': 'personal', 'case':'nominative'}),
-                        'modifiers': StockModifier(translation.conjugation_lookups['argument']),
-                    }))
-                inflected_translation = translation.inflect(
-                    dictkey,
-                    Clause(dictkey, Cloze(1, dictkey['verb']),
+                clause = Clause(dictkey, Cloze(1, dictkey['verb']),
                     {
                         'subject':    NounPhrase({'noun-form': 'personal', 'case':'nominative'}),
                         'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
-                    }))
-                if translation.exists(inflected_translation):
-                    english_text    = self.english.format(inflected_english)
-                    translated_text = translation.format(inflected_translation)
-                    emoji_argument  = translation.conjugation_lookups['infinitive'][{**dictkey, 'script':'emoji'}]
+                    })
+                emoji_key       = {**dictkey, 'script':'emoji'}
+                if translation.exists(clause) and emoji_key in translation.conjugation_lookups['infinitive']:
+                    english_text    = self.english.format(clause)
+                    translated_text = translation.format(translation.inflect(dictkey,clause))
+                    emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
                     emoji_text      = self.emoji.inflect(dictkey, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
@@ -1100,53 +1098,41 @@ for lemma in lemmas:
             case_key = {**default_key, **dictkey, 'case':case, 'noun-form':'common'}
             match = matching.match(predicate, dictkey['motion'], dictkey['cast'])
             if match:
-                translated_nouns = {}
-                english_nouns = {}
+                nouns = {}
                 if match['subject-argument']:
-                    translated_nouns['subject'] = NounPhrase(subject_key, [match['subject-argument']])
-                    english_nouns['subject'] = NounPhrase(subject_key, [match['subject-argument']])
+                    nouns['subject'] = NounPhrase(subject_key, [match['subject-argument']])
                 if match['direct-object'] or match['direct-object-adjective']:
-                    translated_nouns['direct-object'] = NounPhrase(direct_object_key, [
-                        Adjective(match['direct-object-adjective']), *match['direct-object'].split(' ')])
-                    english_nouns['direct-object'] = NounPhrase(direct_object_key, [
-                        Adjective(match['direct-object-adjective']), *match['direct-object'].split(' ')])
-                if case == 'nominative':
-                    verb_key = case_key
-                    translated_nouns['subject'] = NounPhrase(case_key, [Article(match['declined-noun-article']), Cloze(1, lemma)])
-                    english_nouns['subject'] = NounPhrase(case_key, [Article(match['declined-noun-article']), lemma])
-                else:
-                    verb_key = subject_key
-                    translated_nouns['modifiers'] = AdpositionalPhrase(case_key, adposition, [Article(match['declined-noun-article']), Cloze(1, lemma)])
-                    english_nouns['modifiers'] = AdpositionalPhrase(case_key, match['adposition'], [Article(match['declined-noun-article']), lemma])
+                    nouns['direct-object'] = NounPhrase(direct_object_key, [
+                        Adjective(match['direct-object-adjective']), 
+                        *match['direct-object'].split(' ')])
+                nouns['subject' if case == 'nominative' else 'modifiers'] = NounPhrase(case_key, [
+                    Adposition(native=match['adposition'], foreign=adposition), 
+                    Article(match['declined-noun-article']), 
+                    Cloze(1, lemma)])
                 if case == 'genitive':
-                    translated_text = [
-                        NounPhrase(common_subject_key, [Article('the'), match['subject-argument']]),
-                        NounPhrase(case_key, [Article(match['declined-noun-article']), Cloze(1, lemma)]),
-                    ]
-                    english_text = [
-                        NounPhrase(common_subject_key, [Article('the'), match['subject-argument']]),
-                        NounPhrase(case_key, [match['adposition'], Article(match['declined-noun-article']), lemma]),
+                    tree = [
+                        NounPhrase(common_subject_key, [
+                            Article('the'), 
+                            match['subject-argument']]),
+                        NounPhrase(case_key, [
+                            Adposition(native=match['adposition'], foreign=''), 
+                            Article(match['declined-noun-article']), 
+                            Cloze(1, lemma)]),
                     ]
                 else:
-                    translated_text = Clause(verb_key, match['verb'], translated_nouns)
-                    english_text = Clause(verb_key, match['verb'], english_nouns)
-                # if latin.exists(translated_text):
+                    tree = Clause(case_key if case == 'nominative' else subject_key, match['verb'], nouns)
                 emoji_key = {**case_key, 'noun':lemma, 'case':case, 'number':dictkey['number'], 'script': 'emoji', 'noun-form':'common'}
                 if emoji_key in latin.declension_lookups[emoji_key]:
                     emoji_noun = latin.declension_lookups['common'][emoji_key]
                     emoji_template = match['emoji']
                     emoji_template = emoji_template.replace('\\declined', emoji_noun)
                     emoji_template = emoji.emojiInflectionShorthand.decode(emoji_template, Person(case_key['number'][0], case_key['gender'][0],1), [])
-                    # if latin.exists(translated_text):
                     print(tuplekey, case)
                     print(' '.join([
                             cardFormatting.emoji_focus(emoji_template), 
-                            cardFormatting.english_word(english.format(english_text)), 
-                            cardFormatting.foreign_focus(latin.format(latin.inflect(default_key, translated_text))),
+                            cardFormatting.english_word(english.format(tree)), 
+                            cardFormatting.foreign_focus(latin.format(latin.inflect(default_key, tree))),
                         ]))
-
-
-
 
 '''
 write('flashcards/verb-conjugation/old-english.html', 

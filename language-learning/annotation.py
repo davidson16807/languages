@@ -76,7 +76,5 @@ class CellAnnotation:
                             **row_base_attributes,
                             **column_base_attributes[i],
                         }
-                        if cell == 'homō':
-                            print(annotation)
                         annotations.append((annotation,cell))
         return annotations
