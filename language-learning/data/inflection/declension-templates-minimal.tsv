@@ -4,11 +4,11 @@ associated	subject	0				be	good				be	good concept	\declined\mirror{👍}
 associated	subject	0				be	bad				be	bad concept	\declined\mirror{👎}															
 associated	subject	0				be	good				be	ethical emotion	\declined\mirror{👍}															
 associated	subject	0				be	bad				be	suspect emotion	\declined\mirror{👎}															
+associated	subject	1				be	well			the	be	sapient	\declined\mirror{👍}															
 associated	subject	0				be	big			the	has-trait	size	\small{\declined}\large{\declined}\small{\declined}															
-associated	subject	1				be	big			the	be	sapient	\small{\declined}\large{\declined}\small{\declined}															
 associated	subject	0				be	loud			the	can	be-heard	\group{\declined\rhi{🗯️}}\declined\group{\large{\r{🗯️}}}\group{\declined\rhi{🗯️}}															
-associated	subject	1				be	long			the	has-trait	length	\small{\declined}\wide{\declined}\small{\declined}															
-associated	subject	1				be	long			the	be	event	\group{\declined\declined\declined}															
+#associated	subject	1				be	long			the	has-trait	length	\small{\declined}\wide{\declined}\small{\declined}															
+#associated	subject	1				be	long			the	be	event	\group{\declined\declined\declined}															
 associated	subject	0				come				the	be	time	\declined															
 associated	subject	0				come				the	be	event	\declined															
 associated	subject	-1				be	good			the	be	thing	\declined\mirror{👍}															

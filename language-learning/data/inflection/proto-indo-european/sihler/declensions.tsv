@@ -1,0 +1,42 @@
+#en	declension	nominative  	accusative  	vocative    	genitive    	ablative    	dative      	locative    	instrumental	emoji	emoji-property	preposition	gender	stem          	class    	
+wolf	singular	wlₒkʷos    	wlₒkʷom    	wlₒkʷe     	wlₒkʷosyo  	wlₒkʷead   	wlₒkʷoey   	wlₒkʷoy    	wlₒkʷoh₁   	🐺    	🍖             	by         	masculineutere     	o             	thematic 	
+wolf	dual	wlₒkʷoh₁    	wlₒkʷoh₁    	wlₒkʷoh₁    	            	            	            	            	            	🐺    	🍖             	by         	masculineutere     	o             	thematic 	
+wolf	plural	wlₒkʷoes    	wlₒkʷoms    	wlₒkʷoes    	wlₒkʷoHom   	wlₒkʷomos   	wlₒkʷomos   	wlₒkʷoysu   	wlₒkʷōys    	🐺    	🍖             	by         	masculineutere     	o             	thematic 	
+egg	singular	h₂ōwyóm    	h₂ōwyóm    	h₂ōwyóm    	h₂ōwyósyo  	h₂ōwyéad   	h₂ōwyóey   	h₂ōwyóy    	h₂ōwyóh₁   	🥚    	🐥             	by         	neuter     	o             	thematic 	
+egg	dual	h₂ōwyóyh₁   	h₂ōwyóyh₁   	h₂ōwyóyh₁   	            	            	            	            	            	🥚    	🐥             	by         	neuter     	o             	thematic 	
+egg	plural	h₂ōwyéh₂    	h₂ōwyéh₂    	h₂ōwyéh₂    	h₂ōwyóHom   	h₂ōwyómos   	h₂ōwyómos   	h₂ōwyóysu   	h₂ōwyṓys    	🥚    	🐥             	by         	neuter     	o             	thematic 	
+mare	singular	h₁éḱweh₂   	h₁éḱweh₂m  	h₁éḱweh₂   	h₁éḱweh₂es 	h₁éḱweh₂es 	h₁éḱweh₂ey 	h₁éḱweh₂i  	h₁éḱweh₂eh₁	🐎    	💩             	by         	feminine     	eh₂           	thematic 	
+mare	dual	h₁éḱweh₂ih₁ 	h₁éḱweh₂ih₁ 	h₁éḱweh₂ih₁ 	            	            	h₁éḱweh₂bʰām	h₁éḱweh₂bʰām	h₁éḱweh₂bʰām	🐎    	💩             	by         	feminine     	eh₂           	thematic 	
+mare	plural	h₁éḱweh₂es  	h₁éḱweh₂ns  	h₁éḱweh₂es  	h₁éḱweh₂om  	h₁éḱweh₂bʰos	h₁éḱweh₂bʰos	h₁éḱweh₂su  	h₁éḱweh₂bʰis	🐎    	💩             	by         	feminine     	eh₂           	thematic 	
+stranger	singular	gʰóstisis  	gʰóstisim  	gʰóstisi   	gʰostéys   	gʰostéys   	gʰostéyey  	gʰostḗy    	gʰostíh₁   	👳	💎             	by         	feminine     	i             	athematic	
+stranger	dual	gʰóstisih₁e 	gʰóstisih₁e 	gʰóstisih₁e 	            	            	            	            	            	👳	💎             	by         	feminine     	i             	athematic	
+stranger	plural	gʰóstiseyes 	gʰóstisims  	gʰóstiseyes 	gʰostéyoHom 	gʰostímos   	gʰostímos   	gʰostísu    	gʰostíbʰi   	👳	💎             	by         	feminine     	i             	athematic	
+seed	singular	ǵénh₁mnₒ   	ǵénh₁mnₒ   	ǵénh₁mnₒ   	ǵn̥h₁mnₒs  	ǵn̥h₁mnₒs  	ǵn̥h₁mney  	ǵn̥h₁mni   	ǵn̥h₁mnₒh₁ 	🌰    	🌱             	by         	neuter     	n             	athematic	
+seed	dual	ǵénh₁mnih₁  	ǵénh₁mnih₁  	ǵénh₁mnih₁  	            	            	            	            	            	🌰    	🌱             	by         	neuter     	n             	athematic	
+seed	collective	ǵn̥h₁mō    	ǵn̥h₁mō    	ǵn̥h₁mō    	ǵn̥h₁m̥nés 	ǵn̥h₁m̥nés 	ǵn̥h₁m̥néy 	ǵn̥h₁méni  	ǵn̥h₁m̥néh₁	🌰    	🌱             	by         	neuter     	n             	athematic	
+father	singular	ph₂tḗr     	ph₂térmₒ   	ph₂tér     	ph₂trés    	ph₂trés    	ph₂tréy    	ph₂téri    	ph₂tréh₁   	👨‍👧‍👦	💎             	by         	masculineutere     	r             	athematic	
+father	dual	ph₂térh₁e   	ph₂térh₁e   	ph₂térh₁e   	            	            	            	            	            	👨‍👧‍👦	💎             	by         	masculineutere     	r             	athematic	
+father	plural	ph₂téres    	ph₂térmₒs   	ph₂téres    	ph₂tróHom   	ph₂trₒmós   	ph₂trₒmós   	ph₂trₒsú    	ph₂trₒbʰí   	👨‍👧‍👦	💎             	by         	masculineutere     	r             	athematic	
+water	singular	wódrₒ      	wódrₒ      	wódrₒ      	wédnₒs     	wédnₒs     	wédney     	wédni      	wédnₒh₁    	💧    	🐟             	by         	neuter     	heteroclitic  	athematic	
+water	collective	wédōr      	wédōr      	wédōr      	udnés      	udnés      	udnéy      	udéni      	udnéh₁     	💧    	🐟             	by         	neuter     	heteroclitic  	athematic	
+cow	singular	gʷṓws      	gʷówm      	gʷów       	gʷéws      	gʷéws      	gʷéwy      	pédi       	gʷéwh₁     	🐄    	💩             	on         	masculineutere     	root consonant	athematic	
+cow	dual	gʷówh₁e     	gʷówh₁e     	gʷówh₁e     	            	            	            	            	            	🐄    	💩             	on         	masculineutere     	root consonant	athematic	
+cow	plural	gʷówes      	gʷówmₒs     	gʷówes      	gʷéwoHom    	gʷéwmós     	gʷéwmós     	gʷéwsú      	gʷéwbʰí     	🐄    	💩             	on         	masculineutere     	root consonant	athematic	
+pig	singular	péḱu       	péḱu       	péḱu       	pḱéws      	pḱéws      	pḱéwey     	pḱéwi      	pḱúh₁      	🐖    	💩             	by         	neuter     	u             	athematic	
+pig	dual	péḱwih₁     	péḱwih₁     	péḱwih₁     	            	            	            	            	            	🐖    	💩             	by         	neuter     	u             	athematic	
+pig	plural	péḱuh₂      	péḱuh₂      	péḱuh₂      	pḱéwoHom    	pḱúmos      	pḱúmos      	pḱúsu       	pḱúbʰi      	🐖    	💩             	by         	neuter     	u             	athematic	
+sea	singular	móri       	móri       	móri       	mₒréys     	mₒréys     	mₒréyey    	mₒrḗy      	mₒríh₁     	🌊    	🐟             	by         	neuter     	i             	athematic	
+sea	dual	móryih₁     	móryih₁     	móryih₁     	            	            	            	            	            	🌊    	🐟             	by         	neuter     	i             	athematic	
+sea	plural	mórih₂      	mórih₂      	mórih₂      	mₒréyoHom   	mₒrímos     	mₒrímos     	mₒrísu      	mₒríbʰi     	🌊    	🐟             	by         	neuter     	i             	athematic	
+fight	singular	kéh₃tus    	kéh₃tum    	kéh₃tu     	kh₃téws    	kh₃téws    	kh₃téwey   	kh₃téwi    	kh₃túh₁    	🤼    	🥊             	nearby	masculineutere     	u             	athematic	
+fight	dual	kéh₃tuh₁e   	kéh₃tuh₁e   	kéh₃tuh₁e   	            	            	            	            	            	🤼    	🥊             	nearby	masculineutere     	u             	athematic	
+fight	plural	kéh₃tewes   	kéh₃tums    	kéh₃tewes   	kh₃téwoHom  	kh₃túmos    	kh₃túmos    	kh₃túsu     	kh₃túbʰi    	🤼    	🥊             	nearby	masculineutere     	u             	athematic	
+cloud	singular	nébʰos     	nébʰos     	nébʰos     	nébʰesos   	nébʰesos   	nébʰesey   	nébʰesi    	nébʰesh₁   	☁️   	💧             	in         	neuter     	s             	athematic	
+cloud	dual	nébʰesih₁   	nébʰesih₁   	nébʰesih₁   	            	            	            	            	            	☁️   	💧             	in         	neuter     	s             	athematic	
+cloud	plural	nébʰōs      	nébʰōs      	nébʰōs      	nébʰesoHom  	nébʰesmos   	nébʰesmos   	nébʰesu     	nébʰesbʰi   	☁️   	💧             	in         	neuter     	s             	athematic	
+stone	singular	h₂éḱmō     	h₂éḱmonmₒ  	h₂éḱmon    	h₂ḱnés     	h₂ḱnés     	h₂ḱnéy     	h₂ḱméni    	h₂ḱnéh₁    	🪨    	💎             	by         	masculineutere     	n             	athematic	
+stone	dual	h₂éḱmonh₁e  	h₂éḱmonh₁e  	h₂éḱmonh₁e  	            	            	            	            	            	🪨    	💎             	by         	masculineutere     	n             	"athematic	"	
+stone	plural	h₂éḱmones   	h₂éḱmonmₒs  	h₂éḱmones   	h₂ḱm̥nₒóHom 	h₂ḱmnₒós    	h₂ḱmnₒós    	h₂ḱmnₒsú    	h₂ḱmnₒbʰí   	🪨    	💎             	by         	masculineutere     	n             	"athematic	"	
+																
+																
+																

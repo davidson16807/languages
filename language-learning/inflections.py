@@ -74,8 +74,12 @@ category_to_grammemes = {
 
     # needed for gerunds, supines, participles, and gerundives
     'gender':     ['masculine', 'feminine', 'neuter'],
-    'case':       ['nominative', 'oblique', 'accusative', 'dative', 'ablative', 
-                   'genitive', 'locative', 'instrumental','disjunctive', 'undeclined'],
+    'case':       ['nominative', 'oblique', 
+                   'accusative', 'genitive', 'dative', 'ablative', 'locative', 'instrumental', 'vocative', 
+                   'partitive', 'prepositional', 'abessive', 'adessive', 'allative', 'comitative', 'delative', 
+                   'elative', 'essive', 'essive-formal', 'essive-modal', 'exessive', 'illative', 
+                   'inessive', 'instructive', 'instrumental-comitative', 'sociative', 'sublative', 'superessive', 
+                   'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
     'motion': ['departed', 'associated', 'acquired', 'leveraged'],
     'cast': [
         'subject', 'direct-object', 'possessor',
@@ -607,9 +611,6 @@ class CardFormatting:
 def first_of_options(content):
     return content.split('/')[0]
 
-def cloze(id):
-    return lambda content: '{{'+f'''c{id}::{content}'''+'}}'
-
 def replace(replacements):
     def _replace(content):
         for replaced, replacement in replacements:
@@ -691,16 +692,16 @@ emoji = Emoji(
 
 english = English(
     declension_population.index(
-        pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/english/pronoun-declensions.tsv'), 1, 5)),
+        pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv'), 1, 5)),
     conjugation_population.index(
         finite_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/conjugations.tsv'), 4, 2)),
+            tsv_parsing.rows('data/inflection/english/modern/conjugations.tsv'), 4, 2)),
     predicate_population.index(
         predicate_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/predicate-templates.tsv'), 1, 4)),
+            tsv_parsing.rows('data/inflection/english/modern/predicate-templates.tsv'), 1, 4)),
     mood_population.index(
         mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/mood-templates.tsv'), 1, 1)),
+            tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'), 1, 1)),
 )
 
 card_generation = CardGeneration(
@@ -726,12 +727,12 @@ write('flashcards/verb-conjugation/ancient-greek.html',
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/ancient-greek/pronoun-declensions.tsv'), 1, 4)),
+                    tsv_parsing.rows('data/inflection/greek/attic/pronoun-declensions.tsv'), 1, 4)),
             conjugation_population.index([
                 *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/ancient-greek/finite-conjugations.tsv'), 3, 4),
+                    tsv_parsing.rows('data/inflection/greek/attic/finite-conjugations.tsv'), 3, 4),
                 *infinitive_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/ancient-greek/nonfinite-conjugations.tsv'), 6, 2),
+                    tsv_parsing.rows('data/inflection/greek/attic/nonfinite-conjugations.tsv'), 6, 2),
             ]),
             mood_templates = {
                 'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
@@ -887,18 +888,18 @@ declension_verb_annotation = CellAnnotation(
 latin = Translation(
     declension_population.index([
         *pronoun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/pronoun-declensions.tsv'), 1, 4),
+            tsv_parsing.rows('data/inflection/latin/classical/pronoun-declensions.tsv'), 1, 4),
         *noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/declensions.tsv'), 1, 2),
+            tsv_parsing.rows('data/inflection/latin/classical/declensions.tsv'), 1, 2),
         *filter(has_annotation('language','latin'),
             declension_template_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/declension-template-accusatives.tsv'), 2, 7)),
+                tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
     ]),
     conjugation_population.index([
         *finite_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/finite-conjugations.tsv'), 3, 4),
+            tsv_parsing.rows('data/inflection/latin/classical/finite-conjugations.tsv'), 3, 4),
         *infinitive_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/nonfinite-conjugations.tsv'), 6, 2),
+            tsv_parsing.rows('data/inflection/latin/classical/nonfinite-conjugations.tsv'), 6, 2),
         *filter(has_annotation('language','latin'),
             declension_verb_annotation.annotate(
                 tsv_parsing.rows(
@@ -1004,13 +1005,9 @@ for (f,x),(g,y) in level0_subset_relations:
     for h in level1_subset_relations[g]:
         allthat[h,y].name = str((h,y))
         allthat[h,y](allthat[g,y])
-
-# allthat = collections.defaultdict(Predicate)
-# for (f,x),(g,y) in level0_subset_relations:
-#     allthat[g,y](allthat[f,x])
-#     if g == f:
-#         for f2 in level1_subset_relations[f]:
-#             allthat[f2,y](allthat[f2,x])
+    # if g == f:
+    #     for h in level1_subset_relations[f]:
+    #         allthat[h,y](allthat[h,x])
 
 declension_template_annotation = RowAnnotation([
     'motion', 'cast', 'specificity',
@@ -1052,7 +1049,7 @@ case_population = \
 use_case_to_grammatical_case = \
     case_population.index(
         case_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/declension-use-case-to-grammatical-case.tsv')))
+            tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv')))
 
 matching = DeclensionTemplateMatching(templates, allthat)
 
@@ -1157,10 +1154,10 @@ write('flashcards/verb-conjugation/old-english.html',
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5)),
+                    tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv'), 1, 5)),
             conjugation_population.index(
                 finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/old-english/conjugations.tsv'), 5, 1)),
+                    tsv_parsing.rows('data/inflection/english/old/conjugations.tsv'), 5, 1)),
             mood_templates = {
                 'indicative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
                 'subjunctive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
@@ -1205,12 +1202,12 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
         Translation(
             declension_population.index(
                 pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/pronoun-declensions.tsv'), 1, 5)),
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-declensions.tsv'), 1, 5)),
             conjugation_population.index([
                 *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/finite-conjugations.tsv'), 2, 4),
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/finite-conjugations.tsv'), 2, 4),
                 *infinitive_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/nonfinite-conjugations.tsv'), 2, 2),
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/nonfinite-conjugations.tsv'), 2, 2),
             ]),
             mood_templates = {
                 'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
@@ -1431,7 +1428,7 @@ write('flashcards/verb-conjugation/swedish.html',
     ))
 '''
 
-# print(pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/old-english/pronoun-declensions.tsv'), 1, 5))
+# print(pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv'), 1, 5))
 
 # print(emoji.inflect(grammemes, translation.conjugation_lookups['emoji']))
 # print(emoji.inflect({**grammemes, 'mood':'imperative', 'aspect':'imperfect', 'person':'2', 'number':'dual'}, translation.conjugation_lookups['emoji']))
@@ -1447,7 +1444,7 @@ write('flashcards/verb-conjugation/swedish.html',
 
 # lookups = conjugation_population.index([
 #     *finite_annotation.annotate(
-#         tsv_parsing.rows('data/inflection/sanskrit/conjugations.tsv'), 2, 4),
+#         tsv_parsing.rows('data/inflection/sanskrit/classical/conjugations.tsv'), 2, 4),
 # ])
 
 # grammemes = {
