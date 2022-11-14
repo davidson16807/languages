@@ -1096,19 +1096,21 @@ for lemma in lemmas:
             common_subject_key = {**default_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
             direct_object_key = {**default_key, 'case':'accusative', 'noun-form':'common', 'number':'singular'}
             case_key = {**default_key, **dictkey, 'case':case, 'noun-form':'common'}
+            emoji_key = {**default_key, **dictkey, 'noun':lemma, 'case':case, 'noun-form':'common', 'script': 'emoji'}
             match = matching.match(predicate, dictkey['motion'], dictkey['cast'])
-            if match:
-                nouns = {}
-                if match['subject-argument']:
-                    nouns['subject'] = NounPhrase(subject_key, [match['subject-argument']])
-                if match['direct-object'] or match['direct-object-adjective']:
-                    nouns['direct-object'] = NounPhrase(direct_object_key, [
-                        Adjective(match['direct-object-adjective']), 
-                        *match['direct-object'].split(' ')])
-                nouns['subject' if case == 'nominative' else 'modifiers'] = NounPhrase(case_key, [
-                    Adposition(native=match['adposition'], foreign=adposition), 
-                    Article(match['declined-noun-article']), 
-                    Cloze(1, lemma)])
+            if match and emoji_key in latin.declension_lookups['common']:
+                nouns = {
+                    'subject': NounPhrase(subject_key, [match['subject-argument']]),
+                    'direct-object': 
+                        NounPhrase(direct_object_key, [
+                            Adjective(match['direct-object-adjective']), 
+                            *match['direct-object'].split(' ')]),
+                    ('subject' if case == 'nominative' else 'modifiers'): 
+                        NounPhrase(case_key, [
+                            Adposition(native=match['adposition'], foreign=adposition), 
+                            Article(match['declined-noun-article']), 
+                            Cloze(1, lemma)]),
+                }
                 if case == 'genitive':
                     tree = [
                         NounPhrase(common_subject_key, [
@@ -1119,20 +1121,20 @@ for lemma in lemmas:
                             Article(match['declined-noun-article']), 
                             Cloze(1, lemma)]),
                     ]
+                elif case == 'nominative':
+                    tree = Clause(case_key, match['verb'], nouns)
                 else:
-                    tree = Clause(case_key if case == 'nominative' else subject_key, match['verb'], nouns)
-                emoji_key = {**case_key, 'noun':lemma, 'case':case, 'number':dictkey['number'], 'script': 'emoji', 'noun-form':'common'}
-                if emoji_key in latin.declension_lookups[emoji_key]:
-                    emoji_noun = latin.declension_lookups['common'][emoji_key]
-                    emoji_template = match['emoji']
-                    emoji_template = emoji_template.replace('\\declined', emoji_noun)
-                    emoji_template = emoji.emojiInflectionShorthand.decode(emoji_template, Person(case_key['number'][0], case_key['gender'][0],1), [])
-                    print(tuplekey, case)
-                    print(' '.join([
-                            cardFormatting.emoji_focus(emoji_template), 
-                            cardFormatting.english_word(english.format(tree)), 
-                            cardFormatting.foreign_focus(latin.format(latin.inflect(default_key, tree))),
-                        ]))
+                    tree = Clause(subject_key, match['verb'], nouns)
+                emoji_noun = latin.declension_lookups['common'][emoji_key]
+                emoji_template = match['emoji']
+                emoji_template = emoji_template.replace('\\declined', emoji_noun)
+                emoji_template = emoji.emojiInflectionShorthand.decode(emoji_template, Person(case_key['number'][0], case_key['gender'][0],1), [])
+                print(tuplekey, case)
+                print(' '.join([
+                        cardFormatting.emoji_focus(emoji_template), 
+                        cardFormatting.english_word(english.format(tree)), 
+                        cardFormatting.foreign_focus(latin.format(latin.inflect(default_key, tree))),
+                    ]))
 
 '''
 write('flashcards/verb-conjugation/old-english.html', 
