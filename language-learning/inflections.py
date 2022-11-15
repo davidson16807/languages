@@ -400,7 +400,7 @@ class Emoji:
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
         self.mood_templates = mood_templates
-    def inflect(self, grammemes, argument, persons):
+    def translate(self, grammemes, argument, persons):
         audience_lookup = {
             'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
             'polite':   '\\n2{🧑\\g2\\c2\\💼}',
@@ -516,7 +516,7 @@ class Translation:
         elif type(content) in {Adjective, Article, Adposition}:
             return True
         elif type(content) in {NounPhrase}:
-            return True
+            return self.exists(content.content)
         elif type(content) in {Clause}:
             return self.exists(content.verb)
         elif type(content) in {Cloze}:
@@ -567,14 +567,14 @@ class Translation:
             return Cloze(content.id, self.conjugate(grammemes, content.content))
         else:
             raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
-    def inflect(self, grammemes, content):
+    def translate(self, grammemes, content):
         if type(content) in {Clause}:
             grammemes = {**grammemes, **content.grammemes}
             return Clause(grammemes,
                 self.conjugate(grammemes, content.verb), 
                 {key:self.decline(grammemes, value) for (key,value) in content.nouns.items()})
         elif type(content) in {list,set}:
-            return [self.inflect(grammemes, element) for element in content]
+            return [self.translate(grammemes, element) for element in content]
         elif type(content) in {NounPhrase}:
             grammemes = {**grammemes, **content.grammemes}
             return self.decline(grammemes, content)
@@ -816,53 +816,53 @@ class CardGeneration:
         for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = {**default_grammemes, **self.finite_traversal.dictkey(tuplekey)}
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
-                clause = Clause(dictkey, Cloze(1, dictkey['verb']),
+                syntax_tree = Clause(dictkey, Cloze(1, dictkey['verb']),
                     {
                         'subject':    NounPhrase({'noun-form': 'personal', 'case':'nominative'}),
                         'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
                     })
-                emoji_key       = {**dictkey, 'script':'emoji'}
-                if translation.exists(clause) and emoji_key in translation.conjugation_lookups['infinitive']:
-                    english_text    = self.english.format(clause)
-                    translated_text = translation.format(translation.inflect(dictkey,clause))
+                translated_tree = translation.translate(dictkey, syntax_tree)
+                emoji_key  = {**dictkey, 'script':'emoji'}
+                if translation.exists(translated_tree) and emoji_key in translation.conjugation_lookups['infinitive']:
+                    english_text    = self.english.format(syntax_tree)
+                    translated_text = translation.format(translated_tree)
                     emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
-                    emoji_text      = self.emoji.inflect(dictkey, emoji_argument, persons)
+                    emoji_text      = self.emoji.translate(dictkey, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.english_word(english_map(english_text)), 
                             self.cardFormatting.foreign_focus(translated_text),
                         ])
-    def declension(self, translation):
+    def declension(self, translation, default_grammemes={}):
+        default_key = {
+            'script':      'latin',
+            'person':      '3',
+            'clusivity':   'exclusive',
+            'clitic':      'tonic',
+            'partitivity': 'nonpartitive',
+            'formality':   'familiar',
+            'gender':      'masculine',
+            'tense':       'present', 
+            'voice':       'active',
+            'aspect':      'aorist', 
+            'mood':        'indicative',
+            **default_grammemes,
+        }
         for tuplekey in self.declension_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = self.declension_traversal.dictkey(tuplekey)
-            noun = dictkey['noun']
-            predicate = self.nouns_to_predicates[noun] if noun in self.nouns_to_predicates else noun
             if dictkey in use_case_to_grammatical_case:
+                noun = dictkey['noun']
+                predicate = self.nouns_to_predicates[noun] if noun in self.nouns_to_predicates else noun
                 case = use_case_to_grammatical_case[dictkey]['case']
                 adposition = use_case_to_grammatical_case[dictkey]['adposition']
-                default_key = {
-                    'script':      'latin',
-                    'person':      '3',
-                    'clusivity':   'exclusive',
-                    'clitic':      'tonic',
-                    'partitivity': 'nonpartitive',
-                    'formality':   'familiar',
-                    'gender':      'masculine',
-                    'tense':       'present', 
-                    'voice':       'active',
-                    'aspect':      'aorist', 
-                    'mood':        'indicative',
-                }
-                subject_key = {**default_key, 'case':'nominative', 'noun-form':'personal', 'number':'singular'}
-                common_subject_key = {**default_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
-                direct_object_key = {**default_key, 'case':'accusative', 'noun-form':'common', 'number':'singular'}
                 case_key = {**default_key, **dictkey, 'case':case, 'noun-form':'common'}
                 emoji_key = {**default_key, **dictkey, 'noun':noun, 'case':case, 'noun-form':'common', 'script': 'emoji'}
                 match = matching.match(predicate, dictkey['motion'], dictkey['cast'])
                 if match and emoji_key in translation.declension_lookups['common']:
                     if case == 'genitive':
-                        tree = [
-                            NounPhrase(common_subject_key, [
+                        subject_key = {**default_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
+                        syntax_tree = [
+                            NounPhrase(subject_key, [
                                 Article('the'), 
                                 match['subject-argument']]),
                             NounPhrase(case_key, [
@@ -871,7 +871,9 @@ class CardGeneration:
                                 Cloze(1, noun)]),
                         ]
                     else:
-                        clause_nouns = {
+                        subject_key = {**default_key, 'case':'nominative', 'noun-form':'personal', 'number':'singular'}
+                        direct_object_key = {**default_key, 'case':'accusative', 'noun-form':'common', 'number':'singular'}
+                        syntax_tree = Clause(case_key if case == 'nominative' else subject_key, match['verb'], {
                             'subject': NounPhrase(subject_key, [match['subject-argument']]),
                             'direct-object': 
                                 NounPhrase(direct_object_key, [
@@ -882,8 +884,7 @@ class CardGeneration:
                                     Adposition(native=match['adposition'], foreign=adposition), 
                                     Article(match['declined-noun-article']), 
                                     Cloze(1, noun)]),
-                        }
-                        tree = Clause(case_key if case == 'nominative' else subject_key, match['verb'], clause_nouns)
+                        })
                     emoji_noun = translation.declension_lookups['common'][emoji_key]
                     emoji_template = match['emoji']
                     emoji_template = emoji_template.replace('\\declined', emoji_noun)
@@ -891,10 +892,10 @@ class CardGeneration:
                         Person(case_key['number'][0], case_key['gender'][0],1), [])
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_template), 
-                            self.cardFormatting.english_word(self.english.format(tree)), 
+                            self.cardFormatting.english_word(self.english.format(syntax_tree)), 
                             self.cardFormatting.foreign_focus(
                                 translation.format(
-                                    translation.inflect(default_key, tree))),
+                                    translation.translate(default_key, syntax_tree))),
                         ])
 
 card_generation = CardGeneration(
