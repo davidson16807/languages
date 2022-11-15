@@ -13,6 +13,13 @@ from indexing import *
 from lookup import *
 from population import *
 
+from annotation import RowAnnotation
+from predicates import Predicate
+from lookup import DefaultDictLookup, DictLookup
+from indexing import DictTupleIndexing, DictKeyIndexing
+from evaluation import KeyEvaluation, MultiKeyEvaluation
+from population import ListLookupPopulation, FlatLookupPopulation
+
 category_to_grammemes = {
 
     # needed to lookup the argument that is used to demonstrate a verb
@@ -632,36 +639,6 @@ def compose(*text_functions):
     else:
         return text_functions[0]
 
-class CardGeneration:
-    def __init__(self, english, emoji, cardFormatting, finite_traversal):
-        self.english = english
-        self.emoji = emoji
-        self.cardFormatting = cardFormatting
-        self.finite_traversal = finite_traversal
-    def declension(self, translation, filter_lookups, persons, english_map=lambda x:x):
-        for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
-            dictkey = self.finite_traversal.dictkey(tuplekey)
-    def conjugation(self, translation, filter_lookups, persons, default_grammemes={}, english_map=lambda x:x):
-        for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
-            dictkey = {**default_grammemes, **self.finite_traversal.dictkey(tuplekey)}
-            if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
-                clause = Clause(dictkey, Cloze(1, dictkey['verb']),
-                    {
-                        'subject':    NounPhrase({'noun-form': 'personal', 'case':'nominative'}),
-                        'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
-                    })
-                emoji_key       = {**dictkey, 'script':'emoji'}
-                if translation.exists(clause) and emoji_key in translation.conjugation_lookups['infinitive']:
-                    english_text    = self.english.format(clause)
-                    translated_text = translation.format(translation.inflect(dictkey,clause))
-                    emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
-                    emoji_text      = self.emoji.inflect(dictkey, emoji_argument, persons)
-                    yield ' '.join([
-                            self.cardFormatting.emoji_focus(emoji_text), 
-                            self.cardFormatting.english_word(english_map(english_text)), 
-                            self.cardFormatting.foreign_focus(translated_text),
-                        ])
-
 infinitive_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
 bracket_shorthand = BracketedShorthand(Enclosures())
@@ -702,12 +679,6 @@ english = English(
             tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'), 1, 1)),
 )
 
-card_generation = CardGeneration(
-    english, emoji, CardFormatting(),
-    DictTupleIndexing([
-        'number','formality','clusivity','person','clitic','gender',
-        'tense', 'aspect', 'mood', 'voice', 'verb']))
-
 def write(filename, rows):
     with open(filename, 'w') as file:
         for row in rows:
@@ -718,6 +689,297 @@ def has_annotation(key, value):
         annotation, cell = annotated_cell
         return key in annotation and annotation[key] == value or value in annotation[key]
     return _has_annotation
+
+
+
+tsv_parsing = SeparatedValuesFileParsing()
+rows = [
+  *tsv_parsing.rows('data/predicates/mythical/greek.tsv'),
+  *tsv_parsing.rows('data/predicates/mythical/hindi.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/animal-anatomy.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/animal.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/deity.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/human.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/humanoid.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/plant-anatomy.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/plant.tsv'),
+  *tsv_parsing.rows('data/predicates/biotic/sapient.tsv'),
+  *tsv_parsing.rows('data/predicates/abiotic/item.tsv'),
+  *tsv_parsing.rows('data/predicates/abiotic/location.tsv'),
+  *tsv_parsing.rows('data/predicates/abiotic/physical.tsv'),
+  *tsv_parsing.rows('data/predicates/abstract/attribute.tsv'),
+  *tsv_parsing.rows('data/predicates/abstract/time.tsv'),
+  *tsv_parsing.rows('data/predicates/abstract/event.tsv'),
+  *tsv_parsing.rows('data/predicates/abstract/concept.tsv'),
+  *tsv_parsing.rows('data/predicates/animacy-hierarchy.tsv'),
+  *tsv_parsing.rows('data/predicates/capability.tsv'),
+]
+
+level0_subset_relations = set()
+level1_subset_relations = collections.defaultdict(
+    set, 
+    {
+        'be':{'can'},
+        'part':{'can-be-part'},
+    })
+
+for row in rows:
+    f, x, g, y = row[:4]
+    if all([f.strip(), x.strip(), g.strip(), y.strip()]):
+        level0_subset_relations.add(((f,x),(g,y)))
+
+allthat = collections.defaultdict(Predicate)
+for (f,x),(g,y) in level0_subset_relations:
+    allthat[f,x].name = str((f,x))
+    allthat[g,y].name = str((g,y))
+    allthat[g,y](allthat[f,x])
+    for h in level1_subset_relations[f]:
+        allthat[h,x].name = str((h,x))
+        allthat[h,x](allthat[f,x])
+    for h in level1_subset_relations[g]:
+        allthat[h,y].name = str((h,y))
+        allthat[h,y](allthat[g,y])
+    # if g == f:
+    #     for h in level1_subset_relations[f]:
+    #         allthat[h,y](allthat[h,x])
+
+declension_template_annotation = RowAnnotation([
+    'motion', 'cast', 'specificity',
+    'subject-adjective', 'subject-function', 'subject-argument', 
+    'verb', 'direct-object-adjective', 'direct-object', 'adposition', 
+    'declined-noun-article', 'declined-noun-function', 'declined-noun-argument',
+    'emoji'])
+template_population = ListLookupPopulation(
+    DefaultDictLookup('declension-template',
+        DictTupleIndexing(['motion','cast']), list))
+templates = \
+    template_population.index(
+        declension_template_annotation.annotate(
+            tsv_parsing.rows(
+                'data/inflection/declension-templates-minimal.tsv')))
+
+class DeclensionTemplateMatching:
+    def __init__(self, templates, predicates):
+        self.templates = templates
+        self.predicates = predicates
+    def match(self, noun, motion, cast):
+        def subject(template):
+            return self.predicates[template['subject-function'], template['subject-argument']]
+        def declined_noun(template):
+            return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
+        candidates = self.templates[motion, cast] if (motion, cast) in self.templates else []
+        templates = sorted([template for template in candidates
+                            if self.predicates['be', noun] in declined_noun(template)],
+                      key=lambda template: (-int(template['specificity']), len(declined_noun(template))))
+        return templates[0] if len(templates) > 0 else None
+
+case_annotation = RowAnnotation(['motion','cast','case','adposition'])
+case_indexing = DictTupleIndexing(['motion','cast'])
+case_population = \
+    FlatLookupPopulation(
+        DictLookup('declension-use-case-to-grammatical-case', case_indexing),
+        MultiKeyEvaluation(['case','adposition']))
+
+use_case_to_grammatical_case = \
+    case_population.index(
+        case_annotation.annotate(
+            tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv')))
+
+matching = DeclensionTemplateMatching(templates, allthat)
+
+'''
+ROADMAP:
+* template maching should find the template for "walking", not "directing attention"
+* fix issue where certain verbs cannot be found in csv
+* template population should produce an error if no verb is found for them
+* add templates for nominative, accusative, genitive, and dative
+* add bracketed comments to english templates
+'''
+
+cardFormatting = CardFormatting()
+
+declension_verb_annotation = CellAnnotation(
+    grammeme_to_category, {0:'language'}, {0:'verb'}, 
+    {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine']})
+
+class CardGeneration:
+    def __init__(self, english, emoji, 
+            cardFormatting, finite_traversal, declension_traversal, 
+            nouns_to_predicates):
+        self.english = english
+        self.emoji = emoji
+        self.cardFormatting = cardFormatting
+        self.finite_traversal = finite_traversal
+        self.declension_traversal = declension_traversal
+        self.nouns_to_predicates = nouns_to_predicates
+    def conjugation(self, translation, filter_lookups, persons, default_grammemes={}, english_map=lambda x:x):
+        for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
+            dictkey = {**default_grammemes, **self.finite_traversal.dictkey(tuplekey)}
+            if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
+                clause = Clause(dictkey, Cloze(1, dictkey['verb']),
+                    {
+                        'subject':    NounPhrase({'noun-form': 'personal', 'case':'nominative'}),
+                        'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
+                    })
+                emoji_key       = {**dictkey, 'script':'emoji'}
+                if translation.exists(clause) and emoji_key in translation.conjugation_lookups['infinitive']:
+                    english_text    = self.english.format(clause)
+                    translated_text = translation.format(translation.inflect(dictkey,clause))
+                    emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
+                    emoji_text      = self.emoji.inflect(dictkey, emoji_argument, persons)
+                    yield ' '.join([
+                            self.cardFormatting.emoji_focus(emoji_text), 
+                            self.cardFormatting.english_word(english_map(english_text)), 
+                            self.cardFormatting.foreign_focus(translated_text),
+                        ])
+    def declension(self, translation):
+        for tuplekey in self.declension_traversal.tuplekeys(translation.category_to_grammemes):
+            dictkey = self.declension_traversal.dictkey(tuplekey)
+            noun = dictkey['noun']
+            predicate = self.nouns_to_predicates[noun] if noun in self.nouns_to_predicates else noun
+            if dictkey in use_case_to_grammatical_case:
+                case = use_case_to_grammatical_case[dictkey]['case']
+                adposition = use_case_to_grammatical_case[dictkey]['adposition']
+                default_key = {
+                    'script':      'latin',
+                    'person':      '3',
+                    'clusivity':   'exclusive',
+                    'clitic':      'tonic',
+                    'partitivity': 'nonpartitive',
+                    'formality':   'familiar',
+                    'gender':      'masculine',
+                    'tense':       'present', 
+                    'voice':       'active',
+                    'aspect':      'aorist', 
+                    'mood':        'indicative',
+                }
+                subject_key = {**default_key, 'case':'nominative', 'noun-form':'personal', 'number':'singular'}
+                common_subject_key = {**default_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
+                direct_object_key = {**default_key, 'case':'accusative', 'noun-form':'common', 'number':'singular'}
+                case_key = {**default_key, **dictkey, 'case':case, 'noun-form':'common'}
+                emoji_key = {**default_key, **dictkey, 'noun':noun, 'case':case, 'noun-form':'common', 'script': 'emoji'}
+                match = matching.match(predicate, dictkey['motion'], dictkey['cast'])
+                if match and emoji_key in translation.declension_lookups['common']:
+                    if case == 'genitive':
+                        tree = [
+                            NounPhrase(common_subject_key, [
+                                Article('the'), 
+                                match['subject-argument']]),
+                            NounPhrase(case_key, [
+                                Adposition(native=match['adposition'], foreign=''), 
+                                Article(match['declined-noun-article']), 
+                                Cloze(1, noun)]),
+                        ]
+                    else:
+                        clause_nouns = {
+                            'subject': NounPhrase(subject_key, [match['subject-argument']]),
+                            'direct-object': 
+                                NounPhrase(direct_object_key, [
+                                    Adjective(match['direct-object-adjective']), 
+                                    *match['direct-object'].split(' ')]),
+                            ('subject' if case == 'nominative' else 'modifiers'): 
+                                NounPhrase(case_key, [
+                                    Adposition(native=match['adposition'], foreign=adposition), 
+                                    Article(match['declined-noun-article']), 
+                                    Cloze(1, noun)]),
+                        }
+                        tree = Clause(case_key if case == 'nominative' else subject_key, match['verb'], clause_nouns)
+                    emoji_noun = translation.declension_lookups['common'][emoji_key]
+                    emoji_template = match['emoji']
+                    emoji_template = emoji_template.replace('\\declined', emoji_noun)
+                    emoji_template = self.emoji.emojiInflectionShorthand.decode(emoji_template, 
+                        Person(case_key['number'][0], case_key['gender'][0],1), [])
+                    yield ' '.join([
+                            self.cardFormatting.emoji_focus(emoji_template), 
+                            self.cardFormatting.english_word(self.english.format(tree)), 
+                            self.cardFormatting.foreign_focus(
+                                translation.format(
+                                    translation.inflect(default_key, tree))),
+                        ])
+
+card_generation = CardGeneration(
+    english, emoji, CardFormatting(),
+    DictTupleIndexing([
+        'number','formality','clusivity','person','clitic',
+        'gender','tense', 'aspect', 'mood', 'voice', 'verb']),
+    DictTupleIndexing([
+        'motion','cast','number','noun']),
+    {
+        'animal':'cow',
+        'thing':'bolt',
+        'phenomenon': 'eruption',
+    })
+
+latin = Translation(
+    declension_population.index([
+        *pronoun_annotation.annotate(
+            tsv_parsing.rows('data/inflection/latin/classical/pronoun-declensions.tsv'), 1, 4),
+        *noun_annotation.annotate(
+            tsv_parsing.rows('data/inflection/latin/classical/declensions.tsv'), 1, 2),
+        *filter(has_annotation('language','latin'),
+            declension_template_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
+    ]),
+    conjugation_population.index([
+        *finite_annotation.annotate(
+            tsv_parsing.rows('data/inflection/latin/classical/finite-conjugations.tsv'), 3, 4),
+        *infinitive_annotation.annotate(
+            tsv_parsing.rows('data/inflection/latin/classical/nonfinite-conjugations.tsv'), 6, 2),
+        *filter(has_annotation('language','latin'),
+            declension_verb_annotation.annotate(
+                tsv_parsing.rows(
+                    'data/inflection/declension-template-verbs.tsv'), 2, 9)),
+    ]),
+    mood_templates = {
+        'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+        'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
+        'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
+    },
+    category_to_grammemes = {
+        **category_to_grammemes,
+        'script':     'latin',
+        'noun-form':  'personal',
+        'number':    ['singular','plural'],
+        'animacy':    'human',
+        'clitic':     'tonic',
+        'clusivity':  'exclusive',
+        'formality':  'familiar',
+        'gender':    ['neuter', 'masculine'],
+        'voice':     ['active', 'passive'],
+        'mood':      ['indicative','subjunctive','imperative',],
+        'verb':      ['be', 'be able', 'want', 'become', 'go', 
+                      'carry', 'eat', 'love', 'advise', 'direct-object', 
+                      'capture', 'hear'],
+        'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
+                      'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
+                      'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet'],
+    },
+)
+
+write('flashcards/verb-conjugation/latin.html', 
+    card_generation.conjugation(
+        latin,
+        default_grammemes={'script':'latin'},
+        english_map=replace([('♂','')]), 
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleIndexing(['person', 'number', 'gender']),
+                content = {
+                    ('1', 'singular', 'neuter'),
+                    ('2', 'singular', 'neuter'),
+                    ('3', 'singular', 'masculine'),
+                    ('1', 'plural',   'neuter'),
+                    ('2', 'plural',   'neuter'),
+                    ('3', 'plural',   'masculine'),
+                })
+            ],
+        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+    ))
+
+write('flashcards/noun-declension/latin.html', card_generation.declension(latin))
+
+
 
 '''
 write('flashcards/verb-conjugation/ancient-greek.html', 
@@ -877,267 +1139,6 @@ write('flashcards/verb-conjugation/german.html',
         persons = [Person('s','n',color) for color in [2,3,1,4,5]],
     ))
 '''
-
-
-declension_verb_annotation = CellAnnotation(
-    grammeme_to_category, {0:'language'}, {0:'verb'}, 
-    {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine']})
-
-latin = Translation(
-    declension_population.index([
-        *pronoun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/classical/pronoun-declensions.tsv'), 1, 4),
-        *noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/classical/declensions.tsv'), 1, 2),
-        *filter(has_annotation('language','latin'),
-            declension_template_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
-    ]),
-    conjugation_population.index([
-        *finite_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/classical/finite-conjugations.tsv'), 3, 4),
-        *infinitive_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/classical/nonfinite-conjugations.tsv'), 6, 2),
-        *filter(has_annotation('language','latin'),
-            declension_verb_annotation.annotate(
-                tsv_parsing.rows(
-                    'data/inflection/declension-template-verbs.tsv'), 2, 9)),
-    ]),
-    mood_templates = {
-        'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
-        'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
-        'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
-    },
-    category_to_grammemes = {
-        **category_to_grammemes,
-        'script':     'latin',
-        'noun-form':  'personal',
-        'number':    ['singular','plural'],
-        'animacy':    'human',
-        'clitic':     'tonic',
-        'clusivity':  'exclusive',
-        'formality':  'familiar',
-        'gender':    ['neuter', 'masculine'],
-        'voice':     ['active', 'passive'],
-        'mood':      ['indicative','subjunctive','imperative',],
-        'verb':      ['be', 'be able', 'want', 'become', 'go', 
-                      'carry', 'eat', 'love', 'advise', 'direct-object', 
-                      'capture', 'hear'],
-        'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
-                      'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
-                      'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet'],
-    },
-)
-
-write('flashcards/verb-conjugation/latin.html', 
-    card_generation.conjugation(
-        latin,
-        default_grammemes={'script':'latin'},
-        english_map=replace([('♂','')]), 
-        filter_lookups = [
-            DictLookup(
-                'pronoun filter', 
-                DictTupleIndexing(['person', 'number', 'gender']),
-                content = {
-                    ('1', 'singular', 'neuter'),
-                    ('2', 'singular', 'neuter'),
-                    ('3', 'singular', 'masculine'),
-                    ('1', 'plural',   'neuter'),
-                    ('2', 'plural',   'neuter'),
-                    ('3', 'plural',   'masculine'),
-                })
-            ],
-        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
-    ))
-
-
-from parsing import SeparatedValuesFileParsing
-from annotation import RowAnnotation
-from predicates import Predicate
-from lookup import DefaultDictLookup, DictLookup
-from indexing import DictTupleIndexing, DictKeyIndexing
-from evaluation import KeyEvaluation, MultiKeyEvaluation
-from population import ListLookupPopulation, FlatLookupPopulation
-
-tsv_parsing = SeparatedValuesFileParsing()
-rows = [
-  *tsv_parsing.rows('data/predicates/mythical/greek.tsv'),
-  *tsv_parsing.rows('data/predicates/mythical/hindi.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/animal-anatomy.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/animal.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/deity.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/human.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/humanoid.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/plant-anatomy.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/plant.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/sapient.tsv'),
-  *tsv_parsing.rows('data/predicates/abiotic/item.tsv'),
-  *tsv_parsing.rows('data/predicates/abiotic/location.tsv'),
-  *tsv_parsing.rows('data/predicates/abiotic/physical.tsv'),
-  *tsv_parsing.rows('data/predicates/abstract/attribute.tsv'),
-  *tsv_parsing.rows('data/predicates/abstract/time.tsv'),
-  *tsv_parsing.rows('data/predicates/abstract/event.tsv'),
-  *tsv_parsing.rows('data/predicates/abstract/concept.tsv'),
-  *tsv_parsing.rows('data/predicates/animacy-hierarchy.tsv'),
-  *tsv_parsing.rows('data/predicates/capability.tsv'),
-]
-
-level0_subset_relations = set()
-level1_subset_relations = collections.defaultdict(
-    set, 
-    {
-        'be':{'can'},
-        'part':{'can-be-part'},
-    })
-
-for row in rows:
-    f, x, g, y = row[:4]
-    if all([f.strip(), x.strip(), g.strip(), y.strip()]):
-        level0_subset_relations.add(((f,x),(g,y)))
-
-allthat = collections.defaultdict(Predicate)
-for (f,x),(g,y) in level0_subset_relations:
-    allthat[f,x].name = str((f,x))
-    allthat[g,y].name = str((g,y))
-    allthat[g,y](allthat[f,x])
-    for h in level1_subset_relations[f]:
-        allthat[h,x].name = str((h,x))
-        allthat[h,x](allthat[f,x])
-    for h in level1_subset_relations[g]:
-        allthat[h,y].name = str((h,y))
-        allthat[h,y](allthat[g,y])
-    # if g == f:
-    #     for h in level1_subset_relations[f]:
-    #         allthat[h,y](allthat[h,x])
-
-declension_template_annotation = RowAnnotation([
-    'motion', 'cast', 'specificity',
-    'subject-adjective', 'subject-function', 'subject-argument', 
-    'verb', 'direct-object-adjective', 'direct-object', 'adposition', 
-    'declined-noun-article', 'declined-noun-function', 'declined-noun-argument',
-    'emoji'])
-template_population = ListLookupPopulation(
-    DefaultDictLookup('declension-template',
-        DictTupleIndexing(['motion','cast']), list))
-templates = \
-    template_population.index(
-        declension_template_annotation.annotate(
-            tsv_parsing.rows(
-                'data/inflection/declension-templates-minimal.tsv')))
-
-class DeclensionTemplateMatching:
-    def __init__(self, templates, predicates):
-        self.templates = templates
-        self.predicates = predicates
-    def match(self, noun, motion, cast):
-        def subject(template):
-            return self.predicates[template['subject-function'], template['subject-argument']]
-        def declined_noun(template):
-            return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
-        candidates = self.templates[motion, cast] if (motion, cast) in self.templates else []
-        templates = sorted([template for template in candidates
-                            if self.predicates['be', noun] in declined_noun(template)],
-                      key=lambda template: (-int(template['specificity']), len(declined_noun(template))))
-        return templates[0] if len(templates) > 0 else None
-
-case_annotation = RowAnnotation(['motion','cast','case','adposition'])
-case_indexing = DictTupleIndexing(['motion','cast'])
-case_population = \
-    FlatLookupPopulation(
-        DictLookup('declension-use-case-to-grammatical-case', case_indexing),
-        MultiKeyEvaluation(['case','adposition']))
-
-use_case_to_grammatical_case = \
-    case_population.index(
-        case_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv')))
-
-matching = DeclensionTemplateMatching(templates, allthat)
-
-'''
-ROADMAP:
-* template maching should find the template for "walking", not "directing attention"
-* fix issue where certain verbs cannot be found in csv
-* template population should produce an error if no verb is found for them
-* add templates for nominative, accusative, genitive, and dative
-* add bracketed comments to english templates
-'''
-
-cardFormatting = CardFormatting()
-
-declension_traversal = DictTupleIndexing(['motion','cast','number'])
-lemmas = [
-    'man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
-    'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
-    'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet']
-for lemma in lemmas:
-    predicates = {
-        'animal':'cow',
-        'thing':'bolt',
-        'phenomenon': 'eruption',
-    }
-    predicate = predicates[lemma] if lemma in predicates else lemma
-    for tuplekey in declension_traversal.tuplekeys(category_to_grammemes):
-        dictkey = declension_traversal.dictkey(tuplekey)
-        if dictkey in use_case_to_grammatical_case:
-            case = use_case_to_grammatical_case[dictkey]['case']
-            adposition = use_case_to_grammatical_case[dictkey]['adposition']
-            default_key = {
-                'script':      'latin',
-                'person':      '3',
-                'clusivity':   'exclusive',
-                'clitic':      'tonic',
-                'partitivity': 'nonpartitive',
-                'formality':   'familiar',
-                'gender':      'masculine',
-                'tense':       'present', 
-                'voice':       'active',
-                'aspect':      'aorist', 
-                'mood':        'indicative',
-            }
-            subject_key = {**default_key, 'case':'nominative', 'noun-form':'personal', 'number':'singular'}
-            common_subject_key = {**default_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
-            direct_object_key = {**default_key, 'case':'accusative', 'noun-form':'common', 'number':'singular'}
-            case_key = {**default_key, **dictkey, 'case':case, 'noun-form':'common'}
-            emoji_key = {**default_key, **dictkey, 'noun':lemma, 'case':case, 'noun-form':'common', 'script': 'emoji'}
-            match = matching.match(predicate, dictkey['motion'], dictkey['cast'])
-            if match and emoji_key in latin.declension_lookups['common']:
-                nouns = {
-                    'subject': NounPhrase(subject_key, [match['subject-argument']]),
-                    'direct-object': 
-                        NounPhrase(direct_object_key, [
-                            Adjective(match['direct-object-adjective']), 
-                            *match['direct-object'].split(' ')]),
-                    ('subject' if case == 'nominative' else 'modifiers'): 
-                        NounPhrase(case_key, [
-                            Adposition(native=match['adposition'], foreign=adposition), 
-                            Article(match['declined-noun-article']), 
-                            Cloze(1, lemma)]),
-                }
-                if case == 'genitive':
-                    tree = [
-                        NounPhrase(common_subject_key, [
-                            Article('the'), 
-                            match['subject-argument']]),
-                        NounPhrase(case_key, [
-                            Adposition(native=match['adposition'], foreign=''), 
-                            Article(match['declined-noun-article']), 
-                            Cloze(1, lemma)]),
-                    ]
-                elif case == 'nominative':
-                    tree = Clause(case_key, match['verb'], nouns)
-                else:
-                    tree = Clause(subject_key, match['verb'], nouns)
-                emoji_noun = latin.declension_lookups['common'][emoji_key]
-                emoji_template = match['emoji']
-                emoji_template = emoji_template.replace('\\declined', emoji_noun)
-                emoji_template = emoji.emojiInflectionShorthand.decode(emoji_template, Person(case_key['number'][0], case_key['gender'][0],1), [])
-                print(tuplekey, case)
-                print(' '.join([
-                        cardFormatting.emoji_focus(emoji_template), 
-                        cardFormatting.english_word(english.format(tree)), 
-                        cardFormatting.foreign_focus(latin.format(latin.inflect(default_key, tree))),
-                    ]))
 
 '''
 write('flashcards/verb-conjugation/old-english.html', 
@@ -1418,36 +1419,3 @@ write('flashcards/verb-conjugation/swedish.html',
         persons = [Person('s','n',color) for color in [2,1,3,4,5]],
     ))
 '''
-
-# print(pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv'), 1, 5))
-
-# print(emoji.inflect(grammemes, translation.conjugation_lookups['emoji']))
-# print(emoji.inflect({**grammemes, 'mood':'imperative', 'aspect':'imperfect', 'person':'2', 'number':'dual'}, translation.conjugation_lookups['emoji']))
-# print(emoji.inflect({**grammemes, 'mood':'imperative', 'tense':'past', 'number':'dual'}, translation.conjugation_lookups['emoji']))
-# print(emoji.inflect({**grammemes, 'mood':'dynamic', 'tense':'future', 'number':'plural'}, translation.conjugation_lookups['emoji']))
-
-# translation.inflect({**grammemes, 'noun-form':'personal'}, translation.conjugation_lookups['argument'])
-
-# for k,v in list(english_conjugation['finite'].items({'verb':'do',**category_to_grammemes}))[:100]: print(k,v)
-# for k,v in list(english_predicate_templates.items({'verb':'do',**category_to_grammemes}))[:100]: print(k,v)
-# for k,v in list(english_declension.items({**category_to_grammemes}))[:100]: print(k,v)
-# for k,v in list(lookups['finite'].items({'verb':'release',**category_to_grammemes}))[:100]: print(k,v)
-
-# lookups = conjugation_population.index([
-#     *finite_annotation.annotate(
-#         tsv_parsing.rows('data/inflection/sanskrit/classical/conjugations.tsv'), 2, 4),
-# ])
-
-# grammemes = {
-#     'verb': 'release', 
-#     'person': '3', 
-#     'number': 'singular', 
-#     'clusivity': 'exclusive', 
-#     'formality': 'familiar', 
-#     'voice': 'active', 
-#     'tense': 'present', 
-#     'aspect': 'aorist',
-#     'mood': 'indicative', 
-#     'gender': 'masculine', 
-#     'language-type':'english',
-# }
