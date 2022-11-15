@@ -59,11 +59,11 @@ category_to_grammemes = {
     # As an example, all "animate" things are "living" but not all "dynamic" things are "living",
     # all "static" things are "nonliving" but not all static things are "abstract",
     # and a "plant" is "living", "dynamic", "nonagent", and "inanimate", among others.
-    'animacy':    [            'human',       'nonhuman',    # member of the species homo sapiens
-                   'sapient',  'humanoid',    'nonsapient',  # having the ability to think and speak
-                   'animate',  'creature',    'inanimate',   # able to move around on its own
-                   'living',   'plant',       'nonliving',   # able to grow and reproduce
-                   'concrete', 'perceptible', 'abstract',    # able to take physical form
+    'animacy':    [            'human',         'nonhuman',    # member of the species homo sapiens
+                   'sapient',  'humanoid',      'nonsapient',  # having the ability to think and speak
+                   'animate',  'creature',      'inanimate',   # able to move around on its own
+                   'living',   'plant',         'nonliving',   # able to grow and reproduce
+                   'concrete', 'manifestation', 'abstract',    # able to take physical form
                    'thing'],
     'partitivity':['nonpartitive', 'partitive', 'bipartitive'],
     'clitic':     ['tonic', 'proclitic', 'mesoclitic', 'endoclitic', 'enclitic'],
@@ -923,6 +923,9 @@ latin = Translation(
         'verb':      ['be', 'be able', 'want', 'become', 'go', 
                       'carry', 'eat', 'love', 'advise', 'direct-object', 
                       'capture', 'hear'],
+        'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
+                      'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
+                      'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet'],
     },
 )
 
@@ -1087,10 +1090,10 @@ for lemma in lemmas:
                 'partitivity': 'nonpartitive',
                 'formality':   'familiar',
                 'gender':      'masculine',
-                'tense':  'present', 
-                'voice':  'active',
-                'aspect': 'aorist', 
-                'mood':   'indicative',
+                'tense':       'present', 
+                'voice':       'active',
+                'aspect':      'aorist', 
+                'mood':        'indicative',
             }
             subject_key = {**default_key, 'case':'nominative', 'noun-form':'personal', 'number':'singular'}
             common_subject_key = {**default_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
