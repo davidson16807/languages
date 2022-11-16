@@ -400,7 +400,7 @@ class Emoji:
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
         self.mood_templates = mood_templates
-    def translate(self, grammemes, argument, persons):
+    def conjugate(self, grammemes, argument, persons):
         audience_lookup = {
             'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
             'polite':   '\\n2{🧑\\g2\\c2\\💼}',
@@ -411,6 +411,24 @@ class Emoji:
         # audience = (audience_lookup[grammemes['formality']] 
         #          if grammemes['formality'] in audience_lookup 
         #          else '\\n2{🧑\\g2\\c2}')
+        scene = getattr(self.htmlTenseTransform, grammemes['tense'])(
+                    getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(argument))
+        encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
+        subject = Person(
+            ''.join([
+                    (grammemes['number'][0]),
+                    ('i' if grammemes['clusivity']=='inclusive' else ''),
+                ]), 
+            grammemes['gender'][0], 
+            persons[int(grammemes['person'])-1].color)
+        persons = [
+            subject if str(i+1)==grammemes['person'] else person
+            for i, person in enumerate(persons)]
+        recounting = encoded_recounting
+        recounting = recounting.replace('\\scene', scene)
+        recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
+        return recounting
+    def decline(self, grammemes, argument, persons):
         scene = getattr(self.htmlTenseTransform, grammemes['tense'])(
                     getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(argument))
         encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
@@ -467,11 +485,13 @@ class Translation:
             declension_lookups, 
             conjugation_lookups, 
             mood_templates,
-            category_to_grammemes):
+            category_to_grammemes,
+            persons):
         self.declension_lookups = declension_lookups
         self.conjugation_lookups = conjugation_lookups
         self.mood_templates = mood_templates
         self.category_to_grammemes = category_to_grammemes
+        self.persons = persons
     def parse(self, NodeClass, text):
         if NodeClass in {set}:
             return set(text.split(' '))
@@ -567,14 +587,14 @@ class Translation:
             return Cloze(content.id, self.conjugate(grammemes, content.content))
         else:
             raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
-    def translate(self, grammemes, content):
+    def inflect(self, grammemes, content):
         if type(content) in {Clause}:
             grammemes = {**grammemes, **content.grammemes}
             return Clause(grammemes,
                 self.conjugate(grammemes, content.verb), 
                 {key:self.decline(grammemes, value) for (key,value) in content.nouns.items()})
         elif type(content) in {list,set}:
-            return [self.translate(grammemes, element) for element in content]
+            return [self.inflect(grammemes, element) for element in content]
         elif type(content) in {NounPhrase}:
             grammemes = {**grammemes, **content.grammemes}
             return self.decline(grammemes, content)
@@ -796,8 +816,6 @@ ROADMAP:
 * add bracketed comments to english templates
 '''
 
-cardFormatting = CardFormatting()
-
 declension_verb_annotation = CellAnnotation(
     grammeme_to_category, {0:'language'}, {0:'verb'}, 
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine']})
@@ -812,7 +830,7 @@ class CardGeneration:
         self.finite_traversal = finite_traversal
         self.declension_traversal = declension_traversal
         self.nouns_to_predicates = nouns_to_predicates
-    def conjugation(self, translation, filter_lookups, persons, default_grammemes={}, english_map=lambda x:x):
+    def conjugation(self, translation, filter_lookups, default_grammemes={}, english_map=lambda x:x):
         for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = {**default_grammemes, **self.finite_traversal.dictkey(tuplekey)}
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
@@ -821,13 +839,13 @@ class CardGeneration:
                         'subject':    NounPhrase({'noun-form': 'personal', 'case':'nominative'}),
                         'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
                     })
-                translated_tree = translation.translate(dictkey, syntax_tree)
+                translated_tree = translation.inflect(dictkey, syntax_tree)
                 emoji_key  = {**dictkey, 'script':'emoji'}
                 if translation.exists(translated_tree) and emoji_key in translation.conjugation_lookups['infinitive']:
                     english_text    = self.english.format(syntax_tree)
                     translated_text = translation.format(translated_tree)
                     emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
-                    emoji_text      = self.emoji.translate(dictkey, emoji_argument, persons)
+                    emoji_text      = self.emoji.conjugate(dictkey, emoji_argument, translation.persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.english_word(english_map(english_text)), 
@@ -889,13 +907,13 @@ class CardGeneration:
                     emoji_template = match['emoji']
                     emoji_template = emoji_template.replace('\\declined', emoji_noun)
                     emoji_template = self.emoji.emojiInflectionShorthand.decode(emoji_template, 
-                        Person(case_key['number'][0], case_key['gender'][0],1), [])
+                        Person(case_key['number'][0], case_key['gender'][0], translation.persons[4].color), translation.persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_template), 
                             self.cardFormatting.english_word(self.english.format(syntax_tree)), 
                             self.cardFormatting.foreign_focus(
                                 translation.format(
-                                    translation.translate(default_key, syntax_tree))),
+                                    translation.inflect(default_key, syntax_tree))),
                         ])
 
 card_generation = CardGeneration(
@@ -955,6 +973,7 @@ latin = Translation(
                       'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
                       'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet'],
     },
+    persons = [Person('s','n',color) for color in [2,3,1,4,5]],
 )
 
 write('flashcards/verb-conjugation/latin.html', 
@@ -975,10 +994,13 @@ write('flashcards/verb-conjugation/latin.html',
                     ('3', 'plural',   'masculine'),
                 })
             ],
-        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
     ))
 
-write('flashcards/noun-declension/latin.html', card_generation.declension(latin))
+write('flashcards/noun-declension/latin.html', 
+    card_generation.declension(
+        latin, 
+        default_grammemes={'script':'latin'},
+    ))
 
 
 

@@ -49,9 +49,6 @@ class TextTransformShorthand:
     Introduces LaTEX style escape sequences that represent
     standardized patterns of styled html elements 
     that surround emoji characters and represent gestures.
-    Current supported gestures include:
-        \lg
-        \sm
     '''
     def __init__(self, htmlTextTransform, bracketedShorthand):
         self.htmlTextTransform = htmlTextTransform
@@ -122,23 +119,23 @@ class EmojiAnnotationShorthand:
         self.positioning = htmlGroupPositioning
         self.bracketedShorthand = bracketedShorthand
         self.shorthand_functions = [
-            (r'\\inlhi', (-2, 1.5, 0.4)),
-            (r'\\inlmid',(-2, 0,   0.4)),
-            (r'\\inllo', (-2,-1.5, 0.4)),
-            (r'\\inrhi', ( 2, 1.5, 0.4)),
-            (r'\\inrmid',( 2, 0,   0.4)),
-            (r'\\inrlo', ( 2,-1.5, 0.4)),
-            (r'\\lhi',   (-1, 1, 0.4)),
-            (r'\\lmid',  (-1, 0, 0.4)),
-            (r'\\llo',   (-1,-1, 0.4)),
-            (r'\\rhi',   ( 1, 1, 0.4)),
-            (r'\\rmid',  ( 1, 0, 0.4)),
-            (r'\\rlo',   ( 1,-1, 0.4)),
-            (r'\\hi',    ( 0, 1, 0.4)),
-            (r'\\mid',   ( 0, 0, 0.4)),
-            (r'\\lo',    ( 0,-1, 0.4)),
-            (r'\\l',     (-0,0.5, 0.9)),
-            (r'\\r',     ( 0,0.5, 0.9)),
+            (r'\\inlhi', (-2, 1.5, 0.4)), # inside, left, high
+            (r'\\inlmid',(-2, 0,   0.4)), # inside, left, middle
+            (r'\\inllo', (-2,-1.5, 0.4)), # inside, left, low
+            (r'\\inrhi', ( 2, 1.5, 0.4)), # inside, right, high
+            (r'\\inrmid',( 2, 0,   0.4)), # inside, right, middle
+            (r'\\inrlo', ( 2,-1.5, 0.4)), # inside, right, low
+            (r'\\lhi',   (-1, 1, 0.4)),   # outside, left, high
+            (r'\\lmid',  (-1, 0, 0.4)),   # outside, left, middle
+            (r'\\llo',   (-1,-1, 0.4)),   # outside, left, low
+            (r'\\rhi',   ( 1, 1, 0.4)),   # outside, right, high
+            (r'\\rmid',  ( 1, 0, 0.4)),   # outside, right, middle
+            (r'\\rlo',   ( 1,-1, 0.4)),   # outside, right, low
+            (r'\\hi',    ( 0, 1, 0.4)),   # outside, right, high
+            (r'\\mid',   ( 0, 0, 0.4)),   # outside, right, middle
+            (r'\\lo',    ( 0,-1, 0.4)),   # outside, right, low
+            (r'\\l',     (-0,0.5, 0.9)),  # 
+            (r'\\r',     ( 0,0.5, 0.9)),  # 
         ]
     def decode(self, code):
         emoji = code
@@ -237,6 +234,7 @@ class EmojiModifierShorthand:
     '''
     def __init__(self):
         self.equivalences = [
+            ('\\16',u'\U0000FE0F'), # variation selector 16
             ('\\1',u'\U0001F3FB'), # light
             ('\\2',u'\U0001F3FC'),
             ('\\3',u'\U0001F3FD'), # medium
@@ -250,8 +248,8 @@ class EmojiModifierShorthand:
             ('🧓\\f','👵'),
             ('🕺\\m','🕺'),
             ('🕺\\f','💃'),
-            ('🤴\\m','🤴'),
-            ('🤴\\f','👸'),
+            ('🫅\\m','🤴'),
+            ('🫅\\f','👸'),
             ('\\m',u'\U0000200D♂️️'),
             ('\\f',u'\U0000200D♀️'),
             ('\\n',''),
