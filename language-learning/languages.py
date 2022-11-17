@@ -1,6 +1,6 @@
 import re
 
-from shorthands import Person
+from shorthands import EmojiPerson
 from syntax import (Cloze, NounPhrase, Adjective, Adposition, Article, StockModifier, Clause)
 
 class English:
@@ -153,7 +153,7 @@ class Emoji:
         scene = getattr(self.htmlTenseTransform, grammemes['tense'])(
                     getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(argument))
         encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
-        subject = Person(
+        subject = EmojiPerson(
             ''.join([
                     (grammemes['number'][0]),
                     ('i' if grammemes['clusivity']=='inclusive' else ''),
@@ -170,18 +170,24 @@ class Emoji:
     def decline(self, grammemes, scene, noun, persons):
         scene = scene.replace('\\declined', noun)
         scene = self.emojiInflectionShorthand.decode(scene, 
-            Person(grammemes['number'][0], grammemes['gender'][0], persons[4].color), persons)
+            EmojiPerson(
+                grammemes['number'][0], 
+                grammemes['gender'][0], 
+                persons[int(grammemes['person'])-1].color), 
+            persons)
         return scene
 
 class Translation:
     def __init__(self, 
-            declension_lookups, 
             conjugation_lookups, 
+            declension_lookups, 
+            use_case_to_grammatical_case,
             mood_templates,
             category_to_grammemes,
             persons):
-        self.declension_lookups = declension_lookups
         self.conjugation_lookups = conjugation_lookups
+        self.declension_lookups = declension_lookups
+        self.use_case_to_grammatical_case = use_case_to_grammatical_case
         self.mood_templates = mood_templates
         self.category_to_grammemes = category_to_grammemes
         self.persons = persons

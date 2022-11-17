@@ -6,18 +6,14 @@ import plurality
 
 from transforms import *
 from shorthands import *
-from parsing import SeparatedValuesFileParsing
-from annotation import *
-from indexing import *
-from lookup import *
-from population import *
 
-from annotation import RowAnnotation
+from parsing import SeparatedValuesFileParsing
+from annotation import RowAnnotation, CellAnnotation
 from predicates import Predicate
 from lookup import DefaultDictLookup, DictLookup
 from indexing import DictTupleIndexing, DictKeyIndexing
 from evaluation import KeyEvaluation, MultiKeyEvaluation
-from population import ListLookupPopulation, FlatLookupPopulation
+from population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
 from languages import English, Emoji, Translation
 from syntax import (Cloze, NounPhrase, Adjective, Adposition, Article, StockModifier, Clause)
 
@@ -129,8 +125,6 @@ grammeme_to_category = {
     for instance in instances
 }
 
-lemma_hashing = DictKeyIndexing('verb')
-
 verbial_declension_hashing = DictTupleIndexing([
         'verb',           
         'voice',      # needed for Swedish
@@ -200,7 +194,7 @@ conjugation_template_lookups = DictLookup(
         # verbs used as nouns, indicating the objective of something
         'supine': DictLookup('supine', verbial_declension_hashing),
         # a pattern in conjugation that the verb is meant to demonstrate
-        'group': DictLookup('group', lemma_hashing),
+        'group': DictLookup('group', DictKeyIndexing('verb')),
         # text that follows a verb in a sentence that demonstrates the verb
         'argument': DictLookup(
             'argument',
@@ -275,13 +269,13 @@ tsv_parsing = SeparatedValuesFileParsing()
 finite_annotation  = CellAnnotation(
     grammeme_to_category, {}, {0:'verb'}, 
     {**category_to_grammemes, 'script':'latin', 'verb-form':'finite'})
-infinitive_annotation  = CellAnnotation(
+nonfinite_annotation  = CellAnnotation(
     grammeme_to_category, {}, {0:'verb'},
     {**category_to_grammemes, 'script':'latin', 'verb-form':'infinitive'})
 pronoun_annotation  = CellAnnotation(
     grammeme_to_category, {}, {}, 
     {**category_to_grammemes, 'script':'latin', 'noun-form':'personal', 'language-type':'translated'})
-noun_annotation  = CellAnnotation(
+common_noun_annotation  = CellAnnotation(
     grammeme_to_category, {}, {0:'noun'}, 
     {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3', 'language-type':'translated'})
 declension_template_noun_annotation = CellAnnotation(
@@ -311,9 +305,6 @@ class CardFormatting:
     def english_word(self, content):
         return f'''<div>{content}</div>'''
 
-def first_of_options(content):
-    return content.split('/')[0]
-
 def replace(replacements):
     def _replace(content):
         for replaced, replacement in replacements:
@@ -321,30 +312,24 @@ def replace(replacements):
         return content
     return _replace
 
-def require(content):
-    return content if content.strip() else None
-
-def compose(*text_functions):
-    if len(text_functions) > 1:
-        return lambda content: text_functions[0](compose(text_functions[1:]))
-    else:
-        return text_functions[0]
-
-infinitive_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
+nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
 bracket_shorthand = BracketedShorthand(Enclosures())
 
-html_text_transform = HtmlTextTransform()
 html_group_positioning = HtmlGroupPositioning()
-html_person_positioning = HtmlPersonPositioning(html_group_positioning)
 
 emoji_shorthand = EmojiInflectionShorthand(
     EmojiSubjectShorthand(), 
     EmojiPersonShorthand(
         EmojiNumberShorthand(
-            HtmlNumberTransform(html_person_positioning), bracket_shorthand)),
+            HtmlNumberTransform(
+                HtmlPersonPositioning(html_group_positioning)
+            ), 
+            bracket_shorthand
+        )
+    ),
     EmojiBubbleShorthand(HtmlBubble(), bracket_shorthand),
-    TextTransformShorthand(html_text_transform, bracket_shorthand),
+    TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
     EmojiAnnotationShorthand(html_group_positioning, bracket_shorthand),
     EmojiModifierShorthand(),
 )
@@ -441,11 +426,11 @@ declension_template_annotation = RowAnnotation([
     'verb', 'direct-object-adjective', 'direct-object', 'adposition', 
     'declined-noun-article', 'declined-noun-function', 'declined-noun-argument',
     'emoji'])
-template_population = ListLookupPopulation(
+declension_template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
         DictTupleIndexing(['motion','cast']), list))
-templates = \
-    template_population.index(
+declension_templates = \
+    declension_template_population.index(
         declension_template_annotation.annotate(
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
@@ -466,16 +451,11 @@ class DeclensionTemplateMatching:
         return templates[0] if len(templates) > 0 else None
 
 case_annotation = RowAnnotation(['motion','cast','case','adposition'])
-case_indexing = DictTupleIndexing(['motion','cast'])
-case_population = \
-    FlatLookupPopulation(
-        DictLookup('declension-use-case-to-grammatical-case', case_indexing),
-        MultiKeyEvaluation(['case','adposition']))
-
-use_case_to_grammatical_case = \
-    case_population.index(
-        case_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv')))
+case_population = FlatLookupPopulation(
+    DictLookup('declension-use-case-to-grammatical-case', 
+        DictTupleIndexing(['motion','cast'])),
+    MultiKeyEvaluation(['case','adposition'])
+)
 
 declension_verb_annotation = CellAnnotation(
     grammeme_to_category, {0:'language'}, {0:'verb'}, 
@@ -531,13 +511,13 @@ class CardGeneration:
         }
         for tuplekey in self.declension_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = self.declension_traversal.dictkey(tuplekey)
-            if dictkey in use_case_to_grammatical_case:
+            if dictkey in translation.use_case_to_grammatical_case:
                 noun = dictkey['noun']
                 predicate = self.nouns_to_predicates[noun] if noun in self.nouns_to_predicates else noun
-                case = use_case_to_grammatical_case[dictkey]['case']
-                adposition = use_case_to_grammatical_case[dictkey]['adposition']
+                case = translation.use_case_to_grammatical_case[dictkey]['case']
+                adposition = translation.use_case_to_grammatical_case[dictkey]['adposition']
                 case_key = {**default_key, **dictkey, 'case':case, 'noun-form':'common'}
-                emoji_key = {**default_key, **dictkey, 'noun':noun, 'case':case, 'noun-form':'common', 'script': 'emoji'}
+                emoji_key = {**default_key, **dictkey, 'noun':noun, 'case':case, 'noun-form':'common', 'script': 'emoji', 'person':'4'}
                 match = self.declension_template_matching.match(predicate, dictkey['motion'], dictkey['cast'])
                 if match and emoji_key in translation.declension_lookups['common']:
                     if case == 'genitive':
@@ -583,7 +563,7 @@ card_generation = CardGeneration(
         'gender','tense', 'aspect', 'mood', 'voice', 'verb']),
     DictTupleIndexing([
         'motion','cast','number','noun']),
-    DeclensionTemplateMatching(templates, allthat),
+    DeclensionTemplateMatching(declension_templates, allthat),
     {
         'animal':'cow',
         'thing':'bolt',
@@ -592,25 +572,28 @@ card_generation = CardGeneration(
 )
 
 latin = Translation(
-    declension_population.index([
-        *pronoun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/classical/pronoun-declensions.tsv'), 1, 4),
-        *noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/latin/classical/declensions.tsv'), 1, 2),
-        *filter(has_annotation('language','latin'),
-            declension_template_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
-    ]),
     conjugation_population.index([
         *finite_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/classical/finite-conjugations.tsv'), 3, 4),
-        *infinitive_annotation.annotate(
+        *nonfinite_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/classical/nonfinite-conjugations.tsv'), 6, 2),
         *filter(has_annotation('language','latin'),
             declension_verb_annotation.annotate(
                 tsv_parsing.rows(
                     'data/inflection/declension-template-verbs.tsv'), 2, 9)),
     ]),
+    declension_population.index([
+        *pronoun_annotation.annotate(
+            tsv_parsing.rows('data/inflection/latin/classical/pronoun-declensions.tsv'), 1, 4),
+        *common_noun_annotation.annotate(
+            tsv_parsing.rows('data/inflection/latin/classical/declensions.tsv'), 1, 2),
+        *filter(has_annotation('language','latin'),
+            declension_template_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
+    ]),
+    case_population.index(
+        case_annotation.annotate(
+            tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv'))),
     mood_templates = {
         'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
         'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
@@ -625,7 +608,7 @@ latin = Translation(
         'clitic':     'tonic',
         'clusivity':  'exclusive',
         'formality':  'familiar',
-        'gender':    ['neuter', 'masculine'],
+        'gender':    ['neuter', 'feminine', 'masculine'],
         'voice':     ['active', 'passive'],
         'mood':      ['indicative','subjunctive','imperative',],
         'verb':      ['be', 'be able', 'want', 'become', 'go', 
@@ -635,24 +618,30 @@ latin = Translation(
                       'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
                       'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet'],
     },
-    persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+    persons = [
+        EmojiPerson('s','n',3),
+        EmojiPerson('s','f',4),
+        EmojiPerson('s','m',2),
+        EmojiPerson('s','n',1),
+        EmojiPerson('s','n',5),
+    ],
 )
 
 write('flashcards/verb-conjugation/latin.html', 
     card_generation.conjugation(
         latin,
         default_grammemes={'script':'latin'},
-        english_map=replace([('♂','')]), 
+        english_map=replace([('♂',''),('♀','')]), 
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['person', 'number', 'gender']),
                 content = {
                     ('1', 'singular', 'neuter'),
-                    ('2', 'singular', 'neuter'),
+                    ('2', 'singular', 'feminine'),
                     ('3', 'singular', 'masculine'),
                     ('1', 'plural',   'neuter'),
-                    ('2', 'plural',   'neuter'),
+                    ('2', 'plural',   'feminine'),
                     ('3', 'plural',   'masculine'),
                 })
             ],
@@ -676,7 +665,7 @@ write('flashcards/verb-conjugation/ancient-greek.html',
             conjugation_population.index([
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/greek/attic/finite-conjugations.tsv'), 3, 4),
-                *infinitive_annotation.annotate(
+                *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/greek/attic/nonfinite-conjugations.tsv'), 6, 2),
             ]),
             mood_templates = {
@@ -715,7 +704,7 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                     ('3', 'plural',   'masculine'),
                 }),
         ],
-        persons = [Person('s','n',color) for color in [3,2,4,1,5]],
+        persons = [EmojiPerson('s','n',color) for color in [3,2,4,1,5]],
     ))
 
 write('flashcards/verb-conjugation/french.html', 
@@ -727,7 +716,7 @@ write('flashcards/verb-conjugation/french.html',
             conjugation_population.index([
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/french/finite-conjugations.tsv'), 4, 3),
-                *infinitive_annotation.annotate(
+                *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/french/nonfinite-conjugations.tsv'), 3, 1),
             ]),
             mood_templates = {
@@ -764,7 +753,7 @@ write('flashcards/verb-conjugation/french.html',
                     ('3', 'plural',   'masculine'),
                 })
             ],
-        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+        persons = [EmojiPerson('s','n',color) for color in [2,3,1,4,5]],
     ))
 
 write('flashcards/verb-conjugation/german.html', 
@@ -776,7 +765,7 @@ write('flashcards/verb-conjugation/german.html',
             conjugation_population.index([
                     *finite_annotation.annotate(
                         tsv_parsing.rows('data/inflection/german/finite-conjugations.tsv'), 4, 3),
-                    *infinitive_annotation.annotate(
+                    *nonfinite_annotation.annotate(
                         tsv_parsing.rows('data/inflection/german/nonfinite-conjugations.tsv'), 7, 1),
                 ]),
             mood_templates = {
@@ -821,7 +810,7 @@ write('flashcards/verb-conjugation/german.html',
                     ('3', 'plural',   'familiar', 'masculine'),
                 })
             ],
-        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+        persons = [EmojiPerson('s','n',color) for color in [2,3,1,4,5]],
     ))
 '''
 
@@ -871,7 +860,7 @@ write('flashcards/verb-conjugation/old-english.html',
                     ('3', 'plural',   'masculine'),
                 })
             ],
-        persons = [Person('s','n',color) for color in [2,3,1,4,5]],
+        persons = [EmojiPerson('s','n',color) for color in [2,3,1,4,5]],
     ))
 
 write('flashcards/verb-conjugation/proto-indo-european.html', 
@@ -883,7 +872,7 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
             conjugation_population.index([
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/proto-indo-european/sihler/finite-conjugations.tsv'), 2, 4),
-                *infinitive_annotation.annotate(
+                *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/proto-indo-european/sihler/nonfinite-conjugations.tsv'), 2, 2),
             ]),
             mood_templates = {
@@ -923,7 +912,7 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                     ('3', 'plural',   'masculine'),
                 })
             ],
-        persons = [Person('s','n',color) for color in [3,2,1,4,5]],
+        persons = [EmojiPerson('s','n',color) for color in [3,2,1,4,5]],
     ))
 
 write('flashcards/verb-conjugation/russian.html', 
@@ -935,7 +924,7 @@ write('flashcards/verb-conjugation/russian.html',
             conjugation_population.index([
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/russian/finite-conjugations.tsv'), 3, 4),
-                *infinitive_annotation.annotate(
+                *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/russian/nonfinite-conjugations.tsv'), 2, 3),
             ]),
             mood_templates = {
@@ -989,7 +978,7 @@ write('flashcards/verb-conjugation/russian.html',
                     ('past',    '3', 'plural',   'neuter'    ),
                 })
             ],
-        persons = [Person('s','n',color) for color in [1,2,3,4,5]],
+        persons = [EmojiPerson('s','n',color) for color in [1,2,3,4,5]],
     ))
 
 write('flashcards/verb-conjugation/spanish.html', 
@@ -1001,7 +990,7 @@ write('flashcards/verb-conjugation/spanish.html',
             conjugation_population.index([
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/spanish/finite-conjugations.tsv'), 3, 4),
-                *infinitive_annotation.annotate(
+                *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/spanish/nonfinite-conjugations.tsv'), 3, 2)
             ]), 
             mood_templates = {
@@ -1044,7 +1033,7 @@ write('flashcards/verb-conjugation/spanish.html',
                     ('formal',   '2', 'plural',   'masculine'),
                 })
             ],
-        persons = [Person('s','n',color) for color in [3,2,4,1,5]],
+        persons = [EmojiPerson('s','n',color) for color in [3,2,4,1,5]],
     ))
 
 write('flashcards/verb-conjugation/swedish.html', 
@@ -1101,6 +1090,6 @@ write('flashcards/verb-conjugation/swedish.html',
                     ('imperative',  '2'),
                 }),
         ],
-        persons = [Person('s','n',color) for color in [2,1,3,4,5]],
+        persons = [EmojiPerson('s','n',color) for color in [2,1,3,4,5]],
     ))
 '''

@@ -298,7 +298,7 @@ class EmojiBubbleShorthand:
         emoji = emoji.replace('\\lthought', "<span style='padding-left: 0.5em; color:#ddd; position:relative; bottom: 0.5em;'><sub>•</sub>•</span>")
         return emoji
 
-class Person:
+class EmojiPerson:
     def __init__(self, number, gender, color):
         self.number = number
         self.gender = gender
