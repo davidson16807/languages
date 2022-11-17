@@ -130,8 +130,11 @@ class English:
             return NodeClass(self.parse(text))
 
 class Emoji:
-    def __init__(self, emojiInflectionShorthand, 
-            htmlTenseTransform, htmlAspectTransform, mood_templates):
+    def __init__(self, 
+            mood_templates, 
+            emojiInflectionShorthand, 
+            htmlTenseTransform, 
+            htmlAspectTransform):
         self.emojiInflectionShorthand = emojiInflectionShorthand
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
@@ -164,24 +167,11 @@ class Emoji:
         recounting = recounting.replace('\\scene', scene)
         recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
         return recounting
-    def decline(self, grammemes, argument, persons):
-        scene = getattr(self.htmlTenseTransform, grammemes['tense'])(
-                    getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(argument))
-        encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
-        subject = Person(
-            ''.join([
-                    (grammemes['number'][0]),
-                    ('i' if grammemes['clusivity']=='inclusive' else ''),
-                ]), 
-            grammemes['gender'][0], 
-            persons[int(grammemes['person'])-1].color)
-        persons = [
-            subject if str(i+1)==grammemes['person'] else person
-            for i, person in enumerate(persons)]
-        recounting = encoded_recounting
-        recounting = recounting.replace('\\scene', scene)
-        recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
-        return recounting
+    def decline(self, grammemes, scene, noun, persons):
+        scene = scene.replace('\\declined', noun)
+        scene = self.emojiInflectionShorthand.decode(scene, 
+            Person(grammemes['number'][0], grammemes['gender'][0], persons[4].color), persons)
+        return scene
 
 class Translation:
     def __init__(self, 

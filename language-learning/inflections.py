@@ -24,7 +24,7 @@ from syntax import (Cloze, NounPhrase, Adjective, Adposition, Article, StockModi
 category_to_grammemes = {
 
     # needed to lookup the argument that is used to demonstrate a verb
-    'language-type':   ['english', 'translated', 'transcripted'], 
+    'language-type':   ['english', 'translated'], 
 
     'script':[
         # scripts that were derived from the phoenecian alphabet:
@@ -350,11 +350,11 @@ emoji_shorthand = EmojiInflectionShorthand(
 )
 
 emoji = Emoji(
-    emoji_shorthand, HtmlTenseTransform(), HtmlAspectTransform(), 
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'), 1, 1)),
-    )
+    emoji_shorthand, HtmlTenseTransform(), HtmlAspectTransform(), 
+)
 
 english = English(
     plurality.english,
@@ -477,30 +477,21 @@ use_case_to_grammatical_case = \
         case_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv')))
 
-matching = DeclensionTemplateMatching(templates, allthat)
-
-'''
-ROADMAP:
-* template maching should find the template for "walking", not "directing attention"
-* fix issue where certain verbs cannot be found in csv
-* template population should produce an error if no verb is found for them
-* add templates for nominative, accusative, genitive, and dative
-* add bracketed comments to english templates
-'''
-
 declension_verb_annotation = CellAnnotation(
     grammeme_to_category, {0:'language'}, {0:'verb'}, 
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine']})
 
 class CardGeneration:
-    def __init__(self, english, emoji, 
-            cardFormatting, finite_traversal, declension_traversal, 
+    def __init__(self, english, emoji, cardFormatting,
+            finite_traversal, declension_traversal,
+            declension_template_matching,
             nouns_to_predicates):
         self.english = english
         self.emoji = emoji
         self.cardFormatting = cardFormatting
         self.finite_traversal = finite_traversal
         self.declension_traversal = declension_traversal
+        self.declension_template_matching = declension_template_matching
         self.nouns_to_predicates = nouns_to_predicates
     def conjugation(self, translation, filter_lookups, default_grammemes={}, english_map=lambda x:x):
         for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
@@ -547,7 +538,7 @@ class CardGeneration:
                 adposition = use_case_to_grammatical_case[dictkey]['adposition']
                 case_key = {**default_key, **dictkey, 'case':case, 'noun-form':'common'}
                 emoji_key = {**default_key, **dictkey, 'noun':noun, 'case':case, 'noun-form':'common', 'script': 'emoji'}
-                match = matching.match(predicate, dictkey['motion'], dictkey['cast'])
+                match = self.declension_template_matching.match(predicate, dictkey['motion'], dictkey['cast'])
                 if match and emoji_key in translation.declension_lookups['common']:
                     if case == 'genitive':
                         subject_key = {**default_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
@@ -575,13 +566,10 @@ class CardGeneration:
                                     Article(match['declined-noun-article']), 
                                     Cloze(1, noun)]),
                         })
-                    emoji_noun = translation.declension_lookups['common'][emoji_key]
-                    emoji_template = match['emoji']
-                    emoji_template = emoji_template.replace('\\declined', emoji_noun)
-                    emoji_template = self.emoji.emojiInflectionShorthand.decode(emoji_template, 
-                        Person(case_key['number'][0], case_key['gender'][0], translation.persons[4].color), translation.persons)
+                    emoji_text = self.emoji.decline(emoji_key, 
+                        match['emoji'], translation.declension_lookups['common'][emoji_key], translation.persons)
                     yield ' '.join([
-                            self.cardFormatting.emoji_focus(emoji_template), 
+                            self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.english_word(self.english.format(syntax_tree)), 
                             self.cardFormatting.foreign_focus(
                                 translation.format(
@@ -595,11 +583,13 @@ card_generation = CardGeneration(
         'gender','tense', 'aspect', 'mood', 'voice', 'verb']),
     DictTupleIndexing([
         'motion','cast','number','noun']),
+    DeclensionTemplateMatching(templates, allthat),
     {
         'animal':'cow',
         'thing':'bolt',
         'phenomenon': 'eruption',
-    })
+    },
+)
 
 latin = Translation(
     declension_population.index([
