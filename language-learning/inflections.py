@@ -24,7 +24,7 @@ category_to_grammemes = {
 
     'script':[
         # scripts that were derived from the phoenecian alphabet:
-        'latin','cyrillic','greek','hebrew','arabic','phoenician',
+        'latin','cyrillic','greek','hebrew','arabic','phoenician','ipa',
         # scripts that were invented, borrowing aesthetics from chinese logograms:
         'hirigana','katakana','hangul',
         # scripts that were derived from chinese logograms:
@@ -463,19 +463,14 @@ declension_verb_annotation = CellAnnotation(
 
 class CardGeneration:
     def __init__(self, english, emoji, cardFormatting,
-            finite_traversal, declension_traversal,
-            declension_template_matching,
-            nouns_to_predicates):
+            declension_template_matching):
         self.english = english
         self.emoji = emoji
         self.cardFormatting = cardFormatting
-        self.finite_traversal = finite_traversal
-        self.declension_traversal = declension_traversal
         self.declension_template_matching = declension_template_matching
-        self.nouns_to_predicates = nouns_to_predicates
-    def conjugation(self, translation, filter_lookups, default_grammemes={}, english_map=lambda x:x):
-        for tuplekey in self.finite_traversal.tuplekeys(translation.category_to_grammemes):
-            dictkey = {**default_grammemes, **self.finite_traversal.dictkey(tuplekey)}
+    def conjugation(self, translation, traversal, filter_lookups=[], default_grammemes={}, english_map=lambda x:x):
+        for tuplekey in traversal.tuplekeys(translation.category_to_grammemes):
+            dictkey = {**default_grammemes, **traversal.dictkey(tuplekey)}
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
                 syntax_tree = Clause(dictkey, Cloze(1, dictkey['verb']),
                     {
@@ -496,20 +491,24 @@ class CardGeneration:
                         ])
     def declension(self, 
             translation, 
+            traversal, 
+            filter_lookups=[],
+            nouns_to_predicates={},
             default_grammemes={}, 
             subject_grammemes={}, 
             direct_object_grammemes={}, 
             possessor_grammemes={}, 
             declined_grammemes={}):
-        for tuplekey in self.declension_traversal.tuplekeys(translation.category_to_grammemes):
-            dictkey = self.declension_traversal.dictkey(tuplekey)
-            if dictkey in translation.use_case_to_grammatical_case:
+        for tuplekey in traversal.tuplekeys(translation.category_to_grammemes):
+            dictkey = {**default_grammemes, **traversal.dictkey(tuplekey)}
+            if (all([dictkey in filter_lookup for filter_lookup in filter_lookups]) and 
+                  dictkey in translation.use_case_to_grammatical_case):
                 noun = dictkey['noun']
-                predicate = self.nouns_to_predicates[noun] if noun in self.nouns_to_predicates else noun
+                predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
                 case = translation.use_case_to_grammatical_case[dictkey]['case']
                 adposition = translation.use_case_to_grammatical_case[dictkey]['adposition']
                 case_key = {**default_grammemes, **declined_grammemes, **dictkey, 'case':case}
-                emoji_key = {**default_grammemes, **dictkey, 'noun':noun, 'case':case, 'noun-form':'common', 'script': 'emoji', 'person':'4'}
+                emoji_key = {**default_grammemes, **dictkey, 'case':case, 'noun-form':'common', 'script': 'emoji', 'person':'4'}
                 match = self.declension_template_matching.match(predicate, dictkey['motion'], dictkey['cast'])
                 if match and emoji_key in translation.declension_lookups['common']:
                     if case == 'genitive':
@@ -552,17 +551,7 @@ class CardGeneration:
 
 card_generation = CardGeneration(
     english, emoji, CardFormatting(),
-    DictTupleIndexing([
-        'number','formality','clusivity','person','clitic',
-        'gender','tense', 'aspect', 'mood', 'voice', 'verb']),
-    DictTupleIndexing([
-        'motion','cast','number','noun']),
     DeclensionTemplateMatching(declension_templates, allthat),
-    {
-        'animal':'cow',
-        'thing':'bolt',
-        'phenomenon': 'eruption',
-    },
 )
 
 latin = Translation(
@@ -624,8 +613,9 @@ latin = Translation(
 write('flashcards/verb-conjugation/latin.html', 
     card_generation.conjugation(
         latin,
-        default_grammemes={'script':'latin'},
-        english_map=replace([('♂',''),('♀','')]), 
+        DictTupleIndexing([
+            'number','formality','clusivity','person','clitic','gender',
+            'tense', 'aspect', 'mood', 'voice', 'verb']),
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
@@ -639,11 +629,15 @@ write('flashcards/verb-conjugation/latin.html',
                     ('3', 'plural',   'masculine'),
                 })
             ],
+        default_grammemes={'script':'latin'},
+        english_map=replace([('♂',''),('♀','')]), 
     ))
 
 write('flashcards/noun-declension/latin.html', 
     card_generation.declension(
         latin, 
+        DictTupleIndexing([
+            'motion','cast','number','noun']),
         default_grammemes = {
             'script':      'latin',
             'person':      '3',
@@ -657,6 +651,11 @@ write('flashcards/noun-declension/latin.html',
             'aspect':      'aorist', 
             'mood':        'indicative',
         },
+        nouns_to_predicates = {
+            'animal':'cow',
+            'thing':'bolt',
+            'phenomenon': 'eruption',
+        },
         subject_grammemes = {'noun-form':'personal', 'number':'singular'},
         possessor_grammemes = {'noun-form':'common', 'number':'singular'},
         direct_object_grammemes = {'noun-form':'common', 'number':'singular'},
@@ -667,6 +666,26 @@ write('flashcards/noun-declension/latin.html',
 write('flashcards/pronoun-declension/latin.html', 
     card_generation.declension(
         latin, 
+        DictTupleIndexing([
+            'person', 'number', 'gender',
+            'motion', 'cast', 'noun-form']),
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleIndexing(['person', 'number', 'gender']),
+                content = {
+                    ('1', 'singular', 'neuter'),
+                    ('2', 'singular', 'feminine'),
+                    ('3', 'singular', 'masculine'),
+                    ('3', 'singular', 'feminine'),
+                    ('3', 'singular', 'neuter'),
+                    ('1', 'plural',   'neuter'),
+                    ('2', 'plural',   'feminine'),
+                    ('3', 'plural',   'masculine'),
+                    ('3', 'plural',   'feminine'),
+                    ('3', 'plural',   'neuter'),
+                })
+            ],
         default_grammemes = {
             'script':      'latin',
             'person':      '3',
@@ -679,6 +698,7 @@ write('flashcards/pronoun-declension/latin.html',
             'voice':       'active',
             'aspect':      'aorist', 
             'mood':        'indicative',
+            'noun':        'man',
         },
         subject_grammemes = {'noun-form':'common', 'number':'singular'},
         possessor_grammemes = {'noun-form':'common', 'number':'singular'},

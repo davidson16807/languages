@@ -68,6 +68,10 @@ be	speech	be	utterance
 be	speech	has-trait	length					
 be	comment	be	utterance					
 be	comment	has-trait	length					
+be	story	be	utterance					
+be	story	has-trait	length					
+								
+be	myth	be	story					
 								
 be	atom	be	matter					
 be	atom	has-trait	mass					
