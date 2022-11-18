@@ -274,13 +274,13 @@ nonfinite_annotation  = CellAnnotation(
     {**category_to_grammemes, 'script':'latin', 'verb-form':'infinitive'})
 pronoun_annotation  = CellAnnotation(
     grammeme_to_category, {}, {}, 
-    {**category_to_grammemes, 'script':'latin', 'noun-form':'personal', 'language-type':'translated'})
+    {**category_to_grammemes, 'script':'latin', 'noun-form':'personal'})
 common_noun_annotation  = CellAnnotation(
     grammeme_to_category, {}, {0:'noun'}, 
-    {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3', 'language-type':'translated'})
+    {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3'})
 declension_template_noun_annotation = CellAnnotation(
     grammeme_to_category, {0:'language'}, {0:'noun'}, 
-    {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3', 'language-type':'translated'})
+    {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3'})
 predicate_annotation = CellAnnotation(
     grammeme_to_category, {0:'column'}, {}, 
     {**category_to_grammemes, 'script':'latin', 'verb-form':'finite'})
@@ -422,7 +422,7 @@ for (f,x),(g,y) in level0_subset_relations:
 
 declension_template_annotation = RowAnnotation([
     'motion', 'cast', 'specificity',
-    'subject-adjective', 'subject-function', 'subject-argument', 
+    'subject-article', 'subject-function', 'subject-argument', 
     'verb', 'direct-object-adjective', 'direct-object', 'adposition', 
     'declined-noun-article', 'declined-noun-function', 'declined-noun-argument',
     'emoji'])
@@ -494,21 +494,13 @@ class CardGeneration:
                             self.cardFormatting.english_word(english_map(english_text)), 
                             self.cardFormatting.foreign_focus(translated_text),
                         ])
-    def declension(self, translation, default_grammemes={}):
-        default_key = {
-            'script':      'latin',
-            'person':      '3',
-            'clusivity':   'exclusive',
-            'clitic':      'tonic',
-            'partitivity': 'nonpartitive',
-            'formality':   'familiar',
-            'gender':      'masculine',
-            'tense':       'present', 
-            'voice':       'active',
-            'aspect':      'aorist', 
-            'mood':        'indicative',
-            **default_grammemes,
-        }
+    def declension(self, 
+            translation, 
+            default_grammemes={}, 
+            subject_grammemes={}, 
+            direct_object_grammemes={}, 
+            possessor_grammemes={}, 
+            declined_grammemes={}):
         for tuplekey in self.declension_traversal.tuplekeys(translation.category_to_grammemes):
             dictkey = self.declension_traversal.dictkey(tuplekey)
             if dictkey in translation.use_case_to_grammatical_case:
@@ -516,12 +508,12 @@ class CardGeneration:
                 predicate = self.nouns_to_predicates[noun] if noun in self.nouns_to_predicates else noun
                 case = translation.use_case_to_grammatical_case[dictkey]['case']
                 adposition = translation.use_case_to_grammatical_case[dictkey]['adposition']
-                case_key = {**default_key, **dictkey, 'case':case, 'noun-form':'common'}
-                emoji_key = {**default_key, **dictkey, 'noun':noun, 'case':case, 'noun-form':'common', 'script': 'emoji', 'person':'4'}
+                case_key = {**default_grammemes, **declined_grammemes, **dictkey, 'case':case}
+                emoji_key = {**default_grammemes, **dictkey, 'noun':noun, 'case':case, 'noun-form':'common', 'script': 'emoji', 'person':'4'}
                 match = self.declension_template_matching.match(predicate, dictkey['motion'], dictkey['cast'])
                 if match and emoji_key in translation.declension_lookups['common']:
                     if case == 'genitive':
-                        subject_key = {**default_key, 'case':'nominative', 'noun-form':'common', 'number':'singular'}
+                        subject_key = {**default_grammemes, **possessor_grammemes, 'case':'nominative'}
                         syntax_tree = [
                             NounPhrase(subject_key, [
                                 Article('the'), 
@@ -532,10 +524,12 @@ class CardGeneration:
                                 Cloze(1, noun)]),
                         ]
                     else:
-                        subject_key = {**default_key, 'case':'nominative', 'noun-form':'personal', 'number':'singular'}
-                        direct_object_key = {**default_key, 'case':'accusative', 'noun-form':'common', 'number':'singular'}
+                        subject_key = {**default_grammemes, **subject_grammemes, 'case':'nominative'}
+                        direct_object_key = {**default_grammemes, **direct_object_grammemes, 'case':'accusative'}
                         syntax_tree = Clause(case_key if case == 'nominative' else subject_key, match['verb'], {
-                            'subject': NounPhrase(subject_key, [match['subject-argument']]),
+                            'subject': NounPhrase(subject_key, [
+                                    Article(match['subject-article']),
+                                    match['subject-argument']]),
                             'direct-object': 
                                 NounPhrase(direct_object_key, [
                                     Adjective(match['direct-object-adjective']), 
@@ -553,7 +547,7 @@ class CardGeneration:
                             self.cardFormatting.english_word(self.english.format(syntax_tree)), 
                             self.cardFormatting.foreign_focus(
                                 translation.format(
-                                    translation.inflect(default_key, syntax_tree))),
+                                    translation.inflect(default_grammemes, syntax_tree))),
                         ])
 
 card_generation = CardGeneration(
@@ -650,8 +644,50 @@ write('flashcards/verb-conjugation/latin.html',
 write('flashcards/noun-declension/latin.html', 
     card_generation.declension(
         latin, 
-        default_grammemes={'script':'latin'},
+        default_grammemes = {
+            'script':      'latin',
+            'person':      '3',
+            'clusivity':   'exclusive',
+            'clitic':      'tonic',
+            'partitivity': 'nonpartitive',
+            'formality':   'familiar',
+            'gender':      'masculine',
+            'tense':       'present', 
+            'voice':       'active',
+            'aspect':      'aorist', 
+            'mood':        'indicative',
+        },
+        subject_grammemes = {'noun-form':'personal', 'number':'singular'},
+        possessor_grammemes = {'noun-form':'common', 'number':'singular'},
+        direct_object_grammemes = {'noun-form':'common', 'number':'singular'},
+        declined_grammemes = {'noun-form':'common'},
     ))
+
+
+write('flashcards/pronoun-declension/latin.html', 
+    card_generation.declension(
+        latin, 
+        default_grammemes = {
+            'script':      'latin',
+            'person':      '3',
+            'clusivity':   'exclusive',
+            'clitic':      'tonic',
+            'partitivity': 'nonpartitive',
+            'formality':   'familiar',
+            'gender':      'masculine',
+            'tense':       'present', 
+            'voice':       'active',
+            'aspect':      'aorist', 
+            'mood':        'indicative',
+        },
+        subject_grammemes = {'noun-form':'common', 'number':'singular'},
+        possessor_grammemes = {'noun-form':'common', 'number':'singular'},
+        direct_object_grammemes = {'noun-form':'common', 'number':'singular'},
+        declined_grammemes = {'noun-form':'personal'},
+    ))
+
+
+
 
 
 

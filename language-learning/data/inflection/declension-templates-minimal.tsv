@@ -24,7 +24,9 @@ associated	direct-object	1	the	be	man	see				the	be	sapient	💁\c3\m\declined
 associated	direct-object	0	the	be	man	hear				the	can	be-heard	💁\c3\m\group{\declined\r{🗯️}}															
 associated	direct-object	-1	the	be	man	love				the	be	thing	\declined\group{🚶\c3\m\rhi{❤️}}															
 associated	possessor	0	the	be	size				of	the	has-trait	size	📏\declined															
-associated	possessor	1	the	be	size				of	the	be	sapient	📏\declined															
+associated	possessor	1	the	be	son				of	the	be	sapient	📏\declined															
+associated	possessor	1	the	be	daughter				of	the	be	sapient	📏\declined															
+associated	possessor	1	the	be	livestock				of	the	be	sapient	📏\declined															
 associated	possessor	0	the	be	sound				of	the	has-trait	sound	\group{\declined\r{🗯️}}															
 associated	possessor	-1	the	be	thought				of	the	be	manifestation	\bubble{\declined}\rthought															
 associated	possessor	-1	the	be	thought				of	the	be	time	\bubble{\declined}\rthought															

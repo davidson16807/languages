@@ -28,6 +28,9 @@ class DictLookup:
                                     'Key does not exist within the dictionary.',
                                     *(['Lookup:', '\t'+str(self.name)] if self.name else []),
                                     'Key:', '\t'+str(key),
+                                    'Attempted interpretations:',
+                                    *['\t'+str(self.indexing.dictkey(tuplekey)) 
+                                      for tuplekey in self.indexing.tuplekeys(key)]
                                 ]))
             else:
                 raise IndexError('\n'.join([

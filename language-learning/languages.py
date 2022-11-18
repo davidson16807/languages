@@ -18,6 +18,8 @@ class English:
     def decline(self, grammemes, content):
         grammemes = {**grammemes, 'language-type':'english'}
         if content is None:
+            case = grammemes['case'] if grammemes['case'] in {'nominative','genitive'} else 'oblique'
+            grammemes = {**grammemes, 'case': case}
             return (
                 self.declension_lookups[grammemes][grammemes] if grammemes['noun-form'] != 'common'
                 else self.plurality.pluralize(grammemes['noun']) if grammemes['number'] != 'singular'
@@ -29,11 +31,15 @@ class English:
             #  where grammemes contain the lemma for the declension
             return self.decline({**grammemes, 'noun':content}, None) 
         elif type(content) in {NounPhrase}:
-            return NounPhrase({**grammemes, **content.grammemes}, 
-                self.decline({**grammemes, **content.grammemes}, content.content))
+            grammemes = {**grammemes, **content.grammemes}
+            case = grammemes['case'] if grammemes['case'] in {'nominative','genitive'} else 'oblique'
+            grammemes = {**grammemes, 'case': case}
+            return NounPhrase(grammemes, self.decline(grammemes, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
-        elif type(content) in {Adjective, Article, Adposition}:
+        elif type(content) in {Adjective, Article}:
+            return (content if grammemes['noun-form'] == 'common' else [])
+        elif type(content) in {Adposition}:
             return content
         elif type(content) in {Cloze}:
             return Cloze(content.id, self.decline(grammemes, content.content))
@@ -257,18 +263,18 @@ class Translation:
             #  where grammemes contain the lemma for the declension
             return self.decline({**grammemes, 'noun':content}, None) 
         elif type(content) in {NounPhrase}:
-            return NounPhrase(content.grammemes, 
+            return NounPhrase({**grammemes, **content.grammemes}, 
                 self.decline({**grammemes, **content.grammemes}, content.content))
         elif type(content) in {StockModifier}:
             return content.lookup[grammemes] if grammemes in content.lookup else []
         elif type(content) in {Adjective}:
-            return Adjective(self.decline(grammemes, content.content))
+            return (Adjective(self.decline(grammemes, content.content)) if grammemes['noun-form'] == 'common' else [])
         elif type(content) in {Article}:
-            return Article(self.decline(grammemes, content.content))
+            return (Article(self.decline(grammemes, content.content)) if grammemes['noun-form'] == 'common' else [])
         elif type(content) in {Adposition}:
             return Adposition(
                 native=content.native, 
-                foreign=self.decline(grammemes, content.foreign))
+                foreign=content.foreign)
         elif type(content) in {Cloze}:
             return Cloze(content.id, self.decline(grammemes, content.content))
         else:
