@@ -507,6 +507,7 @@ class CardGeneration:
             direct_object_grammemes={}, 
             possessor_grammemes={}, 
             declined_grammemes={},
+            emoji_grammemes={}, 
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(category_to_grammemes):
@@ -518,9 +519,9 @@ class CardGeneration:
                 case = translation.use_case_to_grammatical_case[dictkey]['case']
                 adposition = translation.use_case_to_grammatical_case[dictkey]['adposition']
                 case_key = {**default_grammemes, **declined_grammemes, **dictkey, 'case':case}
-                emoji_key = {**default_grammemes, **dictkey, 'case':case, 'noun-form':'common', 'script': 'emoji', 'person':'4'}
+                emoji_key = {**default_grammemes, **declined_grammemes, **dictkey, **emoji_grammemes, 'case':case, 'script': 'emoji'}
                 match = self.declension_template_matching.match(predicate, dictkey['motion'], dictkey['cast'])
-                if match and emoji_key in translation.declension_lookups['common']:
+                if match:
                     if case == 'genitive':
                         subject_key = {**default_grammemes, **possessor_grammemes, 'case':'nominative'}
                         syntax_tree = [
@@ -550,7 +551,7 @@ class CardGeneration:
                                     Cloze(1, noun)]),
                         })
                     emoji_text = self.emoji.decline(emoji_key, 
-                        match['emoji'], translation.declension_lookups['common'][emoji_key], persons)
+                        match['emoji'], translation.decline(emoji_key), persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.english_word(
@@ -672,6 +673,7 @@ write('flashcards/noun-declension/latin.html',
         possessor_grammemes = {'noun-form':'common', 'number':'singular'},
         direct_object_grammemes = {'noun-form':'common', 'number':'singular'},
         declined_grammemes = {'noun-form':'common'},
+        emoji_grammemes = {'person':'4'},
         category_to_grammemes = {
             **category_to_grammemes,
             'script':     'latin',

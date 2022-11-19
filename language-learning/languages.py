@@ -242,7 +242,7 @@ class Translation:
             return self.exists(content.verb)
         elif type(content) in {Cloze}:
             return self.exists(content.content)
-    def decline(self, grammemes, content):
+    def decline(self, grammemes, content=None):
         grammemes = {**grammemes, 'language-type':'translated'}
         if content is None:
             # NOTE: if content is a None type, then rely solely on the grammeme
