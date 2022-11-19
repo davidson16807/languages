@@ -188,15 +188,11 @@ class Translation:
             conjugation_lookups, 
             declension_lookups, 
             use_case_to_grammatical_case,
-            mood_templates,
-            category_to_grammemes,
-            persons):
+            mood_templates):
         self.conjugation_lookups = conjugation_lookups
         self.declension_lookups = declension_lookups
         self.use_case_to_grammatical_case = use_case_to_grammatical_case
         self.mood_templates = mood_templates
-        self.category_to_grammemes = category_to_grammemes
-        self.persons = persons
     def parse(self, NodeClass, text):
         if NodeClass in {set}:
             return set(text.split(' '))
