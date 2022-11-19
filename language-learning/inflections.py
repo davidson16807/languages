@@ -222,6 +222,15 @@ basic_pronoun_declension_hashing = DictTupleIndexing([
         'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
     ])
 
+reflexive_pronoun_declension_hashing = DictTupleIndexing([
+        'person',     # needed for English
+        'number',     # needed for German
+        'gender',     # needed for Latin, German, Russian
+        'formality',   # needed for Spanish ('voseo')
+        'case',       # needed for Latin
+        'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
+    ])
+
 declension_template_lookups = DictLookup(
     'declension',
     DictKeyIndexing('noun-form'), 
@@ -265,8 +274,8 @@ declension_template_lookups = DictLookup(
         'negative':           DictLookup('negative',           basic_pronoun_declension_hashing),
         'relative':           DictLookup('relative',           basic_pronoun_declension_hashing),
         'numeral':            DictLookup('numeral',            basic_pronoun_declension_hashing),
-        'reflexive':          DictLookup('reflexive',          basic_pronoun_declension_hashing),
-        'emphatic-reflexive': DictLookup('emphatic-reflexive', basic_pronoun_declension_hashing),
+        'reflexive':          DictLookup('reflexive',          reflexive_pronoun_declension_hashing),
+        'emphatic-reflexive': DictLookup('emphatic-reflexive', reflexive_pronoun_declension_hashing),
     })
 
 tsv_parsing = SeparatedValuesFileParsing()
@@ -531,13 +540,14 @@ class CardGeneration:
                         subject_key = {**default_grammemes, **possessor_grammemes, 'case':'nominative'}
                         syntax_tree = [
                             NounPhrase(subject_key, [
-                                Article('the'), 
+                                Article(match['subject-article']), 
                                 match['subject-argument']]),
                             NounPhrase(case_key, [
                                 Adposition(native=match['adposition'], foreign=''), 
                                 Article(match['declined-noun-article']), 
                                 Cloze(1, noun)]),
                         ]
+                        
                     else:
                         subject_key = {**default_grammemes, **subject_grammemes, 'case':'nominative'}
                         direct_object_key = {**default_grammemes, **direct_object_grammemes, 'case':'accusative'}
@@ -714,17 +724,17 @@ write('flashcards/pronoun-declension/latin.html',
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
-                DictTupleIndexing(['noun','person', 'number', 'gender']),
+                DictTupleIndexing(['noun', 'person', 'number', 'gender']),
                 content = {
                     ('man',   '1', 'singular', 'neuter'   ),
-                    ('man',   '2', 'singular', 'feminine' ),
+                    ('woman', '2', 'singular', 'feminine' ),
                     ('man',   '3', 'singular', 'masculine'),
-                    ('man',   '3', 'singular', 'feminine' ),
+                    ('woman', '3', 'singular', 'feminine' ),
                     ('snake', '3', 'singular', 'neuter'   ),
                     ('man',   '1', 'plural',   'neuter'   ),
-                    ('man',   '2', 'plural',   'feminine' ),
+                    ('woman', '2', 'plural',   'feminine' ),
                     ('man',   '3', 'plural',   'masculine'),
-                    ('man',   '3', 'plural',   'feminine' ),
+                    ('woman', '3', 'plural',   'feminine' ),
                     ('mane',  '3', 'plural',   'neuter'   ),
                 })
             ],
@@ -762,7 +772,7 @@ write('flashcards/pronoun-declension/latin.html',
             'verb':      ['be', 'be able', 'want', 'become', 'go', 
                           'carry', 'eat', 'love', 'advise', 'direct-object', 
                           'capture', 'hear'],
-            'noun':      ['man','snake'],
+            'noun':      ['man','woman','snake'],
         },
         persons = [
             EmojiPerson('s','n',3),

@@ -15,48 +15,15 @@ class English:
         self.conjugation_lookups = conjugation_lookups
         self.predicate_templates = predicate_templates
         self.mood_templates = mood_templates
-    def decline(self, grammemes, content):
-        grammemes = {**grammemes, 'language-type':'english'}
-        if content is None:
-            case = grammemes['case'] if grammemes['case'] in {'nominative','genitive'} else 'oblique'
-            grammemes = {**grammemes, 'case': case}
-            return (
-                self.declension_lookups[grammemes][grammemes] if grammemes['noun-form'] != 'common'
-                else self.plurality.pluralize(grammemes['noun']) if grammemes['number'] != 'singular'
-                else grammemes['noun'])
-        if type(content) in {list,set}:
-            return [self.decline(grammemes, element) for element in content]
-        elif type(content) in {str}:
-            # NOTE: string types are degenerate cases of None types invocations
-            #  where grammemes contain the lemma for the declension
-            return self.decline({**grammemes, 'noun':content}, None) 
-        elif type(content) in {NounPhrase}:
-            grammemes = {**grammemes, **content.grammemes}
-            case = grammemes['case'] if grammemes['case'] in {'nominative','genitive'} else 'oblique'
-            grammemes = {**grammemes, 'case': case}
-            return NounPhrase(grammemes, self.decline(grammemes, content.content))
-        elif type(content) in {StockModifier}:
-            return content.lookup[grammemes] if grammemes in content.lookup else []
-        elif type(content) in {Adjective, Article}:
-            return (content if grammemes['noun-form'] == 'common' else [])
-        elif type(content) in {Adposition}:
-            return content
-        elif type(content) in {Cloze}:
-            return Cloze(content.id, self.decline(grammemes, content.content))
+    def parse(self, NodeClass, text):
+        if NodeClass in {set}:
+            return set(text.split(' '))
+        if NodeClass in {list}:
+            return text.split(' ')
+        elif NodeClass in {str}:
+            return text
         else:
-            raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
-    def conjugate(self, grammemes, content):
-        if type(content) in {list,set}:
-            return [self.conjugate(grammemes, element) for element in content]
-        elif type(content) in {str}:
-            grammemes = {**grammemes, 'language-type':'translated'}
-            if grammemes not in self.conjugation_lookups['finite']:
-                return None
-            return self.conjugation_lookups['finite'][grammemes]
-        elif type(content) in {Cloze}:
-            return Cloze(content.id, self.conjugate(grammemes, content.content))
-        else:
-            raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
+            return NodeClass(self.parse(text))
     def format(self, content):
         if type(content) in {Clause}:
             clause = content
@@ -74,9 +41,7 @@ class English:
                     dependant_clause['tense']
             }
             verb = self.format(clause.verb)
-            lemmas = ['be', 'have', 
-                      'command', 'forbid', 'permit', 'wish', 'intend', 'be able', 
-                      verb]
+            lemmas = ['be', 'have', 'command', 'forbid', 'permit', 'wish', 'intend', 'be able', verb]
             mood_replacements = [
                 ('{predicate}',            self.predicate_templates[{**dependant_clause,'verb-form':'finite'}]),
                 ('{predicate|infinitive}', self.predicate_templates[{**dependant_clause,'verb-form':'infinitive'}]),
@@ -89,7 +54,7 @@ class English:
                     self.format(self.decline(clause.grammemes, 
                         clause.nouns[noun] if noun in clause.nouns else [])))
             for noun in ['subject', 'direct-object', 'indirect-object', 'modifiers']:
-                for case in ['nominative','oblique']:
+                for case in ['nominative','oblique','genitive']:
                     sentence = sentence.replace('{'+f'{noun}|{case}'+'}', 
                         self.format(self.decline({**clause.grammemes, 'case':case}, 
                             clause.nouns[noun] if noun in clause.nouns else [])))
@@ -117,7 +82,9 @@ class English:
             return ' '.join([self.format(element) for element in content])
         elif type(content) in {str}:
             return content
-        elif type(content) in {NounPhrase, Adjective, Article}:
+        elif type(content) in {NounPhrase}:
+            return self.format(self.decline(content.grammemes, content.content))
+        elif type(content) in {Adjective, Article}:
             return self.format(content.content)
         elif type(content) in {Adposition}:
             return self.format(content.native)
@@ -125,15 +92,49 @@ class English:
             # NOTE: Cloze is only ever used to prompt for the foreign language being learned,
             # so for the user's native language it is simply equal to the formatted content.
             return self.format(content.content) 
-    def parse(self, NodeClass, text):
-        if NodeClass in {set}:
-            return set(text.split(' '))
-        if NodeClass in {list}:
-            return text.split(' ')
-        elif NodeClass in {str}:
-            return text
+    def decline(self, grammemes, content):
+        grammemes = {**grammemes, 'language-type':'english'}
+        if content is None:
+            case = grammemes['case'] if grammemes['case'] in {'nominative','genitive'} else 'oblique'
+            grammemes = {**grammemes, 'case': case}
+            return (
+                self.declension_lookups[grammemes][grammemes] if grammemes['noun-form'] != 'common'
+                else self.plurality.pluralize(grammemes['noun']) if grammemes['number'] != 'singular'
+                else grammemes['noun'])
+        if type(content) in {list,set}:
+            return [self.decline(grammemes, element) for element in content]
+        elif type(content) in {str}:
+            # NOTE: string types are degenerate cases of None types invocations
+            #  where grammemes contain the lemma for the declension
+            return self.decline({**grammemes, 'noun':content}, None) 
+        elif type(content) in {NounPhrase}:
+            grammemes = {**grammemes, **content.grammemes}
+            if grammemes['case'] == 'genitive': print(grammemes)
+            case = grammemes['case'] if grammemes['case'] in {'nominative','genitive'} else 'oblique'
+            grammemes = {**grammemes, 'case': case}
+            return NounPhrase(grammemes, self.decline(grammemes, content.content))
+        elif type(content) in {StockModifier}:
+            return content.lookup[grammemes] if grammemes in content.lookup else []
+        elif type(content) in {Adjective, Article}:
+            return (content if grammemes['noun-form'] == 'common' else [])
+        elif type(content) in {Adposition}:
+            return content
+        elif type(content) in {Cloze}:
+            return Cloze(content.id, self.decline(grammemes, content.content))
         else:
-            return NodeClass(self.parse(text))
+            raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
+    def conjugate(self, grammemes, content):
+        if type(content) in {list,set}:
+            return [self.conjugate(grammemes, element) for element in content]
+        elif type(content) in {str}:
+            grammemes = {**grammemes, 'language-type':'translated'}
+            if grammemes not in self.conjugation_lookups['finite']:
+                return None
+            return self.conjugation_lookups['finite'][grammemes]
+        elif type(content) in {Cloze}:
+            return Cloze(content.id, self.conjugate(grammemes, content.content))
+        else:
+            raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
 
 class Emoji:
     def __init__(self, 
