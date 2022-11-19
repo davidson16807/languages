@@ -91,6 +91,11 @@ category_to_grammemes = {
                    'elative', 'essive', 'essive-formal', 'essive-modal', 'exessive', 'illative', 
                    'inessive', 'instructive', 'instrumental-comitative', 'sociative', 'sublative', 'superessive', 
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
+
+    # needed for use cases for declensions 
+    # (NOTE: this is not officially recognized as a grammatical category,
+    #  it merely exists to introduce an easier naming system that covers 
+    #  a majority of grammatical cases in spoken languages)
     'motion': ['departed', 'associated', 'acquired', 'leveraged'],
     'cast': [
         'subject', 'direct-object', 'possessor',
