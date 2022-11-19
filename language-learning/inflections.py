@@ -487,11 +487,10 @@ class CardGeneration:
             traversal, 
             filter_lookups=[], 
             category_to_grammemes={},
-            default_grammemes={}, 
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(category_to_grammemes):
-            dictkey = {**default_grammemes, **traversal.dictkey(tuplekey)}
+            dictkey = traversal.dictkey(tuplekey)
             if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
                 syntax_tree = Clause(dictkey, Cloze(1, dictkey['verb']),
                     {
@@ -516,7 +515,6 @@ class CardGeneration:
             filter_lookups=[],
             nouns_to_predicates={},
             category_to_grammemes={},
-            default_grammemes={}, 
             subject_grammemes={}, 
             direct_object_grammemes={}, 
             possessor_grammemes={}, 
@@ -525,19 +523,19 @@ class CardGeneration:
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(category_to_grammemes):
-            dictkey = {**default_grammemes, **traversal.dictkey(tuplekey)}
+            dictkey = traversal.dictkey(tuplekey)
             if (all([dictkey in filter_lookup for filter_lookup in filter_lookups]) and 
                   dictkey in translation.use_case_to_grammatical_case):
                 noun = dictkey['noun']
                 predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
                 case = translation.use_case_to_grammatical_case[dictkey]['case']
                 adposition = translation.use_case_to_grammatical_case[dictkey]['adposition']
-                case_key = {**default_grammemes, **declined_grammemes, **dictkey, 'case':case}
-                emoji_key = {**default_grammemes, **declined_grammemes, **dictkey, **emoji_grammemes, 'case':case, 'script': 'emoji'}
+                case_key = {**dictkey, **declined_grammemes, 'case':case}
+                emoji_key = {**dictkey, **declined_grammemes, **emoji_grammemes, 'case':case, 'script': 'emoji'}
                 match = self.declension_template_matching.match(predicate, dictkey['motion'], dictkey['cast'])
                 if match:
                     if case == 'genitive':
-                        subject_key = {**default_grammemes, **possessor_grammemes, 'case':'nominative'}
+                        subject_key = {**dictkey, **possessor_grammemes, 'case':'nominative'}
                         syntax_tree = [
                             NounPhrase(subject_key, [
                                 Article(match['subject-article']), 
@@ -547,10 +545,10 @@ class CardGeneration:
                                 Article(match['declined-noun-article']), 
                                 Cloze(1, noun)]),
                         ]
-                        
+
                     else:
-                        subject_key = {**default_grammemes, **subject_grammemes, 'case':'nominative'}
-                        direct_object_key = {**default_grammemes, **direct_object_grammemes, 'case':'accusative'}
+                        subject_key = {**dictkey, **subject_grammemes, 'case':'nominative'}
+                        direct_object_key = {**dictkey, **direct_object_grammemes, 'case':'accusative'}
                         syntax_tree = Clause(case_key if case == 'nominative' else subject_key, match['verb'], {
                             'subject': NounPhrase(subject_key, [
                                     Article(match['subject-article']),
@@ -571,10 +569,10 @@ class CardGeneration:
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.english_word(
                                 english_map(
-                                    self.english.format(syntax_tree))), 
+                                    self.english.format(syntax_tree))),
                             self.cardFormatting.foreign_focus(
                                 translation.format(
-                                    translation.inflect(default_grammemes, syntax_tree))),
+                                    translation.inflect(dictkey, syntax_tree))),
                         ])
 
 card_generation = CardGeneration(
@@ -616,8 +614,11 @@ write('flashcards/verb-conjugation/latin.html',
     card_generation.conjugation(
         latin,
         DictTupleIndexing([
+            # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
-            'tense', 'aspect', 'mood', 'voice', 'verb']),
+            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
+            # categories that are constant since they are not relevant to declension
+            'animacy','noun-form', 'script']),
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
@@ -631,23 +632,23 @@ write('flashcards/verb-conjugation/latin.html',
                     ('3', 'plural',   'masculine'),
                 })
             ],
-        default_grammemes={'script':'latin'},
         english_map=replace([('♂',''),('♀','')]), 
         category_to_grammemes = {
             **category_to_grammemes,
-            'script':     'latin',
-            'noun-form':  'personal',
-            'number':    ['singular','plural'],
-            'animacy':    'human',
-            'clitic':     'tonic',
-            'clusivity':  'exclusive',
-            'formality':  'familiar',
             'gender':    ['neuter', 'feminine', 'masculine'],
-            'voice':     ['active', 'passive'],
+            'person':    ['1','2','3'],
+            'number':    ['singular','plural'],
+            'formality':  'familiar',
+            'clusivity':  'exclusive',
+            'clitic':     'tonic',
             'mood':      ['indicative','subjunctive','imperative',],
+            'voice':     ['active', 'passive'],
             'verb':      ['be', 'be able', 'want', 'become', 'go', 
                           'carry', 'eat', 'love', 'advise', 'direct-object', 
                           'capture', 'hear'],
+            'animacy':    'sapient',
+            'noun-form':  'personal',
+            'script':     'latin',
         },
         persons = [
             EmojiPerson('s','n',3),
@@ -662,19 +663,30 @@ write('flashcards/noun-declension/latin.html',
     card_generation.declension(
         latin, 
         DictTupleIndexing([
-            'motion','cast','number','noun']),
-        default_grammemes = {
-            'script':      'latin',
-            'person':      '3',
-            'clusivity':   'exclusive',
-            'clitic':      'tonic',
-            'partitivity': 'nonpartitive',
-            'formality':   'familiar',
-            'gender':      'masculine',
-            'tense':       'present', 
-            'voice':       'active',
-            'aspect':      'aorist', 
-            'mood':        'indicative',
+            # categories that are iterated over
+            'motion', 'cast', 'number', 'noun', 'gender', 
+            # categories that are constant since they are not relevant to common noun declension
+            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
+            # categories that are constant since they are not relevant to declension
+            'tense', 'voice', 'aspect', 'mood', 'script']),
+        category_to_grammemes = {
+            **category_to_grammemes,
+            'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
+                          'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
+                          'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet'],
+            'number':    ['singular','plural'],
+            'gender':     'masculine',
+            'person':     '3',
+            'clusivity':  'exclusive',
+            'animacy':    'thing',
+            'clitic':     'tonic',
+            'partitivity':'nonpartitive',
+            'formality':  'familiar',
+            'tense':      'present', 
+            'voice':      'active',
+            'aspect':     'aorist', 
+            'mood':       'indicative',
+            'script':     'latin',
         },
         nouns_to_predicates = {
             'animal':'cow',
@@ -686,25 +698,6 @@ write('flashcards/noun-declension/latin.html',
         direct_object_grammemes = {'noun-form':'common', 'number':'singular'},
         declined_grammemes = {'noun-form':'common'},
         emoji_grammemes = {'person':'4'},
-        category_to_grammemes = {
-            **category_to_grammemes,
-            'script':     'latin',
-            'noun-form':  'personal',
-            'number':    ['singular','plural'],
-            'animacy':    'human',
-            'clitic':     'tonic',
-            'clusivity':  'exclusive',
-            'formality':  'familiar',
-            'gender':    ['neuter', 'feminine', 'masculine'],
-            'voice':     ['active', 'passive'],
-            'mood':      ['indicative','subjunctive','imperative',],
-            'verb':      ['be', 'be able', 'want', 'become', 'go', 
-                          'carry', 'eat', 'love', 'advise', 'direct-object', 
-                          'capture', 'hear'],
-            'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
-                          'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
-                          'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet'],
-        },
         persons = [
             EmojiPerson('s','n',3),
             EmojiPerson('s','f',4),
@@ -719,8 +712,11 @@ write('flashcards/pronoun-declension/latin.html',
     card_generation.declension(
         latin, 
         DictTupleIndexing([
-            'noun', 'gender', 'person', 'number', 
-            'motion', 'cast', 'noun-form']),
+            'noun', 'gender', 'person', 'number', 'motion', 'cast',
+            # categories that are constant since they do not affect pronouns in the language
+            'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
+            # categories that are constant since they are not relevant to declension
+            'tense', 'voice', 'aspect', 'mood', 'script']),
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
@@ -738,20 +734,6 @@ write('flashcards/pronoun-declension/latin.html',
                     ('mane',  '3', 'plural',   'neuter'   ),
                 })
             ],
-        default_grammemes = {
-            'script':      'latin',
-            'person':      '3',
-            'clusivity':   'exclusive',
-            'clitic':      'tonic',
-            'partitivity': 'nonpartitive',
-            'formality':   'familiar',
-            'gender':      'masculine',
-            'tense':       'present', 
-            'voice':       'active',
-            'aspect':      'aorist', 
-            'mood':        'indicative',
-            'noun':        'man',
-        },
         subject_grammemes = {'noun-form':'common', 'number':'singular'},
         possessor_grammemes = {'noun-form':'common', 'number':'singular'},
         direct_object_grammemes = {'noun-form':'common', 'number':'singular'},
@@ -759,20 +741,20 @@ write('flashcards/pronoun-declension/latin.html',
         english_map=replace([('you♀','you'),('you all♀','you all')]), 
         category_to_grammemes = {
             **category_to_grammemes,
-            'script':     'latin',
-            'noun-form':  'personal',
-            'number':    ['singular','plural'],
-            'animacy':    'human',
-            'clitic':     'tonic',
-            'clusivity':  'exclusive',
-            'formality':  'familiar',
-            'gender':    ['neuter', 'feminine', 'masculine'],
-            'voice':     ['active', 'passive'],
-            'mood':      ['indicative','subjunctive','imperative',],
-            'verb':      ['be', 'be able', 'want', 'become', 'go', 
-                          'carry', 'eat', 'love', 'advise', 'direct-object', 
-                          'capture', 'hear'],
             'noun':      ['man','woman','snake'],
+            'gender':    ['neuter', 'feminine', 'masculine'],
+            'person':    ['1','2','3'],
+            'number':    ['singular','plural'],
+            'clusivity':  'exclusive',
+            'animacy':    'animate',
+            'clitic':     'tonic',
+            'partitivity':'nonpartitive',
+            'formality':  'familiar',
+            'tense':      'present', 
+            'voice':      'active',
+            'aspect':     'aorist', 
+            'mood':       'indicative',
+            'script':     'latin',
         },
         persons = [
             EmojiPerson('s','n',3),
