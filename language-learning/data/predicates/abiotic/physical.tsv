@@ -32,20 +32,28 @@ be	precipitation	can	fall
 be	precipitation	be	weather					
 be	precipitation	can	be-seen					
 								
-be	rain	be	precipitation					
-be	rain	can	be-heard					
-be	snow	be	precipitation					
-be	hail	be	precipitation					
-be	sleet	be	precipitation					
+be	soft-precipitation	be	precipitation					
+								
+be	hard-precipitation	be	precipitation					
+be	hard-precipitation	can	be-heard					
+be	hard-precipitation	has-trait	volume					
+								
+be	rain	be	hard-precipitation					
+be	hail	be	hard-precipitation					
+be	sleet	be	hard-precipitation					
+be	snow	be	soft-precipitation					
 be	wind	be	weather					
 be	wind	be	energy					
 be	wind	can	blow					
 be	wind	can	be-heard					
+be	wind	has-trait	volume					
 be	lightning	be	weather					
 be	lightning	be	energy					
 be	lightning	can	be-seen					
+be	lightning	has-trait	brightness					
 be	thunder	be	weather					
 be	thunder	be	be-heard					
+be	thunder	has-trait	volume					
 								
 be	visible-phenomenon	be	phenomenon					
 be	visible-phenomenon	can	be-seen					
@@ -79,6 +87,7 @@ be	atom	has-trait	size
 								
 be	light	be	energy					
 be	light	can	be-seen					
+be	light	has-trait	brightness					
 								
 be	fluid	be	substance					
 be	fluid	can	flow					

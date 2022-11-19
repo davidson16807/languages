@@ -292,10 +292,10 @@ class EmojiBubbleShorthand:
         emoji = self.bracketedShorthand.decode(r'\\forbiddenbox', emoji, self.htmlBubble.negative_box)
         emoji = self.bracketedShorthand.decode(r'\\bubble', emoji, self.htmlBubble.affirmative)
         emoji = self.bracketedShorthand.decode(r'\\forbidden', emoji, self.htmlBubble.negative)
-        emoji = emoji.replace('\\rspeech', "<span style='color:#ddd !important; position:relative; bottom: 0.5em;'>◥</span>")
-        emoji = emoji.replace('\\lspeech', "<span style='padding-left: 0.5em; color:#ddd !important; position:relative; bottom: 0.5em;'>◤</span>")
-        emoji = emoji.replace('\\rthought', "<span style='color:#ddd !important; position:relative; bottom: 0.5em;'>•<sub>•</sub></span>")
-        emoji = emoji.replace('\\lthought', "<span style='padding-left: 0.5em; color:#ddd !important; position:relative; bottom: 0.5em;'><sub>•</sub>•</span>")
+        emoji = emoji.replace('\\rspeech', "<span style='color:#ccc !important; position:relative; bottom: 0.5em;'>◥</span>")
+        emoji = emoji.replace('\\lspeech', "<span style='padding-left: 0.5em; color:#ccc !important; position:relative; bottom: 0.5em;'>◤</span>")
+        emoji = emoji.replace('\\rthought', "<span style='color:#ccc !important; position:relative; bottom: 0.5em;'>•<sub>•</sub></span>")
+        emoji = emoji.replace('\\lthought', "<span style='padding-left: 0.5em; color:#ccc !important; position:relative; bottom: 0.5em;'><sub>•</sub>•</span>")
         return emoji
 
 class EmojiPerson:
