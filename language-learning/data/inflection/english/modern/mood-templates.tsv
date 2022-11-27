@@ -14,7 +14,7 @@ hypothetical	{subject|nominative} {be able} [technically] {predicate|infinitive}
 presumptive	[suppose that] {subject|nominative} {predicate}	[suppose that]	Event is assumed, presupposed by the speaker.
 permissive	[I {permit|independant|speaker}] for {subject|oblique} to {predicate|infinitive}	[I'm fine that]	Event is permitted by the speaker.
 admirative	[wow!] {subject|nominative} {predicate}!	[wow!]	Event is genuinely surprising or amazing
-ironic-admirative	[sarcastically:] [gee!] {subject|nominative} [sure] {predicate}	[gee!]	Event is surprising or amazing, in irony or sarcasm
+ironic-admirative	[sarcastically:] [gee!] {subject|nominative} [sure] {predicate}	[gee!]	Event is stated in irony as surprising or amazing
 hortative	[may it be that] {subject|nominative} {predicate|infinitive}!	[may it be]	Event is exhorted, implored, insisted or encouraged by speaker.
 eventitive	[if so, then] {subject|nominative} [likely] {predicate}	[if so, it's likely]	Event is likely but depends upon a condition. 
 precative	[please] would {subject|nominative} {predicate|infinitive}?	[please, can it be that]	Event is requested by the speaker.

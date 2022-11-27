@@ -14,13 +14,17 @@ from lookup import DefaultDictLookup, DictLookup
 from indexing import DictTupleIndexing, DictKeyIndexing
 from evaluation import KeyEvaluation, MultiKeyEvaluation
 from population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
-from languages import English, Emoji, Translation
-from syntax import (Cloze, NounPhrase, Adjective, Adposition, Article, StockModifier, Clause)
+from languages import (
+    English, Emoji, Translation, 
+    ListProcessing, ListTools,
+    RuleProcessing, RuleValidation, RuleFormatting,
+)
 
 category_to_grammemes = {
 
     # needed to lookup the argument that is used to demonstrate a verb
     'language-type':   ['english', 'translated'], 
+    #'language-type':   ['native', 'foreign'], #TODO: change the above to the preceding to support decks built for nonenglish speakers
 
     'script':[
         # scripts that were derived from the phoenecian alphabet:
@@ -38,8 +42,22 @@ category_to_grammemes = {
         # broad categories of script to handle niche applications:
         'runes','heiroglyphs','cuneiform','emoji'],
 
-    # needed for infinitives
+    # needed for infinitives in Old English and Swedish
+
+    # needed for infinitives in Old English and Swedish
     'completion': ['full', 'bare'],
+
+    # needed for Sinhalese
+    'definiteness':   ['definite', 'indefinite'],
+
+    # needed for Sinhalese
+    'volition':   ['volitive', 'involitive'],
+
+    # needed for K'iche' Mayan
+    'transitivity':['transitive', 'intransitive'],
+
+    # needed for Old English
+    'strength':   ['strong', 'weak'],
 
     # needed for finite forms
     'person':     ['1','2','3'],
@@ -64,7 +82,7 @@ category_to_grammemes = {
     # all "static" things are "nonliving" but not all static things are "abstract",
     # and a "plant" is "living", "dynamic", "nonagent", and "inanimate", among others.
     'animacy':    [            'human',         'nonhuman',    # member of the species homo sapiens
-                   'sapient',  'humanoid',      'nonsapient',  # having the ability to think and speak
+                   'rational', 'humanoid',      'nonsapient',  # having the ability to think and speak
                    'animate',  'creature',      'inanimate',   # able to move around on its own
                    'living',   'plant',         'nonliving',   # able to grow and reproduce
                    'concrete', 'manifestation', 'abstract',    # able to take physical form
@@ -92,16 +110,20 @@ category_to_grammemes = {
                    'inessive', 'instructive', 'instrumental-comitative', 'sociative', 'sublative', 'superessive', 
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
 
-    # needed for use cases for declensions 
-    # (NOTE: this is not officially recognized as a grammatical category,
-    #  it merely exists to introduce an easier naming system that covers 
-    #  a majority of grammatical cases in spoken languages)
-    'motion': ['departed', 'associated', 'acquired', 'leveraged'],
-    'cast': [
-        'subject', 'direct-object', 'possessor',
-        'location', 'extent', 'vicinity', 'interior', 'surface', 
+    # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
+    #   Each language has a unique map from semantic role to the grammatical case used in declension.
+    #   Semantic roles are also categorized into "macroroles" that inform how noun phrases should be ordered within a clause.
+    'role': [
+        'solitary', # the subject of an intransitive verb
+        'agent',    # the subject of a transitive verb
+        'patient',  # the direct object of an active verb
+        'theme',    # the direct object of a stative verb
+        'possessor', 'location', 'extent', 'vicinity', 'interior', 'surface', 
         'presence', 'aid', 'lack', 'interest', 'purpose', 'ownership', 
         'time', 'state of being', 'topic', 'company', 'resemblance'],
+    # NOTE: "motion" is introduced here as a grammatical category to capture certain kinds of motion based semantic roles
+    #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
+    'motion': ['departed', 'associated', 'acquired', 'leveraged'],
     
 
     # needed for infinitive forms, finite forms, participles, arguments, and graphic depictions
@@ -119,9 +141,9 @@ category_to_grammemes = {
                    'demonstrative', 'interrogative', 'indefinite', 'elective', 'universal', 'negative', 
                    'relative', 'numeral'],
     # needed to distinguish forms of verb that require different kinds of lookups with different primary keys
-    'verb-form':     ['finite', 'infinitive', 
-                      'participle', 'gerundive', 'gerund', 'adverbial', 'supine', 
-                      'argument', 'group'],
+    'verb-form':  ['finite', 'infinitive', 
+                   'participle', 'gerundive', 'gerund', 'adverbial', 'supine', 
+                   'argument', 'group'],
 }
 
 grammeme_to_category = {
@@ -290,10 +312,10 @@ pronoun_annotation  = CellAnnotation(
     grammeme_to_category, {}, {}, 
     {**category_to_grammemes, 'script':'latin', 'noun-form':'personal'})
 common_noun_annotation  = CellAnnotation(
-    grammeme_to_category, {}, {0:'noun'}, 
+    grammeme_to_category, {}, {0:'noun'},
     {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3'})
 declension_template_noun_annotation = CellAnnotation(
-    grammeme_to_category, {0:'language'}, {0:'noun'}, 
+    grammeme_to_category, {0:'language'}, {0:'noun'},
     {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3'})
 predicate_annotation = CellAnnotation(
     grammeme_to_category, {0:'column'}, {}, 
@@ -435,14 +457,12 @@ for (f,x),(g,y) in level0_subset_relations:
     #         allthat[h,y](allthat[h,x])
 
 declension_template_annotation = RowAnnotation([
-    'motion', 'cast', 'specificity',
-    'subject-article', 'subject-function', 'subject-argument', 
-    'verb', 'direct-object-adjective', 'direct-object', 'adposition', 
-    'declined-noun-article', 'declined-noun-function', 'declined-noun-argument',
+    'motion', 'role', 'specificity', 'syntax-tree', 
+    'adposition', 'declined-noun-function', 'declined-noun-argument',
     'emoji'])
 declension_template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
-        DictTupleIndexing(['motion','cast']), list))
+        DictTupleIndexing(['motion','role']), list))
 declension_templates = \
     declension_template_population.index(
         declension_template_annotation.annotate(
@@ -453,21 +473,21 @@ class DeclensionTemplateMatching:
     def __init__(self, templates, predicates):
         self.templates = templates
         self.predicates = predicates
-    def match(self, noun, motion, cast):
+    def match(self, noun, motion, role):
         def subject(template):
             return self.predicates[template['subject-function'], template['subject-argument']]
         def declined_noun(template):
             return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
-        candidates = self.templates[motion, cast] if (motion, cast) in self.templates else []
+        candidates = self.templates[motion, role] if (motion, role) in self.templates else []
         templates = sorted([template for template in candidates
                             if self.predicates['be', noun] in declined_noun(template)],
                       key=lambda template: (-int(template['specificity']), len(declined_noun(template))))
         return templates[0] if len(templates) > 0 else None
 
-case_annotation = RowAnnotation(['motion','cast','case','adposition'])
+case_annotation = RowAnnotation(['motion','role','case','adposition'])
 case_population = FlatLookupPopulation(
     DictLookup('declension-use-case-to-grammatical-case', 
-        DictTupleIndexing(['motion','cast'])),
+        DictTupleIndexing(['motion','role'])),
     MultiKeyEvaluation(['case','adposition'])
 )
 
@@ -477,11 +497,16 @@ declension_verb_annotation = CellAnnotation(
 
 class CardGeneration:
     def __init__(self, english, emoji, cardFormatting,
-            declension_template_matching):
+            declension_template_matching, 
+            parsing, tools, validation, formatting):
         self.english = english
         self.emoji = emoji
         self.cardFormatting = cardFormatting
         self.declension_template_matching = declension_template_matching
+        self.parsing = parsing
+        self.tools = tools
+        self.validation = validation
+        self.formatting = formatting
     def conjugation(self, 
             translation, 
             traversal, 
@@ -490,23 +515,51 @@ class CardGeneration:
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(category_to_grammemes):
-            dictkey = traversal.dictkey(tuplekey)
-            if all([dictkey in filter_lookup for filter_lookup in filter_lookups]):
-                syntax_tree = Clause(dictkey, Cloze(1, dictkey['verb']),
-                    {
-                        'subject':    NounPhrase({'noun-form': 'personal', 'case':'nominative'}),
-                        'modifiers':  StockModifier(translation.conjugation_lookups['argument']),
-                    })
-                translated_tree = translation.inflect(dictkey, syntax_tree)
-                emoji_key  = {**dictkey, 'script':'emoji'}
-                if translation.exists(translated_tree) and emoji_key in translation.conjugation_lookups['infinitive']:
-                    english_text    = self.english.format(syntax_tree)
-                    translated_text = translation.format(translated_tree)
+            default_grammemes = traversal.dictkey(tuplekey)
+            default_grammemes = {**default_grammemes, **{'noun-form': 'personal', 'case':'nominative', 'role':'agent'}}
+            if all([default_grammemes in filter_lookup for filter_lookup in filter_lookups]):
+                syntax_tree = self.parsing.parse('clause [default [np the [n man]] [vp cloze v conjugated] [np stock-modifier conjugated]]')
+                replacement = ListProcessing({
+                    'conjugated': self.tools.replace(default_grammemes['verb']),
+                    'the':        self.tools.replace(['art', 'the']),
+                    'a':          self.tools.replace(['art', 'a']),
+                })
+                conversion = ListProcessing({
+                    **{tag:self.tools.rule() for tag in 'clause cloze art adp np vp n v stock-modifier'.split()},
+                    'default': self.tools.grammemes(default_grammemes),
+                })
+                inflection = RuleProcessing({
+                    'clause':        translation.order_clause,
+                    'np':            translation.order_noun_phrase,
+                    'vp':            translation.passthrough,
+                    'v':             translation.conjugate,
+                    'n':             translation.decline,
+                    'art':           translation.decline,
+                    'cloze':         translation.passthrough,
+                    'stock-modifier':translation.stock_modifier,
+                })
+                formatting = RuleProcessing({
+                    'clause':  self.formatting.default,
+                    'np':      self.formatting.default,
+                    'vp':      self.formatting.default,
+                    'cloze':   self.formatting.cloze,
+                })
+                validation = RuleProcessing({
+                    **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
+                })
+                replaced = replacement.process(syntax_tree)
+                converted = conversion.process(replaced)
+                inflected = inflection.process(converted)
+                # english_tree = self.english.inflect(syntax_tree, presets, placeholders)
+                emoji_key  = {**default_grammemes, 'script':'emoji'}
+                if validation.process(inflected) and emoji_key in translation.conjugation_lookups['infinitive']:
+                    # english_text    = self.english.process(syntax_tree)
+                    translated_text = formatting.process(inflected)
                     emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
-                    emoji_text      = self.emoji.conjugate(dictkey, emoji_argument, persons)
+                    emoji_text      = self.emoji.conjugate(default_grammemes, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
-                            self.cardFormatting.english_word(english_map(english_text)), 
+                            # self.cardFormatting.english_word(english_map(english_text)), 
                             self.cardFormatting.foreign_focus(translated_text),
                         ])
     def declension(self, 
@@ -515,69 +568,84 @@ class CardGeneration:
             filter_lookups=[],
             nouns_to_predicates={},
             category_to_grammemes={},
-            subject_grammemes={}, 
-            direct_object_grammemes={}, 
-            possessor_grammemes={}, 
+            solitary_grammemes={}, 
+            agent_grammemes={}, 
+            patient_grammemes={}, 
+            possession_grammemes={}, 
+            inanimate_grammemes={}, 
             declined_grammemes={},
             emoji_grammemes={}, 
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(category_to_grammemes):
-            dictkey = traversal.dictkey(tuplekey)
-            if (all([dictkey in filter_lookup for filter_lookup in filter_lookups]) and 
-                  dictkey in translation.use_case_to_grammatical_case):
-                noun = dictkey['noun']
+            default_grammemes = traversal.dictkey(tuplekey)
+            if (all([default_grammemes in filter_lookup for filter_lookup in filter_lookups]) and 
+                  default_grammemes in translation.use_case_to_grammatical_case):
+                noun = default_grammemes['noun']
                 predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
-                case = translation.use_case_to_grammatical_case[dictkey]['case']
-                adposition = translation.use_case_to_grammatical_case[dictkey]['adposition']
-                case_key = {**dictkey, **declined_grammemes, 'case':case}
-                emoji_key = {**dictkey, **declined_grammemes, **emoji_grammemes, 'case':case, 'script': 'emoji'}
-                match = self.declension_template_matching.match(predicate, dictkey['motion'], dictkey['cast'])
+                case = translation.use_case_to_grammatical_case[default_grammemes]['case']
+                adposition = translation.use_case_to_grammatical_case[default_grammemes]['adposition']
+                match = self.declension_template_matching.match(predicate, default_grammemes['motion'], default_grammemes['role'])
                 if match:
-                    if case == 'genitive':
-                        subject_key = {**dictkey, **possessor_grammemes, 'case':'nominative'}
-                        syntax_tree = [
-                            NounPhrase(subject_key, [
-                                Article(match['subject-article']), 
-                                match['subject-argument']]),
-                            NounPhrase(case_key, [
-                                Adposition(native=match['adposition'], foreign=''), 
-                                Article(match['declined-noun-article']), 
-                                Cloze(1, noun)]),
-                        ]
-
-                    else:
-                        subject_key = {**dictkey, **subject_grammemes, 'case':'nominative'}
-                        direct_object_key = {**dictkey, **direct_object_grammemes, 'case':'accusative'}
-                        syntax_tree = Clause(case_key if case == 'nominative' else subject_key, match['verb'], {
-                            'subject': NounPhrase(subject_key, [
-                                    Article(match['subject-article']),
-                                    match['subject-argument']]),
-                            'direct-object': 
-                                NounPhrase(direct_object_key, [
-                                    Adjective(match['direct-object-adjective']), 
-                                    *match['direct-object'].split(' ')]),
-                            ('subject' if case == 'nominative' else 'modifiers'): 
-                                NounPhrase(case_key, [
-                                    Adposition(native=match['adposition'], foreign=adposition), 
-                                    Article(match['declined-noun-article']), 
-                                    Cloze(1, noun)]),
-                        })
+                    presets = {
+                        'default':   {**default_grammemes, **declined_grammemes,   'case':case},
+                        'agent':     {**default_grammemes, **solitary_grammemes,   'case':'nominative', 'role':'agent'     },
+                        'solitary':  {**default_grammemes, **agent_grammemes,      'case':'nominative', 'role':'solitary'  },
+                        'patient':   {**default_grammemes, **patient_grammemes,    'case':'accusative', 'role':'patient'   },
+                        'possession':{**default_grammemes, **possession_grammemes, 'case':'nominative', 'role':'possession'},
+                        'inanimate': {**default_grammemes, **inanimate_grammemes,  'case':'nominative'},
+                    }
+                    syntax_tree = self.parsing.parse(match['syntax-tree'])
+                    replacement = ListProcessing({
+                        'declined':   self.tools.replace(['cloze', 'n', noun]),
+                        'modifier':   self.tools.replace([translation.conjugation_lookups['argument']]),
+                        'adp':        self.tools.replace(['adp', adposition]),
+                        'the':        self.tools.replace(['art', 'the']),
+                        'a':          self.tools.replace(['art', 'a']),
+                    })
+                    conversion = ListProcessing({
+                        **{tag:self.tools.rule() for tag in 'clause cloze art adp np vp n v'.split()},
+                        **{tag:self.tools.grammemes(preset) for tag, preset in presets.items()},
+                    })
+                    inflection = RuleProcessing({
+                        'clause':  translation.order_clause,
+                        'np':      translation.order_noun_phrase,
+                        'vp':      translation.passthrough,
+                        'v':       translation.conjugate,
+                        'n':       translation.decline,
+                        'art':     translation.decline,
+                        'cloze':   translation.passthrough,
+                    })
+                    replaced = replacement.process(syntax_tree)
+                    converted = conversion.process(replaced)
+                    inflected = inflection.process(converted)
+                    formatting = RuleProcessing({
+                        'clause':  self.formatting.node,
+                        'np':      self.formatting.node,
+                        'vp':      self.formatting.node,
+                        'v':       self.formatting.leaf,
+                        'n':       self.formatting.leaf,
+                        'art':     self.formatting.leaf,
+                        'cloze':   self.formatting.cloze,
+                    })
+                    translated_text = formatting.format(translated_tree)
+                    # english_tree = self.english.inflect(syntax_tree, presets, {**placeholders, 'adposition': match['adposition']})
+                    emoji_key = {**default_grammemes, **declined_grammemes, **emoji_grammemes, 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
                         match['emoji'], translation.decline(emoji_key), persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
-                            self.cardFormatting.english_word(
-                                english_map(
-                                    self.english.format(syntax_tree))),
-                            self.cardFormatting.foreign_focus(
-                                translation.format(
-                                    translation.inflect(dictkey, syntax_tree))),
+                            # self.cardFormatting.english_word(english_map(self.english.format(syntax_tree))),
+                            self.cardFormatting.foreign_focus(translated_text),
                         ])
 
 card_generation = CardGeneration(
     english, emoji, CardFormatting(),
     DeclensionTemplateMatching(declension_templates, allthat),
+    ListParsing(),
+    ListTools(),
+    RuleValidation(),
+    RuleFormatting()
 )
 
 latin = Translation(
@@ -603,11 +671,7 @@ latin = Translation(
     case_population.index(
         case_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv'))),
-    mood_templates = {
-        'indicative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
-        'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
-        'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
-    },
+    sentence_structure = 'subject modifiers indirect-object direct-object verb'.split(),
 )
 
 write('flashcards/verb-conjugation/latin.html', 
@@ -658,13 +722,13 @@ write('flashcards/verb-conjugation/latin.html',
             EmojiPerson('s','n',5),
         ],
     ))
-
+'''
 write('flashcards/noun-declension/latin.html', 
     card_generation.declension(
         latin, 
         DictTupleIndexing([
             # categories that are iterated over
-            'motion', 'cast', 'number', 'noun', 'gender', 
+            'motion', 'role', 'number', 'noun', 'gender', 
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
@@ -693,9 +757,10 @@ write('flashcards/noun-declension/latin.html',
             'thing':'bolt',
             'phenomenon': 'eruption',
         },
-        subject_grammemes = {'noun-form':'personal', 'number':'singular'},
-        possessor_grammemes = {'noun-form':'common', 'number':'singular'},
-        direct_object_grammemes = {'noun-form':'common', 'number':'singular'},
+        agent_grammemes = {'noun-form':'personal', 'number':'singular'},
+        solitary_grammemes = {'noun-form':'personal', 'number':'singular'},
+        possession_grammemes = {'noun-form':'common', 'number':'singular'},
+        patient_grammemes = {'noun-form':'common', 'number':'singular'},
         declined_grammemes = {'noun-form':'common'},
         emoji_grammemes = {'person':'4'},
         persons = [
@@ -712,7 +777,7 @@ write('flashcards/pronoun-declension/latin.html',
     card_generation.declension(
         latin, 
         DictTupleIndexing([
-            'noun', 'gender', 'person', 'number', 'motion', 'cast',
+            'noun', 'gender', 'person', 'number', 'motion', 'role',
             # categories that are constant since they do not affect pronouns in the language
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
@@ -734,9 +799,10 @@ write('flashcards/pronoun-declension/latin.html',
                     ('mane',  '3', 'plural',   'neuter'   ),
                 })
             ],
-        subject_grammemes = {'noun-form':'common', 'number':'singular'},
-        possessor_grammemes = {'noun-form':'common', 'number':'singular'},
-        direct_object_grammemes = {'noun-form':'common', 'number':'singular'},
+        agent_grammemes = {'noun-form':'common', 'number':'singular'},
+        solitary_grammemes = {'noun-form':'common', 'number':'singular'},
+        possession_grammemes = {'noun-form':'common', 'number':'singular'},
+        patient_grammemes = {'noun-form':'common', 'number':'singular'},
         declined_grammemes = {'noun-form':'personal'},
         english_map=replace([('you♀','you'),('you all♀','you all')]), 
         category_to_grammemes = {
@@ -764,7 +830,7 @@ write('flashcards/pronoun-declension/latin.html',
             EmojiPerson('s','n',5),
         ],
     ))
-
+'''
 
 
 

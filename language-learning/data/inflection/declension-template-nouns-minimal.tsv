@@ -63,7 +63,7 @@ man	3	plural	masculine	ablative 	strong	animate	ǵʰmn̥mós		hominibus					न�
 man	3	singular	masculine	locative 	strong	animate	ǵʰmén|ǵʰméni 							नरे	náre 	#						
 man	3	dual	masculine	locative 	strong	animate								नरयोः	nárayoḥ 	#						
 man	3	plural	masculine	locative 	strong	animate	ǵʰmn̥sú							नरेषु	náreṣu	#						
-man	3	singular	masculine	instrumental 	strong	animate	ǵʰm̥néh₁ 			мужчи́ной, мужчи́ною	mužčínoj, mužčínoju 			नरेण	náreṇa 	#						
+man	3	singular	masculine	instrumental 	strong	animate	ǵʰm̥néh₁ 			мужчи́ной|мужчи́ною	mužčínoj|mužčínoju 			नरेण	náreṇa 	#						
 man	3	dual	masculine	instrumental 	strong	animate								नराभ्याम्	nárābhyām 	#						
 man	3	plural	masculine	instrumental 	strong	animate	ǵʰmn̥mís			мужчи́нами	mužčínami			नरैः	náraiḥ	#						
 man	3	singular	masculine	vocative	strong	animate	ǵʰmón 		homō 			ᾰ̓́νερ	áner 	नर	nára 	#						
@@ -90,10 +90,10 @@ woman	3	plural	feminine	dative	strong	animate	gʷnéh₂mos	wīfum	fēminīs	ж�
 woman	3	singular	feminine	ablative 	strong	animate	gʷnéh₂s 		fēminā 					jáneḥ	जनेः	#						
 woman	3	dual	feminine	ablative 	strong	animate								jánibhyām 	जनिभ्याम्	#						
 woman	3	plural	feminine	ablative 	strong	animate	gʷnéh₂mos		fēminīs					jánibhyaḥ	जनिभ्यः	#						
-woman	3	singular	feminine	locative 	strong	animate	gʷnéh₂, gʷnéh₂i 							jánau	जनौ	#						
+woman	3	singular	feminine	locative 	strong	animate	gʷnéh₂|gʷnéh₂i 							jánau	जनौ	#						
 woman	3	dual	feminine	locative 	strong	animate								jányoḥ 	जन्योः	#						
 woman	3	plural	feminine	locative 	strong	animate	gʷnéh₂su							jániṣu	जनिषु	#						
-woman	3	singular	feminine	instrumental 	strong	animate	gʷnéh₂h₁ 			же́нщиной, же́нщиною	žénščinoj, žénščinoju 			jányā 	जन्या	#						
+woman	3	singular	feminine	instrumental 	strong	animate	gʷnéh₂h₁ 			же́нщиной|же́нщиною	žénščinoj|žénščinoju 			jányā 	जन्या	#						
 woman	3	dual	feminine	instrumental 	strong	animate								jánibhyām 	जनिभ्याम्	#						
 woman	3	plural	feminine	instrumental 	strong	animate	gʷnéh₂mis			же́нщинами	žénščinami			jánibhiḥ	जनिभिः	#						
 woman	3	singular	feminine	vocative	strong	animate	gʷḗn 		fēmina 			γύναι	gúnai 	jáne 	जने	#						
@@ -107,10 +107,10 @@ woman	3	dual	feminine	prepositional 	strong	animate										#
 woman	3	plural	feminine	prepositional 	strong	animate				же́нщинах	žénščinax					#						
 animal	3	singular	neuter	nominative	strong	animate	dʰewsóm 	nīeten 	animal 	živótnoje 	живо́тное	ζῷον	zôion	पशु	páśu 	#	for genitive pronouns and possessive pronouns of neuter possessions	translations here should trend towards meaning 'domestic animal' 				
 animal	3	dual	neuter	nominative	strong	animate	dʰewsóy(h₁) 					ζῴω	zṓiō	पशुनी	páśunī 	#		and avoid implying 'wild animal', since the emoji we use for the lemma suggests domestication				
-animal	3	plural	neuter	nominative	strong	animate	dʰewséh₂	nīetenu	animālia	živótnyje	живо́тные	ζῷᾰ	zôia	पशू / पशु	páśū / páśu	#						
+animal	3	plural	neuter	nominative	strong	animate	dʰewséh₂	nīetenu	animālia	živótnyje	живо́тные	ζῷᾰ	zôia	पशू|पशु	páśū|páśu	#						
 animal	3	singular	neuter	accusative	strong	animate	dʰewsóm 	nīeten 	animal 	živótnoje 	живо́тное	ζῷον	zôion	पशु	páśu 	#	for possessive pronouns of neuter possessions					
 animal	3	dual	neuter	accusative	strong	animate	dʰewsóy(h₁) 					ζῴω	zṓiō	पशुनी	páśunī 	#						
-animal	3	plural	neuter	accusative	strong	animate	dʰewséh₂	nīetenu	animālia	živótnyx	живо́тных	ζῷᾰ	zôia	पशू / पशु	páśū / páśu	#						
+animal	3	plural	neuter	accusative	strong	animate	dʰewséh₂	nīetenu	animālia	živótnyx	живо́тных	ζῷᾰ	zôia	पशू|पशु	páśū|páśu	#						
 animal	3	singular	neuter	genitive	strong	animate	dʰewsósyo 	nīetenes 	animālis 	živótnovo 	живо́тного	ζῴου	zṓiou	पशोः	páśoḥ	#						
 animal	3	dual	neuter	genitive	strong	animate						ζῴοιν	zṓioin	पशुनोः	páśunoḥ 	#						
 animal	3	plural	neuter	genitive	strong	animate	dʰewsóHom	nīetena	animālium	živótnyx	живо́тных	ζῴων	zṓiōn	पशूनाम्	páśūnām	#						
@@ -120,15 +120,15 @@ animal	3	plural	neuter	dative	strong	animate	dʰewsómos	nīetenum	animālibus	�
 animal	3	singular	neuter	ablative 	strong	animate	dʰewséad 		animālī 					पशोः	páśoḥ	#						
 animal	3	dual	neuter	ablative 	strong	animate								पशुभ्याम्	páśubhyām 	#						
 animal	3	plural	neuter	ablative 	strong	animate	dʰewsómos		animālibus					पशुभ्यः	páśubhyaḥ	#						
-animal	3	singular	neuter	locative 	strong	animate	dʰewséy, dʰewsóy 							पशुनि	páśuni 	#						
+animal	3	singular	neuter	locative 	strong	animate	dʰewséy|dʰewsóy 							पशुनि	páśuni 	#						
 animal	3	dual	neuter	locative 	strong	animate								पशुनोः	páśunoḥ 	#						
 animal	3	plural	neuter	locative 	strong	animate	dʰewsóysu							पशुषु	páśuṣu	#						
-animal	3	singular	neuter	instrumental 	strong	animate	dʰewsóh₁ 			živótnym 	живо́тным			पशुना / पश्वा²	páśunā	#						
+animal	3	singular	neuter	instrumental 	strong	animate	dʰewsóh₁ 			živótnym 	живо́тным			पशुना|पश्वा²	páśunā	#						
 animal	3	dual	neuter	instrumental 	strong	animate								पशुभ्याम्	páśubhyām 	#						
 animal	3	plural	neuter	instrumental 	strong	animate	dʰewsṓys			živótnymi	живо́тными			पशुभिः	páśubhiḥ	#						
-animal	3	singular	neuter	vocative	strong	animate	dʰewsóm 		animal 			ζῷον	zôion	पशु / पशो	páśu / páśo 	#						
+animal	3	singular	neuter	vocative	strong	animate	dʰewsóm 		animal 			ζῷον	zôion	पशु|पशो	páśu|páśo 	#						
 animal	3	dual	neuter	vocative	strong	animate	dʰewsóy(h₁) 					ζῴω	zṓiō	पशुनी	páśunī 	#						
-animal	3	plural	neuter	vocative	strong	animate	dʰewséh₂		animālia			ζῷᾰ	zôia	पशू / पशु	páśū / páśu	#						
+animal	3	plural	neuter	vocative	strong	animate	dʰewséh₂		animālia			ζῷᾰ	zôia	पशू|पशु	páśū|páśu	#						
 animal	3	singular	neuter	partitive 	strong	animate										#						
 animal	3	dual	neuter	partitive 	strong	animate										#						
 animal	3	plural	neuter	partitive 	strong	animate										#						
@@ -197,10 +197,10 @@ daughter	3	dual	feminine	prepositional 	strong	animate										#
 daughter	3	plural	feminine	prepositional 	strong	animate				дочеря́х	dočerjáx					#						
 livestock	3	singular	neuter	nominative	strong	animate	péḱu 	feoh 	pecus 	поголо́вье	pogolóvʹje 	κτῆνος	ktênos	पशु	páśu 	#	for genitive pronouns and possessive pronouns of neuter possessions					
 livestock	3	dual	neuter	nominative	strong	animate	péḱwih₁ 	feoh 				κτήνει	ktḗnei	पशुनी	páśunī 	#						
-livestock	3	plural	neuter	nominative	strong	animate	péḱuh₂	feoh 	pecora	поголо́вья	pogolóvʹja	κτήνη	ktḗnē	पशू / पशु	páśū / páśu	#						
+livestock	3	plural	neuter	nominative	strong	animate	péḱuh₂	feoh 	pecora	поголо́вья	pogolóvʹja	κτήνη	ktḗnē	पशू|पशु	páśū|páśu	#						
 livestock	3	singular	neuter	accusative	strong	animate	péḱu 	feoh 	pecus 	поголо́вье	pogolóvʹje 	κτῆνος	ktênos	पशु	páśu 	#	for possessive pronouns of neuter possessions					
 livestock	3	dual	neuter	accusative	strong	animate	péḱwih₁ 	feoh 				κτήνει	ktḗnei	पशुनी	páśunī 	#						
-livestock	3	plural	neuter	accusative	strong	animate	péḱuh₂	feoh 	pecora	поголо́вья	pogolóvʹja	κτήνη	ktḗnē	पशू / पशु	páśū / páśu	#						
+livestock	3	plural	neuter	accusative	strong	animate	péḱuh₂	feoh 	pecora	поголо́вья	pogolóvʹja	κτήνη	ktḗnē	पशू|पशु	páśū|páśu	#						
 livestock	3	singular	neuter	genitive	strong	animate	pḱéws 	fēos 	pecoris 	поголо́вья	pogolóvʹja 	κτήνους	ktḗnous	पशोः	páśoḥ	#						
 livestock	3	dual	neuter	genitive	strong	animate		fēos 				κτηνοῖν	ktēnoîn	पशुनोः	páśunoḥ 	#						
 livestock	3	plural	neuter	genitive	strong	animate	pḱéwoHom	fēos 	pecorum	поголо́вий	pogolóvij	κτηνῶν	ktēnôn	पशूनाम्	páśūnām	#						
@@ -213,12 +213,12 @@ livestock	3	plural	neuter	ablative 	strong	animate	pḱúmos		pecoribus					प�
 livestock	3	singular	neuter	locative 	strong	animate	pḱéw|pḱéwi 							पशुनि	páśuni 	#						
 livestock	3	dual	neuter	locative 	strong	animate								पशुनोः	páśunoḥ 	#						
 livestock	3	plural	neuter	locative 	strong	animate	pḱúsu							पशुषु	páśuṣu	#						
-livestock	3	singular	neuter	instrumental 	strong	animate	pḱúh₁ 			поголо́вьем	pogolóvʹjem 			पशुना / पश्वा²	páśunā	#						
+livestock	3	singular	neuter	instrumental 	strong	animate	pḱúh₁ 			поголо́вьем	pogolóvʹjem 			पशुना|पश्वा²	páśunā	#						
 livestock	3	dual	neuter	instrumental 	strong	animate								पशुभ्याम्	páśubhyām 	#						
 livestock	3	plural	neuter	instrumental 	strong	animate	pḱúmis			поголо́вьями	pogolóvʹjami			पशुभिः	páśubhiḥ	#						
-livestock	3	singular	neuter	vocative	strong	animate	péḱu 		pecus 			κτῆνος	ktênos	पशु / पशो	páśu / páśo 	#						
+livestock	3	singular	neuter	vocative	strong	animate	péḱu 		pecus 			κτῆνος	ktênos	पशु|पशो	páśu|páśo 	#						
 livestock	3	dual	neuter	vocative	strong	animate	péḱwih₁ 					κτήνει	ktḗnei	पशुनी	páśunī 	#						
-livestock	3	plural	neuter	vocative	strong	animate	péḱuh₂		pecora			κτήνη	ktḗnē	पशू / पशु	páśū / páśu	#						
+livestock	3	plural	neuter	vocative	strong	animate	péḱuh₂		pecora			κτήνη	ktḗnē	पशू|पशु	páśū|páśu	#						
 livestock	3	singular	neuter	partitive 	strong	animate				поголо́вье	pogolóvʹje 					#						
 livestock	3	dual	neuter	partitive 	strong	animate										#						
 livestock	3	plural	neuter	partitive 	strong	animate				поголо́вьях	pogolóvʹjax					#						
@@ -248,10 +248,10 @@ good	3	dual	masculine	accusative	strong	animate	h₁wésuh₁(e) 					ἐσθλ�
 good	3	plural	masculine	accusative	strong	animate	h₁wésums	gōde 	bonōs 	хоро́ших	xoróšix	ἐσθλούς	esthloús 	साधून्	sādhū́n	#						
 good	3	singular	feminine	accusative	strong	animate	h₁uséwih₂m̥ 	gōde 	bonam 	хоро́шую	xoróšuju	ἐσθλήν	esthlḗn 	साध्वीम्	sādhvī́m 	#						
 good	3	dual	feminine	accusative	strong	animate	h₁uséwih₂h₁(e) 					ἐσθλᾱ́	esthlā́ 	साध्व्यौ	sādhvyaù	#						
-good	3	plural	feminine	accusative	strong	animate	h₁uséwih₂m̥s	gōda, gōde 	bonās 	хоро́ших	xoróšix	ἐσθλᾱ́ς	esthlā́s 	साध्वीः	sādhvī́ḥ	#						
+good	3	plural	feminine	accusative	strong	animate	h₁uséwih₂m̥s	gōda|gōde 	bonās 	хоро́ших	xoróšix	ἐσθλᾱ́ς	esthlā́s 	साध्वीः	sādhvī́ḥ	#						
 good	3	singular	neuter	accusative	strong	animate	h₁wésu 	gōd	bonum	хоро́шее	xoróšeje	ἐσθλόν	esthlón	साधु	sādhú 	#						
 good	3	dual	neuter	accusative	strong	animate	h₁wéswih₁ 					ἐσθλώ	esthlṓ	साधुनी	sādhúnī 	#						
-good	3	plural	neuter	accusative	strong	animate	h₁wésuh₂	gōd	bona	хоро́ших	xoróšix	ἐσθλᾰ́	esthlá	साधू / साधु	sādhū́ / sādhú	#						
+good	3	plural	neuter	accusative	strong	animate	h₁wésuh₂	gōd	bona	хоро́ших	xoróšix	ἐσθλᾰ́	esthlá	साधू|साधु	sādhū́|sādhú	#						
 good	3	singular	masculine	accusative	strong	inanimate				хоро́ший	xoróšij					#						
 good	3	dual	masculine	accusative	strong	inanimate										#						
 good	3	plural	masculine	accusative	strong	inanimate				хоро́шие	xoróšije 					#						
@@ -266,7 +266,7 @@ bad	3	dual	masculine	accusative	strong	animate	dusóh₁     					kakṓ 	κᾰ�
 bad	3	plural	masculine	accusative	strong	animate	dusóms     	yfele 	malōs 	плохи́х	ploxíx	kakoús 	κᾰκούς	अघान्	aghā́n	#						
 bad	3	singular	feminine	accusative	strong	animate	dusā́m   	yfele 	malam 	плоху́ю	ploxúju	kakḗn 	κᾰκήν	अघाम्	aghā́m 	#						
 bad	3	dual	feminine	accusative	strong	animate	duséh₂h₁(e)					kakā́ 	κᾰκᾱ́	अघे	aghé 	#						
-bad	3	plural	feminine	accusative	strong	animate	duséh₂m̥s  	yfela, yfele 	malās 	плохи́х	ploxíx	kakā́s 	κᾰκᾱ́ς	अघाः	aghā́ḥ	#						
+bad	3	plural	feminine	accusative	strong	animate	duséh₂m̥s  	yfela|yfele 	malās 	плохи́х	ploxíx	kakā́s 	κᾰκᾱ́ς	अघाः	aghā́ḥ	#						
 bad	3	singular	neuter	accusative	strong	animate	dusóm    	yfel	malum 	плохо́е	ploxóje	kakón	κᾰκόν	अघम्	aghám 	#						
 bad	3	dual	neuter	accusative	strong	animate	dusóy(h₁)  					kakṓ	κᾰκώ	अघे	aghé 	#						
 bad	3	plural	neuter	accusative	strong	animate	duséh₂     	yfel	mala	плохи́х	ploxíx	kaká	κᾰκᾰ́	अघानि	aghā́ni	#						
@@ -284,7 +284,7 @@ big	3	dual	masculine	accusative	strong	animate	méǵh₂h₁(e) 					μεγᾰ́
 big	3	plural	masculine	accusative	strong	animate	méǵh₂m̥s	miċele 	magnōs 	больши́х	bolʹšíx	μεγᾰ́λους	megálous 	महान्	mahā́n	#						
 big	3	singular	feminine	accusative	strong	animate	méǵh₂ih₂m̥ 	miċele 	magnam 	большу́ю	bolʹšúju	μεγᾰ́λην	megálēn 	महाम्	mahā́m 	#						
 big	3	dual	feminine	accusative	strong	animate	méǵh₂ih₂h₁(e) 					μεγᾰ́λᾱ	megálā 	महे	mahé 	#						
-big	3	plural	feminine	accusative	strong	animate	méǵh₂ih₂m̥s	miċela, miċele 	magnās 	больши́х	bolʹšíx	μεγᾰ́λᾱς	megálās 	महाः	mahā́ḥ	#						
+big	3	plural	feminine	accusative	strong	animate	méǵh₂ih₂m̥s	miċela|miċele 	magnās 	больши́х	bolʹšíx	μεγᾰ́λᾱς	megálās 	महाः	mahā́ḥ	#						
 big	3	singular	neuter	accusative	strong	animate	méǵh₂ 	miċel	magnum 	большо́е	bolʹšóje	μέγᾰ	méga 	महम्	mahám 	#						
 big	3	dual	neuter	accusative	strong	animate	méǵh₂ih₁ 					μεγᾰ́λω	megálō 	महे	mahé 	#						
 big	3	plural	neuter	accusative	strong	animate	méǵh₂h₂	miċel	magna	больши́х	bolʹšíx	μεγᾰ́λᾰ	megála	महानि	mahā́ni	#						

@@ -1,5 +1,58 @@
 import re
 
+class ListParsing:
+    '''
+    Parses lisp like text to a list of strings
+    Start and end parentheses are denoted by 'L' and 'R' strings.
+    To simplify implementation, start and end parentheses should be avoided in text 
+    unless they indicate L and R.
+    To guarantee security, we strongly discourage any manipulation of input `string`s
+    if there is a chance that the parser will handle public facing input.
+    Modification of `LispInterpreter` and its usages should not proceed until the above sentence is understood.
+    '''
+    def __init__(self, L='[', R=']'):
+        self.L = L
+        self.R = R
+    def parse(self, string):
+        open_count = 0
+        stack = [[]]
+        # standardize string so that it can be handled without regex escape codes
+        standardized = string
+        standardized = standardized.replace('[','(')
+        standardized = standardized.replace(']',')')
+        for match in re.finditer('[()]|[^() ]*', standardized):
+            token = match.group(0)
+            if token == '(':
+                stack.append([])
+            elif token == ')':
+                closed = stack.pop()
+                stack[-1].append(closed)
+            elif len(token.strip()):
+                stack[-1].append(token)
+        assert len(stack) == 1, f'start and end delimeter mismatch in string: {string}'
+        return stack[0]
+
+class LatexlikeParsing:
+    '''
+    Introduces LaTEX like escape sequences (e.g.\\foo{bar}).
+    The style of start and end marker is described by the given `enclosure`.
+    '''
+    def __init__(self, enclosure):
+        self.enclosure = enclosure
+    def decode(self, pattern, string, get_replacement):
+        match = re.search(pattern, string)
+        while match is not None:
+            posttag = string[match.end():]
+            bracket_range = self.enclosure.find(posttag)
+            if not bracket_range: break
+            start, end = bracket_range
+            string = ''.join([
+                string[:match.start()],
+                get_replacement(posttag[start:end]), 
+                posttag[end+len(self.enclosure.R):]])
+            match = re.search(pattern, string)
+        return string
+
 class Enclosures:
     '''
     Finds start and end positions of the first region of text enclosed 

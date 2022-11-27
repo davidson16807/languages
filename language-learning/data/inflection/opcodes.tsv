@@ -1,0 +1,27 @@
+			
+			
+default	Indicates that the remaining words in the list are associated with the grammeme key of the declension or conjugation that is being demonstrated		# grammeme keys
+speaker	Indicates that the remaining words in the list are associated with the grammeme key of the person making the statement that demonstrates the declension or conjugation		
+audience	Indicates that the remaining words in the list are associated with the grammeme key of the audience receiving the statement		
+sapient	Indicates that the remaining words in the list are associated with the grammeme key of a sapient that is introduced merely to demonstrate the declension or conjugation		
+patient	Indicates that the remaining words in the list are associated with the grammeme key of a patient that is introduced merely to demonstrate the declension or conjugation		
+inanimate	Indicates that the remaining words in the list are associated with the grammeme key of an inanimate thing that is introduced merely to demonstrate the declension or conjugation		
+possession	Indicates that the remaining words in the list are associated with the grammeme key of a possession that is introduced merely to demonstrate the declension or conjugation		
+			
+clause	Indicates that the remaining words in a list constitute a grammatical clause. Its contents are ordered to reflect the sentence structure of a language.		# language constructs
+v	Indicates that the remaining words in a list constitute a verb - a word that is subject to conjugation. Its position within a clause is determined by the language. 		
+n	Indicates that the remaining words in a list constitute a noun - a word that is subject to declension. Its position within a clause is determined by the language. 		
+np	Indicates that the remaining words in a list constitute a noun phrase. Its contents stay together when a clause is rearrange to reflect the sentence structure of the language, however they are rearranged to reflect adjective order in the language.		
+vp	"Indicates that the remaining words in a list constitute a verb phrase. Its contents stay together when a clause is rearrange to reflect the sentence structure of the language, however they are rearranged to reflect adjective order in the language.	"		
+adj	Indicates that the remaining words in a list constitute an adjective - a word that is subject to declension		
+comp	Indicates that the remaining words in a list constitute a complementizer - a word that is not subject to any inflection. It is transformed only based on the language being spoken. Its position within a clause is determined by the language		
+conj	Indicates that the remaining words in a list constitute a conjunction - a word that is not subject to any inflection. It is transformed only based on the language being spoken. 		
+			
+adp	Placeholder for a phrase that serves as an adposition. Its position within a phrase is determined by the rules of the language		# placeholders
+declined	Placeholder for a set of nouns or adjectives, one of which being the noun or adjective whose declension is being demonstrated		
+conjugated	Placeholder for a set of verbs whose conjugation is being demonstrated		
+modifier	Placeholder for a stock modifier for the verb being demonstrated		
+a	Placeholder for the indefinite article		
+the	Placeholder for the definite article		
+			
+			
