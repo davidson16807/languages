@@ -260,22 +260,24 @@ class ListProcessing:
     def __init__(self, operations={}):
         self.operations = operations
     def process(self, tree, context={}):
-        if not len(tree): return []
+        def wrap(x): 
+            return x if isinstance(x, list) else [x]
+        if len(tree) < 1: return tree
         opcode = tree[0]
         operands = tree[1:]
         return ([self.process(opcode, context), 
-                *self.process(operands, context)] if isinstance(opcode, list)
-            else self.operations[opcode](self, tree, context) if opcode in self.operations 
-            else [opcode, *self.process(operands, context)])
+                *wrap(self.process(operands, context))] if isinstance(opcode, list)
+            else self.operations[opcode](self, tree, context) if opcode in self.operations
+            else [opcode, *wrap(self.process(operands, context))])
 
 class ListTools:
     def __init__(self):
         pass
     def rule(self):
+        def flatten(x): 
+            return [xij for xi in x for xij in flatten(xi)] if isinstance(x, list) else [x]
         def _process(machine, tree, memory):
-            rule = Rule(tree[0], memory, [])
-            rule.add(machine.process(tree[1:], memory))
-            return rule
+            return Rule(tree[0], memory, flatten(machine.process(tree[1:], memory)))
         return _process
     def replace(self, replacement):
         def _process(machine, tree, memory):
@@ -295,13 +297,6 @@ class Rule:
         self.tag = tag
         self.grammemes = grammemes
         self.content = content
-    def add(self, content): # NOTE: stateful bullshit, remove please
-        if isinstance(content, list):
-            for member in content:
-                self.add(member)
-        else:
-            self.content.append(content)
-        pass
     def __str__(self):
         return '' + self.tag + '{'+' '.join([
             member if isinstance(member, str) else str(member) 

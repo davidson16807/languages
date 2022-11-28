@@ -103,8 +103,9 @@ category_to_grammemes = {
 
     # needed for gerunds, supines, participles, and gerundives
     'gender':     ['masculine', 'feminine', 'neuter'],
-    'case':       ['nominative', 'oblique', 
-                   'accusative', 'genitive', 'dative', 'ablative', 'locative', 'instrumental', 'vocative', 
+    'case':       ['nominative', 'ergative',
+                   'oblique', 'accusative', 'absolutive', 
+                   'genitive', 'dative', 'ablative', 'locative', 'instrumental', 'vocative', 
                    'partitive', 'prepositional', 'abessive', 'adessive', 'allative', 'comitative', 'delative', 
                    'elative', 'essive', 'essive-formal', 'essive-modal', 'exessive', 'illative', 
                    'inessive', 'instructive', 'instrumental-comitative', 'sociative', 'sublative', 'superessive', 
@@ -517,8 +518,9 @@ class CardGeneration:
         for tuplekey in traversal.tuplekeys(category_to_grammemes):
             default_grammemes = traversal.dictkey(tuplekey)
             default_grammemes = {**default_grammemes, **{'noun-form': 'personal', 'case':'nominative', 'role':'agent'}}
+            modifier_grammemes = {**default_grammemes, **{'noun-form': 'common', 'role':'modifier'}}
             if all([default_grammemes in filter_lookup for filter_lookup in filter_lookups]):
-                syntax_tree = self.parsing.parse('clause [default [np the [n man]] [vp cloze v conjugated] [np stock-modifier conjugated]]')
+                syntax_tree = self.parsing.parse('clause [default [np the n man] [vp cloze v conjugated]] [modifier np stock-modifier conjugated]')
                 replacement = ListProcessing({
                     'conjugated': self.tools.replace(default_grammemes['verb']),
                     'the':        self.tools.replace(['art', 'the']),
@@ -527,6 +529,7 @@ class CardGeneration:
                 conversion = ListProcessing({
                     **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
                     'default': self.tools.grammemes(default_grammemes),
+                    'modifier': self.tools.grammemes(modifier_grammemes),
                 })
                 inflection = RuleProcessing({
                     'clause':        translation.order_clause,
@@ -551,6 +554,9 @@ class CardGeneration:
                 })
                 replaced = replacement.process(syntax_tree)
                 converted = conversion.process(replaced)
+                # print(syntax_tree)
+                # print(replaced)
+                # print(converted)
                 inflected = inflection.process(converted)
                 # english_tree = self.english.inflect(syntax_tree, presets, placeholders)
                 emoji_key  = {**default_grammemes, 'script':'emoji'}
@@ -572,6 +578,7 @@ class CardGeneration:
             category_to_grammemes={},
             solitary_grammemes={}, 
             agent_grammemes={}, 
+            theme_grammemes={}, 
             patient_grammemes={}, 
             possession_grammemes={}, 
             inanimate_grammemes={}, 
@@ -599,7 +606,7 @@ class CardGeneration:
                         'default':   self.tools.grammemes({**default_grammemes, **declined_grammemes,   'case':case}),
                         'solitary':  self.tools.grammemes({**default_grammemes, **agent_grammemes,      'case':'nominative', 'role':'solitary'  }),
                         'agent':     self.tools.grammemes({**default_grammemes, **solitary_grammemes,   'case':'nominative', 'role':'agent'     }),
-                        'theme':     self.tools.grammemes({**default_grammemes, **patient_grammemes,    'case':'accusative', 'role':'theme'     }),
+                        'theme':     self.tools.grammemes({**default_grammemes, **theme_grammemes,      'case':'accusative', 'role':'theme'     }),
                         'patient':   self.tools.grammemes({**default_grammemes, **patient_grammemes,    'case':'accusative', 'role':'patient'   }),
                         'possession':self.tools.grammemes({**default_grammemes, **possession_grammemes, 'case':'nominative', 'role':'solitary'  }),
                         'inanimate': self.tools.grammemes({**default_grammemes, **inanimate_grammemes,  'case':'nominative'}),
@@ -756,12 +763,13 @@ write('flashcards/noun-declension/latin.html',
             'thing':'bolt',
             'phenomenon': 'eruption',
         },
-        agent_grammemes = {'noun-form':'personal', 'number':'singular'},
-        solitary_grammemes = {'noun-form':'personal', 'number':'singular'},
-        possession_grammemes = {'noun-form':'common', 'number':'singular'},
-        patient_grammemes = {'noun-form':'common', 'number':'singular'},
-        declined_grammemes = {'noun-form':'common'},
-        emoji_grammemes = {'person':'4'},
+        agent_grammemes      = {'noun-form':'personal', 'number':'singular'},
+        solitary_grammemes   = {'noun-form':'personal', 'number':'singular'},
+        theme_grammemes      = {'noun-form':'personal', 'number':'singular'},
+        patient_grammemes    = {'noun-form':'personal', 'number':'singular'},
+        possession_grammemes = {'noun-form':'personal', 'number':'singular'},
+        declined_grammemes   = {'noun-form':'common'},
+        emoji_grammemes      = {'noun-form':'common', 'person':'4'},
         persons = [
             EmojiPerson('s','n',3),
             EmojiPerson('s','f',4),
@@ -771,7 +779,6 @@ write('flashcards/noun-declension/latin.html',
         ],
     ))
 
-'''
 write('flashcards/pronoun-declension/latin.html', 
     card_generation.declension(
         latin, 
@@ -781,6 +788,24 @@ write('flashcards/pronoun-declension/latin.html',
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'script']),
+        category_to_grammemes = {
+            **category_to_grammemes,
+            # 'noun':      ['man',],
+            'noun':      ['man','woman','snake'],
+            'gender':    ['neuter', 'feminine', 'masculine'],
+            'number':    ['singular','plural'],
+            'person':    ['1','2','3'],
+            'clusivity':  'exclusive',
+            'animacy':    'animate',
+            'clitic':     'tonic',
+            'partitivity':'nonpartitive',
+            'formality':  'familiar',
+            'tense':      'present', 
+            'voice':      'active',
+            'aspect':     'aorist', 
+            'mood':       'indicative',
+            'script':     'latin',
+        },
         filter_lookups = [
             DictLookup(
                 'pronoun filter', 
@@ -798,29 +823,14 @@ write('flashcards/pronoun-declension/latin.html',
                     ('mane',  '3', 'plural',   'neuter'   ),
                 })
             ],
-        agent_grammemes = {'noun-form':'common', 'number':'singular'},
-        solitary_grammemes = {'noun-form':'common', 'number':'singular'},
+        agent_grammemes      = {'noun-form':'common', 'number':'singular'},
+        solitary_grammemes   = {'noun-form':'common', 'number':'singular'},
+        theme_grammemes      = {'noun-form':'common', 'number':'singular'},
+        patient_grammemes    = {'noun-form':'common', 'number':'singular'},
         possession_grammemes = {'noun-form':'common', 'number':'singular'},
-        patient_grammemes = {'noun-form':'common', 'number':'singular'},
-        declined_grammemes = {'noun-form':'personal'},
+        declined_grammemes   = {'noun-form':'personal'},
+        emoji_grammemes      = {'noun-form':'personal'},
         english_map=replace([('you♀','you'),('you all♀','you all')]), 
-        category_to_grammemes = {
-            **category_to_grammemes,
-            'noun':      ['man','woman','snake'],
-            'gender':    ['neuter', 'feminine', 'masculine'],
-            'person':    ['1','2','3'],
-            'number':    ['singular','plural'],
-            'clusivity':  'exclusive',
-            'animacy':    'animate',
-            'clitic':     'tonic',
-            'partitivity':'nonpartitive',
-            'formality':  'familiar',
-            'tense':      'present', 
-            'voice':      'active',
-            'aspect':     'aorist', 
-            'mood':       'indicative',
-            'script':     'latin',
-        },
         persons = [
             EmojiPerson('s','n',3),
             EmojiPerson('s','f',4),
@@ -829,6 +839,7 @@ write('flashcards/pronoun-declension/latin.html',
             EmojiPerson('s','n',5),
         ],
     ))
+'''
 '''
 
 
