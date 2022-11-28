@@ -98,7 +98,7 @@ category_to_grammemes = {
     # needed for Spanish
     'formality':  ['familiar', 'polite', 'elevated', 'formal', 'tuteo', 'voseo'],
 
-    # needed for Sanskrit
+    # needed for Sanskrit and Japanese
     'stem':       ['primary', 'causative', 'intensive',],
 
     # needed for gerunds, supines, participles, and gerundives
@@ -119,7 +119,7 @@ category_to_grammemes = {
         'patient',  # the direct object of an active verb
         'theme',    # the direct object of a stative verb
         'possessor', 'location', 'extent', 'vicinity', 'interior', 'surface', 
-        'presence', 'aid', 'lack', 'interest', 'purpose', 'ownership', 
+        'presence', 'aid', 'lack', 'interest', 'purpose', 'possession', 
         'time', 'state of being', 'topic', 'company', 'resemblance'],
     # NOTE: "motion" is introduced here as a grammatical category to capture certain kinds of motion based semantic roles
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
@@ -525,7 +525,7 @@ class CardGeneration:
                     'a':          self.tools.replace(['art', 'a']),
                 })
                 conversion = ListProcessing({
-                    **{tag:self.tools.rule() for tag in 'clause cloze art adp np vp n v stock-modifier'.split()},
+                    **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
                     'default': self.tools.grammemes(default_grammemes),
                 })
                 inflection = RuleProcessing({
@@ -535,8 +535,10 @@ class CardGeneration:
                     'v':             translation.conjugate,
                     'n':             translation.decline,
                     'art':           translation.decline,
+                    'adj':           translation.decline,
                     'cloze':         translation.passthrough,
                     'stock-modifier':translation.stock_modifier,
+                    'stock-adposition':translation.stock_adposition,
                 })
                 formatting = RuleProcessing({
                     'clause':  self.formatting.default,
@@ -584,55 +586,53 @@ class CardGeneration:
                 noun = default_grammemes['noun']
                 predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
                 case = translation.use_case_to_grammatical_case[default_grammemes]['case']
-                adposition = translation.use_case_to_grammatical_case[default_grammemes]['adposition']
                 match = self.declension_template_matching.match(predicate, default_grammemes['motion'], default_grammemes['role'])
                 if match:
-                    presets = {
-                        'default':   {**default_grammemes, **declined_grammemes,   'case':case},
-                        'agent':     {**default_grammemes, **solitary_grammemes,   'case':'nominative', 'role':'agent'     },
-                        'solitary':  {**default_grammemes, **agent_grammemes,      'case':'nominative', 'role':'solitary'  },
-                        'patient':   {**default_grammemes, **patient_grammemes,    'case':'accusative', 'role':'patient'   },
-                        'possession':{**default_grammemes, **possession_grammemes, 'case':'nominative', 'role':'possession'},
-                        'inanimate': {**default_grammemes, **inanimate_grammemes,  'case':'nominative'},
-                    }
                     syntax_tree = self.parsing.parse(match['syntax-tree'])
                     replacement = ListProcessing({
-                        'declined':   self.tools.replace(['cloze', 'n', noun]),
-                        'modifier':   self.tools.replace([translation.conjugation_lookups['argument']]),
-                        'adp':        self.tools.replace(['adp', adposition]),
-                        'the':        self.tools.replace(['art', 'the']),
-                        'a':          self.tools.replace(['art', 'a']),
+                        'declined': self.tools.replace(['cloze', 'n', noun]),
+                        'the':      self.tools.replace(['art', 'the']),
+                        'a':        self.tools.replace(['art', 'a']),
                     })
                     conversion = ListProcessing({
-                        **{tag:self.tools.rule() for tag in 'clause cloze art adp np vp n v'.split()},
-                        **{tag:self.tools.grammemes(preset) for tag, preset in presets.items()},
+                        **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
+                        'default':   self.tools.grammemes({**default_grammemes, **declined_grammemes,   'case':case}),
+                        'solitary':  self.tools.grammemes({**default_grammemes, **agent_grammemes,      'case':'nominative', 'role':'solitary'  }),
+                        'agent':     self.tools.grammemes({**default_grammemes, **solitary_grammemes,   'case':'nominative', 'role':'agent'     }),
+                        'theme':     self.tools.grammemes({**default_grammemes, **patient_grammemes,    'case':'accusative', 'role':'theme'     }),
+                        'patient':   self.tools.grammemes({**default_grammemes, **patient_grammemes,    'case':'accusative', 'role':'patient'   }),
+                        'possession':self.tools.grammemes({**default_grammemes, **possession_grammemes, 'case':'nominative', 'role':'solitary'  }),
+                        'inanimate': self.tools.grammemes({**default_grammemes, **inanimate_grammemes,  'case':'nominative'}),
                     })
                     inflection = RuleProcessing({
-                        'clause':  translation.order_clause,
-                        'np':      translation.order_noun_phrase,
-                        'vp':      translation.passthrough,
-                        'v':       translation.conjugate,
-                        'n':       translation.decline,
-                        'art':     translation.decline,
-                        'cloze':   translation.passthrough,
+                        'clause':          translation.order_clause,
+                        'np':              translation.order_noun_phrase,
+                        'vp':              translation.passthrough,
+                        'v':               translation.conjugate,
+                        'n':               translation.decline,
+                        'art':             translation.decline,
+                        'adj':             translation.decline,
+                        'cloze':           translation.passthrough,
+                        'stock-modifier':  translation.stock_modifier,
+                        'stock-adposition':translation.stock_adposition,
+                    })
+                    formatting = RuleProcessing({
+                        'clause':  self.formatting.default,
+                        'np':      self.formatting.default,
+                        'vp':      self.formatting.default,
+                        'cloze':   self.formatting.cloze,
+                    })
+                    validation = RuleProcessing({
+                        **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
                     })
                     replaced = replacement.process(syntax_tree)
                     converted = conversion.process(replaced)
                     inflected = inflection.process(converted)
-                    formatting = RuleProcessing({
-                        'clause':  self.formatting.node,
-                        'np':      self.formatting.node,
-                        'vp':      self.formatting.node,
-                        'v':       self.formatting.leaf,
-                        'n':       self.formatting.leaf,
-                        'art':     self.formatting.leaf,
-                        'cloze':   self.formatting.cloze,
-                    })
-                    translated_text = formatting.format(translated_tree)
+                    translated_text = formatting.process(inflected)
                     # english_tree = self.english.inflect(syntax_tree, presets, {**placeholders, 'adposition': match['adposition']})
                     emoji_key = {**default_grammemes, **declined_grammemes, **emoji_grammemes, 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
-                        match['emoji'], translation.decline(emoji_key), persons)
+                        match['emoji'], translation.declension_lookups[emoji_key][emoji_key], persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             # self.cardFormatting.english_word(english_map(self.english.format(syntax_tree))),
@@ -722,7 +722,6 @@ write('flashcards/verb-conjugation/latin.html',
             EmojiPerson('s','n',5),
         ],
     ))
-'''
 write('flashcards/noun-declension/latin.html', 
     card_generation.declension(
         latin, 
@@ -772,7 +771,7 @@ write('flashcards/noun-declension/latin.html',
         ],
     ))
 
-
+'''
 write('flashcards/pronoun-declension/latin.html', 
     card_generation.declension(
         latin, 

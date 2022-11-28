@@ -1,8 +1,10 @@
 motion	attribute	ancient greek case name		
-subject		nominative		
-addressed		vocative		
-direct object		accusative		
-associated		genitive		
+associated	solitary	nominative		
+associated	agent	nominative		
+associated	audience	vocative		
+associated	patient	accusative		
+associated	theme	"accusative	"		
+associated	possessor	genitive		
 departed	location	dative		
 associated	location	genitive		
 acquired	location	dative		

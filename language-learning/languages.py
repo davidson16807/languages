@@ -202,8 +202,9 @@ class Translation:
         grammemes = {**rule.grammemes, 'language-type':'translated', 'noun':rule.content[0]}
         # NOTE: if content is a None type, then rely solely on the grammeme
         #  This logic provides a natural way to encode for pronouns
-        return (None if grammemes not in self.declension_lookups
-                else None if grammemes not in self.declension_lookups[grammemes]
+        missing_value = '' if rule.tag in {'art'} else None
+        return (missing_value if grammemes not in self.declension_lookups
+                else missing_value if grammemes not in self.declension_lookups[grammemes]
                 else self.declension_lookups[grammemes][grammemes])
     def conjugate(self, processing, rule):
         grammemes = {**rule.grammemes, 'language-type':'translated', 'verb':rule.content[0]}
@@ -213,6 +214,10 @@ class Translation:
         grammemes = {**rule.grammemes, 'language-type':'translated', 'verb':rule.content[0]}
         return (None if grammemes not in self.conjugation_lookups['argument']
                 else self.conjugation_lookups['argument'][grammemes])
+    def stock_adposition(self, processing, rule):
+        grammemes = {**rule.grammemes, 'language-type':'translated'}
+        return (None if grammemes not in self.use_case_to_grammatical_case
+                else self.use_case_to_grammatical_case[grammemes]['adposition'])
     def order_clause(self, processing, clause):
         verbs = [phrase for phrase in clause.content if phrase.tag in {'vp'}]
         nouns = [phrase for phrase in clause.content if phrase.tag in {'np'}]
@@ -239,7 +244,7 @@ class Translation:
             phrase.grammemes,
             processing.process([
                 content for content in phrase.content 
-                if content.tag in {'n','adj','stock-modifier'} or 
+                if content.tag in {'n','adj','stock-modifier','stock-adposition'} or 
                     ('noun-form' in content.grammemes and content.grammemes['noun-form'] in {'common'})
             ]))
     def passthrough(self, processing, rule):
@@ -274,7 +279,7 @@ class ListTools:
         return _process
     def replace(self, replacement):
         def _process(machine, tree, memory):
-            return [replacement, *tree[1:]]
+            return [replacement, *machine.process(tree[1:], memory)]
         return _process
     def grammemes(self, modifications):
         def _process(machine, tree, memory):
