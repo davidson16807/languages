@@ -1,18 +1,18 @@
 #motion	cast	specificity	syntax tree	adposition	declined	declined	emoji														
 #			#see opcodes.tsv for an explanation of the opcodes that appear in the lists below		function	argument															
-associated	solitary	1	clause [default [np the n declined] [vp v walk]]		can	walk	←\declined														
-associated	solitary	0	clause [default [np the n declined] [vp v come]]		be	time	\declined														
-associated	solitary	0	clause [default [np the n declined] [vp v come]]		be	event	\declined														
-associated	agent	0	clause [default [np the n declined] [vp v be]] [theme np adj good]		be	good-concept	\declined\mirror{👍\c3}														
-associated	agent	0	clause [default [np the n declined] [vp v be]] [theme np adj bad]		be	bad-concept	\declined\mirror{👎\c3}														
-associated	agent	0	clause [default [np the n declined] [vp v be]] [theme np adj good]		be	ethical-emotion	\declined\mirror{👍\c3}														
-associated	agent	0	clause [default [np the n declined] [vp v be]] [theme np adj bad]		be	suspect-emotion	\declined\mirror{👎\c3}														
-associated	agent	1	clause [default [np the n declined] [vp v be]] [theme np adj well]		be	sapient	\declined\mirror{👍\c3}														
-associated	agent	0	clause [default [np the n declined] [vp v be]] [theme np adj big]		has-trait	size	\small{\declined}\large{\declined}\small{\declined}														
-associated	agent	0	clause [default [np the n declined] [vp v be]] [theme np adj loud]		has-trait	volume	\group{\declined\rhi{🗯️}}\declined\group{\large{\r{🗯️}}}\group{\declined\rhi{🗯️}}														
-#associated	agent	1	clause [default [np the n declined] [vp v be]] [theme np adj long]		has-trait	length	\small{\declined}\wide{\declined}\small{\declined}														
-#associated	agent	1	clause [default [np the n declined] [vp v be]] [theme np adj long]		be	event	\group{\declined\declined\declined}														
-associated	agent	-1	clause [default [np the n declined] [vp v be]] [theme np adj good]		be	thing	\declined\mirror{👍\c3}														
+associated	solitary	1	clause [default [np the declined] [vp v walk]]		can	walk	←\declined														
+associated	solitary	0	clause [default [np the declined] [vp v come]]		be	time	\declined														
+associated	solitary	0	clause [default [np the declined] [vp v come]]		be	event	\declined														
+associated	agent	0	clause [default [np the declined] [vp v be]] [theme np adj good]		be	good-concept	\declined\mirror{👍\c3}														
+associated	agent	0	clause [default [np the declined] [vp v be]] [theme np adj bad]		be	bad-concept	\declined\mirror{👎\c3}														
+associated	agent	0	clause [default [np the declined] [vp v be]] [theme np adj good]		be	ethical-emotion	\declined\mirror{👍\c3}														
+associated	agent	0	clause [default [np the declined] [vp v be]] [theme np adj bad]		be	suspect-emotion	\declined\mirror{👎\c3}														
+associated	agent	1	clause [default [np the declined] [vp v be]] [theme np adj well]		be	sapient	\declined\mirror{👍\c3}														
+associated	agent	0	clause [default [np the declined] [vp v be]] [theme np adj big]		has-trait	size	\small{\declined}\large{\declined}\small{\declined}														
+associated	agent	0	clause [default [np the declined] [vp v be]] [theme np adj loud]		has-trait	volume	\group{\declined\rhi{🗯️}}\declined\group{\large{\r{🗯️}}}\group{\declined\rhi{🗯️}}														
+#associated	agent	1	clause [default [np the declined] [vp v be]] [theme np adj long]		has-trait	length	\small{\declined}\wide{\declined}\small{\declined}														
+#associated	agent	1	clause [default [np the declined] [vp v be]] [theme np adj long]		be	event	\group{\declined\declined\declined}														
+associated	agent	-1	clause [default [np the declined] [vp v be]] [theme np adj good]		be	thing	\declined\mirror{👍\c3}														
 associated	patient	0	clause [agent [np the n man] [vp v push]] [default np the declined]		be	solid	🫸\c3→\declined														
 associated	theme	0	clause [agent [np the n man] [vp v love]] [default np declined]		be	good-concept	\declined\group{🚶\c3\m\rhi{❤️}}														
 associated	theme	0	clause [agent [np the n man] [vp v hate]] [default np declined]		be	bad-concept	\declined🙍\c3\m														
@@ -131,5 +131,5 @@ acquired	topic	0	clause [solitary [np the n man] [vp v direct]] [patient np [adj
 leveraged	topic	0	clause [solitary [np the n man] [vp v talk]] [default np [stock-adposition] the declined]	by using [the topic of]	be	thing	\bubble{\declined}\rspeech💁\c3\m														
 associated	company	0	clause [solitary [np the n man] [vp v walk]] [default np [stock-adposition] the declined]	along with	be	animated	\group{←🚶\c3\m\r{←\declined}}														
 associated	company	-1	clause [solitary [np the n man] [vp v walk]] [default np [stock-adposition] the declined]	in the company of	be	physical	\group{←🚶\c3\m\r{←\declined}}														
-#associated	resemblance	-1	clause [inanimate [np [n plant]] [vp v be]] [default np [stock-adposition] a declined]	like	be	thing	≈\declined														
+#associated	resemblance	-1	clause [solitary [np a [n man]] [vp v be]] [default np [stock-adposition] a declined]	like	be	thing	≈\declined														
 associated	resemblance	0	clause [solitary [np the n man] [vp v be]] [default np [stock-adposition] the declined]	like	be	animate	🧑\m\c3\≈\declined														

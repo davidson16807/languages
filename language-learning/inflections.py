@@ -1,3 +1,5 @@
+# See README.txt and GLOSSARY.txt for notes on terminology
+
 import copy
 import collections
 import itertools
@@ -609,7 +611,6 @@ class CardGeneration:
                         'theme':     self.tools.grammemes({**default_grammemes, **theme_grammemes,      'case':'accusative', 'role':'theme'     }),
                         'patient':   self.tools.grammemes({**default_grammemes, **patient_grammemes,    'case':'accusative', 'role':'patient'   }),
                         'possession':self.tools.grammemes({**default_grammemes, **possession_grammemes, 'case':'nominative', 'role':'solitary'  }),
-                        'inanimate': self.tools.grammemes({**default_grammemes, **inanimate_grammemes,  'case':'nominative'}),
                     })
                     inflection = RuleProcessing({
                         'clause':          translation.order_clause,
@@ -635,7 +636,10 @@ class CardGeneration:
                     replaced = replacement.process(syntax_tree)
                     converted = conversion.process(replaced)
                     inflected = inflection.process(converted)
-                    translated_text = formatting.process(inflected)
+                    formatted = formatting.process(inflected)
+                    # if 'possession' in match['syntax-tree']:
+                    # if default_grammemes[''] =='personal':
+                    #     breakpoint()
                     # english_tree = self.english.inflect(syntax_tree, presets, {**placeholders, 'adposition': match['adposition']})
                     emoji_key = {**default_grammemes, **declined_grammemes, **emoji_grammemes, 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
@@ -643,7 +647,7 @@ class CardGeneration:
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             # self.cardFormatting.english_word(english_map(self.english.format(syntax_tree))),
-                            self.cardFormatting.foreign_focus(translated_text),
+                            self.cardFormatting.foreign_focus(formatted),
                         ])
 
 card_generation = CardGeneration(
@@ -738,7 +742,7 @@ write('flashcards/noun-declension/latin.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'script']),
+            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         category_to_grammemes = {
             **category_to_grammemes,
             'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
@@ -756,6 +760,7 @@ write('flashcards/noun-declension/latin.html',
             'voice':      'active',
             'aspect':     'aorist', 
             'mood':       'indicative',
+            'noun-form':  'common',
             'script':     'latin',
         },
         nouns_to_predicates = {
@@ -767,7 +772,7 @@ write('flashcards/noun-declension/latin.html',
         solitary_grammemes   = {'noun-form':'personal', 'number':'singular'},
         theme_grammemes      = {'noun-form':'personal', 'number':'singular'},
         patient_grammemes    = {'noun-form':'personal', 'number':'singular'},
-        possession_grammemes = {'noun-form':'personal', 'number':'singular'},
+        possession_grammemes = {'noun-form':'common',   'number':'singular'},
         declined_grammemes   = {'noun-form':'common'},
         emoji_grammemes      = {'noun-form':'common', 'person':'4'},
         persons = [
@@ -787,7 +792,7 @@ write('flashcards/pronoun-declension/latin.html',
             # categories that are constant since they do not affect pronouns in the language
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'script']),
+            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         category_to_grammemes = {
             **category_to_grammemes,
             # 'noun':      ['man',],
@@ -804,6 +809,7 @@ write('flashcards/pronoun-declension/latin.html',
             'voice':      'active',
             'aspect':     'aorist', 
             'mood':       'indicative',
+            'noun-form':  'personal',
             'script':     'latin',
         },
         filter_lookups = [

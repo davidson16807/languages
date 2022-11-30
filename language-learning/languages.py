@@ -244,7 +244,7 @@ class Translation:
             phrase.grammemes,
             processing.process([
                 content for content in phrase.content 
-                if content.tag in {'n','adj','stock-modifier','stock-adposition'} or 
+                if content.tag not in {'art'} or 
                     ('noun-form' in content.grammemes and content.grammemes['noun-form'] in {'common'})
             ]))
     def passthrough(self, processing, rule):
