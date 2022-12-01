@@ -22,7 +22,7 @@ from languages import (
     RuleProcessing, RuleValidation, RuleFormatting,
 )
 
-category_to_grammemes = {
+tagaxis_to_tags = {
 
     # needed to lookup the argument that is used to demonstrate a verb
     'language-type':   ['english', 'translated'], 
@@ -77,9 +77,9 @@ category_to_grammemes = {
                   ],
 
     # animacy ordered as follows:
-    # 1st column: represents any of the grammemes that precede the entry in the middle column of that row
-    # 2nd column: represents its own unique grammeme that excludes all preceding rows and following entries
-    # 3rd column: represents any of the grammemes that follow the entry in the middle column of that row
+    # 1st column: represents any of the tags that precede the entry in the middle column of that row
+    # 2nd column: represents its own unique tag that excludes all preceding rows and following entries
+    # 3rd column: represents any of the tags that follow the entry in the middle column of that row
     # As an example, all "animate" things are "living" but not all "dynamic" things are "living",
     # all "static" things are "nonliving" but not all static things are "abstract",
     # and a "plant" is "living", "dynamic", "nonagent", and "inanimate", among others.
@@ -124,7 +124,7 @@ category_to_grammemes = {
         'possessor', 'location', 'extent', 'vicinity', 'interior', 'surface', 
         'presence', 'aid', 'lack', 'interest', 'purpose', 'possession', 
         'time', 'state of being', 'topic', 'company', 'resemblance'],
-    # NOTE: "motion" is introduced here as a grammatical category to capture certain kinds of motion based semantic roles
+    # NOTE: "motion" is introduced here as a grammatical tagaxis to capture certain kinds of motion based semantic roles
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     'motion': ['departed', 'associated', 'acquired', 'leveraged'],
     
@@ -149,9 +149,9 @@ category_to_grammemes = {
                    'argument', 'group'],
 }
 
-grammeme_to_category = {
+tag_to_tagaxis = {
     instance:type_ 
-    for (type_, instances) in category_to_grammemes.items() 
+    for (type_, instances) in tagaxis_to_tags.items() 
     for instance in instances
 }
 
@@ -306,23 +306,23 @@ declension_template_lookups = DictLookup(
 tsv_parsing = SeparatedValuesFileParsing()
 
 finite_annotation  = CellAnnotation(
-    grammeme_to_category, {}, {0:'verb'}, 
-    {**category_to_grammemes, 'script':'latin', 'verb-form':'finite'})
+    tag_to_tagaxis, {}, {0:'verb'}, 
+    {**tagaxis_to_tags, 'script':'latin', 'verb-form':'finite'})
 nonfinite_annotation  = CellAnnotation(
-    grammeme_to_category, {}, {0:'verb'},
-    {**category_to_grammemes, 'script':'latin', 'verb-form':'infinitive'})
+    tag_to_tagaxis, {}, {0:'verb'},
+    {**tagaxis_to_tags, 'script':'latin', 'verb-form':'infinitive'})
 pronoun_annotation  = CellAnnotation(
-    grammeme_to_category, {}, {}, 
-    {**category_to_grammemes, 'script':'latin', 'noun-form':'personal'})
+    tag_to_tagaxis, {}, {}, 
+    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal'})
 common_noun_annotation  = CellAnnotation(
-    grammeme_to_category, {}, {0:'noun'},
-    {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3'})
+    tag_to_tagaxis, {}, {0:'noun'},
+    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 declension_template_noun_annotation = CellAnnotation(
-    grammeme_to_category, {0:'language'}, {0:'noun'},
-    {**category_to_grammemes, 'script':'latin', 'noun-form':'common', 'person':'3'})
+    tag_to_tagaxis, {0:'language'}, {0:'noun'},
+    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 predicate_annotation = CellAnnotation(
-    grammeme_to_category, {0:'column'}, {}, 
-    {**category_to_grammemes, 'script':'latin', 'verb-form':'finite'})
+    tag_to_tagaxis, {0:'column'}, {}, 
+    {**tagaxis_to_tags, 'script':'latin', 'verb-form':'finite'})
 mood_annotation        = CellAnnotation(
     {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
 
@@ -495,7 +495,7 @@ case_population = FlatLookupPopulation(
 )
 
 declension_verb_annotation = CellAnnotation(
-    grammeme_to_category, {0:'language'}, {0:'verb'}, 
+    tag_to_tagaxis, {0:'language'}, {0:'verb'}, 
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine']})
 
 class CardGeneration:
@@ -514,24 +514,24 @@ class CardGeneration:
             translation, 
             traversal, 
             filter_lookups=[], 
-            category_to_grammemes={},
+            tagaxis_to_tags={},
             english_map=lambda x:x,
             persons=[]):
-        for tuplekey in traversal.tuplekeys(category_to_grammemes):
-            default_grammemes = traversal.dictkey(tuplekey)
-            default_grammemes = {**default_grammemes, **{'noun-form': 'personal', 'case':'nominative', 'role':'agent'}}
-            modifier_grammemes = {**default_grammemes, **{'noun-form': 'common', 'role':'modifier'}}
-            if all([default_grammemes in filter_lookup for filter_lookup in filter_lookups]):
-                syntax_tree = self.parsing.parse('clause [default [np the n man] [vp cloze v conjugated]] [modifier np stock-modifier conjugated]')
+        for tuplekey in traversal.tuplekeys(tagaxis_to_tags):
+            default_tags = traversal.dictkey(tuplekey)
+            default_tags = {**default_tags, **{'noun-form': 'personal', 'case':'nominative', 'role':'agent'}}
+            modifier_tags = {**default_tags, **{'noun-form': 'common', 'role':'modifier'}}
+            if all([default_tags in filter_lookup for filter_lookup in filter_lookups]):
+                tree = self.parsing.parse('clause [default [np the n man] [vp cloze v conjugated]] [modifier np stock-modifier conjugated]')
                 replacement = ListProcessing({
-                    'conjugated': self.tools.replace(default_grammemes['verb']),
+                    'conjugated': self.tools.replace(default_tags['verb']),
                     'the':        self.tools.replace(['art', 'the']),
                     'a':          self.tools.replace(['art', 'a']),
                 })
                 conversion = ListProcessing({
                     **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                    'default': self.tools.grammemes(default_grammemes),
-                    'modifier': self.tools.grammemes(modifier_grammemes),
+                    'default': self.tools.tags(default_tags),
+                    'modifier': self.tools.tags(modifier_tags),
                 })
                 inflection = RuleProcessing({
                     'clause':        translation.order_clause,
@@ -554,19 +554,19 @@ class CardGeneration:
                 validation = RuleProcessing({
                     **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
                 })
-                replaced = replacement.process(syntax_tree)
+                replaced = replacement.process(tree)
                 converted = conversion.process(replaced)
-                # print(syntax_tree)
+                # print(tree)
                 # print(replaced)
                 # print(converted)
                 inflected = inflection.process(converted)
-                # english_tree = self.english.inflect(syntax_tree, presets, placeholders)
-                emoji_key  = {**default_grammemes, 'script':'emoji'}
+                # english_tree = self.english.inflect(tree, presets, placeholders)
+                emoji_key  = {**default_tags, 'script':'emoji'}
                 if validation.process(inflected) and emoji_key in translation.conjugation_lookups['infinitive']:
-                    # english_text    = self.english.process(syntax_tree)
+                    # english_text    = self.english.process(tree)
                     translated_text = formatting.process(inflected)
                     emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
-                    emoji_text      = self.emoji.conjugate(default_grammemes, emoji_argument, persons)
+                    emoji_text      = self.emoji.conjugate(default_tags, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             # self.cardFormatting.english_word(english_map(english_text)), 
@@ -577,27 +577,27 @@ class CardGeneration:
             traversal, 
             filter_lookups=[],
             nouns_to_predicates={},
-            category_to_grammemes={},
-            solitary_grammemes={}, 
-            agent_grammemes={}, 
-            theme_grammemes={}, 
-            patient_grammemes={}, 
-            possession_grammemes={}, 
-            inanimate_grammemes={}, 
-            declined_grammemes={},
-            emoji_grammemes={}, 
+            tagaxis_to_tags={},
+            solitary_tags={}, 
+            agent_tags={}, 
+            theme_tags={}, 
+            patient_tags={}, 
+            possession_tags={}, 
+            inanimate_tags={}, 
+            declined_tags={},
+            emoji_tags={}, 
             english_map=lambda x:x,
             persons=[]):
-        for tuplekey in traversal.tuplekeys(category_to_grammemes):
-            default_grammemes = traversal.dictkey(tuplekey)
-            if (all([default_grammemes in filter_lookup for filter_lookup in filter_lookups]) and 
-                  default_grammemes in translation.use_case_to_grammatical_case):
-                noun = default_grammemes['noun']
+        for tuplekey in traversal.tuplekeys(tagaxis_to_tags):
+            default_tags = traversal.dictkey(tuplekey)
+            if (all([default_tags in filter_lookup for filter_lookup in filter_lookups]) and 
+                  default_tags in translation.use_case_to_grammatical_case):
+                noun = default_tags['noun']
                 predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
-                case = translation.use_case_to_grammatical_case[default_grammemes]['case']
-                match = self.declension_template_matching.match(predicate, default_grammemes['motion'], default_grammemes['role'])
+                case = translation.use_case_to_grammatical_case[default_tags]['case']
+                match = self.declension_template_matching.match(predicate, default_tags['motion'], default_tags['role'])
                 if match:
-                    syntax_tree = self.parsing.parse(match['syntax-tree'])
+                    tree = self.parsing.parse(match['syntax-tree'])
                     replacement = ListProcessing({
                         'declined': self.tools.replace(['cloze', 'n', noun]),
                         'the':      self.tools.replace(['art', 'the']),
@@ -605,12 +605,12 @@ class CardGeneration:
                     })
                     conversion = ListProcessing({
                         **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                        'default':   self.tools.grammemes({**default_grammemes, **declined_grammemes,   'case':case}),
-                        'solitary':  self.tools.grammemes({**default_grammemes, **agent_grammemes,      'case':'nominative', 'role':'solitary'  }),
-                        'agent':     self.tools.grammemes({**default_grammemes, **solitary_grammemes,   'case':'nominative', 'role':'agent'     }),
-                        'theme':     self.tools.grammemes({**default_grammemes, **theme_grammemes,      'case':'accusative', 'role':'theme'     }),
-                        'patient':   self.tools.grammemes({**default_grammemes, **patient_grammemes,    'case':'accusative', 'role':'patient'   }),
-                        'possession':self.tools.grammemes({**default_grammemes, **possession_grammemes, 'case':'nominative', 'role':'solitary'  }),
+                        'default':   self.tools.tags({**default_tags, **declined_tags,   'case':case}),
+                        'solitary':  self.tools.tags({**default_tags, **agent_tags,      'case':'nominative', 'role':'solitary'  }),
+                        'agent':     self.tools.tags({**default_tags, **solitary_tags,   'case':'nominative', 'role':'agent'     }),
+                        'theme':     self.tools.tags({**default_tags, **theme_tags,      'case':'accusative', 'role':'theme'     }),
+                        'patient':   self.tools.tags({**default_tags, **patient_tags,    'case':'accusative', 'role':'patient'   }),
+                        'possession':self.tools.tags({**default_tags, **possession_tags, 'case':'nominative', 'role':'solitary'  }),
                     })
                     inflection = RuleProcessing({
                         'clause':          translation.order_clause,
@@ -633,20 +633,20 @@ class CardGeneration:
                     validation = RuleProcessing({
                         **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
                     })
-                    replaced = replacement.process(syntax_tree)
+                    replaced = replacement.process(tree)
                     converted = conversion.process(replaced)
                     inflected = inflection.process(converted)
                     formatted = formatting.process(inflected)
                     # if 'possession' in match['syntax-tree']:
-                    # if default_grammemes[''] =='personal':
+                    # if default_tags[''] =='personal':
                     #     breakpoint()
-                    # english_tree = self.english.inflect(syntax_tree, presets, {**placeholders, 'adposition': match['adposition']})
-                    emoji_key = {**default_grammemes, **declined_grammemes, **emoji_grammemes, 'case':case, 'script': 'emoji'}
+                    # english_tree = self.english.inflect(tree, presets, {**placeholders, 'adposition': match['adposition']})
+                    emoji_key = {**default_tags, **declined_tags, **emoji_tags, 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
                         match['emoji'], translation.declension_lookups[emoji_key][emoji_key], persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
-                            # self.cardFormatting.english_word(english_map(self.english.format(syntax_tree))),
+                            # self.cardFormatting.english_word(english_map(self.english.format(tree))),
                             self.cardFormatting.foreign_focus(formatted),
                         ])
 
@@ -708,8 +708,8 @@ write('flashcards/verb-conjugation/latin.html',
                 })
             ],
         english_map=replace([('♂',''),('♀','')]), 
-        category_to_grammemes = {
-            **category_to_grammemes,
+        tagaxis_to_tags = {
+            **tagaxis_to_tags,
             'gender':    ['neuter', 'feminine', 'masculine'],
             'person':    ['1','2','3'],
             'number':    ['singular','plural'],
@@ -743,8 +743,8 @@ write('flashcards/noun-declension/latin.html',
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        category_to_grammemes = {
-            **category_to_grammemes,
+        tagaxis_to_tags = {
+            **tagaxis_to_tags,
             'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
                           'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
                           'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet'],
@@ -768,13 +768,13 @@ write('flashcards/noun-declension/latin.html',
             'thing':'bolt',
             'phenomenon': 'eruption',
         },
-        agent_grammemes      = {'noun-form':'personal', 'number':'singular'},
-        solitary_grammemes   = {'noun-form':'personal', 'number':'singular'},
-        theme_grammemes      = {'noun-form':'personal', 'number':'singular'},
-        patient_grammemes    = {'noun-form':'personal', 'number':'singular'},
-        possession_grammemes = {'noun-form':'common',   'number':'singular'},
-        declined_grammemes   = {'noun-form':'common'},
-        emoji_grammemes      = {'noun-form':'common', 'person':'4'},
+        agent_tags      = {'noun-form':'personal', 'number':'singular'},
+        solitary_tags   = {'noun-form':'personal', 'number':'singular'},
+        theme_tags      = {'noun-form':'personal', 'number':'singular'},
+        patient_tags    = {'noun-form':'personal', 'number':'singular'},
+        possession_tags = {'noun-form':'common',   'number':'singular'},
+        declined_tags   = {'noun-form':'common'},
+        emoji_tags      = {'noun-form':'common', 'person':'4'},
         persons = [
             EmojiPerson('s','n',3),
             EmojiPerson('s','f',4),
@@ -793,8 +793,8 @@ write('flashcards/pronoun-declension/latin.html',
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        category_to_grammemes = {
-            **category_to_grammemes,
+        tagaxis_to_tags = {
+            **tagaxis_to_tags,
             # 'noun':      ['man',],
             'noun':      ['man','woman','snake'],
             'gender':    ['neuter', 'feminine', 'masculine'],
@@ -829,13 +829,13 @@ write('flashcards/pronoun-declension/latin.html',
                     ('mane',  '3', 'plural',   'neuter'   ),
                 })
             ],
-        agent_grammemes      = {'noun-form':'common', 'number':'singular'},
-        solitary_grammemes   = {'noun-form':'common', 'number':'singular'},
-        theme_grammemes      = {'noun-form':'common', 'number':'singular'},
-        patient_grammemes    = {'noun-form':'common', 'number':'singular'},
-        possession_grammemes = {'noun-form':'common', 'number':'singular'},
-        declined_grammemes   = {'noun-form':'personal'},
-        emoji_grammemes      = {'noun-form':'personal'},
+        agent_tags      = {'noun-form':'common', 'number':'singular'},
+        solitary_tags   = {'noun-form':'common', 'number':'singular'},
+        theme_tags      = {'noun-form':'common', 'number':'singular'},
+        patient_tags    = {'noun-form':'common', 'number':'singular'},
+        possession_tags = {'noun-form':'common', 'number':'singular'},
+        declined_tags   = {'noun-form':'personal'},
+        emoji_tags      = {'noun-form':'personal'},
         english_map=replace([('you♀','you'),('you all♀','you all')]), 
         persons = [
             EmojiPerson('s','n',3),
@@ -871,8 +871,8 @@ write('flashcards/verb-conjugation/ancient-greek.html',
                 'optative':    '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
                 'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
             },
-            category_to_grammemes = {
-                **category_to_grammemes,
+            tagaxis_to_tags = {
+                **tagaxis_to_tags,
                 'noun-form':  'personal',
                 'number':    ['singular','plural'],
                 'animacy':    'human',
@@ -922,8 +922,8 @@ write('flashcards/verb-conjugation/french.html',
                 'conditional': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
                 'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
-            category_to_grammemes = {
-                **category_to_grammemes,
+            tagaxis_to_tags = {
+                **tagaxis_to_tags,
                 'noun-form':  'personal',
                 'number':    ['singular','plural'],
                 'animacy':    'human',
@@ -972,8 +972,8 @@ write('flashcards/verb-conjugation/german.html',
                 'subjunctive': '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
                 'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
             },
-            category_to_grammemes = {
-                **category_to_grammemes,
+            tagaxis_to_tags = {
+                **tagaxis_to_tags,
                 'noun-form':  'personal',
                 'number':    ['singular','plural'],
                 'animacy':    'human',
@@ -1026,8 +1026,8 @@ write('flashcards/verb-conjugation/old-english.html',
                 'subjunctive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
                 'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
-            category_to_grammemes = {
-                **category_to_grammemes,
+            tagaxis_to_tags = {
+                **tagaxis_to_tags,
                 'noun-form':  'personal',
                 'number':    ['singular','plural'],
                 'animacy':    'human',
@@ -1078,8 +1078,8 @@ write('flashcards/verb-conjugation/proto-indo-european.html',
                 'optative':    '{subject} {modifiers} {indirect-object} {direct-object} {verb}',
                 'imperative':  '{subject} {modifiers} {indirect-object} {direct-object} {verb}!',
             },
-            category_to_grammemes = {
-                **category_to_grammemes,
+            tagaxis_to_tags = {
+                **tagaxis_to_tags,
                 'noun-form':  'personal',
                 'number':    ['singular','dual','plural'],
                 'tense':     ['present','past'],
@@ -1128,8 +1128,8 @@ write('flashcards/verb-conjugation/russian.html',
                 'indicative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
                 'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
-            category_to_grammemes = {
-                **category_to_grammemes,
+            tagaxis_to_tags = {
+                **tagaxis_to_tags,
                 'noun-form':  'personal',
                 'number':    ['singular','plural'],
                 'animacy':    'human',
@@ -1197,8 +1197,8 @@ write('flashcards/verb-conjugation/spanish.html',
                 'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
                 'prohibitive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
-            category_to_grammemes = {
-                **category_to_grammemes,
+            tagaxis_to_tags = {
+                **tagaxis_to_tags,
                 'noun-form':  'personal',
                 'number':    ['singular','plural'],
                 'animacy':    'human',
@@ -1247,8 +1247,8 @@ write('flashcards/verb-conjugation/swedish.html',
                 'subjunctive': '{subject} {verb} {direct-object} {indirect-object} {modifiers}',
                 'imperative':  '{subject} {verb} {direct-object} {indirect-object} {modifiers}!',
             },
-            category_to_grammemes = {
-                **category_to_grammemes,
+            tagaxis_to_tags = {
+                **tagaxis_to_tags,
                 'noun-form':  'personal',
                 'number':    ['singular','plural'],
                 'animacy':    'human',
