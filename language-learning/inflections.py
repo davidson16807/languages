@@ -496,7 +496,7 @@ case_population = FlatLookupPopulation(
 
 declension_verb_annotation = CellAnnotation(
     tag_to_tagaxis, {0:'language'}, {0:'verb'}, 
-    {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine']})
+    {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 
 class CardGeneration:
     def __init__(self, english, emoji, cardFormatting,
@@ -514,10 +514,10 @@ class CardGeneration:
             translation, 
             traversal, 
             filter_lookups=[], 
-            tagaxis_to_tags={},
+            tagspace={},
             english_map=lambda x:x,
             persons=[]):
-        for tuplekey in traversal.tuplekeys(tagaxis_to_tags):
+        for tuplekey in traversal.tuplekeys(tagspace):
             default_tags = traversal.dictkey(tuplekey)
             default_tags = {**default_tags, **{'noun-form': 'personal', 'case':'nominative', 'role':'agent'}}
             modifier_tags = {**default_tags, **{'noun-form': 'common', 'role':'modifier'}}
@@ -577,7 +577,7 @@ class CardGeneration:
             traversal, 
             filter_lookups=[],
             nouns_to_predicates={},
-            tagaxis_to_tags={},
+            tagspace={},
             solitary_tags={}, 
             agent_tags={}, 
             theme_tags={}, 
@@ -588,7 +588,7 @@ class CardGeneration:
             emoji_tags={}, 
             english_map=lambda x:x,
             persons=[]):
-        for tuplekey in traversal.tuplekeys(tagaxis_to_tags):
+        for tuplekey in traversal.tuplekeys(tagspace):
             default_tags = traversal.dictkey(tuplekey)
             if (all([default_tags in filter_lookup for filter_lookup in filter_lookups]) and 
                   default_tags in translation.use_case_to_grammatical_case):
@@ -644,6 +644,8 @@ class CardGeneration:
                     emoji_key = {**default_tags, **declined_tags, **emoji_tags, 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
                         match['emoji'], translation.declension_lookups[emoji_key][emoji_key], persons)
+                    # if 'None' in formatted:
+                    #     breakpoint()
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             # self.cardFormatting.english_word(english_map(self.english.format(tree))),
@@ -708,7 +710,7 @@ write('flashcards/verb-conjugation/latin.html',
                 })
             ],
         english_map=replace([('♂',''),('♀','')]), 
-        tagaxis_to_tags = {
+        tagspace = {
             **tagaxis_to_tags,
             'gender':    ['neuter', 'feminine', 'masculine'],
             'person':    ['1','2','3'],
@@ -743,7 +745,7 @@ write('flashcards/noun-declension/latin.html',
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        tagaxis_to_tags = {
+        tagspace = {
             **tagaxis_to_tags,
             'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
                           'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
@@ -793,7 +795,7 @@ write('flashcards/pronoun-declension/latin.html',
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        tagaxis_to_tags = {
+        tagspace = {
             **tagaxis_to_tags,
             # 'noun':      ['man',],
             'noun':      ['man','woman','snake'],

@@ -2,15 +2,16 @@ See GLOSSARY.tsv for a summary of the terms introduced here.
 
 The terms used in this project are based on a systemization that was first adopted by Leonard Bloomfield in his book, "Language" (1933) 
 then later expanded by Kenneth Pike in his own book ("Language in Relation to a Unified Theory of the Structure of Human Behavior", 1965).
-The definitions given by Bloomfield in his book oftentimes are at times ambiguous,
+The definitions given by Bloomfield in his book oftentimes appear ambiguous,
 and this can be seen by the fact that later authors appear to mistakenly coopt these terms to other usage, 
-in at least one instance even admitting to this (see Kenneth Pike, "Tagmemes née Grammees").
+with at least one attested admission to this (see Kenneth Pike, "Tagmemes née Grammees").
 At this point it may be better to understand these terms as metasyntactic variables,
 loosely corresponding to the definitions given by Bloomfield but whose precise definition varies by author.
 For this reason we will attempt to remain consistent with the definitions that were provided by Leonard Bloomfield,
-however we will provide our own definitions for these terms as we use them.
+however we will provide our own definitions here for the terms as we use them.
 The definitions we provide are meant to be grounded on a foundation of set theory and category theory,
-but though we may occassionally dive into these subjects, we will still provide theri definitions in terms that we expect most readers will understand.
+but though we may occassionally dive into these subjects, we will still provide their definitions in terms that we expect nonexperts will understand.
+This also makes our job easier, since we will not require ourselves to make precise mathematical formulations, though we may at times elude to what such things would look like.
 We hope that in discussing definitions this way we will still at least offer greater clarity than what was seen while surveying the literature.
 
 Our discussion of terminology begins by leveraging a set of preexisting terms from phonology: the terms "phone" and "phoneme". 
@@ -22,7 +23,7 @@ More precisely, we define that any two sounds of the same phone can be interchan
 in any statement of any attested natural language and still produce the same meaning.
 This is to say that each phone is an *equalizer* of sounds for a given set of functions, which we will now attempt to define.
 Suppose there is a function f:U→(S+1) that for any utterance maps to the semantic meaning (S) received by an audience in that language, or no meaning (1) if the utterance is unintelligible.
-Suppose there is also a function: g:L→U that for any any attested natural language maps to the set of all meaningful utterances made in that language, such that the diagram L→U→S commutes. 
+Suppose there is also a function: g:L→P(U) that for any any attested natural language maps to the set of all meaningful utterances made in that language, such that ∀u∈g(l):f(u)∈S. 
 For every l∈L, and for every utterance u∈g(l), we say there is a function, h(l,u):P×P→U that replaces every instance of one sound in a phone P with another in the utterance u
 The phone is then the following equalizer:
 	Eq({f∘h(l,u) | l∈L, u∈g(l)})
@@ -76,7 +77,6 @@ and the "-'s" suffix (with appostrophe) that indicates the possessive of a noun 
 Likewise, a "sememe" is said to be the equivalence class of meanings (or "semes") that are suggested by a morpheme, 
 of which one of the "semes" represents what the speaker *intends* to communicate. 
 During speech, the speaker must map the seme he intends to communicate to a "sememe" that can be conveyed by a morpheme. 
-"Allosemes" are then distinct sememes that represent the same seme.
 The concept of the seme and sememe is useful for conveying certain distinctions in meaning that may be present in one language but not another.
 To illustrate, speakers of Ergative-Absolutive languages distinguish morphemes based upon whether a verb is transitive or intransitive,
 whereas speakers of Nominative-Accusative languages are wholly unfamiliar with these distinctions and do not mark them in any way.
@@ -116,7 +116,6 @@ and in principle the speaker might have some precise number in their head that t
 so the precise number in the speaker's head is an example of an "episeme",
 and were we to compile a full list of grammatical numbers available in all the world's attested natural languages, 
 such a list could be said to consist of "episemes". 
-"Alloepisemes" meanwhile would be in principle distinct episememes that correspond to the same episeme.
 
 The last concept we wish to introduce relies upon an analogy between the concepts introduced thus far.
 The episeme and seme constitute units of grammatical meaning that cannot be divided without sacraficing a certain constraint specific to a language.
@@ -145,7 +144,7 @@ The distinction between tags and episemes (or for that matter, tagmemes and epis
 the only significant distinction being one of meaning vs. implementation in a language.
 In practice we find ourselves not using the distinction much, we largely prefer the term "tag" 
 for no better reason than it is brief and will not cause developers to pause as they read the code
-without requiring us to use less established terms or terms of less precise meaning.
+while still being well established and precise.
 
 We will now add only one embellishment to the system of terms used by Bloomfield, only since we find it useful.
 We wish to have a name for sets of tags and episemes whose members cannot co-ocur within any instance of a morpheme or sememe where one of the tags can occur.
@@ -153,17 +152,28 @@ To illustrate, we have stated that "singular" and "plural" are tags within Spani
 Whenever a Spanish morpheme indicates that something is singular or plural, 
 it can never represent that something is simultaneously singular *and* plural,
 that is to say, singular and plural are "mutually exclusive" concepts.
-We typically say in this way that singular and plural are tags within the "category" of number.
+We typically say in this way that singular and plural are tags within the "grammatical category" of number 
+(which unfortunately conflicts with an existing concept, the mathematical category).
 However in another way of thinking, we can say that number is an "axis" within a parameter space that defines a subset of all semes.
-For the sake of brevity, we will therefore address this concept in code as a "tagaxis". 
+For the sake of brevity, we will therefore address this concept of grammatical category in code as a "tagaxis". 
 Tagaxes are disjoint sets of tags that define a parameter space of morphemes,
 so likewise we say episemaxes refer to disjoint sets of episemes that form a parameter space of sememes, likely one-to-one in relation to tagaxes.
-We find this concept of an axis is useful, and it can be applied broadly to any other "-etic" unit:
+We find this concept of an axis is broadly applicable to describe any other "-etic" unit.
+We withhold judgement for now as to whether it is useful in all cases for axes of "-etic" units to refer strictly to disjoint sets,
+however for now it is at the least very useful for them to refer to subsets that form parameter spaces:
 
-* *phonaxes*   are disjoint sets of phones whose product defines a parameter space of syllables (i.e. consonant, vowel, etc.)
-* *morphaxes*  are disjoint sets of morphs whose product defines larger grammatical constructions (e.g. noun, verb, suffix, prefix, etc.)
-* *semaxes*    are disjoint sets of semes whose product defines larger constructs of meaning (e.g. meanings underlying noun, verb, suffix, prefix, etc.)
-* *tagaxes*    are disjoint sets of tags whose product with other tagaxes defines a parameter space of morphemes (e.g. case, tense, aspect, number, gender, etc.)
-* *episemaxes* are disjoint sets of episemes whose product with other tagaxes defines a parameter space of semes (e.g. role, motion, meanings underlying tense, aspect, number, gender, etc.)
+* *phonaxes*   are sets of phones whose product defines a parameter space of syllables (i.e. consonant, vowel, etc.)
+* *morphaxes*  are sets of morphs whose product defines words and phrases (e.g. suffix, prefix, noun, verb, etc.)
+* *semaxes*    are sets of semes whose product defines larger constructs of meaning (e.g. meanings underlying suffix, prefix, noun, verb, etc.)
+* *tagaxes*    are sets of tags whose product with other tagaxes defines a parameter space of morphemes (e.g. case, tense, aspect, number, gender, etc.)
+* *episemaxes* are sets of episemes whose product with other tagaxes defines a parameter space of semes (e.g. semantic role, motion, meanings underlying tense, aspect, number, gender, etc.)
+
+It is then fairly trivial to use the suffix "-space" to refer to products formed over these axes:
+* *phonspace*   a space of syllables formed over a product of phonaxes
+* *morphspace*  a space of words or phrases formed over a product of morphaxes
+* *semspace*    a space of meanings formed over a product of semaxes
+* *tagspace*    a space of morphs formed over a product of tagaxes
+* *episemspace* a space of semes formed over a product of episemaxes
+
 
 The table defined in GLOSSARY.tsv compiles the definitions for all terms we introduce here for the project.

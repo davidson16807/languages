@@ -27,11 +27,11 @@ class English:
         if type(content) in {Clause}:
             clause = content
             dependant_clause = {
-                **clause.grammemes,
+                **clause.tags,
                 'language-type': 'english',
             }
             independant_clause = {
-                **clause.grammemes,
+                **clause.tags,
                 'language-type': 'english',
                 'aspect': 'aorist',
                 'tense':     
@@ -50,12 +50,12 @@ class English:
                 sentence = sentence.replace(replaced, replacement)
             for noun in ['subject', 'direct-object', 'indirect-object', 'modifiers']:
                 sentence = sentence.replace('{'+noun+'}', 
-                    self.format(self.decline(clause.grammemes, 
+                    self.format(self.decline(clause.tags, 
                         clause.nouns[noun] if noun in clause.nouns else [])))
             for noun in ['subject', 'direct-object', 'indirect-object', 'modifiers']:
                 for case in ['nominative','oblique','genitive']:
                     sentence = sentence.replace('{'+f'{noun}|{case}'+'}', 
-                        self.format(self.decline({**clause.grammemes, 'case':case}, 
+                        self.format(self.decline({**clause.tags, 'case':case}, 
                             clause.nouns[noun] if noun in clause.nouns else [])))
             sentence = sentence.replace('{verb', '{'+verb)
             table = self.conjugation_lookups['finite']
@@ -82,7 +82,7 @@ class English:
         elif type(content) in {str}:
             return content
         elif type(content) in {NounPhrase}:
-            return self.format(self.decline(content.grammemes, content.content))
+            return self.format(self.decline(content.tags, content.content))
         elif type(content) in {Adjective, Article}:
             return self.format(content.content)
         elif type(content) in {Adposition}:
@@ -91,46 +91,46 @@ class English:
             # NOTE: Cloze is only ever used to prompt for the foreign language being learned,
             # so for the user's native language it is simply equal to the formatted content.
             return self.format(content.content) 
-    def decline(self, grammemes, content):
-        grammemes = {**grammemes, 'language-type':'english'}
+    def decline(self, tags, content):
+        tags = {**tags, 'language-type':'english'}
         if content is None:
-            case = grammemes['case'] if grammemes['case'] in {'nominative','genitive'} else 'oblique'
-            grammemes = {**grammemes, 'case': case}
+            case = tags['case'] if tags['case'] in {'nominative','genitive'} else 'oblique'
+            tags = {**tags, 'case': case}
             return (
-                self.declension_lookups[grammemes][grammemes] if grammemes['noun-form'] != 'common'
-                else self.plurality.pluralize(grammemes['noun']) if grammemes['number'] != 'singular'
-                else grammemes['noun'])
+                self.declension_lookups[tags][tags] if tags['noun-form'] != 'common'
+                else self.plurality.pluralize(tags['noun']) if tags['number'] != 'singular'
+                else tags['noun'])
         if type(content) in {list,set}:
-            return [self.decline(grammemes, element) for element in content]
+            return [self.decline(tags, element) for element in content]
         elif type(content) in {str}:
             # NOTE: string types are degenerate cases of None types invocations
-            #  where grammemes contain the lemma for the declension
-            return self.decline({**grammemes, 'noun':content}, None) 
+            #  where tags contain the lemma for the declension
+            return self.decline({**tags, 'noun':content}, None) 
         elif type(content) in {NounPhrase}:
-            grammemes = {**grammemes, **content.grammemes}
-            case = grammemes['case'] if grammemes['case'] in {'nominative','genitive'} else 'oblique'
-            grammemes = {**grammemes, 'case': case}
-            return NounPhrase(grammemes, self.decline(grammemes, content.content))
+            tags = {**tags, **content.tags}
+            case = tags['case'] if tags['case'] in {'nominative','genitive'} else 'oblique'
+            tags = {**tags, 'case': case}
+            return NounPhrase(tags, self.decline(tags, content.content))
         elif type(content) in {StockModifier}:
-            return content.lookup[grammemes] if grammemes in content.lookup else []
+            return content.lookup[tags] if tags in content.lookup else []
         elif type(content) in {Adjective, Article}:
-            return (content if grammemes['noun-form'] == 'common' else [])
+            return (content if tags['noun-form'] == 'common' else [])
         elif type(content) in {Adposition}:
             return content
         elif type(content) in {Cloze}:
-            return Cloze(content.id, self.decline(grammemes, content.content))
+            return Cloze(content.id, self.decline(tags, content.content))
         else:
             raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
-    def conjugate(self, grammemes, content):
+    def conjugate(self, tags, content):
         if type(content) in {list,set}:
-            return [self.conjugate(grammemes, element) for element in content]
+            return [self.conjugate(tags, element) for element in content]
         elif type(content) in {str}:
-            grammemes = {**grammemes, 'language-type':'translated'}
-            if grammemes not in self.conjugation_lookups['finite']:
+            tags = {**tags, 'language-type':'translated'}
+            if tags not in self.conjugation_lookups['finite']:
                 return None
-            return self.conjugation_lookups['finite'][grammemes]
+            return self.conjugation_lookups['finite'][tags]
         elif type(content) in {Cloze}:
-            return Cloze(content.id, self.conjugate(grammemes, content.content))
+            return Cloze(content.id, self.conjugate(tags, content.content))
         else:
             raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
 
@@ -144,7 +144,7 @@ class Emoji:
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
         self.mood_templates = mood_templates
-    def conjugate(self, grammemes, argument, persons):
+    def conjugate(self, tags, argument, persons):
         audience_lookup = {
             'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
             'polite':   '\\n2{🧑\\g2\\c2\\💼}',
@@ -152,33 +152,33 @@ class Emoji:
             'elevated': '\\n2{🤴\\g2\\c2}',
         }
         # TODO: reimplement formality as emoji modifier shorthand
-        # audience = (audience_lookup[grammemes['formality']] 
-        #          if grammemes['formality'] in audience_lookup 
+        # audience = (audience_lookup[tags['formality']] 
+        #          if tags['formality'] in audience_lookup 
         #          else '\\n2{🧑\\g2\\c2}')
-        scene = getattr(self.htmlTenseTransform, grammemes['tense'])(
-                    getattr(self.htmlAspectTransform, grammemes['aspect'].replace('-','_'))(argument))
-        encoded_recounting = self.mood_templates[{**grammemes,'column':'template'}]
+        scene = getattr(self.htmlTenseTransform, tags['tense'])(
+                    getattr(self.htmlAspectTransform, tags['aspect'].replace('-','_'))(argument))
+        encoded_recounting = self.mood_templates[{**tags,'column':'template'}]
         subject = EmojiPerson(
             ''.join([
-                    (grammemes['number'][0]),
-                    ('i' if grammemes['clusivity']=='inclusive' else ''),
+                    (tags['number'][0]),
+                    ('i' if tags['clusivity']=='inclusive' else ''),
                 ]), 
-            grammemes['gender'][0], 
-            persons[int(grammemes['person'])-1].color)
+            tags['gender'][0], 
+            persons[int(tags['person'])-1].color)
         persons = [
-            subject if str(i+1)==grammemes['person'] else person
+            subject if str(i+1)==tags['person'] else person
             for i, person in enumerate(persons)]
         recounting = encoded_recounting
         recounting = recounting.replace('\\scene', scene)
         recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
         return recounting
-    def decline(self, grammemes, scene, noun, persons):
+    def decline(self, tags, scene, noun, persons):
         scene = scene.replace('\\declined', noun)
         scene = self.emojiInflectionShorthand.decode(scene, 
             EmojiPerson(
-                grammemes['number'][0], 
-                grammemes['gender'][0], 
-                persons[int(grammemes['person'])-1].color), 
+                tags['number'][0], 
+                tags['gender'][0], 
+                persons[int(tags['person'])-1].color), 
             persons)
         return scene
 
@@ -199,25 +199,25 @@ class Translation:
         self.use_case_to_grammatical_case = use_case_to_grammatical_case
         self.sentence_structure = sentence_structure
     def decline(self, processing, rule):
-        grammemes = {**rule.grammemes, 'language-type':'translated', 'noun':rule.content[0]}
-        # NOTE: if content is a None type, then rely solely on the grammeme
+        tags = {**rule.tags, 'language-type':'translated', 'noun':rule.content[0]}
+        # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
         missing_value = '' if rule.tag in {'art'} else None
-        return (missing_value if grammemes not in self.declension_lookups
-                else missing_value if grammemes not in self.declension_lookups[grammemes]
-                else self.declension_lookups[grammemes][grammemes])
+        return (missing_value if tags not in self.declension_lookups
+                else missing_value if tags not in self.declension_lookups[tags]
+                else self.declension_lookups[tags][tags])
     def conjugate(self, processing, rule):
-        grammemes = {**rule.grammemes, 'language-type':'translated', 'verb':rule.content[0]}
-        return (None if grammemes not in self.conjugation_lookups['finite']
-                else self.conjugation_lookups['finite'][grammemes])
+        tags = {**rule.tags, 'language-type':'translated', 'verb':rule.content[0]}
+        return (None if tags not in self.conjugation_lookups['finite']
+                else self.conjugation_lookups['finite'][tags])
     def stock_modifier(self, processing, rule):
-        grammemes = {**rule.grammemes, 'language-type':'translated', 'verb':rule.content[0]}
-        return (None if grammemes not in self.conjugation_lookups['argument']
-                else self.conjugation_lookups['argument'][grammemes])
+        tags = {**rule.tags, 'language-type':'translated', 'verb':rule.content[0]}
+        return (None if tags not in self.conjugation_lookups['argument']
+                else self.conjugation_lookups['argument'][tags])
     def stock_adposition(self, processing, rule):
-        grammemes = {**rule.grammemes, 'language-type':'translated'}
-        return (None if grammemes not in self.use_case_to_grammatical_case
-                else self.use_case_to_grammatical_case[grammemes]['adposition'])
+        tags = {**rule.tags, 'language-type':'translated'}
+        return (None if tags not in self.use_case_to_grammatical_case
+                else self.use_case_to_grammatical_case[tags]['adposition'])
     def order_clause(self, processing, clause):
         verbs = [phrase for phrase in clause.content if phrase.tag in {'vp'}]
         nouns = [phrase for phrase in clause.content if phrase.tag in {'np'}]
@@ -227,13 +227,13 @@ class Translation:
         nonmodifier_roles = {*subject_roles, *direct_object_roles, *indirect_object_roles}
         phrase_lookup = {
             'verb':            verbs,
-            'subject':         [noun for noun in nouns if noun.grammemes['role'] in subject_roles],
-            'direct-object':   [noun for noun in nouns if noun.grammemes['role'] in direct_object_roles],
-            'indirect-object': [noun for noun in nouns if noun.grammemes['role'] in indirect_object_roles],
-            'modifiers':       [noun for noun in nouns if noun.grammemes['role'] not in nonmodifier_roles],
+            'subject':         [noun for noun in nouns if noun.tags['role'] in subject_roles],
+            'direct-object':   [noun for noun in nouns if noun.tags['role'] in direct_object_roles],
+            'indirect-object': [noun for noun in nouns if noun.tags['role'] in indirect_object_roles],
+            'modifiers':       [noun for noun in nouns if noun.tags['role'] not in nonmodifier_roles],
         }
         return Rule(clause.tag, 
-            clause.grammemes,
+            clause.tags,
             processing.process([
                 phrase
                 for phrase_type in self.sentence_structure
@@ -241,14 +241,14 @@ class Translation:
             ]))
     def order_noun_phrase(self, processing, phrase):
         return Rule(phrase.tag, 
-            phrase.grammemes,
+            phrase.tags,
             processing.process([
                 content for content in phrase.content 
                 if content.tag not in {'art'} or 
-                    ('noun-form' in content.grammemes and content.grammemes['noun-form'] in {'common'})
+                    ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
             ]))
     def passthrough(self, processing, rule):
-        return Rule(rule.tag, rule.grammemes, processing.process(rule.content))
+        return Rule(rule.tag, rule.tags, processing.process(rule.content))
 
 class ListProcessing:
     """
@@ -283,7 +283,7 @@ class ListTools:
         def _process(machine, tree, memory):
             return [replacement, *machine.process(tree[1:], memory)]
         return _process
-    def grammemes(self, modifications):
+    def tags(self, modifications):
         def _process(machine, tree, memory):
             return machine.process(tree[1:], {**memory, **modifications})
         return _process
@@ -293,9 +293,9 @@ class ListTools:
         return _process
 
 class Rule:
-    def __init__(self, tag, grammemes, content):
+    def __init__(self, tag, tags, content):
         self.tag = tag
-        self.grammemes = grammemes
+        self.tags = tags
         self.content = content
     def __str__(self):
         return '' + self.tag + '{'+' '.join([
@@ -316,7 +316,7 @@ class RuleProcessing:
     def process(self, rule):
         return ([self.process(subrule) for subrule in rule] if isinstance(rule, list)
             else self.operations[rule.tag](self, rule) if rule.tag in self.operations
-            else Rule(rule.tag, rule.grammemes, processing.process(rule.content)))
+            else Rule(rule.tag, rule.tags, processing.process(rule.content)))
 
 class RuleValidation:
     """
