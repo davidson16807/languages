@@ -69,13 +69,20 @@ class Translation:
         self.sentence_structure = sentence_structure
         self.tags = tags
     def decline(self, processing, rule):
-        tags = {**rule.tags, **self.tags, 'noun':rule.content[0]}
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
         missing_value = '' if rule.tag in {'art'} else None
-        return (missing_value if tags not in self.declension_lookups
-                else missing_value if tags not in self.declension_lookups[tags]
-                else self.declension_lookups[tags][tags])
+        if rule.tags not in self.use_case_to_grammatical_case:
+            return missing_value
+        sememe = {
+            **rule.tags, 
+            **self.tags, 
+            'case':self.use_case_to_grammatical_case[rule.tags]['case'], 
+            'noun':rule.content[0]
+        }
+        return (missing_value if sememe not in self.declension_lookups
+                else missing_value if sememe not in self.declension_lookups[sememe]
+                else self.declension_lookups[sememe][sememe])
     def conjugate(self, processing, rule):
         tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
         return (None if tags not in self.conjugation_lookups['finite']
@@ -132,6 +139,57 @@ class English:
         self.conjugation_lookups = conjugation_lookups
         self.predicate_templates = predicate_templates
         self.mood_templates = mood_templates
+    def decline(self, processing, rule):
+        tags = {**rule.tags, **self.tags, 'noun':rule.content[0]}
+        # NOTE: if content is a None type, then rely solely on the tag
+        #  This logic provides a natural way to encode for pronouns
+        missing_value = '' if rule.tag in {'art'} else None
+        return (missing_value if tags not in self.declension_lookups
+                else missing_value if tags not in self.declension_lookups[tags]
+                else self.declension_lookups[tags][tags])
+    def conjugate(self, processing, rule):
+        tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
+        return (None if tags not in self.conjugation_lookups['finite']
+                else self.conjugation_lookups['finite'][tags])
+    def stock_modifier(self, processing, rule):
+        tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
+        return (None if tags not in self.conjugation_lookups['argument']
+                else self.conjugation_lookups['argument'][tags])
+    def stock_adposition(self, processing, rule):
+        tags = {**rule.tags, **self.tags}
+        return (None if tags not in self.use_case_to_grammatical_case
+                else self.use_case_to_grammatical_case[tags]['adposition'])
+    def order_clause(self, processing, clause):
+        verbs = [phrase for phrase in clause.content if phrase.tag in {'vp'}]
+        nouns = [phrase for phrase in clause.content if phrase.tag in {'np'}]
+        subject_roles = {'solitary','agent'}
+        direct_object_roles = {'theme','patient'}
+        indirect_object_roles = {'indirect-object'}
+        nonmodifier_roles = {*subject_roles, *direct_object_roles, *indirect_object_roles}
+        phrase_lookup = {
+            'verb':            verbs,
+            'subject':         [noun for noun in nouns if noun.tags['role'] in subject_roles],
+            'direct-object':   [noun for noun in nouns if noun.tags['role'] in direct_object_roles],
+            'indirect-object': [noun for noun in nouns if noun.tags['role'] in indirect_object_roles],
+            'modifiers':       [noun for noun in nouns if noun.tags['role'] not in nonmodifier_roles],
+        }
+        return Rule(clause.tag, 
+            clause.tags,
+            processing.process([
+                phrase
+                for phrase_type in self.sentence_structure
+                for phrase in phrase_lookup[phrase_type]
+            ]))
+    def order_noun_phrase(self, processing, phrase):
+        return Rule(phrase.tag, 
+            phrase.tags,
+            processing.process([
+                content for content in phrase.content 
+                if content.tag not in {'art'} or 
+                    ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
+            ]))
+    def passthrough(self, processing, rule):
+        return Rule(rule.tag, rule.tags, processing.process(rule.content))
     def format(self, content):
         if type(content) in {Clause}:
             clause = content
@@ -254,7 +312,7 @@ class RuleFormatting:
         return ' '.join([processing.process(subrule) if isinstance(subrule, Rule) else str(subrule) 
                          for subrule in rule.content])
     def cloze(self, processing, rule):
-        return '{{c'+str(1)+'::'+rule.content[0]+'}}'
+        return '{{c'+str(1)+'::'+str(rule.content[0])+'}}'
 
 class RuleValidation:
     """
@@ -318,6 +376,8 @@ class Rule:
         self.tag = tag
         self.tags = tags
         self.content = content
+    def __getitem__(self, key):
+        return self.content[key]
     def __str__(self):
         return '' + self.tag + '{'+' '.join([
             member if isinstance(member, str) else str(member) 

@@ -1,0 +1,65 @@
+motion	attribute	latin case name	preposition
+associated	solitary	nominative	
+associated	agent	nominative	
+associated	audience	nominative	
+associated	possessor	genitive	
+associated	patient	oblique	
+associated	theme	oblique	
+departed	location	oblique	away from
+associated	location	oblique	by
+acquired	location	oblique	to
+leveraged	location	oblique	along
+departed	extent	oblique	starting from
+associated	extent	oblique	beside
+acquired	extent	oblique	up to
+leveraged	extent	oblique	along [the edges of]
+departed	vicinity	oblique	from around
+associated	vicinity	oblique	by
+acquired	vicinity	oblique	to around
+leveraged	vicinity	oblique	via
+departed	interior	oblique	out of
+associated	interior	oblique	in
+acquired	interior	oblique	into
+leveraged	interior	oblique	through
+departed	surface	oblique	off of
+associated	surface	oblique	on
+acquired	surface	oblique	onto
+leveraged	surface	oblique	over
+departed	presence	oblique	[due to the presence of]
+associated	presence	oblique	[in the presence of]
+acquired	presence	oblique	[to draw in]
+leveraged	presence	oblique	[by using the presence of]
+departed	lack	oblique	[for want of]
+associated	lack	oblique	[in the absence of]
+acquired	lack	oblique	[to avoid]
+leveraged	lack	oblique	[by taking advantage of the lack of]
+departed	aid	oblique	[thanks to the aid of]
+associated	aid	oblique	[with the aid of]
+acquired	aid	oblique	[to aid the]
+leveraged	aid	oblique	[by using the aid of ]
+departed	interest	oblique	[out of the interest of]
+associated	interest	oblique	[in the interest of]
+acquired	interest	oblique	[for the sake of]
+leveraged	interest	oblique	[by appealing to the interest of]
+departed	purpose	oblique	[following from the purpose of]
+associated	purpose	oblique	[assuming the purpose of]
+acquired	purpose	oblique	[for the purpose of]
+leveraged	purpose	oblique	[by leveraging the purpose of]
+departed	ownership	oblique	from [the possession of]
+associated	ownership	oblique	[in the possession of]
+acquired	ownership	oblique	to [the possession of]
+leveraged	ownership	oblique	[due to the possession of]
+departed	time	oblique	after
+associated	time	oblique	during
+acquired	time	oblique	until
+leveraged	time	oblique	by [making use of]
+departed	state of being	oblique	from having been
+associated	state of being	oblique	as a
+acquired	state of being	oblique	in order to be
+leveraged	state of being	oblique	due to having been
+departed	topic	oblique	away from [the topic of]
+associated	topic	oblique	on [the topic of]
+acquired	topic	oblique	to [the topic of]
+leveraged	topic	oblique	by using [the topic of]
+associated	company	oblique	in the company of
+associated	resemblance	oblique	like

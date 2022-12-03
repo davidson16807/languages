@@ -391,7 +391,7 @@ english = English(
             tsv_parsing.rows('data/inflection/english/modern/conjugations.tsv'), 4, 2)),
     predicate_population.index(
         predicate_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/modern/predicate-templates.tsv'), 1, 4)),
+            tsv_parsing.rows('data/inflection/english/modern/auxillary-verb-templates.tsv'), 1, 4)),
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'), 1, 1)),
@@ -520,19 +520,19 @@ class CardGeneration:
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
-            default_tags = traversal.dictkey(tuplekey)
-            default_tags = {**default_tags, **{'noun-form': 'personal', 'case':'nominative', 'role':'agent'}}
-            modifier_tags = {**default_tags, **{'noun-form': 'common', 'role':'modifier'}}
-            if all([default_tags in filter_lookup for filter_lookup in filter_lookups]):
+            test_tags = traversal.dictkey(tuplekey)
+            test_tags = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
+            modifier_tags = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
+            if all([test_tags in filter_lookup for filter_lookup in filter_lookups]):
                 tree = self.parsing.parse('clause [test-seme [np the n man] [vp cloze v conjugated]] [modifier-seme np stock-modifier conjugated]')
                 replacement = ListProcessing({
-                    'conjugated': self.tools.replace(default_tags['verb']),
+                    'conjugated': self.tools.replace(test_tags['verb']),
                     'the':        self.tools.replace(['art', 'the']),
                     'a':          self.tools.replace(['art', 'a']),
                 })
                 conversion = ListProcessing({
                     **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                    'test-seme':     self.tools.tag(default_tags),
+                    'test-seme':     self.tools.tag(test_tags),
                     'modifier-seme': self.tools.tag(modifier_tags),
                 })
                 inflection = RuleProcessing({
@@ -563,12 +563,12 @@ class CardGeneration:
                 # print(converted)
                 inflected = inflection.process(converted)
                 # english_tree = self.english.inflect(tree, presets, placeholders)
-                emoji_key  = {**default_tags, 'script':'emoji'}
+                emoji_key  = {**test_tags, 'script':'emoji'}
                 if validation.process(inflected) and emoji_key in translation.conjugation_lookups['infinitive']:
                     # english_text    = self.english.process(tree)
                     translated_text = formatting.process(inflected)
                     emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
-                    emoji_text      = self.emoji.conjugate(default_tags, emoji_argument, persons)
+                    emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             # self.cardFormatting.english_word(english_map(english_text)), 
@@ -584,13 +584,12 @@ class CardGeneration:
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
-            default_tags = traversal.dictkey(tuplekey)
-            if (all([default_tags in filter_lookup for filter_lookup in filter_lookups]) and 
-                  default_tags in translation.use_case_to_grammatical_case):
-                noun = default_tags['noun']
+            test_tags = traversal.dictkey(tuplekey)
+            if (all([test_tags in filter_lookup for filter_lookup in filter_lookups]) and 
+                  test_tags in translation.use_case_to_grammatical_case):
+                noun = test_tags['noun']
                 predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
-                case = translation.use_case_to_grammatical_case[default_tags]['case']
-                match = self.declension_template_matching.match(predicate, default_tags['motion'], default_tags['role'])
+                match = self.declension_template_matching.match(predicate, test_tags['motion'], test_tags['role'])
                 if match:
                     tree = self.parsing.parse(match['syntax-tree'])
                     replacement = ListProcessing({
@@ -600,12 +599,12 @@ class CardGeneration:
                     })
                     conversion = ListProcessing({
                         **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                        'test-seme':      self.tools.tag({**default_tags, **tag_templates['test'],       'case':case}),
-                        'solitary-seme':  self.tools.tag({**default_tags, **tag_templates['agent'],      'case':'nominative', 'role':'solitary'  }),
-                        'agent-seme':     self.tools.tag({**default_tags, **tag_templates['solitary'],   'case':'nominative', 'role':'agent'     }),
-                        'theme-seme':     self.tools.tag({**default_tags, **tag_templates['theme'],      'case':'accusative', 'role':'theme'     }),
-                        'patient-seme':   self.tools.tag({**default_tags, **tag_templates['patient'],    'case':'accusative', 'role':'patient'   }),
-                        'possession-seme':self.tools.tag({**default_tags, **tag_templates['possession'], 'case':'nominative', 'role':'solitary'  }),
+                        'test-seme':      self.tools.tag({**test_tags, **tag_templates['test']}),
+                        'solitary-seme':  self.tools.tag({**test_tags, **tag_templates['agent'],      'role':'solitary', 'motion':'associated'}),
+                        'agent-seme':     self.tools.tag({**test_tags, **tag_templates['solitary'],   'role':'agent',    'motion':'associated'}),
+                        'theme-seme':     self.tools.tag({**test_tags, **tag_templates['theme'],      'role':'theme',    'motion':'associated'}),
+                        'patient-seme':   self.tools.tag({**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'}),
+                        'possession-seme':self.tools.tag({**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'}),
                     })
                     inflection = RuleProcessing({
                         'clause':          translation.order_clause,
@@ -633,14 +632,15 @@ class CardGeneration:
                     inflected = inflection.process(converted)
                     formatted = formatting.process(inflected)
                     # if 'possession' in match['syntax-tree']:
-                    # if default_tags[''] =='personal':
+                    # if test_tags[''] =='personal':
                     #     breakpoint()
                     # english_tree = self.english.inflect(tree, presets, {**placeholders, 'adposition': match['adposition']})
-                    emoji_key = {**default_tags, **tag_templates['test'], **tag_templates['emoji'], 'case':case, 'script': 'emoji'}
+                    case = translation.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
+                    emoji_key = {**test_tags, **tag_templates['test'], **tag_templates['emoji'], 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
                         match['emoji'], translation.declension_lookups[emoji_key][emoji_key], persons)
-                    # if 'None' in formatted:
-                    #     breakpoint()
+                    if 'None' in formatted:
+                        breakpoint()
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             # self.cardFormatting.english_word(english_map(self.english.format(tree))),
