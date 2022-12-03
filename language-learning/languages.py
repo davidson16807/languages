@@ -2,6 +2,124 @@ import re
 
 from shorthands import EmojiPerson
 
+class Emoji:
+    def __init__(self, 
+            mood_templates, 
+            emojiInflectionShorthand, 
+            htmlTenseTransform, 
+            htmlAspectTransform):
+        self.emojiInflectionShorthand = emojiInflectionShorthand
+        self.htmlTenseTransform = htmlTenseTransform
+        self.htmlAspectTransform = htmlAspectTransform
+        self.mood_templates = mood_templates
+    def conjugate(self, tags, argument, persons):
+        audience_lookup = {
+            'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
+            'polite':   '\\n2{🧑\\g2\\c2\\💼}',
+            'formal':   '\\n2{🤵\\c2\\g2}',
+            'elevated': '\\n2{🤴\\g2\\c2}',
+        }
+        # TODO: reimplement formality as emoji modifier shorthand
+        # audience = (audience_lookup[tags['formality']] 
+        #          if tags['formality'] in audience_lookup 
+        #          else '\\n2{🧑\\g2\\c2}')
+        scene = getattr(self.htmlTenseTransform, tags['tense'])(
+                    getattr(self.htmlAspectTransform, tags['aspect'].replace('-','_'))(argument))
+        encoded_recounting = self.mood_templates[{**tags,'column':'template'}]
+        subject = EmojiPerson(
+            ''.join([
+                    (tags['number'][0]),
+                    ('i' if tags['clusivity']=='inclusive' else ''),
+                ]), 
+            tags['gender'][0], 
+            persons[int(tags['person'])-1].color)
+        persons = [
+            subject if str(i+1)==tags['person'] else person
+            for i, person in enumerate(persons)]
+        recounting = encoded_recounting
+        recounting = recounting.replace('\\scene', scene)
+        recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
+        return recounting
+    def decline(self, tags, scene, noun, persons):
+        scene = scene.replace('\\declined', noun)
+        scene = self.emojiInflectionShorthand.decode(scene, 
+            EmojiPerson(
+                tags['number'][0], 
+                tags['gender'][0], 
+                persons[int(tags['person'])-1].color), 
+            persons)
+        return scene
+
+class Translation:
+    """
+    `Translation` is a library of functions that can be used in conjunction with `RuleProcessing` 
+    to perform operations on a syntax tree of rules that are specific to a language.
+    Examples include word translation, verb conjugation, noun and adjective declension, 
+    and the structuring of clauses and noun phrases.
+    """
+    def __init__(self, 
+            conjugation_lookups, 
+            declension_lookups, 
+            use_case_to_grammatical_case,
+            sentence_structure,
+            tags):
+        self.conjugation_lookups = conjugation_lookups
+        self.declension_lookups = declension_lookups
+        self.use_case_to_grammatical_case = use_case_to_grammatical_case
+        self.sentence_structure = sentence_structure
+        self.tags = tags
+    def decline(self, processing, rule):
+        tags = {**rule.tags, **self.tags, 'noun':rule.content[0]}
+        # NOTE: if content is a None type, then rely solely on the tag
+        #  This logic provides a natural way to encode for pronouns
+        missing_value = '' if rule.tag in {'art'} else None
+        return (missing_value if tags not in self.declension_lookups
+                else missing_value if tags not in self.declension_lookups[tags]
+                else self.declension_lookups[tags][tags])
+    def conjugate(self, processing, rule):
+        tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
+        return (None if tags not in self.conjugation_lookups['finite']
+                else self.conjugation_lookups['finite'][tags])
+    def stock_modifier(self, processing, rule):
+        tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
+        return (None if tags not in self.conjugation_lookups['argument']
+                else self.conjugation_lookups['argument'][tags])
+    def stock_adposition(self, processing, rule):
+        tags = {**rule.tags, **self.tags}
+        return (None if tags not in self.use_case_to_grammatical_case
+                else self.use_case_to_grammatical_case[tags]['adposition'])
+    def order_clause(self, processing, clause):
+        verbs = [phrase for phrase in clause.content if phrase.tag in {'vp'}]
+        nouns = [phrase for phrase in clause.content if phrase.tag in {'np'}]
+        subject_roles = {'solitary','agent'}
+        direct_object_roles = {'theme','patient'}
+        indirect_object_roles = {'indirect-object'}
+        nonmodifier_roles = {*subject_roles, *direct_object_roles, *indirect_object_roles}
+        phrase_lookup = {
+            'verb':            verbs,
+            'subject':         [noun for noun in nouns if noun.tags['role'] in subject_roles],
+            'direct-object':   [noun for noun in nouns if noun.tags['role'] in direct_object_roles],
+            'indirect-object': [noun for noun in nouns if noun.tags['role'] in indirect_object_roles],
+            'modifiers':       [noun for noun in nouns if noun.tags['role'] not in nonmodifier_roles],
+        }
+        return Rule(clause.tag, 
+            clause.tags,
+            processing.process([
+                phrase
+                for phrase_type in self.sentence_structure
+                for phrase in phrase_lookup[phrase_type]
+            ]))
+    def order_noun_phrase(self, processing, phrase):
+        return Rule(phrase.tag, 
+            phrase.tags,
+            processing.process([
+                content for content in phrase.content 
+                if content.tag not in {'art'} or 
+                    ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
+            ]))
+    def passthrough(self, processing, rule):
+        return Rule(rule.tag, rule.tags, processing.process(rule.content))
+
 class English:
     def __init__(self, 
             plurality,
@@ -14,15 +132,6 @@ class English:
         self.conjugation_lookups = conjugation_lookups
         self.predicate_templates = predicate_templates
         self.mood_templates = mood_templates
-    def parse(self, NodeClass, text):
-        if NodeClass in {set}:
-            return set(text.split(' '))
-        if NodeClass in {list}:
-            return text.split(' ')
-        elif NodeClass in {str}:
-            return text
-        else:
-            return NodeClass(self.parse(text))
     def format(self, content):
         if type(content) in {Clause}:
             clause = content
@@ -134,121 +243,29 @@ class English:
         else:
             raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
 
-class Emoji:
-    def __init__(self, 
-            mood_templates, 
-            emojiInflectionShorthand, 
-            htmlTenseTransform, 
-            htmlAspectTransform):
-        self.emojiInflectionShorthand = emojiInflectionShorthand
-        self.htmlTenseTransform = htmlTenseTransform
-        self.htmlAspectTransform = htmlAspectTransform
-        self.mood_templates = mood_templates
-    def conjugate(self, tags, argument, persons):
-        audience_lookup = {
-            'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
-            'polite':   '\\n2{🧑\\g2\\c2\\💼}',
-            'formal':   '\\n2{🤵\\c2\\g2}',
-            'elevated': '\\n2{🤴\\g2\\c2}',
-        }
-        # TODO: reimplement formality as emoji modifier shorthand
-        # audience = (audience_lookup[tags['formality']] 
-        #          if tags['formality'] in audience_lookup 
-        #          else '\\n2{🧑\\g2\\c2}')
-        scene = getattr(self.htmlTenseTransform, tags['tense'])(
-                    getattr(self.htmlAspectTransform, tags['aspect'].replace('-','_'))(argument))
-        encoded_recounting = self.mood_templates[{**tags,'column':'template'}]
-        subject = EmojiPerson(
-            ''.join([
-                    (tags['number'][0]),
-                    ('i' if tags['clusivity']=='inclusive' else ''),
-                ]), 
-            tags['gender'][0], 
-            persons[int(tags['person'])-1].color)
-        persons = [
-            subject if str(i+1)==tags['person'] else person
-            for i, person in enumerate(persons)]
-        recounting = encoded_recounting
-        recounting = recounting.replace('\\scene', scene)
-        recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
-        return recounting
-    def decline(self, tags, scene, noun, persons):
-        scene = scene.replace('\\declined', noun)
-        scene = self.emojiInflectionShorthand.decode(scene, 
-            EmojiPerson(
-                tags['number'][0], 
-                tags['gender'][0], 
-                persons[int(tags['person'])-1].color), 
-            persons)
-        return scene
+class RuleFormatting:
+    """
+    `RuleFormatting` is a library of functions that can be used in conjunction with `RuleProcessing` 
+    to cast a syntax tree to a string of natural language.
+    """
+    def __init__(self):
+        pass
+    def default(self, processing, rule):
+        return ' '.join([processing.process(subrule) if isinstance(subrule, Rule) else str(subrule) 
+                         for subrule in rule.content])
+    def cloze(self, processing, rule):
+        return '{{c'+str(1)+'::'+rule.content[0]+'}}'
 
-class Translation:
+class RuleValidation:
     """
-    `Translation` is a library of functions that can be used in conjunction with `RuleProcessing` 
-    to perform operations on a syntax tree that are specific to a language.
-    Examples include word translation, verb conjugation, noun and adjective declension, 
-    and the structuring of clauses and noun phrases.
+    `RuleFormatting` is a library of functions that can be used in conjunction with `RuleProcessing` 
+    to determine whether a sytax tree can be represented as a string of natural language.
     """
-    def __init__(self, 
-            conjugation_lookups, 
-            declension_lookups, 
-            use_case_to_grammatical_case,
-            sentence_structure):
-        self.conjugation_lookups = conjugation_lookups
-        self.declension_lookups = declension_lookups
-        self.use_case_to_grammatical_case = use_case_to_grammatical_case
-        self.sentence_structure = sentence_structure
-    def decline(self, processing, rule):
-        tags = {**rule.tags, 'language-type':'translated', 'noun':rule.content[0]}
-        # NOTE: if content is a None type, then rely solely on the tag
-        #  This logic provides a natural way to encode for pronouns
-        missing_value = '' if rule.tag in {'art'} else None
-        return (missing_value if tags not in self.declension_lookups
-                else missing_value if tags not in self.declension_lookups[tags]
-                else self.declension_lookups[tags][tags])
-    def conjugate(self, processing, rule):
-        tags = {**rule.tags, 'language-type':'translated', 'verb':rule.content[0]}
-        return (None if tags not in self.conjugation_lookups['finite']
-                else self.conjugation_lookups['finite'][tags])
-    def stock_modifier(self, processing, rule):
-        tags = {**rule.tags, 'language-type':'translated', 'verb':rule.content[0]}
-        return (None if tags not in self.conjugation_lookups['argument']
-                else self.conjugation_lookups['argument'][tags])
-    def stock_adposition(self, processing, rule):
-        tags = {**rule.tags, 'language-type':'translated'}
-        return (None if tags not in self.use_case_to_grammatical_case
-                else self.use_case_to_grammatical_case[tags]['adposition'])
-    def order_clause(self, processing, clause):
-        verbs = [phrase for phrase in clause.content if phrase.tag in {'vp'}]
-        nouns = [phrase for phrase in clause.content if phrase.tag in {'np'}]
-        subject_roles = {'solitary','agent'}
-        direct_object_roles = {'theme','patient'}
-        indirect_object_roles = {'indirect-object'}
-        nonmodifier_roles = {*subject_roles, *direct_object_roles, *indirect_object_roles}
-        phrase_lookup = {
-            'verb':            verbs,
-            'subject':         [noun for noun in nouns if noun.tags['role'] in subject_roles],
-            'direct-object':   [noun for noun in nouns if noun.tags['role'] in direct_object_roles],
-            'indirect-object': [noun for noun in nouns if noun.tags['role'] in indirect_object_roles],
-            'modifiers':       [noun for noun in nouns if noun.tags['role'] not in nonmodifier_roles],
-        }
-        return Rule(clause.tag, 
-            clause.tags,
-            processing.process([
-                phrase
-                for phrase_type in self.sentence_structure
-                for phrase in phrase_lookup[phrase_type]
-            ]))
-    def order_noun_phrase(self, processing, phrase):
-        return Rule(phrase.tag, 
-            phrase.tags,
-            processing.process([
-                content for content in phrase.content 
-                if content.tag not in {'art'} or 
-                    ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
-            ]))
-    def passthrough(self, processing, rule):
-        return Rule(rule.tag, rule.tags, processing.process(rule.content))
+    def __init__(self):
+        pass
+    def exists(self, processing, rule):
+        return all([processing.process(subrule) if isinstance(subrule, Rule) else subrule is not None
+                    for subrule in rule.content])
 
 class ListProcessing:
     """
@@ -283,7 +300,11 @@ class ListTools:
         def _process(machine, tree, memory):
             return [replacement, *machine.process(tree[1:], memory)]
         return _process
-    def tags(self, modifications):
+    def remove(self):
+        def _process(machine, tree, memory):
+            return [*machine.process(tree[1:], memory)]
+        return _process
+    def tag(self, modifications):
         def _process(machine, tree, memory):
             return machine.process(tree[1:], {**memory, **modifications})
         return _process
@@ -317,27 +338,3 @@ class RuleProcessing:
         return ([self.process(subrule) for subrule in rule] if isinstance(rule, list)
             else self.operations[rule.tag](self, rule) if rule.tag in self.operations
             else Rule(rule.tag, rule.tags, processing.process(rule.content)))
-
-class RuleValidation:
-    """
-    `RuleFormatting` is a library of functions that can be used in conjunction with `RuleProcessing` 
-    to determine whether a sytax tree can be represented as a string of natural language.
-    """
-    def __init__(self):
-        pass
-    def exists(self, processing, rule):
-        return all([processing.process(subrule) if isinstance(subrule, Rule) else subrule is not None
-                    for subrule in rule.content])
-
-class RuleFormatting:
-    """
-    `RuleFormatting` is a library of functions that can be used in conjunction with `RuleProcessing` 
-    to cast a syntax tree to a string of natural language.
-    """
-    def __init__(self):
-        pass
-    def default(self, processing, rule):
-        return ' '.join([processing.process(subrule) if isinstance(subrule, Rule) else str(subrule) 
-                         for subrule in rule.content])
-    def cloze(self, processing, rule):
-        return '{{c'+str(1)+'::'+rule.content[0]+'}}'

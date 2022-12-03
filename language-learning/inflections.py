@@ -28,6 +28,8 @@ tagaxis_to_tags = {
     'language-type':   ['english', 'translated'], 
     #'language-type':   ['native', 'foreign'], #TODO: change the above to the preceding to support decks built for nonenglish speakers
 
+    'plicity': ['implicit', 'explicit'],
+
     'script':[
         # scripts that were derived from the phoenecian alphabet:
         'latin','cyrillic','greek','hebrew','arabic','phoenician','ipa',
@@ -522,7 +524,7 @@ class CardGeneration:
             default_tags = {**default_tags, **{'noun-form': 'personal', 'case':'nominative', 'role':'agent'}}
             modifier_tags = {**default_tags, **{'noun-form': 'common', 'role':'modifier'}}
             if all([default_tags in filter_lookup for filter_lookup in filter_lookups]):
-                tree = self.parsing.parse('clause [default [np the n man] [vp cloze v conjugated]] [modifier np stock-modifier conjugated]')
+                tree = self.parsing.parse('clause [test-seme [np the n man] [vp cloze v conjugated]] [modifier-seme np stock-modifier conjugated]')
                 replacement = ListProcessing({
                     'conjugated': self.tools.replace(default_tags['verb']),
                     'the':        self.tools.replace(['art', 'the']),
@@ -530,8 +532,8 @@ class CardGeneration:
                 })
                 conversion = ListProcessing({
                     **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                    'default': self.tools.tags(default_tags),
-                    'modifier': self.tools.tags(modifier_tags),
+                    'test-seme':     self.tools.tag(default_tags),
+                    'modifier-seme': self.tools.tag(modifier_tags),
                 })
                 inflection = RuleProcessing({
                     'clause':        translation.order_clause,
@@ -578,14 +580,7 @@ class CardGeneration:
             filter_lookups=[],
             nouns_to_predicates={},
             tagspace={},
-            solitary_tags={}, 
-            agent_tags={}, 
-            theme_tags={}, 
-            patient_tags={}, 
-            possession_tags={}, 
-            inanimate_tags={}, 
-            declined_tags={},
-            emoji_tags={}, 
+            tag_templates={},
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
@@ -605,12 +600,12 @@ class CardGeneration:
                     })
                     conversion = ListProcessing({
                         **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                        'default':   self.tools.tags({**default_tags, **declined_tags,   'case':case}),
-                        'solitary':  self.tools.tags({**default_tags, **agent_tags,      'case':'nominative', 'role':'solitary'  }),
-                        'agent':     self.tools.tags({**default_tags, **solitary_tags,   'case':'nominative', 'role':'agent'     }),
-                        'theme':     self.tools.tags({**default_tags, **theme_tags,      'case':'accusative', 'role':'theme'     }),
-                        'patient':   self.tools.tags({**default_tags, **patient_tags,    'case':'accusative', 'role':'patient'   }),
-                        'possession':self.tools.tags({**default_tags, **possession_tags, 'case':'nominative', 'role':'solitary'  }),
+                        'test-seme':      self.tools.tag({**default_tags, **tag_templates['test'],       'case':case}),
+                        'solitary-seme':  self.tools.tag({**default_tags, **tag_templates['agent'],      'case':'nominative', 'role':'solitary'  }),
+                        'agent-seme':     self.tools.tag({**default_tags, **tag_templates['solitary'],   'case':'nominative', 'role':'agent'     }),
+                        'theme-seme':     self.tools.tag({**default_tags, **tag_templates['theme'],      'case':'accusative', 'role':'theme'     }),
+                        'patient-seme':   self.tools.tag({**default_tags, **tag_templates['patient'],    'case':'accusative', 'role':'patient'   }),
+                        'possession-seme':self.tools.tag({**default_tags, **tag_templates['possession'], 'case':'nominative', 'role':'solitary'  }),
                     })
                     inflection = RuleProcessing({
                         'clause':          translation.order_clause,
@@ -641,7 +636,7 @@ class CardGeneration:
                     # if default_tags[''] =='personal':
                     #     breakpoint()
                     # english_tree = self.english.inflect(tree, presets, {**placeholders, 'adposition': match['adposition']})
-                    emoji_key = {**default_tags, **declined_tags, **emoji_tags, 'case':case, 'script': 'emoji'}
+                    emoji_key = {**default_tags, **tag_templates['test'], **tag_templates['emoji'], 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
                         match['emoji'], translation.declension_lookups[emoji_key][emoji_key], persons)
                     # if 'None' in formatted:
@@ -685,6 +680,7 @@ latin = Translation(
         case_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv'))),
     sentence_structure = 'subject modifiers indirect-object direct-object verb'.split(),
+    tags = {'language-type':'translated'},
 )
 
 write('flashcards/verb-conjugation/latin.html', 
@@ -770,13 +766,15 @@ write('flashcards/noun-declension/latin.html',
             'thing':'bolt',
             'phenomenon': 'eruption',
         },
-        agent_tags      = {'noun-form':'personal', 'number':'singular'},
-        solitary_tags   = {'noun-form':'personal', 'number':'singular'},
-        theme_tags      = {'noun-form':'personal', 'number':'singular'},
-        patient_tags    = {'noun-form':'personal', 'number':'singular'},
-        possession_tags = {'noun-form':'common',   'number':'singular'},
-        declined_tags   = {'noun-form':'common'},
-        emoji_tags      = {'noun-form':'common', 'person':'4'},
+        tag_templates ={
+            'agent'      : {'noun-form':'personal', 'number':'singular'},
+            'solitary'   : {'noun-form':'personal', 'number':'singular'},
+            'theme'      : {'noun-form':'personal', 'number':'singular'},
+            'patient'    : {'noun-form':'personal', 'number':'singular'},
+            'possession' : {'noun-form':'common',   'number':'singular'},
+            'test'       : {'noun-form':'common'},
+            'emoji'      : {'noun-form':'common', 'person':'4'},
+        },
         persons = [
             EmojiPerson('s','n',3),
             EmojiPerson('s','f',4),
@@ -831,13 +829,15 @@ write('flashcards/pronoun-declension/latin.html',
                     ('mane',  '3', 'plural',   'neuter'   ),
                 })
             ],
-        agent_tags      = {'noun-form':'common', 'number':'singular'},
-        solitary_tags   = {'noun-form':'common', 'number':'singular'},
-        theme_tags      = {'noun-form':'common', 'number':'singular'},
-        patient_tags    = {'noun-form':'common', 'number':'singular'},
-        possession_tags = {'noun-form':'common', 'number':'singular'},
-        declined_tags   = {'noun-form':'personal'},
-        emoji_tags      = {'noun-form':'personal'},
+        tag_templates ={
+            'agent'      : {'noun-form':'common', 'number':'singular'},
+            'solitary'   : {'noun-form':'common', 'number':'singular'},
+            'theme'      : {'noun-form':'common', 'number':'singular'},
+            'patient'    : {'noun-form':'common', 'number':'singular'},
+            'possession' : {'noun-form':'common', 'number':'singular'},
+            'test'       : {'noun-form':'personal'},
+            'emoji'      : {'noun-form':'personal'},
+        },
         english_map=replace([('you♀','you'),('you all♀','you all')]), 
         persons = [
             EmojiPerson('s','n',3),

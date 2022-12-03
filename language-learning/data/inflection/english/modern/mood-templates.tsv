@@ -1,31 +1,31 @@
-mood	template	alternate prephrase	explanation
-indicative	{subject|nominative} {predicate}		
-subjunctive	[even if] {subject|nominative} {predicate} [...]	[even if]	Event is considered unlikely (mainly used in dependent clauses)
-conditional	[if so, then] {subject|nominative} would {predicate|infinitive}	[if so, then]	Event depends upon another condition.
-optative	[may it be that] {subject|nominative} {predicate}	[may it be that]	Event is hoped, expected, or awaited.
-benedictive	[may it be that] {subject|nominative} {predicate}	[may it be that]	Event is blessed by the speaker
-jussive	[it should be that] {subject|nominative} {predicate}	[it should be that]	Event is pleaded, implored or asked.
-probable	{subject|nominative} [likely] {predicate}	[it's likely]	Event is probable or considered likely.
-imperative	[I {command|independant|speaker} for] {subject|oblique} to {predicate|infinitive}!	[I command that]	Event is directly ordered or requested by the speaker.
-prohibitive	[I {forbid|independant|speaker}] for {subject|oblique} to {predicate|infinitive}!	[I forbid that]	Event is directly prohibited by the speaker.
-desiderative	{subject|nominative} [{wish|independant}] to {predicate|infinitive}		Event is desired/wished by the subject
-dubitative	{subject|nominative} [possibly] {predicate}	[maybe]	Event is uncertain, doubtful, dubious.
-hypothetical	{subject|nominative} {be able} [technically] {predicate|infinitive}	[it's at least possible]	Event is hypothetical, or it is counterfactual, but possible.
-presumptive	[suppose that] {subject|nominative} {predicate}	[suppose that]	Event is assumed, presupposed by the speaker.
-permissive	[I {permit|independant|speaker}] for {subject|oblique} to {predicate|infinitive}	[I'm fine that]	Event is permitted by the speaker.
-admirative	[wow!] {subject|nominative} {predicate}!	[wow!]	Event is genuinely surprising or amazing
-ironic-admirative	[sarcastically:] [gee!] {subject|nominative} [sure] {predicate}	[gee!]	Event is stated in irony as surprising or amazing
-hortative	[may it be that] {subject|nominative} {predicate|infinitive}!	[may it be]	Event is exhorted, implored, insisted or encouraged by speaker.
-eventitive	[if so, then] {subject|nominative} [likely] {predicate}	[if so, it's likely]	Event is likely but depends upon a condition. 
-precative	[please] would {subject|nominative} {predicate|infinitive}?	[please, can it be that]	Event is requested by the speaker.
-volitive	[if only] {subject|nominative} {predicate}	[if only]	Event is desired, wished or feared by the speaker.
-involutive	[heaven forbid] {subject|nominative} {predicate}	[heaven forbid]	Event is feared by the speaker.
-inferential	[it is said that] {subject|nominative} {predicate}	[it is said that]	Event is nonwitnessed, and not confirmed.
-necessitative	{subject|nominative} must {predicate|infinitive}	[it is imperative that]	Event is necessary, or it is both desired and encouraged. 
-interrogative	[is it true that] {subject|nominative} {predicate}?	[is it true that]	Event is asked or questioned by the speaker 
-injunctive	[I {intend|independant|speaker}] for {subject|oblique} to {predicate|infinitive}	[I intend]	Event is intended by the speaker
-suggestive	[I propose that] {subject|nominative} {predicate}	[I propose]	Event is proposed by the speaker
-comissive	[I vow that] {subject|nominative} {predicate}	[I vow]	Event is committed to by the speaker, such as by promise or threat
-deliberative	shall {subject|nominative} {predicate|infinitive}?	[shall it be]	Event is considered by the speaker, asking for confirmation
-propositive	should {subject|nominative} {predicate|infinitive}?	[should it be]	Event is proposed by the speaker, asking for consideration
-potential	{subject|nominative} {be|independant} able to {predicate|infinitive}		Event is able to be done by the subject
+mood	template				alternate prephrase	explanation
+indicative	{subject|nominative} {predicate}	#	append			
+subjunctive	[even if] {subject|nominative} {predicate} [...]	#	append		[even if]	Event is considered unlikely (mainly used in dependent clauses)
+conditional	[if so, then] {subject|nominative} would {predicate|infinitive}	#	insert/append		[if so, then]	Event depends upon another condition.
+optative	[may it be that] {subject|nominative} {predicate}	#	append		[may it be that]	Event is hoped, expected, or awaited.
+benedictive	[may it be that] {subject|nominative} {predicate}	#	append		[may it be that]	Event is blessed by the speaker
+jussive	[it should be that] {subject|nominative} {predicate}	#	append		[it should be that]	Event is pleaded, implored or asked.
+probable	{subject|nominative} [likely] {predicate}	#	insert/append		[it's likely]	Event is probable or considered likely.
+imperative	[I {command|independant|speaker} for] {subject|oblique} to {predicate|infinitive}!	#	clause	implicit independant clause speaker-seme [np n] [vp v command] [patient-seme np [adp that] explicit dependant-clause]	[I command that]	Event is directly ordered or requested by the speaker.
+prohibitive	[I {forbid|independant|speaker}] for {subject|oblique} to {predicate|infinitive}!	#	clause	implicit independant clause speaker-seme [np n] [vp v forbid] [patient-seme np [adp that] explicit dependant-clause]	[I forbid that]	Event is directly prohibited by the speaker.
+desiderative	{subject|nominative} [{wish|independant}] to {predicate|infinitive}	#	clause			Event is desired/wished by the subject
+dubitative	{subject|nominative} [possibly] {predicate}	#	insert/append		[maybe]	Event is uncertain, doubtful, dubious.
+hypothetical	{subject|nominative} {be able} [technically] {predicate|infinitive}	#	insert/append		[it's at least possible]	Event is hypothetical, or it is counterfactual, but possible.
+presumptive	[suppose that] {subject|nominative} {predicate}	#	append		[suppose that]	Event is assumed, presupposed by the speaker.
+permissive	[I {permit|independant|speaker}] for {subject|oblique} to {predicate|infinitive}	#	clause	implicit independant clause speaker-seme [np n] [vp v permit] [patient-seme np [adp that] explicit dependant-clause]	[I'm fine that]	Event is permitted by the speaker.
+admirative	[wow!] {subject|nominative} {predicate}!	#	append		[wow!]	Event is genuinely surprising or amazing
+ironic-admirative	[sarcastically:] [gee!] {subject|nominative} [sure] {predicate}	#	insert/append		[gee!]	Event is stated in irony as surprising or amazing
+hortative	[may it be that] {subject|nominative} {predicate|infinitive}!	#	append		[may it be]	Event is exhorted, implored, insisted or encouraged by speaker.
+eventitive	[if so, then] {subject|nominative} [likely] {predicate}	#	insert/append		[if so, it's likely]	Event is likely but depends upon a condition. 
+precative	[please] would {subject|nominative} {predicate|infinitive}?	#	append		[please, can it be that]	Event is requested by the speaker.
+volitive	[if only] {subject|nominative} would {predicate}	#	insert/append		[if only]	Event is desired, wished or feared by the speaker.
+involutive	[heaven forbid] {subject|nominative} {predicate}	#	append		[heaven forbid]	Event is feared by the speaker.
+inferential	[it is said that] {subject|nominative} {predicate}	#	append		[it is said that]	Event is nonwitnessed, and not confirmed.
+necessitative	{subject|nominative} must {predicate|infinitive}	#	insert/append		[it is imperative that]	Event is necessary, or it is both desired and encouraged. 
+interrogative	[is it true that] {subject|nominative} {predicate}?	#	append		[is it true that]	Event is asked or questioned by the speaker 
+injunctive	[I {intend|independant|speaker}] for {subject|oblique} to {predicate|infinitive}	#	clause		[I intend]	Event is intended by the speaker
+suggestive	[I propose that] {subject|nominative} {predicate}	#	append		[I propose]	Event is proposed by the speaker
+comissive	[I vow that] {subject|nominative} {predicate}	#	append		[I vow]	Event is committed to by the speaker, such as by promise or threat
+deliberative	shall {subject|nominative} {predicate|infinitive}?	#	append		[shall it be]	Event is considered by the speaker, asking for confirmation
+propositive	should {subject|nominative} {predicate|infinitive}?	#	append		[should it be]	Event is proposed by the speaker, asking for consideration
+potential	{subject|nominative} {be|independant} able to {predicate|infinitive}	#	clause			Event is able to be done by the subject
