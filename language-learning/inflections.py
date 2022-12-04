@@ -382,20 +382,6 @@ emoji = Emoji(
     emoji_shorthand, HtmlTenseTransform(), HtmlAspectTransform(), 
 )
 
-english = English(
-    plurality.english,
-    declension_population.index(
-        pronoun_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv'), 1, 5)),
-    conjugation_population.index(
-        finite_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/modern/conjugations.tsv'), 4, 2)),
-    predicate_population.index(
-        predicate_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/modern/auxillary-verb-templates.tsv'), 1, 4)),
-    mood_population.index(
-        mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'), 1, 1)),
-)
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -467,7 +453,7 @@ declension_template_annotation = RowAnnotation([
     'emoji'])
 declension_template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
-        DictTupleIndexing(['motion','role']), list))
+        DictTupleIndexing(['motion','role']), lambda key:[]))
 declension_templates = \
     declension_template_population.index(
         declension_template_annotation.annotate(
@@ -536,16 +522,28 @@ class CardGeneration:
                     'modifier-seme': self.tools.tag(modifier_tags),
                 })
                 inflection = RuleProcessing({
-                    'clause':        translation.order_clause,
-                    'np':            translation.order_noun_phrase,
-                    'vp':            translation.passthrough,
-                    'v':             translation.conjugate,
-                    'n':             translation.decline,
-                    'art':           translation.decline,
-                    'adj':           translation.decline,
-                    'cloze':         translation.passthrough,
-                    'stock-modifier':translation.stock_modifier,
-                    'stock-adposition':translation.stock_adposition,
+                    'clause':           translation.order_clause,
+                    'np':               translation.order_noun_phrase,
+                    'vp':               translation.passthrough,
+                    'v':                translation.conjugate,
+                    'n':                translation.decline,
+                    'art':              translation.decline,
+                    'adj':              translation.decline,
+                    'cloze':            translation.passthrough,
+                    'stock-adposition': translation.stock_adposition,
+                    'stock-modifier':   translation.stock_modifier('translated'),
+                })
+                english = RuleProcessing({
+                    'clause':           self.english.order_clause,
+                    'np':               self.english.order_noun_phrase,
+                    'vp':               self.english.passthrough,
+                    'v':                self.english.conjugate,
+                    'n':                self.english.decline,
+                    'art':              self.english.decline,
+                    'adj':              self.english.decline,
+                    'cloze':            self.english.remove,
+                    'stock-adposition': self.english.stock_adposition,
+                    'stock-modifier':   translation.stock_modifier('english'),
                 })
                 formatting = RuleProcessing({
                     'clause':  self.formatting.default,
@@ -558,20 +556,17 @@ class CardGeneration:
                 })
                 replaced = replacement.process(tree)
                 converted = conversion.process(replaced)
-                # print(tree)
-                # print(replaced)
-                # print(converted)
-                inflected = inflection.process(converted)
-                # english_tree = self.english.inflect(tree, presets, placeholders)
+                translated_inflected = inflection.process(converted)
+                english_inflected = english.process(converted)
                 emoji_key  = {**test_tags, 'script':'emoji'}
-                if validation.process(inflected) and emoji_key in translation.conjugation_lookups['infinitive']:
-                    # english_text    = self.english.process(tree)
-                    translated_text = formatting.process(inflected)
+                if validation.process(translated_inflected) and emoji_key in translation.conjugation_lookups['infinitive']:
+                    english_text    = formatting.process(english_inflected)
+                    translated_text = formatting.process(translated_inflected)
                     emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
                     emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
-                            # self.cardFormatting.english_word(english_map(english_text)), 
+                            self.cardFormatting.english_word(english_map(english_text)),
                             self.cardFormatting.foreign_focus(translated_text),
                         ])
     def declension(self, 
@@ -615,8 +610,20 @@ class CardGeneration:
                         'art':             translation.decline,
                         'adj':             translation.decline,
                         'cloze':           translation.passthrough,
-                        'stock-modifier':  translation.stock_modifier,
                         'stock-adposition':translation.stock_adposition,
+                        'stock-modifier':  translation.stock_modifier('translated'),
+                    })
+                    english = RuleProcessing({
+                        'clause':          self.english.order_clause,
+                        'np':              self.english.order_noun_phrase,
+                        'vp':              self.english.passthrough,
+                        'v':               self.english.conjugate,
+                        'n':               self.english.decline,
+                        'art':             self.english.decline,
+                        'adj':             self.english.decline,
+                        'cloze':           self.english.remove,
+                        'stock-adposition':self.english.stock_adposition,
+                        'stock-modifier':  translation.stock_modifier('english'),
                     })
                     formatting = RuleProcessing({
                         'clause':  self.formatting.default,
@@ -629,23 +636,47 @@ class CardGeneration:
                     })
                     replaced = replacement.process(tree)
                     converted = conversion.process(replaced)
-                    inflected = inflection.process(converted)
-                    formatted = formatting.process(inflected)
+                    translated_inflected = inflection.process(converted)
+                    english_inflected = english.process(converted)
+                    translated_text = formatting.process(translated_inflected)
+                    english_text    = formatting.process(english_inflected)
                     # if 'possession' in match['syntax-tree']:
                     # if test_tags[''] =='personal':
                     #     breakpoint()
-                    # english_tree = self.english.inflect(tree, presets, {**placeholders, 'adposition': match['adposition']})
                     case = translation.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {**test_tags, **tag_templates['test'], **tag_templates['emoji'], 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
                         match['emoji'], translation.declension_lookups[emoji_key][emoji_key], persons)
-                    if 'None' in formatted:
+                    if 'None' in translated_text:
                         breakpoint()
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
-                            # self.cardFormatting.english_word(english_map(self.english.format(tree))),
-                            self.cardFormatting.foreign_focus(formatted),
+                            self.cardFormatting.english_word(english_map(english_text)),
+                            self.cardFormatting.foreign_focus(translated_text),
                         ])
+
+english = Translation(
+    conjugation_population.index(
+        finite_annotation.annotate(
+            tsv_parsing.rows('data/inflection/english/modern/conjugations.tsv'), 4, 2)),
+    declension_population.index([
+        *pronoun_annotation.annotate(
+            tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv'), 1, 5),
+        *common_noun_annotation.annotate(
+            tsv_parsing.rows('data/inflection/english/modern/declensions.tsv'), 1, 2),
+    ]),
+    case_population.index(
+        case_annotation.annotate(
+            tsv_parsing.rows('data/inflection/english/modern/declension-use-case-to-grammatical-case.tsv'))),
+    # predicate_population.index(
+    #     predicate_annotation.annotate(
+    #         tsv_parsing.rows('data/inflection/english/modern/auxillary-verb-templates.tsv'), 1, 4)),
+    # mood_population.index(
+    #     mood_annotation.annotate(
+    #         tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'), 1, 1)),
+    sentence_structure = 'subject verb direct-object indirect-object modifiers'.split(),
+    tags = {'language-type':'english'},
+)
 
 card_generation = CardGeneration(
     english, emoji, CardFormatting(),

@@ -87,10 +87,12 @@ class Translation:
         tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
         return (None if tags not in self.conjugation_lookups['finite']
                 else self.conjugation_lookups['finite'][tags])
-    def stock_modifier(self, processing, rule):
-        tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
-        return (None if tags not in self.conjugation_lookups['argument']
-                else self.conjugation_lookups['argument'][tags])
+    def stock_modifier(self, language_type):
+        def _stock_modifier(processing, rule):
+            tags = {**rule.tags, **self.tags, 'verb':rule.content[0], 'language-type': language_type}
+            return (None if tags not in self.conjugation_lookups['argument']
+                    else self.conjugation_lookups['argument'][tags])
+        return _stock_modifier
     def stock_adposition(self, processing, rule):
         tags = {**rule.tags, **self.tags}
         return (None if tags not in self.use_case_to_grammatical_case
@@ -126,6 +128,8 @@ class Translation:
             ]))
     def passthrough(self, processing, rule):
         return Rule(rule.tag, rule.tags, processing.process(rule.content))
+    def remove(self, processing, rule):
+        return processing.process(rule.content)[0]
 
 class English:
     def __init__(self, 
@@ -147,49 +151,6 @@ class English:
         return (missing_value if tags not in self.declension_lookups
                 else missing_value if tags not in self.declension_lookups[tags]
                 else self.declension_lookups[tags][tags])
-    def conjugate(self, processing, rule):
-        tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
-        return (None if tags not in self.conjugation_lookups['finite']
-                else self.conjugation_lookups['finite'][tags])
-    def stock_modifier(self, processing, rule):
-        tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
-        return (None if tags not in self.conjugation_lookups['argument']
-                else self.conjugation_lookups['argument'][tags])
-    def stock_adposition(self, processing, rule):
-        tags = {**rule.tags, **self.tags}
-        return (None if tags not in self.use_case_to_grammatical_case
-                else self.use_case_to_grammatical_case[tags]['adposition'])
-    def order_clause(self, processing, clause):
-        verbs = [phrase for phrase in clause.content if phrase.tag in {'vp'}]
-        nouns = [phrase for phrase in clause.content if phrase.tag in {'np'}]
-        subject_roles = {'solitary','agent'}
-        direct_object_roles = {'theme','patient'}
-        indirect_object_roles = {'indirect-object'}
-        nonmodifier_roles = {*subject_roles, *direct_object_roles, *indirect_object_roles}
-        phrase_lookup = {
-            'verb':            verbs,
-            'subject':         [noun for noun in nouns if noun.tags['role'] in subject_roles],
-            'direct-object':   [noun for noun in nouns if noun.tags['role'] in direct_object_roles],
-            'indirect-object': [noun for noun in nouns if noun.tags['role'] in indirect_object_roles],
-            'modifiers':       [noun for noun in nouns if noun.tags['role'] not in nonmodifier_roles],
-        }
-        return Rule(clause.tag, 
-            clause.tags,
-            processing.process([
-                phrase
-                for phrase_type in self.sentence_structure
-                for phrase in phrase_lookup[phrase_type]
-            ]))
-    def order_noun_phrase(self, processing, phrase):
-        return Rule(phrase.tag, 
-            phrase.tags,
-            processing.process([
-                content for content in phrase.content 
-                if content.tag not in {'art'} or 
-                    ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
-            ]))
-    def passthrough(self, processing, rule):
-        return Rule(rule.tag, rule.tags, processing.process(rule.content))
     def format(self, content):
         if type(content) in {Clause}:
             clause = content

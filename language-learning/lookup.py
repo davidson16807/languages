@@ -108,7 +108,7 @@ class DefaultDictLookup:
                 if tuplekey in self.content:
                     return self.content[tuplekey]
                 else:
-                    value = self.get_default()
+                    value = self.get_default(self.indexing.dictkey(tuplekey))
                     self.content[tuplekey] = value
                     return value
             else:
@@ -159,7 +159,8 @@ class DefaultDictLookup:
             yield tuplekey
     def items(self, dictkey):
         for tuplekey in self.indexing.tuplekeys(dictkey):
+            dictkey = self.indexing.dictkey(tuplekey)
             if tuplekey in self.content:
-                yield self.indexing.dictkey(tuplekey), self.content[tuplekey]
+                yield dictkey, self.content[tuplekey]
             else:
-                yield self.indexing.dictkey(tuplekey), self.get_default()
+                yield dictkey, self.get_default(dictkey)

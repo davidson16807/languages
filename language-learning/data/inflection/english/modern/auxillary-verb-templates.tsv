@@ -1,0 +1,73 @@
+voice	aspect	tense	lookup	 template				
+active	aorist	present		 {verb|present}  				
+active	aorist	past		 {verb|past}  				
+active	aorist	future		 will {verb|infinitive}  				
+active	imperfect	present		 {be|present} {verb|imperfect}  				
+active	imperfect	past		 {be|past} {verb|imperfect}  				
+active	imperfect	future		 will be {verb|imperfect}  				
+active	perfect	present		 {have|present} {verb|perfect}  				
+active	perfect	past		 {have|past} {verb|perfect}  				
+active	perfect	future		 will have {verb|perfect}  				
+active	perfect-progressive	present		 {have|present} been {verb|imperfect}  				
+active	perfect-progressive	past		 {have|past} been {verb|imperfect}  				
+active	perfect-progressive	future		 will have been {verb|imperfect}  				
+active	aorist	present	infinitive	[right now] {verb|infinitive}  				
+active	aorist	past	infinitive	[back then] {verb|infinitive}  				
+active	aorist	future	infinitive	[by then] {verb|infinitive}  				
+active	imperfect	present	infinitive	[right now] be {verb|imperfect}  				
+active	imperfect	past	infinitive	[back then] be {verb|imperfect}  				
+active	imperfect	future	infinitive	[by then] be {verb|imperfect}  				
+active	perfect	present	infinitive	[just now] have {verb|perfect}  				
+active	perfect	past	infinitive	[back then] have {verb|perfect}  				
+active	perfect	future	infinitive	[by then] have {verb|perfect}  				
+active	perfect-progressive	present	infinitive	[just now] have been {verb|imperfect}  				
+active	perfect-progressive	past	infinitive	[back then] have been {verb|imperfect}  				
+active	perfect-progressive	future	infinitive	[by then] have been {verb|imperfect}  				
+passive	aorist	present		{be|present} {verb|perfect}  				
+passive	aorist	past		{be|past} {verb|perfect}  				
+passive	aorist	future		will be {verb|perfect}  				
+passive	imperfect	present		{be|present} being {verb|perfect}  				
+passive	imperfect	past		{be|past} being {verb|perfect}  				
+passive	imperfect	future		will be [occasionally] {verb|perfect}  				
+passive	perfect	present		{have|present} been {verb|perfect}  				
+passive	perfect	past		{have|past} been {verb|perfect}  				
+passive	perfect	future		will have been {verb|perfect}  				
+passive	perfect-progressive	present		{have|present} been [occasionally] {verb|perfect}  				
+passive	perfect-progressive	past		{have|past} been [occasionally] {verb|perfect}  				
+passive	perfect-progressive	future		will have been [occasionally] {verb|perfect}  				
+passive	aorist	present	infinitive	[right now] be {verb|perfect}  				
+passive	aorist	past	infinitive	[back then] be {verb|perfect}  				
+passive	aorist	future	infinitive	[by then] be {verb|perfect}  				
+passive	imperfect	present	infinitive	[right now] be [occasionally] {verb|perfect}  				
+passive	imperfect	past	infinitive	[back then] be [occasionally] {verb|perfect}  				
+passive	imperfect	future	infinitive	[by then] be [occasionally] {verb|perfect}  				
+passive	perfect	present	infinitive	[just now] have been {verb|perfect}  				
+passive	perfect	past	infinitive	[back then] have been {verb|perfect}  				
+passive	perfect	future	infinitive	[by then] have been {verb|perfect}  				
+passive	perfect-progressive	present	infinitive	[just now] have been [occasionally] {verb|perfect}  				
+passive	perfect-progressive	past	infinitive	[back then] have been [occasionally] {verb|perfect}   				
+passive	perfect-progressive	future	infinitive	[by then] have been [occasionally] {verb|perfect}  				
+middle	aorist	present		 [{be|present}] {verb|perfect}  				
+middle	aorist	past		 [{be|past}] {verb|perfect}  				
+middle	aorist	future		 will [be] {verb|perfect}  				
+middle	imperfect	present		 {be|present} [being] {verb|perfect}  				
+middle	imperfect	past		 {be|past} [being] {verb|perfect}  				
+middle	imperfect	future		 will [be [occasionally]] {verb|perfect}  				
+middle	perfect	present		 {have|present} [been] {verb|perfect}  				
+middle	perfect	past		 {have|past} [been] {verb|perfect}  				
+middle	perfect	future		 will have [been] {verb|perfect}  				
+middle	perfect-progressive	present		 {have|present} [been occasionally] {verb|perfect}  				
+middle	perfect-progressive	past		 {have|past} [been occasionally] {verb|perfect}  				
+middle	perfect-progressive	future		 will have [been occasionally] {verb|perfect}  				
+middle	aorist	present	infinitive	[right now be] {verb|perfect}  				
+middle	aorist	past	infinitive	[back then be] {verb|perfect}  				
+middle	aorist	future	infinitive	[by then be] {verb|perfect}  				
+middle	imperfect	present	infinitive	[right now be [occasionally]] {verb|perfect}  				
+middle	imperfect	past	infinitive	[back then be [occasionally]] {verb|perfect}  				
+middle	imperfect	future	infinitive	[by then be [occasionally]] {verb|perfect}  				
+middle	perfect	present	infinitive	[just now] have [been] {verb|perfect}  				
+middle	perfect	past	infinitive	[back then] have [been] {verb|perfect}  				
+middle	perfect	future	infinitive	[by then] have [been] {verb|perfect}  				
+middle	perfect-progressive	present	infinitive	[just now] have [been occasionally] {verb|perfect}  				
+middle	perfect-progressive	past	infinitive	[back then] have [been occasionally] {verb|perfect}   				
+middle	perfect-progressive	future	infinitive	[by then] have [been occasionally] {verb|perfect}  				
