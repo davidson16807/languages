@@ -50,10 +50,10 @@ class Emoji:
             persons)
         return scene
 
-class Translation:
+class RuleGrammar:
     """
-    `Translation` is a library of functions that can be used in conjunction with `RuleProcessing` 
-    to perform operations on a syntax tree of rules that are specific to a language.
+    `RuleGrammar` is a library of functions that can be used in conjunction with `RuleProcessing` 
+    to perform operations on a syntax tree of rules that encapsulate the grammar of a natural language.
     Examples include word translation, verb conjugation, noun and adjective declension, 
     and the structuring of clauses and noun phrases.
     """
@@ -85,8 +85,8 @@ class Translation:
                 else self.declension_lookups[sememe][sememe])
     def conjugate(self, processing, rule):
         tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
-        return (None if tags not in self.conjugation_lookups['finite']
-                else self.conjugation_lookups['finite'][tags])
+        return (None if tags not in self.conjugation_lookups[tags]
+                else self.conjugation_lookups[tags][tags])
     def stock_modifier(self, language_type):
         def _stock_modifier(processing, rule):
             tags = {**rule.tags, **self.tags, 'verb':rule.content[0], 'language-type': language_type}
@@ -129,138 +129,7 @@ class Translation:
     def passthrough(self, processing, rule):
         return Rule(rule.tag, rule.tags, processing.process(rule.content))
     def remove(self, processing, rule):
-        return processing.process(rule.content)[0]
-
-class English:
-    def __init__(self, 
-            plurality,
-            declension_lookups, 
-            conjugation_lookups, 
-            predicate_templates, 
-            mood_templates):
-        self.plurality = plurality
-        self.declension_lookups = declension_lookups
-        self.conjugation_lookups = conjugation_lookups
-        self.predicate_templates = predicate_templates
-        self.mood_templates = mood_templates
-    def decline(self, processing, rule):
-        tags = {**rule.tags, **self.tags, 'noun':rule.content[0]}
-        # NOTE: if content is a None type, then rely solely on the tag
-        #  This logic provides a natural way to encode for pronouns
-        missing_value = '' if rule.tag in {'art'} else None
-        return (missing_value if tags not in self.declension_lookups
-                else missing_value if tags not in self.declension_lookups[tags]
-                else self.declension_lookups[tags][tags])
-    def format(self, content):
-        if type(content) in {Clause}:
-            clause = content
-            dependant_clause = {
-                **clause.tags,
-                'language-type': 'english',
-            }
-            independant_clause = {
-                **clause.tags,
-                'language-type': 'english',
-                'aspect': 'aorist',
-                'tense':     
-                    'past' if dependant_clause['aspect'] in {'perfect', 'perfect-progressive'} else
-                    'present' if dependant_clause['tense'] in {'future'} else
-                    dependant_clause['tense']
-            }
-            verb = self.format(clause.verb)
-            lemmas = ['be', 'have', 'command', 'forbid', 'permit', 'wish', 'intend', 'be able', verb]
-            mood_replacements = [
-                ('{predicate}',            self.predicate_templates[{**dependant_clause,'verb-form':'finite'}]),
-                ('{predicate|infinitive}', self.predicate_templates[{**dependant_clause,'verb-form':'infinitive'}]),
-            ]
-            sentence = self.mood_templates[{**dependant_clause,'column':'template'}]
-            for replaced, replacement in mood_replacements:
-                sentence = sentence.replace(replaced, replacement)
-            for noun in ['subject', 'direct-object', 'indirect-object', 'modifiers']:
-                sentence = sentence.replace('{'+noun+'}', 
-                    self.format(self.decline(clause.tags, 
-                        clause.nouns[noun] if noun in clause.nouns else [])))
-            for noun in ['subject', 'direct-object', 'indirect-object', 'modifiers']:
-                for case in ['nominative','oblique','genitive']:
-                    sentence = sentence.replace('{'+f'{noun}|{case}'+'}', 
-                        self.format(self.decline({**clause.tags, 'case':case}, 
-                            clause.nouns[noun] if noun in clause.nouns else [])))
-            sentence = sentence.replace('{verb', '{'+verb)
-            table = self.conjugation_lookups['finite']
-            for lemma in lemmas:
-                replacements = [
-                    ('{'+lemma+'|independant}',         table[{**independant_clause, 'verb':lemma, }]),
-                    ('{'+lemma+'|independant|speaker}', table[{**independant_clause, 'verb':lemma, 'person':'1', 'number':'singular'}]),
-                    ('{'+lemma+'|present}',             table[{**dependant_clause,   'verb':lemma, 'tense':  'present',  'aspect':'aorist'}]),
-                    ('{'+lemma+'|past}',                table[{**dependant_clause,   'verb':lemma, 'tense':  'past',     'aspect':'aorist'}]),
-                    ('{'+lemma+'|perfect}',             table[{**dependant_clause,   'verb':lemma, 'aspect': 'perfect'    }]),
-                    ('{'+lemma+'|imperfect}',           table[{**dependant_clause,   'verb':lemma, 'aspect': 'imperfect'  }]),
-                    ('{'+lemma+'|infinitive}',          lemma),
-                ]
-                for replaced, replacement in replacements:
-                    sentence = sentence.replace(replaced, replacement)
-            if dependant_clause['voice'] == 'middle':
-                sentence = f'[middle voice:] {sentence}'
-            sentence = re.sub('\s+', ' ', sentence)
-            return sentence
-        if content is None:
-            return ''
-        if type(content) in {list,set}:
-            return ' '.join([self.format(element) for element in content])
-        elif type(content) in {str}:
-            return content
-        elif type(content) in {NounPhrase}:
-            return self.format(self.decline(content.tags, content.content))
-        elif type(content) in {Adjective, Article}:
-            return self.format(content.content)
-        elif type(content) in {Adposition}:
-            return self.format(content.native)
-        elif type(content) in {Cloze}:
-            # NOTE: Cloze is only ever used to prompt for the foreign language being learned,
-            # so for the user's native language it is simply equal to the formatted content.
-            return self.format(content.content) 
-    def decline(self, tags, content):
-        tags = {**tags, 'language-type':'english'}
-        if content is None:
-            case = tags['case'] if tags['case'] in {'nominative','genitive'} else 'oblique'
-            tags = {**tags, 'case': case}
-            return (
-                self.declension_lookups[tags][tags] if tags['noun-form'] != 'common'
-                else self.plurality.pluralize(tags['noun']) if tags['number'] != 'singular'
-                else tags['noun'])
-        if type(content) in {list,set}:
-            return [self.decline(tags, element) for element in content]
-        elif type(content) in {str}:
-            # NOTE: string types are degenerate cases of None types invocations
-            #  where tags contain the lemma for the declension
-            return self.decline({**tags, 'noun':content}, None) 
-        elif type(content) in {NounPhrase}:
-            tags = {**tags, **content.tags}
-            case = tags['case'] if tags['case'] in {'nominative','genitive'} else 'oblique'
-            tags = {**tags, 'case': case}
-            return NounPhrase(tags, self.decline(tags, content.content))
-        elif type(content) in {StockModifier}:
-            return content.lookup[tags] if tags in content.lookup else []
-        elif type(content) in {Adjective, Article}:
-            return (content if tags['noun-form'] == 'common' else [])
-        elif type(content) in {Adposition}:
-            return content
-        elif type(content) in {Cloze}:
-            return Cloze(content.id, self.decline(tags, content.content))
-        else:
-            raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
-    def conjugate(self, tags, content):
-        if type(content) in {list,set}:
-            return [self.conjugate(tags, element) for element in content]
-        elif type(content) in {str}:
-            tags = {**tags, 'language-type':'translated'}
-            if tags not in self.conjugation_lookups['finite']:
-                return None
-            return self.conjugation_lookups['finite'][tags]
-        elif type(content) in {Cloze}:
-            return Cloze(content.id, self.conjugate(tags, content.content))
-        else:
-            raise TypeError(f'Content of type {type(content).__name__}: \n {content}')
+        return processing.process(rule.content)
 
 class RuleFormatting:
     """
@@ -273,7 +142,9 @@ class RuleFormatting:
         return ' '.join([processing.process(subrule) if isinstance(subrule, Rule) else str(subrule) 
                          for subrule in rule.content])
     def cloze(self, processing, rule):
-        return '{{c'+str(1)+'::'+str(rule.content[0])+'}}'
+        return '{{c'+str(1)+'::'+' '.join(str(element) for element in rule.content)+'}}'
+    def implicit(self, processing, rule):
+        return '['+str(' '.join([str(element) for element in rule.content]))+']'
 
 class RuleValidation:
     """
@@ -323,14 +194,40 @@ class ListTools:
         def _process(machine, tree, memory):
             return [*machine.process(tree[1:], memory)]
         return _process
-    def tag(self, modifications):
+    def tag(self, modifications, remove=False):
         def _process(machine, tree, memory):
-            return machine.process(tree[1:], {**memory, **modifications})
+            arguments = machine.process(tree[1:], {**memory, **modifications})
+            return arguments if remove else [tree[0], *arguments]
         return _process
     def passthrough(self):
         def _process(machine, tree, memory):
             return [tree[0], machine.process(tree[1:], memory)]
         return _process
+
+class EnglishListSubstitution:
+    def __init__(self):
+        pass
+    def tense(self, machine, tree, memory):
+        tense = memory['tense']
+        verbform = memory['verb-form']
+        if (tense, verbform) == ('future', 'finite'):       return ['will',        'infinitive', tree]
+        if (tense, verbform) == ('past',   'infinitive'):   return ['[back then]', tree]
+        if (tense, verbform) == ('present','infinitive'):   return ['[right now]', tree]
+        if (tense, verbform) == ('future', 'infinitive'):   return ['[by then]',   tree]
+        return tree
+    def aspect(self, machine, tree, memory):
+        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
+        aspect = memory['aspect']
+        if aspect == 'imperfect':           return [['aorist', 'v', 'be'],   'finite', tree]
+        if aspect == 'perfect':             return [['aorist', 'v', 'have'], 'finite', tree]
+        if aspect == 'perfect-progressive': return [['aorist', 'v', 'have'], 'finite', ['perfect', 'v', 'be'], ['imperfect', tree]]
+        return tree
+    def voice(self, machine, tree, memory):
+        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
+        voice = memory['voice']
+        if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfect', tree]]
+        if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfect', tree]]
+        return tree
 
 class Rule:
     def __init__(self, tag, tags, content):
@@ -357,5 +254,6 @@ class RuleProcessing:
         self.operations = operations
     def process(self, rule):
         return ([self.process(subrule) for subrule in rule] if isinstance(rule, list)
+            else rule if isinstance(rule, str)
             else self.operations[rule.tag](self, rule) if rule.tag in self.operations
             else Rule(rule.tag, rule.tags, processing.process(rule.content)))

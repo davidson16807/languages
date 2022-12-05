@@ -1,12 +1,12 @@
 mood	template				alternate prephrase	explanation
 indicative	{subject|nominative} {predicate}	#	append	dependant-clause		
-subjunctive	[even if] {subject|nominative} {predicate} [...]	#	append	"""[even if]"" dependant-clause ""[...]"""	[even if]	Event is considered unlikely (mainly used in dependent clauses)
+subjunctive	[even if] {subject|nominative} {predicate} [...]	#	append	[implicit even if] dependant-clause [ implicit ... ]	[even if]	Event is considered unlikely (mainly used in dependent clauses)
 conditional	[if so, then] {subject|nominative} would {predicate|infinitive}	#	insert/append		[if so, then]	Event depends upon another condition.
 optative	[may it be that] {subject|nominative} {predicate}	#	append		[may it be that]	Event is hoped, expected, or awaited.
 benedictive	[may it be that] {subject|nominative} {predicate}	#	append		[may it be that]	Event is blessed by the speaker
 jussive	[it should be that] {subject|nominative} {predicate}	#	append		[it should be that]	Event is pleaded, implored or asked.
 probable	{subject|nominative} [likely] {predicate}	#	insert/append		[it's likely]	Event is probable or considered likely.
-imperative	[I {command|independant|speaker} for] {subject|oblique} to {predicate|infinitive}!	#	clause	implicit independant clause speaker-seme [np n] [vp v command] [patient-seme np [adp that] explicit dependant-clause]	[I command that]	Event is directly ordered or requested by the speaker.
+imperative	[I {command|independant|speaker} for] {subject|oblique} to {predicate|infinitive}!	#	clause	[implicit [independant clause speaker-seme [np n] [vp v command]] [adp that]] [patient-seme dependant-clause]	[I command that]	Event is directly ordered or requested by the speaker.
 prohibitive	[I {forbid|independant|speaker}] for {subject|oblique} to {predicate|infinitive}!	#	clause	implicit independant clause speaker-seme [np n] [vp v forbid] [patient-seme np [adp that] explicit dependant-clause]	[I forbid that]	Event is directly prohibited by the speaker.
 desiderative	{subject|nominative} [{wish|independant}] to {predicate|infinitive}	#	clause	clause [test-seme [np the n man] [vp cloze v conjugated]] [modifier-seme np stock-modifier conjugated]		Event is desired/wished by the subject
 dubitative	{subject|nominative} [possibly] {predicate}	#	insert/append		[maybe]	Event is uncertain, doubtful, dubious.

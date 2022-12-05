@@ -17,16 +17,16 @@ from indexing import DictTupleIndexing, DictKeyIndexing
 from evaluation import KeyEvaluation, MultiKeyEvaluation
 from population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
 from languages import (
-    English, Emoji, Translation, 
     ListProcessing, ListTools,
-    RuleProcessing, RuleValidation, RuleFormatting,
+    RuleProcessing, RuleValidation, RuleFormatting, RuleGrammar,
+    EnglishListSubstitution,
+    Emoji, 
 )
 
 tagaxis_to_tags = {
 
     # needed to lookup the argument that is used to demonstrate a verb
-    'language-type':   ['english', 'translated'], 
-    #'language-type':   ['native', 'foreign'], #TODO: change the above to the preceding to support decks built for nonenglish speakers
+    'language-type':   ['native', 'foreign'], 
 
     'plicity': ['implicit', 'explicit'],
 
@@ -487,10 +487,11 @@ declension_verb_annotation = CellAnnotation(
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 
 class CardGeneration:
-    def __init__(self, english, emoji, cardFormatting,
+    def __init__(self, native_grammar, english_substitutions, emoji, cardFormatting,
             declension_template_matching, 
             parsing, tools, validation, formatting):
-        self.english = english
+        self.native_grammar = native_grammar
+        self.english_substitutions = english_substitutions
         self.emoji = emoji
         self.cardFormatting = cardFormatting
         self.declension_template_matching = declension_template_matching
@@ -499,7 +500,7 @@ class CardGeneration:
         self.validation = validation
         self.formatting = formatting
     def conjugation(self, 
-            translation, 
+            foreign_grammar, 
             traversal, 
             filter_lookups=[], 
             tagspace={},
@@ -510,67 +511,106 @@ class CardGeneration:
             test_tags = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
             modifier_tags = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
             if all([test_tags in filter_lookup for filter_lookup in filter_lookups]):
-                tree = self.parsing.parse('clause [test-seme [np the n man] [vp cloze v conjugated]] [modifier-seme np stock-modifier conjugated]')
-                replacement = ListProcessing({
-                    'conjugated': self.tools.replace(test_tags['verb']),
-                    'the':        self.tools.replace(['art', 'the']),
-                    'a':          self.tools.replace(['art', 'a']),
-                })
-                conversion = ListProcessing({
-                    **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                    'test-seme':     self.tools.tag(test_tags),
-                    'modifier-seme': self.tools.tag(modifier_tags),
-                })
-                inflection = RuleProcessing({
-                    'clause':           translation.order_clause,
-                    'np':               translation.order_noun_phrase,
-                    'vp':               translation.passthrough,
-                    'v':                translation.conjugate,
-                    'n':                translation.decline,
-                    'art':              translation.decline,
-                    'adj':              translation.decline,
-                    'cloze':            translation.passthrough,
-                    'stock-adposition': translation.stock_adposition,
-                    'stock-modifier':   translation.stock_modifier('translated'),
-                })
-                english = RuleProcessing({
-                    'clause':           self.english.order_clause,
-                    'np':               self.english.order_noun_phrase,
-                    'vp':               self.english.passthrough,
-                    'v':                self.english.conjugate,
-                    'n':                self.english.decline,
-                    'art':              self.english.decline,
-                    'adj':              self.english.decline,
-                    'cloze':            self.english.remove,
-                    'stock-adposition': self.english.stock_adposition,
-                    'stock-modifier':   translation.stock_modifier('english'),
-                })
-                formatting = RuleProcessing({
-                    'clause':  self.formatting.default,
-                    'np':      self.formatting.default,
-                    'vp':      self.formatting.default,
-                    'cloze':   self.formatting.cloze,
-                })
-                validation = RuleProcessing({
-                    **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
-                })
-                replaced = replacement.process(tree)
-                converted = conversion.process(replaced)
-                translated_inflected = inflection.process(converted)
-                english_inflected = english.process(converted)
-                emoji_key  = {**test_tags, 'script':'emoji'}
-                if validation.process(translated_inflected) and emoji_key in translation.conjugation_lookups['infinitive']:
-                    english_text    = formatting.process(english_inflected)
-                    translated_text = formatting.process(translated_inflected)
-                    emoji_argument  = translation.conjugation_lookups['infinitive'][emoji_key]
-                    emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
-                    yield ' '.join([
-                            self.cardFormatting.emoji_focus(emoji_text), 
-                            self.cardFormatting.english_word(english_map(english_text)),
-                            self.cardFormatting.foreign_focus(translated_text),
-                        ])
+                    tree = self.parsing.parse('clause [test-seme [np the n man] [vp cloze v conjugated]] [modifier-seme np stock-modifier conjugated]')
+                    tag_opcodes = {
+                        'perfect':          self.tools.tag({'aspect': 'perfect'}),
+                        'imperfect':        self.tools.tag({'aspect': 'imperfect'}),
+                        'aorist':           self.tools.tag({'aspect': 'aorist'}),
+                        'infinitive':       self.tools.tag({'verb-form': 'infinitive'}),
+                        'finite':           self.tools.tag({'verb-form': 'finite'}),
+                        'active':           self.tools.tag({'voice': 'active'}),
+                        'passive':          self.tools.tag({'voice': 'passive'}),
+                        'middle':           self.tools.tag({'voice': 'middle'}),
+                        # 'implicit':         self.tools.tag({'plicity': 'implicit'}),
+                        'test-seme':        self.tools.tag(test_tags),
+                        'modifier-seme':    self.tools.tag(modifier_tags),
+                    }
+                    replacement = ListProcessing({
+                        'conjugated': self.tools.replace(test_tags['verb']),
+                        'the':        self.tools.replace(['art', 'the']),
+                        'a':          self.tools.replace(['art', 'a']),
+                    })
+                    english_voice = ListProcessing({**tag_opcodes,  'v': self.english_substitutions.voice})
+                    english_tense = ListProcessing({**tag_opcodes,  'v': self.english_substitutions.tense})
+                    english_aspect = ListProcessing({**tag_opcodes, 'v': self.english_substitutions.aspect})
+                    conversion = ListProcessing({
+                        **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
+                        'perfect':          self.tools.tag({'aspect': 'perfect'}, remove=True),
+                        'imperfect':        self.tools.tag({'aspect': 'imperfect'}, remove=True),
+                        'aorist':           self.tools.tag({'aspect': 'aorist'}, remove=True),
+                        'infinitive':       self.tools.tag({'verb-form': 'infinitive'}, remove=True),
+                        'finite':           self.tools.tag({'verb-form': 'finite'}, remove=True),
+                        'active':           self.tools.tag({'voice': 'active'}, remove=True),
+                        'passive':          self.tools.tag({'voice': 'passive'}, remove=True),
+                        'middle':           self.tools.tag({'voice': 'middle'}, remove=True),
+                        # 'implicit':         self.tools.tag({'plicity': 'implicit'}, remove=True),
+                        'test-seme':        self.tools.tag(test_tags, remove=True),
+                        'modifier-seme':    self.tools.tag(modifier_tags, remove=True),
+                    })
+                    foreign = RuleProcessing({
+                        'clause':           foreign_grammar.order_clause,
+                        'np':               foreign_grammar.order_noun_phrase,
+                        'vp':               foreign_grammar.passthrough,
+                        'v':                foreign_grammar.conjugate,
+                        'n':                foreign_grammar.decline,
+                        'art':              foreign_grammar.decline,
+                        'adj':              foreign_grammar.decline,
+                        'cloze':            foreign_grammar.passthrough,
+                        'stock-adposition': foreign_grammar.stock_adposition,
+                        'stock-modifier':   foreign_grammar.stock_modifier('foreign'),
+                    })
+                    native = RuleProcessing({
+                        'clause':           self.native_grammar.order_clause,
+                        'np':               self.native_grammar.order_noun_phrase,
+                        'vp':               self.native_grammar.passthrough,
+                        'v':                self.native_grammar.conjugate,
+                        'n':                self.native_grammar.decline,
+                        'art':              self.native_grammar.decline,
+                        'adj':              self.native_grammar.decline,
+                        'cloze':            self.native_grammar.passthrough,
+                        'stock-adposition': self.native_grammar.stock_adposition,
+                        'stock-modifier':   foreign_grammar.stock_modifier('native'),
+                    })
+                    native_formatting = RuleProcessing({
+                        'clause':  self.formatting.default,
+                        'np':      self.formatting.default,
+                        'vp':      self.formatting.default,
+                        'cloze':   self.formatting.default,
+                        'implicit':self.formatting.implicit,
+                    })
+                    foreign_formatting = RuleProcessing({
+                        'clause':  self.formatting.default,
+                        'np':      self.formatting.default,
+                        'vp':      self.formatting.default,
+                        'cloze':   self.formatting.cloze,
+                        'implicit':self.formatting.implicit,
+                    })
+                    validation = RuleProcessing({
+                        **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
+                    })
+                    replaced = replacement.process(tree)
+                    english_replaced = (
+                        english_voice.process(
+                            english_aspect.process(
+                                english_tense.process(
+                                    replaced))))
+                    translated_inflected = foreign.process(conversion.process(replaced))
+                    english_inflected = native.process(conversion.process(english_replaced))
+                    emoji_key  = {**test_tags, 'script':'emoji'}
+                    if validation.process(translated_inflected) and emoji_key in foreign_grammar.conjugation_lookups['infinitive']:
+                        english_text    = native_formatting.process(english_inflected)
+                        # if 'will' in english_text:
+                        #     breakpoint()
+                        translated_text = foreign_formatting.process(translated_inflected)
+                        emoji_argument  = foreign_grammar.conjugation_lookups['infinitive'][emoji_key]
+                        emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
+                        yield ' '.join([
+                                self.cardFormatting.emoji_focus(emoji_text), 
+                                self.cardFormatting.english_word(english_map(english_text)),
+                                self.cardFormatting.foreign_focus(translated_text),
+                            ])
     def declension(self, 
-            translation, 
+            foreign_grammar, 
             traversal, 
             filter_lookups=[],
             nouns_to_predicates={},
@@ -581,72 +621,113 @@ class CardGeneration:
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
             if (all([test_tags in filter_lookup for filter_lookup in filter_lookups]) and 
-                  test_tags in translation.use_case_to_grammatical_case):
+                  test_tags in foreign_grammar.use_case_to_grammatical_case):
                 noun = test_tags['noun']
                 predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
                 match = self.declension_template_matching.match(predicate, test_tags['motion'], test_tags['role'])
                 if match:
                     tree = self.parsing.parse(match['syntax-tree'])
+                    tag_opcodes = {
+                        # 'implicit':         self.tools.tag({'plicity':   'implicit'}),
+                        'perfect':          self.tools.tag({'verb-form': 'finite', 'aspect': 'perfect'}),
+                        'imperfect':        self.tools.tag({'verb-form': 'finite', 'aspect': 'imperfect'}),
+                        'aorist':           self.tools.tag({'verb-form': 'finite', 'aspect': 'aorist'}),
+                        'infinitive':       self.tools.tag({'verb-form': 'infinitive'}),
+                        'finite':           self.tools.tag({'verb-form': 'finite'}),
+                        'active':           self.tools.tag({'voice': 'active'}),
+                        'passive':          self.tools.tag({'voice': 'passive'}),
+                        'middle':           self.tools.tag({'voice': 'middle'}),
+                        'test-seme':        self.tools.tag({**test_tags, **tag_templates['test']}),
+                        'solitary-seme':    self.tools.tag({**test_tags, **tag_templates['solitary'],   'role':'solitary', 'motion':'associated'}),
+                        'agent-seme':       self.tools.tag({**test_tags, **tag_templates['agent'],      'role':'agent',    'motion':'associated'}),
+                        'theme-seme':       self.tools.tag({**test_tags, **tag_templates['theme'],      'role':'theme',    'motion':'associated'}),
+                        'patient-seme':     self.tools.tag({**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'}),
+                        'possession-seme':  self.tools.tag({**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'}),
+                    }
                     replacement = ListProcessing({
                         'declined': self.tools.replace(['cloze', 'n', noun]),
                         'the':      self.tools.replace(['art', 'the']),
                         'a':        self.tools.replace(['art', 'a']),
                     })
+                    english_voice = ListProcessing({**tag_opcodes,  'v': self.english_substitutions.voice})
+                    english_tense = ListProcessing({**tag_opcodes,  'v': self.english_substitutions.tense})
+                    english_aspect = ListProcessing({**tag_opcodes, 'v': self.english_substitutions.aspect})
                     conversion = ListProcessing({
                         **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                        'test-seme':      self.tools.tag({**test_tags, **tag_templates['test']}),
-                        'solitary-seme':  self.tools.tag({**test_tags, **tag_templates['agent'],      'role':'solitary', 'motion':'associated'}),
-                        'agent-seme':     self.tools.tag({**test_tags, **tag_templates['solitary'],   'role':'agent',    'motion':'associated'}),
-                        'theme-seme':     self.tools.tag({**test_tags, **tag_templates['theme'],      'role':'theme',    'motion':'associated'}),
-                        'patient-seme':   self.tools.tag({**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'}),
-                        'possession-seme':self.tools.tag({**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'}),
+                        'perfect':          self.tools.tag({'aspect': 'perfect'}, remove=True),
+                        'imperfect':        self.tools.tag({'aspect': 'imperfect'}, remove=True),
+                        'aorist':           self.tools.tag({'aspect': 'aorist'}, remove=True),
+                        'infinitive':       self.tools.tag({'verb-form': 'infinitive'}, remove=True),
+                        'finite':           self.tools.tag({'verb-form': 'finite'}, remove=True),
+                        'active':           self.tools.tag({'voice': 'active'}, remove=True),
+                        'passive':          self.tools.tag({'voice': 'passive'}, remove=True),
+                        'middle':           self.tools.tag({'voice': 'middle'}, remove=True),
+                        # 'implicit':         self.tools.tag({'plicity': 'implicit'}, remove=True),
+                        'test-seme':        self.tools.tag({**test_tags, **tag_templates['test']}, remove=True),
+                        'solitary-seme':    self.tools.tag({**test_tags, **tag_templates['solitary'],   'role':'solitary', 'motion':'associated'}, remove=True),
+                        'agent-seme':       self.tools.tag({**test_tags, **tag_templates['agent'],      'role':'agent',    'motion':'associated'}, remove=True),
+                        'theme-seme':       self.tools.tag({**test_tags, **tag_templates['theme'],      'role':'theme',    'motion':'associated'}, remove=True),
+                        'patient-seme':     self.tools.tag({**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'}, remove=True),
+                        'possession-seme':  self.tools.tag({**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'}, remove=True),
                     })
-                    inflection = RuleProcessing({
-                        'clause':          translation.order_clause,
-                        'np':              translation.order_noun_phrase,
-                        'vp':              translation.passthrough,
-                        'v':               translation.conjugate,
-                        'n':               translation.decline,
-                        'art':             translation.decline,
-                        'adj':             translation.decline,
-                        'cloze':           translation.passthrough,
-                        'stock-adposition':translation.stock_adposition,
-                        'stock-modifier':  translation.stock_modifier('translated'),
+                    foreign = RuleProcessing({
+                        'clause':           foreign_grammar.order_clause,
+                        'np':               foreign_grammar.order_noun_phrase,
+                        'vp':               foreign_grammar.passthrough,
+                        'v':                foreign_grammar.conjugate,
+                        'n':                foreign_grammar.decline,
+                        'art':              foreign_grammar.decline,
+                        'adj':              foreign_grammar.decline,
+                        'cloze':            foreign_grammar.passthrough,
+                        'stock-adposition': foreign_grammar.stock_adposition,
+                        'stock-modifier':   foreign_grammar.stock_modifier('foreign'),
                     })
-                    english = RuleProcessing({
-                        'clause':          self.english.order_clause,
-                        'np':              self.english.order_noun_phrase,
-                        'vp':              self.english.passthrough,
-                        'v':               self.english.conjugate,
-                        'n':               self.english.decline,
-                        'art':             self.english.decline,
-                        'adj':             self.english.decline,
-                        'cloze':           self.english.remove,
-                        'stock-adposition':self.english.stock_adposition,
-                        'stock-modifier':  translation.stock_modifier('english'),
+                    native = RuleProcessing({
+                        'clause':           self.native_grammar.order_clause,
+                        'np':               self.native_grammar.order_noun_phrase,
+                        'vp':               self.native_grammar.passthrough,
+                        'v':                self.native_grammar.conjugate,
+                        'n':                self.native_grammar.decline,
+                        'art':              self.native_grammar.decline,
+                        'adj':              self.native_grammar.decline,
+                        'cloze':            self.native_grammar.passthrough,
+                        'stock-adposition': self.native_grammar.stock_adposition,
+                        'stock-modifier':   foreign_grammar.stock_modifier('native'),
                     })
-                    formatting = RuleProcessing({
+                    native_formatting = RuleProcessing({
+                        'clause':  self.formatting.default,
+                        'np':      self.formatting.default,
+                        'vp':      self.formatting.default,
+                        'cloze':   self.formatting.default,
+                        'implicit':self.formatting.implicit,
+                    })
+                    foreign_formatting = RuleProcessing({
                         'clause':  self.formatting.default,
                         'np':      self.formatting.default,
                         'vp':      self.formatting.default,
                         'cloze':   self.formatting.cloze,
+                        'implicit':self.formatting.implicit,
                     })
                     validation = RuleProcessing({
                         **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
                     })
                     replaced = replacement.process(tree)
-                    converted = conversion.process(replaced)
-                    translated_inflected = inflection.process(converted)
-                    english_inflected = english.process(converted)
-                    translated_text = formatting.process(translated_inflected)
-                    english_text    = formatting.process(english_inflected)
+                    english_replaced = (
+                        english_voice.process(
+                            english_aspect.process(
+                                english_tense.process(
+                                    replaced))))
+                    translated_inflected = foreign.process(conversion.process(replaced))
+                    english_inflected = native.process(conversion.process(english_replaced))
+                    translated_text = foreign_formatting.process(translated_inflected)
+                    english_text    = native_formatting.process(english_inflected)
                     # if 'possession' in match['syntax-tree']:
                     # if test_tags[''] =='personal':
                     #     breakpoint()
-                    case = translation.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
+                    case = foreign_grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {**test_tags, **tag_templates['test'], **tag_templates['emoji'], 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
-                        match['emoji'], translation.declension_lookups[emoji_key][emoji_key], persons)
+                        match['emoji'], foreign_grammar.declension_lookups[emoji_key][emoji_key], persons)
                     if 'None' in translated_text:
                         breakpoint()
                     yield ' '.join([
@@ -655,7 +736,7 @@ class CardGeneration:
                             self.cardFormatting.foreign_focus(translated_text),
                         ])
 
-english = Translation(
+native_grammar = RuleGrammar(
     conjugation_population.index(
         finite_annotation.annotate(
             tsv_parsing.rows('data/inflection/english/modern/conjugations.tsv'), 4, 2)),
@@ -668,9 +749,6 @@ english = Translation(
     case_population.index(
         case_annotation.annotate(
             tsv_parsing.rows('data/inflection/english/modern/declension-use-case-to-grammatical-case.tsv'))),
-    # predicate_population.index(
-    #     predicate_annotation.annotate(
-    #         tsv_parsing.rows('data/inflection/english/modern/auxillary-verb-templates.tsv'), 1, 4)),
     # mood_population.index(
     #     mood_annotation.annotate(
     #         tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'), 1, 1)),
@@ -679,7 +757,9 @@ english = Translation(
 )
 
 card_generation = CardGeneration(
-    english, emoji, CardFormatting(),
+    native_grammar, 
+    EnglishListSubstitution(),
+    emoji, CardFormatting(),
     DeclensionTemplateMatching(declension_templates, allthat),
     ListParsing(),
     ListTools(),
@@ -687,7 +767,7 @@ card_generation = CardGeneration(
     RuleFormatting()
 )
 
-latin = Translation(
+latin = RuleGrammar(
     conjugation_population.index([
         *finite_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/classical/finite-conjugations.tsv'), 3, 4),
@@ -711,7 +791,7 @@ latin = Translation(
         case_annotation.annotate(
             tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv'))),
     sentence_structure = 'subject modifiers indirect-object direct-object verb'.split(),
-    tags = {'language-type':'translated'},
+    tags = {'language-type':'foreign'},
 )
 
 write('flashcards/verb-conjugation/latin.html', 
@@ -753,6 +833,7 @@ write('flashcards/verb-conjugation/latin.html',
             'animacy':    'sapient',
             'noun-form':  'personal',
             'script':     'latin',
+            'verb-form':  'finite',
         },
         persons = [
             EmojiPerson('s','n',3),
@@ -769,7 +850,7 @@ write('flashcards/noun-declension/latin.html',
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
             # categories that are constant since they are not relevant to common noun declension
-            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
+            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         tagspace = {
@@ -791,6 +872,7 @@ write('flashcards/noun-declension/latin.html',
             'mood':       'indicative',
             'noun-form':  'common',
             'script':     'latin',
+            'verb-form':  'finite',
         },
         nouns_to_predicates = {
             'animal':'cow',
@@ -821,7 +903,7 @@ write('flashcards/pronoun-declension/latin.html',
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',
             # categories that are constant since they do not affect pronouns in the language
-            'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 
+            'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         tagspace = {
@@ -842,6 +924,7 @@ write('flashcards/pronoun-declension/latin.html',
             'mood':       'indicative',
             'noun-form':  'personal',
             'script':     'latin',
+            'verb-form':  'finite',
         },
         filter_lookups = [
             DictLookup(

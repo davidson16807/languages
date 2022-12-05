@@ -1,10 +1,10 @@
-motion	attribute	latin case name	preposition
+motion	attribute	english case name	preposition
 associated	solitary	nominative	
 associated	agent	nominative	
 associated	audience	nominative	
-associated	possessor	oblique	
 associated	patient	oblique	
 associated	theme	oblique	
+associated	possessor	oblique	of
 departed	location	oblique	away from
 associated	location	oblique	by
 acquired	location	oblique	to
