@@ -512,40 +512,31 @@ class CardGeneration:
             modifier_tags = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
             if all([test_tags in filter_lookup for filter_lookup in filter_lookups]):
                     tree = self.parsing.parse('clause [test-seme [np the n man] [vp cloze v conjugated]] [modifier-seme np stock-modifier conjugated]')
-                    tag_opcodes = {
-                        'perfect':          self.tools.tag({'aspect': 'perfect'}),
-                        'imperfect':        self.tools.tag({'aspect': 'imperfect'}),
-                        'aorist':           self.tools.tag({'aspect': 'aorist'}),
-                        'infinitive':       self.tools.tag({'verb-form': 'infinitive'}),
-                        'finite':           self.tools.tag({'verb-form': 'finite'}),
-                        'active':           self.tools.tag({'voice': 'active'}),
-                        'passive':          self.tools.tag({'voice': 'passive'}),
-                        'middle':           self.tools.tag({'voice': 'middle'}),
-                        # 'implicit':         self.tools.tag({'plicity': 'implicit'}),
-                        'test-seme':        self.tools.tag(test_tags),
-                        'modifier-seme':    self.tools.tag(modifier_tags),
-                    }
                     replacement = ListProcessing({
                         'conjugated': self.tools.replace(test_tags['verb']),
                         'the':        self.tools.replace(['art', 'the']),
                         'a':          self.tools.replace(['art', 'a']),
                     })
-                    english_voice = ListProcessing({**tag_opcodes,  'v': self.english_substitutions.voice})
-                    english_tense = ListProcessing({**tag_opcodes,  'v': self.english_substitutions.tense})
-                    english_aspect = ListProcessing({**tag_opcodes, 'v': self.english_substitutions.aspect})
+                    tag_opcodes = {
+                        'perfect':          {'aspect': 'perfect'},
+                        'imperfect':        {'aspect': 'imperfect'},
+                        'aorist':           {'aspect': 'aorist'},
+                        'infinitive':       {'verb-form': 'infinitive'},
+                        'finite':           {'verb-form': 'finite'},
+                        'active':           {'voice': 'active'},
+                        'passive':          {'voice': 'passive'},
+                        'middle':           {'voice': 'middle'},
+                        'test-seme':        test_tags,
+                        'modifier-seme':    modifier_tags,
+                    }
+                    tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
+                    tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
+                    english_voice  = ListProcessing({**tag_insertion, 'v': self.english_substitutions.voice})
+                    english_tense  = ListProcessing({**tag_insertion, 'v': self.english_substitutions.tense})
+                    english_aspect = ListProcessing({**tag_insertion, 'v': self.english_substitutions.aspect})
                     conversion = ListProcessing({
+                        **tag_removal,
                         **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                        'perfect':          self.tools.tag({'aspect': 'perfect'}, remove=True),
-                        'imperfect':        self.tools.tag({'aspect': 'imperfect'}, remove=True),
-                        'aorist':           self.tools.tag({'aspect': 'aorist'}, remove=True),
-                        'infinitive':       self.tools.tag({'verb-form': 'infinitive'}, remove=True),
-                        'finite':           self.tools.tag({'verb-form': 'finite'}, remove=True),
-                        'active':           self.tools.tag({'voice': 'active'}, remove=True),
-                        'passive':          self.tools.tag({'voice': 'passive'}, remove=True),
-                        'middle':           self.tools.tag({'voice': 'middle'}, remove=True),
-                        # 'implicit':         self.tools.tag({'plicity': 'implicit'}, remove=True),
-                        'test-seme':        self.tools.tag(test_tags, remove=True),
-                        'modifier-seme':    self.tools.tag(modifier_tags, remove=True),
                     })
                     foreign = RuleProcessing({
                         'clause':           foreign_grammar.order_clause,
@@ -595,12 +586,10 @@ class CardGeneration:
                                 english_tense.process(
                                     replaced))))
                     translated_inflected = foreign.process(conversion.process(replaced))
-                    english_inflected = native.process(conversion.process(english_replaced))
+                    english_inflected    = native.process(conversion.process(english_replaced))
                     emoji_key  = {**test_tags, 'script':'emoji'}
                     if validation.process(translated_inflected) and emoji_key in foreign_grammar.conjugation_lookups['infinitive']:
                         english_text    = native_formatting.process(english_inflected)
-                        # if 'will' in english_text:
-                        #     breakpoint()
                         translated_text = foreign_formatting.process(translated_inflected)
                         emoji_argument  = foreign_grammar.conjugation_lookups['infinitive'][emoji_key]
                         emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
@@ -627,48 +616,35 @@ class CardGeneration:
                 match = self.declension_template_matching.match(predicate, test_tags['motion'], test_tags['role'])
                 if match:
                     tree = self.parsing.parse(match['syntax-tree'])
-                    tag_opcodes = {
-                        # 'implicit':         self.tools.tag({'plicity':   'implicit'}),
-                        'perfect':          self.tools.tag({'verb-form': 'finite', 'aspect': 'perfect'}),
-                        'imperfect':        self.tools.tag({'verb-form': 'finite', 'aspect': 'imperfect'}),
-                        'aorist':           self.tools.tag({'verb-form': 'finite', 'aspect': 'aorist'}),
-                        'infinitive':       self.tools.tag({'verb-form': 'infinitive'}),
-                        'finite':           self.tools.tag({'verb-form': 'finite'}),
-                        'active':           self.tools.tag({'voice': 'active'}),
-                        'passive':          self.tools.tag({'voice': 'passive'}),
-                        'middle':           self.tools.tag({'voice': 'middle'}),
-                        'test-seme':        self.tools.tag({**test_tags, **tag_templates['test']}),
-                        'solitary-seme':    self.tools.tag({**test_tags, **tag_templates['solitary'],   'role':'solitary', 'motion':'associated'}),
-                        'agent-seme':       self.tools.tag({**test_tags, **tag_templates['agent'],      'role':'agent',    'motion':'associated'}),
-                        'theme-seme':       self.tools.tag({**test_tags, **tag_templates['theme'],      'role':'theme',    'motion':'associated'}),
-                        'patient-seme':     self.tools.tag({**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'}),
-                        'possession-seme':  self.tools.tag({**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'}),
-                    }
                     replacement = ListProcessing({
                         'declined': self.tools.replace(['cloze', 'n', noun]),
                         'the':      self.tools.replace(['art', 'the']),
                         'a':        self.tools.replace(['art', 'a']),
                     })
-                    english_voice = ListProcessing({**tag_opcodes,  'v': self.english_substitutions.voice})
-                    english_tense = ListProcessing({**tag_opcodes,  'v': self.english_substitutions.tense})
-                    english_aspect = ListProcessing({**tag_opcodes, 'v': self.english_substitutions.aspect})
+                    tag_opcodes = {
+                        'perfect':          {'verb-form': 'finite', 'aspect': 'perfect'},
+                        'imperfect':        {'verb-form': 'finite', 'aspect': 'imperfect'},
+                        'aorist':           {'verb-form': 'finite', 'aspect': 'aorist'},
+                        'infinitive':       {'verb-form': 'infinitive'},
+                        'finite':           {'verb-form': 'finite'},
+                        'active':           {'voice': 'active'},
+                        'passive':          {'voice': 'passive'},
+                        'middle':           {'voice': 'middle'},
+                        'test-seme':        {**test_tags, **tag_templates['test']},
+                        'solitary-seme':    {**test_tags, **tag_templates['solitary'],   'role':'solitary', 'motion':'associated'},
+                        'agent-seme':       {**test_tags, **tag_templates['agent'],      'role':'agent',    'motion':'associated'},
+                        'theme-seme':       {**test_tags, **tag_templates['theme'],      'role':'theme',    'motion':'associated'},
+                        'patient-seme':     {**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'},
+                        'possession-seme':  {**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'},
+                    }
+                    tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
+                    tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
+                    english_voice  = ListProcessing({**tag_insertion,  'v': self.english_substitutions.voice})
+                    english_tense  = ListProcessing({**tag_insertion,  'v': self.english_substitutions.tense})
+                    english_aspect = ListProcessing({**tag_insertion, 'v': self.english_substitutions.aspect})
                     conversion = ListProcessing({
+                        **tag_removal,
                         **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-                        'perfect':          self.tools.tag({'aspect': 'perfect'}, remove=True),
-                        'imperfect':        self.tools.tag({'aspect': 'imperfect'}, remove=True),
-                        'aorist':           self.tools.tag({'aspect': 'aorist'}, remove=True),
-                        'infinitive':       self.tools.tag({'verb-form': 'infinitive'}, remove=True),
-                        'finite':           self.tools.tag({'verb-form': 'finite'}, remove=True),
-                        'active':           self.tools.tag({'voice': 'active'}, remove=True),
-                        'passive':          self.tools.tag({'voice': 'passive'}, remove=True),
-                        'middle':           self.tools.tag({'voice': 'middle'}, remove=True),
-                        # 'implicit':         self.tools.tag({'plicity': 'implicit'}, remove=True),
-                        'test-seme':        self.tools.tag({**test_tags, **tag_templates['test']}, remove=True),
-                        'solitary-seme':    self.tools.tag({**test_tags, **tag_templates['solitary'],   'role':'solitary', 'motion':'associated'}, remove=True),
-                        'agent-seme':       self.tools.tag({**test_tags, **tag_templates['agent'],      'role':'agent',    'motion':'associated'}, remove=True),
-                        'theme-seme':       self.tools.tag({**test_tags, **tag_templates['theme'],      'role':'theme',    'motion':'associated'}, remove=True),
-                        'patient-seme':     self.tools.tag({**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'}, remove=True),
-                        'possession-seme':  self.tools.tag({**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'}, remove=True),
                     })
                     foreign = RuleProcessing({
                         'clause':           foreign_grammar.order_clause,
@@ -721,15 +697,10 @@ class CardGeneration:
                     english_inflected = native.process(conversion.process(english_replaced))
                     translated_text = foreign_formatting.process(translated_inflected)
                     english_text    = native_formatting.process(english_inflected)
-                    # if 'possession' in match['syntax-tree']:
-                    # if test_tags[''] =='personal':
-                    #     breakpoint()
                     case = foreign_grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {**test_tags, **tag_templates['test'], **tag_templates['emoji'], 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 
                         match['emoji'], foreign_grammar.declension_lookups[emoji_key][emoji_key], persons)
-                    if 'None' in translated_text:
-                        breakpoint()
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.english_word(english_map(english_text)),
