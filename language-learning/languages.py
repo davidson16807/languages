@@ -89,7 +89,7 @@ class ListGrammar:
             else self.conjugation_lookups[_tags][_tags]]
     def stock_modifier(self, language_type):
         def _stock_modifier(processing, content, tags):
-            processed = processing.process(content[1:])
+            processed = processing.map(content[1:])
             _tags = {**tags, **self.tags, 'verb':processed[0], 'language-type': language_type}
             return [content[0], 
                 None if _tags not in self.conjugation_lookups['argument']
@@ -101,9 +101,9 @@ class ListGrammar:
             None if _tags not in self.use_case_to_grammatical_case
             else self.use_case_to_grammatical_case[_tags]['adposition']]
     def passthrough(self, processing, content, tags):
-        return [content[0], *processing.process(content[1:])]
+        return [content[0], *processing.map(content[1:])]
     def remove(self, processing, content, tags):
-        return processing.process(content[1:])
+        return processing.map(content[1:])
 
 class RuleSyntax:
     """
@@ -132,7 +132,7 @@ class RuleSyntax:
         }
         return Rule(clause.tag, 
             clause.tags,
-            processing.process([
+            processing.map([
                 phrase
                 for phrase_type in self.sentence_structure
                 for phrase in phrase_lookup[phrase_type]
@@ -141,15 +141,15 @@ class RuleSyntax:
         # rules = [element for element in phrase.content if isinstance(element, Rule)]
         return Rule(phrase.tag, 
             phrase.tags,
-            processing.process([
+            processing.map([
                 content for content in phrase.content 
                 if content.tag not in {'art'} or 
                     ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
             ]))
     def passthrough(self, processing, rule):
-        return Rule(rule.tag, rule.tags, processing.process(rule.content))
+        return Rule(rule.tag, rule.tags, processing.map(rule.content))
     def remove(self, processing, rule):
-        return processing.process(rule.content)
+        return processing.map(rule.content)
 
 class RuleFormatting:
     """
@@ -159,11 +159,11 @@ class RuleFormatting:
     def __init__(self):
         pass
     def default(self, processing, rule):
-        return (' '.join([str(processing.process(element)) for element in rule.content]) if isinstance(rule, Rule) else rule)
+        return (' '.join([str(processing.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule)
     def cloze(self, processing, rule):
-        return '{{c'+str(1)+'::'+' '.join(str(processing.process(element)) for element in rule.content)+'}}'
+        return '{{c'+str(1)+'::'+' '.join(str(processing.map(element)) for element in rule.content)+'}}'
     def implicit(self, processing, rule):
-        return '['+str(' '.join([str(processing.process(element)) for element in rule.content]))+']'
+        return '['+str(' '.join([str(processing.map(element)) for element in rule.content]))+']'
 
 class RuleValidation:
     """
@@ -173,7 +173,7 @@ class RuleValidation:
     def __init__(self):
         pass
     def exists(self, processing, rule):
-        return all([processing.process(subrule) if isinstance(subrule, Rule) else subrule is not None
+        return all([processing.map(subrule) if isinstance(subrule, Rule) else subrule is not None
                     for subrule in rule.content])
 
 class ListProcessing:
@@ -185,16 +185,16 @@ class ListProcessing:
     """
     def __init__(self, operations={}):
         self.operations = operations
-    def process(self, tree, context={}):
+    def map(self, tree, context={}):
         def wrap(x): 
             return x if isinstance(x, list) else [x]
         if len(tree) < 1: return tree
         opcode = tree[0]
         operands = tree[1:]
-        return ([self.process(opcode, context), 
-                *wrap(self.process(operands, context))] if isinstance(opcode, list)
+        return ([self.map(opcode, context), 
+                *wrap(self.map(operands, context))] if isinstance(opcode, list)
             else self.operations[opcode](self, tree, context) if opcode in self.operations
-            else [opcode, *wrap(self.process(operands, context))])
+            else [opcode, *wrap(self.map(operands, context))])
 
 class ListTools:
     def __init__(self):
@@ -203,24 +203,24 @@ class ListTools:
         def flatten(x): 
             return [xij for xi in x for xij in flatten(xi)] if isinstance(x, list) else [x]
         def _process(machine, tree, memory):
-            return Rule(tree[0], memory, flatten(machine.process(tree[1:], memory)))
+            return Rule(tree[0], memory, flatten(machine.map(tree[1:], memory)))
         return _process
     def replace(self, replacement):
         def _process(machine, tree, memory):
-            return [replacement, *machine.process(tree[1:], memory)]
+            return [replacement, *machine.map(tree[1:], memory)]
         return _process
     def remove(self):
         def _process(machine, tree, memory):
-            return machine.process(tree[1:], memory)
+            return machine.map(tree[1:], memory)
         return _process
     def tag(self, modifications, remove=False):
         def _process(machine, tree, memory):
-            arguments = machine.process(tree[1:], {**memory, **modifications})
+            arguments = machine.map(tree[1:], {**memory, **modifications})
             return arguments if remove else [tree[0], *arguments]
         return _process
     def passthrough(self):
         def _process(machine, tree, memory):
-            return [tree[0], machine.process(tree[1:], memory)]
+            return [tree[0], machine.map(tree[1:], memory)]
         return _process
 
 class EnglishListSubstitution:
@@ -267,8 +267,8 @@ class RuleProcessing:
     """
     def __init__(self, operations={}):
         self.operations = operations
-    def process(self, rule):
-        return ([self.process(subrule) for subrule in rule] if isinstance(rule, list)
+    def map(self, rule):
+        return ([self.map(subrule) for subrule in rule] if isinstance(rule, list)
             else rule if not isinstance(rule, Rule)
             else self.operations[rule.tag](self, rule) if rule.tag in self.operations
-            else Rule(rule.tag, rule.tags, self.process(rule.content)))
+            else Rule(rule.tag, rule.tags, self.map(rule.content)))

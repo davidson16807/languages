@@ -499,7 +499,7 @@ class Language:
         self.tools = tools
         self.validation = validation
         self.formatting = formatting
-    def process(self, syntax_tree, custom_substitution={}, semes={}):
+    def map(self, syntax_tree, custom_substitution={}, semes={}):
         default_substitution = {
             'the':        self.tools.replace(['art', 'the']),
             'a':          self.tools.replace(['art', 'a']),
@@ -550,8 +550,8 @@ class Language:
         for i, step in enumerate(pipeline):
             # print(i)
             # print(tree)
-            tree = step.process(tree)
-        return formatting.process(tree) if not validation or validation.process(tree) else None
+            tree = step.map(tree)
+        return formatting.map(tree) if not validation or validation.map(tree) else None
 
 latin = Language(
     ListGrammar(
@@ -645,14 +645,14 @@ class CardGeneration:
                     'test-seme':      test_tags,
                     'modifier-seme':  modifier_tags,
                 }
-                translated_text = foreign.process(tree,
+                translated_text = foreign.map(tree,
                     semes = semes,
                     custom_substitution = {
                         'stock-modifier': foreign.grammar.stock_modifier('foreign'),
                         'conjugated':     self.tools.replace(test_tags['verb']),
                     },
                 )
-                english_text = self.english.process(tree,
+                english_text = self.english.map(tree,
                     semes = semes,
                     custom_substitution = {
                         'stock-modifier': foreign.grammar.stock_modifier('native'),
@@ -695,13 +695,13 @@ class CardGeneration:
                         'patient-seme':     {**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'},
                         'possession-seme':  {**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'},
                     }
-                    translated_text = foreign.process(tree,
+                    translated_text = foreign.map(tree,
                         semes = semes,
                         custom_substitution = {
                             'declined':       self.tools.replace(['cloze', 'n', noun]),
                         },
                     )
-                    english_text = self.english.process(tree,
+                    english_text = self.english.map(tree,
                         semes = semes,
                         custom_substitution = {
                             'declined':       self.tools.replace(['n', noun]),
