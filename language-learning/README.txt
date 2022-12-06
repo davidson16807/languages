@@ -153,7 +153,7 @@ Whenever a Spanish morpheme indicates that something is singular or plural,
 it can never represent that something is simultaneously singular *and* plural,
 that is to say, singular and plural are "mutually exclusive" concepts.
 We typically say in this way that singular and plural are tags within the "grammatical category" of number 
-(which unfortunately conflicts with an existing concept, the mathematical category).
+(the name of which unfortunately conflicts with an existing concept, the mathematical category).
 However in another way of thinking, we can say that number is an "axis" within a parameter space that defines a subset of all semes.
 For the sake of brevity, we will therefore address this concept of grammatical category in code as a "tagaxis". 
 Tagaxes are disjoint sets of tags that define a parameter space of morphemes,

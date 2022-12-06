@@ -1,7 +1,7 @@
 import re
 
 from shorthands import EmojiPerson
-from trees import ListTrees, RuleTrees
+from treemaps import ListTreeMap, RuleTreeMap
 
 class Emoji:
     def __init__(self, 
@@ -85,10 +85,10 @@ class Language:
         tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
         tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
         pipeline = [
-            ListTrees({**tag_insertion, **default_substitution}),
-            ListTrees({**tag_insertion, **custom_substitution}),
-            *[ListTrees({**tag_insertion, **substitution}) for substitution in self.substitutions],
-            ListTrees({
+            ListTreeMap({**tag_insertion, **default_substitution}),
+            ListTreeMap({**tag_insertion, **custom_substitution}),
+            *[ListTreeMap({**tag_insertion, **substitution}) for substitution in self.substitutions],
+            ListTreeMap({
                 **tag_insertion, 
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
@@ -96,19 +96,19 @@ class Language:
                 'adj':              self.grammar.decline,
                 'stock-adposition': self.grammar.stock_adposition,
             }),
-            ListTrees({
+            ListTreeMap({
                 **tag_removal,
                 **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
             }),
-            RuleTrees({
+            RuleTreeMap({
                 'clause':  self.syntax.order_clause,
                 'np':      self.syntax.order_noun_phrase,
             }),
         ]
-        validation = RuleTrees({
+        validation = RuleTreeMap({
             **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
         }) if self.validation else None
-        formatting = RuleTrees({
+        formatting = RuleTreeMap({
             **{tag:self.formatting.default for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
             'cloze':   self.formatting.cloze,
             'implicit':self.formatting.implicit,

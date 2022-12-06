@@ -1,3 +1,5 @@
+from nodes import Rule
+
 """
 "trees.py" contains functionality used to manipulate abstract syntax trees.
 
@@ -11,7 +13,7 @@ RuleTrees condense ListTrees down to a form where it is easy to rearrange
   grammatical elements based on tagaxes such as semantic role.
 """
 
-class ListTrees:
+class ListTreeMap:
     """
     `ListTrees` captures the transformation of tree like structures that are made out of lists.
     Its functionality is roughly comparable to that of the Lisp programming language.
@@ -31,19 +33,7 @@ class ListTrees:
             else self.operations[opcode](self, tree, context) if opcode in self.operations
             else [opcode, *wrap(self.map(operands, context))])
 
-class Rule:
-    def __init__(self, tag, tags, content):
-        self.tag = tag
-        self.tags = tags
-        self.content = content
-    def __getitem__(self, key):
-        return self.content[key]
-    def __str__(self):
-        return '' + self.tag + '{'+' '.join([str(member) for member in self.content])+'}'
-    def __repr__(self):
-        return '' + self.tag + '{'+' '.join([repr(member) for member in self.content])+'}'
-
-class RuleTrees:
+class RuleTreeMap:
     """
     `RuleTrees` performs functionality analogous to ListTrees 
     when transforming nested syntax trees that are made out of `Rule` objects.
