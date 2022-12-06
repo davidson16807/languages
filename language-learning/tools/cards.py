@@ -1,4 +1,19 @@
 
+class DeclensionTemplateMatching:
+    def __init__(self, templates, predicates):
+        self.templates = templates
+        self.predicates = predicates
+    def match(self, noun, motion, role):
+        def subject(template):
+            return self.predicates[template['subject-function'], template['subject-argument']]
+        def declined_noun(template):
+            return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
+        candidates = self.templates[motion, role] if (motion, role) in self.templates else []
+        templates = sorted([template for template in candidates
+                            if self.predicates['be', noun] in declined_noun(template)],
+                      key=lambda template: (-int(template['specificity']), len(declined_noun(template))))
+        return templates[0] if len(templates) > 0 else None
+
 class CardFormatting:
     def __init__(self):
         pass

@@ -2,25 +2,23 @@
 
 import collections
 
-import plurality
+from tools.transforms import *
+from tools.shorthands import *
 
-from transforms import *
-from shorthands import *
-
-from parsing import SeparatedValuesFileParsing
-from annotation import RowAnnotation, CellAnnotation
-from predicates import Predicate
-from lookup import DefaultDictLookup, DictLookup
-from indexing import DictTupleIndexing, DictKeyIndexing
-from evaluation import KeyEvaluation, MultiKeyEvaluation
-from population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
-from nodemaps import (
+from tools.parsing import SeparatedValuesFileParsing
+from tools.annotation import RowAnnotation, CellAnnotation
+from tools.predicates import Predicate
+from tools.lookup import DefaultDictLookup, DictLookup
+from tools.indexing import DictTupleIndexing, DictKeyIndexing
+from tools.evaluation import KeyEvaluation, MultiKeyEvaluation
+from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
+from tools.nodemaps import (
     ListTools, ListGrammar,
     RuleValidation, RuleFormatting, RuleSyntax,
     EnglishListSubstitution
 )
-from languages import Emoji, Language
-from cards import CardFormatting, CardGeneration
+from tools.languages import Emoji, Language
+from tools.cards import CardFormatting, CardGeneration
 
 tagaxis_to_tags = {
 

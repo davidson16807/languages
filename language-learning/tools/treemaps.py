@@ -1,4 +1,4 @@
-from nodes import Rule
+from .nodes import Rule
 
 """
 "trees.py" contains functionality used to manipulate abstract syntax trees.

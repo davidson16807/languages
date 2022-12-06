@@ -1,7 +1,7 @@
 import re
 
-from shorthands import EmojiPerson
-from treemaps import ListTreeMap, RuleTreeMap
+from .shorthands import EmojiPerson
+from .treemaps import ListTreeMap, RuleTreeMap
 
 class Emoji:
     def __init__(self, 
