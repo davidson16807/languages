@@ -1,6 +1,7 @@
 import re
 
 from shorthands import EmojiPerson
+from trees import ListTrees, RuleTrees
 
 class Emoji:
     def __init__(self, 
@@ -50,225 +51,71 @@ class Emoji:
             persons)
         return scene
 
-class ListGrammar:
-    """
-    `ListGrammar` is a library of functions that can be used in conjunction with `ListProcessing` 
-    to perform operations on a syntax tree of lists that encapsulate the grammar of a natural language.
-    Examples include word translation, verb conjugation, noun and adjective declension, 
-    and the structuring of clauses and noun phrases.
-    """
+
+class Language:
     def __init__(self, 
-            conjugation_lookups, 
-            declension_lookups, 
-            use_case_to_grammatical_case,
-            tags):
-        self.conjugation_lookups = conjugation_lookups
-        self.declension_lookups = declension_lookups
-        self.use_case_to_grammatical_case = use_case_to_grammatical_case
-        self.tags = tags
-    def decline(self, processing, content, tags):
-        # NOTE: if content is a None type, then rely solely on the tag
-        #  This logic provides a natural way to encode for pronouns
-        missing_value = '' if content[0] in {'art'} else None
-        if tags not in self.use_case_to_grammatical_case:
-            return missing_value
-        sememe = {
-            **tags, 
-            **self.tags, 
-            'case':self.use_case_to_grammatical_case[tags]['case'], 
-            'noun':content[1]
+            grammar,
+            syntax,
+            tools,
+            formatting,
+            validation,
+            substitutions=[]):
+        self.substitutions = substitutions
+        self.grammar = grammar
+        self.syntax = syntax
+        self.tools = tools
+        self.validation = validation
+        self.formatting = formatting
+    def map(self, syntax_tree, custom_substitution={}, semes={}):
+        default_substitution = {
+            'the':        self.tools.replace(['art', 'the']),
+            'a':          self.tools.replace(['art', 'a']),
         }
-        return [content[0], 
-            missing_value if sememe not in self.declension_lookups
-            else missing_value if sememe not in self.declension_lookups[sememe]
-            else self.declension_lookups[sememe][sememe]]
-    def conjugate(self, processing, content, tags):
-        _tags = {**tags, **self.tags, 'verb':content[1]}
-        return [content[0], 
-            None if _tags not in self.conjugation_lookups[_tags]
-            else self.conjugation_lookups[_tags][_tags]]
-    def stock_modifier(self, language_type):
-        def _stock_modifier(processing, content, tags):
-            processed = processing.map(content[1:])
-            _tags = {**tags, **self.tags, 'verb':processed[0], 'language-type': language_type}
-            return [content[0], 
-                None if _tags not in self.conjugation_lookups['argument']
-                else self.conjugation_lookups['argument'][_tags]]
-        return _stock_modifier
-    def stock_adposition(self, processing, content, tags):
-        _tags = {**tags, **self.tags}
-        return [content[0], 
-            None if _tags not in self.use_case_to_grammatical_case
-            else self.use_case_to_grammatical_case[_tags]['adposition']]
-    def passthrough(self, processing, content, tags):
-        return [content[0], *processing.map(content[1:])]
-    def remove(self, processing, content, tags):
-        return processing.map(content[1:])
-
-class RuleSyntax:
-    """
-    `RuleGrammar` is a library of functions that can be used in conjunction with `RuleProcessing` 
-    to perform operations on a syntax tree of rules that encapsulate the grammar of a natural language.
-    Examples include word translation, verb conjugation, noun and adjective declension, 
-    and the structuring of clauses and noun phrases.
-    """
-    def __init__(self, sentence_structure):
-        self.sentence_structure = sentence_structure
-    def order_clause(self, processing, clause):
-        rules = clause.content
-        # rules = [element for element in clause.content if isinstance(element, Rule)]
-        verbs = [phrase for phrase in rules if phrase.tag in {'vp'}]
-        nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
-        subject_roles = {'solitary','agent'}
-        direct_object_roles = {'theme','patient'}
-        indirect_object_roles = {'indirect-object'}
-        nonmodifier_roles = {*subject_roles, *direct_object_roles, *indirect_object_roles}
-        phrase_lookup = {
-            'verb':            verbs,
-            'subject':         [noun for noun in nouns if noun.tags['role'] in subject_roles],
-            'direct-object':   [noun for noun in nouns if noun.tags['role'] in direct_object_roles],
-            'indirect-object': [noun for noun in nouns if noun.tags['role'] in indirect_object_roles],
-            'modifiers':       [noun for noun in nouns if noun.tags['role'] not in nonmodifier_roles],
+        tag_opcodes = {
+            'perfect':    {'aspect': 'perfect'},
+            'imperfect':  {'aspect': 'imperfect'},
+            'aorist':     {'aspect': 'aorist'},
+            'infinitive': {'verb-form': 'infinitive'},
+            'finite':     {'verb-form': 'finite'},
+            'active':     {'voice': 'active'},
+            'passive':    {'voice': 'passive'},
+            'middle':     {'voice': 'middle'},
+            **semes
         }
-        return Rule(clause.tag, 
-            clause.tags,
-            processing.map([
-                phrase
-                for phrase_type in self.sentence_structure
-                for phrase in phrase_lookup[phrase_type]
-            ]))
-    def order_noun_phrase(self, processing, phrase):
-        # rules = [element for element in phrase.content if isinstance(element, Rule)]
-        return Rule(phrase.tag, 
-            phrase.tags,
-            processing.map([
-                content for content in phrase.content 
-                if content.tag not in {'art'} or 
-                    ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
-            ]))
-    def passthrough(self, processing, rule):
-        return Rule(rule.tag, rule.tags, processing.map(rule.content))
-    def remove(self, processing, rule):
-        return processing.map(rule.content)
-
-class RuleFormatting:
-    """
-    `RuleFormatting` is a library of functions that can be used in conjunction with `RuleProcessing` 
-    to cast a syntax tree to a string of natural language.
-    """
-    def __init__(self):
-        pass
-    def default(self, processing, rule):
-        return (' '.join([str(processing.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule)
-    def cloze(self, processing, rule):
-        return '{{c'+str(1)+'::'+' '.join(str(processing.map(element)) for element in rule.content)+'}}'
-    def implicit(self, processing, rule):
-        return '['+str(' '.join([str(processing.map(element)) for element in rule.content]))+']'
-
-class RuleValidation:
-    """
-    `RuleFormatting` is a library of functions that can be used in conjunction with `RuleProcessing` 
-    to determine whether a sytax tree can be represented as a string of natural language.
-    """
-    def __init__(self):
-        pass
-    def exists(self, processing, rule):
-        return all([processing.map(subrule) if isinstance(subrule, Rule) else subrule is not None
-                    for subrule in rule.content])
-
-class ListProcessing:
-    """
-    `ListProcessing` captures the transformation of tree like structures that are made out of lists.
-    Its functionality is roughly comparable to that of the Lisp programming language.
-    The content of lists is roughly comparable to that of the phase marker notation used in linguiustics:
-        https://en.wikipedia.org/wiki/Parse_tree#Phrase_markers
-    """
-    def __init__(self, operations={}):
-        self.operations = operations
-    def map(self, tree, context={}):
-        def wrap(x): 
-            return x if isinstance(x, list) else [x]
-        if len(tree) < 1: return tree
-        opcode = tree[0]
-        operands = tree[1:]
-        return ([self.map(opcode, context), 
-                *wrap(self.map(operands, context))] if isinstance(opcode, list)
-            else self.operations[opcode](self, tree, context) if opcode in self.operations
-            else [opcode, *wrap(self.map(operands, context))])
-
-class ListTools:
-    def __init__(self):
-        pass
-    def rule(self):
-        def flatten(x): 
-            return [xij for xi in x for xij in flatten(xi)] if isinstance(x, list) else [x]
-        def _process(machine, tree, memory):
-            return Rule(tree[0], memory, flatten(machine.map(tree[1:], memory)))
-        return _process
-    def replace(self, replacement):
-        def _process(machine, tree, memory):
-            return [replacement, *machine.map(tree[1:], memory)]
-        return _process
-    def remove(self):
-        def _process(machine, tree, memory):
-            return machine.map(tree[1:], memory)
-        return _process
-    def tag(self, modifications, remove=False):
-        def _process(machine, tree, memory):
-            arguments = machine.map(tree[1:], {**memory, **modifications})
-            return arguments if remove else [tree[0], *arguments]
-        return _process
-    def passthrough(self):
-        def _process(machine, tree, memory):
-            return [tree[0], machine.map(tree[1:], memory)]
-        return _process
-
-class EnglishListSubstitution:
-    def __init__(self):
-        pass
-    def tense(self, machine, tree, memory):
-        tense = memory['tense']
-        verbform = memory['verb-form']
-        if (tense, verbform) == ('future', 'finite'):       return ['will',        'infinitive', tree]
-        if (tense, verbform) == ('past',   'infinitive'):   return ['[back then]', tree]
-        if (tense, verbform) == ('present','infinitive'):   return ['[right now]', tree]
-        if (tense, verbform) == ('future', 'infinitive'):   return ['[by then]',   tree]
-        return tree
-    def aspect(self, machine, tree, memory):
-        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
-        aspect = memory['aspect']
-        if aspect == 'imperfect':           return [['aorist', 'v', 'be'],   'finite', tree]
-        if aspect == 'perfect':             return [['aorist', 'v', 'have'], 'finite', tree]
-        if aspect == 'perfect-progressive': return [['aorist', 'v', 'have'], 'finite', ['perfect', 'v', 'be'], ['imperfect', tree]]
-        return tree
-    def voice(self, machine, tree, memory):
-        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
-        voice = memory['voice']
-        if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfect', tree]]
-        if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfect', tree]]
-        return tree
-
-class Rule:
-    def __init__(self, tag, tags, content):
-        self.tag = tag
-        self.tags = tags
-        self.content = content
-    def __getitem__(self, key):
-        return self.content[key]
-    def __str__(self):
-        return '' + self.tag + '{'+' '.join([str(member) for member in self.content])+'}'
-    def __repr__(self):
-        return '' + self.tag + '{'+' '.join([repr(member) for member in self.content])+'}'
-
-class RuleProcessing:
-    """
-    `RuleProcessing` performs functionality analogous to ListProcessing 
-    when transforming nested syntax trees that are made out of `Rule` objects.
-    """
-    def __init__(self, operations={}):
-        self.operations = operations
-    def map(self, rule):
-        return ([self.map(subrule) for subrule in rule] if isinstance(rule, list)
-            else rule if not isinstance(rule, Rule)
-            else self.operations[rule.tag](self, rule) if rule.tag in self.operations
-            else Rule(rule.tag, rule.tags, self.map(rule.content)))
+        tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
+        tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
+        pipeline = [
+            ListTrees({**tag_insertion, **default_substitution}),
+            ListTrees({**tag_insertion, **custom_substitution}),
+            *[ListTrees({**tag_insertion, **substitution}) for substitution in self.substitutions],
+            ListTrees({
+                **tag_insertion, 
+                'v':                self.grammar.conjugate,
+                'n':                self.grammar.decline,
+                'art':              self.grammar.decline,
+                'adj':              self.grammar.decline,
+                'stock-adposition': self.grammar.stock_adposition,
+            }),
+            ListTrees({
+                **tag_removal,
+                **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
+            }),
+            RuleTrees({
+                'clause':  self.syntax.order_clause,
+                'np':      self.syntax.order_noun_phrase,
+            }),
+        ]
+        validation = RuleTrees({
+            **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
+        }) if self.validation else None
+        formatting = RuleTrees({
+            **{tag:self.formatting.default for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
+            'cloze':   self.formatting.cloze,
+            'implicit':self.formatting.implicit,
+        })
+        tree = syntax_tree
+        for i, step in enumerate(pipeline):
+            # print(i)
+            # print(tree)
+            tree = step.map(tree)
+        return formatting.map(tree) if not validation or validation.map(tree) else None

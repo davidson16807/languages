@@ -1,7 +1,6 @@
 # See README.txt and GLOSSARY.txt for notes on terminology
 
 import collections
-from typing import (List, Dict, Callable)
 
 import plurality
 
@@ -15,12 +14,12 @@ from lookup import DefaultDictLookup, DictLookup
 from indexing import DictTupleIndexing, DictKeyIndexing
 from evaluation import KeyEvaluation, MultiKeyEvaluation
 from population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
-from languages import (
-    ListProcessing, ListTools, ListGrammar,
-    RuleProcessing, RuleValidation, RuleFormatting, RuleSyntax,
-    EnglishListSubstitution,
-    Emoji, 
+from nodes import (
+    ListTools, ListGrammar,
+    RuleValidation, RuleFormatting, RuleSyntax,
+    EnglishListSubstitution
 )
+from languages import Emoji, Language
 
 tagaxis_to_tags = {
 
@@ -485,74 +484,6 @@ declension_verb_annotation = CellAnnotation(
     tag_to_tagaxis, {0:'language'}, {0:'verb'}, 
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 
-class Language:
-    def __init__(self, 
-            grammar:ListGrammar, 
-            syntax:RuleSyntax, 
-            tools:ListTools, 
-            formatting:RuleFormatting,
-            validation:RuleValidation,
-            substitutions: List[Dict[str,Callable]] = []):
-        self.substitutions = substitutions
-        self.grammar = grammar
-        self.syntax = syntax
-        self.tools = tools
-        self.validation = validation
-        self.formatting = formatting
-    def map(self, syntax_tree, custom_substitution={}, semes={}):
-        default_substitution = {
-            'the':        self.tools.replace(['art', 'the']),
-            'a':          self.tools.replace(['art', 'a']),
-        }
-        tag_opcodes = {
-            'perfect':    {'aspect': 'perfect'},
-            'imperfect':  {'aspect': 'imperfect'},
-            'aorist':     {'aspect': 'aorist'},
-            'infinitive': {'verb-form': 'infinitive'},
-            'finite':     {'verb-form': 'finite'},
-            'active':     {'voice': 'active'},
-            'passive':    {'voice': 'passive'},
-            'middle':     {'voice': 'middle'},
-            **semes
-        }
-        tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
-        tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
-        pipeline = [
-            ListProcessing({**tag_insertion, **default_substitution}),
-            ListProcessing({**tag_insertion, **custom_substitution}),
-            *[ListProcessing({**tag_insertion, **substitution}) for substitution in self.substitutions],
-            ListProcessing({
-                **tag_insertion, 
-                'v':                self.grammar.conjugate,
-                'n':                self.grammar.decline,
-                'art':              self.grammar.decline,
-                'adj':              self.grammar.decline,
-                'stock-adposition': self.grammar.stock_adposition,
-            }),
-            ListProcessing({
-                **tag_removal,
-                **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-            }),
-            RuleProcessing({
-                'clause':  self.syntax.order_clause,
-                'np':      self.syntax.order_noun_phrase,
-            }),
-        ]
-        validation = RuleProcessing({
-            **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
-        }) if self.validation else None
-        formatting = RuleProcessing({
-            **{tag:self.formatting.default for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
-            'cloze':   self.formatting.cloze,
-            'implicit':self.formatting.implicit,
-        })
-        tree = syntax_tree
-        for i, step in enumerate(pipeline):
-            # print(i)
-            # print(tree)
-            tree = step.map(tree)
-        return formatting.map(tree) if not validation or validation.map(tree) else None
-
 latin = Language(
     ListGrammar(
         conjugation_population.index([
@@ -563,7 +494,7 @@ latin = Language(
             *filter(has_annotation('language','latin'),
                 declension_verb_annotation.annotate(
                     tsv_parsing.rows(
-                        'data/inflection/declension-template-verbs.tsv'), 2, 9)),
+                        'data/inflection/declension-template-verbs-minimal.tsv'), 2, 9)),
         ]),
         declension_population.index([
             *pronoun_annotation.annotate(
@@ -577,11 +508,9 @@ latin = Language(
         case_population.index(
             case_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classical/declension-use-case-to-grammatical-case.tsv'))),
-        tags = {'language-type':'foreign'},
+        {'language-type':'foreign'},
     ),
-    RuleSyntax(
-        sentence_structure = 'subject modifiers indirect-object direct-object verb'.split(),
-    ),
+    RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
     ListTools(),
     RuleFormatting(),
     RuleValidation(),
@@ -602,15 +531,13 @@ english = Language(
         case_population.index(
             case_annotation.annotate(
                 tsv_parsing.rows('data/inflection/english/modern/declension-use-case-to-grammatical-case.tsv'))),
-        tags = {'language-type':'native'},
+        {'language-type':'native'},
     ),
-    RuleSyntax(
-        sentence_structure = 'subject verb direct-object indirect-object modifiers'.split(),
-    ),
+    RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
     ListTools(),
     RuleFormatting(),
     None,
-    substitutions =[
+    substitutions = [
         {'v': EnglishListSubstitution().voice},
         {'v': EnglishListSubstitution().tense},
         {'v': EnglishListSubstitution().aspect},
@@ -774,6 +701,7 @@ write('flashcards/verb-conjugation/latin.html',
             EmojiPerson('s','n',5),
         ],
     ))
+
 write('flashcards/noun-declension/latin.html', 
     card_generation.declension(
         latin, 
