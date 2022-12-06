@@ -50,10 +50,10 @@ class Emoji:
             persons)
         return scene
 
-class RuleGrammar:
+class ListGrammar:
     """
-    `RuleGrammar` is a library of functions that can be used in conjunction with `RuleProcessing` 
-    to perform operations on a syntax tree of rules that encapsulate the grammar of a natural language.
+    `ListGrammar` is a library of functions that can be used in conjunction with `ListProcessing` 
+    to perform operations on a syntax tree of lists that encapsulate the grammar of a natural language.
     Examples include word translation, verb conjugation, noun and adjective declension, 
     and the structuring of clauses and noun phrases.
     """
@@ -61,45 +61,64 @@ class RuleGrammar:
             conjugation_lookups, 
             declension_lookups, 
             use_case_to_grammatical_case,
-            sentence_structure,
             tags):
         self.conjugation_lookups = conjugation_lookups
         self.declension_lookups = declension_lookups
         self.use_case_to_grammatical_case = use_case_to_grammatical_case
-        self.sentence_structure = sentence_structure
         self.tags = tags
-    def decline(self, processing, rule):
+    def decline(self, processing, content, tags):
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
-        missing_value = '' if rule.tag in {'art'} else None
-        if rule.tags not in self.use_case_to_grammatical_case:
+        missing_value = '' if content[0] in {'art'} else None
+        if tags not in self.use_case_to_grammatical_case:
             return missing_value
         sememe = {
-            **rule.tags, 
+            **tags, 
             **self.tags, 
-            'case':self.use_case_to_grammatical_case[rule.tags]['case'], 
-            'noun':rule.content[0]
+            'case':self.use_case_to_grammatical_case[tags]['case'], 
+            'noun':content[1]
         }
-        return (missing_value if sememe not in self.declension_lookups
-                else missing_value if sememe not in self.declension_lookups[sememe]
-                else self.declension_lookups[sememe][sememe])
-    def conjugate(self, processing, rule):
-        tags = {**rule.tags, **self.tags, 'verb':rule.content[0]}
-        return (None if tags not in self.conjugation_lookups[tags]
-                else self.conjugation_lookups[tags][tags])
+        return [content[0], 
+            missing_value if sememe not in self.declension_lookups
+            else missing_value if sememe not in self.declension_lookups[sememe]
+            else self.declension_lookups[sememe][sememe]]
+    def conjugate(self, processing, content, tags):
+        _tags = {**tags, **self.tags, 'verb':content[1]}
+        return [content[0], 
+            None if _tags not in self.conjugation_lookups[_tags]
+            else self.conjugation_lookups[_tags][_tags]]
     def stock_modifier(self, language_type):
-        def _stock_modifier(processing, rule):
-            tags = {**rule.tags, **self.tags, 'verb':rule.content[0], 'language-type': language_type}
-            return (None if tags not in self.conjugation_lookups['argument']
-                    else self.conjugation_lookups['argument'][tags])
+        def _stock_modifier(processing, content, tags):
+            processed = processing.process(content[1:])
+            _tags = {**tags, **self.tags, 'verb':processed[0], 'language-type': language_type}
+            return [content[0], 
+                None if _tags not in self.conjugation_lookups['argument']
+                else self.conjugation_lookups['argument'][_tags]]
         return _stock_modifier
-    def stock_adposition(self, processing, rule):
-        tags = {**rule.tags, **self.tags}
-        return (None if tags not in self.use_case_to_grammatical_case
-                else self.use_case_to_grammatical_case[tags]['adposition'])
+    def stock_adposition(self, processing, content, tags):
+        _tags = {**tags, **self.tags}
+        return [content[0], 
+            None if _tags not in self.use_case_to_grammatical_case
+            else self.use_case_to_grammatical_case[_tags]['adposition']]
+    def passthrough(self, processing, content, tags):
+        return [content[0], *processing.process(content[1:])]
+    def remove(self, processing, content, tags):
+        return processing.process(content[1:])
+
+class RuleSyntax:
+    """
+    `RuleGrammar` is a library of functions that can be used in conjunction with `RuleProcessing` 
+    to perform operations on a syntax tree of rules that encapsulate the grammar of a natural language.
+    Examples include word translation, verb conjugation, noun and adjective declension, 
+    and the structuring of clauses and noun phrases.
+    """
+    def __init__(self, sentence_structure):
+        self.sentence_structure = sentence_structure
     def order_clause(self, processing, clause):
-        verbs = [phrase for phrase in clause.content if phrase.tag in {'vp'}]
-        nouns = [phrase for phrase in clause.content if phrase.tag in {'np'}]
+        rules = clause.content
+        # rules = [element for element in clause.content if isinstance(element, Rule)]
+        verbs = [phrase for phrase in rules if phrase.tag in {'vp'}]
+        nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
         subject_roles = {'solitary','agent'}
         direct_object_roles = {'theme','patient'}
         indirect_object_roles = {'indirect-object'}
@@ -119,6 +138,7 @@ class RuleGrammar:
                 for phrase in phrase_lookup[phrase_type]
             ]))
     def order_noun_phrase(self, processing, phrase):
+        # rules = [element for element in phrase.content if isinstance(element, Rule)]
         return Rule(phrase.tag, 
             phrase.tags,
             processing.process([
@@ -139,12 +159,11 @@ class RuleFormatting:
     def __init__(self):
         pass
     def default(self, processing, rule):
-        return ' '.join([processing.process(subrule) if isinstance(subrule, Rule) else str(subrule) 
-                         for subrule in rule.content])
+        return (' '.join([str(processing.process(element)) for element in rule.content]) if isinstance(rule, Rule) else rule)
     def cloze(self, processing, rule):
-        return '{{c'+str(1)+'::'+' '.join(str(element) for element in rule.content)+'}}'
+        return '{{c'+str(1)+'::'+' '.join(str(processing.process(element)) for element in rule.content)+'}}'
     def implicit(self, processing, rule):
-        return '['+str(' '.join([str(element) for element in rule.content]))+']'
+        return '['+str(' '.join([str(processing.process(element)) for element in rule.content]))+']'
 
 class RuleValidation:
     """
@@ -192,7 +211,7 @@ class ListTools:
         return _process
     def remove(self):
         def _process(machine, tree, memory):
-            return [*machine.process(tree[1:], memory)]
+            return machine.process(tree[1:], memory)
         return _process
     def tag(self, modifications, remove=False):
         def _process(machine, tree, memory):
@@ -237,13 +256,9 @@ class Rule:
     def __getitem__(self, key):
         return self.content[key]
     def __str__(self):
-        return '' + self.tag + '{'+' '.join([
-            member if isinstance(member, str) else str(member) 
-            for member in self.content])+'}'
+        return '' + self.tag + '{'+' '.join([str(member) for member in self.content])+'}'
     def __repr__(self):
-        return '' + self.tag + '{'+' '.join([
-            member if isinstance(member, str) else repr(member) 
-            for member in self.content])+'}'
+        return '' + self.tag + '{'+' '.join([repr(member) for member in self.content])+'}'
 
 class RuleProcessing:
     """
@@ -254,6 +269,6 @@ class RuleProcessing:
         self.operations = operations
     def process(self, rule):
         return ([self.process(subrule) for subrule in rule] if isinstance(rule, list)
-            else rule if isinstance(rule, str)
+            else rule if not isinstance(rule, Rule)
             else self.operations[rule.tag](self, rule) if rule.tag in self.operations
-            else Rule(rule.tag, rule.tags, processing.process(rule.content)))
+            else Rule(rule.tag, rule.tags, self.process(rule.content)))
