@@ -139,10 +139,6 @@ class ListTools:
         def _map(machine, tree, memory):
             return [*functions, *machine.map(tree[1:], memory)]
         return _map
-    def splat(self, functions):
-        def _map(machine, tree, memory):
-            return [*functions, *machine.map(tree[1:], memory)]
-        return _map
     def constant(self, *values):
         def _map(machine, tree, memory):
             return [*values]

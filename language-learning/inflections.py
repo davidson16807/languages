@@ -480,10 +480,10 @@ english = Language(
     RuleFormatting(),
     None,
     substitutions = [
-        {'cloze': list_tools.unwrap()},
-        {'v': english_list_substitution.voice},
-        {'v': english_list_substitution.tense},
-        {'v': english_list_substitution.aspect},
+        {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
+        {'v': english_list_substitution.voice},  # English uses auxillary verbs ("be") to indicate voice
+        {'v': english_list_substitution.tense},  # English uses auxillary verbs ("will") to indicate tense
+        {'v': english_list_substitution.aspect}, # English uses auxillary verbs ("be", "have") to indicate aspect
     ]
 )
 
@@ -514,6 +514,8 @@ latin = Language(
                 tsv_parsing.rows('data/inflection/latin/classic/pronoun-declensions.tsv'), 1, 4),
             *common_noun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/declensions.tsv'), 1, 2),
+            *common_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv'), 1, 3),
             *filter(has_annotation('language','latin'),
                 declension_template_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
@@ -763,6 +765,53 @@ write('flashcards/adpositions/latin.html',
         ],
     ))
 
+write('flashcards/adjective-agreement/latin.html', 
+    card_generation.declension(
+        latin, 
+        DictTupleIndexing([
+            # categories that are iterated over
+            'motion', 'role', 'number', 'noun', 'gender', 
+            # categories that are constant since they are not relevant to common noun declension
+            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
+            # categories that are constant since they are not relevant to declension
+            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+        tagspace = {
+            **tagaxis_to_tags,
+            'noun':       'tower' ,
+            'number':    ['singular','plural'],
+            'gender':     'feminine',
+            'person':     '3',
+            'clusivity':  'exclusive',
+            'animacy':    'thing',
+            'clitic':     'tonic',
+            'partitivity':'nonpartitive',
+            'formality':  'familiar',
+            'tense':      'present', 
+            'voice':      'active',
+            'aspect':     'aorist', 
+            'mood':       'indicative',
+            'noun-form':  'common',
+            'script':     'latin',
+            'verb-form':  'finite',
+        },
+        tag_templates ={
+            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
+            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular'},
+            'patient'    : {'noun-form':'common',   'person':'3', 'number':'singular'},
+            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular'},
+            'theme'      : {'noun-form':'common',   'person':'3', 'number':'singular'},
+            'test'       : {'noun-form':'common'},
+            'emoji'      : {'noun-form':'common', 'person':'4'},
+        },
+        persons = [
+            EmojiPerson('s','n',3),
+            EmojiPerson('s','f',4),
+            EmojiPerson('s','m',2),
+            EmojiPerson('s','n',1),
+            EmojiPerson('s','n',5),
+        ],
+        substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','high'], ['n', 'noun']])}],
+    ))
 
 
 
