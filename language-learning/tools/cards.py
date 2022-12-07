@@ -41,33 +41,36 @@ class CardGeneration:
             foreign, 
             traversal, 
             filter_lookups=[], 
+            substitutions = [],
             tagspace={},
             english_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
+            verb = test_tags['verb']
             test_tags = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
             modifier_tags = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
             if all([test_tags in filter_lookup for filter_lookup in filter_lookups]):
-                tree = self.parsing.parse('clause [test-seme [np the n man] [vp cloze v conjugated]] [modifier-seme np stock-modifier conjugated]')
+                tree = self.parsing.parse('clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]')
                 semes = {
                     'test-seme':      test_tags,
                     'modifier-seme':  modifier_tags,
                 }
-                translated_text = foreign.map(tree,
-                    semes = semes,
-                    custom_substitution = {
-                        'stock-modifier': foreign.grammar.stock_modifier('foreign'),
-                        'conjugated':     self.tools.replace(test_tags['verb']),
-                    },
+                translated_text = foreign.map(tree, semes,
+                    substitutions = [
+                        {'stock-modifier': foreign.grammar.stock_modifier('foreign')},
+                        *substitutions,
+                        # unless the user inserts something before this point, "conjugated" will represent the verb
+                        {'verb':self.tools.replace(verb)},
+                    ]
                 )
-                english_text = self.english.map(tree,
-                    semes = semes,
-                    custom_substitution = {
-                        'stock-modifier': foreign.grammar.stock_modifier('native'),
-                        'conjugated':     self.tools.replace(test_tags['verb']),
-                        'cloze':          self.tools.remove(),
-                    },
+                english_text = self.english.map(tree, semes,
+                    substitutions = [
+                        {'stock-modifier': foreign.grammar.stock_modifier('native')},
+                        *substitutions,
+                        # unless the user inserts something before this point, "conjugated" will represent the verb
+                        {'verb':self.tools.replace(verb)},
+                    ]
                 )
                 emoji_key  = {**test_tags, 'script':'emoji'}
                 if translated_text and emoji_key in foreign.grammar.conjugation_lookups['infinitive']:
@@ -83,6 +86,7 @@ class CardGeneration:
             traversal, 
             filter_lookups=[],
             nouns_to_predicates={},
+            substitutions = [],
             tagspace={},
             tag_templates={},
             english_map=lambda x:x,
@@ -104,18 +108,12 @@ class CardGeneration:
                         'patient-seme':     {**test_tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'},
                         'possession-seme':  {**test_tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'},
                     }
-                    translated_text = foreign.map(tree,
-                        semes = semes,
-                        custom_substitution = {
-                            'declined':       self.tools.replace(['cloze', 'n', noun]),
-                        },
-                    )
-                    english_text = self.english.map(tree,
-                        semes = semes,
-                        custom_substitution = {
-                            'declined':       self.tools.replace(['n', noun]),
-                        },
-                    )
+                    substitutions_ = [
+                        *substitutions,
+                        {'noun':self.tools.replace([noun])}
+                    ]
+                    translated_text = foreign.map(tree, semes, substitutions_)
+                    english_text = self.english.map(tree, semes, substitutions_)
                     case = foreign.grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {**test_tags, **tag_templates['test'], **tag_templates['emoji'], 'case':case, 'script': 'emoji'}
                     emoji_text = self.emoji.decline(emoji_key, 

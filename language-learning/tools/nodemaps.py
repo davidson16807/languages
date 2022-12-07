@@ -43,8 +43,7 @@ class ListGrammar:
             else self.conjugation_lookups[_tags][_tags]]
     def stock_modifier(self, language_type):
         def _stock_modifier(trees, content, tags):
-            processed = trees.map(content[1:], tags)
-            _tags = {**tags, **self.tags, 'verb':processed[0], 'language-type': language_type}
+            _tags = {**tags, **self.tags, 'language-type': language_type}
             return [content[0], 
                 None if _tags not in self.conjugation_lookups['argument']
                 else self.conjugation_lookups['argument'][_tags]]
@@ -125,6 +124,11 @@ class RuleValidation:
 class ListTools:
     def __init__(self):
         pass
+    # TODO:
+    # inwrap:  op1 args ⟼ op1 op2 args
+    # outwrap: op1 args ⟼ op2 op1 args
+    # bypass:  op1 args ⟼ args
+    # prune:   op1 args ⟼ op2
     def rule(self):
         def flatten(x): 
             return [xij for xi in x for xij in flatten(xi)] if isinstance(x, list) else [x]

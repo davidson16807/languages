@@ -66,7 +66,7 @@ class Language:
         self.tools = tools
         self.validation = validation
         self.formatting = formatting
-    def map(self, syntax_tree, custom_substitution={}, semes={}):
+    def map(self, syntax_tree, semes={}, substitutions=[]):
         default_substitution = {
             'the':        self.tools.replace(['art', 'the']),
             'a':          self.tools.replace(['art', 'a']),
@@ -85,9 +85,9 @@ class Language:
         tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
         tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
         pipeline = [
+            *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
+            *[ListTreeMap({**tag_insertion, **substitution}) for substitution in self.substitutions], # language specific substitutions
             ListTreeMap({**tag_insertion, **default_substitution}),
-            ListTreeMap({**tag_insertion, **custom_substitution}),
-            *[ListTreeMap({**tag_insertion, **substitution}) for substitution in self.substitutions],
             ListTreeMap({
                 **tag_insertion, 
                 'v':                self.grammar.conjugate,

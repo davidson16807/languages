@@ -471,6 +471,8 @@ def replace(replacements):
         return content
     return _replace
 
+list_tools = ListTools()
+english_list_substitution = EnglishListSubstitution()
 
 english = Language(
     ListGrammar(
@@ -489,23 +491,25 @@ english = Language(
         {'language-type':'native'},
     ),
     RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
-    ListTools(),
+    list_tools,
     RuleFormatting(),
     None,
     substitutions = [
-        {'v': EnglishListSubstitution().voice},
-        {'v': EnglishListSubstitution().tense},
-        {'v': EnglishListSubstitution().aspect},
+        {'cloze': list_tools.remove()},
+        {'v': english_list_substitution.voice},
+        {'v': english_list_substitution.tense},
+        {'v': english_list_substitution.aspect},
     ]
 )
 
 
 card_generation = CardGeneration(
     english, 
-    emoji, CardFormatting(),
+    emoji, 
+    CardFormatting(),
     DeclensionTemplateMatching(declension_templates, allthat),
     ListParsing(),
-    ListTools()
+    list_tools
 )
 
 latin = Language(
@@ -535,7 +539,7 @@ latin = Language(
         {'language-type':'foreign'},
     ),
     RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
-    ListTools(),
+    list_tools,
     RuleFormatting(),
     RuleValidation(),
 )
@@ -588,6 +592,7 @@ write('flashcards/verb-conjugation/latin.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
+        substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
     ))
 
 write('flashcards/noun-declension/latin.html', 
@@ -642,6 +647,7 @@ write('flashcards/noun-declension/latin.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
+        substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
 write('flashcards/pronoun-declension/latin.html', 
@@ -707,6 +713,7 @@ write('flashcards/pronoun-declension/latin.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
+        substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 '''
 '''
