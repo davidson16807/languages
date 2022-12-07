@@ -18,7 +18,7 @@ from tools.nodemaps import (
     EnglishListSubstitution
 )
 from tools.languages import Emoji, Language
-from tools.cards import CardFormatting, CardGeneration
+from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGeneration
 
 tagaxis_to_tags = {
 
@@ -437,21 +437,6 @@ declension_templates = \
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
 
-class DeclensionTemplateMatching:
-    def __init__(self, templates, predicates):
-        self.templates = templates
-        self.predicates = predicates
-    def match(self, noun, motion, role):
-        def subject(template):
-            return self.predicates[template['subject-function'], template['subject-argument']]
-        def declined_noun(template):
-            return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
-        candidates = self.templates[motion, role] if (motion, role) in self.templates else []
-        templates = sorted([template for template in candidates
-                            if self.predicates['be', noun] in declined_noun(template)],
-                      key=lambda template: (-int(template['specificity']), len(declined_noun(template))))
-        return templates[0] if len(templates) > 0 else None
-
 case_annotation = RowAnnotation(['motion','role','case','adposition'])
 case_population = FlatLookupPopulation(
     DictLookup('declension-use-case-to-grammatical-case', 
@@ -495,7 +480,7 @@ english = Language(
     RuleFormatting(),
     None,
     substitutions = [
-        {'cloze': list_tools.remove()},
+        {'cloze': list_tools.unwrap()},
         {'v': english_list_substitution.voice},
         {'v': english_list_substitution.tense},
         {'v': english_list_substitution.aspect},
@@ -661,7 +646,6 @@ write('flashcards/pronoun-declension/latin.html',
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         tagspace = {
             **tagaxis_to_tags,
-            # 'noun':      ['man',],
             'noun':      ['man','woman','snake'],
             'gender':    ['neuter', 'feminine', 'masculine'],
             'number':    ['singular','plural'],
@@ -715,8 +699,67 @@ write('flashcards/pronoun-declension/latin.html',
         ],
         substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
-'''
-'''
+
+
+write('flashcards/adpositions/latin.html', 
+    card_generation.declension(
+        latin, 
+        DictTupleIndexing([
+            # categories that are iterated over
+            'motion', 'role', 'number', 'noun', 'gender', 
+            # categories that are constant since they are not relevant to common noun declension
+            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
+            # categories that are constant since they are not relevant to declension
+            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+        tagspace = {
+            **tagaxis_to_tags,
+            'role': [
+                # 'solitary', # the subject of an intransitive verb
+                # 'agent',    # the subject of a transitive verb
+                # 'patient',  # the direct object of an active verb
+                # 'theme',    # the direct object of a stative verb
+                'possessor', 'location', 'extent', 'vicinity', 'interior', 'surface', 
+                'presence', 'aid', 'lack', 'interest', 'purpose', 'possession', 
+                'time', 'state of being', 'topic', 'company', 'resemblance'],
+            'noun':       'man',
+            'number':    ['singular','plural'],
+            'gender':     'masculine',
+            'person':     '3',
+            'clusivity':  'exclusive',
+            'animacy':    'thing',
+            'clitic':     'tonic',
+            'partitivity':'nonpartitive',
+            'formality':  'familiar',
+            'tense':      'present', 
+            'voice':      'active',
+            'aspect':     'aorist', 
+            'mood':       'indicative',
+            'noun-form':  'common',
+            'script':     'latin',
+            'verb-form':  'finite',
+        },
+        tag_templates ={
+            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
+            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular'},
+            'patient'    : {'noun-form':'common',   'person':'3', 'number':'singular'},
+            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular'},
+            'theme'      : {'noun-form':'common',   'person':'3', 'number':'singular'},
+            'test'       : {'noun-form':'common'},
+            'emoji'      : {'noun-form':'common', 'person':'4'},
+        },
+        persons = [
+            EmojiPerson('s','n',3),
+            EmojiPerson('s','f',4),
+            EmojiPerson('s','m',2),
+            EmojiPerson('s','n',1),
+            EmojiPerson('s','n',5),
+        ],
+        substitutions = [
+            {'declined':         list_tools.replace(['the', 'n', 'noun'])},
+            {'stock-adposition': list_tools.wrap('cloze')},
+        ],
+    ))
+
 
 
 

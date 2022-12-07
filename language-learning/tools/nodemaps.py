@@ -124,34 +124,45 @@ class RuleValidation:
 class ListTools:
     def __init__(self):
         pass
-    # TODO:
-    # inwrap:  op1 args ⟼ op1 op2 args
-    # outwrap: op1 args ⟼ op2 op1 args
-    # bypass:  op1 args ⟼ args
-    # prune:   op1 args ⟼ op2
+    def tag(self, modifications, remove=False):
+        def _map(machine, tree, memory):
+            arguments = machine.map(tree[1:], {**memory, **modifications})
+            return arguments if remove else [tree[0], *arguments]
+        return _map
     def rule(self):
         def flatten(x): 
             return [xij for xi in x for xij in flatten(xi)] if isinstance(x, list) else [x]
-        def _process(machine, tree, memory):
+        def _map(machine, tree, memory):
             return Rule(tree[0], memory, flatten(machine.map(tree[1:], memory)))
-        return _process
-    def replace(self, replacement):
-        def _process(machine, tree, memory):
-            return [replacement, *machine.map(tree[1:], memory)]
-        return _process
-    def remove(self):
-        def _process(machine, tree, memory):
+        return _map
+    def replace(self, *functions):
+        def _map(machine, tree, memory):
+            return [*functions, *machine.map(tree[1:], memory)]
+        return _map
+    def constant(self, values):
+        def _map(machine, tree, memory):
+            return [*values]
+        return _map
+    def postprocess(self, function):
+        def _map(machine, tree, memory):
+            return [function, tree[0], *machine.map(tree[1:], memory)]
+        return _map
+    def preprocess(self, function):
+        def _map(machine, tree, memory):
+            return [tree[0], function, *machine.map(tree[1:], memory)]
+        return _map
+    def wrap(self, function):
+        def _map(machine, tree, memory):
+            return [function, tree[0], *machine.map(tree[1:], memory)]
+        return _map
+    def unwrap(self):
+        def _map(machine, tree, memory):
             return machine.map(tree[1:], memory)
-        return _process
-    def tag(self, modifications, remove=False):
-        def _process(machine, tree, memory):
-            arguments = machine.map(tree[1:], {**memory, **modifications})
-            return arguments if remove else [tree[0], *arguments]
-        return _process
-    def passthrough(self):
-        def _process(machine, tree, memory):
-            return [tree[0], machine.map(tree[1:], memory)]
-        return _process
+        return _map
+    def prune(self):
+        def _map(machine, tree, memory):
+            return []
+        return _map
 
 class EnglishListSubstitution:
     def __init__(self):

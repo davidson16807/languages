@@ -110,7 +110,7 @@ class CardGeneration:
                     }
                     substitutions_ = [
                         *substitutions,
-                        {'noun':self.tools.replace([noun])}
+                        {'noun':self.tools.replace(noun)}
                     ]
                     translated_text = foreign.map(tree, semes, substitutions_)
                     english_text = self.english.map(tree, semes, substitutions_)
