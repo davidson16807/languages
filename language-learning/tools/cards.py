@@ -90,12 +90,14 @@ class CardGeneration:
             tagspace={},
             tag_templates={},
             english_map=lambda x:x,
+            emoji_lemma = 'noun',
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
             if (all([test_tags in filter_lookup for filter_lookup in filter_lookups]) and 
                   test_tags in foreign.grammar.use_case_to_grammatical_case):
                 noun = test_tags['noun']
+                adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
                 match = self.declension_template_matching.match(predicate, test_tags['motion'], test_tags['role'])
                 if match:
@@ -110,12 +112,20 @@ class CardGeneration:
                     }
                     substitutions_ = [
                         *substitutions,
-                        {'noun':self.tools.replace(noun)}
+                        {'noun':     self.tools.replace(noun)},
+                        {'adjective':self.tools.replace(adjective)},
                     ]
                     translated_text = foreign.map(tree, semes, substitutions_)
                     english_text = self.english.map(tree, semes, substitutions_)
                     case = foreign.grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
-                    emoji_key = {**test_tags, **tag_templates['test'], **tag_templates['emoji'], 'case':case, 'script': 'emoji'}
+                    emoji_key = {
+                        **test_tags, 
+                        **tag_templates['test'], 
+                        **tag_templates['emoji'], 
+                        'case':case, 
+                        'noun':test_tags[emoji_lemma], 
+                        'script': 'emoji'
+                    }
                     emoji_text = self.emoji.decline(emoji_key, 
                         match['emoji'], foreign.grammar.declension_lookups[emoji_key][emoji_key], persons)
                     yield ' '.join([

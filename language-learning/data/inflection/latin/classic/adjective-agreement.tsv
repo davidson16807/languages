@@ -1,9 +1,52 @@
-adjective	gender	plurality	nominative	genitive  	dative    	accusative	ablative  	vocative  	#	emoji	declension
-high	masculine	singular	altus 	altī 	altō 	altum 	altō 	alte 	#		1/2
-high	feminine	singular	alta 	altae 	altae 	altam 	altā 	alta 	#		1/2
-high	neuter	singular	altum 	altī 	altō 	altum 	altō 	altum 	#		1/2
-high	masculine	plural	altī 	altōrum 	altīs	altōs 	altīs	altī 	#		1/2
-high	feminine	plural	altae 	altārum 	altīs	altās 	altīs	altae 	#		1/2
-high	neuter	plural	alta	altōrum	altīs	alta	altīs	alta	#		1/2
+adjective	gender	plurality	nominative	genitive  	dative    	accusative	ablative  	vocative  	emoji	#	declension
+tall	masculine	singular	altus 	altī 	altō 	altum 	altō 	alte 	\large{\nx{🧍\cx\gx}}	#	1/2, -us
+tall	feminine	singular	alta 	altae 	altae 	altam 	altā 	alta 	\large{\nx{🧍\cx\gx}}	#	1/2, -us
+tall	neuter	singular	altum 	altī 	altō 	altum 	altō 	altum 	\large{\nx{🦒}}	#	1/2, -us
+tall	masculine	plural	altī 	altōrum 	altīs	altōs 	altīs	altī 	\large{\nx{🧍\cx\gx}}	#	1/2, -us
+tall	feminine	plural	altae 	altārum 	altīs	altās 	altīs	altae 	\large{\nx{🧍\cx\gx}}	#	1/2, -us
+tall	neuter	plural	alta	altōrum	altīs	alta	altīs	alta	\large{\nx{🦒}}	#	1/2, -us
+holy	masculine	singular	sacer 	sacrī 	sacrō 	sacrum 	sacrō 	sacer 	\nx{🧘\cx\gx}	#	1/2, -er
+holy	feminine	singular	sacra 	sacrae 	sacrae 	sacram 	sacrā 	sacra 	\nx{🧘\cx\gx}	#	1/2, -er
+holy	neuter	singular	sacrum 	sacrī 	sacrō 	sacrum 	sacrō 	sacrum 	\nx{🐂}	#	1/2, -er
+holy	masculine	plural	sacrī 	sacrōrum 	sacrīs	sacrōs 	sacrīs	sacrī 	\nx{🧘\cx\gx}	#	1/2, -er
+holy	feminine	plural	sacrae 	sacrārum 	sacrīs	sacrās 	sacrīs	sacrae 	\nx{🧘\cx\gx}	#	1/2, -er
+holy	neuter	plural	sacra	sacrōrum	sacrīs	sacra	sacrīs	sacra	\nx{🐂}	#	1/2, -er
+poor	masculine	singular	miser 	miserī 	miserō 	miserum 	miserō 	miser 	\nx{🙍\cx\gx}	#	1/2, -er
+poor	feminine	singular	misera 	miserae 	miserae 	miseram 	miserā 	misera 	\nx{🙍\cx\gx}	#	1/2, -er
+poor	neuter	singular	miserum 	miserī 	miserō 	miserum 	miserō 	miserum 	\nx{😿}	#	1/2, -er
+poor	masculine	plural	miserī 	miserōrum 	miserīs	miserōs 	miserīs	miserī 	\nx{🙍\cx\gx}	#	1/2, -er
+poor	feminine	plural	miserae 	miserārum 	miserīs	miserās 	miserīs	miserae 	\nx{🙍\cx\gx}	#	1/2, -er
+poor	neuter	plural	misera	miserōrum	miserīs	misera	miserīs	misera	\nx{😿}	#	1/2, -er
+mean	masculine	singular	atrōx	atrōcis	atrōcī	atrōcem	atrōcī	atrōx 	\nx{🦹\cx\gx}	#	3, one ending
+mean	feminine	singular	atrōx	atrōcis	atrōcī	atrōcem	atrōcī	atrōx 	\nx{🦹\cx\gx}	#	3, one ending
+mean	neuter	singular	atrōx	atrōcis	atrōcī	atrōx	atrōcī	atrōx 	\nx{😾}	#	3, one ending
+mean	masculine	plural	atrōcēs	atrōcium	atrōcibus	atrōcēs	atrōcibus	atrōcēs 	\nx{🦹\cx\gx}	#	3, one ending
+mean	feminine	plural	atrōcēs	atrōcium	atrōcibus	atrōcēs	atrōcibus	atrōcēs 	\nx{🦹\cx\gx}	#	3, one ending
+mean	neuter	plural	atrōcia	atrōcium	atrōcibus	atrōcia	atrōcibus	atrōcia	\nx{😾}	#	3, one ending
+old	masculine	singular	vetus	veteris	veterī	veterem	vetere	vetus 	\nx{🧓\gx\cx}	#	3, one ending, non-i-stem
+old	feminine	singular	vetus	veteris	veterī	veterem	vetere	vetus 	\nx{🧓\gx\cx}	#	3, one ending, non-i-stem
+old	neuter	singular	vetus	veteris	veterī	vetus	vetere	vetus 	\nx{🦁}	#	3, one ending, non-i-stem
+old	masculine	plural	veterēs	veterum	veteribus	veterēs	veteribus	veterēs 	\nx{🧓\gx\cx}	#	3, one ending, non-i-stem
+old	feminine	plural	veterēs	veterum	veteribus	veterēs	veteribus	veterēs 	\nx{🧓\gx\cx}	#	3, one ending, non-i-stem
+old	neuter	plural	vetera	veterum	veteribus	vetera	veteribus	vetera	\nx{🦁}	#	3, one ending, non-i-stem
+nimble	masculine	singular	agilis	agilis	agilī	agilem	agilī	agilis 	\nx{⛹️\cx\gx}	#	3, two endings
+nimble	feminine	singular	agilis	agilis	agilī	agilem	agilī	agilis 	\nx{⛹️\cx\gx}	#	3, two endings
+nimble	neuter	singular	agile	agilis	agilī	agile	agilī	agile	\nx{🐈}	#	3, two endings
+nimble	masculine	plural	agilēs	agilium	agilibus	agilēs|agilīs	agilibus	agilēs 	\nx{⛹️\cx\gx}	#	3, two endings
+nimble	feminine	plural	agilēs	agilium	agilibus	agilēs|agilīs	agilibus	agilēs 	\nx{⛹️\cx\gx}	#	3, two endings
+nimble	neuter	plural	agilia	agilium	agilibus	agilia	agilibus	agilia	\nx{🐈}	#	3, two endings
+swift	masculine	singular	celer	celeris	celerī	celerem	celerī	celer 	\nx{🏃\cx\gx}	#	3, three endings
+swift	feminine	singular	celeris	celeris	celerī	celerem	celerī	celeris	\nx{🏃\cx\gx}	#	3, three endings
+swift	neuter	singular	celere	celeris	celerī	celere	celerī	celere	\nx{🐆}	#	3, three endings
+swift	masculine	plural	celerēs	celerium	celeribus	celerēs	celeribus	celerēs 	\nx{🏃\cx\gx}	#	3, three endings
+swift	feminine	plural	celerēs	celerium	celeribus	celerēs	celeribus	celerēs 	\nx{🏃\cx\gx}	#	3, three endings
+swift	neuter	plural	celeria	celerium	celeribus	celeria	celeribus	celeria	\nx{🐆}	#	3, three endings
+jovial	masculine	singular	alacer	alacris	alacrī	alacrem	alacrī	alacer 	\nx{🤹\cx\gx}	#	3, three endings
+jovial	feminine	singular	alacris	alacris	alacrī	alacrem	alacrī	alacris	\nx{🤹\cx\gx}	#	3, three endings
+jovial	neuter	singular	alacre	alacris	alacrī	alacre	alacrī	alacre	\nx{😸}	#	3, three endings
+jovial	masculine	plural	alacrēs	alacrium	alacribus	alacrēs	alacribus	alacrēs 	\nx{🤹\cx\gx}	#	3, three endings
+jovial	feminine	plural	alacrēs	alacrium	alacribus	alacrēs	alacribus	alacrēs 	\nx{🤹\cx\gx}	#	3, three endings
+jovial	neuter	plural	alacria	alacrium	alacribus	alacria	alacribus	alacria	\nx{😸}	#	3, three endings
+											
 											
 											
