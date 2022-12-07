@@ -718,11 +718,14 @@ write('flashcards/adpositions/latin.html',
                 # 'agent',    # the subject of a transitive verb
                 # 'patient',  # the direct object of an active verb
                 # 'theme',    # the direct object of a stative verb
-                'possessor', 'location', 'extent', 'vicinity', 'interior', 'surface', 
-                'presence', 'aid', 'lack', 'interest', 'purpose', 'possession', 
+                # 'possessor', 
+                'location', 'extent', 'vicinity', 'interior', 'surface', 
+                'presence', 'aid', 'lack', 
+                #'interest', 
+                'purpose', 'possession', 
                 'time', 'state of being', 'topic', 'company', 'resemblance'],
             'noun':       'man',
-            'number':    ['singular','plural'],
+            'number':     'singular',
             'gender':     'masculine',
             'person':     '3',
             'clusivity':  'exclusive',
