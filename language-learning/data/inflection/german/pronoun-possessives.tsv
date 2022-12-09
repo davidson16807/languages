@@ -1,14 +1,14 @@
-	# person	plurality	formality  	gender   	possessive
-personal	1       	singular 		         	mein      
-personal	2       	singular 	familiar   	         	dein      
-personal	2       	singular 	polite     	masculine	sein      
-personal	3       	singular 		masculine	sein      
-personal	3       	singular 		feminine 	ihr       
-personal	3       	singular 		neuter   	sein      
-personal	1       	plural   		neuter   	unser     
-personal	2       	singular 	elevated   	neuter   	Euer      
-personal	2       	plural   	elevated   	neuter   	Euer      
-personal	2       	plural   	familiar   	neuter   	euer      
-personal	2       	singular 	polite     	neuter   	Ihr       
-personal	2       	plural   	polite     	neuter   	Ihr       
-personal	3       	plural   		neuter   	ihr       
+# person	plurality	formality  	gender   	possessive
+1st-possessor	singular-possessor		         	mein      
+2nd-possessor	singular-possessor	familiar-possessor	         	dein      
+2nd-possessor	singular-possessor	polite-possessor	masculine	sein      
+3rd-possessor	singular-possessor		masculine	sein      
+3rd-possessor	singular-possessor		feminine 	ihr       
+3rd-possessor	singular-possessor		neuter   	sein      
+1st-possessor	plural-possessor		neuter   	unser     
+2nd-possessor	singular-possessor	elevated-possessor	neuter   	Euer      
+2nd-possessor	plural-possessor	elevated-possessor	neuter   	Euer      
+2nd-possessor	plural-possessor	familiar-possessor	neuter   	euer      
+2nd-possessor	singular-possessor	polite-possessor	neuter   	Ihr       
+2nd-possessor	plural-possessor	polite-possessor	neuter   	Ihr       
+3rd-possessor	plural-possessor		neuter   	ihr       

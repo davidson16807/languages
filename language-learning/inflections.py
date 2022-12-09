@@ -75,6 +75,9 @@ tagaxis_to_tags = {
                    'propositive', 'potential', 
                   ],
 
+    # needed for Spanish
+    'formality':  ['familiar', 'polite', 'elevated', 'formal', 'tuteo', 'voseo'],
+
     # animacy ordered as follows:
     # 1st column: represents any of the tags that precede the entry in the middle column of that row
     # 2nd column: represents its own unique tag that excludes all preceding rows and following entries
@@ -93,11 +96,11 @@ tagaxis_to_tags = {
     'distance':   ['proximal','medial','distal'],
 
     # needed for possessive pronouns
-    'possession-gender': ['masculine-possession', 'feminine-possession', 'neuter-possession'],
-    'possession-number': ['singular-possession', 'dual-possession', 'plural-possession'],
-
-    # needed for Spanish
-    'formality':  ['familiar', 'polite', 'elevated', 'formal', 'tuteo', 'voseo'],
+    'possessor-person':    ['1st-possessor', '2nd-possessor', '3rd-possessor'],
+    'possessor-number':    ['singular-possessor', 'dual-possessor', 'plural-possessor'],
+    'possessor-gender':    ['masculine-possessor', 'feminine-possessor', 'neuter-possessor'],
+    'possessor-clusivity': ['inclusive-possessor', 'exclusive-possessor'],
+    'possessor-formality': ['familiar-possessor', 'polite-possessor', 'elevated-possessor', 'formal-possessor', 'tuteo-possessor', 'voseo-possessor'],
 
     # needed for Sanskrit and Japanese
     'stem':       ['primary', 'causative', 'intensive',],
@@ -113,8 +116,12 @@ tagaxis_to_tags = {
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
 
     # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
-    #   Each language has a unique map from semantic role to the grammatical case used in declension.
-    #   Semantic roles are also categorized into "macroroles" that inform how noun phrases should be ordered within a clause.
+    #   In our analysis, semantic role forms one part of what is referred to here as "use case" 
+    #    (the other part is referred to as "motion", which is defined below).
+    #   Each language has a unique map from use case to the grammatical case, 
+    #    and it is grammatical case that language learners are typically most familiar with (e.g. nominative, ablative, etc.)
+    #   Semantic roles are also categorized into "macroroles" (i.e. subject, direct-object, indirect-object, modifier) 
+    #    and it is the macrorole that determines how noun phrases should be ordered within a clause.
     'role': [
         'solitary', # the subject of an intransitive verb
         'agent',    # the subject of a transitive verb
@@ -123,10 +130,10 @@ tagaxis_to_tags = {
         'possessor', 'location', 'extent', 'vicinity', 'interior', 'surface', 
         'presence', 'aid', 'lack', 'interest', 'purpose', 'possession', 
         'time', 'state of being', 'topic', 'company', 'resemblance'],
-    # NOTE: "motion" is introduced here as a grammatical tagaxis to capture certain kinds of motion based semantic roles
+    # NOTE: "motion" is introduced here as a grammatical tagaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
+    # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
     'motion': ['departed', 'associated', 'acquired', 'leveraged'],
-    
 
     # needed for infinitive forms, finite forms, participles, arguments, and graphic depictions
     'voice':      ['active', 'passive', 'middle'], 
@@ -138,10 +145,16 @@ tagaxis_to_tags = {
     # needed for correlatives in general
     'abstraction':['institution','location','origin',
                    'destination','time','manner','reason','quality','amount'],
+
+    # needed for quantifiers/correlatives
+    'quantity':   ['universal', 'negative', 'assertive', 'elective'],
+
     # needed to distinguish pronouns from common nouns and to further distinguish types of pronouns
-    'noun-form':  ['common', 'personal', 'reflexive', 'emphatic-reflexive',
-                   'demonstrative', 'interrogative', 'indefinite', 'elective', 'universal', 'negative', 
-                   'relative', 'numeral'],
+    'noun-form':  ['common', 'personal', 
+                   'demonstrative', 'interrogative', 'quantifier', 'numeral',
+                   'reciprocal', 'reflexive', 'emphatic-reflexive',
+                   'common-possessive', 'personal-possessive'],
+
     # needed to distinguish forms of verb that require different kinds of lookups with different primary keys
     'verb-form':  ['finite', 'infinitive', 
                    'participle', 'gerundive', 'gerund', 'adverbial', 'supine', 
@@ -274,11 +287,11 @@ declension_template_lookups = DictLookup(
             DictTupleIndexing([
                     'person',           
                     'number',           
-                    'clitic',
+                    'gender',           
                     'clusivity',   # needed for Quechua
                     'formality',   # needed for Spanish ('voseo')
-                    'gender',           
                     'case',           
+                    'clitic',
                     'script',
                 ])),
         'demonstrative': DictLookup(
@@ -292,14 +305,45 @@ declension_template_lookups = DictLookup(
                     'case',       
                     'script',
                 ])),
+        'quantifier':    DictTupleIndexing([
+                    'quantity',
+                    'number',     # needed for German
+                    'gender',     # needed for Latin, German, Russian
+                    'animacy',    # needed for Old English, Russian
+                    'partitivity',# needed for Old English, Quenya, Finnish
+                    'case',       # needed for Latin
+                    'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
+                ]),
         'interrogative':      DictLookup('interrogative',      basic_pronoun_declension_hashing),
-        'indefinite':         DictLookup('indefinite',         basic_pronoun_declension_hashing),
-        'universal':          DictLookup('universal',          basic_pronoun_declension_hashing),
-        'negative':           DictLookup('negative',           basic_pronoun_declension_hashing),
-        'relative':           DictLookup('relative',           basic_pronoun_declension_hashing),
         'numeral':            DictLookup('numeral',            basic_pronoun_declension_hashing),
+        'reciprocal':         DictLookup('reciprocal',         reflexive_pronoun_declension_hashing),
         'reflexive':          DictLookup('reflexive',          reflexive_pronoun_declension_hashing),
         'emphatic-reflexive': DictLookup('emphatic-reflexive', reflexive_pronoun_declension_hashing),
+        'common-possessive':  DictLookup(
+            'common-possessive',
+            DictTupleIndexing([
+                    'possessor-noun',
+                    'possessor-number', 
+                    'number',           
+                    'gender',           
+                    'case',           
+                    'clitic',
+                    'script',
+                ])),
+        'personal-possessive': DictLookup(
+            'personal-possessive',
+            DictTupleIndexing([
+                    'possessor-person', 
+                    'possessor-number', 
+                    'possessor-gender', 
+                    'possessor-clusivity',   # needed for Quechua
+                    'possessor-formality',   # needed for Spanish ('voseo')
+                    'number',           
+                    'gender',           
+                    'case',           
+                    'clitic',
+                    'script',
+                ])),
     })
 
 tsv_parsing = SeparatedValuesFileParsing()
@@ -313,15 +357,15 @@ nonfinite_annotation  = CellAnnotation(
 pronoun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {}, 
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal'})
+possessive_pronoun_annotation  = CellAnnotation(
+    tag_to_tagaxis, {}, {},
+    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal-possessive'})
 common_noun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 declension_template_noun_annotation = CellAnnotation(
     tag_to_tagaxis, {0:'language'}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
-predicate_annotation = CellAnnotation(
-    tag_to_tagaxis, {0:'column'}, {}, 
-    {**tagaxis_to_tags, 'script':'latin', 'verb-form':'finite'})
 mood_annotation        = CellAnnotation(
     {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
 
@@ -359,17 +403,6 @@ emoji = Emoji(
     emoji_shorthand, HtmlTenseTransform(), HtmlAspectTransform(), 
 )
 
-
-def write(filename, rows):
-    with open(filename, 'w') as file:
-        for row in rows:
-            file.write(f'{row}\n')
-
-def has_annotation(key, value):
-    def _has_annotation(annotated_cell):
-        annotation, cell = annotated_cell
-        return key in annotation and annotation[key] == value or value in annotation[key]
-    return _has_annotation
 
 
 
@@ -449,6 +482,17 @@ declension_verb_annotation = CellAnnotation(
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 
 
+def write(filename, rows):
+    with open(filename, 'w') as file:
+        for row in rows:
+            file.write(f'{row}\n')
+
+def has_annotation(key, value):
+    def _has_annotation(annotated_cell):
+        annotation, cell = annotated_cell
+        return key in annotation and annotation[key] == value or value in annotation[key]
+    return _has_annotation
+
 def replace(replacements):
     def _replace(content):
         for replaced, replacement in replacements:
@@ -467,6 +511,8 @@ english = Language(
         declension_population.index([
             *pronoun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv'), 1, 5),
+            *possessive_pronoun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv'), 1, 4),
             *common_noun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/english/modern/declensions.tsv'), 1, 2),
         ]),
@@ -486,7 +532,6 @@ english = Language(
         {'v': english_list_substitution.aspect}, # English uses auxillary verbs ("be", "have") to indicate aspect
     ]
 )
-
 
 card_generation = CardGeneration(
     english, 
@@ -516,6 +561,8 @@ latin = Language(
                 tsv_parsing.rows('data/inflection/latin/classic/declensions.tsv'), 1, 2),
             *common_noun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv'), 1, 3),
+            *possessive_pronoun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/latin/classic/pronoun-possessives.tsv'), 3, 3),
             *filter(has_annotation('language','latin'),
                 declension_template_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
@@ -826,6 +873,86 @@ write('flashcards/adjective-agreement/latin.html',
     ))
 
 
+"""
+write('flashcards/possessive-pronouns/latin.html', 
+    card_generation.declension(
+        latin, 
+        DictTupleIndexing([
+            # categories that are iterated over
+            'motion', 'role', 'number', 'noun', 'gender', 'adjective',
+            # categories that are constant since they are not relevant to common noun declension
+            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
+            # categories that are constant since they are not relevant to declension
+            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+        tagspace = {
+            **tagaxis_to_tags,
+            'possessor-noun':   ['man','woman','snake'],
+            'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
+            'possessor-number': ['singular-possessor','plural-possessor'],
+            'possessor-person': ['1st-possessor','2nd-possessor','3rd-possessor'],
+            'possessor-clusivity': 'exclusive-possessor',
+            'possessor-formality': 'familiar-possessor',
+            'noun':      ['son','daughter','livestock'],
+            'number':    ['singular','plural'],
+            'gender':    ['masculine','feminine','neuter'],
+            'person':     '3',
+            'clusivity':  'exclusive',
+            'animacy':    'thing',
+            'clitic':     'tonic',
+            'partitivity':'nonpartitive',
+            'formality':  'familiar',
+            'tense':      'present', 
+            'voice':      'active',
+            'aspect':     'aorist', 
+            'mood':       'indicative',
+            'noun-form':  'common',
+            'script':     'latin',
+            'verb-form':  'finite',
+        },
+        filter_lookups = [
+            DictLookup(
+                'possessive pronoun filter', 
+                DictTupleIndexing(['possessor-gender', 'possessor-noun']),
+                content = {
+                    ('masculine-possessor', 'man'  ),
+                    ('feminine-possessor',  'woman'),
+                    ('neuter-possessor',    'snake'),
+                }),
+            DictLookup(
+                'possessive pronoun possession filter', 
+                DictTupleIndexing(['possessor-noun', 'gender', 'noun']),
+                content = {
+                    ('man',   'masculine', 'son'      ),
+                    ('man',   'feminine',  'daughter' ),
+                    ('man',   'neuter',    'livestock'),
+                    ('woman', 'masculine', 'son'      ),
+                    ('woman', 'feminine',  'daughter' ),
+                    ('woman', 'neuter',    'livestock'),
+                    ('snake', 'masculine', 'son'      ),
+                    ('snake', 'feminine',  'daughter' ),
+                    ('snake', 'neuter',    'egg'      ),
+                })
+            ],
+        tag_templates ={
+            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'patient'    : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'theme'      : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'test'       : {'noun-form':'common'},
+            'emoji'      : {'noun-form':'common', 'person':'4'},
+        },
+        persons = [
+            EmojiPerson('s','n',3),
+            EmojiPerson('s','f',4),
+            EmojiPerson('s','m',2),
+            EmojiPerson('s','n',1),
+            EmojiPerson('s','n',5),
+        ],
+        emoji_lemma = 'possessor-noun',
+        substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
+    ))
+"""
 
 
 '''
