@@ -1,19 +1,76 @@
-				nominative	accusative	genitive	dative	locative	allative	ablative	instrumental		#	
-neighboring	singular			arahzenas	arahzinan	arahzenas	arahzeni	arahzeni	arahzena	arahzenaza			#	-a stem
-neighboring	plural			arahzenes	arahzenus	arahzenan	arahzenas	arahzenas					#	-a stem
-big	singular			sallis	sallin	sallaiyas	sallai	sallai		sallayaz	*sallit		#	-i stem
-big	plural			sallaēs	sallaus	*suppayas	sallayas	sallayas		*sallayaza			#	-i stem
-nasty	singular			idālus	idālun	idāluwas	idālawi	idālawi		idālawaz	*idālawit		#	-u stem
-nasty	plural			idālawēs	idālamus	idālawas	idālawas	idālawas		idālawaza	*idālawet		#	-u stem
-all	singular	common	cuneiform	𒄷𒌋𒈠𒀭𒍝 	𒄷𒌋𒈠𒀭𒋫𒀭 	𒄷𒌋𒈠𒀭𒋫𒀸 	𒄷𒌋𒈠𒀭𒋾 	𒄷𒌋𒈠𒀭𒋾 	𒄷𒌋𒈠𒀭𒋫 	𒄷𒌋𒈠𒀭𒋫𒊍 	𒄷𒌋𒈠𒀭𒋫𒀉 	𒄷𒌋𒈠𒀭𒋫 	#	-nt stem
-all	singular	common	transliteration	ḫu-u-ma-an-za 	ḫu-u-ma-an-ta-an 	ḫu-u-ma-an-ta-aš 	ḫu-u-ma-an-ti 	ḫu-u-ma-an-ti 	ḫu-u-ma-an-ta 	ḫu-u-ma-an-ta-az 	ḫu-u-ma-an-ti-it 	ḫu-u-ma-an-ta 	#	-nt stem
-all	singular	common	latin	ḫūmanz 	ḫūmantan 	ḫūmantaš 	ḫūmanti 	ḫūmanti 	ḫūmanta 	ḫūmantaz(a) 	ḫūmantit 	ḫūmant 	#	-nt stem
-all	singular	neuter	cuneiform	𒄷𒌋𒈠𒀭 	𒄷𒌋𒈠𒀭 	𒄷𒌋𒈠𒀭𒋫𒀸 	𒄷𒌋𒈠𒀭𒋾 	𒄷𒌋𒈠𒀭𒋾 	𒄷𒌋𒈠𒀭𒋫 	𒄷𒌋𒈠𒀭𒋫𒊍 	𒄷𒌋𒈠𒀭𒋫𒀉 	– 	#	-nt stem
-all	singular	neuter	transliteration	ḫu-u-ma-an 	ḫu-u-ma-an 	ḫu-u-ma-an-ta-aš 	ḫu-u-ma-an-ti 	ḫu-u-ma-an-ti 	ḫu-u-ma-an-ta 	ḫu-u-ma-an-ta-az 	ḫu-u-ma-an-ti-it 	– 	#	-nt stem
-all	singular	neuter	latin	ḫūman 	ḫūman 	ḫūmantaš 	ḫūmanti 	ḫūmanti 	ḫūmanta 	ḫūmantaz(a) 	ḫūmantit 	– 	#	-nt stem
-all	plural	common	cuneiform	𒄷𒌋𒈠𒀭𒋼𒌍 	𒄷𒌋𒈠𒀭𒌅𒍑 	𒄷𒌋𒈠𒀭𒋫𒀸 	𒄷𒌋𒈠𒀭𒋫𒀸 	𒄷𒌋𒈠𒀭𒋫𒀸 	– 	𒄷𒌋𒈠𒀭𒋫𒊍 	𒄷𒌋𒈠𒀭𒋫𒀉 	– 	#	-nt stem
-all	plural	common	transliteration	ḫu-u-ma-an-te-eš 	ḫu-u-ma-an-ta-an-za 	ḫu-u-ma-an-ta-aš 	ḫu-u-ma-an-ta-aš 	ḫu-u-ma-an-ta-aš 		ḫu-u-ma-an-ta-az 	ḫu-u-ma-an-ti-it 	– 	#	-nt stem
-all	plural	common	latin	ḫūmanteš 	ḫūmantuš 	ḫūmantaš 	ḫūmantaš 	ḫūmantaš 	– 	ḫūmantaz(a) 	ḫūmantit 	– 	#	-nt stem
-all	plural	neuter	cuneiform	𒄷𒌋𒈠𒀭𒋾	𒄷𒌋𒈠𒀭𒋾	𒄷𒌋𒈠𒀭𒋫𒀸	𒄷𒌋𒈠𒀭𒋫𒀸	𒄷𒌋𒈠𒀭𒋫𒀸	–	𒄷𒌋𒈠𒀭𒋫𒊍	𒄷𒌋𒈠𒀭𒋫𒀉	–	#	-nt stem
-all	plural	neuter	transliteration	ḫu-u-ma-an-ti	ḫu-u-ma-an-ti	ḫu-u-ma-an-ta-aš	ḫu-u-ma-an-ta-aš	ḫu-u-ma-an-ta-aš		ḫu-u-ma-an-ta-az	ḫu-u-ma-an-ti-it 	–	#	-nt stem
-all	plural	neuter	latin	ḫūmanti	ḫūmanti	ḫūmantaš	ḫūmantaš	ḫūmantaš	–	ḫūmantaz(a)	"ḫūmantit 	"	–	#	-nt stem
+				nominative	accusative	genitive	dative	locative	allative	ablative	instrumental		#		
+cold	singular	common	cuneiform	𒂊𒆪𒈾𒀸 	𒂊𒆪𒈾𒀭 	𒂊𒆪𒈾𒀸 	𒂊𒆪𒉌 	𒂊𒆪𒉌 	𒂊𒆪𒈾 	𒂊𒆪𒈾𒊍 	𒂊𒆪𒉌𒀉 		#	-a stem	
+cold	singular	common	transliteration	e-ku-na-aš 	e-ku-na-an 	e-ku-na-aš 	e-ku-ni 	e-ku-ni 	e-ku-na-a 	e-ku-na-az, e-ku-na-za 	e-ku-ni-it 		#	-a stem	
+cold	singular	common	latin	ekunaš 	ekunan 	ekunaš 	ekuni 	ekuni 	ekuna 	ekunaz(a) 	ekunit 		#	-a stem	
+cold	singular	neuter	cuneiform	𒂊𒆪𒈾𒀭 	𒂊𒆪𒈾𒀭 	𒂊𒆪𒈾𒀸 	𒂊𒆪𒉌 	𒂊𒆪𒉌 	𒂊𒆪𒈾 	𒂊𒆪𒈾𒊍 	𒂊𒆪𒉌𒀉 		#	-a stem	
+cold	singular	neuter	transliteration	e-ku-na-an 	e-ku-na-an 	e-ku-na-aš 	e-ku-ni 	e-ku-ni 	e-ku-na-a 	e-ku-na-az, e-ku-na-za 	e-ku-ni-it 		#	-a stem	
+cold	singular	neuter	latin	ekunan 	ekunan 	ekunaš 	ekuni 	ekuni 	ekuna 	ekunaz(a) 	ekunit 		#	-a stem	
+cold	plural	common	cuneiform	𒂊𒆪𒉌𒅖 	𒂊𒆪𒉡𒍑 	𒂊𒆪𒈾𒀸, 𒂊𒆪𒈾𒀭 	𒂊𒆪𒈾𒀸 	𒂊𒆪𒈾𒀸 	– 	𒂊𒆪𒈾𒊍 	𒂊𒆪𒉌𒀉 		#	-a stem	
+cold	plural	common	transliteration	e-ku-ni-iš 	e-ku-na-an-za 	e-ku-na-aš, e-ku-na-an 	e-ku-na-aš 	e-ku-na-aš 		e-ku-na-az, e-ku-na-za 	e-ku-ni-it 		#	-a stem	
+cold	plural	common	latin	ekuneš 	ekunuš 	ekunaš 	ekunaš 	ekunaš 	– 	ekunaz(a) 	ekunit 		#	-a stem	
+cold	plural	neuter	cuneiform	𒂊𒆪𒉌𒀀	𒂊𒆪𒉌𒀀	𒂊𒆪𒈾𒀸, 𒂊𒆪𒈾𒀭	𒂊𒆪𒈾𒀸	𒂊𒆪𒈾𒀸	–	𒂊𒆪𒈾𒊍	𒂊𒆪𒉌𒀉		#	-a stem	
+cold	plural	neuter	transliteration	e-ku-na	e-ku-na	e-ku-na-aš, e-ku-na-an	e-ku-na-aš	e-ku-na-aš		e-ku-na-az, e-ku-na-za	e-ku-ni-it 		#	-a stem	
+cold	plural	neuter	latin	ekuna	ekuna	ekunaš	ekunaš	ekunaš	–	ekunaz(a)	ekunit 		#	-a stem	
+#big	singular			sallis	sallin	sallaiyas	sallai	sallai		sallayaz	*sallit		#	-i stem	
+#big	plural			sallaēs	sallaus	*suppayas	sallayas	sallayas		*sallayaza			#	-i stem	
+all	singular	common	cuneiform	𒄷𒌋𒈠𒀭𒍝 	𒄷𒌋𒈠𒀭𒋫𒀭 	𒄷𒌋𒈠𒀭𒋫𒀸 	𒄷𒌋𒈠𒀭𒋾 	𒄷𒌋𒈠𒀭𒋾 	𒄷𒌋𒈠𒀭𒋫 	𒄷𒌋𒈠𒀭𒋫𒊍 	𒄷𒌋𒈠𒀭𒋫𒀉 	𒄷𒌋𒈠𒀭𒋫 	#	-nt stem	
+all	singular	common	transliteration	ḫu-u-ma-an-za 	ḫu-u-ma-an-ta-an 	ḫu-u-ma-an-ta-aš 	ḫu-u-ma-an-ti 	ḫu-u-ma-an-ti 	ḫu-u-ma-an-ta 	ḫu-u-ma-an-ta-az 	ḫu-u-ma-an-ti-it 	ḫu-u-ma-an-ta 	#	-nt stem	
+all	singular	common	latin	ḫūmanz 	ḫūmantan 	ḫūmantaš 	ḫūmanti 	ḫūmanti 	ḫūmanta 	ḫūmantaz(a) 	ḫūmantit 	ḫūmant 	#	-nt stem	
+all	singular	neuter	cuneiform	𒄷𒌋𒈠𒀭 	𒄷𒌋𒈠𒀭 	𒄷𒌋𒈠𒀭𒋫𒀸 	𒄷𒌋𒈠𒀭𒋾 	𒄷𒌋𒈠𒀭𒋾 	𒄷𒌋𒈠𒀭𒋫 	𒄷𒌋𒈠𒀭𒋫𒊍 	𒄷𒌋𒈠𒀭𒋫𒀉 	– 	#	-nt stem	
+all	singular	neuter	transliteration	ḫu-u-ma-an 	ḫu-u-ma-an 	ḫu-u-ma-an-ta-aš 	ḫu-u-ma-an-ti 	ḫu-u-ma-an-ti 	ḫu-u-ma-an-ta 	ḫu-u-ma-an-ta-az 	ḫu-u-ma-an-ti-it 	– 	#	-nt stem	
+all	singular	neuter	latin	ḫūman 	ḫūman 	ḫūmantaš 	ḫūmanti 	ḫūmanti 	ḫūmanta 	ḫūmantaz(a) 	ḫūmantit 	– 	#	-nt stem	
+all	plural	common	cuneiform	𒄷𒌋𒈠𒀭𒋼𒌍 	𒄷𒌋𒈠𒀭𒌅𒍑 	𒄷𒌋𒈠𒀭𒋫𒀸 	𒄷𒌋𒈠𒀭𒋫𒀸 	𒄷𒌋𒈠𒀭𒋫𒀸 	– 	𒄷𒌋𒈠𒀭𒋫𒊍 	𒄷𒌋𒈠𒀭𒋫𒀉 	– 	#	-nt stem	
+all	plural	common	transliteration	ḫu-u-ma-an-te-eš 	ḫu-u-ma-an-ta-an-za 	ḫu-u-ma-an-ta-aš 	ḫu-u-ma-an-ta-aš 	ḫu-u-ma-an-ta-aš 		ḫu-u-ma-an-ta-az 	ḫu-u-ma-an-ti-it 	– 	#	-nt stem	
+all	plural	common	latin	ḫūmanteš 	ḫūmantuš 	ḫūmantaš 	ḫūmantaš 	ḫūmantaš 	– 	ḫūmantaz(a) 	ḫūmantit 	– 	#	-nt stem	
+all	plural	neuter	cuneiform	𒄷𒌋𒈠𒀭𒋾	𒄷𒌋𒈠𒀭𒋾	𒄷𒌋𒈠𒀭𒋫𒀸	𒄷𒌋𒈠𒀭𒋫𒀸	𒄷𒌋𒈠𒀭𒋫𒀸	–	𒄷𒌋𒈠𒀭𒋫𒊍	𒄷𒌋𒈠𒀭𒋫𒀉	–	#	-nt stem	
+all	plural	neuter	transliteration	ḫu-u-ma-an-ti	ḫu-u-ma-an-ti	ḫu-u-ma-an-ta-aš	ḫu-u-ma-an-ta-aš	ḫu-u-ma-an-ta-aš		ḫu-u-ma-an-ta-az	ḫu-u-ma-an-ti-it 	–	#	-nt stem	
+all	plural	neuter	latin	ḫūmanti	ḫūmanti	ḫūmantaš	ḫūmantaš	ḫūmantaš	–	ḫūmantaz(a)	"ḫūmantit 	"	–	#	-nt stem	
+good	singular	common	cuneiform	𒀀𒀸𒋗𒍑 	𒀀𒀸𒋗𒌦 	𒀀𒀸𒊭𒉿𒀸 	𒀀𒀸𒊭𒌑𒄿, 𒀀𒀸𒊭𒌑𒂊 	𒀀𒀸𒊭𒌑𒄿, 𒀀𒀸𒊭𒌑𒂊 	𒀀𒀸𒊭𒉿 	𒀀𒀸𒊭𒉿𒊍, 𒀀𒀸𒊭𒉿𒍝 	𒀀𒀸𒋗𒀉 		#	-u stem	needed for templates
+good	singular	common	transliteration	a-aš-šu-uš 	a-aš-šu-un 	a-aš-ša-wa-aš 	a-aš-ša-ú-i, a-aš-ša-ú-e 	a-aš-ša-ú-i, a-aš-ša-ú-e 	a-aš-ša-wa 	a-aš-ša-wa-az, a-aš-ša-wa-za 	a-aš-šu-it 		#	-u stem	needed for templates
+good	singular	common	latin	āššuš 	āššun 	āššawaš 	āššawi, āššawe 	āššawi, āššawe 	āššawa 	āššawaz(a) 	āššawit 		#	-u stem	needed for templates
+good	singular	neuter	cuneiform	𒀀𒀸𒋗 	𒀀𒀸𒋗 	𒀀𒀸𒊭𒉿𒀸 	𒀀𒀸𒊭𒌑𒄿, 𒀀𒀸𒊭𒌑𒂊 	𒀀𒀸𒊭𒌑𒄿, 𒀀𒀸𒊭𒌑𒂊 	𒀀𒀸𒊭𒉿 	𒀀𒀸𒊭𒉿𒊍, 𒀀𒀸𒊭𒉿𒍝 	𒀀𒀸𒋗𒀉 		#	-u stem	needed for templates
+good	singular	neuter	transliteration	a-aš-šu 	a-aš-šu 	a-aš-ša-wa-aš 	a-aš-ša-ú-i, a-aš-ša-ú-e 	a-aš-ša-ú-i, a-aš-ša-ú-e 	a-aš-ša-wa 	a-aš-ša-wa-az, a-aš-ša-wa-za 	a-aš-šu-it 		#	-u stem	needed for templates
+good	singular	neuter	latin	āššu 	āššu 	āššawaš 	āššawi, āššawe 	āššawi, āššawe 	āššawa 	āššawaz(a) 	āššawit 		#	-u stem	needed for templates
+good	plural	common	cuneiform	𒀀𒀸𒊭𒌑𒌍 	𒀀𒀸𒊭𒈬𒍑 	𒀀𒀸𒊭𒉿𒀸 	𒀀𒀸𒊭𒉿𒀸 	𒀀𒀸𒊭𒉿𒀸 	– 	𒀀𒀸𒊭𒉿𒊍, 𒀀𒀸𒊭𒉿𒍝 	𒀀𒀸𒋗𒀉 		#	-u stem	needed for templates
+good	plural	common	transliteration	a-aš-ša-ú-eš 	a-aš-ša-mu-uš 	a-aš-ša-wa-aš 	a-aš-ša-wa-aš 	a-aš-ša-wa-aš 		a-aš-ša-wa-az, a-aš-ša-wa-za 	a-aš-šu-it 		#	-u stem	needed for templates
+good	plural	common	latin	āššweš 	āššamuš 	āššawaš 	āššawaš 	āššawaš 	– 	āššawaz(a) 	āššawit 		#	-u stem	needed for templates
+good	plural	neuter	cuneiform	𒀀𒀸𒋗	𒀀𒀸𒋗	𒀀𒀸𒊭𒉿𒀸	𒀀𒀸𒊭𒉿𒀸	𒀀𒀸𒊭𒉿𒀸	–	𒀀𒀸𒊭𒉿𒊍, 𒀀𒀸𒊭𒉿𒍝	𒀀𒀸𒋗𒀉		#	-u stem	needed for templates
+good	plural	neuter	transliteration	a-aš-šu	a-aš-šu	a-aš-ša-wa-aš	a-aš-ša-wa-aš	a-aš-ša-wa-aš		a-aš-ša-wa-az, a-aš-ša-wa-za	a-aš-šu-it 		#	-u stem	needed for templates
+good	plural	neuter	latin	āššu	āššu	āššawaš	āššawaš	āššawaš	–	āššawaz(a)	āššawit 		#	-u stem	needed for templates
+bad	singular	common	cuneiform	𒄿𒁕𒀀𒇻𒍑 	𒄿𒁕𒀀𒇻𒌦 	𒄿𒁕𒀀𒆷𒉿𒀸 	𒄿𒁕𒀀𒆷𒌑𒄿, 𒄿𒁕𒀀𒆷𒌑𒂊 	𒄿𒁕𒀀𒆷𒌑𒄿, 𒄿𒁕𒀀𒆷𒌑𒂊 	𒄿𒁕𒀀𒆷𒉿 	𒄿𒁕𒀀𒆷𒉿𒊍, 𒄿𒁕𒀀𒆷𒉿𒍝 	𒄿𒁕𒀀𒇻𒀉 		#	-u stem	needed for templates
+bad	singular	common	transliteration	i-da-a-lu-uš 	i-da-a-lu-un 	i-da-a-la-wa-aš 	i-da-a-la-ú-i, i-da-a-la-ú-e 	i-da-a-la-ú-i, i-da-a-la-ú-e 	i-da-a-la-wa 	i-da-a-la-wa-az, i-da-a-la-wa-za 	i-da-a-lu-it 		#	-u stem	needed for templates
+bad	singular	common	latin	idāluš 	idālun 	idālawaš 	idālawi, idālawe 	idālawi, idālawe 	idālawa 	idālawaz(a) 	idālawit 		#	-u stem	needed for templates
+bad	singular	neuter	cuneiform	𒄿𒁕𒀀𒇻 	𒄿𒁕𒀀𒇻 	𒄿𒁕𒀀𒆷𒉿𒀸 	𒄿𒁕𒀀𒆷𒌑𒄿, 𒄿𒁕𒀀𒆷𒌑𒂊 	𒄿𒁕𒀀𒆷𒌑𒄿, 𒄿𒁕𒀀𒆷𒌑𒂊 	𒄿𒁕𒀀𒆷𒉿 	𒄿𒁕𒀀𒆷𒉿𒊍, 𒄿𒁕𒀀𒆷𒉿𒍝 	𒄿𒁕𒀀𒇻𒀉 		#	-u stem	needed for templates
+bad	singular	neuter	transliteration	i-da-a-lu 	i-da-a-lu 	i-da-a-la-wa-aš 	i-da-a-la-ú-i, i-da-a-la-ú-e 	i-da-a-la-ú-i, i-da-a-la-ú-e 	i-da-a-la-wa 	i-da-a-la-wa-az, i-da-a-la-wa-za 	i-da-a-lu-it 		#	-u stem	needed for templates
+bad	singular	neuter	latin	idālu 	idālu 	idālawaš 	idālawi, idālawe 	idālawi, idālawe 	idālawa 	idālawaz(a) 	idālawit 		#	-u stem	needed for templates
+bad	plural	common	cuneiform	𒄿𒁕𒀀𒆷𒌑𒌍 	𒄿𒁕𒀀𒆷𒈬𒍑 	𒄿𒁕𒀀𒆷𒉿𒀸 	𒄿𒁕𒀀𒆷𒉿𒀸 	𒄿𒁕𒀀𒆷𒉿𒀸 	– 	𒄿𒁕𒀀𒆷𒉿𒊍, 𒄿𒁕𒀀𒆷𒉿𒍝 	𒄿𒁕𒀀𒇻𒀉 		#	-u stem	needed for templates
+bad	plural	common	transliteration	i-da-a-la-ú-eš 	i-da-a-la-mu-uš 	i-da-a-la-wa-aš 	i-da-a-la-wa-aš 	i-da-a-la-wa-aš 		i-da-a-la-wa-az, i-da-a-la-wa-za 	i-da-a-lu-it 		#	-u stem	needed for templates
+bad	plural	common	latin	idālweš 	idālamuš 	idālawaš 	idālawaš 	idālawaš 	– 	idālawaz(a) 	idālawit 		#	-u stem	needed for templates
+bad	plural	neuter	cuneiform	𒄿𒁕𒀀𒇻	𒄿𒁕𒀀𒇻	𒄿𒁕𒀀𒆷𒉿𒀸	𒄿𒁕𒀀𒆷𒉿𒀸	𒄿𒁕𒀀𒆷𒉿𒀸	–	𒄿𒁕𒀀𒆷𒉿𒊍, 𒄿𒁕𒀀𒆷𒉿𒍝	𒄿𒁕𒀀𒇻𒀉		#	-u stem	needed for templates
+bad	plural	neuter	transliteration	i-da-a-lu	i-da-a-lu	i-da-a-la-wa-aš	i-da-a-la-wa-aš	i-da-a-la-wa-aš		i-da-a-la-wa-az, i-da-a-la-wa-za	i-da-a-lu-it 		#	-u stem	needed for templates
+bad	plural	neuter	latin	idālu	idālu	idālawaš	idālawaš	idālawaš	–	idālawaz(a)	idālawit 		#	-u stem	needed for templates
+poor	singular	common	cuneiform	𒀀𒅆𒉿𒀀𒀭𒍝 	𒀀𒅆𒉿𒀀𒀭𒋫𒀭 	𒀀𒅆𒉿𒀀𒀭𒋫𒀸 	𒀀𒅆𒉿𒀀𒀭𒋾 	𒀀𒅆𒉿𒀀𒀭𒋾 	𒀀𒅆𒉿𒀀𒀭𒋫 	𒀀𒅆𒉿𒀀𒀭𒋫𒊍 	𒀀𒅆𒉿𒀀𒀭𒋫𒀉 	𒀀𒅆𒉿𒀀𒀭𒋫 	#	-nt stem	
+poor	singular	common	transliteration	a-ši-wa-a-an-za 	a-ši-wa-a-an-ta-an 	a-ši-wa-a-an-ta-aš 	a-ši-wa-a-an-ti 	a-ši-wa-a-an-ti 	a-ši-wa-a-an-ta 	a-ši-wa-a-an-ta-az 	a-ši-wa-a-an-ti-it 	a-ši-wa-a-an-ta 	#	-nt stem	
+poor	singular	common	latin	ašiwanz 	ašiwantan 	ašiwantaš 	ašiwanti 	ašiwanti 	ašiwanta 	ašiwantaz(a) 	ašiwantit 	ašiwant 	#	-nt stem	
+poor	singular	neuter	cuneiform	𒀀𒅆𒉿𒀀𒀭 	𒀀𒅆𒉿𒀀𒀭 	𒀀𒅆𒉿𒀀𒀭𒋫𒀸 	𒀀𒅆𒉿𒀀𒀭𒋾 	𒀀𒅆𒉿𒀀𒀭𒋾 	𒀀𒅆𒉿𒀀𒀭𒋫 	𒀀𒅆𒉿𒀀𒀭𒋫𒊍 	𒀀𒅆𒉿𒀀𒀭𒋫𒀉 	– 	#	-nt stem	
+poor	singular	neuter	transliteration	a-ši-wa-a-an 	a-ši-wa-a-an 	a-ši-wa-a-an-ta-aš 	a-ši-wa-a-an-ti 	a-ši-wa-a-an-ti 	a-ši-wa-a-an-ta 	a-ši-wa-a-an-ta-az 	a-ši-wa-a-an-ti-it 	– 	#	-nt stem	
+poor	singular	neuter	latin	ašiwan 	ašiwan 	ašiwantaš 	ašiwanti 	ašiwanti 	ašiwanta 	ašiwantaz(a) 	ašiwantit 	– 	#	-nt stem	
+poor	plural	common	cuneiform	𒀀𒅆𒉿𒀀𒀭𒋼𒌍 	𒀀𒅆𒉿𒀀𒀭𒌅𒍑 	𒀀𒅆𒉿𒀀𒀭𒋫𒀸 	𒀀𒅆𒉿𒀀𒀭𒋫𒀸 	𒀀𒅆𒉿𒀀𒀭𒋫𒀸 	– 	𒀀𒅆𒉿𒀀𒀭𒋫𒊍 	𒀀𒅆𒉿𒀀𒀭𒋫𒀉 	– 	#	-nt stem	
+poor	plural	common	transliteration	a-ši-wa-a-an-te-eš 	a-ši-wa-a-an-ta-an-za 	a-ši-wa-a-an-ta-aš 	a-ši-wa-a-an-ta-aš 	a-ši-wa-a-an-ta-aš 		a-ši-wa-a-an-ta-az 	a-ši-wa-a-an-ti-it 	– 	#	-nt stem	
+poor	plural	common	latin	ašiwanteš 	ašiwantuš 	ašiwantaš 	ašiwantaš 	ašiwantaš 	– 	ašiwantaz(a) 	ašiwantit 	– 	#	-nt stem	
+poor	plural	neuter	cuneiform	𒀀𒅆𒉿𒀀𒀭𒋾	𒀀𒅆𒉿𒀀𒀭𒋾	𒀀𒅆𒉿𒀀𒀭𒋫𒀸	𒀀𒅆𒉿𒀀𒀭𒋫𒀸	𒀀𒅆𒉿𒀀𒀭𒋫𒀸	–	𒀀𒅆𒉿𒀀𒀭𒋫𒊍	𒀀𒅆𒉿𒀀𒀭𒋫𒀉	–	#	-nt stem	
+poor	plural	neuter	transliteration	a-ši-wa-a-an-ti	a-ši-wa-a-an-ti	a-ši-wa-a-an-ta-aš	a-ši-wa-a-an-ta-aš	a-ši-wa-a-an-ta-aš		a-ši-wa-a-an-ta-az	a-ši-wa-a-an-ti-it 	–	#	-nt stem	
+poor	plural	neuter	latin	ašiwanti	ašiwanti	ašiwantaš	ašiwantaš	ašiwantaš	–	ašiwantaz(a)	ašiwantit 	–	#	-nt stem	
+small	singular	common	cuneiform	𒋼𒁍𒍑 	𒋼𒁍𒌦 	𒋼𒉺𒉿𒀸 	𒋼𒉺𒌑𒄿, 𒋼𒉺𒌑𒂊 	𒋼𒉺𒌑𒄿, 𒋼𒉺𒌑𒂊 	𒋼𒉺𒉿 	𒋼𒉺𒉿𒊍, 𒋼𒉺𒉿𒍝 	𒋼𒁍𒀉 		#	-u stem	can be used for templates
+small	singular	common	transliteration	te-pu-uš 	te-pu-un 	te-pa-wa-aš 	te-pa-ú-i, te-pa-ú-e 	te-pa-ú-i, te-pa-ú-e 	te-pa-wa 	te-pa-wa-az, te-pa-wa-za 	te-pu-it 		#	-u stem	can be used for templates
+small	singular	common	latin	tepuš 	tepun 	tepawaš 	tepawi, tepawe 	tepawi, tepawe 	tepawa 	tepawaz(a) 	tepawit 		#	-u stem	can be used for templates
+small	singular	neuter	cuneiform	𒋼𒁍 	𒋼𒁍 	𒋼𒉺𒉿𒀸 	𒋼𒉺𒌑𒄿, 𒋼𒉺𒌑𒂊 	𒋼𒉺𒌑𒄿, 𒋼𒉺𒌑𒂊 	𒋼𒉺𒉿 	𒋼𒉺𒉿𒊍, 𒋼𒉺𒉿𒍝 	𒋼𒁍𒀉 		#	-u stem	can be used for templates
+small	singular	neuter	transliteration	te-pu 	te-pu 	te-pa-wa-aš 	te-pa-ú-i, te-pa-ú-e 	te-pa-ú-i, te-pa-ú-e 	te-pa-wa 	te-pa-wa-az, te-pa-wa-za 	te-pu-it 		#	-u stem	can be used for templates
+small	singular	neuter	latin	tepu 	tepu 	tepawaš 	tepawi, tepawe 	tepawi, tepawe 	tepawa 	tepawaz(a) 	tepawit 		#	-u stem	can be used for templates
+small	plural	common	cuneiform	𒋼𒉺𒌑𒌍 	𒋼𒉺𒈬𒍑 	𒋼𒉺𒉿𒀸 	𒋼𒉺𒉿𒀸 	𒋼𒉺𒉿𒀸 	– 	𒋼𒉺𒉿𒊍, 𒋼𒉺𒉿𒍝 	𒋼𒁍𒀉 		#	-u stem	can be used for templates
+small	plural	common	transliteration	te-pa-ú-eš 	te-pa-mu-uš 	te-pa-wa-aš 	te-pa-wa-aš 	te-pa-wa-aš 		te-pa-wa-az, te-pa-wa-za 	te-pu-it 		#	-u stem	can be used for templates
+small	plural	common	latin	tepweš 	tepamuš 	tepawaš 	tepawaš 	tepawaš 	– 	tepawaz(a) 	tepawit 		#	-u stem	can be used for templates
+small	plural	neuter	cuneiform	𒋼𒁍	𒋼𒁍	𒋼𒉺𒉿𒀸	𒋼𒉺𒉿𒀸	𒋼𒉺𒉿𒀸	–	𒋼𒉺𒉿𒊍, 𒋼𒉺𒉿𒍝	𒋼𒁍𒀉		#	-u stem	can be used for templates
+small	plural	neuter	transliteration	te-pu	te-pu	te-pa-wa-aš	te-pa-wa-aš	te-pa-wa-aš		te-pa-wa-az, te-pa-wa-za	te-pu-it 		#	-u stem	can be used for templates
+small	plural	neuter	latin	tepu	tepu	tepawaš	tepawaš	tepawaš	–	tepawaz(a)	tepawit 		#	-u stem	can be used for templates
+															

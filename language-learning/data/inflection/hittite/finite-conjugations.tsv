@@ -1,20 +1,199 @@
-				present	past	imperative
-be	active	1	singular	𒂊𒌍𒈪 	𒂊𒋗𒌦 	𒀀𒊭𒀠𒇻
-be	active	1	singular	e-eš-mi 	e-šu-un 	a-ša-al-lu
-be	active	1	singular	ēšmi 	ēšun 	ašallu
-be	active	2	singular	𒂊𒌍𒅆 	𒂊𒌍𒋫 	𒂊𒌍
-be	active	2	singular	e-eš-ši 	e-eš-ta 	e-eš
-be	active	2	singular	ēšši 	ēšt 	ēš
-be	active	3	singular	𒂊𒌍𒍣 	𒂊𒌍𒋫 	𒂊𒌍𒁺
-be	active	3	singular	e-eš-zi 	e-eš-ta 	e-eš-du
-be	active	3	singular	ēšzi 	ēšt 	ēšdu
-be	active	1	plural	𒀀𒋗𒂊𒉌 	𒂊𒋗𒂗 	𒀀𒋗𒂊𒉌
-be	active	1	plural	a-šu-e-ni 	e-šu-en 	a-šu-e-ni
-be	active	1	plural	ašueni 	ēšuen 	ašueni
-be	active	2	plural	𒀸𒋼𒉌 	𒂊𒌍𒋼𒂗 	𒂊𒌍𒋼𒂗
-be	active	2	plural	aš-te-ni 	e-eš-te-en 	e-eš-te-en
-be	active	2	plural	ašteni 	ēšten 	ēšten
-be	active	3	plural	𒀀𒊭𒀭𒍣 	𒂊𒊺𒅕 	𒀀𒊭𒀭𒁺
-be	active	3	plural	a-ša-an-zi 	e-še-er 	a-ša-an-du 
-be	active	3	plural	ašanzi 	ēšer 	ašandu
-						
+					present	past	imperative	#				
+be	active	1	singular	cuneiform	𒂊𒌍𒈪 	𒂊𒋗𒌦 	𒀀𒊭𒀠𒇻	#	consonant stem			
+be	active	1	singular	transliteration	e-eš-mi 	e-šu-un 	a-ša-al-lu	#	consonant stem			
+be	active	1	singular	latin	ēšmi 	ēšun 	ašallu	#	consonant stem			
+be	active	2	singular	cuneiform	𒂊𒌍𒅆 	𒂊𒌍𒋫 	𒂊𒌍	#	consonant stem			
+be	active	2	singular	transliteration	e-eš-ši 	e-eš-ta 	e-eš	#	consonant stem			
+be	active	2	singular	latin	ēšši 	ēšt 	ēš	#	consonant stem			
+be	active	3	singular	cuneiform	𒂊𒌍𒍣 	𒂊𒌍𒋫 	𒂊𒌍𒁺	#	consonant stem			
+be	active	3	singular	transliteration	e-eš-zi 	e-eš-ta 	e-eš-du	#	consonant stem			
+be	active	3	singular	latin	ēšzi 	ēšt 	ēšdu	#	consonant stem			
+be	active	1	plural	cuneiform	𒀀𒋗𒂊𒉌 	𒂊𒋗𒂗 	𒀀𒋗𒂊𒉌	#	consonant stem			
+be	active	1	plural	transliteration	a-šu-e-ni 	e-šu-en 	a-šu-e-ni	#	consonant stem			
+be	active	1	plural	latin	ašueni 	ēšuen 	ašueni	#	consonant stem			
+be	active	2	plural	cuneiform	𒀸𒋼𒉌 	𒂊𒌍𒋼𒂗 	𒂊𒌍𒋼𒂗	#	consonant stem			
+be	active	2	plural	transliteration	aš-te-ni 	e-eš-te-en 	e-eš-te-en	#	consonant stem			
+be	active	2	plural	latin	ašteni 	ēšten 	ēšten	#	consonant stem			
+be	active	3	plural	cuneiform	𒀀𒊭𒀭𒍣 	𒂊𒊺𒅕 	𒀀𒊭𒀭𒁺	#	consonant stem			
+be	active	3	plural	transliteration	a-ša-an-zi 	e-še-er 	a-ša-an-du 	#	consonant stem			
+be	active	3	plural	latin	ašanzi 	ēšer 	ašandu	#	consonant stem			
+work	active	1	singular	cuneiform	𒀭𒉌𒂊𒈪 	𒀭𒉌𒂗𒌦 	𒀭𒉌𒀠𒇻	#	-ye stem	needed for declension templates		
+work	active	1	singular	transliteration	an-ni-e-mi 	an-ni-en-un 	an-ni-ya-al-lu	#	-ye stem	needed for declension templates		
+work	active	1	singular	latin	anniemi 	annienun 	anniyallu	#	-ye stem	needed for declension templates		
+work	active	2	singular	cuneiform	𒀭𒉌𒂊𒅆 	𒀭𒉌𒌍 	𒀭𒉌𒂊	#	-ye stem	needed for declension templates		
+work	active	2	singular	transliteration	an-ni-e-ši 	an-ni-eš 	an-ni-e	#	-ye stem	needed for declension templates		
+work	active	2	singular	latin	annieši 	annieš 	annie(t)	#	-ye stem	needed for declension templates		
+work	active	3	singular	cuneiform	𒀭𒉌𒄑𒍣 	𒀭𒉌𒀉 	𒀭𒉌𒀉𒁺	#	-ye stem	needed for declension templates		
+work	active	3	singular	transliteration	an-ni-ez-zi 	an-ni-et 	an-ni-ed-du	#	-ye stem	needed for declension templates		
+work	active	3	singular	latin	anniezzi 	anniet 	annieddu	#	-ye stem	needed for declension templates		
+work	active	1	plural	cuneiform	𒀭𒉌𒂊𒌋𒀀𒉌 	𒀭𒉌𒂊𒌋𒂗 	𒀭𒉌𒂊𒌋𒀀𒉌	#	-ye stem	needed for declension templates		
+work	active	1	plural	transliteration	an-ni-e-u-a-ni 	an-ni-e-u-en 	an-ni-e-u-a-ni	#	-ye stem	needed for declension templates		
+work	active	1	plural	latin	anniyeweni 	anniyewen 	anniyeweni	#	-ye stem	needed for declension templates		
+work	active	2	plural	cuneiform	𒀭𒉌𒀉𒋫𒉌 	𒀭𒉌𒀉𒋼𒂗 	𒀭𒉌𒀉𒋼𒂗	#	-ye stem	needed for declension templates		
+work	active	2	plural	transliteration	an-ni-et-ta-ni 	an-ni-et-te-en 	an-ni-et-te-en	#	-ye stem	needed for declension templates		
+work	active	2	plural	latin	anniettani 	annietten 	annietten	#	-ye stem	needed for declension templates		
+work	active	3	plural	cuneiform	𒀭𒉌𒅀𒀭𒍣 	𒀭𒉌𒂊𒅕 	𒀭𒉌𒅀𒀭𒁺	#	-ye stem	needed for declension templates		
+work	active	3	plural	transliteration	an-ni-ya-an-zi 	an-ni-e-er 	an-ni-ya-an-du	#	-ye stem	needed for declension templates		
+work	active	3	plural	latin	anniyanzi 	anniēr 	anniyandu	#	-ye stem	needed for declension templates		
+work	middle	1	singular	cuneiform	𒀭𒉌𒅀𒄴𒄩𒊑 	𒀭𒉌𒅀𒄴𒄩𒀜 	𒀭𒉌𒅀𒄴𒄩𒊒	#	-ye stem	needed for declension templates		
+work	middle	1	singular	transliteration	an-ni-ya-aḫ-ḫa-ri 	an-ni-ya-aḫ-ḫa-at 	an-ni-ya-aḫ-ḫa-ru	#	-ye stem	needed for declension templates		
+work	middle	1	singular	latin	anniyaḫḫari 	anniyaḫḫat 	anniyaḫḫaru	#	-ye stem	needed for declension templates		
+work	middle	2	singular	cuneiform	𒀭𒉌𒅀𒀜𒋫𒊑 	𒀭𒉌𒀉𒋫𒀜 	𒀭𒉌𒅀𒄴𒄷𒌓	#	-ye stem	needed for declension templates		
+work	middle	2	singular	transliteration	an-ni-ya-at-ta-ri 	an-ni-et-ta-at 	an-ni-ya-aḫ-ḫu-ut	#	-ye stem	needed for declension templates		
+work	middle	2	singular	latin	anniettari 	anniettat 	anniyaḫḫut	#	-ye stem	needed for declension templates		
+work	middle	3	singular	cuneiform	𒀭𒉌𒅀𒀀𒊑, 𒀭𒉌𒀉𒋫𒊑 	𒀭𒉌𒀉𒋫𒀜 	𒀭𒉌𒅀𒀀𒊒, 𒀭𒉌𒀉𒋫𒊒	#	-ye stem	needed for declension templates		
+work	middle	3	singular	transliteration	an-ni-ya-ri, an-ni-et-ta-ri 	an-ni-et-ta-at 	an-ni-ya-ru, an-ni-et-ta-ru	#	-ye stem	needed for declension templates		
+work	middle	3	singular	latin	anniyari, anniettari 	anniettat 	anniyaru, anniettaru	#	-ye stem	needed for declension templates		
+work	middle	1	plural	cuneiform	𒀭𒉌𒅀𒀀𒌋𒉿𒀸𒋫 	𒀭𒉌𒅀𒀀𒌋𒉿𒀸𒋫𒀜 	𒀭𒉌𒅀𒀀𒌋𒉿𒀸𒋫𒀜	#	-ye stem	needed for declension templates		
+work	middle	1	plural	transliteration	an-ni-ya-u-wa-aš-ta 	an-ni-ya-u-wa-aš-ta-at 	an-ni-ya-u-wa-aš-ta-at	#	-ye stem	needed for declension templates		
+work	middle	1	plural	latin	anniyawašta 	anniyawaštat 	anniyawaštat	#	-ye stem	needed for declension templates		
+work	middle	2	plural	cuneiform	𒀭𒉌𒅀𒀜𒁺𒈠 	𒀭𒉌𒀉𒁺𒈠𒀜 	𒀭𒉌𒀉𒌅𒈠𒀜	#	-ye stem	needed for declension templates		
+work	middle	2	plural	transliteration	an-ni-ya-ad-du-ma 	an-ni-ed-du-ma-at 	an-ni-et-tu-ma-at	#	-ye stem	needed for declension templates		
+work	middle	2	plural	latin	anniyadduma 	annieddumat 	anniettumat	#	-ye stem	needed for declension templates		
+work	middle	3	plural	cuneiform	𒀭𒉌𒅀𒀭𒋫𒊑 	𒀭𒉌𒅀𒀭𒋫𒀜 	𒀭𒉌𒅀𒀭𒋫𒊒	#	-ye stem	needed for declension templates		
+work	middle	3	plural	transliteration	an-ni-ya-an-ta-ri 	an-ni-ya-an-ta-at 	an-ni-ya-an-ta-ru 	#	-ye stem	needed for declension templates		
+work	middle	3	plural	latin	anniyantari 	anniyantat 	anniyantaru	#	-ye stem	needed for declension templates		
+cool	active	1	singular	cuneiform	𒄿𒂵𒀀𒈪 	𒄿𒂵𒀀𒀭𒌦 	𒄿𒂵𒀀𒀠𒇻	#	-ai stem			
+cool	active	1	singular	transliteration	i-ga-a-mi 	i-ga-a-an-un 	i-ga-a-al-lu	#	-ai stem			
+cool	active	1	singular	latin	igāmi 	igānun 	igāllu	#	-ai stem			
+cool	active	2	singular	cuneiform	𒄿𒂵𒀀𒅆 	𒄿𒂵𒀀𒅖 	𒄿𒂵𒀀𒄿	#	-ai stem			
+cool	active	2	singular	transliteration	i-ga-a-ši 	i-ga-a-iš 	i-ga-a-i	#	-ai stem			
+cool	active	2	singular	latin	igāsi 	igāiš² 	igāi	#	-ai stem			
+cool	active	3	singular	cuneiform	𒄿𒂵𒀀𒄑𒍣 	𒄿𒂵𒀀𒀉 	𒄿𒂵𒀀𒀉𒁺	#	-ai stem			
+cool	active	3	singular	transliteration	i-ga-a-iz-zi 	i-ga-a-it 	i-ga-a-id-du	#	-ai stem			
+cool	active	3	singular	latin	igāizzi 	igāit 	igāiddu	#	-ai stem			
+cool	active	1	plural	cuneiform	𒄿𒂵𒀀𒌑𒂊𒉌 	𒄿𒂵𒀀𒌑𒂗 	𒄿𒂵𒀀𒌑𒂊𒉌	#	-ai stem			
+cool	active	1	plural	transliteration	i-ga-a-ú-e-ni 	i-ga-a-ú-en 	i-ga-a-ú-e-ni	#	-ai stem			
+cool	active	1	plural	latin	igāweni 	igāwen 	igāweni	#	-ai stem			
+cool	active	2	plural	cuneiform	𒄿𒂵𒀜𒋼𒉌 	𒄿𒂵𒀜𒋼𒂗 	𒄿𒂵𒀀𒀜𒋼𒂗	#	-ai stem			
+cool	active	2	plural	transliteration	i-ga-a-at-te-ni 	i-ga-a-at-te-en 	i-ga-a-at-te-en	#	-ai stem			
+cool	active	2	plural	latin	igātteni 	igātten 	igāitten	#	-ai stem			
+cool	active	3	plural	cuneiform	𒄿𒂵𒀀𒀭𒍣 	𒄿𒂵𒀀𒅕 	𒄿𒂵𒀀𒀭𒁺	#	-ai stem			
+cool	active	3	plural	transliteration	i-ga-a-an-zi 	i-ga-a-er 	i-ga-a-an-du	#	-ai stem			
+cool	active	3	plural	latin	igānzi 	igāer 	igāndu	#	-ai stem			
+cool	middle	1	singular	cuneiform	𒄿𒂵𒀀𒄴𒄩𒊑 	𒄿𒂵𒀀𒄴𒄩𒀜 	𒄿𒂵𒄴𒄩𒊒	#	-ai stem			
+cool	middle	1	singular	transliteration	i-ga-a-aḫ-ḫa-ri 	i-ga-a-aḫ-ḫa-at 	i-ga-a-aḫ-ḫa-ru	#	-ai stem			
+cool	middle	1	singular	latin	igāḫḫari 	igāḫḫat 	igāḫḫaru	#	-ai stem			
+cool	middle	2	singular	cuneiform	𒄿𒂵𒀀𒀜𒋫𒊑 	𒄿𒂵𒀀𒀜𒋫𒀜 	𒄿𒂵𒀀𒄴𒄷𒌓	#	-ai stem			
+cool	middle	2	singular	transliteration	i-ga-a-at-ta-ri 	i-ga-a-at-ta-at 	i-ga-a-aḫ-ḫu-ut	#	-ai stem			
+cool	middle	2	singular	latin	igāttari 	igāttat 	igāḫḫut	#	-ai stem			
+cool	middle	3	singular	cuneiform	𒄿𒂵𒀀𒊑, 𒄿𒂵𒀀𒀉𒋫𒊑 	𒄿𒂵𒀀𒀉𒋫𒀜 	𒄿𒂵𒀀𒊒, 𒄿𒂵𒀀𒀉𒋫𒊒	#	-ai stem			
+cool	middle	3	singular	transliteration	i-ga-a-ri, i-ga-a-it-ta-ri 	i-ga-a-it-ta-at 	i-ga-a-ru, i-ga-a-it-ta-ru	#	-ai stem			
+cool	middle	3	singular	latin	igāri, igāittari 	igāittat 	igāru, igāittaru	#	-ai stem			
+cool	middle	1	plural	cuneiform	𒄿𒂵𒀀𒌋𒉿𒀸𒋫 	𒄿𒂵𒀀𒌋𒉿𒀸𒋫𒀜 	𒄿𒂵𒀀𒌋𒉿𒀸𒋫𒀜	#	-ai stem			
+cool	middle	1	plural	transliteration	i-ga-a-a-u-wa-aš-ta 	i-ga-a-a-u-wa-aš-ta-at 	i-ga-a-u-wa-aš-ta-at	#	-ai stem			
+cool	middle	1	plural	latin	igāwasta 	igāwastat 	igāwastat	#	-ai stem			
+cool	middle	2	plural	cuneiform	𒄿𒂵𒀜𒁺𒈠 	𒄿𒂵𒀀𒀜𒁺𒈠𒀜 	𒄿𒂵𒀀𒀜𒌅𒈠𒀜	#	-ai stem			
+cool	middle	2	plural	transliteration	i-ga-a-ad-du-ma 	i-ga-ad-du-ma-at 	i-ga-a-at-tu-ma-at	#	-ai stem			
+cool	middle	2	plural	latin	igāttuma 	igāttumat 	igāttumat	#	-ai stem			
+cool	middle	3	plural	cuneiform	𒄿𒂵𒀀𒀭𒋫𒊑 	𒄿𒂵𒀀𒀭𒋫𒀜 	𒄿𒂵𒀀𒀭𒋫𒊒	#	-ai stem			
+cool	middle	3	plural	transliteration	i-ga-a-an-ta-ri 	i-ga-a-an-ta-at 	i-ga-a-an-ta-ru 	#	-ai stem			
+cool	middle	3	plural	latin	igāntari 	igāntat 	igāntaru	#	-ai stem			
+become cold	active	1	singular	cuneiform	𒄿𒆪𒉈𒌍𒈪 	𒄿𒆪𒉈𒌍𒋗𒌦 	𒄿𒆪𒉈𒌍𒊭𒀠𒇻	#	-ešš stem			
+become cold	active	1	singular	transliteration	i-ku-ne-eš-mi 	i-ku-ne-eš-šu-un 	i-ku-ne-eš-ša-al-lu	#	-ešš stem			
+become cold	active	1	singular	latin	ikunešmi 	ikunešnun 	ikuneššallu	#	-ešš stem			
+become cold	active	2	singular	cuneiform	𒄿𒆪𒉈𒌍𒋾 	𒄿𒆪𒉈𒌍𒋫 	𒄿𒆪𒉈𒌍	#	-ešš stem			
+become cold	active	2	singular	transliteration	i-ku-ne-eš-ti 	i-ku-ne-eš-ta 	i-ku-ne-eš	#	-ešš stem			
+become cold	active	2	singular	latin	ikunešti 	ikunešt 	ikuneš	#	-ešš stem			
+become cold	active	3	singular	cuneiform	𒄿𒆪𒉈𒌍𒍣 	𒄿𒆪𒉈𒌍𒋫 	𒄿𒆪𒉈𒌍𒁺	#	-ešš stem			
+become cold	active	3	singular	transliteration	i-ku-ne-eš-zi 	i-ku-ne-eš-ta 	i-ku-ne-eš-du	#	-ešš stem			
+become cold	active	3	singular	latin	ikunešzi 	ikunešt 	ikunešdu	#	-ešš stem			
+become cold	active	1	plural	cuneiform	𒄿𒆪𒉈𒌍𒋗𒉿𒉌 	𒄿𒆪𒉈𒌍𒋗𒂗 	𒄿𒆪𒉈𒌍𒋗𒉿𒉌	#	-ešš stem			
+become cold	active	1	plural	transliteration	i-ku-ne-eš-šu-wa-ni 	i-ku-ne-eš-šu-en 	i-ku-ne-eš-šu-wa-ni	#	-ešš stem			
+become cold	active	1	plural	latin	ikuneššuani 	ikuneššuen 	ikuneššuani	#	-ešš stem			
+become cold	active	2	plural	cuneiform	𒄿𒆪𒉈𒌍𒋫𒉌 	𒄿𒆪𒉈𒌍𒋼𒂗 	𒄿𒆪𒉈𒌍𒋼𒂗	#	-ešš stem			
+become cold	active	2	plural	transliteration	i-ku-ne-eš-ta-ni 	i-ku-ne-eš-te-en 	i-ku-ne-eš-te-en	#	-ešš stem			
+become cold	active	2	plural	latin	ikuneštani 	ikunešten 	ikunešten	#	-ešš stem			
+become cold	active	3	plural	cuneiform	𒄿𒆪𒉈𒌍𒊭𒀭𒍣 	𒄿𒆪𒉈𒌍𒊺𒅕 	𒄿𒆪𒉈𒌍𒊭𒀭𒁺	#	-ešš stem			
+become cold	active	3	plural	transliteration	i-ku-ne-eš-šan-zi 	i-ku-ne-eš-še-er 	i-ku-ne-eš-ša-an-du	#	-ešš stem			
+become cold	active	3	plural	latin	ikuneššanzi 	ikuneššer 	ikuneššandu	#	-ešš stem			
+become cold	middle	1	singular	cuneiform	𒄿𒆪𒉈𒌍𒄩𒊑 	𒄿𒆪𒉈𒌍𒄩𒀜 	𒄿𒆪𒉈𒌍𒄩𒊒	#	-ešš stem			
+become cold	middle	1	singular	transliteration	i-ku-ne-eš-ḫa-ri 	i-ku-ne-eš-ḫa-at 	i-ku-ne-eš-ḫa-ru	#	-ešš stem			
+become cold	middle	1	singular	latin	ikunešḫari 	ikunešḫat 	ikunešḫaru	#	-ešš stem			
+become cold	middle	2	singular	cuneiform	𒄿𒆪𒉈𒌍𒋫𒊑 	𒄿𒆪𒉈𒌍𒋫𒀜 	𒄿𒆪𒉈𒌍𒄷𒌓	#	-ešš stem			
+become cold	middle	2	singular	transliteration	i-ku-ne-eš-ta-ri 	i-ku-ne-eš-ta-at 	i-ku-ne-eš-ḫu-ut	#	-ešš stem			
+become cold	middle	2	singular	latin	ikuneštari 	ikuneštat 	ikunešḫut	#	-ešš stem			
+become cold	middle	3	singular	cuneiform	𒄿𒆪𒉈𒌍𒊭𒀀𒊑, 𒄿𒆪𒉈𒌍𒋫𒊑 	𒄿𒆪𒉈𒌍𒋫𒀜 	𒄿𒆪𒉈𒌍𒀀𒊒, 𒄿𒆪𒉈𒌍𒋫𒊒	#	-ešš stem			
+become cold	middle	3	singular	transliteration	i-ku-ne-eš-ša-a-ri, i-ku-ne-eš-ta-ri 	i-ku-ne-eš-ta-at 	i-ku-ne-eš-ša-a-ru, i-ku-ne-eš-ta-ru	#	-ešš stem			
+become cold	middle	3	singular	latin	ikuneššari, ikuneštari 	ikuneštat 	ikuneššaru, ikunešštaru	#	-ešš stem			
+become cold	middle	1	plural	cuneiform	𒄿𒆪𒉈𒌍𒋗𒉿𒀸𒋫 	𒄿𒆪𒉈𒌍𒋗𒉿𒀸𒋫𒀜 	𒄿𒆪𒉈𒌍𒋗𒉿𒀸𒋫𒀜	#	-ešš stem			
+become cold	middle	1	plural	transliteration	i-ku-ne-eš-šu-wa-aš-ta 	i-ku-ne-eš-šu-wa-aš-ta-at 	i-ku-ne-eš-šu-wa-aš-ta-at	#	-ešš stem			
+become cold	middle	1	plural	latin	ikuneššuašta 	ikuneššuaštat 	ikuneššuaštat	#	-ešš stem			
+become cold	middle	2	plural	cuneiform	𒄿𒆪𒉈𒌍𒁺𒈠 	𒄿𒆪𒉈𒌍𒁺𒈠𒀜 	𒄿𒆪𒉈𒌍𒌅𒈠𒀜	#	-ešš stem			
+become cold	middle	2	plural	transliteration	i-ku-ne-eš-du-ma 	i-ku-ne-eš-du-ma-at 	i-ku-ne-eš-tu-ma-at	#	-ešš stem			
+become cold	middle	2	plural	latin	ikuneššduma 	ikunešdumat 	ikuneštumat	#	-ešš stem			
+become cold	middle	3	plural	cuneiform	𒄿𒆪𒉈𒌍𒊭𒀭𒋫𒊑 	𒄿𒆪𒉈𒌍𒊭𒀭𒋫𒀜 	𒄿𒆪𒉈𒌍𒊭𒀭𒋫𒊒	#	-ešš stem			
+become cold	middle	3	plural	transliteration	i-ku-ne-eš-ša-an-ta-ri 	i-ku-ne-eš-ša-an-ta-at 	i-ku-ne-eš-ša-an-ta-ru 	#	-ešš stem			
+become cold	middle	3	plural	latin	ikuneššantari 	ikuneššantat 	ikuneššantaru	#	-ešš stem			
+teach	active	1	singular	cuneiform	𒀭𒈾𒉡𒈪 	𒀭𒈾𒉡𒌦 	𒀭𒈾𒉡𒀠𒇻	#	-nu stem			
+teach	active	1	singular	transliteration	an-na-nu-mi 	an-na-nu-un 	an-na-nu-al-lu	#	-nu stem			
+teach	active	1	singular	latin	annanumi 	annanunun 	annanuwallu	#	-nu stem			
+teach	active	2	singular	cuneiform	𒀭𒈾𒉡𒅆 	𒀭𒈾𒉡𒋫 	𒀭𒈾𒉡	#	-nu stem			
+teach	active	2	singular	transliteration	an-na-nu-ši 	an-na-nu-ut 	an-na-nu	#	-nu stem			
+teach	active	2	singular	latin	annanuši 	annanut 	annanu	#	-nu stem			
+teach	active	3	singular	cuneiform	𒀭𒈾𒉡𒊻𒍣 	𒀭𒈾𒉡𒋫 	𒀭𒈾𒉡𒁺	#	-nu stem			
+teach	active	3	singular	transliteration	an-na-nu-uz-zi 	an-na-nu-ut 	an-na-nu-ud-du	#	-nu stem			
+teach	active	3	singular	latin	annanuzzi 	annanut 	annanuddu	#	-nu stem			
+teach	active	1	plural	cuneiform	𒀭𒈾𒉡𒈠𒉌 	𒀭𒈾𒉡𒈨𒂗 	𒀭𒈾𒉡𒈠𒉌	#	-nu stem			
+teach	active	1	plural	transliteration	an-na-nu-ma-ni 	an-na-nu-me-en 	an-na-nu-ma-ni	#	-nu stem			
+teach	active	1	plural	latin	annanumani 	annanumen 	annanumani	#	-nu stem			
+teach	active	2	plural	cuneiform	𒀭𒈾𒉡𒋫𒉌 	𒀭𒈾𒉡𒋼𒂗 	𒀭𒈾𒉡𒋼𒂗	#	-nu stem			
+teach	active	2	plural	transliteration	an-na-nu-ut-ta-ni 	an-na-nu-ut-te-en 	an-na-nu-ut-te-en	#	-nu stem			
+teach	active	2	plural	latin	annanuttani 	annanutten 	annanutten	#	-nu stem			
+teach	active	3	plural	cuneiform	𒀭𒈾𒉡𒀭𒍣 	𒀭𒈾𒉡𒅕 	𒀭𒈾𒉡𒀭𒁺	#	-nu stem			
+teach	active	3	plural	transliteration	an-na-nu-an-zi 	an-na-nu-er 	an-na-nu-an-du	#	-nu stem			
+teach	active	3	plural	latin	annanuwanzi 	annanuer 	annanuwandu	#	-nu stem			
+teach	middle	1	singular	cuneiform	𒀭𒈾𒉡𒄴𒄩𒊑 	𒀭𒈾𒉡𒄴𒄩𒀜 	𒀭𒈾𒉡𒄴𒄩𒊒	#	-nu stem			
+teach	middle	1	singular	transliteration	an-na-nu-uḫ-ḫa-ri 	an-na-nu-uḫ-ḫa-at 	an-na-nu-uḫ-ḫa-ru	#	-nu stem			
+teach	middle	1	singular	latin	annanuḫḫari 	annanuḫḫat 	annanuḫḫaru	#	-nu stem			
+teach	middle	2	singular	cuneiform	𒀭𒈾𒉡𒌓𒋫𒊑 	𒀭𒈾𒉡𒌓𒋫𒀜 	𒀭𒈾𒉡𒄴𒄷𒌓	#	-nu stem			
+teach	middle	2	singular	transliteration	an-na-nu-ut-ta-ri 	an-na-nu-ut-ta-at 	an-na-nu-ḫu-ut	#	-nu stem			
+teach	middle	2	singular	latin	annanuttari 	annanutat 	annanuḫḫut	#	-nu stem			
+teach	middle	3	singular	cuneiform	𒀭𒈾𒉡𒀀𒊑, 𒀭𒈾𒉡𒌓𒋫𒊑 	𒀭𒈾𒉡𒌓𒋫𒀜 	𒀭𒈾𒉡𒀀𒊒, 𒀭𒈾𒉡𒌓𒋫𒊒	#	-nu stem			
+teach	middle	3	singular	transliteration	an-na-nu-a-ri, an-na-nu-ut-ta-ri 	an-na-nu-ut-ta-at 	an-na-nu-a-ru, an-na-nu-ut-ta-ru	#	-nu stem			
+teach	middle	3	singular	latin	annanuari, annanuttari 	annanutat 	annanuwaru, annanuttaru	#	-nu stem			
+teach	middle	1	plural	cuneiform	𒀭𒈾𒉡𒈠𒀸𒋫 	𒀭𒈾𒉡𒈠𒀸𒋫𒀜 	𒀭𒈾𒉡𒈠𒀸𒋫𒀜	#	-nu stem			
+teach	middle	1	plural	transliteration	an-na-nu-ma-aš-ta 	an-na-nu-ma-aš-ta-at 	an-na-nu-ma-aš-ta-at	#	-nu stem			
+teach	middle	1	plural	latin	annanumašta 	annanumaštat 	annanumaštat	#	-nu stem			
+teach	middle	2	plural	cuneiform	𒀭𒈾𒉡𒌓𒁺𒈠 	𒀭𒈾𒉡𒌓𒁺𒈠𒀜 	𒀭𒈾𒉡𒌓𒌅𒈠𒀜	#	-nu stem			
+teach	middle	2	plural	transliteration	an-na-nu-ud-du-ma 	an-na-nu-ud-du-ma-at 	an-na-nu-tu-ma-at	#	-nu stem			
+teach	middle	2	plural	latin	annanudduma 	annanudumat 	annanuttumat	#	-nu stem			
+teach	middle	3	plural	cuneiform	𒀭𒈾𒉡𒀭𒋫𒊑 	𒀭𒈾𒉡𒀭𒋫𒀜 	𒀭𒈾𒉡𒀭𒋫𒊒	#	-nu stem			
+teach	middle	3	plural	transliteration	an-na-nu-an-ta-ri 	an-na-nu-an-ta-at 	an-na-nu-an-ta-ru 	#	-nu stem			
+teach	middle	3	plural	latin	annanuanttari 	annanuantat 	annanuantaru	#	-nu stem			
+eat	active	1	singular	cuneiform	𒂊𒀉𒈪 	𒂊𒁺𒌦 	𒀀𒁕𒀠𒇻	#	irregular			
+eat	active	1	singular	transliteration	e-et-mi 	e-du-un 	a-da-al-lu	#	irregular			
+eat	active	1	singular	latin	ēdmi 	ēdun 	adallu	#	irregular			
+eat	active	2	singular	cuneiform	𒂊𒄑𒅆 	𒂊𒄑𒍝𒀜𒋫 	𒂊𒀉	#	irregular			
+eat	active	2	singular	transliteration	e-ez-ši 	e-ez-za-at-ta 	e-et	#	irregular			
+eat	active	2	singular	latin	ēzši 	ēz(za)tta 	ēd	#	irregular			
+eat	active	3	singular	cuneiform	𒂊𒄑𒍝𒊍𒍣 	𒂊𒄑𒍝𒀜𒋫 	𒂊𒄑𒍝𒀸𒁺	#	irregular			
+eat	active	3	singular	transliteration	e-ez-za-az-zi 	e-ez-za-at-ta 	e-ez-za-aš-du	#	irregular			
+eat	active	3	singular	latin	ēzzazzi 	ēz(za)tta 	ēzzašdu	#	irregular			
+eat	active	1	plural	cuneiform	𒀀𒁺𒂊𒉌 	𒂊𒁺𒂗 	𒀀𒁺𒂊𒉌	#	irregular			
+eat	active	1	plural	transliteration	a-du-e-ni 	e-du-en 	a-du-e-ni	#	irregular			
+eat	active	1	plural	latin	adueni 	ēduen 	adueni	#	irregular			
+eat	active	2	plural	cuneiform	𒊍𒍝𒀸𒋼𒉌 	𒂊𒄑𒍝𒀸𒋼𒂗 	𒂊𒄑𒍝𒀸𒋼𒂗	#	irregular			
+eat	active	2	plural	transliteration	az-za-aš-te-ni 	e-ez-za-aš-te-en 	e-ez-za-aš-te-en	#	irregular			
+eat	active	2	plural	latin	az(za)šteni 	ēz(za)šten 	ēzzašten	#	irregular			
+eat	active	3	plural	cuneiform	𒀀𒁕𒀭𒍣 	𒂊𒁲𒅕 	𒀀𒁕𒀭𒁺	#	irregular			
+eat	active	3	plural	transliteration	a-da-an-zi 	e-de-er 	a-da-an-du 	#	irregular			
+eat	active	3	plural	latin	adanzi 	ēder 	adandu	#	irregular			
+burn	active	1	singular	cuneiform	𒉿𒅈𒄩𒊑 	𒉿𒅈𒄩𒀜 	𒉿𒅈𒄩𒊒	#	irregular			
+burn	active	1	singular	transliteration	wa-ar-ḫa-ri 	wa-ar-ḫa-at 	wa-ar-ḫa-ru	#	irregular			
+burn	active	1	singular	latin	warḫari 	warḫat 	waraḫḫaru	#	irregular			
+burn	active	2	singular	cuneiform	𒉿𒅈𒋫𒊑 	𒉿𒅈𒋫𒀜 	𒉿𒅈𒄷𒌓	#	irregular			
+burn	active	2	singular	transliteration	wa-ar-ta-ri 	wa-ar-ta-at 	wa-ar-ḫu-ut	#	irregular			
+burn	active	2	singular	latin	wartari 	wartat 	warḫut	#	irregular			
+burn	active	3	singular	cuneiform	𒉿𒊏𒊑, 𒉿𒅈𒋫𒊑 	𒉿𒅈𒋫𒀜 	𒉿𒊏𒊒, 𒉿𒅈𒋫𒊒	#	irregular			
+burn	active	3	singular	transliteration	wa-ra-ri, wa-ar-ta-ri 	wa-ar-ta-at 	wa-ra-ru, wa-ar-ta-ru	#	irregular			
+burn	active	3	singular	latin	warari, wartari 	wartat 	wararu, wartaru	#	irregular			
+burn	active	1	plural	cuneiform	𒉿𒊒𒉿𒀸𒋫 	𒉿𒊒𒉿𒀸𒋫𒀜 	𒉿𒊒𒉿𒀸𒋫𒀜	#	irregular			
+burn	active	1	plural	transliteration	wa-ru-wa-aš-ta 	wa-ru-wa-aš-ta-at 	wa-ru-wa-aš-ta-at	#	irregular			
+burn	active	1	plural	latin	waruašta 	waruaštat 	waruaštat	#	irregular			
+burn	active	2	plural	cuneiform	𒉿𒅈𒁺𒈠 	𒉿𒅈𒁺𒈠𒀜 	𒉿𒅈𒌅𒈠𒀜	#	irregular			
+burn	active	2	plural	transliteration	wa-ar-du-ma 	wa-ar-du-ma-at 	wa-ar-tu-ma-at	#	irregular			
+burn	active	2	plural	latin	warduma 	wardumat 	wartumat	#	irregular			
+burn	active	3	plural	cuneiform	𒉿𒊏𒀭𒋫𒊑 	𒉿𒊏𒀭𒋫𒀜 	𒀀𒀭𒋫𒊒	#	irregular			
+burn	active	3	plural	transliteration	wa-ra-an-ta-ri 	wa-ra-an-ta-at 	wa-ra-an-ta-ru 	#	irregular			
+burn	active	3	plural	latin	warantari 	warantat 	warantaru	#	irregular			
