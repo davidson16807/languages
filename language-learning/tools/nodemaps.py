@@ -37,22 +37,22 @@ class ListGrammar:
             else missing_value if sememe not in self.declension_lookups[sememe]
             else self.declension_lookups[sememe][sememe]]
     def conjugate(self, trees, content, tags):
-        _tags = {**tags, **self.tags, 'verb':content[1]}
+        sememe = {**tags, **self.tags, 'verb':content[1]}
         return [content[0], 
-            None if _tags not in self.conjugation_lookups[_tags]
-            else self.conjugation_lookups[_tags][_tags]]
+            None if sememe not in self.conjugation_lookups[sememe]
+            else self.conjugation_lookups[sememe][sememe]]
     def stock_modifier(self, language_type):
         def _stock_modifier(trees, content, tags):
-            _tags = {**tags, **self.tags, 'language-type': language_type}
+            sememe = {**tags, **self.tags, 'language-type': language_type}
             return [content[0], 
-                None if _tags not in self.conjugation_lookups['argument']
-                else self.conjugation_lookups['argument'][_tags]]
+                None if sememe not in self.conjugation_lookups['argument']
+                else self.conjugation_lookups['argument'][sememe]]
         return _stock_modifier
     def stock_adposition(self, trees, content, tags):
-        _tags = {**tags, **self.tags}
+        sememe = {**tags, **self.tags}
         return [content[0], 
-            None if _tags not in self.use_case_to_grammatical_case
-            else self.use_case_to_grammatical_case[_tags]['adposition']]
+            None if sememe not in self.use_case_to_grammatical_case
+            else self.use_case_to_grammatical_case[sememe]['adposition']]
 
 class RuleSyntax:
     """

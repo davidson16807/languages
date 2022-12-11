@@ -66,7 +66,6 @@ class Emoji:
                 else tags['noun'] if tags['noun'] not in self.nouns_to_depictions 
                 else self.nouns_to_depictions[tags['noun']])
             alttags = {**tags, 'noun':depiction}
-            # if 'adjective' in tags: breakpoint()
             noun = (self.noun_adjective_lookups[tags] if tags in self.noun_adjective_lookups
                 else self.noun_lookups[alttags] if alttags in self.noun_lookups
                 else self.noun_lookups[tags] if tags in self.noun_lookups 
@@ -151,4 +150,5 @@ class Language:
             # print(i)
             # print(tree)
             tree = step.map(tree)
+        # return formatting.map(tree)
         return formatting.map(tree) if not validation or validation.map(tree) else None
