@@ -363,15 +363,19 @@ possessive_pronoun_annotation  = CellAnnotation(
 common_noun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
+noun_adjective_annotation  = CellAnnotation(
+    tag_to_tagaxis, {}, {0:'adjective',1:'noun'},
+    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 declension_template_noun_annotation = CellAnnotation(
     tag_to_tagaxis, {0:'language'}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
-mood_annotation        = CellAnnotation(
+mood_annotation = CellAnnotation(
     {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
 
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups)
 declension_population  = NestedLookupPopulation(declension_template_lookups)
-predicate_population = FlatLookupPopulation(DictLookup('predicate', DictTupleIndexing(['verb-form','voice','tense','aspect'])))
+emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleIndexing(['noun','number'])))
+emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])))
 mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])))
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
@@ -396,15 +400,27 @@ emoji_shorthand = EmojiInflectionShorthand(
     EmojiModifierShorthand(),
 )
 
+nouns_to_depictions = {
+    'animal':'cow',
+    'thing':'bolt',
+    'phenomenon': 'eruption',
+}
+
 emoji = Emoji(
+    nouns_to_depictions,
+    emoji_noun_adjective_population.index(
+        noun_adjective_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/adjective-agreement.tsv'), 1, 2)),
+    emoji_noun_population.index(
+        common_noun_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/noun-declension.tsv'), 1, 2)),
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'), 1, 1)),
-    emoji_shorthand, HtmlTenseTransform(), HtmlAspectTransform(), 
+    emoji_shorthand, 
+    HtmlTenseTransform(), 
+    HtmlAspectTransform(), 
 )
-
-
-
 
 tsv_parsing = SeparatedValuesFileParsing()
 rows = [
@@ -660,11 +676,6 @@ write('flashcards/noun-declension/latin.html',
             'script':     'latin',
             'verb-form':  'finite',
         },
-        nouns_to_predicates = {
-            'animal':'cow',
-            'thing':'bolt',
-            'phenomenon': 'eruption',
-        },
         tag_templates ={
             'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
@@ -681,6 +692,7 @@ write('flashcards/noun-declension/latin.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
+        nouns_to_depictions = nouns_to_depictions,
         substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
@@ -868,18 +880,20 @@ write('flashcards/adjective-agreement/latin.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
-        emoji_lemma = 'adjective',
         substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
     ))
 
 
 """
-write('flashcards/possessive-pronouns/latin.html', 
+
+write('flashcards/pronoun-possessives/latin.html', 
     card_generation.declension(
         latin, 
         DictTupleIndexing([
             # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', 'adjective',
+            'motion', 'role', 'number', 'noun', 'gender', 
+            'possessor-clusivity', 'possessor-formality', 
+            'possessor-noun', 'possessor-gender', 'possessor-person', 'possessor-number',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
@@ -930,7 +944,7 @@ write('flashcards/possessive-pronouns/latin.html',
                     ('woman', 'neuter',    'livestock'),
                     ('snake', 'masculine', 'son'      ),
                     ('snake', 'feminine',  'daughter' ),
-                    ('snake', 'neuter',    'egg'      ),
+                    ('snake', 'neuter',    'name'     ),
                 })
             ],
         tag_templates ={
@@ -939,7 +953,7 @@ write('flashcards/possessive-pronouns/latin.html',
             'patient'    : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
             'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
             'theme'      : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'noun-form':'common'},
+            'test'       : {'noun-form':'personal-possessive'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
         persons = [
@@ -949,9 +963,11 @@ write('flashcards/possessive-pronouns/latin.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
-        emoji_lemma = 'possessor-noun',
-        substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
+        substitutions = [
+            {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])}
+        ],
     ))
+
 """
 
 

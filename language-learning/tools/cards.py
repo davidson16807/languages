@@ -85,7 +85,7 @@ class CardGeneration:
             foreign, 
             traversal, 
             filter_lookups=[],
-            nouns_to_predicates={},
+            nouns_to_depictions={},
             substitutions = [],
             tagspace={},
             tag_templates={},
@@ -98,7 +98,7 @@ class CardGeneration:
                   test_tags in foreign.grammar.use_case_to_grammatical_case):
                 noun = test_tags['noun']
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
-                predicate = nouns_to_predicates[noun] if noun in nouns_to_predicates else noun
+                predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
                 match = self.declension_template_matching.match(predicate, test_tags['motion'], test_tags['role'])
                 if match:
                     tree = self.parsing.parse(match['syntax-tree'])
@@ -126,8 +126,7 @@ class CardGeneration:
                         'noun':test_tags[emoji_lemma], 
                         'script': 'emoji'
                     }
-                    emoji_text = self.emoji.decline(emoji_key, 
-                        match['emoji'], foreign.grammar.declension_lookups[emoji_key][emoji_key], persons)
+                    emoji_text = self.emoji.decline(emoji_key, match['emoji'], persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.english_word(english_map(english_text)),

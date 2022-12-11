@@ -23,7 +23,9 @@ class DictKeyIndexing:
         '''
         key = self.key
         if type(dictkey) in {dict}:
-            return dictkey[key] if type(dictkey[key]) in {set,list} else [dictkey[key]]
+            return ([] if key not in dictkey 
+                    else dictkey[key] if type(dictkey[key]) in {set,list} 
+                    else [dictkey[key]])
         elif type(dictkey) in {set,list}:
             return dictkey
         else:
@@ -57,5 +59,7 @@ class DictTupleIndexing:
         dictkey = {**self.defaults, **dictkey}
         return [tuple(reversed(tuplekey)) 
                 for tuplekey in itertools.product(
-                    *[dictkey[key] if type(dictkey[key]) in {set,list} else [dictkey[key]]
+                    *[[] if key not in dictkey
+                      else dictkey[key] if type(dictkey[key]) in {set,list} 
+                      else [dictkey[key]]
                       for key in reversed(self.keys)])]

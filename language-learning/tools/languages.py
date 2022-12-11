@@ -4,11 +4,17 @@ from .shorthands import EmojiPerson
 from .treemaps import ListTreeMap, RuleTreeMap
 
 class Emoji:
-    def __init__(self, 
+    def __init__(self,
+            nouns_to_depictions,
+            noun_adjective_lookups,
+            noun_lookups, 
             mood_templates, 
             emojiInflectionShorthand, 
             htmlTenseTransform, 
             htmlAspectTransform):
+        self.nouns_to_depictions = nouns_to_depictions
+        self.noun_adjective_lookups = noun_adjective_lookups
+        self.noun_lookups = noun_lookups
         self.emojiInflectionShorthand = emojiInflectionShorthand
         self.htmlTenseTransform = htmlTenseTransform
         self.htmlAspectTransform = htmlAspectTransform
@@ -41,7 +47,16 @@ class Emoji:
         recounting = recounting.replace('\\scene', scene)
         recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
         return recounting
-    def decline(self, tags, scene, noun, persons):
+    def decline(self, tags, scene, persons):
+        depiction = ('missing' if 'noun' not in tags 
+            else tags['noun'] if tags['noun'] not in self.nouns_to_depictions 
+            else self.nouns_to_depictions[tags['noun']])
+        alttags = {**tags, 'noun':depiction}
+        # if 'adjective' in tags: breakpoint()
+        noun = (self.noun_adjective_lookups[tags] if tags in self.noun_adjective_lookups
+            else self.noun_lookups[alttags] if alttags in self.noun_lookups
+            else self.noun_lookups[tags] if tags in self.noun_lookups 
+            else '🚫')
         scene = scene.replace('\\declined', noun)
         scene = self.emojiInflectionShorthand.decode(scene, 
             EmojiPerson(
@@ -75,11 +90,15 @@ class Language:
             'perfect':    {'aspect': 'perfect'},
             'imperfect':  {'aspect': 'imperfect'},
             'aorist':     {'aspect': 'aorist'},
-            'infinitive': {'verb-form': 'infinitive'},
-            'finite':     {'verb-form': 'finite'},
             'active':     {'voice': 'active'},
             'passive':    {'voice': 'passive'},
             'middle':     {'voice': 'middle'},
+            'infinitive': {'verb-form': 'infinitive'},
+            'finite':     {'verb-form': 'finite'},
+            'common':     {'noun-form': 'common'},
+            'personal':   {'noun-form': 'personal'},
+            'common-possessive':   {'noun-form': 'common-possessive'},
+            'personal-possessive': {'noun-form': 'personal-possessive'},
             **semes
         }
         tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}

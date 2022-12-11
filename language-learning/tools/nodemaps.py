@@ -30,7 +30,7 @@ class ListGrammar:
             **tags, 
             **self.tags, 
             'case':self.use_case_to_grammatical_case[tags]['case'], 
-            'noun':content[1]
+            'noun':content[1] if len(content)>1 else None
         }
         return [content[0], 
             missing_value if sememe not in self.declension_lookups
