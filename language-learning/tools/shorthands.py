@@ -193,8 +193,9 @@ class EmojiAnnotationShorthand:
     def decode(self, code):
         emoji = code
         emoji = self.bracketedShorthand.decode(r'\\group', emoji, 
-                    lambda code:self.positioning.group(code,1.5))
-        emoji = self.bracketedShorthand.decode(r'\\flex', emoji, self.positioning.flex(code))
+                    lambda code:self.positioning.group(code,2))
+        emoji = self.bracketedShorthand.decode(r'\\flex', emoji, 
+                    lambda code: self.positioning.flex(code))
         for (shorthand, parameters) in self.shorthand_functions:
             emoji = self.bracketedShorthand.decode(shorthand, emoji, 
                         lambda code:self.positioning.offset(code,*parameters))

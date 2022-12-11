@@ -90,7 +90,6 @@ class CardGeneration:
             tagspace={},
             tag_templates={},
             english_map=lambda x:x,
-            emoji_lemma = 'noun',
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
@@ -123,7 +122,7 @@ class CardGeneration:
                         **tag_templates['test'], 
                         **tag_templates['emoji'], 
                         'case':case, 
-                        'noun':test_tags[emoji_lemma], 
+                        'noun':test_tags['noun'],
                         'script': 'emoji'
                     }
                     emoji_text = self.emoji.decline(emoji_key, match['emoji'], persons)

@@ -48,15 +48,29 @@ class Emoji:
         recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
         return recounting
     def decline(self, tags, scene, persons):
-        depiction = ('missing' if 'noun' not in tags 
-            else tags['noun'] if tags['noun'] not in self.nouns_to_depictions 
-            else self.nouns_to_depictions[tags['noun']])
-        alttags = {**tags, 'noun':depiction}
-        # if 'adjective' in tags: breakpoint()
-        noun = (self.noun_adjective_lookups[tags] if tags in self.noun_adjective_lookups
-            else self.noun_lookups[alttags] if alttags in self.noun_lookups
-            else self.noun_lookups[tags] if tags in self.noun_lookups 
-            else '🚫')
+        if tags['noun-form'] == 'personal-possessive':
+            possessed = self.decline({**tags, 'noun-form':'common'}, '\\declined', persons)
+            possessor = self.decline({
+                    'noun-form': 'pronoun',
+                    'noun': tags['possessor-noun'].replace('-possessor',''),
+                    'person': tags['possessor-person'].replace('-possessor','')[0],
+                    'number': tags['possessor-number'].replace('-possessor',''),
+                    'gender': tags['possessor-gender'].replace('-possessor',''),
+                    'clusivity': tags['possessor-clusivity'].replace('-possessor',''),
+                    'formality': tags['possessor-formality'].replace('-possessor',''),
+                    'script': 'emoji',
+                }, '\\declined', persons)
+            noun = '\\flex{'+possessed+'\\r{'+possessor+'}}'
+        else:
+            depiction = ('missing' if 'noun' not in tags 
+                else tags['noun'] if tags['noun'] not in self.nouns_to_depictions 
+                else self.nouns_to_depictions[tags['noun']])
+            alttags = {**tags, 'noun':depiction}
+            # if 'adjective' in tags: breakpoint()
+            noun = (self.noun_adjective_lookups[tags] if tags in self.noun_adjective_lookups
+                else self.noun_lookups[alttags] if alttags in self.noun_lookups
+                else self.noun_lookups[tags] if tags in self.noun_lookups 
+                else '🚫')
         scene = scene.replace('\\declined', noun)
         scene = self.emojiInflectionShorthand.decode(scene, 
             EmojiPerson(

@@ -338,9 +338,9 @@ declension_template_lookups = DictLookup(
                     'possessor-gender', 
                     'possessor-clusivity',   # needed for Quechua
                     'possessor-formality',   # needed for Spanish ('voseo')
-                    'number',           
-                    'gender',           
-                    'case',           
+                    'number',
+                    'gender',
+                    'case',
                     'clitic',
                     'script',
                 ])),
@@ -565,7 +565,7 @@ latin = Language(
                 tsv_parsing.rows('data/inflection/latin/classic/finite-conjugations.tsv'), 3, 4),
             *nonfinite_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/nonfinite-conjugations.tsv'), 6, 2),
-            *filter(has_annotation('language','latin'),
+            *filter(has_annotation('language','classical-latin'),
                 declension_verb_annotation.annotate(
                     tsv_parsing.rows(
                         'data/inflection/declension-template-verbs-minimal.tsv'), 2, 9)),
@@ -579,7 +579,7 @@ latin = Language(
                 tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv'), 1, 3),
             *possessive_pronoun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/pronoun-possessives.tsv'), 3, 3),
-            *filter(has_annotation('language','latin'),
+            *filter(has_annotation('language','classical-latin'),
                 declension_template_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
         ]),
@@ -884,7 +884,6 @@ write('flashcards/adjective-agreement/latin.html',
     ))
 
 
-"""
 
 write('flashcards/pronoun-possessives/latin.html', 
     card_generation.declension(
@@ -892,8 +891,9 @@ write('flashcards/pronoun-possessives/latin.html',
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
+            'possessor-gender', 'possessor-noun', 
             'possessor-clusivity', 'possessor-formality', 
-            'possessor-noun', 'possessor-gender', 'possessor-person', 'possessor-number',
+            'possessor-person', 'possessor-number',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
@@ -909,7 +909,7 @@ write('flashcards/pronoun-possessives/latin.html',
             'noun':      ['son','daughter','livestock'],
             'number':    ['singular','plural'],
             'gender':    ['masculine','feminine','neuter'],
-            'person':     '3',
+            'person':    ['1','2','3'],
             'clusivity':  'exclusive',
             'animacy':    'thing',
             'clitic':     'tonic',
@@ -925,14 +925,6 @@ write('flashcards/pronoun-possessives/latin.html',
         },
         filter_lookups = [
             DictLookup(
-                'possessive pronoun filter', 
-                DictTupleIndexing(['possessor-gender', 'possessor-noun']),
-                content = {
-                    ('masculine-possessor', 'man'  ),
-                    ('feminine-possessor',  'woman'),
-                    ('neuter-possessor',    'snake'),
-                }),
-            DictLookup(
                 'possessive pronoun possession filter', 
                 DictTupleIndexing(['possessor-noun', 'gender', 'noun']),
                 content = {
@@ -945,7 +937,22 @@ write('flashcards/pronoun-possessives/latin.html',
                     ('snake', 'masculine', 'son'      ),
                     ('snake', 'feminine',  'daughter' ),
                     ('snake', 'neuter',    'name'     ),
-                })
+                }),
+            DictLookup(
+                'pronoun filter', 
+                DictTupleIndexing(['possessor-noun', 'possessor-person', 'possessor-number', 'possessor-gender']),
+                content = {
+                    ('man',   '1st-possessor', 'singular-possessor', 'neuter-possessor'   ),
+                    ('woman', '2nd-possessor', 'singular-possessor', 'feminine-possessor' ),
+                    ('man',   '3rd-possessor', 'singular-possessor', 'masculine-possessor'),
+                    ('woman', '3rd-possessor', 'singular-possessor', 'feminine-possessor' ),
+                    ('snake', '3rd-possessor', 'singular-possessor', 'neuter-possessor'   ),
+                    ('man',   '1st-possessor', 'plural-possessor',   'neuter-possessor'   ),
+                    ('woman', '2nd-possessor', 'plural-possessor',   'feminine-possessor' ),
+                    ('man',   '3rd-possessor', 'plural-possessor',   'masculine-possessor'),
+                    ('woman', '3rd-possessor', 'plural-possessor',   'feminine-possessor' ),
+                    ('man',   '3rd-possessor', 'plural-possessor',   'neuter-possessor'   ),
+                }),
             ],
         tag_templates ={
             'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
@@ -954,7 +961,7 @@ write('flashcards/pronoun-possessives/latin.html',
             'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
             'theme'      : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'personal-possessive'},
-            'emoji'      : {'noun-form':'common', 'person':'4'},
+            'emoji'      : {'person':'4'},
         },
         persons = [
             EmojiPerson('s','n',3),
@@ -963,11 +970,13 @@ write('flashcards/pronoun-possessives/latin.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
+        english_map=replace([('your♀','your'),('you all♀','you all')]), 
         substitutions = [
             {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])}
         ],
     ))
 
+"""
 """
 
 
