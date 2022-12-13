@@ -50,9 +50,8 @@ class ListGrammar:
         return _stock_modifier
     def stock_adposition(self, trees, content, tags):
         sememe = {**tags, **self.tags}
-        return [content[0], 
-            None if sememe not in self.use_case_to_grammatical_case
-            else self.use_case_to_grammatical_case[sememe]['adposition']]
+        return ([] if sememe not in self.use_case_to_grammatical_case 
+            else [content[0], self.use_case_to_grammatical_case[sememe]['adposition']])
 
 class RuleSyntax:
     """

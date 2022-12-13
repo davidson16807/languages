@@ -1,11 +1,41 @@
-									singular	singular	singular	plural	plural	plural	singular	singular	singular	plural	plural	plural
-			masculine	feminine	neuter	masculine	feminine	neuter	masculine	feminine	neuter	masculine	feminine	neuter	masculine	feminine	neuter	masculine	feminine	neuter
-			nominative	nominative	nominative	accusative	accusative	accusative	genitive	genitive	genitive	genitive	genitive	genitive	ablative	ablative	ablative	ablative	ablative	ablative
-1st-possessor	singular-possessor		meus	mea	meum	meum	meam	meum	meō	meae	meō	meīs	meīs	meīs	meō	meae	meō	meīs	meīs	meīs
-1st-possessor	plural-possessor		noster	nostra	nostrum	nostrum	nostram	nostrum	nostrō	nostrae	nostrō	nostrīs	nostrīs	nostrīs	nostrō	nostrae	nostrō	nostrīs	nostrīs	nostrīs
-2nd-possessor	singular-possessor		tuus	tua	tuum	tuum	tuam	tuum	tuō	tuae	tuō	tuīs	tuīs	tuīs	tuō	tuae	tuō	tuīs	tuīs	tuīs
-2nd-possessor	plural-possessor		vester	vestra	vestrum	vestrum	vestram	vestrum	vestrō	vestrae	vestrō	vestrīs	vestrīs	vestrīs	vestrō	vestrā	vestrō	vestrīs	vestrīs	vestrīs
-3rd-possessor	singular-possessor		eius	eius	eius	eius	eius	eius	eius	eius	eius	eius	eius	eius	eius	eius	eius	eius	eius	eius
-3rd-possessor	plural-possessor	masculine-possessor	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum
-3rd-possessor	plural-possessor	feminine-possessor	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum	eārum
-3rd-possessor	plural-possessor	neuter-possessor	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum	eōrum
+				nominative	genitive	dative	accusative	ablative	vocative	locative 																		
+singular-possessor	1st-possessor	singular	masculine 	meus 	meī 	meō 	meum 	meō 	mī 	meī 																		
+singular-possessor	1st-possessor	singular	feminine 	mea 	meae 	meae 	meam 	meā 	mea 	meae 																		
+singular-possessor	1st-possessor	singular	neuter 	meum	meī	meō	meum	meō	meum	meī 																		
+singular-possessor	1st-possessor	plural	masculine 	meī 	meōrum 	meīs	meōs 	meīs	meī 	meīs 																		
+singular-possessor	1st-possessor	plural	feminine 	meae 	meārum 	meīs	meās 	meīs	meae 	meīs 																		
+singular-possessor	1st-possessor	plural	neuter 	mea	meōrum	meīs	mea	meīs	mea 	meīs 																		
+																												
+singular-possessor	2nd-possessor	singular	masculine 	tuus 	tuī 	tuō 	tuum 	tuō 	tue 	tuī 																		
+singular-possessor	2nd-possessor	singular	feminine 	tua 	tuae 	tuae 	tuam 	tuā 	tua 	tuae 																		
+singular-possessor	2nd-possessor	singular	neuter 	tuum	tuī	tuō	tuum	tuō	tuum	tuī 																		
+singular-possessor	2nd-possessor	plural	masculine 	tuī 	tuōrum 	tuīs	tuōs 	tuīs	tuī 	tuīs																		
+singular-possessor	2nd-possessor	plural	feminine 	tuae 	tuārum 	tuīs	tuās 	tuīs	tuae 	tuīs																		
+singular-possessor	2nd-possessor	plural	neuter 	tua	tuōrum	tuīs	tua	tuīs	tua 	tuīs																		
+																												
+plural-possessor	1st-possessor	singular	masculine 	noster 	nostrī 	nostrō 	nostrum 	nostrō 	noster 	nostrī 																		
+plural-possessor	1st-possessor	singular	feminine 	nostra 	nostrae 	nostrae 	nostram 	nostrā 	nostra 	nostrae 																		
+plural-possessor	1st-possessor	singular	neuter 	nostrum	nostrī	nostrō	nostrum	nostrō	nostrum	nostrī 																		
+plural-possessor	1st-possessor	plural	masculine 	nostrī 	nostrōrum 	nostrīs	nostrōs 	nostrīs	nostrī 	nostrīs																		
+plural-possessor	1st-possessor	plural	feminine 	nostrae 	nostrārum 	nostrīs	nostrās 	nostrīs	nostrae 	nostrīs																		
+plural-possessor	1st-possessor	plural	neuter 	nostra	nostrōrum	nostrīs	nostra	nostrīs	nostra 	nostrīs																		
+																												
+plural-possessor	2nd-possessor	singular	masculine 	vester 	vestrī 	vestrō 	vestrum 	vestrō 	vester 	vestrī 																		
+plural-possessor	2nd-possessor	singular	feminine 	vestra 	vestrae 	vestrae 	vestram 	vestrā 	vestra 	vestrae 																		
+plural-possessor	2nd-possessor	singular	neuter 	vestrum	vestrī	vestrō	vestrum	vestrō	vestrum	vestrī 																		
+plural-possessor	2nd-possessor	plural	masculine 	vestrī 	vestrōrum 	vestrīs	vestrōs 	vestrīs	vestrī 	vestrīs																		
+plural-possessor	2nd-possessor	plural	feminine 	vestrae 	vestrārum 	vestrīs	vestrās 	vestrīs	vestrae 	vestrīs																		
+plural-possessor	2nd-possessor	plural	neuter 	vestra	vestrōrum	vestrīs	vestra	vestrīs	vestra 	vestrīs																		
+																												
+	3rd-possessor	singular	masculine 	suus 	suī 	suō 	suum 	suō 	sue 	suī 																		
+	3rd-possessor	singular	feminine 	sua 	suae 	suae 	suam 	suā 	sua 	suae 																		
+	3rd-possessor	singular	neuter 	suum	suī	suō	suum	suō	suum	suī 																		
+	3rd-possessor	plural	masculine 	suī 	suōrum 	suīs	suōs 	suīs	suī 	suīs																		
+	3rd-possessor	plural	feminine 	suae 	suārum 	suīs	suās 	suīs	suae 	suīs																		
+	3rd-possessor	plural	neuter 	sua	suōrum	suīs	sua	suīs	sua 	suīs																		
+																												
+																												
+																												
+																												
+																												
+																												

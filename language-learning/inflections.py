@@ -578,7 +578,7 @@ latin = Language(
             *common_noun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv'), 1, 3),
             *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/pronoun-possessives.tsv'), 3, 3),
+                tsv_parsing.rows('data/inflection/latin/classic/pronoun-possessives.tsv'), 1, 4),
             *filter(has_annotation('language','classical-latin'),
                 declension_template_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
@@ -593,7 +593,6 @@ latin = Language(
     RuleFormatting(),
     RuleValidation(),
 )
-
 write('flashcards/verb-conjugation/latin.html', 
     card_generation.conjugation(
         latin,
@@ -883,8 +882,6 @@ write('flashcards/adjective-agreement/latin.html',
         substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
     ))
 
-
-
 write('flashcards/pronoun-possessives/latin.html', 
     card_generation.declension(
         latin, 
@@ -909,7 +906,7 @@ write('flashcards/pronoun-possessives/latin.html',
             'noun':      ['son','daughter','livestock'],
             'number':    ['singular','plural'],
             'gender':    ['masculine','feminine','neuter'],
-            'person':    ['1','2','3'],
+            'person':     '3',
             'clusivity':  'exclusive',
             'animacy':    'thing',
             'clitic':     'tonic',
