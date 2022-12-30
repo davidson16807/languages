@@ -15,7 +15,7 @@ from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatL
 from tools.nodemaps import (
     ListTools, ListGrammar,
     RuleValidation, RuleFormatting, RuleSyntax,
-    EnglishListSubstitution
+    EnglishListSubstitution,
 )
 from tools.languages import Emoji, Language
 from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGeneration
@@ -592,8 +592,13 @@ latin = Language(
     list_tools,
     RuleFormatting(),
     RuleValidation(),
+    substitutions = [
+        {'v': english_list_substitution.tense},  # English uses auxillary verbs ("will") to indicate tense
+        {'v': english_list_substitution.aspect}, # English uses auxillary verbs ("be", "have") to indicate aspect
+    ]
 )
-write('flashcards/verb-conjugation/latin.html', 
+
+write('flashcards/latin/finite-conjugation.html', 
     card_generation.conjugation(
         latin,
         DictTupleIndexing([
@@ -644,7 +649,7 @@ write('flashcards/verb-conjugation/latin.html',
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
     ))
 
-write('flashcards/noun-declension/latin.html', 
+write('flashcards/latin/noun-declension.html', 
     card_generation.declension(
         latin, 
         DictTupleIndexing([
@@ -695,7 +700,7 @@ write('flashcards/noun-declension/latin.html',
         substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
-write('flashcards/pronoun-declension/latin.html', 
+write('flashcards/latin/pronoun-declension.html', 
     card_generation.declension(
         latin, 
         DictTupleIndexing([
@@ -761,7 +766,7 @@ write('flashcards/pronoun-declension/latin.html',
     ))
 
 
-write('flashcards/adpositions/latin.html', 
+write('flashcards/latin/adpositions.html', 
     card_generation.declension(
         latin, 
         DictTupleIndexing([
@@ -823,7 +828,7 @@ write('flashcards/adpositions/latin.html',
         ],
     ))
 
-write('flashcards/adjective-agreement/latin.html', 
+write('flashcards/latin/adjective-agreement.html', 
     card_generation.declension(
         latin, 
         DictTupleIndexing([
@@ -882,7 +887,7 @@ write('flashcards/adjective-agreement/latin.html',
         substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
     ))
 
-write('flashcards/pronoun-possessives/latin.html', 
+write('flashcards/latin/pronoun-possessives.html', 
     card_generation.declension(
         latin, 
         DictTupleIndexing([
@@ -972,6 +977,64 @@ write('flashcards/pronoun-possessives/latin.html',
             {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])}
         ],
     ))
+
+
+write('flashcards/latin/nonfinite-conjugation.html', 
+    card_generation.conjugation(
+        latin,
+        DictTupleIndexing([
+            # categories that are iterated over
+            'gender','person','number','formality','clusivity','clitic',
+            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
+            # categories that are constant since they are not relevant to declension
+            'animacy','noun-form', 'script']),
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleIndexing(['person', 'number', 'gender']),
+                content = {
+                    ('1', 'singular', 'neuter'),
+                    ('2', 'singular', 'feminine'),
+                    ('3', 'singular', 'masculine'),
+                    ('1', 'plural',   'neuter'),
+                    ('2', 'plural',   'feminine'),
+                    ('3', 'plural',   'masculine'),
+                })
+            ],
+        english_map=replace([('♂',''),('♀','')]), 
+        tagspace = {
+            **tagaxis_to_tags,
+            'gender':    ['neuter', 'feminine', 'masculine'],
+            'person':    ['1','2','3'],
+            'number':    ['singular','plural'],
+            'formality':  'familiar',
+            'clusivity':  'exclusive',
+            'clitic':     'tonic',
+            'mood':      ['indicative','subjunctive','imperative',],
+            'voice':     ['active', 'passive'],
+            'verb':      ['be', 'be able', 'want', 'become', 'go', 
+                          'carry', 'eat', 'love', 'advise', 'direct-object', 
+                          'capture', 'hear'],
+            'animacy':    'sapient',
+            'noun-form':  'personal',
+            'script':     'latin',
+            'verb-form':  'finite',
+        },
+        persons = [
+            EmojiPerson('s','n',3),
+            EmojiPerson('s','f',4),
+            EmojiPerson('s','m',2),
+            EmojiPerson('s','n',1),
+            EmojiPerson('s','n',5),
+        ],
+        # substitutions = [{'conjugated': list_tools.memory_to_preprocess(DictLookup('', DictTupleIndexing()))}],
+        substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
+        foreign_tree='clause [speaker-seme [np the n man] [vp v think]]'
+             '[test-seme [direct-object np the n man] [infinitive np conjugated]] [modifier-seme np test-seme stock-modifier]',
+        native_tree='[clause [speaker-seme [np the n man] [vp v think]]]'
+             '[clause [test-seme subject [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]]',
+    ))
+
 
 """
 """

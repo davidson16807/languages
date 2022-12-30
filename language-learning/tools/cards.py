@@ -44,19 +44,22 @@ class CardGeneration:
             substitutions = [],
             tagspace={},
             english_map=lambda x:x,
-            persons=[]):
+            persons=[],
+            foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
+            native_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
             verb = test_tags['verb']
-            test_tags = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
-            modifier_tags = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
-            if all([test_tags in filter_lookup for filter_lookup in filter_lookups]):
-                tree = self.parsing.parse('clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]')
+            test_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
+            speaker_seme = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
+            modifier_seme = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
+            if all([test_seme in filter_lookup for filter_lookup in filter_lookups]):
                 semes = {
-                    'test-seme':      test_tags,
-                    'modifier-seme':  modifier_tags,
+                    'test-seme':      test_seme,
+                    'speaker-seme':   speaker_seme,
+                    'modifier-seme':  modifier_seme,
                 }
-                translated_text = foreign.map(tree, semes,
+                translated_text = foreign.map(self.parsing.parse(foreign_tree), semes,
                     substitutions = [
                         {'stock-modifier': foreign.grammar.stock_modifier('foreign')},
                         *substitutions,
@@ -64,7 +67,7 @@ class CardGeneration:
                         {'verb':self.tools.replace(verb)},
                     ]
                 )
-                english_text = self.english.map(tree, semes,
+                english_text = self.english.map(self.parsing.parse(native_tree), semes,
                     substitutions = [
                         {'stock-modifier': foreign.grammar.stock_modifier('native')},
                         *substitutions,

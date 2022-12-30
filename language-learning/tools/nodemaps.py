@@ -162,6 +162,12 @@ class ListTools:
         def _map(machine, tree, memory):
             return []
         return _map
+    def memory_to_preprocess(lookup):
+        def tense(self, machine, tree, memory):
+            return [*lookup[memory], tree[0], *machine.map(tree[1:], memory)]
+    def memory_to_postprocess(lookup):
+        def tense(self, machine, tree, memory):
+            return [tree[0], *lookup[memory], *machine.map(tree[1:], memory)]
 
 class EnglishListSubstitution:
     def __init__(self):
@@ -187,3 +193,8 @@ class EnglishListSubstitution:
         if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfect', tree]]
         if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfect', tree]]
         return tree
+
+
+class WestEuropeanListSubstitution:
+    def __init__(self):
+        pass
