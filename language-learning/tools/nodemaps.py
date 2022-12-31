@@ -183,9 +183,9 @@ class EnglishListSubstitution:
     def aspect(self, machine, tree, memory):
         '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
         aspect = memory['aspect']
-        if aspect == 'imperfect':           return [['aorist', 'v', 'be'],   'finite', tree]
-        if aspect == 'perfect':             return [['aorist', 'v', 'have'], 'finite', tree]
-        if aspect == 'perfect-progressive': return [['aorist', 'v', 'have'], 'finite', ['perfect', 'v', 'be'], ['imperfect', tree]]
+        if aspect == 'imperfect':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
+        if aspect == 'perfect':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
+        if aspect == 'perfect-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['perfect', 'v', 'be'], ['imperfect', tree]]
         return tree
     def voice(self, machine, tree, memory):
         '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''

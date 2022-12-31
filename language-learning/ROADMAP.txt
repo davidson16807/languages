@@ -1,4 +1,5 @@
 
+DONE:
 finite conjugation
 noun declension
 pronoun declension
@@ -6,9 +7,13 @@ adpositions
 adjective agreement 	declined→[adjective declined]
 articles 				art→[cloze art]
 pronoun possessives 	declined→[possessive declined]
+infinitive conjugation 	custom templates
 
-nonfinite conjugation 	generalize library currently used for english auxillaries
-infinitive conjugation 	find template to demonstrate infinitive conjugations
-
+TOOD:
+participles         	generalize library currently used for english auxillaries
+gerundive           	degenerate case of participles (passive future participle, e.g. "to be written")
+gerund              	adapt declension templates for use with verb roots (indicating concepts, "-ing" or "-tion")
+supine              	adapt declension templates for use with verb roots ("accusative" indicating purpose (e.g. "for writing"), "ablative supine" indicating topic of conversation (e.g. "regarding writing"))
 correlative agreement 	declined→[correlative declined], also add logic to support questions in english
 demonstrative agreement declined→[demonstrative declined], also add logic to support questions in english
+

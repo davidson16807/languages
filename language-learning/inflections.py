@@ -543,9 +543,9 @@ english = Language(
     None,
     substitutions = [
         {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
-        {'v': english_list_substitution.voice},  # English uses auxillary verbs ("be") to indicate voice
         {'v': english_list_substitution.tense},  # English uses auxillary verbs ("will") to indicate tense
         {'v': english_list_substitution.aspect}, # English uses auxillary verbs ("be", "have") to indicate aspect
+        {'v': english_list_substitution.voice},  # English uses auxillary verbs ("be") to indicate voice
     ]
 )
 
@@ -592,10 +592,7 @@ latin = Language(
     list_tools,
     RuleFormatting(),
     RuleValidation(),
-    substitutions = [
-        {'v': english_list_substitution.tense},  # English uses auxillary verbs ("will") to indicate tense
-        {'v': english_list_substitution.aspect}, # English uses auxillary verbs ("be", "have") to indicate aspect
-    ]
+    substitutions = []
 )
 
 write('flashcards/latin/finite-conjugation.html', 
@@ -978,8 +975,6 @@ write('flashcards/latin/pronoun-possessives.html',
         ],
     ))
 
-"""
-
 write('flashcards/latin/nonfinite-conjugation.html', 
     card_generation.conjugation(
         latin,
@@ -1005,13 +1000,13 @@ write('flashcards/latin/nonfinite-conjugation.html',
         english_map=replace([('♂',''),('♀','')]), 
         tagspace = {
             **tagaxis_to_tags,
-            'gender':    ['neuter', 'feminine', 'masculine'],
-            'person':    ['1','2','3'],
-            'number':    ['singular','plural'],
+            'gender':     'masculine',
+            'person':     '3',
+            'number':     'singular',
             'formality':  'familiar',
             'clusivity':  'exclusive',
             'clitic':     'tonic',
-            'mood':      ['indicative','subjunctive','imperative',],
+            'mood':       'indicative',
             'voice':     ['active', 'passive'],
             'verb':      ['be', 'be able', 'want', 'become', 'go', 
                           'carry', 'eat', 'love', 'advise', 'direct-object', 
@@ -1028,16 +1023,10 @@ write('flashcards/latin/nonfinite-conjugation.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
-        # substitutions = [{'conjugated': list_tools.memory_to_preprocess(DictLookup('', DictTupleIndexing()))}],
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-        # foreign_tree='clause [speaker-seme [np the n man] [vp v think]]'
-             # '[test-seme [direct-object np the n man] [infinitive np conjugated]] [modifier-seme np test-seme stock-modifier]',
-        native_tree='clause [speaker-seme [np the n man] [vp v think]]',
-             # '[clause [test-seme subject [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]]',
-        foreign_tree='clause [speaker-seme [np the n man] [vp v think]]',
-             # '[clause [test-seme subject [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]]',
+        native_tree='clause [speaker-seme [np the n man] [vp v figure]] [modifier-seme np clause [test-seme [np the n man] [vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
+        foreign_tree='clause [speaker-seme [vp v figure]] [modifier-seme np clause [test-seme [theme np the n man] [infinitive vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
     ))
-"""
 
 
 

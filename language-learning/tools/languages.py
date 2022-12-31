@@ -96,8 +96,8 @@ class Language:
         self.formatting = formatting
     def map(self, syntax_tree, semes={}, substitutions=[]):
         default_substitution = {
-            'the':        self.tools.replace(['art', 'the']),
-            'a':          self.tools.replace(['art', 'a']),
+            'the': self.tools.replace(['art', 'the']),
+            'a':   self.tools.replace(['art', 'a']),
         }
         tag_opcodes = {
             'perfect':    {'aspect': 'perfect'},
@@ -110,6 +110,7 @@ class Language:
             'finite':     {'verb-form': 'finite'},
             'common':     {'noun-form': 'common'},
             'personal':   {'noun-form': 'personal'},
+            'theme':      {'role':'theme'},
             'common-possessive':   {'noun-form': 'common-possessive'},
             'personal-possessive': {'noun-form': 'personal-possessive'},
             **semes
