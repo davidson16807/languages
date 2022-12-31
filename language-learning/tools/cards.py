@@ -51,7 +51,7 @@ class CardGeneration:
             test_tags = traversal.dictkey(tuplekey)
             verb = test_tags['verb']
             test_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
-            speaker_seme = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
+            speaker_seme = {**test_tags, **{'noun-form': 'personal', 'role':'subject', 'motion':'associated', 'person': '1', 'number':'plural'}}
             modifier_seme = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
             if all([test_seme in filter_lookup for filter_lookup in filter_lookups]):
                 semes = {

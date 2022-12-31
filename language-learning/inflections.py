@@ -562,7 +562,7 @@ latin = Language(
     ListGrammar(
         conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/finite-conjugations.tsv'), 3, 4),
+                tsv_parsing.rows('data/inflection/latin/classic/finite-conjugation.tsv'), 2, 5),
             *nonfinite_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/nonfinite-conjugations.tsv'), 6, 2),
             *filter(has_annotation('language','classical-latin'),
@@ -978,6 +978,7 @@ write('flashcards/latin/pronoun-possessives.html',
         ],
     ))
 
+"""
 
 write('flashcards/latin/nonfinite-conjugation.html', 
     card_generation.conjugation(
@@ -1029,15 +1030,16 @@ write('flashcards/latin/nonfinite-conjugation.html',
         ],
         # substitutions = [{'conjugated': list_tools.memory_to_preprocess(DictLookup('', DictTupleIndexing()))}],
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-        foreign_tree='clause [speaker-seme [np the n man] [vp v think]]'
-             '[test-seme [direct-object np the n man] [infinitive np conjugated]] [modifier-seme np test-seme stock-modifier]',
-        native_tree='[clause [speaker-seme [np the n man] [vp v think]]]'
-             '[clause [test-seme subject [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]]',
+        # foreign_tree='clause [speaker-seme [np the n man] [vp v think]]'
+             # '[test-seme [direct-object np the n man] [infinitive np conjugated]] [modifier-seme np test-seme stock-modifier]',
+        native_tree='clause [speaker-seme [np the n man] [vp v think]]',
+             # '[clause [test-seme subject [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]]',
+        foreign_tree='clause [speaker-seme [np the n man] [vp v think]]',
+             # '[clause [test-seme subject [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]]',
     ))
+"""
 
 
-"""
-"""
 
 
 '''
