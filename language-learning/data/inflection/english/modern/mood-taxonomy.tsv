@@ -3,12 +3,12 @@ indicative		statement-of-fact	confirmed
 admirative	Event is genuinely surprising or amazing	statement-of-fact	confirmed	counterfactual													
 admirative	Event is genuinely surprising or amazing	statement-of-fact	confirmed	improbable													
 ironic-admirative	Event is stated in irony as surprising or amazing	statement-of-fact	confirmed	probable													
-hypothetical	Event is hypothetical, or it is counterfactual, but possible.	statement-of-fact	unconfirmed	counterfactual													
-dubitative	Event is uncertain, doubtful, dubious.	statement-of-fact	unconfirmed	improbable													
-potential	Event is able to be done by the subject	statement-of-fact	unconfirmed	possible													
-probable	Event is probable or considered likely.	statement-of-fact	unconfirmed	probable													
-inferential	Event is nonwitnessed, and not confirmed.	statement-of-fact	unconfirmed														
-desiderative	Event is desired/wished by the subject	statement-of-fact	unconfirmed		wanted												
+hypothetical	Event is hypothetical, or it is counterfactual, but possible.	statement-of-probability	unconfirmed	counterfactual													
+dubitative	Event is uncertain, doubtful, dubious.	statement-of-probability	unconfirmed	improbable													
+potential	Event is able to be done by the subject	statement-of-probability	unconfirmed	possible													
+probable	Event is probable or considered likely.	statement-of-probability	unconfirmed	probable													
+inferential	Event is nonwitnessed, and not confirmed.	statement-of-probability	unconfirmed														
+desiderative	Event is desired/wished by the subject	statement-of-probability	unconfirmed		wanted												
 subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement-of-inference	unconfirmed	counterfactual		antecedant											
 subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement-of-inference	unconfirmed	improbable		antecedant											
 conditional	Event depends upon another condition.	statement-of-inference	unconfirmed			consequent											
@@ -36,10 +36,11 @@ suggestive	Event is proposed by the speaker	propose	unconfirmed
 		actspe	c	mesub	mosub	i	mospe	emspe	powad								
 		speaker-action	confirmation	subject-means	subject-motive	implication-position	speaker-motive	speaker-emphasis	addressee-power								
 																	
-	c*mesub*mosub	statement-of-fact	confirmed	counterfactual	need	antecedant	needed	emphatic	supernatural								
-	i*mesub	statement-of-inference	unconfirmed	improbable	wanted	consequent	wanted	encouraging	lower								
-	mospe	statement-of-intent		possible	unwanted		unwanted	dispassionate	unspecified								
-	mesub	defer-to-subject		probable													
+	mosub	statement-of-fact	confirmed	counterfactual	need	antecedant	needed	emphatic	supernatural								
+	mesub	statement-of-probability	unconfirmed	improbable	wanted	consequent	wanted	encouraging	lower								
+	i*mesub	statement-of-inference		possible	unwanted		unwanted	dispassionate	unspecified								
+	mospe	statement-of-intent		probable													
+	mesub	defer-to-subject															
 	mospe*emspe*powad	request-action															
 	1	request-answer															
 	1	request-consideration															

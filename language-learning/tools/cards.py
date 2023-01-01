@@ -30,8 +30,10 @@ class CardFormatting:
 class CardGeneration:
     def __init__(self, english, emoji, cardFormatting,
             declension_template_matching, 
+            mood_templates,
             parsing, tools):
         self.english = english
+        self.mood_templates = mood_templates
         self.emoji = emoji
         self.cardFormatting = cardFormatting
         self.declension_template_matching = declension_template_matching
@@ -51,6 +53,8 @@ class CardGeneration:
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
             verb = test_tags['verb']
+            mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
+            mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
             test_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
             modifier_seme = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
             speaker_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated', 
@@ -84,7 +88,7 @@ class CardGeneration:
                     emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
-                            self.cardFormatting.english_word(english_map(english_text)),
+                            self.cardFormatting.english_word(''.join([mood_prephrase, ' ', english_map(english_text), mood_postphrase])),
                             self.cardFormatting.foreign_focus(translated_text),
                         ])
     def declension(self, 

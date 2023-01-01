@@ -375,7 +375,7 @@ declension_template_noun_annotation = CellAnnotation(
     tag_to_tagaxis, {0:'language'}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 mood_annotation = CellAnnotation(
-    {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
+    {}, {0:'column'}, {0:'mood'}, {'script':'latin'}, omit_empty=False)
 
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups)
 declension_population  = NestedLookupPopulation(declension_template_lookups)
@@ -563,6 +563,9 @@ card_generation = CardGeneration(
     emoji, 
     CardFormatting(),
     DeclensionTemplateMatching(declension_templates, allthat),
+    mood_population.index(
+        mood_annotation.annotate(
+            tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'), 1, 1)),
     ListParsing(),
     list_tools
 )
