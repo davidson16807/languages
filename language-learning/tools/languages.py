@@ -33,8 +33,8 @@ class Language:
         self.formatting = formatting
     def map(self, syntax_tree, semes={}, substitutions=[]):
         default_substitution = {
-            'the': self.tools.replace(['art', 'the']),
-            'a':   self.tools.replace(['art', 'a']),
+            'the': self.tools.replace(['det', 'the']),
+            'a':   self.tools.replace(['det', 'a']),
         }
         tag_opcodes = {
             'perfect':    {'aspect': 'perfect'},
@@ -55,7 +55,7 @@ class Language:
         }
         tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
         tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
-        rules = 'clause cloze implicit parentheses art adj np vp n v stock-modifier stock-adposition'
+        rules = 'clause cloze implicit parentheses det adj np vp n v stock-modifier stock-adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in self.substitutions], # language specific substitutions
@@ -64,7 +64,7 @@ class Language:
                 **tag_insertion, 
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
-                'art':              self.grammar.decline,
+                'det':              self.grammar.decline,
                 'adj':              self.grammar.decline,
                 'stock-adposition': self.grammar.stock_adposition,
             }),

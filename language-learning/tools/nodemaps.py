@@ -23,7 +23,7 @@ class ListGrammar:
     def decline(self, trees, content, tags):
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
-        missing_value = '' if content[0] in {'art'} else None
+        missing_value = '' if content[0] in {'det'} else None
         if tags not in self.use_case_to_grammatical_case:
             return missing_value
         sememe = {
@@ -96,7 +96,7 @@ class RuleSyntax:
             trees.map([
                 content for content in phrase.content 
                 if not isinstance(content,Rule) or 
-                   content.tag not in {'art'} or 
+                   content.tag not in {'det'} or 
                    ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
             ]))
 
