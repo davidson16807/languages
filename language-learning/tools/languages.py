@@ -108,6 +108,7 @@ class Language:
             'middle':     {'voice': 'middle'},
             'infinitive': {'verb-form': 'infinitive'},
             'finite':     {'verb-form': 'finite'},
+            'participle': {'verb-form': 'participle'},
             'common':     {'noun-form': 'common'},
             'personal':   {'noun-form': 'personal'},
             'theme':      {'role':'theme'},
@@ -131,7 +132,7 @@ class Language:
             }),
             ListTreeMap({
                 **tag_removal,
-                **{tag:self.tools.rule() for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
+                **{tag:self.tools.rule() for tag in 'clause cloze implicit art adj np vp n v stock-modifier stock-adposition'.split()},
             }),
             RuleTreeMap({
                 'clause':  self.syntax.order_clause,
@@ -139,10 +140,10 @@ class Language:
             }),
         ]
         validation = RuleTreeMap({
-            **{tag:self.validation.exists for tag in 'clause cloze art adp np vp n v'.split()},
+            **{tag:self.validation.exists for tag in 'clause cloze implicit art adp np vp n v'.split()},
         }) if self.validation else None
         formatting = RuleTreeMap({
-            **{tag:self.formatting.default for tag in 'clause cloze art adj np vp n v stock-modifier stock-adposition'.split()},
+            **{tag:self.formatting.default for tag in 'clause cloze implicit art adj np vp n v stock-modifier stock-adposition'.split()},
             'cloze':   self.formatting.cloze,
             'implicit':self.formatting.implicit,
         })

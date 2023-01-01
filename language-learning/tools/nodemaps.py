@@ -91,8 +91,9 @@ class RuleSyntax:
             phrase.tags,
             trees.map([
                 content for content in phrase.content 
-                if content.tag not in {'art'} or 
-                    ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
+                if not isinstance(content,Rule) or 
+                   content.tag not in {'art'} or 
+                   ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
             ]))
 
 class RuleFormatting:
@@ -172,6 +173,11 @@ class ListTools:
 class EnglishListSubstitution:
     def __init__(self):
         pass
+    def verbform(self, machine, tree, memory):
+        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
+        form = memory['verb-form']
+        if form  == 'participle': return ['implicit', 'that', 'finite', tree]
+        return tree
     def tense(self, machine, tree, memory):
         tense = memory['tense']
         verbform = memory['verb-form']

@@ -543,9 +543,10 @@ english = Language(
     None,
     substitutions = [
         {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
-        {'v': english_list_substitution.tense},  # English uses auxillary verbs ("will") to indicate tense
-        {'v': english_list_substitution.aspect}, # English uses auxillary verbs ("be", "have") to indicate aspect
-        {'v': english_list_substitution.voice},  # English uses auxillary verbs ("be") to indicate voice
+        {'v': english_list_substitution.verbform}, # English participles are encoded as perfect/imperfect forms and must be handled specially
+        {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
+        {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
+        {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
     ]
 )
 
@@ -644,6 +645,8 @@ write('flashcards/latin/finite-conjugation.html',
             EmojiPerson('s','n',5),
         ],
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
+        foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
+        native_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
     ))
 
 write('flashcards/latin/noun-declension.html', 
@@ -1026,6 +1029,68 @@ write('flashcards/latin/nonfinite-conjugation.html',
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
         native_tree='clause [speaker-seme [np the n man] [vp v figure]] [modifier-seme np clause [test-seme [np the n man] [vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
         foreign_tree='clause [speaker-seme [vp v figure]] [modifier-seme np clause [test-seme [theme np the n man] [infinitive vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
+    ))
+
+
+write('flashcards/latin/participle-declension.html', 
+    card_generation.declension(
+        latin, 
+        DictTupleIndexing([
+            # categories that are iterated over
+            'motion', 'role', 'number', 'noun', 'gender', 'verb',
+            # categories that are constant since they are not relevant to common noun declension
+            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
+            # categories that are constant since they are not relevant to declension
+            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+        tagspace = {
+            **tagaxis_to_tags,
+            'verb':      ['be', 'be able', 'want', 'become', 'go', 
+                          'carry', 'eat', 'love', 'advise', 'direct-object', 
+                          'capture', 'hear'],
+            'noun':      ['man','woman','animal'] ,
+            'number':    ['singular','plural'],
+            'gender':    ['masculine','feminine','neuter'],
+            'person':     '3',
+            'clusivity':  'exclusive',
+            'animacy':    'thing',
+            'clitic':     'tonic',
+            'partitivity':'nonpartitive',
+            'formality':  'familiar',
+            'tense':      'present', 
+            'voice':      'active',
+            'aspect':     'aorist', 
+            'mood':       'indicative',
+            'noun-form':  'common',
+            'script':     'latin',
+            'verb-form':  'finite',
+        },
+        filter_lookups = [
+            DictLookup(
+                'adjective agreement noun filter', 
+                DictTupleIndexing(['gender', 'noun']),
+                content = {
+                    ('masculine', 'man'   ),
+                    ('feminine',  'woman' ),
+                    ('neuter',    'animal'),
+                })
+            ],
+        tag_templates ={
+            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'patient'    : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'theme'      : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'test'       : {'noun-form':'common'},
+            'emoji'      : {'noun-form':'common', 'person':'4'},
+        },
+        persons = [
+            EmojiPerson('s','n',3),
+            EmojiPerson('s','f',4),
+            EmojiPerson('s','m',2),
+            EmojiPerson('s','n',1),
+            EmojiPerson('s','n',5),
+        ],
+        substitutions = [{'declined': list_tools.replace(['the', ['n', 'noun'], ['cloze','participle','v','verb']])}],
     ))
 
 

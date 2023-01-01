@@ -40,13 +40,14 @@ class CardGeneration:
     def conjugation(self, 
             foreign, 
             traversal, 
+            foreign_tree,
+            native_tree,
             filter_lookups=[], 
             substitutions = [],
             tagspace={},
             english_map=lambda x:x,
             persons=[],
-            foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
-            native_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',):
+        ):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
             verb = test_tags['verb']
@@ -102,6 +103,7 @@ class CardGeneration:
                   test_tags in foreign.grammar.use_case_to_grammatical_case):
                 noun = test_tags['noun']
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
+                verb = test_tags['verb'] if 'verb' in test_tags else None
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
                 match = self.declension_template_matching.match(predicate, test_tags['motion'], test_tags['role'])
                 if match:
@@ -118,6 +120,7 @@ class CardGeneration:
                         *substitutions,
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
+                        {'verb':self.tools.replace(verb)},
                     ]
                     translated_text = foreign.map(tree, semes, substitutions_)
                     english_text = self.english.map(tree, semes, substitutions_)
