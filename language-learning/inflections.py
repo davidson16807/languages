@@ -213,7 +213,7 @@ conjugation_template_lookups = DictLookup(
             'participle',
             DictTupleIndexing([
                     'verb',           
-                    'number',  # needed for German
+                    'number',     # needed for German
                     'gender',     # needed for Latin, German, Russian
                     'case',       # needed for Latin, German
                     'voice',      # needed for Russian
@@ -223,7 +223,7 @@ conjugation_template_lookups = DictLookup(
                 ])),
         # verbs used as adverbs
         'adverbial': DictLookup(
-            'participle',
+            'adverbial',
             DictTupleIndexing([
                     'verb',           
                     'tense',      # needed for Russian
@@ -596,6 +596,7 @@ latin = Language(
     substitutions = []
 )
 
+'''
 write('flashcards/latin/finite-conjugation.html', 
     card_generation.conjugation(
         latin,
@@ -630,7 +631,7 @@ write('flashcards/latin/finite-conjugation.html',
             'mood':      ['indicative','subjunctive','imperative',],
             'voice':     ['active', 'passive'],
             'verb':      ['be', 'be able', 'want', 'become', 'go', 
-                          'carry', 'eat', 'love', 'advise', 'direct-object', 
+                          'carry', 'eat', 'love', 'advise', 
                           'capture', 'hear'],
             'animacy':    'sapient',
             'noun-form':  'personal',
@@ -1012,7 +1013,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
             'mood':       'indicative',
             'voice':     ['active', 'passive'],
             'verb':      ['be', 'be able', 'want', 'become', 'go', 
-                          'carry', 'eat', 'love', 'advise', 'direct-object', 
+                          'carry', 'eat', 'love', 'advise', 
                           'capture', 'hear'],
             'animacy':    'sapient',
             'noun-form':  'personal',
@@ -1030,6 +1031,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
         native_tree='clause [speaker-seme [np the n man] [vp v figure]] [modifier-seme np clause [test-seme [np the n man] [vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
         foreign_tree='clause [speaker-seme [vp v figure]] [modifier-seme np clause [test-seme [theme np the n man] [infinitive vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
     ))
+'''
 
 
 write('flashcards/latin/participle-declension.html', 
@@ -1037,51 +1039,44 @@ write('flashcards/latin/participle-declension.html',
         latin, 
         DictTupleIndexing([
             # categories that are iterated over
+            'tense', 'voice', 'aspect', 'mood', 
             'motion', 'role', 'number', 'noun', 'gender', 'verb',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'noun-form', 'script']),
         tagspace = {
             **tagaxis_to_tags,
+            'role':      ['solitary'],
             'verb':      ['be', 'be able', 'want', 'become', 'go', 
-                          'carry', 'eat', 'love', 'advise', 'direct-object', 
+                          'carry', 'eat', 'love', 'advise', 
                           'capture', 'hear'],
-            'noun':      ['man','woman','animal'] ,
-            'number':    ['singular','plural'],
-            'gender':    ['masculine','feminine','neuter'],
+            'noun':       'man' ,
+            'number':     'singular',
+            'gender':     'masculine',
             'person':     '3',
             'clusivity':  'exclusive',
             'animacy':    'thing',
             'clitic':     'tonic',
             'partitivity':'nonpartitive',
             'formality':  'familiar',
-            'tense':      'present', 
-            'voice':      'active',
-            'aspect':     'aorist', 
+            'tense':      ['present','past','future'], 
+            'voice':      ['active','passive'],
+            'aspect':     ['aorist','perfect'], 
             'mood':       'indicative',
+            'verb-form':  'participle',
             'noun-form':  'common',
             'script':     'latin',
-            'verb-form':  'finite',
         },
-        filter_lookups = [
-            DictLookup(
-                'adjective agreement noun filter', 
-                DictTupleIndexing(['gender', 'noun']),
-                content = {
-                    ('masculine', 'man'   ),
-                    ('feminine',  'woman' ),
-                    ('neuter',    'animal'),
-                })
-            ],
         tag_templates ={
-            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'noun-form':'common'},
-            'emoji'      : {'noun-form':'common', 'person':'4'},
+            'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'patient'    : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'theme'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'test'       : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',},
+            'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common', 'person':'4'},
+            'participle' : {'case':'nominative'},
         },
         persons = [
             EmojiPerson('s','n',3),
@@ -1090,7 +1085,7 @@ write('flashcards/latin/participle-declension.html',
             EmojiPerson('s','n',1),
             EmojiPerson('s','n',5),
         ],
-        substitutions = [{'declined': list_tools.replace(['the', ['n', 'noun'], ['cloze','participle','v','verb']])}],
+        substitutions = [{'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])}],
     ))
 
 

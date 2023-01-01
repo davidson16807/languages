@@ -38,12 +38,16 @@ class ListGrammar:
             else self.declension_lookups[sememe][sememe]]
     def conjugate(self, trees, content, tags):
         sememe = {**tags, **self.tags, 'verb':content[1]}
+        print('conjugate')
+        print(sememe)
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
             else self.conjugation_lookups[sememe][sememe]]
     def stock_modifier(self, language_type):
         def _stock_modifier(trees, content, tags):
             sememe = {**tags, **self.tags, 'language-type': language_type}
+            print('stock_modifier')
+            print(sememe)
             return [content[0], 
                 None if sememe not in self.conjugation_lookups['argument']
                 else self.conjugation_lookups['argument'][sememe]]
@@ -109,6 +113,8 @@ class RuleFormatting:
         return '{{c'+str(1)+'::'+' '.join(str(trees.map(element)) for element in rule.content)+'}}'
     def implicit(self, trees, rule):
         return '['+str(' '.join([str(trees.map(element)) for element in rule.content]))+']'
+    def parentheses(self, trees, rule):
+        return '('+str(' '.join([str(trees.map(element)) for element in rule.content]))+')'
 
 class RuleValidation:
     """
@@ -176,7 +182,7 @@ class EnglishListSubstitution:
     def verbform(self, machine, tree, memory):
         '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
         form = memory['verb-form']
-        if form  == 'participle': return ['implicit', 'that', 'finite', tree]
+        if form  == 'participle': return ['that', 'finite', tree]
         return tree
     def tense(self, machine, tree, memory):
         tense = memory['tense']

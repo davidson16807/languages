@@ -118,6 +118,7 @@ class Language:
         }
         tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
         tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
+        rules = 'clause cloze implicit parentheses art adj np vp n v stock-modifier stock-adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in self.substitutions], # language specific substitutions
@@ -132,7 +133,7 @@ class Language:
             }),
             ListTreeMap({
                 **tag_removal,
-                **{tag:self.tools.rule() for tag in 'clause cloze implicit art adj np vp n v stock-modifier stock-adposition'.split()},
+                **{tag:self.tools.rule() for tag in rules.split()},
             }),
             RuleTreeMap({
                 'clause':  self.syntax.order_clause,
@@ -140,17 +141,18 @@ class Language:
             }),
         ]
         validation = RuleTreeMap({
-            **{tag:self.validation.exists for tag in 'clause cloze implicit art adp np vp n v'.split()},
+            **{tag:self.validation.exists for tag in rules.split()},
         }) if self.validation else None
         formatting = RuleTreeMap({
-            **{tag:self.formatting.default for tag in 'clause cloze implicit art adj np vp n v stock-modifier stock-adposition'.split()},
+            **{tag:self.formatting.default for tag in rules.split()},
             'cloze':   self.formatting.cloze,
             'implicit':self.formatting.implicit,
+            'parentheses':self.formatting.parentheses,
         })
         tree = syntax_tree
         for i, step in enumerate(pipeline):
-            # print(i)
-            # print(tree)
+            print(i)
+            print(tree)
             tree = step.map(tree)
         # return formatting.map(tree)
         return formatting.map(tree) if not validation or validation.map(tree) else None
