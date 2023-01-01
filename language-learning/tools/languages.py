@@ -151,8 +151,8 @@ class Language:
         })
         tree = syntax_tree
         for i, step in enumerate(pipeline):
-            print(i)
-            print(tree)
+            # print(i)
+            # print(tree)
             tree = step.map(tree)
         # return formatting.map(tree)
         return formatting.map(tree) if not validation or validation.map(tree) else None

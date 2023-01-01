@@ -521,9 +521,12 @@ english_list_substitution = EnglishListSubstitution()
 
 english = Language(
     ListGrammar(
-        conjugation_population.index(
-            finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/conjugations.tsv'), 4, 2)),
+        conjugation_population.index([
+            *finite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv'), 4, 1),
+            *finite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/regular-conjugations.tsv'), 4, 1),
+        ]),
         declension_population.index([
             *pronoun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv'), 1, 5),
@@ -596,7 +599,6 @@ latin = Language(
     substitutions = []
 )
 
-'''
 write('flashcards/latin/finite-conjugation.html', 
     card_generation.conjugation(
         latin,
@@ -1031,6 +1033,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
         native_tree='clause [speaker-seme [np the n man] [vp v figure]] [modifier-seme np clause [test-seme [np the n man] [vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
         foreign_tree='clause [speaker-seme [vp v figure]] [modifier-seme np clause [test-seme [theme np the n man] [infinitive vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
     ))
+'''
 '''
 
 
