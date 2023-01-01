@@ -56,6 +56,14 @@ latin = Language(
     substitutions = []
 )
 
+persons = [
+    EmojiPerson('s','n',3),
+    EmojiPerson('s','f',4),
+    EmojiPerson('s','m',2),
+    EmojiPerson('s','n',1),
+    EmojiPerson('s','n',5),
+]
+
 write('flashcards/latin/finite-conjugation.html', 
     card_generation.conjugation(
         latin,
@@ -65,21 +73,7 @@ write('flashcards/latin/finite-conjugation.html',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'animacy','noun-form', 'script']),
-        filter_lookups = [
-            DictLookup(
-                'pronoun filter', 
-                DictTupleIndexing(['person', 'number', 'gender']),
-                content = {
-                    ('1', 'singular', 'neuter'),
-                    ('2', 'singular', 'feminine'),
-                    ('3', 'singular', 'masculine'),
-                    ('1', 'plural',   'neuter'),
-                    ('2', 'plural',   'feminine'),
-                    ('3', 'plural',   'masculine'),
-                })
-            ],
-        english_map=replace([('♂',''),('♀','')]), 
-        tagspace = {
+        {
             **tagaxis_to_tags,
             'gender':    ['neuter', 'feminine', 'masculine'],
             'person':    ['1','2','3'],
@@ -97,13 +91,21 @@ write('flashcards/latin/finite-conjugation.html',
             'script':     'latin',
             'verb-form':  'finite',
         },
-        persons = [
-            EmojiPerson('s','n',3),
-            EmojiPerson('s','f',4),
-            EmojiPerson('s','m',2),
-            EmojiPerson('s','n',1),
-            EmojiPerson('s','n',5),
-        ],
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleIndexing(['person', 'number', 'gender']),
+                content = {
+                    ('1', 'singular', 'neuter'),
+                    ('2', 'singular', 'feminine'),
+                    ('3', 'singular', 'masculine'),
+                    ('1', 'plural',   'neuter'),
+                    ('2', 'plural',   'feminine'),
+                    ('3', 'plural',   'masculine'),
+                })
+            ],
+        english_map=replace([('♂',''),('♀','')]), 
+        persons = persons,
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
         foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
         native_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
@@ -119,7 +121,7 @@ write('flashcards/latin/noun-declension.html',
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        tagspace = {
+        {
             **tagaxis_to_tags,
             'noun':      ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
                           'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
@@ -149,13 +151,7 @@ write('flashcards/latin/noun-declension.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = [
-            EmojiPerson('s','n',3),
-            EmojiPerson('s','f',4),
-            EmojiPerson('s','m',2),
-            EmojiPerson('s','n',1),
-            EmojiPerson('s','n',5),
-        ],
+        persons = persons,
         nouns_to_depictions = nouns_to_depictions,
         substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
@@ -169,7 +165,7 @@ write('flashcards/latin/pronoun-declension.html',
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        tagspace = {
+        {
             **tagaxis_to_tags,
             'noun':      ['man','woman','snake'],
             'gender':    ['neuter', 'feminine', 'masculine'],
@@ -202,7 +198,7 @@ write('flashcards/latin/pronoun-declension.html',
                     ('woman', '2', 'plural',   'feminine' ),
                     ('man',   '3', 'plural',   'masculine'),
                     ('woman', '3', 'plural',   'feminine' ),
-                    ('man',  '3', 'plural',   'neuter'   ),
+                    ('man',   '3', 'plural',   'neuter'   ),
                 })
             ],
         tag_templates ={
@@ -215,13 +211,7 @@ write('flashcards/latin/pronoun-declension.html',
             'emoji'      : {'noun-form':'personal'},
         },
         english_map=replace([('you♀','you'),('you all♀','you all')]), 
-        persons = [
-            EmojiPerson('s','n',3),
-            EmojiPerson('s','f',4),
-            EmojiPerson('s','m',2),
-            EmojiPerson('s','n',1),
-            EmojiPerson('s','n',5),
-        ],
+        persons = persons,
         substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
@@ -236,7 +226,7 @@ write('flashcards/latin/adpositions.html',
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        tagspace = {
+        {
             **tagaxis_to_tags,
             'role': [
                 # 'solitary', # the subject of an intransitive verb
@@ -275,13 +265,7 @@ write('flashcards/latin/adpositions.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = [
-            EmojiPerson('s','n',3),
-            EmojiPerson('s','f',4),
-            EmojiPerson('s','m',2),
-            EmojiPerson('s','n',1),
-            EmojiPerson('s','n',5),
-        ],
+        persons = persons,
         substitutions = [
             {'declined':         list_tools.replace(['the', 'n', 'noun'])},
             {'stock-adposition': list_tools.wrap('cloze')},
@@ -298,7 +282,7 @@ write('flashcards/latin/adjective-agreement.html',
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        tagspace = {
+        {
             **tagaxis_to_tags,
             'adjective': ['tall', 'holy', 'poor', 'mean', 'old', 'nimble', 'swift', 'jovial'],
             'noun':      ['man','woman','animal'] ,
@@ -337,13 +321,7 @@ write('flashcards/latin/adjective-agreement.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = [
-            EmojiPerson('s','n',3),
-            EmojiPerson('s','f',4),
-            EmojiPerson('s','m',2),
-            EmojiPerson('s','n',1),
-            EmojiPerson('s','n',5),
-        ],
+        persons = persons,
         substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
     ))
 
@@ -360,7 +338,7 @@ write('flashcards/latin/pronoun-possessives.html',
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
-        tagspace = {
+        {
             **tagaxis_to_tags,
             'possessor-noun':   ['man','woman','snake'],
             'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
@@ -425,13 +403,7 @@ write('flashcards/latin/pronoun-possessives.html',
             'test'       : {'noun-form':'personal-possessive'},
             'emoji'      : {'person':'4'},
         },
-        persons = [
-            EmojiPerson('s','n',3),
-            EmojiPerson('s','f',4),
-            EmojiPerson('s','m',2),
-            EmojiPerson('s','n',1),
-            EmojiPerson('s','n',5),
-        ],
+        persons = persons,
         english_map=replace([('your♀','your'),('you all♀','you all')]), 
         substitutions = [
             {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])}
@@ -447,21 +419,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'animacy','noun-form', 'script']),
-        filter_lookups = [
-            DictLookup(
-                'pronoun filter', 
-                DictTupleIndexing(['person', 'number', 'gender']),
-                content = {
-                    ('1', 'singular', 'neuter'),
-                    ('2', 'singular', 'feminine'),
-                    ('3', 'singular', 'masculine'),
-                    ('1', 'plural',   'neuter'),
-                    ('2', 'plural',   'feminine'),
-                    ('3', 'plural',   'masculine'),
-                })
-            ],
-        english_map=replace([('♂',''),('♀','')]), 
-        tagspace = {
+        {
             **tagaxis_to_tags,
             'gender':     'masculine',
             'person':     '3',
@@ -479,13 +437,21 @@ write('flashcards/latin/nonfinite-conjugation.html',
             'script':     'latin',
             'verb-form':  'finite',
         },
-        persons = [
-            EmojiPerson('s','n',3),
-            EmojiPerson('s','f',4),
-            EmojiPerson('s','m',2),
-            EmojiPerson('s','n',1),
-            EmojiPerson('s','n',5),
-        ],
+        filter_lookups = [
+            DictLookup(
+                'pronoun filter', 
+                DictTupleIndexing(['person', 'number', 'gender']),
+                content = {
+                    ('1', 'singular', 'neuter'),
+                    ('2', 'singular', 'feminine'),
+                    ('3', 'singular', 'masculine'),
+                    ('1', 'plural',   'neuter'),
+                    ('2', 'plural',   'feminine'),
+                    ('3', 'plural',   'masculine'),
+                })
+            ],
+        english_map=replace([('♂',''),('♀','')]), 
+        persons = persons,
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
         native_tree='clause [speaker-seme [np the n man] [vp v figure]] [modifier-seme np clause [test-seme [np the n man] [vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
         foreign_tree='clause [speaker-seme [vp v figure]] [modifier-seme np clause [test-seme [theme np the n man] [infinitive vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
@@ -505,7 +471,7 @@ write('flashcards/latin/participle-declension.html',
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'noun-form', 'script']),
-        tagspace = {
+        {
             **tagaxis_to_tags,
             'role':      ['solitary'],
             'verb':      ['be', 'be able', 'want', 'become', 'go', 
@@ -538,13 +504,7 @@ write('flashcards/latin/participle-declension.html',
             'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common', 'person':'4'},
             'participle' : {'case':'nominative'},
         },
-        persons = [
-            EmojiPerson('s','n',3),
-            EmojiPerson('s','f',4),
-            EmojiPerson('s','m',2),
-            EmojiPerson('s','n',1),
-            EmojiPerson('s','n',5),
-        ],
+        persons = persons,
         substitutions = [{'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])}],
     ))
 

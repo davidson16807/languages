@@ -1,0 +1,31 @@
+mood	explanation									probability	implication-position	confirmation	subject-opinion	speaker-opinion	speaker-action	speaker-request
+indicative																
+subjunctive	Event is considered unlikely (mainly used in dependent clauses)		antecedant							counterfactual	antecedant	confirmed	needed	needed	pray	confirmation
+conditional	Event depends upon another condition.		consequent							improbable	consequent	unconfirmed	wanted	wanted	plead	consideration
+optative	Event is hoped, expected, or awaited.					wanted				possible			unwanted	unwanted	command	
+benedictive	Event is blessed by the speaker						pray			probable					forbid	
+jussive	Event is pleaded, implored or asked.						plead								wish	
+probable	Event is probable or considered likely.	probable													permit	
+imperative	Event is directly ordered or requested by the speaker.						command								exhort	
+prohibitive	Event is directly prohibited by the speaker.						forbid								request	
+desiderative	Event is desired/wished by the subject				wanted	wanted	wish								intend	
+dubitative	Event is uncertain, doubtful, dubious.	improbable													propose	
+hypothetical	Event is hypothetical, or it is counterfactual, but possible.	counterfactual													vow	
+presumptive	Event is assumed, presupposed by the speaker.						presuppose								presuppose	
+permissive	Event is permitted by the speaker.						permit									
+admirative	Event is genuinely surprising or amazing	improbable/counterfactual		confirmed												
+ironic-admirative	Event is stated in irony as surprising or amazing	probable		confirmed												
+hortative	Event is exhorted, implored, insisted or encouraged by speaker.						exhort									
+eventitive	Event is likely but depends upon a condition. 	probable	consequent													
+precative	Event is requested by the speaker.						request									
+volitive	Event is desired, wished or feared by the speaker.					wanted/unwanted										
+involutive	Event is feared by the speaker.					unwanted										
+inferential	Event is nonwitnessed, and not confirmed.	probable		unconfirmed												
+necessitative	Event is necessary, or it is both desired and encouraged. 					needed										
+interrogative	Event is asked or questioned by the speaker 						ask									
+injunctive	Event is intended by the speaker						intend									
+suggestive	Event is proposed by the speaker						propose									
+comissive	Event is committed to by the speaker, such as by promise or threat						vow									
+deliberative	Event is considered by the speaker, asking for confirmation						consider	confirmation								
+propositive	Event is proposed by the speaker, asking for consideration						propose	consideration								
+potential	Event is able to be done by the subject	possible														

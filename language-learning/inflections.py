@@ -21,7 +21,8 @@ from tools.nodemaps import (
     RuleValidation, RuleFormatting, RuleSyntax,
     EnglishListSubstitution,
 )
-from tools.languages import Emoji, Language
+from tools.emoji import Emoji
+from tools.languages import Language
 from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGeneration
 
 tagaxis_to_tags = {
