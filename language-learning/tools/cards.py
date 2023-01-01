@@ -118,14 +118,20 @@ class CardGeneration:
                         'modifier-seme':    {**test_tags, **(tag_templates['modifier'] if 'modifier' in tag_templates else {})},
                         'participle-seme':  {**test_tags, **(tag_templates['participle'] if 'participle' in tag_templates else {})},
                     }
-                    substitutions_ = [
+                    translated_text = foreign.map(tree, semes, [
                         *substitutions,
+                        {'stock-modifier': foreign.grammar.stock_modifier('foreign')},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':self.tools.replace(verb)},
-                    ]
-                    translated_text = foreign.map(tree, semes, substitutions_)
-                    english_text = self.english.map(tree, semes, substitutions_)
+                    ])
+                    english_text = self.english.map(tree, semes, [
+                        *substitutions,
+                        {'stock-modifier': foreign.grammar.stock_modifier('native')},
+                        {'noun':     self.tools.replace(noun)},
+                        {'adjective':self.tools.replace(adjective)},
+                        {'verb':self.tools.replace(verb)},
+                    ])
                     case = foreign.grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {
                         **test_tags, 
@@ -136,8 +142,9 @@ class CardGeneration:
                         'script': 'emoji'
                     }
                     emoji_text = self.emoji.decline(emoji_key, match['emoji'], persons)
-                    yield ' '.join([
-                            self.cardFormatting.emoji_focus(emoji_text), 
-                            self.cardFormatting.english_word(english_map(english_text)),
-                            self.cardFormatting.foreign_focus(translated_text),
-                        ])
+                    if translated_text: 
+                        yield ' '.join([
+                                self.cardFormatting.emoji_focus(emoji_text), 
+                                self.cardFormatting.english_word(english_map(english_text)),
+                                self.cardFormatting.foreign_focus(translated_text),
+                            ])
