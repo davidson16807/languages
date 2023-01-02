@@ -1,39 +1,39 @@
-*	*	nominative  	accusative  	vocative    	genitive    	ablative    	dative      	locative    	instrumental	#	gender	stem          	class    	
-wolf	singular	wl̥kʷos    	wl̥kʷom    	wl̥kʷe     	wl̥kʷosyo  	wl̥kʷead   	wl̥kʷoey   	wl̥kʷoy    	wl̥kʷoh₁   	#	masculine     	o             	thematic 	
-wolf	dual	wl̥kʷoh₁    	wl̥kʷoh₁    	wl̥kʷoh₁    	            	            	            	            	            	#	masculine     	o             	thematic 	
-wolf	plural	wl̥kʷoes    	wl̥kʷoms    	wl̥kʷoes    	wl̥kʷoHom   	wl̥kʷomos   	wl̥kʷomos   	wl̥kʷoysu   	wl̥kʷōys    	#	masculine     	o             	thematic 	
-egg	singular	h₂ōwyóm    	h₂ōwyóm    	h₂ōwyóm    	h₂ōwyósyo  	h₂ōwyéad   	h₂ōwyóey   	h₂ōwyóy    	h₂ōwyóh₁   	#	neuter     	o             	thematic 	
-egg	dual	h₂ōwyóyh₁   	h₂ōwyóyh₁   	h₂ōwyóyh₁   	            	            	            	            	            	#	neuter     	o             	thematic 	
-egg	plural	h₂ōwyéh₂    	h₂ōwyéh₂    	h₂ōwyéh₂    	h₂ōwyóHom   	h₂ōwyómos   	h₂ōwyómos   	h₂ōwyóysu   	h₂ōwyṓys    	#	neuter     	o             	thematic 	
-mare	singular	h₁éḱweh₂   	h₁éḱweh₂m  	h₁éḱweh₂   	h₁éḱweh₂es 	h₁éḱweh₂es 	h₁éḱweh₂ey 	h₁éḱweh₂i  	h₁éḱweh₂eh₁	#	feminine     	eh₂           	thematic 	
-mare	dual	h₁éḱweh₂ih₁ 	h₁éḱweh₂ih₁ 	h₁éḱweh₂ih₁ 	            	            	h₁éḱweh₂bʰām	h₁éḱweh₂bʰām	h₁éḱweh₂bʰām	#	feminine     	eh₂           	thematic 	
-mare	plural	h₁éḱweh₂es  	h₁éḱweh₂ns  	h₁éḱweh₂es  	h₁éḱweh₂om  	h₁éḱweh₂bʰos	h₁éḱweh₂bʰos	h₁éḱweh₂su  	h₁éḱweh₂bʰis	#	feminine     	eh₂           	thematic 	
-stranger	singular	gʰóstisis  	gʰóstisim  	gʰóstisi   	gʰostéys   	gʰostéys   	gʰostéyey  	gʰostḗy    	gʰostíh₁   	#	feminine     	i             	athematic	
-stranger	dual	gʰóstisih₁e 	gʰóstisih₁e 	gʰóstisih₁e 	            	            	            	            	            	#	feminine     	i             	athematic	
-stranger	plural	gʰóstiseyes 	gʰóstisims  	gʰóstiseyes 	gʰostéyoHom 	gʰostímos   	gʰostímos   	gʰostísu    	gʰostíbʰi   	#	feminine     	i             	athematic	
-seed	singular	ǵénh₁mn̥   	ǵénh₁mn̥   	ǵénh₁mn̥   	ǵn̥h₁mn̥s  	ǵn̥h₁mn̥s  	ǵn̥h₁mney  	ǵn̥h₁mni   	ǵn̥h₁mn̥h₁ 	#	neuter     	n             	athematic	
-seed	dual	ǵénh₁mnih₁  	ǵénh₁mnih₁  	ǵénh₁mnih₁  	            	            	            	            	            	#	neuter     	n             	athematic	
-seed	collective	ǵn̥h₁mō    	ǵn̥h₁mō    	ǵn̥h₁mō    	ǵn̥h₁m̥nés 	ǵn̥h₁m̥nés 	ǵn̥h₁m̥néy 	ǵn̥h₁méni  	ǵn̥h₁m̥néh₁	#	neuter     	n             	athematic	
-father	singular	ph₂tḗr     	ph₂térm̥   	ph₂tér     	ph₂trés    	ph₂trés    	ph₂tréy    	ph₂téri    	ph₂tréh₁   	#	masculine     	r             	athematic	
-father	dual	ph₂térh₁e   	ph₂térh₁e   	ph₂térh₁e   	            	            	            	            	            	#	masculine     	r             	athematic	
-father	plural	ph₂téres    	ph₂térm̥s   	ph₂téres    	ph₂tróHom   	ph₂tr̥mós   	ph₂tr̥mós   	ph₂tr̥sú    	ph₂tr̥bʰí   	#	masculine     	r             	athematic	
-water	singular	wódr̥      	wódr̥      	wódr̥      	wédn̥s     	wédn̥s     	wédney     	wédni      	wédn̥h₁    	#	neuter     	heteroclitic  	athematic	
-water	collective	wédōr      	wédōr      	wédōr      	udnés      	udnés      	udnéy      	udéni      	udnéh₁     	#	neuter     	heteroclitic  	athematic	
-cow	singular	gʷṓws      	gʷówm      	gʷów       	gʷéws      	gʷéws      	gʷéwy      	pédi       	gʷéwh₁     	#	masculine     	root consonant	athematic	
-cow	dual	gʷówh₁e     	gʷówh₁e     	gʷówh₁e     	            	            	            	            	            	#	masculine     	root consonant	athematic	
-cow	plural	gʷówes      	gʷówm̥s     	gʷówes      	gʷéwoHom    	gʷéwmós     	gʷéwmós     	gʷéwsú      	gʷéwbʰí     	#	masculine     	root consonant	athematic	
-pig	singular	péḱu       	péḱu       	péḱu       	pḱéws      	pḱéws      	pḱéwey     	pḱéwi      	pḱúh₁      	#	neuter     	u             	athematic	
-pig	dual	péḱwih₁     	péḱwih₁     	péḱwih₁     	            	            	            	            	            	#	neuter     	u             	athematic	
-pig	plural	péḱuh₂      	péḱuh₂      	péḱuh₂      	pḱéwoHom    	pḱúmos      	pḱúmos      	pḱúsu       	pḱúbʰi      	#	neuter     	u             	athematic	
-sea	singular	móri       	móri       	móri       	m̥réys     	m̥réys     	m̥réyey    	m̥rḗy      	m̥ríh₁     	#	neuter     	i             	athematic	
-sea	dual	móryih₁     	móryih₁     	móryih₁     	            	            	            	            	            	#	neuter     	i             	athematic	
-sea	plural	mórih₂      	mórih₂      	mórih₂      	m̥réyoHom   	m̥rímos     	m̥rímos     	m̥rísu      	m̥ríbʰi     	#	neuter     	i             	athematic	
-fight	singular	kéh₃tus    	kéh₃tum    	kéh₃tu     	kh₃téws    	kh₃téws    	kh₃téwey   	kh₃téwi    	kh₃túh₁    	#	masculine     	u             	athematic	
-fight	dual	kéh₃tuh₁e   	kéh₃tuh₁e   	kéh₃tuh₁e   	            	            	            	            	            	#	masculine     	u             	athematic	
-fight	plural	kéh₃tewes   	kéh₃tums    	kéh₃tewes   	kh₃téwoHom  	kh₃túmos    	kh₃túmos    	kh₃túsu     	kh₃túbʰi    	#	masculine     	u             	athematic	
-cloud	singular	nébʰos     	nébʰos     	nébʰos     	nébʰesos   	nébʰesos   	nébʰesey   	nébʰesi    	nébʰesh₁   	#	neuter     	s             	athematic	
-cloud	dual	nébʰesih₁   	nébʰesih₁   	nébʰesih₁   	            	            	            	            	            	#	neuter     	s             	athematic	
-cloud	plural	nébʰōs      	nébʰōs      	nébʰōs      	nébʰesoHom  	nébʰesmos   	nébʰesmos   	nébʰesu     	nébʰesbʰi   	#	neuter     	s             	athematic	
-stone	singular	h₂éḱmō     	h₂éḱmonm̥  	h₂éḱmon    	h₂ḱnés     	h₂ḱnés     	h₂ḱnéy     	h₂ḱméni    	h₂ḱnéh₁    	#	masculine     	n             	athematic	
-stone	dual	h₂éḱmonh₁e  	h₂éḱmonh₁e  	h₂éḱmonh₁e  	            	            	            	            	            	#	masculine     	n             	"athematic	"	
-stone	plural	h₂éḱmones   	h₂éḱmonm̥s  	h₂éḱmones   	h₂ḱm̥n̥óHom 	h₂ḱmn̥ós    	h₂ḱmn̥ós    	h₂ḱmn̥sú    	h₂ḱmn̥bʰí   	#	masculine     	n             	"athematic	"	
+*	*	nominative	accusative	vocative	genitive	ablative	dative	locative	instrumental	#	gender	stem	class	
+wolf	singular	wl̥kʷos 	wl̥kʷom 	wl̥kʷe 	wl̥kʷosyo 	wl̥kʷead 	wl̥kʷoey 	wl̥kʷoy 	wl̥kʷoh₁ 	#	masculine 	o 	thematic 	
+wolf	dual	wl̥kʷoh₁ 	wl̥kʷoh₁ 	wl̥kʷoh₁ 	 	 	 	 	 	#	masculine 	o 	thematic 	
+wolf	plural	wl̥kʷoes 	wl̥kʷoms 	wl̥kʷoes 	wl̥kʷoHom 	wl̥kʷomos 	wl̥kʷomos 	wl̥kʷoysu 	wl̥kʷōys 	#	masculine 	o 	thematic 	
+egg	singular	h₂ōwyóm 	h₂ōwyóm 	h₂ōwyóm 	h₂ōwyósyo 	h₂ōwyéad 	h₂ōwyóey 	h₂ōwyóy 	h₂ōwyóh₁ 	#	neuter 	o 	thematic 	
+egg	dual	h₂ōwyóyh₁ 	h₂ōwyóyh₁ 	h₂ōwyóyh₁ 	 	 	 	 	 	#	neuter 	o 	thematic 	
+egg	plural	h₂ōwyéh₂ 	h₂ōwyéh₂ 	h₂ōwyéh₂ 	h₂ōwyóHom 	h₂ōwyómos 	h₂ōwyómos 	h₂ōwyóysu 	h₂ōwyṓys 	#	neuter 	o 	thematic 	
+mare	singular	h₁éḱweh₂ 	h₁éḱweh₂m 	h₁éḱweh₂ 	h₁éḱweh₂es 	h₁éḱweh₂es 	h₁éḱweh₂ey 	h₁éḱweh₂i 	h₁éḱweh₂eh₁	#	feminine 	eh₂ 	thematic 	
+mare	dual	h₁éḱweh₂ih₁ 	h₁éḱweh₂ih₁ 	h₁éḱweh₂ih₁ 	 	 	h₁éḱweh₂bʰām	h₁éḱweh₂bʰām	h₁éḱweh₂bʰām	#	feminine 	eh₂ 	thematic 	
+mare	plural	h₁éḱweh₂es 	h₁éḱweh₂ns 	h₁éḱweh₂es 	h₁éḱweh₂om 	h₁éḱweh₂bʰos	h₁éḱweh₂bʰos	h₁éḱweh₂su 	h₁éḱweh₂bʰis	#	feminine 	eh₂ 	thematic 	
+stranger	singular	gʰóstisis 	gʰóstisim 	gʰóstisi 	gʰostéys 	gʰostéys 	gʰostéyey 	gʰostḗy 	gʰostíh₁ 	#	feminine 	i 	athematic	
+stranger	dual	gʰóstisih₁e 	gʰóstisih₁e 	gʰóstisih₁e 	 	 	 	 	 	#	feminine 	i 	athematic	
+stranger	plural	gʰóstiseyes 	gʰóstisims 	gʰóstiseyes 	gʰostéyoHom 	gʰostímos 	gʰostímos 	gʰostísu 	gʰostíbʰi 	#	feminine 	i 	athematic	
+seed	singular	ǵénh₁mn̥ 	ǵénh₁mn̥ 	ǵénh₁mn̥ 	ǵn̥h₁mn̥s 	ǵn̥h₁mn̥s 	ǵn̥h₁mney 	ǵn̥h₁mni 	ǵn̥h₁mn̥h₁ 	#	neuter 	n 	athematic	
+seed	dual	ǵénh₁mnih₁ 	ǵénh₁mnih₁ 	ǵénh₁mnih₁ 	 	 	 	 	 	#	neuter 	n 	athematic	
+seed	plural	ǵn̥h₁mō 	ǵn̥h₁mō 	ǵn̥h₁mō 	ǵn̥h₁m̥nés 	ǵn̥h₁m̥nés 	ǵn̥h₁m̥néy 	ǵn̥h₁méni 	ǵn̥h₁m̥néh₁	#	neuter 	n 	athematic	"technically ""collective"", not ""plural"""
+father	singular	ph₂tḗr 	ph₂térm̥ 	ph₂tér 	ph₂trés 	ph₂trés 	ph₂tréy 	ph₂téri 	ph₂tréh₁ 	#	masculine 	r 	athematic	
+father	dual	ph₂térh₁e 	ph₂térh₁e 	ph₂térh₁e 	 	 	 	 	 	#	masculine 	r 	athematic	
+father	plural	ph₂téres 	ph₂térm̥s 	ph₂téres 	ph₂tróHom 	ph₂tr̥mós 	ph₂tr̥mós 	ph₂tr̥sú 	ph₂tr̥bʰí 	#	masculine 	r 	athematic	
+water	singular	wódr̥ 	wódr̥ 	wódr̥ 	wédn̥s 	wédn̥s 	wédney 	wédni 	wédn̥h₁ 	#	neuter 	heteroclitic 	athematic	
+water	plural	wédōr 	wédōr 	wédōr 	udnés 	udnés 	udnéy 	udéni 	udnéh₁ 	#	neuter 	heteroclitic 	athematic	"technically ""collective"", not ""plural"""
+cow	singular	gʷṓws 	gʷówm 	gʷów 	gʷéws 	gʷéws 	gʷéwy 	pédi 	gʷéwh₁ 	#	masculine 	root consonant	athematic	
+cow	dual	gʷówh₁e 	gʷówh₁e 	gʷówh₁e 	 	 	 	 	 	#	masculine 	root consonant	athematic	
+cow	plural	gʷówes 	gʷówm̥s 	gʷówes 	gʷéwoHom 	gʷéwmós 	gʷéwmós 	gʷéwsú 	gʷéwbʰí 	#	masculine 	root consonant	athematic	
+pig	singular	péḱu 	péḱu 	péḱu 	pḱéws 	pḱéws 	pḱéwey 	pḱéwi 	pḱúh₁ 	#	neuter 	u 	athematic	
+pig	dual	péḱwih₁ 	péḱwih₁ 	péḱwih₁ 	 	 	 	 	 	#	neuter 	u 	athematic	
+pig	plural	péḱuh₂ 	péḱuh₂ 	péḱuh₂ 	pḱéwoHom 	pḱúmos 	pḱúmos 	pḱúsu 	pḱúbʰi 	#	neuter 	u 	athematic	
+sea	singular	móri 	móri 	móri 	m̥réys 	m̥réys 	m̥réyey 	m̥rḗy 	m̥ríh₁ 	#	neuter 	i 	athematic	
+sea	dual	móryih₁ 	móryih₁ 	móryih₁ 	 	 	 	 	 	#	neuter 	i 	athematic	
+sea	plural	mórih₂ 	mórih₂ 	mórih₂ 	m̥réyoHom 	m̥rímos 	m̥rímos 	m̥rísu 	m̥ríbʰi 	#	neuter 	i 	athematic	
+fight	singular	kéh₃tus 	kéh₃tum 	kéh₃tu 	kh₃téws 	kh₃téws 	kh₃téwey 	kh₃téwi 	kh₃túh₁ 	#	masculine 	u 	athematic	
+fight	dual	kéh₃tuh₁e 	kéh₃tuh₁e 	kéh₃tuh₁e 	 	 	 	 	 	#	masculine 	u 	athematic	
+fight	plural	kéh₃tewes 	kéh₃tums 	kéh₃tewes 	kh₃téwoHom 	kh₃túmos 	kh₃túmos 	kh₃túsu 	kh₃túbʰi 	#	masculine 	u 	athematic	
+cloud	singular	nébʰos 	nébʰos 	nébʰos 	nébʰesos 	nébʰesos 	nébʰesey 	nébʰesi 	nébʰesh₁ 	#	neuter 	s 	athematic	
+cloud	dual	nébʰesih₁ 	nébʰesih₁ 	nébʰesih₁ 	 	 	 	 	 	#	neuter 	s 	athematic	
+cloud	plural	nébʰōs 	nébʰōs 	nébʰōs 	nébʰesoHom 	nébʰesmos 	nébʰesmos 	nébʰesu 	nébʰesbʰi 	#	neuter 	s 	athematic	
+stone	singular	h₂éḱmō 	h₂éḱmonm̥ 	h₂éḱmon 	h₂ḱnés 	h₂ḱnés 	h₂ḱnéy 	h₂ḱméni 	h₂ḱnéh₁ 	#	masculine 	n 	athematic	
+stone	dual	h₂éḱmonh₁e 	h₂éḱmonh₁e 	h₂éḱmonh₁e 	 	 	 	 	 	#	masculine 	n 	"athematic	"	
+stone	plural	h₂éḱmones 	h₂éḱmonm̥s 	h₂éḱmones 	h₂ḱm̥n̥óHom 	h₂ḱmn̥ós 	h₂ḱmn̥ós 	h₂ḱmn̥sú 	h₂ḱmn̥bʰí 	#	masculine 	n 	"athematic	"	

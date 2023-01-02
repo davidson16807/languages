@@ -158,7 +158,7 @@ tagaxis_to_tags = {
     'noun-form':  ['common', 'personal', 
                    'demonstrative', 'interrogative', 'quantifier', 'numeral',
                    'reciprocal', 'reflexive', 'emphatic-reflexive',
-                   'common-possessive', 'personal-possessive'],
+                   'common-possessive', 'personal-possessive', 'reflexive-possessive'],
 
     # needed to distinguish forms of verb that require different kinds of lookups with different primary keys
     'verb-form':  ['finite', 'infinitive', 
@@ -349,6 +349,16 @@ declension_template_lookups = DictLookup(
                     'clitic',
                     'script',
                 ])),
+        'reflexive-possessive':  DictLookup(
+            'reflexive-possessive',
+            DictTupleIndexing([
+                    'possessor-number', 
+                    'number',           
+                    'gender',           
+                    'case',           
+                    'clitic',
+                    'script',
+                ])),
     })
 
 tsv_parsing = SeparatedValuesFileParsing()
@@ -491,7 +501,7 @@ declension_templates = \
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
 
-case_annotation = RowAnnotation(['motion','role','case','adposition'])
+case_annotation = RowAnnotation(['flag','motion','role','case','adposition'])
 case_population = FlatLookupPopulation(
     DictLookup('declension-use-case-to-grammatical-case', 
         DictTupleIndexing(['motion','role'])),

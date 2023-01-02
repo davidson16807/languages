@@ -10,9 +10,13 @@ name       		\nx{📛}	#	needed for templates
 livestock	singular	\nx{🐄}	#	needed for templates
 livestock	dual	\nx{🐄}	#	needed for templates
 livestock	plural	🐄🐖🐓	#	needed for templates
-boy        		\nx{🧒\gx\cx}	#	latin
-girl		\nx{🧒\gx\cx}	#	
-child		\nx{🧒\gx\cx}	"#	"	
+father		\nx{🧍\cx\gx}	#	common
+mother		\nx{🧍\cx\gx}	#	common
+brother		\nx{🧒\gx\cx}	#	common
+sister		\nx{🧒\gx\cx}	#	common
+boy        		\nx{🧒\gx\cx}	#	common
+girl		\nx{🧒\gx\cx}	#	common
+child		\nx{🧒\gx\cx}	"#	"	common
 hand       	singular	\nx{🖐️\cx}	#	latin
 hand       	dual	👐\cx	#	latin
 hand       	plural	\nx{🖐️\cx}	#	latin
@@ -33,3 +37,14 @@ myth       		\nx{\group{🐉\rlo{🧙\cx\m}}}	#	latin
 atom       		\nx{<span style='filter: invert() brightness(10) opacity(0.5);'>⚛️</span>}	#	latin
 nymph      		\nx{🧜\cx\f}	#	latin
 comet      		\group{\hi{\nx{☄️}}}	#	latin
+wolf		\nx{🐺}	#	proto-indo-european
+egg		\nx{🍳}	#	proto-indo-european
+mare		\nx{🐎}	#	proto-indo-european
+stranger		\nx{👳}	#	proto-indo-european
+seed		\nx{🌰}	#	proto-indo-european
+water		\nx{🌊}	#	proto-indo-european
+pig		\nx{🐖}	#	proto-indo-european
+sea		\nx{⛵}	#	proto-indo-european
+fight		\nx{🤼}	#	proto-indo-european
+cloud		\nx{☁️}	#	proto-indo-european
+stone		\nx{🪨}	#	proto-indo-european

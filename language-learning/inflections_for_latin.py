@@ -111,7 +111,7 @@ write('flashcards/latin/finite-conjugation.html',
         native_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
     ))
 
-write('flashcards/latin/noun-declension.html', 
+write('flashcards/latin/common-noun-declension.html', 
     card_generation.declension(
         latin, 
         DictTupleIndexing([

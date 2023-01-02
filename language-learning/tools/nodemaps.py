@@ -27,9 +27,6 @@ class ListGrammar:
             show_alternates = 'show-alternates' in tags and tags['show-alternates']
             return split[0] if not show_alternates else '|'.join(split)
         self.format_alternates = format_alternates
-    def show_alternates(self, treemap, content, tags):
-        return [content[0],
-            treemap.map(content[1:], context={**tags, 'show-alternates':True})]
     def decline(self, treemap, content, tags):
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
@@ -135,10 +132,10 @@ class RuleValidation:
     `RuleFormatting` is a library of functions that can be used in conjunction with `RuleTrees` 
     to determine whether a sytax tree can be represented as a string of natural language.
     """
-    def __init__(self):
-        pass
+    def __init__(self, disabled=False):
+        self.disabled = disabled
     def exists(self, treemap, rule):
-        return all([treemap.map(subrule) if isinstance(subrule, Rule) else subrule is not None
+        return all([treemap.map(subrule) if isinstance(subrule, Rule) else (subrule is not None or self.disabled)
                     for subrule in rule.content])
 
 class ListTools:
@@ -224,7 +221,3 @@ class EnglishListSubstitution:
         if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfect', tree]]
         return tree
 
-
-class WestEuropeanListSubstitution:
-    def __init__(self):
-        pass
