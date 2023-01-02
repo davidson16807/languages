@@ -65,8 +65,8 @@ persons = [
     EmojiPerson('s','n',5),
 ]
 
-genders = ['neuter', 'feminine', 'masculine']
-numbers = ['singular', 'dual', 'plural']
+genders = 'masculine feminine neuter'.split()
+numbers = 'singular dual plural'.split()
 verbs = ['be', 'become', 'carry', 'leave', 'work', 
          'do', 'ask', 'stretch', 'know', 
          'sit', 'protect', 'be red', 'set down', 'want to see',
