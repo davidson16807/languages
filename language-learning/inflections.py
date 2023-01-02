@@ -415,13 +415,13 @@ emoji = Emoji(
     nouns_to_depictions,
     emoji_noun_adjective_population.index(
         noun_adjective_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/adjective-agreement.tsv'), 1, 2)),
+            tsv_parsing.rows('data/inflection/emoji/adjective-agreement.tsv'))),
     emoji_noun_population.index(
         common_noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/common-noun-declensions.tsv'), 1, 2)),
+            tsv_parsing.rows('data/inflection/emoji/common-noun-declensions.tsv'))),
     mood_population.index(
         mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'), 1, 1)),
+            tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'))),
     emoji_shorthand, 
     HtmlTenseTransform(), 
     HtmlAspectTransform(), 
@@ -528,17 +528,17 @@ english = Language(
     ListGrammar(
         conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv'), 4, 1),
+                tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv')),
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/regular-conjugations.tsv'), 4, 1),
+                tsv_parsing.rows('data/inflection/english/modern/regular-conjugations.tsv')),
         ]),
         declension_population.index([
             *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv'), 1, 5),
+                tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv')),
             *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv'), 1, 4),
+                tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv'), 1, 2),
+                tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv')),
         ]),
         case_population.index(
             case_annotation.annotate(
@@ -565,7 +565,7 @@ card_generation = CardGeneration(
     DeclensionTemplateMatching(declension_templates, allthat),
     mood_population.index(
         mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'), 1, 1)),
+            tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'))),
     ListParsing(),
     list_tools
 )

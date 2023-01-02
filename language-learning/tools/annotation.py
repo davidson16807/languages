@@ -64,7 +64,7 @@ class CellAnnotation:
         self.default_attributes = default_attributes
         self.omit_empty = omit_empty
         self.canton_value = canton_value
-    def annotate(self, rows, check_header_row_count, check_header_column_count):
+    def annotate(self, rows):
         header_row_count = float('inf')
         header_column_count = 0
         column_count = max([len(row) for row in rows])
@@ -99,8 +99,4 @@ class CellAnnotation:
                                 **column_base_attributes[i],
                             }
                             annotations.append((annotation,cell))
-        print ('row', header_row_count, check_header_row_count)
-        print ('column', header_column_count, check_header_column_count)
-        assert header_row_count == check_header_row_count
-        assert header_column_count == check_header_column_count
         return annotations

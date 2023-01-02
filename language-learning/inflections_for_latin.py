@@ -23,26 +23,26 @@ latin = Language(
     ListGrammar(
         conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/finite-conjugations.tsv'), 2, 5),
+                tsv_parsing.rows('data/inflection/latin/classic/finite-conjugations.tsv')),
             *nonfinite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/nonfinite-conjugations.tsv'), 6, 2),
+                tsv_parsing.rows('data/inflection/latin/classic/nonfinite-conjugations.tsv')),
             *filter(has_annotation('language','classical-latin'),
                 declension_verb_annotation.annotate(
                     tsv_parsing.rows(
-                        'data/inflection/declension-template-verbs-minimal.tsv'), 2, 9)),
+                        'data/inflection/declension-template-verbs-minimal.tsv'))),
         ]),
         declension_population.index([
             *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/pronoun-declensions.tsv'), 1, 4),
+                tsv_parsing.rows('data/inflection/latin/classic/pronoun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/common-noun-declensions.tsv'), 1, 2),
+                tsv_parsing.rows('data/inflection/latin/classic/common-noun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv'), 1, 3),
+                tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv')),
             *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/pronoun-possessives.tsv'), 1, 4),
+                tsv_parsing.rows('data/inflection/latin/classic/pronoun-possessives.tsv')),
             *filter(has_annotation('language','classical-latin'),
                 declension_template_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'), 2, 7)),
+                    tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
         ]),
         case_population.index(
             case_annotation.annotate(
