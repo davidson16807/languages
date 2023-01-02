@@ -52,7 +52,9 @@ class CardGeneration:
         ):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
-            verb = test_tags['verb']
+            noun = test_tags['noun'] if 'noun' in test_tags else None
+            adjective = test_tags['adjective'] if 'adjective' in test_tags else None
+            verb = test_tags['verb'] if 'verb' in test_tags else None
             mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
             mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
             test_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
@@ -68,27 +70,30 @@ class CardGeneration:
                 }
                 translated_text = foreign.map(self.parsing.parse(foreign_tree), semes,
                     substitutions = [
-                        {'stock-modifier': foreign.grammar.stock_modifier('foreign')},
                         *substitutions,
-                        # unless the user inserts something before this point, "conjugated" will represent the verb
-                        {'verb':self.tools.replace(verb)},
+                        {'stock-modifier': foreign.grammar.stock_modifier('foreign')},
+                        {'noun':     self.tools.replace(noun)},
+                        {'adjective':self.tools.replace(adjective)},
+                        {'verb':     self.tools.replace(verb)},
                     ]
                 )
                 english_text = self.english.map(self.parsing.parse(native_tree), semes,
                     substitutions = [
-                        {'stock-modifier': foreign.grammar.stock_modifier('native')},
                         *substitutions,
-                        # unless the user inserts something before this point, "conjugated" will represent the verb
-                        {'verb':self.tools.replace(verb)},
+                        {'stock-modifier': foreign.grammar.stock_modifier('native')},
+                        {'noun':     self.tools.replace(noun)},
+                        {'adjective':self.tools.replace(adjective)},
+                        {'verb':     self.tools.replace(verb)},
                     ]
                 )
                 emoji_key  = {**test_tags, 'script':'emoji'}
                 if translated_text and emoji_key in foreign.grammar.conjugation_lookups['infinitive']:
                     emoji_argument  = foreign.grammar.conjugation_lookups['infinitive'][emoji_key]
                     emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
+                    english_text    = ''.join([mood_prephrase, ' ', english_map(english_text), mood_postphrase])
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
-                            self.cardFormatting.english_word(''.join([mood_prephrase, ' ', english_map(english_text), mood_postphrase])),
+                            self.cardFormatting.english_word(english_text),
                             self.cardFormatting.foreign_focus(translated_text),
                         ])
     def declension(self, 
@@ -105,7 +110,7 @@ class CardGeneration:
             test_tags = traversal.dictkey(tuplekey)
             if (all([test_tags in filter_lookup for filter_lookup in filter_lookups]) and 
                   test_tags in foreign.grammar.use_case_to_grammatical_case):
-                noun = test_tags['noun']
+                noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
@@ -127,14 +132,14 @@ class CardGeneration:
                         {'stock-modifier': foreign.grammar.stock_modifier('foreign')},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
-                        {'verb':self.tools.replace(verb)},
+                        {'verb':     self.tools.replace(verb)},
                     ])
                     english_text = self.english.map(tree, semes, [
                         *substitutions,
                         {'stock-modifier': foreign.grammar.stock_modifier('native')},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
-                        {'verb':self.tools.replace(verb)},
+                        {'verb':     self.tools.replace(verb)},
                     ])
                     case = foreign.grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {
@@ -145,7 +150,10 @@ class CardGeneration:
                         'noun':test_tags['noun'],
                         'script': 'emoji'
                     }
-                    emoji_text = self.emoji.decline(emoji_key, match['emoji'], persons)
+                    emoji_text   = self.emoji.decline(emoji_key, match['emoji'], persons)
+                    mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
+                    mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
+                    english_text = ''.join([mood_prephrase, ' ', english_map(english_text), mood_postphrase])
                     if translated_text: 
                         yield ' '.join([
                                 self.cardFormatting.emoji_focus(emoji_text), 

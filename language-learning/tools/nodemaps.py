@@ -53,7 +53,11 @@ class ListGrammar:
                 else self.conjugation_lookups['argument'][sememe]]
         return _stock_modifier
     def stock_adposition(self, trees, content, tags):
-        sememe = {**tags, **self.tags}
+        sememe = {
+            **tags, 
+            **self.tags, 
+            'case':self.use_case_to_grammatical_case[tags]['case'], 
+        }
         return ([] if sememe not in self.use_case_to_grammatical_case 
             else [content[0], self.use_case_to_grammatical_case[sememe]['adposition']])
 
