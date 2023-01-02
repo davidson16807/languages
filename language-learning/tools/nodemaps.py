@@ -1,3 +1,5 @@
+import re
+
 from .nodes import Rule
 
 """
@@ -20,7 +22,15 @@ class ListGrammar:
         self.declension_lookups = declension_lookups
         self.use_case_to_grammatical_case = use_case_to_grammatical_case
         self.tags = tags
-    def decline(self, trees, content, tags):
+        def format_alternates(text, tags):
+            split = re.split(' *[|/,] *', text)
+            show_alternates = 'show-alternates' in tags and tags['show-alternates']
+            return split[0] if not show_alternates else '|'.join(split)
+        self.format_alternates = format_alternates
+    def show_alternates(self, treemap, content, tags):
+        return [content[0],
+            treemap.map(content[1:], context={**tags, 'show-alternates':True})]
+    def decline(self, treemap, content, tags):
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
         missing_value = '' if content[0] in {'det'} else None
@@ -35,16 +45,16 @@ class ListGrammar:
         return [content[0], 
             missing_value if sememe not in self.declension_lookups
             else missing_value if sememe not in self.declension_lookups[sememe]
-            else self.declension_lookups[sememe][sememe]]
-    def conjugate(self, trees, content, tags):
+            else self.format_alternates(self.declension_lookups[sememe][sememe], tags)]
+    def conjugate(self, treemap, content, tags):
         sememe = {**tags, **self.tags, 'verb':content[1]}
         # print('conjugate')
         # print(sememe)
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
-            else self.conjugation_lookups[sememe][sememe]]
+            else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]
     def stock_modifier(self, language_type):
-        def _stock_modifier(trees, content, tags):
+        def _stock_modifier(treemap, content, tags):
             sememe = {**tags, **self.tags, 'language-type': language_type}
             # print('stock_modifier')
             # print(sememe)
@@ -52,7 +62,7 @@ class ListGrammar:
                 None if sememe not in self.conjugation_lookups['argument']
                 else self.conjugation_lookups['argument'][sememe]]
         return _stock_modifier
-    def stock_adposition(self, trees, content, tags):
+    def stock_adposition(self, treemap, content, tags):
         sememe = {
             **tags, 
             **self.tags, 
@@ -70,7 +80,7 @@ class RuleSyntax:
     """
     def __init__(self, sentence_structure):
         self.sentence_structure = sentence_structure
-    def order_clause(self, trees, clause):
+    def order_clause(self, treemap, clause):
         rules = clause.content
         # rules = [element for element in clause.content if isinstance(element, Rule)]
         verbs = [phrase for phrase in rules if phrase.tag in {'vp'}]
@@ -88,16 +98,16 @@ class RuleSyntax:
         }
         return Rule(clause.tag, 
             clause.tags,
-            trees.map([
+            treemap.map([
                 phrase
                 for phrase_type in self.sentence_structure
                 for phrase in phrase_lookup[phrase_type]
             ]))
-    def order_noun_phrase(self, trees, phrase):
+    def order_noun_phrase(self, treemap, phrase):
         # rules = [element for element in phrase.content if isinstance(element, Rule)]
         return Rule(phrase.tag, 
             phrase.tags,
-            trees.map([
+            treemap.map([
                 content for content in phrase.content 
                 if not isinstance(content,Rule) or 
                    content.tag not in {'det'} or 
@@ -111,14 +121,14 @@ class RuleFormatting:
     """
     def __init__(self):
         pass
-    def default(self, trees, rule):
-        return (' '.join([str(trees.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule)
-    def cloze(self, trees, rule):
-        return '{{c'+str(1)+'::'+' '.join(str(trees.map(element)) for element in rule.content)+'}}'
-    def implicit(self, trees, rule):
-        return '['+str(' '.join([str(trees.map(element)) for element in rule.content]))+']'
-    def parentheses(self, trees, rule):
-        return '('+str(' '.join([str(trees.map(element)) for element in rule.content]))+')'
+    def default(self, treemap, rule):
+        return (' '.join([str(treemap.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule)
+    def cloze(self, treemap, rule):
+        return '{{c'+str(1)+'::'+' '.join(str(treemap.map(element)) for element in rule.content)+'}}'
+    def implicit(self, treemap, rule):
+        return '['+str(' '.join([str(treemap.map(element)) for element in rule.content]))+']'
+    def parentheses(self, treemap, rule):
+        return '('+str(' '.join([str(treemap.map(element)) for element in rule.content]))+')'
 
 class RuleValidation:
     """
@@ -127,8 +137,8 @@ class RuleValidation:
     """
     def __init__(self):
         pass
-    def exists(self, trees, rule):
-        return all([trees.map(subrule) if isinstance(subrule, Rule) else subrule is not None
+    def exists(self, treemap, rule):
+        return all([treemap.map(subrule) if isinstance(subrule, Rule) else subrule is not None
                     for subrule in rule.content])
 
 class ListTools:

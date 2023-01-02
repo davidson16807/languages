@@ -62,6 +62,7 @@ class Language:
             ListTreeMap({**tag_insertion, **default_substitution}),
             ListTreeMap({
                 **tag_insertion, 
+                'cloze':            self.grammar.show_alternates,
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
                 'det':              self.grammar.decline,

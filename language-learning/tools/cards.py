@@ -52,17 +52,18 @@ class CardGeneration:
         ):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
-            noun = test_tags['noun'] if 'noun' in test_tags else None
-            adjective = test_tags['adjective'] if 'adjective' in test_tags else None
-            verb = test_tags['verb'] if 'verb' in test_tags else None
-            mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
-            mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
-            test_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
-            modifier_seme = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
-            speaker_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated', 
-                'person': '1', 'number':'singular', 
-                'tense':'present', 'aspect':'aorist', 'voice':'active', 'mood':'indicative'}}
-            if all([test_seme in filter_lookup for filter_lookup in filter_lookups]):
+            if all([test_tags in filter_lookup for filter_lookup in filter_lookups]):
+                noun = test_tags['noun'] if 'noun' in test_tags else None
+                adjective = test_tags['adjective'] if 'adjective' in test_tags else None
+                verb = test_tags['verb'] if 'verb' in test_tags else None
+                mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
+                mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
+                test_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
+                modifier_seme = {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}}
+                speaker_seme = {**test_tags, 
+                    **{'noun-form': 'personal', 'role':'agent', 'motion':'associated', 
+                       'person': '1', 'number':'singular', 
+                       'tense':'present', 'aspect':'aorist', 'voice':'active', 'mood':'indicative'}}
                 semes = {
                     'test-seme':      test_seme,
                     'speaker-seme':   speaker_seme,
