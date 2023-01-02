@@ -1,4 +1,4 @@
-mood	template	example	explanation
+*	template	example	explanation
 indicative	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\n1{🧑\g1\c1}		
 subjunctive	\bubble{\box{\scene}→…}\n2{🧑\g2\c2}\rthought\n1{🤷\c1\g1}	[even if]	Event is considered unlikely (mainly used in dependent clauses)
 conditional	\bubble{…→\box{\scene}}\n2{🧑\g2\c2}\rthought\n1{🤷\c1\g1}	[if so, then]	Event depends upon another condition.

@@ -1,7 +1,7 @@
-aspect→	infinitive	aorist	aorist	aorist	aorist	aorist	aorist	perfect	imperfect	#	purpose
-person→		1	2	3						#	
-plurality→		singular	singular	singular	dual	plural				#	
-tense→		present	present	present	present	present	past			#	
+*	infinitive	aorist	aorist	aorist	aorist	aorist	aorist	perfect	imperfect	#	purpose
+*		1	2	3						#	
+*		singular	singular	singular	dual	plural				#	
+*		present	present	present	present	present	past			#	
 have   	have   	have	have	has	have	have	had	had	having	#	templates
 command	command	command	command	commands	command	command	commanded	commanded	commanding	#	templates
 forbid	forbid	forbid	forbid	forbids	forbid	forbid	forbade	forbidden	forbidding	#	templates

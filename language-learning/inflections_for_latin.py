@@ -23,7 +23,7 @@ latin = Language(
     ListGrammar(
         conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/finite-conjugation.tsv'), 2, 5),
+                tsv_parsing.rows('data/inflection/latin/classic/finite-conjugations.tsv'), 2, 5),
             *nonfinite_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/nonfinite-conjugations.tsv'), 6, 2),
             *filter(has_annotation('language','classical-latin'),
@@ -35,7 +35,7 @@ latin = Language(
             *pronoun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/pronoun-declensions.tsv'), 1, 4),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/declensions.tsv'), 1, 2),
+                tsv_parsing.rows('data/inflection/latin/classic/common-noun-declensions.tsv'), 1, 2),
             *common_noun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv'), 1, 3),
             *possessive_pronoun_annotation.annotate(

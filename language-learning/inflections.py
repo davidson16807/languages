@@ -418,7 +418,7 @@ emoji = Emoji(
             tsv_parsing.rows('data/inflection/emoji/adjective-agreement.tsv'), 1, 2)),
     emoji_noun_population.index(
         common_noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/noun-declension.tsv'), 1, 2)),
+            tsv_parsing.rows('data/inflection/emoji/common-noun-declensions.tsv'), 1, 2)),
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'), 1, 1)),
@@ -538,7 +538,7 @@ english = Language(
             *possessive_pronoun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv'), 1, 4),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/declensions.tsv'), 1, 2),
+                tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv'), 1, 2),
         ]),
         case_population.index(
             case_annotation.annotate(

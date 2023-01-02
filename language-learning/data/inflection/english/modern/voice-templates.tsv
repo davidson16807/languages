@@ -1,4 +1,0 @@
-voice		#	old-format
-active	conjugated	#	{verb}
-middle	[implicit v be] [perfect v conjugated]	#	 [{be}] {verb|perfect}  
-passive	[v be] [perfect v conjugated]	#	{be} {verb|perfect}  
