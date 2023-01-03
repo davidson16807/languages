@@ -23,37 +23,36 @@ foreign_language = Language(
     ListGrammar(
         conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/finite-conjugations.tsv')),
-            *nonfinite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
-            *filter(has_annotation('language','proto-indo-european'),
+                tsv_parsing.rows('data/inflection/english/old/conjugations.tsv')),
+            *filter(has_annotation('language','old-english'),
                 declension_verb_annotation.annotate(
                     tsv_parsing.rows(
                         'data/inflection/declension-template-verbs-minimal.tsv'))),
         ]),
         declension_population.index([
             *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/common-noun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/english/old/common-noun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/adjective-agreement.tsv')),
+                tsv_parsing.rows('data/inflection/english/old/adjective-agreement.tsv')),
             *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-possessives.tsv')),
-            *filter(has_annotation('language','proto-indo-european'),
+                tsv_parsing.rows('data/inflection/english/old/pronoun-possessives.tsv')),
+            *filter(has_annotation('language','old-english'),
                 declension_template_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
         ]),
         case_population.index(
             case_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/declension-use-case-to-grammatical-case.tsv'))),
+                tsv_parsing.rows('data/inflection/english/old/declension-use-case-to-grammatical-case.tsv'))),
         {'language-type':'foreign'},
     ),
-    RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
+    RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 
+    # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
     list_tools,
     RuleFormatting(),
-    RuleValidation(),
-    # RuleValidation(disabled=True),
+    # RuleValidation(),
+    RuleValidation(disabled=True),
     substitutions = []
 )
 
@@ -67,22 +66,34 @@ persons = [
 
 tag_defaults = {
     **tagaxis_to_tags,
-    'strength': 'strong',
+    'gender':     'masculine',
+    'person':     '3',
+    'clusivity':  'exclusive',
+    'animacy':    'thing',
+    'clitic':     'tonic',
+    'partitivity':'nonpartitive',
+    'formality':  'familiar',
+    'strength':   'strong',
+    'tense':      'present', 
+    'voice':      'active',
+    'aspect':     'aorist', 
+    'mood':       'indicative',
+    'noun-form':  'common',
+    'script':     'latin',
+    'verb-form':  'finite',
 }
 
 genders = 'masculine feminine neuter'.split()
-numbers = 'singular dual plural'.split()
-verbs = ['be', 'become', 'carry', 'leave', 'work', 
-         'do', 'ask', 'stretch', 'know', 
-         'sit', 'protect', 'be red', 'set down', 'want to see',
-         'renew', 'say', 'talk', 'talk', 'point out',]
-nouns = 'wolf egg mare stranger seed father water cow pig sea fight cloud stone'.split()
-adjectives = 'young old upset'.split()
+numbers = 'singular plural'.split()
+verbs = ['be [momentarily]', 'be [by nature]', 'do', 'go', 'want', 
+         'steal', 'share', 'tame', 'move', 'love', 'have', 'live', 'say', 'think',]
+nouns = 'dog light house gift raid moon sun eye time English son hand person nut goose friend bystander father mother brother sister daughter lamb shoe piglet shadow meadow'.split(' ')
+adjectives = 'good tall black red green'.split()
 tenses = 'present past'.split()
-voices = 'active middle'.split()
-moods = 'indicative subjunctive imperative optative'.split()
+voices = 'active'
+moods = 'indicative subjunctive imperative'.split()
 
-write('flashcards/proto-indo-european/finite-conjugation.html', 
+write('flashcards/old-english/finite-conjugation.html', 
     card_generation.conjugation(
         foreign_language,
         DictTupleIndexing([
@@ -90,7 +101,7 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
             'gender','person','number','formality','clusivity','clitic',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
             # categories that are constant since they are not relevant to conjugation
-            'strength', 'animacy', 'noun-form', 'script']),
+            'strength', 'animacy','noun-form', 'script']),
         {
             **tag_defaults,
             'gender':      genders,
@@ -128,7 +139,7 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
         native_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
     ))
 
-write('flashcards/proto-indo-european/common-noun-declension.html', 
+write('flashcards/old-english/common-noun-declension.html', 
     card_generation.declension(
         foreign_language, 
         DictTupleIndexing([
@@ -172,7 +183,7 @@ write('flashcards/proto-indo-european/common-noun-declension.html',
         substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
-write('flashcards/proto-indo-european/pronoun-declension.html', 
+write('flashcards/old-english/pronoun-declension.html', 
     card_generation.declension(
         foreign_language, 
         DictTupleIndexing([
@@ -233,7 +244,7 @@ write('flashcards/proto-indo-european/pronoun-declension.html',
     ))
 
 
-write('flashcards/proto-indo-european/adpositions.html', 
+write('flashcards/old-english/adpositions.html', 
     card_generation.declension(
         foreign_language, 
         DictTupleIndexing([
@@ -290,7 +301,7 @@ write('flashcards/proto-indo-european/adpositions.html',
         ],
     ))
 
-write('flashcards/proto-indo-european/adjective-agreement.html', 
+write('flashcards/old-english/strong-adjective-agreement.html', 
     card_generation.declension(
         foreign_language, 
         DictTupleIndexing([
@@ -344,7 +355,61 @@ write('flashcards/proto-indo-european/adjective-agreement.html',
         substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
     ))
 
-write('flashcards/proto-indo-european/pronoun-possessives.html', 
+write('flashcards/old-english/weak-adjective-agreement.html', 
+    card_generation.declension(
+        foreign_language, 
+        DictTupleIndexing([
+            # categories that are iterated over
+            'motion', 'role', 'number', 'noun', 'gender', 'adjective',
+            # categories that are constant since they are not relevant to common noun declension
+            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'strength', 'verb-form', 
+            # categories that are constant since they are not relevant to declension
+            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+        {
+            **tag_defaults,
+            'adjective':  adjectives,
+            'noun':      ['man','woman','animal'] ,
+            'number':     numbers,
+            'gender':     genders,
+            'person':     '3',
+            'clusivity':  'exclusive',
+            'animacy':    'thing',
+            'clitic':     'tonic',
+            'partitivity':'nonpartitive',
+            'formality':  'familiar',
+            'strength':   'weak',
+            'tense':      'present', 
+            'voice':      'active',
+            'aspect':     'aorist', 
+            'mood':       'indicative',
+            'noun-form':  'common',
+            'script':     'latin',
+            'verb-form':  'finite',
+        },
+        filter_lookups = [
+            DictLookup(
+                'adjective agreement noun filter', 
+                DictTupleIndexing(['gender', 'noun']),
+                content = {
+                    ('masculine', 'man'   ),
+                    ('feminine',  'woman' ),
+                    ('neuter',    'animal'),
+                })
+            ],
+        tag_templates ={
+            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'patient'    : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'theme'      : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'test'       : {'noun-form':'common'},
+            'emoji'      : {'noun-form':'common', 'person':'4'},
+        },
+        persons = persons,
+        substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
+    ))
+
+write('flashcards/old-english/pronoun-possessives.html', 
     card_generation.declension(
         foreign_language, 
         DictTupleIndexing([
@@ -354,9 +419,9 @@ write('flashcards/proto-indo-european/pronoun-possessives.html',
             'possessor-clusivity', 'possessor-formality', 
             'possessor-person', 'possessor-number',
             # categories that are constant since they are not relevant to common noun declension
-            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'strength', 'verb-form', 
+            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         {
             **tag_defaults,
             'possessor-noun':   ['man','woman','snake'],
@@ -431,7 +496,7 @@ write('flashcards/proto-indo-european/pronoun-possessives.html',
     ))
 
 
-write('flashcards/proto-indo-european/participle-declension.html', 
+write('flashcards/old-english/participle-declension.html', 
     card_generation.declension(
         foreign_language, 
         DictTupleIndexing([

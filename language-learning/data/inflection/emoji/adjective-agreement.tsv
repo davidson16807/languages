@@ -17,9 +17,9 @@ big	animal	\large{\nx{🦣}}	#	russian
 small	man	\small{\nx{🧍\cx\gx}}	#	hittite
 small	woman	\small{\nx{🧍\cx\gx}}	#	hittite
 small	animal	\nx{🐁}	#	hittite
-tall	man	\large{\nx{🧍\cx\gx}}	#	latin, russian
-tall	woman	\large{\nx{🧍\cx\gx}}	#	latin, russian
-tall	animal	\large{\nx{🦒}}	#	latin, russian
+tall	man	\large{\nx{🧍\cx\gx}}	#	latin, old-english, russian
+tall	woman	\large{\nx{🧍\cx\gx}}	#	latin, old-english, russian
+tall	animal	\large{\nx{🦒}}	#	latin, old-english, russian
 short	man	\small{\nx{🧍\cx\gx}}	#	
 short	woman	\small{\nx{🧍\cx\gx}}	#	
 short	animal	\nx{🦔}	#	
@@ -56,18 +56,21 @@ poor	animal	\nx{😿}	#	latin, hittite
 blue	man	"<span style=""filter:  hue-rotate(150deg)"">\nx{🧑\gx\cx}</span>"	#	russian
 blue	woman	"<span style=""filter:  hue-rotate(150deg)"">\nx{🧑\gx\cx}</span>"	#	russian
 blue	animal	\nx{🐟}	#	russian
-green	man	"<span style=""filter: hue-rotate(45deg)"">\nx{🧑\gx\cx}</span>"	#	
-green	woman	"<span style=""filter: hue-rotate(45deg)"">\nx{🧑\gx\cx}</span>"	#	
-green	animal	\nx{🦎}	#	
+green	man	"<span style=""filter: hue-rotate(45deg)"">\nx{🧑\gx\cx}</span>"	#	old english
+green	woman	"<span style=""filter: hue-rotate(45deg)"">\nx{🧑\gx\cx}</span>"	#	old english
+green	animal	\nx{🦎}	#	old english
+red	man	"<span style=""filter: hue-rotate(-45deg)"">\nx{🧑\gx\cx}</span>"	#	old english
+red	woman	"<span style=""filter: hue-rotate(-45deg)"">\nx{🧑\gx\cx}</span>"	#	old english
+red	animal	\nx{🐞}	#	old english
+black	man	\nx{🧑\gx\5}	#	old english
+black	woman	\nx{🧑\gx\5}	#	old english
+black	animal	\nx{🐈‍⬛}	"#	"	old english
 yellow	man	\nx{🧑\gx\cx}	#	
 yellow	woman	\nx{🧑\gx\cx}	#	
 yellow	animal	\nx{🐤}	#	
 orange	man	"<span style=""filter: hue-rotate(-15deg)"">\nx{🧑\gx\cx}</span>"	#	
 orange	woman	"<span style=""filter: hue-rotate(-15deg)"">\nx{🧑\gx\cx}</span>"	#	
 orange	animal	\nx{🦧}	#	
-red	man	"<span style=""filter: hue-rotate(-45deg)"">\nx{🧑\gx\cx}</span>"	#	
-red	woman	"<span style=""filter: hue-rotate(-45deg)"">\nx{🧑\gx\cx}</span>"	#	
-red	animal	\nx{🐞}	#	
 purple	man	"<span style=""filter: hue-rotate(235deg)"">\nx{🧑\gx\cx}</span>"	#	
 purple	woman	"<span style=""filter: hue-rotate(235deg)"">\nx{🧑\gx\cx}</span>"	#	
 purple	animal	\nx{👾}	#	

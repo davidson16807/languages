@@ -1,4 +1,4 @@
-proform			number	gender	nominative	accusative	genitive	dative	instrumental
+*	*	*	*	*	nominative	accusative	genitive	dative	instrumental
 personal	1		singular		iċ	mē	mīn	mē	
 personal	1		dual		ƿit	unc	uncer	unc	
 personal	1		plural		ƿē	ūs	ūre	ūs	
@@ -37,4 +37,4 @@ demonstrative	distal		singular	masculine	se	þone	þæs	þǣm/þām	þȳ
 demonstrative	distal		singular	neuter	þæt	þæt	þæs	þǣm/þām	þȳ
 demonstrative	distal		singular	feminine	sēo	þā	þǣre	þǣre	
 demonstrative	distal		plural		þā	þā	þāra	þǣm/þām	
-	negative		singular		nā(ƿi)ht	nā(ƿi)ht	nā(ƿi)ht-es	nā(ƿi)ht-e	
+#	negative		singular		nā(ƿi)ht	nā(ƿi)ht	nā(ƿi)ht-es	nā(ƿi)ht-e	

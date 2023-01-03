@@ -64,6 +64,11 @@ persons = [
     EmojiPerson('s','n',5),
 ]
 
+tag_defaults = {
+    **tagaxis_to_tags,
+    'strength': 'strong',
+}
+
 genders = 'masculine feminine neuter'.split()
 numbers = 'singular plural'.split()
 verbs = ['be', 'be able', 'want', 'become', 'go', 
@@ -85,16 +90,17 @@ write('flashcards/latin/finite-conjugation.html',
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
-            # categories that are constant since they are not relevant to declension
-            'animacy','noun-form', 'script']),
+            # categories that are constant since they are not relevant to conjugation
+            'animacy', 'strength', 'noun-form', 'script']),
         {
-            **tagaxis_to_tags,
+            **tag_defaults,
             'gender':      genders,
             'person':    ['1','2','3'],
             'number':      numbers,
             'formality':  'familiar',
             'clusivity':  'exclusive',
             'clitic':     'tonic',
+            'strength':   'strong',
             'mood':        moods,
             'voice':       voices,
             'verb':        verbs,
@@ -132,9 +138,9 @@ write('flashcards/latin/common-noun-declension.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         {
-            **tagaxis_to_tags,
+            **tag_defaults,
             'noun':        nouns,
             'number':      numbers,
             'gender':     'masculine',
@@ -144,6 +150,7 @@ write('flashcards/latin/common-noun-declension.html',
             'clitic':     'tonic',
             'partitivity':'nonpartitive',
             'formality':  'familiar',
+            'strength':   'strong',
             'tense':      'present', 
             'voice':      'active',
             'aspect':     'aorist', 
@@ -174,9 +181,9 @@ write('flashcards/latin/pronoun-declension.html',
             # categories that are constant since they do not affect pronouns in the language
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         {
-            **tagaxis_to_tags,
+            **tag_defaults,
             'noun':      ['man','woman','snake'],
             'gender':      genders,
             'number':      numbers,
@@ -186,6 +193,7 @@ write('flashcards/latin/pronoun-declension.html',
             'clitic':     'tonic',
             'partitivity':'nonpartitive',
             'formality':  'familiar',
+            'strength':   'strong',
             'tense':      'present', 
             'voice':      'active',
             'aspect':     'aorist', 
@@ -235,9 +243,9 @@ write('flashcards/latin/adpositions.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         {
-            **tagaxis_to_tags,
+            **tag_defaults,
             'role': [
                 # 'solitary', # the subject of an intransitive verb
                 # 'agent',    # the subject of a transitive verb
@@ -258,6 +266,7 @@ write('flashcards/latin/adpositions.html',
             'clitic':     'tonic',
             'partitivity':'nonpartitive',
             'formality':  'familiar',
+            'strength':   'strong',
             'tense':      'present', 
             'voice':      'active',
             'aspect':     'aorist', 
@@ -289,11 +298,11 @@ write('flashcards/latin/adjective-agreement.html',
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective',
             # categories that are constant since they are not relevant to common noun declension
-            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
+            'strength', 'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         {
-            **tagaxis_to_tags,
+            **tag_defaults,
             'adjective':   adjectives,
             'noun':      ['man','woman','animal'] ,
             'number':      numbers,
@@ -304,6 +313,7 @@ write('flashcards/latin/adjective-agreement.html',
             'clitic':     'tonic',
             'partitivity':'nonpartitive',
             'formality':  'familiar',
+            'strength':   'strong',
             'tense':      'present', 
             'voice':      'active',
             'aspect':     'aorist', 
@@ -345,11 +355,11 @@ write('flashcards/latin/pronoun-possessives.html',
             'possessor-clusivity', 'possessor-formality', 
             'possessor-person', 'possessor-number',
             # categories that are constant since they are not relevant to common noun declension
-            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
+            'strength', 'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
             'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
         {
-            **tagaxis_to_tags,
+            **tag_defaults,
             'possessor-noun':   ['man','woman','snake'],
             'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
             'possessor-number': ['singular-possessor','plural-possessor'],
@@ -365,6 +375,7 @@ write('flashcards/latin/pronoun-possessives.html',
             'clitic':     'tonic',
             'partitivity':'nonpartitive',
             'formality':  'familiar',
+            'strength':   'strong',
             'tense':      'present', 
             'voice':      'active',
             'aspect':     'aorist', 
@@ -428,15 +439,16 @@ write('flashcards/latin/nonfinite-conjugation.html',
             'gender','person','number','formality','clusivity','clitic',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'animacy','noun-form', 'script']),
+            'strength', 'animacy','noun-form', 'script']),
         {
-            **tagaxis_to_tags,
+            **tag_defaults,
             'gender':     'masculine',
             'person':     '3',
             'number':     'singular',
             'formality':  'familiar',
             'clusivity':  'exclusive',
             'clitic':     'tonic',
+            'strength':   'strong',
             'mood':       'indicative',
             'voice':       voices,
             'verb':        verbs,
@@ -478,9 +490,9 @@ write('flashcards/latin/participle-declension.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'noun-form', 'script']),
+            'strength', 'noun-form', 'script']),
         {
-            **tagaxis_to_tags,
+            **tag_defaults,
             'role':      ['solitary'],
             'verb':        verbs,
             'noun':       'man' ,
@@ -492,6 +504,7 @@ write('flashcards/latin/participle-declension.html',
             'clitic':     'tonic',
             'partitivity':'nonpartitive',
             'formality':  'familiar',
+            'strength':   'strong',
             'tense':       tenses, 
             'voice':       voices,
             'aspect':     ['aorist','perfect'], 

@@ -115,7 +115,7 @@ tagaxis_to_tags = {
     'case':       ['nominative', 'ergative',
                    'oblique', 'accusative', 'absolutive', 
                    'genitive', 'dative', 'ablative', 'locative', 'instrumental', 'vocative', 
-                   'partitive', 'prepositional', 'abessive', 'adessive', 'allative', 'comitative', 'delative', 
+                   'prepositional', 'abessive', 'adessive', 'allative', 'comitative', 'delative', 
                    'elative', 'essive', 'essive-formal', 'essive-modal', 'exessive', 'illative', 
                    'inessive', 'instructive', 'instrumental-comitative', 'sociative', 'sublative', 'superessive', 
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
@@ -157,7 +157,7 @@ tagaxis_to_tags = {
     # needed to distinguish pronouns from common nouns and to further distinguish types of pronouns
     'noun-form':  ['common', 'personal', 
                    'demonstrative', 'interrogative', 'quantifier', 'numeral',
-                   'reciprocal', 'reflexive', 'emphatic-reflexive',
+                   'reciprocal', 'relative', 'reflexive', 'emphatic-reflexive',
                    'common-possessive', 'personal-possessive', 'reflexive-possessive'],
 
     # needed to distinguish forms of verb that require different kinds of lookups with different primary keys
@@ -284,6 +284,7 @@ declension_template_lookups = DictLookup(
                     'number',           
                     'gender',           
                     'partitivity', # needed for Quenya, Finnish
+                    'strength',    # needed for Old English
                     'case',           
                     'script',
                 ])),
@@ -320,6 +321,7 @@ declension_template_lookups = DictLookup(
                     'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
                 ]),
         'interrogative':      DictLookup('interrogative',      basic_pronoun_declension_hashing),
+        'relative':           DictLookup('relative',           basic_pronoun_declension_hashing),
         'numeral':            DictLookup('numeral',            basic_pronoun_declension_hashing),
         'reciprocal':         DictLookup('reciprocal',         reflexive_pronoun_declension_hashing),
         'reflexive':          DictLookup('reflexive',          reflexive_pronoun_declension_hashing),

@@ -1,59 +1,61 @@
-motion	attribute	old english case name		#				other prepositions to consider:
-subject		nominative		#			bæftan	behind
-addressed		vocative		#			beġeondan	beyond
-direct object		accusative		#			behindan	behind
-associated		genitive		#			binnan	in, within
-departed	location	dative	fram	#	from, by		benēoðan	beneath
-associated	location	dative	æt	#	at		betwēonum	between
-acquired	location	dative	tō	#	to		bufan	above
-leveraged	location	dative		#			būtan	without, except
-departed	extent	dative		#			ēac	also
-associated	extent	dative		#			for	for, because of, instead of
-acquired	extent	dative		#			innan	within
-leveraged	extent	dative	andlang	#	along		onbūtan	around
-departed	vicinity	dative		#			onġēan	opposite, against; towards; in reply to
-associated	vicinity	dative	nēah	#	near		oþ	until
-acquired	vicinity	dative	be|bī	#	by, about		samod	together
-leveraged	vicinity	dative		#			tōeācan	in addition to, besides
-departed	interior	dative	of	#	from, out of		tōforan	before
-associated	interior	dative	in	#	in		tōgeagnes	towards, against
-acquired	interior	dative	intō	#	into		tōweard	toward
-leveraged	interior	dative	þurh	#	through		ġeond	through
-departed	surface	dative		#			under	under
-associated	surface	dative		#			undernēoðan	underneath
-acquired	surface	dative	on	#	on, in		uppon	upon, on
-leveraged	surface	dative	ofer	#	over		wiþ	against
-departed	presence	dative		#			wiþinnan	within
-associated	presence	dative	beforan	#	before		wiþūtan	outside of
-acquired	presence	dative		#			ymb	around
-leveraged	presence	dative		#				
-departed	aid	dative		#				
-associated	aid	dative	mid	#	with			
-acquired	aid	dative		#				
-leveraged	aid	dative		#				
-departed	lack	dative		#				
-associated	lack	dative	ūtan	#	without, outside of			
-acquired	lack	dative		#				
-leveraged	lack	dative		#				
-departed	interest	dative		#				
-associated	interest	dative		#				
-acquired	interest	dative		#				
-leveraged	interest	dative		#				
-departed	ownership	genitive		#				
-associated	ownership	genitive		#				
-acquired	ownership	genitive		#				
-leveraged	ownership	dative		#				
-departed	time	dative	æfter	#	after			
-associated	time	dative		#				
-acquired	time	dative	ǣr	#	before			
-leveraged	time	dative		#				
-departed	state of being	dative		#				
-associated	state of being	dative		#				
-acquired	state of being	dative		#				
-leveraged	state of being	dative		#				
-departed	topic	dative		#				
-associated	topic	dative		#				
-acquired	topic	dative		#				
-leveraged	topic	dative		#				
-associated	company	dative	mid	#	with			
-associated	resemblance			#				
+#	motion	attribute	old english case name		#				other prepositions to consider:
+	associated	solitary	nominative		#				
+	associated	agent	nominative		#				
+	associated	audience	vocative		#			bæftan	behind
+	associated	patient	accusative		#			beġeondan	beyond
+	associated	theme	accusative		#			behindan	behind
+	associated	possessor	"genitive	"		#			binnan	in, within
+	departed	location	dative	fram	#	from, by		benēoðan	beneath
+	associated	location	dative	æt	#	at		betwēonum	between
+	acquired	location	dative	tō	#	to		bufan	above
+	leveraged	location	dative		#			būtan	without, except
+#	departed	extent	dative		#			ēac	also
+#	associated	extent	dative		#			for	for, because of, instead of
+#	acquired	extent	dative		#			innan	within
+	leveraged	extent	dative	andlang	#	along		onbūtan	around
+#	departed	vicinity	dative		#			onġēan	opposite, against; towards; in reply to
+	associated	vicinity	dative	nēah	#	near		oþ	until
+	acquired	vicinity	dative	be|bī	#	by, about		samod	together
+#	leveraged	vicinity	dative		#			tōeācan	in addition to, besides
+	departed	interior	dative	of	#	from, out of		tōforan	before
+	associated	interior	dative	in	#	in		tōgeagnes	towards, against
+	acquired	interior	dative	intō	#	into		tōweard	toward
+	leveraged	interior	dative	þurh	#	through		ġeond	through
+#	departed	surface	dative		#			under	under
+#	associated	surface	dative		#			undernēoðan	underneath
+	acquired	surface	dative	on	#	on, in		uppon	upon, on
+	leveraged	surface	dative	ofer	#	over		wiþ	against
+#	departed	presence	dative		#			wiþinnan	within
+	associated	presence	dative	beforan	#	before		wiþūtan	outside of
+#	acquired	presence	dative		#			ymb	around
+#	leveraged	presence	dative		#				
+#	departed	aid	dative		#				
+	associated	aid	dative	mid	#	with			
+#	acquired	aid	dative		#				
+#	leveraged	aid	dative		#				
+#	departed	lack	dative		#				
+	associated	lack	dative	ūtan	#	without, outside of			
+#	acquired	lack	dative		#				
+#	leveraged	lack	dative		#				
+#	departed	interest	dative		#				
+#	associated	interest	dative		#				
+#	acquired	interest	dative		#				
+#	leveraged	interest	dative		#				
+#	departed	ownership	genitive		#				
+#	associated	ownership	genitive		#				
+#	acquired	ownership	genitive		#				
+#	leveraged	ownership	dative		#				
+	departed	time	dative	æfter	#	after			
+#	associated	time	dative		#				
+	acquired	time	dative	ǣr	#	before			
+#	leveraged	time	dative		#				
+#	departed	state of being	dative		#				
+#	associated	state of being	dative		#				
+#	acquired	state of being	dative		#				
+#	leveraged	state of being	dative		#				
+#	departed	topic	dative		#				
+#	associated	topic	dative		#				
+#	acquired	topic	dative		#				
+#	leveraged	topic	dative		#				
+#	associated	company	dative	mid	#	with			
+#	associated	resemblance			#				

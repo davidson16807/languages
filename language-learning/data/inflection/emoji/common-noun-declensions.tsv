@@ -18,8 +18,8 @@ boy        		\nx{🧒\gx\cx}	#	common
 girl		\nx{🧒\gx\cx}	#	common
 child		\nx{🧒\gx\cx}	"#	"	common
 hand       	singular	\nx{🖐️\cx}	#	latin
-hand       	dual	👐\cx	#	latin
-hand       	plural	\nx{🖐️\cx}	#	latin
+hand       	dual	👐\cx	#	latin, old-english
+hand       	plural	\nx{🖐️\cx}	#	latin, old-english
 day		\nx{🏙️}	#	latin
 night		\nx{🌃}	#	latin
 bolt		\group{\hi{\nx{🔩}}}	#	latin
@@ -48,3 +48,23 @@ sea		\nx{⛵}	#	proto-indo-european
 fight		\nx{🤼}	#	proto-indo-european
 cloud		\nx{☁️}	#	proto-indo-european
 stone		\nx{🪨}	#	proto-indo-european
+dog		\nx{🐕}	#	old-english
+light		\nx{🕯️}	#	old-english
+house		\nx{🏠}	#	old-english
+gift		\nx{🎁}	#	old-english
+raid		\nx{\group{\hi{🤼}\lo{🤼}}}	#	old-english
+moon		\nx{🌙}	#	old-english
+sun		\nx{☀️}	#	old-english
+eye		\nx{👁️}	#	old-english
+time		\nx{⌛}	#	old-english
+English		\group{lhi{🇬🇧}\nx{🧑\gx\cx}}	#	old-english
+person		\nx{🧍\cx}	#	old-english
+nut		\nx{🌰}	#	old-english
+goose		\nx{🪿}	#	old-english
+friend		\nx{🧑‍🤝‍🧑}	#	old-english
+bystander		\nx{🧍\cx}	#	old-english
+lamb		\nx{🐑}	#	old-english
+shoe		\nx{🥾}	#	old-english
+piglet		\nx{🐷}	#	old-english
+shadow		\nx{🌃}	#	old-english
+meadow		\nx{🏞️}	#	old-english
