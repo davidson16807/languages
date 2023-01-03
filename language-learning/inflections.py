@@ -581,3 +581,23 @@ card_generation = CardGeneration(
     ListParsing(),
     list_tools
 )
+
+tag_defaults = {
+    **tagaxis_to_tags,
+    'script':     'latin',
+    
+    'clitic':     'tonic',
+    'clusivity':  'exclusive',
+    'formality':  'familiar',
+    'gender':     'masculine',
+    'noun':       'man',
+    'number':     'singular',
+    'partitivity':'nonpartitive',
+    'person':     '3',
+    'strength':   'strong',
+
+    'aspect':     'aorist', 
+    'mood':       'indicative',
+    'tense':      'present', 
+    'voice':      'active',
+}
