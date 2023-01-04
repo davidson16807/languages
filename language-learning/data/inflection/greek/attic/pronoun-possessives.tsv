@@ -1,0 +1,105 @@
+*	*	*	*	*	nominative 	genitive 	dative 	accusative 	vocative 	#attic																
+singular-possessor	1st-possessor	singular	masculine	greek	ἐμός	ἐμοῦ	ἐμῷ	ἐμόν	ἐμέ																	
+singular-possessor	1st-possessor	singular	masculine	latin	emós 	emoû 	emôi 	emón 	emé 																	
+singular-possessor	1st-possessor	singular	feminine	greek	ἐμή	ἐμῆς	ἐμῇ	ἐμήν	ἐμή																	
+singular-possessor	1st-possessor	singular	feminine	latin	emḗ 	emês 	emêi 	emḗn 	emḗ 																	
+singular-possessor	1st-possessor	singular	neuter	greek	ἐμόν	ἐμοῦ	ἐμῷ	ἐμόν	ἐμόν																	
+singular-possessor	1st-possessor	singular	neuter	latin	emón 	emoû 	emôi 	emón 	emón 																	
+																										
+singular-possessor	1st-possessor	dual	masculine	greek	ἐμώ	ἐμοῖν	ἐμοῖν	ἐμώ	ἐμώ																	
+singular-possessor	1st-possessor	dual	masculine	latin	emṓ 	emoîn 	emoîn 	emṓ 	emṓ 																	
+singular-possessor	1st-possessor	dual	feminine	greek	ἐμᾱ́	ἐμαῖν	ἐμαῖν	ἐμᾱ́	ἐμᾱ́																	
+singular-possessor	1st-possessor	dual	feminine	latin	emā́ 	emaîn 	emaîn 	emā́ 	emā́ 																	
+singular-possessor	1st-possessor	dual	neuter	greek	ἐμώ	ἐμοῖν	ἐμοῖν	ἐμώ	ἐμώ																	
+singular-possessor	1st-possessor	dual	neuter	latin	emṓ 	emoîn 	emoîn 	emṓ 	emṓ 																	
+																										
+singular-possessor	1st-possessor	plural	masculine	greek	ἐμοί	ἐμῶν	ἐμοῖς	ἐμούς	ἐμοί																	
+singular-possessor	1st-possessor	plural	masculine	latin	emoí 	emôn 	emoîs 	emoús 	emoí 																	
+singular-possessor	1st-possessor	plural	feminine	greek	ἐμαί	ἐμῶν	ἐμαῖς	ἐμᾱ́ς	ἐμαί																	
+singular-possessor	1st-possessor	plural	feminine	latin	emaí 	emôn 	emaîs 	emā́s 	emaí 																	
+singular-possessor	1st-possessor	plural	neuter	greek	ἐμᾰ́	ἐμῶν	ἐμοῖς	ἐμᾰ́	ἐμᾰ́																	
+singular-possessor	1st-possessor	plural	neuter	latin	emá	emôn	emoîs	emá	emá 																	
+																										
+plural-possessor	1st-possessor	singular	masculine	greek	ἡμέτερος	ἡμετέρου	ἡμετέρῳ	ἡμέτερον	ἡμέτερε																	
+plural-possessor	1st-possessor	singular	masculine	latin	hēméteros 	hēmetérou 	hēmetérōi 	hēméteron 	hēmétere 																	
+plural-possessor	1st-possessor	singular	feminine	greek	ἡμετέρᾱ	ἡμετέρᾱς	ἡμετέρᾳ	ἡμετέρᾱν	ἡμετέρᾱ																	
+plural-possessor	1st-possessor	singular	feminine	latin	hēmetérā 	hēmetérās 	hēmetérāi 	hēmetérān 	hēmetérā 																	
+plural-possessor	1st-possessor	singular	neuter	greek	ἡμέτερον	ἡμετέρου	ἡμετέρῳ	ἡμέτερον	ἡμέτερον																	
+plural-possessor	1st-possessor	singular	neuter	latin	hēméteron 	hēmetérou 	hēmetérōi 	hēméteron 	hēméteron 																	
+																										
+plural-possessor	1st-possessor	dual	masculine	greek	ἡμετέρω	ἡμετέροιν	ἡμετέροιν	ἡμετέρω	ἡμετέρω																	
+plural-possessor	1st-possessor	dual	masculine	latin	hēmetérō 	hēmetéroin 	hēmetéroin 	hēmetérō 	hēmetérō 																	
+plural-possessor	1st-possessor	dual	feminine	greek	ἡμετέρᾱ	ἡμετέραιν	ἡμετέραιν	ἡμετέρᾱ	ἡμετέρᾱ																	
+plural-possessor	1st-possessor	dual	feminine	latin	hēmetérā 	hēmetérain 	hēmetérain 	hēmetérā 	hēmetérā 																	
+plural-possessor	1st-possessor	dual	neuter	greek	ἡμετέρω	ἡμετέροιν	ἡμετέροιν	ἡμετέρω	ἡμετέρω																	
+plural-possessor	1st-possessor	dual	neuter	latin	hēmetérō 	hēmetéroin 	hēmetéroin 	hēmetérō 	hēmetérō 																	
+																										
+plural-possessor	1st-possessor	plural	masculine	greek	ἡμέτεροι	ἡμετέρων	ἡμετέροις	ἡμετέρους	ἡμέτεροι																	
+plural-possessor	1st-possessor	plural	masculine	latin	hēméteroi 	hēmetérōn 	hēmetérois 	hēmetérous 	hēméteroi 																	
+plural-possessor	1st-possessor	plural	feminine	greek	ἡμέτεραι	ἡμετέρων	ἡμετέραις	ἡμετέρᾱς	ἡμέτεραι																	
+plural-possessor	1st-possessor	plural	feminine	latin	hēméterai 	hēmetérōn 	hēmetérais 	hēmetérās 	hēméterai 																	
+plural-possessor	1st-possessor	plural	neuter	greek	ἡμέτερᾰ	ἡμετέρων	ἡμετέροις	ἡμέτερᾰ	ἡμέτερᾰ																	
+plural-possessor	1st-possessor	plural	neuter	latin	hēmétera	hēmetérōn	hēmetérois	hēmétera	hēmétera 																	
+																										
+singular-possessor	2nd-possessor	singular	masculine	greek	σός	σοῦ	σῷ	σόν	σέ																	
+singular-possessor	2nd-possessor	singular	masculine	latin	sós 	soû 	sôi 	són 	sé 																	
+singular-possessor	2nd-possessor	singular	feminine	greek	σή	σῆς	σῇ	σήν	σή																	
+singular-possessor	2nd-possessor	singular	feminine	latin	sḗ 	sês 	sêi 	sḗn 	sḗ 																	
+singular-possessor	2nd-possessor	singular	neuter	greek	σόν	σοῦ	σῷ	σόν	σόν																	
+singular-possessor	2nd-possessor	singular	neuter	latin	són 	soû 	sôi 	són 	són 																	
+																										
+singular-possessor	2nd-possessor	dual	masculine	greek	σώ	σοῖν	σοῖν	σώ	σώ																	
+singular-possessor	2nd-possessor	dual	masculine	latin	sṓ 	soîn 	soîn 	sṓ 	sṓ 																	
+singular-possessor	2nd-possessor	dual	feminine	greek	σᾱ́	σαῖν	σαῖν	σᾱ́	σᾱ́																	
+singular-possessor	2nd-possessor	dual	feminine	latin	sā́ 	saîn 	saîn 	sā́ 	sā́ 																	
+singular-possessor	2nd-possessor	dual	neuter	greek	σώ	σοῖν	σοῖν	σώ	σώ																	
+singular-possessor	2nd-possessor	dual	neuter	latin	sṓ 	soîn 	soîn 	sṓ 	sṓ 																	
+																										
+singular-possessor	2nd-possessor	plural	masculine	greek	σοί	σῶν	σοῖς	σούς	σοί																	
+singular-possessor	2nd-possessor	plural	masculine	latin	soí 	sôn 	soîs 	soús 	soí 																	
+singular-possessor	2nd-possessor	plural	feminine	greek	σαί	σῶν	σαῖς	σᾱ́ς	σαί																	
+singular-possessor	2nd-possessor	plural	feminine	latin	saí 	sôn 	saîs 	sā́s 	saí 																	
+singular-possessor	2nd-possessor	plural	neuter	greek	σᾰ́	σῶν	σοῖς	σᾰ́	σᾰ́																	
+singular-possessor	2nd-possessor	plural	neuter	latin	sá	sôn	soîs	sá	sá 																	
+																										
+plural-possessor	2nd-possessor	singular	masculine	greek	ῡ̔μέτερος	ῡ̔μετέρου	ῡ̔μετέρῳ	ῡ̔μέτερον	ῡ̔μέτερε																	
+plural-possessor	2nd-possessor	singular	masculine	latin	hūméteros 	hūmetérou 	hūmetérōi 	hūméteron 	hūmétere 																	
+plural-possessor	2nd-possessor	singular	feminine	greek	ῡ̔μετέρᾱ	ῡ̔μετέρᾱς	ῡ̔μετέρᾳ	ῡ̔μετέρᾱν	ῡ̔μετέρᾱ																	
+plural-possessor	2nd-possessor	singular	feminine	latin	hūmetérā 	hūmetérās 	hūmetérāi 	hūmetérān 	hūmetérā 																	
+plural-possessor	2nd-possessor	singular	neuter	greek	ῡ̔μέτερον	ῡ̔μετέρου	ῡ̔μετέρῳ	ῡ̔μέτερον	ῡ̔μέτερον																	
+plural-possessor	2nd-possessor	singular	neuter	latin	hūméteron 	hūmetérou 	hūmetérōi 	hūméteron 	hūméteron 																	
+																										
+plural-possessor	2nd-possessor	dual	masculine	greek	ῡ̔μετέρω	ῡ̔μετέροιν	ῡ̔μετέροιν	ῡ̔μετέρω	ῡ̔μετέρω																	
+plural-possessor	2nd-possessor	dual	masculine	latin	hūmetérō 	hūmetéroin 	hūmetéroin 	hūmetérō 	hūmetérō 																	
+plural-possessor	2nd-possessor	dual	feminine	greek	ῡ̔μετέρᾱ	ῡ̔μετέραιν	ῡ̔μετέραιν	ῡ̔μετέρᾱ	ῡ̔μετέρᾱ																	
+plural-possessor	2nd-possessor	dual	feminine	latin	hūmetérā 	hūmetérain 	hūmetérain 	hūmetérā 	hūmetérā 																	
+plural-possessor	2nd-possessor	dual	neuter	greek	ῡ̔μετέρω	ῡ̔μετέροιν	ῡ̔μετέροιν	ῡ̔μετέρω	ῡ̔μετέρω																	
+plural-possessor	2nd-possessor	dual	neuter	latin	hūmetérō 	hūmetéroin 	hūmetéroin 	hūmetérō 	hūmetérō 																	
+																										
+plural-possessor	2nd-possessor	plural	masculine	greek	ῡ̔μέτεροι	ῡ̔μετέρων	ῡ̔μετέροις	ῡ̔μετέρους	ῡ̔μέτεροι																	
+plural-possessor	2nd-possessor	plural	masculine	latin	hūméteroi 	hūmetérōn 	hūmetérois 	hūmetérous 	hūméteroi 																	
+plural-possessor	2nd-possessor	plural	feminine	greek	ῡ̔μέτεραι	ῡ̔μετέρων	ῡ̔μετέραις	ῡ̔μετέρᾱς	ῡ̔μέτεραι																	
+plural-possessor	2nd-possessor	plural	feminine	latin	hūméterai 	hūmetérōn 	hūmetérais 	hūmetérās 	hūméterai 																	
+plural-possessor	2nd-possessor	plural	neuter	greek	ῡ̔μέτερᾰ	ῡ̔μετέρων	ῡ̔μετέροις	ῡ̔μέτερᾰ	ῡ̔μέτερᾰ																	
+plural-possessor	2nd-possessor	plural	neuter	latin	hūmétera	hūmetérōn	hūmetérois	hūmétera	hūmétera 																	
+																										
+plural-possessor	3rd-possessor	singular	masculine	greek	σφέτερος	σφετέρου	σφετέρῳ	σφέτερον	σφέτερε																	
+plural-possessor	3rd-possessor	singular	masculine	latin	sphéteros 	sphetérou 	sphetérōi 	sphéteron 	sphétere 																	
+plural-possessor	3rd-possessor	singular	feminine	greek	σφετέρᾱ	σφετέρᾱς	σφετέρᾳ	σφετέρᾱν	σφετέρᾱ																	
+plural-possessor	3rd-possessor	singular	feminine	latin	sphetérā 	sphetérās 	sphetérāi 	sphetérān 	sphetérā 																	
+plural-possessor	3rd-possessor	singular	neuter	greek	σφέτερον	σφετέρου	σφετέρῳ	σφέτερον	σφέτερον																	
+plural-possessor	3rd-possessor	singular	neuter	latin	sphéteron 	sphetérou 	sphetérōi 	sphéteron 	sphéteron 																	
+																										
+plural-possessor	3rd-possessor	dual	masculine	greek	σφετέρω	σφετέροιν	σφετέροιν	σφετέρω	σφετέρω																	
+plural-possessor	3rd-possessor	dual	masculine	latin	sphetérō 	sphetéroin 	sphetéroin 	sphetérō 	sphetérō 																	
+plural-possessor	3rd-possessor	dual	feminine	greek	σφετέρᾱ	σφετέραιν	σφετέραιν	σφετέρᾱ	σφετέρᾱ																	
+plural-possessor	3rd-possessor	dual	feminine	latin	sphetérā 	sphetérain 	sphetérain 	sphetérā 	sphetérā 																	
+plural-possessor	3rd-possessor	dual	neuter	greek	σφετέρω	σφετέροιν	σφετέροιν	σφετέρω	σφετέρω																	
+plural-possessor	3rd-possessor	dual	neuter	latin	sphetérō 	sphetéroin 	sphetéroin 	sphetérō 	sphetérō 																	
+																										
+plural-possessor	3rd-possessor	plural	masculine	greek	σφέτεροι	σφετέρων	σφετέροις	σφετέρους	σφέτεροι																	
+plural-possessor	3rd-possessor	plural	masculine	latin	sphéteroi 	sphetérōn 	sphetérois 	sphetérous 	sphéteroi 																	
+plural-possessor	3rd-possessor	plural	feminine	greek	σφέτεραι	σφετέρων	σφετέραις	σφετέρᾱς	σφέτεραι																	
+plural-possessor	3rd-possessor	plural	feminine	latin	sphéterai 	sphetérōn 	sphetérais 	sphetérās 	sphéterai 																	
+plural-possessor	3rd-possessor	plural	neuter	greek	σφέτερᾰ	σφετέρων	σφετέροις	σφέτερᾰ	σφέτερᾰ																	
+plural-possessor	3rd-possessor	plural	neuter	latin	sphétera	sphetérōn	sphetérois	sphétera	sphétera 																	

@@ -1,192 +1,414 @@
-*	*	*	Nominative 	Genitive 	Dative 	Accusative 	Vocative 									
-article	masculine	singular 	ὁ 	τοῦ 	τῷ 	τόν 										
-article	masculine	dual 	τώ 	τοῖν 	τοῖν 	τώ 										
-article	masculine	plural 	οἱ 	τῶν 	τοῖς 	τούς 										
-																
-article	feminine	singular 	ἡ 	τῆς 	τῇ 	τήν 										
-article	feminine	dual 	τᾱ́ 	ταῖν 	ταῖν 	τᾱ́ 										
-article	feminine	plural 	αἱ 	τῶν 	ταῖς 	τᾱ́ς 										
-																
-article	neuter	singular 	τό 	τοῦ 	τῷ 	τό 										
-article	neuter	dual 	τώ 	τοῖν 	τοῖν 	τώ 										
-article	neuter	plural	τά	τῶν	τοῖς	τά										
-																
-young man	masculine	singular 	νεᾱνίᾱς 	νεᾱνίου 	νεᾱνίᾳ 	νεᾱνίᾱν 	νεᾱνίᾱ 	1	-ας							
-young man	masculine	dual 	νεᾱνίᾱ 	νεᾱνίαιν 	νεᾱνίαιν 	νεᾱνίᾱ 	νεᾱνίᾱ 	1	-ας							
-young man	masculine	plural 	νεᾱνίαι 	νεᾱνιῶν 	νεᾱνίαις 	νεᾱνίᾱς 	νεᾱνίαι 	1	-ας							
-																
-soldier	masculine	singular 	στρατιώτης	στρατιώτου	στρατιώτῃ	στρατιώτην	στρατιῶτᾰ	1	-ης							
-soldier	masculine	dual 	στρατιώτᾱ	στρατιώταιν	στρατιώταιν	στρατιώτᾱ	στρατιώτᾱ	1	-ης							
-soldier	masculine	plural	στρατιῶται	στρατιωτῶν	στρατιώταις	στρατιώτᾱς	στρατιῶται 	1	-ης							
-																
-polity	feminine	singular 	πολιτείᾱ	πολιτείᾱς	πολιτείᾳ	πολιτείᾱν	πολιτείᾱ	1	-ᾱ							
-polity	feminine	dual 	πολιτείᾱ	πολιτείαιν	πολιτείαιν	πολιτείᾱ	πολιτείᾱ	1	-ᾱ							
-polity	feminine	plural	πολιτεῖαι	πολιτειῶν	πολιτείαις	πολιτείᾱς	πολιτεῖαι	1	-ᾱ							
-																
-hair	feminine	singular 	κώμη	κώμης	κώμῃ	κώμην	κώμη	1	-η							
-hair	feminine	dual 	κώμᾱ	κώμαιν	κώμαιν	κώμᾱ	κώμᾱ	1	-η							
-hair	feminine	plural	κῶμαι	κωμῶν	κώμαις	κώμᾱς	κῶμαι 	1	-η							
-																
-person	masculine	singular 	ἄνθρωπος	ἀνθρώπου	ἀνθρώπῳ	ἄνθρωπον	ἄνθρωπε	2	-ος							
-person	masculine	dual 	ἀνθρώπω	ἀνθρώποιν	ἀνθρώποιν	ἀνθρώπω	ἀνθρώπω	2	-ος							
-person	masculine	plural 	ἄνθρωποι	ἀνθρώπων	ἀνθρώποις	ἀνθρώπους	ἄνθρωποι	2	-ος							
-																
-street	feminine	singular 	ὁδός	ὁδοῦ	ὁδῷ	ὁδόν	ὁδέ	2	-ος							
-street	feminine	dual 	ὁδώ	ὁδοῖν	ὁδοῖν	ὁδώ	ὁδώ	2	-ος							
-street	feminine	plural 	ὁδοί	ὁδῶν	ὁδοῖς	ὁδούς	ὁδοί	2	-ος							
-																
-gift	neuter	singular 	δῶρον	δώρου	δώρῳ	δῶρον	δῶρον	2	-ον							
-gift	neuter	dual 	δώρω	δώροιν	δώροιν	δώρω	δώρω	2	-ον							
-gift	neuter	plural	δῶρα	δώρων	δώροις	δῶρα	δῶρα 	2	-ον							
-																
-circumnavigation	masculine	singular 	περίπλους	περίπλου	περίπλῳ	περίπλουν	περίπλου	2	contracted							
-circumnavigation	masculine	dual 	περίπλω	περίπλοιν	περίπλοιν	περίπλω	περίπλω	2	contracted							
-circumnavigation	masculine	plural 	περίπλοι	περίπλων	περίπλοις	περίπλους	περίπλοι	2	contracted							
-																
-bone	neuter	singular 	ὀστοῦν	ὀστοῦ	ὀστῷ	ὀστοῦν	ὀστοῦν	2	contracted							
-bone	neuter	dual 	ὀστώ	ὀστοῖν	ὀστοῖν	ὀστώ	ὀστώ	2	contracted							
-bone	neuter	plural	ὀστᾶ	ὀστῶν	ὀστοῖς	ὀστᾶ	ὀστᾶ 	2	contracted							
-																
-hero	masculine	singular 	ἥρως	ἥρωος	ἥρωϊ	ἥρωα	ἥρως	3	-ως							
-hero	masculine	dual 	ἥρωε	ἡρώοιν	ἡρώοιν	ἥρωε	ἥρωε	3	-ως							
-hero	masculine	plural 	ἥρωες	ἡρώων	ἥρωσι	ἥρωας	ἥρωες	3	-ως							
-																
-fish	masculine	singular 	ἰχθῡ́ς	ἰχθύος	ἰχθύϊ	ἰχθῡ́ν	ἰχθῡ́	3	-υς							
-fish	masculine	plural 	ἰχθύες	ἰχθύων	ἰχθύσι	ἰχθῦς	ἰχθύες	3	-υς							
-oak	feminine	singular 	δρῦς	δρυός	δρυΐ	δρῦν	δρῦ	3	-υς							
-oak	feminine	plural	δρύες	δρυῶν	δρυσί	δρῦς	δρύες 	3	-υς							
-																
-citadel	feminine	singular 	πόλις	πόλεως	πόλει	πόλιν	πόλι	3	double vowel stem							
-citadel	feminine	dual 	πόλει	πολέοιν	πολέοιν	πόλει	πόλει	3	double vowel stem							
-citadel	feminine	plural 	πόλεις	πόλεων	πόλεσι	πόλεις	πόλεις	3	double vowel stem							
-																
-ax	masculine	singular 	πέλεκυς	πελέκεως	πελέκει	πέλεκυν	πέλεκυ	3	double vowel stem							
-ax	masculine	dual 	πελέκει	πελεκέοιν	πελεκέοιν	πελέκει	πελέκει	3	double vowel stem							
-ax	masculine	plural 	πελέκεις	πελέκεων	πελέκεσι	πελέκεις	πελέκεις	3	double vowel stem							
-																
-town	neuter	singular 	ἄστυ	ἄστεως	ἄστει	ἄστυ	ἄστυ	3	double vowel stem							
-town	neuter	dual 	ἄστει	ἀστέοιν	ἀστέοιν	ἄστει	ἄστει	3	double vowel stem							
-town	neuter	plural	ἄστη	ἄστεων	ἄστεσι	ἄστη	ἄστη 	3	double vowel stem							
-																
-master	masculine	singular 	βασιλεύς	βασιλέως	βασιλεῖ	βασιλέα	βασιλεῦ	3	-εύς, -οῦς or -αῦς							
-master	masculine	dual 	βασιλεῖ	βασιλέοιν	βασιλέοιν	βασιλεῖ	βασιλεῖ	3	-εύς, -οῦς or -αῦς							
-master	masculine	plural 	βασιλεῖς	βασιλέων	βασιλεῦσι	βασιλέας	βασιλεῖς	3	-εύς, -οῦς or -αῦς							
-cow	masculine	singular 	βοῦς	βοός	βοΐ	βοῦν	βοῦ	3	-εύς, -οῦς or -αῦς							
-cow	masculine	dual 	βόε	βοοῖν	βοοῖν	βόε	βόε	3	-εύς, -οῦς or -αῦς							
-cow	masculine	plural 	βόες	βοῶν	βουσί	βοῦς	βόες	3	-εύς, -οῦς or -αῦς							
-old woman	feminine	singular 	γραῦς	γραός	γραΐ	γραῦν	γραῦ	3	-εύς, -οῦς or -αῦς							
-old woman	feminine	plural	γρᾶες	γραῶν	γραυσί	γραῦς	γρᾶες 	3	-εύς, -οῦς or -αῦς							
-																
-echo	feminine	singular 	ἠχώ	ἠχοῦς	ἠχοῖ	ἠχώ	ἠχοῖ	3	-ώ							
-Clio	feminine	singular	Κλειώ	Κλειοῦς	Κλειοῖ	Κλειώ	Κλειοῖ 	3	-ώ	a Nereid						
-																
-crow	masculine	singular 	κόραξ	κόρακος	κόρακι	κόρακα	κόραξ	3	κ stem							
-crow	masculine	dual 	κόρακε	κοράκοιν	κοράκοιν	κόρακε	κόρακε	3	κ stem							
-crow	masculine	plural 	κόρακες	κοράκων	κόραξι	κόρακας	κόρακες	3	κ stem							
-vulture	masculine	singular 	γύψ	γυπός	γυπί	γῦπα	γύψ	3	π stem							
-vulture	masculine	dual 	γῦπε	γυποῖν	γυποῖν	γῦπε	γῦπε	3	π stem							
-vulture	masculine	plural 	γῦπες	γυπῶν	γυψί	γῦπας	γῦπες	3	π stem							
-rug	masculine	singular 	τάπης	τάπητος	τάπητι	τάπητα	τάπης	3	τ stem							
-rug	masculine	dual 	τάπητε	ταπήτοιν	ταπήτοιν	τάπητε	τάπητε	3	τ stem							
-rug	masculine	plural	τάπητες	ταπήτων	τάπησι	τάπητας	τάπητες 	3	τ stem							
-																
-giant	masculine	singular 	γίγας	γίγαντος	γίγαντι	γίγαντα	γίγαν	3	-ντ							
-giant	masculine	dual 	γίγαντε	γιγάντοιν	γιγάντοιν	γίγαντε	γίγαντε	3	-ντ							
-giant	masculine	plural 	γίγαντες	γιγάντων	γίγασι	γίγαντας	γίγαντες	3	-ντ							
-tooth	masculine	singular 	ὀδούς	ὀδόντος	ὀδόντι	ὀδόντα	ὀδούς	3	-ντ							
-tooth	masculine	dual 	ὀδόντε	ὀδόντοιν	ὀδόντοιν	ὀδόντε	ὀδόντε	3	-ντ							
-tooth	masculine	plural 	ὀδόντες	ὀδόντων	ὀδοῦσι	ὀδόντας	ὀδόντες	3	-ντ							
-old man	masculine	singular 	γέρων	γέροντος	γέροντι	γέροντα	γέρον	3	-ντ							
-old man	masculine	dual 	γέροντε	γερόντοιν	γερόντοιν	γέροντε	γέροντε	3	-ντ							
-old man	masculine	plural 	γέροντες	γερόντων	γέρουσι	γέροντας	γέροντες	3	-ντ							
-property	neuter	singular 	κτῆμα	κτήματος	κτήματι	κτῆμα	κτῆμα	3	-α							
-property	neuter	dual 	κτήματε	κτημάτοιν	κτημάτοιν	κτήματε	κτήματε	3	-α							
-property	neuter	plural	κτήματα	κτημάτων	κτήμασι	κτήματα	κτήματα 	3	-α							
-																
-Hellen	masculine	singular 	Ἕλλην	Ἕλληνος	Ἕλληνι	Ἕλληνα	Ἕλλην	3	nasal single-stem	mythical character of the Illiad						
-Hellen	masculine	dual 	Ἕλληνε	Ἑλλήνοιν	Ἑλλήνοιν	Ἕλληνε	Ἕλληνε	3	nasal single-stem	mythical character of the Illiad						
-Hellen	masculine	plural 	Ἕλληνες	Ἑλλήνων	Ἕλλησι	Ἕλληνας	Ἕλληνες	3	nasal single-stem	mythical character of the Illiad						
-winter	masculine	singular 	χειμών	χειμῶνος	χειμῶνι	χειμῶνα	χειμών	3	nasal single-stem							
-winter	masculine	dual 	χειμῶνε	χειμώνοιν	χειμώνοιν	χειμῶνε	χειμῶνε	3	nasal single-stem							
-winter	masculine	plural 	χειμῶνες	χειμώνων	χειμῶσι	χειμῶνας	χειμῶνες	3	nasal single-stem							
-Titan	masculine	singular 	Τιτάν	Τιτᾶνος	Τιτᾶνι	Τιτᾶνα	Τιτάν	3	nasal single-stem							
-Titan	masculine	dual 	Τιτᾶνε	Τιτάνοιν	Τιτάνοιν	Τιτᾶνε	Τιτᾶνε	3	nasal single-stem							
-Titan	masculine	plural 	Τιτᾶνες	Τιτάνων	Τιτᾶσι	Τιτᾶνας	Τιτᾶνες	3	nasal single-stem							
-light ray	feminine	singular 	ἀκτίς	ἀκτῖνος	ἀκτῖνι	ἀκτῖνα	ἀκτίς	3	nasal single-stem							
-light ray	feminine	dual 	ἀκτῖνε	ἀκτίνοιν	ἀκτίνοιν	ἀκτῖνε	ἀκτῖνε	3	nasal single-stem							
-light ray	feminine	plural	ἀκτῖνες	ἀκτίνων	ἀκτῖσι	ἀκτῖνας	ἀκτῖνες 	3	nasal single-stem							
-																
-shepherd	masculine	singular 	ποιμήν	ποιμένος	ποιμένι	ποιμένα	ποιμήν	3	nasal double-stem							
-shepherd	masculine	dual 	ποιμένε	ποιμένοιν	ποιμένοιν	ποιμένε	ποιμένε	3	nasal double-stem							
-shepherd	masculine	plural 	ποιμένες	ποιμένων	ποιμέσι	ποιμένας	ποιμένες	3	nasal double-stem							
-guide	masculine	singular 	ἡγεμών	ἡγεμόνος	ἡγεμόνι	ἡγεμόνα	ἡγεμών	3	nasal double-stem							
-guide	masculine	dual 	ἡγεμόνε	ἡγεμόνοιν	ἡγεμόνοιν	ἡγεμόνε	ἡγεμόνε	3	nasal double-stem							
-guide	masculine	plural 	ἡγεμόνες	ἡγεμόνων	ἡγεμόσι	ἡγεμόνας	ἡγεμόνες	3	nasal double-stem							
-neighbor	masculine	singular 	γείτων	γείτονος	γείτονι	γείτονα	γεῖτον	3	nasal double-stem							
-neighbor	masculine	dual 	γείτονε	γειτόνοιν	γειτόνοιν	γείτονε	γείτονε	3	nasal double-stem							
-neighbor	masculine	plural	γείτονες	γειτόνων	γείτοσι	γείτονας	γείτονες 	3	nasal double-stem							
-																
-tipstaff	masculine	singular 	κλητήρ	κλητῆρος	κλητῆρι	κλητῆρα	κλητήρ	3	liquid stem	a staff carried by a bailiff as a sign of office						
-tipstaff	masculine	dual 	κλητῆρε	κλητήροιν	κλητήροιν	κλητῆρα	κλητῆρε	3	liquid stem	a staff carried by a bailiff as a sign of office						
-tipstaff	masculine	plural 	κλητῆρες	κλητήρων	κλητῆρσι	κλητῆρας	κλητῆρες	3	liquid stem	a staff carried by a bailiff as a sign of office						
-ichor	masculine	singular 	ἰχώρ	ἰχῶρος	ἰχῶρι	ἰχῶρα	ἰχώρ	3	liquid stem	the blood of a god						
-ichor	masculine	dual 	ἰχῶρε	ἰχώροιν	ἰχώροιν	ἲχῶρε	ἰχῶρε	3	liquid stem	the blood of a god						
-ichor	masculine	plural 	ἰχῶρες	ἰχώρων	ἰχῶρσι	ἰχῶρας	ἰχῶρες	3	liquid stem	the blood of a god						
-chaff	masculine	singular 	ἀθήρ	ἀθέρος	ἀθέρι	ἀθέρα	ἀθήρ	3	liquid stem							
-chaff	masculine	dual 	ἀθέρε	ἀθέροιν	ἀθέροιν	ἀθέρε	ἀθέρε	3	liquid stem							
-chaff	masculine	plural 	ἀθέρες	ἀθέρων	ἀθέρσι	ἀθέρας	ἀθέρες	3	liquid stem							
-orator	masculine	singular 	ῥήτωρ	ῥήτορος	ῥήτορι	ῥήτορα	ῥῆτορ	3	liquid stem							
-orator	masculine	dual 	ῥήτορε	ῥητόροιν	ῥητόροιν	ῥήτορε	ῥήτορε	3	liquid stem							
-orator	masculine	plural	ῥήτορες	ῥητόρων	ῥήτορσι	ῥήτορας	ῥήτορες 	3	liquid stem							
-																
-father	masculine	singular 	πατήρ	πατρός	πατρί	πατέρα	πάτερ	3	ε stem							
-father	masculine	dual 	πατέρε	πατέροιν	πατέροιν	πατέρε	πατέρε	3	ε stem							
-father	masculine	plural 	πατέρες	πατέρων	πατράσι	πατέρας	πατέρες	3	ε stem							
-man	masculine	singular 	ἀνήρ	ἀνδρός	ἀνδρί	ἄνδρα	ἄνερ	3	ε stem							
-man	masculine	dual 	ἄνδρε	ἀνδροῖν	ἀνδροῖν	ἄνδρε	ἄνδρε	3	ε stem							
-man	masculine	plural 	ἄνδρες	ἀνδρῶν	ἀνδράσι	ἄνδρας	ἄνδρες	3	ε stem							
-Demeter	feminine	singular	Δημήτηρ	Δήμητρος	Δήμητρι	Δήμητρα	Δήμητερ 	3	ε stem	goddess of fertility						
-																
-Socrates	masculine	singular 	Σωκράτης	Σωκράτους	Σωκράτει	Σωκράτη	Σώκρατες	3	sibilant stem	reknown philosopher						
-Socrates	masculine	plural 	Σωκράτεις	Σωκρατῶν	Σωκράτεσι	Σωκράτεις	Σωκράτεις	3	sibilant stem	reknown philosopher						
-Pericles	masculine	singular 	Περικλῆς	Περικλέους	Περικλεῖ	Περικλέα	Περίκλεις	3	sibilant stem	reknown statesman						
-Pericles	masculine	plural	Περικλεῖς	Περικλέων	-	Περικλεῖς	Περικλεῖς 	3	sibilant stem	reknown statesman						
-																
-arrow	neuter	singular 	βέλος	βέλους	βέλει	βέλος	βέλος	3	without suffix double stem							
-arrow	neuter	dual 	βέλει	βελοῖν	βελοῖν	βέλει	βέλει	3	without suffix double stem							
-arrow	neuter	plural 	βέλη	βελῶν	βέλεσι	βέλη	βέλη	3	without suffix double stem							
-foundation	neuter	singular 	ἔδαφος	ἐδάφους	ἐδάφει	ἔδαφος	ἔδαφος	3	without suffix double stem							
-foundation	neuter	dual 	ἐδάφει	ἐδαφοῖν	ἐδαφοῖν	ἐδάφει	ἐδάφει	3	without suffix double stem							
-foundation	neuter	plural 	ἐδάφη	ἐδαφῶν	ἐδάφεσι	ἐδάφη	ἐδάφη	3	without suffix double stem							
-shame	feminine	singular	αἰδώς	αἰδοῦς	αἰδοῖ	αἰδῶ	αἰδώς 	3	without suffix double stem							
-																
-Ares	masculine	singular 	Ἄρης	Ἄρεως	Ἄρει	Ἄρη or Ἄρην	Ἄρες	irregular		god of war						
-woman	feminine	singular 	γυνή	γυναικός	γυναικί	γυναῖκα	γύναι	irregular								
-woman	feminine	plural 	γυναῖκες	γυναικῶν	γυναιξί	γυναῖκας	γυναῖκες	irregular								
-Thales	masculine	singular 	Θαλῆς	Θαλοῦ or Θαλέω or Θάλητος	Θαλῇ or Θάλητι	Θαλῆν or Θάλητα	—	irregular		reknown philosopher and mathematician						
-Oedipus	masculine	singular 	Οἰδίπους	Οἰδίποδος or Οἰδίπου	Οἰδίποδι	Οἰδίπουν	Οἰδίπου	irregular		mythical king of Thebes						
-fire	neuter	singular 	πῦρ	πυρός	πυρί	πῦρ	πῦρ	irregular								
-fire	neuter	plural	πυρά	πυρῶν	πυροῖς	πυρά	πυρά 	irregular								
-																
-Apollo	masculine	singular 	Ἀπόλλων	Ἀπόλλωνος	Ἀπόλλωνι	Ἀπόλλωνα or Ἀπόλλω	Ἄπολλον	irregular		god of the moon						
-knee	neuter	singular 	γόνυ	γόνατος	γόνατι	γόνυ	γόνυ	irregular								
-knee	neuter	plural 	γόνατα	γονάτων	γόνασι	γόνατα	γόνατα	irregular								
-wood	neuter	singular 	δόρυ	δόρατος	δόρατι	δόρυ	δόρυ	irregular								
-wood	neuter	plural 	δόρατα	δοράτων	δόρασι	δόρατα	δόρατα	irregular								
-Zeus	masculine	singular 	Ζεύς	Διός	Διί	Δία	Ζεῦ	irregular		god of the sky						
-liver	neuter	singular 	ἧπαρ	ἥπατος	ἥπατι	ἧπαρ	ἧπαρ	irregular								
-liver	neuter	plural 	ἥπατα	ἡπάτων	ἥπασι	ἥπατα	ἥπατα	irregular								
-dog	masculine	singular 	κύων	κυνός	κυνί	κύνα	κύον	irregular								
-dog	masculine	plural 	κύνες	κυνῶν	κυσί	κύνας	κύνες	irregular								
-ship	feminine	singular 	ναῦς	νεώς	νηί	ναῦν	ναῦ	irregular								
-ship	feminine	plural 	νῆες	νεῶν	ναυσί	ναῦς	νῆες	irregular								
-ear	neuter	singular 	οὖς	ὠτός	ὤτί	οὖς	οὖς	irregular								
-ear	neuter	dual 	ὦτε	ὤτοιν	ὤτοιν	ὦτε	ὦτε	irregular								
-ear	neuter	plural	ὦτα	ὤτων	ὠσί	ὦτα	ὦτα 	irregular								
-																
-water	neuter	singular 	ὕδωρ	ὕδατος	ὕδατι	ὕδωρ	ὕδωρ	irregular								
-water	neuter	plural 	ὕδατα	ὑδάτων	ὕδασι	ὕδατα	ὕδατα	irregular								
-hand	feminine	singular 	χείρ	χειρός	χειρί	χεῖρα	χείρ	irregular								
-hand	feminine	dual 	χεῖρε	χεροῖν	χεροῖν	χεῖρε	χεῖρε	irregular								
-hand	feminine	plural	χεῖρες	χειρῶν	χερσί	χεῖρας	χεῖρες 	irregular								
-																
+*	*	*	*	nominative	genitive	dative	accusative	vocative	#	attic														
+the	singular	masculine	greek	ὁ	τοῦ	τῷ	τόν		#															
+the	singular	masculine	latin	ho 	toû 	tôi 	tón 		#															
+the	singular	feminine	greek	ἡ	τῆς	τῇ	τήν		#															
+the	singular	feminine	latin	hē 	tês 	têi 	tḗn 		#															
+the	singular	neuter	greek	τό	τοῦ	τῷ	τό		#															
+the	singular	neuter	latin	tó 	toû 	tôi 	tó 		#															
+									#															
+the	dual	masculine	greek	τώ	τοῖν	τοῖν	τώ		#															
+the	dual	masculine	latin	tṓ 	toîn 	toîn 	tṓ 		#															
+the	dual	feminine	greek	τώ	τοῖν	τοῖν	τώ		#															
+the	dual	feminine	latin	tṓ 	toîn 	toîn 	tṓ 		#															
+the	dual	neuter	greek	τώ	τοῖν	τοῖν	τώ		#															
+the	dual	neuter	latin	tṓ 	toîn 	toîn 	tṓ 		#															
+									#															
+the	plural	masculine	greek	οἱ	τῶν	τοῖς	τούς		#															
+the	plural	masculine	latin	hoi 	tôn 	toîs 	toús 		#															
+the	plural	feminine	greek	αἱ	τῶν	ταῖς	τᾱ́ς		#															
+the	plural	feminine	latin	hai 	tôn 	taîs 	tā́s 		#															
+the	plural	neuter	greek	τᾰ́	τῶν	τοῖς	τᾰ́		#															
+the	plural	neuter	latin	tá	tôn	toîs	tá 		#															
+									#															
+young man	singular 	masculine	greek	νεᾱνῐ́ᾱς	νεᾱνῐ́ου	νεᾱνῐ́ᾳ	νεᾱνῐ́ᾱν	νεᾱνῐ́ᾱ	#	1														
+young man	singular 	masculine	latin	neāníās	neāníou	neāníāi	neāníān	neāníā	#	1														
+young man	dual 	masculine	greek	νεᾱνῐ́ᾱ	νεᾱνῐ́αιν	νεᾱνῐ́αιν	νεᾱνῐ́ᾱ	νεᾱνῐ́ᾱ	#	1														
+young man	dual 	masculine	latin	neāníā	neāníain	neāníain	neāníā	neāníā	#	1														
+young man	plural	masculine	greek	νεᾱνῐ́αι	νεᾱνῐῶν	νεᾱνῐ́αις	νεᾱνῐ́ᾱς	νεᾱνῐ́αι	#	1														
+young man	plural	masculine	latin	neāníai	neāniôn	neāníais	neāníās	neāníai	#	1														
+									#															
+soldier	singular 	masculine	greek	στρᾰτῐώτης	στρᾰτῐώτου	στρᾰτῐώτῃ	στρᾰτῐώτην	στρᾰτῐῶτᾰ	#	1														
+soldier	singular 	masculine	latin	stratiṓtēs	stratiṓtou	stratiṓtēi	stratiṓtēn	stratiôta	#	1														
+soldier	dual 	masculine	greek	στρᾰτῐώτᾱ	στρᾰτῐώταιν	στρᾰτῐώταιν	στρᾰτῐώτᾱ	στρᾰτῐώτᾱ	#	1														
+soldier	dual 	masculine	latin	stratiṓtā	stratiṓtain	stratiṓtain	stratiṓtā	stratiṓtā	#	1														
+soldier	plural	masculine	greek	στρᾰτῐῶται	στρᾰτῐωτῶν	στρᾰτῐώταις	στρᾰτῐώτᾱς	στρᾰτῐῶται	#	1														
+soldier	plural	masculine	latin	stratiôtai	stratiōtôn	stratiṓtais	stratiṓtās	stratiôtai	#	1														
+									#															
+polity	singular 	feminine	greek	πολῑτείᾱ	πολῑτείᾱς	πολῑτείᾳ	πολῑτείᾱν	πολῑτείᾱ	#	1														
+polity	singular 	feminine	latin	polīteíā	polīteíās	polīteíāi	polīteíān	polīteíā	#	1														
+polity	dual 	feminine	greek	πολῑτείᾱ	πολῑτείαιν	πολῑτείαιν	πολῑτείᾱ	πολῑτείᾱ	#	1														
+polity	dual 	feminine	latin	polīteíā	polīteíain	polīteíain	polīteíā	polīteíā	#	1														
+polity	plural	feminine	greek	πολῑτεῖαι	πολῑτειῶν	πολῑτείαις	πολῑτείᾱς	πολῑτεῖαι	#	1														
+polity	plural	feminine	latin	polīteîai	polīteiôn	polīteíais	polīteíās	polīteîai	#	1														
+									#															
+village	singular 	feminine	greek	κώμη	κώμης	κώμῃ	κώμην	κώμη	#	1														
+village	singular 	feminine	latin	kṓmē	kṓmēs	kṓmēi	kṓmēn	kṓmē	#	1														
+village	dual 	feminine	greek	κώμᾱ	κώμαιν	κώμαιν	κώμᾱ	κώμᾱ	#	1														
+village	dual 	feminine	latin	kṓmā	kṓmain	kṓmain	kṓmā	kṓmā	#	1														
+village	plural	feminine	greek	κῶμαι	κωμῶν	κώμαις	κώμᾱς	κῶμαι	#	1														
+village	plural	feminine	latin	kômai	kōmôn	kṓmais	kṓmās	kômai	#	1														
+									#															
+person	singular 	masculine	greek	ἄνθρωπος	ἀνθρώπου	ἀνθρώπῳ	ἄνθρωπον	ἄνθρωπε	#	2														
+person	singular 	masculine	latin	ánthrōpos	anthrṓpou	anthrṓpōi	ánthrōpon	ánthrōpe	#	2														
+person	dual 	masculine	greek	ἀνθρώπω	ἀνθρώποιν	ἀνθρώποιν	ἀνθρώπω	ἀνθρώπω	#	2														
+person	dual 	masculine	latin	anthrṓpō	anthrṓpoin	anthrṓpoin	anthrṓpō	anthrṓpō	#	2														
+person	plural	masculine	greek	ἄνθρωποι	ἀνθρώπων	ἀνθρώποις	ἀνθρώπους	ἄνθρωποι	#	2														
+person	plural	masculine	latin	ánthrōpoi	anthrṓpōn	anthrṓpois	anthrṓpous	ánthrōpoi	#	2														
+																								
+person	singular 	feminine	greek	ἄνθρωπος	ἀνθρώπου	ἀνθρώπῳ	ἄνθρωπον	ἄνθρωπε	#	2														
+person	singular 	feminine	latin	ánthrōpos	anthrṓpou	anthrṓpōi	ánthrōpon	ánthrōpe	#	2														
+person	dual 	feminine	greek	ἀνθρώπω	ἀνθρώποιν	ἀνθρώποιν	ἀνθρώπω	ἀνθρώπω	#	2														
+person	dual 	feminine	latin	anthrṓpō	anthrṓpoin	anthrṓpoin	anthrṓpō	anthrṓpō	#	2														
+person	plural	feminine	greek	ἄνθρωποι	ἀνθρώπων	ἀνθρώποις	ἀνθρώπους	ἄνθρωποι	#	2														
+person	plural	feminine	latin	ánthrōpoi	anthrṓpōn	anthrṓpois	anthrṓpous	ánthrōpoi	#	2														
+									#															
+street	singular 	feminine	greek	ὁδός	ὁδοῦ	ὁδῷ	ὁδόν	ὁδέ	#	2														
+street	singular 	feminine	latin	hodós	hodoû	hodôi	hodón	hodé	#	2														
+street	dual 	feminine	greek	ὁδώ	ὁδοῖν	ὁδοῖν	ὁδώ	ὁδώ	#	2														
+street	dual 	feminine	latin	hodṓ	hodoîn	hodoîn	hodṓ	hodṓ	#	2														
+street	plural	feminine	greek	ὁδοί	ὁδῶν	ὁδοῖς	ὁδούς	ὁδοί	#	2														
+street	plural	feminine	latin	hodoí	hodôn	hodoîs	hodoús	hodoí	#	2														
+									#															
+gift	singular 	neuter	greek	δῶρον	δώρου	δώρῳ	δῶρον	δῶρον	#	2														
+gift	singular 	neuter	latin	dôron	dṓrou	dṓrōi	dôron	dôron	#	2														
+gift	dual 	neuter	greek	δώρω	δώροιν	δώροιν	δώρω	δώρω	#	2														
+gift	dual 	neuter	latin	dṓrō	dṓroin	dṓroin	dṓrō	dṓrō	#	2														
+gift	plural	neuter	greek	δῶρᾰ	δώρων	δώροις	δῶρᾰ	δῶρᾰ	#	2														
+gift	plural	neuter	latin	dôra	dṓrōn	dṓrois	dôra	dôra	#	2														
+									#															
+circumnavigation	singular 	masculine	greek	περίπλους	περίπλου	περίπλῳ	περίπλουν	περίπλου	#	2														
+circumnavigation	dual 	masculine	greek	περίπλω	περίπλοιν	περίπλοιν	περίπλω	περίπλω	#	2														
+circumnavigation	plural 	masculine	greek	περίπλοι	περίπλων	περίπλοις	περίπλους	περίπλοι	#	2														
+									#															
+bone	singular 	neuter	greek	ὀστοῦν	ὀστοῦ	ὀστῷ	ὀστοῦν	ὀστοῦν	#	2														
+bone	singular 	neuter	latin	ostoûn	ostoû	ostôi	ostoûn	ostoûn 	#	2														
+bone	dual 	neuter	greek	ὀστώ	ὀστοῖν	ὀστοῖν	ὀστώ	ὀστώ	#	2														
+bone	dual 	neuter	latin	ostṓ	ostoîn	ostoîn	ostṓ	ostṓ 	#	2														
+bone	plural	neuter	greek	ὀστᾶ	ὀστῶν	ὀστοῖς	ὀστᾶ	ὀστᾶ	#	2														
+bone	plural	neuter	latin	ostâ	ostôn	ostoîs	ostâ	ostâ 	#	2														
+									#															
+hero	singular 	masculine	greek	ἥρως	ἥρωος	ἥρῳ / ἥρωῐ̈	ἥρω / ἥρωᾰ	ἥρως	#	3														
+hero	singular 	masculine	latin	hḗrōs	hḗrōos	hḗrōi / hḗrōï	hḗrō / hḗrōa	hḗrōs	#	3														
+hero	dual 	masculine	greek	ἥρωε	ἡρώοιν	ἡρώοιν	ἥρωε	ἥρωε	#	3														
+hero	dual 	masculine	latin	hḗrōe	hērṓoin	hērṓoin	hḗrōe	hḗrōe	#	3														
+hero	plural	masculine	greek	ἥρωες	ἡρώων	ἥρωσῐ / ἥρωσῐν	ἥρωᾰς	ἥρωες	#	3														
+hero	plural	masculine	latin	hḗrōes	hērṓōn	hḗrōsi(n)	hḗrōas	hḗrōes	#	3														
+									#															
+fish	singular 	masculine	greek	ἰχθῡ́ς	ἰχθῠ́ος	ἰχθῠ́ῐ̈	ἰχθῡ́ν / ἰχθῠ́ᾰ	ἰχθῡ́	#	3														
+fish	singular 	masculine	latin	ikhthū́s	ikhthúos	ikhthúï	ikhthū́n / ikhthúa	ikhthū́	#	3														
+fish	dual 	masculine	greek	ἰχθῠ́ε	ἰχθῠ́οιν	ἰχθῠ́οιν	ἰχθῠ́ε	ἰχθῠ́ε	#	3														
+fish	dual 	masculine	latin	ikhthúe	ikhthúoin	ikhthúoin	ikhthúe	ikhthúe	#	3														
+fish	plural	masculine	greek	ἰχθῠ́ες	ἰχθῠ́ων	ἰχθῠ́σῐ / ἰχθῠ́σῐν	ἰχθῦς / ἰχθῠ́ᾰς	ἰχθῠ́ες	#	3														
+fish	plural	masculine	latin	ikhthúes	ikhthúōn	ikhthúsi(n)	ikhthûs / ikhthúas	ikhthúes	#	3														
+									#															
+oak	singular 	feminine	greek	δρῦς	δρῠός	δρῠῐ̈́	δρῦν	δρῦ	#	3														
+oak	singular 	feminine	latin	drûs	druós	druḯ	drûn	drû	#	3														
+oak	dual 	feminine	greek	δρῠ́ε	δρῠοῖν	δρῠοῖν	δρῠ́ε	δρῠ́ε	#	3														
+oak	dual 	feminine	latin	drúe	druoîn	druoîn	drúe	drúe	#	3														
+oak	plural	feminine	greek	δρῠ́ες	δρῠῶν	δρῠσῐ́ / δρῠσῐ́ν	δρῦς / δρῠ́ᾰς	δρῠ́ες	#	3														
+oak	plural	feminine	latin	drúes	druôn	drusí(n)	drûs / drúas	drúes	#	3														
+									#															
+city	singular 	feminine	greek	πόλῐς	πόλεως	πόλει	πόλῐν	πόλῐ	#	3														
+city	singular 	feminine	latin	pólis	póleōs	pólei	pólin	póli	#	3														
+city	dual 	feminine	greek	πόλει	πολέοιν	πολέοιν	πόλει	πόλει	#	3														
+city	dual 	feminine	latin	pólei	poléoin	poléoin	pólei	pólei	#	3														
+city	plural	feminine	greek	πόλεις	πόλεων	πόλεσῐ / πόλεσῐν	πόλεις	πόλεις	#	3														
+city	plural	feminine	latin	póleis	póleōn	pólesi(n)	póleis	póleis	#	3														
+									#															
+axe	singular 	masculine	greek	πέλεκῠς	πελέκεως	πελέκει	πέλεκῠν	πέλεκῠ	#	3														
+axe	singular 	masculine	latin	pélekus	pelékeōs	pelékei	pélekun	péleku	#	3														
+axe	dual 	masculine	greek	πελέκει	πελεκέοιν	πελεκέοιν	πελέκει	πελέκει	#	3														
+axe	dual 	masculine	latin	pelékei	pelekéoin	pelekéoin	pelékei	pelékei	#	3														
+axe	plural	masculine	greek	πελέκεις	πελέκεων	πελέκεσῐ / πελέκεσῐν	πελέκεις	πελέκεις	#	3														
+axe	plural	masculine	latin	pelékeis	pelékeōn	pelékesi(n)	pelékeis	pelékeis	#	3														
+									#															
+town	singular 	neuter	greek	ᾰ̓́στῠ	ᾰ̓́στεως	ᾰ̓́στει	ᾰ̓́στῠ	ᾰ̓́στῠ	#	3														
+town	singular 	neuter	latin	ástu	ásteōs	ástei	ástu	ástu	#	3														
+town	dual 	neuter	greek	ᾰ̓́στει	ᾰ̓στέοιν	ᾰ̓στέοιν	ᾰ̓́στει	ᾰ̓́στει	#	3														
+town	dual 	neuter	latin	ástei	astéoin	astéoin	ástei	ástei	#	3														
+town	plural	neuter	greek	ᾰ̓́στη / ᾰ̓́στεᾰ	ᾰ̓́στεων	ᾰ̓́στεσῐ / ᾰ̓́στεσῐν	ᾰ̓́στη / ᾰ̓́στεᾰ	ᾰ̓́στη / ᾰ̓́στεᾰ	#	3														
+town	plural	neuter	latin	ástē / ástea	ásteōn	ástesi(n)	ástē / ástea	ástē / ástea	#	3														
+									#															
+master	singular 	masculine	greek	βᾰσῐλεύς	βᾰσῐλέως	βᾰσῐλεῖ	βᾰσῐλέᾱ	βᾰσῐλεῦ	#	3														
+master	singular 	masculine	latin	basileús	basiléōs	basileî	basiléā	basileû	#	3														
+master	dual 	masculine	greek	βᾰσῐλῆ	βᾰσῐλέοιν	βᾰσῐλέοιν	βᾰσῐλῆ	βᾰσῐλῆ	#	3														
+master	dual 	masculine	latin	basilê	basiléoin	basiléoin	basilê	basilê	#	3														
+master	plural	masculine	greek	βᾰσῐλῆς / βᾰσῐλεῖς	βᾰσῐλέων	βᾰσῐλεῦσῐ / βᾰσῐλεῦσῐν	βᾰσῐλέᾱς	βᾰσῐλῆς / βᾰσῐλεῖς	#	3														
+master	plural	masculine	latin	basilês / basileîs	basiléōn	basileûsi(n)	basiléās	basilês / basileîs	#	3														
+																								
+cow	singular 	masculine	greek	βοῦς	βοός	βοΐ	βοῦν	βοῦ	#	3														
+cow	singular 	masculine	latin	boûs	boós	boḯ	boûn	boû	#	3														
+cow	dual 	masculine	greek	βόε	βοοῖν	βοοῖν	βόε	βόε	#	3														
+cow	dual 	masculine	latin	bóe	booîn	booîn	bóe	bóe	#	3														
+cow	plural	masculine	greek	βόες	βοῶν	βουσί / βουσίν	βοῦς	βόες	#	3														
+cow	plural	masculine	latin	bóes	boôn	bousí(n)	boûs	bóes	#	3														
+																								
+cow	singular 	feminine	greek	βοῦς	βοός	βοΐ	βοῦν	βοῦ	#	3														
+cow	singular 	feminine	latin	boûs	boós	boḯ	boûn	boû	#	3														
+cow	dual 	feminine	greek	βόε	βοοῖν	βοοῖν	βόε	βόε	#	3														
+cow	dual 	feminine	latin	bóe	booîn	booîn	bóe	bóe	#	3														
+cow	plural	feminine	greek	βόες	βοῶν	βουσί / βουσίν	βοῦς	βόες	#	3														
+cow	plural	feminine	latin	bóes	boôn	bousí(n)	boûs	bóes	#	3														
+																								
+old woman	singular 	feminine	greek	γραῦς	γρᾱός	γρᾱΐ	γραῦν	γραῦ	#	3														
+old woman	singular 	feminine	latin	graûs	grāós	grāḯ	graûn	graû	#	3														
+old woman	dual 	feminine	greek	γρᾶε	γρᾱοῖν	γρᾱοῖν	γρᾶε	γρᾶε	#	3														
+old woman	dual 	feminine	latin	grâe	grāoîn	grāoîn	grâe	grâe	#	3														
+old woman	plural	feminine	greek	γρᾶες	γρᾱῶν	γραυσῐ́ / γραυσῐ́ν	γραῦς	γρᾶες	#	3														
+old woman	plural	feminine	latin	grâes	grāôn	grausí(n)	graûs	grâes	#	3														
+																								
+echo	singular 	feminine	greek	ἠχώ	ἠχοῦς	ἠχοῖ	ἠχώ	ἠχοῖ	#	3														
+echo	singular 	feminine	latin	ēkhṓ	ēkhoûs	ēkhoî	ēkhṓ	ēkhoî	#	3														
+																								
+Clio	singular	feminine	greek	Κλειώ	Κλειοῦς	Κλειοῖ	Κλειώ	Κλειοῖ	#	3														
+Clio	singular	feminine	latin	Kleiṓ	Kleioûs	Kleioî	Kleiṓ	Kleioî	#	3														
+																								
+crow	singular 	masculine	greek	κόρᾰξ	κόρᾰκος	κόρᾰκῐ	κόρᾰκᾰ	κόρᾰξ	#	3														
+crow	singular 	masculine	latin	kórax	kórakos	kóraki	kóraka	kórax	#	3														
+crow	dual 	masculine	greek	κόρᾰκε	κορᾰ́κοιν	κορᾰ́κοιν	κόρᾰκε	κόρᾰκε	#	3														
+crow	dual 	masculine	latin	kórake	korákoin	korákoin	kórake	kórake	#	3														
+crow	plural	masculine	greek	κόρᾰκες	κορᾰ́κων	κόρᾰξῐ / κόρᾰξῐν	κόρᾰκᾰς	κόρᾰκες	#	3														
+crow	plural	masculine	latin	kórakes	korákōn	kóraxi(n)	kórakas	kórakes	#	3														
+																								
+vulture	singular 	masculine	greek	γῡ́ψ	γῡπός	γῡπῐ́	γῦπᾰ	γῡ́ψ	#	3														
+vulture	singular 	masculine	latin	gū́ps	gūpós	gūpí	gûpa	gū́ps	#	3														
+vulture	dual 	masculine	greek	γῦπε	γῡποῖν	γῡποῖν	γῦπε	γῦπε	#	3														
+vulture	dual 	masculine	latin	gûpe	gūpoîn	gūpoîn	gûpe	gûpe	#	3														
+vulture	plural	masculine	greek	γῦπες	γῡπῶν	γῡψῐ́ / γῡψῐ́ν	γῦπᾰς	γῦπες	#	3														
+vulture	plural	masculine	latin	gûpes	gūpôn	gūpsí(n)	gûpas	gûpes	#	3														
+																								
+rug	singular 	masculine	greek	τᾰ́πης	τᾰ́πητος	τᾰ́πητῐ	τᾰ́πητᾰ	τᾰ́πης	#	3														
+rug	singular 	masculine	latin	tápēs	tápētos	tápēti	tápēta	tápēs	#	3														
+rug	dual 	masculine	greek	τᾰ́πητε	τᾰπήτοιν	τᾰπήτοιν	τᾰ́πητε	τᾰ́πητε	#	3														
+rug	dual 	masculine	latin	tápēte	tapḗtoin	tapḗtoin	tápēte	tápēte	#	3														
+rug	plural	masculine	greek	τᾰ́πητες	τᾰπήτων	τᾰ́πησῐ/τᾰ́πησῐν	τᾰ́πητᾰς	τᾰ́πητες	#	3														
+rug	plural	masculine	latin	tápētes	tapḗtōn	tápēsi(n)	tápētas	tápētes	#	3														
+																								
+giant	singular 	masculine	greek	γίγας	γίγαντος	γίγαντι	γίγαντα	γίγαν	#	3														
+giant	dual 	masculine	greek	γίγαντε	γιγάντοιν	γιγάντοιν	γίγαντε	γίγαντε	#	3														
+giant	plural 	masculine	greek	γίγαντες	γιγάντων	γίγασι	γίγαντας	γίγαντες	#	3														
+																								
+tooth	singular 	masculine	greek	ὀδούς	ὀδόντος	ὀδόντῐ	ὀδόντᾰ	ὀδόν	#	3														
+tooth	singular 	masculine	latin	odoús	odóntos	odónti	odónta	odón	#	3														
+tooth	dual 	masculine	greek	ὀδόντε	ὀδόντοιν	ὀδόντοιν	ὀδόντε	ὀδόντε	#	3														
+tooth	dual 	masculine	latin	odónte	odóntoin	odóntoin	odónte	odónte	#	3														
+tooth	plural	masculine	greek	ὀδόντες	ὀδόντων	ὀδοῦσῐ/ὀδοῦσῐν	ὀδόντᾰς	ὀδόντες	#	3														
+tooth	plural	masculine	latin	odóntes	odóntōn	odoûsi(n)	odóntas	odóntes	#	3														
+																								
+old man	singular 	masculine	greek	γέρων	γέροντος	γέροντῐ	γέροντᾰ	γέρον	#	3														
+old man	singular 	masculine	latin	gérōn	gérontos	géronti	géronta	géron	#	3														
+old man	dual 	masculine	greek	γέροντε	γερόντοιν	γερόντοιν	γέροντε	γέροντε	#	3														
+old man	dual 	masculine	latin	géronte	geróntoin	geróntoin	géronte	géronte	#	3														
+old man	plural	masculine	greek	γέροντες	γερόντων	γέρουσῐ/γέρουσῐν	γέροντᾰς	γέροντες	#	3														
+old man	plural	masculine	latin	gérontes	geróntōn	gérousi(n)	gérontas	gérontes	#	3														
+																								
+property	singular 	neuter	greek	κτῆμᾰ	κτήμᾰτος	κτήμᾰτῐ	κτῆμᾰ	κτῆμᾰ	#	3														
+property	singular 	neuter	latin	ktêma	ktḗmatos	ktḗmati	ktêma	ktêma	#	3														
+property	dual 	neuter	greek	κτήμᾰτε	κτημᾰ́τοιν	κτημᾰ́τοιν	κτήμᾰτε	κτήμᾰτε	#	3														
+property	dual 	neuter	latin	ktḗmate	ktēmátoin	ktēmátoin	ktḗmate	ktḗmate	#	3														
+property	plural	neuter	greek	κτήμᾰτᾰ	κτημᾰ́των	κτήμᾰσῐ/κτήμᾰσῐν	κτήμᾰτᾰ	κτήμᾰτᾰ	#	3														
+property	plural	neuter	latin	ktḗmata	ktēmátōn	ktḗmasi(n)	ktḗmata	ktḗmata	#	3														
+									#															
+Greek	singular 	masculine	greek	Ἕλλην	Ἕλληνος	Ἕλληνῐ	Ἕλληνᾰ	Ἕλλην	#	3														
+Greek	singular 	masculine	latin	Héllēn	Héllēnos	Héllēni	Héllēna	Héllēn	#	3														
+Greek	dual 	masculine	greek	Ἕλληνε	Ἑλλήνοιν	Ἑλλήνοιν	Ἕλληνε	Ἕλληνε	#	3														
+Greek	dual 	masculine	latin	Héllēne	Hellḗnoin	Hellḗnoin	Héllēne	Héllēne	#	3														
+Greek	plural	masculine	greek	Ἕλληνες	Ἑλλήνων	Ἕλλησῐ/Ἕλλησῐν	Ἕλληνᾰς	Ἕλληνες	#	3														
+Greek	plural	masculine	latin	Héllēnes	Hellḗnōn	Héllēsi(n)	Héllēnas	Héllēnes	#	3														
+																								
+winter	singular 	masculine	greek	χειμών	χειμῶνος	χειμῶνῐ	χειμῶνᾰ	χειμών	#	3														
+winter	singular 	masculine	latin	kheimṓn	kheimônos	kheimôni	kheimôna	kheimṓn	#	3														
+winter	dual 	masculine	greek	χειμῶνε	χειμώνοιν	χειμώνοιν	χειμῶνε	χειμῶνε	#	3														
+winter	dual 	masculine	latin	kheimône	kheimṓnoin	kheimṓnoin	kheimône	kheimône	#	3														
+winter	plural	masculine	greek	χειμῶνες	χειμώνων	χειμῶσῐ/χειμῶσῐν	χειμῶνᾰς	χειμῶνες	#	3														
+winter	plural	masculine	latin	kheimônes	kheimṓnōn	kheimôsi(n)	kheimônas	kheimônes	#	3														
+																								
+Titan	singular 	masculine	greek	Τῑτᾱ́ν	Τῑτᾶνος	Τῑτᾶνῐ	Τῑτᾶνᾰ	Τῑτᾱ́ν	#	3														
+Titan	singular 	masculine	latin	Tītā́n	Tītânos	Tītâni	Tītâna	Tītā́n	#	3														
+Titan	dual 	masculine	greek	Τῑτᾶνε	Τῑτᾱ́νοιν	Τῑτᾱ́νοιν	Τῑτᾶνε	Τῑτᾶνε	#	3														
+Titan	dual 	masculine	latin	Tītâne	Tītā́noin	Tītā́noin	Tītâne	Tītâne	#	3														
+Titan	plural	masculine	greek	Τῑτᾶνες	Τῑτᾱ́νων	Τῑτᾶσῐ/Τῑτᾶσῐν	Τῑτᾶνᾰς	Τῑτᾶνες	#	3														
+Titan	plural	masculine	latin	Tītânes	Tītā́nōn	Tītâsi(n)	Tītânas	Tītânes	#	3														
+																								
+light ray	singular 	feminine	greek	ἀκτῑ́ς	ἀκτῖνος	ἀκτῖνῐ	ἀκτῖνᾰ	ἀκτῑ́ς	#	3														
+light ray	singular 	feminine	latin	aktī́s	aktînos	aktîni	aktîna	aktī́s	#	3														
+light ray	dual 	feminine	greek	ἀκτῖνε	ἀκτῑ́νοιν	ἀκτῑ́νοιν	ἀκτῖνε	ἀκτῖνε	#	3														
+light ray	dual 	feminine	latin	aktîne	aktī́noin	aktī́noin	aktîne	aktîne	#	3														
+light ray	plural	feminine	greek	ἀκτῖνες	ἀκτῑ́νων	ἀκτῖσῐ/ἀκτῖσῐν	ἀκτῖνᾰς	ἀκτῖνες	#	3														
+light ray	plural	feminine	latin	aktînes	aktī́nōn	aktîsi(n)	aktînas	aktînes	#	3														
+									#															
+shepherd	singular 	masculine	greek	ποιμήν	ποιμένος	ποιμένῐ	ποιμένᾰ	ποιμήν	#	3														
+shepherd	singular 	masculine	latin	poimḗn	poiménos	poiméni	poiména	poimḗn	#	3														
+shepherd	dual 	masculine	greek	ποιμένε	ποιμένοιν	ποιμένοιν	ποιμένε	ποιμένε	#	3														
+shepherd	dual 	masculine	latin	poiméne	poiménoin	poiménoin	poiméne	poiméne	#	3														
+shepherd	plural	masculine	greek	ποιμένες	ποιμένων	ποιμέσῐ/ποιμέσῐν	ποιμένᾰς	ποιμένες	#	3														
+shepherd	plural	masculine	latin	poiménes	poiménōn	poimési(n)	poiménas	poiménes	#	3														
+																								
+guide	singular 	masculine	greek	ἡγεμών	ἡγεμόνος	ἡγεμόνῐ	ἡγεμόνᾰ	ἡγεμών	#	3														
+guide	singular 	masculine	latin	hēgemṓn	hēgemónos	hēgemóni	hēgemóna	hēgemṓn	#	3														
+guide	dual 	masculine	greek	ἡγεμόνε	ἡγεμόνοιν	ἡγεμόνοιν	ἡγεμόνε	ἡγεμόνε	#	3														
+guide	dual 	masculine	latin	hēgemóne	hēgemónoin	hēgemónoin	hēgemóne	hēgemóne	#	3														
+guide	plural	masculine	greek	ἡγεμόνες	ἡγεμόνων	ἡγεμόσῐ/ἡγεμόσῐν	ἡγεμόνᾰς	ἡγεμόνες	#	3														
+guide	plural	masculine	latin	hēgemónes	hēgemónōn	hēgemósi(n)	hēgemónas	hēgemónes	#	3														
+																								
+neighbor	singular 	masculine	greek	γείτων	γείτονος	γείτονῐ	γείτονᾰ	γεῖτον	#	3														
+neighbor	singular 	masculine	latin	geítōn	geítonos	geítoni	geítona	geîton	#	3														
+neighbor	dual 	masculine	greek	γείτονε	γειτόνοιν	γειτόνοιν	γείτονε	γείτονε	#	3														
+neighbor	dual 	masculine	latin	geítone	geitónoin	geitónoin	geítone	geítone	#	3														
+neighbor	plural	masculine	greek	γείτονες	γειτόνων	γείτοσῐ/γείτοσῐν	γείτονᾰς	γείτονες	#	3														
+neighbor	plural	masculine	latin	geítones	geitónōn	geítosi(n)	geítonas	geítones	#	3														
+									#															
+tipstaff	singular 	masculine	greek	κλητήρ	κλητῆρος	κλητῆρι	κλητῆρα	κλητήρ	#	3														
+tipstaff	dual 	masculine	greek	κλητῆρε	κλητήροιν	κλητήροιν	κλητῆρα	κλητῆρε	#	3														
+tipstaff	plural 	masculine	greek	κλητῆρες	κλητήρων	κλητῆρσι	κλητῆρας	κλητῆρες	#	3														
+																								
+ichor	singular 	masculine	greek	ῑ̓χώρ	ῑ̓χῶρος	ῑ̓χῶρῐ	ῑ̓χῶρᾰ	ῑ̓χώρ	#	3														
+ichor	singular 	masculine	latin	īkhṓr	īkhôros	īkhôri	īkhôra	īkhṓr	#	3														
+ichor	dual 	masculine	greek	ῑ̓χῶρε	ῑ̓χώροιν	ῑ̓χώροιν	ῑ̓χῶρε	ῑ̓χῶρε	#	3														
+ichor	dual 	masculine	latin	īkhôre	īkhṓroin	īkhṓroin	īkhôre	īkhôre	#	3														
+ichor	plural	masculine	greek	ῑ̓χῶρες	ῑ̓χώρων	ῑ̓χῶρσῐ/ῑ̓χῶρσῐν	ῑ̓χῶρᾰς	ῑ̓χῶρες	#	3														
+ichor	plural	masculine	latin	īkhôres	īkhṓrōn	īkhôrsi(n)	īkhôras	īkhôres	#	3														
+																								
+chaff	singular 	masculine	greek	ἀθήρ	ἀθέρος	ἀθέρῐ	ἀθέρᾰ	ἀθήρ	#	3														
+chaff	singular 	masculine	latin	athḗr	athéros	athéri	athéra	athḗr	#	3														
+chaff	dual 	masculine	greek	ἀθέρε	ἀθέροιν	ἀθέροιν	ἀθέρε	ἀθέρε	#	3														
+chaff	dual 	masculine	latin	athére	athéroin	athéroin	athére	athére	#	3														
+chaff	plural	masculine	greek	ἀθέρες	ἀθέρων	ἀθέρσῐ/ἀθέρσῐν	ἀθέρᾰς	ἀθέρες	#	3														
+chaff	plural	masculine	latin	athéres	athérōn	athérsi(n)	athéras	athéres	#	3														
+																								
+orator	singular 	masculine	greek	ῥήτωρ	ῥήτορος	ῥήτορῐ	ῥήτορᾰ	ῥῆτορ	#	3														
+orator	singular 	masculine	latin	rhḗtōr	rhḗtoros	rhḗtori	rhḗtora	rhêtor	#	3														
+orator	dual 	masculine	greek	ῥήτορε	ῥητόροιν	ῥητόροιν	ῥήτορε	ῥήτορε	#	3														
+orator	dual 	masculine	latin	rhḗtore	rhētóroin	rhētóroin	rhḗtore	rhḗtore	#	3														
+orator	plural	masculine	greek	ῥήτορες	ῥητόρων	ῥήτορσῐ/ῥήτορσῐν	ῥήτορᾰς	ῥήτορες	#	3														
+orator	plural	masculine	latin	rhḗtores	rhētórōn	rhḗtorsi(n)	rhḗtoras	rhḗtores	#	3														
+									#															
+father	singular 	masculine	greek	πᾰτήρ	πᾰτρός/πᾰτέρος	πᾰτρῐ́/πᾰτέρῐ	πᾰτέρᾰ	πάτερ	#	3														
+father	singular 	masculine	latin	patḗr	patrós/patéros	patrí/patéri	patéra	páter	#	3														
+father	dual 	masculine	greek	πᾰτέρε	πᾰτέροιν	πᾰτέροιν	πᾰτέρε	πᾰτέρε	#	3														
+father	dual 	masculine	latin	patére	patéroin	patéroin	patére	patére	#	3														
+father	plural	masculine	greek	πᾰτέρες	πᾰτέρων/πᾰτρῶν	πᾰτρᾰ́σῐ	πᾰτέρᾰς	πᾰτέρες	#	3														
+father	plural	masculine	latin	patéres	patérōn/patrôn	patrási	patéras	patéres	#	3														
+									#															
+man	singular 	masculine	greek	ᾰ̓νήρ	ᾰ̓νδρός	ᾰ̓νδρῐ́	ᾰ̓́νδρᾰ	ᾰ̓́νερ	#	3														
+man	singular 	masculine	latin	anḗr	andrós	andrí	ándra	áner	#	3														
+man	dual 	masculine	greek	ᾰ̓́νδρε	ᾰ̓νδροῖν	ᾰ̓νδροῖν	ᾰ̓́νδρε	ᾰ̓́νδρε	#	3														
+man	dual 	masculine	latin	ándre	androîn	androîn	ándre	ándre	#	3														
+man	plural	masculine	greek	ᾰ̓́νδρες	ᾰ̓νδρῶν	ᾰ̓νδρᾰ́σῐ/ᾰ̓νδρᾰ́σῐν	ᾰ̓́νδρᾰς	ᾰ̓́νδρες	#	3														
+man	plural	masculine	latin	ándres	andrôn	andrási(n)	ándras	ándres	#	3														
+									#															
+Demeter	singular	feminine	greek	Δημήτηρ	Δήμητρος	Δήμητρῐ	Δήμητρᾰ	Δήμητερ	#	3														
+Demeter	singular	feminine	latin	Dēmḗtēr	Dḗmētros	Dḗmētri	Dḗmētra	Dḗmēter	#	3														
+									#															
+Socrates	singular 	masculine	greek	Σωκρᾰ́της	Σωκρᾰ́τους	Σωκρᾰ́τει	Σωκρᾰ́τη/Σωκρᾰ́την	Σώκρᾰτες	#	3														
+Socrates	plural 	masculine	latin	Sōkrátēs	Sōkrátous	Sōkrátei	Σωκρᾰ́τη/Σωκρᾰ́την	Sṓkrates	#	3														
+																								
+Pericles	singular 	masculine	greek	ὁ Περῐκλῆς	τοῦ Περῐκλέους	τῷ Περῐκλεῖ	τὸν Περῐκλέᾱ	Περῐ́κλεις	#	3														
+Pericles	plural	masculine	greek	ho Periklês	toû Perikléous	tôi Perikleî	tòn Perikléā	Períkleis 	#	3														
+									#															
+arrow	singular 	neuter	greek	βέλος	βέλους	βέλει	βέλος	βέλος	#	3														
+arrow	singular 	neuter	latin	bélos	bélous	bélei	bélos	bélos	#	3														
+arrow	dual 	neuter	greek	βέλει	βελοῖν	βελοῖν	βέλει	βέλει	#	3														
+arrow	dual 	neuter	latin	bélei	beloîn	beloîn	bélei	bélei	#	3														
+arrow	plural	neuter	greek	βέλη	βελῶν	βέλεσῐ/βέλεσῐν	βέλη	βέλη	#	3														
+arrow	plural	neuter	latin	bélē	belôn	bélesi(n)	bélē	bélē	#	3														
+									#															
+foundation	singular 	neuter	greek	ἔδᾰφος	ἐδᾰ́φους	ἐδᾰ́φει	ἔδᾰφος	ἔδᾰφος	#	3														
+foundation	singular 	neuter	latin	édaphos	edáphous	edáphei	édaphos	édaphos	#	3														
+foundation	dual 	neuter	greek	ἐδᾰ́φει	ἐδᾰφοῖν	ἐδᾰφοῖν	ἐδᾰ́φει	ἐδᾰ́φει	#	3														
+foundation	dual 	neuter	latin	edáphei	edaphoîn	edaphoîn	edáphei	edáphei	#	3														
+foundation	plural	neuter	greek	ἐδᾰ́φη	ἐδᾰφῶν	ἐδᾰ́φεσῐ/ἐδᾰ́φεσῐν	ἐδᾰ́φη	ἐδᾰ́φη	#	3														
+foundation	plural	neuter	latin	edáphē	edaphôn	edáphesi(n)	edáphē	edáphē	#	3														
+																								
+shame	singular 	feminine	greek	αἰδώς/αἰδώ	αἰδοῦς	αἰδοῖ	αἰδῶ	αἰδώς/αἰδώ	#	3														
+shame	singular 	feminine	latin	aidṓs/aidṓ	aidoûs	aidoî	aidô	aidṓs/aidṓ	#	3														
+shame	dual 	feminine	greek	αἰδῶε	αἰδώοιν	αἰδώοιν	αἰδῶε	αἰδῶε	#	3														
+shame	dual 	feminine	latin	aidôe	aidṓoin	aidṓoin	aidôe	aidôe	#	3														
+shame	plural	feminine	greek	αἰδῶες/αἰδοί	αἰδώων	αἰδῶσι	αἰδῶας	αἰδῶες/αἰδοί	#	3														
+shame	plural	feminine	latin	aidôes/aidoí	aidṓōn	aidôsi	aidôas	aidôes/aidoí	#	3														
+																								
+Ares	singular 	masculine	greek	ὁ Ἄρης	τοῦ Ἄρεως	τῷ Ἄρει	τὸν Ἄρη	Ἄρες	#	irregular														
+Ares	singular 	masculine	latin	ho Árēs	toû Áreōs	tôi Árei	tòn Árē	Áres 	#	irregular														
+																								
+woman	singular 	feminine	greek	γῠνή	γῠναικός	γῠναικί	γῠναῖκᾰ	γύναι	#	irregular														
+woman	singular 	feminine	latin	gunḗ	gunaikós	gunaikí	gunaîka	gúnai	#	irregular														
+woman	dual 	feminine	greek	γῠναῖκε	γῠναικοῖν	γῠναικοῖν	γῠναῖκε	γῠναῖκε	#	irregular														
+woman	dual 	feminine	latin	gunaîke	gunaikoîn	gunaikoîn	gunaîke	gunaîke	#	irregular														
+woman	plural	feminine	greek	γῠναῖκες	γῠναικῶν	γῠναιξί/γῠναιξίν	γῠναῖκᾰς	γῠναῖκες	#	irregular														
+woman	plural	feminine	latin	gunaîkes	gunaikôn	gunaixí(n)	gunaîkas	gunaîkes	#	irregular														
+																								
+Thales	singular 	masculine	greek	ὁ Θᾰλῆς	τοῦ Θᾰλέω / Θᾰλοῦ	τῷ Θᾰλῇ	τὸν Θᾰλῆν	Θᾰλῆ	#	irregular														
+Thales	singular 	masculine	latin	ho Thalês	toû Thaléō / Thaloû	tôi Thalêi	tòn Thalên	Thalê 	#	irregular														
+																								
+Oedipus	singular 	masculine	greek	Οἰδῐ́πους	Οἰδῐ́ποδος	Οἰδῐ́ποδῐ	Οἰδῐ́πουν/Οἰδῐ́ποδᾰ	Οἰδῐ́που	#	irregular														
+Oedipus	singular 	masculine	latin	Oidípous	Oidípodos	Oidípodi	Oidípoun/Oidípoda	Oidípou	#	irregular														
+																								
+fire	singular 	neuter	greek	πῦρ	πῠρός	πῠρῐ́	πῦρ	πῦρ	#	irregular														
+fire	singular 	neuter	latin	pûr	purós	purí	pûr	pûr	#	irregular														
+																								
+Apollo	singular 	masculine	greek	Ἀπόλλων	Ἀπόλλωνος	Ἀπόλλωνῐ	Ἀπόλλω/Ἀπόλλωνᾰ	Ἄπολλον	#	irregular														
+Apollo	singular 	masculine	latin	Apóllōn	Apóllōnos	Apóllōni	Apóllō/Apóllōna	Ápollon	#	irregular														
+																								
+knee	singular 	feminine	greek	γόνῠ	γόνᾰτος	γόνᾰτῐ	γόνῠ	γόνῠ	#	irregular														
+knee	singular 	feminine	latin	gónu	gónatos	gónati	gónu	gónu	#	irregular														
+knee	dual 	feminine	greek	γόνᾰτε	γονᾰ́τοιν	γονᾰ́τοιν	γόνᾰτε	γόνᾰτε	#	irregular														
+knee	dual 	feminine	latin	gónate	gonátoin	gonátoin	gónate	gónate	#	irregular														
+knee	plural	feminine	greek	γόνᾰτᾰ	γονᾰ́των	γόνᾰσῐ/γόνᾰσῐν	γόνᾰτᾰ	γόνᾰτᾰ	#	irregular														
+knee	plural	feminine	latin	gónata	gonátōn	gónasi(n)	gónata	gónata	#	irregular														
+																								
+wood	singular 	neuter	greek	δόρῠ	δόρᾰτος	δόρᾰτῐ	δόρῠ	δόρῠ	#	irregular														
+wood	singular 	neuter	latin	dóru	dóratos	dórati	dóru	dóru	#	irregular														
+wood	dual 	neuter	greek	δόρᾰτε	δορᾰ́τοιν	δορᾰ́τοιν	δόρᾰτε	δόρᾰτε	#	irregular														
+wood	dual 	neuter	latin	dórate	dorátoin	dorátoin	dórate	dórate	#	irregular														
+wood	plural	neuter	greek	δόρᾰτᾰ	δορᾰ́των	δόρᾰσῐ/δόρᾰσῐν	δόρᾰτᾰ	δόρᾰτᾰ	#	irregular														
+wood	plural	neuter	latin	dórata	dorátōn	dórasi(n)	dórata	dórata	#	irregular														
+																								
+Zeus	singular 	masculine	greek	Ζεύς	Δῐός/Ζηνός	Δῐῐ́/Ζηνῐ́	Δῐ́ᾰ/Ζῆνᾰ	Ζεῦ	#	irregular														
+Zeus	singular 	masculine	latin	Zeús	Diós/Zēnós	Dií/Zēní	Día/Zêna	Zeû	#	irregular														
+																								
+liver	singular 	neuter	greek	ἧπᾰρ	ἥπᾰτος	ἥπᾰτῐ	ἧπᾰρ	ἧπᾰρ	#	irregular														
+liver	singular 	neuter	latin	hêpar	hḗpatos	hḗpati	hêpar	hêpar	#	irregular														
+liver	dual 	neuter	greek	ἥπᾰτε	ἡπᾰ́τοιν	ἡπᾰ́τοιν	ἥπᾰτε	ἥπᾰτε	#	irregular														
+liver	dual 	neuter	latin	hḗpate	hēpátoin	hēpátoin	hḗpate	hḗpate	#	irregular														
+liver	plural	neuter	greek	ἥπᾰτᾰ	ἡπᾰ́των	ἥπᾰσῐ/ἥπᾰσῐν	ἥπᾰτᾰ	ἥπᾰτᾰ	#	irregular														
+liver	plural	neuter	latin	hḗpata	hēpátōn	hḗpasi(n)	hḗpata	hḗpata	#	irregular														
+																								
+dog	singular 	masculine	greek	κῠ́ων	κῠνός	κῠνῐ́	κῠ́νᾰ	κῠ́ον/κῠ́ων	#	irregular														
+dog	singular 	masculine	latin	kúōn	kunós	kuní	kúna	kúon/kúōn	#	irregular														
+dog	dual 	masculine	greek	κῠ́νε	κῠνοῖν	κῠνοῖν	κῠ́νε	κῠ́νε	#	irregular														
+dog	dual 	masculine	latin	kúne	kunoîn	kunoîn	kúne	kúne	#	irregular														
+dog	plural	masculine	greek	κῠ́νες	κῠνῶν	κῠσῐ́/κῠσῐ́ν/κῠ́νεσσῐ	κῠ́νᾰς	κῠ́νες	#	irregular														
+dog	plural	masculine	latin	kúnes	kunôn	kusí/kusín/kúnessi	kúnas	kúnes	#	irregular														
+																								
+dog	singular 	feminine	greek	κῠ́ων	κῠνός	κῠνῐ́	κῠ́νᾰ	κῠ́ον/κῠ́ων	#	irregular														
+dog	singular 	feminine	latin	kúōn	kunós	kuní	kúna	kúon/kúōn	#	irregular														
+dog	dual 	feminine	greek	κῠ́νε	κῠνοῖν	κῠνοῖν	κῠ́νε	κῠ́νε	#	irregular														
+dog	dual 	feminine	latin	kúne	kunoîn	kunoîn	kúne	kúne	#	irregular														
+dog	plural	feminine	greek	κῠ́νες	κῠνῶν	κῠσῐ́/κῠσῐ́ν/κῠ́νεσσῐ	κῠ́νᾰς	κῠ́νες	#	irregular														
+dog	plural	feminine	latin	kúnes	kunôn	kusí/kusín/kúnessi	kúnas	kúnes	#	irregular														
+																								
+ship	singular 	feminine	greek	ναῦς	νεώς	νηΐ	ναῦν	ναῦ	#	irregular														
+ship	singular 	feminine	latin	naûs	neṓs	nēḯ	naûn	naû	#	irregular														
+ship	dual 	feminine	greek	νῆε	νεοῖν	νεοῖν	νῆε	νῆε	#	irregular														
+ship	dual 	feminine	latin	nêe	neoîn	neoîn	nêe	nêe	#	irregular														
+ship	plural	feminine	greek	νῆες	νεῶν	ναυσί/ναυσίν	ναῦς	νῆες	#	irregular														
+ship	plural	feminine	latin	nêes	neôn	nausí(n)	naûs	nêes	#	irregular														
+																								
+ear	singular 	neuter	greek	οὖς	ὠτός	ὠτῐ́	οὖς	οὖς	#	irregular														
+ear	singular 	neuter	latin	oûs	ōtós	ōtí	oûs	oûs	#	irregular														
+ear	plural	neuter	greek	ὦτᾰ	ὤτων	ὠσῐ́/ὠσῐ́ν	ὦτᾰ	ὦτᾰ	#	irregular														
+ear	plural	neuter	latin	ôta	ṓtōn	ōsí(n)	ôta	ôta	#	irregular														
+																								
+water	singular 	neuter	greek	ῠ̔́δωρ	ῠ̔́δᾰτος	ῠ̔́δᾰτῐ	ῠ̔́δωρ	ῠ̔́δωρ	#	irregular														
+water	singular 	neuter	latin	húdōr	húdatos	húdati	húdōr	húdōr	#	irregular														
+water	dual 	neuter	greek	ῠ̔́δᾰτε	ῠ̔δᾰ́τοιν	ῠ̔δᾰ́τοιν	ῠ̔́δᾰτε	ῠ̔́δᾰτε	#	irregular														
+water	dual 	neuter	latin	húdate	hudátoin	hudátoin	húdate	húdate	#	irregular														
+water	plural	neuter	greek	ῠ̔́δᾰτᾰ	ῠ̔δᾰ́των	ῠ̔́δᾰσῐ/ῠ̔́δᾰσῐν	ῠ̔́δᾰτᾰ	ῠ̔́δᾰτᾰ	#	irregular														
+water	plural	neuter	latin	húdata	hudátōn	húdasi(n)	húdata	húdata	#	irregular														
+																								
+hand	singular 	feminine	greek	χείρ	χειρός	χειρῐ́	χεῖρᾰ	χείρ	#	irregular														
+hand	singular 	feminine	latin	kheír	kheirós	kheirí	kheîra	kheír	#	irregular														
+hand	dual 	feminine	greek	χεῖρε	χεροῖν	χεροῖν	χεῖρε	χεῖρε	#	irregular														
+hand	dual 	feminine	latin	kheîre	kheroîn	kheroîn	kheîre	kheîre	#	irregular														
+hand	plural	feminine	greek	χεῖρες	χερῶν/χειρῶν	χερσί/χερσίν/χείρεσσι/χείρεσσιν	χεῖρᾰς	χεῖρες	#	irregular														
+hand	plural	feminine	latin	kheîres	kherôn/kheirôn	khersí(n)/kheíressi(n)	kheîras	kheîres	#	irregular														

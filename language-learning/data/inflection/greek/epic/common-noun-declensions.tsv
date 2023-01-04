@@ -1,0 +1,151 @@
+*	*	*	*	nominative	genitive	dative	accusative	vocative	#	epic												
+that	singular	masculine	greek	ὁ	τοῦ / τοῖο	τῷ	τόν		#													
+that	singular	masculine	latin	ho 	toû / toîo 	tôi 	tón 		#													
+that	singular	feminine	greek	ἡ	τῆς	τῇ	τήν		#													
+that	singular	feminine	latin	hē 	tês 	têi 	tḗn 		#													
+that	singular	neuter	greek	τό	τοῦ / τοῖο	τῷ	τό		#													
+that	singular	neuter	latin	tó 	toû / toîo 	tôi 	tó 		#													
+									#													
+that	dual	masculine	greek	τώ	τοῖιν	τοῖιν	τώ		#													
+that	dual	masculine	latin	tṓ 	toîin 	toîin 	tṓ 		#													
+that	dual	feminine	greek	τώ / τᾱ́	τοῖιν	τοῖιν	τώ / τᾱ́		#													
+that	dual	feminine	latin	tṓ / tā́ 	toîin 	toîin 	tṓ / tā́ 		#													
+that	dual	neuter	greek	τώ	τοῖιν	τοῖιν	τώ		#													
+that	dual	neuter	latin	tṓ 	toîin 	toîin 	tṓ 		#													
+									#													
+that	plural	masculine	greek	οἱ / τοί	τῶν	τοῖς / τοῖσι / τοῖσιν	τούς		#													
+that	plural	masculine	latin	hoi / toí 	tôn 	toîs / toîsi(n) 	toús 		#													
+that	plural	feminine	greek	αἱ / ταί	τῶν / τᾱ́ων	τῇς / τῇσι / τῇσιν	τᾱ́ς		#													
+that	plural	feminine	latin	hai / taí 	tôn / tā́ōn 	têis / têisi(n) 	tā́s 		#													
+that	plural	neuter	greek	τᾰ́	τῶν	τοῖς / τοῖσι / τοῖσιν	τᾰ́		#													
+that	plural	neuter	latin	tá	tôn	toîs / toîsi(n)	tá 		#													
+									#													
+person	singular 	masculine	greek	ἄνθρωπος	ἀνθρώπου / ἀνθρωποῖο / ἀνθρώποιο / ἀνθρωπόο / ἀνθρώποο	ἀνθρώπῳ	ἄνθρωπον	ἄνθρωπε	#													
+person	singular 	masculine	latin	ánthrōpos 	anthrṓpou / anthrōpoîo / anthrṓpoio / anthrōpóo / anthrṓpoo 	anthrṓpōi 	ánthrōpon 	ánthrōpe 	#													
+person	dual 	masculine	greek	ἀνθρώπω	ἀνθρώποιῐν	ἀνθρώποιῐν	ἀνθρώπω	ἀνθρώπω	#													
+person	dual 	masculine	latin	anthrṓpō 	anthrṓpoiin 	anthrṓpoiin 	anthrṓpō 	anthrṓpō 	#													
+person	plural	masculine	greek	ἄνθρωποι	ἀνθρώπων	ἀνθρώποισῐ / ἀνθρώποισῐν / ἀνθρώποις	ἀνθρώπους	ἄνθρωποι	#													
+person	plural	masculine	latin	ánthrōpoi	anthrṓpōn	anthrṓpoisi(n) / anthrṓpois	anthrṓpous	ánthrōpoi 	#													
+									#													
+person	singular 	feminine	greek	ἄνθρωπος	ἀνθρώπου / ἀνθρωποῖο / ἀνθρώποιο / ἀνθρωπόο / ἀνθρώποο	ἀνθρώπῳ	ἄνθρωπον	ἄνθρωπε	#													
+person	singular 	feminine	latin	ánthrōpos 	anthrṓpou / anthrōpoîo / anthrṓpoio / anthrōpóo / anthrṓpoo 	anthrṓpōi 	ánthrōpon 	ánthrōpe 	#													
+person	dual 	feminine	greek	ἀνθρώπω	ἀνθρώποιῐν	ἀνθρώποιῐν	ἀνθρώπω	ἀνθρώπω	#													
+person	dual 	feminine	latin	anthrṓpō 	anthrṓpoiin 	anthrṓpoiin 	anthrṓpō 	anthrṓpō 	#													
+person	plural	feminine	greek	ἄνθρωποι	ἀνθρώπων	ἀνθρώποισῐ / ἀνθρώποισῐν / ἀνθρώποις	ἀνθρώπους	ἄνθρωποι	#													
+person	plural	feminine	latin	ánthrōpoi	anthrṓpōn	anthrṓpoisi(n) / anthrṓpois	anthrṓpous	ánthrōpoi 	#													
+									#													
+street	singular 	feminine	greek	ὁδός	ὁδοῦ / ὁδοῖο / ὁδόο	ὁδῷ	ὁδόν	ὁδέ	#													
+street	singular 	feminine	latin	hodós 	hodoû / hodoîo / hodóo 	hodôi 	hodón 	hodé 	#													
+street	dual 	feminine	greek	ὁδώ	ὁδοῖῐν	ὁδοῖῐν	ὁδώ	ὁδώ	#													
+street	dual 	feminine	latin	hodṓ 	hodoîin 	hodoîin 	hodṓ 	hodṓ 	#													
+street	plural	feminine	greek	ὁδοί	ὁδῶν	ὁδοῖσῐ / ὁδοῖσῐν / ὁδοῖς	ὁδούς	ὁδοί	#													
+street	plural	feminine	latin	hodoí	hodôn	hodoîsi(n) / hodoîs	hodoús	hodoí 	#													
+									#													
+hero	singular 	masculine	greek	ἥρως	ἥρωος	ἥρῳ / ἥρωῐ̈	ἥρω / ἥρωᾰ	ἥρως	#													
+hero	singular 	masculine	latin	hḗrōs 	hḗrōos 	hḗrōi / hḗrōï 	hḗrō / hḗrōa 	hḗrōs 	#													
+hero	dual 	masculine	greek	ἥρωε	ἡρώοιῐν	ἡρώοιῐν	ἥρωε	ἥρωε	#													
+hero	dual 	masculine	latin	hḗrōe 	hērṓoiin 	hērṓoiin 	hḗrōe 	hḗrōe 	#													
+hero	plural	masculine	greek	ἥρωες	ἡρώων	ἥρωσῐ / ἥρωσῐν / ἡρώεσσῐ / ἡρώεσσῐν / ἡρώεσῐ / ἡρώεσῐν	ἥρωᾰς	ἥρωες	#													
+hero	plural	masculine	latin	hḗrōes	hērṓōn	hḗrōsi(n) / hērṓessi(n) / hērṓesi(n)	hḗrōas	hḗrōes 	#													
+									#													
+city	singular 	feminine	greek	πόλῐς	πόλῐος / πόληος	πόλῐῐ / πόλῑ / πόληῐ̈ / πόλει	πόλῐν	πόλῐ	#													
+city	singular 	feminine	latin	pólis 	pólios / pólēos 	pólii / pólī / pólēï / pólei 	pólin 	póli 	#													
+city	dual 	feminine	greek	πόλῐε	πολῐ́οιῐν	πολῐ́οιῐν	πόλῐε	πόλῐε	#													
+city	dual 	feminine	latin	pólie 	políoiin 	políoiin 	pólie 	pólie 	#													
+city	plural	feminine	greek	πόλῐες / πόληες	πολῐ́ων	πολῐ́εσσῐ / πολῐ́εσσῐν / πόλεσῐ / πόλεσῐν / πόλῐσῐ / πόλῐσῐν	πόλῐᾰς / πόληᾰς / πόλῑς	πόλῐες / πόληες	#													
+city	plural	feminine	latin	pólies / pólēes	políōn	políessi(n) / pólesi(n) / pólisi(n)	pólias / pólēas / pólīs	pólies / pólēes 	#													
+									#													
+axe	singular 	masculine	greek	πέλεκῠς	πελέκεος	πελέκει	πέλεκῠν	πέλεκῠ	#													
+axe	singular 	masculine	latin	pélekus 	pelékeos 	pelékei 	pélekun 	péleku 	#													
+axe	dual 	masculine	greek	πελέκει	πελεκέοιῐν	πελεκέοιῐν	πελέκει	πελέκει	#													
+axe	dual 	masculine	latin	pelékei 	pelekéoiin 	pelekéoiin 	pelékei 	pelékei 	#													
+axe	plural	masculine	greek	πελέκεες	πελέκεων	πελέκεσσι / πελέκεσσιν	πελέκεᾰς	πελέκεες	#													
+axe	plural	masculine	latin	pelékees	pelékeōn	pelékessi(n)	pelékeas	pelékees 	#													
+									#													
+town	singular 	neuter	greek	ᾰ̓́στῠ	ᾰ̓́στεος	ᾰ̓́στει	ᾰ̓́στῠ	ᾰ̓́στῠ	#													
+town	singular 	neuter	latin	ástu 	ásteos 	ástei 	ástu 	ástu 	#													
+town	dual 	neuter	greek	ᾰ̓́στει	ᾰ̓στέοιῐν	ᾰ̓στέοιῐν	ᾰ̓́στει	ᾰ̓́στει	#													
+town	dual 	neuter	latin	ástei 	astéoiin 	astéoiin 	ástei 	ástei 	#													
+town	plural	neuter	greek	ᾰ̓́στη / ᾰ̓́στεᾰ	ᾰ̓́στεων	ᾰ̓στέεσσῐ / ᾰ̓στέεσσῐν / ᾰ̓στέεσῐ / ᾰ̓στέεσῐν / ᾰ̓́στεσῐ / ᾰ̓́στεσῐν	ᾰ̓́στη / ᾰ̓́στεᾰ	ᾰ̓́στη / ᾰ̓́στεᾰ	#													
+town	plural	neuter	latin	ástē / ástea	ásteōn	astéessi(n) / astéesi(n) / ástesi(n)	ástē / ástea	ástē / ástea 	#													
+									#													
+master	singular 	masculine	greek	βᾰσῐλεύς	βᾰσῐλῆος / βᾰσῐλέος	βᾰσῐλῆῐ̈ / βᾰσῐλέῐ̈	βᾰσῐλῆᾰ / βᾰσῐλέᾰ	βᾰσῐλεῦ	#													
+master	singular 	masculine	latin	basileús 	basilêos / basiléos 	basilêï / basiléï 	basilêa / basiléa 	basileû 	#													
+master	dual 	masculine	greek	βᾰσῐλῆε	βᾰσῐλήοιῐν	βᾰσῐλήοιῐν	βᾰσῐλῆε	βᾰσῐλῆε	#													
+master	dual 	masculine	latin	basilêe 	basilḗoiin 	basilḗoiin 	basilêe 	basilêe 	#													
+master	plural	masculine	greek	βᾰσῐλῆες	βᾰσῐλήων	βᾰσῐλήεσσῐ / βᾰσῐλήεσσῐν / βᾰσῐλεῦσῐ / βᾰσῐλεῦσῐν	βᾰσῐλῆᾰς	βᾰσῐλῆες	#													
+master	plural	masculine	latin	basilêes	basilḗōn	basilḗessi(n) / basileûsi(n)	basilêas	basilêes 	#													
+									#													
+cow	singular 	masculine	greek	βοῦς	βοός	βοΐ	βοῦν / βῶν	βοῦ	#													
+cow	singular 	masculine	latin	boûs 	boós 	boḯ 	boûn / bôn 	boû 	#													
+cow	dual 	masculine	greek	βόε	βοοῖν	βοοῖν	βόε	βόε	#													
+cow	dual 	masculine	latin	bóe 	booîn 	booîn 	bóe 	bóe 	#													
+cow	plural	masculine	greek	βόες	βοῶν	βουσί / βουσίν / βόεσσι / βόεσσιν	βόας / βοῦς	βόες	#													
+cow	plural	masculine	latin	bóes	boôn	bousí(n) / bóessi(n)	bóas / boûs	bóes 	#													
+									#													
+cow	singular 	feminine	greek	βοῦς	βοός	βοΐ	βοῦν / βῶν	βοῦ	#													
+cow	singular 	feminine	latin	boûs 	boós 	boḯ 	boûn / bôn 	boû 	#													
+cow	dual 	feminine	greek	βόε	βοοῖν	βοοῖν	βόε	βόε	#													
+cow	dual 	feminine	latin	bóe 	booîn 	booîn 	bóe 	bóe 	#													
+cow	plural	feminine	greek	βόες	βοῶν	βουσί / βουσίν / βόεσσι / βόεσσιν	βόας / βοῦς	βόες	#													
+cow	plural	feminine	latin	bóes	boôn	bousí(n) / bóessi(n)	bóas / boûs	bóes 	#													
+									#													
+vulture	singular 	masculine	greek	γῡ́ψ	γῡπός	γῡπῐ́	γῦπᾰ	γῡ́ψ	#													
+vulture	singular 	masculine	latin	gū́ps 	gūpós 	gūpí 	gûpa 	gū́ps 	#													
+vulture	dual 	masculine	greek	γῦπε	γῡποῖῐν	γῡποῖῐν	γῦπε	γῦπε	#													
+vulture	dual 	masculine	latin	gûpe 	gūpoîin 	gūpoîin 	gûpe 	gûpe 	#													
+vulture	plural	masculine	greek	γῦπες	γῡπῶν	γῡψῐ́ / γῡψῐ́ν / γῡ́πεσσῐ / γῡ́πεσσῐν / γῡ́πεσῐ / γῡ́πεσῐν	γῦπᾰς	γῦπες	#													
+vulture	plural	masculine	latin	gûpes	gūpôn	gūpsí(n) / gū́pessi(n) / gū́pesi(n)	gûpas	gûpes 	#													
+									#													
+ichor	singular 	masculine	greek	ῑ̓χώρ	ῑ̓χῶρος	ῑ̓χῶρῐ	ῑ̓χῶ	ῑ̓χώρ	#													
+ichor	singular 	masculine	latin	īkhṓr 	īkhôros 	īkhôri 	īkhô 	īkhṓr 	#													
+ichor	dual 	masculine	greek	ῑ̓χῶρε	ῑ̓χώροιῐν	ῑ̓χώροιῐν	ῑ̓χῶρε	ῑ̓χῶρε	#													
+ichor	dual 	masculine	latin	īkhôre 	īkhṓroiin 	īkhṓroiin 	īkhôre 	īkhôre 	#													
+ichor	plural	masculine	greek	ῑ̓χῶρες	ῑ̓χώρων	ῑ̓χῶρσῐ/ῑ̓χῶρσῐν/ῑ̓χώρεσσῐ/ῑ̓χώρεσσῐν/ῑ̓χώρεσῐ/ῑ̓χώρεσῐν	ῑ̓χῶρᾰς	ῑ̓χῶρες	#													
+ichor	plural	masculine	latin	īkhôres	īkhṓrōn	īkhôrsi(n)/īkhṓressi(n)/īkhṓresi(n)	īkhôras	īkhôres 	#													
+									#													
+man	singular 	masculine	greek	ᾱ̓νήρ	ᾱ̓νέρος	ᾱ̓νέρῐ	ᾱ̓νέρᾰ	ᾱ̓νήρ	#													
+man	singular 	masculine	latin	ānḗr 	ānéros 	ānéri 	ānéra 	ānḗr 	#													
+man	dual 	masculine	greek	ᾱ̓νέρε	ᾱ̓νέροιῐν	ᾱ̓νέροιῐν	ᾱ̓νέρε	ᾱ̓νέρε	#													
+man	dual 	masculine	latin	ānére 	ānéroiin 	ānéroiin 	ānére 	ānére 	#													
+man	plural	masculine	greek	ᾱ̓νέρες	ᾱ̓νέρων	ᾱ̓́νδρεσσῐ/ᾱ̓́νδρεσσῐν/ᾰ̓νδρᾰ́σῐ/ᾰ̓νδρᾰ́σῐν	ᾱ̓νέρᾰς	ᾱ̓νέρες	#													
+man	plural	masculine	latin	ānéres	ānérōn	ā́ndressi(n)/andrási(n)	ānéras	ānéres 	#													
+									#													
+arrow	singular 	neuter	greek	βέλος	βέλεος/βέλευς	βέλει/βέλεῐ̈	βέλος	βέλος	#													
+arrow	singular 	neuter	latin	bélos 	béleos/béleus 	bélei/béleï 	bélos 	bélos 	#													
+arrow	dual 	neuter	greek	βέλει/βέλεε	βελέοιν	βελέοιν	βέλει/βέλεε	βέλει/βέλεε	#													
+arrow	dual 	neuter	latin	bélei/bélee 	beléoin 	beléoin 	bélei/bélee 	bélei/bélee 	#													
+arrow	plural	neuter	greek	βέλεᾰ	βελέων	βέλεσῐ/βέλεσῐν/βελέεσσῐ/βελέεσσῐν	βέλεᾰ	βέλεᾰ	#													
+arrow	plural	neuter	latin	bélea	beléōn	bélesi(n)/beléessi(n)	bélea	bélea 	#													
+									#													
+Ares	singular	masculine	greek	Ἄρης	Ἄρεος / Ἄρευς	Ἄρει / Ἄρεῐ̈	Ἄρεᾰ	Ἄρες	#													
+Ares	singular	masculine	latin	Árēs	Áreos / Áreus	Árei / Áreï	Área	Áres 	#													
+									#													
+fire	singular	neuter	greek	πῦρ	πῠρός	πῠρῐ́	πῦρ	πῦρ	#													
+fire	singular	neuter	latin	pûr	purós	purí	pûr	pûr 	#													
+									#													
+wood	singular 	neuter	greek	δόρῠ	δουρός/δούρᾰτος	δουρῐ́/δούρᾰτῐ	δόρῠ	δόρῠ	#													
+wood	singular 	neuter	latin	dóru 	dourós/doúratos 	dourí/doúrati 	dóru 	dóru 	#													
+wood	dual 	neuter	greek	δοῦρε	δούροιῐν	δούροιῐν	δοῦρε	δοῦρε	#													
+wood	dual 	neuter	latin	doûre 	doúroiin 	doúroiin 	doûre 	doûre 	#													
+wood	plural	neuter	greek	δοῦρᾰ/δούρᾰτᾰ	δούρων	δούρεσσῐ/δούροις	δοῦρᾰ/δούρᾰτᾰ	δοῦρᾰ/δούρᾰτᾰ	#													
+wood	plural	neuter	latin	doûra/doúrata	doúrōn	doúressi/doúrois	doûra/doúrata	doûra/doúrata 	#													
+									#													
+liver	singular 	neuter	greek	ἧπᾰρ	ἥπᾰτος	ἥπᾰτῐ	ἧπᾰρ	ἧπᾰρ	#													
+liver	singular 	neuter	latin	hêpar 	hḗpatos 	hḗpati 	hêpar 	hêpar 	#													
+liver	dual 	neuter	greek	ἥπᾰτε	ἡπᾰ́τοιῐν	ἡπᾰ́τοιῐν	ἥπᾰτε	ἥπᾰτε	#													
+liver	dual 	neuter	latin	hḗpate 	hēpátoiin 	hēpátoiin 	hḗpate 	hḗpate 	#													
+liver	plural	neuter	greek	ἥπᾰτᾰ	ἡπᾰ́των	ἥπᾰσῐ/ἥπᾰσῐν/ἡπᾰ́τεσσῐ/ἡπᾰ́τεσσῐν/ἡπᾰ́τεσῐ/ἡπᾰ́τεσῐν	ἥπᾰτᾰ	ἥπᾰτᾰ	#													
+liver	plural	neuter	latin	hḗpata	hēpátōn	hḗpasi(n)/hēpátessi(n)/hēpátesi(n)	hḗpata	hḗpata 	#													
+									#													
+ear	singular 	neuter	greek	οὖς	οὔᾰτος	οὔᾰτῐ	οὖς	οὖς	#													
+ear	singular 	neuter	latin	oûs 	oúatos 	oúati 	oûs 	oûs 	#													
+ear	plural	neuter	greek	οὔᾰτᾰ	οὐάτων	οὔᾰσῐ/οὔᾰσῐν/ὠσί/ὠσίν	οὔᾰτᾰ	οὔᾰτᾰ	#													
+ear	plural	neuter	latin	oúata	ouátōn	oúasi(n)/ōsí(n)	oúata	oúata 	#													
+									#													
+water	singular 	neuter	greek	ῠ̔́δωρ	ῠ̔́δᾰτος	ῠ̔́δᾰτῐ	ῠ̔́δωρ	ῠ̔́δωρ	#													
+water	singular 	neuter	latin	húdōr 	húdatos 	húdati 	húdōr 	húdōr 	#													
+water	dual 	neuter	greek	ῠ̔́δᾰτε	ῠ̔δᾰ́τοιῐν	ῠ̔δᾰ́τοιῐν	ῠ̔́δᾰτε	ῠ̔́δᾰτε	#													
+water	dual 	neuter	latin	húdate 	hudátoiin 	hudátoiin 	húdate 	húdate 	#													
+water	plural	neuter	greek	ῠ̔́δᾰτᾰ	ῠ̔δᾰ́των	ῠ̔́δᾰσῐ/ῠ̔́δᾰσῐν/ῠ̔δᾰ́τεσσῐ/ῠ̔δᾰ́τεσσῐν/ῠ̔δᾰ́τεσῐ/ῠ̔δᾰ́τεσῐν	ῠ̔́δᾰτᾰ	ῠ̔́δᾰτᾰ	#													
+water	plural	neuter	latin	húdata	hudátōn	húdasi(n)/hudátessi(n)/hudátesi(n)	húdata	húdata 	#													
