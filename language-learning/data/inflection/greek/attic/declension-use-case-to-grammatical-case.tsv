@@ -3,7 +3,7 @@
 	associated	agent	nominative		
 	associated	audience	vocative		
 	associated	patient	accusative		
-	associated	theme	"accusative	"		
+	associated	theme	accusative		
 	associated	possessor	genitive		
 	departed	location	genitive	παρά	
 	associated	location	dative	περί	
@@ -19,7 +19,7 @@
 #	leveraged	vicinity	dative		
 	departed	interior	genitive	ἐκ	
 	associated	interior	dative	ἐν	
-	acquired	interior	"accusative	"	εἰς	
+	acquired	interior	accusative	εἰς	
 	leveraged	interior	genitive	διά	
 #	departed	surface	dative		
 	associated	surface	dative	ἐπί	
