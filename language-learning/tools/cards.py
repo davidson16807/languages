@@ -28,11 +28,11 @@ class CardFormatting:
         return f'''<div>{content}</div>'''
 
 class CardGeneration:
-    def __init__(self, native_language, emoji, cardFormatting,
+    def __init__(self, native_language_script, emoji, cardFormatting,
             declension_template_matching, 
             mood_templates,
             parsing, tools):
-        self.native_language = native_language
+        self.native_language_script = native_language_script
         self.mood_templates = mood_templates
         self.emoji = emoji
         self.cardFormatting = cardFormatting
@@ -40,7 +40,7 @@ class CardGeneration:
         self.parsing = parsing
         self.tools = tools
     def conjugation(self, 
-            foreign_language, 
+            foreign_language_script, 
             traversal, 
             tagspace,
             foreign_tree,
@@ -69,27 +69,27 @@ class CardGeneration:
                     'speaker-seme':   speaker_seme,
                     'modifier-seme':  modifier_seme,
                 }
-                foreign_text = foreign_language.map(self.parsing.parse(foreign_tree), semes,
+                foreign_text = foreign_language_script.map(self.parsing.parse(foreign_tree), semes,
                     substitutions = [
                         *substitutions,
-                        {'stock-modifier': foreign_language.grammar.stock_modifier('foreign')},
+                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier('foreign')},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
                     ]
                 )
-                native_text = self.native_language.map(self.parsing.parse(native_tree), semes,
+                native_text = self.native_language_script.map(self.parsing.parse(native_tree), semes,
                     substitutions = [
                         *substitutions,
-                        {'stock-modifier': foreign_language.grammar.stock_modifier('native')},
+                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier('native')},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
                     ]
                 )
                 emoji_key  = {**test_tags, 'script':'emoji'}
-                if foreign_text and emoji_key in foreign_language.grammar.conjugation_lookups['infinitive']:
-                    emoji_argument  = foreign_language.grammar.conjugation_lookups['infinitive'][emoji_key]
+                if foreign_text and emoji_key in foreign_language_script.language.grammar.conjugation_lookups['infinitive']:
+                    emoji_argument  = foreign_language_script.language.grammar.conjugation_lookups['infinitive'][emoji_key]
                     emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
                     native_text    = ''.join([mood_prephrase, ' ', native_map(native_text), mood_postphrase])
                     yield ' '.join([
@@ -98,7 +98,7 @@ class CardGeneration:
                             self.cardFormatting.foreign_focus(foreign_text),
                         ])
     def declension(self, 
-            foreign_language, 
+            foreign_language_script, 
             traversal, 
             tagspace,
             filter_lookups=[],
@@ -110,7 +110,7 @@ class CardGeneration:
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
             if (all([test_tags in filter_lookup for filter_lookup in filter_lookups]) and 
-                  test_tags in foreign_language.grammar.use_case_to_grammatical_case):
+                  test_tags in foreign_language_script.language.grammar.use_case_to_grammatical_case):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
@@ -128,21 +128,21 @@ class CardGeneration:
                         'modifier-seme':    {**test_tags, **(tag_templates['modifier'] if 'modifier' in tag_templates else {})},
                         'participle-seme':  {**test_tags, **(tag_templates['participle'] if 'participle' in tag_templates else {})},
                     }
-                    foreign_text = foreign_language.map(tree, semes, [
+                    foreign_text = foreign_language_script.map(tree, semes, [
                         *substitutions,
-                        {'stock-modifier': foreign_language.grammar.stock_modifier('foreign')},
+                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier('foreign')},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
                     ])
-                    native_text = self.native_language.map(tree, semes, [
+                    native_text = self.native_language_script.map(tree, semes, [
                         *substitutions,
-                        {'stock-modifier': foreign_language.grammar.stock_modifier('native')},
+                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier('native')},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
                     ])
-                    case = foreign_language.grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
+                    case = foreign_language_script.language.grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {
                         **test_tags, 
                         **tag_templates['test'], 

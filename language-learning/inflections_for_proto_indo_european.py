@@ -55,7 +55,7 @@ foreign_language = Language(
     RuleValidation(),
     # RuleValidation(disabled=True),
     substitutions = []
-)
+).script('latin')
 
 persons = [
     EmojiPerson('s','n',3),
@@ -87,7 +87,7 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
             'gender','person','number','formality','clusivity','clitic',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
             # categories that are constant since they are not relevant to conjugation
-            'strength', 'animacy', 'noun-form', 'script']),
+            'strength', 'animacy', 'noun-form']),
         {
             **tag_defaults,
             'gender':      genders,
@@ -131,7 +131,7 @@ write('flashcards/proto-indo-european/common-noun-declension.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'noun':        nouns,
@@ -162,7 +162,7 @@ write('flashcards/proto-indo-european/pronoun-declension.html',
             # categories that are constant since they do not affect pronouns in the language
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'noun':      ['man','woman','snake'],
@@ -214,7 +214,7 @@ write('flashcards/proto-indo-european/adpositions.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'role': [
@@ -257,7 +257,7 @@ write('flashcards/proto-indo-european/adjective-agreement.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'strength', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'adjective':  adjectives,
@@ -303,7 +303,7 @@ write('flashcards/proto-indo-european/pronoun-possessives.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'strength', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'possessor-noun':   ['man','woman','snake'],
@@ -377,7 +377,7 @@ write('flashcards/proto-indo-european/participle-declension.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'noun-form', 'script']),
+            'strength', 'noun-form']),
         {
             **tag_defaults,
             'verb':        verbs,

@@ -321,6 +321,7 @@ declension_template_lookups = DictLookup(
                     'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
                 ]),
         'interrogative':      DictLookup('interrogative',      basic_pronoun_declension_hashing),
+        'indefinite':         DictLookup('indefinite',         basic_pronoun_declension_hashing),
         'relative':           DictLookup('relative',           basic_pronoun_declension_hashing),
         'numeral':            DictLookup('numeral',            basic_pronoun_declension_hashing),
         'reciprocal':         DictLookup('reciprocal',         reflexive_pronoun_declension_hashing),
@@ -376,7 +377,7 @@ personal_pronoun_annotation  = CellAnnotation(
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal'})
 pronoun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {}, 
-    {**tagaxis_to_tags, 'script':'latin'})
+    {**tagaxis_to_tags, 'script':'latin'}, omit_empty=False)
 possessive_pronoun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal-possessive'})
@@ -573,7 +574,7 @@ english = Language(
         {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
         {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
     ]
-)
+).script('latin')
 
 card_generation = CardGeneration(
     english, 
@@ -589,7 +590,6 @@ card_generation = CardGeneration(
 
 tag_defaults = {
     **tagaxis_to_tags,
-    'script':     'latin',
     
     'clitic':     'tonic',
     'clusivity':  'exclusive',

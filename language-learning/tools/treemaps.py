@@ -40,7 +40,7 @@ class RuleTreeMap:
     """
     def __init__(self, operations={}):
         self.operations = operations
-    def map(self, rule):
+    def map(self, rule, context={}):
         return ([self.map(subrule) for subrule in rule] if isinstance(rule, list)
             else rule if not isinstance(rule, Rule)
             else self.operations[rule.tag](self, rule) if rule.tag in self.operations

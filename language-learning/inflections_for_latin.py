@@ -54,7 +54,7 @@ latin = Language(
     RuleFormatting(),
     RuleValidation(),
     substitutions = []
-)
+).script('latin')
 
 persons = [
     EmojiPerson('s','n',3),
@@ -87,7 +87,7 @@ write('flashcards/latin/finite-conjugation.html',
             'gender','person','number','formality','clusivity','clitic',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
             # categories that are constant since they are not relevant to conjugation
-            'animacy', 'strength', 'noun-form', 'script']),
+            'animacy', 'strength', 'noun-form']),
         {
             **tag_defaults,
             'gender':      genders,
@@ -131,7 +131,7 @@ write('flashcards/latin/common-noun-declension.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'noun':        nouns,
@@ -162,7 +162,7 @@ write('flashcards/latin/pronoun-declension.html',
             # categories that are constant since they do not affect pronouns in the language
             'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'noun':      ['man','woman','snake'],
@@ -214,7 +214,7 @@ write('flashcards/latin/adpositions.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'role': [
@@ -257,7 +257,7 @@ write('flashcards/latin/adjective-agreement.html',
             # categories that are constant since they are not relevant to common noun declension
             'strength', 'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'noun':      ['man','woman','animal'] ,
@@ -303,7 +303,7 @@ write('flashcards/latin/pronoun-possessives.html',
             # categories that are constant since they are not relevant to common noun declension
             'strength', 'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form', 'script']),
+            'tense', 'voice', 'aspect', 'mood', 'noun-form']),
         {
             **tag_defaults,
             'possessor-noun':   ['man','woman','snake'],
@@ -374,7 +374,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
             'gender','person','number','formality','clusivity','clitic',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'animacy','noun-form', 'script']),
+            'strength', 'animacy','noun-form']),
         {
             **tag_defaults,
             'voice':       voices,
@@ -419,7 +419,7 @@ write('flashcards/latin/participle-declension.html',
             # categories that are constant since they are not relevant to common noun declension
             'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
             # categories that are constant since they are not relevant to declension
-            'strength', 'noun-form', 'script']),
+            'strength', 'noun-form']),
         {
             **tag_defaults,
             'role':       'solitary',
