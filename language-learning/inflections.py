@@ -371,9 +371,12 @@ finite_annotation  = CellAnnotation(
 nonfinite_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {0:'verb'},
     {**tagaxis_to_tags, 'script':'latin', 'verb-form':'infinitive'})
-pronoun_annotation  = CellAnnotation(
+personal_pronoun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {}, 
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal'})
+pronoun_annotation  = CellAnnotation(
+    tag_to_tagaxis, {}, {}, 
+    {**tagaxis_to_tags, 'script':'latin'})
 possessive_pronoun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal-possessive'})
@@ -551,6 +554,8 @@ english = Language(
                 tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv')),
             *common_noun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv')),
+            *common_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/adjective-agreement.tsv')),
         ]),
         case_population.index(
             case_annotation.annotate(
