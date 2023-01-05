@@ -57,12 +57,11 @@ class CellAnnotation:
     def __init__(self, 
             keyword_to_attribute, 
             header_row_id_to_attribute, header_column_id_to_attribute,
-            default_attributes, canton_value='*', omit_empty=True):
+            default_attributes, canton_value='*'):
         self.keyword_to_attribute = keyword_to_attribute
         self.header_column_id_to_attribute = header_column_id_to_attribute
         self.header_row_id_to_attribute = header_row_id_to_attribute
         self.default_attributes = default_attributes
-        self.omit_empty = omit_empty
         self.canton_value = canton_value
     def annotate(self, rows):
         header_row_count = float('inf')
@@ -92,7 +91,7 @@ class CellAnnotation:
                     for i in range(header_column_count,len(row)):
                         cell = row[i]
                         # if cell and column_base_attributes[i]:
-                        if (cell or not self.omit_empty) and row_base_attributes and column_base_attributes[i]:
+                        if cell and row_base_attributes and column_base_attributes[i]:
                             annotation = {
                                 **self.default_attributes,
                                 **row_base_attributes,

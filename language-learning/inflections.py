@@ -23,6 +23,7 @@ from tools.nodemaps import (
 )
 from tools.emoji import Emoji
 from tools.languages import Language
+from tools.writing import Writing
 from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGeneration
 
 tagaxis_to_tags = {
@@ -377,7 +378,7 @@ personal_pronoun_annotation  = CellAnnotation(
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal'})
 pronoun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {}, 
-    {**tagaxis_to_tags, 'script':'latin'}, omit_empty=False)
+    {**tagaxis_to_tags, 'script':'latin'})
 possessive_pronoun_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal-possessive'})
@@ -391,7 +392,7 @@ declension_template_noun_annotation = CellAnnotation(
     tag_to_tagaxis, {0:'language'}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 mood_annotation = CellAnnotation(
-    {}, {0:'column'}, {0:'mood'}, {'script':'latin'}, omit_empty=False)
+    {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
 
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups)
 declension_population  = NestedLookupPopulation(declension_template_lookups)
@@ -540,41 +541,44 @@ def replace(replacements):
 list_tools = ListTools()
 english_list_substitution = EnglishListSubstitution()
 
-english = Language(
-    ListGrammar(
-        conjugation_population.index([
-            *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv')),
-            *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/regular-conjugations.tsv')),
-        ]),
-        declension_population.index([
-            *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv')),
-            *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/adjective-agreement.tsv')),
-        ]),
-        case_population.index(
-            case_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/declension-use-case-to-grammatical-case.tsv'))),
-        {'language-type':'native'},
-    ),
-    RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
-    list_tools,
-    RuleFormatting(),
-    None,
-    substitutions = [
-        {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
-        {'v': english_list_substitution.verbform}, # English participles are encoded as perfect/imperfect forms and must be handled specially
-        {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
-        {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
-        {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
-    ]
-).script('latin')
+english = Writing(
+    'latin',
+    Language(
+        ListGrammar(
+            conjugation_population.index([
+                *finite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv')),
+                *finite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/regular-conjugations.tsv')),
+            ]),
+            declension_population.index([
+                *pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv')),
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/adjective-agreement.tsv')),
+            ]),
+            case_population.index(
+                case_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/declension-use-case-to-grammatical-case.tsv'))),
+            {'language-type':'native'},
+        ),
+        RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
+        list_tools,
+        RuleFormatting(),
+        None,
+        substitutions = [
+            {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
+            {'v': english_list_substitution.verbform}, # English participles are encoded as perfect/imperfect forms and must be handled specially
+            {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
+            {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
+            {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
+        ]
+    )
+)
 
 card_generation = CardGeneration(
     english, 

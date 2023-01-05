@@ -2,6 +2,7 @@ from tools.lookup import DefaultDictLookup, DictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.shorthands import EmojiPerson
 from tools.languages import Language
+from tools.writing import Writing
 from tools.nodemaps import (
     ListTools, ListGrammar,
     RuleValidation, RuleFormatting, RuleSyntax,
@@ -19,42 +20,45 @@ from inflections import (
 
 list_tools = ListTools()
 
-foreign_language = Language(
-    ListGrammar(
-        conjugation_population.index([
-            *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/conjugations.tsv')),
-            *filter(has_annotation('language','old-english'),
-                declension_verb_annotation.annotate(
-                    tsv_parsing.rows(
-                        'data/inflection/declension-template-verbs-minimal.tsv'))),
-        ]),
-        declension_population.index([
-            *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/common-noun-declensions.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/adjective-agreement.tsv')),
-            *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/pronoun-possessives.tsv')),
-            *filter(has_annotation('language','old-english'),
-                declension_template_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
-        ]),
-        case_population.index(
-            case_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/declension-use-case-to-grammatical-case.tsv'))),
-        {'language-type':'foreign'},
-    ),
-    RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 
-    # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
-    list_tools,
-    RuleFormatting(),
-    # RuleValidation(),
-    RuleValidation(disabled=True),
-    substitutions = []
-).script('latin')
+foreign_writing = Writing(
+    'latin',
+    Language(
+        ListGrammar(
+            conjugation_population.index([
+                *finite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/old/conjugations.tsv')),
+                *filter(has_annotation('language','old-english'),
+                    declension_verb_annotation.annotate(
+                        tsv_parsing.rows(
+                            'data/inflection/declension-template-verbs-minimal.tsv'))),
+            ]),
+            declension_population.index([
+                *pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/old/common-noun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/old/adjective-agreement.tsv')),
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/old/pronoun-possessives.tsv')),
+                *filter(has_annotation('language','old-english'),
+                    declension_template_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
+            ]),
+            case_population.index(
+                case_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/old/declension-use-case-to-grammatical-case.tsv'))),
+            {'language-type':'foreign'},
+        ),
+        RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 
+        # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
+        list_tools,
+        RuleFormatting(),
+        # RuleValidation(),
+        RuleValidation(disabled=True),
+        substitutions = []
+    )
+)
 
 persons = [
     EmojiPerson('s','n',3),
@@ -78,7 +82,7 @@ voices = 'active'
 
 write('flashcards/old-english/finite-conjugation.html', 
     card_generation.conjugation(
-        foreign_language,
+        foreign_writing,
         DictTupleIndexing([
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
@@ -131,7 +135,7 @@ write('flashcards/old-english/finite-conjugation.html',
 
 write('flashcards/old-english/common-noun-declension.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
@@ -163,7 +167,7 @@ write('flashcards/old-english/common-noun-declension.html',
 
 write('flashcards/old-english/pronoun-declension.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',
             # categories that are constant since they do not affect pronouns in the language
@@ -214,7 +218,7 @@ write('flashcards/old-english/pronoun-declension.html',
 
 write('flashcards/old-english/adpositions.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
@@ -257,7 +261,7 @@ write('flashcards/old-english/adpositions.html',
 
 write('flashcards/old-english/strong-adjective-agreement.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective',
@@ -301,7 +305,7 @@ write('flashcards/old-english/strong-adjective-agreement.html',
 
 write('flashcards/old-english/weak-adjective-agreement.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective',
@@ -345,7 +349,7 @@ write('flashcards/old-english/weak-adjective-agreement.html',
 
 write('flashcards/old-english/pronoun-possessives.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
@@ -421,7 +425,7 @@ write('flashcards/old-english/pronoun-possessives.html',
 
 write('flashcards/old-english/participle-declension.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'tense', 'voice', 'aspect', 'mood', 

@@ -1,12 +1,5 @@
 from .treemaps import ListTreeMap, RuleTreeMap
 
-class LanguageScript:
-    def __init__(self, language, script):
-        self.language = language
-        self.script = script
-    def map(self, syntax_tree, semes={}, substitutions=[]):
-        return self.language.map(syntax_tree, self.script, semes, substitutions)
-
 class Language:
     """
     A `Language` is a "tree mapping" class, analogous to those found under nodemaps.py.
@@ -38,8 +31,6 @@ class Language:
         self.tools = tools
         self.validation = validation
         self.formatting = formatting
-    def script(self, script):
-        return LanguageScript(self, script)
     def map(self, syntax_tree, script, semes={}, substitutions=[]):
         default_substitution = {
             'the': self.tools.replace(['det', 'the']),

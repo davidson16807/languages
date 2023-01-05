@@ -119,7 +119,7 @@ class RuleFormatting:
     def __init__(self):
         pass
     def default(self, treemap, rule):
-        return (' '.join([str(treemap.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule)
+        return (' '.join([str(treemap.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule).replace('∅','')
     def cloze(self, treemap, rule):
         return '{{c'+str(1)+'::'+' '.join(str(treemap.map(element)) for element in rule.content)+'}}'
     def implicit(self, treemap, rule):

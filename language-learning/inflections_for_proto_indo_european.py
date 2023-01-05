@@ -2,6 +2,7 @@ from tools.lookup import DefaultDictLookup, DictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.shorthands import EmojiPerson
 from tools.languages import Language
+from tools.writing import Writing
 from tools.nodemaps import (
     ListTools, ListGrammar,
     RuleValidation, RuleFormatting, RuleSyntax,
@@ -19,43 +20,46 @@ from inflections import (
 
 list_tools = ListTools()
 
-foreign_language = Language(
-    ListGrammar(
-        conjugation_population.index([
-            *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/finite-conjugations.tsv')),
-            *nonfinite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
-            *filter(has_annotation('language','proto-indo-european'),
-                declension_verb_annotation.annotate(
-                    tsv_parsing.rows(
-                        'data/inflection/declension-template-verbs-minimal.tsv'))),
-        ]),
-        declension_population.index([
-            *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-declensions.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/common-noun-declensions.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/adjective-agreement.tsv')),
-            *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-possessives.tsv')),
-            *filter(has_annotation('language','proto-indo-european'),
-                declension_template_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
-        ]),
-        case_population.index(
-            case_annotation.annotate(
-                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/declension-use-case-to-grammatical-case.tsv'))),
-        {'language-type':'foreign'},
-    ),
-    RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
-    list_tools,
-    RuleFormatting(),
-    RuleValidation(),
-    # RuleValidation(disabled=True),
-    substitutions = []
-).script('latin')
+foreign_writing = Writing(
+    'latin',
+    Language(
+        ListGrammar(
+            conjugation_population.index([
+                *finite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/finite-conjugations.tsv')),
+                *nonfinite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
+                *filter(has_annotation('language','proto-indo-european'),
+                    declension_verb_annotation.annotate(
+                        tsv_parsing.rows(
+                            'data/inflection/declension-template-verbs-minimal.tsv'))),
+            ]),
+            declension_population.index([
+                *pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/common-noun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/adjective-agreement.tsv')),
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-possessives.tsv')),
+                *filter(has_annotation('language','proto-indo-european'),
+                    declension_template_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
+            ]),
+            case_population.index(
+                case_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/declension-use-case-to-grammatical-case.tsv'))),
+            {'language-type':'foreign'},
+        ),
+        RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
+        list_tools,
+        RuleFormatting(),
+        RuleValidation(),
+        # RuleValidation(disabled=True),
+        substitutions = []
+    )
+)
 
 persons = [
     EmojiPerson('s','n',3),
@@ -81,7 +85,7 @@ voices = 'active middle'.split()
 
 write('flashcards/proto-indo-european/finite-conjugation.html', 
     card_generation.conjugation(
-        foreign_language,
+        foreign_writing,
         DictTupleIndexing([
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
@@ -124,7 +128,7 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
 
 write('flashcards/proto-indo-european/common-noun-declension.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
@@ -156,7 +160,7 @@ write('flashcards/proto-indo-european/common-noun-declension.html',
 
 write('flashcards/proto-indo-european/pronoun-declension.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',
             # categories that are constant since they do not affect pronouns in the language
@@ -207,7 +211,7 @@ write('flashcards/proto-indo-european/pronoun-declension.html',
 
 write('flashcards/proto-indo-european/adpositions.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
@@ -250,7 +254,7 @@ write('flashcards/proto-indo-european/adpositions.html',
 
 write('flashcards/proto-indo-european/adjective-agreement.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective',
@@ -293,7 +297,7 @@ write('flashcards/proto-indo-european/adjective-agreement.html',
 
 write('flashcards/proto-indo-european/pronoun-possessives.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
@@ -369,7 +373,7 @@ write('flashcards/proto-indo-european/pronoun-possessives.html',
 
 write('flashcards/proto-indo-european/participle-declension.html', 
     card_generation.declension(
-        foreign_language, 
+        foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
             'tense', 'voice', 'aspect', 'mood', 
