@@ -62,6 +62,27 @@ singular-possessor	2nd-possessor	plural	feminine	latin	saí 	sā́ōn / sé͜ōn
 singular-possessor	2nd-possessor	plural	neuter	greek	σᾰ́	σῶν	σοῖσῐ / σοῖσῐν / σοῖς	σᾰ́	σᾰ́																	
 singular-possessor	2nd-possessor	plural	neuter	latin	sá	sôn	soîsi(n) / soîs	sá	sá 																	
 																										
+singular-possessor	3rd-possessor	singular	masculine	greek	ἑός	ἑοῦ/ἑοῖο/ἑόο	ἑῷ/εἱῷ	ἑόν	ἑέ																	
+singular-possessor	3rd-possessor	singular	masculine	latin	heós 	heoû/heoîo/heóo 	heôi/heiôi 	heón 	heé 																	
+singular-possessor	3rd-possessor	singular	feminine	greek	ἑή	ἑῆς	ἑῇ	ἑήν	ἑή																	
+singular-possessor	3rd-possessor	singular	feminine	latin	heḗ 	heês 	heêi 	heḗn 	heḗ 																	
+singular-possessor	3rd-possessor	singular	neuter	greek	ἑόν	ἑοῦ/ἑοῖο/ἑόο	ἑῷ	ἑόν	ἑόν																	
+singular-possessor	3rd-possessor	singular	neuter	latin	heón 	heoû/heoîo/heóo 	heôi 	heón 	heón 																	
+																										
+singular-possessor	3rd-possessor	dual	masculine	greek	ἑώ	ἑοῖῐν	ἑοῖῐν	ἑώ	ἑώ																	
+singular-possessor	3rd-possessor	dual	masculine	latin	heṓ 	heoîin 	heoîin 	heṓ 	heṓ 																	
+singular-possessor	3rd-possessor	dual	feminine	greek	ἑᾱ́	ἑαῖν/ἑαῖῐν/ἑῇῐν	ἑαῖν/ἑαῖῐν/ἑῇῐν	ἑᾱ́	ἑᾱ́																	
+singular-possessor	3rd-possessor	dual	feminine	latin	heā́ 	heaî(i)n/heêiin 	heaî(i)n/heêiin 	heā́ 	heā́ 																	
+singular-possessor	3rd-possessor	dual	neuter	greek	ἑώ	ἑοῖῐν	ἑοῖῐν	ἑώ	ἑώ																	
+singular-possessor	3rd-possessor	dual	neuter	latin	heṓ 	heoîin 	heoîin 	heṓ 	heṓ 																	
+																										
+singular-possessor	3rd-possessor	plural	masculine	greek	ἑοί	ἑῶν	ἑοῖσῐ/ἑοῖσῐν/ἑοῖς	ἑούς	ἑοί																	
+singular-possessor	3rd-possessor	plural	masculine	latin	heoí 	heôn 	heoîsi(n)/heoîs 	heoús 	heoí 																	
+singular-possessor	3rd-possessor	plural	feminine	greek	ἑαί	ἑᾱ́ων/ἑέ͜ων/ἑῶν	ἑῇσῐ/ἑῇσῐν/ἑῇς/ἑαῖς	ἑᾱ́ς	ἑαί																	
+singular-possessor	3rd-possessor	plural	feminine	latin	heaí 	heā́ōn/heé͜ōn/heôn 	heêisi(n)/heêis/heaîs 	heā́s 	heaí 																	
+singular-possessor	3rd-possessor	plural	neuter	greek	ἑᾰ́	ἑῶν	ἑοῖσῐ/ἑοῖσῐν/ἑοῖς	ἑᾰ́	ἑᾰ́																	
+singular-possessor	3rd-possessor	plural	neuter	latin	heá	heôn	heoîsi(n)/heoîs	heá	heá 																	
+																										
 plural-possessor	3rd-possessor	singular	masculine	greek	σφέτερος	σφετέρου / σφετεροῖο / σφετέροιο / σφετερόο / σφετέροο	σφετέρῳ	σφέτερον	σφέτερε																	
 plural-possessor	3rd-possessor	singular	masculine	latin	sphéteros 	sphetérou / spheteroîo / sphetéroio / spheteróo / sphetéroo 	sphetérōi 	sphéteron 	sphétere 																	
 plural-possessor	3rd-possessor	singular	feminine	greek	σφετέρᾱ	σφετέρᾱς	σφετέρᾳ	σφετέρᾱν	σφετέρᾱ																	

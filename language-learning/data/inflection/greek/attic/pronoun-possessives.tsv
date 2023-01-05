@@ -83,6 +83,27 @@ plural-possessor	2nd-possessor	plural	feminine	latin	hūméterai 	hūmetérōn 	
 plural-possessor	2nd-possessor	plural	neuter	greek	ῡ̔μέτερᾰ	ῡ̔μετέρων	ῡ̔μετέροις	ῡ̔μέτερᾰ	ῡ̔μέτερᾰ																	
 plural-possessor	2nd-possessor	plural	neuter	latin	hūmétera	hūmetérōn	hūmetérois	hūmétera	hūmétera 																	
 																										
+singular-possessor	3rd-possessor	singular	masculine	greek	ἑός	ἑοῦ	ἑῷ/εἱῷ	ἑόν	ἑέ																	
+singular-possessor	3rd-possessor	singular	masculine	latin	heós 	heoû 	heôi/heiôi 	heón 	heé 																	
+singular-possessor	3rd-possessor	singular	feminine	greek	ἑᾱ́	ἑᾶς	ἑᾷ	ἑᾱ́ν	ἑᾱ́																	
+singular-possessor	3rd-possessor	singular	feminine	latin	heā́ 	heâs 	heâi 	heā́n 	heā́ 																	
+singular-possessor	3rd-possessor	singular	neuter	greek	ἑόν	ἑοῦ	ἑῷ/εἱῷ	ἑόν	ἑόν																	
+singular-possessor	3rd-possessor	singular	neuter	latin	heón 	heoû 	heôi/heiôi 	heón 	heón 																	
+																										
+singular-possessor	3rd-possessor	dual	masculine	greek	ἑώ	ἑοῖν	ἑοῖν	ἑώ	ἑώ																	
+singular-possessor	3rd-possessor	dual	masculine	latin	heṓ 	heoîn 	heoîn 	heṓ 	heṓ 																	
+singular-possessor	3rd-possessor	dual	feminine	greek	ἑᾱ́	ἑαῖν	ἑαῖν	ἑᾱ́	ἑᾱ́																	
+singular-possessor	3rd-possessor	dual	feminine	latin	heā́ 	heaîn 	heaîn 	heā́ 	heā́ 																	
+singular-possessor	3rd-possessor	dual	neuter	greek	ἑώ	ἑοῖν	ἑοῖν	ἑώ	ἑώ																	
+singular-possessor	3rd-possessor	dual	neuter	latin	heṓ 	heoîn 	heoîn 	heṓ 	heṓ 																	
+																										
+singular-possessor	3rd-possessor	plural	masculine	greek	ἑοί	ἑῶν	ἑοῖς	ἑούς	ἑοί																	
+singular-possessor	3rd-possessor	plural	masculine	latin	heoí 	heôn 	heoîs 	heoús 	heoí 																	
+singular-possessor	3rd-possessor	plural	feminine	greek	ἑαί	ἑῶν	ἑαῖς	ἑᾱ́ς	ἑαί																	
+singular-possessor	3rd-possessor	plural	feminine	latin	heaí 	heôn 	heaîs 	heā́s 	heaí 																	
+singular-possessor	3rd-possessor	plural	neuter	greek	ἑᾰ́	ἑῶν	ἑοῖς	ἑᾰ́	ἑᾰ́																	
+singular-possessor	3rd-possessor	plural	neuter	latin	heá	heôn	heoîs	heá	heá 																	
+																										
 plural-possessor	3rd-possessor	singular	masculine	greek	σφέτερος	σφετέρου	σφετέρῳ	σφέτερον	σφέτερε																	
 plural-possessor	3rd-possessor	singular	masculine	latin	sphéteros 	sphetérou 	sphetérōi 	sphéteron 	sphétere 																	
 plural-possessor	3rd-possessor	singular	feminine	greek	σφετέρᾱ	σφετέρᾱς	σφετέρᾳ	σφετέρᾱν	σφετέρᾱ																	

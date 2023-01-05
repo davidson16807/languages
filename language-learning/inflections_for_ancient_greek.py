@@ -29,7 +29,7 @@ foreign_writing = Writing(
                     tsv_parsing.rows('data/inflection/greek/attic/finite-conjugations.tsv')),
                 *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/greek/attic/nonfinite-conjugations.tsv')),
-                *filter(has_annotation('language','ancient-greek'),
+                *filter(has_annotation('language','attic-greek'),
                     declension_verb_annotation.annotate(
                         tsv_parsing.rows(
                             'data/inflection/declension-template-verbs-minimal.tsv'))),
@@ -41,7 +41,7 @@ foreign_writing = Writing(
                     tsv_parsing.rows('data/inflection/greek/attic/common-noun-declensions.tsv')),
                 *possessive_pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/greek/attic/pronoun-possessives.tsv')),
-                *filter(has_annotation('language','ancient-greek'),
+                *filter(has_annotation('language','attic-greek'),
                     declension_template_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
             ]),
@@ -70,11 +70,11 @@ persons = [
 genders = 'masculine feminine neuter'.split()
 numbers = 'singular dual plural'.split()
 verbs = 'be go release'.split()
-nouns = ['young man', 'soldier', 'polity', 'hair', 'person', 'street', 'gift', 
-         'circumnavigation', 'bone', 'hero', 'fish', 'citadel', 'ax', 'town', 
-         'master', 'cow', 'old woman', 'echo', 'Clio', 'crow', 'vulture', 'rug',
-         'giant', 'tooth', 'old man', 'property', 'Greek', 'winter', 'Titan',
-         'light ray', 'shepherd', 'guide', 'neighbor', 'tipstaff', 'ichor', 'chaff',
+nouns = ['young-man', 'soldier', 'polity', 'village', 'person', 'street', 'gift', 
+         'circumnavigation', 'bone', 'hero', 'fish', 'oak', 'city', 'axe', 'town', 
+         'master', 'cow', 'old-woman', 'echo', 'Clio', 'crow', 'vulture', 'rug',
+         'giant', 'tooth', 'old-man', 'property', 'Greek', 'winter', 'Titan',
+         'light-ray', 'shepherd', 'guide', 'neighbor', 'tipstaff', 'ichor', 'chaff',
          'orator', 'father', 'man', 'Demeter', 'Socrates', 'Pericles', 'arrow',
          'foundation', 'shame', 'Ares', 'woman', 'Thales', 'Oedipus', 'fire',
          'Apollo', 'knee', 'wood', 'Zeus', 'liver', 'dog', 'ship', 'ear', 'water', 'hand']

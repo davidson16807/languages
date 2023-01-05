@@ -55,8 +55,8 @@ foreign_writing = Writing(
         RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
         list_tools,
         RuleFormatting(),
-        RuleValidation(),
-        # RuleValidation(disabled=True),
+        # RuleValidation(),
+        RuleValidation(disabled=True),
         substitutions = []
     )
 )

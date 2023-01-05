@@ -165,6 +165,9 @@ be	container	can	be-used
 be	container	can	store					
 be	container	can	interior					
 								
+be	rug	be	furniture					
+be	rug	can	be-walked-on					
+								
 				# fixed solids				
 be	tree	be	fixed					
 								

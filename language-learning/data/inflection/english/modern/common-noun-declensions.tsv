@@ -112,10 +112,12 @@ horn       	singular	horn	horn	horn	#	horn's	latin
 horn       	plural	horns	horns	horns	#	horns'	latin						
 sailor     	singular	sailor	sailor	sailor	#	sailor's	latin						
 sailor     	plural	sailors	sailors	sailors	#	sailors'	latin						
-foundation 	singular	foundation	foundation	foundation	#	foundation's	latin						
-foundation 	plural	foundations	foundations	foundations	#	foundations'	latin						
-echo       	singular	echo	echo	echo	#	echo's	latin						
-echo       	plural	echoes	echoes	echoes	#	echoes'	latin						
+foundation 	singular	foundation	foundation	foundation	#	foundation's	latin, attic-greek						
+foundation 	dual	foundations	foundations	foundations	#	foundations'	latin, attic-greek						
+foundation 	plural	foundations	foundations	foundations	#	foundations'	latin, attic-greek						
+echo       	singular	echo	echo	echo	#	echo's	latin, attic-greek						
+echo       	dual	echoes	echoes	echoes	#	echoes'	latin, attic-greek						
+echo       	plural	echoes	echoes	echoes	#	echoes'	latin, attic-greek						
 phenomenon 	singular	phenomenon	phenomenon	phenomenon	#	phenomenon's	latin						
 phenomenon 	plural	phenomena	phenomena	phenomena	#	phenomena's	latin						
 vine       	singular	vine	vine	vine	#	vine's	latin						
@@ -128,47 +130,60 @@ nymph      	singular	nymph	nymph	nymph	#	nymph's	latin
 nymph      	plural	nymphs	nymphs	nymphs	#	nymphs'	latin						
 comet      	singular	comet	comet	comet	#	comet's	latin						
 comet      	plural	comets	comets	comets	#	comets'	latin						
-young man	singular 	young man	young man	young man	#	young man's	attic-greek						
-young man	dual 	young men	young men	young men	#	young mans'	attic-greek						
-young man	plural 	young men	young men	young men	#	young mans'	attic-greek						
+young-man	singular 	young man	young man	young man	#	young man's	attic-greek						
+young-man	dual 	young men	young men	young men	#	young mans'	attic-greek						
+young-man	plural 	young men	young men	young men	#	young mans'	attic-greek						
+old-man	singular 	old man	old man	old man	#	old man's	attic-greek						
+old-man	dual 	old men	old men	old men	#	old mens'	attic-greek						
+old-man	plural 	old men	old men	old men	#	old mens'	attic-greek						
+old-woman	singular 	old woman	old woman	old woman	#	old woman's	attic-greek						
+old-woman	dual 	old women	old women	old women	#	old womens'	attic-greek						
+old-woman	plural 	old women	old women	old women	#	old womens'	attic-greek						
 soldier	singular 	soldier	soldier	soldier	#	soldier's	attic-greek						
 soldier	dual 	soldiers	soldiers	soldiers	#	soldiers'	attic-greek						
 soldier	plural	soldiers	soldiers	soldiers	#	soldiers'	attic-greek						
 polity	singular 	polity	polity	polity	#	polity's	attic-greek						
 polity	dual 	polities	polities	polities	#	politys'	attic-greek						
 polity	plural	polities	polities	polities	#	politys'	attic-greek						
+village	singular 	village	village	village	#	village's	attic-greek						
+village	dual 	villages	villages	villages	#	villages'	attic-greek						
+village	plural	villages	villages	villages	#	villages'	attic-greek						
 hair	singular 	hair	hair	hair	#	hair's	attic-greek						
 hair	dual 	hairs	hairs	hairs	#	hairs'	attic-greek						
 hair	plural	hairs	hairs	hairs	#	hairs'	attic-greek						
 street	singular 	street	street	street	#	street's	attic-greek						
 street	dual 	streets	streets	streets	#	streets'	attic-greek						
 street	plural 	streets	streets	streets	#	streets'	attic-greek						
-gift	singular 	gift	gift	gift	#	gift's	attic-greek						
-gift	dual 	gifts	gifts	gifts	#	gifts'	attic-greek						
-gift	plural	gifts	gifts	gifts	#	gifts'	attic-greek						
+gift	singular 	gift	gift	gift	#	gift's	old-english, attic-greek						
+gift	dual 	gifts	gifts	gifts	#	gifts'	old-english, attic-greek						
+gift	plural	gifts	gifts	gifts	#	gifts'	old-english, attic-greek						
 circumnavigation	singular 	circumnavigation	circumnavigation	circumnavigation	#	circumnavigation's	attic-greek						
 circumnavigation	dual 	circumnavigations	circumnavigations	circumnavigations	#	circumnavigations'	attic-greek						
 circumnavigation	plural 	circumnavigations	circumnavigations	circumnavigations	#	circumnavigations'	attic-greek						
 fish	singular 	fish	fish	fish	#	fish's	attic-greek						
+fish	dual	fish|fishes	fish|fishes	fish|fishes	#	fish's|fishes'	attic-greek						
 fish	plural 	fish|fishes	fish|fishes	fish|fishes	#	fish's|fishes'	attic-greek						
 oak	singular 	oak	oak	oak	#	oak's	attic-greek						
+oak	dual	oaks	oaks	oaks	#	oaks'	attic-greek						
 oak	plural	oaks	oaks	oaks	#	oaks'	attic-greek						
+city	singular 	city	city	city	#	city's	attic-greek						
+city	dual 	cities	cities	cities	#	cities'	attic-greek						
+city	plural 	cities	cities	cities	#	cities'	attic-greek						
 citadel	singular 	citadel	citadel	citadel	#	citadel's	attic-greek						
 citadel	dual 	citadels	citadels	citadels	#	citadels'	attic-greek						
 citadel	plural 	citadels	citadels	citadels	#	citadels'	attic-greek						
-ax	singular 	ax	ax	ax	#	ax's	attic-greek						
-ax	dual 	axes	axes	axes	#	axs'	attic-greek						
-ax	plural 	axes	axes	axes	#	axs'	attic-greek						
+axe	singular 	axe	axe	axe	#	axe's	attic-greek						
+axe	dual 	axes	axes	axes	#	axes'	attic-greek						
+axe	plural 	axes	axes	axes	#	axes'	attic-greek						
 town	singular 	town	town	town	#	town's	attic-greek						
 town	dual 	towns	towns	towns	#	towns'	attic-greek						
 town	plural	towns	towns	towns	#	towns'	attic-greek						
 master	singular 	master	master	master	#	master's	attic-greek						
 master	dual 	masters	masters	masters	#	masters'	attic-greek						
 master	plural 	masters	masters	masters	#	masters'	attic-greek						
-old woman	singular 	old woman	old woman	old woman	#	old woman's	attic-greek						
-old woman	plural	old women	old women	old women	#	old womens'	attic-greek						
-echo	singular 	echo	echo	echo	#	echo's	attic-greek						
 Clio	singular	Clio	Clio	Clio	#	Clio's	attic-greek						
+Clio	dual	Clios	Clios	Clios	#	Clios'	attic-greek						
+Clio	plural	Clios	Clios	Clios	#	Clios'	attic-greek						
 crow	singular 	crow	crow	crow	#	crow's	attic-greek						
 crow	dual 	crows	crows	crows	#	crows'	attic-greek						
 crow	plural 	crows	crows	crows	#	crows'	attic-greek						
@@ -182,26 +197,23 @@ giant	singular 	giant	giant	giant	#	giant's	attic-greek
 giant	dual 	giants	giants	giants	#	giants'	attic-greek						
 giant	plural 	giants	giants	giants	#	giants'	attic-greek						
 tooth	singular 	tooth	tooth	tooth	#	tooth's	attic-greek						
-tooth	dual 	tooths	tooths	tooths	#	tooths'	attic-greek						
-tooth	plural 	tooths	tooths	tooths	#	tooths'	attic-greek						
-old man	singular 	old man	old man	old man	#	old man's	attic-greek						
-old man	dual 	old men	old men	old men	#	old mens'	attic-greek						
-old man	plural 	old men	old men	old men	#	old mens'	attic-greek						
+tooth	dual 	teeth	teeth	teeth	#	teeth's	attic-greek						
+tooth	plural 	teeth	teeth	teeth	#	teeth's	attic-greek						
 property	singular 	property	property	property	#	property's	attic-greek						
 property	dual 	properties	properties	properties	#	properties'	attic-greek						
 property	plural	properties	properties	properties	#	properties'	attic-greek						
-Hellen	singular 	Hellen	Hellen	Hellen	#	Hellen's	attic-greek						
-Hellen	dual 	Hellens	Hellens	Hellens	#	Hellens'	attic-greek						
-Hellen	plural 	Hellens	Hellens	Hellens	#	Hellens'	attic-greek						
+Greek	singular 	Greek	Greek	Greek	#	Greek's	attic-greek						
+Greek	dual 	Greeks	Greeks	Greeks	#	Greeks'	attic-greek						
+Greek	plural 	Greeks	Greeks	Greeks	#	Greeks'	attic-greek						
 winter	singular 	winter	winter	winter	#	winter's	attic-greek						
 winter	dual 	winters	winters	winters	#	winters'	attic-greek						
 winter	plural 	winters	winters	winters	#	winters'	attic-greek						
 Titan	singular 	Titan	Titan	Titan	#	Titan's	attic-greek						
 Titan	dual 	Titans	Titans	Titans	#	Titans'	attic-greek						
 Titan	plural 	Titans	Titans	Titans	#	Titans'	attic-greek						
-light ray	singular 	light ray	light ray	light ray	#	light ray's	attic-greek						
-light ray	dual 	light rays	light rays	light rays	#	light rays'	attic-greek						
-light ray	plural	light rays	light rays	light rays	#	light rays'	attic-greek						
+light-ray	singular 	light ray	light ray	light ray	#	light ray's	attic-greek						
+light-ray	dual 	light rays	light rays	light rays	#	light rays'	attic-greek						
+light-ray	plural	light rays	light rays	light rays	#	light rays'	attic-greek						
 shepherd	singular 	shepherd	shepherd	shepherd	#	shepherd's	attic-greek						
 shepherd	dual 	shepherds	shepherds	shepherds	#	shepherds'	attic-greek						
 shepherd	plural 	shepherds	shepherds	shepherds	#	shepherds'	attic-greek						
@@ -224,33 +236,52 @@ orator	singular 	orator	orator	orator	#	orator's	attic-greek
 orator	dual 	orators	orators	orators	#	orators'	attic-greek						
 orator	plural	orators	orators	orators	#	orators'	attic-greek						
 Demeter	singular	Demeter	Demeter	Demeter	#	Demeter's	attic-greek						
+Demeter	dual	Demeters	Demeters	Demeters	#	Demeters'	attic-greek						
+Demeter	plural	Demeters	Demeters	Demeters	#	Demeters'	attic-greek						
 Socrates	singular 	Socrates	Socrates	Socrates	#	Socrates's	attic-greek						
+Socrates	dual	Socrateses	Socrateses	Socrateses	#	Socrateses'	attic-greek						
 Socrates	plural	Socrateses	Socrateses	Socrateses	#	Socrateses'	attic-greek						
 Pericles	singular 	Pericles	Pericles	Pericles	#	Pericles's	attic-greek						
+Pericles	dual	Pericleses	Pericleses	Pericleses	#	Pericleses'	attic-greek						
 Pericles	plural	Pericleses	Pericleses	Pericleses	#	Pericleses'	attic-greek						
 arrow	singular 	arrow	arrow	arrow	#	arrow's	attic-greek						
 arrow	dual 	arrows	arrows	arrows	#	arrows'	attic-greek						
 arrow	plural 	arrows	arrows	arrows	#	arrows'	attic-greek						
-foundation	singular 	foundation	foundation	foundation	#	foundation's	attic-greek						
-foundation	dual 	foundations	foundations	foundations	#	foundations'	attic-greek						
-foundation	plural 	foundations	foundations	foundations	#	foundations'	attic-greek						
 shame	singular	shame	shame	shame	#	shame's	attic-greek						
+shame	dual	shames	shames	shames	#	shames'	attic-greek						
+shame	plural	shames	shames	shames	#	shames'	attic-greek						
 Ares	singular 	Ares	Ares	Ares	#	Ares's	attic-greek						
+Ares	dual	Areses	Areses	Areses	#	Areses'	attic-greek						
+Ares	plural	Areses	Areses	Areses	#	Areses'	attic-greek						
 Thales	singular 	Thales	Thales	Thales	#	Thales's	attic-greek						
+Thales	dual	Thaleses	Thaleses	Thaleses	#	Thaleses'	attic-greek						
+Thales	plural	Thaleses	Thaleses	Thaleses	#	Thaleses'	attic-greek						
 Oedipus	singular 	Oedipus	Oedipus	Oedipus	#	Oedipus's	attic-greek						
+Oedipus	dual	Oedipuses	Oedipuses	Oedipuses	#	Oedipuses'	attic-greek						
+Oedipus	plural	Oedipuses	Oedipuses	Oedipuses	#	Oedipuses'	attic-greek						
 fire	singular 	fire	fire	fire	#	fire's	attic-greek						
+fire	dual	fires	fires	fires	#	fires'	attic-greek						
 fire	plural	fires	fires	fires	#	fires'	attic-greek						
 Apollo	singular 	Apollo	Apollo	Apollo	#	Apollo's	attic-greek						
+Apollo	dual	Apollos	Apollos	Apollos	#	Apollos'	attic-greek						
+Apollo	plural	Apollos	Apollos	Apollos	#	Apollos'	attic-greek						
 knee	singular 	knee	knee	knee	#	knee's	attic-greek						
+knee	dual	knees	knees	knees	#	knees'	attic-greek						
 knee	plural 	knees	knees	knees	#	knees'	attic-greek						
 wood	singular 	wood	wood	wood	#	wood's	attic-greek						
+wood	dual	woods	woods	woods	#	woods'	attic-greek						
 wood	plural 	woods	woods	woods	#	woods'	attic-greek						
 Zeus	singular 	Zeus	Zeus	Zeus	#	Zeus's	attic-greek						
+Zeus	dual	Zeuses	Zeuses	Zeuses	#	Zeuses'	attic-greek						
+Zeus	plural	Zeuses	Zeuses	Zeuses	#	Zeuses'	attic-greek						
 liver	singular 	liver	liver	liver	#	liver's	attic-greek						
+liver	dual	livers	livers	livers	#	livers'	attic-greek						
 liver	plural 	livers	livers	livers	#	livers'	attic-greek						
-dog	singular 	dog	dog	dog	#	dog's	attic-greek						
-dog	plural 	dogs	dogs	dogs	#	dogs'	attic-greek						
+dog	singular 	dog	dog	dog	#	dog's	attic-greek, old-english						
+dog	dual	dogs	dogs	dogs	#	dogs'	attic-greek, old-english						
+dog	plural 	dogs	dogs	dogs	#	dogs'	attic-greek, old-english						
 ship	singular 	ship	ship	ship	#	ship's	attic-greek						
+ship	dual	ships	ships	ships	#	ships'	attic-greek						
 ship	plural 	ships	ships	ships	#	ships'	attic-greek						
 ear	singular 	ear	ear	ear	#	ear's	attic-greek						
 ear	dual 	ears	ears	ears	#	ears'	attic-greek						
@@ -306,14 +337,10 @@ wind	plural	winds	winds	winds	#	winds'	sanskrit
 world	singular	world	world	world	#	world's	sanskrit						
 world	dual	worlds	worlds	worlds	#	worlds'	sanskrit						
 world	plural	worlds	worlds	worlds	#	worlds'	sanskrit						
-dog	singular	dog	dog	dog	#	dog's	old-english						
-dog	plural	dogs	dogs	dogs	#	dogs'	old-english						
 light	singular	light	light	light	#	light's	old-english						
 light	plural	lights	lights	lights	#	lights'	old-english						
 house	singular	house	house	house	#	house's	old-english						
 house	plural	houses	houses	houses	#	houses'	old-english						
-gift	singular	gift	gift	gift	#	gift's	old-english						
-gift	plural	gifts	gifts	gifts	#	gifts'	old-english						
 raid	singular	raid	raid	raid	#	raid's	old-english						
 raid	plural	raids	raids	raids	#	raids'	old-english						
 moon	singular	moon	moon	moon	#	moon's	old-english						
