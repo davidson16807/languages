@@ -47,7 +47,7 @@ foreign_writing = Writing(
             ]),
             case_population.index(
                 case_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/greek/attic/declension-use-case-to-grammatical-case.tsv'))),
+                    tsv_parsing.rows('data/inflection/greek/attic/usage-case-to-grammatical-case.tsv'))),
             {'language-type':'foreign'},
         ),
         RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),

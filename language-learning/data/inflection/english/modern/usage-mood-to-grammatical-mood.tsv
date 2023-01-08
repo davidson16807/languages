@@ -1,0 +1,62 @@
+speaker-action	evidentiality	implication-position	subject-means	subject-motive	speaker-motive	speaker-emphasis	addressee-power
+statement	visual						
+statement	nonvisual						
+statement	circumstantial						
+statement	hearsay						
+statement	uncorroborated						
+statement							
+statement							
+statement							
+statement							
+statement							
+statement							
+statement							
+statement	secondhand						
+statement	thirdhand						
+statement	promise						
+statement	presumption						
+statement	supposition						
+statement				wanted			
+statement		antecedant					
+statement		antecedant					
+statement		consequent					
+statement		consequent					
+aspiration					wanted		
+aspiration					wanted/unwanted		
+aspiration					unwanted		
+aspiration					needed		
+deferral					wanted		
+deferral					wanted		
+request					wanted	emphatic	supernatural
+request					wanted	emphatic	lower
+request					unwanted	emphatic	lower
+request					wanted	emphatic	unspecified
+request					wanted	encouraging	unspecified
+request					wanted	dispassionate	unspecified
+query							
+proposal							
+verification							
+							
+							
+actspe	e	i	mesub	mosub	mospe	emph	power
+speaker-action	evidentiality	implication-position	subject-means	subject-motive	speaker-motive	speaker-emphasis	addressee-power
+							
+statement	visual	antecedant	probable	needed	needed	emphatic	supernatural
+aspiration	nonvisual	consequent	potential	wanted	wanted	encouraging	lower
+deferral	circumstantial	positive	improbable	unwanted	unwanted	dispassionate	unspecified
+request	secondhand	negative					
+query	thirdhand						
+proposal	promised						
+verification	accepted						
+	presumed						
+	supposed						
+	counterfactual						
+							
+							
+							
+							
+							
+							
+							
+							
+							

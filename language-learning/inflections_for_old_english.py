@@ -47,7 +47,7 @@ foreign_writing = Writing(
             ]),
             case_population.index(
                 case_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/declension-use-case-to-grammatical-case.tsv'))),
+                    tsv_parsing.rows('data/inflection/english/old/usage-case-to-grammatical-case.tsv'))),
             {'language-type':'foreign'},
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 

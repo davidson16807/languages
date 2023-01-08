@@ -17,25 +17,25 @@ comissive	Event is committed to by the speaker, such as by promise or threat	sta
 presumptive	Event is assumed, presupposed by the speaker.	statement	presumption														
 suggestive	Event is proposed by the speaker	statement	supposition														
 desiderative	Event is desired/wished by the subject	statement				wanted											
-subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement-of-inference		antecedant													
-subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement-of-inference		antecedant													
-conditional	Event depends upon another condition.	statement-of-inference		consequent													
-eventitive	Event is likely but depends upon a condition. 	statement-of-inference		consequent													
-optative	Event is hoped, expected, or awaited.	statement-of-intent					wanted										
-volitive	Event is desired, wished or feared by the speaker.	statement-of-intent					wanted/unwanted										
-involutive	Event is feared by the speaker.	statement-of-intent					unwanted										
-necessitative	Event is necessary, or it is both desired and encouraged. 	statement-of-intent					needed										
-injunctive	Event is intended by the speaker	defer-to-subject					wanted										
-permissive	Event is permitted by the speaker.	defer-to-subject					wanted										
-benedictive	Event is blessed by the speaker	request-action					wanted	emphatic	supernatural								
-imperative	Event is directly ordered or requested by the speaker.	request-action					wanted	emphatic	lower								
-prohibitive	Event is directly prohibited by the speaker.	request-action					unwanted	emphatic	lower								
-jussive	Event is pleaded, implored or asked.	request-action					wanted	emphatic	unspecified								
-hortative	Event is exhorted, implored, insisted or encouraged by speaker.	request-action					wanted	encouraging	unspecified								
-precative	Event is requested by the speaker.	request-action					wanted	dispassionate	unspecified								
-interrogative	Event is queried by the speaker, asking for response	request-answer															
-propositive	Event is proposed by the speaker, asking for consideration	request-consideration															
-deliberative	Event is considered by the speaker, asking for confirmation	request-confirmation															
+subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement		antecedant													
+subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement		antecedant													
+conditional	Event depends upon another condition.	statement		consequent													
+eventitive	Event is likely but depends upon a condition. 	statement		consequent													
+optative	Event is hoped, expected, or awaited.	aspiration					wanted										
+volitive	Event is desired, wished or feared by the speaker.	aspiration					wanted/unwanted										
+involutive	Event is feared by the speaker.	aspiration					unwanted										
+necessitative	Event is necessary, or it is both desired and encouraged. 	aspiration					needed										
+injunctive	Event is intended by the speaker	deferral					wanted										
+permissive	Event is permitted by the speaker.	deferral					wanted										
+benedictive	Event is blessed by the speaker	request					wanted	emphatic	supernatural								
+imperative	Event is directly ordered or requested by the speaker.	request					wanted	emphatic	lower								
+prohibitive	Event is directly prohibited by the speaker.	request					unwanted	emphatic	lower								
+jussive	Event is pleaded, implored or asked.	request					wanted	emphatic	unspecified								
+hortative	Event is exhorted, implored, insisted or encouraged by speaker.	request					wanted	encouraging	unspecified								
+precative	Event is requested by the speaker.	request					wanted	dispassionate	unspecified								
+interrogative	Event is queried by the speaker, asking for response	query															
+propositive	Event is proposed by the speaker, asking for consideration	proposal															
+deliberative	Event is considered by the speaker, asking for confirmation	verification															
 																	
 																	
 		actspe	e	i	mesub	mosub	mospe	emph	power								
@@ -47,7 +47,7 @@ deliberative	Event is considered by the speaker, asking for confirmation	request
 	mospe	request	secondhand	negative													
 	mesub	query	thirdhand														
 	mospe*emspe*powad	proposal	promised														
-	1	request-confirmation	accepted														
+	1	verification	accepted														
 	1		presumed														
 	1		supposed														
 			counterfactual														

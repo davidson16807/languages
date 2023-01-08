@@ -1,0 +1,61 @@
+#	motion	attribute	PIE case name	preposition
+	associated	solitary	nominative	
+	associated	agent	nominative	
+	associated	audience	vocative	
+	associated	patient	accusative	
+	associated	theme	accusative	
+	associated	possessor	genitive	
+	departed	location	ablative	h₂epo
+	associated	location	locative	h₃ebʰi
+	acquired	location	dative	h₂ed
+	leveraged	location	instrumental	kmₒ-th₂
+#	departed	extent	ablative	h₂epo
+#	associated	extent	locative	kmₒ-th₂
+#	acquired	extent	dative	h₂ed
+#	leveraged	extent	instrumental	kmₒ-th₂
+#	departed	vicinity	ablative	h₂epo
+#	associated	vicinity	locative	h₁epi
+#	acquired	vicinity	dative	h₂ed
+#	leveraged	vicinity	instrumental	kmₒ-th₂
+	departed	interior	ablative	h₂epo
+	associated	interior	locative	h₁en
+	acquired	interior	dative	h₂ed
+	leveraged	interior	instrumental	per(i)
+	departed	surface	ablative	h₂epo
+	associated	surface	locative	h₂enh₃
+	acquired	surface	dative	h₃ebʰi
+	leveraged	surface	instrumental	
+#	departed	presence	instrumental	h₂epo
+	associated	presence	instrumental	per
+#	acquired	presence	dative	h₂ed
+#	leveraged	presence	instrumental	
+#	departed	aid	instrumental	
+	associated	aid	instrumental	kom
+#	acquired	aid	dative	h₂ed
+#	leveraged	aid	instrumental	kom
+#	departed	lack	instrumental	h₁neu
+	associated	lack	instrumental	h₁neu
+#	acquired	lack	dative	h₁neu
+#	leveraged	lack	instrumental	h₁neu
+#	departed	interest	dative	h₂epo
+	associated	interest	dative	
+#	acquired	interest	dative	h₂ed
+#	leveraged	interest	instrumental	
+#	departed	ownership	genitive	h₂epo
+#	associated	ownership	genitive	
+#	acquired	ownership	genitive	h₂ed
+#	leveraged	ownership	dative	
+#	departed	time	ablative	pos
+#	associated	time	instrumental	
+#	acquired	time	dative	h₂ed
+#	leveraged	time	instrumental	
+#	departed	state of being	instrumental	h₂epo
+#	associated	state of being	instrumental	
+#	acquired	state of being	instrumental	h₂ed
+#	leveraged	state of being	instrumental	
+#	departed	topic	ablative	h₂epo
+#	associated	topic	locative	
+#	acquired	topic	dative	h₂ed
+#	leveraged	topic	instrumental	
+	associated	company	locative	kom
+#	associated	resemblance		

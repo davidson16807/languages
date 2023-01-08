@@ -83,10 +83,11 @@ tagaxis_to_tags = {
     'speaker-action':   'statement aspiration deferral request query proposal verification'.split(),
     'addressee-power':  'supernatural lower unspecified'.split(),
 
+
     # needed for Spanish
     'formality':  ['familiar', 'polite', 'elevated', 'formal', 'tuteo', 'voseo'],
 
-    # animacy ordered as follows:
+    # "animacy" is ordered as follows:
     # 1st column: represents any of the tags that precede the entry in the middle column of that row
     # 2nd column: represents its own unique tag that excludes all preceding rows and following entries
     # 3rd column: represents any of the tags that follow the entry in the middle column of that row
@@ -517,7 +518,7 @@ declension_templates = \
 
 case_annotation = RowAnnotation(['flag','motion','role','case','adposition'])
 case_population = FlatLookupPopulation(
-    DictLookup('declension-use-case-to-grammatical-case', 
+    DictLookup('usage-case-to-grammatical-case', 
         DictTupleIndexing(['motion','role'])),
     MultiKeyEvaluation(['case','adposition'])
 )
@@ -632,7 +633,7 @@ class EnglishListSubstitution:
         }.get(formality, '')
         return [tree, 
             gender_marker if 'show-gender' in memory and memory['show-gender'] else '', 
-            formality_marker] if nounform in 'personal' else tree
+            formality_marker] if nounform == 'personal' else tree
 
 
 list_tools = ListTools()
@@ -660,7 +661,7 @@ english = Writing(
             ]),
             case_population.index(
                 case_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/declension-use-case-to-grammatical-case.tsv'))),
+                    tsv_parsing.rows('data/inflection/english/modern/usage-case-to-grammatical-case.tsv'))),
             {'language-type':'native'},
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
@@ -674,7 +675,7 @@ english = Writing(
             {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
             {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
             {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
-            {'n': english_list_substitution.formality_and_gender}, # English needs context to indicate some of the formality and gender of other languages
+            {'n': english_list_substitution.formality_and_gender}, # English needs annotations to clarify the formalities and genders of other languages
         ]
     )
 )
@@ -709,3 +710,4 @@ tag_defaults = {
     'tense':      'present', 
     'voice':      'active',
 }
+
