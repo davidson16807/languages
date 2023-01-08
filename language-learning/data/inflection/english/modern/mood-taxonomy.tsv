@@ -1,50 +1,62 @@
 mood	explanation																
-indicative		statement-of-fact	confirmed														
-admirative	Event is genuinely surprising or amazing	statement-of-fact	confirmed	counterfactual													
-admirative	Event is genuinely surprising or amazing	statement-of-fact	confirmed	improbable													
-ironic-admirative	Event is stated in irony as surprising or amazing	statement-of-fact	confirmed	probable													
-hypothetical	Event is hypothetical, or it is counterfactual, but possible.	statement-of-probability	unconfirmed	counterfactual													
-dubitative	Event is uncertain, doubtful, dubious.	statement-of-probability	unconfirmed	improbable													
-potential	Event is able to be done by the subject	statement-of-probability	unconfirmed	possible													
-probable	Event is probable or considered likely.	statement-of-probability	unconfirmed	probable													
-inferential	Event is nonwitnessed, and not confirmed.	statement-of-probability	unconfirmed														
-desiderative	Event is desired/wished by the subject	statement-of-probability	unconfirmed		wanted												
-subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement-of-inference	unconfirmed	counterfactual		antecedant											
-subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement-of-inference	unconfirmed	improbable		antecedant											
-conditional	Event depends upon another condition.	statement-of-inference	unconfirmed			consequent											
-eventitive	Event is likely but depends upon a condition. 	statement-of-inference	unconfirmed	probable		consequent											
-optative	Event is hoped, expected, or awaited.	statement-of-intent	unconfirmed				wanted										
-volitive	Event is desired, wished or feared by the speaker.	statement-of-intent	unconfirmed				wanted/unwanted										
-involutive	Event is feared by the speaker.	statement-of-intent	unconfirmed				unwanted										
-necessitative	Event is necessary, or it is both desired and encouraged. 	statement-of-intent	unconfirmed				needed										
-injunctive	Event is intended by the speaker	defer-to-subject	unconfirmed	probable			wanted										
-permissive	Event is permitted by the speaker.	defer-to-subject	unconfirmed				wanted										
-benedictive	Event is blessed by the speaker	request-action	unconfirmed				wanted	emphatic	supernatural								
-imperative	Event is directly ordered or requested by the speaker.	request-action	unconfirmed				wanted	emphatic	lower								
-prohibitive	Event is directly prohibited by the speaker.	request-action	unconfirmed				unwanted	emphatic	lower								
-jussive	Event is pleaded, implored or asked.	request-action	unconfirmed				wanted	emphatic	unspecified								
-hortative	Event is exhorted, implored, insisted or encouraged by speaker.	request-action	unconfirmed				wanted	encouraging	unspecified								
-precative	Event is requested by the speaker.	request-action	unconfirmed				wanted	dispassionate	unspecified								
-interrogative	Event is queried by the speaker, asking for response	request-answer	unconfirmed														
-propositive	Event is proposed by the speaker, asking for consideration	request-consideration	unconfirmed														
-deliberative	Event is considered by the speaker, asking for confirmation	request-confirmation	unconfirmed														
-comissive	Event is committed to by the speaker, such as by promise or threat	guarantee	unconfirmed														
-presumptive	Event is assumed, presupposed by the speaker.	presuppose	unconfirmed														
-suggestive	Event is proposed by the speaker	propose	unconfirmed														
+indicative		statement	visual														
+indicative		statement	nonvisual														
+indicative		statement	circumstantial														
+indicative		statement	hearsay														
+indicative		statement	uncorroborated														
+admirative	Event is genuinely surprising or amazing	statement															
+admirative	Event is genuinely surprising or amazing	statement															
+ironic-admirative	Event is stated in irony as surprising or amazing	statement															
+hypothetical	Event is hypothetical, or it is counterfactual, but possible.	statement															
+dubitative	Event is uncertain, doubtful, dubious.	statement															
+potential	Event is able to be done by the subject	statement															
+probable	Event is probable or considered likely.	statement															
+inferential	Event is nonwitnessed, and not confirmed.	statement	secondhand														
+inferential	Event is nonwitnessed, and not confirmed.	statement	thirdhand														
+comissive	Event is committed to by the speaker, such as by promise or threat	statement	promise														
+presumptive	Event is assumed, presupposed by the speaker.	statement	presumption														
+suggestive	Event is proposed by the speaker	statement	supposition														
+desiderative	Event is desired/wished by the subject	statement				wanted											
+subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement-of-inference		antecedant													
+subjunctive	Event is considered unlikely (mainly used in dependent clauses)	statement-of-inference		antecedant													
+conditional	Event depends upon another condition.	statement-of-inference		consequent													
+eventitive	Event is likely but depends upon a condition. 	statement-of-inference		consequent													
+optative	Event is hoped, expected, or awaited.	statement-of-intent					wanted										
+volitive	Event is desired, wished or feared by the speaker.	statement-of-intent					wanted/unwanted										
+involutive	Event is feared by the speaker.	statement-of-intent					unwanted										
+necessitative	Event is necessary, or it is both desired and encouraged. 	statement-of-intent					needed										
+injunctive	Event is intended by the speaker	defer-to-subject					wanted										
+permissive	Event is permitted by the speaker.	defer-to-subject					wanted										
+benedictive	Event is blessed by the speaker	request-action					wanted	emphatic	supernatural								
+imperative	Event is directly ordered or requested by the speaker.	request-action					wanted	emphatic	lower								
+prohibitive	Event is directly prohibited by the speaker.	request-action					unwanted	emphatic	lower								
+jussive	Event is pleaded, implored or asked.	request-action					wanted	emphatic	unspecified								
+hortative	Event is exhorted, implored, insisted or encouraged by speaker.	request-action					wanted	encouraging	unspecified								
+precative	Event is requested by the speaker.	request-action					wanted	dispassionate	unspecified								
+interrogative	Event is queried by the speaker, asking for response	request-answer															
+propositive	Event is proposed by the speaker, asking for consideration	request-consideration															
+deliberative	Event is considered by the speaker, asking for confirmation	request-confirmation															
 																	
 																	
-		actspe	c	mesub	mosub	i	mospe	emspe	powad								
-		speaker-action	confirmation	subject-means	subject-motive	implication-position	speaker-motive	speaker-emphasis	addressee-power								
+		actspe	e	i	mesub	mosub	mospe	emph	power								
+		speaker-action	evidentiality	implication-position	subject-means	subject-motive	speaker-motive	speaker-emphasis	addressee-power								
 																	
-	mosub	statement-of-fact	confirmed	counterfactual	need	antecedant	needed	emphatic	supernatural								
-	mesub	statement-of-probability	unconfirmed	improbable	wanted	consequent	wanted	encouraging	lower								
-	i*mesub	statement-of-inference		possible	unwanted		unwanted	dispassionate	unspecified								
-	mospe	statement-of-intent		probable													
-	mesub	defer-to-subject															
-	mospe*emspe*powad	request-action															
-	1	request-answer															
-	1	request-consideration															
-	1	request-confirmation															
-	1	guarantee															
-	1	presuppose															
-	1	propose															
+	mosub	statement	visual	antecedant	probable	needed	needed	emphatic	supernatural								
+	mesub	aspiration	nonvisual	consequent	potential	wanted	wanted	encouraging	lower								
+	i*mesub	deferral	circumstantial	positive	improbable	unwanted	unwanted	dispassionate	unspecified								
+	mospe	request	secondhand	negative													
+	mesub	query	thirdhand														
+	mospe*emspe*powad	proposal	promised														
+	1	request-confirmation	accepted														
+	1		presumed														
+	1		supposed														
+			counterfactual														
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	

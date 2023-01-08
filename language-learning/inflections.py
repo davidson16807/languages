@@ -28,42 +28,30 @@ from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGenerati
 tagaxis_to_tags = {
 
     # needed to lookup the argument that is used to demonstrate a verb
-    'language-type':   ['native', 'foreign'], 
+    'language-type':  'native foreign'.split(), 
 
-    'plicity': ['implicit', 'explicit'],
+    'plicity': 'implicit explicit'.split(),
 
-    'script':[
+    'script': 
         # scripts that were derived from the phoenecian alphabet:
-        'latin','cyrillic','greek','hebrew','arabic','phoenician','ipa',
-        # scripts that were invented, borrowing aesthetics from chinese logograms:
-        'hirigana','katakana','hangul',
+        'latin cyrillic greek hebrew arabic phoenician ipa '
+        # scripts that were derived, borrowing aesthetics from chinese logograms:
+        'hirigana katakana hangul '
         # scripts that were derived from chinese logograms:
-        'traditional han','simplified han','kanji','hanja','chữ hán','chữ nôm',
-        # scripts that were derived from the brahmic abugida:
-        'devanagari','bengali','gujarati','gurmukhi','oria','tibetan',
-        'simhala','malayalam','tamil','telugu','kannada',
-        'burmese','khmer','thai','lao','balinese','javanese','sundanese','brahmic',
+        'traditional-han simplified-han kanji hanja chữ-hán chữ-nôm '
+        'devanagari bengali gujarati gurmukhi oria tibetan '
+        'simhala malayalam tamil telugu kannada '
+        'burmese khmer thai lao balinese javanese sudanese brahmic '
         # scripts that were derived from egyptian heiroglyphs:
-        'coptic','meroitic','demotic','hieratic',
+        'coptic meroitic demotic hieratic '
         # broad categories of script to handle niche applications:
-        'runes','heiroglyphs','cuneiform','emoji'],
+        'runes heiroglyphs cuneiform emoji'.split(),
 
     # needed for infinitives in Old English and Swedish
-
-    # needed for infinitives in Old English and Swedish
-    'completion': ['full', 'bare'],
-
-    # needed for Sinhalese
-    'definiteness':   ['definite', 'indefinite'],
-
-    # needed for Sinhalese
-    'volition':   ['volitive', 'involitive'],
-
-    # needed for K'iche' Mayan
-    'transitivity':['transitive', 'intransitive'],
+    'completion': 'full bare'.split(),
 
     # needed for Old English
-    'strength':   ['strong', 'weak'],
+    'strength':   'strong weak'.split(),
 
     # needed for finite forms
     'person':     ['1','2','3'],
@@ -79,6 +67,21 @@ tagaxis_to_tags = {
                    'suggestive', 'comissive', 'deliberative', 
                    'propositive', 'potential', 
                   ],
+
+    # NOTE: "evidentiality", "logic", "probability", etc. form what is known as the "usage mood".
+    # The "usage mood" is an instance of a broader concept that we refer to as "seme".
+    # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
+    #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
+    # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage mood", etc.
+    # See README.txt and GLOSSARY.tsv for more information on these and related terms.
+    'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
+    'logic':            'antecedant consequent positive negative'.split(),
+    'probability':      'probable potential improbable'.split(),
+    'subject-motive':   'needed wanted unwanted'.split(),
+    'speaker-motive':   'needed wanted unwanted'.split(),
+    'speaker-emphasis': 'emphatic encouraging dispassionate'.split(),
+    'speaker-action':   'statement aspiration deferral request query proposal verification'.split(),
+    'addressee-power':  'supernatural lower unspecified'.split(),
 
     # needed for Spanish
     'formality':  ['familiar', 'polite', 'elevated', 'formal', 'tuteo', 'voseo'],
@@ -121,12 +124,17 @@ tagaxis_to_tags = {
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
 
     # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
-    #   In our analysis, semantic role forms one part of what is referred to here as "use case" 
-    #    (the other part is referred to as "motion", which is defined below).
-    #   Each language has a unique map from use case to the grammatical case, 
+    #   In our analysis, the "role" forms one part of what is referred to here as "usage case".
+    #    The other part of usage case is referred to as "motion", which is defined below.
+    #   Each language has a unique map from usage case to grammatical case, 
     #    and it is grammatical case that language learners are typically most familiar with (e.g. nominative, ablative, etc.)
     #   Semantic roles are also categorized into "macroroles" (i.e. subject, direct-object, indirect-object, modifier) 
     #    and it is the macrorole that determines how noun phrases should be ordered within a clause.
+    #   The "usage case" is an instance of a broader concept that we refer to as "seme".
+    #   A "seme" is simply the domain of any map "seme→tag" that creates distinction 
+    #    between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
+    #   The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage mood", etc.
+    #   See README.txt and GLOSSARY.tsv for more information on these and related terms.
     'role': [
         'solitary', # the subject of an intransitive verb
         'agent',    # the subject of a transitive verb
@@ -557,9 +565,11 @@ class EnglishListSubstitution:
             'jussive':      ['indicative', 'should', 'infinitive', tree],
             'eventitive':   ['indicative', 'likely', 'infinitive', tree],
             'hypothetical': ['indicative', 'might', 'infinitive', tree],
+            'desiderative': ['indicative', ['v','want'], 'to', 'infinitive', tree],
             'necessitative':['indicative', ['v','need'], 'to', 'infinitive', tree],
             'potential':    ['indicative', ['v','be able'], 'to', 'infinitive', tree],
-            # NOTE: the following are nice ideas, but can be misinterpreted as supposition, and not command:
+            # NOTE: the following are nice ideas, but can be misinterpreted as supposition, 
+            # and are superfluous if other markers are added to disambiguate:
             # 'imperative':   ['indicative', 'must', 'infinitive', tree],
             # 'prohibitive':  ['indicative', 'must', 'not', 'infinitive', tree],
         }
