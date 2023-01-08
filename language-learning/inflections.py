@@ -54,9 +54,9 @@ tagaxis_to_tags = {
     'strength':   'strong weak'.split(),
 
     # needed for finite forms
-    'person':     ['1','2','3'],
-    'number':     ['singular', 'dual', 'trial', 'paucal', 'plural', 'superplural'],
-    'clusivity':  ['inclusive', 'exclusive'],
+    'person':     '1 2 3'.split(),
+    'number':     'singular dual trial paucal plural superplural'.split(),
+    'clusivity':  'inclusive exclusive'.split(),
     'mood':       ['indicative', 'subjunctive', 'conditional', 
                    'optative', 'benedictive', 'jussive', 'probable', 
                    'imperative', 'prohibitive', 'desiderative', 
@@ -76,16 +76,15 @@ tagaxis_to_tags = {
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
     'logic':            'antecedant consequent positive negative'.split(),
-    'probability':      'probable potential improbable'.split(),
-    'subject-motive':   'needed wanted unwanted'.split(),
-    'speaker-motive':   'needed wanted unwanted'.split(),
+    'probability':      'probable potential improbable aprobable'.split(),
+    'subject-motive':   'subject-needed subject-wanted subject-unwanted'.split(),
+    'speaker-motive':   'speaker-needed speaker-wanted speaker-unwanted'.split(),
     'speaker-emphasis': 'emphatic encouraging dispassionate'.split(),
     'speaker-action':   'statement aspiration deferral request query proposal verification'.split(),
-    'addressee-power':  'supernatural lower unspecified'.split(),
-
+    'addressee-power':  'supernatural lower apotent'.split(),
 
     # needed for Spanish
-    'formality':  ['familiar', 'polite', 'elevated', 'formal', 'tuteo', 'voseo'],
+    'formality':  'familiar polite elevated formal tuteo voseo'.split(),
 
     # "animacy" is ordered as follows:
     # 1st column: represents any of the tags that precede the entry in the middle column of that row
@@ -100,22 +99,22 @@ tagaxis_to_tags = {
                    'living',   'plant',         'nonliving',   # able to grow and reproduce
                    'concrete', 'manifestation', 'abstract',    # able to take physical form
                    'thing'],
-    'partitivity':['nonpartitive', 'partitive', 'bipartitive'],
-    'clitic':     ['tonic', 'proclitic', 'mesoclitic', 'endoclitic', 'enclitic'],
-    'distance':   ['proximal','medial','distal'],
+    'partitivity':'nonpartitive partitive bipartitive'.split(),
+    'clitic':     'tonic proclitic mesoclitic endoclitic enclitic'.split(),
+    'distance':   'proximal medial distal'.split(),
 
     # needed for possessive pronouns
-    'possessor-person':    ['1st-possessor', '2nd-possessor', '3rd-possessor'],
-    'possessor-number':    ['singular-possessor', 'dual-possessor', 'plural-possessor'],
-    'possessor-gender':    ['masculine-possessor', 'feminine-possessor', 'neuter-possessor'],
-    'possessor-clusivity': ['inclusive-possessor', 'exclusive-possessor'],
-    'possessor-formality': ['familiar-possessor', 'polite-possessor', 'elevated-possessor', 'formal-possessor', 'tuteo-possessor', 'voseo-possessor'],
+    'possessor-person':    '1st-possessor 2nd-possessor 3rd-possessor'.split(),
+    'possessor-number':    'singular-possessor dual-possessor plural-possessor'.split(),
+    'possessor-gender':    'masculine-possessor feminine-possessor neuter-possessor'.split(),
+    'possessor-clusivity': 'inclusive-possessor exclusive-possessor'.split(),
+    'possessor-formality': 'familiar-possessor polite-possessor elevated-possessor formal-possessor tuteo-possessor voseo-possessor'.split(),
 
     # needed for Sanskrit and Japanese
-    'stem':       ['primary', 'causative', 'intensive',],
+    'stem':       'primary causative intensive'.split(),
 
     # needed for gerunds, supines, participles, and gerundives
-    'gender':     ['masculine', 'feminine', 'neuter'],
+    'gender':     'masculine feminine neuter'.split(),
     'case':       ['nominative', 'ergative',
                    'oblique', 'accusative', 'absolutive', 
                    'genitive', 'dative', 'ablative', 'locative', 'instrumental', 'vocative', 
@@ -147,21 +146,21 @@ tagaxis_to_tags = {
     # NOTE: "motion" is introduced here as a grammatical tagaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'motion': ['departed', 'associated', 'acquired', 'leveraged'],
+    'motion': 'departed associated acquired leveraged'.split(),
 
     # needed for infinitive forms, finite forms, participles, arguments, and graphic depictions
-    'voice':      ['active', 'passive', 'middle'], 
+    'voice':      'active passive middle'.split(), 
 
     # needed for infinitive forms, finite forms, and participles
-    'tense':      ['present', 'past', 'future',], 
-    'aspect':     ['aorist', 'imperfect', 'perfect', 'perfect-progressive'], 
+    'tense':      'present past future'.split(), 
+    'aspect':     'aorist imperfect perfect perfect-progressive'.split(), 
 
     # needed for correlatives in general
     'abstraction':['institution','location','origin',
                    'destination','time','manner','reason','quality','amount'],
 
     # needed for quantifiers/correlatives
-    'quantity':   ['universal', 'negative', 'assertive', 'elective'],
+    'quantity':   'universal nonexistential assertive elective'.split(),
 
     # needed to distinguish pronouns from common nouns and to further distinguish types of pronouns
     'noun-form':  ['common', 'personal', 
