@@ -1,122 +1,183 @@
-*	*	*	*	*	nominative	oblique	genitive	
-personal	1	singular		masculine	I♂	me♂	mine♂	
-personal	1	singular		feminine	I♀	me♀	mine♀	
-personal	1	singular		neuter	I	me	mine	
-personal	2	singular	familiar	masculine	you♂	you♂	yours♂	
-personal	2	singular	familiar	feminine	you♀	you♀	yours♀	
-personal	2	singular	familiar	neuter	you	you	yours	
-personal	2	singular	polite	masculine	you♂ [politely]	you♂ [politely]	yours♂ [politely]	
-personal	2	singular	polite	feminine	you♀ [politely]	you♀ [politely]	yours♀ [politely]	
-personal	2	singular	polite	neuter	you [politely]	you [politely]	yours [politely]	
-personal	2	singular	elevated	masculine	you♂ [elevated]	you♂ [elevated]	yours♂ [elevated]	
-personal	2	singular	elevated	feminine	you♀ [elevated]	you♀ [elevated]	yours♀ [elevated]	
-personal	2	singular	elevated	neuter	you [elevated]	you [elevated]	yours [elevated]	
-personal	2	singular	formal	masculine	you [sir]	you [sir]	yours [sir]	
-personal	2	singular	formal	feminine	you [ma'am]	you [ma'am]	yours [ma'am]	
-personal	2	singular	formal	neuter	you [respectfully]	you [respectfully]	yours [respectfully]	
-personal	2	singular	tuteo		you	you	yours	
-personal	2	singular	voseo		you [voseo]	you [voseo]	yours [voseo]	
-personal	3	singular		masculine	he	him	his	
-personal	3	singular		feminine	she	her	hers	
-personal	3	singular		neuter	it	it	it	
-personal	1	dual		masculine	we both♂	us both♂	both of ours♂	
-personal	1	dual		feminine	we both♀	us both♀	both of ours♀	
-personal	1	dual		neuter	we both	us both	both of ours	
-personal	2	dual	familiar	masculine	you both♂	you both♂	both of yours♂	
-personal	2	dual	familiar	feminine	you both♀	you both♀	both of yours♀	
-personal	2	dual	familiar	neuter	you both	you both	both of yours	
-personal	2	dual	polite	masculine	both you♂ [politely]	you both♂ [politely]	both of yours♂ [politely]	
-personal	2	dual	polite	feminine	both you♀ [politely]	you both♀ [politely]	both of yours♀ [politely]	
-personal	2	dual	polite	neuter	both you [politely]	you both [politely]	both of yours [politely]	
-personal	2	dual	elevated	masculine	both you♂ [elevated]	you both♂ [elevated]	both of yours♂ [elevated]	
-personal	2	dual	elevated	feminine	both you♀ [elevated]	you both♀ [elevated]	both of yours♀ [elevated]	
-personal	2	dual	elevated	neuter	both you [elevated]	you both [elevated]	both of yours [elevated]	
-personal	2	dual	formal	masculine	both you [gentlemen]	you both [gentlemen]	both of yours [gentlemen]	
-personal	2	dual	formal	feminine	both you [ladies]	you both [ladies]	both of yours [ladies]	
-personal	2	dual	formal	neuter	both you [respectfully]	you both [respectfully]	both of yours [respectfully]	
-personal	3	dual		masculine	they♂ both	them♂ both	both of theirs♂	
-personal	3	dual		feminine	they♀ both	them♀ both	both theirs♀	
-personal	3	dual		neuter	they both	them both	both theirs	
-personal	1	plural		masculine	we♂	us♂	ours♂	
-personal	1	plural		feminine	we♀	us♀	ours♀	
-personal	1	plural		neuter	we	us	ours	
-personal	2	plural	familiar	masculine	you all♂	you all♂	all of yours♂	
-personal	2	plural	familiar	feminine	you all♀	you all♀	all of yours♀	
-personal	2	plural	familiar	neuter	you all	you all	all of yours	
-personal	2	plural	polite	masculine	all you♂ [politely]	you all♂ [politely]	all of yours♂ [politely]	
-personal	2	plural	polite	feminine	all you♀ [politely]	you all♀ [politely]	all of yours♀ [politely]	
-personal	2	plural	polite	neuter	all you [politely]	you all [politely]	all of yours [politely]	
-personal	2	plural	elevated	masculine	all you♂ [elevated]	you all♂ [elevated]	all of yours♂ [elevated]	
-personal	2	plural	elevated	feminine	all you♀ [elevated]	you all♀ [elevated]	all of yours♀ [elevated]	
-personal	2	plural	elevated	neuter	all you [elevated]	you all [elevated]	all of yours [elevated]	
-personal	2	plural	formal	masculine	all you [gentlemen]	all of you [gentlemen]	all of yours [gentlemen]	
-personal	2	plural	formal	feminine	all you [ladies]	all of you [ladies]	all of yours [ladies]	
-personal	2	plural	formal	neuter	all you [respectfully]	all of you [respectfully]	all of yours [respectfully]	
-personal	3	plural		masculine	they♂	them♂	theirs♂	
-personal	3	plural		feminine	they♀	them♀	theirs♀	
-personal	3	plural		neuter	they	them	theirs	
-reflexive	1	singular		masculine		myself♂	my own♂	
-reflexive	1	singular		feminine		myself♀	my own♀	
-reflexive	1	singular		neuter		myself	my own	
-reflexive	2	singular	familiar	masculine		you♂	your own♂	
-reflexive	2	singular	familiar	feminine		you♀	your own♀	
-reflexive	2	singular	familiar	neuter		you	your own	
-reflexive	2	singular	polite	masculine		yourself♂ [politely]	your own♂ [politely]	
-reflexive	2	singular	polite	feminine		yourself♀ [politely]	your own♀ [politely]	
-reflexive	2	singular	polite	neuter		yourself [politely]	your own [politely]	
-reflexive	2	singular	elevated	masculine		yourself♂ [elevated]	your own♂ [elevated]	
-reflexive	2	singular	elevated	feminine		yourself♀ [elevated]	your own♀ [elevated]	
-reflexive	2	singular	elevated	neuter		yourself [elevated]	your own [elevated]	
-reflexive	2	singular	formal	masculine		yourself [sir]	your own [sir]	
-reflexive	2	singular	formal	feminine		yourself [ma'am]	your own [ma'am]	
-reflexive	2	singular	formal	neuter		yourself [respectfully]	your own [respectfully]	
-reflexive	2	singular	tuteo			yourself	your own	
-reflexive	2	singular	voseo			yourself [voseo]	your own [voseo]	
-reflexive	3	singular		masculine		himself	his own	
-reflexive	3	singular		feminine		herself	her own	
-reflexive	3	singular		neuter		itself	its own	
-reflexive	1	dual		masculine		both ourselves♂	both of our own♂	
-reflexive	1	dual		feminine		both ourselves♀	both of our own♀	
-reflexive	1	dual		neuter		both ourselves	both of our own	
-reflexive	2	dual	familiar	masculine		both yourselves♂	both of your own♂	
-reflexive	2	dual	familiar	feminine		both yourselves♀	both of your own♀	
-reflexive	2	dual	familiar	neuter		both yourselves	both of your own	
-reflexive	2	dual	polite	masculine		both yourselves♂ [politely]	both of your own♂ [politely]	
-reflexive	2	dual	polite	feminine		both yourselves♀ [politely]	both of your own♀ [politely]	
-reflexive	2	dual	polite	neuter		both yourselves [politely]	both of your own [politely]	
-reflexive	2	dual	elevated	masculine		both yourselves♂ [elevated]	both of your own♂ [elevated]	
-reflexive	2	dual	elevated	feminine		both yourselves♀ [elevated]	both of your own♀ [elevated]	
-reflexive	2	dual	elevated	neuter		both yourselves [elevated]	both of your own [elevated]	
-reflexive	2	dual	formal	masculine		both yourselves [gentlemen]	both of your own [gentlemen]	
-reflexive	2	dual	formal	feminine		both yourselves [ladies]	both of your own [ladies]	
-reflexive	2	dual	formal	neuter		both yourselves [respectfully]	both of your own [respectfully]	
-reflexive	3	dual		masculine		both themselves♂	both of their own♂	
-reflexive	3	dual		feminine		both themselves♀	both their own♀	
-reflexive	3	dual		neuter		both themselves	both their own	
-reflexive	1	plural		masculine		ourselves♂	our own♂	
-reflexive	1	plural		feminine		ourselves♀	our own♀	
-reflexive	1	plural		neuter		ourselves	our own	
-reflexive	2	plural	familiar	masculine		all yourselves♂	all of your own♂	
-reflexive	2	plural	familiar	feminine		all yourselves♀	all of your own♀	
-reflexive	2	plural	familiar	neuter		all yourselves	all of your own	
-reflexive	2	plural	polite	masculine		all yourselves♂ [politely]	all of your own♂ [politely]	
-reflexive	2	plural	polite	feminine		all yourselves♀ [politely]	all of your own♀ [politely]	
-reflexive	2	plural	polite	neuter		all yourselves [politely]	all of your own [politely]	
-reflexive	2	plural	elevated	masculine		all yourselves♂ [elevated]	all of your own♂ [elevated]	
-reflexive	2	plural	elevated	feminine		all yourselves♀ [elevated]	all of your own♀ [elevated]	
-reflexive	2	plural	elevated	neuter		all yourselves [elevated]	all of your own [elevated]	
-reflexive	2	plural	formal	masculine		all of yourselves [gentlemen]	all of your own [gentlemen]	
-reflexive	2	plural	formal	feminine		all of yourselves [ladies]	all of your own [ladies]	
-reflexive	2	plural	formal	neuter		all of yourselves [respectfully]	all of your own [respectfully]	
-reflexive	3	plural		masculine		themselves♂	their own♂	
-reflexive	3	plural		feminine		themselves♀	their own♀	
-reflexive	3	plural		neuter		themselves	their own	
-interrogative	1	singular		masculine	who♂	whom♂	whose♂	
-interrogative	1	singular		feminine	who♀	whom♀	whose♀	
-interrogative	1	singular		neuter	who	whom	whose	
-interrogative	1	dual		masculine	who both♂	whom both♂	both of whose♂	
-interrogative	1	dual		feminine	who both♀	whom both♀	both of whose♀	
-interrogative	1	dual		neuter	who both	whom both	both of whose	
-interrogative	1	plural		masculine	who all♂	whom all♂	whose all♂	
-interrogative	1	plural		feminine	who all♀	whom all♀	whose all♀	
-interrogative	1	plural		neuter	who all	whom all	whose all	
+*	*	*	*	nominative	oblique	#	"""is X"" genitive"									
+personal	1	singular		I	me	#	mine									
+personal	2	singular		you	you	#	yours									
+personal	3	singular	masculine	he	him	#	his									
+personal	3	singular	feminine	she	her	#	hers									
+personal	3	singular	neuter	it	it	#	it									
+personal	1	dual		we both	us both	#	both of ours									
+personal	2	dual		you two	both of you	#	both of yours									
+personal	3	dual		they both	them both	#	both of theirs									
+personal	1	trial		we three	us three	#	the three of us									
+personal	2	trial		you three	the few of you	#	the few of you									
+personal	3	trial		the three of them	the three of them	#	the few of them									
+personal	1	paucal		we few	us few	#	the few of us									
+personal	2	paucal		you few	the few of you	#	the few of you									
+personal	3	paucal		the few of them	the few of them	#	the few of them									
+personal	1	plural		we	us	#	ours									
+personal	2	plural		all you	all of you	#	all of yours									
+personal	3	plural		they	them	#	theirs									
+personal	1	superplural		the lot of us	the lot of us	#	the lot of us									
+personal	2	superplural		the lot of you	the lot of you	#	the few of you									
+personal	3	superplural		the lot of them	the lot of them	#	the lot of them									
+reflexive	1	singular			myself	#	my own									
+reflexive	2	singular			yourself	#	your own									
+reflexive	3	singular	masculine		himself	#	his own									
+reflexive	3	singular	feminine		herself	#	her own									
+reflexive	3	singular	neuter		itself	#	its own									
+reflexive	1	dual			both ourselves	#	both of our own									
+reflexive	2	dual			both yourselves	#	both of your own									
+reflexive	3	dual			both themselves	#	both of their own									
+reflexive	1	trial			the three of ourselves											
+reflexive	2	trial			the three of yourselves											
+reflexive	3	trial			the three of themselves											
+reflexive	1	paucal			the few of ourselves											
+reflexive	2	paucal			the few of yourselves											
+reflexive	3	paucal			the few of themselves											
+reflexive	1	plural			ourselves	#	our own									
+reflexive	2	plural			all yourselves	#	all of your own									
+reflexive	3	plural			themselves	#	their own									
+reflexive	1	superplural			the lot of ourselves											
+reflexive	2	superplural			the lot of ourselves											
+reflexive	3	superplural			the lot of ourselves											
+interrogative	1	singular		who	whom	#	whose									
+interrogative	1	dual		which two	which two	#	which two's									
+interrogative	1	trial		which three	which three	#	which three's									
+interrogative	1	paucal		which few	which few	#	which few's									
+interrogative	1	plural		who all	whom all	#	whose all									
+interrogative	1	superplural		which lot	which lot	#	which lot's									
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																

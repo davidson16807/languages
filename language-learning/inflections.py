@@ -553,16 +553,15 @@ class EnglishListSubstitution:
         '''creates auxillary verb phrases when necessary to express mood'''
         mood = memory['mood']
         lookup = {
-            'imperative':   ['must', 'indicative', 'infinitive', tree],
-            'prohibitive':  ['must', 'not', 'indicative', 'infinitive', tree],
-            'subjunctive':  ['would', 'indicative', 'infinitive', tree],
-            'conditional':  ['would', 'indicative', 'infinitive', tree],
-            'jussive':      ['should', 'indicative', 'infinitive', tree],
-            'probable':     ['likely', 'indicative', 'infinitive', tree],
-            'eventitive':   ['likely', 'indicative', 'infinitive', tree],
-            'hypothetical': ['might', 'indicative', 'infinitive', tree],
-            'necessitative':[['v','need'], 'to', 'indicative', 'infinitive', tree],
-            'potential':    [['v','be able'], 'to', 'indicative', 'infinitive', tree],
+            'conditional':  ['indicative', 'would', 'infinitive', tree],
+            'jussive':      ['indicative', 'should', 'infinitive', tree],
+            'eventitive':   ['indicative', 'likely', 'infinitive', tree],
+            'hypothetical': ['indicative', 'might', 'infinitive', tree],
+            'necessitative':['indicative', ['v','need'], 'to', 'infinitive', tree],
+            'potential':    ['indicative', ['v','be able'], 'to', 'infinitive', tree],
+            # NOTE: the following are nice ideas, but can be misinterpreted as supposition, and not command:
+            # 'imperative':   ['indicative', 'must', 'infinitive', tree],
+            # 'prohibitive':  ['indicative', 'must', 'not', 'infinitive', tree],
         }
         return tree if mood not in lookup else lookup[mood]
     def tense(self, machine, tree, memory):
@@ -587,6 +586,43 @@ class EnglishListSubstitution:
         if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfect', tree]]
         if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfect', tree]]
         return tree
+    def formality_and_gender(self, machine, tree, memory):
+        '''creates pronouns procedurally when necessary to capture distinctions in formality from other languages'''
+        formality = memory['formality']
+        gender = memory['gender']
+        person = memory['person']
+        number = memory['number']
+        nounform = memory['noun-form']
+        nonsingular_3rd_gender_marker = {
+            'masculine': '♂',
+            'feminine': "♀",
+            'neuter': "⚲",
+        }
+        formal_singular_gender_marker = {
+            'masculine': '[sir]',
+            'feminine': "[ma'am]",
+            'neuter': "[respectfully]",
+        }
+        formal_nonsingular_gender_marker = {
+            'masculine': '[gentlemen]',
+            'feminine': "[ladies]",
+            'neuter': "[respectfully]",
+        }
+        gender_marker = {
+            ('3','singular'): {
+                'formal': {
+                    'singular': formal_singular_gender_marker[gender]
+                }.get(number, formal_nonsingular_gender_marker[gender])
+            }.get(formality, nonsingular_3rd_gender_marker[gender])
+        }.get((person, number), '')
+        formality_marker = {
+            'polite': '[politely]',
+            'elevated': '[elevated]',
+            'voseo': '[voseo]',
+        }.get(formality, '')
+        return [tree, 
+            gender_marker if 'show-gender' in memory and memory['show-gender'] else '', 
+            formality_marker] if nounform in 'personal' else tree
 
 
 list_tools = ListTools()
@@ -628,6 +664,7 @@ english = Writing(
             {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
             {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
             {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
+            {'n': english_list_substitution.formality_and_gender}, # English needs context to indicate some of the formality and gender of other languages
         ]
     )
 )

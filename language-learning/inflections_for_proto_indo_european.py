@@ -119,7 +119,6 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
                     ('3', 'plural',   'masculine'),
                 })
             ],
-        native_map=replace([('♂',''),('♀','')]), 
         persons = persons,
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
         foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
@@ -203,7 +202,6 @@ write('flashcards/proto-indo-european/pronoun-declension.html',
             'test'       : {'noun-form':'personal'},
             'emoji'      : {'noun-form':'personal'},
         },
-        native_map=replace([('you♀','you'),('you all♀','you all')]), 
         persons = persons,
         substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
@@ -364,7 +362,6 @@ write('flashcards/proto-indo-european/pronoun-possessives.html',
             'emoji'      : {'person':'4'},
         },
         persons = persons,
-        native_map=replace([('your♀','your'),('you all♀','you all')]), 
         substitutions = [
             {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])}
         ],

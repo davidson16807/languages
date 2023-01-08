@@ -37,6 +37,7 @@ class Language:
             'a':   self.tools.replace(['det', 'a']),
         }
         tag_opcodes = {
+            'informal':   {'formality': 'informal'},
             'indicative': {'mood': 'indicative'},
             'perfect':    {'aspect': 'perfect'},
             'imperfect':  {'aspect': 'imperfect'},

@@ -47,7 +47,6 @@ class CardGeneration:
             native_tree,
             filter_lookups=[], 
             substitutions = [],
-            native_map=lambda x:x,
             persons=[],
         ):
         for tuplekey in traversal.tuplekeys(tagspace):
@@ -56,6 +55,7 @@ class CardGeneration:
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
+                voice_prephrase = '[middle voice:]' if test_tags['voice'] == 'middle' else ''
                 mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
                 mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
                 test_seme = {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}}
@@ -91,7 +91,7 @@ class CardGeneration:
                 if foreign_text and emoji_key in foreign_language_script.language.grammar.conjugation_lookups['infinitive']:
                     emoji_argument  = foreign_language_script.language.grammar.conjugation_lookups['infinitive'][emoji_key]
                     emoji_text      = self.emoji.conjugate(test_tags, emoji_argument, persons)
-                    native_text    = ''.join([mood_prephrase, ' ', native_map(native_text), mood_postphrase]).replace('∅','')
+                    native_text    = ' '.join([voice_prephrase, mood_prephrase, native_text, mood_postphrase]).replace('∅','')
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.native_word(native_text),
@@ -105,7 +105,6 @@ class CardGeneration:
             nouns_to_depictions={},
             substitutions = [],
             tag_templates={},
-            native_map=lambda x:x,
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = traversal.dictkey(tuplekey)
@@ -152,12 +151,13 @@ class CardGeneration:
                         'script': 'emoji'
                     }
                     emoji_text   = self.emoji.decline(emoji_key, match['emoji'], persons)
+                    voice_prephrase = '[middle voice:]' if test_tags['voice'] == 'middle' else ''
                     mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
                     mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
-                    native_text = ''.join([mood_prephrase, ' ', native_map(native_text), mood_postphrase]).replace('∅','')
+                    native_text = ' '.join([voice_prephrase, mood_prephrase, native_text, mood_postphrase]).replace('∅','')
                     if foreign_text: 
                         yield ' '.join([
                                 self.cardFormatting.emoji_focus(emoji_text), 
-                                self.cardFormatting.native_word(native_map(native_text)),
+                                self.cardFormatting.native_word(native_text),
                                 self.cardFormatting.foreign_focus(foreign_text),
                             ])
