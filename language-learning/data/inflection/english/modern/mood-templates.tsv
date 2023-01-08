@@ -1,31 +1,31 @@
-*	prephrase	postphrase	#	explanation
-indicative	∅	∅	#	
-subjunctive	[even if]	...	#	Event is considered unlikely (mainly used in dependent clauses)
-conditional	[if so, then]	∅	#	Event depends upon another condition.
-optative	[hopefully]	∅	#	Event is hoped, expected, or awaited.
-benedictive	[may it be that]	∅	#	Event is blessed by the speaker
-jussive	[it should be that]	!	#	Event is pleaded, implored or asked.
-probable	[it's likely]	∅	#	Event is probable or considered likely.
-imperative	[I command that]	∅	#	Event is directly ordered or requested by the speaker.
-prohibitive	[I forbid that]	∅	#	Event is directly prohibited by the speaker.
-#desiderative	∅	∅	#	Event is desired/wished by the subject
-dubitative	[maybe]	∅	#	Event is uncertain, doubtful, dubious.
-hypothetical	[it's at least possible]	∅	#	Event is hypothetical, or it is counterfactual, but possible.
-presumptive	[suppose that]	∅	#	Event is assumed, presupposed by the speaker.
-permissive	[I'm fine that]	∅	#	Event is permitted by the speaker.
-admirative	[wow!]	!	#	Event is genuinely surprising or amazing
-ironic-admirative	[gee!]	!	#	Event is stated in irony as surprising or amazing
-hortative	[c'mon! let's make it so]	!	#	Event is exhorted, implored, insisted or encouraged by speaker.
-eventitive	[if so, it's likely]	∅	#	Event is likely but depends upon a condition. 
-precative	[please, can it be that]	?	#	Event is requested by the speaker.
-volitive	[if only]	∅	#	Event is desired, wished or feared by the speaker.
-involutive	[heaven forbid]	!	#	Event is feared by the speaker.
-inferential	[it is said that]	∅	#	Event is nonwitnessed, and not confirmed.
-necessitative	[it is imperative that]	∅	#	Event is necessary, or it is both desired and encouraged. 
-interrogative	[is it true that]	∅	#	Event is asked or questioned by the speaker 
-injunctive	[I intend]	∅	#	Event is intended by the speaker
-suggestive	[I propose]	∅	#	Event is proposed by the speaker
-comissive	[I vow]	∅	#	Event is committed to by the speaker, such as by promise or threat
-deliberative	[shall it be]	?	#	Event is considered by the speaker, asking for confirmation
-propositive	[should it be]	?	#	Event is proposed by the speaker, asking for consideration
-potential	[the potential exists that]	∅	#	Event is able to be done by the subject
+*	prephrase	postphrase	#	prephrase	explanation
+indicative	∅	∅	#	∅	
+subjunctive	[if so, then]	...	#	[if so, then]	Event is considered unlikely (mainly used in dependent clauses)
+conditional	∅	∅	#	[then]	Event depends upon another condition.
+jussive	∅	!	#	[it should be that]	Event is pleaded, implored or asked.
+probable	∅	∅	#	[it's likely]	Event is probable or considered likely.
+imperative	∅	∅	#	[I command that]	Event is directly ordered or requested by the speaker.
+prohibitive	∅	∅	#	[I forbid that]	Event is directly prohibited by the speaker.
+#desiderative	∅	∅	#	∅	Event is desired/wished by the subject
+necessitative	∅	∅	#	[it is imperative that]	Event is necessary, or it is both desired and encouraged. 
+hypothetical	∅	∅	#	[it's at least possible]	Event is hypothetical, or it is counterfactual, but possible.
+potential	∅	∅	#	[the potential exists that]	Event is able to be done by the subject
+optative	[hopefully]	∅	#	[hopefully]	Event is hoped, expected, or awaited.
+benedictive	[may it be that]	∅	#	[may it be that]	Event is blessed by the speaker
+dubitative	[maybe]	∅	#	[maybe]	Event is uncertain, doubtful, dubious.
+presumptive	[suppose that]	∅	#	[suppose that]	Event is assumed, presupposed by the speaker.
+permissive	[I'm fine that]	∅	#	[I'm fine that]	Event is permitted by the speaker.
+admirative	[wow!]	!	#	[wow!]	Event is genuinely surprising or amazing
+ironic-admirative	[gee!]	(!)	#	[gee!]	Event is stated in irony as surprising or amazing
+hortative	[c'mon! let's make it so]	!	#	[c'mon! let's make it so]	Event is exhorted, implored, insisted or encouraged by speaker.
+eventitive	[if so, then]	∅	#	[if so, it's likely]	Event is likely but depends upon a condition. 
+precative	[please, can it be that]	?	#	[please, can it be that]	Event is requested by the speaker.
+volitive	[if only]	∅	#	[if only]	Event is desired, wished or feared by the speaker.
+involutive	[heaven forbid]	!	#	[heaven forbid]	Event is feared by the speaker.
+inferential	[it is said that]	∅	#	[it is said that]	Event is nonwitnessed, and not confirmed.
+interrogative	[is it true that]	?	#	[is it true that]	Event is asked or questioned by the speaker 
+injunctive	[I intend]	∅	#	[I intend]	Event is intended by the speaker
+suggestive	[I propose]	∅	#	[I propose]	Event is proposed by the speaker
+comissive	[I vow]	∅	#	[I vow]	Event is committed to by the speaker, such as by promise or threat
+deliberative	[shall it be]	?	#	[shall it be]	Event is considered by the speaker, asking for confirmation
+propositive	[should it be]	?	#	[should it be]	Event is proposed by the speaker, asking for consideration

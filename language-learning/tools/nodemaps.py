@@ -186,38 +186,3 @@ class ListTools:
     def memory_to_postprocess(lookup):
         def tense(self, machine, tree, memory):
             return [tree[0], *lookup[memory], *machine.map(tree[1:], memory)]
-
-class EnglishListSubstitution:
-    def __init__(self):
-        pass
-    def verbform(self, machine, tree, memory):
-        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
-        form = memory['verb-form']
-        tense = memory['tense']
-        aspect = memory['aspect']
-        voice = memory['voice']
-        if form  == 'participle': 
-            return ['implicit', 'that', 'finite', tree]
-        return tree
-    def tense(self, machine, tree, memory):
-        tense = memory['tense']
-        verbform = memory['verb-form']
-        if (tense, verbform) == ('future', 'finite'):       return ['will',        'infinitive', tree]
-        if (tense, verbform) == ('past',   'infinitive'):   return ['[back then]', tree]
-        if (tense, verbform) == ('present','infinitive'):   return ['[right now]', tree]
-        if (tense, verbform) == ('future', 'infinitive'):   return ['[by then]',   tree]
-        return tree
-    def aspect(self, machine, tree, memory):
-        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
-        aspect = memory['aspect']
-        if aspect == 'imperfect':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
-        if aspect == 'perfect':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
-        if aspect == 'perfect-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['perfect', 'v', 'be'], ['imperfect', tree]]
-        return tree
-    def voice(self, machine, tree, memory):
-        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
-        voice = memory['voice']
-        if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfect', tree]]
-        if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfect', tree]]
-        return tree
-

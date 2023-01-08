@@ -19,7 +19,6 @@ from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatL
 from tools.nodemaps import (
     ListTools, ListGrammar,
     RuleValidation, RuleFormatting, RuleSyntax,
-    EnglishListSubstitution,
 )
 from tools.emoji import Emoji
 from tools.languages import Language
@@ -68,7 +67,7 @@ tagaxis_to_tags = {
 
     # needed for finite forms
     'person':     ['1','2','3'],
-    'number':     ['singular', 'dual', 'plural'],
+    'number':     ['singular', 'dual', 'trial', 'paucal', 'plural', 'superplural'],
     'clusivity':  ['inclusive', 'exclusive'],
     'mood':       ['indicative', 'subjunctive', 'conditional', 
                    'optative', 'benedictive', 'jussive', 'probable', 
@@ -538,6 +537,58 @@ def replace(replacements):
         return content
     return _replace
 
+class EnglishListSubstitution:
+    def __init__(self):
+        pass
+    def verbform(self, machine, tree, memory):
+        '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
+        form = memory['verb-form']
+        tense = memory['tense']
+        aspect = memory['aspect']
+        voice = memory['voice']
+        if form  == 'participle': 
+            return ['implicit', 'that', 'finite', tree]
+        return tree
+    def mood(self, machine, tree, memory):
+        '''creates auxillary verb phrases when necessary to express mood'''
+        mood = memory['mood']
+        lookup = {
+            'imperative':   ['must', 'indicative', 'infinitive', tree],
+            'prohibitive':  ['must', 'not', 'indicative', 'infinitive', tree],
+            'subjunctive':  ['would', 'indicative', 'infinitive', tree],
+            'conditional':  ['would', 'indicative', 'infinitive', tree],
+            'jussive':      ['should', 'indicative', 'infinitive', tree],
+            'probable':     ['likely', 'indicative', 'infinitive', tree],
+            'eventitive':   ['likely', 'indicative', 'infinitive', tree],
+            'hypothetical': ['might', 'indicative', 'infinitive', tree],
+            'necessitative':[['v','need'], 'to', 'indicative', 'infinitive', tree],
+            'potential':    [['v','be able'], 'to', 'indicative', 'infinitive', tree],
+        }
+        return tree if mood not in lookup else lookup[mood]
+    def tense(self, machine, tree, memory):
+        '''creates auxillary verb phrases and bracketed subtext when necessary to express tense'''
+        tense = memory['tense']
+        verbform = memory['verb-form']
+        if (tense, verbform) == ('future', 'finite'):       return ['will',        'infinitive', tree]
+        if (tense, verbform) == ('past',   'infinitive'):   return ['[back then]', tree]
+        # if (tense, verbform) == ('present','infinitive'):   return ['[right now]', tree]
+        if (tense, verbform) == ('future', 'infinitive'):   return ['[later on]',   tree]
+        return tree
+    def aspect(self, machine, tree, memory):
+        '''creates auxillary verb phrases when necessary to express aspect'''
+        aspect = memory['aspect']
+        if aspect == 'imperfect':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
+        if aspect == 'perfect':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
+        if aspect == 'perfect-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['perfect', 'v', 'be'], ['imperfect', tree]]
+        return tree
+    def voice(self, machine, tree, memory):
+        '''creates auxillary verb phrases when necessary to express voice'''
+        voice = memory['voice']
+        if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfect', tree]]
+        if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfect', tree]]
+        return tree
+
+
 list_tools = ListTools()
 english_list_substitution = EnglishListSubstitution()
 
@@ -573,6 +624,7 @@ english = Writing(
         substitutions = [
             {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
             {'v': english_list_substitution.verbform}, # English participles are encoded as perfect/imperfect forms and must be handled specially
+            {'v': english_list_substitution.mood},     # English uses auxillary verbs (e.g. "mood") to indicate some moods
             {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
             {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
             {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
