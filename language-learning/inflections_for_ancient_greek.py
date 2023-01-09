@@ -78,7 +78,7 @@ nouns = ['young-man', 'soldier', 'polity', 'village', 'person', 'street', 'gift'
          'orator', 'father', 'man', 'Demeter', 'Socrates', 'Pericles', 'arrow',
          'foundation', 'shame', 'Ares', 'woman', 'Thales', 'Oedipus', 'fire',
          'Apollo', 'knee', 'wood', 'Zeus', 'liver', 'dog', 'ship', 'ear', 'water', 'hand']
-aspects = 'aorist imperfect perfect'.split()
+aspects = 'aorist imperfective perfective'.split()
 moods = 'indicative subjunctive imperative optative'.split()
 tenses = 'present past future'.split()
 voices = 'active middle passive'.split()

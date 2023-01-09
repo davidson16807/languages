@@ -57,31 +57,6 @@ tagaxis_to_tags = {
     'person':     '1 2 3'.split(),
     'number':     'singular dual trial paucal plural superplural'.split(),
     'clusivity':  'inclusive exclusive'.split(),
-    'mood':       ['indicative', 'subjunctive', 'conditional', 
-                   'optative', 'benedictive', 'jussive', 'probable', 
-                   'imperative', 'prohibitive', 'desiderative', 
-                   'dubitative', 'hypothetical', 'presumptive', 'permissive', 
-                   'admirative', 'ironic-admirative', 'hortative', 'eventitive', 
-                   'precative', 'volitive', 'involutive', 'inferential', 
-                   'necessitative', 'interrogative', 'injunctive', 
-                   'suggestive', 'comissive', 'deliberative', 
-                   'propositive', 'potential', 
-                  ],
-
-    # NOTE: "evidentiality", "logic", "probability", etc. form what is known as the "usage mood".
-    # The "usage mood" is an instance of a broader concept that we refer to as "seme".
-    # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
-    #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
-    # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage mood", etc.
-    # See README.txt and GLOSSARY.tsv for more information on these and related terms.
-    'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
-    'logic':            'antecedant consequent positive negative'.split(),
-    'probability':      'probable potential improbable aprobable'.split(),
-    'subject-motive':   'subject-needed subject-wanted subject-unwanted'.split(),
-    'speaker-motive':   'speaker-needed speaker-wanted speaker-unwanted'.split(),
-    'speaker-emphasis': 'emphatic encouraging dispassionate'.split(),
-    'speaker-action':   'statement aspiration deferral request query proposal verification'.split(),
-    'addressee-power':  'supernatural lower apotent'.split(),
 
     # needed for Spanish
     'formality':  'familiar polite elevated formal tuteo voseo'.split(),
@@ -148,12 +123,70 @@ tagaxis_to_tags = {
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
     'motion': 'departed associated acquired leveraged'.split(),
 
-    # needed for infinitive forms, finite forms, participles, arguments, and graphic depictions
     'voice':      'active passive middle'.split(), 
-
-    # needed for infinitive forms, finite forms, and participles
+    # when an event occurs relative to the present
     'tense':      'present past future'.split(), 
-    'aspect':     'aorist imperfect perfect perfect-progressive'.split(), 
+    # when an event occurs relative to a reference in time
+    'relative-tense': 'before during after'.split(),
+
+    'mood':       ['indicative', 'subjunctive', 'conditional', 
+                   'optative', 'benedictive', 'jussive', 'probable', 
+                   'imperative', 'prohibitive', 'desiderative', 
+                   'dubitative', 'hypothetical', 'presumptive', 'permissive', 
+                   'admirative', 'ironic-admirative', 'hortative', 'eventitive', 
+                   'precative', 'volitive', 'involutive', 'inferential', 
+                   'necessitative', 'interrogative', 'injunctive', 
+                   'suggestive', 'comissive', 'deliberative', 
+                   'propositive', 'potential', 'conative', 'obligative',
+                  ],
+
+    # NOTE: "evidentiality", "logic", "probability", etc. form what is known as the "usage mood".
+    # The "usage mood" is an instance of a broader concept that we refer to as "seme".
+    # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
+    #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
+    # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage mood", etc.
+    # See README.txt and GLOSSARY.tsv for more information on these and related terms.
+    'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
+    'implication':      'antecedant consequent positive negative'.split(),
+    'probability':      'probable potential improbable aprobable'.split(),
+    'subject-motive':   'subject-wanted subject-unwanted'.split(),
+    'speaker-motive':   'speaker-wanted speaker-unwanted'.split(),
+    'speaker-emphasis': 'emphatic encouraging dispassionate'.split(),
+    'speaker-action':   'statement aspiration deferral request query proposal verification'.split(),
+    'addressee-power':  'supernatural lower apotent'.split(),
+
+    # NOTE: "atomicity", "consistency", etc. form what is known as the "usage aspect".
+    # The "usage aspect" is an instance of a broader concept that we refer to as "seme".
+    # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
+    #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
+    # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage aspect", etc.
+    # See README.txt and GLOSSARY.tsv for more information on these and related terms.
+    # how long the event occurs for
+    'duration':            'momentary protracted indefinite'.split(), 
+    # how consistently the event occurs
+    'consistency':         'incessant static habit custom repeatedly experiential'.split(), 
+    # whether the event has intermediate states
+    'atomicity':           'atomic nonatomic'.split(), 
+    # whether the event is part of a series of events
+    'series-partitivity':  'series-partitive series-nonpartitive'.split(),
+    # whether the event has affects that persist after its occurrence, and for how long
+    'persistance':         'resultant persistant impermanent'.split(),
+    # how far along the nonatomic event is, and what action has been taken on its progress
+    'progress':            'started progressing paused arrested resumed continued finished'.split(),
+    # whether the event occurs in the recent past/future
+    'recency':             'recent nonrecent'.split(),
+    # whether the event is associated with motion, and if so, what kind
+    'motion-direction':    'consistent-direction reversing-direction returning-direction undirected unmoving'.split(),
+    # whether the event is distributed among entities, and if so, how
+    'motion-distribution': 'centralized decentralized undistributed'.split(),
+
+    'aspect': ['aorist', 'perfective','imperfective',
+               'habitual', 'continuous',
+               'progressive', 'nonprogressive',
+               'stative', 'terminative', 'prospective', 'consecutive', 'usitative','iterative',
+               'momentaneous','continuative','durative','repetitive','conclusive',
+                'semelfactive','distributive','diversative','reversative','transitional','cursive',
+               'completive','prolongative','seriative','inchoative','reversionary','semeliterative','segmentative'],
 
     # needed for correlatives in general
     'abstraction':['institution','location','origin',
@@ -586,15 +619,15 @@ class EnglishListSubstitution:
     def aspect(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express aspect'''
         aspect = memory['aspect']
-        if aspect == 'imperfect':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
-        if aspect == 'perfect':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
-        if aspect == 'perfect-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['perfect', 'v', 'be'], ['imperfect', tree]]
+        if aspect == 'imperfective':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
+        if aspect == 'perfective':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
+        if aspect == 'perfective-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['imperfective', tree]]
         return tree
     def voice(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express voice'''
         voice = memory['voice']
-        if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfect', tree]]
-        if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfect', tree]]
+        if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfective', tree]]
+        if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfective', tree]]
         return tree
     def formality_and_gender(self, machine, tree, memory):
         '''creates pronouns procedurally when necessary to capture distinctions in formality from other languages'''
@@ -669,7 +702,7 @@ english = Writing(
         None,
         substitutions = [
             {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
-            {'v': english_list_substitution.verbform}, # English participles are encoded as perfect/imperfect forms and must be handled specially
+            {'v': english_list_substitution.verbform}, # English participles are encoded as perfective/imperfective forms and must be handled specially
             {'v': english_list_substitution.mood},     # English uses auxillary verbs (e.g. "mood") to indicate some moods
             {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
             {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect

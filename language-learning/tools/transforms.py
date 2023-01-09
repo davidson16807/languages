@@ -62,9 +62,9 @@ class HtmlTenseTransform:
 class HtmlAspectTransform:
     def __init__(self):
         pass
-    def imperfect(self, scene): 
+    def imperfective(self, scene): 
         return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='7'></progress>'''
-    def perfect(self, scene): 
+    def perfective(self, scene): 
         return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress>'''
     def aorist(self, scene): 
         return f'''{scene}'''

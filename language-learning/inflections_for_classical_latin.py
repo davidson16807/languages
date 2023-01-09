@@ -78,7 +78,7 @@ nouns = ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
          'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
          'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet']
 adjectives = ['tall', 'holy', 'poor', 'mean', 'old', 'nimble', 'swift', 'jovial']
-aspects = 'aorist imperfect perfect'.split()
+aspects = 'aorist imperfective perfective'.split()
 moods = 'indicative subjunctive imperative'.split()
 tenses = 'present past future'.split()
 voices = 'active passive'.split()
@@ -428,7 +428,7 @@ write('flashcards/latin/participle-declension.html',
             'animacy':    'thing',
             'tense':       tenses, 
             'voice':       voices,
-            'aspect':     ['aorist','perfect'], 
+            'aspect':     ['aorist','perfective'], 
             'verb-form':  'participle',
             'noun-form':  'common',
         },
