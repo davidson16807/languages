@@ -1,5 +1,5 @@
-*	*	*	*	*	*	*	proto-indo-european	classical-sanskrit	classical-sanskrit	attic-greek	attic-greek	russian	russian	classical-latin	old-english			#	 purpose	 notes				
-*	*	*	*	*	*	*	latin	devanagari	latin	greek	latin	cyrillic	latin	latin	latin			#						
+*	*	*	*	*	*	*	proto-indo-european	classical-sanskrit	classical-sanskrit	attic-greek	attic-greek	russian	russian	classical-latin	old-english	middle-egyptian	middle-egyptian	#	 purpose	 notes				
+*	*	*	*	*	*	*	latin	devanagari	latin	greek	latin	cyrillic	latin	latin	latin	heiroglyphics	latin	#						
 the	3	singular	masculine	nominative		animate				ὁ	ho				sē 			#	 for all cases					
 the	3	singular	feminine	nominative		animate				ἡ	hē				sēo 			#						
 the	3	singular	neuter	nominative		animate				τό	tó				þæt			#						
@@ -135,224 +135,224 @@ animal	3	plural	neuter	partitive 		animate												#
 animal	3	singular	neuter	prepositional 		animate						živótnom 	живо́тном					#						
 animal	3	dual	neuter	prepositional 		animate												#						
 animal	3	plural	neuter	prepositional 		animate						živótnyx	живо́тных					#						
-son	3	singular	masculine	nominative		animate	suHnús 	सूनुः	sūnúḥ 	υἱός	huiós	сы́н	sýn 	fīlius 	sunu 			#	 for genitive pronouns and possessive pronouns of masculine possessions					
-son	3	dual	masculine	nominative		animate		सूनू	sūnū́ 	υἱώ	huiṓ							#						
-son	3	plural	masculine	nominative		animate	suHnéwes	सूनवः	sūnávaḥ	υἱοί	huioí	сыновья́	synovʹjá	fīliī	suna			#						
-son	3	singular	masculine	accusative		animate	suHnúm 	सूनुम्	sūnúm 	υἱόν	huión	сы́на	sýna 	fīlium 	sunu 			#	 for possessive pronouns of masculine possessions					
-son	3	dual	masculine	accusative		animate		सूनू	sūnū́ 	υἱώ	huiṓ							#						
-son	3	plural	masculine	accusative		animate	suHnúms	सूनून्	sūnū́n	υἱούς	huioús	сынове́й	synovéj	fīliōs	suna			#						
-son	3	singular	masculine	genitive		animate	suHnóws 	सूनोः	sūnóḥ	υἱοῦ	huioû	сы́на	sýna 	fīliī	suna 			#						
-son	3	dual	masculine	genitive		animate		सून्वोः	sūnvóḥ 	υἱοῖν	huioîn							#						
-son	3	plural	masculine	genitive		animate	suHnéwom	सूनूनाम्	sūnūnā́m	υἱῶν	huiôn	сынове́й	synovéj	fīliōrum	suna			#						
-son	3	singular	masculine	dative		animate	suHnéwey 	सूनवे	sūnáve	υἱῷ	huiôi	сы́ну	sýnu 	fīliō 	suna 			#						
-son	3	dual	masculine	dative		animate		सूनुभ्याम्	sūnúbhyām 	υἱοῖν	huioîn							#						
-son	3	plural	masculine	dative		animate	suHnúbʰ-	सूनुभ्यः	sūnúbhyaḥ	υἱοῖς	huioîs	сыновья́м	synovʹjám	fīliīs	sunum			#						
-son	3	singular	masculine	ablative 		animate	suHnóws 	सूनोः	sūnóḥ					fīliō 				#						
-son	3	dual	masculine	ablative 		animate		सूनुभ्याम्	sūnúbhyām 									#						
-son	3	plural	masculine	ablative 		animate	suHnúbʰ-	सूनुभ्यः	sūnúbhyaḥ					fīliīs				#						
-son	3	singular	masculine	locative 		animate	suHnḗw 	सूनौ	sūnaú 									#						
-son	3	dual	masculine	locative 		animate		सून्वोः	sūnvóḥ 									#						
-son	3	plural	masculine	locative 		animate	suHnúsu	सूनुषु	sūnúṣu									#						
-son	3	singular	masculine	instrumental 		animate	suHnwéh₁ 	सूनुना	sūnúnā			сы́ном	sýnom 					#						
-son	3	dual	masculine	instrumental 		animate		सूनुभ्याम्	sūnúbhyām 									#						
-son	3	plural	masculine	instrumental 		animate	suHnúbʰ- 	सूनुभिः	sūnúbhiḥ			сыновья́ми	synovʹjámi					#						
-son	3	singular	masculine	vocative		animate	suHnów 	सूनो	sū́no 	υἱέ	huié	сы́не	sýne 	fīlī 				#						
-son	3	dual	masculine	vocative		animate		सूनू	sū́nū 	υἱώ	huiṓ							#						
-son	3	plural	masculine	vocative		animate	suHnéwes	सूनवः	sū́navaḥ	υἱοί	huioí			fīliī				#						
-son	3	singular	masculine	partitive 		animate												#						
-son	3	dual	masculine	partitive 		animate												#						
-son	3	plural	masculine	partitive 		animate												#						
-son	3	singular	masculine	prepositional 		animate						сы́не	sýne 					#						
-son	3	dual	masculine	prepositional 		animate												#						
-son	3	plural	masculine	prepositional 		animate						сыновья́х	synovʹjáx					#						
-daughter	3	singular	feminine	nominative		animate	dʰugh₂tḗr 	दुहिता	duhitā́ 	θῠγᾰ́τηρ	thugátēr	до́чь	dóčʹ 	fīlia 	dohtor 			#	 for genitive pronouns and possessive pronouns of feminine possessions					
-daughter	3	dual	feminine	nominative		animate	dʰugh₂térh₁(e) 	दुहितरौ	duhitárau	θῠγᾰ́τερε	thugátere							#						
-daughter	3	plural	feminine	nominative		animate	dʰugh₂téres	दुहितरः	duhitáraḥ	θῠγᾰτέρες|θῠ́γᾰτρες	thugatéres|thúgatres	до́чери	dóčeri	fīliae	dohtor|dohtra|dohtru			#						
-daughter	3	singular	feminine	accusative		animate	dʰugh₂térm̥ 	दुहितरम्	duhitáram 	θῠγᾰ́τερᾰ|θῠγᾰτέρᾰ|θῠ́γᾰτρᾰ	thugátera|thugatéra|thúgatra 	до́чь	dóčʹ 	fīliam 	dohtor 			#	 for possessive pronouns of feminine possessions					
-daughter	3	dual	feminine	accusative		animate	dʰugh₂térh₁(e) 	दुहितरौ	duhitárau	θῠγᾰ́τερε	thugátere							#						
-daughter	3	plural	feminine	accusative		animate	dʰugh₂térm̥s	दुहितॄः	duhitṝ́ḥ	θῠγᾰτέρᾰς	thugatéras	дочере́й	dočeréj	fīliās	dohtor|dohtra|dohtru			#						
-daughter	3	singular	feminine	genitive		animate	dʰugtrés 	दुहितुः	duhitúḥ 	θῠγᾰτέρος|θῠγᾰτρός	thugatéros|thugatrós 	до́чери	dóčeri 	fīliae 	dohtor 			#						
-daughter	3	dual	feminine	genitive		animate	 	दुहित्रोः	duhitróḥ 	θῠγᾰτέροιν	thugatéroin							#						
-daughter	3	plural	feminine	genitive		animate	dʰugtróHom	दुहितॄणाम्	duhitṝṇā́m	θῠγᾰτέρων|θῠγᾰτρῶν	thugatérōn|thugatrôn	дочере́й	dočeréj	fīliārum	dohtra			#						
-daughter	3	singular	feminine	dative		animate	dʰugtréy 	दुहित्रे	duhitré 	θῠγᾰτέρῐ|θῠγᾰτρί	thugatéri|thugatrí 	до́чери	dóčeri 	fīliae 	dehter 			#						
-daughter	3	dual	feminine	dative		animate	 	दुहितृभ्याम्	duhitṛ́bhyām 	θῠγᾰτέροιν	thugatéroin							#						
-daughter	3	plural	feminine	dative		animate	dʰugtr̥mós	दुहितृभ्यः	duhitṛ́bhyaḥ	θῠγᾰτέρσῐ|θῠγᾰτέρσῐν|θῠγᾰτρᾰ́σῐ|θῠγᾰτρᾰ́σῐν	thugatérsi(n)|thugatrási(n)	дочеря́м	dočerjám	fīliīs|fīliābus	dohtrum			#						
-daughter	3	singular	feminine	ablative 		animate	dʰugtrés 	दुहितुः	duhitúḥ 					fīliā 				#						
-daughter	3	dual	feminine	ablative 		animate	 	दुहितृभ्याम्	duhitṛ́bhyām 									#						
-daughter	3	plural	feminine	ablative 		animate	dʰugtr̥mós	दुहितृभ्यः	duhitṛ́bhyaḥ					fīliīs|fīliābus				#						
-daughter	3	singular	feminine	locative 		animate	dʰugh₂tér|dʰugh₂téri 	दुहितरि	duhitári 									#						
-daughter	3	dual	feminine	locative 		animate	 	दुहित्रोः	duhitróḥ 									#						
-daughter	3	plural	feminine	locative 		animate	dʰugtr̥sú	दुहितृषु	duhitṛ́ṣu									#						
-daughter	3	singular	feminine	instrumental 		animate	dʰugtréh₁ 	दुहित्रा	duhitrā́ 			до́черью	dóčerʹju 					#						
-daughter	3	dual	feminine	instrumental 		animate	 	दुहितृभ्याम्	duhitṛ́bhyām 									#						
-daughter	3	plural	feminine	instrumental 		animate	dʰugtr̥mís 	दुहितृभिः	duhitṛ́bhiḥ			дочерьми́	dočerʹmí					#						
-daughter	3	singular	feminine	vocative		animate	dʰugh₂tér 	दुहितः	dúhitaḥ 	θῠγᾰ́τερ|θῠ́γᾰτερ	thugáter|thúgater 	до́ча	dóča 	fīlia 				#						
-daughter	3	dual	feminine	vocative		animate	dʰugh₂térh₁(e) 	दुहितरौ	dúhitarau	θῠγᾰ́τερε	thugátere							#						
-daughter	3	plural	feminine	vocative		animate	dʰugh₂téres	दुहितरः	dúhitaraḥ	θῠγᾰτέρες|θῠ́γᾰτρες	thugatéres|thúgatres			fīliae				#						
-daughter	3	singular	feminine	partitive 		animate												#						
-daughter	3	dual	feminine	partitive 		animate												#						
-daughter	3	plural	feminine	partitive 		animate												#						
-daughter	3	singular	feminine	prepositional 		animate						до́чери	dóčeri 					#						
-daughter	3	dual	feminine	prepositional 		animate												#						
-daughter	3	plural	feminine	prepositional 		animate						дочеря́х	dočerjáx					#						
-livestock	3	singular	neuter	nominative		animate	péḱu 	पशु	páśu 	κτῆνος	ktênos	поголо́вье	pogolóvʹje 	pecus 	feoh 			#	for genitive pronouns and possessive pronouns of neuter possessions					
-livestock	3	dual	neuter	nominative		animate	péḱwih₁ 	पशुनी	páśunī 	κτήνει	ktḗnei				feoh 			#						
-livestock	3	plural	neuter	nominative		animate	péḱuh₂	पशू|पशु	páśū|páśu	κτήνη	ktḗnē	поголо́вья	pogolóvʹja	pecora	feoh 			#						
-livestock	3	singular	neuter	accusative		animate	péḱu 	पशु	páśu 	κτῆνος	ktênos	поголо́вье	pogolóvʹje 	pecus 	feoh 			#	for possessive pronouns of neuter possessions					
-livestock	3	dual	neuter	accusative		animate	péḱwih₁ 	पशुनी	páśunī 	κτήνει	ktḗnei				feoh 			#						
-livestock	3	plural	neuter	accusative		animate	péḱuh₂	पशू|पशु	páśū|páśu	κτήνη	ktḗnē	поголо́вья	pogolóvʹja	pecora	feoh 			#						
-livestock	3	singular	neuter	genitive		animate	pḱéws 	पशोः	páśoḥ	κτήνους	ktḗnous	поголо́вья	pogolóvʹja 	pecoris 	fēos 			#						
-livestock	3	dual	neuter	genitive		animate		पशुनोः	páśunoḥ 	κτηνοῖν	ktēnoîn				fēos 			#						
-livestock	3	plural	neuter	genitive		animate	pḱéwoHom	पशूनाम्	páśūnām	κτηνῶν	ktēnôn	поголо́вий	pogolóvij	pecorum	fēos 			#						
-livestock	3	singular	neuter	dative		animate	pḱéwey 	पशवे	páśave	κτήνει	ktḗnei	поголо́вью	pogolóvʹju 	pecorī 	fēo 			#						
-livestock	3	dual	neuter	dative		animate		पशुभ्याम्	páśubhyām 	κτηνοῖν	ktēnoîn				fēo 			#						
-livestock	3	plural	neuter	dative		animate	pḱúmos	पशुभ्यः	páśubhyaḥ	κτήνεσῐ|κτήνεσῐν	ktḗnesi(n)	поголо́вьям	pogolóvʹjam	pecoribus	fēo 			#						
-livestock	3	singular	neuter	ablative 		animate	pḱéws 	पशोः	páśoḥ					pecore 				#						
-livestock	3	dual	neuter	ablative 		animate		पशुभ्याम्	páśubhyām 									#						
-livestock	3	plural	neuter	ablative 		animate	pḱúmos	पशुभ्यः	páśubhyaḥ					pecoribus				#						
-livestock	3	singular	neuter	locative 		animate	pḱéw|pḱéwi 	पशुनि	páśuni 									#						
-livestock	3	dual	neuter	locative 		animate		पशुनोः	páśunoḥ 									#						
-livestock	3	plural	neuter	locative 		animate	pḱúsu	पशुषु	páśuṣu									#						
-livestock	3	singular	neuter	instrumental 		animate	pḱúh₁ 	पशुना|पश्वा²	páśunā			поголо́вьем	pogolóvʹjem 					#						
-livestock	3	dual	neuter	instrumental 		animate		पशुभ्याम्	páśubhyām 									#						
-livestock	3	plural	neuter	instrumental 		animate	pḱúmis	पशुभिः	páśubhiḥ			поголо́вьями	pogolóvʹjami					#						
-livestock	3	singular	neuter	vocative		animate	péḱu 	पशु|पशो	páśu|páśo 	κτῆνος	ktênos			pecus 				#						
-livestock	3	dual	neuter	vocative		animate	péḱwih₁ 	पशुनी	páśunī 	κτήνει	ktḗnei							#						
-livestock	3	plural	neuter	vocative		animate	péḱuh₂	पशू|पशु	páśū|páśu	κτήνη	ktḗnē			pecora				#						
-livestock	3	singular	neuter	partitive 		animate						поголо́вье	pogolóvʹje 					#						
-livestock	3	dual	neuter	partitive 		animate												#						
-livestock	3	plural	neuter	partitive 		animate						поголо́вьях	pogolóvʹjax					#						
-livestock	3	singular	neuter	prepositional 		animate												#						
-livestock	3	dual	neuter	prepositional 		animate												#						
-livestock	3	plural	neuter	prepositional 		animate												#						
-name	3	singular	neuter	nominative		animate	*h₁nómn̥ 	नाम	nā́ma 	ὄνομᾰ	ónoma	ímja 	и́мя	nōmen 	nama 			#	for genitive pronouns and possessive pronouns of neuter possessions					
-name	3	dual	neuter	nominative		animate	*h₁nómnih₁ 	नाम्नी / नामनी	nā́mnī / nā́manī 	ὀνόμᾰτε	onómate							#						
-name	3	plural	neuter	nominative		animate	*h₁némō	नामानि	nā́māni	ὀνόμᾰτᾰ	onómata	imená	имена́	nōmina	naman			#						
-name	3	singular	neuter	accusative		animate	*h₁nómn̥ 	नाम	nā́ma 	ὄνομᾰ	ónoma	ímja 	и́мя	nōmen 	naman 			#	for neuter possessive pronouns of neuter possessions					
-name	3	dual	neuter	accusative		animate	*h₁nómnih₁ 	नाम्नी / नामनी	nā́mnī / nā́manī 	ὀνόμᾰτε	onómate							#						
-name	3	plural	neuter	accusative		animate	*h₁némō	नामानि	nā́māni	ὀνόμᾰτᾰ	onómata	imená	имена́	nōmina	naman			#						
-name	3	singular	neuter	genitive		animate	*h₁némn̥s 	नाम्नः	nā́mnaḥ 	ὀνόμᾰτος	onómatos	ímeni 	и́мени	nōminis 	naman 			#						
-name	3	dual	neuter	genitive		animate	*? 	नाम्नोः	nā́mnoḥ 	ὀνομᾰ́τοιν	onomátoin							#						
-name	3	plural	neuter	genitive		animate	*h₁nm̥nés	नाम्नाम्	nā́mnām	ὀνομᾰ́των	onomátōn	imjón	имён	nōminum	namena			#						
-name	3	singular	neuter	dative		animate	*h₁némney 	नाम्ने	nā́mne 	ὀνόμᾰτῐ	onómati	ímeni 	и́мени	nōminī 	naman 			#						
-name	3	dual	neuter	dative		animate	*? 	नामभ्याम्	nā́mabhyām 	ὀνομᾰ́τοιν	onomátoin							#						
-name	3	plural	neuter	dative		animate	*h₁nm̥néy	नामभ्यः	nā́mabhyaḥ	ὀνόμᾰσῐ|ὀνόμᾰσῐν	onómasi(n)	imenám	имена́м	nōminibus	namum 			#						
-name	3	singular	neuter	ablative 		animate	*h₁némn̥s 	नाम्नः	nā́mnaḥ 					nōmine 				#						
-name	3	dual	neuter	ablative 		animate	*? 	नामभ्याम्	nā́mabhyām 									#						
-name	3	plural	neuter	ablative 		animate	*h₁nm̥nés	नामभ्यः	nā́mabhyaḥ					nōminibus				#						
-name	3	singular	neuter	locative 		animate	*h₁némn̥, *h₁némni 	नाम्नि / नामनि	nā́mni / nā́mani 									#						
-name	3	dual	neuter	locative 		animate	*? 	नाम्नोः	nā́mnoḥ 									#						
-name	3	plural	neuter	locative 		animate	*h₁n̥mén, *h₁n̥méni	नामसु	nā́masu 									#						
-name	3	singular	neuter	instrumental 		animate	*h₁némn̥h₁ 	नाम्ना	nā́mnā 			ímenem 	и́менем					#						
-name	3	dual	neuter	instrumental 		animate	*? 	नामभ्याम्	nā́mabhyām 									#						
-name	3	plural	neuter	instrumental 		animate	*h₁nm̥néh₁ 	नामभिः	nā́mabhiḥ			imenámi	имена́ми					#						
-name	3	singular	neuter	vocative		animate	*h₁nómn̥ 	नामन् / नाम	nā́man / nā́ma 	ὄνομᾰ	ónoma			nōmen 				#						
-name	3	dual	neuter	vocative		animate	*h₁nómnih₁ 	नाम्नी / नामनी	nā́mnī / nā́manī 	ὀνόμᾰτε	onómate							#						
-name	3	plural	neuter	vocative		animate	*h₁némō	नामानि	nā́māni	ὀνόμᾰτᾰ	onómata			nōmina 				#						
-name	3	singular	neuter	partitive 		animate												#						
-name	3	dual	neuter	partitive 		animate												#						
-name	3	plural	neuter	partitive 		animate												#						
-name	3	singular	neuter	prepositional 		animate						ímeni 	и́мени					#						
-name	3	dual	neuter	prepositional 		animate												#						
-name	3	plural	neuter	prepositional 		animate						imenáx 	имена́х					#						
-name	3	singular	neuter	allative		animate												#						
-name	3	dual	neuter	allative		animate												#						
-name	3	plural	neuter	allative		animate												#						
-well	3	singular	masculine	accusative	strong	animate	kóylóm    	कल्यम्	kalyam 	ὑγῐῆ|ὑγῐᾶ	hugiê|hugiâ	здоро́вого	zdoróvovo	bonum 	ġesundne 			#	 for nominatives of pronouns and other sapients					
-well	3	dual	masculine	accusative	strong	animate	kóylóh₁     	कल्यौ	kalyau 	ὑγῐεῖ|ὑγιῆ	hugieî|hugiê							#						
-well	3	plural	masculine	accusative	strong	animate	kóylóms     	कल्यान्	kalyān	ὑγῐεῖς|ὑγιᾶς	hugieîs|hugiâs	здоро́вых	zdoróvyx	bonōs 	ġesunde			#						
-well	3	singular	feminine	accusative	strong	animate	kóylā́m   	कल्याम्	kalyām 	ὑγῐῆ|ὑγῐᾶ	hugiê|hugiâ	здоро́вую	zdoróvuju	bonam 	ġesunde			#						
-well	3	dual	feminine	accusative	strong	animate	kóyléh₂h₁(e)	कल्ये	kalye 	ὑγῐεῖ|ὑγιῆ	hugieî|hugiê							#						
-well	3	plural	feminine	accusative	strong	animate	kóyléh₂m̥s  	कल्याः	kalyāḥ	ὑγῐεῖς|ὑγιᾶς	hugieîs|hugiâs	здоро́вых	zdoróvyx	bonās 	ġesunda|ġesunde			#						
-well	3	singular	neuter	accusative	strong	animate	kóylóm    	कल्यम्	kalyam 	ὑγῐές	hugiés	здоро́вое	zdoróvoje	bonum	ġesund			#						
-well	3	dual	neuter	accusative	strong	animate	kóylóy(h₁)  	कल्ये	kalye 	ὑγῐεῖ	hugieî							#						
-well	3	plural	neuter	accusative	strong	animate	kóyléh₂     	कल्यानि	kalyāni	ὑγῐῆ|ὑγῐᾶ	hugiê|hugiâ	здоро́вых	zdoróvyx	bona	ġesund			#						
-well	3	singular	masculine	accusative	strong	inanimate						здоро́вые	zdoróvyje					#						
-well	3	dual	masculine	accusative	strong	inanimate												#						
-well	3	plural	masculine	accusative	strong	inanimate						здоро́вые	zdoróvyje					#						
-well	3	singular	feminine	accusative	strong	inanimate						здоро́вую	zdoróvuju					#						
-well	3	dual	feminine	accusative	strong	inanimate												#						
-well	3	plural	feminine	accusative	strong	inanimate						здоро́вых	zdoróvyx					#						
-well	3	singular	neuter	accusative	strong	inanimate						здоро́вое	zdoróvoje					#						
-well	3	dual	neuter	accusative	strong	inanimate												#						
-well	3	plural	neuter	accusative	strong	inanimate						здоро́вые	zdoróvyje					#						
-good	3	singular	masculine	accusative	strong	animate	h₁wésum 	साधुम्	sādhúm 	ἐσθλόν	esthlón 	хоро́шего	xoróševo	bonum 	gōdne 			#	 for nominatives of concepts and miscellaneous nouns					
-good	3	dual	masculine	accusative	strong	animate	h₁wésuh₁(e) 	साधू	sādhū́ 	ἐσθλώ	esthlṓ 							#						
-good	3	plural	masculine	accusative	strong	animate	h₁wésums	साधून्	sādhū́n	ἐσθλούς	esthloús 	хоро́ших	xoróšix	bonōs 	gōde 			#						
-good	3	singular	feminine	accusative	strong	animate	h₁uséwih₂m̥ 	साध्वीम्	sādhvī́m 	ἐσθλήν	esthlḗn 	хоро́шую	xoróšuju	bonam 	gōde 			#						
-good	3	dual	feminine	accusative	strong	animate	h₁uséwih₂h₁(e) 	साध्व्यौ	sādhvyaù	ἐσθλᾱ́	esthlā́ 							#						
-good	3	plural	feminine	accusative	strong	animate	h₁uséwih₂m̥s	साध्वीः	sādhvī́ḥ	ἐσθλᾱ́ς	esthlā́s 	хоро́ших	xoróšix	bonās 	gōda, gōde 			#						
-good	3	singular	neuter	accusative	strong	animate	h₁wésu 	साधु	sādhú 	ἐσθλόν	esthlón	хоро́шее	xoróšeje	bonum	gōd			#						
-good	3	dual	neuter	accusative	strong	animate	h₁wéswih₁ 	साधुनी	sādhúnī 	ἐσθλώ	esthlṓ							#						
-good	3	plural	neuter	accusative	strong	animate	h₁wésuh₂	साधू|साधु	sādhū́|sādhú	ἐσθλᾰ́	esthlá	хоро́ших	xoróšix	bona	gōd			#						
-good	3	singular	masculine	accusative	strong	inanimate						хоро́ший	xoróšij					#						
-good	3	dual	masculine	accusative	strong	inanimate												#						
-good	3	plural	masculine	accusative	strong	inanimate						хоро́шие	xoróšije 					#						
-good	3	singular	feminine	accusative	strong	inanimate						хоро́шую	xoróšuju					#						
-good	3	dual	feminine	accusative	strong	inanimate												#						
-good	3	plural	feminine	accusative	strong	inanimate						хоро́шие	xoróšije 					#						
-good	3	singular	neuter	accusative	strong	inanimate						хоро́шее	xoróšeje					#						
-good	3	dual	neuter	accusative	strong	inanimate												#						
-good	3	plural	neuter	accusative	strong	inanimate						хоро́шие	xoróšije 					#						
-bad	3	singular	masculine	accusative	strong	animate	dusom	अघम्	aghám 	kakón 	κᾰκόν	плохо́го	ploxóvo	malum 	yfelne 			#	 for nominatives of concepts and miscellaneous nouns					
-bad	3	dual	masculine	accusative	strong	animate	dusóh₁     	अघौ	aghaú 	kakṓ 	κᾰκώ							#						
-bad	3	plural	masculine	accusative	strong	animate	dusóms     	अघान्	aghā́n	kakoús 	κᾰκούς	плохи́х	ploxíx	malōs 	yfele 			#						
-bad	3	singular	feminine	accusative	strong	animate	dusā́m   	अघाम्	aghā́m 	kakḗn 	κᾰκήν	плоху́ю	ploxúju	malam 	yfele 			#						
-bad	3	dual	feminine	accusative	strong	animate	duséh₂h₁(e)	अघे	aghé 	kakā́ 	κᾰκᾱ́							#						
-bad	3	plural	feminine	accusative	strong	animate	duséh₂m̥s  	अघाः	aghā́ḥ	kakā́s 	κᾰκᾱ́ς	плохи́х	ploxíx	malās 	yfela|yfele 			#						
-bad	3	singular	neuter	accusative	strong	animate	dusóm    	अघम्	aghám 	kakón	κᾰκόν	плохо́е	ploxóje	malum 	yfel			#						
-bad	3	dual	neuter	accusative	strong	animate	dusóy(h₁)  	अघे	aghé 	kakṓ	κᾰκώ							#						
-bad	3	plural	neuter	accusative	strong	animate	duséh₂     	अघानि	aghā́ni	kaká	κᾰκᾰ́	плохи́х	ploxíx	mala	yfel			#						
-bad	3	singular	masculine	accusative	strong	inanimate						плохо́й	ploxój					#						
-bad	3	dual	masculine	accusative	strong	inanimate												#						
-bad	3	plural	masculine	accusative	strong	inanimate						плохи́е	ploxíje					#						
-bad	3	singular	feminine	accusative	strong	inanimate						плоху́ю	ploxúju					#						
-bad	3	dual	feminine	accusative	strong	inanimate												#						
-bad	3	plural	feminine	accusative	strong	inanimate						плохи́е	ploxíje					#						
-bad	3	singular	neuter	accusative	strong	inanimate						плохо́е	ploxóje					#						
-bad	3	dual	neuter	accusative	strong	inanimate												#						
-bad	3	plural	neuter	accusative	strong	inanimate						плохи́е	ploxíje					#						
-big	3	singular	masculine	accusative	strong	animate	méǵh₂m̥ 	महम्	mahám 	μέγᾰν	mégan 	большо́го	bolʹšóvo	magnum 	miċelne 			#	 for nominatives of visibles					
-big	3	dual	masculine	accusative	strong	animate	méǵh₂h₁(e) 	महौ	mahaú 	μεγᾰ́λω	megálō 							#						
-big	3	plural	masculine	accusative	strong	animate	méǵh₂m̥s	महान्	mahā́n	μεγᾰ́λους	megálous 	больши́х	bolʹšíx	magnōs 	miċele 			#						
-big	3	singular	feminine	accusative	strong	animate	méǵh₂ih₂m̥ 	महाम्	mahā́m 	μεγᾰ́λην	megálēn 	большу́ю	bolʹšúju	magnam 	miċele 			#						
-big	3	dual	feminine	accusative	strong	animate	méǵh₂ih₂h₁(e) 	महे	mahé 	μεγᾰ́λᾱ	megálā 							#						
-big	3	plural	feminine	accusative	strong	animate	méǵh₂ih₂m̥s	महाः	mahā́ḥ	μεγᾰ́λᾱς	megálās 	больши́х	bolʹšíx	magnās 	miċela|miċele 			#						
-big	3	singular	neuter	accusative	strong	animate	méǵh₂ 	महम्	mahám 	μέγᾰ	méga 	большо́е	bolʹšóje	magnum 	miċel			#						
-big	3	dual	neuter	accusative	strong	animate	méǵh₂ih₁ 	महे	mahé 	μεγᾰ́λω	megálō 							#						
-big	3	plural	neuter	accusative	strong	animate	méǵh₂h₂	महानि	mahā́ni	μεγᾰ́λᾰ	megála	больши́х	bolʹšíx	magna	miċel			#						
-big	3	singular	masculine	accusative	strong	inanimate						большо́й	bolʹšój					#						
-big	3	dual	masculine	accusative	strong	inanimate												#						
-big	3	plural	masculine	accusative	strong	inanimate						больши́е	bolʹšíje		 			#						
-big	3	singular	feminine	accusative	strong	inanimate						большу́ю	bolʹšúju					#						
-big	3	dual	feminine	accusative	strong	inanimate												#						
-big	3	plural	feminine	accusative	strong	inanimate						больши́е	bolʹšíje					#						
-big	3	singular	neuter	accusative	strong	inanimate						большо́е	bolʹšóje					#						
-big	3	dual	neuter	accusative	strong	inanimate												#						
-big	3	plural	neuter	accusative	strong	inanimate						больши́е	bolʹšíje					#						
-loud	3	singular	masculine	accusative	strong	animate	ḱlewtom	महम्	mahám 	μέγᾰν	mégan 	гро́мкого	grómkovo	magnum 	hlūdne 			#	 for nominatives of audibles	 most translations are equivalent to 'great'				
-loud	3	dual	masculine	accusative	strong	animate	ḱlewtóh₁     	महौ	mahaú 	μεγᾰ́λω	megálō 							#						
-loud	3	plural	masculine	accusative	strong	animate	ḱlewtóms     	महान्	mahā́n	μεγᾰ́λους	megálous 	гро́мких	grómkix	magnōs 	hlūde 			#						
-loud	3	singular	feminine	accusative	strong	animate	ḱlewtā́m   	महाम्	mahā́m 	μεγᾰ́λην	megálēn 	гро́мкую	grómkuju 	magnam 	hlūde 			#						
-loud	3	dual	feminine	accusative	strong	animate	ḱlewtéh₂h₁(e)	महे	mahé 	μεγᾰ́λᾱ	megálā 							#						
-loud	3	plural	feminine	accusative	strong	animate	ḱlewtéh₂m̥s  	महाः	mahā́ḥ	μεγᾰ́λᾱς	megálās 	гро́мких	grómkix	magnās 	hlūda|hlūde			#						
-loud	3	singular	neuter	accusative	strong	animate	ḱlewtóm    	महम्	mahám 	μέγᾰ	méga 	гро́мкое	grómkoje	magnum 	hlūd			#						
-loud	3	dual	neuter	accusative	strong	animate	ḱlewtóy(h₁)  	महे	mahé 	μεγᾰ́λω	megálō 							#						
-loud	3	plural	neuter	accusative	strong	animate	ḱlewtéh₂     	महानि	mahā́ni	μεγᾰ́λᾰ	megála	гро́мких	grómkix	magna	hlūd			#						
-loud	3	singular	masculine	accusative	strong	inanimate						гро́мкий	grómkij					#						
-loud	3	dual	masculine	accusative	strong	inanimate												#						
-loud	3	plural	masculine	accusative	strong	inanimate						гро́мкие	grómkije					#						
-loud	3	singular	feminine	accusative	strong	inanimate						гро́мкую	grómkuju 					#						
-loud	3	dual	feminine	accusative	strong	inanimate												#						
-loud	3	plural	feminine	accusative	strong	inanimate						гро́мкие	grómkije					#						
-loud	3	singular	neuter	accusative	strong	inanimate						гро́мкое	grómkoje					#						
-loud	3	dual	neuter	accusative	strong	inanimate												#						
-loud	3	plural	neuter	accusative	strong	inanimate						гро́мкие	grómkije					#						
-sound	3	singular		nominative	strong	animate	swónh₂os	स्वरः	sváraḥ	φθόγγος	phthóngos	зву́к	zvúk	sonus	swēġ			#	 for genitives of audibles					
+son	3	singular	masculine	nominative		animate	suHnús 	सूनुः	sūnúḥ 	υἱός	huiós	сы́н	sýn 	fīlius 	sunu 	𓅭𓀀	zꜣ	#	 for genitive pronouns and possessive pronouns of masculine possessions					
+son	3	dual	masculine	nominative		animate		सूनू	sūnū́ 	υἱώ	huiṓ					𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	nominative		animate	suHnéwes	सूनवः	sūnávaḥ	υἱοί	huioí	сыновья́	synovʹjá	fīliī	suna	𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	accusative		animate	suHnúm 	सूनुम्	sūnúm 	υἱόν	huión	сы́на	sýna 	fīlium 	sunu 	𓅭𓀀	zꜣ	#	 for possessive pronouns of masculine possessions					
+son	3	dual	masculine	accusative		animate		सूनू	sūnū́ 	υἱώ	huiṓ					𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	accusative		animate	suHnúms	सूनून्	sūnū́n	υἱούς	huioús	сынове́й	synovéj	fīliōs	suna	𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	genitive		animate	suHnóws 	सूनोः	sūnóḥ	υἱοῦ	huioû	сы́на	sýna 	fīliī	suna 	𓅭𓀀	zꜣ	#						
+son	3	dual	masculine	genitive		animate		सून्वोः	sūnvóḥ 	υἱοῖν	huioîn					𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	genitive		animate	suHnéwom	सूनूनाम्	sūnūnā́m	υἱῶν	huiôn	сынове́й	synovéj	fīliōrum	suna	𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	dative		animate	suHnéwey 	सूनवे	sūnáve	υἱῷ	huiôi	сы́ну	sýnu 	fīliō 	suna 	𓅭𓀀	zꜣ	#						
+son	3	dual	masculine	dative		animate		सूनुभ्याम्	sūnúbhyām 	υἱοῖν	huioîn					𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	dative		animate	suHnúbʰ-	सूनुभ्यः	sūnúbhyaḥ	υἱοῖς	huioîs	сыновья́м	synovʹjám	fīliīs	sunum	𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	ablative 		animate	suHnóws 	सूनोः	sūnóḥ					fīliō 		𓅭𓀀	zꜣ	#						
+son	3	dual	masculine	ablative 		animate		सूनुभ्याम्	sūnúbhyām 							𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	ablative 		animate	suHnúbʰ-	सूनुभ्यः	sūnúbhyaḥ					fīliīs		𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	locative 		animate	suHnḗw 	सूनौ	sūnaú 							𓅭𓀀	zꜣ	#						
+son	3	dual	masculine	locative 		animate		सून्वोः	sūnvóḥ 							𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	locative 		animate	suHnúsu	सूनुषु	sūnúṣu							𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	instrumental 		animate	suHnwéh₁ 	सूनुना	sūnúnā			сы́ном	sýnom 			𓅭𓀀	zꜣ	#						
+son	3	dual	masculine	instrumental 		animate		सूनुभ्याम्	sūnúbhyām 							𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	instrumental 		animate	suHnúbʰ- 	सूनुभिः	sūnúbhiḥ			сыновья́ми	synovʹjámi			𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	vocative		animate	suHnów 	सूनो	sū́no 	υἱέ	huié	сы́не	sýne 	fīlī 		𓅭𓀀	zꜣ	#						
+son	3	dual	masculine	vocative		animate		सूनू	sū́nū 	υἱώ	huiṓ					𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	vocative		animate	suHnéwes	सूनवः	sū́navaḥ	υἱοί	huioí			fīliī		𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	partitive 		animate										𓅭𓀀	zꜣ	#						
+son	3	dual	masculine	partitive 		animate										𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	partitive 		animate										𓅭𓀀	zꜣ	#						
+son	3	singular	masculine	prepositional 		animate						сы́не	sýne 			𓅭𓀀	zꜣ	#						
+son	3	dual	masculine	prepositional 		animate										𓅭𓀀	zꜣ	#						
+son	3	plural	masculine	prepositional 		animate						сыновья́х	synovʹjáx			𓅭𓀀	zꜣ	#						
+daughter	3	singular	feminine	nominative		animate	dʰugh₂tḗr 	दुहिता	duhitā́ 	θῠγᾰ́τηρ	thugátēr	до́чь	dóčʹ 	fīlia 	dohtor 	𓅭𓏏𓁐	zꜣt	#	 for genitive pronouns and possessive pronouns of feminine possessions					
+daughter	3	dual	feminine	nominative		animate	dʰugh₂térh₁(e) 	दुहितरौ	duhitárau	θῠγᾰ́τερε	thugátere					𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	nominative		animate	dʰugh₂téres	दुहितरः	duhitáraḥ	θῠγᾰτέρες|θῠ́γᾰτρες	thugatéres|thúgatres	до́чери	dóčeri	fīliae	dohtor|dohtra|dohtru	𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	accusative		animate	dʰugh₂térm̥ 	दुहितरम्	duhitáram 	θῠγᾰ́τερᾰ|θῠγᾰτέρᾰ|θῠ́γᾰτρᾰ	thugátera|thugatéra|thúgatra 	до́чь	dóčʹ 	fīliam 	dohtor 	𓅭𓏏𓁐	zꜣt	#	 for possessive pronouns of feminine possessions					
+daughter	3	dual	feminine	accusative		animate	dʰugh₂térh₁(e) 	दुहितरौ	duhitárau	θῠγᾰ́τερε	thugátere					𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	accusative		animate	dʰugh₂térm̥s	दुहितॄः	duhitṝ́ḥ	θῠγᾰτέρᾰς	thugatéras	дочере́й	dočeréj	fīliās	dohtor|dohtra|dohtru	𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	genitive		animate	dʰugtrés 	दुहितुः	duhitúḥ 	θῠγᾰτέρος|θῠγᾰτρός	thugatéros|thugatrós 	до́чери	dóčeri 	fīliae 	dohtor 	𓅭𓏏𓁐	zꜣt	#						
+daughter	3	dual	feminine	genitive		animate	 	दुहित्रोः	duhitróḥ 	θῠγᾰτέροιν	thugatéroin					𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	genitive		animate	dʰugtróHom	दुहितॄणाम्	duhitṝṇā́m	θῠγᾰτέρων|θῠγᾰτρῶν	thugatérōn|thugatrôn	дочере́й	dočeréj	fīliārum	dohtra	𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	dative		animate	dʰugtréy 	दुहित्रे	duhitré 	θῠγᾰτέρῐ|θῠγᾰτρί	thugatéri|thugatrí 	до́чери	dóčeri 	fīliae 	dehter 	𓅭𓏏𓁐	zꜣt	#						
+daughter	3	dual	feminine	dative		animate	 	दुहितृभ्याम्	duhitṛ́bhyām 	θῠγᾰτέροιν	thugatéroin					𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	dative		animate	dʰugtr̥mós	दुहितृभ्यः	duhitṛ́bhyaḥ	θῠγᾰτέρσῐ|θῠγᾰτέρσῐν|θῠγᾰτρᾰ́σῐ|θῠγᾰτρᾰ́σῐν	thugatérsi(n)|thugatrási(n)	дочеря́м	dočerjám	fīliīs|fīliābus	dohtrum	𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	ablative 		animate	dʰugtrés 	दुहितुः	duhitúḥ 					fīliā 		𓅭𓏏𓁐	zꜣt	#						
+daughter	3	dual	feminine	ablative 		animate	 	दुहितृभ्याम्	duhitṛ́bhyām 							𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	ablative 		animate	dʰugtr̥mós	दुहितृभ्यः	duhitṛ́bhyaḥ					fīliīs|fīliābus		𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	locative 		animate	dʰugh₂tér|dʰugh₂téri 	दुहितरि	duhitári 							𓅭𓏏𓁐	zꜣt	#						
+daughter	3	dual	feminine	locative 		animate	 	दुहित्रोः	duhitróḥ 							𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	locative 		animate	dʰugtr̥sú	दुहितृषु	duhitṛ́ṣu							𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	instrumental 		animate	dʰugtréh₁ 	दुहित्रा	duhitrā́ 			до́черью	dóčerʹju 			𓅭𓏏𓁐	zꜣt	#						
+daughter	3	dual	feminine	instrumental 		animate	 	दुहितृभ्याम्	duhitṛ́bhyām 							𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	instrumental 		animate	dʰugtr̥mís 	दुहितृभिः	duhitṛ́bhiḥ			дочерьми́	dočerʹmí			𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	vocative		animate	dʰugh₂tér 	दुहितः	dúhitaḥ 	θῠγᾰ́τερ|θῠ́γᾰτερ	thugáter|thúgater 	до́ча	dóča 	fīlia 		𓅭𓏏𓁐	zꜣt	#						
+daughter	3	dual	feminine	vocative		animate	dʰugh₂térh₁(e) 	दुहितरौ	dúhitarau	θῠγᾰ́τερε	thugátere					𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	vocative		animate	dʰugh₂téres	दुहितरः	dúhitaraḥ	θῠγᾰτέρες|θῠ́γᾰτρες	thugatéres|thúgatres			fīliae		𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	partitive 		animate										𓅭𓏏𓁐	zꜣt	#						
+daughter	3	dual	feminine	partitive 		animate										𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	partitive 		animate										𓅭𓏏𓁐	zꜣt	#						
+daughter	3	singular	feminine	prepositional 		animate						до́чери	dóčeri 			𓅭𓏏𓁐	zꜣt	#						
+daughter	3	dual	feminine	prepositional 		animate										𓅭𓏏𓁐	zꜣt	#						
+daughter	3	plural	feminine	prepositional 		animate						дочеря́х	dočerjáx			𓅭𓏏𓁐	zꜣt	#						
+livestock	3	singular	neuter	nominative		animate	péḱu 	पशु	páśu 	κτῆνος	ktênos	поголо́вье	pogolóvʹje 	pecus 	feoh 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#	for genitive pronouns and possessive pronouns of neuter possessions					
+livestock	3	dual	neuter	nominative		animate	péḱwih₁ 	पशुनी	páśunī 	κτήνει	ktḗnei				feoh 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#	"egyptian translates to ""cattle"""					
+livestock	3	plural	neuter	nominative		animate	péḱuh₂	पशू|पशु	páśū|páśu	κτήνη	ktḗnē	поголо́вья	pogolóvʹja	pecora	feoh 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	accusative		animate	péḱu 	पशु	páśu 	κτῆνος	ktênos	поголо́вье	pogolóvʹje 	pecus 	feoh 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#	for possessive pronouns of neuter possessions					
+livestock	3	dual	neuter	accusative		animate	péḱwih₁ 	पशुनी	páśunī 	κτήνει	ktḗnei				feoh 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	accusative		animate	péḱuh₂	पशू|पशु	páśū|páśu	κτήνη	ktḗnē	поголо́вья	pogolóvʹja	pecora	feoh 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	genitive		animate	pḱéws 	पशोः	páśoḥ	κτήνους	ktḗnous	поголо́вья	pogolóvʹja 	pecoris 	fēos 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	dual	neuter	genitive		animate		पशुनोः	páśunoḥ 	κτηνοῖν	ktēnoîn				fēos 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	genitive		animate	pḱéwoHom	पशूनाम्	páśūnām	κτηνῶν	ktēnôn	поголо́вий	pogolóvij	pecorum	fēos 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	dative		animate	pḱéwey 	पशवे	páśave	κτήνει	ktḗnei	поголо́вью	pogolóvʹju 	pecorī 	fēo 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	dual	neuter	dative		animate		पशुभ्याम्	páśubhyām 	κτηνοῖν	ktēnoîn				fēo 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	dative		animate	pḱúmos	पशुभ्यः	páśubhyaḥ	κτήνεσῐ|κτήνεσῐν	ktḗnesi(n)	поголо́вьям	pogolóvʹjam	pecoribus	fēo 	𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	ablative 		animate	pḱéws 	पशोः	páśoḥ					pecore 		𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	dual	neuter	ablative 		animate		पशुभ्याम्	páśubhyām 							𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	ablative 		animate	pḱúmos	पशुभ्यः	páśubhyaḥ					pecoribus		𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	locative 		animate	pḱéw|pḱéwi 	पशुनि	páśuni 							𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	dual	neuter	locative 		animate		पशुनोः	páśunoḥ 							𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	locative 		animate	pḱúsu	पशुषु	páśuṣu							𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	instrumental 		animate	pḱúh₁ 	पशुना|पश्वा²	páśunā			поголо́вьем	pogolóvʹjem 			𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	dual	neuter	instrumental 		animate		पशुभ्याम्	páśubhyām 							𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	instrumental 		animate	pḱúmis	पशुभिः	páśubhiḥ			поголо́вьями	pogolóvʹjami			𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	vocative		animate	péḱu 	पशु|पशो	páśu|páśo 	κτῆνος	ktênos			pecus 		𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	dual	neuter	vocative		animate	péḱwih₁ 	पशुनी	páśunī 	κτήνει	ktḗnei					𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	vocative		animate	péḱuh₂	पशू|पशु	páśū|páśu	κτήνη	ktḗnē			pecora		𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	partitive 		animate						поголо́вье	pogolóvʹje 			𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	dual	neuter	partitive 		animate										𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	partitive 		animate						поголо́вьях	pogolóvʹjax			𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	singular	neuter	prepositional 		animate										𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	dual	neuter	prepositional 		animate										𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+livestock	3	plural	neuter	prepositional 		animate										𓏠𓈖𓏠𓈖𓏏𓃒	mnmnt	#						
+name	3	singular	neuter	nominative		animate	*h₁nómn̥ 	नाम	nā́ma 	ὄνομᾰ	ónoma	ímja 	и́мя	nōmen 	nama 	𓂋𓈖	rn	#	for genitive pronouns and possessive pronouns of neuter possessions					
+name	3	dual	neuter	nominative		animate	*h₁nómnih₁ 	नाम्नी / नामनी	nā́mnī / nā́manī 	ὀνόμᾰτε	onómate					𓂋𓈖	rn	#						
+name	3	plural	neuter	nominative		animate	*h₁némō	नामानि	nā́māni	ὀνόμᾰτᾰ	onómata	imená	имена́	nōmina	naman	𓂋𓈖	rn	#						
+name	3	singular	neuter	accusative		animate	*h₁nómn̥ 	नाम	nā́ma 	ὄνομᾰ	ónoma	ímja 	и́мя	nōmen 	naman 	𓂋𓈖	rn	#	for neuter possessive pronouns of neuter possessions					
+name	3	dual	neuter	accusative		animate	*h₁nómnih₁ 	नाम्नी / नामनी	nā́mnī / nā́manī 	ὀνόμᾰτε	onómate					𓂋𓈖	rn	#						
+name	3	plural	neuter	accusative		animate	*h₁némō	नामानि	nā́māni	ὀνόμᾰτᾰ	onómata	imená	имена́	nōmina	naman	𓂋𓈖	rn	#						
+name	3	singular	neuter	genitive		animate	*h₁némn̥s 	नाम्नः	nā́mnaḥ 	ὀνόμᾰτος	onómatos	ímeni 	и́мени	nōminis 	naman 	𓂋𓈖	rn	#						
+name	3	dual	neuter	genitive		animate	*? 	नाम्नोः	nā́mnoḥ 	ὀνομᾰ́τοιν	onomátoin					𓂋𓈖	rn	#						
+name	3	plural	neuter	genitive		animate	*h₁nm̥nés	नाम्नाम्	nā́mnām	ὀνομᾰ́των	onomátōn	imjón	имён	nōminum	namena	𓂋𓈖	rn	#						
+name	3	singular	neuter	dative		animate	*h₁némney 	नाम्ने	nā́mne 	ὀνόμᾰτῐ	onómati	ímeni 	и́мени	nōminī 	naman 	𓂋𓈖	rn	#						
+name	3	dual	neuter	dative		animate	*? 	नामभ्याम्	nā́mabhyām 	ὀνομᾰ́τοιν	onomátoin					𓂋𓈖	rn	#						
+name	3	plural	neuter	dative		animate	*h₁nm̥néy	नामभ्यः	nā́mabhyaḥ	ὀνόμᾰσῐ|ὀνόμᾰσῐν	onómasi(n)	imenám	имена́м	nōminibus	namum 	𓂋𓈖	rn	#						
+name	3	singular	neuter	ablative 		animate	*h₁némn̥s 	नाम्नः	nā́mnaḥ 					nōmine 		𓂋𓈖	rn	#						
+name	3	dual	neuter	ablative 		animate	*? 	नामभ्याम्	nā́mabhyām 							𓂋𓈖	rn	#						
+name	3	plural	neuter	ablative 		animate	*h₁nm̥nés	नामभ्यः	nā́mabhyaḥ					nōminibus		𓂋𓈖	rn	#						
+name	3	singular	neuter	locative 		animate	*h₁némn̥, *h₁némni 	नाम्नि / नामनि	nā́mni / nā́mani 							𓂋𓈖	rn	#						
+name	3	dual	neuter	locative 		animate	*? 	नाम्नोः	nā́mnoḥ 							𓂋𓈖	rn	#						
+name	3	plural	neuter	locative 		animate	*h₁n̥mén, *h₁n̥méni	नामसु	nā́masu 							𓂋𓈖	rn	#						
+name	3	singular	neuter	instrumental 		animate	*h₁némn̥h₁ 	नाम्ना	nā́mnā 			ímenem 	и́менем			𓂋𓈖	rn	#						
+name	3	dual	neuter	instrumental 		animate	*? 	नामभ्याम्	nā́mabhyām 							𓂋𓈖	rn	#						
+name	3	plural	neuter	instrumental 		animate	*h₁nm̥néh₁ 	नामभिः	nā́mabhiḥ			imenámi	имена́ми			𓂋𓈖	rn	#						
+name	3	singular	neuter	vocative		animate	*h₁nómn̥ 	नामन् / नाम	nā́man / nā́ma 	ὄνομᾰ	ónoma			nōmen 		𓂋𓈖	rn	#						
+name	3	dual	neuter	vocative		animate	*h₁nómnih₁ 	नाम्नी / नामनी	nā́mnī / nā́manī 	ὀνόμᾰτε	onómate					𓂋𓈖	rn	#						
+name	3	plural	neuter	vocative		animate	*h₁némō	नामानि	nā́māni	ὀνόμᾰτᾰ	onómata			nōmina 		𓂋𓈖	rn	#						
+name	3	singular	neuter	partitive 		animate										𓂋𓈖	rn	#						
+name	3	dual	neuter	partitive 		animate										𓂋𓈖	rn	#						
+name	3	plural	neuter	partitive 		animate										𓂋𓈖	rn	#						
+name	3	singular	neuter	prepositional 		animate						ímeni 	и́мени			𓂋𓈖	rn	#						
+name	3	dual	neuter	prepositional 		animate										𓂋𓈖	rn	#						
+name	3	plural	neuter	prepositional 		animate						imenáx 	имена́х			𓂋𓈖	rn	#						
+name	3	singular	neuter	allative		animate										𓂋𓈖	rn	#						
+name	3	dual	neuter	allative		animate										𓂋𓈖	rn	#						
+name	3	plural	neuter	allative		animate										𓂋𓈖	rn	#						
+well	3	singular	masculine	accusative	strong	animate	kóylóm    	कल्यम्	kalyam 	ὑγῐῆ|ὑγῐᾶ	hugiê|hugiâ	здоро́вого	zdoróvovo	bonum 	ġesundne 	𓋴𓈖𓃀𓏜	snb	#	 for nominatives of pronouns and other sapients					
+well	3	dual	masculine	accusative	strong	animate	kóylóh₁     	कल्यौ	kalyau 	ὑγῐεῖ|ὑγιῆ	hugieî|hugiê					𓋴𓈖𓃀𓏜	snb	#						
+well	3	plural	masculine	accusative	strong	animate	kóylóms     	कल्यान्	kalyān	ὑγῐεῖς|ὑγιᾶς	hugieîs|hugiâs	здоро́вых	zdoróvyx	bonōs 	ġesunde	𓋴𓈖𓃀𓏜	snb	#						
+well	3	singular	feminine	accusative	strong	animate	kóylā́m   	कल्याम्	kalyām 	ὑγῐῆ|ὑγῐᾶ	hugiê|hugiâ	здоро́вую	zdoróvuju	bonam 	ġesunde	𓋴𓈖𓃀𓏜	snb	#						
+well	3	dual	feminine	accusative	strong	animate	kóyléh₂h₁(e)	कल्ये	kalye 	ὑγῐεῖ|ὑγιῆ	hugieî|hugiê					𓋴𓈖𓃀𓏜	snb	#						
+well	3	plural	feminine	accusative	strong	animate	kóyléh₂m̥s  	कल्याः	kalyāḥ	ὑγῐεῖς|ὑγιᾶς	hugieîs|hugiâs	здоро́вых	zdoróvyx	bonās 	ġesunda|ġesunde	𓋴𓈖𓃀𓏜	snb	#						
+well	3	singular	neuter	accusative	strong	animate	kóylóm    	कल्यम्	kalyam 	ὑγῐές	hugiés	здоро́вое	zdoróvoje	bonum	ġesund	𓋴𓈖𓃀𓏜	snb	#						
+well	3	dual	neuter	accusative	strong	animate	kóylóy(h₁)  	कल्ये	kalye 	ὑγῐεῖ	hugieî					𓋴𓈖𓃀𓏜	snb	#						
+well	3	plural	neuter	accusative	strong	animate	kóyléh₂     	कल्यानि	kalyāni	ὑγῐῆ|ὑγῐᾶ	hugiê|hugiâ	здоро́вых	zdoróvyx	bona	ġesund	𓋴𓈖𓃀𓏜	snb	#						
+well	3	singular	masculine	accusative	strong	inanimate						здоро́вые	zdoróvyje			𓋴𓈖𓃀𓏜	snb	#						
+well	3	dual	masculine	accusative	strong	inanimate										𓋴𓈖𓃀𓏜	snb	#						
+well	3	plural	masculine	accusative	strong	inanimate						здоро́вые	zdoróvyje			𓋴𓈖𓃀𓏜	snb	#						
+well	3	singular	feminine	accusative	strong	inanimate						здоро́вую	zdoróvuju			𓋴𓈖𓃀𓏜	snb	#						
+well	3	dual	feminine	accusative	strong	inanimate										𓋴𓈖𓃀𓏜	snb	#						
+well	3	plural	feminine	accusative	strong	inanimate						здоро́вых	zdoróvyx			𓋴𓈖𓃀𓏜	snb	#						
+well	3	singular	neuter	accusative	strong	inanimate						здоро́вое	zdoróvoje			𓋴𓈖𓃀𓏜	snb	#						
+well	3	dual	neuter	accusative	strong	inanimate										𓋴𓈖𓃀𓏜	snb	#						
+well	3	plural	neuter	accusative	strong	inanimate						здоро́вые	zdoróvyje			𓋴𓈖𓃀𓏜	snb	#						
+good	3	singular	masculine	accusative	strong	animate	h₁wésum 	साधुम्	sādhúm 	ἐσθλόν	esthlón 	хоро́шего	xoróševo	bonum 	gōdne 	𓄤𓆑𓂋	nfr	#	 for nominatives of concepts and miscellaneous nouns					
+good	3	dual	masculine	accusative	strong	animate	h₁wésuh₁(e) 	साधू	sādhū́ 	ἐσθλώ	esthlṓ 					𓄤𓆑𓂋	nfr	#						
+good	3	plural	masculine	accusative	strong	animate	h₁wésums	साधून्	sādhū́n	ἐσθλούς	esthloús 	хоро́ших	xoróšix	bonōs 	gōde 	𓄤𓆑𓂋	nfr	#						
+good	3	singular	feminine	accusative	strong	animate	h₁uséwih₂m̥ 	साध्वीम्	sādhvī́m 	ἐσθλήν	esthlḗn 	хоро́шую	xoróšuju	bonam 	gōde 	𓄤𓆑𓂋	nfr	#						
+good	3	dual	feminine	accusative	strong	animate	h₁uséwih₂h₁(e) 	साध्व्यौ	sādhvyaù	ἐσθλᾱ́	esthlā́ 					𓄤𓆑𓂋	nfr	#						
+good	3	plural	feminine	accusative	strong	animate	h₁uséwih₂m̥s	साध्वीः	sādhvī́ḥ	ἐσθλᾱ́ς	esthlā́s 	хоро́ших	xoróšix	bonās 	gōda, gōde 	𓄤𓆑𓂋	nfr	#						
+good	3	singular	neuter	accusative	strong	animate	h₁wésu 	साधु	sādhú 	ἐσθλόν	esthlón	хоро́шее	xoróšeje	bonum	gōd	𓄤𓆑𓂋	nfr	#						
+good	3	dual	neuter	accusative	strong	animate	h₁wéswih₁ 	साधुनी	sādhúnī 	ἐσθλώ	esthlṓ					𓄤𓆑𓂋	nfr	#						
+good	3	plural	neuter	accusative	strong	animate	h₁wésuh₂	साधू|साधु	sādhū́|sādhú	ἐσθλᾰ́	esthlá	хоро́ших	xoróšix	bona	gōd	𓄤𓆑𓂋	nfr	#						
+good	3	singular	masculine	accusative	strong	inanimate						хоро́ший	xoróšij			𓄤𓆑𓂋	nfr	#						
+good	3	dual	masculine	accusative	strong	inanimate										𓄤𓆑𓂋	nfr	#						
+good	3	plural	masculine	accusative	strong	inanimate						хоро́шие	xoróšije 			𓄤𓆑𓂋	nfr	#						
+good	3	singular	feminine	accusative	strong	inanimate						хоро́шую	xoróšuju			𓄤𓆑𓂋	nfr	#						
+good	3	dual	feminine	accusative	strong	inanimate										𓄤𓆑𓂋	nfr	#						
+good	3	plural	feminine	accusative	strong	inanimate						хоро́шие	xoróšije 			𓄤𓆑𓂋	nfr	#						
+good	3	singular	neuter	accusative	strong	inanimate						хоро́шее	xoróšeje			𓄤𓆑𓂋	nfr	#						
+good	3	dual	neuter	accusative	strong	inanimate										𓄤𓆑𓂋	nfr	#						
+good	3	plural	neuter	accusative	strong	inanimate						хоро́шие	xoróšije 			𓄤𓆑𓂋	nfr	#						
+bad	3	singular	masculine	accusative	strong	animate	dusom	अघम्	aghám 	kakón 	κᾰκόν	плохо́го	ploxóvo	malum 	yfelne 	𓃀𓇋𓈖𓅪	bin	#	 for nominatives of concepts and miscellaneous nouns					
+bad	3	dual	masculine	accusative	strong	animate	dusóh₁     	अघौ	aghaú 	kakṓ 	κᾰκώ					𓃀𓇋𓈖𓅪	bin	#						
+bad	3	plural	masculine	accusative	strong	animate	dusóms     	अघान्	aghā́n	kakoús 	κᾰκούς	плохи́х	ploxíx	malōs 	yfele 	𓃀𓇋𓈖𓅪	bin	#						
+bad	3	singular	feminine	accusative	strong	animate	dusā́m   	अघाम्	aghā́m 	kakḗn 	κᾰκήν	плоху́ю	ploxúju	malam 	yfele 	𓃀𓇋𓈖𓅪	bin	#						
+bad	3	dual	feminine	accusative	strong	animate	duséh₂h₁(e)	अघे	aghé 	kakā́ 	κᾰκᾱ́					𓃀𓇋𓈖𓅪	bin	#						
+bad	3	plural	feminine	accusative	strong	animate	duséh₂m̥s  	अघाः	aghā́ḥ	kakā́s 	κᾰκᾱ́ς	плохи́х	ploxíx	malās 	yfela|yfele 	𓃀𓇋𓈖𓅪	bin	#						
+bad	3	singular	neuter	accusative	strong	animate	dusóm    	अघम्	aghám 	kakón	κᾰκόν	плохо́е	ploxóje	malum 	yfel	𓃀𓇋𓈖𓅪	bin	#						
+bad	3	dual	neuter	accusative	strong	animate	dusóy(h₁)  	अघे	aghé 	kakṓ	κᾰκώ					𓃀𓇋𓈖𓅪	bin	#						
+bad	3	plural	neuter	accusative	strong	animate	duséh₂     	अघानि	aghā́ni	kaká	κᾰκᾰ́	плохи́х	ploxíx	mala	yfel	𓃀𓇋𓈖𓅪	bin	#						
+bad	3	singular	masculine	accusative	strong	inanimate						плохо́й	ploxój			𓃀𓇋𓈖𓅪	bin	#						
+bad	3	dual	masculine	accusative	strong	inanimate										𓃀𓇋𓈖𓅪	bin	#						
+bad	3	plural	masculine	accusative	strong	inanimate						плохи́е	ploxíje			𓃀𓇋𓈖𓅪	bin	#						
+bad	3	singular	feminine	accusative	strong	inanimate						плоху́ю	ploxúju			𓃀𓇋𓈖𓅪	bin	#						
+bad	3	dual	feminine	accusative	strong	inanimate										𓃀𓇋𓈖𓅪	bin	#						
+bad	3	plural	feminine	accusative	strong	inanimate						плохи́е	ploxíje			𓃀𓇋𓈖𓅪	bin	#						
+bad	3	singular	neuter	accusative	strong	inanimate						плохо́е	ploxóje			𓃀𓇋𓈖𓅪	bin	#						
+bad	3	dual	neuter	accusative	strong	inanimate										𓃀𓇋𓈖𓅪	bin	#						
+bad	3	plural	neuter	accusative	strong	inanimate						плохи́е	ploxíje			𓃀𓇋𓈖𓅪	bin	#						
+big	3	singular	masculine	accusative	strong	animate	méǵh₂m̥ 	महम्	mahám 	μέγᾰν	mégan 	большо́го	bolʹšóvo	magnum 	miċelne 	𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#	 for nominatives of visibles					
+big	3	dual	masculine	accusative	strong	animate	méǵh₂h₁(e) 	महौ	mahaú 	μεγᾰ́λω	megálō 					𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	plural	masculine	accusative	strong	animate	méǵh₂m̥s	महान्	mahā́n	μεγᾰ́λους	megálous 	больши́х	bolʹšíx	magnōs 	miċele 	𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	singular	feminine	accusative	strong	animate	méǵh₂ih₂m̥ 	महाम्	mahā́m 	μεγᾰ́λην	megálēn 	большу́ю	bolʹšúju	magnam 	miċele 	𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	dual	feminine	accusative	strong	animate	méǵh₂ih₂h₁(e) 	महे	mahé 	μεγᾰ́λᾱ	megálā 					𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	plural	feminine	accusative	strong	animate	méǵh₂ih₂m̥s	महाः	mahā́ḥ	μεγᾰ́λᾱς	megálās 	больши́х	bolʹšíx	magnās 	miċela|miċele 	𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	singular	neuter	accusative	strong	animate	méǵh₂ 	महम्	mahám 	μέγᾰ	méga 	большо́е	bolʹšóje	magnum 	miċel	𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	dual	neuter	accusative	strong	animate	méǵh₂ih₁ 	महे	mahé 	μεγᾰ́λω	megálō 					𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	plural	neuter	accusative	strong	animate	méǵh₂h₂	महानि	mahā́ni	μεγᾰ́λᾰ	megála	больши́х	bolʹšíx	magna	miċel	𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	singular	masculine	accusative	strong	inanimate						большо́й	bolʹšój			𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	dual	masculine	accusative	strong	inanimate										𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	plural	masculine	accusative	strong	inanimate						больши́е	bolʹšíje		 	𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	singular	feminine	accusative	strong	inanimate						большу́ю	bolʹšúju			𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	dual	feminine	accusative	strong	inanimate										𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	plural	feminine	accusative	strong	inanimate						больши́е	bolʹšíje			𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	singular	neuter	accusative	strong	inanimate						большо́е	bolʹšóje			𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	dual	neuter	accusative	strong	inanimate										𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+big	3	plural	neuter	accusative	strong	inanimate						больши́е	bolʹšíje			𓉻𓂝𓄿𓏜	ꜥꜣ(i)	#						
+loud	3	singular	masculine	accusative	strong	animate	ḱlewtom	महम्	mahám 	μέγᾰν	mégan 	гро́мкого	grómkovo	magnum 	hlūdne 	𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#	 for nominatives of audibles	 most translations are equivalent to 'great'				
+loud	3	dual	masculine	accusative	strong	animate	ḱlewtóh₁     	महौ	mahaú 	μεγᾰ́λω	megálō 					𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#	"egyptian is closer to ""noisy"""					
+loud	3	plural	masculine	accusative	strong	animate	ḱlewtóms     	महान्	mahā́n	μεγᾰ́λους	megálous 	гро́мких	grómkix	magnōs 	hlūde 	𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	singular	feminine	accusative	strong	animate	ḱlewtā́m   	महाम्	mahā́m 	μεγᾰ́λην	megálēn 	гро́мкую	grómkuju 	magnam 	hlūde 	𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	dual	feminine	accusative	strong	animate	ḱlewtéh₂h₁(e)	महे	mahé 	μεγᾰ́λᾱ	megálā 					𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	plural	feminine	accusative	strong	animate	ḱlewtéh₂m̥s  	महाः	mahā́ḥ	μεγᾰ́λᾱς	megálās 	гро́мких	grómkix	magnās 	hlūda|hlūde	𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	singular	neuter	accusative	strong	animate	ḱlewtóm    	महम्	mahám 	μέγᾰ	méga 	гро́мкое	grómkoje	magnum 	hlūd	𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	dual	neuter	accusative	strong	animate	ḱlewtóy(h₁)  	महे	mahé 	μεγᾰ́λω	megálō 					𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	plural	neuter	accusative	strong	animate	ḱlewtéh₂     	महानि	mahā́ni	μεγᾰ́λᾰ	megála	гро́мких	grómkix	magna	hlūd	𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	singular	masculine	accusative	strong	inanimate						гро́мкий	grómkij			𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	dual	masculine	accusative	strong	inanimate										𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	plural	masculine	accusative	strong	inanimate						гро́мкие	grómkije			𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	singular	feminine	accusative	strong	inanimate						гро́мкую	grómkuju 			𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	dual	feminine	accusative	strong	inanimate										𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	plural	feminine	accusative	strong	inanimate						гро́мкие	grómkije			𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	singular	neuter	accusative	strong	inanimate						гро́мкое	grómkoje			𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	dual	neuter	accusative	strong	inanimate										𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+loud	3	plural	neuter	accusative	strong	inanimate						гро́мкие	grómkije			𓆈𓄿𓏥𓊤𓍢𓀁	ꜥsꜣ-hrw	#						
+sound	3	singular		nominative	strong	animate	swónh₂os	स्वरः	sváraḥ	φθόγγος	phthóngos	зву́к	zvúk	sonus	swēġ	𓊤𓅱𓀁	hrw	#	 for genitives of audibles	"egyptian is closer to ""noise"""				
 size	3	singular		nominative	strong	animate	méh₁tis 	मानम्	mā́nam	μέγεθος	mégethos	разме́р	razmér	magnitūdō	miċelnes			#	 for genitives of visibles	 PIE is closer to 'measurement'				
-thought	3	singular		nominative	strong	animate	tóngos	धीः	dhī́ḥ	ἰδέᾱ	idéā	иде́я	idéja	idea	þōht			#	 for genitives of concepts and miscellaneous nouns					
-thought	3	singular		accusative	strong	animate	tóngom	धियम्	dhíyam	ἰδέᾱν	idéān	иде́ю	idéju	ideam	þōht			#	 'his thought': for demonstrating motion to/from a concept					
-attention	3	singular		accusative	strong	animate	méntim	अवधान	avadhāna	φροντῐ́ς 	phrontís	внима́ние	vnimánije	attentiōnem	begíemenne			#	 'his attention': for demonstrating motion to/from an audible or visible that cannot be reached	 PIE is closer to 'thoughts'				
+thought	3	singular		nominative	strong	animate	tóngos	धीः	dhī́ḥ	ἰδέᾱ	idéā	иде́я	idéja	idea	þōht	𓎡𓄿𓏏𓀁	kꜣt	#	 for genitives of concepts and miscellaneous nouns					
+thought	3	singular		accusative	strong	animate	tóngom	धियम्	dhíyam	ἰδέᾱν	idéān	иде́ю	idéju	ideam	þōht	𓎡𓄿𓏏𓀁	kꜣt	#	 'his thought': for demonstrating motion to/from a concept					
+attention	3	singular		accusative	strong	animate	méntim	अवधान	avadhāna	φροντῐ́ς 	phrontís	внима́ние	vnimánije	attentiōnem	begíemenne		wy n	#	 'his attention': for demonstrating motion to/from an audible or visible that cannot be reached	" PIE is closer to 'thoughts', ""direct his attention to"" in egyptian should be ""rdi ib hnt"" or lit. ""give attention to"""				
 his	3	singular		possessive	strong	animate	ésyo	तस्य	tasya	τοῦ	toû	его́	jevó	eius	his			#	 'his attention': for demonstrating motion to/from an audible or visible that cannot be reached					
 																								
 																								

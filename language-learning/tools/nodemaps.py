@@ -70,8 +70,9 @@ class ListGrammar:
 
 class RuleSyntax:
     """
-    `RuleGrammar` is a library of functions that can be used in conjunction with `RuleTrees` 
-    to perform operations on a syntax tree of rules that encapsulate the grammar of a natural language.
+    `RuleSyntax` is a library of functions that can be used in conjunction with 
+    `RuleTrees` to perform operations on a syntax tree of rules that encapsulate 
+    the syntax of a natural language.
     Examples include word translation, verb conjugation, noun and adjective declension, 
     and the structuring of clauses and noun phrases.
     """
@@ -80,18 +81,26 @@ class RuleSyntax:
     def order_clause(self, treemap, clause):
         rules = clause.content
         # rules = [element for element in clause.content if isinstance(element, Rule)]
-        verbs = [phrase for phrase in rules if phrase.tag in {'vp'}]
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
         subject_roles = {'solitary','agent'}
         direct_object_roles = {'theme','patient'}
         indirect_object_roles = {'indirect-object'}
         nonmodifier_roles = {*subject_roles, *direct_object_roles, *indirect_object_roles}
-        phrase_lookup = {
-            'verb':            verbs,
-            'subject':         [noun for noun in nouns if noun.tags['role'] in subject_roles],
+        subjects = [noun for noun in nouns if noun.tags['role'] in subject_roles]
+        enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
+        proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
+        noun_lookup = {
             'direct-object':   [noun for noun in nouns if noun.tags['role'] in direct_object_roles],
             'indirect-object': [noun for noun in nouns if noun.tags['role'] in indirect_object_roles],
             'modifiers':       [noun for noun in nouns if noun.tags['role'] not in nonmodifier_roles],
+        }
+        verbs = [phrase
+            for phrase in rules 
+            if phrase.tag in {'vp'}]
+        phrase_lookup = {
+            **noun_lookup,
+            'subject': subjects,
+            'verb': verbs,
         }
         return Rule(clause.tag, 
             clause.tags,
@@ -103,7 +112,7 @@ class RuleSyntax:
     def order_noun_phrase(self, treemap, phrase):
         # rules = [element for element in phrase.content if isinstance(element, Rule)]
         return Rule(phrase.tag, 
-            phrase.tags,
+            phrase.tags, 
             treemap.map([
                 content for content in phrase.content 
                 if not isinstance(content,Rule) or 

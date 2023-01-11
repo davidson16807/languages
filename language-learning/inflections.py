@@ -113,6 +113,7 @@ tagaxis_to_tags = {
     'role': [
         'solitary', # the subject of an intransitive verb
         'agent',    # the subject of a transitive verb
+        'predicand',# the subject of a copulative verb
         'patient',  # the direct object of an active verb
         'theme',    # the direct object of a stative verb
         'possessor', 'location', 'extent', 'vicinity', 'interior', 'surface', 
@@ -162,15 +163,15 @@ tagaxis_to_tags = {
     # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage aspect", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     # how long the event occurs for
-    'duration':            'momentary protracted indefinite'.split(), 
+    'duration':            'brief protracted indefinite'.split(), 
     # how consistently the event occurs
-    'consistency':         'incessant static habit custom repeatedly experiential'.split(), 
+    'consistency':         'constancy habit custom repetition experience'.split(), 
     # whether the event has intermediate states
     'atomicity':           'atomic nonatomic'.split(), 
     # whether the event is part of a series of events
     'series-partitivity':  'series-partitive series-nonpartitive'.split(),
-    # whether the event has affects that persist after its occurrence, and for how long
-    'persistance':         'resultant persistant impermanent'.split(),
+    # whether the event has affects that linger after its occurrence, and for how long
+    'persistance':         'nonresultant resultant persistant'.split(),
     # how far along the nonatomic event is, and what action has been taken on its progress
     'progress':            'started progressing paused arrested resumed continued finished'.split(),
     # whether the event occurs in the recent past/future
