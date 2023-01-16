@@ -197,3 +197,57 @@ burn	active	2	plural	latin	warduma 	wardumat 	wartumat	#	irregular
 burn	active	3	plural	cuneiform	𒉿𒊏𒀭𒋫𒊑 	𒉿𒊏𒀭𒋫𒀜 	𒀀𒀭𒋫𒊒	#	irregular			
 burn	active	3	plural	transliteration	wa-ra-an-ta-ri 	wa-ra-an-ta-at 	wa-ra-an-ta-ru 	#	irregular			
 burn	active	3	plural	latin	warantari 	warantat 	warantaru	#	irregular			
+live	active	1	singular	cuneiform	𒄷𒍑𒈪 	𒄷𒍑𒋗𒌦 	𒄷𒍑𒊭𒀠𒇻	#		needed for declension templates		
+live	active	1	singular	transliteration	ḫu-uš-mi 	ḫu-uš-šu-un 	ḫu-uš-ša-al-lu	#		needed for declension templates		
+live	active	1	singular	latin	ḫušmi 	ḫušnun 	ḫuššallu	#		needed for declension templates		
+live	active	2	singular	cuneiform	𒄷𒍑𒋾 	𒄷𒍑𒋫 	𒄷𒍑	#		needed for declension templates		
+live	active	2	singular	transliteration	ḫu-uš-ti 	ḫu-uš-ta 	ḫu-uš	#		needed for declension templates		
+live	active	2	singular	latin	ḫušti 	ḫušt 	ḫuš	#		needed for declension templates		
+live	active	3	singular	cuneiform	𒄷𒍑𒍣 	𒄷𒍑𒋫 	𒄷𒍑𒁺	#		needed for declension templates		
+live	active	3	singular	transliteration	ḫu-uš-zi 	ḫu-uš-ta 	ḫu-uš-du	#		needed for declension templates		
+live	active	3	singular	latin	ḫušzi 	ḫušt 	ḫušdu	#		needed for declension templates		
+live	active	1	plural	cuneiform	𒄷𒍑𒋗𒉿𒉌 	𒄷𒍑𒋗𒂗 	𒄷𒍑𒋗𒉿𒉌	#		needed for declension templates		
+live	active	1	plural	transliteration	ḫu-uš-šu-wa-ni 	ḫu-uš-šu-en 	ḫu-uš-šu-wa-ni	#		needed for declension templates		
+live	active	1	plural	latin	ḫuššuani 	ḫuššuen 	ḫuššuani	#		needed for declension templates		
+live	active	2	plural	cuneiform	𒄷𒍑𒋫𒉌 	𒄷𒍑𒋼𒂗 	𒄷𒍑𒋼𒂗	#		needed for declension templates		
+live	active	2	plural	transliteration	ḫu-uš-ta-ni 	ḫu-uš-te-en 	ḫu-uš-te-en	#		needed for declension templates		
+live	active	2	plural	latin	ḫuštani 	ḫušten 	ḫušten	#		needed for declension templates		
+live	active	3	plural	cuneiform	𒄷𒍑𒊭𒀭𒍣 	𒄷𒍑𒊺𒅕 	𒄷𒍑𒊭𒀭𒁺	#		needed for declension templates		
+live	active	3	plural	transliteration	ḫu-uš-šan-zi 	ḫu-uš-še-er 	ḫu-uš-ša-an-du	#		needed for declension templates		
+live	active	3	plural	latin	ḫuššanzi 	ḫuššer 	ḫuššandu	#		needed for declension templates		
+heal	active	1	singular	cuneiform	𒈪𒉡𒈪 	𒈪𒉡𒌦 	𒈪𒉡𒀠𒇻	#		needed for declension templates		
+heal	active	1	singular	transliteration	mi-nu-mi 	mi-nu-un 	mi-nu-al-lu	#		needed for declension templates		
+heal	active	1	singular	latin	minumi 	minunun 	minuwallu	#		needed for declension templates		
+heal	active	2	singular	cuneiform	𒈪𒉡𒅆 	𒈪𒉡𒋫 	𒈪𒉡	#		needed for declension templates		
+heal	active	2	singular	transliteration	mi-nu-ši 	mi-nu-ut 	mi-nu	#		needed for declension templates		
+heal	active	2	singular	latin	minuši 	minut 	minu	#		needed for declension templates		
+heal	active	3	singular	cuneiform	𒈪𒉡𒊻𒍣 	𒈪𒉡𒋫 	𒈪𒉡𒁺	#		needed for declension templates		
+heal	active	3	singular	transliteration	mi-nu-uz-zi 	mi-nu-ut 	mi-nu-ud-du	#		needed for declension templates		
+heal	active	3	singular	latin	minuzzi 	minut 	minuddu	#		needed for declension templates		
+heal	active	1	plural	cuneiform	𒈪𒉡𒈠𒉌 	𒈪𒉡𒈨𒂗 	𒈪𒉡𒈠𒉌	#		needed for declension templates		
+heal	active	1	plural	transliteration	mi-nu-ma-ni 	mi-nu-me-en 	mi-nu-ma-ni	#		needed for declension templates		
+heal	active	1	plural	latin	minumani 	minumen 	minumani	#		needed for declension templates		
+heal	active	2	plural	cuneiform	𒈪𒉡𒋫𒉌 	𒈪𒉡𒋼𒂗 	𒈪𒉡𒋼𒂗	#		needed for declension templates		
+heal	active	2	plural	transliteration	mi-nu-ut-ta-ni 	mi-nu-ut-te-en 	mi-nu-ut-te-en	#		needed for declension templates		
+heal	active	2	plural	latin	minuttani 	minutten 	minutten	#		needed for declension templates		
+heal	active	3	plural	cuneiform	𒈪𒉡𒀭𒍣 	𒈪𒉡𒅕 	𒈪𒉡𒀭𒁺	#		needed for declension templates		
+heal	active	3	plural	transliteration	mi-nu-an-zi 	mi-nu-er 	mi-nu-an-du	#		needed for declension templates		
+heal	active	3	plural	latin	minuwanzi 	minuer 	minuwandu	#		needed for declension templates		
+heal	middle	1	singular	cuneiform	𒈪𒉡𒄴𒄩𒊑 	𒈪𒉡𒄴𒄩𒀜 	𒈪𒉡𒄴𒄩𒊒	#		needed for declension templates		
+heal	middle	1	singular	transliteration	mi-nu-uḫ-ḫa-ri 	mi-nu-uḫ-ḫa-at 	mi-nu-uḫ-ḫa-ru	#		needed for declension templates		
+heal	middle	1	singular	latin	minuḫḫari 	minuḫḫat 	minuḫḫaru	#		needed for declension templates		
+heal	middle	2	singular	cuneiform	𒈪𒉡𒌓𒋫𒊑 	𒈪𒉡𒌓𒋫𒀜 	𒈪𒉡𒄴𒄷𒌓	#		needed for declension templates		
+heal	middle	2	singular	transliteration	mi-nu-ut-ta-ri 	mi-nu-ut-ta-at 	mi-nu-ḫu-ut	#		needed for declension templates		
+heal	middle	2	singular	latin	minuttari 	minutat 	minuḫḫut	#		needed for declension templates		
+heal	middle	3	singular	cuneiform	𒈪𒉡𒀀𒊑, 𒈪𒉡𒌓𒋫𒊑 	𒈪𒉡𒌓𒋫𒀜 	𒈪𒉡𒀀𒊒, 𒈪𒉡𒌓𒋫𒊒	#		needed for declension templates		
+heal	middle	3	singular	transliteration	mi-nu-a-ri, mi-nu-ut-ta-ri 	mi-nu-ut-ta-at 	mi-nu-a-ru, mi-nu-ut-ta-ru	#		needed for declension templates		
+heal	middle	3	singular	latin	minuari, minuttari 	minutat 	minuwaru, minuttaru	#		needed for declension templates		
+heal	middle	1	plural	cuneiform	𒈪𒉡𒈠𒀸𒋫 	𒈪𒉡𒈠𒀸𒋫𒀜 	𒈪𒉡𒈠𒀸𒋫𒀜	#		needed for declension templates		
+heal	middle	1	plural	transliteration	mi-nu-ma-aš-ta 	mi-nu-ma-aš-ta-at 	mi-nu-ma-aš-ta-at	#		needed for declension templates		
+heal	middle	1	plural	latin	minumašta 	minumaštat 	minumaštat	#		needed for declension templates		
+heal	middle	2	plural	cuneiform	𒈪𒉡𒌓𒁺𒈠 	𒈪𒉡𒌓𒁺𒈠𒀜 	𒈪𒉡𒌓𒌅𒈠𒀜	#		needed for declension templates		
+heal	middle	2	plural	transliteration	mi-nu-ud-du-ma 	mi-nu-ud-du-ma-at 	mi-nu-tu-ma-at	#		needed for declension templates		
+heal	middle	2	plural	latin	minudduma 	minudumat 	minuttumat	#		needed for declension templates		
+heal	middle	3	plural	cuneiform	𒈪𒉡𒀭𒋫𒊑 	𒈪𒉡𒀭𒋫𒀜 	𒈪𒉡𒀭𒋫𒊒	#		needed for declension templates		
+heal	middle	3	plural	transliteration	mi-nu-an-ta-ri 	mi-nu-an-ta-at 	mi-nu-an-ta-ru 	#		needed for declension templates		
+heal	middle	3	plural	latin	minuanttari 	minuantat 	minuantaru	#		needed for declension templates		

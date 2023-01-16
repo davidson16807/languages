@@ -64,6 +64,9 @@ be	relatable	can	love
 be	relatable	can	be-loved		
 be	relatable	can	be-spoken-to		
 					
+be	human	be	relatable		
+be	pet	be	relatable		
+					
 be	anthropomorphizable	be	nonhuman	"#""anthropomorphizable"": a nonhuman entity that is able to be empathized with"	
 be	anthropomorphizable	be	relatable		
 					

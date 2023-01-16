@@ -1,58 +1,61 @@
-*	*	*	*	*	masculine	masculine	feminine	feminine	#	middle
-					hieroglyphs	latin	hieroglyphs	latin	#	
-personal	predicate	tonic	singular	1	𓏌𓎡𓀀	ink	𓏌𓎡𓀀	ink	#	"""independant"""
-personal	predicate	tonic	singular	2	𓈖𓏏𓎡	ntk	𓈖𓏏𓍿/𓈖𓏏𓏏	ntṯ/ntt	#	"""independant"""
-personal	predicate	tonic	singular	3	𓈖𓏏𓆑	ntf	𓈖𓏏𓋴/𓈖𓏏𓊃	nts	#	"""independant"""
-personal	predicate	tonic	plural	1	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	#	"""independant"""
-personal	predicate	tonic	plural	2	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	#	"""independant"""
-personal	predicate	tonic	plural	3	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	#	"""independant"""
-personal	possessor	tonic	singular	1	𓏌𓎡𓀀	ink	𓏌𓎡𓀀	ink	#	"""independant"""
-personal	possessor	tonic	singular	2	𓈖𓏏𓎡	ntk	𓈖𓏏𓍿/𓈖𓏏𓏏	ntṯ/ntt	#	"""independant"""
-personal	possessor	tonic	singular	3	𓈖𓏏𓆑	ntf	𓈖𓏏𓋴/𓈖𓏏𓊃	nts	#	"""independant"""
-personal	possessor	tonic	plural	1	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	#	"""independant"""
-personal	possessor	tonic	plural	2	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	#	"""independant"""
-personal	possessor	tonic	plural	3	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	"#	"	"""independant"""
-personal	solitary	enclitic	singular	1	𓀀/𓇋	i	𓀀/𓇋	i	#	"""suffix"""
-personal	solitary	enclitic	singular	2	𓎡	k	𓍿/𓏏	ṯ/t	#	"""suffix"""
-personal	solitary	enclitic	singular	3	𓆑	f	𓋴	s	#	"""suffix"""
-personal	solitary	enclitic	plural	1	𓈖𓏥	n	𓈖𓏥	n	#	"""suffix"""
-personal	solitary	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	#	"""suffix"""
-personal	solitary	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	#	"""suffix"""
-personal	agent	enclitic	singular	1	𓀀/𓇋	i	𓀀/𓇋	i	#	"""suffix"""
-personal	agent	enclitic	singular	2	𓎡	k	𓍿/𓏏	ṯ/t	#	"""suffix"""
-personal	agent	enclitic	singular	3	𓆑	f	𓋴	s	#	"""suffix"""
-personal	agent	enclitic	plural	1	𓈖𓏥	n	𓈖𓏥	n	#	"""suffix"""
-personal	agent	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	#	"""suffix"""
-personal	agent	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	"#	"	"""suffix"""
-personal	possessor	enclitic	singular	1	𓀀/𓇋	i	𓀀/𓇋	i	#	"""suffix"""
-personal	possessor	enclitic	singular	2	𓎡	k	𓍿/𓏏	ṯ/t	#	"""suffix"""
-personal	possessor	enclitic	singular	3	𓆑	f	𓋴	s	#	"""suffix"""
-personal	possessor	enclitic	plural	1	𓈖𓏥	n	𓈖𓏥	n	#	"""suffix"""
-personal	possessor	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	#	"""suffix"""
-personal	possessor	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	"#	"	"""suffix"""
-personal	oblique	enclitic	singular	1	𓀀/𓇋	i	𓀀/𓇋	i	#	"""suffix"""
-personal	oblique	enclitic	singular	2	𓎡	k	𓍿/𓏏	ṯ/t	#	"""suffix"""
-personal	oblique	enclitic	singular	3	𓆑	f	𓋴	s	#	"""suffix"""
-personal	oblique	enclitic	plural	1	𓈖𓏥	n	𓈖𓏥	n	#	"""suffix"""
-personal	oblique	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	#	"""suffix"""
-personal	oblique	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	#	"""suffix"""
-personal	possession	enclitic	singular	1	𓅱𓀀/𓏲𓀀	wi			#	"""dependant"""
-personal	possession	enclitic	singular	2	𓍿𓅱/𓏏𓅱	ṯw	𓍿𓈖/𓏏𓈖	ṯn	#	"""dependant"""
-personal	possession	enclitic	singular	3	𓇓𓅱	sw	𓋴𓏭/𓊃𓏭	sy	#	"""dependant"""
-personal	possession	enclitic	plural	1	𓈖𓏥	n	𓈖𓏥	n	#	"""dependant"""
-personal	possession	enclitic	plural	2	𓍿𓈖𓏥	ṯn	𓍿𓈖𓏥	ṯn	#	"""dependant"""
-personal	possession	enclitic	plural	3	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	#	"""dependant"""
-personal	predicand	enclitic	singular	1	𓅱𓀀/𓏲𓀀	wi			#	"""dependant"""
-personal	predicand	enclitic	singular	2	𓍿𓅱/𓏏𓅱	ṯw	𓍿𓈖/𓏏𓈖	ṯn	#	"""dependant"""
-personal	predicand	enclitic	singular	3	𓇓𓅱	sw	𓋴𓏭/𓊃𓏭	sy	#	"""dependant"""
-personal	predicand	enclitic	plural	1	𓈖𓏥	n	𓈖𓏥	n	#	"""dependant"""
-personal	predicand	enclitic	plural	2	𓍿𓈖𓏥	ṯn	𓍿𓈖𓏥	ṯn	#	"""dependant"""
-personal	predicand	enclitic	plural	3	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	"#	"	"""dependant"""
-demonstrative	proximal		singular		𓊪𓈖 	pn	𓏏𓈖	tn	#	
-demonstrative	proximal		plural		𓇑𓇑𓈖	nn n(y)	𓇑𓇑𓈖	nn n(y)	#	
-demonstrative	distal		singular		𓊪𓆑(𓄿)	pfꜣ	𓏏𓆑(𓄿)	tfꜣ	#	
-demonstrative	distal		plural		𓈖𓆑(𓄿)𓈖	nf(ꜣ) n(y)	𓈖𓆑(𓄿)𓈖	nf(ꜣ) n(y)	#	
-demonstrative	vocative		singular		𓊪𓅱	pw	𓏏𓅱	tw	#	
-demonstrative	vocative		plural		𓈖𓅱	nw	𓈖𓅱	nw	#	
-demonstrative	anaphoric		singular		𓊪𓄿	pꜣ	𓏏𓄿	tꜣ	#	"translated as ""the"""
-demonstrative	anaphoric		plural		𓈖𓄿𓈖	nꜣ n(y)	𓈖𓄿𓈖	nꜣ n(y)	#	"translated as ""the"""
+*	*	*	*	*	masculine	masculine	masculine	feminine	feminine	feminine	#	middle
+					hieroglyphs	transliteration	latin	hieroglyphs	transliteration	latin	#	
+personal	predicate	tonic	singular	1	𓏌𓎡𓀀	ink	ʲānak	𓏌𓎡𓀀	ink	ʲānak	#	'independant'
+personal	predicate	tonic	singular	2	𓈖𓏏𓎡	ntk	ʲāntak	𓈖𓏏𓍿/𓈖𓏏𓏏	ntṯ/ntt	ʲāntat/ʲāntaṯ	#	'independant'
+personal	predicate	tonic	singular	3	𓈖𓏏𓆑	ntf	ʲāntaf	𓈖𓏏𓋴/𓈖𓏏𓊃	nts	ʲāntas	#	'independant'
+personal	predicate	tonic	plural	1	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	ʲānan	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	ʲānan	#	'independant'
+personal	predicate	tonic	plural	2	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	ʲāntatin/ʲāntaṯin	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	ʲāntatin/ʲāntaṯin	#	'independant'
+personal	predicate	tonic	plural	3	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	ʲāntasin	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	ʲāntasin	#	'independant'
+personal	possessor	tonic	singular	1	𓏌𓎡𓀀	ink	ʲānak	𓏌𓎡𓀀	ink	ʲānak	#	'independant'
+personal	possessor	tonic	singular	2	𓈖𓏏𓎡	ntk	ʲāntak	𓈖𓏏𓍿/𓈖𓏏𓏏	ntṯ/ntt	ʲāntat/ʲāntaṯ	#	'independant'
+personal	possessor	tonic	singular	3	𓈖𓏏𓆑	ntf	ʲāntaf	𓈖𓏏𓋴/𓈖𓏏𓊃	nts	ʲāntas	#	'independant'
+personal	possessor	tonic	plural	1	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	ʲānan	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	ʲānan	#	'independant'
+personal	possessor	tonic	plural	2	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	ʲāntatin/ʲāntaṯin	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	ʲāntatin/ʲāntaṯin	#	'independant'
+personal	possessor	tonic	plural	3	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	ʲāntasin	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	ʲāntasin	"#	"	'independant'
+personal	agent	enclitic	singular	1	𓀀/𓇋	i	aʲ	𓀀/𓇋	i	aʲ	#	'suffix'
+personal	agent	enclitic	singular	2	𓎡	k	k	𓍿/𓏏	ṯ/t	t/ṯ	#	'suffix'
+personal	agent	enclitic	singular	3	𓆑	f	f	𓋴	s	s	#	'suffix'
+personal	agent	enclitic	dual	1	𓈖𓏭	ny	iniʲ	𓈖𓏭	ny	iniʲ	#	'suffix'
+personal	agent	enclitic	dual	2	𓏏𓈖𓏭	tny	tiniʲ/ṯiniʲ	𓏏𓈖𓏭	tny	tiniʲ/ṯiniʲ	#	'suffix'
+personal	agent	enclitic	dual	3	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	#	'suffix'
+personal	agent	enclitic	plural	1	𓈖𓏥	n	ina/in	𓈖𓏥	n	ina/in	#	'suffix'
+personal	agent	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	#	'suffix'
+personal	agent	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	"#	"	'suffix'
+personal	possessor	enclitic	singular	1	𓀀/𓇋	i	aʲ	𓀀/𓇋	i	aʲ	#	'suffix'
+personal	possessor	enclitic	singular	2	𓎡	k	k	𓍿/𓏏	ṯ/t	t/ṯ	#	'suffix'
+personal	possessor	enclitic	singular	3	𓆑	f	f	𓋴	s	s	#	'suffix'
+personal	possessor	enclitic	dual	1	𓈖𓏭	ny	iniʲ	𓈖𓏭	ny	iniʲ	#	'suffix'
+personal	possessor	enclitic	dual	2	𓏏𓈖𓏭	tny	tiniʲ/ṯiniʲ	𓏏𓈖𓏭	tny	tiniʲ/ṯiniʲ	#	'suffix'
+personal	possessor	enclitic	dual	3	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	#	'suffix'
+personal	possessor	enclitic	plural	1	𓈖𓏥	n	ina/in	𓈖𓏥	n	ina/in	#	'suffix'
+personal	possessor	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	#	'suffix'
+personal	possessor	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	"#	"	'suffix'
+personal	oblique	enclitic	singular	1	𓀀/𓇋	i	aʲ	𓀀/𓇋	i	aʲ	#	'suffix'
+personal	oblique	enclitic	singular	2	𓎡	k	k	𓍿/𓏏	ṯ/t	t/ṯ	#	'suffix'
+personal	oblique	enclitic	singular	3	𓆑	f	f	𓋴	s	s	#	'suffix'
+personal	oblique	enclitic	dual	1	𓈖𓏭	ny	iniʲ	𓈖𓏭	ny	iniʲ	#	'suffix'
+personal	oblique	enclitic	dual	2	𓏏𓈖𓏭	tny	tiniʲ/ṯiniʲ	𓏏𓈖𓏭	tny	tiniʲ/ṯiniʲ	#	'suffix'
+personal	oblique	enclitic	dual	3	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	#	'suffix'
+personal	oblique	enclitic	plural	1	𓈖𓏥	n	ina/in	𓈖𓏥	n	ina/in	#	'suffix'
+personal	oblique	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	#	'suffix'
+personal	oblique	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	#	'suffix'
+personal	possession	enclitic	singular	1	𓅱𓀀/𓏲𓀀	wi	wuʲ	𓅱𓀀/𓏲𓀀	wi	wuʲ	#	'dependant'
+personal	possession	enclitic	singular	2	𓍿𓅱/𓏏𓅱	ṯw	kuw/ṯuw	𓍿𓈖/𓏏𓈖	ṯn	ṯim/tin/ṯin	#	'dependant'
+personal	possession	enclitic	singular	3	𓇓𓅱	sw	suw	𓋴𓏭/𓊃𓏭	sy	siʲ	#	'dependant'
+personal	possession	enclitic	plural	1	𓈖𓏥	n	ina/in	𓈖𓏥	n	ina/in	#	'dependant'
+personal	possession	enclitic	plural	2	𓍿𓈖𓏥	ṯn	tin/ṯin	𓍿𓈖𓏥	ṯn	tin/ṯin	#	'dependant'
+personal	possession	enclitic	plural	3	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	#	'dependant'
+personal	predicand	enclitic	singular	1	𓅱𓀀/𓏲𓀀	wi	wuʲ	𓅱𓀀/𓏲𓀀	wi	wuʲ	#	'dependant'
+personal	predicand	enclitic	singular	2	𓍿𓅱/𓏏𓅱	ṯw	kuw/ṯuw	𓍿𓈖/𓏏𓈖	ṯn	ṯim/tin/ṯin	#	'dependant'
+personal	predicand	enclitic	singular	3	𓇓𓅱	sw	suw	𓋴𓏭/𓊃𓏭	sy	siʲ	#	'dependant'
+personal	predicand	enclitic	plural	1	𓈖𓏥	n	ina/in	𓈖𓏥	n	ina/in	#	'dependant'
+personal	predicand	enclitic	plural	2	𓍿𓈖𓏥	ṯn	tin/ṯin	𓍿𓈖𓏥	ṯn	tin/ṯin	#	'dependant'
+personal	predicand	enclitic	plural	3	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	"#	"	'dependant'
+demonstrative	proximal		singular		𓊪𓈖 	pn		𓏏𓈖	tn		#	
+demonstrative	proximal		plural		𓇑𓇑𓈖	nn n(y)		𓇑𓇑𓈖	nn n(y)		#	
+demonstrative	distal		singular		𓊪𓆑(𓄿)	pfꜣ		𓏏𓆑(𓄿)	tfꜣ		#	
+demonstrative	distal		plural		𓈖𓆑(𓄿)𓈖	nf(ꜣ) n(y)		𓈖𓆑(𓄿)𓈖	nf(ꜣ) n(y)		#	
+demonstrative	vocative		singular		𓊪𓅱	pw		𓏏𓅱	tw		#	
+demonstrative	vocative		plural		𓈖𓅱	nw		𓈖𓅱	nw		#	
+demonstrative	anaphoric		singular		𓊪𓄿	pꜣ		𓏏𓄿	tꜣ		#	translated as 'the'
+demonstrative	anaphoric		plural		𓈖𓄿𓈖	nꜣ n(y)		𓈖𓄿𓈖	nꜣ n(y)		#	translated as 'the'

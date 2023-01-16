@@ -1,20 +1,26 @@
 
 DONE:
-finite conjugation
-noun declension
-pronoun declension
-adpositions
-adjective agreement 	declined→[adjective declined]
-articles 				art→[cloze art]
-pronoun possessives 	declined→[possessive declined]
-infinitive conjugation 	custom templates
-participles         	generalize library currently used for english auxillaries
-moods                   reimplement
+* finite conjugation
+* noun declension
+* pronoun declension
+* adpositions
+* adjective agreement     declined→[adjective declined]
+* articles                art→[cloze art]
+* pronoun possessives     declined→[possessive declined]
+* infinitive conjugation  custom templates
+* participles             generalize library currently used for english auxillaries
+* moods                   reimplement
 
-TOOD:
-gerundive           	degenerate case of participles (passive future participle, e.g. "to be written")
-gerund              	adapt declension templates for use with verb roots (indicating concepts, "-ing" or "-tion")
-supine              	adapt declension templates for use with verb roots ("accusative" indicating purpose (e.g. "for writing"), "ablative supine" indicating topic of conversation (e.g. "regarding writing"))
-correlative agreement 	declined→[correlative declined], also add logic to support questions in english
-demonstrative agreement declined→[demonstrative declined], also add logic to support questions in english
+TODO:
+* encode determiner/demonstrative/article distinction and necessity
+* support regularized inflections, affixes, and clitics
+* improve support for roles (predicand, stimulus, etc.) and verb types (copulative, existential, adjectival, etc.)
+* separation of usage aspect vs grammatical aspect
+* separation of usage mood vs grammatical mood
+
+* gerundive               degenerate case of participles (passive future participle, e.g. "to be written")
+* gerund                  adapt declension templates for use with verb roots (indicating concepts, "-ing" or "-tion")
+* supine                  adapt declension templates for use with verb roots ("accusative" indicating purpose (e.g. "for writing"), "ablative supine" indicating topic of conversation (e.g. "regarding writing"))
+* correlative agreement   declined→[correlative declined], also add logic to support questions in english
+* demonstrative agreement declined→[demonstrative declined], also add logic to support questions in english
 
