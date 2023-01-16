@@ -3,12 +3,12 @@ class DeclensionTemplateMatching:
     def __init__(self, templates, predicates):
         self.templates = templates
         self.predicates = predicates
-    def match(self, noun, motion, role):
+    def match(self, noun, tags):
         def subject(template):
             return self.predicates[template['subject-function'], template['subject-argument']]
         def declined_noun(template):
             return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
-        candidates = self.templates[motion, role] if (motion, role) in self.templates else []
+        candidates = self.templates[tags] if tags in self.templates else []
         templates = sorted([template for template in candidates
                             if self.predicates['be', noun] in declined_noun(template)],
                       key=lambda template: (-int(template['specificity']), len(declined_noun(template))))
@@ -114,7 +114,7 @@ class CardGeneration:
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
-                match = self.declension_template_matching.match(predicate, test_tags['motion'], test_tags['role'])
+                match = self.declension_template_matching.match(predicate, test_tags)
                 if match:
                     tree = self.parsing.parse(match['syntax-tree'])
                     semes = {

@@ -100,17 +100,16 @@ class DefaultDictLookup:
         if it is the only such value, otherwise return None.
         '''
         if type(key) in {tuple, str}:
-            return self.content[key]
+            if key in self.content:
+                return self.content[key]
+            else:
+                value = self.get_default(self.indexing.dictkey(key))
+                self.content[key] = value
+                return value
         else:
-            tuplekeys = [tuplekey for tuplekey in self.indexing.tuplekeys(key)]
+            tuplekeys = list(self.indexing.tuplekeys(key))
             if len(tuplekeys) == 1:
-                tuplekey = tuplekeys[0]
-                if tuplekey in self.content:
-                    return self.content[tuplekey]
-                else:
-                    value = self.get_default(self.indexing.dictkey(tuplekey))
-                    self.content[tuplekey] = value
-                    return value
+                return self.__getitem__(tuplekeys[0])
             else:
                 raise IndexError('\n'.join([
                                     'Key is ambiguous.',

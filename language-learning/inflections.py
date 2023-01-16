@@ -14,7 +14,7 @@ from tools.annotation import RowAnnotation, CellAnnotation
 from tools.predicates import Predicate
 from tools.lookup import DefaultDictLookup, DictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
-from tools.evaluation import KeyEvaluation, MultiKeyEvaluation
+from tools.evaluation import CellEvaluation, KeyEvaluation, MultiKeyEvaluation
 from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
 from tools.nodemaps import (
     ListTools, ListGrammar,
@@ -32,9 +32,11 @@ tagaxis_to_tags = {
 
     'plicity': 'implicit explicit'.split(),
 
+    # 'encoding': 'attestation transliteration pronunciation'.split(),
+
     'script': 
         # scripts that were derived from the phoenecian alphabet:
-        'latin cyrillic greek hebrew arabic phoenician ipa '
+        'latin cyrillic greek hebrew arabic phoenician ipa transliteration '
         # scripts that were derived, borrowing aesthetics from chinese logograms:
         'hirigana katakana hangul '
         # scripts that were derived from chinese logograms:
@@ -65,17 +67,17 @@ tagaxis_to_tags = {
     # 1st column: represents any of the tags that precede the entry in the middle column of that row
     # 2nd column: represents its own unique tag that excludes all preceding rows and following entries
     # 3rd column: represents any of the tags that follow the entry in the middle column of that row
-    # As an example, all "animate" things are "living" but not all "dynamic" things are "living",
+    # As an example, all "motile" things are "living" but not all "dynamic" things are "living",
     # all "static" things are "nonliving" but not all static things are "abstract",
-    # and a "plant" is "living", "dynamic", "nonagent", and "inanimate", among others.
+    # and a "plant" is "living", "dynamic", "nonagent", and "nonmotile", among others.
     'animacy':    [            'human',         'nonhuman',    # member of the species homo sapiens
-                   'rational', 'humanoid',      'nonsapient',  # having the ability to think and speak
-                   'animate',  'creature',      'inanimate',   # able to move around on its own
+                   'rational', 'humanoid',      'nonrational', # having the ability to think and speak
+                   'motile',   'creature',      'nonmotile',   # able to perceptibly move of its own will
                    'living',   'plant',         'nonliving',   # able to grow and reproduce
                    'concrete', 'manifestation', 'abstract',    # able to take physical form
                    'thing'],
     'partitivity':'nonpartitive partitive bipartitive'.split(),
-    'clitic':     'tonic proclitic mesoclitic endoclitic enclitic'.split(),
+    'clitic':     'tonic prefix suffix proclitic mesoclitic endoclitic enclitic'.split(),
     'distance':   'proximal medial distal'.split(),
 
     # needed for possessive pronouns
@@ -84,9 +86,6 @@ tagaxis_to_tags = {
     'possessor-gender':    'masculine-possessor feminine-possessor neuter-possessor'.split(),
     'possessor-clusivity': 'inclusive-possessor exclusive-possessor'.split(),
     'possessor-formality': 'familiar-possessor polite-possessor elevated-possessor formal-possessor tuteo-possessor voseo-possessor'.split(),
-
-    # needed for Sanskrit and Japanese
-    'stem':       'primary causative intensive'.split(),
 
     # needed for gerunds, supines, participles, and gerundives
     'gender':     'masculine feminine neuter'.split(),
@@ -111,20 +110,36 @@ tagaxis_to_tags = {
     #   The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage mood", etc.
     #   See README.txt and GLOSSARY.tsv for more information on these and related terms.
     'role': [
-        'solitary', # the subject of an intransitive verb
-        'agent',    # the subject of a transitive verb
-        'predicand',# the subject of a copulative verb
-        'patient',  # the direct object of an active verb
-        'theme',    # the direct object of a stative verb
-        'possessor', 'location', 'extent', 'vicinity', 'interior', 'surface', 
-        'presence', 'aid', 'lack', 'interest', 'purpose', 'possession', 
-        'time', 'state of being', 'topic', 'company', 'resemblance'],
-    # NOTE: "motion" is introduced here as a grammatical tagaxis to capture certain kinds of motion based use cases
+        # NON-INDIRECT:
+        'existential', # a noun that is declared within an existential clause
+        'solitary',    # a noun that performs the action of a intransitive verb
+        'agent',       # a sentient noun that is interacting with a "patient" or "theme"
+        'force',       # a nonsentient noun that is interacting with a "patient" or "theme"
+        'patient',     # a noun that passively undergoes a state change
+        'theme',       # a noun that is passively mentioned without undergoing a state change
+        'experiencer', # a noun that perceives a "stimulus"
+        'stimulus',    # a noun that is being perceived by an "experiencer"
+        'predicand',   # a noun that is considered part of a larger "predicate" set
+        'predicate',   # a noun that is considered to contain a smaller "predicand" set
+        # INDIRECT:
+        'audience',    # a noun that indicates the audience, i.e. the "vocative"
+        'possessor',   # a noun that owns a "possession"
+        'possession',  # a noun that is owned by a "possessor"
+        'topic',       # a noun that is indicated as the topic of conversation, could be either indirect or nonindirect, and could exist in tandem with other nonindirect roles
+        'comment',     # a noun that in some way relates to a "topic"
+        'location', 'extent', 'vicinity', 'interior', 'surface', 'subsurface', 
+        'presence', 'aid', 'lack', 'interest', 'purpose', 
+        'time', 'state of being', 'company', 'resemblance'],
+    # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
     'motion': 'departed associated acquired leveraged'.split(),
+    'transitivity': 'transitive intransitive'.split(),
+    # 'valency': 'impersonal intransitive transitivity'.split(),
+    # 'subjectivity': 'subject direct-object indirect-object'.split(),
 
-    'voice':      'active passive middle'.split(), 
+    # how the valency of the verb is modified to emphasize or deemphasize certain nouns
+    'voice':      'active passive middle antipassive applicative causative'.split(),
     # when an event occurs relative to the present
     'tense':      'present past future'.split(), 
     # when an event occurs relative to a reference in time
@@ -148,13 +163,13 @@ tagaxis_to_tags = {
     # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage mood", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
-    'implication':      'antecedant consequent positive negative'.split(),
+    'implicativity':    'antecedant consequent positive negative'.split(),
     'probability':      'probable potential improbable aprobable'.split(),
     'subject-motive':   'subject-wanted subject-unwanted'.split(),
     'speaker-motive':   'speaker-wanted speaker-unwanted'.split(),
     'speaker-emphasis': 'emphatic encouraging dispassionate'.split(),
-    'speaker-action':   'statement aspiration deferral request query proposal verification'.split(),
-    'addressee-power':  'supernatural lower apotent'.split(),
+    'speaker-action':   'statement intent deferral request query proposal verification'.split(),
+    'addressee-power':  'supernatural inferior aferior'.split(),
 
     # NOTE: "atomicity", "consistency", etc. form what is known as the "usage aspect".
     # The "usage aspect" is an instance of a broader concept that we refer to as "seme".
@@ -163,23 +178,23 @@ tagaxis_to_tags = {
     # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage aspect", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     # how long the event occurs for
-    'duration':            'brief protracted indefinite'.split(), 
+    'duration':            'short long indefinite'.split(), 
     # how consistently the event occurs
-    'consistency':         'constancy habit custom repetition experience'.split(), 
+    'consistency':         'incessant habitual customary frequent momentary'.split(), 
     # whether the event has intermediate states
     'atomicity':           'atomic nonatomic'.split(), 
     # whether the event is part of a series of events
     'series-partitivity':  'series-partitive series-nonpartitive'.split(),
     # whether the event has affects that linger after its occurrence, and for how long
-    'persistance':         'nonresultant resultant persistant'.split(),
+    'persistance':         'static impermanent persistant'.split(),
     # how far along the nonatomic event is, and what action has been taken on its progress
     'progress':            'started progressing paused arrested resumed continued finished'.split(),
     # whether the event occurs in the recent past/future
     'recency':             'recent nonrecent'.split(),
     # whether the event is associated with motion, and if so, what kind
-    'motion-direction':    'consistent-direction reversing-direction returning-direction undirected unmoving'.split(),
+    'direction':    'coherent reversing returning undirected unmoving'.split(),
     # whether the event is distributed among entities, and if so, how
-    'motion-distribution': 'centralized decentralized undistributed'.split(),
+    'distribution': 'centralized decentralized undistributed'.split(),
 
     'aspect': ['aorist', 'perfective','imperfective',
                'habitual', 'continuous',
@@ -435,11 +450,12 @@ declension_template_noun_annotation = CellAnnotation(
 mood_annotation = CellAnnotation(
     {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
 
-conjugation_population = NestedLookupPopulation(conjugation_template_lookups)
-declension_population  = NestedLookupPopulation(declension_template_lookups)
-emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleIndexing(['noun','number'])))
-emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])))
-mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])))
+cell_evaluation = CellEvaluation()
+conjugation_population = NestedLookupPopulation(conjugation_template_lookups, cell_evaluation)
+declension_population  = NestedLookupPopulation(declension_template_lookups, cell_evaluation)
+emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleIndexing(['noun','number'])), cell_evaluation)
+emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])), cell_evaluation)
+mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])), cell_evaluation)
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
@@ -542,24 +558,32 @@ declension_template_annotation = RowAnnotation([
     'emoji'])
 declension_template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
-        DictTupleIndexing(['motion','role']), lambda key:[]))
+        DictTupleIndexing(['motion','role']), lambda key:[]),
+    cell_evaluation)
 declension_templates = \
     declension_template_population.index(
         declension_template_annotation.annotate(
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
 
-case_annotation = RowAnnotation(['flag','motion','role','case','adposition'])
-case_population = FlatLookupPopulation(
-    DictLookup('usage-case-to-grammatical-case', 
-        DictTupleIndexing(['motion','role'])),
-    MultiKeyEvaluation(['case','adposition'])
+case_annotation = CellAnnotation(
+    tag_to_tagaxis, {0:'column'}, {}, {'script':'latin'})
+case_population = NestedLookupPopulation(
+    DefaultDictLookup('usage-case-to-grammatical-case', 
+        DictTupleIndexing(['motion','role']),
+        lambda dictkey: DictLookup('grammatical-case-columns',
+            DictKeyIndexing('column'))),
+    cell_evaluation
 )
+
+# annotations = tsv_parsing.rows('data/inflection/english/modern/usage-case-to-grammatical-case.tsv')
+# test = case_population.index(case_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/usage-case-to-grammatical-case.tsv')))
+# tags = {'motion':'associated','role':'agent'}
+# breakpoint()
 
 declension_verb_annotation = CellAnnotation(
     tag_to_tagaxis, {0:'language'}, {0:'verb'}, 
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
-
 
 def write(filename, rows):
     with open(filename, 'w') as file:

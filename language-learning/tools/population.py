@@ -8,7 +8,7 @@ class FlatLookupPopulation:
     The cells are indexed by their annotations according to the indexing behavior 
     within a given `template_lookup`.
     '''
-    def __init__(self, template_lookup, evaluation=lambda x:x):
+    def __init__(self, template_lookup, evaluation):
         self.template_lookup = template_lookup
         self.evaluation = evaluation
     def index(self, annotations):
@@ -29,14 +29,15 @@ class NestedLookupPopulation:
     since inner nested lookups can each use separate indexing methods,
     so that their content is a strict function of the key and nothing else.
     '''
-    def __init__(self, template_lookups, evaluation=lambda x:x):
+    def __init__(self, template_lookups, evaluation):
         self.template_lookups = template_lookups
         self.evaluation = evaluation
     def index(self, annotations):
         lookups = copy.deepcopy(self.template_lookups)
         for annotation,cell in annotations:
-            lookup = lookups[annotation]
-            lookup[annotation] = self.evaluation(cell)
+            for tuplekey in lookups.indexing.tuplekeys(annotation):
+                lookup = lookups[tuplekey]
+                lookup[annotation] = self.evaluation(cell)
         return lookups
 
 class ListLookupPopulation:
@@ -47,7 +48,7 @@ class ListLookupPopulation:
     The cells are indexed by their annotations according to the indexing behavior 
     within a given `template_lookup`.
     '''
-    def __init__(self, template_lookup, evaluation=lambda x:x):
+    def __init__(self, template_lookup, evaluation):
         self.template_lookup = template_lookup
         self.evaluation = evaluation
     def index(self, annotations):

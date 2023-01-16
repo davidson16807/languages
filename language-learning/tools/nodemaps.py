@@ -66,7 +66,8 @@ class ListGrammar:
             'case':self.use_case_to_grammatical_case[tags]['case'], 
         }
         return ([] if sememe not in self.use_case_to_grammatical_case 
-            else [content[0], self.use_case_to_grammatical_case[sememe]['adposition']])
+            else [] if 'preposition' not in self.use_case_to_grammatical_case[sememe]
+            else [content[0], self.use_case_to_grammatical_case[sememe]['preposition']])
 
 class RuleSyntax:
     """
