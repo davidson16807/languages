@@ -126,10 +126,18 @@ class RuleFormatting:
     `RuleFormatting` is a library of functions that can be used in conjunction with `RuleTrees` 
     to cast a syntax tree to a string of natural language.
     """
-    def __init__(self):
-        pass
+    def __init__(self, affix_delimiter='-'):
+        self.affix_delimiter = affix_delimiter
+        self.affix_regex = re.compile('\s*-\s*')
+        self.space_regex = re.compile('\s+')
+        self.empty_regex = re.compile('∅')
     def default(self, treemap, rule):
-        return (' '.join([str(treemap.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule).replace('∅','')
+        result = ' '.join([str(treemap.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule
+        result = self.affix_regex.sub(self.affix_delimiter, result)
+        result = self.space_regex.sub(' ', result)
+        result = self.empty_regex.sub('', result)
+        result = result.strip()
+        return result
     def cloze(self, treemap, rule):
         return '{{c'+str(1)+'::'+' '.join(str(treemap.map(element)) for element in rule.content)+'}}'
     def implicit(self, treemap, rule):
