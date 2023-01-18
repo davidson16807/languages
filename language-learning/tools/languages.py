@@ -55,8 +55,8 @@ class Language:
             'personal-possessive': {'noun-form': 'personal-possessive'},
             **semes
         }
-        tag_insertion = {tag:self.tools.tag(opcode, remove=False) for (tag, opcode) in tag_opcodes.items()}
-        tag_removal   = {tag:self.tools.tag(opcode, remove=True)  for (tag, opcode) in tag_opcodes.items()}
+        tag_insertion = {tag:self.tools.tag({**opcode,'script':script}, remove=False) for (tag, opcode) in tag_opcodes.items()}
+        tag_removal   = {tag:self.tools.tag({**opcode,'script':script}, remove=True)  for (tag, opcode) in tag_opcodes.items()}
         rules = 'clause cloze implicit parentheses det adj np vp n v stock-modifier stock-adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions

@@ -1,62 +1,62 @@
-*	*	*	case	preposition	
-#	motion	role			
-	associated	solitary	nominative		
-	associated	agent	nominative		
-	associated	audience	vocative		
-	associated	patient	accusative		
-	associated	theme	accusative		
-	associated	possessor	genitive		
-	departed	location	genitive	παρά	
-	associated	location	dative	περί	
-	acquired	location	genitive	πρός	
-#	leveraged	location	dative		
-#	departed	extent	dative		
-#	associated	extent	genitive		
-#	acquired	extent	dative		
-#	leveraged	extent	accusative	κατά	
-#	departed	vicinity	dative		
-#	associated	vicinity	genitive		
-#	acquired	vicinity	dative		
-#	leveraged	vicinity	dative		
-	departed	interior	genitive	ἐκ	
-	associated	interior	dative	ἐν	
-	acquired	interior	accusative	εἰς	
-	leveraged	interior	genitive	διά	
-#	departed	surface	dative		
-	associated	surface	dative	ἐπί	
-#	acquired	surface	dative		
-	leveraged	surface	accusative	ὑπέρ	
-#	departed	presence	dative		
-	associated	presence	genitive	πρό	
-#	acquired	presence	dative		
-#	leveraged	presence	dative		
-#	departed	aid	dative		
-	associated	aid	dative	σύν	
-	acquired	aid	genitive	ἀμφί	
-#	leveraged	aid	dative		
-#	departed	lack	dative		
-#	associated	lack	dative		
-#	acquired	lack	dative		
-#	leveraged	lack	dative		
-#	departed	interest	dative		
-#	associated	interest	genitive		
-#	acquired	interest	genitive		
-#	leveraged	interest	genitive		
-#	departed	ownership	dative		
-#	associated	ownership	genitive		
-#	acquired	ownership	dative		
-#	leveraged	ownership	dative		
-#	departed	time	dative		
-#	associated	time	dative		
-#	acquired	time	dative		
-#	leveraged	time	dative		
-#	departed	state of being	dative		
-#	associated	state of being	genitive		
-#	acquired	state of being	dative		
-#	leveraged	state of being	dative		
-#	departed	topic	dative		
-#	associated	topic	dative		
-#	acquired	topic			
-#	leveraged	topic			
-	associated	company	dative	παρά	
-#	associated	resemblance			
+*	*	*	*	case	preposition	
+#	valency	motion	role			
+	transitive	associated	solitary	nominative		
+	transitive	associated	agent	nominative		
+	transitive	associated	audience	vocative		
+	transitive	associated	patient	accusative		
+	transitive	associated	theme	accusative		
+		associated	possessor	genitive		
+		departed	location	genitive	παρά	
+		associated	location	dative	περί	
+		acquired	location	genitive	πρός	
+#		leveraged	location	dative		
+#		departed	extent	dative		
+#		associated	extent	genitive		
+#		acquired	extent	dative		
+#		leveraged	extent	accusative	κατά	
+#		departed	vicinity	dative		
+#		associated	vicinity	genitive		
+#		acquired	vicinity	dative		
+#		leveraged	vicinity	dative		
+		departed	interior	genitive	ἐκ	
+		associated	interior	dative	ἐν	
+		acquired	interior	accusative	εἰς	
+		leveraged	interior	genitive	διά	
+#		departed	surface	dative		
+		associated	surface	dative	ἐπί	
+#		acquired	surface	dative		
+		leveraged	surface	accusative	ὑπέρ	
+#		departed	presence	dative		
+		associated	presence	genitive	πρό	
+#		acquired	presence	dative		
+#		leveraged	presence	dative		
+#		departed	aid	dative		
+		associated	aid	dative	σύν	
+		acquired	aid	genitive	ἀμφί	
+#		leveraged	aid	dative		
+#		departed	lack	dative		
+#		associated	lack	dative		
+#		acquired	lack	dative		
+#		leveraged	lack	dative		
+#		departed	interest	dative		
+#		associated	interest	genitive		
+#		acquired	interest	genitive		
+#		leveraged	interest	genitive		
+#		departed	ownership	dative		
+#		associated	ownership	genitive		
+#		acquired	ownership	dative		
+#		leveraged	ownership	dative		
+#		departed	time	dative		
+#		associated	time	dative		
+#		acquired	time	dative		
+#		leveraged	time	dative		
+#		departed	state of being	dative		
+#		associated	state of being	genitive		
+#		acquired	state of being	dative		
+#		leveraged	state of being	dative		
+#		departed	topic	dative		
+#		associated	topic	dative		
+#		acquired	topic			
+#		leveraged	topic			
+		associated	company	dative	παρά	
+#		associated	resemblance			

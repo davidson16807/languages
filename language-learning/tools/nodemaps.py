@@ -45,16 +45,12 @@ class ListGrammar:
             else self.format_alternates(self.declension_lookups[sememe][sememe], tags)]
     def conjugate(self, treemap, content, tags):
         sememe = {**tags, **self.tags, 'verb':content[1]}
-        # print('conjugate')
-        # print(sememe)
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
             else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]
     def stock_modifier(self, language_type):
         def _stock_modifier(treemap, content, tags):
             sememe = {**tags, **self.tags, 'language-type': language_type}
-            # print('stock_modifier')
-            # print(sememe)
             return [content[0], 
                 None if sememe not in self.conjugation_lookups['argument']
                 else self.conjugation_lookups['argument'][sememe]]

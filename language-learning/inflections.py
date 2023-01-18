@@ -25,6 +25,8 @@ from tools.languages import Language
 from tools.writing import Writing
 from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGeneration
 
+deep_case_tagaxis_to_tags = {}
+
 tagaxis_to_tags = {
 
     # needed to lookup the argument that is used to demonstrate a verb
@@ -134,8 +136,7 @@ tagaxis_to_tags = {
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
     'motion': 'departed associated acquired leveraged'.split(),
-    'transitivity': 'transitive intransitive'.split(),
-    # 'valency': 'impersonal intransitive transitivity'.split(),
+    'valency': 'impersonal intransitive transitive'.split(),
     # 'subjectivity': 'subject direct-object indirect-object'.split(),
 
     # how the valency of the verb is modified to emphasize or deemphasize certain nouns
@@ -553,12 +554,12 @@ for (f,x),(g,y) in level0_subset_relations:
     #         allthat[h,y](allthat[h,x])
 
 declension_template_annotation = RowAnnotation([
-    'motion', 'role', 'specificity', 'syntax-tree', 
+    'flag','valency','motion', 'role', 'specificity', 'syntax-tree', 
     'adposition', 'declined-noun-function', 'declined-noun-argument',
     'emoji'])
 declension_template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
-        DictTupleIndexing(['motion','role']), lambda key:[]),
+        DictTupleIndexing(['valency','motion','role']), lambda key:[]),
     cell_evaluation)
 declension_templates = \
     declension_template_population.index(
@@ -566,19 +567,36 @@ declension_templates = \
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
 
-case_annotation = CellAnnotation(
-    tag_to_tagaxis, {0:'column'}, {}, {'script':'latin'})
+case_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
 case_population = NestedLookupPopulation(
     DefaultDictLookup('usage-case-to-grammatical-case', 
-        DictTupleIndexing(['motion','role']),
+        DictTupleIndexing(['valency','motion','role']),
         lambda dictkey: DictLookup('grammatical-case-columns',
             DictKeyIndexing('column'))),
     cell_evaluation
 )
 
+# mood_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
+# mood_population = NestedLookupPopulation(
+#     DefaultDictLookup('usage-mood-to-grammatical-mood', 
+#         DictTupleIndexing(['valency','motion','role']),
+#         lambda dictkey: DictLookup('grammatical-mood-columns',
+#             DictKeyIndexing('column'))),
+#     cell_evaluation
+# )
+
+# aspect_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
+# aspect_population = NestedLookupPopulation(
+#     DefaultDictLookup('usage-aspect-to-grammatical-aspect', 
+#         DictTupleIndexing(['valency','motion','role']),
+#         lambda dictkey: DictLookup('grammatical-aspect-columns',
+#             DictKeyIndexing('column'))),
+#     cell_evaluation
+# )
+
 # annotations = tsv_parsing.rows('data/inflection/english/modern/usage-case-to-grammatical-case.tsv')
 # test = case_population.index(case_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/usage-case-to-grammatical-case.tsv')))
-# tags = {'motion':'associated','role':'agent'}
+# tags = {'valency':'transitive','motion':'associated','role':'agent'}
 # breakpoint()
 
 declension_verb_annotation = CellAnnotation(
@@ -750,7 +768,7 @@ card_generation = CardGeneration(
 )
 
 tag_defaults = {
-    **tagaxis_to_tags,
+    'valency':    'transitive',
     
     'clitic':     'tonic',
     'clusivity':  'exclusive',
@@ -766,5 +784,8 @@ tag_defaults = {
     'mood':       'indicative',
     'tense':      'present', 
     'voice':      'active',
+    'completion': 'bare',
+
+    'verb-form':  'finite',
 }
 

@@ -8,6 +8,7 @@ from tools.nodemaps import (
     RuleValidation, RuleFormatting, RuleSyntax,
 )
 from inflections import (
+    tagaxis_to_tags,
     tsv_parsing,
     has_annotation,
     finite_annotation, nonfinite_annotation, declension_verb_annotation, 
@@ -90,9 +91,7 @@ write('flashcards/latin/finite-conjugation.html',
         DictTupleIndexing([
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
-            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
-            # categories that are constant since they are not relevant to conjugation
-            'animacy', 'strength', 'noun-form']),
+            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', ]),
         {
             **tag_defaults,
             'gender':      genders,
@@ -131,13 +130,11 @@ write('flashcards/latin/common-noun-declension.html',
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', 
-            # categories that are constant since they are not relevant to common noun declension
-            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
-            # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
+            'motion', 'role', 'number', 'noun', 'gender',]),
         {
             **tag_defaults,
+            'motion':      tagaxis_to_tags['motion'],
+            'role':        tagaxis_to_tags['role'],
             'noun':        nouns,
             'number':      numbers,
             'animacy':    'thing',
@@ -162,13 +159,11 @@ write('flashcards/latin/pronoun-declension.html',
     card_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
-            'noun', 'gender', 'person', 'number', 'motion', 'role',
-            # categories that are constant since they do not affect pronouns in the language
-            'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
-            # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
+            'noun', 'gender', 'person', 'number', 'motion', 'role',]),
         {
             **tag_defaults,
+            'motion':      tagaxis_to_tags['motion'],
+            'role':        tagaxis_to_tags['role'],
             'noun':      ['man','woman','snake'],
             'person':    ['1','2','3'],
             'gender':      genders,
@@ -213,13 +208,11 @@ write('flashcards/latin/adpositions.html',
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', 
-            # categories that are constant since they are not relevant to common noun declension
-            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
-            # categories that are constant since they are not relevant to declension
-            'strength', 'tense', 'voice', 'aspect', 'mood', 'noun-form']),
+            'motion', 'role', 'number', 'noun', 'gender', ]),
         {
             **tag_defaults,
+            'motion':      tagaxis_to_tags['motion'],
+            'role':        tagaxis_to_tags['role'],
             'role': [
                 # 'solitary', # the subject of an intransitive verb
                 # 'agent',    # the subject of a transitive verb
@@ -256,13 +249,11 @@ write('flashcards/latin/adjective-agreement.html',
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', 'adjective',
-            # categories that are constant since they are not relevant to common noun declension
-            'strength', 'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
-            # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form']),
+            'motion', 'role', 'number', 'noun', 'gender', 'adjective',]),
         {
             **tag_defaults,
+            'motion':      tagaxis_to_tags['motion'],
+            'role':        tagaxis_to_tags['role'],
             'noun':      ['man','woman','animal'] ,
             'adjective':   adjectives,
             'number':      numbers,
@@ -302,13 +293,11 @@ write('flashcards/latin/pronoun-possessives.html',
             'motion', 'role', 'number', 'noun', 'gender', 
             'possessor-gender', 'possessor-noun', 
             'possessor-clusivity', 'possessor-formality', 
-            'possessor-person', 'possessor-number',
-            # categories that are constant since they are not relevant to common noun declension
-            'strength', 'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
-            # categories that are constant since they are not relevant to declension
-            'tense', 'voice', 'aspect', 'mood', 'noun-form']),
+            'possessor-person', 'possessor-number',]),
         {
             **tag_defaults,
+            'motion':      tagaxis_to_tags['motion'],
+            'role':        tagaxis_to_tags['role'],
             'possessor-noun':   ['man','woman','snake'],
             'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
             'possessor-number': ['singular-possessor','plural-possessor'],
@@ -374,9 +363,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
         DictTupleIndexing([
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
-            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', 
-            # categories that are constant since they are not relevant to declension
-            'strength', 'animacy','noun-form']),
+            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', ]),
         {
             **tag_defaults,
             'voice':       voices,
@@ -416,15 +403,12 @@ write('flashcards/latin/participle-declension.html',
         DictTupleIndexing([
             # categories that are iterated over
             'tense', 'voice', 'aspect', 'mood', 
-            'motion', 'role', 'number', 'noun', 'gender', 'verb',
-            # categories that are constant since they are not relevant to common noun declension
-            'person', 'clusivity', 'animacy', 'clitic', 'partitivity', 'formality', 'verb-form', 
-            # categories that are constant since they are not relevant to declension
-            'strength', 'noun-form']),
+            'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
         {
             **tag_defaults,
+            'motion':      tagaxis_to_tags['motion'],
             'role':        'agent',
-            'transitivity':'transitive',
+            'valency':     'transitive',
             'verb':        verbs,
             'animacy':    'thing',
             'tense':       tenses, 

@@ -1,53 +1,52 @@
-*	*	*	case	preposition
-#	motion	role		
-	associated	solitary	nominative	
-	associated	agent	nominative	
-	associated	audience	vocative	
-	associated	patient	accusative	
-	associated	theme	accusative	
-	associated	possessor	genitive	
-	departed	location	ablative	ab
-	associated	location	accusative	apud
-	acquired	location	accusative	ad
-	leveraged	location	accusative	per
-#	departed	extent	ablative	ab
-#	associated	extent	accusative	apud
-#	acquired	extent	accusative	ad
-#	leveraged	extent	accusative	per
-#	departed	vicinity	ablative	ab
-#	associated	vicinity	accusative	apud
-#	acquired	vicinity	accusative	ad
-#	leveraged	vicinity	accusative	per
-	departed	interior	ablative	ex
-	associated	interior	accusative	intrā
-	acquired	interior	ablative	in
-	leveraged	interior	accusative	per
-	departed	surface	ablative	super
-	associated	surface	accusative	super
-	acquired	surface	ablative	super
-	leveraged	surface	accusative	trans
-#	departed	presence	ablative	coram
-	associated	presence	ablative	coram
-#	acquired	presence	accusative	coram
-	leveraged	presence	accusative	propter
-#	departed	aid	ablative	cum
-	associated	aid	ablative	cum
-#	acquired	aid	ablative	cum
-#	leveraged	aid	ablative	cum
-#	departed	lack	ablative	sine
-	associated	lack	ablative	sine
-#	acquired	lack	ablative	sine
-#	leveraged	lack	ablative	sine
-#	departed	interest	dative	
-	associated	interest	dative	
-#	acquired	interest	dative	
-	leveraged	interest	accusative	per
-	departed	time	ablative	post
-	associated	time	ablative	inter
-	acquired	time	accusative	usque ad
-	leveraged	time	accusative	inter
-#	departed	topic	ablative	
-#	associated	topic	ablative	
-#	acquired	topic	ablative	
-#	leveraged	topic	ablative	
-	associated	company	accusative	inter
+*	*	*	*	case	preposition
+#	valency	motion	role		
+	transitive	associated	agent	nominative	
+	transitive	associated	audience	vocative	
+	transitive	associated	patient	accusative	
+	transitive	associated	theme	accusative	
+		associated	possessor	genitive	
+		departed	location	ablative	ab
+		associated	location	accusative	apud
+		acquired	location	accusative	ad
+		leveraged	location	accusative	per
+#		departed	extent	ablative	ab
+#		associated	extent	accusative	apud
+#		acquired	extent	accusative	ad
+#		leveraged	extent	accusative	per
+#		departed	vicinity	ablative	ab
+#		associated	vicinity	accusative	apud
+#		acquired	vicinity	accusative	ad
+#		leveraged	vicinity	accusative	per
+		departed	interior	ablative	ex
+		associated	interior	accusative	intrā
+		acquired	interior	ablative	in
+		leveraged	interior	accusative	per
+		departed	surface	ablative	super
+		associated	surface	accusative	super
+		acquired	surface	ablative	super
+		leveraged	surface	accusative	trans
+#		departed	presence	ablative	coram
+		associated	presence	ablative	coram
+#		acquired	presence	accusative	coram
+		leveraged	presence	accusative	propter
+#		departed	aid	ablative	cum
+		associated	aid	ablative	cum
+#		acquired	aid	ablative	cum
+#		leveraged	aid	ablative	cum
+#		departed	lack	ablative	sine
+		associated	lack	ablative	sine
+#		acquired	lack	ablative	sine
+#		leveraged	lack	ablative	sine
+#		departed	interest	dative	
+		associated	interest	dative	
+#		acquired	interest	dative	
+		leveraged	interest	accusative	per
+		departed	time	ablative	post
+		associated	time	ablative	inter
+		acquired	time	accusative	usque ad
+		leveraged	time	accusative	inter
+#		departed	topic	ablative	
+#		associated	topic	ablative	
+#		acquired	topic	ablative	
+#		leveraged	topic	ablative	
+		associated	company	accusative	inter

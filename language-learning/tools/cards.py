@@ -50,7 +50,7 @@ class CardGeneration:
             persons=[],
         ):
         for tuplekey in traversal.tuplekeys(tagspace):
-            test_tags = traversal.dictkey(tuplekey)
+            test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if all([test_tags in filter_lookup for filter_lookup in filter_lookups]):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
@@ -107,7 +107,7 @@ class CardGeneration:
             tag_templates={},
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
-            test_tags = traversal.dictkey(tuplekey)
+            test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([test_tags in filter_lookup for filter_lookup in filter_lookups]) and 
                   test_tags in foreign_language_script.language.grammar.use_case_to_grammatical_case):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
