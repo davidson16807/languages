@@ -100,16 +100,17 @@ tagaxis_to_tags = {
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
 
     # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
-    #   In our analysis, the "role" forms one part of what is referred to here as "usage case".
-    #    The other part of usage case is referred to as "motion", which is defined below.
-    #   Each language has a unique map from usage case to grammatical case, 
+    #   In our analysis, the "role" forms one part of what is referred to here as "semantic case".
+    #   The other part of semantic case is referred to as "motion", which is defined below.
+    #   The term "semantic case" is used in a similar sense as "deep case" in existing literature.
+    #   The term "semantic case" is introduced both to place distinction with "role" 
+    #    and to create a paradigm where we map between language-agnostic "semantic" semes 
+    #    and language-specific "grammatical" tags.
+    #    e.g. "semantic mood" to "grammatical mood",  "semantic aspect" to "grammatical aspect", etc.
+    #   Each language has a unique map from a semantic case to grammatical case, 
     #    and it is grammatical case that language learners are typically most familiar with (e.g. nominative, ablative, etc.)
     #   Semantic roles are also categorized into "macroroles" (i.e. subject, direct-object, indirect-object, modifier) 
     #    and it is the macrorole that determines how noun phrases should be ordered within a clause.
-    #   The "usage case" is an instance of a broader concept that we refer to as "seme".
-    #   A "seme" is simply the domain of any map "seme→tag" that creates distinction 
-    #    between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
-    #   The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage mood", etc.
     #   See README.txt and GLOSSARY.tsv for more information on these and related terms.
     'role': [
         # NON-INDIRECT:
@@ -157,11 +158,11 @@ tagaxis_to_tags = {
                    'propositive', 'potential', 'conative', 'obligative',
                   ],
 
-    # NOTE: "evidentiality", "logic", "probability", etc. form what is known as the "usage mood".
-    # The "usage mood" is an instance of a broader concept that we refer to as "seme".
+    # NOTE: "evidentiality", "logic", "probability", etc. form what is known as the "semantic mood".
+    # The "semantic mood" is an instance of a broader concept that we refer to as "seme".
     # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
     #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
-    # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage mood", etc.
+    # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "deep case", "semantic mood", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
     'implicativity':    'antecedant consequent positive negative'.split(),
@@ -172,11 +173,11 @@ tagaxis_to_tags = {
     'speaker-action':   'statement intent deferral request query proposal verification'.split(),
     'addressee-power':  'supernatural inferior aferior'.split(),
 
-    # NOTE: "atomicity", "consistency", etc. form what is known as the "usage aspect".
-    # The "usage aspect" is an instance of a broader concept that we refer to as "seme".
+    # NOTE: "atomicity", "consistency", etc. form what is known as the "semantic aspect".
+    # The "semantic aspect" is an instance of a broader concept that we refer to as "seme".
     # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
     #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
-    # The names for semes are assigned here by appending "usage" to the name of whatever tag they map to, i.e. "usage case", "usage aspect", etc.
+    # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "deep case", "semantic aspect", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     # how long the event occurs for
     'duration':            'short long indefinite'.split(), 
@@ -569,7 +570,7 @@ declension_templates = \
 
 case_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
 case_population = NestedLookupPopulation(
-    DefaultDictLookup('usage-case-to-grammatical-case', 
+    DefaultDictLookup('semantic-to-grammatical-case', 
         DictTupleIndexing(['valency','motion','role']),
         lambda dictkey: DictLookup('grammatical-case-columns',
             DictKeyIndexing('column'))),
@@ -578,7 +579,7 @@ case_population = NestedLookupPopulation(
 
 # mood_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
 # mood_population = NestedLookupPopulation(
-#     DefaultDictLookup('usage-mood-to-grammatical-mood', 
+#     DefaultDictLookup('semantic-to-grammatical-mood', 
 #         DictTupleIndexing(['valency','motion','role']),
 #         lambda dictkey: DictLookup('grammatical-mood-columns',
 #             DictKeyIndexing('column'))),
@@ -587,15 +588,15 @@ case_population = NestedLookupPopulation(
 
 # aspect_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
 # aspect_population = NestedLookupPopulation(
-#     DefaultDictLookup('usage-aspect-to-grammatical-aspect', 
+#     DefaultDictLookup('semantic-to-grammatical-aspect', 
 #         DictTupleIndexing(['valency','motion','role']),
 #         lambda dictkey: DictLookup('grammatical-aspect-columns',
 #             DictKeyIndexing('column'))),
 #     cell_evaluation
 # )
 
-# annotations = tsv_parsing.rows('data/inflection/english/modern/usage-case-to-grammatical-case.tsv')
-# test = case_population.index(case_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/usage-case-to-grammatical-case.tsv')))
+# annotations = tsv_parsing.rows('data/inflection/english/modern/semantic-to-grammatical-case.tsv')
+# test = case_population.index(case_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/semantic-to-grammatical-case.tsv')))
 # tags = {'valency':'transitive','motion':'associated','role':'agent'}
 # breakpoint()
 
@@ -736,7 +737,7 @@ english = Writing(
             ]),
             case_population.index(
                 case_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/usage-case-to-grammatical-case.tsv'))),
+                    tsv_parsing.rows('data/inflection/english/modern/semantic-to-grammatical-case.tsv'))),
             {'language-type':'native'},
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),

@@ -50,7 +50,7 @@ foreign_writing = Writing(
             ]),
             case_population.index(
                 case_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/usage-case-to-grammatical-case.tsv'))),
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/semantic-to-grammatical-case.tsv'))),
             {'language-type':'foreign'},
         ),
         RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
