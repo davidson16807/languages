@@ -25,7 +25,103 @@ from tools.languages import Language
 from tools.writing import Writing
 from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGeneration
 
-deep_case_tagaxis_to_tags = {}
+'''
+Given a mathematical bundle that is encoded as a dictionary,
+`dict_bundle_to_map` returns the inverse of that bundle as a dictionary,
+i.e., a pure function that is encoded as a dictionary and maps each germ in the bundle to its respective stalk.
+'''
+def dict_bundle_to_map(bundle):
+    return {
+        germ:stalk 
+        for (stalk, germs) in bundle.items() 
+        for germ in germs
+    }
+
+case_episemaxis_to_episemes = {
+    # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
+    #   In our analysis, the "role" forms one part (an "episeme") of what is referred to here as "semantic case" (a "seme").
+    #   The other part of semantic case is referred to as "motion", which is defined below.
+    #   The term "semantic case" is used in a similar sense as "deep case" in existing literature.
+    #   The term "semantic case" is introduced both to place distinction with "role" 
+    #    and to create a paradigm where we map between language-agnostic "semantic" semes 
+    #    and language-specific "grammatical" tags, e.g. "semantic mood" to "grammatical mood",  
+    #    "semantic aspect" to "grammatical aspect", etc.
+    #   Each language has a unique map from a semantic case to grammatical case, 
+    #    and it is grammatical case that language learners are typically most familiar with (e.g. nominative, ablative, etc.)
+    #   Semantic roles are also categorized into "macroroles" (i.e. subject, direct-object, indirect-object, modifier) 
+    #    and it is the macrorole that determines how noun phrases should be ordered within a clause.
+    #   See README.txt and GLOSSARY.tsv for more information on these and related terms.
+    'role': [
+        # NON-INDIRECT:
+        'existential', # a noun that is declared within an existential clause
+        'solitary',    # a noun that performs the action of a intransitive verb
+        'agent',       # a sentient noun that is interacting with a "patient" or "theme"
+        'force',       # a nonsentient noun that is interacting with a "patient" or "theme"
+        'patient',     # a noun that passively undergoes a state change
+        'theme',       # a noun that is passively mentioned without undergoing a state change
+        'experiencer', # a noun that perceives a "stimulus"
+        'stimulus',    # a noun that is being perceived by an "experiencer"
+        'predicand',   # a noun that is considered part of a larger "predicate" set
+        'predicate',   # a noun that is considered to contain a smaller "predicand" set
+        # INDIRECT:
+        'audience',    # a noun that indicates the audience, i.e. the "vocative"
+        'possessor',   # a noun that owns a "possession"
+        'possession',  # a noun that is owned by a "possessor"
+        'topic',       # a noun that is indicated as the topic of conversation, could be either indirect or nonindirect, and could exist in tandem with other nonindirect roles
+        'comment',     # a noun that in some way relates to a "topic"
+        'location', 'extent', 'vicinity', 'interior', 'surface', 'subsurface', 
+        'presence', 'aid', 'lack', 'interest', 'purpose', 
+        'time', 'state of being', 'company', 'resemblance'],
+    # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
+    #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
+    # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
+    'motion': 'departed associated acquired leveraged'.split(),
+    'valency': 'impersonal intransitive transitive'.split(),
+    # 'subjectivity': 'subject direct-object indirect-object'.split(),
+}
+
+mood_episemaxis_to_episemes = {
+    # NOTE: "evidentiality", "logic", "probability", etc. are small parts ("episemes") to a larger part (a "seme") known as the "semantic mood".
+    # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
+    #  between the meaning that the speaker intends to convey and the grammatical decision (bijective to a set of meanings) that could be interpreted by the audience.
+    # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "semantic case", "semantic mood", etc.
+    # See README.txt and GLOSSARY.tsv for more information on these and related terms.
+    'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
+    'implicativity':    'antecedant consequent positive negative'.split(),
+    'probability':      'probable potential improbable aprobable'.split(),
+    'subject-motive':   'subject-wanted subject-unwanted'.split(),
+    'speaker-motive':   'speaker-wanted speaker-unwanted'.split(),
+    'speaker-emphasis': 'emphatic encouraging dispassionate'.split(),
+    'speaker-action':   'statement intent deferral request query proposal verification'.split(),
+    'addressee-power':  'supernatural inferior aferior'.split(),
+}
+
+aspect_episemaxis_to_episemes = {
+    # NOTE: "atomicity", "consistency", etc. form what is known as the "semantic aspect".
+    # The "semantic aspect" is an instance of a broader concept that we refer to as "seme".
+    # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
+    #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
+    # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "semantic case", "semantic aspect", etc.
+    # See README.txt and GLOSSARY.tsv for more information on these and related terms.
+    # how long the event occurs for
+    'duration':            'short long indefinite'.split(), 
+    # how consistently the event occurs
+    'consistency':         'incessant habitual customary frequent momentary'.split(), 
+    # whether the event has intermediate states
+    'atomicity':           'atomic nonatomic'.split(), 
+    # whether the event is part of a series of events
+    'series-partitivity':  'series-partitive series-nonpartitive'.split(),
+    # whether the event has affects that linger after its occurrence, and for how long
+    'persistance':         'static impermanent persistant'.split(),
+    # how far along the nonatomic event is, and what action has been taken on its progress
+    'progress':            'started progressing paused arrested resumed continued finished'.split(),
+    # whether the event occurs in the recent past/future
+    'recency':             'recent nonrecent'.split(),
+    # whether the event is associated with motion, and if so, what kind
+    'scattering':          'coherent reversing returning undirected unmoving'.split(),
+    # whether the event is distributed among entities, and if so, how
+    'distribution':        'centralized decentralized undistributed'.split(),
+}
 
 tagaxis_to_tags = {
 
@@ -99,46 +195,6 @@ tagaxis_to_tags = {
                    'inessive', 'instructive', 'instrumental-comitative', 'sociative', 'sublative', 'superessive', 
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
 
-    # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
-    #   In our analysis, the "role" forms one part of what is referred to here as "semantic case".
-    #   The other part of semantic case is referred to as "motion", which is defined below.
-    #   The term "semantic case" is used in a similar sense as "deep case" in existing literature.
-    #   The term "semantic case" is introduced both to place distinction with "role" 
-    #    and to create a paradigm where we map between language-agnostic "semantic" semes 
-    #    and language-specific "grammatical" tags.
-    #    e.g. "semantic mood" to "grammatical mood",  "semantic aspect" to "grammatical aspect", etc.
-    #   Each language has a unique map from a semantic case to grammatical case, 
-    #    and it is grammatical case that language learners are typically most familiar with (e.g. nominative, ablative, etc.)
-    #   Semantic roles are also categorized into "macroroles" (i.e. subject, direct-object, indirect-object, modifier) 
-    #    and it is the macrorole that determines how noun phrases should be ordered within a clause.
-    #   See README.txt and GLOSSARY.tsv for more information on these and related terms.
-    'role': [
-        # NON-INDIRECT:
-        'existential', # a noun that is declared within an existential clause
-        'solitary',    # a noun that performs the action of a intransitive verb
-        'agent',       # a sentient noun that is interacting with a "patient" or "theme"
-        'force',       # a nonsentient noun that is interacting with a "patient" or "theme"
-        'patient',     # a noun that passively undergoes a state change
-        'theme',       # a noun that is passively mentioned without undergoing a state change
-        'experiencer', # a noun that perceives a "stimulus"
-        'stimulus',    # a noun that is being perceived by an "experiencer"
-        'predicand',   # a noun that is considered part of a larger "predicate" set
-        'predicate',   # a noun that is considered to contain a smaller "predicand" set
-        # INDIRECT:
-        'audience',    # a noun that indicates the audience, i.e. the "vocative"
-        'possessor',   # a noun that owns a "possession"
-        'possession',  # a noun that is owned by a "possessor"
-        'topic',       # a noun that is indicated as the topic of conversation, could be either indirect or nonindirect, and could exist in tandem with other nonindirect roles
-        'comment',     # a noun that in some way relates to a "topic"
-        'location', 'extent', 'vicinity', 'interior', 'surface', 'subsurface', 
-        'presence', 'aid', 'lack', 'interest', 'purpose', 
-        'time', 'state of being', 'company', 'resemblance'],
-    # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
-    #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
-    # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'motion': 'departed associated acquired leveraged'.split(),
-    'valency': 'impersonal intransitive transitive'.split(),
-    # 'subjectivity': 'subject direct-object indirect-object'.split(),
 
     # how the valency of the verb is modified to emphasize or deemphasize certain nouns
     'voice':      'active passive middle antipassive applicative causative'.split(),
@@ -158,46 +214,6 @@ tagaxis_to_tags = {
                    'propositive', 'potential', 'conative', 'obligative',
                   ],
 
-    # NOTE: "evidentiality", "logic", "probability", etc. form what is known as the "semantic mood".
-    # The "semantic mood" is an instance of a broader concept that we refer to as "seme".
-    # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
-    #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
-    # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "deep case", "semantic mood", etc.
-    # See README.txt and GLOSSARY.tsv for more information on these and related terms.
-    'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
-    'implicativity':    'antecedant consequent positive negative'.split(),
-    'probability':      'probable potential improbable aprobable'.split(),
-    'subject-motive':   'subject-wanted subject-unwanted'.split(),
-    'speaker-motive':   'speaker-wanted speaker-unwanted'.split(),
-    'speaker-emphasis': 'emphatic encouraging dispassionate'.split(),
-    'speaker-action':   'statement intent deferral request query proposal verification'.split(),
-    'addressee-power':  'supernatural inferior aferior'.split(),
-
-    # NOTE: "atomicity", "consistency", etc. form what is known as the "semantic aspect".
-    # The "semantic aspect" is an instance of a broader concept that we refer to as "seme".
-    # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
-    #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
-    # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "deep case", "semantic aspect", etc.
-    # See README.txt and GLOSSARY.tsv for more information on these and related terms.
-    # how long the event occurs for
-    'duration':            'short long indefinite'.split(), 
-    # how consistently the event occurs
-    'consistency':         'incessant habitual customary frequent momentary'.split(), 
-    # whether the event has intermediate states
-    'atomicity':           'atomic nonatomic'.split(), 
-    # whether the event is part of a series of events
-    'series-partitivity':  'series-partitive series-nonpartitive'.split(),
-    # whether the event has affects that linger after its occurrence, and for how long
-    'persistance':         'static impermanent persistant'.split(),
-    # how far along the nonatomic event is, and what action has been taken on its progress
-    'progress':            'started progressing paused arrested resumed continued finished'.split(),
-    # whether the event occurs in the recent past/future
-    'recency':             'recent nonrecent'.split(),
-    # whether the event is associated with motion, and if so, what kind
-    'direction':    'coherent reversing returning undirected unmoving'.split(),
-    # whether the event is distributed among entities, and if so, how
-    'distribution': 'centralized decentralized undistributed'.split(),
-
     'aspect': ['aorist', 'perfective','imperfective',
                'habitual', 'continuous',
                'progressive', 'nonprogressive',
@@ -207,11 +223,10 @@ tagaxis_to_tags = {
                'completive','prolongative','seriative','inchoative','reversionary','semeliterative','segmentative'],
 
     # needed for correlatives in general
-    'abstraction':['institution','location','origin',
-                   'destination','time','manner','reason','quality','amount'],
+    'abstraction': 'institution location origin destination time manner reason quality amount'.split(),
 
     # needed for quantifiers/correlatives
-    'quantity':   'universal nonexistential assertive elective'.split(),
+    'quantity':    'universal nonexistential assertive elective'.split(),
 
     # needed to distinguish pronouns from common nouns and to further distinguish types of pronouns
     'noun-form':  ['common', 'personal', 
@@ -225,11 +240,7 @@ tagaxis_to_tags = {
                    'argument', 'group'],
 }
 
-tag_to_tagaxis = {
-    instance:type_ 
-    for (type_, instances) in tagaxis_to_tags.items() 
-    for instance in instances
-}
+tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
 
 verbial_declension_hashing = DictTupleIndexing([
         'verb',           
@@ -560,7 +571,7 @@ declension_template_annotation = RowAnnotation([
     'emoji'])
 declension_template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
-        DictTupleIndexing(['valency','motion','role']), lambda key:[]),
+        DictTupleIndexing('valency motion role'.split()), lambda key:[]),
     cell_evaluation)
 declension_templates = \
     declension_template_population.index(
@@ -568,28 +579,28 @@ declension_templates = \
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
 
-case_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
+case_annotation = CellAnnotation(dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
 case_population = NestedLookupPopulation(
     DefaultDictLookup('semantic-to-grammatical-case', 
-        DictTupleIndexing(['valency','motion','role']),
+        DictTupleIndexing('valency motion role'.split()),
         lambda dictkey: DictLookup('grammatical-case-columns',
             DictKeyIndexing('column'))),
     cell_evaluation
 )
 
-# mood_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
+# mood_annotation = CellAnnotation(dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {})
 # mood_population = NestedLookupPopulation(
 #     DefaultDictLookup('semantic-to-grammatical-mood', 
-#         DictTupleIndexing(['valency','motion','role']),
+#         DictTupleIndexing(list(mood_episemaxis_to_episemes.keys())),
 #         lambda dictkey: DictLookup('grammatical-mood-columns',
 #             DictKeyIndexing('column'))),
 #     cell_evaluation
 # )
 
-# aspect_annotation = CellAnnotation(tag_to_tagaxis, {0:'column'}, {}, {})
+# aspect_annotation = CellAnnotation(dict_bundle_to_map(aspect_episemaxis_to_episemes), {0:'column'}, {}, {})
 # aspect_population = NestedLookupPopulation(
 #     DefaultDictLookup('semantic-to-grammatical-aspect', 
-#         DictTupleIndexing(['valency','motion','role']),
+#         DictTupleIndexing(list(aspect_episemaxis_to_episemes.keys())),
 #         lambda dictkey: DictLookup('grammatical-aspect-columns',
 #             DictKeyIndexing('column'))),
 #     cell_evaluation

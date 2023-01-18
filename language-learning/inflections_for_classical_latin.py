@@ -8,7 +8,7 @@ from tools.nodemaps import (
     RuleValidation, RuleFormatting, RuleSyntax,
 )
 from inflections import (
-    tagaxis_to_tags,
+    case_episemaxis_to_episemes,
     tsv_parsing,
     has_annotation,
     finite_annotation, nonfinite_annotation, declension_verb_annotation, 
@@ -132,9 +132,8 @@ write('flashcards/latin/common-noun-declension.html',
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender',]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'noun':        nouns,
             'number':      numbers,
             'animacy':    'thing',
@@ -161,9 +160,8 @@ write('flashcards/latin/pronoun-declension.html',
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'noun':      ['man','woman','snake'],
             'person':    ['1','2','3'],
             'gender':      genders,
@@ -210,9 +208,8 @@ write('flashcards/latin/adpositions.html',
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', ]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'role': [
                 # 'solitary', # the subject of an intransitive verb
                 # 'agent',    # the subject of a transitive verb
@@ -251,9 +248,8 @@ write('flashcards/latin/adjective-agreement.html',
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective',]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'noun':      ['man','woman','animal'] ,
             'adjective':   adjectives,
             'number':      numbers,
@@ -295,9 +291,8 @@ write('flashcards/latin/pronoun-possessives.html',
             'possessor-clusivity', 'possessor-formality', 
             'possessor-person', 'possessor-number',]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'possessor-noun':   ['man','woman','snake'],
             'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
             'possessor-number': ['singular-possessor','plural-possessor'],
@@ -405,8 +400,8 @@ write('flashcards/latin/participle-declension.html',
             'tense', 'voice', 'aspect', 'mood', 
             'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
             'role':        'agent',
             'valency':     'transitive',
             'verb':        verbs,

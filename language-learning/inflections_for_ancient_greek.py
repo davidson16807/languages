@@ -8,6 +8,7 @@ from tools.nodemaps import (
     RuleValidation, RuleFormatting, RuleSyntax,
 )
 from inflections import (
+    case_episemaxis_to_episemes,
     tagaxis_to_tags,
     tsv_parsing,
     has_annotation,
@@ -88,13 +89,10 @@ write('flashcards/ancient-greek/finite-conjugation.html',
     card_generation.conjugation(
         foreign_writing,
         DictTupleIndexing([
-            # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
             'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', ]),
         {
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'gender':      genders,
             'person':    ['1','2','3'],
             'number':      numbers,
@@ -130,12 +128,10 @@ write('flashcards/ancient-greek/common-noun-declension.html',
     card_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
-            # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', ]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'noun':        nouns,
             'number':      numbers,
             'animacy':    'thing',
@@ -162,9 +158,8 @@ write('flashcards/ancient-greek/pronoun-declension.html',
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'noun':      ['man','woman','snake'],
             'gender':      genders,
             'number':     numbers,
@@ -208,11 +203,10 @@ write('flashcards/ancient-greek/adpositions.html',
     card_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
-            # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', ]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
             'role': [
                 # 'solitary', # the subject of an intransitive verb
                 # 'agent',    # the subject of a transitive verb
@@ -248,15 +242,13 @@ write('flashcards/ancient-greek/pronoun-possessives.html',
     card_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
-            # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
             'possessor-gender', 'possessor-noun', 
             'possessor-clusivity', 'possessor-formality', 
             'possessor-person', 'possessor-number',]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
-            'role':        tagaxis_to_tags['role'],
             'possessor-noun':   ['man','woman','snake'],
             'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
             'possessor-number': ['singular-possessor','plural-possessor'],
@@ -321,12 +313,11 @@ write('flashcards/ancient-greek/participle-declension.html',
     card_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
-            # categories that are iterated over
             'tense', 'voice', 'aspect', 'mood', 
             'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
         {
+            **case_episemaxis_to_episemes,
             **tag_defaults,
-            'motion':      tagaxis_to_tags['motion'],
             'role':        'agent',
             'verb':         verbs,
             'valency':     'transitive',
