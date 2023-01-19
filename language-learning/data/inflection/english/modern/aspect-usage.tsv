@@ -1,6 +1,5 @@
-*	*	*	*	*	*	*	*	*	*	mood	prephrase	postphrase	#
+*	*	*	*	*	*	*	*	*	*	aspect	prephrase	postphrase	#
 #	atomicity	duration	consistency	series-partitivity	persistance	progress	recency	motion-direction	motion-direction				#
-	atomic												#
 													#
 													#
 													#
@@ -41,7 +40,8 @@
 													#
 													#
 													#
-	A	D	C	S	p	P	R	d	D		(1+P)		
+													#
+#	A	D	C	S	p	P	R	d	D		(1+P)		
 #	atomicity	duration	consistency	series-partitivity	persistance	progress	recency	motion-direction	motion-distribution				
 #													
 #	atomic	brief	incessant	series-partitive	nonresultant	started	recent	consistent-motion	centralized-motion				

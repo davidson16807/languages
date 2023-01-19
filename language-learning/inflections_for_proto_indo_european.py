@@ -13,8 +13,9 @@ from inflections import (
     has_annotation,
     finite_annotation, nonfinite_annotation, declension_verb_annotation, 
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, declension_template_noun_annotation,
-    case_annotation,
-    conjugation_population, declension_population, case_population,
+    conjugation_population, declension_population, 
+    case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
+    case_usage_population, mood_usage_population, aspect_usage_population,
     card_generation, tag_defaults, nouns_to_depictions,
     write, replace
 )
@@ -48,9 +49,15 @@ foreign_writing = Writing(
                     declension_template_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
             ]),
-            case_population.index(
-                case_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/semantic-to-grammatical-case.tsv'))),
+            case_usage_population.index(
+                case_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/case-usage.tsv'))),
+            mood_usage_population.index(
+                mood_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/mood-usage.tsv'))),
+            aspect_usage_population.index(
+                aspect_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/aspect-usage.tsv'))),
             {'language-type':'foreign'},
         ),
         RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),

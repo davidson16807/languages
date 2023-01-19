@@ -109,7 +109,7 @@ class CardGeneration:
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([test_tags in filter_lookup for filter_lookup in filter_lookups]) and 
-                  test_tags in foreign_language_script.language.grammar.use_case_to_grammatical_case):
+                  test_tags in foreign_language_script.language.grammar.case_usage):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
@@ -141,7 +141,7 @@ class CardGeneration:
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
                     ])
-                    case = foreign_language_script.language.grammar.use_case_to_grammatical_case[test_tags]['case'] # TODO: see if you can get rid of this
+                    case = foreign_language_script.language.grammar.case_usage[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {
                         **test_tags, 
                         **tag_templates['test'], 

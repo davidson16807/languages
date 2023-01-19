@@ -1,0 +1,59 @@
+*	*	*	*	*	*	*	*	*	mood	prephrase	postphrase	#	auxillary	example moods in other languages					
+#	speaker-action	evidentiality	logic	subject-means	subject-motive	speaker-motive	addressee-power	speaker-emphasis				#							
+	statement	accepted	positive						indicative	∅	∅	#							
+	statement	visual	positive						indicative	[I saw that]	∅	#							
+	statement	auditory	positive						indicative	[I heard it when]	∅	#							
+	statement	sensed	positive						indicative	[I felt it when]	∅	#							
+	statement	circumstantial	positive						indicative	[I suppose]	∅	#		presumptive					
+	statement	secondhand	positive						indicative	[I heard that]	∅	#		inferential					
+	statement	thirdhand	positive						indicative	[it is said that]	∅	#		inferential					
+	statement	promised	positive						indicative	[I vow]	∅	#		comissive					
+	statement	presumed	positive						indicative	[presumably]	∅	#							
+	statement	supposed	positive						indicative	[suppose that]	∅	#		subjunctive					
+	statement	counterfactual	positive						indicative	∅	∅	#	might	hypothetical					
+	statement	proposed	positive	improbable					indicative	∅	∅	#	might	dubitative					
+	statement	proposed	positive	potential					indicative	[maybe]	∅	#		dubitative					
+	statement	proposed	positive	probable					indicative	∅	∅	#	likely	potential					
+	statement	surprised	positive	improbable					indicative	[wow!]	!	#		admirative					
+	statement	surprised	positive	probable					indicative	[gee!]	(!)	#		ironic-admirative					
+	statement	surprised	positive	potential					indicative	[gee!]	(!)	#		ironic-admirative					
+	statement	motivated	positive		subject-wanted				indicative	∅	∅	#	want	desiderative					
+	statement	motivated	positive		subject-unwanted				indicative	∅	∅	#	do not want						
+	statement		antecedant						indicative	[if]	[then]...	#							
+	statement		consequent	improbable					indicative	[if so, then]	∅	#		conditional					
+	statement		consequent	potential					indicative	[if so, then]	∅	#		conditional					
+	statement		consequent	potential					indicative	[if so, then]	∅	#		eventitive					
+	aspiration					speaker-wanted			indicative	[if only]	∅	#		optative/necessitative					
+	aspiration					speaker-unwanted			indicative	[heaven forbid]	∅	#		optative/necessitative					
+	deferral			improbable					indicative	[I'm fine that]	∅	#		permissive					
+	deferral			potential					indicative	[I'm fine that]	∅	#		permissive					
+	deferral			probable					indicative	[I intend]	∅	#		injunctive					
+	request					speaker-wanted	supernatural		indicative	[may it be that]	∅	#		optative/benedictive					
+	request					speaker-unwanted	supernatural		indicative	[heaven forbid]	∅	#		optative/benedictive					
+	request					speaker-wanted	inferior		indicative	[I command that]	!	#		imperative					
+	request					speaker-unwanted	inferior		indicative	[I forbid that]	!	#		prohibitive					
+	request					speaker-wanted	apotent	emphatic	indicative		!	#	should	jussive					
+	request					speaker-unwanted	apotent	emphatic	indicative		!	#	should not	jussive					
+	request					speaker-wanted	apotent	encouraging	indicative	[c'mon, let's make it so]	!	#		hortative					
+	request					speaker-unwanted	apotent	encouraging	indicative	[c'mon, don't let it be that]	!	#		hortative					
+	request					speaker-wanted	apotent	dispassionate	indicative	[please, can it be that]	?	#		precative					
+	request					speaker-unwanted	apotent	dispassionate	indicative	[please, can it be that]	?	#		precative					
+	query								indicative	[is it true that]	?	#							
+	verification								indicative	[shall it be that]	?	#		propositive/deliberative					
+	deliberation								indicative	[should it be that]	?	#		deliberation					
+																			
+#	actspe	e	l	mesub	mosub	mospe	power	emph											
+#	speaker-action	evidentiality	logic	subject-means	subject-motive	speaker-motive	addressee-power	speaker-emphasis											
+#																			
+#	statement	visual	antecedant	probable	speaker-wanted	subject-wanted	supernatural	emphatic											
+#	aspiration	nonvisual	consequent	potential	speaker-unwanted	subject-unwanted	inferior	encouraging											
+#	deferral	circumstantial	positive	improbable			apotent	dispassionate											
+#	request	secondhand	negative																
+#	query	thirdhand																	
+#	verification	motivated																	
+#		promised																	
+#		surprised																	
+#		presumed																	
+#		proposed																	
+#		supposed																	
+#		counterfactual																	

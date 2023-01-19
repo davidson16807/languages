@@ -16,11 +16,15 @@ class ListGrammar:
     def __init__(self, 
             conjugation_lookups, 
             declension_lookups, 
-            use_case_to_grammatical_case,
+            case_usage,
+            mood_usage,
+            aspect_usage,
             tags):
         self.conjugation_lookups = conjugation_lookups
         self.declension_lookups = declension_lookups
-        self.use_case_to_grammatical_case = use_case_to_grammatical_case
+        self.case_usage = case_usage
+        self.mood_usage = mood_usage
+        self.aspect_usage = aspect_usage
         self.tags = tags
         def format_alternates(text, tags):
             split = re.split(' *[|/,] *', text)
@@ -31,12 +35,12 @@ class ListGrammar:
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
         missing_value = '' if content[0] in {'det'} else None
-        if tags not in self.use_case_to_grammatical_case:
+        if tags not in self.case_usage:
             return missing_value
         sememe = {
             **tags, 
             **self.tags, 
-            'case':self.use_case_to_grammatical_case[tags]['case'], 
+            'case':self.case_usage[tags]['case'], 
             'noun':content[1] if len(content)>1 else None
         }
         return [content[0], 
@@ -59,11 +63,11 @@ class ListGrammar:
         sememe = {
             **tags, 
             **self.tags, 
-            'case':self.use_case_to_grammatical_case[tags]['case'], 
+            'case':self.case_usage[tags]['case'], 
         }
-        return ([] if sememe not in self.use_case_to_grammatical_case 
-            else [] if 'preposition' not in self.use_case_to_grammatical_case[sememe]
-            else [content[0], self.use_case_to_grammatical_case[sememe]['preposition']])
+        return ([] if sememe not in self.case_usage 
+            else [] if 'preposition' not in self.case_usage[sememe]
+            else [content[0], self.case_usage[sememe]['preposition']])
 
 class RuleSyntax:
     """

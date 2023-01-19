@@ -48,6 +48,7 @@ case_episemaxis_to_episemes = {
     #    "semantic aspect" to "grammatical aspect", etc.
     #   Each language has a unique map from a semantic case to grammatical case, 
     #    and it is grammatical case that language learners are typically most familiar with (e.g. nominative, ablative, etc.)
+    #   A language's map from semantic case to grammatical case is known as its "case usage".
     #   Semantic roles are also categorized into "macroroles" (i.e. subject, direct-object, indirect-object, modifier) 
     #    and it is the macrorole that determines how noun phrases should be ordered within a clause.
     #   See README.txt and GLOSSARY.tsv for more information on these and related terms.
@@ -118,7 +119,7 @@ aspect_episemaxis_to_episemes = {
     # whether the event occurs in the recent past/future
     'recency':             'recent nonrecent'.split(),
     # whether the event is associated with motion, and if so, what kind
-    'scattering':          'coherent reversing returning undirected unmoving'.split(),
+    'trajectory':          'coherent reversing returning undirected unmoving'.split(),
     # whether the event is distributed among entities, and if so, how
     'distribution':        'centralized decentralized undistributed'.split(),
 }
@@ -240,7 +241,6 @@ tagaxis_to_tags = {
                    'argument', 'group'],
 }
 
-tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
 
 verbial_declension_hashing = DictTupleIndexing([
         'verb',           
@@ -434,7 +434,7 @@ declension_template_lookups = DictLookup(
                 ])),
     })
 
-tsv_parsing = SeparatedValuesFileParsing()
+tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
 
 finite_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {0:'verb'}, 
@@ -462,6 +462,9 @@ declension_template_noun_annotation = CellAnnotation(
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 mood_annotation = CellAnnotation(
     {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
+declension_verb_annotation = CellAnnotation(
+    tag_to_tagaxis, {0:'language'}, {0:'verb'}, 
+    {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 
 cell_evaluation = CellEvaluation()
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups, cell_evaluation)
@@ -497,6 +500,8 @@ nouns_to_depictions = {
     'thing':'bolt',
     'phenomenon': 'eruption',
 }
+
+tsv_parsing = SeparatedValuesFileParsing()
 
 emoji = Emoji(
     nouns_to_depictions,
@@ -579,41 +584,37 @@ declension_templates = \
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
 
-case_annotation = CellAnnotation(dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
-case_population = NestedLookupPopulation(
-    DefaultDictLookup('semantic-to-grammatical-case', 
+case_usage_annotation = CellAnnotation(dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
+case_usage_population = NestedLookupPopulation(
+    DefaultDictLookup('case-usage', 
         DictTupleIndexing('valency motion role'.split()),
         lambda dictkey: DictLookup('grammatical-case-columns',
             DictKeyIndexing('column'))),
     cell_evaluation
 )
 
-# mood_annotation = CellAnnotation(dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {})
-# mood_population = NestedLookupPopulation(
-#     DefaultDictLookup('semantic-to-grammatical-mood', 
-#         DictTupleIndexing(list(mood_episemaxis_to_episemes.keys())),
-#         lambda dictkey: DictLookup('grammatical-mood-columns',
-#             DictKeyIndexing('column'))),
-#     cell_evaluation
-# )
+mood_usage_annotation = CellAnnotation(dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {})
+mood_usage_population = NestedLookupPopulation(
+    DefaultDictLookup('mood-usage', 
+        DictTupleIndexing(list(mood_episemaxis_to_episemes.keys())),
+        lambda dictkey: DictLookup('grammatical-mood-columns',
+            DictKeyIndexing('column'))),
+    cell_evaluation
+)
 
-# aspect_annotation = CellAnnotation(dict_bundle_to_map(aspect_episemaxis_to_episemes), {0:'column'}, {}, {})
-# aspect_population = NestedLookupPopulation(
-#     DefaultDictLookup('semantic-to-grammatical-aspect', 
-#         DictTupleIndexing(list(aspect_episemaxis_to_episemes.keys())),
-#         lambda dictkey: DictLookup('grammatical-aspect-columns',
-#             DictKeyIndexing('column'))),
-#     cell_evaluation
-# )
+aspect_usage_annotation = CellAnnotation(dict_bundle_to_map(aspect_episemaxis_to_episemes), {0:'column'}, {}, {})
+aspect_usage_population = NestedLookupPopulation(
+    DefaultDictLookup('aspect-usage', 
+        DictTupleIndexing(list(aspect_episemaxis_to_episemes.keys())),
+        lambda dictkey: DictLookup('grammatical-aspect-columns',
+            DictKeyIndexing('column'))),
+    cell_evaluation
+)
 
-# annotations = tsv_parsing.rows('data/inflection/english/modern/semantic-to-grammatical-case.tsv')
-# test = case_population.index(case_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/semantic-to-grammatical-case.tsv')))
+# annotations = tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')
+# test = case_usage_population.index(case_usage_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')))
 # tags = {'valency':'transitive','motion':'associated','role':'agent'}
 # breakpoint()
-
-declension_verb_annotation = CellAnnotation(
-    tag_to_tagaxis, {0:'language'}, {0:'verb'}, 
-    {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -746,9 +747,15 @@ english = Writing(
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/english/modern/adjective-agreement.tsv')),
             ]),
-            case_population.index(
-                case_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/semantic-to-grammatical-case.tsv'))),
+            case_usage_population.index(
+                case_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv'))),
+            mood_usage_population.index(
+                mood_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/mood-usage.tsv'))),
+            aspect_usage_population.index(
+                aspect_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/aspect-usage.tsv'))),
             {'language-type':'native'},
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
