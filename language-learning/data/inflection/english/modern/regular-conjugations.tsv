@@ -2,6 +2,12 @@
 *		1	2	3						#	
 *		singular	singular	singular	dual	plural				#	
 *		present	present	present	present	present	past			#	
+halt	halt	halt	halt	halts	halt	halt	halted	halted	halting	#	aspects
+pause	pause	pause	pause	pauses	pause	pause	paused	paused	pausing	#	aspects
+resume	resume	resume	resume	resumes	resume	resume	resumed	resumed	resuming	#	aspects
+continue	continue	continue	continue	continues	continue	continue	continued	continued	continuing	#	aspects
+finish	finish	finish	finish	finishes	finish	finish	finished	finished	finishing	#	aspects
+experience	experience	experience	experience	experiences	experience	experience	experienced	experienced	experiencing	#	aspects
 have   	have   	have	have	has	have	have	had	had	having	#	templates
 command	command	command	command	commands	command	command	commanded	commanded	commanding	#	templates
 forbid	forbid	forbid	forbid	forbids	forbid	forbid	forbade	forbidden	forbidding	#	templates
@@ -27,6 +33,11 @@ sew	sew	sew	sew	sews	sew	sew	sewed	sewn	sewing	#	common
 love	love	love	love	loves	love	love	loved	loved	loving	#	common
 work	work	work	work	works	work	work	worked	worked	working	#	common
 ask	ask	ask	ask	asks	ask	ask	asked	asked	asking	#	common
+navigate	navigate	navigate	navigate	navigates	navigate	navigate	navigated	navigated	navigating	#	declensions
+talk	talk	talk	talk	talks	talk	talk	talked	talked	talking	#	declensions
+walk	walk	walk	walk	walks	walk	walk	walked	walked	walking	#	declensions
+come	come	come	come	comes	come	come	came	came	coming	#	declensions
+figure	figure	figure	figure	figures	figure	figure	figured	figured	figuring	#	nonfinite conjugations
 release	release	release	release	releases	release	release	released	released	releasing	#	ancient-greek
 choose 	choose 	choose	choose	chooses	choose	choose	chose	chosen	choosing	#	french
 lose   	lose   	lose	lose	loses	lose	lose	lost	lost	losing	#	french
@@ -86,8 +97,3 @@ part	part	part	part	parts	part	part	parted	parted	parting	#	spanish
 drive	drive	drive	drive	drives	drive	drive	drive	driven	driving	#	spanish, german
 close	close	close	close	closes	close	close	closed	closed	closing	#	swedish
 strike	strike	strike	strike	strikes	strike	strike	struck	struck	striking	#	swedish
-navigate	navigate	navigate	navigate	navigates	navigate	navigate	navigated	navigated	navigating	#	declensions
-talk	talk	talk	talk	talks	talk	talk	talked	talked	talking	#	declensions
-walk	walk	walk	walk	walks	walk	walk	walked	walked	walking	#	declensions
-come	come	come	come	comes	come	come	came	came	coming	#	declensions
-figure	figure	figure	figure	figures	figure	figure	figured	figured	figuring	#	nonfinite conjugations

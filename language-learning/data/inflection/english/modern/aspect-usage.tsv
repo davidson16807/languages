@@ -1,54 +1,24 @@
-*	*	*	*	*	*	*	*	*	*	aspect	prephrase	postphrase	#
-#	atomicity	duration	consistency	series-partitivity	persistance	progress	recency	motion-direction	motion-direction				#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-													#
-#	A	D	C	S	p	P	R	d	D		(1+P)		
-#	atomicity	duration	consistency	series-partitivity	persistance	progress	recency	motion-direction	motion-distribution				
-#													
-#	atomic	brief	incessant	series-partitive	nonresultant	started	recent	consistent-motion	centralized-motion				
-#	nonatomic	protracted	static	series-nonpartitive	resultant	progressing	nonrecent	reversing-motion	decentralized-motion				
-#		indefinite	habit		persistant	paused		returning-motion	undistributed-motion				
-#			custom			arrested		undirected-motion					
-#			repeated			resumed		unmoving					
-#			experiential			continued							
-#						finished							
-													
+*	*	*	*	*	*	*	*	*	aspect	preverb	postverb	#
+#	duration	progress	consistency	sequentiality	persistance	recency	trajectory	direction				#
+		atomic			nonresultant	nonrecent			simple			#
+		completed			nonresultant	nonrecent			perfective			#
+		progressing			nonresultant	nonrecent			progressive		[as still]	#
+		started			nonresultant	nonrecent			progressive			#
+		paused			nonresultant	nonrecent			progressive			#
+		arrested			nonresultant	nonrecent			progressive			#
+					resultant	nonrecent			perfective			#
+					persistant	nonrecent			perfective			#
+			experiential		nonresultant	nonrecent			perfective			#
+						recent			perfective		[just now]	#
+												#
+#	D	P	C	S	P	R	MD1	MD2				
+#	duration	progress	consistency	sequentiality	persistance	recency	trajectory	distribution				
+#												
+#	brief	atomic	static	sequential	nonresultant	recent	rectilinear	centralized				
+#	protracted	started	incessant	nonsequential	resultant	nonrecent	reversing	decentralized				
+#	indefinite	unfinished	habitual		persistant	arecency	returning	undistributed				
+#		paused	customary				undirected					
+#		arrested	frequent				unmoving					
+#		resumed	experiential									
+#		continued	momentary									
+#		completed										
