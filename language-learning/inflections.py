@@ -70,13 +70,13 @@ case_episemaxis_to_episemes = {
         'possession',  # a noun that is owned by a "possessor"
         'topic',       # a noun that is indicated as the topic of conversation, could be either indirect or nonindirect, and could exist in tandem with other nonindirect roles
         'comment',     # a noun that in some way relates to a "topic"
-        'location', 'extent', 'vicinity', 'interior', 'surface', 'subsurface', 
+        'location', 'extent', 'vicinity', 'interior', 'medium', 'side', 'surface', 'subsurface', 
         'presence', 'aid', 'lack', 'interest', 'purpose', 
         'time', 'state of being', 'company', 'resemblance'],
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'motion': 'departed associated acquired leveraged'.split(),
+    'motion': 'departed associated acquired approached surpassed leveraged'.split(),
     'valency': 'impersonal intransitive transitive'.split(),
     # 'subjectivity': 'subject direct-object indirect-object'.split(),
 }

@@ -4,66 +4,107 @@
 	transitive	associated	audience	nominative	
 	transitive	associated	patient	oblique	
 	transitive	associated	theme	oblique	
-		associated	possessor	oblique	of
 		departed	location	oblique	away from
 		associated	location	oblique	by
 		acquired	location	oblique	to
+		approached	location	oblique	towards
+		surpassed	location	oblique	past
 		leveraged	location	oblique	along
 		departed	extent	oblique	starting from
 		associated	extent	oblique	beside
 		acquired	extent	oblique	up to
+		approached	extent	oblique	towards [the edge of]
+		surpassed	extent	oblique	past [the edge of]
 		leveraged	extent	oblique	along [the edges of]
 		departed	vicinity	oblique	from around
 		associated	vicinity	oblique	by
 		acquired	vicinity	oblique	to around
+		approached	vicinity	oblique	towards [the vicinity of]
+		surpassed	vicinity	oblique	past [the vicinity of]
 		leveraged	vicinity	oblique	via
 		departed	interior	oblique	out of
 		associated	interior	oblique	in
 		acquired	interior	oblique	into
+		approached	interior	oblique	towards [the inside of]
+		surpassed	interior	oblique	past [the inside of]
 		leveraged	interior	oblique	through
+		departed	medium	oblique	out of [the mass of]
+		associated	medium	oblique	in [the mass of]
+		acquired	medium	oblique	into [the mass of]
+		approached	medium	oblique	towards [the mass of]
+		surpassed	medium	oblique	past [the mass of]
+		leveraged	medium	oblique	through [the mass of]
+		departed	side	oblique	from against
+		associated	side	oblique	against
+		acquired	side	oblique	up against
+		approached	side	oblique	towards [the side of]
+		surpassed	side	oblique	past [the side of]
+		leveraged	side	oblique	along [the side of]
 		departed	surface	oblique	off of
 		associated	surface	oblique	on
 		acquired	surface	oblique	onto
+		approached	surface	oblique	towards [the surface of]
+		surpassed	surface	oblique	past [the surface of]
 		leveraged	surface	oblique	over
 		departed	subsurface	oblique	out from under
 		associated	subsurface	oblique	under
 		acquired	subsurface	oblique	into under
+		approached	subsurface	oblique	towards under
+		surpassed	subsurface	oblique	past under
 		leveraged	subsurface	oblique	through under
 		departed	presence	oblique	[due to the presence of]
 		associated	presence	oblique	[in the presence of]
 		acquired	presence	oblique	[to draw in]
-		leveraged	presence	oblique	[by using the presence of]
+		approached	presence	oblique	towards [the presence of]
+		surpassed	presence	oblique	beyond [the presence of]
+		leveraged	presence	oblique	by using [the presence of]
 		departed	lack	oblique	[for want of]
 		associated	lack	oblique	[in the absence of]
 		acquired	lack	oblique	[to avoid]
+		approached	lack	oblique	towards [a lack of]
+		surpassed	lack	oblique	beyond [a lack of]
 		leveraged	lack	oblique	[by taking advantage of the lack of]
 		departed	aid	oblique	[thanks to the aid of]
 		associated	aid	oblique	[with the aid of]
 		acquired	aid	oblique	[to aid the]
-		leveraged	aid	oblique	[by using the aid of ]
+		approached	aid	oblique	towards [the aid of]
+		surpassed	aid	oblique	beyond [the aid of]
+		leveraged	aid	oblique	by using [the aid of]
 		departed	interest	oblique	[out of the interest of]
 		associated	interest	oblique	[in the interest of]
 		acquired	interest	oblique	[for the sake of]
+		approached	interest	oblique	towards [the interest of]
+		surpassed	interest	oblique	beyond [the interest of]
 		leveraged	interest	oblique	[by appealing to the interest of]
 		departed	purpose	oblique	[following from the purpose of]
 		associated	purpose	oblique	[assuming the purpose of]
 		acquired	purpose	oblique	[for the purpose of]
+		approached	purpose	oblique	towards [the purpose of]
+		surpassed	purpose	oblique	beyond [the purpose of]
 		leveraged	purpose	oblique	[by leveraging the purpose of]
-		departed	ownership	oblique	from [the possession of]
-		associated	ownership	oblique	[in the possession of]
-		acquired	ownership	oblique	to [the possession of]
-		leveraged	ownership	oblique	[due to the possession of]
+		departed	possessor	oblique	from [the possession of]
+		associated	possessor	oblique	of
+		acquired	possessor	oblique	to [the possession of]
+		approached	possessor	oblique	towards [the possession of]
+		surpassed	possessor	oblique	beyond [the possession of]
+		leveraged	possessor	oblique	[due to the possession of]
 		departed	time	oblique	after
 		associated	time	oblique	during
 		acquired	time	oblique	until
+		approached	time	oblique	nearing
+		surpassed	time	oblique	past
 		leveraged	time	oblique	by [making use of]
 		departed	state of being	oblique	from having been
 		associated	state of being	oblique	as a
 		acquired	state of being	oblique	in order to be
-		leveraged	state of being	oblique	due to having been
+		approached	state of being	oblique	towards being
+		surpassed	state of being	oblique	beyond being
+		leveraged	state of being	oblique	due to being
 		departed	topic	oblique	[therefore]
 		associated	topic	oblique	[regarding]
 		acquired	topic	oblique	[pursuant to]
+		approached	topic	oblique	towards [the topic of]
+		surpassed	topic	oblique	beyond [the topic of]
 		leveraged	topic	oblique	by using [the topic of]
 		associated	company	oblique	in the company of
 		associated	resemblance	oblique	like
