@@ -1,0 +1,22 @@
+		far west	west	central	east	far east
+		-ameg-	-am-	-er-	-es-	-eseg-
+direction	-o					
+far north	neg-					
+north	n-		northwest	north	northeast	
+central	∅-		west	center	east	
+south	s-		southwest	south	southeast	
+far south	seg-					
+						
+continent	-eyo					
+far north	neg-			greenland		
+north	n-		north america	scandinavia	siberia	
+central	∅-		central america	europe	asia	
+south	s-		south america	africa	australia	
+far south	seg-			antarctica		
+						
+ocean	-iko					
+far north	neg-					
+north	n-		north atlantic	arctic	north pacific	
+central	∅-		atlantic	indian	pacific	
+south	s-		south atlantic	antarctic	south pacific	
+far south	seg-					

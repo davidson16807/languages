@@ -48,7 +48,17 @@ class ListGrammar:
             else missing_value if sememe not in self.declension_lookups[sememe]
             else self.format_alternates(self.declension_lookups[sememe][sememe], tags)]
     def conjugate(self, treemap, content, tags):
-        sememe = {**tags, **self.tags, 'verb':content[1]}
+        print(tags)
+        # print(self.aspect_usage.content)
+        print(self.aspect_usage[tags].content)
+        if 'aspect' not in self.aspect_usage[tags]:
+            breakpoint()
+        sememe = {
+            **tags, 
+            **self.tags, 
+            'aspect':self.aspect_usage[tags]['aspect'],
+            'verb':content[1],
+        }
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
             else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]

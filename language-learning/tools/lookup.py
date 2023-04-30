@@ -124,7 +124,7 @@ class DefaultDictLookup:
         Store `value` within the indices represented by `key`.
         '''
         if type(key) in {tuple, str}:
-            return self.content[key]
+            self.content[key] = value
         else:
             for tuplekey in self.indexing.tuplekeys(key):
                 if tuplekey in self.content and value != self.content[tuplekey]:

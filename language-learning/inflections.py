@@ -82,44 +82,68 @@ case_episemaxis_to_episemes = {
 }
 
 mood_episemaxis_to_episemes = {
-    # NOTE: "evidentiality", "logic", "probability", etc. are small parts ("episemes") to a larger part (a "seme") known as the "semantic mood".
+    # NOTE: "evidentiality", "logic", "confidence", etc. are small parts ("episemes") to a larger part (a "seme") known as the "semantic mood".
     # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
     #  between the meaning that the speaker intends to convey and the grammatical decision (bijective to a set of meanings) that could be interpreted by the audience.
     # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "semantic case", "semantic mood", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
-    'evidentiality':    'visual nonvisual circumstantial secondhand thirdhand accepted promised presumed supposed counterfactual'.split(),
-    'implicativity':    'antecedant consequent positive negative'.split(),
-    'probability':      'probable potential improbable aprobable'.split(),
-    'subject-motive':   'subject-wanted subject-unwanted'.split(),
-    'speaker-motive':   'speaker-wanted speaker-unwanted'.split(),
-    'speaker-emphasis': 'emphatic encouraging dispassionate'.split(),
-    'speaker-action':   'statement intent deferral request query proposal verification'.split(),
-    'addressee-power':  'supernatural inferior aferior'.split(),
+    # how the statement arises in the context of logical discourse
+    'evidentiality': [
+        'promised',       # speaker attests to the event, speaker determines if the event occurs
+    #   'useless',        # speaker attests to the event, addressee determines if the event occurs (not useful)
+        'presumed',       # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, no evidence given
+        'visual',         # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is visual
+        'nonvisual',      # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is nonvisual
+        'secondhand',     # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is secondhand
+        'thirdhand',      # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is thirdhand
+        'circumstantial', # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is circumstantial in some way
+        'means',          # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is circumstantial, based on means
+        'motive',         # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is circumstantial, based on motive
+        'conceded',       # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence of addressee is recognized
+        'proposed',       # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence provided elsewhere
+        'supposed',       # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence provided elsewhere
+        'antecedent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence provided elsewhere
+        'consequent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence is contingent on other event
+        'queried',        # addressee attests to the event, subject determines if the event occurs
+        'requested',      # addressee attests to the event, addressee determines if the event occurs, addressee not subject to persuasion
+        'encouraged',     # addressee attests to the event, addressee determines if the event occurs, addressee is persuaded by encouragement
+        'implored',       # addressee attests to the event, addressee determines if the event occurs, addressee is persuaded by emphasis
+        'commanded',      # addressee attests to the event, addressee determines if the event occurs, addressee is subordinate
+        'prayed',         # addressee attests to the event, addressee determines if the event occurs, addressee is supernatural
+        'wished',         # subject attests to the event, subject determines if the event occurs, addressee is invested in outcome
+        'deferred',       # subject attests to the event, subject determines if the event occurs, addressee is not invested in outcome
+    ],
+    # how the statement functions in the context of logical discourse
+    'proposition':      'affirmation denial'.split(),
+    # how likely the statement is to be true
+    'confidence':       'confident probable potential improbable counterfactual'.split(),
+    # how surprised the speaker depicts himself
+    'surprise':         'surprised unsurprised'.split(),
+    # how ironic the speaker is
+    'irony':            'ironic unironic'.split(),
 }
 
 aspect_episemaxis_to_episemes = {
-    # NOTE: "atomicity", "consistency", etc. form what is known as the "semantic aspect".
+    # NOTE: "duration", "consistency", etc. form what is known as the "semantic aspect".
     # The "semantic aspect" is an instance of a broader concept that we refer to as "seme".
     # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
     #  between the meaning that the speaker intends to convey and the set of meanings that could be interpreted by the audience.
     # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "semantic case", "semantic aspect", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     # how long the event occurs for
-    'duration':            'short long indefinite'.split(), 
+    'duration':            'brief protracted indefinite'.split(), 
     # how consistently the event occurs
-    'consistency':         'incessant habitual customary frequent momentary'.split(), 
-    # whether the event has intermediate states
-    'atomicity':           'atomic nonatomic'.split(), 
-    # whether the event is part of a series of events
-    'series-partitivity':  'series-partitive series-nonpartitive'.split(),
+    'progress':            'atomic atelic started unfinished attempted transitioning paused arrested resumed continued finished'.split(),
+    # whether the event is one part in a sequence of events
+    'consistency':         'momentary experiential habitual customary frequent incessant'.split(), 
+    # whether the event has intermediate states, and if so, what state it is in
+    'ordinality':          'nonordinal ordinal'.split(),
     # whether the event has affects that linger after its occurrence, and for how long
-    'persistance':         'static impermanent persistant'.split(),
-    # how far along the nonatomic event is, and what action has been taken on its progress
-    'progress':            'started progressing paused arrested resumed continued finished'.split(),
+    'persistence':         'static impermanent persistant'.split(),
     # whether the event occurs in the recent past/future
-    'recency':             'recent nonrecent'.split(),
+    'recency':             'nonrecent recent arecent'.split(),
     # whether the event is associated with motion, and if so, what kind
-    'trajectory':          'coherent reversing returning undirected unmoving'.split(),
+    'trajectory':          'rectilinear reversing returning directionless motionless'.split(),
     # whether the event is distributed among entities, and if so, how
     'distribution':        'centralized decentralized undistributed'.split(),
 }
@@ -587,7 +611,10 @@ declension_templates = \
 case_usage_annotation = CellAnnotation(dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
 case_usage_population = NestedLookupPopulation(
     DefaultDictLookup('case-usage', 
-        DictTupleIndexing('valency motion role'.split()),
+        DictTupleIndexing(
+            'valency motion role'.split(),
+            case_episemaxis_to_episemes,
+        ),
         lambda dictkey: DictLookup('grammatical-case-columns',
             DictKeyIndexing('column'))),
     cell_evaluation
@@ -596,7 +623,10 @@ case_usage_population = NestedLookupPopulation(
 mood_usage_annotation = CellAnnotation(dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {})
 mood_usage_population = NestedLookupPopulation(
     DefaultDictLookup('mood-usage', 
-        DictTupleIndexing(list(mood_episemaxis_to_episemes.keys())),
+        DictTupleIndexing(
+            [key for key in mood_episemaxis_to_episemes.keys()],
+            mood_episemaxis_to_episemes,
+        ),
         lambda dictkey: DictLookup('grammatical-mood-columns',
             DictKeyIndexing('column'))),
     cell_evaluation
@@ -605,16 +635,26 @@ mood_usage_population = NestedLookupPopulation(
 aspect_usage_annotation = CellAnnotation(dict_bundle_to_map(aspect_episemaxis_to_episemes), {0:'column'}, {}, {})
 aspect_usage_population = NestedLookupPopulation(
     DefaultDictLookup('aspect-usage', 
-        DictTupleIndexing(list(aspect_episemaxis_to_episemes.keys())),
+        DictTupleIndexing(
+            [key for key in aspect_episemaxis_to_episemes.keys()],
+            aspect_episemaxis_to_episemes,
+        ),
         lambda dictkey: DictLookup('grammatical-aspect-columns',
             DictKeyIndexing('column'))),
-    cell_evaluation
+    cell_evaluation,
+    # debug=True
 )
 
-# annotations = tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')
-# test = case_usage_population.index(case_usage_annotation.annotate(tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')))
+# rows = tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')
+# test = case_usage_population.index(case_usage_annotation.annotate(rows))
 # tags = {'valency':'transitive','motion':'associated','role':'agent'}
 # breakpoint()
+
+rows = tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv')
+annotations = aspect_usage_annotation.annotate(rows)
+test = aspect_usage_population.index(annotations)
+tags = {'progress': 'atomic', 'column': 'aspect'}
+breakpoint()
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -641,7 +681,6 @@ class EnglishListSubstitution:
         '''same as self.inflection.conjugate(), but creates auxillary verb phrases when conjugation of a single verb is insufficient'''
         form = memory['verb-form']
         tense = memory['tense']
-        aspect = memory['aspect']
         voice = memory['voice']
         if form  == 'participle': 
             return ['implicit', 'that', 'finite', tree]
@@ -672,13 +711,99 @@ class EnglishListSubstitution:
         # if (tense, verbform) == ('present','infinitive'):   return ['[right now]', tree]
         if (tense, verbform) == ('future', 'infinitive'):   return ['[later on]',   tree]
         return tree
+    # def aspect(self, machine, tree, memory):
+    #     '''creates auxillary verb phrases when necessary to express aspect'''
+    #     aspect = memory['aspect']
+    #     if aspect == 'imperfective':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
+    #     if aspect == 'perfective':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
+    #     if aspect == 'perfective-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['imperfective', tree]]
+    #     return tree
     def aspect(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express aspect'''
-        aspect = memory['aspect']
-        if aspect == 'imperfective':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
-        if aspect == 'perfective':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
-        if aspect == 'perfective-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['imperfective', tree]]
-        return tree
+        tense = memory['tense']
+        duration = memory['duration']
+        progress = memory['progress']
+        consistency = memory['consistency']
+        ordinality = memory['ordinality']
+        persistence = memory['persistence']
+        recency = memory['recency']
+        trajectory = memory['trajectory']
+        distribution = memory['distribution']
+        preverb = []
+        postverb = []
+        if duration == 'protracted':
+            postverb.append('[on and on]')
+        if duration == 'indefinite':
+            postverb.append('[on and on endlessly]')
+        if progress == 'unfinished':
+            postverb.append('[still unfinished]')
+        if ordinality == 'ordinal':
+            postverb.append('[as part of a larger event]')
+        if persistence == 'resultant':
+            postverb.append('[things were different a while after]')
+        if persistence == 'persistant':
+            postverb.append('[things were different from then on]')
+        postverb.append({
+            ('recent',    'past'):    '[just recently]',
+            ('recent',    'present'): '[just now]',
+            ('recent',    'future'):  '[not long from now]',
+            ('nonrecent', 'past'):    '[long ago]',
+            ('nonrecent', 'present'): '',
+            ('nonrecent', 'future'):  '[long from now]',
+            ('arecent',   'past'):    '',
+            ('arecent',   'present'): '',
+            ('arecent',   'future'):  '',
+        }[recency, tense])
+        postverb.append({
+            'rectilinear':    '[in a straight line]',
+            'reversing':      '[reversing previous direction]',
+            'returning':      '[returning to the start]',
+            'motionless':     '[motionless]',
+            'directionless':  '',
+        }[trajectory])
+        postverb.append({
+            'centralized':     '[together]',
+            'decentralized':   '[coming apart]',
+            'undistributed':   '',
+        }[distribution])
+        preverb.append({
+            'static':    '',
+            'incessant': '[incessantly]',
+            'habitual':  '[habitually]',
+            'customary': '[customarily]',
+            'frequent':  '[frequently]',
+            'experiential':'',
+            'momentary': '[just once]',
+        }[consistency])
+        if progress in {'paused', 'resumed', 'continued', 'arrested'}:
+            aspect = progress
+        elif consistency in {'experiential'}:
+            aspect = consistency
+        elif any([persistence in {'resultant','persistant'},
+                recency in {'recent'},
+                progress in {'atomic', 'completed'},
+                consistency in {'experiential', 'momentary'}]):
+            aspect = 'perfective'
+        elif progress in {'started', 'unfinished'}:
+            if duration in {'brief'}:
+                aspect = 'progressive'
+            else:
+                aspect = 'perfective-progressive'
+        else:
+            aspect = 'simple'
+        verb = {
+            'arrested':               [['passive','simple', 'implicit', 'v', 'halt'], 'from', 'finite', ['progressive', tree]],
+            'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['progressive', tree]],
+            'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['progressive', tree]],
+            'continued':              [['active', 'simple', 'implicit', 'v', 'continue'], 'finite', ['progressive', tree]],
+            'completed':              [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['progressive', tree]],
+            'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['progressive', tree]],
+            'simple':                 tree,
+            'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['progressive', tree]],
+            'progressive':            [['active', 'simple', 'v', 'be'],   'finite', tree],
+            'perfective':             [['active', 'simple', 'v', 'have'], 'finite', tree],
+        }[aspect]
+        return [*preverb, *verb, *postverb]
     def voice(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express voice'''
         voice = memory['voice']
@@ -787,24 +912,34 @@ card_generation = CardGeneration(
 )
 
 tag_defaults = {
-    'valency':    'transitive',
+    'valency':      'transitive',
     
-    'clitic':     'tonic',
-    'clusivity':  'exclusive',
-    'formality':  'familiar',
-    'gender':     'masculine',
-    'noun':       'man',
-    'number':     'singular',
-    'partitivity':'nonpartitive',
-    'person':     '3',
-    'strength':   'strong',
+    'clitic':       'tonic',
+    'clusivity':    'exclusive',
+    'formality':    'familiar',
+    'gender':       'masculine',
+    'noun':         'man',
+    'number':       'singular',
+    'partitivity':  'nonpartitive',
+    'person':       '3',
+    'strength':     'strong',
 
-    'aspect':     'aorist', 
-    'mood':       'indicative',
-    'tense':      'present', 
-    'voice':      'active',
-    'completion': 'bare',
+    'duration':     'brief',
+    'progress':     'atelic',
+    'consistency':  'momentary',
+    'ordinality':   'nonordinal',
+    'persistence':  'static',
+    'recency':      'arecent',
+    'trajectory':   'directionless',
+    'distribution': 'undistributed',
 
-    'verb-form':  'finite',
+    'evidentiality':'presumed',
+    'confidence':   'confident',
+    'mood':         'indicative',
+
+    'tense':        'present', 
+    'voice':        'active',
+    'completion':   'bare',
+
+    'verb-form':    'finite',
 }
-

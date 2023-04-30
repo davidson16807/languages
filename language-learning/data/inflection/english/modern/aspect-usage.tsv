@@ -1,24 +1,29 @@
 *	*	*	*	*	*	*	*	*	aspect	preverb	postverb	#
-#	duration	progress	consistency	sequentiality	persistance	recency	trajectory	direction				#
-		atomic			nonresultant	nonrecent			simple			#
-		completed			nonresultant	nonrecent			perfective			#
-		progressing			nonresultant	nonrecent			progressive		[as still]	#
-		started			nonresultant	nonrecent			progressive			#
-		paused			nonresultant	nonrecent			progressive			#
-		arrested			nonresultant	nonrecent			progressive			#
-					resultant	nonrecent			perfective			#
-					persistant	nonrecent			perfective			#
-			experiential		nonresultant	nonrecent			perfective			#
-						recent			perfective		[just now]	#
-												#
-#	D	P	C	S	P	R	MD1	MD2				
-#	duration	progress	consistency	sequentiality	persistance	recency	trajectory	distribution				
-#												
-#	brief	atomic	static	sequential	nonresultant	recent	rectilinear	centralized				
-#	protracted	started	incessant	nonsequential	resultant	nonrecent	reversing	decentralized				
-#	indefinite	unfinished	habitual		persistant	arecency	returning	undistributed				
-#		paused	customary				undirected					
-#		arrested	frequent				unmoving					
-#		resumed	experiential									
-#		continued	momentary									
-#		completed										
+#	duration	progress	consistency	ordinality	persistance	recency	trajectory	distribution				#
+		atomic							aorist			#
+		atelic							aorist			#
+		started							aorist			#
+		unfinished							aorist			#
+		attempted							aorist			#
+		transitioning							aorist			#
+		paused							aorist			#
+		arrested							aorist			#
+		resumed							aorist			#
+		continued							aorist			#
+		finished							aorist			#
+#												#
+#	D	P	C	S	P	R	MD1	MD2				#
+#	duration	progress	consistency	ordinality	persistence	recency	trajectory	distribution				#
+#												#
+#	brief	atomic	momentary	nonordinal	static	recent	rectilinear	centralized				#
+#	protracted	atelic	experiential	ordinal	impermanent	nonrecent	reversing	decentralized				#
+#	indefinite	started	habitual		persistant	arecent	returning	undistributed				#
+#		unfinished	customary				motionless					#
+#		attempted	frequent				directionless					#
+#		transitioning	incessant									#
+#		paused										#
+#		arrested										#
+#		resumed										#
+#		continued										#
+#		finished										#
+												
