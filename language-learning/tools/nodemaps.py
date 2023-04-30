@@ -43,16 +43,18 @@ class ListGrammar:
             'case':self.case_usage[tags]['case'], 
             'noun':content[1] if len(content)>1 else None
         }
+        # if sememe not in self.declension_lookups[sememe] and sememe['noun'] != 'the':
+        #     breakpoint()
         return [content[0], 
             missing_value if sememe not in self.declension_lookups
             else missing_value if sememe not in self.declension_lookups[sememe]
             else self.format_alternates(self.declension_lookups[sememe][sememe], tags)]
     def conjugate(self, treemap, content, tags):
-        print(tags)
+        # print(tags)
         # print(self.aspect_usage.content)
-        print(self.aspect_usage[tags].content)
-        if 'aspect' not in self.aspect_usage[tags]:
-            breakpoint()
+        # print(self.aspect_usage[tags].content)
+        # if 'aspect' not in self.aspect_usage[tags]:
+        #     breakpoint()
         sememe = {
             **tags, 
             **self.tags, 
@@ -142,7 +144,11 @@ class RuleFormatting:
         self.space_regex = re.compile('\s+')
         self.empty_regex = re.compile('∅')
     def default(self, treemap, rule):
-        result = ' '.join([str(treemap.map(element)) for element in rule.content]) if isinstance(rule, Rule) else rule
+        result = ' '.join([
+            str(treemap.map(element)) if element is not None 
+            else f'<span title="{repr(rule)}">[MISSING]</span>'
+            for element in rule.content
+        ]) if isinstance(rule, Rule) else rule
         result = self.affix_regex.sub(self.affix_delimiter, result)
         result = self.space_regex.sub(' ', result)
         result = self.empty_regex.sub('', result)
@@ -157,7 +163,7 @@ class RuleFormatting:
 
 class RuleValidation:
     """
-    `RuleFormatting` is a library of functions that can be used in conjunction with `RuleTrees` 
+    `RuleValidation` is a library of functions that can be used in conjunction with `RuleTrees` 
     to determine whether a sytax tree can be represented as a string of natural language.
     """
     def __init__(self, disabled=False):

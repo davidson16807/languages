@@ -800,7 +800,7 @@ class EnglishListSubstitution:
             'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['imperfective', tree]],
             'simple':                 tree,
             'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['imperfective', tree]],
-            'imperfective':            [['active', 'simple', 'v', 'be'],   'imperfective', 'finite', tree],
+            'imperfective':           [['active', 'simple', 'v', 'be'],   'imperfective', 'finite', tree],
             'perfective':             [['active', 'simple', 'v', 'have'], 'perfective', 'finite', tree],
         }[aspect]
         return [*preverb, *verb, *postverb]

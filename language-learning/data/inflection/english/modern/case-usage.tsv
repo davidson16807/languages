@@ -1,9 +1,10 @@
 *	*	*	*	case	preposition
 #	valency	motion	role		
-	transitive	associated	agent	nominative	
-	transitive	associated	audience	nominative	
-	transitive	associated	patient	oblique	
-	transitive	associated	theme	oblique	
+			solitary	nominative	
+	transitive		agent	nominative	
+	transitive		audience	nominative	
+	transitive		patient	oblique	
+	transitive		theme	oblique	
 		departed	location	oblique	away from
 		associated	location	oblique	by
 		acquired	location	oblique	to

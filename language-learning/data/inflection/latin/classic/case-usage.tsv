@@ -1,9 +1,10 @@
 *	*	*	*	case	preposition
 #	valency	motion	role		
-	transitive	associated	agent	nominative	
-	transitive	associated	audience	vocative	
-	transitive	associated	patient	accusative	
-	transitive	associated	theme	accusative	
+			solitary	nominative	
+	transitive		agent	nominative	
+	transitive		audience	vocative	
+	transitive		patient	accusative	
+	transitive		theme	accusative	
 		associated	possessor	genitive	
 		departed	location	ablative	ab
 		associated	location	accusative	apud

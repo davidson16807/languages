@@ -12,4 +12,8 @@ class Rule:
     def __str__(self):
         return '' + self.tag + '{'+' '.join([str(member) for member in self.content])+'}'
     def __repr__(self):
-        return '' + self.tag + '{'+' '.join([repr(member) for member in self.content])+'}'
+        return ' '.join([
+                self.tag,
+                '{'+' '.join([str(member) for member in self.content])+'}',
+                '{'+'\n'.join([f'  {key}:{value}' for key, value in self.tags.items()])+'}',
+            ])
