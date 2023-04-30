@@ -650,11 +650,11 @@ aspect_usage_population = NestedLookupPopulation(
 # tags = {'valency':'transitive','motion':'associated','role':'agent'}
 # breakpoint()
 
-rows = tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv')
-annotations = aspect_usage_annotation.annotate(rows)
-test = aspect_usage_population.index(annotations)
-tags = {'progress': 'atomic', 'column': 'aspect'}
-breakpoint()
+# rows = tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv')
+# annotations = aspect_usage_annotation.annotate(rows)
+# test = aspect_usage_population.index(annotations)
+# tags = {'progress': 'atomic', 'column': 'aspect'}
+# breakpoint()
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -739,10 +739,10 @@ class EnglishListSubstitution:
             postverb.append('[still unfinished]')
         if ordinality == 'ordinal':
             postverb.append('[as part of a larger event]')
-        if persistence == 'resultant':
-            postverb.append('[things were different a while after]')
+        if persistence == 'impermanent':
+            postverb.append('[that changed things a while after]')
         if persistence == 'persistant':
-            postverb.append('[things were different from then on]')
+            postverb.append('[that changed things]')
         postverb.append({
             ('recent',    'past'):    '[just recently]',
             ('recent',    'present'): '[just now]',
@@ -767,41 +767,41 @@ class EnglishListSubstitution:
             'undistributed':   '',
         }[distribution])
         preverb.append({
-            'static':    '',
             'incessant': '[incessantly]',
             'habitual':  '[habitually]',
             'customary': '[customarily]',
             'frequent':  '[frequently]',
             'experiential':'',
-            'momentary': '[just once]',
+            'momentary':  '',
         }[consistency])
         if progress in {'paused', 'resumed', 'continued', 'arrested'}:
             aspect = progress
         elif consistency in {'experiential'}:
             aspect = consistency
-        elif any([persistence in {'resultant','persistant'},
+        elif any([
+                persistence in {'impermanent','persistant'},
                 recency in {'recent'},
                 progress in {'atomic', 'completed'},
-                consistency in {'experiential', 'momentary'}]):
+                consistency in {'experiential'}]):
             aspect = 'perfective'
         elif progress in {'started', 'unfinished'}:
             if duration in {'brief'}:
-                aspect = 'progressive'
+                aspect = 'imperfective'
             else:
                 aspect = 'perfective-progressive'
         else:
             aspect = 'simple'
         verb = {
-            'arrested':               [['passive','simple', 'implicit', 'v', 'halt'], 'from', 'finite', ['progressive', tree]],
-            'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['progressive', tree]],
-            'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['progressive', tree]],
-            'continued':              [['active', 'simple', 'implicit', 'v', 'continue'], 'finite', ['progressive', tree]],
-            'completed':              [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['progressive', tree]],
-            'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['progressive', tree]],
+            'arrested':               [['passive','simple', 'implicit', 'v', 'halt'], 'from', 'finite', ['imperfective', tree]],
+            'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['imperfective', tree]],
+            'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['imperfective', tree]],
+            'continued':              [['active', 'simple', 'implicit', 'v', 'continue'], 'finite', ['imperfective', tree]],
+            'completed':              [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['imperfective', tree]],
+            'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['imperfective', tree]],
             'simple':                 tree,
-            'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['progressive', tree]],
-            'progressive':            [['active', 'simple', 'v', 'be'],   'finite', tree],
-            'perfective':             [['active', 'simple', 'v', 'have'], 'finite', tree],
+            'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['imperfective', tree]],
+            'imperfective':            [['active', 'simple', 'v', 'be'],   'imperfective', 'finite', tree],
+            'perfective':             [['active', 'simple', 'v', 'have'], 'perfective', 'finite', tree],
         }[aspect]
         return [*preverb, *verb, *postverb]
     def voice(self, machine, tree, memory):
