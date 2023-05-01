@@ -91,7 +91,6 @@ moods = 'indicative subjunctive imperative'.split()
 tenses = 'present past future'.split()
 voices = 'active passive'.split()
 
-
 write('flashcards/latin/finite-conjugation.html', 
     card_generation.conjugation(
         foreign_writing,
@@ -395,9 +394,6 @@ write('flashcards/latin/nonfinite-conjugation.html',
         native_tree='clause [speaker-seme [np the n man] [vp v figure]] [modifier-seme np clause [test-seme [np the n man] [vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
         foreign_tree='clause [speaker-seme [vp v figure]] [modifier-seme np clause [test-seme [theme np the n man] [infinitive vp conjugated]]] [modifier-seme np test-seme stock-modifier]',
     ))
-'''
-'''
-
 
 write('flashcards/latin/participle-declension.html', 
     card_generation.declension(
@@ -432,6 +428,3 @@ write('flashcards/latin/participle-declension.html',
         persons = persons,
         substitutions = [{'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])}],
     ))
-
-
-

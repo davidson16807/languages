@@ -8,13 +8,13 @@ class Emoji:
             mood_templates, 
             emojiInflectionShorthand, 
             htmlTenseTransform, 
-            htmlAspectTransform):
+            htmlProgressTransform):
         self.nouns_to_depictions = nouns_to_depictions
         self.noun_adjective_lookups = noun_adjective_lookups
         self.noun_lookups = noun_lookups
         self.emojiInflectionShorthand = emojiInflectionShorthand
         self.htmlTenseTransform = htmlTenseTransform
-        self.htmlAspectTransform = htmlAspectTransform
+        self.htmlProgressTransform = htmlProgressTransform
         self.mood_templates = mood_templates
     def conjugate(self, tags, argument, persons):
         audience_lookup = {
@@ -28,7 +28,7 @@ class Emoji:
         #          if tags['formality'] in audience_lookup 
         #          else '\\n2{🧑\\g2\\c2}')
         scene = getattr(self.htmlTenseTransform, tags['tense'])(
-                    getattr(self.htmlAspectTransform, tags['aspect'].replace('-','_'))(argument))
+                    getattr(self.htmlProgressTransform, tags['progress'].replace('-','_'))(argument))
         encoded_recounting = self.mood_templates[{**tags,'column':'template'}]
         subject = EmojiPerson(
             ''.join([

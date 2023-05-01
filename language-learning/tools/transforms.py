@@ -59,17 +59,21 @@ class HtmlTenseTransform:
     def future(self, scene): 
         return f'''<span style='filter: blur(1px) drop-shadow(0px 0px 5px black)'>{scene}</span>'''
 
-class HtmlAspectTransform:
+class HtmlProgressTransform:
     def __init__(self):
         pass
-    def imperfective(self, scene): 
-        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='7'></progress>'''
-    def perfective(self, scene): 
-        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress>'''
-    def aorist(self, scene): 
+    def atomic(self, scene): 
         return f'''{scene}'''
-    def perfect_progressive(self, scene): 
-        return f'''<span style='filter: sepia(0.3) drop-shadow(0px 0px 2px black)'>{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress></span>'''
+    def atelic(self, scene): 
+        return f'''{scene}'''
+    def started(self, scene): 
+        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='7'></progress>'''
+    def unfinished(self, scene): 
+        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='7'></progress>'''
+    def finished(self, scene): 
+        return f'''{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress>'''
+    # def perfect_progressive(self, scene): 
+    #     return f'''<span style='filter: sepia(0.3) drop-shadow(0px 0px 2px black)'>{scene}<progress style='width:1em; height:0.7em; position:relative; top:0.5em; right:0.3em;' max='10' value='10'></progress></span>'''
 
 class HtmlBubble:
     def __init__(self):

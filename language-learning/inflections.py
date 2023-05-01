@@ -540,7 +540,7 @@ emoji = Emoji(
             tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'))),
     emoji_shorthand, 
     HtmlTenseTransform(), 
-    HtmlAspectTransform(), 
+    HtmlProgressTransform(), 
 )
 
 tsv_parsing = SeparatedValuesFileParsing()
