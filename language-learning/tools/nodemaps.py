@@ -169,8 +169,12 @@ class RuleValidation:
     def __init__(self, disabled=False):
         self.disabled = disabled
     def exists(self, treemap, rule):
-        return all([treemap.map(subrule) if isinstance(subrule, Rule) else (subrule is not None or self.disabled)
-                    for subrule in rule.content])
+        return all([{
+                Rule:       lambda x: treemap.map(x),
+                str:        lambda x: '—' not in x,
+                type(None): lambda x: self.disabled,
+            }[type(subrule)](subrule)
+            for subrule in rule.content])
 
 class ListTools:
     def __init__(self):

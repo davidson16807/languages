@@ -886,7 +886,7 @@ english = Writing(
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
         list_tools,
         RuleFormatting(),
-        None,
+        RuleValidation(disabled=False), #None,
         substitutions = [
             {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
             {'v': english_list_substitution.verbform}, # English participles are encoded as perfective/imperfective forms and must be handled specially

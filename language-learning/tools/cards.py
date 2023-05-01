@@ -87,11 +87,13 @@ class CardGeneration:
                         {'verb':     self.tools.replace(verb)},
                     ]
                 )
-                emoji_key = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
-                if foreign_text and emoji_key in foreign_language_script.language.grammar.conjugation_lookups['argument']:
-                    emoji_argument  = foreign_language_script.language.grammar.conjugation_lookups['argument'][emoji_key]
-                    emoji_text      = self.emoji.conjugate(emoji_key, emoji_argument, persons)
-                    native_text    = ' '.join([voice_prephrase, mood_prephrase, native_text, mood_postphrase]).replace('∅','')
+                if foreign_text:
+                    emoji_key = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
+                    emoji_text = self.emoji.conjugate(emoji_key, 
+                        foreign_language_script.language.grammar.conjugation_lookups['argument'][emoji_key], 
+                        persons) if emoji_key in foreign_language_script.language.grammar.conjugation_lookups['argument'] else '🚫'
+                    native_text = ' '.join([
+                        str(text) for text in [voice_prephrase, mood_prephrase, native_text, mood_postphrase]]).replace('∅','')
                     yield ' '.join([
                             self.cardFormatting.emoji_focus(emoji_text), 
                             self.cardFormatting.native_word(native_text),
@@ -154,7 +156,8 @@ class CardGeneration:
                     voice_prephrase = '[middle voice:]' if test_tags['voice'] == 'middle' else ''
                     mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
                     mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
-                    native_text = ' '.join([voice_prephrase, mood_prephrase, native_text, mood_postphrase]).replace('∅','')
+                    native_text = ' '.join([
+                        str(text) for text in [voice_prephrase, mood_prephrase, native_text, mood_postphrase]]).replace('∅','')
                     if foreign_text: 
                         yield ' '.join([
                                 self.cardFormatting.emoji_focus(emoji_text), 

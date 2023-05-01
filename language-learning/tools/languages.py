@@ -96,6 +96,6 @@ class Language:
             # print(i)
             # print(tree)
             tree = step.map(tree, {'script': script})
-        return formatting.map(tree)
+        # return formatting.map(tree)
         return formatting.map(tree) if not validation or validation.map(tree) else None
 

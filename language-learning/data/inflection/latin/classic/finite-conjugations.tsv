@@ -10,8 +10,8 @@ be	subjunctive	active	present	aorist	sim	sīs	sit	sīmus	sītis	sint	#	irregular
 be	subjunctive	active	past	imperfective	essem, forem	essēs, forēs	esset, foret	essēmus, forēmus	essētis, forētis	essent, forent	#	irregular						
 be	subjunctive	active	present	perfective	fuerim	fuerīs	fuerit	fuerīmus	fuerītis	fuerint	#	irregular						
 be	subjunctive	active	past	perfective	fuissem	fuissēs	fuisset	fuissēmus	fuissētis	fuissent	#	irregular						
-be	imperative	active	present			es			este		#	irregular						
-be	imperative	active	future			estō	estō		estōte	suntō	#	irregular						
+be	imperative	active	present		—	es	—	—	este	—	#	irregular						
+be	imperative	active	future		—	estō	estō	—	estōte	suntō	#	irregular						
 be able	indicative	active	present	aorist	possum	potes	potest	possumus	potestis	possunt	#	irregular						
 be able	indicative	active	past	imperfective	poteram	poterās	poterat	poterāmus	poterātis	poterant	#	irregular						
 be able	indicative	active	future	aorist	poterō	poteris, potere	poterit	poterimus	poteritis	poterunt	#	irregular						
@@ -28,22 +28,22 @@ want	indicative	active 	future	aorist	volābō 	volābis 	volābit 	volābimus 	
 want	indicative	active 	present	perfective	volāvī 	volāvistī 	volāvit 	volāvimus 	volāvistis 	volāvērunt, volāvēre	#	irregular						
 want	indicative	active 	past	perfective	volāveram 	volāverās 	volāverat 	volāverāmus 	volāverātis 	volāverant	#	irregular						
 want	indicative	active 	future	perfective	volāverō 	volāveris 	volāverit 	volāverimus 	volāveritis 	volāverint	#	irregular						
-want	indicative	passive	present	aorist			volātur 				#	irregular						
-want	indicative	passive	past	imperfective			volābātur 				#	irregular						
-want	indicative	passive	future	aorist			volābitur 				#	irregular						
-want	indicative	passive	present	perfective			volātum est 				#	irregular						
-want	indicative	passive	past	perfective			volātum erat 				#	irregular						
-want	indicative	passive	future	perfective			volātum erit 				#	irregular						
+want	indicative	passive	present	aorist	—	—	volātur 	—	—	—	#	irregular						
+want	indicative	passive	past	imperfective	—	—	volābātur 	—	—	—	#	irregular						
+want	indicative	passive	future	aorist	—	—	volābitur 	—	—	—	#	irregular						
+want	indicative	passive	present	perfective	—	—	volātum est 	—	—	—	#	irregular						
+want	indicative	passive	past	perfective	—	—	volātum erat 	—	—	—	#	irregular						
+want	indicative	passive	future	perfective	—	—	volātum erit 	—	—	—	#	irregular						
 want	subjunctive	active 	present	aorist	volem 	volēs 	volet 	volēmus 	volētis 	volent	#	irregular						
 want	subjunctive	active 	past	imperfective	volārem 	volārēs 	volāret 	volārēmus 	volārētis 	volārent	#	irregular						
 want	subjunctive	active 	present	perfective	volāverim 	volāverīs 	volāverit 	volāverīmus 	volāverītis 	volāverint	#	irregular						
 want	subjunctive	active 	past	perfective	volāvissem 	volāvissēs 	volāvisset 	volāvissēmus 	volāvissētis 	volāvissent	#	irregular						
-want	subjunctive	passive 	present	aorist			volētur 				#	irregular						
-want	subjunctive	passive 	past	imperfective			volārētur 				#	irregular						
-want	subjunctive	passive 	present	perfective			volātum sit 				#	irregular						
-want	subjunctive	passive 	past	perfective			volātum esset, volātum foret				#	irregular						
-want	imperative	active 	present			volā 			volāte 		#	irregular						
-want	imperative	active 	future			volātō 	volātō 		volātōte 	volantō 	#	irregular						
+want	subjunctive	passive 	present	aorist	—	—	volētur 	—	—	—	#	irregular						
+want	subjunctive	passive 	past	imperfective	—	—	volārētur 	—	—	—	#	irregular						
+want	subjunctive	passive 	present	perfective	—	—	volātum sit 	—	—	—	#	irregular						
+want	subjunctive	passive 	past	perfective	—	—	volātum esset, volātum foret	—	—	—	#	irregular						
+want	imperative	active 	present		—	volā 	—	—	volāte 	—	#	irregular						
+want	imperative	active 	future		—	volātō 	volātō 	—	volātōte 	volantō 	#	irregular						
 go	indicative	active 	present	aorist	eō 	īs 	it 	īmus 	ītis 	eunt	#	irregular						
 go	indicative	active 	past	imperfective	ībam 	ībās 	ībat 	ībāmus 	ībātis 	ībant	#	irregular						
 go	indicative	active 	future	aorist	ībō 	ībis 	ībit 	ībimus 	ībitis 	ībunt	#	irregular						
@@ -59,36 +59,36 @@ go	subjunctive	active 	present	perfective	ierim 	ierīs 	ierit 	ierīmus 	ierīt
 go	subjunctive	active 	past	perfective	īssem 	īssēs 	īsset 	īssēmus 	īssētis 	īssent	#	irregular						
 go	subjunctive	passive 	present	aorist	ear 	eāris, eāre 	eātur 	eāmur 	eāminī 	eantur	#	irregular						
 go	subjunctive	passive 	past	imperfective	īrer 	īrēris, īrēre 	īrētur 	īrēmur 	īrēminī 	īrentur 	#	irregular						
-go	imperative	active	present			ī 			īte 		#	irregular						
-go	imperative	active	future			ītō 	ītō 		ītōte 	euntō	#	irregular						
-go	imperative	passive	present			īre 			īminī 		#	irregular						
-go	imperative	passive	future			ītor 	ītor 			euntor 	#	irregular						
+go	imperative	active	present		—	ī 	—	—	īte 	—	#	irregular						
+go	imperative	active	future		—	ītō 	ītō 	—	ītōte 	euntō	#	irregular						
+go	imperative	passive	present		—	īre 	—	—	īminī 	—	#	irregular						
+go	imperative	passive	future		—	ītor 	ītor 	—	—	euntor 	#	irregular						
 carry	indicative	active 	present	aorist	ferō 	fers 	fert 	ferimus 	fertis 	ferunt	#	irregular	# 1: archaic					
 carry	indicative	active 	past	imperfective	ferēbam 	ferēbās 	ferēbat 	ferēbāmus 	ferēbātis 	ferēbant	#	irregular	# 1: archaic					
 carry	indicative	active 	future	aorist	feram 	ferēs 	feret 	ferēmus 	ferētis 	ferent	#	irregular	# 1: archaic					
-carry	indicative	active 	present	perfective	tulī, tetulī1 	tulistī, tetulistī1 	tulit, tetulit1 	tulimus, tetulimus1 	tulistis, tetulistis1 	tulērunt, tulēre, tetulērunt, tetulēre1	#	irregular	# 1: archaic					
-carry	indicative	active 	past	perfective	tuleram, tetuleram1 	tulerās, tetulerās1 	tulerat, tetulerat1 	tulerāmus, tetulerāmus1 	tulerātis, tetulerātis1 	tulerant, tetulerant1	#	irregular	# 1: archaic					
-carry	indicative	active 	future	perfective	tulerō, tetulerō1 	tuleris, tetuleris1 	tulerit, tetulerit1 	tulerimus, tetulerimus1 	tuleritis, tetuleritis1 	tulerint, tetulerint1	#	irregular	# 1: archaic					
+carry	indicative	active 	present	perfective	tulī, tetulī¹ 	tulistī, tetulistī¹ 	tulit, tetulit¹ 	tulimus, tetulimus¹ 	tulistis, tetulistis¹ 	tulērunt, tulēre, tetulērunt, tetulēre¹	#	irregular	# 1: archaic					
+carry	indicative	active 	past	perfective	tuleram, tetuleram¹	tulerās, tetulerās¹ 	tulerat, tetulerat¹ 	tulerāmus, tetulerāmus¹ 	tulerātis, tetulerātis¹ 	tulerant, tetulerant¹	#	irregular	# 1: archaic					
+carry	indicative	active 	future	perfective	tulerō, tetulerō¹	tuleris, tetuleris¹ 	tulerit, tetulerit¹ 	tulerimus, tetulerimus¹ 	tuleritis, tetuleritis¹ 	tulerint, tetulerint¹	#	irregular	# 1: archaic					
 carry	indicative	passive	present	aorist	feror 	ferris, ferre 	fertur 	ferimur 	feriminī 	feruntur	#	irregular	# 1: archaic					
 carry	indicative	passive	past	imperfective	ferēbar 	ferēbāris, ferēbāre 	ferēbātur 	ferēbāmur 	ferēbāminī 	ferēbantur	#	irregular	# 1: archaic					
 carry	indicative	passive	future	aorist	ferar 	ferēris, ferēre 	ferētur 	ferēmur 	ferēminī 	ferentur	#	irregular	# 1: archaic					
 carry	subjunctive	active 	present	aorist	feram 	ferās 	ferat 	ferāmus 	ferātis 	ferant	#	irregular	# 1: archaic					
 carry	subjunctive	active 	past	imperfective	ferrem 	ferrēs 	ferret 	ferrēmus 	ferrētis 	ferrent	#	irregular	# 1: archaic					
-carry	subjunctive	active 	present	perfective	tulerim, tetulerim1 	tulerīs, tetulerīs1 	tulerit, tetulerit1 	tulerīmus, tetulerīmus1 	tulerītis, tetulerītis1 	tulerint, tetulerint1	#	irregular	# 1: archaic					
-carry	subjunctive	active 	past	perfective	tulissem, tetulissem1 	tulissēs, tetulissēs1 	tulisset, tetulisset1 	tulissēmus, tetulissēmus1 	tulissētis, tetulissētis1 	tulissent, tetulissent1	#	irregular	# 1: archaic					
+carry	subjunctive	active 	present	perfective	tulerim, tetulerim¹ 	tulerīs, tetulerīs¹ 	tulerit, tetulerit¹ 	tulerīmus, tetulerīmus¹ 	tulerītis, tetulerītis¹ 	tulerint, tetulerint¹	#	irregular	# 1: archaic					
+carry	subjunctive	active 	past	perfective	tulissem, tetulissem¹ 	tulissēs, tetulissēs¹ 	tulisset, tetulisset¹ 	tulissēmus, tetulissēmus¹ 	tulissētis, tetulissētis¹ 	tulissent, tetulissent¹	#	irregular	# 1: archaic					
 carry	subjunctive	passive 	present	aorist	ferar 	ferāris, ferāre 	ferātur 	ferāmur 	ferāminī 	ferantur	#	irregular	# 1: archaic					
 carry	subjunctive	passive 	past	imperfective	ferrer 	ferrēris, ferrēre 	ferrētur 	ferrēmur 	ferrēminī 	ferrentur	#	irregular	# 1: archaic					
-carry	imperative	active	present			fer 			ferte 		#	irregular						
-carry	imperative	active	future			fertō 	fertō 		fertōte 	feruntō	#	irregular						
-carry	imperative	passive	present			ferre 			feriminī 		#	irregular						
-carry	imperative	passive	future			fertor 	fertor 			feruntor	#	irregular						
+carry	imperative	active	present		—	fer 	—	—	ferte 	—	#	irregular						
+carry	imperative	active	future		—	fertō 	fertō 	—	fertōte 	feruntō	#	irregular						
+carry	imperative	passive	present		—	ferre 	—	—	feriminī 	—	#	irregular						
+carry	imperative	passive	future		—	fertor 	fertor 	—	—	feruntor	#	irregular						
 become	indicative	active	present	aorist	fīō 	fīs 	fit 	fīmus 	fītis 	fīunt	#	irregular						
 become	indicative	active	past	imperfective	fīēbam 	fīēbās 	fīēbat 	fīēbāmus 	fīēbātis 	fīēbant	#	irregular						
 become	indicative	active	future	aorist	fīam 	fīēs 	fīet 	fīēmus 	fīētis 	fīent	#	irregular						
 become	subjunctive	active 	present	aorist	fīam 	fīās 	fīat 	fīāmus 	fīātis 	fīant	#	irregular						
 become	subjunctive	active 	past	imperfective	fierem 	fierēs 	fieret 	fierēmus 	fierētis 	fierent	#	irregular						
-become	imperative	active 	present 	aorist		fī 			fīte 		#	irregular						
-become	imperative	active 	future 	aorist		fītō 	fītō 		fītōte 	fīuntō	#	irregular						
+become	imperative	active 	present 	aorist	—	fī 	—	—	fīte 	—	#	irregular						
+become	imperative	active 	future 	aorist	—	fītō 	fītō 	—	fītōte 	fīuntō	#	irregular						
 eat	indicative	active 	present	aorist	edō 	edis, ēs 	edit, ēst 	edimus 	editis, ēstis 	edunt	#	irregular						
 eat	indicative	active 	past	imperfective	edēbam 	edēbās 	edēbat 	edēbāmus 	edēbātis 	edēbant	#	irregular						
 eat	indicative	active 	future	aorist	edam 	edēs 	edet 	edēmus 	edētis 	edent	#	irregular						
@@ -104,29 +104,29 @@ eat	subjunctive	active 	present	perfective	ēderim 	ēderīs 	ēderit 	ēderīmu
 eat	subjunctive	active 	past	perfective	ēdissem 	ēdissēs 	ēdisset 	ēdissēmus 	ēdissētis 	ēdissent	#	irregular						
 eat	subjunctive	passive 	present	aorist	edar 	edāris, edāre 	edātur 	edāmur 	edāminī 	edantur	#	irregular						
 eat	subjunctive	passive 	past	imperfective	ederer 	ederēris, ederēre 	ederētur 	ederēmur 	ederēminī 	ederentur	#	irregular						
-eat	imperative	active	present			ede, ēs 			edite, ēste 		#	irregular						
-eat	imperative	active	future			editō, ēstō 	editō, ēstō 		editōte, ēstōte 	eduntō	#	irregular						
-eat	imperative	passive	present			edere 			ediminī 		#	irregular						
-eat	imperative	passive	future			editor 	editor 			eduntor	#	irregular						
+eat	imperative	active	present		—	ede, ēs 	—	—	edite, ēste 	—	#	irregular						
+eat	imperative	active	future		—	editō, ēstō 	editō, ēstō 	—	editōte, ēstōte 	eduntō	#	irregular						
+eat	imperative	passive	present		—	edere 	—	—	ediminī 	—	#	irregular						
+eat	imperative	passive	future		—	editor 	editor 	—	—	eduntor	#	irregular						
 love	indicative	active 	present	aorist	amō 	amās 	amat 	amāmus 	amātis 	amant	#	1st conjugation	1:archaic, 2:poetic					
 love	indicative	active 	past	imperfective	amābam 	amābās 	amābat 	amābāmus 	amābātis 	amābant	#	1st conjugation	1:archaic, 2:poetic					
 love	indicative	active 	future	aorist	amābō 	amābis 	amābit 	amābimus 	amābitis 	amābunt	#	1st conjugation	1:archaic, 2:poetic					
-love	indicative	active 	present	perfective	amāvī 	amāvistī, amāstī2 	amāvit, amāt2 	amāvimus, amāmus2 	amāvistis, amāstis2 	amāvērunt, amāvēre, amārunt2	#	1st conjugation	1:archaic, 2:poetic					
-love	indicative	active 	past	perfective	amāveram, amāram2 	amāverās, amārās2 	amāverat, amārat2 	amāverāmus, amārāmus2 	amāverātis, amārātis2 	amāverant, amārant2	#	1st conjugation	1:archaic, 2:poetic					
-love	indicative	active 	future	perfective	amāverō, amārō2 	amāveris, amāris2 	amāverit, amārit2 	amāverimus, amārimus2 	amāveritis, amāritis2 	amāverint, amārint2	#	1st conjugation	1:archaic, 2:poetic					
+love	indicative	active 	present	perfective	amāvī 	amāvistī, amāstī² 	amāvit, amāt² 	amāvimus, amāmus² 	amāvistis, amāstis² 	amāvērunt, amāvēre, amārunt²	#	1st conjugation	1:archaic, 2:poetic					
+love	indicative	active 	past	perfective	amāveram, amāram² 	amāverās, amārās² 	amāverat, amārat² 	amāverāmus, amārāmus² 	amāverātis, amārātis² 	amāverant, amārant²	#	1st conjugation	1:archaic, 2:poetic					
+love	indicative	active 	future	perfective	amāverō, amārō² 	amāveris, amāris² 	amāverit, amārit² 	amāverimus, amārimus² 	amāveritis, amāritis² 	amāverint, amārint²	#	1st conjugation	1:archaic, 2:poetic					
 love	indicative	passive	present	aorist	amor 	amāris, amāre 	amātur 	amāmur 	amāminī 	amantur	#	1st conjugation	1:archaic, 2:poetic					
 love	indicative	passive	past	imperfective	amābar 	amābāris, amābāre 	amābātur 	amābāmur 	amābāminī 	amābantur	#	1st conjugation	1:archaic, 2:poetic					
 love	indicative	passive	future	aorist	amābor 	amāberis, amābere 	amābitur 	amābimur 	amābiminī 	amābuntur	#	1st conjugation	1:archaic, 2:poetic					
 love	subjunctive	active 	present	aorist	amem 	amēs 	amet 	amēmus 	amētis 	ament	#	1st conjugation	1:archaic, 2:poetic					
 love	subjunctive	active 	past	imperfective	amārem 	amārēs 	amāret 	amārēmus 	amārētis 	amārent	#	1st conjugation	1:archaic, 2:poetic					
-love	subjunctive	active 	present	perfective	amāverim, amārim2 	amāverīs, amārīs2 	amāverit, amārit2 	amāverīmus, amārīmus2 	amāverītis, amārītis2 	amāverint, amārint2	#	1st conjugation	1:archaic, 2:poetic					
-love	subjunctive	active 	past	perfective	amāvissem, amāssem2 	amāvissēs, amāssēs2 	amāvisset, amāsset2 	amāvissēmus, amāssēmus2 	amāvissētis, amāssētis2 	amāvissent, amāssent2	#	1st conjugation	1:archaic, 2:poetic					
+love	subjunctive	active 	present	perfective	amāverim, amārim² 	amāverīs, amārīs² 	amāverit, amārit² 	amāverīmus, amārīmus² 	amāverītis, amārītis² 	amāverint, amārint²	#	1st conjugation	1:archaic, 2:poetic					
+love	subjunctive	active 	past	perfective	amāvissem, amāssem² 	amāvissēs, amāssēs² 	amāvisset, amāsset² 	amāvissēmus, amāssēmus² 	amāvissētis, amāssētis² 	amāvissent, amāssent²	#	1st conjugation	1:archaic, 2:poetic					
 love	subjunctive	passive 	present	aorist	amer 	amēris, amēre 	amētur 	amēmur 	amēminī 	amentur	#	1st conjugation	1:archaic, 2:poetic					
 love	subjunctive	passive 	past	imperfective	amārer 	amārēris, amārēre 	amārētur 	amārēmur 	amārēminī 	amārentur	#	1st conjugation	1:archaic, 2:poetic					
-love	imperative	active	present			amā 			amāte 		#	1st conjugation	1:archaic, 2:poetic					
-love	imperative	active	future			amātō 	amātō 		amātōte 	amantō	#	1st conjugation	1:archaic, 2:poetic					
-love	imperative	passive	present			amāre 			amāminī 		#	1st conjugation	1:archaic, 2:poetic					
-love	imperative	passive	future			amātor 	amātor 			amantor	#	1st conjugation	1:archaic, 2:poetic					
+love	imperative	active	present		—	amā 	—	—	amāte 	—	#	1st conjugation	1:archaic, 2:poetic					
+love	imperative	active	future		—	amātō 	amātō 	—	amātōte 	amantō	#	1st conjugation	1:archaic, 2:poetic					
+love	imperative	passive	present		—	amāre 	—	—	amāminī 	—	#	1st conjugation	1:archaic, 2:poetic					
+love	imperative	passive	future		—	amātor 	amātor 	—	—	amantor	#	1st conjugation	1:archaic, 2:poetic					
 advise	indicative	active 	present	aorist	moneō 	monēs 	monet 	monēmus 	monētis 	monent	#	2nd conjugation						
 advise	indicative	active 	past	imperfective	monēbam 	monēbās 	monēbat 	monēbāmus 	monēbātis 	monēbant	#	2nd conjugation						
 advise	indicative	active 	future	aorist	monēbō 	monēbis 	monēbit 	monēbimus 	monēbitis 	monēbunt	#	2nd conjugation						
@@ -142,10 +142,10 @@ advise	subjunctive	active 	present	perfective	monuerim 	monuerīs 	monuerit 	mon
 advise	subjunctive	active 	past	perfective	monuissem 	monuissēs 	monuisset 	monuissēmus 	monuissētis 	monuissent	#	2nd conjugation						
 advise	subjunctive	passive 	present	aorist	monear 	moneāris, moneāre 	moneātur 	moneāmur 	moneāminī 	moneantur	#	2nd conjugation						
 advise	subjunctive	passive 	past	imperfective	monērer 	monērēris, monērēre 	monērētur 	monērēmur 	monērēminī 	monērentur	#	2nd conjugation						
-advise	imperative	active	present			monē 			monēte 		#	2nd conjugation						
-advise	imperative	active	future			monētō 	monētō 		monētōte 	monentō	#	2nd conjugation						
-advise	imperative	passive	present			monēre 			monēminī 		#	2nd conjugation						
-advise	imperative	passive	future			monētor 	monētor 			monentor	#	2nd conjugation						
+advise	imperative	active	present		—	monē 	—	—	monēte 	—	#	2nd conjugation						
+advise	imperative	active	future		—	monētō 	monētō 	—	monētōte 	monentō	#	2nd conjugation						
+advise	imperative	passive	present		—	monēre 	—	—	monēminī 	—	#	2nd conjugation						
+advise	imperative	passive	future		—	monētor 	monētor 	—	—	monentor	#	2nd conjugation						
 direct	indicative	active 	present	aorist	dūcō 	dūcis 	dūcit 	dūcimus 	dūcitis 	dūcunt	#	3rd conjugation						
 direct	indicative	active 	past	imperfective	dūcēbam 	dūcēbās 	dūcēbat 	dūcēbāmus 	dūcēbātis 	dūcēbant	#	3rd conjugation						
 direct	indicative	active 	future	aorist	dūcam 	dūcēs 	dūcet 	dūcēmus 	dūcētis 	dūcent	#	3rd conjugation						
@@ -161,10 +161,10 @@ direct	subjunctive	active 	present	perfective	dūxerim 	dūxerīs 	dūxerit 	dū
 direct	subjunctive	active 	past	perfective	dūxissem 	dūxissēs 	dūxisset 	dūxissēmus 	dūxissētis 	dūxissent	#	3rd conjugation						
 direct	subjunctive	passive 	present	aorist	dūcar 	dūcāris, dūcāre 	dūcātur 	dūcāmur 	dūcāminī 	dūcantur	#	3rd conjugation						
 direct	subjunctive	passive 	past	imperfective	dūcerer 	dūcerēris, dūcerēre 	dūcerētur 	dūcerēmur 	dūcerēminī 	dūcerentur	#	3rd conjugation						
-direct	imperative	active	present			dūc, dūce 			dūcite 		#	3rd conjugation						
-direct	imperative	active	future			dūcitō 	dūcitō 		dūcitōte 	dūcuntō	#	3rd conjugation						
-direct	imperative	passive	present			dūcere 			dūciminī 		#	3rd conjugation						
-direct	imperative	passive	future			dūcitor 	dūcitor 			dūcuntor	#	3rd conjugation						
+direct	imperative	active	present		—	dūc, dūce 	—	—	dūcite 	—	#	3rd conjugation						
+direct	imperative	active	future		—	dūcitō 	dūcitō 	—	dūcitōte 	dūcuntō	#	3rd conjugation						
+direct	imperative	passive	present		—	dūcere 	—	—	dūciminī 	—	#	3rd conjugation						
+direct	imperative	passive	future		—	dūcitor 	dūcitor 	—	—	dūcuntor	#	3rd conjugation						
 capture	indicative	active 	present	aorist	capiō 	capis 	capit 	capimus 	capitis 	capiunt	#	3rd conjugation, -iō variant						
 capture	indicative	active 	past	imperfective	capiēbam 	capiēbās 	capiēbat 	capiēbāmus 	capiēbātis 	capiēbant	#	3rd conjugation, -iō variant						
 capture	indicative	active 	future	aorist	capiam 	capiēs 	capiet 	capiēmus 	capiētis 	capient	#	3rd conjugation, -iō variant						
@@ -180,10 +180,10 @@ capture	subjunctive	active 	present	perfective	cēperim 	cēperīs 	cēperit 	c�
 capture	subjunctive	active 	past	perfective	cēpissem 	cēpissēs 	cēpisset 	cēpissēmus 	cēpissētis 	cēpissent	#	3rd conjugation, -iō variant						
 capture	subjunctive	passive 	present	aorist	capiar 	capiāris, capiāre 	capiātur 	capiāmur 	capiāminī 	capiantur	#	3rd conjugation, -iō variant						
 capture	subjunctive	passive 	past	imperfective	caperer 	caperēris, caperēre 	caperētur 	caperēmur 	caperēminī 	caperentur	#	3rd conjugation, -iō variant						
-capture	imperative	active	present			cape 	— 	— 	capite 	—	#	3rd conjugation, -iō variant						
-capture	imperative	active	future			capitō 	capitō 	— 	capitōte 	capiuntō	#	3rd conjugation, -iō variant						
-capture	imperative	passive	present			capere 	— 	— 	capiminī 	—	#	3rd conjugation, -iō variant						
-capture	imperative	passive	future			capitor 	capitor 	— 	— 	capiuntor	#	3rd conjugation, -iō variant						
+capture	imperative	active	present		—	cape 	—	—	capite 	—	#	3rd conjugation, -iō variant						
+capture	imperative	active	future		—	capitō 	capitō 	—	capitōte 	capiuntō	#	3rd conjugation, -iō variant						
+capture	imperative	passive	present		—	capere 	—	—	capiminī 	—	#	3rd conjugation, -iō variant						
+capture	imperative	passive	future		—	capitor 	capitor 	—	—	capiuntor	#	3rd conjugation, -iō variant						
 hear	indicative	active 	present	aorist	audiō 	audīs 	audit 	audīmus 	audītis 	audiunt	#	4th conjugation						
 hear	indicative	active 	past	imperfective	audiēbam 	audiēbās 	audiēbat 	audiēbāmus 	audiēbātis 	audiēbant	#	4th conjugation						
 hear	indicative	active 	future	aorist	audiam 	audiēs 	audiet 	audiēmus 	audiētis 	audient	#	4th conjugation						
@@ -199,36 +199,36 @@ hear	subjunctive	active 	present	perfective	audīverim, audierim 	audīverīs, a
 hear	subjunctive	active 	past	perfective	audīvissem, audiissem 	audīvissēs, audiissēs 	audīvisset, audiisset 	audīvissēmus, audiissēmus 	audīvissētis, audiissētis 	audīvissent, audiissent	#	4th conjugation						
 hear	subjunctive	passive 	present	aorist	audiar 	audiāris, audiāre 	audiātur 	audiāmur 	audiāminī 	audiantur	#	4th conjugation						
 hear	subjunctive	passive 	past	imperfective	audīrer 	audīrēris, audīrēre 	audīrētur 	audīrēmur 	audīrēminī 	audīrentur	#	4th conjugation						
-hear	imperative	active	present		— 	audī 	— 	— 	audīte 	—	#	4th conjugation						
-hear	imperative	active	future		— 	audītō 	audītō 	— 	audītōte 	audiuntō	#	4th conjugation						
-hear	imperative	passive	present		— 	audīre 	— 	— 	audīminī 	—	#	4th conjugation						
-hear	imperative	passive	future		— 	audītor 	audītor 	— 	— 	audiuntor	#	4th conjugation						
+hear	imperative	active	present		—	audī 	—	—	audīte 	—	#	4th conjugation						
+hear	imperative	active	future		—	audītō 	audītō 	—	audītōte 	audiuntō	#	4th conjugation						
+hear	imperative	passive	present		—	audīre 	—	—	audīminī 	—	#	4th conjugation						
+hear	imperative	passive	future		—	audītor 	audītor 	—	—	audiuntor	#	4th conjugation						
 arrive	indicative	active 	present	aorist	adveniō 	advenīs 	advenit 	advenīmus 	advenītis 	adveniunt	#	needed to demonstrate declensions						
 arrive	indicative	active 	past	imperfective	adveniēbam 	adveniēbās 	adveniēbat 	adveniēbāmus 	adveniēbātis 	adveniēbant	#	needed to demonstrate declensions						
 arrive	indicative	active 	future	aorist	adveniam 	adveniēs 	adveniet 	adveniēmus 	adveniētis 	advenient	#	needed to demonstrate declensions						
 arrive	indicative	active 	present	perfective	advēnī 	advēnistī 	advēnit 	advēnimus 	advēnistis 	advēnērunt, advēnēre	#	needed to demonstrate declensions						
 arrive	indicative	active 	past	perfective	advēneram 	advēnerās 	advēnerat 	advēnerāmus 	advēnerātis 	advēnerant	#	needed to demonstrate declensions						
 arrive	indicative	active 	future	perfective	advēnerō 	advēneris 	advēnerit 	advēnerimus 	advēneritis 	advēnerint	#	needed to demonstrate declensions						
-arrive	indicative	passive	present	aorist	— 	— 	advenītur 	— 	— 	—	#	needed to demonstrate declensions						
-arrive	indicative	passive	past	imperfective	— 	— 	adveniēbātur 	— 	— 	—	#	needed to demonstrate declensions						
-arrive	indicative	passive	future	aorist	— 	— 	adveniētur 	— 	— 	—	#	needed to demonstrate declensions						
-arrive	indicative	passive	present	perfective	— 	— 	adventum est 	— 	— 	—	#	needed to demonstrate declensions						
-arrive	indicative	passive	past	perfective	— 	— 	adventum erat 	— 	— 	—	#	needed to demonstrate declensions						
-arrive	indicative	passive	future	perfective	— 	— 	adventum erit 	— 	— 	— 	#	needed to demonstrate declensions						
+arrive	indicative	passive	present	aorist	—	—	advenītur 	—	—	—	#	needed to demonstrate declensions						
+arrive	indicative	passive	past	imperfective	—	—	adveniēbātur 	—	—	—	#	needed to demonstrate declensions						
+arrive	indicative	passive	future	aorist	—	—	adveniētur 	—	—	—	#	needed to demonstrate declensions						
+arrive	indicative	passive	present	perfective	—	—	adventum est 	—	—	—	#	needed to demonstrate declensions						
+arrive	indicative	passive	past	perfective	—	—	adventum erat 	—	—	—	#	needed to demonstrate declensions						
+arrive	indicative	passive	future	perfective	—	—	adventum erit 	—	—	—	#	needed to demonstrate declensions						
 arrive	subjunctive	active 	present	aorist	adveniam 	adveniās 	adveniat 	adveniāmus 	adveniātis 	adveniant	#	needed to demonstrate declensions						
 arrive	subjunctive	active 	past	imperfective	advenīrem 	advenīrēs 	advenīret 	advenīrēmus 	advenīrētis 	advenīrent	#	needed to demonstrate declensions						
 arrive	subjunctive	active 	present	perfective	advēnerim 	advēnerīs 	advēnerit 	advēnerīmus 	advēnerītis 	advēnerint	#	needed to demonstrate declensions						
 arrive	subjunctive	active 	past	perfective	advēnissem 	advēnissēs 	advēnisset 	advēnissēmus 	advēnissētis 	advēnissent	#	needed to demonstrate declensions						
-arrive	subjunctive	passive 	present	aorist	— 	— 	adveniātur 	— 	— 	—	#	needed to demonstrate declensions						
-arrive	subjunctive	passive 	past	imperfective	— 	— 	advenīrētur 	— 	— 	—	#	needed to demonstrate declensions						
-arrive	subjunctive	passive 	present	perfective	— 	— 	adventum sit 	— 	— 	—	#	needed to demonstrate declensions						
-arrive	subjunctive	passive 	past	perfective	— 	— 	adventum esset, adventum foret 	— 	— 	— 	#	needed to demonstrate declensions						
-arrive	imperative	active 	present 		— 	advenī 	— 	— 	advenīte 	—	#	needed to demonstrate declensions						
-arrive	imperative	active 	future 		— 	advenītō 	advenītō 	— 	advenītōte 	adveniuntō	#	needed to demonstrate declensions						
+arrive	subjunctive	passive 	present	aorist	—	—	adveniātur 	—	—	—	#	needed to demonstrate declensions						
+arrive	subjunctive	passive 	past	imperfective	—	—	advenīrētur 	—	—	—	#	needed to demonstrate declensions						
+arrive	subjunctive	passive 	present	perfective	—	—	adventum sit 	—	—	—	#	needed to demonstrate declensions						
+arrive	subjunctive	passive 	past	perfective	—	—	adventum esset, adventum foret 	—	—	—	#	needed to demonstrate declensions						
+arrive	imperative	active 	present 		—	advenī 	—	—	advenīte 	—	#	needed to demonstrate declensions						
+arrive	imperative	active 	future 		—	advenītō 	advenītō 	—	advenītōte 	adveniuntō	#	needed to demonstrate declensions						
 figure	indicative	active	present	aorist	putō	putās	putat	putāmus	putātis	putant	#	needed to demonstrate declensions						
 figure	indicative	active	past	imperfective	putābam	putābās	putābat	putābāmus	putābātis	putābant	#	needed to demonstrate declensions						
 figure	indicative	active	future	aorist	putābō	putābis	putābit	putābimus	putābitis	putābunt	#	needed to demonstrate declensions						
-figure	indicative	active	present	perfective	putāvī	putāvistī, putāsti1	putāvit	putāvimus	putāvistis, putāstis1	putāvērunt, putāvēre	#	needed to demonstrate declensions						
+figure	indicative	active	present	perfective	putāvī	putāvistī, putāsti¹	putāvit	putāvimus	putāvistis, putāstis¹	putāvērunt, putāvēre	#	needed to demonstrate declensions						
 figure	indicative	active	past	perfective	putāveram	putāverās	putāverat	putāverāmus	putāverātis	putāverant	#	needed to demonstrate declensions						
 figure	indicative	active	future	perfective	putāverō	putāveris	putāverit	putāverimus	putāveritis	putāverint	#	needed to demonstrate declensions						
 figure	indicative	passive	present	aorist	putor	putāris, putāre	putātur	putāmur	putāminī	putantur	#	needed to demonstrate declensions						
@@ -240,8 +240,8 @@ figure	subjunctive	active	present	perfective	putāverim	putāverīs	putāverit	p
 figure	subjunctive	active	past	perfective	putāvissem	putāvissēs	putāvisset	putāvissēmus	putāvissētis	putāvissent	#	needed to demonstrate declensions						
 figure	subjunctive	passive	present	aorist	puter	putēris, putēre	putētur	putēmur	putēminī	putentur	#	needed to demonstrate declensions						
 figure	subjunctive	passive	past	imperfective	putārer	putārēris, putārēre	putārētur	putārēmur	putārēminī	putārentur	#	needed to demonstrate declensions						
-figure	imperative	active	present			putā			putāte		#	needed to demonstrate declensions						
-figure	imperative	active	future			putātō	putātō		putātōte	putantō	#	needed to demonstrate declensions						
-figure	imperative	passive	present			putāre			putāminī		#	needed to demonstrate declensions						
-figure	imperative	passive	future			putātor	putātor			putantor	#	needed to demonstrate declensions						
+figure	imperative	active	present		—	putā	—	—	putāte	—	#	needed to demonstrate declensions						
+figure	imperative	active	future		—	putātō	putātō	—	putātōte	putantō	#	needed to demonstrate declensions						
+figure	imperative	passive	present		—	putāre	—	—	putāminī	—	#	needed to demonstrate declensions						
+figure	imperative	passive	future		—	putātor	putātor	—	—	putantor	#	needed to demonstrate declensions						
 																		
