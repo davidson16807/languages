@@ -5,7 +5,7 @@ from tools.languages import Language
 from tools.writing import Writing
 from tools.nodemaps import (
     ListTools, ListGrammar,
-    RuleValidation, RuleFormatting, RuleSyntax,
+    RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
 )
 from inflections import (
     case_episemaxis_to_episemes,
@@ -21,6 +21,7 @@ from inflections import (
 )
 
 list_tools = ListTools()
+rule_tools = RuleTools()
 
 foreign_writing = Writing(
     'latin',
@@ -62,6 +63,7 @@ foreign_writing = Writing(
         ),
         RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
         list_tools,
+        rule_tools,
         RuleFormatting(),
         # RuleValidation(),
         RuleValidation(disabled=True),
@@ -112,7 +114,7 @@ write('flashcards/latin/finite-conjugation.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['person', 'number', 'gender']),
@@ -123,8 +125,42 @@ write('flashcards/latin/finite-conjugation.html',
                     ('1', 'plural',   'neuter'),
                     ('2', 'plural',   'feminine'),
                     ('3', 'plural',   'masculine'),
-                })
-            ],
+                }),
+            DictLookup(
+                'tense aspect filter', 
+                DictTupleIndexing(['tense', 'progress']),
+                content = {
+                    ('present', 'atelic'),
+                    ('present', 'finished'),
+                    ('future',  'atelic'),
+                    ('future',  'finished'),
+                    ('past',    'unfinished'),
+                    ('past',    'finished'),
+                }),
+            DictLookup(
+                'mood tense filter', 
+                DictTupleIndexing(['mood','tense']),
+                content = {
+                    ('indicative',  'present'),
+                    ('indicative',  'past'),
+                    ('indicative',  'future'),
+                    ('subjunctive', 'present'),
+                    ('subjunctive', 'past'),
+                    ('imperative',  'present'),
+                    ('imperative',  'future'),
+                }),
+        ],
+        blacklists = [
+            DictLookup(
+                'verb voice filter', 
+                DictTupleIndexing(['verb','voice']),
+                content = {
+                    ('be', 'passive'),
+                    ('be able', 'passive'),
+                    ('become', 'passive'),
+                    ('want', 'passive'),
+                }),
+        ],
         persons = persons,
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
         foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
@@ -176,7 +212,7 @@ write('flashcards/latin/pronoun-declension.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['noun', 'person', 'number', 'gender']),
@@ -264,7 +300,7 @@ write('flashcards/latin/adjective-agreement.html',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'adjective agreement noun filter', 
                 DictTupleIndexing(['gender', 'noun']),
@@ -312,7 +348,7 @@ write('flashcards/latin/pronoun-possessives.html',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'possessive pronoun possession filter', 
                 DictTupleIndexing(['possessor-noun', 'gender', 'noun']),
@@ -376,7 +412,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['person', 'number', 'gender']),
@@ -388,7 +424,41 @@ write('flashcards/latin/nonfinite-conjugation.html',
                     ('2', 'plural',   'feminine'),
                     ('3', 'plural',   'masculine'),
                 }),
-            ],
+            DictLookup(
+                'tense aspect filter', 
+                DictTupleIndexing(['tense', 'progress']),
+                content = {
+                    ('present', 'atelic'),
+                    ('present', 'finished'),
+                    ('future',  'atelic'),
+                    ('future',  'finished'),
+                    ('past',    'unfinished'),
+                    ('past',    'finished'),
+                }),
+            DictLookup(
+                'mood tense filter', 
+                DictTupleIndexing(['mood','tense']),
+                content = {
+                    ('indicative',  'present'),
+                    ('indicative',  'past'),
+                    ('indicative',  'future'),
+                    ('subjunctive', 'present'),
+                    ('subjunctive', 'past'),
+                    ('imperative',  'present'),
+                    ('imperative',  'future'),
+                }),
+        ],
+        blacklists = [
+            DictLookup(
+                'verb voice filter', 
+                DictTupleIndexing(['verb','voice']),
+                content = {
+                    ('be', 'passive'),
+                    ('be able', 'passive'),
+                    ('become', 'passive'),
+                    ('want', 'passive'),
+                }),
+        ],
         persons = persons,
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
         native_tree='clause [speaker-seme [np the n man] [vp v figure]] [modifier-seme np clause [test-seme [np the n man] [vp conjugated]]] [modifier-seme np test-seme stock-modifier]',

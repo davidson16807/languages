@@ -45,13 +45,15 @@ class CardGeneration:
             tagspace,
             foreign_tree,
             native_tree,
-            filter_lookups=[], 
+            whitelists=[], 
+            blacklists=[], 
             substitutions = [],
             persons=[],
         ):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
-            if all([test_tags in filter_lookup for filter_lookup in filter_lookups]):
+            if (all([test_tags in whitelist for whitelist in whitelists]) and 
+                all([test_tags not in blacklist for blacklist in blacklists])):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
@@ -103,14 +105,16 @@ class CardGeneration:
             foreign_language_script, 
             traversal, 
             tagspace,
-            filter_lookups=[],
+            whitelists=[],
+            blacklists=[], 
             nouns_to_depictions={},
             substitutions = [],
             tag_templates={},
             persons=[]):
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
-            if (all([test_tags in filter_lookup for filter_lookup in filter_lookups]) and 
+            if (all([test_tags in whitelist for whitelist in whitelists]) and 
+                all([test_tags not in blacklist for blacklist in blacklists]) and 
                   test_tags in foreign_language_script.language.grammar.case_usage):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None

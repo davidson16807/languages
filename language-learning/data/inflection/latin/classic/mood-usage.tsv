@@ -2,10 +2,13 @@
 #			evidentiality	confidence				#											
 			presumed		indicative	∅	∅	#											
 			promised		indicative	∅	∅	#		comissive									
+#			sensed		indicated	∅	∅	#											
 			visual		indicative	∅	∅	#											
+#			auditory		indicative	∅	∅	#											
 			nonvisual		indicative	∅	∅	#											
 			secondhand		indicative	∅	∅	#		inferential									
 			thirdhand		indicative	∅	∅	#		inferential									
+#			established		indicative	∅	∅	#											
 			circumstantial		indicative	∅	∅	#		presumptive									
 #			means		indicative	∅	∅	#	be able	presumptive									
 			motive		indicative	∅	∅	#	want	desiderative									

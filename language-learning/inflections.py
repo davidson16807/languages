@@ -18,7 +18,7 @@ from tools.evaluation import CellEvaluation, KeyEvaluation, MultiKeyEvaluation
 from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
 from tools.nodemaps import (
     ListTools, ListGrammar,
-    RuleValidation, RuleFormatting, RuleSyntax,
+    RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
 )
 from tools.emoji import Emoji
 from tools.languages import Language
@@ -362,7 +362,7 @@ reflexive_pronoun_declension_hashing = DictTupleIndexing([
         'person',     # needed for English
         'number',     # needed for German
         'gender',     # needed for Latin, German, Russian
-        'formality',   # needed for Spanish ('voseo')
+        'formality',  # needed for Spanish ('voseo')
         'case',       # needed for Latin
         'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
     ])
@@ -850,6 +850,7 @@ class EnglishListSubstitution:
 
 
 list_tools = ListTools()
+rule_tools = RuleTools()
 english_list_substitution = EnglishListSubstitution()
 
 english = Writing(
@@ -885,6 +886,7 @@ english = Writing(
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
         list_tools,
+        rule_tools,
         RuleFormatting(),
         RuleValidation(disabled=False), #None,
         substitutions = [

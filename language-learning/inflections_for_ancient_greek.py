@@ -5,7 +5,7 @@ from tools.languages import Language
 from tools.writing import Writing
 from tools.nodemaps import (
     ListTools, ListGrammar,
-    RuleValidation, RuleFormatting, RuleSyntax,
+    RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
 )
 from inflections import (
     case_episemaxis_to_episemes,
@@ -22,6 +22,7 @@ from inflections import (
 )
 
 list_tools = ListTools()
+rule_tools = RuleTools()
 
 foreign_writing = Writing(
     'greek',
@@ -61,6 +62,7 @@ foreign_writing = Writing(
         ),
         RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
         list_tools,
+        rule_tools,
         RuleFormatting(),
         # RuleValidation(),
         RuleValidation(disabled=True),
@@ -112,7 +114,7 @@ write('flashcards/ancient-greek/finite-conjugation.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelist = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['person', 'number', 'gender']),
@@ -175,7 +177,7 @@ write('flashcards/ancient-greek/pronoun-declension.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelist = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['noun', 'person', 'number', 'gender']),
@@ -269,7 +271,7 @@ write('flashcards/ancient-greek/pronoun-possessives.html',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelist = [
             DictLookup(
                 'possessive pronoun possession filter', 
                 DictTupleIndexing(['possessor-noun', 'gender', 'noun']),

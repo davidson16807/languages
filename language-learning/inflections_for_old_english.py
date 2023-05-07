@@ -5,7 +5,7 @@ from tools.languages import Language
 from tools.writing import Writing
 from tools.nodemaps import (
     ListTools, ListGrammar,
-    RuleValidation, RuleFormatting, RuleSyntax,
+    RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
 )
 from inflections import (
     case_episemaxis_to_episemes,
@@ -21,6 +21,7 @@ from inflections import (
 )
 
 list_tools = ListTools()
+rule_tools = RuleTools()
 
 foreign_writing = Writing(
     'latin',
@@ -61,6 +62,7 @@ foreign_writing = Writing(
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 
         # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
         list_tools,
+        rule_tools,
         RuleFormatting(),
         # RuleValidation(),
         RuleValidation(disabled=True),
@@ -109,7 +111,7 @@ write('flashcards/old-english/finite-conjugation.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['person', 'number', 'gender']),
@@ -183,7 +185,7 @@ write('flashcards/old-english/pronoun-declension.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['noun', 'person', 'number', 'gender']),
@@ -272,7 +274,7 @@ write('flashcards/old-english/strong-adjective-agreement.html',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'adjective agreement noun filter', 
                 DictTupleIndexing(['gender', 'noun']),
@@ -313,7 +315,7 @@ write('flashcards/old-english/weak-adjective-agreement.html',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'adjective agreement noun filter', 
                 DictTupleIndexing(['gender', 'noun']),
@@ -361,7 +363,7 @@ write('flashcards/old-english/pronoun-possessives.html',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
-        filter_lookups = [
+        whitelists = [
             DictLookup(
                 'possessive pronoun possession filter', 
                 DictTupleIndexing(['possessor-noun', 'gender', 'noun']),

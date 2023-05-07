@@ -143,12 +143,27 @@ class RuleFormatting:
         self.affix_regex = re.compile('\s*-\s*')
         self.space_regex = re.compile('\s+')
         self.empty_regex = re.compile('∅')
-    def default(self, treemap, rule):
-        result = ' '.join([
-            str(treemap.map(element)) if element is not None 
-            else f'<span title="{repr(rule)}">[MISSING]</span>'
-            for element in rule.content
-        ]) if isinstance(rule, Rule) else rule
+    def default(self, treemap, element):
+        newline = '&#xA;'
+        def format_section(lookup, tags):
+            return newline.join([
+                f'{key} : {lookup[key]}'
+                for key in tags
+                if key in lookup])
+        def format_lookup(lookup):
+            return (newline*2).join([
+                format_section(lookup, 'mood evidentiality confidence'.split()),
+                format_section(lookup, 'aspect progress'.split()),
+                format_section(lookup, 'verb completion strength voice tense'.split()),
+                format_section(lookup, 'case valency motion role'.split()),
+                format_section(lookup, 'noun person number gender clusivity formality clitic partitivity'.split()),
+                format_section(lookup, 'Language-type script'.split()),
+            ])
+        result ={
+            str:        lambda text: text,
+            Rule:       lambda rule: f'<span title="{format_lookup(rule.tags)}">{" ".join([str(treemap.map(subrule)) for subrule in rule.content])}</span>',
+            type(None): lambda none: f'[MISSING]',
+        }[type(element)](element)
         result = self.affix_regex.sub(self.affix_delimiter, result)
         result = self.space_regex.sub(' ', result)
         result = self.empty_regex.sub('', result)
@@ -169,12 +184,13 @@ class RuleValidation:
     def __init__(self, disabled=False):
         self.disabled = disabled
     def exists(self, treemap, rule):
-        return all([{
-                Rule:       lambda x: treemap.map(x),
-                str:        lambda x: '—' not in x,
-                type(None): lambda x: self.disabled,
-            }[type(subrule)](subrule)
-            for subrule in rule.content])
+        return all([
+            {
+                Rule:       lambda subrule: treemap.map(subrule),
+                str:        lambda text:    '—' not in text,
+                type(None): lambda none:    self.disabled,
+            }[type(element)](element)
+            for element in rule.content])
 
 class ListTools:
     def __init__(self):
@@ -224,3 +240,14 @@ class ListTools:
     def memory_to_postprocess(lookup):
         def tense(self, machine, tree, memory):
             return [tree[0], *lookup[memory], *machine.map(tree[1:], memory)]
+
+class RuleTools:
+    def __init__(self):
+        pass
+    def filter_tags(self, tags):
+        def _map(treemap, rule):
+            return Rule(rule.tag,
+                {key:value for key,value in rule.tags.items()
+                 if tags is None or key in tags},
+                treemap.map([content for content in rule.content]))
+        return _map

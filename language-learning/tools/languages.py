@@ -16,25 +16,28 @@ class Language:
         syntax:     contains maps from nodes represented as nested and unordered `Rule` objects to nodes represented as nested `Rule` objects ordered as they would appear according to language ordering rules (e.g. sentence structure)
         formatting: contains maps between nodes represented as nested lists of strings indicating how constructs such as Anki "cloze" statements should be rendered as strings
         validation: contains maps from nodes represented as nested lists of Noneable strings to boolean indicating whether the node should be rendered as a string
-        tools:      contains maps of nodes represented as nested lists of strings without concern to what the strings represent
+        list_tools:      contains maps of nodes represented as nested lists of strings without concern to what the strings represent
+        rule_tools:      contains maps of nodes represented as nested rules without concern to what the rules represent
     """
     def __init__(self, 
             grammar,
             syntax,
-            tools,
+            list_tools,
+            rule_tools,
             formatting,
             validation,
             substitutions=[]):
         self.substitutions = substitutions
         self.grammar = grammar
         self.syntax = syntax
-        self.tools = tools
+        self.list_tools = list_tools
+        self.rule_tools = rule_tools
         self.validation = validation
         self.formatting = formatting
     def map(self, syntax_tree, script, semes={}, substitutions=[]):
         default_substitution = {
-            'the': self.tools.replace(['det', 'the']),
-            'a':   self.tools.replace(['det', 'a']),
+            'the': self.list_tools.replace(['det', 'the']),
+            'a':   self.list_tools.replace(['det', 'a']),
         }
         tag_opcodes = {
             'informal':    {'formality': 'informal'},
@@ -57,8 +60,8 @@ class Language:
             'personal-possessive': {'noun-form': 'personal-possessive'},
             **semes
         }
-        tag_insertion = {tag:self.tools.tag({**opcode,'script':script}, remove=False) for (tag, opcode) in tag_opcodes.items()}
-        tag_removal   = {tag:self.tools.tag({**opcode,'script':script}, remove=True)  for (tag, opcode) in tag_opcodes.items()}
+        tag_insertion = {tag:self.list_tools.tag({**opcode,'script':script}, remove=False) for (tag, opcode) in tag_opcodes.items()}
+        tag_removal   = {tag:self.list_tools.tag({**opcode,'script':script}, remove=True)  for (tag, opcode) in tag_opcodes.items()}
         rules = 'clause cloze implicit parentheses det adj np vp n v stock-modifier stock-adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
@@ -66,7 +69,7 @@ class Language:
             ListTreeMap({**tag_insertion, **default_substitution}),
             ListTreeMap({
                 **tag_insertion, 
-                'cloze':            self.tools.tag({'show-alternates':True}, remove=False),
+                'cloze':            self.list_tools.tag({'show-alternates':True}, remove=False),
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
                 'det':              self.grammar.decline,
@@ -75,11 +78,13 @@ class Language:
             }),
             ListTreeMap({
                 **tag_removal,
-                **{tag:self.tools.rule() for tag in rules.split()},
+                **{tag:self.list_tools.rule() for tag in rules.split()},
             }),
             RuleTreeMap({
                 'clause':  self.syntax.order_clause,
                 'np':      self.syntax.order_noun_phrase,
+                'v':       self.rule_tools.filter_tags(set('verb evidentiality confidence aspect progress mood completion mood voice tense Language-type script person number'.split())),
+                'n':       self.rule_tools.filter_tags(set('noun valency motion role case person number gender clusivity formality clitic partitivity strength language-type script'.split())),
             }),
         ]
         validation = RuleTreeMap({
