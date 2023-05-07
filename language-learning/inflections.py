@@ -105,6 +105,7 @@ mood_episemaxis_to_episemes = {
         'antecedent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence provided elsewhere
         'consequent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence is contingent on other event
         'queried',        # addressee attests to the event, subject determines if the event occurs
+        'deliberated',    # addressee attests to the event, addressee determines if the event occurs, subject has no persuation to give
         'requested',      # addressee attests to the event, addressee determines if the event occurs, addressee not subject to persuasion
         'encouraged',     # addressee attests to the event, addressee determines if the event occurs, addressee is persuaded by encouragement
         'implored',       # addressee attests to the event, addressee determines if the event occurs, addressee is persuaded by emphasis

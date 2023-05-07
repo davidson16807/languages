@@ -89,7 +89,7 @@ nouns = ['young-man', 'soldier', 'polity', 'village', 'person', 'street', 'gift'
          'orator', 'father', 'man', 'Demeter', 'Socrates', 'Pericles', 'arrow',
          'foundation', 'shame', 'Ares', 'woman', 'Thales', 'Oedipus', 'fire',
          'Apollo', 'knee', 'wood', 'Zeus', 'liver', 'dog', 'ship', 'ear', 'water', 'hand']
-aspects = 'aorist imperfective perfective'.split()
+progress = 'atelic started finished'.split()
 moods = 'indicative subjunctive imperative optative'.split()
 tenses = 'present past future'.split()
 voices = 'active middle passive'.split()
@@ -99,13 +99,13 @@ write('flashcards/ancient-greek/finite-conjugation.html',
         foreign_writing,
         DictTupleIndexing([
             'gender','person','number','formality','clusivity','clitic',
-            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', ]),
+            'tense', 'progress', 'mood', 'voice', 'verb', 'verb-form', ]),
         {
             **tag_defaults,
             'gender':      genders,
             'person':    ['1','2','3'],
             'number':      numbers,
-            'aspect':      aspects,
+            'progress':    progress,
             'mood':        moods,
             'tense':       tenses,
             'voice':       voices,
@@ -114,7 +114,7 @@ write('flashcards/ancient-greek/finite-conjugation.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        whitelist = [
+        whitelists = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['person', 'number', 'gender']),
@@ -122,11 +122,23 @@ write('flashcards/ancient-greek/finite-conjugation.html',
                     ('1', 'singular', 'neuter'),
                     ('2', 'singular', 'feminine'),
                     ('3', 'singular', 'masculine'),
+                    ('2', 'dual', 'feminine'),
+                    ('3', 'dual', 'masculine'),
                     ('1', 'plural',   'neuter'),
                     ('2', 'plural',   'feminine'),
                     ('3', 'plural',   'masculine'),
+                }),
+            DictLookup(
+                'voice filter', 
+                DictTupleIndexing(['verb', 'voice']),
+                content = {
+                    ('be',      'active'),
+                    ('go',      'active'),
+                    ('release', 'active'),
+                    ('release', 'middle'),
+                    ('release', 'passive'),
                 })
-            ],
+        ],
         persons = persons,
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
         foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
@@ -177,7 +189,7 @@ write('flashcards/ancient-greek/pronoun-declension.html',
             'noun-form':  'personal',
             'verb-form':  'finite',
         },
-        whitelist = [
+        whitelists = [
             DictLookup(
                 'pronoun filter', 
                 DictTupleIndexing(['noun', 'person', 'number', 'gender']),
@@ -271,7 +283,7 @@ write('flashcards/ancient-greek/pronoun-possessives.html',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
-        whitelist = [
+        whitelists = [
             DictLookup(
                 'possessive pronoun possession filter', 
                 DictTupleIndexing(['possessor-noun', 'gender', 'noun']),
@@ -322,7 +334,7 @@ write('flashcards/ancient-greek/participle-declension.html',
     card_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
-            'tense', 'voice', 'aspect', 'mood', 
+            'tense', 'voice', 'progress', 'mood', 
             'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
         {
             **case_episemaxis_to_episemes,
@@ -337,13 +349,13 @@ write('flashcards/ancient-greek/participle-declension.html',
             'noun-form':   'common',
         },
         tag_templates ={
-            'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',},
-            'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common', 'person':'4'},
+            'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'patient'    : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'theme'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'test'       : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',},
+            'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common', 'person':'4'},
             'participle' : {'case':'nominative'},
         },
         persons = persons,

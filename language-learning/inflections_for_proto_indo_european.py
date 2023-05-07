@@ -84,10 +84,10 @@ numbers = 'singular dual plural'.split()
 verbs = ['be', 'become', 'carry', 'leave', 'work', 
          'do', 'ask', 'stretch', 'know', 
          'sit', 'protect', 'be red', 'set down', 'want to see',
-         'renew', 'say', 'talk', 'talk', 'point out',]
+         'renew', 'say', 'point out',]
 nouns = 'wolf egg mare stranger seed father water cow pig sea fight cloud stone'.split()
 adjectives = 'young old upset'.split()
-aspects = 'aorist'
+progress = 'atelic'
 moods = 'indicative subjunctive imperative optative'.split()
 tenses = 'present past'.split()
 voices = 'active middle'.split()
@@ -98,13 +98,13 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
         DictTupleIndexing([
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
-            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form']),
+            'tense', 'progress', 'mood', 'voice', 'verb', 'verb-form']),
         {
             **tag_defaults,
             'gender':      genders,
             'person':    ['1','2','3'],
             'number':      numbers,
-            'aspect':      aspects,
+            'progress':    progress,
             'mood':        moods,
             'tense':       tenses,
             'voice':       voices,
@@ -121,9 +121,25 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
                     ('1', 'singular', 'neuter'),
                     ('2', 'singular', 'feminine'),
                     ('3', 'singular', 'masculine'),
+                    ('2', 'dual',     'feminine'),
+                    ('3', 'dual',     'masculine'),
                     ('1', 'plural',   'neuter'),
                     ('2', 'plural',   'feminine'),
                     ('3', 'plural',   'masculine'),
+                })
+            ],
+        blacklists = [
+            DictLookup(
+                'voice filter', 
+                DictTupleIndexing(['verb', 'voice']),
+                content = {
+                    ('be',     'middle'),
+                    ('become', 'middle'),
+                    ('know',   'middle'),
+                    ('sit',    'middle'),
+                    ('be red', 'middle'),
+                    ('arrive', 'middle'),
+                    ('thought','middle'),
                 })
             ],
         persons = persons,
@@ -369,7 +385,7 @@ write('flashcards/proto-indo-european/participle-declension.html',
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
-            'tense', 'voice', 'aspect', 'mood', 
+            'tense', 'voice', 'progress', 'mood', 
             'motion', 'role', 'number', 'noun', 'gender', 'verb']),
         {
             **tag_defaults,
@@ -384,13 +400,13 @@ write('flashcards/proto-indo-european/participle-declension.html',
             'noun-form':  'common',
         },
         tag_templates ={
-            'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',},
-            'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common', 'person':'4'},
+            'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'patient'    : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'theme'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'test'       : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',},
+            'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common', 'person':'4'},
             'participle' : {'case':'nominative'},
         },
         persons = persons,

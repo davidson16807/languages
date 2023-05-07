@@ -85,7 +85,7 @@ verbs = ['be [momentarily]', 'be [by nature]', 'do', 'go', 'want',
          'steal', 'share', 'tame', 'move', 'love', 'have', 'live', 'say', 'think',]
 nouns = 'dog light house gift raid moon sun eye time English son hand person nut goose friend bystander father mother brother sister daughter lamb shoe piglet shadow meadow'.split(' ')
 adjectives = 'good tall black red green'.split()
-aspects = 'aorist'
+progress = 'atelic'
 moods = 'indicative subjunctive imperative'.split()
 tenses = 'present past'.split()
 voices = 'active'
@@ -96,13 +96,13 @@ write('flashcards/old-english/finite-conjugation.html',
         DictTupleIndexing([
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
-            'tense', 'aspect', 'mood', 'voice', 'verb', 'verb-form', ]),
+            'tense', 'progress', 'mood', 'voice', 'verb', 'verb-form', ]),
         {
             **tag_defaults,
             'gender':      genders,
             'person':    ['1','2','3'],
             'number':      numbers,
-            'aspect':      aspects,
+            'progress':    progress,
             'mood':        moods,
             'tense':       tenses,
             'voice':       voices,
@@ -415,7 +415,7 @@ write('flashcards/old-english/participle-declension.html',
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
-            'tense', 'voice', 'aspect', 'mood', 
+            'tense', 'voice', 'progress', 'mood', 
             'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
         {
             **case_episemaxis_to_episemes,
@@ -430,13 +430,13 @@ write('flashcards/old-english/participle-declension.html',
             'noun-form':  'common',
         },
         tag_templates ={
-            'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common',},
-            'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'aspect':'aorist', 'noun-form':'common', 'person':'4'},
+            'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'patient'    : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'theme'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
+            'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
+            'test'       : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',},
+            'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common', 'person':'4'},
             'participle' : {'case':'nominative'},
         },
         persons = persons,

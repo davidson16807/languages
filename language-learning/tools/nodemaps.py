@@ -35,8 +35,8 @@ class ListGrammar:
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
         missing_value = '' if content[0] in {'det'} else None
-        if tags not in self.case_usage:
-            return missing_value
+        # if tags not in self.case_usage:
+        #     return missing_value
         sememe = {
             **tags, 
             **self.tags, 
