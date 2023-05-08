@@ -1,52 +1,51 @@
 *	*	*	*		*	nominative	genitive	dative	accusative	vocative	#	epic							
-personal	1		singular	tonic	greek	ἐγώ / ἐγών	ἐμεῖο / ἐμέο / ἐμεῦ /  / ἐμέθεν	ἐμοί	ἐμέ		#								
-personal	1		singular	tonic	latin	egṓ(n)	emeîo / eméo / emeû /  / eméthen	emoí	emé		#								
-personal	1		singular	enclitic	greek		μευ	μοι†	με†		#								
-personal	1		singular	enclitic	latin		meu	moi†	me† 		#								
+personal	1		singular	tonic	greek	ἐγώ / ἐγών	ἐμεῖο / ἐμέο / ἐμεῦ /  / ἐμέθεν	ἐμοί	ἐμέ	—	#								
+personal	1		singular	tonic	latin	egṓ(n)	emeîo / eméo / emeû /  / eméthen	emoí	emé	—	#								
+personal	1		singular	enclitic	greek	∅	μευ	μοι†	με†	—	#								
+personal	1		singular	enclitic	latin	∅	meu	moi†	me† 	—	#								
 personal	1		dual		greek	νῶῐ̈ / νώ	νῶῐ̈ν	νῶῐ̈ν	νῶῐ̈ / νώ	νῶῐ̈ / νώ	#								
 personal	1		dual		latin	nôï / nṓ	nôïn	nôïn	nôï / nṓ	nôï / nṓ 	#								
-personal	1		plural		greek	ἡμεῖς / ᾰ̓́μμες	ἡμείων / ἡμέων	ἡμῖν / ᾰ̓́μμῐ / ᾰ̓́μμῐν	ἡμέᾰς / ᾰ̓́μμε		#								
-personal	1		plural		latin	hēmeîs / ámmes	hēmeíōn / hēméōn	hēmîn / ámmi(n)	hēméas / ámme 		#								
+personal	1		plural		greek	ἡμεῖς / ᾰ̓́μμες	ἡμείων / ἡμέων	ἡμῖν / ᾰ̓́μμῐ / ᾰ̓́μμῐν	ἡμέᾰς / ᾰ̓́μμε	—	#								
+personal	1		plural		latin	hēmeîs / ámmes	hēmeíōn / hēméōn	hēmîn / ámmi(n)	hēméas / ámme 	—	#								
 											#								
-personal	2		singular	tonic	greek	σῠ́ / τῡ́νη	σεῖο / σέο / σεῦ /  / σέθεν	σοί /  / τεῐ̈́ν	σέ		#								
-personal	2		singular	tonic	latin	sú / tū́nē	seîo / séo / seû /  / séthen	soí /  / teḯn	sé		#								
-personal	2		singular	enclitic	greek		σεο† / σευ†	τοι†	σε†		#								
-personal	2		singular	enclitic	latin		seo† / seu†	toi†	se†		#								
+personal	2		singular	tonic	greek	σῠ́ / τῡ́νη	σεῖο / σέο / σεῦ /  / σέθεν	σοί /  / τεῐ̈́ν	σέ	—	#								
+personal	2		singular	tonic	latin	sú / tū́nē	seîo / séo / seû /  / séthen	soí /  / teḯn	sé	—	#								
+personal	2		singular	enclitic	greek	∅	σεο† / σευ†	τοι†	σε†	—	#								
+personal	2		singular	enclitic	latin	∅	seo† / seu†	toi†	se†	—	#								
 personal	2		dual		greek	σφῶῐ̈ / σφώ	σφῶῐ̈ν / σφῷν	σφῶῐ̈ν / σφῷν	σφῶῐ̈ / σφώ	σφῶῐ̈ / σφώ	#								
 personal	2		dual		latin	sphôï / sphṓ	sphôïn / sphôin	sphôïn / sphôin	sphôï / sphṓ	sphôï / sphṓ 	#								
 personal	2		plural		greek	ῡ̔μεῖς / ῠ̓́μμες	ῡ̔μείων / ῡ̔μέων	ῡ̔μῖν / ῠ̓́μμῐ / ῠ̓́μμῐν	ῡ̔μέᾰς / ῠ̓́μμε	ῡ̔μεῖς / ῠ̓́μμες	#								
 personal	2		plural		latin	hūmeîs / úmmes	hūmeíōn / hūméōn	hūmîn / úmmi(n)	hūméas / úmme	hūmeîs / úmmes 	#								
-																			
-personal	3		singular	tonic	greek		εἷο / ἕο / εὗ / ἕθεν / ἑοῖο	ἑοῖ / οἷ	ἑέ / ἕ		#								
-personal	3		singular	tonic	latin		heîo / héo / heû / héthen / heoîo	heoî / hoî	heé / hé		#								
-personal	3		singular	enclitic	greek		ἑο† / εὑ† / ἑθεν†	οἱ†	ἑ† / μῐν† / σφε†		#								
-personal	3		singular	enclitic	latin		heo† / heu† / hethen†	hoi†	he† / min† / sphe†		#								
+											#								
+personal	3		singular	tonic	greek	∅	εἷο / ἕο / εὗ / ἕθεν / ἑοῖο	ἑοῖ / οἷ	ἑέ / ἕ	—	#								
+personal	3		singular	tonic	latin	∅	heîo / héo / heû / héthen / heoîo	heoî / hoî	heé / hé	—	#								
+personal	3		singular	enclitic	greek	∅	ἑο† / εὑ† / ἑθεν†	οἱ†	ἑ† / μῐν† / σφε†	—	#								
+personal	3		singular	enclitic	latin	∅	heo† / heu† / hethen†	hoi†	he† / min† / sphe†	—	#								
 personal	3		dual		greek	σφωέ	σφωῐ̈ν	σφωῐ̈ν	σφωέ	σφωέ	#								
 personal	3		dual		latin	sphōé	sphōïn	sphōïn	sphōé	sphōé 	#								
-																			
-demonstrative	3	masculine	singular		greek	ὁ	τοῦ / τοῖο	τῷ	τόν		#								
-demonstrative	3	masculine	singular		latin	ho 	toû / toîo 	tôi 	tón 		#								
-demonstrative	3	feminine	singular		greek	ἡ	τῆς	τῇ	τήν		#								
-demonstrative	3	feminine	singular		latin	hē 	tês 	têi 	tḗn 		#								
-demonstrative	3	neuter	singular		greek	τό	τοῦ / τοῖο	τῷ	τό		#								
-demonstrative	3	neuter	singular		latin	tó 	toû / toîo 	tôi 	tó 		#								
+personal	3		plural		greek	—	σφείων / σφέων / σφεων† / σφῶν	σφῐ́σῐ / σφῐ́σῐν / σφῐσῐ / σφῐσῐν† / σφῐν†	σφέᾰς / σφεᾰς† / σφε†	—	#								
+personal	3		plural		latin	—	spheíōn / sphéōn / spheōn† / sphôn	sphísi(n) / sphisi(n)† / sphin†	sphéas / spheas† / sphe† 	—	#								
 											#								
-demonstrative	3	masculine	dual		greek	τώ	τοῖιν	τοῖιν	τώ		#								
-demonstrative	3	masculine	dual		latin	tṓ 	toîin 	toîin 	tṓ 		#								
-demonstrative	3	feminine	dual		greek	τώ / τᾱ́	τοῖιν	τοῖιν	τώ / τᾱ́		#								
-demonstrative	3	feminine	dual		latin	tṓ / tā́ 	toîin 	toîin 	tṓ / tā́ 		#								
-demonstrative	3	neuter	dual		greek	τώ	τοῖιν	τοῖιν	τώ		#								
-demonstrative	3	neuter	dual		latin	tṓ 	toîin 	toîin 	tṓ 		#								
+demonstrative	3	masculine	singular		greek	ὁ	τοῦ / τοῖο	τῷ	τόν	—	#								
+demonstrative	3	masculine	singular		latin	ho 	toû / toîo 	tôi 	tón 	—	#								
+demonstrative	3	feminine	singular		greek	ἡ	τῆς	τῇ	τήν	—	#								
+demonstrative	3	feminine	singular		latin	hē 	tês 	têi 	tḗn 	—	#								
+demonstrative	3	neuter	singular		greek	τό	τοῦ / τοῖο	τῷ	τό	—	#								
+demonstrative	3	neuter	singular		latin	tó 	toû / toîo 	tôi 	tó 	—	#								
 											#								
-demonstrative	3	masculine	plural		greek	οἱ / τοί	τῶν	τοῖς / τοῖσι / τοῖσιν	τούς		#								
-demonstrative	3	masculine	plural		latin	hoi / toí 	tôn 	toîs / toîsi(n) 	toús 		#								
-demonstrative	3	feminine	plural		greek	αἱ / ταί	τῶν / τᾱ́ων	τῇς / τῇσι / τῇσιν	τᾱ́ς		#								
-demonstrative	3	feminine	plural		latin	hai / taí 	tôn / tā́ōn 	têis / têisi(n) 	tā́s 		#								
-demonstrative	3	neuter	plural		greek	τᾰ́	τῶν	τοῖς / τοῖσι / τοῖσιν	τᾰ́		#								
-demonstrative	3	neuter	plural		latin	tá	tôn	toîs / toîsi(n)	tá 		#								
+demonstrative	3	masculine	dual		greek	τώ	τοῖιν	τοῖιν	τώ	—	#								
+demonstrative	3	masculine	dual		latin	tṓ 	toîin 	toîin 	tṓ 	—	#								
+demonstrative	3	feminine	dual		greek	τώ / τᾱ́	τοῖιν	τοῖιν	τώ / τᾱ́	—	#								
+demonstrative	3	feminine	dual		latin	tṓ / tā́ 	toîin 	toîin 	tṓ / tā́ 	—	#								
+demonstrative	3	neuter	dual		greek	τώ	τοῖιν	τοῖιν	τώ	—	#								
+demonstrative	3	neuter	dual		latin	tṓ 	toîin 	toîin 	tṓ 	—	#								
 											#								
-																			
-																			
+demonstrative	3	masculine	plural		greek	οἱ / τοί	τῶν	τοῖς / τοῖσι / τοῖσιν	τούς	—	#								
+demonstrative	3	masculine	plural		latin	hoi / toí 	tôn 	toîs / toîsi(n) 	toús 	—	#								
+demonstrative	3	feminine	plural		greek	αἱ / ταί	τῶν / τᾱ́ων	τῇς / τῇσι / τῇσιν	τᾱ́ς	—	#								
+demonstrative	3	feminine	plural		latin	hai / taí 	tôn / tā́ōn 	têis / têisi(n) 	tā́s 	—	#								
+demonstrative	3	neuter	plural		greek	τᾰ́	τῶν	τοῖς / τοῖσι / τοῖσιν	τᾰ́	—	#								
+demonstrative	3	neuter	plural		latin	tá	tôn	toîs / toîsi(n)	tá 	—	#								
 																			
 																			
 																			

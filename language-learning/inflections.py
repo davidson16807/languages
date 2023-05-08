@@ -106,18 +106,19 @@ mood_episemaxis_to_episemes = {
         'consequent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence is contingent on other event
         'queried',        # addressee attests to the event, subject determines if the event occurs
         'deliberated',    # addressee attests to the event, addressee determines if the event occurs, subject has no persuation to give
+        'pending',        # addressee attests to the event, addressee determines if the event occurs, addressee is likely persuaded and confirmation is pending
         'requested',      # addressee attests to the event, addressee determines if the event occurs, addressee not subject to persuasion
-        'encouraged',     # addressee attests to the event, addressee determines if the event occurs, addressee is persuaded by encouragement
-        'implored',       # addressee attests to the event, addressee determines if the event occurs, addressee is persuaded by emphasis
+        'encouraged',     # addressee attests to the event, addressee determines if the event occurs, addressee is being persuaded by encouragement
+        'implored',       # addressee attests to the event, addressee determines if the event occurs, addressee is being persuaded by emphasis
         'commanded',      # addressee attests to the event, addressee determines if the event occurs, addressee is subordinate
         'prayed',         # addressee attests to the event, addressee determines if the event occurs, addressee is supernatural
         'wished',         # subject attests to the event, subject determines if the event occurs, addressee is invested in outcome
         'deferred',       # subject attests to the event, subject determines if the event occurs, addressee is not invested in outcome
     ],
-    # how the statement functions in the context of logical discourse
-    'proposition':      'affirmation denial'.split(),
+    # whether the event is confirmed or denied
+    'polarity':         'positive negative'.split(),
     # how likely the statement is to be true
-    'confidence':       'confident probable potential improbable counterfactual'.split(),
+    'confidence':       'confident probable possible'.split(),
     # how surprised the speaker depicts himself
     'surprise':         'surprised unsurprised'.split(),
     # how ironic the speaker is
@@ -793,15 +794,15 @@ class EnglishListSubstitution:
         else:
             aspect = 'simple'
         verb = {
-            'arrested':               [['passive','simple', 'implicit', 'v', 'halt'], 'from', 'finite', ['imperfective', tree]],
-            'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['imperfective', tree]],
-            'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['imperfective', tree]],
-            'continued':              [['active', 'simple', 'implicit', 'v', 'continue'], 'finite', ['imperfective', tree]],
-            'completed':              [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['imperfective', tree]],
-            'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['imperfective', tree]],
+            'arrested':               [['passive','simple', 'implicit', 'v', 'halt'], 'from', 'finite', ['progressive', tree]],
+            'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['progressive', tree]],
+            'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['progressive', tree]],
+            'continued':              [['active', 'simple', 'implicit', 'v', 'continue'], 'finite', ['progressive', tree]],
+            'completed':              [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['progressive', tree]],
+            'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['progressive', tree]],
             'simple':                 tree,
-            'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['imperfective', tree]],
-            'imperfective':           [['active', 'simple', 'v', 'be'],   'imperfective', 'finite', tree],
+            'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['progressive', tree]],
+            'imperfective':           [['active', 'simple', 'v', 'be'],   'progressive', 'finite', tree],
             'perfective':             [['active', 'simple', 'v', 'have'], 'perfective', 'finite', tree],
         }[aspect]
         return [*preverb, *verb, *postverb]
@@ -938,6 +939,7 @@ tag_defaults = {
 
     'evidentiality':'presumed',
     'confidence':   'confident',
+    'polarity':     'positive',
     'mood':         'indicative',
 
     'tense':        'present', 
