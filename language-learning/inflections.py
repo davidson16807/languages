@@ -850,7 +850,6 @@ class EnglishListSubstitution:
             gender_marker if 'show-gender' in memory and memory['show-gender'] else '', 
             formality_marker] if nounform == 'personal' else tree
 
-
 list_tools = ListTools()
 rule_tools = RuleTools()
 english_list_substitution = EnglishListSubstitution()
@@ -885,6 +884,7 @@ english = Writing(
                 aspect_usage_annotation.annotate(
                     tsv_parsing.rows('data/inflection/english/modern/aspect-usage.tsv'))),
             {'language-type':'native'},
+            # debug=True,
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
         list_tools,

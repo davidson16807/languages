@@ -2,15 +2,15 @@
 #	duration	progress	consistency	ordinality	persistance	recency	trajectory	distribution				#
 		atomic							aorist			#
 		atelic							aorist			#
-		started							aorist			#
-		unfinished							aorist			#
-		attempted							aorist			#
-		transitioning							aorist			#
-		paused							aorist			#
-		arrested							aorist			#
-		resumed							aorist			#
-		continued							aorist			#
-		finished							aorist			#
+		started							imperfective			#
+		unfinished							imperfective			#
+		attempted							imperfective			#
+		transitioning							imperfective			#
+		paused							imperfective			#
+		arrested							imperfective			#
+		resumed							imperfective			#
+		continued							imperfective			#
+		finished							perfective			#
 #												#
 #	D	P	C	S	P	R	MD1	MD2				#
 #	duration	progress	consistency	ordinality	persistence	recency	trajectory	distribution				#

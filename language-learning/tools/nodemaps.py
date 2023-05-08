@@ -19,13 +19,15 @@ class ListGrammar:
             case_usage,
             mood_usage,
             aspect_usage,
-            tags):
+            tags,
+            debug=False):
         self.conjugation_lookups = conjugation_lookups
         self.declension_lookups = declension_lookups
         self.case_usage = case_usage
         self.mood_usage = mood_usage
         self.aspect_usage = aspect_usage
         self.tags = tags
+        self.debug = debug
         def format_alternates(text, tags):
             split = re.split(' *[|/,] *', text)
             show_alternates = 'show-alternates' in tags and tags['show-alternates']
@@ -58,9 +60,11 @@ class ListGrammar:
         sememe = {
             **tags, 
             **self.tags, 
-            'aspect':self.aspect_usage[tags]['aspect'],
             'verb':content[1],
         }
+        sememe['aspect'] = sememe['aspect'] if 'aspect' in sememe else self.aspect_usage[tags]['aspect']
+        # if self.debug and sememe['aspect'] == 'imperfective':
+        #     breakpoint()
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
             else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]
