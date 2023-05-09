@@ -161,7 +161,8 @@ class RuleFormatting:
                 format_section(lookup, 'verb completion strength voice tense'.split()),
                 format_section(lookup, 'case valency motion role'.split()),
                 format_section(lookup, 'noun person number gender clusivity formality clitic partitivity'.split()),
-                format_section(lookup, 'Language-type script'.split()),
+                format_section(lookup, 'language-type script'.split()),
+                format_section(lookup, 'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality'.split()),
             ])
         result ={
             str:        lambda text: text,
