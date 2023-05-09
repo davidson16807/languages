@@ -73,7 +73,7 @@ indigo	woman	<span style='filter:  hue-rotate(150deg)'>\nx{🧑\gx\2}</span>	#	r
 indigo	animal	\nx{🐟}	#	russian
 violet	man	<span style='filter: hue-rotate(235deg)'>\nx{🧑\gx\2}</span>	#	
 violet	woman	<span style='filter: hue-rotate(235deg)'>\nx{🧑\gx\2}</span>	#	
-violet	animal	\nx{👾}	"#	"	
+violet	animal	\nx{👾}	#	
 purple	man	<span style='filter: hue-rotate(235deg)'>\nx{🧑\gx\2}</span>	#	
 purple	woman	<span style='filter: hue-rotate(235deg)'>\nx{🧑\gx\2}</span>	#	
 purple	animal	\nx{👾}	#	
@@ -82,7 +82,7 @@ pink	woman	<span style='filter: hue-rotate(-45deg)'>\nx{🧑\gx\2}</span>	#
 pink	animal	\nx{🦩}	#	
 black	man	\nx{🧑\gx\5}	#	old english
 black	woman	\nx{🧑\gx\5}	#	old english
-black	animal	\nx{🐈‍⬛}	"#	"	old english
+black	animal	\nx{🐈‍⬛}	#	old english
 fancy	man	\nx{🤵\cx\gx}	#	
 fancy	woman	\nx{🤵\cx\gx}	#	
 fancy	animal	\nx{🐩}	#	

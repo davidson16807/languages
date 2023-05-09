@@ -160,6 +160,18 @@ write('flashcards/latin/finite-conjugation.html',
                     ('become', 'passive'),
                     ('want', 'passive'),
                 }),
+            DictLookup(
+                'verb aspect filter', 
+                DictTupleIndexing(['verb','progress']),
+                content = {
+                    ('become', 'finished'),
+                }),
+            DictLookup(
+                'verb mood filter', 
+                DictTupleIndexing(['verb','mood']),
+                content = {
+                    ('be able', 'imperative'),
+                }),
         ],
         persons = persons,
         substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],

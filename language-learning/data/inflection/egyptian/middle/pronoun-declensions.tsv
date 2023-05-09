@@ -11,7 +11,7 @@ personal	possessor	tonic	singular	2	𓈖𓏏𓎡	ntk	ʲāntak	𓈖𓏏𓍿/𓈖�
 personal	possessor	tonic	singular	3	𓈖𓏏𓆑	ntf	ʲāntaf	𓈖𓏏𓋴/𓈖𓏏𓊃	nts	ʲāntas	#	'independant'
 personal	possessor	tonic	plural	1	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	ʲānan	𓇋𓀁𓈖𓈖𓏥 /𓇋𓏌𓈖𓏥 	inn	ʲānan	#	'independant'
 personal	possessor	tonic	plural	2	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	ʲāntatin/ʲāntaṯin	𓈖𓏏𓍿𓈖𓏥/𓈖𓏏𓏏𓈖𓏪	ntṯn/nttn	ʲāntatin/ʲāntaṯin	#	'independant'
-personal	possessor	tonic	plural	3	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	ʲāntasin	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	ʲāntasin	"#	"	'independant'
+personal	possessor	tonic	plural	3	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	ʲāntasin	𓈖𓏏𓋴 𓈖𓏥/𓈖𓏏 𓊃𓈖	ntsn	ʲāntasin	#	'independant'
 personal	agent	enclitic	singular	1	𓀀/𓇋	i	aʲ	𓀀/𓇋	i	aʲ	#	'suffix'
 personal	agent	enclitic	singular	2	𓎡	k	k	𓍿/𓏏	ṯ/t	t/ṯ	#	'suffix'
 personal	agent	enclitic	singular	3	𓆑	f	f	𓋴	s	s	#	'suffix'
@@ -20,7 +20,7 @@ personal	agent	enclitic	dual	2	𓏏𓈖𓏭	tny	tiniʲ/ṯiniʲ	𓏏𓈖𓏭	tny
 personal	agent	enclitic	dual	3	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	#	'suffix'
 personal	agent	enclitic	plural	1	𓈖𓏥	n	ina/in	𓈖𓏥	n	ina/in	#	'suffix'
 personal	agent	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	#	'suffix'
-personal	agent	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	"#	"	'suffix'
+personal	agent	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	#	'suffix'
 personal	possessor	enclitic	singular	1	𓀀/𓇋	i	aʲ	𓀀/𓇋	i	aʲ	#	'suffix'
 personal	possessor	enclitic	singular	2	𓎡	k	k	𓍿/𓏏	ṯ/t	t/ṯ	#	'suffix'
 personal	possessor	enclitic	singular	3	𓆑	f	f	𓋴	s	s	#	'suffix'
@@ -29,7 +29,7 @@ personal	possessor	enclitic	dual	2	𓏏𓈖𓏭	tny	tiniʲ/ṯiniʲ	𓏏𓈖𓏭
 personal	possessor	enclitic	dual	3	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	𓋴𓈖𓏭/𓊃𓈖𓏭	sny	siniʲ	#	'suffix'
 personal	possessor	enclitic	plural	1	𓈖𓏥	n	ina/in	𓈖𓏥	n	ina/in	#	'suffix'
 personal	possessor	enclitic	plural	2	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	𓏏𓈖𓏥/𓍿𓈖𓏥	tn/ṯn	tin/ṯin	#	'suffix'
-personal	possessor	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	"#	"	'suffix'
+personal	possessor	enclitic	plural	3	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	#	'suffix'
 personal	oblique	enclitic	singular	1	𓀀/𓇋	i	aʲ	𓀀/𓇋	i	aʲ	#	'suffix'
 personal	oblique	enclitic	singular	2	𓎡	k	k	𓍿/𓏏	ṯ/t	t/ṯ	#	'suffix'
 personal	oblique	enclitic	singular	3	𓆑	f	f	𓋴	s	s	#	'suffix'
@@ -50,7 +50,7 @@ personal	predicand	enclitic	singular	2	𓍿𓅱/𓏏𓅱	ṯw	kuw/ṯuw	𓍿𓈖
 personal	predicand	enclitic	singular	3	𓇓𓅱	sw	suw	𓋴𓏭/𓊃𓏭	sy	siʲ	#	'dependant'
 personal	predicand	enclitic	plural	1	𓈖𓏥	n	ina/in	𓈖𓏥	n	ina/in	#	'dependant'
 personal	predicand	enclitic	plural	2	𓍿𓈖𓏥	ṯn	tin/ṯin	𓍿𓈖𓏥	ṯn	tin/ṯin	#	'dependant'
-personal	predicand	enclitic	plural	3	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	"#	"	'dependant'
+personal	predicand	enclitic	plural	3	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	𓋴 𓈖𓏥/𓊃𓈖𓏥	sn	sina/sin	#	'dependant'
 demonstrative	proximal		singular		𓊪𓈖 	pn		𓏏𓈖	tn		#	
 demonstrative	proximal		plural		𓇑𓇑𓈖	nn n(y)		𓇑𓇑𓈖	nn n(y)		#	
 demonstrative	distal		singular		𓊪𓆑(𓄿)	pfꜣ		𓏏𓆑(𓄿)	tfꜣ		#	
