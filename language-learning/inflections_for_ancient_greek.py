@@ -2,7 +2,7 @@ from tools.lookup import DefaultDictLookup, DictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.shorthands import EmojiPerson
 from tools.languages import Language
-from tools.writing import Writing
+from tools.writing import Orthography
 from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
     RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
@@ -24,7 +24,7 @@ from inflections import (
 list_tools = ListTools()
 rule_tools = RuleTools()
 
-foreign_writing = Writing(
+foreign_writing = Orthography(
     'greek',
     Language(
         ListSemantics(

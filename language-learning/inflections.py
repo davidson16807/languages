@@ -22,7 +22,7 @@ from tools.nodemaps import (
 )
 from tools.emoji import Emoji
 from tools.languages import Language
-from tools.writing import Writing
+from tools.writing import Orthography
 from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGeneration
 
 '''
@@ -857,7 +857,7 @@ list_tools = ListTools()
 rule_tools = RuleTools()
 english_list_substitution = EnglishListSubstitution()
 
-english = Writing(
+english = Orthography(
     'latin',
     Language(
         ListSemantics(
@@ -889,9 +889,6 @@ english = Writing(
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/english/modern/adjective-agreement.tsv')),
             ]),
-            case_usage_population.index(
-                case_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv'))),
             # debug=True,
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
