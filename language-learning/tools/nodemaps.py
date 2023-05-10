@@ -6,6 +6,59 @@ from .nodes import Rule
 "nodes.py" contains functionality used to manipulate individual nodes in a syntax tree
 """
 
+class ListSemantics:
+    """
+    `ListSemantics` is a library of functions that all relevant aspects of semantics in the application,
+    where semantics is defined as the language specific grammatical decisions 
+    that are made by a speaker to convey their intended language-agnostic meaning.
+    In this library, the grammatical decisions made by a speaker are expressed in terms of a single grammatical tag, 
+    such as "subjunctive", "ablative", or "perfective".
+    The intended meaning of the speaker is expressed in terms of a seme,
+    which can indicate many things such as the probability of a event, 
+    the motion of a subject with respect to an object, or whether an event has finished.
+    Therefore, ListSemantics describes a set of maps:semes→tag, 
+    one for each applicable tagaxis such as mood, aspect, or case,
+    as well as a map articulate:semes→tags that applies all maps to a dictionary of semes
+    """
+    def __init__(self, 
+            case_usage,
+            mood_usage,
+            aspect_usage,
+            tags,
+            debug=False):
+        self.case_usage = case_usage
+        self.mood_usage = mood_usage
+        self.aspect_usage = aspect_usage
+        self.tags = tags
+        self.debug = debug
+    def case(self, tags):
+        return self.case_usage[tags]['case']
+    def mood(self, tags):
+        return self.mood_usage[tags]['mood']
+    def aspect(self, tags):
+        return self.aspect_usage[tags]['aspect']
+    def augment(self, tags):
+        tagaxis_usages = [
+            ('case', self.case_usage),
+            ('aspect', self.aspect_usage),
+            # ('mood', self.mood_usage),
+        ]
+        return {
+            **tags, 
+            **{tagaxis: usage[tags][tagaxis] 
+               for (tagaxis, usage) in tagaxis_usages
+               if tagaxis not in tags and tagaxis in usage[tags]}
+        }
+    def tag(self, modifications, remove=False):
+        def _map(machine, tree, memory):
+            arguments = machine.map(tree[1:], self.augment({**memory, **modifications}))
+            return arguments if remove else [tree[0], *arguments]
+        return _map
+    def stock_adposition(self, treemap, content, tags):
+        return ([] if tags not in self.case_usage
+            else [] if 'preposition' not in self.case_usage[tags]
+            else [content[0], self.case_usage[tags]['preposition']])
+
 class ListGrammar:
     """
     `ListGrammar` is a library of functions that can be used in conjunction with `ListTrees` 
@@ -16,17 +69,9 @@ class ListGrammar:
     def __init__(self, 
             conjugation_lookups, 
             declension_lookups, 
-            case_usage,
-            mood_usage,
-            aspect_usage,
-            tags,
             debug=False):
         self.conjugation_lookups = conjugation_lookups
         self.declension_lookups = declension_lookups
-        self.case_usage = case_usage
-        self.mood_usage = mood_usage
-        self.aspect_usage = aspect_usage
-        self.tags = tags
         self.debug = debug
         def format_alternates(text, tags):
             split = re.split(' *[|/,] *', text)
@@ -41,8 +86,6 @@ class ListGrammar:
         #     return missing_value
         sememe = {
             **tags, 
-            **self.tags, 
-            'case':self.case_usage[tags]['case'], 
             'noun':content[1] if len(content)>1 else None
         }
         # if sememe not in self.declension_lookups[sememe] and sememe['noun'] != 'the':
@@ -52,38 +95,19 @@ class ListGrammar:
             else missing_value if sememe not in self.declension_lookups[sememe]
             else self.format_alternates(self.declension_lookups[sememe][sememe], tags)]
     def conjugate(self, treemap, content, tags):
-        # print(tags)
-        # print(self.aspect_usage.content)
-        # print(self.aspect_usage[tags].content)
-        # if 'aspect' not in self.aspect_usage[tags]:
-        #     breakpoint()
         sememe = {
             **tags, 
-            **self.tags, 
             'verb':content[1],
         }
-        sememe['aspect'] = sememe['aspect'] if 'aspect' in sememe else self.aspect_usage[tags]['aspect']
-        # if self.debug and sememe['aspect'] == 'imperfective':
-        #     breakpoint()
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
             else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]
     def stock_modifier(self, language_type):
         def _stock_modifier(treemap, content, tags):
-            sememe = {**tags, **self.tags, 'language-type': language_type}
             return [content[0], 
-                None if sememe not in self.conjugation_lookups['argument']
-                else self.conjugation_lookups['argument'][sememe]]
+                None if tags not in self.conjugation_lookups['argument']
+                else self.conjugation_lookups['argument'][tags]]
         return _stock_modifier
-    def stock_adposition(self, treemap, content, tags):
-        sememe = {
-            **tags, 
-            **self.tags, 
-            'case':self.case_usage[tags]['case'], 
-        }
-        return ([] if sememe not in self.case_usage 
-            else [] if 'preposition' not in self.case_usage[sememe]
-            else [content[0], self.case_usage[sememe]['preposition']])
 
 class RuleSyntax:
     """

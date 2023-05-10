@@ -20,6 +20,7 @@ class Language:
         rule_tools:      contains maps of nodes represented as nested rules without concern to what the rules represent
     """
     def __init__(self, 
+            semantics,
             grammar,
             syntax,
             list_tools,
@@ -27,13 +28,14 @@ class Language:
             formatting,
             validation,
             substitutions=[]):
-        self.substitutions = substitutions
+        self.semantics = semantics
         self.grammar = grammar
         self.syntax = syntax
         self.list_tools = list_tools
         self.rule_tools = rule_tools
         self.validation = validation
         self.formatting = formatting
+        self.substitutions = substitutions
     def map(self, syntax_tree, script, semes={}, substitutions=[]):
         default_substitution = {
             'the': self.list_tools.replace(['det', 'the']),
@@ -60,8 +62,8 @@ class Language:
             'personal-possessive': {'noun-form': 'personal-possessive'},
             **semes
         }
-        tag_insertion = {tag:self.list_tools.tag({**opcode,'script':script}, remove=False) for (tag, opcode) in tag_opcodes.items()}
-        tag_removal   = {tag:self.list_tools.tag({**opcode,'script':script}, remove=True)  for (tag, opcode) in tag_opcodes.items()}
+        tag_insertion = {tag:self.semantics.tag({**opcode,'script':script}, remove=False) for (tag, opcode) in tag_opcodes.items()}
+        tag_removal   = {tag:self.semantics.tag({**opcode,'script':script}, remove=True)  for (tag, opcode) in tag_opcodes.items()}
         rules = 'clause cloze implicit parentheses det adj np vp n v stock-modifier stock-adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
@@ -70,11 +72,11 @@ class Language:
             ListTreeMap({
                 **tag_insertion, 
                 'cloze':            self.list_tools.tag({'show-alternates':True}, remove=False),
+                'stock-adposition': self.semantics.stock_adposition,
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
                 'det':              self.grammar.decline,
                 'adj':              self.grammar.decline,
-                'stock-adposition': self.grammar.stock_adposition,
             }),
             ListTreeMap({
                 **tag_removal,

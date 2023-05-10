@@ -115,7 +115,7 @@ class CardGeneration:
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([test_tags in whitelist for whitelist in whitelists]) and 
                 all([test_tags not in blacklist for blacklist in blacklists]) and 
-                  test_tags in foreign_language_script.language.grammar.case_usage):
+                  test_tags in foreign_language_script.language.semantics.case_usage):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
@@ -147,7 +147,7 @@ class CardGeneration:
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
                     ])
-                    case = foreign_language_script.language.grammar.case_usage[test_tags]['case'] # TODO: see if you can get rid of this
+                    case = foreign_language_script.language.semantics.case_usage[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {
                         **test_tags, 
                         **tag_templates['test'], 

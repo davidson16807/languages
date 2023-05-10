@@ -17,7 +17,7 @@ from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.evaluation import CellEvaluation, KeyEvaluation, MultiKeyEvaluation
 from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
 from tools.nodemaps import (
-    ListTools, ListGrammar,
+    ListTools, ListGrammar, ListSemantics,
     RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
 )
 from tools.emoji import Emoji
@@ -805,7 +805,10 @@ class EnglishListSubstitution:
             'imperfective':           [['active', 'simple', 'v', 'be'],   'progressive', 'finite', tree],
             'perfective':             [['active', 'simple', 'v', 'have'], 'perfective', 'finite', tree],
         }[aspect]
-        return [*preverb, *verb, *postverb]
+        # if (memory['verb'], progress, tense, memory['mood']) == ('go', 'finished', 'present', 'indicative'):
+        #     breakpoint()
+        return verb
+        # return [*preverb, *verb, *postverb]
     def voice(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express voice'''
         voice = memory['voice']
@@ -857,6 +860,19 @@ english_list_substitution = EnglishListSubstitution()
 english = Writing(
     'latin',
     Language(
+        ListSemantics(
+            case_usage_population.index(
+                case_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv'))),
+            mood_usage_population.index(
+                mood_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/mood-usage.tsv'))),
+            aspect_usage_population.index(
+                aspect_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/english/modern/aspect-usage.tsv'))),
+            {'language-type':'native'},
+            # debug=True,
+        ),
         ListGrammar(
             conjugation_population.index([
                 *finite_annotation.annotate(
@@ -877,13 +893,6 @@ english = Writing(
             case_usage_population.index(
                 case_usage_annotation.annotate(
                     tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv'))),
-            mood_usage_population.index(
-                mood_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/mood-usage.tsv'))),
-            aspect_usage_population.index(
-                aspect_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/aspect-usage.tsv'))),
-            {'language-type':'native'},
             # debug=True,
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),

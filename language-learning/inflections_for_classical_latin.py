@@ -4,7 +4,7 @@ from tools.shorthands import EmojiPerson
 from tools.languages import Language
 from tools.writing import Writing
 from tools.nodemaps import (
-    ListTools, ListGrammar,
+    ListTools, ListGrammar, ListSemantics,
     RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
 )
 from inflections import (
@@ -26,6 +26,18 @@ rule_tools = RuleTools()
 foreign_writing = Writing(
     'latin',
     Language(
+        ListSemantics(
+            case_usage_population.index(
+                case_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/latin/classic/case-usage.tsv'))),
+            mood_usage_population.index(
+                mood_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/latin/classic/mood-usage.tsv'))),
+            aspect_usage_population.index(
+                aspect_usage_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv'))),
+            {'language-type':'foreign'},
+        ),
         ListGrammar(
             conjugation_population.index([
                 *finite_annotation.annotate(
@@ -50,16 +62,6 @@ foreign_writing = Writing(
                     declension_template_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
             ]),
-            case_usage_population.index(
-                case_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/latin/classic/case-usage.tsv'))),
-            mood_usage_population.index(
-                mood_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/latin/classic/mood-usage.tsv'))),
-            aspect_usage_population.index(
-                aspect_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv'))),
-            {'language-type':'foreign'},
         ),
         RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
         list_tools,
