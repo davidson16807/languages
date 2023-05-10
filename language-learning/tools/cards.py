@@ -85,7 +85,7 @@ class CardGeneration:
                 foreign_text = foreign_language_script.map(self.parsing.parse(foreign_tree), semes,
                     substitutions = [
                         *substitutions,
-                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier('foreign')},
+                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
@@ -94,7 +94,7 @@ class CardGeneration:
                 native_text = self.native_language_script.map(self.parsing.parse(native_tree), semes,
                     substitutions = [
                         *substitutions,
-                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier('native')},
+                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
@@ -149,14 +149,14 @@ class CardGeneration:
                     }
                     foreign_text = foreign_language_script.map(tree, semes, [
                         *substitutions,
-                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier('foreign')},
+                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
                     ])
                     native_text = self.native_language_script.map(tree, semes, [
                         *substitutions,
-                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier('native')},
+                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},

@@ -100,12 +100,10 @@ class ListGrammar:
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
             else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]
-    def stock_modifier(self, language_type):
-        def _stock_modifier(treemap, content, tags):
-            return [content[0], 
-                None if tags not in self.conjugation_lookups['argument']
-                else self.conjugation_lookups['argument'][tags]]
-        return _stock_modifier
+    def stock_modifier(self, treemap, content, tags):
+        return [content[0], 
+            None if tags not in self.conjugation_lookups['argument']
+            else self.conjugation_lookups['argument'][tags]]
 
 class RuleSyntax:
     """
