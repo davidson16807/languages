@@ -23,6 +23,7 @@ class Language:
             semantics,
             grammar,
             syntax,
+            tags,
             list_tools,
             rule_tools,
             formatting,
@@ -31,6 +32,7 @@ class Language:
         self.semantics = semantics
         self.grammar = grammar
         self.syntax = syntax
+        self.tags = tags
         self.list_tools = list_tools
         self.rule_tools = rule_tools
         self.validation = validation
@@ -105,7 +107,7 @@ class Language:
         for i, step in enumerate(pipeline):
             # print(i)
             # print(tree)
-            tree = step.map(tree, {'script': script})
+            tree = step.map(tree, {**self.tags, 'script': script})
         # return formatting.map(tree)
         return formatting.map(tree) if not validation or validation.map(tree) else None
 

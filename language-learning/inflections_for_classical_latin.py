@@ -36,7 +36,6 @@ foreign_writing = Writing(
             aspect_usage_population.index(
                 aspect_usage_annotation.annotate(
                     tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv'))),
-            {'language-type':'foreign'},
         ),
         ListGrammar(
             conjugation_population.index([
@@ -64,6 +63,7 @@ foreign_writing = Writing(
             ]),
         ),
         RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
+        {'language-type':'foreign'},
         list_tools,
         rule_tools,
         RuleFormatting(),

@@ -24,12 +24,10 @@ class ListSemantics:
             case_usage,
             mood_usage,
             aspect_usage,
-            tags,
             debug=False):
         self.case_usage = case_usage
         self.mood_usage = mood_usage
         self.aspect_usage = aspect_usage
-        self.tags = tags
         self.debug = debug
     def case(self, tags):
         return self.case_usage[tags]['case']

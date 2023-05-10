@@ -36,7 +36,6 @@ foreign_writing = Writing(
             aspect_usage_population.index(
                 aspect_usage_annotation.annotate(
                     tsv_parsing.rows('data/inflection/english/old/aspect-usage.tsv'))),
-            {'language-type':'foreign'},
         ),
         ListGrammar(
             conjugation_population.index([
@@ -62,6 +61,7 @@ foreign_writing = Writing(
             ]),
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 
+        {'language-type':'foreign'},
         # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
         list_tools,
         rule_tools,

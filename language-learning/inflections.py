@@ -870,7 +870,6 @@ english = Writing(
             aspect_usage_population.index(
                 aspect_usage_annotation.annotate(
                     tsv_parsing.rows('data/inflection/english/modern/aspect-usage.tsv'))),
-            {'language-type':'native'},
             # debug=True,
         ),
         ListGrammar(
@@ -896,6 +895,7 @@ english = Writing(
             # debug=True,
         ),
         RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
+        {'language-type':'native'},
         list_tools,
         rule_tools,
         RuleFormatting(),
