@@ -63,7 +63,8 @@ class CardGeneration:
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([test_tags in whitelist for whitelist in whitelists]) and 
-                all([test_tags not in blacklist for blacklist in blacklists])):
+                all([test_tags not in blacklist for blacklist in blacklists]) and 
+                  test_tags in foreign_language_script.language.semantics.case_usage):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
