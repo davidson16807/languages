@@ -783,7 +783,7 @@ class EnglishListSubstitution:
         elif any([
                 persistence in {'impermanent','persistant'},
                 recency in {'recent'},
-                progress in {'atomic', 'completed'},
+                progress in {'atomic', 'finished'},
                 consistency in {'experiential'}]):
             aspect = 'perfective'
         elif progress in {'started', 'unfinished'}:
@@ -798,7 +798,7 @@ class EnglishListSubstitution:
             'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['progressive', tree]],
             'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['progressive', tree]],
             'continued':              [['active', 'simple', 'implicit', 'v', 'continue'], 'finite', ['progressive', tree]],
-            'completed':              [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['progressive', tree]],
+            # 'finished':             [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['progressive', tree]],
             'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['progressive', tree]],
             'simple':                 tree,
             'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['progressive', tree]],
