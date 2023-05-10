@@ -27,6 +27,16 @@ class CardFormatting:
     def native_word(self, content):
         return f'''<div>{content}</div>'''
 
+class DeckGeneration:
+    def __init__(self):
+        pass
+    def generate(self, method, traversal, tagspace, whitelists=[], blacklists=[]):
+        for tuplekey in traversal.tuplekeys(tagspace):
+            test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
+            if (all([test_tags in whitelist for whitelist in whitelists]) and 
+                all([test_tags not in blacklist for blacklist in blacklists])):
+                method(test_tags)
+
 class CardGeneration:
     def __init__(self, native_language_script, emoji, cardFormatting,
             declension_template_matching, 
@@ -119,6 +129,9 @@ class CardGeneration:
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 adjective = test_tags['adjective'] if 'adjective' in test_tags else None
                 verb = test_tags['verb'] if 'verb' in test_tags else None
+                voice_prephrase = '[middle voice:]' if test_tags['voice'] == 'middle' else ''
+                mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
+                mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
                 match = self.declension_template_matching.match(predicate, test_tags)
                 if match:
