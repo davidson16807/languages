@@ -82,24 +82,15 @@ class CardGeneration:
                     'speaker-seme':   speaker_seme,
                     'modifier-seme':  modifier_seme,
                 }
-                foreign_text = foreign_language_script.map(self.parsing.parse(foreign_tree), semes,
-                    substitutions = [
-                        *substitutions,
-                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
-                        {'noun':     self.tools.replace(noun)},
-                        {'adjective':self.tools.replace(adjective)},
-                        {'verb':     self.tools.replace(verb)},
-                    ]
-                )
-                native_text = self.native_language_script.map(self.parsing.parse(native_tree), semes,
-                    substitutions = [
-                        *substitutions,
-                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
-                        {'noun':     self.tools.replace(noun)},
-                        {'adjective':self.tools.replace(adjective)},
-                        {'verb':     self.tools.replace(verb)},
-                    ]
-                )
+                completed_substitutions = [
+                    *substitutions,
+                    {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
+                    {'noun':     self.tools.replace(noun)},
+                    {'adjective':self.tools.replace(adjective)},
+                    {'verb':     self.tools.replace(verb)},
+                ]
+                foreign_text = foreign_language_script.map(self.parsing.parse(foreign_tree), semes, completed_substitutions)
+                native_text = self.native_language_script.map(self.parsing.parse(native_tree), semes, completed_substitutions)
                 if foreign_text:
                     emoji_key = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
                     emoji_text = self.emoji.conjugate(emoji_key, 
@@ -147,20 +138,15 @@ class CardGeneration:
                         'modifier-seme':    {**test_tags, **(tag_templates['modifier'] if 'modifier' in tag_templates else {})},
                         'participle-seme':  {**test_tags, **(tag_templates['participle'] if 'participle' in tag_templates else {})},
                     }
-                    foreign_text = foreign_language_script.map(tree, semes, [
+                    completed_substitutions = [
                         *substitutions,
                         {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
                         {'noun':     self.tools.replace(noun)},
                         {'adjective':self.tools.replace(adjective)},
                         {'verb':     self.tools.replace(verb)},
-                    ])
-                    native_text = self.native_language_script.map(tree, semes, [
-                        *substitutions,
-                        {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
-                        {'noun':     self.tools.replace(noun)},
-                        {'adjective':self.tools.replace(adjective)},
-                        {'verb':     self.tools.replace(verb)},
-                    ])
+                    ]
+                    foreign_text = foreign_language_script.map(tree, semes, completed_substitutions)
+                    native_text = self.native_language_script.map(tree, semes, completed_substitutions)
                     case = foreign_language_script.language.semantics.case_usage[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {
                         **test_tags, 
