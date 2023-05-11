@@ -16,7 +16,7 @@ from inflections import (
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
-    card_generation, tag_defaults, nouns_to_depictions,
+    deck_generation, tag_defaults, nouns_to_depictions,
     write, replace
 )
 
@@ -96,7 +96,7 @@ tenses = 'present past future'.split()
 voices = 'active passive'.split()
 
 write('flashcards/latin/finite-conjugation.html', 
-    card_generation.conjugation(
+    deck_generation.conjugation(
         foreign_writing,
         DictTupleIndexing([
             # categories that are iterated over
@@ -182,7 +182,7 @@ write('flashcards/latin/finite-conjugation.html',
     ))
 
 write('flashcards/latin/common-noun-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -211,7 +211,7 @@ write('flashcards/latin/common-noun-declension.html',
     ))
 
 write('flashcards/latin/pronoun-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',]),
@@ -258,7 +258,7 @@ write('flashcards/latin/pronoun-declension.html',
 
 
 write('flashcards/latin/adpositions.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -298,7 +298,7 @@ write('flashcards/latin/adpositions.html',
     ))
 
 write('flashcards/latin/adjective-agreement.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -338,7 +338,7 @@ write('flashcards/latin/adjective-agreement.html',
     ))
 
 write('flashcards/latin/pronoun-possessives.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -409,7 +409,7 @@ write('flashcards/latin/pronoun-possessives.html',
     ))
 
 write('flashcards/latin/nonfinite-conjugation.html', 
-    card_generation.conjugation(
+    deck_generation.conjugation(
         foreign_writing,
         DictTupleIndexing([
             # categories that are iterated over
@@ -480,7 +480,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
     ))
 
 write('flashcards/latin/participle-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over

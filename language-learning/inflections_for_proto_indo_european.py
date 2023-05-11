@@ -16,7 +16,7 @@ from inflections import (
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
-    card_generation, tag_defaults, nouns_to_depictions,
+    deck_generation, tag_defaults, nouns_to_depictions,
     write, replace
 )
 
@@ -95,7 +95,7 @@ tenses = 'present past'.split()
 voices = 'active middle'.split()
 
 write('flashcards/proto-indo-european/finite-conjugation.html', 
-    card_generation.conjugation(
+    deck_generation.conjugation(
         foreign_writing,
         DictTupleIndexing([
             # categories that are iterated over
@@ -151,7 +151,7 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
     ))
 
 write('flashcards/proto-indo-european/common-noun-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -181,7 +181,7 @@ write('flashcards/proto-indo-european/common-noun-declension.html',
     ))
 
 write('flashcards/proto-indo-european/pronoun-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role']),
@@ -229,7 +229,7 @@ write('flashcards/proto-indo-european/pronoun-declension.html',
 
 
 write('flashcards/proto-indo-european/adpositions.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -269,7 +269,7 @@ write('flashcards/proto-indo-european/adpositions.html',
     ))
 
 write('flashcards/proto-indo-european/adjective-agreement.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -310,7 +310,7 @@ write('flashcards/proto-indo-european/adjective-agreement.html',
     ))
 
 write('flashcards/proto-indo-european/pronoun-possessives.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -383,7 +383,7 @@ write('flashcards/proto-indo-european/pronoun-possessives.html',
 
 
 write('flashcards/proto-indo-european/participle-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over

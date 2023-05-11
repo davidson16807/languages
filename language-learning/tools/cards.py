@@ -28,17 +28,6 @@ class CardFormatting:
         return f'''<div>{content}</div>'''
 
 class DeckGeneration:
-    def __init__(self):
-        pass
-    def generate(self, method, traversal, tagspace, whitelists=[], blacklists=[]):
-        for tuplekey in traversal.tuplekeys(tagspace):
-            test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
-            if (all([test_tags in whitelist for whitelist in whitelists]) and 
-                all([test_tags not in blacklist for blacklist in blacklists])):
-                card = method(test_tags)
-                if card: yield card
-
-class CardGeneration:
     def __init__(self, native_language_script, emoji, cardFormatting,
             declension_template_matching, 
             mood_templates,
@@ -65,6 +54,10 @@ class CardGeneration:
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([test_tags in whitelist for whitelist in whitelists]) and 
                 all([test_tags not in blacklist for blacklist in blacklists])):
+                emoji_key = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
+                emoji_text = self.emoji.conjugate(emoji_key, 
+                    foreign_language_script.language.grammar.conjugation_lookups['argument'][emoji_key], 
+                    persons) if emoji_key in foreign_language_script.language.grammar.conjugation_lookups['argument'] else '🚫'
                 semes = {
                     'test-seme':      {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}},
                     'modifier-seme':  {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}},
@@ -81,10 +74,6 @@ class CardGeneration:
                       for key in ['noun','adjective','verb']
                       if key in test_tags],
                 ]
-                emoji_key = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
-                emoji_text = self.emoji.conjugate(emoji_key, 
-                    foreign_language_script.language.grammar.conjugation_lookups['argument'][emoji_key], 
-                    persons) if emoji_key in foreign_language_script.language.grammar.conjugation_lookups['argument'] else '🚫'
                 foreign_text = foreign_language_script.map(self.parsing.parse(foreign_tree), semes, completed_substitutions)
                 voice_prephrase = '[middle voice:]' if test_tags['voice'] == 'middle' else ''
                 mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
@@ -118,6 +107,16 @@ class CardGeneration:
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
                 match = self.declension_template_matching.match(predicate, test_tags)
                 if match:
+                    # case = foreign_language_script.language.semantics.case_usage[test_tags]['case'] # TODO: see if you can get rid of this
+                    emoji_key = {
+                        **test_tags, 
+                        **tag_templates['test'], 
+                        **tag_templates['emoji'], 
+                        # 'case':case,  # TODO: see if you can get rid of this
+                        'noun':test_tags['noun'],
+                        'script': 'emoji'
+                    }
+                    emoji_text   = self.emoji.decline(emoji_key, match['emoji'], persons)
                     semes = {
                         'test-seme':        {**test_tags, **tag_templates['test']},
                         'solitary-seme':    {**test_tags, **tag_templates['solitary'],   'role':'solitary', 'motion':'associated'},
@@ -135,24 +134,14 @@ class CardGeneration:
                           for key in ['noun','adjective','verb']
                           if key in test_tags],
                     ]
-                    # case = foreign_language_script.language.semantics.case_usage[test_tags]['case'] # TODO: see if you can get rid of this
-                    emoji_key = {
-                        **test_tags, 
-                        **tag_templates['test'], 
-                        **tag_templates['emoji'], 
-                        # 'case':case,  # TODO: see if you can get rid of this
-                        'noun':test_tags['noun'],
-                        'script': 'emoji'
-                    }
-                    emoji_text   = self.emoji.decline(emoji_key, match['emoji'], persons)
-                    tree = self.parsing.parse(match['syntax-tree'])
-                    foreign_text = foreign_language_script.map(tree, semes, completed_substitutions)
+                    foreign_tree = native_tree = self.parsing.parse(match['syntax-tree'])
+                    foreign_text = foreign_language_script.map(foreign_tree, semes, completed_substitutions)
                     voice_prephrase = '[middle voice:]' if test_tags['voice'] == 'middle' else ''
                     mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
                     mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
                     native_text = ' '.join([str(text) 
                         for text in [voice_prephrase, mood_prephrase, 
-                            self.native_language_script.map(tree, semes, completed_substitutions), 
+                            self.native_language_script.map(native_tree, semes, completed_substitutions), 
                             mood_postphrase]]).replace('∅','')
                     if foreign_text: 
                         yield ' '.join([
@@ -160,3 +149,15 @@ class CardGeneration:
                                 self.cardFormatting.native_word(native_text),
                                 self.cardFormatting.foreign_focus(foreign_text),
                             ])
+
+# class CardGeneration:
+#     def __init__(self):
+#         pass
+#     def generate(self, 
+#         test_tags,
+#         semes,
+#         substitutions,
+#         emoji_text,
+#         foreign_tree,
+#         native_tree):
+#         pass

@@ -16,7 +16,7 @@ from inflections import (
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
-    card_generation, tag_defaults, nouns_to_depictions,
+    deck_generation, tag_defaults, nouns_to_depictions,
     write, replace
 )
 
@@ -93,7 +93,7 @@ tenses = 'present past'.split()
 voices = 'active'
 
 write('flashcards/old-english/finite-conjugation.html', 
-    card_generation.conjugation(
+    deck_generation.conjugation(
         foreign_writing,
         DictTupleIndexing([
             # categories that are iterated over
@@ -143,7 +143,7 @@ write('flashcards/old-english/finite-conjugation.html',
     ))
 
 write('flashcards/old-english/common-noun-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -172,7 +172,7 @@ write('flashcards/old-english/common-noun-declension.html',
     ))
 
 write('flashcards/old-english/pronoun-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',]),
@@ -219,7 +219,7 @@ write('flashcards/old-english/pronoun-declension.html',
 
 
 write('flashcards/old-english/adpositions.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -259,7 +259,7 @@ write('flashcards/old-english/adpositions.html',
     ))
 
 write('flashcards/old-english/strong-adjective-agreement.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -300,7 +300,7 @@ write('flashcards/old-english/strong-adjective-agreement.html',
     ))
 
 write('flashcards/old-english/weak-adjective-agreement.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -341,7 +341,7 @@ write('flashcards/old-english/weak-adjective-agreement.html',
     ))
 
 write('flashcards/old-english/pronoun-possessives.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over
@@ -413,7 +413,7 @@ write('flashcards/old-english/pronoun-possessives.html',
 
 
 write('flashcards/old-english/participle-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             # categories that are iterated over

@@ -909,7 +909,7 @@ english = Orthography(
     )
 )
 
-card_generation = CardGeneration(
+deck_generation = DeckGeneration(
     english, 
     emoji, 
     CardFormatting(),

@@ -17,7 +17,7 @@ from inflections import (
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
-    card_generation, tag_defaults, nouns_to_depictions,
+    deck_generation, tag_defaults, nouns_to_depictions,
     write, replace
 )
 
@@ -97,7 +97,7 @@ tenses = 'present past future'.split()
 voices = 'active middle passive'.split()
 
 write('flashcards/ancient-greek/finite-conjugation.html', 
-    card_generation.conjugation(
+    deck_generation.conjugation(
         foreign_writing,
         DictTupleIndexing([
             'gender','person','number','formality','clusivity','clitic',
@@ -179,7 +179,7 @@ write('flashcards/ancient-greek/finite-conjugation.html',
     ))
 
 write('flashcards/ancient-greek/common-noun-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             'motion', 'role', 'number', 'noun', 'gender', ]),
@@ -237,7 +237,7 @@ write('flashcards/ancient-greek/common-noun-declension.html',
     ))
 
 write('flashcards/ancient-greek/pronoun-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',]),
@@ -284,7 +284,7 @@ write('flashcards/ancient-greek/pronoun-declension.html',
 
 
 write('flashcards/ancient-greek/adpositions.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             'motion', 'role', 'number', 'noun', 'gender', ]),
@@ -323,7 +323,7 @@ write('flashcards/ancient-greek/adpositions.html',
     ))
 
 write('flashcards/ancient-greek/pronoun-possessives.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             'motion', 'role', 'number', 'noun', 'gender', 
@@ -394,7 +394,7 @@ write('flashcards/ancient-greek/pronoun-possessives.html',
 
 
 write('flashcards/ancient-greek/participle-declension.html', 
-    card_generation.declension(
+    deck_generation.declension(
         foreign_writing, 
         DictTupleIndexing([
             'tense', 'voice', 'progress', 'mood', 
