@@ -19,7 +19,7 @@ class CardFormatting:
         pass
     def emoji_focus(self, content):
         fonts = ''' sans-serif, Twemoji, "Twemoji Mozilla", "Segoe UI Emoji", "Noto Color Emoji" '''
-        return f'''<div style='font-size:3em; padding: 0.5em; display:inline-box; font-family: {fonts}'>{content}</div>'''
+        return f'''<div style='font-size:3em; padding: 1em 0em; display:inline-box; font-family: {fonts}'>{content}</div>'''
     def foreign_focus(self, content):
         return f'''<div style='font-size:3em'>{content}</div>'''
     def foreign_side_note(self, content):

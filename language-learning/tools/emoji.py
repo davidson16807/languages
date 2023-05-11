@@ -74,5 +74,19 @@ class Emoji:
                 tags['gender'][0], 
                 persons[int(tags['person'])-1].color), 
             persons)
-        return scene
+        encoded_recounting = self.mood_templates[{**tags,'column':'template','mood':'indicative'}]
+        subject = EmojiPerson(
+            ''.join([
+                    (tags['number'][0]),
+                    ('i' if tags['clusivity']=='inclusive' else ''),
+                ]), 
+            tags['gender'][0], 
+            persons[int(tags['person'])-1].color)
+        persons = [
+            subject if str(i+1)==tags['person'] else person
+            for i, person in enumerate(persons)]
+        recounting = encoded_recounting
+        recounting = recounting.replace('\\scene', scene)
+        recounting = self.emojiInflectionShorthand.decode(recounting, subject, persons)
+        return recounting
 

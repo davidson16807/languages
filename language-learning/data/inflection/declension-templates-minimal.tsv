@@ -34,10 +34,10 @@
 	transitive	associated	possessor	1	np [possession-seme np the n daughter] [test-seme np [stock-adposition] declined]	of	be	sapient	\group{🧒\f\cx\r{\declined}}														
 	transitive	associated	possessor	1	np [possession-seme np the n livestock] [test-seme np [stock-adposition] declined]	of	be	sapient	\group{\p{🐄}\r{\declined}}														
 	transitive	associated	possessor	0	np [possession-seme np the n sound] [test-seme np [stock-adposition] declined]	of	has-trait	sound	\group{\declined\r{🗯️}}														
-	transitive	associated	possessor	-1	np [possession-seme np the n thought] [test-seme np [stock-adposition] declined]	of	be	manifestation	\bubble{\declined}\rthought														
-	transitive	associated	possessor	-1	np [possession-seme np the n thought] [test-seme np [stock-adposition] declined]	of	be	time	\bubble{\declined}\rthought														
-	transitive	associated	possessor	-1	np [possession-seme np the n thought] [test-seme np [stock-adposition] declined]	of	be	event	\bubble{\declined}\rthought														
-	transitive	associated	possessor	-1	np [possession-seme np the n thought] [test-seme np [stock-adposition] declined]	of	be	concept	\bubble{\declined}\rthought														
+	transitive	associated	possessor	-1	np [possession-seme np the n thought] [test-seme np [stock-adposition] declined]	of	be	manifestation	💭\declined														
+	transitive	associated	possessor	-1	np [possession-seme np the n thought] [test-seme np [stock-adposition] declined]	of	be	time	💭\declined														
+	transitive	associated	possessor	-1	np [possession-seme np the n thought] [test-seme np [stock-adposition] declined]	of	be	event	💭\declined														
+	transitive	associated	possessor	-1	np [possession-seme np the n thought] [test-seme np [stock-adposition] declined]	of	be	concept	💭\declined														
 	transitive	departed	location	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	away from	can	be-walked-to	←🚶\c3\m\declined														
 	transitive	associated	location	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	by	can	be-walked-to	\group{🚶\c3\m\r{\declined}}														
 	transitive	acquired	location	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	to	can	be-walked-to	\mirror{←🚶\c3\m}\declined														
@@ -51,9 +51,9 @@
 	transitive	associated	location	0	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n attention]] [test-seme np [stock-adposition] declined]	on	can	be-heard	\mirror{🚶\c3\m}\group{\declined\rhi{🗯️}}														
 	transitive	acquired	location	0	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n attention]] [test-seme np [stock-adposition] declined]	toward	can	be-heard	\group{\mirror{🚶\c3\m\inrmid{↺}}\declined\rhi{🗯️}}														
 	transitive	acquired	location	0	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n attention]] [test-seme np [stock-adposition] declined]	by way of	can	be-heard	\mirror{🚶\c3\m}\declined														
-	transitive	departed	location	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	away from	be	thing	\bubble{\declined}\group{🚶\c3\m\inrmid{↺}}\lthought														
-	transitive	associated	location	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	on	be	thing	\bubble{\declined}\mirror{🚶\c3\m}\lthought														
-	transitive	acquired	location	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	towards	be	thing	\bubble{\declined}\mirror{🚶\c3\m\inrmid{↺}}\lthought														
+	transitive	departed	location	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	away from	be	thing	\declined\mirror{\group{🚶\c3\m\inrmid{↺}}\r{💭}}														
+	transitive	associated	location	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	on	be	thing	\declined\group{\mirror{🚶\c3\m}\r{💭}}														
+	transitive	acquired	location	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	towards	be	thing	\declined\group{🚶\c3\m\inrmid{↺}\r{💭}}														
 	transitive	departed	extent	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	starting from	can	be-walked-to	←🚶\c3\m\declined														
 	transitive	associated	extent	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	beside	can	be-walked-to	🚶\c3\m\declined														
 	transitive	acquired	extent	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	up to	can	be-walked-to	\declined←🚶\c3\m														
@@ -65,9 +65,9 @@
 	transitive	departed	extent	0	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n attention]] [test-seme np [stock-adposition] declined]	starting from	can	be-heard	\group{🚶\c3\m\inrmid{↺}\declined\rhi{🗯️}}														
 	transitive	associated	extent	0	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n attention]] [test-seme np [stock-adposition] declined]	beside	can	be-heard	\mirror{🚶\c3\m}\group{\declined\rhi{🗯️}}														
 	transitive	acquired	extent	0	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n attention]] [test-seme np [stock-adposition] declined]	up to	can	be-heard	\group{\mirror{🚶\c3\m\inrmid{↺}}\declined\rhi{🗯️}}														
-	transitive	departed	extent	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	starting from	be	thing	\bubble{\declined}\group{🚶\c3\m\inrmid{↺}}\lthought														
-	transitive	associated	extent	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	beside	be	thing	\bubble{\declined}\mirror{🚶\c3\m}\lthought														
-	transitive	acquired	extent	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	up to	be	thing	\bubble{\declined}\mirror{🚶\c3\m\inrmid{↺}}\lthought														
+	transitive	departed	extent	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	starting from	be	thing	\declined\mirror{\group{🚶\c3\m\inrmid{↺}}\r{💭}}														
+	transitive	associated	extent	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	beside	be	thing	\declined\group{\mirror{🚶\c3\m}\r{💭}}														
+	transitive	acquired	extent	-1	clause [agent-seme [np the n man] [vp v direct]] [patient-seme np [adj his] [n thought]] [test-seme np [stock-adposition] declined]	up to	be	thing	\declined\group{🚶\c3\m\inrmid{↺}\r{💭}}														
 	transitive	departed	vicinity	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	from around	can	be-walked-by	←🚶\c3\m\declined														
 	transitive	associated	vicinity	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	by	can	be-walked-by	🚶\c3\m\declined														
 	transitive	acquired	vicinity	2	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	to around	can	be-walked-by	\declined←🚶\c3\m														
@@ -128,10 +128,10 @@
 	transitive	associated	state of being	0	clause [solitary-seme [np the n man] [vp v work]] [test-seme np [stock-adposition] declined]	as a	be	professional	\declined														
 	transitive	acquired	state of being	0	clause [solitary-seme [np the n man] [vp v work]] [test-seme np [stock-adposition] declined]	in order to be	be	professional	🧑\m\c3\🌾→\box{\declined}														
 	transitive	leveraged	state of being	0	clause [solitary-seme [np the n man] [vp v work]] [test-seme np [stock-adposition] declined]	due to having been	be	professional	\box{\declined}→🧑\m\c3\🌾														
-	transitive	departed	topic	0	clause [solitary-seme [np the n man] [vp v direct]] [patient-seme np [adj his][n thought]] [test-seme np [stock-adposition] declined]	away from [the topic of]	be	thing	\bubble{\declined}\lthought\mirror{\group{🚶\c3\m\inrmid{↺}}}														
-	transitive	associated	topic	0	clause [solitary-seme [np the n man] [vp v talk]] [test-seme np [stock-adposition] declined]	on [the topic of]	be	thing	\bubble{\declined}\lspeech\mirror{🚶\c3\m}														
-	transitive	acquired	topic	0	clause [solitary-seme [np the n man] [vp v direct]] [patient-seme np [adj his][n thought]] [test-seme np [stock-adposition] declined]	to [the topic of]	be	thing	\bubble{\declined}\lthought\group{🚶\c3\m\inrmid{↺}}														
-	transitive	leveraged	topic	0	clause [solitary-seme [np the n man] [vp v talk]] [test-seme np [stock-adposition] declined]	by using [the topic of]	be	thing	\bubble{\declined}\rspeech💁\c3\m														
+	transitive	departed	topic	0	clause [solitary-seme [np the n man] [vp v direct]] [patient-seme np [adj his][n thought]] [test-seme np [stock-adposition] declined]	away from [the topic of]	be	thing	\declined\mirror{\group{🚶\c3\m\inrmid{↺}}\r{💬}}														
+	transitive	associated	topic	0	clause [solitary-seme [np the n man] [vp v talk]] [test-seme np [stock-adposition] declined]	on [the topic of]	be	thing	\declined\group{\mirror{🚶\c3\m}\r{💬}}														
+	transitive	acquired	topic	0	clause [solitary-seme [np the n man] [vp v direct]] [patient-seme np [adj his][n thought]] [test-seme np [stock-adposition] declined]	to [the topic of]	be	thing	\declined\group{🚶\c3\m\inrmid{↺}\r{💬}}														
+	transitive	leveraged	topic	0	clause [solitary-seme [np the n man] [vp v talk]] [test-seme np [stock-adposition] declined]	by using [the topic of]	be	thing	\declined\group{💁\c3\m\r{💬}}														
 	transitive	associated	company	0	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	along with	be	motile	\group{←🚶\c3\m\r{←\declined}}														
 	transitive	associated	company	-1	clause [solitary-seme [np the n man] [vp v walk]] [test-seme np [stock-adposition] declined]	in the company of	be	physical	\group{←🚶\c3\m\r{←\declined}}														
 #	transitive	associated	resemblance	-1	clause [solitary-seme [np a [n man]] [vp v be]] [test-seme np [stock-adposition] a declined]	like	be	thing	≈\declined														

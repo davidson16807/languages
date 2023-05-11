@@ -79,9 +79,9 @@ class HtmlBubble:
     def __init__(self):
         pass
     def affirmative(self, scene): 
-        return f'''<div style='margin-bottom:0.5em;'><span style='border-radius: 0.5em; padding: 0.6em; background:#ccc !important; z-index:-2;'>{scene}</span></div>'''
+        return f'''<div style='margin-bottom: 1em;'><span style='border-radius: 0.5em; padding: 1em; background:#ccc !important; z-index:-2;'>{scene}</span></div>'''
     def negative(self, scene): 
-        return f'''<div style='margin-bottom:0.5em;'><span style='border-radius: 0.5em; padding: 0.6em; background: linear-gradient(to left top, #ccc 47%, red 48%, red 52%, #ccc 53%) !important; border-style: solid; border-color:red; border-width:6px; z-index:-2;'>{scene}</span></div>'''
+        return f'''<div style='margin-bottom: 1em;'><span style='border-radius: 0.5em; padding: 1em; background: linear-gradient(to left top, #ccc 47%, red 48%, red 52%, #ccc 53%) !important; border-style: solid; border-color:red; border-width:6px; z-index:-2;'>{scene}</span></div>'''
     def box(self, scene):
         return f"<span style='border-radius: 0.5em; padding: 0.4em; border-style: solid; border-color:grey; border-width:3px;'>{scene}</span>"
     def negative_box(self, scene):
