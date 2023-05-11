@@ -65,9 +65,7 @@ class CardGeneration:
             if (all([test_tags in whitelist for whitelist in whitelists]) and 
                 all([test_tags not in blacklist for blacklist in blacklists]) and 
                   test_tags in foreign_language_script.language.semantics.case_usage):
-                noun = test_tags['noun'] if 'noun' in test_tags else None
-                adjective = test_tags['adjective'] if 'adjective' in test_tags else None
-                verb = test_tags['verb'] if 'verb' in test_tags else None
+                # noun = test_tags['noun'] if 'noun' in test_tags else None
                 voice_prephrase = '[middle voice:]' if test_tags['voice'] == 'middle' else ''
                 mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
                 mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
@@ -85,9 +83,9 @@ class CardGeneration:
                 completed_substitutions = [
                     *substitutions,
                     {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
-                    {'noun':     self.tools.replace(noun)},
-                    {'adjective':self.tools.replace(adjective)},
-                    {'verb':     self.tools.replace(verb)},
+                    *[{key: self.tools.replace(test_tags[key])}
+                      for key in ['noun','adjective','verb']
+                      if key in test_tags],
                 ]
                 foreign_text = foreign_language_script.map(self.parsing.parse(foreign_tree), semes, completed_substitutions)
                 native_text = self.native_language_script.map(self.parsing.parse(native_tree), semes, completed_substitutions)
@@ -119,8 +117,6 @@ class CardGeneration:
                 all([test_tags not in blacklist for blacklist in blacklists]) and 
                   test_tags in foreign_language_script.language.semantics.case_usage):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
-                adjective = test_tags['adjective'] if 'adjective' in test_tags else None
-                verb = test_tags['verb'] if 'verb' in test_tags else None
                 voice_prephrase = '[middle voice:]' if test_tags['voice'] == 'middle' else ''
                 mood_prephrase = self.mood_templates[{**test_tags,'column':'prephrase'}]
                 mood_postphrase = self.mood_templates[{**test_tags,'column':'postphrase'}]
@@ -141,9 +137,9 @@ class CardGeneration:
                     completed_substitutions = [
                         *substitutions,
                         {'stock-modifier': foreign_language_script.language.grammar.stock_modifier},
-                        {'noun':     self.tools.replace(noun)},
-                        {'adjective':self.tools.replace(adjective)},
-                        {'verb':     self.tools.replace(verb)},
+                        *[{key: self.tools.replace(test_tags[key])}
+                          for key in ['noun','adjective','verb']
+                          if key in test_tags],
                     ]
                     foreign_text = foreign_language_script.map(tree, semes, completed_substitutions)
                     native_text = self.native_language_script.map(tree, semes, completed_substitutions)
