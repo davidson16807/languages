@@ -35,7 +35,8 @@ class DeckGeneration:
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([test_tags in whitelist for whitelist in whitelists]) and 
                 all([test_tags not in blacklist for blacklist in blacklists])):
-                method(test_tags)
+                card = method(test_tags)
+                if card: yield card
 
 class CardGeneration:
     def __init__(self, native_language_script, emoji, cardFormatting,
@@ -63,8 +64,7 @@ class CardGeneration:
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([test_tags in whitelist for whitelist in whitelists]) and 
-                all([test_tags not in blacklist for blacklist in blacklists]) and 
-                  test_tags in foreign_language_script.language.semantics.case_usage):
+                all([test_tags not in blacklist for blacklist in blacklists])):
                 semes = {
                     'test-seme':      {**test_tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}},
                     'modifier-seme':  {**test_tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}},
@@ -113,8 +113,7 @@ class CardGeneration:
         for tuplekey in traversal.tuplekeys(tagspace):
             test_tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([test_tags in whitelist for whitelist in whitelists]) and 
-                all([test_tags not in blacklist for blacklist in blacklists]) and 
-                  test_tags in foreign_language_script.language.semantics.case_usage):
+                all([test_tags not in blacklist for blacklist in blacklists])):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
                 match = self.declension_template_matching.match(predicate, test_tags)
@@ -136,11 +135,12 @@ class CardGeneration:
                           for key in ['noun','adjective','verb']
                           if key in test_tags],
                     ]
+                    # case = foreign_language_script.language.semantics.case_usage[test_tags]['case'] # TODO: see if you can get rid of this
                     emoji_key = {
                         **test_tags, 
                         **tag_templates['test'], 
                         **tag_templates['emoji'], 
-                        'case':foreign_language_script.language.semantics.case_usage[test_tags]['case'],  # TODO: see if you can get rid of this
+                        # 'case':case,  # TODO: see if you can get rid of this
                         'noun':test_tags['noun'],
                         'script': 'emoji'
                     }

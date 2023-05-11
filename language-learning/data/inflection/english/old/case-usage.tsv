@@ -1,6 +1,8 @@
 *	*	*	*	case	preposition					
 #	valency	motion	attribute			#				other prepositions to consider:
-	transitive	associated	solitary	nominative		#				
+			solitary	nominative		#				
+	transitive		predicate	accusative		#				
+	transitive		predicand	"nominative	"		#				
 	transitive	associated	agent	nominative		#				
 	transitive	associated	audience	vocative		#			bæftan	behind
 	transitive	associated	patient	accusative		#			beġeondan	beyond
