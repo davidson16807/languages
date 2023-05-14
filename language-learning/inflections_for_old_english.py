@@ -1,8 +1,9 @@
 from tools.lookup import DefaultDictLookup, DictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
+from tools.cards import DeclensionTemplateMatching, CardFormatting, DeckGeneration
 from tools.shorthands import EmojiPerson
 from tools.languages import Language
-from tools.writing import Orthography
+from tools.orthography import Orthography
 from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
     RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 

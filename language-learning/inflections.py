@@ -20,10 +20,10 @@ from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
     RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
 )
-from tools.emoji import Emoji
 from tools.languages import Language
-from tools.writing import Orthography
-from tools.cards import DeclensionTemplateMatching, CardFormatting, CardGeneration
+from tools.orthography import Orthography
+from tools.demonstration import TextDemonstration, EmojiDemonstration
+from tools.cards import DeclensionTemplateMatching, CardFormatting
 
 '''
 Given a mathematical bundle that is encoded as a dictionary,
@@ -54,7 +54,7 @@ case_episemaxis_to_episemes = {
     #   See README.txt and GLOSSARY.tsv for more information on these and related terms.
     'role': [
         # NON-INDIRECT:
-        'existential', # a noun that is declared within an existential clause
+        # 'existential', # a noun that is declared within an existential clause
         'solitary',    # a noun that performs the action of a intransitive verb
         'agent',       # a sentient noun that is interacting with a "patient" or "theme"
         'force',       # a nonsentient noun that is interacting with a "patient" or "theme"
@@ -65,11 +65,11 @@ case_episemaxis_to_episemes = {
         'predicand',   # a noun that is considered part of a larger "predicate" set
         'predicate',   # a noun that is considered to contain a smaller "predicand" set
         # INDIRECT:
+        'topic',       # a noun that is indicated as the topic of conversation, could be either indirect or nonindirect, and could exist in tandem with other nonindirect roles
+        'comment',     # a noun that in some way relates to a "topic"
         'audience',    # a noun that indicates the audience, i.e. the "vocative"
         'possessor',   # a noun that owns a "possession"
         'possession',  # a noun that is owned by a "possessor"
-        'topic',       # a noun that is indicated as the topic of conversation, could be either indirect or nonindirect, and could exist in tandem with other nonindirect roles
-        'comment',     # a noun that in some way relates to a "topic"
         'location', 'extent', 'vicinity', 'interior', 'medium', 'side', 'surface', 'subsurface', 
         'presence', 'aid', 'lack', 'interest', 'purpose', 
         'time', 'state of being', 'company', 'resemblance'],
@@ -521,31 +521,8 @@ emoji_shorthand = EmojiInflectionShorthand(
     EmojiModifierShorthand(),
 )
 
-nouns_to_depictions = {
-    'animal':'cow',
-    'thing':'bolt',
-    'phenomenon': 'eruption',
-}
-
 tsv_parsing = SeparatedValuesFileParsing()
 
-emoji = Emoji(
-    nouns_to_depictions,
-    emoji_noun_adjective_population.index(
-        noun_adjective_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/adjective-agreement.tsv'))),
-    emoji_noun_population.index(
-        common_noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/common-noun-declensions.tsv'))),
-    mood_population.index(
-        mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'))),
-    emoji_shorthand, 
-    HtmlTenseTransform(), 
-    HtmlProgressTransform(), 
-)
-
-tsv_parsing = SeparatedValuesFileParsing()
 rows = [
   *tsv_parsing.rows('data/predicates/mythical/greek.tsv'),
   *tsv_parsing.rows('data/predicates/mythical/hindi.tsv'),
@@ -646,6 +623,51 @@ aspect_usage_population = NestedLookupPopulation(
     cell_evaluation,
     # debug=True
 )
+
+declension_template_matching = DeclensionTemplateMatching(declension_templates, allthat)
+nouns_to_depictions = {
+    'animal':'cow',
+    'thing':'bolt',
+    'phenomenon': 'eruption',
+};
+LanguageSpecificTextDemonstration = TextDemonstration(
+    nouns_to_depictions,
+    mood_population.index(
+        mood_annotation.annotate(
+            tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'))),
+    declension_template_matching,
+    ListParsing(), 
+    ListTools()
+)
+LanguageSpecificEmojiDemonstration = EmojiDemonstration(
+    nouns_to_depictions,
+    emoji_noun_adjective_population.index(
+        noun_adjective_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/adjective-agreement.tsv'))),
+    emoji_noun_population.index(
+        common_noun_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/common-noun-declensions.tsv'))),
+    mood_population.index(
+        mood_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'))),
+    declension_template_matching,
+    emoji_shorthand, 
+    HtmlTenseTransform(), 
+    HtmlProgressTransform(), 
+)
+
+# card_generation = CardGeneration(
+#     english, 
+#     emoji, 
+#     CardFormatting(),
+#     DeclensionTemplateMatching(declension_templates, allthat),
+#     mood_population.index(
+#         mood_annotation.annotate(
+#             tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'))),
+#     ListParsing(),
+#     list_tools
+# )
+
 
 # rows = tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')
 # test = case_usage_population.index(case_usage_annotation.annotate(rows))
@@ -855,71 +877,63 @@ class EnglishListSubstitution:
 
 list_tools = ListTools()
 rule_tools = RuleTools()
+card_formatting = CardFormatting()
 english_list_substitution = EnglishListSubstitution()
 
-english = Orthography(
-    'latin',
-    Language(
-        ListSemantics(
-            case_usage_population.index(
-                case_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv'))),
-            mood_usage_population.index(
-                mood_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/mood-usage.tsv'))),
-            aspect_usage_population.index(
-                aspect_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/aspect-usage.tsv'))),
-            # debug=True,
-        ),
-        ListGrammar(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv')),
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/regular-conjugations.tsv')),
-            ]),
-            declension_population.index([
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/modern/adjective-agreement.tsv')),
-            ]),
-            # debug=True,
-        ),
-        RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
-        {'language-type':'native'},
-        list_tools,
-        rule_tools,
-        RuleFormatting(),
-        RuleValidation(disabled=False), #None,
-        substitutions = [
-            {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
-            {'v': english_list_substitution.verbform}, # English participles are encoded as perfective/imperfective forms and must be handled specially
-            {'v': english_list_substitution.mood},     # English uses auxillary verbs (e.g. "mood") to indicate some moods
-            {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
-            {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
-            {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
-            {'n': english_list_substitution.formality_and_gender}, # English needs annotations to clarify the formalities and genders of other languages
-        ]
-    )
+english_language = Language(
+    ListSemantics(
+        case_usage_population.index(
+            case_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv'))),
+        mood_usage_population.index(
+            mood_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/mood-usage.tsv'))),
+        aspect_usage_population.index(
+            aspect_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/aspect-usage.tsv'))),
+        # debug=True,
+    ),
+    ListGrammar(
+        conjugation_population.index([
+            *finite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv')),
+            *finite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/regular-conjugations.tsv')),
+        ]),
+        declension_population.index([
+            *pronoun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv')),
+            *possessive_pronoun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv')),
+            *common_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv')),
+            *common_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/modern/adjective-agreement.tsv')),
+        ]),
+        # debug=True,
+    ),
+    RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
+    {'language-type':'native'},
+    list_tools,
+    rule_tools,
+    RuleFormatting(),
+    RuleValidation(disabled=False), #None,
+    substitutions = [
+        {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
+        {'v': english_list_substitution.verbform}, # English participles are encoded as perfective/imperfective forms and must be handled specially
+        {'v': english_list_substitution.mood},     # English uses auxillary verbs (e.g. "mood") to indicate some moods
+        {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
+        {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
+        {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
+        {'n': english_list_substitution.formality_and_gender}, # English needs annotations to clarify the formalities and genders of other languages
+    ]
 )
 
-deck_generation = DeckGeneration(
-    english, 
-    emoji, 
-    CardFormatting(),
-    DeclensionTemplateMatching(declension_templates, allthat),
-    mood_population.index(
-        mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'))),
-    ListParsing(),
-    list_tools
-)
+english_orthography = Orthography('latin', english_language)
+
+english_demonstration = LanguageSpecificTextDemonstration(
+    card_formatting.native_word, english_orthography)
+
 
 tag_defaults = {
     'valency':      'transitive',

@@ -1,12 +1,15 @@
 *	*	*	*	case	preposition
 #	valency	motion	role		
 			solitary	nominative	
-	transitive		predicate	accusative	
-	transitive		predicand	"nominative	"	
 	transitive		agent	nominative	
-	transitive		audience	nominative	
+	transitive		force	nominative	
 	transitive		patient	oblique	
 	transitive		theme	oblique	
+	transitive		experiencer	nominative	
+	transitive		stimulus	oblique	
+	transitive		predicate	oblique	
+	transitive		predicand	"nominative	"	
+	transitive		audience	nominative	
 		departed	location	oblique	away from
 		associated	location	oblique	by
 		acquired	location	oblique	to
@@ -103,11 +106,13 @@
 		approached	state of being	oblique	towards being
 		surpassed	state of being	oblique	beyond being
 		leveraged	state of being	oblique	due to being
-		departed	topic	oblique	[therefore]
+		departed	topic	oblique	[off the topic of]
 		associated	topic	oblique	[regarding]
 		acquired	topic	oblique	[pursuant to]
 		approached	topic	oblique	towards [the topic of]
 		surpassed	topic	oblique	beyond [the topic of]
 		leveraged	topic	oblique	by using [the topic of]
+			comment	oblique	
 		associated	company	oblique	in the company of
 		associated	resemblance	oblique	like
+					
