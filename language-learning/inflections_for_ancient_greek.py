@@ -1,5 +1,5 @@
-from tools.lookup import DefaultDictLookup, DictLookup
-from tools.indexing import DictTupleIndexing, DictKeyIndexing
+from tools.lookup import DictLookup
+from tools.indexing import DictTupleIndexing
 from tools.cards import DeckGeneration
 from tools.shorthands import EmojiPerson
 from tools.languages import Language
@@ -12,7 +12,6 @@ from inflections import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, english_demonstration,
     card_formatting,
     case_episemaxis_to_episemes,
-    tagaxis_to_tags,
     tsv_parsing,
     has_annotation,
     finite_annotation, nonfinite_annotation, declension_verb_annotation, 
@@ -20,15 +19,14 @@ from inflections import (
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
-    tag_defaults, nouns_to_depictions,
-    write, replace,
+    tag_defaults, write, 
 )
 
 deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
 
-greek_language = Language(
+foreign_language = Language(
     ListSemantics(
         case_usage_population.index(
             case_usage_annotation.annotate(
@@ -74,7 +72,7 @@ greek_language = Language(
 demonstrations = [
     LanguageSpecificEmojiDemonstration(
         card_formatting.emoji_focus,
-        greek_language.grammar.conjugation_lookups['argument'], 
+        foreign_language.grammar.conjugation_lookups['argument'], 
         [
             EmojiPerson('s','n',3),
             EmojiPerson('s','f',4),
@@ -84,11 +82,11 @@ demonstrations = [
         ]),
     LanguageSpecificTextDemonstration(
             card_formatting.foreign_focus,
-            Orthography('greek', greek_language),
+            Orthography('greek', foreign_language),
         ),
     # LanguageSpecificTextDemonstration(
     #         card_formatting.foreign_side_note,
-    #         Orthography('latin', greek_language),
+    #         Orthography('latin', foreign_language),
     #     ),
     english_demonstration,
 ]
@@ -113,7 +111,7 @@ write('flashcards/ancient-greek/finite-conjugation.html',
     deck_generation.generate(
         [demonstration.verb(
             substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-            stock_modifier = greek_language.grammar.stock_modifier,
+            stock_modifier = foreign_language.grammar.stock_modifier,
             default_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]'
         ) for demonstration in demonstrations],
         DictTupleIndexing([
@@ -198,7 +196,7 @@ write('flashcards/ancient-greek/finite-conjugation.html',
 write('flashcards/ancient-greek/common-noun-declension.html', 
     deck_generation.generate(
         [demonstration.case(
-            stock_modifier = greek_language.grammar.stock_modifier,
+            stock_modifier = foreign_language.grammar.stock_modifier,
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
         DictTupleIndexing([
@@ -256,7 +254,7 @@ write('flashcards/ancient-greek/common-noun-declension.html',
 write('flashcards/ancient-greek/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.case(
-            stock_modifier = greek_language.grammar.stock_modifier,
+            stock_modifier = foreign_language.grammar.stock_modifier,
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
         DictTupleIndexing([
@@ -304,7 +302,7 @@ write('flashcards/ancient-greek/pronoun-declension.html',
 write('flashcards/ancient-greek/adpositions.html', 
     deck_generation.generate(
         [demonstration.case(
-            stock_modifier = greek_language.grammar.stock_modifier,
+            stock_modifier = foreign_language.grammar.stock_modifier,
             substitutions = [
                 {'declined': list_tools.replace(['the', 'n', 'noun'])},
                 {'stock-adposition': list_tools.wrap('cloze')},
@@ -344,7 +342,7 @@ write('flashcards/ancient-greek/adpositions.html',
 write('flashcards/ancient-greek/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.case(
-            stock_modifier = greek_language.grammar.stock_modifier,
+            stock_modifier = foreign_language.grammar.stock_modifier,
             substitutions = [
                 {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])},
             ],
@@ -415,7 +413,7 @@ write('flashcards/ancient-greek/pronoun-possessives.html',
 write('flashcards/ancient-greek/participle-declension.html', 
     deck_generation.generate(
         [demonstration.case(
-            stock_modifier = greek_language.grammar.stock_modifier,
+            stock_modifier = foreign_language.grammar.stock_modifier,
             substitutions = [
                 {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])},
             ],
@@ -446,4 +444,3 @@ write('flashcards/ancient-greek/participle-declension.html',
             'participle' : {'case':'nominative'},
         },
     ))
-

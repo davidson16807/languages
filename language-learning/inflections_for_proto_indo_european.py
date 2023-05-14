@@ -1,6 +1,6 @@
-from tools.lookup import DefaultDictLookup, DictLookup
-from tools.indexing import DictTupleIndexing, DictKeyIndexing
-from tools.cards import DeclensionTemplateMatching, CardFormatting, DeckGeneration
+from tools.lookup import DictLookup
+from tools.indexing import DictTupleIndexing
+from tools.cards import DeckGeneration
 from tools.shorthands import EmojiPerson
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -9,6 +9,8 @@ from tools.nodemaps import (
     RuleTools, RuleSyntax, RuleFormatting, 
 )
 from inflections import (
+    LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, english_demonstration,
+    card_formatting,
     case_episemaxis_to_episemes,
     tsv_parsing,
     has_annotation,
@@ -17,67 +19,74 @@ from inflections import (
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
-    deck_generation, tag_defaults, nouns_to_depictions,
-    write, replace
+    tag_defaults, write, 
 )
 
+deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
 
-foreign_writing = Orthography(
-    'latin',
-    Language(
-        ListSemantics(
-            case_usage_population.index(
-                case_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/case-usage.tsv'))),
-            mood_usage_population.index(
-                mood_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/mood-usage.tsv'))),
-            aspect_usage_population.index(
-                aspect_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/aspect-usage.tsv'))),
-        ),
-        ListGrammar(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/finite-conjugations.tsv')),
-                *nonfinite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
-                *filter(has_annotation('language','proto-indo-european'),
-                    declension_verb_annotation.annotate(
-                        tsv_parsing.rows(
-                            'data/inflection/declension-template-verbs-minimal.tsv'))),
-            ]),
-            declension_population.index([
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/common-noun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/adjective-agreement.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-possessives.tsv')),
-                *filter(has_annotation('language','proto-indo-european'),
-                    declension_template_noun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
-            ]),
-        ),
-        RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
-        {'language-type':'foreign'},
-        list_tools,
-        rule_tools,
-        RuleFormatting(),
-        substitutions = []
-    )
+foreign_language = Language(
+    ListSemantics(
+        case_usage_population.index(
+            case_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/case-usage.tsv'))),
+        mood_usage_population.index(
+            mood_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/mood-usage.tsv'))),
+        aspect_usage_population.index(
+            aspect_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/aspect-usage.tsv'))),
+    ),
+    ListGrammar(
+        conjugation_population.index([
+            *finite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/finite-conjugations.tsv')),
+            *nonfinite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
+            *filter(has_annotation('language','proto-indo-european'),
+                declension_verb_annotation.annotate(
+                    tsv_parsing.rows(
+                        'data/inflection/declension-template-verbs-minimal.tsv'))),
+        ]),
+        declension_population.index([
+            *pronoun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-declensions.tsv')),
+            *common_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/common-noun-declensions.tsv')),
+            *common_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/adjective-agreement.tsv')),
+            *possessive_pronoun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/proto-indo-european/sihler/pronoun-possessives.tsv')),
+            *filter(has_annotation('language','proto-indo-european'),
+                declension_template_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
+        ]),
+    ),
+    RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
+    {'language-type':'foreign'},
+    list_tools,
+    rule_tools,
+    RuleFormatting(),
+    substitutions = []
 )
 
-persons = [
-    EmojiPerson('s','n',3),
-    EmojiPerson('s','f',4),
-    EmojiPerson('s','m',2),
-    EmojiPerson('s','n',1),
-    EmojiPerson('s','n',5),
+demonstrations = [
+    LanguageSpecificEmojiDemonstration(
+        card_formatting.emoji_focus,
+        foreign_language.grammar.conjugation_lookups['argument'], 
+        [
+            EmojiPerson('s','n',3),
+            EmojiPerson('s','f',4),
+            EmojiPerson('s','m',2),
+            EmojiPerson('s','n',1),
+            EmojiPerson('s','n',5),
+        ]),
+    LanguageSpecificTextDemonstration(
+            card_formatting.foreign_focus,
+            Orthography('latin', foreign_language),
+        ),
+    english_demonstration,
 ]
 
 genders = 'masculine feminine neuter'.split()
@@ -94,8 +103,12 @@ tenses = 'present past'.split()
 voices = 'active middle'.split()
 
 write('flashcards/proto-indo-european/finite-conjugation.html', 
-    deck_generation.conjugation(
-        foreign_writing,
+    deck_generation.generate(
+        [demonstration.verb(
+            substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            default_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]'
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
@@ -143,15 +156,18 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
                     ('thought','middle'),
                 })
             ],
-        persons = persons,
-        substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-        foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
-        native_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
+        tag_templates ={
+            'test'       : {'noun-form': 'personal', 'role':'agent', 'motion':'associated'},
+            'modifier'   : {'noun-form': 'common', 'role':'modifier', 'motion':'associated'},
+        },
     ))
 
 write('flashcards/proto-indo-european/common-noun-declension.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender']),
@@ -174,14 +190,14 @@ write('flashcards/proto-indo-european/common-noun-declension.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = persons,
-        nouns_to_depictions = nouns_to_depictions,
-        substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
 write('flashcards/proto-indo-european/pronoun-declension.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role']),
         {
@@ -222,14 +238,18 @@ write('flashcards/proto-indo-european/pronoun-declension.html',
             'test'       : {'noun-form':'personal'},
             'emoji'      : {'noun-form':'personal'},
         },
-        persons = persons,
-        substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
 
 write('flashcards/proto-indo-european/adpositions.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [
+                {'declined': list_tools.replace(['the', 'n', 'noun'])},
+                {'stock-adposition': list_tools.wrap('cloze')},
+            ],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender']),
@@ -260,16 +280,14 @@ write('flashcards/proto-indo-european/adpositions.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = persons,
-        substitutions = [
-            {'declined':         list_tools.replace(['the', 'n', 'noun'])},
-            {'stock-adposition': list_tools.wrap('cloze')},
-        ],
     ))
 
 write('flashcards/proto-indo-european/adjective-agreement.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective']),
@@ -304,13 +322,16 @@ write('flashcards/proto-indo-european/adjective-agreement.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = persons,
-        substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
     ))
 
 write('flashcards/proto-indo-european/pronoun-possessives.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [
+                {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])},
+            ],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender',
@@ -374,16 +395,17 @@ write('flashcards/proto-indo-european/pronoun-possessives.html',
             'test'       : {'noun-form':'personal-possessive'},
             'emoji'      : {'person':'4'},
         },
-        persons = persons,
-        substitutions = [
-            {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])}
-        ],
     ))
 
 
 write('flashcards/proto-indo-european/participle-declension.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [
+                {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])},
+            ],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'tense', 'voice', 'progress', 'mood', 
@@ -410,9 +432,4 @@ write('flashcards/proto-indo-european/participle-declension.html',
             'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common', 'person':'4'},
             'participle' : {'case':'nominative'},
         },
-        persons = persons,
-        substitutions = [{'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])}],
     ))
-
-
-

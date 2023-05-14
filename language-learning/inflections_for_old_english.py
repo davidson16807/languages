@@ -1,6 +1,6 @@
-from tools.lookup import DefaultDictLookup, DictLookup
-from tools.indexing import DictTupleIndexing, DictKeyIndexing
-from tools.cards import DeclensionTemplateMatching, CardFormatting, DeckGeneration
+from tools.lookup import DictLookup
+from tools.indexing import DictTupleIndexing
+from tools.cards import DeckGeneration
 from tools.shorthands import EmojiPerson
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -9,6 +9,8 @@ from tools.nodemaps import (
     RuleTools, RuleSyntax, RuleFormatting, 
 )
 from inflections import (
+    LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, english_demonstration,
+    card_formatting,
     case_episemaxis_to_episemes,
     tsv_parsing,
     has_annotation,
@@ -17,68 +19,74 @@ from inflections import (
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
-    deck_generation, tag_defaults, nouns_to_depictions,
-    write, replace
+    tag_defaults, write, 
 )
 
+deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
 
-foreign_writing = Orthography(
-    'latin',
-    Language(
-        ListSemantics(
-            case_usage_population.index(
-                case_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/case-usage.tsv'))),
-            mood_usage_population.index(
-                mood_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/mood-usage.tsv'))),
-            aspect_usage_population.index(
-                aspect_usage_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/aspect-usage.tsv'))),
-        ),
-        ListGrammar(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/conjugations.tsv')),
-                *filter(has_annotation('language','old-english'),
-                    declension_verb_annotation.annotate(
-                        tsv_parsing.rows(
-                            'data/inflection/declension-template-verbs-minimal.tsv'))),
-            ]),
-            declension_population.index([
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/common-noun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/adjective-agreement.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/english/old/pronoun-possessives.tsv')),
-                *filter(has_annotation('language','old-english'),
-                    declension_template_noun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
-            ]),
-        ),
-        RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 
-        {'language-type':'foreign'},
-        # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
-        list_tools,
-        rule_tools,
-        RuleFormatting(),
-        substitutions = []
-    )
+foreign_language = Language(
+    ListSemantics(
+        case_usage_population.index(
+            case_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/old/case-usage.tsv'))),
+        mood_usage_population.index(
+            mood_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/old/mood-usage.tsv'))),
+        aspect_usage_population.index(
+            aspect_usage_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/old/aspect-usage.tsv'))),
+    ),
+    ListGrammar(
+        conjugation_population.index([
+            *finite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/old/conjugations.tsv')),
+            *filter(has_annotation('language','old-english'),
+                declension_verb_annotation.annotate(
+                    tsv_parsing.rows(
+                        'data/inflection/declension-template-verbs-minimal.tsv'))),
+        ]),
+        declension_population.index([
+            *pronoun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv')),
+            *common_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/old/common-noun-declensions.tsv')),
+            *common_noun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/old/adjective-agreement.tsv')),
+            *possessive_pronoun_annotation.annotate(
+                tsv_parsing.rows('data/inflection/english/old/pronoun-possessives.tsv')),
+            *filter(has_annotation('language','old-english'),
+                declension_template_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
+        ]),
+    ),
+    RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 
+    {'language-type':'foreign'},
+    # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
+    list_tools,
+    rule_tools,
+    RuleFormatting(),
+    substitutions = []
 )
 
-persons = [
-    EmojiPerson('s','n',3),
-    EmojiPerson('s','f',4),
-    EmojiPerson('s','m',2),
-    EmojiPerson('s','n',1),
-    EmojiPerson('s','n',5),
+demonstrations = [
+    LanguageSpecificEmojiDemonstration(
+        card_formatting.emoji_focus,
+        foreign_language.grammar.conjugation_lookups['argument'], 
+        [
+            EmojiPerson('s','n',2),
+            EmojiPerson('s','f',3),
+            EmojiPerson('s','m',1),
+            EmojiPerson('s','n',4),
+            EmojiPerson('s','n',5),
+        ]),
+    LanguageSpecificTextDemonstration(
+            card_formatting.foreign_focus,
+            Orthography('latin', foreign_language),
+        ),
+    english_demonstration,
 ]
-
 
 genders = 'masculine feminine neuter'.split()
 numbers = 'singular plural'.split()
@@ -92,8 +100,12 @@ tenses = 'present past'.split()
 voices = 'active'
 
 write('flashcards/old-english/finite-conjugation.html', 
-    deck_generation.conjugation(
-        foreign_writing,
+    deck_generation.generate(
+        [demonstration.verb(
+            substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            default_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]'
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'gender','person','number','formality','clusivity','clitic',
@@ -135,15 +147,14 @@ write('flashcards/old-english/finite-conjugation.html',
                     ('present', 'imperative', ),
                 }),
         ],
-        persons = persons,
-        substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-        foreign_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
-        native_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]',
     ))
 
 write('flashcards/old-english/common-noun-declension.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', ]),
@@ -165,14 +176,14 @@ write('flashcards/old-english/common-noun-declension.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = persons,
-        nouns_to_depictions = nouns_to_depictions,
-        substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
 write('flashcards/old-english/pronoun-declension.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',]),
         {
@@ -212,14 +223,18 @@ write('flashcards/old-english/pronoun-declension.html',
             'test'       : {'noun-form':'personal'},
             'emoji'      : {'noun-form':'personal'},
         },
-        persons = persons,
-        substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
     ))
 
 
 write('flashcards/old-english/adpositions.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [
+                {'declined': list_tools.replace(['the', 'n', 'noun'])},
+                {'stock-adposition': list_tools.wrap('cloze')},
+            ],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', ]),
@@ -250,16 +265,14 @@ write('flashcards/old-english/adpositions.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = persons,
-        substitutions = [
-            {'declined':         list_tools.replace(['the', 'n', 'noun'])},
-            {'stock-adposition': list_tools.wrap('cloze')},
-        ],
     ))
 
 write('flashcards/old-english/strong-adjective-agreement.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective']),
@@ -294,13 +307,14 @@ write('flashcards/old-english/strong-adjective-agreement.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = persons,
-        substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
     ))
 
 write('flashcards/old-english/weak-adjective-agreement.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective']),
@@ -335,13 +349,16 @@ write('flashcards/old-english/weak-adjective-agreement.html',
             'test'       : {'noun-form':'common'},
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
-        persons = persons,
-        substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
     ))
 
 write('flashcards/old-english/pronoun-possessives.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [
+                {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])},
+            ],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 
@@ -404,16 +421,17 @@ write('flashcards/old-english/pronoun-possessives.html',
             'test'       : {'noun-form':'personal-possessive'},
             'emoji'      : {'person':'4'},
         },
-        persons = persons,
-        substitutions = [
-            {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])}
-        ],
     ))
 
 
 write('flashcards/old-english/participle-declension.html', 
-    deck_generation.declension(
-        foreign_writing, 
+    deck_generation.generate(
+        [demonstration.case(
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [
+                {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])},
+            ],
+        ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
             'tense', 'voice', 'progress', 'mood', 
@@ -440,8 +458,6 @@ write('flashcards/old-english/participle-declension.html',
             'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common', 'person':'4'},
             'participle' : {'case':'nominative'},
         },
-        persons = persons,
-        substitutions = [{'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])}],
     ))
 
 
