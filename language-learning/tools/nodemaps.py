@@ -201,22 +201,6 @@ class RuleFormatting:
     def parentheses(self, treemap, rule):
         return '('+str(' '.join([str(treemap.map(element)) for element in rule.content]))+')'
 
-class RuleValidation:
-    """
-    `RuleValidation` is a library of functions that can be used in conjunction with `RuleTrees` 
-    to determine whether a sytax tree can be represented as a string of natural language.
-    """
-    def __init__(self, disabled=False):
-        self.disabled = disabled
-    def exists(self, treemap, rule):
-        return all([
-            {
-                Rule:       lambda subrule: treemap.map(subrule),
-                str:        lambda text:    '—' not in text,
-                type(None): lambda none:    self.disabled,
-            }[type(element)](element)
-            for element in rule.content])
-
 class ListTools:
     def __init__(self):
         pass

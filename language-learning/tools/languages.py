@@ -16,7 +16,6 @@ class Language:
         grammar:    contains maps from nodes represented as nested lists of language agnostic codes to nodes represented as nested lists of inflected words as they would appear in a language
         syntax:     contains maps from nodes represented as nested and unordered `Rule` objects to nodes represented as nested `Rule` objects ordered as they would appear according to language ordering rules (e.g. sentence structure)
         formatting: contains maps between nodes represented as nested lists of strings indicating how constructs such as Anki "cloze" statements should be rendered as strings
-        validation: contains maps from nodes represented as nested lists of Noneable strings to boolean indicating whether the node should be rendered as a string
         list_tools:      contains maps of nodes represented as nested lists of strings without concern to what the strings represent
         rule_tools:      contains maps of nodes represented as nested rules without concern to what the rules represent
     """
@@ -28,7 +27,6 @@ class Language:
             list_tools,
             rule_tools,
             formatting,
-            validation,
             substitutions=[]):
         self.semantics = semantics
         self.grammar = grammar
@@ -36,7 +34,6 @@ class Language:
         self.tags = tags
         self.list_tools = list_tools
         self.rule_tools = rule_tools
-        self.validation = validation
         self.formatting = formatting
         self.substitutions = substitutions
     def map(self, syntax_tree, script, semes={}, substitutions=[]):
@@ -95,9 +92,6 @@ class Language:
                     'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality']).split())),
             }),
         ]
-        validation = RuleTreeMap({
-            **{tag:self.validation.exists for tag in rules.split()},
-        }) if self.validation else None
         formatting = RuleTreeMap({
             **{tag:self.formatting.default for tag in rules.split()},
             'cloze':   self.formatting.cloze,
@@ -109,6 +103,4 @@ class Language:
             # print(i)
             # print(tree)
             tree = step.map(tree, {**self.tags, 'script': script})
-        # return formatting.map(tree)
-        return formatting.map(tree) if not validation or validation.map(tree) else None
-
+        return formatting.map(tree)

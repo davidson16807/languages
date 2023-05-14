@@ -18,7 +18,7 @@ from tools.evaluation import CellEvaluation, KeyEvaluation, MultiKeyEvaluation
 from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
 from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
-    RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
+    RuleTools, RuleSyntax, RuleFormatting, 
 )
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -917,7 +917,6 @@ english_language = Language(
     list_tools,
     rule_tools,
     RuleFormatting(),
-    RuleValidation(disabled=False), #None,
     substitutions = [
         {'cloze': list_tools.unwrap()}, # English serves as a native language here, so it never shows clozes
         {'v': english_list_substitution.verbform}, # English participles are encoded as perfective/imperfective forms and must be handled specially

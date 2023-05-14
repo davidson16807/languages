@@ -12,7 +12,7 @@ def TextDemonstration(
             self.format_card = format_card
             self.orthography = orthography
         def assemble(self, tags, dependant, independant):
-            return independant.replace('\\placeholder', dependant).replace('∅','') if dependant is not None else None
+            return independant.replace('\\placeholder', dependant)
         def context(self, tags):
             voice_prephrase = '[middle voice:]' if tags['voice'] == 'middle' else ''
             mood_prephrase = mood_templates[{**tags,'column':'prephrase'}]
@@ -47,11 +47,10 @@ def TextDemonstration(
                       for key in ['noun','adjective','verb']
                       if key in tags],
                 ]
-                foo = self.assemble(tags,
+                return self.format_card(self.assemble(tags,
                             self.orthography.map(parsing.parse(default_tree), semes, completed_substitutions),
                             self.context(tags),
-                        )
-                return self.format_card(foo)
+                        ).replace('∅',''))
             return _demonstration
         def case(self, substitutions, stock_modifier, **junk):
             def _demonstration(tags, tag_templates):
@@ -76,16 +75,12 @@ def TextDemonstration(
                       for key in ['noun','adjective','verb']
                       if key in tags],
                 ]
-                if not match:
-                    return None
-                    # return str((predicate, tags))
-                else:
-                    tree = parsing.parse(match['syntax-tree'])
-                    return self.format_card(
-                            self.assemble(tags,
-                                self.orthography.map(tree, semes, completed_substitutions),
-                                self.context(tags),
-                            ))
+                return self.format_card(
+                        self.assemble(tags,
+                            self.orthography.map(parsing.parse(match['syntax-tree']), semes, completed_substitutions),
+                            self.context(tags),
+                        ).replace('∅','')) if match else '—'
+
             return _demonstration
     return LanguageSpecificTextDemonstration
 

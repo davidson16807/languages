@@ -30,9 +30,8 @@ class DeckGeneration:
             tags = {**tagspace, **traversal.dictkey(tuplekey)}
             if (all([tags in whitelist for whitelist in whitelists]) and 
                 all([tags not in blacklist for blacklist in blacklists])):
-                # yield ' '.join([str(demonstration(tags, tag_templates)) for demonstration in demonstrations])
                 lines = [demonstration(tags, tag_templates) for demonstration in demonstrations]
-                if all(lines):
+                if all(['—' not in line for line in lines]):
                     yield ' '.join([str(line) for line in lines])
 
 class CardFormatting:

@@ -14,7 +14,7 @@
 		acquired	location	genitive	πρός	#	prós
 		approached	location	accusative	πρός	#	prós
 		surpassed	location	genitive	πέρα	#	péra
-#		leveraged	location	accusative	κατά	#	katá
+		leveraged	location	accusative	κατά	#	katá
 #		departed	extent	dative		#	
 #		associated	extent	genitive		#	
 #		acquired	extent	dative		#	
@@ -24,49 +24,69 @@
 #		departed	vicinity	dative		#	
 #		associated	vicinity	dative	πρός	#	prós
 #		acquired	vicinity	dative		#	
-#							
-#							
-#		leveraged	vicinity	dative		#	
+#		approached	vicinity	accusative	πρός	#	prós
+#		surpassed	vicinity	genitive	πέρα	#	péra
+#		leveraged	vicinity	accusative	κατά	#	katá
 		departed	interior	genitive	ἐκ	#	
 		associated	interior	dative	ἐν	#	
 		acquired	interior	accusative	εἰς	#	eis
+#		approached	interior	genitive	πρός	#	prós
+#		surpassed	interior	genitive	πέρα	#	péra
 		leveraged	interior	genitive	διά	#	
 #		departed	surface	dative		#	
 		associated	surface	dative	ἐπί	#	
 #		acquired	surface	dative		#	
+#		approached	surface	genitive	πρός	#	prós
+#		surpassed	surface	genitive	πέρα	#	péra
 		leveraged	surface	accusative	ὑπέρ	#	
 #		departed	presence	dative		#	
 		associated	presence	genitive	πρό	#	
 #		acquired	presence	dative		#	
+#		approached	presence	genitive	πρός	#	prós
+#		surpassed	presence	genitive	πέρα	#	péra
 #		leveraged	presence	dative		#	
 #		departed	aid	dative		#	
 		associated	aid	dative	σύν	#	
 		acquired	aid	genitive	ἀμφί	#	
+#		approached	aid	genitive		#	
+#		surpassed	aid	genitive		#	
 #		leveraged	aid	dative		#	
 #		departed	lack	dative		#	
 #		associated	lack	dative		#	
 #		acquired	lack	dative		#	
+#		approached	lack	genitive		#	
+#		surpassed	lack	genitive		#	
 #		leveraged	lack	dative		#	
 #		departed	interest	dative		#	
 #		associated	interest	genitive		#	
 #		acquired	interest	genitive		#	
+#		approached	interest	genitive		#	
+#		surpassed	interest	genitive		#	
 #		leveraged	interest	genitive		#	
 #		departed	ownership	dative		#	
 #		associated	ownership	genitive		#	
 #		acquired	ownership	dative		#	
+#		approached	ownership	genitive		#	
+#		surpassed	ownership	genitive		#	
 #		leveraged	ownership	dative		#	
 #		departed	time	dative		#	
 #		associated	time	dative		#	
 #		acquired	time	dative		#	
+#		approached	time	genitive		#	
+#		surpassed	time	genitive		#	
 #		leveraged	time	dative		#	
 #		departed	state of being	dative		#	
 #		associated	state of being	genitive		#	
 #		acquired	state of being	dative		#	
+#		approached	state of being	genitive		#	
+#		surpassed	state of being	genitive		#	
 #		leveraged	state of being	dative		#	
 #		departed	topic	dative		#	
 #		associated	topic	dative		#	
 #		acquired	topic			#	
+#		approached	topic	genitive		#	
+#		surpassed	topic	genitive		#	
 #		leveraged	topic			#	
-			comment	accusative		#	
+#			comment	accusative		#	
 		associated	company	dative	παρά	#	
 #		associated	resemblance			#	

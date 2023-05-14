@@ -6,7 +6,7 @@ from tools.languages import Language
 from tools.orthography import Orthography
 from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
-    RuleTools, RuleSyntax, RuleValidation, RuleFormatting, 
+    RuleTools, RuleSyntax, RuleFormatting, 
 )
 from inflections import (
     case_episemaxis_to_episemes,
@@ -67,8 +67,6 @@ foreign_writing = Orthography(
         list_tools,
         rule_tools,
         RuleFormatting(),
-        # RuleValidation(),
-        RuleValidation(disabled=True),
         substitutions = []
     )
 )
