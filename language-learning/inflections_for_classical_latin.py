@@ -1,7 +1,6 @@
 from tools.lookup import DictLookup
 from tools.indexing import DictTupleIndexing
 from tools.cards import DeckGeneration
-from tools.shorthands import EmojiPerson
 from tools.languages import Language
 from tools.orthography import Orthography
 from tools.nodemaps import (
@@ -20,6 +19,7 @@ from inflections import (
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
     tag_defaults, write, 
+    emoji_casts
 )
 
 deck_generation = DeckGeneration()
@@ -79,13 +79,7 @@ foreign_demonstration = LanguageSpecificTextDemonstration(
 emoji_demonstration = LanguageSpecificEmojiDemonstration(
     card_formatting.emoji_focus,
     foreign_language.grammar.conjugation_lookups['argument'], 
-    [
-        EmojiPerson('s','n',3),
-        EmojiPerson('s','f',4),
-        EmojiPerson('s','m',2),
-        EmojiPerson('s','n',1),
-        EmojiPerson('s','n',5),
-    ])
+    emoji_casts[3])
 
 demonstrations = [
     emoji_demonstration,
@@ -531,6 +525,16 @@ write('flashcards/latin/participle-declension.html',
             'verb-form':  'participle',
             'noun-form':  'common',
         },
+        whitelists = [
+            DictLookup(
+                'tense aspect filter', 
+                DictTupleIndexing(['tense', 'progress']),
+                content = {
+                    ('present', 'atelic'),
+                    ('future',  'atelic'),
+                    ('past',    'finished'),
+                }),
+        ],
         tag_templates ={
             'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},

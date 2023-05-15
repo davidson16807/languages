@@ -933,6 +933,43 @@ english_orthography = Orthography('latin', english_language)
 english_demonstration = LanguageSpecificTextDemonstration(
     card_formatting.native_word, english_orthography)
 
+emoji_casts = {
+    1: [
+            EmojiPerson('s','n',1),
+            EmojiPerson('s','f',2),
+            EmojiPerson('s','m',3),
+            EmojiPerson('s','n',4),
+            EmojiPerson('s','n',5),
+        ],
+    2: [
+            EmojiPerson('s','n',2),
+            EmojiPerson('s','f',3),
+            EmojiPerson('s','m',1),
+            EmojiPerson('s','n',4),
+            EmojiPerson('s','n',5),
+        ],
+    3: [
+            EmojiPerson('s','n',3),
+            EmojiPerson('s','f',4),
+            EmojiPerson('s','m',2),
+            EmojiPerson('s','n',1),
+            EmojiPerson('s','n',5),
+        ],
+    4: [
+            EmojiPerson('s','n',4),
+            EmojiPerson('s','f',3),
+            EmojiPerson('s','m',5),
+            EmojiPerson('s','n',2),
+            EmojiPerson('s','n',1),
+        ],
+    5: [
+            EmojiPerson('s','n',5),
+            EmojiPerson('s','f',4),
+            EmojiPerson('s','m',3),
+            EmojiPerson('s','n',2),
+            EmojiPerson('s','n',1),
+        ],
+}
 
 tag_defaults = {
     'valency':      'transitive',

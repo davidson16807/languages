@@ -1,7 +1,6 @@
 from tools.lookup import DictLookup
 from tools.indexing import DictTupleIndexing
 from tools.cards import DeckGeneration
-from tools.shorthands import EmojiPerson
 from tools.languages import Language
 from tools.orthography import Orthography
 from tools.nodemaps import (
@@ -20,6 +19,7 @@ from inflections import (
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
     tag_defaults, write, 
+    emoji_casts
 )
 
 deck_generation = DeckGeneration()
@@ -74,13 +74,7 @@ demonstrations = [
     LanguageSpecificEmojiDemonstration(
         card_formatting.emoji_focus,
         foreign_language.grammar.conjugation_lookups['argument'], 
-        [
-            EmojiPerson('s','n',2),
-            EmojiPerson('s','f',3),
-            EmojiPerson('s','m',1),
-            EmojiPerson('s','n',4),
-            EmojiPerson('s','n',5),
-        ]),
+        emoji_casts[2]),
     LanguageSpecificTextDemonstration(
             card_formatting.foreign_focus,
             Orthography('latin', foreign_language),
