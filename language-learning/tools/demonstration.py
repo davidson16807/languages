@@ -115,8 +115,7 @@ def EmojiDemonstration(
             return emojiInflectionShorthand.decode(
                     recounting.replace('\\scene', scene), subject, persons)
         def verb(self, **junk):
-            def _demonstration(test_tags, tag_templates):
-                tags = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
+            def scene(tags):
                 template = self.argument_lookups[tags] if tags in self.argument_lookups else '🚫'
                 audience_lookup = {
                     'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
@@ -128,11 +127,36 @@ def EmojiDemonstration(
                 # audience = (audience_lookup[tags['formality']] 
                 #          if tags['formality'] in audience_lookup 
                 #          else '\\n2{🧑\\g2\\c2}')
-                scene = getattr(htmlTenseTransform, tags['tense'])(
+                return getattr(htmlTenseTransform, tags['tense'])(
                             getattr(htmlProgressTransform, tags['progress'].replace('-','_'))(template))
-                return self.format_card(self.assemble(tags, scene, self.context(tags)))
+            def _demonstration(test_tags, tag_templates):
+                tags = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
+                return self.format_card(self.assemble(tags, scene(tags), self.context(tags)))
             return _demonstration
         def case(self, **junk):
+            def scene(tags, tag_templates):
+                if tags['noun-form'] == 'personal-possessive':
+                    possessed = scene({**tags, 'noun-form':'common'}, tag_templates)
+                    possessor = scene({
+                            'noun-form': 'pronoun',
+                            'noun': tags['possessor-noun'].replace('-possessor',''),
+                            'person': tags['possessor-person'].replace('-possessor','')[0],
+                            'number': tags['possessor-number'].replace('-possessor',''),
+                            'gender': tags['possessor-gender'].replace('-possessor',''),
+                            'clusivity': tags['possessor-clusivity'].replace('-possessor',''),
+                            'formality': tags['possessor-formality'].replace('-possessor',''),
+                            'script': 'emoji',
+                        }, tag_templates)
+                    return '\\flex{'+possessed+'\\r{'+possessor+'}}'
+                else:
+                    depiction = ('missing' if 'noun' not in tags 
+                        else tags['noun'] if tags['noun'] not in nouns_to_depictions 
+                        else nouns_to_depictions[tags['noun']])
+                    alttags = {**tags, 'noun':depiction}
+                    return (noun_adjective_lookups[tags] if tags in noun_adjective_lookups
+                        else noun_lookups[alttags] if alttags in noun_lookups
+                        else noun_lookups[tags] if tags in noun_lookups 
+                        else '🚫')
             def _demonstration(test_tags, tag_templates):
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
@@ -146,29 +170,6 @@ def EmojiDemonstration(
                         'noun':test_tags['noun'],
                         'script': 'emoji'
                     }
-                # if tags['noun-form'] == 'personal-possessive':
-                #     possessed = self.case()({**tags, 'noun-form':'common'}, tag_templates)
-                #     possessor = self.case()({
-                #             'noun-form': 'pronoun',
-                #             'noun': tags['possessor-noun'].replace('-possessor',''),
-                #             'person': tags['possessor-person'].replace('-possessor','')[0],
-                #             'number': tags['possessor-number'].replace('-possessor',''),
-                #             'gender': tags['possessor-gender'].replace('-possessor',''),
-                #             'clusivity': tags['possessor-clusivity'].replace('-possessor',''),
-                #             'formality': tags['possessor-formality'].replace('-possessor',''),
-                #             'script': 'emoji',
-                #         }, tag_templates)
-                #     noun = '\\flex{'+possessed+'\\r{'+possessor+'}}'
-                # else:
-                depiction = ('missing' if 'noun' not in tags 
-                    else tags['noun'] if tags['noun'] not in nouns_to_depictions 
-                    else nouns_to_depictions[tags['noun']])
-                alttags = {**tags, 'noun':depiction}
-                noun = (noun_adjective_lookups[tags] if tags in noun_adjective_lookups
-                    else noun_lookups[alttags] if alttags in noun_lookups
-                    else noun_lookups[tags] if tags in noun_lookups 
-                    else '🚫')
-                scene = template.replace('\\declined', noun)
-                return self.format_card(self.assemble(tags, scene, self.context(tags)))
+                return self.format_card(self.assemble(tags, template.replace('\\declined', scene(tags, tag_templates)), self.context(tags)))
             return _demonstration
     return LanguageSpecificEmojiDemonstration
