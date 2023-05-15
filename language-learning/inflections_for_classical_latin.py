@@ -535,6 +535,17 @@ write('flashcards/latin/participle-declension.html',
                     ('past',    'finished'),
                 }),
         ],
+        blacklists = [
+            DictLookup(
+                'verb voice filter', 
+                DictTupleIndexing(['verb', 'voice']),
+                content = {
+                    ('be',      'passive'),
+                    ('be able', 'passive'),
+                    ('want',    'passive'),
+                    ('become',  'passive'),
+                }),
+        ],
         tag_templates ={
             'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
