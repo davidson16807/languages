@@ -85,6 +85,8 @@ demonstrations = [
 
 genders = 'masculine feminine neuter'.split()
 numbers = 'singular dual plural'.split()
+roles = 'solitary audience patient location possessor interior surface presence aid lack interest time company'.split()
+motions = 'associated departed acquired leveraged'.split()
 verbs = ['be', 'become', 'carry', 'leave', 'work', 
          'do', 'ask', 'stretch', 'know', 
          'sit', 'protect', 'be red', 'set down', 'want to see',

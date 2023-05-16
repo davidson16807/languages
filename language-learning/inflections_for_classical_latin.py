@@ -92,6 +92,8 @@ numbers = 'singular plural'.split()
 verbs = ['be', 'be able', 'want', 'become', 'go', 
          'carry', 'eat', 'love', 'advise', 
          'capture', 'hear']
+roles = 'solitary audience patient location possessor interior surface presence aid lack interest time company'.split()
+motions = 'associated departed acquired leveraged'.split()
 nouns = ['man', 'day', 'hand', 'night', 'thing', 'name', 'son', 'war',
          'air', 'boy', 'animal', 'star', 'tower', 'horn', 'sailor', 'foundation',
          'echo', 'phenomenon', 'vine', 'myth', 'atom', 'nymph', 'comet']

@@ -77,6 +77,8 @@ class ListGrammar:
             return split[0] if not show_alternates else '|'.join(split)
         self.format_alternates = format_alternates
     def decline(self, treemap, content, tags):
+        if 'case' not in tags:
+            return '—'
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
         missing_value = '' if content[0] in {'det'} else None
@@ -93,6 +95,8 @@ class ListGrammar:
             else missing_value if sememe not in self.declension_lookups[sememe]
             else self.format_alternates(self.declension_lookups[sememe][sememe], tags)]
     def conjugate(self, treemap, content, tags):
+        if any([tagaxis not in tags for tagaxis in 'aspect mood'.split()]):
+            return '—'
         sememe = {
             **tags, 
             'verb':content[1],

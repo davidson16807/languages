@@ -88,6 +88,8 @@ demonstrations = [
 genders = 'masculine feminine neuter'.split()
 numbers = 'singular dual plural'.split()
 verbs = 'be go release'.split()
+roles = 'solitary audience patient location possessor interior surface presence aid lack interest time company'.split()
+motions = 'associated departed acquired leveraged'.split()
 nouns = '''young-man soldier polity village person street gift 
          circumnavigation bone hero fish oak city axe town 
          master cow old-woman echo Clio crow vulture rug

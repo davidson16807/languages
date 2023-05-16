@@ -82,16 +82,20 @@ demonstrations = [
     english_demonstration,
 ]
 
+nouns = 'dog light house gift raid moon sun eye time English son hand person nut goose friend bystander father mother brother sister daughter lamb shoe piglet shadow meadow'.split(' ')
+roles = 'solitary audience patient location possessor'.split()
+motions = 'associated'.split()
 genders = 'masculine feminine neuter'.split()
 numbers = 'singular plural'.split()
+
 verbs = ['be [momentarily]', 'be [by nature]', 'do', 'go', 'want', 
-         'steal', 'share', 'tame', 'move', 'love', 'have', 'live', 'say', 'think',]
-nouns = 'dog light house gift raid moon sun eye time English son hand person nut goose friend bystander father mother brother sister daughter lamb shoe piglet shadow meadow'.split(' ')
-adjectives = 'good tall black red green'.split()
+         'steal', 'share', 'tame', 'move', 'love', 'have', 'live', 'say', 'think']
+tenses = 'present past'.split()
 progress = 'atelic'
 moods = 'indicative subjunctive imperative'.split()
-tenses = 'present past'.split()
 voices = 'active'
+
+adjectives = 'good tall black red green'.split()
 
 write('flashcards/old-english/finite-conjugation.html', 
     deck_generation.generate(
@@ -157,6 +161,8 @@ write('flashcards/old-english/common-noun-declension.html',
             **tag_defaults,
             'noun':        nouns,
             'number':      numbers,
+            'role':        roles,
+            'motion':      motions,
             'animacy':    'thing',
             'noun-form':  'common',
             'verb-form':  'finite',
@@ -185,6 +191,8 @@ write('flashcards/old-english/pronoun-declension.html',
             **tag_defaults,
             'noun':      ['man','woman','snake'],
             'gender':      genders,
+            'role':        roles,
+            'motion':      motions,
             'number':     numbers,
             'person':    ['1','2','3'],
             'animacy':    'animate',
@@ -277,6 +285,8 @@ write('flashcards/old-english/strong-adjective-agreement.html',
             'noun':      ['man','woman','animal'] ,
             'number':     numbers,
             'gender':     genders,
+            'role':        roles,
+            'motion':      motions,
             'strength':   'strong',
             'animacy':    'animate',
             'noun-form':  'common',
@@ -319,6 +329,8 @@ write('flashcards/old-english/weak-adjective-agreement.html',
             'noun':      ['man','woman','animal'] ,
             'number':     numbers,
             'gender':     genders,
+            'role':        roles,
+            'motion':      motions,
             'strength':   'weak',
             'animacy':    'animate',
             'noun-form':  'common',
@@ -371,6 +383,8 @@ write('flashcards/old-english/pronoun-possessives.html',
             'noun':      ['son','daughter','livestock'],
             'number':     numbers,
             'gender':     genders,
+            'role':        roles,
+            'motion':      motions,
             'animacy':    'thing',
             'noun-form':  'common',
             'verb-form':  'finite',
