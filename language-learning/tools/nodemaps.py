@@ -67,10 +67,12 @@ class ListGrammar:
     def __init__(self, 
             conjugation_lookups, 
             declension_lookups, 
+            omit_code = '—',
             debug=False):
         self.conjugation_lookups = conjugation_lookups
         self.declension_lookups = declension_lookups
         self.debug = debug
+        self.omit_code = omit_code
         def format_alternates(text, tags):
             split = re.split(' *[|/,] *', text)
             show_alternates = 'show-alternates' in tags and tags['show-alternates']
@@ -78,7 +80,7 @@ class ListGrammar:
         self.format_alternates = format_alternates
     def decline(self, treemap, content, tags):
         if 'case' not in tags:
-            return '—'
+            return self.omit_code
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
         missing_value = '' if content[0] in {'det'} else None
@@ -96,7 +98,7 @@ class ListGrammar:
             else self.format_alternates(self.declension_lookups[sememe][sememe], tags)]
     def conjugate(self, treemap, content, tags):
         if any([tagaxis not in tags for tagaxis in 'aspect mood'.split()]):
-            return '—'
+            return self.omit_code
         sememe = {
             **tags, 
             'verb':content[1],

@@ -7,7 +7,6 @@
 	transitive	associated	audience	vocative		#			bæftan	behind
 	transitive	associated	patient	accusative		#			beġeondan	beyond
 	transitive	associated	theme	accusative		#			behindan	behind
-		associated	possessor	genitive		#			binnan	in, within
 		departed	location	dative	fram	#	from, by		benēoðan	beneath
 		associated	location	dative	æt	#	at		betwēonum	between
 		acquired	location	dative	tō	#	to		bufan	above
@@ -44,10 +43,10 @@
 #		associated	interest	dative		#				
 #		acquired	interest	dative		#				
 #		leveraged	interest	dative		#				
-#		departed	ownership	genitive		#				
-#		associated	ownership	genitive		#				
-#		acquired	ownership	genitive		#				
-#		leveraged	ownership	dative		#				
+#		departed	possessor	genitive		#				
+#		associated	possessor	genitive		#				
+#		acquired	possessor	genitive		#				
+#		leveraged	possessor	dative		#				
 		departed	time	dative	æfter	#	after			
 #		associated	time	dative		#				
 		acquired	time	dative	ǣr	#	before			

@@ -16,8 +16,8 @@ class DeclensionTemplateMatching:
         return templates[0] if len(templates) > 0 else None
 
 class DeckGeneration:
-    def __init__(self):
-        pass
+    def __init__(self, omit_codes = ['—','❕','❔']):
+        self.omit_codes = omit_codes
     def generate(self, 
             demonstrations,
             traversal, 
@@ -33,7 +33,7 @@ class DeckGeneration:
                 card = ' '.join([
                     str(demonstration(tags, tag_templates)) 
                     for demonstration in demonstrations])
-                if all([symbol not in card for symbol in '—❕❔']):
+                if all([symbol not in card for symbol in self.omit_codes]):
                     yield card
 
 class CardFormatting:
