@@ -63,3 +63,13 @@ class DictTupleIndexing:
                       else dictkey[key] if type(dictkey[key]) in {set,list} 
                       else [dictkey[key]]
                       for key in reversed(self.keys)])]
+    def count(self, dictkey):
+        '''
+        Returns the number of possible tuples that can be generated from `self.tuplekeys(dictkey)`.
+        '''
+        dictkey = {**self.defaults, **dictkey}
+        return math.prod([
+                    0 if key not in dictkey
+                    else len(dictkey[key]) if type(dictkey[key]) in {set,list}
+                    else 1
+                    for key in self.keys])

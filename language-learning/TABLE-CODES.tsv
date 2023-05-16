@@ -6,5 +6,5 @@ tabular form	rendered as	behavior
 """∅"""	""""""	this text represents a valid inflection that is indicated by the absence of text, any mention of this character will be replaced with an empty string
 """—"""	N/A	this text represents an inflection that does not exist, any card that includes this character will be omitted
 ❕	N/A	this text represents an inflection that is deliberately omitted for pragmatic reasons, any card that includes this character will be omitted
-❔	N/A	this text represents an inflection that is unattested, unreliable, or unknown to exist, any card that includes this character will be omitted
+❔	N/A	this text represents an inflection that is unattested, unreliably questionable, or unknown to exist, any card that includes this character will be omitted
 """"""	"""None"""	this text displays when an inflection is unintentionally omitted since it allows us to easily spot when something is unintentionally omitted
