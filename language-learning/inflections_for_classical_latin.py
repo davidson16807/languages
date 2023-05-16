@@ -295,21 +295,30 @@ write('flashcards/latin/adpositions.html',
         {
             **case_episemaxis_to_episemes,
             **tag_defaults,
-            'role': [
-                # 'solitary', # the subject of an intransitive verb
-                # 'agent',    # the subject of a transitive verb
-                # 'patient',  # the direct object of an active verb
-                # 'theme',    # the direct object of a stative verb
-                # 'possessor', 
-                'location', 'extent', 'vicinity', 'interior', 'surface', 
-                'presence', 'aid', 'lack', 
-                #'interest', 
-                'purpose', 'possession', 
-                'time', 'state of being', 'topic', 'company', 'resemblance'],
             'animacy':    'thing',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
+        blacklists = [
+            DictLookup(
+                'role filter', 
+                DictKeyIndexing('role'),
+                content = {
+                    'solitary', 'agent', 'force', 
+                    'patient', 'theme', 
+                    'experiencer', 'stimulus', 
+                    'predicate', 'predicand',
+                    'audience', 
+                    'possessor', 'interest', 'state of being'}),
+        ],
+        blacklists = [
+            DictLookup(
+                'role motion filter', 
+                DictTupleIndexing(['role', 'motion']),
+                content = {
+                    ('possessor', 'associated'),
+                })
+            ],
         tag_templates ={
             'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
             'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular'},

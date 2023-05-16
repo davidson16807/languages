@@ -1,12 +1,14 @@
 *	*	*	*	case	preposition	postposition	#	
 #	valency	motion	role		greek		#	latin
 			solitary	nominative	∅	∅	#	
-	transitive		predicate	accusative	∅	∅	#	
-	transitive		predicand	nominative	∅	∅	#	
 	transitive		agent	nominative	∅	∅	#	
 	transitive		force	nominative	∅	∅	#	
 	transitive		patient	accusative	∅	∅	#	
 	transitive		theme	accusative	∅	∅	#	
+	transitive		experiencer	nominative	∅	∅	#	
+	transitive		stimulus	accusative	∅	∅	#	
+	transitive		predicate	accusative	∅	∅	#	
+	transitive		predicand	nominative	∅	∅	#	
 	transitive		audience	vocative	∅	∅	#	
 #		departed	possessor	dative	∅	∅	#	
 		associated	possessor	genitive	∅	∅	#	

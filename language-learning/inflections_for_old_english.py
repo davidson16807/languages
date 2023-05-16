@@ -1,5 +1,5 @@
 from tools.lookup import DictLookup
-from tools.indexing import DictTupleIndexing
+from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.cards import DeckGeneration
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -243,21 +243,24 @@ write('flashcards/old-english/adpositions.html',
         {
             **case_episemaxis_to_episemes,
             **tag_defaults,
-            'role': [
-                # 'solitary', # the subject of an intransitive verb
-                # 'agent',    # the subject of a transitive verb
-                # 'patient',  # the direct object of an active verb
-                # 'theme',    # the direct object of a stative verb
-                # 'possessor', 
-                'location', 'extent', 'vicinity', 'interior', 'surface', 
-                'presence', 'aid', 'lack', 
-                #'interest', 
-                'purpose', 'possession', 
-                'time', 'state of being', 'topic', 'company', 'resemblance'],
             'animacy':    'sapient',
             'noun-form':  'common',
             'verb-form':  'finite',
         },
+        blacklists = [
+            DictLookup(
+                'role filter', 
+                DictKeyIndexing('role'),
+                content = {'solitary', 'agent', 'patient', 'theme', 'possessor', 'interest', 'state of being'}),
+        ],
+        blacklists = [
+            DictLookup(
+                'role motion filter', 
+                DictTupleIndexing(['role', 'motion']),
+                content = {
+                    ('possessor', 'associated'),
+                })
+            ],
         tag_templates ={
             'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
             'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular'},

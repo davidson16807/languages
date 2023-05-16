@@ -1,12 +1,15 @@
 *	*	*	*	case	preposition	postposition					
 #	valency	motion	attribute				#				other prepositions to consider:
 			solitary	nominative	∅	∅	#				
+	transitive		agent	nominative	∅	∅	#				
+	transitive		force	nominative	∅	∅	#				
+	transitive		patient	accusative	∅	∅	#				beyond
+	transitive		theme	accusative	∅	∅	#				
+	transitive		experiencer	nominative	∅	∅	#				
+	transitive		stimulus	accusative	∅	∅	#				
 	transitive		predicate	accusative	∅	∅	#				
 	transitive		predicand	"nominative	"	∅	∅	#				
-	transitive	associated	agent	nominative	∅	∅	#				
-	transitive	associated	audience	vocative	∅	∅	#			bæftan	behind
-	transitive	associated	patient	accusative	∅	∅	#			beġeondan	beyond
-	transitive	associated	theme	accusative	∅	∅	#			behindan	behind
+	transitive		audience	vocative	∅	∅	#				behind
 		associated	possessor	genitive	∅	∅	#				
 #		acquired	possessor	genitive	∅	∅	#				
 #		leveraged	possessor	dative	∅	∅	#				
@@ -34,7 +37,7 @@
 #		departed	presence	dative		∅	#			wiþinnan	within
 		associated	presence	dative	beforan	∅	#	before		wiþūtan	outside of
 #		acquired	presence	dative		∅	#			ymb	around
-#		leveraged	presence	dative		∅	#				
+#		leveraged	presence	dative		∅	#	beyond		beġeondan	
 #		departed	aid	dative		∅	#				
 		associated	aid	dative	mid	∅	#	with			
 #		acquired	aid	dative		∅	#				
