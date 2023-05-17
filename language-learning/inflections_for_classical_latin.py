@@ -1,5 +1,5 @@
 from tools.lookup import DictLookup
-from tools.indexing import DictTupleIndexing
+from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.cards import DeckGeneration
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -209,7 +209,6 @@ write('flashcards/latin/common-noun-declension.html',
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender',]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
             'noun':        nouns,
             'number':      numbers,
@@ -239,7 +238,6 @@ write('flashcards/latin/pronoun-declension.html',
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
             'noun':      ['man','woman','snake'],
             'person':    ['1','2','3'],
@@ -293,8 +291,9 @@ write('flashcards/latin/adpositions.html',
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', ]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
+            'motion':      case_episemaxis_to_episemes['motion'],
+            'role':        case_episemaxis_to_episemes['role'],
             'animacy':    'thing',
             'noun-form':  'common',
             'verb-form':  'finite',
@@ -303,22 +302,8 @@ write('flashcards/latin/adpositions.html',
             DictLookup(
                 'role filter', 
                 DictKeyIndexing('role'),
-                content = {
-                    'solitary', 'agent', 'force', 
-                    'patient', 'theme', 
-                    'experiencer', 'stimulus', 
-                    'predicate', 'predicand',
-                    'audience', 
-                    'possessor', 'interest', 'state of being'}),
+                content = set('solitary agent force patient theme experiencer stimulus predicate predicand audience possessor'.split())),
         ],
-        blacklists = [
-            DictLookup(
-                'role motion filter', 
-                DictTupleIndexing(['role', 'motion']),
-                content = {
-                    ('possessor', 'associated'),
-                })
-            ],
         tag_templates ={
             'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
             'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular'},
@@ -340,7 +325,6 @@ write('flashcards/latin/adjective-agreement.html',
             # categories that are iterated over
             'motion', 'role', 'number', 'noun', 'gender', 'adjective',]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
             'noun':      ['man','woman','animal'] ,
             'adjective':   adjectives,
@@ -388,7 +372,6 @@ write('flashcards/latin/pronoun-possessives.html',
             'possessor-clusivity', 'possessor-formality', 
             'possessor-person', 'possessor-number',]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
             'possessor-noun':   ['man','woman','snake'],
             'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
@@ -542,8 +525,8 @@ write('flashcards/latin/participle-declension.html',
             'tense', 'voice', 'progress', 'mood', 
             'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
+            'motion':      case_episemaxis_to_episemes['motion'],
             'role':        'agent',
             'valency':     'transitive',
             'verb':        verbs,

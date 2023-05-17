@@ -1,5 +1,5 @@
 from tools.lookup import DictLookup
-from tools.indexing import DictTupleIndexing
+from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.cards import DeckGeneration
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -169,8 +169,6 @@ write('flashcards/proto-indo-european/common-noun-declension.html',
             'motion', 'role', 'number', 'noun', 'gender']),
         {
             **tag_defaults,
-            'motion':      case_episemaxis_to_episemes['motion'],
-            'role':        case_episemaxis_to_episemes['role'],
             'noun':        nouns,
             'number':      numbers,
             'role':        roles,
@@ -200,8 +198,6 @@ write('flashcards/proto-indo-european/pronoun-declension.html',
             'noun', 'gender', 'person', 'number', 'motion', 'role']),
         {
             **tag_defaults,
-            'motion':      case_episemaxis_to_episemes['motion'],
-            'role':        case_episemaxis_to_episemes['role'],
             'noun':      ['man','woman','snake'],
             'gender':      genders,
             'number':      numbers,
@@ -256,6 +252,7 @@ write('flashcards/proto-indo-european/adpositions.html',
         {
             **tag_defaults,
             'motion':      case_episemaxis_to_episemes['motion'],
+            'role':        case_episemaxis_to_episemes['role'],
             'animacy':    'thing',
             'noun-form':  'common',
             'verb-form':  'finite',
@@ -264,16 +261,8 @@ write('flashcards/proto-indo-european/adpositions.html',
             DictLookup(
                 'role filter', 
                 DictKeyIndexing('role'),
-                content = {'solitary', 'agent', 'patient', 'theme', 'possessor', 'interest', 'state of being'}),
+                content = set('solitary agent force patient theme experiencer stimulus predicate predicand audience possessor'.split())),
         ],
-        blacklists = [
-            DictLookup(
-                'role motion filter', 
-                DictTupleIndexing(['role', 'motion']),
-                content = {
-                    ('possessor', 'associated'),
-                })
-            ],
         tag_templates ={
             'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
             'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular'},
@@ -296,8 +285,6 @@ write('flashcards/proto-indo-european/adjective-agreement.html',
             'motion', 'role', 'number', 'noun', 'gender', 'adjective']),
         {
             **tag_defaults,
-            'motion':      case_episemaxis_to_episemes['motion'],
-            'role':        case_episemaxis_to_episemes['role'],
             'adjective':  adjectives,
             'noun':      ['man','woman','animal'] ,
             'number':     numbers,
@@ -345,8 +332,6 @@ write('flashcards/proto-indo-european/pronoun-possessives.html',
             'possessor-person', 'possessor-number',]),
         {
             **tag_defaults,
-            'motion':      case_episemaxis_to_episemes['motion'],
-            'role':        case_episemaxis_to_episemes['role'],
             'possessor-noun':   ['man','woman','snake'],
             'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
             'possessor-number': ['singular-possessor','plural-possessor'],

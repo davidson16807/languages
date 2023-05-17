@@ -7,8 +7,8 @@ be	physical	be	thing	# able to be-physically accessed
 					
 be	abstract	be	nonphysical		
 be	nonphysical	be	nonliving		
-be	nonliving	be	inmotile		
-be	inmotile	be	nonsapient		
+be	nonliving	be	nonmotile		
+be	nonmotile	be	nonsapient		
 be	nonsapient	be	nonhuman		
 					
 be	human	be	sapient		
@@ -16,7 +16,7 @@ be	humanoid	be	nonhuman
 be	humanoid	be	sapient		
 be	creature	be	nonsapient		
 be	creature	be	motile		
-be	sessile	be	inmotile		
+be	sessile	be	nonmotile		
 be	sessile	be	living		
 be	manifestation	be	nonliving		
 be	manifestation	be	physical		

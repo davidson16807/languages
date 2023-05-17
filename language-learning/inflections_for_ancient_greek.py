@@ -1,5 +1,5 @@
 from tools.lookup import DictLookup
-from tools.indexing import DictTupleIndexing
+from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.cards import DeckGeneration
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -198,7 +198,6 @@ write('flashcards/ancient-greek/common-noun-declension.html',
         DictTupleIndexing([
             'motion', 'role', 'number', 'noun', 'gender', ]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
             'noun':        nouns,
             'number':      numbers,
@@ -258,7 +257,6 @@ write('flashcards/ancient-greek/pronoun-declension.html',
         DictTupleIndexing([
             'noun', 'gender', 'person', 'number', 'motion', 'role',]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
             'noun':      ['man','woman','snake'],
             'gender':      genders,
@@ -311,8 +309,9 @@ write('flashcards/ancient-greek/adpositions.html',
         DictTupleIndexing([
             'motion', 'role', 'number', 'noun', 'gender', ]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
+            'motion':      case_episemaxis_to_episemes['motion'],
+            'role':        case_episemaxis_to_episemes['role'],
             'animacy':    'thing',
             'noun-form':  'common',
             'verb-form':  'finite',
@@ -321,16 +320,8 @@ write('flashcards/ancient-greek/adpositions.html',
             DictLookup(
                 'role filter', 
                 DictKeyIndexing('role'),
-                content = {'solitary', 'agent', 'patient', 'theme', 'possessor', 'interest', 'state of being'}),
+                content = set('solitary agent force patient theme experiencer stimulus predicate predicand audience possessor'.split())),
         ],
-        blacklists = [
-            DictLookup(
-                'role motion filter', 
-                DictTupleIndexing(['role', 'motion']),
-                content = {
-                    ('possessor', 'associated'),
-                })
-            ],
         tag_templates ={
             'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
             'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular'},
@@ -356,7 +347,6 @@ write('flashcards/ancient-greek/pronoun-possessives.html',
             'possessor-clusivity', 'possessor-formality', 
             'possessor-person', 'possessor-number',]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
             'possessor-noun':   ['man','woman','snake'],
             'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
@@ -427,8 +417,8 @@ write('flashcards/ancient-greek/participle-declension.html',
             'tense', 'voice', 'progress', 'mood', 
             'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
         {
-            **case_episemaxis_to_episemes,
             **tag_defaults,
+            'motion':      case_episemaxis_to_episemes['motion'],
             'role':        'agent',
             'verb':         verbs,
             'valency':     'transitive',
