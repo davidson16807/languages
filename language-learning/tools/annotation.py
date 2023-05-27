@@ -20,7 +20,9 @@ class RowAnnotation:
     def annotate(self, rows):
         annotations = []
         for row in rows:
-            dict_row = dict(zip(self.header_column_names, row))
+            dict_row = {key:value 
+                for (key,value) in zip(self.header_column_names, row)
+                if value}
             annotations.append((dict_row, dict_row))
         return annotations
 

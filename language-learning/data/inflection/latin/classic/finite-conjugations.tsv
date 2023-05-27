@@ -12,16 +12,16 @@ be	subjunctive	active	present	perfective	fuerim	fuerīs	fuerit	fuerīmus	fuerīt
 be	subjunctive	active	past	perfective	fuissem	fuissēs	fuisset	fuissēmus	fuissētis	fuissent	#	irregular						
 be	imperative	active	present		—	es	—	—	este	—	#	irregular						
 be	imperative	active	future		—	estō	estō	—	estōte	suntō	#	irregular						
-be able	indicative	active	present	aorist	possum	potes	potest	possumus	potestis	possunt	#	irregular						
-be able	indicative	active	past	imperfective	poteram	poterās	poterat	poterāmus	poterātis	poterant	#	irregular						
-be able	indicative	active	future	aorist	poterō	poteris, potere	poterit	poterimus	poteritis	poterunt	#	irregular						
-be able	indicative	active	present	perfective	potuī	potuistī	potuit	potuimus	potuistis	potuērunt, potuēre	#	irregular						
-be able	indicative	active	past	perfective	potueram	potuerās	potuerat	potuerāmus	potuerātis	potuerant	#	irregular						
-be able	indicative	active	future	perfective	potuerō	potueris	potuerit	potuerimus	potueritis	potuerint	#	irregular						
-be able	subjunctive	active	present	aorist	possim	possīs	possit	possīmus	possītis	possint	#	irregular						
-be able	subjunctive	active	past	imperfective	possem	possēs	posset	possēmus	possētis	possent	#	irregular						
-be able	subjunctive	active	present	perfective	potuerim	potuerīs	potuerit	potuerīmus	potuerītis	potuerint	#	irregular						
-be able	subjunctive	active	past	perfective	potuissem	potuissēs	potuisset	potuissēmus	potuissētis	potuissent	#	irregular						
+be-able	indicative	active	present	aorist	possum	potes	potest	possumus	potestis	possunt	#	irregular						
+be-able	indicative	active	past	imperfective	poteram	poterās	poterat	poterāmus	poterātis	poterant	#	irregular						
+be-able	indicative	active	future	aorist	poterō	poteris, potere	poterit	poterimus	poteritis	poterunt	#	irregular						
+be-able	indicative	active	present	perfective	potuī	potuistī	potuit	potuimus	potuistis	potuērunt, potuēre	#	irregular						
+be-able	indicative	active	past	perfective	potueram	potuerās	potuerat	potuerāmus	potuerātis	potuerant	#	irregular						
+be-able	indicative	active	future	perfective	potuerō	potueris	potuerit	potuerimus	potueritis	potuerint	#	irregular						
+be-able	subjunctive	active	present	aorist	possim	possīs	possit	possīmus	possītis	possint	#	irregular						
+be-able	subjunctive	active	past	imperfective	possem	possēs	posset	possēmus	possētis	possent	#	irregular						
+be-able	subjunctive	active	present	perfective	potuerim	potuerīs	potuerit	potuerīmus	potuerītis	potuerint	#	irregular						
+be-able	subjunctive	active	past	perfective	potuissem	potuissēs	potuisset	potuissēmus	potuissētis	potuissent	#	irregular						
 want	indicative	active 	present	aorist	volō 	volās 	volat 	volāmus 	volātis 	volant	#	irregular						
 want	indicative	active 	past	imperfective	volābam 	volābās 	volābat 	volābāmus 	volābātis 	volābant	#	irregular						
 want	indicative	active 	future	aorist	volābō 	volābis 	volābit 	volābimus 	volābitis 	volābunt	#	irregular						

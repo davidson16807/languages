@@ -76,9 +76,9 @@ case_episemaxis_to_episemes = {
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'motion': 'departed associated acquired approached surpassed leveraged'.split(),
+    'subjectivity': 'subject direct-object indirect-object modifier'.split(),
+    'motion':  'departed associated acquired approached surpassed leveraged'.split(),
     'valency': 'impersonal intransitive transitive'.split(),
-    # 'subjectivity': 'subject direct-object indirect-object'.split(),
 }
 
 mood_episemaxis_to_episemes = {
@@ -489,7 +489,7 @@ declension_template_noun_annotation = CellAnnotation(
 mood_annotation = CellAnnotation(
     {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
 declension_verb_annotation = CellAnnotation(
-    tag_to_tagaxis, {0:'language'}, {0:'verb'}, 
+    tag_to_tagaxis, {0:'language'}, {1:'verb'}, 
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 
 cell_evaluation = CellEvaluation()
@@ -573,13 +573,17 @@ for (f,x),(g,y) in level0_subset_relations:
     #     for h in level1_subset_relations[f]:
     #         allthat[h,y](allthat[h,x])
 
-declension_template_annotation = RowAnnotation([
-    'flag','valency','motion', 'role', 'specificity', 'syntax-tree', 
-    'adposition', 'declined-noun-function', 'declined-noun-argument',
-    'emoji'])
+declension_template_annotation = RowAnnotation(
+    '''flag valency subjectivity motion role specificity syntax-tree 
+    declined-noun-function declined-noun-argument emoji'''.split())
 declension_template_population = ListLookupPopulation(
     DefaultDictLookup('declension-template',
-        DictTupleIndexing('valency motion role'.split()), lambda key:[]),
+        DictTupleIndexing(
+            'valency subjectivity motion role'.split(),
+            case_episemaxis_to_episemes,
+        ), 
+        lambda key:[]
+    ),
     cell_evaluation)
 declension_templates = \
     declension_template_population.index(
@@ -591,7 +595,7 @@ case_usage_annotation = CellAnnotation(dict_bundle_to_map(case_episemaxis_to_epi
 case_usage_population = NestedLookupPopulation(
     DefaultDictLookup('case-usage', 
         DictTupleIndexing(
-            'valency motion role'.split(),
+            'valency subjectivity motion role'.split(),
             case_episemaxis_to_episemes,
         ),
         lambda dictkey: DictLookup('grammatical-case-columns',
@@ -973,6 +977,7 @@ emoji_casts = {
 
 tag_defaults = {
     'valency':      'transitive',
+    'subjectivity': 'direct-object',
     
     'clitic':       'tonic',
     'clusivity':    'exclusive',

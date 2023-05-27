@@ -5,8 +5,6 @@ class DeclensionTemplateMatching:
         self.templates = templates
         self.predicates = predicates
     def match(self, noun, tags):
-        def subject(template):
-            return self.predicates[template['subject-function'], template['subject-argument']]
         def declined_noun(template):
             return self.predicates[template['declined-noun-function'], template['declined-noun-argument']]
         candidates = self.templates[tags] if tags in self.templates else []

@@ -56,27 +56,30 @@ can	be-carried	has-trait	mass
 can	be-heard	has-trait	sound
 can	be-heard	can	be-perceived
 			
-can	buzz	can	be-heard
-can	croak	can	be-heard
-can	ribbit	can	be-heard
-can	hiss	can	be-heard
-can	rattle	can	be-heard
-can	cluck	can	be-heard
-can	crow	can	be-heard
-can	quack	can	be-heard
-can	gobble	can	be-heard
-can	chirp	can	be-heard
-can	screech	can	be-heard
-can	roar	can	be-heard
-can	bark	can	be-heard
-can	growl	can	be-heard
-can	meow	can	be-heard
-can	oink	can	be-heard
-can	moo	can	be-heard
-can	neigh	can	be-heard
-can	sing	can	be-heard
-can	scream	can	be-heard
-can	speak	can	be-heard
+can	buzz	can	cry-out
+can	croak	can	cry-out
+can	ribbit	can	cry-out
+can	hiss	can	cry-out
+can	rattle	can	cry-out
+can	cluck	can	cry-out
+can	crow	can	cry-out
+can	quack	can	cry-out
+can	gobble	can	cry-out
+can	chirp	can	cry-out
+can	screech	can	cry-out
+can	roar	can	cry-out
+can	bark	can	cry-out
+can	growl	can	cry-out
+can	meow	can	cry-out
+can	oink	can	cry-out
+can	moo	can	cry-out
+can	neigh	can	cry-out
+can	sing	can	cry-out
+can	scream	can	cry-out
+can	speak	can	cry-out
+			
+can	sound	can	be-heard
+can	cry-out	can	be-heard
 			
 can	eat-grass	can	eat
 can	eat-seeds	can	eat
@@ -93,3 +96,6 @@ can	eat-fish	can	eat
 can	eat-snakes	can	eat
 can	eat-small-game-animal	can	eat
 can	eat-big-game-animal	can	eat
+			
+can	drink-nectar	can	drink
+can	drink-blood	can	drink

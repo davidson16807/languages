@@ -161,7 +161,7 @@ def EmojiDemonstration(
                 noun = test_tags['noun'] if 'noun' in test_tags else None
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
                 match = declension_template_matching.match(predicate, test_tags)
-                template = match['emoji'] if match else '🚫'
+                template = match['emoji'] if 'emoji' in (match or {}) else '🚫'
                 tags = {
                         **test_tags, 
                         **tag_templates['test'], 

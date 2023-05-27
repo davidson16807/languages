@@ -288,7 +288,7 @@ class EmojiModifierShorthand:
     '''
     def __init__(self):
         self.equivalences = [
-            ('\\16',u'\U0000FE0F'), # variation selector 16
+            ('\\x',u'\U0000FE0F'), # variation selector 16
             ('\\1',u'\U0001F3FB'), # light
             ('\\2',u'\U0001F3FC'),
             ('\\3',u'\U0001F3FD'), # medium

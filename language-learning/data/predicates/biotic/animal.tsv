@@ -535,7 +535,7 @@ be	rabbit	be	placental
 be	elephant	can	affiliate-with-savanna					
 be	elephant	can	eat-grass					
 be	elephant	be	placental					
-be	elephant	be	be-heard					
+be	elephant	can	cry-out					
 be	dolphin	can	affiliate-with-salt-water					
 be	dolphin	can	swim					
 be	dolphin	can	eat-fish					
@@ -694,7 +694,7 @@ be	horse	be	draft-animal
 be	horse	can	neigh					
 be	donkey	be	equine					
 be	donkey	be	draft-animal					
-be	donkey	can	be-heard					
+be	donkey	can	cry-out					
 be	mule	be	equine					
 be	mule	be	draft-animal					
 be	zebra	be	equine					

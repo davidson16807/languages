@@ -58,6 +58,10 @@ class Language:
             'common':      {'noun-form': 'common'},
             'personal':    {'noun-form': 'personal'},
             'theme':       {'role':'theme'},
+            'subject':     {'subjectivity':'subject'},
+            'direct-object':  {'subjectivity':'direct-object'},
+            'indirect-object':{'subjectivity':'indirect-object'},
+            'modifier':       {'subjectivity':'modifier'},
             'common-possessive':   {'noun-form': 'common-possessive'},
             'personal-possessive': {'noun-form': 'personal-possessive'},
             **semes

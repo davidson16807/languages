@@ -35,7 +35,7 @@ be	precipitation	can	be-seen
 be	soft-precipitation	be	precipitation					
 								
 be	hard-precipitation	be	precipitation					
-be	hard-precipitation	can	be-heard					
+be	hard-precipitation	can	sound					
 be	hard-precipitation	has-trait	volume					
 								
 be	rain	be	hard-precipitation					
@@ -45,21 +45,21 @@ be	snow	be	soft-precipitation
 be	wind	be	weather					
 be	wind	be	energy					
 be	wind	can	blow					
-be	wind	can	be-heard					
+be	wind	can	sound					
 be	wind	has-trait	volume					
 be	lightning	be	weather					
 be	lightning	be	energy					
 be	lightning	can	be-seen					
 be	lightning	has-trait	brightness					
 be	thunder	be	weather					
-be	thunder	be	be-heard					
+be	wind	can	sound					
 be	thunder	has-trait	volume					
 								
 be	visible-phenomenon	be	phenomenon					
 be	visible-phenomenon	can	be-seen					
 								
 be	audible-phenomenon	be	phenomenon					
-be	audible-phenomenon	can	be-heard					
+be	audible-phenomenon	can	sound					
 								
 				# visible phenomenon				
 be	shadow	be	visible-phenomenon					

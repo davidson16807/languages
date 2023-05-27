@@ -1,282 +1,317 @@
-*	*	*	*	indicative	indicative	imperative   	subjunctive     	optative        	
-*	*	*	*	present	past				
-be	active	1     	singular 	h₁ésmi            	h₁ésm̥         	—	h₁ésoh₂         	h₁syéh₁m̥       	
-be	active	2     	singular 	h₁ési             	h₁és           	h₁és         	h₁ésesi         	h₁syéh₁s        	
-be	active	3     	singular 	h₁ésti            	h₁ést          	h₁éstu       	h₁éseti         	h₁syéh₁t        	
-be	active	1     	dual     	h₁swós            	h₁swé          	—	h₁ésowos        	h₁sih₁wé        	
-be	active	2     	dual     	h₁stés            	h₁stóm         	h₁stóm       	h₁ésetes        	h₁sih₁tóm       	
-be	active	3     	dual     	h₁stés            	h₁stā´m        	h₁stā´m      	h₁ésetes        	h₁sih₁tā´m      	
-be	active	1     	plural   	h₁smós            	h₁smé          	—	h₁ésomos        	h₁sih₁mé        	
-be	active	2     	plural   	h₁sté             	h₁sté          	h₁sté        	h₁ésete         	h₁sih₁té        	
-be	active	3     	plural   	h₁sénti           	h₁sént         	h₁séntu      	h₁ésonti        	h₁sih₁ént       	
-become	active	1     	singular 	bʰúHm̥            	bʰúHm̥         	—	bʰúHoh₂         	yéh₁m̥          	
-become	active	2     	singular 	bʰúHs             	bʰúHs          	bʰúH         	bʰúHesi         	yéh₁s           	
-become	active	3     	singular 	bʰúHt             	bʰúHt          	bʰúHtu       	bʰúHeti         	yéh₁t           	
-become	active	1     	dual     	wé                	wé             	—	bʰúHowos        	ih₁wé           	
-become	active	2     	dual     	tóm               	tóm            	tóm          	bʰúHetes        	ih₁tóm          	
-become	active	3     	dual     	tā´m              	tā´m           	tā´m         	bʰúHetes        	ih₁tā´m         	
-become	active	1     	plural   	mé                	mé             	—	bʰúHomos        	ih₁mé           	
-become	active	2     	plural   	té                	té             	té           	bʰúHete         	ih₁té           	
-become	active	3     	plural   	ént               	ént            	éntu         	bʰúHonti        	ih₁ént          	
-carry	active	1     	singular 	bʰéroh₂           	bʰérom         	—	bʰérōh₂         	bʰéroyh₁m̥      	
-carry	active	2     	singular 	bʰéresi           	bʰéres         	bʰére        	bʰérēsi         	bʰéroys         	
-carry	active	3     	singular 	bʰéreti           	bʰéret         	bʰéretu      	bʰérēti         	bʰéroyt         	
-carry	active	1     	dual     	bʰérowos          	bʰérowe        	—	bʰérōwos        	bʰéroywe        	
-carry	active	2     	dual     	bʰéretes          	bʰéretom       	bʰéretom     	bʰérētes        	bʰéroytom       	
-carry	active	3     	dual     	bʰéretes          	bʰéretām       	bʰéretām     	bʰérētes        	bʰéroytām       	
-carry	active	1     	plural   	bʰéromos          	bʰérome        	—	bʰérōmos        	bʰéroyme        	
-carry	active	2     	plural   	bʰérete           	bʰérete        	bʰérete      	bʰérēte         	bʰéroyte        	
-carry	active	3     	plural   	bʰéronti          	bʰéront        	bʰérontu     	bʰérōnti        	bʰéroyh₁n̥t     	
-carry	middle	1     	singular 	bʰéroh₂er         	bʰéroh₂e       	—	bʰérōh₂er       	bʰéroyh₂e       	
-carry	middle	2     	singular 	bʰéreth₂er        	bʰéreth₂e      	bʰéreso      	bʰérēth₂er      	bʰéroyth₂e      	
-carry	middle	3     	singular 	bʰéretor          	bʰéreto        	—	bʰérētor        	bʰéroyto        	
-carry	middle	1     	dual     	bʰérowosdʰh₂      	bʰérowedʰh₂    	—	bʰérōwosdʰh₂    	bʰéroywedʰh₂    	
-carry	middle	2     	dual     	—	—	—	—	—	
-carry	middle	3     	dual     	—	—	—	—	—	
-carry	middle	1     	plural   	bʰéromosdʰh₂      	bʰéromedʰh₂    	—	bʰérōmosdʰh₂    	bʰéroymedʰh₂    	
-carry	middle	2     	plural   	bʰéredʰh₂we       	bʰéredʰh₂we    	bʰéredʰh₂we  	bʰérēdʰh₂we     	bʰéroydʰh₂we    	
-carry	middle	3     	plural   	bʰéroror          	bʰéroro        	—	bʰérōror        	bʰéroyro        	
-leave	active	1     	singular 	linékʷmi          	linékʷm̥       	—	linékʷoh₂       	linkʷyéh₁m̥     	
-leave	active	2     	singular 	linékʷsi          	linékʷs        	linékʷ       	linékʷesi       	linkʷyéh₁s      	
-leave	active	3     	singular 	linékʷti          	linékʷt        	linékʷtu     	linékʷeti       	linkʷyéh₁t      	
-leave	active	1     	dual     	linkwós           	linkwé         	—	linékʷowos      	linkʷih₁wé      	
-leave	active	2     	dual     	linkʷtés          	linkʷtóm       	linkʷtóm     	linékʷetes      	linkʷih₁tóm     	
-leave	active	3     	dual     	linkʷtés          	linkʷtā´m      	linkʷtā´m    	linékʷetes      	linkʷih₁tā´m    	
-leave	active	1     	plural   	linkʷmós          	linkʷmé        	—	linékʷomos      	linkʷih₁mé      	
-leave	active	2     	plural   	linkʷté           	linkʷté        	linkʷté      	linékʷete       	linkʷih₁té      	
-leave	active	3     	plural   	linkʷénti         	linkʷént       	linkʷéntu    	linékʷonti      	linkʷih₁ént     	
-leave	middle	1     	singular 	linkʷh₂ér         	linkʷh₂é       	—	linékʷoh₂er     	linkʷih₁h₂é     	
-leave	middle	2     	singular 	linkʷth₂ér        	linkʷth₂é      	linkʷsó      	linékʷeth₂er    	linkʷih₁th₂é    	
-leave	middle	3     	singular 	linkʷtór          	linkʷtó        	—	linékʷetor      	linkʷih₁tó      	
-leave	middle	1     	dual     	linkwósdʰh₂       	linkwédʰh₂     	—	linékʷowosdʰh₂  	linkʷih₁wédʰh₂  	
-leave	middle	2     	dual     	—	—	—	—	—	
-leave	middle	3     	dual     	—	—	—	—	—	
-leave	middle	1     	plural   	linkʷmósdʰh₂      	linkʷmédʰh₂    	—	linékʷomosdʰh₂  	linkʷih₁médʰh₂  	
-leave	middle	2     	plural   	linkʷdʰh₂wé       	linkʷdʰh₂wé    	linkʷdʰh₂wé  	linékʷedʰh₂we   	linkʷih₁dʰh₂wé  	
-leave	middle	3     	plural   	linkʷrór          	linkʷró        	—	linékʷoror      	linkʷih₁ró      	
-work	active	1     	singular 	wr̥ǵyóh₂          	wr̥ǵyóm        	—	wr̥ǵyṓh₂        	wr̥ǵyóyh₁m̥     	
-work	active	2     	singular 	wr̥ǵyési          	wr̥ǵyés        	wr̥ǵyé       	wr̥ǵyḗsi        	wr̥ǵyóys        	
-work	active	3     	singular 	wr̥ǵyéti          	wr̥ǵyét        	wr̥ǵyétu     	wr̥ǵyḗti        	wr̥ǵyóyt        	
-work	active	1     	dual     	wr̥ǵyówos         	wr̥ǵyówe       	—	wr̥ǵyṓwos       	wr̥ǵyóywe       	
-work	active	2     	dual     	wr̥ǵyétes         	wr̥ǵyétom      	wr̥ǵyétom    	wr̥ǵyḗtes       	wr̥ǵyóytom      	
-work	active	3     	dual     	wr̥ǵyétes         	wr̥ǵyétām      	wr̥ǵyétām    	wr̥ǵyḗtes       	wr̥ǵyóytām      	
-work	active	1     	plural   	wr̥ǵyómos         	wr̥ǵyóme       	—	wr̥ǵyṓmos       	wr̥ǵyóyme       	
-work	active	2     	plural   	wr̥ǵyéte          	wr̥ǵyéte       	wr̥ǵyéte     	wr̥ǵyḗte        	wr̥ǵyóyte       	
-work	active	3     	plural   	wr̥ǵyónti         	wr̥ǵyónt       	wr̥ǵyóntu    	wr̥ǵyṓnti       	wr̥ǵyóyh₁n̥t    	
-work	middle	1     	singular 	wr̥ǵyóh₂er        	wr̥ǵyóh₂e      	—	wr̥ǵyṓh₂er      	wr̥ǵyóyh₂e      	
-work	middle	2     	singular 	wr̥ǵyéth₂er       	wr̥ǵyéth₂e     	wr̥ǵyéso     	wr̥ǵyḗth₂er     	wr̥ǵyóyth₂e     	
-work	middle	3     	singular 	wr̥ǵyétor         	wr̥ǵyéto       	—	wr̥ǵyḗtor       	wr̥ǵyóyto       	
-work	middle	1     	dual     	wr̥ǵyówosdʰh₂     	wr̥ǵyówedʰh₂   	—	wr̥ǵyṓwosdʰh₂   	wr̥ǵyóywedʰh₂   	
-work	middle	2     	dual     	—	—	—	—	—	
-work	middle	3     	dual     	—	—	—	—	—	
-work	middle	1     	plural   	wr̥ǵyómosdʰh₂     	wr̥ǵyómedʰh₂   	—	wr̥ǵyṓmosdʰh₂   	wr̥ǵyóymedʰh₂   	
-work	middle	2     	plural   	wr̥ǵyédʰh₂we      	wr̥ǵyédʰh₂we   	wr̥ǵyédʰh₂we 	wr̥ǵyḗdʰh₂we    	wr̥ǵyóydʰh₂we   	
-work	middle	3     	plural   	wr̥ǵyóror         	wr̥ǵyóro       	—	wr̥ǵyṓror       	wr̥ǵyóyro       	
-do	active	1     	singular 	dʰédʰeh₁mi        	dʰédʰeh₁m̥     	—	dʰédʰeh₁oh₂     	dʰédʰh₁yeh₁m̥   	
-do	active	2     	singular 	dʰédʰeh₁si        	dʰédʰeh₁s      	dʰédʰeh₁     	dʰédʰeh₁esi     	dʰédʰh₁yeh₁s    	
-do	active	3     	singular 	dʰédʰeh₁ti        	dʰédʰeh₁t      	dʰédʰeh₁tu   	dʰédʰeh₁eti     	dʰédʰh₁yeh₁t    	
-do	active	1     	dual     	dʰédʰh₁wos        	dʰédʰh₁we      	—	dʰédʰeh₁owos    	dʰédʰh₁ih₁we    	
-do	active	2     	dual     	dʰédʰh₁tes        	dʰédʰh₁tom     	dʰédʰh₁tom   	dʰédʰeh₁etes    	dʰédʰh₁ih₁tom   	
-do	active	3     	dual     	dʰédʰh₁tes        	dʰédʰh₁tām     	dʰédʰh₁tām   	dʰédʰeh₁etes    	dʰédʰh₁ih₁tām   	
-do	active	1     	plural   	dʰédʰh₁mos        	dʰédʰh₁me      	—	dʰédʰeh₁omos    	dʰédʰh₁ih₁me    	
-do	active	2     	plural   	dʰédʰh₁te         	dʰédʰh₁te      	dʰédʰh₁te    	dʰédʰeh₁ete     	dʰédʰh₁ih₁te    	
-do	active	3     	plural   	dʰédʰh₁n̥ti       	dʰédʰh₁n̥t     	dʰédʰh₁n̥tu  	dʰédʰeh₁onti    	dʰédʰh₁ih₁n̥t   	
-do	middle	1     	singular 	dʰédʰh₁h₂er       	dʰédʰh₁h₂e     	—	dʰédʰeh₁oh₂er   	dʰédʰh₁ih₁h₂e   	
-do	middle	2     	singular 	dʰédʰh₁th₂er      	dʰédʰh₁th₂e    	dʰédʰh₁so    	dʰédʰeh₁eth₂er  	dʰédʰh₁ih₁th₂e  	
-do	middle	3     	singular 	dʰédʰh₁tor        	dʰédʰh₁to      	—	dʰédʰeh₁etor    	dʰédʰh₁ih₁to    	
-do	middle	1     	dual     	dʰédʰh₁wosdʰh₂    	dʰédʰh₁wedʰh₂  	—	dʰédʰeh₁owosdʰh₂	dʰédʰh₁ih₁wedʰh₂	
-do	middle	2     	dual     	—	—	—	—	—	
-do	middle	3     	dual     	—	—	—	—	—	
-do	middle	1     	plural   	dʰédʰh₁mosdʰh₂    	dʰédʰh₁medʰh₂  	—	dʰédʰeh₁omosdʰh₂	dʰédʰh₁ih₁medʰh₂	
-do	middle	2     	plural   	dʰédʰh₁dʰh₂we     	dʰédʰh₁dʰh₂we  	dʰédʰh₁dʰh₂we	dʰédʰeh₁edʰh₂we 	dʰédʰh₁ih₁dʰh₂we	
-do	middle	3     	plural   	dʰédʰh₁ror        	dʰédʰh₁ro      	—	dʰédʰeh₁oror    	dʰédʰh₁ih₁ro    	
-ask	active	1     	singular 	pr̥sḱóh₂          	pr̥sḱóm        	—	pr̥sḱṓh₂        	pr̥sḱóyh₁m̥     	
-ask	active	2     	singular 	pr̥sḱési          	pr̥sḱés        	pr̥sḱé       	pr̥sḱḗsi        	pr̥sḱóys        	
-ask	active	3     	singular 	pr̥sḱéti          	pr̥sḱét        	pr̥sḱétu     	pr̥sḱḗti        	pr̥sḱóyt        	
-ask	active	1     	dual     	pr̥sḱówos         	pr̥sḱówe       	—	pr̥sḱṓwos       	pr̥sḱóywe       	
-ask	active	2     	dual     	pr̥sḱétes         	pr̥sḱétom      	pr̥sḱétom    	pr̥sḱḗtes       	pr̥sḱóytom      	
-ask	active	3     	dual     	pr̥sḱétes         	pr̥sḱétām      	pr̥sḱétām    	pr̥sḱḗtes       	pr̥sḱóytām      	
-ask	active	1     	plural   	pr̥sḱómos         	pr̥sḱóme       	—	pr̥sḱṓmos       	pr̥sḱóyme       	
-ask	active	2     	plural   	pr̥sḱéte          	pr̥sḱéte       	pr̥sḱéte     	pr̥sḱḗte        	pr̥sḱóyte       	
-ask	active	3     	plural   	pr̥sḱónti         	pr̥sḱónt       	pr̥sḱóntu    	pr̥sḱṓnti       	pr̥sḱóyh₁n̥t    	
-ask	middle	1     	singular 	pr̥sḱóh₂er        	pr̥sḱóh₂e      	—	pr̥sḱṓh₂er      	pr̥sḱóyh₂e      	
-ask	middle	2     	singular 	pr̥sḱéth₂er       	pr̥sḱéth₂e     	pr̥sḱéso     	pr̥sḱḗth₂er     	pr̥sḱóyth₂e     	
-ask	middle	3     	singular 	pr̥sḱétor         	pr̥sḱéto       	—	pr̥sḱḗtor       	pr̥sḱóyto       	
-ask	middle	1     	dual     	pr̥sḱówosdʰh₂     	pr̥sḱówedʰh₂   	—	pr̥sḱṓwosdʰh₂   	pr̥sḱóywedʰh₂   	
-ask	middle	2     	dual     	—	—	—	—	—	
-ask	middle	3     	dual     	—	—	—	—	—	
-ask	middle	1     	plural   	pr̥sḱómosdʰh₂     	pr̥sḱómedʰh₂   	—	pr̥sḱṓmosdʰh₂   	pr̥sḱóymedʰh₂   	
-ask	middle	2     	plural   	pr̥sḱédʰh₂we      	pr̥sḱédʰh₂we   	pr̥sḱédʰh₂we 	pr̥sḱḗdʰh₂we    	pr̥sḱóydʰh₂we   	
-ask	middle	3     	plural   	pr̥sḱóror         	pr̥sḱóro       	—	pr̥sḱṓror       	pr̥sḱóyro       	
-stretch	active	1     	singular 	tn̥néwmi          	tn̥nḗm         	—	tn̥néwoh₂       	tn̥nuyéh₁m̥     	
-stretch	active	2     	singular 	tn̥néwsi          	tn̥néws        	tn̥néw       	tn̥néwesi       	tn̥nuyéh₁s      	
-stretch	active	3     	singular 	tn̥néwti          	tn̥néwt        	tn̥néwtu     	tn̥néweti       	tn̥nuyéh₁t      	
-stretch	active	1     	dual     	tn̥nuwós          	tn̥nuwé        	—	tn̥néwowos      	tnn̥wih₁wé      	
-stretch	active	2     	dual     	tn̥nutés          	tn̥nutóm       	tn̥nutóm     	tn̥néwetes      	tnn̥wih₁tóm     	
-stretch	active	3     	dual     	tn̥nutés          	tn̥nutā´m      	tn̥nutā´m    	tn̥néwetes      	tnn̥wih₁tā´m    	
-stretch	active	1     	plural   	tn̥numós          	tn̥numé        	—	tn̥néwomos      	tnn̥wih₁mé      	
-stretch	active	2     	plural   	tn̥nuté           	tn̥nuté        	tn̥nuté      	tn̥néwete       	tnn̥wih₁té      	
-stretch	active	3     	plural   	tnn̥wénti         	tnn̥wént       	tnn̥wéntu    	tn̥néwonti      	tnn̥wih₁ént     	
-stretch	middle	1     	singular 	tn̥nuh₂ér         	tn̥nuh₂é       	—	tn̥néwoh₂er     	tnn̥wih₁h₂é     	
-stretch	middle	2     	singular 	tn̥nuth₂ér        	tn̥nuth₂é      	tn̥nusó      	tn̥néweth₂er    	tnn̥wih₁th₂é    	
-stretch	middle	3     	singular 	tn̥nutór          	tn̥nutó        	—	tn̥néwetor      	tnn̥wih₁tó      	
-stretch	middle	1     	dual     	tn̥nuwósdʰh₂      	tn̥nuwédʰh₂    	—	tn̥néwowosdʰh₂  	tnn̥wih₁wédʰh₂  	
-stretch	middle	2     	dual     	—	—	—	—	—	
-stretch	middle	3     	dual     	—	—	—	—	—	
-stretch	middle	1     	plural   	tn̥numósdʰh₂      	tn̥numédʰh₂    	—	tn̥néwomosdʰh₂  	tnn̥wih₁médʰh₂  	
-stretch	middle	2     	plural   	tn̥nudʰh₂wé       	tn̥nudʰh₂wé    	tn̥nudʰh₂wé  	tn̥néwedʰh₂we   	tnn̥wih₁dʰh₂wé  	
-stretch	middle	3     	plural   	tn̥nurór          	tn̥nuró        	—	tn̥néworor      	tnn̥wih₁ró      	
-know	active	1     	singular 	wóydh₂e           	wóydh₂e        	—	wéydoh₂         	widyéh₁m̥       	
-know	active	2     	singular 	wóydth₂e          	wóydth₂e       	wóyd         	wéydesi         	widyéh₁s        	
-know	active	3     	singular 	wóyde             	wóyde          	wóydtu       	wéydeti         	widyéh₁t        	
-know	active	1     	dual     	widwé             	widwé          	—	wéydowos        	widih₁wé        	
-know	active	2     	dual     	—	—	widtóm       	wéydetes        	widih₁tóm       	
-know	active	3     	dual     	—	—	widtā´m      	wéydetes        	widih₁tā´m      	
-know	active	1     	plural   	widmé             	widmé          	—	wéydomos        	widih₁mé        	
-know	active	2     	plural   	widé              	widé           	widté        	wéydete         	widih₁té        	
-know	active	3     	plural   	widḗr             	widḗr          	widéntu      	wéydonti        	widih₁ént       	
-sit	active	1     	singular 	sísdoh₂           	sísdom         	—	sísdōh₂         	sísdoyh₁m̥      	
-sit	active	2     	singular 	sísdesi           	sísdes         	sísde        	sísdēsi         	sísdoys         	
-sit	active	3     	singular 	sísdeti           	sísdet         	sísdetu      	sísdēti         	sísdoyt         	
-sit	active	1     	dual     	sísdowos          	sísdowe        	—	sísdōwos        	sísdoywe        	
-sit	active	2     	dual     	sísdetes          	sísdetom       	sísdetom     	sísdētes        	sísdoytom       	
-sit	active	3     	dual     	sísdetes          	sísdetām       	sísdetām     	sísdētes        	sísdoytām       	
-sit	active	1     	plural   	sísdomos          	sísdome        	—	sísdōmos        	sísdoyme        	
-sit	active	2     	plural   	sísdete           	sísdete        	sísdete      	sísdēte         	sísdoyte        	
-sit	active	3     	plural   	sísdonti          	sísdont        	sísdontu     	sísdōnti        	sísdoyh₁n̥t     	
-protect	active	1     	singular 	h₂léksoh₂         	h₂léksom       	—	h₂léksōh₂       	h₂léksoyh₁m̥    	
-protect	active	2     	singular 	h₂léksesi         	h₂lékses       	h₂lékse      	h₂léksēsi       	h₂léksoys       	
-protect	active	3     	singular 	h₂lékseti         	h₂lékset       	h₂léksetu    	h₂léksēti       	h₂léksoyt       	
-protect	active	1     	dual     	h₂léksowos        	h₂léksowe      	—	h₂léksōwos      	h₂léksoywe      	
-protect	active	2     	dual     	h₂léksetes        	h₂léksetom     	h₂léksetom   	h₂léksētes      	h₂léksoytom     	
-protect	active	3     	dual     	h₂léksetes        	h₂léksetām     	h₂léksetām   	h₂léksētes      	h₂léksoytām     	
-protect	active	1     	plural   	h₂léksomos        	h₂léksome      	—	h₂léksōmos      	h₂léksoyme      	
-protect	active	2     	plural   	h₂léksete         	h₂léksete      	h₂léksete    	h₂léksēte       	h₂léksoyte      	
-protect	active	3     	plural   	h₂léksonti        	h₂léksont      	h₂léksontu   	h₂léksōnti      	h₂léksoyh₁n̥t   	
-protect	middle	1     	singular 	h₂léksoh₂er       	h₂léksoh₂e     	—	h₂léksōh₂er     	h₂léksoyh₂e     	
-protect	middle	2     	singular 	h₂lékseth₂er      	h₂lékseth₂e    	h₂lékseso    	h₂léksēth₂er    	h₂léksoyth₂e    	
-protect	middle	3     	singular 	h₂léksetor        	h₂lékseto      	—	h₂léksētor      	h₂léksoyto      	
-protect	middle	1     	dual     	h₂léksowosdʰh₂    	h₂léksowedʰh₂  	—	h₂léksōwosdʰh₂  	h₂léksoywedʰh₂  	
-protect	middle	2     	dual     	—	—	—	—	—	
-protect	middle	3     	dual     	—	—	—	—	—	
-protect	middle	1     	plural   	h₂léksomosdʰh₂    	h₂léksomedʰh₂  	—	h₂léksōmosdʰh₂  	h₂léksoymedʰh₂  	
-protect	middle	2     	plural   	h₂léksedʰh₂we     	h₂léksedʰh₂we  	h₂léksedʰh₂we	h₂léksēdʰh₂we   	h₂léksoydʰh₂we  	
-protect	middle	3     	plural   	h₂léksoror        	h₂léksoro      	—	h₂léksōror      	h₂léksoyro      	
-be red	active	1     	singular 	h₁rudʰéh₁mi       	h₁rudʰéh₁m̥    	—	h₁rudʰéh₁oh₂    	h₁rudʰéh₁yeh₁m̥ 	
-be red	active	2     	singular 	h₁rudʰéh₁si       	h₁rudʰéh₁s     	h₁rudʰéh₁    	h₁rudʰéh₁esi    	h₁rudʰéh₁yeh₁s  	
-be red	active	3     	singular 	h₁rudʰéh₁ti       	h₁rudʰéh₁t     	h₁rudʰéh₁tu  	h₁rudʰéh₁eti    	h₁rudʰéh₁yeh₁t  	
-be red	active	1     	dual     	h₁rudʰéh₁wos      	h₁rudʰéh₁we    	—	h₁rudʰéh₁owos   	h₁rudʰéh₁ih₁we  	
-be red	active	2     	dual     	h₁rudʰéh₁tes      	h₁rudʰéh₁tom   	h₁rudʰéh₁tom 	h₁rudʰéh₁etes   	h₁rudʰéh₁ih₁tom 	
-be red	active	3     	dual     	h₁rudʰéh₁tes      	h₁rudʰéh₁tām   	h₁rudʰéh₁tām 	h₁rudʰéh₁etes   	h₁rudʰéh₁ih₁tām 	
-be red	active	1     	plural   	h₁rudʰéh₁mos      	h₁rudʰéh₁me    	—	h₁rudʰéh₁omos   	h₁rudʰéh₁ih₁me  	
-be red	active	2     	plural   	h₁rudʰéh₁te       	h₁rudʰéh₁te    	h₁rudʰéh₁te  	h₁rudʰéh₁ete    	h₁rudʰéh₁ih₁te  	
-be red	active	3     	plural   	h₁rudʰéh₁n̥ti     	h₁rudʰéh₁n̥t   	h₁rudʰéh₁n̥tu	h₁rudʰéh₁onti   	h₁rudʰéh₁ih₁n̥t 	
-set down	active	1     	singular 	sodéyoh₂          	sodéyom        	—	sodéyōh₂        	sodéyoyh₁m̥     	
-set down	active	2     	singular 	sodéyesi          	sodéyes        	sodéye       	sodéyēsi        	sodéyoys        	
-set down	active	3     	singular 	sodéyeti          	sodéyet        	sodéyetu     	sodéyēti        	sodéyoyt        	
-set down	active	1     	dual     	sodéyowos         	sodéyowe       	—	sodéyōwos       	sodéyoywe       	
-set down	active	2     	dual     	sodéyetes         	sodéyetom      	sodéyetom    	sodéyētes       	sodéyoytom      	
-set down	active	3     	dual     	sodéyetes         	sodéyetām      	sodéyetām    	sodéyētes       	sodéyoytām      	
-set down	active	1     	plural   	sodéyomos         	sodéyome       	—	sodéyōmos       	sodéyoyme       	
-set down	active	2     	plural   	sodéyete          	sodéyete       	sodéyete     	sodéyēte        	sodéyoyte       	
-set down	active	3     	plural   	sodéyonti         	sodéyont       	sodéyontu    	sodéyōnti       	sodéyoyh₁n̥t    	
-set down	middle	1     	singular 	sodéyoh₂er        	sodéyoh₂e      	—	sodéyōh₂er      	sodéyoyh₂e      	
-set down	middle	2     	singular 	sodéyeth₂er       	sodéyeth₂e     	sodéyeso     	sodéyēth₂er     	sodéyoyth₂e     	
-set down	middle	3     	singular 	sodéyetor         	sodéyeto       	—	sodéyētor       	sodéyoyto       	
-set down	middle	1     	dual     	sodéyowosdʰh₂     	sodéyowedʰh₂   	—	sodéyōwosdʰh₂   	sodéyoywedʰh₂   	
-set down	middle	2     	dual     	—	—	—	—	—	
-set down	middle	3     	dual     	—	—	—	—	—	
-set down	middle	1     	plural   	sodéyomosdʰh₂     	sodéyomedʰh₂   	—	sodéyōmosdʰh₂   	sodéyoymedʰh₂   	
-set down	middle	2     	plural   	sodéyedʰh₂we      	sodéyedʰh₂we   	sodéyedʰh₂we 	sodéyēdʰh₂we    	sodéyoydʰh₂we   	
-set down	middle	3     	plural   	sodéyoror         	sodéyoro       	—	sodéyōror       	sodéyoyro       	
-want to see	active	1     	singular 	wéydsoh₂          	wéydsom        	—	wéydsōh₂        	wéydsoyh₁m̥     	
-want to see	active	2     	singular 	wéydsesi          	wéydses        	wéydse       	wéydsēsi        	wéydsoys        	
-want to see	active	3     	singular 	wéydseti          	wéydset        	wéydsetu     	wéydsēti        	wéydsoyt        	
-want to see	active	1     	dual     	wéydsowos         	wéydsowe       	—	wéydsōwos       	wéydsoywe       	
-want to see	active	2     	dual     	wéydsetes         	wéydsetom      	wéydsetom    	wéydsētes       	wéydsoytom      	
-want to see	active	3     	dual     	wéydsetes         	wéydsetām      	wéydsetām    	wéydsētes       	wéydsoytām      	
-want to see	active	1     	plural   	wéydsomos         	wéydsome       	—	wéydsōmos       	wéydsoyme       	
-want to see	active	2     	plural   	wéydsete          	wéydsete       	wéydsete     	wéydsēte        	wéydsoyte       	
-want to see	active	3     	plural   	wéydsonti         	wéydsont       	wéydsontu    	wéydsōnti       	wéydsoyh₁n̥t    	
-want to see	middle	1     	singular 	wéydsoh₂er        	wéydsoh₂e      	—	wéydsōh₂er      	wéydsoyh₂e      	
-want to see	middle	2     	singular 	wéydseth₂er       	wéydseth₂e     	wéydseso     	wéydsēth₂er     	wéydsoyth₂e     	
-want to see	middle	3     	singular 	wéydsetor         	wéydseto       	—	wéydsētor       	wéydsoyto       	
-want to see	middle	1     	dual     	wéydsowosdʰh₂     	wéydsowedʰh₂   	—	wéydsōwosdʰh₂   	wéydsoywedʰh₂   	
-want to see	middle	2     	dual     	—	—	—	—	—	
-want to see	middle	3     	dual     	—	—	—	—	—	
-want to see	middle	1     	plural   	wéydsomosdʰh₂     	wéydsomedʰh₂   	—	wéydsōmosdʰh₂   	wéydsoymedʰh₂   	
-want to see	middle	2     	plural   	wéydsedʰh₂we      	wéydsedʰh₂we   	wéydsedʰh₂we 	wéydsēdʰh₂we    	wéydsoydʰh₂we   	
-want to see	middle	3     	plural   	wéydsoror         	wéydsoro       	—	wéydsōror       	wéydsoyro       	
-renew	active	1     	singular 	néweh₂mi          	néwām          	—	néweh₂oh₂       	néweh₂yeh₁m̥    	
-renew	active	2     	singular 	néweh₂si          	néweh₂s        	néweh₂       	néweh₂esi       	néweh₂yeh₁s     	
-renew	active	3     	singular 	néweh₂ti          	néweh₂t        	néweh₂tu     	néweh₂eti       	néweh₂yeh₁t     	
-renew	active	1     	dual     	néweh₂wos         	néweh₂we       	—	néweh₂owos      	néweh₂ih₁we     	
-renew	active	2     	dual     	néweh₂tes         	néweh₂tom      	néweh₂tom    	néweh₂etes      	néweh₂ih₁tom    	
-renew	active	3     	dual     	néweh₂tes         	néweh₂tām      	néweh₂tām    	néweh₂etes      	néweh₂ih₁tām    	
-renew	active	1     	plural   	néweh₂mos         	néweh₂me       	—	néweh₂omos      	néweh₂ih₁me     	
-renew	active	2     	plural   	néweh₂te          	néweh₂te       	néweh₂te     	néweh₂ete       	néweh₂ih₁te     	
-renew	active	3     	plural   	néweh₂n̥ti        	néweh₂n̥t      	néweh₂n̥tu   	néweh₂onti      	néweh₂ih₁n̥t    	
-renew	middle	1     	singular 	néweh₂h₂er        	néweh₂h₂e      	—	néweh₂oh₂er     	néweh₂ih₁h₂e    	
-renew	middle	2     	singular 	néweh₂th₂er       	néweh₂th₂e     	néweh₂so     	néweh₂eth₂er    	néweh₂ih₁th₂e   	
-renew	middle	3     	singular 	néweh₂tor         	néweh₂to       	—	néweh₂etor      	néweh₂ih₁to     	
-renew	middle	1     	dual     	néweh₂wosdʰh₂     	néweh₂wedʰh₂   	—	néweh₂owosdʰh₂  	néweh₂ih₁wedʰh₂ 	
-renew	middle	2     	dual     	—	—	—	—	—	
-renew	middle	3     	dual     	—	—	—	—	—	
-renew	middle	1     	plural   	néweh₂mosdʰh₂     	néweh₂medʰh₂   	—	néweh₂omosdʰh₂  	néweh₂ih₁medʰh₂ 	
-renew	middle	2     	plural   	néweh₂dʰh₂we      	néweh₂dʰh₂we   	néweh₂dʰh₂we 	néweh₂edʰh₂we   	néweh₂ih₁dʰh₂we 	
-renew	middle	3     	plural   	néweh₂ror         	néweh₂ro       	—	néweh₂oror      	néweh₂ih₁ro     	
-arrive	active	1     	singular 	h₁ludʰóm          	h₁ludʰóm       	—	h₁ludʰṓh₂       	h₁ludʰóyh₁m̥    	
-arrive	active	2     	singular 	h₁ludʰés          	h₁ludʰés       	h₁ludʰé      	h₁ludʰḗsi       	h₁ludʰóys       	
-arrive	active	3     	singular 	h₁ludʰét          	h₁ludʰét       	h₁ludʰétu    	h₁ludʰḗti       	h₁ludʰóyt       	
-arrive	active	1     	dual     	h₁ludʰówe         	h₁ludʰówe      	—	h₁ludʰṓwos      	h₁ludʰóywe      	
-arrive	active	2     	dual     	h₁ludʰétom        	h₁ludʰétom     	h₁ludʰétom   	h₁ludʰḗtes      	h₁ludʰóytom     	
-arrive	active	3     	dual     	h₁ludʰétām        	h₁ludʰétām     	h₁ludʰétām   	h₁ludʰḗtes      	h₁ludʰóytām     	
-arrive	active	1     	plural   	h₁ludʰóme         	h₁ludʰóme      	—	h₁ludʰṓmos      	h₁ludʰóyme      	
-arrive	active	2     	plural   	h₁ludʰéte         	h₁ludʰéte      	h₁ludʰéte    	h₁ludʰḗte       	h₁ludʰóyte      	
-arrive	active	3     	plural   	h₁ludʰónt         	h₁ludʰónt      	h₁ludʰóntu   	h₁ludʰṓnti      	h₁ludʰóyh₁n̥t   	
-say	active	1     	singular 	wéwkom            	wéwkom         	—	wéwkōh₂         	wéwkoyh₁m̥      	
-say	active	2     	singular 	wéwkes            	wéwkes         	wéwke        	wéwkēsi         	wéwkoys         	
-say	active	3     	singular 	wéwket            	wéwket         	wéwketu      	wéwkēti         	wéwkoyt         	
-say	active	1     	dual     	wéwkowe           	wéwkowe        	—	wéwkōwos        	wéwkoywe        	
-say	active	2     	dual     	wéwketom          	wéwketom       	wéwketom     	wéwkētes        	wéwkoytom       	
-say	active	3     	dual     	wéwketām          	wéwketām       	wéwketām     	wéwkētes        	wéwkoytām       	
-say	active	1     	plural   	wéwkome           	wéwkome        	—	wéwkōmos        	wéwkoyme        	
-say	active	2     	plural   	wéwkete           	wéwkete        	wéwkete      	wéwkēte         	wéwkoyte        	
-say	active	3     	plural   	wéwkont           	wéwkont        	wéwkontu     	wéwkōnti        	wéwkoyh₁n̥t     	
-say	middle	1     	singular 	wéwkoh₂e          	wéwkoh₂e       	—	wéwkōh₂er       	wéwkoyh₂e       	
-say	middle	2     	singular 	wéwketh₂e         	wéwketh₂e      	wéwkeso      	wéwkēth₂er      	wéwkoyth₂e      	
-say	middle	3     	singular 	wéwketo           	wéwketo        	—	wéwkētor        	wéwkoyto        	
-say	middle	1     	dual     	wéwkowedʰh₂       	wéwkowedʰh₂    	—	wéwkōwosdʰh₂    	wéwkoywedʰh₂    	
-say	middle	2     	dual     	—	—	—	—	—	
-say	middle	3     	dual     	—	—	—	—	—	
-say	middle	1     	plural   	wéwkomedʰh₂       	wéwkomedʰh₂    	—	wéwkōmosdʰh₂    	wéwkoymedʰh₂    	
-say	middle	2     	plural   	wéwkedʰh₂we       	wéwkedʰh₂we    	wéwkedʰh₂we  	wéwkēdʰh₂we     	wéwkoydʰh₂we    	
-say	middle	3     	plural   	wéwkoro           	wéwkoro        	—	wéwkōror        	wéwkoyro        	
-point out	active	1     	singular 	dḗyḱsm̥           	dḗyḱsm̥        	—	dḗyḱsoh₂        	déyḱsyeh₁m̥     	
-point out	active	2     	singular 	dḗyḱs             	dḗyḱs          	dḗyḱs        	dḗyḱsesi        	déyḱsyeh₁s      	
-point out	active	3     	singular 	dḗyḱst            	dḗyḱst         	dḗyḱstu      	dḗyḱseti        	déyḱsyeh₁t      	
-point out	active	1     	dual     	déyḱswe           	déyḱswe        	—	dḗyḱsowos       	déyḱsih₁we      	
-point out	active	2     	dual     	déyḱstom          	déyḱstom       	déyḱstom     	dḗyḱsetes       	déyḱsih₁tom     	
-point out	active	3     	dual     	déyḱstām          	déyḱstām       	déyḱstām     	dḗyḱsetes       	déyḱsih₁tām     	
-point out	active	1     	plural   	déyḱsme           	déyḱsme        	—	dḗyḱsomos       	déyḱsih₁me      	
-point out	active	2     	plural   	déyḱste           	déyḱste        	déyḱste      	dḗyḱsete        	déyḱsih₁te      	
-point out	active	3     	plural   	déyḱsn̥t          	déyḱsn̥t       	déyḱsn̥tu    	dḗyḱsonti       	déyḱsih₁n̥t     	
-point out	middle	1     	singular 	déyḱsh₂e          	déyḱsh₂e       	—	dḗyḱsoh₂er      	déyḱsih₁h₂e     	
-point out	middle	2     	singular 	déyḱsth₂e         	déyḱsth₂e      	déyḱso       	dḗyḱseth₂er     	déyḱsih₁th₂e    	
-point out	middle	3     	singular 	déyḱsto           	déyḱsto        	—	dḗyḱsetor       	déyḱsih₁to      	
-point out	middle	1     	dual     	déyḱswedʰh₂       	déyḱswedʰh₂    	—	dḗyḱsowosdʰh₂   	déyḱsih₁wedʰh₂  	
-point out	middle	2     	dual     	—	—	—	—	—	
-point out	middle	3     	dual     	—	—	—	—	—	
-point out	middle	1     	plural   	déyḱsmedʰh₂       	déyḱsmedʰh₂    	—	dḗyḱsomosdʰh₂   	déyḱsih₁medʰh₂  	
-point out	middle	2     	plural   	déyḱsdʰh₂we       	déyḱsdʰh₂we    	déyḱsdʰh₂we  	dḗyḱsedʰh₂we    	déyḱsih₁dʰh₂we  	
-point out	middle	3     	plural   	déyḱsro           	déyḱsro        	—	dḗyḱsoror       	déyḱsih₁ro      	
-think	active	1     	singular 	memónh₂e          	memónh₂e       	—	meménoh₂        	memn̥yéh₁m̥     	
-think	active	2     	singular 	memónth₂e         	memónth₂e      	memón        	meménesi        	memn̥yéh₁s      	
-think	active	3     	singular 	memóne            	memóne         	memóntu      	meméneti        	memn̥yéh₁t      	
-think	active	1     	dual     	memn̥wé           	memn̥wé        	—	meménowos       	memnih₁wé       	
-think	active	2     	dual     	—	—	memn̥tóm     	meménetes       	memnih₁tóm      	
-think	active	3     	dual     	—	—	memn̥tā´m    	meménetes       	memnih₁tā´m     	
-think	active	1     	plural   	memn̥mé           	memn̥mé        	—	meménomos       	memnih₁mé       	
-think	active	2     	plural   	memné             	memné          	memn̥té      	meménete        	memnih₁té       	
-think	active	3     	plural   	memnḗr            	memnḗr         	memnéntu     	meménonti       	memnih₁ént      	
-	      	      							
+*	*	*	*	indicative	indicative	imperative	subjunctive	optative	#	
+*	*	*	*	present	past				#	
+be	active	1	singular	h₁ésmi	h₁ésm̥	—	h₁ésoh₂	h₁syéh₁m̥	#	primary-imperfective-root-athematic
+be	active	2	singular	h₁ési	h₁és	h₁és	h₁ésesi	h₁syéh₁s	#	primary-imperfective-root-athematic
+be	active	3	singular	h₁ésti	h₁ést	h₁éstu	h₁éseti	h₁syéh₁t	#	primary-imperfective-root-athematic
+be	active	1	dual	h₁swós	h₁swé	—	h₁ésowos	h₁sih₁wé	#	primary-imperfective-root-athematic
+be	active	2	dual	h₁stés	h₁stóm	h₁stóm	h₁ésetes	h₁sih₁tóm	#	primary-imperfective-root-athematic
+be	active	3	dual	h₁stés	h₁stā´m	h₁stā´m	h₁ésetes	h₁sih₁tā´m	#	primary-imperfective-root-athematic
+be	active	1	plural	h₁smós	h₁smé	—	h₁ésomos	h₁sih₁mé	#	primary-imperfective-root-athematic
+be	active	2	plural	h₁sté	h₁sté	h₁sté	h₁ésete	h₁sih₁té	#	primary-imperfective-root-athematic
+be	active	3	plural	h₁sénti	h₁sént	h₁séntu	h₁ésonti	h₁sih₁ént	#	primary-imperfective-root-athematic
+become	active	1	singular	bʰúHm̥	—	—	bʰúHoh₂	yéh₁m̥	#	perfective-root-athematic
+become	active	2	singular	bʰúHs	—	bʰúH	bʰúHesi	yéh₁s	#	perfective-root-athematic
+become	active	3	singular	bʰúHt	—	bʰúHtu	bʰúHeti	yéh₁t	#	perfective-root-athematic
+become	active	1	dual	wé	—	—	bʰúHowos	ih₁wé	#	perfective-root-athematic
+become	active	2	dual	tóm	—	tóm	bʰúHetes	ih₁tóm	#	perfective-root-athematic
+become	active	3	dual	tā´m	—	tā´m	bʰúHetes	ih₁tā´m	#	perfective-root-athematic
+become	active	1	plural	mé	—	—	bʰúHomos	ih₁mé	#	perfective-root-athematic
+become	active	2	plural	té	—	té	bʰúHete	ih₁té	#	perfective-root-athematic
+become	active	3	plural	ént	—	éntu	bʰúHonti	ih₁ént	#	perfective-root-athematic
+leave	active	1	singular	léykʷm̥ 	—	— 	léykʷoh₂ 	likʷyéh₁m̥	#	perfective-root-athematic
+leave	active	2	singular	léykʷs 	—	léykʷ, likʷdʰí 	léykʷesi 	likʷyéh₁s	#	perfective-root-athematic
+leave	active	3	singular	léykʷt 	—	léykʷtu 	léykʷeti 	likʷyéh₁t	#	perfective-root-athematic
+leave	active	1	dual	likwé 	—	— 	léykʷowos 	likʷih₁wé	#	perfective-root-athematic
+leave	active	2	dual	likʷtóm 	—	likʷtóm 	léykʷetes 	likʷih₁tóm	#	perfective-root-athematic
+leave	active	3	dual	likʷtā́m 	—	likʷtā́m 	léykʷetes 	likʷih₁tā́m	#	perfective-root-athematic
+leave	active	1	plural	likʷmé 	—	— 	léykʷomos 	likʷih₁mé	#	perfective-root-athematic
+leave	active	2	plural	likʷté 	—	likʷté 	léykʷete 	likʷih₁té	#	perfective-root-athematic
+leave	active	3	plural	likʷént 	—	likʷéntu 	léykʷonti 	likʷih₁ént 	#	perfective-root-athematic
+leave	middle	1	singular	likʷh₂é	—	— 	léykʷoh₂er 	likʷih₁h₂é	#	perfective-root-athematic
+leave	middle	2	singular	likʷth₂é	—	likʷsó 	léykʷeth₂er 	likʷih₁th₂é	#	perfective-root-athematic
+leave	middle	3	singular	likʷtó, likʷó	—	❔	léykʷetor 	likʷih₁tó, likʷih₁ó	#	perfective-root-athematic
+leave	middle	1	dual	likwédʰh₂	—	— 	léykʷowosdʰh₂ 	likʷih₁wédʰh₂	#	perfective-root-athematic
+leave	middle	2	dual	❔	—	❔	❔	❔	#	perfective-root-athematic
+leave	middle	3	dual	❔	—	❔	❔	❔	#	perfective-root-athematic
+leave	middle	1	plural	likʷmédʰh₂	—	— 	léykʷomosdʰh₂ 	likʷih₁médʰh₂	#	perfective-root-athematic
+leave	middle	2	plural	likʷdʰh₂wé	—	likʷdʰh₂wé 	léykʷedʰh₂we 	likʷih₁dʰh₂wé	#	perfective-root-athematic
+leave	middle	3	plural	likʷró, likʷn̥tó 	—	❔	léykʷoror, léykʷontor 	likʷih₁ró, likʷih₁n̥tó 	#	perfective-root-athematic
+carry	active	1	singular	bʰéroh₂	bʰérom	—	bʰérōh₂	bʰéroyh₁m̥	#	primary-imperfective-root-thematic
+carry	active	2	singular	bʰéresi	bʰéres	bʰére	bʰérēsi	bʰéroys	#	primary-imperfective-root-thematic
+carry	active	3	singular	bʰéreti	bʰéret	bʰéretu	bʰérēti	bʰéroyt	#	primary-imperfective-root-thematic
+carry	active	1	dual	bʰérowos	bʰérowe	—	bʰérōwos	bʰéroywe	#	primary-imperfective-root-thematic
+carry	active	2	dual	bʰéretes	bʰéretom	bʰéretom	bʰérētes	bʰéroytom	#	primary-imperfective-root-thematic
+carry	active	3	dual	bʰéretes	bʰéretām	bʰéretām	bʰérētes	bʰéroytām	#	primary-imperfective-root-thematic
+carry	active	1	plural	bʰéromos	bʰérome	—	bʰérōmos	bʰéroyme	#	primary-imperfective-root-thematic
+carry	active	2	plural	bʰérete	bʰérete	bʰérete	bʰérēte	bʰéroyte	#	primary-imperfective-root-thematic
+carry	active	3	plural	bʰéronti	bʰéront	bʰérontu	bʰérōnti	bʰéroyh₁n̥t	#	primary-imperfective-root-thematic
+carry	middle	1	singular	bʰéroh₂er	bʰéroh₂e	—	bʰérōh₂er	bʰéroyh₂e	#	primary-imperfective-root-thematic
+carry	middle	2	singular	bʰéreth₂er	bʰéreth₂e	bʰéreso	bʰérēth₂er	bʰéroyth₂e	#	primary-imperfective-root-thematic
+carry	middle	3	singular	bʰéretor	bʰéreto	—	bʰérētor	bʰéroyto	#	primary-imperfective-root-thematic
+carry	middle	1	dual	bʰérowosdʰh₂	bʰérowedʰh₂	—	bʰérōwosdʰh₂	bʰéroywedʰh₂	#	primary-imperfective-root-thematic
+carry	middle	2	dual	—	—	—	—	—	#	primary-imperfective-root-thematic
+carry	middle	3	dual	—	—	—	—	—	#	primary-imperfective-root-thematic
+carry	middle	1	plural	bʰéromosdʰh₂	bʰéromedʰh₂	—	bʰérōmosdʰh₂	bʰéroymedʰh₂	#	primary-imperfective-root-thematic
+carry	middle	2	plural	bʰéredʰh₂we	bʰéredʰh₂we	bʰéredʰh₂we	bʰérēdʰh₂we	bʰéroydʰh₂we	#	primary-imperfective-root-thematic
+carry	middle	3	plural	bʰéroror	bʰéroro	—	bʰérōror	bʰéroyro	#	primary-imperfective-root-thematic
+leave	active	1	singular	linékʷmi	linékʷm̥	—	linékʷoh₂	linkʷyéh₁m̥	#	primary-imperfective-nasal-infix
+leave	active	2	singular	linékʷsi	linékʷs	linékʷ	linékʷesi	linkʷyéh₁s	#	primary-imperfective-nasal-infix
+leave	active	3	singular	linékʷti	linékʷt	linékʷtu	linékʷeti	linkʷyéh₁t	#	primary-imperfective-nasal-infix
+leave	active	1	dual	linkwós	linkwé	—	linékʷowos	linkʷih₁wé	#	primary-imperfective-nasal-infix
+leave	active	2	dual	linkʷtés	linkʷtóm	linkʷtóm	linékʷetes	linkʷih₁tóm	#	primary-imperfective-nasal-infix
+leave	active	3	dual	linkʷtés	linkʷtā´m	linkʷtā´m	linékʷetes	linkʷih₁tā´m	#	primary-imperfective-nasal-infix
+leave	active	1	plural	linkʷmós	linkʷmé	—	linékʷomos	linkʷih₁mé	#	primary-imperfective-nasal-infix
+leave	active	2	plural	linkʷté	linkʷté	linkʷté	linékʷete	linkʷih₁té	#	primary-imperfective-nasal-infix
+leave	active	3	plural	linkʷénti	linkʷént	linkʷéntu	linékʷonti	linkʷih₁ént	#	primary-imperfective-nasal-infix
+leave	middle	1	singular	linkʷh₂ér	linkʷh₂é	—	linékʷoh₂er	linkʷih₁h₂é	#	primary-imperfective-nasal-infix
+leave	middle	2	singular	linkʷth₂ér	linkʷth₂é	linkʷsó	linékʷeth₂er	linkʷih₁th₂é	#	primary-imperfective-nasal-infix
+leave	middle	3	singular	linkʷtór	linkʷtó	—	linékʷetor	linkʷih₁tó	#	primary-imperfective-nasal-infix
+leave	middle	1	dual	linkwósdʰh₂	linkwédʰh₂	—	linékʷowosdʰh₂	linkʷih₁wédʰh₂	#	primary-imperfective-nasal-infix
+leave	middle	2	dual	—	—	—	—	—	#	primary-imperfective-nasal-infix
+leave	middle	3	dual	—	—	—	—	—	#	primary-imperfective-nasal-infix
+leave	middle	1	plural	linkʷmósdʰh₂	linkʷmédʰh₂	—	linékʷomosdʰh₂	linkʷih₁médʰh₂	#	primary-imperfective-nasal-infix
+leave	middle	2	plural	linkʷdʰh₂wé	linkʷdʰh₂wé	linkʷdʰh₂wé	linékʷedʰh₂we	linkʷih₁dʰh₂wé	#	primary-imperfective-nasal-infix
+leave	middle	3	plural	linkʷrór	linkʷró	—	linékʷoror	linkʷih₁ró	#	primary-imperfective-nasal-infix
+work	active	1	singular	wr̥ǵyóh₂	wr̥ǵyóm	—	wr̥ǵyṓh₂	wr̥ǵyóyh₁m̥	#	primary-imperfective-ye-suffix
+work	active	2	singular	wr̥ǵyési	wr̥ǵyés	wr̥ǵyé	wr̥ǵyḗsi	wr̥ǵyóys	#	primary-imperfective-ye-suffix
+work	active	3	singular	wr̥ǵyéti	wr̥ǵyét	wr̥ǵyétu	wr̥ǵyḗti	wr̥ǵyóyt	#	primary-imperfective-ye-suffix
+work	active	1	dual	wr̥ǵyówos	wr̥ǵyówe	—	wr̥ǵyṓwos	wr̥ǵyóywe	#	primary-imperfective-ye-suffix
+work	active	2	dual	wr̥ǵyétes	wr̥ǵyétom	wr̥ǵyétom	wr̥ǵyḗtes	wr̥ǵyóytom	#	primary-imperfective-ye-suffix
+work	active	3	dual	wr̥ǵyétes	wr̥ǵyétām	wr̥ǵyétām	wr̥ǵyḗtes	wr̥ǵyóytām	#	primary-imperfective-ye-suffix
+work	active	1	plural	wr̥ǵyómos	wr̥ǵyóme	—	wr̥ǵyṓmos	wr̥ǵyóyme	#	primary-imperfective-ye-suffix
+work	active	2	plural	wr̥ǵyéte	wr̥ǵyéte	wr̥ǵyéte	wr̥ǵyḗte	wr̥ǵyóyte	#	primary-imperfective-ye-suffix
+work	active	3	plural	wr̥ǵyónti	wr̥ǵyónt	wr̥ǵyóntu	wr̥ǵyṓnti	wr̥ǵyóyh₁n̥t	#	primary-imperfective-ye-suffix
+work	middle	1	singular	wr̥ǵyóh₂er	wr̥ǵyóh₂e	—	wr̥ǵyṓh₂er	wr̥ǵyóyh₂e	#	primary-imperfective-ye-suffix
+work	middle	2	singular	wr̥ǵyéth₂er	wr̥ǵyéth₂e	wr̥ǵyéso	wr̥ǵyḗth₂er	wr̥ǵyóyth₂e	#	primary-imperfective-ye-suffix
+work	middle	3	singular	wr̥ǵyétor	wr̥ǵyéto	—	wr̥ǵyḗtor	wr̥ǵyóyto	#	primary-imperfective-ye-suffix
+work	middle	1	dual	wr̥ǵyówosdʰh₂	wr̥ǵyówedʰh₂	—	wr̥ǵyṓwosdʰh₂	wr̥ǵyóywedʰh₂	#	primary-imperfective-ye-suffix
+work	middle	2	dual	—	—	—	—	—	#	primary-imperfective-ye-suffix
+work	middle	3	dual	—	—	—	—	—	#	primary-imperfective-ye-suffix
+work	middle	1	plural	wr̥ǵyómosdʰh₂	wr̥ǵyómedʰh₂	—	wr̥ǵyṓmosdʰh₂	wr̥ǵyóymedʰh₂	#	primary-imperfective-ye-suffix
+work	middle	2	plural	wr̥ǵyédʰh₂we	wr̥ǵyédʰh₂we	wr̥ǵyédʰh₂we	wr̥ǵyḗdʰh₂we	wr̥ǵyóydʰh₂we	#	primary-imperfective-ye-suffix
+work	middle	3	plural	wr̥ǵyóror	wr̥ǵyóro	—	wr̥ǵyṓror	wr̥ǵyóyro	#	primary-imperfective-ye-suffix
+do	active	1	singular	dʰédʰeh₁mi	dʰédʰeh₁m̥	—	dʰédʰeh₁oh₂	dʰédʰh₁yeh₁m̥	#	primary-imperfective-reduplicated-athematic
+do	active	2	singular	dʰédʰeh₁si	dʰédʰeh₁s	dʰédʰeh₁	dʰédʰeh₁esi	dʰédʰh₁yeh₁s	#	primary-imperfective-reduplicated-athematic
+do	active	3	singular	dʰédʰeh₁ti	dʰédʰeh₁t	dʰédʰeh₁tu	dʰédʰeh₁eti	dʰédʰh₁yeh₁t	#	primary-imperfective-reduplicated-athematic
+do	active	1	dual	dʰédʰh₁wos	dʰédʰh₁we	—	dʰédʰeh₁owos	dʰédʰh₁ih₁we	#	primary-imperfective-reduplicated-athematic
+do	active	2	dual	dʰédʰh₁tes	dʰédʰh₁tom	dʰédʰh₁tom	dʰédʰeh₁etes	dʰédʰh₁ih₁tom	#	primary-imperfective-reduplicated-athematic
+do	active	3	dual	dʰédʰh₁tes	dʰédʰh₁tām	dʰédʰh₁tām	dʰédʰeh₁etes	dʰédʰh₁ih₁tām	#	primary-imperfective-reduplicated-athematic
+do	active	1	plural	dʰédʰh₁mos	dʰédʰh₁me	—	dʰédʰeh₁omos	dʰédʰh₁ih₁me	#	primary-imperfective-reduplicated-athematic
+do	active	2	plural	dʰédʰh₁te	dʰédʰh₁te	dʰédʰh₁te	dʰédʰeh₁ete	dʰédʰh₁ih₁te	#	primary-imperfective-reduplicated-athematic
+do	active	3	plural	dʰédʰh₁n̥ti	dʰédʰh₁n̥t	dʰédʰh₁n̥tu	dʰédʰeh₁onti	dʰédʰh₁ih₁n̥t	#	primary-imperfective-reduplicated-athematic
+do	middle	1	singular	dʰédʰh₁h₂er	dʰédʰh₁h₂e	—	dʰédʰeh₁oh₂er	dʰédʰh₁ih₁h₂e	#	primary-imperfective-reduplicated-athematic
+do	middle	2	singular	dʰédʰh₁th₂er	dʰédʰh₁th₂e	dʰédʰh₁so	dʰédʰeh₁eth₂er	dʰédʰh₁ih₁th₂e	#	primary-imperfective-reduplicated-athematic
+do	middle	3	singular	dʰédʰh₁tor	dʰédʰh₁to	—	dʰédʰeh₁etor	dʰédʰh₁ih₁to	#	primary-imperfective-reduplicated-athematic
+do	middle	1	dual	dʰédʰh₁wosdʰh₂	dʰédʰh₁wedʰh₂	—	dʰédʰeh₁owosdʰh₂	dʰédʰh₁ih₁wedʰh₂	#	primary-imperfective-reduplicated-athematic
+do	middle	2	dual	—	—	—	—	—	#	primary-imperfective-reduplicated-athematic
+do	middle	3	dual	—	—	—	—	—	#	primary-imperfective-reduplicated-athematic
+do	middle	1	plural	dʰédʰh₁mosdʰh₂	dʰédʰh₁medʰh₂	—	dʰédʰeh₁omosdʰh₂	dʰédʰh₁ih₁medʰh₂	#	primary-imperfective-reduplicated-athematic
+do	middle	2	plural	dʰédʰh₁dʰh₂we	dʰédʰh₁dʰh₂we	dʰédʰh₁dʰh₂we	dʰédʰeh₁edʰh₂we	dʰédʰh₁ih₁dʰh₂we	#	primary-imperfective-reduplicated-athematic
+do	middle	3	plural	dʰédʰh₁ror	dʰédʰh₁ro	—	dʰédʰeh₁oror	dʰédʰh₁ih₁ro	#	primary-imperfective-reduplicated-athematic
+ask	active	1	singular	pr̥sḱóh₂	pr̥sḱóm	—	pr̥sḱṓh₂	pr̥sḱóyh₁m̥	#	primary-imperfective-ske-suffix
+ask	active	2	singular	pr̥sḱési	pr̥sḱés	pr̥sḱé	pr̥sḱḗsi	pr̥sḱóys	#	primary-imperfective-ske-suffix
+ask	active	3	singular	pr̥sḱéti	pr̥sḱét	pr̥sḱétu	pr̥sḱḗti	pr̥sḱóyt	#	primary-imperfective-ske-suffix
+ask	active	1	dual	pr̥sḱówos	pr̥sḱówe	—	pr̥sḱṓwos	pr̥sḱóywe	#	primary-imperfective-ske-suffix
+ask	active	2	dual	pr̥sḱétes	pr̥sḱétom	pr̥sḱétom	pr̥sḱḗtes	pr̥sḱóytom	#	primary-imperfective-ske-suffix
+ask	active	3	dual	pr̥sḱétes	pr̥sḱétām	pr̥sḱétām	pr̥sḱḗtes	pr̥sḱóytām	#	primary-imperfective-ske-suffix
+ask	active	1	plural	pr̥sḱómos	pr̥sḱóme	—	pr̥sḱṓmos	pr̥sḱóyme	#	primary-imperfective-ske-suffix
+ask	active	2	plural	pr̥sḱéte	pr̥sḱéte	pr̥sḱéte	pr̥sḱḗte	pr̥sḱóyte	#	primary-imperfective-ske-suffix
+ask	active	3	plural	pr̥sḱónti	pr̥sḱónt	pr̥sḱóntu	pr̥sḱṓnti	pr̥sḱóyh₁n̥t	#	primary-imperfective-ske-suffix
+ask	middle	1	singular	pr̥sḱóh₂er	pr̥sḱóh₂e	—	pr̥sḱṓh₂er	pr̥sḱóyh₂e	#	primary-imperfective-ske-suffix
+ask	middle	2	singular	pr̥sḱéth₂er	pr̥sḱéth₂e	pr̥sḱéso	pr̥sḱḗth₂er	pr̥sḱóyth₂e	#	primary-imperfective-ske-suffix
+ask	middle	3	singular	pr̥sḱétor	pr̥sḱéto	—	pr̥sḱḗtor	pr̥sḱóyto	#	primary-imperfective-ske-suffix
+ask	middle	1	dual	pr̥sḱówosdʰh₂	pr̥sḱówedʰh₂	—	pr̥sḱṓwosdʰh₂	pr̥sḱóywedʰh₂	#	primary-imperfective-ske-suffix
+ask	middle	2	dual	—	—	—	—	—	#	primary-imperfective-ske-suffix
+ask	middle	3	dual	—	—	—	—	—	#	primary-imperfective-ske-suffix
+ask	middle	1	plural	pr̥sḱómosdʰh₂	pr̥sḱómedʰh₂	—	pr̥sḱṓmosdʰh₂	pr̥sḱóymedʰh₂	#	primary-imperfective-ske-suffix
+ask	middle	2	plural	pr̥sḱédʰh₂we	pr̥sḱédʰh₂we	pr̥sḱédʰh₂we	pr̥sḱḗdʰh₂we	pr̥sḱóydʰh₂we	#	primary-imperfective-ske-suffix
+ask	middle	3	plural	pr̥sḱóror	pr̥sḱóro	—	pr̥sḱṓror	pr̥sḱóyro	#	primary-imperfective-ske-suffix
+stretch	active	1	singular	tn̥néwmi	tn̥nḗm	—	tn̥néwoh₂	tn̥nuyéh₁m̥	#	primary-imperfective-nu-suffix
+stretch	active	2	singular	tn̥néwsi	tn̥néws	tn̥néw	tn̥néwesi	tn̥nuyéh₁s	#	primary-imperfective-nu-suffix
+stretch	active	3	singular	tn̥néwti	tn̥néwt	tn̥néwtu	tn̥néweti	tn̥nuyéh₁t	#	primary-imperfective-nu-suffix
+stretch	active	1	dual	tn̥nuwós	tn̥nuwé	—	tn̥néwowos	tnn̥wih₁wé	#	primary-imperfective-nu-suffix
+stretch	active	2	dual	tn̥nutés	tn̥nutóm	tn̥nutóm	tn̥néwetes	tnn̥wih₁tóm	#	primary-imperfective-nu-suffix
+stretch	active	3	dual	tn̥nutés	tn̥nutā´m	tn̥nutā´m	tn̥néwetes	tnn̥wih₁tā´m	#	primary-imperfective-nu-suffix
+stretch	active	1	plural	tn̥numós	tn̥numé	—	tn̥néwomos	tnn̥wih₁mé	#	primary-imperfective-nu-suffix
+stretch	active	2	plural	tn̥nuté	tn̥nuté	tn̥nuté	tn̥néwete	tnn̥wih₁té	#	primary-imperfective-nu-suffix
+stretch	active	3	plural	tnn̥wénti	tnn̥wént	tnn̥wéntu	tn̥néwonti	tnn̥wih₁ént	#	primary-imperfective-nu-suffix
+stretch	middle	1	singular	tn̥nuh₂ér	tn̥nuh₂é	—	tn̥néwoh₂er	tnn̥wih₁h₂é	#	primary-imperfective-nu-suffix
+stretch	middle	2	singular	tn̥nuth₂ér	tn̥nuth₂é	tn̥nusó	tn̥néweth₂er	tnn̥wih₁th₂é	#	primary-imperfective-nu-suffix
+stretch	middle	3	singular	tn̥nutór	tn̥nutó	—	tn̥néwetor	tnn̥wih₁tó	#	primary-imperfective-nu-suffix
+stretch	middle	1	dual	tn̥nuwósdʰh₂	tn̥nuwédʰh₂	—	tn̥néwowosdʰh₂	tnn̥wih₁wédʰh₂	#	primary-imperfective-nu-suffix
+stretch	middle	2	dual	—	—	—	—	—	#	primary-imperfective-nu-suffix
+stretch	middle	3	dual	—	—	—	—	—	#	primary-imperfective-nu-suffix
+stretch	middle	1	plural	tn̥numósdʰh₂	tn̥numédʰh₂	—	tn̥néwomosdʰh₂	tnn̥wih₁médʰh₂	#	primary-imperfective-nu-suffix
+stretch	middle	2	plural	tn̥nudʰh₂wé	tn̥nudʰh₂wé	tn̥nudʰh₂wé	tn̥néwedʰh₂we	tnn̥wih₁dʰh₂wé	#	primary-imperfective-nu-suffix
+stretch	middle	3	plural	tn̥nurór	tn̥nuró	—	tn̥néworor	tnn̥wih₁ró	#	primary-imperfective-nu-suffix
+know	active	1	singular	wóydh₂e	wóydh₂e	—	wéydoh₂	widyéh₁m̥	#	stative-root
+know	active	2	singular	wóydth₂e	wóydth₂e	wóyd	wéydesi	widyéh₁s	#	stative-root
+know	active	3	singular	wóyde	wóyde	wóydtu	wéydeti	widyéh₁t	#	stative-root
+know	active	1	dual	widwé	widwé	—	wéydowos	widih₁wé	#	stative-root
+know	active	2	dual	—	—	widtóm	wéydetes	widih₁tóm	#	stative-root
+know	active	3	dual	—	—	widtā´m	wéydetes	widih₁tā´m	#	stative-root
+know	active	1	plural	widmé	widmé	—	wéydomos	widih₁mé	#	stative-root
+know	active	2	plural	widé	widé	widté	wéydete	widih₁té	#	stative-root
+know	active	3	plural	widḗr	widḗr	widéntu	wéydonti	widih₁ént	#	stative-root
+sit	active	1	singular	sísdoh₂	sísdom	—	sísdōh₂	sísdoyh₁m̥	#	primary-imperfective-reduplicated-thematic
+sit	active	2	singular	sísdesi	sísdes	sísde	sísdēsi	sísdoys	#	primary-imperfective-reduplicated-thematic
+sit	active	3	singular	sísdeti	sísdet	sísdetu	sísdēti	sísdoyt	#	primary-imperfective-reduplicated-thematic
+sit	active	1	dual	sísdowos	sísdowe	—	sísdōwos	sísdoywe	#	primary-imperfective-reduplicated-thematic
+sit	active	2	dual	sísdetes	sísdetom	sísdetom	sísdētes	sísdoytom	#	primary-imperfective-reduplicated-thematic
+sit	active	3	dual	sísdetes	sísdetām	sísdetām	sísdētes	sísdoytām	#	primary-imperfective-reduplicated-thematic
+sit	active	1	plural	sísdomos	sísdome	—	sísdōmos	sísdoyme	#	primary-imperfective-reduplicated-thematic
+sit	active	2	plural	sísdete	sísdete	sísdete	sísdēte	sísdoyte	#	primary-imperfective-reduplicated-thematic
+sit	active	3	plural	sísdonti	sísdont	sísdontu	sísdōnti	sísdoyh₁n̥t	#	primary-imperfective-reduplicated-thematic
+protect	active	1	singular	h₂léksoh₂	h₂léksom	—	h₂léksōh₂	h₂léksoyh₁m̥	#	primary-imperfective-se-suffix
+protect	active	2	singular	h₂léksesi	h₂lékses	h₂lékse	h₂léksēsi	h₂léksoys	#	primary-imperfective-se-suffix
+protect	active	3	singular	h₂lékseti	h₂lékset	h₂léksetu	h₂léksēti	h₂léksoyt	#	primary-imperfective-se-suffix
+protect	active	1	dual	h₂léksowos	h₂léksowe	—	h₂léksōwos	h₂léksoywe	#	primary-imperfective-se-suffix
+protect	active	2	dual	h₂léksetes	h₂léksetom	h₂léksetom	h₂léksētes	h₂léksoytom	#	primary-imperfective-se-suffix
+protect	active	3	dual	h₂léksetes	h₂léksetām	h₂léksetām	h₂léksētes	h₂léksoytām	#	primary-imperfective-se-suffix
+protect	active	1	plural	h₂léksomos	h₂léksome	—	h₂léksōmos	h₂léksoyme	#	primary-imperfective-se-suffix
+protect	active	2	plural	h₂léksete	h₂léksete	h₂léksete	h₂léksēte	h₂léksoyte	#	primary-imperfective-se-suffix
+protect	active	3	plural	h₂léksonti	h₂léksont	h₂léksontu	h₂léksōnti	h₂léksoyh₁n̥t	#	primary-imperfective-se-suffix
+protect	middle	1	singular	h₂léksoh₂er	h₂léksoh₂e	—	h₂léksōh₂er	h₂léksoyh₂e	#	primary-imperfective-se-suffix
+protect	middle	2	singular	h₂lékseth₂er	h₂lékseth₂e	h₂lékseso	h₂léksēth₂er	h₂léksoyth₂e	#	primary-imperfective-se-suffix
+protect	middle	3	singular	h₂léksetor	h₂lékseto	—	h₂léksētor	h₂léksoyto	#	primary-imperfective-se-suffix
+protect	middle	1	dual	h₂léksowosdʰh₂	h₂léksowedʰh₂	—	h₂léksōwosdʰh₂	h₂léksoywedʰh₂	#	primary-imperfective-se-suffix
+protect	middle	2	dual	—	—	—	—	—	#	primary-imperfective-se-suffix
+protect	middle	3	dual	—	—	—	—	—	#	primary-imperfective-se-suffix
+protect	middle	1	plural	h₂léksomosdʰh₂	h₂léksomedʰh₂	—	h₂léksōmosdʰh₂	h₂léksoymedʰh₂	#	primary-imperfective-se-suffix
+protect	middle	2	plural	h₂léksedʰh₂we	h₂léksedʰh₂we	h₂léksedʰh₂we	h₂léksēdʰh₂we	h₂léksoydʰh₂we	#	primary-imperfective-se-suffix
+protect	middle	3	plural	h₂léksoror	h₂léksoro	—	h₂léksōror	h₂léksoyro	#	primary-imperfective-se-suffix
+be-red	active	1	singular	h₁rudʰéh₁mi	h₁rudʰéh₁m̥	—	h₁rudʰéh₁oh₂	h₁rudʰéh₁yeh₁m̥	#	secondary-imperfective-eh₁-stative
+be-red	active	2	singular	h₁rudʰéh₁si	h₁rudʰéh₁s	h₁rudʰéh₁	h₁rudʰéh₁esi	h₁rudʰéh₁yeh₁s	#	secondary-imperfective-eh₁-stative
+be-red	active	3	singular	h₁rudʰéh₁ti	h₁rudʰéh₁t	h₁rudʰéh₁tu	h₁rudʰéh₁eti	h₁rudʰéh₁yeh₁t	#	secondary-imperfective-eh₁-stative
+be-red	active	1	dual	h₁rudʰéh₁wos	h₁rudʰéh₁we	—	h₁rudʰéh₁owos	h₁rudʰéh₁ih₁we	#	secondary-imperfective-eh₁-stative
+be-red	active	2	dual	h₁rudʰéh₁tes	h₁rudʰéh₁tom	h₁rudʰéh₁tom	h₁rudʰéh₁etes	h₁rudʰéh₁ih₁tom	#	secondary-imperfective-eh₁-stative
+be-red	active	3	dual	h₁rudʰéh₁tes	h₁rudʰéh₁tām	h₁rudʰéh₁tām	h₁rudʰéh₁etes	h₁rudʰéh₁ih₁tām	#	secondary-imperfective-eh₁-stative
+be-red	active	1	plural	h₁rudʰéh₁mos	h₁rudʰéh₁me	—	h₁rudʰéh₁omos	h₁rudʰéh₁ih₁me	#	secondary-imperfective-eh₁-stative
+be-red	active	2	plural	h₁rudʰéh₁te	h₁rudʰéh₁te	h₁rudʰéh₁te	h₁rudʰéh₁ete	h₁rudʰéh₁ih₁te	#	secondary-imperfective-eh₁-stative
+be-red	active	3	plural	h₁rudʰéh₁n̥ti	h₁rudʰéh₁n̥t	h₁rudʰéh₁n̥tu	h₁rudʰéh₁onti	h₁rudʰéh₁ih₁n̥t	#	secondary-imperfective-eh₁-stative
+set-down	active	1	singular	sodéyoh₂	sodéyom	—	sodéyōh₂	sodéyoyh₁m̥	#	secondary-imperfective-éye-causative
+set-down	active	2	singular	sodéyesi	sodéyes	sodéye	sodéyēsi	sodéyoys	#	secondary-imperfective-éye-causative
+set-down	active	3	singular	sodéyeti	sodéyet	sodéyetu	sodéyēti	sodéyoyt	#	secondary-imperfective-éye-causative
+set-down	active	1	dual	sodéyowos	sodéyowe	—	sodéyōwos	sodéyoywe	#	secondary-imperfective-éye-causative
+set-down	active	2	dual	sodéyetes	sodéyetom	sodéyetom	sodéyētes	sodéyoytom	#	secondary-imperfective-éye-causative
+set-down	active	3	dual	sodéyetes	sodéyetām	sodéyetām	sodéyētes	sodéyoytām	#	secondary-imperfective-éye-causative
+set-down	active	1	plural	sodéyomos	sodéyome	—	sodéyōmos	sodéyoyme	#	secondary-imperfective-éye-causative
+set-down	active	2	plural	sodéyete	sodéyete	sodéyete	sodéyēte	sodéyoyte	#	secondary-imperfective-éye-causative
+set-down	active	3	plural	sodéyonti	sodéyont	sodéyontu	sodéyōnti	sodéyoyh₁n̥t	#	secondary-imperfective-éye-causative
+set-down	middle	1	singular	sodéyoh₂er	sodéyoh₂e	—	sodéyōh₂er	sodéyoyh₂e	#	secondary-imperfective-éye-causative
+set-down	middle	2	singular	sodéyeth₂er	sodéyeth₂e	sodéyeso	sodéyēth₂er	sodéyoyth₂e	#	secondary-imperfective-éye-causative
+set-down	middle	3	singular	sodéyetor	sodéyeto	—	sodéyētor	sodéyoyto	#	secondary-imperfective-éye-causative
+set-down	middle	1	dual	sodéyowosdʰh₂	sodéyowedʰh₂	—	sodéyōwosdʰh₂	sodéyoywedʰh₂	#	secondary-imperfective-éye-causative
+set-down	middle	2	dual	—	—	—	—	—	#	secondary-imperfective-éye-causative
+set-down	middle	3	dual	—	—	—	—	—	#	secondary-imperfective-éye-causative
+set-down	middle	1	plural	sodéyomosdʰh₂	sodéyomedʰh₂	—	sodéyōmosdʰh₂	sodéyoymedʰh₂	#	secondary-imperfective-éye-causative
+set-down	middle	2	plural	sodéyedʰh₂we	sodéyedʰh₂we	sodéyedʰh₂we	sodéyēdʰh₂we	sodéyoydʰh₂we	#	secondary-imperfective-éye-causative
+set-down	middle	3	plural	sodéyoror	sodéyoro	—	sodéyōror	sodéyoyro	#	secondary-imperfective-éye-causative
+want-to-see	active	1	singular	wéydsoh₂	wéydsom	—	wéydsōh₂	wéydsoyh₁m̥	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	active	2	singular	wéydsesi	wéydses	wéydse	wéydsēsi	wéydsoys	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	active	3	singular	wéydseti	wéydset	wéydsetu	wéydsēti	wéydsoyt	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	active	1	dual	wéydsowos	wéydsowe	—	wéydsōwos	wéydsoywe	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	active	2	dual	wéydsetes	wéydsetom	wéydsetom	wéydsētes	wéydsoytom	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	active	3	dual	wéydsetes	wéydsetām	wéydsetām	wéydsētes	wéydsoytām	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	active	1	plural	wéydsomos	wéydsome	—	wéydsōmos	wéydsoyme	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	active	2	plural	wéydsete	wéydsete	wéydsete	wéydsēte	wéydsoyte	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	active	3	plural	wéydsonti	wéydsont	wéydsontu	wéydsōnti	wéydsoyh₁n̥t	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	1	singular	wéydsoh₂er	wéydsoh₂e	—	wéydsōh₂er	wéydsoyh₂e	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	2	singular	wéydseth₂er	wéydseth₂e	wéydseso	wéydsēth₂er	wéydsoyth₂e	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	3	singular	wéydsetor	wéydseto	—	wéydsētor	wéydsoyto	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	1	dual	wéydsowosdʰh₂	wéydsowedʰh₂	—	wéydsōwosdʰh₂	wéydsoywedʰh₂	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	2	dual	—	—	—	—	—	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	3	dual	—	—	—	—	—	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	1	plural	wéydsomosdʰh₂	wéydsomedʰh₂	—	wéydsōmosdʰh₂	wéydsoymedʰh₂	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	2	plural	wéydsedʰh₂we	wéydsedʰh₂we	wéydsedʰh₂we	wéydsēdʰh₂we	wéydsoydʰh₂we	#	secondary-imperfective-(h₁)se-desiderative
+want-to-see	middle	3	plural	wéydsoror	wéydsoro	—	wéydsōror	wéydsoyro	#	secondary-imperfective-(h₁)se-desiderative
+be-becoming	active	1	singular	bʰuHyóh₂ 	bʰuHyóm 	— 	bʰuHyṓh₂ 	bʰuHyóyh₁m̥	#	secondary-imperfective-ye-denominative
+be-becoming	active	2	singular	bʰuHyési 	bʰuHyés 	bʰuHyé 	bʰuHyḗsi 	bʰuHyóys	#	secondary-imperfective-ye-denominative
+be-becoming	active	3	singular	bʰuHyéti 	bʰuHyét 	bʰuHyétu 	bʰuHyḗti 	bʰuHyóyt	#	secondary-imperfective-ye-denominative
+be-becoming	active	1	dual	bʰuHyówos 	bʰuHyówe 	— 	bʰuHyṓwos 	bʰuHyóywe	#	secondary-imperfective-ye-denominative
+be-becoming	active	2	dual	bʰuHyétes 	bʰuHyétom 	bʰuHyétom 	bʰuHyḗtes 	bʰuHyóytom	#	secondary-imperfective-ye-denominative
+be-becoming	active	3	dual	bʰuHyétes 	bʰuHyétām 	bʰuHyétām 	bʰuHyḗtes 	bʰuHyóytām	#	secondary-imperfective-ye-denominative
+be-becoming	active	1	plural	bʰuHyómos 	bʰuHyóme 	— 	bʰuHyṓmos 	bʰuHyóyme	#	secondary-imperfective-ye-denominative
+be-becoming	active	2	plural	bʰuHyéte 	bʰuHyéte 	bʰuHyéte 	bʰuHyḗte 	bʰuHyóyte	#	secondary-imperfective-ye-denominative
+be-becoming	active	3	plural	bʰuHyónti 	bʰuHyónt 	bʰuHyóntu 	bʰuHyṓnti 	bʰuHyóyh₁n̥t 	#	secondary-imperfective-ye-denominative
+be-becoming	middle	1	singular	bʰuHyóh₂er 	bʰuHyóh₂e 	— 	bʰuHyṓh₂er 	bʰuHyóyh₂e	#	secondary-imperfective-ye-denominative
+be-becoming	middle	2	singular	bʰuHyéth₂er 	bʰuHyéth₂e 	bʰuHyéso 	bʰuHyḗth₂er 	bʰuHyóyth₂e	#	secondary-imperfective-ye-denominative
+be-becoming	middle	3	singular	bʰuHyétor 	bʰuHyéto 	❔	bʰuHyḗtor 	bʰuHyóyto, bʰuHyóyh₁o	#	secondary-imperfective-ye-denominative
+be-becoming	middle	1	dual	bʰuHyówosdʰh₂ 	bʰuHyówedʰh₂ 	— 	bʰuHyṓwosdʰh₂ 	bʰuHyóywedʰh₂	#	secondary-imperfective-ye-denominative
+be-becoming	middle	2	dual	❔	❔	❔	❔	❔	#	secondary-imperfective-ye-denominative
+be-becoming	middle	3	dual	❔	❔	❔	❔	❔	#	secondary-imperfective-ye-denominative
+be-becoming	middle	1	plural	bʰuHyómosdʰh₂ 	bʰuHyómedʰh₂ 	— 	bʰuHyṓmosdʰh₂ 	bʰuHyóymedʰh₂	#	secondary-imperfective-ye-denominative
+be-becoming	middle	2	plural	bʰuHyédʰh₂we 	bʰuHyédʰh₂we 	bʰuHyédʰh₂we 	bʰuHyḗdʰh₂we 	bʰuHyóydʰh₂we	#	secondary-imperfective-ye-denominative
+be-becoming	middle	3	plural	bʰuHyóror, bʰuHyóntor 	bʰuHyóro, bʰuHyónto 	❔	bʰuHyṓror, bʰuHyṓntor 	bʰuHyóyro, bʰuHyóyh₁n̥to 	#	secondary-imperfective-ye-denominative
+renew	active	1	singular	néweh₂mi	néwām	—	néweh₂oh₂	néweh₂yeh₁m̥	#	secondary-imperfective-h₂-factitive
+renew	active	2	singular	néweh₂si	néweh₂s	néweh₂	néweh₂esi	néweh₂yeh₁s	#	secondary-imperfective-h₂-factitive
+renew	active	3	singular	néweh₂ti	néweh₂t	néweh₂tu	néweh₂eti	néweh₂yeh₁t	#	secondary-imperfective-h₂-factitive
+renew	active	1	dual	néweh₂wos	néweh₂we	—	néweh₂owos	néweh₂ih₁we	#	secondary-imperfective-h₂-factitive
+renew	active	2	dual	néweh₂tes	néweh₂tom	néweh₂tom	néweh₂etes	néweh₂ih₁tom	#	secondary-imperfective-h₂-factitive
+renew	active	3	dual	néweh₂tes	néweh₂tām	néweh₂tām	néweh₂etes	néweh₂ih₁tām	#	secondary-imperfective-h₂-factitive
+renew	active	1	plural	néweh₂mos	néweh₂me	—	néweh₂omos	néweh₂ih₁me	#	secondary-imperfective-h₂-factitive
+renew	active	2	plural	néweh₂te	néweh₂te	néweh₂te	néweh₂ete	néweh₂ih₁te	#	secondary-imperfective-h₂-factitive
+renew	active	3	plural	néweh₂n̥ti	néweh₂n̥t	néweh₂n̥tu	néweh₂onti	néweh₂ih₁n̥t	#	secondary-imperfective-h₂-factitive
+renew	middle	1	singular	néweh₂h₂er	néweh₂h₂e	—	néweh₂oh₂er	néweh₂ih₁h₂e	#	secondary-imperfective-h₂-factitive
+renew	middle	2	singular	néweh₂th₂er	néweh₂th₂e	néweh₂so	néweh₂eth₂er	néweh₂ih₁th₂e	#	secondary-imperfective-h₂-factitive
+renew	middle	3	singular	néweh₂tor	néweh₂to	—	néweh₂etor	néweh₂ih₁to	#	secondary-imperfective-h₂-factitive
+renew	middle	1	dual	néweh₂wosdʰh₂	néweh₂wedʰh₂	—	néweh₂owosdʰh₂	néweh₂ih₁wedʰh₂	#	secondary-imperfective-h₂-factitive
+renew	middle	2	dual	—	—	—	—	—	#	secondary-imperfective-h₂-factitive
+renew	middle	3	dual	—	—	—	—	—	#	secondary-imperfective-h₂-factitive
+renew	middle	1	plural	néweh₂mosdʰh₂	néweh₂medʰh₂	—	néweh₂omosdʰh₂	néweh₂ih₁medʰh₂	#	secondary-imperfective-h₂-factitive
+renew	middle	2	plural	néweh₂dʰh₂we	néweh₂dʰh₂we	néweh₂dʰh₂we	néweh₂edʰh₂we	néweh₂ih₁dʰh₂we	#	secondary-imperfective-h₂-factitive
+renew	middle	3	plural	néweh₂ror	néweh₂ro	—	néweh₂oror	néweh₂ih₁ro	#	secondary-imperfective-h₂-factitive
+arrive	active	1	singular	h₁ludʰóm	h₁ludʰóm	—	h₁ludʰṓh₂	h₁ludʰóyh₁m̥	#	perfective-root-thematic
+arrive	active	2	singular	h₁ludʰés	h₁ludʰés	h₁ludʰé	h₁ludʰḗsi	h₁ludʰóys	#	perfective-root-thematic
+arrive	active	3	singular	h₁ludʰét	h₁ludʰét	h₁ludʰétu	h₁ludʰḗti	h₁ludʰóyt	#	perfective-root-thematic
+arrive	active	1	dual	h₁ludʰówe	h₁ludʰówe	—	h₁ludʰṓwos	h₁ludʰóywe	#	perfective-root-thematic
+arrive	active	2	dual	h₁ludʰétom	h₁ludʰétom	h₁ludʰétom	h₁ludʰḗtes	h₁ludʰóytom	#	perfective-root-thematic
+arrive	active	3	dual	h₁ludʰétām	h₁ludʰétām	h₁ludʰétām	h₁ludʰḗtes	h₁ludʰóytām	#	perfective-root-thematic
+arrive	active	1	plural	h₁ludʰóme	h₁ludʰóme	—	h₁ludʰṓmos	h₁ludʰóyme	#	perfective-root-thematic
+arrive	active	2	plural	h₁ludʰéte	h₁ludʰéte	h₁ludʰéte	h₁ludʰḗte	h₁ludʰóyte	#	perfective-root-thematic
+arrive	active	3	plural	h₁ludʰónt	h₁ludʰónt	h₁ludʰóntu	h₁ludʰṓnti	h₁ludʰóyh₁n̥t	#	perfective-root-thematic
+say	active	1	singular	wéwkom	wéwkom	—	wéwkōh₂	wéwkoyh₁m̥	#	perfective-reduplicated-thematic
+say	active	2	singular	wéwkes	wéwkes	wéwke	wéwkēsi	wéwkoys	#	perfective-reduplicated-thematic
+say	active	3	singular	wéwket	wéwket	wéwketu	wéwkēti	wéwkoyt	#	perfective-reduplicated-thematic
+say	active	1	dual	wéwkowe	wéwkowe	—	wéwkōwos	wéwkoywe	#	perfective-reduplicated-thematic
+say	active	2	dual	wéwketom	wéwketom	wéwketom	wéwkētes	wéwkoytom	#	perfective-reduplicated-thematic
+say	active	3	dual	wéwketām	wéwketām	wéwketām	wéwkētes	wéwkoytām	#	perfective-reduplicated-thematic
+say	active	1	plural	wéwkome	wéwkome	—	wéwkōmos	wéwkoyme	#	perfective-reduplicated-thematic
+say	active	2	plural	wéwkete	wéwkete	wéwkete	wéwkēte	wéwkoyte	#	perfective-reduplicated-thematic
+say	active	3	plural	wéwkont	wéwkont	wéwkontu	wéwkōnti	wéwkoyh₁n̥t	#	perfective-reduplicated-thematic
+say	middle	1	singular	wéwkoh₂e	wéwkoh₂e	—	wéwkōh₂er	wéwkoyh₂e	#	perfective-reduplicated-thematic
+say	middle	2	singular	wéwketh₂e	wéwketh₂e	wéwkeso	wéwkēth₂er	wéwkoyth₂e	#	perfective-reduplicated-thematic
+say	middle	3	singular	wéwketo	wéwketo	—	wéwkētor	wéwkoyto	#	perfective-reduplicated-thematic
+say	middle	1	dual	wéwkowedʰh₂	wéwkowedʰh₂	—	wéwkōwosdʰh₂	wéwkoywedʰh₂	#	perfective-reduplicated-thematic
+say	middle	2	dual	—	—	—	—	—	#	perfective-reduplicated-thematic
+say	middle	3	dual	—	—	—	—	—	#	perfective-reduplicated-thematic
+say	middle	1	plural	wéwkomedʰh₂	wéwkomedʰh₂	—	wéwkōmosdʰh₂	wéwkoymedʰh₂	#	perfective-reduplicated-thematic
+say	middle	2	plural	wéwkedʰh₂we	wéwkedʰh₂we	wéwkedʰh₂we	wéwkēdʰh₂we	wéwkoydʰh₂we	#	perfective-reduplicated-thematic
+say	middle	3	plural	wéwkoro	wéwkoro	—	wéwkōror	wéwkoyro	#	perfective-reduplicated-thematic
+point-out	active	1	singular	dḗyḱsm̥	dḗyḱsm̥	—	dḗyḱsoh₂	déyḱsyeh₁m̥	#	perfective-s-suffix
+point-out	active	2	singular	dḗyḱs	dḗyḱs	dḗyḱs	dḗyḱsesi	déyḱsyeh₁s	#	perfective-s-suffix
+point-out	active	3	singular	dḗyḱst	dḗyḱst	dḗyḱstu	dḗyḱseti	déyḱsyeh₁t	#	perfective-s-suffix
+point-out	active	1	dual	déyḱswe	déyḱswe	—	dḗyḱsowos	déyḱsih₁we	#	perfective-s-suffix
+point-out	active	2	dual	déyḱstom	déyḱstom	déyḱstom	dḗyḱsetes	déyḱsih₁tom	#	perfective-s-suffix
+point-out	active	3	dual	déyḱstām	déyḱstām	déyḱstām	dḗyḱsetes	déyḱsih₁tām	#	perfective-s-suffix
+point-out	active	1	plural	déyḱsme	déyḱsme	—	dḗyḱsomos	déyḱsih₁me	#	perfective-s-suffix
+point-out	active	2	plural	déyḱste	déyḱste	déyḱste	dḗyḱsete	déyḱsih₁te	#	perfective-s-suffix
+point-out	active	3	plural	déyḱsn̥t	déyḱsn̥t	déyḱsn̥tu	dḗyḱsonti	déyḱsih₁n̥t	#	perfective-s-suffix
+point-out	middle	1	singular	déyḱsh₂e	déyḱsh₂e	—	dḗyḱsoh₂er	déyḱsih₁h₂e	#	perfective-s-suffix
+point-out	middle	2	singular	déyḱsth₂e	déyḱsth₂e	déyḱso	dḗyḱseth₂er	déyḱsih₁th₂e	#	perfective-s-suffix
+point-out	middle	3	singular	déyḱsto	déyḱsto	—	dḗyḱsetor	déyḱsih₁to	#	perfective-s-suffix
+point-out	middle	1	dual	déyḱswedʰh₂	déyḱswedʰh₂	—	dḗyḱsowosdʰh₂	déyḱsih₁wedʰh₂	#	perfective-s-suffix
+point-out	middle	2	dual	—	—	—	—	—	#	perfective-s-suffix
+point-out	middle	3	dual	—	—	—	—	—	#	perfective-s-suffix
+point-out	middle	1	plural	déyḱsmedʰh₂	déyḱsmedʰh₂	—	dḗyḱsomosdʰh₂	déyḱsih₁medʰh₂	#	perfective-s-suffix
+point-out	middle	2	plural	déyḱsdʰh₂we	déyḱsdʰh₂we	déyḱsdʰh₂we	dḗyḱsedʰh₂we	déyḱsih₁dʰh₂we	#	perfective-s-suffix
+point-out	middle	3	plural	déyḱsro	déyḱsro	—	dḗyḱsoror	déyḱsih₁ro	#	perfective-s-suffix
+think	active	1	singular	memónh₂e	memónh₂e	—	meménoh₂	memn̥yéh₁m̥	#	stative-reduplicated
+think	active	2	singular	memónth₂e	memónth₂e	memón	meménesi	memn̥yéh₁s	#	stative-reduplicated
+think	active	3	singular	memóne	memóne	memóntu	meméneti	memn̥yéh₁t	#	stative-reduplicated
+think	active	1	dual	memn̥wé	memn̥wé	—	meménowos	memnih₁wé	#	stative-reduplicated
+think	active	2	dual	—	—	memn̥tóm	meménetes	memnih₁tóm	#	stative-reduplicated
+think	active	3	dual	—	—	memn̥tā´m	meménetes	memnih₁tā´m	#	stative-reduplicated
+think	active	1	plural	memn̥mé	memn̥mé	—	meménomos	memnih₁mé	#	stative-reduplicated
+think	active	2	plural	memné	memné	memn̥té	meménete	memnih₁té	#	stative-reduplicated
+think	active	3	plural	memnḗr	memnḗr	memnéntu	meménonti	memnih₁ént	#	stative-reduplicated

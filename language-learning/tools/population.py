@@ -61,5 +61,6 @@ class ListLookupPopulation:
         if self.debug: breakpoint()
         lookup = copy.deepcopy(self.template_lookup)
         for annotation,cell in annotations:
-            lookup[annotation].append(self.evaluation(cell))
+            for tuplekey in lookup.indexing.tuplekeys(annotation):
+                lookup[tuplekey].append(self.evaluation(cell))
         return lookup
