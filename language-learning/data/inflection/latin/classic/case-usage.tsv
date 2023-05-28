@@ -1,61 +1,55 @@
 *	*	*	*	case	preposition	postposition					
-#	valency	motion	role								
-			solitary	nominative	∅	∅					
-	transitive		agent	nominative	∅	∅					
-	transitive		force	nominative	∅	∅					
-	transitive		patient	accusative	∅	∅					
-	transitive		theme	accusative	∅	∅					
-	transitive		experiencer	nominative	∅	∅					
-	transitive		stimulus	accusative	∅	∅					
-	transitive		predicate	accusative	∅	∅					
-	transitive		predicand	nominative	∅	∅					
-	transitive		audience	vocative	∅	∅					
-#		departed	possessor	genitive	∅	∅					
-		associated	possessor	genitive	∅	∅					
-#		acquired	possessor	genitive	∅	∅					
-#		leveraged	possessor	genitive	∅	∅					
-		departed	location	ablative	ab	∅					
-		associated	location	accusative	apud	∅					
-		acquired	location	accusative	ad	∅					
-		leveraged	location	accusative	per	∅					
-#		departed	extent	ablative	ab	∅					
-#		associated	extent	accusative	apud	∅					
-#		acquired	extent	accusative	ad	∅					
-#		leveraged	extent	accusative	per	∅					
-#		departed	vicinity	ablative	ab	∅					
-#		associated	vicinity	accusative	apud	∅					
-#		acquired	vicinity	accusative	ad	∅					
-#		leveraged	vicinity	accusative	per	∅					
-		departed	interior	ablative	ex	∅					
-		associated	interior	accusative	intrā	∅					
-		acquired	interior	ablative	in	∅					
-		leveraged	interior	accusative	per	∅					
-		departed	surface	ablative	super	∅					
-		associated	surface	accusative	super	∅					
-		acquired	surface	ablative	super	∅					
-		leveraged	surface	accusative	trans	∅					
-#		departed	presence	ablative	coram	∅					
-		associated	presence	ablative	coram	∅					
-#		acquired	presence	accusative	coram	∅					
-		leveraged	presence	accusative	propter	∅					
-#		departed	aid	ablative	cum	∅					
-		associated	aid	ablative	cum	∅					
-#		acquired	aid	ablative	cum	∅					
-#		leveraged	aid	ablative	cum	∅					
-#		departed	lack	ablative	sine	∅					
-		associated	lack	ablative	sine	∅					
-#		acquired	lack	ablative	sine	∅					
-#		leveraged	lack	ablative	sine	∅					
-#		departed	interest	dative	∅	∅					
-		associated	interest	dative	∅	∅					
-#		acquired	interest	dative	∅	∅					
-		leveraged	interest	accusative	per	∅					
-		departed	time	ablative	post	∅					
-		associated	time	ablative	inter	∅					
-		acquired	time	accusative	usque ad	∅					
-		leveraged	time	accusative	inter	∅					
-#		departed	topic	ablative	∅	∅					
-#		associated	topic	ablative	∅	∅					
-#		acquired	topic	ablative	∅	∅					
-#		leveraged	topic	ablative	∅	∅					
-		associated	company	accusative	inter	∅					
+#	subjectivity	motion	role								
+	subject			nominative	∅	∅					
+	addressee			vocative	∅	∅					
+	direct-object			accusative	∅	∅					
+	indirect-object			dative	∅	∅					
+#	modifier	departed	possessor	genitive	∅	∅					
+	modifier	associated	possessor	genitive	∅	∅					
+#	modifier	acquired	possessor	genitive	∅	∅					
+#	modifier	leveraged	possessor	genitive	∅	∅					
+	modifier	departed	location	ablative	ab	∅					
+	modifier	associated	location	accusative	apud	∅					
+	modifier	acquired	location	accusative	ad	∅					
+	modifier	leveraged	location	accusative	per	∅					
+#	modifier	departed	extent	ablative	ab	∅					
+#	modifier	associated	extent	accusative	apud	∅					
+#	modifier	acquired	extent	accusative	ad	∅					
+#	modifier	leveraged	extent	accusative	per	∅					
+#	modifier	departed	vicinity	ablative	ab	∅					
+#	modifier	associated	vicinity	accusative	apud	∅					
+#	modifier	acquired	vicinity	accusative	ad	∅					
+#	modifier	leveraged	vicinity	accusative	per	∅					
+	modifier	departed	interior	ablative	ex	∅					
+	modifier	associated	interior	accusative	intrā	∅					
+	modifier	acquired	interior	ablative	in	∅					
+	modifier	leveraged	interior	accusative	per	∅					
+	modifier	departed	surface	ablative	super	∅					
+	modifier	associated	surface	accusative	super	∅					
+	modifier	acquired	surface	ablative	super	∅					
+	modifier	leveraged	surface	accusative	trans	∅					
+#	modifier	departed	presence	ablative	coram	∅					
+	modifier	associated	presence	ablative	coram	∅					
+#	modifier	acquired	presence	accusative	coram	∅					
+	modifier	leveraged	presence	accusative	propter	∅					
+#	modifier	departed	aid	ablative	cum	∅					
+	modifier	associated	aid	ablative	cum	∅					
+#	modifier	acquired	aid	ablative	cum	∅					
+#	modifier	leveraged	aid	ablative	cum	∅					
+#	modifier	departed	lack	ablative	sine	∅					
+	modifier	associated	lack	ablative	sine	∅					
+#	modifier	acquired	lack	ablative	sine	∅					
+#	modifier	leveraged	lack	ablative	sine	∅					
+#	modifier	departed	interest	dative	∅	∅					
+	modifier	associated	interest	dative	∅	∅					
+#	modifier	acquired	interest	dative	∅	∅					
+	modifier	leveraged	interest	accusative	per	∅					
+	modifier	departed	time	ablative	post	∅					
+	modifier	associated	time	ablative	inter	∅					
+	modifier	acquired	time	accusative	usque ad	∅					
+	modifier	leveraged	time	accusative	inter	∅					
+#	modifier	departed	topic	ablative	∅	∅					
+#	modifier	associated	topic	ablative	∅	∅					
+#	modifier	acquired	topic	ablative	∅	∅					
+#	modifier	leveraged	topic	ablative	∅	∅					
+	modifier	associated	company	accusative	inter	∅					

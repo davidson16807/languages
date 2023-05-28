@@ -15,5 +15,5 @@ class Orthography:
     def __init__(self, script, language):
         self.script = script
         self.language = language
-    def map(self, syntax_tree, semes={}, substitutions=[]):
-        return self.language.map(syntax_tree, self.script, semes, substitutions)
+    def map(self, syntax_tree, *args, **kwargs):
+        return self.language.map(syntax_tree, self.script, *args, **kwargs)

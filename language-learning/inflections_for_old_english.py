@@ -61,7 +61,7 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
         ]),
     ),
-    RuleSyntax('subject verb direct-object indirect-object modifiers'.split()), 
+    RuleSyntax('subject verb direct-object indirect-object modifier'.split()), 
     {'language-type':'foreign'},
     # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
     list_tools,
@@ -102,7 +102,7 @@ write('flashcards/old-english/finite-conjugation.html',
         [demonstration.verb(
             substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
             stock_modifier = foreign_language.grammar.stock_modifier,
-            default_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]'
+            default_tree = 'clause [test [np the n man] [vp conjugated]] [modifier np test stock-modifier]'
         ) for demonstration in demonstrations],
         DictTupleIndexing([
             # categories that are iterated over
@@ -428,7 +428,7 @@ write('flashcards/old-english/participle-declension.html',
         [demonstration.case(
             stock_modifier = foreign_language.grammar.stock_modifier,
             substitutions = [
-                {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])},
+                {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
             ],
         ) for demonstration in demonstrations],
         DictTupleIndexing([

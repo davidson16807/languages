@@ -45,7 +45,9 @@ class ListSemantics:
             **tags, 
             **{tagaxis: usage[tags][tagaxis] 
                for (tagaxis, usage) in tagaxis_usages
-               if tagaxis not in tags and tagaxis in usage[tags]}
+               # if tagaxis not in tags and tagaxis in usage[tags]
+               if tags in usage and tagaxis in usage[tags]
+            }
         }
     def tag(self, modifications, remove=False):
         def _map(machine, tree, memory):
@@ -61,8 +63,7 @@ class ListGrammar:
     """
     `ListGrammar` is a library of functions that can be used in conjunction with `ListTrees` 
     to perform operations on a syntax tree of lists that encapsulate the grammar of a natural language.
-    Examples include word translation, verb conjugation, noun and adjective declension, 
-    and the structuring of clauses and noun phrases.
+    Examples include word translation, verb conjugation, noun declension, and adjective agreement.
     """
     def __init__(self, 
             conjugation_lookups, 
@@ -115,34 +116,26 @@ class RuleSyntax:
     """
     `RuleSyntax` is a library of functions that can be used in conjunction with 
     `RuleTrees` to perform operations on a syntax tree of rules that encapsulate 
-    the syntax of a natural language.
-    Examples include word translation, verb conjugation, noun and adjective declension, 
-    and the structuring of clauses and noun phrases.
+    the syntax of a natural language, such as the structuring of clauses and noun phrases.
     """
     def __init__(self, sentence_structure):
         self.sentence_structure = sentence_structure
     def order_clause(self, treemap, clause):
         rules = clause.content
-        # rules = [element for element in clause.content if isinstance(element, Rule)]
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
-        subject_roles = {'solitary','agent'}
-        direct_object_roles = {'theme','patient'}
-        indirect_object_roles = {'indirect-object'}
-        nonmodifier_roles = {*subject_roles, *direct_object_roles, *indirect_object_roles}
-        subjects = [noun for noun in nouns if noun.tags['role'] in subject_roles]
-        enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
-        proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
+        # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
+        # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
         noun_lookup = {
-            'direct-object':   [noun for noun in nouns if noun.tags['role'] in direct_object_roles],
-            'indirect-object': [noun for noun in nouns if noun.tags['role'] in indirect_object_roles],
-            'modifiers':       [noun for noun in nouns if noun.tags['role'] not in nonmodifier_roles],
+            'subject':         [noun for noun in nouns if noun.tags['subjectivity'] == 'subject'],
+            'direct-object':   [noun for noun in nouns if noun.tags['subjectivity'] == 'direct-object'],
+            'indirect-object': [noun for noun in nouns if noun.tags['subjectivity'] == 'indirect-object'],
+            'modifier':        [noun for noun in nouns if noun.tags['subjectivity'] == 'modifier'],
         }
         verbs = [phrase
             for phrase in rules 
             if phrase.tag in {'vp'}]
         phrase_lookup = {
             **noun_lookup,
-            'subject': subjects,
             'verb': verbs,
         }
         return Rule(clause.tag, 
@@ -185,7 +178,7 @@ class RuleFormatting:
                 format_section(lookup, 'mood evidentiality confidence'.split()),
                 format_section(lookup, 'aspect progress'.split()),
                 format_section(lookup, 'verb completion strength voice tense'.split()),
-                format_section(lookup, 'case valency motion role'.split()),
+                format_section(lookup, 'case subjectivity valency motion role'.split()),
                 format_section(lookup, 'noun person number gender clusivity formality clitic partitivity'.split()),
                 format_section(lookup, 'language-type script'.split()),
                 format_section(lookup, 'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality'.split()),

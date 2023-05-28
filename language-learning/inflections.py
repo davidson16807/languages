@@ -55,7 +55,6 @@ case_episemaxis_to_episemes = {
     'role': [
         # NON-INDIRECT:
         # 'existential', # a noun that is declared within an existential clause
-        'solitary',    # a noun that performs the action of a intransitive verb
         'agent',       # a sentient noun that is interacting with a "patient" or "theme"
         'force',       # a nonsentient noun that is interacting with a "patient" or "theme"
         'patient',     # a noun that passively undergoes a state change
@@ -67,7 +66,6 @@ case_episemaxis_to_episemes = {
         # INDIRECT:
         'topic',       # a noun that is indicated as the topic of conversation, could be either indirect or nonindirect, and could exist in tandem with other nonindirect roles
         'comment',     # a noun that in some way relates to a "topic"
-        'audience',    # a noun that indicates the audience, i.e. the "vocative"
         'possessor',   # a noun that owns a "possession"
         'possession',  # a noun that is owned by a "possessor"
         'location', 'extent', 'vicinity', 'interior', 'medium', 'side', 'surface', 'subsurface', 
@@ -76,7 +74,7 @@ case_episemaxis_to_episemes = {
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'subjectivity': 'subject direct-object indirect-object modifier'.split(),
+    'subjectivity': 'subject addressee direct-object indirect-object modifier'.split(),
     'motion':  'departed associated acquired approached surpassed leveraged'.split(),
     'valency': 'impersonal intransitive transitive'.split(),
 }
@@ -223,7 +221,7 @@ tagaxis_to_tags = {
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
 
 
-    # how the valency of the verb is modified to emphasize or deemphasize certain nouns
+    # how the valency of the verb is modified to emphasize or deemphasize certain participants
     'voice':      'active passive middle antipassive applicative causative'.split(),
     # when an event occurs relative to the present
     'tense':      'present past future'.split(), 
@@ -744,7 +742,7 @@ class EnglishListSubstitution:
     #     aspect = memory['aspect']
     #     if aspect == 'imperfective':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
     #     if aspect == 'perfective':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
-    #     if aspect == 'perfective-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['imperfective', tree]]
+    #     if aspect == 'perfective-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['finished', 'v', 'be'], ['unfinished', tree]]
     #     return tree
     def aspect(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express aspect'''
@@ -820,16 +818,16 @@ class EnglishListSubstitution:
         else:
             aspect = 'simple'
         verb = {
-            'arrested':               [['passive','simple', 'implicit', 'v', 'halt'], 'from', 'finite', ['progressive', tree]],
-            'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['progressive', tree]],
-            'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['progressive', tree]],
-            'continued':              [['active', 'simple', 'implicit', 'v', 'continue'], 'finite', ['progressive', tree]],
-            # 'finished':             [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['progressive', tree]],
-            'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['progressive', tree]],
+            'arrested':               [['passive','simple', 'implicit', 'v', 'halt'], 'from', 'finite', ['unfinished', tree]],
+            'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['unfinished', tree]],
+            'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['unfinished', tree]],
+            'continued':              [['active', 'simple', 'implicit', 'v', 'continue'], 'finite', ['unfinished', tree]],
+            # 'finished':             [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['unfinished', tree]],
+            'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['unfinished', tree]],
             'simple':                 tree,
-            'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['perfective', 'v', 'be'], ['progressive', tree]],
-            'imperfective':           [['active', 'simple', 'v', 'be'],   'progressive', 'finite', tree],
-            'perfective':             [['active', 'simple', 'v', 'have'], 'perfective', 'finite', tree],
+            'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['finished', 'v', 'be'], ['unfinished', tree]],
+            'imperfective':           [['active', 'simple', 'v', 'be'],   'unfinished', 'finite', tree],
+            'perfective':             [['active', 'simple', 'v', 'have'], 'finished', 'finite', tree],
         }[aspect]
         # if (memory['verb'], progress, tense, memory['mood']) == ('go', 'finished', 'present', 'indicative'):
         #     breakpoint()
@@ -838,8 +836,8 @@ class EnglishListSubstitution:
     def voice(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express voice'''
         voice = memory['voice']
-        if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'perfective', tree]]
-        if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'perfective', tree]]
+        if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'finished', tree]]
+        if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'finished', tree]]
         return tree
     def formality_and_gender(self, machine, tree, memory):
         '''creates pronouns procedurally when necessary to capture distinctions in formality from other languages'''
@@ -884,6 +882,11 @@ rule_tools = RuleTools()
 card_formatting = CardFormatting()
 english_list_substitution = EnglishListSubstitution()
 
+# alignment = case_usage_population.index(
+#             case_usage_annotation.annotate(
+#                 tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')))
+# breakpoint()
+
 english_language = Language(
     ListSemantics(
         case_usage_population.index(
@@ -916,7 +919,7 @@ english_language = Language(
         ]),
         # debug=True,
     ),
-    RuleSyntax('subject verb direct-object indirect-object modifiers'.split()),
+    RuleSyntax('subject verb direct-object indirect-object modifier'.split()),
     {'language-type':'native'},
     list_tools,
     rule_tools,

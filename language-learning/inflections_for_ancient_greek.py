@@ -61,7 +61,7 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
         ]),
     ),
-    RuleSyntax('subject modifiers indirect-object direct-object verb'.split()),
+    RuleSyntax('subject modifier indirect-object direct-object verb'.split()),
     {'language-type':'foreign'},
     list_tools,
     rule_tools,
@@ -108,7 +108,7 @@ write('flashcards/ancient-greek/finite-conjugation.html',
         [demonstration.verb(
             substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
             stock_modifier = foreign_language.grammar.stock_modifier,
-            default_tree = 'clause [test-seme [np the n man] [vp conjugated]] [modifier-seme np test-seme stock-modifier]'
+            default_tree = 'clause [test [np the n man] [vp conjugated]] [modifier np test stock-modifier]'
         ) for demonstration in demonstrations],
         DictTupleIndexing([
             'gender','person','number','formality','clusivity','clitic',
@@ -185,7 +185,7 @@ write('flashcards/ancient-greek/finite-conjugation.html',
         ],
         tag_templates ={
             'test'       : {'noun-form': 'personal', 'role':'agent', 'motion':'associated'},
-            'modifier'   : {'noun-form': 'common', 'role':'modifier', 'motion':'associated'},
+            'modifier'   : {'noun-form': 'common', 'subjectivity':'modifier', 'motion':'associated'},
         },
     ))
 
@@ -410,7 +410,7 @@ write('flashcards/ancient-greek/participle-declension.html',
         [demonstration.case(
             stock_modifier = foreign_language.grammar.stock_modifier,
             substitutions = [
-                {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle-seme', 'cloze', 'v','verb'], ['modifier-seme', 'np', 'participle-seme', 'stock-modifier']]])},
+                {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
             ],
         ) for demonstration in demonstrations],
         DictTupleIndexing([

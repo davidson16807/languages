@@ -15,5 +15,5 @@ class Rule:
         return ' '.join([
                 self.tag,
                 '{'+' '.join([str(member) for member in self.content])+'}',
-                '{'+'\n'.join([f'  {key}:{self.tags[key]}' for key in sorted(self.tags.keys())])+'}',
+                '\n'.join(['{', *[f'  {key}:{self.tags[key]}' for key in sorted(self.tags.keys())], '}']),
             ])

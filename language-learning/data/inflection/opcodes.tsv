@@ -1,11 +1,9 @@
 			
 			
-default	Indicates that the remaining words in the list are associated with the grammeme key of the declension or conjugation that is being demonstrated		# grammeme keys
+test	Indicates that the remaining words in the list are associated with the grammeme key of the declension or conjugation that is being tested for		# grammeme keys
 speaker	Indicates that the remaining words in the list are associated with the grammeme key of the person making the statement that demonstrates the declension or conjugation		
-audience	Indicates that the remaining words in the list are associated with the grammeme key of the audience receiving the statement		
-sapient	Indicates that the remaining words in the list are associated with the grammeme key of a sapient that is introduced merely to demonstrate the declension or conjugation		
-patient	Indicates that the remaining words in the list are associated with the grammeme key of a patient that is introduced merely to demonstrate the declension or conjugation		
-inanimate	Indicates that the remaining words in the list are associated with the grammeme key of an inanimate thing that is introduced merely to demonstrate the declension or conjugation		
+dummy	Indicates that the remaining words in the list are associated with the grammeme key of an entity that merely exists to demonstrate a grammatical feature		
+addressee	Indicates that the remaining words in the list are associated with the grammeme key of the entity being addressed		
 possession	Indicates that the remaining words in the list are associated with the grammeme key of a possession that is introduced merely to demonstrate the declension or conjugation		
 			
 clause	Indicates that the remaining words in a list constitute a grammatical clause. Its contents are ordered to reflect the sentence structure of a language.		# language constructs

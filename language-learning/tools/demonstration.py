@@ -26,15 +26,15 @@ def TextDemonstration(
                 ])
             else:
                 return '\\placeholder'
-        def verb(self, substitutions, stock_modifier, default_tree):
+        def verb(self, substitutions, stock_modifier, default_tree, debug=False):
             def _demonstration(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
-                    # 'test-seme':      {**tags, **tag_templates['test']},
-                    # 'modifier-seme':  {**tags, **tag_templates['modifier']},
-                    'test-seme':      {**tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}},
-                    'modifier-seme':  {**tags, **{'noun-form': 'common', 'role':'modifier', 'motion':'associated'}},
-                    'speaker-seme':   {
+                    # 'test':      {**tags, **tag_templates['test']},
+                    # 'modifier':  {**tags, **tag_templates['modifier']},
+                    'test':      {**tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}},
+                    'modifier':  {**tags, **{'noun-form': 'common', 'role':'patient', 'subjectivity':'modifier', 'motion':'associated'}},
+                    'speaker':   {
                         **tags, 
                         **{'noun-form': 'personal', 'role':'agent', 'motion':'associated', 
                            'person': '1', 'number':'singular', 
@@ -48,36 +48,41 @@ def TextDemonstration(
                       if key in tags],
                 ]
                 return self.format_card(self.assemble(tags,
-                            self.orthography.map(parsing.parse(default_tree), semes, completed_substitutions),
+                            self.orthography.map(
+                                parsing.parse(default_tree), 
+                                semes, 
+                                completed_substitutions,
+                                debug=debug,
+                            ),
                             self.context(tags),
                         ).replace('∅',''))
             return _demonstration
-        def case(self, substitutions, stock_modifier, **junk):
+        def case(self, substitutions, debug=False, **junk):
             def _demonstration(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 noun = tags['noun'] if 'noun' in tags else None
                 predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
                 match = declension_template_matching.match(predicate, tags)
                 semes = {
-                    'test-seme':        {**tags, **tag_templates['test']},
-                    'solitary-seme':    {**tags, **tag_templates['solitary'],   'role':'solitary', 'motion':'associated'},
-                    'agent-seme':       {**tags, **tag_templates['agent'],      'role':'agent',    'motion':'associated'},
-                    'theme-seme':       {**tags, **tag_templates['theme'],      'role':'theme',    'motion':'associated'},
-                    'patient-seme':     {**tags, **tag_templates['patient'],    'role':'patient',  'motion':'associated'},
-                    'possession-seme':  {**tags, **tag_templates['possession'], 'role':'solitary', 'motion':'associated'},
-                    'modifier-seme':    {**tags, **(tag_templates['modifier'] if 'modifier' in tag_templates else {})},
-                    'participle-seme':  {**tags, **(tag_templates['participle'] if 'participle' in tag_templates else {})},
+                    'test':        {**tags, **tag_templates['test']},
+                    'dummy':       {**tags, **tag_templates['dummy']},
+                    'modifier':    {**tags, **(tag_templates['modifier'] if 'modifier' in tag_templates else {})},
+                    'participle':  {**tags, **(tag_templates['participle'] if 'participle' in tag_templates else {})},
                 }
                 completed_substitutions = [
                     *substitutions,
-                    {'stock-modifier': stock_modifier},
                     *[{key: tools.replace(tags[key])}
                       for key in ['noun','adjective','verb']
                       if key in tags],
                 ]
                 return self.format_card(
                         self.assemble(tags,
-                            self.orthography.map(parsing.parse(match['syntax-tree']), semes, completed_substitutions),
+                            self.orthography.map(
+                                parsing.parse(match['syntax-tree']), 
+                                semes, 
+                                completed_substitutions,
+                                debug=debug,
+                            ),
                             self.context(tags),
                         ).replace('∅','')) if match else '—'
 

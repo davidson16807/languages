@@ -63,8 +63,8 @@ class DictLookup:
         if type(key) in {tuple,str}:
             return key in self.content
         else:
-            return any(tuplekey in self.content 
-                       for tuplekey in self.indexing.tuplekeys(key))
+            tuplekeys = list(self.indexing.tuplekeys(key))
+            return len(tuplekeys) == 1 and tuplekeys[0] in self
     def __iter__(self):
         return self.content.__iter__()
     def __len__(self):
@@ -141,8 +141,8 @@ class DefaultDictLookup:
         if type(key) in {tuple,str}:
             return key in self.content
         else:
-            return any(tuplekey in self.content 
-                       for tuplekey in self.indexing.tuplekeys(key))
+            tuplekeys = list(self.indexing.tuplekeys(key))
+            return len(tuplekeys) == 1 and tuplekeys[0] in self
     def __iter__(self):
         return self.content.__iter__()
     def __len__(self):
