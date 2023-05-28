@@ -104,16 +104,6 @@ tenses = 'present past future'.split()
 voices = 'active passive'.split()
 subjectivity = 'addressee subject direct-object indirect-object modifier'.split()
 
-verb_voice_blacklist = DictLookup(
-    'verb voice filter', 
-    DictTupleIndexing('verb  voice'.split()),
-    content = {
-        ('be',      'passive'),
-        ('be-able', 'passive'),
-        ('want',    'passive'),
-        ('become',  'passive'),
-    })
-
 subjectivity_role_blacklist = DictLookup(
     'subjectivity role filter', 
     DictTupleIndexing('subjectivity  role'.split()),
@@ -165,15 +155,6 @@ mood_tense_whitelist = DictLookup(
 
 verb_usage_whitelists = [
     DictLookup(
-        'verb voice filter', 
-        DictTupleIndexing('verb  voice'.split()),
-        content = {
-            ('be',      'passive'),
-            ('be-able', 'passive'),
-            ('want',    'passive'),
-            ('become',  'passive'),
-        })
-    DictLookup(
         'tense aspect filter', 
         DictTupleIndexing(['tense', 'progress']),
         content = {
@@ -197,19 +178,27 @@ verb_usage_whitelists = [
 ]
 
 verb_usage_blacklists = [
-            verb_voice_blacklist,
-            DictLookup(
-                'verb aspect filter', 
-                DictTupleIndexing(['verb','progress']),
-                content = {
-                    ('become', 'finished'),
-                }),
-            DictLookup(
-                'verb mood filter', 
-                DictTupleIndexing(['verb','mood']),
-                content = {
-                    ('be-able', 'imperative'),
-                }),
+    DictLookup(
+        'verb aspect filter', 
+        DictTupleIndexing(['verb','progress']),
+        content = {
+            ('become', 'finished'),
+        }),
+    DictLookup(
+        'verb mood filter', 
+        DictTupleIndexing(['verb','mood']),
+        content = {
+            ('be-able', 'imperative'),
+        }),
+    DictLookup(
+        'verb voice filter', 
+        DictTupleIndexing('verb  voice'.split()),
+        content = {
+            ('be',      'passive'),
+            ('be-able', 'passive'),
+            ('want',    'passive'),
+            ('become',  'passive'),
+        }),
 ]
 
 write('flashcards/latin/finite-conjugation.html', 
@@ -242,43 +231,9 @@ write('flashcards/latin/finite-conjugation.html',
         whitelists = [
             pronoun_whitelist,
             mood_tense_whitelist,
-            DictLookup(
-                'tense aspect filter', 
-                DictTupleIndexing(['tense', 'progress']),
-                content = {
-                    ('present', 'atelic'),
-                    ('present', 'finished'),
-                    ('future',  'atelic'),
-                    ('future',  'finished'),
-                    ('past',    'unfinished'),
-                    ('past',    'finished'),
-                }),
-            DictLookup(
-                'voice progress', 
-                DictTupleIndexing(['voice','progress']),
-                content = {
-                    ('active',  'atelic'),
-                    ('active',  'unfinished'),
-                    ('active',  'finished'),
-                    ('passive', 'atelic'),
-                    ('passive', 'unfinished'),
-                }),
+            *verb_usage_whitelists,
         ],
-        blacklists = [
-            verb_voice_blacklist,
-            DictLookup(
-                'verb aspect filter', 
-                DictTupleIndexing(['verb','progress']),
-                content = {
-                    ('become', 'finished'),
-                }),
-            DictLookup(
-                'verb mood filter', 
-                DictTupleIndexing(['verb','mood']),
-                content = {
-                    ('be-able', 'imperative'),
-                }),
-        ],
+        blacklists = verb_usage_blacklists,
     ))
 
 write('flashcards/latin/common-noun-declension.html', 
@@ -542,7 +497,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
                     ('past',    'finished'),
                 }),
         ],
-        blacklists = [verb_voice_blacklist],
+        blacklists = verb_usage_blacklists,
     ))
 
 write('flashcards/latin/participle-declension.html', 
@@ -581,7 +536,10 @@ write('flashcards/latin/participle-declension.html',
                     ('past',    'finished'),
                 }),
         ],
-        blacklists = [verb_voice_blacklist, subjectivity_role_blacklist],
+        blacklists = [
+            subjectivity_role_blacklist, 
+            *verb_usage_blacklists
+        ],
         tag_templates ={
             'dummy'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
