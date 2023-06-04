@@ -95,11 +95,23 @@ class DictSet:
     A 'dictkey' is a dictionary that maps each key to either a value or a set of values.
     A 'dictkey' is indexed by one or more 'tuplekeys', which are ordinary tuples of values.
     '''
-    def __init__(self, name, indexing, content=None):
+    def __init__(self, name, indexing, sequence=None, content=None):
         self.name = name
         self.indexing = indexing
-        self.content = set() if content is None else content
-        misaligned = [len(tuplekey) for tuplekey in self.content if len(tuplekey) != len(indexing.keys)]
+        assert (sequence is None) != (content is None)
+        if sequence:
+            self.sequence = []
+            self.content = set()
+            for element in sequence:
+                if element not in self.content:
+                    self.sequence.append(element)
+                    self.content.add(element)
+        elif content:
+            self.sequence = [x for x in content]
+            self.content = content
+        misaligned = [len(tuplekey) 
+            for tuplekey in self.sequence 
+            if len(tuplekey) != len(indexing.keys)]
         if misaligned:
             raise ValueError(
                 f'DictSpace indexing is misaligned with keys: expected {len(indexing.keys)}, got '+
@@ -133,12 +145,12 @@ class DictSet:
         return self|DictSpace('fallback',
                         other.indexing - self.indexing,
                         other.key_to_values)
-    def __or__(self, other):
+    def __mul__(self, other):
         '''
-        Return the union of two `DictSet`s.
+        Return the cartesian product of two `DictSet`s.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
-        name = f'{self.name} | {other.name}'
+        name = f'{self.name} * {other.name}'
         indexing = self.indexing | other.indexing
         result = DictSet(name,
             indexing,
@@ -153,8 +165,8 @@ class DictSet:
                          if key in dictkey}
                     for key in indexing.keys
                 })
-                # if indexing.dictkey(tuplekey) in self
-                # or indexing.dictkey(tuplekey) in other
+                if indexing.dictkey(tuplekey) in self
+                or indexing.dictkey(tuplekey) in other
             ])
         if result.empty(): raise ValueError(f'Empty DictSet: {name}')
         return result
@@ -163,17 +175,12 @@ class DictSet:
         Return the intersection of two `DictSet`s whose keys are disjoint.
         If keys are not disjoint, replace values from `self` with those of `other`.
         '''
-        product = self|(other if type(other) != DictSpace 
-                        else DictSpace('temporary',
-                                other.indexing - self.indexing,
-                                other.key_to_values))
         name = f'{self.name} & {other.name}'
         result = DictSet(name,
             product.indexing,
             [tuplekey
-             for tuplekey in product
-             if product.indexing.dictkey(tuplekey) in self
-             and product.indexing.dictkey(tuplekey) in other])
+             for tuplekey in self
+             if self.indexing.dictkey(tuplekey) in other])
         if result.empty(): raise ValueError(f'Empty DictSet: {name}')
         return result
     def __sub__(self, other):
@@ -185,9 +192,8 @@ class DictSet:
         result = DictSet(name,
             product.indexing,
             [tuplekey
-             for tuplekey in product
-             if product.indexing.dictkey(tuplekey) in self
-             and product.indexing.dictkey(tuplekey) not in other])
+             for tuplekey in self
+             if self.indexing.dictkey(tuplekey) not in other])
         if result.empty(): raise ValueError(f'Empty DictSet: {name}')
         return result
 
@@ -252,7 +258,7 @@ class DictSpace:
             return other|DictSpace('fallback',
                             self.indexing - other.indexing,
                             self.key_to_values)
-    def __or__(self, other):
+    def __mul__(self, other):
         '''
         Return the union of two `DictSpace`s.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
@@ -262,7 +268,7 @@ class DictSpace:
             # the type of `other` could be anything, but union is commutative, so just ask `other` what to do if you don't know
             other|self if type(other) != DictSpace
             else DictSpace(
-                f'{self.name} | {other.name}',
+                f'{self.name} * {other.name}',
                 indexing, 
                 {key: set(self.key_to_values[key] if key in self.key_to_values else []) | 
                       set(other.key_to_values[key] if key in other.key_to_values else [])
@@ -273,37 +279,44 @@ class DictSpace:
         Return the intersection of two `DictSpace`s whose keys are disjoint.
         If keys are not disjoint, replace values from `self` with those of `other`.
         '''
-        indexing = self.indexing | other.indexing
-        return (
-            # the type of `other` could be anything, but union is commutative, so just ask `other` what to do if you don't know
-            other&self if type(other) != DictSpace 
-            else DictSpace(
-                f'{self.name} & {other.name}',
-                indexing, 
-                {key: set(self.key_to_values[key] if key in self.key_to_values else other.key_to_values[key]) & 
-                      set(other.key_to_values[key] if key in other.key_to_values else self.key_to_values[key])
-                 for key in indexing.keys})
-        )
+        name = f'{self.name} & {other.name}'
+        if type(other) == DictSet:
+            result = DictSet(
+                    name, self.indexing,
+                    sequence = [
+                        self.indexing.dictkey(tuplekey) in other
+                        for tuplekey in self])
+        elif type(other) == DictSpace:
+            indexing = self.indexing | other.indexing
+            result = DictSpace(
+                    name, indexing, 
+                    {key: set(self.key_to_values[key] if key in self.key_to_values else other.key_to_values[key]) & 
+                          set(other.key_to_values[key] if key in other.key_to_values else self.key_to_values[key])
+                     for key in indexing.keys})
+        if result.empty():
+            raise ValueError(f'Empty DictSet: {name}')
+        return result
     def __sub__(self, other):
         '''
         Return the negation of two `DictSpace`s.
         '''
-        indexing = self.indexing | other.indexing
-        if type(other) != DictSpace:
-            product = self|other
-            return DictSet(f'({self.name})-({other.name})',
-                product.indexing,
-                [tuplekey
-                 for tuplekey in product
-                 if product.indexing.dictkey(tuplekey) in self
-                 and product.indexing.dictkey(tuplekey) not in other])
-        else:
-            return DictSpace(
-                    f'({self.name})-({other.name})',
-                    indexing, 
+        name = f'{self.name} & {other.name}'
+        if type(other) == DictSet:
+            result = DictSet(
+                    name, self.indexing,
+                    sequence = [
+                        self.indexing.dictkey(tuplekey) not in other
+                        for tuplekey in self])
+        elif type(other) == DictSpace:
+            indexing = self.indexing | other.indexing
+            result = DictSpace(
+                    name, indexing, 
                     {key: set(self.key_to_values[key] if key in self.key_to_values else []) - 
                           set(other.key_to_values[key] if key in other.key_to_values else [])
                      for key in indexing.keys})
+        if result.empty():
+            raise ValueError(f'Empty DictSet: {name}')
+        return result
 
 class DefaultDictLookup:
     '''
