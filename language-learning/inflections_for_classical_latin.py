@@ -1,4 +1,4 @@
-from tools.lookup import DictSet
+from tools.lookup import DictSet, DictSpace
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.cards import DeckGeneration
 from tools.languages import Language
@@ -209,25 +209,27 @@ write('flashcards/latin/finite-conjugation.html',
             # default_tree = 'clause test [np the n man] [vp conjugated] [modifier np test stock-modifier]',
             default_tree = 'clause [test [np the n man] [vp conjugated]] [test modifier np stock-modifier]',
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'gender','person','number','formality','clusivity','clitic',
-            'tense', 'progress', 'mood', 'voice', 'verb', 'verb-form']),
-        {
-            **tag_defaults,
-            'gender':      genders,
-            'person':    ['1','2','3'],
-            'number':      numbers,
-            'progress':    progress,
-            'mood':        moods,
-            'tense':       tenses,
-            'voice':       voices,
-            'verb':        verbs,
-            'subjectivity':'subject',
-            'animacy':    'sapient',
-            'noun-form':  'personal',
-            'verb-form':  'finite',
-        },
+        DictSpace(
+            'traversal',
+            DictTupleIndexing([
+                # categories that are iterated over
+                'gender','person','number','formality','clusivity','clitic',
+                'tense', 'progress', 'mood', 'voice', 'verb', 'verb-form']),
+            {
+                **tag_defaults,
+                'gender':      genders,
+                'person':    ['1','2','3'],
+                'number':      numbers,
+                'progress':    progress,
+                'mood':        moods,
+                'tense':       tenses,
+                'voice':       voices,
+                'verb':        verbs,
+                'subjectivity':'subject',
+                'animacy':    'sapient',
+                'noun-form':  'personal',
+                'verb-form':  'finite',
+            }),
         whitelists = [
             pronoun_whitelist,
             mood_tense_whitelist,
@@ -242,20 +244,22 @@ write('flashcards/latin/common-noun-declension.html',
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'subjectivity', 'motion', 'role', 'number', 'noun', 'gender',]),
-        {
-            **tag_defaults,
-            'noun':        nouns,
-            'number':      numbers,
-            'role':        roles,
-            'motion':      motions,
-            'subjectivity':subjectivity,
-            'animacy':    'thing',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
+        DictSpace(
+            'traversal',
+            DictTupleIndexing([
+                    # categories that are iterated over
+                    'subjectivity', 'motion', 'role', 'number', 'noun', 'gender',]),
+                {
+                    **tag_defaults,
+                    'noun':        nouns,
+                    'number':      numbers,
+                    'role':        roles,
+                    'motion':      motions,
+                    'subjectivity':subjectivity,
+                    'animacy':    'thing',
+                    'noun-form':  'common',
+                    'verb-form':  'finite',
+                }),
         whitelists = [subjectivity_motion_whitelist],
         blacklists = [subjectivity_role_blacklist],
         tag_templates ={
@@ -270,21 +274,23 @@ write('flashcards/latin/pronoun-declension.html',
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            'noun', 'gender', 'person', 'number', 'subjectivity', 'motion', 'role',]),
-        {
-            **tag_defaults,
-            'noun':      ['man','woman','snake'],
-            'person':    ['1','2','3'],
-            'gender':      genders,
-            'role':        roles,
-            'motion':      motions,
-            'number':      numbers,
-            'subjectivity':subjectivity,
-            'animacy':    'animate',
-            'noun-form':  'personal',
-            'verb-form':  'finite',
-        },
+        DictSpace(
+            'traversal',
+            DictTupleIndexing([
+                    'noun', 'gender', 'person', 'number', 'subjectivity', 'motion', 'role',]),
+                {
+                    **tag_defaults,
+                    'noun':      ['man','woman','snake'],
+                    'person':    ['1','2','3'],
+                    'gender':      genders,
+                    'role':        roles,
+                    'motion':      motions,
+                    'number':      numbers,
+                    'subjectivity':subjectivity,
+                    'animacy':    'animate',
+                    'noun-form':  'personal',
+                    'verb-form':  'finite',
+                }),
         whitelists = [
             subjectivity_motion_whitelist,
             DictSet(
@@ -320,18 +326,20 @@ write('flashcards/latin/adpositions.html',
                 {'stock-adposition': list_tools.wrap('cloze')},
             ],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'subjectivity', 'motion', 'role', 'number', 'noun', 'gender', ]),
-        {
-            **tag_defaults,
-            'motion':      case_episemaxis_to_episemes['motion'],
-            'role':        case_episemaxis_to_episemes['role'],
-            'subjectivity':'modifier',
-            'animacy':    'thing',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
+        DictSpace(
+            'traversal',
+            DictTupleIndexing([
+                    # categories that are iterated over
+                    'subjectivity', 'motion', 'role', 'number', 'noun', 'gender', ]),
+                {
+                    **tag_defaults,
+                    'motion':      case_episemaxis_to_episemes['motion'],
+                    'role':        case_episemaxis_to_episemes['role'],
+                    'subjectivity':'modifier',
+                    'animacy':    'thing',
+                    'noun-form':  'common',
+                    'verb-form':  'finite',
+                }),
         tag_templates ={
             'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
             'test'       : {'noun-form':'common'},
@@ -344,22 +352,24 @@ write('flashcards/latin/adjective-agreement.html',
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
         ) for demonstration in demonstrations], 
-        DictTupleIndexing([
-            # categories that are iterated over
-            'subjectivity', 'motion', 'role', 'number', 'noun', 'gender', 'adjective',]),
-        {
-            **tag_defaults,
-            'noun':      ['man','woman','animal'] ,
-            'adjective':   adjectives,
-            'number':      numbers,
-            'gender':      genders,
-            'role':        roles,
-            'motion':      motions,
-            'subjectivity':subjectivity,
-            'animacy':    'thing',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
+        DictSpace(
+            'traversal',
+            DictTupleIndexing([
+                    # categories that are iterated over
+                    'subjectivity', 'motion', 'role', 'number', 'noun', 'gender', 'adjective',]),
+                {
+                    **tag_defaults,
+                    'noun':      ['man','woman','animal'] ,
+                    'adjective':   adjectives,
+                    'number':      numbers,
+                    'gender':      genders,
+                    'role':        roles,
+                    'motion':      motions,
+                    'subjectivity':subjectivity,
+                    'animacy':    'thing',
+                    'noun-form':  'common',
+                    'verb-form':  'finite',
+                }),
         whitelists = [
             subjectivity_motion_whitelist,
             DictSet(
@@ -386,30 +396,32 @@ write('flashcards/latin/pronoun-possessives.html',
                 {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])},
             ],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'subjectivity', 'motion', 'role', 'number', 'noun', 'gender', 
-            'possessor-gender', 'possessor-noun', 
-            'possessor-clusivity', 'possessor-formality', 
-            'possessor-person', 'possessor-number',]),
-        {
-            **tag_defaults,
-            'possessor-noun':   ['man','woman','snake'],
-            'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
-            'possessor-number': ['singular-possessor','plural-possessor'],
-            'possessor-person': ['1st-possessor','2nd-possessor','3rd-possessor'],
-            'possessor-clusivity': 'exclusive-possessor',
-            'possessor-formality': 'familiar-possessor',
-            'noun':      ['son','daughter','livestock'],
-            'number':      numbers,
-            'gender':      genders,
-            'role':        roles,
-            'motion':      motions,
-            'subjectivity':subjectivity,
-            'animacy':    'thing',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
+        DictSpace(
+            'traversal',
+            DictTupleIndexing([
+                    # categories that are iterated over
+                    'subjectivity', 'motion', 'role', 'number', 'noun', 'gender', 
+                    'possessor-gender', 'possessor-noun', 
+                    'possessor-clusivity', 'possessor-formality', 
+                    'possessor-person', 'possessor-number',]),
+                {
+                    **tag_defaults,
+                    'possessor-noun':   ['man','woman','snake'],
+                    'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
+                    'possessor-number': ['singular-possessor','plural-possessor'],
+                    'possessor-person': ['1st-possessor','2nd-possessor','3rd-possessor'],
+                    'possessor-clusivity': 'exclusive-possessor',
+                    'possessor-formality': 'familiar-possessor',
+                    'noun':      ['son','daughter','livestock'],
+                    'number':      numbers,
+                    'gender':      genders,
+                    'role':        roles,
+                    'motion':      motions,
+                    'subjectivity':subjectivity,
+                    'animacy':    'thing',
+                    'noun-form':  'common',
+                    'verb-form':  'finite',
+                }),
         whitelists = [
             subjectivity_motion_whitelist,
             DictSet(
@@ -470,22 +482,24 @@ write('flashcards/latin/nonfinite-conjugation.html',
                 default_tree = 'clause [speaker [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
         ],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'gender','person','number','formality','clusivity','clitic',
-            'tense', 'progress', 'mood', 'voice', 'verb', 'verb-form', ]),
-        {
-            **tag_defaults,
-            'voice':       voices,
-            'progress':    progress,
-            'tense':       tenses,
-            'voice':       voices,
-            'verb':        verbs,
-            'subjectivity':'subject',
-            'animacy':    'sapient',
-            'noun-form':  'personal',
-            'verb-form':  'finite',
-        },
+        DictSpace(
+            'traversal',
+            DictTupleIndexing([
+                    # categories that are iterated over
+                    'gender','person','number','formality','clusivity','clitic',
+                    'tense', 'progress', 'mood', 'voice', 'verb', 'verb-form', ]),
+                {
+                    **tag_defaults,
+                    'voice':       voices,
+                    'progress':    progress,
+                    'tense':       tenses,
+                    'voice':       voices,
+                    'verb':        verbs,
+                    'subjectivity':'subject',
+                    'animacy':    'sapient',
+                    'noun-form':  'personal',
+                    'verb-form':  'finite',
+                }),
         whitelists = [
             pronoun_whitelist,
             mood_tense_whitelist,
@@ -508,24 +522,26 @@ write('flashcards/latin/participle-declension.html',
                 {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
             ],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'tense', 'voice', 'progress', 'mood', 
-            'subjectivity', 'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
-        {
-            **tag_defaults,
-            'motion':      case_episemaxis_to_episemes['motion'],
-            'role':        'agent',
-            'valency':     'transitive',
-            'verb':        verbs,
-            'animacy':    'thing',
-            'tense':       tenses, 
-            'voice':       voices,
-            'subjectivity':subjectivity,
-            'progress':    ['atelic','finished'], 
-            'verb-form':  'participle',
-            'noun-form':  'common',
-        },
+        DictSpace(
+            'traversal',
+            DictTupleIndexing([
+                    # categories that are iterated over
+                    'tense', 'voice', 'progress', 'mood', 
+                    'subjectivity', 'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
+                {
+                    **tag_defaults,
+                    'motion':      case_episemaxis_to_episemes['motion'],
+                    'role':        'agent',
+                    'valency':     'transitive',
+                    'verb':        verbs,
+                    'animacy':    'thing',
+                    'tense':       tenses, 
+                    'voice':       voices,
+                    'subjectivity':subjectivity,
+                    'progress':    ['atelic','finished'], 
+                    'verb-form':  'participle',
+                    'noun-form':  'common',
+                }),
         whitelists = [
             subjectivity_motion_whitelist,
             DictSet(
