@@ -105,7 +105,8 @@ voices = 'active passive'.split()
 subjectivity = 'addressee subject direct-object indirect-object modifier'.split()
 
 subjectivity_role_blacklist = DictSet(
-    'subjectivity role filter', 
+    'subjectivity_role_blacklist', 
+
     DictTupleIndexing('subjectivity  role'.split()),
     content = {
         ('subject',       'audience'),
@@ -114,7 +115,7 @@ subjectivity_role_blacklist = DictSet(
     })
 
 subjectivity_motion_whitelist = DictSet(
-    'subjectivity motion filter', 
+    'subjectivity_motion_whitelist', 
     DictTupleIndexing('subjectivity  motion'.split()),
     content = {
         ('subject',  'associated'),
@@ -128,8 +129,8 @@ subjectivity_motion_whitelist = DictSet(
         ('modifier', 'leveraged'),
     })
 
-pronoun_whitelist = DictSet(
-    'pronoun filter', 
+conjugation_pronoun_whitelist = DictSet(
+    'conjugation_pronoun_whitelist', 
     DictTupleIndexing('person number gender'.split()),
     content = {
         ('1', 'singular', 'neuter'),
@@ -141,7 +142,7 @@ pronoun_whitelist = DictSet(
     })
 
 mood_tense_whitelist = DictSet(
-    'mood tense filter', 
+    'mood_tense_whitelist', 
     DictTupleIndexing('mood tense'.split()),
     content = {
         ('indicative',  'present'),
@@ -167,7 +168,7 @@ finite_tense_progress_whitelist = DictSet(
     })
 
 voice_progress_whitelist = DictSet(
-    'voice progress', 
+    'voice_progress_whitelist', 
     DictTupleIndexing(['voice','progress']),
     content = {
         ('active',  'atelic'),
@@ -202,7 +203,7 @@ verb_voice_blacklist = DictSet(
     })
 
 declension_pronoun_whitelist = DictSet(
-    'pronoun filter', 
+    'declension_pronoun_whitelist', 
     DictTupleIndexing(['noun', 'person', 'number', 'gender']),
     content = {
         ('man',   '1', 'singular', 'neuter'   ),
@@ -218,7 +219,7 @@ declension_pronoun_whitelist = DictSet(
     })
 
 gender_agreement_whitelist = DictSet(
-    'adjective agreement noun filter', 
+    'gender_agreement_whitelist', 
     DictTupleIndexing(['gender', 'noun']),
     content = {
         ('masculine', 'man'   ),
@@ -266,6 +267,7 @@ possessor_pronoun_whitelist = DictSet(
         ('man',   '3rd-possessor', 'plural-possessor',   'neuter-possessor'   ),
     })
 
+print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.verb(
@@ -274,7 +276,7 @@ write('flashcards/latin/finite-conjugation.html',
             # default_tree = 'clause test [np the n man] [vp conjugated] [modifier np test stock-modifier]',
             default_tree = 'clause [test [np the n man] [vp conjugated]] [test modifier np stock-modifier]',
         ) for demonstration in demonstrations],
-        DictSpace(
+        (DictSpace(
             'traversal',
             DictTupleIndexing([
                 # categories that are iterated over
@@ -294,39 +296,37 @@ write('flashcards/latin/finite-conjugation.html',
                 'animacy':    'sapient',
                 'noun-form':  'personal',
                 'verb-form':  'finite',
-            }),
-        whitelists = [
-            pronoun_whitelist,
-            mood_tense_whitelist,
-            finite_tense_progress_whitelist,
-            voice_progress_whitelist
-        ],
-        blacklists = [verb_progress_blacklist, verb_mood_blacklist, verb_voice_blacklist],
+            })
+            & conjugation_pronoun_whitelist
+            & mood_tense_whitelist
+            & finite_tense_progress_whitelist
+            & voice_progress_whitelist) - verb_progress_blacklist - verb_mood_blacklist - verb_voice_blacklist,
     ))
 
+print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html', 
     deck_generation.generate(
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        DictSpace(
-            'traversal',
-            DictTupleIndexing([
-                    # categories that are iterated over
-                    'subjectivity', 'motion', 'role', 'number', 'noun', 'gender',]),
-                {
-                    **tag_defaults,
-                    'noun':        nouns,
-                    'number':      numbers,
-                    'role':        roles,
-                    'motion':      motions,
-                    'subjectivity':subjectivity,
-                    'animacy':    'thing',
-                    'noun-form':  'common',
-                    'verb-form':  'finite',
-                }),
-        whitelists = [subjectivity_motion_whitelist],
-        blacklists = [subjectivity_role_blacklist],
+        (DictSpace(
+             'traversal',
+             DictTupleIndexing([
+                     # categories that are iterated over
+                     'subjectivity', 'motion', 'role', 'number', 'noun', 'gender',]),
+                 {
+                     **tag_defaults,
+                     'noun':        nouns,
+                     'number':      numbers,
+                     'role':        roles,
+                     'motion':      motions,
+                     'subjectivity':subjectivity,
+                     'animacy':    'thing',
+                     'noun-form':  'common',
+                     'verb-form':  'finite',
+                 }) 
+                 & subjectivity_motion_whitelist) 
+                 - subjectivity_role_blacklist,
         tag_templates ={
             'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'common'},
@@ -334,11 +334,12 @@ write('flashcards/latin/common-noun-declension.html',
         },
     ))
 
+print('flashcards/latin/pronoun-declension.html')
 write('flashcards/latin/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
-        ) for demonstration in demonstrations],
+        ) for demonstration in demonstrations],(
         DictSpace(
             'traversal',
             DictTupleIndexing([
@@ -355,12 +356,10 @@ write('flashcards/latin/pronoun-declension.html',
                     'animacy':    'animate',
                     'noun-form':  'personal',
                     'verb-form':  'finite',
-                }),
-        whitelists = [
-            subjectivity_motion_whitelist,
-            declension_pronoun_whitelist, 
-        ],
-        blacklists = [subjectivity_role_blacklist],
+                }) 
+                & subjectivity_motion_whitelist
+                & declension_pronoun_whitelist)
+                - subjectivity_role_blacklist,
         tag_templates ={
             'dummy'      : {'noun-form':'common', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'personal'},
@@ -369,6 +368,7 @@ write('flashcards/latin/pronoun-declension.html',
     ))
 
 
+print('flashcards/latin/adpositions.html')
 write('flashcards/latin/adpositions.html', 
     deck_generation.generate(
         [demonstration.case(
@@ -398,12 +398,13 @@ write('flashcards/latin/adpositions.html',
         },
     ))
 
+print('flashcards/latin/adjective-agreement.html')
 write('flashcards/latin/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
         ) for demonstration in demonstrations], 
-        DictSpace(
+        (DictSpace(
             'traversal',
             DictTupleIndexing([
                     # categories that are iterated over
@@ -420,12 +421,10 @@ write('flashcards/latin/adjective-agreement.html',
                     'animacy':    'thing',
                     'noun-form':  'common',
                     'verb-form':  'finite',
-                }),
-        whitelists = [
-            subjectivity_motion_whitelist,
-            gender_agreement_whitelist,
-        ],
-        blacklists = [subjectivity_role_blacklist],
+                }) 
+                & subjectivity_motion_whitelist
+                & gender_agreement_whitelist)
+                - subjectivity_role_blacklist,
         tag_templates ={
             'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'common'},
@@ -433,6 +432,7 @@ write('flashcards/latin/adjective-agreement.html',
         },
     ))
 
+print('flashcards/latin/pronoun-possessives.html')
 write('flashcards/latin/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.case(
@@ -440,7 +440,7 @@ write('flashcards/latin/pronoun-possessives.html',
                 {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])},
             ],
         ) for demonstration in demonstrations],
-        DictSpace(
+        (DictSpace(
             'traversal',
             DictTupleIndexing([
                     # categories that are iterated over
@@ -465,13 +465,11 @@ write('flashcards/latin/pronoun-possessives.html',
                     'animacy':    'thing',
                     'noun-form':  'common',
                     'verb-form':  'finite',
-                }),
-        whitelists = [
-            subjectivity_motion_whitelist,
-            possession_whitelist,
-            possessor_pronoun_whitelist,
-        ],
-        blacklists = [subjectivity_role_blacklist],
+                }) 
+                & subjectivity_motion_whitelist
+                & possession_whitelist
+                & possessor_pronoun_whitelist)
+                - subjectivity_role_blacklist,
         tag_templates ={
             'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'personal-possessive'},
@@ -479,6 +477,7 @@ write('flashcards/latin/pronoun-possessives.html',
         },
     ))
 
+print('flashcards/latin/nonfinite-conjugation.html')
 write('flashcards/latin/nonfinite-conjugation.html', 
     deck_generation.generate(
         [
@@ -499,7 +498,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
                 default_tree = 'clause [speaker [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
         ],
-        DictSpace(
+        (DictSpace(
             'traversal',
             DictTupleIndexing([
                     # categories that are iterated over
@@ -516,15 +515,16 @@ write('flashcards/latin/nonfinite-conjugation.html',
                     'animacy':    'sapient',
                     'noun-form':  'personal',
                     'verb-form':  'finite',
-                }),
-        whitelists = [
-            pronoun_whitelist,
-            mood_tense_whitelist,
-            nonfinite_tense_progress_whitelist,
-        ],
-        blacklists = [verb_progress_blacklist, verb_mood_blacklist, verb_voice_blacklist],
+                }) 
+                & conjugation_pronoun_whitelist
+                & mood_tense_whitelist
+                & nonfinite_tense_progress_whitelist)
+                - verb_progress_blacklist
+                - verb_mood_blacklist
+                - verb_voice_blacklist,
     ))
 
+print('flashcards/latin/participle-declension.html')
 write('flashcards/latin/participle-declension.html', 
     deck_generation.generate(
         [demonstration.case(
@@ -532,7 +532,7 @@ write('flashcards/latin/participle-declension.html',
                 {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
             ],
         ) for demonstration in demonstrations],
-        DictSpace(
+        (DictSpace(
             'traversal',
             DictTupleIndexing([
                     # categories that are iterated over
@@ -551,17 +551,13 @@ write('flashcards/latin/participle-declension.html',
                     'progress':    ['atelic','finished'], 
                     'verb-form':  'participle',
                     'noun-form':  'common',
-                }),
-        whitelists = [
-            subjectivity_motion_whitelist,
-            nonfinite_tense_progress_whitelist,
-        ],
-        blacklists = [
-            subjectivity_role_blacklist, 
-            verb_progress_blacklist, 
-            verb_mood_blacklist, 
-            verb_voice_blacklist
-        ],
+                }) 
+                & subjectivity_motion_whitelist
+                & nonfinite_tense_progress_whitelist)
+                - subjectivity_role_blacklist 
+                - verb_progress_blacklist 
+                - verb_mood_blacklist 
+                - verb_voice_blacklist,
         tag_templates ={
             'dummy'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},

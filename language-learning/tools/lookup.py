@@ -98,19 +98,20 @@ class DictSet:
     def __init__(self, name, indexing, sequence=None, content=None):
         self.name = name
         self.indexing = indexing
-        assert (sequence is None) != (content is None)
-        if sequence:
+        if sequence is not None:
             self.sequence = []
             self.content = set()
             for element in sequence:
                 if element not in self.content:
                     self.sequence.append(element)
                     self.content.add(element)
-        elif content:
+        elif content is not None:
             self.sequence = [x for x in content]
             self.content = content
+        else:
+            raise ValueError('Either sequence or content must be specified')
         misaligned = [len(tuplekey) 
-            for tuplekey in self.sequence 
+            for tuplekey in self.sequence
             if len(tuplekey) != len(indexing.keys)]
         if misaligned:
             raise ValueError(
@@ -154,7 +155,7 @@ class DictSet:
         indexing = self.indexing | other.indexing
         result = DictSet(name,
             indexing,
-            [
+            sequence = [
                 tuplekey
                 for dictkeys in itertools.product(
                     [other.indexing.dictkey(tuplekey) for tuplekey in other],
@@ -177,23 +178,22 @@ class DictSet:
         '''
         name = f'{self.name} & {other.name}'
         result = DictSet(name,
-            product.indexing,
-            [tuplekey
-             for tuplekey in self
-             if self.indexing.dictkey(tuplekey) in other])
+            self.indexing,
+            sequence = [tuplekey
+                 for tuplekey in self
+                 if self.indexing.dictkey(tuplekey) in other])
         if result.empty(): raise ValueError(f'Empty DictSet: {name}')
         return result
     def __sub__(self, other):
         '''
         Return the negation of two `DictSet`s.
         '''
-        product = self|other
-        name = f'({self.name}) - ({other.name})'
+        name = f'{self.name} - {other.name}'
         result = DictSet(name,
-            product.indexing,
-            [tuplekey
-             for tuplekey in self
-             if self.indexing.dictkey(tuplekey) not in other])
+            self.indexing,
+            sequence = [tuplekey
+                 for tuplekey in self
+                 if self.indexing.dictkey(tuplekey) not in other])
         if result.empty(): raise ValueError(f'Empty DictSet: {name}')
         return result
 
@@ -280,19 +280,11 @@ class DictSpace:
         If keys are not disjoint, replace values from `self` with those of `other`.
         '''
         name = f'{self.name} & {other.name}'
-        if type(other) == DictSet:
-            result = DictSet(
-                    name, self.indexing,
-                    sequence = [
-                        self.indexing.dictkey(tuplekey) in other
-                        for tuplekey in self])
-        elif type(other) == DictSpace:
-            indexing = self.indexing | other.indexing
-            result = DictSpace(
-                    name, indexing, 
-                    {key: set(self.key_to_values[key] if key in self.key_to_values else other.key_to_values[key]) & 
-                          set(other.key_to_values[key] if key in other.key_to_values else self.key_to_values[key])
-                     for key in indexing.keys})
+        result = DictSet(
+                name, self.indexing,
+                sequence = [tuplekey
+                    for tuplekey in self
+                    if self.indexing.dictkey(tuplekey) in other])
         if result.empty():
             raise ValueError(f'Empty DictSet: {name}')
         return result
@@ -300,20 +292,12 @@ class DictSpace:
         '''
         Return the negation of two `DictSpace`s.
         '''
-        name = f'{self.name} & {other.name}'
-        if type(other) == DictSet:
-            result = DictSet(
-                    name, self.indexing,
-                    sequence = [
-                        self.indexing.dictkey(tuplekey) not in other
-                        for tuplekey in self])
-        elif type(other) == DictSpace:
-            indexing = self.indexing | other.indexing
-            result = DictSpace(
-                    name, indexing, 
-                    {key: set(self.key_to_values[key] if key in self.key_to_values else []) - 
-                          set(other.key_to_values[key] if key in other.key_to_values else [])
-                     for key in indexing.keys})
+        name = f'{self.name} - {other.name}'
+        result = DictSet(
+                name, self.indexing,
+                sequence = [tuplekey
+                    for tuplekey in self
+                    if self.indexing.dictkey(tuplekey) not in other])
         if result.empty():
             raise ValueError(f'Empty DictSet: {name}')
         return result

@@ -24,7 +24,7 @@ class DeckGeneration:
             tag_templates={},
         ):
         for tuplekey in traversal:
-            tags = {**traversal.key_to_values, **traversal.indexing.dictkey(tuplekey)}
+            tags = traversal.indexing.dictkey(tuplekey)
             if (all([tags in whitelist for whitelist in whitelists]) and 
                 all([tags not in blacklist for blacklist in blacklists])):
                 card = ' '.join([
