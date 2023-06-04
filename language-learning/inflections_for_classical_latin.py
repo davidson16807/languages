@@ -296,7 +296,55 @@ write('flashcards/latin/finite-conjugation.html',
             & conjugation_pronoun_whitelist
             & mood_tense_whitelist
             & finite_tense_progress_whitelist
-            & voice_progress_whitelist) - verb_progress_blacklist - verb_mood_blacklist - verb_voice_blacklist,
+            & voice_progress_whitelist) 
+            - verb_progress_blacklist 
+            - verb_mood_blacklist 
+            - verb_voice_blacklist,
+    ))
+
+print('flashcards/latin/nonfinite-conjugation.html')
+write('flashcards/latin/nonfinite-conjugation.html', 
+    deck_generation.generate(
+        [
+            emoji_demonstration.verb(
+                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
+                stock_modifier = foreign_language.grammar.stock_modifier,
+            ),
+            foreign_demonstration.verb(
+                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
+                stock_modifier = foreign_language.grammar.stock_modifier,
+                # default_tree = 'clause [test [np the n man] [infinitive vp conjugated]] [modifier test np stock-modifier]',
+                default_tree = 'clause [speaker [vp v figure]] [modifier np clause [test [np the n man] [infinitive vp conjugated]]] [test modifier np stock-modifier]',
+            ),
+            english_demonstration.verb(
+                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
+                stock_modifier = foreign_language.grammar.stock_modifier,
+                # default_tree = 'clause [test [np the n man] [vp conjugated]] [modifier np test stock-modifier]',
+                default_tree = 'clause [speaker [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
+            ),
+        ],
+        (DictSpace(
+            'traversal',
+            DictTupleIndexing(
+                    '''gender person number formality clusivity tense progress mood voice verb'''.split()),
+                {
+                    **tag_defaults,
+                    'subjectivity':'subject',
+                    'animacy':    'sapient',
+                    'noun-form':  'personal',
+                    'verb-form':  'finite',
+                    'voice':       voices,
+                    'progress':    progress,
+                    'tense':       tenses,
+                    'voice':       voices,
+                    'verb':        verbs,
+                }) 
+                & conjugation_pronoun_whitelist
+                & mood_tense_whitelist
+                & nonfinite_tense_progress_whitelist)
+                - verb_progress_blacklist
+                - verb_mood_blacklist
+                - verb_voice_blacklist,
     ))
 
 print('flashcards/latin/common-noun-declension.html')
@@ -308,7 +356,7 @@ write('flashcards/latin/common-noun-declension.html',
         (DictSpace(
              'traversal',
              DictTupleIndexing(
-                     'subjectivity motion role number noun'.split()),
+                     'number subjectivity motion role noun'.split()),
                  {
                      **tag_defaults,
                      'animacy':    'thing',
@@ -338,7 +386,7 @@ write('flashcards/latin/pronoun-declension.html',
         DictSpace(
             'traversal',
             DictTupleIndexing(
-                    '''noun gender person number subjectivity motion role'''.split()),
+                    '''gender noun person number subjectivity motion role'''.split()),
                 {
                     **tag_defaults,
                     'noun':      ['man','woman','snake'],
@@ -362,36 +410,6 @@ write('flashcards/latin/pronoun-declension.html',
         },
     ))
 
-
-print('flashcards/latin/adpositions.html')
-write('flashcards/latin/adpositions.html', 
-    deck_generation.generate(
-        [demonstration.case(
-            substitutions = [
-                {'declined': list_tools.replace(['the', 'n', 'noun'])},
-                {'stock-adposition': list_tools.wrap('cloze')},
-            ],
-        ) for demonstration in demonstrations],
-        DictSpace(
-            'traversal',
-            DictTupleIndexing(
-                    'subjectivity motion role number noun gender'.split()),
-                {
-                    **tag_defaults,
-                    'motion':      case_episemaxis_to_episemes['motion'],
-                    'role':        case_episemaxis_to_episemes['role'],
-                    'subjectivity':'modifier',
-                    'animacy':    'thing',
-                    'noun-form':  'common',
-                    'verb-form':  'finite',
-                }),
-        tag_templates ={
-            'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
-            'test'       : {'noun-form':'common'},
-            'emoji'      : {'noun-form':'common', 'person':'4'},
-        },
-    ))
-
 print('flashcards/latin/adjective-agreement.html')
 write('flashcards/latin/adjective-agreement.html', 
     deck_generation.generate(
@@ -401,7 +419,7 @@ write('flashcards/latin/adjective-agreement.html',
         (DictSpace(
             'traversal',
             DictTupleIndexing(
-                    'subjectivity motion role number noun gender adjective'.split()),
+                    'number noun gender subjectivity motion role adjective'.split()),
                 {
                     **tag_defaults,
                     'noun':      ['man','woman','animal'] ,
@@ -435,11 +453,11 @@ write('flashcards/latin/pronoun-possessives.html',
         ) for demonstration in demonstrations],
         (DictSpace(
             'traversal',
-            DictTupleIndexing([
-                    'subjectivity', 'motion', 'role', 'number', 'gender', 'noun', 
-                    'possessor-gender', 'possessor-noun', 
-                    'possessor-clusivity', 'possessor-formality', 
-                    'possessor-person', 'possessor-number',]),
+            DictTupleIndexing(
+                    '''number gender noun subjectivity motion role
+                       possessor-gender possessor-noun 
+                       possessor-clusivity possessor-formality 
+                       possessor-person possessor-number'''.split()),
                 {
                     **tag_defaults,
                     'subjectivity':subjectivity,
@@ -469,50 +487,34 @@ write('flashcards/latin/pronoun-possessives.html',
         },
     ))
 
-print('flashcards/latin/nonfinite-conjugation.html')
-write('flashcards/latin/nonfinite-conjugation.html', 
+
+print('flashcards/latin/adpositions.html')
+write('flashcards/latin/adpositions.html', 
     deck_generation.generate(
-        [
-            emoji_demonstration.verb(
-                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-                stock_modifier = foreign_language.grammar.stock_modifier,
-            ),
-            foreign_demonstration.verb(
-                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-                stock_modifier = foreign_language.grammar.stock_modifier,
-                # default_tree = 'clause [test [np the n man] [infinitive vp conjugated]] [modifier test np stock-modifier]',
-                default_tree = 'clause [speaker [vp v figure]] [modifier np clause [test [np the n man] [infinitive vp conjugated]]] [test modifier np stock-modifier]',
-            ),
-            english_demonstration.verb(
-                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-                stock_modifier = foreign_language.grammar.stock_modifier,
-                # default_tree = 'clause [test [np the n man] [vp conjugated]] [modifier np test stock-modifier]',
-                default_tree = 'clause [speaker [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
-            ),
-        ],
-        (DictSpace(
+        [demonstration.case(
+            substitutions = [
+                {'declined': list_tools.replace(['the', 'n', 'noun'])},
+                {'stock-adposition': list_tools.wrap('cloze')},
+            ],
+        ) for demonstration in demonstrations],
+        DictSpace(
             'traversal',
             DictTupleIndexing(
-                    '''gender person number formality clusivity clitic
-                       tense progress mood voice verb'''.split()),
+                    'subjectivity motion role'.split()),
                 {
                     **tag_defaults,
-                    'voice':       voices,
-                    'progress':    progress,
-                    'tense':       tenses,
-                    'voice':       voices,
-                    'verb':        verbs,
-                    'subjectivity':'subject',
-                    'animacy':    'sapient',
-                    'noun-form':  'personal',
+                    'motion':      motions,
+                    'role':        roles,
+                    'subjectivity':'modifier',
+                    'animacy':    'thing',
+                    'noun-form':  'common',
                     'verb-form':  'finite',
-                }) 
-                & conjugation_pronoun_whitelist
-                & mood_tense_whitelist
-                & nonfinite_tense_progress_whitelist)
-                - verb_progress_blacklist
-                - verb_mood_blacklist
-                - verb_voice_blacklist,
+                }),
+        tag_templates ={
+            'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
+            'test'       : {'noun-form':'common'},
+            'emoji'      : {'noun-form':'common', 'person':'4'},
+        },
     ))
 
 print('flashcards/latin/participle-declension.html')
@@ -526,11 +528,10 @@ write('flashcards/latin/participle-declension.html',
         (DictSpace(
             'traversal',
             DictTupleIndexing(
-                    '''tense voice progress mood
-                       subjectivity motion role number noun gender verb'''.split()),
+                    '''tense voice progress mood subjectivity motion role number noun gender verb'''.split()),
                 {
                     **tag_defaults,
-                    'motion':      case_episemaxis_to_episemes['motion'],
+                    'motion':      motions,
                     'verb':        verbs,
                     'tense':       tenses, 
                     'voice':       voices,
