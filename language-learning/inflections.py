@@ -305,7 +305,7 @@ conjugation_template_lookups = DictLookup(
                     'aspect',     # needed for Greek
                     'script',     # needed for Emoji, Greek, Russian, Sanskrit, etc.
                 ],
-                {'completion':'bare'}
+                # {'completion':'bare'}
             )),
         # verbs used as adjectives, indicating that an action is done upon a noun at some point in time
         'participle': DictLookup(

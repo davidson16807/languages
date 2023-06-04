@@ -126,10 +126,10 @@ class RuleSyntax:
         # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
         # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
         noun_lookup = {
-            'subject':         [noun for noun in nouns if noun.tags['subjectivity'] == 'subject'],
-            'direct-object':   [noun for noun in nouns if noun.tags['subjectivity'] == 'direct-object'],
-            'indirect-object': [noun for noun in nouns if noun.tags['subjectivity'] == 'indirect-object'],
-            'modifier':        [noun for noun in nouns if noun.tags['subjectivity'] == 'modifier'],
+            subjectivity: [noun 
+                for noun in nouns 
+                if noun.tags['subjectivity'] == subjectivity]
+            for subjectivity in 'subject direct-object indirect-object modifier'.split()
         }
         verbs = [phrase
             for phrase in rules 

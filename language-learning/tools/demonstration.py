@@ -110,7 +110,7 @@ def EmojiDemonstration(
             subject = EmojiPerson(
                 ''.join([
                         (tags['number'][0]),
-                        ('i' if tags['clusivity']=='inclusive' else ''),
+                        ('i' if 'clusivity' in tags and tags['clusivity']=='inclusive' else ''),
                     ]), 
                 tags['gender'][0], 
                 self.persons[int(tags['person'])-1].color)
@@ -144,12 +144,10 @@ def EmojiDemonstration(
                     possessed = scene({**tags, 'noun-form':'common'}, tag_templates)
                     possessor = scene({
                             'noun-form': 'pronoun',
-                            'noun': tags['possessor-noun'].replace('-possessor',''),
-                            'person': tags['possessor-person'].replace('-possessor','')[0],
-                            'number': tags['possessor-number'].replace('-possessor',''),
-                            'gender': tags['possessor-gender'].replace('-possessor',''),
-                            'clusivity': tags['possessor-clusivity'].replace('-possessor',''),
-                            'formality': tags['possessor-formality'].replace('-possessor',''),
+                            **{tag: tags[f'possessor-{tag}'].replace('-possessor','')
+                               for tag in 'noun person number gender clusivity formality'.split()
+                               if f'possessor-{tag}' in tags},
+                            # 'person': tags['possessor-person'].replace('-possessor','')[0],
                             'script': 'emoji',
                         }, tag_templates)
                     return '\\flex{'+possessed+'\\r{'+possessor+'}}'

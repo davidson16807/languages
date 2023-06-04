@@ -18,21 +18,16 @@ class DeckGeneration:
         self.omit_codes = omit_codes
     def generate(self, 
             demonstrations,
-            traversal, 
-            tagspace,
-            whitelists=[],
-            blacklists=[],
+            dictset, 
             tag_templates={},
         ):
-        for tuplekey in traversal.tuplekeys(tagspace):
-            tags = {**tagspace, **traversal.dictkey(tuplekey)}
-            if (all([tags in whitelist for whitelist in whitelists]) and 
-                all([tags not in blacklist for blacklist in blacklists])):
-                card = ' '.join([
-                    str(demonstration(tags, tag_templates)) 
-                    for demonstration in demonstrations])
-                if all([symbol not in card for symbol in self.omit_codes]):
-                    yield card
+        for tuplekey in dictset:
+            dictkey = dictset.indexing.dictkey(tuplekey)
+            card = ' '.join([
+                str(demonstration(dictkey, tag_templates)) 
+                for demonstration in demonstrations])
+            if all([symbol not in card for symbol in self.omit_codes]):
+                yield card
 
 class CardFormatting:
     def __init__(self):

@@ -44,6 +44,7 @@ class Language:
         opcode_tags = {
             'informal':    {'formality': 'informal'},
             'indicative':  {'mood': 'indicative'},
+            'present':     {'tense': 'present'},
             'perfective':  {'aspect': 'perfective'},
             'imperfective':{'aspect': 'imperfective'},
             'progressive': {'aspect': 'imperfective'},

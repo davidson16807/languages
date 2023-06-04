@@ -427,7 +427,7 @@ write('flashcards/proto-indo-european/participle-declension.html',
                     ('arrive', 'middle'),
                     ('think',  'middle'),
                 })
-            ],
+        ],
         tag_templates ={
             'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},

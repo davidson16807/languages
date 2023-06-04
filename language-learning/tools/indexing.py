@@ -16,6 +16,9 @@ class DictKeyIndexing:
         self.key = key
     def dictkey(self, tuplekey):
         return {self.key:tuplekey}
+    def check(self, dictkey):
+        if self.key not in dictkey:
+            raise KeyError(' '.join(['Dictionary is missing required key:', self.key]))
     def tuplekeys(self, dictkey):
         '''
         Returns a generator that iterates through possible values for the given `key`
@@ -30,6 +33,15 @@ class DictKeyIndexing:
             return dictkey
         else:
             return [dictkey]
+    def count(self, dictkey):
+        if type(dictkey) in {dict}:
+            return (0 if key not in dictkey 
+                    else len(dictkey[key]) if type(dictkey[key]) in {set,list} 
+                    else 1)
+        elif type(dictkey) in {set,list}:
+            return len(dictkey)
+        else:
+            return 1
 
 class DictTupleIndexing:
     '''
@@ -63,6 +75,14 @@ class DictTupleIndexing:
                       else dictkey[key] if type(dictkey[key]) in {set,list} 
                       else [dictkey[key]]
                       for key in reversed(self.keys)])]
+    def check(self, dictkey):
+        dictkey = {**self.defaults, **dictkey}
+        missing = [key
+                    for key in self.keys
+                    if key not in dictkey
+                ] if type(self) == DictTupleIndexing else []
+        if missing:
+            raise KeyError(' '.join(['Dictionary is missing required keys:', *missing]))
     def count(self, dictkey):
         '''
         Returns the number of possible tuples that can be generated from `self.tuplekeys(dictkey)`.
@@ -73,3 +93,53 @@ class DictTupleIndexing:
                     else len(dictkey[key]) if type(dictkey[key]) in {set,list}
                     else 1
                     for key in self.keys])
+    def __iter__(self):
+        return self.keys.__iter__()
+    def __and__(self, other):
+        '''
+        Returns a new `DictKeyIndexing` that contains the intersection of keys from both `self` and `other`
+        '''
+        return DictTupleIndexing([key 
+            for key in self.keys
+            if key in other.keys])
+    def __or__(self, other):
+        '''
+        Returns a new `DictKeyIndexing` that contains the union of keys from both `self` and `other`
+        '''
+        return DictTupleIndexing([
+                *self.keys,
+                *[key 
+                  for key in other.keys
+                  if key not in self.keys],
+            ])
+    def __sub__(self, other):
+        '''
+        Returns a new `DictKeyIndexing` that contains the negation of keys from `self` and `other`
+        '''
+        return DictTupleIndexing([key 
+            for key in self.keys
+            if key not in other.keys])
+
+
+class DictLookupTraversal:
+    '''
+    `DictLookupTraversal` shares the same interface as `*Indexing` classes.
+    It represents a 
+    '''
+    def __init__(self, lookups):
+        self.lookups = lookups
+    def tuplekeys(self, dictkey):
+        '''
+        Returns a generator that iterates through 
+        possible tuples whose keys are given by `keys`
+        and whose values are given by a `dictkey` dict 
+        that maps a key from `keys` to either a value or a set of possible values.
+        '''
+        return {key:value
+                for tuplekeys in itertools.product(
+                    *[lookup.sequence
+                      for lookup in self.lookups])
+                for (key, value) in zip(
+                    itertools.chain(lookup.indexing.keys for lookup in self.lookups),
+                    itertools.chain(*tuplekeys))
+            }
