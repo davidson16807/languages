@@ -1,4 +1,4 @@
-from tools.lookup import DictLookup
+from tools.lookup import DictSet
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.cards import DeckGeneration
 from tools.languages import Language
@@ -104,7 +104,7 @@ tenses = 'present past future'.split()
 voices = 'active passive'.split()
 subjectivity = 'addressee subject direct-object indirect-object modifier'.split()
 
-subjectivity_role_blacklist = DictLookup(
+subjectivity_role_blacklist = DictSet(
     'subjectivity role filter', 
     DictTupleIndexing('subjectivity  role'.split()),
     content = {
@@ -113,7 +113,7 @@ subjectivity_role_blacklist = DictLookup(
         ('direct-object', 'agent'),
     })
 
-subjectivity_motion_whitelist = DictLookup(
+subjectivity_motion_whitelist = DictSet(
     'subjectivity motion filter', 
     DictTupleIndexing('subjectivity  motion'.split()),
     content = {
@@ -128,7 +128,7 @@ subjectivity_motion_whitelist = DictLookup(
         ('modifier', 'leveraged'),
     })
 
-pronoun_whitelist = DictLookup(
+pronoun_whitelist = DictSet(
     'pronoun filter', 
     DictTupleIndexing('person number gender'.split()),
     content = {
@@ -140,7 +140,7 @@ pronoun_whitelist = DictLookup(
         ('3', 'plural',   'masculine'),
     })
 
-mood_tense_whitelist = DictLookup(
+mood_tense_whitelist = DictSet(
     'mood tense filter', 
     DictTupleIndexing('mood tense'.split()),
     content = {
@@ -153,44 +153,44 @@ mood_tense_whitelist = DictLookup(
         ('imperative',  'future'),
     })
 
-verb_usage_whitelists = [
-    DictLookup(
-        'tense aspect filter', 
-        DictTupleIndexing(['tense', 'progress']),
-        content = {
-            ('present', 'atelic'),
-            ('present', 'finished'),
-            ('future',  'atelic'),
-            ('future',  'finished'),
-            ('past',    'unfinished'),
-            ('past',    'finished'),
-        }),
-    DictLookup(
-        'voice progress', 
-        DictTupleIndexing(['voice','progress']),
-        content = {
-            ('active',  'atelic'),
-            ('active',  'unfinished'),
-            ('active',  'finished'),
-            ('passive', 'atelic'),
-            ('passive', 'unfinished'),
-        }),
-]
+
+tense_progress_whitelist = DictSet(
+    'tense aspect filter', 
+    DictTupleIndexing(['tense', 'progress']),
+    content = {
+        ('present', 'atelic'),
+        ('present', 'finished'),
+        ('future',  'atelic'),
+        ('future',  'finished'),
+        ('past',    'unfinished'),
+        ('past',    'finished'),
+    })
+
+voice_progress_whitelist = DictSet(
+    'voice progress', 
+    DictTupleIndexing(['voice','progress']),
+    content = {
+        ('active',  'atelic'),
+        ('active',  'unfinished'),
+        ('active',  'finished'),
+        ('passive', 'atelic'),
+        ('passive', 'unfinished'),
+    })
 
 verb_usage_blacklists = [
-    DictLookup(
+    DictSet(
         'verb aspect filter', 
         DictTupleIndexing(['verb','progress']),
         content = {
             ('become', 'finished'),
         }),
-    DictLookup(
+    DictSet(
         'verb mood filter', 
         DictTupleIndexing(['verb','mood']),
         content = {
             ('be-able', 'imperative'),
         }),
-    DictLookup(
+    DictSet(
         'verb voice filter', 
         DictTupleIndexing('verb  voice'.split()),
         content = {
@@ -231,7 +231,8 @@ write('flashcards/latin/finite-conjugation.html',
         whitelists = [
             pronoun_whitelist,
             mood_tense_whitelist,
-            *verb_usage_whitelists,
+            tense_progress_whitelist,
+            voice_progress_whitelist
         ],
         blacklists = verb_usage_blacklists,
     ))
@@ -286,7 +287,7 @@ write('flashcards/latin/pronoun-declension.html',
         },
         whitelists = [
             subjectivity_motion_whitelist,
-            DictLookup(
+            DictSet(
                 'pronoun filter', 
                 DictTupleIndexing(['noun', 'person', 'number', 'gender']),
                 content = {
@@ -361,7 +362,7 @@ write('flashcards/latin/adjective-agreement.html',
         },
         whitelists = [
             subjectivity_motion_whitelist,
-            DictLookup(
+            DictSet(
                 'adjective agreement noun filter', 
                 DictTupleIndexing(['gender', 'noun']),
                 content = {
@@ -411,7 +412,7 @@ write('flashcards/latin/pronoun-possessives.html',
         },
         whitelists = [
             subjectivity_motion_whitelist,
-            DictLookup(
+            DictSet(
                 'possessive pronoun possession filter', 
                 DictTupleIndexing(['possessor-noun', 'gender', 'noun']),
                 content = {
@@ -425,7 +426,7 @@ write('flashcards/latin/pronoun-possessives.html',
                     ('snake', 'feminine',  'daughter' ),
                     ('snake', 'neuter',    'name'     ),
                 }),
-            DictLookup(
+            DictSet(
                 'pronoun filter', 
                 DictTupleIndexing(['possessor-noun', 'possessor-person', 'possessor-number', 'possessor-gender']),
                 content = {
@@ -488,7 +489,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
         whitelists = [
             pronoun_whitelist,
             mood_tense_whitelist,
-            DictLookup(
+            DictSet(
                 'tense aspect filter', 
                 DictTupleIndexing(['tense', 'progress']),
                 content = {
@@ -527,7 +528,7 @@ write('flashcards/latin/participle-declension.html',
         },
         whitelists = [
             subjectivity_motion_whitelist,
-            DictLookup(
+            DictSet(
                 'tense aspect filter', 
                 DictTupleIndexing(['tense', 'progress']),
                 content = {

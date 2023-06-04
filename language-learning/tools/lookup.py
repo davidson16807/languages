@@ -95,21 +95,15 @@ class DictSet:
     A 'dictkey' is a dictionary that maps each key to either a value or a set of values.
     A 'dictkey' is indexed by one or more 'tuplekeys', which are ordinary tuples of values.
     '''
-    def __init__(self, name, indexing, sequence=None):
+    def __init__(self, name, indexing, content=None):
         self.name = name
         self.indexing = indexing
-        sequence = [] if sequence is None else sequence
-        misaligned = [len(tuplekey) for tuplekey in sequence if len(tuplekey) != len(indexing.keys)]
+        self.content = set() if content is None else content
+        misaligned = [len(tuplekey) for tuplekey in self.content if len(tuplekey) != len(indexing.keys)]
         if misaligned:
             raise ValueError(
                 f'DictSpace indexing is misaligned with keys: expected {len(indexing.keys)}, got '+
                 ', '.join(misaligned))
-        self.sequence = []
-        self.content = set()
-        for element in sequence:
-            if element not in self.content:
-                self.sequence.append(element)
-                self.content.add(element)
     def __contains__(self, key):
         if type(key) in {tuple,str}:
             return key in self.content
