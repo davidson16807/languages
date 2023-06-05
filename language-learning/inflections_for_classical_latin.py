@@ -341,8 +341,7 @@ conjugation_subject_defaults = (
     constant['subject'] * 
     constant['agent'] * 
     constant['associated'] * 
-    constant['transitive'] * 
-    constant['finite']
+    constant['transitive']
 )
 
 print('flashcards/latin/finite-conjugation.html')
@@ -384,9 +383,9 @@ write('flashcards/latin/nonfinite-conjugation.html',
             ),
         ],
         defaults.override(
-            ((tense_progress_mood_voice_verb_traversal 
-                & nonfinite_tense_progress_whitelist) 
-                - constant['imperative'])
+            ((  tense_progress_mood_voice_verb_traversal 
+              & nonfinite_tense_progress_whitelist) 
+              - constant['imperative'])
             * conjugation_subject_defaults
             * constant['infinitive']
             * constant['personal']
@@ -401,32 +400,13 @@ write('flashcards/latin/participle-declension.html',
                 {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
             ],
         ) for demonstration in demonstrations],
-        # defaults.override(
-        #     ((tense_progress_mood_voice_verb_traversal 
-        #         & nonfinite_tense_progress_whitelist) - constant['unfinished'])
-        #     * constant['indicative']
-        #     * constant['participle']
-        #     * constant['common']
-        # ),
         defaults.override(
-            DictSpace(
-                'traversal',
-                DictTupleIndexing(
-                        '''tense progress mood voice verb'''.split()),
-                    {
-                        **tag_defaults,
-                        'verb':        verbs,
-                        'tense':       tenses, 
-                        'voice':       voices,
-                        'progress':    ['atelic','finished'], 
-                        'valency':     'transitive',
-                        'subjectivity':'subject',
-                        'motion':      'associated',
-                        'role':        'agent',
-                        'animacy':     'thing',
-                        'verb-form':   'participle',
-                    }) 
-            & nonfinite_tense_progress_whitelist
+            ((  tense_progress_mood_voice_verb_traversal 
+              & nonfinite_tense_progress_whitelist
+              & constant['indicative'])
+             - constant['unfinished'])
+            * conjugation_subject_defaults
+            * constant['participle']
         ),
         tag_templates ={
             'dummy'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
@@ -438,8 +418,10 @@ write('flashcards/latin/participle-declension.html',
     ))
 
 subjectivity_motion_role_traversal = (
-    ((axis['subjectivity'] * axis['motion'] * axis['role']) 
-        & subjectivity_motion_whitelist)
+    ((  axis['subjectivity'] 
+      * axis['motion'] 
+      * axis['role']) 
+     & subjectivity_motion_whitelist)
     - subjectivity_role_blacklist
 )
 
@@ -452,7 +434,9 @@ write('flashcards/latin/adpositions.html',
                 {'stock-adposition': list_tools.wrap('cloze')},
             ],
         ) for demonstration in demonstrations],
-        defaults.override(subjectivity_motion_role_traversal & constant['modifier']),
+        defaults.override(
+              subjectivity_motion_role_traversal 
+            & constant['modifier']),
         tag_templates ={
             'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
             'test'       : {'noun-form':'common'},
@@ -467,7 +451,10 @@ write('flashcards/latin/common-noun-declension.html',
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        defaults.override(axis['number'] * subjectivity_motion_role_traversal * axis['noun']),
+        defaults.override(
+              axis['number'] 
+            * subjectivity_motion_role_traversal 
+            * axis['noun']),
         tag_templates ={
             'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'common'},
@@ -481,7 +468,10 @@ write('flashcards/latin/pronoun-declension.html',
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        defaults.override(declension_pronoun_traversal * subjectivity_motion_role_traversal * constant['personal']),
+        defaults.override(
+              declension_pronoun_traversal 
+            * subjectivity_motion_role_traversal 
+            * constant['personal']),
         tag_templates ={
             'dummy'      : {'noun-form':'common', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'personal'},
@@ -495,7 +485,11 @@ write('flashcards/latin/adjective-agreement.html',
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
         ) for demonstration in demonstrations], 
-        defaults.override(axis['number'] * gender_agreement_whitelist * subjectivity_motion_role_traversal * axis['adjective']),
+        defaults.override(
+              axis['number'] 
+            * gender_agreement_whitelist 
+            * subjectivity_motion_role_traversal 
+            * axis['adjective']),
         tag_templates ={
             'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'common'},
@@ -512,10 +506,13 @@ write('flashcards/latin/pronoun-possessives.html',
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-            ((axis['number'] * possession_traversal * subjectivity_motion_role_traversal * possessor_pronoun_whitelist) 
-                & possessor_possession_whitelist) *
-            constant['exclusive-possessor'] * 
-            constant['familiar-possessor'] ),
+            ((  axis['number'] 
+              * possession_traversal 
+              * subjectivity_motion_role_traversal 
+              * possessor_pronoun_whitelist)
+             & possessor_possession_whitelist)
+            * constant['exclusive-possessor']  
+            * constant['familiar-possessor'] ),
         tag_templates ={
             'dummy'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
             'test'       : {'noun-form':'personal-possessive'},
