@@ -135,23 +135,6 @@ defaults = DictSpace(
     tag_defaults
 )
 
-genders = 'masculine feminine neuter'.split()
-numbers = 'singular plural'.split()
-verbs = '''be be-able want become go
-           carry eat love advise
-           capture hear'''.split()
-roles = 'agent addressee patient location possessor interior surface presence aid lack interest time company'.split()
-motions = 'associated departed acquired leveraged'.split()
-nouns = '''man day hand night thing name son war
-           air boy animal star tower horn sailor foundation
-           echo phenomenon vine myth atom nymph comet'''.split()
-adjectives = 'tall holy poor mean old nimble swift jovial'.split()
-progress = 'atelic unfinished finished'.split()
-moods = 'indicative subjunctive imperative'.split()
-tenses = 'present past future'.split()
-voices = 'active passive'.split()
-subjectivity = 'addressee subject direct-object indirect-object modifier'.split()
-
 subjectivity_role_blacklist = DictSet(
     'subjectivity_role_blacklist', 
     DictTupleIndexing('subjectivity role'.split()),
@@ -344,6 +327,14 @@ conjugation_subject_defaults = (
     constant['transitive']
 )
 
+subjectivity_motion_role_traversal = (
+    ((  axis['subjectivity'] 
+      * axis['motion'] 
+      * axis['role']) 
+     & subjectivity_motion_whitelist)
+    - subjectivity_role_blacklist
+)
+
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
@@ -417,13 +408,6 @@ write('flashcards/latin/participle-declension.html',
         },
     ))
 
-subjectivity_motion_role_traversal = (
-    ((  axis['subjectivity'] 
-      * axis['motion'] 
-      * axis['role']) 
-     & subjectivity_motion_whitelist)
-    - subjectivity_role_blacklist
-)
 
 print('flashcards/latin/adpositions.html')
 write('flashcards/latin/adpositions.html', 
@@ -443,7 +427,6 @@ write('flashcards/latin/adpositions.html',
             'emoji'      : {'noun-form':'common', 'person':'4'},
         },
     ))
-
 
 print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html', 

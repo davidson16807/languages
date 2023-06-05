@@ -151,25 +151,43 @@ class DictSet:
         Return the cartesian product of two `DictSet`s.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
-        indexing = self.indexing | other.indexing
         name = f'{self.name} * {other.name}'
+        indexing = self.indexing | other.indexing
+        overlap = self.indexing & other.indexing
+        assert not bool(overlap), f'indexes of multiplied "{self.name}" and "{other.name}" must be disjoint \n the overlapping keys are: {overlap}'
         result = DictSet(
             name, indexing,
             sequence = [
                 tuplekey
-                for dictkeys in itertools.product(
+                for (dictkey1, dictkey2) in itertools.product(
                     [other.indexing.dictkey(tuplekey) for tuplekey in other],
                     [self.indexing.dictkey(tuplekey) for tuplekey in self])
-                for tuplekey in indexing.tuplekeys({
-                    key:{dictkey[key]
-                         for dictkey in dictkeys
-                         if key in dictkey}
-                    for key in indexing.keys
-                })
+                for tuplekey in indexing.tuplekeys({**dictkey1, **dictkey2})
                 if indexing.dictkey(tuplekey) in self
                 or indexing.dictkey(tuplekey) in other
             ])
         return result
+        # # ALT CODE: uncomment if you need support for multiplying containers with 
+        # # nondisjoint indices (this comes at a performance cost, however)
+        # indexing = self.indexing | other.indexing
+        # name = f'{self.name} * {other.name}'
+        # result = DictSet(
+        #     name, indexing,
+        #     sequence = [
+        #         tuplekey
+        #         for dictkeys in itertools.product(
+        #             [other.indexing.dictkey(tuplekey) for tuplekey in other],
+        #             [self.indexing.dictkey(tuplekey) for tuplekey in self])
+        #         for tuplekey in indexing.tuplekeys({
+        #             key:{dictkey[key]
+        #                  for dictkey in dictkeys
+        #                  if key in dictkey}
+        #             for key in indexing.keys
+        #         })
+        #         if indexing.dictkey(tuplekey) in self
+        #         or indexing.dictkey(tuplekey) in other
+        #     ])
+        # return result
     def __and__(self, other):
         '''
         Return the intersection of two `DictSet`s whose keys are disjoint.
@@ -262,27 +280,45 @@ class DictSpace:
         Return the union of two `DictSpace`s.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
-        indexing = self.indexing | other.indexing
         name = f'{self.name} * {other.name}'
-        # if type(other) != DictSpace:
+        indexing = self.indexing | other.indexing
+        overlap = self.indexing & other.indexing
+        assert not bool(overlap), f'indexes of multiplied "{self.name}" and "{other.name}" must be disjoint \n the overlapping keys are: {overlap}'
         result = DictSet(
             name, indexing,
             sequence = [
                 tuplekey
-                for dictkeys in itertools.product(
+                for (dictkey1, dictkey2) in itertools.product(
                     [other.indexing.dictkey(tuplekey) for tuplekey in other],
                     [self.indexing.dictkey(tuplekey) for tuplekey in self])
-                for tuplekey in indexing.tuplekeys({
-                    key:{dictkey[key]
-                         for dictkey in dictkeys
-                         if key in dictkey}
-                    for key in indexing.keys
-                })
+                for tuplekey in indexing.tuplekeys({**dictkey1, **dictkey2})
                 if indexing.dictkey(tuplekey) in self
                 or indexing.dictkey(tuplekey) in other
             ])
-        if result.empty(): raise ValueError(f'Empty DictSet: {name}')
         return result
+        # # ALT CODE: uncomment if you need support for multiplying containers with 
+        # # nondisjoint indices (this comes at a performance cost, however)
+        # indexing = self.indexing | other.indexing
+        # name = f'{self.name} * {other.name}'
+        # # if type(other) != DictSpace:
+        # result = DictSet(
+        #     name, indexing,
+        #     sequence = [
+        #         tuplekey
+        #         for dictkeys in itertools.product(
+        #             [other.indexing.dictkey(tuplekey) for tuplekey in other],
+        #             [self.indexing.dictkey(tuplekey) for tuplekey in self])
+        #         for tuplekey in indexing.tuplekeys({
+        #             key:{dictkey[key]
+        #                  for dictkey in dictkeys
+        #                  if key in dictkey}
+        #             for key in indexing.keys
+        #         })
+        #         if indexing.dictkey(tuplekey) in self
+        #         or indexing.dictkey(tuplekey) in other
+        #     ])
+        # if result.empty(): raise ValueError(f'Empty DictSet: {name}')
+        # return result
         # elif type(other) == DictSpace:
         #     result = (
         #         DictSpace(

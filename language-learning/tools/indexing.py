@@ -95,6 +95,10 @@ class DictTupleIndexing:
                     for key in self.keys])
     def __iter__(self):
         return self.keys.__iter__()
+    def __nonzero__(self):
+        return len(self.keys) > 0
+    def __bool__(self):
+        return len(self.keys) > 0
     def __and__(self, other):
         '''
         Returns a new `DictKeyIndexing` that contains the intersection of keys from both `self` and `other`
@@ -120,26 +124,3 @@ class DictTupleIndexing:
             for key in self.keys
             if key not in other.keys])
 
-
-class DictLookupTraversal:
-    '''
-    `DictLookupTraversal` shares the same interface as `*Indexing` classes.
-    It represents a 
-    '''
-    def __init__(self, lookups):
-        self.lookups = lookups
-    def tuplekeys(self, dictkey):
-        '''
-        Returns a generator that iterates through 
-        possible tuples whose keys are given by `keys`
-        and whose values are given by a `dictkey` dict 
-        that maps a key from `keys` to either a value or a set of possible values.
-        '''
-        return {key:value
-                for tuplekeys in itertools.product(
-                    *[lookup.sequence
-                      for lookup in self.lookups])
-                for (key, value) in zip(
-                    itertools.chain(lookup.indexing.keys for lookup in self.lookups),
-                    itertools.chain(*tuplekeys))
-            }
