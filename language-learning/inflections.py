@@ -459,6 +459,9 @@ declension_template_lookups = DictLookup(
     })
 
 tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
+episemes_to_case_episemaxis = dict_bundle_to_map(case_episemaxis_to_episemes)
+episemes_to_mood_episemaxis = dict_bundle_to_map(mood_episemaxis_to_episemes)
+episemes_to_aspect_episemaxis = dict_bundle_to_map(aspect_episemaxis_to_episemes)
 
 finite_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {0:'verb'}, 

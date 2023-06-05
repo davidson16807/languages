@@ -143,7 +143,7 @@ class DictSet:
         return len(self.sequence) < 1
     def fallback(self, other):
         assert type(other) == DictSpace
-        return self|DictSpace('fallback',
+        return self*DictSpace('fallback',
                         other.indexing - self.indexing,
                         other.key_to_values)
     def __mul__(self, other):
@@ -151,10 +151,10 @@ class DictSet:
         Return the cartesian product of two `DictSet`s.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
-        name = f'{self.name} * {other.name}'
         indexing = self.indexing | other.indexing
-        result = DictSet(name,
-            indexing,
+        name = f'{self.name} * {other.name}'
+        result = DictSet(
+            name, indexing,
             sequence = [
                 tuplekey
                 for dictkeys in itertools.product(
@@ -169,7 +169,6 @@ class DictSet:
                 if indexing.dictkey(tuplekey) in self
                 or indexing.dictkey(tuplekey) in other
             ])
-        if result.empty(): raise ValueError(f'Empty DictSet: {name}')
         return result
     def __and__(self, other):
         '''
@@ -245,7 +244,7 @@ class DictSpace:
             indexing,
             {**other.key_to_values,
              **self.key_to_values})
-    def update(self, other):
+    def override(self, other):
         indexing = self.indexing | other.indexing
         assert type(other) in {DictSpace, DictSet}
         if type(other) == DictSpace:
@@ -255,7 +254,7 @@ class DictSpace:
                 {**self.key_to_values, 
                  **other.key_to_values})
         elif type(other) == DictSet:
-            return other|DictSpace('fallback',
+            return other*DictSpace('fallback',
                             self.indexing - other.indexing,
                             self.key_to_values)
     def __mul__(self, other):
@@ -264,16 +263,36 @@ class DictSpace:
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
         indexing = self.indexing | other.indexing
-        return (
-            # the type of `other` could be anything, but union is commutative, so just ask `other` what to do if you don't know
-            other|self if type(other) != DictSpace
-            else DictSpace(
-                f'{self.name} * {other.name}',
-                indexing, 
-                {key: set(self.key_to_values[key] if key in self.key_to_values else []) | 
-                      set(other.key_to_values[key] if key in other.key_to_values else [])
-                 for key in indexing.keys})
-        )
+        name = f'{self.name} * {other.name}'
+        # if type(other) != DictSpace:
+        result = DictSet(
+            name, indexing,
+            sequence = [
+                tuplekey
+                for dictkeys in itertools.product(
+                    [other.indexing.dictkey(tuplekey) for tuplekey in other],
+                    [self.indexing.dictkey(tuplekey) for tuplekey in self])
+                for tuplekey in indexing.tuplekeys({
+                    key:{dictkey[key]
+                         for dictkey in dictkeys
+                         if key in dictkey}
+                    for key in indexing.keys
+                })
+                if indexing.dictkey(tuplekey) in self
+                or indexing.dictkey(tuplekey) in other
+            ])
+        if result.empty(): raise ValueError(f'Empty DictSet: {name}')
+        return result
+        # elif type(other) == DictSpace:
+        #     result = (
+        #         DictSpace(
+        #             name, indexing,
+        #             {key: set(self.key_to_values[key] if key in self.key_to_values else []) | 
+        #                   set(other.key_to_values[key] if key in other.key_to_values else [])
+        #              for key in indexing.keys})
+        #     )
+        #     if result.empty(): raise ValueError(f'Empty DictSet: {name}')
+        #     return result
     def __and__(self, other):
         '''
         Return the intersection of two `DictSpace`s whose keys are disjoint.
