@@ -37,6 +37,7 @@ def dict_bundle_to_map(bundle):
         for germ in germs
     }
 
+
 case_episemaxis_to_episemes = {
     # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
     #   In our analysis, the "role" forms one part (an "episeme") of what is referred to here as "semantic case" (a "seme").
@@ -74,7 +75,7 @@ case_episemaxis_to_episemes = {
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'subjectivity': 'subject addressee direct-object indirect-object modifier'.split(),
+    'subjectivity': 'subject addressee direct-object indirect-object modifier verb'.split(),
     'motion':  'departed associated acquired approached surpassed leveraged'.split(),
     'valency': 'impersonal intransitive transitive'.split(),
 }
@@ -179,7 +180,7 @@ tagaxis_to_tags = {
     'strength':   'strong weak'.split(),
 
     # needed for finite forms
-    'person':     '1 2 3'.split(),
+    'person':     '1 2 3 4'.split(),
     'number':     'singular dual trial paucal plural superplural'.split(),
     'clusivity':  'inclusive exclusive'.split(),
 
@@ -458,10 +459,18 @@ declension_template_lookups = DictLookup(
                 ])),
     })
 
+termaxis_to_terms = {
+    **tagaxis_to_tags,
+    **case_episemaxis_to_episemes,
+    **mood_episemaxis_to_episemes,
+    **aspect_episemaxis_to_episemes,
+}
+
 tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
 episemes_to_case_episemaxis = dict_bundle_to_map(case_episemaxis_to_episemes)
 episemes_to_mood_episemaxis = dict_bundle_to_map(mood_episemaxis_to_episemes)
 episemes_to_aspect_episemaxis = dict_bundle_to_map(aspect_episemaxis_to_episemes)
+term_to_termaxis = dict_bundle_to_map(termaxis_to_terms)
 
 finite_annotation  = CellAnnotation(
     tag_to_tagaxis, {}, {0:'verb'}, 
@@ -884,6 +893,7 @@ list_tools = ListTools()
 rule_tools = RuleTools()
 card_formatting = CardFormatting()
 english_list_substitution = EnglishListSubstitution()
+parse_any = TermParsing(term_to_termaxis)
 
 # alignment = case_usage_population.index(
 #             case_usage_annotation.annotate(
@@ -922,7 +932,7 @@ english_language = Language(
         ]),
         # debug=True,
     ),
-    RuleSyntax('subject verb direct-object indirect-object modifier'.split()),
+    RuleSyntax(parse_any.terms('subject verb direct-object indirect-object modifier')),
     {'language-type':'native'},
     list_tools,
     rule_tools,
@@ -981,37 +991,38 @@ emoji_casts = {
         ],
 }
 
-tag_defaults = {
-    'valency':      'transitive',
-    'subjectivity': 'direct-object',
+
+tag_defaults = parse_any.termaxis_to_term('''
+    valency:      transitive
+    subjectivity: direct-object
     
-    'clitic':       'tonic',
-    'clusivity':    'exclusive',
-    'formality':    'familiar',
-    'gender':       'masculine',
-    'noun':         'man',
-    'number':       'singular',
-    'partitivity':  'nonpartitive',
-    'person':       '3',
-    'strength':     'strong',
+    clitic:       tonic
+    clusivity:    exclusive
+    formality:    familiar
+    gender:       masculine
+    #noun:         man
+    number:       singular
+    partitivity:  nonpartitive
+    person:       3
+    strength:     strong
 
-    'duration':     'brief',
-    'progress':     'atelic',
-    'consistency':  'momentary',
-    'ordinality':   'nonordinal',
-    'persistence':  'static',
-    'recency':      'arecent',
-    'trajectory':   'directionless',
-    'distribution': 'undistributed',
+    duration:     brief
+    progress:     atelic
+    consistency:  momentary
+    ordinality:   nonordinal
+    persistence:  static
+    recency:      arecent
+    trajectory:   directionless
+    distribution: undistributed
 
-    'evidentiality':'presumed',
-    'confidence':   'confident',
-    'polarity':     'positive',
-    'mood':         'indicative',
+    evidentiality:presumed
+    confidence:   confident
+    polarity:     positive
+    mood:         indicative
 
-    'tense':        'present', 
-    'voice':        'active',
-    'completion':   'bare',
+    tense:        present 
+    voice:        active
+    completion:   bare
 
-    'verb-form':    'finite',
-}
+    verb-form:    finite
+''')

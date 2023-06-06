@@ -1,5 +1,154 @@
 import re
 
+class TermParsing:
+    '''
+    Parses native data structures that are populated by strings that represent tokens, terms, and termaxes.
+    "Tokens" are arbitrary strings that use a restricted characterset: [0-9a-z-]
+    "Terms" are tokens that assume one of several values that are known ahead of time.
+    Each terms has a single "Termaxis" associated with it, as given by `term_to_termaxis`.
+    `TermParsing` leverages the above guarantees to simplify deck construction and guarantee validity.
+    An error is generated if tokens do not match any known term name from `term_to_termaxis`.
+    '''
+    def __init__(self, term_to_termaxis):
+        self._term_to_termaxis = term_to_termaxis
+        self._terms = set(term_to_termaxis.keys())
+        self._termaxes = set(term_to_termaxis.values())
+    def term(self, string):
+        stripped = string.strip()
+        assert stripped in self._terms, f'term is invalid: {stripped}'
+        return stripped
+    def termaxis(self, string):
+        stripped = string.strip()
+        assert stripped in self._termaxes, f'termaxis is invalid: {stripped}'
+        return stripped
+    def tokens(self, string):
+        return [token.strip() for token in string.split()]
+    def terms(self, string):
+        tokens = self.tokens(string)
+        invalid = {token
+            for token in tokens
+            if token not in self._terms}
+        assert not invalid, f'The following terms are invalid: {invalid}'
+        return tokens
+    def termaxes(self, string):
+        tokens = self.tokens(string)
+        invalid = {token
+            for token in tokens
+            if token not in self._termaxes}
+        assert not invalid, f'The following termaxes are invalid: {invalid}'
+        return tokens
+    def token_table(self, string):
+        delimeter = '\n' if '\n' in string else ','
+        rows = [row.split('#')[0]
+            for row in string.split(delimeter)]
+        token_table = [tuple(self.tokens(row))
+            for row in rows
+            if row.strip()]
+        return token_table
+    def term_table(self, string):
+        token_table = self.token_table(string)
+        invalid = [cell
+            for row in token_table
+            for cell in list(row)
+            if cell not in self._terms]
+        assert not invalid, f'The following terms are invalid: {invalid}'
+        termaxis_table = [
+            tuple([self._term_to_termaxis[cell] 
+                   for cell in row])
+            for row in token_table]
+        termaxis_signatures = set(termaxis_table)
+        assert len(termaxis_signatures) == 1, (
+                    '\n'.join([
+                        'The error occurs here:',
+                        string,
+                        'The error is that rows in the table do not represent the same set of termaxes: ',
+                        *[str(signature) for signature in termaxis_signatures]
+                    ]))
+        (termaxis_signature,) = termaxis_signatures
+        sorted_termaxis_signature = sorted(termaxis_signature)
+        dupes = list(set(sorted_termaxis_signature[::2]) & set(sorted_termaxis_signature[1::2]))
+        assert not dupes, (
+                    '\n'.join([
+                        'The error occurs here:',
+                        string,
+                        'The error is that the following termaxes occur in multiple columns: ',
+                        *[str(dupe) for dupe in dupes]
+                    ]))
+        return token_table
+    def token_to_token(self, string):
+        delimeter = '\n' if '\n' in string else ','
+        rows = [row.split('#')[0]
+            for row in string.split(delimeter)]
+        split = [item.split(':')
+            for item in rows
+            if item.strip()]
+        stripped = [[cell.strip() for cell in row]
+            for row in split]
+        keys = sorted([item[0] for item in stripped])
+        dupes = list(set(keys[::2]) & set(keys[1::2]))
+        assert not dupes, (
+                    '\n'.join([
+                        'The error occurs here:',
+                        string,
+                        'The following keys have duplicate entries: ',
+                        *[str(dupe) for dupe in dupes]
+                    ]))
+        result = {item[0] : item[1]
+            for item in stripped}
+        return result
+    def termaxis_to_term(self, string):
+        delimeter = '\n' if '\n' in string else ','
+        if ':' in string:
+            result = self.token_to_token(string)
+            invalid = {token
+                for token in result.keys()
+                if token not in self._termaxes}
+            assert not invalid, f'The following termaxes are invalid: {invalid}'
+            invalid = {token
+                for token in result.values()
+                if token not in self._terms}
+            assert not invalid, f'The following terms are invalid: {invalid}'
+            return result
+        else:
+            '''
+            term_to_termaxis guarantees that to each term there is a known termaxis
+            since termaxis is completely determined by term, 
+            termaxis_to_term() is uniquely determined by a list of terms
+            '''
+            items = [[self._term_to_termaxis[term], term]
+                for term in self.terms(string)]
+            keys = sorted([item[0] for item in items])
+            dupes = list(set(keys[::2]) & set(keys[1::2]))
+            assert not dupes, f'The following keys have duplicate entries: {dupes}'
+            return {item[0]: item[1]
+                for item in items}
+    def token_to_tokens(self, string):
+        return {key: self.tokens(values)
+            for (key, values) in self.token_to_token(string).items()}
+    def termaxis_to_terms(self, string):
+        if ':' in string:
+            result = self.token_to_tokens(string)
+            invalid = {key
+                for key in result.keys()
+                if key not in self._termaxes}
+            assert not invalid, f'The following termaxes are invalid: {invalid}'
+            invalid = {value
+                for values in result.values()
+                for value in values
+                if value not in self._terms}
+            assert not invalid, f'The following terms are invalid: {invalid}'
+            return result
+        else:
+            values = self.terms(string)
+            term_termaxes = [[value, self._term_to_termaxis[value]]
+                for value in values]
+            termaxes = [termaxis for (term,termaxis) in term_termaxes]
+            result = {}
+            for (term,termaxis) in term_termaxes:
+                result[termaxis] = set() if termaxis not in result else result[termaxis]
+                result[termaxis].add(term)
+            return result
+
 class ListParsing:
     '''
     Parses lisp like text to a list of strings
