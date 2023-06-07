@@ -10,7 +10,7 @@ class DeclensionTemplateMatching:
         candidates = self.templates[tags] if tags in self.templates else []
         templates = sorted([template for template in candidates
                             if self.predicates['be', noun] in declined_noun(template)],
-                      key=lambda template: (-int(template['specificity']), len(declined_noun(template))))
+                      key=lambda template: -int(template['specificity']))
         return templates[0] if len(templates) > 0 else None
 
 class DeckGeneration:
