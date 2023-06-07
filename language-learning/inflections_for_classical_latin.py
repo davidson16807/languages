@@ -5,13 +5,13 @@ start_time = time.time()
 from tools.shorthands import TermParsing
 from tools.lookup import DictSet, DictSpace
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
-from tools.cards import DeckGeneration
 from tools.languages import Language
 from tools.orthography import Orthography
 from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
     RuleTools, RuleSyntax, RuleFormatting, 
 )
+from tools.cards import DeckGeneration
 from inflections import (
     dict_bundle_to_map,
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, english_demonstration,
@@ -27,7 +27,8 @@ from inflections import (
     tag_defaults, 
     parse_any,
     write, 
-    emoji_casts
+    emoji_casts,
+    demonstration_template_matching,
 )
 
 deck_generation = DeckGeneration()
@@ -342,6 +343,7 @@ subjectivity_motion_role_traversal = (
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
+        demonstration_template_matching.verb,
         [demonstration.verb(
             substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
             stock_modifier = foreign_language.grammar.stock_modifier,
@@ -359,6 +361,7 @@ write('flashcards/latin/finite-conjugation.html',
 print('flashcards/latin/nonfinite-conjugation.html')
 write('flashcards/latin/nonfinite-conjugation.html', 
     deck_generation.generate(
+        demonstration_template_matching.verb,
         [
             emoji_demonstration.verb(
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
@@ -390,6 +393,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
 print('flashcards/latin/participle-declension.html')
 write('flashcards/latin/participle-declension.html', 
     deck_generation.generate(
+        demonstration_template_matching.case,
         [demonstration.case(
             substitutions = [
                 {'declined': list_tools.replace(['the', ['n', 'man'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
@@ -415,6 +419,7 @@ write('flashcards/latin/participle-declension.html',
 print('flashcards/latin/adpositions.html')
 write('flashcards/latin/adpositions.html', 
     deck_generation.generate(
+        demonstration_template_matching.case,
         [demonstration.case(
             substitutions = [
                 {'declined': list_tools.replace(['the', 'n', 'man'])},
@@ -434,6 +439,7 @@ write('flashcards/latin/adpositions.html',
 print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html', 
     deck_generation.generate(
+        demonstration_template_matching.case,
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
@@ -451,6 +457,7 @@ write('flashcards/latin/common-noun-declension.html',
 print('flashcards/latin/pronoun-declension.html')
 write('flashcards/latin/pronoun-declension.html', 
     deck_generation.generate(
+        demonstration_template_matching.case,
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
@@ -468,6 +475,7 @@ write('flashcards/latin/pronoun-declension.html',
 print('flashcards/latin/adjective-agreement.html')
 write('flashcards/latin/adjective-agreement.html', 
     deck_generation.generate(
+        demonstration_template_matching.case,
         [demonstration.case(
             substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
         ) for demonstration in demonstrations], 
@@ -486,6 +494,7 @@ write('flashcards/latin/adjective-agreement.html',
 print('flashcards/latin/pronoun-possessives.html')
 write('flashcards/latin/pronoun-possessives.html', 
     deck_generation.generate(
+        demonstration_template_matching.case,
         [demonstration.case(
             substitutions = [
                 {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])},

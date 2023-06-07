@@ -1,9 +1,7 @@
 from .shorthands import EmojiPerson
 
 def TextDemonstration(
-            nouns_to_depictions, #series
             mood_templates, #series×language_type
-            declension_template_matching, #series
             parsing, 
             tools,
         ):
@@ -27,7 +25,7 @@ def TextDemonstration(
             else:
                 return '\\placeholder'
         def verb(self, substitutions, stock_modifier, default_tree, debug=False):
-            def _demonstration(tags, tag_templates):
+            def _demonstration(tags, tag_templates, match):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
                     # 'test':      {**tags, **tag_templates['test']},
@@ -58,11 +56,8 @@ def TextDemonstration(
                         ).replace('∅',''))
             return _demonstration
         def case(self, substitutions, debug=False, **junk):
-            def _demonstration(tags, tag_templates):
+            def _demonstration(tags, tag_templates, match):
                 tags = {**tags, **self.orthography.language.tags}
-                noun = tags['noun'] if 'noun' in tags else None
-                predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
-                match = declension_template_matching.match(predicate, tags)
                 semes = {
                     'test':        {**tags, **tag_templates['test']},
                     'dummy':       {**tags, **tag_templates['dummy']},
@@ -94,7 +89,6 @@ def EmojiDemonstration(
             noun_adjective_lookups,
             noun_lookups,
             mood_templates,
-            declension_template_matching, 
             emojiInflectionShorthand,
             htmlTenseTransform,
             htmlProgressTransform,
@@ -134,7 +128,7 @@ def EmojiDemonstration(
                 #          else '\\n2{🧑\\g2\\c2}')
                 return getattr(htmlTenseTransform, tags['tense'])(
                             getattr(htmlProgressTransform, tags['progress'].replace('-','_'))(template))
-            def _demonstration(test_tags, tag_templates):
+            def _demonstration(test_tags, tag_templates, match):
                 tags = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
                 return self.format_card(self.assemble(tags, scene(tags), self.context(tags)))
             return _demonstration
@@ -160,10 +154,7 @@ def EmojiDemonstration(
                         else noun_lookups[alttags] if alttags in noun_lookups
                         else noun_lookups[tags] if tags in noun_lookups 
                         else '🚫')
-            def _demonstration(test_tags, tag_templates):
-                noun = test_tags['noun'] if 'noun' in test_tags else None
-                predicate = nouns_to_depictions[noun] if noun in nouns_to_depictions else noun
-                match = declension_template_matching.match(predicate, test_tags)
+            def _demonstration(test_tags, tag_templates, match):
                 template = match['emoji'] if 'emoji' in (match or {}) else '🚫'
                 tags = {
                         **test_tags, 

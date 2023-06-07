@@ -23,7 +23,7 @@ from tools.nodemaps import (
 from tools.languages import Language
 from tools.orthography import Orthography
 from tools.demonstration import TextDemonstration, EmojiDemonstration
-from tools.cards import DeclensionTemplateMatching, CardFormatting
+from tools.cards import DemonstrationTemplateMatching, CardFormatting
 
 '''
 Given a mathematical bundle that is encoded as a dictionary,
@@ -638,18 +638,16 @@ aspect_usage_population = NestedLookupPopulation(
     # debug=True
 )
 
-declension_template_matching = DeclensionTemplateMatching(declension_templates, allthat)
 nouns_to_depictions = {
     'animal':'cow',
     'thing':'bolt',
     'phenomenon': 'eruption',
 };
+demonstration_template_matching = DemonstrationTemplateMatching(declension_templates, allthat, nouns_to_depictions)
 LanguageSpecificTextDemonstration = TextDemonstration(
-    nouns_to_depictions,
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'))),
-    declension_template_matching,
     ListParsing(), 
     ListTools()
 )
@@ -664,23 +662,11 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'))),
-    declension_template_matching,
     emoji_shorthand, 
     HtmlTenseTransform(), 
     HtmlProgressTransform(), 
 )
 
-# card_generation = CardGeneration(
-#     english, 
-#     emoji, 
-#     CardFormatting(),
-#     DeclensionTemplateMatching(declension_templates, allthat),
-#     mood_population.index(
-#         mood_annotation.annotate(
-#             tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'))),
-#     ListParsing(),
-#     list_tools
-# )
 
 
 # rows = tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')
