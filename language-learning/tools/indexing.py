@@ -103,18 +103,34 @@ class DictTupleIndexing:
         '''
         Returns a new `DictKeyIndexing` that contains the intersection of keys from both `self` and `other`
         '''
+        other_set = set(other)
         return DictTupleIndexing([key 
-            for key in self.keys
-            if key in other.keys])
+            for key in self
+            if key in other_set])
     def __or__(self, other):
         '''
         Returns a new `DictKeyIndexing` that contains the union of keys from both `self` and `other`
         '''
+        self_set = set(self)
         return DictTupleIndexing([
-                *self.keys,
+                *self,
                 *[key 
-                  for key in other.keys
-                  if key not in self.keys],
+                  for key in other
+                  if key not in self_set],
+            ])
+    def __xor__(self, other):
+        '''
+        Returns a new `DictKeyIndexing` that contains the union of keys from both `self` and `other`
+        '''
+        other_set = set(other)
+        self_set = set(self)
+        return DictTupleIndexing([
+                *[key 
+                  for key in self
+                  if key not in other_set],
+                *[key 
+                  for key in other
+                  if key not in self_set],
             ])
     def __sub__(self, other):
         '''

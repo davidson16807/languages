@@ -1,67 +1,65 @@
-																																
-																																
-			agent	force	patient	theme	experiencer	stimulus	predicand	predicate																			good		visible	audible
-transitive	subject	verb	eat	hit (by falling)	resist	occupy	see	startle	be-good	—																			bad		invisible	inaudible
-							hear	upset	be-bad																				long			
-								please	be-long																				big			
-									be-big																				loud			
-																														surface		
-transitive	subject	dummy	food	man	falling man	place	food	man	good																					medium		
-									bad																							
-									long																							
-									big																							
-																																
-transitive	direct-object	verb	be-resisted	be-resisted	be-eaten	be-pushed	be-startled	be-seen	—	be-unrelatable																						
-					be-cleaned	be-held		be-heard		be-relatable																						
-					be-healed	be-found		be-loved																								
-								be-hated																								
-																																
-transitive	subject	dummy	man	man	man	man	man	man		it																						
-										he																						
-																																
-intransitive	subject	verb	grow	fall	end	come	listen	appear	—	—																						
-			eat		change	stand	watch	sound																								
-					break																											
-					die																											
-																																
-																																
-																																
-		blare	best-seen		best-seen		best-seen	holdable	solid	human	likable																					
-		appear	visible		bad		best-heard	draggable	liquid	sapient	unlikable																					
-		bad	bad		event		imperceptible	immobile	gas	creature	neutral																					
-		big	solid		solid				energy	sessile																						
-		broken	solid&nonliving		good				event	biogenic																						
-		cleaned	nonsapient&physical		holdable				concept	"abiotic	"																						
-		found	visible		living																											
-		good	good		motile																											
-		hated	bad		movable																											
-		healed	sapient		nonsapient																											
-		heard	audible		physical																											
-		held	holdable		relatable																											
-		long	event|solid		sapient																											
-		loved	good		creature																											
-		pushed	movable		sessile																											
-		relatable	relatable		solid																											
-		seen	visible		nonliving																											
-		startled	visible|audible		terrestrial																											
-		unrelatable	unrelatable		unrelatable																											
-		change	physical		visible																											
-		clean	physical																													
-		come	sapient|creature																													
-		die	living																													
-		eat	motile																													
-		end	event																													
-		fall	movable																													
-		grow	sessile																													
-		heal	sapient																													
-		hear	terrestrial																													
-		listen	terrestrial																													
-		occupy	solid																													
-		please	good																													
-		resist	solid																													
-		see	visible																													
-		stand	physical																													
-		startle	motile																													
-		upset	bad																													
-		watch	terrestrial																													
-																																
+																																				
+																																				
+			agent	force	patient	theme	experiencer	stimulus	predicand	predicate																							good		visible	audible
+transitive	subject	verb	eat	hit (by falling)	resist	occupy	see	startle	be-good	—																							bad		invisible	inaudible
+							hear	upset	be-bad																								long			
+								please	be-long																								big			
+									be-big																								loud			
+																																		surface		
+transitive	subject	dummy	food	man	falling man	place	food	man	good																									medium		
+									bad																											
+									long																											
+									big																											
+																																				
+transitive	direct-object	verb	be-resisted	be-resisted	be-washed	be-found	be-startled	be-seen	—	be-unrelatable																										
+								be-heard		be-relatable																										
+								be-loved																												
+								be-hated																												
+																																				
+transitive	subject	dummy	man	man	man	man	man	man		it																										
+										he																										
+																																				
+intransitive	subject	verb	grow	fall	change	come	watch	appear	—	—																										
+			eat			stand	listen	sound																												
+																																				
+																																				
+																																				
+							perceptibility	mobility	physicality	taxon	likeability		subject	intransitive	grow		appear																			
+		blare	best-heard		best-seen		best-seen	holdable	solid	humanoid	likable		subject	intransitive	eat		change																			
+		appear	visible		bad		best-heard	draggable	liquid	creature	unlikable		subject	intransitive	fall		come																			
+		bad	bad		event		imperceptible	immobile	gas	sessile	unremarkable		subject	intransitive	change		eat																			
+		big	solid		solid				emission	biogenic			subject	intransitive	come		fall																			
+		broken	solid&nonliving		good				event	"abiotic	"			subject	intransitive	stand		find																			
+		cleaned	nonsapient&physical		holdable				nonphysical				subject	intransitive	watch		grow																			
+		found	visible		living								subject	intransitive	listen		hate																			
+		good	good		motile								subject	intransitive	appear		hear																			
+		hated	bad		movable								subject	intransitive	sound		hit																			
+		heard	audible		nonsapient								subject	transitive	eat		listen																			
+		long	event|solid		physical								subject	transitive	hit		love																			
+		loved	good		relatable								subject	transitive	resist		occupy																			
+		pushed	movable		sapient								subject	transitive	occupy		please																			
+		relatable	relatable		creature								subject	transitive	see		resist																			
+		seen	visible		sessile								subject	transitive	hear		see																			
+		startled	visible|audible		solid								subject	transitive	startle		sound																			
+		unrelatable	unrelatable		nonliving								subject	transitive	upset		stand																			
+		change	physical		terrestrial								subject	transitive	please		startle																			
+		clean	physical		unrelatable								direct-object	transitive	resist		upset																			
+		come	sapient|creature		visible								direct-object	transitive	wash		wash																			
+		die	living										direct-object	transitive	find		watch																			
+		eat	motile										direct-object	transitive	startle																					
+		end	event										direct-object	transitive	see																					
+		fall	movable										direct-object	transitive	hear																					
+		grow	sessile										direct-object	transitive	love																					
+		hear	terrestrial										direct-object	transitive	hate																					
+		listen	terrestrial																																	
+		occupy	solid																																	
+		please	good																																	
+		resist	solid																																	
+		see	visible																																	
+		stand	physical																																	
+		startle	motile																																	
+		upset	bad																																	
+		watch	terrestrial																																	
+																																				
+																																				
+																																				

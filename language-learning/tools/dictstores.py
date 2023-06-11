@@ -111,17 +111,19 @@ class DictList:
     def __str__(self):
         cell_width = 12
         return '\n'.join([
+                f'DictList {self.name}:',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence]
             ])
     def __repr__(self):
         cell_width = 12
         return '\n'.join([
+                f'DictList {self.name}:',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence]
             ])
     def __contains__(self, key):
-        raise Exception('Cannot allow performant check for membership')
+        raise NotImplementedError('Cannot allow performant check for membership')
     def __iter__(self):
         return self.sequence.__iter__()
     def __len__(self):
@@ -133,6 +135,27 @@ class DictList:
         return self*DictSpace('fallback',
                         other.indexing - self.indexing,
                         other.key_to_values)
+    def __add__(self, other):
+        '''
+        Return the cartesian product of two `DictList`s.
+        Preserve the order of keys from `self`. Only add keys from `other` if they are unique
+        '''
+        name = f'{self.name} * {other.name}'
+        indexing = self.indexing
+        nonequivalent = self.indexing ^ other.indexing
+        assert set(self.indexing) == set(other.indexing), '\n'.join([
+            f'Indexes of "{self.name}" and "{other.name}" are not equivalent.',
+            f'Addition is only supported for equivalent indexes.',
+            f'The nonequivalent keys are: {nonequivalent}'])
+        result = DictList(
+            name, indexing,
+            sequence = [
+                *self
+                *[reindexed
+                  for tuplekey in other
+                  for reindexed in indexing.tuplekeys(other.indexing.dictkey(tuplekey))]
+            ])
+        return result
     def __mul__(self, other):
         '''
         Return the cartesian product of two `DictList`s.
@@ -141,7 +164,10 @@ class DictList:
         name = f'{self.name} * {other.name}'
         indexing = self.indexing | other.indexing
         overlap = self.indexing & other.indexing
-        assert not bool(overlap), f'indexes of multiplied "{self.name}" and "{other.name}" must be disjoint \n the overlapping keys are: {overlap}'
+        assert not bool(overlap), '\n'.join([
+            f'Indexes of "{self.name}" and "{other.name}" are not disjoint.',
+            f'Multiplication is only supported for disjoint indexes. ',
+            f'The overlapping keys are: {overlap}'])
         result = DictList(
             name, indexing,
             sequence = [
@@ -150,8 +176,6 @@ class DictList:
                     [other.indexing.dictkey(tuplekey) for tuplekey in other],
                     [self.indexing.dictkey(tuplekey) for tuplekey in self])
                 for tuplekey in indexing.tuplekeys({**dictkey1, **dictkey2})
-                # if indexing.dictkey(tuplekey) in self
-                # or indexing.dictkey(tuplekey) in other
             ])
         return result
         # # ALT CODE: uncomment if you need support for multiplying containers with 
@@ -224,12 +248,14 @@ class DictSet:
     def __str__(self):
         cell_width = 12
         return '\n'.join([
+                f'DictSet {self.name}:',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content]
             ])
     def __repr__(self):
         cell_width = 12
         return '\n'.join([
+                f'DictSet {self.name}:',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content]
             ])
@@ -263,9 +289,15 @@ class DictSpace:
             for key, values in key_to_values.items()
         }
     def __str__(self):
-        return '\n'.join([f'{key:10}:{values}' for (key,values) in self.key_to_values.items()])
+        return '\n'.join([
+            f'DictSpace {self.name}:',
+            *[f'{key:10}:{values}' for (key,values) in self.key_to_values.items()]
+        ])
     def __repr__(self):
-        return '\n'.join([f'{key:10}:{values}' for (key,values) in self.key_to_values.items()])
+        return '\n'.join([
+            f'DictSpace {self.name}:',
+            *[f'{key:10}:{values}' for (key,values) in self.key_to_values.items()]
+        ])
     def __contains__(self, dictkey):
         return all([
             key in dictkey and dictkey[key] in values
@@ -300,6 +332,27 @@ class DictSpace:
             return other*DictSpace('fallback',
                             self.indexing - other.indexing,
                             self.key_to_values)
+    def __add__(self, other):
+        '''
+        Return the cartesian product of two `DictList`s.
+        Preserve the order of keys from `self`. Only add keys from `other` if they are unique
+        '''
+        name = f'{self.name} * {other.name}'
+        indexing = self.indexing
+        nonequivalent = self.indexing ^ other.indexing
+        assert set(self.indexing) == set(other.indexing), '\n'.join([
+            f'Indexes of "{self.name}" and "{other.name}" are not equivalent.',
+            f'Addition is only supported for equivalent indexes.',
+            f'The nonequivalent keys are: {nonequivalent}'])
+        result = DictList(
+            name, indexing,
+            sequence = [
+                *self
+                *[reindexed
+                  for tuplekey in other
+                  for reindexed in indexing.tuplekeys(other.indexing.dictkey(tuplekey))]
+            ])
+        return result
     def __mul__(self, other):
         '''
         Return the union of two `DictSpace`s.
@@ -308,19 +361,31 @@ class DictSpace:
         name = f'{self.name} * {other.name}'
         indexing = self.indexing | other.indexing
         overlap = self.indexing & other.indexing
-        assert not bool(overlap), f'indexes of multiplied "{self.name}" and "{other.name}" must be disjoint \n the overlapping keys are: {overlap}'
-        result = DictList(
-            name, indexing,
-            sequence = [
-                tuplekey
-                for (dictkey1, dictkey2) in itertools.product(
-                    [other.indexing.dictkey(tuplekey) for tuplekey in other],
-                    [self.indexing.dictkey(tuplekey) for tuplekey in self])
-                for tuplekey in indexing.tuplekeys({**dictkey1, **dictkey2})
-                if indexing.dictkey(tuplekey) in self
-                or indexing.dictkey(tuplekey) in other
-            ])
-        return result
+        assert not bool(overlap), '\n'.join([
+            f'Indexes of "{self.name}" and "{other.name}" are not disjoint.',
+            f'Multiplication is only supported for disjoint indexes. ',
+            f'The overlapping keys are: {overlap}'])
+        if type(other) == DictList:
+            result = DictList(
+                name, indexing,
+                sequence = [
+                    tuplekey
+                    for (dictkey1, dictkey2) in itertools.product(
+                        [other.indexing.dictkey(tuplekey) for tuplekey in other],
+                        [self.indexing.dictkey(tuplekey) for tuplekey in self])
+                    for tuplekey in indexing.tuplekeys({**dictkey1, **dictkey2})
+                    if indexing.dictkey(tuplekey) in self
+                    or indexing.dictkey(tuplekey) in other
+                ])
+            return result
+        elif type(other) == DictSpace:
+            result = DictSpace(
+                name, indexing,
+                {
+                    **self.key_to_values,
+                    **other.key_to_values,
+                })
+            return result
         # # ALT CODE: uncomment if you need support for multiplying containers with 
         # # nondisjoint indices (this comes at a performance cost, however)
         # indexing = self.indexing | other.indexing
