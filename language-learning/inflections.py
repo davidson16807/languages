@@ -71,7 +71,7 @@ case_episemaxis_to_episemes = {
         'possession',  # a noun that is owned by a "possessor"
         'location', 'extent', 'vicinity', 'interior', 'medium', 'side', 'surface', 'subsurface', 
         'presence', 'aid', 'lack', 'interest', 'purpose', 
-        'time', 'state of being', 'company', 'resemblance'],
+        'time', 'state-of-being', 'company', 'resemblance'],
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.

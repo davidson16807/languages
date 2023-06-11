@@ -94,12 +94,12 @@
 	modifier	approached	time	oblique	nearing	∅
 	modifier	surpassed	time	oblique	past	∅
 	modifier	leveraged	time	oblique	by [making use of]	∅
-	modifier	departed	state of being	oblique	from having been	∅
-	modifier	associated	state of being	oblique	as a	∅
-	modifier	acquired	state of being	oblique	in order to be	∅
-	modifier	approached	state of being	oblique	towards being	∅
-	modifier	surpassed	state of being	oblique	beyond being	∅
-	modifier	leveraged	state of being	oblique	due to being	∅
+	modifier	departed	state-of-being	oblique	from having been	∅
+	modifier	associated	state-of-being	oblique	as a	∅
+	modifier	acquired	state-of-being	oblique	in order to be	∅
+	modifier	approached	state-of-being	oblique	towards being	∅
+	modifier	surpassed	state-of-being	oblique	beyond being	∅
+	modifier	leveraged	state-of-being	oblique	due to being	∅
 	modifier	departed	topic	oblique	[off the topic of]	∅
 	modifier	associated	topic	oblique	[regarding]	∅
 	modifier	acquired	topic	oblique	[pursuant to]	∅
