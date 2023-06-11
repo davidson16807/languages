@@ -3,7 +3,7 @@ import time
 start_time = time.time()
 
 from tools.shorthands import TermParsing
-from tools.dictstores import DictSet, DictSpace
+from tools.dictstores import DictSet, DictList, DictSpace
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -143,7 +143,7 @@ defaults = DictSpace(
 subjectivity_role_blacklist = DictSet(
     'subjectivity_role_blacklist', 
     DictTupleIndexing(parse.termaxes('subjectivity role')),
-    sequence = parse.term_table('''
+    content = parse.term_table('''
         addressee     agent
         subject       patient
         direct-object agent
@@ -152,7 +152,7 @@ subjectivity_role_blacklist = DictSet(
 subjectivity_motion_whitelist = DictSet(
     'subjectivity_motion_whitelist', 
     DictTupleIndexing(parse.termaxes('subjectivity motion')),
-    sequence = parse.term_table('''
+    content = parse.term_table('''
         subject       associated
         direct-object associated
         addressee     associated
@@ -164,7 +164,7 @@ subjectivity_motion_whitelist = DictSet(
         modifier      leveraged
     '''))
 
-conjugation_subject_traversal = DictSet(
+conjugation_subject_traversal = DictList(
     'conjugation_subject_traversal', 
     DictTupleIndexing(parse.termaxes('person number gender')),
     sequence = parse.term_table('''
@@ -179,7 +179,7 @@ conjugation_subject_traversal = DictSet(
 mood_tense_whitelist = DictSet(
     'mood_tense_whitelist', 
     DictTupleIndexing(parse.termaxes('mood tense')),
-    sequence = parse.term_table('''
+    content = parse.term_table('''
         indicative   present
         indicative   past
         indicative   future
@@ -189,8 +189,8 @@ mood_tense_whitelist = DictSet(
         imperative   future
     '''))
 
-finite_tense_progress_whitelist = DictSet(
-    'finite_tense_progress_whitelist', 
+finite_tense_progress_traversal = DictList(
+    'finite_tense_progress_traversal', 
     DictTupleIndexing(parse.termaxes('tense progress')),
     sequence = parse.term_table('''
         present  atelic
@@ -204,7 +204,7 @@ finite_tense_progress_whitelist = DictSet(
 nonfinite_tense_progress_whitelist = DictSet(
     'nonfinite_tense_progress_whitelist', 
     DictTupleIndexing(parse.termaxes('tense progress')),
-    sequence = parse.term_table('''
+    content = parse.term_table('''
         present  atelic
         past     finished
         future   atelic
@@ -213,7 +213,7 @@ nonfinite_tense_progress_whitelist = DictSet(
 voice_progress_whitelist = DictSet(
     'voice_progress_whitelist', 
     DictTupleIndexing(parse.termaxes('voice progress')),
-    sequence = parse.term_table('''
+    content = parse.term_table('''
         active   atelic
         active   unfinished
         active   finished
@@ -224,28 +224,28 @@ voice_progress_whitelist = DictSet(
 verb_progress_blacklist = DictSet(
     'verb_progress_blacklist', 
     DictTupleIndexing(parse.termaxes('verb progress')),
-    sequence = parse.term_table('''
+    content = parse.term_table('''
         become  finished
     '''))
 
 verb_mood_blacklist = DictSet(
     'verb_mood_blacklist', 
     DictTupleIndexing(parse.termaxes('verb mood')),
-    sequence = parse.term_table('''
+    content = parse.term_table('''
         be-able  imperative
     '''))
 
 verb_voice_blacklist = DictSet(
     'verb_voice_blacklist', 
     DictTupleIndexing(parse.termaxes('verb  voice')),
-    sequence = parse.term_table('''
+    content = parse.term_table('''
         be       passive
         be-able  passive
         want     passive
         become   passive
     '''))
 
-declension_pronoun_traversal = DictSet(
+declension_pronoun_traversal = DictList(
     'declension_pronoun_traversal', 
     DictTupleIndexing(parse.termaxes('noun person number gender')),
     sequence = parse.token_table('''
@@ -261,8 +261,8 @@ declension_pronoun_traversal = DictSet(
         man    3 plural   neuter   
     '''))
 
-gender_agreement_whitelist = DictSet(
-    'gender_agreement_whitelist', 
+gender_agreement_traversal = DictList(
+    'gender_agreement_traversal', 
     DictTupleIndexing(parse.termaxes('gender noun')),
     sequence = parse.token_table('''
         masculine  man   
@@ -270,7 +270,7 @@ gender_agreement_whitelist = DictSet(
         neuter     animal
     '''))
 
-possession_traversal = DictSet(
+possession_traversal = DictList(
     'possession_traversal', 
     DictTupleIndexing(parse.termaxes('gender noun')),
     sequence = parse.token_table('''
@@ -280,11 +280,10 @@ possession_traversal = DictSet(
         neuter     name     
     '''))
 
-
 possessor_possession_whitelist = DictSet(
-    'possessor_pronoun_whitelist', 
+    'possessor_possession_whitelist', 
     DictTupleIndexing(parse.termaxes('possessor-noun noun')),
-    sequence = parse.token_table('''
+    content = parse.token_table('''
         man-possessor    son
         man-possessor    daughter
         man-possessor    livestock
@@ -296,9 +295,8 @@ possessor_possession_whitelist = DictSet(
         animal-possessor name
     '''))
 
-
-possessor_pronoun_whitelist = DictSet(
-    'possessor_pronoun_whitelist', 
+possessor_pronoun_traversal = DictList(
+    'possessor_pronoun_traversal', 
     DictTupleIndexing(parse.termaxes('possessor-noun possessor-person possessor-number possessor-gender')),
     sequence = parse.token_table('''
         man-possessor    1st-possessor singular-possessor neuter-possessor   
@@ -314,7 +312,7 @@ possessor_pronoun_whitelist = DictSet(
     '''))
 
 tense_progress_mood_voice_verb_traversal = (
-    (((((finite_tense_progress_whitelist
+    (((((finite_tense_progress_traversal
         * axis['mood'])
         & mood_tense_whitelist) 
         * axis['voice'])
@@ -481,7 +479,7 @@ write('flashcards/latin/adjective-agreement.html',
         ) for demonstration in demonstrations], 
         defaults.override(
               axis['number'] 
-            * gender_agreement_whitelist 
+            * gender_agreement_traversal 
             * subjectivity_motion_role_traversal 
             * axis['adjective']),
         tag_templates ={
@@ -504,7 +502,7 @@ write('flashcards/latin/pronoun-possessives.html',
             ((  axis['number'] 
               * possession_traversal 
               * subjectivity_motion_role_traversal 
-              * possessor_pronoun_whitelist)
+              * possessor_pronoun_traversal)
              & possessor_possession_whitelist)
             * constant['exclusive-possessor']  
             * constant['familiar-possessor'] ),

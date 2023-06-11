@@ -1,0 +1,67 @@
+																																
+																																
+			agent	force	patient	theme	experiencer	stimulus	predicand	predicate																			good		visible	audible
+transitive	subject	verb	eat	hit (by falling)	resist	occupy	see	startle	be-good	—																			bad		invisible	inaudible
+							hear	upset	be-bad																				long			
+								please	be-long																				big			
+									be-big																				loud			
+																														surface		
+transitive	subject	dummy	food	man	falling man	place	food	man	good																					medium		
+									bad																							
+									long																							
+									big																							
+																																
+transitive	direct-object	verb	be-resisted	be-resisted	be-eaten	be-pushed	be-startled	be-seen	—	be-unrelatable																						
+					be-cleaned	be-held		be-heard		be-relatable																						
+					be-healed	be-found		be-loved																								
+								be-hated																								
+																																
+transitive	subject	dummy	man	man	man	man	man	man		it																						
+										he																						
+																																
+intransitive	subject	verb	grow	fall	end	come	listen	appear	—	—																						
+			eat		change	stand	watch	sound																								
+					break																											
+					die																											
+																																
+																																
+																																
+		blare	best-seen		best-seen		best-seen	holdable	solid	human	likable																					
+		appear	visible		bad		best-heard	draggable	liquid	sapient	unlikable																					
+		bad	bad		event		imperceptible	immobile	gas	creature	neutral																					
+		big	solid		solid				energy	sessile																						
+		broken	solid&nonliving		good				event	biogenic																						
+		cleaned	nonsapient&physical		holdable				concept	"abiotic	"																						
+		found	visible		living																											
+		good	good		motile																											
+		hated	bad		movable																											
+		healed	sapient		nonsapient																											
+		heard	audible		physical																											
+		held	holdable		relatable																											
+		long	event|solid		sapient																											
+		loved	good		creature																											
+		pushed	movable		sessile																											
+		relatable	relatable		solid																											
+		seen	visible		nonliving																											
+		startled	visible|audible		terrestrial																											
+		unrelatable	unrelatable		unrelatable																											
+		change	physical		visible																											
+		clean	physical																													
+		come	sapient|creature																													
+		die	living																													
+		eat	motile																													
+		end	event																													
+		fall	movable																													
+		grow	sessile																													
+		heal	sapient																													
+		hear	terrestrial																													
+		listen	terrestrial																													
+		occupy	solid																													
+		please	good																													
+		resist	solid																													
+		see	visible																													
+		stand	physical																													
+		startle	motile																													
+		upset	bad																													
+		watch	terrestrial																													
+																																
