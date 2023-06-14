@@ -74,11 +74,11 @@ class CellAnnotation:
         for i, row in enumerate(rows):
             if i < header_row_count and row[0] == self.canton_value: # header row identified
                 for j, cell in enumerate(row):
-                    if i in self.header_row_id_to_attribute:
-                        column_base_attributes[j][self.header_row_id_to_attribute[i]] = cell
                     if cell == self.canton_value:
                         header_column_count = max(header_column_count, j+1)
-                    if cell in self.keyword_to_attribute:
+                    if i in self.header_row_id_to_attribute:
+                        column_base_attributes[j][self.header_row_id_to_attribute[i]] = cell
+                    elif cell in self.keyword_to_attribute:
                         column_base_attributes[j][self.keyword_to_attribute[cell]] = cell
             else:
                 header_row_count = min(header_row_count, i)
@@ -88,7 +88,7 @@ class CellAnnotation:
                         cell = row[i]
                         if i in self.header_column_id_to_attribute:
                             row_base_attributes[self.header_column_id_to_attribute[i]] = cell
-                        if cell in self.keyword_to_attribute:
+                        elif cell in self.keyword_to_attribute:
                             row_base_attributes[self.keyword_to_attribute[cell]] = cell
                     for i in range(header_column_count,len(row)):
                         cell = row[i]
