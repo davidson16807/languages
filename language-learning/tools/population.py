@@ -2,8 +2,8 @@ import copy
 
 class FlatLookupPopulation:
     '''
-    `FlatLookupIndexing` converts a list of (annotation,cell) tuples
-    (such as those output by `TableAnnotation`)
+    `FlatLookupIndexing` converts a list of annotations
+    (such as those output by `*Annotations`)
     to a representation where cells are stored in a lookup.
     The cells are indexed by their annotations according to the indexing behavior 
     within a given `template_lookup`.
@@ -15,14 +15,14 @@ class FlatLookupPopulation:
     def index(self, annotations):
         if self.debug: breakpoint()
         lookup = copy.deepcopy(self.template_lookup)
-        for annotation,cell in annotations:
-            lookup[annotation] = self.evaluation(cell)
+        for annotation in annotations:
+            lookup[annotation] = self.evaluation(annotation)
         return lookup
 
 class NestedLookupPopulation:
     '''
-    `NestedLookupPopulation` converts a list of (annotation,cell) tuples
-    (such as those output by `TableAnnotation`)
+    `NestedLookupPopulation` converts a list of annotations
+    (such as those output by `*Annotations`)
     to a representation where cells are stored in nested lookups.
     The cells are indexed by their annotations according to 
     the indexing behavior within a given `template_lookups`.
@@ -38,17 +38,17 @@ class NestedLookupPopulation:
     def index(self, annotations):
         if self.debug: breakpoint()
         lookups = copy.deepcopy(self.template_lookups)
-        for annotation,cell in annotations:
+        for annotation in annotations:
             for tuplekey in lookups.indexing.tuplekeys(annotation):
                 lookup = lookups[tuplekey]
-                lookup[annotation] = self.evaluation(cell)
+                lookup[annotation] = self.evaluation(annotation)
             if self.debug: breakpoint()
         return lookups
 
 class ListLookupPopulation:
     '''
-    `FlatLookupIndexing` converts a list of (annotation,cell) tuples
-    (such as those output by `TableAnnotation`)
+    `FlatLookupIndexing` converts a list of annotations
+    (such as those output by `*Annotations`)
     to a representation where cells are stored in a lookup.
     The cells are indexed by their annotations according to the indexing behavior 
     within a given `template_lookup`.
@@ -60,7 +60,7 @@ class ListLookupPopulation:
     def index(self, annotations):
         if self.debug: breakpoint()
         lookup = copy.deepcopy(self.template_lookup)
-        for annotation,cell in annotations:
+        for annotation in annotations:
             for tuplekey in lookup.indexing.tuplekeys(annotation):
-                lookup[tuplekey].append(self.evaluation(cell))
+                lookup[tuplekey].append(self.evaluation(annotation))
         return lookup

@@ -473,41 +473,40 @@ episemes_to_aspect_episemaxis = dict_bundle_to_map(aspect_episemaxis_to_episemes
 term_to_termaxis = dict_bundle_to_map(termaxis_to_terms)
 
 finite_annotation  = CellAnnotation(
-    tag_to_tagaxis, {}, {0:'verb'}, 
+    'inflection', tag_to_tagaxis, {}, {0:'verb'}, 
     {**tagaxis_to_tags, 'script':'latin', 'verb-form':'finite'})
 nonfinite_annotation  = CellAnnotation(
-    tag_to_tagaxis, {}, {0:'verb'},
+    'inflection', tag_to_tagaxis, {}, {0:'verb'},
     {**tagaxis_to_tags, 'script':'latin', 'verb-form':'infinitive'})
 personal_pronoun_annotation  = CellAnnotation(
-    tag_to_tagaxis, {}, {}, 
+    'inflection', tag_to_tagaxis, {}, {}, 
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal'})
 pronoun_annotation  = CellAnnotation(
-    tag_to_tagaxis, {}, {}, 
+    'inflection', tag_to_tagaxis, {}, {}, 
     {**tagaxis_to_tags, 'script':'latin'})
 possessive_pronoun_annotation  = CellAnnotation(
-    tag_to_tagaxis, {}, {},
+    'inflection', tag_to_tagaxis, {}, {},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal-possessive'})
 common_noun_annotation  = CellAnnotation(
-    tag_to_tagaxis, {}, {0:'noun'},
+    'inflection', tag_to_tagaxis, {}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 noun_adjective_annotation  = CellAnnotation(
-    tag_to_tagaxis, {}, {0:'adjective',1:'noun'},
+    'inflection', tag_to_tagaxis, {}, {0:'adjective',1:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 declension_template_noun_annotation = CellAnnotation(
-    tag_to_tagaxis, {0:'language'}, {0:'noun'},
+    'inflection', tag_to_tagaxis, {0:'language'}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
 mood_annotation = CellAnnotation(
-    {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
+    'inflection', {}, {0:'column'}, {0:'mood'}, {'script':'latin'})
 declension_verb_annotation = CellAnnotation(
-    tag_to_tagaxis, {0:'language'}, {1:'verb'}, 
+    'inflection', tag_to_tagaxis, {0:'language'}, {1:'verb'}, 
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 
-cell_evaluation = CellEvaluation()
-conjugation_population = NestedLookupPopulation(conjugation_template_lookups, cell_evaluation)
-declension_population  = NestedLookupPopulation(declension_template_lookups, cell_evaluation)
-emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleIndexing(['noun','number'])), cell_evaluation)
-emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])), cell_evaluation)
-mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])), cell_evaluation)
+conjugation_population = NestedLookupPopulation(conjugation_template_lookups, KeyEvaluation('inflection'))
+declension_population  = NestedLookupPopulation(declension_template_lookups, KeyEvaluation('inflection'))
+emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleIndexing(['noun','number'])), KeyEvaluation('inflection'))
+emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])), KeyEvaluation('inflection'))
+mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])), KeyEvaluation('inflection'))
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
@@ -594,14 +593,14 @@ declension_template_population = ListLookupPopulation(
         ), 
         lambda key:[]
     ),
-    cell_evaluation)
+    CellEvaluation())
 declension_templates = \
     declension_template_population.index(
         declension_template_annotation.annotate(
             tsv_parsing.rows(
                 'data/inflection/declension-templates-minimal.tsv')))
 
-case_usage_annotation = CellAnnotation(dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
+case_usage_annotation = CellAnnotation('case', dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
 case_usage_population = NestedLookupPopulation(
     DefaultDictLookup('case-usage', 
         DictTupleIndexing(
@@ -610,10 +609,10 @@ case_usage_population = NestedLookupPopulation(
         ),
         lambda dictkey: DictLookup('grammatical-case-columns',
             DictKeyIndexing('column'))),
-    cell_evaluation
+    KeyEvaluation('case')
 )
 
-mood_usage_annotation = CellAnnotation(dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {})
+mood_usage_annotation = CellAnnotation('mood', dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {})
 mood_usage_population = NestedLookupPopulation(
     DefaultDictLookup('mood-usage', 
         DictTupleIndexing(
@@ -622,10 +621,10 @@ mood_usage_population = NestedLookupPopulation(
         ),
         lambda dictkey: DictLookup('grammatical-mood-columns',
             DictKeyIndexing('column'))),
-    cell_evaluation
+    KeyEvaluation('mood')
 )
 
-aspect_usage_annotation = CellAnnotation(dict_bundle_to_map(aspect_episemaxis_to_episemes), {0:'column'}, {}, {})
+aspect_usage_annotation = CellAnnotation('aspect', dict_bundle_to_map(aspect_episemaxis_to_episemes), {0:'column'}, {}, {})
 aspect_usage_population = NestedLookupPopulation(
     DefaultDictLookup('aspect-usage', 
         DictTupleIndexing(
@@ -634,7 +633,7 @@ aspect_usage_population = NestedLookupPopulation(
         ),
         lambda dictkey: DictLookup('grammatical-aspect-columns',
             DictKeyIndexing('column'))),
-    cell_evaluation,
+    KeyEvaluation('aspect'),
     # debug=True
 )
 
@@ -686,8 +685,7 @@ def write(filename, rows):
             file.write(f'{row}\n')
 
 def has_annotation(key, value):
-    def _has_annotation(annotated_cell):
-        annotation, cell = annotated_cell
+    def _has_annotation(annotation):
         return key in annotation and annotation[key] == value or value in annotation[key]
     return _has_annotation
 

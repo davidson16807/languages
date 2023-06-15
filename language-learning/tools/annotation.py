@@ -1,7 +1,7 @@
 '''
 "*Annotation" classes contain a single pure method, "annotate()", 
 that maps the contents of a table (represented as a list of lists of strings)
-to lists of (annotation,cell) tuples where 'cell' is the contents of a cell within the table,
+to lists of annotation tuples where 'cell' is the contents of a cell within the table,
  and 'annotations' is a dict of attribute:keyword associated with a cell.
 
 The concept of an "*Annotation" class is useful since we see 
@@ -23,7 +23,7 @@ class RowAnnotation:
             dict_row = {key:value 
                 for (key,value) in zip(self.header_column_names, row)
                 if value}
-            annotations.append((dict_row, dict_row))
+            annotations.append(dict_row)
         return annotations
 
 class CellAnnotation:
@@ -38,13 +38,13 @@ class CellAnnotation:
     When a predifined keyword occurs within the cell contents of a header row or column, 
      the row or column associated with that header is marked as having that keyword 
      for an associated attribute.
-    Keywords are indicated by keys within `keyword_to_attribute`.
+    Keywords are indicated by keys within `term_to_termaxis`.
     Keywords that are not known at the time of execution may be 
-     indicated using `header_column_id_to_attribute`, 
+     indicated using `header_column_id_to_termaxis`, 
      which marks all cell contents of a given column as keywords for a given attribute.
 
     As an example, if a header row is marked 'green', and 'green' is a type of 'color',
-     then `keyword_to_attribute` may store 'green':'color' as a key:value pair.
+     then `term_to_termaxis` may store 'green':'color' as a key:value pair.
     Anytime 'green' is listed in a header row or column, 
      all contents of the row or column associated with that header cell 
      will be marked as having the color 'green'.
@@ -52,17 +52,16 @@ class CellAnnotation:
     `CellAnnotation` converts tables that are written in this manner between 
     two reprepresentations: 
     The first representation is a list of rows, where rows are lists of cell contents.
-    The second representation is a list where each element is a tuple,
-     (annotation,cell), where 'cell' is the contents of a cell within the table,
-     and 'annotations' is a dict of attribute:keyword associated with a cell.
+    The second representation is a list where each element is annotation,
+     i.e., a dict of attribute:keyword where cell contents are associated with a given attribute, `cell_termaxis`.
     '''
-    def __init__(self, 
-            keyword_to_attribute, 
-            header_row_id_to_attribute, header_column_id_to_attribute,
+    def __init__(self, cell_termaxis, term_to_termaxis, 
+            header_row_id_to_termaxis, header_column_id_to_termaxis,
             default_attributes, canton_value='*'):
-        self.keyword_to_attribute = keyword_to_attribute
-        self.header_column_id_to_attribute = header_column_id_to_attribute
-        self.header_row_id_to_attribute = header_row_id_to_attribute
+        self.cell_termaxis = cell_termaxis
+        self.term_to_termaxis = term_to_termaxis
+        self.header_column_id_to_termaxis = header_column_id_to_termaxis
+        self.header_row_id_to_termaxis = header_row_id_to_termaxis
         self.default_attributes = default_attributes
         self.canton_value = canton_value
     def annotate(self, rows):
@@ -76,20 +75,20 @@ class CellAnnotation:
                 for j, cell in enumerate(row):
                     if cell == self.canton_value:
                         header_column_count = max(header_column_count, j+1)
-                    if i in self.header_row_id_to_attribute:
-                        column_base_attributes[j][self.header_row_id_to_attribute[i]] = cell
-                    elif cell in self.keyword_to_attribute:
-                        column_base_attributes[j][self.keyword_to_attribute[cell]] = cell
+                    if i in self.header_row_id_to_termaxis:
+                        column_base_attributes[j][self.header_row_id_to_termaxis[i]] = cell
+                    elif cell in self.term_to_termaxis:
+                        column_base_attributes[j][self.term_to_termaxis[cell]] = cell
             else:
                 header_row_count = min(header_row_count, i)
                 row_base_attributes = {}
                 if len(row) >= header_column_count:
                     for i in range(0,header_column_count):
                         cell = row[i]
-                        if i in self.header_column_id_to_attribute:
-                            row_base_attributes[self.header_column_id_to_attribute[i]] = cell
-                        elif cell in self.keyword_to_attribute:
-                            row_base_attributes[self.keyword_to_attribute[cell]] = cell
+                        if i in self.header_column_id_to_termaxis:
+                            row_base_attributes[self.header_column_id_to_termaxis[i]] = cell
+                        elif cell in self.term_to_termaxis:
+                            row_base_attributes[self.term_to_termaxis[cell]] = cell
                     for i in range(header_column_count,len(row)):
                         cell = row[i]
                         # if cell and column_base_attributes[i]:
@@ -98,6 +97,7 @@ class CellAnnotation:
                                 **self.default_attributes,
                                 **row_base_attributes,
                                 **column_base_attributes[i],
+                                self.cell_termaxis: cell
                             }
-                            annotations.append((annotation,cell))
+                            annotations.append(annotation)
         return annotations
