@@ -1,0 +1,49 @@
+*	*	*	organization	sapient	creature	seacreature	plant	bodypart	bodyfluid	viscera	food	item	fixture	liquid	gas	event	location	side	surface	interior	heat-source	visible	audible	vice	virtue	size	quality	quantity	manner	reason	concept	#						
+#			1	47	13	1	2	5		2	6	14		2	2	10	4		3	10		12	4	2							6	#					woman	
+location	modifier			walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim	direct	walk	walk	walk	walk	walk	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#					animal	
+extent	modifier			walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim	direct	walk	walk	walk	walk	walk	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#						
+vicinity	modifier			walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim	direct	walk	walk	walk	walk	walk	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#					arrow	
+side	modifier			rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	direct	direct	rest	rest	rest	rest	rest	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	swim			fire	
+interior	modifier			rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	swim	fly	rest	rest	rest	rest	walk	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	bird	fly			ice	
+medium	modifier			rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	swim	fly	rest	rest	rest	rest	rest	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	treasure	rest			food	
+subsurface	modifier			rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	fly	rest	rest	rest	rest	rest	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	walk			"bird	"	
+surface	modifier			walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	float	fly	walk	walk	walk	walk	walk	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	rest			bird	
+presence	modifier			work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	arrow	rest			place	
+aid	modifier			work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	direct				
+lack	modifier			work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	work			son	
+intestick	modifier			work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	resemble			daughter	
+purpose	modifier			work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	eat	food		livestock	
+time	modifier															work																#	man	endure	fire		name	
+state-of-being	modifier			work	work	work																										#	fire	warm	man		amount	
+company	modifier			work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work										#	ice	cool	man		size	
+topic	modifier			direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	fall			noise	
+possession	modifier			come																												#	man	change				
+resemblance	modifier			resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	#	man	occupy	place		good	
+agent	subject	transitive		eat	eat	eat																										#	man	show			bad	
+agent	subject	intransitive		eat	eat	eat																										#	man	see			big	
+agent	direct-object	intransitive		endure	endure	endure																										#	man	watch			long	
+force	subject	transitive		warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm											#	man	startle			well	
+#force	subject	transitive		cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool												#	man	displease				
+force	subject	intransitive		fall	fall	fall	fall	fall	fall	fall	fall	fall	fall	fall	fall																	#	man	appear			his	
+force	direct-object	intransitive		endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure																	#		be	good		attention	
+patient	subject	transitive	endure	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm											#		be	bad		thought	
+#patient	subject	transitive		cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool												#		be	big			
+patient	subject	intransitive			warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	warm	change	change	change	change	change	change	change	change	change	change	change	change	change	change	change	#		be	long		angry	
+#patient	subject	intransitive			cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	change	change	change	change	change	change	change	change	change	change	change	change	change	change	change	#		be	loud		falling	
+patient	direct-object	intransitive		warm	warm	warm	warm	warm	warm	warm	warm	eat	warm	warm	warm	warm	warm	warm	warm	warm	warm											#						
+#patient	direct-object	intransitive		cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool	cool												#					hello	
+theme	subject	transitive	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy	occupy									#						
+theme	subject	intransitive		endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	endure	#					the	
+theme	direct-object	intransitive		show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	show	#						
+experience	subject	transitive	see	see	see	see																										#					sound	
+experience	subject	intransitive		watch	watch	watch																										#					size	
+experience	direct-object	intransitive		startle	startle	startle																										#						
+stimulus	subject	transitive	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	displease	please	displease	displease	displease	displease	displease	displease	#						
+stimulus	subject	intransitive		appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	appear	#						
+stimulus	direct-object	intransitive		see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	hear	feel	feel	feel	feel	feel	feel	feel	#						
+predicand	subject	transitive	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	#						
+predicand	subject	intransitive		be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	#						
+predicand	direct-object	intransitive		be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	#						
+predicate	subject	transitive	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	#						
+predicate	subject	intransitive	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	#						
+predicate	direct-object	intransitive		be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	be	#						
