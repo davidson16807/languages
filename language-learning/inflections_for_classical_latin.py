@@ -29,6 +29,7 @@ from inflections import (
     write, 
     emoji_casts,
     demonstration_template_matching,
+    template_verb_whitelist,
 )
 
 deck_generation = DeckGeneration()
@@ -337,6 +338,13 @@ subjectivity_motion_role_traversal = (
      & subjectivity_motion_whitelist)
     - subjectivity_role_blacklist
 )
+
+# foo = (subjectivity_motion_role_traversal 
+#     * axis['valency'] 
+#     * axis['verb'] 
+#     * axis['template']) & template_verb_whitelist
+
+# breakpoint()
 
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 

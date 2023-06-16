@@ -12,10 +12,10 @@ from tools.shorthands import *
 from tools.parsing import SeparatedValuesFileParsing
 from tools.annotation import RowAnnotation, CellAnnotation
 from tools.predicates import Predicate
-from tools.dictstores import DefaultDictLookup, DictLookup
+from tools.dictstores import DefaultDictLookup, DictLookup, DictSet
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
-from tools.evaluation import CellEvaluation, KeyEvaluation, MultiKeyEvaluation
-from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation
+from tools.evaluation import IdentityEvaluation, KeyEvaluation, MultiKeyEvaluation
+from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation, DictSetPopulation
 from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
     RuleTools, RuleSyntax, RuleFormatting, 
@@ -248,8 +248,13 @@ tagaxis_to_tags = {
                 'semelfactive','distributive','diversative','reversative','transitional','cursive',
                'completive','prolongative','seriative','inchoative','reversionary','semeliterative','segmentative'],
 
-    # needed for correlatives in general
-    'abstraction': 'institution location origin destination time manner reason quality amount'.split(),
+    # # needed for correlatives in general
+    # 'abstraction': 'organization location origin destination time manner reason quality amount'.split(),
+
+    # needed when creating demonstrations for declensions
+    'template': '''organization sapient creature seacreature plant bodypart bodyfluid viscera 
+                   food item fixture liquid gas event location side surface interior 
+                   heat-source visible audible vice virtue size quality quantity manner reason concept'''.split(),
 
     # needed for quantifiers/correlatives
     'quantity':    'universal nonexistential assertive elective'.split(),
@@ -501,12 +506,17 @@ mood_annotation = CellAnnotation(
 declension_verb_annotation = CellAnnotation(
     'inflection', tag_to_tagaxis, {0:'language'}, {1:'verb'}, 
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
+template_verb_annotation = CellAnnotation(
+    'verb', term_to_termaxis, {0:'template'}, {}, {})
 
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups, KeyEvaluation('inflection'))
 declension_population  = NestedLookupPopulation(declension_template_lookups, KeyEvaluation('inflection'))
 emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleIndexing(['noun','number'])), KeyEvaluation('inflection'))
 emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])), KeyEvaluation('inflection'))
 mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])), KeyEvaluation('inflection'))
+template_verb_population = DictSetPopulation(DictSet('demonstration-verb', DictTupleIndexing(['template','role','subjectivity','valency']), set()))
+
+
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
@@ -531,6 +541,12 @@ emoji_shorthand = EmojiInflectionShorthand(
 )
 
 tsv_parsing = SeparatedValuesFileParsing()
+
+template_verb_whitelist = (
+    template_verb_population.index(
+        template_verb_annotation.annotate(
+            tsv_parsing.rows('data/inflection/template-verbs.tsv')))
+)
 
 rows = [
   *tsv_parsing.rows('data/predicates/mythical/greek.tsv'),
@@ -593,7 +609,7 @@ declension_template_population = ListLookupPopulation(
         ), 
         lambda key:[]
     ),
-    CellEvaluation())
+    IdentityEvaluation())
 declension_templates = \
     declension_template_population.index(
         declension_template_annotation.annotate(

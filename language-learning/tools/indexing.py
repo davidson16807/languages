@@ -19,6 +19,17 @@ class DictKeyIndexing:
     def check(self, dictkey):
         if self.key not in dictkey:
             raise KeyError(' '.join(['Dictionary is missing required key:', self.key]))
+        if type(dictkey[key]) != str:
+            raise KeyError(' '.join(['Dictionary maps keys to invalid type:', self.key]))
+    def tuplekey(self, containerkey):
+        '''
+        Returns a value that represents the `containerkey` according to the indexing,
+        where `containerkey` is either a value, or a dict that maps a key from `keys` to a single value.
+        '''
+        if type(containerkey) == dict:
+            return tuple([containerkey[key] for key in self.keys])
+        else:
+            return containerkey
     def tuplekeys(self, dictkey):
         '''
         Returns a generator that iterates through possible values for the given `key`
@@ -61,6 +72,17 @@ class DictTupleIndexing:
             **self.defaults, 
             **{key:tuplekey[i] for i, key in enumerate(self.keys)}
         }
+    def tuplekey(self, containerkey):
+        '''
+        Returns a tuple that represents the `containerkey` according to the indexing,
+        where `containerkey` is either a tuple, or a dict that maps a key from `keys` to a single value.
+        '''
+        if type(containerkey) == tuple:
+            return containerkey
+        elif type(containerkey) == dict:
+            return tuple([containerkey[key] for key in self.keys])
+        else:
+            raise ValueError(f'Invalid key of type "{type(containerkey)}"')
     def tuplekeys(self, dictkey):
         '''
         Returns a generator that iterates through 
@@ -78,11 +100,17 @@ class DictTupleIndexing:
     def check(self, dictkey):
         dictkey = {**self.defaults, **dictkey}
         missing = [key
-                    for key in self.keys
-                    if key not in dictkey
-                ] if type(self) == DictTupleIndexing else []
+                for key in self.keys
+                if key not in dictkey
+            ]
         if missing:
             raise KeyError(' '.join(['Dictionary is missing required keys:', *missing]))
+        invalid = [key
+                for key in self.keys
+                if type(dictkey[key]) != str
+            ]
+        if invalid:
+            raise KeyError(' '.join(['Dictionary maps keys to invalid type:', *invalid]))
     def count(self, dictkey):
         '''
         Returns the number of possible tuples that can be generated from `self.tuplekeys(dictkey)`.

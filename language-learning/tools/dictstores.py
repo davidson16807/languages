@@ -13,7 +13,23 @@ class DictLookup:
     def __init__(self, name, indexing, content=None):
         self.name = name
         self.indexing = indexing
-        self.content = {} if content is None else content
+        self.content = content or {}
+    def __str__(self):
+        cell_width = 12
+        return '\n'.join([
+                f'DictLookup {self.name}:',
+                ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
+                *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
+                  for (tuplekey, value) in self.content.items()]
+            ])
+    def __repr__(self):
+        cell_width = 12
+        return '\n'.join([
+                f'DictLookup {self.name}:',
+                ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
+                *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
+                  for (tuplekey, value) in self.content.items()]
+            ])
     def __getitem__(self, dictkey):
         '''
         Return the value that is indexed by `dictkey` 
@@ -22,6 +38,7 @@ class DictLookup:
         if type(dictkey) in {tuple,str}:
             return self.content[dictkey]
         else:
+            # self.indexing.check(dictkey)
             tuplekeys = [tuplekey 
                 for tuplekey in self.indexing.tuplekeys(dictkey)
                 if tuplekey in self.content]
@@ -53,6 +70,7 @@ class DictLookup:
         if type(dictkey) in {tuple,str}:
             return self.content[dictkey]
         else:
+            # self.indexing.check(dictkey)
             for tuplekey in self.indexing.tuplekeys(dictkey):
                 if tuplekey in self.content and value != self.content[tuplekey]:
                     raise KeyError('\n'.join([
@@ -68,24 +86,13 @@ class DictLookup:
         if type(dictkey) in {tuple,str}:
             return dictkey in self.content
         else:
+            # self.indexing.check(dictkey)
             tuplekeys = list(self.indexing.tuplekeys(dictkey))
             return len(tuplekeys) == 1 and tuplekeys[0] in self
     def __iter__(self):
         return self.content.__iter__()
     def __len__(self):
         return self.content.__len__()
-    def values(self, dictkey):
-        for tuplekey in self.indexing.tuplekeys(dictkey):
-            if tuplekey in self.content:
-                yield self.content[tuplekey]
-    def keys(self, dictkey):
-        for tuplekey in self.indexing.tuplekeys(dictkey):
-            if tuplekey in self.content:
-                yield self.indexing.dictkey(tuplekey)
-    def items(self, dictkey):
-        for tuplekey in self.indexing.tuplekeys(dictkey):
-            if tuplekey in self.content:
-                yield self.indexing.dictkey(tuplekey), self.content[tuplekey]
 
 class DictList:
     '''
@@ -100,7 +107,7 @@ class DictList:
     def __init__(self, name, indexing, sequence):
         self.name = name
         self.indexing = indexing
-        self.sequence = sequence
+        self.sequence = [indexing.tuplekey(entry) for entry in sequence]
         misaligned = [len(tuplekey) 
             for tuplekey in self.sequence
             if len(tuplekey) != len(indexing.keys)]
@@ -151,9 +158,8 @@ class DictList:
             name, indexing,
             sequence = [
                 *self
-                *[reindexed
-                  for tuplekey in other
-                  for reindexed in indexing.tuplekeys(other.indexing.dictkey(tuplekey))]
+                *[indexing.tuplekey(other.indexing.dictkey(tuplekey))
+                  for tuplekey in other]
             ])
         return result
     def __mul__(self, other):
@@ -171,11 +177,10 @@ class DictList:
         result = DictList(
             name, indexing,
             sequence = [
-                tuplekey
+                indexing.tuplekey({**dictkey1, **dictkey2})
                 for (dictkey1, dictkey2) in itertools.product(
                     [other.indexing.dictkey(tuplekey) for tuplekey in other],
                     [self.indexing.dictkey(tuplekey) for tuplekey in self])
-                for tuplekey in indexing.tuplekeys({**dictkey1, **dictkey2})
             ])
         return result
         # # ALT CODE: uncomment if you need support for multiplying containers with 
@@ -238,13 +243,9 @@ class DictSet:
     def __init__(self, name, indexing, content):
         self.name = name
         self.indexing = indexing
-        self.content = set(content)
+        self.content = set([indexing.tuplekey(entry) for entry in content])
     def __contains__(self, key):
-        if type(key) in {tuple,str}:
-            return key in self.content
-        else:
-            tuplekeys = list(self.indexing.tuplekeys(key))
-            return len(tuplekeys) == 1 and tuplekeys[0] in self
+        return self.indexing.tuplekey(key) in self.content
     def __str__(self):
         cell_width = 12
         return '\n'.join([
@@ -348,9 +349,8 @@ class DictSpace:
             name, indexing,
             sequence = [
                 *self
-                *[reindexed
-                  for tuplekey in other
-                  for reindexed in indexing.tuplekeys(other.indexing.dictkey(tuplekey))]
+                *[indexing.tuplekey(other.indexing.dictkey(tuplekey)) 
+                  for tuplekey in other]
             ])
         return result
     def __mul__(self, other):
@@ -366,14 +366,16 @@ class DictSpace:
             f'Multiplication is only supported for disjoint indexes. ',
             f'The overlapping keys are: {overlap}'])
         if type(other) == DictList:
-            result = DictList(
-                name, indexing,
-                sequence = [
-                    tuplekey
+            tuplekeys = [
+                    indexing.tuplekey({**dictkey1, **dictkey2})
                     for (dictkey1, dictkey2) in itertools.product(
                         [other.indexing.dictkey(tuplekey) for tuplekey in other],
                         [self.indexing.dictkey(tuplekey) for tuplekey in self])
-                    for tuplekey in indexing.tuplekeys({**dictkey1, **dictkey2})
+                ]
+            result = DictList(
+                name, indexing,
+                sequence = [tuplekey 
+                    for tuplekey in tuplekeys
                     if indexing.dictkey(tuplekey) in self
                     or indexing.dictkey(tuplekey) in other
                 ])
@@ -458,7 +460,7 @@ class DefaultDictLookup:
         self.name = name
         self.indexing = indexing
         self.get_default = get_default
-        self.content = {} if content is None else content
+        self.content = content or {}
     def __getitem__(self, key):
         '''
         Return the value that is indexed by `key` 
@@ -472,6 +474,9 @@ class DefaultDictLookup:
                 self.content[key] = value
                 return value
         else:
+            # if type(key) in {dict}:
+            #     assert all([type(value)==list for (key, value) in key.items()]), 'key should not map keys to lists'
+            # self.indexing.check(key)
             tuplekeys = list(self.indexing.tuplekeys(key))
             if len(tuplekeys) == 1:
                 return self.__getitem__(tuplekeys[0])
@@ -491,6 +496,9 @@ class DefaultDictLookup:
         if type(key) in {tuple, str}:
             self.content[key] = value
         else:
+            if type(dictkey) in {dict}:
+                assert all([type(value)==list for (key, value) in dictkey.items()]), 'dictkey should not map keys to lists'
+            # self.indexing.check(key)
             for tuplekey in self.indexing.tuplekeys(key):
                 if tuplekey in self.content and value != self.content[tuplekey]:
                     raise KeyError('\n'.join([
@@ -506,25 +514,12 @@ class DefaultDictLookup:
         if type(key) in {tuple,str}:
             return key in self.content
         else:
+            # if type(key) in {dict}:
+            #     assert all([type(value)==list for (key, value) in key.items()]), 'key should not map keys to lists'
+            # self.indexing.check(key)
             tuplekeys = list(self.indexing.tuplekeys(key))
             return len(tuplekeys) == 1 and tuplekeys[0] in self
     def __iter__(self):
         return self.content.__iter__()
     def __len__(self):
         return self.content.__len__()
-    def values(self, dictkey):
-        for tuplekey in self.indexing.tuplekeys(dictkey):
-            if tuplekey in self.content:
-                yield self.content[tuplekey]
-            else:
-                yield default
-    def keys(self, dictkey):
-        for tuplekey in self.indexing.tuplekeys(dictkey):
-            yield tuplekey
-    def items(self, dictkey):
-        for tuplekey in self.indexing.tuplekeys(dictkey):
-            dictkey = self.indexing.dictkey(tuplekey)
-            if tuplekey in self.content:
-                yield dictkey, self.content[tuplekey]
-            else:
-                yield dictkey, self.get_default(dictkey)
