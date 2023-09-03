@@ -28,8 +28,9 @@ from inflections import (
     parse_any,
     write, 
     emoji_casts,
-    demonstration_template_matching,
     template_verb_whitelist,
+    template_tree_whitelist,
+    noun_template_whitelist,
 )
 
 deck_generation = DeckGeneration()
@@ -91,7 +92,7 @@ foreign_termaxis_to_terms = {
         tense  :  present past future
         voice  :  active passive
         mood   :  indicative subjunctive imperative
-        role   :  agent patient location possessor interior surface presence aid lack interest time company
+        role   :  stimulus location possessor interior surface presence aid lack interest time company
         subjectivity: addressee subject direct-object indirect-object modifier
     '''),
     **parse_any.token_to_tokens('''
@@ -145,9 +146,17 @@ subjectivity_role_blacklist = DictSet(
     'subjectivity_role_blacklist', 
     DictTupleIndexing(parse.termaxes('subjectivity role')),
     content = parse.term_table('''
-        addressee     agent
-        subject       patient
-        direct-object agent
+        modifier      stimulus
+    '''))
+
+subjectivity_valency_whitelist = DictSet(
+    'subjectivity_valency_whitelist', 
+    DictTupleIndexing(parse.termaxes('valency subjectivity')),
+    content = parse.term_table('''
+        intransitive  subject
+        transitive    direct-object
+        transitive    modifier
+        intransitive  modifier
     '''))
 
 subjectivity_motion_whitelist = DictSet(
@@ -246,8 +255,8 @@ verb_voice_blacklist = DictSet(
         become   passive
     '''))
 
-declension_pronoun_traversal = DictList(
-    'declension_pronoun_traversal', 
+pronoun_traversal = DictList(
+    'pronoun_traversal', 
     DictTupleIndexing(parse.termaxes('noun person number gender')),
     sequence = parse.token_table('''
         man    1 singular neuter   
@@ -326,7 +335,7 @@ tense_progress_mood_voice_verb_traversal = (
 
 conjugation_subject_defaults = (
     constant['subject'] * 
-    constant['agent'] * 
+    constant['stimulus'] * 
     constant['associated'] * 
     constant['transitive']
 )
@@ -339,17 +348,52 @@ subjectivity_motion_role_traversal = (
     - subjectivity_role_blacklist
 )
 
-# foo = (subjectivity_motion_role_traversal 
-#     * axis['valency'] 
-#     * axis['verb'] 
-#     * axis['template']) & template_verb_whitelist
+verb_direct_object = DictSet('verb_direct_object', 
+    DictTupleIndexing(parse.tokens('verb direct-object')),
+    parse.token_table('''
+        swim      ∅
+        fly       ∅
+        rest      ∅
+        walk      ∅
+        rest      ∅
+        rest      ∅
+        direct    attention
+        work      ∅
+        resemble  ∅
+        eat       food
+        endure    fire
+        warm      man
+        cool      man
+        fall      ∅
+        change    ∅
+        occupy    place
+        show      ∅
+        see       ∅
+        watch     ∅
+        startle   ∅
+        displease ∅
+        appear    ∅
+    '''),
+)
 
-# breakpoint()
+demonstration_verbs = DictSpace('demonstration-verbs', 
+    DictTupleIndexing(['verb']),
+    {'verb': parse.tokens('''
+        swim fly rest walk direct work resemble eat endure 
+        warm cool fall change occupy show see watch startle displease appear be''')},
+)
 
+declension_noun_traversal = (
+      demonstration_verbs
+    * axis['valency'] 
+    * axis['template']
+    * subjectivity_motion_role_traversal
+)
+
+'''
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
-        demonstration_template_matching.verb,
         [demonstration.verb(
             substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
             stock_modifier = foreign_language.grammar.stock_modifier,
@@ -367,7 +411,6 @@ write('flashcards/latin/finite-conjugation.html',
 print('flashcards/latin/nonfinite-conjugation.html')
 write('flashcards/latin/nonfinite-conjugation.html', 
     deck_generation.generate(
-        demonstration_template_matching.verb,
         [
             emoji_demonstration.verb(
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
@@ -395,12 +438,11 @@ write('flashcards/latin/nonfinite-conjugation.html',
             * constant['personal']
         ) 
     ))
-
 print('flashcards/latin/participle-declension.html')
 write('flashcards/latin/participle-declension.html', 
     deck_generation.generate(
-        demonstration_template_matching.case,
         [demonstration.case(
+            tree_lookup = template_tree_whitelist,
             substitutions = [
                 {'declined': list_tools.replace(['the', ['n', 'man'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
             ],
@@ -421,12 +463,13 @@ write('flashcards/latin/participle-declension.html',
             'participle' : parse.termaxis_to_term('nominative'),
         },
     ))
+'''
 
 print('flashcards/latin/adpositions.html')
 write('flashcards/latin/adpositions.html', 
     deck_generation.generate(
-        demonstration_template_matching.case,
         [demonstration.case(
+            tree_lookup = template_tree_whitelist,
             substitutions = [
                 {'declined': list_tools.replace(['the', 'n', 'man'])},
                 {'stock-adposition': list_tools.wrap('cloze')},
@@ -442,17 +485,21 @@ write('flashcards/latin/adpositions.html',
         },
     ))
 
+
+declension_common_noun_traversal = (
+    (declension_noun_traversal * axis['noun'] * constant['common'])
+    & subjectivity_valency_whitelist
+    & noun_template_whitelist
+    & template_verb_whitelist
+)
 print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html', 
     deck_generation.generate(
-        demonstration_template_matching.case,
         [demonstration.case(
+            tree_lookup = template_tree_whitelist,
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        defaults.override(
-              axis['number'] 
-            * subjectivity_motion_role_traversal 
-            * axis['noun']),
+        defaults.override(declension_common_noun_traversal),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
             'test'       : parse.termaxis_to_term('common'),
@@ -460,17 +507,21 @@ write('flashcards/latin/common-noun-declension.html',
         },
     ))
 
+
+declension_pronoun_traversal = (
+    (pronoun_traversal * declension_noun_traversal * constant['personal'])
+    & subjectivity_valency_whitelist
+    & noun_template_whitelist
+    & template_verb_whitelist
+)
 print('flashcards/latin/pronoun-declension.html')
 write('flashcards/latin/pronoun-declension.html', 
     deck_generation.generate(
-        demonstration_template_matching.case,
         [demonstration.case(
+            tree_lookup = template_tree_whitelist,
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        defaults.override(
-              declension_pronoun_traversal 
-            * subjectivity_motion_role_traversal 
-            * constant['personal']),
+        defaults.override(declension_pronoun_traversal),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal'),
@@ -478,18 +529,24 @@ write('flashcards/latin/pronoun-declension.html',
         },
     ))
 
+adjective_agreement_traversal = (
+    (  axis['number']
+     * gender_agreement_traversal
+     * declension_noun_traversal
+     * axis['adjective'])
+    & subjectivity_valency_whitelist
+    & noun_template_whitelist
+    & template_verb_whitelist
+)
+
 print('flashcards/latin/adjective-agreement.html')
 write('flashcards/latin/adjective-agreement.html', 
     deck_generation.generate(
-        demonstration_template_matching.case,
         [demonstration.case(
+            tree_lookup = template_tree_whitelist,
             substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
         ) for demonstration in demonstrations], 
-        defaults.override(
-              axis['number'] 
-            * gender_agreement_traversal 
-            * subjectivity_motion_role_traversal 
-            * axis['adjective']),
+        defaults.override(adjective_agreement_traversal),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
             'test'       : parse.termaxis_to_term('common'),
@@ -500,20 +557,24 @@ write('flashcards/latin/adjective-agreement.html',
 print('flashcards/latin/pronoun-possessives.html')
 write('flashcards/latin/pronoun-possessives.html', 
     deck_generation.generate(
-        demonstration_template_matching.case,
         [demonstration.case(
+            tree_lookup = template_tree_whitelist,
             substitutions = [
                 {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])},
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-            ((  axis['number'] 
-              * possession_traversal 
-              * subjectivity_motion_role_traversal 
-              * possessor_pronoun_traversal)
-             & possessor_possession_whitelist)
-            * constant['exclusive-possessor']  
-            * constant['familiar-possessor'] ),
+            (((  axis['number'] 
+               * possession_traversal 
+               * declension_noun_traversal 
+               * possessor_pronoun_traversal)
+              & possessor_possession_whitelist)
+             * constant['exclusive-possessor']  
+             * constant['familiar-possessor'] )
+            & subjectivity_valency_whitelist
+            & noun_template_whitelist
+            & template_verb_whitelist
+        ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal-possessive'),

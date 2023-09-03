@@ -25,7 +25,8 @@ def TextDemonstration(
             else:
                 return '\\placeholder'
         def verb(self, substitutions, stock_modifier, default_tree, debug=False):
-            def _demonstration(tags, tag_templates, match):
+            parsed_default_tree = parsing.parse(default_tree)
+            def _demonstration(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
                     # 'test':      {**tags, **tag_templates['test']},
@@ -47,7 +48,7 @@ def TextDemonstration(
                 ]
                 return self.format_card(self.assemble(tags,
                             self.orthography.map(
-                                parsing.parse(default_tree), 
+                                parsed_default_tree, 
                                 semes, 
                                 completed_substitutions,
                                 debug=debug,
@@ -55,8 +56,8 @@ def TextDemonstration(
                             self.context(tags),
                         ).replace('∅',''))
             return _demonstration
-        def case(self, substitutions, debug=False, **junk):
-            def _demonstration(tags, tag_templates, match):
+        def case(self, substitutions, tree_lookup, debug=False, **junk):
+            def _demonstration(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
                     'test':        {**tags, **tag_templates['test']},
@@ -73,13 +74,13 @@ def TextDemonstration(
                 return self.format_card(
                         self.assemble(tags,
                             self.orthography.map(
-                                parsing.parse(match['syntax-tree']), 
+                                parsing.parse(tree_lookup[tags]),
                                 semes, 
                                 completed_substitutions,
                                 debug=debug,
                             ),
                             self.context(tags),
-                        ).replace('∅','')) if match else '—'
+                        ).replace('∅',''))
 
             return _demonstration
     return LanguageSpecificTextDemonstration
@@ -128,7 +129,7 @@ def EmojiDemonstration(
                 #          else '\\n2{🧑\\g2\\c2}')
                 return getattr(htmlTenseTransform, tags['tense'])(
                             getattr(htmlProgressTransform, tags['progress'].replace('-','_'))(template))
-            def _demonstration(test_tags, tag_templates, match):
+            def _demonstration(test_tags, tag_templates):
                 tags = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
                 return self.format_card(self.assemble(tags, scene(tags), self.context(tags)))
             return _demonstration
@@ -154,8 +155,8 @@ def EmojiDemonstration(
                         else noun_lookups[alttags] if alttags in noun_lookups
                         else noun_lookups[tags] if tags in noun_lookups 
                         else '🚫')
-            def _demonstration(test_tags, tag_templates, match):
-                template = match['emoji'] if 'emoji' in (match or {}) else '🚫'
+            def _demonstration(test_tags, tag_templates):
+                template = '🚫' # match['emoji'] if 'emoji' in (match or {}) else '🚫'
                 tags = {
                         **test_tags, 
                         **tag_templates['test'], 

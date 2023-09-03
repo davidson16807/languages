@@ -1,0 +1,9 @@
+#	*	*	syntax-tree	#	emoji	adposition
+#	valency	subjectivity	#see opcodes.tsv for an explanation of the opcodes that appear in the lists below	#		
+#		addressee	np test [n hello] [n declined]	#	\mirror{\group{🤪\c1\g1\r{👋}}}\declined	
+	intransitive	subject	clause [test [np declined] [vp v verb]]	#	←\declined	
+	transitive	subject	clause [test [np n noun] [vp v verb]] [dummy np n noun]	#	\declined🍲	
+	intransitive	direct-object	clause [dummy [np the n man] [vp v verb]] [test np n noun]	"#	"	🫸\c3🔥\declined	
+	transitive	direct-object	clause [dummy [np the n man] [vp v verb]] [test np n noun]	#	🫸\c3🔥\declined	
+	intransitive	modifier	clause [dummy [np the n man] [vp v verb]] [test np n noun]	#	←🚶\c3\m\declined	away from
+	transitive	modifier	clause [dummy [np the n man] [vp v verb]] [test np n noun]	#	←🚶\c3\m\declined	away from

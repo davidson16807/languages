@@ -15,20 +15,22 @@ class DictLookup:
         self.indexing = indexing
         self.content = content or {}
     def __str__(self):
-        cell_width = 12
+        cell_width = 13
         return '\n'.join([
                 f'DictLookup {self.name}:',
+                f'[{len(self)} rows]',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
-                  for (tuplekey, value) in self.content.items()]
+                  for (tuplekey, value) in self.content.items()],
             ])
     def __repr__(self):
-        cell_width = 12
+        cell_width = 13
         return '\n'.join([
                 f'DictLookup {self.name}:',
+                f'[{len(self)} rows]',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
-                  for (tuplekey, value) in self.content.items()]
+                  for (tuplekey, value) in self.content.items()],
             ])
     def __getitem__(self, dictkey):
         '''
@@ -116,18 +118,20 @@ class DictList:
                 f'DictSpace indexing is misaligned with keys: expected {len(indexing.keys)}, got '+
                 ', '.join(misaligned))
     def __str__(self):
-        cell_width = 12
+        cell_width = 13
         return '\n'.join([
                 f'DictList {self.name}:',
+                f'[{len(self)} rows]',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
-                *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence]
+                *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence],
             ])
     def __repr__(self):
-        cell_width = 12
+        cell_width = 13
         return '\n'.join([
                 f'DictList {self.name}:',
+                f'[{len(self)} rows]',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
-                *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence]
+                *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence],
             ])
     def __contains__(self, key):
         raise NotImplementedError('Cannot allow performant check for membership')
@@ -144,10 +148,10 @@ class DictList:
                         other.key_to_values)
     def __add__(self, other):
         '''
-        Return the cartesian product of two `DictList`s.
+        Return the a `DictList` that contains the contents of `self` followed by `other`.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
-        name = f'{self.name} * {other.name}'
+        name = f'({self.name}) + ({other.name})'
         indexing = self.indexing
         nonequivalent = self.indexing ^ other.indexing
         assert set(self.indexing) == set(other.indexing), '\n'.join([
@@ -167,7 +171,7 @@ class DictList:
         Return the cartesian product of two `DictList`s.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
-        name = f'{self.name} * {other.name}'
+        name = f'({self.name}) * ({other.name})'
         indexing = self.indexing | other.indexing
         overlap = self.indexing & other.indexing
         assert not bool(overlap), '\n'.join([
@@ -209,7 +213,7 @@ class DictList:
         Return the intersection of `self` with a `DictSet`s whose keys are disjoint with those of `self`.
         '''
         assert type(other) in {DictSet, DictSpace}
-        name = f'{self.name} & {other.name}'
+        name = f'({self.name}) & ({other.name})'
         result = DictList(name,
             self.indexing,
             sequence = [tuplekey
@@ -222,7 +226,7 @@ class DictList:
         Return the negation of `self` with a `DictSet`.
         '''
         assert type(other) in {DictSet, DictSpace}
-        name = f'{self.name} - {other.name}'
+        name = f'({self.name}) - ({other.name})'
         result = DictList(name,
             self.indexing,
             sequence = [tuplekey
@@ -247,18 +251,20 @@ class DictSet:
     def __contains__(self, key):
         return self.indexing.tuplekey(key) in self.content
     def __str__(self):
-        cell_width = 12
+        cell_width = 13
         return '\n'.join([
                 f'DictSet {self.name}:',
+                f'[{len(self)} rows]',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
-                *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content]
+                *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content],
             ])
     def __repr__(self):
-        cell_width = 12
+        cell_width = 13
         return '\n'.join([
                 f'DictSet {self.name}:',
+                f'[{len(self)} rows]',
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
-                *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content]
+                *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content],
             ])
     def __len__(self):
         return len(self.content)
@@ -292,12 +298,14 @@ class DictSpace:
     def __str__(self):
         return '\n'.join([
             f'DictSpace {self.name}:',
-            *[f'{key:10}:{values}' for (key,values) in self.key_to_values.items()]
+            f'[{len(self)} rows]',
+            *[f'{key:10}:{values}' for (key,values) in self.key_to_values.items()],
         ])
     def __repr__(self):
         return '\n'.join([
             f'DictSpace {self.name}:',
-            *[f'{key:10}:{values}' for (key,values) in self.key_to_values.items()]
+            f'[{len(self)} rows]',
+            *[f'{key:10}:{values}' for (key,values) in self.key_to_values.items()],
         ])
     def __contains__(self, dictkey):
         return all([
@@ -338,7 +346,7 @@ class DictSpace:
         Return the cartesian product of two `DictList`s.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
-        name = f'{self.name} * {other.name}'
+        name = f'({self.name}) + ({other.name})'
         indexing = self.indexing
         nonequivalent = self.indexing ^ other.indexing
         assert set(self.indexing) == set(other.indexing), '\n'.join([
@@ -358,7 +366,7 @@ class DictSpace:
         Return the union of two `DictSpace`s.
         Preserve the order of keys from `self`. Only add keys from `other` if they are unique
         '''
-        name = f'{self.name} * {other.name}'
+        name = f'({self.name}) * ({other.name})'
         indexing = self.indexing | other.indexing
         overlap = self.indexing & other.indexing
         assert not bool(overlap), '\n'.join([
@@ -426,7 +434,7 @@ class DictSpace:
         Return the intersection of two `DictSpace`s whose keys are disjoint.
         If keys are not disjoint, replace values from `self` with those of `other`.
         '''
-        name = f'{self.name} & {other.name}'
+        name = f'({self.name}) & ({other.name})'
         result = DictList(
                 name, self.indexing,
                 sequence = [tuplekey
@@ -439,7 +447,7 @@ class DictSpace:
         '''
         Return the negation of two `DictSpace`s.
         '''
-        name = f'{self.name} - {other.name}'
+        name = f'({self.name}) - ({other.name})'
         result = DictList(
                 name, self.indexing,
                 sequence = [tuplekey

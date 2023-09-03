@@ -23,7 +23,7 @@ from tools.nodemaps import (
 from tools.languages import Language
 from tools.orthography import Orthography
 from tools.demonstration import TextDemonstration, EmojiDemonstration
-from tools.cards import DemonstrationTemplateMatching, CardFormatting
+from tools.cards import CardFormatting
 
 '''
 Given a mathematical bundle that is encoded as a dictionary,
@@ -508,15 +508,17 @@ declension_verb_annotation = CellAnnotation(
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 template_verb_annotation = CellAnnotation(
     'verb', term_to_termaxis, {0:'template'}, {}, {})
+template_tree_annotation = RowAnnotation('flag valency subjectivity tree'.split())
+noun_template_annotation = RowAnnotation('noun template'.split())
 
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups, KeyEvaluation('inflection'))
 declension_population  = NestedLookupPopulation(declension_template_lookups, KeyEvaluation('inflection'))
 emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleIndexing(['noun','number'])), KeyEvaluation('inflection'))
 emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])), KeyEvaluation('inflection'))
 mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])), KeyEvaluation('inflection'))
-template_verb_population = DictSetPopulation(DictSet('demonstration-verb', DictTupleIndexing(['template','role','subjectivity','valency']), set()))
-
-
+template_verb_population = DictSetPopulation(DictSet('template-verb', DictTupleIndexing('template role subjectivity valency verb'.split()), set()))
+template_tree_population = FlatLookupPopulation(DictLookup('template-tree', DictTupleIndexing('valency subjectivity'.split())), KeyEvaluation('tree'))
+noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('noun template'.split()), set()))
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
@@ -546,6 +548,18 @@ template_verb_whitelist = (
     template_verb_population.index(
         template_verb_annotation.annotate(
             tsv_parsing.rows('data/inflection/template-verbs.tsv')))
+)
+
+noun_template_whitelist = (
+    noun_template_population.index(
+        noun_template_annotation.annotate(
+            tsv_parsing.rows('data/inflection/noun-template.tsv')))
+)
+
+template_tree_whitelist = (
+    template_tree_population.index(
+        template_tree_annotation.annotate(
+            tsv_parsing.rows('data/inflection/template-trees.tsv')))
 )
 
 rows = [
@@ -583,21 +597,6 @@ for row in rows:
     if all([f.strip(), x.strip(), g.strip(), y.strip()]):
         level0_subset_relations.add(((f,x),(g,y)))
 
-allthat = collections.defaultdict(Predicate)
-for (f,x),(g,y) in level0_subset_relations:
-    allthat[f,x].name = str((f,x))
-    allthat[g,y].name = str((g,y))
-    allthat[g,y](allthat[f,x])
-    for h in level1_subset_relations[f]:
-        allthat[h,x].name = str((h,x))
-        allthat[h,x](allthat[f,x])
-    for h in level1_subset_relations[g]:
-        allthat[h,y].name = str((h,y))
-        allthat[h,y](allthat[g,y])
-    # if g == f:
-    #     for h in level1_subset_relations[f]:
-    #         allthat[h,y](allthat[h,x])
-
 declension_template_annotation = RowAnnotation(
     '''flag valency subjectivity motion role specificity syntax-tree 
     declined-noun-function declined-noun-argument emoji'''.split())
@@ -610,11 +609,6 @@ declension_template_population = ListLookupPopulation(
         lambda key:[]
     ),
     IdentityEvaluation())
-declension_templates = \
-    declension_template_population.index(
-        declension_template_annotation.annotate(
-            tsv_parsing.rows(
-                'data/inflection/declension-templates-minimal.tsv')))
 
 case_usage_annotation = CellAnnotation('case', dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
 case_usage_population = NestedLookupPopulation(
@@ -658,7 +652,6 @@ nouns_to_depictions = {
     'thing':'bolt',
     'phenomenon': 'eruption',
 };
-demonstration_template_matching = DemonstrationTemplateMatching(declension_templates, allthat, nouns_to_depictions)
 LanguageSpecificTextDemonstration = TextDemonstration(
     mood_population.index(
         mood_annotation.annotate(

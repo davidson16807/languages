@@ -20,6 +20,10 @@ warm	warm	warm	warm	warms	warm	warm	warm	warm	warm	warmed	warmed	warming	#	templ
 burn	burn	burn	burn	burns	burn	burn	burn	burn	burn	burn	burned	burning	#	templates
 heal	heal	heal	heal	heals	heal	heal	heal	heal	heal	heal	healed	healing	#	templates
 clean	clean	clean	clean	cleans	clean	clean	clean	clean	clean	clean	cleaned	cleaning	#	templates
+appear	appear	appear	appear	appears	appear	appear	appear	appear	appear	appear	appeared	appearing	#	templates
+rest	rest	rest	rest	rests	rest	rest	rest	rest	rest	rest	rested	resting	#	templates
+swim	swim	swim	swim	swims	swim	swim	swim	swim	swim	swam	swum	swimming	#	templates
+fly	fly	fly	fly	flies	fly	fly	fly	fly	fly	flew	flew	flying	#	templates
 do	do	do	do	does	do	do	do	do	do	did	done	doing	#	common
 go	go     	go	go	goes	go	go	go	go	go	went	gone	going	#	common
 want	want	want	want	wants	want	want	want	want	want	wanted	wanted	wanting	#	common
@@ -70,7 +74,6 @@ see	see	see 	see	sees	see	see	see	see	see	saw	seen	seeing	#	russian
 draw	draw	draw	draw	draws	draw	draw	draw	draw	draw	drew	drawn	drawing	#	russian
 drink	drink	drink	drink	drinks	drink	drink	drink	drink	drink	drank	drunken	drinking	#	russian
 steal	steal	steal	steal	steals	steal	steal	steal	steal	steal	stole	stolen	stealing	#	russian
-swim	swim	swim	swim	swims	swim	swim	swim	swim	swim	swam	swum	swimming	#	russian
 sink	sink	sink	sink	sinks	sink	sink	sink	sink	sink	sunk	sunken	sinking	#	russian
 forgive	forgive	forgive	forgive	forgives	forgive	forgive	forgive	forgive	forgive	forgave	forgiven	forgiving	#	russian
 beat	beat	beat	beat	beats	beat	beat	beat	beat	beat	beated	beaten	beating	#	russian
