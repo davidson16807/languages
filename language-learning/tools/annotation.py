@@ -57,18 +57,19 @@ class CellAnnotation:
     '''
     def __init__(self, cell_termaxis, term_to_termaxis, 
             header_row_id_to_termaxis, header_column_id_to_termaxis,
-            default_attributes, canton_value='*'):
+            default_attributes, canton_value='*', debug=False):
         self.cell_termaxis = cell_termaxis
         self.term_to_termaxis = term_to_termaxis
         self.header_column_id_to_termaxis = header_column_id_to_termaxis
         self.header_row_id_to_termaxis = header_row_id_to_termaxis
         self.default_attributes = default_attributes
         self.canton_value = canton_value
+        self.debug = debug
     def annotate(self, rows):
         header_row_count = float('inf')
         header_column_count = 0
         column_count = max([len(row) for row in rows])
-        column_base_attributes = [{} for i in range(column_count)]
+        column_based_attributes = [{} for i in range(column_count)]
         annotations = []
         for i, row in enumerate(rows):
             if i < header_row_count and row[0] == self.canton_value: # header row identified
@@ -76,27 +77,29 @@ class CellAnnotation:
                     if cell == self.canton_value:
                         header_column_count = max(header_column_count, j+1)
                     if i in self.header_row_id_to_termaxis:
-                        column_base_attributes[j][self.header_row_id_to_termaxis[i]] = cell
+                        column_based_attributes[j][self.header_row_id_to_termaxis[i]] = cell
                     elif cell in self.term_to_termaxis:
-                        column_base_attributes[j][self.term_to_termaxis[cell]] = cell
+                        column_based_attributes[j][self.term_to_termaxis[cell]] = cell
+                    elif cell and cell!=self.canton_value:
+                        raise ValueError(f'The cell at row {i}, column {j} contains an invalid term: "{cell}"')
             else:
                 header_row_count = min(header_row_count, i)
-                row_base_attributes = {}
+                row_based_attributes = {}
                 if len(row) >= header_column_count:
-                    for i in range(0,header_column_count):
+                    for i in range(header_column_count):
                         cell = row[i]
                         if i in self.header_column_id_to_termaxis:
-                            row_base_attributes[self.header_column_id_to_termaxis[i]] = cell
+                            row_based_attributes[self.header_column_id_to_termaxis[i]] = cell
                         elif cell in self.term_to_termaxis:
-                            row_base_attributes[self.term_to_termaxis[cell]] = cell
+                            row_based_attributes[self.term_to_termaxis[cell]] = cell
                     for i in range(header_column_count,len(row)):
                         cell = row[i]
-                        # if cell and column_base_attributes[i]:
-                        if cell and row_base_attributes and column_base_attributes[i]:
+                        # if cell and column_based_attributes[i]:
+                        if cell and (row_based_attributes or column_based_attributes[i]):
                             annotation = {
                                 **self.default_attributes,
-                                **row_base_attributes,
-                                **column_base_attributes[i],
+                                **row_based_attributes,
+                                **column_based_attributes[i],
                                 self.cell_termaxis: cell
                             }
                             annotations.append(annotation)
