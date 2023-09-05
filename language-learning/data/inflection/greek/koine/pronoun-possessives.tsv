@@ -1,21 +1,21 @@
 *	*	*	*	*	nominative 	genitive 	dative 	accusative 	vocative 	#koine
-plural-possessor	2nd-possessor	singular	masculine	greek	ῡ̔μέτερος	ῡ̔μετέρου	ῡ̔μετέρῳ	ῡ̔μέτερον	ῡ̔μέτερε	
-plural-possessor	2nd-possessor	singular	masculine	latin	hūméteros 	hūmetérou 	hūmetérōi 	hūméteron 	hūmétere 	
-plural-possessor	2nd-possessor	singular	feminine	greek	ῡ̔μετέρᾱ	ῡ̔μετέρᾱς	ῡ̔μετέρᾳ	ῡ̔μετέρᾱν	ῡ̔μετέρᾱ	
-plural-possessor	2nd-possessor	singular	feminine	latin	hūmetérā 	hūmetérās 	hūmetérāi 	hūmetérān 	hūmetérā 	
-plural-possessor	2nd-possessor	singular	neuter	greek	ῡ̔μέτερον	ῡ̔μετέρου	ῡ̔μετέρῳ	ῡ̔μέτερον	ῡ̔μέτερον	
-plural-possessor	2nd-possessor	singular	neuter	latin	hūméteron 	hūmetérou 	hūmetérōi 	hūméteron 	hūméteron 	
+plural-possessor	2-possessor	singular	masculine	greek	ῡ̔μέτερος	ῡ̔μετέρου	ῡ̔μετέρῳ	ῡ̔μέτερον	ῡ̔μέτερε	
+plural-possessor	2-possessor	singular	masculine	latin	hūméteros 	hūmetérou 	hūmetérōi 	hūméteron 	hūmétere 	
+plural-possessor	2-possessor	singular	feminine	greek	ῡ̔μετέρᾱ	ῡ̔μετέρᾱς	ῡ̔μετέρᾳ	ῡ̔μετέρᾱν	ῡ̔μετέρᾱ	
+plural-possessor	2-possessor	singular	feminine	latin	hūmetérā 	hūmetérās 	hūmetérāi 	hūmetérān 	hūmetérā 	
+plural-possessor	2-possessor	singular	neuter	greek	ῡ̔μέτερον	ῡ̔μετέρου	ῡ̔μετέρῳ	ῡ̔μέτερον	ῡ̔μέτερον	
+plural-possessor	2-possessor	singular	neuter	latin	hūméteron 	hūmetérou 	hūmetérōi 	hūméteron 	hūméteron 	
 										
-plural-possessor	2nd-possessor	dual	masculine	greek	ῡ̔μετέρω	ῡ̔μετέροιν	ῡ̔μετέροιν	ῡ̔μετέρω	ῡ̔μετέρω	
-plural-possessor	2nd-possessor	dual	masculine	latin	hūmetérō 	hūmetéroin 	hūmetéroin 	hūmetérō 	hūmetérō 	
-plural-possessor	2nd-possessor	dual	feminine	greek	ῡ̔μετέρᾱ	ῡ̔μετέραιν	ῡ̔μετέραιν	ῡ̔μετέρᾱ	ῡ̔μετέρᾱ	
-plural-possessor	2nd-possessor	dual	feminine	latin	hūmetérā 	hūmetérain 	hūmetérain 	hūmetérā 	hūmetérā 	
-plural-possessor	2nd-possessor	dual	neuter	greek	ῡ̔μετέρω	ῡ̔μετέροιν	ῡ̔μετέροιν	ῡ̔μετέρω	ῡ̔μετέρω	
-plural-possessor	2nd-possessor	dual	neuter	latin	hūmetérō 	hūmetéroin 	hūmetéroin 	hūmetérō 	hūmetérō 	
+plural-possessor	2-possessor	dual	masculine	greek	ῡ̔μετέρω	ῡ̔μετέροιν	ῡ̔μετέροιν	ῡ̔μετέρω	ῡ̔μετέρω	
+plural-possessor	2-possessor	dual	masculine	latin	hūmetérō 	hūmetéroin 	hūmetéroin 	hūmetérō 	hūmetérō 	
+plural-possessor	2-possessor	dual	feminine	greek	ῡ̔μετέρᾱ	ῡ̔μετέραιν	ῡ̔μετέραιν	ῡ̔μετέρᾱ	ῡ̔μετέρᾱ	
+plural-possessor	2-possessor	dual	feminine	latin	hūmetérā 	hūmetérain 	hūmetérain 	hūmetérā 	hūmetérā 	
+plural-possessor	2-possessor	dual	neuter	greek	ῡ̔μετέρω	ῡ̔μετέροιν	ῡ̔μετέροιν	ῡ̔μετέρω	ῡ̔μετέρω	
+plural-possessor	2-possessor	dual	neuter	latin	hūmetérō 	hūmetéroin 	hūmetéroin 	hūmetérō 	hūmetérō 	
 										
-plural-possessor	2nd-possessor	plural	masculine	greek	ῡ̔μέτεροι	ῡ̔μετέρων	ῡ̔μετέροις	ῡ̔μετέρους	ῡ̔μέτεροι	
-plural-possessor	2nd-possessor	plural	masculine	latin	hūméteroi 	hūmetérōn 	hūmetérois 	hūmetérous 	hūméteroi 	
-plural-possessor	2nd-possessor	plural	feminine	greek	ῡ̔μέτεραι	ῡ̔μετέρων	ῡ̔μετέραις	ῡ̔μετέρᾱς	ῡ̔μέτεραι	
-plural-possessor	2nd-possessor	plural	feminine	latin	hūméterai 	hūmetérōn 	hūmetérais 	hūmetérās 	hūméterai 	
-plural-possessor	2nd-possessor	plural	neuter	greek	ῡ̔μέτερᾰ	ῡ̔μετέρων	ῡ̔μετέροις	ῡ̔μέτερᾰ	ῡ̔μέτερᾰ	
-plural-possessor	2nd-possessor	plural	neuter	latin	hūmétera	hūmetérōn	hūmetérois	hūmétera	hūmétera 	
+plural-possessor	2-possessor	plural	masculine	greek	ῡ̔μέτεροι	ῡ̔μετέρων	ῡ̔μετέροις	ῡ̔μετέρους	ῡ̔μέτεροι	
+plural-possessor	2-possessor	plural	masculine	latin	hūméteroi 	hūmetérōn 	hūmetérois 	hūmetérous 	hūméteroi 	
+plural-possessor	2-possessor	plural	feminine	greek	ῡ̔μέτεραι	ῡ̔μετέρων	ῡ̔μετέραις	ῡ̔μετέρᾱς	ῡ̔μέτεραι	
+plural-possessor	2-possessor	plural	feminine	latin	hūméterai 	hūmetérōn 	hūmetérais 	hūmetérās 	hūméterai 	
+plural-possessor	2-possessor	plural	neuter	greek	ῡ̔μέτερᾰ	ῡ̔μετέρων	ῡ̔μετέροις	ῡ̔μέτερᾰ	ῡ̔μέτερᾰ	
+plural-possessor	2-possessor	plural	neuter	latin	hūmétera	hūmetérōn	hūmetérois	hūmétera	hūmétera 	

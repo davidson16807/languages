@@ -206,7 +206,7 @@ tagaxis_to_tags = {
     'distance':   'proximal medial distal'.split(),
 
     # needed for possessive pronouns
-    'possessor-person':    '1st-possessor 2nd-possessor 3rd-possessor'.split(),
+    'possessor-person':    '1-possessor 2-possessor 3-possessor'.split(),
     'possessor-number':    'singular-possessor dual-possessor plural-possessor'.split(),
     'possessor-gender':    'masculine-possessor feminine-possessor neuter-possessor'.split(),
     'possessor-clusivity': 'inclusive-possessor exclusive-possessor'.split(),

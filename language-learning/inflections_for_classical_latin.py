@@ -309,16 +309,16 @@ possessor_pronoun_traversal = DictList(
     'possessor_pronoun_traversal', 
     DictTupleIndexing(parse.termaxes('possessor-noun possessor-person possessor-number possessor-gender')),
     sequence = parse.token_table('''
-        man-possessor    1st-possessor singular-possessor neuter-possessor   
-        woman-possessor  2nd-possessor singular-possessor feminine-possessor 
-        man-possessor    3rd-possessor singular-possessor masculine-possessor
-        woman-possessor  3rd-possessor singular-possessor feminine-possessor 
-        snake-possessor  3rd-possessor singular-possessor neuter-possessor   
-        man-possessor    1st-possessor plural-possessor   neuter-possessor   
-        woman-possessor  2nd-possessor plural-possessor   feminine-possessor 
-        man-possessor    3rd-possessor plural-possessor   masculine-possessor
-        woman-possessor  3rd-possessor plural-possessor   feminine-possessor 
-        man-possessor    3rd-possessor plural-possessor   neuter-possessor   
+        man-possessor    1-possessor singular-possessor neuter-possessor   
+        woman-possessor  2-possessor singular-possessor feminine-possessor 
+        man-possessor    3-possessor singular-possessor masculine-possessor
+        woman-possessor  3-possessor singular-possessor feminine-possessor 
+        snake-possessor  3-possessor singular-possessor neuter-possessor   
+        man-possessor    1-possessor plural-possessor   neuter-possessor   
+        woman-possessor  2-possessor plural-possessor   feminine-possessor 
+        man-possessor    3-possessor plural-possessor   masculine-possessor
+        woman-possessor  3-possessor plural-possessor   feminine-possessor 
+        man-possessor    3-possessor plural-possessor   neuter-possessor   
     '''))
 
 tense_progress_mood_voice_verb_traversal = (
@@ -412,7 +412,7 @@ write('flashcards/latin/finite-conjugation.html',
         ),
         tag_templates ={
             'test'  : parse.termaxis_to_term('personal'),
-            'dummy' : parse.termaxis_to_term('common'),
+            'dummy' : parse.termaxis_to_term('common 3 singular masculine sapient man'),
         },
     ))
 
@@ -447,7 +447,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
         ),
         tag_templates ={
             'test' : parse.termaxis_to_term('personal'),
-            'dummy' : parse.termaxis_to_term('common'),
+            'dummy' : parse.termaxis_to_term('common 3 singular masculine sapient man'),
         },
     ))
 
@@ -492,7 +492,7 @@ write('flashcards/latin/adpositions.html',
             & constant['modifier']
             & noun_template_whitelist),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular sapient man'),
+            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('common'),
         },
     ))

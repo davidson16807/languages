@@ -102,9 +102,7 @@ def EmojiDemonstration(
             self.format_card = format_card
             self.argument_lookups = argument_lookups
             self.persons = persons
-        def context(self, tags):
-            return mood_templates[{**tags,'column':'template'}]
-        def assemble(self, tags, scene, recounting):
+        def decode(self, tags, scene):
             subject = EmojiPerson(
                 ''.join([
                         (tags['number'][0]),
@@ -116,8 +114,7 @@ def EmojiDemonstration(
                 subject if str(i+1)==tags['person'] else person
                 for i, person in enumerate(self.persons)]
             return emojiInflectionShorthand.decode(
-                    recounting.replace('\\scene', scene), subject, persons)
-
+                    scene, subject, persons)
         def case(self, **junk):
             def noun(tags, tag_templates):
                 if tags['noun-form'] == 'personal-possessive':
@@ -130,7 +127,7 @@ def EmojiDemonstration(
                             # 'person': tags['possessor-person'].replace('-possessor','')[0],
                             'script': 'emoji',
                         }, tag_templates)
-                    return '\\flex{'+possessed+'\\r{'+possessor+'}}'
+                    return self.decode(tags, '\\flex{'+possessed+'\\r{'+possessor+'}}')
                 else:
                     depiction = ('missing' if 'noun' not in tags 
                         else tags['noun'] if tags['noun'] not in nouns_to_depictions 
@@ -141,7 +138,7 @@ def EmojiDemonstration(
                         else noun_lookups[alttags] if alttags in noun_lookups
                         else noun_lookups[tags] if tags in noun_lookups 
                         else '🚫')
-                    return result
+                    return self.decode(tags, result)
             def performance(tags, tag_templates):
                 template = (verb_lookups[tags] if tags in verb_lookups else '\\subject'
                     .replace('\\subject', noun(tags, tag_templates)))
@@ -167,16 +164,18 @@ def EmojiDemonstration(
                 template = (self.argument_lookups[clause_tags] if clause_tags in self.argument_lookups
                     else noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫')
                 template = (template
-                        .replace('\\dummy', performance(dummy_tags, tag_templates))
-                        .replace('\\test',  performance(test_tags,  tag_templates)))
+                    .replace('\\dummy', performance(dummy_tags, tag_templates))
+                    .replace('\\test',  performance(test_tags,  tag_templates)))
                 return getattr(htmlTenseTransform, clause_tags['tense'])(
                                 getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
+            def recounting(tags):
+                return mood_templates[{**tags,'column':'template'}]
             def _demonstration(clause_tags, tag_templates):
                 return self.format_card(
-                    self.assemble(
+                    self.decode(
                         {**clause_tags, 'script':'emoji', 'language-type': 'foreign'}, 
-                        scene(clause_tags, tag_templates), 
-                        self.context(clause_tags)))
+                        recounting(clause_tags)
+                            .replace('\\scene', scene(clause_tags, tag_templates))))
             return _demonstration
         def verb(self, **kwargs):
             return self.case(**kwargs)

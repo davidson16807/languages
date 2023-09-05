@@ -1,14 +1,14 @@
 *	*	*	*	possessive
-1st-possessor	singular-possessor		         	mein      
-2nd-possessor	singular-possessor	familiar-possessor	         	dein      
-2nd-possessor	singular-possessor	polite-possessor	masculine	sein      
-3rd-possessor	singular-possessor		masculine	sein      
-3rd-possessor	singular-possessor		feminine 	ihr       
-3rd-possessor	singular-possessor		neuter   	sein      
-1st-possessor	plural-possessor		neuter   	unser     
-2nd-possessor	singular-possessor	elevated-possessor	neuter   	Euer      
-2nd-possessor	plural-possessor	elevated-possessor	neuter   	Euer      
-2nd-possessor	plural-possessor	familiar-possessor	neuter   	euer      
-2nd-possessor	singular-possessor	polite-possessor	neuter   	Ihr       
-2nd-possessor	plural-possessor	polite-possessor	neuter   	Ihr       
-3rd-possessor	plural-possessor		neuter   	ihr       
+1-possessor	singular-possessor		         	mein      
+2-possessor	singular-possessor	familiar-possessor	         	dein      
+2-possessor	singular-possessor	polite-possessor	masculine	sein      
+3-possessor	singular-possessor		masculine	sein      
+3-possessor	singular-possessor		feminine 	ihr       
+3-possessor	singular-possessor		neuter   	sein      
+1-possessor	plural-possessor		neuter   	unser     
+2-possessor	singular-possessor	elevated-possessor	neuter   	Euer      
+2-possessor	plural-possessor	elevated-possessor	neuter   	Euer      
+2-possessor	plural-possessor	familiar-possessor	neuter   	euer      
+2-possessor	singular-possessor	polite-possessor	neuter   	Ihr       
+2-possessor	plural-possessor	polite-possessor	neuter   	Ihr       
+3-possessor	plural-possessor		neuter   	ihr       

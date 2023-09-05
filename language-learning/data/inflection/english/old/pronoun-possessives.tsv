@@ -1,38 +1,38 @@
 *	*	*	*	*	nominative	accusative	genitive	dative	instrumental						
-singular-possessor	1st-possessor	strong	singular	masculine 	mīn 	mīnne 	mīnes 	mīnum 	mīne 						
-singular-possessor	1st-possessor	strong	singular	feminine 	mīn 	mīne 	mīnre 	mīnre 	mīnre 						
-singular-possessor	1st-possessor	strong	singular	neuter	mīn	mīn	mīnes	mīnum	mīne						
-singular-possessor	1st-possessor	strong	plural	masculine 	mīne 	mīne 	mīnra 	mīnum 	mīnum 						
-singular-possessor	1st-possessor	strong	plural	feminine 	mīna, mīne 	mīna, mīne 	mīnra 	mīnum 	mīnum 						
-singular-possessor	1st-possessor	strong	plural	neuter	mīn	mīn	mīnra	mīnum	mīnum 						
+singular-possessor	1-possessor	strong	singular	masculine 	mīn 	mīnne 	mīnes 	mīnum 	mīne 						
+singular-possessor	1-possessor	strong	singular	feminine 	mīn 	mīne 	mīnre 	mīnre 	mīnre 						
+singular-possessor	1-possessor	strong	singular	neuter	mīn	mīn	mīnes	mīnum	mīne						
+singular-possessor	1-possessor	strong	plural	masculine 	mīne 	mīne 	mīnra 	mīnum 	mīnum 						
+singular-possessor	1-possessor	strong	plural	feminine 	mīna, mīne 	mīna, mīne 	mīnra 	mīnum 	mīnum 						
+singular-possessor	1-possessor	strong	plural	neuter	mīn	mīn	mīnra	mīnum	mīnum 						
 															
-plural-possessor	1st-possessor	strong	singular	masculine 	ūre 	ūrne 	ūres 	ūrum 	ūre 						
-plural-possessor	1st-possessor	strong	singular	feminine 	ūru, ūro 	ūre 	ūrre 	ūrre 	ūrre 						
-plural-possessor	1st-possessor	strong	singular	neuter	ūre	ūre	ūres	ūrum	ūre						
-plural-possessor	1st-possessor	strong	plural	masculine 	ūre 	ūre 	ūrra 	ūrum 	ūrum 						
-plural-possessor	1st-possessor	strong	plural	feminine 	ūra, ūre 	ūra, ūre 	ūrra 	ūrum 	ūrum 						
-plural-possessor	1st-possessor	strong	plural	neuter	ūru, ūro	ūru, ūro	ūrra	ūrum	ūrum 						
+plural-possessor	1-possessor	strong	singular	masculine 	ūre 	ūrne 	ūres 	ūrum 	ūre 						
+plural-possessor	1-possessor	strong	singular	feminine 	ūru, ūro 	ūre 	ūrre 	ūrre 	ūrre 						
+plural-possessor	1-possessor	strong	singular	neuter	ūre	ūre	ūres	ūrum	ūre						
+plural-possessor	1-possessor	strong	plural	masculine 	ūre 	ūre 	ūrra 	ūrum 	ūrum 						
+plural-possessor	1-possessor	strong	plural	feminine 	ūra, ūre 	ūra, ūre 	ūrra 	ūrum 	ūrum 						
+plural-possessor	1-possessor	strong	plural	neuter	ūru, ūro	ūru, ūro	ūrra	ūrum	ūrum 						
 															
-singular-possessor	2nd-possessor	strong	singular	masculine 	þīn 	þīnne 	þīnes 	þīnum 	þīne 						
-singular-possessor	2nd-possessor	strong	singular	feminine 	þīn 	þīne 	þīnre 	þīnre 	þīnre 						
-singular-possessor	2nd-possessor	strong	singular	neuter	þīn	þīn	þīnes	þīnum	þīne						
-singular-possessor	2nd-possessor	strong	plural	masculine 	þīne 	þīne 	þīnra 	þīnum 	þīnum 						
-singular-possessor	2nd-possessor	strong	plural	feminine 	þīna, þīne 	þīna, þīne 	þīnra 	þīnum 	þīnum 						
-singular-possessor	2nd-possessor	strong	plural	neuter	þīn	þīn	þīnra	þīnum	þīnum 						
+singular-possessor	2-possessor	strong	singular	masculine 	þīn 	þīnne 	þīnes 	þīnum 	þīne 						
+singular-possessor	2-possessor	strong	singular	feminine 	þīn 	þīne 	þīnre 	þīnre 	þīnre 						
+singular-possessor	2-possessor	strong	singular	neuter	þīn	þīn	þīnes	þīnum	þīne						
+singular-possessor	2-possessor	strong	plural	masculine 	þīne 	þīne 	þīnra 	þīnum 	þīnum 						
+singular-possessor	2-possessor	strong	plural	feminine 	þīna, þīne 	þīna, þīne 	þīnra 	þīnum 	þīnum 						
+singular-possessor	2-possessor	strong	plural	neuter	þīn	þīn	þīnra	þīnum	þīnum 						
 															
-plural-possessor	2nd-possessor	strong	singular	masculine 	ēoƿer 	ēoƿerne 	ēoƿeres, ēoƿres 	ēoƿerum, ēoƿrum 	ēoƿere, ēoƿre 						
-plural-possessor	2nd-possessor	strong	singular	feminine 	ēoƿeru, ēoƿru, ēoƿero, ēoƿro 	ēoƿere, ēoƿre 	ēoƿerre 	ēoƿerre 	ēoƿerre 						
-plural-possessor	2nd-possessor	strong	singular	neuter	ēoƿer	ēoƿer	ēoƿeres, ēoƿres	ēoƿerum, ēoƿrum	ēoƿere, ēoƿre						
-plural-possessor	2nd-possessor	strong	plural	masculine 	ēoƿere, ēoƿre 	ēoƿere, ēoƿre 	ēoƿerra 	ēoƿerum, ēoƿrum 	ēoƿerum, ēoƿrum 						
-plural-possessor	2nd-possessor	strong	plural	feminine 	ēoƿera, ēoƿra, ēoƿere, ēoƿre 	ēoƿera, ēoƿra, ēoƿere, ēoƿre 	ēoƿerra 	ēoƿerum, ēoƿrum 	ēoƿerum, ēoƿrum 						
-plural-possessor	2nd-possessor	strong	plural	neuter	ēoƿeru, ēoƿru, ēoƿero, ēoƿro	ēoƿeru, ēoƿru, ēoƿero, ēoƿro	ēoƿerra	ēoƿerum, ēoƿrum	ēoƿerum, ēoƿrum 						
+plural-possessor	2-possessor	strong	singular	masculine 	ēoƿer 	ēoƿerne 	ēoƿeres, ēoƿres 	ēoƿerum, ēoƿrum 	ēoƿere, ēoƿre 						
+plural-possessor	2-possessor	strong	singular	feminine 	ēoƿeru, ēoƿru, ēoƿero, ēoƿro 	ēoƿere, ēoƿre 	ēoƿerre 	ēoƿerre 	ēoƿerre 						
+plural-possessor	2-possessor	strong	singular	neuter	ēoƿer	ēoƿer	ēoƿeres, ēoƿres	ēoƿerum, ēoƿrum	ēoƿere, ēoƿre						
+plural-possessor	2-possessor	strong	plural	masculine 	ēoƿere, ēoƿre 	ēoƿere, ēoƿre 	ēoƿerra 	ēoƿerum, ēoƿrum 	ēoƿerum, ēoƿrum 						
+plural-possessor	2-possessor	strong	plural	feminine 	ēoƿera, ēoƿra, ēoƿere, ēoƿre 	ēoƿera, ēoƿra, ēoƿere, ēoƿre 	ēoƿerra 	ēoƿerum, ēoƿrum 	ēoƿerum, ēoƿrum 						
+plural-possessor	2-possessor	strong	plural	neuter	ēoƿeru, ēoƿru, ēoƿero, ēoƿro	ēoƿeru, ēoƿru, ēoƿero, ēoƿro	ēoƿerra	ēoƿerum, ēoƿrum	ēoƿerum, ēoƿrum 						
 															
-	3rd-possessor	strong	singular	masculine 	sīn 	sīnne 	sīnes 	sīnum 	sīne 						
-	3rd-possessor	strong	singular	feminine 	sīn 	sīne 	sīnre 	sīnre 	sīnre 						
-	3rd-possessor	strong	singular	neuter	sīn	sīn	sīnes	sīnum	sīne						
-	3rd-possessor	strong	plural	masculine 	sīne 	sīne 	sīnra 	sīnum 	sīnum 						
-	3rd-possessor	strong	plural	feminine 	sīna, sīne 	sīna, sīne 	sīnra 	sīnum 	sīnum 						
-	3rd-possessor	strong	plural	neuter	sīn	sīn	sīnra	sīnum	sīnum 						
+	3-possessor	strong	singular	masculine 	sīn 	sīnne 	sīnes 	sīnum 	sīne 						
+	3-possessor	strong	singular	feminine 	sīn 	sīne 	sīnre 	sīnre 	sīnre 						
+	3-possessor	strong	singular	neuter	sīn	sīn	sīnes	sīnum	sīne						
+	3-possessor	strong	plural	masculine 	sīne 	sīne 	sīnra 	sīnum 	sīnum 						
+	3-possessor	strong	plural	feminine 	sīna, sīne 	sīna, sīne 	sīnra 	sīnum 	sīnum 						
+	3-possessor	strong	plural	neuter	sīn	sīn	sīnra	sīnum	sīnum 						
 															
 															
 															

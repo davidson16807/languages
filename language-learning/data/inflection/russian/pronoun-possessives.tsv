@@ -1,40 +1,40 @@
 *	*	*	*	*	nominative	accusative	genitive	dative	instrumental	prepositional 	#																					
 *	*	*	*	*							#																					
-	1st-possessor	singular-possessor	masculine	animate	мой	моего́	моего́	моём	моему́	мои́м 	#	my																				
-	1st-possessor	singular-possessor	neuter	animate	моё	моё	моего́	моём	моему́	мои́м 	#	my																				
-	1st-possessor	singular-possessor	feminine	animate	моя́	мою́	мое́й 	мое́й 	мое́й 	мое́й 	#	my																				
-	1st-possessor	singular-possessor	plural	animate	мои́	мои́х 	мои́х 	мои́х 	мои́м	мои́ми 	#	my																				
-	1st-possessor	singular-possessor	masculine	inanimate	мой	мой	моего́	моём	моему́	мои́м 	#	my																				
-	1st-possessor	singular-possessor	neuter	inanimate	моё	моё	моего́	моём	моему́	мои́м 	#	my																				
-	1st-possessor	singular-possessor	feminine	inanimate	моя́	мою́	мое́й 	мое́й 	мое́й 	мое́й 	#	my																				
-	1st-possessor	singular-possessor	plural	inanimate	мои́	мои́	мои́х 	мои́х 	мои́м	мои́ми 	#	my																				
+	1-possessor	singular-possessor	masculine	animate	мой	моего́	моего́	моём	моему́	мои́м 	#	my																				
+	1-possessor	singular-possessor	neuter	animate	моё	моё	моего́	моём	моему́	мои́м 	#	my																				
+	1-possessor	singular-possessor	feminine	animate	моя́	мою́	мое́й 	мое́й 	мое́й 	мое́й 	#	my																				
+	1-possessor	singular-possessor	plural	animate	мои́	мои́х 	мои́х 	мои́х 	мои́м	мои́ми 	#	my																				
+	1-possessor	singular-possessor	masculine	inanimate	мой	мой	моего́	моём	моему́	мои́м 	#	my																				
+	1-possessor	singular-possessor	neuter	inanimate	моё	моё	моего́	моём	моему́	мои́м 	#	my																				
+	1-possessor	singular-possessor	feminine	inanimate	моя́	мою́	мое́й 	мое́й 	мое́й 	мое́й 	#	my																				
+	1-possessor	singular-possessor	plural	inanimate	мои́	мои́	мои́х 	мои́х 	мои́м	мои́ми 	#	my																				
 											#																					
-	2nd-possessor	singular-possessor	masculine	animate	твой	твоего́	твоего́	твоём	твоему́	твои́м 	#	your																				
-	2nd-possessor	singular-possessor	neuter	animate	твоё	твоё	твоего́	твоём	твоему́	твои́м 	#	your																				
-	2nd-possessor	singular-possessor	feminine	animate	твоя́	твою́	твое́й 	твое́й 	твое́й 	твое́й 	#	your																				
-	2nd-possessor	singular-possessor	plural	animate	твои́	твои́х 	твои́х 	твои́х 	твои́м	твои́ми 	#	your																				
-	2nd-possessor	singular-possessor	masculine	inanimate	твой	твой	твоего́	твоём	твоему́	твои́м 	#	your																				
-	2nd-possessor	singular-possessor	neuter	inanimate	твоё	твоё	твоего́	твоём	твоему́	твои́м 	#	your																				
-	2nd-possessor	singular-possessor	feminine	inanimate	твоя́	твою́	твое́й 	твое́й 	твое́й 	твое́й 	#	your																				
-	2nd-possessor	singular-possessor	plural	inanimate	твои́	твои́	твои́х 	твои́х 	твои́м	твои́ми 	#	your																				
+	2-possessor	singular-possessor	masculine	animate	твой	твоего́	твоего́	твоём	твоему́	твои́м 	#	your																				
+	2-possessor	singular-possessor	neuter	animate	твоё	твоё	твоего́	твоём	твоему́	твои́м 	#	your																				
+	2-possessor	singular-possessor	feminine	animate	твоя́	твою́	твое́й 	твое́й 	твое́й 	твое́й 	#	your																				
+	2-possessor	singular-possessor	plural	animate	твои́	твои́х 	твои́х 	твои́х 	твои́м	твои́ми 	#	your																				
+	2-possessor	singular-possessor	masculine	inanimate	твой	твой	твоего́	твоём	твоему́	твои́м 	#	your																				
+	2-possessor	singular-possessor	neuter	inanimate	твоё	твоё	твоего́	твоём	твоему́	твои́м 	#	your																				
+	2-possessor	singular-possessor	feminine	inanimate	твоя́	твою́	твое́й 	твое́й 	твое́й 	твое́й 	#	your																				
+	2-possessor	singular-possessor	plural	inanimate	твои́	твои́	твои́х 	твои́х 	твои́м	твои́ми 	#	your																				
 											#																					
-	1st-possessor	plural-possessor	masculine	animate	наш	на́шего	на́шего	на́шем	на́шему	на́шим	#	our																				
-	1st-possessor	plural-possessor	neuter	animate	на́ше	на́ше	на́шего	на́шем	на́шему	на́шим	#	our																				
-	1st-possessor	plural-possessor	feminine	animate	на́ша	на́шу	на́шей	на́шей	на́шей	на́шей	#	our																				
-	1st-possessor	plural-possessor	plural	animate	на́ши	на́ших 	на́ших 	на́ших 	на́шим	на́шими 	#	our																				
-	1st-possessor	plural-possessor	masculine	inanimate	наш	наш	на́шего	на́шем	на́шему	на́шим	#	our																				
-	1st-possessor	plural-possessor	neuter	inanimate	на́ше	на́ше	на́шего	на́шем	на́шему	на́шим	#	our																				
-	1st-possessor	plural-possessor	feminine	inanimate	на́ша	на́шу	на́шей	на́шей	на́шей	на́шей	#	our																				
-	1st-possessor	plural-possessor	plural	inanimate	на́ши	на́ши	на́ших 	на́ших 	на́шим	на́шими 	#	our																				
+	1-possessor	plural-possessor	masculine	animate	наш	на́шего	на́шего	на́шем	на́шему	на́шим	#	our																				
+	1-possessor	plural-possessor	neuter	animate	на́ше	на́ше	на́шего	на́шем	на́шему	на́шим	#	our																				
+	1-possessor	plural-possessor	feminine	animate	на́ша	на́шу	на́шей	на́шей	на́шей	на́шей	#	our																				
+	1-possessor	plural-possessor	plural	animate	на́ши	на́ших 	на́ших 	на́ших 	на́шим	на́шими 	#	our																				
+	1-possessor	plural-possessor	masculine	inanimate	наш	наш	на́шего	на́шем	на́шему	на́шим	#	our																				
+	1-possessor	plural-possessor	neuter	inanimate	на́ше	на́ше	на́шего	на́шем	на́шему	на́шим	#	our																				
+	1-possessor	plural-possessor	feminine	inanimate	на́ша	на́шу	на́шей	на́шей	на́шей	на́шей	#	our																				
+	1-possessor	plural-possessor	plural	inanimate	на́ши	на́ши	на́ших 	на́ших 	на́шим	на́шими 	#	our																				
 											#																					
-	2nd-possessor	plural-possessor	masculine	animate	ваш	ва́шего	ва́шего	ва́шем	ва́шему	ва́шим	#	all your																				
-	2nd-possessor	plural-possessor	neuter	animate	ва́ше	ва́ше	ва́шего	ва́шем	ва́шему	ва́шим	#	all your																				
-	2nd-possessor	plural-possessor	feminine	animate	ва́ша	ва́шу	ва́шей	ва́шей	ва́шей	ва́шей	#	all your																				
-	2nd-possessor	plural-possessor	plural	animate	ва́ши	ва́ших 	ва́ших 	ва́ших 	ва́шим	ва́шими 	#	all your																				
-	2nd-possessor	plural-possessor	masculine	inanimate	ваш	ваш	ва́шего	ва́шем	ва́шему	ва́шим	#	all your																				
-	2nd-possessor	plural-possessor	neuter	inanimate	ва́ше	ва́ше	ва́шего	ва́шем	ва́шему	ва́шим	#	all your																				
-	2nd-possessor	plural-possessor	feminine	inanimate	ва́ша	ва́шу	ва́шей	ва́шей	ва́шей	ва́шей	#	all your																				
-	2nd-possessor	plural-possessor	plural	inanimate	ва́ши	ва́ши	ва́ших 	ва́ших 	ва́шим	ва́шими 	#	all your																				
+	2-possessor	plural-possessor	masculine	animate	ваш	ва́шего	ва́шего	ва́шем	ва́шему	ва́шим	#	all your																				
+	2-possessor	plural-possessor	neuter	animate	ва́ше	ва́ше	ва́шего	ва́шем	ва́шему	ва́шим	#	all your																				
+	2-possessor	plural-possessor	feminine	animate	ва́ша	ва́шу	ва́шей	ва́шей	ва́шей	ва́шей	#	all your																				
+	2-possessor	plural-possessor	plural	animate	ва́ши	ва́ших 	ва́ших 	ва́ших 	ва́шим	ва́шими 	#	all your																				
+	2-possessor	plural-possessor	masculine	inanimate	ваш	ваш	ва́шего	ва́шем	ва́шему	ва́шим	#	all your																				
+	2-possessor	plural-possessor	neuter	inanimate	ва́ше	ва́ше	ва́шего	ва́шем	ва́шему	ва́шим	#	all your																				
+	2-possessor	plural-possessor	feminine	inanimate	ва́ша	ва́шу	ва́шей	ва́шей	ва́шей	ва́шей	#	all your																				
+	2-possessor	plural-possessor	plural	inanimate	ва́ши	ва́ши	ва́ших 	ва́ших 	ва́шим	ва́шими 	#	all your																				
 											#																					
 reflexive			masculine	animate	свой	своего́	своего́	своём	своему́	свои́м 	#	one's own																				
 reflexive			neuter	animate	своё	своё	своего́	своём	своему́	свои́м 	#	one's own																				
