@@ -36,7 +36,7 @@ def TextDemonstration(
                     'speaker':   {
                         **tags, 
                         **{'noun-form': 'personal', 'role':'agent', 'motion':'associated', 
-                           'person': '1', 'number':'singular', 
+                           'person': '1', 'number':'singular', 'gender':'masculine', 'formality': 'familiar',
                            'tense':'present', 'aspect':'aorist', 'voice':'active', 'mood':'indicative'}},
                 }
                 completed_substitutions = [
@@ -46,7 +46,8 @@ def TextDemonstration(
                       for key in ['noun','adjective','verb']
                       if key in tags],
                 ]
-                return self.format_card(self.assemble(tags,
+                return self.format_card(
+                        self.assemble(tags,
                             self.orthography.map(
                                 parsed_default_tree, 
                                 semes, 
@@ -168,7 +169,7 @@ def EmojiDemonstration(
                     .replace('\\dummy', performance(dummy_tags, tag_templates))
                     .replace('\\test',  performance(test_tags,  tag_templates)))
                 return getattr(htmlTenseTransform, clause_tags['tense'])(
-                                getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
+                            getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
             def recounting(tags):
                 return mood_templates[{**tags,'column':'template'}]
             def _demonstration(clause_tags, tag_templates):

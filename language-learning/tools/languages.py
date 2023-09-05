@@ -78,8 +78,8 @@ class Language:
             'personal-possessive': {'noun-form': 'personal-possessive'},
             **semes
         }
-        tag_insertion = {opcode:self.semantics.tag({**tags,'script':script}, remove=False) for (opcode, tags) in opcode_tags.items()}
-        tag_removal   = {opcode:self.semantics.tag({**tags,'script':script}, remove=True)  for (opcode, tags) in opcode_tags.items()}
+        tag_insertion = {opcode:self.semantics.tag({**value,'script':script}, remove=False) for (opcode, value) in opcode_tags.items()}
+        tag_removal   = {opcode:self.semantics.tag({**value,'script':script}, remove=True)  for (opcode, value) in opcode_tags.items()}
         rules = 'clause cloze implicit parentheses det adj np vp n v stock-modifier stock-adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
@@ -114,9 +114,12 @@ class Language:
                 'parentheses':self.formatting.parentheses,
             }),
         ]
+        if debug:
+            print(f'input:')
+            print(tree)
         for i, step in enumerate(pipeline):
             tree = step.map(tree, {**self.tags, 'script': script})
             if debug:
-                print(i)
+                print(f'step {i} results:')
                 print(tree)
         return tree

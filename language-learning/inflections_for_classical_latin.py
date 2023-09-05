@@ -48,6 +48,7 @@ foreign_language = Language(
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv'))),
+        debug=True,
     ),
     ListGrammar(
         conjugation_population.index([
@@ -73,6 +74,7 @@ foreign_language = Language(
                 declension_template_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
         ]),
+        debug=True,
     ),
     RuleSyntax(parse_any.terms('subject modifier indirect-object direct-object verb')),
     {'language-type':'foreign'},
@@ -427,13 +429,13 @@ write('flashcards/latin/nonfinite-conjugation.html',
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
                 stock_modifier = foreign_language.grammar.stock_modifier,
                 # default_tree = 'clause [test [np the n man] [infinitive vp conjugated]] [modifier test np stock-modifier]',
-                default_tree = 'clause [finite indicative speaker [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
+                default_tree = 'clause [speaker finite [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
             english_demonstration.verb(
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
                 stock_modifier = foreign_language.grammar.stock_modifier,
                 # default_tree = 'clause [test [np the n man] [vp conjugated]] [modifier np test stock-modifier]',
-                default_tree = 'clause [finite indicative speaker [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
+                default_tree = 'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
         ],
         defaults.override(

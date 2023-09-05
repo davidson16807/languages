@@ -51,6 +51,8 @@ class ListSemantics:
         }
     def tag(self, modifications, remove=False):
         def _map(machine, tree, memory):
+            # if self.debug and 'verb-form' in modifications:
+            #     print(modifications['verb-form'])
             arguments = machine.map(tree[1:], self.augment({**memory, **modifications}))
             return arguments if remove else [tree[0], *arguments]
         return _map
@@ -104,6 +106,8 @@ class ListGrammar:
             **tags, 
             'verb':content[1],
         }
+        # if self.debug and sememe not in self.conjugation_lookups[sememe]:
+        #     breakpoint()
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
             else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]
