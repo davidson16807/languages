@@ -976,7 +976,8 @@ tag_defaults = parse_any.termaxis_to_term('''
     clusivity:    exclusive
     formality:    familiar
     gender:       masculine
-    #noun:         man
+    #noun:        man
+    noun-form:    common
     number:       singular
     partitivity:  nonpartitive
     person:       3

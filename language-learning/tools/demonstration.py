@@ -105,11 +105,12 @@ def EmojiDemonstration(
         def decode(self, tags, scene):
             subject = EmojiPerson(
                 ''.join([
-                        (tags['number'][0]),
+                        tags['number'],
                         ('i' if 'clusivity' in tags and tags['clusivity']=='inclusive' else ''),
                     ]), 
                 tags['gender'][0], 
-                self.persons[int(tags['person'])-1].color)
+                self.persons[int(tags['person'])-1].color if 'personal' in tags['noun-form'] else '4'
+            )
             persons = [
                 subject if str(i+1)==tags['person'] else person
                 for i, person in enumerate(self.persons)]
@@ -120,7 +121,7 @@ def EmojiDemonstration(
                 if tags['noun-form'] == 'personal-possessive':
                     possessed = noun({**tags, 'noun-form':'common'}, tag_templates)
                     possessor = noun({
-                            'noun-form': 'pronoun',
+                            'noun-form': 'personal',
                             **{tag: tags[f'possessor-{tag}'].replace('-possessor','')
                                for tag in 'template noun person number gender clusivity formality'.split()
                                if f'possessor-{tag}' in tags},

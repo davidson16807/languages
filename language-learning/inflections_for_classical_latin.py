@@ -337,7 +337,7 @@ conjugation_subject_defaults = (
     constant['subject'] * 
     constant['stimulus'] * 
     constant['associated'] * 
-    constant['transitive']
+    constant['intransitive']
 )
 
 subjectivity_motion_role_traversal = (
@@ -389,8 +389,7 @@ demonstration_verbs = DictSpace('demonstration-verbs',
 )
 
 declension_noun_traversal = (
-    (
-      demonstration_verbs
+    ( demonstration_verbs
     * axis['template']
     ) * valency_subjectivity_motion_role_traversal
 ) & template_verb_whitelist
@@ -428,13 +427,13 @@ write('flashcards/latin/nonfinite-conjugation.html',
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
                 stock_modifier = foreign_language.grammar.stock_modifier,
                 # default_tree = 'clause [test [np the n man] [infinitive vp conjugated]] [modifier test np stock-modifier]',
-                default_tree = 'clause [finite speaker [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
+                default_tree = 'clause [finite indicative speaker [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
             english_demonstration.verb(
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
                 stock_modifier = foreign_language.grammar.stock_modifier,
                 # default_tree = 'clause [test [np the n man] [vp conjugated]] [modifier np test stock-modifier]',
-                default_tree = 'clause [finite speaker [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
+                default_tree = 'clause [finite indicative speaker [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
         ],
         defaults.override(
@@ -461,12 +460,13 @@ write('flashcards/latin/participle-declension.html',
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-            ((  tense_progress_mood_voice_verb_traversal 
+            (   tense_progress_mood_voice_verb_traversal
               & nonfinite_tense_progress_whitelist
-              & constant['indicative'])
-             - constant['unfinished'])
+              & constant['indicative']
+              & constant['atelic'])
             * conjugation_subject_defaults
             * constant['participle']
+            * constant['common']
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('finite present active atelic man personal 3 singular masculine'),
@@ -488,9 +488,10 @@ write('flashcards/latin/adpositions.html',
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-              (declension_noun_traversal *constant['man'])
+              (declension_noun_traversal *constant['man'] * constant['common'])
             & constant['modifier']
-            & noun_template_whitelist),
+            & noun_template_whitelist
+        ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('common'),
@@ -550,7 +551,7 @@ write('flashcards/latin/adjective-agreement.html',
             tree_lookup = template_tree_lookup,
             substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
         ) for demonstration in demonstrations], 
-        defaults.override(adjective_agreement_traversal),
+        defaults.override(adjective_agreement_traversal * constant['common']),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('common'),
@@ -571,7 +572,8 @@ write('flashcards/latin/pronoun-possessives.html',
                * possessor_pronoun_traversal)
               & possessor_possession_whitelist)
              * constant['exclusive-possessor']  
-             * constant['familiar-possessor'] )
+             * constant['familiar-possessor']
+            )
             & noun_template_whitelist
         ),
         tag_templates ={
