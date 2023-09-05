@@ -117,25 +117,7 @@ def EmojiDemonstration(
                 for i, person in enumerate(self.persons)]
             return emojiInflectionShorthand.decode(
                     recounting.replace('\\scene', scene), subject, persons)
-        def verb(self, **junk):
-            def scene(tags):
-                template = self.argument_lookups[tags] if tags in self.argument_lookups else '🚫'
-                audience_lookup = {
-                    'voseo':    '\\background{🇦🇷}\\n2{🧑\\g2\\c2}',
-                    'polite':   '\\n2{🧑\\g2\\c2\\💼}',
-                    'formal':   '\\n2{🤵\\c2\\g2}',
-                    'elevated': '\\n2{🤴\\g2\\c2}',
-                }
-                # TODO: reimplement formality as emoji modifier shorthand
-                # audience = (audience_lookup[tags['formality']] 
-                #          if tags['formality'] in audience_lookup 
-                #          else '\\n2{🧑\\g2\\c2}')
-                return getattr(htmlTenseTransform, tags['tense'])(
-                            getattr(htmlProgressTransform, tags['progress'].replace('-','_'))(template))
-            def _demonstration(test_tags, tag_templates):
-                tags = {**test_tags, 'script':'emoji', 'language-type': 'foreign'}
-                return self.format_card(self.assemble(tags, scene(tags), self.context(tags)))
-            return _demonstration
+
         def case(self, **junk):
             def noun(tags, tag_templates):
                 if tags['noun-form'] == 'personal-possessive':
@@ -159,20 +141,20 @@ def EmojiDemonstration(
                         else noun_lookups[alttags] if alttags in noun_lookups
                         else noun_lookups[tags] if tags in noun_lookups 
                         else '🚫')
-                    if result == '🚫':
-                        breakpoint()
                     return result
             def scene(tags, tag_templates):
-                return ((verb_lookups[tags] if tags in verb_lookups else '\\subject')
+                template = (verb_lookups[tags] if tags in verb_lookups else '\\subject'
                     .replace('\\subject', noun(tags, tag_templates)))
+                return template
             def _demonstration(clause_tags, tag_templates):
+                clause_tags = {**clause_tags, 'script':'emoji', 'language-type': 'foreign'}
                 test_tags = {
                         **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] == 'subject' else {}),
                         **{tag: clause_tags[tag]
-                           for tag in 'template noun person number gender clusivity formality'.split()
+                           for tag in 'template noun-form noun person number gender clusivity formality'.split()
                            if tag in clause_tags},
                         **{f'possessor-{tag}': clause_tags[f'possessor-{tag}']
-                           for tag in 'template noun person number gender clusivity formality'.split()
+                           for tag in 'template noun-form noun person number gender clusivity formality'.split()
                            if f'possessor-{tag}' in clause_tags},
                         **tag_templates['test'], 
                         'script': 'emoji'
@@ -180,15 +162,20 @@ def EmojiDemonstration(
                 dummy_tags = {
                         **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] != 'subject' else {}),
                         **tag_templates['dummy'], 
-                        'person': '4',
+                        'person': '3',
                         'script': 'emoji'
                     }
-                template = noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫'
-                return self.format_card(
-                    self.assemble(clause_tags, 
-                        template
+                template = (self.argument_lookups[clause_tags] if clause_tags in self.argument_lookups
+                    else noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫')
+                template = (template
                             .replace('\\dummy', scene(dummy_tags, tag_templates))
-                            .replace('\\test',  scene(test_tags,  tag_templates)), 
-                        self.context(clause_tags)))
+                            .replace('\\test',  scene(test_tags,  tag_templates)))
+                template = getattr(htmlTenseTransform, clause_tags['tense'])(
+                                getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
+                return self.format_card(
+                    self.assemble(clause_tags, template, self.context(clause_tags)))
             return _demonstration
+        def verb(self, **kwargs):
+            return self.case(**kwargs)
     return LanguageSpecificEmojiDemonstration
+ 

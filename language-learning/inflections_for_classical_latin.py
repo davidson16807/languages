@@ -390,7 +390,6 @@ declension_noun_traversal = (
     * subjectivity_motion_role_traversal
 )
 
-'''
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
@@ -406,6 +405,10 @@ write('flashcards/latin/finite-conjugation.html',
             * conjugation_subject_defaults 
             * constant['personal']
         ),
+        tag_templates ={
+            'test'  : parse.termaxis_to_term('personal'),
+            'dummy' : parse.termaxis_to_term('common'),
+        },
     ))
 
 print('flashcards/latin/nonfinite-conjugation.html')
@@ -436,7 +439,11 @@ write('flashcards/latin/nonfinite-conjugation.html',
             * conjugation_subject_defaults
             * constant['infinitive']
             * constant['personal']
-        ) 
+        ),
+        tag_templates ={
+            'test' : parse.termaxis_to_term('personal'),
+            'dummy' : parse.termaxis_to_term('common'),
+        },
     ))
 print('flashcards/latin/participle-declension.html')
 write('flashcards/latin/participle-declension.html', 
@@ -457,13 +464,11 @@ write('flashcards/latin/participle-declension.html',
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('finite present active atelic man personal 3 singular masculine'),
-            'possession' : parse.termaxis_to_term('finite present active atelic common   3 singular masculine'),
-            'test'       : parse.termaxis_to_term('finite present active atelic common'),
-            'emoji'      : parse.termaxis_to_term('finite present active atelic common 4'),
+            'possession' : parse.termaxis_to_term('finite present active atelic common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('finite present active atelic common 3'),
             'participle' : parse.termaxis_to_term('nominative'),
         },
     ))
-'''
 
 
 print('flashcards/latin/adpositions.html')
@@ -477,21 +482,20 @@ write('flashcards/latin/adpositions.html',
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-              (declension_noun_traversal *constant['man'])
+              (declension_noun_traversal *constant['man'] * constant['present'] * constant['atelic'])
             & constant['modifier']
             & subjectivity_valency_whitelist
             & noun_template_whitelist
             & template_verb_whitelist),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular sapient man'),
-            'test'       : parse.termaxis_to_term('common'),
-            'emoji'      : parse.termaxis_to_term('common 4'),
+            'test'       : parse.termaxis_to_term('common 3'),
         },
     ))
 
 
 declension_common_noun_traversal = (
-    (declension_noun_traversal * axis['noun'] * constant['common'])
+    (declension_noun_traversal * axis['noun'] * constant['common'] * constant['present'] * constant['atelic'])
     & subjectivity_valency_whitelist
     & noun_template_whitelist
     & template_verb_whitelist
@@ -506,14 +510,13 @@ write('flashcards/latin/common-noun-declension.html',
         defaults.override(declension_common_noun_traversal),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
-            'test'       : parse.termaxis_to_term('common'),
-            'emoji'      : parse.termaxis_to_term('common 4'),
+            'test'       : parse.termaxis_to_term('common 3'),
         },
     ))
 
 
 declension_pronoun_traversal = (
-    (pronoun_traversal * declension_noun_traversal * constant['personal'])
+    (pronoun_traversal * declension_noun_traversal * constant['personal'] * constant['present'] * constant['atelic'])
     & subjectivity_valency_whitelist
     & noun_template_whitelist
     & template_verb_whitelist
@@ -528,8 +531,7 @@ write('flashcards/latin/pronoun-declension.html',
         defaults.override(declension_pronoun_traversal),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine sapient man'),
-            'test'       : parse.termaxis_to_term('personal'),
-            'emoji'      : parse.termaxis_to_term('common 4'),
+            'test'       : parse.termaxis_to_term('personal 3'),
         },
     ))
 
@@ -537,7 +539,9 @@ adjective_agreement_traversal = (
     (  axis['number']
      * gender_agreement_traversal
      * declension_noun_traversal
-     * axis['adjective'])
+     * axis['adjective']
+     * constant['present'] 
+     * constant['atelic'])
     & subjectivity_valency_whitelist
     & noun_template_whitelist
     & template_verb_whitelist
@@ -553,8 +557,7 @@ write('flashcards/latin/adjective-agreement.html',
         defaults.override(adjective_agreement_traversal),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
-            'test'       : parse.termaxis_to_term('common'),
-            'emoji'      : parse.termaxis_to_term('common 4'),
+            'test'       : parse.termaxis_to_term('common 3'),
         },
     ))
 
@@ -574,15 +577,16 @@ write('flashcards/latin/pronoun-possessives.html',
                * possessor_pronoun_traversal)
               & possessor_possession_whitelist)
              * constant['exclusive-possessor']  
-             * constant['familiar-possessor'] )
+             * constant['familiar-possessor']
+             * constant['present'] 
+             * constant['atelic'] )
             & subjectivity_valency_whitelist
             & noun_template_whitelist
             & template_verb_whitelist
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
-            'test'       : parse.termaxis_to_term('personal-possessive'),
-            'emoji'      : parse.termaxis_to_term('4'),
+            'test'       : parse.termaxis_to_term('personal-possessive 3rd-possessor'),
         },
     ))
 
