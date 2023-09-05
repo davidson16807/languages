@@ -428,13 +428,11 @@ write('flashcards/latin/nonfinite-conjugation.html',
             foreign_demonstration.verb(
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
                 stock_modifier = foreign_language.grammar.stock_modifier,
-                # default_tree = 'clause [test [np the n man] [infinitive vp conjugated]] [modifier test np stock-modifier]',
-                default_tree = 'clause [speaker finite [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
+                default_tree = 'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
             english_demonstration.verb(
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
                 stock_modifier = foreign_language.grammar.stock_modifier,
-                # default_tree = 'clause [test [np the n man] [vp conjugated]] [modifier np test stock-modifier]',
                 default_tree = 'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
         ],
@@ -443,7 +441,6 @@ write('flashcards/latin/nonfinite-conjugation.html',
               & nonfinite_tense_progress_whitelist) 
               - constant['imperative'])
             * conjugation_subject_defaults
-            * constant['infinitive']
             * constant['personal']
         ),
         tag_templates ={

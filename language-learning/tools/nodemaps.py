@@ -87,14 +87,10 @@ class ListGrammar:
         # NOTE: if content is a None type, then rely solely on the tag
         #  This logic provides a natural way to encode for pronouns
         missing_value = '' if content[0] in {'det'} else None
-        # if tags not in self.case_usage:
-        #     return missing_value
         sememe = {
             **tags, 
             'noun':content[1] if len(content)>1 else None
         }
-        # if sememe not in self.declension_lookups[sememe] and sememe['noun'] != 'the':
-        #     breakpoint()
         return [content[0], 
             missing_value if sememe not in self.declension_lookups
             else missing_value if sememe not in self.declension_lookups[sememe]
@@ -106,8 +102,6 @@ class ListGrammar:
             **tags, 
             'verb':content[1],
         }
-        # if self.debug and sememe not in self.conjugation_lookups[sememe]:
-        #     breakpoint()
         return [content[0], 
             None if sememe not in self.conjugation_lookups[sememe]
             else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]
@@ -181,9 +175,9 @@ class RuleFormatting:
             return (newline*2).join([
                 format_section(lookup, 'mood evidentiality confidence'.split()),
                 format_section(lookup, 'aspect progress'.split()),
-                format_section(lookup, 'verb completion strength voice tense'.split()),
+                format_section(lookup, 'verb verb-form completion strength voice tense'.split()),
                 format_section(lookup, 'case subjectivity valency motion role'.split()),
-                format_section(lookup, 'noun person number gender clusivity formality clitic partitivity'.split()),
+                format_section(lookup, 'noun noun-form person number gender clusivity formality clitic partitivity'.split()),
                 format_section(lookup, 'language-type script'.split()),
                 format_section(lookup, 'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality'.split()),
             ])
