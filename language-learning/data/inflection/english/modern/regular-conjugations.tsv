@@ -24,6 +24,8 @@ appear	appear	appear	appear	appears	appear	appear	appear	appear	appear	appear	ap
 rest	rest	rest	rest	rests	rest	rest	rest	rest	rest	rest	rested	resting	#	templates
 swim	swim	swim	swim	swims	swim	swim	swim	swim	swim	swam	swum	swimming	#	templates
 fly	fly	fly	fly	flies	fly	fly	fly	fly	fly	flew	flew	flying	#	templates
+drink	drink	drink	drink	drinks	drink	drink	drink	drink	drink	drank	drunken	drinking	#	templates
+eat	eat	eat	eat	eats	eat	eat	eat	eat	eat	ate	eaten	eating	#	common
 do	do	do	do	does	do	do	do	do	do	did	done	doing	#	common
 go	go     	go	go	goes	go	go	go	go	go	went	gone	going	#	common
 want	want	want	want	wants	want	want	want	want	want	wanted	wanted	wanting	#	common
@@ -33,7 +35,6 @@ be-able	be able	am able	are able	is able	are able	are able	are able	are able	are
 read	read	read	read	reads	read	read	read	read	read	read	read	reading	#	common
 carry	carry	carry	carry	carries	carry	carry	carry	carry	carry	carried	carried	carrying	#	common
 become	become	become	become	becomes	become	become	become	become	become	became	become	becoming	#	common
-eat	eat	eat	eat	eats	eat	eat	eat	eat	eat	ate	eaten	eating	#	common
 sew	sew	sew	sew	sews	sew	sew	sew	sew	sew	sewed	sewn	sewing	#	common
 love	love	love	love	loves	love	love	love	love	love	loved	loved	loving	#	common
 work	work	work	work	works	work	work	work	work	work	worked	worked	working	#	common
@@ -72,7 +73,6 @@ want-to-see	want to see	want to see	want to see	wants to see	want to see	want to
 write	write	write	write	writes	write	write	write	write	write	wrote	written	writing	#	russian
 see	see	see 	see	sees	see	see	see	see	see	saw	seen	seeing	#	russian
 draw	draw	draw	draw	draws	draw	draw	draw	draw	draw	drew	drawn	drawing	#	russian
-drink	drink	drink	drink	drinks	drink	drink	drink	drink	drink	drank	drunken	drinking	#	russian
 steal	steal	steal	steal	steals	steal	steal	steal	steal	steal	stole	stolen	stealing	#	russian
 sink	sink	sink	sink	sinks	sink	sink	sink	sink	sink	sunk	sunken	sinking	#	russian
 forgive	forgive	forgive	forgive	forgives	forgive	forgive	forgive	forgive	forgive	forgave	forgiven	forgiving	#	russian

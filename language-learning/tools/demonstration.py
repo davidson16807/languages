@@ -88,7 +88,10 @@ def TextDemonstration(
 def EmojiDemonstration(
             nouns_to_depictions,
             noun_adjective_lookups,
+            noun_verb_lookups,
+            noun_declension_lookups,
             noun_lookups,
+            verb_lookups,
             mood_templates,
             emojiInflectionShorthand,
             htmlTenseTransform,
@@ -134,13 +137,13 @@ def EmojiDemonstration(
                 return self.format_card(self.assemble(tags, scene(tags), self.context(tags)))
             return _demonstration
         def case(self, **junk):
-            def scene(tags, tag_templates):
+            def noun(tags, tag_templates):
                 if tags['noun-form'] == 'personal-possessive':
-                    possessed = scene({**tags, 'noun-form':'common'}, tag_templates)
-                    possessor = scene({
+                    possessed = noun({**tags, 'noun-form':'common'}, tag_templates)
+                    possessor = noun({
                             'noun-form': 'pronoun',
                             **{tag: tags[f'possessor-{tag}'].replace('-possessor','')
-                               for tag in 'noun person number gender clusivity formality'.split()
+                               for tag in 'template noun person number gender clusivity formality'.split()
                                if f'possessor-{tag}' in tags},
                             # 'person': tags['possessor-person'].replace('-possessor','')[0],
                             'script': 'emoji',
@@ -151,20 +154,41 @@ def EmojiDemonstration(
                         else tags['noun'] if tags['noun'] not in nouns_to_depictions 
                         else nouns_to_depictions[tags['noun']])
                     alttags = {**tags, 'noun':depiction}
-                    return (noun_adjective_lookups[tags] if tags in noun_adjective_lookups
+                    result = (noun_adjective_lookups[tags] if tags in noun_adjective_lookups
+                        else noun_verb_lookups[tags] if tags in noun_verb_lookups
                         else noun_lookups[alttags] if alttags in noun_lookups
                         else noun_lookups[tags] if tags in noun_lookups 
                         else '🚫')
-            def _demonstration(test_tags, tag_templates):
-                template = '🚫' # match['emoji'] if 'emoji' in (match or {}) else '🚫'
-                tags = {
-                        **test_tags, 
+                    if result == '🚫':
+                        breakpoint()
+                    return result
+            def scene(tags, tag_templates):
+                return ((verb_lookups[tags] if tags in verb_lookups else '\\subject')
+                    .replace('\\subject', noun(tags, tag_templates)))
+            def _demonstration(clause_tags, tag_templates):
+                test_tags = {
+                        **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] == 'subject' else {}),
+                        **{tag: clause_tags[tag]
+                           for tag in 'template noun person number gender clusivity formality'.split()
+                           if tag in clause_tags},
+                        **{f'possessor-{tag}': clause_tags[f'possessor-{tag}']
+                           for tag in 'template noun person number gender clusivity formality'.split()
+                           if f'possessor-{tag}' in clause_tags},
                         **tag_templates['test'], 
-                        **tag_templates['emoji'], 
-                        # 'case':case,  # TODO: see if you can get rid of this
-                        'noun':test_tags['noun'],
                         'script': 'emoji'
                     }
-                return self.format_card(self.assemble(tags, template.replace('\\declined', scene(tags, tag_templates)), self.context(tags)))
+                dummy_tags = {
+                        **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] != 'subject' else {}),
+                        **tag_templates['dummy'], 
+                        'person': '4',
+                        'script': 'emoji'
+                    }
+                template = noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫'
+                return self.format_card(
+                    self.assemble(clause_tags, 
+                        template
+                            .replace('\\dummy', scene(dummy_tags, tag_templates))
+                            .replace('\\test',  scene(test_tags,  tag_templates)), 
+                        self.context(clause_tags)))
             return _demonstration
     return LanguageSpecificEmojiDemonstration

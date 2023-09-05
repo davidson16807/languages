@@ -94,7 +94,6 @@ class CellAnnotation:
                             row_based_attributes[self.term_to_termaxis[cell]] = cell
                     for i in range(header_column_count,len(row)):
                         cell = row[i]
-                        # if cell and column_based_attributes[i]:
                         if cell and (row_based_attributes or column_based_attributes[i]):
                             annotation = {
                                 **self.default_attributes,

@@ -98,6 +98,7 @@ mood_episemaxis_to_episemes = {
         'circumstantial', # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is circumstantial in some way
         'means',          # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is circumstantial, based on means
         'motive',         # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is circumstantial, based on motive
+        'necessity',      # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is circumstantial, based on need
         'conceded',       # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence of addressee is recognized
         'proposed',       # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence provided elsewhere
         'supposed',       # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence provided elsewhere
@@ -495,9 +496,13 @@ possessive_pronoun_annotation  = CellAnnotation(
 common_noun_annotation  = CellAnnotation(
     'inflection', tag_to_tagaxis, {}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
-noun_adjective_annotation  = CellAnnotation(
+emoji_noun_adjective_annotation  = CellAnnotation(
     'inflection', tag_to_tagaxis, {}, {0:'adjective',1:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
+emoji_noun_verb_annotation = RowAnnotation('flag noun verb emoji'.split())
+emoji_verb_annotation = RowAnnotation('flag template verb emoji'.split())
+emoji_noun_declensions_annotation = CellAnnotation(
+    'inflection', term_to_termaxis, {}, {}, termaxis_to_terms)
 declension_template_noun_annotation = CellAnnotation(
     'inflection', tag_to_tagaxis, {0:'language'}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
@@ -515,7 +520,10 @@ conjugation_population = NestedLookupPopulation(conjugation_template_lookups, Ke
 declension_population  = NestedLookupPopulation(declension_template_lookups, KeyEvaluation('inflection'))
 emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleIndexing(['noun','number'])), KeyEvaluation('inflection'))
 emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])), KeyEvaluation('inflection'))
-mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing(['mood','column'])), KeyEvaluation('inflection'))
+emoji_noun_verb_population = FlatLookupPopulation(DictLookup('emoji noun verb', DictTupleIndexing('noun verb'.split())), KeyEvaluation('emoji'))
+emoji_verb_population = FlatLookupPopulation(DictLookup('emoji verb', DictTupleIndexing('template verb'.split())), KeyEvaluation('emoji'))
+emoji_noun_declensions_population = FlatLookupPopulation(DictLookup('declension-templates', DictTupleIndexing('valency subjectivity motion role'.split())), KeyEvaluation('inflection'))
+mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing('mood column'.split())), KeyEvaluation('inflection'))
 template_verb_population = DictSetPopulation(DictSet('template-verb', DictTupleIndexing('template role subjectivity valency verb'.split()), set()))
 template_tree_population = FlatLookupPopulation(DictLookup('template-tree', DictTupleIndexing('valency subjectivity'.split())), KeyEvaluation('tree'))
 noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('noun template'.split()), set()))
@@ -556,46 +564,12 @@ noun_template_whitelist = (
             tsv_parsing.rows('data/inflection/noun-template.tsv')))
 )
 
-template_tree_whitelist = (
+template_tree_lookup = (
     template_tree_population.index(
         template_tree_annotation.annotate(
             tsv_parsing.rows('data/inflection/template-trees.tsv')))
 )
 
-rows = [
-  *tsv_parsing.rows('data/predicates/mythical/greek.tsv'),
-  *tsv_parsing.rows('data/predicates/mythical/hindi.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/animal-anatomy.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/animal.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/deity.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/human.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/humanoid.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/plant-anatomy.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/plant.tsv'),
-  *tsv_parsing.rows('data/predicates/biotic/sapient.tsv'),
-  *tsv_parsing.rows('data/predicates/abiotic/item.tsv'),
-  *tsv_parsing.rows('data/predicates/abiotic/location.tsv'),
-  *tsv_parsing.rows('data/predicates/abiotic/physical.tsv'),
-  *tsv_parsing.rows('data/predicates/abstract/attribute.tsv'),
-  *tsv_parsing.rows('data/predicates/abstract/time.tsv'),
-  *tsv_parsing.rows('data/predicates/abstract/event.tsv'),
-  *tsv_parsing.rows('data/predicates/abstract/concept.tsv'),
-  *tsv_parsing.rows('data/predicates/animacy-hierarchy.tsv'),
-  *tsv_parsing.rows('data/predicates/capability.tsv'),
-]
-
-level0_subset_relations = set()
-level1_subset_relations = collections.defaultdict(
-    set, 
-    {
-        'be':{'can'},
-        'part':{'can-be-part'},
-    })
-
-for row in rows:
-    f, x, g, y = row[:4]
-    if all([f.strip(), x.strip(), g.strip(), y.strip()]):
-        level0_subset_relations.add(((f,x),(g,y)))
 
 declension_template_annotation = RowAnnotation(
     '''flag valency subjectivity motion role specificity syntax-tree 
@@ -622,7 +596,7 @@ case_usage_population = NestedLookupPopulation(
     KeyEvaluation('case')
 )
 
-mood_usage_annotation = CellAnnotation('mood', dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {})
+mood_usage_annotation = CellAnnotation('mood', dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {}, debug=True)
 mood_usage_population = NestedLookupPopulation(
     DefaultDictLookup('mood-usage', 
         DictTupleIndexing(
@@ -662,14 +636,23 @@ LanguageSpecificTextDemonstration = TextDemonstration(
 LanguageSpecificEmojiDemonstration = EmojiDemonstration(
     nouns_to_depictions,
     emoji_noun_adjective_population.index(
-        noun_adjective_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/adjective-agreement.tsv'))),
+        emoji_noun_adjective_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/noun-adjectives.tsv'))),
+    emoji_noun_verb_population.index(
+        emoji_noun_verb_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/noun-verbs.tsv'))),
+    emoji_noun_declensions_population.index(
+        emoji_noun_declensions_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/noun-declensions.tsv'))),
     emoji_noun_population.index(
         common_noun_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/common-noun-declensions.tsv'))),
+            tsv_parsing.rows('data/inflection/emoji/nouns.tsv'))),
+    emoji_verb_population.index(
+        emoji_verb_annotation.annotate(
+            tsv_parsing.rows('data/inflection/emoji/verbs.tsv'))),
     mood_population.index(
         mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/emoji/mood-templates.tsv'))),
+            tsv_parsing.rows('data/inflection/emoji/moods.tsv'))),
     emoji_shorthand, 
     HtmlTenseTransform(), 
     HtmlProgressTransform(), 
