@@ -172,9 +172,11 @@ def EmojiDemonstration(
                 return getattr(htmlTenseTransform, clause_tags['tense'])(
                                 getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
             def _demonstration(clause_tags, tag_templates):
-                clause_tags = {**clause_tags, 'script':'emoji', 'language-type': 'foreign'}
                 return self.format_card(
-                    self.assemble(clause_tags, scene(clause_tags, tag_templates), self.context(clause_tags)))
+                    self.assemble(
+                        {**clause_tags, 'script':'emoji', 'language-type': 'foreign'}, 
+                        scene(clause_tags, tag_templates), 
+                        self.context(clause_tags)))
             return _demonstration
         def verb(self, **kwargs):
             return self.case(**kwargs)
