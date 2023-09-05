@@ -348,6 +348,11 @@ subjectivity_motion_role_traversal = (
     - subjectivity_role_blacklist
 )
 
+valency_subjectivity_motion_role_traversal = (
+      axis['valency'] 
+    * subjectivity_motion_role_traversal
+) & subjectivity_valency_whitelist
+
 verb_direct_object = DictSet('verb_direct_object', 
     DictTupleIndexing(parse.tokens('verb direct-object')),
     parse.token_table('''
@@ -384,11 +389,11 @@ demonstration_verbs = DictSpace('demonstration-verbs',
 )
 
 declension_noun_traversal = (
+    (
       demonstration_verbs
-    * axis['valency'] 
     * axis['template']
-    * subjectivity_motion_role_traversal
-)
+    ) * valency_subjectivity_motion_role_traversal
+) & template_verb_whitelist
 
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
@@ -484,9 +489,7 @@ write('flashcards/latin/adpositions.html',
         defaults.override(
               (declension_noun_traversal *constant['man'] * constant['present'] * constant['atelic'])
             & constant['modifier']
-            & subjectivity_valency_whitelist
-            & noun_template_whitelist
-            & template_verb_whitelist),
+            & noun_template_whitelist),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular sapient man'),
             'test'       : parse.termaxis_to_term('common 3'),
@@ -496,9 +499,7 @@ write('flashcards/latin/adpositions.html',
 
 declension_common_noun_traversal = (
     (declension_noun_traversal * axis['noun'] * constant['common'] * constant['present'] * constant['atelic'])
-    & subjectivity_valency_whitelist
     & noun_template_whitelist
-    & template_verb_whitelist
 )
 print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html', 
@@ -517,9 +518,7 @@ write('flashcards/latin/common-noun-declension.html',
 
 declension_pronoun_traversal = (
     (pronoun_traversal * declension_noun_traversal * constant['personal'] * constant['present'] * constant['atelic'])
-    & subjectivity_valency_whitelist
     & noun_template_whitelist
-    & template_verb_whitelist
 )
 print('flashcards/latin/pronoun-declension.html')
 write('flashcards/latin/pronoun-declension.html', 
@@ -542,9 +541,7 @@ adjective_agreement_traversal = (
      * axis['adjective']
      * constant['present'] 
      * constant['atelic'])
-    & subjectivity_valency_whitelist
     & noun_template_whitelist
-    & template_verb_whitelist
 )
 
 print('flashcards/latin/adjective-agreement.html')
@@ -580,9 +577,7 @@ write('flashcards/latin/pronoun-possessives.html',
              * constant['familiar-possessor']
              * constant['present'] 
              * constant['atelic'] )
-            & subjectivity_valency_whitelist
             & noun_template_whitelist
-            & template_verb_whitelist
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),

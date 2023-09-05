@@ -142,12 +142,11 @@ def EmojiDemonstration(
                         else noun_lookups[tags] if tags in noun_lookups 
                         else '🚫')
                     return result
-            def scene(tags, tag_templates):
+            def performance(tags, tag_templates):
                 template = (verb_lookups[tags] if tags in verb_lookups else '\\subject'
                     .replace('\\subject', noun(tags, tag_templates)))
                 return template
-            def _demonstration(clause_tags, tag_templates):
-                clause_tags = {**clause_tags, 'script':'emoji', 'language-type': 'foreign'}
+            def scene(clause_tags, tag_templates):
                 test_tags = {
                         **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] == 'subject' else {}),
                         **{tag: clause_tags[tag]
@@ -168,12 +167,14 @@ def EmojiDemonstration(
                 template = (self.argument_lookups[clause_tags] if clause_tags in self.argument_lookups
                     else noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫')
                 template = (template
-                            .replace('\\dummy', scene(dummy_tags, tag_templates))
-                            .replace('\\test',  scene(test_tags,  tag_templates)))
-                template = getattr(htmlTenseTransform, clause_tags['tense'])(
+                        .replace('\\dummy', performance(dummy_tags, tag_templates))
+                        .replace('\\test',  performance(test_tags,  tag_templates)))
+                return getattr(htmlTenseTransform, clause_tags['tense'])(
                                 getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
+            def _demonstration(clause_tags, tag_templates):
+                clause_tags = {**clause_tags, 'script':'emoji', 'language-type': 'foreign'}
                 return self.format_card(
-                    self.assemble(clause_tags, template, self.context(clause_tags)))
+                    self.assemble(clause_tags, scene(clause_tags, tag_templates), self.context(clause_tags)))
             return _demonstration
         def verb(self, **kwargs):
             return self.case(**kwargs)
