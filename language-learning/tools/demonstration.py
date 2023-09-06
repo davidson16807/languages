@@ -31,7 +31,7 @@ def TextDemonstration(
                 semes = {
                     # 'test':      {**tags, **tag_templates['test']},
                     # 'modifier':  {**tags, **tag_templates['modifier']},
-                    'test':      {**tags, **{'noun-form': 'personal', 'role':'agent', 'motion':'associated'}},
+                    'test':      {**tags, **{'role':'agent', 'motion':'associated'}},
                     'modifier':  {**tags, **{'noun-form': 'common', 'role':'patient', 'subjectivity':'modifier', 'motion':'associated'}},
                     'speaker':   {
                         **tags, 

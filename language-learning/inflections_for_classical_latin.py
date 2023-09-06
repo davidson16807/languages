@@ -396,13 +396,13 @@ declension_noun_traversal = (
     ) * valency_subjectivity_motion_role_traversal
 ) & template_verb_whitelist
 
+'''
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.verb(
             substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
             stock_modifier = foreign_language.grammar.stock_modifier,
-            # default_tree = 'clause test [np the n man] [vp conjugated] [modifier np test stock-modifier]',
             default_tree = 'clause [test [np the n man] [vp conjugated]] [test modifier np stock-modifier]',
         ) for demonstration in demonstrations],
         defaults.override(
@@ -448,15 +448,19 @@ write('flashcards/latin/nonfinite-conjugation.html',
             'dummy' : parse.termaxis_to_term('common 3 singular masculine sapient man'),
         },
     ))
+'''
 
 print('flashcards/latin/participle-declension.html')
 write('flashcards/latin/participle-declension.html', 
     deck_generation.generate(
-        [demonstration.case(
-            tree_lookup = template_tree_lookup,
-            substitutions = [
-                {'declined': list_tools.replace(['the', ['n', 'man'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
-            ],
+        [demonstration.verb(
+            substitutions = [],
+            stock_modifier = foreign_language.grammar.stock_modifier,
+            default_tree = '''
+                clause test [
+                    [np the [n man] [parentheses participle [cloze v verb] [modifier np stock-modifier]]]
+                    [vp present v appear]
+                ]''',
         ) for demonstration in demonstrations],
         defaults.override(
             (   tense_progress_mood_voice_verb_traversal
@@ -464,14 +468,11 @@ write('flashcards/latin/participle-declension.html',
               & constant['indicative']
               & constant['atelic'])
             * conjugation_subject_defaults
-            * constant['participle']
-            * constant['common']
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('finite present active atelic man personal 3 singular masculine'),
-            'possession' : parse.termaxis_to_term('finite present active atelic common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('finite present active atelic common'),
-            'participle' : parse.termaxis_to_term('nominative'),
+            'dummy'      : parse.termaxis_to_term('common singular masculine'),
+            'test'       : parse.termaxis_to_term('common singular masculine'),
+            'participle' : parse.termaxis_to_term('common participle nominative'),
         },
     ))
 
@@ -498,10 +499,7 @@ write('flashcards/latin/adpositions.html',
     ))
 
 
-declension_common_noun_traversal = (
-    (declension_noun_traversal * axis['noun'] * constant['common'])
-    & noun_template_whitelist
-)
+
 print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html', 
     deck_generation.generate(
@@ -509,7 +507,10 @@ write('flashcards/latin/common-noun-declension.html',
             tree_lookup = template_tree_lookup,
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        defaults.override(declension_common_noun_traversal),
+        defaults.override(
+            (declension_noun_traversal * axis['noun'] * constant['common'])
+            & noun_template_whitelist
+        ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('common'),
@@ -517,10 +518,6 @@ write('flashcards/latin/common-noun-declension.html',
     ))
 
 
-declension_pronoun_traversal = (
-    (pronoun_traversal * declension_noun_traversal * constant['personal'])
-    & noun_template_whitelist
-)
 print('flashcards/latin/pronoun-declension.html')
 write('flashcards/latin/pronoun-declension.html', 
     deck_generation.generate(
@@ -528,20 +525,15 @@ write('flashcards/latin/pronoun-declension.html',
             tree_lookup = template_tree_lookup,
             substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
-        defaults.override(declension_pronoun_traversal),
+        defaults.override(
+            (pronoun_traversal * declension_noun_traversal * constant['personal'])
+            & noun_template_whitelist
+        ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('personal'),
         },
     ))
-
-adjective_agreement_traversal = (
-    (  axis['number']
-     * gender_agreement_traversal
-     * declension_noun_traversal
-     * axis['adjective'])
-    & noun_template_whitelist
-)
 
 print('flashcards/latin/adjective-agreement.html')
 write('flashcards/latin/adjective-agreement.html', 
@@ -550,7 +542,14 @@ write('flashcards/latin/adjective-agreement.html',
             tree_lookup = template_tree_lookup,
             substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
         ) for demonstration in demonstrations], 
-        defaults.override(adjective_agreement_traversal * constant['common']),
+        defaults.override(
+            ((  axis['number']
+             * gender_agreement_traversal
+             * declension_noun_traversal
+             * axis['adjective'])
+            & noun_template_whitelist) 
+            * constant['common']
+        ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('common'),
