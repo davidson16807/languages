@@ -177,6 +177,13 @@ subjectivity_motion_whitelist = DictSet(
         modifier      leveraged
     '''))
 
+subjectivity_person_blacklist = DictSet(
+    'subjectivity_person_blacklist', 
+    DictTupleIndexing(parse.termaxes('subjectivity person')),
+    content = parse.term_table('''
+        addressee  3
+    '''))
+
 conjugation_subject_traversal = DictList(
     'conjugation_subject_traversal', 
     DictTupleIndexing(parse.termaxes('person number gender')),
@@ -490,7 +497,7 @@ write('flashcards/latin/adpositions.html',
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-              (declension_noun_traversal *constant['man'] * constant['common'])
+            (declension_noun_traversal *constant['man'] * constant['common'])
             & constant['modifier']
             & noun_template_whitelist
         ),
@@ -528,8 +535,9 @@ write('flashcards/latin/pronoun-declension.html',
             substitutions = [{'declined': list_tools.replace(['cloze', 'n', 'noun'])}],
         ) for demonstration in demonstrations],
         defaults.override(
-            (pronoun_traversal * declension_noun_traversal * constant['personal'])
-            & noun_template_whitelist
+            ((pronoun_traversal * declension_noun_traversal * constant['personal'])
+            & noun_template_whitelist)
+            - subjectivity_person_blacklist
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine sapient man'),
