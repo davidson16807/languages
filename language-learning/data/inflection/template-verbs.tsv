@@ -1,5 +1,6 @@
 *	*	*	organization	sapient	carnivore	herbivore	fruitivore	granivore	pescavore	seacreature	plant	bodypart	bodyfluid	viscera	food	item	fixture	liquid	gas	event	location	side	surface	interior	heat-source	visible	audible	vice	virtue	size	quality	quantity	manner	reason	concept	#						
 #			1	47						1	2	5		2	6	14		2	2	10	4		3	10		12	4	2							6	#					woman	
+stimulus	addressee	intransitive	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	#						
 location	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					animal	
 extent	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#						
 vicinity	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					arrow	

@@ -1,5 +1,5 @@
-*	*	nominative	genitive  	dative    	accusative	ablative  	vocative  	locative	emoji	#	declension	gender	ending	etymology	
-man	singular	homō       	hominis    	hominī     	hominem    	homine     	homō       	homine     	\nx{🧍\cx\gx}	#	3	masculine	consonant	latin	# note: words with latin etymology come before those with greek etymology 
+*	*	nominative	genitive	dative	accusative	ablative	vocative	locative	emoji	#	declension	gender	ending	etymology	
+man	singular	homō       	hominis    	hominī     	hominem    	homine	homō	homine     	\nx{🧍\cx\gx}	#	3	masculine	consonant	latin	# note: words with latin etymology come before those with greek etymology 
 man	plural	hominēs      	hominum      	hominibus    	hominēs      	hominibus    	hominēs      	hominibus    	\nx{🧍\cx\gx}	#	3	masculine	consonant	latin	# since they are more common and easier to learn on average.
 day	singular	diēs       	diēī       	diēī       	diem       	diē        	diēs       	—	\nx{🏙️}	#	5         		-iēs        	latin    	# declensions are ordered by frequency, so the most useful declensions can be prioritized in case the user quits early          
 day	plural	diēs	diērum	diēbus       	diēs         	diēbus       	diēs	—	\nx{🏙️}	#	5         		-iēs        	latin    	

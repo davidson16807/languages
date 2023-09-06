@@ -75,7 +75,7 @@ case_episemaxis_to_episemes = {
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'subjectivity': 'subject addressee direct-object indirect-object modifier verb'.split(),
+    'subjectivity': 'addressee subject direct-object indirect-object modifier verb'.split(),
     'motion':  'departed associated acquired approached surpassed leveraged'.split(),
     'valency': 'impersonal intransitive transitive'.split(),
 }
@@ -253,7 +253,8 @@ tagaxis_to_tags = {
     # 'abstraction': 'organization location origin destination time manner reason quality amount'.split(),
 
     # needed when creating demonstrations for declensions
-    'template': '''organization sapient creature seacreature plant bodypart bodyfluid viscera 
+    'template': '''organization sapient carnivore herbivore granivore fruitivore nectarivore detritivore seacreature 
+                   plant bodypart bodyfluid viscera 
                    food item fixture liquid gas event location side surface interior 
                    heat-source visible audible vice virtue size quality quantity manner reason concept'''.split(),
 

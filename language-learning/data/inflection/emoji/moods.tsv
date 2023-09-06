@@ -1,31 +1,31 @@
 *	template	example	explanation
-indicative	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\n1{🧑\g1\c1}		
-subjunctive	\bubble{\box{\scene}→…}\n2{🧑\g2\c2}\rthought\n1{🤷\c1\g1}	[even if]	Event is considered unlikely (mainly used in dependent clauses)
-conditional	\bubble{…→\box{\scene}}\n2{🧑\g2\c2}\rthought\n1{🤷\c1\g1}	[if so, then]	Event depends upon another condition.
-optative	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\lhi{🤞\c1}\n1{🧑\g1\c1}	[may it be]	Event is hoped, expected, or awaited.
-benedictive	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\lowered{🙏\c1}\n1{🧑\g1\c1}	[may it be]	Event is blessed by the speaker
-jussive	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\n1{🙇\c1\g1}	[it should be]	Event is pleaded, implored or asked.
-potential	\bubble{\scene}\n2{🧑\g2\c2}\rthought\n1{🧑\g1\c1}	[it's likely]	Event is probable or considered likely.
-imperative	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\n1{🤴\g1\c1}	[I command that]	Event is directly ordered or requested by the speaker.
-prohibitive	\forbidden{\scene}\n2{🧑\g2\c2}\rspeech\n1{🤴\g1\c1}	[I forbid that]	Event is directly prohibited by the speaker.
-desiderative	\bubble{\nx{\lhi{🤞\cx}🧑\gx\cx}:\box{\scene}}\n2{🧑\g2\c2}\rspeech\n1{🧑\g1\c1}		Event is desired/wished by the subject
-dubitative	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\n1{🤷\c1\g1}	[maybe]	Event is uncertain, doubtful, dubious.
-hypothetical	\bubble{∃\box{\scene}}\n2{🧑\g2\c2}\rspeech\n1{🤷\c1\g1}	[it's at least possible]	Event is hypothetical, or it is counterfactual, but possible.
-presumptive	\bubble{⊦\box{\scene}}\n2{🧑\g2\c2}\rspeech\n1{🤷\c1\g1}	[suppose that]	Event is assumed, presupposed by the speaker.
-permissive	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\n1{\chestlevel{\mirror{👍\c1}}🧑\g1\c1}	[I'm fine that]	Event is permitted by the speaker.
-admirative	\bubble{\scene!}\n2{🧑\g2\c2}\rspeech\n1{🧑\g1\c1}	[wow!]	Event is genuinely surprising or amazing
-ironic-admirative	\bubble{\scene!}\n2{🧑\g2\c2}\rspeech\n1{🙎\c1\g1}	[gee!]	Event is surprising or amazing, in irony or sarcasm
-hortative	\bubble{\scene!}\n2{🧑\g2\c2}\rspeech\lhi{✊\c1}\n1{🧑\g1\c1}	[may it be]	Event is exhorted, implored, insisted or encouraged by speaker.
-eventitive	\bubble{…→\box{\scene}}\n2{🧑\g2\c2}\rspeech\n1{🧑\g1\c1}	[if so, it's likely]	Event is likely but depends upon a condition. 
-precative	\bubble{\scene?}\n2{🧑\g2\c2}\rspeech\lowered{\flip{🤲\c1}}\n1{🧑\g1\c1}	[please, can it be that]	Event is requested by the speaker.
-volitive	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\lhi{🤞\c1}\n1{🙍\c1\g1}	[if only]	Event is desired, wished or feared by the speaker.
-involutive	\forbidden{\scene}\n2{🧑\g2\c2}\rspeech\lhi{🤞\c1}\n1{🙍\c1\g1}	[heaven forbid]	Event is feared by the speaker.
-inferential	\bubble{\scene}\lspeech\n2{🧑\g2\c2}\n1{💁\c1\g1}	[it is said that]	Event is nonwitnessed, and not confirmed.
-necessitative	\bubble{\scene!}\n2{🧑\g2\c2}\rspeech\n1{🙇\c1\g1}	[it is imperative that]	Event is necessary, or it is both desired and encouraged. 
-interrogative	\bubble{\scene?}\n2{🧑\g2\c2}\rspeech\n1{🤷\c1\g1}	[is it true that]	Event is asked or questioned by the speaker 
-injunctive	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\n1{🧑\g1\c1\⚖️}	[I intend]	Event is intended by the speaker
-suggestive	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\lhi{☝\c1}\n1{🧑\g1\c1}	[I suggest]	Event is proposed by the speaker
-comissive	\bubble{\scene}\n2{🧑\g2\c2}\rspeech\lhi{✋\c1}\n1{🧑\g1\c1}	[I vow]	Event is committed to by the speaker, such as by promise or threat
-deliberative	\bubble{\scene?}\n2{🧑\g2\c2}\rspeech\n1{💁\c1\g1}	[shall it be]	Event is considered by the speaker, asking for confirmation
-propositive	\bubble{\scene?}\n2{🧑\g2\c2}\rspeech\n1{🤷\c1\g1}	[should it be]	Event is proposed by the speaker, asking for consideration
-dynamic	\bubble{\nx{\chestlevel{💪\cx}🧑\gx\cx}:\box{\scene}}\n2{🧑\g2\c2}\rspeech\n1{🧑\g1\c1}		Event is able to be done by the subject
+indicative	\bubble{\scene}\addressee\rspeech\n1{🧑\g1\c1}		
+subjunctive	\bubble{\box{\scene}→…}\addressee\rthought\n1{🤷\c1\g1}	[even if]	Event is considered unlikely (mainly used in dependent clauses)
+conditional	\bubble{…→\box{\scene}}\addressee\rthought\n1{🤷\c1\g1}	[if so, then]	Event depends upon another condition.
+optative	\bubble{\scene}\addressee\rspeech\lhi{🤞\c1}\n1{🧑\g1\c1}	[may it be]	Event is hoped, expected, or awaited.
+benedictive	\bubble{\scene}\addressee\rspeech\lowered{🙏\c1}\n1{🧑\g1\c1}	[may it be]	Event is blessed by the speaker
+jussive	\bubble{\scene}\addressee\rspeech\n1{🙇\c1\g1}	[it should be]	Event is pleaded, implored or asked.
+potential	\bubble{\scene}\addressee\rthought\n1{🧑\g1\c1}	[it's likely]	Event is probable or considered likely.
+imperative	\bubble{\scene}\addressee\rspeech\n1{🤴\g1\c1}	[I command that]	Event is directly ordered or requested by the speaker.
+prohibitive	\forbidden{\scene}\addressee\rspeech\n1{🤴\g1\c1}	[I forbid that]	Event is directly prohibited by the speaker.
+desiderative	\bubble{\nx{\lhi{🤞\cx}🧑\gx\cx}:\box{\scene}}\addressee\rspeech\n1{🧑\g1\c1}		Event is desired/wished by the subject
+dubitative	\bubble{\scene}\addressee\rspeech\n1{🤷\c1\g1}	[maybe]	Event is uncertain, doubtful, dubious.
+hypothetical	\bubble{∃\box{\scene}}\addressee\rspeech\n1{🤷\c1\g1}	[it's at least possible]	Event is hypothetical, or it is counterfactual, but possible.
+presumptive	\bubble{⊦\box{\scene}}\addressee\rspeech\n1{🤷\c1\g1}	[suppose that]	Event is assumed, presupposed by the speaker.
+permissive	\bubble{\scene}\addressee\rspeech\n1{\chestlevel{\mirror{👍\c1}}🧑\g1\c1}	[I'm fine that]	Event is permitted by the speaker.
+admirative	\bubble{\scene!}\addressee\rspeech\n1{🧑\g1\c1}	[wow!]	Event is genuinely surprising or amazing
+ironic-admirative	\bubble{\scene!}\addressee\rspeech\n1{🙎\c1\g1}	[gee!]	Event is surprising or amazing, in irony or sarcasm
+hortative	\bubble{\scene!}\addressee\rspeech\lhi{✊\c1}\n1{🧑\g1\c1}	[may it be]	Event is exhorted, implored, insisted or encouraged by speaker.
+eventitive	\bubble{…→\box{\scene}}\addressee\rspeech\n1{🧑\g1\c1}	[if so, it's likely]	Event is likely but depends upon a condition. 
+precative	\bubble{\scene?}\addressee\rspeech\lowered{\flip{🤲\c1}}\n1{🧑\g1\c1}	[please, can it be that]	Event is requested by the speaker.
+volitive	\bubble{\scene}\addressee\rspeech\lhi{🤞\c1}\n1{🙍\c1\g1}	[if only]	Event is desired, wished or feared by the speaker.
+involutive	\forbidden{\scene}\addressee\rspeech\lhi{🤞\c1}\n1{🙍\c1\g1}	[heaven forbid]	Event is feared by the speaker.
+inferential	\bubble{\scene}\lspeech\addressee\n1{💁\c1\g1}	[it is said that]	Event is nonwitnessed, and not confirmed.
+necessitative	\bubble{\scene!}\addressee\rspeech\n1{🙇\c1\g1}	[it is imperative that]	Event is necessary, or it is both desired and encouraged. 
+interrogative	\bubble{\scene?}\addressee\rspeech\n1{🤷\c1\g1}	[is it true that]	Event is asked or questioned by the speaker 
+injunctive	\bubble{\scene}\addressee\rspeech\n1{🧑\g1\c1\⚖️}	[I intend]	Event is intended by the speaker
+suggestive	\bubble{\scene}\addressee\rspeech\lhi{☝\c1}\n1{🧑\g1\c1}	[I suggest]	Event is proposed by the speaker
+comissive	\bubble{\scene}\addressee\rspeech\lhi{✋\c1}\n1{🧑\g1\c1}	[I vow]	Event is committed to by the speaker, such as by promise or threat
+deliberative	\bubble{\scene?}\addressee\rspeech\n1{💁\c1\g1}	[shall it be]	Event is considered by the speaker, asking for confirmation
+propositive	\bubble{\scene?}\addressee\rspeech\n1{🤷\c1\g1}	[should it be]	Event is proposed by the speaker, asking for consideration
+dynamic	\bubble{\nx{\chestlevel{💪\cx}🧑\gx\cx}:\box{\scene}}\addressee\rspeech\n1{🧑\g1\c1}		Event is able to be done by the subject

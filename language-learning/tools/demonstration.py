@@ -166,8 +166,8 @@ def EmojiDemonstration(
                 template = (self.argument_lookups[clause_tags] if clause_tags in self.argument_lookups
                     else noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫')
                 template = (template
-                    .replace('\\dummy', performance(dummy_tags, tag_templates))
-                    .replace('\\test',  performance(test_tags,  tag_templates)))
+                    .replace('\\dummy',     performance(dummy_tags,     tag_templates))
+                    .replace('\\test',      performance(test_tags,      tag_templates)))
                 return getattr(htmlTenseTransform, clause_tags['tense'])(
                             getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
             def recounting(tags):
@@ -177,7 +177,10 @@ def EmojiDemonstration(
                     self.decode(
                         {**clause_tags, 'script':'emoji', 'language-type': 'foreign'}, 
                         recounting(clause_tags)
-                            .replace('\\scene', scene(clause_tags, tag_templates))))
+                            .replace('\\scene',     scene(clause_tags, tag_templates))
+                            .replace('\\addressee', performance(clause_tags, tag_templates)
+                                if clause_tags['subjectivity']=='addressee' else '\\n2{🧑\\g2\\c2}')
+                        ))
             return _demonstration
         def verb(self, **kwargs):
             return self.case(**kwargs)
