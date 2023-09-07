@@ -149,7 +149,7 @@ def EmojiDemonstration(
                 test_tags = {
                         **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] == 'subject' else {}),
                         **{tag: clause_tags[tag]
-                           for tag in 'template noun-form noun person number gender clusivity formality'.split()
+                           for tag in 'template noun-form noun person number gender clusivity formality adjective'.split()
                            if tag in clause_tags},
                         **{f'possessor-{tag}': clause_tags[f'possessor-{tag}']
                            for tag in 'template noun-form noun person number gender clusivity formality'.split()
