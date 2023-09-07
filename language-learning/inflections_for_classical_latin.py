@@ -70,9 +70,6 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv')),
             *possessive_pronoun_annotation.annotate(
                 tsv_parsing.rows('data/inflection/latin/classic/pronoun-possessives.tsv')),
-            *filter(has_annotation('language','classical-latin'),
-                declension_template_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
         ]),
         debug=True,
     ),
@@ -95,7 +92,7 @@ foreign_termaxis_to_terms = {
         voice  :  active passive
         mood   :  indicative subjunctive imperative
         role   :  stimulus location possessor interior surface presence aid lack interest time company
-        subjectivity: addressee subject direct-object indirect-object modifier
+        subjectivity: subject addressee direct-object indirect-object modifier
     '''),
     **parse_any.token_to_tokens('''
         adjective:tall holy poor mean old nimble swift jovial
