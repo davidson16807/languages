@@ -24,16 +24,17 @@ class HtmlGroupPositioning:
 class HtmlPersonPositioning:
     def __init__(self, htmlGroupPositioning):
         self.positions = htmlGroupPositioning
+        self.offset = 0.1
     def farleft(self, person):
-        return self.positions.offset(person,-1,-0.1)
+        return self.positions.offset(person,-1,-self.offset)
     def left(self, person):
-        return self.positions.offset(person,-1,-0.1)
+        return self.positions.offset(person,-1,-self.offset)
     def center(self, person):
         return person
     def right(self, person):
-        return self.positions.offset(person, 1,-0.1)
+        return self.positions.offset(person, 1,-self.offset)
     def group(self, *people):
-        return self.positions.group(''.join(people), len(people))
+        return self.positions.group(''.join(people), 1+self.offset*(len(people)-1))
 
 class HtmlNumberTransform:
     def __init__(self, htmlPersonPositioning):

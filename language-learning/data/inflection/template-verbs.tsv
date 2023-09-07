@@ -1,13 +1,14 @@
 *	*	*	organization	sapient	carnivore	herbivore	fruitivore	granivore	pescavore	seacreature	plant	bodypart	bodyfluid	viscera	food	item	fixture	liquid	gas	event	location	side	surface	interior	heat-source	visible	audible	vice	virtue	size	quality	quantity	manner	reason	concept	#						
+#			army	man	monster/dog	horse				fish	tree	hand	blood	heart	food	rope		water	air	day	house	house	house	house	fire	fire	drum								idea	#						
 #			1	47						1	2	5		2	6	14		2	2	10	4		3	10		12	4	2							6	#					woman	
 stimulus	addressee	intransitive	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	#						
 location	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					animal	
 extent	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#						
 vicinity	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					arrow	
 side	modifier	intransitive		rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest			rest	rest	rest	rest	rest	warm											#	man	swim	∅		fire	
-interior	modifier	intransitive		rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	swim	fly	rest	rest	rest	rest	walk	warm											#	bird	fly	∅		ice	
-medium	modifier	intransitive		rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	swim	fly	rest	rest	rest	rest	rest	warm											#	treasure	rest	∅		food	
-subsurface	modifier	intransitive		rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	fly	rest	rest	rest	rest	rest												#	man	walk	∅		"bird	"	
+interior	modifier	intransitive																		rest	rest	rest	rest	walk	warm											#	bird	fly	∅		ice	
+medium	modifier	intransitive																swim	fly						warm											#	treasure	rest	∅		food	
+subsurface	modifier	intransitive																rest	fly	rest	rest	rest	rest	rest												#	man	walk	∅		"bird	"	
 surface	modifier	intransitive		walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	float	fly	walk	walk	walk	walk	walk												#	man	rest	∅		bird	
 presence	modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	arrow	"rest	"	∅		place	
 aid	modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	direct	attention			
