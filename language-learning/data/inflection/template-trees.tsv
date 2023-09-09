@@ -4,7 +4,7 @@
 	transitive	addressee	np test [np common n hello] [np declined]	#		
 	intransitive	subject	clause [test [np the declined] [vp v verb]]	#	←\declined	
 	transitive	subject	clause [test [np the declined] [vp v verb]] [dummy patient direct-object np the declined]	#	\declined🍲	
-	intransitive	direct-object	clause [dummy agent subject [np the n man] [vp v verb]] [test np the declined]	"#	"	🫸\c3🔥\declined	
-	transitive	direct-object	clause [dummy agent subject [np the n man] [vp v verb]] [test np the declined]	#	🫸\c3🔥\declined	
-	intransitive	modifier	clause [dummy agent subject [np the n man] [vp v verb]] [test np [stock-adposition] the declined]	#	←🚶\c3\m\declined	away from
-	transitive	modifier	clause [dummy agent subject [np the n man] [vp v verb]] [test np [stock-adposition] the declined]	#	←🚶\c3\m\declined	away from
+	intransitive	direct-object	clause [dummy agent subject [np the n] [vp v verb]] [test np the declined]	"#	"	🫸\c3🔥\declined	
+	transitive	direct-object	clause [dummy agent subject [np the n] [vp v verb]] [test np the declined]	#	🫸\c3🔥\declined	
+	intransitive	modifier	clause [dummy agent subject [np the n] [vp v verb]] [test np [stock-adposition] the declined]	#	←🚶\c3\m\declined	away from
+	transitive	modifier	clause [dummy agent subject [np the n] [vp v verb]] [test np [stock-adposition] the declined]	#	←🚶\c3\m\declined	away from

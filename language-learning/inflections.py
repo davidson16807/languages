@@ -514,8 +514,9 @@ declension_verb_annotation = CellAnnotation(
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 template_verb_annotation = CellAnnotation(
     'verb', term_to_termaxis, {0:'template'}, {}, {})
+template_verb_dummies_annotation = RowAnnotation('flag subjectivity verb dummy'.split())
 template_tree_annotation = RowAnnotation('flag valency subjectivity tree'.split())
-noun_template_annotation = RowAnnotation('noun template'.split())
+noun_template_annotation = RowAnnotation('test template'.split())
 
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups, KeyEvaluation('inflection'))
 declension_population  = NestedLookupPopulation(declension_template_lookups, KeyEvaluation('inflection'))
@@ -526,8 +527,9 @@ emoji_verb_population = FlatLookupPopulation(DictLookup('emoji verb', DictTupleI
 emoji_noun_declensions_population = FlatLookupPopulation(DictLookup('declension-templates', DictTupleIndexing('valency subjectivity motion role'.split())), KeyEvaluation('inflection'))
 mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing('mood column'.split())), KeyEvaluation('inflection'))
 template_verb_population = DictSetPopulation(DictSet('template-verb', DictTupleIndexing('template role subjectivity valency verb'.split()), set()))
+template_verb_dummies_population = DictSetPopulation(DictSet('template-verb-dummies', DictTupleIndexing('subjectivity verb dummy'.split()), set()))
 template_tree_population = FlatLookupPopulation(DictLookup('template-tree', DictTupleIndexing('valency subjectivity'.split())), KeyEvaluation('tree'))
-noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('noun template'.split()), set()))
+noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('test template'.split()), set()))
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
@@ -557,6 +559,12 @@ template_verb_whitelist = (
     template_verb_population.index(
         template_verb_annotation.annotate(
             tsv_parsing.rows('data/inflection/template-verbs.tsv')))
+)
+
+template_verb_dummies_whitelist = (
+    template_verb_dummies_population.index(
+        template_verb_dummies_annotation.annotate(
+            tsv_parsing.rows('data/inflection/template-verb-dummies.tsv')))
 )
 
 noun_template_whitelist = (

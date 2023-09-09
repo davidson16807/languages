@@ -31,8 +31,10 @@ def TextDemonstration(
                 semes = {
                     # 'test':      {**tags, **tag_templates['test']},
                     # 'modifier':  {**tags, **tag_templates['modifier']},
-                    'test':      {**tags, **{'role':'agent', 'motion':'associated'}},
-                    'modifier':  {**tags, **{'noun-form': 'common', 'role':'patient', 'subjectivity':'modifier', 'motion':'associated'}},
+                    'test':      {**tags, **{'role':'agent', 'motion':'associated'}, 
+                        **({'noun': tags['test']  } if 'test'  in tags else {})},
+                    'modifier':  {**tags, **{'noun-form': 'common', 'role':'patient', 'subjectivity':'modifier', 'motion':'associated'},
+                        **({'noun': tags['dummy'] } if 'dummy' in tags else {})},
                     'speaker':   {
                         **tags, 
                         **{'noun-form': 'personal', 'role':'agent', 'motion':'associated', 
@@ -43,7 +45,7 @@ def TextDemonstration(
                     *substitutions,
                     {'stock-modifier': stock_modifier},
                     *[{key: tools.replace(tags[key])}
-                      for key in ['noun','adjective','verb']
+                      for key in ['adjective','verb']
                       if key in tags],
                 ]
                 return self.format_card(
@@ -61,15 +63,15 @@ def TextDemonstration(
             def _demonstration(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
-                    'test':        {**tags, **tag_templates['test']},
-                    'dummy':       {**tags, **tag_templates['dummy']},
+                    'test':        {**tags, **tag_templates['test'],  **({'noun': tags['test']  } if 'test'  in tags else {})},
+                    'dummy':       {**tags, **tag_templates['dummy'], **({'noun': tags['dummy'] } if 'dummy' in tags else {})},
                     'modifier':    {**tags, **(tag_templates['modifier'] if 'modifier' in tag_templates else {})},
                     'participle':  {**tags, **(tag_templates['participle'] if 'participle' in tag_templates else {})},
                 }
                 completed_substitutions = [
                     *substitutions,
                     *[{key: tools.replace(tags[key])}
-                      for key in ['noun','adjective','verb']
+                      for key in ['adjective','verb']
                       if key in tags],
                 ]
                 return self.format_card(
@@ -131,14 +133,13 @@ def EmojiDemonstration(
                         }, tag_templates)
                     return self.decode(tags, '\\flex{'+possessed+'\\r{'+possessor+'}}')
                 else:
-                    depiction = ('missing' if 'noun' not in tags 
-                        else tags['noun'] if tags['noun'] not in nouns_to_depictions 
-                        else nouns_to_depictions[tags['noun']])
+                    depiction = ('missing' if 'test' not in tags 
+                        else tags['test'] if tags['test'] not in nouns_to_depictions 
+                        else nouns_to_depictions[tags['test']])
                     alttags = {**tags, 'noun':depiction}
-                    result = (noun_adjective_lookups[tags] if tags in noun_adjective_lookups
-                        else noun_verb_lookups[tags] if tags in noun_verb_lookups
-                        else noun_lookups[alttags] if alttags in noun_lookups
-                        else noun_lookups[tags] if tags in noun_lookups 
+                    result = (noun_adjective_lookups[alttags] if alttags in noun_adjective_lookups
+                        else noun_verb_lookups[alttags] if alttags in noun_verb_lookups
+                        else noun_lookups[alttags] if alttags in noun_lookups 
                         else '🚫')
                     return self.decode(tags, result)
             def performance(tags, tag_templates):
@@ -149,7 +150,7 @@ def EmojiDemonstration(
                 test_tags = {
                         **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] == 'subject' else {}),
                         **{tag: clause_tags[tag]
-                           for tag in 'template noun-form noun person number gender clusivity formality adjective'.split()
+                           for tag in 'template noun-form test person number gender clusivity formality adjective'.split()
                            if tag in clause_tags},
                         **{f'possessor-{tag}': clause_tags[f'possessor-{tag}']
                            for tag in 'template noun-form noun person number gender clusivity formality'.split()

@@ -89,7 +89,7 @@ class ListGrammar:
         missing_value = '' if content[0] in {'det'} else None
         sememe = {
             **tags, 
-            'noun':content[1] if len(content)>1 else None
+            **({'noun':content[1]} if len(content)>1 else {}),
         }
         return [content[0], 
             missing_value if sememe not in self.declension_lookups

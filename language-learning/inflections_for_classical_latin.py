@@ -86,7 +86,7 @@ foreign_termaxis_to_terms = {
     **parse_any.termaxis_to_terms('''
         gender :  masculine feminine neuter
         number :  singular plural
-        motion :  associated departed acquired approached surpassed leveraged
+        motion :  approached acquired associated leveraged surpassed departed
         progress: atelic unfinished finished
         tense  :  present past future
         voice  :  active passive
@@ -97,7 +97,7 @@ foreign_termaxis_to_terms = {
     **parse_any.token_to_tokens('''
         adjective:tall holy poor mean old nimble swift jovial
         verb   :  be be-able want become go carry eat love advise capture hear
-        noun   :  man day hand night thing name son war air boy animal star tower horn sailor foundation echo phenomenon vine myth atom nymph comet 
+        test   :  man day hand night thing name son war air boy animal star tower horn sailor foundation echo phenomenon vine myth atom nymph comet 
         possessor-noun :  man-possessor woman-possessor animal-possessor
     '''),
 }
@@ -137,7 +137,7 @@ defaults = DictSpace(
     DictTupleIndexing([]),
     {
         **tag_defaults,
-        'noun':'man',
+        'test':'man',
     }
 )
 
@@ -166,12 +166,10 @@ subjectivity_motion_whitelist = DictSet(
         addressee     associated
         subject       associated
         direct-object associated
-        modifier      departed
-        modifier      associated
         modifier      approached
-        modifier      acquired
-        modifier      surpassed
+        modifier      associated
         modifier      leveraged
+        modifier      departed
     '''))
 
 subjectivity_person_blacklist = DictSet(
@@ -264,7 +262,7 @@ verb_voice_blacklist = DictSet(
 
 pronoun_traversal = DictList(
     'pronoun_traversal', 
-    DictTupleIndexing(parse.termaxes('noun person number gender')),
+    DictTupleIndexing(parse.termaxes('test person number gender')),
     sequence = parse.token_table('''
         man    1 singular neuter   
         woman  2 singular feminine 
@@ -280,7 +278,7 @@ pronoun_traversal = DictList(
 
 gender_agreement_traversal = DictList(
     'gender_agreement_traversal', 
-    DictTupleIndexing(parse.termaxes('gender noun')),
+    DictTupleIndexing(parse.termaxes('gender test')),
     sequence = parse.token_table('''
         masculine  man   
         feminine   woman 
@@ -289,7 +287,7 @@ gender_agreement_traversal = DictList(
 
 possession_traversal = DictList(
     'possession_traversal', 
-    DictTupleIndexing(parse.termaxes('gender noun')),
+    DictTupleIndexing(parse.termaxes('gender test')),
     sequence = parse.token_table('''
         masculine  son      
         feminine   daughter 
@@ -299,7 +297,7 @@ possession_traversal = DictList(
 
 possessor_possession_whitelist = DictSet(
     'possessor_possession_whitelist', 
-    DictTupleIndexing(parse.termaxes('possessor-noun noun')),
+    DictTupleIndexing(parse.termaxes('possessor-noun test')),
     content = parse.token_table('''
         man-possessor    son
         man-possessor    daughter
@@ -359,34 +357,6 @@ valency_subjectivity_motion_role_traversal = (
       axis['valency'] 
     * subjectivity_motion_role_traversal
 ) & subjectivity_valency_whitelist
-
-verb_direct_object = DictSet('verb_direct_object', 
-    DictTupleIndexing(parse.tokens('verb direct-object')),
-    parse.token_table('''
-        swim      ∅
-        fly       ∅
-        rest      ∅
-        walk      ∅
-        rest      ∅
-        rest      ∅
-        direct    attention
-        work      ∅
-        resemble  ∅
-        eat       food
-        endure    fire
-        warm      man
-        cool      man
-        fall      ∅
-        change    ∅
-        occupy    place
-        show      ∅
-        see       ∅
-        watch     ∅
-        startle   ∅
-        displease ∅
-        appear    ∅
-    '''),
-)
 
 demonstration_verbs = DictSpace('demonstration-verbs', 
     DictTupleIndexing(['verb']),
@@ -511,10 +481,10 @@ write('flashcards/latin/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.case(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace(['cloze', 'n', 'noun'])}],
+            substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
-            (declension_noun_traversal * axis['noun'] * constant['common'])
+            (declension_noun_traversal * axis['test'] * constant['common'])
             & noun_template_whitelist
         ),
         tag_templates ={
@@ -529,7 +499,7 @@ write('flashcards/latin/pronoun-declension.html',
     deck_generation.generate(
         [demonstration.case(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace(['cloze', 'n', 'noun'])}],
+            substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
             ((pronoun_traversal * declension_noun_traversal * constant['personal'])
@@ -547,7 +517,7 @@ write('flashcards/latin/adjective-agreement.html',
     deck_generation.generate(
         [demonstration.case(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace([['cloze','adj','adjective'], ['n', 'noun']])}],
+            substitutions = [{'declined': list_tools.replace([['cloze','adj','adjective'], ['n']])}],
         ) for demonstration in demonstrations], 
         defaults.override(
             ((  axis['number']
@@ -568,7 +538,7 @@ write('flashcards/latin/pronoun-possessives.html',
     deck_generation.generate(
         [demonstration.case(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace([['cloze','adj'], ['common', 'n', 'noun']])}],
+            substitutions = [{'declined': list_tools.replace([['cloze','adj'], ['common', 'n']])}],
         ) for demonstration in demonstrations],
         defaults.override(
             (((  axis['number'] 
