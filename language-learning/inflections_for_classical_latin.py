@@ -2,7 +2,7 @@ import time
 
 start_time = time.time()
 
-from tools.shorthands import TermParsing
+from tools.parsing import TermParsing
 from tools.dictstores import DictSet, DictList, DictSpace
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.languages import Language

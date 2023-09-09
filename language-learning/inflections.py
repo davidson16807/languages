@@ -6,10 +6,17 @@ See README.txt and GLOSSARY.txt for notes on terminology
 
 import collections
 
-from tools.transforms import *
-from tools.shorthands import *
+from tools.transforms import (
+    HtmlGroupPositioning, HtmlPersonPositioning,
+    HtmlTextTransform,  HtmlNumberTransform, HtmlTenseTransform, HtmlProgressTransform, HtmlBubble
+)
+from tools.shorthands import (
+    Enclosures, BracketedShorthand, TextTransformShorthand,
+    EmojiSubjectShorthand, EmojiAnnotationShorthand, EmojiPersonShorthand, EmojiNumberShorthand, 
+    EmojiModifierShorthand, EmojiBubbleShorthand, EmojiPerson, EmojiInflectionShorthand, EmojiVocabularyShorthand
+)
 
-from tools.parsing import SeparatedValuesFileParsing
+from tools.parsing import SeparatedValuesFileParsing, TermParsing, ListParsing, LatexlikeParsing
 from tools.annotation import RowAnnotation, CellAnnotation
 from tools.predicates import Predicate
 from tools.dictstores import DefaultDictLookup, DictLookup, DictSet
