@@ -411,7 +411,7 @@ write('flashcards/latin/finite-conjugation.html',
         [demonstration.verb(
             substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
             stock_modifier = foreign_language.grammar.stock_modifier,
-            default_tree = 'clause [test [np the n man] [vp conjugated]] [test modifier np stock-modifier]',
+            default_tree = 'clause [test [np the n] [vp conjugated]] [test modifier np stock-modifier]',
         ) for demonstration in demonstrations],
         defaults.override(
               conjugation_subject_traversal 
@@ -436,12 +436,12 @@ write('flashcards/latin/nonfinite-conjugation.html',
             foreign_demonstration.verb(
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
                 stock_modifier = foreign_language.grammar.stock_modifier,
-                default_tree = 'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
+                default_tree = 'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np the n] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
             english_demonstration.verb(
                 substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
                 stock_modifier = foreign_language.grammar.stock_modifier,
-                default_tree = 'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n man] [vp conjugated]]] [test modifier np stock-modifier]',
+                default_tree = 'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n] [vp conjugated]]] [test modifier np stock-modifier]',
             ),
         ],
         defaults.override(
@@ -465,7 +465,7 @@ write('flashcards/latin/participle-declension.html',
             stock_modifier = foreign_language.grammar.stock_modifier,
             default_tree = '''
                 clause test [
-                    [np the [n man] [parentheses participle [cloze v verb] [modifier np stock-modifier]]]
+                    [np the [n] [parentheses participle [cloze v verb] [modifier np stock-modifier]]]
                     [vp present atelic v appear]
                 ]''',
         ) for demonstration in demonstrations],
@@ -490,7 +490,7 @@ write('flashcards/latin/adpositions.html',
         [demonstration.case(
             tree_lookup = template_tree_lookup,
             substitutions = [
-                {'declined': list_tools.replace(['n', 'man'])},
+                {'declined': list_tools.replace(['n'])},
                 {'stock-adposition': list_tools.wrap('cloze')},
             ],
         ) for demonstration in demonstrations],
@@ -512,7 +512,7 @@ write('flashcards/latin/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.case(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace(['cloze', 'n', 'noun'])}],
+            substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
             (declension_noun_traversal * axis['noun'] * constant['common'])
@@ -524,13 +524,12 @@ write('flashcards/latin/common-noun-declension.html',
         },
     ))
 
-
 print('flashcards/latin/pronoun-declension.html')
 write('flashcards/latin/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.case(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace(['cloze', 'n', 'noun'])}],
+            substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
             ((pronoun_traversal * declension_noun_traversal * constant['personal'])
@@ -548,7 +547,7 @@ write('flashcards/latin/adjective-agreement.html',
     deck_generation.generate(
         [demonstration.case(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace([['cloze','adj','adjective'], ['n', 'noun']])}],
+            substitutions = [{'declined': list_tools.replace([['cloze','adj','adjective'], ['n']])}],
         ) for demonstration in demonstrations], 
         defaults.override(
             ((  axis['number']
@@ -569,7 +568,7 @@ write('flashcards/latin/pronoun-possessives.html',
     deck_generation.generate(
         [demonstration.case(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace([['cloze','adj'], ['common', 'n', 'noun']])}],
+            substitutions = [{'declined': list_tools.replace([['cloze','adj'], ['common', 'n']])}],
         ) for demonstration in demonstrations],
         defaults.override(
             (((  axis['number'] 
