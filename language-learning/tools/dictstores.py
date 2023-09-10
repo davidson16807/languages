@@ -115,7 +115,7 @@ class DictList:
             if len(tuplekey) != len(indexing.keys)]
         if misaligned:
             raise ValueError(
-                f'DictSpace indexing is misaligned with keys: expected {len(indexing.keys)}, got '+
+                f'DictList indexing is misaligned with keys: expected {len(indexing.keys)}, got '+
                 ', '.join(misaligned))
     def __str__(self):
         cell_width = 13

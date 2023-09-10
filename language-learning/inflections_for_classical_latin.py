@@ -93,7 +93,7 @@ foreign_termaxis_to_terms = {
         tense  :  present past future
         voice  :  active passive
         mood   :  indicative subjunctive imperative
-        role   :  stimulus location possessor interior surface presence aid lack interest time company
+        role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
         subjectivity: subject addressee direct-object indirect-object modifier
     '''),
     **parse_any.token_to_tokens('''
@@ -348,10 +348,14 @@ conjugation_subject_defaults = (
     constant['intransitive']
 )
 
+roles = DictSpace('role', DictTupleIndexing(['role']), 
+    parse_any.termaxis_to_terms(
+        'role: stimulus location possessor interior surface presence aid lack interest time company'))
+
 subjectivity_motion_role_traversal = (
     ((  axis['subjectivity']
       * axis['motion'] 
-      * axis['role']) 
+      * roles) 
      & subjectivity_motion_whitelist)
     - subjectivity_role_blacklist
 )
@@ -392,8 +396,9 @@ write('flashcards/latin/finite-conjugation.html',
             * constant['personal']
         ),
         tag_templates ={
-            'test'  : parse.termaxis_to_term('personal'),
-            'dummy' : parse.termaxis_to_term('common 3 singular masculine sapient man'),
+            'test'    : parse.termaxis_to_term('personal agent associated'),
+            'modifier': parse.termaxis_to_term('common patient modifier associated'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient man'),
         },
     ))
 
@@ -424,9 +429,10 @@ write('flashcards/latin/nonfinite-conjugation.html',
             * constant['personal']
         ),
         tag_templates ={
-            'test' :   parse.termaxis_to_term('personal'),
-            'dummy' :  parse.termaxis_to_term('common 3 singular masculine sapient man'),
-            'speaker': parse_any.termaxis_to_term('personal agent associated 1 singular masculine familiar present aorist active indicative'),
+            'test'    : parse.termaxis_to_term('personal agent associated'),
+            'modifier': parse.termaxis_to_term('common patient modifier associated'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient man'),
+            'speaker' : parse.termaxis_to_term('personal agent associated 1 singular masculine familiar present aorist active indicative'),
         },
     ))
 
@@ -450,8 +456,9 @@ write('flashcards/latin/participle-declension.html',
             * conjugation_subject_defaults
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common singular masculine'),
             'test'       : parse.termaxis_to_term('common singular masculine'),
+            'modifier'   : parse.termaxis_to_term('common patient modifier associated'),
+            'dummy'      : parse.termaxis_to_term('common singular masculine'),
             'participle' : parse.termaxis_to_term('common participle nominative'),
         },
     ))

@@ -29,10 +29,8 @@ def TextDemonstration(
             def _demonstration(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
-                    # 'test':      {**tags, **tag_templates['test']},
-                    # 'modifier':  {**tags, **tag_templates['modifier']},
-                    'test':      {**tags, **{'role':'agent', 'motion':'associated'}},
-                    'modifier':  {**tags, **{'noun-form': 'common', 'role':'patient', 'subjectivity':'modifier', 'motion':'associated'}},
+                    'test':      {**tags, **(tag_templates['test']    if 'test' in tag_templates else {})},
+                    'modifier':  {**tags, **(tag_templates['modifier']if 'modifier' in tag_templates else {})},
                     'speaker':   {**tags, **(tag_templates['speaker'] if 'speaker' in tag_templates else {})},
                 }
                 completed_substitutions = [
