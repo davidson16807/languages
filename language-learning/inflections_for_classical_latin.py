@@ -142,191 +142,192 @@ defaults = DictSpace(
     }
 )
 
-subjectivity_role_blacklist = DictSet(
+subjectivity_role_blacklist = parse.termregion(
     'subjectivity_role_blacklist', 
-    DictTupleIndexing(parse.termaxes('subjectivity role')),
-    content = parse.term_table('''
-        modifier      stimulus
-    '''))
+    'subjectivity role',
+    '''
+    modifier      stimulus
+    '''
+)
 
 subjectivity_valency_whitelist = DictSet(
     'subjectivity_valency_whitelist', 
     DictTupleIndexing(parse.termaxes('valency subjectivity')),
-    content = parse.term_table('''
-        intransitive  addressee
-        intransitive  subject
-        transitive    direct-object
-        transitive    modifier
-        intransitive  modifier
+    content = parse.termpoints('''
+    intransitive  addressee
+    intransitive  subject
+    transitive    direct-object
+    transitive    modifier
+    intransitive  modifier
     '''))
 
 subjectivity_motion_whitelist = DictSet(
     'subjectivity_motion_whitelist', 
     DictTupleIndexing(parse.termaxes('subjectivity motion')),
-    content = parse.term_table('''
-        addressee     associated
-        subject       associated
-        direct-object associated
-        modifier      departed
-        modifier      associated
-        modifier      approached
-        modifier      acquired
-        modifier      surpassed
-        modifier      leveraged
+    content = parse.termpoints('''
+    addressee     associated
+    subject       associated
+    direct-object associated
+    modifier      departed
+    modifier      associated
+    modifier      approached
+    modifier      acquired
+    modifier      surpassed
+    modifier      leveraged
     '''))
 
 subjectivity_person_blacklist = DictSet(
     'subjectivity_person_blacklist', 
     DictTupleIndexing(parse.termaxes('subjectivity person')),
-    content = parse.term_table('''
-        addressee  3
+    content = parse.termpoints('''
+    addressee  3
     '''))
 
 conjugation_subject_traversal = DictList(
     'conjugation_subject_traversal', 
     DictTupleIndexing(parse.termaxes('person number gender')),
-    sequence = parse.term_table('''
-        1  singular neuter
-        2  singular feminine
-        3  singular masculine
-        1  plural   neuter
-        2  plural   feminine
-        3  plural   masculine
+    sequence = parse.termpoints('''
+    1  singular neuter
+    2  singular feminine
+    3  singular masculine
+    1  plural   neuter
+    2  plural   feminine
+    3  plural   masculine
     '''))
 
 mood_tense_whitelist = DictSet(
     'mood_tense_whitelist', 
     DictTupleIndexing(parse.termaxes('mood tense')),
-    content = parse.term_table('''
-        indicative   present
-        indicative   past
-        indicative   future
-        subjunctive  present
-        subjunctive  past
-        imperative   present
-        imperative   future
+    content = parse.termpoints('''
+    indicative   present
+    indicative   past
+    indicative   future
+    subjunctive  present
+    subjunctive  past
+    imperative   present
+    imperative   future
     '''))
 
 finite_tense_progress_traversal = DictList(
     'finite_tense_progress_traversal', 
     DictTupleIndexing(parse.termaxes('tense progress')),
-    sequence = parse.term_table('''
-        present  atelic
-        future   atelic
-        past     unfinished
-        past     finished
-        present  finished
-        future   finished
+    sequence = parse.termpoints('''
+    present  atelic
+    future   atelic
+    past     unfinished
+    past     finished
+    present  finished
+    future   finished
     '''))
 
 nonfinite_tense_progress_whitelist = DictSet(
     'nonfinite_tense_progress_whitelist', 
     DictTupleIndexing(parse.termaxes('tense progress')),
-    content = parse.term_table('''
-        present  atelic
-        past     finished
-        future   atelic
+    content = parse.termpoints('''
+    present  atelic
+    past     finished
+    future   atelic
     '''))
 
 voice_progress_whitelist = DictSet(
     'voice_progress_whitelist', 
     DictTupleIndexing(parse.termaxes('voice progress')),
-    content = parse.term_table('''
-        active   atelic
-        active   unfinished
-        active   finished
-        passive  atelic
-        passive  unfinished
+    content = parse.termpoints('''
+    active   atelic
+    active   unfinished
+    active   finished
+    passive  atelic
+    passive  unfinished
     '''))
 
 verb_progress_blacklist = DictSet(
     'verb_progress_blacklist', 
     DictTupleIndexing(parse.termaxes('verb progress')),
-    content = parse.term_table('''
-        become  finished
+    content = parse.termpoints('''
+    become  finished
     '''))
 
 verb_mood_blacklist = DictSet(
     'verb_mood_blacklist', 
     DictTupleIndexing(parse.termaxes('verb mood')),
-    content = parse.term_table('''
-        be-able  imperative
+    content = parse.termpoints('''
+    be-able  imperative
     '''))
 
 verb_voice_blacklist = DictSet(
     'verb_voice_blacklist', 
     DictTupleIndexing(parse.termaxes('verb  voice')),
-    content = parse.term_table('''
-        be       passive
-        be-able  passive
-        want     passive
-        become   passive
+    content = parse.termpoints('''
+    be       passive
+    be-able  passive
+    want     passive
+    become   passive
     '''))
 
 pronoun_traversal = DictList(
     'pronoun_traversal', 
     DictTupleIndexing(parse.termaxes('noun person number gender')),
-    sequence = parse.token_table('''
-        man    1 singular neuter   
-        woman  2 singular feminine 
-        man    3 singular masculine
-        woman  3 singular feminine 
-        snake  3 singular neuter   
-        man    1 plural   neuter   
-        woman  2 plural   feminine 
-        man    3 plural   masculine
-        woman  3 plural   feminine 
-        man    3 plural   neuter   
+    sequence = parse.tokenpoints('''
+    man    1 singular neuter   
+    woman  2 singular feminine 
+    man    3 singular masculine
+    woman  3 singular feminine 
+    snake  3 singular neuter   
+    man    1 plural   neuter   
+    woman  2 plural   feminine 
+    man    3 plural   masculine
+    woman  3 plural   feminine 
+    man    3 plural   neuter   
     '''))
 
 gender_agreement_traversal = DictList(
     'gender_agreement_traversal', 
     DictTupleIndexing(parse.termaxes('gender noun')),
-    sequence = parse.token_table('''
-        masculine  man   
-        feminine   woman 
-        neuter     animal
+    sequence = parse.tokenpoints('''
+    masculine  man   
+    feminine   woman 
+    neuter     animal
     '''))
 
 possession_traversal = DictList(
     'possession_traversal', 
     DictTupleIndexing(parse.termaxes('gender noun')),
-    sequence = parse.token_table('''
-        masculine  son      
-        feminine   daughter 
-        neuter     livestock
-        neuter     name     
+    sequence = parse.tokenpoints('''
+    masculine  son      
+    feminine   daughter 
+    neuter     livestock
+    neuter     name     
     '''))
 
 possessor_possession_whitelist = DictSet(
     'possessor_possession_whitelist', 
     DictTupleIndexing(parse.tokens('possessor-noun noun')),
-    content = parse.token_table('''
-        man-possessor    son
-        man-possessor    daughter
-        man-possessor    livestock
-        woman-possessor  son
-        woman-possessor  daughter
-        woman-possessor  livestock
-        animal-possessor son
-        animal-possessor daughter
-        animal-possessor name
+    content = parse.tokenpoints('''
+    man-possessor    son
+    man-possessor    daughter
+    man-possessor    livestock
+    woman-possessor  son
+    woman-possessor  daughter
+    woman-possessor  livestock
+    animal-possessor son
+    animal-possessor daughter
+    animal-possessor name
     '''))
 
 possessor_pronoun_traversal = DictList(
     'possessor_pronoun_traversal', 
     DictTupleIndexing(parse.termaxes('noun person number gender')),
-    sequence = parse.token_table('''
-        man    1 singular neuter   
-        woman  2 singular feminine 
-        man    3 singular masculine
-        woman  3 singular feminine 
-        snake  3 singular neuter   
-        man    1 plural   neuter   
-        woman  2 plural   feminine 
-        man    3 plural   masculine
-        woman  3 plural   feminine 
-        man    3 plural   neuter   
+    sequence = parse.tokenpoints('''
+    man    1 singular neuter   
+    woman  2 singular feminine 
+    man    3 singular masculine
+    woman  3 singular feminine 
+    snake  3 singular neuter   
+    man    1 plural   neuter   
+    woman  2 plural   feminine 
+    man    3 plural   masculine
+    woman  3 plural   feminine 
+    man    3 plural   neuter   
     '''))
 
 tense_progress_mood_voice_verb_traversal = (
