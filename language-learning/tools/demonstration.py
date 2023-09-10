@@ -33,11 +33,7 @@ def TextDemonstration(
                     # 'modifier':  {**tags, **tag_templates['modifier']},
                     'test':      {**tags, **{'role':'agent', 'motion':'associated'}},
                     'modifier':  {**tags, **{'noun-form': 'common', 'role':'patient', 'subjectivity':'modifier', 'motion':'associated'}},
-                    'speaker':   {
-                        **tags, 
-                        **{'noun-form': 'personal', 'role':'agent', 'motion':'associated', 
-                           'person': '1', 'number':'singular', 'gender':'masculine', 'formality': 'familiar',
-                           'tense':'present', 'aspect':'aorist', 'voice':'active', 'mood':'indicative'}},
+                    'speaker':   {**tags, **(tag_templates['speaker'] if 'speaker' in tag_templates else {})},
                 }
                 completed_substitutions = [
                     *substitutions,

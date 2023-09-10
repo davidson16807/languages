@@ -361,34 +361,6 @@ valency_subjectivity_motion_role_traversal = (
     * subjectivity_motion_role_traversal
 ) & subjectivity_valency_whitelist
 
-verb_direct_object = DictSet('verb_direct_object', 
-    DictTupleIndexing(parse.tokens('verb direct-object')),
-    parse.token_table('''
-        swim      ∅
-        fly       ∅
-        rest      ∅
-        walk      ∅
-        rest      ∅
-        rest      ∅
-        direct    attention
-        work      ∅
-        resemble  ∅
-        eat       food
-        endure    fire
-        warm      man
-        cool      man
-        fall      ∅
-        change    ∅
-        occupy    place
-        show      ∅
-        see       ∅
-        watch     ∅
-        startle   ∅
-        displease ∅
-        appear    ∅
-    '''),
-)
-
 demonstration_verbs = DictSpace('demonstration-verbs', 
     DictTupleIndexing(['verb']),
     {'verb': parse.tokens('''
@@ -452,8 +424,9 @@ write('flashcards/latin/nonfinite-conjugation.html',
             * constant['personal']
         ),
         tag_templates ={
-            'test' : parse.termaxis_to_term('personal'),
-            'dummy' : parse.termaxis_to_term('common 3 singular masculine sapient man'),
+            'test' :   parse.termaxis_to_term('personal'),
+            'dummy' :  parse.termaxis_to_term('common 3 singular masculine sapient man'),
+            'speaker': parse_any.termaxis_to_term('personal agent associated 1 singular masculine familiar present aorist active indicative'),
         },
     ))
 
