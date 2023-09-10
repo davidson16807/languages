@@ -477,3 +477,17 @@ class DefaultDictLookup:
         return self.content.__iter__()
     def __len__(self):
         return self.content.__len__()
+
+
+class UniformDictLookup:
+    '''
+    `UniformDictLookup` is a lookup returns a constant
+    '''
+    def __init__(self, constant):
+        self.constant = constant
+    def __getitem__(self, key):
+        return self.constant
+    def __contains__(self, key):
+        return True
+    def __iter__(self):
+        return [self.constant].__iter__()

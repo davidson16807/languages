@@ -24,40 +24,12 @@ def TextDemonstration(
                 ])
             else:
                 return '\\placeholder'
-        def verb(self, substitutions, default_tree, debug=False):
-            parsed_default_tree = parsing.parse(default_tree)
-            def _demonstration(tags, tag_templates):
+        def generator(self, substitutions, tree_lookup, debug=False, **junk):
+            def demonstrate(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
-                    'test':      {**tags, **(tag_templates['test']    if 'test' in tag_templates else {})},
-                    'modifier':  {**tags, **(tag_templates['modifier']if 'modifier' in tag_templates else {})},
-                    'speaker':   {**tags, **(tag_templates['speaker'] if 'speaker' in tag_templates else {})},
-                }
-                completed_substitutions = [
-                    *substitutions,
-                    *[{key: tools.replace(tags[key])}
-                      for key in ['noun','adjective','verb']
-                      if key in tags],
-                ]
-                return self.format_card(
-                        self.assemble(tags,
-                            self.orthography.map(
-                                parsed_default_tree, 
-                                semes, 
-                                completed_substitutions,
-                                debug=debug,
-                            ),
-                            self.context(tags),
-                        ).replace('∅',''))
-            return _demonstration
-        def case(self, substitutions, tree_lookup, debug=False, **junk):
-            def _demonstration(tags, tag_templates):
-                tags = {**tags, **self.orthography.language.tags}
-                semes = {
-                    'test':        {**tags, **(tag_templates['test']  if 'test' in tag_templates else {})},
-                    'dummy':       {**tags, **(tag_templates['dummy'] if 'dummy' in tag_templates else {})},
-                    'modifier':    {**tags, **(tag_templates['modifier'] if 'modifier' in tag_templates else {})},
-                    'participle':  {**tags, **(tag_templates['participle'] if 'participle' in tag_templates else {})},
+                    label:{**tags, **(tag_templates[label]  if label in tag_templates else {})}
+                    for label in 'test dummy speaker modifier participle'.split()
                 }
                 completed_substitutions = [
                     *substitutions,
@@ -75,8 +47,7 @@ def TextDemonstration(
                             ),
                             self.context(tags),
                         ).replace('∅',''))
-
-            return _demonstration
+            return demonstrate
     return LanguageSpecificTextDemonstration
 
 def EmojiDemonstration(
@@ -111,7 +82,7 @@ def EmojiDemonstration(
                 for i, person in enumerate(self.persons)]
             return emojiInflectionShorthand.decode(
                     scene, subject, persons)
-        def case(self, **junk):
+        def generator(self, **junk):
             def noun(tags, tag_templates):
                 if tags['noun-form'] == 'personal-possessive':
                     possessed = noun({**tags, 'noun-form':'common'}, tag_templates)
@@ -164,7 +135,7 @@ def EmojiDemonstration(
                             getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
             def recounting(tags):
                 return mood_templates[{**tags,'column':'template'}]
-            def _demonstration(clause_tags, tag_templates):
+            def demonstrate(clause_tags, tag_templates):
                 return self.format_card(
                     self.decode(
                         {**clause_tags, 'script':'emoji', 'language-type': 'foreign'}, 
@@ -173,8 +144,6 @@ def EmojiDemonstration(
                             .replace('\\addressee', performance(clause_tags, tag_templates)
                                 if clause_tags['subjectivity']=='addressee' else '\\n2{🧑\\g2\\c2}')
                         ))
-            return _demonstration
-        def verb(self, **kwargs):
-            return self.case(**kwargs)
+            return demonstrate
     return LanguageSpecificEmojiDemonstration
  
