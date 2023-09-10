@@ -21,6 +21,7 @@ from tools.annotation import RowAnnotation, CellAnnotation
 from tools.predicates import Predicate
 from tools.dictstores import DefaultDictLookup, DictLookup, DictSet
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
+from tools.labels import TermLabelFiltering
 from tools.evaluation import IdentityEvaluation, KeyEvaluation, MultiKeyEvaluation
 from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation, DictSetPopulation
 from tools.nodemaps import (
@@ -661,6 +662,7 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/emoji/moods.tsv'))),
+    TermLabelFiltering(),
     emoji_shorthand, 
     HtmlTenseTransform(), 
     HtmlProgressTransform(), 

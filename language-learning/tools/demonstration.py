@@ -94,6 +94,7 @@ def EmojiDemonstration(
             noun_lookups,
             verb_lookups,
             mood_templates,
+            label_filtering, 
             emojiInflectionShorthand,
             htmlTenseTransform,
             htmlProgressTransform,
@@ -151,9 +152,7 @@ def EmojiDemonstration(
                         **{tag: clause_tags[tag]
                            for tag in 'template noun-form noun person number gender clusivity formality adjective'.split()
                            if tag in clause_tags},
-                        **{f'possessor-{tag}': clause_tags[f'possessor-{tag}']
-                           for tag in 'template noun-form noun person number gender clusivity formality'.split()
-                           if f'possessor-{tag}' in clause_tags},
+                        **label_filtering.termaxis_to_term_dict(clause_tags, 'possessor'),
                         **tag_templates['test'], 
                         'script': 'emoji'
                     }

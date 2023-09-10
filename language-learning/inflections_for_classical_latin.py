@@ -2,7 +2,7 @@ import time
 
 start_time = time.time()
 
-from tools.labeling import TermLabeling
+from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
 from tools.dictstores import DictSet, DictList, DictSpace
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
@@ -34,7 +34,7 @@ from inflections import (
     noun_template_whitelist,
 )
 
-labeling = TermLabeling()
+label_editing = TermLabelEditing()
 deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
@@ -100,7 +100,6 @@ foreign_termaxis_to_terms = {
         adjective:tall holy poor mean old nimble swift jovial
         verb   :  be be-able want become go carry eat love advise capture hear
         noun   :  man day hand night thing name son war air boy animal star tower horn sailor foundation echo phenomenon vine myth atom nymph comet 
-        possessor-noun :  man-possessor woman-possessor animal-possessor
     '''),
 }
 
@@ -301,7 +300,7 @@ possession_traversal = DictList(
 
 possessor_possession_whitelist = DictSet(
     'possessor_possession_whitelist', 
-    DictTupleIndexing(parse.termaxes('possessor-noun noun')),
+    DictTupleIndexing(parse.tokens('possessor-noun noun')),
     content = parse.token_table('''
         man-possessor    son
         man-possessor    daughter
@@ -576,7 +575,7 @@ write('flashcards/latin/pronoun-possessives.html',
             (((  axis['number'] 
                * possession_traversal 
                * declension_noun_traversal 
-               * labeling.term_list(possessor_pronoun_traversal, 'possessor'))
+               * label_editing.term_list(possessor_pronoun_traversal, 'possessor'))
               & possessor_possession_whitelist)
              * constant['exclusive-possessor']  
              * constant['familiar-possessor']
