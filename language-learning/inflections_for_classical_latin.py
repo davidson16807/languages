@@ -385,8 +385,10 @@ print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.verb(
-            substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [
+                {'conjugated': list_tools.replace(['cloze', 'v', 'verb'])},
+                {'stock-modifier': foreign_language.grammar.stock_modifier},
+            ],
             default_tree = 'clause [test [np the n] [vp conjugated]] [test modifier np stock-modifier]',
         ) for demonstration in demonstrations],
         defaults.override(
@@ -406,19 +408,14 @@ print('flashcards/latin/nonfinite-conjugation.html')
 write('flashcards/latin/nonfinite-conjugation.html', 
     deck_generation.generate(
         [
-            emoji_demonstration.verb(
-                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-                stock_modifier = foreign_language.grammar.stock_modifier,
-            ),
+            emoji_demonstration.verb(),
             foreign_demonstration.verb(
-                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-                stock_modifier = foreign_language.grammar.stock_modifier,
-                default_tree = 'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np the n] [vp conjugated]]] [test modifier np stock-modifier]',
+                substitutions = [{'stock-modifier': foreign_language.grammar.stock_modifier}],
+                default_tree = 'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np the n] [vp cloze v verb]]] [test modifier np stock-modifier]',
             ),
             english_demonstration.verb(
-                substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-                stock_modifier = foreign_language.grammar.stock_modifier,
-                default_tree = 'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n] [vp conjugated]]] [test modifier np stock-modifier]',
+                substitutions = [{'stock-modifier': foreign_language.grammar.stock_modifier}],
+                default_tree = 'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n] [vp cloze v verb]]] [test modifier np stock-modifier]',
             ),
         ],
         defaults.override(
@@ -440,8 +437,7 @@ print('flashcards/latin/participle-declension.html')
 write('flashcards/latin/participle-declension.html', 
     deck_generation.generate(
         [demonstration.verb(
-            substitutions = [],
-            stock_modifier = foreign_language.grammar.stock_modifier,
+            substitutions = [{'stock-modifier': foreign_language.grammar.stock_modifier}],
             default_tree = '''
                 clause test [
                     [np the [n] [parentheses participle [cloze v verb] [modifier np stock-modifier]]]

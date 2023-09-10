@@ -24,7 +24,7 @@ def TextDemonstration(
                 ])
             else:
                 return '\\placeholder'
-        def verb(self, substitutions, stock_modifier, default_tree, debug=False):
+        def verb(self, substitutions, default_tree, debug=False):
             parsed_default_tree = parsing.parse(default_tree)
             def _demonstration(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
@@ -35,7 +35,6 @@ def TextDemonstration(
                 }
                 completed_substitutions = [
                     *substitutions,
-                    {'stock-modifier': stock_modifier},
                     *[{key: tools.replace(tags[key])}
                       for key in ['noun','adjective','verb']
                       if key in tags],
@@ -55,8 +54,8 @@ def TextDemonstration(
             def _demonstration(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
-                    'test':        {**tags, **tag_templates['test']},
-                    'dummy':       {**tags, **tag_templates['dummy']},
+                    'test':        {**tags, **(tag_templates['test']  if 'test' in tag_templates else {})},
+                    'dummy':       {**tags, **(tag_templates['dummy'] if 'dummy' in tag_templates else {})},
                     'modifier':    {**tags, **(tag_templates['modifier'] if 'modifier' in tag_templates else {})},
                     'participle':  {**tags, **(tag_templates['participle'] if 'participle' in tag_templates else {})},
                 }
