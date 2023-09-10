@@ -1,3 +1,5 @@
+from tools.indexing import DictKeyIndexing, DictTupleIndexing
+from tools.dictstores import DictSpace, DictList, DictSet, DictLookup, DefaultDictLookup
 
 class TermLabeling:
     '''
@@ -6,9 +8,9 @@ class TermLabeling:
     def __init__(self):
         pass
     def term(self, term, append='', strip=''):
-        return f'{term.replacesuffix(strip)}-{append}' if term.endswith(strip) else term
+        return f'{term.removesuffix(strip)}-{append}' if term.endswith(strip) else term
     def termaxis(self, termaxis, append='', strip=''):
-        return f'{append}-{termaxis.replaceprefix(strip)}' if term.startswith(strip) else termaxis
+        return f'{append}-{termaxis.removeprefix(strip)}' if termaxis.startswith(strip) else termaxis
     def term_list(self, terms, append='', strip=''):
         return [self.term(term, append, strip) for term in terms]
     def termaxis_list(self, termaxes, append='', strip=''):
@@ -27,29 +29,29 @@ class TermLabeling:
         '''NOTE: fuck polymorphism, I don't want to pollute *Indexing classes
         with design decisions that regard how *Labeling represents labels in strings'''
         return {
-            DictKeyIndexing: DictKeyIndexing(self.termaxis(indexing.key, append, strip)),
-            DictKeyIndexing: DictTupleIndexing(indexing.key,
-                self.termaxes(indexing.key, append, strip),
-                self.termaxis_to_terms(indexing.key, append, strip)
+            DictKeyIndexing:   lambda: DictKeyIndexing(self.termaxis(indexing.key, append, strip)),
+            DictTupleIndexing: lambda: DictTupleIndexing(
+                self.termaxis_list(indexing.keys, append, strip),
+                self.terms_dict(indexing.defaults, append, strip)
             )
-        }[type(indexing)]
+        }[type(indexing)]()
     def term_space(self, term_space, append='', strip=''):
         return DictSpace(term_space.name, 
             self.term_indexing(term_space.indexing, append, strip),
             self.terms_dict(term_space.key_to_values, append, strip)
         )
     def term_set(self, term_set, append='', strip=''):
-        return DictSet(term_space.name, 
-            self.term_indexing(term_space.indexing, append, strip),
-            set(self.term_tuples(term_space.content, append, strip))
+        return DictSet(term_set.name, 
+            self.term_indexing(term_set.indexing, append, strip),
+            set(self.term_tuples(term_set.content, append, strip))
         )
     def term_list(self, term_list, append='', strip=''):
-        return DictList(term_space.name, 
-            self.term_indexing(term_space.indexing, append, strip),
-            self.term_tuples(term_space.sequence, append, strip)
+        return DictList(term_list.name, 
+            self.term_indexing(term_list.indexing, append, strip),
+            self.term_tuples(term_list.sequence, append, strip)
         )
-    def term_lookup(self, term_space, append='', strip=''):
-        return DictLookup(term_space.name, 
-            self.term_indexing(term_space.indexing, append, strip),
-            self.term_table(term_space.content, append, strip)
+    def term_lookup(self, term_lookup, append='', strip=''):
+        return DictLookup(term_lookup.name, 
+            self.term_indexing(term_lookup.indexing, append, strip),
+            self.term_table(term_lookup.content, append, strip)
         )

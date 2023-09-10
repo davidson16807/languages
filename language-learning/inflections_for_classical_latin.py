@@ -2,6 +2,7 @@ import time
 
 start_time = time.time()
 
+from tools.labeling import TermLabeling
 from tools.parsing import TermParsing
 from tools.dictstores import DictSet, DictList, DictSpace
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
@@ -33,6 +34,7 @@ from inflections import (
     noun_template_whitelist,
 )
 
+labeling = TermLabeling()
 deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
@@ -314,18 +316,18 @@ possessor_possession_whitelist = DictSet(
 
 possessor_pronoun_traversal = DictList(
     'possessor_pronoun_traversal', 
-    DictTupleIndexing(parse.termaxes('possessor-noun possessor-person possessor-number possessor-gender')),
+    DictTupleIndexing(parse.termaxes('noun person number gender')),
     sequence = parse.token_table('''
-        man-possessor    1-possessor singular-possessor neuter-possessor   
-        woman-possessor  2-possessor singular-possessor feminine-possessor 
-        man-possessor    3-possessor singular-possessor masculine-possessor
-        woman-possessor  3-possessor singular-possessor feminine-possessor 
-        snake-possessor  3-possessor singular-possessor neuter-possessor   
-        man-possessor    1-possessor plural-possessor   neuter-possessor   
-        woman-possessor  2-possessor plural-possessor   feminine-possessor 
-        man-possessor    3-possessor plural-possessor   masculine-possessor
-        woman-possessor  3-possessor plural-possessor   feminine-possessor 
-        man-possessor    3-possessor plural-possessor   neuter-possessor   
+        man    1 singular neuter   
+        woman  2 singular feminine 
+        man    3 singular masculine
+        woman  3 singular feminine 
+        snake  3 singular neuter   
+        man    1 plural   neuter   
+        woman  2 plural   feminine 
+        man    3 plural   masculine
+        woman  3 plural   feminine 
+        man    3 plural   neuter   
     '''))
 
 tense_progress_mood_voice_verb_traversal = (
@@ -401,8 +403,8 @@ declension_noun_traversal = (
     ) * valency_subjectivity_motion_role_traversal
 ) & template_verb_whitelist
 
-'''
-'''
+"""
+"""
 
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
@@ -574,7 +576,7 @@ write('flashcards/latin/pronoun-possessives.html',
             (((  axis['number'] 
                * possession_traversal 
                * declension_noun_traversal 
-               * possessor_pronoun_traversal)
+               * labeling.term_list(possessor_pronoun_traversal, 'possessor'))
               & possessor_possession_whitelist)
              * constant['exclusive-possessor']  
              * constant['familiar-possessor']

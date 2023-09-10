@@ -187,27 +187,6 @@ class DictList:
                     [self.indexing.dictkey(tuplekey) for tuplekey in self])
             ])
         return result
-        # # ALT CODE: uncomment if you need support for multiplying containers with 
-        # # nondisjoint indices (this comes at a performance cost, however)
-        # indexing = self.indexing | other.indexing
-        # name = f'{self.name} * {other.name}'
-        # result = DictList(
-        #     name, indexing,
-        #     sequence = [
-        #         tuplekey
-        #         for dictkeys in itertools.product(
-        #             [other.indexing.dictkey(tuplekey) for tuplekey in other],
-        #             [self.indexing.dictkey(tuplekey) for tuplekey in self])
-        #         for tuplekey in indexing.tuplekeys({
-        #             key:{dictkey[key]
-        #                  for dictkey in dictkeys
-        #                  if key in dictkey}
-        #             for key in indexing.keys
-        #         })
-        #         if indexing.dictkey(tuplekey) in self
-        #         or indexing.dictkey(tuplekey) in other
-        #     ])
-        # return result
     def __and__(self, other):
         '''
         Return the intersection of `self` with a `DictSet`s whose keys are disjoint with those of `self`.
@@ -396,39 +375,6 @@ class DictSpace:
                     **other.key_to_values,
                 })
             return result
-        # # ALT CODE: uncomment if you need support for multiplying containers with 
-        # # nondisjoint indices (this comes at a performance cost, however)
-        # indexing = self.indexing | other.indexing
-        # name = f'{self.name} * {other.name}'
-        # # if type(other) != DictSpace:
-        # result = DictList(
-        #     name, indexing,
-        #     sequence = [
-        #         tuplekey
-        #         for dictkeys in itertools.product(
-        #             [other.indexing.dictkey(tuplekey) for tuplekey in other],
-        #             [self.indexing.dictkey(tuplekey) for tuplekey in self])
-        #         for tuplekey in indexing.tuplekeys({
-        #             key:{dictkey[key]
-        #                  for dictkey in dictkeys
-        #                  if key in dictkey}
-        #             for key in indexing.keys
-        #         })
-        #         if indexing.dictkey(tuplekey) in self
-        #         or indexing.dictkey(tuplekey) in other
-        #     ])
-        # if result.empty(): raise ValueError(f'Empty DictList: {name}')
-        # return result
-        # elif type(other) == DictSpace:
-        #     result = (
-        #         DictSpace(
-        #             name, indexing,
-        #             {key: set(self.key_to_values[key] if key in self.key_to_values else []) | 
-        #                   set(other.key_to_values[key] if key in other.key_to_values else [])
-        #              for key in indexing.keys})
-        #     )
-        #     if result.empty(): raise ValueError(f'Empty DictList: {name}')
-        #     return result
     def __and__(self, other):
         '''
         Return the intersection of two `DictSpace`s whose keys are disjoint.
