@@ -3,8 +3,8 @@ import time
 start_time = time.time()
 
 from tools.labels import TermLabelEditing
-from tools.parsing import TermParsing
-from tools.dictstores import DictSet, DictList, DictSpace, UniformDictLookup
+from tools.parsing import TokenParsing, TermParsing
+from tools.dictstores import DictList, DictSpace, UniformDictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -150,21 +150,21 @@ subjectivity_role_blacklist = parse.termregion(
     '''
 )
 
-subjectivity_valency_whitelist = DictSet(
+subjectivity_valency_whitelist = parse.termregion(
     'subjectivity_valency_whitelist', 
-    DictTupleIndexing(parse.termaxes('valency subjectivity')),
-    content = parse.termpoints('''
+    'valency subjectivity',
+    '''
     intransitive  addressee
     intransitive  subject
     transitive    direct-object
     transitive    modifier
     intransitive  modifier
-    '''))
+    ''')
 
-subjectivity_motion_whitelist = DictSet(
+subjectivity_motion_whitelist = parse.termregion(
     'subjectivity_motion_whitelist', 
-    DictTupleIndexing(parse.termaxes('subjectivity motion')),
-    content = parse.termpoints('''
+    'subjectivity motion',
+    '''
     addressee     associated
     subject       associated
     direct-object associated
@@ -174,14 +174,14 @@ subjectivity_motion_whitelist = DictSet(
     modifier      acquired
     modifier      surpassed
     modifier      leveraged
-    '''))
+    ''')
 
-subjectivity_person_blacklist = DictSet(
+subjectivity_person_blacklist = parse.termregion(
     'subjectivity_person_blacklist', 
-    DictTupleIndexing(parse.termaxes('subjectivity person')),
-    content = parse.termpoints('''
+    'subjectivity person',
+    '''
     addressee  3
-    '''))
+    ''')
 
 conjugation_subject_traversal = DictList(
     'conjugation_subject_traversal', 
@@ -195,10 +195,10 @@ conjugation_subject_traversal = DictList(
     3  plural   masculine
     '''))
 
-mood_tense_whitelist = DictSet(
+mood_tense_whitelist = parse.termregion(
     'mood_tense_whitelist', 
-    DictTupleIndexing(parse.termaxes('mood tense')),
-    content = parse.termpoints('''
+    'mood tense',
+    '''
     indicative   present
     indicative   past
     indicative   future
@@ -206,7 +206,7 @@ mood_tense_whitelist = DictSet(
     subjunctive  past
     imperative   present
     imperative   future
-    '''))
+    ''')
 
 finite_tense_progress_traversal = DictList(
     'finite_tense_progress_traversal', 
@@ -220,49 +220,49 @@ finite_tense_progress_traversal = DictList(
     future   finished
     '''))
 
-nonfinite_tense_progress_whitelist = DictSet(
+nonfinite_tense_progress_whitelist = parse.termregion(
     'nonfinite_tense_progress_whitelist', 
-    DictTupleIndexing(parse.termaxes('tense progress')),
-    content = parse.termpoints('''
+    'tense progress',
+    '''
     present  atelic
     past     finished
     future   atelic
-    '''))
+    ''')
 
-voice_progress_whitelist = DictSet(
+voice_progress_whitelist = parse.termregion(
     'voice_progress_whitelist', 
-    DictTupleIndexing(parse.termaxes('voice progress')),
-    content = parse.termpoints('''
+    'voice progress',
+    '''
     active   atelic
     active   unfinished
     active   finished
     passive  atelic
     passive  unfinished
-    '''))
+    ''')
 
-verb_progress_blacklist = DictSet(
+verb_progress_blacklist = parse.termregion(
     'verb_progress_blacklist', 
-    DictTupleIndexing(parse.termaxes('verb progress')),
-    content = parse.termpoints('''
+    'verb progress',
+    '''
     become  finished
-    '''))
+    ''')
 
-verb_mood_blacklist = DictSet(
+verb_mood_blacklist = parse.termregion(
     'verb_mood_blacklist', 
-    DictTupleIndexing(parse.termaxes('verb mood')),
-    content = parse.termpoints('''
+    'verb mood',
+    '''
     be-able  imperative
-    '''))
+    ''')
 
-verb_voice_blacklist = DictSet(
+verb_voice_blacklist = parse.termregion(
     'verb_voice_blacklist', 
-    DictTupleIndexing(parse.termaxes('verb  voice')),
-    content = parse.termpoints('''
+    'verb  voice',
+    '''
     be       passive
     be-able  passive
     want     passive
     become   passive
-    '''))
+    ''')
 
 pronoun_traversal = DictList(
     'pronoun_traversal', 
@@ -299,10 +299,10 @@ possession_traversal = DictList(
     neuter     name     
     '''))
 
-possessor_possession_whitelist = DictSet(
+possessor_possession_whitelist = parse.tokenregion(
     'possessor_possession_whitelist', 
-    DictTupleIndexing(parse.tokens('possessor-noun noun')),
-    content = parse.tokenpoints('''
+    'possessor-noun noun',
+    '''
     man-possessor    son
     man-possessor    daughter
     man-possessor    livestock
@@ -312,7 +312,7 @@ possessor_possession_whitelist = DictSet(
     animal-possessor son
     animal-possessor daughter
     animal-possessor name
-    '''))
+    ''')
 
 possessor_pronoun_traversal = DictList(
     'possessor_pronoun_traversal', 
