@@ -222,13 +222,14 @@ tagaxis_to_tags = {
 
     # needed for gerunds, supines, participles, and gerundives
     'gender':     'masculine feminine neuter'.split(),
-    'case':       ['nominative', 'ergative',
-                   'oblique', 'accusative', 'absolutive', 
-                   'genitive', 'dative', 'ablative', 'locative', 'instrumental', 'vocative', 
-                   'prepositional', 'abessive', 'adessive', 'allative', 'comitative', 'delative', 
-                   'elative', 'essive', 'essive-formal', 'essive-modal', 'exessive', 'illative', 
-                   'inessive', 'instructive', 'instrumental-comitative', 'sociative', 'sublative', 'superessive', 
-                   'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
+    'case':       
+        '''nominative ergative
+           oblique accusative absolutive 
+           genitive dative ablative locative instrumental vocative 
+           prepositional abessive adessive allative comitative delative 
+           elative essive essive-formal essive-modal exessive illative 
+           inessive instructive instrumental-comitative sociative sublative superessive 
+           temporal terminative translativedisjunctive undeclined'''.split(),
 
     # how the valency of the verb is modified to emphasize or deemphasize certain participants
     'voice':      'active passive middle antipassive applicative causative'.split(),
@@ -237,42 +238,46 @@ tagaxis_to_tags = {
     # when an event occurs relative to a reference in time
     'relative-tense': 'before during after'.split(),
 
-    'mood':       ['indicative', 'subjunctive', 'conditional', 
-                   'optative', 'benedictive', 'jussive', 'probable', 
-                   'imperative', 'prohibitive', 'desiderative', 
-                   'dubitative', 'hypothetical', 'presumptive', 'permissive', 
-                   'admirative', 'ironic-admirative', 'hortative', 'eventitive', 
-                   'precative', 'volitive', 'involutive', 'inferential', 
-                   'necessitative', 'interrogative', 'injunctive', 
-                   'suggestive', 'comissive', 'deliberative', 
-                   'propositive', 'potential', 'conative', 'obligative',
-                  ],
+    'mood': 
+        '''indicative subjunctive conditional 
+           optative benedictive jussive probable 
+           imperative prohibitive desiderative 
+           dubitative hypothetical presumptive permissive 
+           admirative ironic-admirative hortative eventitive 
+           precative volitive involutive inferential 
+           necessitative interrogative injunctive 
+           suggestive comissive deliberative 
+           propositive potential conative obligative'''.split(),
 
-    'aspect': ['aorist', 'perfective','imperfective',
-               'habitual', 'continuous',
-               'progressive', 'nonprogressive',
-               'stative', 'terminative', 'prospective', 'consecutive', 'usitative','iterative',
-               'momentaneous','continuative','durative','repetitive','conclusive',
-                'semelfactive','distributive','diversative','reversative','transitional','cursive',
-               'completive','prolongative','seriative','inchoative','reversionary','semeliterative','segmentative'],
+    'aspect': 
+        '''aorist perfective imperfective
+           habitual continuous
+           progressive nonprogressive
+           stative terminative prospective consecutive usitative iterative
+           momentaneous continuative durative repetitive conclusive
+           semelfactive distributive diversative reversative transitional cursive
+           completive prolongative seriative inchoative reversionary semeliterative segmentative'''.split(),
 
     # # needed for correlatives in general
     # 'abstraction': 'organization location origin destination time manner reason quality amount'.split(),
 
     # needed when creating demonstrations for declensions
-    'template': '''organization sapient carnivore herbivore granivore fruitivore nectarivore detritivore seacreature 
-                   plant bodypart bodyfluid viscera 
-                   food item fixture liquid gas event location side surface interior 
-                   heat-source visible audible vice virtue size quality quantity manner reason concept'''.split(),
+    'template': 
+        '''organization sapient 
+           carnivore herbivore granivore fruitivore nectarivore detritivore seacreature 
+           plant bodypart bodyfluid viscera 
+           food item fixture liquid gas event location side surface interior 
+           heat-source visible audible vice virtue size quality quantity manner reason concept'''.split(),
 
     # needed for quantifiers/correlatives
     'quantity':    'universal nonexistential assertive elective'.split(),
 
     # needed to distinguish pronouns from common nouns and to further distinguish types of pronouns
-    'noun-form':  ['common', 'personal', 
-                   'demonstrative', 'interrogative', 'quantifier', 'numeral',
-                   'reciprocal', 'relative', 'reflexive', 'emphatic-reflexive',
-                   'common-possessive', 'personal-possessive', 'reflexive-possessive'],
+    'noun-form':  
+        '''common personal 
+           demonstrative interrogative quantifier numeral
+           reciprocal relative reflexive emphatic-reflexive
+           common-possessive personal-possessive reflexive-possessive'''.split(),
 
     # needed to distinguish forms of verb that require different kinds of lookups with different primary keys
     'verb-form':  'finite infinitive participle gerundive gerund adverbial supine argument group'.split(),

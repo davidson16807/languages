@@ -65,22 +65,17 @@ class TokenParsing:
     def token_to_tokens(self, string):
         return {key: self.tokens(values)
             for (key, values) in self.token_to_text(string).items()}
+    def tokenindexing(self, header):
+        return DictTupleIndexing(self.tokens(header))
     def tokenpath(self, name, header, body):
-        return DictList(name, 
-            DictTupleIndexing(self.tokens(header)),
-            sequence = self.tokenpoints(body))
+        return DictList  (name, self.tokenindexing(header), self.tokenpoints(body))
     def tokenmask(self, name, header, body):
-        return DictSet(name, 
-            DictTupleIndexing(self.tokens(header)),
-            content = self.tokenpoints(body))
+        return DictSet   (name, self.tokenindexing(header), self.tokenpoints(body))
     def tokenspace(self, name, header, body):
-        return DictSpace(name, 
-            DictTupleIndexing(self.tokens(header)),
-            self.token_to_tokens(body))
+        return DictSpace (name, self.tokenindexing(header), self.token_to_tokens(body))
     def tokenmap(self, name, header, body):
-        return DictLookup(name, 
-            DictTupleIndexing(self.tokens(header)),
-            self.token_to_text(body))
+        assert not body, "support for `body` parameter is not currently implemented"
+        return DictLookup(name, self.tokenindexing(header), self.token_to_text(body))
 
 
 class TermParsing(TokenParsing):
@@ -196,22 +191,17 @@ class TermParsing(TokenParsing):
                 result[termaxis] = set() if termaxis not in result else result[termaxis]
                 result[termaxis].add(term)
             return result
+    def termindexing(self, header):
+        return DictTupleIndexing(self.termaxes(header))
     def termpath(self, name, header, body):
-        return DictList(name, 
-            DictTupleIndexing(self.termaxes(header)),
-            sequence = self.termpoints(body))
+        return DictList  (name, self.termindexing(header), self.termpoints(body))
     def termmask(self, name, header, body):
-        return DictSet(name, 
-            DictTupleIndexing(self.termaxes(header)),
-            content = self.termpoints(body))
+        return DictSet   (name, self.termindexing(header), self.termpoints(body))
     def termspace(self, name, header, body):
-        return DictSpace(name, 
-            DictTupleIndexing(self.termaxes(header)),
-            self.termaxis_to_terms(body))
+        return DictSpace (name, self.termindexing(header), self.termaxis_to_terms(body))
     def termmap(self, name, header, body):
         assert not body, "support for `body` parameter is not currently implemented"
-        return DictLookup(name, 
-            DictTupleIndexing(self.termaxes(header)), {})
+        return DictLookup(name, self.termindexing(header), {})
 
 class ListParsing:
     '''
