@@ -69,13 +69,14 @@ class TokenParsing:
         return DictList(name, 
             DictTupleIndexing(self.tokens(header)),
             sequence = self.tokenpoints(body))
-    def tokenregion(self, name, header, body):
+    def tokenmask(self, name, header, body):
         return DictSet(name, 
             DictTupleIndexing(self.tokens(header)),
             content = self.tokenpoints(body))
-    def tokenspace(self, name, body):
-        axes = self.token_to_tokens(body)
-        return DictSpace(name, list(axes.keys()), axes)
+    def tokenspace(self, name, header, body):
+        return DictSpace(name, 
+            DictTupleIndexing(self.tokens(header)),
+            self.token_to_tokens(body))
 
 
 class TermParsing(TokenParsing):
@@ -195,13 +196,14 @@ class TermParsing(TokenParsing):
         return DictList(name, 
             DictTupleIndexing(self.termaxes(header)),
             sequence = self.termpoints(body))
-    def termregion(self, name, header, body):
+    def termmask(self, name, header, body):
         return DictSet(name, 
             DictTupleIndexing(self.termaxes(header)),
             content = self.termpoints(body))
-    def termspace(self, name, body):
-        axes = self.termaxis_to_terms(body)
-        return DictSpace(name, list(axes.keys()), axes)
+    def termspace(self, name, header, body):
+        return DictSpace(name, 
+            DictTupleIndexing(self.termaxes(header)),
+            self.termaxis_to_terms(body))
 
 class ListParsing:
     '''

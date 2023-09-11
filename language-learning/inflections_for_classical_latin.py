@@ -4,7 +4,7 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TokenParsing, TermParsing
-from tools.dictstores import DictList, DictSpace, UniformDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -142,15 +142,14 @@ defaults = DictSpace(
     }
 )
 
-subjectivity_role_blacklist = parse.termregion(
+subjectivity_role_blacklist = parse.termmask(
     'subjectivity_role_blacklist', 
     'subjectivity role',
     '''
     modifier      stimulus
-    '''
-)
+    ''')
 
-subjectivity_valency_whitelist = parse.termregion(
+subjectivity_valency_whitelist = parse.termmask(
     'subjectivity_valency_whitelist', 
     'valency subjectivity',
     '''
@@ -161,7 +160,7 @@ subjectivity_valency_whitelist = parse.termregion(
     intransitive  modifier
     ''')
 
-subjectivity_motion_whitelist = parse.termregion(
+subjectivity_motion_whitelist = parse.termmask(
     'subjectivity_motion_whitelist', 
     'subjectivity motion',
     '''
@@ -176,26 +175,26 @@ subjectivity_motion_whitelist = parse.termregion(
     modifier      leveraged
     ''')
 
-subjectivity_person_blacklist = parse.termregion(
+subjectivity_person_blacklist = parse.termmask(
     'subjectivity_person_blacklist', 
     'subjectivity person',
     '''
     addressee  3
     ''')
 
-conjugation_subject_traversal = DictList(
+conjugation_subject_traversal = parse.termpath(
     'conjugation_subject_traversal', 
-    DictTupleIndexing(parse.termaxes('person number gender')),
-    sequence = parse.termpoints('''
+    'person number gender',
+    '''
     1  singular neuter
     2  singular feminine
     3  singular masculine
     1  plural   neuter
     2  plural   feminine
     3  plural   masculine
-    '''))
+    ''')
 
-mood_tense_whitelist = parse.termregion(
+mood_tense_whitelist = parse.termmask(
     'mood_tense_whitelist', 
     'mood tense',
     '''
@@ -208,19 +207,19 @@ mood_tense_whitelist = parse.termregion(
     imperative   future
     ''')
 
-finite_tense_progress_traversal = DictList(
+finite_tense_progress_traversal = parse.termpath(
     'finite_tense_progress_traversal', 
-    DictTupleIndexing(parse.termaxes('tense progress')),
-    sequence = parse.termpoints('''
+    'tense progress',
+    '''
     present  atelic
     future   atelic
     past     unfinished
     past     finished
     present  finished
     future   finished
-    '''))
+    ''')
 
-nonfinite_tense_progress_whitelist = parse.termregion(
+nonfinite_tense_progress_whitelist = parse.termmask(
     'nonfinite_tense_progress_whitelist', 
     'tense progress',
     '''
@@ -229,7 +228,7 @@ nonfinite_tense_progress_whitelist = parse.termregion(
     future   atelic
     ''')
 
-voice_progress_whitelist = parse.termregion(
+voice_progress_whitelist = parse.termmask(
     'voice_progress_whitelist', 
     'voice progress',
     '''
@@ -240,21 +239,21 @@ voice_progress_whitelist = parse.termregion(
     passive  unfinished
     ''')
 
-verb_progress_blacklist = parse.termregion(
+verb_progress_blacklist = parse.termmask(
     'verb_progress_blacklist', 
     'verb progress',
     '''
     become  finished
     ''')
 
-verb_mood_blacklist = parse.termregion(
+verb_mood_blacklist = parse.termmask(
     'verb_mood_blacklist', 
     'verb mood',
     '''
     be-able  imperative
     ''')
 
-verb_voice_blacklist = parse.termregion(
+verb_voice_blacklist = parse.termmask(
     'verb_voice_blacklist', 
     'verb  voice',
     '''
@@ -264,10 +263,10 @@ verb_voice_blacklist = parse.termregion(
     become   passive
     ''')
 
-pronoun_traversal = DictList(
+pronoun_traversal = parse.tokenpath(
     'pronoun_traversal', 
-    DictTupleIndexing(parse.termaxes('noun person number gender')),
-    sequence = parse.tokenpoints('''
+    'noun person number gender',
+    '''
     man    1 singular neuter   
     woman  2 singular feminine 
     man    3 singular masculine
@@ -278,28 +277,28 @@ pronoun_traversal = DictList(
     man    3 plural   masculine
     woman  3 plural   feminine 
     man    3 plural   neuter   
-    '''))
+    ''')
 
-gender_agreement_traversal = DictList(
+gender_agreement_traversal = parse.tokenpath(
     'gender_agreement_traversal', 
-    DictTupleIndexing(parse.termaxes('gender noun')),
-    sequence = parse.tokenpoints('''
+    'gender noun',
+    '''
     masculine  man   
     feminine   woman 
     neuter     animal
-    '''))
+    ''')
 
-possession_traversal = DictList(
+possession_traversal = parse.tokenpath(
     'possession_traversal', 
-    DictTupleIndexing(parse.termaxes('gender noun')),
-    sequence = parse.tokenpoints('''
+    'gender noun',
+    '''
     masculine  son      
     feminine   daughter 
     neuter     livestock
     neuter     name     
-    '''))
+    ''')
 
-possessor_possession_whitelist = parse.tokenregion(
+possessor_possession_whitelist = parse.tokenmask(
     'possessor_possession_whitelist', 
     'possessor-noun noun',
     '''
@@ -314,10 +313,10 @@ possessor_possession_whitelist = parse.tokenregion(
     animal-possessor name
     ''')
 
-possessor_pronoun_traversal = DictList(
+possessor_pronoun_traversal = parse.tokenpath(
     'possessor_pronoun_traversal', 
-    DictTupleIndexing(parse.termaxes('noun person number gender')),
-    sequence = parse.tokenpoints('''
+    'noun person number gender',
+    '''
     man    1 singular neuter   
     woman  2 singular feminine 
     man    3 singular masculine
@@ -328,7 +327,7 @@ possessor_pronoun_traversal = DictList(
     man    3 plural   masculine
     woman  3 plural   feminine 
     man    3 plural   neuter   
-    '''))
+    ''')
 
 tense_progress_mood_voice_verb_traversal = (
     (((((finite_tense_progress_traversal
@@ -349,9 +348,8 @@ conjugation_subject_defaults = (
     constant['intransitive']
 )
 
-roles = DictSpace('role', DictTupleIndexing(['role']), 
-    parse_any.termaxis_to_terms(
-        'role: stimulus location possessor interior surface presence aid lack interest time company'))
+roles = parse_any.termspace('role', 'role', 
+    'role: stimulus location possessor interior surface presence aid lack interest time company')
 
 subjectivity_motion_role_traversal = (
     ((  axis['subjectivity']
@@ -366,12 +364,9 @@ valency_subjectivity_motion_role_traversal = (
     * subjectivity_motion_role_traversal
 ) & subjectivity_valency_whitelist
 
-demonstration_verbs = DictSpace('demonstration-verbs', 
-    DictTupleIndexing(['verb']),
-    {'verb': parse.tokens('''
-        ∅ swim fly rest walk direct work resemble eat endure 
-        warm cool fall change occupy show see watch startle displease appear be''')},
-)
+demonstration_verbs = parse_any.tokenspace('demonstration-verbs', 'verb',
+    'verb: ∅ swim fly rest walk direct work resemble eat endure warm ' +
+        ' cool fall change occupy show see watch startle displease appear be')
 
 declension_noun_traversal = (
     ( demonstration_verbs
@@ -463,7 +458,6 @@ write('flashcards/latin/participle-declension.html',
         },
     ))
 
-
 print('flashcards/latin/adpositions.html')
 write('flashcards/latin/adpositions.html', 
     deck_generation.generate(
@@ -484,8 +478,6 @@ write('flashcards/latin/adpositions.html',
             'test'       : parse.termaxis_to_term('common'),
         },
     ))
-
-
 
 print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html', 
