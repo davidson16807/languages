@@ -230,7 +230,6 @@ tagaxis_to_tags = {
                    'inessive', 'instructive', 'instrumental-comitative', 'sociative', 'sublative', 'superessive', 
                    'temporal', 'terminative', 'translative','disjunctive', 'undeclined'],
 
-
     # how the valency of the verb is modified to emphasize or deemphasize certain participants
     'voice':      'active passive middle antipassive applicative causative'.split(),
     # when an event occurs relative to the present
@@ -276,11 +275,23 @@ tagaxis_to_tags = {
                    'common-possessive', 'personal-possessive', 'reflexive-possessive'],
 
     # needed to distinguish forms of verb that require different kinds of lookups with different primary keys
-    'verb-form':  ['finite', 'infinitive', 
-                   'participle', 'gerundive', 'gerund', 'adverbial', 'supine', 
-                   'argument', 'group'],
+    'verb-form':  'finite infinitive participle gerundive gerund adverbial supine argument group'.split(),
 }
 
+tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
+episemes_to_case_episemaxis = dict_bundle_to_map(case_episemaxis_to_episemes)
+episemes_to_mood_episemaxis = dict_bundle_to_map(mood_episemaxis_to_episemes)
+episemes_to_aspect_episemaxis = dict_bundle_to_map(aspect_episemaxis_to_episemes)
+
+termaxis_to_terms = {
+    **tagaxis_to_tags,
+    **case_episemaxis_to_episemes,
+    **mood_episemaxis_to_episemes,
+    **aspect_episemaxis_to_episemes,
+}
+
+term_to_termaxis = dict_bundle_to_map(termaxis_to_terms)
+parse_any = TermParsing(term_to_termaxis)
 
 verbial_declension_hashing = DictTupleIndexing([
         'verb',           
@@ -387,49 +398,20 @@ declension_template_lookups = DictLookup(
     'declension',
     DictKeyIndexing('noun-form'), 
     {
-        'common': DictLookup(
-            'common',
-            DictTupleIndexing([
-                    'noun',
-                    'number',           
-                    'gender',           
-                    'partitivity', # needed for Quenya, Finnish
-                    'strength',    # needed for Old English
-                    'case',           
-                    'script',
-                ])),
-        'personal': DictLookup(
-            'personal',
-            DictTupleIndexing([
-                    'person',           
-                    'number',           
-                    'gender',           
-                    'clusivity',   # needed for Quechua
-                    'formality',   # needed for Spanish ('voseo')
-                    'case',           
-                    'clitic',
-                    'script',
-                ])),
-        'demonstrative': DictLookup(
-            'demonstrative',
-            DictTupleIndexing([
-                    'distance',
-                    'number',     
-                    'gender',     
-                    'animacy',     # needed for Russian
-                    'partitivity', # needed for Old English, Quenya, Finnish
-                    'case',       
-                    'script',
-                ])),
-        'quantifier':    DictTupleIndexing([
-                    'quantity',
-                    'number',     # needed for German
-                    'gender',     # needed for Latin, German, Russian
-                    'animacy',    # needed for Old English, Russian
-                    'partitivity',# needed for Old English, Quenya, Finnish
-                    'case',       # needed for Latin
-                    'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
-                ]),
+        'common': parse_any.tokenmap('common', 
+            'noun number gender partitivity strength case script', ''),
+        'personal': parse_any.termmap('personal', 
+            'person number gender clusivity formality case clitic script', ''),
+        'common-possessive': parse_any.tokenmap('common-possessive', 
+            'possessor-noun possessor-number number gender case clitic script', ''),
+        'personal-possessive': parse_any.termmap('personal-possessive', 
+            'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality number gender case clitic script', ''),
+        'reflexive-possessive': parse_any.termmap('reflexive-possessive', 
+            'possessor-number number gender case clitic script', ''),
+        'demonstrative': parse_any.termmap('demonstrative', 
+            'distance number gender animacy partitivity case script', ''),
+        'quantifier': parse_any.termmap('quantifier', 
+            'quantity number gender animacy partitivity case script', ''),
         'interrogative':      DictLookup('interrogative',      basic_pronoun_declension_hashing),
         'indefinite':         DictLookup('indefinite',         basic_pronoun_declension_hashing),
         'relative':           DictLookup('relative',           basic_pronoun_declension_hashing),
@@ -437,55 +419,7 @@ declension_template_lookups = DictLookup(
         'reciprocal':         DictLookup('reciprocal',         reflexive_pronoun_declension_hashing),
         'reflexive':          DictLookup('reflexive',          reflexive_pronoun_declension_hashing),
         'emphatic-reflexive': DictLookup('emphatic-reflexive', reflexive_pronoun_declension_hashing),
-        'common-possessive':  DictLookup(
-            'common-possessive',
-            DictTupleIndexing([
-                    'possessor-noun',
-                    'possessor-number', 
-                    'number',           
-                    'gender',           
-                    'case',           
-                    'clitic',
-                    'script',
-                ])),
-        'personal-possessive': DictLookup(
-            'personal-possessive',
-            DictTupleIndexing([
-                    'possessor-person', 
-                    'possessor-number', 
-                    'possessor-gender', 
-                    'possessor-clusivity',   # needed for Quechua
-                    'possessor-formality',   # needed for Spanish ('voseo')
-                    'number',
-                    'gender',
-                    'case',
-                    'clitic',
-                    'script',
-                ])),
-        'reflexive-possessive':  DictLookup(
-            'reflexive-possessive',
-            DictTupleIndexing([
-                    'possessor-number', 
-                    'number',           
-                    'gender',           
-                    'case',           
-                    'clitic',
-                    'script',
-                ])),
     })
-
-termaxis_to_terms = {
-    **tagaxis_to_tags,
-    **case_episemaxis_to_episemes,
-    **mood_episemaxis_to_episemes,
-    **aspect_episemaxis_to_episemes,
-}
-
-tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
-episemes_to_case_episemaxis = dict_bundle_to_map(case_episemaxis_to_episemes)
-episemes_to_mood_episemaxis = dict_bundle_to_map(mood_episemaxis_to_episemes)
-episemes_to_aspect_episemaxis = dict_bundle_to_map(aspect_episemaxis_to_episemes)
-term_to_termaxis = dict_bundle_to_map(termaxis_to_terms)
 
 finite_annotation  = CellAnnotation(
     'inflection', tag_to_tagaxis, {}, {0:'verb'}, 
@@ -879,7 +813,6 @@ list_tools = ListTools()
 rule_tools = RuleTools()
 card_formatting = CardFormatting()
 english_list_substitution = EnglishListSubstitution()
-parse_any = TermParsing(term_to_termaxis)
 
 # alignment = case_usage_population.index(
 #             case_usage_annotation.annotate(

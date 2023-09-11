@@ -41,7 +41,7 @@ class TokenParsing:
             for row in rows
             if row.strip()]
         return tokenpoints
-    def token_to_token(self, string):
+    def token_to_text(self, string):
         delimeter = '\n' if '\n' in string else ','
         rows = [row.split('#')[0]
             for row in string.split(delimeter)]
@@ -64,7 +64,7 @@ class TokenParsing:
         return result
     def token_to_tokens(self, string):
         return {key: self.tokens(values)
-            for (key, values) in self.token_to_token(string).items()}
+            for (key, values) in self.token_to_text(string).items()}
     def tokenpath(self, name, header, body):
         return DictList(name, 
             DictTupleIndexing(self.tokens(header)),
@@ -77,6 +77,10 @@ class TokenParsing:
         return DictSpace(name, 
             DictTupleIndexing(self.tokens(header)),
             self.token_to_tokens(body))
+    def tokenmap(self, name, header, body):
+        return DictLookup(name, 
+            DictTupleIndexing(self.tokens(header)),
+            self.token_to_text(body))
 
 
 class TermParsing(TokenParsing):
@@ -146,7 +150,7 @@ class TermParsing(TokenParsing):
     def termaxis_to_term(self, string):
         delimeter = '\n' if '\n' in string else ','
         if ':' in string:
-            result = self.token_to_token(string)
+            result = self.token_to_text(string)
             invalid = {token
                 for token in result.keys()
                 if token not in self._termaxes}
@@ -204,6 +208,10 @@ class TermParsing(TokenParsing):
         return DictSpace(name, 
             DictTupleIndexing(self.termaxes(header)),
             self.termaxis_to_terms(body))
+    def termmap(self, name, header, body):
+        assert not body, "support for `body` parameter is not currently implemented"
+        return DictLookup(name, 
+            DictTupleIndexing(self.termaxes(header)), {})
 
 class ListParsing:
     '''
