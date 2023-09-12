@@ -58,6 +58,7 @@ def EmojiDemonstration(
             noun_lookups,
             verb_lookups,
             mood_templates,
+            label_editing, 
             label_filtering, 
             emojiInflectionShorthand,
             htmlTenseTransform,
@@ -88,10 +89,9 @@ def EmojiDemonstration(
                     possessed = noun({**tags, 'noun-form':'common'}, tag_templates)
                     possessor = noun({
                             'noun-form': 'personal',
-                            **{tag: tags[f'possessor-{tag}'].replace('-possessor','')
-                               for tag in 'template noun person number gender clusivity formality'.split()
-                               if f'possessor-{tag}' in tags},
-                            # 'person': tags['possessor-person'].replace('-possessor','')[0],
+                            **label_editing.termaxis_to_term(
+                                label_filtering.termaxis_to_term(tags, 'possessor'),
+                                strip='possessor'),
                             'script': 'emoji',
                         }, tag_templates)
                     return self.decode(tags, '\\flex{'+possessed+'\\r{'+possessor+'}}')
@@ -116,7 +116,7 @@ def EmojiDemonstration(
                         **{tag: clause_tags[tag]
                            for tag in 'template noun-form noun person number gender clusivity formality adjective'.split()
                            if tag in clause_tags},
-                        **label_filtering.termaxis_to_term_dict(clause_tags, 'possessor'),
+                        **label_filtering.termaxis_to_term(clause_tags, 'possessor'),
                         **tag_templates['test'], 
                         'script': 'emoji'
                     }
@@ -129,8 +129,8 @@ def EmojiDemonstration(
                 template = (self.argument_lookups[clause_tags] if clause_tags in self.argument_lookups
                     else noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫')
                 template = (template
-                    .replace('\\dummy',     performance(dummy_tags,     tag_templates))
-                    .replace('\\test',      performance(test_tags,      tag_templates)))
+                    .replace('\\dummy', performance(dummy_tags,     tag_templates))
+                    .replace('\\test',  performance(test_tags,      tag_templates)))
                 return getattr(htmlTenseTransform, clause_tags['tense'])(
                             getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
             def recounting(tags):
@@ -146,4 +146,3 @@ def EmojiDemonstration(
                         ))
             return demonstrate
     return LanguageSpecificEmojiDemonstration
- 

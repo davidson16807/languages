@@ -21,7 +21,7 @@ from tools.annotation import RowAnnotation, CellAnnotation
 from tools.predicates import Predicate
 from tools.dictstores import DefaultDictLookup, DictLookup, DictSet
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
-from tools.labels import TermLabelFiltering
+from tools.labels import TermLabelEditing, TermLabelFiltering
 from tools.evaluation import IdentityEvaluation, KeyEvaluation, MultiKeyEvaluation
 from tools.population import NestedLookupPopulation, ListLookupPopulation, FlatLookupPopulation, DictSetPopulation
 from tools.nodemaps import (
@@ -229,7 +229,7 @@ tagaxis_to_tags = {
            prepositional abessive adessive allative comitative delative 
            elative essive essive-formal essive-modal exessive illative 
            inessive instructive instrumental-comitative sociative sublative superessive 
-           temporal terminative translativedisjunctive undeclined'''.split(),
+           temporal terminative translative disjunctive undeclined'''.split(),
 
     # how the valency of the verb is modified to emphasize or deemphasize certain participants
     'voice':      'active passive middle antipassive applicative causative'.split(),
@@ -298,14 +298,7 @@ termaxis_to_terms = {
 term_to_termaxis = dict_bundle_to_map(termaxis_to_terms)
 parse_any = TermParsing(term_to_termaxis)
 
-verbial_declension_hashing = DictTupleIndexing([
-        'verb',           
-        'voice',      # needed for Swedish
-        'number',     # needed for German
-        'gender',     # needed for Latin, German, Russian
-        'case',       # needed for Latin
-        'script',     # needed for Greek, Russian, Sanskrit, etc.
-    ])
+verbial_declension_hashing = parse_any.tokenindexing('verb voice number gender case script')
 
 conjugation_template_lookups = DictLookup(
     'conjugation',
@@ -381,23 +374,8 @@ conjugation_template_lookups = DictLookup(
                 ])),
     })
 
-basic_pronoun_declension_hashing = DictTupleIndexing([
-        'number',     # needed for German
-        'gender',     # needed for Latin, German, Russian
-        'animacy',    # needed for Old English, Russian
-        'partitivity',# needed for Old English, Quenya, Finnish
-        'case',       # needed for Latin
-        'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
-    ])
-
-reflexive_pronoun_declension_hashing = DictTupleIndexing([
-        'person',     # needed for English
-        'number',     # needed for German
-        'gender',     # needed for Latin, German, Russian
-        'formality',  # needed for Spanish ('voseo')
-        'case',       # needed for Latin
-        'script',     # needed for Greek, Russian, Quenya, Sanskrit, etc.
-    ])
+basic_pronoun_declension_hashing = parse_any.termindexing('number gender animacy partitivity case script')
+reflexive_pronoun_declension_hashing = parse_any.termindexing('person number gender formality case script')
 
 declension_template_lookups = DictLookup(
     'declension',
@@ -601,6 +579,7 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/emoji/moods.tsv'))),
+    TermLabelEditing(),
     TermLabelFiltering(),
     emoji_shorthand, 
     HtmlTenseTransform(), 

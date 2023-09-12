@@ -375,7 +375,6 @@ declension_noun_traversal = (
 ) & template_verb_whitelist
 
 """
-"""
 
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
@@ -534,6 +533,9 @@ write('flashcards/latin/adjective-agreement.html',
             'test'       : parse.termaxis_to_term('common'),
         },
     ))
+"""
+
+print(label_editing.termpath(possessor_pronoun_traversal, 'possessor'))
 
 print('flashcards/latin/pronoun-possessives.html')
 write('flashcards/latin/pronoun-possessives.html', 
@@ -546,7 +548,7 @@ write('flashcards/latin/pronoun-possessives.html',
             (((  axis['number'] 
                * possession_traversal 
                * declension_noun_traversal 
-               * label_editing.term_list(possessor_pronoun_traversal, 'possessor'))
+               * label_editing.termpath(possessor_pronoun_traversal, 'possessor'))
               & possessor_possession_whitelist)
              * constant['exclusive-possessor']  
              * constant['familiar-possessor']

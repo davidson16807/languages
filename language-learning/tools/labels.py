@@ -8,52 +8,58 @@ class TermLabelEditing:
     def __init__(self):
         pass
     def term(self, term, append='', strip=''):
-        return f'{term.removesuffix(strip)}-{append}' if term.endswith(strip) else term
+        dashstrip = f'-{strip}' if strip else ''
+        dashappend = f'-{append}' if append else ''
+        return term.removesuffix(dashstrip) + dashappend
     def termaxis(self, termaxis, append='', strip=''):
-        return f'{append}-{termaxis.removeprefix(strip)}' if termaxis.startswith(strip) else termaxis
-    def term_list(self, terms, append='', strip=''):
+        stripdash = f'{strip}-' if strip else ''
+        appenddash = f'{append}-' if append else ''
+        return appenddash+termaxis.removeprefix(stripdash)
+    def terms(self, terms, append='', strip=''):
         return [self.term(term, append, strip) for term in terms]
-    def termaxis_list(self, termaxes, append='', strip=''):
+    def termaxes(self, termaxes, append='', strip=''):
         return [self.termaxis(termaxis, append, strip) for termaxis in termaxes]
-    def termaxis_to_term_dict(self, termaxis_to_term_dict, label='', strip=''):
-        return {self.termaxis(termaxis):self.term(term) for termaxis,term in termaxis_to_term_dict.items()}
-    def termaxis_to_terms_dict(self, termaxis_to_terms_dict, label='', strip=''):
-        return {self.termaxis(termaxis):self.term_list(terms) for termaxis,terms in termaxis_to_terms_dict.items()}
-    def term_tuple(self, terms, append='', strip=''):
-        return tuple([self.term(term, append, strip) for term in terms])
-    def term_tuples(self, term_tuples, append='', strip=''):
-        return [self.term_tuple(term_tuple, append, strip) for term_tuple in term_tuples]
-    def terms_to_token_dict(self, terms_to_token_dict, label='', strip=''):
-        return {self.term_tuple(term_tuple):token for term_tuple,token in terms_to_token_dict.items()}
-    def term_indexing(self, indexing, append='', strip=''):
+    def termaxis_to_term(self, termaxis_to_term, append='', strip=''):
+        return {self.termaxis(termaxis,append,strip):self.term(term,append,strip) 
+                for termaxis,term in termaxis_to_term.items()}
+    def termaxis_to_terms(self, termaxis_to_terms, append='', strip=''):
+        return {self.termaxis(termaxis,append,strip):self.terms(terms,append,strip) 
+                for termaxis,terms in termaxis_to_terms.items()}
+    def termpoint(self, termpoint, append='', strip=''):
+        return tuple([self.term(term, append, strip) for term in termpoint])
+    def termpoints(self, termpoints, append='', strip=''):
+        return [self.termpoint(termpoint, append, strip) for termpoint in termpoints]
+    def terms_to_token(self, terms_to_token, append='', strip=''):
+        return {self.termpoint(termpoint):token for termpoint,token in terms_to_token.items()}
+    def termindexing(self, indexing, append='', strip=''):
         '''NOTE: fuck polymorphism, I don't want to pollute *Indexing classes
         with design decisions that regard how *Labeling represents labels in strings'''
         return {
             DictKeyIndexing:   lambda: DictKeyIndexing(self.termaxis(indexing.key, append, strip)),
             DictTupleIndexing: lambda: DictTupleIndexing(
-                self.termaxis_list(indexing.keys, append, strip),
-                self.termaxis_to_terms_dict(indexing.defaults, append, strip)
+                self.termaxes(indexing.keys, append, strip),
+                self.termaxis_to_terms(indexing.defaults, append, strip)
             )
         }[type(indexing)]()
-    def term_space(self, term_space, append='', strip=''):
-        return DictSpace(term_space.name, 
-            self.term_indexing(term_space.indexing, append, strip),
-            self.termaxis_to_terms_dict(term_space.key_to_values, append, strip)
+    def termspace(self, termspace, append='', strip=''):
+        return DictSpace(termspace.name, 
+            self.termindexing(termspace.indexing, append, strip),
+            self.termaxis_to_terms(termspace.key_to_values, append, strip)
         )
-    def term_set(self, term_set, append='', strip=''):
-        return DictSet(term_set.name, 
-            self.term_indexing(term_set.indexing, append, strip),
-            set(self.term_tuples(term_set.content, append, strip))
+    def termmask(self, termmask, append='', strip=''):
+        return DictSet(termmask.name, 
+            self.termindexing(termmask.indexing, append, strip),
+            set(self.termpoints(termmask.content, append, strip))
         )
-    def term_list(self, term_list, append='', strip=''):
-        return DictList(term_list.name, 
-            self.term_indexing(term_list.indexing, append, strip),
-            self.term_tuples(term_list.sequence, append, strip)
+    def termpath(self, termpath, append='', strip=''):
+        return DictList(termpath.name, 
+            self.termindexing(termpath.indexing, append, strip),
+            self.termpoints(termpath.sequence, append, strip)
         )
-    def term_lookup(self, term_lookup, append='', strip=''):
-        return DictLookup(term_lookup.name, 
-            self.term_indexing(term_lookup.indexing, append, strip),
-            self.terms_to_token_dict(term_lookup.content, append, strip)
+    def termfield(self, termfield, append='', strip=''):
+        return DictLookup(termfield.name, 
+            self.termindexing(termfield.indexing, append, strip),
+            self.terms_to_token(termfield.content, append, strip)
         )
 
 class TermLabelFiltering:
@@ -62,47 +68,47 @@ class TermLabelFiltering:
     '''
     def __init__(self):
         pass
-    def term(self, term, append='', strip=''):
-        return term.endswith(strip)
-    def termaxis(self, termaxis, append='', strip=''):
-        return termaxis.startswith(strip)
-    def term_list(self, terms, append='', strip=''):
-        return [term for term in terms if self.term(term, append, strip)]
-    def termaxis_list(self, termaxes, append='', strip=''):
-        return [termaxis for termaxis in termaxes if self.termaxis(termaxis, append, strip)]
-    def termaxis_to_term_dict(self, termaxis_to_term_dict, label='', strip=''):
-        return {termaxis:term for termaxis,term in termaxis_to_term_dict.items() if self.termaxis(termaxis)}
-    def termaxis_to_terms_dict(self, termaxis_to_term_dict, label='', strip=''):
-        return {termaxis:terms for termaxis,terms in termaxis_to_term_dict.items() if self.termaxis(termaxis)}
-    def term_tuple(self, terms, append='', strip=''):
-        return tuple([term for term in terms if self.term(term, append, strip)])
-    def term_tuples(self, term_tuples, append='', strip=''):
-        return [term_tuple for term_tuple in term_tuples if self.term_tuple(term_tuple, append, strip)]
-    def terms_to_token_dict(self, terms_to_token_dict, label='', strip=''):
-        return {self.term_tuple(term_tuple):value for term_tuple,value in terms_to_token_dict.items()}
-    def term_indexing(self, indexing, append='', strip=''):
+    def term(self, term, label):
+        return term.endswith(f'-{label}')
+    def termaxis(self, termaxis, label):
+        return termaxis.startswith(f'{label}-')
+    def terms(self, terms, label):
+        return [term for term in terms if self.term(term, label)]
+    def termaxes(self, termaxes, label):
+        return [termaxis for termaxis in termaxes if self.termaxis(termaxis, label)]
+    def termaxis_to_term(self, termaxis_to_term, label):
+        return {termaxis:term for termaxis,term in termaxis_to_term.items() if self.termaxis(termaxis, label)}
+    def termaxis_to_terms(self, termaxis_to_term, label):
+        return {termaxis:terms for termaxis,terms in termaxis_to_term.items() if self.termaxis(termaxis, label)}
+    def termpoint(self, terms, label):
+        return tuple([term for term in terms if self.term(term, label)])
+    def termpoints(self, termpoints, label):
+        return [termpoint for termpoint in termpoints if self.termpoint(termpoint, label)]
+    def terms_to_token(self, terms_to_token, label):
+        return {self.termpoint(termpoint, label):value for termpoint,value in terms_to_token.items()}
+    def termindexing(self, indexing, label):
         #NOTE: this function only makes sense if indexing is an instance of DictTupleIndexing
         return DictTupleIndexing(
-            self.termaxis_list(indexing.keys, append, strip),
-            self.termaxis_to_terms_dict(indexing.defaults, append, strip)
+            self.termaxes(indexing.keys, label),
+            self.termaxis_to_terms(indexing.defaults, label)
         )
-    def term_space(self, term_space, append='', strip=''):
-        return DictSpace(term_space.name, 
-            self.term_indexing(term_space.indexing, append, strip),
-            self.termaxis_to_terms_dict(term_space.key_to_values, append, strip)
+    def termspace(self, termspace, label):
+        return DictSpace(termspace.name, 
+            self.termindexing(termspace.indexing, label),
+            self.termaxis_to_terms(termspace.key_to_values, label)
         )
-    def term_set(self, term_set, append='', strip=''):
-        return DictSet(term_set.name, 
-            self.term_indexing(term_set.indexing, append, strip),
-            set(self.term_tuples(term_set.content, append, strip))
+    def termmask(self, termmask, label):
+        return DictSet(termmask.name, 
+            self.termindexing(termmask.indexing, label),
+            set(self.termpoints(termmask.content, label))
         )
-    def term_list(self, term_list, append='', strip=''):
-        return DictList(term_list.name, 
-            self.term_indexing(term_list.indexing, append, strip),
-            self.term_tuples(term_list.sequence, append, strip)
+    def termpath(self, termpath, label):
+        return DictList(termpath.name, 
+            self.termindexing(termpath.indexing, label),
+            self.termpoints(termpath.sequence, label)
         )
-    def term_lookup(self, term_lookup, append='', strip=''):
-        return DictLookup(term_lookup.name, 
-            self.term_indexing(term_lookup.indexing, append, strip),
-            self.terms_to_token_dict(term_lookup.content, append, strip)
+    def termfield(self, termfield, label):
+        return DictLookup(termfield.name, 
+            self.termindexing(termfield.indexing, label),
+            self.terms_to_token(termfield.content, label)
         )
