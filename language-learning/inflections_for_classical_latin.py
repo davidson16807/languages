@@ -375,6 +375,7 @@ declension_noun_traversal = (
 ) & template_verb_whitelist
 
 """
+"""
 
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
@@ -427,7 +428,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
             'test'    : parse.termaxis_to_term('personal agent associated'),
             'modifier': parse.termaxis_to_term('common patient modifier associated'),
             'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient man'),
-            'speaker' : parse.termaxis_to_term('personal agent associated 1 singular masculine familiar present aorist active indicative'),
+            'speaker' : parse.termaxis_to_term('personal agent associated 1 singular masculine sapient man familiar present aorist active indicative'),
         },
     ))
 
@@ -439,7 +440,7 @@ write('flashcards/latin/participle-declension.html',
             tree_lookup = UniformDictLookup(
                 '''clause test [
                     [np the [n] [parentheses participle [cloze v verb] [modifier np stock-modifier]]]
-                    [vp present atelic v appear]
+                    [vp active present atelic v appear]
                 ]'''),
         ) for demonstration in demonstrations],
         defaults.override(
@@ -450,7 +451,7 @@ write('flashcards/latin/participle-declension.html',
             * conjugation_subject_defaults
         ),
         tag_templates ={
-            'test'       : parse.termaxis_to_term('common singular masculine'),
+            'test'       : parse.termaxis_to_term('common singular masculine sapient man'),
             'modifier'   : parse.termaxis_to_term('common patient modifier associated'),
             'dummy'      : parse.termaxis_to_term('common singular masculine'),
             'participle' : parse.termaxis_to_term('common participle nominative'),
@@ -533,7 +534,6 @@ write('flashcards/latin/adjective-agreement.html',
             'test'       : parse.termaxis_to_term('common'),
         },
     ))
-"""
 
 print(label_editing.termpath(possessor_pronoun_traversal, 'possessor'))
 
