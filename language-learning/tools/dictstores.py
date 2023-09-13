@@ -473,6 +473,17 @@ class DefaultDictLookup:
             # self.indexing.check(key)
             tuplekeys = list(self.indexing.tuplekeys(key))
             return len(tuplekeys) == 1 and tuplekeys[0] in self
+    def __call__(self, other):
+        indexing = self.indexing | other.indexing
+        overlap  = self.indexing & other.indexing
+        assert not bool(overlap), '\n'.join([
+            f'Indexes of "{self.name}" and "{other.name}" are not disjoint.',
+            f'Composition is only supported for disjoint indexes. ',
+            f'The overlapping keys are: {overlap}'])
+        return DictList(
+            f'({other.name})∘({other.name})', indexing, 
+            [indexing.tuplekey({**self[point], **point}) 
+             for point in other if point in self])
     def __iter__(self):
         return self.content.__iter__()
     def __len__(self):
@@ -481,7 +492,7 @@ class DefaultDictLookup:
 
 class UniformDictLookup:
     '''
-    `UniformDictLookup` is a lookup returns a constant
+    `UniformDictLookup` is a lookup that returns a constant for any index
     '''
     def __init__(self, constant):
         self.constant = constant

@@ -352,10 +352,10 @@ roles = parse_any.termspace('role', 'role',
     'role: stimulus location possessor interior surface presence aid lack interest time company')
 
 subjectivity_motion_role_traversal = (
-    ((  axis['subjectivity']
-      * axis['motion'] 
-      * roles) 
+    (((axis['subjectivity']
+     * axis['motion'] )
      & subjectivity_motion_whitelist)
+     * roles )
     - subjectivity_role_blacklist
 )
 
@@ -370,8 +370,8 @@ demonstration_verbs = parse_any.tokenspace('demonstration-verbs', 'verb',
 
 declension_noun_traversal = (
     ( demonstration_verbs
-    * axis['template']
-    ) * valency_subjectivity_motion_role_traversal
+    * axis['template']) 
+    * valency_subjectivity_motion_role_traversal
 ) & template_verb_whitelist
 
 """
@@ -392,7 +392,6 @@ write('flashcards/latin/finite-conjugation.html',
               conjugation_subject_traversal 
             * tense_progress_mood_voice_verb_traversal 
             * conjugation_subject_defaults 
-            * constant['personal']
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal agent associated'),
@@ -422,7 +421,6 @@ write('flashcards/latin/nonfinite-conjugation.html',
               & nonfinite_tense_progress_whitelist) 
               - constant['imperative'])
             * conjugation_subject_defaults
-            * constant['personal']
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal agent associated'),
@@ -504,7 +502,7 @@ write('flashcards/latin/pronoun-declension.html',
             substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
-            ((pronoun_traversal * declension_noun_traversal * constant['personal'])
+            ((pronoun_traversal * declension_noun_traversal)
             & noun_template_whitelist)
             - subjectivity_person_blacklist
         ),
@@ -527,15 +525,12 @@ write('flashcards/latin/adjective-agreement.html',
              * declension_noun_traversal
              * axis['adjective'])
             & noun_template_whitelist) 
-            * constant['common']
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('common'),
         },
     ))
-
-print(label_editing.termpath(possessor_pronoun_traversal, 'possessor'))
 
 print('flashcards/latin/pronoun-possessives.html')
 write('flashcards/latin/pronoun-possessives.html', 

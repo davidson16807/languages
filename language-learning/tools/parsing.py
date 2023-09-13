@@ -73,7 +73,7 @@ class TokenParsing:
         return DictSet   (name, self.tokenindexing(header), self.tokenpoints(body))
     def tokenspace(self, name, header, body):
         return DictSpace (name, self.tokenindexing(header), self.token_to_tokens(body))
-    def tokenmap(self, name, header, body):
+    def tokenfield(self, name, header, body=''):
         assert not body, "support for `body` parameter is not currently implemented"
         return DictLookup(name, self.tokenindexing(header), self.token_to_text(body))
 
@@ -199,7 +199,7 @@ class TermParsing(TokenParsing):
         return DictSet   (name, self.termindexing(header), self.termpoints(body))
     def termspace(self, name, header, body):
         return DictSpace (name, self.termindexing(header), self.termaxis_to_terms(body))
-    def termmap(self, name, header, body):
+    def termfield(self, name, header, body=''):
         assert not body, "support for `body` parameter is not currently implemented"
         return DictLookup(name, self.termindexing(header), {})
 

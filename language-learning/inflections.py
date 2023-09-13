@@ -381,19 +381,19 @@ declension_template_lookups = DictLookup(
     'declension',
     DictKeyIndexing('noun-form'), 
     {
-        'common': parse_any.tokenmap('common', 
+        'common': parse_any.tokenfield('common', 
             'noun number gender partitivity strength case script', ''),
-        'personal': parse_any.termmap('personal', 
+        'personal': parse_any.termfield('personal', 
             'person number gender clusivity formality case clitic script', ''),
-        'common-possessive': parse_any.tokenmap('common-possessive', 
+        'common-possessive': parse_any.tokenfield('common-possessive', 
             'possessor-noun possessor-number number gender case clitic script', ''),
-        'personal-possessive': parse_any.termmap('personal-possessive', 
+        'personal-possessive': parse_any.termfield('personal-possessive', 
             'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality number gender case clitic script', ''),
-        'reflexive-possessive': parse_any.termmap('reflexive-possessive', 
+        'reflexive-possessive': parse_any.termfield('reflexive-possessive', 
             'possessor-number number gender case clitic script', ''),
-        'demonstrative': parse_any.termmap('demonstrative', 
+        'demonstrative': parse_any.termfield('demonstrative', 
             'distance number gender animacy partitivity case script', ''),
-        'quantifier': parse_any.termmap('quantifier', 
+        'quantifier': parse_any.termfield('quantifier', 
             'quantity number gender animacy partitivity case script', ''),
         'interrogative':      DictLookup('interrogative',      basic_pronoun_declension_hashing),
         'indefinite':         DictLookup('indefinite',         basic_pronoun_declension_hashing),
@@ -803,6 +803,18 @@ english_list_substitution = EnglishListSubstitution()
 #                 tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')))
 # breakpoint()
 
+english_conjugation_template_lookups = DictLookup(
+    'conjugation',
+    DictKeyIndexing('verb-form'), 
+    {
+        'finite': parse_any.tokenfield('english-finite-verb', 'verb person number tense aspect'),
+        'infinitive': parse_any.tokenfield('english-infinitive-verb', 'verb'),
+    })
+
+english_conjugation_population = NestedLookupPopulation(
+    english_conjugation_template_lookups, 
+    KeyEvaluation('inflection'))
+
 english_language = Language(
     ListSemantics(
         case_usage_population.index(
@@ -817,7 +829,7 @@ english_language = Language(
         # debug=True,
     ),
     ListGrammar(
-        conjugation_population.index([
+        english_conjugation_population.index([
             *finite_annotation.annotate(
                 tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv')),
             *finite_annotation.annotate(
