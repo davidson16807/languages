@@ -19,7 +19,7 @@ from tools.shorthands import (
 from tools.parsing import SeparatedValuesFileParsing, TermParsing, ListParsing, LatexlikeParsing
 from tools.annotation import RowAnnotation, CellAnnotation
 from tools.predicates import Predicate
-from tools.dictstores import DefaultDictLookup, DictLookup, DictSet
+from tools.dictstores import DefaultDictLookup, DictLookup, DictSet, NestedDictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.labels import TermLabelEditing, TermLabelFiltering
 from tools.evaluation import IdentityEvaluation, KeyEvaluation, MultiKeyEvaluation
@@ -810,22 +810,24 @@ english_language = Language(
         # debug=True,
     ),
     ListGrammar(
-        english_conjugation_population.index([
-            *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/irregular-conjugations.tsv')),
-            *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/regular-conjugations.tsv')),
-        ]),
-        declension_population.index([
-            *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-declensions.tsv')),
-            *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/common-noun-declensions.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/adjective-agreement.tsv')),
-        ]),
+        NestedDictLookup(
+            english_conjugation_population.index([
+                *finite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/english/modern/irregular-conjugations.tsv')),
+                *finite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/english/modern/regular-conjugations.tsv')),
+            ]),),
+        NestedDictLookup(
+            declension_population.index([
+                *pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-declensions.tsv')),
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/english/modern/common-noun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/english/modern/adjective-agreement.tsv')),
+            ])),
         # debug=True,
     ),
     RuleSyntax(parse_any.terms('subject verb direct-object indirect-object modifier')),

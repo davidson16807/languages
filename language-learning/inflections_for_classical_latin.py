@@ -4,7 +4,7 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TokenParsing, TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -55,26 +55,28 @@ foreign_language = Language(
         debug=True,
     ),
     ListGrammar(
-        conjugation_population.index([
-            *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/latin/classic/finite-conjugations.tsv')),
-            *nonfinite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/latin/classic/nonfinite-conjugations.tsv')),
-            *filter(has_annotation('language','classical-latin'),
-                declension_verb_annotation.annotate(
-                    tsv_parsing.rows(
-                        'data/inflection/declension-template-verbs-minimal.tsv'))),
-        ]),
-        declension_population.index([
-            *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-declensions.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/latin/classic/common-noun-declensions.tsv')),
-            *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/latin/classic/adjective-agreement.tsv')),
-            *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-possessives.tsv')),
-        ]),
+        NestedDictLookup(
+            conjugation_population.index([
+                *finite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/finite-conjugations.tsv')),
+                *nonfinite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/nonfinite-conjugations.tsv')),
+                *filter(has_annotation('language','classical-latin'),
+                    declension_verb_annotation.annotate(
+                        tsv_parsing.rows(
+                            'data/inflection/declension-template-verbs-minimal.tsv'))),
+            ])),
+        NestedDictLookup(
+            declension_population.index([
+                *pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/common-noun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/adjective-agreement.tsv')),
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-possessives.tsv')),
+            ])),
         debug=True,
     ),
     RuleSyntax(parse_any.terms('subject modifier indirect-object direct-object verb')),
@@ -116,7 +118,16 @@ foreign_demonstration = LanguageSpecificTextDemonstration(
 
 emoji_demonstration = LanguageSpecificEmojiDemonstration(
     card_formatting.emoji_focus,
-    foreign_language.grammar.conjugation_lookups['argument'], 
+    conjugation_population.index([
+            *finite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/finite-conjugations.tsv')),
+            *nonfinite_annotation.annotate(
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/nonfinite-conjugations.tsv')),
+            *filter(has_annotation('language','classical-latin'),
+                declension_verb_annotation.annotate(
+                    tsv_parsing.rows(
+                        'data/inflection/declension-template-verbs-minimal.tsv'))),
+        ])['argument'], 
     emoji_casts[3])
 
 demonstrations = [

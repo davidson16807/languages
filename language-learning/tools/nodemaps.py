@@ -93,8 +93,7 @@ class ListGrammar:
         }
         return [content[0], 
             missing_value if sememe not in self.declension_lookups
-            else missing_value if sememe not in self.declension_lookups[sememe]
-            else self.format_alternates(self.declension_lookups[sememe][sememe], tags)]
+            else self.format_alternates(self.declension_lookups[sememe], tags)]
     def conjugate(self, treemap, content, tags):
         if any([tagaxis not in tags for tagaxis in 'aspect mood'.split()]):
             return self.omit_code
@@ -103,12 +102,13 @@ class ListGrammar:
             'verb':content[1],
         }
         return [content[0], 
-            None if sememe not in self.conjugation_lookups[sememe]
-            else self.format_alternates(self.conjugation_lookups[sememe][sememe], tags)]
+            None if sememe not in self.conjugation_lookups
+            else self.format_alternates(self.conjugation_lookups[sememe], tags)]
     def stock_modifier(self, treemap, content, tags):
+        alttag = {**tags, 'verb-form':'argument'}
         return [content[0], 
-            None if tags not in self.conjugation_lookups['argument']
-            else self.conjugation_lookups['argument'][tags]]
+            None if alttag not in self.conjugation_lookups
+            else self.conjugation_lookups[alttag]]
 
 class RuleSyntax:
     """

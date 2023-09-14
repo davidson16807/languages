@@ -483,6 +483,19 @@ class DefaultDictLookup:
     def __len__(self):
         return self.content.__len__()
 
+class NestedDictLookup:
+    '''
+    `NestedDictLookup` is a lookup that wraps nested DictLookups
+    '''
+    def __init__(self, dict_lookups):
+        self.dict_lookups = dict_lookups
+    def __getitem__(self, key):
+        return self.dict_lookups[key][key]
+    def __setitem__(self, key, value):
+        self.dict_lookups[key][key] = value
+    def __contains__(self, key):
+        return key in self.dict_lookups and key in self.dict_lookups[key]
+
 
 class UniformDictLookup:
     '''
