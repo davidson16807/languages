@@ -17,8 +17,7 @@ class DictLookup:
     def __str__(self):
         cell_width = 13
         return '\n'.join([
-                f'DictLookup {self.name}:',
-                f'[{len(self)} rows]',
+                f'DictLookup {self.name} [{len(self)} rows]:', 
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
                   for (tuplekey, value) in self.content.items()],
@@ -26,8 +25,7 @@ class DictLookup:
     def __repr__(self):
         cell_width = 13
         return '\n'.join([
-                f'DictLookup {self.name}:',
-                f'[{len(self)} rows]',
+                f'DictLookup {self.name} [{len(self)} rows]:', 
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
                   for (tuplekey, value) in self.content.items()],
@@ -120,16 +118,14 @@ class DictList:
     def __str__(self):
         cell_width = 13
         return '\n'.join([
-                f'DictList {self.name}:',
-                f'[{len(self)} rows]',
+                f'DictList {self.name} [{len(self)} rows]:', 
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence],
             ])
     def __repr__(self):
         cell_width = 13
         return '\n'.join([
-                f'DictList {self.name}:',
-                f'[{len(self)} rows]',
+                f'DictList {self.name} [{len(self)} rows]:', 
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence],
             ])
@@ -232,16 +228,14 @@ class DictSet:
     def __str__(self):
         cell_width = 13
         return '\n'.join([
-                f'DictSet {self.name}:',
-                f'[{len(self)} rows]',
+                f'DictSet {self.name} [{len(self)} rows]:', 
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content],
             ])
     def __repr__(self):
         cell_width = 13
         return '\n'.join([
-                f'DictSet {self.name}:',
-                f'[{len(self)} rows]',
+                f'DictSet {self.name} [{len(self)} rows]:', 
                 ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content],
             ])

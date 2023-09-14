@@ -14,6 +14,10 @@ class DictKeyIndexing:
     '''
     def __init__(self, key):
         self.key = key
+    def __str__(self):
+        return ''.join([f'DictKeyIndexing(', self.key, ')'])
+    def __repr__(self):
+        return ''.join([f'DictKeyIndexing(', self.key, ')'])
     def dictkey(self, tuplekey):
         return {self.key:tuplekey}
     def check(self, dictkey):
@@ -67,6 +71,10 @@ class DictTupleIndexing:
     def __init__(self, keys, defaults={}):
         self.keys = keys
         self.defaults = defaults
+    def __str__(self):
+        return ''.join([f'DictTupleIndexing(', ', '.join(self.keys), ')'])
+    def __repr__(self):
+        return ''.join([f'DictTupleIndexing(', ', '.join(self.keys), ')'])
     def dictkey(self, tuplekey):
         return {
             **self.defaults, 
