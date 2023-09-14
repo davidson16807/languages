@@ -439,6 +439,8 @@ declension_verb_annotation = CellAnnotation(
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 template_verb_annotation = CellAnnotation(
     'verb', term_to_termaxis, {0:'template'}, {}, {})
+template_subject_annotation = RowAnnotation('flag subjectivity verb dummy-noun'.split())
+template_direct_object_annotation = RowAnnotation('flag verb valency motion subjectivity dummy-noun'.split())
 template_tree_annotation = RowAnnotation('flag valency subjectivity tree'.split())
 noun_template_annotation = RowAnnotation('noun template'.split())
 
@@ -451,6 +453,8 @@ emoji_verb_population = FlatLookupPopulation(DictLookup('emoji verb', DictTupleI
 emoji_noun_declensions_population = FlatLookupPopulation(DictLookup('declension-templates', DictTupleIndexing('valency subjectivity motion role'.split())), KeyEvaluation('inflection'))
 mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing('mood column'.split())), KeyEvaluation('inflection'))
 template_verb_population = DictSetPopulation(DictSet('template-verb', DictTupleIndexing('template role subjectivity valency verb'.split()), set()))
+template_subject_population = DictSetPopulation(DictSet('template-subject', DictTupleIndexing('verb subjectivity dummy-noun'.split()), set()))
+template_direct_object_population = DictSetPopulation(DictSet('template-direct-object', DictTupleIndexing('verb valency motion subjectivity dummy-noun'.split()), set()))
 template_tree_population = FlatLookupPopulation(DictLookup('template-tree', DictTupleIndexing('valency subjectivity'.split())), KeyEvaluation('tree'))
 noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('noun template'.split()), set()))
 
@@ -482,6 +486,18 @@ template_verb_whitelist = (
     template_verb_population.index(
         template_verb_annotation.annotate(
             tsv_parsing.rows('data/inflection/template-verbs.tsv')))
+)
+
+template_subject_whitelist = (
+    template_subject_population.index(
+        template_subject_annotation.annotate(
+            tsv_parsing.rows('data/inflection/template-direct-objects.tsv')))
+)
+
+template_direct_object_whitelist = (
+    template_direct_object_population.index(
+        template_direct_object_annotation.annotate(
+            tsv_parsing.rows('data/inflection/template-direct-objects.tsv')))
 )
 
 noun_template_whitelist = (
