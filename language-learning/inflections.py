@@ -512,20 +512,6 @@ template_tree_lookup = (
             tsv_parsing.rows('data/inflection/template-trees.tsv')))
 )
 
-
-declension_template_annotation = RowAnnotation(
-    '''flag valency subjectivity motion role specificity syntax-tree 
-    declined-noun-function declined-noun-argument emoji'''.split())
-declension_template_population = ListLookupPopulation(
-    DefaultDictLookup('declension-template',
-        DictTupleIndexing(
-            'valency subjectivity motion role'.split(),
-            case_episemaxis_to_episemes,
-        ), 
-        lambda key:[]
-    ),
-    IdentityEvaluation())
-
 case_usage_annotation = CellAnnotation('case', dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
 case_usage_population = NestedLookupPopulation(
     DefaultDictLookup('case-usage', 

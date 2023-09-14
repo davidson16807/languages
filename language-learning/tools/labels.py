@@ -1,5 +1,5 @@
 from tools.indexing import DictKeyIndexing, DictTupleIndexing
-from tools.dictstores import DictSpace, DictList, DictSet, DictLookup, DefaultDictLookup
+from tools.dictstores import DictSpace, DictList, DictSet, DictLookup
 
 class TermLabelEditing:
     '''
