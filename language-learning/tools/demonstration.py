@@ -2,6 +2,8 @@ from .shorthands import EmojiPerson
 
 def TextDemonstration(
             mood_templates, #series×language_type
+            label_editing, 
+            label_filtering, 
             parsing, 
             tools,
         ):
@@ -9,7 +11,7 @@ def TextDemonstration(
         def __init__(self, format_card, orthography):
             self.format_card = format_card
             self.orthography = orthography
-        def assemble(self, tags, dependant, independant):
+        def assemble(self, dependant, independant):
             return independant.replace('\\placeholder', dependant)
         def context(self, tags):
             voice_prephrase = '[middle voice:]' if tags['voice'] == 'middle' else ''
@@ -28,7 +30,12 @@ def TextDemonstration(
             def demonstrate(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
-                    label:{**tags, **(tag_templates[label]  if label in tag_templates else {})}
+                    label:{
+                        **tags, 
+                        **label_editing.termaxis_to_term(
+                            label_filtering.termaxis_to_term(tags, label),
+                            strip=label),
+                        **(tag_templates[label]  if label in tag_templates else {})}
                     for label in 'test dummy speaker modifier participle'.split()
                 }
                 completed_substitutions = [
@@ -38,7 +45,7 @@ def TextDemonstration(
                       if key in tags],
                 ]
                 return self.format_card(
-                        self.assemble(tags,
+                        self.assemble(
                             self.orthography.map(
                                 parsing.parse(tree_lookup[tags]),
                                 semes, 

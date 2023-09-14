@@ -556,6 +556,8 @@ LanguageSpecificTextDemonstration = TextDemonstration(
     mood_population.index(
         mood_annotation.annotate(
             tsv_parsing.rows('data/inflection/indo-european/english/modern/mood-templates.tsv'))),
+    TermLabelEditing(),
+    TermLabelFiltering(),
     ListParsing(), 
     ListTools()
 )
