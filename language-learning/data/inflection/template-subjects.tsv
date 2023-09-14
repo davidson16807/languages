@@ -1,97 +1,96 @@
-#	test subjectivity	verb	dummy
-	modifier	swim	man
-	modifier	fly	bug
-	modifier	flow	heat
-	modifier	rest	man
-	modifier	walk	man
-	modifier	crawl	bug
-	modifier	rest	man
-	modifier	direct	man
-	modifier	work	man
-	modifier	resemble	man
-	modifier	eat	man
-	modifier	endure	man
-	modifier	warm	man
-	modifier	cool	man
-	modifier	fall	man
-	modifier	change	man
-	modifier	occupy	man
-	modifier	show	man
-	modifier	see	man
-	modifier	watch	man
-	modifier	startle	man
-	modifier	displease	man
-	modifier	appear	man
-	modifier	be	man
-	direct-object	swim	man
-	direct-object	fly	man
-	direct-object	flow	man
-	direct-object	rest	man
-	direct-object	walk	man
-	direct-object	crawl	bug
-	direct-object	rest	man
-	direct-object	direct	man
-	direct-object	work	man
-	direct-object	resemble	man
-	direct-object	eat	man
-	direct-object	endure	man
-	direct-object	warm	fire
-	direct-object	cool	water
-	direct-object	fall	man
-	direct-object	change	man
-	direct-object	occupy	man
-	direct-object	show	man
-	direct-object	see	man
-	direct-object	watch	man
-	direct-object	startle	man
-	direct-object	displease	man
-	direct-object	appear	man
-	direct-object	be	man
-	subject	swim	man
-	subject	fly	man
-	subject	flow	man
-	subject	rest	man
-	subject	walk	man
-	subject	crawl	man
-	subject	rest	man
-	subject	direct	attention
-	subject	work	man
-	subject	resemble	man
-	subject	eat	man
-	subject	endure	man
-	subject	warm	man
-	subject	cool	man
-	subject	fall	man
-	subject	change	man
-	subject	occupy	man
-	subject	show	man
-	subject	see	man
-	subject	watch	man
-	subject	startle	man
-	subject	displease	man
-	subject	appear	man
-	subject	be	man
-	addressee	swim	man
-	addressee	fly	man
-	addressee	flow	man
-	addressee	rest	man
-	addressee	walk	man
-	addressee	crawl	man
-	addressee	rest	man
-	addressee	direct	man
-	addressee	work	man
-	addressee	resemble	man
-	addressee	eat	man
-	addressee	endure	man
-	addressee	warm	man
-	addressee	cool	man
-	addressee	fall	man
-	addressee	change	man
-	addressee	occupy	man
-	addressee	show	man
-	addressee	see	man
-	addressee	watch	man
-	addressee	startle	man
-	addressee	displease	man
-	addressee	appear	man
-	addressee	be	man
+#	test subjectivity	verb	dummy-role	dummy-noun	
+	modifier	swim	agent-dummy	man-dummy	
+	modifier	fly	agent-dummy	bug-dummy	
+	modifier	flow	theme-dummy	heat-dummy	
+	modifier	rest	theme-dummy	man-dummy	
+	modifier	walk	agent-dummy	man-dummy	
+	modifier	crawl	agent-dummy	bug-dummy	
+	modifier	direct	agent-dummy	man-dummy	
+	modifier	work	agent-dummy	man-dummy	
+	modifier	resemble	theme-dummy	man-dummy	
+	modifier	eat	agent-dummy	man-dummy	
+	modifier	endure	patient-dummy	man-dummy	
+	modifier	warm	agent-dummy	man-dummy	
+	modifier	cool	agent-dummy	man-dummy	
+	modifier	fall	theme-dummy	man-dummy	
+	modifier	change	patient-dummy	man-dummy	
+	modifier	occupy	agent-dummy	man-dummy	
+	modifier	show	agent-dummy	man-dummy	
+	modifier	see	agent-dummy	man-dummy	
+	modifier	watch	agent-dummy	man-dummy	
+	modifier	startle	agent-dummy	man-dummy	
+	modifier	displease	agent-dummy	man-dummy	
+	modifier	appear	agent-dummy	man-dummy	
+	modifier	be	agent-dummy	man-dummy	
+	direct-object	swim	agent-dummy	man-dummy	
+	direct-object	fly	agent-dummy	man-dummy	
+	direct-object	flow	agent-dummy	man-dummy	
+	direct-object	rest	agent-dummy	man-dummy	
+	direct-object	walk	agent-dummy	man-dummy	
+	direct-object	crawl	agent-dummy	bug-dummy	
+	direct-object	rest	agent-dummy	man-dummy	
+	direct-object	direct	agent-dummy	man-dummy	
+	direct-object	work	agent-dummy	man-dummy	
+	direct-object	resemble	agent-dummy	man-dummy	
+	direct-object	eat	agent-dummy	man-dummy	
+	direct-object	endure	agent-dummy	man-dummy	
+	direct-object	warm	agent-dummy	fire-dummy	
+	direct-object	cool	agent-dummy	water-dummy	
+	direct-object	fall	agent-dummy	man-dummy	
+	direct-object	change	agent-dummy	man-dummy	
+	direct-object	occupy	agent-dummy	man-dummy	
+	direct-object	show	agent-dummy	man-dummy	
+	direct-object	see	agent-dummy	man-dummy	
+	direct-object	watch	agent-dummy	man-dummy	
+	direct-object	startle	agent-dummy	man-dummy	
+	direct-object	displease	agent-dummy	man-dummy	
+	direct-object	appear	agent-dummy	man-dummy	
+	direct-object	be	agent-dummy	man-dummy	
+	subject	swim	agent-dummy	man-dummy	
+	subject	fly	agent-dummy	man-dummy	
+	subject	flow	agent-dummy	man-dummy	
+	subject	rest	agent-dummy	man-dummy	
+	subject	walk	agent-dummy	man-dummy	
+	subject	crawl	agent-dummy	man-dummy	
+	subject	rest	agent-dummy	man-dummy	
+	subject	direct	agent-dummy	attention-dummy	
+	subject	work	agent-dummy	man-dummy	
+	subject	resemble	agent-dummy	man-dummy	
+	subject	eat	agent-dummy	man-dummy	
+	subject	endure	agent-dummy	man-dummy	
+	subject	warm	agent-dummy	man-dummy	
+	subject	cool	agent-dummy	man-dummy	
+	subject	fall	agent-dummy	man-dummy	
+	subject	change	agent-dummy	man-dummy	
+	subject	occupy	agent-dummy	man-dummy	
+	subject	show	agent-dummy	man-dummy	
+	subject	see	agent-dummy	man-dummy	
+	subject	watch	agent-dummy	man-dummy	
+	subject	startle	agent-dummy	man-dummy	
+	subject	displease	agent-dummy	man-dummy	
+	subject	appear	agent-dummy	man-dummy	
+	subject	be	agent-dummy	man-dummy	
+	addressee	swim	agent-dummy	man-dummy	
+	addressee	fly	agent-dummy	man-dummy	
+	addressee	flow	agent-dummy	man-dummy	
+	addressee	rest	agent-dummy	man-dummy	
+	addressee	walk	agent-dummy	man-dummy	
+	addressee	crawl	agent-dummy	man-dummy	
+	addressee	rest	agent-dummy	man-dummy	
+	addressee	direct	agent-dummy	man-dummy	
+	addressee	work	agent-dummy	man-dummy	
+	addressee	resemble	agent-dummy	man-dummy	
+	addressee	eat	agent-dummy	man-dummy	
+	addressee	endure	agent-dummy	man-dummy	
+	addressee	warm	agent-dummy	man-dummy	
+	addressee	cool	agent-dummy	man-dummy	
+	addressee	fall	agent-dummy	man-dummy	
+	addressee	change	agent-dummy	man-dummy	
+	addressee	occupy	agent-dummy	man-dummy	
+	addressee	show	agent-dummy	man-dummy	
+	addressee	see	agent-dummy	man-dummy	
+	addressee	watch	agent-dummy	man-dummy	
+	addressee	startle	agent-dummy	man-dummy	
+	addressee	displease	agent-dummy	man-dummy	
+	addressee	appear	agent-dummy	man-dummy	
+	addressee	be	agent-dummy	man-dummy	

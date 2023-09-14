@@ -30,6 +30,8 @@ from inflections import (
     write, 
     emoji_casts,
     template_verb_whitelist,
+    template_subject_whitelist,
+    template_direct_object_whitelist,
     template_tree_lookup,
     noun_template_whitelist,
 )
