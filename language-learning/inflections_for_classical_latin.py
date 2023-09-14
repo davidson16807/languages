@@ -43,21 +43,21 @@ foreign_language = Language(
     ListSemantics(
         case_usage_population.index(
             case_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/case-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/case-usage.tsv'))),
         mood_usage_population.index(
             mood_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/mood-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/aspect-usage.tsv'))),
         debug=True,
     ),
     ListGrammar(
         conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/finite-conjugations.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/finite-conjugations.tsv')),
             *nonfinite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/nonfinite-conjugations.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/nonfinite-conjugations.tsv')),
             *filter(has_annotation('language','classical-latin'),
                 declension_verb_annotation.annotate(
                     tsv_parsing.rows(
@@ -65,13 +65,13 @@ foreign_language = Language(
         ]),
         declension_population.index([
             *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/pronoun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/common-noun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/common-noun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/adjective-agreement.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/adjective-agreement.tsv')),
             *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/latin/classic/pronoun-possessives.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-possessives.tsv')),
         ]),
         debug=True,
     ),

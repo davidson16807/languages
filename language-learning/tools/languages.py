@@ -101,11 +101,6 @@ class Language:
             RuleTreeMap({
                 'clause':  self.syntax.order_clause,
                 'np':      self.syntax.order_noun_phrase,
-                # 'v':       self.rule_tools.filter_tags(set(' '.join([
-                #     'verb evidentiality confidence aspect progress mood completion mood voice tense language-type script person number']).split())),
-                # 'n':       self.rule_tools.filter_tags(set(' '.join([
-                #     'noun subjectivity valency motion role case person number gender clusivity formality clitic partitivity strength language-type script', 
-                #     'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality']).split())),
             }),
             RuleTreeMap({
                 **{tag:self.formatting.default for tag in rules.split()},

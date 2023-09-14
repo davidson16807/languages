@@ -555,7 +555,7 @@ nouns_to_depictions = {
 LanguageSpecificTextDemonstration = TextDemonstration(
     mood_population.index(
         mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/english/modern/mood-templates.tsv'))),
+            tsv_parsing.rows('data/inflection/indo-european/english/modern/mood-templates.tsv'))),
     ListParsing(), 
     ListTools()
 )
@@ -588,7 +588,7 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
 
 
 
-# rows = tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')
+# rows = tsv_parsing.rows('data/inflection/indo-european/english/modern/case-usage.tsv')
 # test = case_usage_population.index(case_usage_annotation.annotate(rows))
 # tags = {'valency':'transitive','motion':'associated','role':'agent'}
 # breakpoint()
@@ -800,7 +800,7 @@ english_list_substitution = EnglishListSubstitution()
 
 # alignment = case_usage_population.index(
 #             case_usage_annotation.annotate(
-#                 tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv')))
+#                 tsv_parsing.rows('data/inflection/indo-european/english/modern/case-usage.tsv')))
 # breakpoint()
 
 english_conjugation_template_lookups = DictLookup(
@@ -819,31 +819,31 @@ english_language = Language(
     ListSemantics(
         case_usage_population.index(
             case_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/case-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/case-usage.tsv'))),
         mood_usage_population.index(
             mood_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/mood-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/aspect-usage.tsv'))),
         # debug=True,
     ),
     ListGrammar(
         english_conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/irregular-conjugations.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/irregular-conjugations.tsv')),
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/regular-conjugations.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/regular-conjugations.tsv')),
         ]),
         declension_population.index([
             *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/pronoun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-declensions.tsv')),
             *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/pronoun-possessives.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/common-noun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/common-noun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/modern/adjective-agreement.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/english/modern/adjective-agreement.tsv')),
         ]),
         # debug=True,
     ),
