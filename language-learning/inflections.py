@@ -590,17 +590,6 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
 
 
 
-# rows = tsv_parsing.rows('data/inflection/indo-european/english/modern/case-usage.tsv')
-# test = case_usage_population.index(case_usage_annotation.annotate(rows))
-# tags = {'valency':'transitive','motion':'associated','role':'agent'}
-# breakpoint()
-
-# rows = tsv_parsing.rows('data/inflection/latin/classic/aspect-usage.tsv')
-# annotations = aspect_usage_annotation.annotate(rows)
-# test = aspect_usage_population.index(annotations)
-# tags = {'progress': 'atomic', 'column': 'aspect'}
-# breakpoint()
-
 def write(filename, rows):
     with open(filename, 'w') as file:
         for row in rows:
@@ -655,13 +644,6 @@ class EnglishListSubstitution:
         # if (tense, verbform) == ('present','infinitive'):   return ['[right now]', tree]
         if (tense, verbform) == ('future', 'infinitive'):   return ['[later on]',   tree]
         return tree
-    # def aspect(self, machine, tree, memory):
-    #     '''creates auxillary verb phrases when necessary to express aspect'''
-    #     aspect = memory['aspect']
-    #     if aspect == 'imperfective':           return [['active', 'aorist', 'v', 'be'],   'finite', tree]
-    #     if aspect == 'perfective':             return [['active', 'aorist', 'v', 'have'], 'finite', tree]
-    #     if aspect == 'perfective-progressive': return [['active', 'aorist', 'v', 'have'], 'finite', ['finished', 'v', 'be'], ['unfinished', tree]]
-    #     return tree
     def aspect(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express aspect'''
         tense = memory['tense']
@@ -799,11 +781,6 @@ list_tools = ListTools()
 rule_tools = RuleTools()
 card_formatting = CardFormatting()
 english_list_substitution = EnglishListSubstitution()
-
-# alignment = case_usage_population.index(
-#             case_usage_annotation.annotate(
-#                 tsv_parsing.rows('data/inflection/indo-european/english/modern/case-usage.tsv')))
-# breakpoint()
 
 english_conjugation_template_lookups = DictLookup(
     'conjugation',
