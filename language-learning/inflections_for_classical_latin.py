@@ -68,14 +68,17 @@ foreign_language = Language(
             ])),
         NestedDictLookup(
             declension_population.index([
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-declensions.tsv')),
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/latin/classic/common-noun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/adjective-agreement.tsv')),
+                *pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-declensions.tsv')),
+            ])),
+        NestedDictLookup(
+            declension_population.index([
                 *possessive_pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/latin/classic/pronoun-possessives.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/latin/classic/adjective-agreement.tsv')),
             ])),
         debug=True,
     ),

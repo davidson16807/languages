@@ -92,7 +92,7 @@ class Language:
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
                 'det':              self.grammar.decline,
-                'adj':              self.grammar.decline,
+                'adj':              self.grammar.agree,
             }),
             ListTreeMap({
                 **tag_removal,

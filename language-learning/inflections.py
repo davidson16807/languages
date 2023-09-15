@@ -19,7 +19,7 @@ from tools.shorthands import (
 from tools.parsing import SeparatedValuesFileParsing, TermParsing, ListParsing, LatexlikeParsing
 from tools.annotation import RowAnnotation, CellAnnotation
 from tools.predicates import Predicate
-from tools.dictstores import DefaultDictLookup, DictLookup, DictSet, NestedDictLookup
+from tools.dictstores import DefaultDictLookup, DictLookup, DictSet, NestedDictLookup, FallbackDictLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.labels import TermLabelEditing, TermLabelFiltering
 from tools.evaluation import IdentityEvaluation, KeyEvaluation, MultiKeyEvaluation
@@ -785,7 +785,7 @@ card_formatting = CardFormatting()
 english_list_substitution = EnglishListSubstitution()
 
 english_conjugation_template_lookups = DictLookup(
-    'conjugation',
+    'english-conjugation',
     DictKeyIndexing('verb-form'), 
     {
         'finite': parse_any.tokenfield('english-finite-verb', 'verb person number tense aspect'),
@@ -816,7 +816,7 @@ english_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/english/modern/irregular-conjugations.tsv')),
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/english/modern/regular-conjugations.tsv')),
-            ]),),
+            ])),
         NestedDictLookup(
             declension_population.index([
                 *pronoun_annotation.annotate(
@@ -825,9 +825,16 @@ english_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/english/modern/common-noun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/english/modern/adjective-agreement.tsv')),
             ])),
+        FallbackDictLookup(
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
+                ])
+            ),
+            get_fallback = lambda key: key['noun'],
+        ),
         # debug=True,
     ),
     RuleSyntax(parse_any.terms('subject verb direct-object indirect-object modifier')),

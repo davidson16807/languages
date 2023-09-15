@@ -118,6 +118,7 @@ english = Plurality(
         'information',
     },
     [
+        ('boy', 'boys'),
         ('person', 'people'),
         ('man', 'men'),
         ('human', 'humans'),

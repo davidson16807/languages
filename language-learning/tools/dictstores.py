@@ -496,6 +496,24 @@ class NestedDictLookup:
     def __contains__(self, key):
         return key in self.dict_lookups and key in self.dict_lookups[key]
 
+class FallbackDictLookup:
+    '''
+    `NestedDictLookup` is a lookup that returns a procedural value if no value is found from an inner lookup
+    '''
+    def __init__(self, dict_lookup, get_fallback):
+        self.dict_lookup = dict_lookup
+        self.get_fallback = get_fallback
+    def __getitem__(self, key):
+        if key in self.dict_lookup:
+            return self.dict_lookup[key]
+        else:
+            value = self.get_fallback(key)
+            self.dict_lookup[key] = value
+            return value
+    def __setitem__(self, key, value):
+        self.dict_lookup[key] = value
+    def __contains__(self, key):
+        return True
 
 class UniformDictLookup:
     '''
@@ -509,3 +527,14 @@ class UniformDictLookup:
         return True
     def __iter__(self):
         return [self.constant].__iter__()
+
+class DictKeyLookup:
+    '''
+    `DictKeyLookup` is a lookup that returns the value that's indexed by a given key
+    '''
+    def __init__(self, key):
+        self.key = key
+    def __getitem__(self, key):
+        return key[self.key]
+    def __contains__(self, key):
+        return self.key in key
