@@ -19,7 +19,7 @@ from tools.shorthands import (
 from tools.parsing import SeparatedValuesFileParsing, TermParsing, ListParsing, LatexlikeParsing
 from tools.annotation import RowAnnotation, CellAnnotation
 from tools.predicates import Predicate
-from tools.dictstores import DefaultDictLookup, DictLookup, DictSet, NestedDictLookup, FallbackDictLookup
+from tools.dictstores import DefaultDictLookup, DictLookup, DictSet, NestedDictLookup, FallbackDictLookup, ProceduralLookup
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.labels import TermLabelEditing, TermLabelFiltering
 from tools.evaluation import IdentityEvaluation, KeyEvaluation, MultiKeyEvaluation
@@ -833,7 +833,7 @@ english_language = Language(
                         tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
                 ])
             ),
-            get_fallback = lambda key: key['noun'],
+            ProceduralLookup(lambda key:key['noun']),
         ),
         # debug=True,
     ),

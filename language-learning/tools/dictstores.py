@@ -500,18 +500,18 @@ class FallbackDictLookup:
     '''
     `NestedDictLookup` is a lookup that returns a procedural value if no value is found from an inner lookup
     '''
-    def __init__(self, dict_lookup, get_fallback):
-        self.dict_lookup = dict_lookup
-        self.get_fallback = get_fallback
+    def __init__(self, main, fallback):
+        self.main = main
+        self.fallback = fallback
     def __getitem__(self, key):
-        if key in self.dict_lookup:
-            return self.dict_lookup[key]
+        if key in self.main:
+            return self.main[key]
         else:
-            value = self.get_fallback(key)
-            self.dict_lookup[key] = value
+            value = self.fallback[key]
+            self.main[key] = value
             return value
     def __setitem__(self, key, value):
-        self.dict_lookup[key] = value
+        self.main[key] = value
     def __contains__(self, key):
         return True
 
@@ -528,13 +528,13 @@ class UniformDictLookup:
     def __iter__(self):
         return [self.constant].__iter__()
 
-class DictKeyLookup:
+class ProceduralLookup:
     '''
-    `DictKeyLookup` is a lookup that returns the value that's indexed by a given key
+    `ProceduralLookup` is a lookup that returns a value that is procedurally determined from the key
     '''
-    def __init__(self, key):
-        self.key = key
+    def __init__(self, get):
+        self.get = get
     def __getitem__(self, key):
-        return key[self.key]
+        return self.get(key)
     def __contains__(self, key):
-        return self.key in key
+        return True
