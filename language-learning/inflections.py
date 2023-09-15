@@ -5,6 +5,7 @@ See README.txt and GLOSSARY.txt for notes on terminology
 '''
 
 import collections
+import re
 
 from tools.transforms import (
     HtmlGroupPositioning, HtmlPersonPositioning,
@@ -609,6 +610,107 @@ def replace(replacements):
         return content
     return _replace
 
+class RegularEnglishGrammar:
+    def __init__(self):
+        self.plural_regex = [
+            (r"(?i)(ous)$", r'ous'),
+            (r"(?i)(man)$", r'men'),
+            (r"(?i)(quiz)$", r'\1zes'),
+            (r"(?i)^(oxen)$", r'\1'),
+            (r"(?i)^(ox)$", r'\1en'),
+            (r"(?i)(m|l)ice$", r'\1ice'),
+            (r"(?i)(m|l)ouse$", r'\1ice'),
+            (r"(?i)(passer)s?by$", r'\1sby'),
+            (r"(?i)(matr|vert|ind)(?:ix|ex)$", r'\1ices'),
+            (r"(?i)(x|ch|ss|sh)$", r'\1es'),
+            (r"(?i)([^aeiouy]|qu)y$", r'\1ies'),
+            (r"(?i)(hive)$", r'\1s'),
+            (r"(?i)([lr])f$", r'\1ves'),
+            (r"(?i)(staff)$", r'staves'),
+            (r"(?i)([^f])fe$", r'\1ves'),
+            (r"(?i)sis$", 'ses'),
+            (r"(?i)([ti])a$", r'\1a'),
+            (r"(?i)([ti])um$", r'\1a'),
+            (r"(?i)(buffal|potat|tomat)o$", r'\1oes'),
+            (r"(?i)(bu)s$", r'\1ses'),
+            (r"(?i)(alias|status)$", r'\1es'),
+            (r"(?i)(octop|vir)i$", r'\1i'),
+            (r"(?i)(octop|vir)us$", r'\1i'),
+            (r"(?i)^(ax|test)is$", r'\1es'),
+            (r"(?i)s$", r's'),
+            (r"$", r's'),
+        ]
+        self.uncountables = set('''
+            equipment jeans money rice series sheep 
+            species information food livestock English'''.split())
+        self.irregular_plurals =[
+            ('staff', 'staves'),
+            ('tooth', 'teeth'),
+            ('person', 'people'),
+            ('human', 'humans'),
+            ('child', 'children'),
+            ('move', 'moves'),
+            ('zombie', 'zombies'),
+            ('sex', 'sexes'),
+            ('phenomenon', 'phenomena'),
+            ('datum', 'data'),
+            ('goose', 'geese'),
+        ]
+        self.singular_third_regex = [
+            (r"(?i)([^aeiouy])y$", r'\1ies'),
+            (r"(?i)([zs])$", r'\1es'),
+            (r"$", r's'),
+        ]
+        self.perfective_regex = [
+            (r"(?i)ay$", r'aid'),
+            (r"(?i)y$", r'ied'),
+            (r"(?i)w$", r'wed'),
+            (r"(?i)([^aeiou])$", r'\1ed'),
+            (r"$", r'd'),
+        ]
+        self.imperfective_regex = [
+            (r"(?i)e$", r'ing'),
+            (r"$", r'ing'),
+        ]
+    def plural_noun(self, noun):
+        if noun in self.uncountables:
+            return noun
+        if noun in self.irregular_plurals:
+            return self.irregular_plurals[noun]
+        for replaced, replacement in self.plural_regex:
+            if re.search(replaced, noun):
+                return re.sub(replaced, replacement, noun)
+    def singular_third_verb(self, verb):
+        for replaced, replacement in self.singular_third_regex:
+            if re.search(replaced, verb):
+                return re.sub(replaced, replacement, verb)
+    def perfective_verb(self, verb):
+        for replaced, replacement in self.perfective_regex:
+            if re.search(replaced, verb):
+                return re.sub(replaced, replacement, verb)
+    def imperfective_verb(self, verb):
+        for replaced, replacement in self.imperfective_regex:
+            if re.search(replaced, verb):
+                return re.sub(replaced, replacement, verb)
+    def decline(self, tags):
+        is_plural = tags['number']!='singular'
+        is_possessive = tags['case']=='possessive'
+        noun = tags['noun']
+        noun = noun if not is_plural else self.plural_noun(noun)
+        noun = noun if not is_possessive else noun+"'" if noun.endswith("s") and is_plural else noun+"'s"
+        return noun
+    def conjugate(self, tags):
+        verb = tags['verb']
+        if tags['aspect']=='imperfective':
+            return self.imperfective_verb(verb)
+        if tags['tense']=='past' or tags['aspect']=='perfective':
+            return self.perfective_verb(verb)
+        if tags['number']=='singular' and tags['person']=='3':
+            return self.singular_third_verb(verb)
+        return verb
+    def agree(self, tags):
+        return tags['noun']#lol
+
 class EnglishListSubstitution:
     def __init__(self):
         pass
@@ -783,6 +885,7 @@ list_tools = ListTools()
 rule_tools = RuleTools()
 card_formatting = CardFormatting()
 english_list_substitution = EnglishListSubstitution()
+regular_english_grammar = RegularEnglishGrammar()
 
 english_conjugation_template_lookups = DictLookup(
     'english-conjugation',
@@ -810,22 +913,26 @@ english_language = Language(
         # debug=True,
     ),
     ListGrammar(
-        NestedDictLookup(
-            english_conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/english/modern/irregular-conjugations.tsv')),
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/english/modern/regular-conjugations.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-declensions.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/english/modern/common-noun-declensions.tsv')),
-            ])),
+        FallbackDictLookup(
+            NestedDictLookup(
+                english_conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/english/modern/irregular-conjugations.tsv')),
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/english/modern/regular-conjugations.tsv')),
+                ])),
+            ProceduralLookup(regular_english_grammar.conjugate),
+        ),
+        FallbackDictLookup(
+            NestedDictLookup(
+                declension_population.index([
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-declensions.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/english/modern/common-noun-declensions.tsv')),
+                ])),
+            ProceduralLookup(regular_english_grammar.decline),
+        ),
         FallbackDictLookup(
             NestedDictLookup(
                 declension_population.index([
@@ -833,7 +940,7 @@ english_language = Language(
                         tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
                 ])
             ),
-            ProceduralLookup(lambda key:key['noun']),
+            ProceduralLookup(regular_english_grammar.agree),
         ),
         # debug=True,
     ),
