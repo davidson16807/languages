@@ -17,16 +17,18 @@ class DictLookup:
     def __str__(self):
         cell_width = 13
         return '\n'.join([
-                f'DictLookup {self.name} [{len(self)} rows]:', 
-                ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
+                f'DictLookup {self.name}',
+                '[{len(self)} rows]:', 
+                ' '.join([element.rjust(cell_width) for element in self.indexing]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
                   for (tuplekey, value) in self.content.items()],
             ])
     def __repr__(self):
         cell_width = 13
         return '\n'.join([
-                f'DictLookup {self.name} [{len(self)} rows]:', 
-                ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
+                f'DictLookup {self.name}',
+                '[{len(self)} rows]:', 
+                ' '.join([element.rjust(cell_width) for element in self.indexing]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
                   for (tuplekey, value) in self.content.items()],
             ])
@@ -82,6 +84,26 @@ class DictLookup:
                                 ]))
                 else:
                     self.content[tuplekey] = value
+    def __call__(self, other):
+        inpath = [other.indexing.dictkey(point) for point in other]
+        indexing = DictTupleIndexing(
+            list({key for inpoint in inpath 
+                if inpoint in self
+                for key in self[inpoint].keys()})
+        )
+        overlap  = indexing & other.indexing
+        indexing = indexing | other.indexing
+        assert not bool(overlap), '\n'.join([
+            f'Indexes of "{self.name}" and "{other.name}" are not disjoint.',
+            f'Composition is only supported for disjoint indexes. ',
+            f'The overlapping keys are: {overlap}'])
+        composition = DictList(
+            f'({self.name})∘({other.name})', indexing, 
+            [indexing.tuplekey({**self[inpoint], **inpoint})
+             for inpoint in inpath
+             if inpoint in self])
+        print('composition', composition)
+        return composition
     def __contains__(self, dictkey):
         if type(dictkey) in {tuple,str}:
             return dictkey in self.content
@@ -119,14 +141,14 @@ class DictList:
         cell_width = 13
         return '\n'.join([
                 f'DictList {self.name} [{len(self)} rows]:', 
-                ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
+                ' '.join([element.rjust(cell_width) for element in self.indexing]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence],
             ])
     def __repr__(self):
         cell_width = 13
         return '\n'.join([
                 f'DictList {self.name} [{len(self)} rows]:', 
-                ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
+                ' '.join([element.rjust(cell_width) for element in self.indexing]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.sequence],
             ])
     def __contains__(self, key):
@@ -229,14 +251,14 @@ class DictSet:
         cell_width = 13
         return '\n'.join([
                 f'DictSet {self.name} [{len(self)} rows]:', 
-                ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
+                ' '.join([element.rjust(cell_width) for element in self.indexing]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content],
             ])
     def __repr__(self):
         cell_width = 13
         return '\n'.join([
                 f'DictSet {self.name} [{len(self)} rows]:', 
-                ' '.join([element.rjust(cell_width) for element in self.indexing.keys]),
+                ' '.join([element.rjust(cell_width) for element in self.indexing]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) for tuplekey in self.content],
             ])
     def __len__(self):
@@ -467,17 +489,6 @@ class DefaultDictLookup:
             # self.indexing.check(key)
             tuplekeys = list(self.indexing.tuplekeys(key))
             return len(tuplekeys) == 1 and tuplekeys[0] in self
-    def __call__(self, other):
-        indexing = self.indexing | other.indexing
-        overlap  = self.indexing & other.indexing
-        assert not bool(overlap), '\n'.join([
-            f'Indexes of "{self.name}" and "{other.name}" are not disjoint.',
-            f'Composition is only supported for disjoint indexes. ',
-            f'The overlapping keys are: {overlap}'])
-        return DictList(
-            f'({other.name})∘({other.name})', indexing, 
-            [indexing.tuplekey({**self[point], **point}) 
-             for point in other if point in self])
     def __iter__(self):
         return self.content.__iter__()
     def __len__(self):

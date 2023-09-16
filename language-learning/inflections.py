@@ -251,7 +251,7 @@ tagaxis_to_tags = {
            propositive potential conative obligative'''.split(),
 
     'aspect': 
-        '''aorist perfective imperfective
+        '''simple perfective imperfective
            habitual continuous
            progressive nonprogressive
            stative terminative prospective consecutive usitative iterative
@@ -441,7 +441,7 @@ declension_verb_annotation = CellAnnotation(
 template_verb_annotation = CellAnnotation(
     'verb', term_to_termaxis, {0:'template'}, {}, {})
 template_subject_annotation = RowAnnotation('flag subjectivity verb dummy-noun'.split())
-template_direct_object_annotation = RowAnnotation('flag verb dummy-valency dummy-motion dummy-role dummy-subjectivity dummy-noun'.split())
+template_direct_object_annotation = RowAnnotation('flag verb valency dummy-motion dummy-role dummy-subjectivity dummy-noun'.split())
 template_tree_annotation = RowAnnotation('flag valency subjectivity tree'.split())
 noun_template_annotation = RowAnnotation('noun template'.split())
 
@@ -453,11 +453,14 @@ emoji_noun_verb_population = FlatLookupPopulation(DictLookup('emoji noun verb', 
 emoji_verb_population = FlatLookupPopulation(DictLookup('emoji verb', DictTupleIndexing('template verb'.split())), KeyEvaluation('emoji'))
 emoji_noun_declensions_population = FlatLookupPopulation(DictLookup('declension-templates', DictTupleIndexing('valency subjectivity motion role'.split())), KeyEvaluation('inflection'))
 mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing('mood column'.split())), KeyEvaluation('inflection'))
+noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('noun template'.split()), set()))
 template_verb_population = DictSetPopulation(DictSet('template-verb', DictTupleIndexing('template role subjectivity valency verb'.split()), set()))
 template_subject_population = DictSetPopulation(DictSet('template-subject', DictTupleIndexing('verb subjectivity dummy-noun'.split()), set()))
-template_direct_object_population = DictSetPopulation(DictSet('template-direct-object', DictTupleIndexing('verb dummy-valency dummy-motion dummy-role dummy-subjectivity dummy-noun'.split()), set()))
 template_tree_population = FlatLookupPopulation(DictLookup('template-tree', DictTupleIndexing('valency subjectivity'.split())), KeyEvaluation('tree'))
-noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('noun template'.split()), set()))
+template_direct_object_population = FlatLookupPopulation(
+    DictLookup('template-direct-object', DictTupleIndexing('verb'.split())), 
+    MultiKeyEvaluation('valency dummy-motion dummy-role dummy-subjectivity dummy-noun'.split()) 
+)
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 
@@ -495,7 +498,7 @@ template_subject_whitelist = (
             tsv_parsing.rows('data/inflection/template-direct-objects.tsv')))
 )
 
-template_direct_object_whitelist = (
+template_direct_object_lookup = (
     template_direct_object_population.index(
         template_direct_object_annotation.annotate(
             tsv_parsing.rows('data/inflection/template-direct-objects.tsv')))
@@ -663,9 +666,8 @@ class RegularEnglishGrammar:
         ]
         self.perfective_regex = [
             (r"(?i)ay$", r'aid'),
-            (r"(?i)y$", r'ied'),
-            (r"(?i)w$", r'wed'),
-            (r"(?i)([^aeiou])$", r'\1ed'),
+            (r"(?i)([^aeiou])y$", r'\1ied'),
+            (r"(?i)([^aeiouyw])$", r'\1ed'),
             (r"$", r'd'),
         ]
         self.imperfective_regex = [
@@ -821,7 +823,7 @@ class EnglishListSubstitution:
                 aspect = 'perfective-progressive'
         else:
             aspect = 'simple'
-        verb = {
+        aspect_to_tree = {
             'arrested':               [['passive','simple', 'implicit', 'v', 'halt'], 'from', 'finite', ['unfinished', tree]],
             'paused':                 [['active', 'simple', 'implicit', 'v', 'pause'], 'finite', ['unfinished', tree]],
             'resumed':                [['active', 'simple', 'implicit', 'v', 'resume'], 'finite', ['unfinished', tree]],
@@ -829,13 +831,13 @@ class EnglishListSubstitution:
             # 'finished':             [['active', 'simple', 'implicit', 'v', 'finish'], 'finite', ['unfinished', tree]],
             'experiential':           [['active', 'simple', 'implicit', 'v', 'experience'], 'finite', ['unfinished', tree]],
             'simple':                 tree,
-            'perfective-progressive': [['active', 'simple', 'v', 'have'], 'finite', ['finished', 'v', 'be'], ['unfinished', tree]],
-            'imperfective':           [['active', 'simple', 'v', 'be'],   'unfinished', 'finite', tree],
-            'perfective':             [['active', 'simple', 'v', 'have'], 'finished', 'finite', tree],
-        }[aspect]
+            'perfective-progressive': [['active', 'simple', 'atelic', 'v', 'have'], 'finite', ['finished', 'v', 'be'], ['unfinished', tree]],
+            'imperfective':           [['active', 'simple', 'atelic', 'v', 'be'],   'unfinished', 'finite', tree],
+            'perfective':             [['active', 'simple', 'atelic', 'v', 'have'], 'finished', 'finite', tree],
+        }
         # if (memory['verb'], progress, tense, memory['mood']) == ('go', 'finished', 'present', 'indicative'):
         #     breakpoint()
-        return verb
+        return aspect_to_tree[aspect]
         # return [*preverb, *verb, *postverb]
     def voice(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express voice'''

@@ -4,13 +4,13 @@
 	arrive	transitive	acquired-dummy	location-dummy	modifier-dummy	house-dummy	#		rock	carried by men, hit or thrown in good taste	placement
 	ask	transitive	associated-dummy	theme-dummy	direct-object-dummy	man-dummy	#		enemy	captures men and is captured	captivity
 	bake	transitive	associated-dummy	patient-dummy	direct-object-dummy	food-dummy	#		guard	captures and releases men	captivity
-	be	transitive	associated-dummy	predicate-dummy		strong-dummy	#		monster	eats men in relatively fanciful good taste 	consumption
+	be	transitive	associated-dummy	predicate-dummy	direct-object-dummy	strong-dummy	#		monster	eats men in relatively fanciful good taste 	consumption
 #	be-able		-dummy	-dummy	-dummy	to work-dummy	#		food	eaten by men, cooked	consumption
 #	be-red	intransitive	-dummy	-dummy	-dummy	-dummy	#		book	read and written	literature
-	be[inherently]	transitive	associated-dummy	predicate-dummy		big-dummy	#		water	drunk, swum in, cools most objects	consumption, medium
-	be[momentarily]	transitive	associated-dummy	predicate-dummy		strong-dummy	#		horse	something directed or tamed	domestication
+	be[inherently]	transitive	associated-dummy	predicate-dummy	direct-object-dummy	big-dummy	#		water	drunk, swum in, cools most objects	consumption, medium
+	be[momentarily]	transitive	associated-dummy	predicate-dummy	direct-object-dummy	strong-dummy	#		horse	something directed or tamed	domestication
 	beat	transitive	associated-dummy	patient-dummy	direct-object-dummy	drum-dummy	#		work	something that can be done	activity
-	become	transitive	associated-dummy	predicate-dummy		strong-dummy	#		gift	given and taken	exchange
+	become	transitive	associated-dummy	predicate-dummy	direct-object-dummy	strong-dummy	#		gift	given and taken	exchange
 #	become cold	intransitive	-dummy		-dummy	-dummy	#	place	house	location, interior, property	travel
 	burn	transitive	associated-dummy	patient-dummy	direct-object-dummy	food-dummy	#		dog	something that can be loved generically and in good taste	domestication
 	call	transitive	associated-dummy	theme-dummy	direct-object-dummy	man-dummy	#		boat	floats and sinks, steered	conduction

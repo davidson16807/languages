@@ -48,8 +48,7 @@ class Language:
             'perfective':  {'aspect': 'perfective'},
             'imperfective':{'aspect': 'imperfective'},
             'progressive': {'aspect': 'imperfective'},
-            'aorist':      {'aspect': 'aorist'},
-            'simple':      {'aspect': 'aorist'},
+            'simple':      {'aspect': 'simple'},
             'finished':    {'progress': 'finished'},
             'unfinished':  {'progress': 'unfinished'},
             'atelic':      {'progress': 'atelic'},
@@ -80,7 +79,7 @@ class Language:
         }
         tag_insertion = {opcode:self.semantics.tag({**value,'script':script}, remove=False) for (opcode, value) in opcode_tags.items()}
         tag_removal   = {opcode:self.semantics.tag({**value,'script':script}, remove=True)  for (opcode, value) in opcode_tags.items()}
-        rules = 'clause cloze implicit parentheses det adj np vp n v stock-modifier stock-adposition'
+        rules = 'clause cloze implicit parentheses det adj np vp n v stock-adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in self.substitutions], # language specific substitutions

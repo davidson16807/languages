@@ -31,7 +31,7 @@ from inflections import (
     emoji_casts,
     template_verb_whitelist,
     template_subject_whitelist,
-    template_direct_object_whitelist,
+    template_direct_object_lookup,
     template_tree_lookup,
     noun_template_whitelist,
 )
@@ -345,24 +345,25 @@ possessor_pronoun_traversal = parse.tokenpath(
     man    3 plural   neuter   
     ''')
 
+#useful for debugging
+def head(store):
+    print(str(store)[:3000])
+
 tense_progress_mood_voice_verb_traversal = (
-    (((((finite_tense_progress_traversal
+    (((((
+          finite_tense_progress_traversal
         * axis['mood'])
         & mood_tense_whitelist) 
         * axis['voice'])
-        & voice_progress_whitelist) 
+        & voice_progress_whitelist)
         * axis['verb'])
     - verb_progress_blacklist
     - verb_mood_blacklist
     - verb_voice_blacklist
 )
 
-conjugation_subject_defaults = (
-    constant['subject'] * 
-    constant['stimulus'] * 
-    constant['associated'] * 
-    constant['intransitive']
-)
+
+conjugation_traversal = template_direct_object_lookup(tense_progress_mood_voice_verb_traversal)
 
 roles = parse_any.termspace('role', 'role', 
     'role: stimulus location possessor interior surface presence aid lack interest time company')
@@ -397,22 +398,16 @@ print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
-            substitutions = [
-                {'conjugated': list_tools.replace(['cloze', 'v', 'verb'])},
-                {'stock-modifier': foreign_language.grammar.stock_modifier},
-            ],
             tree_lookup = UniformDictLookup(
-                'clause [test [np the n] [vp conjugated]] [test modifier np stock-modifier]',)
+                'clause [test [np the n] [vp cloze v verb]] [dummy np [stock-adposition] the n]',)
         ) for demonstration in demonstrations],
         defaults.override(
               conjugation_subject_traversal 
-            * tense_progress_mood_voice_verb_traversal 
-            * conjugation_subject_defaults 
+            * conjugation_traversal
         ),
         tag_templates ={
-            'test'    : parse.termaxis_to_term('personal agent associated'),
-            'modifier': parse.termaxis_to_term('common patient modifier associated'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient man'),
+            'test'    : parse.termaxis_to_term('personal associated agent subject'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient'),
         },
     ))
 
@@ -422,27 +417,23 @@ write('flashcards/latin/nonfinite-conjugation.html',
         [
             emoji_demonstration.generator(),
             foreign_demonstration.generator(
-                substitutions = [{'stock-modifier': foreign_language.grammar.stock_modifier}],
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np the n] [vp cloze v verb]]] [test modifier np stock-modifier]',)
+                    'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np the n] [vp cloze v verb]]] [dummy np [stock-adposition] the n]',)
             ),
             english_demonstration.generator(
-                substitutions = [{'stock-modifier': foreign_language.grammar.stock_modifier}],
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n] [vp cloze v verb]]] [test modifier np stock-modifier]',)
+                    'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n] [vp cloze v verb]]] [dummy np [stock-adposition] the n]',)
             ),
         ],
         defaults.override(
-            ((  tense_progress_mood_voice_verb_traversal 
+            ((  conjugation_traversal 
               & nonfinite_tense_progress_whitelist) 
               - constant['imperative'])
-            * conjugation_subject_defaults
         ),
         tag_templates ={
-            'test'    : parse.termaxis_to_term('personal agent associated'),
-            'modifier': parse.termaxis_to_term('common patient modifier associated'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient man'),
-            'speaker' : parse.termaxis_to_term('personal agent associated 1 singular masculine sapient man familiar present aorist active indicative'),
+            'test'    : parse.termaxis_to_term('personal associated agent subject'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient'),
+            'speaker' : parse.termaxis_to_term('personal associated agent subject 1 singular masculine sapient man familiar present simple active indicative'),
         },
     ))
 
@@ -450,25 +441,23 @@ print('flashcards/latin/participle-declension.html')
 write('flashcards/latin/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
-            substitutions = [{'stock-modifier': foreign_language.grammar.stock_modifier}],
             tree_lookup = UniformDictLookup(
                 '''clause test [
-                    [np the [n] [parentheses participle [cloze v verb] [modifier np stock-modifier]]]
+                    [np the [n] [parentheses participle [cloze v verb] [dummy np [stock-adposition] the n]]]
                     [vp active present atelic v appear]
                 ]'''),
         ) for demonstration in demonstrations],
         defaults.override(
-            (   tense_progress_mood_voice_verb_traversal
+            (   conjugation_traversal
               & nonfinite_tense_progress_whitelist
               & constant['indicative']
               & constant['atelic'])
-            * conjugation_subject_defaults
         ),
         tag_templates ={
-            'test'       : parse.termaxis_to_term('common singular masculine sapient man'),
-            'modifier'   : parse.termaxis_to_term('common patient modifier associated'),
+            'test'    : parse.termaxis_to_term('common associated agent subject'),
+            # 'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient'),
             'dummy'      : parse.termaxis_to_term('common singular masculine'),
-            'participle' : parse.termaxis_to_term('common participle nominative'),
+            'participle' : parse.termaxis_to_term('common participle subject'),
         },
     ))
 

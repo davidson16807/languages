@@ -18,6 +18,8 @@ class DictKeyIndexing:
         return ''.join([f'DictKeyIndexing(', self.key, ')'])
     def __repr__(self):
         return ''.join([f'DictKeyIndexing(', self.key, ')'])
+    def __iter__(self):
+        return [self.key].__iter__()
     def dictkey(self, tuplekey):
         return {self.key:tuplekey}
     def check(self, dictkey):

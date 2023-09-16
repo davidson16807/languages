@@ -26,7 +26,7 @@ def TextDemonstration(
                 ])
             else:
                 return '\\placeholder'
-        def generator(self, substitutions, tree_lookup, debug=False, **junk):
+        def generator(self, tree_lookup, substitutions=[], debug=False, **junk):
             def demonstrate(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
                 semes = {
@@ -38,6 +38,7 @@ def TextDemonstration(
                         **(tag_templates[label]  if label in tag_templates else {})}
                     for label in 'test dummy speaker modifier participle'.split()
                 }
+                # breakpoint()
                 completed_substitutions = [
                     *substitutions,
                     *[{key: tools.replace(tags[key])}

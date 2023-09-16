@@ -1,7 +1,7 @@
 *	*	*	*	*	*	*	*	*	aspect	preverb	postverb	#
 #	duration	progress	consistency	ordinality	persistance	recency	trajectory	distribution				#
-		atomic							aorist			#
-		atelic							aorist			#
+		atomic							simple			#
+		atelic							simple			#
 		started							imperfective			#
 		unfinished							imperfective			#
 		attempted							imperfective			#
