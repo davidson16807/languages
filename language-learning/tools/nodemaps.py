@@ -57,7 +57,8 @@ class ListSemantics:
             return arguments if remove else [tree[0], *arguments]
         return _map
     def stock_adposition(self, treemap, content, tags):
-        return ([] if tags not in self.case_usage
+        return (content if len(content) > 1
+            else [] if tags not in self.case_usage
             else [] if 'preposition' not in self.case_usage[tags]
             else [content[0], self.case_usage[tags]['preposition']])
 
@@ -133,6 +134,7 @@ class RuleSyntax:
     """
     def __init__(self, sentence_structure):
         self.sentence_structure = sentence_structure
+        self.noun_phrase_structure = 'stock-adposition v det adj n np misc v clause'.split()
     def order_clause(self, treemap, clause):
         rules = clause.content
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
@@ -159,14 +161,25 @@ class RuleSyntax:
                 for phrase in phrase_lookup[phrase_type]
             ]))
     def order_noun_phrase(self, treemap, phrase):
-        # rules = [element for element in phrase.content if isinstance(element, Rule)]
+        # if 'alt' in str(phrase):
+        #     print(phrase)
+        #     # breakpoint()
+        rules = [element for element in phrase.content if isinstance(element, Rule)]
+        nonrules = [element for element in phrase.content if not isinstance(element, Rule)]
+        part_to_words = {
+            **{
+                part: [rule
+                    for rule in rules
+                    if rule.tag == part]
+                for part in 'stock-adposition v det adj n np misc clause'.split()
+            },
+            'misc': [nonrule for nonrule in nonrules]
+        }
         return Rule(phrase.tag, 
             phrase.tags, 
-            treemap.map([
-                content for content in phrase.content 
-                if not isinstance(content,Rule) or 
-                   content.tag not in {'det'} or 
-                   ('noun-form' in content.tags and content.tags['noun-form'] in {'common'})
+            treemap.map([element
+                        for part in self.noun_phrase_structure
+                        for element in part_to_words[part]
             ]))
 
 class RuleFormatting:
@@ -181,24 +194,61 @@ class RuleFormatting:
         self.empty_regex = re.compile('∅')
     def default(self, treemap, element):
         newline = '&#xA;'
-        def format_section(lookup, tags):
+        clozure = lambda rule: 'show-clozure' in rule.tags and rule.tags['show-clozure']
+        parenthesis = lambda rule: 'show-parentheses' in rule.tags and rule.tags['show-parentheses']
+        brackets = lambda rule: 'show-brackets' in rule.tags and rule.tags['show-brackets']
+        def format_note_section(lookup, tags):
             return newline.join([
                 f'{key} : {lookup[key]}'
                 for key in tags
                 if key in lookup])
-        def format_lookup(lookup):
+        def format_notes(lookup):
             return (newline*2).join([
-                format_section(lookup, 'mood evidentiality confidence'.split()),
-                format_section(lookup, 'aspect progress'.split()),
-                format_section(lookup, 'verb verb-form completion strength voice tense'.split()),
-                format_section(lookup, 'case subjectivity valency motion role'.split()),
-                format_section(lookup, 'noun noun-form person number gender clusivity formality clitic partitivity'.split()),
-                format_section(lookup, 'language-type script'.split()),
-                format_section(lookup, 'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality'.split()),
+                format_note_section(lookup, 'mood evidentiality confidence'.split()),
+                format_note_section(lookup, 'aspect progress'.split()),
+                format_note_section(lookup, 'verb verb-form completion strength voice tense'.split()),
+                format_note_section(lookup, 'case subjectivity valency motion role'.split()),
+                format_note_section(lookup, 'noun noun-form definiteness person number gender clusivity formality clitic partitivity'.split()),
+                format_note_section(lookup, 'language-type script'.split()),
+                format_note_section(lookup, 'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality'.split()),
             ])
+        def format_rule(rule):
+            tokens = []
+            was_clozed = clozure(rule)
+            was_parens = parenthesis(rule)
+            was_brackets = brackets(rule)
+            for subrule in rule.content:
+                if type(subrule) == Rule:
+                    # TODO: fix this up into functions that operate 
+                    if not was_clozed and clozure(subrule):
+                        tokens.append('{{c1::')
+                        was_clozed = True
+                    if was_clozed and not clozure(subrule):
+                        tokens.append('}}')
+                        was_clozed = False
+                    if not was_parens and parenthesis(subrule):
+                        tokens.append('(')
+                        was_parens = True
+                    if was_parens and not parenthesis(subrule):
+                        tokens.append(')')
+                        was_parens = False
+                    if not was_brackets and brackets(subrule):
+                        tokens.append('[')
+                        was_brackets = True
+                    if was_brackets and not brackets(subrule):
+                        tokens.append(']')
+                        was_brackets = False
+                tokens.append(str(treemap.map(subrule)))
+            if was_clozed and not clozure(rule):
+                tokens.append('}}')
+            if was_parens and not parenthesis(rule):
+                tokens.append(')')
+            if was_brackets and not brackets(rule):
+                tokens.append(']')
+            return f'<span title="{format_notes(rule.tags)}">{" ".join(tokens)}</span>'
         result ={
             str:        lambda text: text,
-            Rule:       lambda rule: f'<span title="{format_lookup(rule.tags)}">{" ".join([str(treemap.map(subrule)) for subrule in rule.content])}</span>',
+            Rule:       lambda rule: format_rule(rule),
             type(None): lambda none: f'[MISSING]',
         }[type(element)](element)
         result = self.affix_regex.sub(self.affix_delimiter, result)

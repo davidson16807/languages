@@ -399,7 +399,7 @@ write('flashcards/latin/finite-conjugation.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
-                'clause [test [np the n] [vp cloze v verb]] [dummy np [stock-adposition] the n]',)
+                'clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]',)
         ) for demonstration in demonstrations],
         defaults.override(
               conjugation_subject_traversal 
@@ -418,11 +418,11 @@ write('flashcards/latin/nonfinite-conjugation.html',
             emoji_demonstration.generator(),
             foreign_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np the n] [vp cloze v verb]]] [dummy np [stock-adposition] the n]',)
+                    'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np n] [vp cloze v verb]]] [dummy np [stock-adposition] n]',)
             ),
             english_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [np the n man] [vp v figure]] [modifier np clause [test [np the n] [vp cloze v verb]]] [dummy np [stock-adposition] the n]',)
+                    'clause [speaker finite [np n man] [vp v figure]] [modifier np clause [test [np n] [vp cloze v verb]]] [dummy np [stock-adposition] n]',)
             ),
         ],
         defaults.override(
@@ -443,7 +443,7 @@ write('flashcards/latin/participle-declension.html',
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
                 '''clause test [
-                    [np the [n] [parentheses participle [cloze v verb] [dummy np [stock-adposition] the n]]]
+                    [np participle clause [np n] parentheses [vp cloze v verb] [dummy np n]]
                     [vp active present atelic v appear]
                 ]'''),
         ) for demonstration in demonstrations],
@@ -454,10 +454,10 @@ write('flashcards/latin/participle-declension.html',
               & constant['atelic'])
         ),
         tag_templates ={
-            'test'    : parse.termaxis_to_term('common associated agent subject'),
-            # 'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient'),
+            'test'    : parse.termaxis_to_term('common definite associated agent subject'),
+            # 'dummy'   : parse.termaxis_to_term('common definite 3 singular masculine sapient'),
             'dummy'      : parse.termaxis_to_term('common singular masculine'),
-            'participle' : parse.termaxis_to_term('common participle subject'),
+            'participle' : parse.termaxis_to_term('common definite participle subject'),
         },
     ))
 
@@ -478,12 +478,12 @@ write('flashcards/latin/adpositions.html',
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
-            'test'       : parse.termaxis_to_term('common'),
+            'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
 
 print('flashcards/latin/common-noun-declension.html')
-write('flashcards/latin/common-noun-declension.html', 
+write('flashcards/latin/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -495,7 +495,7 @@ write('flashcards/latin/common-noun-declension.html',
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
-            'test'       : parse.termaxis_to_term('common'),
+            'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
 
@@ -512,7 +512,7 @@ write('flashcards/latin/pronoun-declension.html',
             - subjectivity_person_blacklist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine sapient man'),
+            'dummy'      : parse.termaxis_to_term('common definite 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('personal'),
         },
     ))
@@ -533,7 +533,7 @@ write('flashcards/latin/adjective-agreement.html',
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
-            'test'       : parse.termaxis_to_term('common'),
+            'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
 

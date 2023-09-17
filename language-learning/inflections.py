@@ -142,7 +142,7 @@ aspect_episemaxis_to_episemes = {
     # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "semantic case", "semantic aspect", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     # how long the event occurs for
-    'duration':            'brief protracted indefinite'.split(), 
+    'duration':            'brief protracted indeterminate'.split(), 
     # how consistently the event occurs
     'progress':            'atomic atelic started unfinished attempted transitioning paused arrested resumed continued finished'.split(),
     # whether the event is one part in a sequence of events
@@ -190,9 +190,10 @@ tagaxis_to_tags = {
     'strength':   'strong weak'.split(),
 
     # needed for finite forms
-    'person':     '1 2 3 4'.split(),
-    'number':     'singular dual trial paucal plural superplural'.split(),
-    'clusivity':  'inclusive exclusive'.split(),
+    'person':      '1 2 3 4'.split(),
+    'number':      'singular dual trial paucal plural superplural'.split(),
+    'definiteness':'definite indefinite'.split(),
+    'clusivity':   'inclusive exclusive'.split(),
 
     # needed for Spanish
     'formality':  'familiar polite elevated formal tuteo voseo'.split(),
@@ -397,7 +398,7 @@ declension_template_lookups = DictLookup(
         'quantifier': parse_any.termfield('quantifier', 
             'quantity number gender animacy partitivity case script', ''),
         'interrogative':      DictLookup('interrogative',      basic_pronoun_declension_hashing),
-        'indefinite':         DictLookup('indefinite',         basic_pronoun_declension_hashing),
+        # 'indefinite':         DictLookup('indefinite',         basic_pronoun_declension_hashing),
         'relative':           DictLookup('relative',           basic_pronoun_declension_hashing),
         'numeral':            DictLookup('numeral',            basic_pronoun_declension_hashing),
         'reciprocal':         DictLookup('reciprocal',         reflexive_pronoun_declension_hashing),
@@ -441,7 +442,7 @@ declension_verb_annotation = CellAnnotation(
 template_verb_annotation = CellAnnotation(
     'verb', term_to_termaxis, {0:'template'}, {}, {})
 template_subject_annotation = RowAnnotation('flag subjectivity verb dummy-noun'.split())
-template_direct_object_annotation = RowAnnotation('flag verb valency dummy-motion dummy-role dummy-subjectivity dummy-noun'.split())
+template_direct_object_annotation = RowAnnotation('flag verb valency dummy-motion dummy-role dummy-subjectivity dummy-definiteness dummy-noun'.split())
 template_tree_annotation = RowAnnotation('flag valency subjectivity tree'.split())
 noun_template_annotation = RowAnnotation('noun template'.split())
 
@@ -459,7 +460,7 @@ template_subject_population = DictSetPopulation(DictSet('template-subject', Dict
 template_tree_population = FlatLookupPopulation(DictLookup('template-tree', DictTupleIndexing('valency subjectivity'.split())), KeyEvaluation('tree'))
 template_direct_object_population = FlatLookupPopulation(
     DictLookup('template-direct-object', DictTupleIndexing('verb'.split())), 
-    MultiKeyEvaluation('valency dummy-motion dummy-role dummy-subjectivity dummy-noun'.split()) 
+    MultiKeyEvaluation('valency dummy-motion dummy-role dummy-subjectivity dummy-definiteness dummy-noun'.split()) 
 )
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
@@ -558,6 +559,7 @@ nouns_to_depictions = {
     'thing':'bolt',
     'phenomenon': 'eruption',
 };
+
 LanguageSpecificTextDemonstration = TextDemonstration(
     mood_population.index(
         mood_annotation.annotate(
@@ -567,6 +569,7 @@ LanguageSpecificTextDemonstration = TextDemonstration(
     ListParsing(), 
     ListTools()
 )
+
 LanguageSpecificEmojiDemonstration = EmojiDemonstration(
     nouns_to_depictions,
     emoji_noun_adjective_population.index(
@@ -593,8 +596,6 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
     HtmlTenseTransform(), 
     HtmlProgressTransform(), 
 )
-
-
 
 def write(filename, rows):
     with open(filename, 'w') as file:
@@ -722,7 +723,7 @@ class EnglishListSubstitution:
         tense = memory['tense']
         voice = memory['voice']
         if form  == 'participle': 
-            return ['implicit', 'that', 'finite', tree]
+            return [['stock-adposition','that'], 'finite', tree]
         return tree
     def mood(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express mood'''
@@ -765,7 +766,7 @@ class EnglishListSubstitution:
         postverb = []
         if duration == 'protracted':
             postverb.append('[on and on]')
-        if duration == 'indefinite':
+        if duration == 'indeterminate':
             postverb.append('[on and on endlessly]')
         if progress == 'unfinished':
             postverb.append('[still unfinished]')
@@ -845,6 +846,15 @@ class EnglishListSubstitution:
         if voice  == 'passive': return [['active', 'v', 'be'],             'finite', ['active', 'finished', tree]]
         if voice  == 'middle':  return [['active', 'implicit', 'v', 'be'], 'finite', ['active', 'finished', tree]]
         return tree
+    def definiteness(self, machine, tree, memory):
+        '''creates articles when necessary to express definiteness'''
+        definiteness = memory['definiteness'] if 'definiteness' in memory else 'indefinite'
+        subjectivity = memory['subjectivity']
+        nounform = memory['noun-form']
+        if definiteness == 'definite' and subjectivity != 'addressee' and nounform != 'personal': 
+            return [['det','the'], tree]
+        else:
+            return tree
     def formality_and_gender(self, machine, tree, memory):
         '''creates pronouns procedurally when necessary to capture distinctions in formality from other languages'''
         formality = memory['formality']
@@ -958,8 +968,10 @@ english_language = Language(
         {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
         {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
         {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
+        {'n': english_list_substitution.definiteness},         # English needs annotations to clarify the formalities and genders of other languages
         {'n': english_list_substitution.formality_and_gender}, # English needs annotations to clarify the formalities and genders of other languages
-    ]
+    ],
+    # debug=True,
 )
 
 english_orthography = Orthography('latin', english_language)

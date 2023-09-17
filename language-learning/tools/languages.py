@@ -27,7 +27,8 @@ class Language:
             list_tools,
             rule_tools,
             formatting,
-            substitutions=[]):
+            substitutions=[],
+            debug=False):
         self.semantics = semantics
         self.grammar = grammar
         self.syntax = syntax
@@ -36,12 +37,12 @@ class Language:
         self.rule_tools = rule_tools
         self.formatting = formatting
         self.substitutions = substitutions
+        self.debug = debug
     def map(self, tree, script, semes={}, substitutions=[], debug=False):
-        article_substitution = {
-            'the': self.list_tools.replace(['det', 'the']),
-            'a':   self.list_tools.replace(['det', 'a']),
-        }
         opcode_tags = {
+            'cloze':       {'show-clozure': True, 'show-alternates':True},
+            'parentheses': {'show-parentheses': True},
+            'implicit':    {'show-brackets': True},
             'informal':    {'formality': 'informal'},
             'indicative':  {'mood': 'indicative'},
             'present':     {'tense': 'present'},
@@ -79,14 +80,12 @@ class Language:
         }
         tag_insertion = {opcode:self.semantics.tag({**value,'script':script}, remove=False) for (opcode, value) in opcode_tags.items()}
         tag_removal   = {opcode:self.semantics.tag({**value,'script':script}, remove=True)  for (opcode, value) in opcode_tags.items()}
-        rules = 'clause cloze implicit parentheses det adj np vp n v stock-adposition'
+        rules = 'clause det adj np vp n v stock-adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in self.substitutions], # language specific substitutions
-            ListTreeMap({**tag_insertion, **article_substitution}),
             ListTreeMap({
                 **tag_insertion, 
-                'cloze':            self.list_tools.tag({'show-alternates':True}, remove=False),
                 'stock-adposition': self.semantics.stock_adposition,
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
@@ -103,17 +102,14 @@ class Language:
             }),
             RuleTreeMap({
                 **{tag:self.formatting.default for tag in rules.split()},
-                'cloze':   self.formatting.cloze,
-                'implicit':self.formatting.implicit,
-                'parentheses':self.formatting.parentheses,
             }),
         ]
-        if debug:
+        if debug or self.debug:
             print(f'input:')
             print(tree)
         for i, step in enumerate(pipeline):
             tree = step.map(tree, {**self.tags, 'script': script})
-            if debug:
+            if debug or self.debug:
                 print(f'step {i} results:')
                 print(tree)
         return tree

@@ -1,91 +1,91 @@
-#	verb	valency	dummy-motion	dummy-role	dummy-subjectivity	dummy-noun	#		noun	usages	classification
-	act	transitive	associated-dummy	predicate-dummy	direct-object-dummy	strong-dummy	#		man	multipurpose	
-	advise	transitive	associated-dummy	theme-dummy	direct-object-dummy	man-dummy	#		wind	carries men, flown in	placement, medium
-	arrive	transitive	acquired-dummy	location-dummy	modifier-dummy	house-dummy	#		rock	carried by men, hit or thrown in good taste	placement
-	ask	transitive	associated-dummy	theme-dummy	direct-object-dummy	man-dummy	#		enemy	captures men and is captured	captivity
-	bake	transitive	associated-dummy	patient-dummy	direct-object-dummy	food-dummy	#		guard	captures and releases men	captivity
-	be	transitive	associated-dummy	predicate-dummy	direct-object-dummy	strong-dummy	#		monster	eats men in relatively fanciful good taste 	consumption
-#	be-able		-dummy	-dummy	-dummy	to work-dummy	#		food	eaten by men, cooked	consumption
-#	be-red	intransitive	-dummy	-dummy	-dummy	-dummy	#		book	read and written	literature
-	be[inherently]	transitive	associated-dummy	predicate-dummy	direct-object-dummy	big-dummy	#		water	drunk, swum in, cools most objects	consumption, medium
-	be[momentarily]	transitive	associated-dummy	predicate-dummy	direct-object-dummy	strong-dummy	#		horse	something directed or tamed	domestication
-	beat	transitive	associated-dummy	patient-dummy	direct-object-dummy	drum-dummy	#		work	something that can be done	activity
-	become	transitive	associated-dummy	predicate-dummy	direct-object-dummy	strong-dummy	#		gift	given and taken	exchange
-#	become cold	intransitive	-dummy		-dummy	-dummy	#	place	house	location, interior, property	travel
-	burn	transitive	associated-dummy	patient-dummy	direct-object-dummy	food-dummy	#		dog	something that can be loved generically and in good taste	domestication
-	call	transitive	associated-dummy	theme-dummy	direct-object-dummy	man-dummy	#		boat	floats and sinks, steered	conduction
-	capture	transitive	associated-dummy	theme-dummy	direct-object-dummy	enemy-dummy	#		shirt	cleaned, worn, chosen, preferred	preference, maitenance, dress
-#	carry	intransitive	-dummy		-dummy	by wind-dummy	#		rope	can be deformed	deformation
-	carry	transitive	associated-dummy	theme-dummy	direct-object-dummy	rock-dummy	#	door	window	closed, opened, and broken in good taste	state change
-	catch	transitive	associated-dummy	theme-dummy	direct-object-dummy	enemy-dummy	#		name	spoken	speech
-	choose 	transitive	associated-dummy	theme-dummy	direct-object-dummy	shirt-dummy	#		drum	beaten in good taste and makes noise	collision, sound, music
-	climb	transitive	associated-dummy	theme-dummy	direct-object-dummy	rock-dummy	#		picture	drawn and seen	art
-	close	transitive	associated-dummy	patient-dummy	direct-object-dummy	door-dummy	#		car	driven	conduction
-	convey	transitive	associated-dummy	theme-dummy	direct-object-dummy	idea-dummy	#		oath	spoken	speech
-#	cool	intransitive	-dummy		-dummy	-dummy	#		idea	thought and taught	thought
-#	dance	intransitive	-dummy		-dummy	-dummy	#	well	strong	something you can be momentarily	momentary state
-	direct	transitive	associated-dummy	theme-dummy	direct-object-dummy	horse-dummy	#	son	big	something you are inherently	inherent state
-	do	transitive	associated-dummy	theme-dummy	direct-object-dummy	work-dummy	#		way	shown	
-	draw	transitive	associated-dummy	patient-dummy	direct-object-dummy	picture-dummy	#		bug	something that can fly and treat most objects as surfaces in relatively good taste	
-	drink	transitive	associated-dummy	patient-dummy	direct-object-dummy	water-dummy	#		heat	passes through most objects, without or without interiors	travel
-	drive	transitive	associated-dummy	theme-dummy	direct-object-dummy	horse-dummy	#		fire	warms most objects	
-	eat	transitive	associated-dummy	patient-dummy	direct-object-dummy	food-dummy	#				
-	fear	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	monster-dummy	#				
-	feed	transitive	associated-dummy	patient-dummy	direct-object-dummy	dog-dummy	#				
-	find	transitive	associated-dummy	theme-dummy	direct-object-dummy	book-dummy	#				
-	forgive	transitive	associated-dummy	theme-dummy	direct-object-dummy	man-dummy	#				
-	give	transitive	associated-dummy	theme-dummy	direct-object-dummy	gift-dummy	#				
-	go	intransitive	approached-dummy	location-dummy	modifier-dummy	house-dummy	#				
-	have [in possession]	transitive	associated-dummy	theme-dummy	direct-object-dummy	money-dummy	#				
-#	hear		-dummy		-dummy	by guard-dummy	#				
-	hear	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	drum-dummy	#				
-	hit	transitive	associated-dummy	patient-dummy	direct-object-dummy	drum-dummy	#				
-	hold	transitive	associated-dummy	theme-dummy	direct-object-dummy	rock-dummy	#				
-	know	transitive	associated-dummy	theme-dummy	direct-object-dummy	man-dummy	#				
-	lead	transitive	associated-dummy	theme-dummy	direct-object-dummy	horse-dummy	#				
-	leave	transitive	associated-dummy	theme-dummy	direct-object-dummy	house-dummy	#				
-	live	transitive	associated-dummy	predicate-dummy	direct-object-dummy	well-dummy	#				
-	lose   	transitive	associated-dummy	theme-dummy	direct-object-dummy	money-dummy	#				
-	love	transitive	associated-dummy	theme-dummy	direct-object-dummy	dog-dummy	#				
-#	may		-dummy	theme-dummy	-dummy	ride bike to school-dummy	#				
-	move	transitive	associated-dummy	theme-dummy	direct-object-dummy	rock-dummy	#				
-	part	transitive	associated-dummy	theme-dummy	direct-object-dummy	water-dummy	#				
-	pass for	transitive	associated-dummy	theme-dummy	direct-object-dummy	guard-dummy	#				
-	pay	transitive	associated-dummy	theme-dummy	direct-object-dummy	money-dummy	#				
-	point-out	transitive	associated-dummy	theme-dummy	direct-object-dummy	way-dummy	#				
-	pour	transitive	associated-dummy	theme-dummy	direct-object-dummy	water-dummy	#				
-	protect	transitive	associated-dummy	theme-dummy	direct-object-dummy	man-dummy	#				
-	push	transitive	associated-dummy	theme-dummy	direct-object-dummy	rock-dummy	#				
-	read	transitive	associated-dummy	theme-dummy	direct-object-dummy	book-dummy	#				
-	receive	transitive	associated-dummy	theme-dummy	direct-object-dummy	gift-dummy	#				
-#	release		-dummy	theme-dummy	-dummy	by guard-dummy	#				
-	release	transitive	associated-dummy	theme-dummy	direct-object-dummy	dog-dummy	#				
-	renew	transitive	associated-dummy	theme-dummy	direct-object-dummy	oath-dummy	#				
-	return	transitive	associated-dummy	theme-dummy	direct-object-dummy	book-dummy	#				
-	row	transitive	associated-dummy	theme-dummy	direct-object-dummy	boat-dummy	#				
-	say	transitive	associated-dummy	theme-dummy	direct-object-dummy	name-dummy	#				
-	see	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	man-dummy	#				
-#	set-down		-dummy	theme-dummy	-dummy	by wind-dummy	#				
-	set-down	transitive	associated-dummy	theme-dummy	direct-object-dummy	rock-dummy	#				
-	sew	transitive	associated-dummy	patient-dummy	direct-object-dummy	shirt-dummy	#				
-	share	transitive	associated-dummy	theme-dummy	direct-object-dummy	food-dummy	#				
-	sink	transitive	associated-dummy	patient-dummy	direct-object-dummy	boat-dummy	#				
-#	sit		-dummy	theme-dummy	-dummy	-dummy	#				
-	speak  	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	name-dummy	#				
-#	spit		-dummy	theme-dummy	-dummy	-dummy	#				
-#	startle		-dummy	theme-dummy	-dummy	-dummy	#				
-	steal	transitive	associated-dummy	theme-dummy	direct-object-dummy	money-dummy	#				
-	stretch	transitive	associated-dummy	patient-dummy	direct-object-dummy	rope-dummy	#				
-#	strike		-dummy	theme-dummy	-dummy	by guard-dummy	#				
-	strike	transitive	associated-dummy	theme-dummy	direct-object-dummy	rock-dummy	#				
-	sweep	transitive	associated-dummy	patient-dummy	direct-object-dummy	house-dummy	#				
-	swim	transitive	associated-dummy	medium-dummy	modifier-dummy	water-dummy	#				
-	tame	transitive	associated-dummy	patient-dummy	direct-object-dummy	horse-dummy	#				
-	teach	transitive	associated-dummy	theme-dummy	direct-object-dummy	idea-dummy	#				
-	think	transitive	associated-dummy	theme-dummy	direct-object-dummy	idea-dummy	#				
-#	want		-dummy	theme-dummy	-dummy	to fight-dummy	#				
-	want-to-see	transitive	associated-dummy	theme-dummy	direct-object-dummy	house-dummy	#				
-	wash	transitive	associated-dummy	patient-dummy	direct-object-dummy	shirt-dummy	#				
-	wind	transitive	associated-dummy	patient-dummy	direct-object-dummy	rope-dummy	#				
-#	work		-dummy	theme-dummy	-dummy	-dummy	#				
-	write	transitive	associated-dummy	patient-dummy	direct-object-dummy	book-dummy	#				
+#	verb	valency	dummy-motion	dummy-role	dummy-subjectivity	dummy-definiteness	dummy-noun	#		noun	usages	classification
+	act	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	strong-dummy	#		man	multipurpose	
+	advise	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#		wind	carries men, flown in	placement, medium
+	arrive	transitive	acquired-dummy	location-dummy	modifier-dummy	definite-dummy	house-dummy	#		rock	carried by men, hit or thrown in good taste	placement
+	ask	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#		enemy	captures men and is captured	captivity
+	bake	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		guard	captures and releases men	captivity
+	be	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	strong-dummy	#		monster	eats men in relatively fanciful good taste 	consumption
+#	be-able						to work-dummy	#		food	eaten by men, cooked	consumption
+#	be-red	intransitive						#		book	read and written	literature
+	be[inherently]	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	big-dummy	#		water	drunk, swum in, cools most objects	consumption, medium
+	be[momentarily]	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	strong-dummy	#		horse	something directed or tamed	domestication
+	beat	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	drum-dummy	#		work	something that can be done	activity
+	become	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	strong-dummy	#		gift	given and taken	exchange
+#	become cold	intransitive						#	place	house	location, interior, property	travel
+	burn	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		dog	something that can be loved generically and in good taste	domestication
+	call	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#		boat	floats and sinks, steered	conduction
+	capture	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	enemy-dummy	#		shirt	cleaned, worn, chosen, preferred	preference, maitenance, dress
+#	carry	intransitive					by wind-dummy	#		rope	can be deformed	deformation
+	carry	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#	door	window	closed, opened, and broken in good taste	state change
+	catch	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	enemy-dummy	#		name	spoken	speech
+	choose 	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	shirt-dummy	#		drum	beaten in good taste and makes noise	collision, sound, music
+	climb	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#		picture	drawn and seen	art
+	close	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	door-dummy	#		car	driven	conduction
+	convey	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	idea-dummy	#		oath	spoken	speech
+#	cool	intransitive						#		idea	thought and taught	thought
+#	dance	intransitive						#	well	strong	something you can be momentarily	momentary state
+	direct	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	horse-dummy	#	son	big	something you are inherently	inherent state
+	do	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	work-dummy	#		way	shown	
+	draw	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	picture-dummy	#		bug	something that can fly and treat most objects as surfaces in relatively good taste	
+	drink	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	water-dummy	#		heat	passes through most objects, without or without interiors	travel
+	drive	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	horse-dummy	#		fire	warms most objects	
+	eat	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#				
+	fear	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	definite-dummy	monster-dummy	#				
+	feed	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	dog-dummy	#				
+	find	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	book-dummy	#				
+	forgive	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
+	give	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	gift-dummy	#				
+	go	intransitive	approached-dummy	location-dummy	modifier-dummy	definite-dummy	house-dummy	#				
+	have [in possession]	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	money-dummy	#				
+#	hear						by guard-dummy	#				
+	hear	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	definite-dummy	drum-dummy	#				
+	hit	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	drum-dummy	#				
+	hold	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#				
+	know	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
+	lead	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	horse-dummy	#				
+	leave	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	house-dummy	#				
+	live	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	well-dummy	#				
+	lose   	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	money-dummy	#				
+	love	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	dog-dummy	#				
+#	may			theme-dummy			ride bike to school-dummy	#				
+	move	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#				
+	part	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	water-dummy	#				
+	pass for	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	guard-dummy	#				
+	pay	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	money-dummy	#				
+	point-out	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	way-dummy	#				
+	pour	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	water-dummy	#				
+	protect	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
+	push	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#				
+	read	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	book-dummy	#				
+	receive	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	gift-dummy	#				
+#	release			theme-dummy			by guard-dummy	#				
+	release	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	dog-dummy	#				
+	renew	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	oath-dummy	#				
+	return	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	book-dummy	#				
+	row	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	boat-dummy	#				
+	say	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	name-dummy	#				
+	see	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
+#	set-down			theme-dummy			by wind-dummy	#				
+	set-down	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#				
+	sew	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	shirt-dummy	#				
+	share	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	food-dummy	#				
+	sink	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	boat-dummy	#				
+#	sit			theme-dummy				#				
+	speak  	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	definite-dummy	name-dummy	#				
+#	spit			theme-dummy				#				
+#	startle			theme-dummy				#				
+	steal	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	money-dummy	#				
+	stretch	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	rope-dummy	#				
+#	strike			theme-dummy			by guard-dummy	#				
+	strike	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#				
+	sweep	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	house-dummy	#				
+	swim	transitive	associated-dummy	medium-dummy	modifier-dummy	definite-dummy	water-dummy	#				
+	tame	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	horse-dummy	#				
+	teach	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	idea-dummy	#				
+	think	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	idea-dummy	#				
+#	want			theme-dummy			to fight-dummy	#				
+	want-to-see	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	house-dummy	#				
+	wash	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	shirt-dummy	#				
+	wind	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	rope-dummy	#				
+#	work			theme-dummy				#				
+	write	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	book-dummy	#				
