@@ -134,7 +134,7 @@ class RuleSyntax:
     """
     def __init__(self, sentence_structure):
         self.sentence_structure = sentence_structure
-        self.noun_phrase_structure = 'stock-adposition v det adj n np misc v clause'.split()
+        self.noun_phrase_structure = 'stock-adposition det adj n np clause'.split()
     def order_clause(self, treemap, clause):
         rules = clause.content
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
@@ -167,13 +167,10 @@ class RuleSyntax:
         rules = [element for element in phrase.content if isinstance(element, Rule)]
         nonrules = [element for element in phrase.content if not isinstance(element, Rule)]
         part_to_words = {
-            **{
-                part: [rule
-                    for rule in rules
-                    if rule.tag == part]
-                for part in 'stock-adposition v det adj n np misc clause'.split()
-            },
-            'misc': [nonrule for nonrule in nonrules]
+            part: [rule
+                for rule in rules
+                if rule.tag == part]
+            for part in 'stock-adposition det adj n np clause'.split()
         }
         return Rule(phrase.tag, 
             phrase.tags, 
