@@ -102,7 +102,6 @@ class DictLookup:
             [indexing.tuplekey({**self[inpoint], **inpoint})
              for inpoint in inpath
              if inpoint in self])
-        print('composition', composition)
         return composition
     def __contains__(self, dictkey):
         if type(dictkey) in {tuple,str}:

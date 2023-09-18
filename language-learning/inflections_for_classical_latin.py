@@ -362,7 +362,6 @@ tense_progress_mood_voice_verb_traversal = (
     - verb_voice_blacklist
 )
 
-
 conjugation_traversal = template_direct_object_lookup(tense_progress_mood_voice_verb_traversal)
 
 roles = parse_any.termspace('role', 'role', 
@@ -422,7 +421,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
             ),
             english_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [np n man] [vp v figure]] [modifier np clause [test [np n] [vp cloze v verb]]] [dummy np [stock-adposition] n]',)
+                    'clause [speaker finite [np n] [vp v figure]] [modifier np clause [test [np n] [vp cloze v verb]]] [dummy np [stock-adposition] n]',)
             ),
         ],
         defaults.override(
