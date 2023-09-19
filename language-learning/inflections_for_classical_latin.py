@@ -304,6 +304,70 @@ gender_agreement_traversal = parse.tokenpath(
     neuter     animal
     ''')
 
+gender_noun_whitelist = parse.tokenmask(
+    'gender_noun_whitelist', 
+    'noun gender',
+    '''
+    man          masculine
+    day          feminine
+    hand         masculine
+    night        feminine
+    thing        feminine
+    name         neuter
+    son          masculine
+    war          masculine
+    air          masculine
+    boy          masculine
+    animal       neuter
+    star         feminine
+    tower        feminine
+    horn         neuter
+    sailor       masculine
+    foundation   feminine
+    echo         neuter
+    phenomenon   neuter
+    vine         feminine
+    myth         masculine
+    atom         feminine
+    nymph        feminine
+    comet        masculine
+    woman        feminine
+    son          masculine
+    daughter     feminine
+    livestock    neuter
+    sound        masculine
+    size         feminine
+    thought      feminine
+    place        masculine
+    attention    feminine
+    wind         masculine
+    enemy        masculine
+    monster      feminine
+    rock         neuter
+    book         masculine
+    water        feminine
+    horse        masculine
+    food         masculine
+    work         masculine
+    gift         neuter
+    house        feminine
+    ghost        neuter
+    guard        masculine
+    dog          masculine
+    dog          feminine
+    boat         feminine
+    shirt        feminine
+    rope         masculine
+    window       feminine
+    drum         neuter
+    picture      feminine
+    car          masculine
+    cart         masculine
+    oath         neuter
+    idea         feminine
+    '''
+)
+
 possession_traversal = parse.tokenpath(
     'possession_traversal', 
     'gender noun',
@@ -391,6 +455,7 @@ declension_noun_traversal = (
 ) & template_verb_whitelist
 
 """
+
 """
 
 print('flashcards/latin/finite-conjugation.html')
@@ -481,6 +546,15 @@ write('flashcards/latin/adpositions.html',
         },
     ))
 
+head((((declension_noun_traversal * axis['noun'] * constant['common'])
+                & noun_template_whitelist)
+                * axis['gender']))
+head(gender_noun_whitelist)
+head((((declension_noun_traversal * axis['noun'] * constant['common'])
+                & noun_template_whitelist)
+                * axis['gender'])
+                & gender_noun_whitelist)
+
 print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html',
     deck_generation.generate(
@@ -489,14 +563,17 @@ write('flashcards/latin/common-noun-declension.html',
             substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
-            (declension_noun_traversal * axis['noun'] * constant['common'])
-            & noun_template_whitelist
+            (((declension_noun_traversal * axis['noun'] * constant['common'])
+                & noun_template_whitelist)
+                * axis['gender'])
+                & gender_noun_whitelist
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
+
 
 print('flashcards/latin/pronoun-declension.html')
 write('flashcards/latin/pronoun-declension.html', 
@@ -559,6 +636,10 @@ write('flashcards/latin/pronoun-possessives.html',
             'test'       : parse.termaxis_to_term('personal-possessive'),
         },
     ))
+
+"""
+
+"""
 
 end_time = time.time()
 duration = end_time-start_time
