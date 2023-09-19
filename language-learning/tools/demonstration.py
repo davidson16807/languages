@@ -89,8 +89,7 @@ def EmojiDemonstration(
             persons = [
                 subject if str(i+1)==tags['person'] else person
                 for i, person in enumerate(self.persons)]
-            return emojiInflectionShorthand.decode(
-                    scene, subject, persons)
+            return emojiInflectionShorthand.decode(scene, subject, persons)
         def generator(self, **junk):
             def noun(tags, tag_templates):
                 if tags['noun-form'] == 'personal-possessive':
@@ -124,12 +123,17 @@ def EmojiDemonstration(
                         **{tag: clause_tags[tag]
                            for tag in 'template noun-form noun person number gender clusivity formality adjective'.split()
                            if tag in clause_tags},
-                        **label_filtering.termaxis_to_term(clause_tags, 'possessor'),
+                        **label_editing.termaxis_to_term(
+                            label_filtering.termaxis_to_term(clause_tags, 'possessor'),
+                            strip='possessor'),
                         **tag_templates['test'], 
                         'script': 'emoji'
                     }
                 dummy_tags = {
                         **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] != 'subject' else {}),
+                        **label_editing.termaxis_to_term(
+                            label_filtering.termaxis_to_term(clause_tags, 'dummy'),
+                            strip='dummy'),
                         **tag_templates['dummy'], 
                         'person': '3',
                         'script': 'emoji'
