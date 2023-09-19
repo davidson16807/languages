@@ -114,18 +114,15 @@ def EmojiDemonstration(
                         else '🚫')
                     return self.decode(tags, result)
             def performance(tags, tag_templates):
-                template = (verb_lookups[tags] if tags in verb_lookups else '\\subject'
+                template = ((verb_lookups[tags] if tags in verb_lookups else '\\subject')
                     .replace('\\subject', noun(tags, tag_templates)))
                 return template
             def scene(clause_tags, tag_templates):
                 test_tags = {
-                        **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] == 'subject' else {}),
-                        **{tag: clause_tags[tag]
-                           for tag in 'template noun-form noun person number gender clusivity formality adjective'.split()
-                           if tag in clause_tags},
-                        **label_editing.termaxis_to_term(
-                            label_filtering.termaxis_to_term(clause_tags, 'possessor'),
-                            strip='possessor'),
+                        **{tagaxis: clause_tags[tagaxis]
+                           for tagaxis in clause_tags.keys()
+                           if tagaxis != 'verb' or clause_tags['subjectivity'] == 'subject'},
+                        **label_filtering.termaxis_to_term(clause_tags, 'possessor'),
                         **tag_templates['test'], 
                         'script': 'emoji'
                     }
