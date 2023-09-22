@@ -4,3 +4,22 @@ morph	An indivisible unit of sound capable of conveying meaning in any attested 
 seme	An indivisible unit of meaning that fully describes the meaning of any morpheme in any attested natural language. It is a product of episemes.	an equivalence class of semes that represents an indivisible unit of intended meaning that can be conveyed by a morpheme in a given language	disjoint sets of semes whose product defines larger constructs of meaning (e.g. suffix, prefix, noun, verb, etc.)
 tag	An indivisible unit of distinction between any set of morphemes or their arrangement in any attested natural language.	an equivalence class of tags that represents an indivisible unit of selection or between any set of morphemes or their arrangement in a given language	disjoint sets of tags whose product with other tagaxes defines a parameter space of morphemes (e.g. number, gender, tense, aspect, etc.)
 episeme	An indivisible unit of meaning that can be conveyed with a tagmeme of a given language.	an equivalence class of episemes that represents an indivisible unit of meaning that can be conveyed with a tagmeme of a given language	disjoint sets of episemes whose product with other tagaxes defines a parameter space of semes (e.g. number, gender, tense, aspect, etc.)
+
+dict*
+text*
+token*
+term*
+tag*
+sem(e)*
+
+*list
+*set
+*axis
+*indexing
+*space
+*mask
+*path
+*map
+
+*whitelist
+*blacklist
