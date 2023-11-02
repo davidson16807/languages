@@ -30,7 +30,6 @@ from inflections import (
     write, 
     emoji_casts,
     template_verb_whitelist,
-    template_subject_whitelist,
     template_direct_object_lookup,
     template_tree_lookup,
     noun_template_whitelist,
@@ -424,7 +423,7 @@ tense_progress_mood_voice_verb_traversal = (
     - verb_progress_blacklist
     - verb_mood_blacklist
     - verb_voice_blacklist
-)
+) * constant['subject']
 
 conjugation_traversal = template_direct_object_lookup(tense_progress_mood_voice_verb_traversal)
 
