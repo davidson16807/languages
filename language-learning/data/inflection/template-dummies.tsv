@@ -153,6 +153,6 @@
 	subject	watch	transitive	associated-dummy	stimulus-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
 	subject	startle	transitive	associated-dummy	experiencer-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
 	subject	displease	transitive	associated-dummy	experiencer-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
-	subject	appear	transitive	approached-dummy	experiencer-dummy	modifier-dummy	definite-dummy	man-dummy	#				
+	subject	appear	intransitive	approached-dummy	experiencer-dummy	modifier-dummy	definite-dummy	man-dummy	#				
 	subject	be	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	strong-dummy	#				
 	addressee	∅	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				

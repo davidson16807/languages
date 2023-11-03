@@ -168,9 +168,9 @@ subjectivity_valency_whitelist = parse.termmask(
     'subjectivity_valency_whitelist', 
     'valency subjectivity',
     '''
-    intransitive  addressee
-    transitive    subject
+    intransitive  subject
     transitive    direct-object
+    intransitive  addressee
     transitive    modifier
     intransitive  modifier
     ''')
