@@ -457,8 +457,8 @@ noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleI
 template_verb_population = DictSetPopulation(DictSet('template-verb', DictTupleIndexing('template role subjectivity valency verb'.split()), set()))
 template_tree_population = FlatLookupPopulation(DictLookup('template-tree', DictTupleIndexing('valency subjectivity'.split())), KeyEvaluation('tree'))
 template_direct_object_population = FlatLookupPopulation(
-    DictLookup('template-dummy', DictTupleIndexing('subjectivity verb'.split())), 
-    MultiKeyEvaluation('valency dummy-motion dummy-role dummy-subjectivity dummy-definiteness dummy-noun'.split()) 
+    DictLookup('template-dummy', DictTupleIndexing('subjectivity verb valency'.split())), 
+    MultiKeyEvaluation('dummy-motion dummy-role dummy-subjectivity dummy-definiteness dummy-noun'.split()) 
 )
 
 nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])

@@ -414,7 +414,8 @@ def head(store):
 
 tense_progress_mood_voice_verb_traversal = (
     (((((
-          finite_tense_progress_traversal
+          axis['valency']
+        * finite_tense_progress_traversal
         * axis['mood'])
         & mood_tense_whitelist) 
         * axis['voice'])
@@ -423,7 +424,7 @@ tense_progress_mood_voice_verb_traversal = (
     - verb_progress_blacklist
     - verb_mood_blacklist
     - verb_voice_blacklist
-) * constant['subject']
+) * constant['subject'] 
 
 conjugation_traversal = template_direct_object_lookup(tense_progress_mood_voice_verb_traversal)
 
