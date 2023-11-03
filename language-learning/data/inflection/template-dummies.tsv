@@ -155,27 +155,4 @@
 	subject	displease	transitive	associated-dummy	experiencer-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
 	subject	appear	transitive	approached-dummy	experiencer-dummy	modifier-dummy	definite-dummy	man-dummy	#				
 	subject	be	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	strong-dummy	#				
-	addressee	swim	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	fly	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	flow	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	rest	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	walk	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	crawl	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	rest	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	direct	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	work	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	resemble	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	eat	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	endure	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	warm	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	cool	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	fall	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	change	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	occupy	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	show	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	see	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	watch	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	startle	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	displease	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	appear	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
-	addressee	be	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
+	addressee	∅	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
