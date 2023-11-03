@@ -6,10 +6,10 @@ location	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	wal
 extent	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#						
 vicinity	modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					arrow	
 side	modifier	intransitive		rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest			rest	rest	rest	rest	rest	warm											#	man	swim	∅		fire	
-interior	modifier	intransitive																		rest	rest	rest	rest	walk	warm											#	bird	fly	∅		ice	
-medium	modifier	intransitive																swim	fly						warm											#	treasure	rest	∅		food	
-subsurface	modifier	intransitive																rest	fly	rest	rest	rest	rest	rest												#	man	walk	∅		"bird	"	
-surface	modifier	intransitive		walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	walk	float	fly	walk	walk	walk	walk	walk												#	man	rest	∅		bird	
+interior	modifier	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow			rest	rest	rest	rest	walk	warm											#	bird	fly	∅		ice	
+medium	modifier	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	swim	fly						warm											#	treasure	rest	∅		food	
+subsurface	modifier	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	rest	fly	rest	rest	rest	rest	rest												#	man	walk	∅		"bird	"	
+surface	modifier	intransitive		crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	float	fly		crawl	crawl	crawl	crawl												#	man	rest	∅		bird	
 presence	modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	arrow	"rest	"	∅		place	
 aid	modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	direct	attention			
 lack	modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	work	∅		son	

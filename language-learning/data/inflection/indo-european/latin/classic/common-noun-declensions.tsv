@@ -161,7 +161,9 @@ strong	singular	neuter 	firmum	firmī	firmō	firmum	firmō	firmum 	—		#	2
 strong	plural	masculine 	firmī 	firmōrum 	firmīs	firmōs 	firmīs	firmī 	—		#	2			
 strong	plural	feminine 	firmae 	firmārum 	firmīs	firmās 	firmīs	firmae 	—		#	1			
 strong	plural	neuter 	firma	firmōrum	firmīs	firma	firmīs	firma 	—		#	2			
-															
-															
-															
-															
+bug	singular	masculine 	cīmex	cīmicis	cīmicī	cīmicem	cīmice	cīmex	—		#	3			
+bug	plural	masculine 	cīmicēs	cīmicum	cīmicibus	cīmicēs	cīmicibus	cīmicēs	—		#	3			
+warmth	singular	masculine 	calor	calōris	calōrī	calōrem	calōre	calor	—		#	3			
+warmth	plural	masculine 	calōrēs	calōrum	calōribus	calōrēs	calōribus	calōrēs	—		#	3			
+bird	singular	feminine	avis	avis	avī	avem	ave|avī	avis			#	3			
+bird	plural	feminine	avēs	avium	avibus	avēs|avīs	avibus	avēs			#	3			

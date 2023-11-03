@@ -169,7 +169,7 @@ subjectivity_valency_whitelist = parse.termmask(
     'valency subjectivity',
     '''
     intransitive  addressee
-    intransitive  subject
+    transitive    subject
     transitive    direct-object
     transitive    modifier
     intransitive  modifier
@@ -445,14 +445,15 @@ valency_subjectivity_motion_role_traversal = (
 ) & subjectivity_valency_whitelist
 
 demonstration_verbs = parse_any.tokenspace('demonstration-verbs', 'verb',
-    'verb: ∅ swim fly rest walk direct work resemble eat endure warm ' +
+    'verb: ∅ swim fly rest walk crawl flow direct work resemble eat endure warm ' +
         ' cool fall change occupy show see watch startle displease appear be')
 
-declension_noun_traversal = (
-    ( demonstration_verbs
+declension_noun_traversal = template_direct_object_lookup(
+    ((demonstration_verbs
     * axis['template']) 
-    * valency_subjectivity_motion_role_traversal
-) & template_verb_whitelist
+    * valency_subjectivity_motion_role_traversal) 
+    & template_verb_whitelist
+)
 
 """
 
@@ -541,8 +542,8 @@ write('flashcards/latin/adpositions.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
-            'test'       : parse.termaxis_to_term('common definite'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine sapient'),
+            'test'       : parse.termaxis_to_term('personal definite'),
         },
     ))
 
@@ -569,7 +570,7 @@ write('flashcards/latin/common-noun-declension.html',
                 & gender_noun_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
+            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -608,7 +609,7 @@ write('flashcards/latin/adjective-agreement.html',
             & noun_template_whitelist) 
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
+            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -632,7 +633,7 @@ write('flashcards/latin/pronoun-possessives.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient man'),
+            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal-possessive'),
         },
     ))

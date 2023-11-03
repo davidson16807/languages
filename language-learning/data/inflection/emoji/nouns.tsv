@@ -10,6 +10,8 @@ name       		\nx{📛}	#	needed for templates
 livestock	singular	\nx{🐄}	#	needed for templates	
 livestock	dual	\nx{🐄}	#	needed for templates	
 livestock	plural	🐄🐖🐓	#	needed for templates	
+bug		\nx{🐞}	#	needed for templates	
+warmth		\nx{♨️}	#	needed for templates	
 father		\nx{🧍\cx\gx}	#	common	
 mother		\nx{🧍\cx\gx}	#	common	
 brother		\nx{🧒\gx\cx}	#	common	

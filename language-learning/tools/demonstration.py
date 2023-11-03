@@ -112,10 +112,14 @@ def EmojiDemonstration(
                         else noun_lookups[alttags] if alttags in noun_lookups
                         else noun_lookups[tags] if tags in noun_lookups 
                         else '🚫')
+                    # if '🚫' in result:
+                    #     breakpoint()
                     return self.decode(tags, result)
             def performance(tags, tag_templates):
                 template = ((verb_lookups[tags] if tags in verb_lookups else '\\subject')
                     .replace('\\subject', noun(tags, tag_templates)))
+                # if '🚫' in template:
+                #     breakpoint()
                 return template
             def scene(clause_tags, tag_templates):
                 test_tags = {
@@ -137,9 +141,14 @@ def EmojiDemonstration(
                     }
                 template = (self.argument_lookups[clause_tags] if clause_tags in self.argument_lookups
                     else noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫')
+                # if '🚫' in template:
+                #     breakpoint()
+                dummy = performance(dummy_tags,     tag_templates)
                 template = (template
-                    .replace('\\dummy', performance(dummy_tags,     tag_templates))
+                    .replace('\\dummy', dummy)
                     .replace('\\test',  performance(test_tags,      tag_templates)))
+                # if '🚫' in dummy:
+                #     breakpoint()
                 return getattr(htmlTenseTransform, clause_tags['tense'])(
                             getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
             def recounting(tags):
