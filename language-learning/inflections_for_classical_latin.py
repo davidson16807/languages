@@ -182,12 +182,12 @@ subjectivity_motion_whitelist = parse.termmask(
     addressee     associated
     subject       associated
     direct-object associated
-    modifier      departed
-    modifier      associated
     modifier      approached
     modifier      acquired
-    modifier      surpassed
-    modifier      leveraged
+    modifier      associated
+    modifier      departed
+#    modifier      surpassed
+#    modifier      leveraged
     ''')
 
 subjectivity_person_blacklist = parse.termmask(
