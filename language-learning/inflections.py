@@ -282,7 +282,7 @@ tagaxis_to_tags = {
            common-possessive personal-possessive reflexive-possessive'''.split(),
 
     # needed to distinguish forms of verb that require different kinds of lookups with different primary keys
-    'verb-form':  'finite infinitive participle gerundive gerund adverbial supine argument group'.split(),
+    'verb-form':  'finite infinitive participle gerundive gerund adverbial supine group'.split(),
 }
 
 tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
@@ -363,17 +363,6 @@ conjugation_template_lookups = DictLookup(
         'supine': DictLookup('supine', verbial_declension_hashing),
         # a pattern in conjugation that the verb is meant to demonstrate
         'group': DictLookup('group', DictKeyIndexing('verb')),
-        # text that follows a verb in a sentence that demonstrates the verb
-        'argument': DictLookup(
-            'argument',
-            DictTupleIndexing([
-                    'verb',           
-                    'language-type',           
-                    'voice',    # needed for Greek
-                    'gender',   # needed for Greek
-                    'number',   # needed for Russian
-                    'script',
-                ])),
     })
 
 basic_pronoun_declension_hashing = parse_any.termindexing('number gender animacy partitivity case script')

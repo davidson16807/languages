@@ -120,16 +120,6 @@ foreign_demonstration = LanguageSpecificTextDemonstration(
 
 emoji_demonstration = LanguageSpecificEmojiDemonstration(
     card_formatting.emoji_focus,
-    conjugation_population.index([
-            *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/latin/classic/finite-conjugations.tsv')),
-            *nonfinite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/latin/classic/nonfinite-conjugations.tsv')),
-            *filter(has_annotation('language','classical-latin'),
-                declension_verb_annotation.annotate(
-                    tsv_parsing.rows(
-                        'data/inflection/declension-template-verbs-minimal.tsv'))),
-        ])['argument'], 
     emoji_casts[3])
 
 demonstrations = [

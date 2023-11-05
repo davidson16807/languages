@@ -72,9 +72,8 @@ def EmojiDemonstration(
             htmlProgressTransform,
         ):
     class LanguageSpecificEmojiDemonstration:
-        def __init__(self, format_card, argument_lookups, persons):
+        def __init__(self, format_card, persons):
             self.format_card = format_card
-            self.argument_lookups = argument_lookups
             self.persons = persons
         def decode(self, tags, scene):
             subject = EmojiPerson(

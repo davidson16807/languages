@@ -1,26 +1,26 @@
-*	*	foreign	foreign	foreign	foreign	foreign	foreign	foreign	native	foreign	
-*	*	infinitive	infinitive	infinitive	participle	participle	participle	supine	argument	argument	argument
-*	*				masculine	masculine	masculine		latin	latin	emoji
-*	*				nominative	nominative	nominative				
-*	*	present	past	future	present	past	future				
-*	*	simple	perfective	simple	simple	perfective	simple				
-be	active	esse	fuisse	fore	—	—	futūrus	—	well	bene	\nx{🧘\cx\gx}
-be-able	active	posse	potuisse	—	potēns	—	—	—	to work	operari	\nx{🧑\gx\cx\🌾}
-want	active	velle	—	—	volāns	—	volātūrus	—	to study	studere	\nx{🧑\gx\cx\🎓}
-become	active	fierī 	factum esse 	factum īrī 	—	—	—	factum	wealthy	dives	\nx{🤵\cx\gx}
-go	active	īre 	īsse 	itūrum esse 	iēns	—	itūrus	itum	to the forum	forō	<big>🏛️</big><span style='font-size:60%'>←\nx{🚶\cx\gx}</span>
-go	passive	īrī	itum esse 	itum īrī 	—	itus	eundus	—	from the forum	forō	<span style='font-size:60%'>←\nx{🚶\cx\gx}</span><big>🏛️</big>
-carry	active	ferre	tulisse	lātūrum esse 	ferēns	—	lātūrus	lātum	a sword	gladium	\nx{💁\cx\gx}<sup>🗡️</sup>
-carry	passive	ferrī	lātum esse	lātum īrī	lātus	—	ferendus	—	by the wind	vento	💨\nx{🪂}→
-eat	active	edere/esse	ēdisse	ēsūrum esse	edēns	—	ēsūrus	ēsum	bread	panem	\nx{🧑\gx\cx}<sub>🥯</sub>
-eat	passive	edī	ēsum esse 	ēsum īrī 	—	ēsus	edendus/edundus	—	by the tiger	a tigris	\nx{🏃\cx\gx}🐅
-love	active	amāre	amāvisse	amātūrum esse	amāns	—	amātūrus	amātum	the dog	canem	🐕<big>\nx{🧎\cx\gx}</big><sup>❤️</sup>
-love	passive	amārī	amātum esse 	amātum īrī 	—	amātus	amandus	—	by the dog	a cane	<sup>❤️</sup>🐕<big>\nx{🧎\cx\gx}</big>
-advise	active	monēre	monuisse	monitūrum esse 	monēns	—	vīsūrus	monitum	the patient	patientem	🤷\c4\nx{🧑\gx\cx\⚕️}
-advise	passive	monērī	monitum esse 	monitum īrī 	—	monitus	monendus	—	by the doctor	a medicō	\nx{🤷\cx\gx}🧑\c4\⚕️
-direct	active	dūcere	dūxisse	ductūrum esse 	dūcēns	—	ductūrus	ductum	the horse	equum	\nx{←🚶\cx\gx}🐎
-direct	passive	dūcī	ductum esse 	ductum īrī 	—	ductus	dūcendus/dūcundus	—	by the official	a officiālī	\nx{🙍\cx\gx}👮\c4→
-capture	active	capere 	cēpisse 	captūrum esse 	capiēns	—	captūrus	captum	the flag	vexillum	🚩\nx{🏃\cx\gx}
-capture	passive	capī 	captum esse 	captum īrī 	—	captus	capiendus	—	by the enemy	ab hoste	\nx{🙍\cx\gx}🦹\c4
-hear	active	audīre	audīvisse	audītūrum esse	audiēns	—	audītūrus	audītum	the horn	cornu	\nx{🧑\gx\cx}📯<sup>🗯️<sup>
-hear	passive	audīrī	audītum esse 	audītum īrī 	—	audītus	audiendus	—	by the guard	a custodibus	💂\c4<sup>❗<sup>\nx{🥷\cx}
+*	*	foreign	foreign	foreign	foreign	foreign	foreign	foreign
+*	*	infinitive	infinitive	infinitive	participle	participle	participle	supine
+*	*				masculine	masculine	masculine	
+*	*				nominative	nominative	nominative	
+*	*	present	past	future	present	past	future	
+*	*	simple	perfective	simple	simple	perfective	simple	
+be	active	esse	fuisse	fore	—	—	futūrus	—
+be-able	active	posse	potuisse	—	potēns	—	—	—
+want	active	velle	—	—	volāns	—	volātūrus	—
+become	active	fierī 	factum esse 	factum īrī 	—	—	—	factum
+go	active	īre 	īsse 	itūrum esse 	iēns	—	itūrus	itum
+go	passive	īrī	itum esse 	itum īrī 	—	itus	eundus	—
+carry	active	ferre	tulisse	lātūrum esse 	ferēns	—	lātūrus	lātum
+carry	passive	ferrī	lātum esse	lātum īrī	lātus	—	ferendus	—
+eat	active	edere/esse	ēdisse	ēsūrum esse	edēns	—	ēsūrus	ēsum
+eat	passive	edī	ēsum esse 	ēsum īrī 	—	ēsus	edendus/edundus	—
+love	active	amāre	amāvisse	amātūrum esse	amāns	—	amātūrus	amātum
+love	passive	amārī	amātum esse 	amātum īrī 	—	amātus	amandus	—
+advise	active	monēre	monuisse	monitūrum esse 	monēns	—	vīsūrus	monitum
+advise	passive	monērī	monitum esse 	monitum īrī 	—	monitus	monendus	—
+direct	active	dūcere	dūxisse	ductūrum esse 	dūcēns	—	ductūrus	ductum
+direct	passive	dūcī	ductum esse 	ductum īrī 	—	ductus	dūcendus/dūcundus	—
+capture	active	capere 	cēpisse 	captūrum esse 	capiēns	—	captūrus	captum
+capture	passive	capī 	captum esse 	captum īrī 	—	captus	capiendus	—
+hear	active	audīre	audīvisse	audītūrum esse	audiēns	—	audītūrus	audītum
+hear	passive	audīrī	audītum esse 	audītum īrī 	—	audītus	audiendus	—
