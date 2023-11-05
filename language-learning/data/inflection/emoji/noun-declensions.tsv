@@ -1,91 +1,96 @@
 *	*	*	*	*		#	adposition	this file represents situations involving nouns and adpositions								
 		addressee			👋	#										
-	intransitive	subject			\test	#										
-	transitive	subject			\test \dummy	#										
-		direct-object			\dummy \test	#										
-		modifier	departed	possessor	\group{←\possession \r{\test}}	#	of									
-		modifier	associated	possessor	\group{\possession \r{\test}}	#	of									
-		modifier	approached	possessor	\group{\mirror{←\possession} \r{\test}}	#	of									
-		modifier	acquired	possessor	\group{\mirror{\possession←} \r{\test}}	#	of									
-		modifier	surpassed	possessor	\group{\mirror{\possession←} \r{\test} \mirror{←}}	#	of									
-		modifier	leveraged	possessor	\group{\mirror{\possession←} \r{\test} \mirror{←}}	#	of									
-		modifier	departed	location	←\dummy \test	#	away from									
-		modifier	associated	location	\group{\dummy \r{\test}}	#	by									
-		modifier	approached	location	\mirror{←\dummy}\test	#	to									
-		modifier	acquired	location	\mirror{\dummy←}\test	#	to									
-		modifier	surpassed	location	\mirror{←}\test\mirror{←\dummy}	#	to									
-		modifier	leveraged	location	←\group{\dummy \r{\test↙}}	#	via									
-		modifier	departed	extent	←\dummy \test	#	starting from									
-		modifier	associated	extent	\group{\dummy \r{\test}}	#	beside									
-		modifier	approached	extent	\mirror{←\dummy}\test	#	up to									
-		modifier	acquired	extent	\mirror{\dummy←}\test	#	up to									
-		modifier	surpassed	extent	\mirror{←}\test\mirror{←\dummy}	#	up to									
-		modifier	leveraged	extent	←\group{\dummy \r{\test↙}}	#	along									
-		modifier	departed	vicinity	←\dummy \test	#	from around									
-		modifier	associated	vicinity	\group{\dummy \r{\test}}	#	by									
-		modifier	approached	vicinity	\mirror{←\dummy}\test	#	to around									
-		modifier	acquired	vicinity	\mirror{\dummy←}\test	#	to around									
-		modifier	surpassed	vicinity	\mirror{←}\test\mirror{←\dummy}	#	to around									
-		modifier	leveraged	vicinity	←\group{\dummy \r{\test↙}}	#	via									
-		modifier	departed	interior	\group{\inllo{←\dummy}\large{\test}}	#	out of									
-		modifier	associated	interior	\group{\inllo{\dummy}\large{\test}}	#	in									
-		modifier	approached	interior	\group{\large{\test}\inrlo{←\dummy}}	#	into									
-		modifier	acquired	interior	\group{\large{\test}\inrlo{\dummy←}}	#	into									
-		modifier	surpassed	interior	\group{\inllo{←\dummy}\large{\test}\inrlo{←}}	#	into									
-		modifier	leveraged	interior	\group{\inllo{←}\large{\test}\inrlo{\dummy←}}	#	through									
-		modifier	departed	surface	\group{\inlhi{↙\dummy}\large{\test}}	#	off of									
-		modifier	associated	surface	\group{\inlhi{\dummy}\large{\test}}	#	on									
-		modifier	approached	surface	\group{\large{\test}\inrhi{↖\dummy}}	#	onto									
-		modifier	acquired	surface	\group{\large{\test}\inrhi{\dummy↖}}	#	onto									
-		modifier	surpassed	surface	\group{\inlhi{\dummy↙}\large{\test}\inrhi{↖}}	#	onto									
-		modifier	leveraged	surface	\group{\inlhi{↖\dummy}\large{\test}\inrhi{↖}}	#	over									
-		modifier	departed	presence	\box{\test}→\box{\dummy}	#	[due to the presence of]									
-		modifier	associated	presence	\group{\dummy\r{\test}}	#	[in the presence of]									
-		modifier	approached	presence	\dummy←\test	#	[to draw in]									
-		modifier	acquired	presence	\dummy←\test	#	[to draw in]									
-		modifier	surpassed	presence	\dummy←\test	#	[to draw in]									
-		modifier	leveraged	presence	\group{\dummy\r{\test}}	#	[by using the presence of]									
-		modifier	departed	aid	\group{\dummy\r{\group{\test\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[thanks to the aid of]									
-		modifier	associated	aid	\group{\dummy\r{\group{\test\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[with the aid of]									
-		modifier	approached	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\dummy\r{\group{\test}}}	#	[to the aid of]									
-		modifier	acquired	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\dummy\r{\group{\test}}}	#	[to the aid of]									
-		modifier	surpassed	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\dummy\r{\group{\test}}}	#	[to the aid of]									
-		modifier	leveraged	aid	\group{\dummy\r{\group{\test\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[by using the aid of ]									
-		modifier	departed	lack	\forbiddenbox{\test}→\box{\dummy}	#	[for want of]									
-		modifier	associated	lack	\group{\dummy\r{\forbiddenbox{\test}}}	#	[in the absence of]									
-		modifier	approached	lack	\box{\dummy}→\forbiddenbox{\test}	#	[to avoid]									
-		modifier	acquired	lack	\box{\dummy}→\forbiddenbox{\test}	#	[to avoid]									
-		modifier	surpassed	lack	\box{\dummy}→\forbiddenbox{\test}	#	[to avoid]									
-		modifier	leveraged	lack	\group{\dummy\r{\forbiddenbox{\test}}}	#	[by taking advantage of the lack of]									
-		modifier	departed	interest	\group{\lhi{❤️}\dummy\r{\test}}	#	[out of the interest of]									
-		modifier	associated	interest	\group{\lhi{❤️}\dummy\r{\test}}	#	[in the interest of]									
-		modifier	approached	interest	\group{\lhi{❤️}\dummy\r{\test}}	#	[for the sake of]									
-		modifier	acquired	interest	\group{\lhi{❤️}\dummy\r{\test}}	#	[for the sake of]									
-		modifier	surpassed	interest	\group{\lhi{❤️}\dummy\r{\test}}	#	[for the sake of]									
-		modifier	leveraged	interest	\group{\mirror{\lhi{💬}}\dummy\r{\group{\test\rhi{❤️}}}}	#	[by appealing to the interest of]									
-		modifier	departed	possession	\group{←\dummy\r{\test}}	#	from [the possession of]									
-		modifier	associated	possession	\group{\dummy\r{\test}}	#	[in the possession of]									
-		modifier	approached	possession	\group{\mirror{←\dummy}\r{\test}}	#	to [the possession of]									
-		modifier	acquired	possession	\group{\mirror{←\dummy}\r{\test}}	#	to [the possession of]									
-		modifier	surpassed	possession	\group{\mirror{←\dummy}\r{\test}}	#	to [the possession of]									
-		modifier	leveraged	possession	\group{\dummy\r{\test}}	#	[due to the possession of]									
-		modifier	departed	time	\group{\large{\test}\dummy→}	#	after									
-		modifier	associated	time	\group{\large{\inllo{\dummy}\test}}	#	during									
-		modifier	approached	time	\group{\dummy→\large{\test}}	#	until									
-		modifier	acquired	time	\group{\dummy→\large{\test}}	#	until									
-		modifier	surpassed	time	\group{\dummy→\large{\test}}	#	until									
-		modifier	leveraged	time	\group{\large{\inllo{\dummy}\test}}	#	by [making use of]									
-		modifier	departed	state-of-being	\box{\test}→\dummy	#	from having been									
-		modifier	associated	state-of-being	\test	#	as a									
-		modifier	approached	state-of-being	\dummy→\box{\test}	#	in order to be									
-		modifier	acquired	state-of-being	\dummy→\box{\test}	#	in order to be									
-		modifier	surpassed	state-of-being	\dummy→\box{\test}	#	in order to be									
-		modifier	leveraged	state-of-being	\box{\test}→\dummy	#	due to having been									
-		modifier	departed	topic	\test\mirror{\group{\dummy\inrmid{↺}}\r{💬}}	#	away from [the topic of]									
-		modifier	associated	topic	\test\group{\mirror{\dummy}\r{💬}}	#	on [the topic of]									
-		modifier	approached	topic	\test\group{\dummy\inrmid{↺}\r{💬}}	#	to [the topic of]									
-		modifier	acquired	topic	\test\group{\dummy\inrmid{↺}\r{💬}}	#	to [the topic of]									
-		modifier	surpassed	topic	\test\group{\dummy\inrmid{↺}\r{💬}}	#	to [the topic of]									
-		modifier	leveraged	topic	\test\group{💁\c3\m\r{💬}}	#	by using [the topic of]									
-		modifier	associated	company	\group{←\dummy\r{←\test}}	#	alongside									
-		modifier	associated	resemblance	\dummy≈\test	#	like									
+	intransitive	subject			\subject	#										
+	transitive	subject			\subject \argument	#										
+		direct-object			\subject \argument	#										
+		modifier	departed	possessor	\group{←\possession \r{\argument}}	#	of									
+		modifier	associated	possessor	\group{\possession \r{\argument}}	#	of									
+		modifier	approached	possessor	\group{\mirror{←\possession} \r{\argument}}	#	of									
+		modifier	acquired	possessor	\group{\mirror{\possession←} \r{\argument}}	#	of									
+		modifier	surpassed	possessor	\group{\mirror{\possession←} \r{\argument} \mirror{←}}	#	of									
+		modifier	leveraged	possessor	\group{\mirror{\possession←} \r{\argument} \mirror{←}}	#	of									
+		modifier	departed	location	←\subject \argument	#	away from									
+		modifier	associated	location	\group{\subject \r{\argument}}	#	by									
+		modifier	approached	location	\mirror{←\subject}\argument	#	to									
+		modifier	acquired	location	\mirror{\subject←}\argument	#	to									
+		modifier	surpassed	location	\mirror{←}\argument\mirror{←\subject}	#	to									
+		modifier	leveraged	location	←\group{\subject \r{\argument↙}}	#	via									
+		modifier	departed	extent	←\subject \argument	#	starting from									
+		modifier	associated	extent	\group{\subject \r{\argument}}	#	beside									
+		modifier	approached	extent	\mirror{←\subject}\argument	#	up to									
+		modifier	acquired	extent	\mirror{\subject←}\argument	#	up to									
+		modifier	surpassed	extent	\mirror{←}\argument\mirror{←\subject}	#	up to									
+		modifier	leveraged	extent	←\group{\subject \r{\argument↙}}	#	along									
+		modifier	departed	vicinity	←\subject \argument	#	from around									
+		modifier	associated	vicinity	\group{\subject \r{\argument}}	#	by									
+		modifier	approached	vicinity	\mirror{←\subject}\argument	#	to around									
+		modifier	acquired	vicinity	\mirror{\subject←}\argument	#	to around									
+		modifier	surpassed	vicinity	\mirror{←}\argument\mirror{←\subject}	#	to around									
+		modifier	leveraged	vicinity	←\group{\subject \r{\argument↙}}	#	via									
+		modifier	departed	interior	\group{\inllo{←\subject}\large{\argument}}	#	out of									
+		modifier	associated	interior	\group{\inllo{\subject}\large{\argument}}	#	in									
+		modifier	approached	interior	\group{\large{\argument}\inrlo{←\subject}}	#	into									
+		modifier	acquired	interior	\group{\large{\argument}\inrlo{\subject←}}	#	into									
+		modifier	surpassed	interior	\group{\inllo{←\subject}\large{\argument}\inrlo{←}}	#	into									
+		modifier	leveraged	interior	\group{\inllo{←}\large{\argument}\inrlo{\subject←}}	#	through									
+		modifier	departed	surface	\group{\inlhi{↙\subject}\large{\argument}}	#	off of									
+		modifier	associated	surface	\group{\inlhi{\subject}\large{\argument}}	#	on									
+		modifier	approached	surface	\group{\large{\argument}\inrhi{↖\subject}}	#	onto									
+		modifier	acquired	surface	\group{\large{\argument}\inrhi{\subject↖}}	#	onto									
+		modifier	surpassed	surface	\group{\inlhi{\subject↙}\large{\argument}\inrhi{↖}}	#	onto									
+		modifier	leveraged	surface	\group{\inlhi{↖\subject}\large{\argument}\inrhi{↖}}	#	over									
+		modifier	departed	presence	\box{\argument}→\box{\subject}	#	[due to the presence of]									
+		modifier	associated	presence	\group{\subject\r{\argument}}	#	[in the presence of]									
+		modifier	approached	presence	\subject←\argument	#	[to draw in]									
+		modifier	acquired	presence	\subject←\argument	#	[to draw in]									
+		modifier	surpassed	presence	\subject←\argument	#	[to draw in]									
+		modifier	leveraged	presence	\group{\subject\r{\argument}}	#	[by using the presence of]									
+		modifier	departed	aid	\group{\subject\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[thanks to the aid of]									
+		modifier	associated	aid	\group{\subject\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[with the aid of]									
+		modifier	approached	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\subject\r{\group{\argument}}}	#	[to the aid of]									
+		modifier	acquired	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\subject\r{\group{\argument}}}	#	[to the aid of]									
+		modifier	surpassed	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\subject\r{\group{\argument}}}	#	[to the aid of]									
+		modifier	leveraged	aid	\group{\subject\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[by using the aid of ]									
+		modifier	departed	lack	\forbiddenbox{\argument}→\box{\subject}	#	[for want of]									
+		modifier	associated	lack	\group{\subject\r{\forbiddenbox{\argument}}}	#	[in the absence of]									
+		modifier	approached	lack	\box{\subject}→\forbiddenbox{\argument}	#	[to avoid]									
+		modifier	acquired	lack	\box{\subject}→\forbiddenbox{\argument}	#	[to avoid]									
+		modifier	surpassed	lack	\box{\subject}→\forbiddenbox{\argument}	#	[to avoid]									
+		modifier	leveraged	lack	\group{\subject\r{\forbiddenbox{\argument}}}	#	[by taking advantage of the lack of]									
+		modifier	departed	interest	\group{\lhi{❤️}\subject\r{\argument}}	#	[out of the interest of]									
+		modifier	associated	interest	\group{\lhi{❤️}\subject\r{\argument}}	#	[in the interest of]									
+		modifier	approached	interest	\group{\lhi{❤️}\subject\r{\argument}}	#	[for the sake of]									
+		modifier	acquired	interest	\group{\lhi{❤️}\subject\r{\argument}}	#	[for the sake of]									
+		modifier	surpassed	interest	\group{\lhi{❤️}\subject\r{\argument}}	#	[for the sake of]									
+		modifier	leveraged	interest	\group{\mirror{\lhi{💬}}\subject\r{\group{\argument\rhi{❤️}}}}	#	[by appealing to the interest of]									
+		modifier	departed	possession	\group{←\subject\r{\argument}}	#	from [the possession of]									
+		modifier	associated	possession	\group{\subject\r{\argument}}	#	[in the possession of]									
+		modifier	approached	possession	\group{\mirror{←\subject}\r{\argument}}	#	to [the possession of]									
+		modifier	acquired	possession	\group{\mirror{←\subject}\r{\argument}}	#	to [the possession of]									
+		modifier	surpassed	possession	\group{\mirror{←\subject}\r{\argument}}	#	to [the possession of]									
+		modifier	leveraged	possession	\group{\subject\r{\argument}}	#	[due to the possession of]									
+		modifier	departed	time	\group{\large{\argument}\subject→}	#	after									
+		modifier	associated	time	\group{\large{\inllo{\subject}\argument}}	#	during									
+		modifier	approached	time	\group{\subject→\large{\argument}}	#	until									
+		modifier	acquired	time	\group{\subject→\large{\argument}}	#	until									
+		modifier	surpassed	time	\group{\subject→\large{\argument}}	#	until									
+		modifier	leveraged	time	\group{\large{\inllo{\subject}\argument}}	#	by [making use of]									
+		modifier	departed	state-of-being	\box{\argument}→\subject	#	from having been									
+		modifier	associated	state-of-being	\argument	#	as a									
+		modifier	approached	state-of-being	\subject→\box{\argument}	#	in order to be									
+		modifier	acquired	state-of-being	\subject→\box{\argument}	#	in order to be									
+		modifier	surpassed	state-of-being	\subject→\box{\argument}	#	in order to be									
+		modifier	leveraged	state-of-being	\box{\argument}→\subject	#	due to having been									
+		modifier	departed	topic	\argument\mirror{\group{\subject\inrmid{↺}}\r{💬}}	#	away from [the topic of]									
+		modifier	associated	topic	\argument\group{\mirror{\subject}\r{💬}}	#	on [the topic of]									
+		modifier	approached	topic	\argument\group{\subject\inrmid{↺}\r{💬}}	#	to [the topic of]									
+		modifier	acquired	topic	\argument\group{\subject\inrmid{↺}\r{💬}}	#	to [the topic of]									
+		modifier	surpassed	topic	\argument\group{\subject\inrmid{↺}\r{💬}}	#	to [the topic of]									
+		modifier	leveraged	topic	\argument\group{💁\c3\m\r{💬}}	#	by using [the topic of]									
+		modifier	departed	company	\group{←\subject\r{←\argument}}	#	out of the compnay of									
+		modifier	associated	company	\group{←\subject\r{←\argument}}	#	alongside									
+		modifier	approached	company	\group{←\subject\r{←\argument}}	#	to the company of									
+		modifier	acquired	company	\group{←\subject\r{←\argument}}	#	leveraging the company of									
+		modifier	surpassed	company	\group{←\subject\r{←\argument}}	#	leveraging the company of									
+		modifier	leveraged	company	\group{←\subject\r{←\argument}}	#	leveraging the company of									
+		modifier	associated	resemblance	\subject≈\argument	#	like									

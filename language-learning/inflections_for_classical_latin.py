@@ -197,6 +197,17 @@ subjectivity_person_blacklist = parse.termmask(
     addressee  3
     ''')
 
+role_motion_blacklist = parse.termmask(
+    'role_motion_blacklist', 
+    'role motion',
+    '''
+    departed      company
+    approached    company
+    acquired      company
+    surpassed     company
+    leveraged     company
+    ''')
+
 conjugation_subject_traversal = parse.termpath(
     'conjugation_subject_traversal', 
     'person number gender',
@@ -437,6 +448,7 @@ subjectivity_motion_role_traversal = (
      & subjectivity_motion_whitelist)
      * roles )
     - subjectivity_role_blacklist
+    - role_motion_blacklist
 )
 
 valency_subjectivity_motion_role_traversal = (

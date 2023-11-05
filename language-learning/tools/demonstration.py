@@ -38,7 +38,6 @@ def TextDemonstration(
                         **(tag_templates[label]  if label in tag_templates else {})}
                     for label in 'test dummy speaker modifier participle'.split()
                 }
-                # breakpoint()
                 completed_substitutions = [
                     *substitutions,
                     *[{key: tools.replace(tags[key])}
@@ -111,44 +110,46 @@ def EmojiDemonstration(
                         else noun_verb_lookups[tags] if tags in noun_verb_lookups
                         else noun_lookups[alttags] if alttags in noun_lookups
                         else noun_lookups[tags] if tags in noun_lookups 
+                        else noun_adjective_lookups[alttags2] if alttags2 in noun_adjective_lookups
                         else '🚫')
-                    # if '🚫' in result:
-                    #     breakpoint()
                     return self.decode(tags, result)
             def performance(tags, tag_templates):
                 template = ((verb_lookups[tags] if tags in verb_lookups else '\\subject')
                     .replace('\\subject', noun(tags, tag_templates)))
-                # if '🚫' in template:
-                #     breakpoint()
                 return template
             def scene(clause_tags, tag_templates):
+                is_subject_test = clause_tags['subjectivity'] == 'subject'
                 test_tags = {
-                        **{tagaxis: clause_tags[tagaxis]
-                           for tagaxis in clause_tags.keys()
-                           if tagaxis != 'verb' or clause_tags['subjectivity'] == 'subject'},
-                        **label_filtering.termaxis_to_term(clause_tags, 'possessor'),
-                        **tag_templates['test'], 
-                        'script': 'emoji'
-                    }
+                    **{tagaxis: clause_tags[tagaxis]
+                       for tagaxis in clause_tags.keys()
+                       if tagaxis != 'verb' or is_subject_test},
+                    **label_filtering.termaxis_to_term(clause_tags, 'possessor'),
+                    **tag_templates['test'], 
+                    'script': 'emoji'
+                }
                 dummy_tags = {
-                        **({'verb':clause_tags['verb']} if 'verb' in clause_tags and clause_tags['subjectivity'] != 'subject' else {}),
-                        **label_editing.termaxis_to_term(
-                            label_filtering.termaxis_to_term(clause_tags, 'dummy'),
-                            strip='dummy'),
-                        **tag_templates['dummy'], 
-                        'person': '3',
-                        'script': 'emoji'
-                    }
-                template = (self.argument_lookups[clause_tags] if clause_tags in self.argument_lookups
-                    else noun_declension_lookups[clause_tags] if clause_tags in noun_declension_lookups else '🚫')
-                # if '🚫' in template:
-                #     breakpoint()
-                dummy = performance(dummy_tags,     tag_templates)
+                    **({'verb':clause_tags['verb']} if 'verb' in clause_tags and not is_subject_test else {}),
+                    **label_editing.termaxis_to_term(
+                        label_filtering.termaxis_to_term(clause_tags, 'dummy'),
+                        strip='dummy'),
+                    **tag_templates['dummy'], 
+                    'person': '3',
+                    'script': 'emoji'
+                }
+                subject_tags = test_tags if is_subject_test else dummy_tags
+                argument_tags = test_tags if not is_subject_test else dummy_tags
+                copulative_tags = {
+                    **clause_tags, 
+                    'adjective':dummy_tags['noun'] if 'noun' in dummy_tags else 'missing'
+                }
+                template = (noun_adjective_lookups[copulative_tags] if copulative_tags in noun_adjective_lookups
+                    else noun_declension_lookups[argument_tags] if argument_tags in noun_declension_lookups 
+                    else noun_declension_lookups[subject_tags] if subject_tags in noun_declension_lookups 
+                    else '🚫')
                 template = (template
-                    .replace('\\dummy', dummy)
-                    .replace('\\test',  performance(test_tags,      tag_templates)))
-                # if '🚫' in dummy:
-                #     breakpoint()
+                    .replace('\\subject',  performance(subject_tags, tag_templates))
+                    .replace('\\argument', noun(argument_tags, tag_templates))
+                )
                 return getattr(htmlTenseTransform, clause_tags['tense'])(
                             getattr(htmlProgressTransform, clause_tags['progress'].replace('-','_'))(template))
             def recounting(tags):
