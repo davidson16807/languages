@@ -30,7 +30,7 @@ from inflections import (
     write, 
     emoji_casts,
     template_verb_whitelist,
-    template_direct_object_lookup,
+    template_dummy_lookup,
     template_tree_lookup,
     noun_template_whitelist,
 )
@@ -120,7 +120,8 @@ foreign_demonstration = LanguageSpecificTextDemonstration(
 
 emoji_demonstration = LanguageSpecificEmojiDemonstration(
     card_formatting.emoji_focus,
-    emoji_casts[3])
+    emoji_casts[3]
+)
 
 demonstrations = [
     emoji_demonstration,
@@ -427,7 +428,7 @@ tense_progress_mood_voice_verb_traversal = (
     - verb_voice_blacklist
 ) * constant['subject'] 
 
-conjugation_traversal = template_direct_object_lookup(tense_progress_mood_voice_verb_traversal)
+conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
 
 roles = parse_any.termspace('role', 'role', 
     'role: stimulus location possessor interior surface presence aid lack interest time company')
@@ -450,9 +451,10 @@ demonstration_verbs = parse_any.tokenspace('demonstration-verbs', 'verb',
     'verb: ∅ swim fly rest walk crawl flow direct work resemble eat endure warm ' +
         ' cool fall change occupy show see watch startle displease appear be')
 
-declension_noun_traversal = template_direct_object_lookup(
-    ((demonstration_verbs
-    * axis['template']) 
+declension_noun_traversal = template_dummy_lookup(
+    (demonstration_verbs
+    * axis['template']
+    * constant['active']
     * valency_subjectivity_motion_role_traversal) 
     & template_verb_whitelist
 )
@@ -539,7 +541,7 @@ write('flashcards/latin/adpositions.html',
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-            (declension_noun_traversal *constant['man'] * constant['common'])
+            (declension_noun_traversal * constant['man'] * constant['common'])
             & constant['modifier']
             & noun_template_whitelist
         ),

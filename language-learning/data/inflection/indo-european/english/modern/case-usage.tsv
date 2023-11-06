@@ -4,13 +4,25 @@
 	addressee			oblique	∅	∅
 	direct-object			oblique	∅	∅
 	indirect-object			oblique	∅	∅
+	modifier	departed	agent	oblique	by	∅
+	modifier	associated	agent	oblique	by	∅
+	modifier	acquired	agent	oblique	by	∅
+	modifier	approached	agent	oblique	by	∅
+	modifier	surpassed	agent	oblique	by	∅
+	modifier	leveraged	agent	oblique	by	∅
+	modifier	departed	force	oblique	by	∅
+	modifier	associated	force	oblique	by	∅
+	modifier	acquired	force	oblique	by	∅
+	modifier	approached	force	oblique	by	∅
+	modifier	surpassed	force	oblique	by	∅
+	modifier	leveraged	force	oblique	by	∅
 	modifier	departed	possessor	oblique	from [the possession of]	∅
 	modifier	associated	possessor	oblique	of	∅
 	modifier	acquired	possessor	oblique	to [the possession of]	∅
 	modifier	approached	possessor	oblique	towards [the possession of]	∅
 	modifier	surpassed	possessor	oblique	beyond [the possession of]	∅
 	modifier	leveraged	possessor	oblique	[due to the possession of]	∅
-	modifier	departed	location	oblique	away from	∅
+	modifier	departed	location	oblique	from	∅
 	modifier	associated	location	oblique	by	∅
 	modifier	acquired	location	oblique	to	∅
 	modifier	approached	location	oblique	towards	∅

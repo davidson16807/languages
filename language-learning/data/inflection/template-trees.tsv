@@ -3,7 +3,7 @@
 	intransitive	addressee	np test [np common n hello] [np declined]	#
 	transitive	addressee	np test [np common n hello] [np declined]	#
 	intransitive	subject	clause [test [np declined] [vp v verb]]	#
-	transitive	subject	clause [test [np declined] [vp v verb]] [dummy patient direct-object np declined]	#
+	transitive	subject	clause [test [np declined] [vp v verb]] [dummy direct-object np declined]	#
 	intransitive	direct-object	clause [dummy agent subject [np n] [vp v verb]] [test np declined]	"#	"
 	transitive	direct-object	clause [dummy agent subject [np n] [vp v verb]] [test np declined]	#
 	intransitive	modifier	clause [dummy agent subject [np n] [vp v verb]] [test np [stock-adposition] declined]	#

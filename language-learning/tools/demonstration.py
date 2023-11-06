@@ -109,7 +109,7 @@ def EmojiDemonstration(
                         else noun_verb_lookups[tags] if tags in noun_verb_lookups
                         else noun_lookups[alttags] if alttags in noun_lookups
                         else noun_lookups[tags] if tags in noun_lookups 
-                        else noun_adjective_lookups[alttags2] if alttags2 in noun_adjective_lookups
+                        else noun_adjective_lookups[tags] if tags in noun_adjective_lookups
                         else '🚫')
                     return self.decode(tags, result)
             def performance(tags, tag_templates):

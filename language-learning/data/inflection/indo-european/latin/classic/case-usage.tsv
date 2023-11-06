@@ -4,6 +4,14 @@
 	addressee			vocative	∅	∅					
 	direct-object			accusative	∅	∅					
 	indirect-object			dative	∅	∅					
+	modifier	departed	agent	ablative	ab	∅					
+	modifier	associated	agent	ablative	ab	∅					
+	modifier	acquired	agent	ablative	ab	∅					
+	modifier	leveraged	agent	ablative	ab	∅					
+	modifier	departed	force	ablative	ab	∅					
+	modifier	associated	force	ablative	ab	∅					
+	modifier	acquired	force	ablative	ab	∅					
+	modifier	leveraged	force	ablative	ab	∅					
 #	modifier	departed	possessor	genitive	∅	∅					
 	modifier	associated	possessor	genitive	∅	∅					
 #	modifier	acquired	possessor	genitive	∅	∅					

@@ -192,7 +192,7 @@ tagaxis_to_tags = {
     # needed for finite forms
     'person':      '1 2 3 4'.split(),
     'number':      'singular dual trial paucal plural superplural'.split(),
-    'definiteness':'definite indefinite'.split(),
+    'definiteness':'definite indefinite adefinite'.split(),
     'clusivity':   'inclusive exclusive'.split(),
 
     # needed for Spanish
@@ -430,7 +430,7 @@ declension_verb_annotation = CellAnnotation(
     {'script':'latin', 'verb-form':'finite','gender':['masculine','feminine','neuter']})
 template_verb_annotation = CellAnnotation(
     'verb', term_to_termaxis, {0:'template'}, {}, {})
-template_direct_object_annotation = RowAnnotation('flag subjectivity verb valency dummy-motion dummy-role dummy-subjectivity dummy-definiteness dummy-noun'.split())
+template_dummy_annotation = RowAnnotation('flag subjectivity verb voice valency dummy-motion dummy-role dummy-subjectivity dummy-definiteness dummy-noun'.split())
 template_tree_annotation = RowAnnotation('flag valency subjectivity tree'.split())
 noun_template_annotation = RowAnnotation('noun template'.split())
 
@@ -445,8 +445,8 @@ mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing('moo
 noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('noun template'.split()), set()))
 template_verb_population = DictSetPopulation(DictSet('template-verb', DictTupleIndexing('template role subjectivity valency verb'.split()), set()))
 template_tree_population = FlatLookupPopulation(DictLookup('template-tree', DictTupleIndexing('valency subjectivity'.split())), KeyEvaluation('tree'))
-template_direct_object_population = FlatLookupPopulation(
-    DictLookup('template-dummy', DictTupleIndexing('subjectivity verb valency'.split())), 
+template_dummy_population = FlatLookupPopulation(
+    DictLookup('template-dummy', DictTupleIndexing('subjectivity verb voice valency'.split())), 
     MultiKeyEvaluation('dummy-motion dummy-role dummy-subjectivity dummy-definiteness dummy-noun'.split()) 
 )
 
@@ -480,9 +480,9 @@ template_verb_whitelist = (
             tsv_parsing.rows('data/inflection/template-verbs.tsv')))
 )
 
-template_direct_object_lookup = (
-    template_direct_object_population.index(
-        template_direct_object_annotation.annotate(
+template_dummy_lookup = (
+    template_dummy_population.index(
+        template_dummy_annotation.annotate(
             tsv_parsing.rows('data/inflection/template-dummies.tsv')))
 )
 
