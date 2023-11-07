@@ -480,7 +480,7 @@ write('flashcards/latin/finite-conjugation.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular sapient masculine'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
         },
     ))
 
@@ -505,7 +505,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular sapient masculine'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
             'speaker' : parse.termaxis_to_term('personal associated agent subject 1 singular masculine sapient man familiar present simple active indicative'),
         },
     ))
@@ -516,7 +516,7 @@ write('flashcards/latin/participle-declension.html',
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
                 '''clause test [
-                    [np participle clause [np n] parentheses [vp cloze v verb] [dummy np n]]
+                    [np participle clause [np n] parentheses [vp cloze v verb] [dummy np [stock-adposition] n]]
                     [vp active present atelic v appear]
                 ]'''),
         ) for demonstration in demonstrations],
@@ -528,8 +528,7 @@ write('flashcards/latin/participle-declension.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('common definite associated agent subject'),
-            # 'dummy'   : parse.termaxis_to_term('common definite 3 singular sapient masculine'),
-            'dummy'      : parse.termaxis_to_term('common singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'participle' : parse.termaxis_to_term('common definite participle subject'),
         },
     ))
@@ -550,19 +549,10 @@ write('flashcards/latin/adpositions.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular sapient masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal definite'),
         },
     ))
-
-head((((declension_noun_traversal * axis['noun'] * constant['common'])
-                & noun_template_whitelist)
-                * axis['gender']))
-head(gender_noun_whitelist)
-head((((declension_noun_traversal * axis['noun'] * constant['common'])
-                & noun_template_whitelist)
-                * axis['gender'])
-                & gender_noun_whitelist)
 
 print('flashcards/latin/common-noun-declension.html')
 write('flashcards/latin/common-noun-declension.html',
@@ -578,7 +568,7 @@ write('flashcards/latin/common-noun-declension.html',
                 & gender_noun_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular sapient masculine'),
+            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -597,7 +587,7 @@ write('flashcards/latin/pronoun-declension.html',
             - subjectivity_person_blacklist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common definite 3 singular sapient man masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal'),
         },
     ))

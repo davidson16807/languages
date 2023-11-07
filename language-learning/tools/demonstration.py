@@ -117,36 +117,35 @@ def EmojiDemonstration(
                     .replace('\\subject', noun(tags, tag_templates)))
                 return template
             def scene(clause_tags, tag_templates):
-                is_subject_test = clause_tags['subjectivity'] == 'subject'
+                is_actor_test = {**clause_tags, **tag_templates['test']}['role'] in {'agent', 'force'}
                 test_tags = {
                     **{tagaxis: clause_tags[tagaxis]
                        for tagaxis in clause_tags.keys()
-                       if tagaxis != 'verb' or is_subject_test},
+                       if tagaxis != 'verb' or is_actor_test},
                     **label_filtering.termaxis_to_term(clause_tags, 'possessor'),
                     **tag_templates['test'], 
                     'script': 'emoji'
                 }
                 dummy_tags = {
-                    **({'verb':clause_tags['verb']} if 'verb' in clause_tags and not is_subject_test else {}),
+                    **({'verb':clause_tags['verb']} if 'verb' in clause_tags and not is_actor_test else {}),
                     **label_editing.termaxis_to_term(
                         label_filtering.termaxis_to_term(clause_tags, 'dummy'),
                         strip='dummy'),
                     **tag_templates['dummy'], 
-                    'person': '3',
                     'script': 'emoji'
                 }
-                subject_tags = test_tags if is_subject_test else dummy_tags
-                argument_tags = test_tags if not is_subject_test else dummy_tags
+                actor_tags = test_tags if is_actor_test else dummy_tags
+                argument_tags = test_tags if not is_actor_test else dummy_tags
                 copulative_tags = {
                     **clause_tags, 
                     'adjective':dummy_tags['noun'] if 'noun' in dummy_tags else 'missing'
                 }
                 template = (noun_adjective_lookups[copulative_tags] if copulative_tags in noun_adjective_lookups
                     else noun_declension_lookups[argument_tags] if argument_tags in noun_declension_lookups 
-                    else noun_declension_lookups[subject_tags] if subject_tags in noun_declension_lookups 
+                    else noun_declension_lookups[actor_tags] if actor_tags in noun_declension_lookups 
                     else '🚫')
                 template = (template
-                    .replace('\\subject',  performance(subject_tags, tag_templates))
+                    .replace('\\actor',  performance(actor_tags, tag_templates))
                     .replace('\\argument', noun(argument_tags, tag_templates))
                 )
                 return getattr(htmlTenseTransform, clause_tags['tense'])(

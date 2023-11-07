@@ -1,6 +1,8 @@
 #	noun	verb	emoji	this file represents noun-verb combinations
-	man	direct	\nx{💁\cx\gx}	
 	man	work	\nx{🧑\gx\cx\🌾}	
+	man	direct	\nx{💁\cx\gx}	
+	man	want	\nx{💁\cx\gx}	
+	man	carry	\nx{💁\cx\gx}	
 	man	change	\nx{🧑\gx\cx→🧑\gx\cx\🦱}	
 	man	appear	\nx{🧍\cx\gx}	
 	man	be	\nx{🧍\cx\gx}	
@@ -24,4 +26,6 @@
 	man	show	\nx{💁\cx\gx}	
 	man	swim	\nx{🏊\cx\gx}	
 	man	walk	\nx{🚶\cx\gx}	
+	man	eat	\nx{🧑\gx\cx}	
+	man	capture	\nx{💂}	
 	bird	fly	\nx{🦅}	
