@@ -14,8 +14,8 @@
 	subject	beat	passive	intransitive	associated-dummy	agent-dummy	modifier-dummy	definite-dummy	enemy-dummy	#		guard	captures and releases men	captivity
 	subject	become	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	strong-dummy	#		horse	something directed or tamed	activity
 #	subject	become cold	active	intransitive						#	place	house	location, interior, property	domestication
-	subject	burn	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		idea	thought and taught	momentary state
-	subject	burn	passive	intransitive	associated-dummy	force-dummy	modifier-dummy	definite-dummy	fire-dummy	#		love	something that motivates and alters men in good taste	
+	subject	burn	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		love	something that motivates and alters men in good taste	momentary state
+	subject	burn	passive	intransitive	associated-dummy	force-dummy	modifier-dummy	definite-dummy	fire-dummy	#		idea	thought and taught	
 	subject	call	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#		man	capable of virtually everything that requires agency and sapience	
 	subject	call	passive	intransitive	associated-dummy	agent-dummy	modifier-dummy	definite-dummy	man-dummy	#		money	something that is exchanged and has value	
 	subject	capture	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	enemy-dummy	#		monster	eats men in relatively (fanciful) good taste 	consumption
@@ -116,7 +116,7 @@
 	subject	sweep	passive	intransitive	associated-dummy	patient-dummy	modifier-dummy	definite-dummy	house-dummy	#				
 	subject	tame	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	horse-dummy	#				
 	subject	tame	passive	intransitive	associated-dummy	force-dummy	modifier-dummy	definite-dummy	love-dummy	#				
-	subject	teach	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	idea-dummy	#				
+	subject	teach	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
 	subject	teach	passive	intransitive	associated-dummy	agent-dummy	modifier-dummy	definite-dummy	man-dummy	#				
 	subject	think	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	idea-dummy	#				
 	subject	want	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	money-dummy	#				

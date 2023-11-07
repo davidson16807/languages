@@ -428,7 +428,9 @@ tense_progress_mood_voice_verb_traversal = (
     - verb_voice_blacklist
 ) * constant['subject'] 
 
-conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
+conjugation_traversal =(
+    template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
+)
 
 roles = parse_any.termspace('role', 'role', 
     'role: stimulus location possessor interior surface presence aid lack interest time company')
@@ -451,12 +453,14 @@ demonstration_verbs = parse_any.tokenspace('demonstration-verbs', 'verb',
     'verb: ∅ swim fly rest walk crawl flow direct work resemble eat endure warm ' +
         ' cool fall change occupy show see watch startle displease appear be')
 
-declension_noun_traversal = template_dummy_lookup(
-    (demonstration_verbs
-    * axis['template']
-    * constant['active']
-    * valency_subjectivity_motion_role_traversal) 
-    & template_verb_whitelist
+
+declension_noun_traversal = (
+    template_dummy_lookup(
+        (demonstration_verbs
+        * axis['template']
+        * constant['active']
+        * valency_subjectivity_motion_role_traversal) 
+        & template_verb_whitelist)
 )
 
 """
@@ -476,7 +480,7 @@ write('flashcards/latin/finite-conjugation.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular sapient masculine'),
         },
     ))
 
@@ -501,7 +505,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular masculine sapient'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular sapient masculine'),
             'speaker' : parse.termaxis_to_term('personal associated agent subject 1 singular masculine sapient man familiar present simple active indicative'),
         },
     ))
@@ -524,7 +528,7 @@ write('flashcards/latin/participle-declension.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('common definite associated agent subject'),
-            # 'dummy'   : parse.termaxis_to_term('common definite 3 singular masculine sapient'),
+            # 'dummy'   : parse.termaxis_to_term('common definite 3 singular sapient masculine'),
             'dummy'      : parse.termaxis_to_term('common singular masculine'),
             'participle' : parse.termaxis_to_term('common definite participle subject'),
         },
@@ -546,7 +550,7 @@ write('flashcards/latin/adpositions.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine sapient'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular sapient masculine'),
             'test'       : parse.termaxis_to_term('personal definite'),
         },
     ))
@@ -574,7 +578,7 @@ write('flashcards/latin/common-noun-declension.html',
                 & gender_noun_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine sapient'),
+            'dummy'      : parse.termaxis_to_term('personal 3 singular sapient masculine'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -593,7 +597,7 @@ write('flashcards/latin/pronoun-declension.html',
             - subjectivity_person_blacklist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common definite 3 singular masculine sapient man'),
+            'dummy'      : parse.termaxis_to_term('common definite 3 singular sapient man masculine'),
             'test'       : parse.termaxis_to_term('personal'),
         },
     ))
