@@ -36,7 +36,7 @@ def TextDemonstration(
                             label_filtering.termaxis_to_term(tags, label),
                             strip=label),
                         **(tag_templates[label]  if label in tag_templates else {})}
-                    for label in 'test dummy speaker modifier participle'.split()
+                    for label in 'test dummy speaker participle'.split()
                 }
                 completed_substitutions = [
                     *substitutions,
@@ -117,21 +117,24 @@ def EmojiDemonstration(
                     .replace('\\subject', noun(tags, tag_templates)))
                 return template
             def scene(clause_tags, tag_templates):
-                is_actor_test = {**clause_tags, **tag_templates['test']}['role'] in {'agent', 'force'}
+                dummy_tags = {
+                    **label_editing.termaxis_to_term(
+                        label_filtering.termaxis_to_term(clause_tags, 'dummy'),
+                        strip='dummy'),
+                    **tag_templates['dummy'], 
+                    'script': 'emoji'
+                }
+                is_actor_test = dummy_tags['role'] not in {'agent', 'force'}
+                dummy_tags ={
+                    **({'verb':clause_tags['verb']} if 'verb' in clause_tags and not is_actor_test else {}),
+                    **dummy_tags,
+                }
                 test_tags = {
                     **{tagaxis: clause_tags[tagaxis]
                        for tagaxis in clause_tags.keys()
                        if tagaxis != 'verb' or is_actor_test},
                     **label_filtering.termaxis_to_term(clause_tags, 'possessor'),
                     **tag_templates['test'], 
-                    'script': 'emoji'
-                }
-                dummy_tags = {
-                    **({'verb':clause_tags['verb']} if 'verb' in clause_tags and not is_actor_test else {}),
-                    **label_editing.termaxis_to_term(
-                        label_filtering.termaxis_to_term(clause_tags, 'dummy'),
-                        strip='dummy'),
-                    **tag_templates['dummy'], 
                     'script': 'emoji'
                 }
                 actor_tags = test_tags if is_actor_test else dummy_tags
@@ -160,6 +163,6 @@ def EmojiDemonstration(
                             .replace('\\scene',     scene(clause_tags, tag_templates))
                             .replace('\\addressee', performance(clause_tags, tag_templates)
                                 if clause_tags['subjectivity']=='addressee' else '\\n2{🧑\\g2\\c2}')
-                        ))
+                        )).replace('∅','')
             return demonstrate
     return LanguageSpecificEmojiDemonstration

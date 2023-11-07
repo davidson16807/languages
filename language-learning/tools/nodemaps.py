@@ -49,7 +49,7 @@ class ListSemantics:
                if tags in usage and tagaxis in usage[tags]
             }
         }
-    def tag(self, modifications, remove=False):
+    def tag(self, modifications, remove=False, debug=False):
         def _map(machine, tree, memory):
             # if self.debug and 'verb-form' in modifications:
             #     print(modifications['verb-form'])
@@ -153,13 +153,14 @@ class RuleSyntax:
             **noun_lookup,
             'verb': verbs,
         }
-        return Rule(clause.tag, 
+        ordered = Rule(clause.tag, 
             clause.tags,
             treemap.map([
                 phrase
                 for phrase_type in self.sentence_structure
                 for phrase in phrase_lookup[phrase_type]
             ]))
+        return ordered
     def order_noun_phrase(self, treemap, phrase):
         # if 'alt' in str(phrase):
         #     print(phrase)

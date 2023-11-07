@@ -131,7 +131,7 @@
 	subject	write	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	book-dummy	#				
 	modifier	swim	active	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
 	modifier	fly	active	intransitive	associated-dummy	agent-dummy	direct-object-dummy	definite-dummy	bird-dummy	#				
-	modifier	flow	active	intransitive	associated-dummy	theme-dummy	subject-dummy	definite-dummy	warmth-dummy	#				
+	modifier	flow	active	intransitive	associated-dummy	force-dummy	subject-dummy	definite-dummy	warmth-dummy	#				
 	modifier	rest	active	intransitive	associated-dummy	theme-dummy	subject-dummy	definite-dummy	man-dummy	#				
 	modifier	walk	active	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
 	modifier	crawl	active	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	bug-dummy	#				
@@ -204,6 +204,6 @@
 	subject	watch	passive	intransitive	associated-dummy	agent-dummy	modifier-dummy	definite-dummy	guard-dummy	#				
 	subject	displease	active	transitive	associated-dummy	experiencer-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
 	subject	displease	passive	intransitive	associated-dummy	stimulus-dummy	modifier-dummy	definite-dummy	man-dummy	#				
-	subject	appear	active	intransitive	acquired-dummy	experiencer-dummy	modifier-dummy	definite-dummy	man-dummy	#				
+	subject	appear	active	intransitive	acquired-dummy	experiencer-dummy	modifier-dummy	definite-dummy	∅-dummy	#				
 	subject	be	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	strong-dummy	#				
 	addressee	∅	active	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				

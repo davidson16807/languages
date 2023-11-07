@@ -94,7 +94,7 @@ foreign_termaxis_to_terms = {
     **parse_any.termaxis_to_terms('''
         gender :  masculine feminine neuter
         number :  singular plural
-        motion :  associated departed acquired approached surpassed leveraged
+        motion :  approached acquired associated departed leveraged surpassed
         progress: atelic unfinished finished
         tense  :  present past future
         voice  :  active passive
@@ -173,7 +173,6 @@ subjectivity_motion_whitelist = parse.termmask(
     addressee     associated
     subject       associated
     direct-object associated
-    modifier      approached
     modifier      acquired
     modifier      associated
     modifier      departed
@@ -192,9 +191,9 @@ role_motion_blacklist = parse.termmask(
     'role_motion_blacklist', 
     'role motion',
     '''
-    departed      company
-    approached    company
     acquired      company
+    approached    company
+    departed      company
     surpassed     company
     leveraged     company
     ''')
@@ -491,11 +490,11 @@ write('flashcards/latin/nonfinite-conjugation.html',
             emoji_demonstration.generator(),
             foreign_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np n] [vp cloze v verb]]] [dummy np [stock-adposition] n]',)
+                    'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]]',)
             ),
             english_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [np n] [vp v figure]] [modifier np clause [test [np n] [vp cloze v verb]]] [dummy np [stock-adposition] n]',)
+                    'modifier clause [speaker finite [np n] [vp v figure]] [modifier np clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]] ',)
             ),
         ],
         defaults.override(
@@ -506,7 +505,7 @@ write('flashcards/latin/nonfinite-conjugation.html',
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
             'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
-            'speaker' : parse.termaxis_to_term('personal associated agent subject 1 singular masculine sapient man familiar present simple active indicative'),
+            'speaker' : parse.termaxis_to_term('personal associated agent subject 1 singular masculine sapient man familiar present simple active atelic indicative'),
         },
     ))
 
@@ -568,7 +567,7 @@ write('flashcards/latin/common-noun-declension.html',
                 & gender_noun_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
