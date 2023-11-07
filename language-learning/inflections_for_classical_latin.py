@@ -543,7 +543,7 @@ write('flashcards/latin/adpositions.html',
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-            (declension_noun_traversal * constant['man'] * constant['common'])
+            (declension_noun_traversal * constant['man'])
             & constant['modifier']
             & noun_template_whitelist
         ),
@@ -561,7 +561,7 @@ write('flashcards/latin/common-noun-declension.html',
             substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
-            (((declension_noun_traversal * axis['noun'] * constant['common'])
+            (((declension_noun_traversal * axis['noun'])
                 & noun_template_whitelist)
                 * axis['gender'])
                 & gender_noun_whitelist
@@ -606,7 +606,7 @@ write('flashcards/latin/adjective-agreement.html',
             & noun_template_whitelist) 
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -630,7 +630,7 @@ write('flashcards/latin/pronoun-possessives.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('personal 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal-possessive'),
         },
     ))
