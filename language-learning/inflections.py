@@ -544,7 +544,7 @@ nouns_to_depictions = {
 LanguageSpecificTextDemonstration = TextDemonstration(
     mood_population.index(
         mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/indo-european/english/modern/mood-templates.tsv'))),
+            tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/mood-templates.tsv'))),
     TermLabelEditing(),
     TermLabelFiltering(),
     ListParsing(), 
@@ -896,13 +896,13 @@ english_language = Language(
     ListSemantics(
         case_usage_population.index(
             case_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/case-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/case-usage.tsv'))),
         mood_usage_population.index(
             mood_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/mood-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/english/modern/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/aspect-usage.tsv'))),
         # debug=True,
     ),
     ListGrammar(
@@ -910,9 +910,9 @@ english_language = Language(
             NestedDictLookup(
                 english_conjugation_population.index([
                     *finite_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/english/modern/irregular-conjugations.tsv')),
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/irregular-conjugations.tsv')),
                     *finite_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/english/modern/regular-conjugations.tsv')),
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/regular-conjugations.tsv')),
                 ])),
             ProceduralLookup(regular_english_grammar.conjugate),
         ),
@@ -920,9 +920,9 @@ english_language = Language(
             NestedDictLookup(
                 declension_population.index([
                     *pronoun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-declensions.tsv')),
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/pronoun-declensions.tsv')),
                     *common_noun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/english/modern/common-noun-declensions.tsv')),
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/common-noun-declensions.tsv')),
                 ])),
             ProceduralLookup(regular_english_grammar.decline),
         ),
@@ -930,7 +930,7 @@ english_language = Language(
             NestedDictLookup(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/english/modern/pronoun-possessives.tsv')),
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/pronoun-possessives.tsv')),
                 ])
             ),
             ProceduralLookup(regular_english_grammar.agree),

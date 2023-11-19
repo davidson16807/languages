@@ -1,0 +1,192 @@
+animal		singular	dual	plural
+animal	nominative	животъživotŭ	животаživota	животиživoti
+animal	genitive	животаživota	животоуživotu	животъživotŭ
+animal	dative	животоу, животовиživotu, životovi	животомаživotoma	животомъživotomŭ
+animal	accusative	животъ, животаživotŭ, života	животаživota	животꙑživoty
+animal	instrumental	животомъživotomŭ	животомаživotoma	животꙑživoty
+animal	locative	животѣživotě	животоуživotu	животѣхъživotěxŭ
+animal	vocative	животеživote	животаživota	животиživoti
+bird		singular	dual	plural
+bird	nominative	пътицаpŭtica	пътициpŭtici	пътицѧpŭticę
+bird	genitive	пътицѧpŭticę	пътицоуpŭticu	пътицьpŭticĭ
+bird	dative	пътициpŭtici	пътицамаpŭticama	пътицамъpŭticamŭ
+bird	accusative	пътицѫpŭticǫ	пътициpŭtici	пътицѧpŭticę
+bird	instrumental	пътицеѭpŭticejǫ	пътицамаpŭticama	пътицамиpŭticami
+bird	locative	пътициpŭtici	пътицоуpŭticu	пътицахъpŭticaxŭ
+bird	vocative	пътицеpŭtice	пътициpŭtici	пътицѧpŭticę
+boat		singular	dual	plural
+boat	nominative	ладииladii	ладииladii	ладиѩladiję
+boat	genitive	ладиѩladiję	ладиюladiju	ладииladii
+boat	dative	ладииladii	ладиꙗмаladijama	ладиꙗмъladijamŭ
+boat	accusative	ладиѭladijǫ	ладииladii	ладиѩladiję
+boat	instrumental	ладиѥѭladijejǫ	ладиꙗмаladijama	ладиꙗмиladijami
+boat	locative	ладииladii	ладиюladiju	ладиꙗхъladijaxŭ
+boat	vocative	ладиѥladije	ладииladii	ладиѩladiję
+book		singular	dual	plural
+book	nominative	боукꙑbuky	боукъвиbukŭvi	боукъвиbukŭvi
+book	genitive	боукъвеbukŭve	боукъвоуbukŭvu	боукъвъbukŭvŭ
+book	dative	боукъвиbukŭvi	боукъвамаbukŭvama	боукъвамъbukŭvamŭ
+book	accusative	боукъвьbukŭvĭ	боукъвиbukŭvi	боукъвиbukŭvi
+book	instrumental	боукъвьѭ, боукъвиѭbukŭvĭjǫ, bukŭvijǫ	боукъвамаbukŭvama	боукъвамиbukŭvami
+book	locative	боукъвеbukŭve	боукъвоуbukŭvu	боукъвахъbukŭvaxŭ
+book	vocative	боукꙑbuky	боукъвиbukŭvi	боукъвиbukŭvi
+clothing		singular	dual	plural
+clothing	nominative	одеждаodežda	одеждиodeždi	одеждѧodeždę
+clothing	genitive	одеждѧodeždę	одеждоуodeždu	одеждьodeždĭ
+clothing	dative	одеждиodeždi	одеждамаodeždama	одеждамъodeždamŭ
+clothing	accusative	одеждѫodeždǫ	одеждиodeždi	одеждѧodeždę
+clothing	instrumental	одеждеѭodeždejǫ	одеждамаodeždama	одеждамиodeždami
+clothing	locative	одеждиodeždi	одеждоуodeždu	одеждахъodeždaxŭ
+clothing	vocative	одеждеodežde	одеждиodeždi	одеждѧodeždę
+daughter		singular	dual	plural
+daughter	nominative	дъщиdŭšti	дъщериdŭšteri	дъщериdŭšteri
+daughter	genitive	дъщереdŭštere	дъщероуdŭšteru	дъщеръdŭšterŭ
+daughter	dative	дъщериdŭšteri	дъщерьмаdŭšterĭma	дъщерьмъdŭšterĭmŭ
+daughter	accusative	дъщерьdŭšterĭ	дъщериdŭšteri	дъщериdŭšteri
+daughter	instrumental	дъщерьѭdŭšterĭjǫ	дъщерьмаdŭšterĭma	дъщерьмиdŭšterĭmi
+daughter	locative	дъщериdŭšteri	дъщероуdŭšteru	дъщерьхъdŭšterĭxŭ
+daughter	vocative	дъщиdŭšti	дъщериdŭšteri	дъщериdŭšteri
+dog		singular	dual	plural
+dog	nominative	пьсъpĭsŭ	пьсаpĭsa	пьсиpĭsi
+dog	genitive	пьсаpĭsa	пьсоуpĭsu	пьсъpĭsŭ
+dog	dative	пьсоу, пьсовиpĭsu, pĭsovi	пьсомаpĭsoma	пьсомъpĭsomŭ
+dog	accusative	пьсъ, пьсаpĭsŭ, pĭsa	пьсаpĭsa	пьсꙑpĭsy
+dog	instrumental	пьсомъpĭsomŭ	пьсомаpĭsoma	пьсꙑpĭsy
+dog	locative	пьсѣpĭsě	пьсоуpĭsu	пьсѣхъpĭsěxŭ
+dog	vocative	пьсеpĭse	пьсаpĭsa	пьсиpĭsi
+enemy		singular	dual	plural
+enemy	nominative	врагъvragŭ	врагаvraga	враѕиvradzi
+enemy	genitive	врагаvraga	врагоуvragu	врагъvragŭ
+enemy	dative	врагоу, враговиvragu, vragovi	врагомаvragoma	врагомъvragomŭ
+enemy	accusative	врагъ, врагаvragŭ, vraga	врагаvraga	врагꙑvragy
+enemy	instrumental	врагомъvragomŭ	врагомаvragoma	врагꙑvragy
+enemy	locative	враѕѣvradzě	врагоуvragu	враѕѣхъvradzěxŭ
+enemy	vocative	вражеvraže	врагаvraga	враѕиvradzi
+horse		singular	dual	plural
+horse	nominative	коньkonĭ	кониkoni	коньѥ, кониѥkonĭje, konije
+horse	genitive	кониkoni	конью, кониюkonĭju, koniju	коньи, конииkonĭi, konii
+horse	dative	кониkoni	коньмаkonĭma	коньмъkonĭmŭ
+horse	accusative	коньkonĭ	кониkoni	кониkoni
+horse	instrumental	коньмьkonĭmĭ	коньмаkonĭma	коньмиkonĭmi
+horse	locative	кониkoni	конью, кониюkonĭju, koniju	коньхъkonĭxŭ
+horse	vocative	кониkoni	кониkoni	коньѥ, кониѥkonĭje, konije
+horse		singular	dual	plural
+horse	nominative	кон҄ьkonʹĭ	кон҄аkonʹa	кон҄иkonʹi
+horse	genitive	кон҄аkonʹa	кон҄оуkonʹu	кон҄ьkonʹĭ
+horse	dative	кон҄оу, кон҄евиkonʹu, konʹevi	кон҄емаkonʹema	кон҄емъkonʹemŭ
+horse	accusative	кон҄ь, кон҄аkonʹĭ, konʹa	кон҄аkonʹa	кон҄ѧkonʹę
+horse	instrumental	кон҄емьkonʹemĭ	кон҄емаkonʹema	кон҄иkonʹi
+horse	locative	кон҄иkonʹi	кон҄оуkonʹu	кон҄ихъkonʹixŭ
+horse	vocative	кон҄оуkonʹu	кон҄аkonʹa	кон҄иkonʹi
+house		singular	dual	plural
+house	nominative	домъdomŭ	домꙑdomy	домовеdomove
+house	genitive	домоуdomu	домовоуdomovu	домовъdomovŭ
+house	dative	домовиdomovi	домъмаdomŭma	домъмъdomŭmŭ
+house	accusative	домъdomŭ	домꙑdomy	домꙑdomy
+house	instrumental	домъмьdomŭmĭ	домъмаdomŭma	домъмиdomŭmi
+house	locative	домоуdomu	домовоуdomovu	домъхъdomŭxŭ
+house	vocative	домоуdomu	домꙑdomy	домовеdomove
+love		singular	dual	plural
+love	nominative	любꙑljuby	любъвиljubŭvi	любъвиljubŭvi
+love	genitive	любъвеljubŭve	любъвоуljubŭvu	любъвъljubŭvŭ
+love	dative	любъвиljubŭvi	любъвамаljubŭvama	любъвамъljubŭvamŭ
+love	accusative	любъвьljubŭvĭ	любъвиljubŭvi	любъвиljubŭvi
+love	instrumental	любъвьѭ, любъвиѭljubŭvĭjǫ, ljubŭvijǫ	любъвамаljubŭvama	любъвамиljubŭvami
+love	locative	любъвеljubŭve	любъвоуljubŭvu	любъвахъljubŭvaxŭ
+love	vocative	любꙑljuby	любъвиljubŭvi	любъвиljubŭvi
+man		singular	dual	plural
+man	nominative	мѫжьmǫžĭ	мѫжаmǫža	мѫжиmǫži
+man	genitive	мѫжаmǫža	мѫжоуmǫžu	мѫжьmǫžĭ
+man	dative	мѫжоу, мѫжевиmǫžu, mǫževi	мѫжемаmǫžema	мѫжемъmǫžemŭ
+man	accusative	мѫжь, мѫжаmǫžĭ, mǫža	мѫжаmǫža	мѫжѧmǫžę
+man	instrumental	мѫжемьmǫžemĭ	мѫжемаmǫžema	мѫжиmǫži
+man	locative	мѫжиmǫži	мѫжоуmǫžu	мѫжихъmǫžixŭ
+man	vocative	мѫжоуmǫžu	мѫжаmǫža	мѫжиmǫži
+money		singular	dual	plural
+money	nominative	пѣнѧѕьpěnędzĭ	пѣнѧѕаpěnędza	пѣнѧѕиpěnędzi
+money	genitive	пѣнѧѕаpěnędza	пѣнѧѕоуpěnędzu	пѣнѧѕьpěnędzĭ
+money	dative	пѣнѧѕоуpěnędzu	пѣнѧѕемаpěnędzema	пѣнѧѕемъpěnędzemŭ
+money	accusative	пѣнѧѕьpěnędzĭ	пѣнѧѕаpěnędza	пѣнѧѕѧpěnędzę
+money	instrumental	пѣнѧѕемьpěnędzemĭ	пѣнѧѕемаpěnędzema	пѣнѧѕиpěnędzi
+money	locative	пѣнѧѕиpěnędzi	пѣнѧѕоуpěnędzu	пѣнѧѕихъpěnędzixŭ
+money	vocative	пѣнѧжеpěnęže	пѣнѧѕаpěnędza	пѣнѧѕиpěnędzi
+monster		singular	dual	plural
+monster	nominative	звѣрьzvěrĭ	звѣриzvěri	звѣрьѥ, звѣриѥzvěrĭje, zvěrije
+monster	genitive	звѣриzvěri	звѣрью, звѣриюzvěrĭju, zvěriju	звѣрьи, звѣрииzvěrĭi, zvěrii
+monster	dative	звѣриzvěri	звѣрьмаzvěrĭma	звѣрьмъzvěrĭmŭ
+monster	accusative	звѣрьzvěrĭ	звѣриzvěri	звѣриzvěri
+monster	instrumental	звѣрьмьzvěrĭmĭ	звѣрьмаzvěrĭma	звѣрьмиzvěrĭmi
+monster	locative	звѣриzvěri	звѣрью, звѣриюzvěrĭju, zvěriju	звѣрьхъzvěrĭxŭ
+monster	vocative	звѣриzvěri	звѣриzvěri	звѣрьѥ, звѣриѥzvěrĭje, zvěrije
+rock		singular	dual	plural
+rock	nominative	камꙑkamy	камениkameni	каменеkamene
+rock	genitive	каменеkamene	каменоуkamenu	каменъkamenŭ
+rock	dative	камениkameni	каменьмаkamenĭma	каменьмъkamenĭmŭ
+rock	accusative	каменьkamenĭ	камениkameni	камениkameni
+rock	instrumental	каменьмьkamenĭmĭ	каменьмаkamenĭma	каменьмиkamenĭmi
+rock	locative	каменеkamene	каменоуkamenu	каменьхъkamenĭxŭ
+rock	vocative	камꙑkamy	камениkameni	каменеkamene
+rope		singular	dual	plural
+rope	nominative	ѫжеǫže	ѫжиǫži	ѫжаǫža
+rope	genitive	ѫжаǫža	ѫжоуǫžu	ѫжьǫžĭ
+rope	dative	ѫжоуǫžu	ѫжемаǫžema	ѫжемъǫžemŭ
+rope	accusative	ѫжеǫže	ѫжиǫži	ѫжаǫža
+rope	instrumental	ѫжемьǫžemĭ	ѫжемаǫžema	ѫжиǫži
+rope	locative	ѫжиǫži	ѫжоуǫžu	ѫжихъǫžixŭ
+rope	vocative	ѫжеǫže	ѫжиǫži	ѫжаǫža
+son		singular	dual	plural
+son	nominative	сꙑнъsynŭ	сꙑнꙑsyny	сꙑновеsynove
+son	genitive	сꙑноуsynu	сꙑновоуsynovu	сꙑновъsynovŭ
+son	dative	сꙑновиsynovi	сꙑнъмаsynŭma	сꙑнъмъsynŭmŭ
+son	accusative	сꙑнъsynŭ	сꙑнꙑsyny	сꙑнꙑsyny
+son	instrumental	сꙑнъмьsynŭmĭ	сꙑнъмаsynŭma	сꙑнъмиsynŭmi
+son	locative	сꙑноуsynu	сꙑновоуsynovu	сꙑнъхъsynŭxŭ
+son	vocative	сꙑноуsynu	сꙑнꙑsyny	сꙑновеsynove
+son		singular	dual	plural
+son	nominative	сꙑнъsynŭ	сꙑнꙑsyny	сꙑновеsynove
+son	genitive	сꙑноуsynu	сꙑновоуsynovu	сꙑновъsynovŭ
+son	dative	сꙑновиsynovi	сꙑнъмаsynŭma	сꙑнъмъsynŭmŭ
+son	accusative	сꙑнъsynŭ	сꙑнꙑsyny	сꙑнꙑsyny
+son	instrumental	сꙑнъмьsynŭmĭ	сꙑнъмаsynŭma	сꙑнъмиsynŭmi
+son	locative	сꙑноуsynu	сꙑновоуsynovu	сꙑнъхъsynŭxŭ
+son	vocative	сꙑноуsynu	сꙑнꙑsyny	сꙑновеsynove
+water		singular	dual	plural
+water	nominative	водаvoda	водѣvodě	водꙑvody
+water	genitive	водꙑvody	водоуvodu	водъvodŭ
+water	dative	водѣvodě	водамаvodama	водамъvodamŭ
+water	accusative	водѫvodǫ	водѣvodě	водꙑvody
+water	instrumental	водоѭvodojǫ	водамаvodama	водамиvodami
+water	locative	водѣvodě	водоуvodu	водахъvodaxŭ
+water	vocative	водоvodo	водѣvodě	водꙑvody
+way		singular	dual	plural
+way	nominative	пѫтьpǫtĭ	пѫтиpǫti	пѫтьѥ, пѫтиѥpǫtĭje, pǫtije
+way	genitive	пѫтиpǫti	пѫтью, пѫтиюpǫtĭju, pǫtiju	пѫтьи, пѫтииpǫtĭi, pǫtii
+way	dative	пѫтиpǫti	пѫтьмаpǫtĭma	пѫтьмъpǫtĭmŭ
+way	accusative	пѫтьpǫtĭ	пѫтиpǫti	пѫтиpǫti
+way	instrumental	пѫтьмьpǫtĭmĭ	пѫтьмаpǫtĭma	пѫтьмиpǫtĭmi
+way	locative	пѫтиpǫti	пѫтью, пѫтиюpǫtĭju, pǫtiju	пѫтьхъpǫtĭxŭ
+way	vocative	пѫтиpǫti	пѫтиpǫti	пѫтьѥ, пѫтиѥpǫtĭje, pǫtije
+wind		singular	dual	plural
+wind	nominative	вѣтръvětrŭ	вѣтраvětra	вѣтриvětri
+wind	genitive	вѣтраvětra	вѣтроуvětru	вѣтръvětrŭ
+wind	dative	вѣтроуvětru	вѣтромаvětroma	вѣтромъvětromŭ
+wind	accusative	вѣтръvětrŭ	вѣтраvětra	вѣтрꙑvětry
+wind	instrumental	вѣтромъvětromŭ	вѣтромаvětroma	вѣтрꙑvětry
+wind	locative	вѣтрѣvětrě	вѣтроуvětru	вѣтрѣхъvětrěxŭ
+wind	vocative	вѣтреvětre	вѣтраvětra	вѣтриvětri
+woman		singular	dual	plural
+woman	nominative	женаžena	женѣženě	женꙑženy
+woman	genitive	женꙑženy	женоуženu	женъženŭ
+woman	dative	женѣženě	женамаženama	женамъženamŭ
+woman	accusative	женѫženǫ	женѣženě	женꙑženy
+woman	instrumental	женоѭženojǫ	женамаženama	женамиženami
+woman	locative	женѣženě	женоуženu	женахъženaxŭ
+woman	vocative	женоženo	женѣženě	женꙑženy
+work		singular	dual	plural
+work	nominative	работаrabota	работѣrabotě	работꙑraboty
+work	genitive	работꙑraboty	работоуrabotu	работъrabotŭ
+work	dative	работѣrabotě	работамаrabotama	работамъrabotamŭ
+work	accusative	работѫrabotǫ	работѣrabotě	работꙑraboty
+work	instrumental	работоѭrabotojǫ	работамаrabotama	работамиrabotami
+work	locative	работѣrabotě	работоуrabotu	работахъrabotaxŭ
+work	vocative	работоraboto	работѣrabotě	работꙑraboty

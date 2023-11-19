@@ -48,19 +48,12 @@ village	dual 		latin	kṓmā	kṓmain	kṓmain	kṓmā	kṓmā	#	1	feminine
 village	plural		greek	κῶμαι	κωμῶν	κώμαις	κώμᾱς	κῶμαι	#	1	feminine													
 village	plural		latin	kômai	kōmôn	kṓmais	kṓmās	kômai	#	1	feminine													
 									#															
-person	singular 		greek	ἄνθρωπος	ἀνθρώπου	ἀνθρώπῳ	ἄνθρωπον	ἄνθρωπε	#	2	masculine													
-person	singular 		latin	ánthrōpos	anthrṓpou	anthrṓpōi	ánthrōpon	ánthrōpe	#	2	masculine													
-person	dual 		greek	ἀνθρώπω	ἀνθρώποιν	ἀνθρώποιν	ἀνθρώπω	ἀνθρώπω	#	2	masculine													
-person	dual 		latin	anthrṓpō	anthrṓpoin	anthrṓpoin	anthrṓpō	anthrṓpō	#	2	masculine													
-person	plural		greek	ἄνθρωποι	ἀνθρώπων	ἀνθρώποις	ἀνθρώπους	ἄνθρωποι	#	2	masculine													
-person	plural		latin	ánthrōpoi	anthrṓpōn	anthrṓpois	anthrṓpous	ánthrōpoi	#	2	masculine													
-																								
-person	singular 		greek	ἄνθρωπος	ἀνθρώπου	ἀνθρώπῳ	ἄνθρωπον	ἄνθρωπε	#	2	feminine													
-person	singular 		latin	ánthrōpos	anthrṓpou	anthrṓpōi	ánthrōpon	ánthrōpe	#	2	feminine													
-person	dual 		greek	ἀνθρώπω	ἀνθρώποιν	ἀνθρώποιν	ἀνθρώπω	ἀνθρώπω	#	2	feminine													
-person	dual 		latin	anthrṓpō	anthrṓpoin	anthrṓpoin	anthrṓpō	anthrṓpō	#	2	feminine													
-person	plural		greek	ἄνθρωποι	ἀνθρώπων	ἀνθρώποις	ἀνθρώπους	ἄνθρωποι	#	2	feminine													
-person	plural		latin	ánthrōpoi	anthrṓpōn	anthrṓpois	anthrṓpous	ánthrōpoi	#	2	feminine													
+person	singular 		greek	ἄνθρωπος	ἀνθρώπου	ἀνθρώπῳ	ἄνθρωπον	ἄνθρωπε	#	2	masculine/feminine													
+person	singular 		latin	ánthrōpos	anthrṓpou	anthrṓpōi	ánthrōpon	ánthrōpe	#	2	masculine/feminine													
+person	dual 		greek	ἀνθρώπω	ἀνθρώποιν	ἀνθρώποιν	ἀνθρώπω	ἀνθρώπω	#	2	masculine/feminine													
+person	dual 		latin	anthrṓpō	anthrṓpoin	anthrṓpoin	anthrṓpō	anthrṓpō	#	2	masculine/feminine													
+person	plural		greek	ἄνθρωποι	ἀνθρώπων	ἀνθρώποις	ἀνθρώπους	ἄνθρωποι	#	2	masculine/feminine													
+person	plural		latin	ánthrōpoi	anthrṓpōn	anthrṓpois	anthrṓpous	ánthrōpoi	#	2	masculine/feminine													
 									#															
 street	singular 		greek	ὁδός	ὁδοῦ	ὁδῷ	ὁδόν	ὁδέ	#	2	feminine													
 street	singular 		latin	hodós	hodoû	hodôi	hodón	hodé	#	2	feminine													
@@ -412,3 +405,51 @@ hand	dual 		greek	χεῖρε	χεροῖν	χεροῖν	χεῖρε	χεῖρ�
 hand	dual 		latin	kheîre	kheroîn	kheroîn	kheîre	kheîre	#	irregular	feminine													
 hand	plural		greek	χεῖρες	χερῶν/χειρῶν	χερσί/χερσίν/χείρεσσι/χείρεσσιν	χεῖρᾰς	χεῖρες	#	irregular	feminine													
 hand	plural		latin	kheîres	kherôn/kheirôn	khersí(n)/kheíressi(n)	kheîras	kheîres	#	irregular	feminine													
+																								
+animal	singular 		greek	ζῷον	ζῴου	ζῴῳ	ζῷον	ζῷον	#	template														
+animal	singular 		latin	zôion	zṓiou	zṓiōi	zôion	zôion 	#	template														
+animal	dual 		greek	ζῴω	ζῴοιν	ζῴοιν	ζῴω	ζῴω	#	template														
+animal	dual 		latin	zṓiō	zṓioin	zṓioin	zṓiō	zṓiō 	#	template														
+animal	plural		greek	ζῷᾰ	ζῴων	ζῴοις	ζῷᾰ	ζῷᾰ	#	template														
+animal	plural		latin	zôia	zṓiōn	zṓiois	zôia	zôia 	#	template														
+																								
+son	singular 		greek	υἱός	υἱοῦ	υἱῷ	υἱόν	υἱέ	#															
+son	singular 		latin	huiós	huioû	huiôi	huión	huié 	#															
+son	dual 		greek	υἱώ	υἱοῖν	υἱοῖν	υἱώ	υἱώ	#															
+son	dual 		latin	huiṓ	huioîn	huioîn	huiṓ	huiṓ 	#															
+son	plural		greek	υἱοί	υἱῶν	υἱοῖς	υἱούς	υἱοί	#															
+son	plural		latin	huioí	huiôn	huioîs	huioús	huioí 	#															
+																								
+daughter	singular 		greek	θῠγᾰ́τηρ	θῠγᾰτέρος/θῠγᾰτρός	θῠγᾰτέρῐ/θῠγᾰτρί	θῠγᾰ́τερᾰ/θῠγᾰτέρᾰ/θῠ́γᾰτρᾰ	θῠγᾰ́τερ/θῠ́γᾰτερ	#															
+daughter	singular 		latin	thugátēr	thugatéros/thugatrós	thugatéri/thugatrí	thugátera/thugatéra/thúgatra	thugáter/thúgater 	#															
+daughter	dual 		greek	θῠγᾰ́τερε	θῠγᾰτέροιν	θῠγᾰτέροιν	θῠγᾰ́τερε	θῠγᾰ́τερε	#															
+daughter	dual 		latin	thugátere	thugatéroin	thugatéroin	thugátere	thugátere 	#															
+daughter	plural		greek	θῠγᾰτέρες/θῠ́γᾰτρες	θῠγᾰτέρων/θῠγᾰτρῶν	θῠγᾰτέρσῐ/θῠγᾰτέρσῐν/θῠγᾰτρᾰ́σῐ/θῠγᾰτρᾰ́σῐν	θῠγᾰτέρᾰς	θῠγᾰτέρες/θῠ́γᾰτρες	#															
+daughter	plural		latin	thugatéres/thúgatres	thugatérōn/thugatrôn	thugatérsi(n)/thugatrási(n)	thugatéras	thugatéres/thúgatres 	#															
+																								
+livestock	singular 		greek																					
+livestock	singular 		latin																					
+livestock	dual 		greek																					
+livestock	dual 		latin																					
+livestock	plural		greek																					
+livestock	plural		latin																					
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								

@@ -30,20 +30,20 @@ foreign_language = Language(
     ListSemantics(
         case_usage_population.index(
             case_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/greek/attic/case-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/greek/attic/case-usage.tsv'))),
         mood_usage_population.index(
             mood_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/greek/attic/mood-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/greek/attic/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/greek/attic/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/greek/attic/aspect-usage.tsv'))),
     ),
     ListGrammar(
         conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/greek/attic/finite-conjugations.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/greek/attic/finite-conjugations.tsv')),
             *nonfinite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/greek/attic/nonfinite-conjugations.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/greek/attic/nonfinite-conjugations.tsv')),
             *filter(has_annotation('language','attic-greek'),
                 declension_verb_annotation.annotate(
                     tsv_parsing.rows(
@@ -51,11 +51,9 @@ foreign_language = Language(
         ]),
         declension_population.index([
             *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/greek/attic/pronoun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/greek/attic/pronoun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/greek/attic/common-noun-declensions.tsv')),
-            *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/greek/attic/pronoun-possessives.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/greek/attic/common-noun-declensions.tsv')),
             *filter(has_annotation('language','attic-greek'),
                 declension_template_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),
