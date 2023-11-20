@@ -75,14 +75,14 @@ enemy	dative	inimīcō	inimīcīs
 enemy	accusative	inimīcum	inimīcōs
 enemy	ablative	inimīcō	inimīcīs
 enemy	vocative	inimīce	inimīcī
-enemy	number	singular		plural
-enemy	case / gender	masculine	feminine	neuter	masculine	feminine	neuter
+enemy	number	singular	singular	singular		plural	plural	plural
+enemy	case / gender	masculine	feminine	neuter		masculine	feminine	neuter
 enemy	nominative	inimīcus	inimīca	inimīcum		inimīcī	inimīcae	inimīca
-enemy	genitive	inimīcī	inimīcae	inimīcī	inimīcōrum	inimīcārum	inimīcōrum
-enemy	dative	inimīcō	inimīcō	inimīcīs
-enemy	accusative	inimīcum	inimīcam	inimīcum	inimīcōs	inimīcās	inimīca
-enemy	ablative	inimīcō	inimīcā	inimīcō	inimīcīs
-enemy	vocative	inimīce	inimīca	inimīcum	inimīcī	inimīcae	inimīca
+enemy	genitive	inimīcī	inimīcae	inimīcī		inimīcōrum	inimīcārum	inimīcōrum
+enemy	dative	inimīcō	inimīcae	inimīcō		inimīcīs	inimīcīs	inimīcīs
+enemy	accusative	inimīcum	inimīcam	inimīcum		inimīcōs	inimīcās	inimīca
+enemy	ablative	inimīcō	inimīcā	inimīcō		inimīcīs	inimīcīs	inimīcīs
+enemy	vocative	inimīce	inimīca	inimīcum		inimīcī	inimīcae	inimīca
 fire	case	singular	plural
 fire	nominative	ignis	ignēs
 fire	genitive	ignis	ignium
@@ -287,14 +287,14 @@ hand	dative	manuī	manibus
 hand	accusative	manum	manūs
 hand	ablative	manū	manibus
 hand	vocative	manus	manūs
-hand	number	singular		plural
-hand	case / gender	masculine	feminine	neuter	masculine	feminine	neuter
+hand	number	singular	singular	singular		plural	plural	plural
+hand	case / gender	masculine	feminine	neuter		masculine	feminine	neuter
 hand	nominative	mānus	māna	mānum		mānī	mānae	māna
-hand	genitive	mānī	mānae	mānī	mānōrum	mānārum	mānōrum
-hand	dative	mānō	mānō	mānīs
-hand	accusative	mānum	mānam	mānum	mānōs	mānās	māna
-hand	ablative	mānō	mānā	mānō	mānīs
-hand	vocative	māne	māna	mānum	mānī	mānae	māna
+hand	genitive	mānī	mānae	mānī		mānōrum	mānārum	mānōrum
+hand	dative	mānō	mānae	mānō		mānīs	mānīs	mānīs
+hand	accusative	mānum	mānam	mānum		mānōs	mānās	māna
+hand	ablative	mānō	mānā	mānō		mānīs	mānīs	mānīs
+hand	vocative	māne	māna	mānum		mānī	mānae	māna
 night	case	singular	plural
 night	nominative	nox	noctēs
 night	genitive	noctis	noctium
@@ -394,14 +394,14 @@ myth	dative	mȳthō	mȳthīs
 myth	accusative	mȳthon	mȳthōs
 myth	ablative	mȳthō	mȳthīs
 myth	vocative	mȳthe	mȳthī
-atom	number	singular		plural
-atom	case / gender	masculine	feminine	neuter	masculine	feminine	neuter
+atom	number	singular	singular	singular		plural	plural	plural
+atom	case / gender	masculine	feminine	neuter		masculine	feminine	neuter
 atom	nominative	atomus	atoma	atomum		atomī	atomae	atoma
-atom	genitive	atomī	atomae	atomī	atomōrum	atomārum	atomōrum
-atom	dative	atomō	atomō	atomīs
-atom	accusative	atomum	atomam	atomum	atomōs	atomās	atoma
-atom	ablative	atomō	atomā	atomō	atomīs
-atom	vocative	atome	atoma	atomum	atomī	atomae	atoma
+atom	genitive	atomī	atomae	atomī		atomōrum	atomārum	atomōrum
+atom	dative	atomō	atomae	atomō		atomīs	atomīs	atomīs
+atom	accusative	atomum	atomam	atomum		atomōs	atomās	atoma
+atom	ablative	atomō	atomā	atomō		atomīs	atomīs	atomīs
+atom	vocative	atome	atoma	atomum		atomī	atomae	atoma
 atom	case	singular	plural
 atom	nominative	atomus	atomī
 atom	genitive	atomī	atomōrum

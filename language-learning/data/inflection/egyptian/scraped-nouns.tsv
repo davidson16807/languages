@@ -1,9 +1,9 @@
 bird	singular	ꜣpd
 bird	dual	ꜣpdwj
 bird	plural	ꜣpdw
-bird	infinitival forms	imperative
+bird	infinitival forms	infinitival forms	infinitival forms	imperative	imperative
 bird	infinitive	negatival complement	complementary infinitive1	singular	plural
-bird		ꜣpd	ꜣpdw, ꜣpd	ꜣpdt	ꜣpd	ꜣpd
+bird	ꜣpd	ꜣpdw, ꜣpd	ꜣpdt	ꜣpd	ꜣpd
 boat	singular	jmw
 boat	dual	jmwwj
 boat	plural	jmww
@@ -29,7 +29,7 @@ enemy		masculine	feminine
 enemy	singular	ḫftj	ḫftt
 enemy	dual	ḫftjwj, ḫftwj	ḫfttj
 enemy	plural	ḫftjw, ḫftw	ḫftwt1, ḫftt2
-enemy		Archaic in Middle Egyptian when modifying a noun.From Middle Egyptian, this feminine singular form was generally used for the plural.In Late Egyptian, the masculine singular form was used with all nouns.
+enemy	Archaic in Middle Egyptian when modifying a noun.From Middle Egyptian, this feminine singular form was generally used for the plural.In Late Egyptian, the masculine singular form was used with all nouns.	Archaic in Middle Egyptian when modifying a noun.From Middle Egyptian, this feminine singular form was generally used for the plural.In Late Egyptian, the masculine singular form was used with all nouns.	Archaic in Middle Egyptian when modifying a noun.From Middle Egyptian, this feminine singular form was generally used for the plural.In Late Egyptian, the masculine singular form was used with all nouns.
 enemy	singular	ḫftj
 enemy	dual	ḫftjwj
 enemy	plural	ḫftjw
@@ -99,15 +99,15 @@ son	plural	zꜣw
 son	singular	zꜣ
 son	dual	zꜣwj
 son	plural	zꜣw
-warmth	infinitival forms	imperative
+warmth	infinitival forms	infinitival forms	infinitival forms	imperative	imperative
 warmth	infinitive	negatival complement	complementary infinitive1	singular	plural
-warmth		srf	srfw, srf	srft	srf	srf
+warmth	srf	srfw, srf	srft	srf	srf
 warmth	singular	srf
 warmth	dual	srfwj
 warmth	plural	srfw
-warmth	infinitival forms	imperative
+warmth	infinitival forms	infinitival forms	infinitival forms	imperative	imperative
 warmth	infinitive	negatival complement	complementary infinitive1	singular	plural
-warmth		srf	srfw, srf	srft	srf	srf
+warmth	srf	srfw, srf	srft	srf	srf
 water	singular	mw
 water	dual	mwwj
 water	plural	mww
@@ -120,9 +120,9 @@ way	plural	mṯnw
 wind	singular	ṯꜣw
 wind	dual	ṯꜣwwj
 wind	plural	ṯꜣww
-wind	infinitival forms	imperative
+wind	infinitival forms	infinitival forms	infinitival forms	imperative	imperative
 wind	infinitive	negatival complement	complementary infinitive1	singular	plural
-wind		ṯꜣ(w)t, ṯꜣ(w)j	ṯꜣ(w)w, ṯꜣ(w)	ṯꜣ(w)t, ṯꜣ(w)wt, ṯꜣ(w)yt	ṯꜣ(w)	ṯꜣ(w), ṯꜣ(w)y
+wind	ṯꜣ(w)t, ṯꜣ(w)j	ṯꜣ(w)w, ṯꜣ(w)	ṯꜣ(w)t, ṯꜣ(w)wt, ṯꜣ(w)yt	ṯꜣ(w)	ṯꜣ(w), ṯꜣ(w)y
 woman	singular	zt
 woman	dual	ztj
 woman	plural	zwt

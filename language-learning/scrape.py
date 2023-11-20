@@ -74,25 +74,34 @@ class RowMajorWikiTableHtml:
 			for extraction in extractions:
 				remainder = remainder.replace(extraction.text, '')
 			return [remainder, *[extraction.text for extraction in extractions]]
-		for row in content.select('tr'):
-			result = [''] if not row.select_one('th') else []
+		cells = {}
+		for (y, row) in enumerate(content.select('tr')):
+			x = 0
 			for cell in row.select('td,th'):
-				for line in (extract(cell, cell.select('span.tr')) if cell.name == 'td' else [cell.text.lower()]):
-					result.append(line)
-			yield result
+				while (x,y) in cells: x+=1
+				colspan = int(cell.attrs['colspan']) if 'colspan' in cell.attrs else 1
+				rowspan = int(cell.attrs['rowspan']) if 'rowspan' in cell.attrs else 1
+				lines = (extract(cell, cell.select('span.tr')) if cell.name == 'td' else [cell.text.lower()])
+				m = len(lines)
+				for dx in range(colspan):
+					for dy in range(rowspan):
+						for (i,line) in enumerate(lines):
+							cells[(x+m*dx+i,y+dy)] = line
+		lx = max([0,*[x+1 for (x,y) in cells.keys()]])
+		ly = max([0,*[y+1 for (x,y) in cells.keys()]])
+		for y in range(ly):
+			yield [(cells[(x,y)] if (x,y) in cells else '') for x in range(lx)]
 	def parse(self, soup):
 		language_section =  soup.find('span', id=self.language_id)
-		if not language_section:
-			breakpoint()
-		else:
-			for section in language_section.find_all_next('span', text=['Declension','Inflection']):
-				for i in range(self.table_count):
-					section2 = section.find_next('table')
-					if section2:
-						if not self.language_code or section2.select(f'span[lang="{self.language_code}"]'):
-							for row in self.body(section2):
-								yield row
-							section = section2
+		part_of_speech_section = soup.find_next('span', text='Noun')
+		for section in language_section.find_all_next('span', text=['Declension','Inflection']):
+			for i in range(self.table_count):
+				section2 = section.find_next('table')
+				if section2:
+					if not self.language_code or section2.select(f'span[lang="{self.language_code}"]'):
+						for row in self.body(section2):
+							yield row
+						section = section2
 
 class GreekRowMajorWikiTableHtml(RowMajorWikiTableHtml):
 	def __init__(self, ops):
@@ -115,6 +124,107 @@ scraping = TableScraping(ops)
 parsing = TokenParsing()
 formatting = RowMajorTableText('\t','\n')
 
+print('GREEK/ANCIENT')
+write('data/inflection/indo-european/greek/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(GreekRowMajorWikiTableHtml(ops),
+			parsing.tokenpoints('''
+				animal    https://en.wiktionary.org/wiki/%CE%B6%E1%BF%B7%CE%BF%CE%BD#Ancient_Greek
+				attention https://en.wiktionary.org/wiki/%CF%86%CF%81%CE%BF%CE%BD%CF%84%CE%AF%CF%82#Ancient_Greek
+				bird      https://en.wiktionary.org/wiki/%E1%BD%84%CF%81%CE%BD%CE%B9%CF%82#Ancient_Greek
+				boat      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82#Ancient_Greek
+				book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%CE%BD#Ancient_Greek
+				bug       https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CF%84%CE%BF%CE%BC%CE%BF%CE%BD#Ancient_Greek
+				dog       https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CF%89%CE%BD#Ancient_Greek
+				clothing  https://en.wiktionary.org/wiki/%E1%BC%90%CF%83%CE%B8%CE%AE%CF%82#Ancient_Greek
+				daughter  https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81#Ancient_Greek
+				drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF%CE%BD#Ancient_Greek
+				enemy     https://en.wiktionary.org/wiki/%E1%BC%90%CF%87%CE%B8%CF%81%CF%8C%CF%82#Ancient_Greek
+				fire      https://en.wiktionary.org/wiki/%CF%80%E1%BF%A6%CF%81#Ancient_Greek
+				food      https://en.wiktionary.org/wiki/%CE%B2%CF%81%E1%BF%B6%CE%BC%CE%B1#Ancient_Greek
+				food      https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%B4%CE%B1%CF%81#Ancient_Greek
+				gift      https://en.wiktionary.org/wiki/%CE%B4%E1%BF%B6%CF%81%CE%BF%CE%BD#Ancient_Greek
+				guard     https://en.wiktionary.org/wiki/%CF%84%CE%B7%CF%81%CF%8C%CF%82#Ancient_Greek
+				horse     https://en.wiktionary.org/wiki/%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82#Ancient_Greek
+				house     https://en.wiktionary.org/wiki/%CE%BF%E1%BC%B6%CE%BA%CE%BF%CF%82#Ancient_Greek
+				livestock https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BD%CE%BF%CF%82#Ancient_Greek
+				love      https://en.wiktionary.org/wiki/%CF%86%CE%B9%CE%BB%CE%AF%CE%B1#Ancient_Greek
+				idea      https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek
+				man       https://en.wiktionary.org/wiki/%E1%BC%80%CE%BD%CE%AE%CF%81#Ancient_Greek
+				money     https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CF%81%CE%BC%CE%B1#Ancient_Greek
+				monster   https://en.wiktionary.org/wiki/%CF%84%CE%AD%CF%81%CE%B1%CF%82#Ancient_Greek
+				name      https://en.wiktionary.org/wiki/%E1%BD%84%CE%BD%CE%BF%CE%BC%CE%B1#Ancient_Greek
+				rock      https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#Ancient_Greek
+				rope      https://en.wiktionary.org/wiki/%CF%83%CE%B5%CE%B9%CF%81%CE%AC#Ancient_Greek
+				size      https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CE%B3%CE%B5%CE%B8%CE%BF%CF%82#Ancient_Greek
+				son       https://en.wiktionary.org/wiki/%CF%85%E1%BC%B1%CF%8C%CF%82#Ancient_Greek
+				sound     https://en.wiktionary.org/wiki/%E1%BC%A6%CF%87%CE%BF%CF%82#Ancient_Greek
+				warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%AD%CF%81%CE%BC%CE%B7#Ancient_Greek
+				water     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek
+				way       https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%BB%CE%B5%CF%85%CE%B8%CE%BF%CF%82#Ancient_Greek
+				wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
+				window    https://en.wiktionary.org/wiki/%CE%B8%CF%85%CF%81%CE%AF%CF%82#Ancient_Greek
+				woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%AE#Ancient_Greek
+				work      https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
+
+				young-man https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CE%B1%CE%BD%CE%AF%CE%B1%CF%82
+				soldier   https://en.wiktionary.org/wiki/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B9%CF%8E%CF%84%CE%B7%CF%82
+				polity    https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1
+				village   https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BC%CE%B7
+				person    https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82
+				street    https://en.wiktionary.org/wiki/%E1%BD%81%CE%B4%CF%8C%CF%82
+				circumnavigation https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CE%AF%CF%80%CE%BB%CE%BF%CF%85%CF%82
+				bone      https://en.wiktionary.org/wiki/%E1%BD%80%CF%83%CF%84%CE%BF%E1%BF%A6%CE%BD
+				hero      https://en.wiktionary.org/wiki/%E1%BC%A5%CF%81%CF%89%CF%82
+				fish      https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CE%B8%CF%8D%CF%82
+				oak       https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82
+				city      https://en.wiktionary.org/wiki/%CF%80%CF%8C%CE%BB%CE%B9%CF%82
+				axe       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CE%BB%CE%B5%CE%BA%CF%85%CF%82
+				town      https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CF%84%CF%85
+				master    https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82
+				old-woman https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%B1%E1%BF%A6%CF%82
+				cow       https://en.wiktionary.org/wiki/%CE%B2%CE%BF%E1%BF%A6%CF%82
+				echo      https://en.wiktionary.org/wiki/%E1%BC%A0%CF%87%CF%8E
+				Clio      https://en.wiktionary.org/wiki/%CE%9A%CE%BB%CE%B5%CE%B9%CF%8E
+				crow      https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B1%CE%BE
+				vulture   https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88
+				rug       https://en.wiktionary.org/wiki/%CF%84%CE%AC%CF%80%CE%B7%CF%82
+				giant     https://en.wiktionary.org/wiki/%CE%B3%CE%AF%CE%B3%CE%B1%CF%82
+				tooth     https://en.wiktionary.org/wiki/%E1%BD%80%CE%B4%CE%BF%CF%8D%CF%82
+				old-man   https://en.wiktionary.org/wiki/%CE%B3%CE%AD%CF%81%CF%89%CE%BD
+				property  https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BC%CE%B1
+				Greek     https://en.wiktionary.org/wiki/%E1%BC%9D%CE%BB%CE%BB%CE%B7%CE%BD
+				winter    https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%B9%CE%BC%CF%8E%CE%BD
+				Titan     https://en.wiktionary.org/wiki/%CE%A4%CE%B9%CF%84%CE%AC%CE%BD
+				light-ray https://en.wiktionary.org/wiki/%E1%BC%80%CE%BA%CF%84%CE%AF%CF%82
+				shepherd  https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%B9%CE%BC%CE%AE%CE%BD
+				guide     https://en.wiktionary.org/wiki/%E1%BC%A1%CE%B3%CE%B5%CE%BC%CF%8E%CE%BD
+				neighbor  https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CE%AF%CF%84%CF%89%CE%BD
+				ichor     https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CF%8E%CF%81
+				chaff     https://en.wiktionary.org/wiki/%E1%BC%80%CE%B8%CE%AE%CF%81
+				orator    https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AE%CF%84%CF%89%CF%81
+				father    https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AE%CF%81
+				Demeter   https://en.wiktionary.org/wiki/%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CE%B7%CF%81
+				Socrates  https://en.wiktionary.org/wiki/%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%B7%CF%82
+				Pericles  https://en.wiktionary.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%E1%BF%86%CF%82
+				arrow     https://en.wiktionary.org/wiki/%CE%B2%CE%AD%CE%BB%CE%BF%CF%82
+	            foundation https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CE%B1%CF%86%CE%BF%CF%82#Ancient_Greek
+	            shame     https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B0%CE%B4%CF%8E%CF%82#Ancient_Greek
+	            Ares      https://en.wiktionary.org/wiki/%E1%BC%8C%CF%81%CE%B7%CF%82
+	            Thales    https://en.wiktionary.org/wiki/%CE%98%CE%B1%CE%BB%E1%BF%86%CF%82
+	            Oedipus   https://en.wiktionary.org/wiki/%CE%9F%E1%BC%B0%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82
+	            Apollo    https://en.wiktionary.org/wiki/%E1%BC%88%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD
+	            knee      https://en.wiktionary.org/wiki/%CE%B3%CF%8C%CE%BD%CF%85
+	            wood      https://en.wiktionary.org/wiki/%CE%B4%CF%8C%CF%81%CF%85
+	            Zeus      https://en.wiktionary.org/wiki/%CE%96%CE%B5%CF%8D%CF%82
+	            liver     https://en.wiktionary.org/wiki/%E1%BC%A7%CF%80%CE%B1%CF%81
+	            ship      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82
+	            ear       https://en.wiktionary.org/wiki/%CE%BF%E1%BD%96%CF%82
+	            hand      https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%AF%CF%81
+			''')
+		)
+	)
+)
 
 print('ARABIC')
 write('data/inflection/semitic/arabic/scraped-nouns.tsv',
@@ -387,108 +497,6 @@ write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 				window    https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%81%CE%AC%CE%B8%CF%85%CF%81%CE%BF#Greek
 				woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%B1%CE%AF%CE%BA%CE%B1#Greek
 				work      https://en.wiktionary.org/wiki/%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1#Greek
-			''')
-		)
-	)
-)
-
-print('GREEK/ANCIENT')
-write('data/inflection/indo-european/greek/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(GreekRowMajorWikiTableHtml(ops),
-			parsing.tokenpoints('''
-				animal    https://en.wiktionary.org/wiki/%CE%B6%E1%BF%B7%CE%BF%CE%BD#Ancient_Greek
-				attention https://en.wiktionary.org/wiki/%CF%86%CF%81%CE%BF%CE%BD%CF%84%CE%AF%CF%82#Ancient_Greek
-				bird      https://en.wiktionary.org/wiki/%E1%BD%84%CF%81%CE%BD%CE%B9%CF%82#Ancient_Greek
-				boat      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82#Ancient_Greek
-				book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%CE%BD#Ancient_Greek
-				bug       https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CF%84%CE%BF%CE%BC%CE%BF%CE%BD#Ancient_Greek
-				dog       https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CF%89%CE%BD#Ancient_Greek
-				clothing  https://en.wiktionary.org/wiki/%E1%BC%90%CF%83%CE%B8%CE%AE%CF%82#Ancient_Greek
-				daughter  https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81#Ancient_Greek
-				drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF%CE%BD#Ancient_Greek
-				enemy     https://en.wiktionary.org/wiki/%E1%BC%90%CF%87%CE%B8%CF%81%CF%8C%CF%82#Ancient_Greek
-				fire      https://en.wiktionary.org/wiki/%CF%80%E1%BF%A6%CF%81#Ancient_Greek
-				food      https://en.wiktionary.org/wiki/%CE%B2%CF%81%E1%BF%B6%CE%BC%CE%B1#Ancient_Greek
-				food      https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%B4%CE%B1%CF%81#Ancient_Greek
-				gift      https://en.wiktionary.org/wiki/%CE%B4%E1%BF%B6%CF%81%CE%BF%CE%BD#Ancient_Greek
-				guard     https://en.wiktionary.org/wiki/%CF%84%CE%B7%CF%81%CF%8C%CF%82#Ancient_Greek
-				horse     https://en.wiktionary.org/wiki/%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82#Ancient_Greek
-				house     https://en.wiktionary.org/wiki/%CE%BF%E1%BC%B6%CE%BA%CE%BF%CF%82#Ancient_Greek
-				livestock https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BD%CE%BF%CF%82#Ancient_Greek
-				love      https://en.wiktionary.org/wiki/%CF%86%CE%B9%CE%BB%CE%AF%CE%B1#Ancient_Greek
-				idea      https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek
-				man       https://en.wiktionary.org/wiki/%E1%BC%80%CE%BD%CE%AE%CF%81#Ancient_Greek
-				money     https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CF%81%CE%BC%CE%B1#Ancient_Greek
-				monster   https://en.wiktionary.org/wiki/%CF%84%CE%AD%CF%81%CE%B1%CF%82#Ancient_Greek
-				name      https://en.wiktionary.org/wiki/%E1%BD%84%CE%BD%CE%BF%CE%BC%CE%B1#Ancient_Greek
-				rock      https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#Ancient_Greek
-				rope      https://en.wiktionary.org/wiki/%CF%83%CE%B5%CE%B9%CF%81%CE%AC#Ancient_Greek
-				size      https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CE%B3%CE%B5%CE%B8%CE%BF%CF%82#Ancient_Greek
-				son       https://en.wiktionary.org/wiki/%CF%85%E1%BC%B1%CF%8C%CF%82#Ancient_Greek
-				sound     https://en.wiktionary.org/wiki/%E1%BC%A6%CF%87%CE%BF%CF%82#Ancient_Greek
-				warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%AD%CF%81%CE%BC%CE%B7#Ancient_Greek
-				water     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek
-				way       https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%BB%CE%B5%CF%85%CE%B8%CE%BF%CF%82#Ancient_Greek
-				wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
-				window    https://en.wiktionary.org/wiki/%CE%B8%CF%85%CF%81%CE%AF%CF%82#Ancient_Greek
-				woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%AE#Ancient_Greek
-				work      https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
-
-				young-man https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CE%B1%CE%BD%CE%AF%CE%B1%CF%82
-				soldier   https://en.wiktionary.org/wiki/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B9%CF%8E%CF%84%CE%B7%CF%82
-				polity    https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1
-				village   https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BC%CE%B7
-				person    https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82
-				street    https://en.wiktionary.org/wiki/%E1%BD%81%CE%B4%CF%8C%CF%82
-				circumnavigation https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CE%AF%CF%80%CE%BB%CE%BF%CF%85%CF%82
-				bone      https://en.wiktionary.org/wiki/%E1%BD%80%CF%83%CF%84%CE%BF%E1%BF%A6%CE%BD
-				hero      https://en.wiktionary.org/wiki/%E1%BC%A5%CF%81%CF%89%CF%82
-				fish      https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CE%B8%CF%8D%CF%82
-				oak       https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82
-				city      https://en.wiktionary.org/wiki/%CF%80%CF%8C%CE%BB%CE%B9%CF%82
-				axe       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CE%BB%CE%B5%CE%BA%CF%85%CF%82
-				town      https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CF%84%CF%85
-				master    https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82
-				old-woman https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%B1%E1%BF%A6%CF%82
-				cow       https://en.wiktionary.org/wiki/%CE%B2%CE%BF%E1%BF%A6%CF%82
-				echo      https://en.wiktionary.org/wiki/%E1%BC%A0%CF%87%CF%8E
-				Clio      https://en.wiktionary.org/wiki/%CE%9A%CE%BB%CE%B5%CE%B9%CF%8E
-				crow      https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B1%CE%BE
-				vulture   https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88
-				rug       https://en.wiktionary.org/wiki/%CF%84%CE%AC%CF%80%CE%B7%CF%82
-				giant     https://en.wiktionary.org/wiki/%CE%B3%CE%AF%CE%B3%CE%B1%CF%82
-				tooth     https://en.wiktionary.org/wiki/%E1%BD%80%CE%B4%CE%BF%CF%8D%CF%82
-				old-man   https://en.wiktionary.org/wiki/%CE%B3%CE%AD%CF%81%CF%89%CE%BD
-				property  https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BC%CE%B1
-				Greek     https://en.wiktionary.org/wiki/%E1%BC%9D%CE%BB%CE%BB%CE%B7%CE%BD
-				winter    https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%B9%CE%BC%CF%8E%CE%BD
-				Titan     https://en.wiktionary.org/wiki/%CE%A4%CE%B9%CF%84%CE%AC%CE%BD
-				light-ray https://en.wiktionary.org/wiki/%E1%BC%80%CE%BA%CF%84%CE%AF%CF%82
-				shepherd  https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%B9%CE%BC%CE%AE%CE%BD
-				guide     https://en.wiktionary.org/wiki/%E1%BC%A1%CE%B3%CE%B5%CE%BC%CF%8E%CE%BD
-				neighbor  https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CE%AF%CF%84%CF%89%CE%BD
-				ichor     https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CF%8E%CF%81
-				chaff     https://en.wiktionary.org/wiki/%E1%BC%80%CE%B8%CE%AE%CF%81
-				orator    https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AE%CF%84%CF%89%CF%81
-				father    https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AE%CF%81
-				Demeter   https://en.wiktionary.org/wiki/%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CE%B7%CF%81
-				Socrates  https://en.wiktionary.org/wiki/%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%B7%CF%82
-				Pericles  https://en.wiktionary.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%E1%BF%86%CF%82
-				arrow     https://en.wiktionary.org/wiki/%CE%B2%CE%AD%CE%BB%CE%BF%CF%82
-	            foundation https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CE%B1%CF%86%CE%BF%CF%82#Ancient_Greek
-	            shame     https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B0%CE%B4%CF%8E%CF%82#Ancient_Greek
-	            Ares      https://en.wiktionary.org/wiki/%E1%BC%8C%CF%81%CE%B7%CF%82
-	            Thales    https://en.wiktionary.org/wiki/%CE%98%CE%B1%CE%BB%E1%BF%86%CF%82
-	            Oedipus   https://en.wiktionary.org/wiki/%CE%9F%E1%BC%B0%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82
-	            Apollo    https://en.wiktionary.org/wiki/%E1%BC%88%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD
-	            knee      https://en.wiktionary.org/wiki/%CE%B3%CF%8C%CE%BD%CF%85
-	            wood      https://en.wiktionary.org/wiki/%CE%B4%CF%8C%CF%81%CF%85
-	            Zeus      https://en.wiktionary.org/wiki/%CE%96%CE%B5%CF%8D%CF%82
-	            liver     https://en.wiktionary.org/wiki/%E1%BC%A7%CF%80%CE%B1%CF%81
-	            ship      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82
-	            ear       https://en.wiktionary.org/wiki/%CE%BF%E1%BD%96%CF%82
-	            hand      https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%AF%CF%81
 			''')
 		)
 	)

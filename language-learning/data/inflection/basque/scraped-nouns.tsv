@@ -484,31 +484,31 @@ sound	destinative	hotsetarako	hotserako	hotsetarako
 sound	ablative	hotsetatik	hotsetik	hotsetatik
 sound	partitive	hotsik	—	—
 sound	prolative	hostzat	—	—
-warmth		indefinite	singular	plural
-warmth	absolutive	bero	beroa	beroak
-warmth	ergative	berok	beroak	beroek
-warmth	dative	berori	beroari	beroei
-warmth	genitive	beroren	beroaren	beroen
-warmth	comitative	berorekin	beroarekin	beroekin
-warmth	causative	berorengatik	beroarengatik	beroengatik
-warmth	benefactive	berorentzat	beroarentzat	beroentzat
-warmth	instrumental	beroz	beroaz	beroez
+warmth			indefinite	singular	plural
+warmth	absolutive	absolutive	bero	beroa	beroak
+warmth	ergative	ergative	berok	beroak	beroek
+warmth	dative	dative	berori	beroari	beroei
+warmth	genitive	genitive	beroren	beroaren	beroen
+warmth	comitative	comitative	berorekin	beroarekin	beroekin
+warmth	causative	causative	berorengatik	beroarengatik	beroengatik
+warmth	benefactive	benefactive	berorentzat	beroarentzat	beroentzat
+warmth	instrumental	instrumental	beroz	beroaz	beroez
 warmth	inessive	anim.	berorengan	beroarengan	beroengan
-warmth	inanim.	berotan	beroan	beroetan
+warmth	inessive	inanim.	berotan	beroan	beroetan
 warmth	locative	anim.	—	—	—
-warmth	inanim.	berotako	beroko	beroetako
+warmth	locative	inanim.	berotako	beroko	beroetako
 warmth	allative	anim.	berorengana	beroarengana	beroengana
-warmth	inanim.	berotara	berora	beroetara
+warmth	allative	inanim.	berotara	berora	beroetara
 warmth	terminative	anim.	berorenganaino	beroarenganaino	beroenganaino
-warmth	inanim.	berotaraino	beroraino	beroetaraino
+warmth	terminative	inanim.	berotaraino	beroraino	beroetaraino
 warmth	directive	anim.	berorenganantz	beroarenganantz	beroenganantz
-warmth	inanim.	berotarantz	berorantz	beroetarantz
+warmth	directive	inanim.	berotarantz	berorantz	beroetarantz
 warmth	destinative	anim.	berorenganako	beroarenganako	beroenganako
-warmth	inanim.	berotarako	berorako	beroetarako
+warmth	destinative	inanim.	berotarako	berorako	beroetarako
 warmth	ablative	anim.	berorengandik	beroarengandik	beroengandik
-warmth	inanim.	berotatik	berotik	beroetatik
-warmth	partitive	berorik	—	—
-warmth	prolative	berotzat	—	—
+warmth	ablative	inanim.	berotatik	berotik	beroetatik
+warmth	partitive	partitive	berorik	—	—
+warmth	prolative	prolative	berotzat	—	—
 warmth		indefinite	singular	plural
 warmth	absolutive	bero	beroa	beroak
 warmth	ergative	berok	beroak	beroek

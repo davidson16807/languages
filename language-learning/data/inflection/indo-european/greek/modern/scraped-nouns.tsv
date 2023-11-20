@@ -1,9 +1,9 @@
-animal	case     \     number	singular	plural
-animal	nominative	ζώο •	ζώα •
-animal	genitive	ζώου •	ζώων •
-animal	accusative	ζώο •	ζώα •
-animal	vocative	ζώο •	ζώα •
-animal		vernacular nominative, accusative and vocative plural: ζα
+animal	case     \     number	singular	plural	
+animal	nominative	ζώο •	ζώα •	
+animal	genitive	ζώου •	ζώων •	
+animal	accusative	ζώο •	ζώα •	
+animal	vocative	ζώο •	ζώα •	
+animal	vernacular nominative, accusative and vocative plural: ζα	vernacular nominative, accusative and vocative plural: ζα	vernacular nominative, accusative and vocative plural: ζα	vernacular nominative, accusative and vocative plural: ζα
 attention	case     \     number	singular
 attention	nominative	προσοχή •
 attention	genitive	προσοχής •
@@ -59,12 +59,12 @@ fire	nominative	φωτιά •	φωτιές •
 fire	genitive	φωτιάς •	φωτιών •
 fire	accusative	φωτιά •	φωτιές •
 fire	vocative	φωτιά •	φωτιές •
-food	case     \     number	singular	plural
-food	nominative	φαΐ •	φαγιά •
-food	genitive	φαγιού •	φαγιών •
-food	accusative	φαΐ •	φαγιά •
-food	vocative	φαΐ •	φαγιά •
-food		• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó
+food	case     \     number	singular	plural					
+food	nominative	φαΐ •	φαγιά •					
+food	genitive	φαγιού •	φαγιών •					
+food	accusative	φαΐ •	φαγιά •					
+food	vocative	φαΐ •	φαγιά •					
+food	• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó	• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó	• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó	• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó
 gift	case     \     number	singular	plural
 gift	nominative	δώρο •	δώρα •
 gift	genitive	δώρου •	δώρων •
@@ -105,12 +105,12 @@ man	nominative	άνδρας •	άνδρες •
 man	genitive	άνδρα •	ανδρών •
 man	accusative	άνδρα •	άνδρες •
 man	vocative	άνδρα •	άνδρες •
-money	case     \     number	plural
-money	nominative	λεφτά •
-money	genitive	λεφτών •
-money	accusative	λεφτά •
-money	vocative	λεφτά •
-money		Genitive is rare.
+money	case     \     number	plural	
+money	nominative	λεφτά •	
+money	genitive	λεφτών •	
+money	accusative	λεφτά •	
+money	vocative	λεφτά •	
+money	Genitive is rare.	Genitive is rare.	Genitive is rare.
 monster	case     \     number	singular	plural
 monster	nominative	τέρας •	τέρατα •
 monster	genitive	τέρατος •	τεράτων •
