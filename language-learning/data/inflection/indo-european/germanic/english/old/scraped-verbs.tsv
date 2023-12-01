@@ -12,20 +12,48 @@ appear	singular	ætīew	ætīew
 appear	plural	ætīewaþ	ætīewaþ
 appear	participle	present	past
 appear		ætīewende	ætīewed
-be-inherently	infinitive	bēon	bēonne
+be-inherently	infinitive	wesan	wesenne
 be-inherently	indicative mood	present tense	past tense
-be-inherently	first person singular	bēo	—
-be-inherently	second person singular	bist	—
-be-inherently	third person singular	biþ	—
-be-inherently	plural	bēoþ	—
+be-inherently	first person singular	eom	wæs
+be-inherently	second person singular	eart	wǣre
+be-inherently	third person singular	is	wæs
+be-inherently	plural	sind, sindon	wǣron
 be-inherently	subjunctive	present tense	past tense
-be-inherently	singular	bēo	—
-be-inherently	plural	bēon	—
+be-inherently	singular	sīe	wǣre
+be-inherently	plural	sīen	wǣren
 be-inherently	imperative		
-be-inherently	singular	bēo	bēo
-be-inherently	plural	bēoþ	bēoþ
+be-inherently	singular	wes	wes
+be-inherently	plural	wesaþ	wesaþ
 be-inherently	participle	present	past
-be-inherently		bēonde	(ġe)bēon
+be-inherently		wesende	—
+be-inherently	infinitive	wesan	wesenne
+be-inherently	indicative mood	present tense	past tense
+be-inherently	first person singular	wese	wæs
+be-inherently	second person singular	wist	wǣre
+be-inherently	third person singular	wist	wæs
+be-inherently	plural	wesaþ	wǣron
+be-inherently	subjunctive	present tense	past tense
+be-inherently	singular	wese	wǣre
+be-inherently	plural	wesen	wǣren
+be-inherently	imperative		
+be-inherently	singular	wes	wes
+be-inherently	plural	wesaþ	wesaþ
+be-inherently	participle	present	past
+be-inherently		wesende	(ġe)weren
+be-inherently	infinitive	wēsan	wēsenne
+be-inherently	indicative mood	present tense	past tense
+be-inherently	first person singular	wēse	wēsde
+be-inherently	second person singular	wēsest, wēst	wēsdest
+be-inherently	third person singular	wēseþ, wēst	wēsde
+be-inherently	plural	wēsaþ	wēsdon
+be-inherently	subjunctive	present tense	past tense
+be-inherently	singular	wēse	wēsde
+be-inherently	plural	wēsen	wēsden
+be-inherently	imperative		
+be-inherently	singular	wēs	wēs
+be-inherently	plural	wēsaþ	wēsaþ
+be-inherently	participle	present	past
+be-inherently		wēsende	(ġe)wēsed
 be-momentarily	infinitive	bēon	bēonne
 be-momentarily	indicative mood	present tense	past tense
 be-momentarily	first person singular	bēo	—
@@ -40,3 +68,115 @@ be-momentarily	singular	bēo	bēo
 be-momentarily	plural	bēoþ	bēoþ
 be-momentarily	participle	present	past
 be-momentarily		bēonde	(ġe)bēon
+change	infinitive	wendan	wendenne
+change	indicative mood	present tense	past tense
+change	first person singular	wende	wende
+change	second person singular	wendest, wenst, wentst	wendest
+change	third person singular	wendeþ, went	wende
+change	plural	wendaþ	wendon
+change	subjunctive	present tense	past tense
+change	singular	wende	wende
+change	plural	wenden	wenden
+change	imperative		
+change	singular	wend	wend
+change	plural	wendaþ	wendaþ
+change	participle	present	past
+change		wendende	(ġe)wended
+climb	infinitive	climban	climbenne
+climb	indicative mood	present tense	past tense
+climb	first person singular	climbe	clamb
+climb	second person singular	climbst	clumbe
+climb	third person singular	climbþ	clamb
+climb	plural	climbaþ	clumbon
+climb	subjunctive	present tense	past tense
+climb	singular	climbe	clumbe
+climb	plural	climben	clumben
+climb	imperative		
+climb	singular	climb	climb
+climb	plural	climbaþ	climbaþ
+climb	participle	present	past
+climb		climbende	(ġe)clumben
+cool	infinitive	cōlian	cōlienne
+cool	indicative mood	present tense	past tense
+cool	first person singular	cōliġe	cōlode
+cool	second person singular	cōlast	cōlodest
+cool	third person singular	cōlaþ	cōlode
+cool	plural	cōliaþ	cōlodon
+cool	subjunctive	present tense	past tense
+cool	singular	cōliġe	cōlode
+cool	plural	cōliġen	cōloden
+cool	imperative		
+cool	singular	cōla	cōla
+cool	plural	cōliaþ	cōliaþ
+cool	participle	present	past
+cool		cōliende	(ġe)cōlod
+displease	infinitive	drēfan	drēfenne
+displease	indicative mood	present tense	past tense
+displease	first person singular	drēfe	drēfde
+displease	second person singular	drēfest, drēfst	drēfdest
+displease	third person singular	drēfeþ, drēfþ	drēfde
+displease	plural	drēfaþ	drēfdon
+displease	subjunctive	present tense	past tense
+displease	singular	drēfe	drēfde
+displease	plural	drēfen	drēfden
+displease	imperative		
+displease	singular	drēf	drēf
+displease	plural	drēfaþ	drēfaþ
+displease	participle	present	past
+displease		drēfende	(ġe)drēfed
+eat	infinitive	etan	etenne
+eat	indicative mood	present tense	past tense
+eat	first person singular	ete	ǣt
+eat	second person singular	itst	ǣte
+eat	third person singular	itt, it	ǣt
+eat	plural	etaþ	ǣton
+eat	subjunctive	present tense	past tense
+eat	singular	ete	ǣte
+eat	plural	eten	ǣten
+eat	imperative		
+eat	singular	et	et
+eat	plural	etaþ	etaþ
+eat	participle	present	past
+eat		etende	(ġe)eten
+endure	infinitive	ādrēogan	ādrēogenne
+endure	indicative mood	present tense	past tense
+endure	first person singular	ādrēoge	ādrēag, ādrēah
+endure	second person singular	ādrīeġst	ādruge
+endure	third person singular	ādrīeġþ	ādrēag, ādrēah
+endure	plural	ādrēogaþ	ādrugon
+endure	subjunctive	present tense	past tense
+endure	singular	ādrēoge	ādruge
+endure	plural	ādrēogen	ādrugen
+endure	imperative		
+endure	singular	ādrēog, ādrēoh	ādrēog, ādrēoh
+endure	plural	ādrēogaþ	ādrēogaþ
+endure	participle	present	past
+endure		ādrēogende	ādrogen
+fall	infinitive	feallan	feallenne
+fall	indicative mood	present tense	past tense
+fall	first person singular	fealle	fēoll
+fall	second person singular	fielst	fēolle
+fall	third person singular	fielþ	fēoll
+fall	plural	feallaþ	fēollon
+fall	subjunctive	present tense	past tense
+fall	singular	fealle	fēolle
+fall	plural	feallen	fēollen
+fall	imperative		
+fall	singular	feall	feall
+fall	plural	feallaþ	feallaþ
+fall	participle	present	past
+fall		feallende	(ġe)feallen
+fly	infinitive	flēogan	flēogenne
+fly	indicative mood	present tense	past tense
+fly	first person singular	flēoge	flēag, flēah
+fly	second person singular	flīeġst	fluge
+fly	third person singular	flīeġþ	flēag, flēah
+fly	plural	flēogaþ	flugon
+fly	subjunctive	present tense	past tense
+fly	singular	flēoge	fluge
+fly	plural	flēogen	flugen
+fly	imperative		
+fly	singular	flēog, flēoh	flēog, flēoh
+fly	plural	flēogaþ	flēogaþ
+fly	participle	present	past
+fly		flēogende	(ġe)flogen

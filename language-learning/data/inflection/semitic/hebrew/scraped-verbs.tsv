@@ -33,6 +33,18 @@ change	future	second	תִּשְׁתַּנֶּה‎	תִּשְׁתַּנִּי‎
 change	future	third	יִשְׁתַּנֶּה‎	תִּשְׁתַּנֶּה‎	יִשְׁתַּנּוּ‎	תִּשְׁתַּנֶּינָה‎1
 change	imperative	imperative	הִשְׁתַּנֵּה	הִשְׁתַּנִּי‎	הִשְׁתַּנּוּ‎	הִשְׁתַּנֶּינָה‎1
 change	notes	notes	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.
+climb	non-finite forms	non-finite forms	to-infinitive: לְטַפֵּס‎action noun: טיפוס / טִפּוּס‎	to-infinitive: לְטַפֵּס‎action noun: טיפוס / טִפּוּס‎	to-infinitive: לְטַפֵּס‎action noun: טיפוס / טִפּוּס‎	to-infinitive: לְטַפֵּס‎action noun: טיפוס / טִפּוּס‎
+climb	finite forms	finite forms	singular	singular	plural	plural
+climb	finite forms	finite forms	m.	f.	m.	f.
+climb	past	first	טיפסתי / טִפַּסְתִּי‎	טיפסתי / טִפַּסְתִּי‎	טיפסנו / טִפַּסְנוּ‎	טיפסנו / טִפַּסְנוּ‎
+climb	past	second	טיפסת / טִפַּסְתָּ‎	טיפסת / טִפַּסְתְּ‎	טיפסתם / טִפַּסְתֶּם‎	טיפסתן / טִפַּסְתֶּן‎
+climb	past	third	טיפס / טִפֵּס	טיפסה / טִפְּסָה‎	טיפסו / טִפְּסוּ‎	טיפסו / טִפְּסוּ‎
+climb	present	present	מְטַפֵּס‎	מְטַפֶּסֶת‎	מְטַפְּסִים‎	מְטַפְּסוֹת‎
+climb	future	first	אֲטַפֵּס‎	אֲטַפֵּס‎	נְטַפֵּס‎	נְטַפֵּס‎
+climb	future	second	תְּטַפֵּס‎	תְּטַפְּסִי‎	תְּטַפְּסוּ‎	תְּטַפֵּסְנָה‎1
+climb	future	third	יְטַפֵּס‎	תְּטַפֵּס‎	יְטַפְּסוּ‎	תְּטַפֵּסְנָה‎1
+climb	imperative	imperative	טַפֵּס‎	טַפְּסִי‎	טַפְּסוּ‎	טַפֵּסְנָה‎1
+climb	notes	notes	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.
 direct	non-finite forms	non-finite forms	to-infinitive: לְהוֹבִיל‎action noun: הוֹבָלָה‎	to-infinitive: לְהוֹבִיל‎action noun: הוֹבָלָה‎	to-infinitive: לְהוֹבִיל‎action noun: הוֹבָלָה‎	to-infinitive: לְהוֹבִיל‎action noun: הוֹבָלָה‎
 direct	finite forms	finite forms	singular	singular	plural	plural
 direct	finite forms	finite forms	m.	f.	m.	f.
@@ -69,6 +81,18 @@ fall	future	second	תיפול / תִּפֹּל‎	תיפלי / תִּפְּלִ�
 fall	future	third	ייפול / יִפֹּל‎	תיפול / תִּפֹּל‎	ייפלו / יִפְּלוּ‎	תיפולנה / תִּפֹּלְנָה‎2
 fall	imperative	imperative	נפול / נְפֹל‎	נִפְלִי‎	נִפְלוּ‎	נפולנה / נְפֹלְנָה‎2
 fall	notes	notes	Pronounced נָפַלְתֶּם‎ and נָפַלְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced נָפַלְתֶּם‎ and נָפַלְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced נָפַלְתֶּם‎ and נָפַלְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced נָפַלְתֶּם‎ and נָפַלְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.
+fly	non-finite forms	non-finite forms	to-infinitive: לָטוּס‎action noun: טִיסָה‎	to-infinitive: לָטוּס‎action noun: טִיסָה‎	to-infinitive: לָטוּס‎action noun: טִיסָה‎	to-infinitive: לָטוּס‎action noun: טִיסָה‎
+fly	finite forms	finite forms	singular	singular	plural	plural
+fly	finite forms	finite forms	m.	f.	m.	f.
+fly	past	first	טַסְתִּי‎	טַסְתִּי‎	טַסְנוּ‎	טַסְנוּ‎
+fly	past	second	טַסְתָּ‎	טַסְתְּ‎	טַסְתֶּם‎	טַסְתֶּן‎
+fly	past	third	טָס	טָסָה‎	טָסוּ‎	טָסוּ‎
+fly	present	present	טָס	טָסָה‎	טָסִים‎	טָסוֹת‎
+fly	future	first	אָטוּס‎	אָטוּס‎	נָטוּס‎	נָטוּס‎
+fly	future	second	תָּטוּס‎	תָּטוּסִי‎	תָּטוּסוּ‎	תטוסנה / תָּטֹסְנָה‎1
+fly	future	third	יָטוּס‎	תָּטוּס‎	יָטוּסוּ‎	תטוסנה / תָּטֹסְנָה‎1
+fly	imperative	imperative	טוּס‎	טוּסִי‎	טוּסוּ‎	טוסנה / טֹסְנָה‎1
+fly	notes	notes	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.
 rest	non-finite forms	non-finite forms	to-infinitive: לָנוּחַ‎action noun: —	to-infinitive: לָנוּחַ‎action noun: —	to-infinitive: לָנוּחַ‎action noun: —	to-infinitive: לָנוּחַ‎action noun: —
 rest	finite forms	finite forms	singular	singular	plural	plural
 rest	finite forms	finite forms	m.	f.	m.	f.

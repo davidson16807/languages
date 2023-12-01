@@ -1,20 +1,125 @@
-		singular	plural																								
-bug	nominative	vocative	accusative	genitive	dative	instrumental	locative																				
-bug	bekos	beke	bekon	beki	bekū	bekū	bekei1, bekē2																				
-bug	bekoi	bekoi	bekōs1, bekūs2	bekon	bekobo	bekuis1, bekūs2	bekois																				
-daughter	duxtīr	duxter	duxterem	duxtros	duxtrei	duxtri	duxtri																				
-daughter	duxteres	duxteres	duxterās	duxtron	duxtrebo	duxtrebi	duxtrebo																				
-horse	markos	marke	markon	marki	markū	markū	markei1, markē2																				
-horse	markoi	markoi	markōs1, markūs2	markon	markobo	markuis1, markūs2	markois																				
-livestock	taros	tare	taron	tari	tarū	tarū	tarei1, tarē2																				
-livestock	taroi	taroi	tarōs1, tarūs2	taron	tarobo	taruis1, tarūs2	tarois																				
-rock	artuā	artuā	artuan1, artuim2	artuās1, artuiās2	artuī	artuia1, artuī2	artuī																				
-rock	artuās	artuās	artuās	artuanom	artuābo	artuābi	artuābo																				
-son	mapos	mape	mapon	mapi	mapū	mapū	mapei1, mapē2																				
-son	mapoi	mapoi	mapōs1, mapūs2	mapon	mapobo	mapuis1, mapūs2	mapois																				
-woman	benā	benā	benan1, benim2	benās1, beniās2	benī	benia1, benī2	benī																				
-woman	bnās	bnās	bnās	bnanom	bnābo	bnābi	bnābo																				
-father	atīr	ater	aterem	atros	atrei	atri	atri																				
-father	ateres	ateres	aterās	atron	atrebo	atrebi	atrebo																				
-mother	mātīr	māter	māterem	mātros	mātrei	mātri	mātri																				
-mother	māteres	māteres	māterās	mātron	mātrebo	mātrebi	mātrebo																				
+bug	CaseSingularPluralNominativebekosbekoiVocativebekebekoiAccusativebekonbekōs1, bekūs2GenitivebekibekonDativebekūbekoboInstrumentalbekūbekuis1, bekūs2Locativebekei1, bekē2bekois1 early forms, 2 late forms	CaseSingularPluralNominativebekosbekoiVocativebekebekoiAccusativebekonbekōs1, bekūs2GenitivebekibekonDativebekūbekoboInstrumentalbekūbekuis1, bekūs2Locativebekei1, bekē2bekois	case	singular	plural	nominative	bekos	bekoi	vocative	beke	bekoi	accusative	bekon	bekōs1, bekūs2	genitive	beki	bekon	dative	bekū	bekobo	instrumental	bekū	bekuis1, bekūs2	locative	bekei1, bekē2	bekois	1 early forms, 2 late forms
+bug	CaseSingularPluralNominativebekosbekoiVocativebekebekoiAccusativebekonbekōs1, bekūs2GenitivebekibekonDativebekūbekoboInstrumentalbekūbekuis1, bekūs2Locativebekei1, bekē2bekois	case	singular	plural	nominative	bekos	bekoi	vocative	beke	bekoi	accusative	bekon	bekōs1, bekūs2	genitive	beki	bekon	dative	bekū	bekobo	instrumental	bekū	bekuis1, bekūs2	locative	bekei1, bekē2	bekois		
+bug	case	singular	plural																								
+bug	nominative	bekos	bekoi																								
+bug	vocative	beke	bekoi																								
+bug	accusative	bekon	bekōs1, bekūs2																								
+bug	genitive	beki	bekon																								
+bug	dative	bekū	bekobo																								
+bug	instrumental	bekū	bekuis1, bekūs2																								
+bug	locative	bekei1, bekē2	bekois																								
+bug	1 early forms, 2 late forms																										
+daughter	CaseSingularPluralNominativeduxtīrduxteresVocativeduxterduxteresAccusativeduxteremduxterāsGenitiveduxtrosduxtronDativeduxtreiduxtreboInstrumentalduxtriduxtrebiLocativeduxtriduxtrebo	CaseSingularPluralNominativeduxtīrduxteresVocativeduxterduxteresAccusativeduxteremduxterāsGenitiveduxtrosduxtronDativeduxtreiduxtreboInstrumentalduxtriduxtrebiLocativeduxtriduxtrebo	case	singular	plural	nominative	duxtīr	duxteres	vocative	duxter	duxteres	accusative	duxterem	duxterās	genitive	duxtros	duxtron	dative	duxtrei	duxtrebo	instrumental	duxtri	duxtrebi	locative	duxtri	duxtrebo
+daughter	CaseSingularPluralNominativeduxtīrduxteresVocativeduxterduxteresAccusativeduxteremduxterāsGenitiveduxtrosduxtronDativeduxtreiduxtreboInstrumentalduxtriduxtrebiLocativeduxtriduxtrebo	case	singular	plural	nominative	duxtīr	duxteres	vocative	duxter	duxteres	accusative	duxterem	duxterās	genitive	duxtros	duxtron	dative	duxtrei	duxtrebo	instrumental	duxtri	duxtrebi	locative	duxtri	duxtrebo	
+daughter	case	singular	plural																							
+daughter	nominative	duxtīr	duxteres																							
+daughter	vocative	duxter	duxteres																							
+daughter	accusative	duxterem	duxterās																							
+daughter	genitive	duxtros	duxtron																							
+daughter	dative	duxtrei	duxtrebo																							
+daughter	instrumental	duxtri	duxtrebi																							
+daughter	locative	duxtri	duxtrebo																							
+horse	CaseSingularPluralNominativemarkosmarkoiVocativemarkemarkoiAccusativemarkonmarkōs1, markūs2GenitivemarkimarkonDativemarkūmarkoboInstrumentalmarkūmarkuis1, markūs2Locativemarkei1, markē2markois1 early forms, 2 late forms	CaseSingularPluralNominativemarkosmarkoiVocativemarkemarkoiAccusativemarkonmarkōs1, markūs2GenitivemarkimarkonDativemarkūmarkoboInstrumentalmarkūmarkuis1, markūs2Locativemarkei1, markē2markois	case	singular	plural	nominative	markos	markoi	vocative	marke	markoi	accusative	markon	markōs1, markūs2	genitive	marki	markon	dative	markū	markobo	instrumental	markū	markuis1, markūs2	locative	markei1, markē2	markois	1 early forms, 2 late forms
+horse	CaseSingularPluralNominativemarkosmarkoiVocativemarkemarkoiAccusativemarkonmarkōs1, markūs2GenitivemarkimarkonDativemarkūmarkoboInstrumentalmarkūmarkuis1, markūs2Locativemarkei1, markē2markois	case	singular	plural	nominative	markos	markoi	vocative	marke	markoi	accusative	markon	markōs1, markūs2	genitive	marki	markon	dative	markū	markobo	instrumental	markū	markuis1, markūs2	locative	markei1, markē2	markois		
+horse	case	singular	plural																								
+horse	nominative	markos	markoi																								
+horse	vocative	marke	markoi																								
+horse	accusative	markon	markōs1, markūs2																								
+horse	genitive	marki	markon																								
+horse	dative	markū	markobo																								
+horse	instrumental	markū	markuis1, markūs2																								
+horse	locative	markei1, markē2	markois																								
+horse	1 early forms, 2 late forms																										
+livestock	CaseSingularPluralNominativetarostaroiVocativetaretaroiAccusativetarontarōs1, tarūs2GenitivetaritaronDativetarūtaroboInstrumentaltarūtaruis1, tarūs2Locativetarei1, tarē2tarois1 early forms, 2 late forms	CaseSingularPluralNominativetarostaroiVocativetaretaroiAccusativetarontarōs1, tarūs2GenitivetaritaronDativetarūtaroboInstrumentaltarūtaruis1, tarūs2Locativetarei1, tarē2tarois	case	singular	plural	nominative	taros	taroi	vocative	tare	taroi	accusative	taron	tarōs1, tarūs2	genitive	tari	taron	dative	tarū	tarobo	instrumental	tarū	taruis1, tarūs2	locative	tarei1, tarē2	tarois	1 early forms, 2 late forms
+livestock	CaseSingularPluralNominativetarostaroiVocativetaretaroiAccusativetarontarōs1, tarūs2GenitivetaritaronDativetarūtaroboInstrumentaltarūtaruis1, tarūs2Locativetarei1, tarē2tarois	case	singular	plural	nominative	taros	taroi	vocative	tare	taroi	accusative	taron	tarōs1, tarūs2	genitive	tari	taron	dative	tarū	tarobo	instrumental	tarū	taruis1, tarūs2	locative	tarei1, tarē2	tarois		
+livestock	case	singular	plural																								
+livestock	nominative	taros	taroi																								
+livestock	vocative	tare	taroi																								
+livestock	accusative	taron	tarōs1, tarūs2																								
+livestock	genitive	tari	taron																								
+livestock	dative	tarū	tarobo																								
+livestock	instrumental	tarū	taruis1, tarūs2																								
+livestock	locative	tarei1, tarē2	tarois																								
+livestock	1 early forms, 2 late forms																										
+rock	CaseSingularPluralNominativeartuāartuāsVocativeartuāartuāsAccusativeartuan1, artuim2artuāsGenitiveartuās1, artuiās2artuanomDativeartuīartuāboInstrumentalartuia1, artuī2artuābiLocativeartuīartuābo1 early forms, 2 late forms	CaseSingularPluralNominativeartuāartuāsVocativeartuāartuāsAccusativeartuan1, artuim2artuāsGenitiveartuās1, artuiās2artuanomDativeartuīartuāboInstrumentalartuia1, artuī2artuābiLocativeartuīartuābo	case	singular	plural	nominative	artuā	artuās	vocative	artuā	artuās	accusative	artuan1, artuim2	artuās	genitive	artuās1, artuiās2	artuanom	dative	artuī	artuābo	instrumental	artuia1, artuī2	artuābi	locative	artuī	artuābo	1 early forms, 2 late forms
+rock	CaseSingularPluralNominativeartuāartuāsVocativeartuāartuāsAccusativeartuan1, artuim2artuāsGenitiveartuās1, artuiās2artuanomDativeartuīartuāboInstrumentalartuia1, artuī2artuābiLocativeartuīartuābo	case	singular	plural	nominative	artuā	artuās	vocative	artuā	artuās	accusative	artuan1, artuim2	artuās	genitive	artuās1, artuiās2	artuanom	dative	artuī	artuābo	instrumental	artuia1, artuī2	artuābi	locative	artuī	artuābo		
+rock	case	singular	plural																								
+rock	nominative	artuā	artuās																								
+rock	vocative	artuā	artuās																								
+rock	accusative	artuan1, artuim2	artuās																								
+rock	genitive	artuās1, artuiās2	artuanom																								
+rock	dative	artuī	artuābo																								
+rock	instrumental	artuia1, artuī2	artuābi																								
+rock	locative	artuī	artuābo																								
+rock	1 early forms, 2 late forms																										
+son	CaseSingularPluralNominativemaposmapoiVocativemapemapoiAccusativemaponmapōs1, mapūs2GenitivemapimaponDativemapūmapoboInstrumentalmapūmapuis1, mapūs2Locativemapei1, mapē2mapois1 early forms, 2 late forms	CaseSingularPluralNominativemaposmapoiVocativemapemapoiAccusativemaponmapōs1, mapūs2GenitivemapimaponDativemapūmapoboInstrumentalmapūmapuis1, mapūs2Locativemapei1, mapē2mapois	case	singular	plural	nominative	mapos	mapoi	vocative	mape	mapoi	accusative	mapon	mapōs1, mapūs2	genitive	mapi	mapon	dative	mapū	mapobo	instrumental	mapū	mapuis1, mapūs2	locative	mapei1, mapē2	mapois	1 early forms, 2 late forms
+son	CaseSingularPluralNominativemaposmapoiVocativemapemapoiAccusativemaponmapōs1, mapūs2GenitivemapimaponDativemapūmapoboInstrumentalmapūmapuis1, mapūs2Locativemapei1, mapē2mapois	case	singular	plural	nominative	mapos	mapoi	vocative	mape	mapoi	accusative	mapon	mapōs1, mapūs2	genitive	mapi	mapon	dative	mapū	mapobo	instrumental	mapū	mapuis1, mapūs2	locative	mapei1, mapē2	mapois		
+son	case	singular	plural																								
+son	nominative	mapos	mapoi																								
+son	vocative	mape	mapoi																								
+son	accusative	mapon	mapōs1, mapūs2																								
+son	genitive	mapi	mapon																								
+son	dative	mapū	mapobo																								
+son	instrumental	mapū	mapuis1, mapūs2																								
+son	locative	mapei1, mapē2	mapois																								
+son	1 early forms, 2 late forms																										
+woman	CaseSingularPluralNominativebenābnāsVocativebenābnāsAccusativebenan1, benim2bnāsGenitivebenās1, beniās2bnanomDativebenībnāboInstrumentalbenia1, benī2bnābiLocativebenībnābo1 early forms, 2 late forms	CaseSingularPluralNominativebenābnāsVocativebenābnāsAccusativebenan1, benim2bnāsGenitivebenās1, beniās2bnanomDativebenībnāboInstrumentalbenia1, benī2bnābiLocativebenībnābo	case	singular	plural	nominative	benā	bnās	vocative	benā	bnās	accusative	benan1, benim2	bnās	genitive	benās1, beniās2	bnanom	dative	benī	bnābo	instrumental	benia1, benī2	bnābi	locative	benī	bnābo	1 early forms, 2 late forms
+woman	CaseSingularPluralNominativebenābnāsVocativebenābnāsAccusativebenan1, benim2bnāsGenitivebenās1, beniās2bnanomDativebenībnāboInstrumentalbenia1, benī2bnābiLocativebenībnābo	case	singular	plural	nominative	benā	bnās	vocative	benā	bnās	accusative	benan1, benim2	bnās	genitive	benās1, beniās2	bnanom	dative	benī	bnābo	instrumental	benia1, benī2	bnābi	locative	benī	bnābo		
+woman	case	singular	plural																								
+woman	nominative	benā	bnās																								
+woman	vocative	benā	bnās																								
+woman	accusative	benan1, benim2	bnās																								
+woman	genitive	benās1, beniās2	bnanom																								
+woman	dative	benī	bnābo																								
+woman	instrumental	benia1, benī2	bnābi																								
+woman	locative	benī	bnābo																								
+woman	1 early forms, 2 late forms																										
+woman	odd, dn-n gradation	odd, dn-n gradation	odd, dn-n gradation																				
+woman	nominative	bena	bena																				
+woman	genitive	bednaga	bednaga																				
+woman		singular	plural																				
+woman	nominative	bena	bednaga																				
+woman	accusative	bednagav	bednagijt																				
+woman	genitive	bednaga	bednagij																				
+woman	illative	bednagij	bednagijda																				
+woman	inessive	bednagin	bednagijn																				
+woman	elative	bednagis	bednagijs																				
+woman	comitative	bednagijn	bednagij																				
+woman	abessive	bednagadagábednagadagi	bednagijdagábednagijdagi																				
+woman	essive	benanbednagin	benanbednagin																				
+woman	Possessive formsSingularDualPlural1st personbednagimbednagambednagimmebednagimme2nd personbednagitbednagatbednagihttebednagihtte3rd personbednagisbednagiskabednagisá	Possessive formsSingularDualPlural1st personbednagimbednagambednagimmebednagimme2nd personbednagitbednagatbednagihttebednagihtte3rd personbednagisbednagiskabednagisá	Possessive formsSingularDualPlural1st personbednagimbednagambednagimmebednagimme2nd personbednagitbednagatbednagihttebednagihtte3rd personbednagisbednagiskabednagisá	possessive forms	possessive forms	possessive forms	possessive forms		singular	dual	plural	1st person	bednagimbednagam	bednagimme	bednagimme	2nd person	bednagitbednagat	bednagihtte	bednagihtte	3rd person	bednagis	bednagiska	bednagisá
+woman	possessive forms	possessive forms	possessive forms	possessive forms																			
+woman		singular	dual	plural																			
+woman	1st person	bednagimbednagam	bednagimme	bednagimme																			
+woman	2nd person	bednagitbednagat	bednagihtte	bednagihtte																			
+woman	3rd person	bednagis	bednagiska	bednagisá																			
+woman	case	singular	plural
+woman	nominative	bēna	bēnan
+woman	accusative	bēnan	bēnan
+woman	genitive	bēnan	bēnena
+woman	dative	bēnan	bēnum
+woman	declension of bena 	declension of bena 	declension of bena 	declension of bena 	declension of bena 
+woman		singular	singular	plural	plural
+woman		indefinite	definite	indefinite	definite
+woman	nominative	bena	benan	benor	benorna
+woman	genitive	benas	benans	benors	benornas
+father	CaseSingularPluralNominativeatīrateresVocativeaterateresAccusativeaterematerāsGenitiveatrosatronDativeatreiatreboInstrumentalatriatrebiLocativeatriatrebo	CaseSingularPluralNominativeatīrateresVocativeaterateresAccusativeaterematerāsGenitiveatrosatronDativeatreiatreboInstrumentalatriatrebiLocativeatriatrebo	case	singular	plural	nominative	atīr	ateres	vocative	ater	ateres	accusative	aterem	aterās	genitive	atros	atron	dative	atrei	atrebo	instrumental	atri	atrebi	locative	atri	atrebo
+father	CaseSingularPluralNominativeatīrateresVocativeaterateresAccusativeaterematerāsGenitiveatrosatronDativeatreiatreboInstrumentalatriatrebiLocativeatriatrebo	case	singular	plural	nominative	atīr	ateres	vocative	ater	ateres	accusative	aterem	aterās	genitive	atros	atron	dative	atrei	atrebo	instrumental	atri	atrebi	locative	atri	atrebo	
+father	case	singular	plural																							
+father	nominative	atīr	ateres																							
+father	vocative	ater	ateres																							
+father	accusative	aterem	aterās																							
+father	genitive	atros	atron																							
+father	dative	atrei	atrebo																							
+father	instrumental	atri	atrebi																							
+father	locative	atri	atrebo																							
+mother	CaseSingularPluralNominativemātīrmāteresVocativemātermāteresAccusativemāteremmāterāsGenitivemātrosmātronDativemātreimātreboInstrumentalmātrimātrebiLocativemātrimātrebo	CaseSingularPluralNominativemātīrmāteresVocativemātermāteresAccusativemāteremmāterāsGenitivemātrosmātronDativemātreimātreboInstrumentalmātrimātrebiLocativemātrimātrebo	case	singular	plural	nominative	mātīr	māteres	vocative	māter	māteres	accusative	māterem	māterās	genitive	mātros	mātron	dative	mātrei	mātrebo	instrumental	mātri	mātrebi	locative	mātri	mātrebo
+mother	CaseSingularPluralNominativemātīrmāteresVocativemātermāteresAccusativemāteremmāterāsGenitivemātrosmātronDativemātreimātreboInstrumentalmātrimātrebiLocativemātrimātrebo	case	singular	plural	nominative	mātīr	māteres	vocative	māter	māteres	accusative	māterem	māterās	genitive	mātros	mātron	dative	mātrei	mātrebo	instrumental	mātri	mātrebi	locative	mātri	mātrebo	
+mother	case	singular	plural																							
+mother	nominative	mātīr	māteres																							
+mother	vocative	māter	māteres																							
+mother	accusative	māterem	māterās																							
+mother	genitive	mātros	mātron																							
+mother	dative	mātrei	mātrebo																							
+mother	instrumental	mātri	mātrebi																							
+mother	locative	mātri	mātrebo																							

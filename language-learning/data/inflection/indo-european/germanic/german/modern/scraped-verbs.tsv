@@ -74,6 +74,21 @@ cool	preterite	du kühltest ab	ihr kühltet ab	ii	du kühltest ab1	ihr kühltet 
 cool	preterite	er kühlte ab	sie kühlten ab	ii	er kühlte ab1	sie kühlten ab1
 cool						
 cool	imperative	kühl ab (du)kühle ab (du)	kühlt ab (ihr)			
+direct	infinitive	infinitive	führen	führen	führen	führen
+direct	present participle	present participle	führend	führend	führend	führend
+direct	past participle	past participle	geführt	geführt	geführt	geführt
+direct	auxiliary	auxiliary	haben	haben	haben	haben
+direct		indicative	indicative		subjunctive	subjunctive
+direct		singular	plural		singular	plural
+direct	present	ich führe	wir führen	i	ich führe	wir führen
+direct	present	du führst	ihr führt	i	du führest	ihr führet
+direct	present	er führt	sie führen	i	er führe	sie führen
+direct						
+direct	preterite	ich führte	wir führten	ii	ich führte1	wir führten1
+direct	preterite	du führtest	ihr führtet	ii	du führtest1	ihr führtet1
+direct	preterite	er führte	sie führten	ii	er führte1	sie führten1
+direct						
+direct	imperative	führ (du)führe (du)	führt (ihr)			
 displease	infinitive	infinitive	ärgern	ärgern	ärgern	ärgern
 displease	present participle	present participle	ärgernd	ärgernd	ärgernd	ärgernd
 displease	past participle	past participle	geärgert	geärgert	geärgert	geärgert
@@ -134,6 +149,21 @@ fall	preterite	du fielst	ihr fielt	ii	du fielest1du fielst1	ihr fielet1ihr fielt
 fall	preterite	er fiel	sie fielen	ii	er fiele1	sie fielen1
 fall						
 fall	imperative	fall (du)falle (du)	fallt (ihr)			
+fly	infinitive	infinitive	fliegen	fliegen	fliegen	fliegen
+fly	present participle	present participle	fliegend	fliegend	fliegend	fliegend
+fly	past participle	past participle	geflogen	geflogen	geflogen	geflogen
+fly	auxiliary	auxiliary	haben or sein	haben or sein	haben or sein	haben or sein
+fly		indicative	indicative		subjunctive	subjunctive
+fly		singular	plural		singular	plural
+fly	present	ich fliege	wir fliegen	i	ich fliege	wir fliegen
+fly	present	du fliegst	ihr fliegt	i	du fliegest	ihr flieget
+fly	present	er fliegt	sie fliegen	i	er fliege	sie fliegen
+fly						
+fly	preterite	ich flog	wir flogen	ii	ich flöge1	wir flögen1
+fly	preterite	du flogst	ihr flogt	ii	du flögest1du flögst1	ihr flöget1ihr flögt1
+fly	preterite	er flog	sie flogen	ii	er flöge1	sie flögen1
+fly						
+fly	imperative	flieg (du)fliege (du)	fliegt (ihr)			
 resemble	infinitive	infinitive	ähneln	ähneln	ähneln	ähneln
 resemble	present participle	present participle	ähnelnd	ähnelnd	ähnelnd	ähnelnd
 resemble	past participle	past participle	geähnelt	geähnelt	geähnelt	geähnelt
