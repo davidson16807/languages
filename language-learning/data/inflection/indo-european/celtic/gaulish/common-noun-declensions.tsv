@@ -1,57 +1,157 @@
-*		nominative	vocative	accusative 	genitive 	dative 	instrumental 	locative 		
-tribe	singular	*toṷtā 	*toṷtā 	*toṷtan ~ *toṷtam > *toṷtim 	toṷtās > *toṷtiās 	*toṷtai > *toṷtī 	*toṷtia > *toṷtī 	*toṷtī 		
-tribe	plural	*toṷtās 	*toṷtās 	*toṷtās 	*toṷtanom 	*toṷtābo(s) 	*toṷtābi(s) 	*toṷtābo(s) 		
-boy	singular	*mapos (n. *-on) 	*mape 	*mapon ~ *mapom (n. *-on) 	*mapoiso > *mapi 	*mapūi > *mapū 	*mapū 	*mapei > *mapē 		
-boy	plural	*mapoi 	*mapoi 	*mapōs > *mapūs 	*mapon 	*mapobo(s) 	*mapuis > *mapūs 	*mapois 		
-seer	singular	*ṷātis 	*ṷāti 	*ṷātin ~ *ṷātim 	*ṷātēis 	*ṷātei > *ṷāte 	*ṷātī 	*ṷātei 		
-seer	plural	*ṷātīs 	*ṷātīs 	*ṷātīs 	*ṷātiom 	*ṷātibo(s) 	*ṷātibi(s) 	*ṷātibo(s) 		
-voice	singular	*gutus 	*gutu 	*gutun ~ *gutum 	*gutoṷs > *gutōs 	*gutoṷei > gutoṷ 	*gutū 	*gutoṷ 		
-voice	plural	*gutoṷes 	*gutoṷes 	*gutūs 	*gutoṷom 	*gutuibo(s) 	*gutuibi(s) 	*gutubo(s) 		
-brother	singular	*brātīr	*brāter	*brāterem	*brātros	*brātrei	*brātri	*brātri 		
-brother	plural	*brāteres	*brāteres	*brāterās	*brātron	*brātrebo(s)	*brātrebi(s)	*brātrebo(s) 		
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
+*	*	nominative	vocative	accusative 	genitive 	dative 	instrumental 	locative 	#	
+tribe	singular	*toṷtā 	*toṷtā 	*toṷtan ~ *toṷtam > *toṷtim 	toṷtās > *toṷtiās 	*toṷtai > *toṷtī 	*toṷtia > *toṷtī 	*toṷtī 	#	
+tribe	plural	*toṷtās 	*toṷtās 	*toṷtās 	*toṷtanom 	*toṷtābo(s) 	*toṷtābi(s) 	*toṷtābo(s) 	#	
+boy	singular	*mapos (n. *-on) 	*mape 	*mapon ~ *mapom (n. *-on) 	*mapoiso > *mapi 	*mapūi > *mapū 	*mapū 	*mapei > *mapē 	#	
+boy	plural	*mapoi 	*mapoi 	*mapōs > *mapūs 	*mapon 	*mapobo(s) 	*mapuis > *mapūs 	*mapois 	#	
+seer	singular	*ṷātis 	*ṷāti 	*ṷātin ~ *ṷātim 	*ṷātēis 	*ṷātei > *ṷāte 	*ṷātī 	*ṷātei 	#	
+seer	plural	*ṷātīs 	*ṷātīs 	*ṷātīs 	*ṷātiom 	*ṷātibo(s) 	*ṷātibi(s) 	*ṷātibo(s) 	#	
+voice	singular	*gutus 	*gutu 	*gutun ~ *gutum 	*gutoṷs > *gutōs 	*gutoṷei > gutoṷ 	*gutū 	*gutoṷ 	#	
+voice	plural	*gutoṷes 	*gutoṷes 	*gutūs 	*gutoṷom 	*gutuibo(s) 	*gutuibi(s) 	*gutubo(s) 	#	
+brother	singular	*brātīr	*brāter	*brāterem	*brātros	*brātrei	*brātri	*brātri 	#	
+brother	plural	*brāteres	*brāteres	*brāterās	*brātron	*brātrebo(s)	*brātrebi(s)	*brātrebo(s) 	#	
+bug	singular	bekos	beke	bekon	beki	bekū	bekū	bekei1, bekē2	#	"""bee"""
+bug	plural	bekoi	bekoi	bekōs1, bekūs2	bekon	bekobo	bekuis1, bekūs2	bekois	#	"""bee"""
+daughter	singular	duxtīr	duxter	duxterem	duxtros	duxtrei	duxtri	duxtri	#	
+daughter	plural	duxteres	duxteres	duxterās	duxtron	duxtrebo	duxtrebi	duxtrebo	#	
+horse	singular	markos	marke	markon	marki	markū	markū	markei1, markē2	#	
+horse	plural	markoi	markoi	markōs1, markūs2	markon	markobo	markuis1, markūs2	markois	#	
+rock	singular	artuā	artuā	artuan1, artuim2	artuās1, artuiās2	artuī	artuia1, artuī2	artuī	#	
+rock	plural	artuās	artuās	artuās	artuanom	artuābo	artuābi	artuābo	#	
+son	singular	mapos	mape	mapon	mapi	mapū	mapū	mapei1, mapē2	#	
+son	plural	mapoi	mapoi	mapōs1, mapūs2	mapon	mapobo	mapuis1, mapūs2	mapois	#	
+father	singular	atīr	ater	aterem	atros	atrei	atri	atri	#	
+father	plural	ateres	ateres	aterās	atron	atrebo	atrebi	atrebo	#	
+mother	singular	mātīr	māter	māterem	mātros	mātrei	mātri	mātri	#	
+mother	plural	māteres	māteres	māterās	mātron	mātrebo	mātrebi	mātrebo	#	
+song	singular 	cantl-ā	cantl-a	cantl-in	cantl-iās	cantl-ī	cantl-ī, cantl-iā	cantl-ī	#	a-stem, regular
+song	dual 	cantl-ī, cantl-ii	cantl-ī, cantl-ii	cantl-ī, cantl-ii	cantl-iōs, cantl-ious	cantl-ābon	cantl-ābin	cantl-ābin	#	
+song	plural	cantl-ās	cantl-ās	cantl-ās	cantl-ānon	cantl-ābo	cantl-ābi	cantl-ābi	#	
+woman	singular 	benā	bena	benin, banin	mnās	mnāi	mnāi	mnāi	#	a-stem, irregular
+woman	dual 	mnāi	mnāi	mnāi	baniōs, banious	mnābon	mnābin	mnābin	#	
+woman	plural	mnās	mnās	mnās	mnānon	mnābo	mnābi	mnābi	#	
+bird	singular 	etn-os	etn-e	etn-on	etn-i	etn-ū	etn-ū	etn-ē	#	o-stem, animate
+bird	dual 	etn-ō	etn-ō	etn-ō	etn-ōs	etn-obon	etn-obin	etn-ou	#	
+bird	plural	etn-ii, etn-oi	etn-ūs	etn-ūs	etn-on(on)	etn-obo	etn-obi, etn-ūs	etn-obi	#	
+tree	singular 	prenn-on	prenn-on	prenn-on	prenn-ii	prenn-ū	prenn-ū	prenn-ē	#	o-stem, neuter
+tree	dual 	prenn-oi	prenn-oi	prenn-oi	prenn-iōs	prenn-obon	prenn-obin	prenn-ou	#	
+tree	plural	prenn-ā	prenn-ā	prenn-ā	prenn-ion	prenn-obo	prenn-obi, prenn-ūs	prenn-obi	#	
+deer	singular 	elant-is	elant-i	elant-in	elant-ēs, elant-eios	elant-ē	elant-ī	elant-ī	#	i-stem, animate
+deer	dual 	elant-ī	elant-ī	elant-ī	elant-iōs, elant-ious	elant-ibon	elant-ibin	elant-ibin	#	
+deer	plural	elant-ies, elant-īs, elant-eies	elant-īes, elant-īs, elant-eies	elant-īs	elant-ion	elant-ibo	elant-ibi	elant-ibi	#	
+victory	singular 	boud-i	boud-i	boud-i	boud-ēs, boud-eios	boud-ē	boud-ī	boud-ī	#	i-stem, neuter
+victory	dual 	boud-ī	boud-ī	boud-ī	boud-iōs, boud-ious	boud-ibon	boud-ibin	boud-ibin	#	
+victory	plural	boud-iā	boud-iā	boud-iā	boud-ion	boud-ibo	boud-ibi	boud-ibi	#	
+thought	singular 	brit-us	brit-u	brit-un	brit-ous, -ōs	brit-ou, -ō	brit-ū	brit-ū	#	u-stem, animate
+thought	dual 	brit-ū	brit-ū	brit-ū	brit-ouō	brit-oubon	brit-oubin	brit-oubin	#	
+thought	plural	brit-oues	brit-oues	brit-ūs	brit-uion	brit-oubo	brit-oubi	brit-oubi	#	
+idea	singular 	brit-us	brit-u	brit-un	brit-ous, -ōs	brit-ou, -ō	brit-ū	brit-ū	#	
+idea	dual 	brit-ū	brit-ū	brit-ū	brit-ouō	brit-oubon	brit-oubin	brit-oubin	#	
+idea	plural	brit-oues	brit-oues	brit-ūs	brit-uion	brit-oubo	brit-oubi	brit-oubi	#	
+lake	singular 	loc-u	loc-u	loc-u	loc-ous, -ōs	loc-ou, -ō	loc-ū	loc-ū	#	u-stem, neuter
+lake	dual 	loc-ū	loc-ū	loc-ū	loc-ouō	loc-oubon	loc-oubin	loc-oubin	#	
+lake	plural	loc-uā	loc-uā	loc-uā	loc-uion	loc-oubo	loc-oubi	loc-oubi	#	
+dog	singular 	cū	cū	cun-en	cun-os	cun-ē	cun-i	cun-i	#	nasal 
+dog	dual 	cun-e	cun-e	cun-e	cun-ou, cun-ō	cun-obon	cun-obin	cun-obin	#	
+dog	plural	cun-es	cun-es	cun-ās	cun-on	cun-obo	cun-obi	cun-obi	#	
+name	singular 	anuan	anuan	anuan	anuēs	anuan-ē	anuan-i	anuan-i	#	nasal 
+name	dual 	anuan-e	anuan-e	anuan-e	anuan-ou, anuan-ō	anuam-bon	anuam-bin	anuam-bin	#	
+name	plural	anuan-ā	anuan-ā	anuan-ā	anuan-on	anuam-bo	anuam-bi	anuam-bi	#	
+sky	singular 	nem-os	nem-os	nem-os	nem-ios	nem-es	nem-es	nem-es	#	s-stem
+sky	dual 	nem-ie	nem-ie	nem-ie	nem-iō	nem-obon	nem-obin	nem-obin	#	
+sky	plural	nem-iā	nem-iā	nem-iā	nem-ion	nem-obo	nem-obi	nem-obi	#	
+friend	singular 	carans, carant-s, caranð	carans, carant-s, caranð	carant-en	carant-os	carant-ē	carant-i	carant-i	#	
+friend	dual 	carant-e	carant-e	carant-e	carant-ou, carant-ō	carant-obon, carand-bon	carant-obin, carand-bin	carant-obin, carand-bin	#	dental-stem, animate
+friend	plural	carant-es	carant-es	carant-ās	carant-on	carant-obo, carand-bo	carant-obi, carand-bi	carant-obi, carand-bi	#	
+tooth	singular 	dant	dant	dant	dant-os	dant-ē	dant-i	dant-i	#	dental-stem, neuter
+tooth	dual 	dant-e	dant-e	dant-e	dant-ou, dant-ō	dant-obon, dand-bon	dant-obin, dand-bin	dant-obin, dand-bin	#	
+tooth	plural	dant-ā	dant-ā	dant-ā	dant-on	dant-obo, dand-bo	dant-obi, dand-bi	dant-obi, dand-bi	#	
+king	singular 	rīx-s	rīx-s	rīg-en	rīg-os	rīg-ē	rīg-i	rīg-i	#	velar-stem
+king	dual 	rīg-e	rīg-e	rīg-e	rīg-ou, rīg-ō	rīg-(o)bon	rīg-(o)bin	rīg-(o)bin	#	
+king	plural	rīg-es	rīg-es	rīg-ās	rīg-on	rīg-(o)bo	rīg-(o)bi	rīg-(o)bi	#	
+mother	singular 	mātīr	mātīr	māter-en	mātr-os	mātr-ē	mātr-i	mātr-i	#	r-stem
+mother	dual 	māter-e	māter-e	māter-e	mātr-ou, mātr-ō	mātr-ebon	mātr-ebin	mātr-ebin	#	
+mother	plural	māter-es	māter-es	māter-ās	mātr-on	mātr-ebo	mātr-ebi	mātr-ebi	#	
+sister	singular 	suiūr	suiūr	suior-en	suior-os	suior-ē	suior-i	suior-i	#	
+sister	dual 	suior-e	suior-e	suior-e	suior-ou, suior-ō	suior-ebon	suior-ebin	suior-ebin	#	
+sister	plural	suior-es	suior-es	suior-ās	suior-on	suior-ebo	suior-ebi	suior-ebi	#	
+house	singular 	tegi-ā	tegi-a	tegi-in	tegi-iās	tegi-ī	tegi-ī, tegi-iā	tegi-ī	#	a-stem, regular?
+house	dual 	tegi-ī, tegi-ii	tegi-ī, tegi-ii	tegi-ī, tegi-ii	tegi-iōs, tegi-ious	tegi-ābon	tegi-ābin	tegi-ābin	#	
+house	plural	tegi-ās	tegi-ās	tegi-ās	tegi-ānon	tegi-ābo	tegi-ābi	tegi-ābi	#	
+boat	singular 	naw-ā	naw-a	naw-in	naw-iās	naw-ī	naw-ī, naw-iā	naw-ī	#	a-stem, regular?
+boat	dual 	naw-ī, naw-ii	naw-ī, naw-ii	naw-ī, naw-ii	naw-iōs, naw-ious	naw-ābon	naw-ābin	naw-ābin	#	
+boat	plural	naw-ās	naw-ās	naw-ās	naw-ānon	naw-ābo	naw-ābi	naw-ābi	#	
+man	singular 	uir-os	uir-e	uir-on	uir-i	uir-ū	uir-ū	uir-ē	#	o-stem, animate?
+man	dual 	uir-ō	uir-ō	uir-ō	uir-ōs	uir-obon	uir-obin	uir-ou	#	
+man	plural	uir-ii, uir-oi	uir-ūs	uir-ūs	uir-on(on)	uir-obo	uir-obi, uir-ūs	uir-obi	#	
+fire	singular 	aid-us	aid-u	aid-un	aid-ous, -ōs	aid-ou, -ō	aid-ū	aid-ū	#	u-stem, animate?
+fire	dual 	aid-ū	aid-ū	aid-ū	aid-ouō	aid-oubon	aid-oubin	aid-oubin	#	
+fire	plural	aid-oues	aid-oues	aid-ūs	aid-uion	aid-oubo	aid-oubi	aid-oubi	#	
+food	singular 	bet-on	bet-on	bet-on	bet-ii	bet-ū	bet-ū	bet-ē	#	o-stem, neuter
+food	dual 	bet-oi	bet-oi	bet-oi	bet-iōs	bet-obon	bet-obin	bet-ou	#	
+food	plural	bet-ā	bet-ā	bet-ā	bet-ion	bet-obo	bet-obi, bet-ūs	bet-obi	#	
+work	singular 	uerg-on	uerg-on	uerg-on	uerg-ii	uerg-ū	uerg-ū	uerg-ē	#	o-stem, neuter
+work	dual 	uerg-oi	uerg-oi	uerg-oi	uerg-iōs	uerg-obon	uerg-obin	uerg-ou	#	
+work	plural	uerg-ā	uerg-ā	uerg-ā	uerg-ion	uerg-obo	uerg-obi, uerg-ūs	uerg-obi	#	
+warmth	singular 	tess-is	tess-i	tess-in	tess-ēs, tess-eios	tess-ē	tess-ī	tess-ī	#	i-stem, animate
+warmth	dual 	tess-ī	tess-ī	tess-ī	tess-iōs, tess-ious	tess-ibon	tess-ibin	tess-ibin	#	
+warmth	plural	tess-ies, tess-īs, tess-eies	tess-īes, tess-īs, tess-eies	tess-īs	tess-ion	tess-ibo	tess-ibi	tess-ibi	#	
+wind	singular 	auel-os	auel-e	auel-on	auel-i	auel-ū	auel-ū	auel-ē	#	o-stem, animate?
+wind	dual 	auel-ō	auel-ō	auel-ō	auel-ōs	auel-obon	auel-obin	auel-ou	#	
+wind	plural	auel-ii, auel-oi	auel-ūs	auel-ūs	auel-on(on)	auel-obo	auel-obi, auel-ūs	auel-obi	#	
+water	singular 	dubr-on	dubr-on	dubr-on	dubr-ii	dubr-ū	dubr-ū	dubr-ē	#	o-stem, neuter
+water	dual 	dubr-oi	dubr-oi	dubr-oi	dubr-iōs	dubr-obon	dubr-obin	dubr-ou	#	
+water	plural	dubr-ā	dubr-ā	dubr-ā	dubr-ion	dubr-obo	dubr-obi, dubr-ūs	dubr-obi	#	
+money	singular 	suteg-on	suteg-on	suteg-on	suteg-ii	suteg-ū	suteg-ū	suteg-ē	#	o-stem, neuter
+money	dual 	suteg-oi	suteg-oi	suteg-oi	suteg-iōs	suteg-obon	suteg-obin	suteg-ou	#	
+money	plural	suteg-ā	suteg-ā	suteg-ā	suteg-ion	suteg-obo	suteg-obi, suteg-ūs	suteg-obi	#	
+monster	singular 	ang-us	ang-u	ang-un	ang-ous, -ōs	ang-ou, -ō	ang-ū	ang-ū	#	u-stem, animate
+monster	dual 	ang-ū	ang-ū	ang-ū	ang-ouō	ang-oubon	ang-oubin	ang-oubin	#	"lit. ""snake, dragon"""
+monster	plural	ang-oues	ang-oues	ang-ūs	ang-uion	ang-oubo	ang-oubi	ang-oubi	#	
+clothing	singular 	karakall-ā	karakall-a	karakall-in	karakall-iās	karakall-ī	karakall-ī, karakall-iā	karakall-ī	#	a-stem, regular?
+clothing	dual 	karakall-ī, karakall-ii	karakall-ī, karakall-ii	karakall-ī, karakall-ii	karakall-iōs, karakall-ious	karakall-ābon	karakall-ābin	karakall-ābin	#	"lit. ""tunic"""
+clothing	plural	karakall-ās	karakall-ās	karakall-ās	karakall-ānon	karakall-ābo	karakall-ābi	karakall-ābi	#	
+guard	singular 	solidury-os	solidury-e	solidury-on	solidury-i	solidury-ū	solidury-ū	solidury-ē	#	o-stem, animate?
+guard	dual 	solidury-ō	solidury-ō	solidury-ō	solidury-ōs	solidury-obon	solidury-obin	solidury-ou	#	
+guard	plural	solidury-ii, solidury-oi	solidury-ūs	solidury-ūs	solidury-on(on)	solidury-obo	solidury-obi, solidury-ūs	solidury-obi	#	
+love	singular 	serk-ā	serk-a	serk-in	serk-iās	serk-ī	serk-ī, serk-iā	serk-ī	#	a-stem, regular?
+love	dual 	serk-ī, serk-ii	serk-ī, serk-ii	serk-ī, serk-ii	serk-iōs, serk-ious	serk-ābon	serk-ābin	serk-ābin	#	
+love	plural	serk-ās	serk-ās	serk-ās	serk-ānon	serk-ābo	serk-ābi	serk-ābi	#	
+love	singular 	sok-ā	sok-a	sok-in	sok-iās	sok-ī	sok-ī, sok-iā	sok-ī	#	a-stem, regular?
+love	dual 	sok-ī, sok-ii	sok-ī, sok-ii	sok-ī, sok-ii	sok-iōs, sok-ious	sok-ābon	sok-ābin	sok-ābin	#	
+love	plural	sok-ās	sok-ās	sok-ās	sok-ānon	sok-ābo	sok-ābi	sok-ābi	#	
+way	singular 	mantl-i	mantl-i	mantl-i	mantl-ēs, mantl-eios	mantl-ē	mantl-ī	mantl-ī	#	i-stem, neuter?
+way	dual 	mantl-ī	mantl-ī	mantl-ī	mantl-iōs, mantl-ious	mantl-ibon	mantl-ibin	mantl-ibin	#	
+way	plural	mantl-iā	mantl-iā	mantl-iā	mantl-ion	mantl-ibo	mantl-ibi	mantl-ibi	#	
+gift	singular 	dan-us	dan-u	dan-un	dan-ous, -ōs	dan-ou, -ō	dan-ū	dan-ū	#	u-stem, animate?
+gift	dual 	dan-ū	dan-ū	dan-ū	dan-ouō	dan-oubon	dan-oubin	dan-oubin	#	
+gift	plural	dan-oues	dan-oues	dan-ūs	dan-uion	dan-oubo	dan-oubi	dan-oubi	#	
+animal	singular 	oxs-us	oxs-u	oxs-un	oxs-ous, -ōs	oxs-ou, -ō	oxs-ū	oxs-ū	#	u-stem, animate?
+animal	dual 	oxs-ū	oxs-ū	oxs-ū	oxs-ouō	oxs-oubon	oxs-oubin	oxs-oubin	#	"lit. ""wild horned beast"""
+animal	plural	oxs-oues	oxs-oues	oxs-ūs	oxs-uion	oxs-oubo	oxs-oubi	oxs-oubi	#	
+sound	singular 	bruxt-us	bruxt-u	bruxt-un	bruxt-ous, -ōs	bruxt-ou, -ō	bruxt-ū	bruxt-ū	#	u-stem, animate?
+sound	dual 	bruxt-ū	bruxt-ū	bruxt-ū	bruxt-ouō	bruxt-oubon	bruxt-oubin	bruxt-oubin	#	"lit. ""noise"""
+sound	plural	bruxt-oues	bruxt-oues	bruxt-ūs	bruxt-uion	bruxt-oubo	bruxt-oubi	bruxt-oubi	#	
+size	singular 	mant-i	mant-i	mant-i	mant-ēs, mant-eios	mant-ē	mant-ī	mant-ī	#	i-stem, neuter
+size	dual 	mant-ī	mant-ī	mant-ī	mant-iōs, mant-ious	mant-ibon	mant-ibin	mant-ibin	#	
+size	plural	mant-iā	mant-iā	mant-iā	mant-ion	mant-ibo	mant-ibi	mant-ibi	#	
+door	singular 	d(w)or-on	d(w)or-on	d(w)or-on	d(w)or-ii	d(w)or-ū	d(w)or-ū	d(w)or-ē	#	o-stem, neuter
+door	dual 	d(w)or-oi	d(w)or-oi	d(w)or-oi	d(w)or-iōs	d(w)or-obon	d(w)or-obin	d(w)or-ou	#	
+door	plural	d(w)or-ā	d(w)or-ā	d(w)or-ā	d(w)or-ion	d(w)or-obo	d(w)or-obi, d(w)or-ūs	d(w)or-obi	#	
+vase	singular 	bakk-os	bakk-e	bakk-on	bakk-i	bakk-ū	bakk-ū	bakk-ē	#	o-stem, animate?
+vase	dual 	bakk-ō	bakk-ō	bakk-ō	bakk-ōs	bakk-obon	bakk-obin	bakk-ou	#	"lit. ""tray, large vase"""
+vase	plural	bakk-ii, bakk-oi	bakk-ūs	bakk-ūs	bakk-on(on)	bakk-obo	bakk-obi, bakk-ūs	bakk-obi	#	
+drum	singular 	tanar-os	tanar-e	tanar-on	tanar-i	tanar-ū	tanar-ū	tanar-ē	#	o-stem, animate?
+drum	dual 	tanar-ō	tanar-ō	tanar-ō	tanar-ōs	tanar-obon	tanar-obin	tanar-ou	#	
+drum	plural	tanar-ii, tanar-oi	tanar-ūs	tanar-ūs	tanar-on(on)	tanar-obo	tanar-obi, tanar-ūs	tanar-obi	#	
+window	singular 	iag-os	iag-e	iag-on	iag-i	iag-ū	iag-ū	iag-ē	#	o-stem, animate?
+window	dual 	iag-ō	iag-ō	iag-ō	iag-ōs	iag-obon	iag-obin	iag-ou	#	
+window	plural	iag-ii, iag-oi	iag-ūs	iag-ūs	iag-on(on)	iag-obo	iag-obi, iag-ūs	iag-obi	#	
+book	singular 	libr-os	libr-e	libr-on	libr-i	libr-ū	libr-ū	libr-ē	#	o-stem, animate?
+book	dual 	libr-ō	libr-ō	libr-ō	libr-ōs	libr-obon	libr-obin	libr-ou	#	
+book	plural	libr-ii, libr-oi	libr-ūs	libr-ūs	libr-on(on)	libr-obo	libr-obi, libr-ūs	libr-obi	#	
+attention	singular 	uelii-ā	uelii-a	uelii-in	uelii-iās	uelii-ī	uelii-ī, uelii-iā	uelii-ī	#	a-stem, regular
+attention	dual 	uelii-ī, uelii-ii	uelii-ī, uelii-ii	uelii-ī, uelii-ii	uelii-iōs, uelii-ious	uelii-ābon	uelii-ābin	uelii-ābin	#	
+attention	plural	uelii-ās	uelii-ās	uelii-ās	uelii-ānon	uelii-ābo	uelii-ābi	uelii-ābi	#	
+livestock	singular 	dam-os	dam-e	dam-on	dam-i	dam-ū	dam-ū	dam-ē	#	o-stem, animate
+livestock	dual 	dam-ō	dam-ō	dam-ō	dam-ōs	dam-obon	dam-obin	dam-ou	#	
+livestock	plural	dam-ii, dam-oi	dam-ūs	dam-ūs	dam-on(on)	dam-obo	dam-obi, dam-ūs	dam-obi	#	

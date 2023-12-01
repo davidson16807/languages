@@ -1,0 +1,70 @@
+*	*	*	*	case	preposition	postposition	#	
+#	subjectivity	motion	role				#	
+	subject			nominative	∅	∅	#	
+	addressee			vocative	∅	∅	#	
+	direct-object			accusative	∅	∅	#	
+	indirect-object			dative	∅	∅	#	
+	modifier	departed	agent			∅	#	
+	modifier	associated	agent			∅	#	
+	modifier	acquired	agent			∅	#	
+	modifier	leveraged	agent			∅	#	
+	modifier	departed	force			∅	#	
+	modifier	associated	force			∅	#	
+	modifier	acquired	force			∅	#	
+	modifier	leveraged	force			∅	#	
+#	modifier	departed	possessor			∅	#	
+	modifier	associated	possessor			∅	#	
+#	modifier	acquired	possessor			∅	#	
+#	modifier	leveraged	possessor			∅	#	
+	modifier	departed	location	instrumental	au	∅	#	from, away from, since
+	modifier	associated	location	accusative	are	∅	#	by, with
+	modifier	acquired	location	accusative	in	∅	#	into, to
+	modifier	leveraged	location			∅	#	
+	modifier	approached	location	accusative	ad, at	∅	#	towards
+	modifier	surpassed	location	accusative	sepu	∅	#	past, beyond
+#	modifier	departed	extent			∅	#	
+#	modifier	associated	extent			∅	#	
+#	modifier	acquired	extent	accusative	urit, uritto	∅	#	against
+#	modifier	leveraged	extent			∅	#	
+#	modifier	departed	vicinity			∅	#	
+#	modifier	associated	vicinity	accusative	ambi	∅	#	around
+#	modifier	acquired	vicinity			∅	#	
+#	modifier	leveraged	vicinity			∅	#	
+	modifier	departed	interior	accusative	extra	∅	#	outside
+	modifier	associated	interior	locative	in	∅	#	in
+	modifier	acquired	interior	accusative	entra, in	∅	#	into, inside
+	modifier	leveraged	interior	accusative	trei	∅	#	through
+	modifier	departed	surface			∅	#	
+	modifier	associated	surface	instrumental	uer	∅	#	on
+	modifier	acquired	surface	accusative	tras	∅	#	across, beyond, over
+	modifier	leveraged	surface			∅	#	
+	modifier	surpassed	surface	accusative	ux	∅	#	over
+	modifier	departed	subsurface			∅	#	
+	modifier	associated	subsurface	instrumental	uo	∅	#	under
+	modifier	acquired	subsurface			∅	#	
+	modifier	leveraged	subsurface			∅	#	
+#	modifier	departed	presence			∅	#	
+	modifier	associated	presence	accusative	are	∅	#	by, with
+#	modifier	acquired	presence	instrumental	are	∅	#	before, in front of
+	modifier	leveraged	presence			∅	#	
+#	modifier	departed	aid			∅	#	
+	modifier	associated	aid	instrumental	con	∅	#	with
+#	modifier	acquired	aid			∅	#	
+#	modifier	leveraged	aid			∅	#	
+#	modifier	departed	lack			∅	#	
+	modifier	associated	lack	accusative	cena	∅	#	without
+#	modifier	acquired	lack			∅	#	
+#	modifier	leveraged	lack			∅	#	
+#	modifier	departed	interest			∅	#	
+	modifier	associated	interest	accusative	are	∅	#	for the sake of
+#	modifier	acquired	interest			∅	#	
+	modifier	leveraged	interest			∅	#	
+	modifier	departed	time	instrumental	eron	∅	#	after
+	modifier	associated	time	accusative	samali	∅	#	as
+	modifier	acquired	time	accusative	po	∅	#	until
+	modifier	leveraged	time			∅	#	
+#	modifier	departed	topic			∅	#	
+#	modifier	associated	topic			∅	#	
+#	modifier	acquired	topic			∅	#	
+#	modifier	leveraged	topic			∅	#	
+	modifier	associated	company	accusative	ac	∅	#	along with

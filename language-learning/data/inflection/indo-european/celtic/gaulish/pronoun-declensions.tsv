@@ -1,0 +1,41 @@
+*	*	*	*	nominative	accusative	genitive	dative	instrumental	locative	#	possessive
+personal	1	singular		mī	me	mou, (ī)mon	moi, mei, mii	me	me	#	mouos, -ā, -on
+personal	1	plural		nīs	nos	anson	amē	anse	anse	#	ansonos, -ā, -on
+personal	2	singular		tū	te	tou, (ī)ton	tei, tii	te	te	#	touos, -ā, -on
+personal	2	plural		suīs	suos	sueson	umē	ume	ume	#	suesonos, -ā, -on
+personal	3	singular	feminine	sī	sian	eiās	eiī	eiī	eiī	#	
+personal	3	singular	masculine	īs	in, iin, eion	eio	emū, eiū	emū, eiū	eiū	#	
+personal	3	singular	neuter	id, idā	id, idā	eio	emū, eiū	emū, eiū	eiū	#	
+personal	3	dual	feminine	ī	ī	eiō	eiobon	eiobin	eiou	#	
+personal	3	dual	masculine	ī	ī	eiō	eiobon	eiobin	eiou	#	
+personal	3	dual	neuter	ī	ī	eiō	eiobon	eiobin	eiou	#	
+personal	3	plural	feminine	eias, iās	sies	eiānon	eiābo	eiābi	eiābi	#	
+personal	3	plural	masculine	eis, ei	eiūs, sos	eionon	eiobo	eiobi	eiobi	#	
+personal	3	plural	neuter	ī, eiā	ī, eiā	eionon	eiobo	eiobi	eiobi	#	
+demonstrative	proximal	singular	feminine	sā	sān	soiās	soiī	soiā	soiā	#	
+demonstrative	proximal	singular	masculine	so(s)	son	soio	soiū, somū	somi	soiū, somū	#	
+demonstrative	proximal	singular	neuter	so	so	soio	soiū, somū	somi	soiū, somū	#	
+demonstrative	proximal	dual	F	sī, sii	sī, sii	sāsō	sābon	sābin	sābin	#	
+demonstrative	proximal	dual	M/N	sō	sō	soisō	soibon	soibin	soibin	#	
+demonstrative	proximal	plural	feminine	sās	sās	sanom	sābo	sābi	sābi	#	
+demonstrative	proximal	plural	masculine	soi	sūs	soison	soibo	soibi	soibi	#	
+demonstrative	proximal	plural	neuter	sanā	sanā	soison	soibo	soibi	soibi	#	
+demonstrative	emphatic	singular	feminine	sosā	sosiān	sosās	sosī, sosiā	sosī, sosiā	sosī, sosiā	#	
+demonstrative	emphatic	singular	masculine	soso(s)	soson	sosi	sosiū	sosiū	sosiū	#	
+demonstrative	emphatic	singular	neuter	sosin	sosin	sosi	sosiū	sosiū	sosiū	#	
+demonstrative	emphatic	plural	feminine	sosās	sosās	sosanom	-	-	-	#	
+demonstrative	emphatic	plural	masculine	sosii	sosūs	soson	-	-	-	#	
+demonstrative	emphatic	plural	neuter	sosanā	sosanā	soson	-	-	-	#	
+demonstrative	medial	singular	feminine	sondā	sondin	sondās	sondī	sondī	sondī	#	
+demonstrative	medial	singular	masculine	sondos	sondon	sondī	sondū	sondū	sondē	#	
+demonstrative	medial	singular	neuter	sindon	sindon	sindī	sindū	sindū	sindē	#	
+demonstrative	medial	plural	feminine	sondās	sondās	sondānon	sondābo	sondābi	sondābi	#	
+demonstrative	medial	plural	masculine	sondii	sondūs	sondon	sondobo	sondobi	sondobi	#	
+demonstrative	medial	plural	neuter	sindā	sindā	sindon	sindobo	sindobi	sindobi	#	
+demonstrative	distal	singular	feminine	sindā	sindin	sindās	sindī	sindī	sindī	#	
+demonstrative	distal	singular	masculine	sindos	sindon	sindī	sindū	sindū	sindē	#	
+demonstrative	distal	singular	neuter	sin	sin	sindī	sindū	sindū	sindē	#	
+demonstrative	distal	plural	feminine	sindās	sindās	sindānon	sindābo	sindābi	sindābi	#	
+demonstrative	distal	plural	masculine	sindii	sindūs	sindon	sindobo	sindobi	sindobi	#	
+demonstrative	distal	plural	neuter	sindā	sindā	sindon	sindobo	sindobi	sindobi	#	
+											

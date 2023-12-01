@@ -1,76 +1,77 @@
-	ADJECTIVES	the							
-		big	something you are inherently, for copulatives of visibles						
-		loud	something you can be momentarily, for copulatives of audibles						
-		strong	something you can be momentarily, for copulatives of visibles						
-		well	 for nominatives of pronouns and other sapients						
-		good	 for nominatives of concepts and miscellaneous nouns						
-		bad	 for nominatives of concepts and miscellaneous nouns						
-		big	 for copulatives of visibles						
-#		angry	to clarify that agency is present, or that something is personified as having agency						
-#		falling	to clarify that something is acting as a force						
-		his	 'his attention': for demonstrating motion to/from an audible or visible that cannot be reached						
-	NOUNS (for conjugation)	attention	something that can be directed at arbitrary things	https://en.wiktionary.org/wiki/attention					
-		bird	something that can fly	https://en.wiktionary.org/wiki/bird					
-		boat	floats and sinks, steered	https://en.wiktionary.org/wiki/boat#Translations					
-		book	read and written	https://en.wiktionary.org/wiki/book/translations#Noun					
-		bug	treats most objects as surfaces in relatively good taste	https://en.wiktionary.org/wiki/bug#Translations					
-		dog	something that can be loved generically and in good taste	https://en.wiktionary.org/wiki/dog/translations#Noun					
-		door	opened and closed	https://en.wiktionary.org/wiki/door#Translations					
-		drum	beaten in good taste and makes noise	https://en.wiktionary.org/wiki/drum#Translations					
-		enemy	captures men and is captured, does bad things and is subjected to bad things without further justification	https://en.wiktionary.org/wiki/enemy#Translations					
-		fire	warms most objects	https://en.wiktionary.org/wiki/fire/translations#Noun					
-		food	eaten by virtually anything with agency, cooked	https://en.wiktionary.org/wiki/food#Translations					
-		gift	given and taken	https://en.wiktionary.org/wiki/gift#Translations					
-		glass	cleaned, broken in good taste						
-		guard	captures and releases men	https://en.wiktionary.org/wiki/guard#Translations					
-		horse	directed, ridden, and tamed	https://en.wiktionary.org/wiki/horse#Translations					
-		house	location, interior, property	https://en.wiktionary.org/wiki/house/translations#Noun					
-		love	something that motivates and alters men in good taste	https://en.wiktionary.org/wiki/love/translations#Noun					
-		idea	thought and taught	https://en.wiktionary.org/wiki/idea#Descendants					
-		man	capable of virtually everything that requires sapience	https://en.wiktionary.org/wiki/man/translations#Noun					
-		money	something that is exchanged and has value	https://en.wiktionary.org/wiki/money#Translations	https://en.wiktionary.org/wiki/coin#Translations				
-		monster	eats men in relatively (fanciful) good taste 	https://en.wiktionary.org/wiki/monster#Translations					
-		name	spoken	https://en.wiktionary.org/wiki/name#Translations					
-		rock	carried by men, thrown without further justification	https://en.wiktionary.org/wiki/rock#Translations					
-		rope	can be deformed	https://en.wiktionary.org/wiki/rope#Translations					
-		clothing	cleaned, changed, worn, chosen, preferred	https://en.wiktionary.org/wiki/clothing#Translations	https://en.wiktionary.org/wiki/shirt#Translations				
-		warmth	passes in and out of objects regardless of whether they have interiors	https://en.wiktionary.org/wiki/warmth					
-		water	drunk, swum in, cools most objects	https://en.wiktionary.org/wiki/water/translations#Noun					
-		way	shown	https://en.wiktionary.org/wiki/way#Translations					
-		wind	carries men, flown in	https://en.wiktionary.org/wiki/wind/translations#Etymology_1					
-		work	something that can be done	https://en.wiktionary.org/wiki/work#Translations					
-#		window	closed, opened, and broken in good taste	https://en.wiktionary.org/wiki/window#Translations					
-	NOUNS (for possessions)	man	for adjectives of masculine nouns						
-		woman	for adjectives of feminine nouns	https://en.wiktionary.org/wiki/woman/translations#Noun					
-		animal	for adjectives of neuter nouns	https://en.wiktionary.org/wiki/animal/translations#Noun					
-		son	for genitive and possessive pronouns of masculine possessions	https://en.wiktionary.org/wiki/son/translations#Noun					
-		daughter	for genitive and possessive pronouns of feminine possessions	https://en.wiktionary.org/wiki/daughter#Translations					
-		livestock	for genitive and possessive pronouns of neuter possessions and nonneuter possessors	https://en.wiktionary.org/wiki/livestock#Translations					
-		name	for genitive and possessive pronouns of neuter possessions and neuter possessors	https://en.wiktionary.org/wiki/name#Translations					
-		sound	for genitives of audibles	https://en.wiktionary.org/wiki/sound#Translations					
-		size	for genitives of visibles	https://en.wiktionary.org/wiki/size#Translations					
-		thought	for genitives of concepts and miscellaneous nouns, for demonstrating motion to/from a concept	https://en.wiktionary.org/wiki/%CF%86%CF%81%CE%BF%CE%BD%CF%84%CE%AF%CF%82#Ancient_Greek					
-		hello	for vocatives	https://en.wiktionary.org/wiki/hello#Translations					
-	VERBS	swim	can convey motion to/from any aquatic thing						
-		fly	can convey motion to/from any aerial thing						
-		rest	can be associated to most things without requiring motion						
-		walk	conveys motion relative to most terrestrial things						
-		climb	can be done by most small creatures (e.g. a bug) to traverse most physical things						
-		direct	can be associated with motion relative to concepts and other unreachable things						
-		work	can be done for the sake or interest of things						
-		eat	done by most things as an agent, as long as agency is possible						
-		endure	done by most things as a patient						
-		warm	can be done to most patients						
-		cool	can be done to most patients						
-		fall	done by most physical things as a force						
-		change	done by most things as a patient						
-		occupy	done by most things as a theme						
-		show	can be done to most themes						
-		see	can be done to most stimuli						
-		watch	can be done to most stimuli						
-		startle	done by most things as a stimulus						
-		displease	done by most things as a stimulus						
-		appear	done by most things as a stimulus						
-		resemble	needed for certain noun cases in certain languages						
-		be	needed for any copulative statement						
-									
+	ADJECTIVES	the									
+		big			something you are inherently, for copulatives of visibles						
+		loud			something you can be momentarily, for copulatives of audibles						
+		strong			something you can be momentarily, for copulatives of visibles						
+		well			 for nominatives of pronouns and other sapients						
+		good			 for nominatives of concepts and miscellaneous nouns						
+		bad			 for nominatives of concepts and miscellaneous nouns						
+		big			 for copulatives of visibles						
+#		angry			to clarify that agency is present, or that something is personified as having agency						
+#		falling			to clarify that something is acting as a force						
+		his			 'his attention': for demonstrating motion to/from an audible or visible that cannot be reached						
+	NOUNS (for conjugation)	attention	focus	thought	something that can be directed at arbitrary things	https://en.wiktionary.org/wiki/attention					
+		bird			something that can fly	https://en.wiktionary.org/wiki/bird					
+		boat			floats and sinks, steered	https://en.wiktionary.org/wiki/boat#Translations					
+		book			read and written	https://en.wiktionary.org/wiki/book/translations#Noun					
+		bug	insect	beetle	treats most objects as surfaces in relatively good taste	https://en.wiktionary.org/wiki/bug#Translations					
+		dog			something that can be loved generically and in good taste	https://en.wiktionary.org/wiki/dog/translations#Noun					
+		door			opened and closed	https://en.wiktionary.org/wiki/door#Translations					
+		drum			beaten in good taste and makes noise	https://en.wiktionary.org/wiki/drum#Translations					
+		enemy			captures men and is captured, does bad things and is subjected to bad things without further justification	https://en.wiktionary.org/wiki/enemy#Translations					
+		fire			warms most objects	https://en.wiktionary.org/wiki/fire/translations#Noun					
+		food			eaten by virtually anything with agency, cooked	https://en.wiktionary.org/wiki/food#Translations					
+		gift	present		given and taken	https://en.wiktionary.org/wiki/gift#Translations					
+		vase			cleaned, broken in good taste						
+		guard			captures and releases men	https://en.wiktionary.org/wiki/guard#Translations					
+		horse			directed, ridden, and tamed	https://en.wiktionary.org/wiki/horse#Translations					
+		house			location, interior, property	https://en.wiktionary.org/wiki/house/translations#Noun					
+		love			something that motivates and alters men in good taste	https://en.wiktionary.org/wiki/love/translations#Noun					
+		idea	thought		thought and taught	https://en.wiktionary.org/wiki/idea#Descendants					
+		man			capable of virtually everything that requires sapience	https://en.wiktionary.org/wiki/man/translations#Noun					
+		money	wealth		something that is exchanged and has value	https://en.wiktionary.org/wiki/money#Translations	https://en.wiktionary.org/wiki/coin#Translations				
+		monster	beast		eats men in relatively (fanciful) good taste 	https://en.wiktionary.org/wiki/monster#Translations					
+		name			spoken	https://en.wiktionary.org/wiki/name#Translations					
+		rock	stone		carried by men, thrown without further justification	https://en.wiktionary.org/wiki/rock#Translations					
+		rope			can be deformed	https://en.wiktionary.org/wiki/rope#Translations					
+		clothing	garment	shirt	cleaned, changed, worn, chosen, preferred	https://en.wiktionary.org/wiki/clothing#Translations	https://en.wiktionary.org/wiki/shirt#Translations				
+		vase	pot		broken in good taste						
+		warmth	heat		passes in and out of objects regardless of whether they have interiors	https://en.wiktionary.org/wiki/warmth					
+		water			drunk, swum in, cools most objects	https://en.wiktionary.org/wiki/water/translations#Noun					
+		way			shown	https://en.wiktionary.org/wiki/way#Translations					
+		wind			carries men, flown in	https://en.wiktionary.org/wiki/wind/translations#Etymology_1					
+		work	act		something that can be done	https://en.wiktionary.org/wiki/work#Translations					
+#		window			closed, opened, and broken in good taste	https://en.wiktionary.org/wiki/window#Translations					
+	NOUNS (for possessions)	man			for adjectives of masculine nouns						
+		woman			for adjectives of feminine nouns	https://en.wiktionary.org/wiki/woman/translations#Noun					
+		animal			for adjectives of neuter nouns	https://en.wiktionary.org/wiki/animal/translations#Noun					
+		son			for genitive and possessive pronouns of masculine possessions	https://en.wiktionary.org/wiki/son/translations#Noun					
+		daughter			for genitive and possessive pronouns of feminine possessions	https://en.wiktionary.org/wiki/daughter#Translations					
+		livestock	animal		for genitive and possessive pronouns of neuter possessions and nonneuter possessors	https://en.wiktionary.org/wiki/livestock#Translations					
+		name			for genitive and possessive pronouns of neuter possessions and neuter possessors	https://en.wiktionary.org/wiki/name#Translations					
+		sound			for genitives of audibles	https://en.wiktionary.org/wiki/sound#Translations					
+		size			for genitives of visibles	https://en.wiktionary.org/wiki/size#Translations					
+		thought	idea		for genitives of concepts and miscellaneous nouns, for demonstrating motion to/from a concept	https://en.wiktionary.org/wiki/%CF%86%CF%81%CE%BF%CE%BD%CF%84%CE%AF%CF%82#Ancient_Greek					
+		hello			for vocatives	https://en.wiktionary.org/wiki/hello#Translations					
+	VERBS	appear	arrive	come	done by most things as a stimulus	https://en.wiktionary.org/wiki/appear					
+		be			needed for any copulative statement	https://en.wiktionary.org/wiki/be/translations#Verb					
+		change			done by most things as a patient	https://en.wiktionary.org/wiki/change#Translations					
+		climb			can be done by most small creatures (e.g. a bug) to traverse most physical things	https://en.wiktionary.org/wiki/climb					
+		cool	chill		can be done to most patients	https://en.wiktionary.org/wiki/cool#Translations					
+		direct	lead		can be associated with motion relative to concepts and other unreachable things	https://en.wiktionary.org/wiki/direct#Translations					
+		displease	upset	anger	done by most things as a stimulus	https://en.wiktionary.org/wiki/displease#Translations					
+		eat			done by most things as an agent, as long as agency is possible	https://en.wiktionary.org/wiki/eat#Translations					
+		endure	suffer	persist	done by most things as a patient	https://en.wiktionary.org/wiki/endure#Translations					
+		fall			done by most physical things as a force	https://en.wiktionary.org/wiki/fall#Translations					
+		fly			can convey motion to/from any aerial thing	https://en.wiktionary.org/wiki/fly#Translations_2					
+		occupy	inhabit		done by most things as a theme	https://en.wiktionary.org/wiki/occupy					
+		resemble			needed for certain noun cases in certain languages	https://en.wiktionary.org/wiki/resemble#Translations					
+		rest			can be associated to most things without requiring motion	https://en.wiktionary.org/wiki/rest#Translations_2					
+		see			can be done to most stimuli	https://en.wiktionary.org/wiki/see#Translations					
+		show			can be done to most themes	https://en.wiktionary.org/wiki/show#Translations					
+		startle	frighten		done by most things as a stimulus	https://en.wiktionary.org/wiki/startle#Translations					
+		swim			can convey motion to/from any aquatic thing	https://en.wiktionary.org/wiki/swim					
+		walk			conveys motion relative to most terrestrial things	https://en.wiktionary.org/wiki/walk#Translations					
+		warm	heat		can be done to most patients	https://en.wiktionary.org/wiki/warm#Translations					
+		watch			can be done to most stimuli	https://en.wiktionary.org/wiki/watch#Translations					
+		work	act		can be done for the sake or interest of things	https://en.wiktionary.org/wiki/work					
+											
