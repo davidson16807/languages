@@ -132,9 +132,9 @@ class RuleSyntax:
     `RuleTrees` to perform operations on a syntax tree of rules that encapsulate 
     the syntax of a natural language, such as the structuring of clauses and noun phrases.
     """
-    def __init__(self, sentence_structure):
+    def __init__(self, sentence_structure, noun_phrase_structure):
         self.sentence_structure = sentence_structure
-        self.noun_phrase_structure = 'stock-adposition det adj n np clause'.split()
+        self.noun_phrase_structure = noun_phrase_structure
     def order_clause(self, treemap, clause):
         rules = clause.content
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
@@ -144,7 +144,7 @@ class RuleSyntax:
             subjectivity: [noun 
                 for noun in nouns 
                 if noun.tags['subjectivity'] == subjectivity]
-            for subjectivity in 'subject direct-object indirect-object verb-modifier'.split()
+            for subjectivity in 'subject direct-object indirect-object verb-modifier noun-modifier'.split()
         }
         verbs = [phrase
             for phrase in rules 

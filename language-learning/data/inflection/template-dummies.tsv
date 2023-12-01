@@ -152,6 +152,9 @@
 	verb-modifier	displease	active	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
 	verb-modifier	appear	active	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
 	verb-modifier	be	active	intransitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
+	noun-modifier	see	active	intransitive	associated-dummy	stimulus-dummy	direct-object-dummy	definite-dummy	size-dummy	#				
+	noun-modifier	hear	active	intransitive	associated-dummy	stimulus-dummy	direct-object-dummy	definite-dummy	sound-dummy	#				
+	noun-modifier	consider	active	intransitive	associated-dummy	stimulus-dummy	direct-object-dummy	definite-dummy	thought-dummy	#				
 	direct-object	swim	active	transitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				
 	direct-object	fly	active	transitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	bird-dummy	#				
 	direct-object	flow	active	transitive	associated-dummy	agent-dummy	subject-dummy	definite-dummy	man-dummy	#				

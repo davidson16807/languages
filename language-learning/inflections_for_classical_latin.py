@@ -81,7 +81,10 @@ foreign_language = Language(
             ])),
         debug=True,
     ),
-    RuleSyntax(parse_any.terms('subject verb-modifier indirect-object direct-object verb')),
+    RuleSyntax(
+        parse_any.terms('subject verb-modifier indirect-object direct-object verb'), 
+        parse_any.tokens('stock-adposition det adj n np clause')
+    ),
     {'language-type':'foreign'},
     list_tools,
     rule_tools,
@@ -100,7 +103,7 @@ foreign_termaxis_to_terms = {
         voice  :  active passive
         mood   :  indicative subjunctive imperative
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
-        subjectivity: subject addressee direct-object indirect-object verb-modifier
+        subjectivity: subject addressee direct-object indirect-object verb-modifier noun-modifier
     '''),
     **parse_any.token_to_tokens('''
         adjective:tall holy poor mean old nimble swift jovial
@@ -162,8 +165,8 @@ subjectivity_valency_whitelist = parse.termmask(
     intransitive  subject
     transitive    direct-object
     intransitive  addressee
-    transitive    verb-modifier
     intransitive  verb-modifier
+    intransitive  noun-modifier
     ''')
 
 subjectivity_motion_whitelist = parse.termmask(
@@ -178,6 +181,7 @@ subjectivity_motion_whitelist = parse.termmask(
     verb-modifier      departed
 #    verb-modifier      surpassed
 #    verb-modifier      leveraged
+    noun-modifier associated
     ''')
 
 subjectivity_person_blacklist = parse.termmask(

@@ -4,7 +4,6 @@
 	transitive	addressee	np test [np common n hello] [np declined]	#
 	intransitive	subject	clause [test [np declined] [vp v verb]]	#
 	transitive	subject	clause [test [np declined] [vp v verb]] [dummy direct-object np declined]	#
-	intransitive	direct-object	clause [dummy agent subject [np n] [vp v verb]] [test np declined]	"#	"
-	transitive	direct-object	clause [dummy agent subject [np n] [vp v verb]] [test np declined]	#
-	intransitive	verb-modifier	clause [dummy agent subject [np n] [vp v verb]] [test np [stock-adposition] declined]	#
-	transitive	verb-modifier	clause [dummy agent subject [np n] [vp v verb]] [test np [stock-adposition] declined]	#
+	transitive	direct-object	clause [dummy [np n] [vp v verb]] [test np declined]	#
+	intransitive	verb-modifier	clause [dummy [np n] [vp v verb]] [test np [stock-adposition] declined]	#
+	intransitive	noun-modifier	clause [dummy experiencer subject [np n man] [vp v verb]] [dummy np [test np [stock-adposition] declined] n]	#

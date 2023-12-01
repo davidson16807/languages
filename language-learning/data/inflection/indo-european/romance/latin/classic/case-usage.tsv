@@ -4,6 +4,7 @@
 	addressee			vocative	∅	∅					
 	direct-object			accusative	∅	∅					
 	indirect-object			dative	∅	∅					
+	noun-modifier	associated	possessor	genitive	∅	∅					
 	verb-modifier	departed	agent	ablative	ab	∅					
 	verb-modifier	associated	agent	ablative	ab	∅					
 	verb-modifier	acquired	agent	ablative	ab	∅					
@@ -12,10 +13,6 @@
 	verb-modifier	associated	force	ablative	ab	∅					
 	verb-modifier	acquired	force	ablative	ab	∅					
 	verb-modifier	leveraged	force	ablative	ab	∅					
-#	verb-modifier	departed	possessor	genitive	∅	∅					
-	verb-modifier	associated	possessor	genitive	∅	∅					
-#	verb-modifier	acquired	possessor	genitive	∅	∅					
-#	verb-modifier	leveraged	possessor	genitive	∅	∅					
 	verb-modifier	departed	location	ablative	ab	∅					
 	verb-modifier	associated	location	accusative	apud	∅					
 	verb-modifier	acquired	location	accusative	ad	∅					

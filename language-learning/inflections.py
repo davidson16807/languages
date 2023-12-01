@@ -84,7 +84,7 @@ case_episemaxis_to_episemes = {
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'subjectivity': 'addressee subject direct-object indirect-object verb-modifier verb'.split(),
+    'subjectivity': 'addressee subject direct-object indirect-object verb-modifier noun-modifier verb'.split(),
     'motion':  'departed associated acquired approached surpassed leveraged'.split(),
     'valency': 'impersonal intransitive transitive'.split(),
 }
@@ -937,7 +937,10 @@ english_language = Language(
         ),
         # debug=True,
     ),
-    RuleSyntax(parse_any.terms('subject verb direct-object indirect-object verb-modifier')),
+    RuleSyntax(
+        parse_any.terms('subject verb direct-object indirect-object verb-modifier'),
+        parse_any.tokens('stock-adposition det adj n np clause')
+    ),
     {'language-type':'native'},
     list_tools,
     rule_tools,

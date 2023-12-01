@@ -1027,7 +1027,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 	)
 )
 
-
+"""
 write('data/inflection/indo-european/indo-iranian/hindi/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Hindi', 'hi'), 
@@ -1059,6 +1059,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-verbs.tsv',
 		)
 	)
 )
+"""
 
 #TODO: Hittite needs its own custom format that does not rely on language code
 print('HITTITE')
@@ -2248,7 +2249,7 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 				vase      
 				warmth    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%CA%B0%C3%A9ros
 				water     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9k%CA%B7eh%E2%82%82
-				way       hthttps://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9ytr%CC%A5
+				way       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9ytr%CC%A5
 				wind      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82w%C3%A9h%E2%82%81n%CC%A5ts
 				window    
 				woman     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%E1%B8%97n

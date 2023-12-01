@@ -4,6 +4,7 @@
 	addressee			oblique	∅	∅
 	direct-object			oblique	∅	∅
 	indirect-object			oblique	∅	∅
+	noun-modifier		possessor	oblique	of	∅
 	verb-modifier	departed	agent	oblique	by	∅
 	verb-modifier	associated	agent	oblique	by	∅
 	verb-modifier	acquired	agent	oblique	by	∅
