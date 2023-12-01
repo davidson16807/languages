@@ -37,6 +37,7 @@ class DictLookup:
         Return the value that is indexed by `dictkey` 
         if it is the only such value, otherwise return None.
         '''
+        assert type(dictkey) in {tuple, str, dict}
         if type(dictkey) in {tuple,str}:
             return self.content[dictkey]
         else:
@@ -69,6 +70,7 @@ class DictLookup:
         '''
         Store `value` within the indices represented by `dictkey`.
         '''
+        assert type(dictkey) in {tuple, str, dict}
         if type(dictkey) in {tuple,str}:
             return self.content[dictkey]
         else:
@@ -104,6 +106,7 @@ class DictLookup:
              if inpoint in self])
         return composition
     def __contains__(self, dictkey):
+        assert type(dictkey) in {tuple, str, dict}
         if type(dictkey) in {tuple,str}:
             return dictkey in self.content
         else:
@@ -245,6 +248,7 @@ class DictSet:
         self.indexing = indexing
         self.content = set([indexing.tuplekey(entry) for entry in content])
     def __contains__(self, key):
+        assert type(key) in {tuple, str, dict}
         return self.indexing.tuplekey(key) in self.content
     def __str__(self):
         cell_width = 13
@@ -302,6 +306,7 @@ class DictSpace:
             *[f'{key:10}:{values}' for (key,values) in self.key_to_values.items()],
         ])
     def __contains__(self, dictkey):
+        assert type(dictkey) in {dict}
         return all([
             key in dictkey and dictkey[key] in values
             for (key,values) in self.key_to_values.items()])
@@ -435,6 +440,7 @@ class DefaultDictLookup:
         Return the value that is indexed by `key` 
         if it is the only such value, otherwise return None.
         '''
+        assert type(key) in {tuple, str, dict}
         if type(key) in {tuple, str}:
             if key in self.content:
                 return self.content[key]
@@ -462,6 +468,7 @@ class DefaultDictLookup:
         '''
         Store `value` within the indices represented by `key`.
         '''
+        assert type(key) in {tuple, str, dict}
         if type(key) in {tuple, str}:
             self.content[key] = value
         else:
@@ -480,6 +487,7 @@ class DefaultDictLookup:
                 else:
                     self.content[tuplekey] = value
     def __contains__(self, key):
+        assert type(key) in {tuple, str, dict}
         if type(key) in {tuple,str}:
             return key in self.content
         else:
@@ -500,8 +508,10 @@ class NestedDictLookup:
     def __init__(self, dict_lookups):
         self.dict_lookups = dict_lookups
     def __getitem__(self, key):
+        assert type(key) in {tuple, str, dict}
         return self.dict_lookups[key][key]
     def __setitem__(self, key, value):
+        assert type(key) in {tuple, str, dict}
         self.dict_lookups[key][key] = value
     def __contains__(self, key):
         return key in self.dict_lookups and key in self.dict_lookups[key]
@@ -514,6 +524,7 @@ class FallbackDictLookup:
         self.main = main
         self.fallback = fallback
     def __getitem__(self, key):
+        assert type(key) in {tuple, str, dict}
         if key in self.main:
             return self.main[key]
         else:
@@ -521,8 +532,10 @@ class FallbackDictLookup:
             self.main[key] = value
             return value
     def __setitem__(self, key, value):
+        assert type(key) in {tuple, str, dict}
         self.main[key] = value
     def __contains__(self, key):
+        assert type(key) in {tuple, str, dict}
         return True
 
 class UniformDictLookup:
@@ -532,8 +545,10 @@ class UniformDictLookup:
     def __init__(self, constant):
         self.constant = constant
     def __getitem__(self, key):
+        assert type(key) in {tuple, str, dict}
         return self.constant
     def __contains__(self, key):
+        assert type(key) in {tuple, str, dict}
         return True
     def __iter__(self):
         return [self.constant].__iter__()
@@ -545,6 +560,8 @@ class ProceduralLookup:
     def __init__(self, get):
         self.get = get
     def __getitem__(self, key):
+        assert type(key) in {tuple, str, dict}
         return self.get(key)
     def __contains__(self, key):
+        assert type(key) in {tuple, str, dict}
         return True
