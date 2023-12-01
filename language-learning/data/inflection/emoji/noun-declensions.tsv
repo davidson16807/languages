@@ -2,94 +2,94 @@
 	addressee			👋	#										
 	subject			\actor \argument	#										
 	direct-object			\actor \argument	#										
-	modifier	departed	possessor	\group{←\possession \r{\argument}}	#	of									
-	modifier	associated	possessor	\group{\possession \r{\argument}}	#	of									
-	modifier	approached	possessor	\group{\mirror{←\possession} \r{\argument}}	#	of									
-	modifier	acquired	possessor	\group{\mirror{\possession←} \r{\argument}}	#	of									
-	modifier	surpassed	possessor	\group{\mirror{\possession←} \r{\argument} \mirror{←}}	#	of									
-	modifier	leveraged	possessor	\group{\mirror{\possession←} \r{\argument} \mirror{←}}	#	of									
-	modifier	departed	location	←\actor \argument	#	away from									
-	modifier	associated	location	\group{\actor \r{\argument}}	#	by									
-	modifier	approached	location	\mirror{←\actor}\argument	#	to									
-	modifier	acquired	location	\mirror{\actor←}\argument	#	to									
-	modifier	surpassed	location	\mirror{←}\argument\mirror{←\actor}	#	to									
-	modifier	leveraged	location	←\group{\actor \r{\argument↙}}	#	via									
-	modifier	departed	extent	←\actor \argument	#	starting from									
-	modifier	associated	extent	\group{\actor \r{\argument}}	#	beside									
-	modifier	approached	extent	\mirror{←\actor}\argument	#	up to									
-	modifier	acquired	extent	\mirror{\actor←}\argument	#	up to									
-	modifier	surpassed	extent	\mirror{←}\argument\mirror{←\actor}	#	up to									
-	modifier	leveraged	extent	←\group{\actor \r{\argument↙}}	#	along									
-	modifier	departed	vicinity	←\actor \argument	#	from around									
-	modifier	associated	vicinity	\group{\actor \r{\argument}}	#	by									
-	modifier	approached	vicinity	\mirror{←\actor}\argument	#	to around									
-	modifier	acquired	vicinity	\mirror{\actor←}\argument	#	to around									
-	modifier	surpassed	vicinity	\mirror{←}\argument\mirror{←\actor}	#	to around									
-	modifier	leveraged	vicinity	←\group{\actor \r{\argument↙}}	#	via									
-	modifier	departed	interior	\group{\inllo{←\actor}\large{\argument}}	#	out of									
-	modifier	associated	interior	\group{\inllo{\actor}\large{\argument}}	#	in									
-	modifier	approached	interior	\group{\large{\argument}\inrlo{←\actor}}	#	into									
-	modifier	acquired	interior	\group{\large{\argument}\inrlo{\actor←}}	#	into									
-	modifier	surpassed	interior	\group{\inllo{←\actor}\large{\argument}\inrlo{←}}	#	into									
-	modifier	leveraged	interior	\group{\inllo{←}\large{\argument}\inrlo{\actor←}}	#	through									
-	modifier	departed	surface	\group{\inlhi{↙\actor}\large{\argument}}	#	off of									
-	modifier	associated	surface	\group{\inlhi{\actor}\large{\argument}}	#	on									
-	modifier	approached	surface	\group{\large{\argument}\inrhi{↖\actor}}	#	onto									
-	modifier	acquired	surface	\group{\large{\argument}\inrhi{\actor↖}}	#	onto									
-	modifier	surpassed	surface	\group{\inlhi{\actor↙}\large{\argument}\inrhi{↖}}	#	onto									
-	modifier	leveraged	surface	\group{\inlhi{↖\actor}\large{\argument}\inrhi{↖}}	#	over									
-	modifier	departed	presence	\box{\argument}→\box{\actor}	#	[due to the presence of]									
-	modifier	associated	presence	\group{\actor\r{\argument}}	#	[in the presence of]									
-	modifier	approached	presence	\actor←\argument	#	[to draw in]									
-	modifier	acquired	presence	\actor←\argument	#	[to draw in]									
-	modifier	surpassed	presence	\actor←\argument	#	[to draw in]									
-	modifier	leveraged	presence	\group{\actor\r{\argument}}	#	[by using the presence of]									
-	modifier	departed	aid	\group{\actor\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[thanks to the aid of]									
-	modifier	associated	aid	\group{\actor\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[with the aid of]									
-	modifier	approached	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\actor\r{\group{\argument}}}	#	[to the aid of]									
-	modifier	acquired	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\actor\r{\group{\argument}}}	#	[to the aid of]									
-	modifier	surpassed	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\actor\r{\group{\argument}}}	#	[to the aid of]									
-	modifier	leveraged	aid	\group{\actor\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[by using the aid of ]									
-	modifier	departed	lack	\forbiddenbox{\argument}→\box{\actor}	#	[for want of]									
-	modifier	associated	lack	\group{\actor\r{\forbiddenbox{\argument}}}	#	[in the absence of]									
-	modifier	approached	lack	\box{\actor}→\forbiddenbox{\argument}	#	[to avoid]									
-	modifier	acquired	lack	\box{\actor}→\forbiddenbox{\argument}	#	[to avoid]									
-	modifier	surpassed	lack	\box{\actor}→\forbiddenbox{\argument}	#	[to avoid]									
-	modifier	leveraged	lack	\group{\actor\r{\forbiddenbox{\argument}}}	#	[by taking advantage of the lack of]									
-	modifier	departed	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[out of the interest of]									
-	modifier	associated	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[in the interest of]									
-	modifier	approached	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[for the sake of]									
-	modifier	acquired	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[for the sake of]									
-	modifier	surpassed	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[for the sake of]									
-	modifier	leveraged	interest	\group{\mirror{\lhi{💬}}\actor\r{\group{\argument\rhi{❤️}}}}	#	[by appealing to the interest of]									
-	modifier	departed	possession	\group{←\actor\r{\argument}}	#	from [the possession of]									
-	modifier	associated	possession	\group{\actor\r{\argument}}	#	[in the possession of]									
-	modifier	approached	possession	\group{\mirror{←\actor}\r{\argument}}	#	to [the possession of]									
-	modifier	acquired	possession	\group{\mirror{←\actor}\r{\argument}}	#	to [the possession of]									
-	modifier	surpassed	possession	\group{\mirror{←\actor}\r{\argument}}	#	to [the possession of]									
-	modifier	leveraged	possession	\group{\actor\r{\argument}}	#	[due to the possession of]									
-	modifier	departed	time	\group{\large{\argument}\actor→}	#	after									
-	modifier	associated	time	\group{\large{\inllo{\actor}\argument}}	#	during									
-	modifier	approached	time	\group{\actor→\large{\argument}}	#	until									
-	modifier	acquired	time	\group{\actor→\large{\argument}}	#	until									
-	modifier	surpassed	time	\group{\actor→\large{\argument}}	#	until									
-	modifier	leveraged	time	\group{\large{\inllo{\actor}\argument}}	#	by [making use of]									
-	modifier	departed	state-of-being	\box{\argument}→\actor	#	from having been									
-	modifier	associated	state-of-being	\argument	#	as a									
-	modifier	approached	state-of-being	\actor→\box{\argument}	#	in order to be									
-	modifier	acquired	state-of-being	\actor→\box{\argument}	#	in order to be									
-	modifier	surpassed	state-of-being	\actor→\box{\argument}	#	in order to be									
-	modifier	leveraged	state-of-being	\box{\argument}→\actor	#	due to having been									
-	modifier	departed	topic	\argument\mirror{\group{\actor\inrmid{↺}}\r{💬}}	#	away from [the topic of]									
-	modifier	associated	topic	\argument\group{\mirror{\actor}\r{💬}}	#	on [the topic of]									
-	modifier	approached	topic	\argument\group{\actor\inrmid{↺}\r{💬}}	#	to [the topic of]									
-	modifier	acquired	topic	\argument\group{\actor\inrmid{↺}\r{💬}}	#	to [the topic of]									
-	modifier	surpassed	topic	\argument\group{\actor\inrmid{↺}\r{💬}}	#	to [the topic of]									
-	modifier	leveraged	topic	\argument\group{💁\c3\m\r{💬}}	#	by using [the topic of]									
-	modifier	departed	company	\group{←\actor\r{←\argument}}	#	out of the compnay of									
-	modifier	associated	company	\group{←\actor\r{←\argument}}	#	alongside									
-	modifier	approached	company	\group{←\actor\r{←\argument}}	#	to the company of									
-	modifier	acquired	company	\group{←\actor\r{←\argument}}	#	leveraging the company of									
-	modifier	surpassed	company	\group{←\actor\r{←\argument}}	#	leveraging the company of									
-	modifier	leveraged	company	\group{←\actor\r{←\argument}}	#	leveraging the company of									
-	modifier	associated	resemblance	\actor≈\argument	#	like									
+	verb-modifier	departed	possessor	\group{←\possession \r{\argument}}	#	of									
+	verb-modifier	associated	possessor	\group{\possession \r{\argument}}	#	of									
+	verb-modifier	approached	possessor	\group{\mirror{←\possession} \r{\argument}}	#	of									
+	verb-modifier	acquired	possessor	\group{\mirror{\possession←} \r{\argument}}	#	of									
+	verb-modifier	surpassed	possessor	\group{\mirror{\possession←} \r{\argument} \mirror{←}}	#	of									
+	verb-modifier	leveraged	possessor	\group{\mirror{\possession←} \r{\argument} \mirror{←}}	#	of									
+	verb-modifier	departed	location	←\actor \argument	#	away from									
+	verb-modifier	associated	location	\group{\actor \r{\argument}}	#	by									
+	verb-modifier	approached	location	\mirror{←\actor}\argument	#	to									
+	verb-modifier	acquired	location	\mirror{\actor←}\argument	#	to									
+	verb-modifier	surpassed	location	\mirror{←}\argument\mirror{←\actor}	#	to									
+	verb-modifier	leveraged	location	←\group{\actor \r{\argument↙}}	#	via									
+	verb-modifier	departed	extent	←\actor \argument	#	starting from									
+	verb-modifier	associated	extent	\group{\actor \r{\argument}}	#	beside									
+	verb-modifier	approached	extent	\mirror{←\actor}\argument	#	up to									
+	verb-modifier	acquired	extent	\mirror{\actor←}\argument	#	up to									
+	verb-modifier	surpassed	extent	\mirror{←}\argument\mirror{←\actor}	#	up to									
+	verb-modifier	leveraged	extent	←\group{\actor \r{\argument↙}}	#	along									
+	verb-modifier	departed	vicinity	←\actor \argument	#	from around									
+	verb-modifier	associated	vicinity	\group{\actor \r{\argument}}	#	by									
+	verb-modifier	approached	vicinity	\mirror{←\actor}\argument	#	to around									
+	verb-modifier	acquired	vicinity	\mirror{\actor←}\argument	#	to around									
+	verb-modifier	surpassed	vicinity	\mirror{←}\argument\mirror{←\actor}	#	to around									
+	verb-modifier	leveraged	vicinity	←\group{\actor \r{\argument↙}}	#	via									
+	verb-modifier	departed	interior	\group{\inllo{←\actor}\large{\argument}}	#	out of									
+	verb-modifier	associated	interior	\group{\inllo{\actor}\large{\argument}}	#	in									
+	verb-modifier	approached	interior	\group{\large{\argument}\inrlo{←\actor}}	#	into									
+	verb-modifier	acquired	interior	\group{\large{\argument}\inrlo{\actor←}}	#	into									
+	verb-modifier	surpassed	interior	\group{\inllo{←\actor}\large{\argument}\inrlo{←}}	#	into									
+	verb-modifier	leveraged	interior	\group{\inllo{←}\large{\argument}\inrlo{\actor←}}	#	through									
+	verb-modifier	departed	surface	\group{\inlhi{↙\actor}\large{\argument}}	#	off of									
+	verb-modifier	associated	surface	\group{\inlhi{\actor}\large{\argument}}	#	on									
+	verb-modifier	approached	surface	\group{\large{\argument}\inrhi{↖\actor}}	#	onto									
+	verb-modifier	acquired	surface	\group{\large{\argument}\inrhi{\actor↖}}	#	onto									
+	verb-modifier	surpassed	surface	\group{\inlhi{\actor↙}\large{\argument}\inrhi{↖}}	#	onto									
+	verb-modifier	leveraged	surface	\group{\inlhi{↖\actor}\large{\argument}\inrhi{↖}}	#	over									
+	verb-modifier	departed	presence	\box{\argument}→\box{\actor}	#	[due to the presence of]									
+	verb-modifier	associated	presence	\group{\actor\r{\argument}}	#	[in the presence of]									
+	verb-modifier	approached	presence	\actor←\argument	#	[to draw in]									
+	verb-modifier	acquired	presence	\actor←\argument	#	[to draw in]									
+	verb-modifier	surpassed	presence	\actor←\argument	#	[to draw in]									
+	verb-modifier	leveraged	presence	\group{\actor\r{\argument}}	#	[by using the presence of]									
+	verb-modifier	departed	aid	\group{\actor\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[thanks to the aid of]									
+	verb-modifier	associated	aid	\group{\actor\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[with the aid of]									
+	verb-modifier	approached	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\actor\r{\group{\argument}}}	#	[to the aid of]									
+	verb-modifier	acquired	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\actor\r{\group{\argument}}}	#	[to the aid of]									
+	verb-modifier	surpassed	aid	\group{\lhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}\actor\r{\group{\argument}}}	#	[to the aid of]									
+	verb-modifier	leveraged	aid	\group{\actor\r{\group{\argument\rhi{<span style='filter: brightness(2) sepia(1) contrast(3) hue-rotate(60deg) ;'>➕</span>}}}}	#	[by using the aid of ]									
+	verb-modifier	departed	lack	\forbiddenbox{\argument}→\box{\actor}	#	[for want of]									
+	verb-modifier	associated	lack	\group{\actor\r{\forbiddenbox{\argument}}}	#	[in the absence of]									
+	verb-modifier	approached	lack	\box{\actor}→\forbiddenbox{\argument}	#	[to avoid]									
+	verb-modifier	acquired	lack	\box{\actor}→\forbiddenbox{\argument}	#	[to avoid]									
+	verb-modifier	surpassed	lack	\box{\actor}→\forbiddenbox{\argument}	#	[to avoid]									
+	verb-modifier	leveraged	lack	\group{\actor\r{\forbiddenbox{\argument}}}	#	[by taking advantage of the lack of]									
+	verb-modifier	departed	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[out of the interest of]									
+	verb-modifier	associated	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[in the interest of]									
+	verb-modifier	approached	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[for the sake of]									
+	verb-modifier	acquired	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[for the sake of]									
+	verb-modifier	surpassed	interest	\group{\lhi{❤️}\actor\r{\argument}}	#	[for the sake of]									
+	verb-modifier	leveraged	interest	\group{\mirror{\lhi{💬}}\actor\r{\group{\argument\rhi{❤️}}}}	#	[by appealing to the interest of]									
+	verb-modifier	departed	possession	\group{←\actor\r{\argument}}	#	from [the possession of]									
+	verb-modifier	associated	possession	\group{\actor\r{\argument}}	#	[in the possession of]									
+	verb-modifier	approached	possession	\group{\mirror{←\actor}\r{\argument}}	#	to [the possession of]									
+	verb-modifier	acquired	possession	\group{\mirror{←\actor}\r{\argument}}	#	to [the possession of]									
+	verb-modifier	surpassed	possession	\group{\mirror{←\actor}\r{\argument}}	#	to [the possession of]									
+	verb-modifier	leveraged	possession	\group{\actor\r{\argument}}	#	[due to the possession of]									
+	verb-modifier	departed	time	\group{\large{\argument}\actor→}	#	after									
+	verb-modifier	associated	time	\group{\large{\inllo{\actor}\argument}}	#	during									
+	verb-modifier	approached	time	\group{\actor→\large{\argument}}	#	until									
+	verb-modifier	acquired	time	\group{\actor→\large{\argument}}	#	until									
+	verb-modifier	surpassed	time	\group{\actor→\large{\argument}}	#	until									
+	verb-modifier	leveraged	time	\group{\large{\inllo{\actor}\argument}}	#	by [making use of]									
+	verb-modifier	departed	state-of-being	\box{\argument}→\actor	#	from having been									
+	verb-modifier	associated	state-of-being	\argument	#	as a									
+	verb-modifier	approached	state-of-being	\actor→\box{\argument}	#	in order to be									
+	verb-modifier	acquired	state-of-being	\actor→\box{\argument}	#	in order to be									
+	verb-modifier	surpassed	state-of-being	\actor→\box{\argument}	#	in order to be									
+	verb-modifier	leveraged	state-of-being	\box{\argument}→\actor	#	due to having been									
+	verb-modifier	departed	topic	\argument\mirror{\group{\actor\inrmid{↺}}\r{💬}}	#	away from [the topic of]									
+	verb-modifier	associated	topic	\argument\group{\mirror{\actor}\r{💬}}	#	on [the topic of]									
+	verb-modifier	approached	topic	\argument\group{\actor\inrmid{↺}\r{💬}}	#	to [the topic of]									
+	verb-modifier	acquired	topic	\argument\group{\actor\inrmid{↺}\r{💬}}	#	to [the topic of]									
+	verb-modifier	surpassed	topic	\argument\group{\actor\inrmid{↺}\r{💬}}	#	to [the topic of]									
+	verb-modifier	leveraged	topic	\argument\group{💁\c3\m\r{💬}}	#	by using [the topic of]									
+	verb-modifier	departed	company	\group{←\actor\r{←\argument}}	#	out of the compnay of									
+	verb-modifier	associated	company	\group{←\actor\r{←\argument}}	#	alongside									
+	verb-modifier	approached	company	\group{←\actor\r{←\argument}}	#	to the company of									
+	verb-modifier	acquired	company	\group{←\actor\r{←\argument}}	#	leveraging the company of									
+	verb-modifier	surpassed	company	\group{←\actor\r{←\argument}}	#	leveraging the company of									
+	verb-modifier	leveraged	company	\group{←\actor\r{←\argument}}	#	leveraging the company of									
+	verb-modifier	associated	resemblance	\actor≈\argument	#	like									

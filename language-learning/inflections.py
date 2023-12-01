@@ -59,7 +59,7 @@ case_episemaxis_to_episemes = {
     #   Each language has a unique map from a semantic case to grammatical case, 
     #    and it is grammatical case that language learners are typically most familiar with (e.g. nominative, ablative, etc.)
     #   A language's map from semantic case to grammatical case is known as its "case usage".
-    #   Semantic roles are also categorized into "macroroles" (i.e. subject, direct-object, indirect-object, modifier) 
+    #   Semantic roles are also categorized into "macroroles" (i.e. subject, direct-object, indirect-object, verb-modifier) 
     #    and it is the macrorole that determines how noun phrases should be ordered within a clause.
     #   See README.txt and GLOSSARY.tsv for more information on these and related terms.
     'role': [
@@ -84,7 +84,7 @@ case_episemaxis_to_episemes = {
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'subjectivity': 'addressee subject direct-object indirect-object modifier verb'.split(),
+    'subjectivity': 'addressee subject direct-object indirect-object verb-modifier verb'.split(),
     'motion':  'departed associated acquired approached surpassed leveraged'.split(),
     'valency': 'impersonal intransitive transitive'.split(),
 }
@@ -937,7 +937,7 @@ english_language = Language(
         ),
         # debug=True,
     ),
-    RuleSyntax(parse_any.terms('subject verb direct-object indirect-object modifier')),
+    RuleSyntax(parse_any.terms('subject verb direct-object indirect-object verb-modifier')),
     {'language-type':'native'},
     list_tools,
     rule_tools,

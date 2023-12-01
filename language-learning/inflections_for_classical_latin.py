@@ -81,7 +81,7 @@ foreign_language = Language(
             ])),
         debug=True,
     ),
-    RuleSyntax(parse_any.terms('subject modifier indirect-object direct-object verb')),
+    RuleSyntax(parse_any.terms('subject verb-modifier indirect-object direct-object verb')),
     {'language-type':'foreign'},
     list_tools,
     rule_tools,
@@ -100,7 +100,7 @@ foreign_termaxis_to_terms = {
         voice  :  active passive
         mood   :  indicative subjunctive imperative
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
-        subjectivity: subject addressee direct-object indirect-object modifier
+        subjectivity: subject addressee direct-object indirect-object verb-modifier
     '''),
     **parse_any.token_to_tokens('''
         adjective:tall holy poor mean old nimble swift jovial
@@ -152,7 +152,7 @@ subjectivity_role_blacklist = parse.termmask(
     'subjectivity_role_blacklist', 
     'subjectivity role',
     '''
-    modifier      stimulus
+    verb-modifier      stimulus
     ''')
 
 subjectivity_valency_whitelist = parse.termmask(
@@ -162,8 +162,8 @@ subjectivity_valency_whitelist = parse.termmask(
     intransitive  subject
     transitive    direct-object
     intransitive  addressee
-    transitive    modifier
-    intransitive  modifier
+    transitive    verb-modifier
+    intransitive  verb-modifier
     ''')
 
 subjectivity_motion_whitelist = parse.termmask(
@@ -173,11 +173,11 @@ subjectivity_motion_whitelist = parse.termmask(
     addressee     associated
     subject       associated
     direct-object associated
-    modifier      acquired
-    modifier      associated
-    modifier      departed
-#    modifier      surpassed
-#    modifier      leveraged
+    verb-modifier      acquired
+    verb-modifier      associated
+    verb-modifier      departed
+#    verb-modifier      surpassed
+#    verb-modifier      leveraged
     ''')
 
 subjectivity_person_blacklist = parse.termmask(
@@ -490,11 +490,11 @@ write('flashcards/latin/nonfinite-conjugation.html',
             emoji_demonstration.generator(),
             foreign_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [vp v figure]] [modifier np clause [test infinitive [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]]',)
+                    'clause [speaker finite [vp v figure]] [verb-modifier np clause [test infinitive [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]]',)
             ),
             english_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'modifier clause [speaker finite [np n] [vp v figure]] [modifier np clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]] ',)
+                    'verb-modifier clause [speaker finite [np n] [vp v figure]] [verb-modifier np clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]] ',)
             ),
         ],
         defaults.override(
@@ -544,7 +544,7 @@ write('flashcards/latin/adpositions.html',
         ) for demonstration in demonstrations],
         defaults.override(
             (declension_noun_traversal * constant['man'])
-            & constant['modifier']
+            & constant['verb-modifier']
             & noun_template_whitelist
         ),
         tag_templates ={

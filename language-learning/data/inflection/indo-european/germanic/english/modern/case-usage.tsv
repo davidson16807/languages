@@ -4,128 +4,128 @@
 	addressee			oblique	∅	∅
 	direct-object			oblique	∅	∅
 	indirect-object			oblique	∅	∅
-	modifier	departed	agent	oblique	by	∅
-	modifier	associated	agent	oblique	by	∅
-	modifier	acquired	agent	oblique	by	∅
-	modifier	approached	agent	oblique	by	∅
-	modifier	surpassed	agent	oblique	by	∅
-	modifier	leveraged	agent	oblique	by	∅
-	modifier	departed	force	oblique	by	∅
-	modifier	associated	force	oblique	by	∅
-	modifier	acquired	force	oblique	by	∅
-	modifier	approached	force	oblique	by	∅
-	modifier	surpassed	force	oblique	by	∅
-	modifier	leveraged	force	oblique	by	∅
-	modifier	departed	possessor	oblique	from [the possession of]	∅
-	modifier	associated	possessor	oblique	of	∅
-	modifier	acquired	possessor	oblique	to [the possession of]	∅
-	modifier	approached	possessor	oblique	towards [the possession of]	∅
-	modifier	surpassed	possessor	oblique	beyond [the possession of]	∅
-	modifier	leveraged	possessor	oblique	[due to the possession of]	∅
-	modifier	departed	location	oblique	away from	∅
-	modifier	associated	location	oblique	by	∅
-	modifier	acquired	location	oblique	to	∅
-	modifier	approached	location	oblique	towards	∅
-	modifier	surpassed	location	oblique	past	∅
-	modifier	leveraged	location	oblique	along	∅
-	modifier	departed	extent	oblique	starting from	∅
-	modifier	associated	extent	oblique	beside	∅
-	modifier	acquired	extent	oblique	up to	∅
-	modifier	approached	extent	oblique	towards [the edge of]	∅
-	modifier	surpassed	extent	oblique	past [the edge of]	∅
-	modifier	leveraged	extent	oblique	along [the edges of]	∅
-	modifier	departed	vicinity	oblique	from around	∅
-	modifier	associated	vicinity	oblique	by	∅
-	modifier	acquired	vicinity	oblique	to around	∅
-	modifier	approached	vicinity	oblique	towards [the vicinity of]	∅
-	modifier	surpassed	vicinity	oblique	past [the vicinity of]	∅
-	modifier	leveraged	vicinity	oblique	via	∅
-	modifier	departed	interior	oblique	out of	∅
-	modifier	associated	interior	oblique	in	∅
-	modifier	acquired	interior	oblique	into	∅
-	modifier	approached	interior	oblique	towards [the inside of]	∅
-	modifier	surpassed	interior	oblique	past [the inside of]	∅
-	modifier	leveraged	interior	oblique	through	∅
-	modifier	departed	medium	oblique	out of [the mass of]	∅
-	modifier	associated	medium	oblique	in [the mass of]	∅
-	modifier	acquired	medium	oblique	into [the mass of]	∅
-	modifier	approached	medium	oblique	towards [the mass of]	∅
-	modifier	surpassed	medium	oblique	past [the mass of]	∅
-	modifier	leveraged	medium	oblique	through [the mass of]	∅
-	modifier	departed	side	oblique	from against	∅
-	modifier	associated	side	oblique	against	∅
-	modifier	acquired	side	oblique	up against	∅
-	modifier	approached	side	oblique	towards [the side of]	∅
-	modifier	surpassed	side	oblique	past [the side of]	∅
-	modifier	leveraged	side	oblique	along [the side of]	∅
-	modifier	departed	surface	oblique	off of	∅
-	modifier	associated	surface	oblique	on	∅
-	modifier	acquired	surface	oblique	onto	∅
-	modifier	approached	surface	oblique	towards [the surface of]	∅
-	modifier	surpassed	surface	oblique	past [the surface of]	∅
-	modifier	leveraged	surface	oblique	over	∅
-	modifier	departed	subsurface	oblique	out from under	∅
-	modifier	associated	subsurface	oblique	under	∅
-	modifier	acquired	subsurface	oblique	in under	∅
-	modifier	approached	subsurface	oblique	towards under	∅
-	modifier	surpassed	subsurface	oblique	past under	∅
-	modifier	leveraged	subsurface	oblique	through under	∅
-	modifier	departed	presence	oblique	[due to the presence of]	∅
-	modifier	associated	presence	oblique	[in the presence of]	∅
-	modifier	acquired	presence	oblique	[to draw in]	∅
-	modifier	approached	presence	oblique	towards [the presence of]	∅
-	modifier	surpassed	presence	oblique	beyond [the presence of]	∅
-	modifier	leveraged	presence	oblique	by using [the presence of]	∅
-	modifier	departed	lack	oblique	[for want of]	∅
-	modifier	associated	lack	oblique	[in the absence of]	∅
-	modifier	acquired	lack	oblique	[to avoid]	∅
-	modifier	approached	lack	oblique	towards [a lack of]	∅
-	modifier	surpassed	lack	oblique	beyond [a lack of]	∅
-	modifier	leveraged	lack	oblique	[by taking advantage of the lack of]	∅
-	modifier	departed	aid	oblique	[thanks to the aid of]	∅
-	modifier	associated	aid	oblique	[with the aid of]	∅
-	modifier	acquired	aid	oblique	[to aid the]	∅
-	modifier	approached	aid	oblique	towards [the aid of]	∅
-	modifier	surpassed	aid	oblique	beyond [the aid of]	∅
-	modifier	leveraged	aid	oblique	by using [the aid of]	∅
-	modifier	departed	interest	oblique	[out of the interest of]	∅
-	modifier	associated	interest	oblique	[in the interest of]	∅
-	modifier	acquired	interest	oblique	[for the sake of]	∅
-	modifier	approached	interest	oblique	towards [the interest of]	∅
-	modifier	surpassed	interest	oblique	beyond [the interest of]	∅
-	modifier	leveraged	interest	oblique	[by appealing to the interest of]	∅
-	modifier	departed	purpose	oblique	[following from the purpose of]	∅
-	modifier	associated	purpose	oblique	[assuming the purpose of]	∅
-	modifier	acquired	purpose	oblique	[for the purpose of]	∅
-	modifier	approached	purpose	oblique	towards [the purpose of]	∅
-	modifier	surpassed	purpose	oblique	beyond [the purpose of]	∅
-	modifier	leveraged	purpose	oblique	[by leveraging the purpose of]	∅
-	modifier	departed	time	oblique	after	∅
-	modifier	associated	time	oblique	during	∅
-	modifier	acquired	time	oblique	until	∅
-	modifier	approached	time	oblique	nearing	∅
-	modifier	surpassed	time	oblique	past	∅
-	modifier	leveraged	time	oblique	by [making use of]	∅
-	modifier	departed	state-of-being	oblique	from having been	∅
-	modifier	associated	state-of-being	oblique	as a	∅
-	modifier	acquired	state-of-being	oblique	in order to be	∅
-	modifier	approached	state-of-being	oblique	towards being	∅
-	modifier	surpassed	state-of-being	oblique	beyond being	∅
-	modifier	leveraged	state-of-being	oblique	due to being	∅
-	modifier	departed	topic	oblique	[off the topic of]	∅
-	modifier	associated	topic	oblique	[regarding]	∅
-	modifier	acquired	topic	oblique	[pursuant to]	∅
-	modifier	approached	topic	oblique	towards [the topic of]	∅
-	modifier	surpassed	topic	oblique	beyond [the topic of]	∅
-	modifier	leveraged	topic	oblique	by using [the topic of]	∅
-	modifier	associated	company	oblique	in the company of	∅
-	modifier	associated	resemblance	oblique	like	∅
+	verb-modifier	departed	agent	oblique	by	∅
+	verb-modifier	associated	agent	oblique	by	∅
+	verb-modifier	acquired	agent	oblique	by	∅
+	verb-modifier	approached	agent	oblique	by	∅
+	verb-modifier	surpassed	agent	oblique	by	∅
+	verb-modifier	leveraged	agent	oblique	by	∅
+	verb-modifier	departed	force	oblique	by	∅
+	verb-modifier	associated	force	oblique	by	∅
+	verb-modifier	acquired	force	oblique	by	∅
+	verb-modifier	approached	force	oblique	by	∅
+	verb-modifier	surpassed	force	oblique	by	∅
+	verb-modifier	leveraged	force	oblique	by	∅
+	verb-modifier	departed	possessor	oblique	from [the possession of]	∅
+	verb-modifier	associated	possessor	oblique	of	∅
+	verb-modifier	acquired	possessor	oblique	to [the possession of]	∅
+	verb-modifier	approached	possessor	oblique	towards [the possession of]	∅
+	verb-modifier	surpassed	possessor	oblique	beyond [the possession of]	∅
+	verb-modifier	leveraged	possessor	oblique	[due to the possession of]	∅
+	verb-modifier	departed	location	oblique	away from	∅
+	verb-modifier	associated	location	oblique	by	∅
+	verb-modifier	acquired	location	oblique	to	∅
+	verb-modifier	approached	location	oblique	towards	∅
+	verb-modifier	surpassed	location	oblique	past	∅
+	verb-modifier	leveraged	location	oblique	along	∅
+	verb-modifier	departed	extent	oblique	starting from	∅
+	verb-modifier	associated	extent	oblique	beside	∅
+	verb-modifier	acquired	extent	oblique	up to	∅
+	verb-modifier	approached	extent	oblique	towards [the edge of]	∅
+	verb-modifier	surpassed	extent	oblique	past [the edge of]	∅
+	verb-modifier	leveraged	extent	oblique	along [the edges of]	∅
+	verb-modifier	departed	vicinity	oblique	from around	∅
+	verb-modifier	associated	vicinity	oblique	by	∅
+	verb-modifier	acquired	vicinity	oblique	to around	∅
+	verb-modifier	approached	vicinity	oblique	towards [the vicinity of]	∅
+	verb-modifier	surpassed	vicinity	oblique	past [the vicinity of]	∅
+	verb-modifier	leveraged	vicinity	oblique	via	∅
+	verb-modifier	departed	interior	oblique	out of	∅
+	verb-modifier	associated	interior	oblique	in	∅
+	verb-modifier	acquired	interior	oblique	into	∅
+	verb-modifier	approached	interior	oblique	towards [the inside of]	∅
+	verb-modifier	surpassed	interior	oblique	past [the inside of]	∅
+	verb-modifier	leveraged	interior	oblique	through	∅
+	verb-modifier	departed	medium	oblique	out of [the mass of]	∅
+	verb-modifier	associated	medium	oblique	in [the mass of]	∅
+	verb-modifier	acquired	medium	oblique	into [the mass of]	∅
+	verb-modifier	approached	medium	oblique	towards [the mass of]	∅
+	verb-modifier	surpassed	medium	oblique	past [the mass of]	∅
+	verb-modifier	leveraged	medium	oblique	through [the mass of]	∅
+	verb-modifier	departed	side	oblique	from against	∅
+	verb-modifier	associated	side	oblique	against	∅
+	verb-modifier	acquired	side	oblique	up against	∅
+	verb-modifier	approached	side	oblique	towards [the side of]	∅
+	verb-modifier	surpassed	side	oblique	past [the side of]	∅
+	verb-modifier	leveraged	side	oblique	along [the side of]	∅
+	verb-modifier	departed	surface	oblique	off of	∅
+	verb-modifier	associated	surface	oblique	on	∅
+	verb-modifier	acquired	surface	oblique	onto	∅
+	verb-modifier	approached	surface	oblique	towards [the surface of]	∅
+	verb-modifier	surpassed	surface	oblique	past [the surface of]	∅
+	verb-modifier	leveraged	surface	oblique	over	∅
+	verb-modifier	departed	subsurface	oblique	out from under	∅
+	verb-modifier	associated	subsurface	oblique	under	∅
+	verb-modifier	acquired	subsurface	oblique	in under	∅
+	verb-modifier	approached	subsurface	oblique	towards under	∅
+	verb-modifier	surpassed	subsurface	oblique	past under	∅
+	verb-modifier	leveraged	subsurface	oblique	through under	∅
+	verb-modifier	departed	presence	oblique	[due to the presence of]	∅
+	verb-modifier	associated	presence	oblique	[in the presence of]	∅
+	verb-modifier	acquired	presence	oblique	[to draw in]	∅
+	verb-modifier	approached	presence	oblique	towards [the presence of]	∅
+	verb-modifier	surpassed	presence	oblique	beyond [the presence of]	∅
+	verb-modifier	leveraged	presence	oblique	by using [the presence of]	∅
+	verb-modifier	departed	lack	oblique	[for want of]	∅
+	verb-modifier	associated	lack	oblique	[in the absence of]	∅
+	verb-modifier	acquired	lack	oblique	[to avoid]	∅
+	verb-modifier	approached	lack	oblique	towards [a lack of]	∅
+	verb-modifier	surpassed	lack	oblique	beyond [a lack of]	∅
+	verb-modifier	leveraged	lack	oblique	[by taking advantage of the lack of]	∅
+	verb-modifier	departed	aid	oblique	[thanks to the aid of]	∅
+	verb-modifier	associated	aid	oblique	[with the aid of]	∅
+	verb-modifier	acquired	aid	oblique	[to aid the]	∅
+	verb-modifier	approached	aid	oblique	towards [the aid of]	∅
+	verb-modifier	surpassed	aid	oblique	beyond [the aid of]	∅
+	verb-modifier	leveraged	aid	oblique	by using [the aid of]	∅
+	verb-modifier	departed	interest	oblique	[out of the interest of]	∅
+	verb-modifier	associated	interest	oblique	[in the interest of]	∅
+	verb-modifier	acquired	interest	oblique	[for the sake of]	∅
+	verb-modifier	approached	interest	oblique	towards [the interest of]	∅
+	verb-modifier	surpassed	interest	oblique	beyond [the interest of]	∅
+	verb-modifier	leveraged	interest	oblique	[by appealing to the interest of]	∅
+	verb-modifier	departed	purpose	oblique	[following from the purpose of]	∅
+	verb-modifier	associated	purpose	oblique	[assuming the purpose of]	∅
+	verb-modifier	acquired	purpose	oblique	[for the purpose of]	∅
+	verb-modifier	approached	purpose	oblique	towards [the purpose of]	∅
+	verb-modifier	surpassed	purpose	oblique	beyond [the purpose of]	∅
+	verb-modifier	leveraged	purpose	oblique	[by leveraging the purpose of]	∅
+	verb-modifier	departed	time	oblique	after	∅
+	verb-modifier	associated	time	oblique	during	∅
+	verb-modifier	acquired	time	oblique	until	∅
+	verb-modifier	approached	time	oblique	nearing	∅
+	verb-modifier	surpassed	time	oblique	past	∅
+	verb-modifier	leveraged	time	oblique	by [making use of]	∅
+	verb-modifier	departed	state-of-being	oblique	from having been	∅
+	verb-modifier	associated	state-of-being	oblique	as a	∅
+	verb-modifier	acquired	state-of-being	oblique	in order to be	∅
+	verb-modifier	approached	state-of-being	oblique	towards being	∅
+	verb-modifier	surpassed	state-of-being	oblique	beyond being	∅
+	verb-modifier	leveraged	state-of-being	oblique	due to being	∅
+	verb-modifier	departed	topic	oblique	[off the topic of]	∅
+	verb-modifier	associated	topic	oblique	[regarding]	∅
+	verb-modifier	acquired	topic	oblique	[pursuant to]	∅
+	verb-modifier	approached	topic	oblique	towards [the topic of]	∅
+	verb-modifier	surpassed	topic	oblique	beyond [the topic of]	∅
+	verb-modifier	leveraged	topic	oblique	by using [the topic of]	∅
+	verb-modifier	associated	company	oblique	in the company of	∅
+	verb-modifier	associated	resemblance	oblique	like	∅
 						
 #	subjectivity	motion	role			
 #	subject	departed	[see above]			
 #	direct-object	associated				
 #	indirect-object	acquired				
-#	modifier	approached				
+#	verb-modifier	approached				
 #		surpassed				
 #		leveraged				
 #						

@@ -4,67 +4,67 @@
 	addressee			vocative	∅	∅	#	
 	direct-object			accusative	∅	∅	#	
 	indirect-object			dative	∅	∅	#	
-	modifier	departed	agent			∅	#	
-	modifier	associated	agent			∅	#	
-	modifier	acquired	agent			∅	#	
-	modifier	leveraged	agent			∅	#	
-	modifier	departed	force			∅	#	
-	modifier	associated	force			∅	#	
-	modifier	acquired	force			∅	#	
-	modifier	leveraged	force			∅	#	
-#	modifier	departed	possessor			∅	#	
-	modifier	associated	possessor			∅	#	
-#	modifier	acquired	possessor			∅	#	
-#	modifier	leveraged	possessor			∅	#	
-	modifier	departed	location	instrumental	au	∅	#	from, away from, since
-	modifier	associated	location	accusative	are	∅	#	by, with
-	modifier	acquired	location	accusative	in	∅	#	into, to
-	modifier	leveraged	location			∅	#	
-	modifier	approached	location	accusative	ad, at	∅	#	towards
-	modifier	surpassed	location	accusative	sepu	∅	#	past, beyond
-#	modifier	departed	extent			∅	#	
-#	modifier	associated	extent			∅	#	
-#	modifier	acquired	extent	accusative	urit, uritto	∅	#	against
-#	modifier	leveraged	extent			∅	#	
-#	modifier	departed	vicinity			∅	#	
-#	modifier	associated	vicinity	accusative	ambi	∅	#	around
-#	modifier	acquired	vicinity			∅	#	
-#	modifier	leveraged	vicinity			∅	#	
-	modifier	departed	interior	accusative	extra	∅	#	outside
-	modifier	associated	interior	locative	in	∅	#	in
-	modifier	acquired	interior	accusative	entra, in	∅	#	into, inside
-	modifier	leveraged	interior	accusative	trei	∅	#	through
-	modifier	departed	surface			∅	#	
-	modifier	associated	surface	instrumental	uer	∅	#	on
-	modifier	acquired	surface	accusative	tras	∅	#	across, beyond, over
-	modifier	leveraged	surface			∅	#	
-	modifier	surpassed	surface	accusative	ux	∅	#	over
-	modifier	departed	subsurface			∅	#	
-	modifier	associated	subsurface	instrumental	uo	∅	#	under
-	modifier	acquired	subsurface			∅	#	
-	modifier	leveraged	subsurface			∅	#	
-#	modifier	departed	presence			∅	#	
-	modifier	associated	presence	accusative	are	∅	#	by, with
-#	modifier	acquired	presence	instrumental	are	∅	#	before, in front of
-	modifier	leveraged	presence			∅	#	
-#	modifier	departed	aid			∅	#	
-	modifier	associated	aid	instrumental	con	∅	#	with
-#	modifier	acquired	aid			∅	#	
-#	modifier	leveraged	aid			∅	#	
-#	modifier	departed	lack			∅	#	
-	modifier	associated	lack	accusative	cena	∅	#	without
-#	modifier	acquired	lack			∅	#	
-#	modifier	leveraged	lack			∅	#	
-#	modifier	departed	interest			∅	#	
-	modifier	associated	interest	accusative	are	∅	#	for the sake of
-#	modifier	acquired	interest			∅	#	
-	modifier	leveraged	interest			∅	#	
-	modifier	departed	time	instrumental	eron	∅	#	after
-	modifier	associated	time	accusative	samali	∅	#	as
-	modifier	acquired	time	accusative	po	∅	#	until
-	modifier	leveraged	time			∅	#	
-#	modifier	departed	topic			∅	#	
-#	modifier	associated	topic			∅	#	
-#	modifier	acquired	topic			∅	#	
-#	modifier	leveraged	topic			∅	#	
-	modifier	associated	company	accusative	ac	∅	#	along with
+	verb-modifier	departed	agent			∅	#	
+	verb-modifier	associated	agent			∅	#	
+	verb-modifier	acquired	agent			∅	#	
+	verb-modifier	leveraged	agent			∅	#	
+	verb-modifier	departed	force			∅	#	
+	verb-modifier	associated	force			∅	#	
+	verb-modifier	acquired	force			∅	#	
+	verb-modifier	leveraged	force			∅	#	
+#	verb-modifier	departed	possessor			∅	#	
+	verb-modifier	associated	possessor			∅	#	
+#	verb-modifier	acquired	possessor			∅	#	
+#	verb-modifier	leveraged	possessor			∅	#	
+	verb-modifier	departed	location	instrumental	au	∅	#	from, away from, since
+	verb-modifier	associated	location	accusative	are	∅	#	by, with
+	verb-modifier	acquired	location	accusative	in	∅	#	into, to
+	verb-modifier	leveraged	location			∅	#	
+	verb-modifier	approached	location	accusative	ad, at	∅	#	towards
+	verb-modifier	surpassed	location	accusative	sepu	∅	#	past, beyond
+#	verb-modifier	departed	extent			∅	#	
+#	verb-modifier	associated	extent			∅	#	
+#	verb-modifier	acquired	extent	accusative	urit, uritto	∅	#	against
+#	verb-modifier	leveraged	extent			∅	#	
+#	verb-modifier	departed	vicinity			∅	#	
+#	verb-modifier	associated	vicinity	accusative	ambi	∅	#	around
+#	verb-modifier	acquired	vicinity			∅	#	
+#	verb-modifier	leveraged	vicinity			∅	#	
+	verb-modifier	departed	interior	accusative	extra	∅	#	outside
+	verb-modifier	associated	interior	locative	in	∅	#	in
+	verb-modifier	acquired	interior	accusative	entra, in	∅	#	into, inside
+	verb-modifier	leveraged	interior	accusative	trei	∅	#	through
+	verb-modifier	departed	surface			∅	#	
+	verb-modifier	associated	surface	instrumental	uer	∅	#	on
+	verb-modifier	acquired	surface	accusative	tras	∅	#	across, beyond, over
+	verb-modifier	leveraged	surface			∅	#	
+	verb-modifier	surpassed	surface	accusative	ux	∅	#	over
+	verb-modifier	departed	subsurface			∅	#	
+	verb-modifier	associated	subsurface	instrumental	uo	∅	#	under
+	verb-modifier	acquired	subsurface			∅	#	
+	verb-modifier	leveraged	subsurface			∅	#	
+#	verb-modifier	departed	presence			∅	#	
+	verb-modifier	associated	presence	accusative	are	∅	#	by, with
+#	verb-modifier	acquired	presence	instrumental	are	∅	#	before, in front of
+	verb-modifier	leveraged	presence			∅	#	
+#	verb-modifier	departed	aid			∅	#	
+	verb-modifier	associated	aid	instrumental	con	∅	#	with
+#	verb-modifier	acquired	aid			∅	#	
+#	verb-modifier	leveraged	aid			∅	#	
+#	verb-modifier	departed	lack			∅	#	
+	verb-modifier	associated	lack	accusative	cena	∅	#	without
+#	verb-modifier	acquired	lack			∅	#	
+#	verb-modifier	leveraged	lack			∅	#	
+#	verb-modifier	departed	interest			∅	#	
+	verb-modifier	associated	interest	accusative	are	∅	#	for the sake of
+#	verb-modifier	acquired	interest			∅	#	
+	verb-modifier	leveraged	interest			∅	#	
+	verb-modifier	departed	time	instrumental	eron	∅	#	after
+	verb-modifier	associated	time	accusative	samali	∅	#	as
+	verb-modifier	acquired	time	accusative	po	∅	#	until
+	verb-modifier	leveraged	time			∅	#	
+#	verb-modifier	departed	topic			∅	#	
+#	verb-modifier	associated	topic			∅	#	
+#	verb-modifier	acquired	topic			∅	#	
+#	verb-modifier	leveraged	topic			∅	#	
+	verb-modifier	associated	company	accusative	ac	∅	#	along with
