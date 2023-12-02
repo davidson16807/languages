@@ -164,6 +164,21 @@ fly	preterite	du flogst	ihr flogt	ii	du flögest1du flögst1	ihr flöget1ihr fl�
 fly	preterite	er flog	sie flogen	ii	er flöge1	sie flögen1
 fly						
 fly	imperative	flieg (du)fliege (du)	fliegt (ihr)			
+hear	infinitive	infinitive	hören	hören	hören	hören
+hear	present participle	present participle	hörend	hörend	hörend	hörend
+hear	past participle	past participle	gehört	gehört	gehört	gehört
+hear	auxiliary	auxiliary	haben	haben	haben	haben
+hear		indicative	indicative		subjunctive	subjunctive
+hear		singular	plural		singular	plural
+hear	present	ich höre	wir hören	i	ich höre	wir hören
+hear	present	du hörst	ihr hört	i	du hörest	ihr höret
+hear	present	er hört	sie hören	i	er höre	sie hören
+hear						
+hear	preterite	ich hörte	wir hörten	ii	ich hörte1	wir hörten1
+hear	preterite	du hörtest	ihr hörtet	ii	du hörtest1	ihr hörtet1
+hear	preterite	er hörte	sie hörten	ii	er hörte1	sie hörten1
+hear						
+hear	imperative	hör (du)höre (du)	hört (ihr)			
 resemble	infinitive	infinitive	ähneln	ähneln	ähneln	ähneln
 resemble	present participle	present participle	ähnelnd	ähnelnd	ähnelnd	ähnelnd
 resemble	past participle	past participle	geähnelt	geähnelt	geähnelt	geähnelt
@@ -209,3 +224,124 @@ see	preterite	du sahst	ihr saht	ii	du sähest1du sähst1	ihr sähet1ihr säht1
 see	preterite	er sah	sie sahen	ii	er sähe1	sie sähen1
 see						
 see	imperative	sieh (du)siehe (du)	seht (ihr)			
+show	infinitive	infinitive	zeigen	zeigen	zeigen	zeigen
+show	present participle	present participle	zeigend	zeigend	zeigend	zeigend
+show	past participle	past participle	gezeigt	gezeigt	gezeigt	gezeigt
+show	auxiliary	auxiliary	haben	haben	haben	haben
+show		indicative	indicative		subjunctive	subjunctive
+show		singular	plural		singular	plural
+show	present	ich zeige	wir zeigen	i	ich zeige	wir zeigen
+show	present	du zeigst	ihr zeigt	i	du zeigest	ihr zeiget
+show	present	er zeigt	sie zeigen	i	er zeige	sie zeigen
+show						
+show	preterite	ich zeigte	wir zeigten	ii	ich zeigte1	wir zeigten1
+show	preterite	du zeigtest	ihr zeigtet	ii	du zeigtest1	ihr zeigtet1
+show	preterite	er zeigte	sie zeigten	ii	er zeigte1	sie zeigten1
+show						
+show	imperative	zeig (du)zeige (du)	zeigt (ihr)			
+startle	infinitive	infinitive	erschrecken	erschrecken	erschrecken	erschrecken
+startle	present participle	present participle	erschreckend	erschreckend	erschreckend	erschreckend
+startle	past participle	past participle	erschrocken	erschrocken	erschrocken	erschrocken
+startle	auxiliary	auxiliary	sein or haben1	sein or haben1	sein or haben1	sein or haben1
+startle		indicative	indicative		subjunctive	subjunctive
+startle		singular	plural		singular	plural
+startle	present	ich erschrecke	wir erschrecken	i	ich erschrecke	wir erschrecken
+startle	present	du erschrickst	ihr erschreckt	i	du erschreckest	ihr erschrecket
+startle	present	er erschrickt	sie erschrecken	i	er erschrecke	sie erschrecken
+startle						
+startle	preterite	ich erschrak	wir erschraken	ii	ich erschräke2	wir erschräken2
+startle	preterite	du erschrakst	ihr erschrakt	ii	du erschräkest2du erschräkst2	ihr erschräket2ihr erschräkt2
+startle	preterite	er erschrak	sie erschraken	ii	er erschräke2	sie erschräken2
+startle						
+startle	imperative	erschrick (du)	erschreckt (ihr)			
+startle	infinitive	infinitive	erschrecken	erschrecken	erschrecken	erschrecken
+startle	present participle	present participle	erschreckend	erschreckend	erschreckend	erschreckend
+startle	past participle	past participle	erschreckt	erschreckt	erschreckt	erschreckt
+startle	auxiliary	auxiliary	haben	haben	haben	haben
+startle		indicative	indicative		subjunctive	subjunctive
+startle		singular	plural		singular	plural
+startle	present	ich erschrecke	wir erschrecken	i	ich erschrecke	wir erschrecken
+startle	present	du erschreckst	ihr erschreckt	i	du erschreckest	ihr erschrecket
+startle	present	er erschreckt	sie erschrecken	i	er erschrecke	sie erschrecken
+startle						
+startle	preterite	ich erschreckte	wir erschreckten	ii	ich erschreckte1	wir erschreckten1
+startle	preterite	du erschrecktest	ihr erschrecktet	ii	du erschrecktest1	ihr erschrecktet1
+startle	preterite	er erschreckte	sie erschreckten	ii	er erschreckte1	sie erschreckten1
+startle						
+startle	imperative	erschreck (du)erschrecke (du)	erschreckt (ihr)			
+swim	infinitive	infinitive	schwimmen	schwimmen	schwimmen	schwimmen
+swim	present participle	present participle	schwimmend	schwimmend	schwimmend	schwimmend
+swim	past participle	past participle	geschwommen	geschwommen	geschwommen	geschwommen
+swim	auxiliary	auxiliary	sein or haben	sein or haben	sein or haben	sein or haben
+swim		indicative	indicative		subjunctive	subjunctive
+swim		singular	plural		singular	plural
+swim	present	ich schwimme	wir schwimmen	i	ich schwimme	wir schwimmen
+swim	present	du schwimmst	ihr schwimmt	i	du schwimmest	ihr schwimmet
+swim	present	er schwimmt	sie schwimmen	i	er schwimme	sie schwimmen
+swim						
+swim	preterite	ich schwammich schwomm1	wir schwammenwir schwommen1	ii	ich schwämme2ich schwömme2	wir schwämmen2wir schwömmen2
+swim	preterite	du schwammstdu schwommst1	ihr schwammtihr schwommt1	ii	du schwämmest2du schwämmst2du schwömmest2du schwömmst2	ihr schwämmet2ihr schwämmt2ihr schwömmet2ihr schwömmt2
+swim	preterite	er schwammer schwomm1	sie schwammensie schwommen1	ii	er schwämme2er schwömme2	sie schwämmen2sie schwömmen2
+swim						
+swim	imperative	schwimm (du)schwimme (du)	schwimmt (ihr)			
+walk	infinitive	infinitive	gehen	gehen	gehen	gehen
+walk	present participle	present participle	gehend	gehend	gehend	gehend
+walk	past participle	past participle	gegangen	gegangen	gegangen	gegangen
+walk	auxiliary	auxiliary	sein	sein	sein	sein
+walk		indicative	indicative		subjunctive	subjunctive
+walk		singular	plural		singular	plural
+walk	present	ich gehe	wir gehen	i	ich gehe	wir gehen
+walk	present	du gehst	ihr geht	i	du gehest	ihr gehet
+walk	present	er geht	sie gehen	i	er gehe	sie gehen
+walk						
+walk	preterite	ich ging	wir gingen	ii	ich ginge1	wir gingen1
+walk	preterite	du gingst	ihr gingt	ii	du gingest1du gingst1	ihr ginget1ihr gingt1
+walk	preterite	er ging	sie gingen	ii	er ginge1	sie gingen1
+walk						
+walk	imperative	geh (du)gehe (du)	geht (ihr)			
+warm	infinitive	infinitive	wärmen	wärmen	wärmen	wärmen
+warm	present participle	present participle	wärmend	wärmend	wärmend	wärmend
+warm	past participle	past participle	gewärmt	gewärmt	gewärmt	gewärmt
+warm	auxiliary	auxiliary	haben	haben	haben	haben
+warm		indicative	indicative		subjunctive	subjunctive
+warm		singular	plural		singular	plural
+warm	present	ich wärme	wir wärmen	i	ich wärme	wir wärmen
+warm	present	du wärmst	ihr wärmt	i	du wärmest	ihr wärmet
+warm	present	er wärmt	sie wärmen	i	er wärme	sie wärmen
+warm						
+warm	preterite	ich wärmte	wir wärmten	ii	ich wärmte1	wir wärmten1
+warm	preterite	du wärmtest	ihr wärmtet	ii	du wärmtest1	ihr wärmtet1
+warm	preterite	er wärmte	sie wärmten	ii	er wärmte1	sie wärmten1
+warm						
+warm	imperative	wärm (du)wärme (du)	wärmt (ihr)			
+watch	infinitive	infinitive	zusehen	zusehen	zusehen	zusehen
+watch	present participle	present participle	zusehend	zusehend	zusehend	zusehend
+watch	past participle	past participle	zugesehen	zugesehen	zugesehen	zugesehen
+watch	zu-infinitive	zu-infinitive	zuzusehen	zuzusehen	zuzusehen	zuzusehen
+watch	auxiliary	auxiliary	haben	haben	haben	haben
+watch		indicative	indicative		subjunctive	subjunctive
+watch		singular	plural		singular	plural
+watch	present	ich sehe zu	wir sehen zu	i	ich sehe zu	wir sehen zu
+watch	present	du siehst zu	ihr seht zu	i	du sehest zu	ihr sehet zu
+watch	present	er sieht zu	sie sehen zu	i	er sehe zu	sie sehen zu
+watch						
+watch	preterite	ich sah zu	wir sahen zu	ii	ich sähe zu1	wir sähen zu1
+watch	preterite	du sahst zu	ihr saht zu	ii	du sähest zu1du sähst zu1	ihr sähet zu1ihr säht zu1
+watch	preterite	er sah zu	sie sahen zu	ii	er sähe zu1	sie sähen zu1
+watch						
+watch	imperative	sieh zu (du)siehe zu (du)	seht zu (ihr)			
+work	infinitive	infinitive	arbeiten	arbeiten	arbeiten	arbeiten
+work	present participle	present participle	arbeitend	arbeitend	arbeitend	arbeitend
+work	past participle	past participle	gearbeitet	gearbeitet	gearbeitet	gearbeitet
+work	auxiliary	auxiliary	haben	haben	haben	haben
+work		indicative	indicative		subjunctive	subjunctive
+work		singular	plural		singular	plural
+work	present	ich arbeite	wir arbeiten	i	ich arbeite	wir arbeiten
+work	present	du arbeitest	ihr arbeitet	i	du arbeitest	ihr arbeitet
+work	present	er arbeitet	sie arbeiten	i	er arbeite	sie arbeiten
+work						
+work	preterite	ich arbeitete	wir arbeiteten	ii	ich arbeitete1	wir arbeiteten1
+work	preterite	du arbeitetest	ihr arbeitetet	ii	du arbeitetest1	ihr arbeitetet1
+work	preterite	er arbeitete	sie arbeiteten	ii	er arbeitete1	sie arbeiteten1
+work						
+work	imperative	arbeit (du)arbeite (du)	arbeitet (ihr)			

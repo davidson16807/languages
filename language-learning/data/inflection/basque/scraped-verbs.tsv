@@ -38,6 +38,32 @@ be-momentarily	subjunctive1	past	same as indicative past	same as indicative past
 be-momentarily									
 be-momentarily	imperative	present	—	hago	bego	—	zaude	zaudete	beude
 be-momentarily	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.
+hear	mood / tense	mood / tense	nork (ergative)	nork (ergative)	nork (ergative)	nork (ergative)	nork (ergative)	nork (ergative)	nork (ergative)	nor (absolutive)	nor (absolutive)
+hear	mood / tense	mood / tense	1st sg	2nd sg inf.	3rd sg	1st pl	2nd sg	2nd pl	3rd pl	nor (absolutive)	nor (absolutive)
+hear	mood / tense	mood / tense	nik	hik	hark	guk	zuk	zuek	haiek	nor (absolutive)	nor (absolutive)
+hear	indicative	present	dantzut	dantzuk/n	dantzu	dantzugu	dantzuzu	dantzuzue	dantzute	hura	3rd sg
+hear	indicative	present	dantzuzkit	dantzuzkik/n	dantzuzki	dantzuzkigu	dantzuzkizu	dantzuzkizue	dantzuzkite	haiek	3rd pl
+hear	indicative										
+hear	indicative	past	nentzuen	hentzuen	zentzuen	genentzuen	zenentzuen	zenentzuten	zentzuten	hura	3rd sg
+hear	indicative	past	nentzuzkien	hentzuzkien	zentzuzkien	genentzuzkien	zenentzuzkien	zenentzuzkiten	zentzuzkiten	haiek	3rd pl
+hear	indicative										
+hear	indicative	conditional	banentzu	bahentzu	balentzu	bagenentzu	bazenentzu	bazenentzute	balentzute	hura	3rd sg
+hear	indicative	conditional	banentzuzki	bahentzuzki	balentzuzki	bagenentzuzki	bazenentzuzki	bazenentzuzkite	balentzuzkite	haiek	3rd pl
+hear	indicative										
+hear	indicative	hyp. cons.	nentzuke	hentzuke	lentzuke	genentzuke	zenentzuke	zenentzukete	lentzukete	hura	3rd sg
+hear	indicative	hyp. cons.	nentzuzke	hentzuzke	lentzuzke	genentzuzke	zenentzuzke	zenentzuzkete	lentzuzkete	haiek	3rd pl
+hear	indicative										
+hear	indicative	past cons.	―	―	―	―	―	―	―		
+hear											
+hear	potential	present	―	―	―	―	―	―	―		
+hear	potential	hypothetic	―	―	―	―	―	―	―		
+hear	potential	past	―	―	―	―	―	―	―		
+hear											
+hear	subjunctive	present	―	―	―	―	―	―	―		
+hear	subjunctive	past	―	―	―	―	―	―	―		
+hear											
+hear	imperative	present	—	entzuk/n	bentzu	—	entzuzu	entzuzue	bentzute	hura	3rd sg
+hear	imperative	present	—	—	bentzuzki	—	—	—	bentzuzkite	haiek	3rd pl
 see	mood / tense	mood / tense	nork (ergative)	nork (ergative)	nork (ergative)	nork (ergative)	nork (ergative)	nork (ergative)	nork (ergative)	nor (absolutive)	nor (absolutive)
 see	mood / tense	mood / tense	1st sg	2nd sg inf.	3rd sg	1st pl	2nd sg	2nd pl	3rd pl	nor (absolutive)	nor (absolutive)
 see	mood / tense	mood / tense	nik	hik	hark	guk	zuk	zuek	haiek	nor (absolutive)	nor (absolutive)
@@ -64,3 +90,21 @@ see	subjunctive	past	―	―	―	―	―	―	―
 see											
 see	imperative	present	—	ikusak/n	bekusa	—	ikusazu	ikusazue	bekusate	hura	3rd sg
 see	imperative	present	—	—	bekuski	—	—	—	bekuskite	haiek	3rd pl
+walk	mood / tense	mood / tense	nor (absolutive)	nor (absolutive)	nor (absolutive)	nor (absolutive)	nor (absolutive)	nor (absolutive)	nor (absolutive)
+walk	mood / tense	mood / tense	1st sg	2nd sg inf.	3rd sg	1st pl	2nd sg	2nd pl	3rd pl
+walk	mood / tense	mood / tense	ni	hi	hura	gu	zu	zuek	haiek
+walk	indicative	present	nabil	habil	dabil	gabiltza	zabiltza	zabiltzate	dabiltza
+walk	indicative	past	nenbilen	henbilen	zebilen	genbiltzan	zenbiltzan	zenbiltzaten	zebiltzan
+walk	indicative	conditional	banenbil	bahenbil	balebil	bagenbiltza	bazenbiltza	bazenbiltzate	balebiltza
+walk	indicative	hypothetic cons.	nenbilke	henbilke	lebilke	genbilzke	zenbilzke	zenbilzkete	lebilzke
+walk	indicative	past cons.	nenbilkeen	henbilkeen	zebilkeen	genbilzkeen	zenbilzkeen	zenbilzketen	zebilzkeen
+walk									
+walk	potential	present	nabilke	habilke	dabilke	gabilzke	zabilzke	zabilzkete	dabilzke
+walk	potential	hypothetic	same as indicative hypothetic consequence	same as indicative hypothetic consequence	same as indicative hypothetic consequence	same as indicative hypothetic consequence	same as indicative hypothetic consequence	same as indicative hypothetic consequence	same as indicative hypothetic consequence
+walk	potential	past	same as indicative past consequence	same as indicative past consequence	same as indicative past consequence	same as indicative past consequence	same as indicative past consequence	same as indicative past consequence	same as indicative past consequence
+walk									
+walk	subjunctive1	present	nabilen	habilen	dabilen	gabiltzan	zabiltzan	zabiltzaten	dabiltzan
+walk	subjunctive1	past	same as indicative past	same as indicative past	same as indicative past	same as indicative past	same as indicative past	same as indicative past	same as indicative past
+walk									
+walk	imperative	present	—	habil	bebil	—	zabiltza	zabiltzate	bebiltza
+walk	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.	1. Archaic or literary.

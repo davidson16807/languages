@@ -78,13 +78,15 @@ class RowMajorWikiTableHtml:
 			return [remainder, *[extraction.text for extraction in extractions]]
 		def maxi(vectors, i):
 			return max([0,*[vector[i]+1 for vector in vectors]])
+		def span(attrs, span):
+			return int(attrs[span]) if span in attrs and '%' not in attrs[span] else 1
 		cells = {}
 		for (y, row) in enumerate(content.select('tr')):
 			x = 0
 			for cell in row.select('td,th'):
 				while (x,y,0) in cells: x+=1
-				colspan = int(cell.attrs['colspan']) if 'colspan' in cell.attrs else 1
-				rowspan = int(cell.attrs['rowspan']) if 'rowspan' in cell.attrs else 1
+				colspan = span(cell.attrs, 'colspan')
+				rowspan = span(cell.attrs, 'rowspan')
 				lines = (extract(cell, cell.select('span.tr')) if cell.name == 'td' else [cell.text.lower()])
 				for dx in range(colspan):
 					for dy in range(rowspan):
@@ -150,6 +152,7 @@ write('data/inflection/semitic/arabic/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%D9%85%D9%84%D8%A7%D8%A8%D8%B3#Arabic
 				daughter  https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%86%D8%A9#Arabic
 				dog       https://en.wiktionary.org/wiki/%D9%83%D9%84%D8%A8#Arabic
+				door      
 				drum      https://en.wiktionary.org/wiki/%D8%B7%D8%A8%D9%84#Arabic
 				enemy     https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%88#Arabic
 				fire      https://en.wiktionary.org/wiki/%D9%86%D8%A7%D8%B1#Arabic
@@ -171,6 +174,7 @@ write('data/inflection/semitic/arabic/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%86#Arabic
 				sound     https://en.wiktionary.org/wiki/%D8%B5%D9%88%D8%AA#Arabic
 				warmth    https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9#Arabic
+				vase      
 				water     https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%A1#Arabic
 				way       https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D9%8A%D9%82#Arabic
 				wind      https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D8%AD#Arabic
@@ -186,7 +190,7 @@ write('data/inflection/semitic/arabic/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Arabic', 'ar'), 
 			parsing.tokenpoints('''
-				appear    https://en.wiktionary.org/wiki/%D8%B8%D9%87%D8%B1#Arabic
+				appear    https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D8%B6#Arabic
 				be-inherently  https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%86#Arabic # indicates that subject is a predicate, not that it is self-same to
 				be-momentarily https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%86#Arabic # indicates that subject is a predicate, not that it is self-same to
 				change    https://en.wiktionary.org/wiki/%D8%AA%D8%BA%D9%8A%D8%B1#Arabic
@@ -198,17 +202,18 @@ write('data/inflection/semitic/arabic/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D9%85%D9%84#Arabic
 				fall      https://en.wiktionary.org/wiki/%D9%88%D9%82%D8%B9#Arabic
 				fly       https://en.wiktionary.org/wiki/%D8%B7%D8%A7%D8%B1#Arabic
+				hear      https://en.wiktionary.org/wiki/%D8%B3%D9%85%D8%B9#Arabic
 				occupy    
-				resemble  
-				rest      
-				see       
-				show      
-				startle   
-				swim      
+				resemble  https://en.wiktionary.org/wiki/%D8%B4%D8%A8%D9%87#Arabic
+				rest      https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AD#Arabic
+				see       https://en.wiktionary.org/wiki/%D8%B1%D8%A3%D9%89#Arabic
+				show      https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D8%B6#Arabic
+				startle   https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%AC%D8%A3#Arabic
+				swim      https://en.wiktionary.org/wiki/%D8%B3%D8%A8%D8%AD#Arabic
 				walk      https://en.wiktionary.org/wiki/%D9%85%D8%B4%D9%89#Arabic
 				warm      
-				watch     
-				work      
+				watch     https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D9%87%D8%AF#Arabic
+				work      https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%84#Arabic
 			''')
 		)
 	)
@@ -229,6 +234,7 @@ write('data/inflection/basque/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/jantzi#Basque
 				daughter  https://en.wiktionary.org/wiki/alaba#Basque
 				dog       https://en.wiktionary.org/wiki/txakur#Basque
+				door      
 				drum      https://en.wiktionary.org/wiki/danbor#Basque
 				enemy     https://en.wiktionary.org/wiki/janari#Basque
 				fire      https://en.wiktionary.org/wiki/su#Basque
@@ -250,6 +256,7 @@ write('data/inflection/basque/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/seme#Basque
 				sound     https://en.wiktionary.org/wiki/hots#Basque
 				warmth    https://en.wiktionary.org/wiki/bero#Basque
+				vase      
 				water     https://en.wiktionary.org/wiki/ur#Basque
 				way       https://en.wiktionary.org/wiki/bide#Basque
 				wind      https://en.wiktionary.org/wiki/haize#Basque
@@ -278,10 +285,46 @@ write('data/inflection/basque/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/erori#Basque
 				fly       https://en.wiktionary.org/wiki/hegan_egin#Basque
+				hear      https://en.wiktionary.org/wiki/entzun#Basque
 				occupy    
 				resemble  
 				rest      
 				see       https://en.wiktionary.org/wiki/ikusi#Basque
+				show      
+				startle   
+				swim      https://en.wiktionary.org/wiki/igeri_egin#Basque
+				walk      https://en.wiktionary.org/wiki/ibili#Basque
+				warm      
+				watch     
+				work      
+			''')
+		)
+	)
+)
+
+
+
+write('data/inflection/indo-european/celtic/cornish/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Cornish'), 
+			parsing.tokenpoints('''
+				appear    
+				be-inherently  https://en.wiktionary.org/wiki/bones#Cornish
+				be-momentarily https://en.wiktionary.org/wiki/bones#Cornish
+				change    
+				climb     
+				cool      
+				direct    
+				displease 
+				eat       
+				endure    
+				fall      
+				fly       
+				hear      
+				occupy    
+				resemble  
+				rest      
+				see       https://en.wiktionary.org/wiki/gweles#Cornish
 				show      
 				startle   
 				swim      
@@ -289,6 +332,12 @@ write('data/inflection/basque/scraped-verbs.tsv',
 				warm      
 				watch     
 				work      
+
+				love      https://en.wiktionary.org/wiki/kara#Cornish
+				have      https://en.wiktionary.org/wiki/kavos#Cornish
+				do        https://en.wiktionary.org/wiki/gul#Cornish
+				know      https://en.wiktionary.org/wiki/godhvos#Cornish
+				wish      https://en.wiktionary.org/wiki/mynnes#Cornish
 			''')
 		)
 	)
@@ -308,6 +357,7 @@ write('data/inflection/egyptian/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/mn%E1%B8%ABt#Egyptian
 				daughter  https://en.wiktionary.org/wiki/z%EA%9C%A3t#Egyptian
 				dog       https://en.wiktionary.org/wiki/%E1%B9%AFzm#Egyptian
+				door      
 				drum      
 				enemy     https://en.wiktionary.org/wiki/%E1%B8%ABftj#Egyptian
 				fire      https://en.wiktionary.org/wiki/s%E1%B8%8Ft#Egyptian
@@ -329,6 +379,7 @@ write('data/inflection/egyptian/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/z%EA%9C%A3#Egyptian
 				sound     
 				warmth    https://en.wiktionary.org/wiki/srf#Egyptian
+				vase      
 				water     https://en.wiktionary.org/wiki/mw#Egyptian
 				way       https://en.wiktionary.org/wiki/m%E1%B9%AFn#Egyptian
 				wind      https://en.wiktionary.org/wiki/%E1%B9%AF%EA%9C%A3w#Egyptian
@@ -357,14 +408,15 @@ write('data/inflection/egyptian/scraped-verbs.tsv',
 				endure    
 				fall      
 				fly       https://en.wiktionary.org/wiki/p%EA%9C%A3j#Egyptian
+				hear      https://en.wiktionary.org/wiki/s%E1%B8%8Fm#Egyptian
 				occupy    
-				resemble  https://en.wiktionary.org/wiki/n%E1%B8%A5r#Egyptian
+				resemble  https://en.wiktionary.org/wiki/twt#Egyptian
 				rest      
 				see       https://en.wiktionary.org/wiki/m%EA%9C%A3%EA%9C%A3#Egyptian
 				show      
 				startle   
 				swim      
-				walk      
+				walk      https://en.wiktionary.org/wiki/h%EA%9C%A3j#Egyptian
 				warm      
 				watch     
 				work      
@@ -387,6 +439,7 @@ write('data/inflection/uralic/finnish/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/vaatetus#Finnish
 				daughter  https://en.wiktionary.org/wiki/tyt%C3%A4r#Finnish
 				dog       https://en.wiktionary.org/wiki/koira#Finnish
+				door      
 				drum      https://en.wiktionary.org/wiki/rumpu#Finnish
 				enemy     https://en.wiktionary.org/wiki/vihollinen#Finnish
 				fire      https://en.wiktionary.org/wiki/tuli#Finnish
@@ -408,6 +461,7 @@ write('data/inflection/uralic/finnish/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/poika#Finnish
 				sound     https://en.wiktionary.org/wiki/%C3%A4%C3%A4ni#Finnish
 				warmth    https://en.wiktionary.org/wiki/l%C3%A4mp%C3%B6#Finnish
+				vase      
 				water     https://en.wiktionary.org/wiki/vesi#Finnish
 				way       https://en.wiktionary.org/wiki/tie#Finnish
 				wind      https://en.wiktionary.org/wiki/tuuli#Finnish
@@ -436,17 +490,18 @@ write('data/inflection/uralic/finnish/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/kest%C3%A4%C3%A4#Finnish
 				fall      https://en.wiktionary.org/wiki/kaatua#Finnish
 				fly       https://en.wiktionary.org/wiki/lent%C3%A4%C3%A4#Finnish
-				occupy    
+				hear      https://en.wiktionary.org/wiki/kuulla#Finnish
+				occupy    https://en.wiktionary.org/wiki/asuttaa#Finnish
 				resemble  https://en.wiktionary.org/wiki/muistuttaa#Finnish
-				rest      https://en.wiktionary.org/wiki/lev%C3%A4t%C3%A4#Finnish
+				rest      https://en.wiktionary.org/wiki/nojata#Finnish
 				see       https://en.wiktionary.org/wiki/n%C3%A4hd%C3%A4#Finnish
-				show      
-				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				show      https://en.wiktionary.org/wiki/n%C3%A4ytt%C3%A4%C3%A4#Finnish
+				startle   https://en.wiktionary.org/wiki/h%C3%A4tk%C3%A4ytt%C3%A4%C3%A4#Finnish
+				swim      https://en.wiktionary.org/wiki/uida#Finnish
+				walk      https://en.wiktionary.org/wiki/k%C3%A4vell%C3%A4#Finnish
+				warm      https://en.wiktionary.org/wiki/l%C3%A4mmitt%C3%A4%C3%A4#Finnish
+				watch     https://en.wiktionary.org/wiki/katsella#Finnish
+				work      https://en.wiktionary.org/wiki/ty%C3%B6skennell%C3%A4#Finnish
 			''')
 		)
 	)
@@ -469,17 +524,18 @@ write('data/inflection/indo-european/romance/french/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/endurer#French
 				fall      https://en.wiktionary.org/wiki/tomber#French
 				fly       https://en.wiktionary.org/wiki/voler#French
-				occupy    
+				hear      https://en.wiktionary.org/wiki/entendre#French
+				occupy    https://en.wiktionary.org/wiki/occuper#French
 				resemble  https://en.wiktionary.org/wiki/ressembler#French
 				rest      https://en.wiktionary.org/wiki/reposer#French
 				see       https://en.wiktionary.org/wiki/voir#French
-				show      
-				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				show      https://en.wiktionary.org/wiki/montrer#French
+				startle   https://en.wiktionary.org/wiki/surprendre#French
+				swim      https://en.wiktionary.org/wiki/nager#French
+				walk      https://en.wiktionary.org/wiki/marcher#French
+				warm      https://en.wiktionary.org/wiki/chauffer#French
+				watch     https://en.wiktionary.org/wiki/regarder#French
+				work      https://en.wiktionary.org/wiki/travailler#French
 
 				have      https://en.wiktionary.org/wiki/avoir#French
 				be        https://en.wiktionary.org/wiki/%C3%AAtre#French
@@ -531,6 +587,7 @@ write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/mapos#Gaulish
 				sound     # bruxtus
 				warmth    # tessis
+				vase      
 				water     # dubron
 				way       # mantle
 				wind      # auelos
@@ -561,6 +618,7 @@ write('data/inflection/indo-european/celtic/gaulish/scraped-verbs.tsv',
 				endure    # pass-et
 				fall      # cedet
 				fly       # etet
+				hear      
 				occupy    # atrebā-t
 				resemble  
 				rest      
@@ -592,6 +650,7 @@ write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%E1%83%A2%E1%83%90%E1%83%9C%E1%83%A1%E1%83%90%E1%83%AA%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98#Georgian
 				daughter  https://en.wiktionary.org/wiki/%E1%83%90%E1%83%A1%E1%83%A3%E1%83%9A%E1%83%98#Georgian
 				dog       https://en.wiktionary.org/wiki/%E1%83%AB%E1%83%90%E1%83%A6%E1%83%9A%E1%83%98#Georgian
+				door      
 				drum      https://en.wiktionary.org/wiki/%E1%83%93%E1%83%9D%E1%83%9A%E1%83%98#Georgian
 				enemy     https://en.wiktionary.org/wiki/%E1%83%9B%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98#Georgian
 				fire      https://en.wiktionary.org/wiki/%E1%83%AA%E1%83%94%E1%83%AA%E1%83%AE%E1%83%9A%E1%83%98#Georgian
@@ -613,6 +672,7 @@ write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%E1%83%AB%E1%83%94#Georgian
 				sound     https://en.wiktionary.org/wiki/%E1%83%AE%E1%83%9B%E1%83%90#Georgian
 				warmth    
+				vase      
 				water     https://en.wiktionary.org/wiki/%E1%83%AC%E1%83%A7%E1%83%90%E1%83%9A%E1%83%98#Georgian
 				way       https://en.wiktionary.org/wiki/%E1%83%92%E1%83%96%E1%83%90#Georgian
 				wind      https://en.wiktionary.org/wiki/%E1%83%A5%E1%83%90%E1%83%A0%E1%83%98#Georgian
@@ -641,17 +701,18 @@ write('data/inflection/kartvelian/georgian/scraped-verbs.tsv',
 				endure    
 				fall      
 				fly       
+				hear      https://en.wiktionary.org/wiki/%E1%83%A1%E1%83%9B%E1%83%94%E1%83%9C%E1%83%90#Georgian
 				occupy    
 				resemble  
 				rest      https://en.wiktionary.org/wiki/%E1%83%93%E1%83%90%E1%83%A1%E1%83%95%E1%83%94%E1%83%9C%E1%83%94%E1%83%91%E1%83%90#Georgian
 				see       https://en.wiktionary.org/wiki/%E1%83%AE%E1%83%94%E1%83%93%E1%83%90%E1%83%95%E1%83%A1#Georgian
-				show      
+				show      https://en.wiktionary.org/wiki/%E1%83%A9%E1%83%95%E1%83%94%E1%83%9C%E1%83%94%E1%83%91%E1%83%90#Georgian
 				startle   
 				swim      
-				walk      
-				warm      
+				walk      https://en.wiktionary.org/wiki/%E1%83%A1%E1%83%95%E1%83%9A%E1%83%90#Georgian
+				warm      https://en.wiktionary.org/wiki/%E1%83%90%E1%83%97%E1%83%91%E1%83%9D%E1%83%91%E1%83%A1#Georgian
 				watch     
-				work      
+				work      https://en.wiktionary.org/wiki/%E1%83%9B%E1%83%A3%E1%83%A8%E1%83%90%E1%83%9D%E1%83%91%E1%83%90#Georgian
 			''')
 		)
 	)
@@ -673,17 +734,18 @@ write('data/inflection/indo-european/germanic/german/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/ertragen#German
 				fall      https://en.wiktionary.org/wiki/fallen#German
 				fly       https://en.wiktionary.org/wiki/fliegen#German
+				hear      https://en.wiktionary.org/wiki/h%C3%B6ren#German
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/%C3%A4hneln#German
 				rest      https://en.wiktionary.org/wiki/ruhen#German
 				see       https://en.wiktionary.org/wiki/sehen#German
-				show      
-				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				show      https://en.wiktionary.org/wiki/zeigen#German
+				startle   https://en.wiktionary.org/wiki/erschrecken#German
+				swim      https://en.wiktionary.org/wiki/schwimmen#German
+				walk      https://en.wiktionary.org/wiki/gehen#German
+				warm      https://en.wiktionary.org/wiki/w%C3%A4rmen#German
+				watch     https://en.wiktionary.org/wiki/zusehen#German
+				work      https://en.wiktionary.org/wiki/arbeiten#German
 			''')
 		)
 	)
@@ -703,6 +765,7 @@ write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%CF%81%CE%BF%CF%8D%CF%87%CE%BF#Greek
 				daughter  https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B7#Greek
 				dog       https://en.wiktionary.org/wiki/%CF%83%CE%BA%CF%8D%CE%BB%CE%BF%CF%82#Greek
+				door      
 				drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF#Greek
 				enemy     https://en.wiktionary.org/wiki/%CE%B5%CF%87%CE%B8%CF%81%CF%8C%CF%82#Greek
 				fire      https://en.wiktionary.org/wiki/%CF%86%CF%89%CF%84%CE%B9%CE%AC#Greek
@@ -724,6 +787,7 @@ write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%CE%B3%CE%B9%CE%BF%CF%82#Greek
 				sound     https://en.wiktionary.org/wiki/%CE%AE%CF%87%CE%BF%CF%82#Greek
 				warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%B5%CF%81%CE%BC%CF%8C%CF%84%CE%B7%CF%84%CE%B1#Greek
+				vase      
 				water     https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CF%81%CF%8C#Greek
 				way       https://en.wiktionary.org/wiki/%CE%B4%CF%81%CF%8C%CE%BC%CE%BF%CF%82#Greek
 				wind      https://en.wiktionary.org/wiki/%CE%AC%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Greek
@@ -751,17 +815,18 @@ write('data/inflection/indo-european/greek/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%CE%B1%CE%BD%CF%84%CE%AD%CF%87%CF%89#Greek
 				fall      https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%86%CF%84%CF%89#Greek
 				fly       https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%84%CF%8E#Greek
+				hear      
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/%CE%BC%CE%BF%CE%B9%CE%AC%CE%B6%CF%89#Greek
-				rest      
+				rest      https://en.wiktionary.org/wiki/%CE%B1%CE%BA%CE%BF%CF%85%CE%BC%CF%80%CF%8E#Greek
 				see       https://en.wiktionary.org/wiki/%CE%B2%CE%BB%CE%AD%CF%80%CF%89#Greek
-				show      
-				startle   
-				swim      
-				walk      
+				show      https://en.wiktionary.org/wiki/%CE%B5%CE%BC%CF%86%CE%B1%CE%BD%CE%AF%CE%B6%CF%89#Greek
+				startle   https://en.wiktionary.org/wiki/%CE%B1%CE%B9%CF%86%CE%BD%CE%B9%CE%B4%CE%B9%CE%AC%CE%B6%CF%89#Greek
+				swim      https://en.wiktionary.org/wiki/%CE%BA%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%AC%CF%89#Greek
+				walk      https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CF%80%CE%B1%CF%84%CE%AC%CF%89#Greek
 				warm      
-				watch     
-				work      
+				watch     https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%81%CE%B1%CE%BA%CE%BF%CE%BB%CE%BF%CF%85%CE%B8%CF%8E#Greek
+				work      https://en.wiktionary.org/wiki/%CE%B4%CE%BF%CF%85%CE%BB%CE%B5%CF%8D%CF%89#Greek
 			''')
 		)
 	)
@@ -779,6 +844,7 @@ write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
 				book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%CE%BD#Ancient_Greek
 				bug       https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CF%84%CE%BF%CE%BC%CE%BF%CE%BD#Ancient_Greek
 				dog       https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CF%89%CE%BD#Ancient_Greek
+				door      
 				clothing  https://en.wiktionary.org/wiki/%E1%BC%90%CF%83%CE%B8%CE%AE%CF%82#Ancient_Greek
 				daughter  https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81#Ancient_Greek
 				drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF%CE%BD#Ancient_Greek
@@ -803,6 +869,7 @@ write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%CF%85%E1%BC%B1%CF%8C%CF%82#Ancient_Greek
 				sound     https://en.wiktionary.org/wiki/%E1%BC%A6%CF%87%CE%BF%CF%82#Ancient_Greek
 				warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%AD%CF%81%CE%BC%CE%B7#Ancient_Greek
+				vase      
 				water     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek
 				way       https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%BB%CE%B5%CF%85%CE%B8%CE%BF%CF%82#Ancient_Greek
 				wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
@@ -886,17 +953,18 @@ write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%E1%BD%91%CF%80%CE%BF%CE%BC%CE%AD%CE%BD%CF%89#Ancient_Greek
 				fall      https://en.wiktionary.org/wiki/%CF%80%CE%AF%CF%80%CF%84%CF%89#Ancient_Greek
 				fly       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%84%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
+				hear      
 				occupy    
 				resemble  
 				rest      
 				see       https://en.wiktionary.org/wiki/%CE%B2%CE%BB%CE%AD%CF%80%CF%89#Ancient_Greek
-				show      
+				show      https://en.wiktionary.org/wiki/%CE%B4%CE%B5%CE%AF%CE%BA%CE%BD%CF%85%CE%BC%CE%B9#Ancient_Greek
 				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				swim      https://en.wiktionary.org/wiki/%CE%BD%CE%AD%CF%89#Ancient_Greek
+				walk      https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AD%CF%89#Ancient_Greek
+				warm      https://en.wiktionary.org/wiki/%CE%B8%CE%AC%CE%BB%CF%80%CF%89#Ancient_Greek
+				watch     https://en.wiktionary.org/wiki/%CF%83%CE%BA%CE%BF%CF%80%CE%AD%CF%89#Ancient_Greek
+				work      https://en.wiktionary.org/wiki/%E1%BC%90%CF%81%CE%B3%CE%AC%CE%B6%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
 			''')
 		)
 	)
@@ -916,6 +984,7 @@ write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 				clothing  
 				daughter  https://en.wiktionary.org/wiki/%D7%91%D7%AA#Hebrew
 				dog       https://en.wiktionary.org/wiki/%D7%9B%D7%9C%D7%91#Hebrew
+				door      
 				drum      
 				enemy     
 				fire      
@@ -937,6 +1006,7 @@ write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%D7%91%D7%9F#Hebrew
 				sound     
 				warmth    
+				vase      
 				water     https://en.wiktionary.org/wiki/%D7%9E%D7%99%D7%9D#Hebrew
 				way       https://en.wiktionary.org/wiki/%D7%93%D7%A8%D7%9A#Hebrew
 				wind      https://en.wiktionary.org/wiki/%D7%A8%D7%95%D7%97#Hebrew
@@ -965,17 +1035,18 @@ write('data/inflection/semitic/hebrew/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/%D7%A0%D7%A4%D7%9C#Hebrew
 				fly       https://en.wiktionary.org/wiki/%D7%98%D7%A1#Hebrew
+				hear      https://en.wiktionary.org/wiki/%D7%A9%D7%9E%D7%A2#Hebrew
 				occupy    
 				resemble  
 				rest      https://en.wiktionary.org/wiki/%D7%A0%D7%97#Hebrew
 				see       https://en.wiktionary.org/wiki/%D7%A8%D7%90%D7%94#Hebrew
-				show      
+				show      https://en.wiktionary.org/wiki/%D7%94%D7%A8%D7%90%D7%94#Hebrew
 				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				swim      https://en.wiktionary.org/wiki/%D7%A9%D7%97%D7%94#Hebrew
+				walk      https://en.wiktionary.org/wiki/%D7%94%D7%9C%D7%9A#Hebrew
+				warm      https://en.wiktionary.org/wiki/%D7%97%D7%99%D7%9E%D7%9D#Hebrew
+				watch     https://en.wiktionary.org/wiki/%D7%A6%D7%A4%D7%94#Hebrew
+				work      https://en.wiktionary.org/wiki/%D7%A2%D7%91%D7%93#Hebrew
 			''')
 		)
 	)
@@ -995,6 +1066,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0#Hindi
 				daughter  https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80#Hindi
 				dog       https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE#Hindi
+				door      
 				drum      https://en.wiktionary.org/wiki/%E0%A4%A2%E0%A5%8B%E0%A4%B2#Hindi
 				enemy     https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%81%E0%A4%B6%E0%A5%8D%E0%A4%AE%E0%A4%A8#Hindi
 				fire      https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%97#Hindi
@@ -1016,6 +1088,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A4%BE#Hindi
 				sound     https://en.wiktionary.org/wiki/%E0%A4%A7%E0%A5%8D%E0%A4%B5%E0%A4%A8%E0%A5%80#Hindi
 				warmth    https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%BE%E0%A4%AA#Hindi
+				vase      
 				water     https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A5%80#Hindi
 				way       https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%A5#Hindi
 				wind      https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%B5%E0%A4%BE#Hindi
@@ -1027,15 +1100,14 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 	)
 )
 
-"""
 write('data/inflection/indo-european/indo-iranian/hindi/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Hindi', 'hi'), 
 			parsing.tokenpoints('''
 				appear    
-				be-inherently  #https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A4%BE#Hindi
+				be-inherently  https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A4%BE#Hindi
 				be-momentarily 
-				change    #https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%A6%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
+				change    https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%A6%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
 				climb     https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%A2%E0%A4%BC%E0%A4%A8%E0%A4%BE#Hindi
 				cool      
 				direct    
@@ -1044,22 +1116,22 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/%E0%A4%97%E0%A4%BF%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
 				fly       https://en.wiktionary.org/wiki/%E0%A4%89%E0%A4%A1%E0%A4%BC%E0%A4%A8%E0%A4%BE#Hindi
+                hear      https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%81%E0%A4%A8%E0%A4%A8%E0%A4%BE#Hindi
 				occupy    
 				resemble  
-				rest      #https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%B0%E0%A4%BE%E0%A4%AE_%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
-				see       #https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A4%A8%E0%A4%BE#Hindi
-				show      
+				rest      https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%B0%E0%A4%BE%E0%A4%AE_%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+				see       https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A4%A8%E0%A4%BE#Hindi
+				show      https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A4%BF%E0%A4%96%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
 				startle   
-				swim      
-				walk      
+				swim      https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%88%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+				walk      https://en.wiktionary.org/wiki/%E0%A4%9F%E0%A4%B9%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
 				warm      
-				watch     
-				work      
+				watch     https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A4%A8%E0%A4%BE#Hindi
+				work      https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%AE_%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
 			''')
 		)
 	)
 )
-"""
 
 #TODO: Hittite needs its own custom format that does not rely on language code
 print('HITTITE')
@@ -1076,6 +1148,7 @@ write('data/inflection/indo-european/hittite/scraped-nouns.tsv',
 				clothing  
 				daughter  
 				dog       https://en.wiktionary.org/wiki/%F0%92%86%AA%F0%92%89%BF%F0%92%80%B8#Hittite
+				door      
 				drum      
 				enemy     
 				fire      https://en.wiktionary.org/wiki/%F0%92%89%BA%F0%92%84%B4%F0%92%84%AF#Hittite
@@ -1097,6 +1170,7 @@ write('data/inflection/indo-european/hittite/scraped-nouns.tsv',
 				son       
 				sound     
 				warmth    
+				vase      
 				water     https://en.wiktionary.org/wiki/%F0%92%89%BF%F0%92%80%80%F0%92%8B%BB#Hittite
 				way       https://en.wiktionary.org/wiki/%F0%92%86%9C%F0%92%80%B8#Hittite
 				wind      https://en.wiktionary.org/wiki/%F0%92%84%B7%F0%92%8C%8B%F0%92%89%BF%F0%92%80%AD%F0%92%8D%9D
@@ -1135,6 +1209,7 @@ write('data/inflection/indo-european/hittite/scraped-verbs.tsv',
 				endure    
 				fall      
 				fly       
+				hear      
 				occupy    
 				resemble  
 				rest      
@@ -1165,6 +1240,7 @@ write('data/inflection/uralic/hungarian/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/ruh%C3%A1zat#Hungarian
 				daughter  https://en.wiktionary.org/wiki/l%C3%A1ny#Hungarian
 				dog       https://en.wiktionary.org/wiki/kutya#Hungarian
+				door      
 				drum      https://en.wiktionary.org/wiki/dob#Hungarian:_drum
 				enemy     https://en.wiktionary.org/wiki/ellens%C3%A9g#Hungarian
 				fire      https://en.wiktionary.org/wiki/t%C5%B1z#Hungarian
@@ -1186,6 +1262,7 @@ write('data/inflection/uralic/hungarian/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/fi%C3%BA#Hungarian
 				sound     https://en.wiktionary.org/wiki/hang#Hungarian
 				warmth    https://en.wiktionary.org/wiki/h%C5%91#Hungarian
+				vase      
 				water     https://en.wiktionary.org/wiki/v%C3%ADz#Hungarian
 				way       https://en.wiktionary.org/wiki/%C3%BAt#Hungarian
 				wind      https://en.wiktionary.org/wiki/sz%C3%A9l#Hungarian
@@ -1215,17 +1292,18 @@ write('data/inflection/uralic/hungarian/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/kitart#Hungarian
 				fall      https://en.wiktionary.org/wiki/esik#Hungarian
 				fly       https://en.wiktionary.org/wiki/rep%C3%BCl#Hungarian
+				hear      https://en.wiktionary.org/wiki/hall#Hungarian
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/hasonl%C3%ADt#Hungarian
-				rest      https://en.wiktionary.org/wiki/pihen#Hungarian
+				rest      https://en.wiktionary.org/wiki/t%C3%A1maszt#Hungarian
 				see       https://en.wiktionary.org/wiki/l%C3%A1t#Hungarian
-				show      
+				show      https://en.wiktionary.org/wiki/megmutat#Hungarian
 				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				swim      https://en.wiktionary.org/wiki/%C3%BAszik#Hungarian
+				walk      https://en.wiktionary.org/wiki/s%C3%A9t%C3%A1l#Hungarian
+				warm      https://en.wiktionary.org/wiki/meleg%C3%ADt#Hungarian
+				watch     https://en.wiktionary.org/wiki/n%C3%A9z#Hungarian
+				work      https://en.wiktionary.org/wiki/dolgozik#Hungarian
 			''')
 		)
 	)
@@ -1248,17 +1326,18 @@ write('data/inflection/indo-european/romance/italian/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/durare#Italian
 				fall      https://en.wiktionary.org/wiki/cadere#Italian
 				fly       https://en.wiktionary.org/wiki/volare#Italian
+				hear      https://en.wiktionary.org/wiki/udire#Italian
 				occupy    https://en.wiktionary.org/wiki/occupare#Italian
 				resemble  https://en.wiktionary.org/wiki/rassomigliare#Italian
-				rest      https://en.wiktionary.org/wiki/riposare#Italian
+				rest      https://en.wiktionary.org/wiki/reggersi#Italian
 				see       https://en.wiktionary.org/wiki/vedere#Italian
-				show      
-				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				show      https://en.wiktionary.org/wiki/mostrare#Italian
+				startle   https://en.wiktionary.org/wiki/sorprendere#Italian
+				swim      https://en.wiktionary.org/wiki/nuotare#Italian
+				walk      https://en.wiktionary.org/wiki/camminare#Italian
+				warm      https://en.wiktionary.org/wiki/riscaldare#Italian
+				watch     https://en.wiktionary.org/wiki/guardare#Italian
+				work      https://en.wiktionary.org/wiki/lavorare#Italian
 			''')
 		)
 	)
@@ -1280,17 +1359,18 @@ write('data/inflection/japanese/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%E8%80%90%E3%81%88%E3%82%8B#Japanese
 				fall      https://en.wiktionary.org/wiki/%E8%90%BD%E3%81%A1%E3%82%8B#Japanese
 				fly       https://en.wiktionary.org/wiki/%E9%A3%9B%E3%81%B6#Japanese
-				occupy    
+				hear      https://en.wiktionary.org/wiki/%E8%81%9E%E3%81%8F#Japanese
+				occupy    https://en.wiktionary.org/wiki/%E5%8D%A0%E3%82%81%E3%82%8B#Japanese
 				resemble  https://en.wiktionary.org/wiki/%E4%BC%BC%E3%82%8B#Japanese
 				rest      https://en.wiktionary.org/wiki/%E4%BC%91%E3%82%80#Japanese
 				see       https://en.wiktionary.org/wiki/%E8%A6%8B%E3%82%8B#Japanese
-				show      
-				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				show      https://en.wiktionary.org/wiki/%E7%A4%BA%E3%81%99#Japanese
+				startle   https://en.wiktionary.org/wiki/%E8%84%85%E3%81%8B%E3%81%99#Japanese
+				swim      https://en.wiktionary.org/wiki/%E6%B3%B3%E3%81%90#Japanese
+				walk      https://en.wiktionary.org/wiki/%E6%AD%A9%E3%81%8F#Japanese
+				warm      https://en.wiktionary.org/wiki/%E6%B8%A9%E3%82%81%E3%82%8B#Japanese
+				watch     https://en.wiktionary.org/wiki/%E8%A6%8B%E3%82%8B#Japanese
+				work      https://en.wiktionary.org/wiki/%E5%83%8D%E3%81%8F#Japanese
 			''')
 		)
 	)
@@ -1311,6 +1391,7 @@ write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/vestis#Latin
 				daughter  https://en.wiktionary.org/wiki/filia#Latin
 				dog       https://en.wiktionary.org/wiki/canis#Latin
+				door      
 				drum      https://en.wiktionary.org/wiki/tympanum#Latin
 				enemy     https://en.wiktionary.org/wiki/inimicus#Latin
 				fire      https://en.wiktionary.org/wiki/ignis#Latin
@@ -1332,6 +1413,7 @@ write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/filius#Latin
 				sound     https://en.wiktionary.org/wiki/sonus#Latin
 				warmth    https://en.wiktionary.org/wiki/calor#Latin
+				vase      
 				water     https://en.wiktionary.org/wiki/aqua#Latin
 				way       https://en.wiktionary.org/wiki/via#Latin
 				wind      https://en.wiktionary.org/wiki/ventus#Latin
@@ -1379,30 +1461,28 @@ write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/perpetior#Latin
 				fall      https://en.wiktionary.org/wiki/cado#Latin
 				fly       https://en.wiktionary.org/wiki/volo#Latin
+				hear      https://en.wiktionary.org/wiki/audio#Latin
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/similo#Latin
 				rest      https://en.wiktionary.org/wiki/requiesco#Latin
 				see       https://en.wiktionary.org/wiki/video#Latin
-				show      
-				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				show      https://en.wiktionary.org/wiki/monstro#Latin
+				startle   https://en.wiktionary.org/wiki/pavefacio#Latin
+				swim      https://en.wiktionary.org/wiki/nato#Latin
+				walk      https://en.wiktionary.org/wiki/ambulo#Latin
+				warm      https://en.wiktionary.org/wiki/calefacio#Latin
+				watch     https://en.wiktionary.org/wiki/specto#Latin
+				work      https://en.wiktionary.org/wiki/laboro#Latin
 
-				be        
-				be-able   
-				want      
-				become    
-				go        
-				carry     
-				eat       
-				love      
-				advise    
-				direct    
-				capture   
-				hear      
+				be        https://en.wiktionary.org/wiki/sum#Latin
+				be-able   https://en.wiktionary.org/wiki/possum#Latin
+				want      https://en.wiktionary.org/wiki/volo#Latin
+				become    https://en.wiktionary.org/wiki/fio#Latin
+				go        https://en.wiktionary.org/wiki/eo#Latin
+				carry     https://en.wiktionary.org/wiki/fero#Latin
+				love      https://en.wiktionary.org/wiki/amo#Latin
+				advise    https://en.wiktionary.org/wiki/moneo#Latin
+				capture   https://en.wiktionary.org/wiki/capio#Latin
 			''')
 		)
 	)
@@ -1422,6 +1502,7 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.ts
 				clothing  https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0#Old_Church_Slavonic
 				daughter  https://en.wiktionary.org/wiki/%D0%B4%D1%8A%D1%89%D0%B8#Old_Church_Slavonic
 				dog       https://en.wiktionary.org/wiki/%D0%BF%D1%8C%D1%81%D1%8A#Old_Church_Slavonic
+				door      
 				drum      
 				enemy     https://en.wiktionary.org/wiki/%D0%B2%D1%80%D0%B0%D0%B3%D1%8A#Old_Church_Slavonic
 				fire      
@@ -1443,6 +1524,7 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.ts
 				son       https://en.wiktionary.org/wiki/%D1%81%EA%99%91%D0%BD%D1%8A#Old_Church_Slavonic
 				sound     
 				warmth    
+				vase      
 				water     https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B0#Old_Church_Slavonic
 				way       https://en.wiktionary.org/wiki/%D0%BF%D1%AB%D1%82%D1%8C#Old_Church_Slavonic
 				wind      https://en.wiktionary.org/wiki/%D0%B2%D1%A3%D1%82%D1%80%D1%8A#Old_Church_Slavonic
@@ -1471,17 +1553,18 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-verbs.ts
 				endure    https://en.wiktionary.org/wiki/%D1%82%D1%80%D1%8C%D0%BF%D1%A3%D1%82%D0%B8#Old_Church_Slavonic
 				fall      
 				fly       https://en.wiktionary.org/wiki/%D0%BB%D0%B5%D1%82%D1%A3%D1%82%D0%B8#Old_Church_Slavonic
+				hear      https://en.wiktionary.org/wiki/%D1%81%D0%BB%EA%99%91%D1%88%D0%B0%D1%82%D0%B8#Old_Church_Slavonic
 				occupy    
 				resemble  
 				rest      
-				see       
+				see       https://en.wiktionary.org/wiki/%D0%B2%D0%B8%D0%B4%D1%A3%D1%82%D0%B8#Old_Church_Slavonic
 				show      
 				startle   
 				swim      
 				walk      
 				warm      
 				watch     
-				work      
+				work      https://en.wiktionary.org/wiki/%D0%B4%D1%A3%D0%BB%D0%B0%D1%82%D0%B8#Old_Church_Slavonic
 			''')
 		)
 	)
@@ -1501,6 +1584,7 @@ write('data/inflection/indo-european/germanic/english/old/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/scrud#Old_English
 				daughter  https://en.wiktionary.org/wiki/dohtor#Old_English
 				dog       https://en.wiktionary.org/wiki/hund#Old_English
+				door      
 				drum      
 				enemy     https://en.wiktionary.org/wiki/feond#Old_English
 				fire      https://en.wiktionary.org/wiki/fyr#Old_English
@@ -1522,6 +1606,7 @@ write('data/inflection/indo-european/germanic/english/old/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/sunu#Old_English
 				sound     https://en.wiktionary.org/wiki/sweg#Old_English
 				warmth    https://en.wiktionary.org/wiki/h%C3%A6tu#Old_English
+				vase      
 				water     https://en.wiktionary.org/wiki/w%C3%A6ter#Old_English
 				way       https://en.wiktionary.org/wiki/weg#Old_English
 				wind      https://en.wiktionary.org/wiki/wind#Old_English
@@ -1573,17 +1658,18 @@ write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/adreogan#Old_English
 				fall      https://en.wiktionary.org/wiki/feallan#Old_English
 				fly       https://en.wiktionary.org/wiki/fleogan#Old_English
-				occupy    
+				hear      https://en.wiktionary.org/wiki/gehieran#Old_English
+				occupy    https://en.wiktionary.org/wiki/weardian#Old_English
 				resemble  
 				rest      
-				see       
-				show      
+				see       https://en.wiktionary.org/wiki/geseon#Old_English
+				show      https://en.wiktionary.org/wiki/%C3%A6tiewan#Old_English
 				startle   
-				swim      
-				walk      
+				swim      https://en.wiktionary.org/wiki/swimman#Old_English
+				walk      https://en.wiktionary.org/wiki/gan#Old_English
 				warm      
-				watch     
-				work      
+				watch     https://en.wiktionary.org/wiki/w%C3%A6cce#Old_English
+				work      https://en.wiktionary.org/wiki/wyrcan#Old_English
 			''')
 		)
 	)
@@ -1603,6 +1689,7 @@ write('data/inflection/quechuan/scraped-nouns.tsv',
 				clothing  
 				daughter  
 				dog       https://en.wiktionary.org/wiki/allqu#Quechua
+				door      
 				drum      
 				enemy     https://en.wiktionary.org/wiki/awqa#Quechua
 				fire      https://en.wiktionary.org/wiki/nina#Quechua
@@ -1624,6 +1711,7 @@ write('data/inflection/quechuan/scraped-nouns.tsv',
 				son       
 				sound     
 				warmth    https://en.wiktionary.org/wiki/ruphay#Quechua
+				vase      
 				water     https://en.wiktionary.org/wiki/yaku#Quechua
 				way       https://en.wiktionary.org/wiki/%C3%B1an#Quechua
 				wind      https://en.wiktionary.org/wiki/wayra#Quechua
@@ -1652,17 +1740,18 @@ write('data/inflection/quechuan/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/urmay#Quechua
 				fly       https://en.wiktionary.org/wiki/phaway#Quechua
+				hear      https://en.wiktionary.org/wiki/uyariy#Quechua
 				occupy    
-				resemble  
+				resemble  https://en.wiktionary.org/wiki/rikch%27akuy#Quechua
 				rest      
-				see       
-				show      
+				see       https://en.wiktionary.org/wiki/rikuy#Quechua
+				show      https://en.wiktionary.org/wiki/rikuchiy#Quechua
 				startle   
-				swim      
-				walk      
+				swim      https://en.wiktionary.org/wiki/wamp%27uy#Quechua
+				walk      https://en.wiktionary.org/wiki/riy#Quechua
 				warm      
-				watch     
-				work      
+				watch     https://en.wiktionary.org/wiki/qhaway#Quechua
+				work      https://en.wiktionary.org/wiki/llamk%27ay#Quechua
 			''')
 		)
 	)
@@ -1682,6 +1771,7 @@ write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0#Russian
 				daughter  https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D1%87%D1%8C#Russian
 				dog       https://en.wiktionary.org/wiki/%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#Russian
+				door      
 				drum      https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD#Russian
 				enemy     https://en.wiktionary.org/wiki/%D0%B2%D1%80%D0%B0%D0%B3#Russian
 				fire      https://en.wiktionary.org/wiki/%D0%BE%D0%B3%D0%BE%D0%BD%D1%8C#Russian
@@ -1703,6 +1793,7 @@ write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%D1%81%D1%8B%D0%BD#Russian
 				sound     https://en.wiktionary.org/wiki/%D0%B7%D0%B2%D1%83%D0%BA#Russian
 				warmth    https://en.wiktionary.org/wiki/%D1%82%D0%B5%D0%BF%D0%BB%D0%BE#Russian
+				vase      
 				water     https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B0#Russian
 				way       https://en.wiktionary.org/wiki/%D0%BF%D1%83%D1%82%D1%8C#Russian
 				wind      https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D1%82%D0%B5%D1%80#Russian
@@ -1744,17 +1835,18 @@ write('data/inflection/indo-european/slavic/russian/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%D1%82%D0%B5%D1%80%D0%BF%D0%B5%D1%82%D1%8C#Russian
 				fall      https://en.wiktionary.org/wiki/%D0%BF%D0%B0%D0%B4%D0%B0%D1%82%D1%8C#Russian
 				fly       https://en.wiktionary.org/wiki/%D0%BB%D0%B5%D1%82%D0%B0%D1%82%D1%8C#Russian
-				occupy    
-				resemble  
+				hear      https://en.wiktionary.org/wiki/%D1%81%D0%BB%D1%8B%D1%88%D0%B0%D1%82%D1%8C#Russian
+				occupy    https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D1%8C#Russian
+				resemble  https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C#Russian
 				rest      
-				see       
-				show      
-				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				see       https://en.wiktionary.org/wiki/%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D1%8C#Russian
+				show      https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%82%D1%8C#Russian
+				startle   https://en.wiktionary.org/wiki/%D0%BF%D1%83%D0%B3%D0%B0%D1%82%D1%8C#Russian
+				swim      https://en.wiktionary.org/wiki/%D0%BF%D0%BB%D1%8B%D1%82%D1%8C#Russian
+				walk      https://en.wiktionary.org/wiki/%D1%88%D0%B0%D0%B3%D0%B0%D1%82%D1%8C#Russian
+				warm      https://en.wiktionary.org/wiki/%D0%B3%D1%80%D0%B5%D1%82%D1%8C#Russian
+				watch     https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0%D1%82%D1%8C#Russian
+				work      https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C#Russian
 			''')
 		)
 	)
@@ -1774,7 +1866,8 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A5%8D#Sanskrit
 				daughter  https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%81%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%83#Sanskrit
 				dog       https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A5%81%E0%A4%B0#Sanskrit
-				drum      https://en.wiktionary.org/wiki/%E0%A4%A2%E0%A5%8B%E0%A4%B2#Hindi
+				door      
+				drum      https://en.wiktionary.org/wiki/%E0%A4%A2%E0%A5%8B%E0%A4%B2#Sanskrit
 				enemy     https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%81#Sanskrit
 				fire      https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%97%E0%A5%8D%E0%A4%A8%E0%A4%BF#Sanskrit
 				food      https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A8#Sanskrit
@@ -1795,6 +1888,7 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%B0#Sanskrit
 				sound     https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%AC%E0%A5%8D%E0%A4%A6#Sanskrit
 				warmth    https://en.wiktionary.org/wiki/%E0%A4%98%E0%A4%B0%E0%A5%8D%E0%A4%AE#Sanskrit
+				vase      
 				water     https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BF#Sanskrit
 				way       https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%A5#Sanskrit
 				wind      https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%97%E0%A4%A4%E0%A5%8D#Sanskrit
@@ -1843,15 +1937,16 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%A4%E0%A4%A4%E0%A4%BF#Sanskrit
 				fly       
+				hear      https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%81#Sanskrit
 				occupy    
 				resemble  
 				rest      
-				see       
-				show      
+				see       https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%B6%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BF#Sanskrit
+				show      https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%A4%E0%A4%BF#Sanskrit
 				startle   
-				swim      
-				walk      
-				warm      
+				swim      https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A4%B5%E0%A4%A4%E0%A5%87#Sanskrit
+				walk      https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%B2%E0%A4%A4%E0%A4%BF#Sanskrit
+				warm      https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%AA%E0%A4%A4%E0%A4%BF#Sanskrit
 				watch     
 				work      
 			''')
@@ -1875,17 +1970,18 @@ write('data/inflection/indo-european/romance/spanish/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/tolerar#Spanish
 				fall      https://en.wiktionary.org/wiki/caer#Spanish
 				fly       https://en.wiktionary.org/wiki/volar#Spanish
-				occupy    
-				resemble  
+				hear      https://en.wiktionary.org/wiki/o%C3%ADr#Spanish
+				occupy    https://en.wiktionary.org/wiki/ocupar#Spanish
+				resemble  https://en.wiktionary.org/wiki/semejar#Spanish
 				rest      
-				see       
-				show      
+				see       https://en.wiktionary.org/wiki/ver#Spanish
+				show      https://en.wiktionary.org/wiki/mostrar#Spanish
 				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				swim      https://en.wiktionary.org/wiki/nadar#Spanish
+				walk      https://en.wiktionary.org/wiki/caminar#Spanish
+				warm      https://en.wiktionary.org/wiki/calentar#Spanish
+				watch     https://en.wiktionary.org/wiki/mirar#Spanish
+				work      https://en.wiktionary.org/wiki/trabajar#Spanish
 			''')
 		)
 	)
@@ -1905,6 +2001,7 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/kl%C3%A4der#Swedish
 				daughter  https://en.wiktionary.org/wiki/dotter#Swedish
 				dog       https://en.wiktionary.org/wiki/hund#Swedish
+				door      
 				drum      https://en.wiktionary.org/wiki/trumma#Swedish
 				enemy     https://en.wiktionary.org/wiki/fiende#Swedish
 				fire      https://en.wiktionary.org/wiki/eld#Swedish
@@ -1926,6 +2023,7 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/son#Swedish
 				sound     https://en.wiktionary.org/wiki/ljud#Swedish
 				warmth    https://en.wiktionary.org/wiki/v%C3%A4rme#Swedish
+				vase      
 				water     https://en.wiktionary.org/wiki/vatten#Swedish
 				way       https://en.wiktionary.org/wiki/v%C3%A4g#Swedish
 				wind      https://en.wiktionary.org/wiki/vind#Swedish
@@ -1954,25 +2052,22 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/utst%C3%A5#Swedish
 				fall      https://en.wiktionary.org/wiki/falla#Swedish
 				fly       https://en.wiktionary.org/wiki/flyga#Swedish
-				occupy    
-				resemble  
+				hear      https://en.wiktionary.org/wiki/h%C3%B6ra#Swedish
+				occupy    https://en.wiktionary.org/wiki/uppta#Swedish
+				resemble  https://en.wiktionary.org/wiki/likna#Swedish
 				rest      
-				see       
-				show      
-				startle   
-				swim      
-				walk      
-				warm      
-				watch     
-				work      
+				see       https://en.wiktionary.org/wiki/se#Swedish
+				show      https://en.wiktionary.org/wiki/visa#Swedish
+				startle   https://en.wiktionary.org/wiki/spritta#Swedish
+				swim      https://en.wiktionary.org/wiki/simma#Swedish
+				walk      https://en.wiktionary.org/wiki/g%C3%A5#Swedish
+				warm      https://en.wiktionary.org/wiki/v%C3%A4rma#Swedish
+				watch     https://en.wiktionary.org/wiki/se_p%C3%A5#Swedish
+				work      https://en.wiktionary.org/wiki/arbeta#Swedish
 			''')
 		)
 	)
 )
-
-"""
-
-"""
 
 print('TAMIL')
 write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
@@ -1988,6 +2083,7 @@ write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%E0%AE%86%E0%AE%9F%E0%AF%88#Tamil
 				daughter  https://en.wiktionary.org/wiki/%E0%AE%AE%E0%AE%95%E0%AE%B3%E0%AF%8D#Tamil
 				dog       https://en.wiktionary.org/wiki/%E0%AE%A8%E0%AE%BE%E0%AE%AF%E0%AF%8D#Tamil
+				door      
 				drum      
 				enemy     https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%95%E0%AF%88%E0%AE%B5%E0%AE%A9%E0%AF%8D#Tamil
 				fire      https://en.wiktionary.org/wiki/%E0%AE%A8%E0%AF%86%E0%AE%B0%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81#Tamil
@@ -2009,6 +2105,7 @@ write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%E0%AE%AE%E0%AE%95%E0%AE%A9%E0%AF%8D#Tamil
 				sound     https://en.wiktionary.org/wiki/%E0%AE%9A%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%AE%E0%AF%8D#Tamil
 				warmth    https://en.wiktionary.org/wiki/%E0%AE%9A%E0%AF%82%E0%AE%9F%E0%AF%81#Tamil
+				vase      
 				water     https://en.wiktionary.org/wiki/%E0%AE%A8%E0%AF%80%E0%AE%B0%E0%AF%8D#Tamil
 				way       https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AE%B4%E0%AE%BF#Tamil
 				wind      https://en.wiktionary.org/wiki/%E0%AE%95%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81#Tamil
@@ -2037,14 +2134,15 @@ write('data/inflection/dravidian/tamil/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AE%BF%E0%AE%B4%E0%AF%81#Tamil
 				fly       https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%B1#Tamil
+				hear      https://en.wiktionary.org/wiki/%E0%AE%95%E0%AF%87%E0%AE%B3%E0%AF%8D#Tamil
 				occupy    
 				resemble  
 				rest      
-				see       
+				see       https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%BE%E0%AE%B0%E0%AF%8D#Tamil
 				show      
 				startle   
-				swim      
-				walk      
+				swim      https://en.wiktionary.org/wiki/%E0%AE%A8%E0%AF%80%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81#Tamil
+				walk      https://en.wiktionary.org/wiki/%E0%AE%A8%E0%AE%9F#Tamil
 				warm      
 				watch     
 				work      
@@ -2067,6 +2165,7 @@ write('data/inflection/turkic/turkish/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/giysi#Turkish
 				daughter  https://en.wiktionary.org/wiki/k%C4%B1z#Turkish
 				dog       https://en.wiktionary.org/wiki/k%C3%B6pek#Turkish
+				door      
 				drum      https://en.wiktionary.org/wiki/davul#Turkish
 				enemy     https://en.wiktionary.org/wiki/d%C3%BC%C5%9Fman#Turkish
 				fire      https://en.wiktionary.org/wiki/ate%C5%9F#Turkish
@@ -2088,6 +2187,7 @@ write('data/inflection/turkic/turkish/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/o%C4%9Ful#Turkish
 				sound     https://en.wiktionary.org/wiki/ses#Turkish
 				warmth    https://en.wiktionary.org/wiki/%C4%B1s%C4%B1#Turkish
+				vase      
 				water     https://en.wiktionary.org/wiki/su#Turkish
 				way       https://en.wiktionary.org/wiki/yol#Turkish
 				wind      https://en.wiktionary.org/wiki/yel#Turkish
@@ -2116,17 +2216,18 @@ write('data/inflection/turkic/turkish/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/d%C3%BC%C5%9Fmek#Turkish
 				fly       https://en.wiktionary.org/wiki/u%C3%A7mak#Turkish
+				hear      https://en.wiktionary.org/wiki/i%C5%9Fitmek#Turkish
 				occupy    
-				resemble  
+				resemble  https://en.wiktionary.org/wiki/benzemek#Turkish
 				rest      
-				see       
-				show      
+				see       https://en.wiktionary.org/wiki/g%C3%B6rmek#Turkish
+				show      https://en.wiktionary.org/wiki/g%C3%B6stermek#Turkish
 				startle   
-				swim      
-				walk      
+				swim      https://en.wiktionary.org/wiki/y%C3%BCzmek#Turkish
+				walk      https://en.wiktionary.org/wiki/y%C3%BCr%C3%BCmek#Turkish
 				warm      
-				watch     
-				work      
+				watch     https://en.wiktionary.org/wiki/seyretmek#Turkish
+				work      https://en.wiktionary.org/wiki/%C3%A7al%C4%B1%C5%9Fmak#Turkish
 			''')
 		)
 	)
@@ -2146,6 +2247,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
 				clothing  
 				daughter  
 				dog       https://en.wiktionary.org/wiki/hound#Middle_English
+				door      
 				drum      
 				enemy     
 				fire      
@@ -2167,6 +2269,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
 				son       
 				sound     
 				warmth    
+				vase      
 				water     
 				way       
 				wind      
@@ -2195,17 +2298,18 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/enduren#Middle_English
 				fall      https://en.wiktionary.org/wiki/fallen#Middle_English
 				fly       https://en.wiktionary.org/wiki/flien#Middle_English
+				hear      https://en.wiktionary.org/wiki/heren#Middle_English
 				occupy    
 				resemble  
 				rest      
-				see       
-				show      
+				see       https://en.wiktionary.org/wiki/seen#Middle_English
+				show      https://en.wiktionary.org/wiki/schewen#Middle_English
 				startle   
-				swim      
-				walk      
+				swim      https://en.wiktionary.org/wiki/swymmen#Middle_English
+				walk      https://en.wiktionary.org/wiki/walken#Middle_English
 				warm      
-				watch     
-				work      
+				watch     https://en.wiktionary.org/wiki/wacche#Middle_English
+				work      https://en.wiktionary.org/wiki/werken#Middle_English
 			''')
 		)
 	)
@@ -2225,6 +2329,7 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 				clothing  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%A9stis
 				daughter  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0ugh%E2%82%82t%E1%B8%97r
 				dog       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1w%E1%B9%93
+				door      
 				door      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0w%E1%B9%93r
 				drum      
 				enemy     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B0%C3%B3stis
@@ -2246,8 +2351,8 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 				size      
 				son       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/suHy%C3%BAs
 				sound     
-				vase      
 				warmth    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%CA%B0%C3%A9ros
+				vase      
 				water     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9k%CA%B7eh%E2%82%82
 				way       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9ytr%CC%A5
 				wind      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82w%C3%A9h%E2%82%81n%CC%A5ts
@@ -2287,6 +2392,7 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-verbs.ts
 				endure    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/t%C3%A9rh%E2%82%82uti # "overcome"
 				fall      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9th%E2%82%82eti
 				fly       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9th%E2%82%82eti
+				hear      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1l%C3%A9wt
 				occupy    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/t%E1%B8%B1%C3%A9yti # "settle, dwell"
 				resemble  
 				rest      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/l%C3%A9g%CA%B0yeti

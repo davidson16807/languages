@@ -544,3 +544,731 @@ fly	conditional	simple	simple	uçmasam mı?	uçmasan mı?	uçmasa mı?	uçmasak 
 fly	conditional	perfective	perfective	uçmasa mıydım?	uçmasa mıydın?	uçmasa mıydı?	uçmasa mıydık?	uçmasa mıydınız?	uçmasalar mıydı?
 fly	progressive	progressive	progressive	uçmamakta mıyım?	uçmamakta mısın?	uçmamakta mı?	uçmamakta mıyız?	uçmamakta mısınız?	uçmamaktalar mı?
 fly	necessitative	necessitative	necessitative	uçmamalı mıyım?	uçmamalı mısın?	uçmamalı mı?	uçmamalı mıyız?	uçmamalı mısınız?	uçmamalılar mı?
+hear	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+hear									
+hear	infinitive	infinitive	infinitive	işitmek	işitmek	işitmek	işitmek	işitmek	işitmek
+hear	impersonal participle	imperfective	imperfective	işiten	işiten	işiten	işiten	işiten	işiten
+hear	impersonal participle	perfective	perfective	işitmiş	işitmiş	işitmiş	işitmiş	işitmiş	işitmiş
+hear	impersonal participle	prospective	prospective	işitecek	işitecek	işitecek	işitecek	işitecek	işitecek
+hear	personal participle	non-prospective	non-prospective	işittiğim	işittiğin	işittiği	işittiğimiz	işittiğiniz	işittikleri
+hear	personal participle	prospective	prospective	işiteceğim	işiteceğin	işiteceği	işiteceğimiz	işiteceğiniz	işitecekleri
+hear	verbal noun	verbal noun	verbal noun	işitme	işitme	işitme	işitme	işitme	işitme
+hear	way of doing	way of doing	way of doing	işitiş	işitiş	işitiş	işitiş	işitiş	işitiş
+hear				singular	singular	singular	plural	plural	plural
+hear				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+hear				ben	sen	o	biz	siz	onlar
+hear	indicative	present	aorist	işitirim	işitirsin	işitir	işitiriz	işitirsiniz	işitirler
+hear	indicative	present	imperfective	işitiyorum	işitiyorsun	işitiyor	işitiyoruz	işitiyorsunuz	işitiyorlar
+hear	indicative	past	perfective	işittim	işittin	işitti	işittik	işittiniz	işittiler
+hear	indicative	past	imperfective	işitiyordum	işitiyordun	işitiyordu	işitiyorduk	işitiyordunuz	işitiyorlardı (or işitiyordular)
+hear	indicative	future	future	işiteceğim	işiteceksin	işitecek	işiteceğiz	işiteceksiniz	işitecekler
+hear	inferential	perfective	perfective	işitmişim	işitmişsin	işitmiş	işitmişiz	işitmişsiniz	işitmişler
+hear	inferential	aorist	aorist	işitirmişim	işitirmişsin	işitirmiş	işitirmişiz	işitirmişsiniz	işitirlermiş (or işitirmişlar)
+hear	inferential	imperfective	imperfective	işitiyormuşum	işitiyormuşsun	işitiyormuş	işitiyormuşuz	işitiyormuşsunuz	işitiyorlarmış
+hear	conditional	simple	simple	işitsem	işitsen	işitse	işitsek	işitseniz	işitseler
+hear	conditional	perfective	perfective	işitseydim	işitseydin	işitseydi	işitseydik	işitseydiniz	işitseydiler
+hear	optative	optative	optative	işiteyim	işitesin	işite	işitelim	işitesiniz	işiteler
+hear	progressive	progressive	progressive	işitmekteyim	işitmektesin	işitmekte	işitmekteyiz	işitmektesiniz	işitmekteler
+hear	necessitative	necessitative	necessitative	işitmeliyim	işitmelisin	işitmeli	işitmeliyiz	işitmelisiniz	işitmeliler
+hear	imperative	imperative	imperative		işit	işitsin		işitin	işitsinler
+hear									
+hear	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+hear									
+hear				singular	singular	singular	plural	plural	plural
+hear				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+hear				ben	sen	o	biz	siz	onlar
+hear	indicative	present	aorist	işitir miyim?	işitir misin?	işitir mi?	işitir miyiz?	işitir misiniz?	işitirler mi?
+hear	indicative	present	imperfective	işitiyor muyum?	işitiyor musun?	işitiyor mu?	işitiyor muyuz?	işitiyor musunuz?	işitiyorlar mı?
+hear	indicative	past	perfective	işittim mi?	işittin mi?	işitti mi?	işittik mi?	işittiniz mi?	işittiler mi?
+hear	indicative	past	imperfective	işitiyor muydum?	işitiyor muydun?	işitiyor muydu?	işitiyor muyduk?	işitiyor muydunuz?	işitiyorlar mıydı?
+hear	indicative	future	future	işitecek miyim?	işitecek misin?	işitecek mi?	işitecek miyiz?	işitecek misiniz?	işitecekler mi?
+hear	inferential	perfective	perfective	işitmiş miyim?	işitmiş misin?	işitmiş mi?	işitmiş miyiz?	işitmiş misiniz?	işitmişler mi?
+hear	inferential	aorist	aorist	işitir miymişim?	işitir miymişsin?	işitir miymiş?	işitir miymişiz?	işitir miymişsiniz?	işitirler miymiş?
+hear	inferential	imperfective	imperfective	işitiyor muymuşum?	işitiyor muymuşsun?	işitiyor muymuş?	işitiyor muymuşuz?	işitiyor muymuşsunuz?	işitiyorlar mıymış?
+hear	conditional	simple	simple	işitsem mi?	işitsen mi?	işitse mi?	işitsek mi?	işitseniz mi?	işitseler mi?
+hear	conditional	perfective	perfective	işitse miydim?	işitse miydin?	işitse miydi?	işitse miydik?	işitse miydiniz?	işitseler miydi?
+hear	progressive	progressive	progressive	işitmekte miyim?	işitmekte misin?	işitmekte mi?	işitmekte miyiz?	işitmekte misiniz?	işitmekteler mi?
+hear	necessitative	necessitative	necessitative	işitmeli miyim?	işitmeli misin?	işitmeli mi?	işitmeli miyiz?	işitmeli misiniz?	işitmeliler mi?
+hear									
+hear	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+hear									
+hear	infinitive	infinitive	infinitive	işitmemek	işitmemek	işitmemek	işitmemek	işitmemek	işitmemek
+hear	impersonal participle	imperfective	imperfective	işitmeyen	işitmeyen	işitmeyen	işitmeyen	işitmeyen	işitmeyen
+hear	impersonal participle	perfective	perfective	işitmemiş	işitmemiş	işitmemiş	işitmemiş	işitmemiş	işitmemiş
+hear	impersonal participle	prospective	prospective	işitmeyecek	işitmeyecek	işitmeyecek	işitmeyecek	işitmeyecek	işitmeyecek
+hear	personal participle	non-prospective	non-prospective	işitmediğim	işitmediğin	işitmediği	işitmediğimiz	işitmediğiniz	işitmedikleri
+hear	personal participle	prospective	prospective	işitmeyeceğim	işitmeyeceğin	işitmeyeceği	işitmeyeceğimiz	işitmeyeceğiniz	işitmeyecekleri
+hear	verbal noun	verbal noun	verbal noun	işitmeme	işitmeme	işitmeme	işitmeme	işitmeme	işitmeme
+hear	way of doing	way of doing	way of doing	işitmeyiş	işitmeyiş	işitmeyiş	işitmeyiş	işitmeyiş	işitmeyiş
+hear				singular	singular	singular	plural	plural	plural
+hear				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+hear				ben	sen	o	biz	siz	onlar
+hear	indicative	present	aorist	işitmem	işitmezsin	işitmez	işitmeyiz	işitmezsiniz	işitmezler
+hear	indicative	present	imperfective	işitmiyorum	işitmiyorsun	işitmiyor	işitmiyoruz	işitmiyorsunuz	işitmiyorlar
+hear	indicative	past	perfective	işitmedim	işitmedin	işitmedi	işitmedik	işitmediniz	işitmediler
+hear	indicative	past	imperfective	işitmiyordum	işitmiyordun	işitmiyordu	işitmiyorduk	işitmiyordunuz	işitmiyorlardı
+hear	indicative	future	future	işitmeyeceğim	işitmeyeceksin	işitmeyecek	işitmeyeceğiz	işitmeyeceksiniz	işitmeyecekler
+hear	inferential	perfective	perfective	işitmemişim	işitmemişsin	işitmemiş	işitmemişiz	işitmemişsiniz	işitmemişler
+hear	inferential	aorist	aorist	işitmezmişim	işitmezmişsin	işitmezmiş	işitmezmişiz	işitmezmişsiniz	işitmezlermiş
+hear	inferential	imperfective	imperfective	işitmiyormuşum	işitmiyormuşsun	işitmiyormuş	işitmiyormuşuz	işitmiyormuşsunuz	işitmiyorlarmış
+hear	conditional	simple	simple	işitmesem	işitmesen	işitmese	işitmesek	işitmeseniz	işitmeseler
+hear	conditional	perfective	perfective	işitmeseydim	işitmeseydin	işitmeseydi	işitmeseydik	işitmeseydiniz	işitmeseydiler
+hear	optative	optative	optative	işitmeyeyim	işitmeyesin	işitmeye	işitmeyelim	işitmeyesiniz	işitmeyeler
+hear	progressive	progressive	progressive	işitmemekteyim	işitmemektesin	işitmemekte	işitmemekteyiz	işitmemektesiniz	işitmemekteler
+hear	necessitative	necessitative	necessitative	işitmemeliyim	işitmemelisin	işitmemeli	işitmemeliyiz	işitmemelisiniz	işitmemeliler
+hear	imperative	imperative	imperative		işitme	işitmesin		işitmeyin	işitmesinler
+hear									
+hear	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+hear									
+hear				singular	singular	singular	plural	plural	plural
+hear				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+hear				ben	sen	o	biz	siz	onlar
+hear	indicative	present	aorist	işitmez miyim?	işitmez misin?	işitmez mi?	işitmez miyiz?	işitmez misiniz?	işitmezler mi?
+hear	indicative	present	imperfective	işitmiyor muyum?	işitmiyor musun?	işitmiyor mu?	işitmiyor muyuz?	işitmiyor musunuz?	işitmiyorlar mı?
+hear	indicative	past	perfective	işitmedim mi?	işitmedin mi?	işitmedi mi?	işitmedik mi?	işitmediniz mi?	işitmediler mi?
+hear	indicative	past	imperfective	işitmiyor muydum?	işitmiyor muydun?	işitmiyor muydu?	işitmiyor muyduk?	işitmiyor muydunuz?	işitmiyorlar mıydı?
+hear	indicative	future	future	işitmeyecek miyim?	işitmeyecek misin?	işitmeyecek mi?	işitmeyecek miyiz?	işitmeyecek misiniz?	işitmeyecekler mi?
+hear	inferential	perfective	perfective	işitmemiş miyim?	işitmemiş misin?	işitmemiş mi?	işitmemiş miyiz?	işitmemiş misiniz?	işitmemişler mi?
+hear	inferential	aorist	aorist	işitmez miymişim?	işitmez miymişsin?	işitmez miymiş?	işitmez miymişiz?	işitmez miymişsiniz?	işitmezler miymiş?
+hear	inferential	imperfective	imperfective	işitmiyor muymuşum?	işitmiyor muymuşsun?	işitmiyor muymuş?	işitmiyor muymuşuz?	işitmiyor muymuşsunuz?	işitmiyorlar mıymış?
+hear	conditional	simple	simple	işitmesem mi?	işitmesen mi?	işitmese mi?	işitmesek mi?	işitmeseniz mi?	işitmeseler mi?
+hear	conditional	perfective	perfective	işitmese miydim?	işitmese miydin?	işitmese miydi?	işitmese miydik?	işitmese miydiniz?	işitmeseler miydi?
+hear	progressive	progressive	progressive	işitmemekte miyim?	işitmemekte misin?	işitmemekte mi?	işitmemekte miyiz?	işitmemekte misiniz?	işitmemekteler mi?
+hear	necessitative	necessitative	necessitative	işitmemeli miyim?	işitmemeli misin?	işitmemeli mi?	işitmemeli miyiz?	işitmemeli misiniz?	işitmemeliler mi?
+resemble	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+resemble									
+resemble	infinitive	infinitive	infinitive	benzemek	benzemek	benzemek	benzemek	benzemek	benzemek
+resemble	impersonal participle	imperfective	imperfective	benzeyen	benzeyen	benzeyen	benzeyen	benzeyen	benzeyen
+resemble	impersonal participle	perfective	perfective	benzemiş	benzemiş	benzemiş	benzemiş	benzemiş	benzemiş
+resemble	impersonal participle	prospective	prospective	benzeyecek	benzeyecek	benzeyecek	benzeyecek	benzeyecek	benzeyecek
+resemble	personal participle	non-prospective	non-prospective	benzediğim	benzediğin	benzediği	benzediğimiz	benzediğiniz	benzedikleri
+resemble	personal participle	prospective	prospective	benzeyeceğim	benzeyeceğin	benzeyeceği	benzeyeceğimiz	benzeyeceğiniz	benzeyecekleri
+resemble	verbal noun	verbal noun	verbal noun	benzeme	benzeme	benzeme	benzeme	benzeme	benzeme
+resemble	way of doing	way of doing	way of doing	benzeyiş	benzeyiş	benzeyiş	benzeyiş	benzeyiş	benzeyiş
+resemble				singular	singular	singular	plural	plural	plural
+resemble				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+resemble				ben	sen	o	biz	siz	onlar
+resemble	indicative	present	aorist	benzerim	benzersin	benzer	benzeriz	benzersiniz	benzerler
+resemble	indicative	present	imperfective	benziyorum	benziyorsun	benziyor	benziyoruz	benziyorsunuz	benziyorlar
+resemble	indicative	past	perfective	benzedim	benzedin	benzedi	benzedik	benzediniz	benzediler
+resemble	indicative	past	imperfective	benziyordum	benziyordun	benziyordu	benziyorduk	benziyordunuz	benziyorlardı
+resemble	indicative	future	future	benzeyeceğim	benzeyeceksin	benzeyecek	benzeyeceğiz	benzeyeceksiniz	benzeyecekler
+resemble	inferential	perfective	perfective	benzemişim	benzemişsin	benzemiş	benzemişiz	benzemişsiniz	benzemişler
+resemble	inferential	aorist	aorist	benzermişim	benzermişsin	benzermiş	benzermişiz	benzermişsiniz	benzermişler
+resemble	inferential	imperfective	imperfective	benziyormuşum	benziyormuşsun	benziyormuş	benziyormuşuz	benziyormuşsunuz	benziyormuşlar
+resemble	conditional	simple	simple	benzesem	benzesen	benzese	benzesek	benzeseniz	benzeseler
+resemble	conditional	perfective	perfective	benzeseydim	benzeseydin	benzeseydi	benzeseydik	benzeseydiniz	benzeseydiler
+resemble	optative	optative	optative	benzeyeyim	benzeyesin	benzeye	benzeyelim	benzeyesiniz	benzeyeler
+resemble	progressive	progressive	progressive	benzemekteyim	benzemektesin	benzemekte	benzemekteyiz	benzemektesiniz	benzemekteler
+resemble	necessitative	necessitative	necessitative	benzemeliyim	benzemelisin	benzemeli	benzemeliyiz	benzemelisiniz	benzemeliler
+resemble	imperative	imperative	imperative		benze	benzesin		benzeyin	benzesinler
+resemble									
+resemble	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+resemble									
+resemble				singular	singular	singular	plural	plural	plural
+resemble				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+resemble				ben	sen	o	biz	siz	onlar
+resemble	indicative	present	aorist	benzer miyim?	benzer misin?	benzer mi?	benzer miyiz?	benzer misiniz?	benzerler mi?
+resemble	indicative	present	imperfective	benziyor muyum?	benziyor musun?	benziyor mu?	benziyor muyuz?	benziyor musunuz?	benziyorlar mı?
+resemble	indicative	past	perfective	benzedim mi?	benzedin mi?	benzedi mi?	benzedik mi?	benzediniz mi?	benzediler mi?
+resemble	indicative	past	imperfective	benziyor muydum?	benziyor muydun?	benziyor muydu?	benziyor muyduk?	benziyor muydunuz?	benziyorlar mıydı?
+resemble	indicative	future	future	benzeyecek miyim?	benzeyecek misin?	benzeyecek mi?	benzeyecek miyiz?	benzeyecek misiniz?	benzeyecekler mi?
+resemble	inferential	perfective	perfective	benzemiş miyim?	benzemiş misin?	benzemiş mi?	benzemiş miyiz?	benzemiş misiniz?	benzemişler mi?
+resemble	inferential	aorist	aorist	benzer miymişim?	benzer miymişsin?	benzer miymiş?	benzer miymişiz?	benzer miymişsiniz?	benzerler miymiş?
+resemble	inferential	imperfective	imperfective	benziyor muymuşum?	benziyor muymuşsun?	benziyor muymuş?	benziyor muymuşuz?	benziyor muymuşsunuz?	benziyorlar mıymış?
+resemble	conditional	simple	simple	benzesem mi?	benzesen mi?	benzese mi?	benzesek mi?	benzeseniz mi?	benzeseler mi?
+resemble	conditional	perfective	perfective	benzese miydim?	benzese miydin?	benzese miydi?	benzese miydik?	benzese miydiniz?	benzeseler miydi?
+resemble	progressive	progressive	progressive	benzemekte miyim?	benzemekte misin?	benzemekte mi?	benzemekte miyiz?	benzemekte misiniz?	benzemekteler mi?
+resemble	necessitative	necessitative	necessitative	benzemeli miyim?	benzemeli misin?	benzemeli mi?	benzemeli miyiz?	benzemeli misiniz?	benzemeliler mi?
+resemble									
+resemble	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+resemble									
+resemble	infinitive	infinitive	infinitive	benzememek	benzememek	benzememek	benzememek	benzememek	benzememek
+resemble	impersonal participle	imperfective	imperfective	benzemeyen	benzemeyen	benzemeyen	benzemeyen	benzemeyen	benzemeyen
+resemble	impersonal participle	perfective	perfective	benzememiş	benzememiş	benzememiş	benzememiş	benzememiş	benzememiş
+resemble	impersonal participle	prospective	prospective	benzemeyecek	benzemeyecek	benzemeyecek	benzemeyecek	benzemeyecek	benzemeyecek
+resemble	personal participle	non-prospective	non-prospective	benzemediğim	benzemediğin	benzemediği	benzemediğimiz	benzemediğiniz	benzemedikleri
+resemble	personal participle	prospective	prospective	benzemeyeceğim	benzemeyeceğin	benzemeyeceği	benzemeyeceğimiz	benzemeyeceğiniz	benzemeyecekleri
+resemble	verbal noun	verbal noun	verbal noun	benzememe	benzememe	benzememe	benzememe	benzememe	benzememe
+resemble	way of doing	way of doing	way of doing	benzemeyiş	benzemeyiş	benzemeyiş	benzemeyiş	benzemeyiş	benzemeyiş
+resemble				singular	singular	singular	plural	plural	plural
+resemble				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+resemble				ben	sen	o	biz	siz	onlar
+resemble	indicative	present	aorist	benzemem	benzemezsin	benzemez	benzemeyiz	benzemezsiniz	benzemezler
+resemble	indicative	present	imperfective	benzemiyorum	benzemiyorsun	benzemiyor	benzemiyoruz	benzemiyorsunuz	benzemiyorlar
+resemble	indicative	past	perfective	benzemedim	benzemedin	benzemedi	benzemedik	benzemediniz	benzemediler
+resemble	indicative	past	imperfective	benzemiyordum	benzemiyordun	benzemiyordu	benzemiyorduk	benzemiyordunuz	benzemiyordular
+resemble	indicative	future	future	benzemeyeceğim	benzemeyeceksin	benzemeyecek	benzemeyeceğiz	benzemeyeceksiniz	benzemeyecekler
+resemble	inferential	perfective	perfective	benzememişim	benzememişsin	benzememiş	benzememişiz	benzememişsiniz	benzememişler
+resemble	inferential	aorist	aorist	benzemezmişim	benzemezmişsin	benzemezmiş	benzemezmişiz	benzemezmişsiniz	benzemezmişler
+resemble	inferential	imperfective	imperfective	benzemiyormuşum	benzemiyormuşsun	benzemiyormuş	benzemiyormuşuz	benzemiyormuşsunuz	benzemiyormuşlar
+resemble	conditional	simple	simple	benzemesem	benzemesen	benzemese	benzemesek	benzemeseniz	benzemeseler
+resemble	conditional	perfective	perfective	benzemeseydim	benzemeseydin	benzemeseydi	benzemeseydik	benzemeseydiniz	benzemeseydiler
+resemble	optative	optative	optative	benzemeyeyim	benzemeyesin	benzemeye	benzemeyelim	benzemeyesiniz	benzemeyeler
+resemble	progressive	progressive	progressive	benzememekteyim	benzememektesin	benzememekte	benzememekteyiz	benzememektesiniz	benzememekteler
+resemble	necessitative	necessitative	necessitative	benzememeliyim	benzememelisin	benzememeli	benzememeliyiz	benzememelisiniz	benzememeliler
+resemble	imperative	imperative	imperative		benzeme	benzemesin		benzemeyin	benzemesinler
+resemble									
+resemble	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+resemble									
+resemble				singular	singular	singular	plural	plural	plural
+resemble				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+resemble				ben	sen	o	biz	siz	onlar
+resemble	indicative	present	aorist	benzemez miyim?	benzemez misin?	benzemez mi?	benzemez miyiz?	benzemez misiniz?	benzemezler mi?
+resemble	indicative	present	imperfective	benzemiyor muyum?	benzemiyor musun?	benzemiyor mu?	benzemiyor muyuz?	benzemiyor musunuz?	benzemiyorlar mı?
+resemble	indicative	past	perfective	benzemedim mi?	benzemedin mi?	benzemedi mi?	benzemedik mi?	benzemediniz mi?	benzemediler mi?
+resemble	indicative	past	imperfective	benzemiyor muydum?	benzemiyor muydun?	benzemiyor muydu?	benzemiyor muyduk?	benzemiyor muydunuz?	benzemiyorlar mıydı?
+resemble	indicative	future	future	benzemeyecek miyim?	benzemeyecek misin?	benzemeyecek mi?	benzemeyecek miyiz?	benzemeyecek misiniz?	benzemeyecekler mi?
+resemble	inferential	perfective	perfective	benzememiş miyim?	benzememiş misin?	benzememiş mi?	benzememiş miyiz?	benzememiş misiniz?	benzememişler mi?
+resemble	inferential	aorist	aorist	benzemez miymişim?	benzemez miymişsin?	benzemez miymiş?	benzemez miymişiz?	benzemez miymişsiniz?	benzemezler miymiş?
+resemble	inferential	imperfective	imperfective	benzemiyor muymuşum?	benzemiyor muymuşsun?	benzemiyor muymuş?	benzemiyor muymuşuz?	benzemiyor muymuşsunuz?	benzemiyorlar mıymış?
+resemble	conditional	simple	simple	benzemesem mi?	benzemesen mi?	benzemese mi?	benzemesek mi?	benzemeseniz mi?	benzemeseler mi?
+resemble	conditional	perfective	perfective	benzemese miydim?	benzemese miydin?	benzemese miydi?	benzemese miydik?	benzemese miydiniz?	benzemeseler miydi?
+resemble	progressive	progressive	progressive	benzememekte miyim?	benzememekte misin?	benzememekte mi?	benzememekte miyiz?	benzememekte misiniz?	benzememekteler mi?
+resemble	necessitative	necessitative	necessitative	benzememeli miyim?	benzememeli misin?	benzememeli mi?	benzememeli miyiz?	benzememeli misiniz?	benzememeliler mi?
+see	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+see									
+see	infinitive	infinitive	infinitive	görmek	görmek	görmek	görmek	görmek	görmek
+see	impersonal participle	imperfective	imperfective	gören	gören	gören	gören	gören	gören
+see	impersonal participle	perfective	perfective	görmüş	görmüş	görmüş	görmüş	görmüş	görmüş
+see	impersonal participle	prospective	prospective	görecek	görecek	görecek	görecek	görecek	görecek
+see	personal participle	non-prospective	non-prospective	gördüğüm	gördüğün	gördüğü	gördüğümüz	gördüğünüz	gördükleri
+see	personal participle	prospective	prospective	göreceğim	göreceğin	göreceği	göreceğimiz	göreceğiniz	görecekleri
+see	verbal noun	verbal noun	verbal noun	görme	görme	görme	görme	görme	görme
+see	way of doing	way of doing	way of doing	görüş	görüş	görüş	görüş	görüş	görüş
+see				singular	singular	singular	plural	plural	plural
+see				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+see				ben	sen	o	biz	siz	onlar
+see	indicative	present	aorist	görürüm	görürsün	görür	görürüz	görürsünüz	görürler
+see	indicative	present	imperfective	görüyorum	görüyorsun	görüyor	görüyoruz	görüyorsunuz	görüyorlar
+see	indicative	past	perfective	gördüm	gördün	gördü	gördük	gördünüz	gördüler
+see	indicative	past	imperfective	görüyordum	görüyordun	görüyordu	görüyorduk	görüyordunuz	görüyorlardı (or görüyordular)
+see	indicative	future	future	göreceğim	göreceksin	görecek	göreceğiz	göreceksiniz	görecekler
+see	inferential	perfective	perfective	görmüşüm	görmüşsün	görmüş	görmüşüz	görmüşsünüz	görmüşler
+see	inferential	aorist	aorist	görürmüşüm	görürmüşsün	görürmüş	görürmüşüz	görürmüşsünüz	görürlermiş (or görürmüşlar)
+see	inferential	imperfective	imperfective	görüyormuşum	görüyormuşsun	görüyormuş	görüyormuşuz	görüyormuşsunuz	görüyorlarmış
+see	conditional	simple	simple	görsem	görsen	görse	görsek	görseniz	görseler
+see	conditional	perfective	perfective	görseydim	görseydin	görseydi	görseydik	görseydiniz	görseydiler
+see	optative	optative	optative	göreyim	göresin	göre	görelim	göresiniz	göreler
+see	progressive	progressive	progressive	görmekteyim	görmektesin	görmekte	görmekteyiz	görmektesiniz	görmekteler
+see	necessitative	necessitative	necessitative	görmeliyim	görmelisin	görmeli	görmeliyiz	görmelisiniz	görmeliler
+see	imperative	imperative	imperative		gör	görsün		görün	görsünler
+see									
+see	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+see									
+see				singular	singular	singular	plural	plural	plural
+see				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+see				ben	sen	o	biz	siz	onlar
+see	indicative	present	aorist	görür müyüm?	görür müsün?	görür mü?	görür müyüz?	görür müsünüz?	görürler mi?
+see	indicative	present	imperfective	görüyor muyum?	görüyor musun?	görüyor mu?	görüyor muyuz?	görüyor musunuz?	görüyorlar mı?
+see	indicative	past	perfective	gördüm mü?	gördün mü?	gördü mü?	gördük mü?	gördünüz mü?	gördüler mi?
+see	indicative	past	imperfective	görüyor muydum?	görüyor muydun?	görüyor muydu?	görüyor muyduk?	görüyor muydunuz?	görüyorlar mıydı?
+see	indicative	future	future	görecek miyim?	görecek misin?	görecek mi?	görecek miyiz?	görecek misiniz?	görecekler mi?
+see	inferential	perfective	perfective	görmüş müyüm?	görmüş müsün?	görmüş mü?	görmüş müyüz?	görmüş müsünüz?	görmüşler mi?
+see	inferential	aorist	aorist	görür müymüşüm?	görür müymüşsün?	görür müymüş?	görür müymüşüz?	görür müymüşsünüz?	görürler miymiş?
+see	inferential	imperfective	imperfective	görüyor muymuşum?	görüyor muymuşsun?	görüyor muymuş?	görüyor muymuşuz?	görüyor muymuşsunuz?	görüyorlar mıymış?
+see	conditional	simple	simple	görsem mi?	görsen mi?	görse mi?	görsek mi?	görseniz mi?	görseler mi?
+see	conditional	perfective	perfective	görse miydim?	görse miydin?	görse miydi?	görse miydik?	görse miydiniz?	görseler miydi?
+see	progressive	progressive	progressive	görmekte miyim?	görmekte misin?	görmekte mi?	görmekte miyiz?	görmekte misiniz?	görmekteler mi?
+see	necessitative	necessitative	necessitative	görmeli miyim?	görmeli misin?	görmeli mi?	görmeli miyiz?	görmeli misiniz?	görmeliler mi?
+see									
+see	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+see									
+see	infinitive	infinitive	infinitive	görmemek	görmemek	görmemek	görmemek	görmemek	görmemek
+see	impersonal participle	imperfective	imperfective	görmeyen	görmeyen	görmeyen	görmeyen	görmeyen	görmeyen
+see	impersonal participle	perfective	perfective	görmemiş	görmemiş	görmemiş	görmemiş	görmemiş	görmemiş
+see	impersonal participle	prospective	prospective	görmeyecek	görmeyecek	görmeyecek	görmeyecek	görmeyecek	görmeyecek
+see	personal participle	non-prospective	non-prospective	görmediğim	görmediğin	görmediği	görmediğimiz	görmediğiniz	görmedikleri
+see	personal participle	prospective	prospective	görmeyeceğim	görmeyeceğin	görmeyeceği	görmeyeceğimiz	görmeyeceğiniz	görmeyecekleri
+see	verbal noun	verbal noun	verbal noun	görmeme	görmeme	görmeme	görmeme	görmeme	görmeme
+see	way of doing	way of doing	way of doing	görmeyüş	görmeyüş	görmeyüş	görmeyüş	görmeyüş	görmeyüş
+see				singular	singular	singular	plural	plural	plural
+see				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+see				ben	sen	o	biz	siz	onlar
+see	indicative	present	aorist	görmem	görmezsin	görmez	görmeyiz	görmezsiniz	görmezler
+see	indicative	present	imperfective	görmüyorum	görmüyorsun	görmüyor	görmüyoruz	görmüyorsunuz	görmüyorlar
+see	indicative	past	perfective	görmedim	görmedin	görmedi	görmedik	görmediniz	görmediler
+see	indicative	past	imperfective	görmüyordum	görmüyordun	görmüyordu	görmüyorduk	görmüyordunuz	görmüyorlardı
+see	indicative	future	future	görmeyeceğim	görmeyeceksin	görmeyecek	görmeyeceğiz	görmeyeceksiniz	görmeyecekler
+see	inferential	perfective	perfective	görmemişim	görmemişsin	görmemiş	görmemişiz	görmemişsiniz	görmemişler
+see	inferential	aorist	aorist	görmezmişim	görmezmişsin	görmezmiş	görmezmişiz	görmezmişsiniz	görmezlermiş
+see	inferential	imperfective	imperfective	görmüyormuşum	görmüyormuşsun	görmüyormuş	görmüyormuşuz	görmüyormuşsunuz	görmüyorlarmış
+see	conditional	simple	simple	görmesem	görmesen	görmese	görmesek	görmeseniz	görmeseler
+see	conditional	perfective	perfective	görmeseydim	görmeseydin	görmeseydi	görmeseydik	görmeseydiniz	görmeseydiler
+see	optative	optative	optative	görmeyeyim	görmeyesin	görmeye	görmeyelim	görmeyesiniz	görmeyeler
+see	progressive	progressive	progressive	görmemekteyim	görmemektesin	görmemekte	görmemekteyiz	görmemektesiniz	görmemekteler
+see	necessitative	necessitative	necessitative	görmemeliyim	görmemelisin	görmemeli	görmemeliyiz	görmemelisiniz	görmemeliler
+see	imperative	imperative	imperative		görme	görmesin		görmeyin	görmesinler
+see									
+see	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+see									
+see				singular	singular	singular	plural	plural	plural
+see				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+see				ben	sen	o	biz	siz	onlar
+see	indicative	present	aorist	görmez miyim?	görmez misin?	görmez mi?	görmez miyiz?	görmez misiniz?	görmezler mi?
+see	indicative	present	imperfective	görmüyor muyum?	görmüyor musun?	görmüyor mu?	görmüyor muyuz?	görmüyor musunuz?	görmüyorlar mı?
+see	indicative	past	perfective	görmedim mi?	görmedin mi?	görmedi mi?	görmedik mi?	görmediniz mi?	görmediler mi?
+see	indicative	past	imperfective	görmüyor muydum?	görmüyor muydun?	görmüyor muydu?	görmüyor muyduk?	görmüyor muydunuz?	görmüyorlar mıydı?
+see	indicative	future	future	görmeyecek miyim?	görmeyecek misin?	görmeyecek mi?	görmeyecek miyiz?	görmeyecek misiniz?	görmeyecekler mi?
+see	inferential	perfective	perfective	görmemiş miyim?	görmemiş misin?	görmemiş mi?	görmemiş miyiz?	görmemiş misiniz?	görmemişler mi?
+see	inferential	aorist	aorist	görmez miymişim?	görmez miymişsin?	görmez miymiş?	görmez miymişiz?	görmez miymişsiniz?	görmezler miymiş?
+see	inferential	imperfective	imperfective	görmüyor muymuşum?	görmüyor muymuşsun?	görmüyor muymuş?	görmüyor muymuşuz?	görmüyor muymuşsunuz?	görmüyorlar mıymış?
+see	conditional	simple	simple	görmesem mi?	görmesen mi?	görmese mi?	görmesek mi?	görmeseniz mi?	görmeseler mi?
+see	conditional	perfective	perfective	görmese miydim?	görmese miydin?	görmese miydi?	görmese miydik?	görmese miydiniz?	görmeseler miydi?
+see	progressive	progressive	progressive	görmemekte miyim?	görmemekte misin?	görmemekte mi?	görmemekte miyiz?	görmemekte misiniz?	görmemekteler mi?
+see	necessitative	necessitative	necessitative	görmemeli miyim?	görmemeli misin?	görmemeli mi?	görmemeli miyiz?	görmemeli misiniz?	görmemeliler mi?
+show	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+show									
+show	infinitive	infinitive	infinitive	göstermek	göstermek	göstermek	göstermek	göstermek	göstermek
+show	impersonal participle	imperfective	imperfective	gösteren	gösteren	gösteren	gösteren	gösteren	gösteren
+show	impersonal participle	perfective	perfective	göstermiş	göstermiş	göstermiş	göstermiş	göstermiş	göstermiş
+show	impersonal participle	prospective	prospective	gösterecek	gösterecek	gösterecek	gösterecek	gösterecek	gösterecek
+show	personal participle	non-prospective	non-prospective	gösterdiğim	gösterdiğin	gösterdiği	gösterdiğimiz	gösterdiğiniz	gösterdikleri
+show	personal participle	prospective	prospective	göstereceğim	göstereceğin	göstereceği	göstereceğimiz	göstereceğiniz	gösterecekleri
+show	verbal noun	verbal noun	verbal noun	gösterme	gösterme	gösterme	gösterme	gösterme	gösterme
+show	way of doing	way of doing	way of doing	gösteriş	gösteriş	gösteriş	gösteriş	gösteriş	gösteriş
+show				singular	singular	singular	plural	plural	plural
+show				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+show				ben	sen	o	biz	siz	onlar
+show	indicative	present	aorist	gösteririm	gösterirsin	gösterir	gösteririz	gösterirsiniz	gösterirler
+show	indicative	present	imperfective	gösteriyorum	gösteriyorsun	gösteriyor	gösteriyoruz	gösteriyorsunuz	gösteriyorlar
+show	indicative	past	perfective	gösterdim	gösterdin	gösterdi	gösterdik	gösterdiniz	gösterdiler
+show	indicative	past	imperfective	gösteriyordum	gösteriyordun	gösteriyordu	gösteriyorduk	gösteriyordunuz	gösteriyorlardı (or gösteriyordular)
+show	indicative	future	future	göstereceğim	göstereceksin	gösterecek	göstereceğiz	göstereceksiniz	gösterecekler
+show	inferential	perfective	perfective	göstermişim	göstermişsin	göstermiş	göstermişiz	göstermişsiniz	göstermişler
+show	inferential	aorist	aorist	gösterirmişim	gösterirmişsin	gösterirmiş	gösterirmişiz	gösterirmişsiniz	gösterirlermiş (or gösterirmişlar)
+show	inferential	imperfective	imperfective	gösteriyormuşum	gösteriyormuşsun	gösteriyormuş	gösteriyormuşuz	gösteriyormuşsunuz	gösteriyorlarmış
+show	conditional	simple	simple	göstersem	göstersen	gösterse	göstersek	gösterseniz	gösterseler
+show	conditional	perfective	perfective	gösterseydim	gösterseydin	gösterseydi	gösterseydik	gösterseydiniz	gösterseydiler
+show	optative	optative	optative	göstereyim	gösteresin	göstere	gösterelim	gösteresiniz	göstereler
+show	progressive	progressive	progressive	göstermekteyim	göstermektesin	göstermekte	göstermekteyiz	göstermektesiniz	göstermekteler
+show	necessitative	necessitative	necessitative	göstermeliyim	göstermelisin	göstermeli	göstermeliyiz	göstermelisiniz	göstermeliler
+show	imperative	imperative	imperative		göster	göstersin		gösterin	göstersinler
+show									
+show	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+show									
+show				singular	singular	singular	plural	plural	plural
+show				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+show				ben	sen	o	biz	siz	onlar
+show	indicative	present	aorist	gösterir miyim?	gösterir misin?	gösterir mi?	gösterir miyiz?	gösterir misiniz?	gösterirler mi?
+show	indicative	present	imperfective	gösteriyor muyum?	gösteriyor musun?	gösteriyor mu?	gösteriyor muyuz?	gösteriyor musunuz?	gösteriyorlar mı?
+show	indicative	past	perfective	gösterdim mi?	gösterdin mi?	gösterdi mi?	gösterdik mi?	gösterdiniz mi?	gösterdiler mi?
+show	indicative	past	imperfective	gösteriyor muydum?	gösteriyor muydun?	gösteriyor muydu?	gösteriyor muyduk?	gösteriyor muydunuz?	gösteriyorlar mıydı?
+show	indicative	future	future	gösterecek miyim?	gösterecek misin?	gösterecek mi?	gösterecek miyiz?	gösterecek misiniz?	gösterecekler mi?
+show	inferential	perfective	perfective	göstermiş miyim?	göstermiş misin?	göstermiş mi?	göstermiş miyiz?	göstermiş misiniz?	göstermişler mi?
+show	inferential	aorist	aorist	gösterir miymişim?	gösterir miymişsin?	gösterir miymiş?	gösterir miymişiz?	gösterir miymişsiniz?	gösterirler miymiş?
+show	inferential	imperfective	imperfective	gösteriyor muymuşum?	gösteriyor muymuşsun?	gösteriyor muymuş?	gösteriyor muymuşuz?	gösteriyor muymuşsunuz?	gösteriyorlar mıymış?
+show	conditional	simple	simple	göstersem mi?	göstersen mi?	gösterse mi?	göstersek mi?	gösterseniz mi?	gösterseler mi?
+show	conditional	perfective	perfective	gösterse miydim?	gösterse miydin?	gösterse miydi?	gösterse miydik?	gösterse miydiniz?	gösterseler miydi?
+show	progressive	progressive	progressive	göstermekte miyim?	göstermekte misin?	göstermekte mi?	göstermekte miyiz?	göstermekte misiniz?	göstermekteler mi?
+show	necessitative	necessitative	necessitative	göstermeli miyim?	göstermeli misin?	göstermeli mi?	göstermeli miyiz?	göstermeli misiniz?	göstermeliler mi?
+show									
+show	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+show									
+show	infinitive	infinitive	infinitive	göstermemek	göstermemek	göstermemek	göstermemek	göstermemek	göstermemek
+show	impersonal participle	imperfective	imperfective	göstermeyen	göstermeyen	göstermeyen	göstermeyen	göstermeyen	göstermeyen
+show	impersonal participle	perfective	perfective	göstermemiş	göstermemiş	göstermemiş	göstermemiş	göstermemiş	göstermemiş
+show	impersonal participle	prospective	prospective	göstermeyecek	göstermeyecek	göstermeyecek	göstermeyecek	göstermeyecek	göstermeyecek
+show	personal participle	non-prospective	non-prospective	göstermediğim	göstermediğin	göstermediği	göstermediğimiz	göstermediğiniz	göstermedikleri
+show	personal participle	prospective	prospective	göstermeyeceğim	göstermeyeceğin	göstermeyeceği	göstermeyeceğimiz	göstermeyeceğiniz	göstermeyecekleri
+show	verbal noun	verbal noun	verbal noun	göstermeme	göstermeme	göstermeme	göstermeme	göstermeme	göstermeme
+show	way of doing	way of doing	way of doing	göstermeyiş	göstermeyiş	göstermeyiş	göstermeyiş	göstermeyiş	göstermeyiş
+show				singular	singular	singular	plural	plural	plural
+show				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+show				ben	sen	o	biz	siz	onlar
+show	indicative	present	aorist	göstermem	göstermezsin	göstermez	göstermeyiz	göstermezsiniz	göstermezler
+show	indicative	present	imperfective	göstermiyorum	göstermiyorsun	göstermiyor	göstermiyoruz	göstermiyorsunuz	göstermiyorlar
+show	indicative	past	perfective	göstermedim	göstermedin	göstermedi	göstermedik	göstermediniz	göstermediler
+show	indicative	past	imperfective	göstermiyordum	göstermiyordun	göstermiyordu	göstermiyorduk	göstermiyordunuz	göstermiyorlardı
+show	indicative	future	future	göstermeyeceğim	göstermeyeceksin	göstermeyecek	göstermeyeceğiz	göstermeyeceksiniz	göstermeyecekler
+show	inferential	perfective	perfective	göstermemişim	göstermemişsin	göstermemiş	göstermemişiz	göstermemişsiniz	göstermemişler
+show	inferential	aorist	aorist	göstermezmişim	göstermezmişsin	göstermezmiş	göstermezmişiz	göstermezmişsiniz	göstermezlermiş
+show	inferential	imperfective	imperfective	göstermiyormuşum	göstermiyormuşsun	göstermiyormuş	göstermiyormuşuz	göstermiyormuşsunuz	göstermiyorlarmış
+show	conditional	simple	simple	göstermesem	göstermesen	göstermese	göstermesek	göstermeseniz	göstermeseler
+show	conditional	perfective	perfective	göstermeseydim	göstermeseydin	göstermeseydi	göstermeseydik	göstermeseydiniz	göstermeseydiler
+show	optative	optative	optative	göstermeyeyim	göstermeyesin	göstermeye	göstermeyelim	göstermeyesiniz	göstermeyeler
+show	progressive	progressive	progressive	göstermemekteyim	göstermemektesin	göstermemekte	göstermemekteyiz	göstermemektesiniz	göstermemekteler
+show	necessitative	necessitative	necessitative	göstermemeliyim	göstermemelisin	göstermemeli	göstermemeliyiz	göstermemelisiniz	göstermemeliler
+show	imperative	imperative	imperative		gösterme	göstermesin		göstermeyin	göstermesinler
+show									
+show	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+show									
+show				singular	singular	singular	plural	plural	plural
+show				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+show				ben	sen	o	biz	siz	onlar
+show	indicative	present	aorist	göstermez miyim?	göstermez misin?	göstermez mi?	göstermez miyiz?	göstermez misiniz?	göstermezler mi?
+show	indicative	present	imperfective	göstermiyor muyum?	göstermiyor musun?	göstermiyor mu?	göstermiyor muyuz?	göstermiyor musunuz?	göstermiyorlar mı?
+show	indicative	past	perfective	göstermedim mi?	göstermedin mi?	göstermedi mi?	göstermedik mi?	göstermediniz mi?	göstermediler mi?
+show	indicative	past	imperfective	göstermiyor muydum?	göstermiyor muydun?	göstermiyor muydu?	göstermiyor muyduk?	göstermiyor muydunuz?	göstermiyorlar mıydı?
+show	indicative	future	future	göstermeyecek miyim?	göstermeyecek misin?	göstermeyecek mi?	göstermeyecek miyiz?	göstermeyecek misiniz?	göstermeyecekler mi?
+show	inferential	perfective	perfective	göstermemiş miyim?	göstermemiş misin?	göstermemiş mi?	göstermemiş miyiz?	göstermemiş misiniz?	göstermemişler mi?
+show	inferential	aorist	aorist	göstermez miymişim?	göstermez miymişsin?	göstermez miymiş?	göstermez miymişiz?	göstermez miymişsiniz?	göstermezler miymiş?
+show	inferential	imperfective	imperfective	göstermiyor muymuşum?	göstermiyor muymuşsun?	göstermiyor muymuş?	göstermiyor muymuşuz?	göstermiyor muymuşsunuz?	göstermiyorlar mıymış?
+show	conditional	simple	simple	göstermesem mi?	göstermesen mi?	göstermese mi?	göstermesek mi?	göstermeseniz mi?	göstermeseler mi?
+show	conditional	perfective	perfective	göstermese miydim?	göstermese miydin?	göstermese miydi?	göstermese miydik?	göstermese miydiniz?	göstermeseler miydi?
+show	progressive	progressive	progressive	göstermemekte miyim?	göstermemekte misin?	göstermemekte mi?	göstermemekte miyiz?	göstermemekte misiniz?	göstermemekteler mi?
+show	necessitative	necessitative	necessitative	göstermemeli miyim?	göstermemeli misin?	göstermemeli mi?	göstermemeli miyiz?	göstermemeli misiniz?	göstermemeliler mi?
+swim	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+swim									
+swim	infinitive	infinitive	infinitive	yüzmek	yüzmek	yüzmek	yüzmek	yüzmek	yüzmek
+swim	impersonal participle	imperfective	imperfective	yüzen	yüzen	yüzen	yüzen	yüzen	yüzen
+swim	impersonal participle	perfective	perfective	yüzmüş	yüzmüş	yüzmüş	yüzmüş	yüzmüş	yüzmüş
+swim	impersonal participle	prospective	prospective	yüzecek	yüzecek	yüzecek	yüzecek	yüzecek	yüzecek
+swim	personal participle	non-prospective	non-prospective	yüzdüğüm	yüzdüğün	yüzdüğü	yüzdüğümüz	yüzdüğünüz	yüzdükleri
+swim	personal participle	prospective	prospective	yüzeceğim	yüzeceğin	yüzeceği	yüzeceğimiz	yüzeceğiniz	yüzecekleri
+swim	verbal noun	verbal noun	verbal noun	yüzme	yüzme	yüzme	yüzme	yüzme	yüzme
+swim	way of doing	way of doing	way of doing	yüzüş	yüzüş	yüzüş	yüzüş	yüzüş	yüzüş
+swim				singular	singular	singular	plural	plural	plural
+swim				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+swim				ben	sen	o	biz	siz	onlar
+swim	indicative	present	aorist	yüzerim	yüzersin	yüzer	yüzeriz	yüzersiniz	yüzerler
+swim	indicative	present	imperfective	yüzüyorum	yüzüyorsun	yüzüyor	yüzüyoruz	yüzüyorsunuz	yüzüyorlar
+swim	indicative	past	perfective	yüzdüm	yüzdün	yüzdü	yüzdük	yüzdünüz	yüzdüler
+swim	indicative	past	imperfective	yüzüyordum	yüzüyordun	yüzüyordu	yüzüyorduk	yüzüyordunuz	yüzüyorlardı (or yüzüyordular)
+swim	indicative	future	future	yüzeceğim	yüzeceksin	yüzecek	yüzeceğiz	yüzeceksiniz	yüzecekler
+swim	inferential	perfective	perfective	yüzmişim	yüzmişsin	yüzmiş	yüzmişiz	yüzmişsinüz	yüzmişler
+swim	inferential	aorist	aorist	yüzermişim	yüzermişsin	yüzermiş	yüzermişiz	yüzermişsiniz	yüzerlermiş (or yüzermişlar)
+swim	inferential	imperfective	imperfective	yüzüyormuşum	yüzüyormuşsun	yüzüyormuş	yüzüyormuşuz	yüzüyormuşsunuz	yüzüyorlarmış
+swim	conditional	simple	simple	yüzsem	yüzsen	yüzse	yüzsek	yüzseniz	yüzseler
+swim	conditional	perfective	perfective	yüzseydim	yüzseydin	yüzseydi	yüzseydik	yüzseydiniz	yüzseydiler
+swim	optative	optative	optative	yüzeyim	yüzesin	yüze	yüzelim	yüzesiniz	yüzeler
+swim	progressive	progressive	progressive	yüzmekteyim	yüzmektesin	yüzmekte	yüzmekteyiz	yüzmektesiniz	yüzmekteler
+swim	necessitative	necessitative	necessitative	yüzmeliyim	yüzmelisin	yüzmeli	yüzmeliyiz	yüzmelisiniz	yüzmeliler
+swim	imperative	imperative	imperative		yüz	yüzsün		yüzün	yüzsünler
+swim									
+swim	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+swim									
+swim				singular	singular	singular	plural	plural	plural
+swim				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+swim				ben	sen	o	biz	siz	onlar
+swim	indicative	present	aorist	yüzer miyim?	yüzer misin?	yüzer mi?	yüzer miyiz?	yüzer misiniz?	yüzerler mi?
+swim	indicative	present	imperfective	yüzüyor muyum?	yüzüyor musun?	yüzüyor mu?	yüzüyor muyuz?	yüzüyor musunuz?	yüzüyorlar mı?
+swim	indicative	past	perfective	yüzdüm mü?	yüzdün mü?	yüzdü mü?	yüzdük mü?	yüzdünüz mü?	yüzdüler mi?
+swim	indicative	past	imperfective	yüzüyor muydum?	yüzüyor muydun?	yüzüyor muydu?	yüzüyor muyduk?	yüzüyor muydunuz?	yüzüyorlar mıydı?
+swim	indicative	future	future	yüzecek miyim?	yüzecek misin?	yüzecek mi?	yüzecek miyiz?	yüzecek misiniz?	yüzecekler mi?
+swim	inferential	perfective	perfective	yüzmüş müyüm?	yüzmüş müsün?	yüzmüş mü?	yüzmüş müyüz?	yüzmüş müsünüz?	yüzmüşler mi?
+swim	inferential	aorist	aorist	yüzer miymüşim?	yüzer miymüşsin?	yüzer miymüş?	yüzer miymüşiz?	yüzer miymüşsiniz?	yüzerler miymiş?
+swim	inferential	imperfective	imperfective	yüzüyor muymuşum?	yüzüyor muymuşsun?	yüzüyor muymuş?	yüzüyor muymuşuz?	yüzüyor muymuşsunuz?	yüzüyorlar mıymış?
+swim	conditional	simple	simple	yüzsem mi?	yüzsen mi?	yüzse mi?	yüzsek mi?	yüzseniz mi?	yüzseler mi?
+swim	conditional	perfective	perfective	yüzse miydim?	yüzse miydin?	yüzse miydi?	yüzse miydik?	yüzse miydiniz?	yüzseler miydi?
+swim	progressive	progressive	progressive	yüzmekte miyim?	yüzmekte misin?	yüzmekte mi?	yüzmekte miyiz?	yüzmekte misiniz?	yüzmekteler mi?
+swim	necessitative	necessitative	necessitative	yüzmeli miyim?	yüzmeli misin?	yüzmeli mi?	yüzmeli miyiz?	yüzmeli misiniz?	yüzmeliler mi?
+swim									
+swim	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+swim									
+swim	infinitive	infinitive	infinitive	yüzmemek	yüzmemek	yüzmemek	yüzmemek	yüzmemek	yüzmemek
+swim	impersonal participle	imperfective	imperfective	yüzmeyen	yüzmeyen	yüzmeyen	yüzmeyen	yüzmeyen	yüzmeyen
+swim	impersonal participle	perfective	perfective	yüzmemiş	yüzmemiş	yüzmemiş	yüzmemiş	yüzmemiş	yüzmemiş
+swim	impersonal participle	prospective	prospective	yüzmeyecek	yüzmeyecek	yüzmeyecek	yüzmeyecek	yüzmeyecek	yüzmeyecek
+swim	personal participle	non-prospective	non-prospective	yüzmediğim	yüzmediğin	yüzmediği	yüzmediğimiz	yüzmediğiniz	yüzmedikleri
+swim	personal participle	prospective	prospective	yüzmeyeceğim	yüzmeyeceğin	yüzmeyeceği	yüzmeyeceğimiz	yüzmeyeceğiniz	yüzmeyecekleri
+swim	verbal noun	verbal noun	verbal noun	yüzmeme	yüzmeme	yüzmeme	yüzmeme	yüzmeme	yüzmeme
+swim	way of doing	way of doing	way of doing	yüzmeyüş	yüzmeyüş	yüzmeyüş	yüzmeyüş	yüzmeyüş	yüzmeyüş
+swim				singular	singular	singular	plural	plural	plural
+swim				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+swim				ben	sen	o	biz	siz	onlar
+swim	indicative	present	aorist	yüzmem	yüzmezsin	yüzmez	yüzmeyiz	yüzmezsiniz	yüzmezler
+swim	indicative	present	imperfective	yüzmüyorum	yüzmüyorsun	yüzmüyor	yüzmüyoruz	yüzmüyorsunuz	yüzmüyorlar
+swim	indicative	past	perfective	yüzmedim	yüzmedin	yüzmedi	yüzmedik	yüzmediniz	yüzmediler
+swim	indicative	past	imperfective	yüzmüyordum	yüzmüyordun	yüzmüyordu	yüzmüyorduk	yüzmüyordunuz	yüzmüyorlardı
+swim	indicative	future	future	yüzmeyeceğim	yüzmeyeceksin	yüzmeyecek	yüzmeyeceğiz	yüzmeyeceksiniz	yüzmeyecekler
+swim	inferential	perfective	perfective	yüzmemişim	yüzmemişsin	yüzmemiş	yüzmemişiz	yüzmemişsiniz	yüzmemişler
+swim	inferential	aorist	aorist	yüzmezmişim	yüzmezmişsin	yüzmezmiş	yüzmezmişiz	yüzmezmişsiniz	yüzmezlermiş
+swim	inferential	imperfective	imperfective	yüzmüyormuşum	yüzmüyormuşsun	yüzmüyormuş	yüzmüyormuşuz	yüzmüyormuşsunuz	yüzmüyorlarmış
+swim	conditional	simple	simple	yüzmesem	yüzmesen	yüzmese	yüzmesek	yüzmeseniz	yüzmeseler
+swim	conditional	perfective	perfective	yüzmeseydim	yüzmeseydin	yüzmeseydi	yüzmeseydik	yüzmeseydiniz	yüzmeseydiler
+swim	optative	optative	optative	yüzmeyeyim	yüzmeyesin	yüzmeye	yüzmeyelim	yüzmeyesiniz	yüzmeyeler
+swim	progressive	progressive	progressive	yüzmemekteyim	yüzmemektesin	yüzmemekte	yüzmemekteyiz	yüzmemektesiniz	yüzmemekteler
+swim	necessitative	necessitative	necessitative	yüzmemeliyim	yüzmemelisin	yüzmemeli	yüzmemeliyiz	yüzmemelisiniz	yüzmemeliler
+swim	imperative	imperative	imperative		yüzme	yüzmesin		yüzmeyin	yüzmesinler
+swim									
+swim	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+swim									
+swim				singular	singular	singular	plural	plural	plural
+swim				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+swim				ben	sen	o	biz	siz	onlar
+swim	indicative	present	aorist	yüzmez miyim?	yüzmez misin?	yüzmez mi?	yüzmez miyiz?	yüzmez misiniz?	yüzmezler mi?
+swim	indicative	present	imperfective	yüzmüyor muyum?	yüzmüyor musun?	yüzmüyor mu?	yüzmüyor muyuz?	yüzmüyor musunuz?	yüzmüyorlar mı?
+swim	indicative	past	perfective	yüzmedim mi?	yüzmedin mi?	yüzmedi mi?	yüzmedik mi?	yüzmediniz mi?	yüzmediler mi?
+swim	indicative	past	imperfective	yüzmüyor muydum?	yüzmüyor muydun?	yüzmüyor muydu?	yüzmüyor muyduk?	yüzmüyor muydunuz?	yüzmüyorlar mıydı?
+swim	indicative	future	future	yüzmeyecek miyim?	yüzmeyecek misin?	yüzmeyecek mi?	yüzmeyecek miyiz?	yüzmeyecek misiniz?	yüzmeyecekler mi?
+swim	inferential	perfective	perfective	yüzmemiş miyim?	yüzmemiş misin?	yüzmemiş mi?	yüzmemiş miyiz?	yüzmemiş misiniz?	yüzmemişler mi?
+swim	inferential	aorist	aorist	yüzmez miymişim?	yüzmez miymişsin?	yüzmez miymiş?	yüzmez miymişiz?	yüzmez miymişsiniz?	yüzmezler miymiş?
+swim	inferential	imperfective	imperfective	yüzmüyor muymuşum?	yüzmüyor muymuşsun?	yüzmüyor muymuş?	yüzmüyor muymuşuz?	yüzmüyor muymuşsunuz?	yüzmüyorlar mıymış?
+swim	conditional	simple	simple	yüzmesem mi?	yüzmesen mi?	yüzmese mi?	yüzmesek mi?	yüzmeseniz mi?	yüzmeseler mi?
+swim	conditional	perfective	perfective	yüzmese miydim?	yüzmese miydin?	yüzmese miydi?	yüzmese miydik?	yüzmese miydiniz?	yüzmeseler miydi?
+swim	progressive	progressive	progressive	yüzmemekte miyim?	yüzmemekte misin?	yüzmemekte mi?	yüzmemekte miyiz?	yüzmemekte misiniz?	yüzmemekteler mi?
+swim	necessitative	necessitative	necessitative	yüzmemeli miyim?	yüzmemeli misin?	yüzmemeli mi?	yüzmemeli miyiz?	yüzmemeli misiniz?	yüzmemeliler mi?
+walk	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+walk									
+walk	infinitive	infinitive	infinitive	yürümek	yürümek	yürümek	yürümek	yürümek	yürümek
+walk	impersonal participle	imperfective	imperfective	yürüyen	yürüyen	yürüyen	yürüyen	yürüyen	yürüyen
+walk	impersonal participle	perfective	perfective	yürümüş	yürümüş	yürümüş	yürümüş	yürümüş	yürümüş
+walk	impersonal participle	prospective	prospective	yürüyecek	yürüyecek	yürüyecek	yürüyecek	yürüyecek	yürüyecek
+walk	personal participle	non-prospective	non-prospective	yürüdüğüm	yürüdüğün	yürüdüğü	yürüdüğümüz	yürüdüğünüz	yürüdükleri
+walk	personal participle	prospective	prospective	yürüyeceğim	yürüyeceğin	yürüyeceği	yürüyeceğimiz	yürüyeceğiniz	yürüyecekleri
+walk	verbal noun	verbal noun	verbal noun	yürüme	yürüme	yürüme	yürüme	yürüme	yürüme
+walk	way of doing	way of doing	way of doing	yürüyüş	yürüyüş	yürüyüş	yürüyüş	yürüyüş	yürüyüş
+walk				singular	singular	singular	plural	plural	plural
+walk				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+walk				ben	sen	o	biz	siz	onlar
+walk	indicative	present	aorist	yürürüm	yürürsün	yürür	yürürüz	yürürsünüz	yürürler
+walk	indicative	present	imperfective	yürüyorum	yürüyorsun	yürüyor	yürüyoruz	yürüyorsunuz	yürüyorlar
+walk	indicative	past	perfective	yürüdüm	yürüdün	yürüdü	yürüdük	yürüdünüz	yürüdüler
+walk	indicative	past	imperfective	yürüyordum	yürüyordun	yürüyordu	yürüyorduk	yürüyordunuz	yürüyorlardı
+walk	indicative	future	future	yürüyeceğim	yürüyeceksin	yürüyecek	yürüyeceğiz	yürüyeceksiniz	yürüyecekler
+walk	inferential	perfective	perfective	yürümişim	yürümişsin	yürümiş	yürümişiz	yürümişsiniz	yürümişler
+walk	inferential	aorist	aorist	yürürmişim	yürürmişsin	yürürmiş	yürürmişiz	yürürmişsiniz	yürürmişler
+walk	inferential	imperfective	imperfective	yürüyormuşum	yürüyormuşsun	yürüyormuş	yürüyormuşuz	yürüyormuşsunuz	yürüyormuşlar
+walk	conditional	simple	simple	yürüsem	yürüsen	yürüse	yürüsek	yürüseniz	yürüseler
+walk	conditional	perfective	perfective	yürüseydim	yürüseydin	yürüseydi	yürüseydik	yürüseydiniz	yürüseydiler
+walk	optative	optative	optative	yürüyeyim	yürüyesin	yürüye	yürüyelim	yürüyesiniz	yürüyeler
+walk	progressive	progressive	progressive	yürümekteyim	yürümektesin	yürümekte	yürümekteyiz	yürümektesiniz	yürümekteler
+walk	necessitative	necessitative	necessitative	yürümeliyim	yürümelisin	yürümeli	yürümeliyiz	yürümelisiniz	yürümeliler
+walk	imperative	imperative	imperative		yürü	yürüsün		yürüyün	yürüsünler
+walk									
+walk	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+walk									
+walk				singular	singular	singular	plural	plural	plural
+walk				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+walk				ben	sen	o	biz	siz	onlar
+walk	indicative	present	aorist	yürür müyüm?	yürür müsün?	yürür mü?	yürür müyüz?	yürür müsünüz?	yürürler mi?
+walk	indicative	present	imperfective	yürüyor muyum?	yürüyor musun?	yürüyor mu?	yürüyor muyuz?	yürüyor musunuz?	yürüyorlar mı?
+walk	indicative	past	perfective	yürüdüm mü?	yürüdün mü?	yürüdü mü?	yürüdük mü?	yürüdünüz mü?	yürüdüler mü?
+walk	indicative	past	imperfective	yürüyor muydum?	yürüyor muydun?	yürüyor muydu?	yürüyor muyduk?	yürüyor muydunuz?	yürüyorlar mıydı?
+walk	indicative	future	future	yürüyecek miyim?	yürüyecek misin?	yürüyecek mi?	yürüyecek miyiz?	yürüyecek misiniz?	yürüyecekler mi?
+walk	inferential	perfective	perfective	yürümiş miyim?	yürümiş misin?	yürümiş mi?	yürümiş miyiz?	yürümiş misiniz?	yürümişler mi?
+walk	inferential	aorist	aorist	yürür müymişüm?	yürür müymişsün?	yürür müymiş?	yürür müymişüz?	yürür müymişsünüz?	yürürler miymiş?
+walk	inferential	imperfective	imperfective	yürüyor muymuşum?	yürüyor muymuşsun?	yürüyor muymuş?	yürüyor muymuşuz?	yürüyor muymuşsunuz?	yürüyorlar mıymış?
+walk	conditional	simple	simple	yürüsem mi?	yürüsen mi?	yürüse mi?	yürüsek mi?	yürüseniz mi?	yürüseler mi?
+walk	conditional	perfective	perfective	yürüse miydim?	yürüse miydin?	yürüse miydi?	yürüse miydik?	yürüse miydiniz?	yürüseler miydi?
+walk	progressive	progressive	progressive	yürümekte miyim?	yürümekte misin?	yürümekte mi?	yürümekte miyiz?	yürümekte misiniz?	yürümekteler mi?
+walk	necessitative	necessitative	necessitative	yürümeli miyim?	yürümeli misin?	yürümeli mi?	yürümeli miyiz?	yürümeli misiniz?	yürümeliler mi?
+walk									
+walk	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+walk									
+walk	infinitive	infinitive	infinitive	yürümemek	yürümemek	yürümemek	yürümemek	yürümemek	yürümemek
+walk	impersonal participle	imperfective	imperfective	yürümeyen	yürümeyen	yürümeyen	yürümeyen	yürümeyen	yürümeyen
+walk	impersonal participle	perfective	perfective	yürümemiş	yürümemiş	yürümemiş	yürümemiş	yürümemiş	yürümemiş
+walk	impersonal participle	prospective	prospective	yürümeyecek	yürümeyecek	yürümeyecek	yürümeyecek	yürümeyecek	yürümeyecek
+walk	personal participle	non-prospective	non-prospective	yürümediğim	yürümediğin	yürümediği	yürümediğimiz	yürümediğiniz	yürümedikleri
+walk	personal participle	prospective	prospective	yürümeyeceğim	yürümeyeceğin	yürümeyeceği	yürümeyeceğimiz	yürümeyeceğiniz	yürümeyecekleri
+walk	verbal noun	verbal noun	verbal noun	yürümeme	yürümeme	yürümeme	yürümeme	yürümeme	yürümeme
+walk	way of doing	way of doing	way of doing	yürümeyüş	yürümeyüş	yürümeyüş	yürümeyüş	yürümeyüş	yürümeyüş
+walk				singular	singular	singular	plural	plural	plural
+walk				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+walk				ben	sen	o	biz	siz	onlar
+walk	indicative	present	aorist	yürümem	yürümezsin	yürümez	yürümeyiz	yürümezsiniz	yürümezler
+walk	indicative	present	imperfective	yürümüyorum	yürümüyorsun	yürümüyor	yürümüyoruz	yürümüyorsunuz	yürümüyorlar
+walk	indicative	past	perfective	yürümedim	yürümedin	yürümedi	yürümedik	yürümediniz	yürümediler
+walk	indicative	past	imperfective	yürümüyordum	yürümüyordun	yürümüyordu	yürümüyorduk	yürümüyordunuz	yürümüyordular
+walk	indicative	future	future	yürümeyeceğim	yürümeyeceksin	yürümeyecek	yürümeyeceğiz	yürümeyeceksiniz	yürümeyecekler
+walk	inferential	perfective	perfective	yürümemişim	yürümemişsin	yürümemiş	yürümemişiz	yürümemişsiniz	yürümemişler
+walk	inferential	aorist	aorist	yürümezmişim	yürümezmişsin	yürümezmiş	yürümezmişiz	yürümezmişsiniz	yürümezmişler
+walk	inferential	imperfective	imperfective	yürümüyormuşum	yürümüyormuşsun	yürümüyormuş	yürümüyormuşuz	yürümüyormuşsunuz	yürümüyormuşlar
+walk	conditional	simple	simple	yürümesem	yürümesen	yürümese	yürümesek	yürümeseniz	yürümeseler
+walk	conditional	perfective	perfective	yürümeseydim	yürümeseydin	yürümeseydi	yürümeseydik	yürümeseydiniz	yürümeseydiler
+walk	optative	optative	optative	yürümeyeyim	yürümeyesin	yürümeye	yürümeyelim	yürümeyesiniz	yürümeyeler
+walk	progressive	progressive	progressive	yürümemekteyim	yürümemektesin	yürümemekte	yürümemekteyiz	yürümemektesiniz	yürümemekteler
+walk	necessitative	necessitative	necessitative	yürümemeliyim	yürümemelisin	yürümemeli	yürümemeliyiz	yürümemelisiniz	yürümemeliler
+walk	imperative	imperative	imperative		yürüme	yürümesin		yürümeyin	yürümesinler
+walk									
+walk	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+walk									
+walk				singular	singular	singular	plural	plural	plural
+walk				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+walk				ben	sen	o	biz	siz	onlar
+walk	indicative	present	aorist	yürümez miyim?	yürümez misin?	yürümez mi?	yürümez miyiz?	yürümez misiniz?	yürümezler mi?
+walk	indicative	present	imperfective	yürümüyor muyum?	yürümüyor musun?	yürümüyor mu?	yürümüyor muyuz?	yürümüyor musunuz?	yürümüyorlar mı?
+walk	indicative	past	perfective	yürümedim mi?	yürümedin mi?	yürümedi mi?	yürümedik mi?	yürümediniz mi?	yürümediler mi?
+walk	indicative	past	imperfective	yürümüyor muydum?	yürümüyor muydun?	yürümüyor muydu?	yürümüyor muyduk?	yürümüyor muydunuz?	yürümüyorlar mıydı?
+walk	indicative	future	future	yürümeyecek miyim?	yürümeyecek misin?	yürümeyecek mi?	yürümeyecek miyiz?	yürümeyecek misiniz?	yürümeyecekler mi?
+walk	inferential	perfective	perfective	yürümemiş miyim?	yürümemiş misin?	yürümemiş mi?	yürümemiş miyiz?	yürümemiş misiniz?	yürümemişler mi?
+walk	inferential	aorist	aorist	yürümez miymişim?	yürümez miymişsin?	yürümez miymiş?	yürümez miymişiz?	yürümez miymişsiniz?	yürümezler miymiş?
+walk	inferential	imperfective	imperfective	yürümüyor muymuşum?	yürümüyor muymuşsun?	yürümüyor muymuş?	yürümüyor muymuşuz?	yürümüyor muymuşsunuz?	yürümüyorlar mıymış?
+walk	conditional	simple	simple	yürümesem mi?	yürümesen mi?	yürümese mi?	yürümesek mi?	yürümeseniz mi?	yürümeseler mi?
+walk	conditional	perfective	perfective	yürümese miydim?	yürümese miydin?	yürümese miydi?	yürümese miydik?	yürümese miydiniz?	yürümeseler miydi?
+walk	progressive	progressive	progressive	yürümemekte miyim?	yürümemekte misin?	yürümemekte mi?	yürümemekte miyiz?	yürümemekte misiniz?	yürümemekteler mi?
+walk	necessitative	necessitative	necessitative	yürümemeli miyim?	yürümemeli misin?	yürümemeli mi?	yürümemeli miyiz?	yürümemeli misiniz?	yürümemeliler mi?
+watch	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+watch									
+watch	infinitive	infinitive	infinitive	seyretmek	seyretmek	seyretmek	seyretmek	seyretmek	seyretmek
+watch	impersonal participle	imperfective	imperfective	seyreden	seyreden	seyreden	seyreden	seyreden	seyreden
+watch	impersonal participle	perfective	perfective	seyretmiş	seyretmiş	seyretmiş	seyretmiş	seyretmiş	seyretmiş
+watch	impersonal participle	prospective	prospective	seyredecek	seyredecek	seyredecek	seyredecek	seyredecek	seyredecek
+watch	personal participle	non-prospective	non-prospective	seyrettiğim	seyrettiğin	seyrettiği	seyrettiğimiz	seyrettiğiniz	seyrettikleri
+watch	personal participle	prospective	prospective	seyredeceğim	seyredeceğin	seyredeceği	seyredeceğimiz	seyredeceğiniz	seyredecekleri
+watch	verbal noun	verbal noun	verbal noun	seyretme	seyretme	seyretme	seyretme	seyretme	seyretme
+watch	way of doing	way of doing	way of doing	seyrediş	seyrediş	seyrediş	seyrediş	seyrediş	seyrediş
+watch				singular	singular	singular	plural	plural	plural
+watch				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+watch				ben	sen	o	biz	siz	onlar
+watch	indicative	present	aorist	seyrederim	seyredersin	seyreder	seyrederiz	seyredersiniz	seyrederler
+watch	indicative	present	imperfective	seyrediyorum	seyrediyorsun	seyrediyor	seyrediyoruz	seyrediyorsunuz	seyrediyorlar
+watch	indicative	past	perfective	seyrettim	seyrettin	seyretti	seyrettik	seyrettiniz	seyrettiler
+watch	indicative	past	imperfective	seyrediyordum	seyrediyordun	seyrediyordu	seyrediyorduk	seyrediyordunuz	seyrediyorlardı (or seyrediyordular)
+watch	indicative	future	future	seyredeceğim	seyredeceksin	seyredecek	seyredeceğiz	seyredeceksiniz	seyredecekler
+watch	inferential	perfective	perfective	seyretmişim	seyretmişsin	seyretmiş	seyretmişiz	seyretmişsiniz	seyretmişler
+watch	inferential	aorist	aorist	seyredermişim	seyredermişsin	seyredermiş	seyredermişiz	seyredermişsiniz	seyrederlermiş (or seyredermişlar)
+watch	inferential	imperfective	imperfective	seyrediyormuşum	seyrediyormuşsun	seyrediyormuş	seyrediyormuşuz	seyrediyormuşsunuz	seyrediyorlarmış
+watch	conditional	simple	simple	seyretsem	seyretsen	seyretse	seyretsek	seyretseniz	seyretseler
+watch	conditional	perfective	perfective	seyretseydim	seyretseydin	seyretseydi	seyretseydik	seyretseydiniz	seyretseydiler
+watch	optative	optative	optative	seyredeyim	seyredesin	seyrede	seyredelim	seyredesiniz	seyredeler
+watch	progressive	progressive	progressive	seyretmekteyim	seyretmektesin	seyretmekte	seyretmekteyiz	seyretmektesiniz	seyretmekteler
+watch	necessitative	necessitative	necessitative	seyretmeliyim	seyretmelisin	seyretmeli	seyretmeliyiz	seyretmelisiniz	seyretmeliler
+watch	imperative	imperative	imperative		seyret	seyretsin		seyredin (or seyrediniz)	seyretsinler
+watch									
+watch	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+watch									
+watch				singular	singular	singular	plural	plural	plural
+watch				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+watch				ben	sen	o	biz	siz	onlar
+watch	indicative	present	aorist	seyreder miyim?	seyreder misin?	seyreder mi?	seyreder miyiz?	seyreder misiniz?	seyrederler mi?
+watch	indicative	present	imperfective	seyrediyor muyum?	seyrediyor musun?	seyrediyor mu?	seyrediyor muyuz?	seyrediyor musunuz?	seyrediyorlar mı?
+watch	indicative	past	perfective	seyrettim mi?	seyrettin mi?	seyretti mi?	seyrettik mi?	seyrettiniz mi?	seyrettiler mi?
+watch	indicative	past	imperfective	seyrediyor muydum?	seyrediyor muydun?	seyrediyor muydu?	seyrediyor muyduk?	seyrediyor muydunuz?	seyrediyorlar mıydı?
+watch	indicative	future	future	seyredecek miyim?	seyredecek misin?	seyredecek mi?	seyredecek miyiz?	seyredecek misiniz?	seyredecekler mi?
+watch	inferential	perfective	perfective	seyretmiş miyim?	seyretmiş misin?	seyretmiş mi?	seyretmiş miyiz?	seyretmiş misiniz?	seyretmişler mi?
+watch	inferential	aorist	aorist	seyreder miymişim?	seyreder miymişsin?	seyreder miymiş?	seyreder miymişiz?	seyreder miymişsiniz?	seyrederler miymiş?
+watch	inferential	imperfective	imperfective	seyrediyor muymuşum?	seyrediyor muymuşsun?	seyrediyor muymuş?	seyrediyor muymuşuz?	seyrediyor muymuşsunuz?	seyrediyorlar mıymış?
+watch	conditional	simple	simple	seyretsem mi?	seyretsen mi?	seyretse mi?	seyretsek mi?	seyretseniz mi?	seyretseler mi?
+watch	conditional	perfective	perfective	seyretse miydim?	seyretse miydin?	seyretse miydi?	seyretse miydik?	seyretse miydiniz?	seyretseler miydi?
+watch	progressive	progressive	progressive	seyretmektemiyim?	seyretmekte misin?	seyretmekte mi?	seyretmekte miyiz?	seyretmekte misiniz?	seyretmekteler mi?
+watch	necessitative	necessitative	necessitative	seyretmelimiyim?	seyretmeli misin?	seyretmeli mi?	seyretmeli miyiz?	seyretmeli misiniz?	seyretmeliler mi?
+watch									
+watch	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+watch									
+watch	infinitive	infinitive	infinitive	seyretmemek	seyretmemek	seyretmemek	seyretmemek	seyretmemek	seyretmemek
+watch	impersonal participle	imperfective	imperfective	seyretmeyen	seyretmeyen	seyretmeyen	seyretmeyen	seyretmeyen	seyretmeyen
+watch	impersonal participle	perfective	perfective	seyretmemiş	seyretmemiş	seyretmemiş	seyretmemiş	seyretmemiş	seyretmemiş
+watch	impersonal participle	prospective	prospective	seyretmeyecek	seyretmeyecek	seyretmeyecek	seyretmeyecek	seyretmeyecek	seyretmeyecek
+watch	personal participle	non-prospective	non-prospective	seyretmediğim	seyretmediğin	seyretmediği	seyretmediğimiz	seyretmediğiniz	seyretmedikleri
+watch	personal participle	prospective	prospective	seyretmeyeceğim	seyretmeyeceğin	seyretmeyeceği	seyretmeyeceğimiz	seyretmeyeceğiniz	seyretmeyecekleri
+watch	verbal noun	verbal noun	verbal noun	seyretmeme	seyretmeme	seyretmeme	seyretmeme	seyretmeme	seyretmeme
+watch	way of doing	way of doing	way of doing	seyretmeyiş	seyretmeyiş	seyretmeyiş	seyretmeyiş	seyretmeyiş	seyretmeyiş
+watch				singular	singular	singular	plural	plural	plural
+watch				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+watch				ben	sen	o	biz	siz	onlar
+watch	indicative	present	aorist	seyretmem	seyretmezsin	seyretmez	seyretmeyiz	seyretmezsiniz	seyretmezler
+watch	indicative	present	imperfective	seyretmiyorum	seyretmiyorsun	seyretmiyor	seyretmiyoruz	seyretmiyorsunuz	seyretmiyorlar
+watch	indicative	past	perfective	seyretmedim	seyretmedin	seyretmedi	seyretmedik	seyretmediniz	seyretmediler
+watch	indicative	past	imperfective	seyretmiyordum	seyretmiyordun	seyretmiyordu	seyretmiyorduk	seyretmiyordunuz	seyretmiyorlardı
+watch	indicative	future	future	seyretmeyeceğim	seyretmeyeceksin	seyretmeyecek	seyretmeyeceğiz	seyretmeyeceksiniz	seyretmeyecekler
+watch	inferential	perfective	perfective	seyretmemişim	seyretmemişsin	seyretmemiş	seyretmemişiz	seyretmemişsiniz	seyretmemişler
+watch	inferential	aorist	aorist	seyretmezmişim	seyretmezmişsin	seyretmezmiş	seyretmezmişiz	seyretmezmişsiniz	seyretmezlermiş
+watch	inferential	imperfective	imperfective	seyretmiyormuşum	seyretmiyormuşsun	seyretmiyormuş	seyretmiyormuşuz	seyretmiyormuşsunuz	seyretmiyorlarmış
+watch	conditional	simple	simple	seyretmesem	seyretmesen	seyretmese	seyretmesek	seyretmeseniz	seyretmeseler
+watch	conditional	perfective	perfective	seyretmeseydim	seyretmeseydin	seyretmeseydi	seyretmeseydik	seyretmeseydiniz	seyretmeseydiler
+watch	optative	optative	optative	seyretmeyeyim	seyretmeyesin	seyretmeye	seyretmeyelim	seyretmeyesiniz	seyretmeyeler
+watch	progressive	progressive	progressive	seyretmemekteyim	seyretmemektesin	seyretmemekte	seyretmemekteyiz	seyretmemektesiniz	seyretmemekteler
+watch	necessitative	necessitative	necessitative	seyretmemeliyim	seyretmemelisin	seyretmemeli	seyretmemeliyiz	seyretmemelisiniz	seyretmemeliler
+watch	imperative	imperative	imperative		seyretme	seyretmesin		seyretmeyin (or seyretmeyiniz)	seyretmesinler
+watch									
+watch	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+watch									
+watch				singular	singular	singular	plural	plural	plural
+watch				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+watch				ben	sen	o	biz	siz	onlar
+watch	indicative	present	aorist	seyretmez miyim?	seyretmez misin?	seyretmez mi?	seyretmez miyiz?	seyretmez misiniz?	seyretmezler mi?
+watch	indicative	present	imperfective	seyretmiyor muyum?	seyretmiyor musun?	seyretmiyor mu?	seyretmiyor muyuz?	seyretmiyor musunuz?	seyretmiyorlar mı?
+watch	indicative	past	perfective	seyretmedim mi?	seyretmedin mi?	seyretmedi mi?	seyretmedik mi?	seyretmediniz mi?	seyretmediler mi?
+watch	indicative	past	imperfective	seyretmiyor muydum?	seyretmiyor muydun?	seyretmiyor muydu?	seyretmiyor muyduk?	seyretmiyor muydunuz?	seyretmiyorlar mıydı?
+watch	indicative	future	future	seyretmeyecek miyim?	seyretmeyecek misin?	seyretmeyecek mi?	seyretmeyecek miyiz?	seyretmeyecek misiniz?	seyretmeyecekler mi?
+watch	inferential	perfective	perfective	seyretmemiş miyim?	seyretmemiş misin?	seyretmemiş mi?	seyretmemiş miyiz?	seyretmemiş misiniz?	seyretmemişler mi?
+watch	inferential	aorist	aorist	seyretmez miymişim?	seyretmez miymişsin?	seyretmez mimiş?	seyretmez miymişiz?	seyretmez miymişsiniz?	seyretmezler miymiş?
+watch	inferential	imperfective	imperfective	seyretmiyor muymuşum?	seyretmiyor muymuşsun?	seyretmiyor muymuş?	seyretmiyor muymuşuz?	seyretmiyor muymuşsunuz?	seyretmiyorlar mıymış?
+watch	conditional	simple	simple	seyretmesem mi?	seyretmesen mi?	seyretmese mi?	seyretmesek mi?	seyretmeseniz mi?	seyretmeseler mi?
+watch	conditional	perfective	perfective	seyretmese miydim?	seyretmese miydin?	seyretmese miydi?	seyretmese miydik?	seyretmese miydiniz?	seyretmeseler miydi?
+watch	progressive	progressive	progressive	seyretmemekte miyim?	seyretmemekte misin?	seyretmemekte mi?	seyretmemekte miyiz?	seyretmemekte misiniz?	seyretmemekteler mi?
+watch	necessitative	necessitative	necessitative	seyretmemeli miyim?	seyretmemeli misin?	seyretmemeli mi?	seyretmemeli miyiz?	seyretmemeli misiniz?	seyretmemeliler mi?
+work	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+work									
+work	infinitive	infinitive	infinitive	çalışmak	çalışmak	çalışmak	çalışmak	çalışmak	çalışmak
+work	impersonal participle	imperfective	imperfective	çalışan	çalışan	çalışan	çalışan	çalışan	çalışan
+work	impersonal participle	perfective	perfective	çalışmış	çalışmış	çalışmış	çalışmış	çalışmış	çalışmış
+work	impersonal participle	prospective	prospective	çalışacak	çalışacak	çalışacak	çalışacak	çalışacak	çalışacak
+work	personal participle	non-prospective	non-prospective	çalıştığım	çalıştığın	çalıştığı	çalıştığımız	çalıştığınız	çalıştıkları
+work	personal participle	prospective	prospective	çalışacağım	çalışacağın	çalışacağı	çalışacağımız	çalışacağınız	çalışacakları
+work	verbal noun	verbal noun	verbal noun	çalışma	çalışma	çalışma	çalışma	çalışma	çalışma
+work	way of doing	way of doing	way of doing	çalışış	çalışış	çalışış	çalışış	çalışış	çalışış
+work				singular	singular	singular	plural	plural	plural
+work				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+work				ben	sen	o	biz	siz	onlar
+work	indicative	present	aorist	çalışırım	çalışırsın	çalışır	çalışırız	çalışırsınız	çalışırlar
+work	indicative	present	imperfective	çalışıyorum	çalışıyorsun	çalışıyor	çalışıyoruz	çalışıyorsunuz	çalışıyorlar
+work	indicative	past	perfective	çalıştım	çalıştın	çalıştı	çalıştık	çalıştınız	çalıştılar
+work	indicative	past	imperfective	çalışıyordum	çalışıyordun	çalışıyordu	çalışıyorduk	çalışıyordunuz	çalışıyorlardı (or çalışıyordular)
+work	indicative	future	future	çalışacağım	çalışacaksın	çalışacak	çalışacağız	çalışacaksınız	çalışacaklar
+work	inferential	perfective	perfective	çalışmışım	çalışmışsın	çalışmış	çalışmışız	çalışmışsınız	çalışmışlar
+work	inferential	aorist	aorist	çalışırmışım	çalışırmışsın	çalışırmış	çalışırmışız	çalışırmışsınız	çalışırlarmış (or çalışırmışlar)
+work	inferential	imperfective	imperfective	çalışıyormuşum	çalışıyormuşsun	çalışıyormuş	çalışıyormuşuz	çalışıyormuşsunuz	çalışıyorlarmış
+work	conditional	simple	simple	çalışsam	çalışsan	çalışsa	çalışsak	çalışsanız	çalışsalar
+work	conditional	perfective	perfective	çalışsaydım	çalışsaydın	çalışsaydı	çalışsaydık	çalışsaydınız	çalışsaydılar
+work	optative	optative	optative	çalışayım	çalışasın	çalışa	çalışalım	çalışasınız	çalışalar
+work	progressive	progressive	progressive	çalışmaktayım	çalışmaktasın	çalışmakta	çalışmaktayız	çalışmaktasınız	çalışmaktalar
+work	necessitative	necessitative	necessitative	çalışmalıyım	çalışmalısın	çalışmalı	çalışmalıyız	çalışmalısınız	çalışmalılar
+work	imperative	imperative	imperative		çalış	çalışsın		çalışın	çalışsınlar
+work									
+work	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+work									
+work				singular	singular	singular	plural	plural	plural
+work				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+work				ben	sen	o	biz	siz	onlar
+work	indicative	present	aorist	çalışır mıyım?	çalışır mısın?	çalışır mı?	çalışır mıyız?	çalışır mısınız?	çalışırlar mı?
+work	indicative	present	imperfective	çalışıyor muyum?	çalışıyor musun?	çalışıyor mu?	çalışıyor muyuz?	çalışıyor musunuz?	çalışıyorlar mı?
+work	indicative	past	perfective	çalıştım mı?	çalıştın mı?	çalıştı mı?	çalıştık mı?	çalıştınız mı?	çalıştılar mı?
+work	indicative	past	imperfective	çalışıyor muydum?	çalışıyor muydun?	çalışıyor muydu?	çalışıyor muyduk?	çalışıyor muydunuz?	çalışıyorlar mıydı?
+work	indicative	future	future	çalışacak mıyım?	çalışacak mısın?	çalışacak mı?	çalışacak mıyız?	çalışacak mısınız?	çalışacaklar mı?
+work	inferential	perfective	perfective	çalışmış mıyım?	çalışmış mısın?	çalışmış mı?	çalışmış mıyız?	çalışmış mısınız?	çalışmışlar mı?
+work	inferential	aorist	aorist	çalışır mıymışım?	çalışır mıymışsın?	çalışır mıymış?	çalışır mıymışız?	çalışır mıymışsınız?	çalışırlar mıymış?
+work	inferential	imperfective	imperfective	çalışıyor muymuşum?	çalışıyor muymuşsun?	çalışıyor muymuş?	çalışıyor muymuşuz?	çalışıyor muymuşsunuz?	çalışıyorlar mıymış?
+work	conditional	simple	simple	çalışsam mı?	çalışsan mı?	çalışsa mı?	çalışsak mı?	çalışsanız mı?	çalışsalar mı?
+work	conditional	perfective	perfective	çalışsa mıydım?	çalışsa mıydın?	çalışsa mıydı?	çalışsa mıydık?	çalışsa mıydınız?	çalışsalar mıydı?
+work	progressive	progressive	progressive	çalışmakta mıyım?	çalışmakta mısın?	çalışmakta mı?	çalışmakta mıyız?	çalışmakta mısınız?	çalışmaktalar mı?
+work	necessitative	necessitative	necessitative	çalışmalı mıyım?	çalışmalı mısın?	çalışmalı mı?	çalışmalı mıyız?	çalışmalı mısınız?	çalışmalılar mı?
+work									
+work	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+work									
+work	infinitive	infinitive	infinitive	çalışmamak	çalışmamak	çalışmamak	çalışmamak	çalışmamak	çalışmamak
+work	impersonal participle	imperfective	imperfective	çalışmayan	çalışmayan	çalışmayan	çalışmayan	çalışmayan	çalışmayan
+work	impersonal participle	perfective	perfective	çalışmamış	çalışmamış	çalışmamış	çalışmamış	çalışmamış	çalışmamış
+work	impersonal participle	prospective	prospective	çalışmayacak	çalışmayacak	çalışmayacak	çalışmayacak	çalışmayacak	çalışmayacak
+work	personal participle	non-prospective	non-prospective	çalışmadığım	çalışmadığın	çalışmadığı	çalışmadığımız	çalışmadığınız	çalışmadıkları
+work	personal participle	prospective	prospective	çalışmayacağım	çalışmayacağın	çalışmayacağı	çalışmayacağımız	çalışmayacağınız	çalışmayacakları
+work	verbal noun	verbal noun	verbal noun	çalışmama	çalışmama	çalışmama	çalışmama	çalışmama	çalışmama
+work	way of doing	way of doing	way of doing	çalışmayış	çalışmayış	çalışmayış	çalışmayış	çalışmayış	çalışmayış
+work				singular	singular	singular	plural	plural	plural
+work				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+work				ben	sen	o	biz	siz	onlar
+work	indicative	present	aorist	çalışmam	çalışmazsın	çalışmaz	çalışmayız	çalışmazsınız	çalışmazlar
+work	indicative	present	imperfective	çalışmıyorum	çalışmıyorsun	çalışmıyor	çalışmıyoruz	çalışmıyorsunuz	çalışmıyorlar
+work	indicative	past	perfective	çalışmadım	çalışmadın	çalışmadı	çalışmadık	çalışmadınız	çalışmadılar
+work	indicative	past	imperfective	çalışmıyordum	çalışmıyordun	çalışmıyordu	çalışmıyorduk	çalışmıyordunuz	çalışmıyorlardı
+work	indicative	future	future	çalışmayacağım	çalışmayacaksın	çalışmayacak	çalışmayacağız	çalışmayacaksınız	çalışmayacaklar
+work	inferential	perfective	perfective	çalışmamışım	çalışmamışsın	çalışmamış	çalışmamışız	çalışmamışsınız	çalışmamışlar
+work	inferential	aorist	aorist	çalışmazmışım	çalışmazmışsın	çalışmazmış	çalışmazmışız	çalışmazmışsınız	çalışmazlarmış
+work	inferential	imperfective	imperfective	çalışmıyormuşum	çalışmıyormuşsun	çalışmıyormuş	çalışmıyormuşuz	çalışmıyormuşsunuz	çalışmıyorlarmış
+work	conditional	simple	simple	çalışmasam	çalışmasan	çalışmasa	çalışmasak	çalışmasanız	çalışmasalar
+work	conditional	perfective	perfective	çalışmasaydım	çalışmasaydın	çalışmasaydı	çalışmasaydık	çalışmasaydınız	çalışmasaydılar
+work	optative	optative	optative	çalışmayayım	çalışmayasın	çalışmaya	çalışmayalım	çalışmayasınız	çalışmayalar
+work	progressive	progressive	progressive	çalışmamaktayım	çalışmamaktasın	çalışmamakta	çalışmamaktayız	çalışmamaktasınız	çalışmamaktalar
+work	necessitative	necessitative	necessitative	çalışmamalıyım	çalışmamalısın	çalışmamalı	çalışmamalıyız	çalışmamalısınız	çalışmamalılar
+work	imperative	imperative	imperative		çalışma	çalışmasın		çalışmayın	çalışmasınlar
+work									
+work	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+work									
+work				singular	singular	singular	plural	plural	plural
+work				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+work				ben	sen	o	biz	siz	onlar
+work	indicative	present	aorist	çalışmaz mıyım?	çalışmaz mısın?	çalışmaz mı?	çalışmaz mıyız?	çalışmaz mısınız?	çalışmazlar mı?
+work	indicative	present	imperfective	çalışmıyor muyum?	çalışmıyor musun?	çalışmıyor mu?	çalışmıyor muyuz?	çalışmıyor musunuz?	çalışmıyorlar mı?
+work	indicative	past	perfective	çalışmadım mı?	çalışmadın mı?	çalışmadı mı?	çalışmadık mı?	çalışmadınız mı?	çalışmadılar mı?
+work	indicative	past	imperfective	çalışmıyor muydum?	çalışmıyor muydun?	çalışmıyor muydu?	çalışmıyor muyduk?	çalışmıyor muydunuz?	çalışmıyorlar mıydı?
+work	indicative	future	future	çalışmayacak mıyım?	çalışmayacak mısın?	çalışmayacak mı?	çalışmayacak mıyız?	çalışmayacak mısınız?	çalışmayacaklar mı?
+work	inferential	perfective	perfective	çalışmamış mıyım?	çalışmamış mısın?	çalışmamış mı?	çalışmamış mıyız?	çalışmamış mısınız?	çalışmamışlar mı?
+work	inferential	aorist	aorist	çalışmaz mıymışım?	çalışmaz mıymışsın?	çalışmaz mıymış?	çalışmaz mıymışız?	çalışmaz mıymışsınız?	çalışmazlar mıymış?
+work	inferential	imperfective	imperfective	çalışmıyor muymuşum?	çalışmıyor muymuşsun?	çalışmıyor muymuş?	çalışmıyor muymuşuz?	çalışmıyor muymuşsunuz?	çalışmıyorlar mıymış?
+work	conditional	simple	simple	çalışmasam mı?	çalışmasan mı?	çalışmasa mı?	çalışmasak mı?	çalışmasanız mı?	çalışmasalar mı?
+work	conditional	perfective	perfective	çalışmasa mıydım?	çalışmasa mıydın?	çalışmasa mıydı?	çalışmasa mıydık?	çalışmasa mıydınız?	çalışmasalar mıydı?
+work	progressive	progressive	progressive	çalışmamakta mıyım?	çalışmamakta mısın?	çalışmamakta mı?	çalışmamakta mıyız?	çalışmamakta mısınız?	çalışmamaktalar mı?
+work	necessitative	necessitative	necessitative	çalışmamalı mıyım?	çalışmamalı mısın?	çalışmamalı mı?	çalışmamalı mıyız?	çalışmamalı mısınız?	çalışmamalılar mı?

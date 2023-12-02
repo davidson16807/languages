@@ -93,6 +93,18 @@ fly	future	second	תָּטוּס‎	תָּטוּסִי‎	תָּטוּסוּ‎	
 fly	future	third	יָטוּס‎	תָּטוּס‎	יָטוּסוּ‎	תטוסנה / תָּטֹסְנָה‎1
 fly	imperative	imperative	טוּס‎	טוּסִי‎	טוּסוּ‎	טוסנה / טֹסְנָה‎1
 fly	notes	notes	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.
+hear	non-finite forms	non-finite forms	to-infinitive: לשמוע / לִשְׁמֹעַ‎action noun: שְׁמִיעָה‎passive participle: שָׁמוּעַ‎	to-infinitive: לשמוע / לִשְׁמֹעַ‎action noun: שְׁמִיעָה‎passive participle: שָׁמוּעַ‎	to-infinitive: לשמוע / לִשְׁמֹעַ‎action noun: שְׁמִיעָה‎passive participle: שָׁמוּעַ‎	to-infinitive: לשמוע / לִשְׁמֹעַ‎action noun: שְׁמִיעָה‎passive participle: שָׁמוּעַ‎
+hear	finite forms	finite forms	singular	singular	plural	plural
+hear	finite forms	finite forms	m.	f.	m.	f.
+hear	past	first	שָׁמַעְתִּי‎	שָׁמַעְתִּי‎	שָׁמַעְנוּ‎	שָׁמַעְנוּ‎
+hear	past	second	שָׁמַעְתָּ‎	שָׁמַעְתְּ‎	שְׁמַעְתֶּם‎1	שְׁמַעְתֶּן‎1
+hear	past	third	שָׁמַע	שָׁמְעָה‎	שָׁמְעוּ‎	שָׁמְעוּ‎
+hear	present	present	שׁוֹמֵעַ‎	שׁוֹמַעַת‎	שׁוֹמְעִים‎	שׁוֹמְעוֹת‎
+hear	future	first	אֶשְׁמַע‎	אֶשְׁמַע‎	נִשְׁמַע‎	נִשְׁמַע‎
+hear	future	second	תִּשְׁמַע‎	תִּשְׁמְעִי‎	תִּשְׁמְעוּ‎	תִּשְׁמַעְנָה‎2
+hear	future	third	יִשְׁמַע‎	תִּשְׁמַע‎	יִשְׁמְעוּ‎	תִּשְׁמַעְנָה‎2
+hear	imperative	imperative	שְׁמַע	שִׁמְעִי‎	שִׁמְעוּ‎	שְׁמַעְנָה‎2
+hear	notes	notes	Pronounced שָׁמַעְתֶּם‎ and שָׁמַעְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced שָׁמַעְתֶּם‎ and שָׁמַעְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced שָׁמַעְתֶּם‎ and שָׁמַעְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced שָׁמַעְתֶּם‎ and שָׁמַעְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.
 rest	non-finite forms	non-finite forms	to-infinitive: לָנוּחַ‎action noun: —	to-infinitive: לָנוּחַ‎action noun: —	to-infinitive: לָנוּחַ‎action noun: —	to-infinitive: לָנוּחַ‎action noun: —
 rest	finite forms	finite forms	singular	singular	plural	plural
 rest	finite forms	finite forms	m.	f.	m.	f.
@@ -117,3 +129,75 @@ see	future	second	תִּרְאֶה‎	תִּרְאִי‎	תִּרְאוּ‎	ת
 see	future	third	יִרְאֶה‎	תִּרְאֶה‎	יִרְאוּ‎	תִּרְאֶינָה‎2
 see	imperative	imperative	רְאֵה	רְאִי‎	רְאוּ‎	רְאֶינָה‎2
 see	notes	notes	Pronounced רָאִיתֶם‎ and רָאִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced רָאִיתֶם‎ and רָאִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced רָאִיתֶם‎ and רָאִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced רָאִיתֶם‎ and רָאִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.
+show	non-finite forms	non-finite forms	to-infinitive: לְהַרְאוֹת‎action noun: הַרְאָיָה‎	to-infinitive: לְהַרְאוֹת‎action noun: הַרְאָיָה‎	to-infinitive: לְהַרְאוֹת‎action noun: הַרְאָיָה‎	to-infinitive: לְהַרְאוֹת‎action noun: הַרְאָיָה‎
+show	finite forms	finite forms	singular	singular	plural	plural
+show	finite forms	finite forms	m.	f.	m.	f.
+show	past	first	הֶרְאֵיתִי‎	הֶרְאֵיתִי‎	הֶרְאֵינוּ‎	הֶרְאֵינוּ‎
+show	past	second	הֶרְאֵיתָ‎	הֶרְאֵית‎	הֶרְאֵיתֶם‎	הֶרְאֵיתֶן‎
+show	past	third	הֶרְאָה	הֶרְאֲתָה‎	הֶרְאוּ‎	הֶרְאוּ‎
+show	present	present	מַרְאֶה‎	מַרְאָה‎	מַרְאִים‎	מַרְאוֹת‎
+show	future	first	אַרְאֶה‎	אַרְאֶה‎	נַרְאֶה‎	נַרְאֶה‎
+show	future	second	תַּרְאֶה‎	תַּרְאִי‎	תַּרְאוּ‎	תַּרְאֶינָה‎1
+show	future	third	יַרְאֶה‎	תַּרְאֶה‎	יַרְאוּ‎	תַּרְאֶינָה‎1
+show	imperative	imperative	הַרְאֵה	הַרְאִי‎	הַרְאוּ‎	הַרְאֶינָה‎1
+show	notes	notes	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.
+swim	non-finite forms	non-finite forms	to-infinitive: לִשְׂחוֹת‎action noun: שְׂחִיָּה‎passive participle: שָׂחוּי‎	to-infinitive: לִשְׂחוֹת‎action noun: שְׂחִיָּה‎passive participle: שָׂחוּי‎	to-infinitive: לִשְׂחוֹת‎action noun: שְׂחִיָּה‎passive participle: שָׂחוּי‎	to-infinitive: לִשְׂחוֹת‎action noun: שְׂחִיָּה‎passive participle: שָׂחוּי‎
+swim	finite forms	finite forms	singular	singular	plural	plural
+swim	finite forms	finite forms	m.	f.	m.	f.
+swim	past	first	שָׂחִיתִי‎	שָׂחִיתִי‎	שָׂחִינוּ‎	שָׂחִינוּ‎
+swim	past	second	שָׂחִיתָ‎	שָׂחִית‎	שְׂחִיתֶם‎1	שְׂחִיתֶן‎1
+swim	past	third	שָׂחָה	שָׂחֲתָה‎	שָׂחוּ‎	שָׂחוּ‎
+swim	present	present	שׂוֹחֶה‎	שׂוֹחָה‎	שׂוֹחִים‎	שׂוֹחוֹת‎
+swim	future	first	אֶשְׂחֶה‎	אֶשְׂחֶה‎	נִשְׂחֶה‎	נִשְׂחֶה‎
+swim	future	second	תִּשְׂחֶה‎	תִּשְׂחִי‎	תִּשְׂחוּ‎	תִּשְׂחֶינָה‎2
+swim	future	third	יִשְׂחֶה‎	תִּשְׂחֶה‎	יִשְׂחוּ‎	תִּשְׂחֶינָה‎2
+swim	imperative	imperative	שְׂחֵה	שְׂחִי‎	שְׂחוּ‎	שְׂחֶינָה‎2
+swim	notes	notes	Pronounced שָׂחִיתֶם‎ and שָׂחִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced שָׂחִיתֶם‎ and שָׂחִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced שָׂחִיתֶם‎ and שָׂחִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced שָׂחִיתֶם‎ and שָׂחִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.
+walk	non-finite forms	non-finite forms	to-infinitive: לָלֶכֶת‎action noun: הֲלִיכָה‎passive participle: —	to-infinitive: לָלֶכֶת‎action noun: הֲלִיכָה‎passive participle: —	to-infinitive: לָלֶכֶת‎action noun: הֲלִיכָה‎passive participle: —	to-infinitive: לָלֶכֶת‎action noun: הֲלִיכָה‎passive participle: —
+walk	finite forms	finite forms	singular	singular	plural	plural
+walk	finite forms	finite forms	m.	f.	m.	f.
+walk	past	first	הָלַכְתִּי‎	הָלַכְתִּי‎	הָלַכְנוּ‎	הָלַכְנוּ‎
+walk	past	second	הָלַכְתָּ‎	הָלַכְתְּ‎	הֲלַכְתֶּם‎1	הֲלַכְתֶּן‎1
+walk	past	third	הָלַךְ	הָלְכָה‎	הָלְכוּ‎	הָלְכוּ‎
+walk	present	present	הוֹלֵךְ‎	הוֹלֶכֶת‎	הוֹלְכִים‎	הוֹלְכוֹת‎
+walk	future	first	אֵלֵךְ‎	אֵלֵךְ‎	נֵלֵךְ‎	נֵלֵךְ‎
+walk	future	second	תֵּלֵךְ‎	תֵּלְכִי‎	תֵּלְכוּ‎	תֵּלֵכְנָה‎2
+walk	future	third	יֵלֵךְ‎	תֵּלֵךְ‎	יֵלְכוּ‎	תֵּלֵכְנָה‎2
+walk	imperative	imperative	לֵךְ‎	לְכִי‎	לְכוּ‎	לֵכְנָה‎2
+walk	notes	notes	Pronounced הָלַכְתֶּם‎ and הָלַכְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced הָלַכְתֶּם‎ and הָלַכְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced הָלַכְתֶּם‎ and הָלַכְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced הָלַכְתֶּם‎ and הָלַכְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.
+warm	non-finite forms	non-finite forms	to-infinitive: לְחַמֵּם‎action noun: חימום / חִמּוּם‎	to-infinitive: לְחַמֵּם‎action noun: חימום / חִמּוּם‎	to-infinitive: לְחַמֵּם‎action noun: חימום / חִמּוּם‎	to-infinitive: לְחַמֵּם‎action noun: חימום / חִמּוּם‎
+warm	finite forms	finite forms	singular	singular	plural	plural
+warm	finite forms	finite forms	m.	f.	m.	f.
+warm	past	first	חיממתי / חִמַּמְתִּי‎	חיממתי / חִמַּמְתִּי‎	חיממנו / חִמַּמְנוּ‎	חיממנו / חִמַּמְנוּ‎
+warm	past	second	חיממת / חִמַּמְתָּ‎	חיממת / חִמַּמְתְּ‎	חיממתם / חִמַּמְתֶּם‎	חיממתן / חִמַּמְתֶּן‎
+warm	past	third	חימם / חִמֵּם	חיממה / חִמְּמָה‎	חיממו / חִמְּמוּ‎	חיממו / חִמְּמוּ‎
+warm	present	present	מְחַמֵּם‎	מְחַמֶּמֶת‎	מְחַמְּמִים‎	מְחַמְּמוֹת‎
+warm	future	first	אֲחַמֵּם‎	אֲחַמֵּם‎	נְחַמֵּם‎	נְחַמֵּם‎
+warm	future	second	תְּחַמֵּם‎	תְּחַמְּמִי‎	תְּחַמְּמוּ‎	תְּחַמֵּמְנָה‎1
+warm	future	third	יְחַמֵּם‎	תְּחַמֵּם‎	יְחַמְּמוּ‎	תְּחַמֵּמְנָה‎1
+warm	imperative	imperative	חַמֵּם‎	חַמְּמִי‎	חַמְּמוּ‎	חַמֵּמְנָה‎1
+warm	notes	notes	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.	Rare in Modern Hebrew.
+watch	non-finite forms	non-finite forms	to-infinitive: לִצְפּוֹת‎action noun: צְפִיָּה‎passive participle: צָפוּי‎	to-infinitive: לִצְפּוֹת‎action noun: צְפִיָּה‎passive participle: צָפוּי‎	to-infinitive: לִצְפּוֹת‎action noun: צְפִיָּה‎passive participle: צָפוּי‎	to-infinitive: לִצְפּוֹת‎action noun: צְפִיָּה‎passive participle: צָפוּי‎
+watch	finite forms	finite forms	singular	singular	plural	plural
+watch	finite forms	finite forms	m.	f.	m.	f.
+watch	past	first	צָפִיתִי‎	צָפִיתִי‎	צָפִינוּ‎	צָפִינוּ‎
+watch	past	second	צָפִיתָ‎	צָפִית‎	צְפִיתֶם‎1	צְפִיתֶן‎1
+watch	past	third	צָפָה	צָפְתָה‎	צָפוּ‎	צָפוּ‎
+watch	present	present	צוֹפֶה‎	צוֹפָה‎	צוֹפִים‎	צוֹפוֹת‎
+watch	future	first	אֶצְפֶּה‎	אֶצְפֶּה‎	נִצְפֶּה‎	נִצְפֶּה‎
+watch	future	second	תִּצְפֶּה‎	תִּצְפִּי‎	תִּצְפּוּ‎	תִּצְפֶּינָה‎2
+watch	future	third	יִצְפֶּה‎	תִּצְפֶּה‎	יִצְפּוּ‎	תִּצְפֶּינָה‎2
+watch	imperative	imperative	צְפֵה	צְפִי‎	צְפוּ‎	צְפֶינָה‎2
+watch	notes	notes	Pronounced צָפִיתֶם‎ and צָפִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced צָפִיתֶם‎ and צָפִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced צָפִיתֶם‎ and צָפִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced צָפִיתֶם‎ and צָפִיתֶן‎ in informal Modern Hebrew.Rare in Modern Hebrew.
+work	non-finite forms	non-finite forms	to-infinitive: לעבוד / לַעֲבֹד‎action noun: עֲבוֹדָה‎passive participle: —	to-infinitive: לעבוד / לַעֲבֹד‎action noun: עֲבוֹדָה‎passive participle: —	to-infinitive: לעבוד / לַעֲבֹד‎action noun: עֲבוֹדָה‎passive participle: —	to-infinitive: לעבוד / לַעֲבֹד‎action noun: עֲבוֹדָה‎passive participle: —
+work	finite forms	finite forms	singular	singular	plural	plural
+work	finite forms	finite forms	m.	f.	m.	f.
+work	past	first	עָבַדְתִּי‎	עָבַדְתִּי‎	עָבַדְנוּ‎	עָבַדְנוּ‎
+work	past	second	עָבַדְתָּ‎	עָבַדְתְּ‎	עֲבַדְתֶּם‎1	עֲבַדְתֶּן‎1
+work	past	third	עָבַד	עָבְדָה‎	עָבְדוּ‎	עָבְדוּ‎
+work	present	present	עוֹבֵד‎	עוֹבֶדֶת‎	עוֹבְדִים‎	עוֹבְדוֹת‎
+work	future	first	אעבוד / אֶעֱבֹד‎	אעבוד / אֶעֱבֹד‎	נעבוד / נַעֲבֹד‎	נעבוד / נַעֲבֹד‎
+work	future	second	תעבוד / תַּעֲבֹד‎	תַּעַבְדִי‎	תַּעַבְדוּ‎	תעבודנה / תַּעֲבֹדְנָה‎2
+work	future	third	יעבוד / יַעֲבֹד‎	תעבוד / תַּעֲבֹד‎	יַעַבְדוּ‎	תעבודנה / תַּעֲבֹדְנָה‎2
+work	imperative	imperative	עבוד / עֲבֹד‎	עִבְדִי‎	עִבְדוּ‎	עבודנה / עֲבֹדְנָה‎2
+work	notes	notes	Pronounced עָבַדְתֶּם‎ and עָבַדְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced עָבַדְתֶּם‎ and עָבַדְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced עָבַדְתֶּם‎ and עָבַדְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.	Pronounced עָבַדְתֶּם‎ and עָבַדְתֶּן‎ in informal Modern Hebrew.Rare in Modern Hebrew.
