@@ -73,6 +73,7 @@ class Language:
             'direct-object':  {'subjectivity':'direct-object'},
             'indirect-object':{'subjectivity':'indirect-object'},
             'verb-modifier':  {'subjectivity':'verb-modifier'},
+            'noun-modifier':  {'subjectivity':'noun-modifier'},
             'addressee':      {'subjectivity':'addressee'},
             'common-possessive':   {'noun-form': 'common-possessive'},
             'personal-possessive': {'noun-form': 'personal-possessive'},
