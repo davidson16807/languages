@@ -831,3 +831,322 @@ work	participles	participles	labōrāns	—	labōrātūrus	—	labōrātus	labō
 work	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
 work	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
 work	verbal nouns	verbal nouns	labōrandī	labōrandō	labōrandum	labōrandō	labōrātum	labōrātū
+be	   conjugation of sum (highly irregular, suppletive, no supine stem except in the future active participle, active only)	   conjugation of sum (highly irregular, suppletive, no supine stem except in the future active participle, active only)	   conjugation of sum (highly irregular, suppletive, no supine stem except in the future active participle, active only)	   conjugation of sum (highly irregular, suppletive, no supine stem except in the future active participle, active only)	   conjugation of sum (highly irregular, suppletive, no supine stem except in the future active participle, active only)	   conjugation of sum (highly irregular, suppletive, no supine stem except in the future active participle, active only)	   conjugation of sum (highly irregular, suppletive, no supine stem except in the future active participle, active only)	   conjugation of sum (highly irregular, suppletive, no supine stem except in the future active participle, active only)
+be	indicative	indicative	singular	singular	singular	plural	plural	plural
+be	indicative	indicative	first	second	third	first	second	third
+be	active	present	sum	es	est	sumus	estis	sunt
+be	active	imperfect	eram	erās	erat	erāmus	erātis	erant
+be	active	future	erō	eris, ere	erit	erimus	eritis	erunt
+be	active	perfect	fuī	fuistī	fuit	fuimus	fuistis	fuērunt, fuēre
+be	active	pluperfect	fueram	fuerās	fuerat	fuerāmus	fuerātis	fuerant
+be	active	future perfect	fuerō	fueris	fuerit	fuerimus	fueritis	fuerint
+be	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+be	subjunctive	subjunctive	first	second	third	first	second	third
+be	active	present	sim	sīs	sit	sīmus	sītis	sint
+be	active	imperfect	essem, forem	essēs, forēs	esset, foret	essēmus, forēmus	essētis, forētis	essent, forent
+be	active	perfect	fuerim	fuerīs	fuerit	fuerīmus	fuerītis	fuerint
+be	active	pluperfect	fuissem	fuissēs	fuisset	fuissēmus	fuissētis	fuissent
+be	imperative	imperative	singular	singular	singular	plural	plural	plural
+be	imperative	imperative	first	second	third	first	second	third
+be	active	present	—	es	—	—	este	—
+be	active	future	—	estō	estō	—	estōte	suntō
+be	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+be	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+be	infinitives	infinitives	esse	fuisse	futūrum esse, fore	—	—	—
+be	participles	participles	—	—	futūrus	—	—	—
+be-able	   conjugation of possum (highly irregular, suppletive, active only)	   conjugation of possum (highly irregular, suppletive, active only)	   conjugation of possum (highly irregular, suppletive, active only)	   conjugation of possum (highly irregular, suppletive, active only)	   conjugation of possum (highly irregular, suppletive, active only)	   conjugation of possum (highly irregular, suppletive, active only)	   conjugation of possum (highly irregular, suppletive, active only)	   conjugation of possum (highly irregular, suppletive, active only)
+be-able	indicative	indicative	singular	singular	singular	plural	plural	plural
+be-able	indicative	indicative	first	second	third	first	second	third
+be-able	active	present	possum	potes	potest	possumus	potestis	possunt
+be-able	active	imperfect	poteram	poterās	poterat	poterāmus	poterātis	poterant
+be-able	active	future	poterō	poteris, potere	poterit	poterimus	poteritis	poterunt
+be-able	active	perfect	potuī	potuistī	potuit	potuimus	potuistis	potuērunt, potuēre
+be-able	active	pluperfect	potueram	potuerās	potuerat	potuerāmus	potuerātis	potuerant
+be-able	active	future perfect	potuerō	potueris	potuerit	potuerimus	potueritis	potuerint
+be-able	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+be-able	subjunctive	subjunctive	first	second	third	first	second	third
+be-able	active	present	possim	possīs	possit	possīmus	possītis	possint
+be-able	active	imperfect	possem	possēs	posset	possēmus	possētis	possent
+be-able	active	perfect	potuerim	potuerīs	potuerit	potuerīmus	potuerītis	potuerint
+be-able	active	pluperfect	potuissem	potuissēs	potuisset	potuissēmus	potuissētis	potuissent
+be-able	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+be-able	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+be-able	infinitives	infinitives	posse	potuisse	—	—	—	—
+be-able	participles	participles	potēns	—	—	—	—	—
+want	   conjugation of volō (irregular, suppletive in the second-person singular indicative present, active only, no imperatives)	   conjugation of volō (irregular, suppletive in the second-person singular indicative present, active only, no imperatives)	   conjugation of volō (irregular, suppletive in the second-person singular indicative present, active only, no imperatives)	   conjugation of volō (irregular, suppletive in the second-person singular indicative present, active only, no imperatives)	   conjugation of volō (irregular, suppletive in the second-person singular indicative present, active only, no imperatives)	   conjugation of volō (irregular, suppletive in the second-person singular indicative present, active only, no imperatives)	   conjugation of volō (irregular, suppletive in the second-person singular indicative present, active only, no imperatives)	   conjugation of volō (irregular, suppletive in the second-person singular indicative present, active only, no imperatives)
+want	indicative	indicative	singular	singular	singular	plural	plural	plural
+want	indicative	indicative	first	second	third	first	second	third
+want	active	present	volō	vīs	vult, volt	volumus	vultis, voltis	volunt
+want	active	imperfect	volēbam	volēbās	volēbat	volēbāmus	volēbātis	volēbant
+want	active	future	volam	volēs	volet	volēmus	volētis	volent
+want	active	perfect	voluī	voluistī	voluit	voluimus	voluistis	voluērunt, voluēre
+want	active	pluperfect	volueram	voluerās	voluerat	voluerāmus	voluerātis	voluerant
+want	active	future perfect	voluerō	volueris	voluerit	voluerimus	volueritis	voluerint
+want	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+want	subjunctive	subjunctive	first	second	third	first	second	third
+want	active	present	velim	velīs	velit	velīmus	velītis	velint
+want	active	imperfect	vellem	vellēs	vellet	vellēmus	vellētis	vellent
+want	active	perfect	voluerim	voluerīs	voluerit	voluerīmus	voluerītis	voluerint
+want	active	pluperfect	voluissem	voluissēs	voluisset	voluissēmus	voluissētis	voluissent
+want	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+want	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+want	infinitives	infinitives	velle	voluisse	—	—	—	—
+want	participles	participles	volēns	—	—	—	—	—
+want	   conjugation of volō (first conjugation, impersonal in passive)	   conjugation of volō (first conjugation, impersonal in passive)	   conjugation of volō (first conjugation, impersonal in passive)	   conjugation of volō (first conjugation, impersonal in passive)	   conjugation of volō (first conjugation, impersonal in passive)	   conjugation of volō (first conjugation, impersonal in passive)	   conjugation of volō (first conjugation, impersonal in passive)	   conjugation of volō (first conjugation, impersonal in passive)
+want	indicative	indicative	singular	singular	singular	plural	plural	plural
+want	indicative	indicative	first	second	third	first	second	third
+want	active	present	volō	volās	volat	volāmus	volātis	volant
+want	active	imperfect	volābam	volābās	volābat	volābāmus	volābātis	volābant
+want	active	future	volābō	volābis	volābit	volābimus	volābitis	volābunt
+want	active	perfect	volāvī	volāvistī	volāvit	volāvimus	volāvistis	volāvērunt, volāvēre
+want	active	pluperfect	volāveram	volāverās	volāverat	volāverāmus	volāverātis	volāverant
+want	active	future perfect	volāverō	volāveris	volāverit	volāverimus	volāveritis	volāverint
+want	passive	present	—	—	volātur	—	—	—
+want	passive	imperfect	—	—	volābātur	—	—	—
+want	passive	future	—	—	volābitur	—	—	—
+want	passive	perfect	—	—	volātum est	—	—	—
+want	passive	pluperfect	—	—	volātum erat	—	—	—
+want	passive	future perfect	—	—	volātum erit	—	—	—
+want	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+want	subjunctive	subjunctive	first	second	third	first	second	third
+want	active	present	volem	volēs	volet	volēmus	volētis	volent
+want	active	imperfect	volārem	volārēs	volāret	volārēmus	volārētis	volārent
+want	active	perfect	volāverim	volāverīs	volāverit	volāverīmus	volāverītis	volāverint
+want	active	pluperfect	volāvissem	volāvissēs	volāvisset	volāvissēmus	volāvissētis	volāvissent
+want	passive	present	—	—	volētur	—	—	—
+want	passive	imperfect	—	—	volārētur	—	—	—
+want	passive	perfect	—	—	volātum sit	—	—	—
+want	passive	pluperfect	—	—	volātum esset, volātum foret	—	—	—
+want	imperative	imperative	singular	singular	singular	plural	plural	plural
+want	imperative	imperative	first	second	third	first	second	third
+want	active	present	—	volā	—	—	volāte	—
+want	active	future	—	volātō	volātō	—	volātōte	volantō
+want	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+want	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+want	infinitives	infinitives	volāre	volāvisse	volātūrum esse	volārī	volātum esse	—
+want	participles	participles	volāns	—	volātūrus	—	volātum	volandum
+want	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+want	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+want	verbal nouns	verbal nouns	volandī	volandō	volandum	volandō	volātum	volātū
+become	   conjugation of fīō (third conjugation iō-variant, irregular long ī, suppletive in the supine stem, semi-deponent)	   conjugation of fīō (third conjugation iō-variant, irregular long ī, suppletive in the supine stem, semi-deponent)	   conjugation of fīō (third conjugation iō-variant, irregular long ī, suppletive in the supine stem, semi-deponent)	   conjugation of fīō (third conjugation iō-variant, irregular long ī, suppletive in the supine stem, semi-deponent)	   conjugation of fīō (third conjugation iō-variant, irregular long ī, suppletive in the supine stem, semi-deponent)	   conjugation of fīō (third conjugation iō-variant, irregular long ī, suppletive in the supine stem, semi-deponent)	   conjugation of fīō (third conjugation iō-variant, irregular long ī, suppletive in the supine stem, semi-deponent)	   conjugation of fīō (third conjugation iō-variant, irregular long ī, suppletive in the supine stem, semi-deponent)
+become	indicative	indicative	singular	singular	singular	plural	plural	plural
+become	indicative	indicative	first	second	third	first	second	third
+become	active	present	fīō	fīs	fit	fīmus	fītis	fīunt
+become	active	imperfect	fīēbam	fīēbās	fīēbat	fīēbāmus	fīēbātis	fīēbant
+become	active	future	fīam	fīēs	fīet	fīēmus	fīētis	fīent
+become	active	perfect	factus + present active indicative of sum	factus + present active indicative of sum	factus + present active indicative of sum	factus + present active indicative of sum	factus + present active indicative of sum	factus + present active indicative of sum
+become	active	pluperfect	factus + imperfect active indicative of sum	factus + imperfect active indicative of sum	factus + imperfect active indicative of sum	factus + imperfect active indicative of sum	factus + imperfect active indicative of sum	factus + imperfect active indicative of sum
+become	active	future perfect	factus + future active indicative of sum	factus + future active indicative of sum	factus + future active indicative of sum	factus + future active indicative of sum	factus + future active indicative of sum	factus + future active indicative of sum
+become	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+become	subjunctive	subjunctive	first	second	third	first	second	third
+become	active	present	fīam	fīās	fīat	fīāmus	fīātis	fīant
+become	active	imperfect	fierem	fierēs	fieret	fierēmus	fierētis	fierent
+become	active	perfect	factus + present active subjunctive of sum	factus + present active subjunctive of sum	factus + present active subjunctive of sum	factus + present active subjunctive of sum	factus + present active subjunctive of sum	factus + present active subjunctive of sum
+become	active	pluperfect	factus + imperfect active subjunctive of sum	factus + imperfect active subjunctive of sum	factus + imperfect active subjunctive of sum	factus + imperfect active subjunctive of sum	factus + imperfect active subjunctive of sum	factus + imperfect active subjunctive of sum
+become	imperative	imperative	singular	singular	singular	plural	plural	plural
+become	imperative	imperative	first	second	third	first	second	third
+become	active	present	—	fī	—	—	fīte	—
+become	active	future	—	fītō	fītō	—	fītōte	fīuntō
+become	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+become	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+become	infinitives	infinitives	fierī	factum esse	factum īrī	—	—	—
+become	participles	participles	—	factus	—	—	—	—
+become	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+become	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+become	verbal nouns	verbal nouns	fiendī	fiendō	fiendum	fiendō	factum	factū
+go	   conjugation of eō (irregular)	   conjugation of eō (irregular)	   conjugation of eō (irregular)	   conjugation of eō (irregular)	   conjugation of eō (irregular)	   conjugation of eō (irregular)	   conjugation of eō (irregular)	   conjugation of eō (irregular)
+go	indicative	indicative	singular	singular	singular	plural	plural	plural
+go	indicative	indicative	first	second	third	first	second	third
+go	active	present	eō	īs	it	īmus	ītis	eunt
+go	active	imperfect	ībam	ībās	ībat	ībāmus	ībātis	ībant
+go	active	future	ībō	ībis	ībit	ībimus	ībitis	ībunt
+go	active	perfect	iī, īvī	īstī, īvistī	iit, īvit	iimus	īstis	iērunt, iēre
+go	active	pluperfect	ieram	ierās	ierat	ierāmus	ierātis	ierant
+go	active	future perfect	ierō	ieris	ierit	ierimus	ieritis	ierint
+go	passive	present	eor	īris, īre	ītur	īmur	īminī	euntur
+go	passive	imperfect	ībar	ībāris, ībāre	ībātur	ībāmur	ībāminī	ībantur
+go	passive	future	ībor	īberis, ībere	ībitur	ībimur	ībiminī	ībuntur
+go	passive	perfect	itus + present active indicative of sum	itus + present active indicative of sum	itus + present active indicative of sum	itus + present active indicative of sum	itus + present active indicative of sum	itus + present active indicative of sum
+go	passive	pluperfect	itus + imperfect active indicative of sum	itus + imperfect active indicative of sum	itus + imperfect active indicative of sum	itus + imperfect active indicative of sum	itus + imperfect active indicative of sum	itus + imperfect active indicative of sum
+go	passive	future perfect	itus + future active indicative of sum	itus + future active indicative of sum	itus + future active indicative of sum	itus + future active indicative of sum	itus + future active indicative of sum	itus + future active indicative of sum
+go	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+go	subjunctive	subjunctive	first	second	third	first	second	third
+go	active	present	eam	eās	eat	eāmus	eātis	eant
+go	active	imperfect	īrem	īrēs	īret	īrēmus	īrētis	īrent
+go	active	perfect	ierim	ierīs	ierit	ierīmus	ierītis	ierint
+go	active	pluperfect	īssem	īssēs	īsset	īssēmus	īssētis	īssent
+go	passive	present	ear	eāris, eāre	eātur	eāmur	eāminī	eantur
+go	passive	imperfect	īrer	īrēris, īrēre	īrētur	īrēmur	īrēminī	īrentur
+go	passive	perfect	itus + present active subjunctive of sum	itus + present active subjunctive of sum	itus + present active subjunctive of sum	itus + present active subjunctive of sum	itus + present active subjunctive of sum	itus + present active subjunctive of sum
+go	passive	pluperfect	itus + imperfect active subjunctive of sum	itus + imperfect active subjunctive of sum	itus + imperfect active subjunctive of sum	itus + imperfect active subjunctive of sum	itus + imperfect active subjunctive of sum	itus + imperfect active subjunctive of sum
+go	imperative	imperative	singular	singular	singular	plural	plural	plural
+go	imperative	imperative	first	second	third	first	second	third
+go	active	present	—	ī	—	—	īte	—
+go	active	future	—	ītō	ītō	—	ītōte	euntō
+go	passive	present	—	īre	—	—	īminī	—
+go	passive	future	—	ītor	ītor	—	—	euntor
+go	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+go	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+go	infinitives	infinitives	īre	īsse	itūrum esse	īrī, īrier1	itum esse	itum īrī
+go	participles	participles	iēns	—	itūrus	—	itus	eundus
+go	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+go	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+go	verbal nouns	verbal nouns	eundī	eundō	eundum	eundō	itum	itū
+carry	   conjugation of ferō (third conjugation, irregular, suppletive)	   conjugation of ferō (third conjugation, irregular, suppletive)	   conjugation of ferō (third conjugation, irregular, suppletive)	   conjugation of ferō (third conjugation, irregular, suppletive)	   conjugation of ferō (third conjugation, irregular, suppletive)	   conjugation of ferō (third conjugation, irregular, suppletive)	   conjugation of ferō (third conjugation, irregular, suppletive)	   conjugation of ferō (third conjugation, irregular, suppletive)
+carry	indicative	indicative	singular	singular	singular	plural	plural	plural
+carry	indicative	indicative	first	second	third	first	second	third
+carry	active	present	ferō	fers	fert	ferimus	fertis	ferunt
+carry	active	imperfect	ferēbam	ferēbās	ferēbat	ferēbāmus	ferēbātis	ferēbant
+carry	active	future	feram	ferēs	feret	ferēmus	ferētis	ferent
+carry	active	perfect	tulī, tetulī1	tulistī, tetulistī1	tulit, tetulit1	tulimus, tetulimus1	tulistis, tetulistis1	tulērunt, tulēre, tetulērunt, tetulēre1
+carry	active	pluperfect	tuleram, tetuleram1	tulerās, tetulerās1	tulerat, tetulerat1	tulerāmus, tetulerāmus1	tulerātis, tetulerātis1	tulerant, tetulerant1
+carry	active	future perfect	tulerō, tetulerō1	tuleris, tetuleris1	tulerit, tetulerit1	tulerimus, tetulerimus1	tuleritis, tetuleritis1	tulerint, tetulerint1
+carry	passive	present	feror	ferris, ferre	fertur	ferimur	feriminī	feruntur
+carry	passive	imperfect	ferēbar	ferēbāris, ferēbāre	ferēbātur	ferēbāmur	ferēbāminī	ferēbantur
+carry	passive	future	ferar	ferēris, ferēre	ferētur	ferēmur	ferēminī	ferentur
+carry	passive	perfect	lātus + present active indicative of sum	lātus + present active indicative of sum	lātus + present active indicative of sum	lātus + present active indicative of sum	lātus + present active indicative of sum	lātus + present active indicative of sum
+carry	passive	pluperfect	lātus + imperfect active indicative of sum	lātus + imperfect active indicative of sum	lātus + imperfect active indicative of sum	lātus + imperfect active indicative of sum	lātus + imperfect active indicative of sum	lātus + imperfect active indicative of sum
+carry	passive	future perfect	lātus + future active indicative of sum	lātus + future active indicative of sum	lātus + future active indicative of sum	lātus + future active indicative of sum	lātus + future active indicative of sum	lātus + future active indicative of sum
+carry	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+carry	subjunctive	subjunctive	first	second	third	first	second	third
+carry	active	present	feram	ferās	ferat	ferāmus	ferātis	ferant
+carry	active	imperfect	ferrem	ferrēs	ferret	ferrēmus	ferrētis	ferrent
+carry	active	perfect	tulerim, tetulerim1	tulerīs, tetulerīs1	tulerit, tetulerit1	tulerīmus, tetulerīmus1	tulerītis, tetulerītis1	tulerint, tetulerint1
+carry	active	pluperfect	tulissem, tetulissem1	tulissēs, tetulissēs1	tulisset, tetulisset1	tulissēmus, tetulissēmus1	tulissētis, tetulissētis1	tulissent, tetulissent1
+carry	passive	present	ferar	ferāris, ferāre	ferātur	ferāmur	ferāminī	ferantur
+carry	passive	imperfect	ferrer	ferrēris, ferrēre	ferrētur	ferrēmur	ferrēminī	ferrentur
+carry	passive	perfect	lātus + present active subjunctive of sum	lātus + present active subjunctive of sum	lātus + present active subjunctive of sum	lātus + present active subjunctive of sum	lātus + present active subjunctive of sum	lātus + present active subjunctive of sum
+carry	passive	pluperfect	lātus + imperfect active subjunctive of sum	lātus + imperfect active subjunctive of sum	lātus + imperfect active subjunctive of sum	lātus + imperfect active subjunctive of sum	lātus + imperfect active subjunctive of sum	lātus + imperfect active subjunctive of sum
+carry	imperative	imperative	singular	singular	singular	plural	plural	plural
+carry	imperative	imperative	first	second	third	first	second	third
+carry	active	present	—	fer	—	—	ferte	—
+carry	active	future	—	fertō	fertō	—	fertōte	feruntō
+carry	passive	present	—	ferre	—	—	feriminī	—
+carry	passive	future	—	fertor	fertor	—	—	feruntor
+carry	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+carry	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+carry	infinitives	infinitives	ferre	tulisse, tetulisse1	lātūrum esse	ferrī	lātum esse1	lātum īrī
+carry	participles	participles	ferēns	—1	lātūrus	—	lātus1	ferendus, ferundus
+carry	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+carry	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+carry	verbal nouns	verbal nouns	ferendī	ferendō	ferendum	ferendō	lātum	lātū
+love	   conjugation of amō (first conjugation)	   conjugation of amō (first conjugation)	   conjugation of amō (first conjugation)	   conjugation of amō (first conjugation)	   conjugation of amō (first conjugation)	   conjugation of amō (first conjugation)	   conjugation of amō (first conjugation)	   conjugation of amō (first conjugation)
+love	indicative	indicative	singular	singular	singular	plural	plural	plural
+love	indicative	indicative	first	second	third	first	second	third
+love	active	present	amō	amās	amat	amāmus	amātis	amant
+love	active	imperfect	amābam	amābās	amābat	amābāmus	amābātis	amābant
+love	active	future	amābō	amābis	amābit	amābimus	amābitis	amābunt
+love	active	perfect	amāvī	amāvistī, amāstī2	amāvit, amāt2	amāvimus, amāmus2	amāvistis, amāstis2	amāvērunt, amāvēre, amārunt2
+love	active	pluperfect	amāveram, amāram2	amāverās, amārās2	amāverat, amārat2	amāverāmus, amārāmus2	amāverātis, amārātis2	amāverant, amārant2
+love	active	future perfect	amāverō, amārō2	amāveris, amāris2	amāverit, amārit2	amāverimus, amārimus2	amāveritis, amāritis2	amāverint, amārint2
+love	active	sigmatic future1	amāssō	amāssis	amāssit	amāssimus	amāssitis	amāssint
+love	passive	present	amor	amāris, amāre	amātur	amāmur	amāminī	amantur
+love	passive	imperfect	amābar	amābāris, amābāre	amābātur	amābāmur	amābāminī	amābantur
+love	passive	future	amābor	amāberis, amābere	amābitur	amābimur	amābiminī	amābuntur
+love	passive	perfect	amātus + present active indicative of sum	amātus + present active indicative of sum	amātus + present active indicative of sum	amātus + present active indicative of sum	amātus + present active indicative of sum	amātus + present active indicative of sum
+love	passive	pluperfect	amātus + imperfect active indicative of sum	amātus + imperfect active indicative of sum	amātus + imperfect active indicative of sum	amātus + imperfect active indicative of sum	amātus + imperfect active indicative of sum	amātus + imperfect active indicative of sum
+love	passive	future perfect	amātus + future active indicative of sum	amātus + future active indicative of sum	amātus + future active indicative of sum	amātus + future active indicative of sum	amātus + future active indicative of sum	amātus + future active indicative of sum
+love	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+love	subjunctive	subjunctive	first	second	third	first	second	third
+love	active	present	amem	amēs	amet	amēmus	amētis	ament
+love	active	imperfect	amārem	amārēs	amāret	amārēmus	amārētis	amārent
+love	active	perfect	amāverim, amārim2	amāverīs, amārīs2	amāverit, amārit2	amāverīmus, amārīmus2	amāverītis, amārītis2	amāverint, amārint2
+love	active	pluperfect	amāvissem, amāssem2	amāvissēs, amāssēs2	amāvisset, amāsset2	amāvissēmus, amāssēmus2	amāvissētis, amāssētis2	amāvissent, amāssent2
+love	active	sigmatic aorist1	amāssim	amāssīs	amāssīt	amāssīmus	amāssītis	amāssint
+love	passive	present	amer	amēris, amēre	amētur	amēmur	amēminī	amentur
+love	passive	imperfect	amārer	amārēris, amārēre	amārētur	amārēmur	amārēminī	amārentur
+love	passive	perfect	amātus + present active subjunctive of sum	amātus + present active subjunctive of sum	amātus + present active subjunctive of sum	amātus + present active subjunctive of sum	amātus + present active subjunctive of sum	amātus + present active subjunctive of sum
+love	passive	pluperfect	amātus + imperfect active subjunctive of sum	amātus + imperfect active subjunctive of sum	amātus + imperfect active subjunctive of sum	amātus + imperfect active subjunctive of sum	amātus + imperfect active subjunctive of sum	amātus + imperfect active subjunctive of sum
+love	imperative	imperative	singular	singular	singular	plural	plural	plural
+love	imperative	imperative	first	second	third	first	second	third
+love	active	present	—	amā	—	—	amāte	—
+love	active	future	—	amātō	amātō	—	amātōte	amantō
+love	passive	present	—	amāre	—	—	amāminī	—
+love	passive	future	—	amātor	amātor	—	—	amantor
+love	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+love	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+love	infinitives	infinitives	amāre	amāvisse, amāsse2	amātūrum esse	amārī	amātum esse	amātum īrī
+love	participles	participles	amāns	—	amātūrus	—	amātus	amandus
+love	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+love	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+love	verbal nouns	verbal nouns	amandī	amandō	amandum	amandō	amātum	amātū
+advise	   conjugation of moneō (second conjugation)	   conjugation of moneō (second conjugation)	   conjugation of moneō (second conjugation)	   conjugation of moneō (second conjugation)	   conjugation of moneō (second conjugation)	   conjugation of moneō (second conjugation)	   conjugation of moneō (second conjugation)	   conjugation of moneō (second conjugation)
+advise	indicative	indicative	singular	singular	singular	plural	plural	plural
+advise	indicative	indicative	first	second	third	first	second	third
+advise	active	present	moneō	monēs	monet	monēmus	monētis	monent
+advise	active	imperfect	monēbam	monēbās	monēbat	monēbāmus	monēbātis	monēbant
+advise	active	future	monēbō	monēbis	monēbit	monēbimus	monēbitis	monēbunt
+advise	active	perfect	monuī	monuistī	monuit	monuimus	monuistis	monuērunt, monuēre
+advise	active	pluperfect	monueram	monuerās	monuerat	monuerāmus	monuerātis	monuerant
+advise	active	future perfect	monuerō	monueris	monuerit	monuerimus	monueritis	monuerint
+advise	active	sigmatic future1	monerō	moneris	monerit	monerimus	moneritis	monerint
+advise	passive	present	moneor	monēris, monēre	monētur	monēmur	monēminī	monentur
+advise	passive	imperfect	monēbar	monēbāris, monēbāre	monēbātur	monēbāmur	monēbāminī	monēbantur
+advise	passive	future	monēbor	monēberis, monēbere	monēbitur	monēbimur	monēbiminī	monēbuntur
+advise	passive	perfect	monitus + present active indicative of sum	monitus + present active indicative of sum	monitus + present active indicative of sum	monitus + present active indicative of sum	monitus + present active indicative of sum	monitus + present active indicative of sum
+advise	passive	pluperfect	monitus + imperfect active indicative of sum	monitus + imperfect active indicative of sum	monitus + imperfect active indicative of sum	monitus + imperfect active indicative of sum	monitus + imperfect active indicative of sum	monitus + imperfect active indicative of sum
+advise	passive	future perfect	monitus + future active indicative of sum	monitus + future active indicative of sum	monitus + future active indicative of sum	monitus + future active indicative of sum	monitus + future active indicative of sum	monitus + future active indicative of sum
+advise	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+advise	subjunctive	subjunctive	first	second	third	first	second	third
+advise	active	present	moneam	moneās	moneat	moneāmus	moneātis	moneant
+advise	active	imperfect	monērem	monērēs	monēret	monērēmus	monērētis	monērent
+advise	active	perfect	monuerim	monuerīs	monuerit	monuerīmus	monuerītis	monuerint
+advise	active	pluperfect	monuissem	monuissēs	monuisset	monuissēmus	monuissētis	monuissent
+advise	active	sigmatic aorist1	monerim	monerīs	monerīt	monerīmus	monerītis	monerint
+advise	passive	present	monear	moneāris, moneāre	moneātur	moneāmur	moneāminī	moneantur
+advise	passive	imperfect	monērer	monērēris, monērēre	monērētur	monērēmur	monērēminī	monērentur
+advise	passive	perfect	monitus + present active subjunctive of sum	monitus + present active subjunctive of sum	monitus + present active subjunctive of sum	monitus + present active subjunctive of sum	monitus + present active subjunctive of sum	monitus + present active subjunctive of sum
+advise	passive	pluperfect	monitus + imperfect active subjunctive of sum	monitus + imperfect active subjunctive of sum	monitus + imperfect active subjunctive of sum	monitus + imperfect active subjunctive of sum	monitus + imperfect active subjunctive of sum	monitus + imperfect active subjunctive of sum
+advise	imperative	imperative	singular	singular	singular	plural	plural	plural
+advise	imperative	imperative	first	second	third	first	second	third
+advise	active	present	—	monē	—	—	monēte	—
+advise	active	future	—	monētō	monētō	—	monētōte	monentō
+advise	passive	present	—	monēre	—	—	monēminī	—
+advise	passive	future	—	monētor	monētor	—	—	monentor
+advise	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+advise	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+advise	infinitives	infinitives	monēre	monuisse	monitūrum esse	monērī, monērier2	monitum esse	monitum īrī
+advise	participles	participles	monēns	—	monitūrus	—	monitus	monendus
+advise	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+advise	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+advise	verbal nouns	verbal nouns	monendī	monendō	monendum	monendō	monitum	monitū
+capture	   conjugation of capiō (third conjugation iō-variant)	   conjugation of capiō (third conjugation iō-variant)	   conjugation of capiō (third conjugation iō-variant)	   conjugation of capiō (third conjugation iō-variant)	   conjugation of capiō (third conjugation iō-variant)	   conjugation of capiō (third conjugation iō-variant)	   conjugation of capiō (third conjugation iō-variant)	   conjugation of capiō (third conjugation iō-variant)
+capture	indicative	indicative	singular	singular	singular	plural	plural	plural
+capture	indicative	indicative	first	second	third	first	second	third
+capture	active	present	capiō	capis	capit	capimus	capitis	capiunt
+capture	active	imperfect	capiēbam	capiēbās	capiēbat	capiēbāmus	capiēbātis	capiēbant
+capture	active	future	capiam	capiēs	capiet	capiēmus	capiētis	capient
+capture	active	perfect	cēpī	cēpistī	cēpit	cēpimus	cēpistis	cēpērunt, cēpēre
+capture	active	pluperfect	cēperam	cēperās	cēperat	cēperāmus	cēperātis	cēperant
+capture	active	future perfect	cēperō	cēperis	cēperit	cēperimus	cēperitis	cēperint
+capture	active	sigmatic future1	capsō	capsis	capsit	capsimus	capsitis	capsint
+capture	passive	present	capior	caperis, capere	capitur	capimur	capiminī	capiuntur
+capture	passive	imperfect	capiēbar	capiēbāris, capiēbāre	capiēbātur	capiēbāmur	capiēbāminī	capiēbantur
+capture	passive	future	capiar	capiēris, capiēre	capiētur	capiēmur	capiēminī	capientur
+capture	passive	perfect	captus + present active indicative of sum	captus + present active indicative of sum	captus + present active indicative of sum	captus + present active indicative of sum	captus + present active indicative of sum	captus + present active indicative of sum
+capture	passive	pluperfect	captus + imperfect active indicative of sum	captus + imperfect active indicative of sum	captus + imperfect active indicative of sum	captus + imperfect active indicative of sum	captus + imperfect active indicative of sum	captus + imperfect active indicative of sum
+capture	passive	future perfect	captus + future active indicative of sum	captus + future active indicative of sum	captus + future active indicative of sum	captus + future active indicative of sum	captus + future active indicative of sum	captus + future active indicative of sum
+capture	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+capture	subjunctive	subjunctive	first	second	third	first	second	third
+capture	active	present	capiam	capiās	capiat	capiāmus	capiātis	capiant
+capture	active	imperfect	caperem	caperēs	caperet	caperēmus	caperētis	caperent
+capture	active	perfect	cēperim	cēperīs	cēperit	cēperīmus	cēperītis	cēperint
+capture	active	pluperfect	cēpissem	cēpissēs	cēpisset	cēpissēmus	cēpissētis	cēpissent
+capture	active	sigmatic aorist1	capsim	capsīs	capsīt	capsīmus	capsītis	capsint
+capture	passive	present	capiar	capiāris, capiāre	capiātur	capiāmur	capiāminī	capiantur
+capture	passive	imperfect	caperer	caperēris, caperēre	caperētur	caperēmur	caperēminī	caperentur
+capture	passive	perfect	captus + present active subjunctive of sum	captus + present active subjunctive of sum	captus + present active subjunctive of sum	captus + present active subjunctive of sum	captus + present active subjunctive of sum	captus + present active subjunctive of sum
+capture	passive	pluperfect	captus + imperfect active subjunctive of sum	captus + imperfect active subjunctive of sum	captus + imperfect active subjunctive of sum	captus + imperfect active subjunctive of sum	captus + imperfect active subjunctive of sum	captus + imperfect active subjunctive of sum
+capture	imperative	imperative	singular	singular	singular	plural	plural	plural
+capture	imperative	imperative	first	second	third	first	second	third
+capture	active	present	—	cape	—	—	capite	—
+capture	active	future	—	capitō	capitō	—	capitōte	capiuntō
+capture	passive	present	—	capere	—	—	capiminī	—
+capture	passive	future	—	capitor	capitor	—	—	capiuntor
+capture	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+capture	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+capture	infinitives	infinitives	capere	cēpisse	captūrum esse	capī	captum esse	captum īrī
+capture	participles	participles	capiēns	—	captūrus	—	captus	capiendus, capiundus
+capture	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+capture	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+capture	verbal nouns	verbal nouns	capiendī	capiendō	capiendum	capiendō	captum	captū

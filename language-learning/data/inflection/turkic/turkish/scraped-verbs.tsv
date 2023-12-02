@@ -908,6 +908,97 @@ show	conditional	simple	simple	göstermesem mi?	göstermesen mi?	göstermese mi?
 show	conditional	perfective	perfective	göstermese miydim?	göstermese miydin?	göstermese miydi?	göstermese miydik?	göstermese miydiniz?	göstermeseler miydi?
 show	progressive	progressive	progressive	göstermemekte miyim?	göstermemekte misin?	göstermemekte mi?	göstermemekte miyiz?	göstermemekte misiniz?	göstermemekteler mi?
 show	necessitative	necessitative	necessitative	göstermemeli miyim?	göstermemeli misin?	göstermemeli mi?	göstermemeli miyiz?	göstermemeli misiniz?	göstermemeliler mi?
+startle	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
+startle									
+startle	infinitive	infinitive	infinitive	korkutmak	korkutmak	korkutmak	korkutmak	korkutmak	korkutmak
+startle	impersonal participle	imperfective	imperfective	korkutan	korkutan	korkutan	korkutan	korkutan	korkutan
+startle	impersonal participle	perfective	perfective	korkutmuş	korkutmuş	korkutmuş	korkutmuş	korkutmuş	korkutmuş
+startle	impersonal participle	prospective	prospective	korkutacak	korkutacak	korkutacak	korkutacak	korkutacak	korkutacak
+startle	personal participle	non-prospective	non-prospective	korkuttuğum	korkuttuğun	korkuttuğu	korkuttuğumuz	korkuttuğunuz	korkuttukları
+startle	personal participle	prospective	prospective	korkutacağım	korkutacağın	korkutacağı	korkutacağımız	korkutacağınız	korkutacakları
+startle	verbal noun	verbal noun	verbal noun	korkutma	korkutma	korkutma	korkutma	korkutma	korkutma
+startle	way of doing	way of doing	way of doing	korkutuş	korkutuş	korkutuş	korkutuş	korkutuş	korkutuş
+startle				singular	singular	singular	plural	plural	plural
+startle				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+startle				ben	sen	o	biz	siz	onlar
+startle	indicative	present	aorist	korkuturum	korkutursun	korkutur	korkuturuz	korkutursunuz	korkuturlar
+startle	indicative	present	imperfective	korkutuyorum	korkutuyorsun	korkutuyor	korkutuyoruz	korkutuyorsunuz	korkutuyorlar
+startle	indicative	past	perfective	korkuttum	korkuttun	korkuttu	korkuttuk	korkuttunuz	korkuttular
+startle	indicative	past	imperfective	korkutuyordum	korkutuyordun	korkutuyordu	korkutuyorduk	korkutuyordunuz	korkutuyorlardı (or korkutuyordular)
+startle	indicative	future	future	korkutacağım	korkutacaksın	korkutacak	korkutacağız	korkutacaksınız	korkutacaklar
+startle	inferential	perfective	perfective	korkutmuşum	korkutmuşsun	korkutmuş	korkutmuşuz	korkutmuşsunuz	korkutmuşlar
+startle	inferential	aorist	aorist	korkuturmuşum	korkuturmuşsun	korkuturmuş	korkuturmuşuz	korkuturmuşsunuz	korkuturlarmış (or korkuturmuşlar)
+startle	inferential	imperfective	imperfective	korkutuyormuşum	korkutuyormuşsun	korkutuyormuş	korkutuyormuşuz	korkutuyormuşsunuz	korkutuyorlarmış
+startle	conditional	simple	simple	korkutsam	korkutsan	korkutsa	korkutsak	korkutsanız	korkutsalar
+startle	conditional	perfective	perfective	korkutsaydım	korkutsaydın	korkutsaydı	korkutsaydık	korkutsaydınız	korkutsaydılar
+startle	optative	optative	optative	korkutayım	korkutasın	korkuta	korkutalım	korkutasınız	korkutalar
+startle	progressive	progressive	progressive	korkutmaktayım	korkutmaktasın	korkutmakta	korkutmaktayız	korkutmaktasınız	korkutmaktalar
+startle	necessitative	necessitative	necessitative	korkutmalıyım	korkutmalısın	korkutmalı	korkutmalıyız	korkutmalısınız	korkutmalılar
+startle	imperative	imperative	imperative		korkut	korkutsun		korkutun	korkutsunlar
+startle									
+startle	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative	positive interrogative
+startle									
+startle				singular	singular	singular	plural	plural	plural
+startle				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+startle				ben	sen	o	biz	siz	onlar
+startle	indicative	present	aorist	korkutur muyum?	korkutur musun?	korkutur mu?	korkutur muyuz?	korkutur musunuz?	korkuturlar mı?
+startle	indicative	present	imperfective	korkutuyor muyum?	korkutuyor musun?	korkutuyor mu?	korkutuyor muyuz?	korkutuyor musunuz?	korkutuyorlar mı?
+startle	indicative	past	perfective	korkuttum mu?	korkuttun mu?	korkuttu mu?	korkuttuk mu?	korkuttunuz mu?	korkuttular mı?
+startle	indicative	past	imperfective	korkutuyor muydum?	korkutuyor muydun?	korkutuyor muydu?	korkutuyor muyduk?	korkutuyor muydunuz?	korkutuyorlar mıydı?
+startle	indicative	future	future	korkutacak mıyım?	korkutacak mısın?	korkutacak mı?	korkutacak mıyız?	korkutacak mısınız?	korkutacaklar mı?
+startle	inferential	perfective	perfective	korkutmuş muyum?	korkutmuş musun?	korkutmuş mu?	korkutmuş muyuz?	korkutmuş musunuz?	korkutmuşlar mı?
+startle	inferential	aorist	aorist	korkutur muymuşum?	korkutur muymuşsun?	korkutur muymuş?	korkutur muymuşuz?	korkutur muymuşsunuz?	korkuturlar mıymış?
+startle	inferential	imperfective	imperfective	korkutuyor muymuşum?	korkutuyor muymuşsun?	korkutuyor muymuş?	korkutuyor muymuşuz?	korkutuyor muymuşsunuz?	korkutuyorlar mıymış?
+startle	conditional	simple	simple	korkutsam mı?	korkutsan mı?	korkutsa mı?	korkutsak mı?	korkutsanız mı?	korkutsalar mı?
+startle	conditional	perfective	perfective	korkutsa mıydım?	korkutsa mıydın?	korkutsa mıydı?	korkutsa mıydık?	korkutsa mıydınız?	korkutsalar mıydı?
+startle	progressive	progressive	progressive	korkutmakta mıyım?	korkutmakta mısın?	korkutmakta mı?	korkutmakta mıyız?	korkutmakta mısınız?	korkutmaktalar mı?
+startle	necessitative	necessitative	necessitative	korkutmalı mıyım?	korkutmalı mısın?	korkutmalı mı?	korkutmalı mıyız?	korkutmalı mısınız?	korkutmalılar mı?
+startle									
+startle	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative	negative declarative
+startle									
+startle	infinitive	infinitive	infinitive	korkutmamak	korkutmamak	korkutmamak	korkutmamak	korkutmamak	korkutmamak
+startle	impersonal participle	imperfective	imperfective	korkutmayan	korkutmayan	korkutmayan	korkutmayan	korkutmayan	korkutmayan
+startle	impersonal participle	perfective	perfective	korkutmamış	korkutmamış	korkutmamış	korkutmamış	korkutmamış	korkutmamış
+startle	impersonal participle	prospective	prospective	korkutmayacak	korkutmayacak	korkutmayacak	korkutmayacak	korkutmayacak	korkutmayacak
+startle	personal participle	non-prospective	non-prospective	korkutmadığım	korkutmadığın	korkutmadığı	korkutmadığımız	korkutmadığınız	korkutmadıkları
+startle	personal participle	prospective	prospective	korkutmayacağım	korkutmayacağın	korkutmayacağı	korkutmayacağımız	korkutmayacağınız	korkutmayacakları
+startle	verbal noun	verbal noun	verbal noun	korkutmama	korkutmama	korkutmama	korkutmama	korkutmama	korkutmama
+startle	way of doing	way of doing	way of doing	korkutmayuş	korkutmayuş	korkutmayuş	korkutmayuş	korkutmayuş	korkutmayuş
+startle				singular	singular	singular	plural	plural	plural
+startle				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+startle				ben	sen	o	biz	siz	onlar
+startle	indicative	present	aorist	korkutmam	korkutmazsın	korkutmaz	korkutmayız	korkutmazsınız	korkutmazlar
+startle	indicative	present	imperfective	korkutmuyorum	korkutmuyorsun	korkutmuyor	korkutmuyoruz	korkutmuyorsunuz	korkutmuyorlar
+startle	indicative	past	perfective	korkutmadım	korkutmadın	korkutmadı	korkutmadık	korkutmadınız	korkutmadılar
+startle	indicative	past	imperfective	korkutmuyordum	korkutmuyordun	korkutmuyordu	korkutmuyorduk	korkutmuyordunuz	korkutmuyorlardı
+startle	indicative	future	future	korkutmayacağım	korkutmayacaksın	korkutmayacak	korkutmayacağız	korkutmayacaksınız	korkutmayacaklar
+startle	inferential	perfective	perfective	korkutmamışım	korkutmamışsın	korkutmamış	korkutmamışız	korkutmamışsınız	korkutmamışlar
+startle	inferential	aorist	aorist	korkutmazmışım	korkutmazmışsın	korkutmazmış	korkutmazmışız	korkutmazmışsınız	korkutmazlarmış
+startle	inferential	imperfective	imperfective	korkutmuyormuşum	korkutmuyormuşsun	korkutmuyormuş	korkutmuyormuşuz	korkutmuyormuşsunuz	korkutmuyorlarmış
+startle	conditional	simple	simple	korkutmasam	korkutmasan	korkutmasa	korkutmasak	korkutmasanız	korkutmasalar
+startle	conditional	perfective	perfective	korkutmasaydım	korkutmasaydın	korkutmasaydı	korkutmasaydık	korkutmasaydınız	korkutmasaydılar
+startle	optative	optative	optative	korkutmayayım	korkutmayasın	korkutmaya	korkutmayalım	korkutmayasınız	korkutmayalar
+startle	progressive	progressive	progressive	korkutmamaktayım	korkutmamaktasın	korkutmamakta	korkutmamaktayız	korkutmamaktasınız	korkutmamaktalar
+startle	necessitative	necessitative	necessitative	korkutmamalıyım	korkutmamalısın	korkutmamalı	korkutmamalıyız	korkutmamalısınız	korkutmamalılar
+startle	imperative	imperative	imperative		korkutma	korkutmasın		korkutmayın	korkutmasınlar
+startle									
+startle	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative	negative interrogative
+startle									
+startle				singular	singular	singular	plural	plural	plural
+startle				1st person	2nd person	3rd person	1st person	2nd person	3rd person
+startle				ben	sen	o	biz	siz	onlar
+startle	indicative	present	aorist	korkutmaz mıyım?	korkutmaz mısın?	korkutmaz mı?	korkutmaz mıyız?	korkutmaz mısınız?	korkutmazlar mı?
+startle	indicative	present	imperfective	korkutmuyor muyum?	korkutmuyor musun?	korkutmuyor mu?	korkutmuyor muyuz?	korkutmuyor musunuz?	korkutmuyorlar mı?
+startle	indicative	past	perfective	korkutmadım mı?	korkutmadın mı?	korkutmadı mı?	korkutmadık mı?	korkutmadınız mı?	korkutmadılar mı?
+startle	indicative	past	imperfective	korkutmuyor muydum?	korkutmuyor muydun?	korkutmuyor muydu?	korkutmuyor muyduk?	korkutmuyor muydunuz?	korkutmuyorlar mıydı?
+startle	indicative	future	future	korkutmayacak mıyım?	korkutmayacak mısın?	korkutmayacak mı?	korkutmayacak mıyız?	korkutmayacak mısınız?	korkutmayacaklar mı?
+startle	inferential	perfective	perfective	korkutmamış mıyım?	korkutmamış mısın?	korkutmamış mı?	korkutmamış mıyız?	korkutmamış mısınız?	korkutmamışlar mı?
+startle	inferential	aorist	aorist	korkutmaz mıymışım?	korkutmaz mıymışsın?	korkutmaz mıymış?	korkutmaz mıymışız?	korkutmaz mıymışsınız?	korkutmazlar mıymış?
+startle	inferential	imperfective	imperfective	korkutmuyor muymuşum?	korkutmuyor muymuşsun?	korkutmuyor muymuş?	korkutmuyor muymuşuz?	korkutmuyor muymuşsunuz?	korkutmuyorlar mıymış?
+startle	conditional	simple	simple	korkutmasam mı?	korkutmasan mı?	korkutmasa mı?	korkutmasak mı?	korkutmasanız mı?	korkutmasalar mı?
+startle	conditional	perfective	perfective	korkutmasa mıydım?	korkutmasa mıydın?	korkutmasa mıydı?	korkutmasa mıydık?	korkutmasa mıydınız?	korkutmasalar mıydı?
+startle	progressive	progressive	progressive	korkutmamakta mıyım?	korkutmamakta mısın?	korkutmamakta mı?	korkutmamakta mıyız?	korkutmamakta mısınız?	korkutmamaktalar mı?
+startle	necessitative	necessitative	necessitative	korkutmamalı mıyım?	korkutmamalı mısın?	korkutmamalı mı?	korkutmamalı mıyız?	korkutmamalı mısınız?	korkutmamalılar mı?
 swim	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative	positive declarative
 swim									
 swim	infinitive	infinitive	infinitive	yüzmek	yüzmek	yüzmek	yüzmek	yüzmek	yüzmek

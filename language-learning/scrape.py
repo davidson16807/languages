@@ -152,12 +152,13 @@ write('data/inflection/semitic/arabic/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%D9%85%D9%84%D8%A7%D8%A8%D8%B3#Arabic
 				daughter  https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%86%D8%A9#Arabic
 				dog       https://en.wiktionary.org/wiki/%D9%83%D9%84%D8%A8#Arabic
-				door      
+				door      https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%A8#Arabic
 				drum      https://en.wiktionary.org/wiki/%D8%B7%D8%A8%D9%84#Arabic
 				enemy     https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%88#Arabic
 				fire      https://en.wiktionary.org/wiki/%D9%86%D8%A7%D8%B1#Arabic
 				food      https://en.wiktionary.org/wiki/%D8%B7%D8%B9%D8%A7%D9%85#Arabic
 				gift      https://en.wiktionary.org/wiki/%D9%87%D8%AF%D9%8A%D8%A9#Arabic
+				glass     https://en.wiktionary.org/wiki/%D8%B2%D8%AC%D8%A7%D8%AC#Arabic
 				guard     https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D8%B1%D8%B3#Arabic
 				horse     https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic
 				house     https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D8%AA#Arabic
@@ -174,7 +175,6 @@ write('data/inflection/semitic/arabic/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%86#Arabic
 				sound     https://en.wiktionary.org/wiki/%D8%B5%D9%88%D8%AA#Arabic
 				warmth    https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9#Arabic
-				vase      
 				water     https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%A1#Arabic
 				way       https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D9%8A%D9%82#Arabic
 				wind      https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D8%AD#Arabic
@@ -211,7 +211,7 @@ write('data/inflection/semitic/arabic/scraped-verbs.tsv',
 				startle   https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%AC%D8%A3#Arabic
 				swim      https://en.wiktionary.org/wiki/%D8%B3%D8%A8%D8%AD#Arabic
 				walk      https://en.wiktionary.org/wiki/%D9%85%D8%B4%D9%89#Arabic
-				warm      
+				warm      https://en.wiktionary.org/wiki/%D8%B3%D8%AE%D9%86#Arabic
 				watch     https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D9%87%D8%AF#Arabic
 				work      https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%84#Arabic
 			''')
@@ -234,12 +234,13 @@ write('data/inflection/basque/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/jantzi#Basque
 				daughter  https://en.wiktionary.org/wiki/alaba#Basque
 				dog       https://en.wiktionary.org/wiki/txakur#Basque
-				door      
+				door      https://en.wiktionary.org/wiki/ate#Basque
 				drum      https://en.wiktionary.org/wiki/danbor#Basque
 				enemy     https://en.wiktionary.org/wiki/janari#Basque
 				fire      https://en.wiktionary.org/wiki/su#Basque
 				food      https://en.wiktionary.org/wiki/janari#Basque
 				gift      
+				glass     https://en.wiktionary.org/wiki/beira#Basque
 				guard     
 				horse     https://en.wiktionary.org/wiki/zaldi#Basque
 				house     https://en.wiktionary.org/wiki/etxe#Basque
@@ -256,7 +257,6 @@ write('data/inflection/basque/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/seme#Basque
 				sound     https://en.wiktionary.org/wiki/hots#Basque
 				warmth    https://en.wiktionary.org/wiki/bero#Basque
-				vase      
 				water     https://en.wiktionary.org/wiki/ur#Basque
 				way       https://en.wiktionary.org/wiki/bide#Basque
 				wind      https://en.wiktionary.org/wiki/haize#Basque
@@ -357,12 +357,13 @@ write('data/inflection/egyptian/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/mn%E1%B8%ABt#Egyptian
 				daughter  https://en.wiktionary.org/wiki/z%EA%9C%A3t#Egyptian
 				dog       https://en.wiktionary.org/wiki/%E1%B9%AFzm#Egyptian
-				door      
+				door      https://en.wiktionary.org/wiki/rwt#Egyptian
 				drum      
 				enemy     https://en.wiktionary.org/wiki/%E1%B8%ABftj#Egyptian
 				fire      https://en.wiktionary.org/wiki/s%E1%B8%8Ft#Egyptian
 				food      https://en.wiktionary.org/wiki/%C5%A1bw#Egyptian
 				gift      
+				glass     
 				guard     
 				horse     https://en.wiktionary.org/wiki/ssm#Egyptian
 				house     
@@ -379,7 +380,6 @@ write('data/inflection/egyptian/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/z%EA%9C%A3#Egyptian
 				sound     
 				warmth    https://en.wiktionary.org/wiki/srf#Egyptian
-				vase      
 				water     https://en.wiktionary.org/wiki/mw#Egyptian
 				way       https://en.wiktionary.org/wiki/m%E1%B9%AFn#Egyptian
 				wind      https://en.wiktionary.org/wiki/%E1%B9%AF%EA%9C%A3w#Egyptian
@@ -439,12 +439,13 @@ write('data/inflection/uralic/finnish/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/vaatetus#Finnish
 				daughter  https://en.wiktionary.org/wiki/tyt%C3%A4r#Finnish
 				dog       https://en.wiktionary.org/wiki/koira#Finnish
-				door      
+				door      https://en.wiktionary.org/wiki/ovi#Finnish
 				drum      https://en.wiktionary.org/wiki/rumpu#Finnish
 				enemy     https://en.wiktionary.org/wiki/vihollinen#Finnish
 				fire      https://en.wiktionary.org/wiki/tuli#Finnish
 				food      https://en.wiktionary.org/wiki/ruoka#Finnish
 				gift      https://en.wiktionary.org/wiki/lahja#Finnish
+				glass     https://en.wiktionary.org/wiki/lasi#Finnish
 				guard     https://en.wiktionary.org/wiki/vartija#Finnish
 				horse     https://en.wiktionary.org/wiki/hevonen#Finnish
 				house     https://en.wiktionary.org/wiki/talo#Finnish
@@ -461,7 +462,6 @@ write('data/inflection/uralic/finnish/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/poika#Finnish
 				sound     https://en.wiktionary.org/wiki/%C3%A4%C3%A4ni#Finnish
 				warmth    https://en.wiktionary.org/wiki/l%C3%A4mp%C3%B6#Finnish
-				vase      
 				water     https://en.wiktionary.org/wiki/vesi#Finnish
 				way       https://en.wiktionary.org/wiki/tie#Finnish
 				wind      https://en.wiktionary.org/wiki/tuuli#Finnish
@@ -571,6 +571,7 @@ write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
 				fire      # aidus
 				food      # depron
 				gift      # danus
+				glass     # lagos
 				guard     # soliduryos
 				horse     https://en.wiktionary.org/wiki/markos#Gaulish
 				house     # tegia
@@ -587,7 +588,6 @@ write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/mapos#Gaulish
 				sound     # bruxtus
 				warmth    # tessis
-				vase      
 				water     # dubron
 				way       # mantle
 				wind      # auelos
@@ -650,12 +650,13 @@ write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%E1%83%A2%E1%83%90%E1%83%9C%E1%83%A1%E1%83%90%E1%83%AA%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98#Georgian
 				daughter  https://en.wiktionary.org/wiki/%E1%83%90%E1%83%A1%E1%83%A3%E1%83%9A%E1%83%98#Georgian
 				dog       https://en.wiktionary.org/wiki/%E1%83%AB%E1%83%90%E1%83%A6%E1%83%9A%E1%83%98#Georgian
-				door      
+				door      https://en.wiktionary.org/wiki/%E1%83%99%E1%83%90%E1%83%A0%E1%83%98#Georgian
 				drum      https://en.wiktionary.org/wiki/%E1%83%93%E1%83%9D%E1%83%9A%E1%83%98#Georgian
 				enemy     https://en.wiktionary.org/wiki/%E1%83%9B%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98#Georgian
 				fire      https://en.wiktionary.org/wiki/%E1%83%AA%E1%83%94%E1%83%AA%E1%83%AE%E1%83%9A%E1%83%98#Georgian
 				food      https://en.wiktionary.org/wiki/%E1%83%A1%E1%83%90%E1%83%99%E1%83%95%E1%83%94%E1%83%91%E1%83%98#Georgian
 				gift      https://en.wiktionary.org/wiki/%E1%83%A1%E1%83%90%E1%83%A9%E1%83%A3%E1%83%A5%E1%83%90%E1%83%A0%E1%83%98#Georgian
+				glass     https://en.wiktionary.org/wiki/%E1%83%A8%E1%83%A3%E1%83%A8%E1%83%90#Georgian
 				guard     
 				horse     https://en.wiktionary.org/wiki/%E1%83%AA%E1%83%AE%E1%83%94%E1%83%9C%E1%83%98#Georgian
 				house     https://en.wiktionary.org/wiki/%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98#Georgian
@@ -672,7 +673,6 @@ write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%E1%83%AB%E1%83%94#Georgian
 				sound     https://en.wiktionary.org/wiki/%E1%83%AE%E1%83%9B%E1%83%90#Georgian
 				warmth    
-				vase      
 				water     https://en.wiktionary.org/wiki/%E1%83%AC%E1%83%A7%E1%83%90%E1%83%9A%E1%83%98#Georgian
 				way       https://en.wiktionary.org/wiki/%E1%83%92%E1%83%96%E1%83%90#Georgian
 				wind      https://en.wiktionary.org/wiki/%E1%83%A5%E1%83%90%E1%83%A0%E1%83%98#Georgian
@@ -718,6 +718,55 @@ write('data/inflection/kartvelian/georgian/scraped-verbs.tsv',
 	)
 )
 
+
+print('GERMAN')
+write('data/inflection/indo-european/germanic/german/modern/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'German', 'de'), 
+			parsing.tokenpoints('''
+				animal    https://en.wiktionary.org/wiki/Tier#German
+				attention https://en.wiktionary.org/wiki/Beachtung#German
+				bird      https://en.wiktionary.org/wiki/Vogel#German
+				boat      https://en.wiktionary.org/wiki/Boot#German
+				book      https://en.wiktionary.org/wiki/Buch#German
+				bug       https://en.wiktionary.org/wiki/Wanze#German
+				clothing  https://en.wiktionary.org/wiki/Kleidungsst%C3%BCck#German # "garment"
+				daughter  https://en.wiktionary.org/wiki/Tochter#German
+				dog       https://en.wiktionary.org/wiki/Hund#German
+				door      https://en.wiktionary.org/wiki/T%C3%BCr#German
+				drum      https://en.wiktionary.org/wiki/Trommel#German
+				enemy     https://en.wiktionary.org/wiki/Feind#German
+				fire      https://en.wiktionary.org/wiki/Feuer#German
+				food      https://en.wiktionary.org/wiki/Nahrung#German
+				gift      https://en.wiktionary.org/wiki/Geschenk#German
+				glass     https://en.wiktionary.org/wiki/Glas#German
+				guard     https://en.wiktionary.org/wiki/W%C3%A4chter#German
+				horse     https://en.wiktionary.org/wiki/Pferd#German
+				house     https://en.wiktionary.org/wiki/Haus#German
+				livestock https://en.wiktionary.org/wiki/Vieh#German
+				love      https://en.wiktionary.org/wiki/Zuneigung#German
+				idea      https://en.wiktionary.org/wiki/Gedanke#German
+				man       https://en.wiktionary.org/wiki/Mann#German
+				money     https://en.wiktionary.org/wiki/Geld#German
+				monster   https://en.wiktionary.org/wiki/Monster#German
+				name      https://en.wiktionary.org/wiki/Name#German
+				rock      https://en.wiktionary.org/wiki/Fels#German
+				rope      https://en.wiktionary.org/wiki/Seil#German
+				size      https://en.wiktionary.org/wiki/Gr%C3%B6%C3%9Fe#German
+				son       https://en.wiktionary.org/wiki/Sohn#German
+				sound     https://en.wiktionary.org/wiki/gesund#German
+				warmth    https://en.wiktionary.org/wiki/W%C3%A4rme#German
+				water     https://en.wiktionary.org/wiki/Wasser#German
+				way       https://en.wiktionary.org/wiki/Weg#German
+				wind      https://en.wiktionary.org/wiki/Wind#German
+				window    https://en.wiktionary.org/wiki/Fenster#German
+				woman     https://en.wiktionary.org/wiki/Frau#German
+				work      https://en.wiktionary.org/wiki/Arbeit#German
+			''')
+		)
+	)
+)
+
 write('data/inflection/indo-european/germanic/german/modern/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'German', 'de'), 
@@ -751,6 +800,90 @@ write('data/inflection/indo-european/germanic/german/modern/scraped-verbs.tsv',
 	)
 )
 
+print('GOTHIC')
+write('data/inflection/indo-european/germanic/gothic/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Gothic', 'got'), 
+			parsing.tokenpoints('''
+				animal    https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8C%B9%F0%90%8C%BF%F0%90%8D%83#Gothic
+				attention https://en.wiktionary.org/wiki/%F0%90%8C%BC%F0%90%8C%B9%F0%90%8D%84%F0%90%8D%89%F0%90%8C%BD%F0%90%8D%83#Gothic
+				bird      https://en.wiktionary.org/wiki/%F0%90%8D%86%F0%90%8C%BF%F0%90%8C%B2%F0%90%8C%BB%F0%90%8D%83#Gothic
+				boat      https://en.wiktionary.org/wiki/%F0%90%8D%83%F0%90%8C%BA%F0%90%8C%B9%F0%90%8D%80#Gothic
+				book      https://en.wiktionary.org/wiki/%F0%90%8C%B1%F0%90%8D%89%F0%90%8C%BA%F0%90%8D%89%F0%90%8D%83#Gothic
+				bug       
+				clothing  https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B0%F0%90%8D%83%F0%90%8D%84%F0%90%8C%B9#Gothic
+				daughter  https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8C%B0%F0%90%8C%BF%F0%90%8C%B7%F0%90%8D%84%F0%90%8C%B0%F0%90%8D%82#Gothic
+				dog       https://en.wiktionary.org/wiki/%F0%90%8C%B7%F0%90%8C%BF%F0%90%8C%BD%F0%90%8C%B3%F0%90%8D%83#Gothic
+				door      https://en.wiktionary.org/wiki/%F0%90%8C%B7%F0%90%8C%B0%F0%90%8C%BF%F0%90%8D%82%F0%90%8C%B3%F0%90%8D%83#Gothic
+				drum      
+				enemy     https://en.wiktionary.org/wiki/%F0%90%8D%86%F0%90%8C%B9%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD%F0%90%8C%B3%F0%90%8D%83#Gothic
+				fire      https://en.wiktionary.org/wiki/%F0%90%8D%86%F0%90%8D%89%F0%90%8C%BD#Gothic
+				food      https://en.wiktionary.org/wiki/%F0%90%8C%BC%F0%90%8C%B0%F0%90%8D%84%F0%90%8D%83#Gothic
+				gift      https://en.wiktionary.org/wiki/%F0%90%8C%BC%F0%90%8C%B0%F0%90%8C%B9%F0%90%8C%B8%F0%90%8C%BC%F0%90%8D%83#Gothic
+				glass     
+				guard     https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B0%F0%90%8D%82%F0%90%8C%B3%F0%90%8C%BE%F0%90%8C%B0#Gothic
+				horse     
+				house     https://en.wiktionary.org/wiki/%F0%90%8D%82%F0%90%8C%B0%F0%90%8C%B6%F0%90%8C%BD#Gothic
+				livestock https://en.wiktionary.org/wiki/%F0%90%8C%B0%F0%90%8C%BF%F0%90%8C%B7%F0%90%8D%83%F0%90%8C%B0#Gothic # "cattle"
+				love      https://en.wiktionary.org/wiki/%F0%90%8D%86%F0%90%8D%82%F0%90%8C%B9%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%B8%F0%90%8D%85%F0%90%8C%B0#Gothic
+				idea      https://en.wiktionary.org/wiki/%F0%90%8C%BC%F0%90%8C%B9%F0%90%8D%84%F0%90%8D%89%F0%90%8C%BD%F0%90%8D%83#Gothic # "thought"
+				man       https://en.wiktionary.org/wiki/%F0%90%8C%BC%F0%90%8C%B0%F0%90%8C%BD%F0%90%8C%BD%F0%90%8C%B0#Gothic
+				money     https://en.wiktionary.org/wiki/%F0%90%8D%83%F0%90%8C%BA%F0%90%8C%B0%F0%90%8D%84%F0%90%8D%84%F0%90%8D%83#Gothic
+				monster   https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8C%B9%F0%90%8C%BF%F0%90%8D%83#Gothic # "beast"
+				name      https://en.wiktionary.org/wiki/%F0%90%8C%BD%F0%90%8C%B0%F0%90%8C%BC%F0%90%8D%89#Gothic
+				rock      https://en.wiktionary.org/wiki/%F0%90%8D%83%F0%90%8D%84%F0%90%8C%B0%F0%90%8C%B9%F0%90%8C%BD%F0%90%8D%83#Gothic
+				rope      
+				size      
+				son       https://en.wiktionary.org/wiki/%F0%90%8D%83%F0%90%8C%BF%F0%90%8C%BD%F0%90%8C%BF%F0%90%8D%83#Gothic
+				sound     https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8D%82%F0%90%8C%BF%F0%90%8C%BD%F0%90%8C%BE%F0%90%8C%BF%F0%90%8D%83#Gothic
+				warmth    
+				water     https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B0%F0%90%8D%84%F0%90%8D%89#Gothic
+				way       
+				wind      https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B9%F0%90%8C%BD%F0%90%8C%B3%F0%90%8D%83#Gothic
+				window    
+				woman     https://en.wiktionary.org/wiki/%F0%90%8C%B5%F0%90%8C%B9%F0%90%8C%BD%F0%90%8D%89#Gothic
+				work      https://en.wiktionary.org/wiki/%F0%90%8C%B0%F0%90%8D%82%F0%90%8C%B1%F0%90%8C%B0%F0%90%8C%B9%F0%90%8C%B8%F0%90%8D%83#Gothic
+			''')
+		)
+	)
+)
+
+
+write('data/inflection/indo-european/germanic/gothic/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Gothic', 'got'), 
+			parsing.tokenpoints('''
+				appear    https://en.wiktionary.org/wiki/%F0%90%8C%B0%F0%90%8D%84%F0%90%8D%86%F0%90%8C%B0%F0%90%8D%82%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic # "arrive"
+				be-inherently  https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B9%F0%90%8D%83%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				be-momentarily 
+				change    
+				climb     https://en.wiktionary.org/wiki/%F0%90%8D%83%F0%90%8D%84%F0%90%8C%B4%F0%90%8C%B9%F0%90%8C%B2%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				cool      
+				direct    https://en.wiktionary.org/wiki/%F0%90%8D%84%F0%90%8C%B9%F0%90%8C%BF%F0%90%8C%B7%F0%90%8C%B0%F0%90%8C%BD#Gothic # "lead"
+				displease https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8D%82%F0%90%8D%89%F0%90%8C%B1%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic # "upset"
+				eat       https://en.wiktionary.org/wiki/%F0%90%8C%B9%F0%90%8D%84%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				endure    https://en.wiktionary.org/wiki/%F0%90%8C%B2%F0%90%8C%B0%F0%90%8C%B1%F0%90%8C%B4%F0%90%8C%B9%F0%90%8C%B3%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				fall      https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8D%82%F0%90%8C%B9%F0%90%8C%BF%F0%90%8D%83%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				fly       
+				hear      https://en.wiktionary.org/wiki/%F0%90%8C%B7%F0%90%8C%B0%F0%90%8C%BF%F0%90%8D%83%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				occupy    
+				resemble  
+				rest      https://en.wiktionary.org/wiki/%F0%90%8D%88%F0%90%8C%B4%F0%90%8C%B9%F0%90%8C%BB%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				see       https://en.wiktionary.org/wiki/%F0%90%8D%83%F0%90%8C%B0%F0%90%8C%B9%F0%90%8D%88%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				show      https://en.wiktionary.org/wiki/%F0%90%8C%B0%F0%90%8C%BF%F0%90%8C%B2%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				startle   https://en.wiktionary.org/wiki/%F0%90%8D%89%F0%90%8C%B2%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic # "frighten"
+				swim      
+				walk      https://en.wiktionary.org/wiki/%F0%90%8D%88%F0%90%8C%B0%F0%90%8D%82%F0%90%8C%B1%F0%90%8D%89%F0%90%8C%BD#Gothic
+				warm      
+				watch     
+				work      https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B0%F0%90%8C%BF%F0%90%8D%82%F0%90%8C%BA%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic
+			''')
+		)
+	)
+)
+
+
+
 print('GREEK/MODERN')
 write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 	formatting.format(
@@ -765,12 +898,13 @@ write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%CF%81%CE%BF%CF%8D%CF%87%CE%BF#Greek
 				daughter  https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B7#Greek
 				dog       https://en.wiktionary.org/wiki/%CF%83%CE%BA%CF%8D%CE%BB%CE%BF%CF%82#Greek
-				door      
+				door      https://en.wiktionary.org/wiki/%CF%80%CF%8C%CF%81%CF%84%CE%B1#Greek
 				drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF#Greek
 				enemy     https://en.wiktionary.org/wiki/%CE%B5%CF%87%CE%B8%CF%81%CF%8C%CF%82#Greek
 				fire      https://en.wiktionary.org/wiki/%CF%86%CF%89%CF%84%CE%B9%CE%AC#Greek
 				food      https://en.wiktionary.org/wiki/%CF%86%CE%B1%CE%90#Greek
 				gift      https://en.wiktionary.org/wiki/%CE%B4%CF%8E%CF%81%CE%BF#Greek
+				glass     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%B1%CE%BB%CE%AF#Greek
 				guard     https://en.wiktionary.org/wiki/%CF%86%CF%8D%CE%BB%CE%B1%CE%BA%CE%B1%CF%82#Greek
 				horse     https://en.wiktionary.org/wiki/%CE%AF%CF%80%CF%80%CE%BF%CF%82#Greek
 				house     https://en.wiktionary.org/wiki/%CF%83%CF%80%CE%AF%CF%84%CE%B9#Greek
@@ -787,7 +921,6 @@ write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%CE%B3%CE%B9%CE%BF%CF%82#Greek
 				sound     https://en.wiktionary.org/wiki/%CE%AE%CF%87%CE%BF%CF%82#Greek
 				warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%B5%CF%81%CE%BC%CF%8C%CF%84%CE%B7%CF%84%CE%B1#Greek
-				vase      
 				water     https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CF%81%CF%8C#Greek
 				way       https://en.wiktionary.org/wiki/%CE%B4%CF%81%CF%8C%CE%BC%CE%BF%CF%82#Greek
 				wind      https://en.wiktionary.org/wiki/%CE%AC%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Greek
@@ -844,7 +977,7 @@ write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
 				book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%CE%BD#Ancient_Greek
 				bug       https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CF%84%CE%BF%CE%BC%CE%BF%CE%BD#Ancient_Greek
 				dog       https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CF%89%CE%BD#Ancient_Greek
-				door      
+				door      https://en.wiktionary.org/wiki/%CE%B8%CF%8D%CF%81%CE%B1#Ancient_Greek
 				clothing  https://en.wiktionary.org/wiki/%E1%BC%90%CF%83%CE%B8%CE%AE%CF%82#Ancient_Greek
 				daughter  https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81#Ancient_Greek
 				drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF%CE%BD#Ancient_Greek
@@ -853,6 +986,7 @@ write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
 				food      https://en.wiktionary.org/wiki/%CE%B2%CF%81%E1%BF%B6%CE%BC%CE%B1#Ancient_Greek
 				food      https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%B4%CE%B1%CF%81#Ancient_Greek
 				gift      https://en.wiktionary.org/wiki/%CE%B4%E1%BF%B6%CF%81%CE%BF%CE%BD#Ancient_Greek
+				glass     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B1%CE%BB%CE%BF%CF%82#Ancient_Greek
 				guard     https://en.wiktionary.org/wiki/%CF%84%CE%B7%CF%81%CF%8C%CF%82#Ancient_Greek
 				horse     https://en.wiktionary.org/wiki/%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82#Ancient_Greek
 				house     https://en.wiktionary.org/wiki/%CE%BF%E1%BC%B6%CE%BA%CE%BF%CF%82#Ancient_Greek
@@ -869,7 +1003,6 @@ write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%CF%85%E1%BC%B1%CF%8C%CF%82#Ancient_Greek
 				sound     https://en.wiktionary.org/wiki/%E1%BC%A6%CF%87%CE%BF%CF%82#Ancient_Greek
 				warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%AD%CF%81%CE%BC%CE%B7#Ancient_Greek
-				vase      
 				water     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek
 				way       https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%BB%CE%B5%CF%85%CE%B8%CE%BF%CF%82#Ancient_Greek
 				wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
@@ -959,7 +1092,7 @@ write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 				rest      
 				see       https://en.wiktionary.org/wiki/%CE%B2%CE%BB%CE%AD%CF%80%CF%89#Ancient_Greek
 				show      https://en.wiktionary.org/wiki/%CE%B4%CE%B5%CE%AF%CE%BA%CE%BD%CF%85%CE%BC%CE%B9#Ancient_Greek
-				startle   
+				startle   https://en.wiktionary.org/wiki/%CF%86%CE%BF%CE%B2%CE%AD%CF%89#Ancient_Greek # "terrify"
 				swim      https://en.wiktionary.org/wiki/%CE%BD%CE%AD%CF%89#Ancient_Greek
 				walk      https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AD%CF%89#Ancient_Greek
 				warm      https://en.wiktionary.org/wiki/%CE%B8%CE%AC%CE%BB%CF%80%CF%89#Ancient_Greek
@@ -984,12 +1117,13 @@ write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 				clothing  
 				daughter  https://en.wiktionary.org/wiki/%D7%91%D7%AA#Hebrew
 				dog       https://en.wiktionary.org/wiki/%D7%9B%D7%9C%D7%91#Hebrew
-				door      
+				door      https://en.wiktionary.org/wiki/%D7%93%D7%9C%D7%AA#Hebrew
 				drum      
 				enemy     
 				fire      
 				food      https://en.wiktionary.org/wiki/%D7%9E%D7%96%D7%95%D7%9F#Hebrew
 				gift      
+				glass     https://en.wiktionary.org/wiki/%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA#Hebrew
 				guard     
 				horse     https://en.wiktionary.org/wiki/%D7%A1%D7%95%D7%A1#Hebrew
 				house     https://en.wiktionary.org/wiki/%D7%91%D7%99%D7%AA#Hebrew
@@ -1006,7 +1140,6 @@ write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%D7%91%D7%9F#Hebrew
 				sound     
 				warmth    
-				vase      
 				water     https://en.wiktionary.org/wiki/%D7%9E%D7%99%D7%9D#Hebrew
 				way       https://en.wiktionary.org/wiki/%D7%93%D7%A8%D7%9A#Hebrew
 				wind      https://en.wiktionary.org/wiki/%D7%A8%D7%95%D7%97#Hebrew
@@ -1066,12 +1199,13 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0#Hindi
 				daughter  https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80#Hindi
 				dog       https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE#Hindi
-				door      
+				door      https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0#Hindi
 				drum      https://en.wiktionary.org/wiki/%E0%A4%A2%E0%A5%8B%E0%A4%B2#Hindi
 				enemy     https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%81%E0%A4%B6%E0%A5%8D%E0%A4%AE%E0%A4%A8#Hindi
 				fire      https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%97#Hindi
 				food      https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
 				gift      https://en.wiktionary.org/wiki/%E0%A4%89%E0%A4%AA%E0%A4%B9%E0%A4%BE%E0%A4%B0#Hindi
+				glass     https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%81%E0%A4%9A#Hindi
 				guard     https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%B8%E0%A4%AC%E0%A4%BE%E0%A4%A8#Hindi
 				horse     https://en.wiktionary.org/wiki/%E0%A4%98%E0%A5%8B%E0%A4%A1%E0%A4%BC%E0%A4%BE#Hindi
 				house     https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%A8#Hindi
@@ -1088,7 +1222,6 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A4%BE#Hindi
 				sound     https://en.wiktionary.org/wiki/%E0%A4%A7%E0%A5%8D%E0%A4%B5%E0%A4%A8%E0%A5%80#Hindi
 				warmth    https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%BE%E0%A4%AA#Hindi
-				vase      
 				water     https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A5%80#Hindi
 				way       https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%A5#Hindi
 				wind      https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%B5%E0%A4%BE#Hindi
@@ -1122,7 +1255,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-verbs.tsv',
 				rest      https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%B0%E0%A4%BE%E0%A4%AE_%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
 				see       https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A4%A8%E0%A4%BE#Hindi
 				show      https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A4%BF%E0%A4%96%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
-				startle   
+				startle   https://en.wiktionary.org/wiki/%E0%A4%A1%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi # "frighten"
 				swim      https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%88%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
 				walk      https://en.wiktionary.org/wiki/%E0%A4%9F%E0%A4%B9%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
 				warm      
@@ -1154,6 +1287,7 @@ write('data/inflection/indo-european/hittite/scraped-nouns.tsv',
 				fire      https://en.wiktionary.org/wiki/%F0%92%89%BA%F0%92%84%B4%F0%92%84%AF#Hittite
 				food      https://en.wiktionary.org/wiki/%F0%92%82%8A%F0%92%89%BF%F0%92%80%AD#Hittite # a kind of soup
 				gift      
+				glass     
 				guard     
 				horse     
 				house     
@@ -1170,7 +1304,6 @@ write('data/inflection/indo-european/hittite/scraped-nouns.tsv',
 				son       
 				sound     
 				warmth    
-				vase      
 				water     https://en.wiktionary.org/wiki/%F0%92%89%BF%F0%92%80%80%F0%92%8B%BB#Hittite
 				way       https://en.wiktionary.org/wiki/%F0%92%86%9C%F0%92%80%B8#Hittite
 				wind      https://en.wiktionary.org/wiki/%F0%92%84%B7%F0%92%8C%8B%F0%92%89%BF%F0%92%80%AD%F0%92%8D%9D
@@ -1240,12 +1373,13 @@ write('data/inflection/uralic/hungarian/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/ruh%C3%A1zat#Hungarian
 				daughter  https://en.wiktionary.org/wiki/l%C3%A1ny#Hungarian
 				dog       https://en.wiktionary.org/wiki/kutya#Hungarian
-				door      
+				door      https://en.wiktionary.org/wiki/ajt%C3%B3#Hungarian
 				drum      https://en.wiktionary.org/wiki/dob#Hungarian:_drum
 				enemy     https://en.wiktionary.org/wiki/ellens%C3%A9g#Hungarian
 				fire      https://en.wiktionary.org/wiki/t%C5%B1z#Hungarian
 				food      https://en.wiktionary.org/wiki/%C3%A9tel#Hungarian
 				gift      https://en.wiktionary.org/wiki/aj%C3%A1nd%C3%A9k#Hungarian
+				glass     https://en.wiktionary.org/wiki/%C3%BCveg#Hungarian
 				guard     https://en.wiktionary.org/wiki/%C5%91r#Hungarian
 				horse     https://en.wiktionary.org/wiki/l%C3%B3#Hungarian
 				house     https://en.wiktionary.org/wiki/h%C3%A1z#Hungarian
@@ -1262,7 +1396,6 @@ write('data/inflection/uralic/hungarian/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/fi%C3%BA#Hungarian
 				sound     https://en.wiktionary.org/wiki/hang#Hungarian
 				warmth    https://en.wiktionary.org/wiki/h%C5%91#Hungarian
-				vase      
 				water     https://en.wiktionary.org/wiki/v%C3%ADz#Hungarian
 				way       https://en.wiktionary.org/wiki/%C3%BAt#Hungarian
 				wind      https://en.wiktionary.org/wiki/sz%C3%A9l#Hungarian
@@ -1310,6 +1443,90 @@ write('data/inflection/uralic/hungarian/scraped-verbs.tsv',
 )
 
 
+print('IRISH')
+write('data/inflection/indo-european/celtic/irish/modern/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Irish', 'ga'), 
+			parsing.tokenpoints('''
+				animal    https://en.wiktionary.org/wiki/ainmh%C3%AD#Irish
+				attention https://en.wiktionary.org/wiki/aoidh#Irish
+				bird      https://en.wiktionary.org/wiki/%C3%A9an#Irish
+				boat      https://en.wiktionary.org/wiki/b%C3%A1d#Irish
+				book      https://en.wiktionary.org/wiki/leabhar#Irish
+				bug       https://en.wiktionary.org/wiki/feithid#Irish
+				clothing  https://en.wiktionary.org/wiki/%C3%A9adach#Irish
+				daughter  https://en.wiktionary.org/wiki/in%C3%ADon#Irish
+				dog       https://en.wiktionary.org/wiki/gadhar#Irish
+				door      https://en.wiktionary.org/wiki/doras#Irish
+				drum      https://en.wiktionary.org/wiki/druma#Irish
+				enemy     https://en.wiktionary.org/wiki/namhaid#Irish
+				fire      https://en.wiktionary.org/wiki/tine#Irish
+				food      https://en.wiktionary.org/wiki/bia#Irish
+				gift      https://en.wiktionary.org/wiki/tabhartas#Irish
+				glass     https://en.wiktionary.org/wiki/gloine#Irish
+				guard     https://en.wiktionary.org/wiki/garda#Irish
+				horse     https://en.wiktionary.org/wiki/capall#Irish
+				house     https://en.wiktionary.org/wiki/teach#Irish
+				livestock https://en.wiktionary.org/wiki/stoc#Irish
+				love      https://en.wiktionary.org/wiki/armacas#Irish
+				idea      https://en.wiktionary.org/wiki/smaoineamh#Irish # "thought"
+				man       https://en.wiktionary.org/wiki/fear#Irish
+				money     https://en.wiktionary.org/wiki/airgead#Irish
+				monster   https://en.wiktionary.org/wiki/p%C3%A9ist#Irish
+				name      https://en.wiktionary.org/wiki/ainm#Irish
+				rock      https://en.wiktionary.org/wiki/carraig#Irish
+				rope      https://en.wiktionary.org/wiki/t%C3%A9ad#Irish
+				size      https://en.wiktionary.org/wiki/m%C3%A9id#Irish
+				son       https://en.wiktionary.org/wiki/mac#Irish
+				sound     https://en.wiktionary.org/wiki/fuaim#Irish
+				warmth    https://en.wiktionary.org/wiki/teas#Irish
+				water     https://en.wiktionary.org/wiki/uisce#Irish
+				way       https://en.wiktionary.org/wiki/bealach#Irish
+				wind      https://en.wiktionary.org/wiki/gaoth#Irish
+				window    https://en.wiktionary.org/wiki/fuinneog#Irish
+				woman     https://en.wiktionary.org/wiki/bean#Irish
+				work      https://en.wiktionary.org/wiki/obair#Irish
+			''')
+		)
+	)
+)
+
+
+write('data/inflection/indo-european/celtic/irish/modern/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Irish', 'ga'), 
+			parsing.tokenpoints('''
+				appear    
+				be-inherently  https://en.wiktionary.org/wiki/is#Irish # for nouns only
+				be-momentarily https://en.wiktionary.org/wiki/b%C3%AD#Irish # for adjectives only
+				change    
+				climb     https://en.wiktionary.org/wiki/ardaigh#Irish
+				cool      https://en.wiktionary.org/wiki/fuaraigh#Irish
+				direct    https://en.wiktionary.org/wiki/deachtaigh#Irish
+				displease 
+				eat       https://en.wiktionary.org/wiki/ith#Irish
+				endure    https://en.wiktionary.org/wiki/iompair#Irish
+				fall      https://en.wiktionary.org/wiki/tit#Irish
+				fly       https://en.wiktionary.org/wiki/eitil#Irish
+				hear      #https://en.wiktionary.org/wiki/airigh#Irish
+				occupy    
+				resemble  
+				rest      
+				see       https://en.wiktionary.org/wiki/feic#Irish
+				show      https://en.wiktionary.org/wiki/taispe%C3%A1in#Irish
+				startle   https://en.wiktionary.org/wiki/scanraigh#Irish # "frighten"
+				swim      https://en.wiktionary.org/wiki/sn%C3%A1mh#Irish
+				walk      https://en.wiktionary.org/wiki/si%C3%BAil#Irish
+				warm      
+				watch     https://en.wiktionary.org/wiki/fair#Irish
+				work      https://en.wiktionary.org/wiki/oibrigh#Irish
+			''')
+		)
+	)
+)
+
+
+print('ITALIAN')
 write('data/inflection/indo-european/romance/italian/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Italian', 'it'), 
@@ -1391,12 +1608,13 @@ write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/vestis#Latin
 				daughter  https://en.wiktionary.org/wiki/filia#Latin
 				dog       https://en.wiktionary.org/wiki/canis#Latin
-				door      
+				door      https://en.wiktionary.org/wiki/foris#Latin
 				drum      https://en.wiktionary.org/wiki/tympanum#Latin
 				enemy     https://en.wiktionary.org/wiki/inimicus#Latin
 				fire      https://en.wiktionary.org/wiki/ignis#Latin
 				food      https://en.wiktionary.org/wiki/cibus#Latin
 				gift      https://en.wiktionary.org/wiki/donum#Latin
+				glass     https://en.wiktionary.org/wiki/vitrum#Latin
 				guard     https://en.wiktionary.org/wiki/custos#Latin
 				horse     https://en.wiktionary.org/wiki/equus#Latin
 				house     https://en.wiktionary.org/wiki/domus#Latin
@@ -1413,7 +1631,6 @@ write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/filius#Latin
 				sound     https://en.wiktionary.org/wiki/sonus#Latin
 				warmth    https://en.wiktionary.org/wiki/calor#Latin
-				vase      
 				water     https://en.wiktionary.org/wiki/aqua#Latin
 				way       https://en.wiktionary.org/wiki/via#Latin
 				wind      https://en.wiktionary.org/wiki/ventus#Latin
@@ -1502,12 +1719,13 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.ts
 				clothing  https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0#Old_Church_Slavonic
 				daughter  https://en.wiktionary.org/wiki/%D0%B4%D1%8A%D1%89%D0%B8#Old_Church_Slavonic
 				dog       https://en.wiktionary.org/wiki/%D0%BF%D1%8C%D1%81%D1%8A#Old_Church_Slavonic
-				door      
+				door      https://en.wiktionary.org/wiki/%D0%B4%D0%B2%D1%8C%D1%80%D0%B8#Old_Church_Slavonic
 				drum      
 				enemy     https://en.wiktionary.org/wiki/%D0%B2%D1%80%D0%B0%D0%B3%D1%8A#Old_Church_Slavonic
 				fire      
 				food      
 				gift      
+				glass     
 				guard     
 				horse     https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Old_Church_Slavonic
 				house     https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D0%BC%D1%8A#Old_Church_Slavonic
@@ -1524,7 +1742,6 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.ts
 				son       https://en.wiktionary.org/wiki/%D1%81%EA%99%91%D0%BD%D1%8A#Old_Church_Slavonic
 				sound     
 				warmth    
-				vase      
 				water     https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B0#Old_Church_Slavonic
 				way       https://en.wiktionary.org/wiki/%D0%BF%D1%AB%D1%82%D1%8C#Old_Church_Slavonic
 				wind      https://en.wiktionary.org/wiki/%D0%B2%D1%A3%D1%82%D1%80%D1%8A#Old_Church_Slavonic
@@ -1584,12 +1801,13 @@ write('data/inflection/indo-european/germanic/english/old/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/scrud#Old_English
 				daughter  https://en.wiktionary.org/wiki/dohtor#Old_English
 				dog       https://en.wiktionary.org/wiki/hund#Old_English
-				door      
+				door      https://en.wiktionary.org/wiki/duru#Old_English
 				drum      
 				enemy     https://en.wiktionary.org/wiki/feond#Old_English
 				fire      https://en.wiktionary.org/wiki/fyr#Old_English
 				food      https://en.wiktionary.org/wiki/foda#Old_English
 				gift      https://en.wiktionary.org/wiki/giefu#Old_English
+				glass     https://en.wiktionary.org/wiki/gl%C3%A6s#Old_English
 				guard     https://en.wiktionary.org/wiki/weard#Old_English
 				horse     https://en.wiktionary.org/wiki/hors#Old_English
 				house     https://en.wiktionary.org/wiki/hus#Old_English
@@ -1606,7 +1824,6 @@ write('data/inflection/indo-european/germanic/english/old/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/sunu#Old_English
 				sound     https://en.wiktionary.org/wiki/sweg#Old_English
 				warmth    https://en.wiktionary.org/wiki/h%C3%A6tu#Old_English
-				vase      
 				water     https://en.wiktionary.org/wiki/w%C3%A6ter#Old_English
 				way       https://en.wiktionary.org/wiki/weg#Old_English
 				wind      https://en.wiktionary.org/wiki/wind#Old_English
@@ -1664,7 +1881,7 @@ write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 				rest      
 				see       https://en.wiktionary.org/wiki/geseon#Old_English
 				show      https://en.wiktionary.org/wiki/%C3%A6tiewan#Old_English
-				startle   
+				startle   https://en.wiktionary.org/wiki/greosan#Old_English # "frighten"
 				swim      https://en.wiktionary.org/wiki/swimman#Old_English
 				walk      https://en.wiktionary.org/wiki/gan#Old_English
 				warm      
@@ -1689,12 +1906,13 @@ write('data/inflection/quechuan/scraped-nouns.tsv',
 				clothing  
 				daughter  
 				dog       https://en.wiktionary.org/wiki/allqu#Quechua
-				door      
+				door      https://en.wiktionary.org/wiki/punku#Quechua
 				drum      
 				enemy     https://en.wiktionary.org/wiki/awqa#Quechua
 				fire      https://en.wiktionary.org/wiki/nina#Quechua
 				food      https://en.wiktionary.org/wiki/mikhuna#Quechua
 				gift      
+				glass     https://en.wiktionary.org/wiki/q%27ispi#Quechua
 				guard     
 				horse     https://en.wiktionary.org/wiki/kawallu#Quechua
 				house     https://en.wiktionary.org/wiki/wasi#Quechua
@@ -1711,7 +1929,6 @@ write('data/inflection/quechuan/scraped-nouns.tsv',
 				son       
 				sound     
 				warmth    https://en.wiktionary.org/wiki/ruphay#Quechua
-				vase      
 				water     https://en.wiktionary.org/wiki/yaku#Quechua
 				way       https://en.wiktionary.org/wiki/%C3%B1an#Quechua
 				wind      https://en.wiktionary.org/wiki/wayra#Quechua
@@ -1771,12 +1988,13 @@ write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0#Russian
 				daughter  https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D1%87%D1%8C#Russian
 				dog       https://en.wiktionary.org/wiki/%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#Russian
-				door      
+				door      https://en.wiktionary.org/wiki/%D0%B4%D0%B2%D0%B5%D1%80%D1%8C#Russian
 				drum      https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD#Russian
 				enemy     https://en.wiktionary.org/wiki/%D0%B2%D1%80%D0%B0%D0%B3#Russian
 				fire      https://en.wiktionary.org/wiki/%D0%BE%D0%B3%D0%BE%D0%BD%D1%8C#Russian
 				food      https://en.wiktionary.org/wiki/%D0%B5%D0%B4%D0%B0#Russian
 				gift      https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA#Russian
+				glass     https://en.wiktionary.org/wiki/%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%BE#Russian
 				guard     https://en.wiktionary.org/wiki/%D1%81%D1%82%D1%80%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA#Russian
 				horse     https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D1%88%D0%B0%D0%B4%D1%8C#Russian
 				house     https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D0%BC#Russian
@@ -1793,7 +2011,6 @@ write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%D1%81%D1%8B%D0%BD#Russian
 				sound     https://en.wiktionary.org/wiki/%D0%B7%D0%B2%D1%83%D0%BA#Russian
 				warmth    https://en.wiktionary.org/wiki/%D1%82%D0%B5%D0%BF%D0%BB%D0%BE#Russian
-				vase      
 				water     https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B0#Russian
 				way       https://en.wiktionary.org/wiki/%D0%BF%D1%83%D1%82%D1%8C#Russian
 				wind      https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D1%82%D0%B5%D1%80#Russian
@@ -1866,12 +2083,13 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A5%8D#Sanskrit
 				daughter  https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%81%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%83#Sanskrit
 				dog       https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A5%81%E0%A4%B0#Sanskrit
-				door      
+				door      https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0#Sanskrit
 				drum      https://en.wiktionary.org/wiki/%E0%A4%A2%E0%A5%8B%E0%A4%B2#Sanskrit
 				enemy     https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%81#Sanskrit
 				fire      https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%97%E0%A5%8D%E0%A4%A8%E0%A4%BF#Sanskrit
 				food      https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A8#Sanskrit
 				gift      https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A4%BE%E0%A4%A8#Sanskrit
+				glass     https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%9A#Sanskrit
 				guard     
 				horse     https://en.wiktionary.org/wiki/%E0%A4%98%E0%A5%8B%E0%A4%9F%E0%A4%95#Sanskrit
 				house     https://en.wiktionary.org/wiki/%E0%A4%97%E0%A5%83%E0%A4%B9#Sanskrit
@@ -1888,7 +2106,6 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%B0#Sanskrit
 				sound     https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%AC%E0%A5%8D%E0%A4%A6#Sanskrit
 				warmth    https://en.wiktionary.org/wiki/%E0%A4%98%E0%A4%B0%E0%A5%8D%E0%A4%AE#Sanskrit
-				vase      
 				water     https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BF#Sanskrit
 				way       https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%A5#Sanskrit
 				wind      https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%97%E0%A4%A4%E0%A5%8D#Sanskrit
@@ -1976,7 +2193,7 @@ write('data/inflection/indo-european/romance/spanish/scraped-verbs.tsv',
 				rest      
 				see       https://en.wiktionary.org/wiki/ver#Spanish
 				show      https://en.wiktionary.org/wiki/mostrar#Spanish
-				startle   
+				startle   https://en.wiktionary.org/wiki/atemorizar#Spanish # "frighten"
 				swim      https://en.wiktionary.org/wiki/nadar#Spanish
 				walk      https://en.wiktionary.org/wiki/caminar#Spanish
 				warm      https://en.wiktionary.org/wiki/calentar#Spanish
@@ -2001,12 +2218,13 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/kl%C3%A4der#Swedish
 				daughter  https://en.wiktionary.org/wiki/dotter#Swedish
 				dog       https://en.wiktionary.org/wiki/hund#Swedish
-				door      
+				door      https://en.wiktionary.org/wiki/d%C3%B6rr#Swedish
 				drum      https://en.wiktionary.org/wiki/trumma#Swedish
 				enemy     https://en.wiktionary.org/wiki/fiende#Swedish
 				fire      https://en.wiktionary.org/wiki/eld#Swedish
 				food      https://en.wiktionary.org/wiki/mat#Swedish
 				gift      https://en.wiktionary.org/wiki/g%C3%A5va#Swedish
+				glass     https://en.wiktionary.org/wiki/glas#Swedish
 				guard     https://en.wiktionary.org/wiki/vakt#Swedish
 				horse     https://en.wiktionary.org/wiki/h%C3%A4st#Swedish
 				house     https://en.wiktionary.org/wiki/hus#Swedish
@@ -2023,7 +2241,6 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/son#Swedish
 				sound     https://en.wiktionary.org/wiki/ljud#Swedish
 				warmth    https://en.wiktionary.org/wiki/v%C3%A4rme#Swedish
-				vase      
 				water     https://en.wiktionary.org/wiki/vatten#Swedish
 				way       https://en.wiktionary.org/wiki/v%C3%A4g#Swedish
 				wind      https://en.wiktionary.org/wiki/vind#Swedish
@@ -2083,12 +2300,13 @@ write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/%E0%AE%86%E0%AE%9F%E0%AF%88#Tamil
 				daughter  https://en.wiktionary.org/wiki/%E0%AE%AE%E0%AE%95%E0%AE%B3%E0%AF%8D#Tamil
 				dog       https://en.wiktionary.org/wiki/%E0%AE%A8%E0%AE%BE%E0%AE%AF%E0%AF%8D#Tamil
-				door      
+				door      https://en.wiktionary.org/wiki/%E0%AE%95%E0%AE%A4%E0%AE%B5%E0%AF%81#Tamil
 				drum      
 				enemy     https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%95%E0%AF%88%E0%AE%B5%E0%AE%A9%E0%AF%8D#Tamil
 				fire      https://en.wiktionary.org/wiki/%E0%AE%A8%E0%AF%86%E0%AE%B0%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81#Tamil
 				food      https://en.wiktionary.org/wiki/%E0%AE%9A%E0%AE%BE%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AF%81#Tamil
 				gift      https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%B0%E0%AE%BF%E0%AE%9A%E0%AF%81#Tamil
+				glass     https://en.wiktionary.org/wiki/%E0%AE%95%E0%AE%A3%E0%AF%8D%E0%AE%A3%E0%AE%BE%E0%AE%9F%E0%AE%BF#Tamil
 				guard     
 				horse     https://en.wiktionary.org/wiki/%E0%AE%95%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%88#Tamil
 				house     https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AF%80%E0%AE%9F%E0%AF%81#Tamil
@@ -2105,7 +2323,6 @@ write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/%E0%AE%AE%E0%AE%95%E0%AE%A9%E0%AF%8D#Tamil
 				sound     https://en.wiktionary.org/wiki/%E0%AE%9A%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%AE%E0%AF%8D#Tamil
 				warmth    https://en.wiktionary.org/wiki/%E0%AE%9A%E0%AF%82%E0%AE%9F%E0%AF%81#Tamil
-				vase      
 				water     https://en.wiktionary.org/wiki/%E0%AE%A8%E0%AF%80%E0%AE%B0%E0%AF%8D#Tamil
 				way       https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AE%B4%E0%AE%BF#Tamil
 				wind      https://en.wiktionary.org/wiki/%E0%AE%95%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81#Tamil
@@ -2165,12 +2382,13 @@ write('data/inflection/turkic/turkish/scraped-nouns.tsv',
 				clothing  https://en.wiktionary.org/wiki/giysi#Turkish
 				daughter  https://en.wiktionary.org/wiki/k%C4%B1z#Turkish
 				dog       https://en.wiktionary.org/wiki/k%C3%B6pek#Turkish
-				door      
+				door      https://en.wiktionary.org/wiki/kap%C4%B1#Turkish
 				drum      https://en.wiktionary.org/wiki/davul#Turkish
 				enemy     https://en.wiktionary.org/wiki/d%C3%BC%C5%9Fman#Turkish
 				fire      https://en.wiktionary.org/wiki/ate%C5%9F#Turkish
 				food      https://en.wiktionary.org/wiki/yiyecek#Turkish
 				gift      https://en.wiktionary.org/wiki/hediye#Turkish
+				glass     https://en.wiktionary.org/wiki/cam#Turkish
 				guard     
 				horse     https://en.wiktionary.org/wiki/at#Turkish
 				house     https://en.wiktionary.org/wiki/hane#Turkish
@@ -2187,7 +2405,6 @@ write('data/inflection/turkic/turkish/scraped-nouns.tsv',
 				son       https://en.wiktionary.org/wiki/o%C4%9Ful#Turkish
 				sound     https://en.wiktionary.org/wiki/ses#Turkish
 				warmth    https://en.wiktionary.org/wiki/%C4%B1s%C4%B1#Turkish
-				vase      
 				water     https://en.wiktionary.org/wiki/su#Turkish
 				way       https://en.wiktionary.org/wiki/yol#Turkish
 				wind      https://en.wiktionary.org/wiki/yel#Turkish
@@ -2222,7 +2439,7 @@ write('data/inflection/turkic/turkish/scraped-verbs.tsv',
 				rest      
 				see       https://en.wiktionary.org/wiki/g%C3%B6rmek#Turkish
 				show      https://en.wiktionary.org/wiki/g%C3%B6stermek#Turkish
-				startle   
+				startle   https://en.wiktionary.org/wiki/korkutmak#Turkish # "frighten"
 				swim      https://en.wiktionary.org/wiki/y%C3%BCzmek#Turkish
 				walk      https://en.wiktionary.org/wiki/y%C3%BCr%C3%BCmek#Turkish
 				warm      
@@ -2253,6 +2470,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
 				fire      
 				food      
 				gift      
+				glass     
 				guard     
 				horse     
 				house     
@@ -2269,7 +2487,6 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
 				son       
 				sound     
 				warmth    
-				vase      
 				water     
 				way       
 				wind      
@@ -2304,7 +2521,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-verbs.tsv',
 				rest      
 				see       https://en.wiktionary.org/wiki/seen#Middle_English
 				show      https://en.wiktionary.org/wiki/schewen#Middle_English
-				startle   
+				startle   https://en.wiktionary.org/wiki/fryghten#Middle_English # "frighten"
 				swim      https://en.wiktionary.org/wiki/swymmen#Middle_English
 				walk      https://en.wiktionary.org/wiki/walken#Middle_English
 				warm      
@@ -2329,13 +2546,13 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 				clothing  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%A9stis
 				daughter  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0ugh%E2%82%82t%E1%B8%97r
 				dog       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1w%E1%B9%93
-				door      
 				door      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0w%E1%B9%93r
 				drum      
 				enemy     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B0%C3%B3stis
 				fire      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9h%E2%82%82wr%CC%A5
 				food      
 				gift      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%A9h%E2%82%83nom
+				glass     
 				guard     # *péh₂-s-tōr ~ *ph₂-s-tr-és
 				horse     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9%E1%B8%B1wos
 				house     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%E1%B9%93m
@@ -2352,7 +2569,6 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 				son       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/suHy%C3%BAs
 				sound     
 				warmth    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%CA%B0%C3%A9ros
-				vase      
 				water     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9k%CA%B7eh%E2%82%82
 				way       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9ytr%CC%A5
 				wind      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82w%C3%A9h%E2%82%81n%CC%A5ts
