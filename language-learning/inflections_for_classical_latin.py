@@ -15,12 +15,13 @@ from tools.nodemaps import (
 from tools.cards import DeckGeneration
 from inflections import (
     dict_bundle_to_map,
-    LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, english_demonstration,
+    LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
+    english_demonstration,
     card_formatting,
     tsv_parsing,
     has_annotation,
     finite_annotation, nonfinite_annotation, declension_verb_annotation, 
-    pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, declension_template_noun_annotation,
+    pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
@@ -82,7 +83,7 @@ foreign_language = Language(
         debug=True,
     ),
     RuleSyntax(
-        parse_any.terms('subject verb-modifier indirect-object direct-object verb'), 
+        parse_any.terms('subject adverbial indirect-object direct-object verb'), 
         parse_any.tokens('stock-adposition det adj n np clause')
     ),
     {'language-type':'foreign'},
@@ -103,7 +104,7 @@ foreign_termaxis_to_terms = {
         voice  :  active passive
         mood   :  indicative subjunctive imperative
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
-        subjectivity: subject addressee direct-object indirect-object verb-modifier noun-modifier
+        subjectivity: subject addressee direct-object indirect-object adverbial adnominal
     '''),
     **parse_any.token_to_tokens('''
         adjective:tall holy poor mean old nimble swift jovial
@@ -155,7 +156,7 @@ subjectivity_role_blacklist = parse.termmask(
     'subjectivity_role_blacklist', 
     'subjectivity role',
     '''
-    verb-modifier      stimulus
+    adverbial      stimulus
     ''')
 
 subjectivity_valency_whitelist = parse.termmask(
@@ -165,8 +166,8 @@ subjectivity_valency_whitelist = parse.termmask(
     intransitive  subject
     transitive    direct-object
     intransitive  addressee
-    intransitive  verb-modifier
-    intransitive  noun-modifier
+    intransitive  adnominal
+    intransitive  adverbial
     ''')
 
 subjectivity_motion_whitelist = parse.termmask(
@@ -176,12 +177,12 @@ subjectivity_motion_whitelist = parse.termmask(
     addressee     associated
     subject       associated
     direct-object associated
-    verb-modifier      acquired
-    verb-modifier      associated
-    verb-modifier      departed
-#    verb-modifier      surpassed
-#    verb-modifier      leveraged
-    noun-modifier associated
+    adverbial      acquired
+    adverbial      associated
+    adverbial      departed
+#    adverbial      surpassed
+#    adverbial      leveraged
+    adnominal associated
     ''')
 
 subjectivity_person_blacklist = parse.termmask(
@@ -312,63 +313,66 @@ gender_noun_whitelist = parse.tokenmask(
     'gender_noun_whitelist', 
     'noun gender',
     '''
-    man          masculine
-    day          feminine
-    hand         masculine
-    night        feminine
-    thing        feminine
-    name         neuter
-    son          masculine
-    war          masculine
-    air          masculine
-    boy          masculine
-    animal       neuter
-    star         feminine
-    tower        feminine
-    horn         neuter
-    sailor       masculine
-    foundation   feminine
-    echo         neuter
-    phenomenon   neuter
-    vine         feminine
-    myth         masculine
-    atom         feminine
-    nymph        feminine
-    comet        masculine
-    woman        feminine
-    son          masculine
-    daughter     feminine
-    livestock    neuter
-    sound        masculine
-    size         feminine
-    thought      feminine
-    place        masculine
-    attention    feminine
-    wind         masculine
-    enemy        masculine
-    monster      feminine
-    rock         neuter
-    book         masculine
-    water        feminine
-    horse        masculine
-    food         masculine
-    work         masculine
-    gift         neuter
-    house        feminine
-    ghost        neuter
-    guard        masculine
-    dog          masculine
-    dog          feminine
-    boat         feminine
-    shirt        feminine
-    rope         masculine
-    window       feminine
-    drum         neuter
-    picture      feminine
-    car          masculine
-    cart         masculine
-    oath         neuter
-    idea         feminine
+    animal    neuter
+    attention feminine
+    bird      feminine
+    boat      feminine
+    book      masculine
+    bug       masculine
+    clothing  feminine
+    daughter  feminine
+    dog       masculine
+    dog       feminine
+    door      feminine
+    drum      neuter
+    enemy     masculine
+    fire      masculine
+    food      masculine
+    gift      neuter
+    glass     neuter
+    guard     masculine
+    horse     masculine
+    house     feminine
+    livestock neuter
+    love      feminine
+    idea      feminine
+    man       masculine
+    money     feminine
+    monster   feminine
+    name      neuter
+    rock      neuter
+    rope      feminine
+    size      feminine
+    son       masculine
+    sound     masculine
+    thought   feminine
+    warmth    masculine
+    water     feminine
+    way       feminine
+    wind      masculine
+    window    feminine
+    woman     feminine
+    work      masculine
+
+    day       feminine
+    hand      masculine
+    night     feminine
+    thing     feminine
+    war       masculine
+    air       masculine
+    boy       masculine
+    star      feminine
+    tower     feminine
+    horn      neuter
+    sailor    masculine
+    foundation feminine
+    echo       neuter
+    phenomenon neuter
+    vine      feminine
+    myth      masculine
+    atom      feminine
+    nymph     feminine
+    comet     masculine
     '''
 )
 
@@ -431,9 +435,7 @@ tense_progress_mood_voice_verb_traversal = (
     - verb_voice_blacklist
 ) * constant['subject'] 
 
-conjugation_traversal =(
-    template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
-)
+conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
 
 roles = parse_any.termspace('role', 'role', 
     'role: stimulus location possessor interior surface presence aid lack interest time company')
@@ -494,11 +496,11 @@ write('flashcards/latin/nonfinite-conjugation.html',
             emoji_demonstration.generator(),
             foreign_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [vp v figure]] [verb-modifier np clause [test infinitive [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]]',)
+                    'clause [speaker finite [vp v figure]] [adverbial np clause [test infinitive [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]]',)
             ),
             english_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'verb-modifier clause [speaker finite [np n] [vp v figure]] [verb-modifier np clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]] ',)
+                    'adverbial clause [speaker finite [np n] [vp v figure]] [adverbial np clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]] ',)
             ),
         ],
         defaults.override(
@@ -548,7 +550,7 @@ write('flashcards/latin/adpositions.html',
         ) for demonstration in demonstrations],
         defaults.override(
             (declension_noun_traversal * constant['man'])
-            & constant['verb-modifier']
+            & constant['adverbial']
             & noun_template_whitelist
         ),
         tag_templates ={
@@ -638,10 +640,6 @@ write('flashcards/latin/pronoun-possessives.html',
             'test'       : parse.termaxis_to_term('personal-possessive'),
         },
     ))
-
-"""
-
-"""
 
 end_time = time.time()
 duration = end_time-start_time

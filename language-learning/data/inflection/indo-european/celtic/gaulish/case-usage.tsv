@@ -4,67 +4,67 @@
 	addressee			vocative	∅	∅	#	
 	direct-object			accusative	∅	∅	#	
 	indirect-object			dative	∅	∅	#	
-	verb-modifier	departed	agent			∅	#	
-	verb-modifier	associated	agent			∅	#	
-	verb-modifier	acquired	agent			∅	#	
-	verb-modifier	leveraged	agent			∅	#	
-	verb-modifier	departed	force			∅	#	
-	verb-modifier	associated	force			∅	#	
-	verb-modifier	acquired	force			∅	#	
-	verb-modifier	leveraged	force			∅	#	
-#	verb-modifier	departed	possessor			∅	#	
-	verb-modifier	associated	possessor			∅	#	
-#	verb-modifier	acquired	possessor			∅	#	
-#	verb-modifier	leveraged	possessor			∅	#	
-	verb-modifier	departed	location	instrumental	au	∅	#	from, away from, since
-	verb-modifier	associated	location	accusative	are	∅	#	by, with
-	verb-modifier	acquired	location	accusative	in	∅	#	into, to
-	verb-modifier	leveraged	location			∅	#	
-	verb-modifier	approached	location	accusative	ad, at	∅	#	towards
-	verb-modifier	surpassed	location	accusative	sepu	∅	#	past, beyond
-#	verb-modifier	departed	extent			∅	#	
-#	verb-modifier	associated	extent			∅	#	
-#	verb-modifier	acquired	extent	accusative	urit, uritto	∅	#	against
-#	verb-modifier	leveraged	extent			∅	#	
-#	verb-modifier	departed	vicinity			∅	#	
-#	verb-modifier	associated	vicinity	accusative	ambi	∅	#	around
-#	verb-modifier	acquired	vicinity			∅	#	
-#	verb-modifier	leveraged	vicinity			∅	#	
-	verb-modifier	departed	interior	accusative	extra	∅	#	outside
-	verb-modifier	associated	interior	locative	in	∅	#	in
-	verb-modifier	acquired	interior	accusative	entra, in	∅	#	into, inside
-	verb-modifier	leveraged	interior	accusative	trei	∅	#	through
-	verb-modifier	departed	surface			∅	#	
-	verb-modifier	associated	surface	instrumental	uer	∅	#	on
-	verb-modifier	acquired	surface	accusative	tras	∅	#	across, beyond, over
-	verb-modifier	leveraged	surface			∅	#	
-	verb-modifier	surpassed	surface	accusative	ux	∅	#	over
-	verb-modifier	departed	subsurface			∅	#	
-	verb-modifier	associated	subsurface	instrumental	uo	∅	#	under
-	verb-modifier	acquired	subsurface			∅	#	
-	verb-modifier	leveraged	subsurface			∅	#	
-#	verb-modifier	departed	presence			∅	#	
-	verb-modifier	associated	presence	accusative	are	∅	#	by, with
-#	verb-modifier	acquired	presence	instrumental	are	∅	#	before, in front of
-	verb-modifier	leveraged	presence			∅	#	
-#	verb-modifier	departed	aid			∅	#	
-	verb-modifier	associated	aid	instrumental	con	∅	#	with
-#	verb-modifier	acquired	aid			∅	#	
-#	verb-modifier	leveraged	aid			∅	#	
-#	verb-modifier	departed	lack			∅	#	
-	verb-modifier	associated	lack	accusative	cena	∅	#	without
-#	verb-modifier	acquired	lack			∅	#	
-#	verb-modifier	leveraged	lack			∅	#	
-#	verb-modifier	departed	interest			∅	#	
-	verb-modifier	associated	interest	accusative	are	∅	#	for the sake of
-#	verb-modifier	acquired	interest			∅	#	
-	verb-modifier	leveraged	interest			∅	#	
-	verb-modifier	departed	time	instrumental	eron	∅	#	after
-	verb-modifier	associated	time	accusative	samali	∅	#	as
-	verb-modifier	acquired	time	accusative	po	∅	#	until
-	verb-modifier	leveraged	time			∅	#	
-#	verb-modifier	departed	topic			∅	#	
-#	verb-modifier	associated	topic			∅	#	
-#	verb-modifier	acquired	topic			∅	#	
-#	verb-modifier	leveraged	topic			∅	#	
-	verb-modifier	associated	company	accusative	ac	∅	#	along with
+	adverbial	departed	agent			∅	#	
+	adverbial	associated	agent			∅	#	
+	adverbial	acquired	agent			∅	#	
+	adverbial	leveraged	agent			∅	#	
+	adverbial	departed	force			∅	#	
+	adverbial	associated	force			∅	#	
+	adverbial	acquired	force			∅	#	
+	adverbial	leveraged	force			∅	#	
+#	adverbial	departed	possessor			∅	#	
+	adverbial	associated	possessor			∅	#	
+#	adverbial	acquired	possessor			∅	#	
+#	adverbial	leveraged	possessor			∅	#	
+	adverbial	departed	location	instrumental	au	∅	#	from, away from, since
+	adverbial	associated	location	accusative	are	∅	#	by, with
+	adverbial	acquired	location	accusative	in	∅	#	into, to
+	adverbial	leveraged	location			∅	#	
+	adverbial	approached	location	accusative	ad, at	∅	#	towards
+	adverbial	surpassed	location	accusative	sepu	∅	#	past, beyond
+#	adverbial	departed	extent			∅	#	
+#	adverbial	associated	extent			∅	#	
+#	adverbial	acquired	extent	accusative	urit, uritto	∅	#	against
+#	adverbial	leveraged	extent			∅	#	
+#	adverbial	departed	vicinity			∅	#	
+#	adverbial	associated	vicinity	accusative	ambi	∅	#	around
+#	adverbial	acquired	vicinity			∅	#	
+#	adverbial	leveraged	vicinity			∅	#	
+	adverbial	departed	interior	accusative	extra	∅	#	outside
+	adverbial	associated	interior	locative	in	∅	#	in
+	adverbial	acquired	interior	accusative	entra, in	∅	#	into, inside
+	adverbial	leveraged	interior	accusative	trei	∅	#	through
+	adverbial	departed	surface			∅	#	
+	adverbial	associated	surface	instrumental	uer	∅	#	on
+	adverbial	acquired	surface	accusative	tras	∅	#	across, beyond, over
+	adverbial	leveraged	surface			∅	#	
+	adverbial	surpassed	surface	accusative	ux	∅	#	over
+	adverbial	departed	subsurface			∅	#	
+	adverbial	associated	subsurface	instrumental	uo	∅	#	under
+	adverbial	acquired	subsurface			∅	#	
+	adverbial	leveraged	subsurface			∅	#	
+#	adverbial	departed	presence			∅	#	
+	adverbial	associated	presence	accusative	are	∅	#	by, with
+#	adverbial	acquired	presence	instrumental	are	∅	#	before, in front of
+	adverbial	leveraged	presence			∅	#	
+#	adverbial	departed	aid			∅	#	
+	adverbial	associated	aid	instrumental	con	∅	#	with
+#	adverbial	acquired	aid			∅	#	
+#	adverbial	leveraged	aid			∅	#	
+#	adverbial	departed	lack			∅	#	
+	adverbial	associated	lack	accusative	cena	∅	#	without
+#	adverbial	acquired	lack			∅	#	
+#	adverbial	leveraged	lack			∅	#	
+#	adverbial	departed	interest			∅	#	
+	adverbial	associated	interest	accusative	are	∅	#	for the sake of
+#	adverbial	acquired	interest			∅	#	
+	adverbial	leveraged	interest			∅	#	
+	adverbial	departed	time	instrumental	eron	∅	#	after
+	adverbial	associated	time	accusative	samali	∅	#	as
+	adverbial	acquired	time	accusative	po	∅	#	until
+	adverbial	leveraged	time			∅	#	
+#	adverbial	departed	topic			∅	#	
+#	adverbial	associated	topic			∅	#	
+#	adverbial	acquired	topic			∅	#	
+#	adverbial	leveraged	topic			∅	#	
+	adverbial	associated	company	accusative	ac	∅	#	along with

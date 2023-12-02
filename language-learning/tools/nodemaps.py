@@ -144,7 +144,7 @@ class RuleSyntax:
             subjectivity: [noun 
                 for noun in nouns 
                 if noun.tags['subjectivity'] == subjectivity]
-            for subjectivity in 'subject direct-object indirect-object verb-modifier noun-modifier'.split()
+            for subjectivity in 'subject direct-object indirect-object adverbial adnominal'.split()
         }
         verbs = [phrase
             for phrase in rules 

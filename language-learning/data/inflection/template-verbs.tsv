@@ -2,45 +2,45 @@
 #			army	man	monster/dog	horse				fish	tree	hand	blood	heart	food	rope		water	air	day	house	house	house	house	fire	fire	drum								idea	#						
 #			1	47						1	2	5		2	6	14		2	2	10	4		3	10		12	4	2							6	#					woman	
 stimulus	addressee	intransitive	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	∅	#						
-possessor	noun-modifier	intransitive	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	hear	consider	consider	consider	consider	consider	consider	consider	consider	#						
-location	verb-modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					animal	
-extent	verb-modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#						
-vicinity	verb-modifier	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					arrow	
-side	verb-modifier	intransitive		rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest			rest	rest	rest	rest	rest	warm											#	man	swim	∅		fire	
-interior	verb-modifier	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	rest	rest	rest	rest	walk	warm											#	bird	fly	∅		ice	
-medium	verb-modifier	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	swim	fly						warm											#	treasure	rest	∅		food	
-subsurface	verb-modifier	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	rest	fly	rest	rest	rest	rest	rest												#	man	walk	∅		"bird	"	
-surface	verb-modifier	intransitive		crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	float	fly		walk	walk	walk	walk												#	man	rest	∅		bird	
-presence	verb-modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	arrow	"rest	"	∅		place	
-aid	verb-modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	direct	attention			
-lack	verb-modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	work	∅		son	
-interest	verb-modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	resemble	∅		daughter	
-purpose	verb-modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	eat	food		livestock	
-time	verb-modifier	intransitive																		work																#	man	endure	fire		name	
-state-of-being	verb-modifier	intransitive		work	work	work	work	work	work	work																										#	fire	warm	man		amount	
-company	verb-modifier	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work										#	ice	cool	man		size	
-topic	verb-modifier	intransitive																																		#	man	fall	∅		noise	
-possession	verb-modifier	intransitive		come																																#	man	change	∅			
-resemblance	verb-modifier	intransitive		resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	#	man	occupy	place		good	
-location	verb-modifier	transitive																	direct						direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	show	∅		bad	
-extent	verb-modifier	transitive																	direct						direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	see	∅		big	
-vicinity	verb-modifier	transitive																	direct						direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	watch	∅		long	
-side	verb-modifier	transitive																																		#	man	startle	∅		well	
-interior	verb-modifier	transitive																																		#	man	displease	∅			
-medium	verb-modifier	transitive																																		#	man	appear	∅		his	
-subsurface	verb-modifier	transitive																							direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#		be	good		attention	
-surface	verb-modifier	transitive																							direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#		be	bad		thought	
-presence	verb-modifier	transitive																																		#		be	big			
-aid	verb-modifier	transitive																																		#		be	long		angry	
-lack	verb-modifier	transitive																																		#		be	loud		falling	
-interest	verb-modifier	transitive																																		#						
-purpose	verb-modifier	transitive																																		#					hello	
-time	verb-modifier	transitive																																		#						
-state-of-being	verb-modifier	transitive																																		#					the	
-company	verb-modifier	transitive																																		#						
-topic	verb-modifier	transitive		direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#					sound	
-possession	verb-modifier	transitive																																		#					size	
-resemblance	verb-modifier	transitive																																		#						
+possessor	adnominal	intransitive	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	see	hear	consider	consider	consider	consider	consider	consider	consider	consider	#						
+location	adverbial	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					animal	
+extent	adverbial	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#						
+vicinity	adverbial	intransitive		walk	walk	walk	walk	walk	walk	swim	walk	walk	walk	walk	walk	walk	walk	swim		walk	walk	walk	walk	walk												#					arrow	
+side	adverbial	intransitive		rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest	rest			rest	rest	rest	rest	rest	warm											#	man	swim	∅		fire	
+interior	adverbial	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	rest	rest	rest	rest	walk	warm											#	bird	fly	∅		ice	
+medium	adverbial	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	swim	fly						warm											#	treasure	rest	∅		food	
+subsurface	adverbial	intransitive		flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	flow	rest	fly	rest	rest	rest	rest	rest												#	man	walk	∅		"bird	"	
+surface	adverbial	intransitive		crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	crawl	float	fly		walk	walk	walk	walk												#	man	rest	∅		bird	
+presence	adverbial	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	arrow	"rest	"	∅		place	
+aid	adverbial	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	direct	attention			
+lack	adverbial	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	work	∅		son	
+interest	adverbial	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	resemble	∅		daughter	
+purpose	adverbial	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	#	man	eat	food		livestock	
+time	adverbial	intransitive																		work																#	man	endure	fire		name	
+state-of-being	adverbial	intransitive		work	work	work	work	work	work	work																										#	fire	warm	man		amount	
+company	adverbial	intransitive		work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work	work										#	ice	cool	man		size	
+topic	adverbial	intransitive																																		#	man	fall	∅		noise	
+possession	adverbial	intransitive		come																																#	man	change	∅			
+resemblance	adverbial	intransitive		resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	resemble	#	man	occupy	place		good	
+location	adverbial	transitive																	direct						direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	show	∅		bad	
+extent	adverbial	transitive																	direct						direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	see	∅		big	
+vicinity	adverbial	transitive																	direct						direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#	man	watch	∅		long	
+side	adverbial	transitive																																		#	man	startle	∅		well	
+interior	adverbial	transitive																																		#	man	displease	∅			
+medium	adverbial	transitive																																		#	man	appear	∅		his	
+subsurface	adverbial	transitive																							direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#		be	good		attention	
+surface	adverbial	transitive																							direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#		be	bad		thought	
+presence	adverbial	transitive																																		#		be	big			
+aid	adverbial	transitive																																		#		be	long		angry	
+lack	adverbial	transitive																																		#		be	loud		falling	
+interest	adverbial	transitive																																		#						
+purpose	adverbial	transitive																																		#					hello	
+time	adverbial	transitive																																		#						
+state-of-being	adverbial	transitive																																		#					the	
+company	adverbial	transitive																																		#						
+topic	adverbial	transitive		direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	direct	#					sound	
+possession	adverbial	transitive																																		#					size	
+resemblance	adverbial	transitive																																		#						
 agent	subject	transitive		eat	eat	eat	eat	eat	eat	eat																										#						
 agent	subject	intransitive		eat	eat	eat	eat	eat	eat	eat																										#						
 agent	direct-object	transitive		endure	endure	endure	endure	endure	endure	endure																										#						

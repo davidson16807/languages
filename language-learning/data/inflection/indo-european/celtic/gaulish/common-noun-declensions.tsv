@@ -1,28 +1,37 @@
 *	*	nominative	vocative	accusative 	genitive 	dative 	instrumental 	locative 	#	
-tribe	singular	*toṷtā 	*toṷtā 	*toṷtan ~ *toṷtam > *toṷtim 	toṷtās > *toṷtiās 	*toṷtai > *toṷtī 	*toṷtia > *toṷtī 	*toṷtī 	#	
-tribe	plural	*toṷtās 	*toṷtās 	*toṷtās 	*toṷtanom 	*toṷtābo(s) 	*toṷtābi(s) 	*toṷtābo(s) 	#	
-boy	singular	*mapos (n. *-on) 	*mape 	*mapon ~ *mapom (n. *-on) 	*mapoiso > *mapi 	*mapūi > *mapū 	*mapū 	*mapei > *mapē 	#	
-boy	plural	*mapoi 	*mapoi 	*mapōs > *mapūs 	*mapon 	*mapobo(s) 	*mapuis > *mapūs 	*mapois 	#	
-seer	singular	*ṷātis 	*ṷāti 	*ṷātin ~ *ṷātim 	*ṷātēis 	*ṷātei > *ṷāte 	*ṷātī 	*ṷātei 	#	
-seer	plural	*ṷātīs 	*ṷātīs 	*ṷātīs 	*ṷātiom 	*ṷātibo(s) 	*ṷātibi(s) 	*ṷātibo(s) 	#	
-voice	singular	*gutus 	*gutu 	*gutun ~ *gutum 	*gutoṷs > *gutōs 	*gutoṷei > gutoṷ 	*gutū 	*gutoṷ 	#	
-voice	plural	*gutoṷes 	*gutoṷes 	*gutūs 	*gutoṷom 	*gutuibo(s) 	*gutuibi(s) 	*gutubo(s) 	#	
-brother	singular	*brātīr	*brāter	*brāterem	*brātros	*brātrei	*brātri	*brātri 	#	
-brother	plural	*brāteres	*brāteres	*brāterās	*brātron	*brātrebo(s)	*brātrebi(s)	*brātrebo(s) 	#	
-bug	singular	bekos	beke	bekon	beki	bekū	bekū	bekei1, bekē2	#	"""bee"""
-bug	plural	bekoi	bekoi	bekōs1, bekūs2	bekon	bekobo	bekuis1, bekūs2	bekois	#	"""bee"""
-daughter	singular	duxtīr	duxter	duxterem	duxtros	duxtrei	duxtri	duxtri	#	
-daughter	plural	duxteres	duxteres	duxterās	duxtron	duxtrebo	duxtrebi	duxtrebo	#	
-horse	singular	markos	marke	markon	marki	markū	markū	markei1, markē2	#	
-horse	plural	markoi	markoi	markōs1, markūs2	markon	markobo	markuis1, markūs2	markois	#	
-rock	singular	artuā	artuā	artuan1, artuim2	artuās1, artuiās2	artuī	artuia1, artuī2	artuī	#	
-rock	plural	artuās	artuās	artuās	artuanom	artuābo	artuābi	artuābo	#	
-son	singular	mapos	mape	mapon	mapi	mapū	mapū	mapei1, mapē2	#	
-son	plural	mapoi	mapoi	mapōs1, mapūs2	mapon	mapobo	mapuis1, mapūs2	mapois	#	
-father	singular	atīr	ater	aterem	atros	atrei	atri	atri	#	
-father	plural	ateres	ateres	aterās	atron	atrebo	atrebi	atrebo	#	
-mother	singular	mātīr	māter	māterem	mātros	mātrei	mātri	mātri	#	
-mother	plural	māteres	māteres	māterās	mātron	mātrebo	mātrebi	mātrebo	#	
+tribe	singular 	toṷt-ā	toṷt-a	toṷt-in	toṷt-iās	toṷt-ī	toṷt-ī, toṷt-iā	toṷt-ī	#	a-stem, regular
+tribe	dual 	toṷt-ī, toṷt-ii	toṷt-ī, toṷt-ii	toṷt-ī, toṷt-ii	toṷt-iōs, toṷt-ious	toṷt-ābon	toṷt-ābin	toṷt-ābin	#	
+tribe	plural	toṷt-ās	toṷt-ās	toṷt-ās	toṷt-ānon	toṷt-ābo	toṷt-ābi	toṷt-ābi	#	
+boy	singular 	map-os	map-e	map-on	map-i	map-ū	map-ū	map-ē	#	o-stem, animate?
+boy	dual 	map-ō	map-ō	map-ō	map-ōs	map-obon	map-obin	map-ou	#	
+boy	plural	map-ii, map-oi	map-ūs	map-ūs	map-on(on)	map-obo	map-obi, map-ūs	map-obi	#	
+seer	singular 	ṷāt-is	ṷāt-i	ṷāt-in	ṷāt-ēs, ṷāt-eios	ṷāt-ē	ṷāt-ī	ṷāt-ī	#	i-stem, animate
+seer	dual 	ṷāt-ī	ṷāt-ī	ṷāt-ī	ṷāt-iōs, ṷāt-ious	ṷāt-ibon	ṷāt-ibin	ṷāt-ibin	#	
+seer	plural	ṷāt-ies, ṷāt-īs, ṷāt-eies	ṷāt-īes, ṷāt-īs, ṷāt-eies	ṷāt-īs	ṷāt-ion	ṷāt-ibo	ṷāt-ibi	ṷāt-ibi	#	
+voice	singular 	gut-us	gut-u	gut-un	gut-ous, -ōs	gut-ou, -ō	gut-ū	gut-ū	#	u-stem, animate
+voice	dual 	gut-ū	gut-ū	gut-ū	gut-ouō	gut-oubon	gut-oubin	gut-oubin	#	
+voice	plural	gut-oues	gut-oues	gut-ūs	gut-uion	gut-oubo	gut-oubi	gut-oubi	#	
+brother	singular 	brātīr	brātīr	brāter-en	brātr-os	brātr-ē	brātr-i	brātr-i	#	r-stem
+brother	dual 	brāter-e	brāter-e	brāter-e	brātr-ou, brātr-ō	brātr-ebon	brātr-ebin	brātr-ebin	#	
+brother	plural	brāter-es	brāter-es	brāter-ās	brātr-on	brātr-ebo	brātr-ebi	brātr-ebi	#	
+bug	singular 	bek-os	bek-e	bek-on	bek-i	bek-ū	bek-ū	bek-ē	#	o-stem, animate?
+bug	dual 	bek-ō	bek-ō	bek-ō	bek-ōs	bek-obon	bek-obin	bek-ou	#	
+bug	plural	bek-ii, bek-oi	bek-ūs	bek-ūs	bek-on(on)	bek-obo	bek-obi, bek-ūs	bek-obi	#	
+daughter	singular 	duxtīr	duxtīr	duxter-en	duxtr-os	duxtr-ē	duxtr-i	duxtr-i	#	r-stem
+daughter	dual 	duxter-e	duxter-e	duxter-e	duxtr-ou, duxtr-ō	duxtr-ebon	duxtr-ebin	duxtr-ebin	#	
+daughter	plural	duxter-es	duxter-es	duxter-ās	duxtr-on	duxtr-ebo	duxtr-ebi	duxtr-ebi	#	
+horse	singular 	ep-os	ep-e	ep-on	ep-i	ep-ū	ep-ū	ep-ē	#	o-stem, animate?
+horse	dual 	ep-ō	ep-ō	ep-ō	ep-ōs	ep-obon	ep-obin	ep-ou	#	
+horse	plural	ep-ii, ep-oi	ep-ūs	ep-ūs	ep-on(on)	ep-obo	ep-obi, ep-ūs	ep-obi	#	
+rock	singular 	artu-ā	artu-a	artu-in	artu-iās	artu-ī	artu-ī, artu-iā	artu-ī	#	a-stem, regular
+rock	dual 	artu-ī, artu-ii	artu-ī, artu-ii	artu-ī, artu-ii	artu-iōs, artu-ious	artu-ābon	artu-ābin	artu-ābin	#	
+rock	plural	artu-ās	artu-ās	artu-ās	artu-ānon	artu-ābo	artu-ābi	artu-ābi	#	
+son	singular 	map-os	map-e	map-on	map-i	map-ū	map-ū	map-ē	#	o-stem, animate?
+son	dual 	map-ō	map-ō	map-ō	map-ōs	map-obon	map-obin	map-ou	#	
+son	plural	map-ii, map-oi	map-ūs	map-ūs	map-on(on)	map-obo	map-obi, map-ūs	map-obi	#	
+father	singular 	ātīr	ātīr	āter-en	ātr-os	ātr-ē	ātr-i	ātr-i		
+father	dual 	āter-e	āter-e	āter-e	ātr-ou, ātr-ō	ātr-ebon	ātr-ebin	ātr-ebin		
+father	plural	āter-es	āter-es	āter-ās	ātr-on	ātr-ebo	ātr-ebi	ātr-ebi		
 song	singular 	cantl-ā	cantl-a	cantl-in	cantl-iās	cantl-ī	cantl-ī, cantl-iā	cantl-ī	#	a-stem, regular
 song	dual 	cantl-ī, cantl-ii	cantl-ī, cantl-ii	cantl-ī, cantl-ii	cantl-iōs, cantl-ious	cantl-ābon	cantl-ābin	cantl-ābin	#	
 song	plural	cantl-ās	cantl-ās	cantl-ās	cantl-ānon	cantl-ābo	cantl-ābi	cantl-ābi	#	

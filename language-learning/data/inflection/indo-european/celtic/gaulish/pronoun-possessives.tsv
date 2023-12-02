@@ -1,0 +1,41 @@
+*	*	*	*	nominative	vocative	accusative	genitive	dative	instrumental	locative 
+1-possessor	singular-possessor	singular	masculine	mou-os	mou-e	mou-on	mou-i	mou-ū	mou-ū	mou-ē
+1-possessor	singular-possessor	dual	masculine	mou-ō	mou-ō	mou-ō	mou-ōs	mou-obon	mou-obin	mou-ou
+1-possessor	singular-possessor	plural	masculine	mou-ii, mou-oi	mou-ūs	mou-ūs	mou-on(on)	mou-obo	mou-obi, mou-ūs	mou-obi
+1-possessor	singular-possessor	singular	feminine	mou-ā	mou-a	mou-in	mou-iās	mou-ī	mou-ī, mou-iā	mou-ī
+1-possessor	singular-possessor	dual	feminine	mou-ī, mou-ii	mou-ī, mou-ii	mou-ī, mou-ii	mou-iōs, mou-ious	mou-ābon	mou-ābin	mou-ābin
+1-possessor	singular-possessor	plural	feminine	mou-ās	mou-ās	mou-ās	mou-ānon	mou-ābo	mou-ābi	mou-ābi
+1-possessor	singular-possessor	singular	neuter	mou-on	mou-on	mou-on	mou-ii	mou-ū	mou-ū	mou-ē
+1-possessor	singular-possessor	dual	neuter	mou-oi	mou-oi	mou-oi	mou-iōs	mou-obon	mou-obin	mou-ou
+1-possessor	singular-possessor	plural	neuter	mou-ā	mou-ā	mou-ā	mou-ion	mou-obo	mou-obi, mou-ūs	mou-obi
+										
+2-possessor	singular-possessor	singular	masculine	tou-os	tou-e	tou-on	tou-i	tou-ū	tou-ū	tou-ē
+2-possessor	singular-possessor	dual	masculine	tou-ō	tou-ō	tou-ō	tou-ōs	tou-obon	tou-obin	tou-ou
+2-possessor	singular-possessor	plural	masculine	tou-ii, tou-oi	tou-ūs	tou-ūs	tou-on(on)	tou-obo	tou-obi, tou-ūs	tou-obi
+2-possessor	singular-possessor	singular	feminine	tou-ā	tou-a	tou-in	tou-iās	tou-ī	tou-ī, tou-iā	tou-ī
+2-possessor	singular-possessor	dual	feminine	tou-ī, tou-ii	tou-ī, tou-ii	tou-ī, tou-ii	tou-iōs, tou-ious	tou-ābon	tou-ābin	tou-ābin
+2-possessor	singular-possessor	plural	feminine	tou-ās	tou-ās	tou-ās	tou-ānon	tou-ābo	tou-ābi	tou-ābi
+2-possessor	singular-possessor	singular	neuter	tou-on	tou-on	tou-on	tou-ii	tou-ū	tou-ū	tou-ē
+2-possessor	singular-possessor	dual	neuter	tou-oi	tou-oi	tou-oi	tou-iōs	tou-obon	tou-obin	tou-ou
+2-possessor	singular-possessor	plural	neuter	tou-ā	tou-ā	tou-ā	tou-ion	tou-obo	tou-obi, tou-ūs	tou-obi
+										
+1-possessor	plural-possessor	singular	masculine	anson-os	anson-e	anson-on	anson-i	anson-ū	anson-ū	anson-ē
+1-possessor	plural-possessor	dual	masculine	anson-ō	anson-ō	anson-ō	anson-ōs	anson-obon	anson-obin	anson-ou
+1-possessor	plural-possessor	plural	masculine	anson-ii, anson-oi	anson-ūs	anson-ūs	anson-on(on)	anson-obo	anson-obi, anson-ūs	anson-obi
+1-possessor	plural-possessor	singular	feminine	anson-ā	anson-a	anson-in	anson-iās	anson-ī	anson-ī, anson-iā	anson-ī
+1-possessor	plural-possessor	dual	feminine	anson-ī, anson-ii	anson-ī, anson-ii	anson-ī, anson-ii	anson-iōs, anson-ious	anson-ābon	anson-ābin	anson-ābin
+1-possessor	plural-possessor	plural	feminine	anson-ās	anson-ās	anson-ās	anson-ānon	anson-ābo	anson-ābi	anson-ābi
+1-possessor	plural-possessor	singular	neuter	anson-on	anson-on	anson-on	anson-ii	anson-ū	anson-ū	anson-ē
+1-possessor	plural-possessor	dual	neuter	anson-oi	anson-oi	anson-oi	anson-iōs	anson-obon	anson-obin	anson-ou
+1-possessor	plural-possessor	plural	neuter	anson-ā	anson-ā	anson-ā	anson-ion	anson-obo	anson-obi, anson-ūs	anson-obi
+										
+2-possessor	plural-possessor	singular	masculine	sueson-os	sueson-e	sueson-on	sueson-i	sueson-ū	sueson-ū	sueson-ē
+2-possessor	plural-possessor	dual	masculine	sueson-ō	sueson-ō	sueson-ō	sueson-ōs	sueson-obon	sueson-obin	sueson-ou
+2-possessor	plural-possessor	plural	masculine	sueson-ii, sueson-oi	sueson-ūs	sueson-ūs	sueson-on(on)	sueson-obo	sueson-obi, sueson-ūs	sueson-obi
+2-possessor	plural-possessor	singular	feminine	sueson-ā	sueson-a	sueson-in	sueson-iās	sueson-ī	sueson-ī, sueson-iā	sueson-ī
+2-possessor	plural-possessor	dual	feminine	sueson-ī, sueson-ii	sueson-ī, sueson-ii	sueson-ī, sueson-ii	sueson-iōs, sueson-ious	sueson-ābon	sueson-ābin	sueson-ābin
+2-possessor	plural-possessor	plural	feminine	sueson-ās	sueson-ās	sueson-ās	sueson-ānon	sueson-ābo	sueson-ābi	sueson-ābi
+2-possessor	plural-possessor	singular	neuter	sueson-on	sueson-on	sueson-on	sueson-ii	sueson-ū	sueson-ū	sueson-ē
+2-possessor	plural-possessor	dual	neuter	sueson-oi	sueson-oi	sueson-oi	sueson-iōs	sueson-obon	sueson-obin	sueson-ou
+2-possessor	plural-possessor	plural	neuter	sueson-ā	sueson-ā	sueson-ā	sueson-ion	sueson-obo	sueson-obi, sueson-ūs	sueson-obi
+										
