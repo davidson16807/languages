@@ -19,14 +19,14 @@
 	adverbial	leveraged	location	accusative	❔	∅	#	
 	adverbial	approached	location	accusative	ad, at	∅	#	towards
 	adverbial	surpassed	location	accusative	sepu	∅	#	past, beyond
-#	adverbial	departed	extent	accusative	❔	∅	#	
-#	adverbial	associated	extent	accusative	❔	∅	#	
-#	adverbial	acquired	extent	accusative	urit, uritto	∅	#	against
-#	adverbial	leveraged	extent	accusative	❔	∅	#	
-#	adverbial	departed	vicinity	accusative	❔	∅	#	
-#	adverbial	associated	vicinity	accusative	ambi	∅	#	around
-#	adverbial	acquired	vicinity	accusative	❔	∅	#	
-#	adverbial	leveraged	vicinity	accusative	❔	∅	#	
+	adverbial	departed	extent	accusative	❔	∅	#	
+	adverbial	associated	extent	accusative	❔	∅	#	
+	adverbial	acquired	extent	accusative	urit, uritto	∅	#	against
+	adverbial	leveraged	extent	accusative	❔	∅	#	
+	adverbial	departed	vicinity	accusative	❔	∅	#	
+	adverbial	associated	vicinity	accusative	ambi	∅	#	around
+	adverbial	acquired	vicinity	accusative	❔	∅	#	
+	adverbial	leveraged	vicinity	accusative	❔	∅	#	
 	adverbial	departed	interior	accusative	extra	∅	#	outside
 	adverbial	associated	interior	locative	in	∅	#	in
 	adverbial	acquired	interior	accusative	entra, in	∅	#	into, inside
@@ -40,28 +40,31 @@
 	adverbial	associated	subsurface	instrumental	uo	∅	#	under
 	adverbial	acquired	subsurface	accusative	❔	∅	#	
 	adverbial	leveraged	subsurface	accusative	❔	∅	#	
-#	adverbial	departed	presence	accusative	❔	∅	#	
-	adverbial	associated	presence	accusative	are	∅	#	by, with
-#	adverbial	acquired	presence	instrumental	are	∅	#	before, in front of
+	adverbial	departed	presence	accusative	❔	∅	#	
+	adverbial	associated	presence	instrumental	are	∅	#	before, in front of
+	adverbial	acquired	presence	accusative	❔	∅	#	
 	adverbial	leveraged	presence	accusative	❔	∅	#	
-#	adverbial	departed	aid	accusative	❔	∅	#	
+	adverbial	departed	aid	accusative	❔	∅	#	
 	adverbial	associated	aid	instrumental	con	∅	#	with
-#	adverbial	acquired	aid	accusative	❔	∅	#	
-#	adverbial	leveraged	aid	accusative	❔	∅	#	
-#	adverbial	departed	lack	accusative	❔	∅	#	
+	adverbial	acquired	aid	accusative	❔	∅	#	
+	adverbial	leveraged	aid	accusative	❔	∅	#	
+	adverbial	departed	lack	accusative	❔	∅	#	
 	adverbial	associated	lack	accusative	cena	∅	#	without
-#	adverbial	acquired	lack	accusative	❔	∅	#	
-#	adverbial	leveraged	lack	accusative	❔	∅	#	
-#	adverbial	departed	interest	accusative	❔	∅	#	
-	adverbial	associated	interest	accusative	are	∅	#	for the sake of
-#	adverbial	acquired	interest	accusative	❔	∅	#	
+	adverbial	acquired	lack	accusative	❔	∅	#	
+	adverbial	leveraged	lack	accusative	❔	∅	#	
+	adverbial	departed	interest	accusative	❔	∅	#	
+	adverbial	associated	interest	dative	∅	∅	#	
+	adverbial	acquired	interest	accusative	❔	∅	#	
 	adverbial	leveraged	interest	accusative	❔	∅	#	
 	adverbial	departed	time	instrumental	eron	∅	#	after
 	adverbial	associated	time	accusative	samali	∅	#	as
 	adverbial	acquired	time	accusative	po	∅	#	until
 	adverbial	leveraged	time	accusative	❔	∅	#	
-#	adverbial	departed	topic	accusative	❔	∅	#	
-#	adverbial	associated	topic	accusative	❔	∅	#	
-#	adverbial	acquired	topic	accusative	❔	∅	#	
-#	adverbial	leveraged	topic	accusative	❔	∅	#	
+	adverbial	departed	topic	accusative	❔	∅	#	
+	adverbial	associated	topic	accusative	❔	∅	#	
+	adverbial	acquired	topic	accusative	❔	∅	#	
+	adverbial	leveraged	topic	accusative	❔	∅	#	
+	adverbial	departed	company	accusative	❕	∅	#	along with
 	adverbial	associated	company	accusative	ac	∅	#	along with
+	adverbial	acquired	company	accusative	❕	∅	#	along with
+	adverbial	leveraged	company	accusative	❕	∅	#	along with

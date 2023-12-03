@@ -14,6 +14,8 @@ class DeckGeneration:
                 str(demonstration(tags, tag_templates)) 
                 for demonstration in demonstrations])
             if all([symbol not in card for symbol in self.omit_codes]):
+                if '{{' not in card:
+                    breakpoint()
                 yield card
 
 

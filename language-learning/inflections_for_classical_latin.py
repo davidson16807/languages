@@ -16,7 +16,7 @@ from tools.cards import DeckGeneration
 from inflections import (
     dict_bundle_to_map,
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
-    english_demonstration,
+    english_orthography, english_mood_context,
     card_formatting,
     tsv_parsing,
     has_annotation,
@@ -118,13 +118,21 @@ foreign_term_to_termaxis = dict_bundle_to_map(foreign_termaxis_to_terms)
 parse = TermParsing(foreign_term_to_termaxis)
 
 foreign_demonstration = LanguageSpecificTextDemonstration(
-    card_formatting.foreign_focus,
     Orthography('latin', foreign_language),
+    lambda tags, text: text,
+    card_formatting.foreign_focus,
+    [('∅','')]
+)
+
+english_demonstration = LanguageSpecificTextDemonstration(
+    english_orthography,
+    english_mood_context,
+    card_formatting.native_word, 
 )
 
 emoji_demonstration = LanguageSpecificEmojiDemonstration(
+    emoji_casts[3],
     card_formatting.emoji_focus,
-    emoji_casts[3]
 )
 
 demonstrations = [

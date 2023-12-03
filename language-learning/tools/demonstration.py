@@ -1,31 +1,17 @@
 from .shorthands import EmojiPerson
 
 def TextDemonstration(
-            mood_templates, #series×language_type
             label_editing, 
             label_filtering, 
             parsing, 
             tools,
         ):
     class LanguageSpecificTextDemonstration:
-        def __init__(self, format_card, orthography):
-            self.format_card = format_card
+        def __init__(self, orthography, context, format_card, postprocessing=None):
             self.orthography = orthography
-        def assemble(self, dependant, independant):
-            return independant.replace('\\placeholder', dependant)
-        def context(self, tags):
-            voice_prephrase = '[middle voice:]' if tags['voice'] == 'middle' else ''
-            mood_prephrase = mood_templates[{**tags,'column':'prephrase'}]
-            mood_postphrase = mood_templates[{**tags,'column':'postphrase'}]
-            if tags['language-type'] == 'native':
-                return ' '.join([
-                    voice_prephrase,
-                    mood_templates[{**tags,'column':'prephrase'}],
-                    '\\placeholder',
-                    mood_templates[{**tags,'column':'postphrase'}],
-                ])
-            else:
-                return '\\placeholder'
+            self.context = context
+            self.format_card = format_card
+            self.postprocessing = postprocessing or []
         def generator(self, tree_lookup, substitutions=[], debug=False, **junk):
             def demonstrate(tags, tag_templates):
                 tags = {**tags, **self.orthography.language.tags}
@@ -44,16 +30,16 @@ def TextDemonstration(
                       for key in ['noun','adjective','verb']
                       if key in tags],
                 ]
-                return self.format_card(
-                        self.assemble(
+                text = self.context(tags,
                             self.orthography.map(
                                 parsing.parse(tree_lookup[tags]),
                                 semes, 
                                 completed_substitutions,
                                 debug=debug,
-                            ),
-                            self.context(tags),
-                        ).replace('∅',''))
+                            ))
+                for (replaced, replacement) in self.postprocessing:
+                    text = text.replace(replaced, replacement)
+                return self.format_card(text)
             return demonstrate
     return LanguageSpecificTextDemonstration
 
@@ -72,7 +58,7 @@ def EmojiDemonstration(
             htmlProgressTransform,
         ):
     class LanguageSpecificEmojiDemonstration:
-        def __init__(self, format_card, persons):
+        def __init__(self, persons, format_card):
             self.format_card = format_card
             self.persons = persons
         def decode(self, tags, scene):

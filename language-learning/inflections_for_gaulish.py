@@ -16,7 +16,7 @@ from tools.cards import DeckGeneration
 from inflections import (
     dict_bundle_to_map,
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
-    english_demonstration,
+    english_orthography, english_mood_context,
     card_formatting,
     tsv_parsing,
     has_annotation,
@@ -83,7 +83,7 @@ foreign_language = Language(
     {'language-type':'foreign'},
     list_tools,
     rule_tools,
-    RuleFormatting(postprocessing=[('-','')]),
+    RuleFormatting(),
     substitutions = []
 )
 
@@ -98,12 +98,12 @@ foreign_termaxis_to_terms = {
         voice  :  active passive
         mood   :  indicative subjunctive
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
-        subjectivity: subject addressee direct-object indirect-object adverbial adnominal
+        subjectivity: subject addressee direct-object adnominal indirect-object adverbial
     '''),
     **parse_any.token_to_tokens('''
         verb : swim read strike see walk agree buy create go be lay-down load 
         noun : man tree rock woman deer victory animal lake dog name sky friend tooth king mother
-        adjective: old proper black
+        adjective: bad good big doomed
     '''),
 }
 
@@ -112,13 +112,22 @@ foreign_term_to_termaxis = dict_bundle_to_map(foreign_termaxis_to_terms)
 parse = TermParsing(foreign_term_to_termaxis)
 
 foreign_demonstration = LanguageSpecificTextDemonstration(
-    card_formatting.foreign_focus,
     Orthography('latin', foreign_language),
+    lambda tags, text: text,
+    card_formatting.foreign_focus,
+    [('∅',''), ('-','')]
+)
+
+english_demonstration = LanguageSpecificTextDemonstration(
+    english_orthography,
+    english_mood_context,
+    card_formatting.native_word, 
+    [('[the mass of]','')]
 )
 
 emoji_demonstration = LanguageSpecificEmojiDemonstration(
+    emoji_casts[2],
     card_formatting.emoji_focus,
-    emoji_casts[3]
 )
 
 demonstrations = [
@@ -165,19 +174,19 @@ subjectivity_valency_whitelist = parse.termmask(
     intransitive  adverbial
     ''')
 
-subjectivity_motion_whitelist = parse.termmask(
-    'subjectivity_motion_whitelist', 
+subjectivity_motion_traversal = parse.termpath(
+    'subjectivity_motion_traversal', 
     'subjectivity motion',
     '''
     addressee     associated
     subject       associated
     direct-object associated
-    adverbial      acquired
-    adverbial      associated
-    adverbial      departed
-#    adverbial      surpassed
-#    adverbial      leveraged
-    adnominal associated
+    adnominal     associated
+    adverbial     acquired
+    adverbial     associated
+    adverbial     departed
+#    adverbial     surpassed
+#    adverbial     leveraged
     ''')
 
 # vocatives for pronouns are not known
@@ -187,18 +196,6 @@ subjectivity_nounform_blacklist = parse.termmask(
     '''
     addressee  personal
     addressee  demonstrative
-    ''')
-
-# motion is typically not relevant when you are with someone
-role_motion_blacklist = parse.termmask(
-    'role_motion_blacklist', 
-    'role motion',
-    '''
-    acquired      company
-    approached    company
-    departed      company
-    surpassed     company
-    leveraged     company
     ''')
 
 conjugation_subject_traversal = parse.termpath(
@@ -248,7 +245,7 @@ gender_agreement_traversal = parse.tokenpath(
     '''
     masculine  man   
     feminine   woman 
-    neuter     food
+    neuter     meal
     ''')
 
 gender_noun_whitelist = parse.tokenmask(
@@ -270,7 +267,7 @@ gender_noun_whitelist = parse.tokenmask(
     #enemy     
     fire      masculine
     fire      feminine
-    food      neuter
+    meal      neuter
     gift      masculine
     gift      feminine
     glass     masculine
@@ -333,10 +330,10 @@ possessor_possession_whitelist = parse.tokenmask(
     '''
     man-possessor    son
     man-possessor    daughter
-    man-possessor    name
+    man-possessor    livestock
     woman-possessor  son
     woman-possessor  daughter
-    woman-possessor  name
+    woman-possessor  livestock
     animal-possessor son
     animal-possessor daughter
     animal-possessor name
@@ -374,15 +371,12 @@ tense_progress_mood_voice_verb_traversal = (
 conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
 
 roles = parse_any.termspace('role', 'role', 
-    'role: stimulus location possessor interior surface presence aid lack interest time company')
+    'role: stimulus possessor location interior surface presence aid lack interest time company')
 
 subjectivity_motion_role_traversal = (
-    (((axis['subjectivity']
-     * axis['motion'] )
-     & subjectivity_motion_whitelist)
+    (  subjectivity_motion_traversal
      * roles )
     - subjectivity_role_blacklist
-    - role_motion_blacklist
 )
 
 valency_subjectivity_motion_role_traversal = (

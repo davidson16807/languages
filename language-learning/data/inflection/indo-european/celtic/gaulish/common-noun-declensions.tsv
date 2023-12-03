@@ -30,9 +30,9 @@ rock	plural	artu-ās	artu-ās	artu-ās	artu-ānon	artu-ābo	artu-ābi	artu-ābi	
 son	singular 	map-os	map-e	map-on	map-i	map-ū	map-ū	map-ē	#	o-stem, animate?
 son	dual 	map-ō	map-ō	map-ō	map-ōs	map-obon	map-obin	map-ou	#	
 son	plural	map-ii, map-oi	map-ūs	map-ūs	map-on(on)	map-obo	map-obi, map-ūs	map-obi	#	
-father	singular 	ātīr	ātīr	āter-en	ātr-os	ātr-ē	ātr-i	ātr-i		
-father	dual 	āter-e	āter-e	āter-e	ātr-ou, ātr-ō	ātr-ebon	ātr-ebin	ātr-ebin		
-father	plural	āter-es	āter-es	āter-ās	ātr-on	ātr-ebo	ātr-ebi	ātr-ebi		
+father	singular 	ātīr	ātīr	āter-en	ātr-os	ātr-ē	ātr-i	ātr-i	#	
+father	dual 	āter-e	āter-e	āter-e	ātr-ou, ātr-ō	ātr-ebon	ātr-ebin	ātr-ebin	#	
+father	plural	āter-es	āter-es	āter-ās	ātr-on	ātr-ebo	ātr-ebi	ātr-ebi	#	
 song	singular 	cantl-ā	cantl-a	cantl-in	cantl-iās	cantl-ī	cantl-ī, cantl-iā	cantl-ī	#	a-stem, regular
 song	dual 	cantl-ī, cantl-ii	cantl-ī, cantl-ii	cantl-ī, cantl-ii	cantl-iōs, cantl-ious	cantl-ābon	cantl-ābin	cantl-ābin	#	
 song	plural	cantl-ās	cantl-ās	cantl-ās	cantl-ānon	cantl-ābo	cantl-ābi	cantl-ābi	#	
@@ -99,6 +99,9 @@ fire	plural	aid-oues	aid-oues	aid-ūs	aid-uion	aid-oubo	aid-oubi	aid-oubi	#
 food	singular 	bet-on	bet-on	bet-on	bet-ii	bet-ū	bet-ū	bet-ē	#	o-stem, neuter
 food	dual 	bet-oi	bet-oi	bet-oi	bet-iōs	bet-obon	bet-obin	bet-ou	#	
 food	plural	bet-ā	bet-ā	bet-ā	bet-ion	bet-obo	bet-obi, bet-ūs	bet-obi	#	
+meal	singular 	bet-on	bet-on	bet-on	bet-ii	bet-ū	bet-ū	bet-ē	#	o-stem, neuter
+meal	dual 	bet-oi	bet-oi	bet-oi	bet-iōs	bet-obon	bet-obin	bet-ou	#	
+meal	plural	bet-ā	bet-ā	bet-ā	bet-ion	bet-obo	bet-obi, bet-ūs	bet-obi	#	
 work	singular 	uerg-on	uerg-on	uerg-on	uerg-ii	uerg-ū	uerg-ū	uerg-ē	#	o-stem, neuter
 work	dual 	uerg-oi	uerg-oi	uerg-oi	uerg-iōs	uerg-obon	uerg-obin	uerg-ou	#	
 work	plural	uerg-ā	uerg-ā	uerg-ā	uerg-ion	uerg-obo	uerg-obi, uerg-ūs	uerg-obi	#	

@@ -2,7 +2,7 @@
 	addressee			👋	#										
 	subject			\actor \argument	#										
 	direct-object			\actor \argument	#										
-	adnominal		possessor	💁\c3\g3 \argument \actor											
+	adnominal		possessor	💁\c3\m \argument \actor											
 	adverbial	departed	possessor	\group{←\possession \r{\argument}}	#	of									
 	adverbial	associated	possessor	\group{\possession \r{\argument}}	#	of									
 	adverbial	approached	possessor	\group{\mirror{←\possession} \r{\argument}}	#	of									

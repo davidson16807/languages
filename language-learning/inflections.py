@@ -540,9 +540,6 @@ nouns_to_depictions = {
 };
 
 LanguageSpecificTextDemonstration = TextDemonstration(
-    mood_population.index(
-        mood_annotation.annotate(
-            tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/mood-templates.tsv'))),
     TermLabelEditing(),
     TermLabelFiltering(),
     ListParsing(), 
@@ -958,8 +955,18 @@ english_language = Language(
 
 english_orthography = Orthography('latin', english_language)
 
-english_demonstration = LanguageSpecificTextDemonstration(
-    card_formatting.native_word, english_orthography)
+def mood_context(mood_templates):
+    def mood_context_(tags, phrase):
+        mood_prephrase = mood_templates[{**tags,'column':'prephrase'}]
+        mood_postphrase = mood_templates[{**tags,'column':'postphrase'}]
+        voice_prephrase = '[middle voice:]' if tags['voice'] == 'middle' else ''
+        return ' '.join([voice_prephrase, mood_prephrase, phrase, mood_postphrase]).replace('∅','')
+    return mood_context_
+
+english_mood_context = mood_context(
+    mood_population.index(
+        mood_annotation.annotate(
+            tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/mood-templates.tsv'))))
 
 emoji_casts = {
     1: [
