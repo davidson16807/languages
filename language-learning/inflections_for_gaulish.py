@@ -178,8 +178,8 @@ subjectivity_motion_traversal = parse.termpath(
     'subjectivity_motion_traversal', 
     'subjectivity motion',
     '''
-    addressee     associated
     subject       associated
+    addressee     associated
     direct-object associated
     adnominal     associated
     adverbial     acquired

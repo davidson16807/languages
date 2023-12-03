@@ -179,12 +179,12 @@ subjectivity_valency_whitelist = parse.termmask(
     intransitive  adverbial
     ''')
 
-subjectivity_motion_whitelist = parse.termmask(
-    'subjectivity_motion_whitelist', 
+subjectivity_motion_traversal = parse.termpath(
+    'subjectivity_motion_traversal', 
     'subjectivity motion',
     '''
-    addressee     associated
     subject       associated
+    addressee     associated
     direct-object associated
     adverbial      acquired
     adverbial      associated
@@ -438,9 +438,7 @@ roles = parse_any.termspace('role', 'role',
     'role: stimulus location possessor interior surface presence aid lack interest time company')
 
 subjectivity_motion_role_traversal = (
-    (((axis['subjectivity']
-     * axis['motion'] )
-     & subjectivity_motion_whitelist)
+    (  subjectivity_motion_traversal
      * roles )
     - subjectivity_role_blacklist
 )
