@@ -33,6 +33,7 @@ from tools.languages import Language
 from tools.orthography import Orthography
 from tools.demonstration import TextDemonstration, EmojiDemonstration
 from tools.cards import CardFormatting
+from tools.nodes import Rule
 
 '''
 Given a mathematical bundle that is encoded as a dictionary,
@@ -831,6 +832,27 @@ class EnglishListSubstitution:
             return [['det','the'], tree]
         else:
             return tree
+    def number(self, machine, tree, memory):
+        '''creates articles when necessary to express definiteness'''
+        definiteness = memory['definiteness'] if 'definiteness' in memory else 'indefinite'
+        subjectivity = memory['subjectivity']
+        number = memory['number']
+        noun = memory['noun']
+        number_lookup = {
+            'dual': 'two',
+            'trial': 'three',
+            'paucal': 'few',
+            'superplural': 'lot of',
+        }
+        if tree[-1] == 'hello':
+            return tree
+        elif number in number_lookup: 
+            if subjectivity=='addressee':
+                return [['det', 'you'], ['adj', number_lookup[number]], tree]
+            else:
+                return [['adj', number_lookup[number]], tree]
+        else:
+            return tree
     def formality_and_gender(self, machine, tree, memory):
         '''creates pronouns procedurally when necessary to capture distinctions in formality from other languages'''
         formality = memory['formality']
@@ -868,6 +890,52 @@ class EnglishListSubstitution:
         return [tree, 
             gender_marker if 'show-gender' in memory and memory['show-gender'] else '', 
             formality_marker] if nounform == 'personal' else tree
+
+
+class EnglishRuleSyntax(RuleSyntax):
+    def __init__(self, sentence_structure, noun_phrase_structure):
+        super().__init__(sentence_structure, noun_phrase_structure)
+    def order_noun_phrase(self, treemap, phrase):
+        rules = [element for element in phrase.content if isinstance(element, Rule)]
+        nonrules = [element for element in phrase.content if not isinstance(element, Rule)]
+        part_to_words = {
+            part: [rule
+                for rule in rules
+                if rule.tag == part]
+            for part in 'stock-adposition det n np clause'.split()
+        }
+        # only one determiner may exist
+        determiner_forms = ['personal-possessive']
+        for form in determiner_forms: 
+            part_to_words['det'] = (
+                [rule
+                    for rule in rules
+                    if rule.tag == 'det' and rule.tags['noun-form']==form]
+                or part_to_words['det']
+            )
+        '''
+        Adjectives must occur in a certain order, starting with quantities.
+        We only represent quantities in this order since quantities are 
+        required to represent grammar numbers that do not exist in english,
+        so they are the only adjectives that must occur with others in our decks.
+        '''
+        quantities = {'one', 'two', 'three', 'few', 'many', 'lot of'}
+        part_to_words['adj'] = []
+        part_to_words['adj'] += [rule
+            for rule in rules
+            if rule.tag == 'adj' and rule.content[-1] in quantities]
+        part_to_words['adj'] += [rule
+            for rule in rules
+            if rule.tag == 'adj' and rule.content[-1] not in quantities]
+        return Rule(phrase.tag, 
+            phrase.tags, 
+            treemap.map([element
+                        for part in self.noun_phrase_structure
+                        for element in part_to_words[part]
+            ]))
+
+
+
 
 list_tools = ListTools()
 rule_tools = RuleTools()
@@ -932,7 +1000,7 @@ english_language = Language(
         ),
         # debug=True,
     ),
-    RuleSyntax(
+    EnglishRuleSyntax(
         parse_any.terms('subject verb direct-object indirect-object adverbial'),
         parse_any.tokens('stock-adposition det adj n np clause')
     ),
@@ -947,7 +1015,8 @@ english_language = Language(
         {'v': english_list_substitution.tense},    # English uses auxillary verbs ("will") to indicate tense
         {'v': english_list_substitution.aspect},   # English uses auxillary verbs ("be", "have") to indicate aspect
         {'v': english_list_substitution.voice},    # English uses auxillary verbs ("be") to indicate voice
-        {'n': english_list_substitution.definiteness},         # English needs annotations to clarify the formalities and genders of other languages
+        {'n': english_list_substitution.definiteness},         # English needs annotations to simplify the definition of articles
+        {'n': english_list_substitution.number},               # English needs annotations to clarify the numbers of other languages
         {'n': english_list_substitution.formality_and_gender}, # English needs annotations to clarify the formalities and genders of other languages
     ],
     # debug=True,
