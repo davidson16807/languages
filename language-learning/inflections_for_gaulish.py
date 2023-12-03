@@ -67,11 +67,11 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/common-noun-declensions.tsv')),
                 *pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-declensions.tsv')),
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-possessives.tsv')),
             ])),
         NestedDictLookup(
             declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-possessives.tsv')),
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/adjective-agreements.tsv')),
             ])),
@@ -520,7 +520,7 @@ write('flashcards/gaulish/pronoun-possessives.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace([['cloze','adj'], ['common', 'n']])}],
+            substitutions = [{'declined': list_tools.replace([['cloze','det'], ['common', 'n']])}],
         ) for demonstration in demonstrations],
         defaults.override(
             (((  axis['number'] 
