@@ -45,16 +45,19 @@
 	adverbial	associated	lack	ablative	sine	∅					
 #	adverbial	acquired	lack	ablative	sine	∅					
 #	adverbial	leveraged	lack	ablative	sine	∅					
-#	adverbial	departed	interest	dative	∅	∅					
+	adverbial	departed	interest	dative	❕	∅					
 	adverbial	associated	interest	dative	∅	∅					
-#	adverbial	acquired	interest	dative	∅	∅					
+	adverbial	acquired	interest	dative	❕	∅					
 	adverbial	leveraged	interest	accusative	per	∅					
 	adverbial	departed	time	ablative	post	∅					
 	adverbial	associated	time	ablative	inter	∅					
 	adverbial	acquired	time	accusative	usque ad	∅					
 	adverbial	leveraged	time	accusative	inter	∅					
-#	adverbial	departed	topic	ablative	∅	∅					
-#	adverbial	associated	topic	ablative	∅	∅					
-#	adverbial	acquired	topic	ablative	∅	∅					
-#	adverbial	leveraged	topic	ablative	∅	∅					
-	adverbial	associated	company	accusative	inter	∅					
+#	adverbial	departed	topic	ablative	❕	∅					
+#	adverbial	associated	topic	ablative	❕	∅					
+#	adverbial	acquired	topic	ablative	❕	∅					
+#	adverbial	leveraged	topic	ablative	❕	∅					
+	adverbial	departed	company	accusative	❕	∅	#	along with			
+	adverbial	associated	company	accusative	inter	∅	#	along with			
+	adverbial	acquired	company	accusative	❕	∅	#	along with			
+	adverbial	leveraged	company	accusative	❕	∅	#	along with			

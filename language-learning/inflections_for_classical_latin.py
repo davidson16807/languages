@@ -103,7 +103,7 @@ foreign_termaxis_to_terms = {
         tense  :  present past future
         voice  :  active passive
         mood   :  indicative subjunctive imperative
-        role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
+        role   :  agent patient stimulus possessor location interior surface presence aid lack interest time company
         subjectivity: subject addressee direct-object indirect-object adverbial adnominal
     '''),
     **parse_any.token_to_tokens('''
@@ -160,6 +160,7 @@ defaults = DictSpace(
     }
 )
 
+# stimuli are typically only subjects or direct-objects
 subjectivity_role_blacklist = parse.termmask(
     'subjectivity_role_blacklist', 
     'subjectivity role',
@@ -198,17 +199,6 @@ subjectivity_person_blacklist = parse.termmask(
     'subjectivity person',
     '''
     addressee  3
-    ''')
-
-role_motion_blacklist = parse.termmask(
-    'role_motion_blacklist', 
-    'role motion',
-    '''
-    acquired      company
-    approached    company
-    departed      company
-    surpassed     company
-    leveraged     company
     ''')
 
 conjugation_subject_traversal = parse.termpath(
@@ -453,7 +443,6 @@ subjectivity_motion_role_traversal = (
      & subjectivity_motion_whitelist)
      * roles )
     - subjectivity_role_blacklist
-    - role_motion_blacklist
 )
 
 valency_subjectivity_motion_role_traversal = (
@@ -641,7 +630,7 @@ write('flashcards/latin/pronoun-possessives.html',
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('personal-possessive'),
+            'test'       : parse.termaxis_to_term('personal-possessive adefinite'),
         },
     ))
 

@@ -91,7 +91,7 @@ foreign_termaxis_to_terms = {
     **termaxis_to_terms,
     **parse_any.termaxis_to_terms('''
         gender :  masculine feminine neuter
-        number :  singular plural # conjugations are not known for the dual
+        number :  singular dual plural
         motion :  approached acquired associated departed leveraged surpassed
         progress: atelic unfinished finished
         tense  :  present past future
@@ -334,26 +334,22 @@ possessor_possession_whitelist = parse.tokenmask(
     woman-possessor  son
     woman-possessor  daughter
     woman-possessor  livestock
-    animal-possessor son
-    animal-possessor daughter
-    animal-possessor name
+    lake-possessor son
+    lake-possessor daughter
+    lake-possessor name
     ''')
 
-possessor_pronoun_traversal = parse.tokenpath(
-    'possessor_pronoun_traversal', 
-    'noun person number gender',
-    '''
-    man    1 singular neuter   
-    woman  2 singular feminine 
-    man    3 singular masculine
-    woman  3 singular feminine 
-    snake  3 singular neuter   
-    man    1 plural   neuter   
-    woman  2 plural   feminine 
-    man    3 plural   masculine
-    woman  3 plural   feminine 
-    man    3 plural   neuter   
-    ''')
+possessor_pronoun_traversal = label_editing.termpath(
+    parse.tokenpath(
+        'possessor_pronoun_traversal', 
+        'noun person number gender',
+        '''
+        man    1 singular neuter   
+        woman  2 singular feminine 
+        man    1 plural   neuter   
+        woman  2 plural   feminine 
+        '''), 
+    'possessor')
 
 #useful for debugging
 def head(store):
@@ -530,7 +526,7 @@ write('flashcards/gaulish/pronoun-possessives.html',
             (((  axis['number'] 
                * possession_traversal 
                * declension_noun_traversal 
-               * label_editing.termpath(possessor_pronoun_traversal, 'possessor'))
+               * possessor_pronoun_traversal)
               & possessor_possession_whitelist)
              * constant['exclusive-possessor']  
              * constant['familiar-possessor']
@@ -539,7 +535,7 @@ write('flashcards/gaulish/pronoun-possessives.html',
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('personal-possessive'),
+            'test'       : parse.termaxis_to_term('personal-possessive adefinite'),
         },
     ))
 
