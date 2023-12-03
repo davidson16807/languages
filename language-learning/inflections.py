@@ -198,19 +198,6 @@ tagaxis_to_tags = {
     # needed for Spanish
     'formality':  'familiar polite elevated formal tuteo voseo'.split(),
 
-    # "animacy" is ordered as follows:
-    # 1st column: represents any of the tags that precede the entry in the middle column of that row
-    # 2nd column: represents its own unique tag that excludes all preceding rows and following entries
-    # 3rd column: represents any of the tags that follow the entry in the middle column of that row
-    # As an example, all "motile" things are "living" but not all "dynamic" things are "living",
-    # all "static" things are "nonliving" but not all static things are "abstract",
-    # and a "plant" is "living", "dynamic", "nonagent", and "nonmotile", among others.
-    'animacy':    [            'human',         'nonhuman',    # member of the species homo sapiens
-                   'rational', 'humanoid',      'nonrational', # having the ability to think and speak
-                   'motile',   'creature',      'nonmotile',   # able to perceptibly move of its own will
-                   'living',   'plant',         'nonliving',   # able to grow and reproduce
-                   'concrete', 'manifestation', 'abstract',    # able to take physical form
-                   'thing'],
     'partitivity':'nonpartitive partitive bipartitive'.split(),
     'clitic':     'tonic prefix suffix proclitic mesoclitic endoclitic enclitic'.split(),
     'distance':   'proximal medial distal'.split(),
@@ -223,7 +210,21 @@ tagaxis_to_tags = {
     'possessor-formality': 'familiar-possessor polite-possessor elevated-possessor formal-possessor tuteo-possessor voseo-possessor'.split(),
 
     # needed for gerunds, supines, participles, and gerundives
-    'gender':     'masculine feminine neuter'.split(),
+    'gender':     'masculine feminine neuter'.split(), # language specific concept where something takes on grammatical forms associated with a gender
+    'animacy':    'animate inanimate'.split(), # language specific concept where something takes on grammatical forms associated with something that moves
+    'humanity':   'human nonhuman'.split(), # member of homo sapiens
+    'anthropomorphism': 'anthropomorphic nonanthropomorphic'.split(), # assumes a humanlike form
+    'emphathizability': 'emphathizable unemphathizable'.split(), # ability to be emphathized with
+    'rationality':'rational nonrational'.split(), #ability to apply structured thought
+    'sapience':   'sapient nonsapient'.split(), #ability to think, regardless of whether it uses structured thought
+    'sentience':  'sapient nonsapient'.split(), #ability to perceive things conciously
+    'motility':   'motile nonmotile'.split(),  # ability to perceptibly move of its own will
+    'mobility':   'mobile nonmobile'.split(),  # ability to be moved
+    'dynamism':   'dynamic nondynamic'.split(),  # ability to move
+    'dominance':  'dominant servile'.split(),  # ability to be commanded
+    'danger':     'dangerous nondangerous'.split(),  # ability to cause harm
+    'vitality':   'living nonliving'.split(),  # ability to grow and reproduce
+    'physicality':'physical abstract'.split(), # ability to take physical form
     'case':       
         '''nominative ergative
            oblique accusative absolutive 

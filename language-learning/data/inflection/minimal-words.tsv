@@ -45,7 +45,6 @@
 		animal			for adjectives of neuter nouns	https://en.wiktionary.org/wiki/animal/translations#Noun					
 		son			for genitive and possessive pronouns of masculine possessions	https://en.wiktionary.org/wiki/son/translations#Noun					
 		daughter			for genitive and possessive pronouns of feminine possessions	https://en.wiktionary.org/wiki/daughter#Translations					
-		livestock	animal		for genitive and possessive pronouns of neuter possessions and nonneuter possessors	https://en.wiktionary.org/wiki/livestock#Translations					
 		name			for genitive and possessive pronouns of neuter possessions and neuter possessors	https://en.wiktionary.org/wiki/name#Translations					
 		sound			for genitives of audibles	https://en.wiktionary.org/wiki/sound#Translations					
 		size			for genitives of visibles	https://en.wiktionary.org/wiki/size#Translations					
@@ -54,7 +53,7 @@
 	VERBS	appear	arrive	come	done by most things as a stimulus	https://en.wiktionary.org/wiki/appear					
 		be			needed for any copulative statement	https://en.wiktionary.org/wiki/be/translations#Verb					
 		change			done by most things as a patient	https://en.wiktionary.org/wiki/change#Translations					
-		climb			can be done by most small creatures (e.g. a bug) to traverse most physical things	https://en.wiktionary.org/wiki/climb					
+		crawl	climb		can be done by most small creatures (e.g. a bug) to traverse most physical things	https://en.wiktionary.org/wiki/climb					
 		cool	chill		"can be done to most patients (unless intrinsically hot, like ice, in which case we use ""warm"")"	https://en.wiktionary.org/wiki/cool#Translations					
 		direct	lead		can be associated with motion relative to concepts and other unreachable things	https://en.wiktionary.org/wiki/direct#Translations					
 		displease	upset	anger	done by most things as a stimulus	https://en.wiktionary.org/wiki/displease#Translations					
@@ -62,6 +61,7 @@
 		endure	suffer	persist	done by most things as a patient	https://en.wiktionary.org/wiki/endure#Translations					
 		fall			done by most physical things as a force	https://en.wiktionary.org/wiki/fall#Translations					
 		fly			can convey motion to/from any aerial thing	https://en.wiktionary.org/wiki/fly#Translations_2					
+		flow			can be done by warmth to pass in and out of objects regardless of whether they have interiors						
 		occupy	inhabit		done by most things as a theme	https://en.wiktionary.org/wiki/occupy					
 		resemble			needed for certain noun cases in certain languages	https://en.wiktionary.org/wiki/resemble#Translations					
 		rest			can be associated to most themes without requiring their ability to move	https://en.wiktionary.org/wiki/rest#Translations_2					

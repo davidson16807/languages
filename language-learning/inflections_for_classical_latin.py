@@ -78,7 +78,7 @@ foreign_language = Language(
                 *possessive_pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/pronoun-possessives.tsv')),
                 *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/adjective-agreement.tsv')),
+                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/adjective-agreements.tsv')),
             ])),
         debug=True,
     ),
@@ -382,7 +382,6 @@ possession_traversal = parse.tokenpath(
     '''
     masculine  son      
     feminine   daughter 
-    neuter     livestock
     neuter     name     
     ''')
 
@@ -392,13 +391,13 @@ possessor_possession_whitelist = parse.tokenmask(
     '''
     man-possessor    son
     man-possessor    daughter
-    man-possessor    livestock
+    man-possessor    name
     woman-possessor  son
     woman-possessor  daughter
-    woman-possessor  livestock
-    animal-possessor son
-    animal-possessor daughter
-    animal-possessor name
+    woman-possessor  name
+    lake-possessor   man
+    lake-possessor   woman
+    lake-possessor   name
     ''')
 
 possessor_pronoun_traversal = parse.tokenpath(
@@ -468,9 +467,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-"""
-
-"""
 
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 

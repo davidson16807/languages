@@ -195,6 +195,7 @@ write('data/inflection/semitic/arabic/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%86#Arabic # indicates that subject is a predicate, not that it is self-same to
 				change    https://en.wiktionary.org/wiki/%D8%AA%D8%BA%D9%8A%D8%B1#Arabic
 				climb     https://en.wiktionary.org/wiki/%D8%AA%D8%B3%D9%84%D9%82#Arabic
+				crawl     
 				cool      https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D8%AF#Arabic
 				direct    https://en.wiktionary.org/wiki/%D9%82%D8%A7%D8%AF#Arabic
 				displease https://en.wiktionary.org/wiki/%D8%A3%D8%B3%D8%AE%D8%B7#Arabic
@@ -202,6 +203,7 @@ write('data/inflection/semitic/arabic/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D9%85%D9%84#Arabic
 				fall      https://en.wiktionary.org/wiki/%D9%88%D9%82%D8%B9#Arabic
 				fly       https://en.wiktionary.org/wiki/%D8%B7%D8%A7%D8%B1#Arabic
+				flow      
 				hear      https://en.wiktionary.org/wiki/%D8%B3%D9%85%D8%B9#Arabic
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/%D8%B4%D8%A8%D9%87#Arabic
@@ -278,6 +280,7 @@ write('data/inflection/basque/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/egon#Basque
 				change    https://en.wiktionary.org/wiki/aldatu#Basque
 				climb     
+				crawl     
 				cool      
 				direct    
 				displease 
@@ -285,6 +288,7 @@ write('data/inflection/basque/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/erori#Basque
 				fly       https://en.wiktionary.org/wiki/hegan_egin#Basque
+				flow      
 				hear      https://en.wiktionary.org/wiki/entzun#Basque
 				occupy    
 				resemble  
@@ -313,6 +317,7 @@ write('data/inflection/indo-european/celtic/cornish/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/bones#Cornish
 				change    
 				climb     
+				crawl     
 				cool      
 				direct    
 				displease 
@@ -320,6 +325,7 @@ write('data/inflection/indo-european/celtic/cornish/scraped-verbs.tsv',
 				endure    
 				fall      
 				fly       
+				flow      
 				hear      
 				occupy    
 				resemble  
@@ -401,6 +407,7 @@ write('data/inflection/egyptian/scraped-verbs.tsv',
 				be-momentarily
 				change    
 				climb     https://en.wiktionary.org/wiki/j%EA%9C%A3q#Egyptian
+				crawl     
 				cool      
 				direct    
 				displease 
@@ -408,6 +415,7 @@ write('data/inflection/egyptian/scraped-verbs.tsv',
 				endure    
 				fall      
 				fly       https://en.wiktionary.org/wiki/p%EA%9C%A3j#Egyptian
+				flow      
 				hear      https://en.wiktionary.org/wiki/s%E1%B8%8Fm#Egyptian
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/twt#Egyptian
@@ -483,6 +491,7 @@ write('data/inflection/uralic/finnish/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/olla#Finnish
 				change    https://en.wiktionary.org/wiki/muuttua#Finnish
 				climb     https://en.wiktionary.org/wiki/kiivet%C3%A4#Finnish
+				crawl     
 				cool      https://en.wiktionary.org/wiki/j%C3%A4%C3%A4hdytt%C3%A4%C3%A4#Finnish
 				direct    https://en.wiktionary.org/wiki/johdattaa#Finnish
 				displease https://en.wiktionary.org/wiki/hermostuttaa#Finnish
@@ -490,6 +499,7 @@ write('data/inflection/uralic/finnish/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/kest%C3%A4%C3%A4#Finnish
 				fall      https://en.wiktionary.org/wiki/kaatua#Finnish
 				fly       https://en.wiktionary.org/wiki/lent%C3%A4%C3%A4#Finnish
+				flow      
 				hear      https://en.wiktionary.org/wiki/kuulla#Finnish
 				occupy    https://en.wiktionary.org/wiki/asuttaa#Finnish
 				resemble  https://en.wiktionary.org/wiki/muistuttaa#Finnish
@@ -517,6 +527,7 @@ write('data/inflection/indo-european/romance/french/modern/scraped-verbs.tsv',
 				be-momentarily 
 				change    https://en.wiktionary.org/wiki/changer#French
 				climb     https://en.wiktionary.org/wiki/escalader#French
+				crawl     
 				cool      https://en.wiktionary.org/wiki/refroidir#French
 				direct    https://en.wiktionary.org/wiki/conduire#French
 				displease https://en.wiktionary.org/wiki/%C3%A9nerver#French #"annoy"
@@ -524,6 +535,7 @@ write('data/inflection/indo-european/romance/french/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/endurer#French
 				fall      https://en.wiktionary.org/wiki/tomber#French
 				fly       https://en.wiktionary.org/wiki/voler#French
+				flow      
 				hear      https://en.wiktionary.org/wiki/entendre#French
 				occupy    https://en.wiktionary.org/wiki/occuper#French
 				resemble  https://en.wiktionary.org/wiki/ressembler#French
@@ -611,6 +623,7 @@ write('data/inflection/indo-european/celtic/gaulish/scraped-verbs.tsv',
 				be-momentarily # essi
 				change    # cambī-t
 				climb     # dreng-et
+				crawl     
 				cool      
 				direct    # reg-et "conduct"
 				displease 
@@ -618,6 +631,7 @@ write('data/inflection/indo-european/celtic/gaulish/scraped-verbs.tsv',
 				endure    # pass-et
 				fall      # cedet
 				fly       # etet
+				flow      
 				hear      
 				occupy    # atrebā-t
 				resemble  
@@ -694,6 +708,7 @@ write('data/inflection/kartvelian/georgian/scraped-verbs.tsv',
 				be-momentarily
 				change    
 				climb     
+				crawl     
 				cool      
 				direct    
 				displease 
@@ -701,6 +716,7 @@ write('data/inflection/kartvelian/georgian/scraped-verbs.tsv',
 				endure    
 				fall      
 				fly       
+				flow      
 				hear      https://en.wiktionary.org/wiki/%E1%83%A1%E1%83%9B%E1%83%94%E1%83%9C%E1%83%90#Georgian
 				occupy    
 				resemble  
@@ -776,6 +792,7 @@ write('data/inflection/indo-european/germanic/german/modern/scraped-verbs.tsv',
 				be-momentarily 
 				change    https://en.wiktionary.org/wiki/%C3%A4ndern#German
 				climb     https://en.wiktionary.org/wiki/klettern#German
+				crawl     
 				cool      https://en.wiktionary.org/wiki/abk%C3%BChlen#German
 				direct    https://en.wiktionary.org/wiki/f%C3%BChren#German
 				displease https://en.wiktionary.org/wiki/%C3%A4rgern#German #"anger"
@@ -783,6 +800,7 @@ write('data/inflection/indo-european/germanic/german/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/ertragen#German
 				fall      https://en.wiktionary.org/wiki/fallen#German
 				fly       https://en.wiktionary.org/wiki/fliegen#German
+				flow      
 				hear      https://en.wiktionary.org/wiki/h%C3%B6ren#German
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/%C3%A4hneln#German
@@ -858,6 +876,7 @@ write('data/inflection/indo-european/germanic/gothic/scraped-verbs.tsv',
 				be-momentarily 
 				change    
 				climb     https://en.wiktionary.org/wiki/%F0%90%8D%83%F0%90%8D%84%F0%90%8C%B4%F0%90%8C%B9%F0%90%8C%B2%F0%90%8C%B0%F0%90%8C%BD#Gothic
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/%F0%90%8D%84%F0%90%8C%B9%F0%90%8C%BF%F0%90%8C%B7%F0%90%8C%B0%F0%90%8C%BD#Gothic # "lead"
 				displease https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8D%82%F0%90%8D%89%F0%90%8C%B1%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic # "upset"
@@ -865,6 +884,7 @@ write('data/inflection/indo-european/germanic/gothic/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%F0%90%8C%B2%F0%90%8C%B0%F0%90%8C%B1%F0%90%8C%B4%F0%90%8C%B9%F0%90%8C%B3%F0%90%8C%B0%F0%90%8C%BD#Gothic
 				fall      https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8D%82%F0%90%8C%B9%F0%90%8C%BF%F0%90%8D%83%F0%90%8C%B0%F0%90%8C%BD#Gothic
 				fly       
+				flow      
 				hear      https://en.wiktionary.org/wiki/%F0%90%8C%B7%F0%90%8C%B0%F0%90%8C%BF%F0%90%8D%83%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic
 				occupy    
 				resemble  
@@ -941,6 +961,7 @@ write('data/inflection/indo-european/greek/modern/scraped-verbs.tsv',
 				be-momentarily 
 				change    https://en.wiktionary.org/wiki/%CE%B1%CE%BB%CE%BB%CE%AC%CE%B6%CF%89#Greek
 				climb     https://en.wiktionary.org/wiki/%CE%B1%CE%BD%CE%B5%CE%B2%CE%B1%CE%AF%CE%BD%CF%89#Greek
+				crawl     
 				cool      
 				direct    
 				displease 
@@ -948,6 +969,7 @@ write('data/inflection/indo-european/greek/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%CE%B1%CE%BD%CF%84%CE%AD%CF%87%CF%89#Greek
 				fall      https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%86%CF%84%CF%89#Greek
 				fly       https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%84%CF%8E#Greek
+				flow      
 				hear      
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/%CE%BC%CE%BF%CE%B9%CE%AC%CE%B6%CF%89#Greek
@@ -1079,6 +1101,7 @@ write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 				be-momentarily
 				change    https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CE%BB%CE%AC%CF%83%CF%83%CF%89#Ancient_Greek
 				climb     
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CF%89#Ancient_Greek
 				displease https://en.wiktionary.org/wiki/%E1%BC%80%CF%80%CE%B1%CF%81%CE%AD%CF%83%CE%BA%CF%89#Ancient_Greek
@@ -1086,6 +1109,7 @@ write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%E1%BD%91%CF%80%CE%BF%CE%BC%CE%AD%CE%BD%CF%89#Ancient_Greek
 				fall      https://en.wiktionary.org/wiki/%CF%80%CE%AF%CF%80%CF%84%CF%89#Ancient_Greek
 				fly       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%84%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
+				flow      
 				hear      
 				occupy    
 				resemble  
@@ -1161,6 +1185,7 @@ write('data/inflection/semitic/hebrew/scraped-verbs.tsv',
 				be-momentarily 
 				change    https://en.wiktionary.org/wiki/%D7%94%D7%A9%D7%AA%D7%A0%D7%94#Hebrew
 				climb     https://en.wiktionary.org/wiki/%D7%98%D7%99%D7%A4%D7%A1#Hebrew
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/%D7%94%D7%95%D7%91%D7%99%D7%9C#Hebrew
 				displease 
@@ -1168,6 +1193,7 @@ write('data/inflection/semitic/hebrew/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/%D7%A0%D7%A4%D7%9C#Hebrew
 				fly       https://en.wiktionary.org/wiki/%D7%98%D7%A1#Hebrew
+				flow      
 				hear      https://en.wiktionary.org/wiki/%D7%A9%D7%9E%D7%A2#Hebrew
 				occupy    
 				resemble  
@@ -1242,6 +1268,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-verbs.tsv',
 				be-momentarily 
 				change    https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%A6%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
 				climb     https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%A2%E0%A4%BC%E0%A4%A8%E0%A4%BE#Hindi
+				crawl     
 				cool      
 				direct    
 				displease 
@@ -1249,6 +1276,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/%E0%A4%97%E0%A4%BF%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
 				fly       https://en.wiktionary.org/wiki/%E0%A4%89%E0%A4%A1%E0%A4%BC%E0%A4%A8%E0%A4%BE#Hindi
+				flow      
                 hear      https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%81%E0%A4%A8%E0%A4%A8%E0%A4%BE#Hindi
 				occupy    
 				resemble  
@@ -1335,6 +1363,7 @@ write('data/inflection/indo-european/hittite/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/%F0%92%82%8A%F0%92%8C%8D%F0%92%8D%A3#Hittite
 				change    
 				climb     
+				crawl     
 				cool      https://en.wiktionary.org/wiki/%F0%92%84%BF%F0%92%82%B5%F0%92%80%80%F0%92%84%91%F0%92%8D%A3#Hittite
 				direct    
 				displease 
@@ -1342,6 +1371,7 @@ write('data/inflection/indo-european/hittite/scraped-verbs.tsv',
 				endure    
 				fall      
 				fly       
+				flow      
 				hear      
 				occupy    
 				resemble  
@@ -1418,6 +1448,7 @@ write('data/inflection/uralic/hungarian/scraped-verbs.tsv',
 				be-momentarily
 				change    https://en.wiktionary.org/wiki/megv%C3%A1ltozik#Hungarian
 				climb     
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/vezet#Hungarian
 				displease 
@@ -1425,6 +1456,7 @@ write('data/inflection/uralic/hungarian/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/kitart#Hungarian
 				fall      https://en.wiktionary.org/wiki/esik#Hungarian
 				fly       https://en.wiktionary.org/wiki/rep%C3%BCl#Hungarian
+				flow      
 				hear      https://en.wiktionary.org/wiki/hall#Hungarian
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/hasonl%C3%ADt#Hungarian
@@ -1501,6 +1533,7 @@ write('data/inflection/indo-european/celtic/irish/modern/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/b%C3%AD#Irish # for adjectives only
 				change    
 				climb     https://en.wiktionary.org/wiki/ardaigh#Irish
+				crawl     
 				cool      https://en.wiktionary.org/wiki/fuaraigh#Irish
 				direct    https://en.wiktionary.org/wiki/deachtaigh#Irish
 				displease 
@@ -1508,6 +1541,7 @@ write('data/inflection/indo-european/celtic/irish/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/iompair#Irish
 				fall      https://en.wiktionary.org/wiki/tit#Irish
 				fly       https://en.wiktionary.org/wiki/eitil#Irish
+				flow      
 				hear      #https://en.wiktionary.org/wiki/airigh#Irish
 				occupy    
 				resemble  
@@ -1536,6 +1570,7 @@ write('data/inflection/indo-european/romance/italian/scraped-verbs.tsv',
 				be-momentarily
 				change    https://en.wiktionary.org/wiki/cambiare#Italian
 				climb     https://en.wiktionary.org/wiki/scalare#Italian
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/guidare#Italian
 				displease https://en.wiktionary.org/wiki/innervosire#Italian
@@ -1543,6 +1578,7 @@ write('data/inflection/indo-european/romance/italian/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/durare#Italian
 				fall      https://en.wiktionary.org/wiki/cadere#Italian
 				fly       https://en.wiktionary.org/wiki/volare#Italian
+				flow      
 				hear      https://en.wiktionary.org/wiki/udire#Italian
 				occupy    https://en.wiktionary.org/wiki/occupare#Italian
 				resemble  https://en.wiktionary.org/wiki/rassomigliare#Italian
@@ -1569,6 +1605,7 @@ write('data/inflection/japanese/modern/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/%E3%81%A0#Japanese
 				change    https://en.wiktionary.org/wiki/%E5%A4%89%E3%82%8F%E3%82%8B#Japanese
 				climb     https://en.wiktionary.org/wiki/%E5%A4%89%E3%81%88%E3%82%8B#Japanese
+				crawl     
 				cool      https://en.wiktionary.org/wiki/%E5%86%B7%E3%82%84%E3%81%99#Japanese
 				direct    https://en.wiktionary.org/wiki/%E5%B0%8E%E3%81%8F#Japanese
 				displease 
@@ -1576,6 +1613,7 @@ write('data/inflection/japanese/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%E8%80%90%E3%81%88%E3%82%8B#Japanese
 				fall      https://en.wiktionary.org/wiki/%E8%90%BD%E3%81%A1%E3%82%8B#Japanese
 				fly       https://en.wiktionary.org/wiki/%E9%A3%9B%E3%81%B6#Japanese
+				flow      
 				hear      https://en.wiktionary.org/wiki/%E8%81%9E%E3%81%8F#Japanese
 				occupy    https://en.wiktionary.org/wiki/%E5%8D%A0%E3%82%81%E3%82%8B#Japanese
 				resemble  https://en.wiktionary.org/wiki/%E4%BC%BC%E3%82%8B#Japanese
@@ -1671,6 +1709,7 @@ write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/sum#Latin
 				change    https://en.wiktionary.org/wiki/cambio#Latin
 				climb     https://en.wiktionary.org/wiki/ascendo#Latin
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/duco#Latin
 				displease https://en.wiktionary.org/wiki/displiceo#Latin
@@ -1678,6 +1717,7 @@ write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/perpetior#Latin
 				fall      https://en.wiktionary.org/wiki/cado#Latin
 				fly       https://en.wiktionary.org/wiki/volo#Latin
+				flow      
 				hear      https://en.wiktionary.org/wiki/audio#Latin
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/similo#Latin
@@ -1763,6 +1803,7 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-verbs.ts
 				be-momentarily 
 				change    
 				climb     
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B8#Old_Church_Slavonic
 				displease 
@@ -1770,6 +1811,7 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-verbs.ts
 				endure    https://en.wiktionary.org/wiki/%D1%82%D1%80%D1%8C%D0%BF%D1%A3%D1%82%D0%B8#Old_Church_Slavonic
 				fall      
 				fly       https://en.wiktionary.org/wiki/%D0%BB%D0%B5%D1%82%D1%A3%D1%82%D0%B8#Old_Church_Slavonic
+				flow      
 				hear      https://en.wiktionary.org/wiki/%D1%81%D0%BB%EA%99%91%D1%88%D0%B0%D1%82%D0%B8#Old_Church_Slavonic
 				occupy    
 				resemble  
@@ -1868,6 +1910,7 @@ write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/beon#Old_English
 				change    https://en.wiktionary.org/wiki/wendan#Old_English
 				climb     https://en.wiktionary.org/wiki/climban#Old_English
+				crawl     
 				cool      https://en.wiktionary.org/wiki/colian#Old_English
 				direct    https://en.wiktionary.org/wiki/lead#Old_English
 				displease https://en.wiktionary.org/wiki/drefan#Old_English
@@ -1875,6 +1918,7 @@ write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/adreogan#Old_English
 				fall      https://en.wiktionary.org/wiki/feallan#Old_English
 				fly       https://en.wiktionary.org/wiki/fleogan#Old_English
+				flow      
 				hear      https://en.wiktionary.org/wiki/gehieran#Old_English
 				occupy    https://en.wiktionary.org/wiki/weardian#Old_English
 				resemble  
@@ -1950,6 +1994,7 @@ write('data/inflection/quechuan/scraped-verbs.tsv',
 				be-momentarily
 				change    
 				climb     https://en.wiktionary.org/wiki/siqay#Quechua
+				crawl     
 				cool      https://en.wiktionary.org/wiki/chiriyachiy#Quechua
 				direct    https://en.wiktionary.org/wiki/rampay#Quechua
 				displease 
@@ -1957,6 +2002,7 @@ write('data/inflection/quechuan/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/urmay#Quechua
 				fly       https://en.wiktionary.org/wiki/phaway#Quechua
+				flow      
 				hear      https://en.wiktionary.org/wiki/uyariy#Quechua
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/rikch%27akuy#Quechua
@@ -2045,6 +2091,7 @@ write('data/inflection/indo-european/slavic/russian/scraped-verbs.tsv',
 				be-momentarily 
 				change    https://en.wiktionary.org/wiki/%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C#Russian
 				climb     https://en.wiktionary.org/wiki/%D0%B2%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D1%82%D1%8C%D1%81%D1%8F#Russian
+				crawl     
 				cool      https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%82%D1%8C#Russian
 				direct    https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C#Russian
 				displease https://en.wiktionary.org/wiki/%D0%BE%D0%B3%D0%BE%D1%80%D1%87%D0%B0%D1%82%D1%8C#Russian
@@ -2052,6 +2099,7 @@ write('data/inflection/indo-european/slavic/russian/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%D1%82%D0%B5%D1%80%D0%BF%D0%B5%D1%82%D1%8C#Russian
 				fall      https://en.wiktionary.org/wiki/%D0%BF%D0%B0%D0%B4%D0%B0%D1%82%D1%8C#Russian
 				fly       https://en.wiktionary.org/wiki/%D0%BB%D0%B5%D1%82%D0%B0%D1%82%D1%8C#Russian
+				flow      
 				hear      https://en.wiktionary.org/wiki/%D1%81%D0%BB%D1%8B%D1%88%D0%B0%D1%82%D1%8C#Russian
 				occupy    https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D1%8C#Russian
 				resemble  https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C#Russian
@@ -2147,6 +2195,7 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-verbs.tsv',
 				be-momentarily
 				change    
 				climb     https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A5%8B%E0%A4%B9%E0%A4%A4%E0%A4%BF#Sanskrit
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%AF%E0%A4%A4%E0%A4%BF#Sanskrit
 				displease 
@@ -2154,6 +2203,7 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%A4%E0%A4%A4%E0%A4%BF#Sanskrit
 				fly       
+				flow      
 				hear      https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%81#Sanskrit
 				occupy    
 				resemble  
@@ -2180,6 +2230,7 @@ write('data/inflection/indo-european/romance/spanish/scraped-verbs.tsv',
 				be-momentarily https://en.wiktionary.org/wiki/estar#Spanish
 				change    https://en.wiktionary.org/wiki/cambiar#Spanish
 				climb     https://en.wiktionary.org/wiki/escalar#Spanish
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/guiar#Spanish
 				displease https://en.wiktionary.org/wiki/desazonar#Spanish
@@ -2187,6 +2238,7 @@ write('data/inflection/indo-european/romance/spanish/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/tolerar#Spanish
 				fall      https://en.wiktionary.org/wiki/caer#Spanish
 				fly       https://en.wiktionary.org/wiki/volar#Spanish
+				flow      
 				hear      https://en.wiktionary.org/wiki/o%C3%ADr#Spanish
 				occupy    https://en.wiktionary.org/wiki/ocupar#Spanish
 				resemble  https://en.wiktionary.org/wiki/semejar#Spanish
@@ -2262,6 +2314,7 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
 				be-momentarily 
 				change    https://en.wiktionary.org/wiki/%C3%A4ndra#Swedish
 				climb     https://en.wiktionary.org/wiki/kl%C3%A4ttra#Swedish
+				crawl     
 				cool      https://en.wiktionary.org/wiki/kyla#Swedish
 				direct    https://en.wiktionary.org/wiki/leda#Swedish
 				displease 
@@ -2269,6 +2322,7 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/utst%C3%A5#Swedish
 				fall      https://en.wiktionary.org/wiki/falla#Swedish
 				fly       https://en.wiktionary.org/wiki/flyga#Swedish
+				flow      
 				hear      https://en.wiktionary.org/wiki/h%C3%B6ra#Swedish
 				occupy    https://en.wiktionary.org/wiki/uppta#Swedish
 				resemble  https://en.wiktionary.org/wiki/likna#Swedish
@@ -2344,6 +2398,7 @@ write('data/inflection/dravidian/tamil/scraped-verbs.tsv',
 				be-momentarily
 				change    https://en.wiktionary.org/wiki/%E0%AE%AE%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81#Tamil
 				climb     https://en.wiktionary.org/wiki/%E0%AE%8F%E0%AE%B1%E0%AF%81#Tamil
+				crawl     
 				cool      
 				direct    
 				displease 
@@ -2351,6 +2406,7 @@ write('data/inflection/dravidian/tamil/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AE%BF%E0%AE%B4%E0%AF%81#Tamil
 				fly       https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%B1#Tamil
+				flow      
 				hear      https://en.wiktionary.org/wiki/%E0%AE%95%E0%AF%87%E0%AE%B3%E0%AF%8D#Tamil
 				occupy    
 				resemble  
@@ -2426,6 +2482,7 @@ write('data/inflection/turkic/turkish/scraped-verbs.tsv',
 				be-momentarily
 				change    https://en.wiktionary.org/wiki/de%C4%9Fi%C5%9Ftirmek#Turkish
 				climb     https://en.wiktionary.org/wiki/t%C4%B1rmanmak#Turkish
+				crawl     
 				cool      https://en.wiktionary.org/wiki/so%C4%9Futmak#Turkish
 				direct    
 				displease 
@@ -2433,6 +2490,7 @@ write('data/inflection/turkic/turkish/scraped-verbs.tsv',
 				endure    
 				fall      https://en.wiktionary.org/wiki/d%C3%BC%C5%9Fmek#Turkish
 				fly       https://en.wiktionary.org/wiki/u%C3%A7mak#Turkish
+				flow      
 				hear      https://en.wiktionary.org/wiki/i%C5%9Fitmek#Turkish
 				occupy    
 				resemble  https://en.wiktionary.org/wiki/benzemek#Turkish
@@ -2508,6 +2566,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-verbs.tsv',
 				be-momentarily 
 				change    https://en.wiktionary.org/wiki/wenden#Middle_English
 				climb     https://en.wiktionary.org/wiki/climben#Middle_English
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/dressen#Middle_English
 				displease 
@@ -2515,6 +2574,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/enduren#Middle_English
 				fall      https://en.wiktionary.org/wiki/fallen#Middle_English
 				fly       https://en.wiktionary.org/wiki/flien#Middle_English
+				flow      
 				hear      https://en.wiktionary.org/wiki/heren#Middle_English
 				occupy    
 				resemble  
@@ -2601,6 +2661,7 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-verbs.ts
 				be-momentarily 
 				change    
 				climb     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/st%C3%A9yg%CA%B0eti
+				crawl     
 				cool      
 				direct    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%A9wkti # "pull, lead"
 				displease 
@@ -2608,6 +2669,7 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-verbs.ts
 				endure    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/t%C3%A9rh%E2%82%82uti # "overcome"
 				fall      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9th%E2%82%82eti
 				fly       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9th%E2%82%82eti
+				flow      
 				hear      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1l%C3%A9wt
 				occupy    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/t%E1%B8%B1%C3%A9yti # "settle, dwell"
 				resemble  
