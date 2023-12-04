@@ -7,4 +7,5 @@ tabular form	rendered as	behavior
 """—"""	N/A	this text represents an inflection that does not exist, any card that includes this character will be omitted
 ❕	N/A	this text represents an inflection that is deliberately omitted for pragmatic reasons, any card that includes this character will be omitted
 ❔	N/A	this text represents an inflection that is unattested, unreliably questionable, or unknown to exist, any card that includes this character will be omitted
-""""""	"""None"""	this text displays when an inflection is unintentionally omitted since it allows us to easily spot when something is unintentionally omitted
+"""…"""	"""…"""	this text represents an inflection that is unknown but must still be rendered to demonstrate other inflections that are known, cards that include this character will only be omitted if the character is enclosed in a clozure
+""""""	"""..."""	this text displays when an inflection is unintentionally omitted since it allows us to easily spot errors in deck specification

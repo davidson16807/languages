@@ -623,7 +623,7 @@ class RegularEnglishGrammar:
         ]
         self.uncountables = set('''
             equipment jeans money rice series sheep 
-            species information food livestock English'''.split())
+            species information livestock English'''.split())
         self.irregular_plurals =[
             ('staff', 'staves'),
             ('tooth', 'teeth'),

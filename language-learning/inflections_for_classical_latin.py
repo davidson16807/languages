@@ -558,7 +558,7 @@ write('flashcards/latin/common-noun-declension.html',
             substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
-            (((declension_noun_traversal * axis['noun'])
+            (((declension_noun_traversal * axis['number'] * axis['noun'])
                 & noun_template_whitelist)
                 * axis['gender'])
                 & gender_noun_whitelist

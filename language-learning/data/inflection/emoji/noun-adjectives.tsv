@@ -8,19 +8,19 @@ young	animal	\nx{🐱}	#	proto-indo-european
 good	man	\nx{🦸\cx\gx}	#	hittite, russian	
 good	woman	\nx{🦸\cx\gx}	#	hittite, russian	
 good	animal	\nx{🐕‍🦺}	#	hittite, russian	
-good	meal	\nx{🥗}	#	gaulish	
+good	food	\nx{🥗}	#	gaulish	
 bad	man	\nx{🦹\cx\gx}	#	hittite	
 bad	woman	\nx{🦹\cx\gx}	#	hittite	
 bad	animal	\nx{😾}	#	hittite	
-bad	meal	\nx{🍩}	#	gaulish	
+bad	food	\nx{🍩}	#	gaulish	
 big	man	\large{\nx{🧍\cx\gx}}	#	russian	
 big	woman	\large{\nx{🧍\cx\gx}}	#	russian	
 big	animal	\large{\nx{🦣}}	#	russian	
-big	meal	\large{\nx{🍲}}	#	gaulish	
+big	food	\large{\nx{🍲}}	#	gaulish	
 small	man	\small{\nx{🧍\cx\gx}}	#	hittite	
 small	woman	\small{\nx{🧍\cx\gx}}	#	hittite	
 small	animal	\nx{🐁}	#	hittite	
-small	meal	\small{\nx{🍲}}	#	gaulish	
+small	food	\small{\nx{🍲}}	#	gaulish	
 tall	man	\large{\nx{🧍\cx\gx}}	#	latin, old-english, russian	
 tall	woman	\large{\nx{🧍\cx\gx}}	#	latin, old-english, russian	
 tall	animal	\large{\nx{🦒}}	#	latin, old-english, russian	
@@ -87,7 +87,7 @@ pink	animal	\nx{🦩}	#
 black	man	\nx{🧑\gx\5}	#	old english	
 black	woman	\nx{🧑\gx\5}	#	old english	
 black	animal	\nx{🐈‍⬛}	#	old english	
-black	meal	\nx{🍫}	#		
+black	food	\nx{🍫}	#		
 fancy	man	\nx{🤵\cx\gx}	#		
 fancy	woman	\nx{🤵\cx\gx}	#		
 fancy	animal	\nx{🐩}	#		
@@ -99,4 +99,4 @@ strong	woman	\nx{🏋️\cx\gx}	#	declension templates
 strong	animal	\nx{🐂}	#	declension templates	
 doomed	man	\group{\nx{🧑\gx\cx}\hi{🌋}}	#		
 doomed	woman	\group{\nx{🧑\gx\cx}\hi{🌋}}	#		
-doomed	meal	\group{\nx{🍲}\hi{🌋}}	#		
+doomed	food	\group{\nx{🍲}\hi{🌋}}	#		

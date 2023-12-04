@@ -244,7 +244,16 @@ class RuleFormatting:
                 tokens.append(')')
             if was_brackets and not brackets(rule):
                 tokens.append(']')
-            return f'<span title="{format_notes(rule.tags)}">{" ".join(tokens)}</span>'
+            body = " ".join(tokens)
+            '''
+            Do not render the card if a user would be tested to identify
+            the contents a clozure whose translation is unknown,
+            return '❕' to signal that the card should not be rendered
+            '''
+            if ('…' in body) and clozure(rule):
+                return '❕'
+            else:
+                return f'<span title="{format_notes(rule.tags)}">{body}</span>'
         result ={
             str:        lambda text: text,
             Rule:       lambda rule: format_rule(rule),

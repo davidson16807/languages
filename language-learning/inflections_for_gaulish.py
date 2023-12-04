@@ -245,7 +245,7 @@ gender_agreement_traversal = parse.tokenpath(
     '''
     masculine  man   
     feminine   woman 
-    neuter     meal
+    neuter     food
     ''')
 
 gender_noun_whitelist = parse.tokenmask(
@@ -267,7 +267,7 @@ gender_noun_whitelist = parse.tokenmask(
     #enemy     
     fire      masculine
     fire      feminine
-    meal      neuter
+    food      neuter
     gift      masculine
     gift      feminine
     glass     masculine
@@ -390,7 +390,7 @@ declension_noun_traversal = (
         (demonstration_verbs
         * axis['template']
         * constant['active']
-        * valency_subjectivity_motion_role_traversal) 
+        * valency_subjectivity_motion_role_traversal)
         & template_verb_whitelist)
 )
 
@@ -465,7 +465,7 @@ write('flashcards/gaulish/common-noun-declension.html',
             substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
-            (((declension_noun_traversal * axis['noun'])
+            (((declension_noun_traversal * axis['number'] * axis['noun'])
                 & noun_template_whitelist)
                 * axis['gender'])
                 & gender_noun_whitelist
