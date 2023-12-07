@@ -237,7 +237,7 @@ class RuleFormatting:
                         tokens.append(']')
                         was_brackets = False
                 text = treemap.map(subrule)
-                tokens.append('...' if text is None else str(text) )
+                tokens.append('[MISSING]' if text is None else str(text) )
             if was_clozed and not clozure(rule):
                 tokens.append('}}')
             if was_parens and not parenthesis(rule):
@@ -257,7 +257,7 @@ class RuleFormatting:
         result ={
             str:        lambda text: text,
             Rule:       lambda rule: format_rule(rule),
-            type(None): lambda none: f'...',
+            type(None): lambda none: f'[MISSING]',
         }[type(element)](element)
         result = self.affix_regex.sub(self.affix_delimiter, result)
         result = self.space_regex.sub(' ', result)

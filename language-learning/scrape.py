@@ -1918,7 +1918,7 @@ write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/adreogan#Old_English
 				fall      https://en.wiktionary.org/wiki/feallan#Old_English
 				fly       https://en.wiktionary.org/wiki/fleogan#Old_English
-				flow      
+				flow      https://en.wiktionary.org/wiki/flowan#Old_English
 				hear      https://en.wiktionary.org/wiki/gehieran#Old_English
 				occupy    https://en.wiktionary.org/wiki/weardian#Old_English
 				resemble  
@@ -2574,7 +2574,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/enduren#Middle_English
 				fall      https://en.wiktionary.org/wiki/fallen#Middle_English
 				fly       https://en.wiktionary.org/wiki/flien#Middle_English
-				flow      
+				flow      https://en.wiktionary.org/wiki/flowen#Middle_English
 				hear      https://en.wiktionary.org/wiki/heren#Middle_English
 				occupy    
 				resemble  
