@@ -30,7 +30,7 @@ class TokenParsing:
     `TokenParsing` leverages the above guarantee to simplify deck construction and guarantee validity.
     '''
     def __init__(self):
-        pass
+        self.comment_regex = re.compile(r'#[^\n]*?\n')
     def tokens(self, string):
         return [token.strip() for token in string.split()]
     def tokenpoints(self, string):
@@ -47,12 +47,10 @@ class TokenParsing:
             for (key,tokens) in self.token_to_tokens(string).items()
         }
     def token_to_tokens(self, string):
-        commentbreak = '#'
-        tokenbreak = '\n' if '\n' in string else ','
         def itemtoken(item):
             tokens = [token.strip() for token in item.split()]
             return [token for token in tokens if token]
-        uncommented = re.sub('#[^\n]*?\n','\n',string)
+        uncommented = re.sub(self.comment_regex,'\n',string)
         itemtokens = [itemtoken(row) for row in uncommented.split(':')]
         print(itemtokens)
         token_to_text = [[last[-1], current[:-1] if i < len(itemtokens)-2 else current]
@@ -92,6 +90,7 @@ class TermParsing(TokenParsing):
     An error is generated if tokens do not match any known term name from `term_to_termaxis`.
     '''
     def __init__(self, term_to_termaxis):
+        super().__init__()
         self._term_to_termaxis = term_to_termaxis
         self._terms = set(term_to_termaxis.keys())
         self._termaxes = set(term_to_termaxis.values())
