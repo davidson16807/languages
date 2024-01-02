@@ -34,23 +34,31 @@ class TokenParsing:
     def tokens(self, string):
         return [token.strip() for token in string.split()]
     def tokenpoints(self, string):
-        delimeter = '\n' if '\n' in string else ','
+        tokenbreak = '\n' if '\n' in string else ','
         rows = [row.split('#')[0]
-            for row in string.split(delimeter)]
+            for row in string.split(tokenbreak)]
         tokenpoints = [tuple(self.tokens(row))
             for row in rows
             if row.strip()]
         return tokenpoints
     def token_to_text(self, string):
-        delimeter = '\n' if '\n' in string else ','
-        rows = [row.split('#')[0]
-            for row in string.split(delimeter)]
-        split = [item.split(':')
-            for item in rows
-            if item.strip()]
-        stripped = [[cell.strip() for cell in row]
-            for row in split]
-        keys = sorted([item[0] for item in stripped])
+        return {
+            key: ' '.join(tokens)
+            for (key,tokens) in self.token_to_tokens(string).items()
+        }
+    def token_to_tokens(self, string):
+        commentbreak = '#'
+        tokenbreak = '\n' if '\n' in string else ','
+        def itemtoken(item):
+            tokens = [token.strip() for token in item.split()]
+            return [token for token in tokens if token]
+        uncommented = re.sub('#[^\n]*?\n','\n',string)
+        itemtokens = [itemtoken(row) for row in uncommented.split(':')]
+        print(itemtokens)
+        token_to_text = [[last[-1], current[:-1] if i < len(itemtokens)-2 else current]
+            for i, (last,current) in enumerate(zip(itemtokens[:-1],itemtokens[1:]))]
+        print(token_to_text)
+        keys = sorted([item[0] for item in token_to_text])
         dupes = list(set(keys[::2]) & set(keys[1::2]))
         assert not dupes, (
                     '\n'.join([
@@ -60,11 +68,8 @@ class TokenParsing:
                         *[str(dupe) for dupe in dupes]
                     ]))
         result = {item[0] : item[1]
-            for item in stripped}
+            for item in token_to_text}
         return result
-    def token_to_tokens(self, string):
-        return {key: self.tokens(values)
-            for (key, values) in self.token_to_text(string).items()}
     def tokenindexing(self, header):
         return DictTupleIndexing(self.tokens(header))
     def tokenpath(self, name, header, body):

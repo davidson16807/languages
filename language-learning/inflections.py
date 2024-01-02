@@ -1105,7 +1105,7 @@ tag_defaults = parse_any.termaxis_to_term('''
     polarity:     positive
     mood:         indicative
 
-    tense:        present 
+    tense:        present
     voice:        active
     completion:   bare
 
