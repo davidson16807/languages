@@ -1,62 +1,62 @@
-*	*	*	*	case	preposition	postposition					
-#	subjectivity	motion	role								
-	subject			nominative	∅	∅					
-	addressee			vocative	∅	∅					
-	direct-object			accusative	∅	∅					
-	indirect-object			dative	∅	∅					
-	adnominal			genitive	∅	∅					
-	adverbial	departed	agent	ablative	ab	∅					
-	adverbial	associated	agent	ablative	ab	∅					
-	adverbial	acquired	agent	ablative	ab	∅					
-	adverbial	leveraged	agent	ablative	ab	∅					
-	adverbial	departed	force	ablative	ab	∅					
-	adverbial	associated	force	ablative	ab	∅					
-	adverbial	acquired	force	ablative	ab	∅					
-	adverbial	leveraged	force	ablative	ab	∅					
-	adverbial	departed	location	ablative	ab	∅					
-	adverbial	associated	location	accusative	apud	∅					
-	adverbial	acquired	location	accusative	ad	∅					
-	adverbial	leveraged	location	accusative	per	∅					
-#	adverbial	departed	extent	ablative	ab	∅					
-#	adverbial	associated	extent	accusative	apud	∅					
-#	adverbial	acquired	extent	accusative	ad	∅					
-#	adverbial	leveraged	extent	accusative	per	∅					
-#	adverbial	departed	vicinity	ablative	ab	∅					
-#	adverbial	associated	vicinity	accusative	apud	∅					
-#	adverbial	acquired	vicinity	accusative	ad	∅					
-#	adverbial	leveraged	vicinity	accusative	per	∅					
-	adverbial	departed	interior	ablative	ex	∅					
-	adverbial	associated	interior	accusative	intrā	∅					
-	adverbial	acquired	interior	ablative	in	∅					
-	adverbial	leveraged	interior	accusative	per	∅					
-	adverbial	departed	surface	ablative	super	∅					
-	adverbial	associated	surface	accusative	super	∅					
-	adverbial	acquired	surface	ablative	super	∅					
-	adverbial	leveraged	surface	accusative	trans	∅					
-#	adverbial	departed	presence	ablative	coram	∅					
-	adverbial	associated	presence	ablative	coram	∅					
-#	adverbial	acquired	presence	accusative	coram	∅					
-	adverbial	leveraged	presence	accusative	propter	∅					
-#	adverbial	departed	aid	ablative	cum	∅					
-	adverbial	associated	aid	ablative	cum	∅					
-#	adverbial	acquired	aid	ablative	cum	∅					
-#	adverbial	leveraged	aid	ablative	cum	∅					
-#	adverbial	departed	lack	ablative	sine	∅					
-	adverbial	associated	lack	ablative	sine	∅					
-#	adverbial	acquired	lack	ablative	sine	∅					
-#	adverbial	leveraged	lack	ablative	sine	∅					
-	adverbial	departed	interest	dative	❕	∅					
-	adverbial	associated	interest	dative	∅	∅					
-	adverbial	acquired	interest	dative	❕	∅					
-	adverbial	leveraged	interest	accusative	per	∅					
-	adverbial	departed	time	ablative	post	∅					
-	adverbial	associated	time	ablative	inter	∅					
-	adverbial	acquired	time	accusative	usque ad	∅					
-	adverbial	leveraged	time	accusative	inter	∅					
-#	adverbial	departed	topic	ablative	❕	∅					
-#	adverbial	associated	topic	ablative	❕	∅					
-#	adverbial	acquired	topic	ablative	❕	∅					
-#	adverbial	leveraged	topic	ablative	❕	∅					
+*	*	*	*	case	preposition	postposition	#				
+#	subjectivity	motion	role				#	latin			
+	subject			nominative	∅	∅	#				
+	addressee			vocative	∅	∅	#				
+	direct-object			accusative	∅	∅	#				
+	indirect-object			dative	∅	∅	#				
+	adnominal			genitive	∅	∅	#				
+	adverbial	departed	agent	ablative	ab	∅	#				
+	adverbial	associated	agent	ablative	ab	∅	#				
+	adverbial	acquired	agent	ablative	ab	∅	#				
+	adverbial	leveraged	agent	ablative	ab	∅	#				
+	adverbial	departed	force	ablative	ab	∅	#				
+	adverbial	associated	force	ablative	ab	∅	#				
+	adverbial	acquired	force	ablative	ab	∅	#				
+	adverbial	leveraged	force	ablative	ab	∅	#				
+	adverbial	departed	location	ablative	ab	∅	#				
+	adverbial	associated	location	accusative	apud	∅	#				
+	adverbial	acquired	location	accusative	ad	∅	#				
+	adverbial	leveraged	location	accusative	per	∅	#				
+#	adverbial	departed	extent	ablative	ab	∅	#				
+#	adverbial	associated	extent	accusative	apud	∅	#				
+#	adverbial	acquired	extent	accusative	ad	∅	#				
+#	adverbial	leveraged	extent	accusative	per	∅	#				
+#	adverbial	departed	vicinity	ablative	ab	∅	#				
+#	adverbial	associated	vicinity	accusative	apud	∅	#				
+#	adverbial	acquired	vicinity	accusative	ad	∅	#				
+#	adverbial	leveraged	vicinity	accusative	per	∅	#				
+	adverbial	departed	interior	ablative	ex	∅	#				
+	adverbial	associated	interior	accusative	intrā	∅	#				
+	adverbial	acquired	interior	ablative	in	∅	#				
+	adverbial	leveraged	interior	accusative	per	∅	#				
+	adverbial	departed	surface	ablative	super	∅	#				
+	adverbial	associated	surface	accusative	super	∅	#				
+	adverbial	acquired	surface	ablative	super	∅	#				
+	adverbial	leveraged	surface	accusative	trans	∅	#				
+#	adverbial	departed	presence	ablative	coram	∅	#				
+	adverbial	associated	presence	ablative	coram	∅	#				
+#	adverbial	acquired	presence	accusative	coram	∅	#				
+	adverbial	leveraged	presence	accusative	propter	∅	#				
+#	adverbial	departed	aid	ablative	cum	∅	#				
+	adverbial	associated	aid	ablative	cum	∅	#				
+#	adverbial	acquired	aid	ablative	cum	∅	#				
+#	adverbial	leveraged	aid	ablative	cum	∅	#				
+#	adverbial	departed	lack	ablative	sine	∅	#				
+	adverbial	associated	lack	ablative	sine	∅	#				
+#	adverbial	acquired	lack	ablative	sine	∅	#				
+#	adverbial	leveraged	lack	ablative	sine	∅	#				
+	adverbial	departed	interest	dative	❕	∅	#				
+	adverbial	associated	interest	dative	∅	∅	#				
+	adverbial	acquired	interest	dative	❕	∅	#				
+	adverbial	leveraged	interest	accusative	per	∅	#				
+	adverbial	departed	time	ablative	post	∅	#				
+	adverbial	associated	time	ablative	inter	∅	#				
+	adverbial	acquired	time	accusative	usque ad	∅	#				
+	adverbial	leveraged	time	accusative	inter	∅	#				
+#	adverbial	departed	topic	ablative	❕	∅	#				
+#	adverbial	associated	topic	ablative	❕	∅	#				
+#	adverbial	acquired	topic	ablative	❕	∅	#				
+#	adverbial	leveraged	topic	ablative	❕	∅	#				
 	adverbial	departed	company	accusative	❕	∅	#	along with			
 	adverbial	associated	company	accusative	inter	∅	#	along with			
 	adverbial	acquired	company	accusative	❕	∅	#	along with			

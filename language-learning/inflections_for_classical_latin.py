@@ -378,8 +378,9 @@ possession_traversal = parse.tokenpath(
     'possession_traversal', 
     'gender noun',
     '''
-    masculine  son      
-    feminine   daughter 
+    masculine  brother      
+    feminine   sister 
+    neuter     gift     
     neuter     name     
     ''')
 
@@ -387,15 +388,15 @@ possessor_possession_whitelist = parse.tokenmask(
     'possessor_possession_whitelist', 
     'possessor-noun noun',
     '''
-    man-possessor    son
-    man-possessor    daughter
-    man-possessor    name
-    woman-possessor  son
-    woman-possessor  daughter
-    woman-possessor  name
-    lake-possessor   man
-    lake-possessor   woman
-    lake-possessor   name
+    man-possessor    brother
+    man-possessor    sister
+    man-possessor    gift
+    woman-possessor  brother
+    woman-possessor  sister
+    woman-possessor  gift
+    animal-possessor brother
+    animal-possessor sister
+    animal-possessor name
     ''')
 
 possessor_pronoun_traversal = parse.tokenpath(
