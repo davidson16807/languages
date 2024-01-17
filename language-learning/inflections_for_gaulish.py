@@ -51,7 +51,7 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
         NestedDictLookup(
@@ -328,15 +328,15 @@ possessor_possession_whitelist = parse.tokenmask(
     'possessor_possession_whitelist', 
     'possessor-noun noun',
     '''
-    man-possessor    son
-    man-possessor    daughter
+    man-possessor    brother
+    man-possessor    sister
     man-possessor    livestock
-    woman-possessor  son
-    woman-possessor  daughter
+    woman-possessor  brother
+    woman-possessor  sister
     woman-possessor  livestock
-    lake-possessor son
-    lake-possessor daughter
-    lake-possessor name
+    lake-possessor   man
+    lake-possessor   woman
+    lake-possessor   name
     ''')
 
 possessor_pronoun_traversal = label_editing.termpath(
@@ -344,10 +344,12 @@ possessor_pronoun_traversal = label_editing.termpath(
         'possessor_pronoun_traversal', 
         'noun person number gender',
         '''
-        man    1 singular neuter   
+        man    1 singular masculine   
         woman  2 singular feminine 
-        man    1 plural   neuter   
+        lake   1 singular neuter   
+        man    1 plural   masculine   
         woman  2 plural   feminine 
+        lake   1 plural   neuter   
         '''), 
     'possessor')
 

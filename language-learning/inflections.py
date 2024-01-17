@@ -171,7 +171,7 @@ tagaxis_to_tags = {
 
     'script': 
         # scripts that were derived from the phoenecian alphabet:
-        'latin cyrillic greek hebrew arabic phoenician ipa transliteration '
+        'latin  cyrillic gothic greek hebrew arabic phoenician ipa transliteration '
         # scripts that were derived, borrowing aesthetics from chinese logograms:
         'hirigana katakana hangul '
         # scripts that were derived from chinese logograms:
@@ -965,7 +965,7 @@ english_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
         # debug=True,
     ),
     ListGrammar(

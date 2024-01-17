@@ -51,7 +51,7 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/greek/attic/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/greek/attic/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
         NestedDictLookup(
@@ -92,7 +92,7 @@ foreign_termaxis_to_terms = {
     **parse_any.termaxis_to_terms('''
         gender :  masculine feminine neuter
         number :  singular dual plural
-        motion :  approached acquired associated departed leveraged surpassed #redo
+        motion :  approached acquired associated departed leveraged surpassed
         progress: atelic started finished
         tense  :  present past future
         voice  :  active middle passive
@@ -110,34 +110,22 @@ foreign_termaxis_to_terms = {
          orator father man Demeter Socrates Pericles arrow
          foundation shame Ares woman Thales Oedipus fire
          Apollo knee wood Zeus liver dog ship ear water hand
-        adjective: bad good big doomed
+        #adjective: bad good big doomed
     '''),
 }
-
-genders = 'masculine feminine neuter'.split()
-numbers = 'singular dual plural'.split()
-verbs = 'be go release'.split()
-roles = 'solitary audience patient location possessor interior surface presence aid lack interest time company'.split()
-motions = 'associated departed acquired leveraged'.split()
-nouns = '''young-man soldier polity village person street gift 
-         circumnavigation bone hero fish oak city axe town 
-         master cow old-woman echo Clio crow vulture rug
-         giant tooth old-man property Greek winter Titan
-         light-ray shepherd guide neighbor tipstaff ichor chaff
-         orator father man Demeter Socrates Pericles arrow
-         foundation shame Ares woman Thales Oedipus fire
-         Apollo knee wood Zeus liver dog ship ear water hand'''.split()
-progress = 'atelic started finished'.split()
-moods = 'indicative subjunctive imperative optative'.split()
-tenses = 'present past future'.split()
-voices = 'active middle passive'.split()
-
 
 foreign_term_to_termaxis = dict_bundle_to_map(foreign_termaxis_to_terms)
 
 parse = TermParsing(foreign_term_to_termaxis)
 
 foreign_demonstration = LanguageSpecificTextDemonstration(
+    Orthography('greek', foreign_language),
+    lambda tags, text: text,
+    card_formatting.foreign_focus,
+    [('∅',''), ('-','')]
+)
+
+transliterated = LanguageSpecificTextDemonstration(
     Orthography('latin', foreign_language),
     lambda tags, text: text,
     card_formatting.foreign_focus,
@@ -215,15 +203,6 @@ subjectivity_motion_traversal = parse.termpath(
 #    adverbial     leveraged
     ''')
 
-# vocatives for pronouns are not known
-subjectivity_nounform_blacklist = parse.termmask(
-    'subjectivity_nounform_blacklist', 
-    'subjectivity noun-form',
-    '''
-    addressee  personal
-    addressee  demonstrative
-    ''')
-
 conjugation_subject_traversal = parse.termpath(
     'conjugation_subject_traversal', 
     'person number gender',
@@ -255,9 +234,9 @@ pronoun_traversal = parse.tokenpath(
     man    3 singular masculine
     woman  3 singular feminine 
     snake  3 singular neuter   
-    # man    3 dual     masculine # conjugations are not known for the dual
-    # woman  3 dual     feminine  # conjugations are not known for the dual
-    # man    3 dual     neuter    # conjugations are not known for the dual
+    man    3 dual     masculine 
+    woman  3 dual     feminine  
+    man    3 dual     neuter    
     man    1 plural   neuter   
     woman  2 plural   feminine 
     man    3 plural   masculine
@@ -271,73 +250,118 @@ gender_agreement_traversal = parse.tokenpath(
     '''
     masculine  man   
     feminine   woman 
-    neuter     food
+    neuter     animal
     ''')
 
 gender_noun_whitelist = parse.tokenmask(
     'gender_noun_whitelist', 
     'noun gender',
     '''
-    animal    masculine
-    #attention 
-    bird      masculine
-    #boat      
-    book      masculine
-    bug       masculine
-    clothing  feminine
-    daughter  feminine
-    dog       masculine
-    dog       feminine
-    door      neuter
-    drum      masculine
-    #enemy     
-    fire      masculine
-    fire      feminine
-    food      neuter
-    gift      masculine
-    gift      feminine
-    glass     masculine
-    guard     masculine
-    horse     masculine
-    house     feminine
-    livestock masculine
-    love      feminine
-    idea      masculine
-    idea      feminine
-    man       masculine
-    money     neuter
-    monster   masculine
-    monster   feminine
-    name      neuter
-    rock      feminine
-    rope      feminine
-    size      neuter
-    son       masculine
-    sound     masculine
-    sound     feminine
-    thought   masculine
-    thought   feminine
-    warmth    masculine
-    warmth    feminine
-    water     neuter
-    way       neuter
-    wind      masculine
-    window    masculine
-    woman     feminine
-    work      neuter
+    animal     neuter
+    attention  feminine
+    bird       masculine
+    bird       feminine
+    boat       feminine
+    book       neuter
+    bug        neuter
+    dog        masculine
+    dog        feminine
+    door       feminine
+    clothing   feminine
+    daughter   feminine
+    drum       neuter
+    enemy      masculine
+    fire       neuter
+    food       neuter
+    gift       neuter
+    glass      feminine
+    guard      masculine
+    horse      masculine
+    horse      feminine
+    house      masculine
+    livestock  neuter
+    love       feminine
+    idea       feminine
+    man        masculine
+    money      neuter
+    monster    neuter
+    name       neuter
+    name       feminine
+    rock       masculine
+    rock       feminine
+    rock       neuter
+    rope       feminine
+    size       neuter
+    son        masculine
+    sound      masculine
+    warmth     feminine
+    water      neuter
+    way        feminine
+    wind       masculine
+    window     feminine
+    woman      feminine
+    work       neuter
 
-    boy       masculine
-    tree      neuter
-    deer      masculine
-    deer      feminine
-    victory   neuter
-    lake      neuter
-    sky       masculine
-    friend    masculine
-    friend    feminine
-    tooth     neuter
-    king      masculine
-    mother    feminine
+    young-man  neuter
+    soldier    masculine
+    polity     masculine
+    village    feminine
+    village    neuter
+    person     feminine
+    street     masculine
+    street     feminine
+    hero       neuter
+    fish       masculine
+    oak        masculine
+    city       feminine
+    axe        feminine
+    town       masculine
+    town       neuter
+    master     neuter
+    old-woman  masculine
+    cow        feminine
+    echo       masculine
+    echo       feminine
+    Clio       feminine
+    Clio       masculine
+    crow       feminine
+    vulture    masculine
+    rug        masculine
+    giant      masculine
+    tooth      masculine
+    old-man    masculine
+    property   masculine
+    Greek      neuter
+    winter     masculine
+    Titan      masculine
+    light-ray  masculine
+    shepherd   feminine
+    guide      masculine
+    neighbor   masculine
+    ichor      masculine
+    ichor      feminine
+    chaff      masculine
+    orator     masculine
+    father     masculine
+    Demeter    masculine
+    Socrates   feminine
+    Socrates   masculine
+    Socrates   neuter
+    Pericles   masculine
+    arrow      masculine
+    shame      neuter
+    Ares       feminine
+    Thales     masculine
+    Oedipus    masculine
+    Apollo     masculine
+    knee       masculine
+    wood       neuter
+    Zeus       neuter
+    Zeus       feminine
+    liver      masculine
+    ship       neuter
+    ear        feminine
+    hand       neuter
     '''
 )
 
@@ -345,24 +369,24 @@ possession_traversal = parse.tokenpath(
     'possession_traversal', 
     'gender noun',
     '''
-    masculine  son      
-    feminine   daughter 
-    neuter     name     
+    masculine  brother      
+    feminine   sister 
+    neuter     gift
     ''')
 
 possessor_possession_whitelist = parse.tokenmask(
     'possessor_possession_whitelist', 
     'possessor-noun noun',
     '''
-    man-possessor    son
-    man-possessor    daughter
-    man-possessor    livestock
-    woman-possessor  son
-    woman-possessor  daughter
-    woman-possessor  livestock
-    lake-possessor son
-    lake-possessor daughter
-    lake-possessor name
+    man-possessor     brother
+    man-possessor     sister
+    man-possessor     gift
+    woman-possessor   brother
+    woman-possessor   sister
+    woman-possessor   gift
+    animal-possessor  brother
+    animal-possessor  sister
+    animal-possessor  gift
     ''')
 
 possessor_pronoun_traversal = label_editing.termpath(
@@ -372,8 +396,14 @@ possessor_pronoun_traversal = label_editing.termpath(
         '''
         man    1 singular neuter   
         woman  2 singular feminine 
+        man    3 singular masculine
+        woman  3 singular feminine 
+        snake  3 singular neuter   
         man    1 plural   neuter   
         woman  2 plural   feminine 
+        man    3 plural   masculine
+        woman  3 plural   feminine 
+        man    3 plural   neuter   
         '''), 
     'possessor')
 
@@ -410,7 +440,6 @@ demonstration_verbs = parse_any.tokenspace('demonstration-verbs', 'verb',
     'verb: ∅ swim fly rest walk crawl flow direct work resemble eat endure warm ' +
         ' cool fall change occupy show see watch startle displease appear be')
 
-
 declension_noun_traversal = (
     template_dummy_lookup(
         (demonstration_verbs
@@ -419,7 +448,6 @@ declension_noun_traversal = (
         * valency_subjectivity_motion_role_traversal)
         & template_verb_whitelist)
 )
-
 
 print('flashcards/greek/attic/finite-conjugation.html')
 write('flashcards/greek/attic/finite-conjugation.html', 
@@ -513,7 +541,6 @@ write('flashcards/greek/attic/pronoun-declension.html',
         defaults.override(
             ((pronoun_traversal * declension_noun_traversal * constant['personal'])
             & noun_template_whitelist)
-            - subjectivity_nounform_blacklist
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),

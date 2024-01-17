@@ -1,0 +1,65 @@
+*	*	*	*	nominative 	accusative 	genitive 	dative 	instrumental 	#						
+good	strong	singular	masculine 	gōd 	gōdne 	gōdes 	gōdum 	gōde 	#	consonant stem					
+good	strong	singular	feminine 	gōd 	gōde 	gōdre 	gōdre 	gōdre 	#	consonant stem					
+good	strong	singular	neuter	gōd	gōd	gōdes	gōdum	gōde	#	consonant stem					
+good	strong	plural	masculine 	gōde 	gōde 	gōdra 	gōdum 	gōdum 	#	consonant stem					
+good	strong	plural	feminine 	gōda, gōde 	gōda, gōde 	gōdra 	gōdum 	gōdum 	#	consonant stem					
+good	strong	plural	neuter	gōd	gōd	gōdra	gōdum	gōdum 	#	consonant stem					
+good	weak	singular	masculine 	gōda 	gōdan 	gōdan 	gōdan 	gōdan 	#	consonant stem					
+good	weak	singular	feminine 	gōde 	gōdan 	gōdan 	gōdan 	gōdan 	#	consonant stem					
+good	weak	singular	neuter	gōde	gōde	gōdan	gōdan	gōdan	#	consonant stem					
+good	weak	plural	masculine 	gōdan 	gōdan 	gōdra, gōdena 	gōdum 	gōdum 	#	consonant stem					
+good	weak	plural	feminine 	gōdan 	gōdan 	gōdra, gōdena 	gōdum 	gōdum 	#	consonant stem					
+good	weak	plural	neuter	gōdan	gōdan	gōdra, gōdena	gōdum	gōdum 	#	consonant stem					
+tall	strong	singular	masculine 	hēah 	hēane, hēanne 	hēas 	hēam, hēaum 	hēa 	#	-h stem					
+tall	strong	singular	feminine 	hēah 	hēa 	hēare, hēarre 	hēare, hēarre 	hēare, hēarre 	#	-h stem					
+tall	strong	singular	neuter	hēah	hēah	hēas	hēam, hēaum	hēa	#	-h stem					
+tall	strong	plural	masculine 	hēa 	hēa 	hēara, hēarra 	hēam, hēaum 	hēam, hēaum 	#	-h stem					
+tall	strong	plural	feminine 	hēa 	hēa 	hēara, hēarra 	hēam, hēaum 	hēam, hēaum 	#	-h stem					
+tall	strong	plural	neuter	hēah	hēah	hēara, hēarra	hēam, hēaum	hēam, hēaum 	#	-h stem					
+tall	weak	singular	masculine 	hēa 	hēan 	hēan 	hēan 	hēan 	#	-h stem					
+tall	weak	singular	feminine 	hēa 	hēan 	hēan 	hēan 	hēan 	#	-h stem					
+tall	weak	singular	neuter	hēa	hēa	hēan	hēan	hēan	#	-h stem					
+tall	weak	plural	masculine 	hēan 	hēan 	hēara, hēarra, hēana 	hēam, hēaum 	hēam, hēaum 	#	-h stem					
+tall	weak	plural	feminine 	hēan 	hēan 	hēara, hēarra, hēana 	hēam, hēaum 	hēam, hēaum 	#	-h stem					
+tall	weak	plural	neuter	hēan	hēan	hēara, hēarra, hēana	hēam, hēaum	hēam, hēaum 	#	-h stem					
+black	strong	singular	masculine 	blæc 	blæcne 	blaces 	blacum 	blace 	#	monosyllabic featuring æ					
+black	strong	singular	feminine 	blacu, blaco 	blace 	blæcre 	blæcre 	blæcre 	#	monosyllabic featuring æ					
+black	strong	singular	neuter	blæc	blæc	blaces	blacum	blace	#	monosyllabic featuring æ					
+black	strong	plural	masculine 	blace 	blace 	blæcra 	blacum 	blacum 	#	monosyllabic featuring æ					
+black	strong	plural	feminine 	blaca, blace 	blaca, blace 	blæcra 	blacum 	blacum 	#	monosyllabic featuring æ					
+black	strong	plural	neuter	blacu, blaco	blacu, blaco	blæcra	blacum	blacum	#	monosyllabic featuring æ					
+black	weak	singular	masculine 	blaca 	blacan 	blacan 	blacan 	blacan 	#	monosyllabic featuring æ					
+black	weak	singular	feminine 	blace 	blacan 	blacan 	blacan 	blacan 	#	monosyllabic featuring æ					
+black	weak	singular	neuter	blace	blace	blacan	blacan	blacan	#	monosyllabic featuring æ					
+black	weak	plural	masculine 	blacan 	blacan 	blæcra, blacena 	blacum 	blacum 	#	monosyllabic featuring æ					
+black	weak	plural	feminine 	blacan 	blacan 	blæcra, blacena 	blacum 	blacum 	#	monosyllabic featuring æ					
+black	weak	plural	neuter	blacan	blacan	blæcra, blacena	blacum	blacum 	#	monosyllabic featuring æ					
+red	strong	singular	masculine 	basu, baso 	basone 	basƿes 	basƿum 	basƿe 	#	-u stem					
+red	strong	singular	feminine 	basu, baso 	basƿe 	basore 	basore 	basore 	#	-u stem					
+red	strong	singular	neuter	basu, baso	basu, baso	basƿes	basƿum	basƿe	#	-u stem					
+red	strong	plural	masculine 	basƿe 	basƿe 	basora 	basƿum 	basƿum 	#	-u stem					
+red	strong	plural	feminine 	basƿa, basƿe 	basƿa, basƿe 	basora 	basƿum 	basƿum 	#	-u stem					
+red	strong	plural	neuter	basu, baso	basu, baso	basora	basƿum	basƿum 	#	-u stem					
+red	weak	singular	masculine 	basƿa 	basƿan 	basƿan 	basƿan 	basƿan 	#	-u stem					
+red	weak	singular	feminine 	basƿe 	basƿan 	basƿan 	basƿan 	basƿan 	#	-u stem					
+red	weak	singular	neuter	basƿe	basƿe	basƿan	basƿan	basƿan	#	-u stem					
+red	weak	plural	masculine 	basƿan 	basƿan 	basora, basƿena 	basƿum 	basƿum 	#	-u stem					
+red	weak	plural	feminine 	basƿan 	basƿan 	basora, basƿena 	basƿum 	basƿum 	#	-u stem					
+red	weak	plural	neuter	basƿan	basƿan	basora, basƿena	basƿum	basƿum 	#	-u stem					
+green	strong	singular	masculine 	grēne 	grēnne 	grēnes 	grēnum 	grēne 	#	-e stem					
+green	strong	singular	feminine 	grēnu, grēno 	grēne 	grēnre 	grēnre 	grēnre 	#	-e stem					
+green	strong	singular	neuter	grēne	grēne	grēnes	grēnum	grēne	#	-e stem					
+green	strong	plural	masculine 	grēne 	grēne 	grēnra 	grēnum 	grēnum 	#	-e stem					
+green	strong	plural	feminine 	grēna, grēne 	grēna, grēne 	grēnra 	grēnum 	grēnum 	#	-e stem					
+green	strong	plural	neuter	grēnu, grēno	grēnu, grēno	grēnra	grēnum	grēnum 	#	-e stem					
+green	weak	singular	masculine 	grēna 	grēnan 	grēnan 	grēnan 	grēnan 	#	-e stem					
+green	weak	singular	feminine 	grēne 	grēnan 	grēnan 	grēnan 	grēnan 	#	-e stem					
+green	weak	singular	neuter	grēne	grēne	grēnan	grēnan	grēnan	#	-e stem					
+green	weak	plural	masculine 	grēnan 	grēnan 	grēnra, grēnena 	grēnum 	grēnum 	#	-e stem					
+green	weak	plural	feminine 	grēnan 	grēnan 	grēnra, grēnena 	grēnum 	grēnum 	#	-e stem					
+green	weak	plural	neuter	grēnan	grēnan	grēnra, grēnena	grēnum	grēnum 	#	-e stem					
+															
+															
+															
+															

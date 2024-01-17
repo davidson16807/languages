@@ -1,66 +1,80 @@
-*	*	*	*	case	preposition	postposition
-#	valency	motion	role			
-			solitary	nominative	∅	∅
-	transitive		agent	nominative	∅	∅
-	transitive		force	nominative	∅	∅
-	transitive		patient	accusative	∅	∅
-	transitive		theme	accusative	∅	∅
-	transitive		experiencer	nominative	∅	∅
-	transitive		stimulus	accusative	∅	∅
-	transitive		predicate	accusative	∅	∅
-	transitive		predicand	nominative	∅	∅
-	transitive		audience	vocative	∅	∅
-#		departed	possessor	genitive	h₂epo	∅
-		associated	possessor	genitive	∅	∅
-#		acquired	possessor	genitive	h₂ed	∅
-#		leveraged	possessor	dative	❔	∅
-		departed	location	ablative	h₂epo	∅
-		associated	location	locative	h₃ebʰi	∅
-		acquired	location	dative	h₂ed	∅
-		leveraged	location	instrumental	kmₒ-th₂	∅
-#		departed	extent	ablative	h₂epo	∅
-#		associated	extent	locative	kmₒ-th₂	∅
-#		acquired	extent	dative	h₂ed	∅
-#		leveraged	extent	instrumental	kmₒ-th₂	∅
-#		departed	vicinity	ablative	h₂epo	∅
-#		associated	vicinity	locative	h₁epi	∅
-#		acquired	vicinity	dative	h₂ed	∅
-#		leveraged	vicinity	instrumental	kmₒ-th₂	∅
-		departed	interior	ablative	h₂epo	∅
-		associated	interior	locative	h₁en	∅
-		acquired	interior	dative	h₂ed	∅
-		leveraged	interior	instrumental	per(i)	∅
-		departed	surface	ablative	h₂epo	∅
-		associated	surface	locative	h₂enh₃	∅
-		acquired	surface	dative	h₃ebʰi	∅
-		leveraged	surface	instrumental	❔	∅
-#		departed	presence	instrumental	h₂epo	∅
-		associated	presence	instrumental	per	∅
-#		acquired	presence	dative	h₂ed	∅
-#		leveraged	presence	instrumental	❔	∅
-#		departed	aid	instrumental	❔	∅
-		associated	aid	instrumental	kom	∅
-#		acquired	aid	dative	h₂ed	∅
-#		leveraged	aid	instrumental	kom	∅
-#		departed	lack	instrumental	h₁neu	∅
-		associated	lack	instrumental	h₁neu	∅
-#		acquired	lack	dative	h₁neu	∅
-#		leveraged	lack	instrumental	h₁neu	∅
-#		departed	interest	dative	h₂epo	∅
-		associated	interest	dative	❔	∅
-#		acquired	interest	dative	h₂ed	∅
-#		leveraged	interest	instrumental	❔	∅
-#		departed	time	ablative	pos	∅
-#		associated	time	instrumental	❔	∅
-#		acquired	time	dative	h₂ed	∅
-#		leveraged	time	instrumental	❔	∅
-#		departed	state-of-being	instrumental	h₂epo	∅
-#		associated	state-of-being	instrumental	❔	∅
-#		acquired	state-of-being	instrumental	h₂ed	∅
-#		leveraged	state-of-being	instrumental	❔	∅
-#		departed	topic	ablative	h₂epo	∅
-#		associated	topic	locative	❔	∅
-#		acquired	topic	dative	h₂ed	∅
-#		leveraged	topic	instrumental	❔	∅
-		associated	company	locative	kom	∅
-#		associated	resemblance		❔	∅
+*	*	*	*	case	preposition	postposition	#	
+#	subjectivity	motion	role				#	proto-indo-european
+	subject			nominative	∅	∅	#	
+	addressee			vocative	∅	∅	#	
+	direct-object			accusative	∅	∅	#	
+	indirect-object			dative	∅	∅	#	
+	adnominal			genitive	∅	∅	#	
+	adverbial	departed	location	ablative	h₂epo	∅	#	
+	adverbial	associated	location	locative	h₃ebʰi	∅	#	
+	adverbial	acquired	location	dative	h₂ed	∅	#	
+	adverbial	approached	location	dative	h₂ed	∅	#	
+	adverbial	surpassed	location	ablative	h₁eti                   	∅	#	
+	adverbial	leveraged	location	instrumental	kmₒ-th₂	∅	#	
+	adverbial	departed	extent	ablative	h₂epo❔	∅	#	
+	adverbial	associated	extent	locative	kmₒ-th₂❔	∅	#	
+	adverbial	acquired	extent	dative	h₂ed❔	∅	#	
+	adverbial	approached	extent	dative	h₂ed❔	∅	#	
+	adverbial	surpassed	extent	ablative	❔	∅	#	
+	adverbial	leveraged	extent	instrumental	kmₒ-th₂❔	∅	#	
+	adverbial	departed	vicinity	ablative	h₂epo❔	∅	#	
+	adverbial	associated	vicinity	locative	h₁opi / h₁epi           	∅	#	
+	adverbial	acquired	vicinity	dative	h₂ed❔	∅	#	
+	adverbial	approached	vicinity	dative	h₂ed❔	∅	#	
+	adverbial	surpassed	vicinity	ablative	❔	∅	#	
+	adverbial	leveraged	vicinity	instrumental	kmₒ-th₂ / kmₒ-ti        	∅	#	
+	adverbial	departed	interior	ablative	h₂epo❔	∅	#	
+	adverbial	associated	interior	locative	h₁en	∅	#	
+	adverbial	acquired	interior	dative	h₂ed❔	∅	#	
+	adverbial	approached	interior	dative	h₂ed❔	∅	#	
+	adverbial	surpassed	interior	ablative	❔	∅	#	
+	adverbial	leveraged	interior	instrumental	trh₂os                  	∅	#	
+	adverbial	departed	surface	ablative	h₂epo❔	∅	#	
+	adverbial	associated	surface	locative	h₂enh₃	∅	#	
+	adverbial	acquired	surface	dative	h₃ebʰi❔	∅	#	
+	adverbial	approached	surface	dative	h₃ebʰi❔	∅	#	
+	adverbial	surpassed	surface	ablative	❔	∅	#	
+	adverbial	leveraged	surface	instrumental	❔	∅	#	
+	adverbial	departed	subsurface	ablative	h₂epo❔	∅	#	
+	adverbial	associated	subsurface	locative	n̥dʰ-eri                	∅	#	
+	adverbial	acquired	subsurface	dative	h₃ebʰi❔	∅	#	
+	adverbial	approached	subsurface	dative	h₃ebʰi❔	∅	#	
+	adverbial	surpassed	subsurface	ablative	❔	∅	#	
+	adverbial	leveraged	subsurface	instrumental	❔	∅	#	
+	adverbial	departed	presence	instrumental	❔	∅	#	
+	adverbial	associated	presence	instrumental	per	∅	#	
+	adverbial	acquired	presence	dative	❔	∅	#	
+	adverbial	approached	presence	dative	❔	∅	#	
+	adverbial	surpassed	presence	ablative	❔	∅	#	
+	adverbial	leveraged	presence	instrumental	❔	∅	#	
+	adverbial	departed	aid	instrumental	❔	∅	#	
+	adverbial	associated	aid	instrumental	kom	∅	#	
+	adverbial	acquired	aid	dative	❔	∅	#	
+	adverbial	approached	aid	dative	❔	∅	#	
+	adverbial	surpassed	aid	ablative	❔	∅	#	
+	adverbial	leveraged	aid	instrumental	❔	∅	#	
+	adverbial	departed	lack	instrumental	❔	∅	#	
+	adverbial	associated	lack	instrumental	h₁neu	∅	#	
+	adverbial	acquired	lack	dative	❔	∅	#	
+	adverbial	approached	lack	dative	❔	∅	#	
+	adverbial	surpassed	lack	ablative	❔	∅	#	
+	adverbial	leveraged	lack	instrumental	❔	∅	#	
+	adverbial	departed	interest	instrumental	❔	∅	#	
+	adverbial	associated	interest	dative	r̥ / rō / rō-dʰi        	∅	#	
+	adverbial	acquired	interest	dative	❔	∅	#	
+	adverbial	approached	interest	dative	❔	∅	#	
+	adverbial	surpassed	interest	dative	❔	∅	#	
+	adverbial	leveraged	interest	instrumental	❔	∅	#	
+	adverbial	departed	time	ablative	pos	∅	#	
+	adverbial	associated	time	instrumental	❔	∅	#	
+	adverbial	acquired	time	dative	h₂ed	∅	#	
+	adverbial	approached	time	dative	❔	∅	#	
+	adverbial	surpassed	time	dative	❔	∅	#	
+	adverbial	leveraged	time	instrumental	❔	∅	#	
+	adverbial	departed	topic	ablative	h₂epo	∅	#	
+	adverbial	associated	topic	instrumental	❔	∅	#	
+	adverbial	acquired	topic	dative	h₂ed	∅	#	
+	adverbial	approached	topic	dative	❔	∅	#	
+	adverbial	surpassed	topic	dative	❔	∅	#	
+	adverbial	leveraged	topic	instrumental	❔	∅	#	
+	adverbial	associated	company	locative	kom	∅	#	

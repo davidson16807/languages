@@ -21,19 +21,17 @@ class Uniform:
 class TableScraping:
 	def __init__(self, ops):
 		self.ops = ops
-	def scrape(self, html, lemma_urls):
-		for lemma_url in lemma_urls:
-			if len(lemma_url)==2:
-				(lemma, url) = lemma_url
-				time.sleep(1) # rate limit for kindness
-				soup = BeautifulSoup(requests.get(url).text)
-				bunched = self.ops.bunch(
-					Uniform([lemma]), 
-					html.parse(soup))
-				# print a progress indicator since rate limiting slows us down considerably
-				print('\t'.join(['    ' if bunched else 'FAIL', lemma, url]))
-				for row in bunched:
-					yield row
+	def scrape(self, parsing, lemma_html):
+		for (lemma, html) in lemma_html:
+			time.sleep(1) # rate limit for kindness
+			soup = BeautifulSoup(html)
+			bunched = self.ops.bunch(
+				Uniform([lemma]), 
+				parsing.parse(soup))
+			# print a progress indicator since rate limiting slows us down considerably
+			print('\t'.join(['    ' if bunched else 'FAIL', lemma]))
+			for row in bunched:
+				yield row
 
 class RowMajorTableOps:
 	def __init__(self):
@@ -105,7 +103,9 @@ class RowMajorWikiTableHtml:
 		for section in language_section.find_all_next('span', text=self.table_texts):
 			for i in range(self.table_count):
 				section2 = section.find_next('table')
-				if section2:
+				if not section2:
+					break
+				else:
 					if not self.language_code or section2.select(f'span[lang="{self.language_code}"]'):
 						for row in self.body(section2):
 							yield row
@@ -117,8 +117,8 @@ class GreekRowMajorWikiTableHtml(RowMajorWikiTableHtml):
 	def dialect(self, head): 
 		head = head
 		dialect = head.select_one('.extiw')
-		if dialect:
-			return dialect.text.lower()
+		# if dialect:
+		# 	return dialect.text.lower()
 		return head.text or ''
 	def parse(self, soup):
 		for frame in soup.select('.NavFrame'):
@@ -127,13 +127,418 @@ class GreekRowMajorWikiTableHtml(RowMajorWikiTableHtml):
 					self.body(frame.select_one('.NavContent'))):
 				yield row
 
+class GenderWikiHtml:
+	def __init__(self, ops, part_of_speech_text, language_id):
+		self.ops = ops
+		self.part_of_speech_text = part_of_speech_text
+		self.language_id = language_id
+	def parse(self, soup):
+		language_section =  soup.find('span', id=self.language_id)
+		part_of_speech_section = soup.find_next('span', text=self.part_of_speech_text)
+		gender_sections = language_section.find_all_next('span', class_='gender')
+		if gender_sections:
+			for gender in (gender_sections[0].text
+								.replace('n','neuter')
+								.replace('m','masculine')
+								.replace('f','feminine')
+								.split(' or ')):
+				yield [gender]
+
+def lemma_html(lemma_urls):
+	result = []
+	for lemma_url in lemma_urls:
+		if len(lemma_url) == 2:
+			(lemma, url) = lemma_url
+			print('\t'.join([lemma, url]))
+			result.append((lemma, requests.get(url).text))
+	return result
+
 ops = RowMajorTableOps()
 scraping = TableScraping(ops)
 parsing = TokenParsing()
 formatting = RowMajorTableText('\t','\n')
 
 
+write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(
+			GreekRowMajorWikiTableHtml(ops),
+			# RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Ancient_Greek', 'grc', table_count=9), 
+			lemma_html(
+				parsing.tokenpoints('''
+					appear    https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B4%CE%B4%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
+					be-inherently  https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B0%CE%BC%CE%AF#Ancient_Greek
+					be-momentarily
+					change    https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CE%BB%CE%AC%CF%83%CF%83%CF%89#Ancient_Greek
+					climb     
+					crawl     
+					cool      
+					direct    https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CF%89#Ancient_Greek
+					displease https://en.wiktionary.org/wiki/%E1%BC%80%CF%80%CE%B1%CF%81%CE%AD%CF%83%CE%BA%CF%89#Ancient_Greek
+					eat       https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CF%89#Ancient_Greek
+					endure    https://en.wiktionary.org/wiki/%E1%BD%91%CF%80%CE%BF%CE%BC%CE%AD%CE%BD%CF%89#Ancient_Greek
+					fall      https://en.wiktionary.org/wiki/%CF%80%CE%AF%CF%80%CF%84%CF%89#Ancient_Greek
+					fly       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%84%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
+					flow      
+					hear      
+					occupy    
+					resemble  
+					rest      
+					see       https://en.wiktionary.org/wiki/%CE%B2%CE%BB%CE%AD%CF%80%CF%89#Ancient_Greek
+					show      https://en.wiktionary.org/wiki/%CE%B4%CE%B5%CE%AF%CE%BA%CE%BD%CF%85%CE%BC%CE%B9#Ancient_Greek
+					startle   https://en.wiktionary.org/wiki/%CF%86%CE%BF%CE%B2%CE%AD%CF%89#Ancient_Greek # "terrify"
+					swim      https://en.wiktionary.org/wiki/%CE%BD%CE%AD%CF%89#Ancient_Greek
+					walk      https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AD%CF%89#Ancient_Greek
+					warm      https://en.wiktionary.org/wiki/%CE%B8%CE%AC%CE%BB%CF%80%CF%89#Ancient_Greek
+					watch     https://en.wiktionary.org/wiki/%CF%83%CE%BA%CE%BF%CF%80%CE%AD%CF%89#Ancient_Greek
+					work      https://en.wiktionary.org/wiki/%E1%BC%90%CF%81%CE%B3%CE%AC%CE%B6%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
 
+					go        https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%BC%CE%B9#Ancient_Greek
+					release   https://en.wiktionary.org/wiki/%CE%BB%CF%8D%CF%89#Ancient_Greek
+				''')
+			)
+		)
+	)
+)
+
+noun_html = lemma_html(
+	parsing.tokenpoints('''
+		animal    https://en.wiktionary.org/wiki/%CE%B6%E1%BF%B7%CE%BF%CE%BD#Ancient_Greek
+		attention https://en.wiktionary.org/wiki/%CF%86%CF%81%CE%BF%CE%BD%CF%84%CE%AF%CF%82#Ancient_Greek
+		bird      https://en.wiktionary.org/wiki/%E1%BD%84%CF%81%CE%BD%CE%B9%CF%82#Ancient_Greek
+		boat      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82#Ancient_Greek
+		book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%CE%BD#Ancient_Greek
+		brother   https://en.wiktionary.org/wiki/%E1%BC%80%CE%B4%CE%B5%CE%BB%CF%86%CF%8C%CF%82#Ancient_Greek
+		bug       https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CF%84%CE%BF%CE%BC%CE%BF%CE%BD#Ancient_Greek
+		dog       https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CF%89%CE%BD#Ancient_Greek
+		door      https://en.wiktionary.org/wiki/%CE%B8%CF%8D%CF%81%CE%B1#Ancient_Greek
+		clothing  https://en.wiktionary.org/wiki/%E1%BC%90%CF%83%CE%B8%CE%AE%CF%82#Ancient_Greek
+		daughter  https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81#Ancient_Greek
+		drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF%CE%BD#Ancient_Greek
+		enemy     https://en.wiktionary.org/wiki/%E1%BC%90%CF%87%CE%B8%CF%81%CF%8C%CF%82#Ancient_Greek
+		fire      https://en.wiktionary.org/wiki/%CF%80%E1%BF%A6%CF%81#Ancient_Greek
+		food      https://en.wiktionary.org/wiki/%CE%B2%CF%81%E1%BF%B6%CE%BC%CE%B1#Ancient_Greek
+		food      https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%B4%CE%B1%CF%81#Ancient_Greek
+		gift      https://en.wiktionary.org/wiki/%CE%B4%E1%BF%B6%CF%81%CE%BF%CE%BD#Ancient_Greek
+		glass     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B1%CE%BB%CE%BF%CF%82#Ancient_Greek
+		guard     https://en.wiktionary.org/wiki/%CF%84%CE%B7%CF%81%CF%8C%CF%82#Ancient_Greek
+		horse     https://en.wiktionary.org/wiki/%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82#Ancient_Greek
+		house     https://en.wiktionary.org/wiki/%CE%BF%E1%BC%B6%CE%BA%CE%BF%CF%82#Ancient_Greek
+		livestock https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BD%CE%BF%CF%82#Ancient_Greek
+		love      https://en.wiktionary.org/wiki/%CF%86%CE%B9%CE%BB%CE%AF%CE%B1#Ancient_Greek
+		idea      https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek
+		man       https://en.wiktionary.org/wiki/%E1%BC%80%CE%BD%CE%AE%CF%81#Ancient_Greek
+		money     https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CF%81%CE%BC%CE%B1#Ancient_Greek
+		monster   https://en.wiktionary.org/wiki/%CF%84%CE%AD%CF%81%CE%B1%CF%82#Ancient_Greek
+		name      https://en.wiktionary.org/wiki/%E1%BD%84%CE%BD%CE%BF%CE%BC%CE%B1#Ancient_Greek
+		rock      https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#Ancient_Greek
+		rope      https://en.wiktionary.org/wiki/%CF%83%CE%B5%CE%B9%CF%81%CE%AC#Ancient_Greek
+		size      https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CE%B3%CE%B5%CE%B8%CE%BF%CF%82#Ancient_Greek
+		sister    
+		son       https://en.wiktionary.org/wiki/%CF%85%E1%BC%B1%CF%8C%CF%82#Ancient_Greek
+		sound     https://en.wiktionary.org/wiki/%E1%BC%A6%CF%87%CE%BF%CF%82#Ancient_Greek
+		warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%AD%CF%81%CE%BC%CE%B7#Ancient_Greek
+		water     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek
+		way       https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%BB%CE%B5%CF%85%CE%B8%CE%BF%CF%82#Ancient_Greek
+		wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
+		window    https://en.wiktionary.org/wiki/%CE%B8%CF%85%CF%81%CE%AF%CF%82#Ancient_Greek
+		woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%AE#Ancient_Greek
+		work      https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
+
+		young-man https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
+		soldier   https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CE%B1%CE%BD%CE%AF%CE%B1%CF%82
+		polity    https://en.wiktionary.org/wiki/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B9%CF%8E%CF%84%CE%B7%CF%82
+		village   https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1
+		person    https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BC%CE%B7
+		street    https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82
+		circumnavihttps://en.wiktionary.org/wiki/%E1%BD%81%CE%B4%CF%8C%CF%82
+		bone      gation https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CE%AF%CF%80%CE%BB%CE%BF%CF%85%CF%82
+		hero      https://en.wiktionary.org/wiki/%E1%BD%80%CF%83%CF%84%CE%BF%E1%BF%A6%CE%BD
+		fish      https://en.wiktionary.org/wiki/%E1%BC%A5%CF%81%CF%89%CF%82
+		oak       https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CE%B8%CF%8D%CF%82
+		city      https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82
+		axe       https://en.wiktionary.org/wiki/%CF%80%CF%8C%CE%BB%CE%B9%CF%82
+		town      https://en.wiktionary.org/wiki/%CF%80%CE%AD%CE%BB%CE%B5%CE%BA%CF%85%CF%82
+		master    https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CF%84%CF%85
+		old-woman https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82
+		cow       https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%B1%E1%BF%A6%CF%82
+		echo      https://en.wiktionary.org/wiki/%CE%B2%CE%BF%E1%BF%A6%CF%82
+		Clio      https://en.wiktionary.org/wiki/%E1%BC%A0%CF%87%CF%8E
+		crow      https://en.wiktionary.org/wiki/%CE%9A%CE%BB%CE%B5%CE%B9%CF%8E
+		vulture   https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B1%CE%BE
+		rug       https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88
+		giant     https://en.wiktionary.org/wiki/%CF%84%CE%AC%CF%80%CE%B7%CF%82
+		tooth     https://en.wiktionary.org/wiki/%CE%B3%CE%AF%CE%B3%CE%B1%CF%82
+		old-man   https://en.wiktionary.org/wiki/%E1%BD%80%CE%B4%CE%BF%CF%8D%CF%82
+		property  https://en.wiktionary.org/wiki/%CE%B3%CE%AD%CF%81%CF%89%CE%BD
+		Greek     https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BC%CE%B1
+		winter    https://en.wiktionary.org/wiki/%E1%BC%9D%CE%BB%CE%BB%CE%B7%CE%BD
+		Titan     https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%B9%CE%BC%CF%8E%CE%BD
+		light-ray https://en.wiktionary.org/wiki/%CE%A4%CE%B9%CF%84%CE%AC%CE%BD
+		shepherd  https://en.wiktionary.org/wiki/%E1%BC%80%CE%BA%CF%84%CE%AF%CF%82
+		guide     https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%B9%CE%BC%CE%AE%CE%BD
+		neighbor  https://en.wiktionary.org/wiki/%E1%BC%A1%CE%B3%CE%B5%CE%BC%CF%8E%CE%BD
+		ichor     https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CE%AF%CF%84%CF%89%CE%BD
+		chaff     https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CF%8E%CF%81
+		orator    https://en.wiktionary.org/wiki/%E1%BC%80%CE%B8%CE%AE%CF%81
+		father    https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AE%CF%84%CF%89%CF%81
+		Demeter   https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AE%CF%81
+		Socrates  https://en.wiktionary.org/wiki/%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CE%B7%CF%81
+		Pericles  https://en.wiktionary.org/wiki/%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%B7%CF%82
+		arrow     https://en.wiktionary.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%E1%BF%86%CF%82
+	    foundationhttps://en.wiktionary.org/wiki/%CE%B2%CE%AD%CE%BB%CE%BF%CF%82
+	    shame      https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CE%B1%CF%86%CE%BF%CF%82#Ancient_Greek
+	    Ares      https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B0%CE%B4%CF%8E%CF%82#Ancient_Greek
+	    Thales    https://en.wiktionary.org/wiki/%E1%BC%8C%CF%81%CE%B7%CF%82
+	    Oedipus   https://en.wiktionary.org/wiki/%CE%98%CE%B1%CE%BB%E1%BF%86%CF%82
+	    Apollo    https://en.wiktionary.org/wiki/%CE%9F%E1%BC%B0%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82
+	    knee      https://en.wiktionary.org/wiki/%E1%BC%88%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD
+	    wood      https://en.wiktionary.org/wiki/%CE%B3%CF%8C%CE%BD%CF%85
+	    Zeus      https://en.wiktionary.org/wiki/%CE%B4%CF%8C%CF%81%CF%85
+	    liver     https://en.wiktionary.org/wiki/%CE%96%CE%B5%CF%8D%CF%82
+	    ship      https://en.wiktionary.org/wiki/%E1%BC%A7%CF%80%CE%B1%CF%81
+	    ear       https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82
+	    hand      https://en.wiktionary.org/wiki/%CE%BF%E1%BD%96%CF%82
+	'''))
+
+print('GREEK/ANCIENT')
+write('data/inflection/indo-european/greek/attic/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Ancient_Greek'), noun_html)
+	)
+)
+
+print('GREEK/ANCIENT')
+write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(GreekRowMajorWikiTableHtml(ops), noun_html)
+	)
+)
+
+noun_html = lemma_html(
+	parsing.tokenpoints('''
+		animal    https://en.wiktionary.org/wiki/animal#Latin
+		attention https://en.wiktionary.org/wiki/attentio#Latin
+		bird      https://en.wiktionary.org/wiki/avis#Latin
+		boat      https://en.wiktionary.org/wiki/navis#Latin
+		book      https://en.wiktionary.org/wiki/caudex#Latin
+		brother   https://en.wiktionary.org/wiki/frater#Latin
+		bug       https://en.wiktionary.org/wiki/cimex#Latin
+		clothing  https://en.wiktionary.org/wiki/vestis#Latin
+		daughter  https://en.wiktionary.org/wiki/filia#Latin
+		dog       https://en.wiktionary.org/wiki/canis#Latin
+		door      https://en.wiktionary.org/wiki/foris#Latin
+		drum      https://en.wiktionary.org/wiki/tympanum#Latin
+		enemy     https://en.wiktionary.org/wiki/inimicus#Latin
+		fire      https://en.wiktionary.org/wiki/ignis#Latin
+		food      https://en.wiktionary.org/wiki/cibus#Latin
+		gift      https://en.wiktionary.org/wiki/donum#Latin
+		glass     https://en.wiktionary.org/wiki/vitrum#Latin
+		guard     https://en.wiktionary.org/wiki/custos#Latin
+		horse     https://en.wiktionary.org/wiki/equus#Latin
+		house     https://en.wiktionary.org/wiki/domus#Latin
+		livestock https://en.wiktionary.org/wiki/pecus#Latin
+		love      https://en.wiktionary.org/wiki/caritas#Latin
+		idea      https://en.wiktionary.org/wiki/idea#Latin
+		man       https://en.wiktionary.org/wiki/homo#Latin
+		money     https://en.wiktionary.org/wiki/pecunia#Latin
+		monster   https://en.wiktionary.org/wiki/belua#Latin
+		name      https://en.wiktionary.org/wiki/saxum#Latin
+		rock      https://en.wiktionary.org/wiki/saxum#Latin
+		rope      https://en.wiktionary.org/wiki/restis#Latin
+		size      https://en.wiktionary.org/wiki/magnitudo#Latin
+		sister    https://en.wiktionary.org/wiki/soror#Latin
+		son       https://en.wiktionary.org/wiki/filius#Latin
+		sound     https://en.wiktionary.org/wiki/sonus#Latin
+		warmth    https://en.wiktionary.org/wiki/calor#Latin
+		water     https://en.wiktionary.org/wiki/aqua#Latin
+		way       https://en.wiktionary.org/wiki/via#Latin
+		wind      https://en.wiktionary.org/wiki/ventus#Latin
+		window    https://en.wiktionary.org/wiki/fenestra#Latin
+		woman     https://en.wiktionary.org/wiki/femina#Latin
+		work      https://en.wiktionary.org/wiki/labor#Latin
+
+		day       https://en.wiktionary.org/wiki/dies#Latin
+		hand      https://en.wiktionary.org/wiki/manus#Latin
+		night     https://en.wiktionary.org/wiki/nox#Latin
+		thing     https://en.wiktionary.org/wiki/res#Latin
+		war       https://en.wiktionary.org/wiki/bellum#Latin
+		air       https://en.wiktionary.org/wiki/aero#Latin
+		boy       https://en.wiktionary.org/wiki/puer#Latin
+		star      https://en.wiktionary.org/wiki/stella#Latin
+		tower     https://en.wiktionary.org/wiki/turris
+		horn      https://en.wiktionary.org/wiki/cornu#Latin
+		sailor    https://en.wiktionary.org/wiki/nauta#Latin
+		foundation https://en.wiktionary.org/wiki/basis#Latin
+		echo      https://en.wiktionary.org/wiki/echo#Latin
+		phenomenon https://en.wiktionary.org/wiki/phaenomenon#Latin
+		vine      https://en.wiktionary.org/wiki/ampelos#Latin
+		myth      https://en.wiktionary.org/wiki/mythos#Latin
+		atom      https://en.wiktionary.org/wiki/atomus#Latin
+		nymph     https://en.wiktionary.org/wiki/nymphe#Latin
+		comet     https://en.wiktionary.org/wiki/cometes#Latin
+	'''))
+
+print('LATIN')
+write('data/inflection/indo-european/romance/latin/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Latin'), noun_html)
+	)
+)
+
+print('LATIN')
+write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Latin', 'la'), 
+			noun_html
+		)
+	)
+)
+
+write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Latin', 'la'), 
+			lemma_html(
+				parsing.tokenpoints('''
+					appear    https://en.wiktionary.org/wiki/appareo#Latin
+					be-inherently  https://en.wiktionary.org/wiki/sum#Latin
+					be-momentarily https://en.wiktionary.org/wiki/sum#Latin
+					change    https://en.wiktionary.org/wiki/cambio#Latin
+					climb     https://en.wiktionary.org/wiki/ascendo#Latin
+					crawl     
+					cool      
+					direct    https://en.wiktionary.org/wiki/duco#Latin
+					displease https://en.wiktionary.org/wiki/displiceo#Latin
+					eat       https://en.wiktionary.org/wiki/edo#Latin
+					endure    https://en.wiktionary.org/wiki/perpetior#Latin
+					fall      https://en.wiktionary.org/wiki/cado#Latin
+					fly       https://en.wiktionary.org/wiki/volo#Latin
+					flow      
+					hear      https://en.wiktionary.org/wiki/audio#Latin
+					occupy    
+					resemble  https://en.wiktionary.org/wiki/similo#Latin
+					rest      https://en.wiktionary.org/wiki/requiesco#Latin
+					see       https://en.wiktionary.org/wiki/video#Latin
+					show      https://en.wiktionary.org/wiki/monstro#Latin
+					startle   https://en.wiktionary.org/wiki/pavefacio#Latin
+					swim      https://en.wiktionary.org/wiki/nato#Latin
+					walk      https://en.wiktionary.org/wiki/ambulo#Latin
+					warm      https://en.wiktionary.org/wiki/calefacio#Latin
+					watch     https://en.wiktionary.org/wiki/specto#Latin
+					work      https://en.wiktionary.org/wiki/laboro#Latin
+
+					be        https://en.wiktionary.org/wiki/sum#Latin
+					be-able   https://en.wiktionary.org/wiki/possum#Latin
+					want      https://en.wiktionary.org/wiki/volo#Latin
+					become    https://en.wiktionary.org/wiki/fio#Latin
+					go        https://en.wiktionary.org/wiki/eo#Latin
+					carry     https://en.wiktionary.org/wiki/fero#Latin
+					love      https://en.wiktionary.org/wiki/amo#Latin
+					advise    https://en.wiktionary.org/wiki/moneo#Latin
+					capture   https://en.wiktionary.org/wiki/capio#Latin
+				'''))
+		)
+	)
+)
+
+noun_html = lemma_html(
+	parsing.tokenpoints('''
+		animal    # oxsus
+		attention # ueliia
+		bird      # etnos
+		boat      # nawa
+		book      # libros
+		brother   # 
+		bug       https://en.wiktionary.org/wiki/bekos#Gaulish # "bee"
+		clothing  # karakalla "tunic"
+		daughter  https://en.wiktionary.org/wiki/duxtir#Gaulish
+		dog       # cu
+		door      # dworon
+		drum      # tanaros
+		enemy     https://en.wiktionary.org/wiki/Reconstruction:Gaulish/namants
+		fire      # aidus
+		food      # depron
+		gift      # danus
+		glass     # lagos
+		guard     # soliduryos
+		horse     https://en.wiktionary.org/wiki/markos#Gaulish
+		house     # tegia
+		livestock https://en.wiktionary.org/wiki/taruos#Gaulish # "domestic horned beast"
+		love      # serka
+		idea      # britus
+		man       # uiros
+		money     # sutegon
+		monster   # angos
+		name      # anuan
+		rock      https://en.wiktionary.org/wiki/artua#Gaulish
+		rope      # soka
+		size      # manti
+		son       https://en.wiktionary.org/wiki/mapos#Gaulish
+		sound     # bruxtus
+		warmth    # tessis
+		water     # dubron
+		way       # mantle
+		wind      # auelos
+		window    # iagos
+		woman     https://en.wiktionary.org/wiki/bena#Gaulish
+		work      # uergon
+
+		father    https://en.wiktionary.org/wiki/atir#Gaulish
+		mother    https://en.wiktionary.org/wiki/matir#Gaulish
+	'''))
+
+print('GAULISH')
+write('data/inflection/indo-european/celtic/gaulish/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Gaulish'), noun_html)
+	)
+)
+
+print('GAULISH')
+write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Gaulish'), 
+			noun_html
+		)
+	)
+)
+
+write('data/inflection/indo-european/celtic/gaulish/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Gaulish'), 
+			parsing.tokenpoints('''
+				appear    
+				be-inherently  # essi
+				be-momentarily # essi
+				change    # cambī-t
+				climb     # dreng-et
+				crawl     
+				cool      
+				direct    # reg-et "conduct"
+				displease 
+				eat       # esset
+				endure    # pass-et
+				fall      # cedet
+				fly       # etet
+				flow      
+				hear      
+				occupy    # atrebā-t
+				resemble  
+				rest      
+				see       # appiseto
+				show      # deicet
+				startle   
+				swim      # snat
+				walk      # cerd-et
+				warm      # taiet
+				watch     # uiliet
+				work      # ureget
+			''')
+		)
+	)
+)
+
+raise 'done'
 
 
 
@@ -142,46 +547,49 @@ print('ARABIC')
 write('data/inflection/semitic/arabic/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Arabic', 'ar'), 
-			parsing.tokenpoints('''
-				animal    https://en.wiktionary.org/wiki/%D8%AD%D9%8A%D9%88%D8%A7%D9%86#Arabic
-				attention https://en.wiktionary.org/wiki/%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85#Arabic
-				bird      https://en.wiktionary.org/wiki/%D8%B7%D8%A7%D8%A6%D8%B1#Arabic
-				boat      https://en.wiktionary.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8#Arabic
-				book      https://en.wiktionary.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8#Arabic
-				bug       https://en.wiktionary.org/wiki/%D8%AD%D8%B4%D8%B1%D8%A9#Arabic
-				clothing  https://en.wiktionary.org/wiki/%D9%85%D9%84%D8%A7%D8%A8%D8%B3#Arabic
-				daughter  https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%86%D8%A9#Arabic
-				dog       https://en.wiktionary.org/wiki/%D9%83%D9%84%D8%A8#Arabic
-				door      https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%A8#Arabic
-				drum      https://en.wiktionary.org/wiki/%D8%B7%D8%A8%D9%84#Arabic
-				enemy     https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%88#Arabic
-				fire      https://en.wiktionary.org/wiki/%D9%86%D8%A7%D8%B1#Arabic
-				food      https://en.wiktionary.org/wiki/%D8%B7%D8%B9%D8%A7%D9%85#Arabic
-				gift      https://en.wiktionary.org/wiki/%D9%87%D8%AF%D9%8A%D8%A9#Arabic
-				glass     https://en.wiktionary.org/wiki/%D8%B2%D8%AC%D8%A7%D8%AC#Arabic
-				guard     https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D8%B1%D8%B3#Arabic
-				horse     https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic
-				house     https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D8%AA#Arabic
-				livestock https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%B4%D9%8A%D8%A9#Arabic
-				love      https://en.wiktionary.org/wiki/%D9%85%D8%AD%D8%A8%D8%A9#Arabic
-				idea      https://en.wiktionary.org/wiki/%D9%81%D9%83%D8%B1%D8%A9#Arabic
-				man       https://en.wiktionary.org/wiki/%D8%B1%D8%AC%D9%84#Arabic
-				money     https://en.wiktionary.org/wiki/%D9%86%D9%82%D9%88%D8%AF#Arabic
-				monster   https://en.wiktionary.org/wiki/%D9%88%D8%AD%D8%B4#Arabic
-				name      https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%85#Arabic
-				rock      https://en.wiktionary.org/wiki/%D8%B5%D8%AE%D8%B1%D8%A9#Arabic
-				rope      https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%84#Arabic
-				size      https://en.wiktionary.org/wiki/%D9%85%D9%82%D8%A7%D8%B3#Arabic
-				son       https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%86#Arabic
-				sound     https://en.wiktionary.org/wiki/%D8%B5%D9%88%D8%AA#Arabic
-				warmth    https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9#Arabic
-				water     https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%A1#Arabic
-				way       https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D9%8A%D9%82#Arabic
-				wind      https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D8%AD#Arabic
-				window    https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%81%D8%B0%D8%A9#Arabic
-				woman     https://en.wiktionary.org/wiki/%D8%A7%D9%85%D8%B1%D8%A3%D8%A9#Arabic
-				work      https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D9%85%D8%A9#Arabic
-			''')
+			lemma_html(
+				parsing.tokenpoints('''
+					animal    https://en.wiktionary.org/wiki/%D8%AD%D9%8A%D9%88%D8%A7%D9%86#Arabic
+					attention https://en.wiktionary.org/wiki/%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85#Arabic
+					bird      https://en.wiktionary.org/wiki/%D8%B7%D8%A7%D8%A6%D8%B1#Arabic
+					boat      https://en.wiktionary.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8#Arabic
+					book      https://en.wiktionary.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8#Arabic
+					brother   https://en.wiktionary.org/wiki/%D8%A3%D8%AE#Arabic
+					bug       https://en.wiktionary.org/wiki/%D8%AD%D8%B4%D8%B1%D8%A9#Arabic
+					clothing  https://en.wiktionary.org/wiki/%D9%85%D9%84%D8%A7%D8%A8%D8%B3#Arabic
+					daughter  https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%86%D8%A9#Arabic
+					dog       https://en.wiktionary.org/wiki/%D9%83%D9%84%D8%A8#Arabic
+					door      https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%A8#Arabic
+					drum      https://en.wiktionary.org/wiki/%D8%B7%D8%A8%D9%84#Arabic
+					enemy     https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%88#Arabic
+					fire      https://en.wiktionary.org/wiki/%D9%86%D8%A7%D8%B1#Arabic
+					food      https://en.wiktionary.org/wiki/%D8%B7%D8%B9%D8%A7%D9%85#Arabic
+					gift      https://en.wiktionary.org/wiki/%D9%87%D8%AF%D9%8A%D8%A9#Arabic
+					glass     https://en.wiktionary.org/wiki/%D8%B2%D8%AC%D8%A7%D8%AC#Arabic
+					guard     https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D8%B1%D8%B3#Arabic
+					horse     https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic
+					house     https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D8%AA#Arabic
+					livestock https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%B4%D9%8A%D8%A9#Arabic
+					love      https://en.wiktionary.org/wiki/%D9%85%D8%AD%D8%A8%D8%A9#Arabic
+					idea      https://en.wiktionary.org/wiki/%D9%81%D9%83%D8%B1%D8%A9#Arabic
+					man       https://en.wiktionary.org/wiki/%D8%B1%D8%AC%D9%84#Arabic
+					money     https://en.wiktionary.org/wiki/%D9%86%D9%82%D9%88%D8%AF#Arabic
+					monster   https://en.wiktionary.org/wiki/%D9%88%D8%AD%D8%B4#Arabic
+					name      https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%85#Arabic
+					rock      https://en.wiktionary.org/wiki/%D8%B5%D8%AE%D8%B1%D8%A9#Arabic
+					rope      https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%84#Arabic
+					size      https://en.wiktionary.org/wiki/%D9%85%D9%82%D8%A7%D8%B3#Arabic
+					son       https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%86#Arabic
+					sound     https://en.wiktionary.org/wiki/%D8%B5%D9%88%D8%AA#Arabic
+					warmth    https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9#Arabic
+					water     https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%A1#Arabic
+					way       https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D9%8A%D9%82#Arabic
+					wind      https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D8%AD#Arabic
+					window    https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%81%D8%B0%D8%A9#Arabic
+					woman     https://en.wiktionary.org/wiki/%D8%A7%D9%85%D8%B1%D8%A3%D8%A9#Arabic
+					work      https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D9%85%D8%A9#Arabic
+				''')
+			)
 		)
 	)
 )
@@ -221,7 +629,6 @@ write('data/inflection/semitic/arabic/scraped-verbs.tsv',
 	)
 )
 
-
 print('BASQUE')
 write('data/inflection/basque/scraped-nouns.tsv',
 	formatting.format(
@@ -232,6 +639,7 @@ write('data/inflection/basque/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/txori#Basque
 				boat      https://en.wiktionary.org/wiki/txalupa#Basque
 				book      https://en.wiktionary.org/wiki/liburu#Basque
+				brother   https://en.wiktionary.org/wiki/anaia#Basque
 				bug       https://en.wiktionary.org/wiki/zomorro#Basque
 				clothing  https://en.wiktionary.org/wiki/jantzi#Basque
 				daughter  https://en.wiktionary.org/wiki/alaba#Basque
@@ -359,6 +767,7 @@ write('data/inflection/egyptian/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%EA%9C%A3pd#Egyptian
 				boat      https://en.wiktionary.org/wiki/jmw#Egyptian
 				book      https://en.wiktionary.org/wiki/m%E1%B8%8F%EA%9C%A3t#Egyptian
+				brother   https://en.wiktionary.org/wiki/sn#Egyptian
 				bug       https://en.wiktionary.org/wiki/%EA%9C%A5p%C5%A1%EA%9C%A3y#Egyptian
 				clothing  https://en.wiktionary.org/wiki/mn%E1%B8%ABt#Egyptian
 				daughter  https://en.wiktionary.org/wiki/z%EA%9C%A3t#Egyptian
@@ -443,6 +852,7 @@ write('data/inflection/uralic/finnish/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/lintu#Finnish
 				boat      https://en.wiktionary.org/wiki/vene#Finnish
 				book      https://en.wiktionary.org/wiki/kirja#Finnish
+				brother   https://en.wiktionary.org/wiki/veli#Finnish
 				bug       https://en.wiktionary.org/wiki/%C3%B6t%C3%B6kk%C3%A4#Finnish
 				clothing  https://en.wiktionary.org/wiki/vaatetus#Finnish
 				daughter  https://en.wiktionary.org/wiki/tyt%C3%A4r#Finnish
@@ -563,92 +973,6 @@ write('data/inflection/indo-european/romance/french/modern/scraped-verbs.tsv',
 
 
 
-print('GAULISH')
-write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Gaulish'), 
-			parsing.tokenpoints('''
-				animal    # oxsus
-				attention # ueliia
-				bird      # etnos
-				boat      # nawa
-				book      # libros
-				bug       https://en.wiktionary.org/wiki/bekos#Gaulish # "bee"
-				clothing  # karakalla "tunic"
-				daughter  https://en.wiktionary.org/wiki/duxtir#Gaulish
-				dog       # cu
-				door      # dworon
-				drum      # tanaros
-				enemy     https://en.wiktionary.org/wiki/Reconstruction:Gaulish/namants
-				fire      # aidus
-				food      # depron
-				gift      # danus
-				glass     # lagos
-				guard     # soliduryos
-				horse     https://en.wiktionary.org/wiki/markos#Gaulish
-				house     # tegia
-				livestock https://en.wiktionary.org/wiki/taruos#Gaulish # "domestic horned beast"
-				love      # serka
-				idea      # britus
-				man       # uiros
-				money     # sutegon
-				monster   # angos
-				name      # anuan
-				rock      https://en.wiktionary.org/wiki/artua#Gaulish
-				rope      # soka
-				size      # manti
-				son       https://en.wiktionary.org/wiki/mapos#Gaulish
-				sound     # bruxtus
-				warmth    # tessis
-				water     # dubron
-				way       # mantle
-				wind      # auelos
-				window    # iagos
-				woman     https://en.wiktionary.org/wiki/bena#Gaulish
-				work      # uergon
-
-				father    https://en.wiktionary.org/wiki/atir#Gaulish
-				mother    https://en.wiktionary.org/wiki/matir#Gaulish
-			''')
-		)
-	)
-)
-
-write('data/inflection/indo-european/celtic/gaulish/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Gaulish'), 
-			parsing.tokenpoints('''
-				appear    
-				be-inherently  # essi
-				be-momentarily # essi
-				change    # cambī-t
-				climb     # dreng-et
-				crawl     
-				cool      
-				direct    # reg-et "conduct"
-				displease 
-				eat       # esset
-				endure    # pass-et
-				fall      # cedet
-				fly       # etet
-				flow      
-				hear      
-				occupy    # atrebā-t
-				resemble  
-				rest      
-				see       # appiseto
-				show      # deicet
-				startle   
-				swim      # snat
-				walk      # cerd-et
-				warm      # taiet
-				watch     # uiliet
-				work      # ureget
-			''')
-		)
-	)
-)
-
 
 print('GEORGIAN')
 write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
@@ -660,6 +984,7 @@ write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%E1%83%A9%E1%83%98%E1%83%A2%E1%83%98#Georgian
 				boat      https://en.wiktionary.org/wiki/%E1%83%9C%E1%83%90%E1%83%95%E1%83%98#Georgian
 				book      https://en.wiktionary.org/wiki/%E1%83%AC%E1%83%98%E1%83%92%E1%83%9C%E1%83%98#Georgian
+				brother   https://en.wiktionary.org/wiki/%E1%83%AB%E1%83%9B%E1%83%90#Georgian
 				bug       https://en.wiktionary.org/wiki/%E1%83%9B%E1%83%AC%E1%83%94%E1%83%A0%E1%83%98#Georgian
 				clothing  https://en.wiktionary.org/wiki/%E1%83%A2%E1%83%90%E1%83%9C%E1%83%A1%E1%83%90%E1%83%AA%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98#Georgian
 				daughter  https://en.wiktionary.org/wiki/%E1%83%90%E1%83%A1%E1%83%A3%E1%83%9A%E1%83%98#Georgian
@@ -745,6 +1070,7 @@ write('data/inflection/indo-european/germanic/german/modern/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/Vogel#German
 				boat      https://en.wiktionary.org/wiki/Boot#German
 				book      https://en.wiktionary.org/wiki/Buch#German
+				brother   https://en.wiktionary.org/wiki/Bruder#German
 				bug       https://en.wiktionary.org/wiki/Wanze#German
 				clothing  https://en.wiktionary.org/wiki/Kleidungsst%C3%BCck#German # "garment"
 				daughter  https://en.wiktionary.org/wiki/Tochter#German
@@ -828,6 +1154,7 @@ write('data/inflection/indo-european/germanic/gothic/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%F0%90%8D%86%F0%90%8C%BF%F0%90%8C%B2%F0%90%8C%BB%F0%90%8D%83#Gothic
 				boat      https://en.wiktionary.org/wiki/%F0%90%8D%83%F0%90%8C%BA%F0%90%8C%B9%F0%90%8D%80#Gothic
 				book      https://en.wiktionary.org/wiki/%F0%90%8C%B1%F0%90%8D%89%F0%90%8C%BA%F0%90%8D%89%F0%90%8D%83#Gothic
+				brother   
 				bug       
 				clothing  https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B0%F0%90%8D%83%F0%90%8D%84%F0%90%8C%B9#Gothic
 				daughter  https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8C%B0%F0%90%8C%BF%F0%90%8C%B7%F0%90%8D%84%F0%90%8C%B0%F0%90%8D%82#Gothic
@@ -914,6 +1241,7 @@ write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%CF%80%CF%84%CE%B7%CE%BD%CF%8C#Greek
 				boat      https://en.wiktionary.org/wiki/%CE%B2%CE%AC%CF%81%CE%BA%CE%B1#Greek
 				book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF#Greek
+				brother   https://en.wiktionary.org/wiki/%CE%B1%CE%B4%CE%B5%CE%BB%CF%86%CF%8C%CF%82#Greek
 				bug       https://en.wiktionary.org/wiki/%CE%B6%CE%BF%CF%85%CE%B6%CE%BF%CF%8D%CE%BD%CE%B9#Greek
 				clothing  https://en.wiktionary.org/wiki/%CF%81%CE%BF%CF%8D%CF%87%CE%BF#Greek
 				daughter  https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B7#Greek
@@ -987,146 +1315,6 @@ write('data/inflection/indo-european/greek/modern/scraped-verbs.tsv',
 	)
 )
 
-print('GREEK/ANCIENT')
-write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(GreekRowMajorWikiTableHtml(ops),
-			parsing.tokenpoints('''
-				animal    https://en.wiktionary.org/wiki/%CE%B6%E1%BF%B7%CE%BF%CE%BD#Ancient_Greek
-				attention https://en.wiktionary.org/wiki/%CF%86%CF%81%CE%BF%CE%BD%CF%84%CE%AF%CF%82#Ancient_Greek
-				bird      https://en.wiktionary.org/wiki/%E1%BD%84%CF%81%CE%BD%CE%B9%CF%82#Ancient_Greek
-				boat      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82#Ancient_Greek
-				book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%CE%BD#Ancient_Greek
-				bug       https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CF%84%CE%BF%CE%BC%CE%BF%CE%BD#Ancient_Greek
-				dog       https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CF%89%CE%BD#Ancient_Greek
-				door      https://en.wiktionary.org/wiki/%CE%B8%CF%8D%CF%81%CE%B1#Ancient_Greek
-				clothing  https://en.wiktionary.org/wiki/%E1%BC%90%CF%83%CE%B8%CE%AE%CF%82#Ancient_Greek
-				daughter  https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81#Ancient_Greek
-				drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF%CE%BD#Ancient_Greek
-				enemy     https://en.wiktionary.org/wiki/%E1%BC%90%CF%87%CE%B8%CF%81%CF%8C%CF%82#Ancient_Greek
-				fire      https://en.wiktionary.org/wiki/%CF%80%E1%BF%A6%CF%81#Ancient_Greek
-				food      https://en.wiktionary.org/wiki/%CE%B2%CF%81%E1%BF%B6%CE%BC%CE%B1#Ancient_Greek
-				food      https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%B4%CE%B1%CF%81#Ancient_Greek
-				gift      https://en.wiktionary.org/wiki/%CE%B4%E1%BF%B6%CF%81%CE%BF%CE%BD#Ancient_Greek
-				glass     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B1%CE%BB%CE%BF%CF%82#Ancient_Greek
-				guard     https://en.wiktionary.org/wiki/%CF%84%CE%B7%CF%81%CF%8C%CF%82#Ancient_Greek
-				horse     https://en.wiktionary.org/wiki/%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82#Ancient_Greek
-				house     https://en.wiktionary.org/wiki/%CE%BF%E1%BC%B6%CE%BA%CE%BF%CF%82#Ancient_Greek
-				livestock https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BD%CE%BF%CF%82#Ancient_Greek
-				love      https://en.wiktionary.org/wiki/%CF%86%CE%B9%CE%BB%CE%AF%CE%B1#Ancient_Greek
-				idea      https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek
-				man       https://en.wiktionary.org/wiki/%E1%BC%80%CE%BD%CE%AE%CF%81#Ancient_Greek
-				money     https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CF%81%CE%BC%CE%B1#Ancient_Greek
-				monster   https://en.wiktionary.org/wiki/%CF%84%CE%AD%CF%81%CE%B1%CF%82#Ancient_Greek
-				name      https://en.wiktionary.org/wiki/%E1%BD%84%CE%BD%CE%BF%CE%BC%CE%B1#Ancient_Greek
-				rock      https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#Ancient_Greek
-				rope      https://en.wiktionary.org/wiki/%CF%83%CE%B5%CE%B9%CF%81%CE%AC#Ancient_Greek
-				size      https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CE%B3%CE%B5%CE%B8%CE%BF%CF%82#Ancient_Greek
-				son       https://en.wiktionary.org/wiki/%CF%85%E1%BC%B1%CF%8C%CF%82#Ancient_Greek
-				sound     https://en.wiktionary.org/wiki/%E1%BC%A6%CF%87%CE%BF%CF%82#Ancient_Greek
-				warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%AD%CF%81%CE%BC%CE%B7#Ancient_Greek
-				water     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek
-				way       https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%BB%CE%B5%CF%85%CE%B8%CE%BF%CF%82#Ancient_Greek
-				wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
-				window    https://en.wiktionary.org/wiki/%CE%B8%CF%85%CF%81%CE%AF%CF%82#Ancient_Greek
-				woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%AE#Ancient_Greek
-				work      https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
-
-				young-man https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CE%B1%CE%BD%CE%AF%CE%B1%CF%82
-				soldier   https://en.wiktionary.org/wiki/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B9%CF%8E%CF%84%CE%B7%CF%82
-				polity    https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1
-				village   https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BC%CE%B7
-				person    https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82
-				street    https://en.wiktionary.org/wiki/%E1%BD%81%CE%B4%CF%8C%CF%82
-				circumnavigation https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CE%AF%CF%80%CE%BB%CE%BF%CF%85%CF%82
-				bone      https://en.wiktionary.org/wiki/%E1%BD%80%CF%83%CF%84%CE%BF%E1%BF%A6%CE%BD
-				hero      https://en.wiktionary.org/wiki/%E1%BC%A5%CF%81%CF%89%CF%82
-				fish      https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CE%B8%CF%8D%CF%82
-				oak       https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82
-				city      https://en.wiktionary.org/wiki/%CF%80%CF%8C%CE%BB%CE%B9%CF%82
-				axe       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CE%BB%CE%B5%CE%BA%CF%85%CF%82
-				town      https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CF%84%CF%85
-				master    https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82
-				old-woman https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%B1%E1%BF%A6%CF%82
-				cow       https://en.wiktionary.org/wiki/%CE%B2%CE%BF%E1%BF%A6%CF%82
-				echo      https://en.wiktionary.org/wiki/%E1%BC%A0%CF%87%CF%8E
-				Clio      https://en.wiktionary.org/wiki/%CE%9A%CE%BB%CE%B5%CE%B9%CF%8E
-				crow      https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B1%CE%BE
-				vulture   https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88
-				rug       https://en.wiktionary.org/wiki/%CF%84%CE%AC%CF%80%CE%B7%CF%82
-				giant     https://en.wiktionary.org/wiki/%CE%B3%CE%AF%CE%B3%CE%B1%CF%82
-				tooth     https://en.wiktionary.org/wiki/%E1%BD%80%CE%B4%CE%BF%CF%8D%CF%82
-				old-man   https://en.wiktionary.org/wiki/%CE%B3%CE%AD%CF%81%CF%89%CE%BD
-				property  https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BC%CE%B1
-				Greek     https://en.wiktionary.org/wiki/%E1%BC%9D%CE%BB%CE%BB%CE%B7%CE%BD
-				winter    https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%B9%CE%BC%CF%8E%CE%BD
-				Titan     https://en.wiktionary.org/wiki/%CE%A4%CE%B9%CF%84%CE%AC%CE%BD
-				light-ray https://en.wiktionary.org/wiki/%E1%BC%80%CE%BA%CF%84%CE%AF%CF%82
-				shepherd  https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%B9%CE%BC%CE%AE%CE%BD
-				guide     https://en.wiktionary.org/wiki/%E1%BC%A1%CE%B3%CE%B5%CE%BC%CF%8E%CE%BD
-				neighbor  https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CE%AF%CF%84%CF%89%CE%BD
-				ichor     https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CF%8E%CF%81
-				chaff     https://en.wiktionary.org/wiki/%E1%BC%80%CE%B8%CE%AE%CF%81
-				orator    https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AE%CF%84%CF%89%CF%81
-				father    https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AE%CF%81
-				Demeter   https://en.wiktionary.org/wiki/%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CE%B7%CF%81
-				Socrates  https://en.wiktionary.org/wiki/%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%B7%CF%82
-				Pericles  https://en.wiktionary.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%E1%BF%86%CF%82
-				arrow     https://en.wiktionary.org/wiki/%CE%B2%CE%AD%CE%BB%CE%BF%CF%82
-	            foundation https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CE%B1%CF%86%CE%BF%CF%82#Ancient_Greek
-	            shame     https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B0%CE%B4%CF%8E%CF%82#Ancient_Greek
-	            Ares      https://en.wiktionary.org/wiki/%E1%BC%8C%CF%81%CE%B7%CF%82
-	            Thales    https://en.wiktionary.org/wiki/%CE%98%CE%B1%CE%BB%E1%BF%86%CF%82
-	            Oedipus   https://en.wiktionary.org/wiki/%CE%9F%E1%BC%B0%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82
-	            Apollo    https://en.wiktionary.org/wiki/%E1%BC%88%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD
-	            knee      https://en.wiktionary.org/wiki/%CE%B3%CF%8C%CE%BD%CF%85
-	            wood      https://en.wiktionary.org/wiki/%CE%B4%CF%8C%CF%81%CF%85
-	            Zeus      https://en.wiktionary.org/wiki/%CE%96%CE%B5%CF%8D%CF%82
-	            liver     https://en.wiktionary.org/wiki/%E1%BC%A7%CF%80%CE%B1%CF%81
-	            ship      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82
-	            ear       https://en.wiktionary.org/wiki/%CE%BF%E1%BD%96%CF%82
-	            hand      https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%AF%CF%81
-			''')
-		)
-	)
-)
-
-
-write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Ancient_Greek', 'grc'), 
-			parsing.tokenpoints('''
-				appear    https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B4%CE%B4%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
-				be-inherently  https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B0%CE%BC%CE%AF#Ancient_Greek
-				be-momentarily
-				change    https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CE%BB%CE%AC%CF%83%CF%83%CF%89#Ancient_Greek
-				climb     
-				crawl     
-				cool      
-				direct    https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CF%89#Ancient_Greek
-				displease https://en.wiktionary.org/wiki/%E1%BC%80%CF%80%CE%B1%CF%81%CE%AD%CF%83%CE%BA%CF%89#Ancient_Greek
-				eat       https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CF%89#Ancient_Greek
-				endure    https://en.wiktionary.org/wiki/%E1%BD%91%CF%80%CE%BF%CE%BC%CE%AD%CE%BD%CF%89#Ancient_Greek
-				fall      https://en.wiktionary.org/wiki/%CF%80%CE%AF%CF%80%CF%84%CF%89#Ancient_Greek
-				fly       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%84%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
-				flow      
-				hear      
-				occupy    
-				resemble  
-				rest      
-				see       https://en.wiktionary.org/wiki/%CE%B2%CE%BB%CE%AD%CF%80%CF%89#Ancient_Greek
-				show      https://en.wiktionary.org/wiki/%CE%B4%CE%B5%CE%AF%CE%BA%CE%BD%CF%85%CE%BC%CE%B9#Ancient_Greek
-				startle   https://en.wiktionary.org/wiki/%CF%86%CE%BF%CE%B2%CE%AD%CF%89#Ancient_Greek # "terrify"
-				swim      https://en.wiktionary.org/wiki/%CE%BD%CE%AD%CF%89#Ancient_Greek
-				walk      https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AD%CF%89#Ancient_Greek
-				warm      https://en.wiktionary.org/wiki/%CE%B8%CE%AC%CE%BB%CF%80%CF%89#Ancient_Greek
-				watch     https://en.wiktionary.org/wiki/%CF%83%CE%BA%CE%BF%CF%80%CE%AD%CF%89#Ancient_Greek
-				work      https://en.wiktionary.org/wiki/%E1%BC%90%CF%81%CE%B3%CE%AC%CE%B6%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
-			''')
-		)
-	)
-)
-
 print('HEBREW')
 write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 	formatting.format(
@@ -1137,6 +1325,7 @@ write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 				bird      
 				boat      
 				book      https://en.wiktionary.org/wiki/%D7%A1%D7%A4%D7%A8#Hebrew
+				brother   https://en.wiktionary.org/wiki/%D7%90%D7%97#Hebrew
 				bug       
 				clothing  
 				daughter  https://en.wiktionary.org/wiki/%D7%91%D7%AA#Hebrew
@@ -1221,6 +1410,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%82%E0%A4%9B%E0%A5%80#Hindi
 				boat      https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%B5#Hindi
 				book      https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%95#Hindi
+				brother   https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%88#Hindi
 				bug       https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%80%E0%A4%A1%E0%A4%BC%E0%A4%BE#Hindi
 				clothing  https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0#Hindi
 				daughter  https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80#Hindi
@@ -1305,6 +1495,7 @@ write('data/inflection/indo-european/hittite/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%F0%92%84%A9%F0%92%80%80%F0%92%8A%8F%F0%92%80%B8#Hittite # eagle
 				boat      
 				book      
+				brother
 				bug       
 				clothing  
 				daughter  
@@ -1399,6 +1590,7 @@ write('data/inflection/uralic/hungarian/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/mad%C3%A1r#Hungarian
 				boat      https://en.wiktionary.org/wiki/cs%C3%B3nak#Hungarian
 				book      https://en.wiktionary.org/wiki/k%C3%B6nyv#Hungarian
+				brother   https://en.wiktionary.org/wiki/fiv%C3%A9r#Hungarian
 				bug       https://en.wiktionary.org/wiki/bog%C3%A1r#Hungarian
 				clothing  https://en.wiktionary.org/wiki/ruh%C3%A1zat#Hungarian
 				daughter  https://en.wiktionary.org/wiki/l%C3%A1ny#Hungarian
@@ -1485,6 +1677,7 @@ write('data/inflection/indo-european/celtic/irish/modern/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%C3%A9an#Irish
 				boat      https://en.wiktionary.org/wiki/b%C3%A1d#Irish
 				book      https://en.wiktionary.org/wiki/leabhar#Irish
+				brother   https://en.wiktionary.org/wiki/dearth%C3%A1ir#Irish
 				bug       https://en.wiktionary.org/wiki/feithid#Irish
 				clothing  https://en.wiktionary.org/wiki/%C3%A9adach#Irish
 				daughter  https://en.wiktionary.org/wiki/in%C3%ADon#Irish
@@ -1632,118 +1825,6 @@ write('data/inflection/japanese/modern/scraped-verbs.tsv',
 )
 
 
-print('LATIN')
-write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Latin', 'la'), 
-			parsing.tokenpoints('''
-				animal    https://en.wiktionary.org/wiki/animal#Latin
-				attention https://en.wiktionary.org/wiki/attentio#Latin
-				bird      https://en.wiktionary.org/wiki/avis#Latin
-				boat      https://en.wiktionary.org/wiki/navis#Latin
-				book      https://en.wiktionary.org/wiki/caudex#Latin
-				bug       https://en.wiktionary.org/wiki/cimex#Latin
-				clothing  https://en.wiktionary.org/wiki/vestis#Latin
-				daughter  https://en.wiktionary.org/wiki/filia#Latin
-				dog       https://en.wiktionary.org/wiki/canis#Latin
-				door      https://en.wiktionary.org/wiki/foris#Latin
-				drum      https://en.wiktionary.org/wiki/tympanum#Latin
-				enemy     https://en.wiktionary.org/wiki/inimicus#Latin
-				fire      https://en.wiktionary.org/wiki/ignis#Latin
-				food      https://en.wiktionary.org/wiki/cibus#Latin
-				gift      https://en.wiktionary.org/wiki/donum#Latin
-				glass     https://en.wiktionary.org/wiki/vitrum#Latin
-				guard     https://en.wiktionary.org/wiki/custos#Latin
-				horse     https://en.wiktionary.org/wiki/equus#Latin
-				house     https://en.wiktionary.org/wiki/domus#Latin
-				livestock https://en.wiktionary.org/wiki/pecus#Latin
-				love      https://en.wiktionary.org/wiki/caritas#Latin
-				idea      https://en.wiktionary.org/wiki/idea#Latin
-				man       https://en.wiktionary.org/wiki/homo#Latin
-				money     https://en.wiktionary.org/wiki/pecunia#Latin
-				monster   https://en.wiktionary.org/wiki/belua#Latin
-				name      https://en.wiktionary.org/wiki/saxum#Latin
-				rock      https://en.wiktionary.org/wiki/saxum#Latin
-				rope      https://en.wiktionary.org/wiki/restis#Latin
-				size      https://en.wiktionary.org/wiki/magnitudo#Latin
-				son       https://en.wiktionary.org/wiki/filius#Latin
-				sound     https://en.wiktionary.org/wiki/sonus#Latin
-				warmth    https://en.wiktionary.org/wiki/calor#Latin
-				water     https://en.wiktionary.org/wiki/aqua#Latin
-				way       https://en.wiktionary.org/wiki/via#Latin
-				wind      https://en.wiktionary.org/wiki/ventus#Latin
-				window    https://en.wiktionary.org/wiki/fenestra#Latin
-				woman     https://en.wiktionary.org/wiki/femina#Latin
-				work      https://en.wiktionary.org/wiki/labor#Latin
-
-				day       https://en.wiktionary.org/wiki/dies#Latin
-				hand      https://en.wiktionary.org/wiki/manus#Latin
-				night     https://en.wiktionary.org/wiki/nox#Latin
-				thing     https://en.wiktionary.org/wiki/res#Latin
-				war       https://en.wiktionary.org/wiki/bellum#Latin
-				air       https://en.wiktionary.org/wiki/aero#Latin
-				boy       https://en.wiktionary.org/wiki/puer#Latin
-				star      https://en.wiktionary.org/wiki/stella#Latin
-				tower     https://en.wiktionary.org/wiki/turris
-				horn      https://en.wiktionary.org/wiki/cornu#Latin
-				sailor    https://en.wiktionary.org/wiki/nauta#Latin
-				foundation https://en.wiktionary.org/wiki/basis#Latin
-				echo      https://en.wiktionary.org/wiki/echo#Latin
-				phenomenon https://en.wiktionary.org/wiki/phaenomenon#Latin
-				vine      https://en.wiktionary.org/wiki/ampelos#Latin
-				myth      https://en.wiktionary.org/wiki/mythos#Latin
-				atom      https://en.wiktionary.org/wiki/atomus#Latin
-				nymph     https://en.wiktionary.org/wiki/nymphe#Latin
-				comet     https://en.wiktionary.org/wiki/cometes#Latin
-			''')
-		)
-	)
-)
-
-write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Latin', 'la'), 
-			parsing.tokenpoints('''
-				appear    https://en.wiktionary.org/wiki/appareo#Latin
-				be-inherently  https://en.wiktionary.org/wiki/sum#Latin
-				be-momentarily https://en.wiktionary.org/wiki/sum#Latin
-				change    https://en.wiktionary.org/wiki/cambio#Latin
-				climb     https://en.wiktionary.org/wiki/ascendo#Latin
-				crawl     
-				cool      
-				direct    https://en.wiktionary.org/wiki/duco#Latin
-				displease https://en.wiktionary.org/wiki/displiceo#Latin
-				eat       https://en.wiktionary.org/wiki/edo#Latin
-				endure    https://en.wiktionary.org/wiki/perpetior#Latin
-				fall      https://en.wiktionary.org/wiki/cado#Latin
-				fly       https://en.wiktionary.org/wiki/volo#Latin
-				flow      
-				hear      https://en.wiktionary.org/wiki/audio#Latin
-				occupy    
-				resemble  https://en.wiktionary.org/wiki/similo#Latin
-				rest      https://en.wiktionary.org/wiki/requiesco#Latin
-				see       https://en.wiktionary.org/wiki/video#Latin
-				show      https://en.wiktionary.org/wiki/monstro#Latin
-				startle   https://en.wiktionary.org/wiki/pavefacio#Latin
-				swim      https://en.wiktionary.org/wiki/nato#Latin
-				walk      https://en.wiktionary.org/wiki/ambulo#Latin
-				warm      https://en.wiktionary.org/wiki/calefacio#Latin
-				watch     https://en.wiktionary.org/wiki/specto#Latin
-				work      https://en.wiktionary.org/wiki/laboro#Latin
-
-				be        https://en.wiktionary.org/wiki/sum#Latin
-				be-able   https://en.wiktionary.org/wiki/possum#Latin
-				want      https://en.wiktionary.org/wiki/volo#Latin
-				become    https://en.wiktionary.org/wiki/fio#Latin
-				go        https://en.wiktionary.org/wiki/eo#Latin
-				carry     https://en.wiktionary.org/wiki/fero#Latin
-				love      https://en.wiktionary.org/wiki/amo#Latin
-				advise    https://en.wiktionary.org/wiki/moneo#Latin
-				capture   https://en.wiktionary.org/wiki/capio#Latin
-			''')
-		)
-	)
-)
 
 print('OLD-CHURCH-SLAVONIC')
 write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.tsv',
@@ -1755,6 +1836,7 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.ts
 				bird      https://en.wiktionary.org/wiki/%D0%BF%D1%8A%D1%82%D0%B8%D1%86%D0%B0#Old_Church_Slavonic
 				boat      https://en.wiktionary.org/wiki/%D0%BB%D0%B0%D0%B4%D0%B8%D0%B8#Old_Church_Slavonic
 				book      https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D1%83%D0%BA%EA%99%91#Old_Church_Slavonic
+				brother   https://en.wiktionary.org/wiki/%D0%B1%D1%80%D0%B0%D1%82%D1%80%D1%8A#Old_Church_Slavonic
 				bug       
 				clothing  https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0#Old_Church_Slavonic
 				daughter  https://en.wiktionary.org/wiki/%D0%B4%D1%8A%D1%89%D0%B8#Old_Church_Slavonic
@@ -1839,6 +1921,7 @@ write('data/inflection/indo-european/germanic/english/old/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/fugol#Old_English
 				boat      https://en.wiktionary.org/wiki/bat#Old_English
 				book      https://en.wiktionary.org/wiki/boc#Old_English
+				brother   https://en.wiktionary.org/wiki/bro%C3%BEor#Old_English
 				bug       https://en.wiktionary.org/wiki/budda#Old_English
 				clothing  https://en.wiktionary.org/wiki/scrud#Old_English
 				daughter  https://en.wiktionary.org/wiki/dohtor#Old_English
@@ -1946,6 +2029,7 @@ write('data/inflection/quechuan/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/pisqu#Quechua
 				boat      https://en.wiktionary.org/wiki/wamp%27u#Quechua
 				book      https://en.wiktionary.org/wiki/liwru#Quechua
+				brother   https://en.wiktionary.org/wiki/turi#Quechua
 				bug       
 				clothing  
 				daughter  
@@ -2030,6 +2114,7 @@ write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%D0%BF%D1%82%D0%B8%D1%86%D0%B0#Russian
 				boat      https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D0%B4%D0%BA%D0%B0#Russian
 				book      https://en.wiktionary.org/wiki/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8#Russian
+				brother   https://en.wiktionary.org/wiki/%D0%B1%D1%80%D0%B0%D1%82#Russian
 				bug       https://en.wiktionary.org/wiki/%D0%B1%D1%83%D0%BA%D0%B0%D1%88%D0%BA%D0%B0#Russian
 				clothing  https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0#Russian
 				daughter  https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D1%87%D1%8C#Russian
@@ -2127,6 +2212,7 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BF#Sanskrit
 				boat      https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A5%8C#Sanskrit
 				book      https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%95#Sanskrit
+				brother   https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A4%E0%A5%83#Sanskrit
 				bug       https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%81#Sanskrit
 				clothing  https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A5%8D#Sanskrit
 				daughter  https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%81%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%83#Sanskrit
@@ -2266,6 +2352,7 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/f%C3%A5gel#Swedish
 				boat      https://en.wiktionary.org/wiki/b%C3%A5t#Swedish
 				book      https://en.wiktionary.org/wiki/bok#Swedish
+				brother   https://en.wiktionary.org/wiki/bror#Swedish
 				bug       https://en.wiktionary.org/wiki/kryp#Swedish
 				clothing  https://en.wiktionary.org/wiki/kl%C3%A4der#Swedish
 				daughter  https://en.wiktionary.org/wiki/dotter#Swedish
@@ -2335,6 +2422,13 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
 				warm      https://en.wiktionary.org/wiki/v%C3%A4rma#Swedish
 				watch     https://en.wiktionary.org/wiki/se_p%C3%A5#Swedish
 				work      https://en.wiktionary.org/wiki/arbeta#Swedish
+
+				go	gå
+				call	kalla
+				close	stänga
+				read	läsa
+				sew	sy
+				strike	stryka
 			''')
 		)
 	)
@@ -2350,6 +2444,7 @@ write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%B1%E0%AE%B5%E0%AF%88#Tamil
 				boat      https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%9F%E0%AE%95%E0%AF%81#Tamil
 				book      https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%95%E0%AE%AE%E0%AF%8D#Tamil
+				brother   https://en.wiktionary.org/wiki/%E0%AE%9A%E0%AE%95%E0%AF%8B%E0%AE%A4%E0%AE%B0%E0%AE%A9%E0%AF%8D#Tamil
 				bug       https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81#Tamil
 				clothing  https://en.wiktionary.org/wiki/%E0%AE%86%E0%AE%9F%E0%AF%88#Tamil
 				daughter  https://en.wiktionary.org/wiki/%E0%AE%AE%E0%AE%95%E0%AE%B3%E0%AF%8D#Tamil
@@ -2434,6 +2529,7 @@ write('data/inflection/turkic/turkish/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/ku%C5%9F#Turkish
 				boat      https://en.wiktionary.org/wiki/kay%C4%B1k#Turkish
 				book      https://en.wiktionary.org/wiki/kitap#Turkish
+				brother   https://en.wiktionary.org/wiki/karde%C5%9F#Turkish
 				bug       https://en.wiktionary.org/wiki/b%C3%B6cek#Turkish
 				clothing  https://en.wiktionary.org/wiki/giysi#Turkish
 				daughter  https://en.wiktionary.org/wiki/k%C4%B1z#Turkish
@@ -2518,6 +2614,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
 				bird      https://en.wiktionary.org/wiki/brid#Middle_English
 				boat      
 				book      
+				brother   
 				bug       
 				clothing  
 				daughter  
@@ -2602,6 +2699,7 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 				bird      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9wis
 				boat      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%C3%A9h%E2%82%82us
 				book      
+				brother   https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0r%C3%A9h%E2%82%82t%C4%93r
 				bug       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pl%C3%BAsis # "flea"
 				clothing  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%A9stis
 				daughter  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0ugh%E2%82%82t%E1%B8%97r
@@ -2650,7 +2748,6 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 		)
 	)
 )
-
 
 write('data/inflection/indo-european/proto-indo-european/sihler/scraped-verbs.tsv',
 	formatting.format(

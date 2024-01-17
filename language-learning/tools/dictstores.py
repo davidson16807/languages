@@ -328,7 +328,7 @@ class DictSpace:
             {**other.key_to_values,
              **self.key_to_values})
     def override(self, other):
-        indexing = self.indexing | other.indexing
+        indexing = other.indexing | self.indexing
         assert type(other) in {DictSpace, DictList}
         if type(other) == DictSpace:
             return DictSpace(

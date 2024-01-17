@@ -1,0 +1,92 @@
+*	*	*	*	case	preposition	postposition	#	
+#	subjectivity	motion	role				#	proto-indo-european
+	subject			nominative	∅	∅	#	
+	addressee			nominative	∅	∅	#	
+	direct-object			nominative	∅	∅	#	
+	indirect-object			nominative	∅	∅	#	
+	adnominal			genitive	∅	∅	#	
+	adverbial		patient	nominative	❕	∅	#	
+	adverbial		theme	nominative	❕	∅	#	
+	adverbial		experiencer	nominative	❕	∅	#	
+	adverbial		stimulus	nominative	❕	∅	#	
+	adverbial		predicate	nominative	❕	∅	#	
+	adverbial		predicand	nominative	❕	∅	#	
+	adverbial	departed	location	nominative	från	∅	#	
+	adverbial	associated	location	nominative	vid	∅	#	
+	adverbial	acquired	location	nominative	till	∅	#	
+	adverbial	approached	location	nominative	mot	∅	#	
+	adverbial	surpassed	location	nominative	❕	∅	#	
+	adverbial	leveraged	location	nominative	genom	∅	#	
+	adverbial	departed	extent	nominative	❕	∅	#	
+	adverbial	associated	extent	nominative	❕	∅	#	
+	adverbial	acquired	extent	nominative	❕	∅	#	
+	adverbial	approached	extent	nominative	❕	∅	#	
+	adverbial	surpassed	extent	nominative	❕	∅	#	
+	adverbial	leveraged	extent	nominative	längs	∅	#	
+	adverbial	departed	vicinity	nominative	❕	∅	#	
+	adverbial	associated	vicinity	nominative	om	∅	#	
+	adverbial	acquired	vicinity	nominative	❕	∅	#	
+	adverbial	approached	vicinity	nominative	❕	∅	#	
+	adverbial	surpassed	vicinity	nominative	❕	∅	#	
+	adverbial	leveraged	vicinity	nominative	❕	∅	#	
+	adverbial	departed	interior	nominative	❕	∅	#	
+	adverbial	associated	interior	nominative	i	∅	#	
+	adverbial	acquired	interior	nominative	❕	∅	#	
+	adverbial	approached	interior	nominative	❕	∅	#	
+	adverbial	surpassed	interior	nominative	❕	∅	#	
+	adverbial	leveraged	interior	nominative	genom	∅	#	
+	adverbial	departed	surface	nominative	❕	∅	#	
+	adverbial	associated	surface	nominative	på	∅	#	
+	adverbial	acquired	surface	nominative	❕	∅	#	
+	adverbial	approached	surface	nominative	❕	∅	#	
+	adverbial	surpassed	surface	nominative	❕	∅	#	
+	adverbial	leveraged	surface	nominative	över	∅	#	
+	adverbial	departed	subsurface	nominative	❕	∅	#	
+	adverbial	associated	subsurface	nominative	under	∅	#	
+	adverbial	acquired	subsurface	nominative	❕	∅	#	
+	adverbial	approached	subsurface	nominative	❕	∅	#	
+	adverbial	surpassed	subsurface	nominative	❕	∅	#	
+	adverbial	leveraged	subsurface	nominative	❕	∅	#	
+	adverbial	departed	presence	nominative	❕	∅	#	
+	adverbial	associated	presence	nominative	❕	∅	#	
+	adverbial	acquired	presence	nominative	❕	∅	#	
+	adverbial	approached	presence	nominative	❕	∅	#	
+	adverbial	surpassed	presence	nominative	❕	∅	#	
+	adverbial	leveraged	presence	nominative	❕	∅	#	
+	adverbial	departed	aid	nominative	❕	∅	#	
+	adverbial	associated	aid	nominative	med	∅	#	
+	adverbial	acquired	aid	nominative	❕	∅	#	
+	adverbial	approached	aid	nominative	❕	∅	#	
+	adverbial	surpassed	aid	nominative	❕	∅	#	
+	adverbial	leveraged	aid	nominative	❕	∅	#	
+	adverbial	departed	lack	nominative	❕	∅	#	
+	adverbial	associated	lack	nominative	utan	∅	#	
+	adverbial	acquired	lack	nominative	❕	∅	#	
+	adverbial	approached	lack	nominative	❕	∅	#	
+	adverbial	surpassed	lack	nominative	❕	∅	#	
+	adverbial	leveraged	lack	nominative	❕	∅	#	
+	adverbial	departed	interest	nominative	❕	∅	#	
+	adverbial	associated	interest	nominative	❕	∅	#	
+	adverbial	acquired	interest	nominative	❕	∅	#	
+	adverbial	approached	interest	nominative	❕	∅	#	
+	adverbial	surpassed	interest	nominative	❕	∅	#	
+	adverbial	leveraged	interest	nominative	❕	∅	#	
+	adverbial	departed	time	nominative	efter	∅	#	
+	adverbial	associated	time	nominative	❕	∅	#	
+	adverbial	acquired	time	nominative	❕	∅	#	
+	adverbial	approached	time	nominative	❕	∅	#	
+	adverbial	surpassed	time	nominative	❕	∅	#	
+	adverbial	leveraged	time	nominative	❕	∅	#	
+	adverbial	departed	topic	nominative	❕	∅	#	
+	adverbial	associated	topic	nominative	❕	∅	#	
+	adverbial	acquired	topic	nominative	❕	∅	#	
+	adverbial	approached	topic	nominative	❕	∅	#	
+	adverbial	surpassed	topic	nominative	❕	∅	#	
+	adverbial	leveraged	topic	nominative	❕	∅	#	
+	adverbial	associated	company	nominative	bland	∅	#	
+	adverbial	departed	topic	nominative	❕	∅	#	
+	adverbial	associated	topic	nominative	❕	∅	#	
+	adverbial	acquired	topic	nominative	❕	∅	#	
+	adverbial	approached	topic	nominative	❕	∅	#	
+	adverbial	surpassed	topic	nominative	❕	∅	#	
+	adverbial	leveraged	topic	nominative	❕	∅	#	

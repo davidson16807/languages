@@ -1,0 +1,394 @@
+*	*	*	*	present	present	past	past	present	present		
+*	*	*	*	active	active	active	active	passive	passive		
+*	*	*	*	gothic	latin	gothic	latin	gothic	latin		
+appear	infinitive			𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽	atfarjan	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽	atfarjan	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽	atfarjan	#	class 1 weak
+appear	indicative	1	singular	𐌰𐍄𐍆𐌰𐍂𐌾𐌰	atfarja	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌰	atfarida	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌳𐌰	atfarjada		
+appear	indicative	2	singular	𐌰𐍄𐍆𐌰𐍂𐌾𐌹𐍃	atfarjis	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐍃	atfaridēs	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌶𐌰	atfarjaza		
+appear	indicative	3	singular	𐌰𐍄𐍆𐌰𐍂𐌾𐌹𐌸	atfarjiþ	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌰	atfarida	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌳𐌰	atfarjada		
+appear	indicative	1	dual	𐌰𐍄𐍆𐌰𐍂𐌾𐍉𐍃	atfarjōs	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌿	atfaridēdu	—	—		
+appear	indicative	2	dual	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐍄𐍃	atfarjats	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌿𐍄𐍃	atfaridēduts	—	—		
+appear	indicative	1	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌼	atfarjam	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌿𐌼	atfaridēdum	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽𐌳𐌰			
+appear	indicative	2	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌹𐌸	atfarjiþ	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌿𐌸	atfaridēduþ	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽𐌳𐌰			
+appear	indicative	3	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽𐌳	atfarjand	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌿𐌽	atfaridēdun	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽𐌳𐌰			
+appear	subjunctive	2	singular	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌿	atfarjau	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌾𐌰𐌿	atfaridēdjau	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌳𐌰𐌿			
+appear	subjunctive	3	singular	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐍃	atfarjais	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌴𐌹𐍃	atfaridēdeis	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌶𐌰𐌿			
+appear	subjunctive	2	dual	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹	atfarjai	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌹	atfaridēdi	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌳𐌰𐌿			
+appear	subjunctive	2	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐍅𐌰	atfarjaiwa	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌴𐌹𐍅𐌰	atfaridēdeiwa	—	—		
+appear	subjunctive	3	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐍄𐍃	atfarjaits	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌴𐌹𐍄𐍃	atfaridēdeits	—	—		
+appear	subjunctive	1	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌼𐌰	atfarjaima	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌴𐌹𐌼𐌰	atfaridēdeima	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌽𐌳𐌰𐌿			
+appear	subjunctive	2	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌸	atfarjaiþ	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌴𐌹𐌸	atfaridēdeiþ	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌽𐌳𐌰𐌿			
+appear	subjunctive	3	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌽𐌰	atfarjaina	𐌰𐍄𐍆𐌰𐍂𐌹𐌳𐌴𐌳𐌴𐌹𐌽𐌰	atfaridēdeina	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌹𐌽𐌳𐌰𐌿			
+appear	imperative	2	singular	𐌰𐍄𐍆𐌰𐍂𐌴𐌹	atfarei						
+appear	imperative	3	singular	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌳𐌰𐌿	atfarjadau						
+appear	imperative	2	dual	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐍄𐍃	atfarjats						
+appear	imperative	2	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌹𐌸	atfarjiþ						
+appear	imperative	3	plural	𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽𐌳𐌰𐌿	atfarjandau						
+appear	participle			𐌰𐍄𐍆𐌰𐍂𐌾𐌰𐌽𐌳𐍃	atfarjands	𐌰𐍄𐍆𐌰𐍂𐌹𐌸𐍃	atfariþs				
+be-inherently	infinitive			𐍅𐌹𐍃𐌰𐌽	wisan	𐍅𐌹𐍃𐌰𐌽	wisan	𐍅𐌹𐍃𐌰𐌽		#	class 5 strong, irregular, suppletive
+be-inherently	indicative	1	singular	𐌹𐌼	im	𐍅𐌰𐍃	was	—	—		
+be-inherently	indicative	2	singular	𐌹𐍃	is	𐍅𐌰𐍃𐍄	wast	—	—		
+be-inherently	indicative	3	singular	𐌹𐍃𐍄	ist	𐍅𐌰𐍃	was	—	—		
+be-inherently	indicative	1	dual	𐍃𐌹𐌾𐌿	siju	𐍅𐌴𐍃𐌿	wēsu	—	—		
+be-inherently	indicative	2	dual	𐍃𐌹𐌾𐌿𐍄𐍃	sijuts	𐍅𐌴𐍃𐌿𐍄𐍃	wēsuts	—	—		
+be-inherently	indicative	1	plural	𐍃𐌹𐌾𐌿𐌼	sijum	𐍅𐌴𐍃𐌿𐌼	wēsum	—	—		
+be-inherently	indicative	2	plural	𐍃𐌹𐌾𐌿𐌸	sijuþ	𐍅𐌴𐍃𐌿𐌸	wēsuþ	—	—		
+be-inherently	indicative	3	plural	𐍃𐌹𐌽𐌳	sind	𐍅𐌴𐍃𐌿𐌽	wēsun	—	—		
+be-inherently	subjunctive	2	singular	𐍃𐌹𐌾𐌰𐌿	sijau	𐍅𐌴𐍃𐌾𐌰𐌿	wēsjau	—	—		
+be-inherently	subjunctive	3	singular	𐍃𐌹𐌾𐌰𐌹𐍃	sijais	𐍅𐌴𐍃𐌴𐌹𐍃	wēseis	—	—		
+be-inherently	subjunctive	2	dual	𐍃𐌹𐌾𐌰𐌹	sijai	𐍅𐌴𐍃𐌹	wēsi	—	—		
+be-inherently	subjunctive	2	plural	𐍃𐌹𐌾𐌰𐌹𐍅𐌰	sijaiwa	𐍅𐌴𐍃𐌴𐌹𐍅𐌰	wēseiwa	—	—		
+be-inherently	subjunctive	3	plural	𐍃𐌹𐌾𐌰𐌹𐍄𐍃	sijaits	𐍅𐌴𐍃𐌴𐌹𐍄𐍃	wēseits	—	—		
+be-inherently	subjunctive	1	plural	𐍃𐌹𐌾𐌰𐌹𐌼𐌰	sijaima	𐍅𐌴𐍃𐌴𐌹𐌼𐌰	wēseima	—	—		
+be-inherently	subjunctive	2	plural	𐍃𐌹𐌾𐌰𐌹𐌸	sijaiþ	𐍅𐌴𐍃𐌴𐌹𐌸	wēseiþ	—	—		
+be-inherently	subjunctive	3	plural	𐍃𐌹𐌾𐌰𐌹𐌽𐌰	sijaina	𐍅𐌴𐍃𐌴𐌹𐌽𐌰	wēseina	—	—		
+be-inherently	imperative	2	singular	—	—						
+be-inherently	imperative	3	singular	—	—						
+be-inherently	imperative	2	dual	—	—						
+be-inherently	imperative	2	plural	—	—						
+be-inherently	imperative	3	plural	—	—						
+be-inherently	participle			𐍅𐌹𐍃𐌰𐌽𐌳𐍃	wisands	𐍅𐌹𐍃𐌰𐌽𐍃	wisans				
+be-inherently	infinitive			𐍅𐌹𐍃𐌰𐌽	wisan	𐍅𐌹𐍃𐌰𐌽	wisan	𐍅𐌹𐍃𐌰𐌽	wisan	#	class 5 strong
+be-inherently	indicative	1	singular	𐍅𐌹𐍃𐌰	wisa	𐍅𐌰𐍃	was	𐍅𐌹𐍃𐌰𐌳𐌰	wisada		
+be-inherently	indicative	2	singular	𐍅𐌹𐍃𐌹𐍃	wisis	𐍅𐌰𐍃𐍄	wast	𐍅𐌹𐍃𐌰𐌶𐌰	wisaza		
+be-inherently	indicative	3	singular	𐍅𐌹𐍃𐌹𐌸	wisiþ	𐍅𐌰𐍃	was	𐍅𐌹𐍃𐌰𐌳𐌰	wisada		
+be-inherently	indicative	1	dual	𐍅𐌹𐍃𐍉𐍃	wisōs	𐍅𐌴𐍃𐌿	wēsu	—	—		
+be-inherently	indicative	2	dual	𐍅𐌹𐍃𐌰𐍄𐍃	wisats	𐍅𐌴𐍃𐌿𐍄𐍃	wēsuts	—	—		
+be-inherently	indicative	1	plural	𐍅𐌹𐍃𐌰𐌼	wisam	𐍅𐌴𐍃𐌿𐌼	wēsum	𐍅𐌹𐍃𐌰𐌽𐌳𐌰	wisanda		
+be-inherently	indicative	2	plural	𐍅𐌹𐍃𐌹𐌸	wisiþ	𐍅𐌴𐍃𐌿𐌸	wēsuþ	𐍅𐌹𐍃𐌰𐌽𐌳𐌰	wisanda		
+be-inherently	indicative	3	plural	𐍅𐌹𐍃𐌰𐌽𐌳	wisand	𐍅𐌴𐍃𐌿𐌽	wēsun	𐍅𐌹𐍃𐌰𐌽𐌳𐌰	wisanda		
+be-inherently	subjunctive	2	singular	𐍅𐌹𐍃𐌰𐌿	wisau	𐍅𐌴𐍃𐌾𐌰𐌿	wēsjau	𐍅𐌹𐍃𐌰𐌹𐌳𐌰𐌿	wisaidau		
+be-inherently	subjunctive	3	singular	𐍅𐌹𐍃𐌰𐌹𐍃	wisais	𐍅𐌴𐍃𐌴𐌹𐍃	wēseis	𐍅𐌹𐍃𐌰𐌹𐌶𐌰𐌿	wisaizau		
+be-inherently	subjunctive	2	dual	𐍅𐌹𐍃𐌰𐌹	wisai	𐍅𐌴𐍃𐌹	wēsi	𐍅𐌹𐍃𐌰𐌹𐌳𐌰𐌿	wisaidau		
+be-inherently	subjunctive	2	plural	𐍅𐌹𐍃𐌰𐌹𐍅𐌰	wisaiwa	𐍅𐌴𐍃𐌴𐌹𐍅𐌰	wēseiwa	—	—		
+be-inherently	subjunctive	3	plural	𐍅𐌹𐍃𐌰𐌹𐍄𐍃	wisaits	𐍅𐌴𐍃𐌴𐌹𐍄𐍃	wēseits	—	—		
+be-inherently	subjunctive	1	plural	𐍅𐌹𐍃𐌰𐌹𐌼𐌰	wisaima	𐍅𐌴𐍃𐌴𐌹𐌼𐌰	wēseima	𐍅𐌹𐍃𐌰𐌹𐌽𐌳𐌰𐌿	wisaindau		
+be-inherently	subjunctive	2	plural	𐍅𐌹𐍃𐌰𐌹𐌸	wisaiþ	𐍅𐌴𐍃𐌴𐌹𐌸	wēseiþ	𐍅𐌹𐍃𐌰𐌹𐌽𐌳𐌰𐌿	wisaindau		
+be-inherently	subjunctive	3	plural	𐍅𐌹𐍃𐌰𐌹𐌽𐌰	wisaina	𐍅𐌴𐍃𐌴𐌹𐌽𐌰	wēseina	𐍅𐌹𐍃𐌰𐌹𐌽𐌳𐌰𐌿	wisaindau		
+be-inherently	imperative	2	singular	𐍅𐌹𐍃	wis						
+be-inherently	imperative	3	singular	𐍅𐌹𐍃𐌰𐌳𐌰𐌿	wisadau						
+be-inherently	imperative	2	dual	𐍅𐌹𐍃𐌰𐍄𐍃	wisats						
+be-inherently	imperative	2	plural	𐍅𐌹𐍃𐌹𐌸	wisiþ						
+be-inherently	imperative	3	plural	𐍅𐌹𐍃𐌰𐌽𐌳𐌰𐌿	wisandau						
+be-inherently	participle			𐍅𐌹𐍃𐌰𐌽𐌳𐍃	wisands	𐍅𐌹𐍃𐌰𐌽𐍃	wisans				
+be-inherently	infinitive			𐍅𐌹𐍃𐌰𐌽	wisan	𐍅𐌹𐍃𐌰𐌽	wisan	𐍅𐌹𐍃𐌰𐌽	wisan	#	class 5 strong
+be-inherently	indicative	1	singular	𐍅𐌹𐍃𐌰	wisa	𐍅𐌰𐍃	was	𐍅𐌹𐍃𐌰𐌳𐌰	wisada		
+be-inherently	indicative	2	singular	𐍅𐌹𐍃𐌹𐍃	wisis	𐍅𐌰𐍃𐍄	wast	𐍅𐌹𐍃𐌰𐌶𐌰	wisaza		
+be-inherently	indicative	3	singular	𐍅𐌹𐍃𐌹𐌸	wisiþ	𐍅𐌰𐍃	was	𐍅𐌹𐍃𐌰𐌳𐌰	wisada		
+be-inherently	indicative	1	dual	𐍅𐌹𐍃𐍉𐍃	wisōs	𐍅𐌴𐍃𐌿	wēsu	—	—		
+be-inherently	indicative	2	dual	𐍅𐌹𐍃𐌰𐍄𐍃	wisats	𐍅𐌴𐍃𐌿𐍄𐍃	wēsuts	—	—		
+be-inherently	indicative	1	plural	𐍅𐌹𐍃𐌰𐌼	wisam	𐍅𐌴𐍃𐌿𐌼	wēsum	𐍅𐌹𐍃𐌰𐌽𐌳𐌰	wisanda		
+be-inherently	indicative	2	plural	𐍅𐌹𐍃𐌹𐌸	wisiþ	𐍅𐌴𐍃𐌿𐌸	wēsuþ	𐍅𐌹𐍃𐌰𐌽𐌳𐌰	wisanda		
+be-inherently	indicative	3	plural	𐍅𐌹𐍃𐌰𐌽𐌳	wisand	𐍅𐌴𐍃𐌿𐌽	wēsun	𐍅𐌹𐍃𐌰𐌽𐌳𐌰	wisanda		
+be-inherently	subjunctive	2	singular	𐍅𐌹𐍃𐌰𐌿	wisau	𐍅𐌴𐍃𐌾𐌰𐌿	wēsjau	𐍅𐌹𐍃𐌰𐌹𐌳𐌰𐌿	wisaidau		
+be-inherently	subjunctive	3	singular	𐍅𐌹𐍃𐌰𐌹𐍃	wisais	𐍅𐌴𐍃𐌴𐌹𐍃	wēseis	𐍅𐌹𐍃𐌰𐌹𐌶𐌰𐌿	wisaizau		
+be-inherently	subjunctive	2	dual	𐍅𐌹𐍃𐌰𐌹	wisai	𐍅𐌴𐍃𐌹	wēsi	𐍅𐌹𐍃𐌰𐌹𐌳𐌰𐌿	wisaidau		
+be-inherently	subjunctive	2	plural	𐍅𐌹𐍃𐌰𐌹𐍅𐌰	wisaiwa	𐍅𐌴𐍃𐌴𐌹𐍅𐌰	wēseiwa	—	—		
+be-inherently	subjunctive	3	plural	𐍅𐌹𐍃𐌰𐌹𐍄𐍃	wisaits	𐍅𐌴𐍃𐌴𐌹𐍄𐍃	wēseits	—	—		
+be-inherently	subjunctive	1	plural	𐍅𐌹𐍃𐌰𐌹𐌼𐌰	wisaima	𐍅𐌴𐍃𐌴𐌹𐌼𐌰	wēseima	𐍅𐌹𐍃𐌰𐌹𐌽𐌳𐌰𐌿	wisaindau		
+be-inherently	subjunctive	2	plural	𐍅𐌹𐍃𐌰𐌹𐌸	wisaiþ	𐍅𐌴𐍃𐌴𐌹𐌸	wēseiþ	𐍅𐌹𐍃𐌰𐌹𐌽𐌳𐌰𐌿	wisaindau		
+be-inherently	subjunctive	3	plural	𐍅𐌹𐍃𐌰𐌹𐌽𐌰	wisaina	𐍅𐌴𐍃𐌴𐌹𐌽𐌰	wēseina	𐍅𐌹𐍃𐌰𐌹𐌽𐌳𐌰𐌿	wisaindau		
+be-inherently	imperative	2	singular	𐍅𐌹𐍃	wis						
+be-inherently	imperative	3	singular	𐍅𐌹𐍃𐌰𐌳𐌰𐌿	wisadau						
+be-inherently	imperative	2	dual	𐍅𐌹𐍃𐌰𐍄𐍃	wisats						
+be-inherently	imperative	2	plural	𐍅𐌹𐍃𐌹𐌸	wisiþ						
+be-inherently	imperative	3	plural	𐍅𐌹𐍃𐌰𐌽𐌳𐌰𐌿	wisandau						
+be-inherently	participle			𐍅𐌹𐍃𐌰𐌽𐌳𐍃	wisands	𐍅𐌹𐍃𐌰𐌽𐍃	wisans				
+climb	infinitive			𐍃𐍄𐌴𐌹𐌲𐌰𐌽	steigan	𐍃𐍄𐌴𐌹𐌲𐌰𐌽	steigan	𐍃𐍄𐌴𐌹𐌲𐌰𐌽	steigan	#	class 1 strong
+climb	indicative	1	singular	𐍃𐍄𐌴𐌹𐌲𐌰	steiga	𐍃𐍄𐌰𐌹𐌲	staig	𐍃𐍄𐌴𐌹𐌲𐌰𐌳𐌰	steigada		
+climb	indicative	2	singular	𐍃𐍄𐌴𐌹𐌲𐌹𐍃	steigis	𐍃𐍄𐌰𐌹𐌲𐍄	staigt	𐍃𐍄𐌴𐌹𐌲𐌰𐌶𐌰	steigaza		
+climb	indicative	3	singular	𐍃𐍄𐌴𐌹𐌲𐌹𐌸	steigiþ	𐍃𐍄𐌰𐌹𐌲	staig	𐍃𐍄𐌴𐌹𐌲𐌰𐌳𐌰	steigada		
+climb	indicative	1	dual	𐍃𐍄𐌴𐌹𐌲𐍉𐍃	steigōs	𐍃𐍄𐌹𐌲𐌿	stigu	—	—		
+climb	indicative	2	dual	𐍃𐍄𐌴𐌹𐌲𐌰𐍄𐍃	steigats	𐍃𐍄𐌹𐌲𐌿𐍄𐍃	stiguts	—	—		
+climb	indicative	1	plural	𐍃𐍄𐌴𐌹𐌲𐌰𐌼	steigam	𐍃𐍄𐌹𐌲𐌿𐌼	stigum	𐍃𐍄𐌴𐌹𐌲𐌰𐌽𐌳𐌰	steiganda		
+climb	indicative	2	plural	𐍃𐍄𐌴𐌹𐌲𐌹𐌸	steigiþ	𐍃𐍄𐌹𐌲𐌿𐌸	stiguþ	𐍃𐍄𐌴𐌹𐌲𐌰𐌽𐌳𐌰	steiganda		
+climb	indicative	3	plural	𐍃𐍄𐌴𐌹𐌲𐌰𐌽𐌳	steigand	𐍃𐍄𐌹𐌲𐌿𐌽	stigun	𐍃𐍄𐌴𐌹𐌲𐌰𐌽𐌳𐌰	steiganda		
+climb	subjunctive	2	singular	𐍃𐍄𐌴𐌹𐌲𐌰𐌿	steigau	𐍃𐍄𐌹𐌲𐌾𐌰𐌿	stigjau	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌳𐌰𐌿	steigaidau		
+climb	subjunctive	3	singular	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐍃	steigais	𐍃𐍄𐌹𐌲𐌴𐌹𐍃	stigeis	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌶𐌰𐌿	steigaizau		
+climb	subjunctive	2	dual	𐍃𐍄𐌴𐌹𐌲𐌰𐌹	steigai	𐍃𐍄𐌹𐌲𐌹	stigi	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌳𐌰𐌿	steigaidau		
+climb	subjunctive	2	plural	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐍅𐌰	steigaiwa	𐍃𐍄𐌹𐌲𐌴𐌹𐍅𐌰	stigeiwa	—	—		
+climb	subjunctive	3	plural	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐍄𐍃	steigaits	𐍃𐍄𐌹𐌲𐌴𐌹𐍄𐍃	stigeits	—	—		
+climb	subjunctive	1	plural	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌼𐌰	steigaima	𐍃𐍄𐌹𐌲𐌴𐌹𐌼𐌰	stigeima	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌽𐌳𐌰𐌿	steigaindau		
+climb	subjunctive	2	plural	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌸	steigaiþ	𐍃𐍄𐌹𐌲𐌴𐌹𐌸	stigeiþ	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌽𐌳𐌰𐌿	steigaindau		
+climb	subjunctive	3	plural	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌽𐌰	steigaina	𐍃𐍄𐌹𐌲𐌴𐌹𐌽𐌰	stigeina	𐍃𐍄𐌴𐌹𐌲𐌰𐌹𐌽𐌳𐌰𐌿	steigaindau		
+climb	imperative	2	singular	𐍃𐍄𐌴𐌹𐌲	steig						
+climb	imperative	3	singular	𐍃𐍄𐌴𐌹𐌲𐌰𐌳𐌰𐌿	steigadau						
+climb	imperative	2	dual	𐍃𐍄𐌴𐌹𐌲𐌰𐍄𐍃	steigats						
+climb	imperative	2	plural	𐍃𐍄𐌴𐌹𐌲𐌹𐌸	steigiþ						
+climb	imperative	3	plural	𐍃𐍄𐌴𐌹𐌲𐌰𐌽𐌳𐌰𐌿	steigandau						
+climb	participle			𐍃𐍄𐌴𐌹𐌲𐌰𐌽𐌳𐍃	steigands	𐍃𐍄𐌹𐌲𐌰𐌽𐍃	stigans				
+direct	infinitive			𐍄𐌹𐌿𐌷𐌰𐌽	tiuhan	𐍄𐌹𐌿𐌷𐌰𐌽	tiuhan	𐍄𐌹𐌿𐌷𐌰𐌽	tiuhan	#	class 2 strong
+direct	indicative	1	singular	𐍄𐌹𐌿𐌷𐌰	tiuha	𐍄𐌰𐌿𐌷	tauh	𐍄𐌹𐌿𐌷𐌰𐌳𐌰	tiuhada		
+direct	indicative	2	singular	𐍄𐌹𐌿𐌷𐌹𐍃	tiuhis	𐍄𐌰𐌿𐌷𐍄	tauht	𐍄𐌹𐌿𐌷𐌰𐌶𐌰	tiuhaza		
+direct	indicative	3	singular	𐍄𐌹𐌿𐌷𐌹𐌸	tiuhiþ	𐍄𐌰𐌿𐌷	tauh	𐍄𐌹𐌿𐌷𐌰𐌳𐌰	tiuhada		
+direct	indicative	1	dual	𐍄𐌹𐌿𐌷𐍉𐍃	tiuhōs	𐍄𐌰𐌿𐌷𐌿	tauhu	—	—		
+direct	indicative	2	dual	𐍄𐌹𐌿𐌷𐌰𐍄𐍃	tiuhats	𐍄𐌰𐌿𐌷𐌿𐍄𐍃	tauhuts	—	—		
+direct	indicative	1	plural	𐍄𐌹𐌿𐌷𐌰𐌼	tiuham	𐍄𐌰𐌿𐌷𐌿𐌼	tauhum	𐍄𐌹𐌿𐌷𐌰𐌽𐌳𐌰	tiuhanda		
+direct	indicative	2	plural	𐍄𐌹𐌿𐌷𐌹𐌸	tiuhiþ	𐍄𐌰𐌿𐌷𐌿𐌸	tauhuþ	𐍄𐌹𐌿𐌷𐌰𐌽𐌳𐌰	tiuhanda		
+direct	indicative	3	plural	𐍄𐌹𐌿𐌷𐌰𐌽𐌳	tiuhand	𐍄𐌰𐌿𐌷𐌿𐌽	tauhun	𐍄𐌹𐌿𐌷𐌰𐌽𐌳𐌰	tiuhanda		
+direct	subjunctive	2	singular	𐍄𐌹𐌿𐌷𐌰𐌿	tiuhau	𐍄𐌰𐌿𐌷𐌾𐌰𐌿	tauhjau	𐍄𐌹𐌿𐌷𐌰𐌹𐌳𐌰𐌿	tiuhaidau		
+direct	subjunctive	3	singular	𐍄𐌹𐌿𐌷𐌰𐌹𐍃	tiuhais	𐍄𐌰𐌿𐌷𐌴𐌹𐍃	tauheis	𐍄𐌹𐌿𐌷𐌰𐌹𐌶𐌰𐌿	tiuhaizau		
+direct	subjunctive	2	dual	𐍄𐌹𐌿𐌷𐌰𐌹	tiuhai	𐍄𐌰𐌿𐌷𐌹	tauhi	𐍄𐌹𐌿𐌷𐌰𐌹𐌳𐌰𐌿	tiuhaidau		
+direct	subjunctive	2	plural	𐍄𐌹𐌿𐌷𐌰𐌹𐍅𐌰	tiuhaiwa	𐍄𐌰𐌿𐌷𐌴𐌹𐍅𐌰	tauheiwa	—	—		
+direct	subjunctive	3	plural	𐍄𐌹𐌿𐌷𐌰𐌹𐍄𐍃	tiuhaits	𐍄𐌰𐌿𐌷𐌴𐌹𐍄𐍃	tauheits	—	—		
+direct	subjunctive	1	plural	𐍄𐌹𐌿𐌷𐌰𐌹𐌼𐌰	tiuhaima	𐍄𐌰𐌿𐌷𐌴𐌹𐌼𐌰	tauheima	𐍄𐌹𐌿𐌷𐌰𐌹𐌽𐌳𐌰𐌿	tiuhaindau		
+direct	subjunctive	2	plural	𐍄𐌹𐌿𐌷𐌰𐌹𐌸	tiuhaiþ	𐍄𐌰𐌿𐌷𐌴𐌹𐌸	tauheiþ	𐍄𐌹𐌿𐌷𐌰𐌹𐌽𐌳𐌰𐌿	tiuhaindau		
+direct	subjunctive	3	plural	𐍄𐌹𐌿𐌷𐌰𐌹𐌽𐌰	tiuhaina	𐍄𐌰𐌿𐌷𐌴𐌹𐌽𐌰	tauheina	𐍄𐌹𐌿𐌷𐌰𐌹𐌽𐌳𐌰𐌿	tiuhaindau		
+direct	imperative	2	singular	𐍄𐌹𐌿𐌷	tiuh						
+direct	imperative	3	singular	𐍄𐌹𐌿𐌷𐌰𐌳𐌰𐌿	tiuhadau						
+direct	imperative	2	dual	𐍄𐌹𐌿𐌷𐌰𐍄𐍃	tiuhats						
+direct	imperative	2	plural	𐍄𐌹𐌿𐌷𐌹𐌸	tiuhiþ						
+direct	imperative	3	plural	𐍄𐌹𐌿𐌷𐌰𐌽𐌳𐌰𐌿	tiuhandau						
+direct	participle			𐍄𐌹𐌿𐌷𐌰𐌽𐌳𐍃	tiuhands	𐍄𐌰𐌿𐌷𐌰𐌽𐍃	tauhans				
+displease	infinitive			𐌳𐍂𐍉𐌱𐌾𐌰𐌽	drobjan	𐌳𐍂𐍉𐌱𐌾𐌰𐌽	drobjan	𐌳𐍂𐍉𐌱𐌾𐌰𐌽	drobjan	#	class 1 weak
+displease	indicative	1	singular	𐌳𐍂𐍉𐌱𐌾𐌰	drobja	𐌳𐍂𐍉𐌱𐌹𐌳𐌰	drobida	𐌳𐍂𐍉𐌱𐌾𐌰𐌳𐌰	drobjada		
+displease	indicative	2	singular	𐌳𐍂𐍉𐌱𐌴𐌹𐍃	drobeis	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐍃	drobidēs	𐌳𐍂𐍉𐌱𐌾𐌰𐌶𐌰	drobjaza		
+displease	indicative	3	singular	𐌳𐍂𐍉𐌱𐌴𐌹𐌸	drobeiþ	𐌳𐍂𐍉𐌱𐌹𐌳𐌰	drobida	𐌳𐍂𐍉𐌱𐌾𐌰𐌳𐌰	drobjada		
+displease	indicative	1	dual	𐌳𐍂𐍉𐌱𐌾𐍉𐍃	drobjōs	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌿	drobidēdu	—	—		
+displease	indicative	2	dual	𐌳𐍂𐍉𐌱𐌾𐌰𐍄𐍃	drobjats	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌿𐍄𐍃	drobidēduts	—	—		
+displease	indicative	1	plural	𐌳𐍂𐍉𐌱𐌾𐌰𐌼	drobjam	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌿𐌼	drobidēdum	𐌳𐍂𐍉𐌱𐌾𐌰𐌽𐌳𐌰	drobjanda		
+displease	indicative	2	plural	𐌳𐍂𐍉𐌱𐌴𐌹𐌸	drobeiþ	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌿𐌸	drobidēduþ	𐌳𐍂𐍉𐌱𐌾𐌰𐌽𐌳𐌰	drobjanda		
+displease	indicative	3	plural	𐌳𐍂𐍉𐌱𐌾𐌰𐌽𐌳	drobjand	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌿𐌽	drobidēdun	𐌳𐍂𐍉𐌱𐌾𐌰𐌽𐌳𐌰	drobjanda		
+displease	subjunctive	2	singular	𐌳𐍂𐍉𐌱𐌾𐌰𐌿	drobjau	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌾𐌰𐌿	drobidēdjau	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌳𐌰𐌿	drobjaidau		
+displease	subjunctive	3	singular	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐍃	drobjais	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌴𐌹𐍃	drobidēdeis	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌶𐌰𐌿	drobjaizau		
+displease	subjunctive	2	dual	𐌳𐍂𐍉𐌱𐌾𐌰𐌹	drobjai	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌹	drobidēdi	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌳𐌰𐌿	drobjaidau		
+displease	subjunctive	2	plural	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐍅𐌰	drobjaiwa	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌴𐌹𐍅𐌰	drobidēdeiwa	—	—		
+displease	subjunctive	3	plural	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐍄𐍃	drobjaits	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌴𐌹𐍄𐍃	drobidēdeits	—	—		
+displease	subjunctive	1	plural	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌼𐌰	drobjaima	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌴𐌹𐌼𐌰	drobidēdeima	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌽𐌳𐌰𐌿	drobjaindau		
+displease	subjunctive	2	plural	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌸	drobjaiþ	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌴𐌹𐌸	drobidēdeiþ	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌽𐌳𐌰𐌿	drobjaindau		
+displease	subjunctive	3	plural	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌽𐌰	drobjaina	𐌳𐍂𐍉𐌱𐌹𐌳𐌴𐌳𐌴𐌹𐌽𐌰	drobidēdeina	𐌳𐍂𐍉𐌱𐌾𐌰𐌹𐌽𐌳𐌰𐌿	drobjaindau		
+displease	imperative	2	singular	𐌳𐍂𐍉𐌱𐌴𐌹	drobei						
+displease	imperative	3	singular	𐌳𐍂𐍉𐌱𐌾𐌰𐌳𐌰𐌿	drobjadau						
+displease	imperative	2	dual	𐌳𐍂𐍉𐌱𐌾𐌰𐍄𐍃	drobjats						
+displease	imperative	2	plural	𐌳𐍂𐍉𐌱𐌴𐌹𐌸	drobeiþ						
+displease	imperative	3	plural	𐌳𐍂𐍉𐌱𐌾𐌰𐌽𐌳𐌰𐌿	drobjandau						
+displease	participle			𐌳𐍂𐍉𐌱𐌾𐌰𐌽𐌳𐍃	drobjands	𐌳𐍂𐍉𐌱𐌹𐌸𐍃	drobiþs				
+eat	infinitive			𐌹𐍄𐌰𐌽	itan	𐌹𐍄𐌰𐌽	itan	𐌹𐍄𐌰𐌽	itan	#	class 5 strong, irregular
+eat	indicative	1	singular	𐌹𐍄𐌰	ita	𐌴𐍄ē	t	𐌹𐍄𐌰𐌳𐌰	itada		
+eat	indicative	2	singular	𐌹𐍄𐌹𐍃	itis	𐌴𐍃𐍄ē	st	𐌹𐍄𐌰𐌶𐌰	itaza		
+eat	indicative	3	singular	𐌹𐍄𐌹𐌸	itiþ	𐌴𐍄ē	t	𐌹𐍄𐌰𐌳𐌰	itada		
+eat	indicative	1	dual	𐌹𐍄𐍉𐍃	itōs	𐌴𐍄𐌿ē	tu	—	—		
+eat	indicative	2	dual	𐌹𐍄𐌰𐍄𐍃	itats	𐌴𐍄𐌿𐍄𐍃ē	tuts	—	—		
+eat	indicative	1	plural	𐌹𐍄𐌰𐌼	itam	𐌴𐍄𐌿𐌼ē	tum	𐌹𐍄𐌰𐌽𐌳𐌰	itanda		
+eat	indicative	2	plural	𐌹𐍄𐌹𐌸	itiþ	𐌴𐍄𐌿𐌸ē	tuþ	𐌹𐍄𐌰𐌽𐌳𐌰	itanda		
+eat	indicative	3	plural	𐌹𐍄𐌰𐌽𐌳	itand	𐌴𐍄𐌿𐌽ē	tun	𐌹𐍄𐌰𐌽𐌳𐌰	itanda		
+eat	subjunctive	2	singular	𐌹𐍄𐌰𐌿	itau	𐌴𐍄𐌾𐌰𐌿ē	tjau	𐌹𐍄𐌰𐌹𐌳𐌰𐌿	itaidau		
+eat	subjunctive	3	singular	𐌹𐍄𐌰𐌹𐍃	itais	𐌴𐍄𐌴𐌹𐍃ē	teis	𐌹𐍄𐌰𐌹𐌶𐌰𐌿	itaizau		
+eat	subjunctive	2	dual	𐌹𐍄𐌰𐌹	itai	𐌴𐍄𐌹ē	ti	𐌹𐍄𐌰𐌹𐌳𐌰𐌿	itaidau		
+eat	subjunctive	2	plural	𐌹𐍄𐌰𐌹𐍅𐌰	itaiwa	𐌴𐍄𐌴𐌹𐍅𐌰ē	teiwa	—	—		
+eat	subjunctive	3	plural	𐌹𐍄𐌰𐌹𐍄𐍃	itaits	𐌴𐍄𐌴𐌹𐍄𐍃ē	teits	—	—		
+eat	subjunctive	1	plural	𐌹𐍄𐌰𐌹𐌼𐌰	itaima	𐌴𐍄𐌴𐌹𐌼𐌰ē	teima	𐌹𐍄𐌰𐌹𐌽𐌳𐌰𐌿	itaindau		
+eat	subjunctive	2	plural	𐌹𐍄𐌰𐌹𐌸	itaiþ	𐌴𐍄𐌴𐌹𐌸ē	teiþ	𐌹𐍄𐌰𐌹𐌽𐌳𐌰𐌿	itaindau		
+eat	subjunctive	3	plural	𐌹𐍄𐌰𐌹𐌽𐌰	itaina	𐌴𐍄𐌴𐌹𐌽𐌰ē	teina	𐌹𐍄𐌰𐌹𐌽𐌳𐌰𐌿	itaindau		
+eat	imperative	2	singular	𐌹𐍄	it						
+eat	imperative	3	singular	𐌹𐍄𐌰𐌳𐌰𐌿	itadau						
+eat	imperative	2	dual	𐌹𐍄𐌰𐍄𐍃	itats						
+eat	imperative	2	plural	𐌹𐍄𐌹𐌸	itiþ						
+eat	imperative	3	plural	𐌹𐍄𐌰𐌽𐌳𐌰𐌿	itandau						
+eat	participle			𐌹𐍄𐌰𐌽𐌳𐍃	itands	𐌹𐍄𐌰𐌽𐍃	itans				
+endure	infinitive			𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌽	gabeidan	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌽	gabeidan	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌽	gabeidan	#	class 1 strong
+endure	indicative	1	singular	𐌲𐌰𐌱𐌴𐌹𐌳𐌰	gabeida	𐌲𐌰𐌱𐌰𐌹𐌸	gabaiþ	—	—		
+endure	indicative	2	singular	𐌲𐌰𐌱𐌴𐌹𐌳𐌹𐍃	gabeidis	𐌲𐌰𐌱𐌰𐌹𐍃𐍄	gabaist	—	—		
+endure	indicative	3	singular	𐌲𐌰𐌱𐌴𐌹𐌳𐌹𐌸	gabeidiþ	𐌲𐌰𐌱𐌰𐌹𐌸	gabaiþ	—	—		
+endure	indicative	1	dual	𐌲𐌰𐌱𐌴𐌹𐌳𐍉𐍃	gabeidōs	𐌲𐌰𐌱𐌹𐌳𐌿	gabidu	—	—		
+endure	indicative	2	dual	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐍄𐍃	gabeidats	𐌲𐌰𐌱𐌹𐌳𐌿𐍄𐍃	gabiduts	—	—		
+endure	indicative	1	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌼	gabeidam	𐌲𐌰𐌱𐌹𐌳𐌿𐌼	gabidum	—	—		
+endure	indicative	2	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌹𐌸	gabeidiþ	𐌲𐌰𐌱𐌹𐌳𐌿𐌸	gabiduþ	—	—		
+endure	indicative	3	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌽𐌳	gabeidand	𐌲𐌰𐌱𐌹𐌳𐌿𐌽	gabidun	—	—		
+endure	subjunctive	2	singular	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌿	gabeidau	𐌲𐌰𐌱𐌹𐌳𐌾𐌰𐌿	gabidjau	—	—		
+endure	subjunctive	3	singular	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌹𐍃	gabeidais	𐌲𐌰𐌱𐌹𐌳𐌴𐌹𐍃	gabideis	—	—		
+endure	subjunctive	2	dual	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌹	gabeidai	𐌲𐌰𐌱𐌹𐌳𐌹	gabidi	—	—		
+endure	subjunctive	2	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌹𐍅𐌰	gabeidaiwa	𐌲𐌰𐌱𐌹𐌳𐌴𐌹𐍅𐌰	gabideiwa	—	—		
+endure	subjunctive	3	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌹𐍄𐍃	gabeidaits	𐌲𐌰𐌱𐌹𐌳𐌴𐌹𐍄𐍃	gabideits	—	—		
+endure	subjunctive	1	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌹𐌼𐌰	gabeidaima	𐌲𐌰𐌱𐌹𐌳𐌴𐌹𐌼𐌰	gabideima	—	—		
+endure	subjunctive	2	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌹𐌸	gabeidaiþ	𐌲𐌰𐌱𐌹𐌳𐌴𐌹𐌸	gabideiþ	—	—		
+endure	subjunctive	3	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌹𐌽𐌰	gabeidaina	𐌲𐌰𐌱𐌹𐌳𐌴𐌹𐌽𐌰	gabideina	—	—		
+endure	imperative	2	singular	𐌲𐌰𐌱𐌴𐌹𐌳	gabeid						
+endure	imperative	3	singular	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌳𐌰𐌿	gabeidadau						
+endure	imperative	2	dual	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐍄𐍃	gabeidats						
+endure	imperative	2	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌹𐌸	gabeidiþ						
+endure	imperative	3	plural	𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌽𐌳𐌰𐌿	gabeidandau						
+endure	participle			𐌲𐌰𐌱𐌴𐌹𐌳𐌰𐌽𐌳𐍃	gabeidands	𐌲𐌰𐌱𐌹𐌳𐌰𐌽𐍃	gabidans				
+fall	infinitive			𐌳𐍂𐌹𐌿𐍃𐌰𐌽	driusan	𐌳𐍂𐌹𐌿𐍃𐌰𐌽	driusan	𐌳𐍂𐌹𐌿𐍃𐌰𐌽	driusan	#	class 2 strong
+fall	indicative	1	singular	𐌳𐍂𐌹𐌿𐍃𐌰	driusa	𐌳𐍂𐌰𐌿𐍃	draus	𐌳𐍂𐌹𐌿𐍃𐌰𐌳𐌰	driusada		
+fall	indicative	2	singular	𐌳𐍂𐌹𐌿𐍃𐌹𐍃	driusis	𐌳𐍂𐌰𐌿𐍃𐍄	draust	𐌳𐍂𐌹𐌿𐍃𐌰𐌶𐌰	driusaza		
+fall	indicative	3	singular	𐌳𐍂𐌹𐌿𐍃𐌹𐌸	driusiþ	𐌳𐍂𐌰𐌿𐍃	draus	𐌳𐍂𐌹𐌿𐍃𐌰𐌳𐌰	driusada		
+fall	indicative	1	dual	𐌳𐍂𐌹𐌿𐍃𐍉𐍃	driusōs	𐌳𐍂𐌿𐍃𐌿	drusu	—	—		
+fall	indicative	2	dual	𐌳𐍂𐌹𐌿𐍃𐌰𐍄𐍃	driusats	𐌳𐍂𐌿𐍃𐌿𐍄𐍃	drusuts	—	—		
+fall	indicative	1	plural	𐌳𐍂𐌹𐌿𐍃𐌰𐌼	driusam	𐌳𐍂𐌿𐍃𐌿𐌼	drusum	𐌳𐍂𐌹𐌿𐍃𐌰𐌽𐌳𐌰	driusanda		
+fall	indicative	2	plural	𐌳𐍂𐌹𐌿𐍃𐌹𐌸	driusiþ	𐌳𐍂𐌿𐍃𐌿𐌸	drusuþ	𐌳𐍂𐌹𐌿𐍃𐌰𐌽𐌳𐌰	driusanda		
+fall	indicative	3	plural	𐌳𐍂𐌹𐌿𐍃𐌰𐌽𐌳	driusand	𐌳𐍂𐌿𐍃𐌿𐌽	drusun	𐌳𐍂𐌹𐌿𐍃𐌰𐌽𐌳𐌰	driusanda		
+fall	subjunctive	2	singular	𐌳𐍂𐌹𐌿𐍃𐌰𐌿	driusau	𐌳𐍂𐌿𐍃𐌾𐌰𐌿	drusjau	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌳𐌰𐌿	driusaidau		
+fall	subjunctive	3	singular	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐍃	driusais	𐌳𐍂𐌿𐍃𐌴𐌹𐍃	druseis	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌶𐌰𐌿	driusaizau		
+fall	subjunctive	2	dual	𐌳𐍂𐌹𐌿𐍃𐌰𐌹	driusai	𐌳𐍂𐌿𐍃𐌹	drusi	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌳𐌰𐌿	driusaidau		
+fall	subjunctive	2	plural	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐍅𐌰	driusaiwa	𐌳𐍂𐌿𐍃𐌴𐌹𐍅𐌰	druseiwa	—	—		
+fall	subjunctive	3	plural	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐍄𐍃	driusaits	𐌳𐍂𐌿𐍃𐌴𐌹𐍄𐍃	druseits	—	—		
+fall	subjunctive	1	plural	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌼𐌰	driusaima	𐌳𐍂𐌿𐍃𐌴𐌹𐌼𐌰	druseima	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌽𐌳𐌰𐌿	driusaindau		
+fall	subjunctive	2	plural	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌸	driusaiþ	𐌳𐍂𐌿𐍃𐌴𐌹𐌸	druseiþ	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌽𐌳𐌰𐌿	driusaindau		
+fall	subjunctive	3	plural	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌽𐌰	driusaina	𐌳𐍂𐌿𐍃𐌴𐌹𐌽𐌰	druseina	𐌳𐍂𐌹𐌿𐍃𐌰𐌹𐌽𐌳𐌰𐌿	driusaindau		
+fall	imperative	2	singular	𐌳𐍂𐌹𐌿𐍃	drius						
+fall	imperative	3	singular	𐌳𐍂𐌹𐌿𐍃𐌰𐌳𐌰𐌿	driusadau						
+fall	imperative	2	dual	𐌳𐍂𐌹𐌿𐍃𐌰𐍄𐍃	driusats						
+fall	imperative	2	plural	𐌳𐍂𐌹𐌿𐍃𐌹𐌸	driusiþ						
+fall	imperative	3	plural	𐌳𐍂𐌹𐌿𐍃𐌰𐌽𐌳𐌰𐌿	driusandau						
+fall	participle			𐌳𐍂𐌹𐌿𐍃𐌰𐌽𐌳𐍃	driusands	𐌳𐍂𐌿𐍃𐌰𐌽𐍃	drusans				
+hear	infinitive			𐌷𐌰𐌿𐍃𐌾𐌰𐌽	hausjan	𐌷𐌰𐌿𐍃𐌾𐌰𐌽	hausjan	𐌷𐌰𐌿𐍃𐌾𐌰𐌽	hausjan	#	class 1 weak
+hear	indicative	1	singular	𐌷𐌰𐌿𐍃𐌾𐌰	hausja	𐌷𐌰𐌿𐍃𐌹𐌳𐌰	hausida	𐌷𐌰𐌿𐍃𐌾𐌰𐌳𐌰	hausjada		
+hear	indicative	2	singular	𐌷𐌰𐌿𐍃𐌴𐌹𐍃	hauseis	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐍃	hausidēs	𐌷𐌰𐌿𐍃𐌾𐌰𐌶𐌰	hausjaza		
+hear	indicative	3	singular	𐌷𐌰𐌿𐍃𐌴𐌹𐌸	hauseiþ	𐌷𐌰𐌿𐍃𐌹𐌳𐌰	hausida	𐌷𐌰𐌿𐍃𐌾𐌰𐌳𐌰	hausjada		
+hear	indicative	1	dual	𐌷𐌰𐌿𐍃𐌾𐍉𐍃	hausjōs	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌿	hausidēdu	—	—		
+hear	indicative	2	dual	𐌷𐌰𐌿𐍃𐌾𐌰𐍄𐍃	hausjats	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌿𐍄𐍃	hausidēduts	—	—		
+hear	indicative	1	plural	𐌷𐌰𐌿𐍃𐌾𐌰𐌼	hausjam	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌿𐌼	hausidēdum	𐌷𐌰𐌿𐍃𐌾𐌰𐌽𐌳𐌰	hausjanda		
+hear	indicative	2	plural	𐌷𐌰𐌿𐍃𐌴𐌹𐌸	hauseiþ	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌿𐌸	hausidēduþ	𐌷𐌰𐌿𐍃𐌾𐌰𐌽𐌳𐌰	hausjanda		
+hear	indicative	3	plural	𐌷𐌰𐌿𐍃𐌾𐌰𐌽𐌳	hausjand	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌿𐌽	hausidēdun	𐌷𐌰𐌿𐍃𐌾𐌰𐌽𐌳𐌰	hausjanda		
+hear	subjunctive	2	singular	𐌷𐌰𐌿𐍃𐌾𐌰𐌿	hausjau	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌾𐌰𐌿	hausidēdjau	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌳𐌰𐌿	hausjaidau		
+hear	subjunctive	3	singular	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐍃	hausjais	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌴𐌹𐍃	hausidēdeis	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌶𐌰𐌿	hausjaizau		
+hear	subjunctive	2	dual	𐌷𐌰𐌿𐍃𐌾𐌰𐌹	hausjai	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌹	hausidēdi	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌳𐌰𐌿	hausjaidau		
+hear	subjunctive	2	plural	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐍅𐌰	hausjaiwa	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌴𐌹𐍅𐌰	hausidēdeiwa	—	—		
+hear	subjunctive	3	plural	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐍄𐍃	hausjaits	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌴𐌹𐍄𐍃	hausidēdeits	—	—		
+hear	subjunctive	1	plural	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌼𐌰	hausjaima	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌴𐌹𐌼𐌰	hausidēdeima	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌽𐌳𐌰𐌿	hausjaindau		
+hear	subjunctive	2	plural	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌸	hausjaiþ	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌴𐌹𐌸	hausidēdeiþ	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌽𐌳𐌰𐌿	hausjaindau		
+hear	subjunctive	3	plural	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌽𐌰	hausjaina	𐌷𐌰𐌿𐍃𐌹𐌳𐌴𐌳𐌴𐌹𐌽𐌰	hausidēdeina	𐌷𐌰𐌿𐍃𐌾𐌰𐌹𐌽𐌳𐌰𐌿	hausjaindau		
+hear	imperative	2	singular	𐌷𐌰𐌿𐍃𐌴𐌹	hausei						
+hear	imperative	3	singular	𐌷𐌰𐌿𐍃𐌾𐌰𐌳𐌰𐌿	hausjadau						
+hear	imperative	2	dual	𐌷𐌰𐌿𐍃𐌾𐌰𐍄𐍃	hausjats						
+hear	imperative	2	plural	𐌷𐌰𐌿𐍃𐌴𐌹𐌸	hauseiþ						
+hear	imperative	3	plural	𐌷𐌰𐌿𐍃𐌾𐌰𐌽𐌳𐌰𐌿	hausjandau						
+hear	participle			𐌷𐌰𐌿𐍃𐌾𐌰𐌽𐌳𐍃	hausjands	𐌷𐌰𐌿𐍃𐌹𐌸𐍃	hausiþs				
+rest	infinitive			𐍈𐌴𐌹𐌻𐌰𐌽ƕ	eilān	𐍈𐌴𐌹𐌻𐌰𐌽ƕ	eilān	𐍈𐌴𐌹𐌻𐌰𐌽ƕ	eilān	#	class 3 weak
+rest	indicative	1	singular	𐍈𐌴𐌹𐌻𐌰ƕ	eila	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌰ƕ	eilaida	𐍈𐌴𐌹𐌻𐌰𐌳𐌰ƕ	eilāda		
+rest	indicative	2	singular	𐍈𐌴𐌹𐌻𐌰𐌹𐍃ƕ	eilais	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐍃ƕ	eilaidēs	𐍈𐌴𐌹𐌻𐌰𐌶𐌰ƕ	eilāza		
+rest	indicative	3	singular	𐍈𐌴𐌹𐌻𐌰𐌹𐌸ƕ	eilaiþ	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌰ƕ	eilaida	𐍈𐌴𐌹𐌻𐌰𐌳𐌰ƕ	eilāda		
+rest	indicative	1	dual	𐍈𐌴𐌹𐌻𐍉𐍃ƕ	eilōs	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌿ƕ	eilaidēdu	—	—		
+rest	indicative	2	dual	𐍈𐌴𐌹𐌻𐌰𐍄𐍃ƕ	eilāts	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌿𐍄𐍃ƕ	eilaidēduts	—	—		
+rest	indicative	1	plural	𐍈𐌴𐌹𐌻𐌰𐌼ƕ	eilām	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌿𐌼ƕ	eilaidēdum	𐍈𐌴𐌹𐌻𐌰𐌽𐌳𐌰ƕ	eilānda		
+rest	indicative	2	plural	𐍈𐌴𐌹𐌻𐌰𐌹𐌸ƕ	eilaiþ	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌿𐌸ƕ	eilaidēduþ	𐍈𐌴𐌹𐌻𐌰𐌽𐌳𐌰ƕ	eilānda		
+rest	indicative	3	plural	𐍈𐌴𐌹𐌻𐌰𐌽𐌳ƕ	eilānd	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌿𐌽ƕ	eilaidēdun	𐍈𐌴𐌹𐌻𐌰𐌽𐌳𐌰ƕ	eilānda		
+rest	subjunctive	2	singular	𐍈𐌴𐌹𐌻𐌰𐌿ƕ	eilau	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌾𐌰𐌿ƕ	eilaidēdjau	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌰𐌿ƕ	eilaidau		
+rest	subjunctive	3	singular	𐍈𐌴𐌹𐌻𐌰𐌹𐍃ƕ	eilais	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌴𐌹𐍃ƕ	eilaidēdeis	𐍈𐌴𐌹𐌻𐌰𐌹𐌶𐌰𐌿ƕ	eilaizau		
+rest	subjunctive	2	dual	𐍈𐌴𐌹𐌻𐌰𐌹ƕ	eilai	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌹ƕ	eilaidēdi	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌰𐌿ƕ	eilaidau		
+rest	subjunctive	2	plural	𐍈𐌴𐌹𐌻𐌰𐌹𐍅𐌰ƕ	eilaiwa	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌴𐌹𐍅𐌰ƕ	eilaidēdeiwa	—	—		
+rest	subjunctive	3	plural	𐍈𐌴𐌹𐌻𐌰𐌹𐍄𐍃ƕ	eilaits	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌴𐌹𐍄𐍃ƕ	eilaidēdeits	—	—		
+rest	subjunctive	1	plural	𐍈𐌴𐌹𐌻𐌰𐌹𐌼𐌰ƕ	eilaima	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌴𐌹𐌼𐌰ƕ	eilaidēdeima	𐍈𐌴𐌹𐌻𐌰𐌹𐌽𐌳𐌰𐌿ƕ	eilaindau		
+rest	subjunctive	2	plural	𐍈𐌴𐌹𐌻𐌰𐌹𐌸ƕ	eilaiþ	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌴𐌹𐌸ƕ	eilaidēdeiþ	𐍈𐌴𐌹𐌻𐌰𐌹𐌽𐌳𐌰𐌿ƕ	eilaindau		
+rest	subjunctive	3	plural	𐍈𐌴𐌹𐌻𐌰𐌹𐌽𐌰ƕ	eilaina	𐍈𐌴𐌹𐌻𐌰𐌹𐌳𐌴𐌳𐌴𐌹𐌽𐌰ƕ	eilaidēdeina	𐍈𐌴𐌹𐌻𐌰𐌹𐌽𐌳𐌰𐌿ƕ	eilaindau		
+rest	imperative	2	singular	𐍈𐌴𐌹𐌻𐌰𐌹ƕ	eilai						
+rest	imperative	3	singular	𐍈𐌴𐌹𐌻𐌰𐌳𐌰𐌿ƕ	eilādau						
+rest	imperative	2	dual	𐍈𐌴𐌹𐌻𐌰𐍄𐍃ƕ	eilāts						
+rest	imperative	2	plural	𐍈𐌴𐌹𐌻𐌰𐌹𐌸ƕ	eilaiþ						
+rest	imperative	3	plural	𐍈𐌴𐌹𐌻𐌰𐌽𐌳𐌰𐌿ƕ	eilāndau						
+rest	participle			𐍈𐌴𐌹𐌻𐌰𐌽𐌳𐍃ƕ	eilānds	𐍈𐌴𐌹𐌻𐌰𐌹𐌸𐍃ƕ	eilaiþs				
+see	infinitive			𐍃𐌰𐌹𐍈𐌰𐌽	saiƕan	𐍃𐌰𐌹𐍈𐌰𐌽	saiƕan	𐍃𐌰𐌹𐍈𐌰𐌽	saiƕan	#	class 5 strong
+see	indicative	1	singular	𐍃𐌰𐌹𐍈𐌰	saiƕa	𐍃𐌰𐍈	saƕ	𐍃𐌰𐌹𐍈𐌰𐌳𐌰	saiƕada		
+see	indicative	2	singular	𐍃𐌰𐌹𐍈𐌹𐍃	saiƕis	𐍃𐌰𐍈𐍄	saƕt	𐍃𐌰𐌹𐍈𐌰𐌶𐌰	saiƕaza		
+see	indicative	3	singular	𐍃𐌰𐌹𐍈𐌹𐌸	saiƕiþ	𐍃𐌰𐍈	saƕ	𐍃𐌰𐌹𐍈𐌰𐌳𐌰	saiƕada		
+see	indicative	1	dual	𐍃𐌰𐌹𐍈𐍉𐍃	saiƕōs	𐍃𐌴𐍈𐌿	sēƕu	—	—		
+see	indicative	2	dual	𐍃𐌰𐌹𐍈𐌰𐍄𐍃	saiƕats	𐍃𐌴𐍈𐌿𐍄𐍃	sēƕuts	—	—		
+see	indicative	1	plural	𐍃𐌰𐌹𐍈𐌰𐌼	saiƕam	𐍃𐌴𐍈𐌿𐌼	sēƕum	𐍃𐌰𐌹𐍈𐌰𐌽𐌳𐌰	saiƕanda		
+see	indicative	2	plural	𐍃𐌰𐌹𐍈𐌹𐌸	saiƕiþ	𐍃𐌴𐍈𐌿𐌸	sēƕuþ	𐍃𐌰𐌹𐍈𐌰𐌽𐌳𐌰	saiƕanda		
+see	indicative	3	plural	𐍃𐌰𐌹𐍈𐌰𐌽𐌳	saiƕand	𐍃𐌴𐍈𐌿𐌽	sēƕun	𐍃𐌰𐌹𐍈𐌰𐌽𐌳𐌰	saiƕanda		
+see	subjunctive	2	singular	𐍃𐌰𐌹𐍈𐌰𐌿	saiƕau	𐍃𐌴𐍈𐌾𐌰𐌿	sēƕjau	𐍃𐌰𐌹𐍈𐌰𐌹𐌳𐌰𐌿	saiƕaidau		
+see	subjunctive	3	singular	𐍃𐌰𐌹𐍈𐌰𐌹𐍃	saiƕais	𐍃𐌴𐍈𐌴𐌹𐍃	sēƕeis	𐍃𐌰𐌹𐍈𐌰𐌹𐌶𐌰𐌿	saiƕaizau		
+see	subjunctive	2	dual	𐍃𐌰𐌹𐍈𐌰𐌹	saiƕai	𐍃𐌴𐍈𐌹	sēƕi	𐍃𐌰𐌹𐍈𐌰𐌹𐌳𐌰𐌿	saiƕaidau		
+see	subjunctive	2	plural	𐍃𐌰𐌹𐍈𐌰𐌹𐍅𐌰	saiƕaiwa	𐍃𐌴𐍈𐌴𐌹𐍅𐌰	sēƕeiwa	—	—		
+see	subjunctive	3	plural	𐍃𐌰𐌹𐍈𐌰𐌹𐍄𐍃	saiƕaits	𐍃𐌴𐍈𐌴𐌹𐍄𐍃	sēƕeits	—	—		
+see	subjunctive	1	plural	𐍃𐌰𐌹𐍈𐌰𐌹𐌼𐌰	saiƕaima	𐍃𐌴𐍈𐌴𐌹𐌼𐌰	sēƕeima	𐍃𐌰𐌹𐍈𐌰𐌹𐌽𐌳𐌰𐌿	saiƕaindau		
+see	subjunctive	2	plural	𐍃𐌰𐌹𐍈𐌰𐌹𐌸	saiƕaiþ	𐍃𐌴𐍈𐌴𐌹𐌸	sēƕeiþ	𐍃𐌰𐌹𐍈𐌰𐌹𐌽𐌳𐌰𐌿	saiƕaindau		
+see	subjunctive	3	plural	𐍃𐌰𐌹𐍈𐌰𐌹𐌽𐌰	saiƕaina	𐍃𐌴𐍈𐌴𐌹𐌽𐌰	sēƕeina	𐍃𐌰𐌹𐍈𐌰𐌹𐌽𐌳𐌰𐌿	saiƕaindau		
+see	imperative	2	singular	𐍃𐌰𐌹𐍈	saiƕ						
+see	imperative	3	singular	𐍃𐌰𐌹𐍈𐌰𐌳𐌰𐌿	saiƕadau						
+see	imperative	2	dual	𐍃𐌰𐌹𐍈𐌰𐍄𐍃	saiƕats						
+see	imperative	2	plural	𐍃𐌰𐌹𐍈𐌹𐌸	saiƕiþ						
+see	imperative	3	plural	𐍃𐌰𐌹𐍈𐌰𐌽𐌳𐌰𐌿	saiƕandau						
+see	participle			𐍃𐌰𐌹𐍈𐌰𐌽𐌳𐍃	saiƕands	𐍃𐌰𐌹𐍈𐌰𐌽𐍃	saiƕans				
+show	infinitive			𐌰𐌿𐌲𐌾𐌰𐌽	augjan	𐌰𐌿𐌲𐌾𐌰𐌽	augjan	𐌰𐌿𐌲𐌾𐌰𐌽	augjan	#	class 1 weak
+show	indicative	1	singular	𐌰𐌿𐌲𐌾𐌰	augja	𐌰𐌿𐌲𐌹𐌳𐌰	augida	𐌰𐌿𐌲𐌾𐌰𐌳𐌰	augjada		
+show	indicative	2	singular	𐌰𐌿𐌲𐌴𐌹𐍃	augeis	𐌰𐌿𐌲𐌹𐌳𐌴𐍃	augidēs	𐌰𐌿𐌲𐌾𐌰𐌶𐌰	augjaza		
+show	indicative	3	singular	𐌰𐌿𐌲𐌴𐌹𐌸	augeiþ	𐌰𐌿𐌲𐌹𐌳𐌰	augida	𐌰𐌿𐌲𐌾𐌰𐌳𐌰	augjada		
+show	indicative	1	dual	𐌰𐌿𐌲𐌾𐍉𐍃	augjōs	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌿	augidēdu	—	—		
+show	indicative	2	dual	𐌰𐌿𐌲𐌾𐌰𐍄𐍃	augjats	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌿𐍄𐍃	augidēduts	—	—		
+show	indicative	1	plural	𐌰𐌿𐌲𐌾𐌰𐌼	augjam	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌿𐌼	augidēdum	𐌰𐌿𐌲𐌾𐌰𐌽𐌳𐌰	augjanda		
+show	indicative	2	plural	𐌰𐌿𐌲𐌴𐌹𐌸	augeiþ	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌿𐌸	augidēduþ	𐌰𐌿𐌲𐌾𐌰𐌽𐌳𐌰	augjanda		
+show	indicative	3	plural	𐌰𐌿𐌲𐌾𐌰𐌽𐌳	augjand	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌿𐌽	augidēdun	𐌰𐌿𐌲𐌾𐌰𐌽𐌳𐌰	augjanda		
+show	subjunctive	2	singular	𐌰𐌿𐌲𐌾𐌰𐌿	augjau	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌾𐌰𐌿	augidēdjau	𐌰𐌿𐌲𐌾𐌰𐌹𐌳𐌰𐌿	augjaidau		
+show	subjunctive	3	singular	𐌰𐌿𐌲𐌾𐌰𐌹𐍃	augjais	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐍃	augidēdeis	𐌰𐌿𐌲𐌾𐌰𐌹𐌶𐌰𐌿	augjaizau		
+show	subjunctive	2	dual	𐌰𐌿𐌲𐌾𐌰𐌹	augjai	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌹	augidēdi	𐌰𐌿𐌲𐌾𐌰𐌹𐌳𐌰𐌿	augjaidau		
+show	subjunctive	2	plural	𐌰𐌿𐌲𐌾𐌰𐌹𐍅𐌰	augjaiwa	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐍅𐌰	augidēdeiwa	—	—		
+show	subjunctive	3	plural	𐌰𐌿𐌲𐌾𐌰𐌹𐍄𐍃	augjaits	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐍄𐍃	augidēdeits	—	—		
+show	subjunctive	1	plural	𐌰𐌿𐌲𐌾𐌰𐌹𐌼𐌰	augjaima	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐌼𐌰	augidēdeima	𐌰𐌿𐌲𐌾𐌰𐌹𐌽𐌳𐌰𐌿	augjaindau		
+show	subjunctive	2	plural	𐌰𐌿𐌲𐌾𐌰𐌹𐌸	augjaiþ	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐌸	augidēdeiþ	𐌰𐌿𐌲𐌾𐌰𐌹𐌽𐌳𐌰𐌿	augjaindau		
+show	subjunctive	3	plural	𐌰𐌿𐌲𐌾𐌰𐌹𐌽𐌰	augjaina	𐌰𐌿𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐌽𐌰	augidēdeina	𐌰𐌿𐌲𐌾𐌰𐌹𐌽𐌳𐌰𐌿	augjaindau		
+show	imperative	2	singular	𐌰𐌿𐌲𐌴𐌹	augei						
+show	imperative	3	singular	𐌰𐌿𐌲𐌾𐌰𐌳𐌰𐌿	augjadau						
+show	imperative	2	dual	𐌰𐌿𐌲𐌾𐌰𐍄𐍃	augjats						
+show	imperative	2	plural	𐌰𐌿𐌲𐌴𐌹𐌸	augeiþ						
+show	imperative	3	plural	𐌰𐌿𐌲𐌾𐌰𐌽𐌳𐌰𐌿	augjandau						
+show	participle			𐌰𐌿𐌲𐌾𐌰𐌽𐌳𐍃	augjands	𐌰𐌿𐌲𐌹𐌸𐍃	augiþs				
+startle	infinitive			𐍉𐌲𐌾𐌰𐌽ō	gjan	𐍉𐌲𐌾𐌰𐌽ō	gjan	𐍉𐌲𐌾𐌰𐌽ō	gjan	#	class 1 weak
+startle	indicative	1	singular	𐍉𐌲𐌾𐌰ō	gja	𐍉𐌲𐌹𐌳𐌰ō	gida	𐍉𐌲𐌾𐌰𐌳𐌰ō	gjada		
+startle	indicative	2	singular	𐍉𐌲𐌾𐌹𐍃ō	gjis	𐍉𐌲𐌹𐌳𐌴𐍃ō	gidēs	𐍉𐌲𐌾𐌰𐌶𐌰ō	gjaza		
+startle	indicative	3	singular	𐍉𐌲𐌾𐌹𐌸ō	gjiþ	𐍉𐌲𐌹𐌳𐌰ō	gida	𐍉𐌲𐌾𐌰𐌳𐌰ō	gjada		
+startle	indicative	1	dual	𐍉𐌲𐌾𐍉𐍃ō	gjōs	𐍉𐌲𐌹𐌳𐌴𐌳𐌿ō	gidēdu	—	—		
+startle	indicative	2	dual	𐍉𐌲𐌾𐌰𐍄𐍃ō	gjats	𐍉𐌲𐌹𐌳𐌴𐌳𐌿𐍄𐍃ō	gidēduts	—	—		
+startle	indicative	1	plural	𐍉𐌲𐌾𐌰𐌼ō	gjam	𐍉𐌲𐌹𐌳𐌴𐌳𐌿𐌼ō	gidēdum	𐍉𐌲𐌾𐌰𐌽𐌳𐌰ō	gjanda		
+startle	indicative	2	plural	𐍉𐌲𐌾𐌹𐌸ō	gjiþ	𐍉𐌲𐌹𐌳𐌴𐌳𐌿𐌸ō	gidēduþ	𐍉𐌲𐌾𐌰𐌽𐌳𐌰ō	gjanda		
+startle	indicative	3	plural	𐍉𐌲𐌾𐌰𐌽𐌳ō	gjand	𐍉𐌲𐌹𐌳𐌴𐌳𐌿𐌽ō	gidēdun	𐍉𐌲𐌾𐌰𐌽𐌳𐌰ō	gjanda		
+startle	subjunctive	2	singular	𐍉𐌲𐌾𐌰𐌿ō	gjau	𐍉𐌲𐌹𐌳𐌴𐌳𐌾𐌰𐌿ō	gidēdjau	𐍉𐌲𐌾𐌰𐌹𐌳𐌰𐌿ō	gjaidau		
+startle	subjunctive	3	singular	𐍉𐌲𐌾𐌰𐌹𐍃ō	gjais	𐍉𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐍃ō	gidēdeis	𐍉𐌲𐌾𐌰𐌹𐌶𐌰𐌿ō	gjaizau		
+startle	subjunctive	2	dual	𐍉𐌲𐌾𐌰𐌹ō	gjai	𐍉𐌲𐌹𐌳𐌴𐌳𐌹ō	gidēdi	𐍉𐌲𐌾𐌰𐌹𐌳𐌰𐌿ō	gjaidau		
+startle	subjunctive	2	plural	𐍉𐌲𐌾𐌰𐌹𐍅𐌰ō	gjaiwa	𐍉𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐍅𐌰ō	gidēdeiwa	—	—		
+startle	subjunctive	3	plural	𐍉𐌲𐌾𐌰𐌹𐍄𐍃ō	gjaits	𐍉𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐍄𐍃ō	gidēdeits	—	—		
+startle	subjunctive	1	plural	𐍉𐌲𐌾𐌰𐌹𐌼𐌰ō	gjaima	𐍉𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐌼𐌰ō	gidēdeima	𐍉𐌲𐌾𐌰𐌹𐌽𐌳𐌰𐌿ō	gjaindau		
+startle	subjunctive	2	plural	𐍉𐌲𐌾𐌰𐌹𐌸ō	gjaiþ	𐍉𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐌸ō	gidēdeiþ	𐍉𐌲𐌾𐌰𐌹𐌽𐌳𐌰𐌿ō	gjaindau		
+startle	subjunctive	3	plural	𐍉𐌲𐌾𐌰𐌹𐌽𐌰ō	gjaina	𐍉𐌲𐌹𐌳𐌴𐌳𐌴𐌹𐌽𐌰ō	gidēdeina	𐍉𐌲𐌾𐌰𐌹𐌽𐌳𐌰𐌿ō	gjaindau		
+startle	imperative	2	singular	𐍉𐌲𐌴𐌹ō	gei						
+startle	imperative	3	singular	𐍉𐌲𐌾𐌰𐌳𐌰𐌿ō	gjadau						
+startle	imperative	2	dual	𐍉𐌲𐌾𐌰𐍄𐍃ō	gjats						
+startle	imperative	2	plural	𐍉𐌲𐌾𐌹𐌸ō	gjiþ						
+startle	imperative	3	plural	𐍉𐌲𐌾𐌰𐌽𐌳𐌰𐌿ō	gjandau						
+startle	participle			𐍉𐌲𐌾𐌰𐌽𐌳𐍃ō	gjands	𐍉𐌲𐌹𐌸𐍃ō	giþs				
+walk	infinitive			𐍈𐌰𐍂𐌱𐍉𐌽ƕ	arbōn	𐍈𐌰𐍂𐌱𐍉𐌽ƕ	arbōn	𐍈𐌰𐍂𐌱𐍉𐌽ƕ	arbōn	#	class 2 weak
+walk	indicative	1	singular	𐍈𐌰𐍂𐌱𐍉ƕ	arbō	𐍈𐌰𐍂𐌱𐍉𐌳𐌰ƕ	arbōda	𐍈𐌰𐍂𐌱𐍉𐌳𐌰ƕ	arbōda		
+walk	indicative	2	singular	𐍈𐌰𐍂𐌱𐍉𐍃ƕ	arbōs	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐍃ƕ	arbōdēs	𐍈𐌰𐍂𐌱𐍉𐌶𐌰ƕ	arbōza		
+walk	indicative	3	singular	𐍈𐌰𐍂𐌱𐍉𐌸ƕ	arbōþ	𐍈𐌰𐍂𐌱𐍉𐌳𐌰ƕ	arbōda	𐍈𐌰𐍂𐌱𐍉𐌳𐌰ƕ	arbōda		
+walk	indicative	1	dual	𐍈𐌰𐍂𐌱𐍉𐍃ƕ	arbōs	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌿ƕ	arbōdēdu	—	—		
+walk	indicative	2	dual	𐍈𐌰𐍂𐌱𐍉𐍄𐍃ƕ	arbōts	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌿𐍄𐍃ƕ	arbōdēduts	—	—		
+walk	indicative	1	plural	𐍈𐌰𐍂𐌱𐍉𐌼ƕ	arbōm	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌿𐌼ƕ	arbōdēdum	𐍈𐌰𐍂𐌱𐍉𐌽𐌳𐌰ƕ	arbōnda		
+walk	indicative	2	plural	𐍈𐌰𐍂𐌱𐍉𐌸ƕ	arbōþ	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌿𐌸ƕ	arbōdēduþ	𐍈𐌰𐍂𐌱𐍉𐌽𐌳𐌰ƕ	arbōnda		
+walk	indicative	3	plural	𐍈𐌰𐍂𐌱𐍉𐌽𐌳ƕ	arbōnd	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌿𐌽ƕ	arbōdēdun	𐍈𐌰𐍂𐌱𐍉𐌽𐌳𐌰ƕ	arbōnda		
+walk	subjunctive	2	singular	𐍈𐌰𐍂𐌱𐍉ƕ	arbō	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌾𐌰𐌿ƕ	arbōdēdjau	𐍈𐌰𐍂𐌱𐍉𐌳𐌰𐌿ƕ	arbōdau		
+walk	subjunctive	3	singular	𐍈𐌰𐍂𐌱𐍉𐍃ƕ	arbōs	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌴𐌹𐍃ƕ	arbōdēdeis	𐍈𐌰𐍂𐌱𐍉𐌶𐌰𐌿ƕ	arbōzau		
+walk	subjunctive	2	dual	𐍈𐌰𐍂𐌱𐍉ƕ	arbō	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌹ƕ	arbōdēdi	𐍈𐌰𐍂𐌱𐍉𐌳𐌰𐌿ƕ	arbōdau		
+walk	subjunctive	2	plural	𐍈𐌰𐍂𐌱𐍉𐍅𐌰ƕ	arbōwa	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌴𐌹𐍅𐌰ƕ	arbōdēdeiwa	—	—		
+walk	subjunctive	3	plural	𐍈𐌰𐍂𐌱𐍉𐍄𐍃ƕ	arbōts	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌴𐌹𐍄𐍃ƕ	arbōdēdeits	—	—		
+walk	subjunctive	1	plural	𐍈𐌰𐍂𐌱𐍉𐌼𐌰ƕ	arbōma	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌴𐌹𐌼𐌰ƕ	arbōdēdeima	𐍈𐌰𐍂𐌱𐍉𐌽𐌳𐌰𐌿ƕ	arbōndau		
+walk	subjunctive	2	plural	𐍈𐌰𐍂𐌱𐍉𐌸ƕ	arbōþ	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌴𐌹𐌸ƕ	arbōdēdeiþ	𐍈𐌰𐍂𐌱𐍉𐌽𐌳𐌰𐌿ƕ	arbōndau		
+walk	subjunctive	3	plural	𐍈𐌰𐍂𐌱𐍉𐌽𐌰ƕ	arbōna	𐍈𐌰𐍂𐌱𐍉𐌳𐌴𐌳𐌴𐌹𐌽𐌰ƕ	arbōdēdeina	𐍈𐌰𐍂𐌱𐍉𐌽𐌳𐌰𐌿ƕ	arbōndau		
+walk	imperative	2	singular	𐍈𐌰𐍂𐌱𐍉ƕ	arbō						
+walk	imperative	3	singular	𐍈𐌰𐍂𐌱𐍉𐌳𐌰𐌿ƕ	arbōdau						
+walk	imperative	2	dual	𐍈𐌰𐍂𐌱𐍉𐍄𐍃ƕ	arbōts						
+walk	imperative	2	plural	𐍈𐌰𐍂𐌱𐍉𐌸ƕ	arbōþ						
+walk	imperative	3	plural	𐍈𐌰𐍂𐌱𐍉𐌽𐌳𐌰𐌿ƕ	arbōndau						
+walk	participle			𐍈𐌰𐍂𐌱𐍉𐌽𐌳𐍃ƕ	arbōnds	𐍈𐌰𐍂𐌱𐍉𐌸𐍃ƕ	arbōþs				
+work	infinitive			𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽	waurkjan	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽	waurkjan	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽	waurkjan	#	class 1 weak irregular
+work	indicative	1	singular	𐍅𐌰𐌿𐍂𐌺𐌾𐌰	waurkja	𐍅𐌰𐌿𐍂𐌷𐍄𐌰	waurhta	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌳𐌰	waurkjada		
+work	indicative	2	singular	𐍅𐌰𐌿𐍂𐌺𐌴𐌹𐍃	waurkeis	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐍃	waurhtēs	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌶𐌰	waurkjaza		
+work	indicative	3	singular	𐍅𐌰𐌿𐍂𐌺𐌴𐌹𐌸	waurkeiþ	𐍅𐌰𐌿𐍂𐌷𐍄𐌰	waurhta	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌳𐌰	waurkjada		
+work	indicative	1	dual	𐍅𐌰𐌿𐍂𐌺𐌾𐍉𐍃	waurkjōs	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌿	waurhtēdu	—	—		
+work	indicative	2	dual	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐍄𐍃	waurkjats	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌿𐍄𐍃	waurhtēduts	—	—		
+work	indicative	1	plural	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌼	waurkjam	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌿𐌼	waurhtēdum	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽𐌳𐌰	waurkjanda		
+work	indicative	2	plural	𐍅𐌰𐌿𐍂𐌺𐌴𐌹𐌸	waurkeiþ	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌿𐌸	waurhtēduþ	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽𐌳𐌰	waurkjanda		
+work	indicative	3	plural	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽𐌳	waurkjand	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌿𐌽	waurhtēdun	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽𐌳𐌰	waurkjanda		
+work	subjunctive	2	singular	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌿	waurkjau	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌾𐌰𐌿	waurhtēdjau	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌳𐌰𐌿	waurkjaidau		
+work	subjunctive	3	singular	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐍃	waurkjais	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌴𐌹𐍃	waurhtēdeis	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌶𐌰𐌿	waurkjaizau		
+work	subjunctive	2	dual	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹	waurkjai	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌹	waurhtēdi	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌳𐌰𐌿	waurkjaidau		
+work	subjunctive	2	plural	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐍅𐌰	waurkjaiwa	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌴𐌹𐍅𐌰	waurhtēdeiwa	—	—		
+work	subjunctive	3	plural	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐍄𐍃	waurkjaits	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌴𐌹𐍄𐍃	waurhtēdeits	—	—		
+work	subjunctive	1	plural	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌼𐌰	waurkjaima	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌴𐌹𐌼𐌰	waurhtēdeima	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌽𐌳𐌰𐌿	waurkjaindau		
+work	subjunctive	2	plural	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌸	waurkjaiþ	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌴𐌹𐌸	waurhtēdeiþ	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌽𐌳𐌰𐌿	waurkjaindau		
+work	subjunctive	3	plural	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌽𐌰	waurkjaina	𐍅𐌰𐌿𐍂𐌷𐍄𐌴𐌳𐌴𐌹𐌽𐌰	waurhtēdeina	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌽𐌳𐌰𐌿	waurkjaindau		
+work	imperative	2	singular	𐍅𐌰𐌿𐍂𐌺𐌴𐌹	waurkei						
+work	imperative	3	singular	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌳𐌰𐌿	waurkjadau						
+work	imperative	2	dual	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐍄𐍃	waurkjats						
+work	imperative	2	plural	𐍅𐌰𐌿𐍂𐌺𐌴𐌹𐌸	waurkeiþ						
+work	imperative	3	plural	𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽𐌳𐌰𐌿	waurkjandau						
+work	participle			𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌽𐌳𐍃	waurkjands	𐍅𐌰𐌿𐍂𐌷𐍄𐍃	waurhts				

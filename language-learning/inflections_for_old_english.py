@@ -30,32 +30,28 @@ foreign_language = Language(
     ListSemantics(
         case_usage_population.index(
             case_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/case-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/case-usage.tsv'))),
         mood_usage_population.index(
             mood_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/mood-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
         conjugation_population.index([
             *finite_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/conjugations.tsv')),
-            *filter(has_annotation('language','old-english'),
-                declension_verb_annotation.annotate(
-                    tsv_parsing.rows(
-                        'data/inflection/declension-template-verbs-minimal.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/conjugations.tsv')),
         ]),
         declension_population.index([
             *pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/pronoun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/pronoun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/common-noun-declensions.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/common-noun-declensions.tsv')),
             *common_noun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/adjective-agreement.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/adjective-agreements.tsv')),
             *possessive_pronoun_annotation.annotate(
-                tsv_parsing.rows('data/inflection/english/old/pronoun-possessives.tsv')),
+                tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/pronoun-possessives.tsv')),
             *filter(has_annotation('language','old-english'),
                 declension_template_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/declension-template-nouns-minimal.tsv'))),

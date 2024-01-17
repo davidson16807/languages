@@ -1,30 +1,210 @@
-*	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	foreign	native	foreign		#	
-*	infinitive	infinitive	indicative	indicative	indicative	indicative	indicative	indicative	indicative	indicative	subjunctive	subjunctive	subjunctive	subjunctive	imperative	imperative	participle	participle	argument	argument	argument	#	group
-*	bare	full	present	present	present	present	past	past	past	past	present	present	past	past			present	past	latin	latin	emoji	#	
-*			singular	singular	singular	plural	singular	singular	singular	plural	singular	plural	singular	plural	singular	plural						#	
-*			1	2	3		1	2	3													#	
-be[momentarily]	bēon 	tō bēonne 	bēo	bist	biþ	bēoþ 	ƿæs	ƿǣre	ƿæs	ƿǣron	bēo	bēon	ƿǣre	ƿǣren 	bēo	bēoþ 	bēonde	(ġe)bēon 	well	ƿel	\nx{🧘\cx\gx}	#	
-be[inherently]	ƿesan 	to ƿesanne 	eom	eart	is	sind	ƿæs	ƿǣre	ƿæs	ƿǣron	sīe	sīen 	ƿǣre	ƿǣren 	ƿes	ƿesaþ 	ƿesende 	(ġe)bēon 	his descendant	his eafora	<sup>🧓<sup><sub>\nx{🧑\gx\cx}</sub	#	
-do	dōn	tō dōnne	dō	dēst	dēþ	dōþ	dyde	dydest	dyde 	dydon	dō	dōn 	dyde	dyde 	dō 	dōþ 	dōnde	(ġe)dōn 	the work	þe ƿeorc	\nx{🧑\gx\cx\🌾}	#	
-go	gān	tō gānne	gā	gǣst	gǣþ	gāþ	ēode	ēodest	ēode 	ēodon	gā	gān 	ēode	ēode 	gā 	gāþ 	gānde	(ġe)gān 	to the castle	þe castel	<big>🏰</big><span style='font-size:60%'>←\nx{🚶\cx\gx}</span>	#	
-want	ƿillan	tō ƿillenne 	ƿille	ƿilt	ƿile	ƿillaþ	ƿolde	ƿoldest	ƿolde	ƿoldon 	ƿille	ƿillen	ƿolde	ƿolde	ƿille	ƿillaþ 	ƿillende	*(ġe)ƿillen 	to fight	tō feohtan	\nx{🤼\cx\gx}	#	
-steal	stelan	tō stelanne 	stele	stilst	stilþ	stelaþ 	stæl	stǣle	stæl	stǣlon 	stele	stelen	stǣle	stǣlen 	stel	stelaþ 	stelende	(ġe)stolen 	the ring	þe hring	←<sup>💍</sup>\nx{🏃\cx\gx}	#	strong
-share	dǣlan	tō dǣlenne 	dǣle	dǣlst	dǣlþ	dǣlaþ	dǣlde	dǣldest	dǣlde	dǣldon 	dǣle	dǣlen	dǣlde	dǣlden 	dǣl	dǣlaþ 	dǣlende	(ġe)dǣled 	the food	þe fodan	\nx{💁\cx\gx}<sub>🍖</sub>	#	class 1 weak, most common
-tame	teman	tō temenne 	temme	temest	temeþ	temmaþ	temede	temedest	temede	temedon 	temme	temmen	temede	temeden 	teme	temmaþ 	temmende	(ġe)temed 	the horse	þe hors	🐎\nx{🚶\cx\gx}	#	class 1 weak, double consonant ending
-move	styrian	tō styrienne 	styrie	styrest	styreþ	styraþ	styrede	styredest	styrede	styredon 	styrie	styrien	styrede	styreden 	styre	styriaþ 	styriende	(ġe)styred 	the stone	þe stān	<sup>←🪨</sup><big>\nx{🚶\cx\gx}</big>	#	class 1 weak, -rian ending
-love	lufian	tō lufienne 	lufiġe	lufast	lufaþ	lufiaþ	lufode	lufodest	lufode	lufodon 	lufiġe	lufiġen	lufode	lufoden 	lufa	lufiaþ 	lufiende	(ġe)lufod 	the dog	þe docgan	←🐕<big>\nx{🧎\cx\gx}</big>	#	class 2 weak, -ian ending
-have	habban	tō hæbbenne	hæbbe	hæfst	hæfþ	habbaþ	hæfde	hæfdest 	hæfde 	hæfdon 	hæbbe	hæbben 	hæfde	hæfden 	hafa	habbaþ	hæbbende 	(ġe)hæfd 	the money	þe feoh	\nx{💁\cx\gx}<sub>🪙</sub>	#	class 3 weak, irregular
-live	libban	tō libbenne	libbe	leofast	leofaþ	libbaþ	lifde	lifdest 	lifde 	lifdon 	libbe	libben 	lifde	lifden 	leofa	libbaþ	libbende 	(ġe)lifd 	dangerously	frēcnelīċ	\nx{🧗\cx\gx}	#	class 3 weak, irregular
-say	seċġan	tō seċġenne	seċġe	sæġst	sæġþ	seċġaþ	sæġde	sæġdest 	sæġde 	sæġdon 	seċġe	seċġen 	sæġde	sæġden 	sæġe	seċġaþ	seċġende 	(ġe)sæġd 	a prayer	ān ġebed	\nx{🧎\cx\gx}<sup>💬</sup>	#	class 3 weak, irregular
-think	hyċġan	tō hyċġenne 	hyċġe	hyġst	hyġþ	hyċġaþ	hogde	hogdest	hogde	hogdon 	hyċġe	hyċġen	hogde	hogden	hyġe	hyċġaþ 	hyċġende	(ġe)hogd 	a thought	ānne þōht	\nx{🤷\cx\gx}<sup>💭</sup>	#	class 3 weak, irregular
-																							
-																							
-																							
-																							
-																							
-																							
-																							
-																							
-																							
-																							
-																							
+*	*	*	*	present	past																					
+appear	infinitive			ætīewan	ætīewenne																					
+appear	indicative	singular	1	ætīewe	ætīewde																					
+appear	indicative	singular	2	ætīewest, ætīewst	ætīewdest																					
+appear	indicative	singular	3	ætīeweþ, ætīewþ	ætīewde																					
+appear	indicative	plural		ætīewaþ	ætīewdon																					
+appear	subjunctive	singular		ætīewe	ætīewde																					
+appear	subjunctive	plural		ætīewen	ætīewden																					
+appear	imperative	plural		ætīewaþ	ætīewaþ																					
+appear	participle			ætīewende	ætīewed																					
+be-inherently	infinitive			wesan	wesenne																					
+be-inherently	indicative	singular	1	eom	wæs																					
+be-inherently	indicative	singular	2	eart	wǣre																					
+be-inherently	indicative	singular	3	is	wæs																					
+be-inherently	indicative	plural		sind, sindon	wǣron																					
+be-inherently	subjunctive	singular		sīe	wǣre																					
+be-inherently	subjunctive	plural		sīen	wǣren																					
+be-inherently	imperative	singular		wes	wes																					
+be-inherently	imperative	plural		wesaþ	wesaþ																					
+be-inherently	participle			wesende	—																					
+be-inherently	infinitive			wesan	wesenne																					
+be-inherently	indicative	singular	1	wese	wæs																					
+be-inherently	indicative	singular	2	wist	wǣre																					
+be-inherently	indicative	singular	3	wist	wæs																					
+be-inherently	indicative	plural		wesaþ	wǣron																					
+be-inherently	subjunctive	singular		wese	wǣre																					
+be-inherently	subjunctive	plural		wesen	wǣren																					
+be-inherently	imperative	singular		wes	wes																					
+be-inherently	imperative	plural		wesaþ	wesaþ																					
+be-inherently	participle			wesende	(ġe)weren																					
+be-inherently	infinitive			wēsan	wēsenne																					
+be-inherently	indicative	singular	1	wēse	wēsde																					
+be-inherently	indicative	singular	2	wēsest, wēst	wēsdest																					
+be-inherently	indicative	singular	3	wēseþ, wēst	wēsde																					
+be-inherently	indicative	plural		wēsaþ	wēsdon																					
+be-inherently	subjunctive	singular		wēse	wēsde																					
+be-inherently	subjunctive	plural		wēsen	wēsden																					
+be-inherently	imperative	singular		wēs	wēs																					
+be-inherently	imperative	plural		wēsaþ	wēsaþ																					
+be-inherently	participle			wēsende	(ġe)wēsed																					
+be-momentarily	infinitive			bēon	bēonne																					
+be-momentarily	indicative	singular	1	bēo	—																					
+be-momentarily	indicative	singular	2	bist	—																					
+be-momentarily	indicative	singular	3	biþ	—																					
+be-momentarily	indicative	plural		bēoþ	—																					
+be-momentarily	subjunctive	singular		bēo	—																					
+be-momentarily	subjunctive	plural		bēon	—																					
+be-momentarily	imperative	singular		bēo	bēo																					
+be-momentarily	imperative	plural		bēoþ	bēoþ																					
+be-momentarily	participle			bēonde	(ġe)bēon																					
+change	infinitive			wendan	wendenne																					
+change	indicative	singular	1	wende	wende																					
+change	indicative	singular	2	wendest, wenst, wentst	wendest																					
+change	indicative	singular	3	wendeþ, went	wende																					
+change	indicative	plural		wendaþ	wendon																					
+change	subjunctive	singular		wende	wende																					
+change	subjunctive	plural		wenden	wenden																					
+change	imperative	singular		wend	wend																					
+change	imperative	plural		wendaþ	wendaþ																					
+change	participle			wendende	(ġe)wended																					
+climb	infinitive			climban	climbenne																					
+climb	indicative	singular	1	climbe	clamb																					
+climb	indicative	singular	2	climbst	clumbe																					
+climb	indicative	singular	3	climbþ	clamb																					
+climb	indicative	plural		climbaþ	clumbon																					
+climb	subjunctive	singular		climbe	clumbe																					
+climb	subjunctive	plural		climben	clumben																					
+climb	imperative	singular		climb	climb																					
+climb	imperative	plural		climbaþ	climbaþ																					
+climb	participle			climbende	(ġe)clumben																					
+cool	infinitive			cōlian	cōlienne																					
+cool	indicative	singular	1	cōliġe	cōlode																					
+cool	indicative	singular	2	cōlast	cōlodest																					
+cool	indicative	singular	3	cōlaþ	cōlode																					
+cool	indicative	plural		cōliaþ	cōlodon																					
+cool	subjunctive	singular		cōliġe	cōlode																					
+cool	subjunctive	plural		cōliġen	cōloden																					
+cool	imperative	singular		cōla	cōla																					
+cool	imperative	plural		cōliaþ	cōliaþ																					
+cool	participle			cōliende	(ġe)cōlod																					
+displease	infinitive			drēfan	drēfenne																					
+displease	indicative	singular	1	drēfe	drēfde																					
+displease	indicative	singular	2	drēfest, drēfst	drēfdest																					
+displease	indicative	singular	3	drēfeþ, drēfþ	drēfde																					
+displease	indicative	plural		drēfaþ	drēfdon																					
+displease	subjunctive	singular		drēfe	drēfde																					
+displease	subjunctive	plural		drēfen	drēfden																					
+displease	imperative	singular		drēf	drēf																					
+displease	imperative	plural		drēfaþ	drēfaþ																					
+displease	participle			drēfende	(ġe)drēfed																					
+eat	infinitive			etan	etenne																					
+eat	indicative	singular	1	ete	ǣt																					
+eat	indicative	singular	2	itst	ǣte																					
+eat	indicative	singular	3	itt, it	ǣt																					
+eat	indicative	plural		etaþ	ǣton																					
+eat	subjunctive	singular		ete	ǣte																					
+eat	subjunctive	plural		eten	ǣten																					
+eat	imperative	singular		et	et																					
+eat	imperative	plural		etaþ	etaþ																					
+eat	participle			etende	(ġe)eten																					
+endure	infinitive			ādrēogan	ādrēogenne																					
+endure	indicative	singular	1	ādrēoge	ādrēag, ādrēah																					
+endure	indicative	singular	2	ādrīeġst	ādruge																					
+endure	indicative	singular	3	ādrīeġþ	ādrēag, ādrēah																					
+endure	indicative	plural		ādrēogaþ	ādrugon																					
+endure	subjunctive	singular		ādrēoge	ādruge																					
+endure	subjunctive	plural		ādrēogen	ādrugen																					
+endure	imperative	singular		ādrēog, ādrēoh	ādrēog, ādrēoh																					
+endure	imperative	plural		ādrēogaþ	ādrēogaþ																					
+endure	participle			ādrēogende	ādrogen																					
+fall	infinitive			feallan	feallenne																					
+fall	indicative	singular	1	fealle	fēoll																					
+fall	indicative	singular	2	fielst	fēolle																					
+fall	indicative	singular	3	fielþ	fēoll																					
+fall	indicative	plural		feallaþ	fēollon																					
+fall	subjunctive	singular		fealle	fēolle																					
+fall	subjunctive	plural		feallen	fēollen																					
+fall	imperative	singular		feall	feall																					
+fall	imperative	plural		feallaþ	feallaþ																					
+fall	participle			feallende	(ġe)feallen																					
+fly	infinitive			flēogan	flēogenne																					
+fly	indicative	singular	1	flēoge	flēag, flēah																					
+fly	indicative	singular	2	flīeġst	fluge																					
+fly	indicative	singular	3	flīeġþ	flēag, flēah																					
+fly	indicative	plural		flēogaþ	flugon																					
+fly	subjunctive	singular		flēoge	fluge																					
+fly	subjunctive	plural		flēogen	flugen																					
+fly	imperative	singular		flēog, flēoh	flēog, flēoh																					
+fly	imperative	plural		flēogaþ	flēogaþ																					
+fly	participle			flēogende	(ġe)flogen																					
+hear	infinitive			ġehīeran	ġehīerenne																					
+hear	indicative	singular	1	ġehīere	ġehīerde																					
+hear	indicative	singular	2	ġehīerest, ġehīerst	ġehīerdest																					
+hear	indicative	singular	3	ġehīereþ, ġehīerþ	ġehīerde																					
+hear	indicative	plural		ġehīeraþ	ġehīerdon																					
+hear	subjunctive	singular		ġehīere	ġehīerde																					
+hear	subjunctive	plural		ġehīeren	ġehīerden																					
+hear	imperative	singular		ġehīer	ġehīer																					
+hear	imperative	plural		ġehīeraþ	ġehīeraþ																					
+hear	participle			ġehīerende	ġehīered																					
+occupy	infinitive			weardian	weardienne																					
+occupy	indicative	singular	1	weardiġe	weardode																					
+occupy	indicative	singular	2	weardast	weardodest																					
+occupy	indicative	singular	3	weardaþ	weardode																					
+occupy	indicative	plural		weardiaþ	weardodon																					
+occupy	subjunctive	singular		weardiġe	weardode																					
+occupy	subjunctive	plural		weardiġen	weardoden																					
+occupy	imperative	singular		wearda	wearda																					
+occupy	imperative	plural		weardiaþ	weardiaþ																					
+occupy	participle			weardiende	(ġe)weardod																					
+see	infinitive			ġesēon	ġesēonne																					
+see	indicative	singular	1	ġesēo	ġeseah																					
+see	indicative	singular	2	ġesiehst	ġesāwe																					
+see	indicative	singular	3	ġesiehþ	ġeseah																					
+see	indicative	plural		ġesēoþ	ġesāwon																					
+see	subjunctive	singular		ġesēo	ġesāwe																					
+see	subjunctive	plural		ġesēon	ġesāwen																					
+see	imperative	singular		ġeseoh	ġeseoh																					
+see	imperative	plural		ġesēoþ	ġesēoþ																					
+see	participle			ġesēonde	ġesewen																					
+show	infinitive			ætīewan	ætīewenne																					
+show	indicative	singular	1	ætīewe	ætīewde																					
+show	indicative	singular	2	ætīewest, ætīewst	ætīewdest																					
+show	indicative	singular	3	ætīeweþ, ætīewþ	ætīewde																					
+show	indicative	plural		ætīewaþ	ætīewdon																					
+show	subjunctive	singular		ætīewe	ætīewde																					
+show	subjunctive	plural		ætīewen	ætīewden																					
+show	imperative	singular		ætīew	ætīew																					
+show	imperative	plural		ætīewaþ	ætīewaþ																					
+show	participle			ætīewende	ætīewed																					
+startle	infinitive			grēosan	grēosenne																					
+startle	indicative	singular	1	grēose	grēas																					
+startle	indicative	singular	2	grīest	grure																					
+startle	indicative	singular	3	grīest	grēas																					
+startle	indicative	plural		grēosaþ	gruron																					
+startle	subjunctive	singular		grēose	grure																					
+startle	subjunctive	plural		grēosen	gruren																					
+startle	imperative	singular		grēos	grēos																					
+startle	imperative	plural		grēosaþ	grēosaþ																					
+startle	participle			grēosende	(ġe)groren																					
+swim	infinitive			swimman	swimmenne																					
+swim	indicative	singular	1	swimme	swamm																					
+swim	indicative	singular	2	swimst	swumme																					
+swim	indicative	singular	3	swimþ	swamm																					
+swim	indicative	plural		swimmaþ	swummon																					
+swim	subjunctive	singular		swimme	swumme																					
+swim	subjunctive	plural		swimmen	swummen																					
+swim	imperative	singular		swimm	swimm																					
+swim	imperative	plural		swimmaþ	swimmaþ																					
+swim	participle			swimmende	(ġe)swummen																					
+walk	infinitive			gān	gānne																					
+walk	indicative	singular	1	gā	ēode																					
+walk	indicative	singular	2	gǣst	ēodest																					
+walk	indicative	singular	3	gǣþ	ēode																					
+walk	indicative	plural		gāþ	ēodon																					
+walk	subjunctive	singular		gā	ēode																					
+walk	subjunctive	plural		gān	ēoden																					
+walk	imperative	singular		gā	gā																					
+walk	imperative	plural		gāþ	gāþ																					
+walk	participle			gānde	(ġe)gān																					
+work	infinitive			wyrċan	wyrċenne																					
+work	indicative	singular	1	wyrċe	worhte																					
+work	indicative	singular	2	wyrċest, wyrcst	worhtest																					
+work	indicative	singular	3	wyrċeþ, wyrcþ	worhte																					
+work	indicative	plural		wyrċaþ	worhton																					
+work	subjunctive	singular		wyrċe	worhte																					
+work	subjunctive	plural		wyrċen	worhten																					
+work	imperative	singular		wyrċ	wyrċ																					
+work	imperative	plural		wyrċaþ	wyrċaþ																					
+work	participle			wyrċende	(ġe)worht																					

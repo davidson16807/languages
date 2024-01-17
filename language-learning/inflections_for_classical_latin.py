@@ -51,7 +51,7 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/mood-usage.tsv'))),
         aspect_usage_population.index(
             aspect_usage_annotation.annotate(
-                tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/aspect-usage.tsv'))),
+                tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
         debug=True,
     ),
     ListGrammar(

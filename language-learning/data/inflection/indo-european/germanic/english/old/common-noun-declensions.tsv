@@ -1,54 +1,245 @@
-*	*	nominative	accusative	genitive	dative	#	declension	gender	weight			
-dog	singular	hund	hund	hundes	hunde	#	a-stem	masculine				
-dog	plural	hundas	hundas	hunda	hundum	#	a-stem	masculine				
-light	singular	sċip	sċip	sċipes	sċipe	#	a-stem	neuter	light			
-light	plural	sċipu	sċipu	sċipa	sċipum	#	a-stem	neuter	light			
-house	singular	hūs	hūs	hūses	hūse	#	a-stem	neuter	heavy			
-house	plural	hūs	hūs	hūsa	hūsum	#	a-stem	neuter	heavy			
-gift	singular	ġiefu	ġiefe	ġiefe	ġiefe	#	ō-stem		light			
-gift	plural	ġiefa	ġiefa	ġiefa	ġiefum	#	ō-stem		light			
-raid	singular	rād	rāde	rāde	rāde	#	ō-stem		heavy			
-raid	plural	rāda	rāde	rāda	rādum	#	ō-stem		heavy			
-moon	singular	mōna	mōnan	mōnan	mōnan	#	n-stem	masculine				
-moon	plural	mōnan	mōnan	mōnena	mōnum	#	n-stem	masculine				
-sun	singular	sunne	sunnan	sunnan	sunnan	#	n-stem	feminine				
-sun	plural	sunnan	sunnan	sunnena	sunnum	#	n-stem	feminine				
-eye	singular	ēage	ēage	ēagan	ēagan	#	n-stem	neuter				
-eye	plural	ēagan	ēagan	ēagena	ēagum	#	n-stem	neuter				
-time	singular	tīd	tīd, tīde	tīde	tīde	#	i-stem					
-time	plural	tīda	tīda	tīda	tīdum	#	i-stem					
-English	plural	Engle	Engle	Engla	Englum	#	i-stem					
-son	singular	sunu	sunu	suna	suna	#	u-stem	light				
-son	plural	suna	suna	suna	sunum	#	u-stem	light				
-hand	singular	hand	hand	handa	handa	#	u-stem	heavy				
-hand	plural	handa	handa	handa	handum	#	u-stem	heavy				
-person	singular	mann	mann	mannes	menn	#	root noun	masculine				
-person	plural	menn	menn	manna	mannum	#	root noun	masculine				
-nut	singular	hnutu	hnutu	hnute	hnyte	#	root noun	feminine	light			
-nut	plural	hnyte	hnyte	hnuta	hnutum	#	root noun	feminine	light			
-goose	singular	gōs	gōs	gōse	gēs	#	root noun	feminine	heavy			
-goose	plural	gēs	gēs	gōsa	gōsum	#	root noun	feminine	heavy			
-friend	singular	frēond	frēond	frēondes	frīend	#	nd-stem, monosyllablic					
-friend	plural	frīend	frīend	frēonda	frēondum	#	nd-stem, monosyllablic					
-bystander	singular	ymbstandend	ymbstandend	ymbstandendes	ymbstandende	#	nd-stem, multisyllabic					
-bystander	plural	ymbstandend	ymbstandend	ymbstandendra	ymbstandendum	#	nd-stem, multisyllabic					
-father	singular	fæder	fæder	fæder	fæder	#	r-stem					
-father	plural	fæderas	fæderas	fædera	fæderum	#	r-stem					
-mother	singular	mōdor	mōdor	mōdor	mēder	#	r-stem					
-mother	plural	mōdru	mōdru	mōdra	mōdrum	#	r-stem					
-brother	singular	brōþor	brōþor	brōþor	brēþer	#	r-stem					
-brother	plural	(ġe)brōþor	(ġe)brōþor	(ġe)brōþra	(ġe)brōþrum	#	r-stem					
-sister	singular	sƿeostor	sƿeostor	sƿeostor	sƿeostor	#	r-stem					
-sister	plural	(ġe)sƿeostor	(ġe)sƿeostor	(ġe)sƿeostra	(ġe)sƿeostrum	#	r-stem					
-#daughter	singular	dohtor	dohtor	dohtor	dehter	#	r-stem					
-#daughter	plural	dohtor	dohtor	dohtra	dohtrum	#	r-stem					
-lamb	singular	lamb	lamb	lambes	lambe	#	z-stem					
-lamb	plural	lambru	lambru	lambra	lambrum	#	z-stem					
-shoe	singular	sċōh	sċōh	sċōs	sċō	#	h-ending					
-shoe	plural	sċōs	sċōs	sċōna	sċōm	#	h-ending					
-piglet	singular	fearh	fearh	fēares	fēare	#	h-ending					
-piglet	plural	fēaras	fēaras	fēara	fēarum	#	h-ending					
-shadow	singular	sċeadu	sċeadƿe	sċeadƿe	sċeadƿe	#	wō-stem	light				
-shadow	plural	sċeadƿa	sċeadƿa	sċeadƿa	sċeadƿum	#	wō-stem	light				
-meadow	singular	mǣd	mǣdƿe	mǣdƿe	mǣdƿe	#	wō-stem	heavy				
-meadow	plural	mǣdƿa	mǣdƿa	mǣdƿa	mǣdƿum	#	wō-stem	heavy				
+*	*	singular	plural									
+animal	nominative	nīeten	nīetenu									
+animal	accusative	nīeten	nīetenu									
+animal	genitive	nīetenes	nīetena									
+animal	dative	nīetene	nīetenum									
+attention	nominative	ġeþōht	ġeþōhtas									
+attention	accusative	ġeþōht	ġeþōhtas									
+attention	genitive	ġeþōhtes	ġeþōhta									
+attention	dative	ġeþōhte	ġeþōhtum									
+bird	nominative	fugol	fuglas									
+bird	accusative	fugol	fuglas									
+bird	genitive	fugles	fugla									
+bird	dative	fugle	fuglum									
+boat	nominative	bāt	bātas									
+boat	accusative	bāt	bātas									
+boat	genitive	bātes	bāta									
+boat	dative	bāte	bātum									
+book	nominative	bōc	bēċ									
+book	accusative	bōc	bēċ									
+book	genitive	bēċ, bōce	bōca									
+book	dative	bēċ	bōcum									
+book	nominative	bōc	bōca, bōce									
+book	accusative	bōce	bōca, bōce									
+book	genitive	bōce	bōca									
+book	dative	bōce	bōcum									
+bug	nominative	budda	buddan									
+bug	accusative	buddan	buddan									
+bug	genitive	buddan	buddena									
+bug	dative	buddan	buddum									
+clothing	nominative	sċrūd	sċrud									
+clothing	accusative	sċrud	sċrud									
+clothing	genitive	sċrudes	sċruda									
+clothing	dative	sċryd	sċrudum									
+daughter	nominative	dohtor	dohtor, dohtra, dohtru									
+daughter	accusative	dohtor	dohtor, dohtra, dohtru									
+daughter	genitive	dohtor	dohtra									
+daughter	dative	dehter	dohtrum									
+dog	nominative	hund	hundas									
+dog	accusative	hund	hundas									
+dog	genitive	hundes	hunda									
+dog	dative	hunde	hundum									
+dog	nominative	hund	hund									
+dog	accusative	hund	hund									
+dog	genitive	hundes	hunda									
+dog	dative	hunde	hundum									
+enemy	nominative	fēond	fīend									
+enemy	accusative	fēond	fīend									
+enemy	genitive	fēondes	fēonda									
+enemy	dative	fīend	fēondum									
+fire	nominative	fȳr	fȳr									
+fire	accusative	fȳr	fȳr									
+fire	genitive	fȳres	fȳra									
+fire	dative	fȳre	fȳrum									
+food	nominative	fōda	fōdan									
+food	accusative	fōdan	fōdan									
+food	genitive	fōdan	fōdena									
+food	dative	fōdan	fōdum									
+gift	nominative	ġiefu	ġiefa, ġiefe									
+gift	accusative	ġiefe	ġiefa, ġiefe									
+gift	genitive	ġiefe	ġiefa									
+gift	dative	ġiefe	ġiefum									
+guard	nominative	weard	weardas									
+guard	accusative	weard	weardas									
+guard	genitive	weardes	wearda									
+guard	dative	wearde	weardum									
+guard	nominative	weard	wearda, wearde									
+guard	accusative	wearde	wearda, wearde									
+guard	genitive	wearde	wearda									
+guard	dative	wearde	weardum									
+guard	nominative	weard	weard									
+guard	accusative	weard	weard									
+guard	genitive	weardes	wearda									
+guard	dative	wearde	weardum									
+horse	nominative	hors	hors									
+horse	accusative	hors	hors									
+horse	genitive	horses	horsa									
+horse	dative	horse	horsum									
+house	nominative	hūs	hūs									
+house	accusative	hūs	hūs									
+house	genitive	hūses	hūsa									
+house	dative	hūse	hūsum									
+livestock	nominative	feoh	—									
+livestock	accusative	feoh	—									
+livestock	genitive	fēos	—									
+livestock	dative	fēo	—									
+love	nominative	lufu	lufa, lufe									
+love	accusative	lufe	lufa, lufe									
+love	genitive	lufe	lufa									
+love	dative	lufe	lufum									
+idea	nominative	ġeþōht	ġeþōhtas									
+idea	accusative	ġeþōht	ġeþōhtas									
+idea	genitive	ġeþōhtes	ġeþōhta									
+idea	dative	ġeþōhte	ġeþōhtum									
+man	nominative	mann	menn									
+man	accusative	mann	menn									
+man	genitive	mannes	manna									
+man	dative	menn	mannum									
+money	nominative	feoh	—									
+money	accusative	feoh	—									
+money	genitive	fēos	—									
+money	dative	fēo	—									
+monster	nominative	þyrs	þyrsas									
+monster	accusative	þyrs	þyrsas									
+monster	genitive	þyrses	þyrsa									
+monster	dative	þyrse	þyrsum									
+name	nominative	nama	naman									
+name	accusative	naman	naman									
+name	genitive	naman	namena									
+name	dative	naman	namum									
+rock	nominative	*rocc	*roccas									
+rock	accusative	*rocc	*roccas									
+rock	genitive	*rocces	*rocca									
+rock	dative	*rocce	*roccum									
+rope	nominative	rāp	rāpas									
+rope	accusative	rāp	rāpas									
+rope	genitive	rāpes	rāpa									
+rope	dative	rāpe	rāpum									
+size	nominative	miċelnes	miċelnessa, miċelnesse									
+size	accusative	miċelnesse	miċelnessa, miċelnesse									
+size	genitive	miċelnesse	miċelnessa									
+size	dative	miċelnesse	miċelnessum									
+son	nominative	sunu	suna									
+son	accusative	sunu	suna									
+son	genitive	suna	suna									
+son	dative	suna	sunum									
+sound	nominative	swēġ	swēġas									
+sound	accusative	swēġ	swēġas									
+sound	genitive	swēġes	swēġa									
+sound	dative	swēġe	swēġum									
+warmth	nominative	hǣtu	—									
+warmth	accusative	hǣte	—									
+warmth	genitive	hǣte	—									
+warmth	dative	hǣte	—									
+water	nominative	wæter	wætru									
+water	accusative	wæter	wætru									
+water	genitive	wætres	wætra									
+water	dative	wætre	wætrum									
+way	nominative	weġ	wegas									
+way	accusative	weġ	wegas									
+way	genitive	weġes	wega									
+way	dative	weġe	wegum									
+wind	nominative	wind	windas									
+wind	accusative	wind	windas									
+wind	genitive	windes	winda									
+wind	dative	winde	windum									
+window	nominative	ēagduru	ēagdura									
+window	accusative	ēagduru	ēagdura									
+window	genitive	ēagdura	ēagdura									
+window	dative	ēagdura	ēagdurum									
+woman	nominative	cwene	cwenan									
+woman	accusative	cwenan	cwenan									
+woman	genitive	cwenan	cwenena									
+woman	dative	cwenan	cwenum									
+work	nominative	weorc	weorc									
+work	accusative	weorc	weorc									
+work	genitive	weorces	weorca									
+work	dative	weorce	weorcum									
+light	nominative	sċip	sċipu									
+light	accusative	sċip	sċipu									
+light	genitive	sċipes	sċipa									
+light	dative	sċipe	sċipum									
+raid	nominative	rād	rāda, rāde									
+raid	accusative	rāde	rāda, rāde									
+raid	genitive	rāde	rāda									
+raid	dative	rāde	rādum									
+moon	nominative	mōna	mōnan									
+moon	accusative	mōnan	mōnan									
+moon	genitive	mōnan	mōnena									
+moon	dative	mōnan	mōnum									
+sun	nominative	sunne	sunnan									
+sun	accusative	sunnan	sunnan									
+sun	genitive	sunnan	sunnena									
+sun	dative	sunnan	sunnum									
+eye	nominative	ēage	ēagan									
+eye	accusative	ēage	ēagan									
+eye	genitive	ēagan	ēagena									
+eye	dative	ēagan	ēagum									
+time	nominative	tīd	tīde, tīda									
+time	accusative	tīd, tīde	tīde, tīda									
+time	genitive	tīde	tīda									
+time	dative	tīde	tīdum									
+English	nominative	—	Engle									
+English	accusative	—	Engle									
+English	genitive	—	Engla									
+English	dative	—	Englum									
+hand	nominative	hand	handa									
+hand	accusative	hand	handa									
+hand	genitive	handa	handa									
+hand	dative	handa	handum									
+person	nominative	mann	menn									
+person	accusative	mann	menn									
+person	genitive	mannes	manna									
+person	dative	menn	mannum									
+nut	nominative	hnutu	hnyte									
+nut	accusative	hnutu	hnyte									
+nut	genitive	hnyte, hnute	hnuta									
+nut	dative	hnyte	hnutum									
+goose	nominative	gōs	gēs									
+goose	accusative	gōs	gēs									
+goose	genitive	gēs, gōse	gōsa									
+goose	dative	gēs	gōsum									
+friend	nominative	frēond	frīend									
+friend	accusative	frēond	frīend									
+friend	genitive	frēondes	frēonda									
+friend	dative	frīend	frēondum									
+bystander	nominative	ymbstandend	ymbstandend, ymbstandende, ymbstandendas									
+bystander	accusative	ymbstandend	ymbstandend, ymbstandende, ymbstandendas									
+bystander	genitive	ymbstandendes	ymbstandendra									
+bystander	dative	ymbstandende	ymbstandendum									
+father	nominative	fæder	fæderas									
+father	accusative	fæder	fæderas									
+father	genitive	fæder	fædera									
+father	dative	fæder	fæderum									
+mother	nominative	mōdor	mōdra, mōdru									
+mother	accusative	mōdor	mōdra, mōdru									
+mother	genitive	mōdor, mēder	mōdra									
+mother	dative	mēder	mōdrum									
+brother	nominative	brōþor	brōþor, ġebrōþor, brōþra, ġebrōþra, brōþru, ġebrōþru									
+brother	accusative	brōþor	brōþor, ġebrōþor, brōþra, ġebrōþra, brōþru, ġebrōþru									
+brother	genitive	brōþor	brōþra, ġebrōþra									
+brother	dative	brēþer	brōþrum, ġebrōþrum									
+sister	nominative	sweostor	ġesweostor, ġesweostra, ġesweostru									
+sister	accusative	sweostor	ġesweostor, ġesweostra, ġesweostru									
+sister	genitive	sweostor	ġesweostra									
+sister	dative	sweostor	ġesweostrum									
+lamb	nominative	lamb	lambru									
+lamb	accusative	lamb	lambru									
+lamb	genitive	lambes	lambra									
+lamb	dative	lambe	lambrum									
+shoe	nominative	sċōh	sċōs									
+shoe	accusative	sċōh	sċōs									
+shoe	genitive	sċōs	sċōna									
+shoe	dative	sċō	sċōm, sċōum									
+piglet	nominative	fearh	fēaras									
+piglet	accusative	fearh	fēaras									
+piglet	genitive	fēares	fēara									
+piglet	dative	fēare	fēarum									
+shadow	nominative	sċeadu	sċeadwa, sċeadwe									
+shadow	accusative	sċeadwe	sċeadwa, sċeadwe									
+shadow	genitive	sċeadwe	sċeadwa									
+shadow	dative	sċeadwe	sċeadwum									
+meadow	nominative	mǣd	mǣdwa, mǣdwe									
+meadow	accusative	mǣdwe	mǣdwa, mǣdwe									
+meadow	genitive	mǣdwe	mǣdwa									
+meadow	dative	mǣdwe	mǣdwum									

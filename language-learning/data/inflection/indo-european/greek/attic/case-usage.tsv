@@ -1,93 +1,103 @@
-*	*	*	*	case	preposition	postposition	#	
-#	valency	motion	role		greek		#	latin
-			solitary	nominative	∅	∅	#	
-	transitive		agent	nominative	∅	∅	#	
-	transitive		force	nominative	∅	∅	#	
-	transitive		patient	accusative	∅	∅	#	
-	transitive		theme	accusative	∅	∅	#	
-	transitive		experiencer	nominative	∅	∅	#	
-	transitive		stimulus	accusative	∅	∅	#	
-	transitive		predicate	accusative	∅	∅	#	
-	transitive		predicand	nominative	∅	∅	#	
-	transitive		audience	vocative	∅	∅	#	
-#		departed	possessor	dative	∅	∅	#	
-		associated	possessor	genitive	∅	∅	#	
-#		acquired	possessor	dative	∅	∅	#	
-#		approached	possessor	genitive	∅	∅	#	
-#		surpassed	possessor	genitive	∅	∅	#	
-#		leveraged	possessor	dative	∅	∅	#	
-		departed	location	genitive	παρά	∅	#	pará
-		associated	location	dative	περί	∅	#	peri
-		acquired	location	genitive	πρός	∅	#	prós
-		approached	location	accusative	πρός	∅	#	prós
-		surpassed	location	genitive	πέρα	∅	#	péra
-		leveraged	location	accusative	κατά	∅	#	katá
-#		departed	extent	dative		∅	#	
-#		associated	extent	genitive		∅	#	
-#		acquired	extent	dative		∅	#	
-#		approached	extent	accusative	πρός	∅	#	prós
-#		surpassed	extent	genitive	πέρα	∅	#	péra
-#		leveraged	extent	accusative	κατά	∅	#	katá
-#		departed	vicinity	dative		∅	#	
-#		associated	vicinity	dative	πρός	∅	#	prós
-#		acquired	vicinity	dative		∅	#	
-#		approached	vicinity	accusative	πρός	∅	#	prós
-#		surpassed	vicinity	genitive	πέρα	∅	#	péra
-#		leveraged	vicinity	accusative	κατά	∅	#	katá
-		departed	interior	genitive	ἐκ	∅	#	
-		associated	interior	dative	ἐν	∅	#	
-		acquired	interior	accusative	εἰς	∅	#	eis
-#		approached	interior	genitive	πρός	∅	#	prós
-#		surpassed	interior	genitive	πέρα	∅	#	péra
-		leveraged	interior	genitive	διά	∅	#	
-#		departed	surface	dative		∅	#	
-		associated	surface	dative	ἐπί	∅	#	
-#		acquired	surface	dative		∅	#	
-#		approached	surface	genitive	πρός	∅	#	prós
-#		surpassed	surface	genitive	πέρα	∅	#	péra
-		leveraged	surface	accusative	ὑπέρ	∅	#	
-#		departed	presence	dative		∅	#	
-		associated	presence	genitive	πρό	∅	#	
-#		acquired	presence	dative		∅	#	
-#		approached	presence	genitive	πρός	∅	#	prós
-#		surpassed	presence	genitive	πέρα	∅	#	péra
-#		leveraged	presence	dative		∅	#	
-#		departed	aid	dative		∅	#	
-		associated	aid	dative	σύν	∅	#	
-		acquired	aid	genitive	ἀμφί	∅	#	
-#		approached	aid	genitive		∅	#	
-#		surpassed	aid	genitive		∅	#	
-#		leveraged	aid	dative		∅	#	
-#		departed	lack	dative		∅	#	
-#		associated	lack	dative		∅	#	
-#		acquired	lack	dative		∅	#	
-#		approached	lack	genitive		∅	#	
-#		surpassed	lack	genitive		∅	#	
-#		leveraged	lack	dative		∅	#	
-#		departed	interest	dative		∅	#	
-#		associated	interest	genitive		∅	#	
-#		acquired	interest	genitive		∅	#	
-#		approached	interest	genitive		∅	#	
-#		surpassed	interest	genitive		∅	#	
-#		leveraged	interest	genitive		∅	#	
-#		departed	time	dative		∅	#	
-#		associated	time	dative		∅	#	
-#		acquired	time	dative		∅	#	
-#		approached	time	genitive		∅	#	
-#		surpassed	time	genitive		∅	#	
-#		leveraged	time	dative		∅	#	
-#		departed	state-of-being	dative		∅	#	
-#		associated	state-of-being	genitive		∅	#	
-#		acquired	state-of-being	dative		∅	#	
-#		approached	state-of-being	genitive		∅	#	
-#		surpassed	state-of-being	genitive		∅	#	
-#		leveraged	state-of-being	dative		∅	#	
-#		departed	topic	dative		∅	#	
-#		associated	topic	dative		∅	#	
-#		acquired	topic			∅	#	
-#		approached	topic	genitive		∅	#	
-#		surpassed	topic	genitive		∅	#	
-#		leveraged	topic			∅	#	
-#			comment	accusative		∅	#	
-		associated	company	dative	παρά	∅	#	
-#		associated	resemblance			∅	#	
+*	*	*	*	case	preposition	postposition	#																																										
+#	subjectivity	motion	role				#	attic greek																																									
+	subject			nominative	∅	∅	#																																										
+	addressee			vocative	∅	∅	#																																										
+	direct-object			accusative	∅	∅	#																																										
+	indirect-object			dative	∅	∅	#																																										
+	adnominal			genitive	∅	∅	#																																										
+	adverbial	departed	agent	genitive	διά	∅	#																																										
+	adverbial	associated	agent	genitive	διά	∅	#																																										
+	adverbial	acquired	agent	genitive	διά	∅	#																																										
+	adverbial	approached	agent	genitive	διά	∅	#																																										
+	adverbial	surpassed	agent	genitive	διά	∅	#																																										
+	adverbial	leveraged	agent	genitive	διά	∅	#																																										
+	adverbial	departed	force	accusative	διά	∅	#																																										
+	adverbial	associated	force	accusative	διά	∅	#																																										
+	adverbial	acquired	force	accusative	διά	∅	#																																										
+	adverbial	approached	force	accusative	διά	∅	#																																										
+	adverbial	surpassed	force	accusative	διά	∅	#																																										
+	adverbial	leveraged	force	accusative	διά	∅	#																																										
+	adverbial		patient	accusative	❕	∅	#																																										
+	adverbial		theme	accusative	❕	∅	#																																										
+	adverbial		experiencer	nominative	❕	∅	#																																										
+	adverbial		stimulus	accusative	❕	∅	#																																										
+	adverbial		predicate	accusative	❕	∅	#																																										
+	adverbial		predicand	nominative	❕	∅	#																																										
+	adverbial	departed	location	genitive	ἀπό	∅	#																																										
+	adverbial	associated	location	dative	ἐν	∅	#																																										
+	adverbial	acquired	location		❕	∅	#																																										
+	adverbial	approached	location	accusative	πρός	∅	#																																										
+	adverbial	surpassed	location		❕	∅	#																																										
+	adverbial	leveraged	location	genitive	διά	∅	#																																										
+	adverbial	departed	extent		❕	∅	#																																										
+	adverbial	associated	extent		❕	∅	#																																										
+	adverbial	acquired	extent		❕	∅	#																																										
+	adverbial	approached	extent		❕	∅	#																																										
+	adverbial	surpassed	extent		❕	∅	#																																										
+	adverbial	leveraged	extent		❕	∅	#																																										
+	adverbial	departed	vicinity		❕	∅	#																																										
+	adverbial	associated	vicinity	dative	ἐπί	∅	#																																										
+	adverbial	acquired	vicinity		❕	∅	#																																										
+	adverbial	approached	vicinity		❕	∅	#																																										
+	adverbial	surpassed	vicinity		❕	∅	#																																										
+	adverbial	leveraged	vicinity		❕	∅	#																																										
+	adverbial	departed	interior	genitive	ἐκ 	∅	#																																										
+	adverbial	associated	interior	dative	ἐν	∅	#																																										
+	adverbial	acquired	interior	accusative	εἰς	∅	#																																										
+	adverbial	approached	interior	accusative	εἰς	∅	#																																										
+	adverbial	surpassed	interior		❕	∅	#																																										
+	adverbial	leveraged	interior	genitive	διά	∅	#																																										
+	adverbial	departed	surface		❕	∅	#																																										
+	adverbial	associated	surface	genitive	ἐπί	∅	#																																										
+	adverbial	acquired	surface		❕	∅	#																																										
+	adverbial	approached	surface		❕	∅	#																																										
+	adverbial	surpassed	surface		❕	∅	#																																										
+	adverbial	leveraged	surface	accusative	ὑπέρ 	∅	#																																										
+	adverbial	departed	subsurface	genitive	ὑπό 	∅	#																																										
+	adverbial	associated	subsurface	dative	ὑπό 	∅	#																																										
+	adverbial	acquired	subsurface	accusative	ὑπό 	∅	#																																										
+	adverbial	approached	subsurface		❕	∅	#																																										
+	adverbial	surpassed	subsurface		❕	∅	#																																										
+	adverbial	leveraged	subsurface		❕	∅	#																																										
+	adverbial	departed	presence		❕	∅	#																																										
+	adverbial	associated	presence		❕	∅	#																																										
+	adverbial	acquired	presence		❕	∅	#																																										
+	adverbial	approached	presence		❕	∅	#																																										
+	adverbial	surpassed	presence		❕	∅	#																																										
+	adverbial	leveraged	presence		❕	∅	#																																										
+	adverbial	departed	aid		❕	∅	#																																										
+	adverbial	associated	aid	genitive	ἀπό	∅	#																																										
+	adverbial	acquired	aid		❕	∅	#																																										
+	adverbial	approached	aid		❕	∅	#																																										
+	adverbial	surpassed	aid		❕	∅	#																																										
+	adverbial	leveraged	aid	genitive	διά	∅	#																																										
+	adverbial	departed	lack		❕	∅	#																																										
+	adverbial	associated	lack		❕	∅	#																																										
+	adverbial	acquired	lack		❕	∅	#																																										
+	adverbial	approached	lack		❕	∅	#																																										
+	adverbial	surpassed	lack		❕	∅	#																																										
+	adverbial	leveraged	lack		❕	∅	#																																										
+	adverbial	departed	interest		❕	∅	#																																										
+	adverbial	associated	interest	genitive	ὑπέρ 	∅	#																																										
+	adverbial	acquired	interest		❕	∅	#																																										
+	adverbial	approached	interest		❕	∅	#																																										
+	adverbial	surpassed	interest		❕	∅	#																																										
+	adverbial	leveraged	interest		❕	∅	#																																										
+	adverbial	departed	time	genitive	ἀπό	∅	#																																										
+	adverbial	associated	time	dative	ἐν	∅	#																																										
+	adverbial	acquired	time	accusative	εἰς	∅	#																																										
+	adverbial	approached	time	accusative	πρός	∅	#																																										
+	adverbial	surpassed	time	genitive	ἀπό	∅	#																																										
+	adverbial	leveraged	time	genitive	διά	∅	#																																										
+	adverbial	departed	topic		❕	∅	#																																										
+	adverbial	associated	topic	genitive	περί 	∅	#																																										
+	adverbial	acquired	topic		❕	∅	#																																										
+	adverbial	approached	topic		❕	∅	#																																										
+	adverbial	surpassed	topic		❕	∅	#																																										
+	adverbial	leveraged	topic		❕	∅	#																																										
+	adverbial	departed	company		❕	∅	#																																										
+	adverbial	associated	company	genitive	μετά 	∅	#																																										
+	adverbial	acquired	company		❕	∅	#																																										
+	adverbial	approached	company		❕	∅	#																																										
+	adverbial	surpassed	company		❕	∅	#																																										
+	adverbial	leveraged	company		❕	∅	#																																										

@@ -1,381 +1,289 @@
-*	*	*	*	indicative	indicative	indicative	indicative	indicative	indicative	imperative	
-*	*	*	*	present	future	past	past	past	past	present	
-*	*	*	*			masculine	feminine	neuter			
-be	active	participle		су́щий					бы́вший		
-be	passive	participle									
-be	active	adverbial		бу́дучи					бы́в		
-be	active	1	singular	есмь	бу́ду	бы́л	была́	бы́ло			
-be	active	2	singular	еси́	бу́дешь	бы́л	была́	бы́ло		бу́дь	
-be	active	3	singular	есть	бу́дет	бы́л	была́	бы́ло			
-be	active	1	plural	есмы́	бу́дем	бы́ли	бы́ли	бы́ли			
-be	active	2	plural	е́сте	бу́дете	бы́ли	бы́ли	бы́ли		бу́дьте	
-be	active	3	plural	суть	бу́дут	бы́ли	бы́ли	бы́ли			
-see	active	participle		ви́дящий					ви́девший		
-see	passive	participle		ви́димый					ви́денный		
-see	active	adverbial		ви́дя					ви́дев		
-see	active	1	singular	ви́жу		ви́дел	ви́дела	ви́дело			
-see	active	2	singular	ви́дишь		ви́дел	ви́дела	ви́дело			
-see	active	3	singular	ви́дит		ви́дел	ви́дела	ви́дело			
-see	active	1	plural	ви́дим		ви́дели	ви́дели	ви́дели			
-see	active	2	plural	ви́дите		ви́дели	ви́дели	ви́дели			
-see	active	3	plural	ви́дят		ви́дели	ви́дели	ви́дели			
-give	active	participle		даю́щий					дава́вший		
-give	passive	participle		дава́емый							
-give	active	adverbial		дава́я					дава́в		
-give	active	1	singular	даю́	дава́ть	дава́л	дава́ла	дава́ло			
-give	active	2	singular	даёшь	дава́ть	дава́л	дава́ла	дава́ло		дава́й	
-give	active	3	singular	даёт	дава́ть	дава́л	дава́ла	дава́ло			
-give	active	1	plural	даём	дава́ть	дава́ли	дава́ли	дава́ли			
-give	active	2	plural	даёте	дава́ть	дава́ли	дава́ли	дава́ли		дава́йте	
-give	active	3	plural	даю́т	дава́ть	дава́ли	дава́ли	дава́ли			
-give2	active	participle							да́вший		
-give2	passive	participle							да́нный		
-give2	active	adverbial							да́в		
-give2	active	1	singular		да́м	да́л	дала́	да́ло			
-give2	active	2	singular		да́шь	да́л	дала́	да́ло		да́й	
-give2	active	3	singular		да́ст	да́л	дала́	да́ло			
-give2	active	1	plural		дади́м	да́ли	да́ли	да́ли			
-give2	active	2	plural		дади́те	да́ли	да́ли	да́ли		да́йте	
-give2	active	3	plural		даду́т	да́ли	да́ли	да́ли			
-eat	active	participle		едя́щий					е́вший		
-eat	passive	participle		едо́мый					е́денный		
-eat	active	adverbial		едя́					е́в		
-eat	active	1	singular	е́м	е́сть	е́л	е́ла	е́ло			
-eat	active	2	singular	е́шь	е́сть	е́л	е́ла	е́ло		е́шь	
-eat	active	3	singular	е́ст	е́сть	е́л	е́ла	е́ло			
-eat	active	1	plural	еди́м	е́сть	е́ли	е́ли	е́ли			
-eat	active	2	plural	еди́те	е́сть	е́ли	е́ли	е́ли		е́шьте	
-eat	active	3	plural	едя́т	е́сть	е́ли	е́ли	е́ли			
-live	active	participle		живу́щий					жи́вший		
-live	passive	participle									
-live	active	adverbial		живя́					жи́в		
-live	active	1	singular	живу́	жи́ть	жи́л	жила́	жи́ло			
-live	active	2	singular	живёшь	жи́ть	жи́л	жила́	жи́ло		живи́	
-live	active	3	singular	живёт	жи́ть	жи́л	жила́	жи́ло			
-live	active	1	plural	живём	жи́ть	жи́ли	жи́ли	жи́ли			
-live	active	2	plural	живёте	жи́ть	жи́ли	жи́ли	жи́ли		живи́те	
-live	active	3	plural	живу́т	жи́ть	жи́ли	жи́ли	жи́ли			
-call	active	participle		зову́щий					зва́вший		
-call	passive	participle							зва́нный		
-call	active	adverbial		зовя́					зва́в		
-call	active	1	singular	зову́	зва́ть	зва́л	звала́	зва́ло			
-call	active	2	singular	зовёшь	зва́ть	зва́л	звала́	зва́ло		зови́	
-call	active	3	singular	зовёт	зва́ть	зва́л	звала́	зва́ло			
-call	active	1	plural	зовём	зва́ть	зва́ли	зва́ли	зва́ли			
-call	active	2	plural	зовёте	зва́ть	зва́ли	зва́ли	зва́ли		зови́те	
-call	active	3	plural	зову́т	зва́ть	зва́ли	зва́ли	зва́ли			
-go	active	participle		иду́щий					ше́дший		
-go	passive	participle									
-go	adverbial	adverbial		идя́					ше́дши		
-go	active	1	singular	иду́	идти́	шёл	шла́	шло́			
-go	active	2	singular	идёшь	идти́	шёл	шла́	шло́		иди́	
-go	active	3	singular	идёт	идти́	шёл	шла́	шло́			
-go	active	1	plural	идём	идти́	шли́	шли́	шли́			
-go	active	2	plural	идёте	идти́	шли́	шли́	шли́		иди́те	
-go	active	3	plural	иду́т	идти́	шли́	шли́	шли́			
-write	active	participle		пи́шущий					писа́вший		
-write	passive	participle							пи́санный		
-write	adverbial	adverbial		пиша́					писа́в		
-write	active	1	singular	пишу́	писа́ть	писа́л	писа́ла	писа́ло			
-write	active	2	singular	пи́шешь	писа́ть	писа́л	писа́ла	писа́ло		пиши́	
-write	active	3	singular	пи́шет	писа́ть	писа́л	писа́ла	писа́ло			
-write	active	1	plural	пи́шем	писа́ть	писа́ли	писа́ли	писа́ли			
-write	active	2	plural	пи́шете	писа́ть	писа́ли	писа́ли	писа́ли		пиши́те	
-write	active	3	plural	пи́шут	писа́ть	писа́ли	писа́ли	писа́ли			
-read	active	participle		чита́ющий					чита́вший		
-read	passive	participle		чита́емый					чи́танный		
-read	adverbial	adverbial		чита́я					чита́в		
-read	active	1	singular	чита́ю	чита́ть	чита́л	чита́ла	чита́ло			
-read	active	2	singular	чита́ешь	чита́ть	чита́л	чита́ла	чита́ло		чита́й	
-read	active	3	singular	чита́ет	чита́ть	чита́л	чита́ла	чита́ло			
-read	active	1	plural	чита́ем	чита́ть	чита́ли	чита́ли	чита́ли			
-read	active	2	plural	чита́ете	чита́ть	чита́ли	чита́ли	чита́ли		чита́йте	
-read	active	3	plural	чита́ют	чита́ть	чита́ли	чита́ли	чита́ли			
-return	active	participle							верну́вший		
-return	passive	participle							верну́в		
-return	adverbial	adverbial							верну́вши		
-return	active	1	singular		верну́	верну́л	верну́ла	верну́ло			
-return	active	2	singular		вернёшь	верну́л	верну́ла	верну́ло		верни́	
-return	active	3	singular		вернёт	верну́л	верну́ла	верну́ло			
-return	active	1	plural		вернём	верну́ли	верну́ли	верну́ли			
-return	active	2	plural		вернёте	верну́ли	верну́ли	верну́ли		верни́те	
-return	active	3	plural		верну́т	верну́ли	верну́ли	верну́ли			
-draw	active	participle		рису́ющий					рисова́вший		
-draw	passive	participle		рису́емый					рисо́ванный		
-draw	adverbial	adverbial		рису́я					рисова́в		
-draw	active	1	singular	рису́ю	рисова́ть	рисова́л	рисова́ла	рисова́ло			
-draw	active	2	singular	рису́ешь	рисова́ть	рисова́л	рисова́ла	рисова́ло		рису́й	
-draw	active	3	singular	рису́ет	рисова́ть	рисова́л	рисова́ла	рисова́ло			
-draw	active	1	plural	рису́ем	рисова́ть	рисова́ли	рисова́ли	рисова́ли			
-draw	active	2	plural	рису́ете	рисова́ть	рисова́ли	рисова́ли	рисова́ли		рису́йте	
-draw	active	3	plural	рису́ют	рисова́ть	рисова́ли	рисова́ли	рисова́ли			
-spit	active	participle		плюю́щий					плева́вший		
-spit	passive	participle									
-spit	adverbial	adverbial		плюя́					плева́в		
-spit	active	1	singular	плюю́	плюю́	плева́л	плева́ла	плева́ло			
-spit	active	2	singular	плюёшь	плюёшь	плева́л	плева́ла	плева́ло		плю́й	
-spit	active	3	singular	плюёт	плюёт	плева́л	плева́ла	плева́ло			
-spit	active	1	plural	плюём	плюём	плева́ли	плева́ли	плева́ли			
-spit	active	2	plural	плюёте	плюёте	плева́ли	плева́ли	плева́ли		плю́йте	
-spit	active	3	plural	плюю́т	плюю́т	плева́ли	плева́ли	плева́ли			
-dance	active	participle		танцу́ющий					танцева́вший		
-dance	passive	participle		танцу́емый					танцо́ванный		
-dance	adverbial	adverbial		танцу́я					танцева́в		
-dance	active	1	singular	танцу́ю	танцева́ть	танцева́л	танцева́ла	танцева́ло			
-dance	active	2	singular	танцу́ешь	танцева́ть	танцева́л	танцева́ла	танцева́ло		танцу́й	
-dance	active	3	singular	танцу́ет	танцева́ть	танцева́л	танцева́ла	танцева́ло			
-dance	active	1	plural	танцу́ем	танцева́ть	танцева́ли	танцева́ли	танцева́ли			
-dance	active	2	plural	танцу́ете	танцева́ть	танцева́ли	танцева́ли	танцева́ли		танцу́йте	
-dance	active	3	plural	танцу́ют	танцева́ть	танцева́ли	танцева́ли	танцева́ли			
-be able	active	participle		могу́щий					мо́гший		
-be able	passive	participle									
-be able	adverbial	adverbial									
-be able	active	1	singular	могу́	мо́чь	мо́г	могла́	могло́			
-be able	active	2	singular	мо́жешь	мо́чь	мо́г	могла́	могло́		моги́	
-be able	active	3	singular	мо́жет	мо́чь	мо́г	могла́	могло́			
-be able	active	1	plural	мо́жем	мо́чь	могли́	могли́	могли́			
-be able	active	2	plural	мо́жете	мо́чь	могли́	могли́	могли́		моги́те	
-be able	active	3	plural	мо́гут	мо́чь	могли́	могли́	могли́			
-bake	active	participle		пеку́щий					пёкший		
-bake	passive	participle							печённый		
-bake	adverbial	adverbial							пёкши		
-bake	active	1	singular	пеку́	пе́чь	пёк	пекла́	пекло́			
-bake	active	2	singular	печёшь	пе́чь	пёк	пекла́	пекло́		пеки́	
-bake	active	3	singular	печёт	пе́чь	пёк	пекла́	пекло́			
-bake	active	1	plural	печём	пе́чь	пекли́	пекли́	пекли́			
-bake	active	2	plural	печёте	пе́чь	пекли́	пекли́	пекли́		пеки́те	
-bake	active	3	plural	пеку́т	пе́чь	пекли́	пекли́	пекли́			
-carry	active	participle		несу́щий					нёсший		
-carry	passive	participle							несённый		
-carry	adverbial	adverbial		неся́					нёсши		
-carry	active	1	singular	несу́	нести́	нёс	несла́	несло́			
-carry	active	2	singular	несёшь	нести́	нёс	несла́	несло́		неси́	
-carry	active	3	singular	несёт	нести́	нёс	несла́	несло́			
-carry	active	1	plural	несём	нести́	несли́	несли́	несли́			
-carry	active	2	plural	несёте	нести́	несли́	несли́	несли́		неси́те	
-carry	active	3	plural	несу́т	нести́	несли́	несли́	несли́			
-lead	active	participle		веду́щий					ве́дший		
-lead	passive	participle		ведо́мый					ведённый		
-lead	adverbial	adverbial		ведя́					ве́дши		
-lead	active	1	singular	веду́	вести́	вёл	вела́	вело́			
-lead	active	2	singular	ведёшь	вести́	вёл	вела́	вело́		веди́	
-lead	active	3	singular	ведёт	вести́	вёл	вела́	вело́			
-lead	active	1	plural	ведём	вести́	вели́	вели́	вели́			
-lead	active	2	plural	ведёте	вести́	вели́	вели́	вели́		веди́те	
-lead	active	3	plural	веду́т	вести́	вели́	вели́	вели́			
-sweep	active	participle		мету́щий					мётший		
-sweep	passive	participle							метённый		
-sweep	adverbial	adverbial		метя́					мётши		
-sweep	active	1	singular	мету́	мести́	мёл	мела́	мело́			
-sweep	active	2	singular	метёшь	мести́	мёл	мела́	мело́		мети́	
-sweep	active	3	singular	метёт	мести́	мёл	мела́	мело́			
-sweep	active	1	plural	метём	мести́	мели́	мели́	мели́			
-sweep	active	2	plural	метёте	мести́	мели́	мели́	мели́		мети́те	
-sweep	active	3	plural	мету́т	мести́	мели́	мели́	мели́			
-row	active	participle		гребу́щий					грёбший		
-row	passive	participle							гребённый		
-row	adverbial	adverbial		гребя́					грёбши		
-row	active	1	singular	гребу́	грести́	грёб	гребла́	гребло́			
-row	active	2	singular	гребёшь	грести́	грёб	гребла́	гребло́		греби́	
-row	active	3	singular	гребёт	грести́	грёб	гребла́	гребло́			
-row	active	1	plural	гребём	грести́	гребли́	гребли́	гребли́			
-row	active	2	plural	гребёте	грести́	гребли́	гребли́	гребли́		греби́те	
-row	active	3	plural	гребу́т	грести́	гребли́	гребли́	гребли́			
-steal	active	participle		краду́щий					кра́вший		
-steal	passive	participle							кра́денный		
-steal	adverbial	adverbial		крадя́					кра́в		
-steal	active	1	singular	краду́	кра́сть	кра́л	кра́ла	кра́ло			
-steal	active	2	singular	крадёшь	кра́сть	кра́л	кра́ла	кра́ло		кради́	
-steal	active	3	singular	крадёт	кра́сть	кра́л	кра́ла	кра́ло			
-steal	active	1	plural	крадём	кра́сть	кра́ли	кра́ли	кра́ли			
-steal	active	2	plural	крадёте	кра́сть	кра́ли	кра́ли	кра́ли		кради́те	
-steal	active	3	plural	краду́т	кра́сть	кра́ли	кра́ли	кра́ли			
-convey	active	participle		везу́щий					вёзший		
-convey	passive	participle		везо́мый					везённый		
-convey	adverbial	adverbial		везя́					вёзши		
-convey	active	1	singular	везу́	везти́	вёз	везла́	везло́			
-convey	active	2	singular	везёшь	везти́	вёз	везла́	везло́		вези́	
-convey	active	3	singular	везёт	везти́	вёз	везла́	везло́			
-convey	active	1	plural	везём	везти́	везли́	везли́	везли́			
-convey	active	2	plural	везёте	везти́	везли́	везли́	везли́		вези́те	
-convey	active	3	plural	везу́т	везти́	везли́	везли́	везли́			
-climb	active	participle		ле́зущий					ле́зший		
-climb	passive	participle									
-climb	adverbial	adverbial		ле́зя					ле́зши		
-climb	active	1	singular	ле́зу	ле́зть	ле́з	ле́зла	ле́зло			
-climb	active	2	singular	ле́зешь	ле́зть	ле́з	ле́зла	ле́зло		ле́зь	
-climb	active	3	singular	ле́зет	ле́зть	ле́з	ле́зла	ле́зло			
-climb	active	1	plural	ле́зем	ле́зть	ле́зли	ле́зли	ле́зли			
-climb	active	2	plural	ле́зете	ле́зть	ле́зли	ле́зли	ле́зли		ле́зьте	
-climb	active	3	plural	ле́зут	ле́зть	ле́зли	ле́зли	ле́зли			
-wash	active	participle		мо́ющий					мы́вший		
-wash	passive	participle		мо́емый					мы́тый		
-wash	adverbial	adverbial		мо́я					мы́в		
-wash	active	1	singular	мо́ю	мы́ть	мы́л	мы́ла	мы́ло			
-wash	active	2	singular	мо́ешь	мы́ть	мы́л	мы́ла	мы́ло		мо́й	
-wash	active	3	singular	мо́ет	мы́ть	мы́л	мы́ла	мы́ло			
-wash	active	1	plural	мо́ем	мы́ть	мы́ли	мы́ли	мы́ли			
-wash	active	2	plural	мо́ете	мы́ть	мы́ли	мы́ли	мы́ли		мо́йте	
-wash	active	3	plural	мо́ют	мы́ть	мы́ли	мы́ли	мы́ли			
-beat	active	participle		бью́щий					би́вший		
-beat	passive	participle							би́тый		
-beat	adverbial	adverbial							би́в		
-beat	active	1	singular	бью́	би́ть	би́л	би́ла	би́ло			
-beat	active	2	singular	бьёшь	би́ть	би́л	би́ла	би́ло		бе́й	
-beat	active	3	singular	бьёт	би́ть	би́л	би́ла	би́ло			
-beat	active	1	plural	бьём	би́ть	би́ли	би́ли	би́ли			
-beat	active	2	plural	бьёте	би́ть	би́ли	би́ли	би́ли		бе́йте	
-beat	active	3	plural	бью́т	би́ть	би́ли	би́ли	би́ли			
-wind	active	participle		вью́щий					ви́вший		
-wind	passive	participle							ви́тый		
-wind	adverbial	adverbial		вья́					ви́в		
-wind	active	1	singular	вью́	ви́ть	ви́л	вила́	ви́ло			
-wind	active	2	singular	вьёшь	ви́ть	ви́л	вила́	ви́ло		ве́й	
-wind	active	3	singular	вьёт	ви́ть	ви́л	вила́	ви́ло			
-wind	active	1	plural	вьём	ви́ть	ви́ли	ви́ли	ви́ли			
-wind	active	2	plural	вьёте	ви́ть	ви́ли	ви́ли	ви́ли		ве́йте	
-wind	active	3	plural	вью́т	ви́ть	ви́ли	ви́ли	ви́ли			
-pour	active	participle		лью́щий					ли́вший		
-pour	passive	participle							ли́тый		
-pour	adverbial	adverbial		лья́					ли́в		
-pour	active	1	singular	лью́	ли́ть	ли́л	лила́	ли́ло			
-pour	active	2	singular	льёшь	ли́ть	ли́л	лила́	ли́ло		ле́й	
-pour	active	3	singular	льёт	ли́ть	ли́л	лила́	ли́ло			
-pour	active	1	plural	льём	ли́ть	ли́ли	ли́ли	ли́ли			
-pour	active	2	plural	льёте	ли́ть	ли́ли	ли́ли	ли́ли		ле́йте	
-pour	active	3	plural	лью́т	ли́ть	ли́ли	ли́ли	ли́ли			
-drink	active	participle		пью́щий					пи́вший		
-drink	passive	participle							пи́тый		
-drink	adverbial	adverbial							пи́в		
-drink	active	1	singular	пью́	пи́ть	пи́л	пила́	пи́ло			
-drink	active	2	singular	пьёшь	пи́ть	пи́л	пила́	пи́ло		пе́й	
-drink	active	3	singular	пьёт	пи́ть	пи́л	пила́	пи́ло			
-drink	active	1	plural	пьём	пи́ть	пи́ли	пи́ли	пи́ли			
-drink	active	2	plural	пьёте	пи́ть	пи́ли	пи́ли	пи́ли		пе́йте	
-drink	active	3	plural	пью́т	пи́ть	пи́ли	пи́ли	пи́ли			
-sew	active	participle		шью́щий					ши́вший		
-sew	passive	participle							ши́тый		
-sew	adverbial	adverbial							ши́в		
-sew	active	1	singular	шью́	ши́ть	ши́л	ши́ла	ши́ло			
-sew	active	2	singular	шьёшь	ши́ть	ши́л	ши́ла	ши́ло		ше́й	
-sew	active	3	singular	шьёт	ши́ть	ши́л	ши́ла	ши́ло			
-sew	active	1	plural	шьём	ши́ть	ши́ли	ши́ли	ши́ли			
-sew	active	2	plural	шьёте	ши́ть	ши́ли	ши́ли	ши́ли		ше́йте	
-sew	active	3	plural	шью́т	ши́ть	ши́ли	ши́ли	ши́ли			
-live	active	participle		живу́щий					жи́вший		
-live	passive	participle									
-live	adverbial	adverbial		живя́					жи́в		
-live	active	1	singular	живу́	жи́ть	жи́л	жила́	жи́ло			
-live	active	2	singular	живёшь	жи́ть	жи́л	жила́	жи́ло		живи́	
-live	active	3	singular	живёт	жи́ть	жи́л	жила́	жи́ло			
-live	active	1	plural	живём	жи́ть	жи́ли	жи́ли	жи́ли			
-live	active	2	plural	живёте	жи́ть	жи́ли	жи́ли	жи́ли		живи́те	
-live	active	3	plural	живу́т	жи́ть	жи́ли	жи́ли	жи́ли			
-swim	active	participle		плыву́щий					плы́вший		
-swim	passive	participle									
-swim	adverbial	adverbial		плывя́					плы́в		
-swim	active	1	singular	плыву́	плы́ть	плы́л	плыла́	плы́ло			
-swim	active	2	singular	плывёшь	плы́ть	плы́л	плыла́	плы́ло		плыви́	
-swim	active	3	singular	плывёт	плы́ть	плы́л	плыла́	плы́ло			
-swim	active	1	plural	плывём	плы́ть	плы́ли	плы́ли	плы́ли			
-swim	active	2	plural	плывёте	плы́ть	плы́ли	плы́ли	плы́ли		плыви́те	
-swim	active	3	plural	плыву́т	плы́ть	плы́ли	плы́ли	плы́ли			
-pass for	active	participle		слыву́щий					слы́вший		
-pass for	passive	participle									
-pass for	adverbial	adverbial		слывя́					слы́в		
-pass for	active	1	singular	слыву́	слы́ть	слы́л	слыла́	слы́ло			
-pass for	active	2	singular	слывёшь	слы́ть	слы́л	слыла́	слы́ло		слыви́	
-pass for	active	3	singular	слывёт	слы́ть	слы́л	слыла́	слы́ло			
-pass for	active	1	plural	слывём	слы́ть	слы́ли	слы́ли	слы́ли			
-pass for	active	2	plural	слывёте	слы́ть	слы́ли	слы́ли	слы́ли		слыви́те	
-pass for	active	3	plural	слыву́т	слы́ть	слы́ли	слы́ли	слы́ли			
-speak	active	participle		говоря́щий					говори́вший		
-speak	passive	participle		говори́мый					говорённый		
-speak	adverbial	adverbial		говоря́					говори́в		
-speak	active	1	singular	говорю́	говори́ть	говори́л	говори́ла	говори́ло			
-speak	active	2	singular	говори́шь	говори́ть	говори́л	говори́ла	говори́ло		говори́	
-speak	active	3	singular	говори́т	говори́ть	говори́л	говори́ла	говори́ло			
-speak	active	1	plural	говори́м	говори́ть	говори́ли	говори́ли	говори́ли			
-speak	active	2	plural	говори́те	говори́ть	говори́ли	говори́ли	говори́ли		говори́те	
-speak	active	3	plural	говоря́т	говори́ть	говори́ли	говори́ли	говори́ли			
-love	active	participle		лю́бящий					люби́вший		
-love	passive	participle		люби́мый					лю́бленный		
-love	adverbial	adverbial		любя́					люби́в		
-love	active	1	singular	люблю́	люби́ть	люби́л	люби́ла	люби́ло			
-love	active	2	singular	лю́бишь	люби́ть	люби́л	люби́ла	люби́ло		люби́	
-love	active	3	singular	лю́бит	люби́ть	люби́л	люби́ла	люби́ло			
-love	active	1	plural	лю́бим	люби́ть	люби́ли	люби́ли	люби́ли			
-love	active	2	plural	лю́бите	люби́ть	люби́ли	люби́ли	люби́ли		люби́те	
-love	active	3	plural	лю́бят	люби́ть	люби́ли	люби́ли	люби́ли			
-catch	active	participle		ловя́щий					лови́вший		
-catch	passive	participle		лови́мый					ло́вленный		
-catch	adverbial	adverbial		ловя́					лови́в		
-catch	active	1	singular	ловлю́	лови́ть	лови́л	лови́ла	лови́ло			
-catch	active	2	singular	ло́вишь	лови́ть	лови́л	лови́ла	лови́ло		лови́	
-catch	active	3	singular	ло́вит	лови́ть	лови́л	лови́ла	лови́ло			
-catch	active	1	plural	ло́вим	лови́ть	лови́ли	лови́ли	лови́ли			
-catch	active	2	plural	ло́вите	лови́ть	лови́ли	лови́ли	лови́ли		лови́те	
-catch	active	3	plural	ло́вят	лови́ть	лови́ли	лови́ли	лови́ли			
-sink	active	participle		топя́щий					топи́вший		
-sink	passive	participle		топи́мый1					то́пленный		
-sink	adverbial	adverbial		топя́					топи́в		
-sink	active	1	singular	топлю́	топи́ть	топи́л	топи́ла	топи́ло			
-sink	active	2	singular	то́пишь	топи́ть	топи́л	топи́ла	топи́ло		топи́	
-sink	active	3	singular	то́пит	топи́ть	топи́л	топи́ла	топи́ло			
-sink	active	1	plural	то́пим	топи́ть	топи́ли	топи́ли	топи́ли			
-sink	active	2	plural	то́пите	топи́ть	топи́ли	топи́ли	топи́ли		топи́те	
-sink	active	3	plural	то́пят	топи́ть	топи́ли	топи́ли	топи́ли			
-feed	active	participle		кормя́щий					корми́вший		
-feed	passive	participle		корми́мый1					ко́рмленный		
-feed	adverbial	adverbial		кормя́					корми́в		
-feed	active	1	singular	кормлю́	корми́ть	корми́л	корми́ла	корми́ло			
-feed	active	2	singular	ко́рмишь	корми́ть	корми́л	корми́ла	корми́ло		корми́	
-feed	active	3	singular	ко́рмит	корми́ть	корми́л	корми́ла	корми́ло			
-feed	active	1	plural	ко́рмим	корми́ть	корми́ли	корми́ли	корми́ли			
-feed	active	2	plural	ко́рмите	корми́ть	корми́ли	корми́ли	корми́ли		корми́те	
-feed	active	3	plural	ко́рмят	корми́ть	корми́ли	корми́ли	корми́ли			
-ask	active	participle		прося́щий					проси́вший		
-ask	passive	participle		проси́мый					про́шенный		
-ask	adverbial	adverbial		прося́					проси́в		
-ask	active	1	singular	прошу́	проси́ть	проси́л	проси́л	проси́л			
-ask	active	2	singular	про́сишь	проси́ть	проси́ла	проси́ла	проси́ла		проси́	
-ask	active	3	singular	про́сит	проси́ть	проси́ло	проси́ло	проси́ло			
-ask	active	1	plural	про́сим	проси́ть	проси́ли	проси́ли	проси́ли			
-ask	active	2	plural	про́сите	проси́ть	проси́ли	проси́ли	проси́ли		проси́те	
-ask	active	3	plural	про́сят	проси́ть	проси́ли	проси́ли	проси́ли			
-convey2	active	participle		возя́щий					вози́вший		
-convey2	passive	participle		вози́мый					во́женный		
-convey2	adverbial	adverbial		возя́					вози́в		
-convey2	active	1	singular	вожу́	вози́ть	вози́л	вози́ла	вози́ло			
-convey2	active	2	singular	во́зишь	вози́ть	вози́л	вози́ла	вози́ло		вози́	
-convey2	active	3	singular	во́зит	вози́ть	вози́л	вози́ла	вози́ло			
-convey2	active	1	plural	во́зим	вози́ть	вози́ли	вози́ли	вози́ли			
-convey2	active	2	plural	во́зите	вози́ть	вози́ли	вози́ли	вози́ли		вози́те	
-convey2	active	3	plural	во́зят	вози́ть	вози́ли	вози́ли	вози́ли			
-pay	active	participle		платя́щий					плати́вший		
-pay	passive	participle		плати́мый1					пла́ченный		
-pay	adverbial	adverbial		платя́					плати́в		
-pay	active	1	singular	плачу́	плати́ть	плати́л	плати́ла	плати́ло			
-pay	active	2	singular	пла́тишь	плати́ть	плати́л	плати́ла	плати́ло		плати́	
-pay	active	3	singular	пла́тит	плати́ть	плати́л	плати́ла	плати́ло			
-pay	active	1	plural	пла́тим	плати́ть	плати́ли	плати́ли	плати́ли			
-pay	active	2	plural	пла́тите	плати́ть	плати́ли	плати́ли	плати́ли		плати́те	
-pay	active	3	plural	пла́тят	плати́ть	плати́ли	плати́ли	плати́ли			
-go2	active	participle		ходя́щий					ходи́вший		
-go2	passive	participle									
-go2	adverbial	adverbial		ходя́					ходи́в		
-go2	active	1	singular	хожу́	ходи́ть	ходи́л	ходи́ла	ходи́ло			
-go2	active	2	singular	хо́дишь	ходи́ть	ходи́л	ходи́ла	ходи́ло			
-go2	active	3	singular	хо́дит	ходи́ть	ходи́л	ходи́ла	ходи́ло			
-go2	active	1	plural	хо́дим	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
-go2	active	2	plural	хо́дите	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
-go2	active	3	plural	хо́дят	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
-forgive	active	participle		ходя́щий					ходи́вший		
-forgive	passive	participle									
-forgive	adverbial	adverbial		ходя́					ходи́в		
-forgive	active	1	singular	хожу́	ходи́ть	ходи́л	ходи́ла	ходи́ло			
-forgive	active	2	singular	хо́дишь	ходи́ть	ходи́л	ходи́ла	ходи́ло		ходи́	
-forgive	active	3	singular	хо́дит	ходи́ть	ходи́л	ходи́ла	ходи́ло			
-forgive	active	1	plural	хо́дим	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
-forgive	active	2	plural	хо́дите	ходи́ть	ходи́ли	ходи́ли	ходи́ли		ходи́те	
-forgive	active	3	plural	хо́дят	ходи́ть	ходи́ли	ходи́ли	ходи́ли			
+*	*	*	*	present	present	future	future	past	past		
+*	*	*	*	cyrillic	latin	cyrillic	latin	cyrillic	latin		
+appear	indicative	1	singular	появля́юсь	pojavljájusʹ	бу́ду появля́ться	búdu pojavljátʹsja				
+appear	indicative	2	singular	появля́ешься	pojavljáješʹsja	бу́дешь появля́ться	búdešʹ pojavljátʹsja				
+appear	indicative	3	singular	появля́ется	pojavljájetsja	бу́дет появля́ться	búdet pojavljátʹsja				
+appear	indicative	1	plural	появля́емся	pojavljájemsja	бу́дем появля́ться	búdem pojavljátʹsja				
+appear	indicative	2	plural	появля́етесь	pojavljájetesʹ	бу́дете появля́ться	búdete pojavljátʹsja				
+appear	indicative	3	plural	появля́ются	pojavljájutsja	бу́дут появля́ться	búdut pojavljátʹsja				
+appear	indicative	masculine	singular					появля́лся	pojavljálsja		
+appear	indicative	feminine	singular					появля́лась	pojavljálasʹ		
+appear	indicative	neuter	singular					neuter (оно́)	pojavljálosʹ		
+appear	indicative		plural					появля́лись	pojavljálisʹ		
+appear	imperative		singular	появля́йся	pojavljájsja						
+appear	imperative		plural	появля́йтесь	pojavljájtesʹ						
+be-inherently	indicative	1	singular	есть1△,е́смь1△1△	jestʹ1△, jésmʹ1△1△	бу́ду	búdu				
+be-inherently	indicative	2	singular	есть1△,еси́2△1△,е́сь2△1△	jestʹ1△, jesí2△1△, jésʹ2△1△	бу́дешь	búdešʹ				
+be-inherently	indicative	3	singular	есть1△	jestʹ1△	бу́дет	búdet				
+be-inherently	indicative	1	plural	есть1△,есмы́2△1△	jestʹ1△, jesmý2△1△	бу́дем	búdem				
+be-inherently	indicative	2	plural	есть1△,е́сте2△1△	jestʹ1△, jéste2△1△	бу́дете	búdete				
+be-inherently	indicative	3	plural	есть1△,су́ть1△1△	jestʹ1△, sútʹ1△1△	бу́дут	búdut				
+be-inherently	indicative	masculine	singular					бы́л	býl		
+be-inherently	indicative	feminine	singular					была́	bylá		
+be-inherently	indicative	neuter	singular					бы́ло	býlo		
+be-inherently	indicative		plural					бы́ли	býli		
+be-inherently	imperative		singular	бу́дь	búdʹ						
+be-inherently	imperative		plural	бу́дьте	búdʹte						
+change	indicative	1	singular	изменя́ю	izmenjáju	бу́ду изменя́ть	búdu izmenjátʹ				
+change	indicative	2	singular	изменя́ешь	izmenjáješʹ	бу́дешь изменя́ть	búdešʹ izmenjátʹ				
+change	indicative	3	singular	изменя́ет	izmenjájet	бу́дет изменя́ть	búdet izmenjátʹ				
+change	indicative	1	plural	изменя́ем	izmenjájem	бу́дем изменя́ть	búdem izmenjátʹ				
+change	indicative	2	plural	изменя́ете	izmenjájete	бу́дете изменя́ть	búdete izmenjátʹ				
+change	indicative	3	plural	изменя́ют	izmenjájut	бу́дут изменя́ть	búdut izmenjátʹ				
+change	indicative	masculine	singular					изменя́л	izmenjál		
+change	indicative	feminine	singular					изменя́ла	izmenjála		
+change	indicative	neuter	singular					изменя́ло	izmenjálo		
+change	indicative		plural					изменя́ли	izmenjáli		
+change	imperative		singular	изменя́й	izmenjáj						
+change	imperative		plural	изменя́йте	izmenjájte						
+climb	indicative	1	singular	взбира́юсь	vzbirájusʹ	бу́ду взбира́ться	búdu vzbirátʹsja				
+climb	indicative	2	singular	взбира́ешься	vzbiráješʹsja	бу́дешь взбира́ться	búdešʹ vzbirátʹsja				
+climb	indicative	3	singular	взбира́ется	vzbirájetsja	бу́дет взбира́ться	búdet vzbirátʹsja				
+climb	indicative	1	plural	взбира́емся	vzbirájemsja	бу́дем взбира́ться	búdem vzbirátʹsja				
+climb	indicative	2	plural	взбира́етесь	vzbirájetesʹ	бу́дете взбира́ться	búdete vzbirátʹsja				
+climb	indicative	3	plural	взбира́ются	vzbirájutsja	бу́дут взбира́ться	búdut vzbirátʹsja				
+climb	indicative	masculine	singular					взбира́лся	vzbirálsja		
+climb	indicative	feminine	singular					взбира́лась	vzbirálasʹ		
+climb	indicative	neuter	singular					взбира́лось	vzbirálosʹ		
+climb	indicative		plural					взбира́лись	vzbirálisʹ		
+climb	imperative		singular	взбира́йся	vzbirájsja						
+climb	imperative		plural	взбира́йтесь	vzbirájtesʹ						
+cool	indicative	1	singular	—		остужу́	ostužú				
+cool	indicative	2	singular	—		осту́дишь	ostúdišʹ				
+cool	indicative	3	singular	—		осту́дит	ostúdit				
+cool	indicative	1	plural	—		осту́дим	ostúdim				
+cool	indicative	2	plural	—		осту́дите	ostúdite				
+cool	indicative	3	plural	—		осту́дят	ostúdjat				
+cool	indicative	masculine	singular					остуди́л	ostudíl		
+cool	indicative	feminine	singular					остуди́ла	ostudíla		
+cool	indicative	neuter	singular					остуди́ло	ostudílo		
+cool	indicative		plural					остуди́ли	ostudíli		
+cool	imperative		singular	остуди́	ostudí						
+cool	imperative		plural	остуди́те	ostudíte						
+direct	indicative	1	singular	вожу́	vožú	бу́ду води́ть	búdu vodítʹ				
+direct	indicative	2	singular	во́дишь	vódišʹ	бу́дешь води́ть	búdešʹ vodítʹ				
+direct	indicative	3	singular	во́дит	vódit	бу́дет води́ть	búdet vodítʹ				
+direct	indicative	1	plural	во́дим	vódim	бу́дем води́ть	búdem vodítʹ				
+direct	indicative	2	plural	во́дите	vódite	бу́дете води́ть	búdete vodítʹ				
+direct	indicative	3	plural	во́дят	vódjat	бу́дут води́ть	búdut vodítʹ				
+direct	indicative	masculine	singular					води́л	vodíl		
+direct	indicative	feminine	singular					води́ла	vodíla		
+direct	indicative	neuter	singular					води́ло	vodílo		
+direct	indicative		plural					води́ли	vodíli		
+direct	imperative		singular	води́	vodí						
+direct	imperative		plural	води́те	vodíte						
+displease	indicative	1	singular	огорча́ю	ogorčáju	бу́ду огорча́ть	búdu ogorčátʹ				
+displease	indicative	2	singular	огорча́ешь	ogorčáješʹ	бу́дешь огорча́ть	búdešʹ ogorčátʹ				
+displease	indicative	3	singular	огорча́ет	ogorčájet	бу́дет огорча́ть	búdet ogorčátʹ				
+displease	indicative	1	plural	огорча́ем	ogorčájem	бу́дем огорча́ть	búdem ogorčátʹ				
+displease	indicative	2	plural	огорча́ете	ogorčájete	бу́дете огорча́ть	búdete ogorčátʹ				
+displease	indicative	3	plural	огорча́ют	ogorčájut	бу́дут огорча́ть	búdut ogorčátʹ				
+displease	indicative	masculine	singular					огорча́л	ogorčál		
+displease	indicative	feminine	singular					огорча́ла	ogorčála		
+displease	indicative	neuter	singular					огорча́ло	ogorčálo		
+displease	indicative		plural					огорча́ли	ogorčáli		
+displease	imperative		singular	огорча́й	ogorčáj						
+displease	imperative		plural	огорча́йте	ogorčájte						
+eat	indicative	1	singular	е́м	jém	бу́ду е́сть	búdu jéstʹ				
+eat	indicative	2	singular	е́шь	jéšʹ	бу́дешь е́сть	búdešʹ jéstʹ				
+eat	indicative	3	singular	е́ст	jést	бу́дет е́сть	búdet jéstʹ				
+eat	indicative	1	plural	еди́м	jedím	бу́дем е́сть	búdem jéstʹ				
+eat	indicative	2	plural	еди́те	jedíte	бу́дете е́сть	búdete jéstʹ				
+eat	indicative	3	plural	едя́т	jedját	бу́дут е́сть	búdut jéstʹ				
+eat	indicative	masculine	singular					е́л	jél		
+eat	indicative	feminine	singular					е́ла	jéla		
+eat	indicative	neuter	singular					е́ло	jélo		
+eat	indicative		plural					е́ли	jéli		
+eat	imperative		singular	е́шь	jéšʹ						
+eat	imperative		plural	е́шьте	jéšʹte						
+endure	indicative	1	singular	терплю́	terpljú	бу́ду терпе́ть	búdu terpétʹ				
+endure	indicative	2	singular	те́рпишь	térpišʹ	бу́дешь терпе́ть	búdešʹ terpétʹ				
+endure	indicative	3	singular	те́рпит	térpit	бу́дет терпе́ть	búdet terpétʹ				
+endure	indicative	1	plural	те́рпим	térpim	бу́дем терпе́ть	búdem terpétʹ				
+endure	indicative	2	plural	те́рпите	térpite	бу́дете терпе́ть	búdete terpétʹ				
+endure	indicative	3	plural	те́рпят	térpjat	бу́дут терпе́ть	búdut terpétʹ				
+endure	indicative	masculine	singular					терпе́л	terpél		
+endure	indicative	feminine	singular					терпе́ла	terpéla		
+endure	indicative	neuter	singular					терпе́ло	terpélo		
+endure	indicative		plural					терпе́ли	terpéli		
+endure	imperative		singular	терпи́	terpí						
+endure	imperative		plural	терпи́те	terpíte						
+fall	indicative	1	singular	па́даю	pádaju	бу́ду па́дать	búdu pádatʹ				
+fall	indicative	2	singular	па́даешь	pádaješʹ	бу́дешь па́дать	búdešʹ pádatʹ				
+fall	indicative	3	singular	па́дает	pádajet	бу́дет па́дать	búdet pádatʹ				
+fall	indicative	1	plural	па́даем	pádajem	бу́дем па́дать	búdem pádatʹ				
+fall	indicative	2	plural	па́даете	pádajete	бу́дете па́дать	búdete pádatʹ				
+fall	indicative	3	plural	па́дают	pádajut	бу́дут па́дать	búdut pádatʹ				
+fall	indicative	masculine	singular					па́дал	pádal		
+fall	indicative	feminine	singular					па́дала	pádala		
+fall	indicative	neuter	singular					па́дало	pádalo		
+fall	indicative		plural					па́дали	pádali		
+fall	imperative		singular	па́дай	pádaj						
+fall	imperative		plural	па́дайте	pádajte						
+fly	indicative	1	singular	лета́ю	letáju	бу́ду лета́ть	búdu letátʹ				
+fly	indicative	2	singular	лета́ешь	letáješʹ	бу́дешь лета́ть	búdešʹ letátʹ				
+fly	indicative	3	singular	лета́ет	letájet	бу́дет лета́ть	búdet letátʹ				
+fly	indicative	1	plural	лета́ем	letájem	бу́дем лета́ть	búdem letátʹ				
+fly	indicative	2	plural	лета́ете	letájete	бу́дете лета́ть	búdete letátʹ				
+fly	indicative	3	plural	лета́ют	letájut	бу́дут лета́ть	búdut letátʹ				
+fly	indicative	masculine	singular					лета́л	letál		
+fly	indicative	feminine	singular					лета́ла	letála		
+fly	indicative	neuter	singular					лета́ло	letálo		
+fly	indicative		plural					лета́ли	letáli		
+fly	imperative		singular	лета́й	letáj						
+fly	imperative		plural	лета́йте	letájte						
+hear	indicative	1	singular	слы́шу	slýšu	бу́ду слы́шать	búdu slýšatʹ				
+hear	indicative	2	singular	слы́шишь	slýšišʹ	бу́дешь слы́шать	búdešʹ slýšatʹ				
+hear	indicative	3	singular	слы́шит	slýšit	бу́дет слы́шать	búdet slýšatʹ				
+hear	indicative	1	plural	слы́шим	slýšim	бу́дем слы́шать	búdem slýšatʹ				
+hear	indicative	2	plural	слы́шите	slýšite	бу́дете слы́шать	búdete slýšatʹ				
+hear	indicative	3	plural	слы́шат	slýšat	бу́дут слы́шать	búdut slýšatʹ				
+hear	indicative	masculine	singular					слы́шал	slýšal		
+hear	indicative	feminine	singular					слы́шала	slýšala		
+hear	indicative	neuter	singular					слы́шало	slýšalo		
+hear	indicative		plural					слы́шали	slýšali		
+hear	imperative		singular	—							
+hear	imperative		plural	—							
+occupy	indicative	1	singular	занима́ю	zanimáju	бу́ду занима́ть	búdu zanimátʹ				
+occupy	indicative	2	singular	занима́ешь	zanimáješʹ	бу́дешь занима́ть	búdešʹ zanimátʹ				
+occupy	indicative	3	singular	занима́ет	zanimájet	бу́дет занима́ть	búdet zanimátʹ				
+occupy	indicative	1	plural	занима́ем	zanimájem	бу́дем занима́ть	búdem zanimátʹ				
+occupy	indicative	2	plural	занима́ете	zanimájete	бу́дете занима́ть	búdete zanimátʹ				
+occupy	indicative	3	plural	занима́ют	zanimájut	бу́дут занима́ть	búdut zanimátʹ				
+occupy	indicative	masculine	singular					занима́л	zanimál		
+occupy	indicative	feminine	singular					занима́ла	zanimála		
+occupy	indicative	neuter	singular					занима́ло	zanimálo		
+occupy	indicative		plural					занима́ли	zanimáli		
+occupy	imperative		singular	занима́й	zanimáj						
+occupy	imperative		plural	занима́йте	zanimájte						
+resemble	indicative	1	singular	похожу́	poxožú	бу́ду походи́ть	búdu poxodítʹ				
+resemble	indicative	2	singular	похо́дишь	poxódišʹ	бу́дешь походи́ть	búdešʹ poxodítʹ				
+resemble	indicative	3	singular	похо́дит	poxódit	бу́дет походи́ть	búdet poxodítʹ				
+resemble	indicative	1	plural	похо́дим	poxódim	бу́дем походи́ть	búdem poxodítʹ				
+resemble	indicative	2	plural	похо́дите	poxódite	бу́дете походи́ть	búdete poxodítʹ				
+resemble	indicative	3	plural	похо́дят	poxódjat	бу́дут походи́ть	búdut poxodítʹ				
+resemble	indicative	masculine	singular					походи́л	poxodíl		
+resemble	indicative	feminine	singular					походи́ла	poxodíla		
+resemble	indicative	neuter	singular					походи́ло	poxodílo		
+resemble	indicative		plural					походи́ли	poxodíli		
+resemble	imperative		singular	походи́	poxodí						
+resemble	imperative		plural	походи́те	poxodíte						
+resemble	indicative	1	singular	—		похожу́	poxožú				
+resemble	indicative	2	singular	—		похо́дишь	poxódišʹ				
+resemble	indicative	3	singular	—		похо́дит	poxódit				
+resemble	indicative	1	plural	—		похо́дим	poxódim				
+resemble	indicative	2	plural	—		похо́дите	poxódite				
+resemble	indicative	3	plural	—		похо́дят	poxódjat				
+resemble	indicative	masculine	singular					походи́л	poxodíl		
+resemble	indicative	feminine	singular					походи́ла	poxodíla		
+resemble	indicative	neuter	singular					походи́ло	poxodílo		
+resemble	indicative		plural					походи́ли	poxodíli		
+resemble	imperative		singular	походи́	poxodí						
+resemble	imperative		plural	походи́те	poxodíte						
+see	indicative	1	singular	ви́жу	vížu	бу́ду ви́деть	búdu vídetʹ				
+see	indicative	2	singular	ви́дишь	vídišʹ	бу́дешь ви́деть	búdešʹ vídetʹ				
+see	indicative	3	singular	ви́дит	vídit	бу́дет ви́деть	búdet vídetʹ				
+see	indicative	1	plural	ви́дим	vídim	бу́дем ви́деть	búdem vídetʹ				
+see	indicative	2	plural	ви́дите	vídite	бу́дете ви́деть	búdete vídetʹ				
+see	indicative	3	plural	ви́дят	vídjat	бу́дут ви́деть	búdut vídetʹ				
+see	indicative	masculine	singular					ви́дел	vídel		
+see	indicative	feminine	singular					ви́дела	vídela		
+see	indicative	neuter	singular					ви́дело	vídelo		
+see	indicative		plural					ви́дели	vídeli		
+see	imperative		singular	—							
+see	imperative		plural	—							
+show	indicative	1	singular	пока́зываю	pokázyvaju	бу́ду пока́зывать	búdu pokázyvatʹ				
+show	indicative	2	singular	пока́зываешь	pokázyvaješʹ	бу́дешь пока́зывать	búdešʹ pokázyvatʹ				
+show	indicative	3	singular	пока́зывает	pokázyvajet	бу́дет пока́зывать	búdet pokázyvatʹ				
+show	indicative	1	plural	пока́зываем	pokázyvajem	бу́дем пока́зывать	búdem pokázyvatʹ				
+show	indicative	2	plural	пока́зываете	pokázyvajete	бу́дете пока́зывать	búdete pokázyvatʹ				
+show	indicative	3	plural	пока́зывают	pokázyvajut	бу́дут пока́зывать	búdut pokázyvatʹ				
+show	indicative	masculine	singular					пока́зывал	pokázyval		
+show	indicative	feminine	singular					пока́зывала	pokázyvala		
+show	indicative	neuter	singular					пока́зывало	pokázyvalo		
+show	indicative		plural					пока́зывали	pokázyvali		
+show	imperative		singular	пока́зывай	pokázyvaj						
+show	imperative		plural	пока́зывайте	pokázyvajte						
+startle	indicative	1	singular	пуга́ю	pugáju	бу́ду пуга́ть	búdu pugátʹ				
+startle	indicative	2	singular	пуга́ешь	pugáješʹ	бу́дешь пуга́ть	búdešʹ pugátʹ				
+startle	indicative	3	singular	пуга́ет	pugájet	бу́дет пуга́ть	búdet pugátʹ				
+startle	indicative	1	plural	пуга́ем	pugájem	бу́дем пуга́ть	búdem pugátʹ				
+startle	indicative	2	plural	пуга́ете	pugájete	бу́дете пуга́ть	búdete pugátʹ				
+startle	indicative	3	plural	пуга́ют	pugájut	бу́дут пуга́ть	búdut pugátʹ				
+startle	indicative	masculine	singular					пуга́л	pugál		
+startle	indicative	feminine	singular					пуга́ла	pugála		
+startle	indicative	neuter	singular					пуга́ло	pugálo		
+startle	indicative		plural					пуга́ли	pugáli		
+startle	imperative		singular	пуга́й	pugáj						
+startle	imperative		plural	пуга́йте	pugájte						
+swim	indicative	1	singular	плыву́	plyvú	бу́ду плы́ть	búdu plýtʹ				
+swim	indicative	2	singular	плывёшь	plyvjóšʹ	бу́дешь плы́ть	búdešʹ plýtʹ				
+swim	indicative	3	singular	плывёт	plyvjót	бу́дет плы́ть	búdet plýtʹ				
+swim	indicative	1	plural	плывём	plyvjóm	бу́дем плы́ть	búdem plýtʹ				
+swim	indicative	2	plural	плывёте	plyvjóte	бу́дете плы́ть	búdete plýtʹ				
+swim	indicative	3	plural	плыву́т	plyvút	бу́дут плы́ть	búdut plýtʹ				
+swim	indicative	masculine	singular					плы́л	plýl		
+swim	indicative	feminine	singular					плыла́	plylá		
+swim	indicative	neuter	singular					плы́ло,плыло́	plýlo, plyló		
+swim	indicative		plural					плы́ли	plýli		
+swim	imperative		singular	плыви́	plyví						
+swim	imperative		plural	плыви́те	plyvíte						
+walk	indicative	1	singular	шага́ю	šagáju	бу́ду шага́ть	búdu šagátʹ				
+walk	indicative	2	singular	шага́ешь	šagáješʹ	бу́дешь шага́ть	búdešʹ šagátʹ				
+walk	indicative	3	singular	шага́ет	šagájet	бу́дет шага́ть	búdet šagátʹ				
+walk	indicative	1	plural	шага́ем	šagájem	бу́дем шага́ть	búdem šagátʹ				
+walk	indicative	2	plural	шага́ете	šagájete	бу́дете шага́ть	búdete šagátʹ				
+walk	indicative	3	plural	шага́ют	šagájut	бу́дут шага́ть	búdut šagátʹ				
+walk	indicative	masculine	singular					шага́л	šagál		
+walk	indicative	feminine	singular					шага́ла	šagála		
+walk	indicative	neuter	singular					шага́ло	šagálo		
+walk	indicative		plural					шага́ли	šagáli		
+walk	imperative		singular	шага́й	šagáj						
+walk	imperative		plural	шага́йте	šagájte						
+warm	indicative	1	singular	гре́ю	gréju	бу́ду гре́ть	búdu grétʹ				
+warm	indicative	2	singular	гре́ешь	gréješʹ	бу́дешь гре́ть	búdešʹ grétʹ				
+warm	indicative	3	singular	гре́ет	gréjet	бу́дет гре́ть	búdet grétʹ				
+warm	indicative	1	plural	гре́ем	gréjem	бу́дем гре́ть	búdem grétʹ				
+warm	indicative	2	plural	гре́ете	gréjete	бу́дете гре́ть	búdete grétʹ				
+warm	indicative	3	plural	гре́ют	gréjut	бу́дут гре́ть	búdut grétʹ				
+warm	indicative	masculine	singular					гре́л	grél		
+warm	indicative	feminine	singular					гре́ла	gréla		
+warm	indicative	neuter	singular					гре́ло	grélo		
+warm	indicative		plural					гре́ли	gréli		
+warm	imperative		singular	гре́й	gréj						
+warm	imperative		plural	гре́йте	gréjte						
+watch	indicative	1	singular	наблюда́ю	nabljudáju	бу́ду наблюда́ть	búdu nabljudátʹ				
+watch	indicative	2	singular	наблюда́ешь	nabljudáješʹ	бу́дешь наблюда́ть	búdešʹ nabljudátʹ				
+watch	indicative	3	singular	наблюда́ет	nabljudájet	бу́дет наблюда́ть	búdet nabljudátʹ				
+watch	indicative	1	plural	наблюда́ем	nabljudájem	бу́дем наблюда́ть	búdem nabljudátʹ				
+watch	indicative	2	plural	наблюда́ете	nabljudájete	бу́дете наблюда́ть	búdete nabljudátʹ				
+watch	indicative	3	plural	наблюда́ют	nabljudájut	бу́дут наблюда́ть	búdut nabljudátʹ				
+watch	indicative	masculine	singular					наблюда́л	nabljudál		
+watch	indicative	feminine	singular					наблюда́ла	nabljudála		
+watch	indicative	neuter	singular					наблюда́ло	nabljudálo		
+watch	indicative		plural					наблюда́ли	nabljudáli		
+watch	imperative		singular	наблюда́й	nabljudáj						
+watch	imperative		plural	наблюда́йте	nabljudájte						
+work	indicative	1	singular	рабо́таю	rabótaju	бу́ду рабо́тать	búdu rabótatʹ				
+work	indicative	2	singular	рабо́таешь	rabótaješʹ	бу́дешь рабо́тать	búdešʹ rabótatʹ				
+work	indicative	3	singular	рабо́тает	rabótajet	бу́дет рабо́тать	búdet rabótatʹ				
+work	indicative	1	plural	рабо́таем	rabótajem	бу́дем рабо́тать	búdem rabótatʹ				
+work	indicative	2	plural	рабо́таете	rabótajete	бу́дете рабо́тать	búdete rabótatʹ				
+work	indicative	3	plural	рабо́тают	rabótajut	бу́дут рабо́тать	búdut rabótatʹ				
+work	indicative	masculine	singular					рабо́тал	rabótal		
+work	indicative	feminine	singular					рабо́тала	rabótala		
+work	indicative	neuter	singular					рабо́тало	rabótalo		
+work	indicative		plural					рабо́тали	rabótali		
+work	imperative		singular	рабо́тай	rabótaj						
+work	imperative		plural	рабо́тайте	rabótajte						
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											

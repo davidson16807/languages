@@ -1,46 +1,244 @@
-*	*	*	translated	translated	translated	translated	translated	translated	translated	translated	
-*	*	*	indicative 	indicative	indicative   	indicative	subjunctive 	subjunctive 	conditional 	imperative 	
-*	*	*	present    	past	past	future    	present     	past	past	present    	
-*	*	*	aorist	perfect   	imperfect    	aorist	aorist	imperfect   	aorist	aorist	group    
-have   	1	singular	ai         	eus       	avais        	aurai     	aie         	eusse       	aurais      	           	unique   
-have   	2	singular	as         	eus       	avais        	auras     	aies        	eusses      	aurais      	aie        	unique   
-have   	3	singular	a          	eut       	avait        	aura      	ait         	eût         	aurait      	           	unique   
-have   	1	plural  	avons      	eûmes     	avions       	aurons    	ayons       	eussions    	aurions     	ayons      	unique   
-have   	2	plural  	avez       	eûtes     	aviez        	aurez     	ayez        	eussiez     	auriez      	ayez       	unique   
-have   	3	plural  	ont        	eurent    	avaient      	auront    	aient       	eussent     	auraient    	           	unique   
-be     	1	singular	suis       	fus       	étais        	serai     	sois        	fusse       	serais      	           	unique   
-be     	2	singular	es         	fus       	étais        	seras     	sois        	fusses      	serais      	sois       	unique   
-be     	3	singular	est        	fut       	était        	sera      	soit        	fût         	serait      	           	unique   
-be     	1	plural  	sommes     	fûmes     	étions       	serons    	soyons      	fuissions   	serions     	soyons     	unique   
-be     	2	plural  	êtes       	fûtes     	étiez        	serez     	soyez       	fuissiez    	seriez      	soyez      	unique   
-be     	3	plural  	sont       	furent    	étaient      	seront    	soient      	fussent     	seraient    	           	unique   
-go     	1	singular	vais       	allai     	allais       	irai      	aille       	allasse     	irais       	           	unique   
-go     	2	singular	vas        	allas     	allais       	iras      	ailles      	allasses    	irais       	va         	unique   
-go     	3	singular	va         	alla      	allait       	ira       	aille       	allât       	irait       	           	unique   
-go     	1	plural  	allons     	allâmes   	allions      	irons     	allions     	allassions  	irions      	allons     	unique   
-go     	2	plural  	allez      	allâtes   	alliez       	irez      	alliez      	allassiez   	iriez       	allez      	unique   
-go     	3	plural  	vont       	allèrent  	allaient     	iront     	aillent     	allassent   	iraient     	           	unique   
-speak  	1	singular	parle      	parlai    	parlais      	parlerai  	parle       	parlasse    	parlerais   	           	1        
-speak  	2	singular	parles     	parlas    	parlais      	parleras  	parles      	parlasses   	parlerais   	parle      	1        
-speak  	3	singular	parle      	parla     	parlait      	parlera   	parle       	parlât      	parlerait   	           	1        
-speak  	1	plural  	parlons    	parlâmes  	parlions     	parlerons 	parlions    	parlassions 	parlerions  	parlons    	1        
-speak  	2	plural  	parlez     	parlâtes  	parliez      	parlerez  	parliez     	parlassiez  	parleriez   	parlez     	1        
-speak  	3	plural  	parlent    	parlèrent 	parlaient    	parleront 	parlent     	parlassent  	parleraient 	           	1        
-choose 	1	singular	choisis    	choisis   	choisissais  	choisirai 	choisisse   	choisisse   	choisirais  	           	2        
-choose 	2	singular	choisis    	choisis   	choisissais  	choisiras 	choisisses  	choisisses  	choisirais  	choisis    	2        
-choose 	3	singular	choisit    	choisit   	choisissait  	choisira  	choisisse   	choisît     	choisirait  	           	2        
-choose 	1	plural  	choisissons	choisîmes 	choisissions 	choisirons	choisissions	choisissions	choisirions 	choisissons	2        
-choose 	2	plural  	choisissez 	choisîtes 	choisissiez  	choisirez 	choisissiez 	choisissiez 	choisiriez  	choisissez 	2        
-choose 	3	plural  	choisissent	choisirent	choisissaient	choisiront	choisissent 	choisissent 	choisiraient	           	2        
-lose   	1	singular	perds      	perdis    	perdais      	perdrai   	perde       	perdisse    	perdrais    	           	3        
-lose   	2	singular	perds      	perdis    	perdais      	perdras   	perdes      	perdisses   	perdrais    	perds      	3        
-lose   	3	singular	perd       	perdit    	perdait      	perdra    	perde       	perdît      	perdrait    	           	3        
-lose   	1	plural  	perdons    	perdîmes  	perdions     	perdrons  	perions     	perdissions 	perdrions   	perdons    	3        
-lose   	2	plural  	perdez     	perdîtes  	perdiez      	perdrez   	perdiez     	perdissiez  	perdriez    	perdez     	3        
-lose   	3	plural  	perdent    	perdirent 	perdaient    	perdront  	perdent     	perdissent  	perdraient  	           	3        
-receive	1	singular	reçois     	reçus     	recevais     	recevrai  	reçoive     	reçusse     	recevrais   	           	irregular
-receive	2	singular	reçois     	reçus     	recevais     	recevras  	reçoives    	reçusses    	recevrais   	reçois     	irregular
-receive	3	singular	reçoit     	reçut     	recevait     	recevra   	reçoive     	reçût       	recevrait   	           	irregular
-receive	1	plural  	recevons   	reçûmes   	recevions    	recevrons 	recevions   	reçussions  	recevrions  	recevons   	irregular
-receive	2	plural  	recevez    	reçûtes   	receviez     	recevrez  	receviez    	reçussiez   	recevriez   	recevez    	irregular
-receive	3	plural  	reçoivent  	reçurent  	recevaient   	recevront 	reçoivent   	reçussent   	recevraient 	           	irregular
+*	*	*	*	singular	singular	singular	singular	singular	singular	plural	plural	plural	plural	plural	plural
+*	*	*	*	1	1	2	2	3	3	1	1	2	2	3	3
+*	*	*	*	latin	ipa	latin	ipa	latin	ipa	latin	ipa	latin	ipa	latin	ipa
+appear	indicative	present	simple	apparais	a.pa.ʁɛ	apparais	a.pa.ʁɛ	apparaît	a.pa.ʁɛ	apparaissons	a.pa.ʁɛ.sɔ̃ | a.pa.ʁe.sɔ̃	apparaissez	a.pa.ʁɛ.se | a.pa.ʁe.se	apparaissent	a.pa.ʁɛs
+appear	indicative	past	imperfective	apparaissais	a.pa.ʁɛ.sɛ | a.pa.ʁe.sɛ	apparaissais	a.pa.ʁɛ.sɛ | a.pa.ʁe.sɛ	apparaissait	a.pa.ʁɛ.sɛ | a.pa.ʁe.sɛ	apparaissions	a.pa.ʁɛ.sjɔ̃ | a.pa.ʁe.sjɔ̃	apparaissiez	a.pa.ʁɛ.sje | a.pa.ʁe.sje	apparaissaient	a.pa.ʁɛ.sɛ | a.pa.ʁe.sɛ
+appear	indicative	past	perfective	apparus	a.pa.ʁy	apparus	a.pa.ʁy	apparut	a.pa.ʁy	apparûmes	a.pa.ʁym	apparûtes	a.pa.ʁyt	apparurent	a.pa.ʁyʁ
+appear	indicative	future	simple	apparaîtrai	a.pa.ʁɛ.tʁe | a.pa.ʁe.tʁe	apparaîtras	a.pa.ʁɛ.tʁa | a.pa.ʁe.tʁa	apparaîtra	a.pa.ʁɛ.tʁa | a.pa.ʁe.tʁa	apparaîtrons	a.pa.ʁɛ.tʁɔ̃ | a.pa.ʁe.tʁɔ̃	apparaîtrez	a.pa.ʁɛ.tʁe | a.pa.ʁe.tʁe	apparaîtront	a.pa.ʁɛ.tʁɔ̃ | a.pa.ʁe.tʁɔ̃
+appear	conditional			apparaîtrais	a.pa.ʁɛ.tʁɛ | a.pa.ʁe.tʁɛ	apparaîtrais	a.pa.ʁɛ.tʁɛ | a.pa.ʁe.tʁɛ	apparaîtrait	a.pa.ʁɛ.tʁɛ | a.pa.ʁe.tʁɛ	apparaîtrions	a.pa.ʁɛ.tʁi.jɔ̃ | a.pa.ʁe.tʁi.jɔ̃	apparaîtriez	a.pa.ʁɛ.tʁi.je | a.pa.ʁe.tʁi.je	apparaîtraient	a.pa.ʁɛ.tʁɛ | a.pa.ʁe.tʁɛ
+appear	subjunctive	present	simple	apparaisse	a.pa.ʁɛs	apparaisses	a.pa.ʁɛs	apparaisse	a.pa.ʁɛs	apparaissions	a.pa.ʁɛ.sjɔ̃ | a.pa.ʁe.sjɔ̃	apparaissiez	a.pa.ʁɛ.sje | a.pa.ʁe.sje	apparaissent	a.pa.ʁɛs
+appear	subjunctive	past	imperfective	apparusse	a.pa.ʁys	apparusses	a.pa.ʁys	apparût	a.pa.ʁy	apparussions	a.pa.ʁy.sjɔ̃	apparussiez	a.pa.ʁy.sje	apparussent	a.pa.ʁys
+appear	imperative			—		apparais	a.pa.ʁɛ	—		apparaissons	a.pa.ʁɛ.sɔ̃ | a.pa.ʁe.sɔ̃	apparaissez	a.pa.ʁɛ.se | a.pa.ʁe.se	—	
+be-inherently	indicative	present	simple	suis	sɥi	es	ɛ	est	ɛ	sommes	sɔm	êtes	ɛt	sont	sɔ̃
+be-inherently	indicative	past	imperfective	étais	e.tɛ	étais	e.tɛ	était	e.tɛ	étions	e.tjɔ̃	étiez	e.tje	étaient	e.tɛ
+be-inherently	indicative	past	perfective	fus	fy	fus	fy	fut	fy	fûmes	fym	fûtes	fyt	furent	fyʁ
+be-inherently	indicative	future	simple	serai	sə.ʁe	seras	sə.ʁa	sera	sə.ʁa	serons	sə.ʁɔ̃	serez	sə.ʁe	seront	sə.ʁɔ̃
+be-inherently	conditional			serais	sə.ʁɛ	serais	sə.ʁɛ	serait	sə.ʁɛ	serions	sə.ʁjɔ̃	seriez	sə.ʁje	seraient	sə.ʁɛ
+be-inherently	subjunctive	present	simple	sois	swa	sois	swa	soit	swa	soyons	swa.jɔ̃	soyez	swa.je	soient	swa
+be-inherently	subjunctive	past	imperfective	fusse	fys	fusses	fys	fût	fy	fussions	fy.sjɔ̃	fussiez	fy.sje	fussent	fys
+be-inherently	imperative			—		sois	swa	—		soyons	swa.jɔ̃	soyez	swa.je	—	
+change	indicative	present	simple	change	ʃɑ̃ʒ	changes	ʃɑ̃ʒ	change	ʃɑ̃ʒ	changeons	ʃɑ̃.ʒɔ̃	changez	ʃɑ̃.ʒe	changent	ʃɑ̃ʒ
+change	indicative	past	imperfective	changeais	ʃɑ̃.ʒɛ	changeais	ʃɑ̃.ʒɛ	changeait	ʃɑ̃.ʒɛ	changions	ʃɑ̃.ʒjɔ̃	changiez	ʃɑ̃.ʒje	changeaient	ʃɑ̃.ʒɛ
+change	indicative	past	perfective	changeai	ʃɑ̃.ʒe	changeas	ʃɑ̃.ʒa	changea	ʃɑ̃.ʒa	changeâmes	ʃɑ̃.ʒam	changeâtes	ʃɑ̃.ʒat	changèrent	ʃɑ̃.ʒɛʁ
+change	indicative	future	simple	changerai	ʃɑ̃ʒ.ʁe	changeras	ʃɑ̃ʒ.ʁa	changera	ʃɑ̃ʒ.ʁa	changerons	ʃɑ̃ʒ.ʁɔ̃	changerez	ʃɑ̃ʒ.ʁe	changeront	ʃɑ̃ʒ.ʁɔ̃
+change	conditional			changerais	ʃɑ̃ʒ.ʁɛ	changerais	ʃɑ̃ʒ.ʁɛ	changerait	ʃɑ̃ʒ.ʁɛ	changerions	ʃɑ̃.ʒə.ʁjɔ̃	changeriez	ʃɑ̃.ʒə.ʁje	changeraient	ʃɑ̃ʒ.ʁɛ
+change	subjunctive	present	simple	change	ʃɑ̃ʒ	changes	ʃɑ̃ʒ	change	ʃɑ̃ʒ	changions	ʃɑ̃.ʒjɔ̃	changiez	ʃɑ̃.ʒje	changent	ʃɑ̃ʒ
+change	subjunctive	past	imperfective	changeasse	ʃɑ̃.ʒas	changeasses	ʃɑ̃.ʒas	changeât	ʃɑ̃.ʒa	changeassions	ʃɑ̃.ʒa.sjɔ̃	changeassiez	ʃɑ̃.ʒa.sje	changeassent	ʃɑ̃.ʒas
+change	imperative			—		change	ʃɑ̃ʒ	—		changeons	ʃɑ̃.ʒɔ̃	changez	ʃɑ̃.ʒe	—	
+climb	indicative	present	simple	escalade	ɛs.ka.lad	escalades	ɛs.ka.lad	escalade	ɛs.ka.lad	escaladons	ɛs.ka.la.dɔ̃	escaladez	ɛs.ka.la.de	escaladent	ɛs.ka.lad
+climb	indicative	past	imperfective	escaladais	ɛs.ka.la.dɛ	escaladais	ɛs.ka.la.dɛ	escaladait	ɛs.ka.la.dɛ	escaladions	ɛs.ka.la.djɔ̃	escaladiez	ɛs.ka.la.dje	escaladaient	ɛs.ka.la.dɛ
+climb	indicative	past	perfective	escaladai	ɛs.ka.la.de	escaladas	ɛs.ka.la.da	escalada	ɛs.ka.la.da	escaladâmes	ɛs.ka.la.dam	escaladâtes	ɛs.ka.la.dat	escaladèrent	ɛs.ka.la.dɛʁ
+climb	indicative	future	simple	escaladerai	ɛs.ka.la.dʁe	escaladeras	ɛs.ka.la.dʁa	escaladera	ɛs.ka.la.dʁa	escaladerons	ɛs.ka.la.dʁɔ̃	escaladerez	ɛs.ka.la.dʁe	escaladeront	ɛs.ka.la.dʁɔ̃
+climb	conditional			escaladerais	ɛs.ka.la.dʁɛ	escaladerais	ɛs.ka.la.dʁɛ	escaladerait	ɛs.ka.la.dʁɛ	escaladerions	ɛs.ka.la.də.ʁjɔ̃	escaladeriez	ɛs.ka.la.də.ʁje	escaladeraient	ɛs.ka.la.dʁɛ
+climb	subjunctive	present	simple	escalade	ɛs.ka.lad	escalades	ɛs.ka.lad	escalade	ɛs.ka.lad	escaladions	ɛs.ka.la.djɔ̃	escaladiez	ɛs.ka.la.dje	escaladent	ɛs.ka.lad
+climb	subjunctive	past	imperfective	escaladasse	ɛs.ka.la.das	escaladasses	ɛs.ka.la.das	escaladât	ɛs.ka.la.da	escaladassions	ɛs.ka.la.da.sjɔ̃	escaladassiez	ɛs.ka.la.da.sje	escaladassent	ɛs.ka.la.das
+climb	imperative			—		escalade	ɛs.ka.lad	—		escaladons	ɛs.ka.la.dɔ̃	escaladez	ɛs.ka.la.de	—	
+cool	indicative	present	simple	refroidis	ʁə.fʁwa.di	refroidis	ʁə.fʁwa.di	refroidit	ʁə.fʁwa.di	refroidissons	ʁə.fʁwa.di.sɔ̃	refroidissez	ʁə.fʁwa.di.se	refroidissent	ʁə.fʁwa.dis
+cool	indicative	past	imperfective	refroidissais	ʁə.fʁwa.di.sɛ	refroidissais	ʁə.fʁwa.di.sɛ	refroidissait	ʁə.fʁwa.di.sɛ	refroidissions	ʁə.fʁwa.di.sjɔ̃	refroidissiez	ʁə.fʁwa.di.sje	refroidissaient	ʁə.fʁwa.di.sɛ
+cool	indicative	past	perfective	refroidis	ʁə.fʁwa.di	refroidis	ʁə.fʁwa.di	refroidit	ʁə.fʁwa.di	refroidîmes	ʁə.fʁwa.dim	refroidîtes	ʁə.fʁwa.dit	refroidirent	ʁə.fʁwa.diʁ
+cool	indicative	future	simple	refroidirai	ʁə.fʁwa.di.ʁe	refroidiras	ʁə.fʁwa.di.ʁa	refroidira	ʁə.fʁwa.di.ʁa	refroidirons	ʁə.fʁwa.di.ʁɔ̃	refroidirez	ʁə.fʁwa.di.ʁe	refroidiront	ʁə.fʁwa.di.ʁɔ̃
+cool	conditional			refroidirais	ʁə.fʁwa.di.ʁɛ	refroidirais	ʁə.fʁwa.di.ʁɛ	refroidirait	ʁə.fʁwa.di.ʁɛ	refroidirions	ʁə.fʁwa.di.ʁjɔ̃	refroidiriez	ʁə.fʁwa.di.ʁje	refroidiraient	ʁə.fʁwa.di.ʁɛ
+cool	subjunctive	present	simple	refroidisse	ʁə.fʁwa.dis	refroidisses	ʁə.fʁwa.dis	refroidisse	ʁə.fʁwa.dis	refroidissions	ʁə.fʁwa.di.sjɔ̃	refroidissiez	ʁə.fʁwa.di.sje	refroidissent	ʁə.fʁwa.dis
+cool	subjunctive	past	imperfective	refroidisse	ʁə.fʁwa.dis	refroidisses	ʁə.fʁwa.dis	refroidît	ʁə.fʁwa.di	refroidissions	ʁə.fʁwa.di.sjɔ̃	refroidissiez	ʁə.fʁwa.di.sje	refroidissent	ʁə.fʁwa.dis
+cool	imperative			—		refroidis	ʁə.fʁwa.di	—		refroidissons	ʁə.fʁwa.di.sɔ̃	refroidissez	ʁə.fʁwa.di.se	—	
+direct	indicative	present	simple	conduis	kɔ̃.dɥi	conduis	kɔ̃.dɥi	conduit	kɔ̃.dɥi	conduisons	kɔ̃.dɥi.zɔ̃	conduisez	kɔ̃.dɥi.ze	conduisent	kɔ̃.dɥiz
+direct	indicative	past	imperfective	conduisais	kɔ̃.dɥi.zɛ	conduisais	kɔ̃.dɥi.zɛ	conduisait	kɔ̃.dɥi.zɛ	conduisions	kɔ̃.dɥi.zjɔ̃	conduisiez	kɔ̃.dɥi.zje	conduisaient	kɔ̃.dɥi.zɛ
+direct	indicative	past	perfective	conduisis	kɔ̃.dɥi.zi	conduisis	kɔ̃.dɥi.zi	conduisit	kɔ̃.dɥi.zi	conduisîmes	kɔ̃.dɥi.zim	conduisîtes	kɔ̃.dɥi.zit	conduisirent	kɔ̃.dɥi.ziʁ
+direct	indicative	future	simple	conduirai	kɔ̃.dɥi.ʁe	conduiras	kɔ̃.dɥi.ʁa	conduira	kɔ̃.dɥi.ʁa	conduirons	kɔ̃.dɥi.ʁɔ̃	conduirez	kɔ̃.dɥi.ʁe	conduiront	kɔ̃.dɥi.ʁɔ̃
+direct	conditional			conduirais	kɔ̃.dɥi.ʁɛ	conduirais	kɔ̃.dɥi.ʁɛ	conduirait	kɔ̃.dɥi.ʁɛ	conduirions	kɔ̃.dɥi.ʁjɔ̃	conduiriez	kɔ̃.dɥi.ʁje	conduiraient	kɔ̃.dɥi.ʁɛ
+direct	subjunctive	present	simple	conduise	kɔ̃.dɥiz	conduises	kɔ̃.dɥiz	conduise	kɔ̃.dɥiz	conduisions	kɔ̃.dɥi.zjɔ̃	conduisiez	kɔ̃.dɥi.zje	conduisent	kɔ̃.dɥiz
+direct	subjunctive	past	imperfective	conduisisse	kɔ̃.dɥi.zis	conduisisses	kɔ̃.dɥi.zis	conduisît	kɔ̃.dɥi.zi	conduisissions	kɔ̃.dɥi.zi.sjɔ̃	conduisissiez	kɔ̃.dɥi.zi.sje	conduisissent	kɔ̃.dɥi.zis
+direct	imperative			—		conduis	kɔ̃.dɥi	—		conduisons	kɔ̃.dɥi.zɔ̃	conduisez	kɔ̃.dɥi.ze	—	
+displease	indicative	present	simple	énerve	e.nɛʁv	énerves	e.nɛʁv	énerve	e.nɛʁv	énervons	e.nɛʁ.vɔ̃	énervez	e.nɛʁ.ve	énervent	e.nɛʁv
+displease	indicative	past	imperfective	énervais	e.nɛʁ.vɛ	énervais	e.nɛʁ.vɛ	énervait	e.nɛʁ.vɛ	énervions	e.nɛʁ.vjɔ̃	énerviez	e.nɛʁ.vje	énervaient	e.nɛʁ.vɛ
+displease	indicative	past	perfective	énervai	e.nɛʁ.ve	énervas	e.nɛʁ.va	énerva	e.nɛʁ.va	énervâmes	e.nɛʁ.vam	énervâtes	e.nɛʁ.vat	énervèrent	e.nɛʁ.vɛʁ
+displease	indicative	future	simple	énerverai	e.nɛʁ.və.ʁe	énerveras	e.nɛʁ.və.ʁa	énervera	e.nɛʁ.və.ʁa	énerverons	e.nɛʁ.və.ʁɔ̃	énerverez	e.nɛʁ.və.ʁe	énerveront	e.nɛʁ.və.ʁɔ̃
+displease	conditional			énerverais	e.nɛʁ.və.ʁɛ	énerverais	e.nɛʁ.və.ʁɛ	énerverait	e.nɛʁ.və.ʁɛ	énerverions	e.nɛʁ.və.ʁjɔ̃	énerveriez	e.nɛʁ.və.ʁje	énerveraient	e.nɛʁ.və.ʁɛ
+displease	subjunctive	present	simple	énerve	e.nɛʁv	énerves	e.nɛʁv	énerve	e.nɛʁv	énervions	e.nɛʁ.vjɔ̃	énerviez	e.nɛʁ.vje	énervent	e.nɛʁv
+displease	subjunctive	past	imperfective	énervasse	e.nɛʁ.vas	énervasses	e.nɛʁ.vas	énervât	e.nɛʁ.va	énervassions	e.nɛʁ.va.sjɔ̃	énervassiez	e.nɛʁ.va.sje	énervassent	e.nɛʁ.vas
+displease	imperative			—		énerve	e.nɛʁv	—		énervons	e.nɛʁ.vɔ̃	énervez	e.nɛʁ.ve	—	
+eat	indicative	present	simple	mange	mɑ̃ʒ	manges	mɑ̃ʒ	mange	mɑ̃ʒ	mangeons	mɑ̃.ʒɔ̃	mangez	mɑ̃.ʒe	mangent	mɑ̃ʒ
+eat	indicative	past	imperfective	mangeais	mɑ̃.ʒɛ	mangeais	mɑ̃.ʒɛ	mangeait	mɑ̃.ʒɛ	mangions	mɑ̃.ʒjɔ̃	mangiez	mɑ̃.ʒje	mangeaient	mɑ̃.ʒɛ
+eat	indicative	past	perfective	mangeai	mɑ̃.ʒe	mangeas	mɑ̃.ʒa	mangea	mɑ̃.ʒa	mangeâmes	mɑ̃.ʒam	mangeâtes	mɑ̃.ʒat	mangèrent	mɑ̃.ʒɛʁ
+eat	indicative	future	simple	mangerai	mɑ̃ʒ.ʁe	mangeras	mɑ̃ʒ.ʁa	mangera	mɑ̃ʒ.ʁa	mangerons	mɑ̃ʒ.ʁɔ̃	mangerez	mɑ̃ʒ.ʁe	mangeront	mɑ̃ʒ.ʁɔ̃
+eat	conditional			mangerais	mɑ̃ʒ.ʁɛ	mangerais	mɑ̃ʒ.ʁɛ	mangerait	mɑ̃ʒ.ʁɛ	mangerions	mɑ̃.ʒə.ʁjɔ̃	mangeriez	mɑ̃.ʒə.ʁje	mangeraient	mɑ̃ʒ.ʁɛ
+eat	subjunctive	present	simple	mange	mɑ̃ʒ	manges	mɑ̃ʒ	mange	mɑ̃ʒ	mangions	mɑ̃.ʒjɔ̃	mangiez	mɑ̃.ʒje	mangent	mɑ̃ʒ
+eat	subjunctive	past	imperfective	mangeasse	mɑ̃.ʒas	mangeasses	mɑ̃.ʒas	mangeât	mɑ̃.ʒa	mangeassions	mɑ̃.ʒa.sjɔ̃	mangeassiez	mɑ̃.ʒa.sje	mangeassent	mɑ̃.ʒas
+eat	imperative			—		mange	mɑ̃ʒ	—		mangeons	mɑ̃.ʒɔ̃	mangez	mɑ̃.ʒe	—	
+endure	indicative	present	simple	endure	ɑ̃.dyʁ	endures	ɑ̃.dyʁ	endure	ɑ̃.dyʁ	endurons	ɑ̃.dy.ʁɔ̃	endurez	ɑ̃.dy.ʁe	endurent	ɑ̃.dyʁ
+endure	indicative	past	imperfective	endurais	ɑ̃.dy.ʁɛ	endurais	ɑ̃.dy.ʁɛ	endurait	ɑ̃.dy.ʁɛ	endurions	ɑ̃.dy.ʁjɔ̃	enduriez	ɑ̃.dy.ʁje	enduraient	ɑ̃.dy.ʁɛ
+endure	indicative	past	perfective	endurai	ɑ̃.dy.ʁe	enduras	ɑ̃.dy.ʁa	endura	ɑ̃.dy.ʁa	endurâmes	ɑ̃.dy.ʁam	endurâtes	ɑ̃.dy.ʁat	endurèrent	ɑ̃.dy.ʁɛʁ
+endure	indicative	future	simple	endurerai	ɑ̃.dy.ʁə.ʁe	endureras	ɑ̃.dy.ʁə.ʁa	endurera	ɑ̃.dy.ʁə.ʁa	endurerons	ɑ̃.dy.ʁə.ʁɔ̃	endurerez	ɑ̃.dy.ʁə.ʁe	endureront	ɑ̃.dy.ʁə.ʁɔ̃
+endure	conditional			endurerais	ɑ̃.dy.ʁə.ʁɛ	endurerais	ɑ̃.dy.ʁə.ʁɛ	endurerait	ɑ̃.dy.ʁə.ʁɛ	endurerions	ɑ̃.dy.ʁə.ʁjɔ̃	endureriez	ɑ̃.dy.ʁə.ʁje	endureraient	ɑ̃.dy.ʁə.ʁɛ
+endure	subjunctive	present	simple	endure	ɑ̃.dyʁ	endures	ɑ̃.dyʁ	endure	ɑ̃.dyʁ	endurions	ɑ̃.dy.ʁjɔ̃	enduriez	ɑ̃.dy.ʁje	endurent	ɑ̃.dyʁ
+endure	subjunctive	past	imperfective	endurasse	ɑ̃.dy.ʁas	endurasses	ɑ̃.dy.ʁas	endurât	ɑ̃.dy.ʁa	endurassions	ɑ̃.dy.ʁa.sjɔ̃	endurassiez	ɑ̃.dy.ʁa.sje	endurassent	ɑ̃.dy.ʁas
+endure	imperative			—		endure	ɑ̃.dyʁ	—		endurons	ɑ̃.dy.ʁɔ̃	endurez	ɑ̃.dy.ʁe	—	
+fall	indicative	present	simple	tombe	tɔ̃b	tombes	tɔ̃b	tombe	tɔ̃b	tombons	tɔ̃.bɔ̃	tombez	tɔ̃.be	tombent	tɔ̃b
+fall	indicative	past	imperfective	tombais	tɔ̃.bɛ	tombais	tɔ̃.bɛ	tombait	tɔ̃.bɛ	tombions	tɔ̃.bjɔ̃	tombiez	tɔ̃.bje	tombaient	tɔ̃.bɛ
+fall	indicative	past	perfective	tombai	tɔ̃.be	tombas	tɔ̃.ba	tomba	tɔ̃.ba	tombâmes	tɔ̃.bam	tombâtes	tɔ̃.bat	tombèrent	tɔ̃.bɛʁ
+fall	indicative	future	simple	tomberai	tɔ̃.bʁe	tomberas	tɔ̃.bʁa	tombera	tɔ̃.bʁa	tomberons	tɔ̃.bʁɔ̃	tomberez	tɔ̃.bʁe	tomberont	tɔ̃.bʁɔ̃
+fall	conditional			tomberais	tɔ̃.bʁɛ	tomberais	tɔ̃.bʁɛ	tomberait	tɔ̃.bʁɛ	tomberions	tɔ̃.bə.ʁjɔ̃	tomberiez	tɔ̃.bə.ʁje	tomberaient	tɔ̃.bʁɛ
+fall	subjunctive	present	simple	tombe	tɔ̃b	tombes	tɔ̃b	tombe	tɔ̃b	tombions	tɔ̃.bjɔ̃	tombiez	tɔ̃.bje	tombent	tɔ̃b
+fall	subjunctive	past	imperfective	tombasse	tɔ̃.bas	tombasses	tɔ̃.bas	tombât	tɔ̃.ba	tombassions	tɔ̃.ba.sjɔ̃	tombassiez	tɔ̃.ba.sje	tombassent	tɔ̃.bas
+fall	imperative			—		tombe	tɔ̃b	—		tombons	tɔ̃.bɔ̃	tombez	tɔ̃.be	—	
+fly	indicative	present	simple	vole	vɔl	voles	vɔl	vole	vɔl	volons	vɔ.lɔ̃	volez	vɔ.le	volent	vɔl
+fly	indicative	past	imperfective	volais	vɔ.lɛ	volais	vɔ.lɛ	volait	vɔ.lɛ	volions	vɔ.ljɔ̃	voliez	vɔ.lje	volaient	vɔ.lɛ
+fly	indicative	past	perfective	volai	vɔ.le	volas	vɔ.la	vola	vɔ.la	volâmes	vɔ.lam	volâtes	vɔ.lat	volèrent	vɔ.lɛʁ
+fly	indicative	future	simple	volerai	vɔl.ʁe	voleras	vɔl.ʁa	volera	vɔl.ʁa	volerons	vɔl.ʁɔ̃	volerez	vɔl.ʁe	voleront	vɔl.ʁɔ̃
+fly	conditional			volerais	vɔl.ʁɛ	volerais	vɔl.ʁɛ	volerait	vɔl.ʁɛ	volerions	vɔ.lə.ʁjɔ̃	voleriez	vɔ.lə.ʁje	voleraient	vɔl.ʁɛ
+fly	subjunctive	present	simple	vole	vɔl	voles	vɔl	vole	vɔl	volions	vɔ.ljɔ̃	voliez	vɔ.lje	volent	vɔl
+fly	subjunctive	past	imperfective	volasse	vɔ.las	volasses	vɔ.las	volât	vɔ.la	volassions	vɔ.la.sjɔ̃	volassiez	vɔ.la.sje	volassent	vɔ.las
+fly	imperative			—		vole	vɔl	—		volons	vɔ.lɔ̃	volez	vɔ.le	—	
+hear	indicative	present	simple	entends	ɑ̃.tɑ̃	entends	ɑ̃.tɑ̃	entend	ɑ̃.tɑ̃	entendons	ɑ̃.tɑ̃.dɔ̃	entendez	ɑ̃.tɑ̃.de	entendent	ɑ̃.tɑ̃d
+hear	indicative	past	imperfective	entendais	ɑ̃.tɑ̃.dɛ	entendais	ɑ̃.tɑ̃.dɛ	entendait	ɑ̃.tɑ̃.dɛ	entendions	ɑ̃.tɑ̃.djɔ̃	entendiez	ɑ̃.tɑ̃.dje	entendaient	ɑ̃.tɑ̃.dɛ
+hear	indicative	past	perfective	entendis	ɑ̃.tɑ̃.di	entendis	ɑ̃.tɑ̃.di	entendit	ɑ̃.tɑ̃.di	entendîmes	ɑ̃.tɑ̃.dim	entendîtes	ɑ̃.tɑ̃.dit	entendirent	ɑ̃.tɑ̃.diʁ
+hear	indicative	future	simple	entendrai	ɑ̃.tɑ̃.dʁe	entendras	ɑ̃.tɑ̃.dʁa	entendra	ɑ̃.tɑ̃.dʁa	entendrons	ɑ̃.tɑ̃.dʁɔ̃	entendrez	ɑ̃.tɑ̃.dʁe	entendront	ɑ̃.tɑ̃.dʁɔ̃
+hear	conditional			entendrais	ɑ̃.tɑ̃.dʁɛ	entendrais	ɑ̃.tɑ̃.dʁɛ	entendrait	ɑ̃.tɑ̃.dʁɛ	entendrions	ɑ̃.tɑ̃.dʁi.jɔ̃	entendriez	ɑ̃.tɑ̃.dʁi.je	entendraient	ɑ̃.tɑ̃.dʁɛ
+hear	subjunctive	present	simple	entende	ɑ̃.tɑ̃d	entendes	ɑ̃.tɑ̃d	entende	ɑ̃.tɑ̃d	entendions	ɑ̃.tɑ̃.djɔ̃	entendiez	ɑ̃.tɑ̃.dje	entendent	ɑ̃.tɑ̃d
+hear	subjunctive	past	imperfective	entendisse	ɑ̃.tɑ̃.dis	entendisses	ɑ̃.tɑ̃.dis	entendît	ɑ̃.tɑ̃.di	entendissions	ɑ̃.tɑ̃.di.sjɔ̃	entendissiez	ɑ̃.tɑ̃.di.sje	entendissent	ɑ̃.tɑ̃.dis
+hear	imperative			—		entends	ɑ̃.tɑ̃	—		entendons	ɑ̃.tɑ̃.dɔ̃	entendez	ɑ̃.tɑ̃.de	—	
+occupy	indicative	present	simple	occupe	ɔ.kyp	occupes	ɔ.kyp	occupe	ɔ.kyp	occupons	ɔ.ky.pɔ̃	occupez	ɔ.ky.pe	occupent	ɔ.kyp
+occupy	indicative	past	imperfective	occupais	ɔ.ky.pɛ	occupais	ɔ.ky.pɛ	occupait	ɔ.ky.pɛ	occupions	ɔ.ky.pjɔ̃	occupiez	ɔ.ky.pje	occupaient	ɔ.ky.pɛ
+occupy	indicative	past	perfective	occupai	ɔ.ky.pe	occupas	ɔ.ky.pa	occupa	ɔ.ky.pa	occupâmes	ɔ.ky.pam	occupâtes	ɔ.ky.pat	occupèrent	ɔ.ky.pɛʁ
+occupy	indicative	future	simple	occuperai	ɔ.ky.pʁe	occuperas	ɔ.ky.pʁa	occupera	ɔ.ky.pʁa	occuperons	ɔ.ky.pʁɔ̃	occuperez	ɔ.ky.pʁe	occuperont	ɔ.ky.pʁɔ̃
+occupy	conditional			occuperais	ɔ.ky.pʁɛ	occuperais	ɔ.ky.pʁɛ	occuperait	ɔ.ky.pʁɛ	occuperions	ɔ.ky.pə.ʁjɔ̃	occuperiez	ɔ.ky.pə.ʁje	occuperaient	ɔ.ky.pʁɛ
+occupy	subjunctive	present	simple	occupe	ɔ.kyp	occupes	ɔ.kyp	occupe	ɔ.kyp	occupions	ɔ.ky.pjɔ̃	occupiez	ɔ.ky.pje	occupent	ɔ.kyp
+occupy	subjunctive	past	imperfective	occupasse	ɔ.ky.pas	occupasses	ɔ.ky.pas	occupât	ɔ.ky.pa	occupassions	ɔ.ky.pa.sjɔ̃	occupassiez	ɔ.ky.pa.sje	occupassent	ɔ.ky.pas
+occupy	imperative			—		occupe	ɔ.kyp	—		occupons	ɔ.ky.pɔ̃	occupez	ɔ.ky.pe	—	
+resemble	indicative	present	simple	ressemble	ʁə.sɑ̃bl	ressembles	ʁə.sɑ̃bl	ressemble	ʁə.sɑ̃bl	ressemblons	ʁə.sɑ̃.blɔ̃	ressemblez	ʁə.sɑ̃.ble	ressemblent	ʁə.sɑ̃bl
+resemble	indicative	past	imperfective	ressemblais	ʁə.sɑ̃.blɛ	ressemblais	ʁə.sɑ̃.blɛ	ressemblait	ʁə.sɑ̃.blɛ	ressemblions	ʁə.sɑ̃.bli.jɔ̃	ressembliez	ʁə.sɑ̃.bli.je	ressemblaient	ʁə.sɑ̃.blɛ
+resemble	indicative	past	perfective	ressemblai	ʁə.sɑ̃.ble	ressemblas	ʁə.sɑ̃.bla	ressembla	ʁə.sɑ̃.bla	ressemblâmes	ʁə.sɑ̃.blam	ressemblâtes	ʁə.sɑ̃.blat	ressemblèrent	ʁə.sɑ̃.blɛʁ
+resemble	indicative	future	simple	ressemblerai	ʁə.sɑ̃.blə.ʁe	ressembleras	ʁə.sɑ̃.blə.ʁa	ressemblera	ʁə.sɑ̃.blə.ʁa	ressemblerons	ʁə.sɑ̃.blə.ʁɔ̃	ressemblerez	ʁə.sɑ̃.blə.ʁe	ressembleront	ʁə.sɑ̃.blə.ʁɔ̃
+resemble	conditional			ressemblerais	ʁə.sɑ̃.blə.ʁɛ	ressemblerais	ʁə.sɑ̃.blə.ʁɛ	ressemblerait	ʁə.sɑ̃.blə.ʁɛ	ressemblerions	ʁə.sɑ̃.blə.ʁjɔ̃	ressembleriez	ʁə.sɑ̃.blə.ʁje	ressembleraient	ʁə.sɑ̃.blə.ʁɛ
+resemble	subjunctive	present	simple	ressemble	ʁə.sɑ̃bl	ressembles	ʁə.sɑ̃bl	ressemble	ʁə.sɑ̃bl	ressemblions	ʁə.sɑ̃.bli.jɔ̃	ressembliez	ʁə.sɑ̃.bli.je	ressemblent	ʁə.sɑ̃bl
+resemble	subjunctive	past	imperfective	ressemblasse	ʁə.sɑ̃.blas	ressemblasses	ʁə.sɑ̃.blas	ressemblât	ʁə.sɑ̃.bla	ressemblassions	ʁə.sɑ̃.bla.sjɔ̃	ressemblassiez	ʁə.sɑ̃.bla.sje	ressemblassent	ʁə.sɑ̃.blas
+resemble	imperative			—		ressemble	ʁə.sɑ̃bl	—		ressemblons	ʁə.sɑ̃.blɔ̃	ressemblez	ʁə.sɑ̃.ble	—	
+rest	indicative	present	simple	repose	ʁə.poz	reposes	ʁə.poz	repose	ʁə.poz	reposons	ʁə.po.zɔ̃	reposez	ʁə.po.ze	reposent	ʁə.poz
+rest	indicative	past	imperfective	reposais	ʁə.po.zɛ	reposais	ʁə.po.zɛ	reposait	ʁə.po.zɛ	reposions	ʁə.po.zjɔ̃	reposiez	ʁə.po.zje	reposaient	ʁə.po.zɛ
+rest	indicative	past	perfective	reposai	ʁə.po.ze	reposas	ʁə.po.za	reposa	ʁə.po.za	reposâmes	ʁə.po.zam	reposâtes	ʁə.po.zat	reposèrent	ʁə.po.zɛʁ
+rest	indicative	future	simple	reposerai	ʁə.poz.ʁe	reposeras	ʁə.poz.ʁa	reposera	ʁə.poz.ʁa	reposerons	ʁə.poz.ʁɔ̃	reposerez	ʁə.poz.ʁe	reposeront	ʁə.poz.ʁɔ̃
+rest	conditional			reposerais	ʁə.poz.ʁɛ	reposerais	ʁə.poz.ʁɛ	reposerait	ʁə.poz.ʁɛ	reposerions	ʁə.po.zə.ʁjɔ̃	reposeriez	ʁə.po.zə.ʁje	reposeraient	ʁə.poz.ʁɛ
+rest	subjunctive	present	simple	repose	ʁə.poz	reposes	ʁə.poz	repose	ʁə.poz	reposions	ʁə.po.zjɔ̃	reposiez	ʁə.po.zje	reposent	ʁə.poz
+rest	subjunctive	past	imperfective	reposasse	ʁə.po.zas	reposasses	ʁə.po.zas	reposât	ʁə.po.za	reposassions	ʁə.po.za.sjɔ̃	reposassiez	ʁə.po.za.sje	reposassent	ʁə.po.zas
+rest	imperative			—		repose	ʁə.poz	—		reposons	ʁə.po.zɔ̃	reposez	ʁə.po.ze	—	
+see	indicative	present	simple	vois	vwa	vois	vwa	voit	vwa	voyons	vwa.jɔ̃	voyez	vwa.je	voient	vwa
+see	indicative	past	imperfective	voyais	vwa.jɛ	voyais	vwa.jɛ	voyait	vwa.jɛ	voyions	vwaj.jɔ̃	voyiez	vwaj.je	voyaient	vwa.jɛ
+see	indicative	past	perfective	vis	vi	vis	vi	vit	vi	vîmes	vim	vîtes	vit	virent	viʁ
+see	indicative	future	simple	verrai	vɛ.ʁe | ve.ʁe	verras	vɛ.ʁa | ve.ʁa	verra	vɛ.ʁa | ve.ʁa	verrons	vɛ.ʁɔ̃ | ve.ʁɔ̃	verrez	vɛ.ʁe | ve.ʁe	verront	vɛ.ʁɔ̃ | ve.ʁɔ̃
+see	conditional			verrais	vɛ.ʁɛ | ve.ʁɛ	verrais	vɛ.ʁɛ | ve.ʁɛ	verrait	vɛ.ʁɛ | ve.ʁɛ	verrions	vɛ.ʁjɔ̃ | ve.ʁjɔ̃	verriez	vɛ.ʁje | ve.ʁje	verraient	vɛ.ʁɛ | ve.ʁɛ
+see	subjunctive	present	simple	voie	vwa	voies	vwa	voie	vwa	voyions	vwaj.jɔ̃	voyiez	vwaj.je	voient	vwa
+see	subjunctive	past	imperfective	visse	vis	visses	vis	vît	vi	vissions	vi.sjɔ̃	vissiez	vi.sje	vissent	vis
+see	imperative			—		vois	vwa	—		voyons	vwa.jɔ̃	voyez	vwa.je	—	
+show	indicative	present	simple	montre	mɔ̃tʁ	montres	mɔ̃tʁ	montre	mɔ̃tʁ	montrons	mɔ̃.tʁɔ̃	montrez	mɔ̃.tʁe	montrent	mɔ̃tʁ
+show	indicative	past	imperfective	montrais	mɔ̃.tʁɛ	montrais	mɔ̃.tʁɛ	montrait	mɔ̃.tʁɛ	montrions	mɔ̃.tʁi.jɔ̃	montriez	mɔ̃.tʁi.je	montraient	mɔ̃.tʁɛ
+show	indicative	past	perfective	montrai	mɔ̃.tʁe	montras	mɔ̃.tʁa	montra	mɔ̃.tʁa	montrâmes	mɔ̃.tʁam	montrâtes	mɔ̃.tʁat	montrèrent	mɔ̃.tʁɛʁ
+show	indicative	future	simple	montrerai	mɔ̃.tʁə.ʁe	montreras	mɔ̃.tʁə.ʁa	montrera	mɔ̃.tʁə.ʁa	montrerons	mɔ̃.tʁə.ʁɔ̃	montrerez	mɔ̃.tʁə.ʁe	montreront	mɔ̃.tʁə.ʁɔ̃
+show	conditional			montrerais	mɔ̃.tʁə.ʁɛ	montrerais	mɔ̃.tʁə.ʁɛ	montrerait	mɔ̃.tʁə.ʁɛ	montrerions	mɔ̃.tʁə.ʁjɔ̃	montreriez	mɔ̃.tʁə.ʁje	montreraient	mɔ̃.tʁə.ʁɛ
+show	subjunctive	present	simple	montre	mɔ̃tʁ	montres	mɔ̃tʁ	montre	mɔ̃tʁ	montrions	mɔ̃.tʁi.jɔ̃	montriez	mɔ̃.tʁi.je	montrent	mɔ̃tʁ
+show	subjunctive	past	imperfective	montrasse	mɔ̃.tʁas	montrasses	mɔ̃.tʁas	montrât	mɔ̃.tʁa	montrassions	mɔ̃.tʁa.sjɔ̃	montrassiez	mɔ̃.tʁa.sje	montrassent	mɔ̃.tʁas
+show	imperative			—		montre	mɔ̃tʁ	—		montrons	mɔ̃.tʁɔ̃	montrez	mɔ̃.tʁe	—	
+startle	indicative	present	simple	surprends	syʁ.pʁɑ̃	surprends	syʁ.pʁɑ̃	surprend	syʁ.pʁɑ̃	surprenons	syʁ.pʁə.nɔ̃	surprenez	syʁ.pʁə.ne	surprennent	syʁ.pʁɛn
+startle	indicative	past	imperfective	surprenais	syʁ.pʁə.nɛ	surprenais	syʁ.pʁə.nɛ	surprenait	syʁ.pʁə.nɛ	surprenions	syʁ.pʁə.njɔ̃	surpreniez	syʁ.pʁə.nje	surprenaient	syʁ.pʁə.nɛ
+startle	indicative	past	perfective	surpris	syʁ.pʁi	surpris	syʁ.pʁi	surprit	syʁ.pʁi	surprîmes	syʁ.pʁim	surprîtes	syʁ.pʁit	surprirent	syʁ.pʁiʁ
+startle	indicative	future	simple	surprendrai	syʁ.pʁɑ̃.dʁe	surprendras	syʁ.pʁɑ̃.dʁa	surprendra	syʁ.pʁɑ̃.dʁa	surprendrons	syʁ.pʁɑ̃.dʁɔ̃	surprendrez	syʁ.pʁɑ̃.dʁe	surprendront	syʁ.pʁɑ̃.dʁɔ̃
+startle	conditional			surprendrais	syʁ.pʁɑ̃.dʁɛ	surprendrais	syʁ.pʁɑ̃.dʁɛ	surprendrait	syʁ.pʁɑ̃.dʁɛ	surprendrions	syʁ.pʁɑ̃.dʁi.jɔ̃	surprendriez	syʁ.pʁɑ̃.dʁi.je	surprendraient	syʁ.pʁɑ̃.dʁɛ
+startle	subjunctive	present	simple	surprenne	syʁ.pʁɛn	surprennes	syʁ.pʁɛn	surprenne	syʁ.pʁɛn	surprenions	syʁ.pʁə.njɔ̃	surpreniez	syʁ.pʁə.nje	surprennent	syʁ.pʁɛn
+startle	subjunctive	past	imperfective	surprisse	syʁ.pʁis	surprisses	syʁ.pʁis	surprît	syʁ.pʁi	surprissions	syʁ.pʁi.sjɔ̃	surprissiez	syʁ.pʁi.sje	surprissent	syʁ.pʁis
+startle	imperative			—		surprends	syʁ.pʁɑ̃	—		surprenons	syʁ.pʁə.nɔ̃	surprenez	syʁ.pʁə.ne	—	
+swim	indicative	present	simple	nage	naʒ	nages	naʒ	nage	naʒ	nageons	na.ʒɔ̃	nagez	na.ʒe	nagent	naʒ
+swim	indicative	past	imperfective	nageais	na.ʒɛ	nageais	na.ʒɛ	nageait	na.ʒɛ	nagions	na.ʒjɔ̃	nagiez	na.ʒje	nageaient	na.ʒɛ
+swim	indicative	past	perfective	nageai	na.ʒe	nageas	na.ʒa	nagea	na.ʒa	nageâmes	na.ʒam	nageâtes	na.ʒat	nagèrent	na.ʒɛʁ
+swim	indicative	future	simple	nagerai	naʒ.ʁe	nageras	naʒ.ʁa	nagera	naʒ.ʁa	nagerons	naʒ.ʁɔ̃	nagerez	naʒ.ʁe	nageront	naʒ.ʁɔ̃
+swim	conditional			nagerais	naʒ.ʁɛ	nagerais	naʒ.ʁɛ	nagerait	naʒ.ʁɛ	nagerions	na.ʒə.ʁjɔ̃	nageriez	na.ʒə.ʁje	nageraient	naʒ.ʁɛ
+swim	subjunctive	present	simple	nage	naʒ	nages	naʒ	nage	naʒ	nagions	na.ʒjɔ̃	nagiez	na.ʒje	nagent	naʒ
+swim	subjunctive	past	imperfective	nageasse	na.ʒas	nageasses	na.ʒas	nageât	na.ʒa	nageassions	na.ʒa.sjɔ̃	nageassiez	na.ʒa.sje	nageassent	na.ʒas
+swim	imperative			—		nage	naʒ	—		nageons	na.ʒɔ̃	nagez	na.ʒe	—	
+walk	indicative	present	simple	marche	maʁʃ	marches	maʁʃ	marche	maʁʃ	marchons	maʁ.ʃɔ̃	marchez	maʁ.ʃe	marchent	maʁʃ
+walk	indicative	past	imperfective	marchais	maʁ.ʃɛ	marchais	maʁ.ʃɛ	marchait	maʁ.ʃɛ	marchions	maʁ.ʃjɔ̃	marchiez	maʁ.ʃje	marchaient	maʁ.ʃɛ
+walk	indicative	past	perfective	marchai	maʁ.ʃe	marchas	maʁ.ʃa	marcha	maʁ.ʃa	marchâmes	maʁ.ʃam	marchâtes	maʁ.ʃat	marchèrent	maʁ.ʃɛʁ
+walk	indicative	future	simple	marcherai	maʁ.ʃə.ʁe	marcheras	maʁ.ʃə.ʁa	marchera	maʁ.ʃə.ʁa	marcherons	maʁ.ʃə.ʁɔ̃	marcherez	maʁ.ʃə.ʁe	marcheront	maʁ.ʃə.ʁɔ̃
+walk	conditional			marcherais	maʁ.ʃə.ʁɛ	marcherais	maʁ.ʃə.ʁɛ	marcherait	maʁ.ʃə.ʁɛ	marcherions	maʁ.ʃə.ʁjɔ̃	marcheriez	maʁ.ʃə.ʁje	marcheraient	maʁ.ʃə.ʁɛ
+walk	subjunctive	present	simple	marche	maʁʃ	marches	maʁʃ	marche	maʁʃ	marchions	maʁ.ʃjɔ̃	marchiez	maʁ.ʃje	marchent	maʁʃ
+walk	subjunctive	past	imperfective	marchasse	maʁ.ʃas	marchasses	maʁ.ʃas	marchât	maʁ.ʃa	marchassions	maʁ.ʃa.sjɔ̃	marchassiez	maʁ.ʃa.sje	marchassent	maʁ.ʃas
+walk	imperative			—		marche	maʁʃ	—		marchons	maʁ.ʃɔ̃	marchez	maʁ.ʃe	—	
+warm	indicative	present	simple	chauffe	ʃof	chauffes	ʃof	chauffe	ʃof	chauffons	ʃo.fɔ̃	chauffez	ʃo.fe	chauffent	ʃof
+warm	indicative	past	imperfective	chauffais	ʃo.fɛ	chauffais	ʃo.fɛ	chauffait	ʃo.fɛ	chauffions	ʃo.fjɔ̃	chauffiez	ʃo.fje	chauffaient	ʃo.fɛ
+warm	indicative	past	perfective	chauffai	ʃo.fe	chauffas	ʃo.fa	chauffa	ʃo.fa	chauffâmes	ʃo.fam	chauffâtes	ʃo.fat	chauffèrent	ʃo.fɛʁ
+warm	indicative	future	simple	chaufferai	ʃo.fʁe	chaufferas	ʃo.fʁa	chauffera	ʃo.fʁa	chaufferons	ʃo.fʁɔ̃	chaufferez	ʃo.fʁe	chaufferont	ʃo.fʁɔ̃
+warm	conditional			chaufferais	ʃo.fʁɛ	chaufferais	ʃo.fʁɛ	chaufferait	ʃo.fʁɛ	chaufferions	ʃo.fə.ʁjɔ̃	chaufferiez	ʃo.fə.ʁje	chaufferaient	ʃo.fʁɛ
+warm	subjunctive	present	simple	chauffe	ʃof	chauffes	ʃof	chauffe	ʃof	chauffions	ʃo.fjɔ̃	chauffiez	ʃo.fje	chauffent	ʃof
+warm	subjunctive	past	imperfective	chauffasse	ʃo.fas	chauffasses	ʃo.fas	chauffât	ʃo.fa	chauffassions	ʃo.fa.sjɔ̃	chauffassiez	ʃo.fa.sje	chauffassent	ʃo.fas
+warm	imperative			—		chauffe	ʃof	—		chauffons	ʃo.fɔ̃	chauffez	ʃo.fe	—	
+watch	indicative	present	simple	regarde	ʁə.ɡaʁd	regardes	ʁə.ɡaʁd	regarde	ʁə.ɡaʁd	regardons	ʁə.ɡaʁ.dɔ̃	regardez	ʁə.ɡaʁ.de	regardent	ʁə.ɡaʁd
+watch	indicative	past	imperfective	regardais	ʁə.ɡaʁ.dɛ	regardais	ʁə.ɡaʁ.dɛ	regardait	ʁə.ɡaʁ.dɛ	regardions	ʁə.ɡaʁ.djɔ̃	regardiez	ʁə.ɡaʁ.dje	regardaient	ʁə.ɡaʁ.dɛ
+watch	indicative	past	perfective	regardai	ʁə.ɡaʁ.de	regardas	ʁə.ɡaʁ.da	regarda	ʁə.ɡaʁ.da	regardâmes	ʁə.ɡaʁ.dam	regardâtes	ʁə.ɡaʁ.dat	regardèrent	ʁə.ɡaʁ.dɛʁ
+watch	indicative	future	simple	regarderai	ʁə.ɡaʁ.də.ʁe	regarderas	ʁə.ɡaʁ.də.ʁa	regardera	ʁə.ɡaʁ.də.ʁa	regarderons	ʁə.ɡaʁ.də.ʁɔ̃	regarderez	ʁə.ɡaʁ.də.ʁe	regarderont	ʁə.ɡaʁ.də.ʁɔ̃
+watch	conditional			regarderais	ʁə.ɡaʁ.də.ʁɛ	regarderais	ʁə.ɡaʁ.də.ʁɛ	regarderait	ʁə.ɡaʁ.də.ʁɛ	regarderions	ʁə.ɡaʁ.də.ʁjɔ̃	regarderiez	ʁə.ɡaʁ.də.ʁje	regarderaient	ʁə.ɡaʁ.də.ʁɛ
+watch	subjunctive	present	simple	regarde	ʁə.ɡaʁd	regardes	ʁə.ɡaʁd	regarde	ʁə.ɡaʁd	regardions	ʁə.ɡaʁ.djɔ̃	regardiez	ʁə.ɡaʁ.dje	regardent	ʁə.ɡaʁd
+watch	subjunctive	past	imperfective	regardasse	ʁə.ɡaʁ.das	regardasses	ʁə.ɡaʁ.das	regardât	ʁə.ɡaʁ.da	regardassions	ʁə.ɡaʁ.da.sjɔ̃	regardassiez	ʁə.ɡaʁ.da.sje	regardassent	ʁə.ɡaʁ.das
+watch	imperative			—		regarde	ʁə.ɡaʁd	—		regardons	ʁə.ɡaʁ.dɔ̃	regardez	ʁə.ɡaʁ.de	—	
+work	indicative	present	simple	travaille	tʁa.vaj	travailles	tʁa.vaj	travaille	tʁa.vaj	travaillons	tʁa.va.jɔ̃	travaillez	tʁa.va.je	travaillent	tʁa.vaj
+work	indicative	past	imperfective	travaillais	tʁa.va.jɛ	travaillais	tʁa.va.jɛ	travaillait	tʁa.va.jɛ	travaillions	tʁa.vaj.jɔ̃	travailliez	tʁa.vaj.je	travaillaient	tʁa.va.jɛ
+work	indicative	past	perfective	travaillai	tʁa.va.je	travaillas	tʁa.va.ja	travailla	tʁa.va.ja	travaillâmes	tʁa.va.jam	travaillâtes	tʁa.va.jat	travaillèrent	tʁa.va.jɛʁ
+work	indicative	future	simple	travaillerai	tʁa.vaj.ʁe	travailleras	tʁa.vaj.ʁa	travaillera	tʁa.vaj.ʁa	travaillerons	tʁa.vaj.ʁɔ̃	travaillerez	tʁa.vaj.ʁe	travailleront	tʁa.vaj.ʁɔ̃
+work	conditional			travaillerais	tʁa.vaj.ʁɛ	travaillerais	tʁa.vaj.ʁɛ	travaillerait	tʁa.vaj.ʁɛ	travaillerions	tʁa.va.jə.ʁjɔ̃	travailleriez	tʁa.va.jə.ʁje	travailleraient	tʁa.vaj.ʁɛ
+work	subjunctive	present	simple	travaille	tʁa.vaj	travailles	tʁa.vaj	travaille	tʁa.vaj	travaillions	tʁa.vaj.jɔ̃	travailliez	tʁa.vaj.je	travaillent	tʁa.vaj
+work	subjunctive	past	imperfective	travaillasse	tʁa.va.jas	travaillasses	tʁa.va.jas	travaillât	tʁa.va.ja	travaillassions	tʁa.va.ja.sjɔ̃	travaillassiez	tʁa.va.ja.sje	travaillassent	tʁa.va.jas
+work	imperative			—		travaille	tʁa.vaj	—		travaillons	tʁa.va.jɔ̃	travaillez	tʁa.va.je	—	
+have	indicative	present	simple	ai	e	as	a	a	a	avons	a.vɔ̃	avez	a.ve	ont	ɔ̃
+have	indicative	past	imperfective	avais	a.vɛ	avais	a.vɛ	avait	a.vɛ	avions	a.vjɔ̃	aviez	a.vje	avaient	a.vɛ
+have	indicative	past	perfective	eus	y	eus	y	eut	y	eûmes	ym	eûtes	yt	eurent	yʁ
+have	indicative	future	simple	aurai	ɔ.ʁe | o.ʁe	auras	ɔ.ʁa | o.ʁa	aura	ɔ.ʁa | o.ʁa	aurons	ɔ.ʁɔ̃ | o.ʁɔ̃	aurez	ɔ.ʁe | o.ʁe	auront	ɔ.ʁɔ̃ | o.ʁɔ̃
+have	conditional			aurais	ɔ.ʁɛ | o.ʁɛ	aurais	ɔ.ʁɛ | o.ʁɛ	aurait	ɔ.ʁɛ | o.ʁɛ	aurions	ɔ.ʁjɔ̃ | o.ʁjɔ̃	auriez	ɔ.ʁje | o.ʁje	auraient	ɔ.ʁɛ | o.ʁɛ
+have	subjunctive	present	simple	aie	ɛ	aies	ɛ	ait	ɛ	ayons	ɛ.jɔ̃ | e.jɔ̃	ayez	ɛ.je | e.je	aient	ɛ
+have	subjunctive	past	imperfective	eusse	ys	eusses	ys	eût	y	eussions	y.sjɔ̃	eussiez	y.sje	eussent	ys
+have	imperative			—		aie	ɛ	—		ayons	ɛ.jɔ̃ | e.jɔ̃	ayez	ɛ.je | e.je	—	
+be	indicative	present	simple	suis	sɥi	es	ɛ	est	ɛ	sommes	sɔm	êtes	ɛt	sont	sɔ̃
+be	indicative	past	imperfective	étais	e.tɛ	étais	e.tɛ	était	e.tɛ	étions	e.tjɔ̃	étiez	e.tje	étaient	e.tɛ
+be	indicative	past	perfective	fus	fy	fus	fy	fut	fy	fûmes	fym	fûtes	fyt	furent	fyʁ
+be	indicative	future	simple	serai	sə.ʁe	seras	sə.ʁa	sera	sə.ʁa	serons	sə.ʁɔ̃	serez	sə.ʁe	seront	sə.ʁɔ̃
+be	conditional			serais	sə.ʁɛ	serais	sə.ʁɛ	serait	sə.ʁɛ	serions	sə.ʁjɔ̃	seriez	sə.ʁje	seraient	sə.ʁɛ
+be	subjunctive	present	simple	sois	swa	sois	swa	soit	swa	soyons	swa.jɔ̃	soyez	swa.je	soient	swa
+be	subjunctive	past	imperfective	fusse	fys	fusses	fys	fût	fy	fussions	fy.sjɔ̃	fussiez	fy.sje	fussent	fys
+be	imperative			—		sois	swa	—		soyons	swa.jɔ̃	soyez	swa.je	—	
+go	indicative	present	simple	vais	vɛ	vas	va	va	va	allons	a.lɔ̃	allez	a.le	vont	vɔ̃
+go	indicative	past	imperfective	allais	a.lɛ	allais	a.lɛ	allait	a.lɛ	allions	a.ljɔ̃	alliez	a.lje	allaient	a.lɛ
+go	indicative	past	perfective	allai	ale	allas	ala	alla	ala	allâmes	alam	allâtes	alat	allèrent	alɛʁ
+go	indicative	future	simple	irai	i.ʁe	iras	i.ʁa	ira	i.ʁa	irons	i.ʁɔ̃	irez	i.ʁe	iront	i.ʁɔ̃
+go	conditional			irais	i.ʁɛ	irais	i.ʁɛ	irait	i.ʁɛ	irions	i.ʁjɔ̃	iriez	i.ʁje	iraient	i.ʁɛ
+go	subjunctive	present	simple	aille	aj	ailles	aj	aille	aj	allions	a.ljɔ̃	alliez	a.lje	aillent	aj
+go	subjunctive	past	imperfective	allasse	alas	allasses	alas	allât	ala	allassions	ala.sjɔ̃	allassiez	ala.sje	allassent	alas
+go	imperative			—		va	va	—		allons	a.lɔ̃	allez	a.le	—	
+speak	indicative	present	simple	parle	paʁl2	parles	paʁl	parle	paʁl	parlons	paʁ.lɔ̃	parlez	paʁ.le	parlent	paʁl
+speak	indicative	past	imperfective	parlais	paʁ.lɛ	parlais	paʁ.lɛ	parlait	paʁ.lɛ	parlions	paʁ.ljɔ̃	parliez	paʁ.lje	parlaient	paʁ.lɛ
+speak	indicative	past	perfective	parlai	paʁ.le	parlas	paʁ.la	parla	paʁ.la	parlâmes	paʁ.lam	parlâtes	paʁ.lat	parlèrent	paʁ.lɛʁ
+speak	indicative	future	simple	parlerai	paʁ.lə.ʁe	parleras	paʁ.lə.ʁa	parlera	paʁ.lə.ʁa	parlerons	paʁ.lə.ʁɔ̃	parlerez	paʁ.lə.ʁe	parleront	paʁ.lə.ʁɔ̃
+speak	conditional			parlerais	paʁ.lə.ʁɛ	parlerais	paʁ.lə.ʁɛ	parlerait	paʁ.lə.ʁɛ	parlerions	paʁ.lə.ʁjɔ̃	parleriez	paʁ.lə.ʁje	parleraient	paʁ.lə.ʁɛ
+speak	subjunctive	present	simple	parle	paʁl2	parles	paʁl	parle	paʁl	parlions	paʁ.ljɔ̃	parliez	paʁ.lje	parlent	paʁl
+speak	subjunctive	past	imperfective	parlasse	paʁ.las	parlasses	paʁ.las	parlât	paʁ.la	parlassions	paʁ.la.sjɔ̃	parlassiez	paʁ.la.sje	parlassent	paʁ.las
+speak	imperative			—		parle	paʁl	—		parlons	paʁ.lɔ̃	parlez	paʁ.le	—	
+speak			2 parlé when inverted.	2 parlé when inverted.		2 parlé when inverted.		2 parlé when inverted.		2 parlé when inverted.		2 parlé when inverted.		2 parlé when inverted.	
+choose	indicative	present	simple	choisis	ʃwa.zi	choisis	ʃwa.zi	choisit	ʃwa.zi	choisissons	ʃwa.zi.sɔ̃	choisissez	ʃwa.zi.se	choisissent	ʃwa.zis
+choose	indicative	past	imperfective	choisissais	ʃwa.zi.sɛ	choisissais	ʃwa.zi.sɛ	choisissait	ʃwa.zi.sɛ	choisissions	ʃwa.zi.sjɔ̃	choisissiez	ʃwa.zi.sje	choisissaient	ʃwa.zi.sɛ
+choose	indicative	past	perfective	choisis	ʃwa.zi	choisis	ʃwa.zi	choisit	ʃwa.zi	choisîmes	ʃwa.zim	choisîtes	ʃwa.zit	choisirent	ʃwa.ziʁ
+choose	indicative	future	simple	choisirai	ʃwa.zi.ʁe	choisiras	ʃwa.zi.ʁa	choisira	ʃwa.zi.ʁa	choisirons	ʃwa.zi.ʁɔ̃	choisirez	ʃwa.zi.ʁe	choisiront	ʃwa.zi.ʁɔ̃
+choose	conditional			choisirais	ʃwa.zi.ʁɛ	choisirais	ʃwa.zi.ʁɛ	choisirait	ʃwa.zi.ʁɛ	choisirions	ʃwa.zi.ʁjɔ̃	choisiriez	ʃwa.zi.ʁje	choisiraient	ʃwa.zi.ʁɛ
+choose	subjunctive	present	simple	choisisse	ʃwa.zis	choisisses	ʃwa.zis	choisisse	ʃwa.zis	choisissions	ʃwa.zi.sjɔ̃	choisissiez	ʃwa.zi.sje	choisissent	ʃwa.zis
+choose	subjunctive	past	imperfective	choisisse	ʃwa.zis	choisisses	ʃwa.zis	choisît	ʃwa.zi	choisissions	ʃwa.zi.sjɔ̃	choisissiez	ʃwa.zi.sje	choisissent	ʃwa.zis
+choose	imperative			—		choisis	ʃwa.zi	—		choisissons	ʃwa.zi.sɔ̃	choisissez	ʃwa.zi.se	—	
+loose	indicative	present	simple	perds	pɛʁ	perds	pɛʁ	perd	pɛʁ	perdons	pɛʁ.dɔ̃	perdez	pɛʁ.de	perdent	pɛʁd
+loose	indicative	past	imperfective	perdais	pɛʁ.dɛ	perdais	pɛʁ.dɛ	perdait	pɛʁ.dɛ	perdions	pɛʁ.djɔ̃	perdiez	pɛʁ.dje	perdaient	pɛʁ.dɛ
+loose	indicative	past	perfective	perdis	pɛʁ.di	perdis	pɛʁ.di	perdit	pɛʁ.di	perdîmes	pɛʁ.dim	perdîtes	pɛʁ.dit	perdirent	pɛʁ.diʁ
+loose	indicative	future	simple	perdrai	pɛʁ.dʁe	perdras	pɛʁ.dʁa	perdra	pɛʁ.dʁa	perdrons	pɛʁ.dʁɔ̃	perdrez	pɛʁ.dʁe	perdront	pɛʁ.dʁɔ̃
+loose	conditional			perdrais	pɛʁ.dʁɛ	perdrais	pɛʁ.dʁɛ	perdrait	pɛʁ.dʁɛ	perdrions	pɛʁ.dʁi.jɔ̃	perdriez	pɛʁ.dʁi.je	perdraient	pɛʁ.dʁɛ
+loose	subjunctive	present	simple	perde	pɛʁd	perdes	pɛʁd	perde	pɛʁd	perdions	pɛʁ.djɔ̃	perdiez	pɛʁ.dje	perdent	pɛʁd
+loose	subjunctive	past	imperfective	perdisse	pɛʁ.dis	perdisses	pɛʁ.dis	perdît	pɛʁ.di	perdissions	pɛʁ.di.sjɔ̃	perdissiez	pɛʁ.di.sje	perdissent	pɛʁ.dis
+loose	imperative			—		perds	pɛʁ	—		perdons	pɛʁ.dɔ̃	perdez	pɛʁ.de	—	
+receive	indicative	present	simple	reçois	ʁə.swa	reçois	ʁə.swa	reçoit	ʁə.swa	recevons	ʁə.s(ə).vɔ̃	recevez	ʁə.s(ə).ve	reçoivent	ʁə.swav
+receive	indicative	past	imperfective	recevais	ʁə.s(ə).vɛ	recevais	ʁə.s(ə).vɛ	recevait	ʁə.s(ə).vɛ	recevions	ʁə.sə.vjɔ̃	receviez	ʁə.sə.vje	recevaient	ʁə.s(ə).vɛ
+receive	indicative	past	perfective	reçus	ʁə.sy	reçus	ʁə.sy	reçut	ʁə.sy	reçûmes	ʁə.sym	reçûtes	ʁə.syt	reçurent	ʁə.syʁ
+receive	indicative	future	simple	recevrai	ʁə.sə.vʁe	recevras	ʁə.sə.vʁa	recevra	ʁə.sə.vʁa	recevrons	ʁə.sə.vʁɔ̃	recevrez	ʁə.sə.vʁe	recevront	ʁə.sə.vʁɔ̃
+receive	conditional			recevrais	ʁə.sə.vʁɛ	recevrais	ʁə.sə.vʁɛ	recevrait	ʁə.sə.vʁɛ	recevrions	ʁə.sə.vʁi.jɔ̃	recevriez	ʁə.sə.vʁi.je	recevraient	ʁə.sə.vʁɛ
+receive	subjunctive	present	simple	reçoive	ʁə.swav	reçoives	ʁə.swav	reçoive	ʁə.swav	recevions	ʁə.sə.vjɔ̃	receviez	ʁə.sə.vje	reçoivent	ʁə.swav
+receive	subjunctive	past	imperfective	reçusse	ʁə.sys	reçusses	ʁə.sys	reçût	ʁə.sy	reçussions	ʁə.sy.sjɔ̃	reçussiez	ʁə.sy.sje	reçussent	ʁə.sys
+receive	imperative			—		reçois	ʁə.swa	—		recevons	ʁə.s(ə).vɔ̃	recevez	ʁə.s(ə).ve	—	
