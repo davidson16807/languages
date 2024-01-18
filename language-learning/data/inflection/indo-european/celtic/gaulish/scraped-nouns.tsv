@@ -103,23 +103,3 @@ woman		singular	singular	plural	plural
 woman		indefinite	definite	indefinite	definite
 woman	nominative	bena	benan	benor	benorna
 woman	genitive	benas	benans	benors	benornas
-father	CaseSingularPluralNominativeatīrateresVocativeaterateresAccusativeaterematerāsGenitiveatrosatronDativeatreiatreboInstrumentalatriatrebiLocativeatriatrebo	CaseSingularPluralNominativeatīrateresVocativeaterateresAccusativeaterematerāsGenitiveatrosatronDativeatreiatreboInstrumentalatriatrebiLocativeatriatrebo	case	singular	plural	nominative	atīr	ateres	vocative	ater	ateres	accusative	aterem	aterās	genitive	atros	atron	dative	atrei	atrebo	instrumental	atri	atrebi	locative	atri	atrebo
-father	CaseSingularPluralNominativeatīrateresVocativeaterateresAccusativeaterematerāsGenitiveatrosatronDativeatreiatreboInstrumentalatriatrebiLocativeatriatrebo	case	singular	plural	nominative	atīr	ateres	vocative	ater	ateres	accusative	aterem	aterās	genitive	atros	atron	dative	atrei	atrebo	instrumental	atri	atrebi	locative	atri	atrebo	
-father	case	singular	plural																							
-father	nominative	atīr	ateres																							
-father	vocative	ater	ateres																							
-father	accusative	aterem	aterās																							
-father	genitive	atros	atron																							
-father	dative	atrei	atrebo																							
-father	instrumental	atri	atrebi																							
-father	locative	atri	atrebo																							
-mother	CaseSingularPluralNominativemātīrmāteresVocativemātermāteresAccusativemāteremmāterāsGenitivemātrosmātronDativemātreimātreboInstrumentalmātrimātrebiLocativemātrimātrebo	CaseSingularPluralNominativemātīrmāteresVocativemātermāteresAccusativemāteremmāterāsGenitivemātrosmātronDativemātreimātreboInstrumentalmātrimātrebiLocativemātrimātrebo	case	singular	plural	nominative	mātīr	māteres	vocative	māter	māteres	accusative	māterem	māterās	genitive	mātros	mātron	dative	mātrei	mātrebo	instrumental	mātri	mātrebi	locative	mātri	mātrebo
-mother	CaseSingularPluralNominativemātīrmāteresVocativemātermāteresAccusativemāteremmāterāsGenitivemātrosmātronDativemātreimātreboInstrumentalmātrimātrebiLocativemātrimātrebo	case	singular	plural	nominative	mātīr	māteres	vocative	māter	māteres	accusative	māterem	māterās	genitive	mātros	mātron	dative	mātrei	mātrebo	instrumental	mātri	mātrebi	locative	mātri	mātrebo	
-mother	case	singular	plural																							
-mother	nominative	mātīr	māteres																							
-mother	vocative	māter	māteres																							
-mother	accusative	māterem	māterās																							
-mother	genitive	mātros	mātron																							
-mother	dative	mātrei	mātrebo																							
-mother	instrumental	mātri	mātrebi																							
-mother	locative	mātri	mātrebo																							

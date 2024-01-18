@@ -148,6 +148,36 @@ book	3rd person sing.	könyve	könyvei
 book	1st person plural	könyvünk	könyveink
 book	2nd person plural	könyvetek	könyveitek
 book	3rd person plural	könyvük	könyveik
+brother	inflection (stem in -e-, front unrounded harmony)	inflection (stem in -e-, front unrounded harmony)	inflection (stem in -e-, front unrounded harmony)
+brother		singular	plural
+brother	nominative	fivér	fivérek
+brother	accusative	fivért	fivéreket
+brother	dative	fivérnek	fivéreknek
+brother	instrumental	fivérrel	fivérekkel
+brother	causal-final	fivérért	fivérekért
+brother	translative	fivérré	fivérekké
+brother	terminative	fivérig	fivérekig
+brother	essive-formal	fivérként	fivérekként
+brother	essive-modal	—	—
+brother	inessive	fivérben	fivérekben
+brother	superessive	fivéren	fivéreken
+brother	adessive	fivérnél	fivéreknél
+brother	illative	fivérbe	fivérekbe
+brother	sublative	fivérre	fivérekre
+brother	allative	fivérhez	fivérekhez
+brother	elative	fivérből	fivérekből
+brother	delative	fivérről	fivérekről
+brother	ablative	fivértől	fivérektől
+brother	non-attributivepossessive - singular	fivéré	fivéreké
+brother	non-attributivepossessive - plural	fivéréi	fivérekéi
+brother	possessive forms of fivér	possessive forms of fivér	possessive forms of fivér
+brother	possessor	single possession	multiple possessions
+brother	1st person sing.	fivérem	fivéreim
+brother	2nd person sing.	fivéred	fivéreid
+brother	3rd person sing.	fivére	fivérei
+brother	1st person plural	fivérünk	fivéreink
+brother	2nd person plural	fivéretek	fivéreitek
+brother	3rd person plural	fivérük	fivéreik
 bug	inflection (stem in -a-, back harmony)	inflection (stem in -a-, back harmony)	inflection (stem in -a-, back harmony)
 bug		singular	plural
 bug	nominative	bogár	bogarak
@@ -268,6 +298,36 @@ dog	3rd person sing.	kutyája	kutyái
 dog	1st person plural	kutyánk	kutyáink
 dog	2nd person plural	kutyátok	kutyáitok
 dog	3rd person plural	kutyájuk	kutyáik
+door	inflection (stem in long/high vowel, back harmony)	inflection (stem in long/high vowel, back harmony)	inflection (stem in long/high vowel, back harmony)
+door		singular	plural
+door	nominative	ajtó	ajtók
+door	accusative	ajtót	ajtókat
+door	dative	ajtónak	ajtóknak
+door	instrumental	ajtóval	ajtókkal
+door	causal-final	ajtóért	ajtókért
+door	translative	ajtóvá	ajtókká
+door	terminative	ajtóig	ajtókig
+door	essive-formal	ajtóként	ajtókként
+door	essive-modal	—	—
+door	inessive	ajtóban	ajtókban
+door	superessive	ajtón	ajtókon
+door	adessive	ajtónál	ajtóknál
+door	illative	ajtóba	ajtókba
+door	sublative	ajtóra	ajtókra
+door	allative	ajtóhoz	ajtókhoz
+door	elative	ajtóból	ajtókból
+door	delative	ajtóról	ajtókról
+door	ablative	ajtótól	ajtóktól
+door	non-attributivepossessive - singular	ajtóé	ajtóké
+door	non-attributivepossessive - plural	ajtóéi	ajtókéi
+door	possessive forms of ajtó	possessive forms of ajtó	possessive forms of ajtó
+door	possessor	single possession	multiple possessions
+door	1st person sing.	ajtóm	ajtóim
+door	2nd person sing.	ajtód	ajtóid
+door	3rd person sing.	ajtója	ajtói
+door	1st person plural	ajtónk	ajtóink
+door	2nd person plural	ajtótok	ajtóitok
+door	3rd person plural	ajtójuk	ajtóik
 drum	inflection (stem in -o-, back harmony)	inflection (stem in -o-, back harmony)	inflection (stem in -o-, back harmony)
 drum		singular	plural
 drum	nominative	dob	dobok
@@ -418,6 +478,36 @@ gift	3rd person sing.	ajándéka	ajándékai
 gift	1st person plural	ajándékunk	ajándékaink
 gift	2nd person plural	ajándékotok	ajándékaitok
 gift	3rd person plural	ajándékuk	ajándékaik
+glass	inflection (stem in -e-, front unrounded harmony)	inflection (stem in -e-, front unrounded harmony)	inflection (stem in -e-, front unrounded harmony)
+glass		singular	plural
+glass	nominative	üveg	üvegek
+glass	accusative	üveget	üvegeket
+glass	dative	üvegnek	üvegeknek
+glass	instrumental	üveggel	üvegekkel
+glass	causal-final	üvegért	üvegekért
+glass	translative	üveggé	üvegekké
+glass	terminative	üvegig	üvegekig
+glass	essive-formal	üvegként	üvegekként
+glass	essive-modal	—	—
+glass	inessive	üvegben	üvegekben
+glass	superessive	üvegen	üvegeken
+glass	adessive	üvegnél	üvegeknél
+glass	illative	üvegbe	üvegekbe
+glass	sublative	üvegre	üvegekre
+glass	allative	üveghez	üvegekhez
+glass	elative	üvegből	üvegekből
+glass	delative	üvegről	üvegekről
+glass	ablative	üvegtől	üvegektől
+glass	non-attributivepossessive - singular	üvegé	üvegeké
+glass	non-attributivepossessive - plural	üvegéi	üvegekéi
+glass	possessive forms of üveg	possessive forms of üveg	possessive forms of üveg
+glass	possessor	single possession	multiple possessions
+glass	1st person sing.	üvegem	üvegeim, üvegjeim
+glass	2nd person sing.	üveged	üvegeid, üvegjeid
+glass	3rd person sing.	üvege, üvegje	üvegei, üvegjei
+glass	1st person plural	üvegünk	üvegeink, üvegjeink
+glass	2nd person plural	üvegetek	üvegeitek, üvegjeitek
+glass	3rd person plural	üvegük, üvegjük	üvegeik, üvegjeik
 guard	inflection (stem in -ö-, front rounded harmony)	inflection (stem in -ö-, front rounded harmony)	inflection (stem in -ö-, front rounded harmony)
 guard		singular	plural
 guard	nominative	őr	őrök
@@ -908,10 +998,10 @@ warmth	possessive forms of hő	possessive forms of hő	possessive forms of hő
 warmth	possessor	single possession	multiple possessions
 warmth	1st person sing.	hőm	hőim
 warmth	2nd person sing.	hőd	hőid
-warmth	3rd person sing.	hőjeheve	hői
+warmth	3rd person sing.	hője, heve	hői
 warmth	1st person plural	hőnk	hőink
 warmth	2nd person plural	hőtök	hőitek
-warmth	3rd person plural	hőjükhevük	hőik
+warmth	3rd person plural	hőjük, hevük	hőik
 warmth	inflection (stem in long/high vowel, front rounded harmony)	inflection (stem in long/high vowel, front rounded harmony)	inflection (stem in long/high vowel, front rounded harmony)
 warmth		singular	plural
 warmth	nominative	hő	hők

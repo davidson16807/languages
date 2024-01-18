@@ -66,6 +66,16 @@ book	case	singular	plural
 book	nominative	an leabhar	na leabhair																										
 book	genitive	an leabhair	na leabhar																										
 book	dative	leis an leabhardon leabhar	leis na leabhair																										
+brother	Bare formsCaseSingularPluralNominativedeartháirdeartháireachaVocativea dheartháira dheartháireachaGenitivedearthárdeartháireachaDativedeartháirdeartháireacha	case	singular	plural	Nominative	deartháir	deartháireacha	Vocative	a dheartháir	a dheartháireacha	Genitive	dearthár	deartháireacha	Dative	deartháir	deartháireacha	Forms with the definite articleCaseSingularPluralNominativean deartháirna deartháireachaGenitivean dearthárna ndeartháireachaDativeleis an deartháirdon deartháirleis na deartháireacha	case	singular	plural	Nominative	an deartháir	na deartháireacha	Genitive	an dearthár	na ndeartháireacha	Dative	leis an deartháirdon deartháir	leis na deartháireacha
+brother	case	singular	plural																										
+brother	Nominative	deartháir	deartháireacha																										
+brother	Vocative	a dheartháir	a dheartháireacha																										
+brother	Genitive	dearthár	deartháireacha																										
+brother	Dative	deartháir	deartháireacha																										
+brother	case	singular	plural																										
+brother	Nominative	an deartháir	na deartháireacha																										
+brother	Genitive	an dearthár	na ndeartháireacha																										
+brother	Dative	leis an deartháirdon deartháir	leis na deartháireacha																										
 bug	Bare formsCaseSingularPluralNominativefeithidfeithidíVocativea fheithida fheithidíGenitivefeithidefeithidíDativefeithidfeithidí	case	singular	plural	Nominative	feithid	feithidí	Vocative	a fheithid	a fheithidí	Genitive	feithide	feithidí	Dative	feithid	feithidí	Forms with the definite articleCaseSingularPluralNominativean fheithidna feithidíGenitivena feithidena bhfeithidíDativeleis an bhfeithiddon fheithidleis na feithidí	case	singular	plural	Nominative	an fheithid	na feithidí	Genitive	na feithide	na bhfeithidí	Dative	leis an bhfeithiddon fheithid	leis na feithidí
 bug	case	singular	plural																										
 bug	Nominative	feithid	feithidí																										
@@ -166,6 +176,16 @@ gift	case	singular	plural
 gift	nominative	an tabhartas	na tabhartais																										
 gift	genitive	an tabhartais	na dtabhartas																										
 gift	dative	leis an tabhartasdon tabhartas	leis na tabhartais																										
+glass	Bare formsCaseSingularPluralNominativegloinegloiníVocativea ghloinea ghloiníGenitivegloinegloiníDativegloinegloiní	case	singular	plural	Nominative	gloine	gloiní	Vocative	a ghloine	a ghloiní	Genitive	gloine	gloiní	Dative	gloine	gloiní	Forms with the definite articleCaseSingularPluralNominativean ghloinena gloiníGenitivena gloinena ngloiníDativeleis an ngloinedon ghloineleis na gloiní	case	singular	plural	Nominative	an ghloine	na gloiní	Genitive	na gloine	na ngloiní	Dative	leis an ngloinedon ghloine	leis na gloiní
+glass	case	singular	plural																										
+glass	Nominative	gloine	gloiní																										
+glass	Vocative	a ghloine	a ghloiní																										
+glass	Genitive	gloine	gloiní																										
+glass	Dative	gloine	gloiní																										
+glass	case	singular	plural																										
+glass	Nominative	an ghloine	na gloiní																										
+glass	Genitive	na gloine	na ngloiní																										
+glass	Dative	leis an ngloinedon ghloine	leis na gloiní																										
 guard	Bare formsCaseSingularPluralNominativegardagardaíVocativea ghardaa ghardaíGenitivegardagardaíDativegardagardaí	case	singular	plural	Nominative	garda	gardaí	Vocative	a gharda	a ghardaí	Genitive	garda	gardaí	Dative	garda	gardaí	Forms with the definite articleCaseSingularPluralNominativean gardana gardaíGenitivean ghardana ngardaíDativeleis an ngardadon ghardaleis na gardaí	case	singular	plural	Nominative	an garda	na gardaí	Genitive	an gharda	na ngardaí	Dative	leis an ngardadon gharda	leis na gardaí
 guard	case	singular	plural																										
 guard	Nominative	garda	gardaí																										
@@ -409,7 +429,7 @@ woman			first	second	third	first	second	third	relative	autonomous
 woman	indicative	present	beanaim	beanann tú;  beanair†	beanann sé, sí	beanaimid	beanann sibh	beanann siad;  beanaid†	a bheanann; a bheanas /a mbeanann*; a mbeanas*	beantar
 woman	indicative	past	bhean mé; bheanas	bhean tú; bheanais	bhean sé, sí	bheanamar; bhean muid	bhean sibh; bheanabhair	bhean siad; bheanadar	a bhean /ar bhean*	beanadh
 woman	indicative	past habitual	bheanainn / mbeanainn‡‡	bheantá / mbeantá‡‡	bheanadh sé, sí / mbeanadh sé, sí‡‡	bheanaimis; bheanadh muid / mbeanaimis‡‡; mbeanadh muid‡‡	bheanadh sibh / mbeanadh sibh‡‡	bheanaidís; bheanadh siad / mbeanaidís‡‡; mbeanadh siad‡‡	a bheanadh /a mbeanadh*	bheantaí / mbeantaí‡‡
-woman	indicative	future	beanfaidh mé;  beanfad	beanfaidh tú;  beanfair†	beanfaidh sé, sí	beanfaimid;  beanfaidh muid	beanfaidh sibh	beanfaidh siad;  beanfaid†	a bheanfaidh; a bheanfas /a mbeanfaidh*; a mbeanfas*	beanfar
+woman	future	future	beanfaidh mé;  beanfad	beanfaidh tú;  beanfair†	beanfaidh sé, sí	beanfaimid;  beanfaidh muid	beanfaidh sibh	beanfaidh siad;  beanfaid†	a bheanfaidh; a bheanfas /a mbeanfaidh*; a mbeanfas*	beanfar
 woman	conditional	conditional	bheanfainn / mbeanfainn‡‡	bheanfá / mbeanfá‡‡	bheanfadh sé, sí / mbeanfadh sé, sí‡‡	bheanfaimis; bheanfadh muid / mbeanfaimis‡‡; mbeanfadh muid‡‡	bheanfadh sibh / mbeanfadh sibh‡‡	bheanfaidís; bheanfadh siad / mbeanfaidís‡‡; mbeanfadh siad‡‡	a bheanfadh /a mbeanfadh*	bheanfaí / mbeanfaí‡‡
 woman	subjunctive	present	go mbeana mé;  go mbeanad†	go mbeana tú;  go mbeanair†	go mbeana sé, sí	go mbeanaimid;  go mbeana muid	go mbeana sibh	go mbeana siad;  go mbeanaid†	—	go mbeantar
 woman	subjunctive	past	dá mbeanainn	dá mbeantá	dá mbeanadh sé, sí	dá mbeanaimis;  dá mbeanadh muid	dá mbeanadh sibh	dá mbeanaidís;  dá mbeanadh siad	—	dá mbeantaí

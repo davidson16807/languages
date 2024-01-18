@@ -55,6 +55,17 @@ book	ablative		पुस्तकात्	pustakāt	पुस्तकाभ्
 book	genitive		पुस्तकस्य	pustakasya	पुस्तकयोः	pustakayoḥ	पुस्तकानाम्	pustakānām
 book	locative		पुस्तके	pustake	पुस्तकयोः	pustakayoḥ	पुस्तकेषु	pustakeṣu
 book	Notes		¹Vedic		¹Vedic		¹Vedic	
+brother	masculine  ṛ-stem declension of भ्रातृ (bhrā́tṛ)		masculine  ṛ-stem declension of भ्रातृ (bhrā́tṛ)		masculine  ṛ-stem declension of भ्रातृ (bhrā́tṛ)		masculine  ṛ-stem declension of भ्रातृ (bhrā́tṛ)	
+brother			singular		dual		plural	
+brother	nominative		भ्राता	bhrā́tā	भ्रातरौ / भ्रातरा¹	bhrā́tarau / bhrā́tarā¹	भ्रातरः	bhrā́taraḥ
+brother	vocative		भ्रातः	bhrā́taḥ	भ्रातरौ / भ्रातरा¹	bhrā́tarau / bhrā́tarā¹	भ्रातरः	bhrā́taraḥ
+brother	accusative		भ्रातरम्	bhrā́taram	भ्रातरौ / भ्रातरा¹	bhrā́tarau / bhrā́tarā¹	भ्रातॄन्	bhrā́tṝn
+brother	instrumental		भ्रात्रा	bhrā́trā	भ्रातृभ्याम्	bhrā́tṛbhyām	भ्रातृभिः	bhrā́tṛbhiḥ
+brother	dative		भ्रात्रे	bhrā́tre	भ्रातृभ्याम्	bhrā́tṛbhyām	भ्रातृभ्यः	bhrā́tṛbhyaḥ
+brother	ablative		भ्रातुः	bhrā́tuḥ	भ्रातृभ्याम्	bhrā́tṛbhyām	भ्रातृभ्यः	bhrā́tṛbhyaḥ
+brother	genitive		भ्रातुः	bhrā́tuḥ	भ्रात्रोः	bhrā́troḥ	भ्रातॄणाम्	bhrā́tṝṇām
+brother	locative		भ्रातरि	bhrā́tari	भ्रात्रोः	bhrā́troḥ	भ्रातृषु	bhrā́tṛṣu
+brother	Notes		¹Vedic		¹Vedic		¹Vedic	
 bug	masculine  u-stem declension of जन्तु (jantú)		masculine  u-stem declension of जन्तु (jantú)		masculine  u-stem declension of जन्तु (jantú)		masculine  u-stem declension of जन्तु (jantú)	
 bug			singular		dual		plural	
 bug	nominative		जन्तुः	jantúḥ	जन्तू	jantū́	जन्तवः	jantávaḥ
@@ -98,6 +109,17 @@ dog	ablative		कुर्कुरात्	kurkurāt	कुर्कुरा�
 dog	genitive		कुर्कुरस्य	kurkurasya	कुर्कुरयोः	kurkurayoḥ	कुर्कुराणाम्	kurkurāṇām
 dog	locative		कुर्कुरे	kurkure	कुर्कुरयोः	kurkurayoḥ	कुर्कुरेषु	kurkureṣu
 dog	Notes		¹Vedic		¹Vedic		¹Vedic	
+door	neuter  a-stem declension of द्वार (dvā́ra)		neuter  a-stem declension of द्वार (dvā́ra)		neuter  a-stem declension of द्वार (dvā́ra)		neuter  a-stem declension of द्वार (dvā́ra)	
+door			singular		dual		plural	
+door	nominative		द्वारम्	dvā́ram	द्वारे	dvā́re	द्वाराणि / द्वारा¹	dvā́rāṇi / dvā́rā¹
+door	vocative		द्वार	dvā́ra	द्वारे	dvā́re	द्वाराणि / द्वारा¹	dvā́rāṇi / dvā́rā¹
+door	accusative		द्वारम्	dvā́ram	द्वारे	dvā́re	द्वाराणि / द्वारा¹	dvā́rāṇi / dvā́rā¹
+door	instrumental		द्वारेण	dvā́reṇa	द्वाराभ्याम्	dvā́rābhyām	द्वारैः / द्वारेभिः¹	dvā́raiḥ / dvā́rebhiḥ¹
+door	dative		द्वाराय	dvā́rāya	द्वाराभ्याम्	dvā́rābhyām	द्वारेभ्यः	dvā́rebhyaḥ
+door	ablative		द्वारात्	dvā́rāt	द्वाराभ्याम्	dvā́rābhyām	द्वारेभ्यः	dvā́rebhyaḥ
+door	genitive		द्वारस्य	dvā́rasya	द्वारयोः	dvā́rayoḥ	द्वाराणाम्	dvā́rāṇām
+door	locative		द्वारे	dvā́re	द्वारयोः	dvā́rayoḥ	द्वारेषु	dvā́reṣu
+door	Notes		¹Vedic		¹Vedic		¹Vedic	
 drum	masculine  a-stem declension of ढोल (ḍhola)		masculine  a-stem declension of ढोल (ḍhola)		masculine  a-stem declension of ढोल (ḍhola)		masculine  a-stem declension of ढोल (ḍhola)	
 drum			singular		dual		plural	
 drum	nominative		ढोलः	ḍholaḥ	ढोलौ	ḍholau	ढोलाः / ढोलासः¹	ḍholāḥ / ḍholāsaḥ¹
@@ -120,17 +142,6 @@ enemy	ablative		शत्रोः / शत्र्वः²	śátroḥ / śátr
 enemy	genitive		शत्रोः / शत्र्वः²	śátroḥ / śátrvaḥ²	शत्र्वोः	śátrvoḥ	शत्रूणाम्	śátrūṇām
 enemy	locative		शत्रौ	śátrau	शत्र्वोः	śátrvoḥ	शत्रुषु	śátruṣu
 enemy	Notes		¹Vedic²Less common		¹Vedic²Less common		¹Vedic²Less common	
-fire	masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)	
-fire			singular		dual		plural	
-fire	nominative		अग्निः	agníḥ	अग्नी	agnī́	अग्नयः	agnáyaḥ
-fire	vocative		अग्ने	ágne	अग्नी	ágnī	अग्नयः	ágnayaḥ
-fire	accusative		अग्निम्	agním	अग्नी	agnī́	अग्नीन्	agnī́n
-fire	instrumental		अग्निना / अग्न्या¹	agnínā / agnyā̀¹	अग्निभ्याम्	agníbhyām	अग्निभिः	agníbhiḥ
-fire	dative		अग्नये / अग्न्ये²	agnáye / agnyè²	अग्निभ्याम्	agníbhyām	अग्निभ्यः	agníbhyaḥ
-fire	ablative		अग्नेः / अग्न्यः²	agnéḥ / agnyàḥ²	अग्निभ्याम्	agníbhyām	अग्निभ्यः	agníbhyaḥ
-fire	genitive		अग्नेः / अग्न्यः²	agnéḥ / agnyàḥ²	अग्न्योः	agnyóḥ	अग्नीनाम्	agnīnā́m
-fire	locative		अग्नौ	agnaú	अग्न्योः	agnyóḥ	अग्निषु	agníṣu
-fire	Notes		¹Vedic²Less common		¹Vedic²Less common		¹Vedic²Less common	
 fire	masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)	
 fire			singular		dual		plural	
 fire	nominative		अग्निः	agníḥ	अग्नी	agnī́	अग्नयः	agnáyaḥ
@@ -175,6 +186,18 @@ gift	ablative		दानात्	dā́nāt	दानाभ्याम्	dā́
 gift	genitive		दानस्य	dā́nasya	दानयोः	dā́nayoḥ	दानानाम्	dā́nānām
 gift	locative		दाने	dā́ne	दानयोः	dā́nayoḥ	दानेषु	dā́neṣu
 gift	Notes		¹Vedic		¹Vedic		¹Vedic	
+glass	masculine a-stem declension of काच		masculine a-stem declension of काच		masculine a-stem declension of काच		masculine a-stem declension of काच	
+glass	nom. sg.		काचः ()	kācaḥ	काचः ()	kācaḥ	काचः ()	kācaḥ
+glass	gen. sg.		काचस्य ()	kācasya	काचस्य ()	kācasya	काचस्य ()	kācasya
+glass			singular		dual		plural	
+glass	nominative		काचः ()	kācaḥ	काचौ ()	kācau	काचाः ()	kācāḥ
+glass	vocative		काच ()	kāca	काचौ ()	kācau	काचाः ()	kācāḥ
+glass	accusative		काचम् ()	kācam	काचौ ()	kācau	काचान् ()	kācān
+glass	instrumental		काचेन ()	kācena	काचाभ्याम् ()	kācābhyām	काचैः ()	kācaiḥ
+glass	dative		काचाय ()	kācāya	काचाभ्याम् ()	kācābhyām	काचेभ्यः ()	kācebhyaḥ
+glass	ablative		काचात् ()	kācāt	काचाभ्याम् ()	kācābhyām	काचेभ्यः ()	kācebhyaḥ
+glass	genitive		काचस्य ()	kācasya	काचयोः ()	kācayoḥ	काचानाम् ()	kācānām
+glass	locative		काचे ()	kāce	काचयोः ()	kācayoḥ	काचेषु ()	kāceṣu
 horse	masculine  a-stem declension of घोटक (ghoṭaka)		masculine  a-stem declension of घोटक (ghoṭaka)		masculine  a-stem declension of घोटक (ghoṭaka)		masculine  a-stem declension of घोटक (ghoṭaka)	
 horse			singular		dual		plural	
 horse	nominative		घोटकः	ghoṭakaḥ	घोटकौ	ghoṭakau	घोटकाः / घोटकासः¹	ghoṭakāḥ / ghoṭakāsaḥ¹
@@ -265,17 +288,6 @@ money	ablative		धनात्	dhánāt	धनाभ्याम्	dhánābhy�
 money	genitive		धनस्य	dhánasya	धनयोः	dhánayoḥ	धनानाम्	dhánānām
 money	locative		धने	dháne	धनयोः	dhánayoḥ	धनेषु	dháneṣu
 money	Notes		¹Vedic		¹Vedic		¹Vedic	
-monster	masculine  a-stem declension of दैत्य (daitya)		masculine  a-stem declension of दैत्य (daitya)		masculine  a-stem declension of दैत्य (daitya)		masculine  a-stem declension of दैत्य (daitya)	
-monster			singular		dual		plural	
-monster	nominative		दैत्यः	daityaḥ	दैत्यौ	daityau	दैत्याः / दैत्यासः¹	daityāḥ / daityāsaḥ¹
-monster	vocative		दैत्य	daitya	दैत्यौ	daityau	दैत्याः / दैत्यासः¹	daityāḥ / daityāsaḥ¹
-monster	accusative		दैत्यम्	daityam	दैत्यौ	daityau	दैत्यान्	daityān
-monster	instrumental		दैत्येन	daityena	दैत्याभ्याम्	daityābhyām	दैत्यैः / दैत्येभिः¹	daityaiḥ / daityebhiḥ¹
-monster	dative		दैत्याय	daityāya	दैत्याभ्याम्	daityābhyām	दैत्येभ्यः	daityebhyaḥ
-monster	ablative		दैत्यात्	daityāt	दैत्याभ्याम्	daityābhyām	दैत्येभ्यः	daityebhyaḥ
-monster	genitive		दैत्यस्य	daityasya	दैत्ययोः	daityayoḥ	दैत्यानाम्	daityānām
-monster	locative		दैत्ये	daitye	दैत्ययोः	daityayoḥ	दैत्येषु	daityeṣu
-monster	Notes		¹Vedic		¹Vedic		¹Vedic	
 monster	masculine  a-stem declension of दैत्य (daitya)		masculine  a-stem declension of दैत्य (daitya)		masculine  a-stem declension of दैत्य (daitya)		masculine  a-stem declension of दैत्य (daitya)	
 monster			singular		dual		plural	
 monster	nominative		दैत्यः	daityaḥ	दैत्यौ	daityau	दैत्याः / दैत्यासः¹	daityāḥ / daityāsaḥ¹
@@ -406,17 +418,6 @@ window	ablative		वातायनात्	vātāyanāt	वातायना�
 window	genitive		वातायनस्य	vātāyanasya	वातायनयोः	vātāyanayoḥ	वातायनानाम्	vātāyanānām
 window	locative		वातायने	vātāyane	वातायनयोः	vātāyanayoḥ	वातायनेषु	vātāyaneṣu
 window	Notes		¹Vedic		¹Vedic		¹Vedic	
-window	masculine  a-stem declension of वातायन (vātāyana)		masculine  a-stem declension of वातायन (vātāyana)		masculine  a-stem declension of वातायन (vātāyana)		masculine  a-stem declension of वातायन (vātāyana)	
-window			singular		dual		plural	
-window	nominative		वातायनः	vātāyanaḥ	वातायनौ	vātāyanau	वातायनाः / वातायनासः¹	vātāyanāḥ / vātāyanāsaḥ¹
-window	vocative		वातायन	vātāyana	वातायनौ	vātāyanau	वातायनाः / वातायनासः¹	vātāyanāḥ / vātāyanāsaḥ¹
-window	accusative		वातायनम्	vātāyanam	वातायनौ	vātāyanau	वातायनान्	vātāyanān
-window	instrumental		वातायनेन	vātāyanena	वातायनाभ्याम्	vātāyanābhyām	वातायनैः / वातायनेभिः¹	vātāyanaiḥ / vātāyanebhiḥ¹
-window	dative		वातायनाय	vātāyanāya	वातायनाभ्याम्	vātāyanābhyām	वातायनेभ्यः	vātāyanebhyaḥ
-window	ablative		वातायनात्	vātāyanāt	वातायनाभ्याम्	vātāyanābhyām	वातायनेभ्यः	vātāyanebhyaḥ
-window	genitive		वातायनस्य	vātāyanasya	वातायनयोः	vātāyanayoḥ	वातायनानाम्	vātāyanānām
-window	locative		वातायने	vātāyane	वातायनयोः	vātāyanayoḥ	वातायनेषु	vātāyaneṣu
-window	Notes		¹Vedic		¹Vedic		¹Vedic	
 window	neuter  a-stem declension of वातायन (vātāyana)		neuter  a-stem declension of वातायन (vātāyana)		neuter  a-stem declension of वातायन (vātāyana)		neuter  a-stem declension of वातायन (vātāyana)	
 window			singular		dual		plural	
 window	nominative		वातायनम्	vātāyanam	वातायने	vātāyane	वातायनानि / वातायना¹	vātāyanāni / vātāyanā¹
@@ -493,17 +494,6 @@ desire	ablative		कामात्	kāmāt	कामाभ्याम्	kām�
 desire	genitive		कामस्य	kāmasya	कामयोः	kāmayoḥ	कामानाम्	kāmānām
 desire	locative		कामे	kāme	कामयोः	kāmayoḥ	कामेषु	kāmeṣu
 desire	Notes		¹Vedic		¹Vedic		¹Vedic	
-yoke	masculine  a-stem declension of युग्म (yugmá)		masculine  a-stem declension of युग्म (yugmá)		masculine  a-stem declension of युग्म (yugmá)		masculine  a-stem declension of युग्म (yugmá)	
-yoke			singular		dual		plural	
-yoke	nominative		युग्मः	yugmáḥ	युग्मौ	yugmaú	युग्माः / युग्मासः¹	yugmā́ḥ / yugmā́saḥ¹
-yoke	vocative		युग्म	yúgma	युग्मौ	yúgmau	युग्माः / युग्मासः¹	yúgmāḥ / yúgmāsaḥ¹
-yoke	accusative		युग्मम्	yugmám	युग्मौ	yugmaú	युग्मान्	yugmā́n
-yoke	instrumental		युग्मेन	yugména	युग्माभ्याम्	yugmā́bhyām	युग्मैः / युग्मेभिः¹	yugmaíḥ / yugmébhiḥ¹
-yoke	dative		युग्माय	yugmā́ya	युग्माभ्याम्	yugmā́bhyām	युग्मेभ्यः	yugmébhyaḥ
-yoke	ablative		युग्मात्	yugmā́t	युग्माभ्याम्	yugmā́bhyām	युग्मेभ्यः	yugmébhyaḥ
-yoke	genitive		युग्मस्य	yugmásya	युग्मयोः	yugmáyoḥ	युग्मानाम्	yugmā́nām
-yoke	locative		युग्मे	yugmé	युग्मयोः	yugmáyoḥ	युग्मेषु	yugméṣu
-yoke	Notes		¹Vedic		¹Vedic		¹Vedic	
 yoke	neuter  a-stem declension of युग्म (yugmá)		neuter  a-stem declension of युग्म (yugmá)		neuter  a-stem declension of युग्म (yugmá)		neuter  a-stem declension of युग्म (yugmá)	
 yoke			singular		dual		plural	
 yoke	nominative		युग्मम्	yugmám	युग्मे	yugmé	युग्मानि / युग्मा¹	yugmā́ni / yugmā́¹
@@ -515,17 +505,6 @@ yoke	ablative		युग्मात्	yugmā́t	युग्माभ्या
 yoke	genitive		युग्मस्य	yugmásya	युग्मयोः	yugmáyoḥ	युग्मानाम्	yugmā́nām
 yoke	locative		युग्मे	yugmé	युग्मयोः	yugmáyoḥ	युग्मेषु	yugméṣu
 yoke	Notes		¹Vedic		¹Vedic		¹Vedic	
-Agni	masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)	
-Agni			singular		dual		plural	
-Agni	nominative		अग्निः	agníḥ	अग्नी	agnī́	अग्नयः	agnáyaḥ
-Agni	vocative		अग्ने	ágne	अग्नी	ágnī	अग्नयः	ágnayaḥ
-Agni	accusative		अग्निम्	agním	अग्नी	agnī́	अग्नीन्	agnī́n
-Agni	instrumental		अग्निना / अग्न्या¹	agnínā / agnyā̀¹	अग्निभ्याम्	agníbhyām	अग्निभिः	agníbhiḥ
-Agni	dative		अग्नये / अग्न्ये²	agnáye / agnyè²	अग्निभ्याम्	agníbhyām	अग्निभ्यः	agníbhyaḥ
-Agni	ablative		अग्नेः / अग्न्यः²	agnéḥ / agnyàḥ²	अग्निभ्याम्	agníbhyām	अग्निभ्यः	agníbhyaḥ
-Agni	genitive		अग्नेः / अग्न्यः²	agnéḥ / agnyàḥ²	अग्न्योः	agnyóḥ	अग्नीनाम्	agnīnā́m
-Agni	locative		अग्नौ	agnaú	अग्न्योः	agnyóḥ	अग्निषु	agníṣu
-Agni	Notes		¹Vedic²Less common		¹Vedic²Less common		¹Vedic²Less common	
 Agni	masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)		masculine  i-stem declension of अग्नि (agní)	
 Agni			singular		dual		plural	
 Agni	nominative		अग्निः	agníḥ	अग्नी	agnī́	अग्नयः	agnáyaḥ

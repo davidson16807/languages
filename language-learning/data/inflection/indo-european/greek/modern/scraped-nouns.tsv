@@ -24,6 +24,11 @@ book	nominative	βιβλίο •	βιβλία •
 book	genitive	βιβλίου •	βιβλίων •
 book	accusative	βιβλίο •	βιβλία •
 book	vocative	βιβλίο •	βιβλία •
+brother	case     \     number	singular	plural
+brother	nominative	αδελφός •	αδελφοί •
+brother	genitive	αδελφού •	αδελφών •
+brother	accusative	αδελφό •	αδελφούς •
+brother	vocative	αδελφέ •	αδελφοί •
 bug	case     \     number	singular	plural
 bug	nominative	ζουζούνι •	ζουζούνια •
 bug	genitive	ζουζουνιού •	ζουζουνιών •
@@ -44,6 +49,11 @@ dog	nominative	σκύλος •	σκύλοι •
 dog	genitive	σκύλου •	σκύλων •
 dog	accusative	σκύλο •	σκύλους •
 dog	vocative	σκύλε •	σκύλοι •
+door	case     \     number	singular	plural
+door	nominative	πόρτα •	πόρτες •
+door	genitive	πόρτας •	πορτών •
+door	accusative	πόρτα •	πόρτες •
+door	vocative	πόρτα •	πόρτες •
 drum	case     \     number	singular	plural
 drum	nominative	τύμπανο •	τύμπανα •
 drum	genitive	τυμπάνου •,  τύμπανου •	τυμπάνων •,  τύμπανων •
@@ -70,6 +80,11 @@ gift	nominative	δώρο •	δώρα •
 gift	genitive	δώρου •	δώρων •
 gift	accusative	δώρο •	δώρα •
 gift	vocative	δώρο •	δώρα •
+glass	case     \     number	singular	plural
+glass	nominative	γυαλί •	γυαλιά •
+glass	genitive	γυαλιού •	γυαλιών •
+glass	accusative	γυαλί •	γυαλιά •
+glass	vocative	γυαλί •	γυαλιά •
 guard	case     \     number	singular	plural
 guard	nominative	φύλακας •	φύλακες •
 guard	genitive	φύλακα •	φυλάκων •

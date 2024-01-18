@@ -30,6 +30,14 @@ book	accusative	боукъвьbukŭvĭ	боукъвиbukŭvi	боукъвиbukŭ
 book	instrumental	боукъвьѭ, боукъвиѭbukŭvĭjǫ, bukŭvijǫ	боукъвамаbukŭvama	боукъвамиbukŭvami
 book	locative	боукъвеbukŭve	боукъвоуbukŭvu	боукъвахъbukŭvaxŭ
 book	vocative	боукꙑbuky	боукъвиbukŭvi	боукъвиbukŭvi
+brother		singular	dual	plural
+brother	nominative	братр{{{2}}}ъbratr{{{2}}}ŭ	братр{{{2}}}аbratr{{{2}}}a	братр{{{2}}}иbratr{{{2}}}i
+brother	genitive	братр{{{2}}}аbratr{{{2}}}a	братр{{{2}}}оуbratr{{{2}}}u	братр{{{2}}}ъbratr{{{2}}}ŭ
+brother	dative	братр{{{2}}}оу, братр{{{2}}}овиbratr{{{2}}}u, bratr{{{2}}}ovi	братр{{{2}}}омаbratr{{{2}}}oma	братр{{{2}}}омъbratr{{{2}}}omŭ
+brother	accusative	братр{{{2}}}ъ, братр{{{2}}}аbratr{{{2}}}ŭ, bratr{{{2}}}a	братр{{{2}}}аbratr{{{2}}}a	братр{{{2}}}ꙑbratr{{{2}}}y
+brother	instrumental	братр{{{2}}}омъbratr{{{2}}}omŭ	братр{{{2}}}омаbratr{{{2}}}oma	братр{{{2}}}ꙑbratr{{{2}}}y
+brother	locative	братр{{{2}}}ѣbratr{{{2}}}ě	братр{{{2}}}оуbratr{{{2}}}u	братр{{{2}}}ѣхъbratr{{{2}}}ěxŭ
+brother	vocative	братр{{{2}}}еbratr{{{2}}}e	братр{{{2}}}аbratr{{{2}}}a	братр{{{2}}}иbratr{{{2}}}i
 clothing		singular	dual	plural
 clothing	nominative	одеждаodežda	одеждиodeždi	одеждѧodeždę
 clothing	genitive	одеждѧodeždę	одеждоуodeždu	одеждьodeždĭ
@@ -54,6 +62,14 @@ dog	accusative	пьсъ, пьсаpĭsŭ, pĭsa	пьсаpĭsa	пьсꙑpĭsy
 dog	instrumental	пьсомъpĭsomŭ	пьсомаpĭsoma	пьсꙑpĭsy
 dog	locative	пьсѣpĭsě	пьсоуpĭsu	пьсѣхъpĭsěxŭ
 dog	vocative	пьсеpĭse	пьсаpĭsa	пьсиpĭsi
+door		singular	dual	plural
+door	nominative	двьрьdvĭrĭ	двьриdvĭri	двьриdvĭri
+door	genitive	двьриdvĭri	двьрью, двьриюdvĭrĭju, dvĭriju	двьрьи, двьрииdvĭrĭi, dvĭrii
+door	dative	двьриdvĭri	двьрьмаdvĭrĭma	двьрьмъdvĭrĭmŭ
+door	accusative	двьрьdvĭrĭ	двьриdvĭri	двьриdvĭri
+door	instrumental	двьрьѭ, двьриѭdvĭrĭjǫ, dvĭrijǫ	двьрьмаdvĭrĭma	двьрьмиdvĭrĭmi
+door	locative	двьриdvĭri	двьрью, двьриюdvĭrĭju, dvĭriju	двьрьхъdvĭrĭxŭ
+door	vocative	двьриdvĭri	двьриdvĭri	двьрьѥ, двьриѥdvĭrĭje, dvĭrije
 enemy		singular	dual	plural
 enemy	nominative	врагъvragŭ	врагаvraga	враѕиvradzi
 enemy	genitive	врагаvraga	врагоуvragu	врагъvragŭ

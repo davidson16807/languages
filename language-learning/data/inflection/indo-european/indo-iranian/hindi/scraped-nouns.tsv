@@ -18,6 +18,10 @@ book			singular		plural
 book	direct		पुस्तक	pustak	पुस्तकें	pustakẽ
 book	oblique		पुस्तक	pustak	पुस्तकों	pustakõ
 book	vocative		पुस्तक	pustak	पुस्तको	pustako
+brother			singular		plural	
+brother	direct		भाई	bhāī	भाई	bhāī
+brother	oblique		भाई	bhāī	भाइयों	bhāiyõ
+brother	vocative		भाई	bhāī	भाइयो	bhāiyo
 bug			singular		plural	
 bug	direct		कीड़ा	kīṛā	कीड़े	kīṛe
 bug	oblique		कीड़े	kīṛe	कीड़ों	kīṛõ
@@ -34,6 +38,10 @@ dog			singular		plural
 dog	direct		कुत्ता	kuttā	कुत्ते	kutte
 dog	oblique		कुत्ते	kutte	कुत्तों	kuttõ
 dog	vocative		कुत्ते	kutte	कुत्तो	kutto
+door			singular		plural	
+door	direct		द्वार	dvār	द्वार	dvār
+door	oblique		द्वार	dvār	द्वारों	dvārõ
+door	vocative		द्वार	dvār	द्वारो	dvāro
 drum			singular		plural	
 drum	direct		ढोल	ḍhol	ढोल	ḍhol
 drum	oblique		ढोल	ḍhol	ढोलों	ḍholõ
@@ -54,6 +62,10 @@ gift			singular		plural
 gift	direct		उपहार	uphār	उपहार	uphār
 gift	oblique		उपहार	uphār	उपहारों	uphārõ
 gift	vocative		उपहार	uphār	उपहारो	uphāro
+glass			singular		plural	
+glass	direct		काँच	kā̃c	काँच	kā̃c
+glass	oblique		काँच	kā̃c	काँचों	kā̃cõ
+glass	vocative		काँच	kā̃c	काँचो	kā̃co
 guard			singular		plural	
 guard	direct		पासबान	pāsbān	पासबान	pāsbān
 guard	oblique		पासबान	pāsbān	पासबानों	pāsbānõ

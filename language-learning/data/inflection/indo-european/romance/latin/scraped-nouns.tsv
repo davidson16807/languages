@@ -33,6 +33,13 @@ book	dative	caudicī	caudicibus
 book	accusative	caudicem	caudicēs
 book	ablative	caudice	caudicibus
 book	vocative	caudex	caudicēs
+brother	case	singular	plural
+brother	nominative	frāter	frātrēs
+brother	genitive	frātris	frātrum
+brother	dative	frātrī	frātribus
+brother	accusative	frātrem	frātrēs
+brother	ablative	frātre	frātribus
+brother	vocative	frāter	frātrēs
 bug	case	singular	plural
 bug	nominative	cīmex	cīmicēs
 bug	genitive	cīmicis	cīmicum
@@ -61,6 +68,13 @@ dog	dative	canī	canibus
 dog	accusative	canem	canēs
 dog	ablative	cane	canibus
 dog	vocative	canis	canēs
+door	case	singular	plural
+door	nominative	foris	forēs
+door	genitive	foris	forium
+door	dative	forī	foribus
+door	accusative	forem	forēsforīs
+door	ablative	fore	foribus
+door	vocative	foris	forēs
 drum	case	singular	plural
 drum	nominative	tympanum	tympana
 drum	genitive	tympanī	tympanōrum
@@ -104,6 +118,13 @@ gift	dative	dōnō	dōnīs
 gift	accusative	dōnum	dōna
 gift	ablative	dōnō	dōnīs
 gift	vocative	dōnum	dōna
+glass	case	singular	plural
+glass	nominative	vitrum	vitra
+glass	genitive	vitrī	vitrōrum
+glass	dative	vitrō	vitrīs
+glass	accusative	vitrum	vitra
+glass	ablative	vitrō	vitrīs
+glass	vocative	vitrum	vitra
 guard	case	singular	plural
 guard	nominative	custōs	custōdēs
 guard	genitive	custōdis	custōdum
@@ -203,6 +224,13 @@ size	dative	magnitūdinī	magnitūdinibus
 size	accusative	magnitūdinem	magnitūdinēs
 size	ablative	magnitūdine	magnitūdinibus
 size	vocative	magnitūdō	magnitūdinēs
+sister	case	singular	plural
+sister	nominative	soror	sorōrēs
+sister	genitive	sorōris	sorōrum
+sister	dative	sorōrī	sorōribus
+sister	accusative	sorōrem	sorōrēs
+sister	ablative	sorōre	sorōribus
+sister	vocative	soror	sorōrēs
 son	case	singular	plural
 son	nominative	fīlius	fīliī
 son	genitive	fīliīfīlī1	fīliōrum
@@ -394,14 +422,6 @@ myth	dative	mȳthō	mȳthīs
 myth	accusative	mȳthon	mȳthōs
 myth	ablative	mȳthō	mȳthīs
 myth	vocative	mȳthe	mȳthī
-atom	number	singular	singular	singular		plural	plural	plural
-atom	case / gender	masculine	feminine	neuter		masculine	feminine	neuter
-atom	nominative	atomus	atoma	atomum		atomī	atomae	atoma
-atom	genitive	atomī	atomae	atomī		atomōrum	atomārum	atomōrum
-atom	dative	atomō	atomae	atomō		atomīs	atomīs	atomīs
-atom	accusative	atomum	atomam	atomum		atomōs	atomās	atoma
-atom	ablative	atomō	atomā	atomō		atomīs	atomīs	atomīs
-atom	vocative	atome	atoma	atomum		atomī	atomae	atoma
 atom	case	singular	plural
 atom	nominative	atomus	atomī
 atom	genitive	atomī	atomōrum

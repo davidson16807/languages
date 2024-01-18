@@ -13,6 +13,30 @@ boat	plural	jmww
 book	singular	mḏꜣt
 book	dual	mḏꜣtj
 book	plural	mḏꜣwt
+brother	singular	sn
+brother	dual	snwj
+brother	plural	snw
+brother		number	first person	second person	second person	third person	third person
+brother		number	first person	masculine	feminine	masculine	feminine
+brother	suffix pronouns	singular	∅, .j	.k, .kj1	.ṯ, .ṯn	.f, .fj1	.s, .sj1
+brother	suffix pronouns	dual	.nj	.ṯnj	.ṯnj	.snj	.snj
+brother	suffix pronouns	plural	.n	.ṯn	.ṯn	.sn	.sn
+brother							
+brother	enclitic (‘dependent’) pronouns	singular	w, wj, wy	kw, k, ṯw, ṯ	ṯm, ṯn	sw, s	s
+brother	enclitic (‘dependent’) pronouns	dual	—	ṯnj	ṯnj	snj	snj
+brother	enclitic (‘dependent’) pronouns	plural	n	ṯn	ṯn	sn	sn
+brother							
+brother	stressed (‘independent’) pronouns	singular	jnk	ṯwt	ṯmt	swt	stt
+brother	stressed (‘independent’) pronouns	dual	—	—	—	ntsnj	ntsnj
+brother	stressed (‘independent’) pronouns	plural	—	ntṯn	ntṯn	ntsn, jntsn	ntsn, jntsn
+brother							
+brother	stative (‘pseudoparticiple’) endings	singular	.kj, .k	.tj, .t	.tj, .t	∅, .j	.tj, .t
+brother	stative (‘pseudoparticiple’) endings	dual	—	.tjwn	.tjwn	.wy, .wj	.ty
+brother	stative (‘pseudoparticiple’) endings	plural	.wn, .nw	.tjwn	.tjwn	∅, .w, .y, .wy	.tj, .t
+brother	Only when attached to a dual noun or prospective participle.	Only when attached to a dual noun or prospective participle.	Only when attached to a dual noun or prospective participle.	Only when attached to a dual noun or prospective participle.	Only when attached to a dual noun or prospective participle.	Only when attached to a dual noun or prospective participle.	Only when attached to a dual noun or prospective participle.
+brother	infinitival forms	infinitival forms	infinitival forms	imperative	imperative
+brother	infinitive	negatival complement	complementary infinitive1	singular	plural
+brother	sn	snw, sn	snt	sn, j.sn	sn, j.sn
 bug	singular	ꜥpšꜣy
 bug	dual	ꜥpšꜣywj
 bug	plural	ꜥpšꜣyw
@@ -25,11 +49,9 @@ daughter	plural	zꜣwt
 dog	singular	ṯzm
 dog	dual	ṯzmwj
 dog	plural	ṯzmw
-enemy		masculine	feminine
-enemy	singular	ḫftj	ḫftt
-enemy	dual	ḫftjwj, ḫftwj	ḫfttj
-enemy	plural	ḫftjw, ḫftw	ḫftwt1, ḫftt2
-enemy	Archaic in Middle Egyptian when modifying a noun.From Middle Egyptian, this feminine singular form was generally used for the plural.In Late Egyptian, the masculine singular form was used with all nouns.	Archaic in Middle Egyptian when modifying a noun.From Middle Egyptian, this feminine singular form was generally used for the plural.In Late Egyptian, the masculine singular form was used with all nouns.	Archaic in Middle Egyptian when modifying a noun.From Middle Egyptian, this feminine singular form was generally used for the plural.In Late Egyptian, the masculine singular form was used with all nouns.
+door	singular	rwt
+door	dual	rwtj
+door	plural	rwwt
 enemy	singular	ḫftj
 enemy	dual	ḫftjwj
 enemy	plural	ḫftjw
@@ -99,9 +121,6 @@ son	plural	zꜣw
 son	singular	zꜣ
 son	dual	zꜣwj
 son	plural	zꜣw
-warmth	infinitival forms	infinitival forms	infinitival forms	imperative	imperative
-warmth	infinitive	negatival complement	complementary infinitive1	singular	plural
-warmth	srf	srfw, srf	srft	srf	srf
 warmth	singular	srf
 warmth	dual	srfwj
 warmth	plural	srfw

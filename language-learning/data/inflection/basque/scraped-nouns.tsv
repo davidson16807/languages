@@ -88,6 +88,24 @@ book	destinative	liburutarako	libururako	liburuetarako
 book	ablative	liburutatik	liburutik	liburuetatik
 book	partitive	libururik	—	—
 book	prolative	liburutzat	—	—
+brother		indefinite	singular	plural
+brother	absolutive	anaia	anaia	anaiak
+brother	ergative	anaiak	anaiak	anaiek
+brother	dative	anaiari	anaiari	anaiei
+brother	genitive	anaiaren	anaiaren	anaien
+brother	comitative	anaiarekin	anaiarekin	anaiekin
+brother	causative	anaiarengatik	anaiarengatik	anaiengatik
+brother	benefactive	anaiarentzat	anaiarentzat	anaientzat
+brother	instrumental	anaiaz	anaiaz	anaiez
+brother	inessive	anaiarengan	anaiarengan	anaiengan
+brother	locative	—	—	—
+brother	allative	anaiarengana	anaiarengana	anaiengana
+brother	terminative	anaiarenganaino	anaiarenganaino	anaienganaino
+brother	directive	anaiarenganantz	anaiarenganantz	anaienganantz
+brother	destinative	anaiarenganako	anaiarenganako	anaienganako
+brother	ablative	anaiarengandik	anaiarengandik	anaiengandik
+brother	partitive	anaiarik	—	—
+brother	prolative	anaiatzat	—	—
 bug		indefinite	singular	plural
 bug	absolutive	zomorro	zomorroa	zomorroak
 bug	ergative	zomorrok	zomorroak	zomorroek
@@ -160,6 +178,24 @@ dog	destinative	txakurrenganako	txakurrarenganako	txakurrenganako
 dog	ablative	txakurrengandik	txakurrarengandik	txakurrengandik
 dog	partitive	txakurrik	—	—
 dog	prolative	txakurtzat	—	—
+door		indefinite	singular	plural
+door	absolutive	ate	atea	ateak
+door	ergative	atek	ateak	ateek
+door	dative	ateri	ateari	ateei
+door	genitive	ateren	atearen	ateen
+door	comitative	aterekin	atearekin	ateekin
+door	causative	aterengatik	atearengatik	ateengatik
+door	benefactive	aterentzat	atearentzat	ateentzat
+door	instrumental	atez	ateaz	ateez
+door	inessive	atetan	atean	ateetan
+door	locative	atetako	ateko	ateetako
+door	allative	atetara	atera	ateetara
+door	terminative	atetaraino	ateraino	ateetaraino
+door	directive	atetarantz	aterantz	ateetarantz
+door	destinative	atetarako	aterako	ateetarako
+door	ablative	atetatik	atetik	ateetatik
+door	partitive	aterik	—	—
+door	prolative	atetzat	—	—
 drum		indefinite	singular	plural
 drum	absolutive	danbor	danborra	danborrak
 drum	ergative	danborrek	danborrak	danborrek
@@ -484,31 +520,6 @@ sound	destinative	hotsetarako	hotserako	hotsetarako
 sound	ablative	hotsetatik	hotsetik	hotsetatik
 sound	partitive	hotsik	—	—
 sound	prolative	hostzat	—	—
-warmth			indefinite	singular	plural
-warmth	absolutive	absolutive	bero	beroa	beroak
-warmth	ergative	ergative	berok	beroak	beroek
-warmth	dative	dative	berori	beroari	beroei
-warmth	genitive	genitive	beroren	beroaren	beroen
-warmth	comitative	comitative	berorekin	beroarekin	beroekin
-warmth	causative	causative	berorengatik	beroarengatik	beroengatik
-warmth	benefactive	benefactive	berorentzat	beroarentzat	beroentzat
-warmth	instrumental	instrumental	beroz	beroaz	beroez
-warmth	inessive	anim.	berorengan	beroarengan	beroengan
-warmth	inessive	inanim.	berotan	beroan	beroetan
-warmth	locative	anim.	—	—	—
-warmth	locative	inanim.	berotako	beroko	beroetako
-warmth	allative	anim.	berorengana	beroarengana	beroengana
-warmth	allative	inanim.	berotara	berora	beroetara
-warmth	terminative	anim.	berorenganaino	beroarenganaino	beroenganaino
-warmth	terminative	inanim.	berotaraino	beroraino	beroetaraino
-warmth	directive	anim.	berorenganantz	beroarenganantz	beroenganantz
-warmth	directive	inanim.	berotarantz	berorantz	beroetarantz
-warmth	destinative	anim.	berorenganako	beroarenganako	beroenganako
-warmth	destinative	inanim.	berotarako	berorako	beroetarako
-warmth	ablative	anim.	berorengandik	beroarengandik	beroengandik
-warmth	ablative	inanim.	berotatik	berotik	beroetatik
-warmth	partitive	partitive	berorik	—	—
-warmth	prolative	prolative	berotzat	—	—
 warmth		indefinite	singular	plural
 warmth	absolutive	bero	beroa	beroak
 warmth	ergative	berok	beroak	beroek

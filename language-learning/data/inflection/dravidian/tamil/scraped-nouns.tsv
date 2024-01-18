@@ -166,6 +166,27 @@ dog	sociative 1	நாயோடு nāyōṭu	நாய்களோடு nāyka
 dog	sociative 2	நாயுடன் nāyuṭaṉ	நாய்களுடன் nāykaḷuṭaṉ
 dog	instrumental	நாயால் nāyāl	நாய்களால் nāykaḷāl
 dog	ablative	நாயிலிருந்து nāyiliruntu	நாய்களிலிருந்து nāykaḷiliruntu
+door	u-stem declension of கதவு (katavu)	u-stem declension of கதவு (katavu)	u-stem declension of கதவு (katavu)
+door		singular	plural
+door	nominative	கதவு katavu	கதவுகள் katavukaḷ
+door	vocative	கதவே katavē	கதவுகளே katavukaḷē
+door	accusative	கதவை katavai	கதவுகளை katavukaḷai
+door	dative	கதவுக்கு katavukku	கதவுகளுக்கு katavukaḷukku
+door	genitive	கதவுடைய katavuṭaiya	கதவுகளுடைய katavukaḷuṭaiya
+door		singular	plural
+door	nominative	கதவு katavu	கதவுகள் katavukaḷ
+door	vocative	கதவே katavē	கதவுகளே katavukaḷē
+door	accusative	கதவை katavai	கதவுகளை katavukaḷai
+door	dative	கதவுக்கு katavukku	கதவுகளுக்கு katavukaḷukku
+door	benefactive	கதவுக்காக katavukkāka	கதவுகளுக்காக katavukaḷukkāka
+door	genitive 1	கதவுடைய katavuṭaiya	கதவுகளுடைய katavukaḷuṭaiya
+door	genitive 2	கதவின் kataviṉ	கதவுகளின் katavukaḷiṉ
+door	locative 1	கதவில் katavil	கதவுகளில் katavukaḷil
+door	locative 2	கதவிடம் kataviṭam	கதவுகளிடம் katavukaḷiṭam
+door	sociative 1	கதவோடு katavōṭu	கதவுகளோடு katavukaḷōṭu
+door	sociative 2	கதவுடன் katavuṭaṉ	கதவுகளுடன் katavukaḷuṭaṉ
+door	instrumental	கதவால் katavāl	கதவுகளால் katavukaḷāl
+door	ablative	கதவிலிருந்து kataviliruntu	கதவுகளிலிருந்து katavukaḷiliruntu
 enemy	ṉ-stem declension of பகைவன் (pakaivaṉ)	ṉ-stem declension of பகைவன் (pakaivaṉ)	ṉ-stem declension of பகைவன் (pakaivaṉ)
 enemy		singular	plural
 enemy	nominative	பகைவன் pakaivaṉ	பகைவர்கள் pakaivarkaḷ
@@ -187,27 +208,27 @@ enemy	sociative 1	பகைவனோடு pakaivaṉōṭu	பகைவர்�
 enemy	sociative 2	பகைவனுடன் pakaivaṉuṭaṉ	பகைவர்களுடன் pakaivarkaḷuṭaṉ
 enemy	instrumental	பகைவனால் pakaivaṉāl	பகைவர்களால் pakaivarkaḷāl
 enemy	ablative	பகைவனிலிருந்து pakaivaṉiliruntu	பகைவர்களிலிருந்து pakaivarkaḷiliruntu
-fire	u-stem declension of நெருப்பு (neruppu)	u-stem declension of நெருப்பு (neruppu)	u-stem declension of நெருப்பு (neruppu)
+fire	u-stem declension of நெருப்பு (neruppu) (singular only)	u-stem declension of நெருப்பு (neruppu) (singular only)	u-stem declension of நெருப்பு (neruppu) (singular only)
 fire		singular	plural
-fire	nominative	நெருப்பு neruppu	நெருப்புகள் neruppukaḷ
-fire	vocative	நெருப்பே neruppē	நெருப்புகளே neruppukaḷē
-fire	accusative	நெருப்பை neruppai	நெருப்புகளை neruppukaḷai
-fire	dative	நெருப்புக்கு neruppukku	நெருப்புகளுக்கு neruppukaḷukku
-fire	genitive	நெருப்புடைய neruppuṭaiya	நெருப்புகளுடைய neruppukaḷuṭaiya
+fire	nominative	நெருப்பு neruppu	-
+fire	vocative	நெருப்பே neruppē	-
+fire	accusative	நெருப்பை neruppai	-
+fire	dative	நெருப்புக்கு neruppukku	-
+fire	genitive	நெருப்புடைய neruppuṭaiya	-
 fire		singular	plural
-fire	nominative	நெருப்பு neruppu	நெருப்புகள் neruppukaḷ
-fire	vocative	நெருப்பே neruppē	நெருப்புகளே neruppukaḷē
-fire	accusative	நெருப்பை neruppai	நெருப்புகளை neruppukaḷai
-fire	dative	நெருப்புக்கு neruppukku	நெருப்புகளுக்கு neruppukaḷukku
-fire	benefactive	நெருப்புக்காக neruppukkāka	நெருப்புகளுக்காக neruppukaḷukkāka
-fire	genitive 1	நெருப்புடைய neruppuṭaiya	நெருப்புகளுடைய neruppukaḷuṭaiya
-fire	genitive 2	நெருப்பின் neruppiṉ	நெருப்புகளின் neruppukaḷiṉ
-fire	locative 1	நெருப்பில் neruppil	நெருப்புகளில் neruppukaḷil
-fire	locative 2	நெருப்பிடம் neruppiṭam	நெருப்புகளிடம் neruppukaḷiṭam
-fire	sociative 1	நெருப்போடு neruppōṭu	நெருப்புகளோடு neruppukaḷōṭu
-fire	sociative 2	நெருப்புடன் neruppuṭaṉ	நெருப்புகளுடன் neruppukaḷuṭaṉ
-fire	instrumental	நெருப்பால் neruppāl	நெருப்புகளால் neruppukaḷāl
-fire	ablative	நெருப்பிலிருந்து neruppiliruntu	நெருப்புகளிலிருந்து neruppukaḷiliruntu
+fire	nominative	நெருப்பு neruppu	-
+fire	vocative	நெருப்பே neruppē	-
+fire	accusative	நெருப்பை neruppai	-
+fire	dative	நெருப்புக்கு neruppukku	-
+fire	benefactive	நெருப்புக்காக neruppukkāka	-
+fire	genitive 1	நெருப்புடைய neruppuṭaiya	-
+fire	genitive 2	நெருப்பின் neruppiṉ	-
+fire	locative 1	நெருப்பில் neruppil	-
+fire	locative 2	நெருப்பிடம் neruppiṭam	-
+fire	sociative 1	நெருப்போடு neruppōṭu	-
+fire	sociative 2	நெருப்புடன் neruppuṭaṉ	-
+fire	instrumental	நெருப்பால் neruppāl	-
+fire	ablative	நெருப்பிலிருந்து neruppiliruntu	-
 food	ṭu-stem declension of சாப்பாடு (cāppāṭu)	ṭu-stem declension of சாப்பாடு (cāppāṭu)	ṭu-stem declension of சாப்பாடு (cāppāṭu)
 food		singular	plural
 food	nominative	சாப்பாடு cāppāṭu	சாப்பாடுகள் cāppāṭukaḷ
@@ -229,6 +250,27 @@ food	sociative 1	சாப்பாட்டோடு cāppāṭṭōṭu	சா
 food	sociative 2	சாப்பாட்டுடன் cāppāṭṭuṭaṉ	சாப்பாடுகளுடன் cāppāṭukaḷuṭaṉ
 food	instrumental	சாப்பாட்டால் cāppāṭṭāl	சாப்பாடுகளால் cāppāṭukaḷāl
 food	ablative	சாப்பாட்டிலிருந்து cāppāṭṭiliruntu	சாப்பாடுகளிலிருந்து cāppāṭukaḷiliruntu
+glass	i-stem declension of கண்ணாடி (kaṇṇāṭi)	i-stem declension of கண்ணாடி (kaṇṇāṭi)	i-stem declension of கண்ணாடி (kaṇṇāṭi)
+glass		singular	plural
+glass	nominative	கண்ணாடி kaṇṇāṭi	கண்ணாடிகள் kaṇṇāṭikaḷ
+glass	vocative	கண்ணாடியே kaṇṇāṭiyē	கண்ணாடிகளே kaṇṇāṭikaḷē
+glass	accusative	கண்ணாடியை kaṇṇāṭiyai	கண்ணாடிகளை kaṇṇāṭikaḷai
+glass	dative	கண்ணாடிக்கு kaṇṇāṭikku	கண்ணாடிகளுக்கு kaṇṇāṭikaḷukku
+glass	genitive	கண்ணாடியுடைய kaṇṇāṭiyuṭaiya	கண்ணாடிகளுடைய kaṇṇāṭikaḷuṭaiya
+glass		singular	plural
+glass	nominative	கண்ணாடி kaṇṇāṭi	கண்ணாடிகள் kaṇṇāṭikaḷ
+glass	vocative	கண்ணாடியே kaṇṇāṭiyē	கண்ணாடிகளே kaṇṇāṭikaḷē
+glass	accusative	கண்ணாடியை kaṇṇāṭiyai	கண்ணாடிகளை kaṇṇāṭikaḷai
+glass	dative	கண்ணாடிக்கு kaṇṇāṭikku	கண்ணாடிகளுக்கு kaṇṇāṭikaḷukku
+glass	benefactive	கண்ணாடிக்காக kaṇṇāṭikkāka	கண்ணாடிகளுக்காக kaṇṇāṭikaḷukkāka
+glass	genitive 1	கண்ணாடியுடைய kaṇṇāṭiyuṭaiya	கண்ணாடிகளுடைய kaṇṇāṭikaḷuṭaiya
+glass	genitive 2	கண்ணாடியின் kaṇṇāṭiyiṉ	கண்ணாடிகளின் kaṇṇāṭikaḷiṉ
+glass	locative 1	கண்ணாடியில் kaṇṇāṭiyil	கண்ணாடிகளில் kaṇṇāṭikaḷil
+glass	locative 2	கண்ணாடியிடம் kaṇṇāṭiyiṭam	கண்ணாடிகளிடம் kaṇṇāṭikaḷiṭam
+glass	sociative 1	கண்ணாடியோடு kaṇṇāṭiyōṭu	கண்ணாடிகளோடு kaṇṇāṭikaḷōṭu
+glass	sociative 2	கண்ணாடியுடன் kaṇṇāṭiyuṭaṉ	கண்ணாடிகளுடன் kaṇṇāṭikaḷuṭaṉ
+glass	instrumental	கண்ணாடியால் kaṇṇāṭiyāl	கண்ணாடிகளால் kaṇṇāṭikaḷāl
+glass	ablative	கண்ணாடியிலிருந்து kaṇṇāṭiyiliruntu	கண்ணாடிகளிலிருந்து kaṇṇāṭikaḷiliruntu
 house	ṭu-stem declension of வீடு (vīṭu)	ṭu-stem declension of வீடு (vīṭu)	ṭu-stem declension of வீடு (vīṭu)
 house		singular	plural
 house	nominative	வீடு vīṭu	வீடுகள் vīṭukaḷ

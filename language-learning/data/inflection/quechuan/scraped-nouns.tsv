@@ -134,6 +134,40 @@ book	benefactive	liwruypaq	liwruykunapaq
 book	associative	liwruypura	liwruykunapura
 book	distributive	liwruyninka	liwruykunanka
 book	exclusive	liwruylla	liwruykunalla
+brother		singular	plural
+brother	nominative	turi	turikuna
+brother	accusative	turita	turikunata
+brother	dative	turiman	turikunaman
+brother	genitive	turip	turikunap
+brother	locative	turipi	turikunapi
+brother	terminative	turikama	turikunakama
+brother	ablative	turimanta	turikunamanta
+brother	instrumental	turiwan	turikunawan
+brother	comitative	turintin	turikunantin
+brother	abessive	turinnaq	turikunannaq
+brother	comparative	turihina	turikunahina
+brother	causative	turirayku	turikunarayku
+brother	benefactive	turipaq	turikunapaq
+brother	associative	turipura	turikunapura
+brother	distributive	turinka	turikunanka
+brother	exclusive	turilla	turikunalla
+brother	ñuqap (my)	singular	plural
+brother	nominative	turiy	turiykuna
+brother	accusative	turiyta	turiykunata
+brother	dative	turiyman	turiykunaman
+brother	genitive	turiypa	turiykunap
+brother	locative	turiypi	turiykunapi
+brother	terminative	turiykama	turiykunakama
+brother	ablative	turiymanta	turiykunamanta
+brother	instrumental	turiywan	turiykunawan
+brother	comitative	turiynintin	turiykunantin
+brother	abessive	turiyninnaq	turiykunannaq
+brother	comparative	turiyhina	turiykunahina
+brother	causative	turiyrayku	turiykunarayku
+brother	benefactive	turiypaq	turiykunapaq
+brother	associative	turiypura	turiykunapura
+brother	distributive	turiyninka	turiykunanka
+brother	exclusive	turiylla	turiykunalla
 dog		singular	plural
 dog	nominative	allqu	allqukuna
 dog	accusative	allquta	allqukunata
@@ -168,6 +202,40 @@ dog	benefactive	allquypaq	allquykunapaq
 dog	associative	allquypura	allquykunapura
 dog	distributive	allquyninka	allquykunanka
 dog	exclusive	allquylla	allquykunalla
+door		singular	plural
+door	nominative	punku	punkukuna
+door	accusative	punkuta	punkukunata
+door	dative	punkuman	punkukunaman
+door	genitive	punkup	punkukunap
+door	locative	punkupi	punkukunapi
+door	terminative	punkukama	punkukunakama
+door	ablative	punkumanta	punkukunamanta
+door	instrumental	punkuwan	punkukunawan
+door	comitative	punkuntin	punkukunantin
+door	abessive	punkunnaq	punkukunannaq
+door	comparative	punkuhina	punkukunahina
+door	causative	punkurayku	punkukunarayku
+door	benefactive	punkupaq	punkukunapaq
+door	associative	punkupura	punkukunapura
+door	distributive	punkunka	punkukunanka
+door	exclusive	punkulla	punkukunalla
+door	ñuqap (my)	singular	plural
+door	nominative	punkuy	punkuykuna
+door	accusative	punkuyta	punkuykunata
+door	dative	punkuyman	punkuykunaman
+door	genitive	punkuypa	punkuykunap
+door	locative	punkuypi	punkuykunapi
+door	terminative	punkuykama	punkuykunakama
+door	ablative	punkuymanta	punkuykunamanta
+door	instrumental	punkuywan	punkuykunawan
+door	comitative	punkuynintin	punkuykunantin
+door	abessive	punkuyninnaq	punkuykunannaq
+door	comparative	punkuyhina	punkuykunahina
+door	causative	punkuyrayku	punkuykunarayku
+door	benefactive	punkuypaq	punkuykunapaq
+door	associative	punkuypura	punkuykunapura
+door	distributive	punkuyninka	punkuykunanka
+door	exclusive	punkuylla	punkuykunalla
 enemy		singular	plural
 enemy	nominative	awqa	awqakuna
 enemy	accusative	awqata	awqakunata
@@ -270,6 +338,40 @@ food	benefactive	mikhunaypaq	mikhunaykunapaq
 food	associative	mikhunaypura	mikhunaykunapura
 food	distributive	mikhunayninka	mikhunaykunanka
 food	exclusive	mikhunaylla	mikhunaykunalla
+glass		singular	plural
+glass	nominative	q'ispi	q'ispikuna
+glass	accusative	q'ispita	q'ispikunata
+glass	dative	q'ispiman	q'ispikunaman
+glass	genitive	q'ispip	q'ispikunap
+glass	locative	q'ispipi	q'ispikunapi
+glass	terminative	q'ispikama	q'ispikunakama
+glass	ablative	q'ispimanta	q'ispikunamanta
+glass	instrumental	q'ispiwan	q'ispikunawan
+glass	comitative	q'ispintin	q'ispikunantin
+glass	abessive	q'ispinnaq	q'ispikunannaq
+glass	comparative	q'ispihina	q'ispikunahina
+glass	causative	q'ispirayku	q'ispikunarayku
+glass	benefactive	q'ispipaq	q'ispikunapaq
+glass	associative	q'ispipura	q'ispikunapura
+glass	distributive	q'ispinka	q'ispikunanka
+glass	exclusive	q'ispilla	q'ispikunalla
+glass	ñuqap (my)	singular	plural
+glass	nominative	q'ispiy	q'ispiykuna
+glass	accusative	q'ispiyta	q'ispiykunata
+glass	dative	q'ispiyman	q'ispiykunaman
+glass	genitive	q'ispiypa	q'ispiykunap
+glass	locative	q'ispiypi	q'ispiykunapi
+glass	terminative	q'ispiykama	q'ispiykunakama
+glass	ablative	q'ispiymanta	q'ispiykunamanta
+glass	instrumental	q'ispiywan	q'ispiykunawan
+glass	comitative	q'ispiynintin	q'ispiykunantin
+glass	abessive	q'ispiyninnaq	q'ispiykunannaq
+glass	comparative	q'ispiyhina	q'ispiykunahina
+glass	causative	q'ispiyrayku	q'ispiykunarayku
+glass	benefactive	q'ispiypaq	q'ispiykunapaq
+glass	associative	q'ispiypura	q'ispiykunapura
+glass	distributive	q'ispiyninka	q'ispiykunanka
+glass	exclusive	q'ispiylla	q'ispiykunalla
 horse		singular	plural
 horse	nominative	kawallu	kawallukuna
 horse	accusative	kawalluta	kawallukunata

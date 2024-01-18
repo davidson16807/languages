@@ -137,6 +137,23 @@ book	informal		كَتَاتِيب‎	katātīb	الْكَتَاتِيب‎	al-ka
 book	nominative		كَتَاتِيبُ‎	katātību	الْكَتَاتِيبُ‎	al-katātību	كَتَاتِيبُ‎	katātību
 book	accusative		كَتَاتِيبَ‎	katātība	الْكَتَاتِيبَ‎	al-katātība	كَتَاتِيبَ‎	katātība
 book	genitive		كَتَاتِيبَ‎	katātība	الْكَتَاتِيبِ‎	al-katātībi	كَتَاتِيبِ‎	katātībi
+brother	singular			singular long construct			singular long construct			singular long construct		
+brother	singular			indefinite			definite			construct		
+brother	informal			أَخ	ʔaḵ		الْأَخ‎	al-ʔaḵ		أَخُو‎	ʔaḵū	
+brother	nominative			أَخٌ	ʔaḵun		الْأَخُ‎	al-ʔaḵu		أَخُو‎	ʔaḵū	
+brother	accusative			أَخًا‎	ʔaḵan		الْأَخَ‎	al-ʔaḵa		أَخَا‎	ʔaḵā	
+brother	genitive			أَخٍ	ʔaḵin		الْأَخِ‎	al-ʔaḵi		أَخِي‎	ʔaḵī	
+brother	dual			indefinite			definite			construct		
+brother	informal			أَخَوَيْن‎	ʔaḵawayn		الْأَخَوَيْن‎	al-ʔaḵawayn		أَخَوَيْ‎	ʔaḵaway	
+brother	nominative			أَخَوَانِ‎	ʔaḵawāni		الْأَخَوَانِ‎	al-ʔaḵawāni		أَخَوَا‎	ʔaḵawā	
+brother	accusative			أَخَوَيْنِ‎	ʔaḵawayni		الْأَخَوَيْنِ‎	al-ʔaḵawayni		أَخَوَيْ‎	ʔaḵaway	
+brother	genitive			أَخَوَيْنِ‎	ʔaḵawayni		الْأَخَوَيْنِ‎	al-ʔaḵawayni		أَخَوَيْ‎	ʔaḵaway	
+brother	plural			broken plural triptote in ـَة (-a)‎; basic broken plural triptote			broken plural triptote in ـَة (-a)‎; basic broken plural triptote			broken plural triptote in ـَة (-a)‎; basic broken plural triptote		
+brother	plural			indefinite			definite			construct		
+brother	informal			إِخْوَة‎‎; إِخْوَان‎‎; 	ʔiḵwa	ʔiḵwān	الْإِخْوَة‎‎; الْإِخْوَان‎‎; 	al-ʔiḵwa	al-ʔiḵwān	إِخْوَة‎‎; إِخْوَان‎‎; 	ʔiḵwat	ʔiḵwān
+brother	nominative			إِخْوَةٌ‎‎; إِخْوَانٌ‎‎; 	ʔiḵwatun	ʔiḵwānun	الْإِخْوَةُ‎‎; الْإِخْوَانُ‎‎; 	al-ʔiḵwatu	al-ʔiḵwānu	إِخْوَةُ‎‎; إِخْوَانُ‎‎; 	ʔiḵwatu	ʔiḵwānu
+brother	accusative			إِخْوَةً‎‎; إِخْوَانًا‎‎; 	ʔiḵwatan	ʔiḵwānan	الْإِخْوَةَ‎‎; الْإِخْوَانَ‎‎; 	al-ʔiḵwata	al-ʔiḵwāna	إِخْوَةَ‎‎; إِخْوَانَ‎‎; 	ʔiḵwata	ʔiḵwāna
+brother	genitive			إِخْوَةٍ‎‎; إِخْوَانٍ‎‎; 	ʔiḵwatin	ʔiḵwānin	الْإِخْوَةِ‎‎; الْإِخْوَانِ‎‎; 	al-ʔiḵwati	al-ʔiḵwāni	إِخْوَةِ‎‎; إِخْوَانِ‎‎; 	ʔiḵwati	ʔiḵwāni
 bug	singular		singular triptote in ـَة (-a)		singular triptote in ـَة (-a)		singular triptote in ـَة (-a)	
 bug	singular		indefinite		definite		construct	
 bug	informal		حَشَرة	ḥašara	الْحَشَرة‎	al-ḥašara	حَشَرة	ḥašarat
@@ -214,6 +231,23 @@ dog	informal		كَلْبَى‎	kalbā	الْكَلْبَى‎	al-kalbā	كَل�
 dog	nominative		كَلْبَى‎	kalbā	الْكَلْبَى‎	al-kalbā	كَلِبَاتٌ‎	kalibātun	الْكَلِبَاتُ‎	al-kalibātu
 dog	accusative		كَلْبَى‎	kalbā	الْكَلْبَى‎	al-kalbā	كَلِبَاتٍ‎	kalibātin	الْكَلِبَاتِ‎	al-kalibāti
 dog	genitive		كَلْبَى‎	kalbā	الْكَلْبَى‎	al-kalbā	كَلِبَاتٍ‎	kalibātin	الْكَلِبَاتِ‎	al-kalibāti
+door	singular			basic singular triptote			basic singular triptote			basic singular triptote		
+door	singular			indefinite			definite			construct		
+door	informal			بَاب	bāb		الْبَاب‎	al-bāb		بَاب	bāb	
+door	nominative			بَابٌ	bābun		الْبَابُ‎	al-bābu		بَابُ	bābu	
+door	accusative			بَابًا‎	bāban		الْبَابَ‎	al-bāba		بَابَ	bāba	
+door	genitive			بَابٍ	bābin		الْبَابِ‎	al-bābi		بَابِ	bābi	
+door	dual			indefinite			definite			construct		
+door	informal			بَابَيْن‎	bābayn		الْبَابَيْن‎	al-bābayn		بَابَيْ‎	bābay	
+door	nominative			بَابَانِ‎	bābāni		الْبَابَانِ‎	al-bābāni		بَابَا‎	bābā	
+door	accusative			بَابَيْنِ‎	bābayni		الْبَابَيْنِ‎	al-bābayni		بَابَيْ‎	bābay	
+door	genitive			بَابَيْنِ‎	bābayni		الْبَابَيْنِ‎	al-bābayni		بَابَيْ‎	bābay	
+door	plural			basic broken plural triptote			basic broken plural triptote			basic broken plural triptote		
+door	plural			indefinite			definite			construct		
+door	informal			أَبْوَاب‎‎; بِيبَان‎‎; 	ʔabwāb	bībān	الْأَبْوَاب‎‎; الْبِيبَان‎‎; 	al-ʔabwāb	al-bībān	أَبْوَاب‎‎; بِيبَان‎‎; 	ʔabwāb	bībān
+door	nominative			أَبْوَابٌ‎‎; بِيبَانٌ‎‎; 	ʔabwābun	bībānun	الْأَبْوَابُ‎‎; الْبِيبَانُ‎‎; 	al-ʔabwābu	al-bībānu	أَبْوَابُ‎‎; بِيبَانُ‎‎; 	ʔabwābu	bībānu
+door	accusative			أَبْوَابًا‎‎; بِيبَانًا‎‎; 	ʔabwāban	bībānan	الْأَبْوَابَ‎‎; الْبِيبَانَ‎‎; 	al-ʔabwāba	al-bībāna	أَبْوَابَ‎‎; بِيبَانَ‎‎; 	ʔabwāba	bībāna
+door	genitive			أَبْوَابٍ‎‎; بِيبَانٍ‎‎; 	ʔabwābin	bībānin	الْأَبْوَابِ‎‎; الْبِيبَانِ‎‎; 	al-ʔabwābi	al-bībāni	أَبْوَابِ‎‎; بِيبَانِ‎‎; 	ʔabwābi	bībāni
 drum	singular			basic singular triptote			basic singular triptote			basic singular triptote		
 drum	singular			indefinite			definite			construct		
 drum	informal			طَبْل	ṭabl		الطَّبْل‎	aṭ-ṭabl		طَبْل	ṭabl	
@@ -316,6 +350,49 @@ gift	informal		هَدَايَا‎	hadāyā	الْهَدَايَا‎	al-hadāy�
 gift	nominative		هَدَايَا‎	hadāyā	الْهَدَايَا‎	al-hadāyā	هَدَايَا‎	hadāyā
 gift	accusative		هَدَايَا‎	hadāyā	الْهَدَايَا‎	al-hadāyā	هَدَايَا‎	hadāyā
 gift	genitive		هَدَايَا‎	hadāyā	الْهَدَايَا‎	al-hadāyā	هَدَايَا‎	hadāyā
+glass	collective				basic collective triptote				basic collective triptote				basic collective triptote			
+glass	collective				indefinite				definite				construct			
+glass	informal				زُجَاج‎; زَجَاج‎; زِجَاج‎; ‎; 	zujāj	zajāj	zijāj	الزُّجَاج‎‎; الزَّجَاج‎‎; الزِّجَاج‎‎; ‎; 	az-zujāj	az-zajāj	az-zijāj	زُجَاج‎; زَجَاج‎; زِجَاج‎; ‎; 	zujāj	zajāj	zijāj
+glass	nominative				زُجَاجٌ‎; زَجَاجٌ‎; زِجَاجٌ‎; ‎; 	zujājun	zajājun	zijājun	الزُّجَاجُ‎‎; الزَّجَاجُ‎‎; الزِّجَاجُ‎‎; ‎; 	az-zujāju	az-zajāju	az-zijāju	زُجَاجُ‎; زَجَاجُ‎; زِجَاجُ‎; ‎; 	zujāju	zajāju	zijāju
+glass	accusative				زُجَاجًا‎‎; زَجَاجًا‎‎; زِجَاجًا‎‎; ‎; 	zujājan	zajājan	zijājan	الزُّجَاجَ‎‎; الزَّجَاجَ‎‎; الزِّجَاجَ‎‎; ‎; 	az-zujāja	az-zajāja	az-zijāja	زُجَاجَ‎; زَجَاجَ‎; زِجَاجَ‎; ‎; 	zujāja	zajāja	zijāja
+glass	genitive				زُجَاجٍ‎; زَجَاجٍ‎; زِجَاجٍ‎; ‎; 	zujājin	zajājin	zijājin	الزُّجَاجِ‎‎; الزَّجَاجِ‎‎; الزِّجَاجِ‎‎; ‎; 	az-zujāji	az-zajāji	az-zijāji	زُجَاجِ‎; زَجَاجِ‎; زِجَاجِ‎; ‎; 	zujāji	zajāji	zijāji
+glass	singulative				singulative triptote in ـَة (-a)				singulative triptote in ـَة (-a)				singulative triptote in ـَة (-a)			
+glass	singulative				indefinite				definite				construct			
+glass	informal				زُجَاجَة‎‎; زَجَاجَة‎‎; زِجَاجَة‎‎; ‎; 	zujāja	zajāja	zijāja	الزُّجَاجَة‎‎; الزَّجَاجَة‎‎; الزِّجَاجَة‎‎; ‎; 	az-zujāja	az-zajāja	az-zijāja	زُجَاجَة‎‎; زَجَاجَة‎‎; زِجَاجَة‎‎; ‎; 	zujājat	zajājat	zijājat
+glass	nominative				زُجَاجَةٌ‎‎; زَجَاجَةٌ‎‎; زِجَاجَةٌ‎‎; ‎; 	zujājatun	zajājatun	zijājatun	الزُّجَاجَةُ‎‎; الزَّجَاجَةُ‎‎; الزِّجَاجَةُ‎‎; ‎; 	az-zujājatu	az-zajājatu	az-zijājatu	زُجَاجَةُ‎‎; زَجَاجَةُ‎‎; زِجَاجَةُ‎‎; ‎; 	zujājatu	zajājatu	zijājatu
+glass	accusative				زُجَاجَةً‎‎; زَجَاجَةً‎‎; زِجَاجَةً‎‎; ‎; 	zujājatan	zajājatan	zijājatan	الزُّجَاجَةَ‎‎; الزَّجَاجَةَ‎‎; الزِّجَاجَةَ‎‎; ‎; 	az-zujājata	az-zajājata	az-zijājata	زُجَاجَةَ‎‎; زَجَاجَةَ‎‎; زِجَاجَةَ‎‎; ‎; 	zujājata	zajājata	zijājata
+glass	genitive				زُجَاجَةٍ‎‎; زَجَاجَةٍ‎‎; زِجَاجَةٍ‎‎; ‎; 	zujājatin	zajājatin	zijājatin	الزُّجَاجَةِ‎‎; الزَّجَاجَةِ‎‎; الزِّجَاجَةِ‎‎; ‎; 	az-zujājati	az-zajājati	az-zijājati	زُجَاجَةِ‎‎; زَجَاجَةِ‎‎; زِجَاجَةِ‎‎; ‎; 	zujājati	zajājati	zijājati
+glass	dual				indefinite				definite				construct			
+glass	informal				زُجَاجَتَيْن‎‎; زَجَاجَتَيْن‎‎; زِجَاجَتَيْن‎‎; ‎; 	zujājatayn	zajājatayn	zijājatayn	الزُّجَاجَتَيْن‎‎; الزَّجَاجَتَيْن‎‎; الزِّجَاجَتَيْن‎‎; ‎; 	az-zujājatayn	az-zajājatayn	az-zijājatayn	زُجَاجَتَيْ‎‎; زَجَاجَتَيْ‎‎; زِجَاجَتَيْ‎‎; ‎; 	zujājatay	zajājatay	zijājatay
+glass	nominative				زُجَاجَتَانِ‎‎; زَجَاجَتَانِ‎‎; زِجَاجَتَانِ‎‎; ‎; 	zujājatāni	zajājatāni	zijājatāni	الزُّجَاجَتَانِ‎‎; الزَّجَاجَتَانِ‎‎; الزِّجَاجَتَانِ‎‎; ‎; 	az-zujājatāni	az-zajājatāni	az-zijājatāni	زُجَاجَتَا‎‎; زَجَاجَتَا‎‎; زِجَاجَتَا‎‎; ‎; 	zujājatā	zajājatā	zijājatā
+glass	accusative				زُجَاجَتَيْنِ‎‎; زَجَاجَتَيْنِ‎‎; زِجَاجَتَيْنِ‎‎; ‎; 	zujājatayni	zajājatayni	zijājatayni	الزُّجَاجَتَيْنِ‎‎; الزَّجَاجَتَيْنِ‎‎; الزِّجَاجَتَيْنِ‎‎; ‎; 	az-zujājatayni	az-zajājatayni	az-zijājatayni	زُجَاجَتَيْ‎‎; زَجَاجَتَيْ‎‎; زِجَاجَتَيْ‎‎; ‎; 	zujājatay	zajājatay	zijājatay
+glass	genitive				زُجَاجَتَيْنِ‎‎; زَجَاجَتَيْنِ‎‎; زِجَاجَتَيْنِ‎‎; ‎; 	zujājatayni	zajājatayni	zijājatayni	الزُّجَاجَتَيْنِ‎‎; الزَّجَاجَتَيْنِ‎‎; الزِّجَاجَتَيْنِ‎‎; ‎; 	az-zujājatayni	az-zajājatayni	az-zijājatayni	زُجَاجَتَيْ‎‎; زَجَاجَتَيْ‎‎; زِجَاجَتَيْ‎‎; ‎; 	zujājatay	zajājatay	zijājatay
+glass	paucal (3-10)				sound feminine paucal				sound feminine paucal				sound feminine paucal			
+glass	paucal (3-10)				indefinite				definite				construct			
+glass	informal				زُجَاجَات‎‎; زَجَاجَات‎‎; زِجَاجَات‎‎; ‎; 	zujājāt	zajājāt	zijājāt	الزُّجَاجَات‎‎; الزَّجَاجَات‎‎; الزِّجَاجَات‎‎; ‎; 	az-zujājāt	az-zajājāt	az-zijājāt	زُجَاجَات‎‎; زَجَاجَات‎‎; زِجَاجَات‎‎; ‎; 	zujājāt	zajājāt	zijājāt
+glass	nominative				زُجَاجَاتٌ‎‎; زَجَاجَاتٌ‎‎; زِجَاجَاتٌ‎‎; ‎; 	zujājātun	zajājātun	zijājātun	الزُّجَاجَاتُ‎‎; الزَّجَاجَاتُ‎‎; الزِّجَاجَاتُ‎‎; ‎; 	az-zujājātu	az-zajājātu	az-zijājātu	زُجَاجَاتُ‎‎; زَجَاجَاتُ‎‎; زِجَاجَاتُ‎‎; ‎; 	zujājātu	zajājātu	zijājātu
+glass	accusative				زُجَاجَاتٍ‎‎; زَجَاجَاتٍ‎‎; زِجَاجَاتٍ‎‎; ‎; 	zujājātin	zajājātin	zijājātin	الزُّجَاجَاتِ‎‎; الزَّجَاجَاتِ‎‎; الزِّجَاجَاتِ‎‎; ‎; 	az-zujājāti	az-zajājāti	az-zijājāti	زُجَاجَاتِ‎‎; زَجَاجَاتِ‎‎; زِجَاجَاتِ‎‎; ‎; 	zujājāti	zajājāti	zijājāti
+glass	genitive				زُجَاجَاتٍ‎‎; زَجَاجَاتٍ‎‎; زِجَاجَاتٍ‎‎; ‎; 	zujājātin	zajājātin	zijājātin	الزُّجَاجَاتِ‎‎; الزَّجَاجَاتِ‎‎; الزِّجَاجَاتِ‎‎; ‎; 	az-zujājāti	az-zajājāti	az-zijājāti	زُجَاجَاتِ‎‎; زَجَاجَاتِ‎‎; زِجَاجَاتِ‎‎; ‎; 	zujājāti	zajājāti	zijājāti
+glass	singular		masculine		masculine		masculine		feminine		feminine		feminine	
+glass	singular		basic singular triptote		basic singular triptote		basic singular triptote		singular triptote in ـَة (-a)		singular triptote in ـَة (-a)		singular triptote in ـَة (-a)	
+glass	singular		indefinite		definite		construct		indefinite		definite		construct	
+glass	informal		زَجَّاج	zajjāj	الزَّجَّاج‎	az-zajjāj	زَجَّاج	zajjāj	زَجَّاجَة‎	zajjāja	الزَّجَّاجَة‎	az-zajjāja	زَجَّاجَة‎	zajjājat
+glass	nominative		زَجَّاجٌ	zajjājun	الزَّجَّاجُ‎	az-zajjāju	زَجَّاجُ	zajjāju	زَجَّاجَةٌ‎	zajjājatun	الزَّجَّاجَةُ‎	az-zajjājatu	زَجَّاجَةُ‎	zajjājatu
+glass	accusative		زَجَّاجًا‎	zajjājan	الزَّجَّاجَ‎	az-zajjāja	زَجَّاجَ	zajjāja	زَجَّاجَةً‎	zajjājatan	الزَّجَّاجَةَ‎	az-zajjājata	زَجَّاجَةَ‎	zajjājata
+glass	genitive		زَجَّاجٍ	zajjājin	الزَّجَّاجِ‎	az-zajjāji	زَجَّاجِ	zajjāji	زَجَّاجَةٍ‎	zajjājatin	الزَّجَّاجَةِ‎	az-zajjājati	زَجَّاجَةِ‎	zajjājati
+glass	dual		masculine		masculine		masculine		feminine		feminine		feminine	
+glass	dual		indefinite		definite		construct		indefinite		definite		construct	
+glass	informal		زَجَّاجَيْن‎	zajjājayn	الزَّجَّاجَيْن‎	az-zajjājayn	زَجَّاجَيْ‎	zajjājay	زَجَّاجَتَيْن‎	zajjājatayn	الزَّجَّاجَتَيْن‎	az-zajjājatayn	زَجَّاجَتَيْ‎	zajjājatay
+glass	nominative		زَجَّاجَانِ‎	zajjājāni	الزَّجَّاجَانِ‎	az-zajjājāni	زَجَّاجَا‎	zajjājā	زَجَّاجَتَانِ‎	zajjājatāni	الزَّجَّاجَتَانِ‎	az-zajjājatāni	زَجَّاجَتَا‎	zajjājatā
+glass	accusative		زَجَّاجَيْنِ‎	zajjājayni	الزَّجَّاجَيْنِ‎	az-zajjājayni	زَجَّاجَيْ‎	zajjājay	زَجَّاجَتَيْنِ‎	zajjājatayni	الزَّجَّاجَتَيْنِ‎	az-zajjājatayni	زَجَّاجَتَيْ‎	zajjājatay
+glass	genitive		زَجَّاجَيْنِ‎	zajjājayni	الزَّجَّاجَيْنِ‎	az-zajjājayni	زَجَّاجَيْ‎	zajjājay	زَجَّاجَتَيْنِ‎	zajjājatayni	الزَّجَّاجَتَيْنِ‎	az-zajjājatayni	زَجَّاجَتَيْ‎	zajjājatay
+glass	plural		masculine		masculine		masculine		feminine		feminine		feminine	
+glass	plural		sound masculine plural		sound masculine plural		sound masculine plural		sound feminine plural		sound feminine plural		sound feminine plural	
+glass	plural		indefinite		definite		construct		indefinite		definite		construct	
+glass	informal		زَجَّاجِين‎	zajjājīn	الزَّجَّاجِين‎	az-zajjājīn	زَجَّاجِي‎	zajjājī	زَجَّاجَات‎	zajjājāt	الزَّجَّاجَات‎	az-zajjājāt	زَجَّاجَات‎	zajjājāt
+glass	nominative		زَجَّاجُونَ‎	zajjājūna	الزَّجَّاجُونَ‎	az-zajjājūna	زَجَّاجُو‎	zajjājū	زَجَّاجَاتٌ‎	zajjājātun	الزَّجَّاجَاتُ‎	az-zajjājātu	زَجَّاجَاتُ‎	zajjājātu
+glass	accusative		زَجَّاجِينَ‎	zajjājīna	الزَّجَّاجِينَ‎	az-zajjājīna	زَجَّاجِي‎	zajjājī	زَجَّاجَاتٍ‎	zajjājātin	الزَّجَّاجَاتِ‎	az-zajjājāti	زَجَّاجَاتِ‎	zajjājāti
+glass	genitive		زَجَّاجِينَ‎	zajjājīna	الزَّجَّاجِينَ‎	az-zajjājīna	زَجَّاجِي‎	zajjājī	زَجَّاجَاتٍ‎	zajjājātin	الزَّجَّاجَاتِ‎	az-zajjājāti	زَجَّاجَاتِ‎	zajjājāti
 guard	singular			masculine			masculine			masculine			feminine			feminine			feminine		
 guard	singular			basic singular triptote			basic singular triptote			basic singular triptote			singular triptote in ـَة (-a)			singular triptote in ـَة (-a)			singular triptote in ـَة (-a)		
 guard	singular			indefinite			definite			construct			indefinite			definite			construct		

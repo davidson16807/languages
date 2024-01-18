@@ -58,6 +58,8 @@ foreign_language = Language(
             conjugation_population.index([
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/finite-conjugations.tsv')),
+                *finite_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/finite-conjugations-scraped.tsv')),
                 *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
             ])),
@@ -65,10 +67,12 @@ foreign_language = Language(
             declension_population.index([
                 *pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions.tsv')),
                 *possessive_pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-possessives.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions-scraped.tsv')),
             ])),
         NestedDictLookup(
             declension_population.index([
@@ -102,7 +106,7 @@ foreign_termaxis_to_terms = {
     '''),
     **parse_any.token_to_tokens('''
         verb : be become carry leave work do ask stretch know sit protect be-red set-down want-to-see renew say point-out
-        noun : man mare animal enemy seed father water cow sea fight cloud stone woman
+        noun : man mare animal enemy seed father water cow sea fight cloud stone woman brother sister
         adjective: young old upset
     '''),
 }
@@ -300,9 +304,9 @@ possession_traversal = parse.tokenpath(
     'possession_traversal', 
     'gender noun',
     '''
-    masculine  son      
-    feminine   daughter 
-    neuter     name     
+    masculine  brother
+    feminine   sister 
+    neuter     gift
     ''')
 
 possessor_possession_whitelist = parse.tokenmask(
@@ -315,22 +319,17 @@ possessor_possession_whitelist = parse.tokenmask(
     woman-possessor  brother
     woman-possessor  sister
     woman-possessor  house
-    sea-possessor    man
-    sea-possessor    woman
-    sea-possessor    name
     ''')
- 
+
 possessor_pronoun_traversal = label_editing.termpath(
     parse.tokenpath(
         'possessor_pronoun_traversal', 
         'noun person number gender',
         '''
-        man    1 singular masculine   
+        man    1 singular neuter   
         woman  2 singular feminine 
-        sea    1 singular neuter   
-        man    1 plural   masculine   
+        man    1 plural   neuter   
         woman  2 plural   feminine 
-        sea    1 plural   neuter   
         '''), 
     'possessor')
 

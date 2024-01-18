@@ -28,6 +28,11 @@ book		singular	singular	plural	plural
 book		indefinite	definite	indefinite	definite
 book	nominative	bok	boken	bokar	bokarna
 book	genitive	boks	bokens	bokars	bokarnas
+brother	declension of bror 	declension of bror 	declension of bror 	declension of bror 	declension of bror 
+brother		singular	singular	plural	plural
+brother		indefinite	definite	indefinite	definite
+brother	nominative	bror	brodern	bröder	bröderna
+brother	genitive	brors	broderns	bröders	brödernas
 bug	declension of kryp 	declension of kryp 	declension of kryp 	declension of kryp 	declension of kryp 
 bug		singular	singular	plural	plural
 bug		indefinite	definite	indefinite	definite
@@ -48,6 +53,11 @@ dog		singular	singular	plural	plural
 dog		indefinite	definite	indefinite	definite
 dog	nominative	hund	hunden	hundar	hundarna
 dog	genitive	hunds	hundens	hundars	hundarnas
+door	declension of dörr 	declension of dörr 	declension of dörr 	declension of dörr 	declension of dörr 
+door		singular	singular	plural	plural
+door		indefinite	definite	indefinite	definite
+door	nominative	dörr	dörren	dörrar	dörrarna
+door	genitive	dörrs	dörrens	dörrars	dörrarnas
 drum	declension of trumma 	declension of trumma 	declension of trumma 	declension of trumma 	declension of trumma 
 drum		singular	singular	plural	plural
 drum		indefinite	definite	indefinite	definite
@@ -73,6 +83,11 @@ gift		singular	singular	plural	plural
 gift		indefinite	definite	indefinite	definite
 gift	nominative	gåva	gåvan	gåvor	gåvorna
 gift	genitive	gåvas	gåvans	gåvors	gåvornas
+glass	declension of glas 	declension of glas 	declension of glas 	declension of glas 	declension of glas 
+glass		singular	singular	plural	plural
+glass		indefinite	definite	indefinite	definite
+glass	nominative	glas	glaset	glas	glasen
+glass	genitive	glas	glasets	glas	glasens
 guard	declension of vakt 	declension of vakt 	declension of vakt 	declension of vakt 	declension of vakt 
 guard		singular	singular	plural	plural
 guard		indefinite	definite	indefinite	definite
@@ -173,16 +188,6 @@ way		singular	singular	plural	plural
 way		indefinite	definite	indefinite	definite
 way	nominative	väg	vägen	vägar	vägarna
 way	genitive	vägs	vägens	vägars	vägarnas
-wind	inflection of vind	inflection of vind	inflection of vind	inflection of vind
-wind	indefinite	positive	comparative	superlative2
-wind	common singular	vind	vindare	vindast
-wind	neuter singular	vint	vindare	vindast
-wind	plural	vinda	vindare	vindast
-wind	masculine plural3	vinde	vindare	vindast
-wind	definite	positive	comparative	superlative
-wind	masculine singular1	vinde	vindare	vindaste
-wind	all	vinda	vindare	vindaste
-wind	1) Only used, optionally, to refer to things whose natural gender is masculine.2) The indefinite superlative forms are only used in the predicative.3) Dated or archaic	1) Only used, optionally, to refer to things whose natural gender is masculine.2) The indefinite superlative forms are only used in the predicative.3) Dated or archaic	1) Only used, optionally, to refer to things whose natural gender is masculine.2) The indefinite superlative forms are only used in the predicative.3) Dated or archaic	1) Only used, optionally, to refer to things whose natural gender is masculine.2) The indefinite superlative forms are only used in the predicative.3) Dated or archaic
 wind	declension of vind 	declension of vind 	declension of vind 	declension of vind 	declension of vind 
 wind		singular	singular	plural	plural
 wind		indefinite	definite	indefinite	definite

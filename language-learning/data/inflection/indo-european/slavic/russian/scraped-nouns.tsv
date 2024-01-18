@@ -26,6 +26,14 @@ boat	dative			ло́дке	lódke		ло́дкам	lódkam
 boat	accusative			ло́дку	lódku		ло́дки	lódki	
 boat	instrumental			ло́дкой, ло́дкою, u	lódkoj	lódkoju	ло́дками	lódkami	
 boat	prepositional			ло́дке	lódke		ло́дках	lódkax	
+brother			singular		plural	
+brother	nominative		бра́т	brát	бра́тья△*	brátʹja△*
+brother	genitive		бра́та	bráta	бра́тьев△*	brátʹjev△*
+brother	dative		бра́ту	brátu	бра́тьям△*	brátʹjam△*
+brother	accusative		бра́та	bráta	бра́тьев△*	brátʹjev△*
+brother	instrumental		бра́том	brátom	бра́тьями△*	brátʹjami△*
+brother	prepositional		бра́те	bráte	бра́тьях△*	brátʹjax△*
+brother	vocative		бра́те	bráte		
 bug				singular			plural		
 bug	nominative			бука́шка	bukáška		бука́шки	bukáški	
 bug	genitive			бука́шки	bukáški		бука́шек	bukášek	
@@ -55,6 +63,14 @@ dog	dative			соба́ке	sobáke		соба́кам	sobákam
 dog	accusative			соба́ку	sobáku		соба́к	sobák	
 dog	instrumental			соба́кой, соба́кою, u	sobákoj	sobákoju	соба́ками	sobákami	
 dog	prepositional			соба́ке	sobáke		соба́ках	sobákax	
+door				singular			plural		
+door	nominative			две́рь	dvérʹ		две́ри	dvéri	
+door	genitive			две́ри, двери́*, 	dvéri	dverí*	двере́й	dveréj	
+door	dative			две́ри, двери́*, 	dvéri	dverí*	дверя́м	dverjám	
+door	accusative			две́рь	dvérʹ		две́ри	dvéri	
+door	instrumental			две́рью	dvérʹju		дверя́ми, дверьми́△, 	dverjámi	dverʹmí△
+door	prepositional			две́ри, двери́*, 	dvéri	dverí*	дверя́х	dverjáx	
+door	locative			двери́	dverí				
 drum			singular		plural	
 drum	nominative		бараба́н	barabán	бараба́ны	barabány
 drum	genitive		бараба́на	barabána	бараба́нов	barabánov
@@ -90,6 +106,13 @@ gift	dative		пода́рку	podárku	пода́ркам	podárkam
 gift	accusative		пода́рок	podárok	пода́рки	podárki
 gift	instrumental		пода́рком	podárkom	пода́рками	podárkami
 gift	prepositional		пода́рке	podárke	пода́рках	podárkax
+glass			singular		plural	
+glass	nominative		стекло́	stekló	стёкла	stjókla
+glass	genitive		стекла́	steklá	стёкол	stjókol
+glass	dative		стеклу́	steklú	стёклам	stjóklam
+glass	accusative		стекло́	stekló	стёкла	stjókla
+glass	instrumental		стекло́м	steklóm	стёклами	stjóklami
+glass	prepositional		стекле́	steklé	стёклах	stjóklax
 guard			singular		plural	
 guard	nominative		стра́жник	strážnik	стра́жники	strážniki
 guard	genitive		стра́жника	strážnika	стра́жников	strážnikov

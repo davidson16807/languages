@@ -16,6 +16,15 @@ book	singular	construct	סֵפֶר־	third	סִפְרוֹ‎	סִפְרָהּ‎
 book	plural	indefinite	סְפָרִים‎	first	ספריי / סְפָרַי‎	ספריי / סְפָרַי‎	סְפָרֵינוּ‎	סְפָרֵינוּ‎
 book	plural	definite	הַסְּפָרִים‎	second	סְפָרֶיךָ‎	ספרייך / סְפָרַיִךְ‎	סִפְרֵיכֶם‎	סִפְרֵיכֶן‎
 book	plural	construct	סִפְרֵי־‎	third	סְפָרָיו‎	סְפָרֶיהָ‎	סִפְרֵיהֶם‎	סִפְרֵיהֶן‎
+brother	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+brother	number	state	form	person	singular	singular	plural	plural
+brother	number	state	form	person	m.	f.	m.	f.
+brother	singular	indefinite	אָח	first	אָחִי‎	אָחִי‎	אָחִינוּ‎	אָחִינוּ‎
+brother	singular	definite	הָאָח‎	second	אָחִיךָ‎	אָחִיךְ‎	אֲחִיכֶם‎	אֲחִיכֶן‎
+brother	singular	construct	אֲחִי־‎	third	אָחִיו‎	אָחִיהָ‎	אֲחִיהֶם‎	אֲחִיהֶן‎
+brother	plural	indefinite	אַחִים‎	first	אחיי / אַחַי‎	אחיי / אַחַי‎	אַחֵינוּ‎	אַחֵינוּ‎
+brother	plural	definite	הָאַחִים‎	second	אַחֶיךָ‎	אחייך / אַחַיִךְ‎	אַחֵיכֶם‎	אַחֵיכֶן‎
+brother	plural	construct	אַחֵי־‎	third	אֶחָיו‎	אַחֶיהָ‎	אַחֵיהֶם‎	אַחֵיהֶן‎
 daughter	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
 daughter	number	state	form	person	singular	singular	plural	plural
 daughter	number	state	form	person	m.	f.	m.	f.
@@ -40,6 +49,18 @@ dog	feminine singular	construct	כַּלְבַּת־‎	third	כַּלְבָּת
 dog	feminine plural	indefinite	כְּלָבוֹת‎	first	כלבותיי / כַּלְבוֹתַי‎	כלבותיי / כַּלְבוֹתַי‎	כַּלְבוֹתֵינוּ‎	כַּלְבוֹתֵינוּ‎
 dog	feminine plural	definite	הַכְּלָבוֹת‎	second	כַּלְבוֹתֶיךָ‎	כלבותייך / כַּלְבוֹתַיִךְ‎	כַּלְבוֹתֵיכֶם‎	כַּלְבוֹתֵיכֶן‎
 dog	feminine plural	construct	כַּלְבוֹת־‎	third	כַּלְבוֹתָיו‎	כַּלְבוֹתֶיהָ‎	כַּלְבוֹתָם‎	כַּלְבוֹתָן‎
+door	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+door	number	state	form	person	singular	singular	plural	plural
+door	number	state	form	person	m.	f.	m.	f.
+door	singular	indefinite	דֶּלֶת	first	דַּלְתִּי‎	דַּלְתִּי‎	דַּלְתֵּנוּ‎	דַּלְתֵּנוּ‎
+door	singular	definite	הַדֶּלֶת‎	second	דַּלְתְּךָ‎	דַּלְתֵּךְ‎	דַּלְתְּכֶם‎	דַּלְתְּכֶן‎
+door	singular	construct	דֶּלֶת־	third	דַּלְתּוֹ‎	דַּלְתָּהּ‎	דַּלְתָּם‎	דַּלְתָּן‎
+door	dual	indefinite	דלתיים / דְּלָתַיִם‎	first	דלתיי / דְּלָתַי‎	דלתיי / דְּלָתַי‎	דְּלָתֵינוּ‎	דְּלָתֵינוּ‎
+door	dual	definite	הדלתיים / הַדְּלָתַיִם‎	second	דְּלָתֶיךָ‎	דלתייך / דְּלָתַיִךְ‎	דַּלְתֵיכֶם‎	דַּלְתֵיכֶן‎
+door	dual	construct	דַּלְתֵי־‎	third	דְּלָתָיו‎	דְּלָתֶיהָ‎	דַּלְתֵיהֶם‎	דַּלְתֵיהֶן‎
+door	plural	indefinite	דְּלָתוֹת‎	first	דלתותיי / דַּלְתוֹתַי‎	דלתותיי / דַּלְתוֹתַי‎	דַּלְתוֹתֵינוּ‎	דַּלְתוֹתֵינוּ‎
+door	plural	definite	הַדְּלָתוֹת‎	second	דַּלְתוֹתֶיךָ‎	דלתותייך / דַּלְתוֹתַיִךְ‎	דַּלְתוֹתֵיכֶם‎	דַּלְתוֹתֵיכֶן‎
+door	plural	construct	דַּלְתוֹת־‎	third	דַּלְתוֹתָיו‎	דַּלְתוֹתֶיהָ‎	דַּלְתוֹתָם‎	דַּלְתוֹתָן‎
 food	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
 food	number	state	form	person	singular	singular	plural	plural
 food	number	state	form	person	m.	f.	m.	f.

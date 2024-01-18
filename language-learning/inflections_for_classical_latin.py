@@ -394,26 +394,28 @@ possessor_possession_whitelist = parse.tokenmask(
     woman-possessor  brother
     woman-possessor  sister
     woman-possessor  gift
-    animal-possessor brother
-    animal-possessor sister
-    animal-possessor name
+    snake-possessor  brother
+    snake-possessor  sister
+    snake-possessor  name
     ''')
 
-possessor_pronoun_traversal = parse.tokenpath(
-    'possessor_pronoun_traversal', 
-    'noun person number gender',
-    '''
-    man    1 singular neuter   
-    woman  2 singular feminine 
-    man    3 singular masculine
-    woman  3 singular feminine 
-    snake  3 singular neuter   
-    man    1 plural   neuter   
-    woman  2 plural   feminine 
-    man    3 plural   masculine
-    woman  3 plural   feminine 
-    man    3 plural   neuter   
-    ''')
+possessor_pronoun_traversal = label_editing.termpath(
+    parse.tokenpath(
+        'possessor_pronoun_traversal', 
+        'noun person number gender',
+        '''
+        man    1 singular neuter   
+        woman  2 singular feminine 
+        man    3 singular masculine
+        woman  3 singular feminine 
+        snake  3 singular neuter   
+        man    1 plural   neuter   
+        woman  2 plural   feminine 
+        man    3 plural   masculine
+        woman  3 plural   feminine 
+        man    3 plural   neuter   
+        '''), 
+    'possessor')
 
 #useful for debugging
 def head(store):
@@ -620,7 +622,7 @@ write('flashcards/latin/pronoun-possessives.html',
             (((  axis['number'] 
                * possession_traversal 
                * declension_noun_traversal 
-               * label_editing.termpath(possessor_pronoun_traversal, 'possessor'))
+               * possessor_pronoun_traversal)
               & possessor_possession_whitelist)
              * constant['exclusive-possessor']  
              * constant['familiar-possessor']

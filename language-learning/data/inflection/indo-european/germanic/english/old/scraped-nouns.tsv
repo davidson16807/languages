@@ -28,6 +28,11 @@ book	nominative	bōc	bōca, bōce
 book	accusative	bōce	bōca, bōce
 book	genitive	bōce	bōca
 book	dative	bōce	bōcum
+brother	case	singular	plural
+brother	nominative	brōþor	brōþor, ġebrōþor, brōþra, ġebrōþra, brōþru, ġebrōþru
+brother	accusative	brōþor	brōþor, ġebrōþor, brōþra, ġebrōþra, brōþru, ġebrōþru
+brother	genitive	brōþor	brōþra, ġebrōþra
+brother	dative	brēþer	brōþrum, ġebrōþrum
 bug	case	singular	plural
 bug	nominative	budda	buddan
 bug	accusative	buddan	buddan
@@ -53,6 +58,11 @@ dog	nominative	hund	hund
 dog	accusative	hund	hund
 dog	genitive	hundes	hunda
 dog	dative	hunde	hundum
+door	case	singular	plural
+door	nominative	duru	dura
+door	accusative	duru	dura
+door	genitive	dura	dura
+door	dative	dura	durum
 enemy	case	singular	plural
 enemy	nominative	fēond	fīend
 enemy	accusative	fēond	fīend
@@ -73,6 +83,11 @@ gift	nominative	ġiefu	ġiefa, ġiefe
 gift	accusative	ġiefe	ġiefa, ġiefe
 gift	genitive	ġiefe	ġiefa
 gift	dative	ġiefe	ġiefum
+glass	case	singular	plural
+glass	nominative	glæs	glasu
+glass	accusative	glæs	glasu
+glass	genitive	glæses	glasa
+glass	dative	glæse	glasum
 guard	case	singular	plural
 guard	nominative	weard	weardas
 guard	accusative	weard	weardas
@@ -223,11 +238,6 @@ time	nominative	tīd	tīde, tīda
 time	accusative	tīd, tīde	tīde, tīda
 time	genitive	tīde	tīda
 time	dative	tīde	tīdum
-English	case	singular	plural
-English	nominative	—	Engle
-English	accusative	—	Engle
-English	genitive	—	Engla
-English	dative	—	Englum
 hand	case	singular	plural
 hand	nominative	hand	handa
 hand	accusative	hand	handa

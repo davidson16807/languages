@@ -93,367 +93,149 @@ voices = 'active'
 
 adjectives = 'good tall black red green'.split()
 
+
+
+print('flashcards/old-english/finite-conjugation.html')
 write('flashcards/old-english/finite-conjugation.html', 
     deck_generation.generate(
-        [demonstration.verb(
-            substitutions = [{'conjugated': list_tools.replace(['cloze', 'v', 'verb'])}],
-            stock_modifier = foreign_language.grammar.stock_modifier,
-            default_tree = 'clause [test [np the n man] [vp conjugated]] [modifier np test stock-modifier]'
+        [demonstration.generator(
+            tree_lookup = UniformDictLookup(
+                'clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]',)
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'gender','person','number','formality','clusivity','clitic',
-            'tense', 'progress', 'mood', 'voice', 'verb', 'verb-form', ]),
-        {
-            **tag_defaults,
-            'gender':      genders,
-            'person':    ['1','2','3'],
-            'number':      numbers,
-            'progress':    progress,
-            'mood':        moods,
-            'tense':       tenses,
-            'voice':       voices,
-            'verb':        verbs,
-            'animacy':    'sapient',
-            'noun-form':  'personal',
-            'verb-form':  'finite',
-        },
-        whitelists = [
-            DictLookup(
-                'pronoun filter', 
-                DictTupleIndexing(['person', 'number', 'gender']),
-                content = {
-                    ('1', 'singular', 'neuter'),
-                    ('2', 'singular', 'feminine'),
-                    ('3', 'singular', 'masculine'),
-                    ('1', 'plural',   'neuter'),
-                    ('2', 'plural',   'feminine'),
-                    ('3', 'plural',   'masculine'),
-                }),
-            DictLookup(
-                'pronoun filter', 
-                DictTupleIndexing(['tense', 'mood']),
-                content = {
-                    ('present', 'indicative', ),
-                    ('past',    'indicative', ),
-                    ('present', 'subjunctive',),
-                    ('past',    'subjunctive',),
-                    ('present', 'imperative', ),
-                }),
-        ],
-    ))
-
-write('flashcards/old-english/common-noun-declension.html', 
-    deck_generation.generate(
-        [demonstration.case(
-            stock_modifier = foreign_language.grammar.stock_modifier,
-            substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
-        ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', ]),
-        {
-            **tag_defaults,
-            'noun':        nouns,
-            'number':      numbers,
-            'role':        roles,
-            'motion':      motions,
-            'animacy':    'thing',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
+        defaults.override(
+              conjugation_subject_traversal 
+            * conjugation_traversal
+        ),
         tag_templates ={
-            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'noun-form':'common'},
-            'emoji'      : {'noun-form':'common', 'person':'4'},
+            'test'    : parse.termaxis_to_term('personal associated agent subject'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
         },
     ))
 
-write('flashcards/old-english/pronoun-declension.html', 
+"""
+print('flashcards/old-english/participle-declension.html')
+write('flashcards/old-english/participle-declension.html', 
     deck_generation.generate(
-        [demonstration.case(
-            stock_modifier = foreign_language.grammar.stock_modifier,
-            substitutions = [{'declined': list_tools.replace(['the', 'cloze', 'n', 'noun'])}],
+        [demonstration.generator(
+            tree_lookup = UniformDictLookup(
+                '''clause test [
+                    [np participle clause [np n] parentheses [vp cloze v verb] [dummy np [stock-adposition] n]]
+                    [vp active present atelic v appear]
+                ]'''),
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            'noun', 'gender', 'person', 'number', 'motion', 'role',]),
-        {
-            **tag_defaults,
-            'noun':      ['man','woman','snake'],
-            'gender':      genders,
-            'role':        roles,
-            'motion':      motions,
-            'number':      numbers,
-            'person':    ['1','2','3'],
-            'animacy':    'animate',
-            'noun-form':  'personal',
-            'verb-form':  'finite',
-        },
-        whitelists = [
-            DictLookup(
-                'pronoun filter', 
-                DictTupleIndexing(['noun', 'person', 'number', 'gender']),
-                content = {
-                    ('man',   '1', 'singular', 'neuter'   ),
-                    ('woman', '2', 'singular', 'feminine' ),
-                    ('man',   '3', 'singular', 'masculine'),
-                    ('woman', '3', 'singular', 'feminine' ),
-                    ('snake', '3', 'singular', 'neuter'   ),
-                    ('man',   '1', 'plural',   'neuter'   ),
-                    ('woman', '2', 'plural',   'feminine' ),
-                    ('man',   '3', 'plural',   'masculine'),
-                    ('woman', '3', 'plural',   'feminine' ),
-                    ('man',   '3', 'plural',   'neuter'   ),
-                })
-            ],
+        defaults.override(
+            (   conjugation_traversal
+              & constant['indicative']
+              & constant['atelic'])
+        ),
         tag_templates ={
-            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'noun-form':'personal'},
-            'emoji'      : {'noun-form':'personal'},
+            'test'    : parse.termaxis_to_term('common definite associated agent subject'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'participle' : parse.termaxis_to_term('common definite participle subject'),
         },
     ))
+"""
 
-
+print('flashcards/old-english/adpositions.html')
 write('flashcards/old-english/adpositions.html', 
     deck_generation.generate(
-        [demonstration.case(
-            stock_modifier = foreign_language.grammar.stock_modifier,
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
             substitutions = [
-                {'declined': list_tools.replace(['the', 'n', 'noun'])},
+                {'declined': list_tools.replace(['n'])},
                 {'stock-adposition': list_tools.wrap('cloze')},
             ],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', ]),
-        {
-            **tag_defaults,
-            'motion':      case_episemaxis_to_episemes['motion'],
-            'role':        case_episemaxis_to_episemes['role'],
-            'animacy':    'sapient',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
-        blacklists = [
-            DictLookup(
-                'role filter', 
-                DictKeyIndexing('role'),
-                content = set('solitary agent force patient theme experiencer stimulus predicate predicand audience possessor'.split())),
-        ],
+        defaults.override(
+            (declension_noun_traversal * constant['man'])
+            & constant['adverbial']
+            & noun_template_whitelist
+        ),
         tag_templates ={
-            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular'},
-            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular'},
-            'patient'    : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'noun-form':'common'},
-            'emoji'      : {'noun-form':'common', 'person':'4'},
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('personal definite'),
         },
     ))
 
-write('flashcards/old-english/strong-adjective-agreement.html', 
+print('flashcards/old-english/common-noun-declension.html')
+write('flashcards/old-english/common-noun-declension.html',
     deck_generation.generate(
-        [demonstration.case(
-            stock_modifier = foreign_language.grammar.stock_modifier,
-            substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
+            substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', 'adjective']),
-        {
-            **tag_defaults,
-            'adjective':  adjectives,
-            'noun':      ['man','woman','animal'] ,
-            'number':      numbers,
-            'gender':      genders,
-            'role':        roles,
-            'motion':      motions,
-            'strength':   'strong',
-            'animacy':    'animate',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
-        whitelists = [
-            DictLookup(
-                'adjective agreement noun filter', 
-                DictTupleIndexing(['gender', 'noun']),
-                content = {
-                    ('masculine', 'man'   ),
-                    ('feminine',  'woman' ),
-                    ('neuter',    'animal'),
-                })
-            ],
+        defaults.override(
+            (declension_noun_traversal * axis['number'] * axis['noun'])
+                & noun_template_whitelist
+        ),
         tag_templates ={
-            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'noun-form':'common'},
-            'emoji'      : {'noun-form':'common', 'person':'4'},
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
 
-write('flashcards/old-english/weak-adjective-agreement.html', 
+print('flashcards/old-english/pronoun-declension.html')
+write('flashcards/old-english/pronoun-declension.html', 
     deck_generation.generate(
-        [demonstration.case(
-            stock_modifier = foreign_language.grammar.stock_modifier,
-            substitutions = [{'declined': list_tools.replace(['the', ['cloze','adj','adjective'], ['n', 'noun']])}],
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
+            substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', 'adjective']),
-        {
-            **tag_defaults,
-            'adjective':  adjectives,
-            'noun':      ['man','woman','animal'] ,
-            'number':      numbers,
-            'gender':      genders,
-            'role':        roles,
-            'motion':      motions,
-            'strength':   'weak',
-            'animacy':    'animate',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
-        whitelists = [
-            DictLookup(
-                'adjective agreement noun filter', 
-                DictTupleIndexing(['gender', 'noun']),
-                content = {
-                    ('masculine', 'man'   ),
-                    ('feminine',  'woman' ),
-                    ('neuter',    'animal'),
-                })
-            ],
+        defaults.override(
+            ((pronoun_traversal * declension_noun_traversal * constant['personal'])
+            & noun_template_whitelist)
+        ),
         tag_templates ={
-            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'noun-form':'common'},
-            'emoji'      : {'noun-form':'common', 'person':'4'},
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term(''),
         },
     ))
 
+print('flashcards/old-english/adjective-agreement.html')
+write('flashcards/old-english/adjective-agreement.html', 
+    deck_generation.generate(
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
+            substitutions = [{'declined': list_tools.replace([['cloze','adj','adjective'], ['n']])}],
+        ) for demonstration in demonstrations], 
+        defaults.override(
+            ((  axis['number']
+             * gender_agreement_traversal
+             * declension_noun_traversal
+             * axis['adjective'])
+            & noun_template_whitelist) 
+        ),
+        tag_templates ={
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('common definite'),
+        },
+    ))
+
+print('flashcards/old-english/pronoun-possessives.html')
 write('flashcards/old-english/pronoun-possessives.html', 
     deck_generation.generate(
-        [demonstration.case(
-            stock_modifier = foreign_language.grammar.stock_modifier,
-            substitutions = [
-                {'declined': list_tools.replace(['the', ['cloze','adj'], ['common', 'n', 'noun']])},
-            ],
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
+            substitutions = [{'declined': list_tools.replace([['cloze','det'], ['common', 'n']])}],
         ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'motion', 'role', 'number', 'noun', 'gender', 
-            'possessor-gender', 'possessor-noun', 
-            'possessor-clusivity', 'possessor-formality', 
-            'possessor-person', 'possessor-number',]),
-        {
-            **tag_defaults,
-            'possessor-noun':   ['man','woman','snake'],
-            'possessor-gender': ['masculine-possessor','feminine-possessor','neuter-possessor'],
-            'possessor-number': ['singular-possessor','plural-possessor'],
-            'possessor-person': ['1-possessor','2-possessor','3-possessor'],
-            'possessor-clusivity': 'exclusive-possessor',
-            'possessor-formality': 'familiar-possessor',
-            'noun':      ['son','daughter','livestock'],
-            'number':     numbers,
-            'gender':     genders,
-            'role':        roles,
-            'motion':      motions,
-            'animacy':    'thing',
-            'noun-form':  'common',
-            'verb-form':  'finite',
-        },
-        whitelists = [
-            DictLookup(
-                'possessive pronoun possession filter', 
-                DictTupleIndexing(['possessor-noun', 'gender', 'noun']),
-                content = {
-                    ('man',   'masculine', 'son'      ),
-                    ('man',   'feminine',  'daughter' ),
-                    ('man',   'neuter',    'livestock'),
-                    ('woman', 'masculine', 'son'      ),
-                    ('woman', 'feminine',  'daughter' ),
-                    ('woman', 'neuter',    'livestock'),
-                    ('snake', 'masculine', 'son'      ),
-                    ('snake', 'feminine',  'daughter' ),
-                    ('snake', 'neuter',    'name'     ),
-                }),
-            DictLookup(
-                'pronoun filter', 
-                DictTupleIndexing(['possessor-noun', 'possessor-person', 'possessor-number', 'possessor-gender']),
-                content = {
-                    ('man',   '1-possessor', 'singular-possessor', 'neuter-possessor'   ),
-                    ('woman', '2-possessor', 'singular-possessor', 'feminine-possessor' ),
-                    ('man',   '3-possessor', 'singular-possessor', 'masculine-possessor'),
-                    ('woman', '3-possessor', 'singular-possessor', 'feminine-possessor' ),
-                    ('snake', '3-possessor', 'singular-possessor', 'neuter-possessor'   ),
-                    ('man',   '1-possessor', 'plural-possessor',   'neuter-possessor'   ),
-                    ('woman', '2-possessor', 'plural-possessor',   'feminine-possessor' ),
-                    ('man',   '3-possessor', 'plural-possessor',   'masculine-possessor'),
-                    ('woman', '3-possessor', 'plural-possessor',   'feminine-possessor' ),
-                    ('man',   '3-possessor', 'plural-possessor',   'neuter-possessor'   ),
-                }),
-            ],
+        defaults.override(
+            (((  axis['number'] 
+               * possession_traversal 
+               * declension_noun_traversal 
+               * possessor_pronoun_traversal)
+              & possessor_possession_whitelist)
+             * constant['exclusive-possessor']  
+             * constant['familiar-possessor']
+            )
+            & noun_template_whitelist
+        ),
         tag_templates ={
-            'agent'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'noun-form':'personal-possessive'},
-            'emoji'      : {'person':'4'},
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('personal-possessive adefinite'),
         },
     ))
 
-
-write('flashcards/old-english/participle-declension.html', 
-    deck_generation.generate(
-        [demonstration.case(
-            stock_modifier = foreign_language.grammar.stock_modifier,
-            substitutions = [
-                {'declined': list_tools.replace(['the', ['n', 'noun'], ['parentheses', ['participle', 'cloze', 'v','verb'], ['modifier', 'np', 'participle', 'stock-modifier']]])},
-            ],
-        ) for demonstration in demonstrations],
-        DictTupleIndexing([
-            # categories that are iterated over
-            'tense', 'voice', 'progress', 'mood', 
-            'motion', 'role', 'number', 'noun', 'gender', 'verb',]),
-        {
-            **tag_defaults,
-            'motion':      case_episemaxis_to_episemes['motion'],
-            'verb':        verbs,
-            'role':        'agent',
-            'valency':     'transitive',
-            'animacy':     'thing',
-            'tense':        tenses,
-            'voice':        voices,
-            'verb-form':   'participle',
-            'noun-form':   'common',
-        },
-        tag_templates ={
-            'agent'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'solitary'   : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'patient'    : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'theme'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'personal', 'person':'3', 'number':'singular', 'gender':'masculine'},
-            'possession' : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',   'person':'3', 'number':'singular', 'gender':'masculine'},
-            'test'       : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common',},
-            'emoji'      : {'verb-form':'finite','tense':'present', 'voice':'active', 'progress':'atelic', 'noun-form':'common', 'person':'4'},
-            'participle' : {'case':'nominative'},
-        },
-    ))
-
-
-
+end_time = time.time()
+duration = end_time-start_time
+print(f'runtime: {int(duration//60)}:{int(duration%60):02}')
+ 
