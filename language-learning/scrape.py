@@ -166,6 +166,121 @@ crawling = Crawling(parsing)
 formatting = RowMajorTableText('\t','\n')
 
 
+noun_html = crawling.crawl('''
+	animal    https://en.wiktionary.org/wiki/nieten#Old_English
+	attention https://en.wiktionary.org/wiki/ge%C3%BEoht#Old_English
+	bird      https://en.wiktionary.org/wiki/fugol#Old_English
+	boat      https://en.wiktionary.org/wiki/bat#Old_English
+	book      https://en.wiktionary.org/wiki/boc#Old_English
+	brother   https://en.wiktionary.org/wiki/bro%C3%BEor#Old_English
+	bug       https://en.wiktionary.org/wiki/budda#Old_English
+	clothing  https://en.wiktionary.org/wiki/scrud#Old_English
+	daughter  https://en.wiktionary.org/wiki/dohtor#Old_English
+	dog       https://en.wiktionary.org/wiki/hund#Old_English
+	door      https://en.wiktionary.org/wiki/duru#Old_English
+	drum      
+	enemy     https://en.wiktionary.org/wiki/feond#Old_English
+	fire      https://en.wiktionary.org/wiki/fyr#Old_English
+	food      https://en.wiktionary.org/wiki/foda#Old_English
+	gift      https://en.wiktionary.org/wiki/giefu#Old_English
+	glass     https://en.wiktionary.org/wiki/gl%C3%A6s#Old_English
+	guard     https://en.wiktionary.org/wiki/weard#Old_English
+	horse     https://en.wiktionary.org/wiki/hors#Old_English
+	house     https://en.wiktionary.org/wiki/hus#Old_English
+	livestock https://en.wiktionary.org/wiki/feoh#Old_English
+	love      https://en.wiktionary.org/wiki/lufu#Old_English
+	idea      https://en.wiktionary.org/wiki/ge%C3%BEoht#Old_English
+	man       https://en.wiktionary.org/wiki/mann#Old_English
+	money     https://en.wiktionary.org/wiki/feoh#Old_English
+	monster   https://en.wiktionary.org/wiki/%C3%BEyrs#Old_English
+	name      https://en.wiktionary.org/wiki/nama#Old_English
+	rock      https://en.wiktionary.org/wiki/Reconstruction:Old_English/rocc
+	rope      https://en.wiktionary.org/wiki/rap#Old_English
+	size      https://en.wiktionary.org/wiki/micelnes#Old_English
+	son       https://en.wiktionary.org/wiki/sunu#Old_English
+	sound     https://en.wiktionary.org/wiki/sweg#Old_English
+	warmth    https://en.wiktionary.org/wiki/h%C3%A6tu#Old_English
+	water     https://en.wiktionary.org/wiki/w%C3%A6ter#Old_English
+	way       https://en.wiktionary.org/wiki/weg#Old_English
+	wind      https://en.wiktionary.org/wiki/wind#Old_English
+	window    https://en.wiktionary.org/wiki/eagduru#Old_English
+	woman     https://en.wiktionary.org/wiki/cwene#Old_English
+	work      https://en.wiktionary.org/wiki/weorc#Old_English
+
+	light     https://en.wiktionary.org/wiki/scip#Old_English
+	raid      https://en.wiktionary.org/wiki/rad#Old_English
+	moon      https://en.wiktionary.org/wiki/mona#Old_English
+	sun       https://en.wiktionary.org/wiki/sunne#Old_English
+	eye       https://en.wiktionary.org/wiki/eage#Old_English
+	time      https://en.wiktionary.org/wiki/tid#Old_English
+	English   https://en.wiktionary.org/wiki/Engle#Old_English
+	hand      https://en.wiktionary.org/wiki/hand#Old_English
+	person    https://en.wiktionary.org/wiki/mann#Old_English
+	nut       https://en.wiktionary.org/wiki/hnutu#Old_English
+	goose     https://en.wiktionary.org/wiki/gos#Old_English
+	friend    https://en.wiktionary.org/wiki/freond#Old_English
+	bystander https://en.wiktionary.org/wiki/ymbstandend#Old_English
+	father    https://en.wiktionary.org/wiki/f%C3%A6der#Old_English
+	mother    https://en.wiktionary.org/wiki/modor#Old_English
+	brother   https://en.wiktionary.org/wiki/bro%C3%BEor#Old_English
+	sister    https://en.wiktionary.org/wiki/sweostor#Old_English
+	lamb      https://en.wiktionary.org/wiki/lamb#Old_English
+	shoe      https://en.wiktionary.org/wiki/scoh#Old_English
+	piglet    https://en.wiktionary.org/wiki/fearh#Old_English
+	shadow    https://en.wiktionary.org/wiki/sceadu#Old_English
+	meadow    https://en.wiktionary.org/wiki/m%C3%A6d#Old_English
+''')
+
+print('ENGLISH/OLD')
+write('data/inflection/indo-european/germanic/english/old/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Old_English'), noun_html)
+	)
+)
+
+write('data/inflection/indo-european/germanic/english/old/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Old_English', 'ang'), 
+			noun_html)
+	)
+)
+
+write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Old_English', 'ang'), 
+			crawling.crawl('''
+				appear    https://en.wiktionary.org/wiki/%C3%A6tiewan#Old_English
+				be-inherently  https://en.wiktionary.org/wiki/wesan#Old_English
+				be-momentarily https://en.wiktionary.org/wiki/beon#Old_English
+				change    https://en.wiktionary.org/wiki/wendan#Old_English
+				climb     https://en.wiktionary.org/wiki/climban#Old_English
+				crawl     
+				cool      https://en.wiktionary.org/wiki/colian#Old_English
+				direct    https://en.wiktionary.org/wiki/lead#Old_English
+				displease https://en.wiktionary.org/wiki/drefan#Old_English
+				eat       https://en.wiktionary.org/wiki/etan#Old_English
+				endure    https://en.wiktionary.org/wiki/adreogan#Old_English
+				fall      https://en.wiktionary.org/wiki/feallan#Old_English
+				fly       https://en.wiktionary.org/wiki/fleogan#Old_English
+				flow      https://en.wiktionary.org/wiki/flowan#Old_English
+				hear      https://en.wiktionary.org/wiki/gehieran#Old_English
+				occupy    https://en.wiktionary.org/wiki/weardian#Old_English
+				resemble  
+				rest      
+				see       https://en.wiktionary.org/wiki/geseon#Old_English
+				show      https://en.wiktionary.org/wiki/%C3%A6tiewan#Old_English
+				startle   https://en.wiktionary.org/wiki/greosan#Old_English # "frighten"
+				swim      https://en.wiktionary.org/wiki/swimman#Old_English
+				walk      https://en.wiktionary.org/wiki/gan#Old_English
+				warm      
+				watch     https://en.wiktionary.org/wiki/w%C3%A6cce#Old_English
+				work      https://en.wiktionary.org/wiki/wyrcan#Old_English
+			''')
+		)
+	)
+)
+
+
 write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(
@@ -2018,114 +2133,6 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-verbs.ts
 				warm      
 				watch     
 				work      https://en.wiktionary.org/wiki/%D0%B4%D1%A3%D0%BB%D0%B0%D1%82%D0%B8#Old_Church_Slavonic
-			''')
-		)
-	)
-)
-
-print('ENGLISH/OLD')
-write('data/inflection/indo-european/germanic/english/old/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Old_English', 'ang'), 
-			crawling.crawl('''
-				animal    https://en.wiktionary.org/wiki/nieten#Old_English
-				attention https://en.wiktionary.org/wiki/ge%C3%BEoht#Old_English
-				bird      https://en.wiktionary.org/wiki/fugol#Old_English
-				boat      https://en.wiktionary.org/wiki/bat#Old_English
-				book      https://en.wiktionary.org/wiki/boc#Old_English
-				brother   https://en.wiktionary.org/wiki/bro%C3%BEor#Old_English
-				bug       https://en.wiktionary.org/wiki/budda#Old_English
-				clothing  https://en.wiktionary.org/wiki/scrud#Old_English
-				daughter  https://en.wiktionary.org/wiki/dohtor#Old_English
-				dog       https://en.wiktionary.org/wiki/hund#Old_English
-				door      https://en.wiktionary.org/wiki/duru#Old_English
-				drum      
-				enemy     https://en.wiktionary.org/wiki/feond#Old_English
-				fire      https://en.wiktionary.org/wiki/fyr#Old_English
-				food      https://en.wiktionary.org/wiki/foda#Old_English
-				gift      https://en.wiktionary.org/wiki/giefu#Old_English
-				glass     https://en.wiktionary.org/wiki/gl%C3%A6s#Old_English
-				guard     https://en.wiktionary.org/wiki/weard#Old_English
-				horse     https://en.wiktionary.org/wiki/hors#Old_English
-				house     https://en.wiktionary.org/wiki/hus#Old_English
-				livestock https://en.wiktionary.org/wiki/feoh#Old_English
-				love      https://en.wiktionary.org/wiki/lufu#Old_English
-				idea      https://en.wiktionary.org/wiki/ge%C3%BEoht#Old_English
-				man       https://en.wiktionary.org/wiki/mann#Old_English
-				money     https://en.wiktionary.org/wiki/feoh#Old_English
-				monster   https://en.wiktionary.org/wiki/%C3%BEyrs#Old_English
-				name      https://en.wiktionary.org/wiki/nama#Old_English
-				rock      https://en.wiktionary.org/wiki/Reconstruction:Old_English/rocc
-				rope      https://en.wiktionary.org/wiki/rap#Old_English
-				size      https://en.wiktionary.org/wiki/micelnes#Old_English
-				son       https://en.wiktionary.org/wiki/sunu#Old_English
-				sound     https://en.wiktionary.org/wiki/sweg#Old_English
-				warmth    https://en.wiktionary.org/wiki/h%C3%A6tu#Old_English
-				water     https://en.wiktionary.org/wiki/w%C3%A6ter#Old_English
-				way       https://en.wiktionary.org/wiki/weg#Old_English
-				wind      https://en.wiktionary.org/wiki/wind#Old_English
-				window    https://en.wiktionary.org/wiki/eagduru#Old_English
-				woman     https://en.wiktionary.org/wiki/cwene#Old_English
-				work      https://en.wiktionary.org/wiki/weorc#Old_English
-
-				light     https://en.wiktionary.org/wiki/scip#Old_English
-				raid      https://en.wiktionary.org/wiki/rad#Old_English
-				moon      https://en.wiktionary.org/wiki/mona#Old_English
-				sun       https://en.wiktionary.org/wiki/sunne#Old_English
-				eye       https://en.wiktionary.org/wiki/eage#Old_English
-				time      https://en.wiktionary.org/wiki/tid#Old_English
-				English   https://en.wiktionary.org/wiki/Engle#Old_English
-				hand      https://en.wiktionary.org/wiki/hand#Old_English
-				person    https://en.wiktionary.org/wiki/mann#Old_English
-				nut       https://en.wiktionary.org/wiki/hnutu#Old_English
-				goose     https://en.wiktionary.org/wiki/gos#Old_English
-				friend    https://en.wiktionary.org/wiki/freond#Old_English
-				bystander https://en.wiktionary.org/wiki/ymbstandend#Old_English
-				father    https://en.wiktionary.org/wiki/f%C3%A6der#Old_English
-				mother    https://en.wiktionary.org/wiki/modor#Old_English
-				brother   https://en.wiktionary.org/wiki/bro%C3%BEor#Old_English
-				sister    https://en.wiktionary.org/wiki/sweostor#Old_English
-				lamb      https://en.wiktionary.org/wiki/lamb#Old_English
-				shoe      https://en.wiktionary.org/wiki/scoh#Old_English
-				piglet    https://en.wiktionary.org/wiki/fearh#Old_English
-				shadow    https://en.wiktionary.org/wiki/sceadu#Old_English
-				meadow    https://en.wiktionary.org/wiki/m%C3%A6d#Old_English
-			''')
-		)
-	)
-)
-
-
-write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Old_English', 'ang'), 
-			crawling.crawl('''
-				appear    https://en.wiktionary.org/wiki/%C3%A6tiewan#Old_English
-				be-inherently  https://en.wiktionary.org/wiki/wesan#Old_English
-				be-momentarily https://en.wiktionary.org/wiki/beon#Old_English
-				change    https://en.wiktionary.org/wiki/wendan#Old_English
-				climb     https://en.wiktionary.org/wiki/climban#Old_English
-				crawl     
-				cool      https://en.wiktionary.org/wiki/colian#Old_English
-				direct    https://en.wiktionary.org/wiki/lead#Old_English
-				displease https://en.wiktionary.org/wiki/drefan#Old_English
-				eat       https://en.wiktionary.org/wiki/etan#Old_English
-				endure    https://en.wiktionary.org/wiki/adreogan#Old_English
-				fall      https://en.wiktionary.org/wiki/feallan#Old_English
-				fly       https://en.wiktionary.org/wiki/fleogan#Old_English
-				flow      https://en.wiktionary.org/wiki/flowan#Old_English
-				hear      https://en.wiktionary.org/wiki/gehieran#Old_English
-				occupy    https://en.wiktionary.org/wiki/weardian#Old_English
-				resemble  
-				rest      
-				see       https://en.wiktionary.org/wiki/geseon#Old_English
-				show      https://en.wiktionary.org/wiki/%C3%A6tiewan#Old_English
-				startle   https://en.wiktionary.org/wiki/greosan#Old_English # "frighten"
-				swim      https://en.wiktionary.org/wiki/swimman#Old_English
-				walk      https://en.wiktionary.org/wiki/gan#Old_English
-				warm      
-				watch     https://en.wiktionary.org/wiki/w%C3%A6cce#Old_English
-				work      https://en.wiktionary.org/wiki/wyrcan#Old_English
 			''')
 		)
 	)

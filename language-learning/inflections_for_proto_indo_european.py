@@ -119,7 +119,7 @@ foreign_demonstration = LanguageSpecificTextDemonstration(
     Orthography('latin', foreign_language),
     lambda tags, text: text,
     card_formatting.foreign_focus,
-    [('∅',''), ('-','')]
+    [('∅','')]
 )
 
 english_demonstration = LanguageSpecificTextDemonstration(

@@ -19,10 +19,6 @@ book	nominative	bōc	bēċ
 book	accusative	bōc	bēċ									
 book	genitive	bēċ, bōce	bōca									
 book	dative	bēċ	bōcum									
-book	nominative	bōc	bōca, bōce									
-book	accusative	bōce	bōca, bōce									
-book	genitive	bōce	bōca									
-book	dative	bōce	bōcum									
 bug	nominative	budda	buddan									
 bug	accusative	buddan	buddan									
 bug	genitive	buddan	buddena									
@@ -37,10 +33,6 @@ daughter	genitive	dohtor	dohtra
 daughter	dative	dehter	dohtrum									
 dog	nominative	hund	hundas									
 dog	accusative	hund	hundas									
-dog	genitive	hundes	hunda									
-dog	dative	hunde	hundum									
-dog	nominative	hund	hund									
-dog	accusative	hund	hund									
 dog	genitive	hundes	hunda									
 dog	dative	hunde	hundum									
 enemy	nominative	fēond	fīend									
@@ -61,14 +53,6 @@ gift	genitive	ġiefe	ġiefa
 gift	dative	ġiefe	ġiefum									
 guard	nominative	weard	weardas									
 guard	accusative	weard	weardas									
-guard	genitive	weardes	wearda									
-guard	dative	wearde	weardum									
-guard	nominative	weard	wearda, wearde									
-guard	accusative	wearde	wearda, wearde									
-guard	genitive	wearde	wearda									
-guard	dative	wearde	weardum									
-guard	nominative	weard	weard									
-guard	accusative	weard	weard									
 guard	genitive	weardes	wearda									
 guard	dative	wearde	weardum									
 horse	nominative	hors	hors									

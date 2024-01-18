@@ -1,40 +1,40 @@
-*	*	*	*	*	nominative	accusative	genitive	dative	instrumental
-personal	1		singular		iċ	mē	mīn	mē	
-personal	1		dual		ƿit	unc	uncer	unc	
-personal	1		plural		ƿē	ūs	ūre	ūs	
-personal	2		singular		þū	þē	þīn	þē	
-personal	2		dual		ġit	inc	incer	inc	
-personal	2		plural		ġē	ēoƿ	ēoƿer	ēoƿ	
-personal	3		singular	masculine	hē	hine	his	him	
-personal	3		singular	neuter	hit	hit	his	him	
-personal	3		singular	feminine	hēo	hīe	hiere	hiere	
-personal	3		plural		hīe	hīe	heora	him	
-interrogative	human	nonpartitive	singular		hƿā	hƿone	hƿæs	hƿǣm	hƿȳ
-interrogative	human	nonpartitive	plural		hƿā	hƿæne	hƿæs	hƿām	hƿȳ
-interrogative	nonhuman	nonpartitive	singular		hƿæt	hƿæt	hƿæs	hƿǣm	hƿȳ
-interrogative	nonhuman	nonpartitive	plural		hƿæt	hƿæt	hƿæs	hƿām	hƿȳ
-interrogative		partitive	singular	masculine	hƿilċ	hƿilcne	hƿilċes	hƿilcum	hƿilċe
-interrogative		partitive	singular	neuter	hƿilċ	hƿilċ	hƿilċes	hƿilcum	hƿilċe
-interrogative		partitive	singular	feminine	hƿilċ	hƿilċe	hƿilcre	hƿilcre	hƿilcre
-interrogative		partitive	plural	masculine	hƿilċe	hƿilċe	hƿilcra	hƿilcum	
-interrogative		partitive	plural	neuter	hƿilċ	hƿilċ	hƿilcra	hƿilcum	
-interrogative		partitive	plural	feminine	hƿilca	hƿilca	hƿilcra	hƿilcum	
-interrogative		bipartitive	singular	masculine	hƿæðer	hƿæðerne	hƿæðres	hƿæðrum	hƿæðre
-interrogative		bipartitive	singular	neuter	hƿæðer	hƿæðer	hƿæðres	hƿæðrum	hƿæðre
-interrogative		bipartitive	singular	feminine	hƿæðer	hƿæðere	hƿæðerre	hƿæðerre	hƿæðerre
-interrogative		bipartitive	plural	masculine	hƿæðre	hƿæðre	hƿæðerra	hƿæðrum	hƿæðrum
-interrogative		bipartitive	plural	neuter	hƿæðer	hƿæðer	hƿæðerra	hƿæðrum	hƿæðrum
-interrogative		bipartitive	plural	feminine	hƿæðra	hƿæðra	hƿæðerra	hƿæðrum	hƿæðrum
-relative			singular	masculine	se (þe)	þone (þe)	þæs (þe)	þǣm (þe)	
-relative			singular	neuter	þæt (þe)	þæt (þe)	þæs (þe)	þām (þe)	
-relative			singular	feminine	sēo (þe)	þā (þe)	þǣre (þe)	þǣre (þe)	
-relative			plural		þā (þe)	þā (þe)	þāra (þe)	þǣm (þe)	
-demonstrative	proximal		singular	masculine	þes	þisne	þisses	þissum	þȳs
-demonstrative	proximal		singular	neuter	þis	þis	þisses	þissum	þȳs
-demonstrative	proximal		singular	feminine	þēos	þās	þisse/þisre	þisse/þisre	
-demonstrative	proximal		plural		þās	þās	þissa/þisra	þissum	
-demonstrative	distal		singular	masculine	se	þone	þæs	þǣm/þām	þȳ
-demonstrative	distal		singular	neuter	þæt	þæt	þæs	þǣm/þām	þȳ
-demonstrative	distal		singular	feminine	sēo	þā	þǣre	þǣre	
-demonstrative	distal		plural		þā	þā	þāra	þǣm/þām	
-#	negative		singular		nā(ƿi)ht	nā(ƿi)ht	nā(ƿi)ht-es	nā(ƿi)ht-e	
+*	*	*	*	*	*	nominative	accusative	genitive	dative	instrumental
+	personal	1		singular		iċ	mē	mīn	mē	
+	personal	1		dual		ƿit	unc	uncer	unc	
+	personal	1		plural		ƿē	ūs	ūre	ūs	
+	personal	2		singular		þū	þē	þīn	þē	
+	personal	2		dual		ġit	inc	incer	inc	
+	personal	2		plural		ġē	ēoƿ	ēoƿer	ēoƿ	
+	personal	3		singular	masculine	hē	hine	his	him	
+	personal	3		singular	neuter	hit	hit	his	him	
+	personal	3		singular	feminine	hēo	hīe	hiere	hiere	
+	personal	3		plural		hīe	hīe	heora	him	
+#	interrogative	human	nonpartitive	singular		hƿā	hƿone	hƿæs	hƿǣm	hƿȳ
+#	interrogative	human	nonpartitive	plural		hƿā	hƿæne	hƿæs	hƿām	hƿȳ
+#	interrogative	nonhuman	nonpartitive	singular		hƿæt	hƿæt	hƿæs	hƿǣm	hƿȳ
+#	interrogative	nonhuman	nonpartitive	plural		hƿæt	hƿæt	hƿæs	hƿām	hƿȳ
+#	interrogative		partitive	singular	masculine	hƿilċ	hƿilcne	hƿilċes	hƿilcum	hƿilċe
+#	interrogative		partitive	singular	neuter	hƿilċ	hƿilċ	hƿilċes	hƿilcum	hƿilċe
+#	interrogative		partitive	singular	feminine	hƿilċ	hƿilċe	hƿilcre	hƿilcre	hƿilcre
+#	interrogative		partitive	plural	masculine	hƿilċe	hƿilċe	hƿilcra	hƿilcum	
+#	interrogative		partitive	plural	neuter	hƿilċ	hƿilċ	hƿilcra	hƿilcum	
+#	interrogative		partitive	plural	feminine	hƿilca	hƿilca	hƿilcra	hƿilcum	
+#	interrogative		bipartitive	singular	masculine	hƿæðer	hƿæðerne	hƿæðres	hƿæðrum	hƿæðre
+#	interrogative		bipartitive	singular	neuter	hƿæðer	hƿæðer	hƿæðres	hƿæðrum	hƿæðre
+#	interrogative		bipartitive	singular	feminine	hƿæðer	hƿæðere	hƿæðerre	hƿæðerre	hƿæðerre
+#	interrogative		bipartitive	plural	masculine	hƿæðre	hƿæðre	hƿæðerra	hƿæðrum	hƿæðrum
+#	interrogative		bipartitive	plural	neuter	hƿæðer	hƿæðer	hƿæðerra	hƿæðrum	hƿæðrum
+#	interrogative		bipartitive	plural	feminine	hƿæðra	hƿæðra	hƿæðerra	hƿæðrum	hƿæðrum
+#	relative			singular	masculine	se (þe)	þone (þe)	þæs (þe)	þǣm (þe)	
+#	relative			singular	neuter	þæt (þe)	þæt (þe)	þæs (þe)	þām (þe)	
+#	relative			singular	feminine	sēo (þe)	þā (þe)	þǣre (þe)	þǣre (þe)	
+#	relative			plural		þā (þe)	þā (þe)	þāra (þe)	þǣm (þe)	
+#	demonstrative	proximal		singular	masculine	þes	þisne	þisses	þissum	þȳs
+#	demonstrative	proximal		singular	neuter	þis	þis	þisses	þissum	þȳs
+#	demonstrative	proximal		singular	feminine	þēos	þās	þisse/þisre	þisse/þisre	
+#	demonstrative	proximal		plural		þās	þās	þissa/þisra	þissum	
+#	demonstrative	distal		singular	masculine	se	þone	þæs	þǣm/þām	þȳ
+#	demonstrative	distal		singular	neuter	þæt	þæt	þæs	þǣm/þām	þȳ
+#	demonstrative	distal		singular	feminine	sēo	þā	þǣre	þǣre	
+#	demonstrative	distal		plural		þā	þā	þāra	þǣm/þām	
+#	#	negative		singular		nā(ƿi)ht	nā(ƿi)ht	nā(ƿi)ht-es	nā(ƿi)ht-e	
