@@ -275,11 +275,25 @@ write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 				warm      
 				watch     https://en.wiktionary.org/wiki/w%C3%A6cce#Old_English
 				work      https://en.wiktionary.org/wiki/wyrcan#Old_English
+
+				do        https://en.wiktionary.org/wiki/don#Old_English
+				go        https://en.wiktionary.org/wiki/gan#Old_English
+				want      https://en.wiktionary.org/wiki/willan#Old_English
+            	steal     https://en.wiktionary.org/wiki/stelan#Old_English
+            	share     https://en.wiktionary.org/wiki/d%C3%A6lan#Old_English
+            	tame      https://en.wiktionary.org/wiki/teman#Old_English
+            	move      https://en.wiktionary.org/wiki/styrian
+            	love      https://en.wiktionary.org/wiki/lufian
+            	have      https://en.wiktionary.org/wiki/habban
+            	live      https://en.wiktionary.org/wiki/libban
+            	say       https://en.wiktionary.org/wiki/secgan
+            	think     https://en.wiktionary.org/wiki/hycgan
 			''')
 		)
 	)
 )
 
+raise 'done'
 
 write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 	formatting.format(

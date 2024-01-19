@@ -1,7 +1,7 @@
 *	*	*	*	case	preposition	postposition					
 #	valency	motion	attribute				#				other prepositions to consider:
 	subject			nominative	∅	∅	#				
-	addressee			vocative	∅	∅	#				
+	addressee			nominative	∅	∅	#				
 	direct-object			accusative	∅	∅	#				
 	indirect-object			dative	∅	∅	#				
 	adnominal			genitive	∅	∅	#				
@@ -12,50 +12,50 @@
 	adverbial	departed	location	dative	fram	∅	#	from, by		benēoðan	beneath
 	adverbial	associated	location	dative	æt	∅	#	at		betwēonum	between
 	adverbial	acquired	location	dative	tō	∅	#	to		bufan	above
-#	adverbial	leveraged	location	dative		∅	#			būtan	without, except
-#	adverbial	departed	extent	dative		∅	#			ēac	also
-#	adverbial	associated	extent	dative		∅	#			for	for, because of, instead of
-#	adverbial	acquired	extent	dative		∅	#			innan	within
+#	adverbial	leveraged	location	dative	❕	∅	#			būtan	without, except
+#	adverbial	departed	extent	dative	❕	∅	#			ēac	also
+#	adverbial	associated	extent	dative	❕	∅	#			for	for, because of, instead of
+#	adverbial	acquired	extent	dative	❕	∅	#			innan	within
 	adverbial	leveraged	extent	dative	andlang	∅	#	along		onbūtan	around
-#	adverbial	departed	vicinity	dative		∅	#			onġēan	opposite, against; towards; in reply to
+#	adverbial	departed	vicinity	dative	❕	∅	#			onġēan	opposite, against; towards; in reply to
 	adverbial	associated	vicinity	dative	nēah	∅	#	near		oþ	until
 	adverbial	acquired	vicinity	dative	be|bī	∅	#	by, about		samod	together
-#	adverbial	leveraged	vicinity	dative		∅	#			tōeācan	in addition to, besides
+#	adverbial	leveraged	vicinity	dative	❕	∅	#			tōeācan	in addition to, besides
 	adverbial	departed	interior	dative	of	∅	#	from, out of		tōforan	before
 	adverbial	associated	interior	dative	in	∅	#	in		tōgeagnes	towards, against
 	adverbial	acquired	interior	dative	intō	∅	#	into		tōweard	toward
 	adverbial	leveraged	interior	dative	þurh	∅	#	through		ġeond	through
-#	adverbial	departed	surface	dative		∅	#			under	under
-#	adverbial	associated	surface	dative		∅	#			undernēoðan	underneath
+#	adverbial	departed	surface	dative	❕	∅	#			under	under
+#	adverbial	associated	surface	dative	❕	∅	#			undernēoðan	underneath
 	adverbial	acquired	surface	dative	on	∅	#	on, in		uppon	upon, on
 	adverbial	leveraged	surface	dative	ofer	∅	#	over		wiþ	against
-#	adverbial	departed	presence	dative		∅	#			wiþinnan	within
+#	adverbial	departed	presence	dative	❕	∅	#			wiþinnan	within
 	adverbial	associated	presence	dative	beforan	∅	#	before		wiþūtan	outside of
-#	adverbial	acquired	presence	dative		∅	#			ymb	around
-#	adverbial	leveraged	presence	dative		∅	#	beyond		beġeondan	
-#	adverbial	departed	aid	dative		∅	#				
+#	adverbial	acquired	presence	dative	❕	∅	#			ymb	around
+#	adverbial	leveraged	presence	dative	❕	∅	#	beyond		beġeondan	
+#	adverbial	departed	aid	dative	❕	∅	#				
 	adverbial	associated	aid	dative	mid	∅	#	with			
-#	adverbial	acquired	aid	dative		∅	#				
-#	adverbial	leveraged	aid	dative		∅	#				
-#	adverbial	departed	lack	dative		∅	#				
+#	adverbial	acquired	aid	dative	❕	∅	#				
+#	adverbial	leveraged	aid	dative	❕	∅	#				
+#	adverbial	departed	lack	dative	❕	∅	#				
 	adverbial	associated	lack	dative	ūtan	∅	#	without, outside of			
-#	adverbial	acquired	lack	dative		∅	#				
-#	adverbial	leveraged	lack	dative		∅	#				
-#	adverbial	departed	interest	dative		∅	#				
-#	adverbial	associated	interest	dative		∅	#				
-#	adverbial	acquired	interest	dative		∅	#				
-#	adverbial	leveraged	interest	dative		∅	#				
+#	adverbial	acquired	lack	dative	❕	∅	#				
+#	adverbial	leveraged	lack	dative	❕	∅	#				
+#	adverbial	departed	interest	dative	❕	∅	#				
+#	adverbial	associated	interest	dative	❕	∅	#				
+#	adverbial	acquired	interest	dative	❕	∅	#				
+#	adverbial	leveraged	interest	dative	❕	∅	#				
 	adverbial	departed	time	dative	æfter	∅	#	after			
-#	adverbial	associated	time	dative		∅	#				
+#	adverbial	associated	time	dative	❕	∅	#				
 	adverbial	acquired	time	dative	ǣr	∅	#	before			
-#	adverbial	leveraged	time	dative		∅	#				
-#	adverbial	departed	state-of-being	dative		∅	#				
-#	adverbial	associated	state-of-being	dative		∅	#				
-#	adverbial	acquired	state-of-being	dative		∅	#				
-#	adverbial	leveraged	state-of-being	dative		∅	#				
-#	adverbial	departed	topic	dative		∅	#				
-#	adverbial	associated	topic	dative		∅	#				
-#	adverbial	acquired	topic	dative		∅	#				
-#	adverbial	leveraged	topic	dative		∅	#				
+#	adverbial	leveraged	time	dative	❕	∅	#				
+#	adverbial	departed	state-of-being	dative	❕	∅	#				
+#	adverbial	associated	state-of-being	dative	❕	∅	#				
+#	adverbial	acquired	state-of-being	dative	❕	∅	#				
+#	adverbial	leveraged	state-of-being	dative	❕	∅	#				
+#	adverbial	departed	topic	dative	❕	∅	#				
+#	adverbial	associated	topic	dative	❕	∅	#				
+#	adverbial	acquired	topic	dative	❕	∅	#				
+#	adverbial	leveraged	topic	dative	❕	∅	#				
 #	adverbial	associated	company	dative	mid	∅	#	with			
-#	adverbial	associated	resemblance			∅	#				
+#	adverbial	associated	resemblance		❕	∅	#				
