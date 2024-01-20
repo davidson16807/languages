@@ -1150,3 +1150,41 @@ capture	participles	participles	capiēns	—	captūrus	—	captus	capiendus, cap
 capture	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
 capture	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
 capture	verbal nouns	verbal nouns	capiendī	capiendō	capiendum	capiendō	captum	captū
+figure	   conjugation of putō (first conjugation)	   conjugation of putō (first conjugation)	   conjugation of putō (first conjugation)	   conjugation of putō (first conjugation)	   conjugation of putō (first conjugation)	   conjugation of putō (first conjugation)	   conjugation of putō (first conjugation)	   conjugation of putō (first conjugation)
+figure	indicative	indicative	singular	singular	singular	plural	plural	plural
+figure	indicative	indicative	first	second	third	first	second	third
+figure	active	present	putō	putās	putat	putāmus	putātis	putant
+figure	active	imperfect	putābam	putābās	putābat	putābāmus	putābātis	putābant
+figure	active	future	putābō	putābis	putābit	putābimus	putābitis	putābunt
+figure	active	perfect	putāvī	putāvistī, putāstī1	putāvit, putāt1	putāvimus, putāmus1	putāvistis, putāstis1	putāvērunt, putāvēre, putārunt1
+figure	active	pluperfect	putāveram, putāram1	putāverās, putārās1	putāverat, putārat1	putāverāmus, putārāmus1	putāverātis, putārātis1	putāverant, putārant1
+figure	active	future perfect	putāverō, putārō1	putāveris, putāris1	putāverit, putārit1	putāverimus, putārimus1	putāveritis, putāritis1	putāverint, putārint1
+figure	passive	present	putor	putāris, putāre	putātur	putāmur	putāminī	putantur
+figure	passive	imperfect	putābar	putābāris, putābāre	putābātur	putābāmur	putābāminī	putābantur
+figure	passive	future	putābor	putāberis, putābere	putābitur	putābimur	putābiminī	putābuntur
+figure	passive	perfect	putātus + present active indicative of sum	putātus + present active indicative of sum	putātus + present active indicative of sum	putātus + present active indicative of sum	putātus + present active indicative of sum	putātus + present active indicative of sum
+figure	passive	pluperfect	putātus + imperfect active indicative of sum	putātus + imperfect active indicative of sum	putātus + imperfect active indicative of sum	putātus + imperfect active indicative of sum	putātus + imperfect active indicative of sum	putātus + imperfect active indicative of sum
+figure	passive	future perfect	putātus + future active indicative of sum	putātus + future active indicative of sum	putātus + future active indicative of sum	putātus + future active indicative of sum	putātus + future active indicative of sum	putātus + future active indicative of sum
+figure	subjunctive	subjunctive	singular	singular	singular	plural	plural	plural
+figure	subjunctive	subjunctive	first	second	third	first	second	third
+figure	active	present	putem	putēs	putet	putēmus	putētis	putent
+figure	active	imperfect	putārem	putārēs	putāret	putārēmus	putārētis	putārent
+figure	active	perfect	putāverim, putārim1	putāverīs, putārīs1	putāverit, putārit1	putāverīmus, putārīmus1	putāverītis, putārītis1	putāverint, putārint1
+figure	active	pluperfect	putāvissem, putāssem1	putāvissēs, putāssēs1	putāvisset, putāsset1	putāvissēmus, putāssēmus1	putāvissētis, putāssētis1	putāvissent, putāssent1
+figure	passive	present	puter	putēris, putēre	putētur	putēmur	putēminī	putentur
+figure	passive	imperfect	putārer	putārēris, putārēre	putārētur	putārēmur	putārēminī	putārentur
+figure	passive	perfect	putātus + present active subjunctive of sum	putātus + present active subjunctive of sum	putātus + present active subjunctive of sum	putātus + present active subjunctive of sum	putātus + present active subjunctive of sum	putātus + present active subjunctive of sum
+figure	passive	pluperfect	putātus + imperfect active subjunctive of sum	putātus + imperfect active subjunctive of sum	putātus + imperfect active subjunctive of sum	putātus + imperfect active subjunctive of sum	putātus + imperfect active subjunctive of sum	putātus + imperfect active subjunctive of sum
+figure	imperative	imperative	singular	singular	singular	plural	plural	plural
+figure	imperative	imperative	first	second	third	first	second	third
+figure	active	present	—	putā	—	—	putāte	—
+figure	active	future	—	putātō	putātō	—	putātōte	putantō
+figure	passive	present	—	putāre	—	—	putāminī	—
+figure	passive	future	—	putātor	putātor	—	—	putantor
+figure	non-finite forms	non-finite forms	active	active	active	passive	passive	passive
+figure	non-finite forms	non-finite forms	present	perfect	future	present	perfect	future
+figure	infinitives	infinitives	putāre	putāvisse, putāsse1	putātūrum esse	putārī	putātum esse	putātum īrī
+figure	participles	participles	putāns	—	putātūrus	—	putātus	putandus
+figure	verbal nouns	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+figure	verbal nouns	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+figure	verbal nouns	verbal nouns	putandī	putandō	putandum	putandō	putātum	putātū

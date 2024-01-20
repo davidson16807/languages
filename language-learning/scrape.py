@@ -167,6 +167,227 @@ formatting = RowMajorTableText('\t','\n')
 
 
 noun_html = crawling.crawl('''
+	animal    https://en.wiktionary.org/wiki/animal#Latin
+	attention https://en.wiktionary.org/wiki/attentio#Latin
+	bird      https://en.wiktionary.org/wiki/avis#Latin
+	boat      https://en.wiktionary.org/wiki/navis#Latin
+	book      https://en.wiktionary.org/wiki/caudex#Latin
+	brother   https://en.wiktionary.org/wiki/frater#Latin
+	bug       https://en.wiktionary.org/wiki/cimex#Latin
+	clothing  https://en.wiktionary.org/wiki/vestis#Latin
+	daughter  https://en.wiktionary.org/wiki/filia#Latin
+	dog       https://en.wiktionary.org/wiki/canis#Latin
+	door      https://en.wiktionary.org/wiki/foris#Latin
+	drum      https://en.wiktionary.org/wiki/tympanum#Latin
+	enemy     https://en.wiktionary.org/wiki/inimicus#Latin
+	fire      https://en.wiktionary.org/wiki/ignis#Latin
+	food      https://en.wiktionary.org/wiki/cibus#Latin
+	gift      https://en.wiktionary.org/wiki/donum#Latin
+	glass     https://en.wiktionary.org/wiki/vitrum#Latin
+	guard     https://en.wiktionary.org/wiki/custos#Latin
+	horse     https://en.wiktionary.org/wiki/equus#Latin
+	house     https://en.wiktionary.org/wiki/domus#Latin
+	livestock https://en.wiktionary.org/wiki/pecus#Latin
+	love      https://en.wiktionary.org/wiki/caritas#Latin
+	idea      https://en.wiktionary.org/wiki/idea#Latin
+	man       https://en.wiktionary.org/wiki/homo#Latin
+	money     https://en.wiktionary.org/wiki/pecunia#Latin
+	monster   https://en.wiktionary.org/wiki/belua#Latin
+	name      https://en.wiktionary.org/wiki/saxum#Latin
+	rock      https://en.wiktionary.org/wiki/saxum#Latin
+	rope      https://en.wiktionary.org/wiki/restis#Latin
+	size      https://en.wiktionary.org/wiki/magnitudo#Latin
+	sister    https://en.wiktionary.org/wiki/soror#Latin
+	son       https://en.wiktionary.org/wiki/filius#Latin
+	sound     https://en.wiktionary.org/wiki/sonus#Latin
+	warmth    https://en.wiktionary.org/wiki/calor#Latin
+	water     https://en.wiktionary.org/wiki/aqua#Latin
+	way       https://en.wiktionary.org/wiki/via#Latin
+	wind      https://en.wiktionary.org/wiki/ventus#Latin
+	window    https://en.wiktionary.org/wiki/fenestra#Latin
+	woman     https://en.wiktionary.org/wiki/femina#Latin
+	work      https://en.wiktionary.org/wiki/labor#Latin
+
+	day       https://en.wiktionary.org/wiki/dies#Latin
+	hand      https://en.wiktionary.org/wiki/manus#Latin
+	night     https://en.wiktionary.org/wiki/nox#Latin
+	thing     https://en.wiktionary.org/wiki/res#Latin
+	war       https://en.wiktionary.org/wiki/bellum#Latin
+	air       https://en.wiktionary.org/wiki/aero#Latin
+	boy       https://en.wiktionary.org/wiki/puer#Latin
+	star      https://en.wiktionary.org/wiki/stella#Latin
+	tower     https://en.wiktionary.org/wiki/turris
+	horn      https://en.wiktionary.org/wiki/cornu#Latin
+	sailor    https://en.wiktionary.org/wiki/nauta#Latin
+	foundation https://en.wiktionary.org/wiki/basis#Latin
+	echo      https://en.wiktionary.org/wiki/echo#Latin
+	phenomenon https://en.wiktionary.org/wiki/phaenomenon#Latin
+	vine      https://en.wiktionary.org/wiki/ampelos#Latin
+	myth      https://en.wiktionary.org/wiki/mythos#Latin
+	atom      https://en.wiktionary.org/wiki/atomus#Latin
+	nymph     https://en.wiktionary.org/wiki/nymphe#Latin
+	comet     https://en.wiktionary.org/wiki/cometes#Latin
+''')
+
+print('LATIN')
+write('data/inflection/indo-european/romance/latin/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Latin'), noun_html)
+	)
+)
+
+print('LATIN')
+write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Latin', 'la'), 
+			noun_html
+		)
+	)
+)
+
+write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Latin', 'la'), 
+			crawling.crawl('''
+				appear    https://en.wiktionary.org/wiki/appareo#Latin
+				be-inherently  https://en.wiktionary.org/wiki/sum#Latin
+				be-momentarily https://en.wiktionary.org/wiki/sum#Latin
+				change    https://en.wiktionary.org/wiki/cambio#Latin
+				climb     https://en.wiktionary.org/wiki/ascendo#Latin
+				crawl     
+				cool      
+				direct    https://en.wiktionary.org/wiki/duco#Latin
+				displease https://en.wiktionary.org/wiki/displiceo#Latin
+				eat       https://en.wiktionary.org/wiki/edo#Latin
+				endure    https://en.wiktionary.org/wiki/perpetior#Latin
+				fall      https://en.wiktionary.org/wiki/cado#Latin
+				fly       https://en.wiktionary.org/wiki/volo#Latin
+				flow      
+				hear      https://en.wiktionary.org/wiki/audio#Latin
+				occupy    
+				resemble  https://en.wiktionary.org/wiki/similo#Latin
+				rest      https://en.wiktionary.org/wiki/requiesco#Latin
+				see       https://en.wiktionary.org/wiki/video#Latin
+				show      https://en.wiktionary.org/wiki/monstro#Latin
+				startle   https://en.wiktionary.org/wiki/pavefacio#Latin
+				swim      https://en.wiktionary.org/wiki/nato#Latin
+				walk      https://en.wiktionary.org/wiki/ambulo#Latin
+				warm      https://en.wiktionary.org/wiki/calefacio#Latin
+				watch     https://en.wiktionary.org/wiki/specto#Latin
+				work      https://en.wiktionary.org/wiki/laboro#Latin
+
+				be        https://en.wiktionary.org/wiki/sum#Latin
+				be-able   https://en.wiktionary.org/wiki/possum#Latin
+				want      https://en.wiktionary.org/wiki/volo#Latin
+				become    https://en.wiktionary.org/wiki/fio#Latin
+				go        https://en.wiktionary.org/wiki/eo#Latin
+				carry     https://en.wiktionary.org/wiki/fero#Latin
+				love      https://en.wiktionary.org/wiki/amo#Latin
+				advise    https://en.wiktionary.org/wiki/moneo#Latin
+				capture   https://en.wiktionary.org/wiki/capio#Latin
+				figure    https://en.wiktionary.org/wiki/puto#Latin
+			''')
+		)
+	)
+)
+
+noun_html = crawling.crawl('''
+	animal    # oxsus
+	attention # ueliia
+	bird      # etnos
+	boat      # nawa
+	book      # libros
+	brother   # 
+	bug       https://en.wiktionary.org/wiki/bekos#Gaulish # "bee"
+	clothing  # karakalla "tunic"
+	daughter  https://en.wiktionary.org/wiki/duxtir#Gaulish
+	dog       # cu
+	door      # dworon
+	drum      # tanaros
+	enemy     https://en.wiktionary.org/wiki/Reconstruction:Gaulish/namants
+	fire      # aidus
+	food      # depron
+	gift      # danus
+	glass     # lagos
+	guard     # soliduryos
+	horse     https://en.wiktionary.org/wiki/markos#Gaulish
+	house     # tegia
+	livestock https://en.wiktionary.org/wiki/taruos#Gaulish # "domestic horned beast"
+	love      # serka
+	idea      # britus
+	man       # uiros
+	money     # sutegon
+	monster   # angos
+	name      # anuan
+	rock      https://en.wiktionary.org/wiki/artua#Gaulish
+	rope      # soka
+	size      # manti
+	son       https://en.wiktionary.org/wiki/mapos#Gaulish
+	sound     # bruxtus
+	warmth    # tessis
+	water     # dubron
+	way       # mantle
+	wind      # auelos
+	window    # iagos
+	woman     https://en.wiktionary.org/wiki/bena#Gaulish
+	work      # uergon
+
+''')
+
+print('GAULISH')
+write('data/inflection/indo-european/celtic/gaulish/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Gaulish'), noun_html)
+	)
+)
+
+print('GAULISH')
+write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Gaulish'), 
+			noun_html
+		)
+	)
+)
+
+# write('data/inflection/indo-european/celtic/gaulish/scraped-verbs.tsv',
+# 	formatting.format(
+# 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Gaulish'), 
+# 			crawling.crawl('''
+# 				appear    
+# 				be-inherently  # essi
+# 				be-momentarily # essi
+# 				change    # cambī-t
+# 				climb     # dreng-et
+# 				crawl     
+# 				cool      
+# 				direct    # reg-et "conduct"
+# 				displease 
+# 				eat       # esset
+# 				endure    # pass-et
+# 				fall      # cedet
+# 				fly       # etet
+# 				flow      
+# 				hear      
+# 				occupy    # atrebā-t
+# 				resemble  
+# 				rest      
+# 				see       # appiseto
+# 				show      # deicet
+# 				startle   
+# 				swim      # snat
+# 				walk      # cerd-et
+# 				warm      # taiet
+# 				watch     # uiliet
+# 				work      # ureget
+# 			''')
+# 		)
+# 	)
+# )
+
+raise 'done'
+
+noun_html = crawling.crawl('''
 	animal    https://en.wiktionary.org/wiki/nieten#Old_English
 	attention https://en.wiktionary.org/wiki/ge%C3%BEoht#Old_English
 	bird      https://en.wiktionary.org/wiki/fugol#Old_English
@@ -292,8 +513,6 @@ write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 		)
 	)
 )
-
-raise 'done'
 
 write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 	formatting.format(
@@ -447,224 +666,6 @@ write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
 		scraping.scrape(GreekRowMajorWikiTableHtml(ops), noun_html)
 	)
 )
-
-noun_html = crawling.crawl('''
-	animal    https://en.wiktionary.org/wiki/animal#Latin
-	attention https://en.wiktionary.org/wiki/attentio#Latin
-	bird      https://en.wiktionary.org/wiki/avis#Latin
-	boat      https://en.wiktionary.org/wiki/navis#Latin
-	book      https://en.wiktionary.org/wiki/caudex#Latin
-	brother   https://en.wiktionary.org/wiki/frater#Latin
-	bug       https://en.wiktionary.org/wiki/cimex#Latin
-	clothing  https://en.wiktionary.org/wiki/vestis#Latin
-	daughter  https://en.wiktionary.org/wiki/filia#Latin
-	dog       https://en.wiktionary.org/wiki/canis#Latin
-	door      https://en.wiktionary.org/wiki/foris#Latin
-	drum      https://en.wiktionary.org/wiki/tympanum#Latin
-	enemy     https://en.wiktionary.org/wiki/inimicus#Latin
-	fire      https://en.wiktionary.org/wiki/ignis#Latin
-	food      https://en.wiktionary.org/wiki/cibus#Latin
-	gift      https://en.wiktionary.org/wiki/donum#Latin
-	glass     https://en.wiktionary.org/wiki/vitrum#Latin
-	guard     https://en.wiktionary.org/wiki/custos#Latin
-	horse     https://en.wiktionary.org/wiki/equus#Latin
-	house     https://en.wiktionary.org/wiki/domus#Latin
-	livestock https://en.wiktionary.org/wiki/pecus#Latin
-	love      https://en.wiktionary.org/wiki/caritas#Latin
-	idea      https://en.wiktionary.org/wiki/idea#Latin
-	man       https://en.wiktionary.org/wiki/homo#Latin
-	money     https://en.wiktionary.org/wiki/pecunia#Latin
-	monster   https://en.wiktionary.org/wiki/belua#Latin
-	name      https://en.wiktionary.org/wiki/saxum#Latin
-	rock      https://en.wiktionary.org/wiki/saxum#Latin
-	rope      https://en.wiktionary.org/wiki/restis#Latin
-	size      https://en.wiktionary.org/wiki/magnitudo#Latin
-	sister    https://en.wiktionary.org/wiki/soror#Latin
-	son       https://en.wiktionary.org/wiki/filius#Latin
-	sound     https://en.wiktionary.org/wiki/sonus#Latin
-	warmth    https://en.wiktionary.org/wiki/calor#Latin
-	water     https://en.wiktionary.org/wiki/aqua#Latin
-	way       https://en.wiktionary.org/wiki/via#Latin
-	wind      https://en.wiktionary.org/wiki/ventus#Latin
-	window    https://en.wiktionary.org/wiki/fenestra#Latin
-	woman     https://en.wiktionary.org/wiki/femina#Latin
-	work      https://en.wiktionary.org/wiki/labor#Latin
-
-	day       https://en.wiktionary.org/wiki/dies#Latin
-	hand      https://en.wiktionary.org/wiki/manus#Latin
-	night     https://en.wiktionary.org/wiki/nox#Latin
-	thing     https://en.wiktionary.org/wiki/res#Latin
-	war       https://en.wiktionary.org/wiki/bellum#Latin
-	air       https://en.wiktionary.org/wiki/aero#Latin
-	boy       https://en.wiktionary.org/wiki/puer#Latin
-	star      https://en.wiktionary.org/wiki/stella#Latin
-	tower     https://en.wiktionary.org/wiki/turris
-	horn      https://en.wiktionary.org/wiki/cornu#Latin
-	sailor    https://en.wiktionary.org/wiki/nauta#Latin
-	foundation https://en.wiktionary.org/wiki/basis#Latin
-	echo      https://en.wiktionary.org/wiki/echo#Latin
-	phenomenon https://en.wiktionary.org/wiki/phaenomenon#Latin
-	vine      https://en.wiktionary.org/wiki/ampelos#Latin
-	myth      https://en.wiktionary.org/wiki/mythos#Latin
-	atom      https://en.wiktionary.org/wiki/atomus#Latin
-	nymph     https://en.wiktionary.org/wiki/nymphe#Latin
-	comet     https://en.wiktionary.org/wiki/cometes#Latin
-''')
-
-print('LATIN')
-write('data/inflection/indo-european/romance/latin/scraped-genders.tsv',
-	formatting.format(
-		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Latin'), noun_html)
-	)
-)
-
-print('LATIN')
-write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Latin', 'la'), 
-			noun_html
-		)
-	)
-)
-
-write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Latin', 'la'), 
-			crawling.crawl('''
-				appear    https://en.wiktionary.org/wiki/appareo#Latin
-				be-inherently  https://en.wiktionary.org/wiki/sum#Latin
-				be-momentarily https://en.wiktionary.org/wiki/sum#Latin
-				change    https://en.wiktionary.org/wiki/cambio#Latin
-				climb     https://en.wiktionary.org/wiki/ascendo#Latin
-				crawl     
-				cool      
-				direct    https://en.wiktionary.org/wiki/duco#Latin
-				displease https://en.wiktionary.org/wiki/displiceo#Latin
-				eat       https://en.wiktionary.org/wiki/edo#Latin
-				endure    https://en.wiktionary.org/wiki/perpetior#Latin
-				fall      https://en.wiktionary.org/wiki/cado#Latin
-				fly       https://en.wiktionary.org/wiki/volo#Latin
-				flow      
-				hear      https://en.wiktionary.org/wiki/audio#Latin
-				occupy    
-				resemble  https://en.wiktionary.org/wiki/similo#Latin
-				rest      https://en.wiktionary.org/wiki/requiesco#Latin
-				see       https://en.wiktionary.org/wiki/video#Latin
-				show      https://en.wiktionary.org/wiki/monstro#Latin
-				startle   https://en.wiktionary.org/wiki/pavefacio#Latin
-				swim      https://en.wiktionary.org/wiki/nato#Latin
-				walk      https://en.wiktionary.org/wiki/ambulo#Latin
-				warm      https://en.wiktionary.org/wiki/calefacio#Latin
-				watch     https://en.wiktionary.org/wiki/specto#Latin
-				work      https://en.wiktionary.org/wiki/laboro#Latin
-
-				be        https://en.wiktionary.org/wiki/sum#Latin
-				be-able   https://en.wiktionary.org/wiki/possum#Latin
-				want      https://en.wiktionary.org/wiki/volo#Latin
-				become    https://en.wiktionary.org/wiki/fio#Latin
-				go        https://en.wiktionary.org/wiki/eo#Latin
-				carry     https://en.wiktionary.org/wiki/fero#Latin
-				love      https://en.wiktionary.org/wiki/amo#Latin
-				advise    https://en.wiktionary.org/wiki/moneo#Latin
-				capture   https://en.wiktionary.org/wiki/capio#Latin
-			''')
-		)
-	)
-)
-
-noun_html = crawling.crawl('''
-	animal    # oxsus
-	attention # ueliia
-	bird      # etnos
-	boat      # nawa
-	book      # libros
-	brother   # 
-	bug       https://en.wiktionary.org/wiki/bekos#Gaulish # "bee"
-	clothing  # karakalla "tunic"
-	daughter  https://en.wiktionary.org/wiki/duxtir#Gaulish
-	dog       # cu
-	door      # dworon
-	drum      # tanaros
-	enemy     https://en.wiktionary.org/wiki/Reconstruction:Gaulish/namants
-	fire      # aidus
-	food      # depron
-	gift      # danus
-	glass     # lagos
-	guard     # soliduryos
-	horse     https://en.wiktionary.org/wiki/markos#Gaulish
-	house     # tegia
-	livestock https://en.wiktionary.org/wiki/taruos#Gaulish # "domestic horned beast"
-	love      # serka
-	idea      # britus
-	man       # uiros
-	money     # sutegon
-	monster   # angos
-	name      # anuan
-	rock      https://en.wiktionary.org/wiki/artua#Gaulish
-	rope      # soka
-	size      # manti
-	son       https://en.wiktionary.org/wiki/mapos#Gaulish
-	sound     # bruxtus
-	warmth    # tessis
-	water     # dubron
-	way       # mantle
-	wind      # auelos
-	window    # iagos
-	woman     https://en.wiktionary.org/wiki/bena#Gaulish
-	work      # uergon
-
-''')
-
-print('GAULISH')
-write('data/inflection/indo-european/celtic/gaulish/scraped-genders.tsv',
-	formatting.format(
-		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Gaulish'), noun_html)
-	)
-)
-
-print('GAULISH')
-write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Gaulish'), 
-			noun_html
-		)
-	)
-)
-
-# write('data/inflection/indo-european/celtic/gaulish/scraped-verbs.tsv',
-# 	formatting.format(
-# 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Gaulish'), 
-# 			crawling.crawl('''
-# 				appear    
-# 				be-inherently  # essi
-# 				be-momentarily # essi
-# 				change    # cambī-t
-# 				climb     # dreng-et
-# 				crawl     
-# 				cool      
-# 				direct    # reg-et "conduct"
-# 				displease 
-# 				eat       # esset
-# 				endure    # pass-et
-# 				fall      # cedet
-# 				fly       # etet
-# 				flow      
-# 				hear      
-# 				occupy    # atrebā-t
-# 				resemble  
-# 				rest      
-# 				see       # appiseto
-# 				show      # deicet
-# 				startle   
-# 				swim      # snat
-# 				walk      # cerd-et
-# 				warm      # taiet
-# 				watch     # uiliet
-# 				work      # ureget
-# 			''')
-# 		)
-# 	)
-# )
 
 print('PROTO-INDO-EUROPEAN/SIHLER')
 write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.tsv',

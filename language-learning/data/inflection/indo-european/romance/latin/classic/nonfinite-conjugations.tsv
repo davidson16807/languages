@@ -1,26 +1,154 @@
-*	*	foreign	foreign	foreign	foreign	foreign	foreign	foreign
-*	*	infinitive	infinitive	infinitive	participle	participle	participle	supine
-*	*				masculine	masculine	masculine	
-*	*				nominative	nominative	nominative	
-*	*	present	past	future	present	past	future	
-*	*	simple	perfective	simple	simple	perfective	simple	
-be	active	esse	fuisse	fore	—	—	futūrus	—
-be-able	active	posse	potuisse	—	potēns	—	—	—
-want	active	velle	—	—	volāns	—	volātūrus	—
-become	active	fierī 	factum esse 	factum īrī 	—	—	—	factum
-go	active	īre 	īsse 	itūrum esse 	iēns	—	itūrus	itum
-go	passive	īrī	itum esse 	itum īrī 	—	itus	eundus	—
-carry	active	ferre	tulisse	lātūrum esse 	ferēns	—	lātūrus	lātum
-carry	passive	ferrī	lātum esse	lātum īrī	lātus	—	ferendus	—
-eat	active	edere/esse	ēdisse	ēsūrum esse	edēns	—	ēsūrus	ēsum
-eat	passive	edī	ēsum esse 	ēsum īrī 	—	ēsus	edendus/edundus	—
-love	active	amāre	amāvisse	amātūrum esse	amāns	—	amātūrus	amātum
-love	passive	amārī	amātum esse 	amātum īrī 	—	amātus	amandus	—
-advise	active	monēre	monuisse	monitūrum esse 	monēns	—	vīsūrus	monitum
-advise	passive	monērī	monitum esse 	monitum īrī 	—	monitus	monendus	—
-direct	active	dūcere	dūxisse	ductūrum esse 	dūcēns	—	ductūrus	ductum
-direct	passive	dūcī	ductum esse 	ductum īrī 	—	ductus	dūcendus/dūcundus	—
-capture	active	capere 	cēpisse 	captūrum esse 	capiēns	—	captūrus	captum
-capture	passive	capī 	captum esse 	captum īrī 	—	captus	capiendus	—
-hear	active	audīre	audīvisse	audītūrum esse	audiēns	—	audītūrus	audītum
-hear	passive	audīrī	audītum esse 	audītum īrī 	—	audītus	audiendus	—
+*	*	*	active	active	active	passive	passive	passive
+*	*	*	present	present	future	present	present	future
+*	*	*	simple	perfective	simple	simple	perfective	simple
+appear		infinitive	appārēre	appāruisse	appāritūrum esse	appārērī	appāritum esse	appāritum īrī
+appear		participle	appārēns	—	appāritūrus	—	appāritus	appārendus
+be-inherently		infinitive	esse	fuisse	futūrum esse, fore	—	—	—
+be-inherently		participle	—	—	futūrus	—	—	—
+be-momentarily		infinitive	esse	fuisse	futūrum esse, fore	—	—	—
+be-momentarily		participle	—	—	futūrus	—	—	—
+change		infinitive	cambiāre	cambiāvisse	—	—	—	—
+change		participle	cambiāns	—	—	—	—	—
+climb		infinitive	ascendere	ascendisse	ascēnsūrum esse	ascendī	ascēnsum esse	ascēnsum īrī
+climb		participle	ascendēns	—	ascēnsūrus	—	ascēnsus	ascendendus, ascendundus
+direct		infinitive	dūcere	dūxisse	ductūrum esse	dūcī	ductum esse	ductum īrī
+direct		participle	dūcēns	—	ductūrus	—	ductus	dūcendus, dūcundus
+displease		infinitive	displicēre	displicuisse	displicitūrum esse	displicērī	displicitum esse	displicitum īrī
+displease		participle	displicēns	—	displicitūrus	—	displicitus	displicendus
+eat		infinitive	edere, ēsse	ēdisse	ēsūrum esse	edī	ēsum esse	ēsum īrī
+eat		participle	edēns	—	ēsūrus	—	ēsus	edendus, edundus
+endure		infinitive	perpetī	perpessum esse	perpessūrum esse	—	—	—
+endure		participle	perpetiēns	perpessus	perpessūrus	—	—	perpetiendus, perpetiundus
+fall		infinitive	cadere	cecidisse	cāsūrum esse	cadī	cāsum esse	—
+fall		participle	cadēns	—	cāsūrus	—	cāsum	cadendum, cadundum
+fly		infinitive	volāre	volāvisse	volātūrum esse	volārī	volātum esse	—
+fly		participle	volāns	—	volātūrus	—	volātum	volandum
+hear		infinitive	audīre	audīvisse, audiisse	audītūrum esse	audīrī, audīrier1	audītum esse	audītum īrī
+hear		participle	audiēns	—	audītūrus	—	audītus	audiendus, audiundus
+resemble		infinitive	similāre	similāvisse	similātūrum esse	similārī	similātum esse	similātum īrī
+resemble		participle	similāns	—	similātūrus	—	similātus	similandus
+rest		infinitive	requiēscere	requiēvisse	requiētūrum esse	requiēscī	requiētum esse	requiētum īrī
+rest		participle	requiēscēns	—	requiētūrus	—	requiētus	requiēscendus, requiēscundus
+see		infinitive	vidēre	vīdisse	vīsūrum esse	vidērī, vidērier1	vīsum esse	vīsum īrī
+see		participle	vidēns	—	vīsūrus	—	vīsus	videndus
+show		infinitive	mōnstrāre	mōnstrāvisse	mōnstrātūrum esse	mōnstrārī	mōnstrātum esse	mōnstrātum īrī
+show		participle	mōnstrāns	—	mōnstrātūrus	—	mōnstrātus	mōnstrandus
+startle		infinitive	pavefacere	pavefēcisse	pavefactūrum esse	pavefierī	pavefactum esse	pavefactum īrī
+startle		participle	pavefaciēns	—	pavefactūrus	—	pavefactus	pavefaciendus, pavefaciundus
+swim		infinitive	natāre	natāvisse	natātūrum esse	natārī	natātum esse	natātum īrī
+swim		participle	natāns	—	natātūrus	—	natātus	natandus
+walk		infinitive	ambulāre	ambulāvisse, ambulāsse1	ambulātūrum esse	ambulārī	ambulātum esse	ambulātum īrī
+walk		participle	ambulāns	—	ambulātūrus	—	ambulātus	ambulandus
+warm		infinitive	calē̆facere	calē̆fēcisse	calē̆factūrum esse	calē̆fierī	calē̆factum esse	calē̆factum īrī
+warm		participle	calē̆faciēns	—	calē̆factūrus	—	calē̆factus	calē̆faciendus, calē̆faciundus
+watch		infinitive	spectāre	spectāvisse, spectāsse1	spectātūrum esse	spectārī	spectātum esse	spectātum īrī
+watch		participle	spectāns	—	spectātūrus	—	spectātus	spectandus
+work		infinitive	labōrāre	labōrāvisse, labōrāsse1	labōrātūrum esse	labōrārī	labōrātum esse	labōrātum īrī
+work		participle	labōrāns	—	labōrātūrus	—	labōrātus	labōrandus
+be		infinitive	esse	fuisse	futūrum esse, fore	—	—	—
+be		participle	—	—	futūrus	—	—	—
+be-able		infinitive	posse	potuisse	—	—	—	—
+be-able		participle	potēns	—	—	—	—	—
+want		infinitive	velle	voluisse	—	—	—	—
+want		participle	volēns	—	—	—	—	—
+become		infinitive	fierī	factum esse	factum īrī	—	—	—
+become		participle	—	factus	—	—	—	—
+go		infinitive	īre	īsse	itūrum esse	īrī, īrier1	itum esse	itum īrī
+go		participle	iēns	—	itūrus	—	itus	eundus
+carry		infinitive	ferre	tulisse, tetulisse1	lātūrum esse	ferrī	lātum esse1	lātum īrī
+carry		participle	ferēns	—1	lātūrus	—	lātus1	ferendus, ferundus
+love		infinitive	amāre	amāvisse, amāsse2	amātūrum esse	amārī	amātum esse	amātum īrī
+love		participle	amāns	—	amātūrus	—	amātus	amandus
+advise		infinitive	monēre	monuisse	monitūrum esse	monērī, monērier2	monitum esse	monitum īrī
+advise		participle	monēns	—	monitūrus	—	monitus	monendus
+capture		infinitive	capere	cēpisse	captūrum esse	capī	captum esse	captum īrī
+capture		participle	capiēns	—	captūrus	—	captus	capiendus, capiundus
+appear	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+appear	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+appear	#	verbal nouns	appārendī	appārendō	appārendum	appārendō	appāritum	appāritū
+change	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+change	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+change	#	verbal nouns	cambiandī	cambiandō	cambiandum	cambiandō	—	—
+climb	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+climb	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+climb	#	verbal nouns	ascendendī	ascendendō	ascendendum	ascendendō	ascēnsum	ascēnsū
+direct	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+direct	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+direct	#	verbal nouns	dūcendī	dūcendō	dūcendum	dūcendō	ductum	ductū
+displease	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+displease	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+displease	#	verbal nouns	displicendī	displicendō	displicendum	displicendō	displicitum	displicitū
+eat	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+eat	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+eat	#	verbal nouns	edendī	edendō	edendum	edendō	ēsum	ēsū
+eat	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+eat	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+eat	#	verbal nouns	ēdendī	ēdendō	ēdendum	ēdendō	ēditum	ēditū
+endure	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+endure	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+endure	#	verbal nouns	perpetiendī	perpetiendō	perpetiendum	perpetiendō	perpessum	perpessū
+fall	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+fall	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+fall	#	verbal nouns	cadendī	cadendō	cadendum	cadendō	cāsum	cāsū
+fly	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+fly	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+fly	#	verbal nouns	volandī	volandō	volandum	volandō	volātum	volātū
+hear	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+hear	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+hear	#	verbal nouns	audiendī	audiendō	audiendum	audiendō	audītum	audītū
+resemble	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+resemble	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+resemble	#	verbal nouns	similandī	similandō	similandum	similandō	similātum	similātū
+rest	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+rest	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+rest	#	verbal nouns	requiēscendī	requiēscendō	requiēscendum	requiēscendō	requiētum	requiētū
+see	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+see	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+see	#	verbal nouns	videndī	videndō	videndum	videndō	vīsum	vīsū
+show	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+show	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+show	#	verbal nouns	mōnstrandī	mōnstrandō	mōnstrandum	mōnstrandō	mōnstrātum	mōnstrātū
+startle	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+startle	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+startle	#	verbal nouns	pavefaciendī	pavefaciendō	pavefaciendum	pavefaciendō	pavefactum	pavefactū
+swim	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+swim	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+swim	#	verbal nouns	natandī	natandō	natandum	natandō	natātum	natātū
+walk	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+walk	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+walk	#	verbal nouns	ambulandī	ambulandō	ambulandum	ambulandō	ambulātum	ambulātū
+warm	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+warm	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+warm	#	verbal nouns	calē̆faciendī	calē̆faciendō	calē̆faciendum	calē̆faciendō	calē̆factum	calē̆factū
+watch	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+watch	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+watch	#	verbal nouns	spectandī	spectandō	spectandum	spectandō	spectātum	spectātū
+work	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+work	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+work	#	verbal nouns	labōrandī	labōrandō	labōrandum	labōrandō	labōrātum	labōrātū
+want	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+want	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+want	#	verbal nouns	volandī	volandō	volandum	volandō	volātum	volātū
+become	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+become	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+become	#	verbal nouns	fiendī	fiendō	fiendum	fiendō	factum	factū
+go	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+go	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+go	#	verbal nouns	eundī	eundō	eundum	eundō	itum	itū
+carry	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+carry	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+carry	#	verbal nouns	ferendī	ferendō	ferendum	ferendō	lātum	lātū
+love	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+love	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+love	#	verbal nouns	amandī	amandō	amandum	amandō	amātum	amātū
+advise	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+advise	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+advise	#	verbal nouns	monendī	monendō	monendum	monendō	monitum	monitū
+capture	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+capture	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+capture	#	verbal nouns	capiendī	capiendō	capiendum	capiendō	captum	captū
+figure		infinitive	putāre	putāvisse, putāsse1	putātūrum esse	putārī	putātum esse	putātum īrī
+figure		participle	putāns	—	putātūrus	—	putātus	putandus
+figure	#	verbal nouns	gerund	gerund	gerund	gerund	supine	supine
+figure	#	verbal nouns	genitive	dative	accusative	ablative	accusative	ablative
+figure	#	verbal nouns	putandī	putandō	putandum	putandō	putātum	putātū

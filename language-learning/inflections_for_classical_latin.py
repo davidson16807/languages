@@ -61,10 +61,6 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/finite-conjugations.tsv')),
                 *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/nonfinite-conjugations.tsv')),
-                *filter(has_annotation('language','classical-latin'),
-                    declension_verb_annotation.annotate(
-                        tsv_parsing.rows(
-                            'data/inflection/declension-template-verbs-minimal.tsv'))),
             ])),
         NestedDictLookup(
             declension_population.index([
@@ -314,6 +310,7 @@ gender_noun_whitelist = parse.tokenmask(
     animal    neuter
     attention feminine
     bird      feminine
+    brother   masculine
     boat      feminine
     book      masculine
     bug       masculine
@@ -340,6 +337,7 @@ gender_noun_whitelist = parse.tokenmask(
     name      neuter
     rock      neuter
     rope      feminine
+    sister    feminine
     size      feminine
     son       masculine
     sound     masculine
