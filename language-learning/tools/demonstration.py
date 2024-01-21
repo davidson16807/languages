@@ -37,7 +37,8 @@ def TextDemonstration(
                                 completed_substitutions,
                                 debug=debug,
                             ))
-                for (replaced, replacement) in self.postprocessing:
+                for step in self.postprocessing:
+                    (replaced, replacement) = (step[0], '') if len(step)==1 else step
                     text = text.replace(replaced, replacement)
                 return self.format_card(text)
             return demonstrate

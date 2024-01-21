@@ -497,12 +497,17 @@ template_tree_lookup = (
             tsv_parsing.rows('data/inflection/template-trees.tsv')))
 )
 
-case_usage_annotation = CellAnnotation('case', dict_bundle_to_map(case_episemaxis_to_episemes), {0:'column'}, {}, {})
+case_usage_dict = {
+    **case_episemaxis_to_episemes,
+    'script':tagaxis_to_tags['script'],
+}
+case_usage_annotation = CellAnnotation('case', 
+    dict_bundle_to_map(case_usage_dict), {0:'column'}, {}, {})
 case_usage_population = NestedLookupPopulation(
     DefaultDictLookup('case-usage', 
         DictTupleIndexing(
-            'valency subjectivity motion role'.split(),
-            case_episemaxis_to_episemes,
+            'valency subjectivity motion role script'.split(),
+            case_usage_dict,
         ),
         lambda dictkey: DictLookup('grammatical-case-columns',
             DictKeyIndexing('column'))),

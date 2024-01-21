@@ -70,11 +70,11 @@ foreign_language = Language(
                 *possessive_pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/greek/attic/pronoun-possessives.tsv')),
             ])),
-        # NestedDictLookup(
-        #     declension_population.index([
-        #         *common_noun_annotation.annotate(
-        #             tsv_parsing.rows('data/inflection/indo-european/greek/attic/adjective-agreements.tsv')),
-        #     ])),
+        NestedDictLookup(
+            declension_population.index([
+                # *common_noun_annotation.annotate(
+                #     tsv_parsing.rows('data/inflection/indo-european/greek/attic/adjective-agreements.tsv')),
+            ])),
     ),
     RuleSyntax(
         parse_any.terms('subject verb direct-object indirect-object adverbial'), 
@@ -93,7 +93,7 @@ foreign_termaxis_to_terms = {
         gender :  masculine feminine neuter
         number :  singular dual plural
         motion :  approached acquired associated departed leveraged surpassed
-        progress: atelic started finished
+        progress: atelic unfinished finished
         tense  :  present past future
         voice  :  active middle passive
         mood   :  indicative subjunctive imperative optative
@@ -110,7 +110,7 @@ foreign_termaxis_to_terms = {
          orator father man Demeter Socrates Pericles arrow
          foundation shame Ares woman Thales Oedipus fire
          Apollo knee wood Zeus liver dog ship ear water hand
-        #adjective: bad good big doomed
+        # adjective:
     '''),
 }
 
@@ -125,11 +125,182 @@ foreign_demonstration = LanguageSpecificTextDemonstration(
     [('∅',''), ('-','')]
 )
 
-transliterated = LanguageSpecificTextDemonstration(
-    Orthography('latin', foreign_language),
+transliteration = parse_any.tokenpoints('''
+    αι  ae
+    αυ  au
+    ευ  eu
+    ηυ  iu
+    ου  ou
+    υι  ui
+    ωυ  ou
+    οι  oe
+    υι  ui
+    ει  ei
+    γγ  ng
+    γκ  nk
+    γξ  nx
+    γχ  nch
+ #\\bρ  rh
+
+    ά   á
+    ὰ   à
+    ᾶ   ã
+    ἀ   a
+    ἄ   á
+    ἂ   à
+    ἆ   ã
+    ἁ   ha
+    ἅ   há
+    ἃ   hà
+    ἇ   hã
+    ᾱ   ā
+    ᾰ   ă
+    ᾳ   a
+    ᾴ   á
+    ᾲ   à
+    ᾷ   ã
+    ᾀ   a
+    ᾄ   á
+    ᾂ   à
+    ᾆ   ã
+    ᾁ   ha
+    ᾅ   há
+    ᾃ   hà
+    ᾇ   hã
+    έ   é
+    ὲ   è
+    ἐ   e
+    ἔ   é
+    ἒ   è
+    ἑ   he
+    ἕ   hé
+    ἓ   hè
+    ή   é
+    ὴ   è
+    ῆ   ẽ
+    ἠ   e
+    ἤ   é
+    ἢ   è
+    ἦ   ẽ
+    ἡ   he
+    ἥ   hé
+    ἣ   hè
+    ἧ   hẽ
+    ῃ   e
+    ῄ   é
+    ῂ   è
+    ῇ   ẽ
+    ᾐ   e
+    ᾔ   é
+    ᾒ   è
+    ᾖ   ẽ
+    ᾑ   hē
+    ᾕ   hé
+    ᾓ   hè
+    ᾗ   hẽ
+    ί   í
+    ὶ   ì
+    ῖ   ĩ
+    ἰ   i
+    ἴ   í
+    ἲ   ì
+    ἶ   ĩ
+    ἱ   hi
+    ἵ   hí
+    ἳ   hì
+    ἷ   hĩ
+    ϊ   i
+    ΐ   í
+    ῒ   ì
+    ῗ   ĩ
+    ῑ   ī
+    ῐ   ĭ
+    ό   ó
+    ὸ   ò
+    ὀ   o
+    ὄ   ó
+    ὂ   ò
+    ὁ   o
+    ὅ   ó
+    ὃ   ò
+    ῤ   r
+    ῥ   rh
+    ύ   ý
+    ὺ   ỳ
+    ῦ   ỹ
+    ὐ   y
+    ὔ   ý
+    ὒ   ỳ
+    ὖ   ỹ
+    ὑ   hy
+    ὕ   hý
+    ὓ   hỳ
+    ὗ   hỹ
+    ϋ   y
+    ΰ   ý
+    ῢ   ỳ
+    ῧ   ỹ
+    ῡ   ȳ
+    ῠ   y̆
+    ῠ̔   hy̆
+    ώ   ó
+    ὼ   ò
+    ῶ   õ
+    ὠ   o
+    ὤ   ó
+    ὢ   ò
+    ὦ   õ
+    ὡ   ho
+    ὥ   hó
+    ὣ   hò
+    ὧ   hõ
+    ῳ   o
+    ῴ   ó
+    ῲ   ò
+    ῷ   õ
+    ᾠ   o
+    ᾤ   ó
+    ᾢ   ò
+    ᾦ   õ
+    ᾡ   ho
+    ᾥ   hó
+    ᾣ   hò
+    ᾧ   hõ
+
+    α   a
+    β   b
+    γ   g
+    δ   d
+    ε   e
+    ζ   z
+    η   e
+    θ   th
+    ι   i
+    κ   c
+    λ   l
+    μ   m
+    ν   n
+    ξ   x
+    ο   o
+    π   p
+    ρ   r
+    σ   s
+    ς   s
+    τ   t
+    υ   y
+    φ   ph
+    χ   ch
+    ψ   ps
+    ω   o
+    ∅
+    -
+    ''')
+
+transliterated_demonstration = LanguageSpecificTextDemonstration(
+    Orthography('greek', foreign_language),
     lambda tags, text: text,
-    card_formatting.foreign_focus,
-    [('∅',''), ('-','')]
+    card_formatting.foreign_side_note,
+    transliteration
 )
 
 english_demonstration = LanguageSpecificTextDemonstration(
@@ -147,6 +318,7 @@ emoji_demonstration = LanguageSpecificEmojiDemonstration(
 demonstrations = [
     emoji_demonstration,
     foreign_demonstration,
+    transliterated_demonstration,
     english_demonstration,
 ]
 
@@ -386,7 +558,7 @@ possessor_possession_whitelist = parse.tokenmask(
     woman-possessor   gift
     animal-possessor  brother
     animal-possessor  sister
-    animal-possessor  gift
+    animal-possessor  name
     ''')
 
 possessor_pronoun_traversal = label_editing.termpath(
@@ -449,8 +621,8 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/greek/attic/finite-conjugation.html')
-write('flashcards/greek/attic/finite-conjugation.html', 
+print('flashcards/ancient-greek/finite-conjugation.html')
+write('flashcards/ancient-greek/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -467,8 +639,8 @@ write('flashcards/greek/attic/finite-conjugation.html',
     ))
 
 """
-print('flashcards/greek/attic/participle-declension.html')
-write('flashcards/greek/attic/participle-declension.html', 
+print('flashcards/ancient-greek/participle-declension.html')
+write('flashcards/ancient-greek/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -490,8 +662,8 @@ write('flashcards/greek/attic/participle-declension.html',
     ))
 """
 
-print('flashcards/greek/attic/adpositions.html')
-write('flashcards/greek/attic/adpositions.html', 
+print('flashcards/ancient-greek/adpositions.html')
+write('flashcards/ancient-greek/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -511,8 +683,8 @@ write('flashcards/greek/attic/adpositions.html',
         },
     ))
 
-print('flashcards/greek/attic/common-noun-declension.html')
-write('flashcards/greek/attic/common-noun-declension.html',
+print('flashcards/ancient-greek/common-noun-declension.html')
+write('flashcards/ancient-greek/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -531,8 +703,8 @@ write('flashcards/greek/attic/common-noun-declension.html',
     ))
 
 
-print('flashcards/greek/attic/pronoun-declension.html')
-write('flashcards/greek/attic/pronoun-declension.html', 
+print('flashcards/ancient-greek/pronoun-declension.html')
+write('flashcards/ancient-greek/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -548,28 +720,28 @@ write('flashcards/greek/attic/pronoun-declension.html',
         },
     ))
 
-print('flashcards/greek/attic/adjective-agreement.html')
-write('flashcards/greek/attic/adjective-agreement.html', 
-    deck_generation.generate(
-        [demonstration.generator(
-            tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace([['cloze','adj','adjective'], ['n']])}],
-        ) for demonstration in demonstrations], 
-        defaults.override(
-            ((  axis['number']
-             * gender_agreement_traversal
-             * declension_noun_traversal
-             * axis['adjective'])
-            & noun_template_whitelist) 
-        ),
-        tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('common definite'),
-        },
-    ))
+# print('flashcards/ancient-greek/adjective-agreement.html')
+# write('flashcards/ancient-greek/adjective-agreement.html', 
+#     deck_generation.generate(
+#         [demonstration.generator(
+#             tree_lookup = template_tree_lookup,
+#             substitutions = [{'declined': list_tools.replace([['cloze','adj','adjective'], ['n']])}],
+#         ) for demonstration in demonstrations], 
+#         defaults.override(
+#             ((  axis['number']
+#              * gender_agreement_traversal
+#              * declension_noun_traversal
+#              * axis['adjective'])
+#             & noun_template_whitelist) 
+#         ),
+#         tag_templates ={
+#             'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+#             'test'       : parse.termaxis_to_term('common definite'),
+#         },
+#     ))
 
-print('flashcards/greek/attic/pronoun-possessives.html')
-write('flashcards/greek/attic/pronoun-possessives.html', 
+print('flashcards/ancient-greek/pronoun-possessives.html')
+write('flashcards/ancient-greek/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
