@@ -113,7 +113,7 @@ foreign_termaxis_to_terms = {
         subjectivity: subject addressee direct-object adnominal indirect-object adverbial
     '''),
     **parse_any.token_to_tokens('''
-        verb : be go release
+        verb : release be go
         noun : young-man soldier polity village person street gift 
          circumnavigation bone hero fish oak city axe town 
          master cow old-woman echo Clio crow vulture rug
