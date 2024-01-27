@@ -146,7 +146,7 @@ class GenderWikiHtml:
 				yield [gender]
 
 
-class Crawling:
+class Caching:
 	def __init__(self, parsing):
 		self.parsing = parsing
 	def crawl(self, lemma_url_text):
@@ -162,11 +162,166 @@ class Crawling:
 ops = RowMajorTableOps()
 scraping = TableScraping(ops)
 parsing = TokenParsing()
-crawling = Crawling(parsing)
+caching = Caching(parsing)
 formatting = RowMajorTableText('\t','\n')
 
 
-noun_html = crawling.crawl('''
+write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(
+			GreekRowMajorWikiTableHtml(ops),
+			# RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Ancient_Greek', 'grc', table_count=9), 
+			caching.crawl('''
+				appear    https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B4%CE%B4%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
+				be-inherently  https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B0%CE%BC%CE%AF#Ancient_Greek
+				be-momentarily
+				change    https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CE%BB%CE%AC%CF%83%CF%83%CF%89#Ancient_Greek
+				climb     
+				crawl     
+				cool      
+				direct    https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CF%89#Ancient_Greek
+				displease https://en.wiktionary.org/wiki/%E1%BC%80%CF%80%CE%B1%CF%81%CE%AD%CF%83%CE%BA%CF%89#Ancient_Greek
+				eat       https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CF%89#Ancient_Greek
+				endure    https://en.wiktionary.org/wiki/%E1%BD%91%CF%80%CE%BF%CE%BC%CE%AD%CE%BD%CF%89#Ancient_Greek
+				fall      https://en.wiktionary.org/wiki/%CF%80%CE%AF%CF%80%CF%84%CF%89#Ancient_Greek
+				fly       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%84%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
+				flow      
+				hear      
+				occupy    
+				resemble  
+				rest      
+				see       https://en.wiktionary.org/wiki/%CE%B2%CE%BB%CE%AD%CF%80%CF%89#Ancient_Greek
+				show      https://en.wiktionary.org/wiki/%CE%B4%CE%B5%CE%AF%CE%BA%CE%BD%CF%85%CE%BC%CE%B9#Ancient_Greek
+				startle   https://en.wiktionary.org/wiki/%CF%86%CE%BF%CE%B2%CE%AD%CF%89#Ancient_Greek # "terrify"
+				swim      https://en.wiktionary.org/wiki/%CE%BD%CE%AD%CF%89#Ancient_Greek
+				walk      https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AD%CF%89#Ancient_Greek
+				warm      https://en.wiktionary.org/wiki/%CE%B8%CE%AC%CE%BB%CF%80%CF%89#Ancient_Greek
+				watch     https://en.wiktionary.org/wiki/%CF%83%CE%BA%CE%BF%CF%80%CE%AD%CF%89#Ancient_Greek
+				work      https://en.wiktionary.org/wiki/%E1%BC%90%CF%81%CE%B3%CE%AC%CE%B6%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
+
+				go        https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%BC%CE%B9#Ancient_Greek
+				release   https://en.wiktionary.org/wiki/%CE%BB%CF%8D%CF%89#Ancient_Greek
+			''')
+		)
+	)
+)
+
+noun_html = caching.crawl('''
+	animal    https://en.wiktionary.org/wiki/%CE%B6%E1%BF%B7%CE%BF%CE%BD#Ancient_Greek
+	attention https://en.wiktionary.org/wiki/%CF%86%CF%81%CE%BF%CE%BD%CF%84%CE%AF%CF%82#Ancient_Greek
+	bird      https://en.wiktionary.org/wiki/%E1%BD%84%CF%81%CE%BD%CE%B9%CF%82#Ancient_Greek
+	boat      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82#Ancient_Greek
+	book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%CE%BD#Ancient_Greek
+	brother   https://en.wiktionary.org/wiki/%E1%BC%80%CE%B4%CE%B5%CE%BB%CF%86%CF%8C%CF%82#Ancient_Greek
+	bug       https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CF%84%CE%BF%CE%BC%CE%BF%CE%BD#Ancient_Greek
+	dog       https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CF%89%CE%BD#Ancient_Greek
+	door      https://en.wiktionary.org/wiki/%CE%B8%CF%8D%CF%81%CE%B1#Ancient_Greek
+	clothing  https://en.wiktionary.org/wiki/%E1%BC%90%CF%83%CE%B8%CE%AE%CF%82#Ancient_Greek
+	daughter  https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81#Ancient_Greek
+	drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF%CE%BD#Ancient_Greek
+	enemy     https://en.wiktionary.org/wiki/%E1%BC%90%CF%87%CE%B8%CF%81%CF%8C%CF%82#Ancient_Greek
+	fire      https://en.wiktionary.org/wiki/%CF%80%E1%BF%A6%CF%81#Ancient_Greek
+	food      https://en.wiktionary.org/wiki/%CE%B2%CF%81%E1%BF%B6%CE%BC%CE%B1#Ancient_Greek
+	food      https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%B4%CE%B1%CF%81#Ancient_Greek
+	gift      https://en.wiktionary.org/wiki/%CE%B4%E1%BF%B6%CF%81%CE%BF%CE%BD#Ancient_Greek
+	glass     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B1%CE%BB%CE%BF%CF%82#Ancient_Greek
+	guard     https://en.wiktionary.org/wiki/%CF%84%CE%B7%CF%81%CF%8C%CF%82#Ancient_Greek
+	horse     https://en.wiktionary.org/wiki/%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82#Ancient_Greek
+	house     https://en.wiktionary.org/wiki/%CE%BF%E1%BC%B6%CE%BA%CE%BF%CF%82#Ancient_Greek
+	livestock https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BD%CE%BF%CF%82#Ancient_Greek
+	love      https://en.wiktionary.org/wiki/%CF%86%CE%B9%CE%BB%CE%AF%CE%B1#Ancient_Greek
+	idea      https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek
+	man       https://en.wiktionary.org/wiki/%E1%BC%80%CE%BD%CE%AE%CF%81#Ancient_Greek
+	money     https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CF%81%CE%BC%CE%B1#Ancient_Greek
+	monster   https://en.wiktionary.org/wiki/%CF%84%CE%AD%CF%81%CE%B1%CF%82#Ancient_Greek
+	name      https://en.wiktionary.org/wiki/%E1%BD%84%CE%BD%CE%BF%CE%BC%CE%B1#Ancient_Greek
+	rock      https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#Ancient_Greek
+	rope      https://en.wiktionary.org/wiki/%CF%83%CE%B5%CE%B9%CF%81%CE%AC#Ancient_Greek
+	size      https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CE%B3%CE%B5%CE%B8%CE%BF%CF%82#Ancient_Greek
+	sister    https://en.wiktionary.org/wiki/%E1%BC%80%CE%B4%CE%B5%CE%BB%CF%86%CE%AE#Ancient_Greek
+	son       https://en.wiktionary.org/wiki/%CF%85%E1%BC%B1%CF%8C%CF%82#Ancient_Greek
+	sound     https://en.wiktionary.org/wiki/%E1%BC%A6%CF%87%CE%BF%CF%82#Ancient_Greek
+	warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%AD%CF%81%CE%BC%CE%B7#Ancient_Greek
+	water     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek
+	way       https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%BB%CE%B5%CF%85%CE%B8%CE%BF%CF%82#Ancient_Greek
+	wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
+	window    https://en.wiktionary.org/wiki/%CE%B8%CF%85%CF%81%CE%AF%CF%82#Ancient_Greek
+	woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%AE#Ancient_Greek
+	work      https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
+
+	young-man https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
+	soldier   https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CE%B1%CE%BD%CE%AF%CE%B1%CF%82
+	polity    https://en.wiktionary.org/wiki/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B9%CF%8E%CF%84%CE%B7%CF%82
+	village   https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1
+	person    https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BC%CE%B7
+	street    https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82
+	circumnavigation https://en.wiktionary.org/wiki/%E1%BD%81%CE%B4%CF%8C%CF%82
+	bone      https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CE%AF%CF%80%CE%BB%CE%BF%CF%85%CF%82
+	hero      https://en.wiktionary.org/wiki/%E1%BD%80%CF%83%CF%84%CE%BF%E1%BF%A6%CE%BD
+	fish      https://en.wiktionary.org/wiki/%E1%BC%A5%CF%81%CF%89%CF%82
+	oak       https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CE%B8%CF%8D%CF%82
+	city      https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82
+	axe       https://en.wiktionary.org/wiki/%CF%80%CF%8C%CE%BB%CE%B9%CF%82
+	town      https://en.wiktionary.org/wiki/%CF%80%CE%AD%CE%BB%CE%B5%CE%BA%CF%85%CF%82
+	master    https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CF%84%CF%85
+	old-woman https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82
+	cow       https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%B1%E1%BF%A6%CF%82
+	echo      https://en.wiktionary.org/wiki/%CE%B2%CE%BF%E1%BF%A6%CF%82
+	Clio      https://en.wiktionary.org/wiki/%E1%BC%A0%CF%87%CF%8E
+	crow      https://en.wiktionary.org/wiki/%CE%9A%CE%BB%CE%B5%CE%B9%CF%8E
+	vulture   https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B1%CE%BE
+	rug       https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88
+	giant     https://en.wiktionary.org/wiki/%CF%84%CE%AC%CF%80%CE%B7%CF%82
+	tooth     https://en.wiktionary.org/wiki/%CE%B3%CE%AF%CE%B3%CE%B1%CF%82
+	old-man   https://en.wiktionary.org/wiki/%E1%BD%80%CE%B4%CE%BF%CF%8D%CF%82
+	property  https://en.wiktionary.org/wiki/%CE%B3%CE%AD%CF%81%CF%89%CE%BD
+	Greek     https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BC%CE%B1
+	winter    https://en.wiktionary.org/wiki/%E1%BC%9D%CE%BB%CE%BB%CE%B7%CE%BD
+	Titan     https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%B9%CE%BC%CF%8E%CE%BD
+	light-ray https://en.wiktionary.org/wiki/%CE%A4%CE%B9%CF%84%CE%AC%CE%BD
+	shepherd  https://en.wiktionary.org/wiki/%E1%BC%80%CE%BA%CF%84%CE%AF%CF%82
+	guide     https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%B9%CE%BC%CE%AE%CE%BD
+	neighbor  https://en.wiktionary.org/wiki/%E1%BC%A1%CE%B3%CE%B5%CE%BC%CF%8E%CE%BD
+	ichor     https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CE%AF%CF%84%CF%89%CE%BD
+	chaff     https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CF%8E%CF%81
+	orator    https://en.wiktionary.org/wiki/%E1%BC%80%CE%B8%CE%AE%CF%81
+	father    https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AE%CF%84%CF%89%CF%81
+	Demeter   https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AE%CF%81
+	Socrates  https://en.wiktionary.org/wiki/%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CE%B7%CF%81
+	Pericles  https://en.wiktionary.org/wiki/%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%B7%CF%82
+	arrow     https://en.wiktionary.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%E1%BF%86%CF%82
+    foundationhttps://en.wiktionary.org/wiki/%CE%B2%CE%AD%CE%BB%CE%BF%CF%82
+    shame      https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CE%B1%CF%86%CE%BF%CF%82#Ancient_Greek
+    Ares      https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B0%CE%B4%CF%8E%CF%82#Ancient_Greek
+    Thales    https://en.wiktionary.org/wiki/%E1%BC%8C%CF%81%CE%B7%CF%82
+    Oedipus   https://en.wiktionary.org/wiki/%CE%98%CE%B1%CE%BB%E1%BF%86%CF%82
+    Apollo    https://en.wiktionary.org/wiki/%CE%9F%E1%BC%B0%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82
+    knee      https://en.wiktionary.org/wiki/%E1%BC%88%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD
+    wood      https://en.wiktionary.org/wiki/%CE%B3%CF%8C%CE%BD%CF%85
+    Zeus      https://en.wiktionary.org/wiki/%CE%B4%CF%8C%CF%81%CF%85
+    liver     https://en.wiktionary.org/wiki/%CE%96%CE%B5%CF%8D%CF%82
+    ship      https://en.wiktionary.org/wiki/%E1%BC%A7%CF%80%CE%B1%CF%81
+    ear       https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82
+    hand      https://en.wiktionary.org/wiki/%CE%BF%E1%BD%96%CF%82
+''')
+
+print('GREEK/ANCIENT')
+write('data/inflection/indo-european/greek/attic/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Ancient_Greek'), noun_html)
+	)
+)
+
+print('GREEK/ANCIENT')
+write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(GreekRowMajorWikiTableHtml(ops), noun_html)
+	)
+)
+
+raise 'done'
+
+noun_html = caching.crawl('''
 	animal    https://en.wiktionary.org/wiki/animal#Latin
 	attention https://en.wiktionary.org/wiki/attentio#Latin
 	bird      https://en.wiktionary.org/wiki/avis#Latin
@@ -248,7 +403,7 @@ write('data/inflection/indo-european/romance/latin/scraped-nouns.tsv',
 write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Latin', 'la'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/appareo#Latin
 				be-inherently  https://en.wiktionary.org/wiki/sum#Latin
 				be-momentarily https://en.wiktionary.org/wiki/sum#Latin
@@ -291,7 +446,7 @@ write('data/inflection/indo-european/romance/latin/scraped-verbs.tsv',
 	)
 )
 
-noun_html = crawling.crawl('''
+noun_html = caching.crawl('''
 	animal    # oxsus
 	attention # ueliia
 	bird      # etnos
@@ -353,7 +508,7 @@ write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
 # write('data/inflection/indo-european/celtic/gaulish/scraped-verbs.tsv',
 # 	formatting.format(
 # 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Gaulish'), 
-# 			crawling.crawl('''
+# 			caching.crawl('''
 # 				appear    
 # 				be-inherently  # essi
 # 				be-momentarily # essi
@@ -385,9 +540,7 @@ write('data/inflection/indo-european/celtic/gaulish/scraped-nouns.tsv',
 # 	)
 # )
 
-raise 'done'
-
-noun_html = crawling.crawl('''
+noun_html = caching.crawl('''
 	animal    https://en.wiktionary.org/wiki/nieten#Old_English
 	attention https://en.wiktionary.org/wiki/ge%C3%BEoht#Old_English
 	bird      https://en.wiktionary.org/wiki/fugol#Old_English
@@ -469,7 +622,7 @@ write('data/inflection/indo-european/germanic/english/old/scraped-nouns.tsv',
 write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Old_English', 'ang'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/%C3%A6tiewan#Old_English
 				be-inherently  https://en.wiktionary.org/wiki/wesan#Old_English
 				be-momentarily https://en.wiktionary.org/wiki/beon#Old_English
@@ -514,164 +667,11 @@ write('data/inflection/indo-european/germanic/english/old/scraped-verbs.tsv',
 	)
 )
 
-write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(
-			GreekRowMajorWikiTableHtml(ops),
-			# RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Ancient_Greek', 'grc', table_count=9), 
-			crawling.crawl('''
-				appear    https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B4%CE%B4%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
-				be-inherently  https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B0%CE%BC%CE%AF#Ancient_Greek
-				be-momentarily
-				change    https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CE%BB%CE%AC%CF%83%CF%83%CF%89#Ancient_Greek
-				climb     
-				crawl     
-				cool      
-				direct    https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CF%89#Ancient_Greek
-				displease https://en.wiktionary.org/wiki/%E1%BC%80%CF%80%CE%B1%CF%81%CE%AD%CF%83%CE%BA%CF%89#Ancient_Greek
-				eat       https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CF%89#Ancient_Greek
-				endure    https://en.wiktionary.org/wiki/%E1%BD%91%CF%80%CE%BF%CE%BC%CE%AD%CE%BD%CF%89#Ancient_Greek
-				fall      https://en.wiktionary.org/wiki/%CF%80%CE%AF%CF%80%CF%84%CF%89#Ancient_Greek
-				fly       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%84%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
-				flow      
-				hear      
-				occupy    
-				resemble  
-				rest      
-				see       https://en.wiktionary.org/wiki/%CE%B2%CE%BB%CE%AD%CF%80%CF%89#Ancient_Greek
-				show      https://en.wiktionary.org/wiki/%CE%B4%CE%B5%CE%AF%CE%BA%CE%BD%CF%85%CE%BC%CE%B9#Ancient_Greek
-				startle   https://en.wiktionary.org/wiki/%CF%86%CE%BF%CE%B2%CE%AD%CF%89#Ancient_Greek # "terrify"
-				swim      https://en.wiktionary.org/wiki/%CE%BD%CE%AD%CF%89#Ancient_Greek
-				walk      https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AD%CF%89#Ancient_Greek
-				warm      https://en.wiktionary.org/wiki/%CE%B8%CE%AC%CE%BB%CF%80%CF%89#Ancient_Greek
-				watch     https://en.wiktionary.org/wiki/%CF%83%CE%BA%CE%BF%CF%80%CE%AD%CF%89#Ancient_Greek
-				work      https://en.wiktionary.org/wiki/%E1%BC%90%CF%81%CE%B3%CE%AC%CE%B6%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
-
-				go        https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%BC%CE%B9#Ancient_Greek
-				release   https://en.wiktionary.org/wiki/%CE%BB%CF%8D%CF%89#Ancient_Greek
-			''')
-		)
-	)
-)
-
-noun_html = crawling.crawl('''
-	animal    https://en.wiktionary.org/wiki/%CE%B6%E1%BF%B7%CE%BF%CE%BD#Ancient_Greek
-	attention https://en.wiktionary.org/wiki/%CF%86%CF%81%CE%BF%CE%BD%CF%84%CE%AF%CF%82#Ancient_Greek
-	bird      https://en.wiktionary.org/wiki/%E1%BD%84%CF%81%CE%BD%CE%B9%CF%82#Ancient_Greek
-	boat      https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82#Ancient_Greek
-	book      https://en.wiktionary.org/wiki/%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%CE%BD#Ancient_Greek
-	brother   https://en.wiktionary.org/wiki/%E1%BC%80%CE%B4%CE%B5%CE%BB%CF%86%CF%8C%CF%82#Ancient_Greek
-	bug       https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CF%84%CE%BF%CE%BC%CE%BF%CE%BD#Ancient_Greek
-	dog       https://en.wiktionary.org/wiki/%CE%BA%CF%8D%CF%89%CE%BD#Ancient_Greek
-	door      https://en.wiktionary.org/wiki/%CE%B8%CF%8D%CF%81%CE%B1#Ancient_Greek
-	clothing  https://en.wiktionary.org/wiki/%E1%BC%90%CF%83%CE%B8%CE%AE%CF%82#Ancient_Greek
-	daughter  https://en.wiktionary.org/wiki/%CE%B8%CF%85%CE%B3%CE%AC%CF%84%CE%B7%CF%81#Ancient_Greek
-	drum      https://en.wiktionary.org/wiki/%CF%84%CF%8D%CE%BC%CF%80%CE%B1%CE%BD%CE%BF%CE%BD#Ancient_Greek
-	enemy     https://en.wiktionary.org/wiki/%E1%BC%90%CF%87%CE%B8%CF%81%CF%8C%CF%82#Ancient_Greek
-	fire      https://en.wiktionary.org/wiki/%CF%80%E1%BF%A6%CF%81#Ancient_Greek
-	food      https://en.wiktionary.org/wiki/%CE%B2%CF%81%E1%BF%B6%CE%BC%CE%B1#Ancient_Greek
-	food      https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B6%CE%B4%CE%B1%CF%81#Ancient_Greek
-	gift      https://en.wiktionary.org/wiki/%CE%B4%E1%BF%B6%CF%81%CE%BF%CE%BD#Ancient_Greek
-	glass     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B1%CE%BB%CE%BF%CF%82#Ancient_Greek
-	guard     https://en.wiktionary.org/wiki/%CF%84%CE%B7%CF%81%CF%8C%CF%82#Ancient_Greek
-	horse     https://en.wiktionary.org/wiki/%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82#Ancient_Greek
-	house     https://en.wiktionary.org/wiki/%CE%BF%E1%BC%B6%CE%BA%CE%BF%CF%82#Ancient_Greek
-	livestock https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BD%CE%BF%CF%82#Ancient_Greek
-	love      https://en.wiktionary.org/wiki/%CF%86%CE%B9%CE%BB%CE%AF%CE%B1#Ancient_Greek
-	idea      https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek
-	man       https://en.wiktionary.org/wiki/%E1%BC%80%CE%BD%CE%AE%CF%81#Ancient_Greek
-	money     https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CF%81%CE%BC%CE%B1#Ancient_Greek
-	monster   https://en.wiktionary.org/wiki/%CF%84%CE%AD%CF%81%CE%B1%CF%82#Ancient_Greek
-	name      https://en.wiktionary.org/wiki/%E1%BD%84%CE%BD%CE%BF%CE%BC%CE%B1#Ancient_Greek
-	rock      https://en.wiktionary.org/wiki/%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#Ancient_Greek
-	rope      https://en.wiktionary.org/wiki/%CF%83%CE%B5%CE%B9%CF%81%CE%AC#Ancient_Greek
-	size      https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CE%B3%CE%B5%CE%B8%CE%BF%CF%82#Ancient_Greek
-	sister    
-	son       https://en.wiktionary.org/wiki/%CF%85%E1%BC%B1%CF%8C%CF%82#Ancient_Greek
-	sound     https://en.wiktionary.org/wiki/%E1%BC%A6%CF%87%CE%BF%CF%82#Ancient_Greek
-	warmth    https://en.wiktionary.org/wiki/%CE%B8%CE%AD%CF%81%CE%BC%CE%B7#Ancient_Greek
-	water     https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek
-	way       https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CE%BB%CE%B5%CF%85%CE%B8%CE%BF%CF%82#Ancient_Greek
-	wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
-	window    https://en.wiktionary.org/wiki/%CE%B8%CF%85%CF%81%CE%AF%CF%82#Ancient_Greek
-	woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%AE#Ancient_Greek
-	work      https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
-
-	young-man https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
-	soldier   https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CE%B1%CE%BD%CE%AF%CE%B1%CF%82
-	polity    https://en.wiktionary.org/wiki/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B9%CF%8E%CF%84%CE%B7%CF%82
-	village   https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1
-	person    https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BC%CE%B7
-	street    https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82
-	circumnavihttps://en.wiktionary.org/wiki/%E1%BD%81%CE%B4%CF%8C%CF%82
-	bone      gation https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CE%AF%CF%80%CE%BB%CE%BF%CF%85%CF%82
-	hero      https://en.wiktionary.org/wiki/%E1%BD%80%CF%83%CF%84%CE%BF%E1%BF%A6%CE%BD
-	fish      https://en.wiktionary.org/wiki/%E1%BC%A5%CF%81%CF%89%CF%82
-	oak       https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CE%B8%CF%8D%CF%82
-	city      https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82
-	axe       https://en.wiktionary.org/wiki/%CF%80%CF%8C%CE%BB%CE%B9%CF%82
-	town      https://en.wiktionary.org/wiki/%CF%80%CE%AD%CE%BB%CE%B5%CE%BA%CF%85%CF%82
-	master    https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CF%84%CF%85
-	old-woman https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82
-	cow       https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%B1%E1%BF%A6%CF%82
-	echo      https://en.wiktionary.org/wiki/%CE%B2%CE%BF%E1%BF%A6%CF%82
-	Clio      https://en.wiktionary.org/wiki/%E1%BC%A0%CF%87%CF%8E
-	crow      https://en.wiktionary.org/wiki/%CE%9A%CE%BB%CE%B5%CE%B9%CF%8E
-	vulture   https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B1%CE%BE
-	rug       https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88
-	giant     https://en.wiktionary.org/wiki/%CF%84%CE%AC%CF%80%CE%B7%CF%82
-	tooth     https://en.wiktionary.org/wiki/%CE%B3%CE%AF%CE%B3%CE%B1%CF%82
-	old-man   https://en.wiktionary.org/wiki/%E1%BD%80%CE%B4%CE%BF%CF%8D%CF%82
-	property  https://en.wiktionary.org/wiki/%CE%B3%CE%AD%CF%81%CF%89%CE%BD
-	Greek     https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BC%CE%B1
-	winter    https://en.wiktionary.org/wiki/%E1%BC%9D%CE%BB%CE%BB%CE%B7%CE%BD
-	Titan     https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%B9%CE%BC%CF%8E%CE%BD
-	light-ray https://en.wiktionary.org/wiki/%CE%A4%CE%B9%CF%84%CE%AC%CE%BD
-	shepherd  https://en.wiktionary.org/wiki/%E1%BC%80%CE%BA%CF%84%CE%AF%CF%82
-	guide     https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%B9%CE%BC%CE%AE%CE%BD
-	neighbor  https://en.wiktionary.org/wiki/%E1%BC%A1%CE%B3%CE%B5%CE%BC%CF%8E%CE%BD
-	ichor     https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CE%AF%CF%84%CF%89%CE%BD
-	chaff     https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CF%8E%CF%81
-	orator    https://en.wiktionary.org/wiki/%E1%BC%80%CE%B8%CE%AE%CF%81
-	father    https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AE%CF%84%CF%89%CF%81
-	Demeter   https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AE%CF%81
-	Socrates  https://en.wiktionary.org/wiki/%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CE%B7%CF%81
-	Pericles  https://en.wiktionary.org/wiki/%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%B7%CF%82
-	arrow     https://en.wiktionary.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%E1%BF%86%CF%82
-    foundationhttps://en.wiktionary.org/wiki/%CE%B2%CE%AD%CE%BB%CE%BF%CF%82
-    shame      https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CE%B1%CF%86%CE%BF%CF%82#Ancient_Greek
-    Ares      https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B0%CE%B4%CF%8E%CF%82#Ancient_Greek
-    Thales    https://en.wiktionary.org/wiki/%E1%BC%8C%CF%81%CE%B7%CF%82
-    Oedipus   https://en.wiktionary.org/wiki/%CE%98%CE%B1%CE%BB%E1%BF%86%CF%82
-    Apollo    https://en.wiktionary.org/wiki/%CE%9F%E1%BC%B0%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82
-    knee      https://en.wiktionary.org/wiki/%E1%BC%88%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD
-    wood      https://en.wiktionary.org/wiki/%CE%B3%CF%8C%CE%BD%CF%85
-    Zeus      https://en.wiktionary.org/wiki/%CE%B4%CF%8C%CF%81%CF%85
-    liver     https://en.wiktionary.org/wiki/%CE%96%CE%B5%CF%8D%CF%82
-    ship      https://en.wiktionary.org/wiki/%E1%BC%A7%CF%80%CE%B1%CF%81
-    ear       https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82
-    hand      https://en.wiktionary.org/wiki/%CE%BF%E1%BD%96%CF%82
-''')
-
-print('GREEK/ANCIENT')
-write('data/inflection/indo-european/greek/attic/scraped-genders.tsv',
-	formatting.format(
-		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Ancient_Greek'), noun_html)
-	)
-)
-
-print('GREEK/ANCIENT')
-write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(GreekRowMajorWikiTableHtml(ops), noun_html)
-	)
-)
-
 print('PROTO-INDO-EUROPEAN/SIHLER')
 write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Proto-Indo-European', 'ine-pro'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/t%C3%A1wros
 				attention https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%A9nos
 				bird      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9wis
@@ -731,7 +731,7 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 write('data/inflection/indo-european/proto-indo-european/sihler/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Proto-Indo-European', 'ine-pro'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81lud%CA%B0%C3%A9t # "arrive"
 				be        https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9sti
 				change    
@@ -791,7 +791,7 @@ print('ARABIC')
 write('data/inflection/semitic/arabic/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Arabic', 'ar'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%D8%AD%D9%8A%D9%88%D8%A7%D9%86#Arabic
 				attention https://en.wiktionary.org/wiki/%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85#Arabic
 				bird      https://en.wiktionary.org/wiki/%D8%B7%D8%A7%D8%A6%D8%B1#Arabic
@@ -839,7 +839,7 @@ write('data/inflection/semitic/arabic/scraped-nouns.tsv',
 write('data/inflection/semitic/arabic/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Arabic', 'ar'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D8%B6#Arabic
 				be-inherently  https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%86#Arabic # indicates that subject is a predicate, not that it is self-same to
 				be-momentarily https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%86#Arabic # indicates that subject is a predicate, not that it is self-same to
@@ -875,7 +875,7 @@ print('BASQUE')
 write('data/inflection/basque/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Basque', 'eu'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/animalia#Basque
 				attention https://en.wiktionary.org/wiki/gogo#Basque
 				bird      https://en.wiktionary.org/wiki/txori#Basque
@@ -924,7 +924,7 @@ write('data/inflection/basque/scraped-nouns.tsv',
 write('data/inflection/basque/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Basque', 'eu'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently  https://en.wiktionary.org/wiki/izan#Basque
 				be-momentarily https://en.wiktionary.org/wiki/egon#Basque
@@ -961,7 +961,7 @@ write('data/inflection/basque/scraped-verbs.tsv',
 write('data/inflection/indo-european/celtic/cornish/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Cornish'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently  https://en.wiktionary.org/wiki/bones#Cornish
 				be-momentarily https://en.wiktionary.org/wiki/bones#Cornish
@@ -1003,7 +1003,7 @@ print('EGYPTIAN')
 write('data/inflection/egyptian/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Egyptian', 'egy'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    
 				attention 
 				bird      https://en.wiktionary.org/wiki/%EA%9C%A3pd#Egyptian
@@ -1052,7 +1052,7 @@ write('data/inflection/egyptian/scraped-nouns.tsv',
 write('data/inflection/egyptian/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Egyptian', 'egy'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently 
 				be-momentarily
@@ -1088,7 +1088,7 @@ print('FINNISH')
 write('data/inflection/uralic/finnish/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Finnish', 'fi',2), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/el%C3%A4in#Finnish
 				attention https://en.wiktionary.org/wiki/huomio#Finnish
 				bird      https://en.wiktionary.org/wiki/lintu#Finnish
@@ -1137,7 +1137,7 @@ write('data/inflection/uralic/finnish/scraped-nouns.tsv',
 write('data/inflection/uralic/finnish/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Finnish', 'fi'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/ilmesty%C3%A4#Finnish
 				be-inherently  https://en.wiktionary.org/wiki/olla#Finnish
 				be-momentarily https://en.wiktionary.org/wiki/olla#Finnish
@@ -1173,7 +1173,7 @@ write('data/inflection/uralic/finnish/scraped-verbs.tsv',
 write('data/inflection/indo-european/romance/french/modern/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'French', 'fr'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/appara%C3%AEtre#French
 				be-inherently  https://en.wiktionary.org/wiki/%C3%AAtre#French
 				be-momentarily 
@@ -1220,7 +1220,7 @@ print('GEORGIAN')
 write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Georgian', 'ka',2), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%E1%83%AA%E1%83%AE%E1%83%9D%E1%83%95%E1%83%94%E1%83%9A%E1%83%98#Georgian
 				attention https://en.wiktionary.org/wiki/%E1%83%A7%E1%83%A3%E1%83%A0%E1%83%90%E1%83%93%E1%83%A6%E1%83%94%E1%83%91%E1%83%90#Georgian
 				bird      https://en.wiktionary.org/wiki/%E1%83%A9%E1%83%98%E1%83%A2%E1%83%98#Georgian
@@ -1269,7 +1269,7 @@ write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
 write('data/inflection/kartvelian/georgian/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Georgian', 'ka'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently 
 				be-momentarily
@@ -1306,7 +1306,7 @@ print('GERMAN')
 write('data/inflection/indo-european/germanic/german/modern/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'German', 'de'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/Tier#German
 				attention https://en.wiktionary.org/wiki/Beachtung#German
 				bird      https://en.wiktionary.org/wiki/Vogel#German
@@ -1354,7 +1354,7 @@ write('data/inflection/indo-european/germanic/german/modern/scraped-nouns.tsv',
 write('data/inflection/indo-european/germanic/german/modern/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'German', 'de'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/erscheinen#German
 				be-inherently  https://en.wiktionary.org/wiki/sein#German
 				be-momentarily 
@@ -1390,7 +1390,7 @@ print('GOTHIC')
 write('data/inflection/indo-european/germanic/gothic/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Gothic', 'got'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%F0%90%8C%B3%F0%90%8C%B9%F0%90%8C%BF%F0%90%8D%83#Gothic
 				attention https://en.wiktionary.org/wiki/%F0%90%8C%BC%F0%90%8C%B9%F0%90%8D%84%F0%90%8D%89%F0%90%8C%BD%F0%90%8D%83#Gothic
 				bird      https://en.wiktionary.org/wiki/%F0%90%8D%86%F0%90%8C%BF%F0%90%8C%B2%F0%90%8C%BB%F0%90%8D%83#Gothic
@@ -1439,7 +1439,7 @@ write('data/inflection/indo-european/germanic/gothic/scraped-nouns.tsv',
 write('data/inflection/indo-european/germanic/gothic/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Gothic', 'got'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/%F0%90%8C%B0%F0%90%8D%84%F0%90%8D%86%F0%90%8C%B0%F0%90%8D%82%F0%90%8C%BE%F0%90%8C%B0%F0%90%8C%BD#Gothic # "arrive"
 				be-inherently  https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B9%F0%90%8D%83%F0%90%8C%B0%F0%90%8C%BD#Gothic
 				be-momentarily 
@@ -1477,7 +1477,7 @@ print('GREEK/MODERN')
 write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Greek', 'el'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%CE%B6%CF%8E%CE%BF#Greek
 				attention https://en.wiktionary.org/wiki/%CF%80%CF%81%CE%BF%CF%83%CE%BF%CF%87%CE%AE#Greek
 				bird      https://en.wiktionary.org/wiki/%CF%80%CF%84%CE%B7%CE%BD%CF%8C#Greek
@@ -1525,7 +1525,7 @@ write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 write('data/inflection/indo-european/greek/modern/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Greek', 'el'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/%CE%B5%CE%BC%CF%86%CE%B1%CE%BD%CE%AF%CE%B6%CE%BF%CE%BC%CE%B1%CE%B9#Greek
 				be-inherently  https://en.wiktionary.org/wiki/%CE%B5%CE%AF%CE%BC%CE%B1%CE%B9#Greek
 				be-momentarily 
@@ -1561,7 +1561,7 @@ print('HEBREW')
 write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Hebrew', 'he'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    
 				attention https://en.wiktionary.org/wiki/%D7%9E%D7%97%D7%A9%D7%91%D7%94#Hebrew
 				bird      
@@ -1610,7 +1610,7 @@ write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 write('data/inflection/semitic/hebrew/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Hebrew', 'he'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/%D7%94%D7%95%D7%A4%D7%99%D7%A2#Hebrew
 				be-inherently  https://en.wiktionary.org/wiki/%D7%94%D7%99%D7%94#Hebrew
 				be-momentarily 
@@ -1646,7 +1646,7 @@ print('HINDI')
 write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Hindi', 'hi'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%B5%E0%A4%B0#Hindi
 				attention https://en.wiktionary.org/wiki/%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8#Hindi
 				bird      https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%82%E0%A4%9B%E0%A5%80#Hindi
@@ -1694,7 +1694,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 write('data/inflection/indo-european/indo-iranian/hindi/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Hindi', 'hi'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently  https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A4%BE#Hindi
 				be-momentarily 
@@ -1731,7 +1731,7 @@ print('HITTITE')
 write('data/inflection/indo-european/hittite/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Hittite', table_count=2), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    
 				attention 
 				bird      https://en.wiktionary.org/wiki/%F0%92%84%A9%F0%92%80%80%F0%92%8A%8F%F0%92%80%B8#Hittite # eagle
@@ -1790,7 +1790,7 @@ write('data/inflection/indo-european/hittite/scraped-nouns.tsv',
 write('data/inflection/indo-european/hittite/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Hittite', table_count=2), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently  https://en.wiktionary.org/wiki/%F0%92%82%8A%F0%92%8C%8D%F0%92%8D%A3#Hittite
 				be-momentarily https://en.wiktionary.org/wiki/%F0%92%82%8A%F0%92%8C%8D%F0%92%8D%A3#Hittite
@@ -1826,7 +1826,7 @@ print('HUNGARIAN')
 write('data/inflection/uralic/hungarian/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Hungarian', 'hu', 2), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%C3%A1llat#Hungarian
 				attention https://en.wiktionary.org/wiki/figyelem#Hungarian
 				bird      https://en.wiktionary.org/wiki/mad%C3%A1r#Hungarian
@@ -1876,7 +1876,7 @@ write('data/inflection/uralic/hungarian/scraped-nouns.tsv',
 write('data/inflection/uralic/hungarian/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Hungarian', 'hu'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/megjelenik#Hungarian
 				be-inherently 
 				be-momentarily
@@ -1913,7 +1913,7 @@ print('IRISH')
 write('data/inflection/indo-european/celtic/irish/modern/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Irish', 'ga'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/ainmh%C3%AD#Irish
 				attention https://en.wiktionary.org/wiki/aoidh#Irish
 				bird      https://en.wiktionary.org/wiki/%C3%A9an#Irish
@@ -1962,7 +1962,7 @@ write('data/inflection/indo-european/celtic/irish/modern/scraped-nouns.tsv',
 write('data/inflection/indo-european/celtic/irish/modern/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Irish', 'ga'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently  https://en.wiktionary.org/wiki/is#Irish # for nouns only
 				be-momentarily https://en.wiktionary.org/wiki/b%C3%AD#Irish # for adjectives only
@@ -1999,7 +1999,7 @@ print('ITALIAN')
 write('data/inflection/indo-european/romance/italian/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Italian', 'it'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/apparire#Italian
 				be-inherently 
 				be-momentarily
@@ -2034,7 +2034,7 @@ write('data/inflection/indo-european/romance/italian/scraped-verbs.tsv',
 write('data/inflection/japanese/modern/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Japanese', 'ja'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/%E7%8F%BE%E3%82%8C%E3%82%8B#Japanese
 				be-inherently  https://en.wiktionary.org/wiki/%E3%81%A0#Japanese
 				be-momentarily https://en.wiktionary.org/wiki/%E3%81%A0#Japanese
@@ -2072,7 +2072,7 @@ print('OLD-CHURCH-SLAVONIC')
 write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Old_Church_Slavonic', 'cu'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D1%8A#Old_Church_Slavonic
 				attention https://en.wiktionary.org/wiki/%D0%BC%EA%99%91%D1%81%D0%BB%D1%8C#Old_Church_Slavonic
 				bird      https://en.wiktionary.org/wiki/%D0%BF%D1%8A%D1%82%D0%B8%D1%86%D0%B0#Old_Church_Slavonic
@@ -2121,7 +2121,7 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.ts
 write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Old_Church_Slavonic', 'cu'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently  https://en.wiktionary.org/wiki/%D0%B1%EA%99%91%D1%82%D0%B8#Old_Church_Slavonic
 				be-momentarily 
@@ -2157,7 +2157,7 @@ print('QUECHUAN')
 write('data/inflection/quechuan/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Quechua', 'qu', 2), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/uywa#Quechua
 				attention 
 				bird      https://en.wiktionary.org/wiki/pisqu#Quechua
@@ -2206,7 +2206,7 @@ write('data/inflection/quechuan/scraped-nouns.tsv',
 write('data/inflection/quechuan/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Quechua', 'qu'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/qispiy#Quechua
 				be-inherently 
 				be-momentarily
@@ -2242,7 +2242,7 @@ print('RUSSIAN')
 write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Russian', 'ru'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D0%BE%D0%B5#Russian
 				attention https://en.wiktionary.org/wiki/%D0%B2%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D0%B5#Russian
 				bird      https://en.wiktionary.org/wiki/%D0%BF%D1%82%D0%B8%D1%86%D0%B0#Russian
@@ -2304,7 +2304,7 @@ write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
 write('data/inflection/indo-european/slavic/russian/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Russian', 'ru'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D1%8F%D1%82%D1%8C%D1%81%D1%8F#Russian
 				be-inherently  https://en.wiktionary.org/wiki/%D0%B1%D1%8B%D1%82%D1%8C#Russian
 				be-momentarily 
@@ -2340,7 +2340,7 @@ print('SANSKRIT')
 write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Sanskrit', 'sa'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A5%83%E0%A4%97#Sanskrit
 				attention https://en.wiktionary.org/wiki/%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8#Sanskrit
 				bird      https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BF#Sanskrit
@@ -2409,7 +2409,7 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Sanskrit', 'sa'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently 
 				be-momentarily
@@ -2444,7 +2444,7 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-verbs.tsv',
 write('data/inflection/indo-european/romance/spanish/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Spanish', 'es'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/aparecer#Spanish
 				be-inherently  https://en.wiktionary.org/wiki/ser#Spanish
 				be-momentarily https://en.wiktionary.org/wiki/estar#Spanish
@@ -2480,7 +2480,7 @@ print('SWEDISH')
 write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Swedish', 'sv'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/djur#Swedish
 				attention https://en.wiktionary.org/wiki/uppm%C3%A4rksamhet#Swedish
 				bird      https://en.wiktionary.org/wiki/f%C3%A5gel#Swedish
@@ -2529,7 +2529,7 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
 write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Swedish', 'sv'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    https://en.wiktionary.org/wiki/framtr%C3%A4da#Swedish
 				be-inherently  https://en.wiktionary.org/wiki/vara#Swedish
 				be-momentarily 
@@ -2572,7 +2572,7 @@ print('TAMIL')
 write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Tamil'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AE%BF%E0%AE%B2%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81#Tamil
 				attention 
 				bird      https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AE%B1%E0%AE%B5%E0%AF%88#Tamil
@@ -2621,7 +2621,7 @@ write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
 write('data/inflection/dravidian/tamil/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Tamil'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently 
 				be-momentarily
@@ -2657,7 +2657,7 @@ print('TURKISH')
 write('data/inflection/turkic/turkish/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Turkish', 'tr'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    https://en.wiktionary.org/wiki/hayvan#Turkish
 				attention 
 				bird      https://en.wiktionary.org/wiki/ku%C5%9F#Turkish
@@ -2706,7 +2706,7 @@ write('data/inflection/turkic/turkish/scraped-nouns.tsv',
 write('data/inflection/turkic/turkish/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Turkish', 'tr'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently 
 				be-momentarily
@@ -2742,7 +2742,7 @@ print('ENGLISH/MIDDLE')
 write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Middle_English', 'enm'), 
-			crawling.crawl('''
+			caching.crawl('''
 				animal    
 				attention 
 				bird      https://en.wiktionary.org/wiki/brid#Middle_English
@@ -2791,7 +2791,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
 write('data/inflection/indo-european/germanic/english/middle/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Middle_English', 'enm'), 
-			crawling.crawl('''
+			caching.crawl('''
 				appear    
 				be-inherently  https://en.wiktionary.org/wiki/been#Middle_English
 				be-momentarily 

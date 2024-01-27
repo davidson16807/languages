@@ -41,6 +41,16 @@ deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
 
+def definiteness(machine, tree, memory):
+    '''creates articles when necessary to express definiteness'''
+    definiteness = memory['definiteness'] if 'definiteness' in memory else 'indefinite'
+    subjectivity = memory['subjectivity']
+    nounform = memory['noun-form']
+    if definiteness == 'definite' and subjectivity != 'addressee' and nounform != 'personal': 
+        return [['det','the'], tree]
+    else:
+        return tree
+
 foreign_language = Language(
     ListSemantics(
         case_usage_population.index(
@@ -65,6 +75,8 @@ foreign_language = Language(
             declension_population.index([
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/greek/attic/common-noun-declensions.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/greek/attic/adjective-agreements.tsv')),
                 *pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/greek/attic/pronoun-declensions.tsv')),
                 *possessive_pronoun_annotation.annotate(
@@ -72,8 +84,6 @@ foreign_language = Language(
             ])),
         NestedDictLookup(
             declension_population.index([
-                # *common_noun_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/greek/attic/adjective-agreements.tsv')),
             ])),
     ),
     RuleSyntax(
@@ -84,7 +94,9 @@ foreign_language = Language(
     list_tools,
     rule_tools,
     RuleFormatting(),
-    substitutions = []
+    substitutions = [
+        {'n': definiteness}, # Greek needs annotations to simplify the definition of articles
+    ]
 )
 
 foreign_termaxis_to_terms = {
@@ -225,6 +237,8 @@ transliteration = parse_any.tokenpoints('''
     ὃ   ò
     ῤ   r
     ῥ   rh
+    ῠ̔   hy̆
+    ῡ̔   hȳ
     ύ   ý
     ὺ   ỳ
     ῦ   ỹ
@@ -242,7 +256,6 @@ transliteration = parse_any.tokenpoints('''
     ῧ   ỹ
     ῡ   ȳ
     ῠ   y̆
-    ῠ̔   hy̆
     ώ   ó
     ὼ   ò
     ῶ   õ

@@ -52,10 +52,8 @@ class TokenParsing:
             return [token for token in tokens if token]
         uncommented = re.sub(self.comment_regex,'\n',string)
         itemtokens = [itemtoken(row) for row in uncommented.split(':')]
-        print(itemtokens)
         token_to_text = [[last[-1], current[:-1] if i < len(itemtokens)-2 else current]
             for i, (last,current) in enumerate(zip(itemtokens[:-1],itemtokens[1:]))]
-        print(token_to_text)
         keys = sorted([item[0] for item in token_to_text])
         dupes = list(set(keys[::2]) & set(keys[1::2]))
         assert not dupes, (
