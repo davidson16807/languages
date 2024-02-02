@@ -171,7 +171,7 @@ tagaxis_to_tags = {
 
     'script': 
         # scripts that were derived from the phoenecian alphabet:
-        'latin  cyrillic gothic greek hebrew arabic phoenician ipa transliteration '
+        'latin cyrillic gothic greek hebrew arabic phoenician ipa transliteration '
         # scripts that were derived, borrowing aesthetics from chinese logograms:
         'hirigana katakana hangul '
         # scripts that were derived from chinese logograms:
@@ -217,12 +217,13 @@ tagaxis_to_tags = {
     'anthropomorphism': 'anthropomorphic nonanthropomorphic'.split(), # assumes a humanlike form
     'emphathizability': 'emphathizable unemphathizable'.split(), # ability to be emphathized with
     'rationality':'rational nonrational'.split(), #ability to apply structured thought
+    'sentience':  'sentient nonsentient'.split(), #ability to perceive things
     'sapience':   'sapient nonsapient'.split(), #ability to think, regardless of whether it uses structured thought
-    'sentience':  'sapient nonsapient'.split(), #ability to perceive things conciously
     'motility':   'motile nonmotile'.split(),  # ability to perceptibly move of its own will
-    'mobility':   'mobile nonmobile'.split(),  # ability to be moved
-    'dynamism':   'dynamic nondynamic'.split(),  # ability to move
-    'dominance':  'dominant servile'.split(),  # ability to be commanded
+    'dynamism':   'dynamic nondynamic'.split(),  # ability to move (e.g. clouds, fire)
+    'mobility':   'mobile immobile'.split(),  # ability to be moved
+    'dominance':  'dominant nondominant'.split(),  # ability to command
+    'servility':  'servile nonservile'.split(),  # ability to be commanded
     'danger':     'dangerous nondangerous'.split(),  # ability to cause harm
     'vitality':   'living nonliving'.split(),  # ability to grow and reproduce
     'physicality':'physical abstract'.split(), # ability to take physical form
@@ -233,7 +234,7 @@ tagaxis_to_tags = {
            prepositional abessive adessive allative comitative delative 
            elative essive essive-formal essive-modal exessive illative 
            inessive instructive instrumental-comitative sociative sublative superessive 
-           temporal terminative translative disjunctive undeclined'''.split(),
+           temporal terminative translative disjunctive prepositional undeclined'''.split(),
 
     # how the valency of the verb is modified to emphasize or deemphasize certain participants
     'voice':      'active passive middle antipassive applicative causative'.split(),
@@ -375,13 +376,13 @@ declension_template_lookups = DictLookup(
     DictKeyIndexing('noun-form'), 
     {
         'common': parse_any.tokenfield('common', 
-            'noun number gender partitivity strength case script', ''),
+            'noun number gender animacy partitivity strength case script', ''),
         'personal': parse_any.termfield('personal', 
             'person number gender clusivity formality case clitic script', ''),
         'common-possessive': parse_any.tokenfield('common-possessive', 
             'possessor-noun possessor-number number gender case clitic script', ''),
         'personal-possessive': parse_any.termfield('personal-possessive', 
-            'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality number gender case clitic script', ''),
+            'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality number animacy gender case clitic script', ''),
         'reflexive-possessive': parse_any.termfield('reflexive-possessive', 
             'possessor-number number gender case clitic script', ''),
         'demonstrative': parse_any.termfield('demonstrative', 
@@ -1089,6 +1090,21 @@ tag_defaults = parse_any.termaxis_to_term('''
     clusivity:    exclusive
     formality:    familiar
     gender:       masculine
+    animacy:      animate
+    humanity:     human
+    anthropomorphism: anthropomorphic
+    emphathizability: emphathizable
+    rationality:  rational
+    sapience:     sapient
+    sentience:    sentient
+    motility:     motile
+    dynamism:     dynamic
+    mobility:     mobile
+    dominance:    dominant
+    servility:    servile
+    danger:       nondangerous
+    vitality:     living
+    physicality:  physical
     #noun:        man
     noun-form:    common
     number:       singular

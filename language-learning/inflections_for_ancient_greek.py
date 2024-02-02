@@ -592,6 +592,14 @@ possessor_pronoun_traversal = label_editing.termpath(
         '''), 
     'possessor')
 
+verb_voice_blacklist = parse.termmask(
+    'verb_voice_blacklist', 
+    'verb  voice',
+    '''
+    be       middle
+    gone     middle
+    ''')
+
 #useful for debugging
 def head(store):
     print(str(store)[:3000])
@@ -603,6 +611,7 @@ tense_progress_mood_voice_verb_traversal = (
         * axis['mood'])
         * axis['voice'])
         * axis['verb'])
+    - verb_voice_blacklist
 ) * constant['subject'] 
 
 conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)

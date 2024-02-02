@@ -1,0 +1,58 @@
+*	*	*	*	nominative	vocative	accusative	genitive	prepositional	dative	instrumental	#
+*	*	*	*	cyrillic	cyrillic	cyrillic	cyrillic	cyrillic	cyrillic	cyrillic	#
+new	animate	singular	masculine	но́вый	но́вый	но́вого	но́вого	но́вом	но́вому	но́вым	#
+new	animate	singular	neuter	но́вое	но́вое	но́вое	но́вого	но́вом	но́вому	но́вым	#
+new	animate	singular	feminine	но́вая	но́вая	но́вую	но́вой	но́вой	но́вой	но́вой	#
+new	animate	plural		но́вые	но́вые	но́вых	но́вых	но́вых	но́вым	но́выми 	#
+new	inanimate	singular	masculine	но́вый	но́вый	но́вый	но́вого	но́вом	но́вому	но́вым	#
+new	inanimate	singular	neuter	но́вое	но́вое	но́вое	но́вого	но́вом	но́вому	но́вым	#
+new	inanimate	singular	feminine	но́вая	но́вая	но́вую	но́вой	но́вой	но́вой	но́вой	#
+new	inanimate	plural		но́вые	но́вые	но́вые	но́вых	но́вых	но́вым	но́выми 	#
+blue	animate	singular	masculine	си́ний	си́ний	си́него	си́него	си́нем	си́нему	си́ним	#
+blue	animate	singular	neuter	си́нее	си́нее	си́нее	си́него	си́нем	си́нему	си́ним	#
+blue	animate	singular	feminine	си́няя	си́няя	си́нюю	си́ней	си́ней	си́ней	си́ней	#
+blue	animate	plural		си́ние	си́ние	си́них 	си́них 	си́них 	си́ним	си́ними 	#
+blue	inanimate	singular	masculine	си́ний	си́ний	си́ний	си́него	си́нем	си́нему	си́ним	#
+blue	inanimate	singular	neuter	си́нее	си́нее	си́нее	си́него	си́нем	си́нему	си́ним	#
+blue	inanimate	singular	feminine	си́няя	си́няя	си́нюю	си́ней	си́ней	си́ней	си́ней	#
+blue	inanimate	plural		си́ние	си́ние	си́ние	си́них 	си́них 	си́ним	си́ними 	#
+tall	animate	singular	masculine	высо́кий	высо́кий	высо́кого	высо́кого	высо́ком	высо́кому	высо́ким	#
+tall	animate	singular	neuter	высо́кое	высо́кое	высо́кое	высо́кого	высо́ком	высо́кому	высо́ким	#
+tall	animate	singular	feminine	высо́кая	высо́кая	высо́кую	высо́кой	высо́кой	высо́кой	высо́кой	#
+tall	animate	plural		высо́кие	высо́кие	высо́ких 	высо́ких 	высо́ких 	высо́ким	высо́кими 	#
+tall	inanimate	singular	masculine	высо́кий	высо́кий	высо́кий	высо́кого	высо́ком	высо́кому	высо́ким	#
+tall	inanimate	singular	neuter	высо́кое	высо́кое	высо́кое	высо́кого	высо́ком	высо́кому	высо́ким	#
+tall	inanimate	singular	feminine	высо́кая	высо́кая	высо́кую	высо́кой	высо́кой	высо́кой	высо́кой	#
+tall	inanimate	plural		высо́кие	высо́кие	высо́кие	высо́ких 	высо́ких 	высо́ким	высо́кими 	#
+good	animate	singular	masculine	хоро́ший	хоро́ший	хоро́шего	хоро́шего	хоро́шем	хоро́шему	хоро́шим	#
+good	animate	singular	neuter	хоро́шее	хоро́шее	хоро́шее	хоро́шего	хоро́шем	хоро́шему	хоро́шим	#
+good	animate	singular	feminine	хоро́шая	хоро́шая	хоро́шую	хоро́шей	хоро́шей	хоро́шей	хоро́шей	#
+good	animate	plural		хоро́шие	хоро́шие	хоро́ших 	хоро́ших 	хоро́ших 	хоро́шим	хоро́шими 	#
+good	inanimate	singular	masculine	хоро́ший	хоро́ший	хоро́ший	хоро́шего	хоро́шем	хоро́шему	хоро́шим	#
+good	inanimate	singular	neuter	хоро́шее	хоро́шее	хоро́шее	хоро́шего	хоро́шем	хоро́шему	хоро́шим	#
+good	inanimate	singular	feminine	хоро́шая	хоро́шая	хоро́шую	хоро́шей	хоро́шей	хоро́шей	хоро́шей	#
+good	inanimate	plural		хоро́шие	хоро́шие	хоро́шие	хоро́ших 	хоро́ших 	хоро́шим	хоро́шими 	#
+big	animate	singular	masculine	большо́й	большо́й	большо́го	большо́го	большо́м	большо́му	больши́м	#
+big	animate	singular	neuter	большо́е	большо́е	большо́е	большо́го	большо́м	большо́му	больши́м	#
+big	animate	singular	feminine	больша́я	больша́я	большу́ю	большо́й	большо́й	большо́й	большо́й	#
+big	animate	plural		больши́е	больши́е	больши́х 	больши́х 	больши́х 	больши́м	больши́ми 	#
+big	inanimate	singular	masculine	большо́й	большо́й	большо́й	большо́го	большо́м	большо́му	больши́м	#
+big	inanimate	singular	neuter	большо́е	большо́е	большо́е	большо́го	большо́м	большо́му	больши́м	#
+big	inanimate	singular	feminine	больша́я	больша́я	большу́ю	большо́й	большо́й	большо́й	большо́й	#
+big	inanimate	plural		больши́е	больши́е	больши́е	больши́х 	больши́х 	больши́м	больши́ми 	#
+#mom's	animate	singular	masculine	ма́мин	ма́мин	ма́миного,  ма́мина	ма́миного,  ма́мина	ма́мином	ма́миному,  ма́мину	ма́миным	#
+#mom's	animate	singular	neuter	ма́мино	ма́мино	ма́мино	ма́миного,  ма́мина	ма́мином	ма́миному,  ма́мину	ма́миным	#
+#mom's	animate	singular	feminine	ма́мина	ма́мина	ма́мину	ма́миной	ма́миной	ма́миной	ма́миной	#
+#mom's	animate	plural		ма́мины	ма́мины	ма́миных 	ма́миных 	ма́миных 	ма́миным	ма́миными 	#
+#mom's	inanimate	singular	masculine	ма́мин	ма́мин	ма́мин	ма́миного,  ма́мина	ма́мином	ма́миному,  ма́мину	ма́миным	#
+#mom's	inanimate	singular	neuter	ма́мино	ма́мино	ма́мино	ма́миного,  ма́мина	ма́мином	ма́миному,  ма́мину	ма́миным	#
+#mom's	inanimate	singular	feminine	ма́мина	ма́мина	ма́мину	ма́миной	ма́миной	ма́миной	ма́миной	#
+#mom's	inanimate	plural		ма́мины	ма́мины	ма́мины	ма́миных 	ма́миных 	ма́миным	ма́миными 	#
+#fox's	animate	singular	masculine	ли́сий	ли́сий	ли́сьего	ли́сьего	ли́сьем	ли́сьему	ли́сьим	#
+#fox's	animate	singular	neuter	ли́сье	ли́сье	ли́сье	ли́сьего	ли́сьем	ли́сьему	ли́сьим	#
+#fox's	animate	singular	feminine	ли́сья	ли́сья	ли́сью	ли́сьей	ли́сьей	ли́сьей	ли́сьей	#
+#fox's	animate	plural		ли́сьи	ли́сьи	ли́сьих 	ли́сьих 	ли́сьих 	ли́сьим	ли́сьими 	#
+#fox's	inanimate	singular	masculine	ли́сий	ли́сий	ли́сий	ли́сьего	ли́сьем	ли́сьему	ли́сьим	#
+#fox's	inanimate	singular	neuter	ли́сье	ли́сье	ли́сье	ли́сьего	ли́сьем	ли́сьему	ли́сьим	#
+#fox's	inanimate	singular	feminine	ли́сья	ли́сья	ли́сью	ли́сьей	ли́сьей	ли́сьей	ли́сьей	#
+#fox's	inanimate	plural		ли́сьи	ли́сьи	ли́сьи	ли́сьих 	ли́сьих 	ли́сьим	ли́сьими 	#

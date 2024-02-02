@@ -165,6 +165,90 @@ parsing = TokenParsing()
 caching = Caching(parsing)
 formatting = RowMajorTableText('\t','\n')
 
+write('data/inflection/indo-european/romance/portugese/modern/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Portuguese', 'pt'), 
+			caching.crawl('''
+				appear    https://en.wiktionary.org/wiki/aparecer#Portuguese
+				be-inherently  https://en.wiktionary.org/wiki/ser#Portuguese
+				be-momentarily https://en.wiktionary.org/wiki/estar#Portuguese
+				change    https://en.wiktionary.org/wiki/mudar#Portuguese
+				climb     https://en.wiktionary.org/wiki/subir#Portuguese
+				crawl     https://en.wiktionary.org/wiki/rastejar#Portuguese
+				cool      https://en.wiktionary.org/wiki/esfriar#Portuguese
+				direct    https://en.wiktionary.org/wiki/dirigir#Portuguese
+				displease https://en.wiktionary.org/wiki/perturbar#Portuguese
+				eat       https://en.wiktionary.org/wiki/comer#Portuguese
+				endure    https://en.wiktionary.org/wiki/aguentar#Portuguese
+				fall      https://en.wiktionary.org/wiki/cair#Portuguese
+				fly       https://en.wiktionary.org/wiki/voar#Portuguese
+				flow      https://en.wiktionary.org/wiki/fluir#Portuguese
+				hear      https://en.wiktionary.org/wiki/ouvir#Portuguese
+				occupy    https://en.wiktionary.org/wiki/ocupar#Portuguese
+				resemble  https://en.wiktionary.org/wiki/semelhar#Portuguese
+				rest      https://en.wiktionary.org/wiki/repousar#Portuguese
+				see       https://en.wiktionary.org/wiki/ver#Portuguese
+				show      https://en.wiktionary.org/wiki/mostrar#Portuguese
+				startle   https://en.wiktionary.org/wiki/assustar#Portuguese
+				swim      https://en.wiktionary.org/wiki/nadar#Portuguese
+				walk      https://en.wiktionary.org/wiki/andar#Portuguese
+				warm      https://en.wiktionary.org/wiki/aquecer#Portuguese
+				watch     https://en.wiktionary.org/wiki/ver#Portuguese
+				work      https://en.wiktionary.org/wiki/trabalhar#Portuguese
+
+				have      https://en.wiktionary.org/wiki/haver#Portuguese
+				possess   https://en.wiktionary.org/wiki/ter#Portuguese
+				go        https://en.wiktionary.org/wiki/ir#Portuguese
+				put       https://en.wiktionary.org/wiki/p%C3%B4r#Portuguese
+
+			''')
+		)
+	)
+)
+
+write('data/inflection/indo-european/romance/spanish/modern/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Spanish', 'es'), 
+			caching.crawl('''
+				appear    https://en.wiktionary.org/wiki/aparecer#Spanish
+				be-inherently  https://en.wiktionary.org/wiki/ser#Spanish
+				be-momentarily https://en.wiktionary.org/wiki/estar#Spanish
+				change    https://en.wiktionary.org/wiki/cambiar#Spanish
+				climb     https://en.wiktionary.org/wiki/escalar#Spanish
+				crawl     https://en.wiktionary.org/wiki/arrastrar#Spanish
+				cool      https://en.wiktionary.org/wiki/enfriar#Spanish
+				direct    https://en.wiktionary.org/wiki/guiar#Spanish
+				displease https://en.wiktionary.org/wiki/desazonar#Spanish
+				eat       https://en.wiktionary.org/wiki/comer#Spanish
+				endure    https://en.wiktionary.org/wiki/tolerar#Spanish
+				fall      https://en.wiktionary.org/wiki/caer#Spanish
+				fly       https://en.wiktionary.org/wiki/volar#Spanish
+				flow      https://en.wiktionary.org/wiki/fluir#Spanish
+				hear      https://en.wiktionary.org/wiki/o%C3%ADr#Spanish
+				occupy    https://en.wiktionary.org/wiki/ocupar#Spanish
+				resemble  https://en.wiktionary.org/wiki/semejar#Spanish
+				rest      https://en.wiktionary.org/wiki/reposar#Spanish
+				see       https://en.wiktionary.org/wiki/ver#Spanish
+				show      https://en.wiktionary.org/wiki/mostrar#Spanish
+				startle   https://en.wiktionary.org/wiki/atemorizar#Spanish # "frighten"
+				swim      https://en.wiktionary.org/wiki/nadar#Spanish
+				walk      https://en.wiktionary.org/wiki/caminar#Spanish
+				warm      https://en.wiktionary.org/wiki/calentar#Spanish
+				watch     https://en.wiktionary.org/wiki/mirar#Spanish
+				work      https://en.wiktionary.org/wiki/trabajar#Spanish
+
+				have      https://en.wiktionary.org/wiki/haber#Spanish
+				have-in-possession https://en.wiktionary.org/wiki/tener#Spanish
+				go        https://en.wiktionary.org/wiki/ir#Spanish
+				love      https://en.wiktionary.org/wiki/amar#Spanish
+				fear      https://en.wiktionary.org/wiki/temer#Spanish
+				part      https://en.wiktionary.org/wiki/partir#Spanish
+				know      https://en.wiktionary.org/wiki/conocer#Spanish
+				drive     https://en.wiktionary.org/wiki/conducir#Spanish
+			''')
+		)
+	)
+)
 
 write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 	formatting.format(
@@ -176,8 +260,7 @@ write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 				be-inherently  https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B0%CE%BC%CE%AF#Ancient_Greek
 				be-momentarily
 				change    https://en.wiktionary.org/wiki/%E1%BC%80%CE%BB%CE%BB%CE%AC%CF%83%CF%83%CF%89#Ancient_Greek
-				climb     
-				crawl     
+				crawl     https://en.wiktionary.org/wiki/%E1%BC%95%CF%81%CF%80%CF%89#Ancient_Greek
 				cool      
 				direct    https://en.wiktionary.org/wiki/%E1%BC%84%CE%B3%CF%89#Ancient_Greek
 				displease https://en.wiktionary.org/wiki/%E1%BC%80%CF%80%CE%B1%CF%81%CE%AD%CF%83%CE%BA%CF%89#Ancient_Greek
@@ -185,7 +268,7 @@ write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 				endure    https://en.wiktionary.org/wiki/%E1%BD%91%CF%80%CE%BF%CE%BC%CE%AD%CE%BD%CF%89#Ancient_Greek
 				fall      https://en.wiktionary.org/wiki/%CF%80%CE%AF%CF%80%CF%84%CF%89#Ancient_Greek
 				fly       https://en.wiktionary.org/wiki/%CF%80%CE%AD%CF%84%CE%BF%CE%BC%CE%B1%CE%B9#Ancient_Greek
-				flow      
+				flow      https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AD%CF%89#Ancient_Greek
 				hear      
 				occupy    
 				resemble  
@@ -320,6 +403,7 @@ write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
 )
 
 raise 'done'
+
 
 noun_html = caching.crawl('''
 	animal    https://en.wiktionary.org/wiki/animal#Latin
@@ -778,6 +862,154 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-verbs.ts
 				point-out   https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%E1%B8%97y%E1%B8%B1st
 				think       https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mem%C3%B3ne
 
+			''')
+		)
+	)
+)
+
+
+noun_html = caching.crawl('''
+	animal    https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D0%BE%D0%B5#Russian
+	attention https://en.wiktionary.org/wiki/%D0%B2%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D0%B5#Russian
+	bird      https://en.wiktionary.org/wiki/%D0%BF%D1%82%D0%B8%D1%86%D0%B0#Russian
+	boat      https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D0%B4%D0%BA%D0%B0#Russian
+	book      https://en.wiktionary.org/wiki/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0#Russian
+	brother   https://en.wiktionary.org/wiki/%D0%B1%D1%80%D0%B0%D1%82#Russian
+	bug       https://en.wiktionary.org/wiki/%D0%B1%D1%83%D0%BA%D0%B0%D1%88%D0%BA%D0%B0#Russian
+	clothing  https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0#Russian
+	daughter  https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D1%87%D1%8C#Russian
+	dog       https://en.wiktionary.org/wiki/%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#Russian
+	door      https://en.wiktionary.org/wiki/%D0%B4%D0%B2%D0%B5%D1%80%D1%8C#Russian
+	drum      https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD#Russian
+	enemy     https://en.wiktionary.org/wiki/%D0%B2%D1%80%D0%B0%D0%B3#Russian
+	fire      https://en.wiktionary.org/wiki/%D0%BE%D0%B3%D0%BE%D0%BD%D1%8C#Russian
+	food      https://en.wiktionary.org/wiki/%D0%B5%D0%B4%D0%B0#Russian
+	gift      https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA#Russian
+	glass     https://en.wiktionary.org/wiki/%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%BE#Russian
+	guard     https://en.wiktionary.org/wiki/%D1%81%D1%82%D1%80%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA#Russian
+	horse     https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D1%88%D0%B0%D0%B4%D1%8C#Russian
+	house     https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D0%BC#Russian
+	livestock https://en.wiktionary.org/wiki/%D1%81%D0%BA%D0%BE%D1%82#Russian
+	love      https://en.wiktionary.org/wiki/%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C#Russian
+	idea      https://en.wiktionary.org/wiki/%D0%B8%D0%B4%D0%B5%D1%8F#Russian
+	man       https://en.wiktionary.org/wiki/%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D0%B0#Russian
+	money     https://en.wiktionary.org/wiki/%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8#Russian
+	monster   https://en.wiktionary.org/wiki/%D1%87%D1%83%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D0%B5#Russian
+	name      https://en.wiktionary.org/wiki/%D0%B8%D0%BC%D1%8F#Russian
+	rock      https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C#Russian
+	rope      https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D0%BD%D0%B0%D1%82#Russian
+	size      https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0#Russian
+	son       https://en.wiktionary.org/wiki/%D1%81%D1%8B%D0%BD#Russian
+	sound     https://en.wiktionary.org/wiki/%D0%B7%D0%B2%D1%83%D0%BA#Russian
+	warmth    https://en.wiktionary.org/wiki/%D1%82%D0%B5%D0%BF%D0%BB%D0%BE#Russian
+	water     https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B0#Russian
+	way       https://en.wiktionary.org/wiki/%D0%BF%D1%83%D1%82%D1%8C#Russian
+	wind      https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D1%82%D0%B5%D1%80#Russian
+	window    https://en.wiktionary.org/wiki/%D0%BE%D0%BA%D0%BD%D0%BE#Russian
+	woman     https://en.wiktionary.org/wiki/%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0#Russian
+	work      https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0#Russian
+
+	job       https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0#Russian
+	bathhouse https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%BD%D1%8F#Russian
+	line      https://en.wiktionary.org/wiki/%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F#Russian
+	movie     https://en.wiktionary.org/wiki/%D1%84%D0%B8%D0%BB%D1%8C%D0%BC#Russian
+	writer    https://en.wiktionary.org/wiki/%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8C
+	hero      https://en.wiktionary.org/wiki/%D0%B3%D0%B5%D1%80%D0%BE%D0%B9#Russian
+	comment   https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9
+	building  https://en.wiktionary.org/wiki/%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5#Russian
+	place     https://en.wiktionary.org/wiki/%D0%BC%D0%B5%D1%81%D1%82%D0%BE#Russian
+	sea       https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D1%80%D0%B5#Russian
+	bone      https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D1%81%D1%82%D1%8C#Russian
+	mouse     https://en.wiktionary.org/wiki/%D0%BC%D1%8B%D1%88%D1%8C#Russian
+''')
+
+print('RUSSIAN')
+write('data/inflection/indo-european/slavic/russian/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Russian'), 
+			noun_html
+		)
+	)
+)
+
+print('RUSSIAN')
+write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Russian', 'ru'), 
+			noun_html
+		)
+	)
+)
+
+
+write('data/inflection/indo-european/slavic/russian/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Russian', 'ru'), 
+			caching.crawl('''
+				appear    https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D1%8F%D1%82%D1%8C%D1%81%D1%8F#Russian
+				be        https://en.wiktionary.org/wiki/%D0%B1%D1%8B%D1%82%D1%8C#Russian
+				be-inherently  https://en.wiktionary.org/wiki/%D0%B1%D1%8B%D1%82%D1%8C#Russian
+				be-momentarily 
+				change    https://en.wiktionary.org/wiki/%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C#Russian
+				climb     https://en.wiktionary.org/wiki/%D0%B2%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D1%82%D1%8C%D1%81%D1%8F#Russian
+				crawl     https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D0%BB%D0%B7%D0%B0%D1%82%D1%8C#Russian
+				cool      https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%82%D1%8C#Russian
+				direct    https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C#Russian
+				displease https://en.wiktionary.org/wiki/%D0%BE%D0%B3%D0%BE%D1%80%D1%87%D0%B0%D1%82%D1%8C#Russian
+				eat       https://en.wiktionary.org/wiki/%D0%B5%D1%81%D1%82%D1%8C#Russian
+				endure    https://en.wiktionary.org/wiki/%D1%82%D0%B5%D1%80%D0%BF%D0%B5%D1%82%D1%8C#Russian
+				fall      https://en.wiktionary.org/wiki/%D0%BF%D0%B0%D0%B4%D0%B0%D1%82%D1%8C#Russian
+				fly       https://en.wiktionary.org/wiki/%D0%BB%D0%B5%D1%82%D0%B0%D1%82%D1%8C#Russian
+				flow      https://en.wiktionary.org/wiki/%D1%82%D0%B5%D1%87%D1%8C#Russian
+				hear      https://en.wiktionary.org/wiki/%D1%81%D0%BB%D1%8B%D1%88%D0%B0%D1%82%D1%8C#Russian
+				occupy    https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D1%8C#Russian
+				resemble  https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C#Russian
+				rest      
+				see       https://en.wiktionary.org/wiki/%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D1%8C#Russian
+				show      https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%82%D1%8C#Russian
+				startle   https://en.wiktionary.org/wiki/%D0%BF%D1%83%D0%B3%D0%B0%D1%82%D1%8C#Russian
+				swim      https://en.wiktionary.org/wiki/%D0%BF%D0%BB%D1%8B%D1%82%D1%8C#Russian
+				walk      https://en.wiktionary.org/wiki/%D1%88%D0%B0%D0%B3%D0%B0%D1%82%D1%8C#Russian
+				warm      https://en.wiktionary.org/wiki/%D0%B3%D1%80%D0%B5%D1%82%D1%8C#Russian
+				watch     https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0%D1%82%D1%8C#Russian
+				work      https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C#Russian
+
+				give      https://en.wiktionary.org/wiki/%D0%B4%D0%B0%D0%B2%D0%B0%D1%82%D1%8C#Russian
+				eat       https://en.wiktionary.org/wiki/%D0%B5%D1%81%D1%82%D1%8C#Russian
+				live      https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D1%82%D1%8C#Russian
+				call      https://en.wiktionary.org/wiki/%D0%B7%D0%B2%D0%B0%D1%82%D1%8C#Russian
+				go        https://en.wiktionary.org/wiki/%D0%B8%D0%B4%D1%82%D0%B8#Russian
+				write     https://en.wiktionary.org/wiki/%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C#Russian
+				read      https://en.wiktionary.org/wiki/%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C#Russian
+				return    https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D1%82%D1%8C#Russian
+				draw      https://en.wiktionary.org/wiki/%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%82%D1%8C#Russian
+				spit      https://en.wiktionary.org/wiki/%D0%BF%D0%BB%D0%B5%D0%B2%D0%B0%D1%82%D1%8C#Russian
+				dance     https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%B0%D1%82%D1%8C#Russian
+				be-able   https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D1%87%D1%8C#Russian
+				bake      https://en.wiktionary.org/wiki/%D0%BF%D0%B5%D1%87%D1%8C#Russian
+				carry     https://en.wiktionary.org/wiki/%D0%BD%D0%B5%D1%81%D1%82%D0%B8#Russian
+				lead      https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D1%81%D1%82%D0%B8#Russian
+				sweep     https://en.wiktionary.org/wiki/%D0%BC%D0%B5%D1%81%D1%82%D0%B8#Russian
+				row       https://en.wiktionary.org/wiki/%D0%B3%D1%80%D0%B5%D1%81%D1%82%D0%B8#Russian
+				steal     https://en.wiktionary.org/wiki/%D0%BA%D1%80%D0%B0%D1%81%D1%82%D1%8C#Russian
+				convey    https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D0%B7%D1%82%D0%B8#Russian
+				climb     https://en.wiktionary.org/wiki/%D0%BB%D0%B5%D0%B7%D1%82%D1%8C#Russian
+				wash      https://en.wiktionary.org/wiki/%D0%BC%D1%8B%D1%82%D1%8C#Russian
+				beat      https://en.wiktionary.org/wiki/%D0%B1%D0%B8%D1%82%D1%8C#Russian
+				wind      https://en.wiktionary.org/wiki/%D0%B2%D0%B8%D1%82%D1%8C#Russian
+				pour      https://en.wiktionary.org/wiki/%D0%BB%D0%B8%D1%82%D1%8C#Russian
+				drink     https://en.wiktionary.org/wiki/%D0%BF%D0%B8%D1%82%D1%8C#Russian
+				sew       https://en.wiktionary.org/wiki/%D1%88%D0%B8%D1%82%D1%8C#Russian
+				swim      https://en.wiktionary.org/wiki/%D0%BF%D0%BB%D1%8B%D1%82%D1%8C#Russian
+				pass-for  https://en.wiktionary.org/wiki/%D1%81%D0%BB%D1%8B%D1%82%D1%8C#Russian
+				speak     https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C#Russian
+				love      https://en.wiktionary.org/wiki/%D0%BB%D1%8E%D0%B1%D0%B8%D1%82%D1%8C#Russian
+				catch     https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D0%B2%D0%B8%D1%82%D1%8C#Russian
+				sink      https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%BF%D0%B8%D1%82%D1%8C#Russian
+				feed      https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D1%80%D0%BC%D0%B8%D1%82%D1%8C#Russian
+				ask       https://en.wiktionary.org/wiki/%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D1%8C#Russian
+				pay       https://en.wiktionary.org/wiki/%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8C#Russian
+				forgive   https://en.wiktionary.org/wiki/%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C#Russian
 			''')
 		)
 	)
@@ -1996,7 +2228,7 @@ write('data/inflection/indo-european/celtic/irish/modern/scraped-verbs.tsv',
 
 
 print('ITALIAN')
-write('data/inflection/indo-european/romance/italian/scraped-verbs.tsv',
+write('data/inflection/indo-european/romance/italian/modern/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Italian', 'it'), 
 			caching.crawl('''
@@ -2238,104 +2470,6 @@ write('data/inflection/quechuan/scraped-verbs.tsv',
 	)
 )
 
-print('RUSSIAN')
-write('data/inflection/indo-european/slavic/russian/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Russian', 'ru'), 
-			caching.crawl('''
-				animal    https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D0%BE%D0%B5#Russian
-				attention https://en.wiktionary.org/wiki/%D0%B2%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D0%B5#Russian
-				bird      https://en.wiktionary.org/wiki/%D0%BF%D1%82%D0%B8%D1%86%D0%B0#Russian
-				boat      https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D0%B4%D0%BA%D0%B0#Russian
-				book      https://en.wiktionary.org/wiki/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8#Russian
-				brother   https://en.wiktionary.org/wiki/%D0%B1%D1%80%D0%B0%D1%82#Russian
-				bug       https://en.wiktionary.org/wiki/%D0%B1%D1%83%D0%BA%D0%B0%D1%88%D0%BA%D0%B0#Russian
-				clothing  https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0#Russian
-				daughter  https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D1%87%D1%8C#Russian
-				dog       https://en.wiktionary.org/wiki/%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#Russian
-				door      https://en.wiktionary.org/wiki/%D0%B4%D0%B2%D0%B5%D1%80%D1%8C#Russian
-				drum      https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD#Russian
-				enemy     https://en.wiktionary.org/wiki/%D0%B2%D1%80%D0%B0%D0%B3#Russian
-				fire      https://en.wiktionary.org/wiki/%D0%BE%D0%B3%D0%BE%D0%BD%D1%8C#Russian
-				food      https://en.wiktionary.org/wiki/%D0%B5%D0%B4%D0%B0#Russian
-				gift      https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA#Russian
-				glass     https://en.wiktionary.org/wiki/%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%BE#Russian
-				guard     https://en.wiktionary.org/wiki/%D1%81%D1%82%D1%80%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA#Russian
-				horse     https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D1%88%D0%B0%D0%B4%D1%8C#Russian
-				house     https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D0%BC#Russian
-				livestock https://en.wiktionary.org/wiki/%D1%81%D0%BA%D0%BE%D1%82#Russian
-				love      https://en.wiktionary.org/wiki/%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C#Russian
-				idea      https://en.wiktionary.org/wiki/%D0%B8%D0%B4%D0%B5%D1%8F#Russian
-				man       https://en.wiktionary.org/wiki/%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D0%B0#Russian
-				money     https://en.wiktionary.org/wiki/%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8#Russian
-				monster   https://en.wiktionary.org/wiki/%D1%87%D1%83%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D0%B5#Russian
-				name      https://en.wiktionary.org/wiki/%D0%B8%D0%BC%D1%8F#Russian
-				rock      https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C#Russian
-				rope      https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D0%BD%D0%B0%D1%82#Russian
-				size      https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0#Russian
-				son       https://en.wiktionary.org/wiki/%D1%81%D1%8B%D0%BD#Russian
-				sound     https://en.wiktionary.org/wiki/%D0%B7%D0%B2%D1%83%D0%BA#Russian
-				warmth    https://en.wiktionary.org/wiki/%D1%82%D0%B5%D0%BF%D0%BB%D0%BE#Russian
-				water     https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B0#Russian
-				way       https://en.wiktionary.org/wiki/%D0%BF%D1%83%D1%82%D1%8C#Russian
-				wind      https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D1%82%D0%B5%D1%80#Russian
-				window    https://en.wiktionary.org/wiki/%D0%BE%D0%BA%D0%BD%D0%BE#Russian
-				woman     https://en.wiktionary.org/wiki/%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0#Russian
-				work      https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0#Russian
-
-				job       https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0#Russian
-				bathhouse https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%BD%D1%8F#Russian
-				line      https://en.wiktionary.org/wiki/%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F#Russian
-				movie     https://en.wiktionary.org/wiki/%D1%84%D0%B8%D0%BB%D1%8C%D0%BC#Russian
-				writer    https://en.wiktionary.org/wiki/%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8C
-				hero      https://en.wiktionary.org/wiki/%D0%B3%D0%B5%D1%80%D0%BE%D0%B9#Russian
-				comment   https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9
-				building  https://en.wiktionary.org/wiki/%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5#Russian
-				place     https://en.wiktionary.org/wiki/%D0%BC%D0%B5%D1%81%D1%82%D0%B0#Russian
-				sea       https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D1%80%D1%8F#Russian
-				bone      https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D1%81%D1%82%D1%8C#Russian
-				mouse     https://en.wiktionary.org/wiki/%D0%BC%D1%8B%D1%88%D1%8C#Russian
-			''')
-		)
-	)
-)
-
-
-write('data/inflection/indo-european/slavic/russian/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Russian', 'ru'), 
-			caching.crawl('''
-				appear    https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D1%8F%D0%B2%D0%BB%D1%8F%D1%82%D1%8C%D1%81%D1%8F#Russian
-				be-inherently  https://en.wiktionary.org/wiki/%D0%B1%D1%8B%D1%82%D1%8C#Russian
-				be-momentarily 
-				change    https://en.wiktionary.org/wiki/%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C#Russian
-				climb     https://en.wiktionary.org/wiki/%D0%B2%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D1%82%D1%8C%D1%81%D1%8F#Russian
-				crawl     
-				cool      https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%82%D1%8C#Russian
-				direct    https://en.wiktionary.org/wiki/%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C#Russian
-				displease https://en.wiktionary.org/wiki/%D0%BE%D0%B3%D0%BE%D1%80%D1%87%D0%B0%D1%82%D1%8C#Russian
-				eat       https://en.wiktionary.org/wiki/%D0%B5%D1%81%D1%82%D1%8C#Russian
-				endure    https://en.wiktionary.org/wiki/%D1%82%D0%B5%D1%80%D0%BF%D0%B5%D1%82%D1%8C#Russian
-				fall      https://en.wiktionary.org/wiki/%D0%BF%D0%B0%D0%B4%D0%B0%D1%82%D1%8C#Russian
-				fly       https://en.wiktionary.org/wiki/%D0%BB%D0%B5%D1%82%D0%B0%D1%82%D1%8C#Russian
-				flow      
-				hear      https://en.wiktionary.org/wiki/%D1%81%D0%BB%D1%8B%D1%88%D0%B0%D1%82%D1%8C#Russian
-				occupy    https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D1%8C#Russian
-				resemble  https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C#Russian
-				rest      
-				see       https://en.wiktionary.org/wiki/%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D1%8C#Russian
-				show      https://en.wiktionary.org/wiki/%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%82%D1%8C#Russian
-				startle   https://en.wiktionary.org/wiki/%D0%BF%D1%83%D0%B3%D0%B0%D1%82%D1%8C#Russian
-				swim      https://en.wiktionary.org/wiki/%D0%BF%D0%BB%D1%8B%D1%82%D1%8C#Russian
-				walk      https://en.wiktionary.org/wiki/%D1%88%D0%B0%D0%B3%D0%B0%D1%82%D1%8C#Russian
-				warm      https://en.wiktionary.org/wiki/%D0%B3%D1%80%D0%B5%D1%82%D1%8C#Russian
-				watch     https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0%D1%82%D1%8C#Russian
-				work      https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C#Russian
-			''')
-		)
-	)
-)
-
 print('SANSKRIT')
 write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 	formatting.format(
@@ -2436,41 +2570,6 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-verbs.tsv',
 				warm      https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%AA%E0%A4%A4%E0%A4%BF#Sanskrit
 				watch     
 				work      
-			''')
-		)
-	)
-)
-
-write('data/inflection/indo-european/romance/spanish/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Spanish', 'es'), 
-			caching.crawl('''
-				appear    https://en.wiktionary.org/wiki/aparecer#Spanish
-				be-inherently  https://en.wiktionary.org/wiki/ser#Spanish
-				be-momentarily https://en.wiktionary.org/wiki/estar#Spanish
-				change    https://en.wiktionary.org/wiki/cambiar#Spanish
-				climb     https://en.wiktionary.org/wiki/escalar#Spanish
-				crawl     
-				cool      
-				direct    https://en.wiktionary.org/wiki/guiar#Spanish
-				displease https://en.wiktionary.org/wiki/desazonar#Spanish
-				eat       https://en.wiktionary.org/wiki/comer#Spanish
-				endure    https://en.wiktionary.org/wiki/tolerar#Spanish
-				fall      https://en.wiktionary.org/wiki/caer#Spanish
-				fly       https://en.wiktionary.org/wiki/volar#Spanish
-				flow      
-				hear      https://en.wiktionary.org/wiki/o%C3%ADr#Spanish
-				occupy    https://en.wiktionary.org/wiki/ocupar#Spanish
-				resemble  https://en.wiktionary.org/wiki/semejar#Spanish
-				rest      
-				see       https://en.wiktionary.org/wiki/ver#Spanish
-				show      https://en.wiktionary.org/wiki/mostrar#Spanish
-				startle   https://en.wiktionary.org/wiki/atemorizar#Spanish # "frighten"
-				swim      https://en.wiktionary.org/wiki/nadar#Spanish
-				walk      https://en.wiktionary.org/wiki/caminar#Spanish
-				warm      https://en.wiktionary.org/wiki/calentar#Spanish
-				watch     https://en.wiktionary.org/wiki/mirar#Spanish
-				work      https://en.wiktionary.org/wiki/trabajar#Spanish
 			''')
 		)
 	)

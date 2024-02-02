@@ -1,0 +1,87 @@
+*	*	*	*	case	preposition	postposition	#
+#	subjectivity	motion	role				#
+	subject			nominative	∅	∅	#
+	addressee			vocative	∅	∅	#
+	direct-object			accusative	∅	∅	#
+	indirect-object			dative	∅	∅	#
+	adnominal			genitive	∅	∅	#
+	adverbial		agent	instrumental	∅	∅	#
+	adverbial		force	instrumental	∅	∅	#
+	adverbial	departed	location	genitive	от	∅	#
+	adverbial	associated	location	genitive	у	∅	#
+	adverbial	acquired	location	dative	к	∅	#
+	adverbial	approached	location	dative	к	∅	#
+	adverbial	surpassed	location	❕	❕	∅	#
+	adverbial	leveraged	location	accusative	через	∅	#
+	adverbial	departed	extent	❕	❕	∅	#
+	adverbial	associated	extent	genitive	против	∅	#
+	adverbial	acquired	extent	accusative	о	∅	#
+	adverbial	approached	extent	accusative	по	∅	#
+	adverbial	surpassed	extent	❕	❕	∅	#
+	adverbial	leveraged	extent	genitive	вдоль	∅	#
+	adverbial	departed	vicinity	❕	❕	∅	#
+	adverbial	associated	vicinity	genitive	возле	∅	#
+	adverbial	acquired	vicinity	❕	❕	∅	#
+	adverbial	approached	vicinity	❕	❕	∅	#
+	adverbial	surpassed	vicinity	❕	❕	∅	#
+	adverbial	leveraged	vicinity	❕	❕	∅	#
+	adverbial	departed	interior	❕	❕	∅	#
+	adverbial	associated	interior	prepositional	в	∅	#
+	adverbial	acquired	interior	accusative	в	∅	#
+	adverbial	approached	interior	❕	❕	∅	#
+	adverbial	surpassed	interior	❕	❕	∅	#
+	adverbial	leveraged	interior	accusative	сквозь	∅	#
+	adverbial	departed	surface	❕	❕	∅	#
+	adverbial	associated	surface	dative	по	∅	#
+	adverbial	acquired	surface	accusative	на	∅	#
+	adverbial	approached	surface	❕	❕	∅	#
+	adverbial	surpassed	surface	❕	❕	∅	#
+	adverbial	leveraged	surface	accusative	через	∅	#
+	adverbial	departed	subsurface	genitive	из-под	∅	#
+	adverbial	associated	subsurface	instrumental	под	∅	#
+	adverbial	acquired	subsurface	❕	❕	∅	#
+	adverbial	approached	subsurface	❕	❕	∅	#
+	adverbial	surpassed	subsurface	❕	❕	∅	#
+	adverbial	leveraged	subsurface	❕	❕	∅	#
+	adverbial	departed	presence	❕	❕	∅	#
+	adverbial	associated	presence	prepositional	при	∅	#
+	adverbial	acquired	presence	❕	❕	∅	#
+	adverbial	approached	presence	❕	❕	∅	#
+	adverbial	surpassed	presence	❕	❕	∅	#
+	adverbial	leveraged	presence	❕	❕	∅	#
+	adverbial	departed	aid	❕	❕	∅	#
+	adverbial	associated	aid	dative	благодаря	∅	#
+	adverbial	acquired	aid	❕	❕	∅	#
+	adverbial	approached	aid	❕	❕	∅	#
+	adverbial	surpassed	aid	❕	❕	∅	#
+	adverbial	leveraged	aid	❕	❕	∅	#
+	adverbial	departed	lack	❕	❕	∅	#
+	adverbial	associated	lack	genitive	без	∅	#
+	adverbial	acquired	lack	❕	❕	∅	#
+	adverbial	approached	lack	❕	❕	∅	#
+	adverbial	surpassed	lack	❕	❕	∅	#
+	adverbial	leveraged	lack	❕	❕	∅	#
+	adverbial	departed	interest	❕	❕	∅	#
+	adverbial	associated	interest	genitive	ради	∅	#
+	adverbial	acquired	interest	❕	❕	∅	#
+	adverbial	approached	interest	❕	❕	∅	#
+	adverbial	surpassed	interest	❕	❕	∅	#
+	adverbial	leveraged	interest	❕	❕	∅	#
+	adverbial	departed	time	prepositional	по	∅	#
+	adverbial	associated	time	prepositional	в	∅	#
+	adverbial	acquired	time	❕	❕	∅	#
+	adverbial	approached	time	❕	❕	∅	#
+	adverbial	surpassed	time	❕	❕	∅	#
+	adverbial	leveraged	time	❕	❕	∅	#
+	adverbial	departed	topic	❕	❕	∅	#
+	adverbial	associated	topic	prepositional	об	∅	#
+	adverbial	acquired	topic	❕	❕	∅	#
+	adverbial	approached	topic	❕	❕	∅	#
+	adverbial	surpassed	topic	❕	❕	∅	#
+	adverbial	leveraged	topic	❕	❕	∅	#
+	adverbial	departed	company	❕	❕	∅	#
+	adverbial	associated	company	genitive	среди	∅	#
+	adverbial	acquired	company	nominative	в	∅	#
+	adverbial	approached	company	❕	❕	∅	#
+	adverbial	surpassed	company	❕	❕	∅	#
+	adverbial	leveraged	company	❕	❕	∅	#

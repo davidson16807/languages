@@ -1,22 +1,41 @@
-appear	imperfective aspect		imperfective aspect		imperfective aspect	
-appear	infinitive		появля́ться	pojavljátʹsja	появля́ться	pojavljátʹsja
-appear	participles		present tense		past tense	
-appear	active		появля́ющийся	pojavljájuščijsja	появля́вшийся	pojavljávšijsja
-appear	passive		—		—	
-appear	adverbial		появля́ясь	pojavljájasʹ	появля́вшись	pojavljávšisʹ
-appear			present tense		future tense	
-appear	1st singular (я)		появля́юсь	pojavljájusʹ	бу́ду появля́ться	búdu pojavljátʹsja
-appear	2nd singular (ты)		появля́ешься	pojavljáješʹsja	бу́дешь появля́ться	búdešʹ pojavljátʹsja
-appear	3rd singular (он/она́/оно́)		появля́ется	pojavljájetsja	бу́дет появля́ться	búdet pojavljátʹsja
-appear	1st plural (мы)		появля́емся	pojavljájemsja	бу́дем появля́ться	búdem pojavljátʹsja
-appear	2nd plural (вы)		появля́етесь	pojavljájetesʹ	бу́дете появля́ться	búdete pojavljátʹsja
-appear	3rd plural (они́)		появля́ются	pojavljájutsja	бу́дут появля́ться	búdut pojavljátʹsja
-appear	imperative		singular		plural	
-appear			появля́йся	pojavljájsja	появля́йтесь	pojavljájtesʹ
-appear	past tense		singular		plural(мы/вы/они́)	
-appear	masculine (я/ты/он)		появля́лся	pojavljálsja	появля́лись	pojavljálisʹ
-appear	feminine (я/ты/она́)		появля́лась	pojavljálasʹ	появля́лись	pojavljálisʹ
-appear	neuter (оно́)		появля́лось	pojavljálosʹ	появля́лись	pojavljálisʹ
+appear	imperfective aspect		imperfective aspect		imperfective aspect							
+appear	infinitive		появля́ться	pojavljátʹsja	появля́ться	pojavljátʹsja						
+appear	participles		present tense		past tense							
+appear	active		появля́ющийся	pojavljájuščijsja	появля́вшийся	pojavljávšijsja						
+appear	passive		—		—							
+appear	adverbial		появля́ясь	pojavljájasʹ	появля́вшись	pojavljávšisʹ						
+appear			present tense		future tense							
+appear	1st singular (я)		появля́юсь	pojavljájusʹ	бу́ду появля́ться	búdu pojavljátʹsja						
+appear	2nd singular (ты)		появля́ешься	pojavljáješʹsja	бу́дешь появля́ться	búdešʹ pojavljátʹsja						
+appear	3rd singular (он/она́/оно́)		появля́ется	pojavljájetsja	бу́дет появля́ться	búdet pojavljátʹsja						
+appear	1st plural (мы)		появля́емся	pojavljájemsja	бу́дем появля́ться	búdem pojavljátʹsja						
+appear	2nd plural (вы)		появля́етесь	pojavljájetesʹ	бу́дете появля́ться	búdete pojavljátʹsja						
+appear	3rd plural (они́)		появля́ются	pojavljájutsja	бу́дут появля́ться	búdut pojavljátʹsja						
+appear	imperative		singular		plural							
+appear			появля́йся	pojavljájsja	появля́йтесь	pojavljájtesʹ						
+appear	past tense		singular		plural(мы/вы/они́)							
+appear	masculine (я/ты/он)		появля́лся	pojavljálsja	появля́лись	pojavljálisʹ						
+appear	feminine (я/ты/она́)		появля́лась	pojavljálasʹ	появля́лись	pojavljálisʹ						
+appear	neuter (оно́)		появля́лось	pojavljálosʹ	появля́лись	pojavljálisʹ						
+be	imperfective aspect				imperfective aspect				imperfective aspect			
+be	infinitive				бы́ть	býtʹ			бы́ть	býtʹ		
+be	participles				present tense				past tense			
+be	active				су́щий	súščij			бы́вший	bývšij		
+be	passive				—				—			
+be	adverbial				бу́дучи	búduči			бы́в,бы́вшиši	býv	bývši	
+be					present tense				future tense			
+be	1st singular (я)				есть1△,е́смь1△1△	jestʹ1△	jésmʹ1△1△		бу́ду	búdu		
+be	2nd singular (ты)				есть1△,еси́2△1△,е́сь2△1△	jestʹ1△	jesí2△1△	jésʹ2△1△	бу́дешь	búdešʹ		
+be	3rd singular (он/она́/оно́)				есть1△	jestʹ1△			бу́дет	búdet		
+be	1st plural (мы)				есть1△,есмы́2△1△	jestʹ1△	jesmý2△1△		бу́дем	búdem		
+be	2nd plural (вы)				есть1△,е́сте2△1△	jestʹ1△	jéste2△1△		бу́дете	búdete		
+be	3rd plural (они́)				есть1△,су́ть1△1△	jestʹ1△	sútʹ1△1△		бу́дут	búdut		
+be	imperative				singular				plural			
+be					бу́дь	búdʹ			бу́дьте	búdʹte		
+be	past tense				singular				plural(мы/вы/они́)			
+be	masculine (я/ты/он)				бы́л	býl			бы́ли	býli		
+be	feminine (я/ты/она́)				была́	bylá			бы́ли	býli		
+be	neuter (оно́)				бы́ло	býlo			бы́ли	býli		
 be-inherently	imperfective aspect				imperfective aspect				imperfective aspect			
 be-inherently	infinitive				бы́ть	býtʹ			бы́ть	býtʹ		
 be-inherently	participles				present tense				past tense			
@@ -36,402 +55,1143 @@ be-inherently	past tense				singular				plural(мы/вы/они́)
 be-inherently	masculine (я/ты/он)				бы́л	býl			бы́ли	býli		
 be-inherently	feminine (я/ты/она́)				была́	bylá			бы́ли	býli		
 be-inherently	neuter (оно́)				бы́ло	býlo			бы́ли	býli		
-change	imperfective aspect			imperfective aspect			imperfective aspect		
-change	infinitive			изменя́ть	izmenjátʹ		изменя́ть	izmenjátʹ	
-change	participles			present tense			past tense		
-change	active			изменя́ющий	izmenjájuščij		изменя́вший	izmenjávšij	
-change	passive			изменя́емый	izmenjájemyj		—		
-change	adverbial			изменя́я	izmenjája		изменя́в,изменя́вшиši	izmenjáv	izmenjávši
-change				present tense			future tense		
-change	1st singular (я)			изменя́ю	izmenjáju		бу́ду изменя́ть	búdu izmenjátʹ	
-change	2nd singular (ты)			изменя́ешь	izmenjáješʹ		бу́дешь изменя́ть	búdešʹ izmenjátʹ	
-change	3rd singular (он/она́/оно́)			изменя́ет	izmenjájet		бу́дет изменя́ть	búdet izmenjátʹ	
-change	1st plural (мы)			изменя́ем	izmenjájem		бу́дем изменя́ть	búdem izmenjátʹ	
-change	2nd plural (вы)			изменя́ете	izmenjájete		бу́дете изменя́ть	búdete izmenjátʹ	
-change	3rd plural (они́)			изменя́ют	izmenjájut		бу́дут изменя́ть	búdut izmenjátʹ	
-change	imperative			singular			plural		
-change				изменя́й	izmenjáj		изменя́йте	izmenjájte	
-change	past tense			singular			plural(мы/вы/они́)		
-change	masculine (я/ты/он)			изменя́л	izmenjál		изменя́ли	izmenjáli	
-change	feminine (я/ты/она́)			изменя́ла	izmenjála		изменя́ли	izmenjáli	
-change	neuter (оно́)			изменя́ло	izmenjálo		изменя́ли	izmenjáli	
-climb	imperfective aspect		imperfective aspect		imperfective aspect	
-climb	infinitive		взбира́ться	vzbirátʹsja	взбира́ться	vzbirátʹsja
-climb	participles		present tense		past tense	
-climb	active		взбира́ющийся	vzbirájuščijsja	взбира́вшийся	vzbirávšijsja
-climb	passive		—		—	
-climb	adverbial		взбира́ясь	vzbirájasʹ	взбира́вшись	vzbirávšisʹ
-climb			present tense		future tense	
-climb	1st singular (я)		взбира́юсь	vzbirájusʹ	бу́ду взбира́ться	búdu vzbirátʹsja
-climb	2nd singular (ты)		взбира́ешься	vzbiráješʹsja	бу́дешь взбира́ться	búdešʹ vzbirátʹsja
-climb	3rd singular (он/она́/оно́)		взбира́ется	vzbirájetsja	бу́дет взбира́ться	búdet vzbirátʹsja
-climb	1st plural (мы)		взбира́емся	vzbirájemsja	бу́дем взбира́ться	búdem vzbirátʹsja
-climb	2nd plural (вы)		взбира́етесь	vzbirájetesʹ	бу́дете взбира́ться	búdete vzbirátʹsja
-climb	3rd plural (они́)		взбира́ются	vzbirájutsja	бу́дут взбира́ться	búdut vzbirátʹsja
-climb	imperative		singular		plural	
-climb			взбира́йся	vzbirájsja	взбира́йтесь	vzbirájtesʹ
-climb	past tense		singular		plural(мы/вы/они́)	
-climb	masculine (я/ты/он)		взбира́лся	vzbirálsja	взбира́лись	vzbirálisʹ
-climb	feminine (я/ты/она́)		взбира́лась	vzbirálasʹ	взбира́лись	vzbirálisʹ
-climb	neuter (оно́)		взбира́лось	vzbirálosʹ	взбира́лись	vzbirálisʹ
-cool	perfective aspect			perfective aspect			perfective aspect		
-cool	infinitive			остуди́ть	ostudítʹ		остуди́ть	ostudítʹ	
-cool	participles			present tense			past tense		
-cool	active			—			остуди́вший	ostudívšij	
-cool	passive			—			осту́женный	ostúžennyj	
-cool	adverbial			—			остуди́в,остуди́вшиši	ostudív	ostudívši
-cool				present tense			future tense		
-cool	1st singular (я)			—			остужу́	ostužú	
-cool	2nd singular (ты)			—			осту́дишь	ostúdišʹ	
-cool	3rd singular (он/она́/оно́)			—			осту́дит	ostúdit	
-cool	1st plural (мы)			—			осту́дим	ostúdim	
-cool	2nd plural (вы)			—			осту́дите	ostúdite	
-cool	3rd plural (они́)			—			осту́дят	ostúdjat	
-cool	imperative			singular			plural		
-cool				остуди́	ostudí		остуди́те	ostudíte	
-cool	past tense			singular			plural(мы/вы/они́)		
-cool	masculine (я/ты/он)			остуди́л	ostudíl		остуди́ли	ostudíli	
-cool	feminine (я/ты/она́)			остуди́ла	ostudíla		остуди́ли	ostudíli	
-cool	neuter (оно́)			остуди́ло	ostudílo		остуди́ли	ostudíli	
-direct	imperfective aspect			imperfective aspect			imperfective aspect		
-direct	infinitive			води́ть	vodítʹ		води́ть	vodítʹ	
-direct	participles			present tense			past tense		
-direct	active			водя́щий	vodjáščij		води́вший	vodívšij	
-direct	passive			води́мый	vodímyj		во́женный	vóžennyj	
-direct	adverbial			водя́	vodjá		води́в,води́вшиši	vodív	vodívši
-direct				present tense			future tense		
-direct	1st singular (я)			вожу́	vožú		бу́ду води́ть	búdu vodítʹ	
-direct	2nd singular (ты)			во́дишь	vódišʹ		бу́дешь води́ть	búdešʹ vodítʹ	
-direct	3rd singular (он/она́/оно́)			во́дит	vódit		бу́дет води́ть	búdet vodítʹ	
-direct	1st plural (мы)			во́дим	vódim		бу́дем води́ть	búdem vodítʹ	
-direct	2nd plural (вы)			во́дите	vódite		бу́дете води́ть	búdete vodítʹ	
-direct	3rd plural (они́)			во́дят	vódjat		бу́дут води́ть	búdut vodítʹ	
-direct	imperative			singular			plural		
-direct				води́	vodí		води́те	vodíte	
-direct	past tense			singular			plural(мы/вы/они́)		
-direct	masculine (я/ты/он)			води́л	vodíl		води́ли	vodíli	
-direct	feminine (я/ты/она́)			води́ла	vodíla		води́ли	vodíli	
-direct	neuter (оно́)			води́ло	vodílo		води́ли	vodíli	
-displease	imperfective aspect			imperfective aspect			imperfective aspect		
-displease	infinitive			огорча́ть	ogorčátʹ		огорча́ть	ogorčátʹ	
-displease	participles			present tense			past tense		
-displease	active			огорча́ющий	ogorčájuščij		огорча́вший	ogorčávšij	
-displease	passive			огорча́емый	ogorčájemyj		—		
-displease	adverbial			огорча́я	ogorčája		огорча́в,огорча́вшиši	ogorčáv	ogorčávši
-displease				present tense			future tense		
-displease	1st singular (я)			огорча́ю	ogorčáju		бу́ду огорча́ть	búdu ogorčátʹ	
-displease	2nd singular (ты)			огорча́ешь	ogorčáješʹ		бу́дешь огорча́ть	búdešʹ ogorčátʹ	
-displease	3rd singular (он/она́/оно́)			огорча́ет	ogorčájet		бу́дет огорча́ть	búdet ogorčátʹ	
-displease	1st plural (мы)			огорча́ем	ogorčájem		бу́дем огорча́ть	búdem ogorčátʹ	
-displease	2nd plural (вы)			огорча́ете	ogorčájete		бу́дете огорча́ть	búdete ogorčátʹ	
-displease	3rd plural (они́)			огорча́ют	ogorčájut		бу́дут огорча́ть	búdut ogorčátʹ	
-displease	imperative			singular			plural		
-displease				огорча́й	ogorčáj		огорча́йте	ogorčájte	
-displease	past tense			singular			plural(мы/вы/они́)		
-displease	masculine (я/ты/он)			огорча́л	ogorčál		огорча́ли	ogorčáli	
-displease	feminine (я/ты/она́)			огорча́ла	ogorčála		огорча́ли	ogorčáli	
-displease	neuter (оно́)			огорча́ло	ogorčálo		огорча́ли	ogorčáli	
-eat	imperfective aspect			imperfective aspect			imperfective aspect		
-eat	infinitive			е́сть	jéstʹ		е́сть	jéstʹ	
-eat	participles			present tense			past tense		
-eat	active			едя́щий	jedjáščij		е́вший	jévšij	
-eat	passive			едо́мый*	jedómyj*		е́денный	jédennyj	
-eat	adverbial			едя́	jedjá		е́в,е́вшиši	jév	jévši
-eat				present tense			future tense		
-eat	1st singular (я)			е́м	jém		бу́ду е́сть	búdu jéstʹ	
-eat	2nd singular (ты)			е́шь	jéšʹ		бу́дешь е́сть	búdešʹ jéstʹ	
-eat	3rd singular (он/она́/оно́)			е́ст	jést		бу́дет е́сть	búdet jéstʹ	
-eat	1st plural (мы)			еди́м	jedím		бу́дем е́сть	búdem jéstʹ	
-eat	2nd plural (вы)			еди́те	jedíte		бу́дете е́сть	búdete jéstʹ	
-eat	3rd plural (они́)			едя́т	jedját		бу́дут е́сть	búdut jéstʹ	
-eat	imperative			singular			plural		
-eat				е́шь	jéšʹ		е́шьте	jéšʹte	
-eat	past tense			singular			plural(мы/вы/они́)		
-eat	masculine (я/ты/он)			е́л	jél		е́ли	jéli	
-eat	feminine (я/ты/она́)			е́ла	jéla		е́ли	jéli	
-eat	neuter (оно́)			е́ло	jélo		е́ли	jéli	
-endure	imperfective aspect			imperfective aspect			imperfective aspect		
-endure	infinitive			терпе́ть	terpétʹ		терпе́ть	terpétʹ	
-endure	participles			present tense			past tense		
-endure	active			те́рпящий	térpjaščij		терпе́вший	terpévšij	
-endure	passive			терпи́мый	terpímyj		—		
-endure	adverbial			терпя́	terpjá		терпе́в,терпе́вшиši	terpév	terpévši
-endure				present tense			future tense		
-endure	1st singular (я)			терплю́	terpljú		бу́ду терпе́ть	búdu terpétʹ	
-endure	2nd singular (ты)			те́рпишь	térpišʹ		бу́дешь терпе́ть	búdešʹ terpétʹ	
-endure	3rd singular (он/она́/оно́)			те́рпит	térpit		бу́дет терпе́ть	búdet terpétʹ	
-endure	1st plural (мы)			те́рпим	térpim		бу́дем терпе́ть	búdem terpétʹ	
-endure	2nd plural (вы)			те́рпите	térpite		бу́дете терпе́ть	búdete terpétʹ	
-endure	3rd plural (они́)			те́рпят	térpjat		бу́дут терпе́ть	búdut terpétʹ	
-endure	imperative			singular			plural		
-endure				терпи́	terpí		терпи́те	terpíte	
-endure	past tense			singular			plural(мы/вы/они́)		
-endure	masculine (я/ты/он)			терпе́л	terpél		терпе́ли	terpéli	
-endure	feminine (я/ты/она́)			терпе́ла	terpéla		терпе́ли	terpéli	
-endure	neuter (оно́)			терпе́ло	terpélo		терпе́ли	terpéli	
-fall	imperfective aspect			imperfective aspect			imperfective aspect		
-fall	infinitive			па́дать	pádatʹ		па́дать	pádatʹ	
-fall	participles			present tense			past tense		
-fall	active			па́дающий	pádajuščij		па́давший	pádavšij	
-fall	passive			—			—		
-fall	adverbial			па́дая	pádaja		па́дав,па́давшиši	pádav	pádavši
-fall				present tense			future tense		
-fall	1st singular (я)			па́даю	pádaju		бу́ду па́дать	búdu pádatʹ	
-fall	2nd singular (ты)			па́даешь	pádaješʹ		бу́дешь па́дать	búdešʹ pádatʹ	
-fall	3rd singular (он/она́/оно́)			па́дает	pádajet		бу́дет па́дать	búdet pádatʹ	
-fall	1st plural (мы)			па́даем	pádajem		бу́дем па́дать	búdem pádatʹ	
-fall	2nd plural (вы)			па́даете	pádajete		бу́дете па́дать	búdete pádatʹ	
-fall	3rd plural (они́)			па́дают	pádajut		бу́дут па́дать	búdut pádatʹ	
-fall	imperative			singular			plural		
-fall				па́дай	pádaj		па́дайте	pádajte	
-fall	past tense			singular			plural(мы/вы/они́)		
-fall	masculine (я/ты/он)			па́дал	pádal		па́дали	pádali	
-fall	feminine (я/ты/она́)			па́дала	pádala		па́дали	pádali	
-fall	neuter (оно́)			па́дало	pádalo		па́дали	pádali	
-fly	imperfective aspect			imperfective aspect			imperfective aspect		
-fly	infinitive			лета́ть	letátʹ		лета́ть	letátʹ	
-fly	participles			present tense			past tense		
-fly	active			лета́ющий	letájuščij		лета́вший	letávšij	
-fly	passive			—			—		
-fly	adverbial			лета́я	letája		лета́в,лета́вшиši	letáv	letávši
-fly				present tense			future tense		
-fly	1st singular (я)			лета́ю	letáju		бу́ду лета́ть	búdu letátʹ	
-fly	2nd singular (ты)			лета́ешь	letáješʹ		бу́дешь лета́ть	búdešʹ letátʹ	
-fly	3rd singular (он/она́/оно́)			лета́ет	letájet		бу́дет лета́ть	búdet letátʹ	
-fly	1st plural (мы)			лета́ем	letájem		бу́дем лета́ть	búdem letátʹ	
-fly	2nd plural (вы)			лета́ете	letájete		бу́дете лета́ть	búdete letátʹ	
-fly	3rd plural (они́)			лета́ют	letájut		бу́дут лета́ть	búdut letátʹ	
-fly	imperative			singular			plural		
-fly				лета́й	letáj		лета́йте	letájte	
-fly	past tense			singular			plural(мы/вы/они́)		
-fly	masculine (я/ты/он)			лета́л	letál		лета́ли	letáli	
-fly	feminine (я/ты/она́)			лета́ла	letála		лета́ли	letáli	
-fly	neuter (оно́)			лета́ло	letálo		лета́ли	letáli	
-hear	imperfective aspect			imperfective aspect			imperfective aspect		
-hear	infinitive			слы́шать	slýšatʹ		слы́шать	slýšatʹ	
-hear	participles			present tense			past tense		
-hear	active			слы́шащий	slýšaščij		слы́шавший	slýšavšij	
-hear	passive			слы́шимый	slýšimyj		слы́шанный	slýšannyj	
-hear	adverbial			слы́ша	slýša		слы́шав,слы́шавшиši	slýšav	slýšavši
-hear				present tense			future tense		
-hear	1st singular (я)			слы́шу	slýšu		бу́ду слы́шать	búdu slýšatʹ	
-hear	2nd singular (ты)			слы́шишь	slýšišʹ		бу́дешь слы́шать	búdešʹ slýšatʹ	
-hear	3rd singular (он/она́/оно́)			слы́шит	slýšit		бу́дет слы́шать	búdet slýšatʹ	
-hear	1st plural (мы)			слы́шим	slýšim		бу́дем слы́шать	búdem slýšatʹ	
-hear	2nd plural (вы)			слы́шите	slýšite		бу́дете слы́шать	búdete slýšatʹ	
-hear	3rd plural (они́)			слы́шат	slýšat		бу́дут слы́шать	búdut slýšatʹ	
-hear	imperative			singular			plural		
-hear				—			—		
-hear	past tense			singular			plural(мы/вы/они́)		
-hear	masculine (я/ты/он)			слы́шал	slýšal		слы́шали	slýšali	
-hear	feminine (я/ты/она́)			слы́шала	slýšala		слы́шали	slýšali	
-hear	neuter (оно́)			слы́шало	slýšalo		слы́шали	slýšali	
-occupy	imperfective aspect			imperfective aspect			imperfective aspect		
-occupy	infinitive			занима́ть	zanimátʹ		занима́ть	zanimátʹ	
-occupy	participles			present tense			past tense		
-occupy	active			занима́ющий	zanimájuščij		занима́вший	zanimávšij	
-occupy	passive			занима́емый	zanimájemyj		—		
-occupy	adverbial			занима́я	zanimája		занима́в,занима́вшиši	zanimáv	zanimávši
-occupy				present tense			future tense		
-occupy	1st singular (я)			занима́ю	zanimáju		бу́ду занима́ть	búdu zanimátʹ	
-occupy	2nd singular (ты)			занима́ешь	zanimáješʹ		бу́дешь занима́ть	búdešʹ zanimátʹ	
-occupy	3rd singular (он/она́/оно́)			занима́ет	zanimájet		бу́дет занима́ть	búdet zanimátʹ	
-occupy	1st plural (мы)			занима́ем	zanimájem		бу́дем занима́ть	búdem zanimátʹ	
-occupy	2nd plural (вы)			занима́ете	zanimájete		бу́дете занима́ть	búdete zanimátʹ	
-occupy	3rd plural (они́)			занима́ют	zanimájut		бу́дут занима́ть	búdut zanimátʹ	
-occupy	imperative			singular			plural		
-occupy				занима́й	zanimáj		занима́йте	zanimájte	
-occupy	past tense			singular			plural(мы/вы/они́)		
-occupy	masculine (я/ты/он)			занима́л	zanimál		занима́ли	zanimáli	
-occupy	feminine (я/ты/она́)			занима́ла	zanimála		занима́ли	zanimáli	
-occupy	neuter (оно́)			занима́ло	zanimálo		занима́ли	zanimáli	
-resemble	imperfective aspect			imperfective aspect			imperfective aspect		
-resemble	infinitive			походи́ть	poxodítʹ		походи́ть	poxodítʹ	
-resemble	participles			present tense			past tense		
-resemble	active			походя́щий	poxodjáščij		походи́вший	poxodívšij	
-resemble	passive			—			—		
-resemble	adverbial			походя́	poxodjá		походи́в,походи́вшиši	poxodív	poxodívši
-resemble				present tense			future tense		
-resemble	1st singular (я)			похожу́	poxožú		бу́ду походи́ть	búdu poxodítʹ	
-resemble	2nd singular (ты)			похо́дишь	poxódišʹ		бу́дешь походи́ть	búdešʹ poxodítʹ	
-resemble	3rd singular (он/она́/оно́)			похо́дит	poxódit		бу́дет походи́ть	búdet poxodítʹ	
-resemble	1st plural (мы)			похо́дим	poxódim		бу́дем походи́ть	búdem poxodítʹ	
-resemble	2nd plural (вы)			похо́дите	poxódite		бу́дете походи́ть	búdete poxodítʹ	
-resemble	3rd plural (они́)			похо́дят	poxódjat		бу́дут походи́ть	búdut poxodítʹ	
-resemble	imperative			singular			plural		
-resemble				походи́	poxodí		походи́те	poxodíte	
-resemble	past tense			singular			plural(мы/вы/они́)		
-resemble	masculine (я/ты/он)			походи́л	poxodíl		походи́ли	poxodíli	
-resemble	feminine (я/ты/она́)			походи́ла	poxodíla		походи́ли	poxodíli	
-resemble	neuter (оно́)			походи́ло	poxodílo		походи́ли	poxodíli	
-resemble	perfective aspect			perfective aspect			perfective aspect		
-resemble	infinitive			походи́ть	poxodítʹ		походи́ть	poxodítʹ	
-resemble	participles			present tense			past tense		
-resemble	active			—			походи́вший	poxodívšij	
-resemble	passive			—			—		
-resemble	adverbial			—			походи́в,походи́вшиši	poxodív	poxodívši
-resemble				present tense			future tense		
-resemble	1st singular (я)			—			похожу́	poxožú	
-resemble	2nd singular (ты)			—			похо́дишь	poxódišʹ	
-resemble	3rd singular (он/она́/оно́)			—			похо́дит	poxódit	
-resemble	1st plural (мы)			—			похо́дим	poxódim	
-resemble	2nd plural (вы)			—			похо́дите	poxódite	
-resemble	3rd plural (они́)			—			похо́дят	poxódjat	
-resemble	imperative			singular			plural		
-resemble				походи́	poxodí		походи́те	poxodíte	
-resemble	past tense			singular			plural(мы/вы/они́)		
-resemble	masculine (я/ты/он)			походи́л	poxodíl		походи́ли	poxodíli	
-resemble	feminine (я/ты/она́)			походи́ла	poxodíla		походи́ли	poxodíli	
-resemble	neuter (оно́)			походи́ло	poxodílo		походи́ли	poxodíli	
-see	imperfective aspect			imperfective aspect			imperfective aspect		
-see	infinitive			ви́деть	vídetʹ		ви́деть	vídetʹ	
-see	participles			present tense			past tense		
-see	active			ви́дящий	vídjaščij		ви́девший	vídevšij	
-see	passive			ви́димый	vídimyj		ви́денный△	vídennyj△	
-see	adverbial			ви́дя	vídja		ви́дев,ви́девшиši	vídev	vídevši
-see				present tense			future tense		
-see	1st singular (я)			ви́жу	vížu		бу́ду ви́деть	búdu vídetʹ	
-see	2nd singular (ты)			ви́дишь	vídišʹ		бу́дешь ви́деть	búdešʹ vídetʹ	
-see	3rd singular (он/она́/оно́)			ви́дит	vídit		бу́дет ви́деть	búdet vídetʹ	
-see	1st plural (мы)			ви́дим	vídim		бу́дем ви́деть	búdem vídetʹ	
-see	2nd plural (вы)			ви́дите	vídite		бу́дете ви́деть	búdete vídetʹ	
-see	3rd plural (они́)			ви́дят	vídjat		бу́дут ви́деть	búdut vídetʹ	
-see	imperative			singular			plural		
-see				—			—		
-see	past tense			singular			plural(мы/вы/они́)		
-see	masculine (я/ты/он)			ви́дел	vídel		ви́дели	vídeli	
-see	feminine (я/ты/она́)			ви́дела	vídela		ви́дели	vídeli	
-see	neuter (оно́)			ви́дело	vídelo		ви́дели	vídeli	
-show	imperfective aspect			imperfective aspect			imperfective aspect		
-show	infinitive			пока́зывать	pokázyvatʹ		пока́зывать	pokázyvatʹ	
-show	participles			present tense			past tense		
-show	active			пока́зывающий	pokázyvajuščij		пока́зывавший	pokázyvavšij	
-show	passive			пока́зываемый	pokázyvajemyj		—		
-show	adverbial			пока́зывая	pokázyvaja		пока́зывав,пока́зывавшиši	pokázyvav	pokázyvavši
-show				present tense			future tense		
-show	1st singular (я)			пока́зываю	pokázyvaju		бу́ду пока́зывать	búdu pokázyvatʹ	
-show	2nd singular (ты)			пока́зываешь	pokázyvaješʹ		бу́дешь пока́зывать	búdešʹ pokázyvatʹ	
-show	3rd singular (он/она́/оно́)			пока́зывает	pokázyvajet		бу́дет пока́зывать	búdet pokázyvatʹ	
-show	1st plural (мы)			пока́зываем	pokázyvajem		бу́дем пока́зывать	búdem pokázyvatʹ	
-show	2nd plural (вы)			пока́зываете	pokázyvajete		бу́дете пока́зывать	búdete pokázyvatʹ	
-show	3rd plural (они́)			пока́зывают	pokázyvajut		бу́дут пока́зывать	búdut pokázyvatʹ	
-show	imperative			singular			plural		
-show				пока́зывай	pokázyvaj		пока́зывайте	pokázyvajte	
-show	past tense			singular			plural(мы/вы/они́)		
-show	masculine (я/ты/он)			пока́зывал	pokázyval		пока́зывали	pokázyvali	
-show	feminine (я/ты/она́)			пока́зывала	pokázyvala		пока́зывали	pokázyvali	
-show	neuter (оно́)			пока́зывало	pokázyvalo		пока́зывали	pokázyvali	
-startle	imperfective aspect			imperfective aspect			imperfective aspect		
-startle	infinitive			пуга́ть	pugátʹ		пуга́ть	pugátʹ	
-startle	participles			present tense			past tense		
-startle	active			пуга́ющий	pugájuščij		пуга́вший	pugávšij	
-startle	passive			пуга́емый	pugájemyj		пу́ганный	púgannyj	
-startle	adverbial			пуга́я	pugája		пуга́в,пуга́вшиši	pugáv	pugávši
-startle				present tense			future tense		
-startle	1st singular (я)			пуга́ю	pugáju		бу́ду пуга́ть	búdu pugátʹ	
-startle	2nd singular (ты)			пуга́ешь	pugáješʹ		бу́дешь пуга́ть	búdešʹ pugátʹ	
-startle	3rd singular (он/она́/оно́)			пуга́ет	pugájet		бу́дет пуга́ть	búdet pugátʹ	
-startle	1st plural (мы)			пуга́ем	pugájem		бу́дем пуга́ть	búdem pugátʹ	
-startle	2nd plural (вы)			пуга́ете	pugájete		бу́дете пуга́ть	búdete pugátʹ	
-startle	3rd plural (они́)			пуга́ют	pugájut		бу́дут пуга́ть	búdut pugátʹ	
-startle	imperative			singular			plural		
-startle				пуга́й	pugáj		пуга́йте	pugájte	
-startle	past tense			singular			plural(мы/вы/они́)		
-startle	masculine (я/ты/он)			пуга́л	pugál		пуга́ли	pugáli	
-startle	feminine (я/ты/она́)			пуга́ла	pugála		пуга́ли	pugáli	
-startle	neuter (оно́)			пуга́ло	pugálo		пуга́ли	pugáli	
-swim	imperfective aspect			imperfective aspect			imperfective aspect		
-swim	infinitive			плы́ть	plýtʹ		плы́ть	plýtʹ	
-swim	participles			present tense			past tense		
-swim	active			плыву́щий	plyvúščij		плы́вший	plývšij	
-swim	passive			—			—		
-swim	adverbial			плывя́	plyvjá		плы́в,плы́вшиši	plýv	plývši
-swim				present tense			future tense		
-swim	1st singular (я)			плыву́	plyvú		бу́ду плы́ть	búdu plýtʹ	
-swim	2nd singular (ты)			плывёшь	plyvjóšʹ		бу́дешь плы́ть	búdešʹ plýtʹ	
-swim	3rd singular (он/она́/оно́)			плывёт	plyvjót		бу́дет плы́ть	búdet plýtʹ	
-swim	1st plural (мы)			плывём	plyvjóm		бу́дем плы́ть	búdem plýtʹ	
-swim	2nd plural (вы)			плывёте	plyvjóte		бу́дете плы́ть	búdete plýtʹ	
-swim	3rd plural (они́)			плыву́т	plyvút		бу́дут плы́ть	búdut plýtʹ	
-swim	imperative			singular			plural		
-swim				плыви́	plyví		плыви́те	plyvíte	
-swim	past tense			singular			plural(мы/вы/они́)		
-swim	masculine (я/ты/он)			плы́л	plýl		плы́ли	plýli	
-swim	feminine (я/ты/она́)			плыла́	plylá		плы́ли	plýli	
-swim	neuter (оно́)			плы́ло,плыло́	plýlo	plyló	плы́ли	plýli	
-walk	imperfective aspect			imperfective aspect			imperfective aspect		
-walk	infinitive			шага́ть	šagátʹ		шага́ть	šagátʹ	
-walk	participles			present tense			past tense		
-walk	active			шага́ющий	šagájuščij		шага́вший	šagávšij	
-walk	passive			—			—		
-walk	adverbial			шага́я	šagája		шага́в,шага́вшиši	šagáv	šagávši
-walk				present tense			future tense		
-walk	1st singular (я)			шага́ю	šagáju		бу́ду шага́ть	búdu šagátʹ	
-walk	2nd singular (ты)			шага́ешь	šagáješʹ		бу́дешь шага́ть	búdešʹ šagátʹ	
-walk	3rd singular (он/она́/оно́)			шага́ет	šagájet		бу́дет шага́ть	búdet šagátʹ	
-walk	1st plural (мы)			шага́ем	šagájem		бу́дем шага́ть	búdem šagátʹ	
-walk	2nd plural (вы)			шага́ете	šagájete		бу́дете шага́ть	búdete šagátʹ	
-walk	3rd plural (они́)			шага́ют	šagájut		бу́дут шага́ть	búdut šagátʹ	
-walk	imperative			singular			plural		
-walk				шага́й	šagáj		шага́йте	šagájte	
-walk	past tense			singular			plural(мы/вы/они́)		
-walk	masculine (я/ты/он)			шага́л	šagál		шага́ли	šagáli	
-walk	feminine (я/ты/она́)			шага́ла	šagála		шага́ли	šagáli	
-walk	neuter (оно́)			шага́ло	šagálo		шага́ли	šagáli	
-warm	imperfective aspect			imperfective aspect			imperfective aspect		
-warm	infinitive			гре́ть	grétʹ		гре́ть	grétʹ	
-warm	participles			present tense			past tense		
-warm	active			гре́ющий	gréjuščij		гре́вший	grévšij	
-warm	passive			гре́емый	gréjemyj		гре́тый	grétyj	
-warm	adverbial			гре́я	gréja		гре́в,гре́вшиši	grév	grévši
-warm				present tense			future tense		
-warm	1st singular (я)			гре́ю	gréju		бу́ду гре́ть	búdu grétʹ	
-warm	2nd singular (ты)			гре́ешь	gréješʹ		бу́дешь гре́ть	búdešʹ grétʹ	
-warm	3rd singular (он/она́/оно́)			гре́ет	gréjet		бу́дет гре́ть	búdet grétʹ	
-warm	1st plural (мы)			гре́ем	gréjem		бу́дем гре́ть	búdem grétʹ	
-warm	2nd plural (вы)			гре́ете	gréjete		бу́дете гре́ть	búdete grétʹ	
-warm	3rd plural (они́)			гре́ют	gréjut		бу́дут гре́ть	búdut grétʹ	
-warm	imperative			singular			plural		
-warm				гре́й	gréj		гре́йте	gréjte	
-warm	past tense			singular			plural(мы/вы/они́)		
-warm	masculine (я/ты/он)			гре́л	grél		гре́ли	gréli	
-warm	feminine (я/ты/она́)			гре́ла	gréla		гре́ли	gréli	
-warm	neuter (оно́)			гре́ло	grélo		гре́ли	gréli	
-watch	imperfective aspect			imperfective aspect			imperfective aspect		
-watch	infinitive			наблюда́ть	nabljudátʹ		наблюда́ть	nabljudátʹ	
-watch	participles			present tense			past tense		
-watch	active			наблюда́ющий	nabljudájuščij		наблюда́вший	nabljudávšij	
-watch	passive			наблюда́емый	nabljudájemyj		—		
-watch	adverbial			наблюда́я	nabljudája		наблюда́в,наблюда́вшиši	nabljudáv	nabljudávši
-watch				present tense			future tense		
-watch	1st singular (я)			наблюда́ю	nabljudáju		бу́ду наблюда́ть	búdu nabljudátʹ	
-watch	2nd singular (ты)			наблюда́ешь	nabljudáješʹ		бу́дешь наблюда́ть	búdešʹ nabljudátʹ	
-watch	3rd singular (он/она́/оно́)			наблюда́ет	nabljudájet		бу́дет наблюда́ть	búdet nabljudátʹ	
-watch	1st plural (мы)			наблюда́ем	nabljudájem		бу́дем наблюда́ть	búdem nabljudátʹ	
-watch	2nd plural (вы)			наблюда́ете	nabljudájete		бу́дете наблюда́ть	búdete nabljudátʹ	
-watch	3rd plural (они́)			наблюда́ют	nabljudájut		бу́дут наблюда́ть	búdut nabljudátʹ	
-watch	imperative			singular			plural		
-watch				наблюда́й	nabljudáj		наблюда́йте	nabljudájte	
-watch	past tense			singular			plural(мы/вы/они́)		
-watch	masculine (я/ты/он)			наблюда́л	nabljudál		наблюда́ли	nabljudáli	
-watch	feminine (я/ты/она́)			наблюда́ла	nabljudála		наблюда́ли	nabljudáli	
-watch	neuter (оно́)			наблюда́ло	nabljudálo		наблюда́ли	nabljudáli	
-work	imperfective aspect			imperfective aspect			imperfective aspect		
-work	infinitive			рабо́тать	rabótatʹ		рабо́тать	rabótatʹ	
-work	participles			present tense			past tense		
-work	active			рабо́тающий	rabótajuščij		рабо́тавший	rabótavšij	
-work	passive			—			—		
-work	adverbial			рабо́тая	rabótaja		рабо́тав,рабо́тавшиši	rabótav	rabótavši
-work				present tense			future tense		
-work	1st singular (я)			рабо́таю	rabótaju		бу́ду рабо́тать	búdu rabótatʹ	
-work	2nd singular (ты)			рабо́таешь	rabótaješʹ		бу́дешь рабо́тать	búdešʹ rabótatʹ	
-work	3rd singular (он/она́/оно́)			рабо́тает	rabótajet		бу́дет рабо́тать	búdet rabótatʹ	
-work	1st plural (мы)			рабо́таем	rabótajem		бу́дем рабо́тать	búdem rabótatʹ	
-work	2nd plural (вы)			рабо́таете	rabótajete		бу́дете рабо́тать	búdete rabótatʹ	
-work	3rd plural (они́)			рабо́тают	rabótajut		бу́дут рабо́тать	búdut rabótatʹ	
-work	imperative			singular			plural		
-work				рабо́тай	rabótaj		рабо́тайте	rabótajte	
-work	past tense			singular			plural(мы/вы/они́)		
-work	masculine (я/ты/он)			рабо́тал	rabótal		рабо́тали	rabótali	
-work	feminine (я/ты/она́)			рабо́тала	rabótala		рабо́тали	rabótali	
-work	neuter (оно́)			рабо́тало	rabótalo		рабо́тали	rabótali	
+change	imperfective aspect			imperfective aspect			imperfective aspect					
+change	infinitive			изменя́ть	izmenjátʹ		изменя́ть	izmenjátʹ				
+change	participles			present tense			past tense					
+change	active			изменя́ющий	izmenjájuščij		изменя́вший	izmenjávšij				
+change	passive			изменя́емый	izmenjájemyj		—					
+change	adverbial			изменя́я	izmenjája		изменя́в,изменя́вшиši	izmenjáv	izmenjávši			
+change				present tense			future tense					
+change	1st singular (я)			изменя́ю	izmenjáju		бу́ду изменя́ть	búdu izmenjátʹ				
+change	2nd singular (ты)			изменя́ешь	izmenjáješʹ		бу́дешь изменя́ть	búdešʹ izmenjátʹ				
+change	3rd singular (он/она́/оно́)			изменя́ет	izmenjájet		бу́дет изменя́ть	búdet izmenjátʹ				
+change	1st plural (мы)			изменя́ем	izmenjájem		бу́дем изменя́ть	búdem izmenjátʹ				
+change	2nd plural (вы)			изменя́ете	izmenjájete		бу́дете изменя́ть	búdete izmenjátʹ				
+change	3rd plural (они́)			изменя́ют	izmenjájut		бу́дут изменя́ть	búdut izmenjátʹ				
+change	imperative			singular			plural					
+change				изменя́й	izmenjáj		изменя́йте	izmenjájte				
+change	past tense			singular			plural(мы/вы/они́)					
+change	masculine (я/ты/он)			изменя́л	izmenjál		изменя́ли	izmenjáli				
+change	feminine (я/ты/она́)			изменя́ла	izmenjála		изменя́ли	izmenjáli				
+change	neuter (оно́)			изменя́ло	izmenjálo		изменя́ли	izmenjáli				
+climb	imperfective aspect		imperfective aspect		imperfective aspect							
+climb	infinitive		взбира́ться	vzbirátʹsja	взбира́ться	vzbirátʹsja						
+climb	participles		present tense		past tense							
+climb	active		взбира́ющийся	vzbirájuščijsja	взбира́вшийся	vzbirávšijsja						
+climb	passive		—		—							
+climb	adverbial		взбира́ясь	vzbirájasʹ	взбира́вшись	vzbirávšisʹ						
+climb			present tense		future tense							
+climb	1st singular (я)		взбира́юсь	vzbirájusʹ	бу́ду взбира́ться	búdu vzbirátʹsja						
+climb	2nd singular (ты)		взбира́ешься	vzbiráješʹsja	бу́дешь взбира́ться	búdešʹ vzbirátʹsja						
+climb	3rd singular (он/она́/оно́)		взбира́ется	vzbirájetsja	бу́дет взбира́ться	búdet vzbirátʹsja						
+climb	1st plural (мы)		взбира́емся	vzbirájemsja	бу́дем взбира́ться	búdem vzbirátʹsja						
+climb	2nd plural (вы)		взбира́етесь	vzbirájetesʹ	бу́дете взбира́ться	búdete vzbirátʹsja						
+climb	3rd plural (они́)		взбира́ются	vzbirájutsja	бу́дут взбира́ться	búdut vzbirátʹsja						
+climb	imperative		singular		plural							
+climb			взбира́йся	vzbirájsja	взбира́йтесь	vzbirájtesʹ						
+climb	past tense		singular		plural(мы/вы/они́)							
+climb	masculine (я/ты/он)		взбира́лся	vzbirálsja	взбира́лись	vzbirálisʹ						
+climb	feminine (я/ты/она́)		взбира́лась	vzbirálasʹ	взбира́лись	vzbirálisʹ						
+climb	neuter (оно́)		взбира́лось	vzbirálosʹ	взбира́лись	vzbirálisʹ						
+cool	perfective aspect			perfective aspect			perfective aspect					
+cool	infinitive			остуди́ть	ostudítʹ		остуди́ть	ostudítʹ				
+cool	participles			present tense			past tense					
+cool	active			—			остуди́вший	ostudívšij				
+cool	passive			—			осту́женный	ostúžennyj				
+cool	adverbial			—			остуди́в,остуди́вшиši	ostudív	ostudívši			
+cool				present tense			future tense					
+cool	1st singular (я)			—			остужу́	ostužú				
+cool	2nd singular (ты)			—			осту́дишь	ostúdišʹ				
+cool	3rd singular (он/она́/оно́)			—			осту́дит	ostúdit				
+cool	1st plural (мы)			—			осту́дим	ostúdim				
+cool	2nd plural (вы)			—			осту́дите	ostúdite				
+cool	3rd plural (они́)			—			осту́дят	ostúdjat				
+cool	imperative			singular			plural					
+cool				остуди́	ostudí		остуди́те	ostudíte				
+cool	past tense			singular			plural(мы/вы/они́)					
+cool	masculine (я/ты/он)			остуди́л	ostudíl		остуди́ли	ostudíli				
+cool	feminine (я/ты/она́)			остуди́ла	ostudíla		остуди́ли	ostudíli				
+cool	neuter (оно́)			остуди́ло	ostudílo		остуди́ли	ostudíli				
+direct	imperfective aspect			imperfective aspect			imperfective aspect					
+direct	infinitive			води́ть	vodítʹ		води́ть	vodítʹ				
+direct	participles			present tense			past tense					
+direct	active			водя́щий	vodjáščij		води́вший	vodívšij				
+direct	passive			води́мый	vodímyj		во́женный	vóžennyj				
+direct	adverbial			водя́	vodjá		води́в,води́вшиši	vodív	vodívši			
+direct				present tense			future tense					
+direct	1st singular (я)			вожу́	vožú		бу́ду води́ть	búdu vodítʹ				
+direct	2nd singular (ты)			во́дишь	vódišʹ		бу́дешь води́ть	búdešʹ vodítʹ				
+direct	3rd singular (он/она́/оно́)			во́дит	vódit		бу́дет води́ть	búdet vodítʹ				
+direct	1st plural (мы)			во́дим	vódim		бу́дем води́ть	búdem vodítʹ				
+direct	2nd plural (вы)			во́дите	vódite		бу́дете води́ть	búdete vodítʹ				
+direct	3rd plural (они́)			во́дят	vódjat		бу́дут води́ть	búdut vodítʹ				
+direct	imperative			singular			plural					
+direct				води́	vodí		води́те	vodíte				
+direct	past tense			singular			plural(мы/вы/они́)					
+direct	masculine (я/ты/он)			води́л	vodíl		води́ли	vodíli				
+direct	feminine (я/ты/она́)			води́ла	vodíla		води́ли	vodíli				
+direct	neuter (оно́)			води́ло	vodílo		води́ли	vodíli				
+displease	imperfective aspect			imperfective aspect			imperfective aspect					
+displease	infinitive			огорча́ть	ogorčátʹ		огорча́ть	ogorčátʹ				
+displease	participles			present tense			past tense					
+displease	active			огорча́ющий	ogorčájuščij		огорча́вший	ogorčávšij				
+displease	passive			огорча́емый	ogorčájemyj		—					
+displease	adverbial			огорча́я	ogorčája		огорча́в,огорча́вшиši	ogorčáv	ogorčávši			
+displease				present tense			future tense					
+displease	1st singular (я)			огорча́ю	ogorčáju		бу́ду огорча́ть	búdu ogorčátʹ				
+displease	2nd singular (ты)			огорча́ешь	ogorčáješʹ		бу́дешь огорча́ть	búdešʹ ogorčátʹ				
+displease	3rd singular (он/она́/оно́)			огорча́ет	ogorčájet		бу́дет огорча́ть	búdet ogorčátʹ				
+displease	1st plural (мы)			огорча́ем	ogorčájem		бу́дем огорча́ть	búdem ogorčátʹ				
+displease	2nd plural (вы)			огорча́ете	ogorčájete		бу́дете огорча́ть	búdete ogorčátʹ				
+displease	3rd plural (они́)			огорча́ют	ogorčájut		бу́дут огорча́ть	búdut ogorčátʹ				
+displease	imperative			singular			plural					
+displease				огорча́й	ogorčáj		огорча́йте	ogorčájte				
+displease	past tense			singular			plural(мы/вы/они́)					
+displease	masculine (я/ты/он)			огорча́л	ogorčál		огорча́ли	ogorčáli				
+displease	feminine (я/ты/она́)			огорча́ла	ogorčála		огорча́ли	ogorčáli				
+displease	neuter (оно́)			огорча́ло	ogorčálo		огорча́ли	ogorčáli				
+eat	imperfective aspect			imperfective aspect			imperfective aspect					
+eat	infinitive			е́сть	jéstʹ		е́сть	jéstʹ				
+eat	participles			present tense			past tense					
+eat	active			едя́щий	jedjáščij		е́вший	jévšij				
+eat	passive			едо́мый*	jedómyj*		е́денный	jédennyj				
+eat	adverbial			едя́	jedjá		е́в,е́вшиši	jév	jévši			
+eat				present tense			future tense					
+eat	1st singular (я)			е́м	jém		бу́ду е́сть	búdu jéstʹ				
+eat	2nd singular (ты)			е́шь	jéšʹ		бу́дешь е́сть	búdešʹ jéstʹ				
+eat	3rd singular (он/она́/оно́)			е́ст	jést		бу́дет е́сть	búdet jéstʹ				
+eat	1st plural (мы)			еди́м	jedím		бу́дем е́сть	búdem jéstʹ				
+eat	2nd plural (вы)			еди́те	jedíte		бу́дете е́сть	búdete jéstʹ				
+eat	3rd plural (они́)			едя́т	jedját		бу́дут е́сть	búdut jéstʹ				
+eat	imperative			singular			plural					
+eat				е́шь	jéšʹ		е́шьте	jéšʹte				
+eat	past tense			singular			plural(мы/вы/они́)					
+eat	masculine (я/ты/он)			е́л	jél		е́ли	jéli				
+eat	feminine (я/ты/она́)			е́ла	jéla		е́ли	jéli				
+eat	neuter (оно́)			е́ло	jélo		е́ли	jéli				
+endure	imperfective aspect			imperfective aspect			imperfective aspect					
+endure	infinitive			терпе́ть	terpétʹ		терпе́ть	terpétʹ				
+endure	participles			present tense			past tense					
+endure	active			те́рпящий	térpjaščij		терпе́вший	terpévšij				
+endure	passive			терпи́мый	terpímyj		—					
+endure	adverbial			терпя́	terpjá		терпе́в,терпе́вшиši	terpév	terpévši			
+endure				present tense			future tense					
+endure	1st singular (я)			терплю́	terpljú		бу́ду терпе́ть	búdu terpétʹ				
+endure	2nd singular (ты)			те́рпишь	térpišʹ		бу́дешь терпе́ть	búdešʹ terpétʹ				
+endure	3rd singular (он/она́/оно́)			те́рпит	térpit		бу́дет терпе́ть	búdet terpétʹ				
+endure	1st plural (мы)			те́рпим	térpim		бу́дем терпе́ть	búdem terpétʹ				
+endure	2nd plural (вы)			те́рпите	térpite		бу́дете терпе́ть	búdete terpétʹ				
+endure	3rd plural (они́)			те́рпят	térpjat		бу́дут терпе́ть	búdut terpétʹ				
+endure	imperative			singular			plural					
+endure				терпи́	terpí		терпи́те	terpíte				
+endure	past tense			singular			plural(мы/вы/они́)					
+endure	masculine (я/ты/он)			терпе́л	terpél		терпе́ли	terpéli				
+endure	feminine (я/ты/она́)			терпе́ла	terpéla		терпе́ли	terpéli				
+endure	neuter (оно́)			терпе́ло	terpélo		терпе́ли	terpéli				
+fall	imperfective aspect			imperfective aspect			imperfective aspect					
+fall	infinitive			па́дать	pádatʹ		па́дать	pádatʹ				
+fall	participles			present tense			past tense					
+fall	active			па́дающий	pádajuščij		па́давший	pádavšij				
+fall	passive			—			—					
+fall	adverbial			па́дая	pádaja		па́дав,па́давшиši	pádav	pádavši			
+fall				present tense			future tense					
+fall	1st singular (я)			па́даю	pádaju		бу́ду па́дать	búdu pádatʹ				
+fall	2nd singular (ты)			па́даешь	pádaješʹ		бу́дешь па́дать	búdešʹ pádatʹ				
+fall	3rd singular (он/она́/оно́)			па́дает	pádajet		бу́дет па́дать	búdet pádatʹ				
+fall	1st plural (мы)			па́даем	pádajem		бу́дем па́дать	búdem pádatʹ				
+fall	2nd plural (вы)			па́даете	pádajete		бу́дете па́дать	búdete pádatʹ				
+fall	3rd plural (они́)			па́дают	pádajut		бу́дут па́дать	búdut pádatʹ				
+fall	imperative			singular			plural					
+fall				па́дай	pádaj		па́дайте	pádajte				
+fall	past tense			singular			plural(мы/вы/они́)					
+fall	masculine (я/ты/он)			па́дал	pádal		па́дали	pádali				
+fall	feminine (я/ты/она́)			па́дала	pádala		па́дали	pádali				
+fall	neuter (оно́)			па́дало	pádalo		па́дали	pádali				
+fly	imperfective aspect			imperfective aspect			imperfective aspect					
+fly	infinitive			лета́ть	letátʹ		лета́ть	letátʹ				
+fly	participles			present tense			past tense					
+fly	active			лета́ющий	letájuščij		лета́вший	letávšij				
+fly	passive			—			—					
+fly	adverbial			лета́я	letája		лета́в,лета́вшиši	letáv	letávši			
+fly				present tense			future tense					
+fly	1st singular (я)			лета́ю	letáju		бу́ду лета́ть	búdu letátʹ				
+fly	2nd singular (ты)			лета́ешь	letáješʹ		бу́дешь лета́ть	búdešʹ letátʹ				
+fly	3rd singular (он/она́/оно́)			лета́ет	letájet		бу́дет лета́ть	búdet letátʹ				
+fly	1st plural (мы)			лета́ем	letájem		бу́дем лета́ть	búdem letátʹ				
+fly	2nd plural (вы)			лета́ете	letájete		бу́дете лета́ть	búdete letátʹ				
+fly	3rd plural (они́)			лета́ют	letájut		бу́дут лета́ть	búdut letátʹ				
+fly	imperative			singular			plural					
+fly				лета́й	letáj		лета́йте	letájte				
+fly	past tense			singular			plural(мы/вы/они́)					
+fly	masculine (я/ты/он)			лета́л	letál		лета́ли	letáli				
+fly	feminine (я/ты/она́)			лета́ла	letála		лета́ли	letáli				
+fly	neuter (оно́)			лета́ло	letálo		лета́ли	letáli				
+hear	imperfective aspect			imperfective aspect			imperfective aspect					
+hear	infinitive			слы́шать	slýšatʹ		слы́шать	slýšatʹ				
+hear	participles			present tense			past tense					
+hear	active			слы́шащий	slýšaščij		слы́шавший	slýšavšij				
+hear	passive			слы́шимый	slýšimyj		слы́шанный	slýšannyj				
+hear	adverbial			слы́ша	slýša		слы́шав,слы́шавшиši	slýšav	slýšavši			
+hear				present tense			future tense					
+hear	1st singular (я)			слы́шу	slýšu		бу́ду слы́шать	búdu slýšatʹ				
+hear	2nd singular (ты)			слы́шишь	slýšišʹ		бу́дешь слы́шать	búdešʹ slýšatʹ				
+hear	3rd singular (он/она́/оно́)			слы́шит	slýšit		бу́дет слы́шать	búdet slýšatʹ				
+hear	1st plural (мы)			слы́шим	slýšim		бу́дем слы́шать	búdem slýšatʹ				
+hear	2nd plural (вы)			слы́шите	slýšite		бу́дете слы́шать	búdete slýšatʹ				
+hear	3rd plural (они́)			слы́шат	slýšat		бу́дут слы́шать	búdut slýšatʹ				
+hear	imperative			singular			plural					
+hear				—			—					
+hear	past tense			singular			plural(мы/вы/они́)					
+hear	masculine (я/ты/он)			слы́шал	slýšal		слы́шали	slýšali				
+hear	feminine (я/ты/она́)			слы́шала	slýšala		слы́шали	slýšali				
+hear	neuter (оно́)			слы́шало	slýšalo		слы́шали	slýšali				
+occupy	imperfective aspect			imperfective aspect			imperfective aspect					
+occupy	infinitive			занима́ть	zanimátʹ		занима́ть	zanimátʹ				
+occupy	participles			present tense			past tense					
+occupy	active			занима́ющий	zanimájuščij		занима́вший	zanimávšij				
+occupy	passive			занима́емый	zanimájemyj		—					
+occupy	adverbial			занима́я	zanimája		занима́в,занима́вшиši	zanimáv	zanimávši			
+occupy				present tense			future tense					
+occupy	1st singular (я)			занима́ю	zanimáju		бу́ду занима́ть	búdu zanimátʹ				
+occupy	2nd singular (ты)			занима́ешь	zanimáješʹ		бу́дешь занима́ть	búdešʹ zanimátʹ				
+occupy	3rd singular (он/она́/оно́)			занима́ет	zanimájet		бу́дет занима́ть	búdet zanimátʹ				
+occupy	1st plural (мы)			занима́ем	zanimájem		бу́дем занима́ть	búdem zanimátʹ				
+occupy	2nd plural (вы)			занима́ете	zanimájete		бу́дете занима́ть	búdete zanimátʹ				
+occupy	3rd plural (они́)			занима́ют	zanimájut		бу́дут занима́ть	búdut zanimátʹ				
+occupy	imperative			singular			plural					
+occupy				занима́й	zanimáj		занима́йте	zanimájte				
+occupy	past tense			singular			plural(мы/вы/они́)					
+occupy	masculine (я/ты/он)			занима́л	zanimál		занима́ли	zanimáli				
+occupy	feminine (я/ты/она́)			занима́ла	zanimála		занима́ли	zanimáli				
+occupy	neuter (оно́)			занима́ло	zanimálo		занима́ли	zanimáli				
+resemble	imperfective aspect			imperfective aspect			imperfective aspect					
+resemble	infinitive			походи́ть	poxodítʹ		походи́ть	poxodítʹ				
+resemble	participles			present tense			past tense					
+resemble	active			походя́щий	poxodjáščij		походи́вший	poxodívšij				
+resemble	passive			—			—					
+resemble	adverbial			походя́	poxodjá		походи́в,походи́вшиši	poxodív	poxodívši			
+resemble				present tense			future tense					
+resemble	1st singular (я)			похожу́	poxožú		бу́ду походи́ть	búdu poxodítʹ				
+resemble	2nd singular (ты)			похо́дишь	poxódišʹ		бу́дешь походи́ть	búdešʹ poxodítʹ				
+resemble	3rd singular (он/она́/оно́)			похо́дит	poxódit		бу́дет походи́ть	búdet poxodítʹ				
+resemble	1st plural (мы)			похо́дим	poxódim		бу́дем походи́ть	búdem poxodítʹ				
+resemble	2nd plural (вы)			похо́дите	poxódite		бу́дете походи́ть	búdete poxodítʹ				
+resemble	3rd plural (они́)			похо́дят	poxódjat		бу́дут походи́ть	búdut poxodítʹ				
+resemble	imperative			singular			plural					
+resemble				походи́	poxodí		походи́те	poxodíte				
+resemble	past tense			singular			plural(мы/вы/они́)					
+resemble	masculine (я/ты/он)			походи́л	poxodíl		походи́ли	poxodíli				
+resemble	feminine (я/ты/она́)			походи́ла	poxodíla		походи́ли	poxodíli				
+resemble	neuter (оно́)			походи́ло	poxodílo		походи́ли	poxodíli				
+resemble	perfective aspect			perfective aspect			perfective aspect					
+resemble	infinitive			походи́ть	poxodítʹ		походи́ть	poxodítʹ				
+resemble	participles			present tense			past tense					
+resemble	active			—			походи́вший	poxodívšij				
+resemble	passive			—			—					
+resemble	adverbial			—			походи́в,походи́вшиši	poxodív	poxodívši			
+resemble				present tense			future tense					
+resemble	1st singular (я)			—			похожу́	poxožú				
+resemble	2nd singular (ты)			—			похо́дишь	poxódišʹ				
+resemble	3rd singular (он/она́/оно́)			—			похо́дит	poxódit				
+resemble	1st plural (мы)			—			похо́дим	poxódim				
+resemble	2nd plural (вы)			—			похо́дите	poxódite				
+resemble	3rd plural (они́)			—			похо́дят	poxódjat				
+resemble	imperative			singular			plural					
+resemble				походи́	poxodí		походи́те	poxodíte				
+resemble	past tense			singular			plural(мы/вы/они́)					
+resemble	masculine (я/ты/он)			походи́л	poxodíl		походи́ли	poxodíli				
+resemble	feminine (я/ты/она́)			походи́ла	poxodíla		походи́ли	poxodíli				
+resemble	neuter (оно́)			походи́ло	poxodílo		походи́ли	poxodíli				
+see	imperfective aspect			imperfective aspect			imperfective aspect					
+see	infinitive			ви́деть	vídetʹ		ви́деть	vídetʹ				
+see	participles			present tense			past tense					
+see	active			ви́дящий	vídjaščij		ви́девший	vídevšij				
+see	passive			ви́димый	vídimyj		ви́денный△	vídennyj△				
+see	adverbial			ви́дя	vídja		ви́дев,ви́девшиši	vídev	vídevši			
+see				present tense			future tense					
+see	1st singular (я)			ви́жу	vížu		бу́ду ви́деть	búdu vídetʹ				
+see	2nd singular (ты)			ви́дишь	vídišʹ		бу́дешь ви́деть	búdešʹ vídetʹ				
+see	3rd singular (он/она́/оно́)			ви́дит	vídit		бу́дет ви́деть	búdet vídetʹ				
+see	1st plural (мы)			ви́дим	vídim		бу́дем ви́деть	búdem vídetʹ				
+see	2nd plural (вы)			ви́дите	vídite		бу́дете ви́деть	búdete vídetʹ				
+see	3rd plural (они́)			ви́дят	vídjat		бу́дут ви́деть	búdut vídetʹ				
+see	imperative			singular			plural					
+see				—			—					
+see	past tense			singular			plural(мы/вы/они́)					
+see	masculine (я/ты/он)			ви́дел	vídel		ви́дели	vídeli				
+see	feminine (я/ты/она́)			ви́дела	vídela		ви́дели	vídeli				
+see	neuter (оно́)			ви́дело	vídelo		ви́дели	vídeli				
+show	imperfective aspect			imperfective aspect			imperfective aspect					
+show	infinitive			пока́зывать	pokázyvatʹ		пока́зывать	pokázyvatʹ				
+show	participles			present tense			past tense					
+show	active			пока́зывающий	pokázyvajuščij		пока́зывавший	pokázyvavšij				
+show	passive			пока́зываемый	pokázyvajemyj		—					
+show	adverbial			пока́зывая	pokázyvaja		пока́зывав,пока́зывавшиši	pokázyvav	pokázyvavši			
+show				present tense			future tense					
+show	1st singular (я)			пока́зываю	pokázyvaju		бу́ду пока́зывать	búdu pokázyvatʹ				
+show	2nd singular (ты)			пока́зываешь	pokázyvaješʹ		бу́дешь пока́зывать	búdešʹ pokázyvatʹ				
+show	3rd singular (он/она́/оно́)			пока́зывает	pokázyvajet		бу́дет пока́зывать	búdet pokázyvatʹ				
+show	1st plural (мы)			пока́зываем	pokázyvajem		бу́дем пока́зывать	búdem pokázyvatʹ				
+show	2nd plural (вы)			пока́зываете	pokázyvajete		бу́дете пока́зывать	búdete pokázyvatʹ				
+show	3rd plural (они́)			пока́зывают	pokázyvajut		бу́дут пока́зывать	búdut pokázyvatʹ				
+show	imperative			singular			plural					
+show				пока́зывай	pokázyvaj		пока́зывайте	pokázyvajte				
+show	past tense			singular			plural(мы/вы/они́)					
+show	masculine (я/ты/он)			пока́зывал	pokázyval		пока́зывали	pokázyvali				
+show	feminine (я/ты/она́)			пока́зывала	pokázyvala		пока́зывали	pokázyvali				
+show	neuter (оно́)			пока́зывало	pokázyvalo		пока́зывали	pokázyvali				
+startle	imperfective aspect			imperfective aspect			imperfective aspect					
+startle	infinitive			пуга́ть	pugátʹ		пуга́ть	pugátʹ				
+startle	participles			present tense			past tense					
+startle	active			пуга́ющий	pugájuščij		пуга́вший	pugávšij				
+startle	passive			пуга́емый	pugájemyj		пу́ганный	púgannyj				
+startle	adverbial			пуга́я	pugája		пуга́в,пуга́вшиši	pugáv	pugávši			
+startle				present tense			future tense					
+startle	1st singular (я)			пуга́ю	pugáju		бу́ду пуга́ть	búdu pugátʹ				
+startle	2nd singular (ты)			пуга́ешь	pugáješʹ		бу́дешь пуга́ть	búdešʹ pugátʹ				
+startle	3rd singular (он/она́/оно́)			пуга́ет	pugájet		бу́дет пуга́ть	búdet pugátʹ				
+startle	1st plural (мы)			пуга́ем	pugájem		бу́дем пуга́ть	búdem pugátʹ				
+startle	2nd plural (вы)			пуга́ете	pugájete		бу́дете пуга́ть	búdete pugátʹ				
+startle	3rd plural (они́)			пуга́ют	pugájut		бу́дут пуга́ть	búdut pugátʹ				
+startle	imperative			singular			plural					
+startle				пуга́й	pugáj		пуга́йте	pugájte				
+startle	past tense			singular			plural(мы/вы/они́)					
+startle	masculine (я/ты/он)			пуга́л	pugál		пуга́ли	pugáli				
+startle	feminine (я/ты/она́)			пуга́ла	pugála		пуга́ли	pugáli				
+startle	neuter (оно́)			пуга́ло	pugálo		пуга́ли	pugáli				
+swim	imperfective aspect			imperfective aspect			imperfective aspect					
+swim	infinitive			плы́ть	plýtʹ		плы́ть	plýtʹ				
+swim	participles			present tense			past tense					
+swim	active			плыву́щий	plyvúščij		плы́вший	plývšij				
+swim	passive			—			—					
+swim	adverbial			плывя́	plyvjá		плы́в,плы́вшиši	plýv	plývši			
+swim				present tense			future tense					
+swim	1st singular (я)			плыву́	plyvú		бу́ду плы́ть	búdu plýtʹ				
+swim	2nd singular (ты)			плывёшь	plyvjóšʹ		бу́дешь плы́ть	búdešʹ plýtʹ				
+swim	3rd singular (он/она́/оно́)			плывёт	plyvjót		бу́дет плы́ть	búdet plýtʹ				
+swim	1st plural (мы)			плывём	plyvjóm		бу́дем плы́ть	búdem plýtʹ				
+swim	2nd plural (вы)			плывёте	plyvjóte		бу́дете плы́ть	búdete plýtʹ				
+swim	3rd plural (они́)			плыву́т	plyvút		бу́дут плы́ть	búdut plýtʹ				
+swim	imperative			singular			plural					
+swim				плыви́	plyví		плыви́те	plyvíte				
+swim	past tense			singular			plural(мы/вы/они́)					
+swim	masculine (я/ты/он)			плы́л	plýl		плы́ли	plýli				
+swim	feminine (я/ты/она́)			плыла́	plylá		плы́ли	plýli				
+swim	neuter (оно́)			плы́ло,плыло́	plýlo	plyló	плы́ли	plýli				
+walk	imperfective aspect			imperfective aspect			imperfective aspect					
+walk	infinitive			шага́ть	šagátʹ		шага́ть	šagátʹ				
+walk	participles			present tense			past tense					
+walk	active			шага́ющий	šagájuščij		шага́вший	šagávšij				
+walk	passive			—			—					
+walk	adverbial			шага́я	šagája		шага́в,шага́вшиši	šagáv	šagávši			
+walk				present tense			future tense					
+walk	1st singular (я)			шага́ю	šagáju		бу́ду шага́ть	búdu šagátʹ				
+walk	2nd singular (ты)			шага́ешь	šagáješʹ		бу́дешь шага́ть	búdešʹ šagátʹ				
+walk	3rd singular (он/она́/оно́)			шага́ет	šagájet		бу́дет шага́ть	búdet šagátʹ				
+walk	1st plural (мы)			шага́ем	šagájem		бу́дем шага́ть	búdem šagátʹ				
+walk	2nd plural (вы)			шага́ете	šagájete		бу́дете шага́ть	búdete šagátʹ				
+walk	3rd plural (они́)			шага́ют	šagájut		бу́дут шага́ть	búdut šagátʹ				
+walk	imperative			singular			plural					
+walk				шага́й	šagáj		шага́йте	šagájte				
+walk	past tense			singular			plural(мы/вы/они́)					
+walk	masculine (я/ты/он)			шага́л	šagál		шага́ли	šagáli				
+walk	feminine (я/ты/она́)			шага́ла	šagála		шага́ли	šagáli				
+walk	neuter (оно́)			шага́ло	šagálo		шага́ли	šagáli				
+warm	imperfective aspect			imperfective aspect			imperfective aspect					
+warm	infinitive			гре́ть	grétʹ		гре́ть	grétʹ				
+warm	participles			present tense			past tense					
+warm	active			гре́ющий	gréjuščij		гре́вший	grévšij				
+warm	passive			гре́емый	gréjemyj		гре́тый	grétyj				
+warm	adverbial			гре́я	gréja		гре́в,гре́вшиši	grév	grévši			
+warm				present tense			future tense					
+warm	1st singular (я)			гре́ю	gréju		бу́ду гре́ть	búdu grétʹ				
+warm	2nd singular (ты)			гре́ешь	gréješʹ		бу́дешь гре́ть	búdešʹ grétʹ				
+warm	3rd singular (он/она́/оно́)			гре́ет	gréjet		бу́дет гре́ть	búdet grétʹ				
+warm	1st plural (мы)			гре́ем	gréjem		бу́дем гре́ть	búdem grétʹ				
+warm	2nd plural (вы)			гре́ете	gréjete		бу́дете гре́ть	búdete grétʹ				
+warm	3rd plural (они́)			гре́ют	gréjut		бу́дут гре́ть	búdut grétʹ				
+warm	imperative			singular			plural					
+warm				гре́й	gréj		гре́йте	gréjte				
+warm	past tense			singular			plural(мы/вы/они́)					
+warm	masculine (я/ты/он)			гре́л	grél		гре́ли	gréli				
+warm	feminine (я/ты/она́)			гре́ла	gréla		гре́ли	gréli				
+warm	neuter (оно́)			гре́ло	grélo		гре́ли	gréli				
+watch	imperfective aspect			imperfective aspect			imperfective aspect					
+watch	infinitive			наблюда́ть	nabljudátʹ		наблюда́ть	nabljudátʹ				
+watch	participles			present tense			past tense					
+watch	active			наблюда́ющий	nabljudájuščij		наблюда́вший	nabljudávšij				
+watch	passive			наблюда́емый	nabljudájemyj		—					
+watch	adverbial			наблюда́я	nabljudája		наблюда́в,наблюда́вшиši	nabljudáv	nabljudávši			
+watch				present tense			future tense					
+watch	1st singular (я)			наблюда́ю	nabljudáju		бу́ду наблюда́ть	búdu nabljudátʹ				
+watch	2nd singular (ты)			наблюда́ешь	nabljudáješʹ		бу́дешь наблюда́ть	búdešʹ nabljudátʹ				
+watch	3rd singular (он/она́/оно́)			наблюда́ет	nabljudájet		бу́дет наблюда́ть	búdet nabljudátʹ				
+watch	1st plural (мы)			наблюда́ем	nabljudájem		бу́дем наблюда́ть	búdem nabljudátʹ				
+watch	2nd plural (вы)			наблюда́ете	nabljudájete		бу́дете наблюда́ть	búdete nabljudátʹ				
+watch	3rd plural (они́)			наблюда́ют	nabljudájut		бу́дут наблюда́ть	búdut nabljudátʹ				
+watch	imperative			singular			plural					
+watch				наблюда́й	nabljudáj		наблюда́йте	nabljudájte				
+watch	past tense			singular			plural(мы/вы/они́)					
+watch	masculine (я/ты/он)			наблюда́л	nabljudál		наблюда́ли	nabljudáli				
+watch	feminine (я/ты/она́)			наблюда́ла	nabljudála		наблюда́ли	nabljudáli				
+watch	neuter (оно́)			наблюда́ло	nabljudálo		наблюда́ли	nabljudáli				
+work	imperfective aspect			imperfective aspect			imperfective aspect					
+work	infinitive			рабо́тать	rabótatʹ		рабо́тать	rabótatʹ				
+work	participles			present tense			past tense					
+work	active			рабо́тающий	rabótajuščij		рабо́тавший	rabótavšij				
+work	passive			—			—					
+work	adverbial			рабо́тая	rabótaja		рабо́тав,рабо́тавшиši	rabótav	rabótavši			
+work				present tense			future tense					
+work	1st singular (я)			рабо́таю	rabótaju		бу́ду рабо́тать	búdu rabótatʹ				
+work	2nd singular (ты)			рабо́таешь	rabótaješʹ		бу́дешь рабо́тать	búdešʹ rabótatʹ				
+work	3rd singular (он/она́/оно́)			рабо́тает	rabótajet		бу́дет рабо́тать	búdet rabótatʹ				
+work	1st plural (мы)			рабо́таем	rabótajem		бу́дем рабо́тать	búdem rabótatʹ				
+work	2nd plural (вы)			рабо́таете	rabótajete		бу́дете рабо́тать	búdete rabótatʹ				
+work	3rd plural (они́)			рабо́тают	rabótajut		бу́дут рабо́тать	búdut rabótatʹ				
+work	imperative			singular			plural					
+work				рабо́тай	rabótaj		рабо́тайте	rabótajte				
+work	past tense			singular			plural(мы/вы/они́)					
+work	masculine (я/ты/он)			рабо́тал	rabótal		рабо́тали	rabótali				
+work	feminine (я/ты/она́)			рабо́тала	rabótala		рабо́тали	rabótali				
+work	neuter (оно́)			рабо́тало	rabótalo		рабо́тали	rabótali				
+give	imperfective aspect			imperfective aspect			imperfective aspect					
+give	infinitive			дава́ть	davátʹ		дава́ть	davátʹ				
+give	participles			present tense			past tense					
+give	active			даю́щий	dajúščij		дава́вший	davávšij				
+give	passive			дава́емый	davájemyj		—					
+give	adverbial			дава́я	davája		дава́в,дава́вшиši	daváv	davávši			
+give				present tense			future tense					
+give	1st singular (я)			даю́	dajú		бу́ду дава́ть	búdu davátʹ				
+give	2nd singular (ты)			даёшь	dajóšʹ		бу́дешь дава́ть	búdešʹ davátʹ				
+give	3rd singular (он/она́/оно́)			даёт	dajót		бу́дет дава́ть	búdet davátʹ				
+give	1st plural (мы)			даём	dajóm		бу́дем дава́ть	búdem davátʹ				
+give	2nd plural (вы)			даёте	dajóte		бу́дете дава́ть	búdete davátʹ				
+give	3rd plural (они́)			даю́т	dajút		бу́дут дава́ть	búdut davátʹ				
+give	imperative			singular			plural					
+give				дава́й	daváj		дава́йте	davájte				
+give	past tense			singular			plural(мы/вы/они́)					
+give	masculine (я/ты/он)			дава́л	davál		дава́ли	daváli				
+give	feminine (я/ты/она́)			дава́ла	davála		дава́ли	daváli				
+give	neuter (оно́)			дава́ло	daválo		дава́ли	daváli				
+eat	imperfective aspect			imperfective aspect			imperfective aspect					
+eat	infinitive			е́сть	jéstʹ		е́сть	jéstʹ				
+eat	participles			present tense			past tense					
+eat	active			едя́щий	jedjáščij		е́вший	jévšij				
+eat	passive			едо́мый*	jedómyj*		е́денный	jédennyj				
+eat	adverbial			едя́	jedjá		е́в,е́вшиši	jév	jévši			
+eat				present tense			future tense					
+eat	1st singular (я)			е́м	jém		бу́ду е́сть	búdu jéstʹ				
+eat	2nd singular (ты)			е́шь	jéšʹ		бу́дешь е́сть	búdešʹ jéstʹ				
+eat	3rd singular (он/она́/оно́)			е́ст	jést		бу́дет е́сть	búdet jéstʹ				
+eat	1st plural (мы)			еди́м	jedím		бу́дем е́сть	búdem jéstʹ				
+eat	2nd plural (вы)			еди́те	jedíte		бу́дете е́сть	búdete jéstʹ				
+eat	3rd plural (они́)			едя́т	jedját		бу́дут е́сть	búdut jéstʹ				
+eat	imperative			singular			plural					
+eat				е́шь	jéšʹ		е́шьте	jéšʹte				
+eat	past tense			singular			plural(мы/вы/они́)					
+eat	masculine (я/ты/он)			е́л	jél		е́ли	jéli				
+eat	feminine (я/ты/она́)			е́ла	jéla		е́ли	jéli				
+eat	neuter (оно́)			е́ло	jélo		е́ли	jéli				
+live	imperfective aspect			imperfective aspect			imperfective aspect					
+live	infinitive			жи́ть	žítʹ		жи́ть	žítʹ				
+live	participles			present tense			past tense					
+live	active			живу́щий	živúščij		жи́вший	žívšij				
+live	passive			—			—					
+live	adverbial			живя́,живу́чи1△	živjá	živúči1△	жи́в,жи́вшиši	žív	žívši			
+live				present tense			future tense					
+live	1st singular (я)			живу́	živú		бу́ду жи́ть	búdu žítʹ				
+live	2nd singular (ты)			живёшь	živjóšʹ		бу́дешь жи́ть	búdešʹ žítʹ				
+live	3rd singular (он/она́/оно́)			живёт	živjót		бу́дет жи́ть	búdet žítʹ				
+live	1st plural (мы)			живём	živjóm		бу́дем жи́ть	búdem žítʹ				
+live	2nd plural (вы)			живёте	živjóte		бу́дете жи́ть	búdete žítʹ				
+live	3rd plural (они́)			живу́т	živút		бу́дут жи́ть	búdut žítʹ				
+live	imperative			singular			plural					
+live				живи́	živí		живи́те	živíte				
+live	past tense			singular			plural(мы/вы/они́)					
+live	masculine (я/ты/он)			жи́л	žíl		жи́ли	žíli				
+live	feminine (я/ты/она́)			жила́	žilá		жи́ли	žíli				
+live	neuter (оно́)			жи́ло,жило́	žílo	žiló	жи́ли	žíli				
+call	imperfective aspect			imperfective aspect			imperfective aspect					
+call	infinitive			зва́ть	zvátʹ		зва́ть	zvátʹ				
+call	participles			present tense			past tense					
+call	active			зову́щий△	zovúščij△		зва́вший	zvávšij				
+call	passive			—			зва́нный	zvánnyj				
+call	adverbial			зовя́△	zovjá△		зва́в,зва́вшиši	zváv	zvávši			
+call				present tense			future tense					
+call	1st singular (я)			зову́△	zovú△		бу́ду зва́ть	búdu zvátʹ				
+call	2nd singular (ты)			зовёшь△	zovjóšʹ△		бу́дешь зва́ть	búdešʹ zvátʹ				
+call	3rd singular (он/она́/оно́)			зовёт△	zovjót△		бу́дет зва́ть	búdet zvátʹ				
+call	1st plural (мы)			зовём△	zovjóm△		бу́дем зва́ть	búdem zvátʹ				
+call	2nd plural (вы)			зовёте△	zovjóte△		бу́дете зва́ть	búdete zvátʹ				
+call	3rd plural (они́)			зову́т△	zovút△		бу́дут зва́ть	búdut zvátʹ				
+call	imperative			singular			plural					
+call				зови́△	zoví△		зови́те△	zovíte△				
+call	past tense			singular			plural(мы/вы/они́)					
+call	masculine (я/ты/он)			зва́л	zvál		зва́ли	zváli				
+call	feminine (я/ты/она́)			звала́	zvalá		зва́ли	zváli				
+call	neuter (оно́)			зва́ло	zválo		зва́ли	zváli				
+go	imperfective aspect			imperfective aspect			imperfective aspect					
+go	infinitive			идти́	idtí		идти́	idtí				
+go	participles			present tense			past tense					
+go	active			иду́щий	idúščij		ше́дший	šédšij				
+go	passive			—			—					
+go	adverbial			идя́,и́дучи1△	idjá	íduči1△	ше́дши	šédši				
+go				present tense			future tense					
+go	1st singular (я)			иду́	idú		бу́ду идти́	búdu idtí				
+go	2nd singular (ты)			идёшь	idjóšʹ		бу́дешь идти́	búdešʹ idtí				
+go	3rd singular (он/она́/оно́)			идёт	idjót		бу́дет идти́	búdet idtí				
+go	1st plural (мы)			идём	idjóm		бу́дем идти́	búdem idtí				
+go	2nd plural (вы)			идёте	idjóte		бу́дете идти́	búdete idtí				
+go	3rd plural (они́)			иду́т	idút		бу́дут идти́	búdut idtí				
+go	imperative			singular			plural					
+go				иди́	idí		иди́те	idíte				
+go	past tense			singular			plural(мы/вы/они́)					
+go	masculine (я/ты/он)			шёл	šól		шли́	šlí				
+go	feminine (я/ты/она́)			шла́	šlá		шли́	šlí				
+go	neuter (оно́)			шло́	šló		шли́	šlí				
+write	imperfective aspect			imperfective aspect			imperfective aspect					
+write	infinitive			писа́ть	pisátʹ		писа́ть	pisátʹ				
+write	participles			present tense			past tense					
+write	active			пи́шущий	píšuščij		писа́вший	pisávšij				
+write	passive			—			пи́санный	písannyj				
+write	adverbial			пиша́*	pišá*		писа́в,писа́вшиši	pisáv	pisávši			
+write				present tense			future tense					
+write	1st singular (я)			пишу́	pišú		бу́ду писа́ть	búdu pisátʹ				
+write	2nd singular (ты)			пи́шешь	píšešʹ		бу́дешь писа́ть	búdešʹ pisátʹ				
+write	3rd singular (он/она́/оно́)			пи́шет	píšet		бу́дет писа́ть	búdet pisátʹ				
+write	1st plural (мы)			пи́шем	píšem		бу́дем писа́ть	búdem pisátʹ				
+write	2nd plural (вы)			пи́шете	píšete		бу́дете писа́ть	búdete pisátʹ				
+write	3rd plural (они́)			пи́шут	píšut		бу́дут писа́ть	búdut pisátʹ				
+write	imperative			singular			plural					
+write				пиши́	piší		пиши́те	pišíte				
+write	past tense			singular			plural(мы/вы/они́)					
+write	masculine (я/ты/он)			писа́л	pisál		писа́ли	pisáli				
+write	feminine (я/ты/она́)			писа́ла	pisála		писа́ли	pisáli				
+write	neuter (оно́)			писа́ло	pisálo		писа́ли	pisáli				
+write	imperfective aspect			imperfective aspect			imperfective aspect					
+write	infinitive			пи́сать	písatʹ		пи́сать	písatʹ				
+write	participles			present tense			past tense					
+write	active			пи́сающий	písajuščij		пи́савший	písavšij				
+write	passive			—			—					
+write	adverbial			пи́сая	písaja		пи́сав,пи́савшиši	písav	písavši			
+write				present tense			future tense					
+write	1st singular (я)			пи́саю	písaju		бу́ду пи́сать	búdu písatʹ				
+write	2nd singular (ты)			пи́саешь	písaješʹ		бу́дешь пи́сать	búdešʹ písatʹ				
+write	3rd singular (он/она́/оно́)			пи́сает	písajet		бу́дет пи́сать	búdet písatʹ				
+write	1st plural (мы)			пи́саем	písajem		бу́дем пи́сать	búdem písatʹ				
+write	2nd plural (вы)			пи́саете	písajete		бу́дете пи́сать	búdete písatʹ				
+write	3rd plural (они́)			пи́сают	písajut		бу́дут пи́сать	búdut písatʹ				
+write	imperative			singular			plural					
+write				пи́сай	písaj		пи́сайте	písajte				
+write	past tense			singular			plural(мы/вы/они́)					
+write	masculine (я/ты/он)			пи́сал	písal		пи́сали	písali				
+write	feminine (я/ты/она́)			пи́сала	písala		пи́сали	písali				
+write	neuter (оно́)			пи́сало	písalo		пи́сали	písali				
+read	imperfective aspect			imperfective aspect			imperfective aspect					
+read	infinitive			чита́ть	čitátʹ		чита́ть	čitátʹ				
+read	participles			present tense			past tense					
+read	active			чита́ющий	čitájuščij		чита́вший	čitávšij				
+read	passive			чита́емый	čitájemyj		чи́танный	čítannyj				
+read	adverbial			чита́я	čitája		чита́в,чита́вшиši	čitáv	čitávši			
+read				present tense			future tense					
+read	1st singular (я)			чита́ю	čitáju		бу́ду чита́ть	búdu čitátʹ				
+read	2nd singular (ты)			чита́ешь	čitáješʹ		бу́дешь чита́ть	búdešʹ čitátʹ				
+read	3rd singular (он/она́/оно́)			чита́ет	čitájet		бу́дет чита́ть	búdet čitátʹ				
+read	1st plural (мы)			чита́ем	čitájem		бу́дем чита́ть	búdem čitátʹ				
+read	2nd plural (вы)			чита́ете	čitájete		бу́дете чита́ть	búdete čitátʹ				
+read	3rd plural (они́)			чита́ют	čitájut		бу́дут чита́ть	búdut čitátʹ				
+read	imperative			singular			plural					
+read				чита́й	čitáj		чита́йте	čitájte				
+read	past tense			singular			plural(мы/вы/они́)					
+read	masculine (я/ты/он)			чита́л	čitál		чита́ли	čitáli				
+read	feminine (я/ты/она́)			чита́ла	čitála		чита́ли	čitáli				
+read	neuter (оно́)			чита́ло	čitálo		чита́ли	čitáli				
+return	perfective aspect			perfective aspect			perfective aspect					
+return	infinitive			верну́ть	vernútʹ		верну́ть	vernútʹ				
+return	participles			present tense			past tense					
+return	active			—			верну́вший	vernúvšij				
+return	passive			—			—					
+return	adverbial			—			верну́в,верну́вшиši	vernúv	vernúvši			
+return				present tense			future tense					
+return	1st singular (я)			—			верну́	vernú				
+return	2nd singular (ты)			—			вернёшь	vernjóšʹ				
+return	3rd singular (он/она́/оно́)			—			вернёт	vernjót				
+return	1st plural (мы)			—			вернём	vernjóm				
+return	2nd plural (вы)			—			вернёте	vernjóte				
+return	3rd plural (они́)			—			верну́т	vernút				
+return	imperative			singular			plural					
+return				верни́	verní		верни́те	verníte				
+return	past tense			singular			plural(мы/вы/они́)					
+return	masculine (я/ты/он)			верну́л	vernúl		верну́ли	vernúli				
+return	feminine (я/ты/она́)			верну́ла	vernúla		верну́ли	vernúli				
+return	neuter (оно́)			верну́ло	vernúlo		верну́ли	vernúli				
+draw	imperfective aspect			imperfective aspect			imperfective aspect					
+draw	infinitive			рисова́ть	risovátʹ		рисова́ть	risovátʹ				
+draw	participles			present tense			past tense					
+draw	active			рису́ющий	risújuščij		рисова́вший	risovávšij				
+draw	passive			рису́емый	risújemyj		рисо́ванный	risóvannyj				
+draw	adverbial			рису́я	risúja		рисова́в,рисова́вшиši	risováv	risovávši			
+draw				present tense			future tense					
+draw	1st singular (я)			рису́ю	risúju		бу́ду рисова́ть	búdu risovátʹ				
+draw	2nd singular (ты)			рису́ешь	risúješʹ		бу́дешь рисова́ть	búdešʹ risovátʹ				
+draw	3rd singular (он/она́/оно́)			рису́ет	risújet		бу́дет рисова́ть	búdet risovátʹ				
+draw	1st plural (мы)			рису́ем	risújem		бу́дем рисова́ть	búdem risovátʹ				
+draw	2nd plural (вы)			рису́ете	risújete		бу́дете рисова́ть	búdete risovátʹ				
+draw	3rd plural (они́)			рису́ют	risújut		бу́дут рисова́ть	búdut risovátʹ				
+draw	imperative			singular			plural					
+draw				рису́й	risúj		рису́йте	risújte				
+draw	past tense			singular			plural(мы/вы/они́)					
+draw	masculine (я/ты/он)			рисова́л	risovál		рисова́ли	risováli				
+draw	feminine (я/ты/она́)			рисова́ла	risovála		рисова́ли	risováli				
+draw	neuter (оно́)			рисова́ло	risoválo		рисова́ли	risováli				
+spit	imperfective aspect			imperfective aspect			imperfective aspect					
+spit	infinitive			плева́ть	plevátʹ		плева́ть	plevátʹ				
+spit	participles			present tense			past tense					
+spit	active			плюю́щий	pljujúščij		плева́вший	plevávšij				
+spit	passive			—			—					
+spit	adverbial			плюя́	pljujá		плева́в,плева́вшиši	pleváv	plevávši			
+spit				present tense			future tense					
+spit	1st singular (я)			плюю́	pljujú		бу́ду плева́ть	búdu plevátʹ				
+spit	2nd singular (ты)			плюёшь	pljujóšʹ		бу́дешь плева́ть	búdešʹ plevátʹ				
+spit	3rd singular (он/она́/оно́)			плюёт	pljujót		бу́дет плева́ть	búdet plevátʹ				
+spit	1st plural (мы)			плюём	pljujóm		бу́дем плева́ть	búdem plevátʹ				
+spit	2nd plural (вы)			плюёте	pljujóte		бу́дете плева́ть	búdete plevátʹ				
+spit	3rd plural (они́)			плюю́т	pljujút		бу́дут плева́ть	búdut plevátʹ				
+spit	imperative			singular			plural					
+spit				плю́й	pljúj		плю́йте	pljújte				
+spit	past tense			singular			plural(мы/вы/они́)					
+spit	masculine (я/ты/он)			плева́л	plevál		плева́ли	pleváli				
+spit	feminine (я/ты/она́)			плева́ла	plevála		плева́ли	pleváli				
+spit	neuter (оно́)			плева́ло	pleválo		плева́ли	pleváli				
+dance	imperfective aspect			imperfective aspect			imperfective aspect					
+dance	infinitive			танцева́ть	tancevátʹ		танцева́ть	tancevátʹ				
+dance	participles			present tense			past tense					
+dance	active			танцу́ющий	tancújuščij		танцева́вший	tancevávšij				
+dance	passive			танцу́емый	tancújemyj		танцо́ванный	tancóvannyj				
+dance	adverbial			танцу́я	tancúja		танцева́в,танцева́вшиši	tanceváv	tancevávši			
+dance				present tense			future tense					
+dance	1st singular (я)			танцу́ю	tancúju		бу́ду танцева́ть	búdu tancevátʹ				
+dance	2nd singular (ты)			танцу́ешь	tancúješʹ		бу́дешь танцева́ть	búdešʹ tancevátʹ				
+dance	3rd singular (он/она́/оно́)			танцу́ет	tancújet		бу́дет танцева́ть	búdet tancevátʹ				
+dance	1st plural (мы)			танцу́ем	tancújem		бу́дем танцева́ть	búdem tancevátʹ				
+dance	2nd plural (вы)			танцу́ете	tancújete		бу́дете танцева́ть	búdete tancevátʹ				
+dance	3rd plural (они́)			танцу́ют	tancújut		бу́дут танцева́ть	búdut tancevátʹ				
+dance	imperative			singular			plural					
+dance				танцу́й	tancúj		танцу́йте	tancújte				
+dance	past tense			singular			plural(мы/вы/они́)					
+dance	masculine (я/ты/он)			танцева́л	tancevál		танцева́ли	tanceváli				
+dance	feminine (я/ты/она́)			танцева́ла	tancevála		танцева́ли	tanceváli				
+dance	neuter (оно́)			танцева́ло	tanceválo		танцева́ли	tanceváli				
+be-able	imperfective aspect		imperfective aspect		imperfective aspect							
+be-able	infinitive		мо́чь	móčʹ	мо́чь	móčʹ						
+be-able	participles		present tense		past tense							
+be-able	active		могу́щий	mogúščij	мо́гший	mógšij						
+be-able	passive		—		—							
+be-able	adverbial		—		—							
+be-able			present tense		future tense							
+be-able	1st singular (я)		могу́	mogú	бу́ду мо́чь	búdu móčʹ						
+be-able	2nd singular (ты)		мо́жешь	móžešʹ	бу́дешь мо́чь	búdešʹ móčʹ						
+be-able	3rd singular (он/она́/оно́)		мо́жет	móžet	бу́дет мо́чь	búdet móčʹ						
+be-able	1st plural (мы)		мо́жем	móžem	бу́дем мо́чь	búdem móčʹ						
+be-able	2nd plural (вы)		мо́жете	móžete	бу́дете мо́чь	búdete móčʹ						
+be-able	3rd plural (они́)		мо́гут	mógut	бу́дут мо́чь	búdut móčʹ						
+be-able	imperative		singular		plural							
+be-able			моги́	mogí	моги́те	mogíte						
+be-able	past tense		singular		plural(мы/вы/они́)							
+be-able	masculine (я/ты/он)		мо́г	móg	могли́	moglí						
+be-able	feminine (я/ты/она́)		могла́	moglá	могли́	moglí						
+be-able	neuter (оно́)		могло́	mogló	могли́	moglí						
+bake	imperfective aspect		imperfective aspect		imperfective aspect							
+bake	infinitive		пе́чь	péčʹ	пе́чь	péčʹ						
+bake	participles		present tense		past tense							
+bake	active		пеку́щий	pekúščij	пёкший	pjókšij						
+bake	passive		—		печённый	pečónnyj						
+bake	adverbial		—		пёкши	pjókši						
+bake			present tense		future tense							
+bake	1st singular (я)		пеку́	pekú	бу́ду пе́чь	búdu péčʹ						
+bake	2nd singular (ты)		печёшь	pečóšʹ	бу́дешь пе́чь	búdešʹ péčʹ						
+bake	3rd singular (он/она́/оно́)		печёт	pečót	бу́дет пе́чь	búdet péčʹ						
+bake	1st plural (мы)		печём	pečóm	бу́дем пе́чь	búdem péčʹ						
+bake	2nd plural (вы)		печёте	pečóte	бу́дете пе́чь	búdete péčʹ						
+bake	3rd plural (они́)		пеку́т	pekút	бу́дут пе́чь	búdut péčʹ						
+bake	imperative		singular		plural							
+bake			пеки́	pekí	пеки́те	pekíte						
+bake	past tense		singular		plural(мы/вы/они́)							
+bake	masculine (я/ты/он)		пёк	pjók	пекли́	peklí						
+bake	feminine (я/ты/она́)		пекла́	peklá	пекли́	peklí						
+bake	neuter (оно́)		пекло́	pekló	пекли́	peklí						
+carry	imperfective aspect		imperfective aspect		imperfective aspect							
+carry	infinitive		нести́	nestí	нести́	nestí						
+carry	participles		present tense		past tense							
+carry	active		несу́щий	nesúščij	нёсший	njósšij						
+carry	passive		—		несённый	nesjónnyj						
+carry	adverbial		неся́	nesjá	нёсши	njósši						
+carry			present tense		future tense							
+carry	1st singular (я)		несу́	nesú	бу́ду нести́	búdu nestí						
+carry	2nd singular (ты)		несёшь	nesjóšʹ	бу́дешь нести́	búdešʹ nestí						
+carry	3rd singular (он/она́/оно́)		несёт	nesjót	бу́дет нести́	búdet nestí						
+carry	1st plural (мы)		несём	nesjóm	бу́дем нести́	búdem nestí						
+carry	2nd plural (вы)		несёте	nesjóte	бу́дете нести́	búdete nestí						
+carry	3rd plural (они́)		несу́т	nesút	бу́дут нести́	búdut nestí						
+carry	imperative		singular		plural							
+carry			неси́	nesí	неси́те	nesíte						
+carry	past tense		singular		plural(мы/вы/они́)							
+carry	masculine (я/ты/он)		нёс	njós	несли́	neslí						
+carry	feminine (я/ты/она́)		несла́	neslá	несли́	neslí						
+carry	neuter (оно́)		несло́	nesló	несли́	neslí						
+lead	imperfective aspect		imperfective aspect		imperfective aspect							
+lead	infinitive		вести́	vestí	вести́	vestí						
+lead	participles		present tense		past tense							
+lead	active		веду́щий	vedúščij	ве́дший	védšij						
+lead	passive		ведо́мый*△	vedómyj*△	ведённый	vedjónnyj						
+lead	adverbial		ведя́	vedjá	ве́дши	védši						
+lead			present tense		future tense							
+lead	1st singular (я)		веду́	vedú	бу́ду вести́	búdu vestí						
+lead	2nd singular (ты)		ведёшь	vedjóšʹ	бу́дешь вести́	búdešʹ vestí						
+lead	3rd singular (он/она́/оно́)		ведёт	vedjót	бу́дет вести́	búdet vestí						
+lead	1st plural (мы)		ведём	vedjóm	бу́дем вести́	búdem vestí						
+lead	2nd plural (вы)		ведёте	vedjóte	бу́дете вести́	búdete vestí						
+lead	3rd plural (они́)		веду́т	vedút	бу́дут вести́	búdut vestí						
+lead	imperative		singular		plural							
+lead			веди́	vedí	веди́те	vedíte						
+lead	past tense		singular		plural(мы/вы/они́)							
+lead	masculine (я/ты/он)		вёл	vjól	вели́	velí						
+lead	feminine (я/ты/она́)		вела́	velá	вели́	velí						
+lead	neuter (оно́)		вело́	veló	вели́	velí						
+sweep	imperfective aspect		imperfective aspect		imperfective aspect							
+sweep	infinitive		мести́	mestí	мести́	mestí						
+sweep	participles		present tense		past tense							
+sweep	active		мету́щий	metúščij	мётший	mjótšij						
+sweep	passive		—		метённый	metjónnyj						
+sweep	adverbial		метя́	metjá	мётши	mjótši						
+sweep			present tense		future tense							
+sweep	1st singular (я)		мету́	metú	бу́ду мести́	búdu mestí						
+sweep	2nd singular (ты)		метёшь	metjóšʹ	бу́дешь мести́	búdešʹ mestí						
+sweep	3rd singular (он/она́/оно́)		метёт	metjót	бу́дет мести́	búdet mestí						
+sweep	1st plural (мы)		метём	metjóm	бу́дем мести́	búdem mestí						
+sweep	2nd plural (вы)		метёте	metjóte	бу́дете мести́	búdete mestí						
+sweep	3rd plural (они́)		мету́т	metút	бу́дут мести́	búdut mestí						
+sweep	imperative		singular		plural							
+sweep			мети́	metí	мети́те	metíte						
+sweep	past tense		singular		plural(мы/вы/они́)							
+sweep	masculine (я/ты/он)		мёл	mjól	мели́	melí						
+sweep	feminine (я/ты/она́)		мела́	melá	мели́	melí						
+sweep	neuter (оно́)		мело́	meló	мели́	melí						
+row	imperfective aspect		imperfective aspect		imperfective aspect							
+row	infinitive		грести́	grestí	грести́	grestí						
+row	participles		present tense		past tense							
+row	active		гребу́щий	grebúščij	грёбший	grjóbšij						
+row	passive		—		гребённый	grebjónnyj						
+row	adverbial		гребя́	grebjá	грёбши	grjóbši						
+row			present tense		future tense							
+row	1st singular (я)		гребу́	grebú	бу́ду грести́	búdu grestí						
+row	2nd singular (ты)		гребёшь	grebjóšʹ	бу́дешь грести́	búdešʹ grestí						
+row	3rd singular (он/она́/оно́)		гребёт	grebjót	бу́дет грести́	búdet grestí						
+row	1st plural (мы)		гребём	grebjóm	бу́дем грести́	búdem grestí						
+row	2nd plural (вы)		гребёте	grebjóte	бу́дете грести́	búdete grestí						
+row	3rd plural (они́)		гребу́т	grebút	бу́дут грести́	búdut grestí						
+row	imperative		singular		plural							
+row			греби́	grebí	греби́те	grebíte						
+row	past tense		singular		plural(мы/вы/они́)							
+row	masculine (я/ты/он)		грёб	grjób	гребли́	greblí						
+row	feminine (я/ты/она́)		гребла́	greblá	гребли́	greblí						
+row	neuter (оно́)		гребло́	grebló	гребли́	greblí						
+steal	imperfective aspect			imperfective aspect			imperfective aspect					
+steal	infinitive			кра́сть	krástʹ		кра́сть	krástʹ				
+steal	participles			present tense			past tense					
+steal	active			краду́щий	kradúščij		кра́вший	krávšij				
+steal	passive			—			кра́денный	krádennyj				
+steal	adverbial			крадя́	kradjá		кра́в,кра́вшиši	kráv	krávši			
+steal				present tense			future tense					
+steal	1st singular (я)			краду́	kradú		бу́ду кра́сть	búdu krástʹ				
+steal	2nd singular (ты)			крадёшь	kradjóšʹ		бу́дешь кра́сть	búdešʹ krástʹ				
+steal	3rd singular (он/она́/оно́)			крадёт	kradjót		бу́дет кра́сть	búdet krástʹ				
+steal	1st plural (мы)			крадём	kradjóm		бу́дем кра́сть	búdem krástʹ				
+steal	2nd plural (вы)			крадёте	kradjóte		бу́дете кра́сть	búdete krástʹ				
+steal	3rd plural (они́)			краду́т	kradút		бу́дут кра́сть	búdut krástʹ				
+steal	imperative			singular			plural					
+steal				кради́	kradí		кради́те	kradíte				
+steal	past tense			singular			plural(мы/вы/они́)					
+steal	masculine (я/ты/он)			кра́л	král		кра́ли	králi				
+steal	feminine (я/ты/она́)			кра́ла	krála		кра́ли	králi				
+steal	neuter (оно́)			кра́ло	králo		кра́ли	králi				
+convey	imperfective aspect		imperfective aspect		imperfective aspect							
+convey	infinitive		везти́	veztí	везти́	veztí						
+convey	participles		present tense		past tense							
+convey	active		везу́щий	vezúščij	вёзший	vjózšij						
+convey	passive		везо́мый*△	vezómyj*△	везённый	vezjónnyj						
+convey	adverbial		везя́	vezjá	вёзши	vjózši						
+convey			present tense		future tense							
+convey	1st singular (я)		везу́	vezú	бу́ду везти́	búdu veztí						
+convey	2nd singular (ты)		везёшь	vezjóšʹ	бу́дешь везти́	búdešʹ veztí						
+convey	3rd singular (он/она́/оно́)		везёт	vezjót	бу́дет везти́	búdet veztí						
+convey	1st plural (мы)		везём	vezjóm	бу́дем везти́	búdem veztí						
+convey	2nd plural (вы)		везёте	vezjóte	бу́дете везти́	búdete veztí						
+convey	3rd plural (они́)		везу́т	vezút	бу́дут везти́	búdut veztí						
+convey	imperative		singular		plural							
+convey			вези́	vezí	вези́те	vezíte						
+convey	past tense		singular		plural(мы/вы/они́)							
+convey	masculine (я/ты/он)		вёз	vjóz	везли́	vezlí						
+convey	feminine (я/ты/она́)		везла́	vezlá	везли́	vezlí						
+convey	neuter (оно́)		везло́	vezló	везли́	vezlí						
+climb	imperfective aspect		imperfective aspect		imperfective aspect							
+climb	infinitive		ле́зть	léztʹ	ле́зть	léztʹ						
+climb	participles		present tense		past tense							
+climb	active		ле́зущий	lézuščij	ле́зший	lézšij						
+climb	passive		—		—							
+climb	adverbial		ле́зя	lézja	ле́зши	lézši						
+climb			present tense		future tense							
+climb	1st singular (я)		ле́зу	lézu	бу́ду ле́зть	búdu léztʹ						
+climb	2nd singular (ты)		ле́зешь	lézešʹ	бу́дешь ле́зть	búdešʹ léztʹ						
+climb	3rd singular (он/она́/оно́)		ле́зет	lézet	бу́дет ле́зть	búdet léztʹ						
+climb	1st plural (мы)		ле́зем	lézem	бу́дем ле́зть	búdem léztʹ						
+climb	2nd plural (вы)		ле́зете	lézete	бу́дете ле́зть	búdete léztʹ						
+climb	3rd plural (они́)		ле́зут	lézut	бу́дут ле́зть	búdut léztʹ						
+climb	imperative		singular		plural							
+climb			ле́зь	lézʹ	ле́зьте	lézʹte						
+climb	past tense		singular		plural(мы/вы/они́)							
+climb	masculine (я/ты/он)		ле́з	léz	ле́зли	lézli						
+climb	feminine (я/ты/она́)		ле́зла	lézla	ле́зли	lézli						
+climb	neuter (оно́)		ле́зло	lézlo	ле́зли	lézli						
+wash	imperfective aspect			imperfective aspect			imperfective aspect					
+wash	infinitive			мы́ть	mýtʹ		мы́ть	mýtʹ				
+wash	participles			present tense			past tense					
+wash	active			мо́ющий△	mójuščij△		мы́вший	mývšij				
+wash	passive			мо́емый△	mójemyj△		мы́тый	mýtyj				
+wash	adverbial			мо́я△	mója△		мы́в,мы́вшиši	mýv	mývši			
+wash				present tense			future tense					
+wash	1st singular (я)			мо́ю△	móju△		бу́ду мы́ть	búdu mýtʹ				
+wash	2nd singular (ты)			мо́ешь△	móješʹ△		бу́дешь мы́ть	búdešʹ mýtʹ				
+wash	3rd singular (он/она́/оно́)			мо́ет△	mójet△		бу́дет мы́ть	búdet mýtʹ				
+wash	1st plural (мы)			мо́ем△	mójem△		бу́дем мы́ть	búdem mýtʹ				
+wash	2nd plural (вы)			мо́ете△	mójete△		бу́дете мы́ть	búdete mýtʹ				
+wash	3rd plural (они́)			мо́ют△	mójut△		бу́дут мы́ть	búdut mýtʹ				
+wash	imperative			singular			plural					
+wash				мо́й△	mój△		мо́йте△	mójte△				
+wash	past tense			singular			plural(мы/вы/они́)					
+wash	masculine (я/ты/он)			мы́л	mýl		мы́ли	mýli				
+wash	feminine (я/ты/она́)			мы́ла	mýla		мы́ли	mýli				
+wash	neuter (оно́)			мы́ло	mýlo		мы́ли	mýli				
+beat	imperfective aspect			imperfective aspect			imperfective aspect					
+beat	infinitive			би́ть	bítʹ		би́ть	bítʹ				
+beat	participles			present tense			past tense					
+beat	active			бью́щий	bʹjúščij		би́вший	bívšij				
+beat	passive			—			би́тый	bítyj				
+beat	adverbial			—			би́в,би́вшиši	bív	bívši			
+beat				present tense			future tense					
+beat	1st singular (я)			бью́	bʹjú		бу́ду би́ть	búdu bítʹ				
+beat	2nd singular (ты)			бьёшь	bʹjóšʹ		бу́дешь би́ть	búdešʹ bítʹ				
+beat	3rd singular (он/она́/оно́)			бьёт	bʹjót		бу́дет би́ть	búdet bítʹ				
+beat	1st plural (мы)			бьём	bʹjóm		бу́дем би́ть	búdem bítʹ				
+beat	2nd plural (вы)			бьёте	bʹjóte		бу́дете би́ть	búdete bítʹ				
+beat	3rd plural (они́)			бью́т	bʹjút		бу́дут би́ть	búdut bítʹ				
+beat	imperative			singular			plural					
+beat				бе́й	béj		бе́йте	béjte				
+beat	past tense			singular			plural(мы/вы/они́)					
+beat	masculine (я/ты/он)			би́л	bíl		би́ли	bíli				
+beat	feminine (я/ты/она́)			би́ла	bíla		би́ли	bíli				
+beat	neuter (оно́)			би́ло	bílo		би́ли	bíli				
+wind	imperfective aspect			imperfective aspect			imperfective aspect					
+wind	infinitive			ви́ть	vítʹ		ви́ть	vítʹ				
+wind	participles			present tense			past tense					
+wind	active			вью́щий	vʹjúščij		ви́вший	vívšij				
+wind	passive			—			ви́тый	vítyj				
+wind	adverbial			вья́	vʹjá		ви́в,ви́вшиši	vív	vívši			
+wind				present tense			future tense					
+wind	1st singular (я)			вью́	vʹjú		бу́ду ви́ть	búdu vítʹ				
+wind	2nd singular (ты)			вьёшь	vʹjóšʹ		бу́дешь ви́ть	búdešʹ vítʹ				
+wind	3rd singular (он/она́/оно́)			вьёт	vʹjót		бу́дет ви́ть	búdet vítʹ				
+wind	1st plural (мы)			вьём	vʹjóm		бу́дем ви́ть	búdem vítʹ				
+wind	2nd plural (вы)			вьёте	vʹjóte		бу́дете ви́ть	búdete vítʹ				
+wind	3rd plural (они́)			вью́т	vʹjút		бу́дут ви́ть	búdut vítʹ				
+wind	imperative			singular			plural					
+wind				ве́й	véj		ве́йте	véjte				
+wind	past tense			singular			plural(мы/вы/они́)					
+wind	masculine (я/ты/он)			ви́л	víl		ви́ли	víli				
+wind	feminine (я/ты/она́)			вила́	vilá		ви́ли	víli				
+wind	neuter (оно́)			ви́ло	vílo		ви́ли	víli				
+pour	imperfective aspect			imperfective aspect			imperfective aspect					
+pour	infinitive			ли́ть	lítʹ		ли́ть	lítʹ				
+pour	participles			present tense			past tense					
+pour	active			лью́щий	lʹjúščij		ли́вший	lívšij				
+pour	passive			—			ли́тый	lítyj				
+pour	adverbial			лья́	lʹjá		ли́в,ли́вшиši	lív	lívši			
+pour				present tense			future tense					
+pour	1st singular (я)			лью́	lʹjú		бу́ду ли́ть	búdu lítʹ				
+pour	2nd singular (ты)			льёшь	lʹjóšʹ		бу́дешь ли́ть	búdešʹ lítʹ				
+pour	3rd singular (он/она́/оно́)			льёт	lʹjót		бу́дет ли́ть	búdet lítʹ				
+pour	1st plural (мы)			льём	lʹjóm		бу́дем ли́ть	búdem lítʹ				
+pour	2nd plural (вы)			льёте	lʹjóte		бу́дете ли́ть	búdete lítʹ				
+pour	3rd plural (они́)			лью́т	lʹjút		бу́дут ли́ть	búdut lítʹ				
+pour	imperative			singular			plural					
+pour				ле́й	léj		ле́йте	léjte				
+pour	past tense			singular			plural(мы/вы/они́)					
+pour	masculine (я/ты/он)			ли́л	líl		ли́ли	líli				
+pour	feminine (я/ты/она́)			лила́	lilá		ли́ли	líli				
+pour	neuter (оно́)			ли́ло	lílo		ли́ли	líli				
+drink	imperfective aspect			imperfective aspect			imperfective aspect					
+drink	infinitive			пи́ть	pítʹ		пи́ть	pítʹ				
+drink	participles			present tense			past tense					
+drink	active			пью́щий	pʹjúščij		пи́вший	pívšij				
+drink	passive			—			пи́тый	pítyj				
+drink	adverbial			—			пи́в,пи́вшиši	pív	pívši			
+drink				present tense			future tense					
+drink	1st singular (я)			пью́	pʹjú		бу́ду пи́ть	búdu pítʹ				
+drink	2nd singular (ты)			пьёшь	pʹjóšʹ		бу́дешь пи́ть	búdešʹ pítʹ				
+drink	3rd singular (он/она́/оно́)			пьёт	pʹjót		бу́дет пи́ть	búdet pítʹ				
+drink	1st plural (мы)			пьём	pʹjóm		бу́дем пи́ть	búdem pítʹ				
+drink	2nd plural (вы)			пьёте	pʹjóte		бу́дете пи́ть	búdete pítʹ				
+drink	3rd plural (они́)			пью́т	pʹjút		бу́дут пи́ть	búdut pítʹ				
+drink	imperative			singular			plural					
+drink				пе́й	péj		пе́йте	péjte				
+drink	past tense			singular			plural(мы/вы/они́)					
+drink	masculine (я/ты/он)			пи́л	píl		пи́ли	píli				
+drink	feminine (я/ты/она́)			пила́	pilá		пи́ли	píli				
+drink	neuter (оно́)			пи́ло	pílo		пи́ли	píli				
+sew	imperfective aspect			imperfective aspect			imperfective aspect					
+sew	infinitive			ши́ть	šítʹ		ши́ть	šítʹ				
+sew	participles			present tense			past tense					
+sew	active			шью́щий	šʹjúščij		ши́вший	šívšij				
+sew	passive			—			ши́тый	šítyj				
+sew	adverbial			—			ши́в,ши́вшиši	šív	šívši			
+sew				present tense			future tense					
+sew	1st singular (я)			шью́	šʹjú		бу́ду ши́ть	búdu šítʹ				
+sew	2nd singular (ты)			шьёшь	šʹjóšʹ		бу́дешь ши́ть	búdešʹ šítʹ				
+sew	3rd singular (он/она́/оно́)			шьёт	šʹjót		бу́дет ши́ть	búdet šítʹ				
+sew	1st plural (мы)			шьём	šʹjóm		бу́дем ши́ть	búdem šítʹ				
+sew	2nd plural (вы)			шьёте	šʹjóte		бу́дете ши́ть	búdete šítʹ				
+sew	3rd plural (они́)			шью́т	šʹjút		бу́дут ши́ть	búdut šítʹ				
+sew	imperative			singular			plural					
+sew				ше́й	šéj		ше́йте	šéjte				
+sew	past tense			singular			plural(мы/вы/они́)					
+sew	masculine (я/ты/он)			ши́л	šíl		ши́ли	šíli				
+sew	feminine (я/ты/она́)			ши́ла	šíla		ши́ли	šíli				
+sew	neuter (оно́)			ши́ло	šílo		ши́ли	šíli				
+swim	imperfective aspect			imperfective aspect			imperfective aspect					
+swim	infinitive			плы́ть	plýtʹ		плы́ть	plýtʹ				
+swim	participles			present tense			past tense					
+swim	active			плыву́щий	plyvúščij		плы́вший	plývšij				
+swim	passive			—			—					
+swim	adverbial			плывя́	plyvjá		плы́в,плы́вшиši	plýv	plývši			
+swim				present tense			future tense					
+swim	1st singular (я)			плыву́	plyvú		бу́ду плы́ть	búdu plýtʹ				
+swim	2nd singular (ты)			плывёшь	plyvjóšʹ		бу́дешь плы́ть	búdešʹ plýtʹ				
+swim	3rd singular (он/она́/оно́)			плывёт	plyvjót		бу́дет плы́ть	búdet plýtʹ				
+swim	1st plural (мы)			плывём	plyvjóm		бу́дем плы́ть	búdem plýtʹ				
+swim	2nd plural (вы)			плывёте	plyvjóte		бу́дете плы́ть	búdete plýtʹ				
+swim	3rd plural (они́)			плыву́т	plyvút		бу́дут плы́ть	búdut plýtʹ				
+swim	imperative			singular			plural					
+swim				плыви́	plyví		плыви́те	plyvíte				
+swim	past tense			singular			plural(мы/вы/они́)					
+swim	masculine (я/ты/он)			плы́л	plýl		плы́ли	plýli				
+swim	feminine (я/ты/она́)			плыла́	plylá		плы́ли	plýli				
+swim	neuter (оно́)			плы́ло,плыло́	plýlo	plyló	плы́ли	plýli				
+pass-for	imperfective aspect			imperfective aspect			imperfective aspect					
+pass-for	infinitive			слы́ть	slýtʹ		слы́ть	slýtʹ				
+pass-for	participles			present tense			past tense					
+pass-for	active			слыву́щий	slyvúščij		слы́вший	slývšij				
+pass-for	passive			—			—					
+pass-for	adverbial			слывя́	slyvjá		слы́в,слы́вшиši	slýv	slývši			
+pass-for				present tense			future tense					
+pass-for	1st singular (я)			слыву́	slyvú		бу́ду слы́ть	búdu slýtʹ				
+pass-for	2nd singular (ты)			слывёшь	slyvjóšʹ		бу́дешь слы́ть	búdešʹ slýtʹ				
+pass-for	3rd singular (он/она́/оно́)			слывёт	slyvjót		бу́дет слы́ть	búdet slýtʹ				
+pass-for	1st plural (мы)			слывём	slyvjóm		бу́дем слы́ть	búdem slýtʹ				
+pass-for	2nd plural (вы)			слывёте	slyvjóte		бу́дете слы́ть	búdete slýtʹ				
+pass-for	3rd plural (они́)			слыву́т	slyvút		бу́дут слы́ть	búdut slýtʹ				
+pass-for	imperative			singular			plural					
+pass-for				слыви́	slyví		слыви́те	slyvíte				
+pass-for	past tense			singular			plural(мы/вы/они́)					
+pass-for	masculine (я/ты/он)			слы́л	slýl		слы́ли	slýli				
+pass-for	feminine (я/ты/она́)			слыла́	slylá		слы́ли	slýli				
+pass-for	neuter (оно́)			слы́ло,слыло́	slýlo	slyló	слы́ли	slýli				
+speak	imperfective aspect			imperfective aspect			imperfective aspect					
+speak	infinitive			говори́ть	govorítʹ		говори́ть	govorítʹ				
+speak	participles			present tense			past tense					
+speak	active			говоря́щий	govorjáščij		говори́вший	govorívšij				
+speak	passive			говори́мый1	govorímyj1		говорённый	govorjónnyj				
+speak	adverbial			говоря́	govorjá		говори́в,говори́вшиši	govorív	govorívši			
+speak				present tense			future tense					
+speak	1st singular (я)			говорю́	govorjú		бу́ду говори́ть	búdu govorítʹ				
+speak	2nd singular (ты)			говори́шь	govoríšʹ		бу́дешь говори́ть	búdešʹ govorítʹ				
+speak	3rd singular (он/она́/оно́)			говори́т	govorít		бу́дет говори́ть	búdet govorítʹ				
+speak	1st plural (мы)			говори́м	govorím		бу́дем говори́ть	búdem govorítʹ				
+speak	2nd plural (вы)			говори́те	govoríte		бу́дете говори́ть	búdete govorítʹ				
+speak	3rd plural (они́)			говоря́т	govorját		бу́дут говори́ть	búdut govorítʹ				
+speak	imperative			singular			plural					
+speak				говори́	govorí		говори́те	govoríte				
+speak	past tense			singular			plural(мы/вы/они́)					
+speak	masculine (я/ты/он)			говори́л	govoríl		говори́ли	govoríli				
+speak	feminine (я/ты/она́)			говори́ла	govoríla		говори́ли	govoríli				
+speak	neuter (оно́)			говори́ло	govorílo		говори́ли	govoríli				
+love	imperfective aspect			imperfective aspect			imperfective aspect					
+love	infinitive			люби́ть	ljubítʹ		люби́ть	ljubítʹ				
+love	participles			present tense			past tense					
+love	active			лю́бящий	ljúbjaščij		люби́вший	ljubívšij				
+love	passive			люби́мый	ljubímyj		лю́бленный	ljúblennyj				
+love	adverbial			любя́	ljubjá		люби́в,люби́вшиši	ljubív	ljubívši			
+love				present tense			future tense					
+love	1st singular (я)			люблю́	ljubljú		бу́ду люби́ть	búdu ljubítʹ				
+love	2nd singular (ты)			лю́бишь	ljúbišʹ		бу́дешь люби́ть	búdešʹ ljubítʹ				
+love	3rd singular (он/она́/оно́)			лю́бит	ljúbit		бу́дет люби́ть	búdet ljubítʹ				
+love	1st plural (мы)			лю́бим	ljúbim		бу́дем люби́ть	búdem ljubítʹ				
+love	2nd plural (вы)			лю́бите	ljúbite		бу́дете люби́ть	búdete ljubítʹ				
+love	3rd plural (они́)			лю́бят	ljúbjat		бу́дут люби́ть	búdut ljubítʹ				
+love	imperative			singular			plural					
+love				люби́	ljubí		люби́те	ljubíte				
+love	past tense			singular			plural(мы/вы/они́)					
+love	masculine (я/ты/он)			люби́л	ljubíl		люби́ли	ljubíli				
+love	feminine (я/ты/она́)			люби́ла	ljubíla		люби́ли	ljubíli				
+love	neuter (оно́)			люби́ло	ljubílo		люби́ли	ljubíli				
+catch	imperfective aspect			imperfective aspect			imperfective aspect					
+catch	infinitive			лови́ть	lovítʹ		лови́ть	lovítʹ				
+catch	participles			present tense			past tense					
+catch	active			ловя́щий	lovjáščij		лови́вший	lovívšij				
+catch	passive			лови́мый	lovímyj		ло́вленный	lóvlennyj				
+catch	adverbial			ловя́	lovjá		лови́в,лови́вшиši	lovív	lovívši			
+catch				present tense			future tense					
+catch	1st singular (я)			ловлю́	lovljú		бу́ду лови́ть	búdu lovítʹ				
+catch	2nd singular (ты)			ло́вишь	lóvišʹ		бу́дешь лови́ть	búdešʹ lovítʹ				
+catch	3rd singular (он/она́/оно́)			ло́вит	lóvit		бу́дет лови́ть	búdet lovítʹ				
+catch	1st plural (мы)			ло́вим	lóvim		бу́дем лови́ть	búdem lovítʹ				
+catch	2nd plural (вы)			ло́вите	lóvite		бу́дете лови́ть	búdete lovítʹ				
+catch	3rd plural (они́)			ло́вят	lóvjat		бу́дут лови́ть	búdut lovítʹ				
+catch	imperative			singular			plural					
+catch				лови́	loví		лови́те	lovíte				
+catch	past tense			singular			plural(мы/вы/они́)					
+catch	masculine (я/ты/он)			лови́л	lovíl		лови́ли	lovíli				
+catch	feminine (я/ты/она́)			лови́ла	lovíla		лови́ли	lovíli				
+catch	neuter (оно́)			лови́ло	lovílo		лови́ли	lovíli				
+sink	imperfective aspect			imperfective aspect			imperfective aspect					
+sink	infinitive			топи́ть	topítʹ		топи́ть	topítʹ				
+sink	participles			present tense			past tense					
+sink	active			топя́щий	topjáščij		топи́вший	topívšij				
+sink	passive			топи́мый1	topímyj1		то́пленный	tóplennyj				
+sink	adverbial			топя́	topjá		топи́в,топи́вшиši	topív	topívši			
+sink				present tense			future tense					
+sink	1st singular (я)			топлю́	topljú		бу́ду топи́ть	búdu topítʹ				
+sink	2nd singular (ты)			то́пишь	tópišʹ		бу́дешь топи́ть	búdešʹ topítʹ				
+sink	3rd singular (он/она́/оно́)			то́пит	tópit		бу́дет топи́ть	búdet topítʹ				
+sink	1st plural (мы)			то́пим	tópim		бу́дем топи́ть	búdem topítʹ				
+sink	2nd plural (вы)			то́пите	tópite		бу́дете топи́ть	búdete topítʹ				
+sink	3rd plural (они́)			то́пят	tópjat		бу́дут топи́ть	búdut topítʹ				
+sink	imperative			singular			plural					
+sink				топи́	topí		топи́те	topíte				
+sink	past tense			singular			plural(мы/вы/они́)					
+sink	masculine (я/ты/он)			топи́л	topíl		топи́ли	topíli				
+sink	feminine (я/ты/она́)			топи́ла	topíla		топи́ли	topíli				
+sink	neuter (оно́)			топи́ло	topílo		топи́ли	topíli				
+sink	imperfective aspect			imperfective aspect			imperfective aspect					
+sink	infinitive			топи́ть	topítʹ		топи́ть	topítʹ				
+sink	participles			present tense			past tense					
+sink	active			топя́щий	topjáščij		топи́вший	topívšij				
+sink	passive			топи́мый1	topímyj1		то́пленный	tóplennyj				
+sink	adverbial			топя́	topjá		топи́в,топи́вшиši	topív	topívši			
+sink				present tense			future tense					
+sink	1st singular (я)			топлю́	topljú		бу́ду топи́ть	búdu topítʹ				
+sink	2nd singular (ты)			то́пишь	tópišʹ		бу́дешь топи́ть	búdešʹ topítʹ				
+sink	3rd singular (он/она́/оно́)			то́пит	tópit		бу́дет топи́ть	búdet topítʹ				
+sink	1st plural (мы)			то́пим	tópim		бу́дем топи́ть	búdem topítʹ				
+sink	2nd plural (вы)			то́пите	tópite		бу́дете топи́ть	búdete topítʹ				
+sink	3rd plural (они́)			то́пят	tópjat		бу́дут топи́ть	búdut topítʹ				
+sink	imperative			singular			plural					
+sink				топи́	topí		топи́те	topíte				
+sink	past tense			singular			plural(мы/вы/они́)					
+sink	masculine (я/ты/он)			топи́л	topíl		топи́ли	topíli				
+sink	feminine (я/ты/она́)			топи́ла	topíla		топи́ли	topíli				
+sink	neuter (оно́)			топи́ло	topílo		топи́ли	topíli				
+sink	imperfective aspect			imperfective aspect			imperfective aspect					
+sink	infinitive			топи́ть	topítʹ		топи́ть	topítʹ				
+sink	participles			present tense			past tense					
+sink	active			топя́щий	topjáščij		топи́вший	topívšij				
+sink	passive			топи́мый1	topímyj1		то́пленный	tóplennyj				
+sink	adverbial			топя́	topjá		топи́в,топи́вшиši	topív	topívši			
+sink				present tense			future tense					
+sink	1st singular (я)			топлю́	topljú		бу́ду топи́ть	búdu topítʹ				
+sink	2nd singular (ты)			то́пишь	tópišʹ		бу́дешь топи́ть	búdešʹ topítʹ				
+sink	3rd singular (он/она́/оно́)			то́пит	tópit		бу́дет топи́ть	búdet topítʹ				
+sink	1st plural (мы)			то́пим	tópim		бу́дем топи́ть	búdem topítʹ				
+sink	2nd plural (вы)			то́пите	tópite		бу́дете топи́ть	búdete topítʹ				
+sink	3rd plural (они́)			то́пят	tópjat		бу́дут топи́ть	búdut topítʹ				
+sink	imperative			singular			plural					
+sink				топи́	topí		топи́те	topíte				
+sink	past tense			singular			plural(мы/вы/они́)					
+sink	masculine (я/ты/он)			топи́л	topíl		топи́ли	topíli				
+sink	feminine (я/ты/она́)			топи́ла	topíla		топи́ли	topíli				
+sink	neuter (оно́)			топи́ло	topílo		топи́ли	topíli				
+feed	imperfective aspect			imperfective aspect			imperfective aspect					
+feed	infinitive			корми́ть	kormítʹ		корми́ть	kormítʹ				
+feed	participles			present tense			past tense					
+feed	active			кормя́щий	kormjáščij		корми́вший	kormívšij				
+feed	passive			корми́мый1	kormímyj1		ко́рмленный	kórmlennyj				
+feed	adverbial			кормя́	kormjá		корми́в,корми́вшиši	kormív	kormívši			
+feed				present tense			future tense					
+feed	1st singular (я)			кормлю́	kormljú		бу́ду корми́ть	búdu kormítʹ				
+feed	2nd singular (ты)			ко́рмишь	kórmišʹ		бу́дешь корми́ть	búdešʹ kormítʹ				
+feed	3rd singular (он/она́/оно́)			ко́рмит	kórmit		бу́дет корми́ть	búdet kormítʹ				
+feed	1st plural (мы)			ко́рмим	kórmim		бу́дем корми́ть	búdem kormítʹ				
+feed	2nd plural (вы)			ко́рмите	kórmite		бу́дете корми́ть	búdete kormítʹ				
+feed	3rd plural (они́)			ко́рмят	kórmjat		бу́дут корми́ть	búdut kormítʹ				
+feed	imperative			singular			plural					
+feed				корми́	kormí		корми́те	kormíte				
+feed	past tense			singular			plural(мы/вы/они́)					
+feed	masculine (я/ты/он)			корми́л	kormíl		корми́ли	kormíli				
+feed	feminine (я/ты/она́)			корми́ла	kormíla		корми́ли	kormíli				
+feed	neuter (оно́)			корми́ло	kormílo		корми́ли	kormíli				
+ask	imperfective aspect			imperfective aspect			imperfective aspect					
+ask	infinitive			проси́ть	prosítʹ		проси́ть	prosítʹ				
+ask	participles			present tense			past tense					
+ask	active			прося́щий	prosjáščij		проси́вший	prosívšij				
+ask	passive			проси́мый	prosímyj		про́шенный	próšennyj				
+ask	adverbial			прося́	prosjá		проси́в,проси́вшиši	prosív	prosívši			
+ask				present tense			future tense					
+ask	1st singular (я)			прошу́	prošú		бу́ду проси́ть	búdu prosítʹ				
+ask	2nd singular (ты)			про́сишь	prósišʹ		бу́дешь проси́ть	búdešʹ prosítʹ				
+ask	3rd singular (он/она́/оно́)			про́сит	prósit		бу́дет проси́ть	búdet prosítʹ				
+ask	1st plural (мы)			про́сим	prósim		бу́дем проси́ть	búdem prosítʹ				
+ask	2nd plural (вы)			про́сите	prósite		бу́дете проси́ть	búdete prosítʹ				
+ask	3rd plural (они́)			про́сят	prósjat		бу́дут проси́ть	búdut prosítʹ				
+ask	imperative			singular			plural					
+ask				проси́	prosí		проси́те	prosíte				
+ask	past tense			singular			plural(мы/вы/они́)					
+ask	masculine (я/ты/он)			проси́л	prosíl		проси́ли	prosíli				
+ask	feminine (я/ты/она́)			проси́ла	prosíla		проси́ли	prosíli				
+ask	neuter (оно́)			проси́ло	prosílo		проси́ли	prosíli				
+pay	imperfective aspect			imperfective aspect			imperfective aspect					
+pay	infinitive			пла́кать	plákatʹ		пла́кать	plákatʹ				
+pay	participles			present tense			past tense					
+pay	active			пла́чущий	pláčuščij		пла́кавший	plákavšij				
+pay	passive			—			—					
+pay	adverbial			пла́ча	pláča		пла́кав,пла́кавшиši	plákav	plákavši			
+pay				present tense			future tense					
+pay	1st singular (я)			пла́чу	pláču		бу́ду пла́кать	búdu plákatʹ				
+pay	2nd singular (ты)			пла́чешь	pláčešʹ		бу́дешь пла́кать	búdešʹ plákatʹ				
+pay	3rd singular (он/она́/оно́)			пла́чет	pláčet		бу́дет пла́кать	búdet plákatʹ				
+pay	1st plural (мы)			пла́чем	pláčem		бу́дем пла́кать	búdem plákatʹ				
+pay	2nd plural (вы)			пла́чете	pláčete		бу́дете пла́кать	búdete plákatʹ				
+pay	3rd plural (они́)			пла́чут	pláčut		бу́дут пла́кать	búdut plákatʹ				
+pay	imperative			singular			plural					
+pay				пла́чь	pláčʹ		пла́чьте	pláčʹte				
+pay	past tense			singular			plural(мы/вы/они́)					
+pay	masculine (я/ты/он)			пла́кал	plákal		пла́кали	plákali				
+pay	feminine (я/ты/она́)			пла́кала	plákala		пла́кали	plákali				
+pay	neuter (оно́)			пла́кало	plákalo		пла́кали	plákali				
+forgive	imperfective aspect			imperfective aspect			imperfective aspect					
+forgive	infinitive			ходи́ть	xodítʹ		ходи́ть	xodítʹ				
+forgive	participles			present tense			past tense					
+forgive	active			ходя́щий	xodjáščij		ходи́вший	xodívšij				
+forgive	passive			—			—					
+forgive	adverbial			ходя́	xodjá		ходи́в,ходи́вшиši	xodív	xodívši			
+forgive				present tense			future tense					
+forgive	1st singular (я)			хожу́	xožú		бу́ду ходи́ть	búdu xodítʹ				
+forgive	2nd singular (ты)			хо́дишь	xódišʹ		бу́дешь ходи́ть	búdešʹ xodítʹ				
+forgive	3rd singular (он/она́/оно́)			хо́дит	xódit		бу́дет ходи́ть	búdet xodítʹ				
+forgive	1st plural (мы)			хо́дим	xódim		бу́дем ходи́ть	búdem xodítʹ				
+forgive	2nd plural (вы)			хо́дите	xódite		бу́дете ходи́ть	búdete xodítʹ				
+forgive	3rd plural (они́)			хо́дят	xódjat		бу́дут ходи́ть	búdut xodítʹ				
+forgive	imperative			singular			plural					
+forgive				ходи́	xodí		ходи́те	xodíte				
+forgive	past tense			singular			plural(мы/вы/они́)					
+forgive	masculine (я/ты/он)			ходи́л	xodíl		ходи́ли	xodíli				
+forgive	feminine (я/ты/она́)			ходи́ла	xodíla		ходи́ли	xodíli				
+forgive	neuter (оно́)			ходи́ло	xodílo		ходи́ли	xodíli				

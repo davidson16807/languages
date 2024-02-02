@@ -22,7 +22,7 @@
 	subject	burn	passive	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	fire-dummy	#		name	spoken	collision, sound, music
 	subject	call	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#		rock	carried by men, hit or thrown in good taste	placement
 	subject	call	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		rope	can be deformed	state change
-	subject	call	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		shirt	cleaned, changed, worn, chosen, preferred	deformation
+	subject	call	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		clothing	cleaned, changed, worn, chosen, preferred	deformation
 	subject	capture	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	enemy-dummy	#		strong	something you can be momentarily	
 	subject	capture	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#		warmth	passes through most objects, without or without interiors	
 	subject	capture	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#		water	drunk, swum in, cools most objects	domestication
@@ -32,7 +32,7 @@
 	subject	catch	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	enemy-dummy	#	door	window	closed, opened, and broken in good taste	speech
 	subject	catch	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#				
 	subject	catch	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#				
-	subject	choose 	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	shirt-dummy	#				
+	subject	choose 	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	clothing-dummy	#				
 	subject	choose 	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#				
 	subject	choose 	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#				
 	subject	climb	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#				
@@ -135,9 +135,9 @@
 #	subject	set-down	middle	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	wind-dummy	#				
 #	subject	set-down	passive	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	wind-dummy	#				
 	subject	set-down	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#				
-	subject	sew	active	transitive	associated-dummy	patient-dummy	adverbial-dummy	definite-dummy	shirt-dummy	#				
-#	subject	sew	middle	intransitive	associated-dummy	patient-dummy	adverbial-dummy	definite-dummy	shirt-dummy	#				
-#	subject	sew	passive	intransitive	associated-dummy	patient-dummy	adverbial-dummy	definite-dummy	shirt-dummy	#				
+	subject	sew	active	transitive	associated-dummy	patient-dummy	adverbial-dummy	definite-dummy	clothing-dummy	#				
+#	subject	sew	middle	intransitive	associated-dummy	patient-dummy	adverbial-dummy	definite-dummy	clothing-dummy	#				
+#	subject	sew	passive	intransitive	associated-dummy	patient-dummy	adverbial-dummy	definite-dummy	clothing-dummy	#				
 	subject	share	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	food-dummy	#				
 	subject	sink	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	boat-dummy	#				
 	subject	sink	middle	intransitive	associated-dummy	resemblance-dummy	adverbial-dummy	definite-dummy	boat-dummy	#				
@@ -174,7 +174,7 @@
 	subject	want-to-see	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	house-dummy	#				
 	subject	want-to-see	middle	intransitive	associated-dummy	agent-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
 	subject	want-to-see	passive	intransitive	associated-dummy	agent-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
-	subject	wash	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	shirt-dummy	#				
+	subject	wash	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	clothing-dummy	#				
 	subject	wash	middle	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	water-dummy	#				
 	subject	wash	passive	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	water-dummy	#				
 	subject	wind	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	rope-dummy	#				
@@ -254,7 +254,7 @@
 	subject	warm	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	fire-dummy	#				
 	subject	warm	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	fire-dummy	#				
 	subject	fall	active	transitive	associated-dummy	agent-dummy	direct-object-dummy	definite-dummy	man-dummy	#				
-	subject	change	active	transitive	associated-dummy	agent-dummy	direct-object-dummy	definite-dummy	shirt-dummy	#				
+	subject	change	active	transitive	associated-dummy	agent-dummy	direct-object-dummy	definite-dummy	clothing-dummy	#				
 	subject	change	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	adefinite-dummy	love-dummy	#				
 	subject	change	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	adefinite-dummy	love-dummy	#				
 	subject	occupy	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#				

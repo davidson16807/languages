@@ -206,7 +206,7 @@ class RuleFormatting:
                 format_note_section(lookup, 'aspect progress'.split()),
                 format_note_section(lookup, 'verb verb-form completion strength voice tense'.split()),
                 format_note_section(lookup, 'case subjectivity valency motion role'.split()),
-                format_note_section(lookup, 'noun noun-form definiteness person number gender clusivity formality clitic partitivity'.split()),
+                format_note_section(lookup, 'noun noun-form definiteness person number gender animacy clusivity formality clitic partitivity'.split()),
                 format_note_section(lookup, 'language-type script'.split()),
                 format_note_section(lookup, 'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality'.split()),
             ])

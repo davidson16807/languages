@@ -1,305 +1,365 @@
-*	*	*	singular	singular	plural	plural
-*	*	*	cyrillic	latin	cyrillic	latin
-animal	nominative		живо́тное	živótnoje	живо́тные	živótnyje
-animal	genitive		живо́тного	živótnovo	живо́тных	živótnyx
-animal	dative		живо́тному	živótnomu	живо́тным	živótnym
-animal	accusative		живо́тное	živótnoje	живо́тных	živótnyx
-animal	instrumental		живо́тным	živótnym	живо́тными	živótnymi
-animal	prepositional		живо́тном	živótnom	живо́тных	živótnyx
-attention	nominative		внима́ние	vnimánije	внима́ния	vnimánija
-attention	genitive		внима́ния	vnimánija	внима́ний	vnimánij
-attention	dative		внима́нию	vnimániju	внима́ниям	vnimánijam
-attention	accusative		внима́ние	vnimánije	внима́ния	vnimánija
-attention	instrumental		внима́нием	vnimánijem	внима́ниями	vnimánijami
-attention	prepositional		внима́нии	vnimánii	внима́ниях	vnimánijax
-bird	nominative		пти́ца	ptíca	пти́цы	ptícy
-bird	genitive		пти́цы	ptícy	пти́ц	ptíc
-bird	dative		пти́це	ptíce	пти́цам	ptícam
-bird	accusative		пти́цу	ptícu	пти́ц	ptíc
-bird	instrumental		пти́цей, пти́цею, u	ptícej, ptíceju	пти́цами	ptícami
-bird	prepositional		пти́це	ptíce	пти́цах	ptícax
-boat	nominative		ло́дка	lódka	ло́дки	lódki
-boat	genitive		ло́дки	lódki	ло́док	lódok
-boat	dative		ло́дке	lódke	ло́дкам	lódkam
-boat	accusative		ло́дку	lódku	ло́дки	lódki
-boat	instrumental		ло́дкой, ло́дкою, u	lódkoj, lódkoju	ло́дками	lódkami
-boat	prepositional		ло́дке	lódke	ло́дках	lódkax
-brother	nominative		бра́т	brát	бра́тья*	brátʹja*
-brother	genitive		бра́та	bráta	бра́тьев*	brátʹjev*
-brother	dative		бра́ту	brátu	бра́тьям*	brátʹjam*
-brother	accusative		бра́та	bráta	бра́тьев*	brátʹjev*
-brother	instrumental		бра́том	brátom	бра́тьями*	brátʹjami*
-brother	prepositional		бра́те	bráte	бра́тьях*	brátʹjax*
-brother	vocative		бра́те	bráte		
-bug	nominative		бука́шка	bukáška	бука́шки	bukáški
-bug	genitive		бука́шки	bukáški	бука́шек	bukášek
-bug	dative		бука́шке	bukáške	бука́шкам	bukáškam
-bug	accusative		бука́шку	bukášku	бука́шек	bukášek
-bug	instrumental		бука́шкой, бука́шкою, u	bukáškoj, bukáškoju	бука́шками	bukáškami
-bug	prepositional		бука́шке	bukáške	бука́шках	bukáškax
-clothing	nominative		оде́жда	odéžda	оде́жды	odéždy
-clothing	genitive		оде́жды	odéždy	оде́жд	odéžd
-clothing	dative		оде́жде	odéžde	оде́ждам	odéždam
-clothing	accusative		оде́жду	odéždu	оде́жды	odéždy
-clothing	instrumental		оде́ждой, оде́ждою, u	odéždoj, odéždoju	оде́ждами	odéždami
-clothing	prepositional		оде́жде	odéžde	оде́ждах	odéždax
-daughter	nominative		до́чь	dóčʹ	до́чери	dóčeri
-daughter	genitive		до́чери	dóčeri	дочере́й	dočeréj
-daughter	dative		до́чери	dóčeri	дочеря́м	dočerjám
-daughter	accusative		до́чь	dóčʹ	дочере́й	dočeréj
-daughter	instrumental		до́черью	dóčerʹju	дочерьми́, дочеря́ми, 	dočerʹmí, dočerjámi
-daughter	prepositional		до́чери	dóčeri	дочеря́х	dočerjáx
-daughter	vocative		до́ча*	dóča*		
-dog	nominative		соба́ка	sobáka	соба́ки	sobáki
-dog	genitive		соба́ки	sobáki	соба́к	sobák
-dog	dative		соба́ке	sobáke	соба́кам	sobákam
-dog	accusative		соба́ку	sobáku	соба́к	sobák
-dog	instrumental		соба́кой, соба́кою, u	sobákoj, sobákoju	соба́ками	sobákami
-dog	prepositional		соба́ке	sobáke	соба́ках	sobákax
-door	nominative		две́рь	dvérʹ	две́ри	dvéri
-door	genitive		две́ри	dvéri	двере́й	dveréj
-door	dative		две́ри	dvéri	дверя́м	dverjám
-door	accusative		две́рь	dvérʹ	две́ри	dvéri
-door	instrumental		две́рью	dvérʹju	дверя́ми, дверьми́, 	dverjámi, dverʹmí
-door	prepositional		две́ри	dvéri	дверя́х	dverjáx
-door	locative		двери́	dverí		
-drum	nominative		бараба́н	barabán	бараба́ны	barabány
-drum	genitive		бараба́на	barabána	бараба́нов	barabánov
-drum	dative		бараба́ну	barabánu	бараба́нам	barabánam
-drum	accusative		бараба́н	barabán	бараба́ны	barabány
-drum	instrumental		бараба́ном	barabánom	бараба́нами	barabánami
-drum	prepositional		бараба́не	barabáne	бараба́нах	barabánax
-enemy	nominative		вра́г	vrág	враги́	vragí
-enemy	genitive		врага́	vragá	враго́в	vragóv
-enemy	dative		врагу́	vragú	врага́м	vragám
-enemy	accusative		врага́	vragá	враго́в	vragóv
-enemy	instrumental		враго́м	vragóm	врага́ми	vragámi
-enemy	prepositional		враге́	vragé	врага́х	vragáx
-fire	nominative		ого́нь	ogónʹ	огни́	ogní
-fire	genitive		огня́	ognjá	огне́й	ognéj
-fire	dative		огню́	ognjú	огня́м	ognjám
-fire	accusative		ого́нь	ogónʹ	огни́	ogní
-fire	instrumental		огнём	ognjóm	огня́ми	ognjámi
-fire	prepositional		огне́	ogné	огня́х	ognjáx
-food	nominative		еда́	jedá		
-food	genitive		еды́	jedý		
-food	dative		еде́	jedé		
-food	accusative		еду́	jedú		
-food	instrumental		едо́й, едо́ю, u	jedój, jedóju		
-food	prepositional		еде́	jedé		
-gift	nominative		пода́рок	podárok	пода́рки	podárki
-gift	genitive		пода́рка	podárka	пода́рков	podárkov
-gift	dative		пода́рку	podárku	пода́ркам	podárkam
-gift	accusative		пода́рок	podárok	пода́рки	podárki
-gift	instrumental		пода́рком	podárkom	пода́рками	podárkami
-gift	prepositional		пода́рке	podárke	пода́рках	podárkax
-glass	nominative		стекло́	stekló	стёкла	stjókla
-glass	genitive		стекла́	steklá	стёкол	stjókol
-glass	dative		стеклу́	steklú	стёклам	stjóklam
-glass	accusative		стекло́	stekló	стёкла	stjókla
-glass	instrumental		стекло́м	steklóm	стёклами	stjóklami
-glass	prepositional		стекле́	steklé	стёклах	stjóklax
-guard	nominative		стра́жник	strážnik	стра́жники	strážniki
-guard	genitive		стра́жника	strážnika	стра́жников	strážnikov
-guard	dative		стра́жнику	strážniku	стра́жникам	strážnikam
-guard	accusative		стра́жника	strážnika	стра́жников	strážnikov
-guard	instrumental		стра́жником	strážnikom	стра́жниками	strážnikami
-guard	prepositional		стра́жнике	strážnike	стра́жниках	strážnikax
-horse	nominative		ло́шадь	lóšadʹ	ло́шади	lóšadi
-horse	genitive		ло́шади	lóšadi	лошаде́й	lošadéj
-horse	dative		ло́шади	lóšadi	лошадя́м	lošadjám
-horse	accusative		ло́шадь	lóšadʹ	лошаде́й	lošadéj
-horse	instrumental		ло́шадью	lóšadʹju	лошадьми́, лошадя́ми, 	lošadʹmí, lošadjámi
-horse	prepositional		ло́шади	lóšadi	лошадя́х	lošadjáx
-house	nominative		до́м	dóm	дома́	domá
-house	genitive		до́ма	dóma	домо́в	domóv
-house	dative		до́му	dómu	дома́м	domám
-house	accusative		до́м	dóm	дома́	domá
-house	instrumental		до́мом	dómom	дома́ми	domámi
-house	prepositional		до́ме	dóme	дома́х	domáx
-house	partitive		до́му	dómu		
-house	locative		дому́	domú		
-livestock	nominative		ско́т	skót		
-livestock	genitive		скота́	skotá		
-livestock	dative		скоту́	skotú		
-livestock	accusative		ско́т	skót		
-livestock	instrumental		ското́м	skotóm		
-livestock	prepositional		скоте́	skoté		
-livestock	nominative		ско́т	skót	скоты́	skotý
-livestock	genitive		скота́	skotá	ското́в	skotóv
-livestock	dative		скоту́	skotú	скота́м	skotám
-livestock	accusative		скота́	skotá	ското́в	skotóv
-livestock	instrumental		ското́м	skotóm	скота́ми	skotámi
-livestock	prepositional		скоте́	skoté	скота́х	skotáx
-love	nominative		любо́вь	ljubóvʹ	любви́	ljubví
-love	genitive		любви́	ljubví	любве́й	ljubvéj
-love	dative		любви́	ljubví	любвя́м	ljubvjám
-love	accusative		любо́вь	ljubóvʹ	любви́	ljubví
-love	instrumental		любо́вью	ljubóvʹju	любвя́ми	ljubvjámi
-love	prepositional		любви́	ljubví	любвя́х	ljubvjáx
-idea	nominative		иде́я	idéja	иде́и	idéi
-idea	genitive		иде́и	idéi	иде́й	idéj
-idea	dative		иде́е	idéje	иде́ям	idéjam
-idea	accusative		иде́ю	idéju	иде́и	idéi
-idea	instrumental		иде́ей, иде́ею, u	idéjej, idéjeju	иде́ями	idéjami
-idea	prepositional		иде́е	idéje	иде́ях	idéjax
-man	nominative		мужчи́на	mužčína	мужчи́ны	mužčíny
-man	genitive		мужчи́ны	mužčíny	мужчи́н	mužčín
-man	dative		мужчи́не	mužčíne	мужчи́нам	mužčínam
-man	accusative		мужчи́ну	mužčínu	мужчи́н	mužčín
-man	instrumental		мужчи́ной, мужчи́ною, u	mužčínoj, mužčínoju	мужчи́нами	mužčínami
-man	prepositional		мужчи́не	mužčíne	мужчи́нах	mužčínax
-money	nominative				де́ньги	dénʹgi
-money	genitive				де́нег	déneg
-money	dative				деньга́м	denʹgám
-money	accusative				де́ньги	dénʹgi
-money	instrumental				деньга́ми	denʹgámi
-money	prepositional				деньга́х	denʹgáx
-monster	nominative		чудо́вище	čudóvišče	чудо́вища	čudóvišča
-monster	genitive		чудо́вища	čudóvišča	чудо́вищ	čudóvišč
-monster	dative		чудо́вищу	čudóvišču	чудо́вищам	čudóviščam
-monster	accusative		чудо́вище	čudóvišče	чудо́вищ	čudóvišč
-monster	instrumental		чудо́вищем	čudóviščem	чудо́вищами	čudóviščami
-monster	prepositional		чудо́вище	čudóvišče	чудо́вищах	čudóviščax
-name	nominative		и́мя	ímja	имена́	imená
-name	genitive		и́мени	ímeni	имён	imjón
-name	dative		и́мени	ímeni	имена́м	imenám
-name	accusative		и́мя	ímja	имена́	imená
-name	instrumental		и́менем	ímenem	имена́ми	imenámi
-name	prepositional		и́мени	ímeni	имена́х	imenáx
-rock	nominative		ка́мень	kámenʹ	ка́мни	kámni
-rock	genitive		ка́мня	kámnja	камне́й	kamnéj
-rock	dative		ка́мню	kámnju	камня́м	kamnjám
-rock	accusative		ка́мень	kámenʹ	ка́мни	kámni
-rock	instrumental		ка́мнем	kámnem	камня́ми	kamnjámi
-rock	prepositional		ка́мне	kámne	камня́х	kamnjáx
-rope	nominative		кана́т	kanát	кана́ты	kanáty
-rope	genitive		кана́та	kanáta	кана́тов	kanátov
-rope	dative		кана́ту	kanátu	кана́там	kanátam
-rope	accusative		кана́т	kanát	кана́ты	kanáty
-rope	instrumental		кана́том	kanátom	кана́тами	kanátami
-rope	prepositional		кана́те	kanáte	кана́тах	kanátax
-size	nominative		величина́	veličiná	величи́ны	veličíny
-size	genitive		величины́	veličiný	величи́н	veličín
-size	dative		величине́	veličiné	величи́нам	veličínam
-size	accusative		величину́	veličinú	величи́ны	veličíny
-size	instrumental		величино́й, величино́ю	veličinój, veličinóju	величи́нами	veličínami
-size	prepositional		величине́	veličiné	величи́нах	veličínax
-son	nominative		сы́н	sýn	сыновья́	synovʹjá
-son	genitive		сы́на	sýna	сынове́й	synovéj
-son	dative		сы́ну	sýnu	сыновья́м	synovʹjám
-son	accusative		сы́на	sýna	сынове́й	synovéj
-son	instrumental		сы́ном	sýnom	сыновья́ми	synovʹjámi
-son	prepositional		сы́не	sýne	сыновья́х	synovʹjáx
-son	vocative		сы́не	sýne		
-sound	nominative		зву́к	zvúk	зву́ки	zvúki
-sound	genitive		зву́ка	zvúka	зву́ков	zvúkov
-sound	dative		зву́ку	zvúku	зву́кам	zvúkam
-sound	accusative		зву́к	zvúk	зву́ки	zvúki
-sound	instrumental		зву́ком	zvúkom	зву́ками	zvúkami
-sound	prepositional		зву́ке	zvúke	зву́ках	zvúkax
-warmth	nominative		тепло́	tepló		
-warmth	genitive		тепла́	teplá		
-warmth	dative		теплу́	teplú		
-warmth	accusative		тепло́	tepló		
-warmth	instrumental		тепло́м	teplóm		
-warmth	prepositional		тепле́	teplé		
-water	nominative		вода́	vodá	во́ды	vódy
-water	genitive		воды́	vodý	во́д	vód
-water	dative		воде́	vodé	во́дам	vódam
-water	accusative		во́ду	vódu	во́ды	vódy
-water	instrumental		водо́й, водо́ю, u	vodój, vodóju	во́дами	vódami
-water	prepositional		воде́	vodé	во́дах	vódax
-way	nominative		пу́ть	pútʹ	пути́	putí
-way	genitive		пути́	putí	путе́й	putéj
-way	dative		пути́	putí	путя́м	putjám
-way	accusative		пу́ть	pútʹ	пути́	putí
-way	instrumental		путём	putjóm	путя́ми	putjámi
-way	prepositional		пути́	putí	путя́х	putjáx
-wind	nominative		ве́тер	véter	ве́тры	vétry
-wind	genitive		ве́тра	vétra	ветро́в, ве́тров, 	vetróv, vétrov
-wind	dative		ве́тру	vétru	ветра́м, ве́трам, 	vetrám, vétram
-wind	accusative		ве́тер	véter	ве́тры	vétry
-wind	instrumental		ве́тром	vétrom	ветра́ми, ве́трами, 	vetrámi, vétrami
-wind	prepositional		ве́тре	vétre	ветра́х, ве́трах, 	vetráx, vétrax
-wind	partitive		ве́тру	vétru		
-wind	locative		на ветру́	na vetrú		
-window	nominative		окно́	oknó	о́кна	ókna
-window	genitive		окна́	okná	о́кон	ókon
-window	dative		окну́	oknú	о́кнам	óknam
-window	accusative		окно́	oknó	о́кна	ókna
-window	instrumental		окно́м	oknóm	о́кнами	óknami
-window	prepositional		окне́	okné	о́кнах	óknax
-woman	nominative		же́нщина	žénščina	же́нщины	žénščiny
-woman	genitive		же́нщины	žénščiny	же́нщин	žénščin
-woman	dative		же́нщине	žénščine	же́нщинам	žénščinam
-woman	accusative		же́нщину	žénščinu	же́нщин	žénščin
-woman	instrumental		же́нщиной, же́нщиною, u	žénščinoj, žénščinoju	же́нщинами	žénščinami
-woman	prepositional		же́нщине	žénščine	же́нщинах	žénščinax
-work	nominative		рабо́та	rabóta	рабо́ты	rabóty
-work	genitive		рабо́ты	rabóty	рабо́т	rabót
-work	dative		рабо́те	rabóte	рабо́там	rabótam
-work	accusative		рабо́ту	rabótu	рабо́ты	rabóty
-work	instrumental		рабо́той, рабо́тою, u	rabótoj, rabótoju	рабо́тами	rabótami
-work	prepositional		рабо́те	rabóte	рабо́тах	rabótax
-job	nominative		рабо́та	rabóta	рабо́ты	rabóty
-job	genitive		рабо́ты	rabóty	рабо́т	rabót
-job	dative		рабо́те	rabóte	рабо́там	rabótam
-job	accusative		рабо́ту	rabótu	рабо́ты	rabóty
-job	instrumental		рабо́той, рабо́тою, u	rabótoj, rabótoju	рабо́тами	rabótami
-job	prepositional		рабо́те	rabóte	рабо́тах	rabótax
-bathhouse	nominative		ба́ня	bánja	ба́ни	báni
-bathhouse	genitive		ба́ни	báni	ба́нь	bánʹ
-bathhouse	dative		ба́не	báne	ба́ням	bánjam
-bathhouse	accusative		ба́ню	bánju	ба́ни	báni
-bathhouse	instrumental		ба́ней, ба́нею, u	bánej, báneju	ба́нями	bánjami
-bathhouse	prepositional		ба́не	báne	ба́нях	bánjax
-line	nominative		ли́ния	línija	ли́нии	línii
-line	genitive		ли́нии	línii	ли́ний	línij
-line	dative		ли́нии	línii	ли́ниям	línijam
-line	accusative		ли́нию	líniju	ли́нии	línii
-line	instrumental		ли́нией, ли́ниею, u	línijej, línijeju	ли́ниями	línijami
-line	prepositional		ли́нии	línii	ли́ниях	línijax
-movie	nominative		фи́льм	fílʹm	фи́льмы	fílʹmy
-movie	genitive		фи́льма	fílʹma	фи́льмов	fílʹmov
-movie	dative		фи́льму	fílʹmu	фи́льмам	fílʹmam
-movie	accusative		фи́льм	fílʹm	фи́льмы	fílʹmy
-movie	instrumental		фи́льмом	fílʹmom	фи́льмами	fílʹmami
-movie	prepositional		фи́льме	fílʹme	фи́льмах	fílʹmax
-writer	nominative		писа́тель	pisátelʹ	писа́тели	pisáteli
-writer	genitive		писа́теля	pisátelja	писа́телей	pisátelej
-writer	dative		писа́телю	pisátelju	писа́телям	pisáteljam
-writer	accusative		писа́теля	pisátelja	писа́телей	pisátelej
-writer	instrumental		писа́телем	pisátelem	писа́телями	pisáteljami
-writer	prepositional		писа́теле	pisátele	писа́телях	pisáteljax
-hero	nominative		геро́й	gerój	геро́и	gerói
-hero	genitive		геро́я	gerója	геро́ев	gerójev
-hero	dative		геро́ю	geróju	геро́ям	gerójam
-hero	accusative		геро́я	gerója	геро́ев	gerójev
-hero	instrumental		геро́ем	gerójem	геро́ями	gerójami
-hero	prepositional		геро́е	geróje	геро́ях	gerójax
-comment	nominative		коммента́рий	kommentárij	коммента́рии	kommentárii
-comment	genitive		коммента́рия	kommentárija	коммента́риев	kommentárijev
-comment	dative		коммента́рию	kommentáriju	коммента́риям	kommentárijam
-comment	accusative		коммента́рий	kommentárij	коммента́рии	kommentárii
-comment	instrumental		коммента́рием	kommentárijem	коммента́риями	kommentárijami
-comment	prepositional		коммента́рии	kommentárii	коммента́риях	kommentárijax
-building	nominative		зда́ние	zdánije	зда́ния	zdánija
-building	genitive		зда́ния	zdánija	зда́ний	zdánij
-building	dative		зда́нию	zdániju	зда́ниям	zdánijam
-building	accusative		зда́ние	zdánije	зда́ния	zdánija
-building	instrumental		зда́нием	zdánijem	зда́ниями	zdánijami
-building	prepositional		зда́нии	zdánii	зда́ниях	zdánijax
-bone	nominative		ко́сть	kóstʹ	ко́сти	kósti
-bone	genitive		ко́сти	kósti	косте́й	kostéj
-bone	dative		ко́сти	kósti	костя́м	kostjám
-bone	accusative		ко́сть	kóstʹ	ко́сти	kósti
-bone	instrumental		ко́стью	kóstʹju	костя́ми	kostjámi
-bone	prepositional		ко́сти	kósti	костя́х	kostjáx
-bone	locative		кости́	kostí		
-mouse	nominative		мы́шь	mýšʹ	мы́ши	mýši
-mouse	genitive		мы́ши	mýši	мыше́й	myšéj
-mouse	dative		мы́ши	mýši	мыша́м	myšám
-mouse	accusative		мы́шь	mýšʹ	мыше́й	myšéj
-mouse	instrumental		мы́шью	mýšʹju	мыша́ми	myšámi
-mouse	prepositional		мы́ши	mýši	мыша́х	myšáx
+*	*	*	singular	singular	plural	plural	#		
+*	*	*	cyrillic	latin	cyrillic	latin	#		
+animal		nominative	живо́тное	živótnoje	живо́тные	živótnyje	#	xxxx	
+animal		vocative	живо́тное	živótnoje	живо́тные	živótnyje	#		
+animal		genitive	живо́тного	živótnovo	живо́тных	živótnyx	#		
+animal		dative	живо́тному	živótnomu	живо́тным	živótnym	#		
+animal		accusative	живо́тное	živótnoje	живо́тных	živótnyx	#		
+animal		instrumental	живо́тным	živótnym	живо́тными	živótnymi	#		
+animal		prepositional	живо́тном	živótnom	живо́тных	živótnyx	#		
+attention		nominative	внима́ние	vnimánije	внима́ния	vnimánija	#	xxxx	
+attention		vocative	внима́ние	vnimánije	внима́ния	vnimánija	#		
+attention		genitive	внима́ния	vnimánija	внима́ний	vnimánij	#		
+attention		dative	внима́нию	vnimániju	внима́ниям	vnimánijam	#		
+attention		accusative	внима́ние	vnimánije	внима́ния	vnimánija	#		
+attention		instrumental	внима́нием	vnimánijem	внима́ниями	vnimánijami	#		
+attention		prepositional	внима́нии	vnimánii	внима́ниях	vnimánijax	#		
+bird		nominative	пти́ца	ptíca	пти́цы	ptícy	#	xxxx	
+bird		vocative	пти́ца	ptíca	пти́цы	ptícy	#		
+bird		genitive	пти́цы	ptícy	пти́ц	ptíc	#		
+bird		dative	пти́це	ptíce	пти́цам	ptícam	#		
+bird		accusative	пти́цу	ptícu	пти́ц	ptíc	#		
+bird		instrumental	пти́цей, пти́цею, u	ptícej, ptíceju	пти́цами	ptícami	#		
+bird		prepositional	пти́це	ptíce	пти́цах	ptícax	#		
+boat		nominative	ло́дка	lódka	ло́дки	lódki	#	xxxx	
+boat		vocative	ло́дка	lódka	ло́дки	lódki	#		
+boat		genitive	ло́дки	lódki	ло́док	lódok	#		
+boat		dative	ло́дке	lódke	ло́дкам	lódkam	#		
+boat		accusative	ло́дку	lódku	ло́дки	lódki	#		
+boat		instrumental	ло́дкой, ло́дкою, u	lódkoj, lódkoju	ло́дками	lódkami	#		
+boat		prepositional	ло́дке	lódke	ло́дках	lódkax	#		
+book		nominative 	кни́га	kníga 	кни́ги	knígi	#		
+book		genitive 	кни́ги	knígi 	кни́г	kníg	#		
+book		dative 	кни́ге	kníge 	кни́гам	knígam	#		
+book		accusative 	кни́гу	knígu 	кни́ги	knígi	#		
+book		instrumental 	кни́гой, кни́гою	knígoj, knígoju 	кни́гами	knígami	#		
+book		prepositional 	кни́ге	kníge 	кни́гах	knígax 	#		
+brother		nominative	бра́т	brát	бра́тья*	brátʹja*	#	xxxx	
+brother		vocative	бра́те	bráte	бра́тья*	brátʹja*	#		
+brother		genitive	бра́та	bráta	бра́тьев*	brátʹjev*	#		
+brother		dative	бра́ту	brátu	бра́тьям*	brátʹjam*	#		
+brother		accusative	бра́та	bráta	бра́тьев*	brátʹjev*	#		
+brother		instrumental	бра́том	brátom	бра́тьями*	brátʹjami*	#		
+brother		prepositional	бра́те	bráte	бра́тьях*	brátʹjax*	#		
+bug		nominative	бука́шка	bukáška	бука́шки	bukáški	#	xxxx	
+bug		vocative	бука́шка	bukáška	бука́шки	bukáški	#		
+bug		genitive	бука́шки	bukáški	бука́шек	bukášek	#		
+bug		dative	бука́шке	bukáške	бука́шкам	bukáškam	#		
+bug		accusative	бука́шку	bukášku	бука́шек	bukášek	#		
+bug		instrumental	бука́шкой, бука́шкою, u	bukáškoj, bukáškoju	бука́шками	bukáškami	#		
+bug		prepositional	бука́шке	bukáške	бука́шках	bukáškax	#		
+clothing		nominative	оде́жда	odéžda	оде́жды	odéždy	#	xxxx	
+clothing		vocative	оде́жда	odéžda	оде́жды	odéždy	#		
+clothing		genitive	оде́жды	odéždy	оде́жд	odéžd	#		
+clothing		dative	оде́жде	odéžde	оде́ждам	odéždam	#		
+clothing		accusative	оде́жду	odéždu	оде́жды	odéždy	#		
+clothing		instrumental	оде́ждой, оде́ждою, u	odéždoj, odéždoju	оде́ждами	odéždami	#		
+clothing		prepositional	оде́жде	odéžde	оде́ждах	odéždax	#		
+daughter		nominative	до́чь	dóčʹ	до́чери	dóčeri	#	xxxx	
+daughter		vocative	до́ча*	dóča*	до́чери	dóčeri	#		
+daughter		genitive	до́чери	dóčeri	дочере́й	dočeréj	#		
+daughter		dative	до́чери	dóčeri	дочеря́м	dočerjám	#		
+daughter		accusative	до́чь	dóčʹ	дочере́й	dočeréj	#		
+daughter		instrumental	до́черью	dóčerʹju	дочерьми́, дочеря́ми, 	dočerʹmí, dočerjámi	#		
+daughter		prepositional	до́чери	dóčeri	дочеря́х	dočerjáx	#		
+dog		nominative	соба́ка	sobáka	соба́ки	sobáki	#	xxxx	
+dog		vocative	соба́ка	sobáka	соба́ки	sobáki	#		
+dog		genitive	соба́ки	sobáki	соба́к	sobák	#		
+dog		dative	соба́ке	sobáke	соба́кам	sobákam	#		
+dog		accusative	соба́ку	sobáku	соба́к	sobák	#		
+dog		instrumental	соба́кой, соба́кою, u	sobákoj, sobákoju	соба́ками	sobákami	#		
+dog		prepositional	соба́ке	sobáke	соба́ках	sobákax	#		
+door		nominative	две́рь	dvérʹ	две́ри	dvéri	#	xxxx	
+door		vocative	две́рь	dvérʹ	две́ри	dvéri	#		
+door		genitive	две́ри	dvéri	двере́й	dveréj	#		
+door		dative	две́ри	dvéri	дверя́м	dverjám	#		
+door		accusative	две́рь	dvérʹ	две́ри	dvéri	#		
+door		instrumental	две́рью	dvérʹju	дверя́ми, дверьми́, 	dverjámi, dverʹmí	#		
+door		prepositional	две́ри	dvéri	дверя́х	dverjáx	#		
+door		locative	двери́	dverí			#		
+drum		nominative	бараба́н	barabán	бараба́ны	barabány	#	xxxx	
+drum		vocative	бараба́н	barabán	бараба́ны	barabány	#		
+drum		genitive	бараба́на	barabána	бараба́нов	barabánov	#		
+drum		dative	бараба́ну	barabánu	бараба́нам	barabánam	#		
+drum		accusative	бараба́н	barabán	бараба́ны	barabány	#		
+drum		instrumental	бараба́ном	barabánom	бараба́нами	barabánami	#		
+drum		prepositional	бараба́не	barabáne	бараба́нах	barabánax	#		
+enemy		nominative	вра́г	vrág	враги́	vragí	#	xxxx	
+enemy		vocative	вра́г	vrág	враги́	vragí	#		
+enemy		genitive	врага́	vragá	враго́в	vragóv	#		
+enemy		dative	врагу́	vragú	врага́м	vragám	#		
+enemy		accusative	врага́	vragá	враго́в	vragóv	#		
+enemy		instrumental	враго́м	vragóm	врага́ми	vragámi	#		
+enemy		prepositional	враге́	vragé	врага́х	vragáx	#		
+fire		nominative	ого́нь	ogónʹ	огни́	ogní	#	xxxx	
+fire		vocative	ого́нь	ogónʹ	огни́	ogní	#		
+fire		genitive	огня́	ognjá	огне́й	ognéj	#		
+fire		dative	огню́	ognjú	огня́м	ognjám	#		
+fire		accusative	ого́нь	ogónʹ	огни́	ogní	#		
+fire		instrumental	огнём	ognjóm	огня́ми	ognjámi	#		
+fire		prepositional	огне́	ogné	огня́х	ognjáx	#		
+food		nominative	еда́	jedá	—	—	#	xxxx	
+food		vocative	еда́	jedá	—	—	#		
+food		genitive	еды́	jedý	—	—	#		
+food		dative	еде́	jedé	—	—	#		
+food		accusative	еду́	jedú	—	—	#		
+food		instrumental	едо́й, едо́ю, u	jedój, jedóju	—	—	#		
+food		prepositional	еде́	jedé	—	—	#		
+gift		nominative	пода́рок	podárok	пода́рки	podárki	#	xxxx	
+gift		vocative	пода́рок	podárok	пода́рки	podárki	#		
+gift		genitive	пода́рка	podárka	пода́рков	podárkov	#		
+gift		dative	пода́рку	podárku	пода́ркам	podárkam	#		
+gift		accusative	пода́рок	podárok	пода́рки	podárki	#		
+gift		instrumental	пода́рком	podárkom	пода́рками	podárkami	#		
+gift		prepositional	пода́рке	podárke	пода́рках	podárkax	#		
+glass		nominative	стекло́	stekló	стёкла	stjókla	#	xxxx	
+glass		vocative	стекло́	stekló	стёкла	stjókla	#		
+glass		genitive	стекла́	steklá	стёкол	stjókol	#		
+glass		dative	стеклу́	steklú	стёклам	stjóklam	#		
+glass		accusative	стекло́	stekló	стёкла	stjókla	#		
+glass		instrumental	стекло́м	steklóm	стёклами	stjóklami	#		
+glass		prepositional	стекле́	steklé	стёклах	stjóklax	#		
+guard		nominative	стра́жник	strážnik	стра́жники	strážniki	#	xxxx	
+guard		vocative	стра́жник	strážnik	стра́жники	strážniki	#		
+guard		genitive	стра́жника	strážnika	стра́жников	strážnikov	#		
+guard		dative	стра́жнику	strážniku	стра́жникам	strážnikam	#		
+guard		accusative	стра́жника	strážnika	стра́жников	strážnikov	#		
+guard		instrumental	стра́жником	strážnikom	стра́жниками	strážnikami	#		
+guard		prepositional	стра́жнике	strážnike	стра́жниках	strážnikax	#		
+horse		nominative	ло́шадь	lóšadʹ	ло́шади	lóšadi	#	xxxx	
+horse		vocative	ло́шадь	lóšadʹ	ло́шади	lóšadi	#		
+horse		genitive	ло́шади	lóšadi	лошаде́й	lošadéj	#		
+horse		dative	ло́шади	lóšadi	лошадя́м	lošadjám	#		
+horse		accusative	ло́шадь	lóšadʹ	лошаде́й	lošadéj	#		
+horse		instrumental	ло́шадью	lóšadʹju	лошадьми́, лошадя́ми, 	lošadʹmí, lošadjámi	#		
+horse		prepositional	ло́шади	lóšadi	лошадя́х	lošadjáx	#		
+house		nominative	до́м	dóm	дома́	domá	#	xxxx	
+house		vocative	до́м	dóm	дома́	domá	#		
+house		genitive	до́ма	dóma	домо́в	domóv	#		
+house		dative	до́му	dómu	дома́м	domám	#		
+house		accusative	до́м	dóm	дома́	domá	#		
+house		instrumental	до́мом	dómom	дома́ми	domámi	#		
+house		prepositional	до́ме	dóme	дома́х	domáx	#		
+house	#	partitive	до́му	dómu			#		
+house		locative	дому́	domú			#		
+livestock		nominative	ско́т	skót	скоты́	skotý	#	xxxx	
+livestock		vocative	ско́т	skót	скоты́	skotý	#		
+livestock		genitive	скота́	skotá	ското́в	skotóv	#		
+livestock		dative	скоту́	skotú	скота́м	skotám	#		
+livestock		accusative	скота́	skotá	ското́в	skotóv	#		
+livestock		instrumental	ското́м	skotóm	скота́ми	skotámi	#		
+livestock		prepositional	скоте́	skoté	скота́х	skotáx	#		
+love		nominative	любо́вь	ljubóvʹ	любви́	ljubví	#	xxxx	
+love		vocative	любо́вь	ljubóvʹ	любви́	ljubví	#		
+love		genitive	любви́	ljubví	любве́й	ljubvéj	#		
+love		dative	любви́	ljubví	любвя́м	ljubvjám	#		
+love		accusative	любо́вь	ljubóvʹ	любви́	ljubví	#		
+love		instrumental	любо́вью	ljubóvʹju	любвя́ми	ljubvjámi	#		
+love		prepositional	любви́	ljubví	любвя́х	ljubvjáx	#		
+idea		nominative	иде́я	idéja	иде́и	idéi	#	xxxx	
+idea		vocative	иде́я	idéja	иде́и	idéi	#		
+idea		genitive	иде́и	idéi	иде́й	idéj	#		
+idea		dative	иде́е	idéje	иде́ям	idéjam	#		
+idea		accusative	иде́ю	idéju	иде́и	idéi	#		
+idea		instrumental	иде́ей, иде́ею, u	idéjej, idéjeju	иде́ями	idéjami	#		
+idea		prepositional	иде́е	idéje	иде́ях	idéjax	#		
+man		nominative	мужчи́на	mužčína	мужчи́ны	mužčíny	#	xxxx	
+man		vocative	мужчи́на	mužčína	мужчи́ны	mužčíny	#		
+man		genitive	мужчи́ны	mužčíny	мужчи́н	mužčín	#		
+man		dative	мужчи́не	mužčíne	мужчи́нам	mužčínam	#		
+man		accusative	мужчи́ну	mužčínu	мужчи́н	mužčín	#		
+man		instrumental	мужчи́ной, мужчи́ною, u	mužčínoj, mužčínoju	мужчи́нами	mužčínami	#		
+man		prepositional	мужчи́не	mužčíne	мужчи́нах	mužčínax	#		
+money		nominative	де́ньги	dénʹgi	де́ньги	dénʹgi	#	xxxx	
+money		vocative	де́ньги	dénʹgi	де́ньги	dénʹgi	#		
+money		genitive	де́нег	déneg	де́нег	déneg	#		
+money		dative	деньга́м	denʹgám	деньга́м	denʹgám	#		
+money		accusative	де́ньги	dénʹgi	де́ньги	dénʹgi	#		
+money		instrumental	деньга́ми	denʹgámi	деньга́ми	denʹgámi	#		
+money		prepositional	деньга́х	denʹgáx	деньга́х	denʹgáx	#		
+monster		nominative	чудо́вище	čudóvišče	чудо́вища	čudóvišča	#	xxxx	
+monster		vocative	чудо́вище	čudóvišče	чудо́вища	čudóvišča	#		
+monster		genitive	чудо́вища	čudóvišča	чудо́вищ	čudóvišč	#		
+monster		dative	чудо́вищу	čudóvišču	чудо́вищам	čudóviščam	#		
+monster		accusative	чудо́вище	čudóvišče	чудо́вищ	čudóvišč	#		
+monster		instrumental	чудо́вищем	čudóviščem	чудо́вищами	čudóviščami	#		
+monster		prepositional	чудо́вище	čudóvišče	чудо́вищах	čudóviščax	#		
+name		nominative	и́мя	ímja	имена́	imená	#	xxxx	
+name		vocative	и́мя	ímja	имена́	imená	#		
+name		genitive	и́мени	ímeni	имён	imjón	#		
+name		dative	и́мени	ímeni	имена́м	imenám	#		
+name		accusative	и́мя	ímja	имена́	imená	#		
+name		instrumental	и́менем	ímenem	имена́ми	imenámi	#		
+name		prepositional	и́мени	ímeni	имена́х	imenáx	#		
+rock		nominative	ка́мень	kámenʹ	ка́мни	kámni	#	xxxx	
+rock		vocative	ка́мень	kámenʹ	ка́мни	kámni	#		
+rock		genitive	ка́мня	kámnja	камне́й	kamnéj	#		
+rock		dative	ка́мню	kámnju	камня́м	kamnjám	#		
+rock		accusative	ка́мень	kámenʹ	ка́мни	kámni	#		
+rock		instrumental	ка́мнем	kámnem	камня́ми	kamnjámi	#		
+rock		prepositional	ка́мне	kámne	камня́х	kamnjáx	#		
+rope		nominative	кана́т	kanát	кана́ты	kanáty	#	xxxx	
+rope		vocative	кана́т	kanát	кана́ты	kanáty	#		
+rope		genitive	кана́та	kanáta	кана́тов	kanátov	#		
+rope		dative	кана́ту	kanátu	кана́там	kanátam	#		
+rope		accusative	кана́т	kanát	кана́ты	kanáty	#		
+rope		instrumental	кана́том	kanátom	кана́тами	kanátami	#		
+rope		prepositional	кана́те	kanáte	кана́тах	kanátax	#		
+size		nominative	величина́	veličiná	величи́ны	veličíny	#	xxxx	
+size		vocative	величина́	veličiná	величи́ны	veličíny	#		
+size		genitive	величины́	veličiný	величи́н	veličín	#		
+size		dative	величине́	veličiné	величи́нам	veličínam	#		
+size		accusative	величину́	veličinú	величи́ны	veličíny	#		
+size		instrumental	величино́й, величино́ю	veličinój, veličinóju	величи́нами	veličínami	#		
+size		prepositional	величине́	veličiné	величи́нах	veličínax	#		
+son		nominative	сы́н	sýn	сыновья́	synovʹjá	#	xxxx	
+son		vocative	сы́не	sýne	сыновья́	synovʹjá	#		
+son		genitive	сы́на	sýna	сынове́й	synovéj	#		
+son		dative	сы́ну	sýnu	сыновья́м	synovʹjám	#		
+son		accusative	сы́на	sýna	сынове́й	synovéj	#		
+son		instrumental	сы́ном	sýnom	сыновья́ми	synovʹjámi	#		
+son		prepositional	сы́не	sýne	сыновья́х	synovʹjáx	#		
+sound		nominative	зву́к	zvúk	зву́ки	zvúki	#	xxxx	
+sound		vocative	зву́к	zvúk	зву́ки	zvúki	#		
+sound		genitive	зву́ка	zvúka	зву́ков	zvúkov	#		
+sound		dative	зву́ку	zvúku	зву́кам	zvúkam	#		
+sound		accusative	зву́к	zvúk	зву́ки	zvúki	#		
+sound		instrumental	зву́ком	zvúkom	зву́ками	zvúkami	#		
+sound		prepositional	зву́ке	zvúke	зву́ках	zvúkax	#		
+warmth		nominative	тепло́	tepló	—	—	#	xxxx	
+warmth		vocative	тепло́	tepló	—	—	#		
+warmth		genitive	тепла́	teplá	—	—	#		
+warmth		dative	теплу́	teplú	—	—	#		
+warmth		accusative	тепло́	tepló	—	—	#		
+warmth		instrumental	тепло́м	teplóm	—	—	#		
+warmth		prepositional	тепле́	teplé	—	—	#		
+water		nominative	вода́	vodá	во́ды	vódy	#	xxxx	
+water		vocative	вода́	vodá	во́ды	vódy	#		
+water		genitive	воды́	vodý	во́д	vód	#		
+water		dative	воде́	vodé	во́дам	vódam	#		
+water		accusative	во́ду	vódu	во́ды	vódy	#		
+water		instrumental	водо́й, водо́ю, u	vodój, vodóju	во́дами	vódami	#		
+water		prepositional	воде́	vodé	во́дах	vódax	#		
+way		nominative	пу́ть	pútʹ	пути́	putí	#	xxxx	
+way		vocative	пу́ть	pútʹ	пути́	putí	#		
+way		genitive	пути́	putí	путе́й	putéj	#		
+way		dative	пути́	putí	путя́м	putjám	#		
+way		accusative	пу́ть	pútʹ	пути́	putí	#		
+way		instrumental	путём	putjóm	путя́ми	putjámi	#		
+way		prepositional	пути́	putí	путя́х	putjáx	#		
+wind		nominative	ве́тер	véter	ве́тры	vétry	#	xxxx	
+wind		vocative	ве́тер	véter	ве́тры	vétry	#		
+wind		genitive	ве́тра	vétra	ветро́в, ве́тров, 	vetróv, vétrov	#		
+wind		dative	ве́тру	vétru	ветра́м, ве́трам, 	vetrám, vétram	#		
+wind		accusative	ве́тер	véter	ве́тры	vétry	#		
+wind		instrumental	ве́тром	vétrom	ветра́ми, ве́трами, 	vetrámi, vétrami	#		
+wind		prepositional	ве́тре	vétre	ветра́х, ве́трах, 	vetráx, vétrax	#		
+wind	#	partitive	ве́тру	vétru	—	—	#		
+wind		locative	на ветру́	na vetrú	—	—	#		
+window		nominative	окно́	oknó	о́кна	ókna	#	xxxx	
+window		vocative	окно́	oknó	о́кна	ókna	#		
+window		genitive	окна́	okná	о́кон	ókon	#		
+window		dative	окну́	oknú	о́кнам	óknam	#		
+window		accusative	окно́	oknó	о́кна	ókna	#		
+window		instrumental	окно́м	oknóm	о́кнами	óknami	#		
+window		prepositional	окне́	okné	о́кнах	óknax	#		
+woman		nominative	же́нщина	žénščina	же́нщины	žénščiny	#	xxxx	
+woman		vocative	же́нщина	žénščina	же́нщины	žénščiny	#		
+woman		genitive	же́нщины	žénščiny	же́нщин	žénščin	#		
+woman		dative	же́нщине	žénščine	же́нщинам	žénščinam	#		
+woman		accusative	же́нщину	žénščinu	же́нщин	žénščin	#		
+woman		instrumental	же́нщиной, же́нщиною, u	žénščinoj, žénščinoju	же́нщинами	žénščinami	#		
+woman		prepositional	же́нщине	žénščine	же́нщинах	žénščinax	#		
+work		nominative	рабо́та	rabóta	рабо́ты	rabóty	#	xxxx	
+work		vocative	рабо́та	rabóta	рабо́ты	rabóty	#		
+work		genitive	рабо́ты	rabóty	рабо́т	rabót	#		
+work		dative	рабо́те	rabóte	рабо́там	rabótam	#		
+work		accusative	рабо́ту	rabótu	рабо́ты	rabóty	#		
+work		instrumental	рабо́той, рабо́тою, u	rabótoj, rabótoju	рабо́тами	rabótami	#		
+work		prepositional	рабо́те	rabóte	рабо́тах	rabótax	#		
+job		nominative	рабо́та	rabóta	рабо́ты	rabóty	#	xxxx	
+job		vocative	рабо́та	rabóta	рабо́ты	rabóty	#		
+job		genitive	рабо́ты	rabóty	рабо́т	rabót	#		
+job		dative	рабо́те	rabóte	рабо́там	rabótam	#		
+job		accusative	рабо́ту	rabótu	рабо́ты	rabóty	#		
+job		instrumental	рабо́той, рабо́тою, u	rabótoj, rabótoju	рабо́тами	rabótami	#		
+job		prepositional	рабо́те	rabóte	рабо́тах	rabótax	#		
+bathhouse		nominative	ба́ня	bánja	ба́ни	báni	#	xxxx	
+bathhouse		vocative	ба́ня	bánja	ба́ни	báni	#		
+bathhouse		genitive	ба́ни	báni	ба́нь	bánʹ	#		
+bathhouse		dative	ба́не	báne	ба́ням	bánjam	#		
+bathhouse		accusative	ба́ню	bánju	ба́ни	báni	#		
+bathhouse		instrumental	ба́ней, ба́нею, u	bánej, báneju	ба́нями	bánjami	#		
+bathhouse		prepositional	ба́не	báne	ба́нях	bánjax	#		
+line		nominative	ли́ния	línija	ли́нии	línii	#	xxxx	
+line		vocative	ли́ния	línija	ли́нии	línii	#		
+line		genitive	ли́нии	línii	ли́ний	línij	#		
+line		dative	ли́нии	línii	ли́ниям	línijam	#		
+line		accusative	ли́нию	líniju	ли́нии	línii	#		
+line		instrumental	ли́нией, ли́ниею, u	línijej, línijeju	ли́ниями	línijami	#		
+line		prepositional	ли́нии	línii	ли́ниях	línijax	#		
+movie		nominative	фи́льм	fílʹm	фи́льмы	fílʹmy	#	xxxx	
+movie		vocative	фи́льм	fílʹm	фи́льмы	fílʹmy	#		
+movie		genitive	фи́льма	fílʹma	фи́льмов	fílʹmov	#		
+movie		dative	фи́льму	fílʹmu	фи́льмам	fílʹmam	#		
+movie		accusative	фи́льм	fílʹm	фи́льмы	fílʹmy	#		
+movie		instrumental	фи́льмом	fílʹmom	фи́льмами	fílʹmami	#		
+movie		prepositional	фи́льме	fílʹme	фи́льмах	fílʹmax	#		
+writer		nominative	писа́тель	pisátelʹ	писа́тели	pisáteli	#	xxxx	
+writer		vocative	писа́тель	pisátelʹ	писа́тели	pisáteli	#		
+writer		genitive	писа́теля	pisátelja	писа́телей	pisátelej	#		
+writer		dative	писа́телю	pisátelju	писа́телям	pisáteljam	#		
+writer		accusative	писа́теля	pisátelja	писа́телей	pisátelej	#		
+writer		instrumental	писа́телем	pisátelem	писа́телями	pisáteljami	#		
+writer		prepositional	писа́теле	pisátele	писа́телях	pisáteljax	#		
+hero		nominative	геро́й	gerój	геро́и	gerói	#	xxxx	
+hero		vocative	геро́й	gerój	геро́и	gerói	#		
+hero		genitive	геро́я	gerója	геро́ев	gerójev	#		
+hero		dative	геро́ю	geróju	геро́ям	gerójam	#		
+hero		accusative	геро́я	gerója	геро́ев	gerójev	#		
+hero		instrumental	геро́ем	gerójem	геро́ями	gerójami	#		
+hero		prepositional	геро́е	geróje	геро́ях	gerójax	#		
+comment		nominative	коммента́рий	kommentárij	коммента́рии	kommentárii	#	xxxx	
+comment		vocative	коммента́рий	kommentárij	коммента́рии	kommentárii	#		
+comment		genitive	коммента́рия	kommentárija	коммента́риев	kommentárijev	#		
+comment		dative	коммента́рию	kommentáriju	коммента́риям	kommentárijam	#		
+comment		accusative	коммента́рий	kommentárij	коммента́рии	kommentárii	#		
+comment		instrumental	коммента́рием	kommentárijem	коммента́риями	kommentárijami	#		
+comment		prepositional	коммента́рии	kommentárii	коммента́риях	kommentárijax	#		
+building		nominative	зда́ние	zdánije	зда́ния	zdánija	#	xxxx	
+building		vocative	зда́ние	zdánije	зда́ния	zdánija	#		
+building		genitive	зда́ния	zdánija	зда́ний	zdánij	#		
+building		dative	зда́нию	zdániju	зда́ниям	zdánijam	#		
+building		accusative	зда́ние	zdánije	зда́ния	zdánija	#		
+building		instrumental	зда́нием	zdánijem	зда́ниями	zdánijami	#		
+building		prepositional	зда́нии	zdánii	зда́ниях	zdánijax	#		
+bone		nominative	ко́сть	kóstʹ	ко́сти	kósti	#	xxxx	
+bone		vocative	ко́сть	kóstʹ	ко́сти	kósti	#		
+bone		genitive	ко́сти	kósti	косте́й	kostéj	#		
+bone		dative	ко́сти	kósti	костя́м	kostjám	#		
+bone		accusative	ко́сть	kóstʹ	ко́сти	kósti	#		
+bone		instrumental	ко́стью	kóstʹju	костя́ми	kostjámi	#		
+bone		prepositional	ко́сти	kósti	костя́х	kostjáx	#		
+bone		locative	кости́	kostí	—	—	#		
+mouse		nominative	мы́шь	mýšʹ	мы́ши	mýši	#	xxxx	
+mouse		vocative	мы́шь	mýšʹ	мы́ши	mýši	#		
+mouse		genitive	мы́ши	mýši	мыше́й	myšéj	#		
+mouse		dative	мы́ши	mýši	мыша́м	myšám	#		
+mouse		accusative	мы́шь	mýšʹ	мыше́й	myšéj	#		
+mouse		instrumental	мы́шью	mýšʹju	мыша́ми	myšámi	#		
+mouse		prepositional	мы́ши	mýši	мыша́х	myšáx	#		
+place		nominative 	ме́сто	mésto 	места́	mestá	#		
+place		vocative	ме́сто	mésto 	места́	mestá	#		
+place		genitive 	ме́ста	mésta 	ме́ст	mést	#		
+place		dative 	ме́сту	méstu 	места́м	mestám	#		
+place		accusative 	ме́сто	mésto 	места́	mestá	#		
+place		instrumental 	ме́стом	méstom 	места́ми	mestámi	#		
+place		prepositional 	ме́сте	méste 	места́х	mestáx 	#		
+sea		nominative 	мо́ре	móre 	моря́	morjá	#		
+sea		vocative	мо́ре	móre 	моря́	morjá	#		
+sea		genitive 	мо́ря	mórja 	море́й	moréj	#		
+sea		dative 	мо́рю	mórju 	моря́м	morjám	#		
+sea		accusative 	мо́ре	móre 	моря́	morjá	#		
+sea		instrumental 	мо́рем	mórem 	моря́ми	morjámi	#		
+sea		prepositional 	мо́ре	móre 	моря́х	morjáx 	#		
+hello			приве́т	privét	приве́т	privét	#		

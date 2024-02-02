@@ -1,4 +1,5 @@
-*	*	*	*	*	nominative	accusative	genitive	prepositional	dative	instrumental			
+*	*	*	*	*	nominative  	accusative  	genitive    	prepositional	dative	instrumental			
+*	*	*	*	*	cyrillic	cyrillic	cyrillic	cyrillic	cyrillic	cyrillic			
 personal	1		singular		я	меня́	меня́	мне	мне	мной			
 personal	2		singular		ты	тебя́	тебя́	тебе́	тебе́	тобо́й			
 personal	3		singular	neuter	оно́	(н)его́	(н)его́	нём	(н)ему́	(н)им			
@@ -7,7 +8,7 @@ personal	3		singular	feminine	она́	(н)её	(н)её	ней	(н)ей	(н)е�
 personal	1		plural		мы	нас	нас	нас	нам	на́ми			
 personal	2		plural		вы	вас	вас	вас	вам	ва́ми			
 personal	3		plural		они́	(н)их	(н)их	них	(н)им 	(н)и́ми			
-reflexive			reflexive		сам 	себя́ 	себя́ 	себе́	себе́	собо́й			
+reflexive					сам 	себя́ 	себя́ 	себе́	себе́	собо́й			
 demonstrative	proximal	animate	singular	masculine	э́тот	э́того	э́того	э́том	э́тому	э́тим			
 demonstrative	proximal	animate	singular	neuter	э́то	э́то	э́того	э́том	э́тому	э́тим			
 demonstrative	proximal	animate	singular	feminine	э́та	э́ту	э́той	э́той	э́той	э́той			
@@ -24,11 +25,5 @@ demonstrative	distal	inanimate	singular	masculine	тот	тот	того́	то�
 demonstrative	distal	inanimate	singular	neuter	то	то	того́	том	тому́	тем			
 demonstrative	distal	inanimate	singular	feminine	та	ту	той	той	той	той			
 demonstrative	distal	inanimate	plural		те	те	тех 	тех 	тем	те́ми 			
-interrogative		human			кто	кого́	кого́	кому́	кем	ком			
-interrogative		nonhuman			что	что	чего́	чему́	чем	чём 			
-													
-													
-													
-													
-													
-													
+#interrogative		human			кто	кого́	кого́	кому́	кем	ком			
+#interrogative		nonhuman			что	что	чего́	чему́	чем	чём 			

@@ -24,6 +24,9 @@ small	food	\small{\nx{🍲}}	#	gaulish
 tall	man	\large{\nx{🧍\cx\gx}}	#	latin, old-english, russian	
 tall	woman	\large{\nx{🧍\cx\gx}}	#	latin, old-english, russian	
 tall	animal	\large{\nx{🦒}}	#	latin, old-english, russian	
+tall	house	\large{\nx{🏠}}	#	russian	
+tall	book	\large{\nx{📕}}	#	russian	
+tall	building	\large{\nx{🏢}}	#	russian	
 short	man	\small{\nx{🧍\cx\gx}}	#		
 short	woman	\small{\nx{🧍\cx\gx}}	#		
 short	animal	\nx{🦔}	#		
