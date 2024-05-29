@@ -94,7 +94,7 @@ foreign_termaxis_to_terms = {
         number :  singular plural
         motion :  approached acquired associated departed leveraged surpassed
         progress: atelic
-        polarity: positive negative
+        polarity: affirmative negative
         tense  :  present past future
         voice  :  active
         mood   :  indicative subjunctive imperative
@@ -338,8 +338,8 @@ possessor_possession_whitelist = parse.tokenmask(
     snake-possessor  man
     snake-possessor  woman
     snake-possessor  name
-    ''')
-
+    '''
+)
 possessor_pronoun_traversal = label_editing.termpath(
     parse.tokenpath(
         'possessor_pronoun_traversal', 

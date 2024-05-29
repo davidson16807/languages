@@ -15,27 +15,27 @@
 			necessity			indicative	∅	∅	#	need										
 			conceded			indicative	∅	∅	#											
 			supposed			subjunctive	∅	∅	#		subjunctive									
-			proposed	confident	positive	indicative	∅	∅	#		indicative									
-			proposed	probable	positive	indicative	∅	∅	#	likely	potential									
-			proposed	possible	positive	indicative	∅	∅	#		dubitative									
+			proposed	confident	affirmative	indicative	∅	∅	#		indicative									
+			proposed	probable	affirmative	indicative	∅	∅	#	likely	potential									
+			proposed	possible	affirmative	indicative	∅	∅	#		dubitative									
 			proposed	possible	negative	indicative	∅	∅	#	might										
 			proposed	probable	negative	indicative	∅	∅	#		dubitative									
 			proposed	confident	negative	indicative	∅	∅	#		hypothetical									
-			antecedent	confident	positive	indicative	∅	∅	#											
-			antecedent	probable	positive	indicative	∅	∅	#											
-			antecedent	possible	positive	indicative	∅	∅	#											
+			antecedent	confident	affirmative	indicative	∅	∅	#											
+			antecedent	probable	affirmative	indicative	∅	∅	#											
+			antecedent	possible	affirmative	indicative	∅	∅	#											
 			antecedent	possible	negative	indicative	∅	∅	#											
 			antecedent	probable	negative	indicative	∅	∅	#											
 			antecedent	confident	negative	indicative	∅	∅	#											
-			consequent	confident	positive	indicative	∅	∅	#		eventitive									
-			consequent	probable	positive	indicative	∅	∅	#	likely	eventitive									
-			consequent	possible	positive	indicative	∅	∅	#		conditional									
+			consequent	confident	affirmative	indicative	∅	∅	#		eventitive									
+			consequent	probable	affirmative	indicative	∅	∅	#	likely	eventitive									
+			consequent	possible	affirmative	indicative	∅	∅	#		conditional									
 			consequent	possible	negative	indicative	∅	∅	#											
 			consequent	probable	negative	indicative	∅	∅	#	might	conditional									
 			consequent	confident	negative	indicative	∅	∅	#											
-			deferred	confident	positive	indicative	∅	∅	#		injunctive									
-			deferred	probable	positive	indicative	∅	∅	#		injunctive									
-			deferred	possible	positive	indicative	∅	∅	#		permissive									
+			deferred	confident	affirmative	indicative	∅	∅	#		injunctive									
+			deferred	probable	affirmative	indicative	∅	∅	#		injunctive									
+			deferred	possible	affirmative	indicative	∅	∅	#		permissive									
 			deferred	possible	negative	indicative	∅	∅	#											
 			deferred	probable	negative	indicative	∅	∅	#		permissive									
 			deferred	confident	negative	indicative	∅	∅	#		permissive									

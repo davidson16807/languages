@@ -99,7 +99,13 @@ mood_episemaxis_to_episemes = {
     # how the statement arises in the context of logical discourse
     'evidentiality': [
         'promised',       # speaker attests to the event, speaker determines if the event occurs
-    #   'useless',        # speaker attests to the event, addressee determines if the event occurs (not useful)
+        'deliberated',    # addressee attests to the event, addressee determines if the event occurs, speaker is neutral
+        'requested',      # addressee attests to the event, addressee determines if the event occurs, speaker offers no persuasion
+        'encouraged',     # addressee attests to the event, addressee determines if the event occurs, speaker persuades by encouragement
+        'implored',       # addressee attests to the event, addressee determines if the event occurs, speaker persuades by emphasis
+        'pending',        # addressee attests to the event, addressee determines if the event occurs, no persuasion needed, addressee agrees and confirmation is pending
+        'commanded',      # addressee attests to the event, addressee determines if the event occurs, no persuasion needed, addressee is subordinate
+        'prayed',         # addressee attests to the event, addressee determines if the event occurs, no persuasion needed, addressee is supernatural
         'presumed',       # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, no evidence given
         'visual',         # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is visual
         'nonvisual',      # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is nonvisual
@@ -115,18 +121,11 @@ mood_episemaxis_to_episemes = {
         'antecedent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence provided elsewhere
         'consequent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence is contingent on other event
         'queried',        # addressee attests to the event, subject determines if the event occurs
-        'deliberated',    # addressee attests to the event, addressee determines if the event occurs, subject has no persuation to give
-        'pending',        # addressee attests to the event, addressee determines if the event occurs, addressee is likely persuaded and confirmation is pending
-        'requested',      # addressee attests to the event, addressee determines if the event occurs, addressee not subject to persuasion
-        'encouraged',     # addressee attests to the event, addressee determines if the event occurs, addressee is being persuaded by encouragement
-        'implored',       # addressee attests to the event, addressee determines if the event occurs, addressee is being persuaded by emphasis
-        'commanded',      # addressee attests to the event, addressee determines if the event occurs, addressee is subordinate
-        'prayed',         # addressee attests to the event, addressee determines if the event occurs, addressee is supernatural
         'wished',         # subject attests to the event, subject determines if the event occurs, addressee is invested in outcome
         'deferred',       # subject attests to the event, subject determines if the event occurs, addressee is not invested in outcome
     ],
     # whether the event is confirmed or denied
-    'polarity':         'positive negative'.split(),
+    'polarity':         'affirmative negative'.split(),
     # how likely the statement is to be true
     'confidence':       'confident probable possible'.split(),
     # how surprised the speaker depicts himself
@@ -210,20 +209,24 @@ tagaxis_to_tags = {
     'possessor-clusivity': 'inclusive-possessor exclusive-possessor'.split(),
     'possessor-formality': 'familiar-possessor polite-possessor elevated-possessor formal-possessor tuteo-possessor voseo-possessor'.split(),
 
+    # needed for adjectives
+    'degree':     'positive comparative superlative'.split(), # 
+
     # needed for gerunds, supines, participles, and gerundives
-    'gender':     'masculine feminine neuter'.split(), # language specific concept where something takes on grammatical forms associated with a gender
+    'gender':     'masculine feminine gendered neuter'.split(), # language specific concept where something takes on grammatical forms associated with a sex, "gendered" is used instead of "common" to disambiguate it from the "common" noun-forms
+    'sex':        'male female sexless'.split(), # biological concept assigned at birth, this analysis lumps this concept with "natural gender"
     'animacy':    'animate inanimate'.split(), # language specific concept where something takes on grammatical forms associated with something that moves
     'humanity':   'human nonhuman'.split(), # member of homo sapiens
     'anthropomorphism': 'anthropomorphic nonanthropomorphic'.split(), # assumes a humanlike form
     'emphathizability': 'emphathizable unemphathizable'.split(), # ability to be emphathized with
     'rationality':'rational nonrational'.split(), #ability to apply structured thought
-    'sentience':  'sentient nonsentient'.split(), #ability to perceive things
     'sapience':   'sapient nonsapient'.split(), #ability to think, regardless of whether it uses structured thought
+    'sentience':  'sentient nonsentient'.split(), #ability to perceive things
     'motility':   'motile nonmotile'.split(),  # ability to perceptibly move of its own will
     'dynamism':   'dynamic nondynamic'.split(),  # ability to move (e.g. clouds, fire)
     'mobility':   'mobile immobile'.split(),  # ability to be moved
-    'dominance':  'dominant nondominant'.split(),  # ability to command
-    'servility':  'servile nonservile'.split(),  # ability to be commanded
+    'dominance':  'dominant nondominant'.split(),  # ability to command or use
+    'servility':  'servile nonservile'.split(),  # ability to be commanded or used
     'danger':     'dangerous nondangerous'.split(),  # ability to cause harm
     'vitality':   'living nonliving'.split(),  # ability to grow and reproduce
     'physicality':'physical abstract'.split(), # ability to take physical form
@@ -1123,7 +1126,7 @@ tag_defaults = parse_any.termaxis_to_term('''
 
     evidentiality:presumed
     confidence:   confident
-    polarity:     positive
+    polarity:     affirmative
     mood:         indicative
 
     tense:        present
