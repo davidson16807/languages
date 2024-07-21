@@ -1,18 +1,40 @@
-*	*	*	*	nominative	accusative	genitive	dative	locative	ablative
-tonic	personal	1	singular	ammuk (uk)	ammuk (uk)	ammēl	ammuk	ammuk	ammēdaz(a)
-tonic	personal	2	singular	tuk	tuk	tuēl	tuk	tuk	tuēdaz(a)
-tonic	personal	1	plural	anzās	anzās	anzēl	anzās	anzās	anzēdaz
-tonic	personal	2	plural	sum(m)ēs	sum(m)ēs	sumēl	sum(m)ēs	sum(m)ēs	sum(m)ēdaz
-tonic	personal	3	singular	apās	apās	apēl	apās	apās	apēdaz
-tonic	reflexive	1	singular	ukila					
-tonic	reflexive	2	singular	zikila					
-tonic	reflexive	1	plural	wēsila					
-tonic	reflexive	2	plural	sumāsila					
-tonic	reflexive	3	singular	apāsila	apāsilus	apenzan	apās	apās	apēdaz
-tonic	reflexive	3	plural	apāsila					
-enclitic	personal	1	singular		me		me	me	
-enclitic	personal	2	singular		ta		ta	ta	
-enclitic	personal	3	singular	as	an		si	si	
-enclitic	personal	1	plural		nas		nas	nas	
-enclitic	personal	2	plural		smas		smas	smas	
-enclitic	personal	3	plural	at	as		smas	smas	
+*	tonic	tonic	tonic	tonic	tonic	tonic	tonic	tonic	tonic	tonic	tonic	enclitic	enclitic	enclitic	enclitic	enclitic	enclitic
+*	personal	personal	personal	personal	personal	reflexive	reflexive	reflexive	reflexive	reflexive	reflexive	personal	personal	personal	personal	personal	personal
+*	1	2	1	2	3	1	2	1	2	3	3	1	2	3	1	2	3
+*	singular	singular	plural	plural	singular	singular	singular	plural	plural	singular	plural	singular	singular	singular	plural	plural	plural
+nominative	ammuk (uk)	tuk	anzās	sum(m)ēs	apās	ukila	zikila	wēsila	sumāsila	apāsila	apāsila			as			at
+accusative	ammuk (uk)	tuk	anzās	sum(m)ēs	apās					apāsilus		me	ta	an	nas	smas	as
+genitive	ammēl	tuēl	anzēl	sumēl	apēl					apenzan							
+dative	ammuk	tuk	anzās	sum(m)ēs	apās					apās		me	ta	si	nas	smas	smas
+locative	ammuk	tuk	anzās	sum(m)ēs	apās					apās		me	ta	si	nas	smas	smas
+ablative	ammēdaz(a)	tuēdaz(a)	anzēdaz	sum(m)ēdaz	apēdaz					apēdaz							
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	

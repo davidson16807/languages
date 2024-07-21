@@ -1,30 +1,55 @@
-*	*	*	nominative  	vocative    	accusative  	genitive    	ablative    	dative      	locative    	instrumental	#	declension
-young	masculine	singular	h₂yuHn̥ḱós    	h₂yuHn̥ḱé     	h₂yuHn̥ḱóm    	h₂yuHn̥ḱósyo  	h₂yuHn̥ḱéad   	h₂yuHn̥ḱóey   	h₂yuHn̥ḱóy    	h₂yuHn̥ḱóh₁   	#	thematic      
-young	masculine	dual	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóh₁     	—	—	—	—	—	#	thematic      
-young	masculine	plural	h₂yuHn̥ḱóes     	h₂yuHn̥ḱóes     	h₂yuHn̥ḱóms     	h₂yuHn̥ḱóHom    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱóysu    	h₂yuHn̥ḱṓys     	#	thematic      
-young	feminine	singular	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱā́m   	h₂yuHn̥ḱéh₂s  	h₂yuHn̥ḱéh₂s  	h₂yuHn̥ḱéh₂ey 	h₂yuHn̥ḱéh₂i  	h₂yuHn̥ḱéh₂h₁ 	#	thematic      
-young	feminine	dual	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂h₁(e)	—	—	—	—	—	#	thematic      
-young	feminine	plural	h₂yuHn̥ḱéh₂es   	h₂yuHn̥ḱéh₂es   	h₂yuHn̥ḱéh₂m̥s  	h₂yuHn̥ḱéh₂oHom 	h₂yuHn̥ḱéh₂mos  	h₂yuHn̥ḱéh₂mos  	h₂yuHn̥ḱéh₂su   	h₂yuHn̥ḱéh₂bʰi  	#	thematic      
-young	neuter	singular	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóm    	h₂yuHn̥ḱósyo  	h₂yuHn̥ḱéad   	h₂yuHn̥ḱóey   	h₂yuHn̥ḱóy    	h₂yuHn̥ḱóh₁   	#	thematic      
-young	neuter	dual	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱóy(h₁)  	—	—	—	—	—	#	thematic      
-young	neuter	plural	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱóHom    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱóysu    	h₂yuHn̥ḱṓys     	#	thematic      
-old  	masculine	singular	ǵérh₂onts     	ǵérh₂ont      	ǵérh₂ontm̥    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥téy    	ǵr̥h₂énti     	ǵr̥h₂n̥téh₁   	#	amphikinetic  
-old  	masculine	dual	ǵérh₂onth₁(e)   	ǵérh₂onth₁(e)   	ǵérh₂onth₁(e)   	—	—	—	—	—	#	amphikinetic  
-old  	masculine	plural	ǵérh₂ontes      	ǵérh₂ontes      	ǵérh₂ontm̥s     	ǵr̥h₂n̥tóHom    	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tsú      	ǵr̥h₂n̥tbʰí     	#	amphikinetic  
-old  	feminine	singular	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂m̥ 	ǵr̥h₂n̥tyéh₂s 	ǵr̥h₂n̥tyéh₂s 	ǵr̥h₂n̥tyéh₂ey	ǵr̥h₂n̥tyéh₂i 	ǵr̥h₂n̥tyéh₂h₁	#	amphikinetic  
-old  	feminine	dual	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂h₁(e)	—	—	—	—	—	#	amphikinetic  
-old  	feminine	plural	ǵr̥h₂éntih₂es   	ǵr̥h₂éntih₂es   	ǵr̥h₂éntih₂m̥s  	ǵr̥h₂n̥tyéh₂oHom	ǵr̥h₂n̥tyéh₂mos 	ǵr̥h₂n̥tyéh₂mos 	ǵr̥h₂n̥tyéh₂su  	ǵr̥h₂n̥tyéh₂bʰi 	#	amphikinetic  
-old  	neuter	singular	ǵérh₂ont      	ǵérh₂ont      	ǵérh₂ont      	ǵr̥h₂n̥tés    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥téy    	ǵr̥h₂énti     	ǵr̥h₂n̥téh₁   	#	amphikinetic  
-old  	neuter	dual	ǵérh₂ontih₁     	ǵérh₂ontih₁     	ǵérh₂ontih₁     	—	—	—	—	—	#	amphikinetic  
-old  	neuter	plural	ǵérh₂onth₂      	ǵérh₂onth₂      	ǵérh₂onth₂      	ǵr̥h₂n̥tóHom    	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tsú      	ǵr̥h₂n̥tbʰí     	#	amphikinetic  
-upset	masculine	singular	tréystis      	tréysti       	tréystim      	tristéys      	tristéys      	tristéyey     	tristḗy       	tristíh₁      	#	proterokinetic
-upset	masculine	dual	tréystih₁(e)    	tréystih₁(e)    	tréystih₁(e)    	—	—	—	—	—	#	proterokinetic
-upset	masculine	plural	tréysteyes      	tréysteyes      	tréystims       	tristéyoHom     	tristímos       	tristímos       	tristísu        	tristíbʰi       	#	proterokinetic
-upset	feminine	singular	tristéyih₂    	tristéyih₂    	tristéyih₂m̥  	tristiyéh₂s   	tristiyéh₂s   	tristiyéh₂ey  	tristiyéh₂i   	tristiyéh₂h₁  	#	proterokinetic
-upset	feminine	dual	tristéyih₂h₁(e) 	tristéyih₂h₁(e) 	tristéyih₂h₁(e) 	—	—	—	—	—	#	proterokinetic
-upset	feminine	plural	tristéyih₂es    	tristéyih₂es    	tristéyih₂m̥s   	tristiyéh₂oHom  	tristiyéh₂mos   	tristiyéh₂mos   	tristiyéh₂su    	tristiyéh₂bʰi   	#	proterokinetic
-upset	neuter	singular	tréysti       	tréysti       	tréysti       	tristéys      	tristéys      	tristéyey     	tristḗy       	tristíh₁      	#	proterokinetic
-upset	neuter	dual	tréystyih₁      	tréystyih₁      	tréystyih₁      	—	—	—	—	—	#	proterokinetic
-upset	neuter	plural	tréystih₂       	tréystih₂       	tréystih₂       	tristéyoHom     	tristímos       	tristímos       	tristísu        	tristíbʰi       	#	proterokinetic
-												
-												
+*	*	*	*	nominative  	vocative    	accusative  	genitive    	ablative    	dative      	locative    	instrumental	#	declension
+young	positive	masculine	singular	h₂yuHn̥ḱós    	h₂yuHn̥ḱé     	h₂yuHn̥ḱóm    	h₂yuHn̥ḱósyo  	h₂yuHn̥ḱéad   	h₂yuHn̥ḱóey   	h₂yuHn̥ḱóy    	h₂yuHn̥ḱóh₁   	#	thematic      
+young	positive	masculine	dual	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóh₁     	❔	❔	❔	❔	❔	#	thematic      
+young	positive	masculine	plural	h₂yuHn̥ḱóes     	h₂yuHn̥ḱóes     	h₂yuHn̥ḱóms     	h₂yuHn̥ḱóHom    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱóysu    	h₂yuHn̥ḱṓys     	#	thematic      
+young	positive	feminine	singular	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱā́m   	h₂yuHn̥ḱéh₂s  	h₂yuHn̥ḱéh₂s  	h₂yuHn̥ḱéh₂ey 	h₂yuHn̥ḱéh₂i  	h₂yuHn̥ḱéh₂h₁ 	#	thematic      
+young	positive	feminine	dual	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂h₁(e)	❔	❔	❔	❔	❔	#	thematic      
+young	positive	feminine	plural	h₂yuHn̥ḱéh₂es   	h₂yuHn̥ḱéh₂es   	h₂yuHn̥ḱéh₂m̥s  	h₂yuHn̥ḱéh₂oHom 	h₂yuHn̥ḱéh₂mos  	h₂yuHn̥ḱéh₂mos  	h₂yuHn̥ḱéh₂su   	h₂yuHn̥ḱéh₂bʰi  	#	thematic      
+young	positive	neuter	singular	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóm    	h₂yuHn̥ḱósyo  	h₂yuHn̥ḱéad   	h₂yuHn̥ḱóey   	h₂yuHn̥ḱóy    	h₂yuHn̥ḱóh₁   	#	thematic      
+young	positive	neuter	dual	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱóy(h₁)  	❔	❔	❔	❔	❔	#	thematic      
+young	positive	neuter	plural	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱóHom    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱóysu    	h₂yuHn̥ḱṓys     	#	thematic      
+young	comparative	masculine	singular	h₂yuHn̥ḱ(é)yōs 	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yosm̥ 	h₂yuHn̥ḱisés 	h₂yuHn̥ḱisés 	h₂yuHn̥ḱiséy 	h₂yuHn̥ḱyés, h₂yuHn̥ḱyési 	h₂yuHn̥ḱiséh₁ 	#	
+young	comparative	masculine	dual	h₂yuHn̥ḱ(é)yosh₁(e) 	h₂yuHn̥ḱ(é)yosh₁(e) 	h₂yuHn̥ḱ(é)yosh₁(e) 	❔	❔	❔	❔	❔	#	
+young	comparative	masculine	plural	h₂yuHn̥ḱ(é)yoses	h₂yuHn̥ḱ(é)yoses	h₂yuHn̥ḱ(é)yosm̥s	h₂yuHn̥ḱisóHom	h₂yuHn̥ḱismós	h₂yuHn̥ḱismós	h₂yuHn̥ḱisú	h₂yuHn̥ḱismís 	#	
+young	comparative	feminine	singular	h₂yuHn̥ḱyésih₂ 	h₂yuHn̥ḱyésih₂ 	h₂yuHn̥ḱyésih₂m̥ 	h₂yuHn̥ḱisyéh₂s 	h₂yuHn̥ḱisyéh₂s 	h₂yuHn̥ḱisyéh₂ey 	h₂yuHn̥ḱisyéh₂, h₂yuHn̥ḱisyéh₂i 	h₂yuHn̥ḱisyéh₂h₁ 	#	
+young	comparative	feminine	dual	h₂yuHn̥ḱyésih₂h₁(e) 	h₂yuHn̥ḱyésih₂h₁(e) 	h₂yuHn̥ḱyésih₂h₁(e) 	❔	❔	❔	❔	❔	#	
+young	comparative	feminine	plural	h₂yuHn̥ḱyésih₂es	h₂yuHn̥ḱyésih₂es	h₂yuHn̥ḱyésih₂m̥s	h₂yuHn̥ḱisyéh₂oHom	h₂yuHn̥ḱisyéh₂mos	h₂yuHn̥ḱisyéh₂mos	h₂yuHn̥ḱisyéh₂su	h₂yuHn̥ḱisyéh₂mis 	#	
+young	comparative	neuter	singular	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱisés 	h₂yuHn̥ḱisés 	h₂yuHn̥ḱiséy 	h₂yuHn̥ḱyés, h₂yuHn̥ḱyési 	h₂yuHn̥ḱiséh₁ 	#	
+young	comparative	neuter	dual	h₂yuHn̥ḱ(é)yosih₁ 	h₂yuHn̥ḱ(é)yosih₁ 	h₂yuHn̥ḱ(é)yosih₁ 	❔	❔	❔	❔	❔	#	
+young	comparative	neuter	plural	h₂yuHn̥ḱ(é)yōs	h₂yuHn̥ḱ(é)yōs	h₂yuHn̥ḱ(é)yōs	h₂yuHn̥ḱisóHom	h₂yuHn̥ḱismós	h₂yuHn̥ḱismós	h₂yuHn̥ḱisú	h₂yuHn̥ḱismís 	#	
+old  	positive	masculine	singular	ǵérh₂onts     	ǵérh₂ont      	ǵérh₂ontm̥    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥téy    	ǵr̥h₂énti     	ǵr̥h₂n̥téh₁   	#	amphikinetic  
+old  	positive	masculine	dual	ǵérh₂onth₁(e)   	ǵérh₂onth₁(e)   	ǵérh₂onth₁(e)   	❔	❔	❔	❔	❔	#	amphikinetic  
+old  	positive	masculine	plural	ǵérh₂ontes      	ǵérh₂ontes      	ǵérh₂ontm̥s     	ǵr̥h₂n̥tóHom    	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tsú      	ǵr̥h₂n̥tbʰí     	#	amphikinetic  
+old  	positive	feminine	singular	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂m̥ 	ǵr̥h₂n̥tyéh₂s 	ǵr̥h₂n̥tyéh₂s 	ǵr̥h₂n̥tyéh₂ey	ǵr̥h₂n̥tyéh₂i 	ǵr̥h₂n̥tyéh₂h₁	#	amphikinetic  
+old  	positive	feminine	dual	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂h₁(e)	❔	❔	❔	❔	❔	#	amphikinetic  
+old  	positive	feminine	plural	ǵr̥h₂éntih₂es   	ǵr̥h₂éntih₂es   	ǵr̥h₂éntih₂m̥s  	ǵr̥h₂n̥tyéh₂oHom	ǵr̥h₂n̥tyéh₂mos 	ǵr̥h₂n̥tyéh₂mos 	ǵr̥h₂n̥tyéh₂su  	ǵr̥h₂n̥tyéh₂bʰi 	#	amphikinetic  
+old  	positive	neuter	singular	ǵérh₂ont      	ǵérh₂ont      	ǵérh₂ont      	ǵr̥h₂n̥tés    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥téy    	ǵr̥h₂énti     	ǵr̥h₂n̥téh₁   	#	amphikinetic  
+old  	positive	neuter	dual	ǵérh₂ontih₁     	ǵérh₂ontih₁     	ǵérh₂ontih₁     	❔	❔	❔	❔	❔	#	amphikinetic  
+old  	positive	neuter	plural	ǵérh₂onth₂      	ǵérh₂onth₂      	ǵérh₂onth₂      	ǵr̥h₂n̥tóHom    	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tsú      	ǵr̥h₂n̥tbʰí     	#	amphikinetic  
+old	comparative	masculine	singular	ǵérh₂ont(é)yōs 	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yosm̥ 	ǵérh₂ontisés 	ǵérh₂ontisés 	ǵérh₂ontiséy 	ǵérh₂ontyés, ǵérh₂ontyési 	ǵérh₂ontiséh₁ 	#	
+old	comparative	masculine	dual	ǵérh₂ont(é)yosh₁(e) 	ǵérh₂ont(é)yosh₁(e) 	ǵérh₂ont(é)yosh₁(e) 	❔	❔	❔	❔	❔	#	
+old	comparative	masculine	plural	ǵérh₂ont(é)yoses	ǵérh₂ont(é)yoses	ǵérh₂ont(é)yosm̥s	ǵérh₂ontisóHom	ǵérh₂ontismós	ǵérh₂ontismós	ǵérh₂ontisú	ǵérh₂ontismís 	#	
+old	comparative	feminine	singular	ǵérh₂ontyésih₂ 	ǵérh₂ontyésih₂ 	ǵérh₂ontyésih₂m̥ 	ǵérh₂ontisyéh₂s 	ǵérh₂ontisyéh₂s 	ǵérh₂ontisyéh₂ey 	ǵérh₂ontisyéh₂, ǵérh₂ontisyéh₂i 	ǵérh₂ontisyéh₂h₁ 	#	
+old	comparative	feminine	dual	ǵérh₂ontyésih₂h₁(e) 	ǵérh₂ontyésih₂h₁(e) 	ǵérh₂ontyésih₂h₁(e) 	❔	❔	❔	❔	❔	#	
+old	comparative	feminine	plural	ǵérh₂ontyésih₂es	ǵérh₂ontyésih₂es	ǵérh₂ontyésih₂m̥s	ǵérh₂ontisyéh₂oHom	ǵérh₂ontisyéh₂mos	ǵérh₂ontisyéh₂mos	ǵérh₂ontisyéh₂su	ǵérh₂ontisyéh₂mis 	#	
+old	comparative	neuter	singular	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yos 	ǵérh₂ontisés 	ǵérh₂ontisés 	ǵérh₂ontiséy 	ǵérh₂ontyés, ǵérh₂ontyési 	ǵérh₂ontiséh₁ 	#	
+old	comparative	neuter	dual	ǵérh₂ont(é)yosih₁ 	ǵérh₂ont(é)yosih₁ 	ǵérh₂ont(é)yosih₁ 	❔	❔	❔	❔	❔	#	
+old	comparative	neuter	plural	ǵérh₂ont(é)yōs	ǵérh₂ont(é)yōs	ǵérh₂ont(é)yōs	ǵérh₂ontisóHom	ǵérh₂ontismós	ǵérh₂ontismós	ǵérh₂ontisú	ǵérh₂ontismís 	#	
+upset	positive	masculine	singular	tréystis      	tréysti       	tréystim      	tristéys      	tristéys      	tristéyey     	tristḗy       	tristíh₁      	#	proterokinetic
+upset	positive	masculine	dual	tréystih₁(e)    	tréystih₁(e)    	tréystih₁(e)    	❔	❔	❔	❔	❔	#	proterokinetic
+upset	positive	masculine	plural	tréysteyes      	tréysteyes      	tréystims       	tristéyoHom     	tristímos       	tristímos       	tristísu        	tristíbʰi       	#	proterokinetic
+upset	positive	feminine	singular	tristéyih₂    	tristéyih₂    	tristéyih₂m̥  	tristiyéh₂s   	tristiyéh₂s   	tristiyéh₂ey  	tristiyéh₂i   	tristiyéh₂h₁  	#	proterokinetic
+upset	positive	feminine	dual	tristéyih₂h₁(e) 	tristéyih₂h₁(e) 	tristéyih₂h₁(e) 	❔	❔	❔	❔	❔	#	proterokinetic
+upset	positive	feminine	plural	tristéyih₂es    	tristéyih₂es    	tristéyih₂m̥s   	tristiyéh₂oHom  	tristiyéh₂mos   	tristiyéh₂mos   	tristiyéh₂su    	tristiyéh₂bʰi   	#	proterokinetic
+upset	positive	neuter	singular	tréysti       	tréysti       	tréysti       	tristéys      	tristéys      	tristéyey     	tristḗy       	tristíh₁      	#	proterokinetic
+upset	positive	neuter	dual	tréystyih₁      	tréystyih₁      	tréystyih₁      	❔	❔	❔	❔	❔	#	proterokinetic
+upset	positive	neuter	plural	tréystih₂       	tréystih₂       	tréystih₂       	tristéyoHom     	tristímos       	tristímos       	tristísu        	tristíbʰi       	#	proterokinetic
+upset	comparative	masculine	singular	tréyst(é)yōs 	tréyst(é)yos 	tréyst(é)yosm̥ 	tréystisés 	tréystisés 	tréystiséy 	tréystyés, tréystyési 	tréystiséh₁ 	#	
+upset	comparative	masculine	dual	tréyst(é)yosh₁(e) 	tréyst(é)yosh₁(e) 	tréyst(é)yosh₁(e) 	❔	❔	❔	❔	❔	#	
+upset	comparative	masculine	plural	tréyst(é)yoses	tréyst(é)yoses	tréyst(é)yosm̥s	tréystisóHom	tréystismós	tréystismós	tréystisú	tréystismís 	#	
+upset	comparative	feminine	singular	tréystyésih₂ 	tréystyésih₂ 	tréystyésih₂m̥ 	tréystisyéh₂s 	tréystisyéh₂s 	tréystisyéh₂ey 	tréystisyéh₂, tréystisyéh₂i 	tréystisyéh₂h₁ 	#	
+upset	comparative	feminine	dual	tréystyésih₂h₁(e) 	tréystyésih₂h₁(e) 	tréystyésih₂h₁(e) 	❔	❔	❔	❔	❔	#	
+upset	comparative	feminine	plural	tréystyésih₂es	tréystyésih₂es	tréystyésih₂m̥s	tréystisyéh₂oHom	tréystisyéh₂mos	tréystisyéh₂mos	tréystisyéh₂su	tréystisyéh₂mis 	#	
+upset	comparative	neuter	singular	tréyst(é)yos 	tréyst(é)yos 	tréyst(é)yos 	tréystisés 	tréystisés 	tréystiséy 	tréystyés, tréystyési 	tréystiséh₁ 	#	
+upset	comparative	neuter	dual	tréyst(é)yosih₁ 	tréyst(é)yosih₁ 	tréyst(é)yosih₁ 	❔	❔	❔	❔	❔	#	
+upset	comparative	neuter	plural	tréyst(é)yōs	tréyst(é)yōs	tréyst(é)yōs	tréystisóHom	tréystismós	tréystismós	tréystisú	tréystismís 	#	

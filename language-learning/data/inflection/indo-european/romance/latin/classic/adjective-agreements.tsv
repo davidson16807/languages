@@ -1,52 +1,145 @@
-*	*	*	nominative	genitive  	dative    	accusative	ablative  	vocative  	#	declension
-tall	masculine	singular	altus 	altī 	altō 	altum 	altō 	alte 	#	1/2, -us
-tall	feminine	singular	alta 	altae 	altae 	altam 	altā 	alta 	#	1/2, -us
-tall	neuter	singular	altum 	altī 	altō 	altum 	altō 	altum 	#	1/2, -us
-tall	masculine	plural	altī 	altōrum 	altīs	altōs 	altīs	altī 	#	1/2, -us
-tall	feminine	plural	altae 	altārum 	altīs	altās 	altīs	altae 	#	1/2, -us
-tall	neuter	plural	alta	altōrum	altīs	alta	altīs	alta	#	1/2, -us
-holy	masculine	singular	sacer 	sacrī 	sacrō 	sacrum 	sacrō 	sacer 	#	1/2, -er
-holy	feminine	singular	sacra 	sacrae 	sacrae 	sacram 	sacrā 	sacra 	#	1/2, -er
-holy	neuter	singular	sacrum 	sacrī 	sacrō 	sacrum 	sacrō 	sacrum 	#	1/2, -er
-holy	masculine	plural	sacrī 	sacrōrum 	sacrīs	sacrōs 	sacrīs	sacrī 	#	1/2, -er
-holy	feminine	plural	sacrae 	sacrārum 	sacrīs	sacrās 	sacrīs	sacrae 	#	1/2, -er
-holy	neuter	plural	sacra	sacrōrum	sacrīs	sacra	sacrīs	sacra	#	1/2, -er
-poor	masculine	singular	miser 	miserī 	miserō 	miserum 	miserō 	miser 	#	1/2, -er
-poor	feminine	singular	misera 	miserae 	miserae 	miseram 	miserā 	misera 	#	1/2, -er
-poor	neuter	singular	miserum 	miserī 	miserō 	miserum 	miserō 	miserum 	#	1/2, -er
-poor	masculine	plural	miserī 	miserōrum 	miserīs	miserōs 	miserīs	miserī 	#	1/2, -er
-poor	feminine	plural	miserae 	miserārum 	miserīs	miserās 	miserīs	miserae 	#	1/2, -er
-poor	neuter	plural	misera	miserōrum	miserīs	misera	miserīs	misera	#	1/2, -er
-mean	masculine	singular	atrōx	atrōcis	atrōcī	atrōcem	atrōcī	atrōx 	#	3, one ending
-mean	feminine	singular	atrōx	atrōcis	atrōcī	atrōcem	atrōcī	atrōx 	#	3, one ending
-mean	neuter	singular	atrōx	atrōcis	atrōcī	atrōx	atrōcī	atrōx 	#	3, one ending
-mean	masculine	plural	atrōcēs	atrōcium	atrōcibus	atrōcēs	atrōcibus	atrōcēs 	#	3, one ending
-mean	feminine	plural	atrōcēs	atrōcium	atrōcibus	atrōcēs	atrōcibus	atrōcēs 	#	3, one ending
-mean	neuter	plural	atrōcia	atrōcium	atrōcibus	atrōcia	atrōcibus	atrōcia	#	3, one ending
-old	masculine	singular	vetus	veteris	veterī	veterem	vetere	vetus 	#	3, one ending, non-i-stem
-old	feminine	singular	vetus	veteris	veterī	veterem	vetere	vetus 	#	3, one ending, non-i-stem
-old	neuter	singular	vetus	veteris	veterī	vetus	vetere	vetus 	#	3, one ending, non-i-stem
-old	masculine	plural	veterēs	veterum	veteribus	veterēs	veteribus	veterēs 	#	3, one ending, non-i-stem
-old	feminine	plural	veterēs	veterum	veteribus	veterēs	veteribus	veterēs 	#	3, one ending, non-i-stem
-old	neuter	plural	vetera	veterum	veteribus	vetera	veteribus	vetera	#	3, one ending, non-i-stem
-nimble	masculine	singular	agilis	agilis	agilī	agilem	agilī	agilis 	#	3, two endings
-nimble	feminine	singular	agilis	agilis	agilī	agilem	agilī	agilis 	#	3, two endings
-nimble	neuter	singular	agile	agilis	agilī	agile	agilī	agile	#	3, two endings
-nimble	masculine	plural	agilēs	agilium	agilibus	agilēs|agilīs	agilibus	agilēs 	#	3, two endings
-nimble	feminine	plural	agilēs	agilium	agilibus	agilēs|agilīs	agilibus	agilēs 	#	3, two endings
-nimble	neuter	plural	agilia	agilium	agilibus	agilia	agilibus	agilia	#	3, two endings
-swift	masculine	singular	celer	celeris	celerī	celerem	celerī	celer 	#	3, three endings
-swift	feminine	singular	celeris	celeris	celerī	celerem	celerī	celeris	#	3, three endings
-swift	neuter	singular	celere	celeris	celerī	celere	celerī	celere	#	3, three endings
-swift	masculine	plural	celerēs	celerium	celeribus	celerēs	celeribus	celerēs 	#	3, three endings
-swift	feminine	plural	celerēs	celerium	celeribus	celerēs	celeribus	celerēs 	#	3, three endings
-swift	neuter	plural	celeria	celerium	celeribus	celeria	celeribus	celeria	#	3, three endings
-jovial	masculine	singular	alacer	alacris	alacrī	alacrem	alacrī	alacer 	#	3, three endings
-jovial	feminine	singular	alacris	alacris	alacrī	alacrem	alacrī	alacris	#	3, three endings
-jovial	neuter	singular	alacre	alacris	alacrī	alacre	alacrī	alacre	#	3, three endings
-jovial	masculine	plural	alacrēs	alacrium	alacribus	alacrēs	alacribus	alacrēs 	#	3, three endings
-jovial	feminine	plural	alacrēs	alacrium	alacribus	alacrēs	alacribus	alacrēs 	#	3, three endings
-jovial	neuter	plural	alacria	alacrium	alacribus	alacria	alacribus	alacria	#	3, three endings
-										
-										
-										
+*	*	*	*	nominative	genitive  	dative    	accusative	ablative  	vocative  	#	declension					
+tall	masculine	positive	singular	altus 	altī 	altō 	altum 	altō 	alte 	#	1/2, -us					
+tall	feminine	positive	singular	alta 	altae 	altae 	altam 	altā 	alta 	#	1/2, -us					
+tall	neuter	positive	singular	altum 	altī 	altō 	altum 	altō 	altum 	#	1/2, -us					
+tall	masculine	positive	plural	altī 	altōrum 	altīs	altōs 	altīs	altī 	#	1/2, -us					
+tall	feminine	positive	plural	altae 	altārum 	altīs	altās 	altīs	altae 	#	1/2, -us					
+tall	neuter	positive	plural	alta	altōrum	altīs	alta	altīs	alta	#	1/2, -us					
+tall	masculine	comparative	singular	altior	altiōris	altiōrī	altiōrem	altiōre	altior 	#						
+tall	feminine	comparative	singular	altior	altiōris	altiōrī	altiōrem	altiōre	altior 	#						
+tall	neuter	comparative	singular	altius	altiōris	altiōrī	altius	altiōre	altius	#						
+tall	masculine	comparative	plural	altiōrēs	altiōrum	altiōribus	altiōrēs	altiōribus	altiōrēs 	#						
+tall	feminine	comparative	plural	altiōrēs	altiōrum	altiōribus	altiōrēs	altiōribus	altiōrēs 	#						
+tall	neuter	comparative	plural	altiōra	altiōrum	altiōribus	altiōra	altiōribus	altiōra	#						
+tall	masculine	superlative	singular	altissimus	altissimī	altissimō	altissimum	altissimō	altissime 	#						
+tall	feminine	superlative	singular	altissima	altissimae	altissimae	altissimam	altissimā	altissima 	#						
+tall	neuter	superlative	singular	altissimum	altissimī	altissimō	altissimum	altissimō	altissimum 	#						
+tall	masculine	superlative	plural	altissimī	altissimōrum	altissimīs	altissimōs	altissimīs	altissimī 	#						
+tall	feminine	superlative	plural	altissimae	altissimārum 	altissimārum 	altissimās	altissimīs	altissimae	#						
+tall	neuter	superlative	plural	altissima	altissimōrum 	altissimōrum 	altissima	altissimīs	altissima	#						
+holy	masculine	positive	singular	sacer 	sacrī 	sacrō 	sacrum 	sacrō 	sacer 	#	1/2, -er					
+holy	feminine	positive	singular	sacra 	sacrae 	sacrae 	sacram 	sacrā 	sacra 	#	1/2, -er					
+holy	neuter	positive	singular	sacrum 	sacrī 	sacrō 	sacrum 	sacrō 	sacrum 	#	1/2, -er					
+holy	masculine	positive	plural	sacrī 	sacrōrum 	sacrīs	sacrōs 	sacrīs	sacrī 	#	1/2, -er					
+holy	feminine	positive	plural	sacrae 	sacrārum 	sacrīs	sacrās 	sacrīs	sacrae 	#	1/2, -er					
+holy	neuter	positive	plural	sacra	sacrōrum	sacrīs	sacra	sacrīs	sacra	#	1/2, -er					
+holy	masculine	comparative	singular	sacrior	❔	❔	❔	❔	❔	#						
+holy	feminine	comparative	singular	❔	❔	❔	❔	❔	❔	#						
+holy	neuter	comparative	singular	❔	❔	❔	❔	❔	❔	#						
+holy	masculine	comparative	plural	❔	❔	❔	❔	❔	❔	#						
+holy	feminine	comparative	plural	❔	❔	❔	❔	❔	❔	#						
+holy	neuter	comparative	plural	❔	❔	❔	❔	❔	❔	#						
+holy	masculine	superlative	singular	sacerrimus	sacerrimī	sacerrimō	sacerrimum	sacerrimō	sacerrime 	#						
+holy	feminine	superlative	singular	sacerrima	sacerrimae	sacerrimae	sacerrimam	sacerrimā	sacerrima 	#						
+holy	neuter	superlative	singular	sacerrimum	sacerrimī	sacerrimō	sacerrimum	sacerrimō	sacerrimum 	#						
+holy	masculine	superlative	plural	sacerrimī	sacerrimōrum	sacerrimīs	sacerrimōs 	sacerrimīs	sacerrimī 	#						
+holy	feminine	superlative	plural	sacerrimae	sacerrimārum 	sacerrimīs	sacerrimās 	sacerrimīs	sacerrimae 	#						
+holy	neuter	superlative	plural	sacerrima	sacerrimōrum 	sacerrimīs	sacerrima 	sacerrimīs	sacerrima 	#						
+poor	masculine	positive	singular	miser 	miserī 	miserō 	miserum 	miserō 	miser 	#	1/2, -er					
+poor	feminine	positive	singular	misera 	miserae 	miserae 	miseram 	miserā 	misera 	#	1/2, -er					
+poor	neuter	positive	singular	miserum 	miserī 	miserō 	miserum 	miserō 	miserum 	#	1/2, -er					
+poor	masculine	positive	plural	miserī 	miserōrum 	miserīs	miserōs 	miserīs	miserī 	#	1/2, -er					
+poor	feminine	positive	plural	miserae 	miserārum 	miserīs	miserās 	miserīs	miserae 	#	1/2, -er					
+poor	neuter	positive	plural	misera	miserōrum	miserīs	misera	miserīs	misera	#	1/2, -er					
+poor	masculine	comparative	singular	miserior	miseriōris	miseriōrī	miseriōrem	miseriōre	miserior 	#						
+poor	feminine	comparative	singular	miserior	miseriōris	miseriōrī	miseriōrem	miseriōre	miserior 	#						
+poor	neuter	comparative	singular	miserius	miseriōris	miseriōrī	miserius	miseriōre	miserius	#						
+poor	masculine	comparative	plural	miseriōrēs	miseriōrum	miseriōribus	miseriōrēs	miseriōribus	miseriōrēs 	#						
+poor	feminine	comparative	plural	miseriōrēs	miseriōrum	miseriōribus	miseriōrēs	miseriōribus	miseriōrēs 	#						
+poor	neuter	comparative	plural	miseriōra	miseriōrum	miseriōribus	miseriōra	miseriōribus	miseriōra	#						
+poor	masculine	superlative	singular	miserrimus 	miserrimī 	miserrimō 	miserrimum 	miserrimō 	miserrime 	#						
+poor	feminine	superlative	singular	miserrima 	miserrimae 	miserrimae 	miserrimam 	miserrimā 	miserrima 	#						
+poor	neuter	superlative	singular	miserrimum	miserrimī	miserrimō	miserrimum	miserrimō	miserrimum 	#						
+poor	masculine	superlative	plural	miserrimī 	miserrimōrum 	miserrimīs	miserrimōs 	miserrimīs	miserrimī 	#						
+poor	feminine	superlative	plural	miserrimae 	miserrimārum 	miserrimīs	miserrimās 	miserrimīs	miserrimae 	#						
+poor	neuter	superlative	plural	miserrima	miserrimōrum	miserrimīs	miserrima	miserrimīs	miserrima 	#						
+mean	masculine	positive	singular	atrōx	atrōcis	atrōcī	atrōcem	atrōcī	atrōx 	#	3, one ending					
+mean	feminine	positive	singular	atrōx	atrōcis	atrōcī	atrōcem	atrōcī	atrōx 	#	3, one ending					
+mean	neuter	positive	singular	atrōx	atrōcis	atrōcī	atrōx	atrōcī	atrōx 	#	3, one ending					
+mean	masculine	positive	plural	atrōcēs	atrōcium	atrōcibus	atrōcēs	atrōcibus	atrōcēs 	#	3, one ending					
+mean	feminine	positive	plural	atrōcēs	atrōcium	atrōcibus	atrōcēs	atrōcibus	atrōcēs 	#	3, one ending					
+mean	neuter	positive	plural	atrōcia	atrōcium	atrōcibus	atrōcia	atrōcibus	atrōcia	#	3, one ending					
+mean	masculine	comparative	singular	atrōcior	atrōciōris	atrōciōrī	atrōciōrem	atrōciōre	atrōcior 	#						
+mean	feminine	comparative	singular	atrōcior	atrōciōris	atrōciōrī	atrōciōrem	atrōciōre	atrōcior 	#						
+mean	neuter	comparative	singular	atrōcius	atrōciōris	atrōciōrī	atrōcius	atrōciōre	atrōcius	#						
+mean	masculine	comparative	plural	atrōciōrēs	atrōciōrum	atrōciōribus	atrōciōrēs	atrōciōribus	atrōciōrēs 	#						
+mean	feminine	comparative	plural	atrōciōrēs	atrōciōrum	atrōciōribus	atrōciōrēs	atrōciōribus	atrōciōrēs 	#						
+mean	neuter	comparative	plural	atrōciōra	atrōciōrum	atrōciōribus	atrōciōra	atrōciōribus	atrōciōra	#						
+mean	masculine	superlative	singular	atrōcissimus	atrōcissimī	atrōcissimō	atrōcissimum	atrōcissimō	atrōcissime 	#						
+mean	feminine	superlative	singular	atrōcissima	atrōcissimae	atrōcissimae	atrōcissimam	atrōcissimā	atrōcissima 	#						
+mean	neuter	superlative	singular	atrōcissimum	atrōcissimī	atrōcissimō	atrōcissimum	atrōcissimō	atrōcissimum 	#						
+mean	masculine	superlative	plural	atrōcissimī	atrōcissimōrum	atrōcissimīs	atrōcissimōs 	atrōcissimīs	atrōcissimī 	#						
+mean	feminine	superlative	plural	atrōcissimae	atrōcissimārum 	atrōcissimīs	atrōcissimās 	atrōcissimīs	atrōcissimae 	#						
+mean	neuter	superlative	plural	atrōcissima	atrōcissimōrum 	atrōcissimīs	atrōcissima 	atrōcissimīs	atrōcissima 	#						
+old	masculine	positive	singular	vetus	veteris	veterī	veterem	vetere	vetus 	#	3, one ending, non-i-stem					
+old	feminine	positive	singular	vetus	veteris	veterī	veterem	vetere	vetus 	#	3, one ending, non-i-stem					
+old	neuter	positive	singular	vetus	veteris	veterī	vetus	vetere	vetus 	#	3, one ending, non-i-stem					
+old	masculine	positive	plural	veterēs	veterum	veteribus	veterēs	veteribus	veterēs 	#	3, one ending, non-i-stem					
+old	feminine	positive	plural	veterēs	veterum	veteribus	veterēs	veteribus	veterēs 	#	3, one ending, non-i-stem					
+old	neuter	positive	plural	vetera	veterum	veteribus	vetera	veteribus	vetera	#	3, one ending, non-i-stem					
+old	masculine	comparative	singular	vetustior	vetustiōris	vetustiōrī	vetustiōrem	vetustiōre	vetustior 	#						
+old	feminine	comparative	singular	vetustior	vetustiōris	vetustiōrī	vetustiōrem	vetustiōre	vetustior 	#						
+old	neuter	comparative	singular	vetustius	vetustiōris	vetustiōrī	vetustius	vetustiōre	vetustius	#						
+old	masculine	comparative	plural	vetustiōrēs	vetustiōrum	vetustiōribus	vetustiōrēs	vetustiōribus	vetustiōrēs 	#						
+old	feminine	comparative	plural	vetustiōrēs	vetustiōrum	vetustiōribus	vetustiōrēs	vetustiōribus	vetustiōrēs 	#						
+old	neuter	comparative	plural	vetustiōra	vetustiōrum	vetustiōribus	vetustiōra	vetustiōribus	vetustiōra	#						
+old	masculine	superlative	singular	vetustissimus 	vetustissimī 	vetustissimō 	vetustissimum 	vetustissimō 	vetustissime 	#						
+old	feminine	superlative	singular	vetustissima 	vetustissimae 	vetustissimae 	vetustissimam 	vetustissimā 	vetustissima 	#						
+old	neuter	superlative	singular	vetustissimum	vetustissimī	vetustissimō	vetustissimum	vetustissimō	vetustissimum 	#						
+old	masculine	superlative	plural	vetustissimī 	vetustissimōrum 	vetustissimīs	vetustissimōs 	vetustissimīs	vetustissimī 	#						
+old	feminine	superlative	plural	vetustissimae 	vetustissimārum 	vetustissimīs	vetustissimās 	vetustissimīs	vetustissimae 	#						
+old	neuter	superlative	plural	vetustissima	vetustissimōrum	vetustissimīs	vetustissima	vetustissimīs	vetustissima 	#						
+nimble	masculine	positive	singular	agilis	agilis	agilī	agilem	agilī	agilis 	#	3, two endings					
+nimble	feminine	positive	singular	agilis	agilis	agilī	agilem	agilī	agilis 	#	3, two endings					
+nimble	neuter	positive	singular	agile	agilis	agilī	agile	agilī	agile	#	3, two endings					
+nimble	masculine	positive	plural	agilēs	agilium	agilibus	agilēs|agilīs	agilibus	agilēs 	#	3, two endings					
+nimble	feminine	positive	plural	agilēs	agilium	agilibus	agilēs|agilīs	agilibus	agilēs 	#	3, two endings					
+nimble	neuter	positive	plural	agilia	agilium	agilibus	agilia	agilibus	agilia	#	3, two endings					
+nimble	masculine	comparative	singular	❕	❕	❕	❕	❕	❕	#						
+nimble	feminine	comparative	singular	❕	❕	❕	❕	❕	❕	#						
+nimble	neuter	comparative	singular	❕	❕	❕	❕	❕	❕	#						
+nimble	masculine	comparative	plural	❕	❕	❕	❕	❕	❕	#						
+nimble	feminine	comparative	plural	❕	❕	❕	❕	❕	❕	#						
+nimble	neuter	comparative	plural	❕	❕	❕	❕	❕	❕	#						
+nimble	masculine	superlative	singular	❕	❕	❕	❕	❕	❕	#						
+nimble	feminine	superlative	singular	❕	❕	❕	❕	❕	❕	#						
+nimble	neuter	superlative	singular	❕	❕	❕	❕	❕	❕	#						
+nimble	masculine	superlative	plural	❕	❕	❕	❕	❕	❕	#						
+nimble	feminine	superlative	plural	❕	❕	❕	❕	❕	❕	#						
+nimble	neuter	superlative	plural	❕	❕	❕	❕	❕	❕	#						
+swift	masculine	positive	singular	celer	celeris	celerī	celerem	celerī	celer 	#	3, three endings					
+swift	feminine	positive	singular	celeris	celeris	celerī	celerem	celerī	celeris	#	3, three endings					
+swift	neuter	positive	singular	celere	celeris	celerī	celere	celerī	celere	#	3, three endings					
+swift	masculine	positive	plural	celerēs	celerium	celeribus	celerēs	celeribus	celerēs 	#	3, three endings					
+swift	feminine	positive	plural	celerēs	celerium	celeribus	celerēs	celeribus	celerēs 	#	3, three endings					
+swift	neuter	positive	plural	celeria	celerium	celeribus	celeria	celeribus	celeria	#	3, three endings					
+swift	masculine	comparative	singular	❕	❕	❕	❕	❕	❕	#						
+swift	feminine	comparative	singular	❕	❕	❕	❕	❕	❕	#						
+swift	neuter	comparative	singular	❕	❕	❕	❕	❕	❕	#						
+swift	masculine	comparative	plural	❕	❕	❕	❕	❕	❕	#						
+swift	feminine	comparative	plural	❕	❕	❕	❕	❕	❕	#						
+swift	neuter	comparative	plural	❕	❕	❕	❕	❕	❕	#						
+swift	masculine	superlative	singular	❕	❕	❕	❕	❕	❕	#						
+swift	feminine	superlative	singular	❕	❕	❕	❕	❕	❕	#						
+swift	neuter	superlative	singular	❕	❕	❕	❕	❕	❕	#						
+swift	masculine	superlative	plural	❕	❕	❕	❕	❕	❕	#						
+swift	feminine	superlative	plural	❕	❕	❕	❕	❕	❕	#						
+swift	neuter	superlative	plural	❕	❕	❕	❕	❕	❕	#						
+jovial	masculine	positive	singular	alacer	alacris	alacrī	alacrem	alacrī	alacer 	#	3, three endings					
+jovial	feminine	positive	singular	alacris	alacris	alacrī	alacrem	alacrī	alacris	#	3, three endings					
+jovial	neuter	positive	singular	alacre	alacris	alacrī	alacre	alacrī	alacre	#	3, three endings					
+jovial	masculine	positive	plural	alacrēs	alacrium	alacribus	alacrēs	alacribus	alacrēs 	#	3, three endings					
+jovial	feminine	positive	plural	alacrēs	alacrium	alacribus	alacrēs	alacribus	alacrēs 	#	3, three endings					
+jovial	neuter	positive	plural	alacria	alacrium	alacribus	alacria	alacribus	alacria	#	3, three endings					
+jovial	masculine	comparative	singular	alacrior	alacriōris	alacriōrī	alacriōrem	alacriōre	alacrior 	#						
+jovial	feminine	comparative	singular	alacrior	alacriōris	alacriōrī	alacriōrem	alacriōre	alacrior 	#						
+jovial	neuter	comparative	singular	alacrior	alacriōris	alacriōrī	alacrius	alacriōre	alacrius	#						
+jovial	masculine	comparative	plural	alacriōrēs	alacriōrum	alacriōribus	alacriōrēs	alacriōribus	alacriōrēs 	#						
+jovial	feminine	comparative	plural	alacriōrēs	alacriōrum	alacriōribus	alacriōrēs	alacriōribus	alacriōrēs 	#						
+jovial	neuter	comparative	plural	alacriōrēs	alacriōrum	alacriōribus	alacriōra	alacriōribus	alacriōra	#						
+jovial	masculine	superlative	singular	alacerrimus	❔	❔	❔	❔	❔	#						
+jovial	feminine	superlative	singular	❔	❔	❔	❔	❔	❔	#						
+jovial	neuter	superlative	singular	❔	❔	❔	❔	❔	❔	#						
+jovial	masculine	superlative	plural	❔	❔	❔	❔	❔	❔	#						
+jovial	feminine	superlative	plural	❔	❔	❔	❔	❔	❔	#						
+jovial	neuter	superlative	plural	❔	❔	❔	❔	❔	❔	#						

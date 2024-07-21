@@ -1,55 +1,136 @@
-*	*	*	nominative	vocative	accusative 	genitive 	dative 	instrumental 	locative 	#	
-old	singular	feminine	sen-ā	sen-a	sen-in	sen-ās	sen-ī	sen-ī, sen-iā	sen-ī	#	o/a stem
-old	singular	masculine	sen-os	sen-e	sen-on	sen-ī	sen-ū	sen-ū	sen-ē	#	
-old	singular	neuter	sen-on	sen-on	sen-on	sen-ī	sen-ū	sen-ū	sen-ē	#	
-old	dual	feminine	sen-ī, sen-ii	sen-ī, sen-ii	sen-ī, sen-ii	sen-iōs, sen-ious	sen-ābon	sen-ābin	sen-ābin	#	
-old	dual	masculine	sen-ō	sen-ō	sen-ō	sen-ōs	sen-obon	sen-obin	sen-ou	#	
-old	dual	neuter	sen-oi	sen-oi	sen-oi	sen-iōs	sen-obon	sen-obin	sen-ou	#	
-old	plural	feminine	sen-ās	sen-ās	sen-ās	sen-ānon	sen-ābo	sen-ābi	sen-ābi	#	
-old	plural	masculine	sen-ii	sen-ūs	sen-ūs	sen-on	sen-obo	sen-obi	sen-obi	#	
-old	plural	neuter	sen-ā	sen-ā	sen-ā	sen-on	sen-obo	sen-obi	sen-obi	#	
-bad	singular	feminine	druc-ā	druc-a	druc-in	druc-ās	druc-ī	druc-ī, druc-iā	druc-ī	#	o/a stem
-bad	singular	masculine	druc-os	druc-e	druc-on	druc-ī	druc-ū	druc-ū	druc-ē	#	
-bad	singular	neuter	druc-on	druc-on	druc-on	druc-ī	druc-ū	druc-ū	druc-ē	#	
-bad	dual	feminine	druc-ī, druc-ii	druc-ī, druc-ii	druc-ī, druc-ii	druc-iōs, druc-ious	druc-ābon	druc-ābin	druc-ābin	#	
-bad	dual	masculine	druc-ō	druc-ō	druc-ō	druc-ōs	druc-obon	druc-obin	druc-ou	#	
-bad	dual	neuter	druc-oi	druc-oi	druc-oi	druc-iōs	druc-obon	druc-obin	druc-ou	#	
-bad	plural	feminine	druc-ās	druc-ās	druc-ās	druc-ānon	druc-ābo	druc-ābi	druc-ābi	#	
-bad	plural	masculine	druc-ii	druc-ūs	druc-ūs	druc-on	druc-obo	druc-obi	druc-obi	#	
-bad	plural	neuter	druc-ā	druc-ā	druc-ā	druc-on	druc-obo	druc-obi	druc-obi	#	
-good	singular	feminine	mat-is	mat-i	mat-in	mat-iās	mat-ē	mat-ī	mat-ī	#	i-stem
-good	singular	masculine	mat-is	mat-i	mat-in	mat-ēs	mat-ē	mat-ī	mat-ī	#	
-good	singular	neuter	mat-i	mat-i	mat-i	mat-ēs	mat-ē	mat-ī	mat-ī	#	
-good	dual	feminine	mat-ī	mat-ī	mat-ī	mat-iōs, mat-ious	mat-ibon	mat-ibin	mat-ibin	#	
-good	dual	masculine	mat-ī	mat-ī	mat-ī	mat-iōs, mat-ious	mat-ibon	mat-ibin	mat-ibin	#	
-good	dual	neuter	mat-ī	mat-ī	mat-ī	mat-iōs, mat-ious	mat-ibon	mat-ibin	mat-ibin	#	
-good	plural	feminine	mat-ies	mat-ies	mat-īs	mat-ion	mat-ibo	mat-ibi	mat-ibi	#	
-good	plural	masculine	mat-ies	mat-ies	mat-īs	mat-ion	mat-ibo	mat-ibi	mat-ibi	#	
-good	plural	neuter	mat-iā	mat-iā	mat-iā	mat-ion	mat-ibo	mat-ibi	mat-ibi	#	
-big	singular	feminine	uer-us	uer-u	uer-uin	uer-uās	uer-uī	uer-uī	uer-uī	#	u-stem
-big	singular	masculine	uer-us	uer-u	uer-un	uer-ous, uer-ōs	uer-ou, uer-ō	uer-ū	uer-ū	#	
-big	singular	neuter	uer-u	uer-u	uer-u	uer-ous, uer-ōs	uer-ou, uer-ō	uer-ū	uer-ū	#	
-big	dual	feminine	uer-ū	uer-ū	uer-ū	uer-ouō	uer-oubon	uer-oubin	uer-oubin	#	
-big	dual	masculine	uer-ū	uer-ū	uer-ū	uer-ouō	uer-oubon	uer-oubin	uer-oubin	#	
-big	dual	neuter	uer-ū	uer-ū	uer-ū	uer-ouō	uer-oubon	uer-oubin	uer-oubin	#	
-big	plural	feminine	uer-iās	uer-iās	uer-iās	uer-uion	uer-uābo	uer-uābi	uer-uābi	#	
-big	plural	masculine	uer-iies	uer-iies	uer-ūs	uer-uion	uer-uibo	uer-uibi	uer-uibi	#	
-big	plural	neuter	uer-iā	uer-iā	uer-iā	uer-uion	uer-uibo	uer-uibi	uer-uibi	#	
-doomed	singular	feminine	trūx-s	trūx-s, trūc	trūc-en	trūc-os	trūc-ē	trūc-ī	trūc-ī	#	constant stem
-doomed	singular	masculine	trūx-s	trūx-s, trūc	trūc-en	trūc-os	trūc-ē	trūc-ī	trūc-ī	#	
-doomed	singular	neuter	trūx-s, trūc	trūx-s, trūc	trūx-s, trūc	trūc-os	trūc-ē	trūc-ī	trūc-ī	#	
-doomed	dual	feminine	trūc-e	trūc-e	trūc-e	trūc-ou, trūc-ō	trūc-(o)bon	trūc-(o)bin	trūc-(o)bin	#	
-doomed	dual	masculine	trūc-e	trūc-e	trūc-e	trūc-ou, trūc-ō	trūc-(o)bon	trūc-(o)bin	trūc-(o)bin	#	
-doomed	dual	neuter	trūc-e	trūc-e	trūc-e	trūc-ou, trūc-ō	trūc-(o)bon	trūc-(o)bin	trūc-(o)bin	#	
-doomed	plural	feminine	trūc-es	trūc-es	trūc-ās	trūc-on	trūc-obo	trūc-obi	trūc-obi	#	
-doomed	plural	masculine	trūc-es	trūc-es	trūc-ās	trūc-on	trūc-obo	trūc-obi	trūc-obi	#	
-doomed	plural	neuter	trūc-ā	trūc-ā	trūc-ā	trūc-on	trūc-obo	trūc-obi	trūc-obi	#	
-blind	singular	feminine	exop-s	exop-s, exop	exop-en	exop-os	exop-ē	exop-ī	exop-ī	#	constant stem
-blind	singular	masculine	exop-s	exop-s, exop	exop-en	exop-os	exop-ē	exop-ī	exop-ī	#	
-blind	singular	neuter	exop-s, exop	exop-s, exop	exop-s, exop	exop-os	exop-ē	exop-ī	exop-ī	#	
-blind	dual	feminine	exop-e	exop-e	exop-e	exop-ou, exop-ō	exop-ebon	exop-ebin	exop-ebin	#	
-blind	dual	masculine	exop-e	exop-e	exop-e	exop-ou, exop-ō	exop-ebon	exop-ebin	exop-ebin	#	
-blind	dual	neuter	exop-e	exop-e	exop-e	exop-ou, exop-ō	exop-ebon	exop-ebin	exop-ebin	#	
-blind	plural	feminine	exop-es	exop-es	exop-ās	exop-on	exop-obo	exop-obi	exop-obi	#	
-blind	plural	masculine	exop-es	exop-es	exop-ās	exop-on	exop-obo	exop-obi	exop-obi	#	
-blind	plural	neuter	exop-ā	exop-ā	exop-ā	exop-on	exop-obo	exop-obi	exop-obi	#	
+*		*	*	nominative	vocative	accusative 	genitive 	dative 	instrumental 	locative 	#	
+old	positive	singular	feminine	sen-ā	sen-a	sen-in	sen-ās	sen-ī	sen-ī, sen-iā	sen-ī	#	o/a stem
+old	positive	singular	masculine	sen-os	sen-e	sen-on	sen-ī	sen-ū	sen-ū	sen-ē	#	
+old	positive	singular	neuter	sen-on	sen-on	sen-on	sen-ī	sen-ū	sen-ū	sen-ē	#	
+old	positive	dual	feminine	sen-ī, sen-ii	sen-ī, sen-ii	sen-ī, sen-ii	sen-iōs, sen-ious	sen-ābon	sen-ābin	sen-ābin	#	
+old	positive	dual	masculine	sen-ō	sen-ō	sen-ō	sen-ōs	sen-obon	sen-obin	sen-ou	#	
+old	positive	dual	neuter	sen-oi	sen-oi	sen-oi	sen-iōs	sen-obon	sen-obin	sen-ou	#	
+old	positive	plural	feminine	sen-ās	sen-ās	sen-ās	sen-ānon	sen-ābo	sen-ābi	sen-ābi	#	
+old	positive	plural	masculine	sen-ii	sen-ūs	sen-ūs	sen-on	sen-obo	sen-obi	sen-obi	#	
+old	positive	plural	neuter	sen-ā	sen-ā	sen-ā	sen-on	sen-obo	sen-obi	sen-obi	#	
+old	equative	singular	feminine	con-sen-iset-ā	con-sen-iset-a	con-sen-iset-in	con-sen-iset-ās	con-sen-iset-ī	con-sen-iset-ī, con-sen-iset-iā	con-sen-iset-ī		
+old	equative	singular	masculine	con-sen-iset-os	con-sen-iset-e	con-sen-iset-on	con-sen-iset-ī	con-sen-iset-ū	con-sen-iset-ū	con-sen-iset-ē		
+old	equative	singular	neuter	con-sen-iset-on	con-sen-iset-on	con-sen-iset-on	con-sen-iset-ī	con-sen-iset-ū	con-sen-iset-ū	con-sen-iset-ē		
+old	equative	dual	feminine	con-sen-iset-ī, con-sen-iset-ii	con-sen-iset-ī, con-sen-iset-ii	con-sen-iset-ī, con-sen-iset-ii	con-sen-iset-iōs, con-sen-iset-ious	con-sen-iset-ābon	con-sen-iset-ābin	con-sen-iset-ābin		
+old	equative	dual	masculine	con-sen-iset-ō	con-sen-iset-ō	con-sen-iset-ō	con-sen-iset-ōs	con-sen-iset-obon	con-sen-iset-obin	con-sen-iset-ou		
+old	equative	dual	neuter	con-sen-iset-oi	con-sen-iset-oi	con-sen-iset-oi	con-sen-iset-iōs	con-sen-iset-obon	con-sen-iset-obin	con-sen-iset-ou		
+old	equative	plural	feminine	con-sen-iset-ās	con-sen-iset-ās	con-sen-iset-ās	con-sen-iset-ānon	con-sen-iset-ābo	con-sen-iset-ābi	con-sen-iset-ābi		
+old	equative	plural	masculine	con-sen-iset-ii	con-sen-iset-ūs	con-sen-iset-ūs	con-sen-iset-on	con-sen-iset-obo	con-sen-iset-obi	con-sen-iset-obi		
+old	equative	plural	neuter	con-sen-iset-ā	con-sen-iset-ā	con-sen-iset-ā	con-sen-iset-on	con-sen-iset-obo	con-sen-iset-obi	con-sen-iset-obi		
+old	comparative	singular	feminine	sen-iûs		sen-ian	sen-ios	sen-ies	sen-ies	sen-ies		
+old	comparative	singular	masculine	sen-iûs		sen-ian	sen-ios	sen-ies	sen-ies	sen-ies		
+old	comparative	singular	neuter	sen-ios		sen-ios	sen-ios	sen-ies	sen-ies	sen-ies		
+old	comparative	dual	feminine									
+old	comparative	dual	masculine									
+old	comparative	dual	neuter									
+old	comparative	plural	feminine	sen-ies		sen-iâs	sen-ion	sen-iobi	sen-iobi	sen-iobi		
+old	comparative	plural	masculine	sen-ies		sen-iâs	sen-ion	sen-iobi	sen-iobi	sen-iobi		
+old	comparative	plural	neuter	sen-iâ		sen-iâ	sen-ion	sen-iobi	sen-iobi	sen-iobi		
+old	superlative	singular	feminine	sen-isam-ā	sen-isam-a	sen-isam-in	sen-isam-ās	sen-isam-ī	sen-isam-ī, sen-isam-iā	sen-isam-ī		
+old	superlative	singular	masculine	sen-isam-os	sen-isam-e	sen-isam-on	sen-isam-ī	sen-isam-ū	sen-isam-ū	sen-isam-ē		
+old	superlative	singular	neuter	sen-isam-on	sen-isam-on	sen-isam-on	sen-isam-ī	sen-isam-ū	sen-isam-ū	sen-isam-ē		
+old	superlative	dual	feminine	sen-isam-ī, sen-isam-ii	sen-isam-ī, sen-isam-ii	sen-isam-ī, sen-isam-ii	sen-isam-iōs, sen-isam-ious	sen-isam-ābon	sen-isam-ābin	sen-isam-ābin		
+old	superlative	dual	masculine	sen-isam-ō	sen-isam-ō	sen-isam-ō	sen-isam-ōs	sen-isam-obon	sen-isam-obin	sen-isam-ou		
+old	superlative	dual	neuter	sen-isam-oi	sen-isam-oi	sen-isam-oi	sen-isam-iōs	sen-isam-obon	sen-isam-obin	sen-isam-ou		
+old	superlative	plural	feminine	sen-isam-ās	sen-isam-ās	sen-isam-ās	sen-isam-ānon	sen-isam-ābo	sen-isam-ābi	sen-isam-ābi		
+old	superlative	plural	masculine	sen-isam-ii	sen-isam-ūs	sen-isam-ūs	sen-isam-on	sen-isam-obo	sen-isam-obi	sen-isam-obi		
+old	superlative	plural	neuter	sen-isam-ā	sen-isam-ā	sen-isam-ā	sen-isam-on	sen-isam-obo	sen-isam-obi	sen-isam-obi		
+bad	positive	singular	feminine	druc-ā	druc-a	druc-in	druc-ās	druc-ī	druc-ī, druc-iā	druc-ī	#	o/a stem
+bad	positive	singular	masculine	druc-os	druc-e	druc-on	druc-ī	druc-ū	druc-ū	druc-ē	#	
+bad	positive	singular	neuter	druc-on	druc-on	druc-on	druc-ī	druc-ū	druc-ū	druc-ē	#	
+bad	positive	dual	feminine	druc-ī, druc-ii	druc-ī, druc-ii	druc-ī, druc-ii	druc-iōs, druc-ious	druc-ābon	druc-ābin	druc-ābin	#	
+bad	positive	dual	masculine	druc-ō	druc-ō	druc-ō	druc-ōs	druc-obon	druc-obin	druc-ou	#	
+bad	positive	dual	neuter	druc-oi	druc-oi	druc-oi	druc-iōs	druc-obon	druc-obin	druc-ou	#	
+bad	positive	plural	feminine	druc-ās	druc-ās	druc-ās	druc-ānon	druc-ābo	druc-ābi	druc-ābi	#	
+bad	positive	plural	masculine	druc-ii	druc-ūs	druc-ūs	druc-on	druc-obo	druc-obi	druc-obi	#	
+bad	positive	plural	neuter	druc-ā	druc-ā	druc-ā	druc-on	druc-obo	druc-obi	druc-obi	#	
+bad	equative	singular	feminine	con-druc-ā	con-druc-a	con-druc-in	con-druc-ās	con-druc-ī	con-druc-ī, con-druc-iā	con-druc-ī		
+bad	equative	singular	masculine	con-druc-os	con-druc-e	con-druc-on	con-druc-ī	con-druc-ū	con-druc-ū	con-druc-ē		
+bad	equative	singular	neuter	con-druc-on	con-druc-on	con-druc-on	con-druc-ī	con-druc-ū	con-druc-ū	con-druc-ē		
+bad	equative	dual	feminine	con-druc-ī, con-druc-ii	con-druc-ī, con-druc-ii	con-druc-ī, con-druc-ii	con-druc-iōs, con-druc-ious	con-druc-ābon	con-druc-ābin	con-druc-ābin		
+bad	equative	dual	masculine	con-druc-ō	con-druc-ō	con-druc-ō	con-druc-ōs	con-druc-obon	con-druc-obin	con-druc-ou		
+bad	equative	dual	neuter	con-druc-oi	con-druc-oi	con-druc-oi	con-druc-iōs	con-druc-obon	con-druc-obin	con-druc-ou		
+bad	equative	plural	feminine	con-druc-ās	con-druc-ās	con-druc-ās	con-druc-ānon	con-druc-ābo	con-druc-ābi	con-druc-ābi		
+bad	equative	plural	masculine	con-druc-ii	con-druc-ūs	con-druc-ūs	con-druc-on	con-druc-obo	con-druc-obi	con-druc-obi		
+bad	equative	plural	neuter	con-druc-ā	con-druc-ā	con-druc-ā	con-druc-on	con-druc-obo	con-druc-obi	con-druc-obi		
+bad	comparative	singular	feminine	uext-ā	uext-a	uext-in	uext-ās	uext-ī	uext-ī, uext-iā	uext-ī		
+bad	comparative	singular	masculine	uext-os	uext-e	uext-on	uext-ī	uext-ū	uext-ū	uext-ē		
+bad	comparative	singular	neuter	uext-on	uext-on	uext-on	uext-ī	uext-ū	uext-ū	uext-ē		
+bad	comparative	dual	feminine	uext-ī, uext-ii	uext-ī, uext-ii	uext-ī, uext-ii	uext-iōs, uext-ious	uext-ābon	uext-ābin	uext-ābin		
+bad	comparative	dual	masculine	uext-ō	uext-ō	uext-ō	uext-ōs	uext-obon	uext-obin	uext-ou		
+bad	comparative	dual	neuter	uext-oi	uext-oi	uext-oi	uext-iōs	uext-obon	uext-obin	uext-ou		
+bad	comparative	plural	feminine	uext-ās	uext-ās	uext-ās	uext-ānon	uext-ābo	uext-ābi	uext-ābi		
+bad	comparative	plural	masculine	uext-ii	uext-ūs	uext-ūs	uext-on	uext-obo	uext-obi	uext-obi		
+bad	comparative	plural	neuter	uext-ā	uext-ā	uext-ā	uext-on	uext-obo	uext-obi	uext-obi		
+bad	superlative	singular	feminine	uextam-ā	uextam-a	uextam-in	uextam-ās	uextam-ī	uextam-ī, uextam-iā	uextam-ī		
+bad	superlative	singular	masculine	uextam-os	uextam-e	uextam-on	uextam-ī	uextam-ū	uextam-ū	uextam-ē		
+bad	superlative	singular	neuter	uextam-on	uextam-on	uextam-on	uextam-ī	uextam-ū	uextam-ū	uextam-ē		
+bad	superlative	dual	feminine	uextam-ī, uextam-ii	uextam-ī, uextam-ii	uextam-ī, uextam-ii	uextam-iōs, uextam-ious	uextam-ābon	uextam-ābin	uextam-ābin		
+bad	superlative	dual	masculine	uextam-ō	uextam-ō	uextam-ō	uextam-ōs	uextam-obon	uextam-obin	uextam-ou		
+bad	superlative	dual	neuter	uextam-oi	uextam-oi	uextam-oi	uextam-iōs	uextam-obon	uextam-obin	uextam-ou		
+bad	superlative	plural	feminine	uextam-ās	uextam-ās	uextam-ās	uextam-ānon	uextam-ābo	uextam-ābi	uextam-ābi		
+bad	superlative	plural	masculine	uextam-ii	uextam-ūs	uextam-ūs	uextam-on	uextam-obo	uextam-obi	uextam-obi		
+bad	superlative	plural	neuter	uextam-ā	uextam-ā	uextam-ā	uextam-on	uextam-obo	uextam-obi	uextam-obi		
+good	positive	singular	feminine	mat-is	mat-i	mat-in	mat-iās	mat-ē	mat-ī	mat-ī	#	i-stem
+good	positive	singular	masculine	mat-is	mat-i	mat-in	mat-ēs	mat-ē	mat-ī	mat-ī	#	
+good	positive	singular	neuter	mat-i	mat-i	mat-i	mat-ēs	mat-ē	mat-ī	mat-ī	#	
+good	positive	dual	feminine	mat-ī	mat-ī	mat-ī	mat-iōs, mat-ious	mat-ibon	mat-ibin	mat-ibin	#	
+good	positive	dual	masculine	mat-ī	mat-ī	mat-ī	mat-iōs, mat-ious	mat-ibon	mat-ibin	mat-ibin	#	
+good	positive	dual	neuter	mat-ī	mat-ī	mat-ī	mat-iōs, mat-ious	mat-ibon	mat-ibin	mat-ibin	#	
+good	positive	plural	feminine	mat-ies	mat-ies	mat-īs	mat-ion	mat-ibo	mat-ibi	mat-ibi	#	
+good	positive	plural	masculine	mat-ies	mat-ies	mat-īs	mat-ion	mat-ibo	mat-ibi	mat-ibi	#	
+good	positive	plural	neuter	mat-iā	mat-iā	mat-iā	mat-ion	mat-ibo	mat-ibi	mat-ibi	#	
+big	positive	singular	feminine	uer-us	uer-u	uer-uin	uer-uās	uer-uī	uer-uī	uer-uī	#	u-stem
+big	positive	singular	masculine	uer-us	uer-u	uer-un	uer-ous, uer-ōs	uer-ou, uer-ō	uer-ū	uer-ū	#	
+big	positive	singular	neuter	uer-u	uer-u	uer-u	uer-ous, uer-ōs	uer-ou, uer-ō	uer-ū	uer-ū	#	
+big	positive	dual	feminine	uer-ū	uer-ū	uer-ū	uer-ouō	uer-oubon	uer-oubin	uer-oubin	#	
+big	positive	dual	masculine	uer-ū	uer-ū	uer-ū	uer-ouō	uer-oubon	uer-oubin	uer-oubin	#	
+big	positive	dual	neuter	uer-ū	uer-ū	uer-ū	uer-ouō	uer-oubon	uer-oubin	uer-oubin	#	
+big	positive	plural	feminine	uer-iās	uer-iās	uer-iās	uer-uion	uer-uābo	uer-uābi	uer-uābi	#	
+big	positive	plural	masculine	uer-iies	uer-iies	uer-ūs	uer-uion	uer-uibo	uer-uibi	uer-uibi	#	
+big	positive	plural	neuter	uer-iā	uer-iā	uer-iā	uer-uion	uer-uibo	uer-uibi	uer-uibi	#	
+big	equative	singular	feminine	comant-is	comant-i	comant-in	comant-iās	comant-ē	comant-ī	comant-ī	#	i-stem
+big	equative	singular	masculine	comant-is	comant-i	comant-in	comant-ēs	comant-ē	comant-ī	comant-ī	#	
+big	equative	singular	neuter	comant-i	comant-i	comant-i	comant-ēs	comant-ē	comant-ī	comant-ī	#	
+big	equative	dual	feminine	comant-ī	comant-ī	comant-ī	comant-iōs, comant-ious	comant-ibon	comant-ibin	comant-ibin	#	
+big	equative	dual	masculine	comant-ī	comant-ī	comant-ī	comant-iōs, comant-ious	comant-ibon	comant-ibin	comant-ibin	#	
+big	equative	dual	neuter	comant-ī	comant-ī	comant-ī	comant-iōs, comant-ious	comant-ibon	comant-ibin	comant-ibin	#	
+big	equative	plural	feminine	comant-ies	comant-ies	comant-īs	comant-ion	comant-ibo	comant-ibi	comant-ibi	#	
+big	equative	plural	masculine	comant-ies	comant-ies	comant-īs	comant-ion	comant-ibo	comant-ibi	comant-ibi	#	
+big	equative	plural	neuter	comant-iā	comant-iā	comant-iā	comant-ion	comant-ibo	comant-ibi	comant-ibi	#	
+big	comparative	singular	feminine	mei-ā	mei-a	mei-in	mei-ās	mei-ī	mei-ī, mei-iā	mei-ī		
+big	comparative	singular	masculine	mei-os	mei-e	mei-on	mei-ī	mei-ū	mei-ū	mei-ē		
+big	comparative	singular	neuter	mei-on	mei-on	mei-on	mei-ī	mei-ū	mei-ū	mei-ē		
+big	comparative	dual	feminine	mei-ī, mei-ii	mei-ī, mei-ii	mei-ī, mei-ii	mei-iōs, mei-ious	mei-ābon	mei-ābin	mei-ābin		
+big	comparative	dual	masculine	mei-ō	mei-ō	mei-ō	mei-ōs	mei-obon	mei-obin	mei-ou		
+big	comparative	dual	neuter	mei-oi	mei-oi	mei-oi	mei-iōs	mei-obon	mei-obin	mei-ou		
+big	comparative	plural	feminine	mei-ās	mei-ās	mei-ās	mei-ānon	mei-ābo	mei-ābi	mei-ābi		
+big	comparative	plural	masculine	mei-ii	mei-ūs	mei-ūs	mei-on	mei-obo	mei-obi	mei-obi		
+big	comparative	plural	neuter	mei-ā	mei-ā	mei-ā	mei-on	mei-obo	mei-obi	mei-obi		
+big	superlative	singular	feminine	mei(s)am-ā	mei(s)am-a	mei(s)am-in	mei(s)am-ās	mei(s)am-ī	mei(s)am-ī, mei(s)am-iā	mei(s)am-ī		
+big	superlative	singular	masculine	mei(s)am-os	mei(s)am-e	mei(s)am-on	mei(s)am-ī	mei(s)am-ū	mei(s)am-ū	mei(s)am-ē		
+big	superlative	singular	neuter	mei(s)am-on	mei(s)am-on	mei(s)am-on	mei(s)am-ī	mei(s)am-ū	mei(s)am-ū	mei(s)am-ē		
+big	superlative	dual	feminine	mei(s)am-ī, mei(s)am-ii	mei(s)am-ī, mei(s)am-ii	mei(s)am-ī, mei(s)am-ii	mei(s)am-iōs, mei(s)am-ious	mei(s)am-ābon	mei(s)am-ābin	mei(s)am-ābin		
+big	superlative	dual	masculine	mei(s)am-ō	mei(s)am-ō	mei(s)am-ō	mei(s)am-ōs	mei(s)am-obon	mei(s)am-obin	mei(s)am-ou		
+big	superlative	dual	neuter	mei(s)am-oi	mei(s)am-oi	mei(s)am-oi	mei(s)am-iōs	mei(s)am-obon	mei(s)am-obin	mei(s)am-ou		
+big	superlative	plural	feminine	mei(s)am-ās	mei(s)am-ās	mei(s)am-ās	mei(s)am-ānon	mei(s)am-ābo	mei(s)am-ābi	mei(s)am-ābi		
+big	superlative	plural	masculine	mei(s)am-ii	mei(s)am-ūs	mei(s)am-ūs	mei(s)am-on	mei(s)am-obo	mei(s)am-obi	mei(s)am-obi		
+big	superlative	plural	neuter	mei(s)am-ā	mei(s)am-ā	mei(s)am-ā	mei(s)am-on	mei(s)am-obo	mei(s)am-obi	mei(s)am-obi		
+doomed		singular	feminine	trūx-s	trūx-s, trūc	trūc-en	trūc-os	trūc-ē	trūc-ī	trūc-ī	#	constant stem
+doomed		singular	masculine	trūx-s	trūx-s, trūc	trūc-en	trūc-os	trūc-ē	trūc-ī	trūc-ī	#	
+doomed		singular	neuter	trūx-s, trūc	trūx-s, trūc	trūx-s, trūc	trūc-os	trūc-ē	trūc-ī	trūc-ī	#	
+doomed		dual	feminine	trūc-e	trūc-e	trūc-e	trūc-ou, trūc-ō	trūc-(o)bon	trūc-(o)bin	trūc-(o)bin	#	
+doomed		dual	masculine	trūc-e	trūc-e	trūc-e	trūc-ou, trūc-ō	trūc-(o)bon	trūc-(o)bin	trūc-(o)bin	#	
+doomed		dual	neuter	trūc-e	trūc-e	trūc-e	trūc-ou, trūc-ō	trūc-(o)bon	trūc-(o)bin	trūc-(o)bin	#	
+doomed		plural	feminine	trūc-es	trūc-es	trūc-ās	trūc-on	trūc-obo	trūc-obi	trūc-obi	#	
+doomed		plural	masculine	trūc-es	trūc-es	trūc-ās	trūc-on	trūc-obo	trūc-obi	trūc-obi	#	
+doomed		plural	neuter	trūc-ā	trūc-ā	trūc-ā	trūc-on	trūc-obo	trūc-obi	trūc-obi	#	
+blind		singular	feminine	exop-s	exop-s, exop	exop-en	exop-os	exop-ē	exop-ī	exop-ī	#	constant stem
+blind		singular	masculine	exop-s	exop-s, exop	exop-en	exop-os	exop-ē	exop-ī	exop-ī	#	
+blind		singular	neuter	exop-s, exop	exop-s, exop	exop-s, exop	exop-os	exop-ē	exop-ī	exop-ī	#	
+blind		dual	feminine	exop-e	exop-e	exop-e	exop-ou, exop-ō	exop-ebon	exop-ebin	exop-ebin	#	
+blind		dual	masculine	exop-e	exop-e	exop-e	exop-ou, exop-ō	exop-ebon	exop-ebin	exop-ebin	#	
+blind		dual	neuter	exop-e	exop-e	exop-e	exop-ou, exop-ō	exop-ebon	exop-ebin	exop-ebin	#	
+blind		plural	feminine	exop-es	exop-es	exop-ās	exop-on	exop-obo	exop-obi	exop-obi	#	
+blind		plural	masculine	exop-es	exop-es	exop-ās	exop-on	exop-obo	exop-obi	exop-obi	#	
+blind		plural	neuter	exop-ā	exop-ā	exop-ā	exop-on	exop-obo	exop-obi	exop-obi	#	

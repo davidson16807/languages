@@ -210,7 +210,7 @@ tagaxis_to_tags = {
     'possessor-formality': 'familiar-possessor polite-possessor elevated-possessor formal-possessor tuteo-possessor voseo-possessor'.split(),
 
     # needed for adjectives
-    'degree':     'positive comparative superlative'.split(), # 
+    'degree':     'positive equative comparative superlative'.split(), # 
 
     # needed for gerunds, supines, participles, and gerundives
     'gender':     'masculine feminine gendered neuter'.split(), # language specific concept where something takes on grammatical forms associated with a sex, "gendered" is used instead of "common" to disambiguate it from the "common" noun-forms
@@ -1114,6 +1114,8 @@ tag_defaults = parse_any.termaxis_to_term('''
     partitivity:  nonpartitive
     person:       3
     strength:     strong
+
+    degree:       positive
 
     duration:     brief
     progress:     atelic
