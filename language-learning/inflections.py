@@ -383,7 +383,7 @@ declension_template_lookups = DictLookup(
     DictKeyIndexing('noun-form'), 
     {
         'common': parse_any.tokenfield('common', 
-            'noun number gender animacy partitivity strength case script', ''),
+            'noun number gender animacy partitivity degree strength case script', ''),
         'personal': parse_any.termfield('personal', 
             'person number gender clusivity formality case clitic script', ''),
         'common-possessive': parse_any.tokenfield('common-possessive', 
@@ -1007,6 +1007,8 @@ english_language = Language(
         FallbackDictLookup(
             NestedDictLookup(
                 declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/adjective-agreements.tsv')),
                 ])
             ),
             ProceduralLookup(regular_english_grammar.agree),

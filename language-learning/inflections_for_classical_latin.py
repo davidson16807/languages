@@ -101,6 +101,7 @@ foreign_termaxis_to_terms = {
         mood   :  indicative subjunctive imperative
         role   :  agent patient stimulus possessor location interior surface presence aid lack interest time company
         subjectivity: subject addressee direct-object indirect-object adverbial adnominal
+        degree :  positive comparative superlative
     '''),
     **parse_any.token_to_tokens('''
         adjective:tall holy poor mean old nimble swift jovial
@@ -600,6 +601,7 @@ write('flashcards/latin/adjective-agreement.html',
             ((  axis['number']
              * gender_agreement_traversal
              * declension_noun_traversal
+             * axis['degree']
              * axis['adjective'])
             & noun_template_whitelist) 
         ),
