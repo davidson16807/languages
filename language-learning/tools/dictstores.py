@@ -18,7 +18,7 @@ class DictLookup:
         cell_width = 13
         return '\n'.join([
                 f'DictLookup {self.name}',
-                '[{len(self)} rows]:', 
+                f'[{len(self)} rows]:', 
                 ' '.join([element.rjust(cell_width) for element in self.indexing]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
                   for (tuplekey, value) in self.content.items()],
@@ -27,7 +27,7 @@ class DictLookup:
         cell_width = 13
         return '\n'.join([
                 f'DictLookup {self.name}',
-                '[{len(self)} rows]:', 
+                f'[{len(self)} rows]:', 
                 ' '.join([element.rjust(cell_width) for element in self.indexing]),
                 *[' '.join([element.rjust(cell_width) for element in tuplekey]) + ':' + value.rjust(cell_width)
                   for (tuplekey, value) in self.content.items()],
@@ -72,7 +72,7 @@ class DictLookup:
         '''
         assert type(dictkey) in {tuple, str, dict}
         if type(dictkey) in {tuple,str}:
-            return self.content[dictkey]
+            self.content[dictkey] = value
         else:
             # self.indexing.check(dictkey)
             for tuplekey in self.indexing.tuplekeys(dictkey):

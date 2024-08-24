@@ -266,6 +266,9 @@ tagaxis_to_tags = {
            semelfactive distributive diversative reversative transitional cursive
            completive prolongative seriative inchoative reversionary semeliterative segmentative'''.split(),
 
+    # whether the event is confirmed or denied
+    'polarity':         'affirmative negative'.split(),
+
     # # needed for correlatives in general
     # 'abstraction': 'organization location origin destination time manner reason quality amount'.split(),
 
@@ -321,6 +324,7 @@ conjugation_template_lookups = DictLookup(
                     'number',           
                     'gender',     # needed for Russian
                     'formality',  # needed for Spanish ('voseo')
+                    'polarity',   # needed for Spanish ('negative imperative')
                     'mood',        
                     'voice',           
                     'tense',           
@@ -1092,6 +1096,7 @@ tag_defaults = parse_any.termaxis_to_term('''
     clitic:       tonic
     clusivity:    exclusive
     formality:    familiar
+    definiteness: definite
     gender:       masculine
     animacy:      animate
     humanity:     human

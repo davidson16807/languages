@@ -2,34 +2,34 @@
 	subject	act	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	strong-dummy	#		attention	something that can be directed at arbitrary things	
 	subject	advise	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#	son	big	something you are inherently	
 	subject	advise	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		bird	something that can fly	
-	subject	advise	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		boat	floats and sinks, steered	preference, maitenance, dress
-	subject	arrive	active	transitive	acquired-dummy	location-dummy	adverbial-dummy	definite-dummy	house-dummy	#		book	read and written	consumption, medium
+	subject	advise	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		boat	floats and sinks, steered	
+	subject	arrive	active	transitive	acquired-dummy	location-dummy	adverbial-dummy	definite-dummy	house-dummy	#		book	read and written	
 	subject	ask	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#		bug	something that can fly and treat most objects as surfaces in relatively good taste	
-	subject	ask	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		dog	something that can be loved generically and in good taste	conduction
-	subject	ask	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		drum	beaten in good taste and makes noise	art
-	subject	bake	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		enemy	captures men and is captured	captivity
-#	subject	be-able	active						to work-dummy	#		fire	warms most objects	
-#	subject	be-red	active	intransitive						#		food	eaten by any animal, cooked	literature
-	subject	be[inherently]	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	big-dummy	#		gift	given and taken	travel
-	subject	be[momentarily]	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	strong-dummy	#		guard	captures and releases men	captivity
-	subject	beat	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	drum-dummy	#		horse	something directed or tamed	activity
-	subject	beat	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#	place	house	location, interior, property	domestication
-	subject	beat	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#		love	something that motivates and alters men in good taste	momentary state
-	subject	become	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	strong-dummy	#		idea	thought and taught	
-#	subject	become cold	active	intransitive						#		man	capable of virtually everything that requires agency and sapience	
-	subject	burn	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		money	something that is exchanged and has value	
-	subject	burn	middle	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	fire-dummy	#		monster	eats men in relatively (fanciful) good taste 	consumption
-	subject	burn	passive	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	fire-dummy	#		name	spoken	collision, sound, music
-	subject	call	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#		rock	carried by men, hit or thrown in good taste	placement
-	subject	call	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		rope	can be deformed	state change
-	subject	call	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		clothing	cleaned, changed, worn, chosen, preferred	deformation
+	subject	ask	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#	shirt	clothing	cleaned, changed, worn, chosen, preferred	
+	subject	ask	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		dog	something that can be loved generically and in good taste	
+	subject	bake	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		drum	beaten in good taste and makes noise	
+#	subject	be-able	active						to work-dummy	#		enemy	captures men and is captured	
+#	subject	be-red	active	intransitive						#		fire	warms most objects	
+	subject	be[inherently]	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	big-dummy	#		food	eaten by any animal, cooked	
+	subject	be[momentarily]	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	strong-dummy	#		gift	given and taken	
+	subject	beat	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	drum-dummy	#		guard	captures and releases men	
+	subject	beat	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#		horse	something directed or tamed	
+	subject	beat	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#	place	house	location, interior, property	
+	subject	become	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	strong-dummy	#		love	something that motivates and alters men in good taste	
+#	subject	become cold	active	intransitive						#		idea	thought and taught	
+	subject	burn	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		man	capable of virtually everything that requires agency and sapience	
+	subject	burn	middle	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	fire-dummy	#		money	something that is exchanged and has value	
+	subject	burn	passive	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	fire-dummy	#		monster	eats men in relatively (fanciful) good taste 	
+	subject	call	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	man-dummy	#		name	spoken	
+	subject	call	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		rock	carried by men, hit or thrown in good taste	
+	subject	call	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	man-dummy	#		rope	can be deformed	
 	subject	capture	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	enemy-dummy	#		strong	something you can be momentarily	
 	subject	capture	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#		warmth	passes through most objects, without or without interiors	
-	subject	capture	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#		water	drunk, swum in, cools most objects	domestication
-	subject	carry	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#	well	way	shown	travel
-	subject	carry	middle	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	wind-dummy	#		wind	carries men, flown in	placement, medium
-	subject	carry	passive	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	wind-dummy	#		work	something that can be done	exchange
-	subject	catch	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	enemy-dummy	#	door	window	closed, opened, and broken in good taste	speech
+	subject	capture	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#		water	drunk, swum in, cools most objects	
+	subject	carry	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	rock-dummy	#	well	way	shown	
+	subject	carry	middle	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	wind-dummy	#		wind	carries men, flown in	
+	subject	carry	passive	intransitive	associated-dummy	force-dummy	adverbial-dummy	definite-dummy	wind-dummy	#		work	something that can be done	
+	subject	catch	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	enemy-dummy	#	door	window	closed, opened, and broken in good taste	
 	subject	catch	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#				
 	subject	catch	passive	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#				
 	subject	choose 	active	transitive	associated-dummy	theme-dummy	direct-object-dummy	definite-dummy	clothing-dummy	#				

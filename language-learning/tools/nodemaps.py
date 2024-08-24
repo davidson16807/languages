@@ -204,7 +204,7 @@ class RuleFormatting:
             return (newline*2).join([
                 format_note_section(lookup, 'mood evidentiality confidence'.split()),
                 format_note_section(lookup, 'aspect progress'.split()),
-                format_note_section(lookup, 'verb verb-form completion strength voice tense'.split()),
+                format_note_section(lookup, 'verb verb-form completion strength voice tense polarity'.split()),
                 format_note_section(lookup, 'case subjectivity valency motion role'.split()),
                 format_note_section(lookup, 'noun noun-form definiteness person number gender animacy clusivity formality clitic partitivity'.split()),
                 format_note_section(lookup, 'language-type script'.split()),

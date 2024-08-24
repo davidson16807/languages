@@ -1,344 +1,343 @@
-*	*	*	*	1	2	2	2	3	1	2	2	3
-*	*	*	*	singular	singular	singular	singular	singular	plural	plural	plural	plural
-*	*	*	*		informal	informal	formal			informal	formal	
-*	*	*	*		tuteo	voseo						
-appear	indicative	present		aparezco	apareces	aparecés	aparece	aparece	aparecemos	aparecéis	aparecen	aparecen
-appear	indicative	past	imperfective	aparecía	aparecías	aparecías	aparecía	aparecía	aparecíamos	aparecíais	aparecían	aparecían
-appear	indicative	past	perfective	aparecí	apareciste	apareciste	apareció	apareció	aparecimos	aparecisteis	aparecieron	aparecieron
-appear	indicative	future		apareceré	aparecerás	aparecerás	aparecerá	aparecerá	apareceremos	apareceréis	aparecerán	aparecerán
-appear	indicative	conditional		aparecería	aparecerías	aparecerías	aparecería	aparecería	apareceríamos	apareceríais	aparecerían	aparecerían
-appear	subjunctive	present		aparezca	aparezcas	aparezcás	aparezca	aparezca	aparezcamos	aparezcáis	aparezcan	aparezcan
-appear	subjunctive	past	imperfective	apareciera | apareciese	aparecieras | aparecieses	aparecieras | aparecieses	apareciera | apareciese	apareciera | apareciese	apareciéramos | apareciésemos	aparecierais | aparecieseis	aparecieran | apareciesen	aparecieran | apareciesen
-appear	subjunctive	past	perfective	apareciere	aparecieres	aparecieres	apareciere	apareciere	apareciéremos	apareciereis	aparecieren	aparecieren
-appear	imperative	affirmative			aparece	aparecé	aparezca	aparezca	aparezcamos	apareced	aparezcan	aparezcan
-appear	imperative	negative			no aparezcas	no aparezcas	no aparezca	no aparezca	no aparezcamos	no aparezcáis	no aparezcan	no aparezcan
-be-inherently	indicative	present		soy	eres	sos	es	es	somos	sois	son	son
-be-inherently	indicative	past	imperfective	era	eras	eras	era	era	éramos	erais	eran	eran
-be-inherently	indicative	past	perfective	fui	fuiste	fuiste	fue	fue	fuimos	fuisteis	fueron	fueron
-be-inherently	indicative	future		seré	serás	serás	será	será	seremos	seréis	serán	serán
-be-inherently	indicative	conditional		sería	serías	serías	sería	sería	seríamos	seríais	serían	serían
-be-inherently	subjunctive	present		sea	seas	seás	sea	sea	seamos	seáis	sean	sean
-be-inherently	subjunctive	past	imperfective	fuera | fuese	fueras | fueses	fueras | fueses	fuera | fuese	fuera | fuese	fuéramos | fuésemos	fuerais | fueseis	fueran | fuesen	fueran | fuesen
-be-inherently	subjunctive	past	perfective	fuere	fueres	fueres	fuere	fuere	fuéremos	fuereis	fueren	fueren
-be-inherently	imperative	affirmative			sé	sé	sea	sea	seamos	sed	sean	sean
-be-inherently	imperative	negative			no seas	no seas	no sea	no sea	no seamos	no seáis	no sean	no sean
-be-momentarily	indicative	present		estoy	estás	estás	está	está	estamos	estáis	están	están
-be-momentarily	indicative	past	imperfective	estaba	estabas	estabas	estaba	estaba	estábamos	estabais	estaban	estaban
-be-momentarily	indicative	past	perfective	estuve	estuviste	estuviste	estuvo	estuvo	estuvimos	estuvisteis	estuvieron	estuvieron
-be-momentarily	indicative	future		estaré	estarás	estarás	estará	estará	estaremos	estaréis	estarán	estarán
-be-momentarily	indicative	conditional		estaría	estarías	estarías	estaría	estaría	estaríamos	estaríais	estarían	estarían
-be-momentarily	subjunctive	present		esté	estés	estés	esté	esté	estemos	estéis	estén	estén
-be-momentarily	subjunctive	past	imperfective	estuviera | estuviese	estuvieras | estuvieses	estuvieras | estuvieses	estuviera | estuviese	estuviera | estuviese	estuviéramos | estuviésemos	estuvierais | estuvieseis	estuvieran | estuviesen	estuvieran | estuviesen
-be-momentarily	subjunctive	past	perfective	estuviere	estuvieres	estuvieres	estuviere	estuviere	estuviéremos	estuviereis	estuvieren	estuvieren
-be-momentarily	imperative	affirmative			está	está	esté	esté	estemos	estad	estén	estén
-be-momentarily	imperative	negative			no estés	no estés	no esté	no esté	no estemos	no estéis	no estén	no estén
-change	indicative	present		cambio	cambias	cambiás	cambia	cambia	cambiamos	cambiáis	cambian	cambian
-change	indicative	past	imperfective	cambiaba	cambiabas	cambiabas	cambiaba	cambiaba	cambiábamos	cambiabais	cambiaban	cambiaban
-change	indicative	past	perfective	cambié	cambiaste	cambiaste	cambió	cambió	cambiamos	cambiasteis	cambiaron	cambiaron
-change	indicative	future		cambiaré	cambiarás	cambiarás	cambiará	cambiará	cambiaremos	cambiaréis	cambiarán	cambiarán
-change	indicative	conditional		cambiaría	cambiarías	cambiarías	cambiaría	cambiaría	cambiaríamos	cambiaríais	cambiarían	cambiarían
-change	subjunctive	present		cambie	cambies	cambiés	cambie	cambie	cambiemos	cambiéis	cambien	cambien
-change	subjunctive	past	imperfective	cambiara | cambiase	cambiaras | cambiases	cambiaras | cambiases	cambiara | cambiase	cambiara | cambiase	cambiáramos | cambiásemos	cambiarais | cambiaseis	cambiaran | cambiasen	cambiaran | cambiasen
-change	subjunctive	past	perfective	cambiare	cambiares	cambiares	cambiare	cambiare	cambiáremos	cambiareis	cambiaren	cambiaren
-change	imperative	affirmative			cambia	cambiá	cambie	cambie	cambiemos	cambiad	cambien	cambien
-change	imperative	negative			no cambies	no cambies	no cambie	no cambie	no cambiemos	no cambiéis	no cambien	no cambien
-climb	indicative	present		escalo	escalas	escalás	escala	escala	escalamos	escaláis	escalan	escalan
-climb	indicative	past	imperfective	escalaba	escalabas	escalabas	escalaba	escalaba	escalábamos	escalabais	escalaban	escalaban
-climb	indicative	past	perfective	escalé	escalaste	escalaste	escaló	escaló	escalamos	escalasteis	escalaron	escalaron
-climb	indicative	future		escalaré	escalarás	escalarás	escalará	escalará	escalaremos	escalaréis	escalarán	escalarán
-climb	indicative	conditional		escalaría	escalarías	escalarías	escalaría	escalaría	escalaríamos	escalaríais	escalarían	escalarían
-climb	subjunctive	present		escale	escales	escalés	escale	escale	escalemos	escaléis	escalen	escalen
-climb	subjunctive	past	imperfective	escalara | escalase	escalaras | escalases	escalaras | escalases	escalara | escalase	escalara | escalase	escaláramos | escalásemos	escalarais | escalaseis	escalaran | escalasen	escalaran | escalasen
-climb	subjunctive	past	perfective	escalare	escalares	escalares	escalare	escalare	escaláremos	escalareis	escalaren	escalaren
-climb	imperative	affirmative			escala	escalá	escale	escale	escalemos	escalad	escalen	escalen
-climb	imperative	negative			no escales	no escales	no escale	no escale	no escalemos	no escaléis	no escalen	no escalen
-crawl	indicative	present		arrastro	arrastras	arrastrás	arrastra	arrastra	arrastramos	arrastráis	arrastran	arrastran
-crawl	indicative	past	imperfective	arrastraba	arrastrabas	arrastrabas	arrastraba	arrastraba	arrastrábamos	arrastrabais	arrastraban	arrastraban
-crawl	indicative	past	perfective	arrastré	arrastraste	arrastraste	arrastró	arrastró	arrastramos	arrastrasteis	arrastraron	arrastraron
-crawl	indicative	future		arrastraré	arrastrarás	arrastrarás	arrastrará	arrastrará	arrastraremos	arrastraréis	arrastrarán	arrastrarán
-crawl	indicative	conditional		arrastraría	arrastrarías	arrastrarías	arrastraría	arrastraría	arrastraríamos	arrastraríais	arrastrarían	arrastrarían
-crawl	subjunctive	present		arrastre	arrastres	arrastrés	arrastre	arrastre	arrastremos	arrastréis	arrastren	arrastren
-crawl	subjunctive	past	imperfective	arrastrara | arrastrase	arrastraras | arrastrases	arrastraras | arrastrases	arrastrara | arrastrase	arrastrara | arrastrase	arrastráramos | arrastrásemos	arrastrarais | arrastraseis	arrastraran | arrastrasen	arrastraran | arrastrasen
-crawl	subjunctive	past	perfective	arrastrare	arrastrares	arrastrares	arrastrare	arrastrare	arrastráremos	arrastrareis	arrastraren	arrastraren
-crawl	imperative	affirmative			arrastra	arrastrá	arrastre	arrastre	arrastremos	arrastrad	arrastren	arrastren
-crawl	imperative	negative			no arrastres	no arrastres	no arrastre	no arrastre	no arrastremos	no arrastréis	no arrastren	no arrastren
-cool	indicative	present		enfrío	enfrías	enfriás	enfría	enfría	enfriamos	enfriáis	enfrían	enfrían
-cool	indicative	past	imperfective	enfriaba	enfriabas	enfriabas	enfriaba	enfriaba	enfriábamos	enfriabais	enfriaban	enfriaban
-cool	indicative	past	perfective	enfrié	enfriaste	enfriaste	enfrió	enfrió	enfriamos	enfriasteis	enfriaron	enfriaron
-cool	indicative	future		enfriaré	enfriarás	enfriarás	enfriará	enfriará	enfriaremos	enfriaréis	enfriarán	enfriarán
-cool	indicative	conditional		enfriaría	enfriarías	enfriarías	enfriaría	enfriaría	enfriaríamos	enfriaríais	enfriarían	enfriarían
-cool	subjunctive	present		enfríe	enfríes	enfriés	enfríe	enfríe	enfriemos	enfriéis	enfríen	enfríen
-cool	subjunctive	past	imperfective	enfriara | enfriase	enfriaras | enfriases	enfriaras | enfriases	enfriara | enfriase	enfriara | enfriase	enfriáramos | enfriásemos	enfriarais | enfriaseis	enfriaran | enfriasen	enfriaran | enfriasen
-cool	subjunctive	past	perfective	enfriare	enfriares	enfriares	enfriare	enfriare	enfriáremos	enfriareis	enfriaren	enfriaren
-cool	imperative	affirmative			enfría	enfriá	enfríe	enfríe	enfriemos	enfriad	enfríen	enfríen
-cool	imperative	negative			no enfríes	no enfríes	no enfríe	no enfríe	no enfriemos	no enfriéis	no enfríen	no enfríen
-direct	indicative	present		guío	guías	guias	guía	guía	guiamos	guiais	guían	guían
-direct	indicative	past	imperfective	guiaba	guiabas	guiabas	guiaba	guiaba	guiábamos	guiabais	guiaban	guiaban
-direct	indicative	past	perfective	guie	guiaste	guiaste	guio	guio	guiamos	guiasteis	guiaron	guiaron
-direct	indicative	future		guiaré	guiarás	guiarás	guiará	guiará	guiaremos	guiaréis	guiarán	guiarán
-direct	indicative	conditional		guiaría	guiarías	guiarías	guiaría	guiaría	guiaríamos	guiaríais	guiarían	guiarían
-direct	subjunctive	present		guíe	guíes	guies	guíe	guíe	guiemos	guieis	guíen	guíen
-direct	subjunctive	past	imperfective	guiara | guiase	guiaras | guiases	guiaras | guiases	guiara | guiase	guiara | guiase	guiáramos | guiásemos	guiarais | guiaseis	guiaran | guiasen	guiaran | guiasen
-direct	subjunctive	past	perfective	guiare	guiares	guiares	guiare	guiare	guiáremos	guiareis	guiaren	guiaren
-direct	imperative	affirmative			guía	guia	guíe	guíe	guiemos	guiad	guíen	guíen
-direct	imperative	negative			no guíes	no guíes	no guíe	no guíe	no guiemos	no guieis	no guíen	no guíen
-displease	indicative	present		desazono	desazonas	desazonás	desazona	desazona	desazonamos	desazonáis	desazonan	desazonan
-displease	indicative	past	imperfective	desazonaba	desazonabas	desazonabas	desazonaba	desazonaba	desazonábamos	desazonabais	desazonaban	desazonaban
-displease	indicative	past	perfective	desazoné	desazonaste	desazonaste	desazonó	desazonó	desazonamos	desazonasteis	desazonaron	desazonaron
-displease	indicative	future		desazonaré	desazonarás	desazonarás	desazonará	desazonará	desazonaremos	desazonaréis	desazonarán	desazonarán
-displease	indicative	conditional		desazonaría	desazonarías	desazonarías	desazonaría	desazonaría	desazonaríamos	desazonaríais	desazonarían	desazonarían
-displease	subjunctive	present		desazone	desazones	desazonés	desazone	desazone	desazonemos	desazonéis	desazonen	desazonen
-displease	subjunctive	past	imperfective	desazonara | desazonase	desazonaras | desazonases	desazonaras | desazonases	desazonara | desazonase	desazonara | desazonase	desazonáramos | desazonásemos	desazonarais | desazonaseis	desazonaran | desazonasen	desazonaran | desazonasen
-displease	subjunctive	past	perfective	desazonare	desazonares	desazonares	desazonare	desazonare	desazonáremos	desazonareis	desazonaren	desazonaren
-displease	imperative	affirmative			desazona	desazoná	desazone	desazone	desazonemos	desazonad	desazonen	desazonen
-displease	imperative	negative			no desazones	no desazones	no desazone	no desazone	no desazonemos	no desazonéis	no desazonen	no desazonen
-eat	indicative	present		como	comes	comés	come	come	comemos	coméis	comen	comen
-eat	indicative	past	imperfective	comía	comías	comías	comía	comía	comíamos	comíais	comían	comían
-eat	indicative	past	perfective	comí	comiste	comiste	comió	comió	comimos	comisteis	comieron	comieron
-eat	indicative	future		comeré	comerás	comerás	comerá	comerá	comeremos	comeréis	comerán	comerán
-eat	indicative	conditional		comería	comerías	comerías	comería	comería	comeríamos	comeríais	comerían	comerían
-eat	subjunctive	present		coma	comas	comás	coma	coma	comamos	comáis	coman	coman
-eat	subjunctive	past	imperfective	comiera | comiese	comieras | comieses	comieras | comieses	comiera | comiese	comiera | comiese	comiéramos | comiésemos	comierais | comieseis	comieran | comiesen	comieran | comiesen
-eat	subjunctive	past	perfective	comiere	comieres	comieres	comiere	comiere	comiéremos	comiereis	comieren	comieren
-eat	imperative	affirmative			come	comé	coma	coma	comamos	comed	coman	coman
-eat	imperative	negative			no comas	no comas	no coma	no coma	no comamos	no comáis	no coman	no coman
-endure	indicative	present		tolero	toleras	tolerás	tolera	tolera	toleramos	toleráis	toleran	toleran
-endure	indicative	past	imperfective	toleraba	tolerabas	tolerabas	toleraba	toleraba	tolerábamos	tolerabais	toleraban	toleraban
-endure	indicative	past	perfective	toleré	toleraste	toleraste	toleró	toleró	toleramos	tolerasteis	toleraron	toleraron
-endure	indicative	future		toleraré	tolerarás	tolerarás	tolerará	tolerará	toleraremos	toleraréis	tolerarán	tolerarán
-endure	indicative	conditional		toleraría	tolerarías	tolerarías	toleraría	toleraría	toleraríamos	toleraríais	tolerarían	tolerarían
-endure	subjunctive	present		tolere	toleres	tolerés	tolere	tolere	toleremos	toleréis	toleren	toleren
-endure	subjunctive	past	imperfective	tolerara | tolerase	toleraras | tolerases	toleraras | tolerases	tolerara | tolerase	tolerara | tolerase	toleráramos | tolerásemos	tolerarais | toleraseis	toleraran | tolerasen	toleraran | tolerasen
-endure	subjunctive	past	perfective	tolerare	tolerares	tolerares	tolerare	tolerare	toleráremos	tolerareis	toleraren	toleraren
-endure	imperative	affirmative			tolera	tolerá	tolere	tolere	toleremos	tolerad	toleren	toleren
-endure	imperative	negative			no toleres	no toleres	no tolere	no tolere	no toleremos	no toleréis	no toleren	no toleren
-fall	indicative	present		caigo	caes	caés	cae	cae	caemos	caéis	caen	caen
-fall	indicative	past	imperfective	caía	caías	caías	caía	caía	caíamos	caíais	caían	caían
-fall	indicative	past	perfective	caí	caíste	caíste	cayó	cayó	caímos	caísteis	cayeron	cayeron
-fall	indicative	future		caeré	caerás	caerás	caerá	caerá	caeremos	caeréis	caerán	caerán
-fall	indicative	conditional		caería	caerías	caerías	caería	caería	caeríamos	caeríais	caerían	caerían
-fall	subjunctive	present		caiga	caigas	caigás	caiga	caiga	caigamos	caigáis	caigan	caigan
-fall	subjunctive	past	imperfective	cayera | cayese	cayeras | cayeses	cayeras | cayeses	cayera | cayese	cayera | cayese	cayéramos | cayésemos	cayerais | cayeseis	cayeran | cayesen	cayeran | cayesen
-fall	subjunctive	past	perfective	cayere	cayeres	cayeres	cayere	cayere	cayéremos	cayereis	cayeren	cayeren
-fall	imperative	affirmative			cae	caé	caiga	caiga	caigamos	caed	caigan	caigan
-fall	imperative	negative			no caigas	no caigas	no caiga	no caiga	no caigamos	no caigáis	no caigan	no caigan
-fly	indicative	present		vuelo	vuelas	volás	vuela	vuela	volamos	voláis	vuelan	vuelan
-fly	indicative	past	imperfective	volaba	volabas	volabas	volaba	volaba	volábamos	volabais	volaban	volaban
-fly	indicative	past	perfective	volé	volaste	volaste	voló	voló	volamos	volasteis	volaron	volaron
-fly	indicative	future		volaré	volarás	volarás	volará	volará	volaremos	volaréis	volarán	volarán
-fly	indicative	conditional		volaría	volarías	volarías	volaría	volaría	volaríamos	volaríais	volarían	volarían
-fly	subjunctive	present		vuele	vueles	volés	vuele	vuele	volemos	voléis	vuelen	vuelen
-fly	subjunctive	past	imperfective	volara | volase	volaras | volases	volaras | volases	volara | volase	volara | volase	voláramos | volásemos	volarais | volaseis	volaran | volasen	volaran | volasen
-fly	subjunctive	past	perfective	volare	volares	volares	volare	volare	voláremos	volareis	volaren	volaren
-fly	imperative	affirmative			vuela	volá	vuele	vuele	volemos	volad	vuelen	vuelen
-fly	imperative	negative			no vueles	no vueles	no vuele	no vuele	no volemos	no voléis	no vuelen	no vuelen
-flow	indicative	present		fluyo	fluyes	fluis	fluye	fluye	fluimos	fluis	fluyen	fluyen
-flow	indicative	past	imperfective	fluía	fluías	fluías	fluía	fluía	fluíamos	fluíais	fluían	fluían
-flow	indicative	past	perfective	flui	fluiste	fluiste	fluyó	fluyó	fluimos	fluisteis	fluyeron	fluyeron
-flow	indicative	future		fluiré	fluirás	fluirás	fluirá	fluirá	fluiremos	fluiréis	fluirán	fluirán
-flow	indicative	conditional		fluiría	fluirías	fluirías	fluiría	fluiría	fluiríamos	fluiríais	fluirían	fluirían
-flow	subjunctive	present		fluya	fluyas	fluyás	fluya	fluya	fluyamos	fluyáis	fluyan	fluyan
-flow	subjunctive	past	imperfective	fluyera | fluyese	fluyeras | fluyeses	fluyeras | fluyeses	fluyera | fluyese	fluyera | fluyese	fluyéramos | fluyésemos	fluyerais | fluyeseis	fluyeran | fluyesen	fluyeran | fluyesen
-flow	subjunctive	past	perfective	fluyere	fluyeres	fluyeres	fluyere	fluyere	fluyéremos	fluyereis	fluyeren	fluyeren
-flow	imperative	affirmative			fluye	flui	fluya	fluya	fluyamos	fluid	fluyan	fluyan
-flow	imperative	negative			no fluyas	no fluyas	no fluya	no fluya	no fluyamos	no fluyáis	no fluyan	no fluyan
-hear	indicative	present		oigo	oyes	oís	oye	oye	oímos	oís	oyen	oyen
-hear	indicative	past	imperfective	oía	oías	oías	oía	oía	oíamos	oíais	oían	oían
-hear	indicative	past	perfective	oí	oíste	oíste	oyó	oyó	oímos	oísteis	oyeron	oyeron
-hear	indicative	future		oiré	oirás	oirás	oirá	oirá	oiremos	oiréis	oirán	oirán
-hear	indicative	conditional		oiría	oirías	oirías	oiría	oiría	oiríamos	oiríais	oirían	oirían
-hear	subjunctive	present		oiga	oigas	oigás	oiga	oiga	oigamos	oigáis	oigan	oigan
-hear	subjunctive	past	imperfective	oyera | oyese	oyeras | oyeses	oyeras | oyeses	oyera | oyese	oyera | oyese	oyéramos | oyésemos	oyerais | oyeseis	oyeran | oyesen	oyeran | oyesen
-hear	subjunctive	past	perfective	oyere	oyeres	oyeres	oyere	oyere	oyéremos	oyereis	oyeren	oyeren
-hear	imperative	affirmative			oye	oí	oiga	oiga	oigamos	oíd	oigan	oigan
-hear	imperative	negative			no oigas	no oigas	no oiga	no oiga	no oigamos	no oigáis	no oigan	no oigan
-occupy	indicative	present		ocupo	ocupas	ocupás	ocupa	ocupa	ocupamos	ocupáis	ocupan	ocupan
-occupy	indicative	past	imperfective	ocupaba	ocupabas	ocupabas	ocupaba	ocupaba	ocupábamos	ocupabais	ocupaban	ocupaban
-occupy	indicative	past	perfective	ocupé	ocupaste	ocupaste	ocupó	ocupó	ocupamos	ocupasteis	ocuparon	ocuparon
-occupy	indicative	future		ocuparé	ocuparás	ocuparás	ocupará	ocupará	ocuparemos	ocuparéis	ocuparán	ocuparán
-occupy	indicative	conditional		ocuparía	ocuparías	ocuparías	ocuparía	ocuparía	ocuparíamos	ocuparíais	ocuparían	ocuparían
-occupy	subjunctive	present		ocupe	ocupes	ocupés	ocupe	ocupe	ocupemos	ocupéis	ocupen	ocupen
-occupy	subjunctive	past	imperfective	ocupara | ocupase	ocuparas | ocupases	ocuparas | ocupases	ocupara | ocupase	ocupara | ocupase	ocupáramos | ocupásemos	ocuparais | ocupaseis	ocuparan | ocupasen	ocuparan | ocupasen
-occupy	subjunctive	past	perfective	ocupare	ocupares	ocupares	ocupare	ocupare	ocupáremos	ocupareis	ocuparen	ocuparen
-occupy	imperative	affirmative			ocupa	ocupá	ocupe	ocupe	ocupemos	ocupad	ocupen	ocupen
-occupy	imperative	negative			no ocupes	no ocupes	no ocupe	no ocupe	no ocupemos	no ocupéis	no ocupen	no ocupen
-resemble	indicative	present		semejo	semejas	semejás	semeja	semeja	semejamos	semejáis	semejan	semejan
-resemble	indicative	past	imperfective	semejaba	semejabas	semejabas	semejaba	semejaba	semejábamos	semejabais	semejaban	semejaban
-resemble	indicative	past	perfective	semejé	semejaste	semejaste	semejó	semejó	semejamos	semejasteis	semejaron	semejaron
-resemble	indicative	future		semejaré	semejarás	semejarás	semejará	semejará	semejaremos	semejaréis	semejarán	semejarán
-resemble	indicative	conditional		semejaría	semejarías	semejarías	semejaría	semejaría	semejaríamos	semejaríais	semejarían	semejarían
-resemble	subjunctive	present		semeje	semejes	semejés	semeje	semeje	semejemos	semejéis	semejen	semejen
-resemble	subjunctive	past	imperfective	semejara | semejase	semejaras | semejases	semejaras | semejases	semejara | semejase	semejara | semejase	semejáramos | semejásemos	semejarais | semejaseis	semejaran | semejasen	semejaran | semejasen
-resemble	subjunctive	past	perfective	semejare	semejares	semejares	semejare	semejare	semejáremos	semejareis	semejaren	semejaren
-resemble	imperative	affirmative			semeja	semejá	semeje	semeje	semejemos	semejad	semejen	semejen
-resemble	imperative	negative			no semejes	no semejes	no semeje	no semeje	no semejemos	no semejéis	no semejen	no semejen
-rest	indicative	present		reposo	reposas	reposás	reposa	reposa	reposamos	reposáis	reposan	reposan
-rest	indicative	past	imperfective	reposaba	reposabas	reposabas	reposaba	reposaba	reposábamos	reposabais	reposaban	reposaban
-rest	indicative	past	perfective	reposé	reposaste	reposaste	reposó	reposó	reposamos	reposasteis	reposaron	reposaron
-rest	indicative	future		reposaré	reposarás	reposarás	reposará	reposará	reposaremos	reposaréis	reposarán	reposarán
-rest	indicative	conditional		reposaría	reposarías	reposarías	reposaría	reposaría	reposaríamos	reposaríais	reposarían	reposarían
-rest	subjunctive	present		repose	reposes	reposés	repose	repose	reposemos	reposéis	reposen	reposen
-rest	subjunctive	past	imperfective	reposara | reposase	reposaras | reposases	reposaras | reposases	reposara | reposase	reposara | reposase	reposáramos | reposásemos	reposarais | reposaseis	reposaran | reposasen	reposaran | reposasen
-rest	subjunctive	past	perfective	reposare	reposares	reposares	reposare	reposare	reposáremos	reposareis	reposaren	reposaren
-rest	imperative	affirmative			reposa	reposá	repose	repose	reposemos	reposad	reposen	reposen
-rest	imperative	negative			no reposes	no reposes	no repose	no repose	no reposemos	no reposéis	no reposen	no reposen
-see	indicative	present		veo	ves	ves	ve	ve	vemos	veis	ven	ven
-see	indicative	past	imperfective	veía	veías	veías	veía	veía	veíamos	veíais	veían	veían
-see	indicative	past	perfective	vi	viste	viste	vio	vio	vimos	visteis	vieron	vieron
-see	indicative	future		veré	verás	verás	verá	verá	veremos	veréis	verán	verán
-see	indicative	conditional		vería	verías	verías	vería	vería	veríamos	veríais	verían	verían
-see	subjunctive	present		vea	veas	veás	vea	vea	veamos	veáis	vean	vean
-see	subjunctive	past	imperfective	viera | viese	vieras | vieses	vieras | vieses	viera | viese	viera | viese	viéramos | viésemos	vierais | vieseis	vieran | viesen	vieran | viesen
-see	subjunctive	past	perfective	viere	vieres	vieres	viere	viere	viéremos	viereis	vieren	vieren
-see	imperative	affirmative			ve	ve	vea	vea	veamos	ved	vean	vean
-see	imperative	negative			no veas	no veas	no vea	no vea	no veamos	no veáis	no vean	no vean
-show	indicative	present		muestro	muestras	mostrás	muestra	muestra	mostramos	mostráis	muestran	muestran
-show	indicative	past	imperfective	mostraba	mostrabas	mostrabas	mostraba	mostraba	mostrábamos	mostrabais	mostraban	mostraban
-show	indicative	past	perfective	mostré	mostraste	mostraste	mostró	mostró	mostramos	mostrasteis	mostraron	mostraron
-show	indicative	future		mostraré	mostrarás	mostrarás	mostrará	mostrará	mostraremos	mostraréis	mostrarán	mostrarán
-show	indicative	conditional		mostraría	mostrarías	mostrarías	mostraría	mostraría	mostraríamos	mostraríais	mostrarían	mostrarían
-show	subjunctive	present		muestre	muestres	mostrés	muestre	muestre	mostremos	mostréis	muestren	muestren
-show	subjunctive	past	imperfective	mostrara | mostrase	mostraras | mostrases	mostraras | mostrases	mostrara | mostrase	mostrara | mostrase	mostráramos | mostrásemos	mostrarais | mostraseis	mostraran | mostrasen	mostraran | mostrasen
-show	subjunctive	past	perfective	mostrare	mostrares	mostrares	mostrare	mostrare	mostráremos	mostrareis	mostraren	mostraren
-show	imperative	affirmative			muestra	mostrá	muestre	muestre	mostremos	mostrad	muestren	muestren
-show	imperative	negative			no muestres	no muestres	no muestre	no muestre	no mostremos	no mostréis	no muestren	no muestren
-startle	indicative	present		atemorizo	atemorizas	atemorizás	atemoriza	atemoriza	atemorizamos	atemorizáis	atemorizan	atemorizan
-startle	indicative	past	imperfective	atemorizaba	atemorizabas	atemorizabas	atemorizaba	atemorizaba	atemorizábamos	atemorizabais	atemorizaban	atemorizaban
-startle	indicative	past	perfective	atemoricé	atemorizaste	atemorizaste	atemorizó	atemorizó	atemorizamos	atemorizasteis	atemorizaron	atemorizaron
-startle	indicative	future		atemorizaré	atemorizarás	atemorizarás	atemorizará	atemorizará	atemorizaremos	atemorizaréis	atemorizarán	atemorizarán
-startle	indicative	conditional		atemorizaría	atemorizarías	atemorizarías	atemorizaría	atemorizaría	atemorizaríamos	atemorizaríais	atemorizarían	atemorizarían
-startle	subjunctive	present		atemorice	atemorices	atemoricés	atemorice	atemorice	atemoricemos	atemoricéis	atemoricen	atemoricen
-startle	subjunctive	past	imperfective	atemorizara | atemorizase	atemorizaras | atemorizases	atemorizaras | atemorizases	atemorizara | atemorizase	atemorizara | atemorizase	atemorizáramos | atemorizásemos	atemorizarais | atemorizaseis	atemorizaran | atemorizasen	atemorizaran | atemorizasen
-startle	subjunctive	past	perfective	atemorizare	atemorizares	atemorizares	atemorizare	atemorizare	atemorizáremos	atemorizareis	atemorizaren	atemorizaren
-startle	imperative	affirmative			atemoriza	atemorizá	atemorice	atemorice	atemoricemos	atemorizad	atemoricen	atemoricen
-startle	imperative	negative			no atemorices	no atemorices	no atemorice	no atemorice	no atemoricemos	no atemoricéis	no atemoricen	no atemoricen
-swim	indicative	present		nado	nadas	nadás	nada	nada	nadamos	nadáis	nadan	nadan
-swim	indicative	past	imperfective	nadaba	nadabas	nadabas	nadaba	nadaba	nadábamos	nadabais	nadaban	nadaban
-swim	indicative	past	perfective	nadé	nadaste	nadaste	nadó	nadó	nadamos	nadasteis	nadaron	nadaron
-swim	indicative	future		nadaré	nadarás	nadarás	nadará	nadará	nadaremos	nadaréis	nadarán	nadarán
-swim	indicative	conditional		nadaría	nadarías	nadarías	nadaría	nadaría	nadaríamos	nadaríais	nadarían	nadarían
-swim	subjunctive	present		nade	nades	nadés	nade	nade	nademos	nadéis	naden	naden
-swim	subjunctive	past	imperfective	nadara | nadase	nadaras | nadases	nadaras | nadases	nadara | nadase	nadara | nadase	nadáramos | nadásemos	nadarais | nadaseis	nadaran | nadasen	nadaran | nadasen
-swim	subjunctive	past	perfective	nadare	nadares	nadares	nadare	nadare	nadáremos	nadareis	nadaren	nadaren
-swim	imperative	affirmative			nada	nadá	nade	nade	nademos	nadad	naden	naden
-swim	imperative	negative			no nades	no nades	no nade	no nade	no nademos	no nadéis	no naden	no naden
-walk	indicative	present		camino	caminas	caminás	camina	camina	caminamos	camináis	caminan	caminan
-walk	indicative	past	imperfective	caminaba	caminabas	caminabas	caminaba	caminaba	caminábamos	caminabais	caminaban	caminaban
-walk	indicative	past	perfective	caminé	caminaste	caminaste	caminó	caminó	caminamos	caminasteis	caminaron	caminaron
-walk	indicative	future		caminaré	caminarás	caminarás	caminará	caminará	caminaremos	caminaréis	caminarán	caminarán
-walk	indicative	conditional		caminaría	caminarías	caminarías	caminaría	caminaría	caminaríamos	caminaríais	caminarían	caminarían
-walk	subjunctive	present		camine	camines	caminés	camine	camine	caminemos	caminéis	caminen	caminen
-walk	subjunctive	past	imperfective	caminara | caminase	caminaras | caminases	caminaras | caminases	caminara | caminase	caminara | caminase	camináramos | caminásemos	caminarais | caminaseis	caminaran | caminasen	caminaran | caminasen
-walk	subjunctive	past	perfective	caminare	caminares	caminares	caminare	caminare	camináremos	caminareis	caminaren	caminaren
-walk	imperative	affirmative			camina	caminá	camine	camine	caminemos	caminad	caminen	caminen
-walk	imperative	negative			no camines	no camines	no camine	no camine	no caminemos	no caminéis	no caminen	no caminen
-warm	indicative	present		caliento	calientas	calentás	calienta	calienta	calentamos	calentáis	calientan	calientan
-warm	indicative	past	imperfective	calentaba	calentabas	calentabas	calentaba	calentaba	calentábamos	calentabais	calentaban	calentaban
-warm	indicative	past	perfective	calenté	calentaste	calentaste	calentó	calentó	calentamos	calentasteis	calentaron	calentaron
-warm	indicative	future		calentaré	calentarás	calentarás	calentará	calentará	calentaremos	calentaréis	calentarán	calentarán
-warm	indicative	conditional		calentaría	calentarías	calentarías	calentaría	calentaría	calentaríamos	calentaríais	calentarían	calentarían
-warm	subjunctive	present		caliente	calientes	calentés	caliente	caliente	calentemos	calentéis	calienten	calienten
-warm	subjunctive	past	imperfective	calentara | calentase	calentaras | calentases	calentaras | calentases	calentara | calentase	calentara | calentase	calentáramos | calentásemos	calentarais | calentaseis	calentaran | calentasen	calentaran | calentasen
-warm	subjunctive	past	perfective	calentare	calentares	calentares	calentare	calentare	calentáremos	calentareis	calentaren	calentaren
-warm	imperative	affirmative			calienta	calentá	caliente	caliente	calentemos	calentad	calienten	calienten
-warm	imperative	negative			no calientes	no calientes	no caliente	no caliente	no calentemos	no calentéis	no calienten	no calienten
-watch	indicative	present		miro	miras	mirás	mira	mira	miramos	miráis	miran	miran
-watch	indicative	past	imperfective	miraba	mirabas	mirabas	miraba	miraba	mirábamos	mirabais	miraban	miraban
-watch	indicative	past	perfective	miré	miraste	miraste	miró	miró	miramos	mirasteis	miraron	miraron
-watch	indicative	future		miraré	mirarás	mirarás	mirará	mirará	miraremos	miraréis	mirarán	mirarán
-watch	indicative	conditional		miraría	mirarías	mirarías	miraría	miraría	miraríamos	miraríais	mirarían	mirarían
-watch	subjunctive	present		mire	mires	mirés	mire	mire	miremos	miréis	miren	miren
-watch	subjunctive	past	imperfective	mirara | mirase	miraras | mirases	miraras | mirases	mirara | mirase	mirara | mirase	miráramos | mirásemos	mirarais | miraseis	miraran | mirasen	miraran | mirasen
-watch	subjunctive	past	perfective	mirare	mirares	mirares	mirare	mirare	miráremos	mirareis	miraren	miraren
-watch	imperative	affirmative			mira	mirá	mire	mire	miremos	mirad	miren	miren
-watch	imperative	negative			no mires	no mires	no mire	no mire	no miremos	no miréis	no miren	no miren
-work	indicative	present		trabajo	trabajas	trabajás	trabaja	trabaja	trabajamos	trabajáis	trabajan	trabajan
-work	indicative	past	imperfective	trabajaba	trabajabas	trabajabas	trabajaba	trabajaba	trabajábamos	trabajabais	trabajaban	trabajaban
-work	indicative	past	perfective	trabajé	trabajaste	trabajaste	trabajó	trabajó	trabajamos	trabajasteis	trabajaron	trabajaron
-work	indicative	future		trabajaré	trabajarás	trabajarás	trabajará	trabajará	trabajaremos	trabajaréis	trabajarán	trabajarán
-work	indicative	conditional		trabajaría	trabajarías	trabajarías	trabajaría	trabajaría	trabajaríamos	trabajaríais	trabajarían	trabajarían
-work	subjunctive	present		trabaje	trabajes	trabajés	trabaje	trabaje	trabajemos	trabajéis	trabajen	trabajen
-work	subjunctive	past	imperfective	trabajara | trabajase	trabajaras | trabajases	trabajaras | trabajases	trabajara | trabajase	trabajara | trabajase	trabajáramos | trabajásemos	trabajarais | trabajaseis	trabajaran | trabajasen	trabajaran | trabajasen
-work	subjunctive	past	perfective	trabajare	trabajares	trabajares	trabajare	trabajare	trabajáremos	trabajareis	trabajaren	trabajaren
-work	imperative	affirmative			trabaja	trabajá	trabaje	trabaje	trabajemos	trabajad	trabajen	trabajen
-work	imperative	negative			no trabajes	no trabajes	no trabaje	no trabaje	no trabajemos	no trabajéis	no trabajen	no trabajen
-have	indicative	present		he	has	has	ha, hay3	ha, hay3	hemos	habéis	han	han
-have	indicative	past	imperfective	había	habías	habías	había	había	habíamos	habíais	habían	habían
-have	indicative	past	perfective	hube	hubiste	hubiste	hubo	hubo	hubimos	hubisteis	hubieron	hubieron
-have	indicative	future		habré	habrás	habrás	habrá	habrá	habremos	habréis	habrán	habrán
-have	indicative	conditional		habría	habrías	habrías	habría	habría	habríamos	habríais	habrían	habrían
-have	subjunctive	present		haya	hayas	hayás	haya	haya	hayamos	hayáis	hayan	hayan
-have	subjunctive	past	imperfective	hubiera | hubiese	hubieras | hubieses	hubieras | hubieses	hubiera | hubiese	hubiera | hubiese	hubiéramos | hubiésemos	hubierais | hubieseis	hubieran | hubiesen	hubieran | hubiesen
-have	subjunctive	past	perfective	hubiere	hubieres	hubieres	hubiere	hubiere	hubiéremos	hubiereis	hubieren	hubieren
-have	imperative	affirmative			habe, he	habe, he	haya	haya	hayamos	habed	hayan	hayan
-have	imperative	negative			no hayas	no hayas	no haya	no haya	no hayamos	no hayáis	no hayan	no hayan
-have-in-possession	indicative	present		tengo	tienes	tenés	tiene	tiene	tenemos	tenéis	tienen	tienen
-have-in-possession	indicative	past	imperfective	tenía	tenías	tenías	tenía	tenía	teníamos	teníais	tenían	tenían
-have-in-possession	indicative	past	perfective	tuve	tuviste	tuviste	tuvo	tuvo	tuvimos	tuvisteis	tuvieron	tuvieron
-have-in-possession	indicative	future		tendré	tendrás	tendrás	tendrá	tendrá	tendremos	tendréis	tendrán	tendrán
-have-in-possession	indicative	conditional		tendría	tendrías	tendrías	tendría	tendría	tendríamos	tendríais	tendrían	tendrían
-have-in-possession	subjunctive	present		tenga	tengas	tengás	tenga	tenga	tengamos	tengáis	tengan	tengan
-have-in-possession	subjunctive	past	imperfective	tuviera | tuviese	tuvieras | tuvieses	tuvieras | tuvieses	tuviera | tuviese	tuviera | tuviese	tuviéramos | tuviésemos	tuvierais | tuvieseis	tuvieran | tuviesen	tuvieran | tuviesen
-have-in-possession	subjunctive	past	perfective	tuviere	tuvieres	tuvieres	tuviere	tuviere	tuviéremos	tuviereis	tuvieren	tuvieren
-have-in-possession	imperative	affirmative			ten	tené	tenga	tenga	tengamos	tened	tengan	tengan
-have-in-possession	imperative	negative			no tengas	no tengas	no tenga	no tenga	no tengamos	no tengáis	no tengan	no tengan
-go	indicative	present		voy	vas	vas	va	va	vamos	vais	van	van
-go	indicative	past	imperfective	iba	ibas	ibas	iba	iba	íbamos	ibais	iban	iban
-go	indicative	past	perfective	fui	fuiste	fuiste	fue	fue	fuimos	fuisteis	fueron	fueron
-go	indicative	future		iré	irás	irás	irá	irá	iremos	iréis	irán	irán
-go	indicative	conditional		iría	irías	irías	iría	iría	iríamos	iríais	irían	irían
-go	subjunctive	present		vaya	vayas	vayás	vaya	vaya	vayamos	vayáis	vayan	vayan
-go	subjunctive	past	imperfective	fuera | fuese	fueras | fueses	fueras | fueses	fuera | fuese	fuera | fuese	fuéramos | fuésemos	fuerais | fueseis	fueran | fuesen	fueran | fuesen
-go	subjunctive	past	perfective	fuere	fueres	fueres	fuere	fuere	fuéremos	fuereis	fueren	fueren
-go	imperative	affirmative			ve	andá	vaya	vaya	vamos, vayamos	id	vayan	vayan
-go	imperative	negative			no vayas	no vayas	no vaya	no vaya	no vayamos	no vayáis	no vayan	no vayan
-love	indicative	present		amo	amas	amás	ama	ama	amamos	amáis	aman	aman
-love	indicative	past	imperfective	amaba	amabas	amabas	amaba	amaba	amábamos	amabais	amaban	amaban
-love	indicative	past	perfective	amé	amaste	amaste	amó	amó	amamos	amasteis	amaron	amaron
-love	indicative	future		amaré	amarás	amarás	amará	amará	amaremos	amaréis	amarán	amarán
-love	indicative	conditional		amaría	amarías	amarías	amaría	amaría	amaríamos	amaríais	amarían	amarían
-love	subjunctive	present		ame	ames	amés	ame	ame	amemos	améis	amen	amen
-love	subjunctive	past	imperfective	amara | amase	amaras | amases	amaras | amases	amara | amase	amara | amase	amáramos | amásemos	amarais | amaseis	amaran | amasen	amaran | amasen
-love	subjunctive	past	perfective	amare	amares	amares	amare	amare	amáremos	amareis	amaren	amaren
-love	imperative	affirmative			ama	amá	ame	ame	amemos	amad	amen	amen
-love	imperative	negative			no ames	no ames	no ame	no ame	no amemos	no améis	no amen	no amen
-fear	indicative	present		temo	temes	temés	teme	teme	tememos	teméis	temen	temen
-fear	indicative	past	imperfective	temía	temías	temías	temía	temía	temíamos	temíais	temían	temían
-fear	indicative	past	perfective	temí	temiste	temiste	temió	temió	temimos	temisteis	temieron	temieron
-fear	indicative	future		temeré	temerás	temerás	temerá	temerá	temeremos	temeréis	temerán	temerán
-fear	indicative	conditional		temería	temerías	temerías	temería	temería	temeríamos	temeríais	temerían	temerían
-fear	subjunctive	present		tema	temas	temás	tema	tema	temamos	temáis	teman	teman
-fear	subjunctive	past	imperfective	temiera | temiese	temieras | temieses	temieras | temieses	temiera | temiese	temiera | temiese	temiéramos | temiésemos	temierais | temieseis	temieran | temiesen	temieran | temiesen
-fear	subjunctive	past	perfective	temiere	temieres	temieres	temiere	temiere	temiéremos	temiereis	temieren	temieren
-fear	imperative	affirmative			teme	temé	tema	tema	temamos	temed	teman	teman
-fear	imperative	negative			no temas	no temas	no tema	no tema	no temamos	no temáis	no teman	no teman
-part	indicative	present		parto	partes	partís	parte	parte	partimos	partís	parten	parten
-part	indicative	past	imperfective	partía	partías	partías	partía	partía	partíamos	partíais	partían	partían
-part	indicative	past	perfective	partí	partiste	partiste	partió	partió	partimos	partisteis	partieron	partieron
-part	indicative	future		partiré	partirás	partirás	partirá	partirá	partiremos	partiréis	partirán	partirán
-part	indicative	conditional		partiría	partirías	partirías	partiría	partiría	partiríamos	partiríais	partirían	partirían
-part	subjunctive	present		parta	partas	partás	parta	parta	partamos	partáis	partan	partan
-part	subjunctive	past	imperfective	partiera | partiese	partieras | partieses	partieras | partieses	partiera | partiese	partiera | partiese	partiéramos | partiésemos	partierais | partieseis	partieran | partiesen	partieran | partiesen
-part	subjunctive	past	perfective	partiere	partieres	partieres	partiere	partiere	partiéremos	partiereis	partieren	partieren
-part	imperative	affirmative			parte	partí	parta	parta	partamos	partid	partan	partan
-part	imperative	negative			no partas	no partas	no parta	no parta	no partamos	no partáis	no partan	no partan
-know	indicative	present		conozco	conoces	conocés	conoce	conoce	conocemos	conocéis	conocen	conocen
-know	indicative	past	imperfective	conocía	conocías	conocías	conocía	conocía	conocíamos	conocíais	conocían	conocían
-know	indicative	past	perfective	conocí	conociste	conociste	conoció	conoció	conocimos	conocisteis	conocieron	conocieron
-know	indicative	future		conoceré	conocerás	conocerás	conocerá	conocerá	conoceremos	conoceréis	conocerán	conocerán
-know	indicative	conditional		conocería	conocerías	conocerías	conocería	conocería	conoceríamos	conoceríais	conocerían	conocerían
-know	subjunctive	present		conozca	conozcas	conozcás	conozca	conozca	conozcamos	conozcáis	conozcan	conozcan
-know	subjunctive	past	imperfective	conociera | conociese	conocieras | conocieses	conocieras | conocieses	conociera | conociese	conociera | conociese	conociéramos | conociésemos	conocierais | conocieseis	conocieran | conociesen	conocieran | conociesen
-know	subjunctive	past	perfective	conociere	conocieres	conocieres	conociere	conociere	conociéremos	conociereis	conocieren	conocieren
-know	imperative	affirmative			conoce	conocé	conozca	conozca	conozcamos	conoced	conozcan	conozcan
-know	imperative	negative			no conozcas	no conozcas	no conozca	no conozca	no conozcamos	no conozcáis	no conozcan	no conozcan
-drive	indicative	present		conduzco	conduces	conducís	conduce	conduce	conducimos	conducís	conducen	conducen
-drive	indicative	past	imperfective	conducía	conducías	conducías	conducía	conducía	conducíamos	conducíais	conducían	conducían
-drive	indicative	past	perfective	conduje	condujiste	condujiste	condujo	condujo	condujimos	condujisteis	condujeron	condujeron
-drive	indicative	future		conduciré	conducirás	conducirás	conducirá	conducirá	conduciremos	conduciréis	conducirán	conducirán
-drive	indicative	conditional		conduciría	conducirías	conducirías	conduciría	conduciría	conduciríamos	conduciríais	conducirían	conducirían
-drive	subjunctive	present		conduzca	conduzcas	conduzcás	conduzca	conduzca	conduzcamos	conduzcáis	conduzcan	conduzcan
-drive	subjunctive	past	imperfective	condujera | condujese	condujeras | condujeses	condujeras | condujeses	condujera | condujese	condujera | condujese	condujéramos | condujésemos	condujerais | condujeseis	condujeran | condujesen	condujeran | condujesen
-drive	subjunctive	past	perfective	condujere	condujeres	condujeres	condujere	condujere	condujéremos	condujereis	condujeren	condujeren
-drive	imperative	affirmative			conduce	conducí	conduzca	conduzca	conduzcamos	conducid	conduzcan	conduzcan
-drive	imperative	negative			no conduzcas	no conduzcas	no conduzca	no conduzca	no conduzcamos	no conduzcáis	no conduzcan	no conduzcan
+*	*	*	*	1	2	2	2	3	1	2	2	2	3
+*	*	*	*	singular	singular	singular	singular	singular	plural	plural	plural	plural	plural
+*	*	*	*		tuteo	voseo	formal			tuteo	voseo	formal	
+appear	indicative	present		aparezco	apareces	aparecés	aparece	aparece	aparecemos	aparecéis	aparecéis	aparecen	aparecen
+appear	indicative	past	imperfective	aparecía	aparecías	aparecías	aparecía	aparecía	aparecíamos	aparecíais	aparecíais	aparecían	aparecían
+appear	indicative	past	perfective	aparecí	apareciste	apareciste	apareció	apareció	aparecimos	aparecisteis	aparecisteis	aparecieron	aparecieron
+appear	indicative	future		apareceré	aparecerás	aparecerás	aparecerá	aparecerá	apareceremos	apareceréis	apareceréis	aparecerán	aparecerán
+appear	indicative	conditional		aparecería	aparecerías	aparecerías	aparecería	aparecería	apareceríamos	apareceríais	apareceríais	aparecerían	aparecerían
+appear	subjunctive	present		aparezca	aparezcas	aparezcás	aparezca	aparezca	aparezcamos	aparezcáis	aparezcáis	aparezcan	aparezcan
+appear	subjunctive	past	imperfective	apareciera | apareciese	aparecieras | aparecieses	aparecieras | aparecieses	apareciera | apareciese	apareciera | apareciese	apareciéramos | apareciésemos	aparecierais | aparecieseis	aparecierais | aparecieseis	aparecieran | apareciesen	aparecieran | apareciesen
+appear	subjunctive	past	perfective	apareciere	aparecieres	aparecieres	apareciere	apareciere	apareciéremos	apareciereis	apareciereis	aparecieren	aparecieren
+appear	imperative	affirmative		—	aparece	aparecé	aparezca	aparezca	aparezcamos	apareced	apareced	aparezcan	aparezcan
+appear	imperative	negative		—	no aparezcas	no aparezcas	no aparezca	no aparezca	no aparezcamos	no aparezcáis	no aparezcáis	no aparezcan	no aparezcan
+be-inherently	indicative	present		soy	eres	sos	es	es	somos	sois	sois	son	son
+be-inherently	indicative	past	imperfective	era	eras	eras	era	era	éramos	erais	erais	eran	eran
+be-inherently	indicative	past	perfective	fui	fuiste	fuiste	fue	fue	fuimos	fuisteis	fuisteis	fueron	fueron
+be-inherently	indicative	future		seré	serás	serás	será	será	seremos	seréis	seréis	serán	serán
+be-inherently	indicative	conditional		sería	serías	serías	sería	sería	seríamos	seríais	seríais	serían	serían
+be-inherently	subjunctive	present		sea	seas	seás	sea	sea	seamos	seáis	seáis	sean	sean
+be-inherently	subjunctive	past	imperfective	fuera | fuese	fueras | fueses	fueras | fueses	fuera | fuese	fuera | fuese	fuéramos | fuésemos	fuerais | fueseis	fuerais | fueseis	fueran | fuesen	fueran | fuesen
+be-inherently	subjunctive	past	perfective	fuere	fueres	fueres	fuere	fuere	fuéremos	fuereis	fuereis	fueren	fueren
+be-inherently	imperative	affirmative		—	sé	sé	sea	sea	seamos	sed	sed	sean	sean
+be-inherently	imperative	negative		—	no seas	no seas	no sea	no sea	no seamos	no seáis	no seáis	no sean	no sean
+be-momentarily	indicative	present		estoy	estás	estás	está	está	estamos	estáis	estáis	están	están
+be-momentarily	indicative	past	imperfective	estaba	estabas	estabas	estaba	estaba	estábamos	estabais	estabais	estaban	estaban
+be-momentarily	indicative	past	perfective	estuve	estuviste	estuviste	estuvo	estuvo	estuvimos	estuvisteis	estuvisteis	estuvieron	estuvieron
+be-momentarily	indicative	future		estaré	estarás	estarás	estará	estará	estaremos	estaréis	estaréis	estarán	estarán
+be-momentarily	indicative	conditional		estaría	estarías	estarías	estaría	estaría	estaríamos	estaríais	estaríais	estarían	estarían
+be-momentarily	subjunctive	present		esté	estés	estés	esté	esté	estemos	estéis	estéis	estén	estén
+be-momentarily	subjunctive	past	imperfective	estuviera | estuviese	estuvieras | estuvieses	estuvieras | estuvieses	estuviera | estuviese	estuviera | estuviese	estuviéramos | estuviésemos	estuvierais | estuvieseis	estuvierais | estuvieseis	estuvieran | estuviesen	estuvieran | estuviesen
+be-momentarily	subjunctive	past	perfective	estuviere	estuvieres	estuvieres	estuviere	estuviere	estuviéremos	estuviereis	estuviereis	estuvieren	estuvieren
+be-momentarily	imperative	affirmative		—	está	está	esté	esté	estemos	estad	estad	estén	estén
+be-momentarily	imperative	negative		—	no estés	no estés	no esté	no esté	no estemos	no estéis	no estéis	no estén	no estén
+change	indicative	present		cambio	cambias	cambiás	cambia	cambia	cambiamos	cambiáis	cambiáis	cambian	cambian
+change	indicative	past	imperfective	cambiaba	cambiabas	cambiabas	cambiaba	cambiaba	cambiábamos	cambiabais	cambiabais	cambiaban	cambiaban
+change	indicative	past	perfective	cambié	cambiaste	cambiaste	cambió	cambió	cambiamos	cambiasteis	cambiasteis	cambiaron	cambiaron
+change	indicative	future		cambiaré	cambiarás	cambiarás	cambiará	cambiará	cambiaremos	cambiaréis	cambiaréis	cambiarán	cambiarán
+change	indicative	conditional		cambiaría	cambiarías	cambiarías	cambiaría	cambiaría	cambiaríamos	cambiaríais	cambiaríais	cambiarían	cambiarían
+change	subjunctive	present		cambie	cambies	cambiés	cambie	cambie	cambiemos	cambiéis	cambiéis	cambien	cambien
+change	subjunctive	past	imperfective	cambiara | cambiase	cambiaras | cambiases	cambiaras | cambiases	cambiara | cambiase	cambiara | cambiase	cambiáramos | cambiásemos	cambiarais | cambiaseis	cambiarais | cambiaseis	cambiaran | cambiasen	cambiaran | cambiasen
+change	subjunctive	past	perfective	cambiare	cambiares	cambiares	cambiare	cambiare	cambiáremos	cambiareis	cambiareis	cambiaren	cambiaren
+change	imperative	affirmative		—	cambia	cambiá	cambie	cambie	cambiemos	cambiad	cambiad	cambien	cambien
+change	imperative	negative		—	no cambies	no cambies	no cambie	no cambie	no cambiemos	no cambiéis	no cambiéis	no cambien	no cambien
+climb	indicative	present		escalo	escalas	escalás	escala	escala	escalamos	escaláis	escaláis	escalan	escalan
+climb	indicative	past	imperfective	escalaba	escalabas	escalabas	escalaba	escalaba	escalábamos	escalabais	escalabais	escalaban	escalaban
+climb	indicative	past	perfective	escalé	escalaste	escalaste	escaló	escaló	escalamos	escalasteis	escalasteis	escalaron	escalaron
+climb	indicative	future		escalaré	escalarás	escalarás	escalará	escalará	escalaremos	escalaréis	escalaréis	escalarán	escalarán
+climb	indicative	conditional		escalaría	escalarías	escalarías	escalaría	escalaría	escalaríamos	escalaríais	escalaríais	escalarían	escalarían
+climb	subjunctive	present		escale	escales	escalés	escale	escale	escalemos	escaléis	escaléis	escalen	escalen
+climb	subjunctive	past	imperfective	escalara | escalase	escalaras | escalases	escalaras | escalases	escalara | escalase	escalara | escalase	escaláramos | escalásemos	escalarais | escalaseis	escalarais | escalaseis	escalaran | escalasen	escalaran | escalasen
+climb	subjunctive	past	perfective	escalare	escalares	escalares	escalare	escalare	escaláremos	escalareis	escalareis	escalaren	escalaren
+climb	imperative	affirmative		—	escala	escalá	escale	escale	escalemos	escalad	escalad	escalen	escalen
+climb	imperative	negative		—	no escales	no escales	no escale	no escale	no escalemos	no escaléis	no escaléis	no escalen	no escalen
+crawl	indicative	present		arrastro	arrastras	arrastrás	arrastra	arrastra	arrastramos	arrastráis	arrastráis	arrastran	arrastran
+crawl	indicative	past	imperfective	arrastraba	arrastrabas	arrastrabas	arrastraba	arrastraba	arrastrábamos	arrastrabais	arrastrabais	arrastraban	arrastraban
+crawl	indicative	past	perfective	arrastré	arrastraste	arrastraste	arrastró	arrastró	arrastramos	arrastrasteis	arrastrasteis	arrastraron	arrastraron
+crawl	indicative	future		arrastraré	arrastrarás	arrastrarás	arrastrará	arrastrará	arrastraremos	arrastraréis	arrastraréis	arrastrarán	arrastrarán
+crawl	indicative	conditional		arrastraría	arrastrarías	arrastrarías	arrastraría	arrastraría	arrastraríamos	arrastraríais	arrastraríais	arrastrarían	arrastrarían
+crawl	subjunctive	present		arrastre	arrastres	arrastrés	arrastre	arrastre	arrastremos	arrastréis	arrastréis	arrastren	arrastren
+crawl	subjunctive	past	imperfective	arrastrara | arrastrase	arrastraras | arrastrases	arrastraras | arrastrases	arrastrara | arrastrase	arrastrara | arrastrase	arrastráramos | arrastrásemos	arrastrarais | arrastraseis	arrastrarais | arrastraseis	arrastraran | arrastrasen	arrastraran | arrastrasen
+crawl	subjunctive	past	perfective	arrastrare	arrastrares	arrastrares	arrastrare	arrastrare	arrastráremos	arrastrareis	arrastrareis	arrastraren	arrastraren
+crawl	imperative	affirmative		—	arrastra	arrastrá	arrastre	arrastre	arrastremos	arrastrad	arrastrad	arrastren	arrastren
+crawl	imperative	negative		—	no arrastres	no arrastres	no arrastre	no arrastre	no arrastremos	no arrastréis	no arrastréis	no arrastren	no arrastren
+cool	indicative	present		enfrío	enfrías	enfriás	enfría	enfría	enfriamos	enfriáis	enfriáis	enfrían	enfrían
+cool	indicative	past	imperfective	enfriaba	enfriabas	enfriabas	enfriaba	enfriaba	enfriábamos	enfriabais	enfriabais	enfriaban	enfriaban
+cool	indicative	past	perfective	enfrié	enfriaste	enfriaste	enfrió	enfrió	enfriamos	enfriasteis	enfriasteis	enfriaron	enfriaron
+cool	indicative	future		enfriaré	enfriarás	enfriarás	enfriará	enfriará	enfriaremos	enfriaréis	enfriaréis	enfriarán	enfriarán
+cool	indicative	conditional		enfriaría	enfriarías	enfriarías	enfriaría	enfriaría	enfriaríamos	enfriaríais	enfriaríais	enfriarían	enfriarían
+cool	subjunctive	present		enfríe	enfríes	enfriés	enfríe	enfríe	enfriemos	enfriéis	enfriéis	enfríen	enfríen
+cool	subjunctive	past	imperfective	enfriara | enfriase	enfriaras | enfriases	enfriaras | enfriases	enfriara | enfriase	enfriara | enfriase	enfriáramos | enfriásemos	enfriarais | enfriaseis	enfriarais | enfriaseis	enfriaran | enfriasen	enfriaran | enfriasen
+cool	subjunctive	past	perfective	enfriare	enfriares	enfriares	enfriare	enfriare	enfriáremos	enfriareis	enfriareis	enfriaren	enfriaren
+cool	imperative	affirmative		—	enfría	enfriá	enfríe	enfríe	enfriemos	enfriad	enfriad	enfríen	enfríen
+cool	imperative	negative		—	no enfríes	no enfríes	no enfríe	no enfríe	no enfriemos	no enfriéis	no enfriéis	no enfríen	no enfríen
+direct	indicative	present		guío	guías	guias	guía	guía	guiamos	guiais	guiais	guían	guían
+direct	indicative	past	imperfective	guiaba	guiabas	guiabas	guiaba	guiaba	guiábamos	guiabais	guiabais	guiaban	guiaban
+direct	indicative	past	perfective	guie	guiaste	guiaste	guio	guio	guiamos	guiasteis	guiasteis	guiaron	guiaron
+direct	indicative	future		guiaré	guiarás	guiarás	guiará	guiará	guiaremos	guiaréis	guiaréis	guiarán	guiarán
+direct	indicative	conditional		guiaría	guiarías	guiarías	guiaría	guiaría	guiaríamos	guiaríais	guiaríais	guiarían	guiarían
+direct	subjunctive	present		guíe	guíes	guies	guíe	guíe	guiemos	guieis	guieis	guíen	guíen
+direct	subjunctive	past	imperfective	guiara | guiase	guiaras | guiases	guiaras | guiases	guiara | guiase	guiara | guiase	guiáramos | guiásemos	guiarais | guiaseis	guiarais | guiaseis	guiaran | guiasen	guiaran | guiasen
+direct	subjunctive	past	perfective	guiare	guiares	guiares	guiare	guiare	guiáremos	guiareis	guiareis	guiaren	guiaren
+direct	imperative	affirmative		—	guía	guia	guíe	guíe	guiemos	guiad	guiad	guíen	guíen
+direct	imperative	negative		—	no guíes	no guíes	no guíe	no guíe	no guiemos	no guieis	no guieis	no guíen	no guíen
+displease	indicative	present		desazono	desazonas	desazonás	desazona	desazona	desazonamos	desazonáis	desazonáis	desazonan	desazonan
+displease	indicative	past	imperfective	desazonaba	desazonabas	desazonabas	desazonaba	desazonaba	desazonábamos	desazonabais	desazonabais	desazonaban	desazonaban
+displease	indicative	past	perfective	desazoné	desazonaste	desazonaste	desazonó	desazonó	desazonamos	desazonasteis	desazonasteis	desazonaron	desazonaron
+displease	indicative	future		desazonaré	desazonarás	desazonarás	desazonará	desazonará	desazonaremos	desazonaréis	desazonaréis	desazonarán	desazonarán
+displease	indicative	conditional		desazonaría	desazonarías	desazonarías	desazonaría	desazonaría	desazonaríamos	desazonaríais	desazonaríais	desazonarían	desazonarían
+displease	subjunctive	present		desazone	desazones	desazonés	desazone	desazone	desazonemos	desazonéis	desazonéis	desazonen	desazonen
+displease	subjunctive	past	imperfective	desazonara | desazonase	desazonaras | desazonases	desazonaras | desazonases	desazonara | desazonase	desazonara | desazonase	desazonáramos | desazonásemos	desazonarais | desazonaseis	desazonarais | desazonaseis	desazonaran | desazonasen	desazonaran | desazonasen
+displease	subjunctive	past	perfective	desazonare	desazonares	desazonares	desazonare	desazonare	desazonáremos	desazonareis	desazonareis	desazonaren	desazonaren
+displease	imperative	affirmative		—	desazona	desazoná	desazone	desazone	desazonemos	desazonad	desazonad	desazonen	desazonen
+displease	imperative	negative		—	no desazones	no desazones	no desazone	no desazone	no desazonemos	no desazonéis	no desazonéis	no desazonen	no desazonen
+eat	indicative	present		como	comes	comés	come	come	comemos	coméis	coméis	comen	comen
+eat	indicative	past	imperfective	comía	comías	comías	comía	comía	comíamos	comíais	comíais	comían	comían
+eat	indicative	past	perfective	comí	comiste	comiste	comió	comió	comimos	comisteis	comisteis	comieron	comieron
+eat	indicative	future		comeré	comerás	comerás	comerá	comerá	comeremos	comeréis	comeréis	comerán	comerán
+eat	indicative	conditional		comería	comerías	comerías	comería	comería	comeríamos	comeríais	comeríais	comerían	comerían
+eat	subjunctive	present		coma	comas	comás	coma	coma	comamos	comáis	comáis	coman	coman
+eat	subjunctive	past	imperfective	comiera | comiese	comieras | comieses	comieras | comieses	comiera | comiese	comiera | comiese	comiéramos | comiésemos	comierais | comieseis	comierais | comieseis	comieran | comiesen	comieran | comiesen
+eat	subjunctive	past	perfective	comiere	comieres	comieres	comiere	comiere	comiéremos	comiereis	comiereis	comieren	comieren
+eat	imperative	affirmative		—	come	comé	coma	coma	comamos	comed	comed	coman	coman
+eat	imperative	negative		—	no comas	no comas	no coma	no coma	no comamos	no comáis	no comáis	no coman	no coman
+endure	indicative	present		tolero	toleras	tolerás	tolera	tolera	toleramos	toleráis	toleráis	toleran	toleran
+endure	indicative	past	imperfective	toleraba	tolerabas	tolerabas	toleraba	toleraba	tolerábamos	tolerabais	tolerabais	toleraban	toleraban
+endure	indicative	past	perfective	toleré	toleraste	toleraste	toleró	toleró	toleramos	tolerasteis	tolerasteis	toleraron	toleraron
+endure	indicative	future		toleraré	tolerarás	tolerarás	tolerará	tolerará	toleraremos	toleraréis	toleraréis	tolerarán	tolerarán
+endure	indicative	conditional		toleraría	tolerarías	tolerarías	toleraría	toleraría	toleraríamos	toleraríais	toleraríais	tolerarían	tolerarían
+endure	subjunctive	present		tolere	toleres	tolerés	tolere	tolere	toleremos	toleréis	toleréis	toleren	toleren
+endure	subjunctive	past	imperfective	tolerara | tolerase	toleraras | tolerases	toleraras | tolerases	tolerara | tolerase	tolerara | tolerase	toleráramos | tolerásemos	tolerarais | toleraseis	tolerarais | toleraseis	toleraran | tolerasen	toleraran | tolerasen
+endure	subjunctive	past	perfective	tolerare	tolerares	tolerares	tolerare	tolerare	toleráremos	tolerareis	tolerareis	toleraren	toleraren
+endure	imperative	affirmative		—	tolera	tolerá	tolere	tolere	toleremos	tolerad	tolerad	toleren	toleren
+endure	imperative	negative		—	no toleres	no toleres	no tolere	no tolere	no toleremos	no toleréis	no toleréis	no toleren	no toleren
+fall	indicative	present		caigo	caes	caés	cae	cae	caemos	caéis	caéis	caen	caen
+fall	indicative	past	imperfective	caía	caías	caías	caía	caía	caíamos	caíais	caíais	caían	caían
+fall	indicative	past	perfective	caí	caíste	caíste	cayó	cayó	caímos	caísteis	caísteis	cayeron	cayeron
+fall	indicative	future		caeré	caerás	caerás	caerá	caerá	caeremos	caeréis	caeréis	caerán	caerán
+fall	indicative	conditional		caería	caerías	caerías	caería	caería	caeríamos	caeríais	caeríais	caerían	caerían
+fall	subjunctive	present		caiga	caigas	caigás	caiga	caiga	caigamos	caigáis	caigáis	caigan	caigan
+fall	subjunctive	past	imperfective	cayera | cayese	cayeras | cayeses	cayeras | cayeses	cayera | cayese	cayera | cayese	cayéramos | cayésemos	cayerais | cayeseis	cayerais | cayeseis	cayeran | cayesen	cayeran | cayesen
+fall	subjunctive	past	perfective	cayere	cayeres	cayeres	cayere	cayere	cayéremos	cayereis	cayereis	cayeren	cayeren
+fall	imperative	affirmative		—	cae	caé	caiga	caiga	caigamos	caed	caed	caigan	caigan
+fall	imperative	negative		—	no caigas	no caigas	no caiga	no caiga	no caigamos	no caigáis	no caigáis	no caigan	no caigan
+fly	indicative	present		vuelo	vuelas	volás	vuela	vuela	volamos	voláis	voláis	vuelan	vuelan
+fly	indicative	past	imperfective	volaba	volabas	volabas	volaba	volaba	volábamos	volabais	volabais	volaban	volaban
+fly	indicative	past	perfective	volé	volaste	volaste	voló	voló	volamos	volasteis	volasteis	volaron	volaron
+fly	indicative	future		volaré	volarás	volarás	volará	volará	volaremos	volaréis	volaréis	volarán	volarán
+fly	indicative	conditional		volaría	volarías	volarías	volaría	volaría	volaríamos	volaríais	volaríais	volarían	volarían
+fly	subjunctive	present		vuele	vueles	volés	vuele	vuele	volemos	voléis	voléis	vuelen	vuelen
+fly	subjunctive	past	imperfective	volara | volase	volaras | volases	volaras | volases	volara | volase	volara | volase	voláramos | volásemos	volarais | volaseis	volarais | volaseis	volaran | volasen	volaran | volasen
+fly	subjunctive	past	perfective	volare	volares	volares	volare	volare	voláremos	volareis	volareis	volaren	volaren
+fly	imperative	affirmative		—	vuela	volá	vuele	vuele	volemos	volad	volad	vuelen	vuelen
+fly	imperative	negative		—	no vueles	no vueles	no vuele	no vuele	no volemos	no voléis	no voléis	no vuelen	no vuelen
+flow	indicative	present		fluyo	fluyes	fluis	fluye	fluye	fluimos	fluis	fluis	fluyen	fluyen
+flow	indicative	past	imperfective	fluía	fluías	fluías	fluía	fluía	fluíamos	fluíais	fluíais	fluían	fluían
+flow	indicative	past	perfective	flui	fluiste	fluiste	fluyó	fluyó	fluimos	fluisteis	fluisteis	fluyeron	fluyeron
+flow	indicative	future		fluiré	fluirás	fluirás	fluirá	fluirá	fluiremos	fluiréis	fluiréis	fluirán	fluirán
+flow	indicative	conditional		fluiría	fluirías	fluirías	fluiría	fluiría	fluiríamos	fluiríais	fluiríais	fluirían	fluirían
+flow	subjunctive	present		fluya	fluyas	fluyás	fluya	fluya	fluyamos	fluyáis	fluyáis	fluyan	fluyan
+flow	subjunctive	past	imperfective	fluyera | fluyese	fluyeras | fluyeses	fluyeras | fluyeses	fluyera | fluyese	fluyera | fluyese	fluyéramos | fluyésemos	fluyerais | fluyeseis	fluyerais | fluyeseis	fluyeran | fluyesen	fluyeran | fluyesen
+flow	subjunctive	past	perfective	fluyere	fluyeres	fluyeres	fluyere	fluyere	fluyéremos	fluyereis	fluyereis	fluyeren	fluyeren
+flow	imperative	affirmative		—	fluye	flui	fluya	fluya	fluyamos	fluid	fluid	fluyan	fluyan
+flow	imperative	negative		—	no fluyas	no fluyas	no fluya	no fluya	no fluyamos	no fluyáis	no fluyáis	no fluyan	no fluyan
+hear	indicative	present		oigo	oyes	oís	oye	oye	oímos	oís	oís	oyen	oyen
+hear	indicative	past	imperfective	oía	oías	oías	oía	oía	oíamos	oíais	oíais	oían	oían
+hear	indicative	past	perfective	oí	oíste	oíste	oyó	oyó	oímos	oísteis	oísteis	oyeron	oyeron
+hear	indicative	future		oiré	oirás	oirás	oirá	oirá	oiremos	oiréis	oiréis	oirán	oirán
+hear	indicative	conditional		oiría	oirías	oirías	oiría	oiría	oiríamos	oiríais	oiríais	oirían	oirían
+hear	subjunctive	present		oiga	oigas	oigás	oiga	oiga	oigamos	oigáis	oigáis	oigan	oigan
+hear	subjunctive	past	imperfective	oyera | oyese	oyeras | oyeses	oyeras | oyeses	oyera | oyese	oyera | oyese	oyéramos | oyésemos	oyerais | oyeseis	oyerais | oyeseis	oyeran | oyesen	oyeran | oyesen
+hear	subjunctive	past	perfective	oyere	oyeres	oyeres	oyere	oyere	oyéremos	oyereis	oyereis	oyeren	oyeren
+hear	imperative	affirmative		—	oye	oí	oiga	oiga	oigamos	oíd	oíd	oigan	oigan
+hear	imperative	negative		—	no oigas	no oigas	no oiga	no oiga	no oigamos	no oigáis	no oigáis	no oigan	no oigan
+occupy	indicative	present		ocupo	ocupas	ocupás	ocupa	ocupa	ocupamos	ocupáis	ocupáis	ocupan	ocupan
+occupy	indicative	past	imperfective	ocupaba	ocupabas	ocupabas	ocupaba	ocupaba	ocupábamos	ocupabais	ocupabais	ocupaban	ocupaban
+occupy	indicative	past	perfective	ocupé	ocupaste	ocupaste	ocupó	ocupó	ocupamos	ocupasteis	ocupasteis	ocuparon	ocuparon
+occupy	indicative	future		ocuparé	ocuparás	ocuparás	ocupará	ocupará	ocuparemos	ocuparéis	ocuparéis	ocuparán	ocuparán
+occupy	indicative	conditional		ocuparía	ocuparías	ocuparías	ocuparía	ocuparía	ocuparíamos	ocuparíais	ocuparíais	ocuparían	ocuparían
+occupy	subjunctive	present		ocupe	ocupes	ocupés	ocupe	ocupe	ocupemos	ocupéis	ocupéis	ocupen	ocupen
+occupy	subjunctive	past	imperfective	ocupara | ocupase	ocuparas | ocupases	ocuparas | ocupases	ocupara | ocupase	ocupara | ocupase	ocupáramos | ocupásemos	ocuparais | ocupaseis	ocuparais | ocupaseis	ocuparan | ocupasen	ocuparan | ocupasen
+occupy	subjunctive	past	perfective	ocupare	ocupares	ocupares	ocupare	ocupare	ocupáremos	ocupareis	ocupareis	ocuparen	ocuparen
+occupy	imperative	affirmative		—	ocupa	ocupá	ocupe	ocupe	ocupemos	ocupad	ocupad	ocupen	ocupen
+occupy	imperative	negative		—	no ocupes	no ocupes	no ocupe	no ocupe	no ocupemos	no ocupéis	no ocupéis	no ocupen	no ocupen
+resemble	indicative	present		semejo	semejas	semejás	semeja	semeja	semejamos	semejáis	semejáis	semejan	semejan
+resemble	indicative	past	imperfective	semejaba	semejabas	semejabas	semejaba	semejaba	semejábamos	semejabais	semejabais	semejaban	semejaban
+resemble	indicative	past	perfective	semejé	semejaste	semejaste	semejó	semejó	semejamos	semejasteis	semejasteis	semejaron	semejaron
+resemble	indicative	future		semejaré	semejarás	semejarás	semejará	semejará	semejaremos	semejaréis	semejaréis	semejarán	semejarán
+resemble	indicative	conditional		semejaría	semejarías	semejarías	semejaría	semejaría	semejaríamos	semejaríais	semejaríais	semejarían	semejarían
+resemble	subjunctive	present		semeje	semejes	semejés	semeje	semeje	semejemos	semejéis	semejéis	semejen	semejen
+resemble	subjunctive	past	imperfective	semejara | semejase	semejaras | semejases	semejaras | semejases	semejara | semejase	semejara | semejase	semejáramos | semejásemos	semejarais | semejaseis	semejarais | semejaseis	semejaran | semejasen	semejaran | semejasen
+resemble	subjunctive	past	perfective	semejare	semejares	semejares	semejare	semejare	semejáremos	semejareis	semejareis	semejaren	semejaren
+resemble	imperative	affirmative		—	semeja	semejá	semeje	semeje	semejemos	semejad	semejad	semejen	semejen
+resemble	imperative	negative		—	no semejes	no semejes	no semeje	no semeje	no semejemos	no semejéis	no semejéis	no semejen	no semejen
+rest	indicative	present		reposo	reposas	reposás	reposa	reposa	reposamos	reposáis	reposáis	reposan	reposan
+rest	indicative	past	imperfective	reposaba	reposabas	reposabas	reposaba	reposaba	reposábamos	reposabais	reposabais	reposaban	reposaban
+rest	indicative	past	perfective	reposé	reposaste	reposaste	reposó	reposó	reposamos	reposasteis	reposasteis	reposaron	reposaron
+rest	indicative	future		reposaré	reposarás	reposarás	reposará	reposará	reposaremos	reposaréis	reposaréis	reposarán	reposarán
+rest	indicative	conditional		reposaría	reposarías	reposarías	reposaría	reposaría	reposaríamos	reposaríais	reposaríais	reposarían	reposarían
+rest	subjunctive	present		repose	reposes	reposés	repose	repose	reposemos	reposéis	reposéis	reposen	reposen
+rest	subjunctive	past	imperfective	reposara | reposase	reposaras | reposases	reposaras | reposases	reposara | reposase	reposara | reposase	reposáramos | reposásemos	reposarais | reposaseis	reposarais | reposaseis	reposaran | reposasen	reposaran | reposasen
+rest	subjunctive	past	perfective	reposare	reposares	reposares	reposare	reposare	reposáremos	reposareis	reposareis	reposaren	reposaren
+rest	imperative	affirmative		—	reposa	reposá	repose	repose	reposemos	reposad	reposad	reposen	reposen
+rest	imperative	negative		—	no reposes	no reposes	no repose	no repose	no reposemos	no reposéis	no reposéis	no reposen	no reposen
+see	indicative	present		veo	ves	ves	ve	ve	vemos	veis	veis	ven	ven
+see	indicative	past	imperfective	veía	veías	veías	veía	veía	veíamos	veíais	veíais	veían	veían
+see	indicative	past	perfective	vi	viste	viste	vio	vio	vimos	visteis	visteis	vieron	vieron
+see	indicative	future		veré	verás	verás	verá	verá	veremos	veréis	veréis	verán	verán
+see	indicative	conditional		vería	verías	verías	vería	vería	veríamos	veríais	veríais	verían	verían
+see	subjunctive	present		vea	veas	veás	vea	vea	veamos	veáis	veáis	vean	vean
+see	subjunctive	past	imperfective	viera | viese	vieras | vieses	vieras | vieses	viera | viese	viera | viese	viéramos | viésemos	vierais | vieseis	vierais | vieseis	vieran | viesen	vieran | viesen
+see	subjunctive	past	perfective	viere	vieres	vieres	viere	viere	viéremos	viereis	viereis	vieren	vieren
+see	imperative	affirmative		—	ve	ve	vea	vea	veamos	ved	ved	vean	vean
+see	imperative	negative		—	no veas	no veas	no vea	no vea	no veamos	no veáis	no veáis	no vean	no vean
+show	indicative	present		muestro	muestras	mostrás	muestra	muestra	mostramos	mostráis	mostráis	muestran	muestran
+show	indicative	past	imperfective	mostraba	mostrabas	mostrabas	mostraba	mostraba	mostrábamos	mostrabais	mostrabais	mostraban	mostraban
+show	indicative	past	perfective	mostré	mostraste	mostraste	mostró	mostró	mostramos	mostrasteis	mostrasteis	mostraron	mostraron
+show	indicative	future		mostraré	mostrarás	mostrarás	mostrará	mostrará	mostraremos	mostraréis	mostraréis	mostrarán	mostrarán
+show	indicative	conditional		mostraría	mostrarías	mostrarías	mostraría	mostraría	mostraríamos	mostraríais	mostraríais	mostrarían	mostrarían
+show	subjunctive	present		muestre	muestres	mostrés	muestre	muestre	mostremos	mostréis	mostréis	muestren	muestren
+show	subjunctive	past	imperfective	mostrara | mostrase	mostraras | mostrases	mostraras | mostrases	mostrara | mostrase	mostrara | mostrase	mostráramos | mostrásemos	mostrarais | mostraseis	mostrarais | mostraseis	mostraran | mostrasen	mostraran | mostrasen
+show	subjunctive	past	perfective	mostrare	mostrares	mostrares	mostrare	mostrare	mostráremos	mostrareis	mostrareis	mostraren	mostraren
+show	imperative	affirmative		—	muestra	mostrá	muestre	muestre	mostremos	mostrad	mostrad	muestren	muestren
+show	imperative	negative		—	no muestres	no muestres	no muestre	no muestre	no mostremos	no mostréis	no mostréis	no muestren	no muestren
+startle	indicative	present		atemorizo	atemorizas	atemorizás	atemoriza	atemoriza	atemorizamos	atemorizáis	atemorizáis	atemorizan	atemorizan
+startle	indicative	past	imperfective	atemorizaba	atemorizabas	atemorizabas	atemorizaba	atemorizaba	atemorizábamos	atemorizabais	atemorizabais	atemorizaban	atemorizaban
+startle	indicative	past	perfective	atemoricé	atemorizaste	atemorizaste	atemorizó	atemorizó	atemorizamos	atemorizasteis	atemorizasteis	atemorizaron	atemorizaron
+startle	indicative	future		atemorizaré	atemorizarás	atemorizarás	atemorizará	atemorizará	atemorizaremos	atemorizaréis	atemorizaréis	atemorizarán	atemorizarán
+startle	indicative	conditional		atemorizaría	atemorizarías	atemorizarías	atemorizaría	atemorizaría	atemorizaríamos	atemorizaríais	atemorizaríais	atemorizarían	atemorizarían
+startle	subjunctive	present		atemorice	atemorices	atemoricés	atemorice	atemorice	atemoricemos	atemoricéis	atemoricéis	atemoricen	atemoricen
+startle	subjunctive	past	imperfective	atemorizara | atemorizase	atemorizaras | atemorizases	atemorizaras | atemorizases	atemorizara | atemorizase	atemorizara | atemorizase	atemorizáramos | atemorizásemos	atemorizarais | atemorizaseis	atemorizarais | atemorizaseis	atemorizaran | atemorizasen	atemorizaran | atemorizasen
+startle	subjunctive	past	perfective	atemorizare	atemorizares	atemorizares	atemorizare	atemorizare	atemorizáremos	atemorizareis	atemorizareis	atemorizaren	atemorizaren
+startle	imperative	affirmative		—	atemoriza	atemorizá	atemorice	atemorice	atemoricemos	atemorizad	atemorizad	atemoricen	atemoricen
+startle	imperative	negative		—	no atemorices	no atemorices	no atemorice	no atemorice	no atemoricemos	no atemoricéis	no atemoricéis	no atemoricen	no atemoricen
+swim	indicative	present		nado	nadas	nadás	nada	nada	nadamos	nadáis	nadáis	nadan	nadan
+swim	indicative	past	imperfective	nadaba	nadabas	nadabas	nadaba	nadaba	nadábamos	nadabais	nadabais	nadaban	nadaban
+swim	indicative	past	perfective	nadé	nadaste	nadaste	nadó	nadó	nadamos	nadasteis	nadasteis	nadaron	nadaron
+swim	indicative	future		nadaré	nadarás	nadarás	nadará	nadará	nadaremos	nadaréis	nadaréis	nadarán	nadarán
+swim	indicative	conditional		nadaría	nadarías	nadarías	nadaría	nadaría	nadaríamos	nadaríais	nadaríais	nadarían	nadarían
+swim	subjunctive	present		nade	nades	nadés	nade	nade	nademos	nadéis	nadéis	naden	naden
+swim	subjunctive	past	imperfective	nadara | nadase	nadaras | nadases	nadaras | nadases	nadara | nadase	nadara | nadase	nadáramos | nadásemos	nadarais | nadaseis	nadarais | nadaseis	nadaran | nadasen	nadaran | nadasen
+swim	subjunctive	past	perfective	nadare	nadares	nadares	nadare	nadare	nadáremos	nadareis	nadareis	nadaren	nadaren
+swim	imperative	affirmative		—	nada	nadá	nade	nade	nademos	nadad	nadad	naden	naden
+swim	imperative	negative		—	no nades	no nades	no nade	no nade	no nademos	no nadéis	no nadéis	no naden	no naden
+walk	indicative	present		camino	caminas	caminás	camina	camina	caminamos	camináis	camináis	caminan	caminan
+walk	indicative	past	imperfective	caminaba	caminabas	caminabas	caminaba	caminaba	caminábamos	caminabais	caminabais	caminaban	caminaban
+walk	indicative	past	perfective	caminé	caminaste	caminaste	caminó	caminó	caminamos	caminasteis	caminasteis	caminaron	caminaron
+walk	indicative	future		caminaré	caminarás	caminarás	caminará	caminará	caminaremos	caminaréis	caminaréis	caminarán	caminarán
+walk	indicative	conditional		caminaría	caminarías	caminarías	caminaría	caminaría	caminaríamos	caminaríais	caminaríais	caminarían	caminarían
+walk	subjunctive	present		camine	camines	caminés	camine	camine	caminemos	caminéis	caminéis	caminen	caminen
+walk	subjunctive	past	imperfective	caminara | caminase	caminaras | caminases	caminaras | caminases	caminara | caminase	caminara | caminase	camináramos | caminásemos	caminarais | caminaseis	caminarais | caminaseis	caminaran | caminasen	caminaran | caminasen
+walk	subjunctive	past	perfective	caminare	caminares	caminares	caminare	caminare	camináremos	caminareis	caminareis	caminaren	caminaren
+walk	imperative	affirmative		—	camina	caminá	camine	camine	caminemos	caminad	caminad	caminen	caminen
+walk	imperative	negative		—	no camines	no camines	no camine	no camine	no caminemos	no caminéis	no caminéis	no caminen	no caminen
+warm	indicative	present		caliento	calientas	calentás	calienta	calienta	calentamos	calentáis	calentáis	calientan	calientan
+warm	indicative	past	imperfective	calentaba	calentabas	calentabas	calentaba	calentaba	calentábamos	calentabais	calentabais	calentaban	calentaban
+warm	indicative	past	perfective	calenté	calentaste	calentaste	calentó	calentó	calentamos	calentasteis	calentasteis	calentaron	calentaron
+warm	indicative	future		calentaré	calentarás	calentarás	calentará	calentará	calentaremos	calentaréis	calentaréis	calentarán	calentarán
+warm	indicative	conditional		calentaría	calentarías	calentarías	calentaría	calentaría	calentaríamos	calentaríais	calentaríais	calentarían	calentarían
+warm	subjunctive	present		caliente	calientes	calentés	caliente	caliente	calentemos	calentéis	calentéis	calienten	calienten
+warm	subjunctive	past	imperfective	calentara | calentase	calentaras | calentases	calentaras | calentases	calentara | calentase	calentara | calentase	calentáramos | calentásemos	calentarais | calentaseis	calentarais | calentaseis	calentaran | calentasen	calentaran | calentasen
+warm	subjunctive	past	perfective	calentare	calentares	calentares	calentare	calentare	calentáremos	calentareis	calentareis	calentaren	calentaren
+warm	imperative	affirmative		—	calienta	calentá	caliente	caliente	calentemos	calentad	calentad	calienten	calienten
+warm	imperative	negative		—	no calientes	no calientes	no caliente	no caliente	no calentemos	no calentéis	no calentéis	no calienten	no calienten
+watch	indicative	present		miro	miras	mirás	mira	mira	miramos	miráis	miráis	miran	miran
+watch	indicative	past	imperfective	miraba	mirabas	mirabas	miraba	miraba	mirábamos	mirabais	mirabais	miraban	miraban
+watch	indicative	past	perfective	miré	miraste	miraste	miró	miró	miramos	mirasteis	mirasteis	miraron	miraron
+watch	indicative	future		miraré	mirarás	mirarás	mirará	mirará	miraremos	miraréis	miraréis	mirarán	mirarán
+watch	indicative	conditional		miraría	mirarías	mirarías	miraría	miraría	miraríamos	miraríais	miraríais	mirarían	mirarían
+watch	subjunctive	present		mire	mires	mirés	mire	mire	miremos	miréis	miréis	miren	miren
+watch	subjunctive	past	imperfective	mirara | mirase	miraras | mirases	miraras | mirases	mirara | mirase	mirara | mirase	miráramos | mirásemos	mirarais | miraseis	mirarais | miraseis	miraran | mirasen	miraran | mirasen
+watch	subjunctive	past	perfective	mirare	mirares	mirares	mirare	mirare	miráremos	mirareis	mirareis	miraren	miraren
+watch	imperative	affirmative		—	mira	mirá	mire	mire	miremos	mirad	mirad	miren	miren
+watch	imperative	negative		—	no mires	no mires	no mire	no mire	no miremos	no miréis	no miréis	no miren	no miren
+work	indicative	present		trabajo	trabajas	trabajás	trabaja	trabaja	trabajamos	trabajáis	trabajáis	trabajan	trabajan
+work	indicative	past	imperfective	trabajaba	trabajabas	trabajabas	trabajaba	trabajaba	trabajábamos	trabajabais	trabajabais	trabajaban	trabajaban
+work	indicative	past	perfective	trabajé	trabajaste	trabajaste	trabajó	trabajó	trabajamos	trabajasteis	trabajasteis	trabajaron	trabajaron
+work	indicative	future		trabajaré	trabajarás	trabajarás	trabajará	trabajará	trabajaremos	trabajaréis	trabajaréis	trabajarán	trabajarán
+work	indicative	conditional		trabajaría	trabajarías	trabajarías	trabajaría	trabajaría	trabajaríamos	trabajaríais	trabajaríais	trabajarían	trabajarían
+work	subjunctive	present		trabaje	trabajes	trabajés	trabaje	trabaje	trabajemos	trabajéis	trabajéis	trabajen	trabajen
+work	subjunctive	past	imperfective	trabajara | trabajase	trabajaras | trabajases	trabajaras | trabajases	trabajara | trabajase	trabajara | trabajase	trabajáramos | trabajásemos	trabajarais | trabajaseis	trabajarais | trabajaseis	trabajaran | trabajasen	trabajaran | trabajasen
+work	subjunctive	past	perfective	trabajare	trabajares	trabajares	trabajare	trabajare	trabajáremos	trabajareis	trabajareis	trabajaren	trabajaren
+work	imperative	affirmative		—	trabaja	trabajá	trabaje	trabaje	trabajemos	trabajad	trabajad	trabajen	trabajen
+work	imperative	negative		—	no trabajes	no trabajes	no trabaje	no trabaje	no trabajemos	no trabajéis	no trabajéis	no trabajen	no trabajen
+have	indicative	present		he	has	has	ha, hay3	ha, hay3	hemos	habéis	habéis	han	han
+have	indicative	past	imperfective	había	habías	habías	había	había	habíamos	habíais	habíais	habían	habían
+have	indicative	past	perfective	hube	hubiste	hubiste	hubo	hubo	hubimos	hubisteis	hubisteis	hubieron	hubieron
+have	indicative	future		habré	habrás	habrás	habrá	habrá	habremos	habréis	habréis	habrán	habrán
+have	indicative	conditional		habría	habrías	habrías	habría	habría	habríamos	habríais	habríais	habrían	habrían
+have	subjunctive	present		haya	hayas	hayás	haya	haya	hayamos	hayáis	hayáis	hayan	hayan
+have	subjunctive	past	imperfective	hubiera | hubiese	hubieras | hubieses	hubieras | hubieses	hubiera | hubiese	hubiera | hubiese	hubiéramos | hubiésemos	hubierais | hubieseis	hubierais | hubieseis	hubieran | hubiesen	hubieran | hubiesen
+have	subjunctive	past	perfective	hubiere	hubieres	hubieres	hubiere	hubiere	hubiéremos	hubiereis	hubiereis	hubieren	hubieren
+have	imperative	affirmative		—	habe, he	habe, he	haya	haya	hayamos	habed	habed	hayan	hayan
+have	imperative	negative		—	no hayas	no hayas	no haya	no haya	no hayamos	no hayáis	no hayáis	no hayan	no hayan
+have-in-possession	indicative	present		tengo	tienes	tenés	tiene	tiene	tenemos	tenéis	tenéis	tienen	tienen
+have-in-possession	indicative	past	imperfective	tenía	tenías	tenías	tenía	tenía	teníamos	teníais	teníais	tenían	tenían
+have-in-possession	indicative	past	perfective	tuve	tuviste	tuviste	tuvo	tuvo	tuvimos	tuvisteis	tuvisteis	tuvieron	tuvieron
+have-in-possession	indicative	future		tendré	tendrás	tendrás	tendrá	tendrá	tendremos	tendréis	tendréis	tendrán	tendrán
+have-in-possession	indicative	conditional		tendría	tendrías	tendrías	tendría	tendría	tendríamos	tendríais	tendríais	tendrían	tendrían
+have-in-possession	subjunctive	present		tenga	tengas	tengás	tenga	tenga	tengamos	tengáis	tengáis	tengan	tengan
+have-in-possession	subjunctive	past	imperfective	tuviera | tuviese	tuvieras | tuvieses	tuvieras | tuvieses	tuviera | tuviese	tuviera | tuviese	tuviéramos | tuviésemos	tuvierais | tuvieseis	tuvierais | tuvieseis	tuvieran | tuviesen	tuvieran | tuviesen
+have-in-possession	subjunctive	past	perfective	tuviere	tuvieres	tuvieres	tuviere	tuviere	tuviéremos	tuviereis	tuviereis	tuvieren	tuvieren
+have-in-possession	imperative	affirmative		—	ten	tené	tenga	tenga	tengamos	tened	tened	tengan	tengan
+have-in-possession	imperative	negative		—	no tengas	no tengas	no tenga	no tenga	no tengamos	no tengáis	no tengáis	no tengan	no tengan
+go	indicative	present		voy	vas	vas	va	va	vamos	vais	vais	van	van
+go	indicative	past	imperfective	iba	ibas	ibas	iba	iba	íbamos	ibais	ibais	iban	iban
+go	indicative	past	perfective	fui	fuiste	fuiste	fue	fue	fuimos	fuisteis	fuisteis	fueron	fueron
+go	indicative	future		iré	irás	irás	irá	irá	iremos	iréis	iréis	irán	irán
+go	indicative	conditional		iría	irías	irías	iría	iría	iríamos	iríais	iríais	irían	irían
+go	subjunctive	present		vaya	vayas	vayás	vaya	vaya	vayamos	vayáis	vayáis	vayan	vayan
+go	subjunctive	past	imperfective	fuera | fuese	fueras | fueses	fueras | fueses	fuera | fuese	fuera | fuese	fuéramos | fuésemos	fuerais | fueseis	fuerais | fueseis	fueran | fuesen	fueran | fuesen
+go	subjunctive	past	perfective	fuere	fueres	fueres	fuere	fuere	fuéremos	fuereis	fuereis	fueren	fueren
+go	imperative	affirmative		—	ve	andá	vaya	vaya	vamos, vayamos	id	id	vayan	vayan
+go	imperative	negative		—	no vayas	no vayas	no vaya	no vaya	no vayamos	no vayáis	no vayáis	no vayan	no vayan
+love	indicative	present		amo	amas	amás	ama	ama	amamos	amáis	amáis	aman	aman
+love	indicative	past	imperfective	amaba	amabas	amabas	amaba	amaba	amábamos	amabais	amabais	amaban	amaban
+love	indicative	past	perfective	amé	amaste	amaste	amó	amó	amamos	amasteis	amasteis	amaron	amaron
+love	indicative	future		amaré	amarás	amarás	amará	amará	amaremos	amaréis	amaréis	amarán	amarán
+love	indicative	conditional		amaría	amarías	amarías	amaría	amaría	amaríamos	amaríais	amaríais	amarían	amarían
+love	subjunctive	present		ame	ames	amés	ame	ame	amemos	améis	améis	amen	amen
+love	subjunctive	past	imperfective	amara | amase	amaras | amases	amaras | amases	amara | amase	amara | amase	amáramos | amásemos	amarais | amaseis	amarais | amaseis	amaran | amasen	amaran | amasen
+love	subjunctive	past	perfective	amare	amares	amares	amare	amare	amáremos	amareis	amareis	amaren	amaren
+love	imperative	affirmative		—	ama	amá	ame	ame	amemos	amad	amad	amen	amen
+love	imperative	negative		—	no ames	no ames	no ame	no ame	no amemos	no améis	no améis	no amen	no amen
+fear	indicative	present		temo	temes	temés	teme	teme	tememos	teméis	teméis	temen	temen
+fear	indicative	past	imperfective	temía	temías	temías	temía	temía	temíamos	temíais	temíais	temían	temían
+fear	indicative	past	perfective	temí	temiste	temiste	temió	temió	temimos	temisteis	temisteis	temieron	temieron
+fear	indicative	future		temeré	temerás	temerás	temerá	temerá	temeremos	temeréis	temeréis	temerán	temerán
+fear	indicative	conditional		temería	temerías	temerías	temería	temería	temeríamos	temeríais	temeríais	temerían	temerían
+fear	subjunctive	present		tema	temas	temás	tema	tema	temamos	temáis	temáis	teman	teman
+fear	subjunctive	past	imperfective	temiera | temiese	temieras | temieses	temieras | temieses	temiera | temiese	temiera | temiese	temiéramos | temiésemos	temierais | temieseis	temierais | temieseis	temieran | temiesen	temieran | temiesen
+fear	subjunctive	past	perfective	temiere	temieres	temieres	temiere	temiere	temiéremos	temiereis	temiereis	temieren	temieren
+fear	imperative	affirmative		—	teme	temé	tema	tema	temamos	temed	temed	teman	teman
+fear	imperative	negative		—	no temas	no temas	no tema	no tema	no temamos	no temáis	no temáis	no teman	no teman
+part	indicative	present		parto	partes	partís	parte	parte	partimos	partís	partís	parten	parten
+part	indicative	past	imperfective	partía	partías	partías	partía	partía	partíamos	partíais	partíais	partían	partían
+part	indicative	past	perfective	partí	partiste	partiste	partió	partió	partimos	partisteis	partisteis	partieron	partieron
+part	indicative	future		partiré	partirás	partirás	partirá	partirá	partiremos	partiréis	partiréis	partirán	partirán
+part	indicative	conditional		partiría	partirías	partirías	partiría	partiría	partiríamos	partiríais	partiríais	partirían	partirían
+part	subjunctive	present		parta	partas	partás	parta	parta	partamos	partáis	partáis	partan	partan
+part	subjunctive	past	imperfective	partiera | partiese	partieras | partieses	partieras | partieses	partiera | partiese	partiera | partiese	partiéramos | partiésemos	partierais | partieseis	partierais | partieseis	partieran | partiesen	partieran | partiesen
+part	subjunctive	past	perfective	partiere	partieres	partieres	partiere	partiere	partiéremos	partiereis	partiereis	partieren	partieren
+part	imperative	affirmative		—	parte	partí	parta	parta	partamos	partid	partid	partan	partan
+part	imperative	negative		—	no partas	no partas	no parta	no parta	no partamos	no partáis	no partáis	no partan	no partan
+know	indicative	present		conozco	conoces	conocés	conoce	conoce	conocemos	conocéis	conocéis	conocen	conocen
+know	indicative	past	imperfective	conocía	conocías	conocías	conocía	conocía	conocíamos	conocíais	conocíais	conocían	conocían
+know	indicative	past	perfective	conocí	conociste	conociste	conoció	conoció	conocimos	conocisteis	conocisteis	conocieron	conocieron
+know	indicative	future		conoceré	conocerás	conocerás	conocerá	conocerá	conoceremos	conoceréis	conoceréis	conocerán	conocerán
+know	indicative	conditional		conocería	conocerías	conocerías	conocería	conocería	conoceríamos	conoceríais	conoceríais	conocerían	conocerían
+know	subjunctive	present		conozca	conozcas	conozcás	conozca	conozca	conozcamos	conozcáis	conozcáis	conozcan	conozcan
+know	subjunctive	past	imperfective	conociera | conociese	conocieras | conocieses	conocieras | conocieses	conociera | conociese	conociera | conociese	conociéramos | conociésemos	conocierais | conocieseis	conocierais | conocieseis	conocieran | conociesen	conocieran | conociesen
+know	subjunctive	past	perfective	conociere	conocieres	conocieres	conociere	conociere	conociéremos	conociereis	conociereis	conocieren	conocieren
+know	imperative	affirmative		—	conoce	conocé	conozca	conozca	conozcamos	conoced	conoced	conozcan	conozcan
+know	imperative	negative		—	no conozcas	no conozcas	no conozca	no conozca	no conozcamos	no conozcáis	no conozcáis	no conozcan	no conozcan
+drive	indicative	present		conduzco	conduces	conducís	conduce	conduce	conducimos	conducís	conducís	conducen	conducen
+drive	indicative	past	imperfective	conducía	conducías	conducías	conducía	conducía	conducíamos	conducíais	conducíais	conducían	conducían
+drive	indicative	past	perfective	conduje	condujiste	condujiste	condujo	condujo	condujimos	condujisteis	condujisteis	condujeron	condujeron
+drive	indicative	future		conduciré	conducirás	conducirás	conducirá	conducirá	conduciremos	conduciréis	conduciréis	conducirán	conducirán
+drive	indicative	conditional		conduciría	conducirías	conducirías	conduciría	conduciría	conduciríamos	conduciríais	conduciríais	conducirían	conducirían
+drive	subjunctive	present		conduzca	conduzcas	conduzcás	conduzca	conduzca	conduzcamos	conduzcáis	conduzcáis	conduzcan	conduzcan
+drive	subjunctive	past	imperfective	condujera | condujese	condujeras | condujeses	condujeras | condujeses	condujera | condujese	condujera | condujese	condujéramos | condujésemos	condujerais | condujeseis	condujerais | condujeseis	condujeran | condujesen	condujeran | condujesen
+drive	subjunctive	past	perfective	condujere	condujeres	condujeres	condujere	condujere	condujéremos	condujereis	condujereis	condujeren	condujeren
+drive	imperative	affirmative		—	conduce	conducí	conduzca	conduzca	conduzcamos	conducid	conducid	conduzcan	conduzcan
+drive	imperative	negative		—	no conduzcas	no conduzcas	no conduzca	no conduzca	no conduzcamos	no conduzcáis	no conduzcáis	no conduzcan	no conduzcan

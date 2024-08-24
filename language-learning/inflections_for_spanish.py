@@ -12,6 +12,7 @@ from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
     RuleTools, RuleSyntax, RuleFormatting, 
 )
+from tools.nodes import Rule
 from tools.cards import DeckGeneration
 from inflections import (
     dict_bundle_to_map,
@@ -40,6 +41,64 @@ label_editing = TermLabelEditing()
 deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
+
+def definiteness(machine, tree, memory):
+    '''creates articles when necessary to express definiteness'''
+    definiteness = memory['definiteness'] if 'definiteness' in memory else 'indefinite'
+    subjectivity = memory['subjectivity']
+    nounform = memory['noun-form']
+    if definiteness == 'definite' and subjectivity != 'addressee' and nounform != 'personal': 
+        return [['adj','the'], tree]
+    if definiteness == 'indefinite' and subjectivity != 'addressee' and nounform != 'personal': 
+        return [['adj','a'], tree]
+    else:
+        return tree
+
+class SpanishRuleSyntax(RuleSyntax):
+    def __init__(self, sentence_structure, noun_phrase_structure):
+        super().__init__(sentence_structure, noun_phrase_structure)
+    def order_clause(self, treemap, clause):
+        rules = clause.content
+        nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
+        # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
+        # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
+        noun_lookup = {
+            subjectivity: [noun 
+                for noun in nouns 
+                if noun.tags['subjectivity'] == subjectivity]
+            for subjectivity in 'subject adverbial adnominal'.split()
+        }
+        verbs = [phrase
+            for phrase in rules 
+            if phrase.tag in {'vp'}]
+        phrase_lookup = {
+            **noun_lookup,
+            'personal-direct-object': [noun 
+                for noun in nouns 
+                if noun.tags['subjectivity'] == 'direct-object'
+                and noun.tags['noun-form'] == 'personal'],
+            'common-direct-object': [noun 
+                for noun in nouns 
+                if noun.tags['subjectivity'] == 'direct-object'
+                and noun.tags['noun-form'] != 'personal'],
+            'personal-indirect-object': [noun 
+                for noun in nouns 
+                if noun.tags['subjectivity'] == 'indirect-object'
+                and noun.tags['noun-form'] == 'personal'],
+            'common-indirect-object': [noun 
+                for noun in nouns 
+                if noun.tags['subjectivity'] == 'indirect-object'
+                and noun.tags['noun-form'] != 'personal'],
+            'verb': verbs,
+        }
+        ordered = Rule(clause.tag, 
+            clause.tags,
+            treemap.map([
+                phrase
+                for phrase_type in self.sentence_structure
+                for phrase in phrase_lookup[phrase_type]
+            ]))
+        return ordered
 
 foreign_language = Language(
     ListSemantics(
@@ -76,15 +135,17 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/adjective-agreements.tsv')),
             ])),
     ),
-    RuleSyntax(
-        parse_any.terms('subject verb direct-object indirect-object adverbial'), 
+    SpanishRuleSyntax(
+        'subject personal-indirect-object personal-direct-object verb common-direct-object common-indirect-object adverbial'.split(), 
         parse_any.tokens('stock-adposition det adj n np clause')
     ),
     {'language-type':'foreign'},
     list_tools,
     rule_tools,
     RuleFormatting(),
-    substitutions = []
+    substitutions = [
+        {'n': definiteness}, # needs annotations to simplify the definition of articles
+    ]
 )
 
 foreign_termaxis_to_terms = {
@@ -92,21 +153,22 @@ foreign_termaxis_to_terms = {
     **parse_any.termaxis_to_terms('''
         gender :  masculine feminine
         number :  singular plural
+        formality: tuteo voseo formal
         motion :  approached acquired associated departed leveraged surpassed
-        progress: atelic
+        progress: atelic unfinished finished
         polarity: affirmative negative
         tense  :  present past future
         voice  :  active
         mood   :  indicative subjunctive imperative
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
-        subjectivity: subject addressee direct-object adnominal indirect-object adverbial
+        subjectivity: subject addressee direct-object adnominal indirect-object adverbial adnominal
     '''),
     **parse_any.token_to_tokens('''
-        verb : 
-        noun : man woman child
-        adjective: bad good big doomed
+        verb : be-inherently be-momentarily have go have-in-possession work eat drive hear
+        noun : man woman
     '''),
 }
+
 
 foreign_term_to_termaxis = dict_bundle_to_map(foreign_termaxis_to_terms)
 
@@ -116,7 +178,12 @@ foreign_demonstration = LanguageSpecificTextDemonstration(
     Orthography('latin', foreign_language),
     lambda tags, text: text,
     card_formatting.foreign_focus,
-    [('∅',''), ('-','')]
+    [('∅',''), 
+     ('-',''),
+     ('con mi','conmigo'),
+     ('con ti','contigo'),
+     ('de el','del'),
+     ('a el','al')]
 )
 
 english_demonstration = LanguageSpecificTextDemonstration(
@@ -201,14 +268,30 @@ subjectivity_nounform_blacklist = parse.termmask(
 
 conjugation_subject_traversal = parse.termpath(
     'conjugation_subject_traversal', 
-    'person number gender',
+    'person number gender formality',
     '''
-    1  singular neuter
-    2  singular feminine
-    3  singular masculine
-    1  plural   neuter
-    2  plural   feminine
-    3  plural   masculine
+    1  singular masculine tuteo
+    2  singular feminine  tuteo
+    2  singular feminine  voseo
+    2  singular feminine  formal
+    3  singular masculine tuteo
+    1  plural   masculine tuteo
+    2  plural   feminine  tuteo
+    2  plural   feminine  formal
+    3  plural   masculine tuteo
+    ''')
+
+mood_tense_polarity_whitelist = parse.termmask(
+    'mood_tense_whitelist', 
+    'mood tense polarity',
+    '''
+    indicative   present affirmative
+    indicative   past    affirmative
+    indicative   future  affirmative
+    subjunctive  present affirmative
+    subjunctive  past    affirmative
+    imperative   present affirmative
+    imperative   present negative
     ''')
 
 finite_tense_progress_traversal = parse.termpath(
@@ -223,21 +306,21 @@ finite_tense_progress_traversal = parse.termpath(
 
 pronoun_traversal = parse.tokenpath(
     'pronoun_traversal', 
-    'noun person number gender',
+    'noun person number formality gender',
     '''
-    man    1 singular neuter   
-    woman  2 singular feminine 
-    man    3 singular masculine
-    woman  3 singular feminine 
-    snake  3 singular neuter   
-    # man    3 dual     masculine # conjugations are not known for the dual
-    # woman  3 dual     feminine  # conjugations are not known for the dual
-    # man    3 dual     neuter    # conjugations are not known for the dual
-    man    1 plural   neuter   
-    woman  2 plural   feminine 
-    man    3 plural   masculine
-    woman  3 plural   feminine 
-    man    3 plural   neuter   
+    man    1 singular tuteo  neuter   
+    woman  2 singular tuteo  feminine 
+    woman  2 singular voseo  feminine 
+    man    2 singular formal masculine
+    woman  2 singular formal feminine 
+    man    3 singular tuteo  masculine
+    woman  3 singular tuteo  feminine 
+    man    1 plural   tuteo  masculine   
+    woman  1 plural   tuteo  feminine
+    man    2 plural   tuteo  masculine
+    woman  2 plural   tuteo  feminine 
+    man    3 plural   tuteo  masculine
+    woman  3 plural   tuteo  feminine 
     ''')
 
 gender_agreement_traversal = parse.tokenpath(
@@ -258,61 +341,43 @@ gender_noun_whitelist = parse.tokenmask(
     bird      masculine
     #boat      
     book      masculine
-    bug       masculine
+    bug       feminine
     clothing  feminine
     daughter  feminine
     dog       masculine
     dog       feminine
-    door      neuter
+    #door      
     drum      masculine
     #enemy     
     fire      masculine
-    fire      feminine
-    food      neuter
+    food      feminine
     gift      masculine
     gift      feminine
-    glass     masculine
-    guard     masculine
+    #glass     
+    guard     feminine
     horse     masculine
     house     feminine
     livestock masculine
     love      feminine
-    idea      masculine
     idea      feminine
     man       masculine
-    money     neuter
+    money     masculine
     monster   masculine
-    monster   feminine
-    name      neuter
+    name      masculine
     rock      feminine
     rope      feminine
-    size      neuter
+    sister    feminine
+    size      masculine
     son       masculine
     sound     masculine
-    sound     feminine
-    thought   masculine
     thought   feminine
     warmth    masculine
-    warmth    feminine
-    water     neuter
-    way       neuter
-    wind      masculine
-    window    masculine
+    water     feminine
+    way       feminine
+    wind      feminine
+    window    feminine
     woman     feminine
-    work      neuter
-
-    boy       masculine
-    tree      neuter
-    deer      masculine
-    deer      feminine
-    victory   neuter
-    lake      neuter
-    sky       masculine
-    friend    masculine
-    friend    feminine
-    tooth     neuter
-    king      masculine
-    mother    feminine
+    work      masculine
     '''
 )
 
@@ -331,15 +396,13 @@ possessor_possession_whitelist = parse.tokenmask(
     '''
     man-possessor    brother
     man-possessor    sister
-    man-possessor    money
     woman-possessor  brother
     woman-possessor  sister
-    woman-possessor  money
-    snake-possessor  man
-    snake-possessor  woman
-    snake-possessor  name
+    snake-possessor  brother
+    snake-possessor  sister
     '''
 )
+
 possessor_pronoun_traversal = label_editing.termpath(
     parse.tokenpath(
         'possessor_pronoun_traversal', 
@@ -362,14 +425,16 @@ possessor_pronoun_traversal = label_editing.termpath(
 def head(store):
     print(str(store)[:3000])
 
-tense_progress_mood_voice_verb_traversal = (
-    (((
+tense_progress_mood_voice_verb_traversal = ((
+    ((((
           axis['valency']
         * finite_tense_progress_traversal
-        * axis['mood'])
+        * axis['mood']
+        * axis['polarity'])
+        & mood_tense_polarity_whitelist)
         * axis['voice'])
         * axis['verb'])
-) * constant['subject'] 
+) * constant['subject'])
 
 conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
 
@@ -418,30 +483,6 @@ write('flashcards/spanish/finite-conjugation.html',
         },
     ))
 
-"""
-print('flashcards/spanish/participle-declension.html')
-write('flashcards/spanish/participle-declension.html', 
-    deck_generation.generate(
-        [demonstration.generator(
-            tree_lookup = UniformDictLookup(
-                '''clause test [
-                    [np participle clause [np n] parentheses [vp cloze v verb] [dummy np [stock-adposition] n]]
-                    [vp active present atelic v appear]
-                ]'''),
-        ) for demonstration in demonstrations],
-        defaults.override(
-            (   conjugation_traversal
-              & constant['indicative']
-              & constant['atelic'])
-        ),
-        tag_templates ={
-            'test'    : parse.termaxis_to_term('common definite associated agent subject'),
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'participle' : parse.termaxis_to_term('common definite participle subject'),
-        },
-    ))
-"""
-
 print('flashcards/spanish/adpositions.html')
 write('flashcards/spanish/adpositions.html', 
     deck_generation.generate(
@@ -458,8 +499,8 @@ write('flashcards/spanish/adpositions.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('personal definite'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine tuteo'),
+            'test'       : parse.termaxis_to_term('personal definite tuteo'),
         },
     ))
 
@@ -476,8 +517,32 @@ write('flashcards/spanish/pronoun-declension.html',
             - subjectivity_nounform_blacklist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term(''),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine tuteo'),
+            'test'       : parse.termaxis_to_term('tuteo'),
+        },
+    ))
+
+print('flashcards/spanish/pronoun-possessives.html')
+write('flashcards/spanish/pronoun-possessives.html', 
+    deck_generation.generate(
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
+            substitutions = [{'declined': list_tools.replace([['cloze','det'], ['common', 'n']])}],
+        ) for demonstration in demonstrations],
+        defaults.override(
+            (((  axis['number'] 
+               * possession_traversal 
+               * declension_noun_traversal 
+               * possessor_pronoun_traversal)
+              & possessor_possession_whitelist)
+             * constant['exclusive-possessor']  
+             * constant['familiar-possessor']
+            )
+            & noun_template_whitelist
+        ),
+        tag_templates ={
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine tuteo'),
+            'test'       : parse.termaxis_to_term('personal-possessive adefinite tuteo'),
         },
     ))
 

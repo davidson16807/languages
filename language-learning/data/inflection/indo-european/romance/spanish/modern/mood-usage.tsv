@@ -1,0 +1,75 @@
+*	*	*	*	*	*	mood	prephrase	postphrase	#	auxillary	example moods in other languages					
+#			evidentiality	confidence	polarity				#							
+			presumed			indicative	∅	∅	#							
+			promised			indicative	∅	∅	#		comissive					
+#			sensed			indicated	∅	∅	#							
+			visual			indicative	∅	∅	#							
+#			auditory			indicative	∅	∅	#							
+			nonvisual			indicative	∅	∅	#							
+			secondhand			indicative	∅	∅	#		inferential					
+			thirdhand			indicative	∅	∅	#		inferential					
+#			established			indicative	∅	∅	#							
+			circumstantial			indicative	∅	∅	#		presumptive					
+#			means			indicative	∅	∅	#	be able	presumptive					
+			motive			indicative	∅	∅	#	want	desiderative					
+			necessity			indicative	∅	∅	#	need						
+			conceded			subjunctive	∅	∅	#							
+			supposed			indicative	∅	∅	#		subjunctive					
+			proposed	confident	affirmative	indicative	∅	∅	#		indicative					
+			proposed	probable	affirmative	indicative	∅	∅	#	likely	potential					
+			proposed	possible	affirmative	subjunctive	∅	∅	#		dubitative					
+			proposed	possible	negative	indicative	∅	∅	#	might						
+			proposed	probable	negative	indicative	∅	∅	#		dubitative					
+			proposed	confident	negative	indicative	∅	∅	#		hypothetical					
+			antecedent	confident	affirmative	indicative	∅	∅	#							
+			antecedent	probable	affirmative	indicative	∅	∅	#							
+			antecedent	possible	affirmative	subjunctive	∅	∅	#							
+			antecedent	possible	negative	indicative	∅	∅	#							
+			antecedent	probable	negative	indicative	∅	∅	#							
+			antecedent	confident	negative	indicative	∅	∅	#							
+			consequent	confident	affirmative	indicative	∅	∅	#		eventitive					
+			consequent	probable	affirmative	indicative	∅	∅	#	likely	eventitive					
+			consequent	possible	affirmative	subjunctive	∅	∅	#		conditional					
+			consequent	possible	negative	indicative	∅	∅	#							
+			consequent	probable	negative	indicative	∅	∅	#	might	conditional					
+			consequent	confident	negative	indicative	∅	∅	#							
+			deferred	confident	affirmative	indicative	∅	∅	#		injunctive					
+			deferred	probable	affirmative	indicative	∅	∅	#		injunctive					
+			deferred	possible	affirmative	subjunctive	∅	∅	#		permissive					
+			deferred	possible	negative	indicative	∅	∅	#							
+			deferred	probable	negative	indicative	∅	∅	#		permissive					
+			deferred	confident	negative	indicative	∅	∅	#		permissive					
+			deliberated			subjunctive	∅	∅	#							
+			pending			subjunctive	∅	∅	#							
+			wished			subjunctive	∅	∅	#		optative/necessitative					
+			requested			indicative	∅	∅	#		precative					
+			encouraged			subjunctive	∅	∅	#		hortative					
+			implored			indicative	∅	∅	#	should	jussive					
+			commanded			imperative	∅	∅	#		imperative					
+			prayed			indicative	∅	∅	#		optative/benedictive					
+			queried			indicative	∅	∅	#							
+#												#				
+#			E	P								#			E	P
+#	source	control	evidentiality	confidence								#	source	control	evidentiality	confidence
+#												#				
+#	1	1	promised	confident								#	1	1	promised	confident
+#	1	2	useless	probable								#	1	2	useless	probable
+#	1	3	presumed	possible								#	1	3	presumed	possible
+#	1	3	visual	improbable								#	1	3	visual	improbable
+#	1	3	nonvisual									#	1	3	nonvisual	
+#	1	3	secondhand									#	1	3	secondhand	
+#	1	3	thirdhand									#	1	3	thirdhand	
+#	1	3	circumstantial									#	1	3	circumstantial	
+#	1	3	means									#	1	3	means	
+#	1	3	motive									#	1	3	motive	
+#	1	3	proposed									#	1	3	proposed	
+#	1	3	supposed									#	1	3	supposed	
+#	1	3	conditional									#	1	3	conditional	
+#	2	3	queried									#	2	3	queried	
+#	2	2	requested									#	2	2	requested	
+#	2	2	encouraged									#	2	2	encouraged	
+#	2	2	implored									#	2	2	implored	
+#	2	2	commanded									#	2	2	commanded	
+#	2	2	prayed									#	2	2	prayed	
+#	3	3	wished									#	3	3	wished	
+#	3	3	deferred									#	3	3	deferred	

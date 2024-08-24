@@ -1,0 +1,15 @@
+*	*		*	masculine	feminine
+singular-possessor	1-possessor		singular	mi	mi
+singular-possessor	1-possessor		plural	mis	mis
+singular-possessor	2-possessor	tuteo-possessor	singular	tu	tu
+singular-possessor	2-possessor	tuteo-possessor	plural	tus	tus
+singular-possessor	2-possessor	voseo-possessor	singular	tu	tu
+singular-possessor	2-possessor	voseo-possessor	plural	tus	tus
+singular-possessor	2-possessor	formal-possessor	singular	vuestro	vuestra
+singular-possessor	2-possessor	formal-possessor	plural	vuestros	vuestras
+plural-possessor	1-possessor		singular	nuestro	nuestra
+plural-possessor	1-possessor		plural	nuestros	nuestras
+plural-possessor	2-possessor		singular	vuestro	vuestra
+plural-possessor	2-possessor		plural	vuestros	vuestras
+	3-possessor		singular	su	su
+	3-possessor		plural	sus	sus
