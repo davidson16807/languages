@@ -162,8 +162,10 @@ foreign_termaxis_to_terms = {
         mood   :  indicative subjunctive imperative
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
         subjectivity: subject addressee direct-object adnominal indirect-object adverbial adnominal
+        degree :  positive superlative
     '''),
     **parse_any.token_to_tokens('''
+        adjective: tall strong
         verb : be-inherently be-momentarily have go have-in-possession work eat drive hear
         noun : man woman
     '''),
@@ -519,6 +521,27 @@ write('flashcards/spanish/pronoun-declension.html',
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine tuteo'),
             'test'       : parse.termaxis_to_term('tuteo'),
+        },
+    ))
+
+print('flashcards/spanish/adjective-agreement.html')
+write('flashcards/spanish/adjective-agreement.html', 
+    deck_generation.generate(
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
+            substitutions = [{'declined': list_tools.replace([['cloze','adj','adjective'], ['n']])}],
+        ) for demonstration in demonstrations], 
+        defaults.override(
+            ((  axis['number']
+             * gender_agreement_traversal
+             * declension_noun_traversal
+             * axis['degree']
+             * axis['adjective'])
+            & noun_template_whitelist) 
+        ),
+        tag_templates ={
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine tuteo'),
+            'test'       : parse.termaxis_to_term('common definite tuteo'),
         },
     ))
 

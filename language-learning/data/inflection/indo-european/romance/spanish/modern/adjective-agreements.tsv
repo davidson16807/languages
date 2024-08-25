@@ -1,4 +1,20 @@
-*	singular	singular	plural	plural
-*	masculine	feminine	masculine	feminine
-the	el	la	los	las
-a	un	una	unos	unas
+*	*	singular	singular	plural	plural	
+*	*	masculine	feminine	masculine	feminine	
+the		el	la	los	las	
+a		un	una	unos	unas	
+good	positive	bueno	buena	buenos	buenas	
+good	comparative	mejor	mejor	mejores	mejores	
+bad	positive	mal	mala	malos	malas	
+bad	comparative	peor	peor	peores	peores	
+old	positive	viejo	vieja	viejos	viejas	
+old	comparative	mayor	mayor	mayores	mayores	
+young	positive	joven	joven	jovenes	jovenes	
+young	comparative	menor	menor	menores	menores	
+tall	positive	alto	alta	altos	taltas	
+tall	superlative	altissimo	altissima	altissimos	altissimas	
+long	positive	largo	larga	largos	largas	
+long	superlative	larguísimo	larguísima	larguísimos	larguísimas	
+strong	positive	fuerte	fuerte	fuertes	fuertes	
+strong	superlative	fortísimo	fortísima	fortísimos	fortísimas	
+ancient	positive	antiguo	antigua	antiguos	antiguas	
+ancient	superlative	antiquissimo	antiquissima	antiquissimos	antiquissimas	

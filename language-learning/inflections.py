@@ -1090,6 +1090,81 @@ emoji_casts = {
         ],
 }
 
+possessor_possession_whitelist = parse_any.tokenmask(
+    'possessor_possession_whitelist', 
+    'possessor-noun noun',
+    '''
+    man-possessor       brother
+    man-possessor       sister
+    man-possessor       attention
+    man-possessor       boat
+    man-possessor       book
+    man-possessor       clothing
+    man-possessor       dog
+    man-possessor       food
+    man-possessor       gift
+    man-possessor       livestock
+    man-possessor       horse
+    man-possessor       house
+    man-possessor       home
+    man-possessor       love
+    man-possessor       idea
+    man-possessor       money
+    man-possessor       name
+    man-possessor       size
+    man-possessor       shirt
+    woman-possessor     brother
+    woman-possessor     sister
+    woman-possessor     attention
+    woman-possessor     boat
+    woman-possessor     book
+    woman-possessor     clothing
+    woman-possessor     dog
+    woman-possessor     food
+    woman-possessor     gift
+    woman-possessor     livestock
+    woman-possessor     horse
+    woman-possessor     house
+    woman-possessor     home
+    woman-possessor     love
+    woman-possessor     idea
+    woman-possessor     money
+    woman-possessor     name
+    woman-possessor     size
+    woman-possessor     shirt
+    #dog-possessor      food # correct emoji is difficult to render
+    dog-possessor       love
+    dog-possessor       size
+    dog-possessor       sound
+    dog-possessor       name
+    #animal-possessor   food # correct emoji is difficult to render
+    animal-possessor    size
+    animal-possessor    sound
+    animal-possessor    name
+    monster-possessor   home
+    monster-possessor   food
+    monster-possessor   size
+    monster-possessor   sound
+    monster-possessor   name
+    snake-possessor     home
+    snake-possessor     food
+    snake-possessor     size
+    snake-possessor     sound
+    snake-possessor     name
+    bug-possessor       food
+    bug-possessor       idea
+    bug-possessor       size
+    bug-possessor       sound
+    bug-possessor       name
+    land-possessor      king
+    land-possessor      queen
+    land-possessor      size
+    land-possessor      name
+    house-possessor     size
+    house-possessor     door
+    house-possessor     window
+''')
+
 
 tag_defaults = parse_any.termaxis_to_term('''
     valency:      transitive

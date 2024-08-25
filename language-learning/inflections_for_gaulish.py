@@ -99,6 +99,7 @@ foreign_termaxis_to_terms = {
         mood   :  indicative subjunctive
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
         subjectivity: subject addressee direct-object adnominal indirect-object adverbial
+        degree :  positive equative comparative superlative
     '''),
     **parse_any.token_to_tokens('''
         verb : swim read strike see walk agree buy create go be lay-down load 
@@ -512,6 +513,7 @@ write('flashcards/gaulish/adjective-agreement.html',
             ((  axis['number']
              * gender_agreement_traversal
              * declension_noun_traversal
+             * axis['degree']
              * axis['adjective'])
             & noun_template_whitelist) 
         ),

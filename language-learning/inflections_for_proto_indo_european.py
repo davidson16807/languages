@@ -103,6 +103,7 @@ foreign_termaxis_to_terms = {
         mood   :  indicative subjunctive imperative optative
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
         subjectivity: subject addressee direct-object adnominal indirect-object adverbial
+        degree :  positive comparative
     '''),
     **parse_any.token_to_tokens('''
         verb : be become carry leave work do ask stretch know sit protect be-red set-down want-to-see renew say point-out
@@ -482,6 +483,7 @@ write('flashcards/proto-indo-european/adjective-agreement.html',
             ((  axis['number']
              * gender_agreement_traversal
              * declension_noun_traversal
+             * axis['degree']
              * axis['adjective'])
             & noun_template_whitelist) 
         ),
