@@ -87,28 +87,22 @@ class ListGrammar:
     def decline(self, treemap, content, tags):
         if 'case' not in tags:
             return self.omit_code
-        # NOTE: if content is a None type, then rely solely on the tag
-        #  This logic provides a natural way to encode for pronouns
-        missing_value = '' if content[0] in {'det'} else None
         sememe = {
             **tags, 
             **({'noun':content[1]} if len(content)>1 else {}), 
         }
         return [content[0], 
-            missing_value if sememe not in self.declension_lookups
+            None if sememe not in self.declension_lookups
             else self.format_alternates(self.declension_lookups[sememe], tags)]
     def agree(self, treemap, content, tags):
         if 'case' not in tags:
             return self.omit_code
-        # NOTE: if content is a None type, then rely solely on the tag
-        #  This logic provides a natural way to encode for pronouns
-        missing_value = '' if content[0] in {'det'} else None
         sememe = {
             **tags, 
             **({'noun':content[1]} if len(content)>1 else {}), 
         }
         return [content[0], 
-            missing_value if sememe not in self.agreement_lookups
+            None if sememe not in self.agreement_lookups
             else self.format_alternates(self.agreement_lookups[sememe], tags)]
     def conjugate(self, treemap, content, tags):
         if any([tagaxis not in tags for tagaxis in 'aspect mood'.split()]):

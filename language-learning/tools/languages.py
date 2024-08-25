@@ -91,7 +91,7 @@ class Language:
                 'stock-adposition': self.semantics.stock_adposition,
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
-                'det':              self.grammar.decline,
+                'det':              self.grammar.agree,
                 'adj':              self.grammar.agree,
             }),
             ListTreeMap({

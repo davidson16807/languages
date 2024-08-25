@@ -48,9 +48,9 @@ def definiteness(machine, tree, memory):
     subjectivity = memory['subjectivity']
     nounform = memory['noun-form']
     if definiteness == 'definite' and subjectivity != 'addressee' and nounform != 'personal': 
-        return [['adj','the'], tree]
+        return [['det','the'], tree]
     if definiteness == 'indefinite' and subjectivity != 'addressee' and nounform != 'personal': 
-        return [['adj','a'], tree]
+        return [['det','a'], tree]
     else:
         return tree
 
@@ -331,7 +331,6 @@ gender_agreement_traversal = parse.tokenpath(
     '''
     masculine  man   
     feminine   woman 
-    neuter     food
     ''')
 
 gender_noun_whitelist = parse.tokenmask(
