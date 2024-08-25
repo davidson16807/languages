@@ -67,8 +67,6 @@ foreign_language = Language(
             declension_population.index([
                 *pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-declensions.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-possessives.tsv')),
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions.tsv')),
                 *common_noun_annotation.annotate(
@@ -76,6 +74,8 @@ foreign_language = Language(
             ])),
         NestedDictLookup(
             declension_population.index([
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-possessives.tsv')),
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-agreements.tsv')),
             ])),

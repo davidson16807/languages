@@ -65,11 +65,11 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/slavic/russian/common-noun-declensions.tsv')),
                 *pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-declensions.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-possessives.tsv')),
             ])),
         NestedDictLookup(
             declension_population.index([
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-possessives.tsv')),
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/slavic/russian/adjective-agreements.tsv')),
             ])),

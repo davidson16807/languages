@@ -67,11 +67,11 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/common-noun-declensions.tsv')),
                 *pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-declensions.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-possessives.tsv')),
             ])),
         NestedDictLookup(
             declension_population.index([
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-possessives.tsv')),
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/adjective-agreements.tsv')),
             ])),

@@ -1,38 +1,40 @@
-*	singular	plural
-animal	animal	animaux
-attention	attention	attention
-bird	oiseau	oiseaux
-brother	frère	frères
-boat	bateau	bateaux
-book	livre	livres
-bug	insecte	insectes
-clothing	vêtements	vêtements
-daughter	fille	filles
-dog	chienne	chiennes
-drum	tambour	tambours
-enemy	ennemie	ennemies
-fire	feu	feux
-food	nourriture	norritures
-gift	cadeau	cadeaux
-guard	garde	gardes
-horse	cheval	chevaux
-house	maison	maisons
-livestock	bétail	bétail
-love	amour	amours
-idea	idée	idées
-man	homme	hommes
-monster	monstre	monstres
-name	nom	noms
-rock	rocher	rochers
-rope	corde	cordes
-sister	sœur	sœurs
-size	taille	tailles
-son	fils	fils
-sound	son	sons
-warmth	chaleur	chaleur
-water	eau	eaux
-way	chemin	chemins
-window	fenêtre	fenêtres
-woman	femme	femmes
-work	travail	travaux
-hello	bonjour	bonjour
+*	singular	singular	plural	plural	#	
+*	latin	ipa	latin	ipa	#	
+animal	animal	a.ni.mal	animaux	a.ni.mo	#	masculine
+attention	attention	a.tɑ̃.sjɔ̃	attention	a.tɑ̃.sjɔ̃	#	feminine
+bird	oiseau	wa.zo	oiseaux	wa.zo	#	masculine
+brother	frère	fʁɛʁ	frères	fʁɛʁ	#	masculine
+boat	bateau	bætˈəʊ	bateaux	bætˈəʊ	#	masculine
+book	livre	livʁ	livres	livʁ	#	masculine
+bug	insecte	ɛ̃.sɛkt	insectes	ɛ̃.sɛkt	#	masculine
+clothing	vêtements	vɛt.mɑ̃	vêtements	vɛt.mɑ̃	#	masculine
+daughter	fille	fij	filles	fij	#	feminine
+dog	chienne	ʃjɛn	chiennes	ʃjɛn	#	feminine
+drum	tambour	tɑ̃.buʁ	tambours	ˈtæmbʊə(ɹ)	#	masculine
+enemy	ennemie	ɛn.mi	ennemies	ɛn.mi	#	masculine
+fire	feu	fø	feux	fø	#	masculine
+food	nourriture	nu.ʁi.tyʁ	norritures	nu.ʁi.tyʁ	#	feminine
+gift	cadeau	ka.do	cadeaux	ka.do	#	masculine
+guard	garde	ɡaʁd	gardes	ɡaʁd	#	masculine
+horse	cheval	ʃə.val	chevaux	ʃə.vo	#	masculine
+house	maison	mɛ.zɔ̃	maisons	mɛ.zɔ̃	#	feminine
+livestock	bétail	be.taj	bétail	be.taj	#	masculine
+love	amour	a.muʁ	amours	a.muʁ	#	masculine
+idea	idée	i.de	idées	i.de	#	feminine
+man	homme	ɔm	hommes	ɔm	#	masculine
+monster	monstre	mɔ̃stʁ	monstres	mɔ̃stʁ	#	masculine
+name	nom	nɔ̃	noms	nɔ̃	#	masculine
+rock	rocher	ʁɔ.ʃe	rochers	ʁɔ.ʃe	#	masculine
+rope	corde	kɔʁd	cordes	kɔʁd	#	feminine
+sister	sœur	sœʁ	sœurs	sœʁ	#	feminine
+size	taille	taj	tailles	taj	#	feminine
+son	fils	fis	fils	fis	#	masculine
+sound	son	sɔ̃	sons	sɔ̃	#	masculine
+warmth	chaleur	ʃa.lœʁ	chaleur	ʃa.lœʁ	#	feminine
+water	eau	o	eaux	o	#	feminine
+way	chemin	ʃə.mɛ̃	chemins	ʃə.mɛ̃	#	masculine
+window	fenêtre	fə.nɛtʁ	fenêtres	fə.nɛtʁ	#	feminine
+woman	femme	fam	femmes	fam	#	feminine
+work	travail	tʁa.vaj	travaux	tʁa.vo	#	masculine
+hello	bonjour	bɔ̃.ʒuʁ	bonjour	bɔ̃.ʒuʁ	#	masculine
+hello	bonjour	bɔ̃.ʒuʁ	bonjour	bɔ̃.ʒuʁ	#	feminine

@@ -999,14 +999,14 @@ english_language = Language(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/pronoun-declensions.tsv')),
                     *common_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/common-noun-declensions.tsv')),
-                    *possessive_pronoun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/pronoun-possessives.tsv')),
                 ])),
             ProceduralLookup(regular_english_grammar.decline),
         ),
         FallbackDictLookup(
             NestedDictLookup(
                 declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/pronoun-possessives.tsv')),
                     *common_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/adjective-agreements.tsv')),
                 ])

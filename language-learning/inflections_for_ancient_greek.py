@@ -79,11 +79,11 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/greek/attic/adjective-agreements.tsv')),
                 *pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/greek/attic/pronoun-declensions.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/greek/attic/pronoun-possessives.tsv')),
             ])),
         NestedDictLookup(
             declension_population.index([
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/greek/attic/pronoun-possessives.tsv')),
             ])),
     ),
     RuleSyntax(

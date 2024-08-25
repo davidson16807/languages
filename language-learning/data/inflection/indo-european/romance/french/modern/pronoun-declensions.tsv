@@ -1,12 +1,13 @@
-*	*	*	*	nominative	accusative	dative	locative	genitive	disjunctive
-personal	singular	1     	         	je        	me        	me    	        	        	moi        
-personal	singular	2     	         	tu        	te        	te    	        	        	toi        
-personal	singular	3     	masculine	il        	le        	lui   	y       	en      	lui        
-personal	singular	3     	feminine 	elle      	la        	lui   	y       	en      	elle       
-personal	singular	3     	neuter   	on        	          	      	        	        	           
-personal	plural  	1     		nous      	nous      	nous  	        	        	nous       
-personal	plural  	2     		vous      	vous      	vous  	        	        	vous       
-personal	plural  	3     	masculine	ils       	les       	leur  	y       	en      	eux        
-personal	plural  	3     	feminine 	elles     	les       	leur  	y       	en      	elles      
-reflexive	singular	3     	reflexive	          	se        	se    	        	        	soi        
-	        								
+*	*	*	*	nominative	nominative	accusative	accusative	dative	dative	locative	locative	genitive	genitive	ablative	ablative
+*	*	*	*	latin	ipa	latin	ipa	latin	ipa	latin	ipa	latin	ipa	latin	ipa
+personal	singular	1		je	ʒə	me	mə	me	mə	—	—	—	—	moi	mwa
+personal	singular	2		tu	ty	te	tə	te	tə	—	—	—	—	toi	twa
+personal	singular	3	masculine	il	il	le	lə	lui	lɥi	y	i	en	ɑ̃(n)	lui	lɥi
+personal	singular	3	feminine 	elle	ɛl	la	la	lui	lɥi	y	i	en	ɑ̃(n)	elle	ɛl
+personal	singular	3	neuter	on	ɔ̃(n)										
+personal	plural	1		nous	nu(z)	nous	nu(z)	nous	nu(z)	—	—	—	—	nous	nu(z)
+personal	plural	2		vous	vu(z)	vous	vu(z)	vous	vu(z)	—	—	—	—	vous	vu(z)
+personal	plural	3	masculine	ils	i(z)	les	lɛ(z)	leur	lœʁ	y	i	en	ɑ̃(n)	eux	ø
+personal	plural	3	feminine 	elles	ɛl(z)	les	lɛ(z)	leur	lœʁ	y	i	en	ɑ̃(n)	elles	ɛl(z)
+reflexive	singular	3	reflexive	—	—	se	sə	se	sə	—	—	—	—	soi	swa
+															
