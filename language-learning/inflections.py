@@ -207,7 +207,7 @@ tagaxis_to_tags = {
     'possessor-number':    'singular-possessor dual-possessor plural-possessor'.split(),
     'possessor-gender':    'masculine-possessor feminine-possessor neuter-possessor'.split(),
     'possessor-clusivity': 'inclusive-possessor exclusive-possessor'.split(),
-    'possessor-formality': 'familiar-possessor polite-possessor elevated-possessor formal-possessor tuteo-possessor voseo-possessor'.split(),
+    'possessor-formality': 'familiar-possessor polite-possessor elevated-possessor informal-possessor formal-possessor tuteo-possessor voseo-possessor'.split(),
 
     # needed for adjectives
     'degree':     'positive equative comparative superlative'.split(), # 

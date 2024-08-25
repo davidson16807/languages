@@ -328,43 +328,46 @@ gender_noun_whitelist = parse.tokenmask(
     'noun gender',
     '''
     animal    masculine
-    attention feminine
+    attention masculine
     bird      masculine
-    brother   masculine
     boat      masculine
     book      masculine
     bug       masculine
     clothing  masculine
     daughter  feminine
+    dog       masculine
     dog       feminine
+    #door      
     drum      masculine
-    enemy     masculine
+    enemy     feminine
     fire      masculine
-    food      feminine
+    food      masculine
     gift      masculine
-    guard     masculine
+    #glass     
+    guard     feminine
     horse     masculine
     house     feminine
     livestock masculine
     love      masculine
     idea      feminine
     man       masculine
+    #money     masculine
     monster   masculine
     name      masculine
-    rock      masculine
+    rock      feminine
     rope      feminine
     sister    feminine
-    size      feminine
+    #size      masculine
     son       masculine
     sound     masculine
-    warmth    feminine
+    thought   feminine
+    warmth    masculine
     water     feminine
     way       masculine
+    #wind      feminine
     window    feminine
     woman     feminine
     work      masculine
-    hello     masculine
-    hello     feminine
     ''')
 
 possession_traversal = parse.tokenpath(

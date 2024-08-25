@@ -271,16 +271,16 @@ have	subjunctive	past	imperfective	hubiera | hubiese	hubieras | hubieses	hubiera
 have	subjunctive	past	perfective	hubiere	hubieres	hubieres	hubiere	hubiere	hubiéremos	hubiereis	hubiereis	hubieren	hubieren
 have	imperative	affirmative		—	habe, he	habe, he	haya	haya	hayamos	habed	habed	hayan	hayan
 have	imperative	negative		—	no hayas	no hayas	no haya	no haya	no hayamos	no hayáis	no hayáis	no hayan	no hayan
-have-in-possession	indicative	present		tengo	tienes	tenés	tiene	tiene	tenemos	tenéis	tenéis	tienen	tienen
-have-in-possession	indicative	past	imperfective	tenía	tenías	tenías	tenía	tenía	teníamos	teníais	teníais	tenían	tenían
-have-in-possession	indicative	past	perfective	tuve	tuviste	tuviste	tuvo	tuvo	tuvimos	tuvisteis	tuvisteis	tuvieron	tuvieron
-have-in-possession	indicative	future		tendré	tendrás	tendrás	tendrá	tendrá	tendremos	tendréis	tendréis	tendrán	tendrán
-have-in-possession	indicative	conditional		tendría	tendrías	tendrías	tendría	tendría	tendríamos	tendríais	tendríais	tendrían	tendrían
-have-in-possession	subjunctive	present		tenga	tengas	tengás	tenga	tenga	tengamos	tengáis	tengáis	tengan	tengan
-have-in-possession	subjunctive	past	imperfective	tuviera | tuviese	tuvieras | tuvieses	tuvieras | tuvieses	tuviera | tuviese	tuviera | tuviese	tuviéramos | tuviésemos	tuvierais | tuvieseis	tuvierais | tuvieseis	tuvieran | tuviesen	tuvieran | tuviesen
-have-in-possession	subjunctive	past	perfective	tuviere	tuvieres	tuvieres	tuviere	tuviere	tuviéremos	tuviereis	tuviereis	tuvieren	tuvieren
-have-in-possession	imperative	affirmative		—	ten	tené	tenga	tenga	tengamos	tened	tened	tengan	tengan
-have-in-possession	imperative	negative		—	no tengas	no tengas	no tenga	no tenga	no tengamos	no tengáis	no tengáis	no tengan	no tengan
+possess	indicative	present		tengo	tienes	tenés	tiene	tiene	tenemos	tenéis	tenéis	tienen	tienen
+possess	indicative	past	imperfective	tenía	tenías	tenías	tenía	tenía	teníamos	teníais	teníais	tenían	tenían
+possess	indicative	past	perfective	tuve	tuviste	tuviste	tuvo	tuvo	tuvimos	tuvisteis	tuvisteis	tuvieron	tuvieron
+possess	indicative	future		tendré	tendrás	tendrás	tendrá	tendrá	tendremos	tendréis	tendréis	tendrán	tendrán
+possess	indicative	conditional		tendría	tendrías	tendrías	tendría	tendría	tendríamos	tendríais	tendríais	tendrían	tendrían
+possess	subjunctive	present		tenga	tengas	tengás	tenga	tenga	tengamos	tengáis	tengáis	tengan	tengan
+possess	subjunctive	past	imperfective	tuviera | tuviese	tuvieras | tuvieses	tuvieras | tuvieses	tuviera | tuviese	tuviera | tuviese	tuviéramos | tuviésemos	tuvierais | tuvieseis	tuvierais | tuvieseis	tuvieran | tuviesen	tuvieran | tuviesen
+possess	subjunctive	past	perfective	tuviere	tuvieres	tuvieres	tuviere	tuviere	tuviéremos	tuviereis	tuviereis	tuvieren	tuvieren
+possess	imperative	affirmative		—	ten	tené	tenga	tenga	tengamos	tened	tened	tengan	tengan
+possess	imperative	negative		—	no tengas	no tengas	no tenga	no tenga	no tengamos	no tengáis	no tengáis	no tengan	no tengan
 go	indicative	present		voy	vas	vas	va	va	vamos	vais	vais	van	van
 go	indicative	past	imperfective	iba	ibas	ibas	iba	iba	íbamos	ibais	ibais	iban	iban
 go	indicative	past	perfective	fui	fuiste	fuiste	fue	fue	fuimos	fuisteis	fuisteis	fueron	fueron

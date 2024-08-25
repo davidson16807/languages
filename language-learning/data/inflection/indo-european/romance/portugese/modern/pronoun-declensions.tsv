@@ -1,0 +1,8 @@
+*	*	*	nominative	nominative	accusative	accusative	dative	ablative	ablative	#	instrumental	instrumental
+*	*	*	masculine	feminine	masculine	feminine		masculine	feminine	#	masculine	feminine
+personal	singular	1	eu	eu	me	me	me	mim	mim	#	comigo	comigo
+personal	singular	2	tu	tu	te	te	te	ti	ti	#	contigo	contigo
+personal	singular	3	ele	ela	o	a	lhe	ele	ela	#	com ele	com ela
+personal	plural	1	nós	nós	nos	nos	nos	nós	nós	#	conosco	conosco
+personal	plural	2	vós	vós	vos	vos	vos	vós	vós	#	convosco	convosco
+personal	plural	3	eles	elas	os	as	lhes	eles	elas	#	com eles	com elas
