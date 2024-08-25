@@ -19,25 +19,25 @@
 			proposed	probable	affirmative	indicative	∅	∅	#	likely	potential					
 			proposed	possible	affirmative	conditional	∅	∅	#		dubitative					
 			proposed	possible	negative	subjunctive	∅	∅	#	might						
-			proposed	probable	negative	indicative	∅	∅	#		dubitative					
+			proposed	probable	negative	subjunctive	∅	∅	#		dubitative					
 			proposed	confident	negative	indicative	∅	∅	#		hypothetical					
 			antecedent	confident	affirmative	indicative	∅	∅	#							
 			antecedent	probable	affirmative	indicative	∅	∅	#							
 			antecedent	possible	affirmative	conditional	∅	∅	#							
 			antecedent	possible	negative	subjunctive	∅	∅	#							
-			antecedent	probable	negative	indicative	∅	∅	#							
+			antecedent	probable	negative	subjunctive	∅	∅	#							
 			antecedent	confident	negative	indicative	∅	∅	#							
 			consequent	confident	affirmative	conditional	∅	∅	#		eventitive					
 			consequent	probable	affirmative	conditional	∅	∅	#	likely	eventitive					
 			consequent	possible	affirmative	conditional	∅	∅	#		conditional					
 			consequent	possible	negative	subjunctive	∅	∅	#							
-			consequent	probable	negative	indicative	∅	∅	#	might	conditional					
+			consequent	probable	negative	subjunctive	∅	∅	#	might	conditional					
 			consequent	confident	negative	indicative	∅	∅	#							
 			deferred	confident	affirmative	indicative	∅	∅	#		injunctive					
 			deferred	probable	affirmative	indicative	∅	∅	#		injunctive					
 			deferred	possible	affirmative	conditional	∅	∅	#		permissive					
 			deferred	possible	negative	subjunctive	∅	∅	#							
-			deferred	probable	negative	indicative	∅	∅	#		permissive					
+			deferred	probable	negative	subjunctive	∅	∅	#		permissive					
 			deferred	confident	negative	indicative	∅	∅	#		permissive					
 			deliberated			subjunctive	∅	∅	#							
 			pending			subjunctive	∅	∅	#							

@@ -417,8 +417,8 @@ possessor_pronoun_traversal = label_editing.termpath(
         '''), 
     'possessor')
 
-adjective_roles = parse.termmask(
-    'adjective_roles', 
+agreement_roles = parse.termmask(
+    'agreement_roles', 
     'role subjectivity',
     '''
     stimulus subject
@@ -471,8 +471,8 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/spanish/finite-conjugation.html')
-write('flashcards/spanish/finite-conjugation.html', 
+print('flashcards/romance/spanish/finite-conjugation.html')
+write('flashcards/romance/spanish/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -488,8 +488,8 @@ write('flashcards/spanish/finite-conjugation.html',
         },
     ))
 
-print('flashcards/spanish/adpositions.html')
-write('flashcards/spanish/adpositions.html', 
+print('flashcards/romance/spanish/adpositions.html')
+write('flashcards/romance/spanish/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -509,8 +509,8 @@ write('flashcards/spanish/adpositions.html',
         },
     ))
 
-print('flashcards/spanish/pronoun-declension.html')
-write('flashcards/spanish/pronoun-declension.html', 
+print('flashcards/romance/spanish/pronoun-declension.html')
+write('flashcards/romance/spanish/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -527,8 +527,8 @@ write('flashcards/spanish/pronoun-declension.html',
         },
     ))
 
-print('flashcards/spanish/adjective-agreement.html')
-write('flashcards/spanish/adjective-agreement.html', 
+print('flashcards/romance/spanish/adjective-agreement.html')
+write('flashcards/romance/spanish/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -541,7 +541,7 @@ write('flashcards/spanish/adjective-agreement.html',
              * axis['degree']
              * axis['adjective'])
             & noun_template_whitelist
-            & adjective_roles) 
+            & agreement_roles) 
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine tuteo'),
@@ -549,8 +549,8 @@ write('flashcards/spanish/adjective-agreement.html',
         },
     ))
 
-print('flashcards/spanish/pronoun-possessives.html')
-write('flashcards/spanish/pronoun-possessives.html', 
+print('flashcards/romance/spanish/pronoun-possessives.html')
+write('flashcards/romance/spanish/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

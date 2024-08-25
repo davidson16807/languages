@@ -4,7 +4,7 @@
 	addressee			nominative	∅	∅	#	
 	direct-object			accusative	∅	∅	#	
 	indirect-object			dative	∅	∅	#	
-	adnominal			ablative	de	∅	#	
+	adnominal			genitive	de	∅	#	
 	adverbial	departed	agent	ablative	par	∅	#	
 	adverbial	associated	agent	ablative	par	∅	#	
 	adverbial	acquired	agent	ablative	par	∅	#	
@@ -13,34 +13,34 @@
 	adverbial	associated	force	ablative	par	∅	#	
 	adverbial	acquired	force	ablative	par	∅	#	
 	adverbial	leveraged	force	ablative	par	∅	#	
-	adverbial	departed	location	ablative	de	∅	#	
-	adverbial	associated	location	ablative	a	∅	#	
-	adverbial	acquired	location	ablative	a	∅	#	
-	adverbial	leveraged	location	ablative	par	∅	#	
-	adverbial	departed	extent	ablative	dès	∅	#	
-	adverbial	associated	extent	ablative	❕	∅	#	
-	adverbial	acquired	extent	ablative	❕	∅	#	
-	adverbial	leveraged	extent	ablative	contre	∅	#	
-	adverbial	departed	vicinity	ablative	❕	∅	#	
-	adverbial	associated	vicinity	ablative	vers	∅	#	
-	adverbial	acquired	vicinity	ablative	envers	∅	#	
-	adverbial	leveraged	vicinity	ablative	❕	∅	#	
-	adverbial	departed	interior	ablative	❕	∅	#	
-	adverbial	associated	interior	ablative	dans	∅	#	
-	adverbial	acquired	interior	ablative	❕	∅	#	
-	adverbial	leveraged	interior	ablative	par	∅	#	
-	adverbial	departed	surface	ablative	❕	∅	#	
-	adverbial	associated	surface	ablative	sur	∅	#	
-	adverbial	acquired	surface	ablative	❕	∅	#	
-	adverbial	leveraged	surface	ablative	❕	∅	#	
-	adverbial	departed	subsurface	ablative	❕	∅	#	
-	adverbial	associated	subsurface	ablative	sous	∅	#	
-	adverbial	acquired	subsurface	ablative	❕	∅	#	
-	adverbial	leveraged	subsurface	ablative	❕	∅	#	
-	adverbial	departed	presence	ablative	❕	∅	#	
-	adverbial	associated	presence	ablative	❕	∅	#	
-	adverbial	acquired	presence	ablative	❕	∅	#	
-	adverbial	leveraged	presence	ablative	❕	∅	#	
+	adverbial	departed	location	locative	de	∅	#	
+	adverbial	associated	location	locative	a	∅	#	
+	adverbial	acquired	location	locative	a	∅	#	
+	adverbial	leveraged	location	locative	par	∅	#	
+	adverbial	departed	extent	locative	dès	∅	#	
+	adverbial	associated	extent	locative	❕	∅	#	
+	adverbial	acquired	extent	locative	❕	∅	#	
+	adverbial	leveraged	extent	locative	contre	∅	#	
+	adverbial	departed	vicinity	locative	❕	∅	#	
+	adverbial	associated	vicinity	locative	vers	∅	#	
+	adverbial	acquired	vicinity	locative	envers	∅	#	
+	adverbial	leveraged	vicinity	locative	❕	∅	#	
+	adverbial	departed	interior	locative	❕	∅	#	
+	adverbial	associated	interior	locative	dans	∅	#	
+	adverbial	acquired	interior	locative	❕	∅	#	
+	adverbial	leveraged	interior	locative	par	∅	#	
+	adverbial	departed	surface	locative	❕	∅	#	
+	adverbial	associated	surface	locative	sur	∅	#	
+	adverbial	acquired	surface	locative	❕	∅	#	
+	adverbial	leveraged	surface	locative	❕	∅	#	
+	adverbial	departed	subsurface	locative	❕	∅	#	
+	adverbial	associated	subsurface	locative	sous	∅	#	
+	adverbial	acquired	subsurface	locative	❕	∅	#	
+	adverbial	leveraged	subsurface	locative	❕	∅	#	
+	adverbial	departed	presence	locative	❕	∅	#	
+	adverbial	associated	presence	locative	❕	∅	#	
+	adverbial	acquired	presence	locative	❕	∅	#	
+	adverbial	leveraged	presence	locative	❕	∅	#	
 #	adverbial	departed	aid	ablative	avec	∅	#	
 	adverbial	associated	aid	ablative	avec	∅	#	
 #	adverbial	acquired	aid	ablative	avec	∅	#	

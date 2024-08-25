@@ -1,0 +1,68 @@
+*	*	*	*	case	preposition	postposition	#	
+#	subjectivity	motion	role				#	latin
+	subject			nominative	∅	∅	#	
+	addressee			nominative	∅	∅	#	
+	direct-object			accusative	∅	∅	#	
+	indirect-object			dative	∅	∅	#	
+	adnominal			ablative	di	∅	#	
+	adverbial	departed	agent	ablative	per	∅	#	
+	adverbial	associated	agent	ablative	per	∅	#	
+	adverbial	acquired	agent	ablative	per	∅	#	
+	adverbial	leveraged	agent	ablative	per	∅	#	
+	adverbial	departed	force	ablative	per	∅	#	
+	adverbial	associated	force	ablative	per	∅	#	
+	adverbial	acquired	force	ablative	per	∅	#	
+	adverbial	leveraged	force	ablative	per	∅	#	
+	adverbial	departed	location	ablative	da	∅	#	
+#	adverbial	associated	location	ablative		∅	#	
+	adverbial	acquired	location	ablative	a	∅	#	
+	adverbial	surpassed	location	ablative	oltre	∅	#	
+#	adverbial	leveraged	location	ablative		∅	#	
+#	adverbial	departed	extent	ablative		∅	#	
+#	adverbial	associated	extent	ablative	contro	∅	#	
+#	adverbial	acquired	extent	ablative		∅	#	
+#	adverbial	leveraged	extent	ablative		∅	#	
+#	adverbial	departed	vicinity	ablative		∅	#	
+#	adverbial	associated	vicinity	ablative		∅	#	
+#	adverbial	acquired	vicinity	ablative		∅	#	
+#	adverbial	leveraged	vicinity	ablative		∅	#	
+#	adverbial	departed	interior	ablative		∅	#	
+	adverbial	associated	interior	ablative	in	∅	#	
+#	adverbial	acquired	interior	ablative		∅	#	
+	adverbial	leveraged	interior	ablative	attraverso	∅	#	
+#	adverbial	departed	surface	ablative		∅	#	
+	adverbial	associated	surface	ablative	su	∅	#	
+#	adverbial	acquired	surface	ablative		∅	#	
+#	adverbial	leveraged	surface	ablative		∅	#	
+#	adverbial	departed	subsurface	ablative		∅	#	
+	adverbial	associated	subsurface	ablative	sotto	∅	#	
+#	adverbial	acquired	subsurface	ablative		∅	#	
+#	adverbial	leveraged	subsurface	ablative		∅	#	
+#	adverbial	departed	presence	ablative		∅	#	
+#	adverbial	associated	presence	ablative		∅	#	
+#	adverbial	acquired	presence	ablative		∅	#	
+#	adverbial	leveraged	presence	ablative		∅	#	
+#	adverbial	departed	aid	ablative	con	∅	#	
+	adverbial	associated	aid	ablative	con	∅	#	
+#	adverbial	acquired	aid	ablative	con	∅	#	
+#	adverbial	leveraged	aid	ablative	con	∅	#	
+#	adverbial	departed	lack	ablative	senza	∅	#	
+	adverbial	associated	lack	ablative	senza	∅	#	
+#	adverbial	acquired	lack	ablative	senza	∅	#	
+#	adverbial	leveraged	lack	ablative	senza	∅	#	
+#	adverbial	departed	interest	ablative	❕	∅	#	
+#	adverbial	associated	interest	ablative	❕	∅	#	
+#	adverbial	acquired	interest	ablative	❕	∅	#	
+	adverbial	leveraged	interest	ablative	par	∅	#	
+	adverbial	departed	time	ablative	dopo	∅	#	
+#	adverbial	associated	time	ablative		∅	#	
+	adverbial	acquired	time	ablative	prima	∅	#	
+#	adverbial	leveraged	time	ablative		∅	#	
+#	adverbial	departed	topic	ablative	❕	∅	#	
+#	adverbial	associated	topic	ablative	❕	∅	#	
+#	adverbial	acquired	topic	ablative	❕	∅	#	
+#	adverbial	leveraged	topic	ablative	❕	∅	#	
+#	adverbial	departed	company	ablative	❕	∅	#	along with
+	adverbial	associated	company	ablative	tra	∅	#	along with
+#	adverbial	acquired	company	ablative	❕	∅	#	along with
+#	adverbial	leveraged	company	ablative	❕	∅	#	along with

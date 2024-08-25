@@ -1,10 +1,11 @@
-*	*	nominative	reflexive	accusative	dative	dative	conjunctive	disjunctive	locative		partitive
-*	*				informal	formal			informal	formal	
-1		io	mi	mi	mi	mi	me	me	— 	— 	— 
-2		tu	ti	ti	ti	ti	te	te	— 	— 	— 
-3	masculine	lui	si	lo	gli	gli	glie, se 	lui	ci	vi	ne
-3	feminine	lei	si	la	le	le	glie, se 	lei	ci	vi	ne
-1		noi	ci	ci	ci	ci	ce	noi	— 	— 	— 
-2		voi	vi	vi	vi	vi	ve	voi	— 	— 	— 
-3	masculine	loro	si	li	gli	loro	glie, se 	loro	ci	vi	ne
-3	feminine	loro	si	le	gli	loro	glie, se 	loro	ci	vi	ne
+*	*	*	personal	personal	personal	personal	personal	personal	personal	reflexive				
+*	*	*	nominative	accusative	dative	dative	ablative	locative	locative		#	combined	partitive	
+*	*	*			informal	formal		informal	formal		#			
+singular	1		io	mi	mi	mi	me	— 	— 	mi	#	me	— 	
+singular	2		tu	ti	ti	ti	te	— 	— 	ti	#	te	— 	
+singular	3	masculine	lui	lo	gli	gli	lui	ci	vi	si	#	glie, se 	ne	
+singular	3	feminine	lei	la	le	le	lei	ci	vi	si	#	glie, se 	ne	
+plural	1		noi	ci	ci	ci	noi	— 	— 	ci	#	ce	— 	
+plural	2		voi	vi	vi	vi	voi	— 	— 	vi	#	ve	— 	
+plural	3	masculine	loro	li	gli	loro	loro	ci	vi	si	#	glie, se 	ne	
+plural	3	feminine	loro	le	gli	loro	loro	ci	vi	si	#	glie, se 	ne	

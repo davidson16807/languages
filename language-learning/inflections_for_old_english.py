@@ -393,10 +393,8 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-
-
-print('flashcards/old-english/finite-conjugation.html')
-write('flashcards/old-english/finite-conjugation.html', 
+print('flashcards/germanic/old-english/finite-conjugation.html')
+write('flashcards/germanic/old-english/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -413,8 +411,8 @@ write('flashcards/old-english/finite-conjugation.html',
     ))
 
 """
-print('flashcards/old-english/participle-declension.html')
-write('flashcards/old-english/participle-declension.html', 
+print('flashcards/germanic/old-english/participle-declension.html')
+write('flashcards/germanic/old-english/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -436,8 +434,8 @@ write('flashcards/old-english/participle-declension.html',
     ))
 """
 
-print('flashcards/old-english/adpositions.html')
-write('flashcards/old-english/adpositions.html', 
+print('flashcards/germanic/old-english/adpositions.html')
+write('flashcards/germanic/old-english/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -457,8 +455,8 @@ write('flashcards/old-english/adpositions.html',
         },
     ))
 
-print('flashcards/old-english/common-noun-declension.html')
-write('flashcards/old-english/common-noun-declension.html',
+print('flashcards/germanic/old-english/common-noun-declension.html')
+write('flashcards/germanic/old-english/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -474,8 +472,8 @@ write('flashcards/old-english/common-noun-declension.html',
         },
     ))
 
-print('flashcards/old-english/pronoun-declension.html')
-write('flashcards/old-english/pronoun-declension.html', 
+print('flashcards/germanic/old-english/pronoun-declension.html')
+write('flashcards/germanic/old-english/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -491,8 +489,8 @@ write('flashcards/old-english/pronoun-declension.html',
         },
     ))
 
-print('flashcards/old-english/adjective-agreement.html')
-write('flashcards/old-english/adjective-agreement.html', 
+print('flashcards/germanic/old-english/adjective-agreement.html')
+write('flashcards/germanic/old-english/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -511,8 +509,8 @@ write('flashcards/old-english/adjective-agreement.html',
         },
     ))
 
-print('flashcards/old-english/pronoun-possessives.html')
-write('flashcards/old-english/pronoun-possessives.html', 
+print('flashcards/germanic/old-english/pronoun-possessives.html')
+write('flashcards/germanic/old-english/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

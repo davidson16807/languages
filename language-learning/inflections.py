@@ -196,7 +196,7 @@ tagaxis_to_tags = {
     'clusivity':   'inclusive exclusive'.split(),
 
     # needed for Spanish
-    'formality':  'familiar polite elevated formal tuteo voseo'.split(),
+    'formality':  'familiar polite elevated informal formal tuteo voseo'.split(),
 
     'partitivity':'nonpartitive partitive bipartitive'.split(),
     'clitic':     'tonic prefix suffix proclitic mesoclitic endoclitic enclitic'.split(),
@@ -268,6 +268,7 @@ tagaxis_to_tags = {
 
     # whether the event is confirmed or denied
     'polarity':         'affirmative negative'.split(),
+    'recency':          'recent nonrecent arecent'.split(),
 
     # # needed for correlatives in general
     # 'abstraction': 'organization location origin destination time manner reason quality amount'.split(),
@@ -325,6 +326,7 @@ conjugation_template_lookups = DictLookup(
                     'gender',     # needed for Russian
                     'formality',  # needed for Spanish ('voseo')
                     'polarity',   # needed for Spanish ('negative imperative')
+                    'recency',    # needed for Italian ('nonrecent past')
                     'mood',        
                     'voice',           
                     'tense',           
@@ -1172,7 +1174,7 @@ tag_defaults = parse_any.termaxis_to_term('''
     
     clitic:       tonic
     clusivity:    exclusive
-    formality:    familiar
+    formality:    informal
     definiteness: definite
     gender:       masculine
     animacy:      animate

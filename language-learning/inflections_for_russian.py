@@ -521,8 +521,8 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/russian/finite-conjugation.html')
-write('flashcards/russian/finite-conjugation.html', 
+print('flashcards/slavic/russian/finite-conjugation.html')
+write('flashcards/slavic/russian/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -540,8 +540,8 @@ write('flashcards/russian/finite-conjugation.html',
     ))
 
 """
-print('flashcards/russian/participle-declension.html')
-write('flashcards/russian/participle-declension.html', 
+print('flashcards/slavic/russian/participle-declension.html')
+write('flashcards/slavic/russian/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -563,8 +563,8 @@ write('flashcards/russian/participle-declension.html',
     ))
 """
 
-print('flashcards/russian/adpositions.html')
-write('flashcards/russian/adpositions.html', 
+print('flashcards/slavic/russian/adpositions.html')
+write('flashcards/slavic/russian/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -584,8 +584,8 @@ write('flashcards/russian/adpositions.html',
         },
     ))
 
-print('flashcards/russian/common-noun-declension.html')
-write('flashcards/russian/common-noun-declension.html',
+print('flashcards/slavic/russian/common-noun-declension.html')
+write('flashcards/slavic/russian/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -604,8 +604,8 @@ write('flashcards/russian/common-noun-declension.html',
     ))
 
 
-print('flashcards/russian/pronoun-declension.html')
-write('flashcards/russian/pronoun-declension.html', 
+print('flashcards/slavic/russian/pronoun-declension.html')
+write('flashcards/slavic/russian/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -621,8 +621,8 @@ write('flashcards/russian/pronoun-declension.html',
         },
     ))
 
-print('flashcards/russian/adjective-agreement.html')
-write('flashcards/russian/adjective-agreement.html', 
+print('flashcards/slavic/russian/adjective-agreement.html')
+write('flashcards/slavic/russian/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -641,8 +641,8 @@ write('flashcards/russian/adjective-agreement.html',
         },
     ))
 
-print('flashcards/russian/pronoun-possessives.html')
-write('flashcards/russian/pronoun-possessives.html', 
+print('flashcards/slavic/russian/pronoun-possessives.html')
+write('flashcards/slavic/russian/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

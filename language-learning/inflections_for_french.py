@@ -165,7 +165,7 @@ foreign_termaxis_to_terms = {
     '''),
     **parse_any.token_to_tokens('''
         adjective: good bad small
-        verb : be-inherently be-momentarily have go have-in-possession work eat drive hear
+        verb : be have go speak choose loose receive
         noun : man woman
     '''),
 }
@@ -406,8 +406,8 @@ possessor_pronoun_traversal = label_editing.termpath(
         '''), 
     'possessor')
 
-adjective_roles = parse.termmask(
-    'adjective_roles', 
+agreement_roles = parse.termmask(
+    'agreement_roles', 
     'role subjectivity',
     '''
     stimulus subject
@@ -458,8 +458,8 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/french/finite-conjugation.html')
-write('flashcards/french/finite-conjugation.html', 
+print('flashcards/romance/french/finite-conjugation.html')
+write('flashcards/romance/french/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -475,8 +475,8 @@ write('flashcards/french/finite-conjugation.html',
         },
     ))
 
-print('flashcards/french/adpositions.html')
-write('flashcards/french/adpositions.html', 
+print('flashcards/romance/french/adpositions.html')
+write('flashcards/romance/french/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -496,8 +496,8 @@ write('flashcards/french/adpositions.html',
         },
     ))
 
-print('flashcards/french/pronoun-declension.html')
-write('flashcards/french/pronoun-declension.html', 
+print('flashcards/romance/french/pronoun-declension.html')
+write('flashcards/romance/french/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -514,8 +514,8 @@ write('flashcards/french/pronoun-declension.html',
         },
     ))
 
-print('flashcards/french/adjective-agreement.html')
-write('flashcards/french/adjective-agreement.html', 
+print('flashcards/romance/french/adjective-agreement.html')
+write('flashcards/romance/french/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -528,7 +528,7 @@ write('flashcards/french/adjective-agreement.html',
              * axis['degree']
              * axis['adjective'])
             & noun_template_whitelist
-            & adjective_roles) 
+            & agreement_roles) 
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
@@ -536,8 +536,8 @@ write('flashcards/french/adjective-agreement.html',
         },
     ))
 
-print('flashcards/french/pronoun-possessives.html')
-write('flashcards/french/pronoun-possessives.html', 
+print('flashcards/romance/french/pronoun-possessives.html')
+write('flashcards/romance/french/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

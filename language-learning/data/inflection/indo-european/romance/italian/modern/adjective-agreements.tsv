@@ -1,3 +1,25 @@
-*	singular	singular	plural	plural
-*	masculine	feminine	masculine	feminine
-the	il	la	i	le
+*	*	singular	singular	plural	plural
+*	*	masculine	feminine	masculine	feminine
+the		il	la	i	le
+a		un	una		
+clever	positive	bravo	brava	bravi	brave
+clever	comparative	più bravo	più brava	più bravi	più brave
+clever	superlative	bravissimo	bravissima	bravissimi	bravissime
+good	positive	buono	buona	buoni	buone
+good	comparative	migliore	migliore	migliori	migliori
+good	superlative	ottimo	ottima	ottimi	ottime
+bad	positive	cattivo	cattiva	cattivi	cattive
+bad	comparative	peggiore	peggiore	peggiori	peggiori
+bad	superlative	pessimo	pessima	pessimi	pessime
+big	positive	grande	grande	grandi	grandi
+big	comparative	maggiore	maggiore	maggiori	maggiori
+big	superlative	massimo	massima	massimi	massime
+small	positive	piccolo	piccola	piccoli	piccole
+small	comparative	minore	minore	minori	minori
+small	superlative	minimo	minima	minimi	minime
+high	positive	alto	alta	alti	alte
+high	comparative	superiore	superiore	superiori	superiori
+high	superlative	supremo	suprema	supremi	supreme
+low	positive	basso	bassa	bassi	basse
+low	comparative	inferiore	inferiore	inferiori	inferiori
+low	superlative	infimo	infima	infimi	infime

@@ -395,8 +395,8 @@ declension_noun_traversal = (
 
 
 
-print('flashcards/old-english/finite-conjugation.html')
-write('flashcards/old-english/finite-conjugation.html', 
+print('flashcards/germanic/swedish/finite-conjugation.html')
+write('flashcards/germanic/swedish/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -413,8 +413,8 @@ write('flashcards/old-english/finite-conjugation.html',
     ))
 
 """
-print('flashcards/old-english/participle-declension.html')
-write('flashcards/old-english/participle-declension.html', 
+print('flashcards/germanic/swedish/participle-declension.html')
+write('flashcards/germanic/swedish/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -436,8 +436,8 @@ write('flashcards/old-english/participle-declension.html',
     ))
 """
 
-print('flashcards/old-english/adpositions.html')
-write('flashcards/old-english/adpositions.html', 
+print('flashcards/germanic/swedish/adpositions.html')
+write('flashcards/germanic/swedish/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -457,8 +457,8 @@ write('flashcards/old-english/adpositions.html',
         },
     ))
 
-print('flashcards/old-english/common-noun-declension.html')
-write('flashcards/old-english/common-noun-declension.html',
+print('flashcards/germanic/swedish/common-noun-declension.html')
+write('flashcards/germanic/swedish/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -474,8 +474,8 @@ write('flashcards/old-english/common-noun-declension.html',
         },
     ))
 
-print('flashcards/old-english/pronoun-declension.html')
-write('flashcards/old-english/pronoun-declension.html', 
+print('flashcards/germanic/swedish/pronoun-declension.html')
+write('flashcards/germanic/swedish/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -491,8 +491,8 @@ write('flashcards/old-english/pronoun-declension.html',
         },
     ))
 
-print('flashcards/old-english/adjective-agreement.html')
-write('flashcards/old-english/adjective-agreement.html', 
+print('flashcards/germanic/swedish/adjective-agreement.html')
+write('flashcards/germanic/swedish/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -511,8 +511,8 @@ write('flashcards/old-english/adjective-agreement.html',
         },
     ))
 
-print('flashcards/old-english/pronoun-possessives.html')
-write('flashcards/old-english/pronoun-possessives.html', 
+print('flashcards/germanic/swedish/pronoun-possessives.html')
+write('flashcards/germanic/swedish/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
