@@ -422,6 +422,15 @@ possessor_pronoun_traversal = label_editing.termpath(
         '''), 
     'possessor')
 
+adjective_roles = parse.termmask(
+    'adjective_roles', 
+    'role subjectivity',
+    '''
+    stimulus subject
+    stimulus direct-object
+    '''
+)
+
 #useful for debugging
 def head(store):
     print(str(store)[:3000])
@@ -536,7 +545,8 @@ write('flashcards/spanish/adjective-agreement.html',
              * declension_noun_traversal
              * axis['degree']
              * axis['adjective'])
-            & noun_template_whitelist) 
+            & noun_template_whitelist
+            & adjective_roles) 
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine tuteo'),
