@@ -395,17 +395,18 @@ possessor_possession_whitelist = parse.tokenmask(
 possessor_pronoun_traversal = label_editing.termpath(
     parse.tokenpath(
         'possessor_pronoun_traversal', 
-        'noun person number gender',
+        'noun person number gender formality',
         '''
-        man    1 singular masculine   
-        woman  2 singular feminine 
-        man    3 singular masculine
-        woman  3 singular feminine 
-        snake  3 singular masculine   
-        man    1 plural   masculine   
-        woman  2 plural   feminine 
-        man    3 plural   masculine
-        woman  3 plural   feminine 
+        man    1 singular masculine informal
+        woman  2 singular feminine  informal
+        woman  2 singular feminine  formal
+        man    3 singular masculine informal
+        woman  3 singular feminine  informal
+        snake  3 singular masculine informal
+        man    1 plural   masculine informal
+        woman  2 plural   feminine  informal
+        man    3 plural   masculine informal
+        woman  3 plural   feminine  informal
         '''), 
     'possessor')
 
