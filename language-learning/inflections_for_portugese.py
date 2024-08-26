@@ -416,8 +416,7 @@ agreement_roles = parse.termmask(
     '''
     stimulus subject
     stimulus direct-object
-    '''
-)
+    ''')
 
 #useful for debugging
 def head(store):
