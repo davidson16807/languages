@@ -97,11 +97,13 @@ class RowMajorWikiTableHtml:
 				for x in range(lx)
 				for z in range(lz)]
 	def parse(self, soup):
-		language_section = soup.find('span', id=self.language_id)
+		header = lambda level_id: [f'h{i}' for i in range(level_id,7)]
+		language_section = soup.find(header(1), id=self.language_id)
 		if language_section:
-			part_of_speech_section = language_section.find_next('span', text=self.part_of_speech_text)
+			level_id = int(language_section.name.replace('h',''))
+			part_of_speech_section = language_section.find_next(header(level_id+1), text=self.part_of_speech_text)
 			if part_of_speech_section:
-				for section in part_of_speech_section.find_all_next('span', text=self.table_texts):
+				for section in part_of_speech_section.find_all_next(header(level_id+2), text=self.table_texts):
 					for i in range(self.table_count):
 						section2 = section.find_next('table')
 						if not section2:
@@ -134,16 +136,20 @@ class GenderWikiHtml:
 		self.part_of_speech_text = part_of_speech_text
 		self.language_id = language_id
 	def parse(self, soup):
-		language_section =  soup.find('span', id=self.language_id)
-		part_of_speech_section = soup.find_next('span', text=self.part_of_speech_text)
-		gender_sections = language_section.find_all_next('span', class_='gender')
-		if gender_sections:
-			for gender in (gender_sections[0].text
-								.replace('n','neuter')
-								.replace('m','masculine')
-								.replace('f','feminine')
-								.split(' or ')):
-				yield [gender]
+		header = lambda level_id: [f'h{i}' for i in range(level_id,7)]
+		language_section = soup.find(header(1), id=self.language_id)
+		if language_section:
+			level_id = int(language_section.name.replace('h',''))
+			part_of_speech_section = language_section.find_next(header(level_id+1), text=self.part_of_speech_text)
+			if part_of_speech_section:
+				gender_sections = language_section.find_all_next('span', class_='gender')
+				if gender_sections:
+					for gender in (gender_sections[0].text
+										.replace('n','neuter')
+										.replace('m','masculine')
+										.replace('f','feminine')
+										.split(' or ')):
+						yield [gender]
 
 
 class Caching:
@@ -164,6 +170,125 @@ scraping = TableScraping(ops)
 parsing = TokenParsing()
 caching = Caching(parsing)
 formatting = RowMajorTableText('\t','\n')
+
+write('data/inflection/indo-european/romance/romanian/modern/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Romanian', 'ro'), 
+			caching.crawl('''
+				appear    https://en.wiktionary.org/wiki/p%C4%83rea#Romanian
+				be        https://en.wiktionary.org/wiki/fi#Romanian
+				be-inherently  https://en.wiktionary.org/wiki/fi#Romanian
+				be-momentarily https://en.wiktionary.org/wiki/fi#Romanian
+				change    https://en.wiktionary.org/wiki/schimba#Romanian
+				climb     https://en.wiktionary.org/wiki/urca#Romanian
+				crawl     https://en.wiktionary.org/wiki/t%C3%A2r%C3%AE#Romanian
+				cool      https://en.wiktionary.org/wiki/r%C4%83ci#Romanian
+				direct    https://en.wiktionary.org/wiki/conduce#Romanian
+				displease https://en.wiktionary.org/wiki/tulbura#Romanian
+				eat       https://en.wiktionary.org/wiki/m%C3%A2nca#Romanian
+				endure    https://en.wiktionary.org/wiki/%C3%AEndura#Romanian
+				fall      https://en.wiktionary.org/wiki/c%C4%83dea#Romanian
+				fly       https://en.wiktionary.org/wiki/zbura#Romanian
+				flow      https://en.wiktionary.org/wiki/curge#Romanian
+				hear      https://en.wiktionary.org/wiki/auzi#Romanian
+				#occupy    
+				resemble  https://en.wiktionary.org/wiki/sem%C4%83na#Romanian
+				#rest      
+				see       https://en.wiktionary.org/wiki/vedea#Romanian
+				show      https://en.wiktionary.org/wiki/ar%C4%83ta#Romanian
+				#startle   
+				swim      https://en.wiktionary.org/wiki/%C3%AEnota#Romanian
+				walk      https://en.wiktionary.org/wiki/merge#Romanian
+				warm      https://en.wiktionary.org/wiki/%C3%AEnc%C4%83lzi#Romanian
+				watch     https://en.wiktionary.org/wiki/privi#Romanian
+				work      https://en.wiktionary.org/wiki/face#Romanian
+
+				# irregular
+				have       https://en.wiktionary.org/wiki/avea#Romanian
+				want       https://en.wiktionary.org/wiki/vrea#Romanian
+				sit        https://en.wiktionary.org/wiki/sta#Romanian
+				give       https://en.wiktionary.org/wiki/da#Romanian
+				throw      https://en.wiktionary.org/wiki/azv%C3%A2rli#Romanian
+				take       https://en.wiktionary.org/wiki/lua#Romanian
+				drink      https://en.wiktionary.org/wiki/bea#Romanian
+				know       https://en.wiktionary.org/wiki/%C8%99ti#Romanian
+				dry        https://en.wiktionary.org/wiki/usca#Romanian
+				continue   https://en.wiktionary.org/wiki/continua#Romanian
+				#eat        
+				#come-late https://en.wiktionary.org/wiki/%C3%AEnt%C3%A2rzia#Romanian
+
+				# regular
+				sing      https://en.wiktionary.org/wiki/c%C3%A2nta#Romanian
+				sleep     https://en.wiktionary.org/wiki/dormi#Romanian
+				offer     https://en.wiktionary.org/wiki/oferi#Romanian
+				choose    https://en.wiktionary.org/wiki/alege#Romanian
+				know      https://en.wiktionary.org/wiki/%C8%99ti#Romanian
+			''')
+		)
+	)
+)
+
+
+noun_html = caching.crawl('''
+	animal     https://en.wiktionary.org/wiki/animal#Romanian
+	attention  https://en.wiktionary.org/wiki/aten%C8%9Bie#Romanian
+	bird       https://en.wiktionary.org/wiki/pas%C4%83re#Romanian
+	boat       https://en.wiktionary.org/wiki/barc%C4%83#Romanian
+	book       https://en.wiktionary.org/wiki/carte#Romanian
+	brother    https://en.wiktionary.org/wiki/frate#Romanian
+	bug        https://en.wiktionary.org/wiki/insect%C4%83#Romanian
+	clothing   https://en.wiktionary.org/wiki/%C3%AEmbr%C4%83c%C4%83minte#Romanian
+	daughter   https://en.wiktionary.org/wiki/fiic%C4%83#Romanian
+	dog        https://en.wiktionary.org/wiki/c%C3%A2ine#Romanian
+	door       https://en.wiktionary.org/wiki/u%C8%99%C4%83#Romanian
+	drum       https://en.wiktionary.org/wiki/tob%C4%83#Romanian
+	enemy      https://en.wiktionary.org/wiki/du%C8%99man#Romanian
+	fire       https://en.wiktionary.org/wiki/foc#Romanian
+	food       https://en.wiktionary.org/wiki/aliment#Romanian
+	gift       https://en.wiktionary.org/wiki/cadou#Romanian
+	glass      https://en.wiktionary.org/wiki/sticl%C4%83#Romanian
+	guard      https://en.wiktionary.org/wiki/gard%C4%83#Romanian
+	horse      https://en.wiktionary.org/wiki/cal#Romanian
+	house      https://en.wiktionary.org/wiki/cas%C4%83#Romanian
+	livestock  https://en.wiktionary.org/wiki/%C8%99eptel#Romanian
+	love       https://en.wiktionary.org/wiki/iubire#Romanian
+	idea       https://en.wiktionary.org/wiki/idee#Romanian
+	man        https://en.wiktionary.org/wiki/b%C4%83rbat#Romanian
+	money      https://en.wiktionary.org/wiki/ban#Romanian
+	monster    https://en.wiktionary.org/wiki/monstru#Romanian
+	name       https://en.wiktionary.org/wiki/nume#Romanian
+	rock       https://en.wiktionary.org/wiki/stan%C4%83#Romanian
+	rope       https://en.wiktionary.org/wiki/fr%C3%A2nghie#Romanian
+	size       https://en.wiktionary.org/wiki/m%C4%83rime#Romanian
+	sister     https://en.wiktionary.org/wiki/sor%C4%83#Romanian
+	son        https://en.wiktionary.org/wiki/fiu#Romanian
+	sound      https://en.wiktionary.org/wiki/sunet#Romanian
+	warmth     https://en.wiktionary.org/wiki/c%C4%83ldur%C4%83#Romanian
+	water      https://en.wiktionary.org/wiki/ap%C4%83#Romanian
+	way        https://en.wiktionary.org/wiki/cale#Romanian
+	wind       https://en.wiktionary.org/wiki/v%C3%A2nt#Romanian
+	window     https://en.wiktionary.org/wiki/fereastr%C4%83#Romanian
+	woman      https://en.wiktionary.org/wiki/femeie#Romanian
+	work       https://en.wiktionary.org/wiki/munc%C4%83#Romanian
+''')
+
+print('ROMANIAN')
+write('data/inflection/indo-european/romance/romanian/modern/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Romanian'), noun_html)
+	)
+)
+
+print('ROMANIAN')
+write('data/inflection/indo-european/romance/romanian/modern/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Romanian', 'ro'), 
+			noun_html
+		)
+	)
+)
+
+raise 'done'
 
 write('data/inflection/indo-european/romance/portugese/modern/scraped-verbs.tsv',
 	formatting.format(
@@ -401,8 +526,6 @@ write('data/inflection/indo-european/greek/attic/scraped-nouns.tsv',
 		scraping.scrape(GreekRowMajorWikiTableHtml(ops), noun_html)
 	)
 )
-
-raise 'done'
 
 
 noun_html = caching.crawl('''

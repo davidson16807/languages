@@ -1,0 +1,68 @@
+*	*	*	*	case	preposition	postposition	#	
+#	subjectivity	motion	role				#	latin
+	subject			nominative	∅	∅	#	
+	addressee			vocative	∅	∅	#	
+	direct-object			accusative	∅	∅	#	
+	indirect-object			dative	∅	∅	#	
+	adnominal			dative	∅	∅	#	
+	adverbial	departed	agent	accusative	de	∅	#	
+	adverbial	associated	agent	accusative	de	∅	#	
+	adverbial	acquired	agent	accusative	de	∅	#	
+	adverbial	leveraged	agent	accusative	de	∅	#	
+	adverbial	departed	force	accusative	de	∅	#	
+	adverbial	associated	force	accusative	de	∅	#	
+	adverbial	acquired	force	accusative	de	∅	#	
+	adverbial	leveraged	force	accusative	de	∅	#	
+	adverbial	departed	location	accusative	de	∅	#	
+	adverbial	associated	location	accusative	la	∅	#	
+	adverbial	approached	location	accusative	spre	∅	#	
+	adverbial	acquired	location	accusative	pentru	∅	#	
+	adverbial	leveraged	location	accusative	❕	∅	#	
+#	adverbial	departed	extent	accusative	❕	∅	#	
+#	adverbial	associated	extent	accusative	pe lângă	∅	#	
+#	adverbial	acquired	extent	accusative	❕	∅	#	
+#	adverbial	leveraged	extent	accusative	❕	∅	#	
+#	adverbial	departed	vicinity	accusative	❕	∅	#	
+#	adverbial	associated	vicinity	accusative	lângă	∅	#	
+#	adverbial	acquired	vicinity	accusative	❕	∅	#	
+#	adverbial	leveraged	vicinity	accusative	❕	∅	#	
+	adverbial	departed	interior	accusative	afară	∅	#	
+	adverbial	associated	interior	accusative	în	∅	#	
+	adverbial	acquired	interior	accusative	în	∅	#	
+	adverbial	leveraged	interior	accusative	prin	∅	#	
+	adverbial	departed	surface	accusative	❕	∅	#	
+	adverbial	associated	surface	accusative	pe	∅	#	
+	adverbial	acquired	surface	accusative	❕	∅	#	
+	adverbial	leveraged	surface	accusative	peste	∅	#	
+	adverbial	departed	subsurface	accusative	❕	∅	#	
+	adverbial	associated	subsurface	accusative	sub	∅	#	
+	adverbial	acquired	subsurface	accusative	❕	∅	#	
+	adverbial	leveraged	subsurface	accusative	❕	∅	#	
+#	adverbial	departed	presence	accusative	❕	∅	#	
+	adverbial	associated	presence	accusative	❕	∅	#	
+#	adverbial	acquired	presence	accusative	❕	∅	#	
+#	adverbial	leveraged	presence	accusative	❕	∅	#	
+#	adverbial	departed	aid	accusative	cu	∅	#	
+	adverbial	associated	aid	accusative	cu	∅	#	
+#	adverbial	acquired	aid	accusative	cu	∅	#	
+#	adverbial	leveraged	aid	accusative	cu	∅	#	
+#	adverbial	departed	lack	accusative	fără	∅	#	
+	adverbial	associated	lack	accusative	fără	∅	#	
+#	adverbial	acquired	lack	accusative	fără	∅	#	
+#	adverbial	leveraged	lack	accusative	fără	∅	#	
+	adverbial	departed	interest	accusative	❕	∅	#	
+	adverbial	associated	interest	accusative	pentru	∅	#	
+	adverbial	acquired	interest	accusative	❕	∅	#	
+	adverbial	leveraged	interest	accusative	por	∅	#	
+	adverbial	departed	time	accusative	după	∅	#	
+	adverbial	associated	time	accusative	în timpul	∅	#	
+	adverbial	acquired	time	accusative	înainte	∅	#	
+#	adverbial	leveraged	time	accusative		∅	#	
+#	adverbial	departed	topic	accusative	❕	∅	#	
+#	adverbial	associated	topic	accusative	despre	∅	#	
+#	adverbial	acquired	topic	accusative	❕	∅	#	
+#	adverbial	leveraged	topic	accusative	❕	∅	#	
+	adverbial	departed	company	accusative	❕	∅	#	along with
+	adverbial	associated	company	accusative	con	∅	#	along with
+	adverbial	acquired	company	accusative	❕	∅	#	along with
+	adverbial	leveraged	company	accusative	❕	∅	#	along with

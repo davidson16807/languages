@@ -54,7 +54,7 @@ def definiteness(machine, tree, memory):
     else:
         return tree
 
-class WesternRomanceRuleSyntax(RuleSyntax):
+class ModernRomanceRuleSyntax(RuleSyntax):
     def __init__(self, sentence_structure, noun_phrase_structure):
         super().__init__(sentence_structure, noun_phrase_structure)
     def order_clause(self, treemap, clause):
@@ -135,7 +135,7 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/adjective-agreements.tsv')),
             ])),
     ),
-    WesternRomanceRuleSyntax(
+    ModernRomanceRuleSyntax(
         'subject personal-indirect-object personal-direct-object verb common-direct-object common-indirect-object adverbial'.split(), 
         parse_any.tokens('stock-adposition det adj n np clause')
     ),
@@ -389,8 +389,7 @@ possessor_possession_whitelist = parse.tokenmask(
     man-possessor    sister
     woman-possessor  brother
     woman-possessor  sister
-    '''
-)
+    ''')
 
 possessor_pronoun_traversal = label_editing.termpath(
     parse.tokenpath(

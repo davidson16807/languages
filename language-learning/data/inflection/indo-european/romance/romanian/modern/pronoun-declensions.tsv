@@ -1,0 +1,18 @@
+*	*		*	*	nominative	accusative	dative	#	*	accusative	dative	reflexive	reflexive	reflexive	reflexive
+#*	*		*	*		stressed	stressed	#	*	unstressed	unstressed	stressed	unstressed	stressed	unstressed
+	personal		1	singular	eu	mine	mie	#		mă	îmi	mine	mă	mie	îmi
+	personal		1	plural	noi	noi	nouă	#		ne	ne	noi	ne	nouă	ne
+	personal		2	singular	tu	tine	ție	#	informal	te	îți 	tine 	te 	ție 	îți
+	personal		2	plural	voi	voi 	vouă 	#	informal	vă	vă	voi 	vă 	vouă 	vă
+#	personal		2	singular	dumneata			#	semi-polite						
+#	personal		2	plural	dumneavoastră 			#	semi-polite						
+#	personal		2	singular	dumneavoastră			#	polite						
+#	personal		2	plural	dumneavoastră 			#	polite						
+	personal	masculine	3	singular	el	el 	lui 	#		îl	îi	sine 	se 	sie or sieși 	își
+	personal	masculine	3	plural	ei	ei 	lor 	#		îi	le	sine 	se 	sieși 	își
+	personal	feminine	3	singular	ea	ea 	ei 	#		o	îi	sine 	se 	sieși 	își
+	personal	feminine	3	plural	ele	ele 	lor 	#		le	le	sine 	se 	sieși 	își 
+#	personal		3	singular	dumnealui			#	masculine						
+#	personal		3	plural	dumnealor 			#	masculine						
+#	personal		3	singular	dumneaei 			#	feminine						
+#	personal		3	plural	dumnealor 			#	feminine						

@@ -385,7 +385,7 @@ declension_template_lookups = DictLookup(
     DictKeyIndexing('noun-form'), 
     {
         'common': parse_any.tokenfield('common', 
-            'noun number gender animacy partitivity degree strength case script', ''),
+            'noun number gender animacy definiteness partitivity degree strength case script', ''),
         'personal': parse_any.termfield('personal', 
             'person number gender clusivity formality case clitic script', ''),
         'common-possessive': parse_any.tokenfield('common-possessive', 
@@ -845,6 +845,8 @@ class EnglishListSubstitution:
         nounform = memory['noun-form']
         if definiteness == 'definite' and subjectivity != 'addressee' and nounform != 'personal': 
             return [['det','the'], tree]
+        if definiteness == 'indefinite' and subjectivity != 'addressee' and nounform != 'personal': 
+            return [['det','a'], tree]
         else:
             return tree
     def number(self, machine, tree, memory):

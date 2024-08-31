@@ -1,0 +1,122 @@
+*	*	singular	singular	plural	plural
+*	*	indefinite	definite	indefinite	definite
+animal	nominative	(un) animal	animalul	(niște) animale	animalele
+animal	genitive	(unui) animal	animalului	(unor) animale	animalelor
+animal	vocative	animalule	animalule	animalelor	animalelor
+attention	nominative	(o) atenție	atenția	(niște) atenții	atențiile
+attention	genitive	(unei) atenții	atenției	(unor) atenții	atențiilor
+attention	vocative	atenție, atențio	atenție, atențio	atențiilor	atențiilor
+bird	nominative	(o) pasăre	pasărea	(niște) păsări	păsările
+bird	genitive	(unei) păsări	păsării	(unor) păsări	păsărilor
+bird	vocative	pasăre, pasăreo	pasăre, pasăreo	păsărilor	păsărilor
+boat	nominative	(o) barcă	barca	(niște) bărci	bărcile
+boat	genitive	(unei) bărci	bărcii	(unor) bărci	bărcilor
+boat	vocative	barcă, barco	barcă, barco	bărcilor	bărcilor
+book	nominative	(o) carte	cartea	(niște) cărți	cărțile
+book	genitive	(unei) cărți	cărții	(unor) cărți	cărților
+book	vocative	carte, carteo	carte, carteo	cărților	cărților
+brother	nominative	(un) frate	fratele	(niște) frați	frații
+brother	genitive	(unui) frate	fratelui	(unor) frați	fraților
+brother	vocative	frate	frate	fraților	fraților
+bug	nominative	(o) insectă	insecta	(niște) insecte	insectele
+bug	genitive	(unei) insecte	insectei	(unor) insecte	insectelor
+bug	vocative	insectă, insecto	insectă, insecto	insectelor	insectelor
+clothing	nominative	(o) îmbrăcăminte	îmbrăcămintea	(niște) îmbrăcăminți	îmbrăcămințile
+clothing	genitive	(unei) îmbrăcăminți	îmbrăcăminții	(unor) îmbrăcăminți	îmbrăcăminților
+clothing	vocative	—	—	—	—
+daughter	nominative	(o) fiică	fiica	(niște) fiice	fiicele
+daughter	genitive	(unei) fiice	fiicei	(unor) fiice	fiicelor
+daughter	vocative	fiică, fiico	fiică, fiico	fiicelor	fiicelor
+dog	nominative	(un) câine	câinele	(niște) câini	câinii
+dog	genitive	(unui) câine	câinelui	(unor) câini	câinilor
+dog	vocative	câine	câine	câinilor	câinilor
+door	nominative	(o) ușă	ușa	(niște) uși	ușile
+door	genitive	(unei) uși	ușii	(unor) uși	ușilor
+door	vocative	ușă, ușo	ușă, ușo	ușilor	ușilor
+drum	nominative	(o) tobă	toba	(niște) tobe	tobele
+drum	genitive	(unei) tobe	tobei	(unor) tobe	tobelor
+drum	vocative	—	—	—	—
+enemy	nominative	(un) dușman	dușmanul	(niște) dușmani	dușmanii
+enemy	genitive	(unui) dușman	dușmanului	(unor) dușmani	dușmanilor
+enemy	vocative	dușmanule	dușmanule	dușmanilor	dușmanilor
+fire	nominative	(un) foc	focul	(niște) focuri	focurile
+fire	genitive	(unui) foc	focului	(unor) focuri	focurilor
+fire	vocative	focule	focule	focurilor	focurilor
+food	nominative	(un) aliment	alimentul	(niște) alimente	alimentele
+food	genitive	(unui) aliment	alimentului	(unor) alimente	alimentelor
+food	vocative	alimentule	alimentule	alimentelor	alimentelor
+gift	nominative	(un) cadou	cadoul	(niște) cadouri	cadourile
+gift	genitive	(unui) cadou	cadoului	(unor) cadouri	cadourilor
+gift	vocative	cadoule	cadoule	cadourilor	cadourilor
+glass	nominative	(o) sticlă	sticla	(niște) sticle	sticlele
+glass	genitive	(unei) sticle	sticlei	(unor) sticle	sticlelor
+glass	vocative	sticlă, sticlo	sticlă, sticlo	sticlelor	sticlelor
+guard	nominative	(o) gardă	garda	(niște) gărzi	gărzile
+guard	genitive	(unei) gărzi	gărzii	(unor) gărzi	gărzilor
+guard	vocative	gardă, gardo	gardă, gardo	gărzilor	gărzilor
+horse	nominative	(un) cal	calul	(niște) cai	caii
+horse	genitive	(unui) cal	calului	(unor) cai	cailor
+horse	vocative	calule	calule	cailor	cailor
+house	nominative	(o) casă	casa	(niște) case	casele
+house	genitive	(unei) case	casei	(unor) case	caselor
+house	vocative	casă, caso	casă, caso	caselor	caselor
+livestock	nominative	(un) șeptel	șeptelul	(niște) șepteluri	șeptelurile
+livestock	genitive	(unui) șeptel	șeptelului	(unor) șepteluri	șeptelurilor
+livestock	vocative	șeptelule	șeptelule	șeptelurilor	șeptelurilor
+love	nominative	(o) iubire	iubirea	(niște) iubiri	iubirile
+love	genitive	(unei) iubiri	iubirii	(unor) iubiri	iubirilor
+love	vocative	iubire, iubireo	iubire, iubireo	iubirilor	iubirilor
+idea	nominative	(o) idee	ideea	(niște) idei	ideile
+idea	genitive	(unei) idei	ideii	(unor) idei	ideilor
+idea	vocative	idee, ideeo	idee, ideeo	ideilor	ideilor
+man	nominative	(un) bărbat	bărbatul	(niște) bărbați	bărbații
+man	genitive	(unui) bărbat	bărbatului	(unor) bărbați	bărbaților
+man	vocative	bărbatule, bărbate	bărbatule, bărbate	bărbaților	bărbaților
+money	nominative	(un) ban	banul	(niște) bani	banii
+money	genitive	(unui) ban	banului	(unor) bani	banilor
+money	vocative	banule	banule	banilor	banilor
+monster	nominative	(un) monstru	monstrul	(niște) monștri	monștrii
+monster	genitive	(unui) monstru	monstrului	(unor) monștri	monștrilor
+monster	vocative	monstrule	monstrule	monștrilor	monștrilor
+name	nominative	(un) nume	numele	(niște) nume	numele
+name	genitive	(unui) nume	numelui	(unor) nume	numelor
+name	vocative	nume	nume	numelor	numelor
+rock	nominative	(o) stană	stana	(niște) stane	stanele
+rock	genitive	(unei) stane	stanei	(unor) stane	stanelor
+rock	vocative	stană, stano	stană, stano	stanelor	stanelor
+rope	nominative	(o) frânghie	frânghia	(niște) frânghii	frânghiile
+rope	genitive	(unei) frânghii	frânghiei	(unor) frânghii	frânghiilor
+rope	vocative	frânghie, frânghio	frânghie, frânghio	frânghiilor	frânghiilor
+size	nominative	(o) mărime	mărimea	(niște) mărimi	mărimile
+size	genitive	(unei) mărimi	mărimii	(unor) mărimi	mărimilor
+size	vocative	mărime, mărimeo	mărime, mărimeo	mărimilor	mărimilor
+sister	nominative	(o) soră	sora	(niște) surori	surorile
+sister	genitive	(unei) surori	surorii	(unor) surori	surorilor
+sister	vocative	—	—	—	—
+son	nominative	(un) fiu	fiul	(niște) fii	fiii
+son	genitive	(unui) fiu	fiului	(unor) fii	fiilor
+son	vocative	fiule	fiule	fiilor	fiilor
+sound	nominative	(un) sunet	sunetul	(niște) sunete	sunetele
+sound	genitive	(unui) sunet	sunetului	(unor) sunete	sunetelor
+sound	vocative	sunetule	sunetule	sunetelor	sunetelor
+warmth	nominative	(o) căldură	căldura	(niște) călduri	căldurile
+warmth	genitive	(unei) călduri	căldurii	(unor) călduri	căldurilor
+warmth	vocative	căldură, călduro	căldură, călduro	căldurilor	căldurilor
+water	nominative	(o) apă	apa	(niște) ape	apele
+water	genitive	(unei) ape	apei	(unor) ape	apelor
+water	vocative	apă, apo	apă, apo	apelor	apelor
+way	nominative	(o) cale	calea	(niște) căi	căile
+way	genitive	(unei) căi	căii	(unor) căi	căilor
+way	vocative	cale, caleo	cale, caleo	căilor	căilor
+wind	nominative	(un) vânt	vântul	(niște) vânturi	vânturile
+wind	genitive	(unui) vânt	vântului	(unor) vânturi	vânturilor
+wind	vocative	vântule	vântule	vânturilor	vânturilor
+window	nominative	(o) fereastră	fereastra	(niște) ferestre	ferestrele
+window	genitive	(unei) ferestre	ferestrei	(unor) ferestre	ferestrelor
+window	vocative	fereastră, fereastro	fereastră, fereastro	ferestrelor	ferestrelor
+woman	nominative	(o) femeie	femeia	(niște) femei	femeile
+woman	genitive	(unei) femei	femeii	(unor) femei	femeilor
+woman	vocative	femeie, femeio	femeie, femeio	femeilor	femeilor
+work	nominative	(o) muncă	munca	(niște) munci	muncile
+work	genitive	(unei) munci	muncii	(unor) munci	muncilor
+work	vocative	muncă, munco	muncă, munco	muncilor	muncilor
