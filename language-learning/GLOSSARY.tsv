@@ -1,34 +1,60 @@
-	-	-eme	-axes
-phone	"An indivisible unit of sound capable creating distinction in meaning in any attested natural language. It is a product of ""features"": manner, place, voicing, etc."	an equivalence class of phones that represents an indivisible unit of sound capable of creating distinction in a given language	disjoint sets of phonemes whose product defines a parameter space of syllables (i.e. consonant, vowel, etc.)
-morph	An indivisible unit of sound capable of conveying meaning in any attested natural language. It is a product of phonemes.	an equivalence class of morphs that represents an indivisible unit of sound capable of conveying distinct meaning in a given language	disjoint sets of morphs whose product defines larger grammatical constructions (e.g. suffix, prefix, noun, verb, etc.)
-seme	An indivisible unit of meaning that fully describes the meaning of any morpheme in any attested natural language. It is a product of episemes.	an equivalence class of semes that represents an indivisible unit of intended meaning that can be conveyed by a morpheme in a given language	disjoint sets of semes whose product defines larger constructs of meaning (e.g. suffix, prefix, noun, verb, etc.)
-tag	An indivisible unit of distinction between any set of morphemes or their arrangement in any attested natural language.	an equivalence class of tags that represents an indivisible unit of selection or between any set of morphemes or their arrangement in a given language	disjoint sets of tags whose product with other tagaxes defines a parameter space of morphemes (e.g. number, gender, tense, aspect, etc.)
-episeme	An indivisible unit of meaning that can be conveyed with a tagmeme of a given language.	an equivalence class of episemes that represents an indivisible unit of meaning that can be conveyed with a tagmeme of a given language	disjoint sets of episemes whose product with other tagaxes defines a parameter space of semes (e.g. number, gender, tense, aspect, etc.)
-			
-dict*	anything relating to the storage of python dictionaries		
-text*	"a string of characters (the label ""text"" is chosen for brevity)"		
-token*	a text composed entirely of nonwhitespace characters		
-term*	a predefined token		
-tag*	a set of intended meanings that are associated with a single term		
-sem(e)*	an intended meaning		
-			
-*indexing	a method of representing dictionaries in a store		
-*store	a collection of any kind		
-*list	a store that allows traversal but forbids tests of membership in the interest of performance		
-*set	a store that forbids traversal but allows tests of membership		
-*axis	"a set of disjoint sets, effectively a ""bundle"" as understood in mathematics, but whose name is more suggestive for our purpose"		
-*space	a cartesian product of axes		
-*mask	a subset of a space		
-*point	an element within a space		
-*path	a sequence of points within a space		
-*map	a store that represents a function mapping between subsets of spaces		
-			
-*whitelist	a mask that specifies elements that are included in a store		
-*blacklist	a mask that specifies elements that are excluded in a store		
-*traversal	a path that specifies the order in which inflections are to be demonstrated		
-			
-script	an inventory of characters		
-language	a function that, when given a script, maps meaning to text		
-orthography	a tuple of language and script		
-demonstration	the representation of a seme in a given orthography		
-card	a card that presented to the user in Anki, which consists of a series of demonstrations for the same seme		
+	
+function	a python function, or (more generally) any implementation of a mathematical function
+operation	as per Stepanov (2009), any function that maps to and from objects of the same type
+	
+text	"a string of characters (the label ""text"" is chosen for brevity)"
+token	a text composed entirely of nonwhitespace characters
+term	an indivisible unit that is associated with a predefined token, such as a phone, morph, seme, tag, etc.
+facet	an indivisible unit of articulation that can be combined with others to create a phone, such as voicing, manner of articulation, etc.
+phone	"an indivisible unit of sound capable creating distinction in meaning in any attested natural language. it is a product of ""features"": manner, place, voicing, etc."
+morph	an indivisible unit of sound capable of conveying meaning in any attested natural language. it is a product of phonemes.
+seme	an indivisible unit of meaning that fully describes the meaning of any morpheme in any attested natural language. it is a product of episemes.
+tag	an indivisible unit of distinction between any set of morphemes or their arrangement in any attested natural language.
+episeme	an indivisible unit of meaning that is mutually exclusive to other members in a episemaxis
+	
+*eme	an indivisible unit within the context of a specific language, such as a phoneme, morpheme, etc.
+*axis	a set of sets containing terms
+*space	a cartesian product of axes
+*mask	a subset of a space
+*point	an element within a space
+*path	a sequence of points within a space
+*field	an operation between spaces
+	
+dict/dictionary	a python dictionary
+list	a python list
+	
+*store	a representation of a collection of any kind in memory, including spaces, masks, paths, sets, fields, etc.
+*series	any store that allows traversal but forbids tests of membership in the interest of performance
+*set	any store that forbids traversal but allows tests of membership
+*lookup	any store that represents a function
+*tree	a store of nested series
+*node	a member of a tree
+	
+*whitelist	a mask that specifies elements that are included in a store
+*blacklist	a mask that specifies elements that are excluded in a store
+*traversal	a path that specifies the order in which inflections are to be demonstrated
+	
+*indexing	a technique for representing and iterating through dictionaries, typically in a dictset or dictspace
+*annotations	a technique for interpreting cells within a table as dictionaries
+*evaluations	a technique for interpreting annotations as the contents of stores
+*population	a technique for creating new stores given annotations an evaluations
+	
+context-free grammar	a context-free grammar as understood in the theory of computation
+rule	a representation of a rule in a context-free grammar
+	
+listtree	a tree where nodes are lists or strings
+ruletree	a tree where nodes are rules
+syntax tree	a listtree that represents meaning in a language agnostic fashion that's standardized across this body of work
+	
+nodemap	a function that, when given a context, maps between nodes of a tree
+treemap	an operation that maps between trees
+	
+semantics	a language-specific series of fields that map an episemespace to tags
+grammar	a language-specific a series of fields that map tagspace to text representing inflection
+syntax	a language-specific operator mapping ruletrees
+	
+script	an inventory of characters
+language	a function that, when given a script, maps a syntax tree to text
+orthography	a tuple of language and script
+demonstration	the representation of a seme in a given orthography
+card	a Anki card, which consists of a series of demonstrations that each represent the same seme
