@@ -68,7 +68,7 @@ def EmojiDemonstration(
                         tags['number'],
                         ('i' if 'clusivity' in tags and tags['clusivity']=='inclusive' else ''),
                     ]), 
-                tags['gender'][0], 
+                tags['gender'][0] if tags['gender'][0] in 'mfn' else 'n', 
                 self.persons[int(tags['person'])-1].color if 'personal' in tags['noun-form'] else '4'
             )
             persons = [

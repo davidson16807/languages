@@ -1,191 +1,245 @@
 *	*	*	active	active	passive	passive													
 *	*	*	present	past	present	past													
-appear	infinitive		framträda	framträda	—	—	#	indicative plural is archaic											
-appear	supine		framträtt	framträtt	—	—	#	subjunctive is dated											
+#appear	infinitive		framträda	framträda	—	—	#	indicative plural is archaic											
+#appear	supine		framträtt	framträtt	—	—	#	subjunctive is dated											
 appear	imperative	singular	framträd	framträd	—	—													
 appear	imperative	plural	framträden	framträden	—	—													
 appear	indicative	singular	framträder	framträdde	—	—													
 appear	indicative	plural	framträda	framträdde	—	—													
 appear	subjunctive		framträde	framträdde	—	—													
-appear	participle	present	framträdande	framträdande	framträdande	framträdande													
-appear	participle	past	framträdd	framträdd	framträdd	framträdd													
-be-inherently	infinitive		vara	vara	—	—													
-be-inherently	supine		varit	varit	—	—													
+#appear	participle	present	framträdande	framträdande	framträdande	framträdande													
+#appear	participle	past	framträdd	framträdd	framträdd	framträdd													
+#be-inherently	infinitive		vara	vara	—	—													
+#be-inherently	supine		varit	varit	—	—													
 be-inherently	imperative	singular	var	var	—	—													
 be-inherently	imperative	plural	varen	varen	—	—													
 be-inherently	indicative	singular	är	var	—	—													
 be-inherently	indicative	plural	äro	voro	—	—													
 be-inherently	subjunctive		vare	vore	—	—													
-be-inherently	participle	present	varande	varande	varande	varande													
-be-inherently	participle	past	—	—	—	—													
-be-inherently	infinitive		vara	vara	—	—													
-be-inherently	supine		varat	varat	—	—													
-be-inherently	imperative	singular	vara	vara	—	—													
-be-inherently	imperative	plural	varen	varen	—	—													
-be-inherently	indicative	singular	varar	varade	—	—													
-be-inherently	indicative	plural	vara	varade	—	—													
-be-inherently	subjunctive		vare	varade	—	—													
-be-inherently	participle	present	varande	varande	varande	varande													
-be-inherently	participle	past	—	—	—	—													
-be-inherently	infinitive		vara	vara	varas	varas													
-be-inherently	supine		varat	varat	varats	varats													
-be-inherently	imperative	singular	vara	vara	—	—													
-be-inherently	imperative	plural	varen	varen	—	—													
-be-inherently	indicative	singular	varar	varade	varas	varades													
-be-inherently	indicative	plural	vara	varade	varas	varades													
-be-inherently	subjunctive		vare	varade	vares	varades													
-be-inherently	participle	present	varande	varande	varande	varande													
-be-inherently	participle	past	—	—	—	—													
-change	infinitive		ändra	ändra	ändras	ändras													
-change	supine		ändrat	ändrat	ändrats	ändrats													
+#be-inherently	participle	present	varande	varande	varande	varande													
+#be-inherently	participle	past	—	—	—	—													
+#be-momentarily	infinitive		vara	vara	—	—													
+#be-momentarily	supine		varat	varat	—	—													
+be-momentarily	imperative	singular	vara	vara	—	—													
+be-momentarily	imperative	plural	varen	varen	—	—													
+be-momentarily	indicative	singular	varar	varade	—	—													
+be-momentarily	indicative	plural	vara	varade	—	—													
+be-momentarily	subjunctive		vare	varade	—	—													
+#be-momentarily	participle	present	varande	varande	varande	varande													
+#be-momentarily	participle	past	—	—	—	—													
+#be	infinitive		vara	vara	varas	varas													
+#be	supine		varat	varat	varats	varats													
+be	imperative	singular	vara	vara	—	—													
+be	imperative	plural	varen	varen	—	—													
+be	indicative	singular	varar	varade	varas	varades													
+be	indicative	plural	vara	varade	varas	varades													
+be	subjunctive		vare	varade	vares	varades													
+#be	participle	present	varande	varande	varande	varande													
+#be	participle	past	—	—	—	—													
+#change	infinitive		ändra	ändra	ändras	ändras													
+#change	supine		ändrat	ändrat	ändrats	ändrats													
 change	imperative	singular	ändra	ändra	—	—													
 change	imperative	plural	ändren	ändren	—	—													
 change	indicative	singular	ändrar	ändrade	ändras	ändrades													
 change	indicative	plural	ändra	ändrade	ändras	ändrades													
 change	subjunctive		ändre	ändrade	ändres	ändrades													
-change	participle	present	ändrande	ändrande	ändrande	ändrande													
-change	participle	past	ändrad	ändrad	ändrad	ändrad													
-climb	infinitive		klättra	klättra	klättras	klättras													
-climb	supine		klättrat	klättrat	klättrats	klättrats													
+#change	participle	present	ändrande	ändrande	ändrande	ändrande													
+#change	participle	past	ändrad	ändrad	ändrad	ändrad													
+#climb	infinitive		klättra	klättra	klättras	klättras													
+#climb	supine		klättrat	klättrat	klättrats	klättrats													
 climb	imperative	singular	klättra	klättra	—	—													
 climb	imperative	plural	klättren	klättren	—	—													
 climb	indicative	singular	klättrar	klättrade	klättras	klättrades													
 climb	indicative	plural	klättra	klättrade	klättras	klättrades													
 climb	subjunctive		klättre	klättrade	klättres	klättrades													
-climb	participle	present	klättrande	klättrande	klättrande	klättrande													
-climb	participle	past	—	—	—	—													
-cool	infinitive		kyla	kyla	kylas	kylas													
-cool	supine		kylt	kylt	kylts	kylts													
+#climb	participle	present	klättrande	klättrande	klättrande	klättrande													
+#climb	participle	past	—	—	—	—													
+#cool	infinitive		kyla	kyla	kylas	kylas													
+#cool	supine		kylt	kylt	kylts	kylts													
 cool	imperative	singular	kyl	kyl	—	—													
 cool	imperative	plural	kylen	kylen	—	—													
 cool	indicative	singular	kyler	kylde	kyls, kyles	kyldes													
 cool	indicative	plural	kyla	kylde	kylas	kyldes													
 cool	subjunctive		kyle	kylde	kyles	kyldes													
-cool	participle	present	kylande	kylande	kylande	kylande													
-cool	participle	past	kyld	kyld	kyld	kyld													
-direct	infinitive		leda	leda	ledas	ledas													
-direct	supine		lett	lett	letts	letts													
+#cool	participle	present	kylande	kylande	kylande	kylande													
+#cool	participle	past	kyld	kyld	kyld	kyld													
+#direct	infinitive		leda	leda	ledas	ledas													
+#direct	supine		lett	lett	letts	letts													
 direct	imperative	singular	led	led	—	—													
 direct	imperative	plural	leden	leden	—	—													
 direct	indicative	singular	leder	ledde	leds, ledes	leddes													
 direct	indicative	plural	leda	ledde	ledas	leddes													
 direct	subjunctive		lede	ledde	ledes	leddes													
-direct	participle	present	ledande	ledande	ledande	ledande													
-direct	participle	past	ledd	ledd	ledd	ledd													
-eat	infinitive		äta	äta	ätas	ätas													
-eat	supine		ätit	ätit	ätits	ätits													
+#direct	participle	present	ledande	ledande	ledande	ledande													
+#direct	participle	past	ledd	ledd	ledd	ledd													
+#eat	infinitive		äta	äta	ätas	ätas													
+#eat	supine		ätit	ätit	ätits	ätits													
 eat	imperative	singular	ät	ät	—	—													
 eat	imperative	plural	äten	äten	—	—													
 eat	indicative	singular	äter	åt	äts, ätes	åts													
 eat	indicative	plural	äta	åto	ätas	åtos													
 eat	subjunctive		äte	åte	ätes	åtes													
-eat	participle	present	ätande	ätande	ätande	ätande													
-eat	participle	past	äten	äten	äten	äten													
-endure	infinitive		utstå	utstå	utstås	utstås													
-endure	supine		utstått	utstått	utståtts	utståtts													
+#eat	participle	present	ätande	ätande	ätande	ätande													
+#eat	participle	past	äten	äten	äten	äten													
+#endure	infinitive		utstå	utstå	utstås	utstås													
+#endure	supine		utstått	utstått	utståtts	utståtts													
 endure	imperative	singular	utstå	utstå	—	—													
 endure	imperative	plural	utstån	utstån	—	—													
 endure	indicative	singular	utstår	utstod	utstås	utstods													
 endure	indicative	plural	utstå	utstodo	utstås	utstodos													
 endure	subjunctive		utstå	utstode	utstås	utstodes													
-endure	participle	present	utstående	utstående	utstående	utstående													
-endure	participle	past	utstånden	utstånden	utstånden	utstånden													
-fall	infinitive		falla	falla	—	—													
-fall	supine		fallit	fallit	—	—													
+#endure	participle	present	utstående	utstående	utstående	utstående													
+#endure	participle	past	utstånden	utstånden	utstånden	utstånden													
+#fall	infinitive		falla	falla	—	—													
+#fall	supine		fallit	fallit	—	—													
 fall	imperative	singular	fall	fall	—	—													
 fall	imperative	plural	fallen	fallen	—	—													
 fall	indicative	singular	faller	föll	—	—													
 fall	indicative	plural	falla	föllo	—	—													
 fall	subjunctive		falle	fölle	—	—													
-fall	participle	present	fallande	fallande	fallande	fallande													
-fall	participle	past	fallen	fallen	fallen	fallen													
-fly	infinitive		flyga	flyga	flygas	flygas													
-fly	supine		flugit	flugit	flugits	flugits													
+#fall	participle	present	fallande	fallande	fallande	fallande													
+#fall	participle	past	fallen	fallen	fallen	fallen													
+#fly	infinitive		flyga	flyga	flygas	flygas													
+#fly	supine		flugit	flugit	flugits	flugits													
 fly	imperative	singular	flyg	flyg	—	—													
 fly	imperative	plural	flygen	flygen	—	—													
 fly	indicative	singular	flyger	flög	flygs, flyges	flögs													
 fly	indicative	plural	flyga	flögo	flygas	flögos													
 fly	subjunctive		flyge	flöge	flyges	flöges													
-fly	participle	present	flygande	flygande	flygande	flygande													
-fly	participle	past	flugen	flugen	flugen	flugen													
-hear	infinitive		höra	höra	höras	höras													
-hear	supine		hört	hört	hörts	hörts													
+#fly	participle	present	flygande	flygande	flygande	flygande													
+#fly	participle	past	flugen	flugen	flugen	flugen													
+#hear	infinitive		höra	höra	höras	höras													
+#hear	supine		hört	hört	hörts	hörts													
 hear	imperative	singular	hör	hör	—	—													
 hear	imperative	plural	hören	hören	—	—													
 hear	indicative	singular	hör	hörde	hörs, höres	hördes													
 hear	indicative	plural	höra	hörde	höras	hördes													
 hear	subjunctive		höre	hörde	höres	hördes													
-hear	participle	present	hörande	hörande	hörande	hörande													
-hear	participle	past	hörd	hörd	hörd	hörd													
-occupy	infinitive		uppta	uppta	upptas	upptas													
-occupy	supine		upptagit	upptagit	upptagits	upptagits													
+#hear	participle	present	hörande	hörande	hörande	hörande													
+#hear	participle	past	hörd	hörd	hörd	hörd													
+#occupy	infinitive		uppta	uppta	upptas	upptas													
+#occupy	supine		upptagit	upptagit	upptagits	upptagits													
 occupy	imperative	singular	uppta	uppta	—	—													
 occupy	imperative	plural	upptan	upptan	—	—													
 occupy	indicative	singular	upptar	upptog	upptas	upptogs													
 occupy	indicative	plural	uppta	upptogo	upptas	upptogos													
 occupy	subjunctive		uppta	upptoge	upptas	upptoges													
-occupy	participle	present	upptagande	upptagande	upptagande	upptagande													
-occupy	participle	past	upptagen	upptagen	upptagen	upptagen													
-resemble	infinitive		likna	likna	liknas	liknas													
-resemble	supine		liknat	liknat	liknats	liknats													
+#occupy	participle	present	upptagande	upptagande	upptagande	upptagande													
+#occupy	participle	past	upptagen	upptagen	upptagen	upptagen													
+#resemble	infinitive		likna	likna	liknas	liknas													
+#resemble	supine		liknat	liknat	liknats	liknats													
 resemble	imperative	singular	likna	likna	—	—													
 resemble	imperative	plural	liknen	liknen	—	—													
 resemble	indicative	singular	liknar	liknade	liknas	liknades													
 resemble	indicative	plural	likna	liknade	liknas	liknades													
 resemble	subjunctive		likne	liknade	liknes	liknades													
-resemble	participle	present	liknande	liknande	liknande	liknande													
-resemble	participle	past	liknad	liknad	liknad	liknad													
-see	infinitive		se	se	ses	ses													
-see	supine		sett	sett	setts	setts													
+#resemble	participle	present	liknande	liknande	liknande	liknande													
+#resemble	participle	past	liknad	liknad	liknad	liknad													
+#see	infinitive		se	se	ses	ses													
+#see	supine		sett	sett	setts	setts													
 see	imperative	singular	se	se	—	—													
 see	imperative	plural	sen	sen	—	—													
 see	indicative	singular	ser	såg	ses	sågs													
 see	indicative	plural	se	sågo	ses	sågos													
 see	subjunctive		se	såge	ses	såges													
-see	participle	present	seende	seende	seende	seende													
-see	participle	past	sedd	sedd	sedd	sedd													
-show	infinitive		visa	visa	visas	visas													
-show	supine		visat	visat	visats	visats													
+#see	participle	present	seende	seende	seende	seende													
+#see	participle	past	sedd	sedd	sedd	sedd													
+#show	infinitive		visa	visa	visas	visas													
+#show	supine		visat	visat	visats	visats													
 show	imperative	singular	visa	visa	—	—													
 show	imperative	plural	visen	visen	—	—													
 show	indicative	singular	visar	visade	visas	visades													
 show	indicative	plural	visa	visade	visas	visades													
 show	subjunctive		vise	visade	vises	visades													
-show	participle	present	visande	visande	visande	visande													
-show	participle	past	visad	visad	visad	visad													
-swim	infinitive		simma	simma	simmas	simmas													
-swim	supine		simmat	simmat	simmats	simmats													
+#show	participle	present	visande	visande	visande	visande													
+#show	participle	past	visad	visad	visad	visad													
+#swim	infinitive		simma	simma	simmas	simmas													
+#swim	supine		simmat	simmat	simmats	simmats													
 swim	imperative	singular	simma	simma	—	—													
 swim	imperative	plural	simmen	simmen	—	—													
 swim	indicative	singular	simmar	simmade	simmas	simmades													
 swim	indicative	plural	simma	simmade	simmas	simmades													
 swim	subjunctive		simme	simmade	simmes	simmades													
-swim	participle	present	simmande	simmande	simmande	simmande													
-swim	participle	past	simmad	simmad	simmad	simmad													
-walk	infinitive		gå	gå	gås	gås													
-walk	supine		gått	gått	gåtts	gåtts													
+#swim	participle	present	simmande	simmande	simmande	simmande													
+#swim	participle	past	simmad	simmad	simmad	simmad													
+#walk	infinitive		gå	gå	gås	gås													
+#walk	supine		gått	gått	gåtts	gåtts													
 walk	imperative	singular	gå, gack	gå, gack	—	—													
 walk	imperative	plural	gån	gån	—	—													
 walk	indicative	singular	går	gick	gås	gicks													
 walk	indicative	plural	gå	gingo	gås	gingos													
 walk	subjunctive		gå, gånge	ginge	gås, gånges	ginges													
-walk	participle	present	gående	gående	gående	gående													
-walk	participle	past	gången	gången	gången	gången													
-warm	infinitive		värma	värma	värmas	värmas													
-warm	supine		värmt	värmt	värmts	värmts													
+#walk	participle	present	gående	gående	gående	gående													
+#walk	participle	past	gången	gången	gången	gången													
+#warm	infinitive		värma	värma	värmas	värmas													
+#warm	supine		värmt	värmt	värmts	värmts													
 warm	imperative	singular	värm	värm	—	—													
 warm	imperative	plural	värmen	värmen	—	—													
 warm	indicative	singular	värmer	värmde	värms, värmes	värmdes													
 warm	indicative	plural	värma	värmde	värmas	värmdes													
 warm	subjunctive		värme	värmde	värmes	värmdes													
-warm	participle	present	värmande	värmande	värmande	värmande													
-warm	participle	past	värmd	värmd	värmd	värmd													
-work	infinitive		arbeta	arbeta	arbetas	arbetas													
-work	supine		arbetat	arbetat	arbetats	arbetats													
+#warm	participle	present	värmande	värmande	värmande	värmande													
+#warm	participle	past	värmd	värmd	värmd	värmd													
+#work	infinitive		arbeta	arbeta	arbetas	arbetas													
+#work	supine		arbetat	arbetat	arbetats	arbetats													
 work	imperative	singular	arbeta	arbeta	—	—													
 work	imperative	plural	arbeten	arbeten	—	—													
 work	indicative	singular	arbetar	arbetade	arbetas	arbetades													
 work	indicative	plural	arbeta	arbetade	arbetas	arbetades													
 work	subjunctive		arbete	arbetade	arbetes	arbetades													
-work	participle	present	arbetande	arbetande	arbetande	arbetande													
-work	participle	past	arbetad	arbetad	arbetad	arbetad													
+#work	participle	present	arbetande	arbetande	arbetande	arbetande													
+#work	participle	past	arbetad	arbetad	arbetad	arbetad													
+#go	infinitive		gå	gå	gås	gås													
+#go	supine		gått	gått	gåtts	gåtts													
+go	imperative	singular	gå, gack	gå, gack	—	—													
+go	imperative	plural	gån	gån	—	—													
+go	indicative	singular	går	gick	gås	gicks													
+go	indicative	plural	gå	gingo	gås	gingos													
+go	subjunctive		gå, gånge	ginge	gås, gånges	ginges													
+#go	participle	present	gående	gående	gående	gående													
+#go	participle	past	gången	gången	gången	gången													
+#call	infinitive		kalla	kalla	kallas	kallas													
+#call	supine		kallat	kallat	kallats	kallats													
+call	imperative	singular	kalla	kalla	—	—													
+call	imperative	plural	kallen	kallen	—	—													
+call	indicative	singular	kallar	kallade	kallas	kallades													
+call	indicative	plural	kalla	kallade	kallas	kallades													
+call	subjunctive		kalle	kallade	kalles	kallades													
+#call	participle	present	kallande	kallande	kallande	kallande													
+#call	participle	past	kallad	kallad	kallad	kallad													
+#close	infinitive		stänga	stänga	stängas	stängas													
+#close	supine		stängt	stängt	stängts	stängts													
+close	imperative	singular	stäng	stäng	—	—													
+close	imperative	plural	stängen	stängen	—	—													
+close	indicative	singular	stänger	stängde	stängs, stänges	stängdes													
+close	indicative	plural	stänga	stängde	stängas	stängdes													
+close	subjunctive		stänge	stängde	stänges	stängdes													
+#close	participle	present	stängande	stängande	stängande	stängande													
+#close	participle	past	stängd	stängd	stängd	stängd													
+#read	infinitive		läsa	läsa	läsas	läsas													
+#read	supine		läst	läst	lästs	lästs													
+read	imperative	singular	läs	läs	—	—													
+read	imperative	plural	läsen	läsen	—	—													
+read	indicative	singular	läser	läste	läses	lästes													
+read	indicative	plural	läsa	läste	läsas	lästes													
+read	subjunctive		läse	läste	läses	lästes													
+#read	participle	present	läsande	läsande	läsande	läsande													
+#read	participle	past	läst	läst	läst	läst													
+#sew	infinitive		sy	sy	sys	sys													
+#sew	supine		sytt	sytt	sytts	sytts													
+sew	imperative	singular	sy	sy	—	—													
+sew	imperative	plural	syn	syn	—	—													
+sew	indicative	singular	syr	sydde	sys	syddes													
+sew	indicative	plural	sy	sydde	sys	syddes													
+sew	subjunctive		sy	sydde	sys	syddes													
+#sew	participle	present	syende	syende	syende	syende													
+#sew	participle	past	sydd	sydd	sydd	sydd													
+#strike	infinitive		stryka	stryka	strykas	strykas													
+#strike	supine		strukit	strukit	strukits	strukits													
+strike	imperative	singular	stryk	stryk	—	—													
+strike	imperative	plural	stryken	stryken	—	—													
+strike	indicative	singular	stryker	strök	stryks, strykes	ströks													
+strike	indicative	plural	stryka	ströko	strykas	strökos													
+strike	subjunctive		stryke	ströke	strykes	strökes													
+#strike	participle	present	strykande	strykande	strykande	strykande													
+#strike	participle	past	struken	struken	struken	struken													

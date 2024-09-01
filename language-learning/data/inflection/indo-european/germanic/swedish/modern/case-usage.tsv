@@ -1,104 +1,104 @@
 *	*	*	*	case	preposition	postposition	#	
 #	subjectivity	motion	role				#	proto-indo-european
 	subject			nominative	∅	∅	#	
-	addressee			nominative	∅	∅	#	
-	direct-object			nominative	∅	∅	#	
-	indirect-object			nominative	∅	∅	#	
+	addressee			oblique	∅	∅	#	
+	direct-object			oblique	∅	∅	#	
+	indirect-object			oblique	∅	∅	#	
 	adnominal			genitive	∅	∅	#	
-	adverbial	departed	agent	nominative	på	∅	#	
-	adverbial	associated	agent	nominative	på	∅	#	
-	adverbial	acquired	agent	nominative	på	∅	#	
-	adverbial	approached	agent	nominative	på	∅	#	
-	adverbial	surpassed	agent	nominative	på	∅	#	
-	adverbial	leveraged	agent	nominative	på	∅	#	
-	adverbial	departed	force	nominative	på	∅	#	
-	adverbial	associated	force	nominative	på	∅	#	
-	adverbial	acquired	force	nominative	på	∅	#	
-	adverbial	approached	force	nominative	på	∅	#	
-	adverbial	surpassed	force	nominative	på	∅	#	
-	adverbial	leveraged	force	nominative	på	∅	#	
-	adverbial		patient	nominative	❕	∅	#	
-	adverbial		theme	nominative	❕	∅	#	
-	adverbial		experiencer	nominative	❕	∅	#	
-	adverbial		stimulus	nominative	❕	∅	#	
-	adverbial		predicate	nominative	❕	∅	#	
-	adverbial		predicand	nominative	❕	∅	#	
-	adverbial	departed	location	nominative	från	∅	#	
-	adverbial	associated	location	nominative	vid	∅	#	
-	adverbial	acquired	location	nominative	till	∅	#	
-	adverbial	approached	location	nominative	mot	∅	#	
-	adverbial	surpassed	location	nominative	❕	∅	#	
-	adverbial	leveraged	location	nominative	genom	∅	#	
-	adverbial	departed	extent	nominative	❕	∅	#	
-	adverbial	associated	extent	nominative	❕	∅	#	
-	adverbial	acquired	extent	nominative	❕	∅	#	
-	adverbial	approached	extent	nominative	❕	∅	#	
-	adverbial	surpassed	extent	nominative	❕	∅	#	
-	adverbial	leveraged	extent	nominative	längs	∅	#	
-	adverbial	departed	vicinity	nominative	❕	∅	#	
-	adverbial	associated	vicinity	nominative	om	∅	#	
-	adverbial	acquired	vicinity	nominative	❕	∅	#	
-	adverbial	approached	vicinity	nominative	❕	∅	#	
-	adverbial	surpassed	vicinity	nominative	❕	∅	#	
-	adverbial	leveraged	vicinity	nominative	❕	∅	#	
-	adverbial	departed	interior	nominative	❕	∅	#	
-	adverbial	associated	interior	nominative	i	∅	#	
-	adverbial	acquired	interior	nominative	❕	∅	#	
-	adverbial	approached	interior	nominative	❕	∅	#	
-	adverbial	surpassed	interior	nominative	❕	∅	#	
-	adverbial	leveraged	interior	nominative	genom	∅	#	
-	adverbial	departed	surface	nominative	❕	∅	#	
-	adverbial	associated	surface	nominative	på	∅	#	
-	adverbial	acquired	surface	nominative	❕	∅	#	
-	adverbial	approached	surface	nominative	❕	∅	#	
-	adverbial	surpassed	surface	nominative	❕	∅	#	
-	adverbial	leveraged	surface	nominative	över	∅	#	
-	adverbial	departed	subsurface	nominative	❕	∅	#	
-	adverbial	associated	subsurface	nominative	under	∅	#	
-	adverbial	acquired	subsurface	nominative	❕	∅	#	
-	adverbial	approached	subsurface	nominative	❕	∅	#	
-	adverbial	surpassed	subsurface	nominative	❕	∅	#	
-	adverbial	leveraged	subsurface	nominative	❕	∅	#	
-	adverbial	departed	presence	nominative	❕	∅	#	
-	adverbial	associated	presence	nominative	❕	∅	#	
-	adverbial	acquired	presence	nominative	❕	∅	#	
-	adverbial	approached	presence	nominative	❕	∅	#	
-	adverbial	surpassed	presence	nominative	❕	∅	#	
-	adverbial	leveraged	presence	nominative	❕	∅	#	
-	adverbial	departed	aid	nominative	❕	∅	#	
-	adverbial	associated	aid	nominative	med	∅	#	
-	adverbial	acquired	aid	nominative	❕	∅	#	
-	adverbial	approached	aid	nominative	❕	∅	#	
-	adverbial	surpassed	aid	nominative	❕	∅	#	
-	adverbial	leveraged	aid	nominative	❕	∅	#	
-	adverbial	departed	lack	nominative	❕	∅	#	
-	adverbial	associated	lack	nominative	utan	∅	#	
-	adverbial	acquired	lack	nominative	❕	∅	#	
-	adverbial	approached	lack	nominative	❕	∅	#	
-	adverbial	surpassed	lack	nominative	❕	∅	#	
-	adverbial	leveraged	lack	nominative	❕	∅	#	
-	adverbial	departed	interest	nominative	❕	∅	#	
-	adverbial	associated	interest	nominative	❕	∅	#	
-	adverbial	acquired	interest	nominative	❕	∅	#	
-	adverbial	approached	interest	nominative	❕	∅	#	
-	adverbial	surpassed	interest	nominative	❕	∅	#	
-	adverbial	leveraged	interest	nominative	❕	∅	#	
-	adverbial	departed	time	nominative	efter	∅	#	
-	adverbial	associated	time	nominative	❕	∅	#	
-	adverbial	acquired	time	nominative	❕	∅	#	
-	adverbial	approached	time	nominative	❕	∅	#	
-	adverbial	surpassed	time	nominative	❕	∅	#	
-	adverbial	leveraged	time	nominative	❕	∅	#	
-	adverbial	departed	topic	nominative	❕	∅	#	
-	adverbial	associated	topic	nominative	❕	∅	#	
-	adverbial	acquired	topic	nominative	❕	∅	#	
-	adverbial	approached	topic	nominative	❕	∅	#	
-	adverbial	surpassed	topic	nominative	❕	∅	#	
-	adverbial	leveraged	topic	nominative	❕	∅	#	
-	adverbial	associated	company	nominative	bland	∅	#	
-	adverbial	departed	topic	nominative	❕	∅	#	
-	adverbial	associated	topic	nominative	❕	∅	#	
-	adverbial	acquired	topic	nominative	❕	∅	#	
-	adverbial	approached	topic	nominative	❕	∅	#	
-	adverbial	surpassed	topic	nominative	❕	∅	#	
-	adverbial	leveraged	topic	nominative	❕	∅	#	
+	adverbial	departed	agent	oblique	på	∅	#	
+	adverbial	associated	agent	oblique	på	∅	#	
+	adverbial	acquired	agent	oblique	på	∅	#	
+	adverbial	approached	agent	oblique	på	∅	#	
+	adverbial	surpassed	agent	oblique	på	∅	#	
+	adverbial	leveraged	agent	oblique	på	∅	#	
+	adverbial	departed	force	oblique	på	∅	#	
+	adverbial	associated	force	oblique	på	∅	#	
+	adverbial	acquired	force	oblique	på	∅	#	
+	adverbial	approached	force	oblique	på	∅	#	
+	adverbial	surpassed	force	oblique	på	∅	#	
+	adverbial	leveraged	force	oblique	på	∅	#	
+	adverbial		patient	oblique	❕	∅	#	
+	adverbial		theme	oblique	❕	∅	#	
+	adverbial		experiencer	oblique	❕	∅	#	
+	adverbial		stimulus	oblique	❕	∅	#	
+	adverbial		predicate	oblique	❕	∅	#	
+	adverbial		predicand	oblique	❕	∅	#	
+	adverbial	departed	location	oblique	från	∅	#	
+	adverbial	associated	location	oblique	vid	∅	#	
+	adverbial	acquired	location	oblique	till	∅	#	
+	adverbial	approached	location	oblique	mot	∅	#	
+	adverbial	surpassed	location	oblique	❕	∅	#	
+	adverbial	leveraged	location	oblique	genom	∅	#	
+	adverbial	departed	extent	oblique	❕	∅	#	
+	adverbial	associated	extent	oblique	❕	∅	#	
+	adverbial	acquired	extent	oblique	❕	∅	#	
+	adverbial	approached	extent	oblique	❕	∅	#	
+	adverbial	surpassed	extent	oblique	❕	∅	#	
+	adverbial	leveraged	extent	oblique	längs	∅	#	
+	adverbial	departed	vicinity	oblique	❕	∅	#	
+	adverbial	associated	vicinity	oblique	vid	∅	#	
+	adverbial	acquired	vicinity	oblique	❕	∅	#	
+	adverbial	approached	vicinity	oblique	❕	∅	#	
+	adverbial	surpassed	vicinity	oblique	❕	∅	#	
+	adverbial	leveraged	vicinity	oblique	❕	∅	#	
+	adverbial	departed	interior	oblique	❕	∅	#	
+	adverbial	associated	interior	oblique	i	∅	#	
+	adverbial	acquired	interior	oblique	❕	∅	#	
+	adverbial	approached	interior	oblique	❕	∅	#	
+	adverbial	surpassed	interior	oblique	❕	∅	#	
+	adverbial	leveraged	interior	oblique	igenom	∅	#	
+	adverbial	departed	surface	oblique	❕	∅	#	
+	adverbial	associated	surface	oblique	på	∅	#	
+	adverbial	acquired	surface	oblique	❕	∅	#	
+	adverbial	approached	surface	oblique	❕	∅	#	
+	adverbial	surpassed	surface	oblique	❕	∅	#	
+	adverbial	leveraged	surface	oblique	över	∅	#	
+	adverbial	departed	subsurface	oblique	❕	∅	#	
+	adverbial	associated	subsurface	oblique	under	∅	#	
+	adverbial	acquired	subsurface	oblique	❕	∅	#	
+	adverbial	approached	subsurface	oblique	❕	∅	#	
+	adverbial	surpassed	subsurface	oblique	❕	∅	#	
+	adverbial	leveraged	subsurface	oblique	över	∅	#	
+	adverbial	departed	presence	oblique	❕	∅	#	
+	adverbial	associated	presence	oblique	❕	∅	#	
+	adverbial	acquired	presence	oblique	❕	∅	#	
+	adverbial	approached	presence	oblique	❕	∅	#	
+	adverbial	surpassed	presence	oblique	❕	∅	#	
+	adverbial	leveraged	presence	oblique	❕	∅	#	
+	adverbial	departed	aid	oblique	❕	∅	#	
+	adverbial	associated	aid	oblique	med	∅	#	
+	adverbial	acquired	aid	oblique	❕	∅	#	
+	adverbial	approached	aid	oblique	❕	∅	#	
+	adverbial	surpassed	aid	oblique	❕	∅	#	
+	adverbial	leveraged	aid	oblique	❕	∅	#	
+	adverbial	departed	lack	oblique	❕	∅	#	
+	adverbial	associated	lack	oblique	utan	∅	#	
+	adverbial	acquired	lack	oblique	❕	∅	#	
+	adverbial	approached	lack	oblique	❕	∅	#	
+	adverbial	surpassed	lack	oblique	❕	∅	#	
+	adverbial	leveraged	lack	oblique	❕	∅	#	
+	adverbial	departed	interest	oblique	❕	∅	#	
+	adverbial	associated	interest	oblique	❕	∅	#	
+	adverbial	acquired	interest	oblique	❕	∅	#	
+	adverbial	approached	interest	oblique	❕	∅	#	
+	adverbial	surpassed	interest	oblique	❕	∅	#	
+	adverbial	leveraged	interest	oblique	❕	∅	#	
+	adverbial	departed	time	oblique	efter	∅	#	
+	adverbial	associated	time	oblique	under	∅	#	
+	adverbial	acquired	time	oblique	före	∅	#	
+	adverbial	approached	time	oblique	❕	∅	#	
+	adverbial	surpassed	time	oblique	❕	∅	#	
+	adverbial	leveraged	time	oblique	❕	∅	#	
+	adverbial	departed	topic	oblique	❕	∅	#	
+	adverbial	associated	topic	oblique	❕	∅	#	
+	adverbial	acquired	topic	oblique	❕	∅	#	
+	adverbial	approached	topic	oblique	❕	∅	#	
+	adverbial	surpassed	topic	oblique	❕	∅	#	
+	adverbial	leveraged	topic	oblique	❕	∅	#	
+	adverbial	associated	company	oblique	bland	∅	#	
+	adverbial	departed	topic	oblique	❕	∅	#	
+	adverbial	associated	topic	oblique	❕	∅	#	
+	adverbial	acquired	topic	oblique	❕	∅	#	
+	adverbial	approached	topic	oblique	❕	∅	#	
+	adverbial	surpassed	topic	oblique	❕	∅	#	
+	adverbial	leveraged	topic	oblique	❕	∅	#	

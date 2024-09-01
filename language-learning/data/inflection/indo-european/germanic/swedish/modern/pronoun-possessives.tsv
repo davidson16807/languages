@@ -1,16 +1,15 @@
-*	*	*	*	possessive	possessive	possessive	possessive
-*	*	*	*	singular	singular	singular	plural
-*	*	*	*	masculine	feminine	neuter	
-personal	singular-possessor	1-possessor	          	min       	min       	mitt      	mina      
-personal	singular-possessor	2-possessor	          	din       	din       	ditt      	dina      
-personal	singular-possessor	3-possessor	masculine-possessor	hans      	hans      	hans      	hans      
-personal	singular-possessor	3-possessor	feminine-possessor	hennes    	hennes    	hennes    	hennes    
-personal	singular-possessor	3-possessor	neuter-possessor	hens      	hens      	hens      	hens      
-demonstrative	singular-possessor	3-possessor	masculine-possessor	dess      	dess      	dess      	dess      
-demonstrative	singular-possessor	3-possessor	feminine-possessor	dess      	dess      	dess      	dess      
-demonstrative	singular-possessor	3-possessor	neuter-possessor	dess      	dess      	dess      	dess      
-indefinite	singular-possessor	3-possessor		ens       	ens       	ens       	ens       
-personal	plural-possessor	1-possessor		vår       	vår       	vårt      	våra      
-personal	plural-possessor	2-possessor		er        	er        	ert       	era       
-personal	plural-possessor	3-possessor		deras     	deras     	deras     	deras     
-reflexive				sin       	sin       	sitt      	sina      
+*	*	*	*	singular	singular	singular	plural	#	*
+*	*	*	*	masculine	feminine	neuter		#	*
+	singular-possessor	1-possessor	          	min       	min       	mitt      	mina      	#	personal
+	singular-possessor	2-possessor	          	din       	din       	ditt      	dina      	#	personal
+	singular-possessor	3-possessor	masculine-possessor	hans      	hans      	hans      	hans      	#	personal
+	singular-possessor	3-possessor	feminine-possessor	hennes    	hennes    	hennes    	hennes    	#	personal
+	singular-possessor	3-possessor	neuter-possessor	hens      	hens      	hens      	hens      	#	personal
+#	singular-possessor	3-possessor	masculine-possessor	dess      	dess      	dess      	dess      	#	demonstrative
+#	singular-possessor	3-possessor	feminine-possessor	dess      	dess      	dess      	dess      	#	demonstrative
+#	singular-possessor	3-possessor	neuter-possessor	dess      	dess      	dess      	dess      	#	demonstrative
+#	singular-possessor	3-possessor		ens       	ens       	ens       	ens       	#	indefinite
+	plural-possessor	1-possessor		vår       	vår       	vårt      	våra      	#	personal
+	plural-possessor	2-possessor		er        	er        	ert       	era       	#	personal
+	plural-possessor	3-possessor		deras     	deras     	deras     	deras     	#	personal
+#				sin       	sin       	sitt      	sina      	#	reflexive

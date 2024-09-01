@@ -41,6 +41,20 @@ deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
 
+
+def definiteness(machine, tree, memory):
+    '''creates articles when necessary to express definiteness'''
+    definiteness = memory['definiteness'] if 'definiteness' in memory else 'indefinite'
+    subjectivity = memory['subjectivity']
+    number = memory['number']
+    nounform = memory['noun-form']
+    if definiteness == 'definite' and subjectivity != 'addressee' and nounform != 'personal' and 'adjective' in memory: 
+        return [['det','the'], tree]
+    if (definiteness, number) == ('indefinite', 'singular') and subjectivity != 'addressee' and nounform != 'personal': 
+        return [['det','a'], tree]
+    else:
+        return tree
+
 foreign_language = Language(
     ListSemantics(
         case_usage_population.index(
@@ -65,13 +79,13 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/common-noun-declensions.tsv')),
                 *pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/pronoun-declensions.tsv')),
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/pronoun-possessives.tsv')),
             ])),
         NestedDictLookup(
             declension_population.index([
-                # *common_noun_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/adjective-agreements.tsv')),
+                *possessive_pronoun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/pronoun-possessives.tsv')),
+                *common_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/adjective-agreements.tsv')),
             ])),
     ),
     RuleSyntax(
@@ -83,30 +97,29 @@ foreign_language = Language(
     list_tools,
     rule_tools,
     RuleFormatting(),
-    substitutions = []
+    substitutions = [
+        {'n': definiteness}, # needs annotations to simplify the definition of articles
+    ]
 )
-
 
 foreign_termaxis_to_terms = {
     **termaxis_to_terms,
     **parse_any.termaxis_to_terms('''
-        gender :  masculine feminine neuter
+        gender :  gendered neuter
         number :  singular plural
+        definiteness: definite indefinite
         motion :  approached acquired associated departed leveraged surpassed
         progress: atelic
         tense  :  present past
-        voice  :  active
+        voice  :  active passive
         mood   :  indicative subjunctive imperative
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
         subjectivity: subject addressee direct-object adnominal indirect-object adverbial
     '''),
     **parse_any.token_to_tokens('''
-        verb : be-momentarily be-inherently do go want 
-            steal share tame move love have live say think
-        noun : dog light house gift raid moon sun eye time English 
-            son hand person nut goose friend bystander 
-            brother sister lamb shoe piglet shadow meadow man
-        adjective: good tall black red green
+        verb : be go call close read sew strike
+        noun : girl rose dog mother evening enemy book bee eye animal man
+        adjective: green
     '''),
 }
 
@@ -197,12 +210,25 @@ conjugation_subject_traversal = parse.termpath(
     'conjugation_subject_traversal', 
     'person number gender',
     '''
-    1  singular neuter
-    2  singular feminine
-    3  singular masculine
-    1  plural   neuter
-    2  plural   feminine
-    3  plural   masculine
+    1  singular gendered
+    2  singular gendered
+    3  singular gendered
+    1  plural   gendered
+    2  plural   gendered
+    3  plural   gendered
+    ''')
+
+
+mood_tense_polarity_whitelist = parse.termmask(
+    'mood_tense_whitelist', 
+    'mood tense polarity',
+    '''
+    indicative   present affirmative
+    indicative   past    affirmative
+    subjunctive  present affirmative
+    subjunctive  past    affirmative
+    imperative   present affirmative
+    imperative   present negative
     ''')
 
 finite_tense_progress_traversal = parse.termpath(
@@ -217,15 +243,14 @@ pronoun_traversal = parse.tokenpath(
     'pronoun_traversal', 
     'noun person number gender',
     '''
-    man    1 singular neuter   
-    woman  2 singular feminine 
-    man    3 singular masculine
-    woman  3 singular feminine 
+    man    1 singular gendered
+    woman  2 singular gendered
+    man    3 singular gendered
+    woman  3 singular gendered
     snake  3 singular neuter   
-    man    1 plural   neuter   
-    woman  2 plural   feminine 
-    man    3 plural   masculine
-    woman  3 plural   feminine 
+    man    1 plural   gendered
+    woman  2 plural   gendered
+    man    3 plural   gendered
     man    3 plural   neuter   
     ''')
 
@@ -233,78 +258,60 @@ gender_agreement_traversal = parse.tokenpath(
     'gender_agreement_traversal', 
     'gender noun',
     '''
-    masculine  man   
-    feminine   woman 
-    neuter     animal
+    gendered  man   
+    neuter    animal
     ''')
 
 gender_noun_whitelist = parse.tokenmask(
     'gender_noun_whitelist', 
     'noun gender',
     '''
-    animal    neuter
-    attention masculine
-    attention neuter
-    bird      masculine
-    boat      masculine
-    book      feminine
-    brother   masculine
-    bug       masculine
+    animal  neuter
+    attention gendered
+    bird    gendered
+    boat    gendered
+    book    gendered
+    brother gendered
+    bug     neuter
     clothing  neuter
-    daughter  feminine
-    dog       masculine
-    door      feminine
-    enemy     masculine
-    fire      neuter
-    food      masculine
-    gift      feminine
-    glass     neuter
-    guard     masculine
-    horse     neuter
-    house     neuter
+    daughter  gendered
+    dog gendered
+    door    gendered
+    drum    gendered
+    enemy   gendered
+    fire    gendered
+    food    gendered
+    gift    gendered
+    glass   neuter
+    guard   gendered
+    horse   gendered
+    house   neuter
     livestock neuter
-    love      feminine
-    idea      masculine
-    idea      neuter
-    man       masculine
-    money     neuter
-    monster   masculine
-    name      masculine
-    rock      masculine
-    rope      masculine
-    size      feminine
-    son       masculine
-    sound     masculine
-    warmth    feminine
-    water     neuter
-    way       masculine
-    wind      masculine
-    window    feminine
-    woman     feminine
-    work      neuter
+    love    gendered
+    idea    gendered
+    man     gendered
+    monster neuter
+    name    neuter
+    rock    gendered
+    rope    neuter
+    size    gendered
+    son     gendered
+    sound   neuter
+    warmth  gendered
+    warmth  neuter
+    water   neuter
+    way     gendered
+    wind    gendered
+    window  neuter
+    woman   gendered
+    work    neuter
 
-    light     neuter
-    raid      feminine
-    moon      masculine
-    sun       feminine
-    eye       neuter
-    time      feminine
-    English   masculine
-    hand      feminine
-    person    masculine
-    nut       feminine
-    goose     feminine
-    friend    masculine
-    bystander masculine
-    father    masculine
-    mother    feminine
-    brother   masculine
-    sister    feminine
-    lamb      neuter
-    shoe      masculine
-    piglet    masculine
-    shadow    feminine
-    meadow    feminine
+    girl    gendered
+    rose    gendered
+    mother  gendered
+    evening gendered
+    bee     neuter
+    eye     neuter
     '''
 )
 
@@ -312,10 +319,8 @@ possession_traversal = parse.tokenpath(
     'possession_traversal', 
     'gender noun',
     '''
-    masculine  brother      
-    feminine   sister 
-    neuter     house
-    neuter     name     
+    gendered  brother      
+    neuter    house
     ''')
 
 possessor_possession_whitelist = parse.tokenmask(
@@ -323,13 +328,8 @@ possessor_possession_whitelist = parse.tokenmask(
     'possessor-noun noun',
     '''
     man-possessor    brother
-    man-possessor    sister
     man-possessor    house
-    woman-possessor  brother
-    woman-possessor  sister
-    woman-possessor  house
     snake-possessor  brother
-    snake-possessor  sister
     snake-possessor  name
     ''')
 
@@ -338,15 +338,13 @@ possessor_pronoun_traversal = label_editing.termpath(
         'possessor_pronoun_traversal', 
         'noun person number gender',
         '''
-        man    1 singular neuter   
-        woman  2 singular feminine 
-        man    3 singular masculine
-        woman  3 singular feminine 
+        man    1 singular gendered   
+        woman  2 singular gendered
+        man    3 singular gendered
         snake  3 singular neuter   
-        man    1 plural   neuter   
-        woman  2 plural   feminine 
-        man    3 plural   masculine
-        woman  3 plural   feminine 
+        man    1 plural   gendered   
+        woman  2 plural   gendered 
+        man    3 plural   gendered
         man    3 plural   neuter   
         '''), 
     'possessor')
@@ -355,14 +353,16 @@ possessor_pronoun_traversal = label_editing.termpath(
 def head(store, n=3000):
     print(str(store)[:n])
 
-tense_progress_mood_voice_verb_traversal = (
-    (((
+tense_progress_mood_voice_verb_traversal = ((
+    ((((
           axis['valency']
         * finite_tense_progress_traversal
-        * axis['mood'])
+        * axis['mood']
+        * axis['polarity'])
+        & mood_tense_polarity_whitelist)
         * axis['voice'])
         * axis['verb'])
-) * constant['subject'] 
+) * constant['subject'])
 
 conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
 
@@ -408,7 +408,7 @@ write('flashcards/germanic/swedish/finite-conjugation.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular gendered'),
         },
     ))
 
@@ -430,7 +430,7 @@ write('flashcards/germanic/swedish/participle-declension.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('common definite associated agent subject'),
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
             'participle' : parse.termaxis_to_term('common definite participle subject'),
         },
     ))
@@ -452,7 +452,7 @@ write('flashcards/germanic/swedish/adpositions.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
             'test'       : parse.termaxis_to_term('personal definite'),
         },
     ))
@@ -465,11 +465,11 @@ write('flashcards/germanic/swedish/common-noun-declension.html',
             substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
         ) for demonstration in demonstrations],
         defaults.override(
-            (declension_noun_traversal * axis['number'] * axis['noun'])
+            (declension_noun_traversal * axis['definiteness'] * axis['number'] * axis['noun'])
                 & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -486,7 +486,7 @@ write('flashcards/germanic/swedish/pronoun-declension.html',
             & noun_template_whitelist)
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
             'test'       : parse.termaxis_to_term(''),
         },
     ))
@@ -506,7 +506,7 @@ write('flashcards/germanic/swedish/adjective-agreement.html',
             & noun_template_whitelist) 
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -530,8 +530,8 @@ write('flashcards/germanic/swedish/pronoun-possessives.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('personal-possessive adefinite'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
+            'test'       : parse.termaxis_to_term('personal-possessive definite'),
         },
     ))
 

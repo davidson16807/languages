@@ -171,209 +171,106 @@ parsing = TokenParsing()
 caching = Caching(parsing)
 formatting = RowMajorTableText('\t','\n')
 
-write('data/inflection/indo-european/romance/romanian/modern/scraped-verbs.tsv',
+print('SWEDISH')
+write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
 	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Romanian', 'ro'), 
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Swedish', 'sv'), 
 			caching.crawl('''
-				appear    https://en.wiktionary.org/wiki/p%C4%83rea#Romanian
-				be        https://en.wiktionary.org/wiki/fi#Romanian
-				be-inherently  https://en.wiktionary.org/wiki/fi#Romanian
-				be-momentarily https://en.wiktionary.org/wiki/fi#Romanian
-				change    https://en.wiktionary.org/wiki/schimba#Romanian
-				climb     https://en.wiktionary.org/wiki/urca#Romanian
-				crawl     https://en.wiktionary.org/wiki/t%C3%A2r%C3%AE#Romanian
-				cool      https://en.wiktionary.org/wiki/r%C4%83ci#Romanian
-				direct    https://en.wiktionary.org/wiki/conduce#Romanian
-				displease https://en.wiktionary.org/wiki/tulbura#Romanian
-				eat       https://en.wiktionary.org/wiki/m%C3%A2nca#Romanian
-				endure    https://en.wiktionary.org/wiki/%C3%AEndura#Romanian
-				fall      https://en.wiktionary.org/wiki/c%C4%83dea#Romanian
-				fly       https://en.wiktionary.org/wiki/zbura#Romanian
-				flow      https://en.wiktionary.org/wiki/curge#Romanian
-				hear      https://en.wiktionary.org/wiki/auzi#Romanian
-				#occupy    
-				resemble  https://en.wiktionary.org/wiki/sem%C4%83na#Romanian
-				#rest      
-				see       https://en.wiktionary.org/wiki/vedea#Romanian
-				show      https://en.wiktionary.org/wiki/ar%C4%83ta#Romanian
-				#startle   
-				swim      https://en.wiktionary.org/wiki/%C3%AEnota#Romanian
-				walk      https://en.wiktionary.org/wiki/merge#Romanian
-				warm      https://en.wiktionary.org/wiki/%C3%AEnc%C4%83lzi#Romanian
-				watch     https://en.wiktionary.org/wiki/privi#Romanian
-				work      https://en.wiktionary.org/wiki/face#Romanian
+				appear    https://en.wiktionary.org/wiki/framtr%C3%A4da#Swedish
+				be-inherently  https://en.wiktionary.org/wiki/vara#Swedish
+				be-momentarily 
+				change    https://en.wiktionary.org/wiki/%C3%A4ndra#Swedish
+				climb     https://en.wiktionary.org/wiki/kl%C3%A4ttra#Swedish
+				crawl     
+				cool      https://en.wiktionary.org/wiki/kyla#Swedish
+				direct    https://en.wiktionary.org/wiki/leda#Swedish
+				displease 
+				eat       https://en.wiktionary.org/wiki/%C3%A4ta#Swedish
+				endure    https://en.wiktionary.org/wiki/utst%C3%A5#Swedish
+				fall      https://en.wiktionary.org/wiki/falla#Swedish
+				fly       https://en.wiktionary.org/wiki/flyga#Swedish
+				flow      
+				hear      https://en.wiktionary.org/wiki/h%C3%B6ra#Swedish
+				occupy    https://en.wiktionary.org/wiki/uppta#Swedish
+				resemble  https://en.wiktionary.org/wiki/likna#Swedish
+				rest      
+				see       https://en.wiktionary.org/wiki/se#Swedish
+				show      https://en.wiktionary.org/wiki/visa#Swedish
+				startle   https://en.wiktionary.org/wiki/spritta#Swedish
+				swim      https://en.wiktionary.org/wiki/simma#Swedish
+				walk      https://en.wiktionary.org/wiki/g%C3%A5#Swedish
+				warm      https://en.wiktionary.org/wiki/v%C3%A4rma#Swedish
+				watch     https://en.wiktionary.org/wiki/se_p%C3%A5#Swedish
+				work      https://en.wiktionary.org/wiki/arbeta#Swedish
 
-				# irregular
-				have       https://en.wiktionary.org/wiki/avea#Romanian
-				want       https://en.wiktionary.org/wiki/vrea#Romanian
-				sit        https://en.wiktionary.org/wiki/sta#Romanian
-				give       https://en.wiktionary.org/wiki/da#Romanian
-				throw      https://en.wiktionary.org/wiki/azv%C3%A2rli#Romanian
-				take       https://en.wiktionary.org/wiki/lua#Romanian
-				drink      https://en.wiktionary.org/wiki/bea#Romanian
-				know       https://en.wiktionary.org/wiki/%C8%99ti#Romanian
-				dry        https://en.wiktionary.org/wiki/usca#Romanian
-				continue   https://en.wiktionary.org/wiki/continua#Romanian
-				#eat        
-				#come-late https://en.wiktionary.org/wiki/%C3%AEnt%C3%A2rzia#Romanian
-
-				# regular
-				sing      https://en.wiktionary.org/wiki/c%C3%A2nta#Romanian
-				sleep     https://en.wiktionary.org/wiki/dormi#Romanian
-				offer     https://en.wiktionary.org/wiki/oferi#Romanian
-				choose    https://en.wiktionary.org/wiki/alege#Romanian
-				know      https://en.wiktionary.org/wiki/%C8%99ti#Romanian
+				#go        https://en.wiktionary.org/wiki/g%C3%A5#Swedish # same as "walk"
+                call      https://en.wiktionary.org/wiki/kalla#Swedish
+                close     https://en.wiktionary.org/wiki/st%C3%A4nga#Swedish
+                read      https://en.wiktionary.org/wiki/l%C3%A4sa#Swedish
+                sew       https://en.wiktionary.org/wiki/sy#Swedish
+                strike    https://en.wiktionary.org/wiki/stryka#Swedish
 			''')
 		)
 	)
 )
 
-
 noun_html = caching.crawl('''
-	animal     https://en.wiktionary.org/wiki/animal#Romanian
-	attention  https://en.wiktionary.org/wiki/aten%C8%9Bie#Romanian
-	bird       https://en.wiktionary.org/wiki/pas%C4%83re#Romanian
-	boat       https://en.wiktionary.org/wiki/barc%C4%83#Romanian
-	book       https://en.wiktionary.org/wiki/carte#Romanian
-	brother    https://en.wiktionary.org/wiki/frate#Romanian
-	bug        https://en.wiktionary.org/wiki/insect%C4%83#Romanian
-	clothing   https://en.wiktionary.org/wiki/%C3%AEmbr%C4%83c%C4%83minte#Romanian
-	daughter   https://en.wiktionary.org/wiki/fiic%C4%83#Romanian
-	dog        https://en.wiktionary.org/wiki/c%C3%A2ine#Romanian
-	door       https://en.wiktionary.org/wiki/u%C8%99%C4%83#Romanian
-	drum       https://en.wiktionary.org/wiki/tob%C4%83#Romanian
-	enemy      https://en.wiktionary.org/wiki/du%C8%99man#Romanian
-	fire       https://en.wiktionary.org/wiki/foc#Romanian
-	food       https://en.wiktionary.org/wiki/aliment#Romanian
-	gift       https://en.wiktionary.org/wiki/cadou#Romanian
-	glass      https://en.wiktionary.org/wiki/sticl%C4%83#Romanian
-	guard      https://en.wiktionary.org/wiki/gard%C4%83#Romanian
-	horse      https://en.wiktionary.org/wiki/cal#Romanian
-	house      https://en.wiktionary.org/wiki/cas%C4%83#Romanian
-	livestock  https://en.wiktionary.org/wiki/%C8%99eptel#Romanian
-	love       https://en.wiktionary.org/wiki/iubire#Romanian
-	idea       https://en.wiktionary.org/wiki/idee#Romanian
-	man        https://en.wiktionary.org/wiki/b%C4%83rbat#Romanian
-	money      https://en.wiktionary.org/wiki/ban#Romanian
-	monster    https://en.wiktionary.org/wiki/monstru#Romanian
-	name       https://en.wiktionary.org/wiki/nume#Romanian
-	rock       https://en.wiktionary.org/wiki/stan%C4%83#Romanian
-	rope       https://en.wiktionary.org/wiki/fr%C3%A2nghie#Romanian
-	size       https://en.wiktionary.org/wiki/m%C4%83rime#Romanian
-	sister     https://en.wiktionary.org/wiki/sor%C4%83#Romanian
-	son        https://en.wiktionary.org/wiki/fiu#Romanian
-	sound      https://en.wiktionary.org/wiki/sunet#Romanian
-	warmth     https://en.wiktionary.org/wiki/c%C4%83ldur%C4%83#Romanian
-	water      https://en.wiktionary.org/wiki/ap%C4%83#Romanian
-	way        https://en.wiktionary.org/wiki/cale#Romanian
-	wind       https://en.wiktionary.org/wiki/v%C3%A2nt#Romanian
-	window     https://en.wiktionary.org/wiki/fereastr%C4%83#Romanian
-	woman      https://en.wiktionary.org/wiki/femeie#Romanian
-	work       https://en.wiktionary.org/wiki/munc%C4%83#Romanian
+	animal    https://en.wiktionary.org/wiki/djur#Swedish
+	attention https://en.wiktionary.org/wiki/uppm%C3%A4rksamhet#Swedish
+	bird      https://en.wiktionary.org/wiki/f%C3%A5gel#Swedish
+	boat      https://en.wiktionary.org/wiki/b%C3%A5t#Swedish
+	book      https://en.wiktionary.org/wiki/bok#Swedish
+	brother   https://en.wiktionary.org/wiki/bror#Swedish
+	bug       https://en.wiktionary.org/wiki/kryp#Swedish
+	clothing  https://en.wiktionary.org/wiki/kl%C3%A4der#Swedish
+	daughter  https://en.wiktionary.org/wiki/dotter#Swedish
+	dog       https://en.wiktionary.org/wiki/hund#Swedish
+	door      https://en.wiktionary.org/wiki/d%C3%B6rr#Swedish
+	drum      https://en.wiktionary.org/wiki/trumma#Swedish
+	enemy     https://en.wiktionary.org/wiki/fiende#Swedish
+	fire      https://en.wiktionary.org/wiki/eld#Swedish
+	food      https://en.wiktionary.org/wiki/mat#Swedish
+	gift      https://en.wiktionary.org/wiki/g%C3%A5va#Swedish
+	glass     https://en.wiktionary.org/wiki/glas#Swedish
+	guard     https://en.wiktionary.org/wiki/vakt#Swedish
+	horse     https://en.wiktionary.org/wiki/h%C3%A4st#Swedish
+	house     https://en.wiktionary.org/wiki/hus#Swedish
+	livestock https://en.wiktionary.org/wiki/boskapsdjur#Swedish
+	love      https://en.wiktionary.org/wiki/k%C3%A4rlek#Swedish
+	idea      https://en.wiktionary.org/wiki/id%C3%A9#Swedish
+	man       https://en.wiktionary.org/wiki/man#Swedish
+	money     https://en.wiktionary.org/wiki/pengar#Swedish
+	monster   https://en.wiktionary.org/wiki/odjur#Swedish
+	name      https://en.wiktionary.org/wiki/namn#Swedish
+	rock      https://en.wiktionary.org/wiki/sten#Swedish
+	rope      https://en.wiktionary.org/wiki/rep#Swedish
+	size      https://en.wiktionary.org/wiki/storlek#Swedish
+	son       https://en.wiktionary.org/wiki/son#Swedish
+	sound     https://en.wiktionary.org/wiki/ljud#Swedish
+	warmth    https://en.wiktionary.org/wiki/v%C3%A4rme#Swedish
+	water     https://en.wiktionary.org/wiki/vatten#Swedish
+	way       https://en.wiktionary.org/wiki/v%C3%A4g#Swedish
+	wind      https://en.wiktionary.org/wiki/vind#Swedish
+	window    https://en.wiktionary.org/wiki/f%C3%B6nster#Swedish
+	woman     https://en.wiktionary.org/wiki/kvinna#Swedish
+	work      https://en.wiktionary.org/wiki/arbete#Swedish
 ''')
 
-print('ROMANIAN')
-write('data/inflection/indo-european/romance/romanian/modern/scraped-genders.tsv',
+write('data/inflection/indo-european/germanic/swedish/modern/scraped-genders.tsv',
 	formatting.format(
-		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Romanian'), noun_html)
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Swedish'), noun_html)
 	)
 )
 
-print('ROMANIAN')
-write('data/inflection/indo-european/romance/romanian/modern/scraped-nouns.tsv',
+write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
 	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Romanian', 'ro'), 
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Swedish', 'sv'), 
 			noun_html
 		)
 	)
 )
 
 raise 'done'
-
-write('data/inflection/indo-european/romance/portugese/modern/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Portuguese', 'pt'), 
-			caching.crawl('''
-				appear    https://en.wiktionary.org/wiki/aparecer#Portuguese
-				be-inherently  https://en.wiktionary.org/wiki/ser#Portuguese
-				be-momentarily https://en.wiktionary.org/wiki/estar#Portuguese
-				change    https://en.wiktionary.org/wiki/mudar#Portuguese
-				climb     https://en.wiktionary.org/wiki/subir#Portuguese
-				crawl     https://en.wiktionary.org/wiki/rastejar#Portuguese
-				cool      https://en.wiktionary.org/wiki/esfriar#Portuguese
-				direct    https://en.wiktionary.org/wiki/dirigir#Portuguese
-				displease https://en.wiktionary.org/wiki/perturbar#Portuguese
-				eat       https://en.wiktionary.org/wiki/comer#Portuguese
-				endure    https://en.wiktionary.org/wiki/aguentar#Portuguese
-				fall      https://en.wiktionary.org/wiki/cair#Portuguese
-				fly       https://en.wiktionary.org/wiki/voar#Portuguese
-				flow      https://en.wiktionary.org/wiki/fluir#Portuguese
-				hear      https://en.wiktionary.org/wiki/ouvir#Portuguese
-				occupy    https://en.wiktionary.org/wiki/ocupar#Portuguese
-				resemble  https://en.wiktionary.org/wiki/semelhar#Portuguese
-				rest      https://en.wiktionary.org/wiki/repousar#Portuguese
-				see       https://en.wiktionary.org/wiki/ver#Portuguese
-				show      https://en.wiktionary.org/wiki/mostrar#Portuguese
-				startle   https://en.wiktionary.org/wiki/assustar#Portuguese
-				swim      https://en.wiktionary.org/wiki/nadar#Portuguese
-				walk      https://en.wiktionary.org/wiki/andar#Portuguese
-				warm      https://en.wiktionary.org/wiki/aquecer#Portuguese
-				watch     https://en.wiktionary.org/wiki/ver#Portuguese
-				work      https://en.wiktionary.org/wiki/trabalhar#Portuguese
-
-				have      https://en.wiktionary.org/wiki/haver#Portuguese
-				possess   https://en.wiktionary.org/wiki/ter#Portuguese
-				go        https://en.wiktionary.org/wiki/ir#Portuguese
-				put       https://en.wiktionary.org/wiki/p%C3%B4r#Portuguese
-
-			''')
-		)
-	)
-)
-
-write('data/inflection/indo-european/romance/spanish/modern/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Spanish', 'es'), 
-			caching.crawl('''
-				appear    https://en.wiktionary.org/wiki/aparecer#Spanish
-				be-inherently  https://en.wiktionary.org/wiki/ser#Spanish
-				be-momentarily https://en.wiktionary.org/wiki/estar#Spanish
-				change    https://en.wiktionary.org/wiki/cambiar#Spanish
-				climb     https://en.wiktionary.org/wiki/escalar#Spanish
-				crawl     https://en.wiktionary.org/wiki/arrastrar#Spanish
-				cool      https://en.wiktionary.org/wiki/enfriar#Spanish
-				direct    https://en.wiktionary.org/wiki/guiar#Spanish
-				displease https://en.wiktionary.org/wiki/desazonar#Spanish
-				eat       https://en.wiktionary.org/wiki/comer#Spanish
-				endure    https://en.wiktionary.org/wiki/tolerar#Spanish
-				fall      https://en.wiktionary.org/wiki/caer#Spanish
-				fly       https://en.wiktionary.org/wiki/volar#Spanish
-				flow      https://en.wiktionary.org/wiki/fluir#Spanish
-				hear      https://en.wiktionary.org/wiki/o%C3%ADr#Spanish
-				occupy    https://en.wiktionary.org/wiki/ocupar#Spanish
-				resemble  https://en.wiktionary.org/wiki/semejar#Spanish
-				rest      https://en.wiktionary.org/wiki/reposar#Spanish
-				see       https://en.wiktionary.org/wiki/ver#Spanish
-				show      https://en.wiktionary.org/wiki/mostrar#Spanish
-				startle   https://en.wiktionary.org/wiki/atemorizar#Spanish # "frighten"
-				swim      https://en.wiktionary.org/wiki/nadar#Spanish
-				walk      https://en.wiktionary.org/wiki/caminar#Spanish
-				warm      https://en.wiktionary.org/wiki/calentar#Spanish
-				watch     https://en.wiktionary.org/wiki/mirar#Spanish
-				work      https://en.wiktionary.org/wiki/trabajar#Spanish
-
-				have      https://en.wiktionary.org/wiki/haber#Spanish
-				have-in-possession https://en.wiktionary.org/wiki/tener#Spanish
-				go        https://en.wiktionary.org/wiki/ir#Spanish
-				love      https://en.wiktionary.org/wiki/amar#Spanish
-				fear      https://en.wiktionary.org/wiki/temer#Spanish
-				part      https://en.wiktionary.org/wiki/partir#Spanish
-				know      https://en.wiktionary.org/wiki/conocer#Spanish
-				drive     https://en.wiktionary.org/wiki/conducir#Spanish
-			''')
-		)
-	)
-)
 
 write('data/inflection/indo-european/greek/attic/scraped-verbs.tsv',
 	formatting.format(
@@ -2508,6 +2405,50 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-verbs.ts
 	)
 )
 
+
+
+write('data/inflection/indo-european/romance/portugese/modern/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Portuguese', 'pt'), 
+			caching.crawl('''
+				appear    https://en.wiktionary.org/wiki/aparecer#Portuguese
+				be-inherently  https://en.wiktionary.org/wiki/ser#Portuguese
+				be-momentarily https://en.wiktionary.org/wiki/estar#Portuguese
+				change    https://en.wiktionary.org/wiki/mudar#Portuguese
+				climb     https://en.wiktionary.org/wiki/subir#Portuguese
+				crawl     https://en.wiktionary.org/wiki/rastejar#Portuguese
+				cool      https://en.wiktionary.org/wiki/esfriar#Portuguese
+				direct    https://en.wiktionary.org/wiki/dirigir#Portuguese
+				displease https://en.wiktionary.org/wiki/perturbar#Portuguese
+				eat       https://en.wiktionary.org/wiki/comer#Portuguese
+				endure    https://en.wiktionary.org/wiki/aguentar#Portuguese
+				fall      https://en.wiktionary.org/wiki/cair#Portuguese
+				fly       https://en.wiktionary.org/wiki/voar#Portuguese
+				flow      https://en.wiktionary.org/wiki/fluir#Portuguese
+				hear      https://en.wiktionary.org/wiki/ouvir#Portuguese
+				occupy    https://en.wiktionary.org/wiki/ocupar#Portuguese
+				resemble  https://en.wiktionary.org/wiki/semelhar#Portuguese
+				rest      https://en.wiktionary.org/wiki/repousar#Portuguese
+				see       https://en.wiktionary.org/wiki/ver#Portuguese
+				show      https://en.wiktionary.org/wiki/mostrar#Portuguese
+				startle   https://en.wiktionary.org/wiki/assustar#Portuguese
+				swim      https://en.wiktionary.org/wiki/nadar#Portuguese
+				walk      https://en.wiktionary.org/wiki/andar#Portuguese
+				warm      https://en.wiktionary.org/wiki/aquecer#Portuguese
+				watch     https://en.wiktionary.org/wiki/ver#Portuguese
+				work      https://en.wiktionary.org/wiki/trabalhar#Portuguese
+
+				have      https://en.wiktionary.org/wiki/haver#Portuguese
+				possess   https://en.wiktionary.org/wiki/ter#Portuguese
+				go        https://en.wiktionary.org/wiki/ir#Portuguese
+				put       https://en.wiktionary.org/wiki/p%C3%B4r#Portuguese
+
+			''')
+		)
+	)
+)
+
+
 print('QUECHUAN')
 write('data/inflection/quechuan/scraped-nouns.tsv',
 	formatting.format(
@@ -2589,6 +2530,124 @@ write('data/inflection/quechuan/scraped-verbs.tsv',
 				watch     https://en.wiktionary.org/wiki/qhaway#Quechua
 				work      https://en.wiktionary.org/wiki/llamk%27ay#Quechua
 			''')
+		)
+	)
+)
+
+
+
+print('ROMANIAN')
+
+write('data/inflection/indo-european/romance/romanian/modern/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Romanian', 'ro'), 
+			caching.crawl('''
+				appear    https://en.wiktionary.org/wiki/p%C4%83rea#Romanian
+				be        https://en.wiktionary.org/wiki/fi#Romanian
+				be-inherently  https://en.wiktionary.org/wiki/fi#Romanian
+				be-momentarily https://en.wiktionary.org/wiki/fi#Romanian
+				change    https://en.wiktionary.org/wiki/schimba#Romanian
+				climb     https://en.wiktionary.org/wiki/urca#Romanian
+				crawl     https://en.wiktionary.org/wiki/t%C3%A2r%C3%AE#Romanian
+				cool      https://en.wiktionary.org/wiki/r%C4%83ci#Romanian
+				direct    https://en.wiktionary.org/wiki/conduce#Romanian
+				displease https://en.wiktionary.org/wiki/tulbura#Romanian
+				eat       https://en.wiktionary.org/wiki/m%C3%A2nca#Romanian
+				endure    https://en.wiktionary.org/wiki/%C3%AEndura#Romanian
+				fall      https://en.wiktionary.org/wiki/c%C4%83dea#Romanian
+				fly       https://en.wiktionary.org/wiki/zbura#Romanian
+				flow      https://en.wiktionary.org/wiki/curge#Romanian
+				hear      https://en.wiktionary.org/wiki/auzi#Romanian
+				#occupy    
+				resemble  https://en.wiktionary.org/wiki/sem%C4%83na#Romanian
+				#rest      
+				see       https://en.wiktionary.org/wiki/vedea#Romanian
+				show      https://en.wiktionary.org/wiki/ar%C4%83ta#Romanian
+				#startle   
+				swim      https://en.wiktionary.org/wiki/%C3%AEnota#Romanian
+				walk      https://en.wiktionary.org/wiki/merge#Romanian
+				warm      https://en.wiktionary.org/wiki/%C3%AEnc%C4%83lzi#Romanian
+				watch     https://en.wiktionary.org/wiki/privi#Romanian
+				work      https://en.wiktionary.org/wiki/face#Romanian
+
+				# irregular
+				have       https://en.wiktionary.org/wiki/avea#Romanian
+				want       https://en.wiktionary.org/wiki/vrea#Romanian
+				sit        https://en.wiktionary.org/wiki/sta#Romanian
+				give       https://en.wiktionary.org/wiki/da#Romanian
+				throw      https://en.wiktionary.org/wiki/azv%C3%A2rli#Romanian
+				take       https://en.wiktionary.org/wiki/lua#Romanian
+				drink      https://en.wiktionary.org/wiki/bea#Romanian
+				know       https://en.wiktionary.org/wiki/%C8%99ti#Romanian
+				dry        https://en.wiktionary.org/wiki/usca#Romanian
+				continue   https://en.wiktionary.org/wiki/continua#Romanian
+				#eat        
+				#come-late https://en.wiktionary.org/wiki/%C3%AEnt%C3%A2rzia#Romanian
+
+				# regular
+				sing      https://en.wiktionary.org/wiki/c%C3%A2nta#Romanian
+				sleep     https://en.wiktionary.org/wiki/dormi#Romanian
+				offer     https://en.wiktionary.org/wiki/oferi#Romanian
+				choose    https://en.wiktionary.org/wiki/alege#Romanian
+				know      https://en.wiktionary.org/wiki/%C8%99ti#Romanian
+			''')
+		)
+	)
+)
+
+noun_html = caching.crawl('''
+	animal     https://en.wiktionary.org/wiki/animal#Romanian
+	attention  https://en.wiktionary.org/wiki/aten%C8%9Bie#Romanian
+	bird       https://en.wiktionary.org/wiki/pas%C4%83re#Romanian
+	boat       https://en.wiktionary.org/wiki/barc%C4%83#Romanian
+	book       https://en.wiktionary.org/wiki/carte#Romanian
+	brother    https://en.wiktionary.org/wiki/frate#Romanian
+	bug        https://en.wiktionary.org/wiki/insect%C4%83#Romanian
+	clothing   https://en.wiktionary.org/wiki/%C3%AEmbr%C4%83c%C4%83minte#Romanian
+	daughter   https://en.wiktionary.org/wiki/fiic%C4%83#Romanian
+	dog        https://en.wiktionary.org/wiki/c%C3%A2ine#Romanian
+	door       https://en.wiktionary.org/wiki/u%C8%99%C4%83#Romanian
+	drum       https://en.wiktionary.org/wiki/tob%C4%83#Romanian
+	enemy      https://en.wiktionary.org/wiki/du%C8%99man#Romanian
+	fire       https://en.wiktionary.org/wiki/foc#Romanian
+	food       https://en.wiktionary.org/wiki/aliment#Romanian
+	gift       https://en.wiktionary.org/wiki/cadou#Romanian
+	glass      https://en.wiktionary.org/wiki/sticl%C4%83#Romanian
+	guard      https://en.wiktionary.org/wiki/gard%C4%83#Romanian
+	horse      https://en.wiktionary.org/wiki/cal#Romanian
+	house      https://en.wiktionary.org/wiki/cas%C4%83#Romanian
+	livestock  https://en.wiktionary.org/wiki/%C8%99eptel#Romanian
+	love       https://en.wiktionary.org/wiki/iubire#Romanian
+	idea       https://en.wiktionary.org/wiki/idee#Romanian
+	man        https://en.wiktionary.org/wiki/b%C4%83rbat#Romanian
+	money      https://en.wiktionary.org/wiki/ban#Romanian
+	monster    https://en.wiktionary.org/wiki/monstru#Romanian
+	name       https://en.wiktionary.org/wiki/nume#Romanian
+	rock       https://en.wiktionary.org/wiki/stan%C4%83#Romanian
+	rope       https://en.wiktionary.org/wiki/fr%C3%A2nghie#Romanian
+	size       https://en.wiktionary.org/wiki/m%C4%83rime#Romanian
+	sister     https://en.wiktionary.org/wiki/sor%C4%83#Romanian
+	son        https://en.wiktionary.org/wiki/fiu#Romanian
+	sound      https://en.wiktionary.org/wiki/sunet#Romanian
+	warmth     https://en.wiktionary.org/wiki/c%C4%83ldur%C4%83#Romanian
+	water      https://en.wiktionary.org/wiki/ap%C4%83#Romanian
+	way        https://en.wiktionary.org/wiki/cale#Romanian
+	wind       https://en.wiktionary.org/wiki/v%C3%A2nt#Romanian
+	window     https://en.wiktionary.org/wiki/fereastr%C4%83#Romanian
+	woman      https://en.wiktionary.org/wiki/femeie#Romanian
+	work       https://en.wiktionary.org/wiki/munc%C4%83#Romanian
+''')
+
+write('data/inflection/indo-european/romance/romanian/modern/scraped-genders.tsv',
+	formatting.format(
+		scraping.scrape(GenderWikiHtml(ops, 'Noun', 'Romanian'), noun_html)
+	)
+)
+
+write('data/inflection/indo-european/romance/romanian/modern/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Romanian', 'ro'), 
+			noun_html
 		)
 	)
 )
@@ -2698,97 +2757,51 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-verbs.tsv',
 	)
 )
 
-print('SWEDISH')
-write('data/inflection/indo-european/germanic/swedish/modern/scraped-nouns.tsv',
+print('SPANISH')
+write('data/inflection/indo-european/romance/spanish/modern/scraped-verbs.tsv',
 	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Swedish', 'sv'), 
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Spanish', 'es'), 
 			caching.crawl('''
-				animal    https://en.wiktionary.org/wiki/djur#Swedish
-				attention https://en.wiktionary.org/wiki/uppm%C3%A4rksamhet#Swedish
-				bird      https://en.wiktionary.org/wiki/f%C3%A5gel#Swedish
-				boat      https://en.wiktionary.org/wiki/b%C3%A5t#Swedish
-				book      https://en.wiktionary.org/wiki/bok#Swedish
-				brother   https://en.wiktionary.org/wiki/bror#Swedish
-				bug       https://en.wiktionary.org/wiki/kryp#Swedish
-				clothing  https://en.wiktionary.org/wiki/kl%C3%A4der#Swedish
-				daughter  https://en.wiktionary.org/wiki/dotter#Swedish
-				dog       https://en.wiktionary.org/wiki/hund#Swedish
-				door      https://en.wiktionary.org/wiki/d%C3%B6rr#Swedish
-				drum      https://en.wiktionary.org/wiki/trumma#Swedish
-				enemy     https://en.wiktionary.org/wiki/fiende#Swedish
-				fire      https://en.wiktionary.org/wiki/eld#Swedish
-				food      https://en.wiktionary.org/wiki/mat#Swedish
-				gift      https://en.wiktionary.org/wiki/g%C3%A5va#Swedish
-				glass     https://en.wiktionary.org/wiki/glas#Swedish
-				guard     https://en.wiktionary.org/wiki/vakt#Swedish
-				horse     https://en.wiktionary.org/wiki/h%C3%A4st#Swedish
-				house     https://en.wiktionary.org/wiki/hus#Swedish
-				livestock https://en.wiktionary.org/wiki/boskapsdjur#Swedish
-				love      https://en.wiktionary.org/wiki/k%C3%A4rlek#Swedish
-				idea      https://en.wiktionary.org/wiki/id%C3%A9#Swedish
-				man       https://en.wiktionary.org/wiki/man#Swedish
-				money     https://en.wiktionary.org/wiki/pengar#Swedish
-				monster   https://en.wiktionary.org/wiki/odjur#Swedish
-				name      https://en.wiktionary.org/wiki/namn#Swedish
-				rock      https://en.wiktionary.org/wiki/sten#Swedish
-				rope      https://en.wiktionary.org/wiki/rep#Swedish
-				size      https://en.wiktionary.org/wiki/storlek#Swedish
-				son       https://en.wiktionary.org/wiki/son#Swedish
-				sound     https://en.wiktionary.org/wiki/ljud#Swedish
-				warmth    https://en.wiktionary.org/wiki/v%C3%A4rme#Swedish
-				water     https://en.wiktionary.org/wiki/vatten#Swedish
-				way       https://en.wiktionary.org/wiki/v%C3%A4g#Swedish
-				wind      https://en.wiktionary.org/wiki/vind#Swedish
-				window    https://en.wiktionary.org/wiki/f%C3%B6nster#Swedish
-				woman     https://en.wiktionary.org/wiki/kvinna#Swedish
-				work      https://en.wiktionary.org/wiki/arbete#Swedish
+				appear    https://en.wiktionary.org/wiki/aparecer#Spanish
+				be-inherently  https://en.wiktionary.org/wiki/ser#Spanish
+				be-momentarily https://en.wiktionary.org/wiki/estar#Spanish
+				change    https://en.wiktionary.org/wiki/cambiar#Spanish
+				climb     https://en.wiktionary.org/wiki/escalar#Spanish
+				crawl     https://en.wiktionary.org/wiki/arrastrar#Spanish
+				cool      https://en.wiktionary.org/wiki/enfriar#Spanish
+				direct    https://en.wiktionary.org/wiki/guiar#Spanish
+				displease https://en.wiktionary.org/wiki/desazonar#Spanish
+				eat       https://en.wiktionary.org/wiki/comer#Spanish
+				endure    https://en.wiktionary.org/wiki/tolerar#Spanish
+				fall      https://en.wiktionary.org/wiki/caer#Spanish
+				fly       https://en.wiktionary.org/wiki/volar#Spanish
+				flow      https://en.wiktionary.org/wiki/fluir#Spanish
+				hear      https://en.wiktionary.org/wiki/o%C3%ADr#Spanish
+				occupy    https://en.wiktionary.org/wiki/ocupar#Spanish
+				resemble  https://en.wiktionary.org/wiki/semejar#Spanish
+				rest      https://en.wiktionary.org/wiki/reposar#Spanish
+				see       https://en.wiktionary.org/wiki/ver#Spanish
+				show      https://en.wiktionary.org/wiki/mostrar#Spanish
+				startle   https://en.wiktionary.org/wiki/atemorizar#Spanish # "frighten"
+				swim      https://en.wiktionary.org/wiki/nadar#Spanish
+				walk      https://en.wiktionary.org/wiki/caminar#Spanish
+				warm      https://en.wiktionary.org/wiki/calentar#Spanish
+				watch     https://en.wiktionary.org/wiki/mirar#Spanish
+				work      https://en.wiktionary.org/wiki/trabajar#Spanish
+
+				have      https://en.wiktionary.org/wiki/haber#Spanish
+				have-in-possession https://en.wiktionary.org/wiki/tener#Spanish
+				go        https://en.wiktionary.org/wiki/ir#Spanish
+				love      https://en.wiktionary.org/wiki/amar#Spanish
+				fear      https://en.wiktionary.org/wiki/temer#Spanish
+				part      https://en.wiktionary.org/wiki/partir#Spanish
+				know      https://en.wiktionary.org/wiki/conocer#Spanish
+				drive     https://en.wiktionary.org/wiki/conducir#Spanish
 			''')
 		)
 	)
 )
 
-
-write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Swedish', 'sv'), 
-			caching.crawl('''
-				appear    https://en.wiktionary.org/wiki/framtr%C3%A4da#Swedish
-				be-inherently  https://en.wiktionary.org/wiki/vara#Swedish
-				be-momentarily 
-				change    https://en.wiktionary.org/wiki/%C3%A4ndra#Swedish
-				climb     https://en.wiktionary.org/wiki/kl%C3%A4ttra#Swedish
-				crawl     
-				cool      https://en.wiktionary.org/wiki/kyla#Swedish
-				direct    https://en.wiktionary.org/wiki/leda#Swedish
-				displease 
-				eat       https://en.wiktionary.org/wiki/%C3%A4ta#Swedish
-				endure    https://en.wiktionary.org/wiki/utst%C3%A5#Swedish
-				fall      https://en.wiktionary.org/wiki/falla#Swedish
-				fly       https://en.wiktionary.org/wiki/flyga#Swedish
-				flow      
-				hear      https://en.wiktionary.org/wiki/h%C3%B6ra#Swedish
-				occupy    https://en.wiktionary.org/wiki/uppta#Swedish
-				resemble  https://en.wiktionary.org/wiki/likna#Swedish
-				rest      
-				see       https://en.wiktionary.org/wiki/se#Swedish
-				show      https://en.wiktionary.org/wiki/visa#Swedish
-				startle   https://en.wiktionary.org/wiki/spritta#Swedish
-				swim      https://en.wiktionary.org/wiki/simma#Swedish
-				walk      https://en.wiktionary.org/wiki/g%C3%A5#Swedish
-				warm      https://en.wiktionary.org/wiki/v%C3%A4rma#Swedish
-				watch     https://en.wiktionary.org/wiki/se_p%C3%A5#Swedish
-				work      https://en.wiktionary.org/wiki/arbeta#Swedish
-
-				#go 	gå
-				#call	kalla
-				#close	stänga
-				#read	läsa
-				#sew	sy
-				#strike	stryka
-			''')
-		)
-	)
-)
 
 print('TAMIL')
 write('data/inflection/dravidian/tamil/scraped-nouns.tsv',

@@ -214,7 +214,8 @@ tagaxis_to_tags = {
 
     # needed for gerunds, supines, participles, and gerundives
     'gender':     'masculine feminine gendered neuter'.split(), # language specific concept where something takes on grammatical forms associated with a sex, "gendered" is used instead of "common" to disambiguate it from the "common" noun-forms
-    'sex':        'male female sexless'.split(), # biological concept assigned at birth, this analysis lumps this concept with "natural gender"
+    'virility':   'virile muliebrile avirile'.split(), # language specific where something takes on physical attributes associated with a sex
+    'sex':        'male female sexless'.split(), # biological concept assigned at birth
     'animacy':    'animate inanimate'.split(), # language specific concept where something takes on grammatical forms associated with something that moves
     'humanity':   'human nonhuman'.split(), # member of homo sapiens
     'anthropomorphism': 'anthropomorphic nonanthropomorphic'.split(), # assumes a humanlike form
@@ -223,7 +224,7 @@ tagaxis_to_tags = {
     'sapience':   'sapient nonsapient'.split(), #ability to think, regardless of whether it uses structured thought
     'sentience':  'sentient nonsentient'.split(), #ability to perceive things
     'motility':   'motile nonmotile'.split(),  # ability to perceptibly move of its own will
-    'dynamism':   'dynamic nondynamic'.split(),  # ability to move (e.g. clouds, fire)
+    'dynamism':   'dynamic nondynamic'.split(),  # ability to move (includes e.g. clouds, fire)
     'mobility':   'mobile immobile'.split(),  # ability to be moved
     'dominance':  'dominant nondominant'.split(),  # ability to command or use
     'servility':  'servile nonservile'.split(),  # ability to be commanded or used
@@ -878,6 +879,7 @@ class EnglishListSubstitution:
         number = memory['number']
         nounform = memory['noun-form']
         nonsingular_3rd_gender_marker = {
+            'gendered': '',
             'masculine': '♂',
             'feminine': "♀",
             'neuter': "⚲",
@@ -885,11 +887,13 @@ class EnglishListSubstitution:
         formal_singular_gender_marker = {
             'masculine': '[sir]',
             'feminine': "[ma'am]",
+            'gendered': '[respectfully]',
             'neuter': "[respectfully]",
         }
         formal_nonsingular_gender_marker = {
             'masculine': '[gentlemen]',
             'feminine': "[ladies]",
+            'gendered': '[respectfully]',
             'neuter': "[respectfully]",
         }
         gender_marker = {
