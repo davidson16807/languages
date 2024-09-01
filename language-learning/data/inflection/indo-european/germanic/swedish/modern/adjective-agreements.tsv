@@ -1,16 +1,21 @@
-*	*	*	*	*	positive	comparative	superlative
-green	indefinite	gendered		singular	grön 	grönare 	grönast
-green	indefinite	neuter		singular	grönt 	grönare 	grönast
-green	indefinite	gendered		plural	gröna 	grönare 	grönast
-#green	indefinite	gendered	virile	plural	gröne 	grönare 	grönast
-green	indefinite	neuter		plural	gröna 	grönare 	grönast
-green	definite	gendered		singular	gröna 	grönare 	grönaste 
-#green	definite	gendered	virile	singular	gröne 	grönare 	grönaste
-green	definite	neuter		singular	gröna 	grönare 	grönaste 
-green	definite			plural	gröna 	grönare 	grönaste 
-the	definite	gendered		singular	den	den	den
-the	definite	neuter		singular	det	det	det
-the	definite			plural	de	de	de
-a	indefinite	gendered		singular	en	en	en
-a	indefinite	neuter		singular	ett	ett	ett
-a	indefinite			plural	∅	∅	∅
+*	*	*	*	*	positive	comparative	superlative								
+green	indefinite	masculine		singular	grön 	grönare 	grönast								
+green	indefinite	feminine		singular	grön 	grönare 	grönast								
+green	indefinite	neuter		singular	grönt 	grönare 	grönast								
+green	indefinite			plural	gröna 	grönare 	grönast								
+#green	indefinite		virile	plural	gröne 	grönare 	grönast								
+#green	indefinite		virile	plural	gröne 	grönare 	grönast								
+green	definite	masculine		singular	gröna 	grönare 	grönaste 								
+green	definite	feminine		singular	gröna 	grönare 	grönaste 								
+green	definite	neuter		singular	gröna 	grönare 	grönaste 								
+green	definite			plural	gröna 	grönare 	grönaste 								
+#green	definite		virile	singular	gröne 	grönare 	grönaste								
+#green	definite		virile	singular	gröne 	grönare 	grönaste								
+the	definite	masculine		singular	den	den	den								
+the	definite	feminine		singular	den	den	den								
+the	definite	neuter		singular	det	det	det								
+the	definite			plural	de	de	de								
+a	indefinite	masculine		singular	en	en	en								
+a	indefinite	feminine		singular	en	en	en								
+a	indefinite	neuter		singular	ett	ett	ett								
+a	indefinite			plural	∅	∅	∅								

@@ -15,6 +15,9 @@ boat	genitive	båts	båtens	båtars	båtarnas
 book	nominative	bok	boken	böcker	böckerna						
 book	oblique	bok	boken	böcker	böckerna						
 book	genitive	boks	bokens	böckers	böckernas						
+brother	nominative	broder 	brodern 	bröder 	bröderna						
+brother	oblique	broder 	brodern 	bröder 	bröderna						
+brother	genitive	broders 	broderns 	bröders 	brödernas 						
 bug	nominative	kryp	krypet	kryp	krypen						
 bug	oblique	kryp	krypet	kryp	krypen						
 bug	genitive	kryps	krypets	kryps	krypens						
@@ -120,4 +123,4 @@ bee	genitive	bis 	biets 	bins 	binas
 eye	nominative	öga 	ögat 	ögon 	ögonen						
 eye	oblique	öga 	ögat 	ögon 	ögonen						
 eye	genitive	ögas 	ögats 	ögons 	ögonens 						
-hello		å									
+hello		hallå	hallå	hallå	hallå						

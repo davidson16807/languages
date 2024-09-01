@@ -90,7 +90,7 @@ foreign_language = Language(
     ),
     RuleSyntax(
         parse_any.terms('subject verb direct-object indirect-object adverbial'),
-        parse_any.tokens('stock-adposition det adj n np clause')
+        parse_any.tokens('stock-adposition det adj np n clause')
     ),
     # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
     {'language-type':'foreign'},
@@ -105,7 +105,7 @@ foreign_language = Language(
 foreign_termaxis_to_terms = {
     **termaxis_to_terms,
     **parse_any.termaxis_to_terms('''
-        gender :  gendered neuter
+        gender :  masculine feminine neuter
         number :  singular plural
         definiteness: definite indefinite
         motion :  approached acquired associated departed leveraged surpassed
@@ -185,7 +185,6 @@ subjectivity_valency_whitelist = parse.termmask(
     '''
     intransitive  subject
     transitive    direct-object
-    intransitive  addressee
     intransitive  adnominal
     intransitive  adverbial
     ''')
@@ -195,7 +194,6 @@ subjectivity_motion_traversal = parse.termpath(
     'subjectivity motion',
     '''
     subject       associated
-    addressee     associated
     direct-object associated
     adnominal     associated
     adverbial     acquired
@@ -210,12 +208,12 @@ conjugation_subject_traversal = parse.termpath(
     'conjugation_subject_traversal', 
     'person number gender',
     '''
-    1  singular gendered
-    2  singular gendered
-    3  singular gendered
-    1  plural   gendered
-    2  plural   gendered
-    3  plural   gendered
+    1  singular neuter
+    2  singular feminine
+    3  singular masculine
+    1  plural   neuter
+    2  plural   feminine
+    3  plural   neuter
     ''')
 
 
@@ -243,14 +241,14 @@ pronoun_traversal = parse.tokenpath(
     'pronoun_traversal', 
     'noun person number gender',
     '''
-    man    1 singular gendered
-    woman  2 singular gendered
-    man    3 singular gendered
-    woman  3 singular gendered
+    man    1 singular neuter
+    woman  2 singular feminine
+    man    3 singular masculine
+    woman  3 singular feminine
     snake  3 singular neuter   
-    man    1 plural   gendered
-    woman  2 plural   gendered
-    man    3 plural   gendered
+    man    1 plural   neuter
+    woman  2 plural   feminine
+    man    3 plural   masculine
     man    3 plural   neuter   
     ''')
 
@@ -258,7 +256,8 @@ gender_agreement_traversal = parse.tokenpath(
     'gender_agreement_traversal', 
     'gender noun',
     '''
-    gendered  man   
+    masculine man
+    feminine  woman
     neuter    animal
     ''')
 
@@ -267,49 +266,49 @@ gender_noun_whitelist = parse.tokenmask(
     'noun gender',
     '''
     animal  neuter
-    attention gendered
-    bird    gendered
-    boat    gendered
-    book    gendered
-    brother gendered
+    attention masculine
+    bird    masculine
+    boat    masculine
+    book    masculine
+    brother masculine
     bug     neuter
     clothing  neuter
-    daughter  gendered
-    dog gendered
-    door    gendered
-    drum    gendered
-    enemy   gendered
-    fire    gendered
-    food    gendered
-    gift    gendered
+    daughter  feminine
+    dog masculine
+    door    masculine
+    drum    masculine
+    enemy   masculine
+    fire    masculine
+    food    masculine
+    gift    masculine
     glass   neuter
-    guard   gendered
-    horse   gendered
+    guard   masculine
+    horse   masculine
     house   neuter
     livestock neuter
-    love    gendered
-    idea    gendered
-    man     gendered
+    love    masculine
+    idea    masculine
+    man     masculine
     monster neuter
     name    neuter
-    rock    gendered
+    rock    masculine
     rope    neuter
-    size    gendered
-    son     gendered
+    size    masculine
+    son     masculine
     sound   neuter
-    warmth  gendered
+    warmth  masculine
     warmth  neuter
     water   neuter
-    way     gendered
-    wind    gendered
+    way     masculine
+    wind    masculine
     window  neuter
-    woman   gendered
+    woman   masculine
     work    neuter
 
-    girl    gendered
-    rose    gendered
-    mother  gendered
-    evening gendered
+    girl    feminine
+    rose    masculine
+    mother  feminine
+    evening masculine
     bee     neuter
     eye     neuter
     '''
@@ -319,7 +318,7 @@ possession_traversal = parse.tokenpath(
     'possession_traversal', 
     'gender noun',
     '''
-    gendered  brother      
+    masculine brother
     neuter    house
     ''')
 
@@ -338,13 +337,13 @@ possessor_pronoun_traversal = label_editing.termpath(
         'possessor_pronoun_traversal', 
         'noun person number gender',
         '''
-        man    1 singular gendered   
-        woman  2 singular gendered
-        man    3 singular gendered
+        man    1 singular neuter   
+        woman  2 singular feminine
+        man    3 singular masculine
+        woman  3 singular feminine
         snake  3 singular neuter   
-        man    1 plural   gendered   
-        woman  2 plural   gendered 
-        man    3 plural   gendered
+        man    1 plural   masculine
+        woman  2 plural   feminine 
         man    3 plural   neuter   
         '''), 
     'possessor')
@@ -408,7 +407,7 @@ write('flashcards/germanic/swedish/finite-conjugation.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular gendered'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
         },
     ))
 
@@ -430,7 +429,7 @@ write('flashcards/germanic/swedish/participle-declension.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('common definite associated agent subject'),
-            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'participle' : parse.termaxis_to_term('common definite participle subject'),
         },
     ))
@@ -452,7 +451,7 @@ write('flashcards/germanic/swedish/adpositions.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal definite'),
         },
     ))
@@ -469,7 +468,7 @@ write('flashcards/germanic/swedish/common-noun-declension.html',
                 & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -486,7 +485,7 @@ write('flashcards/germanic/swedish/pronoun-declension.html',
             & noun_template_whitelist)
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term(''),
         },
     ))
@@ -506,7 +505,7 @@ write('flashcards/germanic/swedish/adjective-agreement.html',
             & noun_template_whitelist) 
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
             'test'       : parse.termaxis_to_term('common definite'),
         },
     ))
@@ -530,8 +529,8 @@ write('flashcards/germanic/swedish/pronoun-possessives.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular gendered'),
-            'test'       : parse.termaxis_to_term('personal-possessive definite'),
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('personal-possessive masculine'),
         },
     ))
 
