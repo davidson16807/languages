@@ -243,3 +243,30 @@ strike	indicative	plural	stryka	ströko	strykas	strökos
 strike	subjunctive		stryke	ströke	strykes	strökes													
 #strike	participle	present	strykande	strykande	strykande	strykande													
 #strike	participle	past	struken	struken	struken	struken													
+#flow	infinitive		flyta 	flyta 	—	—													
+#flow	supine		flutit 	flutit 	—	—													
+flow	imperative	singular	flyt 	flyt 	—	—													
+flow	imperative	plural	flyten 	flyten 	— 	— 													
+flow	indicative	singular	flyter 	flöt 	— 	—													
+flow	indicative	plural		flöto 	— 	—													
+flow	subjunctive		flyte 	flöte 	— 	— 													
+#flow	participle	present	flytande	flytande	flytande	flytande													
+#flow	participle	past	fluten 	fluten 	fluten 	fluten 													
+#crawl	infinitive		kräla 	kräla 	krälas	krälas													
+#crawl	supine		krälat 	krälat 	krälats	krälats													
+crawl	imperative	singular	kräla 	kräla 	—	—													
+crawl	imperative	plural	krälen 	krälen 	— 	— 													
+crawl	indicative	singular	krälar 	krälade 	krälas 	krälades													
+crawl	indicative	plural	kräla 	krälade 	krälas 	krälades													
+crawl	subjunctive		kräle 	krälade 	kräles 	krälades 													
+#crawl	participle	present	krälande	krälande	— 	— 													
+#crawl	participle	past	krälande	krälande	— 	— 													
+#rest	infinitive		vila 	vila 	vilas	vilas													
+#rest	supine		vilat 	vilat 	vilats	vilats													
+rest	imperative	singular	vila 	vila 	—	—													
+rest	imperative	plural	vilen 	vilen 	— 	— 													
+rest	indicative	singular	vilar 	vilade 	vilas 	vilades													
+rest	indicative	plural	vila 	vilade 	vilas 	vilades													
+rest	subjunctive		vile 	vilade 	viles 	vilades 													
+#rest	participle	present	vilande	vilande	vilad 	vilad 													
+#rest	participle	past	vilande	vilande	vilad 	vilad 													

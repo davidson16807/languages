@@ -10,7 +10,7 @@
 	subject	bake	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	food-dummy	#		drum	beaten in good taste and makes noise	
 #	subject	be-able	active						to work-dummy	#		enemy	captures men and is captured	
 #	subject	be-red	active	intransitive						#		fire	warms most objects	
-	subject	be[inherently]	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	indefinite-dummy	big-dummy	#		food	eaten by any animal, cooked	
+	subject	be[inherently]	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	big-dummy	#		food	eaten by any animal, cooked	
 	subject	be[momentarily]	active	transitive	associated-dummy	predicate-dummy	direct-object-dummy	adefinite-dummy	strong-dummy	#		gift	given and taken	
 	subject	beat	active	transitive	associated-dummy	patient-dummy	direct-object-dummy	definite-dummy	drum-dummy	#		guard	captures and releases men	
 	subject	beat	middle	intransitive	associated-dummy	agent-dummy	adverbial-dummy	definite-dummy	enemy-dummy	#		horse	something directed or tamed	

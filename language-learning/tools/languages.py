@@ -77,6 +77,9 @@ class Language:
             'addressee':      {'subjectivity':'addressee'},
             'common-possessive':   {'noun-form': 'common-possessive'},
             'personal-possessive': {'noun-form': 'personal-possessive'},
+            'definite': {'definiteness': 'definite'},
+            'indefinite': {'definiteness': 'indefinite'},
+            'adefinite': {'definiteness': 'adefinite'},
             **semes
         }
         debug =  self.debug

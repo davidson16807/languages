@@ -1,16 +1,4 @@
 *	*	*	*	*	positive	comparative	superlative								
-green	indefinite	masculine		singular	grön 	grönare 	grönast								
-green	indefinite	feminine		singular	grön 	grönare 	grönast								
-green	indefinite	neuter		singular	grönt 	grönare 	grönast								
-green	indefinite			plural	gröna 	grönare 	grönast								
-#green	indefinite		virile	plural	gröne 	grönare 	grönast								
-#green	indefinite		virile	plural	gröne 	grönare 	grönast								
-green	definite	masculine		singular	gröna 	grönare 	grönaste 								
-green	definite	feminine		singular	gröna 	grönare 	grönaste 								
-green	definite	neuter		singular	gröna 	grönare 	grönaste 								
-green	definite			plural	gröna 	grönare 	grönaste 								
-#green	definite		virile	singular	gröne 	grönare 	grönaste								
-#green	definite		virile	singular	gröne 	grönare 	grönaste								
 the	definite	masculine		singular	den	den	den								
 the	definite	feminine		singular	den	den	den								
 the	definite	neuter		singular	det	det	det								
@@ -19,3 +7,17 @@ a	indefinite	masculine		singular	en	en	en
 a	indefinite	feminine		singular	en	en	en								
 a	indefinite	neuter		singular	ett	ett	ett								
 a	indefinite			plural	∅	∅	∅								
+green	indefinite	masculine		singular	grön 	grönare 	grönast								
+green	indefinite	feminine		singular	grön 	grönare 	grönast								
+green	indefinite	neuter		singular	grönt 	grönare 	grönast								
+green	indefinite			plural	gröna 	grönare 	grönast								
+#green	indefinite		virile	plural	gröne 	grönare 	grönast								
+green	definite				gröna 	grönare 	grönaste 								
+#green	definite		virile	singular	gröne 	grönare 	grönaste								
+strong	indefinite	masculine		singular	stark 	starkare 	starkast								
+strong	indefinite	feminine		singular	stark 	starkare 	starkast								
+strong	indefinite	neuter		singular	starkt 	starkare 	starkast								
+strong	indefinite			plural	starka 	starkare 	starkast								
+#strong	indefinite		virile	plural	starke 	starkare 	starkast 								
+strong	definite				starka 	starkare 	starkaste 								
+#strong	definite		virile	singular	starke 	starkare 	starkaste								

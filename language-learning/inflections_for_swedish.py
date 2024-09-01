@@ -52,6 +52,8 @@ def definiteness(machine, tree, memory):
         return [['det','the'], tree]
     if (definiteness, number) == ('indefinite', 'singular') and subjectivity != 'addressee' and nounform != 'personal': 
         return [['det','a'], tree]
+    if definiteness == 'adefinite': 
+        return ['indefinite', tree]
     else:
         return tree
 
@@ -119,7 +121,7 @@ foreign_termaxis_to_terms = {
     **parse_any.token_to_tokens('''
         verb : be go call close read sew strike
         noun : girl rose dog mother evening enemy book bee eye animal man
-        adjective: green
+        adjective: strong
     '''),
 }
 
@@ -295,6 +297,7 @@ gender_noun_whitelist = parse.tokenmask(
     rope    neuter
     size    masculine
     son     masculine
+    size    masculine
     sound   neuter
     warmth  masculine
     warmth  neuter
