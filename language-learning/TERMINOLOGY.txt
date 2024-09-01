@@ -22,17 +22,21 @@ Another way to phrase this is to say the phones are *equivalence classes*, or th
 More precisely, we define that any two sounds of the same phone can be interchanged 
 in any statement of any attested natural language and still produce the same meaning.
 This is to say that each phone is an *equalizer* of sounds for a given set of functions, which we will now attempt to define.
-Suppose there is a function f:U→(S+1) that for any utterance maps to the semantic meaning (S) received by an audience in that language, or no meaning (1) if the utterance is unintelligible.
+
+What follows is an attempted at formalization that can be skipped if desired.
+Suppose there is a function f:U→(S+1) that maps any utterance (U) to the semantic meaning (S) received by an audience in that language, or no meaning (1) if the utterance is unintelligible.
 Suppose there is also a function: g:L→P(U) that for any any attested natural language maps to the set of all meaningful utterances made in that language, such that ∀u∈g(l):f(u)∈S. 
 For every l∈L, and for every utterance u∈g(l), we say there is a function, h(l,u):P×P→U that replaces every instance of one sound in a phone P with another in the utterance u
 The phone is then the following equalizer:
 	Eq({f∘h(l,u) | l∈L, u∈g(l)})
 
-Likewise, we will define a "phoneme" as *an indivisible unit of sound* that is *capable conveying a distinction in meaning* within *a given language*.
+Likewise, we will define a "phoneme" as *an indivisible unit of sound* that is *capable of conveying a distinction in meaning* within *a given language*.
 The phonemes of a language are disjoint sets of phones whose union is what is known as the *phoneme inventory* of that language.
 The phonemes are defined such that any two phones of the same phoneme can be interchanged 
 in any statement of the phonemes' language and still produce the same meaning.
-Equivalently, the phonemes are equalizers of phones for a set of functions:
+
+In another skippable attempt at formalization,
+the phonemes are equivalently described as equalizers of phones for a set of functions:
 	Eq({f∘hₘ(u) | u∈g(l)})
 where l∈L is a language, f and g match the definitions above, and hₘ(u):Pₘ×Pₘ→U replaces every instance of one sound in a phoneme Pₘ with another in the utterance u
 
@@ -54,9 +58,12 @@ and "-emic" units (suffixed by "-eme") are specific to a given language.
 
 Just as "-emic" and "-etic" units can be assigned precise mathematical definitions in phonology,
 so too can can we create units that are analogous to these definitions in other categories.
-We will broadly define any "-etic" unit as being an equalizer or initial object for some set of functions that must be defined.
+Let's say there is an arbitrary concept, labeled "term", that represents an "-etic" unit.
+As an "-etic" unit, it is analogous to a phone. 
+As such, it is an indivisible unit that is defined by some property when considering all natural attested languages, 
+and it is an initial object of some kind in a larger category.
+Its "-emic" unit, "termeme", represents one of several disjoint sets, the union of which is the set of all terms.
 This set of functions can be partitioned into disjoint subsets, and to each disjoint subset there exists a set of "-emic" units.
-Each "-emic" unit for is an analogous equalizer equalizer or initial object for some other set of functions that must be defined.
 In the context of linguistics, we will say that every natural language that has ever been attested 
 maps to its own disjoint set of functions that an "-emic" unit concerns itself with,
 and any "-etic" unit in linguistics always considers in some way all attested natural languages.
@@ -80,112 +87,85 @@ During speech, the speaker must map the seme he intends to communicate to a "sem
 The concept of the seme and sememe is useful for conveying certain distinctions in meaning that may be present in one language but not another.
 To illustrate, speakers of Ergative-Absolutive languages distinguish morphemes based upon whether a verb is transitive or intransitive,
 whereas speakers of Nominative-Accusative languages are wholly unfamiliar with these distinctions and do not mark them in any way.
-The morphemes that indicate a "subject" in a Nominative-Accusative language correspond to sememes that refer to the semes of both the 
-"solitary" and "agent" sememes of the Ergative-Absolutive languages.
+The morphemes that indicate a "subject" in a Nominative-Accusative language correspond to sememes that refer 
+to the semes of both the "solitary" and "agent" of the Ergative-Absolutive languages.
 If one were able to create a system that could represent any distinction present in the morphemes of any attested natural language,
-such a system would consist of a set of "semes" that each correspond to multiple semes.
+such a system would consist of a set of "semes". Each "seme" represents an equivalence class of meanings 
+that cannot be further distinguished in any attested natural language without introducing additional morphemes.
+A sememe is therefore merely any distinction that can be represented a single language. 
+To return to our example, one possible seme the "solitary subject" concept (together with whatever else is indicated by a morph), 
+and in a single Nominative-Accusative language, one possible sememe is the "nominative" concept (together with whatever else is indicated by a morpheme).
 
 We will now make an observation: a "seme" is not strictly indivisible as a unit of meaning. 
 A seme *can* be decomposed further into smaller units, and these units will still have meaning, 
-however *these units will not correspond to any morpheme*, and this was an esstential property of a seme,
+however *these units will not correspond to any morpheme*, and this was an essential property of a seme,
 so these subdivided units cannot be called "semes", and they must be called by a different word.
-To illustrate this point, in Spanish "-isteis" is a morpheme that indicates 
+To illustrate this point, in Spanish "-[ai]steis" is a morpheme that indicates 
 that an audience of several people has completed at some point in the past an action that is indicated by the verb being inflected.
 The sememe that maps to this morpheme must therefore simultanesously represent the second person, plural number, past tense, and perfect aspect.
-We could attempt to reanalyze the "-isteis" morpheme as a set of smaller morphemes in an effort to make its sememe indivisible,
-for instance we could represent it as a combination of "-iste"+"-is", where "-iste" represents second person broadly, and "-is" indicates plurality,
-however "-iste" still represents both the past tense and perfect aspect, so it can still be divided into smaller units of meaning,
-but fluent speakers of the language will not be able to understand any such subdivision if we were to attempt representing it by sound.
-We should therefore introduce a new term to describe these smaller, indivisible units of meaning that do not necesarrily correspond to a morpheme.
-The only other term available in literature that describes another unit of meaning is the "episememe", which is a term introduced by Leonard Bloomfield (1933).
-It is unfortunate Bloomfield defines "episememe" in only a vague way: he defines it simply as an indivisible unit of meaning that corresponds to grammar,
-however there is no definition as to what grammar constitutes so we are no better off for having it.
-We will nevertheless coopt this term in an attempt to rehabilitate it with what should be a stronger definition. 
-Our stronger definition is as follows: in a manner analogous to semes, 
-an "episeme" will be defined as an *indivisible unit of meaning* that is *intended by the speaker*,
-and much like phonemes are an indivisible unit of sound that can represent distinctions in morphemes, 
-we will define an "episememe" to be thean indivisible unit of meaning* that is capable of *representing a distinction in sememes* 
-(and by extension, the morphemes) of a *given language*.
-To illustrate again with the "-isteis" example, the Spanish morpheme "-isteis" indicates a plural audience in past tense and perfect aspect,
-whereas the Spanish morpheme "-iste" indicates singular audience in past tense and perfect aspect,
-so the sememes that correspond to the "-isteis" and "-iste" morphemes differ only in their grammatical number.
-Singular and plural must therefore be distinct episememes in Spanish.
-As it turns out, these are the only two episememes to indicate number in Spanish,
-however many languages of the world also have a "dual" number that indicates when there is two of something,
-and in principle the speaker might have some precise number in their head that they want to convey in a morpheme, such as 42 or 10⁹, 
-so the precise number in the speaker's head is an example of an "episeme",
-and were we to compile a full list of grammatical numbers available in all the world's attested natural languages, 
-such a list could be said to consist of "episemes". 
+"-[ai]ste" is another morpheme, and the sememe that maps to this morpheme simultaneously represents the same things, except for singular number instead of plural.
+"-[ai]steis" cannot be decomposed into "-[ai]ste"+"-is" since "-is" carries no meaning in this context,
+so they are clearly indivisible, they are indeed Spanish morphemes, and their sememes are also indivisible,
+however the language also clearly allows a distinction between sememes of plural number (like "-[ai]steis") and sememes of singular number (like "-[ai]ste"). 
+We should therefore introduce a new term to describe such a distinction. The term we use is "tag".
+The "-emic" unit of a tag is a "tagmeme". Plural and singular are both instances of a "tagmeme" in Spanish.
 
-The last concept we wish to introduce relies upon an analogy between the concepts introduced thus far.
-The episeme and seme constitute units of grammatical meaning that cannot be divided without sacraficing a certain constraint specific to a language.
-Likewise, the morpheme is a unit of sound that that cannot be divided without sacraficing a certain constraint specific to a language.
-The morpheme and the sememe are very closely related concepts, since a sememe maps directly to a morpheme in a given language,
-however the two are in distinct in one way: two morphemes can represent the same sememe, differing only in the sounds they use to represent the sememe.
-This could in principle be observed in a single language however it is especially noticeable when comparing morphemes across languages. 
-An simple example of this can be seen by comparing the Spanish root verb "poner" with the English root verb "pose".
-These two morphemes don't even share consonants of the same manner of articulation, 
-yet the two share similar if not identical meaning and even share similar usage thanks to their shared etymology.
-We see how the two can be used similarly by comparing Spanish "suponer" with English "suppose", Spanish "disponer" with English "dispose", etc.
-In this case the morphemes "poner" and "pose" are undoubtedly distinct in sound, yet if their semmemes are comprised of the same set of semes,
-then by the definition of a sememe there is nothing further that could be argued to distinguish them - the sememes would be equivalent up to the definition of a sememe.
+Plural and singular the only two tagmemes in Spanish that represent "grammatical number".
+Other languages have different tagmemes that represent grammatical number, such as paucal or superplural,
+and if we compiled a list of all such distinctions in all natural attested languages,
+we would have a set of "tags". The concept of "number" is classically referred to as a "grammatical category",
+but in this body of work we will refer to this concept as a "tagaxis".
+We do so because the "-axis" suffix permits a far more productive paradigm. 
+An "-axis" simply describes a set containing sets. Each nested set corresponds to a term. 
+The root that it modifies indicates what type of seme set is being referred to.
 
-This distinction between the meaning of something and its representation(s) in one or more languages may be useful,
-so we must ask if we can make a similar distinction with regard to an episememe? 
-Does any concept exist that could indicate the way an epsememe is represented in a language?
-Such a concept could not possibly have sound associated to it, since the morph is by definition the smallest unit of sound that carries any meaning,
-however we could perhaps define a concept based around the way the episememe is represented in a language's *grammar*.
-Such a concept will be termed the "tagmeme", again borrowing from Leonard Bloomfield, who defines the tagmeme as an indivisble meaningful unit of grammar.
-The tagmeme is also sometimes referred to as the "grammeme", however "tagmeme" is the term that literature has always recommended for usage.
-We find Bloomfield's definition compatible with ours, however we provide our own definition here for clarity:
-a "tagmeme" is *indivisible unit of distinction between any set of morphemes or their arrangement* in a given language.
-So to illustrate, two possible tagmemes in Spanish are the manner in which the episememes for singular and plural are represented through the use of inflection.
-The distinction between tags and episemes (or for that matter, tagmemes and episememes) is subtle,
-the only significant distinction being one of meaning vs. implementation in a language.
-In practice we find ourselves not using the distinction much, we largely prefer the term "tag" 
-for no better reason than it is brief and will not cause developers to pause as they read the code
-while still being well established and precise.
-
-We will now add only a few embellishments to the system of terms used by Bloomfield, only since we find them useful.
-
-First, we will add another root word, "facet", to extend this system of terms to the features that determine a phone, e.g. voicing, manner, placement, frontness, height, roundness, etc. The root "facet" is chosen so as to be easily pronounced in combination with suffixes, and is derived from Latin "factus" ("something made"), which shares the same origin as the word "feature".
-
-Second, we wish to have a name for sets of tags and episemes whose members cannot co-ocur within any instance of a morpheme or sememe where one of the tags can occur.
-To illustrate, we have stated that "singular" and "plural" are tags within Spanish tagmemics. 
-Whenever a Spanish morpheme indicates that something is singular or plural, 
-it can never represent that something is simultaneously singular *and* plural,
-that is to say, singular and plural are "mutually exclusive" concepts.
-We typically say in this way that singular and plural are tags within the "grammatical category" of number 
-(the name of which unfortunately conflicts with an existing concept, the mathematical category).
-However in another way of thinking, we can say that number is an "axis" within a parameter space that defines a subset of all semes.
-For the sake of brevity, we will therefore address this concept of grammatical category in code as a "tagaxis". 
-Tagaxes are disjoint sets of tags that define a parameter space of morphemes,
-so likewise we say episemaxes refer to disjoint sets of episemes that form a parameter space of sememes, likely one-to-one in relation to tagaxes.
-We find this concept of an axis is broadly applicable to describe any other "-etic" unit.
-We withhold judgement for now as to whether it is useful in all cases for axes of "-etic" units to refer strictly to disjoint sets,
-however for now it is at the least very useful for them to refer to subsets that form parameter spaces:
-
-* *facetaxes*  are sets of mutually exclusive phonetic features whose product defines a parameter space of phones. Examples of facetaxes are manner, articulation, etc.
+Up to present, we can establish the following termaxes:
 * *phonaxes*   are sets of mutually exclusive phones whose product defines a parameter space of syllables. Examples of phonaxes are consonant, vowel, etc.
-* *morphaxes*  are sets of mutually exclusive morphs whose product defines words and phrases. Examples of morphaxes are suffix, prefix, noun, verb, etc.
-* *semaxes*    are sets of mutually exclusive semes whose product defines larger constructs of meaning. Examples of semaxes are meanings underlying suffix, prefix, noun, verb, etc.
+* *morphaxes*  are sets of mutually exclusive morphs whose product defines words and phrases. Examples of morphaxes are suffix, prefix, noun root, verb root, etc.
+* *semaxes*    are sets of mutually exclusive semes whose product defines larger constructs of meaning. Examples of semaxes are the meanings that underlie suffix, prefix, noun, verb, etc.
 * *tagaxes*    are sets of mutually exclusive tags whose product with other tagaxes defines a parameter space of morphemes. Examples of tagaxes are case, tense, aspect, number, gender, etc.
-* *episemaxes* are sets of mutually exclusive episemes whose product with other tagaxes defines a parameter space of semes. Examples of episemaxes are semantic role, motion, meanings underlying tense, aspect, number, gender, etc.
 
-It is then fairly trivial to use the suffix "-space" to refer to products formed over these axes:
-* *facetspace*  a space of phones formed over a product of facetaxes
+Equivalent "termemeaxes" can be constructed for respective termemes. 
+For instance a "tagmemaxis" is analogous to a tagaxis for a given language. 
+
+The "-axis" suffix permits an extended metaphor that leverages concepts in geometry.
+If we have a cartesian product of termaxes that each correspond to the same term, the result is a "termspace":
 * *phonspace*   a space of syllables formed over a product of phonaxes
 * *morphspace*  a space of words or phrases formed over a product of morphaxes
 * *semspace*    a space of meanings formed over a product of semaxes
 * *tagspace*    a space of morphs formed over a product of tagaxes
-* *episemspace* a space of semes formed over a product of episemaxes
 
-And the suffix "-point" to refer to points within these spaces:
-* *facetpoint*  a point within a facetspace, i.e. a phone
-* *phonpoint*   a point within a phonspace, i.e. a syllable
-* *morphpoint*  a point within a morphspace, i.e. a word
-* *sempoint*    a point within a semspace, i.e. a meaning
-* *tagpoint*    a point within a tagspace, i.e. a morph
-* *episempoint* a point within a episemspace, i.e. a seme
+And a "-point" refers to a member of such a termspace:
+* *phonpoint*   a point within a phonspace, which could represent a syllable
+* *morphpoint*  a point within a morphspace, which could represent a word
+* *sempoint*    a point within a semspace, which represent meanings
+* *tagpoint*    a point within a tagspace, which could represent a seme or morph
+
+We lastly note that a termaxis is merely a set of sets. 
+It is not a mathematical bundle, since its sets need not be disjoint.
+There is also no requirement that tags represent disjoint sets of semes,
+and so we know specifically that a tagaxis is not a bundle.
+To return to our earlier example, grammatical number is a tagaxis comprised of singular, paucal, plural, etc.,
+but paucal in one language refers to a subset of the semes that plural refers to in another.
+There's no reason that an "-axis" can't be a bundle under the right circumstances.
+We argue that a tagmemaxis is a bundle, since to illustrate with Spanish, 
+a seme cannot be both singular and plural.
+This is, however, a "-emic" concept specific to a language.
+It would be desireable to have a language-agnostic concept that represents mutual exclusivity.
+We therefore introduce another term that is similar to a tag but whose definition is more strict,
+such that the members of its axis are mutually exclusive.
+Coopting the term introduced by Bloomfield (1933), we will call this an "episeme".
+An episeme behaves much like a tag, however it carries the additional criteria 
+that episemes of the same episemaxis are mutually exclusive.
+To illustrate, "mood", "aspect", and "case" are tagaxes that are typically used in the analysis of grammar.
+"mood" includes things such as "subjunctive", but subjunctive has many applications, 
+such as to represent doubt, negation, conditionals, or desire
+"aspect" includes things such as "imperfective",
+which could indicate many things that in certain languages could be their own aspect, 
+such as whether something is unfinished, or started without specifying completion, or paused.
+"case" includes things such as "accusative", which we've already seen could also represent the absolutive case.
+If one were to create a system that represented these tags as the composition of mutually exclusive units,
+such units would be episemes.
+
 
 The table defined in GLOSSARY.tsv compiles the definitions for all terms we introduce here for the project.

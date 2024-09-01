@@ -4,22 +4,31 @@ morph	An indivisible unit of sound capable of conveying meaning in any attested 
 seme	An indivisible unit of meaning that fully describes the meaning of any morpheme in any attested natural language. It is a product of episemes.	an equivalence class of semes that represents an indivisible unit of intended meaning that can be conveyed by a morpheme in a given language	disjoint sets of semes whose product defines larger constructs of meaning (e.g. suffix, prefix, noun, verb, etc.)
 tag	An indivisible unit of distinction between any set of morphemes or their arrangement in any attested natural language.	an equivalence class of tags that represents an indivisible unit of selection or between any set of morphemes or their arrangement in a given language	disjoint sets of tags whose product with other tagaxes defines a parameter space of morphemes (e.g. number, gender, tense, aspect, etc.)
 episeme	An indivisible unit of meaning that can be conveyed with a tagmeme of a given language.	an equivalence class of episemes that represents an indivisible unit of meaning that can be conveyed with a tagmeme of a given language	disjoint sets of episemes whose product with other tagaxes defines a parameter space of semes (e.g. number, gender, tense, aspect, etc.)
-
-dict*
-text*
-token*
-term*
-tag*
-sem(e)*
-
-*list
-*set
-*axis
-*indexing
-*space
-*mask
-*path
-*map
-
-*whitelist
-*blacklist
+			
+dict*	anything relating to the storage of python dictionaries		
+text*	"a string of characters (the label ""text"" is chosen for brevity)"		
+token*	a text composed entirely of nonwhitespace characters		
+term*	a predefined token		
+tag*	a set of intended meanings that are associated with a single term		
+sem(e)*	an intended meaning		
+			
+*indexing	a method of representing dictionaries in a store		
+*store	a collection of any kind		
+*list	a store that allows traversal but forbids tests of membership in the interest of performance		
+*set	a store that forbids traversal but allows tests of membership		
+*axis	"a set of disjoint sets, effectively a ""bundle"" as understood in mathematics, but whose name is more suggestive for our purpose"		
+*space	a cartesian product of axes		
+*mask	a subset of a space		
+*point	an element within a space		
+*path	a sequence of points within a space		
+*map	a store that represents a function mapping between subsets of spaces		
+			
+*whitelist	a mask that specifies elements that are included in a store		
+*blacklist	a mask that specifies elements that are excluded in a store		
+*traversal	a path that specifies the order in which inflections are to be demonstrated		
+			
+script	an inventory of characters		
+language	a function that, when given a script, maps meaning to text		
+orthography	a tuple of language and script		
+demonstration	the representation of a seme in a given orthography		
+card	a card that presented to the user in Anki, which consists of a series of demonstrations for the same seme		
