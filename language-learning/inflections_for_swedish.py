@@ -187,7 +187,6 @@ subjectivity_valency_whitelist = parse.termmask(
     '''
     intransitive  subject
     transitive    direct-object
-    intransitive  adnominal
     intransitive  adverbial
     ''')
 
@@ -197,7 +196,6 @@ subjectivity_motion_traversal = parse.termpath(
     '''
     subject       associated
     direct-object associated
-    adnominal     associated
     adverbial     acquired
     adverbial     associated
     adverbial     departed
@@ -378,7 +376,7 @@ subjectivity_motion_role_traversal = (
 )
 
 valency_subjectivity_motion_role_traversal = (
-      axis['valency'] 
+      axis['valency']
     * subjectivity_motion_role_traversal
 ) & subjectivity_valency_whitelist
 
@@ -386,7 +384,7 @@ demonstration_verbs = parse_any.tokenspace('demonstration-verbs', 'verb',
     'verb: ∅ swim fly rest walk crawl flow direct work resemble eat endure warm ' +
         ' cool fall change occupy show see watch startle displease appear be')
 
-declension_noun_traversal = (
+adposition_noun_traversal = (
     template_dummy_lookup(
         (demonstration_verbs
         * axis['template']
@@ -395,10 +393,16 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
+declension_noun_traversal = (
+    adposition_noun_traversal
+    & parse.termspace('declension-subjectivity', 'subjectivity', 
+        'subjectivity: subject direct-object')
+)
 
 
-print('flashcards/germanic/swedish/finite-conjugation.html')
-write('flashcards/germanic/swedish/finite-conjugation.html', 
+
+print('flashcards/germanic/swedish/finite-conjugation.tsv')
+write('flashcards/germanic/swedish/finite-conjugation.tsv', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -415,8 +419,8 @@ write('flashcards/germanic/swedish/finite-conjugation.html',
     ))
 
 """
-print('flashcards/germanic/swedish/participle-declension.html')
-write('flashcards/germanic/swedish/participle-declension.html', 
+print('flashcards/germanic/swedish/participle-declension.tsv')
+write('flashcards/germanic/swedish/participle-declension.tsv', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -438,8 +442,8 @@ write('flashcards/germanic/swedish/participle-declension.html',
     ))
 """
 
-print('flashcards/germanic/swedish/adpositions.html')
-write('flashcards/germanic/swedish/adpositions.html', 
+print('flashcards/germanic/swedish/adpositions.tsv')
+write('flashcards/germanic/swedish/adpositions.tsv', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -449,7 +453,7 @@ write('flashcards/germanic/swedish/adpositions.html',
             ],
         ) for demonstration in demonstrations],
         defaults.override(
-            (declension_noun_traversal * constant['man'])
+            (adposition_noun_traversal * constant['man'])
             & constant['adverbial']
             & noun_template_whitelist
         ),
@@ -459,8 +463,8 @@ write('flashcards/germanic/swedish/adpositions.html',
         },
     ))
 
-print('flashcards/germanic/swedish/common-noun-declension.html')
-write('flashcards/germanic/swedish/common-noun-declension.html',
+print('flashcards/germanic/swedish/common-noun-declension.tsv')
+write('flashcards/germanic/swedish/common-noun-declension.tsv',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -472,12 +476,12 @@ write('flashcards/germanic/swedish/common-noun-declension.html',
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('common definite'),
+            'test'       : parse.termaxis_to_term('common'),
         },
     ))
 
-print('flashcards/germanic/swedish/pronoun-declension.html')
-write('flashcards/germanic/swedish/pronoun-declension.html', 
+print('flashcards/germanic/swedish/pronoun-declension.tsv')
+write('flashcards/germanic/swedish/pronoun-declension.tsv', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -493,8 +497,8 @@ write('flashcards/germanic/swedish/pronoun-declension.html',
         },
     ))
 
-print('flashcards/germanic/swedish/adjective-agreement.html')
-write('flashcards/germanic/swedish/adjective-agreement.html', 
+print('flashcards/germanic/swedish/adjective-agreement.tsv')
+write('flashcards/germanic/swedish/adjective-agreement.tsv', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -513,8 +517,8 @@ write('flashcards/germanic/swedish/adjective-agreement.html',
         },
     ))
 
-print('flashcards/germanic/swedish/pronoun-possessives.html')
-write('flashcards/germanic/swedish/pronoun-possessives.html', 
+print('flashcards/germanic/swedish/pronoun-possessives.tsv')
+write('flashcards/germanic/swedish/pronoun-possessives.tsv', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

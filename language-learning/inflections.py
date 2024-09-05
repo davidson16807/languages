@@ -85,8 +85,12 @@ case_episemaxis_to_episemes = {
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
     'subjectivity': 'addressee subject direct-object indirect-object adverbial adnominal verb'.split(),
+    # the kind of relationship that the noun participates in
     'motion':  'departed associated acquired approached surpassed leveraged'.split(),
+    # the kind of relationship that the noun participates in
     'valency': 'impersonal intransitive transitive'.split(),
+    # whether the subject does the action voluntary, and if so, whether it was instigated
+    'volition':         'proactive reactive voluntary involuntary'.split(),
 }
 
 mood_episemaxis_to_episemes = {
