@@ -1,21 +1,60 @@
-			nominative 	accusative 	genitive 	instrumental 	allative 	dative 	locative 	short-locative	ablative 	adjectival 		
+*	*	*	nominative 	accusative 	genitive 	instrumental 	allative 	dative 	locative 	short-locative	ablative 	adjectival 	#	
 ship	nonpartitive	singular	cirya	ciryá	ciryo	ciryanen	ciryanna	ciryan	ciryassë	ciryas	ciryallo	ciryava	#	singular
 leaf	nonpartitive	singular	lassë	lassé	lassëo	lassenen	lassenna	lassen	lassessë	lasses	lassello	lasseva	#	singular
-stone	nonpartitive	singular	ondo	ondo	ondo	ondoinen	ondonta	ondor	ondosse	ondos	ondollo	ondova	#	singular
-man	nonpartitive	singular	nér	nera	nero	nerinen	nerta	neren	nerissë	neris	nerullo	nerwa	#	singular
-head	nonpartitive	singular	cas	cara	caro	carinen	casta	caren	casse	cas	callo, carullo	carwa 	#	singular
+stone	nonpartitive	singular	ᴹondo	ᴹondo	ᴹondo	ᴹondoinen	ᴹondonta	ᴹondor	ᴹondosse	ᴹondos	ᴹondollo	ᴹondova	#	singular
+man	nonpartitive	singular	ᴹnér	ᴹnera	ᴹnero	ᴹnerinen	ᴹnerta	ᴹneren	ᴹnerissë	ᴹneris	ᴹnerullo	ᴹnerwa	#	singular
+head	nonpartitive	singular	ᴹcas	ᴹcara	ᴹcaro	ᴹcarinen	ᴹcasta	ᴹcaren	ᴹcasse	ᴹcas	ᴹcallo, carullo	ᴹcarwa 	#	singular
 ship	nonpartitive	plural	ciryar	ciryai	ciryaron	ciryainen	ciryannar	ciryain	ciryassen	ciryais	ciryallon	—	#	"""plural 1"""
 leaf	nonpartitive	plural	lassí	lassí	lassion	lassínen	lassennar	lassin	lassessen	lassis	lassellon 	—	#	"""plural 1"""
+stone	nonpartitive	plural	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	#	"""plural 2"""
+man	nonpartitive	plural	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	#	"""plural 2"""
+head	nonpartitive	plural	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	#	"""plural 2"""
 ship	partitive	plural	ciryalí	ciryalí	ciryalion	ciryalínen	ciryalinna(r)	ciryalin	ciryalisse(n)	ciryalis	ciryalillo(n)	ciryalíva	#	"""plural 2"""
 leaf	partitive	plural	lasselí	lasselí	lasselion	lasselínen	lasselinna(r)	lasselin	lasselisse(n)	lasselis	lasselillo(n)	lasselíva	#	"""plural 2"""
-stone	partitive	plural	ondoli	ondoli	ondolion	ondolínen	ondolinta(n)	ondolir	ondolissen	❔	ondolillon	❔	#	"""plural 2"""
-man	partitive	plural	❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-head	partitive	plural	cari	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
+stone	partitive	plural	ᴹondoli	ᴹondoli	ᴹondolion	ᴹondolínen	ᴹondolinta(n)	ᴹondolir	ᴹondolissen	ᴹ❔	ᴹondolillon	ᴹ❔	#	"""plural 2"""
+man	partitive	plural	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	#	"""plural 2"""
+head	partitive	plural	ᴹcari	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	ᴹ❔	#	"""plural 2"""
 ship	nonpartitive	dual	ciryat	ciryat	ciryato	ciryanten	ciryanta	ciryant	ciryatsë	ciryalto	—	—	#	dual
 leaf	nonpartitive	dual	lasset	lasset	lasseto	lassenten	lassenta	lassent	lassetsë	lasselto	—	—	#	dual
-stone	nonpartitive	dual	ondos	ondos	ondu	ondoinent	ondontas	ondur	ondoset	ondollut	—	—	#	dual
-man	nonpartitive	dual	nerut	nerut	neru	❔	❔	nerur	❔	❔	—	—	#	dual
-head	nonpartitive	dual	carut	carut	caru	❔	❔	carur	❔	❔	—	—	#	dual
-														
-														
-														
+stone	nonpartitive	dual	ᴹondos	ᴹondos	ᴹondu	ᴹondoinent	ᴹondontas	ᴹondur	ᴹondoset	ᴹondollut	—	—	#	dual
+man	nonpartitive	dual	ᴹnerut	ᴹnerut	ᴹneru	ᴹ❔	ᴹ❔	ᴹnerur	ᴹ❔	ᴹ❔	—	—	#	dual
+head	nonpartitive	dual	ᴹcarut	ᴹcarut	ᴹcaru	ᴹ❔	ᴹ❔	ᴹcarur	ᴹ❔	ᴹ❔	—	—	#	dual
+animal														
+attention														
+bird														
+boat														
+book														
+brother														
+bug														
+clothing														
+daughter														
+dog														
+door														
+drum														
+enemy														
+fire														
+food														
+gift														
+glass														
+guard														
+horse														
+house														
+livestock														
+love														
+idea														
+man														
+money														
+monster														
+name														
+rock														
+rope														
+size														
+son														
+sound														
+warmth														
+water														
+way														
+wind														
+window														
+woman														
+work														

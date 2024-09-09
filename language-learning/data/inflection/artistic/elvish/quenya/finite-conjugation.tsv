@@ -1,43 +1,42 @@
-*	*	infinitive	present 	habitual	future 	past 	perfect 	active	passive	gerund 	
-*	*		unfinished					participle	participle		
-see	singular	henta	hentëa	henta	hentuva	hentanë	ehentië			hentië	strong
-see	plural	henta	hentëar	hentar	hentuvar	hentaner	ehentier			hentier	strong
-do	singular	carë	cára	carë	caruva	carnë	acárië			cárië	weak
-do	plural	carë	cárar	carir	caruvar	carner	acárier			cárier 	weak
-make	singular	carë	cára	carë	caruva	carnë	acárië			cárië	weak
-make	plural	carë	cárar	carir	caruvar	carner	acárier			cárier 	weak
-pass	singular	ava	avëa, auta	ava	auva, autuva	vánë (< wánë), avantë	(a)vánië				
-pass	plural	ava	avëar, autar	avar	auvar, autuvar	váner (< wáner), avanter	(a)vánier 				
-not do	singular	uan / uin	uan	uan / uin	uan	uan	uan				
-not do	plural	uan / uin	uan carë	uan / uin	úvan carë	únen	uien carë				
-be	singular	na	ná	na	nauva	né	anaië				
-be	plural	na	nár	nar	nauvar	ner	anaier				
-exist	singular	ëa	ëa	ëa	euva	engë	engië				
-exist	plural	ëa	ëar	ëar	euvar	enger	engier 				
-fly	singular	amavilë	amáwila	amavilë	amaviluva	amavillë	ahamavilië	amavilala	amavilda	amavilië	
-fly	plural	amavilë	amáwilar	amavilir	amaviluvar	amaviller	ahamavilier			amavilier	
-change	singular	ahya	ahyëa	ahya	ahyuva	ahyanë	aháhië, háhië	ahyala	ahyaina	ahië	
-change	plural	ahya	ahyëar	ahyar	ahyuvar	ahyaner	aháhier, háhier			ahier	
-fall	singular	lanta	lantëa	lanta	lantuva	lantanë/lantië	alantië	lantala	lantaina	lantië	
-fall	plural	lanta	lantëar	lantar	lantuvar	lantaner/lantier	alantier				
-flow	singular	sirë	síra	sirë	siruva	sirnë	isírië	sirala	sirna	sirië	
-flow	plural	sirë	sírar	sirir	siruvar	sirner	isírier				
-eat	singular	matë	máta	matë	matuva	mantë	amátië	mátala	mátina	matië	
-eat	plural	matë	mátar	matir	matuvar	manter	amátier				
-displease	singular	nwalya	nwalyëa	nwalya	nwalyuva	nwalyanë	anwálië	nwalyala	nwalyaina	nwalië	"# more like ""torment"""
-displease	plural	nwalya	nwalyëar	nwalyar	nwalyuvar	nwalyaner	anwálier				"# more like ""torment"""
-startle	singular	ruhta	ruhtëa	ruhta	ruhtuva	ruhtanë	uruhtië	ruhta	ruhtaina	ruhtië	"# more like ""terrify"""
-startle	plural	ruhta	ruhtëar	ruhtar	ruhtuvar	ruhtaner	uruhtier				"# more like ""terrify"""
-rest	singular	serë	séra	serë,	seruva	sendë	esérië	serala	serna	senë	
-rest	plural	serë	sérar	serir	seruvar	sender	esérier				
-show	singular	tana	tanëa	tana	tanuva	tananë	atánië	tanala	tanaina	tanië	
-show	plural	tana	tanëar	tanar	tanuvar	tananer	atánier				
-hear	singular	tenë	téna	tenë	tenuva	tennë	eténië	tenala	tenna	tenië	
-hear	plural	tenë	ténar	tenir	tenuvar	tenner	eténier				
-watch	singular	tire	tíra	tirë,	tiruva	tirnë	itírië	tirala	tirna	tirië	
-watch	plural	tire	tírar	tirir	tiruvar	tirner	itírier				
-direct	singular	tulya	tulyëa	tulya	tulyuva	tulyanë	utúlië	tulyala	tulyaina	tulië	"# listed as ""lead"""
-direct	plural	tulya	tulyëar	tulyar	tulyuvar	tulyaner	utúlier				"# listed as ""lead"""
-walk	singular	vanta	vantëa	vanta	vantuva	vantanë	avantië, vantië	vantala	vantaina	vantië	
-walk	plural	vanta	vantëar	vantar	vantuvar	vantaner	avantier, vantier				
-											
+*	*	infinitive	present 	habitual	future 	past 	perfect 	#	active	passive	gerund 	
+*	*		unfinished					#	participle	participle		
+see	singular	henta	hentëa	henta	hentuva	hentanë	ehentië	#			hentië	strong
+see	plural	*henta	*hentëar	*hentar	*hentuvar	*hentaner	*ehentier	#	*	*	*hentier	strong
+do	singular	carë	cára	carë	caruva	carnë	acárië	#			cárië	weak
+do	plural	*carë	*cárar	*carir	*caruvar	*carner	*acárier	#	*	*	*cárier 	weak
+make	singular	carë	cára	carë	caruva	carnë	acárië	#			cárië	weak
+make	plural	*carë	*cárar	*carir	*caruvar	*carner	*acárier	#	*	*	*cárier 	weak
+leave	singular	ava	avëa, auta	ava	auva, autuva	vánë (< wánë), avantë	(a)vánië	#	*	*	*	
+leave	plural	*ava	*avëar, autar	*avar	*auvar, autuvar	*váner (< wáner), avanter	*(a)vánier 	#	*	*	*	
+not do	singular	*uan / uin	*uan	*uan / uin	*uan	*uan	*uan	#	*	*	*	
+not do	plural	*uan / uin	*uan carë	*uan / uin	*úvan carë	*únen	*uien carë	#	*	*	*	
+be	singular	*na	ná	na	nauva	né	anaië	#	*	*	*	
+be	plural	*na	*nár	*nar	*nauvar	*ner	*anaier	#	*	*	*	
+exist	singular	*ëa	*ëa	*ëa	*euva	engë	*engië	#	*	*	*	
+exist	plural	*ëa	*ëar	*ëar	*euvar	*enger	*engier 	#	*	*	*	
+fly	singular	ᴺamavilë	ᴺamáwila	ᴺamavilë	ᴺamaviluva	ᴺamavillë	ᴺahamavilië	#	ᴺamavilala	ᴺamavilda	ᴺamavilië	
+fly	plural	ᴺamavilë	ᴺamáwilar	ᴺamavilir	ᴺamaviluvar	ᴺamaviller	ᴺahamavilier	#	*	*	ᴺamavilier	
+change	singular	*ahya	*ahyëa	*ahya	*ahyuva	ahyanë	*aháhië, háhië	#	*ahyala	*ahyaina	*ahië	
+change	plural	*ahya	*ahyëar	*ahyar	*ahyuvar	*ahyaner	*aháhier, háhier	#	*	*	*ahier	
+fall	singular	*lanta	*lantëa	*lanta	*lantuva	lantanë/lantië	*alantië,lantië	#	lantala	*lantaina	*lantië	
+fall	plural	*lanta	*lantëar	*lantar	*lantuvar	*lantaner/lantier	*alantier	#	*	*	*	
+flow	singular	*sirë	*síra	*sirë	*siruva	*sirnë	*isírië	#	*sirala	*sirna	*sirië	
+flow	plural	*sirë	*sírar	*sirir	*siruvar	*sirner	*isírier	#	*	*	*	
+eat	singular	*matë	*máta	*matë	*matuva	mantë	*amátië	#	*mátala	*mátina	*matië	
+eat	plural	*matë	*mátar	*matir	*matuvar	*manter	*amátier	#	*	*	*	
+displease	singular	*nwalya	*nwalyëa	*nwalya	*nwalyuva	*nwalyanë	*anwálië	#	*nwalyala	*nwalyaina	*nwalië	"# more like ""torment"""
+displease	plural	*nwalya	*nwalyëar	*nwalyar	*nwalyuvar	*nwalyaner	*anwálier	#	*	*	*	"# more like ""torment"""
+startle	singular	*ruhta	*ruhtëa	*ruhta	*ruhtuva	*ruhtanë	*uruhtië	#	*ruhta	*ruhtaina	*ruhtië	"# more like ""terrify"""
+startle	plural	*ruhta	*ruhtëar	*ruhtar	*ruhtuvar	*ruhtaner	*uruhtier	#	*	*	*	"# more like ""terrify"""
+rest	singular	*serë	*séra	*serë,	*seruva	sendë	*esérië	#	*serala	*serna	*senë	
+rest	plural	*serë	*sérar	*serir	*seruvar	*sender	*esérier	#	*	*	*	
+show	singular	*tana	*tanëa	*tana	*tanuva	*tananë	*atánië	#	*tanala	*tanaina	*tanië	
+show	plural	*tana	*tanëar	*tanar	*tanuvar	*tananer	*atánier	#	*	*	*	
+hear	singular	*tenë	*téna	*tenë	tenuva	*tennë	*eténië	#	*tenala	*tenna	*tenië	
+hear	plural	*tenë	*ténar	*tenir	*tenuvar	*tenner	*eténier	#	*	*	*	
+watch	singular	*tire	*tíra	tirë	tiruva	*tirnë	*itírië	#	*tirala	*tirna	*tirië	
+watch	plural	*tire	*tírar	*tirir	*tiruvar	*tirner	*itírier	#	*	*	*	
+direct	singular	*tulya	*tulyëa	*tulya	*tulyuva	*tulyanë	*utúlië	#	*tulyala	*tulyaina	*tulië	"# listed as ""lead"""
+direct	plural	*tulya	*tulyëar	*tulyar	*tulyuvar	*tulyaner	*utúlier	#	*	*	*	"# listed as ""lead"""
+walk	singular	*vanta	*vantëa	*vanta	*vantuva	*vantanë	*avantië, vantië	#	*vantala	*vantaina	*vantië	
+walk	plural	*vanta	*vantëar	*vantar	*vantuvar	*vantaner	*avantier, vantier	#	*	*	*	

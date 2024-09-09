@@ -171,6 +171,120 @@ parsing = TokenParsing()
 caching = Caching(parsing)
 formatting = RowMajorTableText('\t','\n')
 
+print('ENGLISH/MIDDLE')
+write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Middle_English', 'enm'), 
+			caching.crawl('''
+				animal    
+				attention 
+				bird      https://en.wiktionary.org/wiki/brid#Middle_English
+				boat      
+				book      
+				brother   
+				bug       
+				clothing  
+				daughter  
+				dog       https://en.wiktionary.org/wiki/hound#Middle_English
+				door      
+				drum      
+				enemy     
+				fire      
+				food      
+				gift      
+				glass     
+				guard     
+				horse     
+				house     
+				livestock 
+				love      
+				idea      
+				man       
+				money     
+				monster   
+				name      
+				rock      
+				rope      
+				size      
+				son       
+				sound     
+				warmth    
+				water     
+				way       
+				wind      
+				window    
+				woman     
+				work      
+			''')
+		)
+	)
+)
+
+
+write('data/inflection/indo-european/germanic/english/middle/scraped-verbs.tsv',
+	formatting.format(
+		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Middle_English', 'enm'), 
+			caching.crawl('''
+				appear    
+				be-inherently  https://en.wiktionary.org/wiki/been#Middle_English
+				be-momentarily 
+				change    https://en.wiktionary.org/wiki/wenden#Middle_English
+				climb     https://en.wiktionary.org/wiki/climben#Middle_English
+				crawl     
+				cool      
+				direct    https://en.wiktionary.org/wiki/dressen#Middle_English
+				displease 
+				endure    https://en.wiktionary.org/wiki/enduren#Middle_English
+				fall      https://en.wiktionary.org/wiki/fallen#Middle_English
+				fly       https://en.wiktionary.org/wiki/flien#Middle_English
+				flow      https://en.wiktionary.org/wiki/flowen#Middle_English
+				hear      https://en.wiktionary.org/wiki/heren#Middle_English
+				occupy    
+				resemble  
+				rest      
+				show      https://en.wiktionary.org/wiki/schewen#Middle_English
+				startle   https://en.wiktionary.org/wiki/fryghten#Middle_English # "frighten"
+				swim      https://en.wiktionary.org/wiki/swymmen#Middle_English
+				walk      https://en.wiktionary.org/wiki/walken#Middle_English
+				warm      
+				watch     https://en.wiktionary.org/wiki/wacche#Middle_English
+				work      https://en.wiktionary.org/wiki/werken#Middle_English
+
+				delight   https://en.wiktionary.org/wiki/gamen#Middle_English
+				pound     https://en.wiktionary.org/wiki/pounen#Middle_English
+				feed      https://en.wiktionary.org/wiki/feden#Middle_English
+				send      https://en.wiktionary.org/wiki/senden#Middle_English
+				wind      https://en.wiktionary.org/wiki/wenden#Middle_English
+				create    https://en.wiktionary.org/wiki/createn#Middle_English
+				deliver   https://en.wiktionary.org/wiki/bryngen#Middle_English
+				shine     https://en.wiktionary.org/wiki/schinen#Middle_English
+				write     https://en.wiktionary.org/wiki/writen#Middle_English
+				choose    https://en.wiktionary.org/wiki/chesen#Middle_English
+				freeze    https://en.wiktionary.org/wiki/fresen#Middle_English
+				bind      https://en.wiktionary.org/wiki/binden#Middle_English
+				help      https://en.wiktionary.org/wiki/helpen#Middle_English
+				carry     https://en.wiktionary.org/wiki/beren#Middle_English
+				break     https://en.wiktionary.org/wiki/breken#Middle_English
+				eat       https://en.wiktionary.org/wiki/eten#Middle_English
+				see       https://en.wiktionary.org/wiki/seen#Middle_English
+				stand     https://en.wiktionary.org/wiki/standen#Middle_English
+				take      https://en.wiktionary.org/wiki/taken#Middle_English
+				hold      https://en.wiktionary.org/wiki/holden#Middle_English
+				know      https://en.wiktionary.org/wiki/knowen#Middle_English
+				be        https://en.wiktionary.org/wiki/been#Middle_English
+				do        https://en.wiktionary.org/wiki/don#Middle_English
+				go        https://en.wiktionary.org/wiki/gon#Middle_English
+				want      https://en.wiktionary.org/wiki/willen#Middle_English
+				know      https://en.wiktionary.org/wiki/cunnen#Middle_English
+				dare      https://en.wiktionary.org/wiki/durren#Middle_English
+				need      https://en.wiktionary.org/wiki/moten#Middle_English
+			''')
+		)
+	)
+)
+
+raise 'done'
+
 print('SWEDISH')
 write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
 	formatting.format(
@@ -193,8 +307,8 @@ write('data/inflection/indo-european/germanic/swedish/modern/scraped-verbs.tsv',
 				hear      https://en.wiktionary.org/wiki/h%C3%B6ra#Swedish
 				occupy    https://en.wiktionary.org/wiki/uppta#Swedish
 				resemble  https://en.wiktionary.org/wiki/likna#Swedish
-				rest      
-				see       https://en.wiktionary.org/wiki/se#Swedish
+				rest     
+ 				see       https://en.wiktionary.org/wiki/se#Swedish
 				show      https://en.wiktionary.org/wiki/visa#Swedish
 				startle   https://en.wiktionary.org/wiki/spritta#Swedish
 				swim      https://en.wiktionary.org/wiki/simma#Swedish
@@ -2968,91 +3082,6 @@ write('data/inflection/turkic/turkish/scraped-verbs.tsv',
 				warm      
 				watch     https://en.wiktionary.org/wiki/seyretmek#Turkish
 				work      https://en.wiktionary.org/wiki/%C3%A7al%C4%B1%C5%9Fmak#Turkish
-			''')
-		)
-	)
-)
-
-print('ENGLISH/MIDDLE')
-write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Middle_English', 'enm'), 
-			caching.crawl('''
-				animal    
-				attention 
-				bird      https://en.wiktionary.org/wiki/brid#Middle_English
-				boat      
-				book      
-				brother   
-				bug       
-				clothing  
-				daughter  
-				dog       https://en.wiktionary.org/wiki/hound#Middle_English
-				door      
-				drum      
-				enemy     
-				fire      
-				food      
-				gift      
-				glass     
-				guard     
-				horse     
-				house     
-				livestock 
-				love      
-				idea      
-				man       
-				money     
-				monster   
-				name      
-				rock      
-				rope      
-				size      
-				son       
-				sound     
-				warmth    
-				water     
-				way       
-				wind      
-				window    
-				woman     
-				work      
-			''')
-		)
-	)
-)
-
-
-write('data/inflection/indo-european/germanic/english/middle/scraped-verbs.tsv',
-	formatting.format(
-		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Middle_English', 'enm'), 
-			caching.crawl('''
-				appear    
-				be-inherently  https://en.wiktionary.org/wiki/been#Middle_English
-				be-momentarily 
-				change    https://en.wiktionary.org/wiki/wenden#Middle_English
-				climb     https://en.wiktionary.org/wiki/climben#Middle_English
-				crawl     
-				cool      
-				direct    https://en.wiktionary.org/wiki/dressen#Middle_English
-				displease 
-				eat       https://en.wiktionary.org/wiki/eten#Middle_English
-				endure    https://en.wiktionary.org/wiki/enduren#Middle_English
-				fall      https://en.wiktionary.org/wiki/fallen#Middle_English
-				fly       https://en.wiktionary.org/wiki/flien#Middle_English
-				flow      https://en.wiktionary.org/wiki/flowen#Middle_English
-				hear      https://en.wiktionary.org/wiki/heren#Middle_English
-				occupy    
-				resemble  
-				rest      
-				see       https://en.wiktionary.org/wiki/seen#Middle_English
-				show      https://en.wiktionary.org/wiki/schewen#Middle_English
-				startle   https://en.wiktionary.org/wiki/fryghten#Middle_English # "frighten"
-				swim      https://en.wiktionary.org/wiki/swymmen#Middle_English
-				walk      https://en.wiktionary.org/wiki/walken#Middle_English
-				warm      
-				watch     https://en.wiktionary.org/wiki/wacche#Middle_English
-				work      https://en.wiktionary.org/wiki/werken#Middle_English
 			''')
 		)
 	)

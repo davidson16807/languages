@@ -47,18 +47,6 @@ direct	plural1	dressen, dresse	dresseden, dressede, dresten, dreste
 direct	imperative plural	dresseth, dresse	—	
 direct				
 direct	participles	dressynge, dressende	dressed, drest, ydressed, ydrest	
-eat	infinitive	(to) eten, ete	(to) eten, ete	(to) eten, ete
-eat		present tense	past tense	
-eat	1st-person singular	ete	at, et	
-eat	2nd-person singular	etest, est	ete, ate, at	
-eat	3rd-person singular	eteth, et	at, et	
-eat	subjunctive singular	ete	ete1, ate1	
-eat	imperative singular	ete	—	
-eat				
-eat	plural2	eten, ete	eten, ete, aten, ate	
-eat	imperative plural	eteth, ete	—	
-eat				
-eat	participles	etynge, etende	eten, ete, yeten, yete	
 fall	infinitive	(to) fallen, falle	(to) fallen, falle	(to) fallen, falle
 fall		present tense	past tense	
 fall	1st-person singular	falle	fell, falde	
@@ -95,18 +83,6 @@ flow	plural2	flowen, flowe	floweden, flowede, flewen, flewe
 flow	imperative plural	floweth, flowe	—	
 flow				
 flow	participles	flowynge, flowende	flowed, flowen, yflowed, yflowen	
-see	infinitive	(to) seen, see, sene	(to) seen, see, sene	(to) seen, see, sene
-see		present tense	past tense	
-see	1st-person singular	see	saugh, seigh, saw, sey	
-see	2nd-person singular	seest, sixt	sawe, seye, saugh, seigh, saw, sey	
-see	3rd-person singular	seeth, sikth	saugh, seigh, saw, sey	
-see	subjunctive singular	see	sawe1, seye1	
-see	imperative singular	see	—	
-see				
-see	plural2	seen, see	sawen, sawe, seyen, seye	
-see	imperative plural	seeth, see	—	
-see				
-see	participles	seynge, seende	(y)seen, (y)see, (y)seyn, (y)sey	
 show	infinitive	(to) schewen, schewe	(to) schewen, schewe	(to) schewen, schewe
 show		present tense	past tense	
 show	1st-person singular	schewe	schewed	
@@ -167,3 +143,364 @@ work	plural1	werken, werke	wroghten, wroghte
 work	imperative plural	werketh, werke	—	
 work				
 work	participles	werkynge, werkende	wroght, ywroght	
+delight	infinitive	(to) gamen, game	(to) gamen, game	(to) gamen, game
+delight		present tense	past tense	
+delight	1st-person singular	game	gamed	
+delight	2nd-person singular	gamest	gamedest	
+delight	3rd-person singular	gameth	gamed	
+delight	subjunctive singular	game	gamed	
+delight	imperative singular	game	—	
+delight				
+delight	plural1	gamen, game	gameden, gamede	
+delight	imperative plural	gameth, game	—	
+delight				
+delight	participles	gamynge, gamende	gamed, ygamed	
+pound	infinitive	(to) pounen, poune	(to) pounen, poune	(to) pounen, poune
+pound		present tense	past tense	
+pound	1st-person singular	poune	pouned	
+pound	2nd-person singular	pounest	pounedest	
+pound	3rd-person singular	pouneth	pouned	
+pound	subjunctive singular	poune	pouned	
+pound	imperative singular	poune	—	
+pound				
+pound	plural1	pounen, poune	pouneden, pounede	
+pound	imperative plural	pouneth, poune	—	
+pound				
+pound	participles	pounynge, pounende	pouned, ypouned	
+feed	infinitive	(to) feden, fede	(to) feden, fede	(to) feden, fede
+feed		present tense	past tense	
+feed	1st-person singular	fede	fedde	
+feed	2nd-person singular	fedest	feddest	
+feed	3rd-person singular	fedeth, fet	fedde	
+feed	subjunctive singular	fede	fedde	
+feed	imperative singular	fede	—	
+feed				
+feed	plural1	feden, fede	fedden, fedde	
+feed	imperative plural	fedeth, fede	—	
+feed				
+feed	participles	fedynge, fedende	fed, yfed	
+send	infinitive	(to) senden, sende	(to) senden, sende	(to) senden, sende
+send		present tense	past tense	
+send	1st-person singular	sende	sente, sende	
+send	2nd-person singular	sendest	sentest, sendest	
+send	3rd-person singular	sendeth	sente, sende	
+send	subjunctive singular	sende	sente, sende	
+send	imperative singular	sende	—	
+send				
+send	plural1	senden, sende	senten, sente, senden, sende	
+send	imperative plural	sendeth, sende	—	
+send				
+send	participles	sendynge, sendende	sent, send, ysent, ysend	
+wind	infinitive	(to) wenden, wende	(to) wenden, wende	(to) wenden, wende
+wind		present tense	past tense	
+wind	1st-person singular	wende	wente, wende	
+wind	2nd-person singular	wendest	wentest, wendest	
+wind	3rd-person singular	wendeth, went	wente, wende	
+wind	subjunctive singular	wende	wente, wende	
+wind	imperative singular	wende	—	
+wind				
+wind	plural1	wenden, wende	wenten, wente, wenden, wende	
+wind	imperative plural	wendeth, wende	—	
+wind				
+wind	participles	wendynge, wendende	went, wend, ywent, ywend	
+create	infinitive	(to) createn, create	(to) createn, create	(to) createn, create
+create		present tense	past tense	
+create	1st-person singular	create	create	
+create	2nd-person singular	createst	createst	
+create	3rd-person singular	createth	create	
+create	subjunctive singular	create	create	
+create	imperative singular	create	—	
+create				
+create	plural1	createn, create	createn, create	
+create	imperative plural	createth, create	—	
+create				
+create	participles	creatynge, creatende	creat, created	
+deliver	infinitive	(to) bryngen, brynge	(to) bryngen, brynge	(to) bryngen, brynge
+deliver		present tense	past tense	
+deliver	1st-person singular	brynge	broghte	
+deliver	2nd-person singular	bryngest	broghtest	
+deliver	3rd-person singular	bryngeth	broghte	
+deliver	subjunctive singular	brynge	broghte	
+deliver	imperative singular	brynge	—	
+deliver				
+deliver	plural1	bryngen, brynge	broghten, broghte	
+deliver	imperative plural	bryngeth, brynge	—	
+deliver				
+deliver	participles	bryngynge, bryngende	broght, ybroght	
+shine	infinitive	(to) schinen, schine	(to) schinen, schine	(to) schinen, schine
+shine		present tense	past tense	
+shine	1st-person singular	schine	schon, schined	
+shine	2nd-person singular	schinest	schone, schine, schon, schinedest	
+shine	3rd-person singular	schineth	schon, schined	
+shine	subjunctive singular	schine	schone1, schine1, schined1	
+shine	imperative singular	schine	—	
+shine				
+shine	plural2	schinen, schine	schonen, schone, schinen, schine, schineden, schinede	
+shine	imperative plural	schineth, schine	—	
+shine				
+shine	participles	schinynge, schinende	schinen, schined, yschinen, yschined	
+write	infinitive	(to) writen, write	(to) writen, write	(to) writen, write
+write		present tense	past tense	
+write	1st-person singular	write	wrot	
+write	2nd-person singular	writest	wrote, write, wrot	
+write	3rd-person singular	writeth	wrot	
+write	subjunctive singular	write	wrote1, write1	
+write	imperative singular	write	—	
+write				
+write	plural2	writen, write	wroten, wrote, writen, write	
+write	imperative plural	writeth, write	—	
+write				
+write	participles	writynge, writende	writen, wreten, ywrite	
+choose	infinitive	(to) chesen, chese	(to) chesen, chese	(to) chesen, chese
+choose		present tense	past tense	
+choose	1st-person singular	chese	chees, chas	
+choose	2nd-person singular	chesest	chose, chees, chas	
+choose	3rd-person singular	cheseth	chees, chas	
+choose	subjunctive singular	chese	chose1	
+choose	imperative singular	chese	—	
+choose				
+choose	plural2	chesen, chese	chosen, chose	
+choose	imperative plural	cheseth, chese	—	
+choose				
+choose	participles	chesynge, chesende	(y)chosen, (y)chose, (y)coren, (y)core, (y)corn	
+freeze	infinitive	(to) fresen, frese	(to) fresen, frese	(to) fresen, frese
+freeze		present tense	past tense	
+freeze	1st-person singular	frese	frees	
+freeze	2nd-person singular	fresest	frose, frese, frees	
+freeze	3rd-person singular	freseth, frest	frees	
+freeze	subjunctive singular	frese	frose1, frese1	
+freeze	imperative singular	frese	—	
+freeze				
+freeze	plural2	fresen, frese	frosen, frose, fresen, frese	
+freeze	imperative plural	freseth, frese	—	
+freeze				
+freeze	participles	fresynge, fresende	frosen, frose, froren, frore	
+bind	infinitive	(to) binden, binde	(to) binden, binde	(to) binden, binde
+bind		present tense	past tense	
+bind	1st-person singular	binde	band, bond, bound	
+bind	2nd-person singular	bindest	bounde, bonde, band	
+bind	3rd-person singular	bindeth	band, bond, bound	
+bind	subjunctive singular	binde	bounde1, bonde1	
+bind	imperative singular	binde	—	
+bind				
+bind	plural2	binden, binde	bounden, bounde, bonden, bonde	
+bind	imperative plural	bindeth, binde	—	
+bind				
+bind	participles	bindynge, bindende	bounden, bounde, ybounden, ybounde	
+help	infinitive	(to) helpen, helpe	(to) helpen, helpe	(to) helpen, helpe
+help		present tense	past tense	
+help	1st-person singular	helpe	halp	
+help	2nd-person singular	helpest	holpe, halp	
+help	3rd-person singular	helpeth	halp	
+help	subjunctive singular	helpe	holpe1	
+help	imperative singular	helpe	—	
+help				
+help	plural2	helpen, helpe	holpen, holpe	
+help	imperative plural	helpeth, helpe	—	
+help				
+help	participles	helpynge, helpende	holpen, holpe, yholpen, yholpe	
+carry	infinitive	(to) beren, bere	(to) beren, bere	(to) beren, bere
+carry		present tense	past tense	
+carry	1st-person singular	bere	bar, ber	
+carry	2nd-person singular	berest	bere, bare, bar, ber	
+carry	3rd-person singular	bereth	bar, ber	
+carry	subjunctive singular	bere	bere1, bare1	
+carry	imperative singular	bere	—	
+carry				
+carry	plural2	beren, bere	beren, bere, baren, bare	
+carry	imperative plural	bereth, bere	—	
+carry				
+carry	participles	berynge, berende	boren, bore, born, yboren, ybore, yborn	
+break	infinitive	(to) breken, breke	(to) breken, breke	(to) breken, breke
+break		present tense	past tense	
+break	1st-person singular	breke	brak, brek	
+break	2nd-person singular	brekest	breke, brake, brak, brek	
+break	3rd-person singular	breketh	brak, brek	
+break	subjunctive singular	breke	breke1, brake1	
+break	imperative singular	breke	—	
+break				
+break	plural2	breken, breke	breken, breke, braken, brake	
+break	imperative plural	breketh, breke	—	
+break				
+break	participles	brekynge, brekende	broken, broke, ybroken, ybroke	
+eat	infinitive	(to) eten, ete	(to) eten, ete	(to) eten, ete
+eat		present tense	past tense	
+eat	1st-person singular	ete	at, et	
+eat	2nd-person singular	etest, est	ete, ate, at	
+eat	3rd-person singular	eteth, et	at, et	
+eat	subjunctive singular	ete	ete1, ate1	
+eat	imperative singular	ete	—	
+eat				
+eat	plural2	eten, ete	eten, ete, aten, ate	
+eat	imperative plural	eteth, ete	—	
+eat				
+eat	participles	etynge, etende	eten, ete, yeten, yete	
+see	infinitive	(to) seen, see, sene	(to) seen, see, sene	(to) seen, see, sene
+see		present tense	past tense	
+see	1st-person singular	see	saugh, seigh, saw, sey	
+see	2nd-person singular	seest, sixt	sawe, seye, saugh, seigh, saw, sey	
+see	3rd-person singular	seeth, sikth	saugh, seigh, saw, sey	
+see	subjunctive singular	see	sawe1, seye1	
+see	imperative singular	see	—	
+see				
+see	plural2	seen, see	sawen, sawe, seyen, seye	
+see	imperative plural	seeth, see	—	
+see				
+see	participles	seynge, seende	(y)seen, (y)see, (y)seyn, (y)sey	
+stand	infinitive	(to) standen, stande	(to) standen, stande	(to) standen, stande
+stand		present tense	past tense	
+stand	1st-person singular	stande	stod	
+stand	2nd-person singular	standest	stode, stod	
+stand	3rd-person singular	standeth, stant	stod	
+stand	subjunctive singular	stande	stode1	
+stand	imperative singular	stande	—	
+stand				
+stand	plural2	standen, stande	stoden, stode	
+stand	imperative plural	standeth, stande	—	
+stand				
+stand	participles	standynge, standende	standen, stande, ystanden, ystande	
+take	infinitive	(to) taken, take	(to) taken, take	(to) taken, take
+take		present tense	past tense	
+take	1st-person singular	take	tok	
+take	2nd-person singular	takest	toke, tok	
+take	3rd-person singular	taketh	tok	
+take	subjunctive singular	take	toke1	
+take	imperative singular	take	—	
+take				
+take	plural2	taken, take	token, toke	
+take	imperative plural	taketh, take	—	
+take				
+take	participles	takynge, takende	taken, take, ytaken, ytake	
+hold	infinitive	(to) holden, holde	(to) holden, holde	(to) holden, holde
+hold		present tense	past tense	
+hold	1st-person singular	holde	held	
+hold	2nd-person singular	holdest	helde, held	
+hold	3rd-person singular	holdeth, holt	held	
+hold	subjunctive singular	holde	helde1	
+hold	imperative singular	holde	—	
+hold				
+hold	plural2	holden, holde	helden, helde	
+hold	imperative plural	holdeth, holde	—	
+hold				
+hold	participles	holdynge, holdende	holden, holde, yholden, yholde	
+know	infinitive	(to) knowen, knowe	(to) knowen, knowe	(to) knowen, knowe
+know		present tense	past tense	
+know	1st-person singular	knowe	knew	
+know	2nd-person singular	knowest	knewe, knew	
+know	3rd-person singular	knoweth	knew	
+know	subjunctive singular	knowe	knewe1	
+know	imperative singular	knowe	—	
+know				
+know	plural2	knowen, knowe	knewen, knewe	
+know	imperative plural	knoweth, knowe	—	
+know				
+know	participles	knowynge, knowende	knowen, knowe, yknowen, yknowe	
+be	infinitive	(to) been, be	(to) been, be	(to) been, be
+be		present tense	past tense	
+be	1st-person singular	am, be	was	
+be	2nd-person singular	art, bist	were	
+be	3rd-person singular	is, bith	was	
+be	subjunctive singular	be	were	
+be	imperative singular	be	—	
+be				
+be	plural1	aren, are, been, be	weren, were	
+be	subjunctive plural1	been, be	weren, were	
+be	imperative plural	beth, be	—	
+be				
+be	participles	beynge, beende	been, be, ybeen, ybe	
+do	infinitive	(to) don, do	(to) don, do	(to) don, do
+do		present tense	past tense	
+do	1st-person singular	do	dide	
+do	2nd-person singular	dost, dest	didest, dide	
+do	3rd-person singular	doth, deth	dide	
+do	subjunctive singular	do	dide	
+do	imperative singular	do	—	
+do				
+do	plural1	don, do	diden, dide	
+do	imperative plural	doth, do	—	
+do				
+do	participles	doynge, donde	don, do, ydon, ydo	
+do	infinitive	(to) don	(to) don	(to) don
+do		present tense	past tense	
+do	1st-person singular	done	doned	
+do	2nd-person singular	donest	donedest	
+do	3rd-person singular	doneth	doned	
+do	subjunctive singular	done	doned	
+do	imperative singular	done	—	
+do				
+do	plural1	donen, done	doneden, donede	
+do	imperative plural	doneth, done	—	
+do				
+do	participles	donynge, donende	doned, ydoned	
+go	infinitive	(to) gon, go	(to) gon, go	(to) gon, go
+go		present tense	past tense	
+go	1st-person singular	go	yede, wente	
+go	2nd-person singular	gost, gest	yedest, wentest	
+go	3rd-person singular	goth, geth	yede, wente	
+go	subjunctive singular	go	yede, wente	
+go	imperative singular	go	—	
+go				
+go	plural1	gon, go	yeden, yede, wenten, wente	
+go	imperative plural	goth, go	—	
+go				
+go	participles	goynge, gonde	gon, go, ygon, ygo	
+want	infinitive	(to) willen, wille, wollen, wolle	(to) willen, wille, wollen, wolle	(to) willen, wille, wollen, wolle
+want		present tense	past tense	
+want	1st-person singular	wille, wolle	wolde	
+want	2nd-person singular	wilt, wolt	woldest, wolde	
+want	3rd-person singular	wille, wolle	wolde	
+want	subjunctive singular	wille	wolde	
+want	imperative singular	—	—	
+want				
+want	plural1	willen, wille, wollen, wolle	wolden, wolde	
+want	imperative plural	—	—	
+want				
+want	participles	willynge, willende	—	
+know	infinitive	(to) cunnen, cunne	(to) cunnen, cunne	(to) cunnen, cunne
+know		present tense	past tense	
+know	1st-person singular	can	couthe, coude	
+know	2nd-person singular	canst	couthest, coust	
+know	3rd-person singular	can	couthe, coude	
+know	subjunctive singular	cunne, canne	couthe, coude	
+know	imperative singular	cunne, canne	—	
+know				
+know	plural1	cunnen, cunne, canne	couthen, couthe, couden, coude	
+know	imperative plural	cunneth, cunne, canne	—	
+know				
+know	participles	cunnynge, cunnende	cunned, coud	
+dare	infinitive	(to) durren, durre, dare	(to) durren, durre, dare	(to) durren, durre, dare
+dare		present tense	past tense	
+dare	1st-person singular	dar	durste	
+dare	2nd-person singular	darst	durstest, durste	
+dare	3rd-person singular	dar	durste	
+dare	subjunctive singular	durre, dare	durste	
+dare	imperative singular	—	—	
+dare				
+dare	plural1	durren, durre, daren, dare	dursten, durste	
+dare	imperative plural	—	—	
+dare				
+dare	participles	—	durre, dare, durst	
+need	infinitive	—	—	—
+need		present tense	past tense	
+need	1st-person singular	mot, moste	moste	
+need	2nd-person singular	most, mostest	mostest	
+need	3rd-person singular	mot, moste	moste	
+need	subjunctive singular	mote, moste	moste	
+need	imperative singular	—	—	
+need				
+need	plural1	moten, mote, mosten, moste	mosten, moste	
+need	imperative plural	—	—	
+need				
+need	participles	—	—	
+need	infinitive	(to) moten, mote	(to) moten, mote	(to) moten, mote
+need		present tense	past tense	
+need	1st-person singular	mote	moted	
+need	2nd-person singular	motest	motedest	
+need	3rd-person singular	moteth	moted	
+need	subjunctive singular	mote	moted	
+need	imperative singular	mote	—	
+need				
+need	plural1	moten, mote	moteden, motede	
+need	imperative plural	moteth, mote	—	
+need				
+need	participles	motynge, motende	moted, ymoted	
