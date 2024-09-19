@@ -214,6 +214,7 @@ write('data/inflection/indo-european/germanic/english/middle/scraped-nouns.tsv',
 				wind      
 				window    
 				woman     
+				worm      https://en.wiktionary.org/wiki/worm#Middle_English
 				work      
 			''')
 		)
@@ -367,6 +368,7 @@ noun_html = caching.crawl('''
 	wind      https://en.wiktionary.org/wiki/vind#Swedish
 	window    https://en.wiktionary.org/wiki/f%C3%B6nster#Swedish
 	woman     https://en.wiktionary.org/wiki/kvinna#Swedish
+	worm      https://en.wiktionary.org/wiki/mask#Swedish
 	work      https://en.wiktionary.org/wiki/arbete#Swedish
 ''')
 
@@ -466,6 +468,7 @@ noun_html = caching.crawl('''
 	wind      https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Ancient_Greek
 	window    https://en.wiktionary.org/wiki/%CE%B8%CF%85%CF%81%CE%AF%CF%82#Ancient_Greek
 	woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%AE#Ancient_Greek
+	worm      https://en.wiktionary.org/wiki/%CF%83%CE%BA%CF%8E%CE%BB%CE%B7%CE%BE#Ancient_Greek
 	work      https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
 
 	young-man https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek
@@ -579,6 +582,7 @@ noun_html = caching.crawl('''
 	wind      https://en.wiktionary.org/wiki/ventus#Latin
 	window    https://en.wiktionary.org/wiki/fenestra#Latin
 	woman     https://en.wiktionary.org/wiki/femina#Latin
+	worm      https://en.wiktionary.org/wiki/vermis#Latin
 	work      https://en.wiktionary.org/wiki/labor#Latin
 
 	day       https://en.wiktionary.org/wiki/dies#Latin
@@ -703,6 +707,7 @@ noun_html = caching.crawl('''
 	wind      # auelos
 	window    # iagos
 	woman     https://en.wiktionary.org/wiki/bena#Gaulish
+	worm      
 	work      # uergon
 
 ''')
@@ -797,6 +802,7 @@ noun_html = caching.crawl('''
 	wind      https://en.wiktionary.org/wiki/wind#Old_English
 	window    https://en.wiktionary.org/wiki/eagduru#Old_English
 	woman     https://en.wiktionary.org/wiki/cwene#Old_English
+	worm      
 	work      https://en.wiktionary.org/wiki/weorc#Old_English
 
 	light     https://en.wiktionary.org/wiki/scip#Old_English
@@ -929,6 +935,7 @@ write('data/inflection/indo-european/proto-indo-european/sihler/scraped-nouns.ts
 				wind      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82w%C3%A9h%E2%82%81n%CC%A5ts
 				window    
 				woman     https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%E1%B8%97n
+				worm      
 				work      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%A9r%C7%B5om
 
 				wolf      https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C4%BA%CC%A5k%CA%B7os
@@ -1041,6 +1048,7 @@ noun_html = caching.crawl('''
 	wind      https://en.wiktionary.org/wiki/%D0%B2%D0%B5%D1%82%D0%B5%D1%80#Russian
 	window    https://en.wiktionary.org/wiki/%D0%BE%D0%BA%D0%BD%D0%BE#Russian
 	woman     https://en.wiktionary.org/wiki/%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0#Russian
+	worm      
 	work      https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0#Russian
 
 	job       https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0#Russian
@@ -1196,6 +1204,7 @@ write('data/inflection/semitic/arabic/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D8%AD#Arabic
 				window    https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%81%D8%B0%D8%A9#Arabic
 				woman     https://en.wiktionary.org/wiki/%D8%A7%D9%85%D8%B1%D8%A3%D8%A9#Arabic
+				worm      https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%AF%D8%A9#Arabic
 				work      https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D9%85%D8%A9#Arabic
 			''')
 		)
@@ -1238,7 +1247,7 @@ write('data/inflection/semitic/arabic/scraped-verbs.tsv',
 )
 
 print('BASQUE')
-write('data/inflection/basque/scraped-nouns.tsv',
+write('data/inflection/isolates/basque/scraped-nouns.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Noun', ['Declension','Inflection'], 'Basque', 'eu'), 
 			caching.crawl('''
@@ -1280,6 +1289,7 @@ write('data/inflection/basque/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/haize#Basque
 				window    https://en.wiktionary.org/wiki/leiho#Basque
 				woman     https://en.wiktionary.org/wiki/andre#Basque
+				worm      https://en.wiktionary.org/wiki/beldar#Basque
 				work      https://en.wiktionary.org/wiki/lan#Basque
 			''')
 		)
@@ -1287,7 +1297,7 @@ write('data/inflection/basque/scraped-nouns.tsv',
 )
 
 
-write('data/inflection/basque/scraped-verbs.tsv',
+write('data/inflection/isolates/basque/scraped-verbs.tsv',
 	formatting.format(
 		scraping.scrape(RowMajorWikiTableHtml(ops, 'Verb', ['Conjugation','Inflection'], 'Basque', 'eu'), 
 			caching.crawl('''
@@ -1408,6 +1418,7 @@ write('data/inflection/egyptian/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%E1%B9%AF%EA%9C%A3w#Egyptian
 				window    
 				woman     https://en.wiktionary.org/wiki/zt#Egyptian
+				worm      https://en.wiktionary.org/wiki/fn%E1%B9%AF#Egyptian
 				work      
 			''')
 		)
@@ -1493,6 +1504,7 @@ write('data/inflection/uralic/finnish/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/tuuli#Finnish
 				window    https://en.wiktionary.org/wiki/ikkuna#Finnish
 				woman     https://en.wiktionary.org/wiki/nainen#Finnish
+				worm      https://en.wiktionary.org/wiki/mato#Finnish
 				work      https://en.wiktionary.org/wiki/ty%C3%B6#Finnish
 			''')
 		)
@@ -1625,6 +1637,7 @@ write('data/inflection/kartvelian/georgian/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%E1%83%A5%E1%83%90%E1%83%A0%E1%83%98#Georgian
 				window    https://en.wiktionary.org/wiki/%E1%83%A4%E1%83%90%E1%83%9C%E1%83%AF%E1%83%90%E1%83%A0%E1%83%90#Georgian
 				woman     https://en.wiktionary.org/wiki/%E1%83%A5%E1%83%90%E1%83%9A%E1%83%98#Georgian
+				worm      https://en.wiktionary.org/wiki/%E1%83%AD%E1%83%98%E1%83%90#Georgian
 				work      
 			''')
 		)
@@ -1711,6 +1724,7 @@ write('data/inflection/indo-european/germanic/german/modern/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/Wind#German
 				window    https://en.wiktionary.org/wiki/Fenster#German
 				woman     https://en.wiktionary.org/wiki/Frau#German
+				worm      https://en.wiktionary.org/wiki/Wurm#German
 				work      https://en.wiktionary.org/wiki/Arbeit#German
 			''')
 		)
@@ -1795,6 +1809,7 @@ write('data/inflection/indo-european/germanic/gothic/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B9%F0%90%8C%BD%F0%90%8C%B3%F0%90%8D%83#Gothic
 				window    
 				woman     https://en.wiktionary.org/wiki/%F0%90%8C%B5%F0%90%8C%B9%F0%90%8C%BD%F0%90%8D%89#Gothic
+				worm      https://en.wiktionary.org/wiki/%F0%90%8D%85%F0%90%8C%B0%F0%90%8C%BF%F0%90%8D%82%F0%90%8C%BC%F0%90%8D%83#Gothic
 				work      https://en.wiktionary.org/wiki/%F0%90%8C%B0%F0%90%8D%82%F0%90%8C%B1%F0%90%8C%B0%F0%90%8C%B9%F0%90%8C%B8%F0%90%8D%83#Gothic
 			''')
 		)
@@ -1882,6 +1897,7 @@ write('data/inflection/indo-european/greek/modern/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%CE%AC%CE%BD%CE%B5%CE%BC%CE%BF%CF%82#Greek
 				window    https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%81%CE%AC%CE%B8%CF%85%CF%81%CE%BF#Greek
 				woman     https://en.wiktionary.org/wiki/%CE%B3%CF%85%CE%BD%CE%B1%CE%AF%CE%BA%CE%B1#Greek
+				worm      https://en.wiktionary.org/wiki/%CF%83%CE%BA%CE%BF%CF%85%CE%BB%CE%AE%CE%BA%CE%B9#Greek
 				work      https://en.wiktionary.org/wiki/%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1#Greek
 			''')
 		)
@@ -1966,6 +1982,7 @@ write('data/inflection/semitic/hebrew/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%D7%A8%D7%95%D7%97#Hebrew
 				window    
 				woman     
+				worm      https://en.wiktionary.org/wiki/%D7%AA%D7%95%D7%9C%D7%A2%D7%AA#Hebrew
 				work      https://en.wiktionary.org/wiki/%D7%9E%D7%9C%D7%90%D7%9B%D7%94#Hebrew
 			''')
 		)
@@ -2051,6 +2068,7 @@ write('data/inflection/indo-european/indo-iranian/hindi/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%B5%E0%A4%BE#Hindi
 				window    https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%BF%E0%A4%A1%E0%A4%BC%E0%A4%95%E0%A5%80#Hindi
 				woman     https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A5%80#Hindi
+				worm      https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%80%E0%A4%A1%E0%A4%BC%E0%A4%BE#Hindi
 				work      https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF#Hindi
 			''')
 		)
@@ -2136,6 +2154,7 @@ write('data/inflection/indo-european/hittite/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%F0%92%84%B7%F0%92%8C%8B%F0%92%89%BF%F0%92%80%AD%F0%92%8D%9D
 				window    
 				woman     https://en.wiktionary.org/wiki/%F0%92%85%96%F0%92%84%A9%F0%92%80%B8%F0%92%8A%AD%F0%92%8A%8F%F0%92%80%B8#Hittite
+				worm      
 				work      
 
 				place     https://en.wiktionary.org/wiki/%F0%92%81%89%F0%92%82%8A%F0%92%81%95%F0%92%80%AD#Hittite
@@ -2231,6 +2250,7 @@ write('data/inflection/uralic/hungarian/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/sz%C3%A9l#Hungarian
 				window    https://en.wiktionary.org/wiki/ablak#Hungarian
 				woman     https://en.wiktionary.org/wiki/n%C5%91#Hungarian
+				worm      https://en.wiktionary.org/wiki/kukac#Hungarian
 				work      https://en.wiktionary.org/wiki/munka#Hungarian
 			''')
 		)
@@ -2318,6 +2338,7 @@ write('data/inflection/indo-european/celtic/irish/modern/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/gaoth#Irish
 				window    https://en.wiktionary.org/wiki/fuinneog#Irish
 				woman     https://en.wiktionary.org/wiki/bean#Irish
+				worm      https://en.wiktionary.org/wiki/p%C3%A9ist#Irish
 				work      https://en.wiktionary.org/wiki/obair#Irish
 			''')
 		)
@@ -2477,6 +2498,7 @@ write('data/inflection/indo-european/slavic/old-church-slavonic/scraped-nouns.ts
 				wind      https://en.wiktionary.org/wiki/%D0%B2%D1%A3%D1%82%D1%80%D1%8A#Old_Church_Slavonic
 				window    
 				woman     https://en.wiktionary.org/wiki/%D0%B6%D0%B5%D0%BD%D0%B0#Old_Church_Slavonic
+				worm      https://en.wiktionary.org/wiki/%D1%87%D1%80%D1%8C%D0%B2%D1%8C#Old_Church_Slavonic
 				work      https://en.wiktionary.org/wiki/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0#Old_Church_Slavonic
 			''')
 		)
@@ -2606,6 +2628,7 @@ write('data/inflection/quechuan/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/wayra#Quechua
 				window    
 				woman     https://en.wiktionary.org/wiki/warmi#Quechua
+				worm      https://en.wiktionary.org/wiki/kuru#Quechua
 				work      
 			''')
 		)
@@ -2749,6 +2772,7 @@ noun_html = caching.crawl('''
 	wind       https://en.wiktionary.org/wiki/v%C3%A2nt#Romanian
 	window     https://en.wiktionary.org/wiki/fereastr%C4%83#Romanian
 	woman      https://en.wiktionary.org/wiki/femeie#Romanian
+	worm       https://en.wiktionary.org/wiki/vierme#Romanian
 	work       https://en.wiktionary.org/wiki/munc%C4%83#Romanian
 ''')
 
@@ -2809,6 +2833,7 @@ write('data/inflection/indo-european/indo-iranian/sanskrit/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%97%E0%A4%A4%E0%A5%8D#Sanskrit
 				window    https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BE%E0%A4%A4%E0%A4%BE%E0%A4%AF%E0%A4%A8#Sanskrit
 				woman     https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%A8%E0%A4%BF#Sanskrit
+				worm      https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%AE%E0%A4%BF#Sanskrit
 				work      https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A5%8D#Sanskrit
 
 				god       https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%B5#Sanskrit
@@ -2960,6 +2985,7 @@ write('data/inflection/dravidian/tamil/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/%E0%AE%95%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81#Tamil
 				window    https://en.wiktionary.org/wiki/%E0%AE%9A%E0%AE%BE%E0%AE%B3%E0%AE%B0%E0%AE%AE%E0%AF%8D#Tamil
 				woman     https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AF%86%E0%AE%A3%E0%AF%8D#Tamil
+				worm      https://en.wiktionary.org/wiki/%E0%AE%AA%E0%AF%81%E0%AE%B4%E0%AF%81#Tamil
 				work      https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AF%87%E0%AE%B2%E0%AF%88#Tamil
 			''')
 		)
@@ -3045,6 +3071,7 @@ write('data/inflection/turkic/turkish/scraped-nouns.tsv',
 				wind      https://en.wiktionary.org/wiki/yel#Turkish
 				window    https://en.wiktionary.org/wiki/pencere#Turkish
 				woman     https://en.wiktionary.org/wiki/kad%C4%B1n#Turkish
+				worm      https://en.wiktionary.org/wiki/kurt#Turkish
 				work      https://en.wiktionary.org/wiki/i%C5%9F#Turkish
 			''')
 		)
