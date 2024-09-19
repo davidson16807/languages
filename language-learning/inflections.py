@@ -929,14 +929,13 @@ class EnglishRuleSyntax(RuleSyntax):
             for part in 'stock-adposition det n np clause'.split()
         }
         # only one determiner may exist
-        determiner_forms = ['personal-possessive']
-        for form in determiner_forms: 
-            part_to_words['det'] = (
-                [rule
-                    for rule in rules
-                    if rule.tag == 'det' and rule.tags['noun-form']==form]
-                or part_to_words['det']
-            )
+        # personal possessives
+        part_to_words['det'] = (
+            [rule
+                for rule in rules
+                if rule.tag == 'det' and rule.tags['noun-form']=='personal-possessive']
+            or part_to_words['det']
+        )
         '''
         Adjectives must occur in a certain order, starting with quantities.
         We only represent quantities in this order since quantities are 
