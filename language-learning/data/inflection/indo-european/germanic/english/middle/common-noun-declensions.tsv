@@ -63,10 +63,10 @@ daughter	nominative	dohter	dohteres	#
 daughter	accusative	dohter	dohteres	#
 daughter	genitive	dohteres	dohtere(ne)	#
 daughter	dative	dohtere	dohtere(s)	#
-dog	nominative	dogge	dogges	#
-dog	accusative	dogge	dogges	#
-dog	genitive	dogges	dogge(ne)	#
-dog	dative	dogge	dogge(s)	#
+#dog	nominative	dogge	dogges	#
+#dog	accusative	dogge	dogges	#
+#dog	genitive	dogges	dogge(ne)	#
+#dog	dative	dogge	dogge(s)	#
 door	nominative	dore	dores	#
 door	accusative	dore	dores	#
 door	genitive	dores	dore(ne)	#
@@ -172,3 +172,4 @@ work	accusative	werk	werkes	#
 work	genitive	werkes	werke(ne)	#
 work	dative	werke	werke(s)	#
 strong		strong	stronge	#
+hello		hail	hail	#

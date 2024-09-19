@@ -1,8 +1,14 @@
 *	*	*	1	2	3	3	3
-*	*	*			masculine	feminine	plural
-personal	singular	nominative	I/Ich	thou	he	she	hit
-personal	singular	genitive	my, mine	thy, thine	his	hire	his
-personal	singular	accusative	me 	thee	him	hire	hit
-personal	plural	nominative	we	ye	they	they	they
-personal	plural	genitive	oure	your	hir(e)	hir(e)	hir(e)
-personal	plural	accusative	us	you	hem	hem	hem
+*	*	*			masculine	feminine	neuter
+personal	singular	nominative	I/ich/ik	thou	he	sche/heo	hit
+personal	singular	accusative	me 	the	him	hire	hit
+personal	singular	dative	me	the	him	hire/heo	hit
+personal	singular	genitive	min	thin	his	hires	—
+personal	dual	nominative	ᴱwit	ᴱȝit	—	—	—
+personal	dual	accusative	ᴱunk	ᴱinc	—	—	—
+personal	dual	dative	ᴱunk	ᴱinc	—	—	—
+personal	dual	genitive	ᴱunker	ᴱinker	—	—	—
+personal	plural	nominative	we	ye	thei	thei	thei
+personal	plural	accusative	us	yow	them	them	them
+personal	plural	dative	us	yow	them	them	them
+personal	plural	genitive	oures	youres	theires	theires	theires

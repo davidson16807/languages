@@ -1,4 +1,15 @@
 *	*	*	*	*	present	past							
+appear	infinitive				(to) aparen	(to) aparen							
+appear	indicative	singular	1		apere	apere							
+appear	indicative	singular	2	informal	aperest	aperest							
+appear	indicative	singular	2	formal	aperen, apere	aperen, apere							
+appear	indicative	singular	3		apereth	apere							
+appear	subjunctive	singular			apere	apere							
+appear	imperative	singular			apere	—							
+appear	indicative	plural			aperen, apere	aperen, apere							
+appear	subjunctive	plural			aperen, apere	aperen, apere							
+appear	imperative	plural			apereth, apere	—							
+appear	participle				aperynge, aperende	aperet, apered							
 be-inherently	infinitive				(to) been, be	(to) been, be							
 be-inherently	indicative	singular	1		am, be	was							
 be-inherently	indicative	singular	2	informal	art, bist	were							
@@ -26,7 +37,7 @@ climb	indicative	singular	1		climbe	clamb, climbed
 climb	indicative	singular	2	informal	climbest	clumbe, clamb, climbedest							
 climb	indicative	singular	2	formal	climben, climbe	clumben, clumbe, climbeden, climbede							
 climb	indicative	singular	3		climbeth	clamb, climbed							
-climb	subjunctive	singular			climbe	clumbeᶞ, climbedᶞ							
+climb	subjunctive	singular			climbe	clumbeᴱ, climbedᴱ							
 climb	imperative	singular			climbe	—							
 climb	indicative	plural			climben, climbe	clumben, clumbe, climbeden, climbede							
 climb	subjunctive	plural			climben, climbe	clumben, clumbe, climbeden, climbede							
@@ -48,7 +59,7 @@ eat	indicative	singular	1		ete	at, et
 eat	indicative	singular	2	informal	etest, est	ete, ate, at							
 eat	indicative	singular	2	formal	eten, ete	eten, ete, aten, ate							
 eat	indicative	singular	3		eteth, et	at, et							
-eat	subjunctive	singular			ete	eteᶞ, ateᶞ							
+eat	subjunctive	singular			ete	eteᴱ, ateᴱ							
 eat	imperative	singular			ete	—							
 eat	indicative	plural			eten, ete	eten, ete, aten, ate							
 eat	subjunctive	plural			eten, ete	eten, ete, aten, ate							
@@ -59,7 +70,7 @@ fall	indicative	singular	1		falle	fell, falde
 fall	indicative	singular	2	informal	fallest	felle, fell, faldest							
 fall	indicative	singular	2	formal	fallen, falle	fellen, felle, falden, falde							
 fall	indicative	singular	3		falleth	fell, falde							
-fall	subjunctive	singular			falle	felleᶞ, faldeᶞ							
+fall	subjunctive	singular			falle	felleᴱ, faldeᴱ							
 fall	imperative	singular			falle	—							
 fall	indicative	plural			fallen, falle	fellen, felle, falden, falde							
 fall	subjunctive	plural			fallen, falle	fellen, felle, falden, falde							
@@ -70,7 +81,7 @@ fly	indicative	singular	1		flie	fleigh, flow, flew
 fly	indicative	singular	2	informal	fliest	flowe, flewe, fleigh, flow, flew							
 fly	indicative	singular	2	formal	flien, flie	flowen, flowe, flewen, flewe							
 fly	indicative	singular	3		flieth	fleigh, flow, flew							
-fly	subjunctive	singular			flie	floweᶞ, fleweᶞ							
+fly	subjunctive	singular			flie	floweᴱ, fleweᴱ							
 fly	imperative	singular			flie	—							
 fly	indicative	plural			flien, flie	flowen, flowe, flewen, flewe							
 fly	subjunctive	plural			flien, flie	flowen, flowe, flewen, flewe							
@@ -81,7 +92,7 @@ flow	indicative	singular	1		flowe	flowed, flew
 flow	indicative	singular	2	informal	flowest	flowedest, flewe, flew							
 flow	indicative	singular	2	formal	flowen, flowe	floweden, flowede, flewen, flewe							
 flow	indicative	singular	3		floweth	flowed, flew							
-flow	subjunctive	singular			flowe	flowedᶞ, fleweᶞ							
+flow	subjunctive	singular			flowe	flowedᴱ, fleweᴱ							
 flow	imperative	singular			flowe	—							
 flow	indicative	plural			flowen, flowe	floweden, flowede, flewen, flewe							
 flow	subjunctive	plural			flowen, flowe	floweden, flowede, flewen, flewe							
@@ -92,7 +103,7 @@ see	indicative	singular	1		see	saugh, seigh, saw, sey
 see	indicative	singular	2	informal	seest, sixt	sawe, seye, saugh, seigh, saw, sey							
 see	indicative	singular	2	formal	seen, see	sawen, sawe, seyen, seye							
 see	indicative	singular	3		seeth, sikth	saugh, seigh, saw, sey							
-see	subjunctive	singular			see	saweᶞ, seyeᶞ							
+see	subjunctive	singular			see	saweᴱ, seyeᴱ							
 see	imperative	singular			see	—							
 see	indicative	plural			seen, see	sawen, sawe, seyen, seye							
 see	subjunctive	plural			seen, see	sawen, sawe, seyen, seye							
@@ -125,7 +136,7 @@ swim	indicative	singular	1		swymme	swam, swymmed
 swim	indicative	singular	2	informal	swymmest	swumme, swam, swymmedest							
 swim	indicative	singular	2	formal	swymmen, swymme	swummen, swumme, swymmeden, swymmede							
 swim	indicative	singular	3		swymmeth	swam, swymmed							
-swim	subjunctive	singular			swymme	swummeᶞ, swymmedᶞ							
+swim	subjunctive	singular			swymme	swummeᴱ, swymmedᴱ							
 swim	imperative	singular			swymme	—							
 swim	indicative	plural			swymmen, swymme	swummen, swumme, swymmeden, swymmede							
 swim	subjunctive	plural			swymmen, swymme	swummen, swumme, swymmeden, swymmede							
@@ -136,7 +147,7 @@ walk	indicative	singular	1		walke	welk, walked
 walk	indicative	singular	2	informal	walkest	welke, welk, walkedest							
 walk	indicative	singular	2	formal	walken, walke	welken, welke, walkeden, walkede							
 walk	indicative	singular	3		walketh	welk, walked							
-walk	subjunctive	singular			walke	welkeᶞ, walkedᶞ							
+walk	subjunctive	singular			walke	welkeᴱ, walkedᴱ							
 walk	imperative	singular			walke	—							
 walk	indicative	plural			walken, walke	welken, welke, walkeden, walkede							
 walk	subjunctive	plural			walken, walke	welken, welke, walkeden, walkede							
@@ -318,28 +329,6 @@ break	indicative	plural			breken, breke	breken, breke, braken, brake
 break	subjunctive	plural			breken, breke	breken, breke, braken, brake							
 break	imperative	plural			breketh, breke	—							
 break	participle				brekynge, brekende	broken, broke, ybroken, ybroke							
-eat	infinitive				(to) eten, ete	(to) eten, ete							
-eat	indicative	singular	1		ete	at, et							
-eat	indicative	singular	2	informal	etest, est	ete, ate, at							
-eat	indicative	singular	2	formal	eten, ete	eten, ete, aten, ate							
-eat	indicative	singular	3		eteth, et	at, et							
-eat	subjunctive	singular			ete	ete1, ate1							
-eat	imperative	singular			ete	—							
-eat	indicative	plural			eten, ete	eten, ete, aten, ate							
-eat	subjunctive	plural			eten, ete	eten, ete, aten, ate							
-eat	imperative	plural			eteth, ete	—							
-eat	participle				etynge, etende	eten, ete, yeten, yete							
-see	infinitive				(to) seen, see, sene	(to) seen, see, sene							
-see	indicative	singular	1		see	saugh, seigh, saw, sey							
-see	indicative	singular	2	informal	seest, sixt	sawe, seye, saugh, seigh, saw, sey							
-see	indicative	singular	2	formal	seen, see	sawen, sawe, seyen, seye							
-see	indicative	singular	3		seeth, sikth	saugh, seigh, saw, sey							
-see	subjunctive	singular			see	sawe1, seye1							
-see	imperative	singular			see	—							
-see	indicative	plural			seen, see	sawen, sawe, seyen, seye							
-see	subjunctive	plural			seen, see	sawen, sawe, seyen, seye							
-see	imperative	plural			seeth, see	—							
-see	participle				seynge, seende	(y)seen, (y)see, (y)seyn, (y)sey							
 stand	infinitive				(to) standen, stande	(to) standen, stande							
 stand	indicative	singular	1		stande	stod							
 stand	indicative	singular	2	informal	standest	stode, stod							
@@ -373,17 +362,17 @@ hold	indicative	plural			holden, holde	helden, helde
 hold	subjunctive	plural			holden, holde	helden, helde							
 hold	imperative	plural			holdeth, holde	—							
 hold	participle				holdynge, holdende	holden, holde, yholden, yholde							
-know	infinitive				(to) knowen, knowe	(to) knowen, knowe							
-know	indicative	singular	1		knowe	knew							
-know	indicative	singular	2	informal	knowest	knewe, knew							
-know	indicative	singular	2	formal	knowen, knowe	knewen, knewe							
-know	indicative	singular	3		knoweth	knew							
-know	subjunctive	singular			knowe	knewe1							
-know	imperative	singular			knowe	—							
-know	indicative	plural			knowen, knowe	knewen, knewe							
-know	subjunctive	plural			knowen, knowe	knewen, knewe							
-know	imperative	plural			knoweth, knowe	—							
-know	participle				knowynge, knowende	knowen, knowe, yknowen, yknowe							
+#know	infinitive				(to) knowen, knowe	(to) knowen, knowe							
+#know	indicative	singular	1		knowe	knew							
+#know	indicative	singular	2	informal	knowest	knewe, knew							
+#know	indicative	singular	2	formal	knowen, knowe	knewen, knewe							
+#know	indicative	singular	3		knoweth	knew							
+#know	subjunctive	singular			knowe	knewe1							
+#know	imperative	singular			knowe	—							
+#know	indicative	plural			knowen, knowe	knewen, knewe							
+#know	subjunctive	plural			knowen, knowe	knewen, knewe							
+#know	imperative	plural			knoweth, knowe	—							
+#know	participle				knowynge, knowende	knowen, knowe, yknowen, yknowe							
 be	infinitive				(to) been, be	(to) been, be							
 be	indicative	singular	1		am, be	was							
 be	indicative	singular	2	informal	art, bist	were							
@@ -394,8 +383,7 @@ be	imperative	singular			be	—
 be	indicative	plural			aren, are, been, be	weren, were							
 be	subjunctive	plural			aren, are, been, be	weren, were							
 be	imperative	plural			been, be	weren, were							
-be	participle												
-be	participles				beynge, beende	been, be, ybeen, ybe							
+be	participle				beynge, beende	been, be, ybeen, ybe							
 do	infinitive				(to) don, do	(to) don, do							
 do	indicative	singular	1		do	dide							
 do	indicative	singular	2	informal	dost, dest	didest, dide							
@@ -407,18 +395,6 @@ do	indicative	plural			don, do	diden, dide
 do	subjunctive	plural			don, do	diden, dide							
 do	imperative	plural			doth, do	—							
 do	participle				doynge, donde	don, do, ydon, ydo							
-do	infinitive				(to) don	(to) don							
-do	indicative	singular	1		done	doned							
-do	indicative	singular	2	informal	donest	donedest							
-do	indicative	singular	2	formal	donen, done	doneden, donede							
-do	indicative	singular	3		doneth	doned							
-do	subjunctive	singular			done	doned							
-do	imperative	singular			done	—							
-do	indicative	plural			donen, done	doneden, donede							
-do	subjunctive	plural			donen, done	doneden, donede							
-do	imperative	plural			doneth, done	—							
-do	participle				donynge, donende	doned, ydoned							
-go	infinitive				(to) gon, go	(to) gon, go							
 go	indicative	singular	1		go	yede, wente							
 go	indicative	singular	2	informal	gost, gest	yedest, wentest							
 go	indicative	singular	2	formal	gon, go	yeden, yede, wenten, wente							
@@ -473,14 +449,14 @@ need	indicative	plural			moten, mote, mosten, moste	mosten, moste
 need	subjunctive	plural			moten, mote, mosten, moste	mosten, moste							
 need	imperative	plural			—	—							
 need	participle				—	—							
-need	infinitive				(to) moten, mote	(to) moten, mote							
-need	indicative	singular	1		mote	moted							
-need	indicative	singular	2	informal	motest	motedest							
-need	indicative	singular	2	formal	moten, mote	moteden, motede							
-need	indicative	singular	3		moteth	moted							
-need	subjunctive	singular			mote	moted							
-need	imperative	singular			mote	—							
-need	indicative	plural			moten, mote	moteden, motede							
-need	subjunctive	plural			moten, mote	moteden, motede							
-need	imperative	plural			moteth, mote	—							
-need	participle				motynge, motende	moted, ymoted							
+crawl	infinitive				(to) creulen	(to) creulen							
+crawl	indicative	singular	1		*creule	*creule							
+crawl	indicative	singular	2	informal	*creult	*creuldest, creuld							
+crawl	indicative	singular	2	formal	*creulen	*creulden, creuld							
+crawl	indicative	singular	3		creule	creuld							
+crawl	subjunctive	singular			*creule	*creulde							
+crawl	imperative	singular			*—	*—							
+crawl	indicative	plural			*creulen	*creulden, creulde							
+crawl	subjunctive	plural			*creulen	*creulden, creulde							
+crawl	imperative	plural			*creulen	*creulden, creulde							
+crawl	participle				creulande	*creulen							
