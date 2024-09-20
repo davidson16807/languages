@@ -40,7 +40,7 @@ class Language:
         self.debug = debug
     def map(self, tree, script, semes={}, substitutions=[], debug=False):
         opcode_tags = {
-            'cloze':       {'show-clozure': True, 'show-alternates':True},
+            'cloze':       {'show-clozure': True},
             'parentheses': {'show-parentheses': True},
             'implicit':    {'show-brackets': True},
             'informal':    {'formality': 'informal'},

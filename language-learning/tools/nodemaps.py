@@ -6,6 +6,15 @@ from .nodes import Rule
 "nodes.py" contains functionality used to manipulate individual nodes in a syntax tree
 """
 
+class InflectionFormatting:
+    def __init__(self):
+        pass
+    def is_clozure(self, tags):
+        return 'show-clozure' in tags and tags['show-clozure']
+    def format(self, text, tags):
+        split = re.split(' *[|/,] *', text)
+        return split[0] if not self.is_clozure(tags) else '|'.join(split)
+
 class ListSemantics:
     """
     `ListSemantics` is a library of functions that all relevant aspects of semantics in the application,
@@ -29,6 +38,7 @@ class ListSemantics:
         self.mood_usage = mood_usage
         self.aspect_usage = aspect_usage
         self.debug = debug
+        self.inflection_formatting = InflectionFormatting()
     def case(self, tags):
         return self.case_usage[tags]['case']
     def mood(self, tags):
@@ -60,7 +70,9 @@ class ListSemantics:
         return (content if len(content) > 1
             else [] if tags not in self.case_usage
             else [] if 'preposition' not in self.case_usage[tags]
-            else [content[0], self.case_usage[tags]['preposition']])
+            else [content[0], 
+                self.inflection_formatting.format(self.case_usage[tags]['preposition'], tags)]
+        )
 
 class ListGrammar:
     """
@@ -79,11 +91,7 @@ class ListGrammar:
         self.agreement_lookups = agreement_lookups
         self.debug = debug
         self.omit_code = omit_code
-        def format_alternates(text, tags):
-            split = re.split(' *[|/,] *', text)
-            show_alternates = 'show-alternates' in tags and tags['show-alternates']
-            return split[0] if not show_alternates else '|'.join(split)
-        self.format_alternates = format_alternates
+        self.inflection_formatting = InflectionFormatting()
     def decline(self, treemap, content, tags):
         if 'case' not in tags:
             return self.omit_code
@@ -93,7 +101,7 @@ class ListGrammar:
         }
         return [content[0], 
             None if sememe not in self.declension_lookups
-            else self.format_alternates(self.declension_lookups[sememe], tags)]
+            else self.inflection_formatting.format(self.declension_lookups[sememe], tags)]
     def agree(self, treemap, content, tags):
         if 'case' not in tags:
             return self.omit_code
@@ -103,7 +111,7 @@ class ListGrammar:
         }
         return [content[0], 
             None if sememe not in self.agreement_lookups
-            else self.format_alternates(self.agreement_lookups[sememe], tags)]
+            else self.inflection_formatting.format(self.agreement_lookups[sememe], tags)]
     def conjugate(self, treemap, content, tags):
         if any([tagaxis not in tags for tagaxis in 'aspect mood'.split()]):
             return self.omit_code
@@ -113,7 +121,7 @@ class ListGrammar:
         }
         return [content[0], 
             None if sememe not in self.conjugation_lookups
-            else self.format_alternates(self.conjugation_lookups[sememe], tags)]
+            else self.inflection_formatting.format(self.conjugation_lookups[sememe], tags)]
     def stock_modifier(self, treemap, content, tags):
         alttag = {**tags, 'verb-form':'argument'}
         return [content[0], 
