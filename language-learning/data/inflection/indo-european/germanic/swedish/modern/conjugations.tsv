@@ -12,28 +12,28 @@ appear	subjunctive		framträde	framträdde	—	—
 #be-inherently	infinitive		vara	vara	—	—													
 #be-inherently	supine		varit	varit	—	—													
 be-inherently	imperative	singular	var	var	—	—													
-be-inherently	imperative	plural	varen	varen	—	—													
-be-inherently	indicative	singular	är	var	—	—													
-be-inherently	indicative	plural	äro	voro	—	—													
-be-inherently	subjunctive		vare	vore	—	—													
+be-inherently	imperative	plural	varen 	varen 	—	—													
+be-inherently	indicative	singular	är 	var	—	—													
+be-inherently	indicative	plural	äro 	voro	—	—													
+be-inherently	subjunctive		vare 	vore 	—	—													
 #be-inherently	participle	present	varande	varande	varande	varande													
 #be-inherently	participle	past	—	—	—	—													
 #be-momentarily	infinitive		vara	vara	—	—													
-#be-momentarily	supine		varat	varat	—	—													
-be-momentarily	imperative	singular	vara	vara	—	—													
-be-momentarily	imperative	plural	varen	varen	—	—													
-be-momentarily	indicative	singular	varar	varade	—	—													
-be-momentarily	indicative	plural	vara	varade	—	—													
-be-momentarily	subjunctive		vare	varade	—	—													
+#be-momentarily	supine		varit	varit	—	—													
+be-momentarily	imperative	singular	var	var	—	—													
+be-momentarily	imperative	plural	varen 	varen 	—	—													
+be-momentarily	indicative	singular	är 	var	—	—													
+be-momentarily	indicative	plural	äro 	voro	—	—													
+be-momentarily	subjunctive		vare 	vore 	—	—													
 #be-momentarily	participle	present	varande	varande	varande	varande													
 #be-momentarily	participle	past	—	—	—	—													
-#be	infinitive		vara	vara	varas	varas													
-#be	supine		varat	varat	varats	varats													
-be	imperative	singular	vara	vara	—	—													
-be	imperative	plural	varen	varen	—	—													
-be	indicative	singular	varar	varade	varas	varades													
-be	indicative	plural	vara	varade	varas	varades													
-be	subjunctive		vare	varade	vares	varades													
+#be	infinitive		vara	vara	—	—													
+#be	supine		varit	varit	—	—													
+be	imperative	singular	var	var	—	—													
+be	imperative	plural	varen 	varen 	—	—													
+be	indicative	singular	är 	var	—	—													
+be	indicative	plural	äro 	voro	—	—													
+be	subjunctive		vare 	vore 	—	—													
 #be	participle	present	varande	varande	varande	varande													
 #be	participle	past	—	—	—	—													
 #change	infinitive		ändra	ändra	ändras	ändras													

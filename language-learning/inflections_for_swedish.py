@@ -400,9 +400,11 @@ declension_noun_traversal = (
 )
 
 
+deck_path = 'flashcards/germanic/swedish'
+deck_format = 'tsv'
 
-print('flashcards/germanic/swedish/finite-conjugation.tsv')
-write('flashcards/germanic/swedish/finite-conjugation.tsv', 
+print(f'{deck_path}/finite-conjugation.{deck_format}')
+write(f'{deck_path}/finite-conjugation.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -419,8 +421,8 @@ write('flashcards/germanic/swedish/finite-conjugation.tsv',
     ))
 
 """
-print('flashcards/germanic/swedish/participle-declension.tsv')
-write('flashcards/germanic/swedish/participle-declension.tsv', 
+print(f'{deck_path}/participle-declension.{deck_format}')
+write(f'{deck_path}/participle-declension.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -442,8 +444,8 @@ write('flashcards/germanic/swedish/participle-declension.tsv',
     ))
 """
 
-print('flashcards/germanic/swedish/adpositions.tsv')
-write('flashcards/germanic/swedish/adpositions.tsv', 
+print(f'{deck_path}/adpositions.{deck_format}')
+write(f'{deck_path}/adpositions.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -463,8 +465,8 @@ write('flashcards/germanic/swedish/adpositions.tsv',
         },
     ))
 
-print('flashcards/germanic/swedish/common-noun-declension.tsv')
-write('flashcards/germanic/swedish/common-noun-declension.tsv',
+print(f'{deck_path}/common-noun-{deck_format}.tsv')
+write(f'{deck_path}/common-noun-{deck_format}.tsv',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -480,8 +482,8 @@ write('flashcards/germanic/swedish/common-noun-declension.tsv',
         },
     ))
 
-print('flashcards/germanic/swedish/pronoun-declension.tsv')
-write('flashcards/germanic/swedish/pronoun-declension.tsv', 
+print(f'{deck_path}/pronoun-declension.{deck_format}')
+write(f'{deck_path}/pronoun-declension.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -497,8 +499,8 @@ write('flashcards/germanic/swedish/pronoun-declension.tsv',
         },
     ))
 
-print('flashcards/germanic/swedish/adjective-agreement.tsv')
-write('flashcards/germanic/swedish/adjective-agreement.tsv', 
+print(f'{deck_path}/adjective-agreement.{deck_format}')
+write(f'{deck_path}/adjective-agreement.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -517,8 +519,8 @@ write('flashcards/germanic/swedish/adjective-agreement.tsv',
         },
     ))
 
-print('flashcards/germanic/swedish/pronoun-possessives.tsv')
-write('flashcards/germanic/swedish/pronoun-possessives.tsv', 
+print(f'{deck_path}/pronoun-possessives.{deck_format}')
+write(f'{deck_path}/pronoun-possessives.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
