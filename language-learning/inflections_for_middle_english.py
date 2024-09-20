@@ -407,7 +407,7 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-deck_format = 'tsv'
+deck_format = 'html'
 deck_path = 'flashcards/germanic/middle-english'
 
 print(f'{deck_path}/finite-conjugation.{deck_format}')
