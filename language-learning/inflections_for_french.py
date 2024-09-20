@@ -458,8 +458,11 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/romance/french/finite-conjugation.html')
-write('flashcards/romance/french/finite-conjugation.html', 
+deck_path = 'flashcards/romance/french'
+deck_format = 'tsv'
+
+print(f'{deck_path}/finite-conjugation.{deck_format}')
+write(f'{deck_path}/finite-conjugation.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -475,8 +478,8 @@ write('flashcards/romance/french/finite-conjugation.html',
         },
     ))
 
-print('flashcards/romance/french/adpositions.html')
-write('flashcards/romance/french/adpositions.html', 
+print(f'{deck_path}/adpositions.{deck_format}')
+write(f'{deck_path}/adpositions.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -496,8 +499,8 @@ write('flashcards/romance/french/adpositions.html',
         },
     ))
 
-print('flashcards/romance/french/pronoun-declension.html')
-write('flashcards/romance/french/pronoun-declension.html', 
+print(f'{deck_path}/pronoun-declension.{deck_format}')
+write(f'{deck_path}/pronoun-declension.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -514,8 +517,8 @@ write('flashcards/romance/french/pronoun-declension.html',
         },
     ))
 
-print('flashcards/romance/french/adjective-agreement.html')
-write('flashcards/romance/french/adjective-agreement.html', 
+print(f'{deck_path}/adjective-agreement.{deck_format}')
+write(f'{deck_path}/adjective-agreement.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -536,8 +539,8 @@ write('flashcards/romance/french/adjective-agreement.html',
         },
     ))
 
-print('flashcards/romance/french/pronoun-possessives.html')
-write('flashcards/romance/french/pronoun-possessives.html', 
+print(f'{deck_path}/pronoun-possessives.{deck_format}')
+write(f'{deck_path}/pronoun-possessives.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
