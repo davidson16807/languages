@@ -101,7 +101,7 @@ foreign_termaxis_to_terms = {
         tense  :  present past
         voice  :  active middle
         mood   :  indicative subjunctive imperative optative
-        role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
+        role   :  agent patient stimulus location possessor interior surface presence aid lack interest time
         subjectivity: subject addressee direct-object adnominal indirect-object adverbial
         degree :  positive comparative
     '''),
@@ -350,7 +350,7 @@ tense_progress_mood_voice_verb_traversal = (
 conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)
 
 roles = parse_any.termspace('role', 'role', 
-    'role: stimulus possessor location interior surface subsurface presence aid lack interest time company')
+    'role: stimulus possessor location interior surface presence aid lack interest time')
 
 subjectivity_motion_role_traversal = (
     (  subjectivity_motion_traversal
