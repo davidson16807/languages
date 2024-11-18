@@ -1,6 +1,8 @@
 ,"we intend to only include inflections that are attested by Tolkein in his later years (1950-1973), unless noted otherwise by the annotations belows"
 ,these symbols closely match their usage for other languages in this project
 ,"and are largely inspired by the annotations used by ""Real Elvish Academby"" here: https://academy.realelvish.net/2018/09/15/elvish-roots-an-introduction/"
+,nouns from: https://eldamo.org/content/word-indexes/words-nq.html?neo
+,"symbols can be combined, e.g. *ᴹ indicates a word that is reconstructed from middle elvish so that it matches the forms of late elvish"
 tabular form,behavior
 """∅""","a valid inflection that is indicated by the absence of text, any mention of this character will be replaced with an empty string"
 """—""","does not exist, statements that would use this inflection are unlikely or would be rephrased, any card that includes this character will be omitted"
@@ -12,4 +14,4 @@ tabular form,behavior
 ᴱ,early (1910-1930)
 ᴹ,middle (1930-1950)
 ᴺ,neologism (1973-)
-ˀ,speculation
+ˀ,personal speculation

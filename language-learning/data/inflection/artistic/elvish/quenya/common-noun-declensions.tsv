@@ -1,58 +1,58 @@
-*	*	*	nominative 	accusative 	genitive 	instrumental 	allative 	dative 	locative 	short-locative	ablative 	adjectival 	#	
-ship	nonpartitive	singular	cirya	ciryá	ciryo	ciryanen	ciryanna	ciryan	ciryassë	ciryas	ciryallo	ciryava	#	singular
-leaf	nonpartitive	singular	lassë	lassé	lassëo	lassenen	lassenna	lassen	lassessë	lasses	lassello	lasseva	#	singular
-head	nonpartitive	singular	ᴹcas	ᴹcara	ᴹcaro	ᴹcarinen	ᴹcasta	ᴹcaren	ᴹcasse	ᴹcas	ᴹcallo, carullo	ᴹcarwa 	#	singular
-ship	nonpartitive	plural	ciryar	ciryai	ciryaron	ciryainen	ciryannar	ciryain	ciryassen	ciryais	ciryallon	—	#	"""plural 1"""
-leaf	nonpartitive	plural	lassí	lassí	lassion	lassínen	lassennar	lassin	lassessen	lassis	lassellon 	—	#	"""plural 1"""
-man	nonpartitive	plural	❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-head	nonpartitive	plural	❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-ship	partitive	plural	ciryalí	ciryalí	ciryalion	ciryalínen	ciryalinna(r)	ciryalin	ciryalisse(n)	ciryalis	ciryalillo(n)	ciryalíva	#	"""plural 2"""
-leaf	partitive	plural	lasselí	lasselí	lasselion	lasselínen	lasselinna(r)	lasselin	lasselisse(n)	lasselis	lasselillo(n)	lasselíva	#	"""plural 2"""
-stone	partitive	plural	ᴹondoli	ᴹondoli	ᴹondolion	ᴹondolínen	ᴹondolinta(n)	ᴹondolir	ᴹondolissen	ᴹ❔	ᴹondolillon	❔	#	"""plural 2"""
-head	partitive	plural	ᴹcari	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-ship	nonpartitive	dual	ciryat	ciryat	ciryato	ciryanten	ciryanta	ciryant	ciryatsë	ciryalto	—	—	#	dual
-leaf	nonpartitive	dual	lasset	lasset	lasseto	lassenten	lassenta	lassent	lassetsë	lasselto	—	—	#	dual
-head	nonpartitive	dual	ᴹcarut	ᴹcarut	ᴹcaru	❔	❔	ᴹcarur	❔	❔	—	—	#	dual
-animal														
-attention														
-bird														
-boat														
-book														
-brother														
-bug														
-clothing														
-daughter														
-dog														
-door														
-drum														
-enemy														
-fire														
-food														
-gift														
-glass														
-guard														
-horse														
-house														
-livestock														
-love														
-idea														
-man	nonpartitive	singular	ᴹnér	ᴹnera	ᴹnero	ᴹnerinen	ᴹnerta	ᴹneren	ᴹnerissë	ᴹneris	ᴹnerullo	ᴹnerwa	#	singular
-man	nonpartitive	dual	ᴹnerut	ᴹnerut	ᴹneru	❔	❔	ᴹnerur	❔	❔	—	—	#	dual
-man	partitive	plural	❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-money														
-monster														
-name														
-rock	nonpartitive	singular	ᴹondo	ᴹondo	ᴹondo	ᴹondoinen	ᴹondonta	ᴹondor	ᴹondosse	ᴹondos	ᴹondollo	ᴹondova	#	singular
-stone	nonpartitive	dual	ᴹondos	ᴹondos	ᴹondu	ᴹondoinent	ᴹondontas	ᴹondur	ᴹondoset	ᴹondollut	—	—	#	dual
-rock	nonpartitive	plural	❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-rope														
-size														
-son														
-sound														
-warmth														
-water														
-way														
-wind														
-window														
-woman														
-work														
+*	*	*		nominative 	accusative 	genitive 	instrumental 	allative 	dative 	locative 	short-locative	ablative 	adjectival 	#	
+ship	nonpartitive	singular		cirya	ciryá	ciryo	ciryanen	ciryanna	ciryan	ciryassë	ciryas	ciryallo	ciryava	#	singular
+leaf	nonpartitive	singular		lassë	lassé	lassëo	lassenen	lassenna	lassen	lassessë	lasses	lassello	lasseva	#	singular
+head	nonpartitive	singular		ᴹcas	ᴹcara	ᴹcaro	ᴹcarinen	ᴹcasta	ᴹcaren	ᴹcasse	ᴹcas	ᴹcallo, carullo	ᴹcarwa 	#	singular
+ship	nonpartitive	plural		ciryar	ciryai	ciryaron	ciryainen	ciryannar	ciryain	ciryassen	ciryais	ciryallon	—	#	"""plural 1"""
+leaf	nonpartitive	plural		lassí	lassí	lassion	lassínen	lassennar	lassin	lassessen	lassis	lassellon 	—	#	"""plural 1"""
+man	nonpartitive	plural		❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
+head	nonpartitive	plural		❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
+ship	partitive	plural		ciryalí	ciryalí	ciryalion	ciryalínen	ciryalinna(r)	ciryalin	ciryalisse(n)	ciryalis	ciryalillo(n)	ciryalíva	#	"""plural 2"""
+leaf	partitive	plural		lasselí	lasselí	lasselion	lasselínen	lasselinna(r)	lasselin	lasselisse(n)	lasselis	lasselillo(n)	lasselíva	#	"""plural 2"""
+stone	partitive	plural		ᴹondoli	ᴹondoli	ᴹondolion	ᴹondolínen	ᴹondolinta(n)	ᴹondolir	ᴹondolissen	ᴹ❔	ᴹondolillon	❔	#	"""plural 2"""
+head	partitive	plural		ᴹcari	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
+ship	nonpartitive	dual		ciryat	ciryat	ciryato	ciryanten	ciryanta	ciryant	ciryatsë	ciryalto	—	—	#	dual
+leaf	nonpartitive	dual		lasset	lasset	lasseto	lassenten	lassenta	lassent	lassetsë	lasselto	—	—	#	dual
+head	nonpartitive	dual		ᴹcarut	ᴹcarut	ᴹcaru	❔	❔	ᴹcarur	❔	❔	—	—	#	dual
+animal				*celva											
+attention				sanwë											
+bird				aiwë										#	"meaning is closer to ""thought"""
+boat				luntë											
+book				parma											
+brother				háno											
+bug				pí											
+clothing				ᴱlaupë										#	"meaning is closer to ""tunic"""
+daughter				seldë											
+dog				ᴹhuo											
+door				fendë											
+drum				ᴱtompa											
+enemy				*cotto											
+fire				úr											
+food				matta											
+gift				anna											
+glass				calca											
+guard				*ᴹtirista											
+horse				rocco											
+house				cöa											
+livestock				*celva											
+love				melmë											
+idea				ᴹinca											
+man	nonpartitive	singular		ᴹnér	ᴹnera	ᴹnero	ᴹnerinen	ᴹnerta	ᴹneren	ᴹnerissë	ᴹneris	ᴹnerullo	ᴹnerwa	#	singular
+man	nonpartitive	dual		ᴹnerut	ᴹnerut	ᴹneru	❔	❔	ᴹnerur	❔	❔	—	—	#	dual
+man	partitive	plural		❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
+money				almë										#	"meaning is closer to ""wealth"""
+monster				ᴹulundo											
+name				essë											
+rock	nonpartitive	singular		ᴹondo	ᴹondo	ᴹondo	ᴹondoinen	ᴹondonta	ᴹondor	ᴹondosse	ᴹondos	ᴹondollo	ᴹondova	#	singular
+stone	nonpartitive	dual		ᴹondos	ᴹondos	ᴹondu	ᴹondoinent	ᴹondontas	ᴹondur	ᴹondoset	ᴹondollut	—	—	#	dual
+rock	nonpartitive	plural		❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
+rope				ᴺnurda											
+size				ᴺhöassë											
+son				yondo											
+sound				hlón											
+warmth				úrë											
+water				nén											
+way				tië											
+wind				vailë											
+window				ᴱlattin											
+woman				nissë											
+work				ᴹmólomë											
