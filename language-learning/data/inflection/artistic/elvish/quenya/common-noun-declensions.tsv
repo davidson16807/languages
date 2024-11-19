@@ -1,58 +1,169 @@
-*	*	*		nominative 	accusative 	genitive 	instrumental 	allative 	dative 	locative 	short-locative	ablative 	adjectival 	#	
-ship	nonpartitive	singular		cirya	ciryá	ciryo	ciryanen	ciryanna	ciryan	ciryassë	ciryas	ciryallo	ciryava	#	singular
-leaf	nonpartitive	singular		lassë	lassé	lassëo	lassenen	lassenna	lassen	lassessë	lasses	lassello	lasseva	#	singular
-head	nonpartitive	singular		ᴹcas	ᴹcara	ᴹcaro	ᴹcarinen	ᴹcasta	ᴹcaren	ᴹcasse	ᴹcas	ᴹcallo, carullo	ᴹcarwa 	#	singular
-ship	nonpartitive	plural		ciryar	ciryai	ciryaron	ciryainen	ciryannar	ciryain	ciryassen	ciryais	ciryallon	—	#	"""plural 1"""
-leaf	nonpartitive	plural		lassí	lassí	lassion	lassínen	lassennar	lassin	lassessen	lassis	lassellon 	—	#	"""plural 1"""
-man	nonpartitive	plural		❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-head	nonpartitive	plural		❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-ship	partitive	plural		ciryalí	ciryalí	ciryalion	ciryalínen	ciryalinna(r)	ciryalin	ciryalisse(n)	ciryalis	ciryalillo(n)	ciryalíva	#	"""plural 2"""
-leaf	partitive	plural		lasselí	lasselí	lasselion	lasselínen	lasselinna(r)	lasselin	lasselisse(n)	lasselis	lasselillo(n)	lasselíva	#	"""plural 2"""
-stone	partitive	plural		ᴹondoli	ᴹondoli	ᴹondolion	ᴹondolínen	ᴹondolinta(n)	ᴹondolir	ᴹondolissen	ᴹ❔	ᴹondolillon	❔	#	"""plural 2"""
-head	partitive	plural		ᴹcari	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-ship	nonpartitive	dual		ciryat	ciryat	ciryato	ciryanten	ciryanta	ciryant	ciryatsë	ciryalto	—	—	#	dual
-leaf	nonpartitive	dual		lasset	lasset	lasseto	lassenten	lassenta	lassent	lassetsë	lasselto	—	—	#	dual
-head	nonpartitive	dual		ᴹcarut	ᴹcarut	ᴹcaru	❔	❔	ᴹcarur	❔	❔	—	—	#	dual
-animal				*celva											
-attention				sanwë											
-bird				aiwë										#	"meaning is closer to ""thought"""
-boat				luntë											
-book				parma											
-brother				háno											
-bug				pí											
-clothing				ᴱlaupë										#	"meaning is closer to ""tunic"""
-daughter				seldë											
-dog				ᴹhuo											
-door				fendë											
-drum				ᴱtompa											
-enemy				*cotto											
-fire				úr											
-food				matta											
-gift				anna											
-glass				calca											
-guard				*ᴹtirista											
-horse				rocco											
-house				cöa											
-livestock				*celva											
-love				melmë											
-idea				ᴹinca											
-man	nonpartitive	singular		ᴹnér	ᴹnera	ᴹnero	ᴹnerinen	ᴹnerta	ᴹneren	ᴹnerissë	ᴹneris	ᴹnerullo	ᴹnerwa	#	singular
-man	nonpartitive	dual		ᴹnerut	ᴹnerut	ᴹneru	❔	❔	ᴹnerur	❔	❔	—	—	#	dual
-man	partitive	plural		❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-money				almë										#	"meaning is closer to ""wealth"""
-monster				ᴹulundo											
-name				essë											
-rock	nonpartitive	singular		ᴹondo	ᴹondo	ᴹondo	ᴹondoinen	ᴹondonta	ᴹondor	ᴹondosse	ᴹondos	ᴹondollo	ᴹondova	#	singular
-stone	nonpartitive	dual		ᴹondos	ᴹondos	ᴹondu	ᴹondoinent	ᴹondontas	ᴹondur	ᴹondoset	ᴹondollut	—	—	#	dual
-rock	nonpartitive	plural		❔	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""
-rope				ᴺnurda											
-size				ᴺhöassë											
-son				yondo											
-sound				hlón											
-warmth				úrë											
-water				nén											
-way				tië											
-wind				vailë											
-window				ᴱlattin											
-woman				nissë											
-work				ᴹmólomë											
+*	*	*	nominative 	accusative 	genitive 	instrumental 	allative 	dative 	locative 	short-locative	ablative 	adjectival 	#		
+ship	nonpartitive	singular	cirya	ciryá	ciryo	ciryanen	ciryanna	ciryan	ciryassë	ciryas	ciryallo	ciryava	#	singular	
+ship	nonpartitive	dual	ciryat	ciryat	ciryato	ciryanten	ciryanta	ciryant	ciryatsë	ciryalto	—	—	#	dual	
+ship	nonpartitive	plural	ciryar	ciryai	ciryaron	ciryainen	ciryannar	ciryain	ciryassen	ciryais	ciryallon	—	#	"""plural 1"""	
+ship	partitive	plural	ciryalí	ciryalí	ciryalion	ciryalínen	ciryalinna(r)	ciryalin	ciryalisse(n)	ciryalis	ciryalillo(n)	ciryalíva	#	"""plural 2"""	
+leaf	nonpartitive	singular	lassë	lassé	lassëo	lassenen	lassenna	lassen	lassessë	lasses	lassello	lasseva	#	singular	
+leaf	nonpartitive	dual	lasset	lasset	lasseto	lassenten	lassenta	lassent	lassetsë	lasselto	—	—	#	dual	
+leaf	nonpartitive	plural	lassí	lassí	lassion	lassínen	lassennar	lassin	lassessen	lassis	lassellon 	—	#	"""plural 1"""	
+leaf	partitive	plural	lasselí	lasselí	lasselion	lasselínen	lasselinna(r)	lasselin	lasselisse(n)	lasselis	lasselillo(n)	lasselíva	#	"""plural 2"""	
+head	nonpartitive	singular	*ᴹcas	*ᴹcara	*ᴹcaro	*ᴹcarinen	*ᴹcasta	*ᴹcaren	*ᴹcasse	*ᴹcas	*ᴹcallo, carullo	*ᴹcarwa 	#	singular	
+head	nonpartitive	dual	*ᴹcarut	*ᴹcarut	*ᴹcaru	❔	❔	*ᴹcarur	❔	❔	*ᴹᴬcallut	—	#	dual	
+head	nonpartitive	plural	*ᴹcarin	❔	❔	❔	*ᴹcarintan	❔	*ᴹcarissen	*ᴹᴬcassen	*ᴹᴬcallon	❔	#	"""plural 1"""	
+head	partitive	plural	*ᴹcari	❔	❔	❔	❔	❔	❔	❔	❔	❔	#	"""plural 2"""	
+man	nonpartitive	singular	*ᴹnér	*ᴹnera	*ᴹnero	*ᴹnerinen	*ᴹnerta	*ᴹneren	*ᴹnerissë	*ᴹneris	*ᴹnerullo	*ᴹnerwa	#	singular	
+man	nonpartitive	dual	*ᴹnerut	*ᴹnerut	*ᴹneru	*ᴹneranwen	*ᴹnerdet	*ᴹnerur	*ᴹnerusset	…	*ᴹnellut	—	#	dual	
+man	nonpartitive	plural	neri	neri	*ᴹnerion	*ᴹnerínen	*ᴹnerintan	*ᴹnerir	*ᴹnerissen	…	*ᴹnerillon	…	#	"""plural 1"""	
+man	partitive	plural	…	…	…	…	…	…	…	…	…	…	#	"""plural 2"""	
+rock	nonpartitive	singular	ondo	*ᴹondo	*ᴹondo	*ᴹondoinen	*ᴹondonta	*ᴹondor	*ᴹondosse	*ᴹondos	*ᴹondollo	*ᴹondova	#	singular	
+rock	nonpartitive	dual	*ᴹondos	*ᴹondos	*ᴹondu	*ᴹondoinent	*ᴹondontas	*ᴹondur	*ᴹondoset	*ᴹondollut	—	—	#	dual	
+rock	nonpartitive	plural	ondor	*ᴹondoli	*ᴹondolion	*ᴹondoinen	*ᴹondolintan	*ᴹondolir	*ᴹondolissen	…	*ᴹondolillon	—	#	"""plural 1"""	
+rock	partitive	plural	*ᴹondoli	*ᴹondoli	*ᴹondolion	*ᴹondolínen	*ᴹondolinta(n)	*ᴹondolir	ondolisse	…	*ᴹondolillon	…	#	"""plural 2"""	
+bug	nonpartitive	singular	pí	*pí	ᴺpío	ᴺpínen	ᴺpinna	ᴺpín	ᴺpissë	…	ᴺpillo	…	#	singular	
+bug	nonpartitive	dual	ᴺpít	ᴺpít	ᴺpíto	ᴺpinten	ᴺpinta	ᴺpint	ᴺpitsë	…	ᴺpilto	…	#	"""plural 1"""	
+bug	nonpartitive	plural	ᴺpír	❔	ᴺpíron	ᴺpínen	ᴺpinnar	ᴺpín	ᴺpissen	…	ᴺpillon	…	#	dual	
+bug	partitive	plural	ᴺpíli	ᴺpíli	ᴺpílion	ᴺpilínen	ᴺpílinna	ᴺpílin	ᴺpílissë	…	ᴺpílillon	…	#	"""plural 2"""	
+animal	nonpartitive	singular	*celva	*celvá	*celvo	*celvanen	*celvanna	*celvan	*celvassë	*celvas	*celvallo	*celvava			
+animal	nonpartitive	dual	*celvat	*celvat	*celvato	*celvanten	*celvanta	*celvant	*celvatsë	*celvalto	—	—			
+animal	nonpartitive	plural	*celvar	*celvai	*celvaron	*celvainen	*celvannar	*celvain	*celvassen	*celvais	*celvallon	—			
+animal	partitive	plural	*celvalí	*celvalí	*celvalion	*celvalínen	*celvalinna(r)	*celvalin	*celvalisse(n)	*celvalis	*celvalillo(n)	*celvalíva			
+attention	nonpartitive	singular	sanwë	sanwé	sanwëo	sanwenen	sanwenna	sanwen	sanwessë	sanwes	sanwello	sanweva			
+attention	nonpartitive	dual	sanwet	sanwet	sanweto	sanwenten	sanwenta	sanwent	sanwetsë	sanwelto	—	—			
+attention	nonpartitive	plural	sanwí	sanwí	sanwion	sanwínen	sanwennar	sanwin	sanwessen	sanwis	sanwellon 	—			
+attention	partitive	plural	sanwelí	sanwelí	sanwelion	sanwelínen	sanwelinna(r)	sanwelin	sanwelisse(n)	sanwelis	sanwelillo(n)	sanwelíva			
+bird	nonpartitive	singular	aiwë	aiwé	aiwëo	aiwenen	aiwenna	aiwen	aiwessë	aiwes	aiwello	aiweva	#	"lit. ""thought"""	
+bird	nonpartitive	dual	aiwet	aiwet	aiweto	aiwenten	aiwenta	aiwent	aiwetsë	aiwelto	—	—			
+bird	nonpartitive	plural	aiwí	aiwí	aiwion	aiwínen	aiwennar	aiwin	aiwessen	aiwis	aiwellon 	—			
+bird	partitive	plural	aiwelí	aiwelí	aiwelion	aiwelínen	aiwelinna(r)	aiwelin	aiwelisse(n)	aiwelis	aiwelillo(n)	aiwelíva			
+boat	nonpartitive	singular	luntë	lunté	luntëo	luntenen	luntenna	lunten	luntessë	luntes	luntello	lunteva			
+boat	nonpartitive	dual	luntet	luntet	lunteto	luntenten	luntenta	luntent	luntetsë	luntelto	—	—			
+boat	nonpartitive	plural	luntí	luntí	luntion	luntínen	luntennar	luntin	luntessen	luntis	luntellon 	—			
+boat	partitive	plural	luntelí	luntelí	luntelion	luntelínen	luntelinna(r)	luntelin	luntelisse(n)	luntelis	luntelillo(n)	luntelíva			
+book	nonpartitive	singular	parma	parmá	parmo	parmanen	parmanna	parman	parmassë	parmas	parmallo	parmava			
+book	nonpartitive	dual	parmat	parmat	parmato	parmanten	parmanta	parmant	parmatsë	parmalto	—	—			
+book	nonpartitive	plural	parmar	parmai	parmaron	parmainen	parmannar	parmain	parmassen	parmais	parmallon	—			
+book	partitive	plural	parmalí	parmalí	parmalion	parmalínen	parmalinna(r)	parmalin	parmalisse(n)	parmalis	parmalillo(n)	parmalíva			
+brother	nonpartitive	singular	háno	*ᴹháno	*ᴹháno	*ᴹhánoinen	*ᴹhánonta	*ᴹhánor	*ᴹhánosse	*ᴹhános	*ᴹhánollo	*ᴹhánova			
+brother	nonpartitive	dual	*ᴹhános	*ᴹhános	*ᴹhánu	*ᴹhánoinent	*ᴹhánontas	*ᴹhánur	*ᴹhánoset	*ᴹhánollut	—	—			
+brother	nonpartitive	plural	hánor	*ᴹhánoli	*ᴹhánolion	*ᴹhánoinen	*ᴹhánolintan	*ᴹhánolir	*ᴹhánolissen	…	*ᴹhánolillon	—			
+brother	partitive	plural	*ᴹhánoli	*ᴹhánoli	*ᴹhánolion	*ᴹhánolínen	*ᴹhánolinta(n)	*ᴹhánolir	hánolisse	…	*ᴹhánolillon	…			
+clothing	nonpartitive	singular	ᴱlaupë	ᴱlaupé	ᴱlaupëo	ᴱlaupenen	ᴱlaupenna	ᴱlaupen	ᴱlaupessë	ᴱlaupes	ᴱlaupello	ᴱlaupeva	#	"lit. ""tunic"""	
+clothing	nonpartitive	dual	ᴱlaupet	ᴱlaupet	ᴱlaupeto	ᴱlaupenten	ᴱlaupenta	ᴱlaupent	ᴱlaupetsë	ᴱlaupelto	—	—			
+clothing	nonpartitive	plural	ᴱlaupí	ᴱlaupí	ᴱlaupion	ᴱlaupínen	ᴱlaupennar	ᴱlaupin	ᴱlaupessen	ᴱlaupis	ᴱlaupellon 	—			
+clothing	partitive	plural	ᴱlaupelí	ᴱlaupelí	ᴱlaupelion	ᴱlaupelínen	ᴱlaupelinna(r)	ᴱlaupelin	ᴱlaupelisse(n)	ᴱlaupelis	ᴱlaupelillo(n)	ᴱlaupelíva			
+daughter	nonpartitive	singular	seldë	seldé	seldëo	seldenen	seldenna	selden	seldessë	seldes	seldello	seldeva			
+daughter	nonpartitive	dual	seldet	seldet	seldeto	seldenten	seldenta	seldent	seldetsë	seldelto	—	—			
+daughter	nonpartitive	plural	seldí	seldí	seldion	seldínen	seldennar	seldin	seldessen	seldis	seldellon 	—			
+daughter	partitive	plural	seldelí	seldelí	seldelion	seldelínen	seldelinna(r)	seldelin	seldelisse(n)	seldelis	seldelillo(n)	seldelíva			
+dog	nonpartitive	singular	*ᴹhuo	*ᴹhuo	*ᴹhuo	*ᴹhuoinen	*ᴹhuonta	*ᴹhuor	*ᴹhuosse	*ᴹhuos	*ᴹhuollo	*ᴹhuova			
+dog	nonpartitive	dual	*ᴹhuos	*ᴹhuos	*ᴹhuu	*ᴹhuoinent	*ᴹhuontas	*ᴹhuur	*ᴹhuoset	*ᴹhuollut	—	—			
+dog	nonpartitive	plural	*ᴹhuor	*ᴹhuoli	*ᴹhuolion	*ᴹhuoinen	*ᴹhuolintan	*ᴹhuolir	*ᴹhuolissen	…	*ᴹhuolillon	—			
+dog	partitive	plural	*ᴹhuoli	*ᴹhuoli	*ᴹhuolion	*ᴹhuolínen	*ᴹhuolinta(n)	*ᴹhuolir	huolisse	…	*ᴹhuolillon	…			
+door	nonpartitive	singular	fendë	fendé	fendëo	fendenen	fendenna	fenden	fendessë	fendes	fendello	fendeva			
+door	nonpartitive	dual	fendet	fendet	fendeto	fendenten	fendenta	fendent	fendetsë	fendelto	—	—			
+door	nonpartitive	plural	fendí	fendí	fendion	fendínen	fendennar	fendin	fendessen	fendis	fendellon 	—			
+door	partitive	plural	fendelí	fendelí	fendelion	fendelínen	fendelinna(r)	fendelin	fendelisse(n)	fendelis	fendelillo(n)	fendelíva			
+drum	nonpartitive	singular	ᴱtompa	ᴱtompá	ᴱtompo	ᴱtompanen	ᴱtompanna	ᴱtompan	ᴱtompassë	ᴱtompas	ᴱtompallo	ᴱtompava			
+drum	nonpartitive	dual	ᴱtompat	ᴱtompat	ᴱtompato	ᴱtompanten	ᴱtompanta	ᴱtompant	ᴱtompatsë	ᴱtompalto	—	—			
+drum	nonpartitive	plural	ᴱtompar	ᴱtompai	ᴱtomparon	ᴱtompainen	ᴱtompannar	ᴱtompain	ᴱtompassen	ᴱtompais	ᴱtompallon	—			
+drum	partitive	plural	ᴱtompalí	ᴱtompalí	ᴱtompalion	ᴱtompalínen	ᴱtompalinna(r)	ᴱtompalin	ᴱtompalisse(n)	ᴱtompalis	ᴱtompalillo(n)	ᴱtompalíva			
+enemy	nonpartitive	singular	*cotto	*ᴹcotto	*ᴹcotto	*ᴹcottoinen	*ᴹcottonta	*ᴹcottor	*ᴹcottosse	*ᴹcottos	*ᴹcottollo	*ᴹcottova			
+enemy	nonpartitive	dual	*ᴹcottos	*ᴹcottos	*ᴹcottu	*ᴹcottoinent	*ᴹcottontas	*ᴹcottur	*ᴹcottoset	*ᴹcottollut	—	—			
+enemy	nonpartitive	plural	*cottor	*ᴹcottoli	*ᴹcottolion	*ᴹcottoinen	*ᴹcottolintan	*ᴹcottolir	*ᴹcottolissen	…	*ᴹcottolillon	—			
+enemy	partitive	plural	*ᴹcottoli	*ᴹcottoli	*ᴹcottolion	*ᴹcottolínen	*ᴹcottolinta(n)	*ᴹcottolir	cottolisse	…	*ᴹcottolillon	…			
+fire	nonpartitive	singular	*ᴹúr	*ᴹura	*ᴹuro	*ᴹuriun	*ᴹurta	*ᴹuren	*ᴹurissë	*ᴹuris	*ᴹurullo	*ᴹurwa			
+fire	nonpartitive	dual	*ᴹurut	*ᴹurut	*ᴹuru	*ᴹuranwen	*ᴹurdet	*ᴹurur	*ᴹurusset	❔	*ᴹullut	—			
+fire	nonpartitive	plural	uri	uri	*ᴹurion	*ᴹuríun	*ᴹurintan	*ᴹurir	*ᴹurissen	❔	*ᴹurillon	❔			
+fire	partitive	plural	❔	❔	❔	❔	❔	❔	❔	❔	❔	❔			
+food	nonpartitive	singular	matta	mattá	matto	mattanen	mattanna	mattan	mattassë	mattas	mattallo	mattava			
+food	nonpartitive	dual	mattat	mattat	mattato	mattanten	mattanta	mattant	mattatsë	mattalto	—	—			
+food	nonpartitive	plural	mattar	mattai	mattaron	mattainen	mattannar	mattain	mattassen	mattais	mattallon	—			
+food	partitive	plural	mattalí	mattalí	mattalion	mattalínen	mattalinna(r)	mattalin	mattalisse(n)	mattalis	mattalillo(n)	mattalíva			
+gift	nonpartitive	singular	anna	anná	anno	annanen	annanna	annan	annassë	annas	annallo	annava			
+gift	nonpartitive	dual	annat	annat	annato	annanten	annanta	annant	annatsë	annalto	—	—			
+gift	nonpartitive	plural	annar	annai	annaron	annainen	annannar	annain	annassen	annais	annallon	—			
+gift	partitive	plural	annalí	annalí	annalion	annalínen	annalinna(r)	annalin	annalisse(n)	annalis	annalillo(n)	annalíva			
+glass	nonpartitive	singular	calca	calcá	calco	calcanen	calcanna	calcan	calcassë	calcas	calcallo	calcava			
+glass	nonpartitive	dual	calcat	calcat	calcato	calcanten	calcanta	calcant	calcatsë	calcalto	—	—			
+glass	nonpartitive	plural	calcar	calcai	calcaron	calcainen	calcannar	calcain	calcassen	calcais	calcallon	—			
+glass	partitive	plural	calcalí	calcalí	calcalion	calcalínen	calcalinna(r)	calcalin	calcalisse(n)	calcalis	calcalillo(n)	calcalíva			
+guard	nonpartitive	singular	*ᴹtirista	*ᴹtiristá	*ᴹtiristo	*ᴹtiristanen	*ᴹtiristanna	*ᴹtiristan	*ᴹtiristassë	*ᴹtiristas	*ᴹtiristallo	*ᴹtiristava			
+guard	nonpartitive	dual	*ᴹtiristat	*ᴹtiristat	*ᴹtiristato	*ᴹtiristanten	*ᴹtiristanta	*ᴹtiristant	*ᴹtiristatsë	*ᴹtiristalto	—	—			
+guard	nonpartitive	plural	*ᴹtiristar	*ᴹtiristai	*ᴹtiristaron	*ᴹtiristainen	*ᴹtiristannar	*ᴹtiristain	*ᴹtiristassen	*ᴹtiristais	*ᴹtiristallon	—			
+guard	partitive	plural	*ᴹtiristalí	*ᴹtiristalí	*ᴹtiristalion	*ᴹtiristalínen	*ᴹtiristalinna(r)	*ᴹtiristalin	*ᴹtiristalisse(n)	*ᴹtiristalis	*ᴹtiristalillo(n)	*ᴹtiristalíva			
+horse	nonpartitive	singular	rocco	*ᴹrocco	*ᴹrocco	*ᴹroccoinen	*ᴹrocconta	*ᴹroccor	*ᴹroccosse	*ᴹroccos	*ᴹroccollo	*ᴹroccova			
+horse	nonpartitive	dual	*ᴹroccos	*ᴹroccos	*ᴹroccu	*ᴹroccoinent	*ᴹroccontas	*ᴹroccur	*ᴹroccoset	*ᴹroccollut	—	—			
+horse	nonpartitive	plural	roccor	*ᴹroccoli	*ᴹroccolion	*ᴹroccoinen	*ᴹroccolintan	*ᴹroccolir	*ᴹroccolissen	…	*ᴹroccolillon	—			
+horse	partitive	plural	*ᴹroccoli	*ᴹroccoli	*ᴹroccolion	*ᴹroccolínen	*ᴹroccolinta(n)	*ᴹroccolir	roccolisse	…	*ᴹroccolillon	…			
+house	nonpartitive	singular	cöa	cöá	cöo	cöanen	cöanna	cöan	cöassë	cöas	cöallo	cöava			
+house	nonpartitive	dual	cöat	cöat	cöato	cöanten	cöanta	cöant	cöatsë	cöalto	—	—			
+house	nonpartitive	plural	cöar	cöai	cöaron	cöainen	cöannar	cöain	cöassen	cöais	cöallon	—			
+house	partitive	plural	cöalí	cöalí	cöalion	cöalínen	cöalinna(r)	cöalin	cöalisse(n)	cöalis	cöalillo(n)	cöalíva			
+livestock	nonpartitive	singular	*celva	*celvá	*celvo	*celvanen	*celvanna	*celvan	*celvassë	*celvas	*celvallo	*celvava	#	"lit. ""animal"""	
+livestock	nonpartitive	dual	*celvat	*celvat	*celvato	*celvanten	*celvanta	*celvant	*celvatsë	*celvalto	—	—			
+livestock	nonpartitive	plural	*celvar	*celvai	*celvaron	*celvainen	*celvannar	*celvain	*celvassen	*celvais	*celvallon	—			
+livestock	partitive	plural	*celvalí	*celvalí	*celvalion	*celvalínen	*celvalinna(r)	*celvalin	*celvalisse(n)	*celvalis	*celvalillo(n)	*celvalíva			
+love	nonpartitive	singular	melmë	melmé	melmëo	melmenen	melmenna	melmen	melmessë	melmes	melmello	melmeva			
+love	nonpartitive	dual	melmet	melmet	melmeto	melmenten	melmenta	melment	melmetsë	melmelto	—	—			
+love	nonpartitive	plural	melmí	melmí	melmion	melmínen	melmennar	melmin	melmessen	melmis	melmellon 	—			
+love	partitive	plural	melmelí	melmelí	melmelion	melmelínen	melmelinna(r)	melmelin	melmelisse(n)	melmelis	melmelillo(n)	melmelíva			
+idea	nonpartitive	singular	*ᴹinca	*ᴹincá	*ᴹinco	*ᴹincanen	*ᴹincanna	*ᴹincan	*ᴹincassë	*ᴹincas	*ᴹincallo	*ᴹincava			
+idea	nonpartitive	dual	*ᴹincat	*ᴹincat	*ᴹincato	*ᴹincanten	*ᴹincanta	*ᴹincant	*ᴹincatsë	*ᴹincalto	—	—			
+idea	nonpartitive	plural	*ᴹincar	*ᴹincai	*ᴹincaron	*ᴹincainen	*ᴹincannar	*ᴹincain	*ᴹincassen	*ᴹincais	*ᴹincallon	—			
+idea	partitive	plural	*ᴹincalí	*ᴹincalí	*ᴹincalion	*ᴹincalínen	*ᴹincalinna(r)	*ᴹincalin	*ᴹincalisse(n)	*ᴹincalis	*ᴹincalillo(n)	*ᴹincalíva			
+money	nonpartitive	singular	almë	almé	almëo	almenen	almenna	almen	almessë	almes	almello	almeva	#	"lit. ""wealth"""	
+money	nonpartitive	dual	almet	almet	almeto	almenten	almenta	alment	almetsë	almelto	—	—			
+money	nonpartitive	plural	almí	almí	almion	almínen	almennar	almin	almessen	almis	almellon 	—			
+money	partitive	plural	almelí	almelí	almelion	almelínen	almelinna(r)	almelin	almelisse(n)	almelis	almelillo(n)	almelíva			
+monster	nonpartitive	singular	ulundo	*ᴹulundo	*ᴹulundo	*ᴹulundoinen	*ᴹulundonta	*ᴹulundor	*ᴹulundosse	*ᴹulundos	*ᴹulundollo	*ᴹulundova			
+monster	nonpartitive	dual	*ᴹulundos	*ᴹulundos	*ᴹulundu	*ᴹulundoinent	*ᴹulundontas	*ᴹulundur	*ᴹulundoset	*ᴹulundollut	—	—			
+monster	nonpartitive	plural	ulundor	*ᴹulundoli	*ᴹulundolion	*ᴹulundoinen	*ᴹulundolintan	*ᴹulundolir	*ᴹulundolissen	…	*ᴹulundolillon	—			
+monster	partitive	plural	*ᴹulundoli	*ᴹulundoli	*ᴹulundolion	*ᴹulundolínen	*ᴹulundolinta(n)	*ᴹulundolir	ulundolisse	…	*ᴹulundolillon	…			
+name	nonpartitive	singular	essë	essé	essëo	essenen	essenna	essen	essessë	esses	essello	esseva			
+name	nonpartitive	dual	esset	esset	esseto	essenten	essenta	essent	essetsë	esselto	—	—			
+name	nonpartitive	plural	essí	essí	ession	essínen	essennar	essin	essessen	essis	essellon 	—			
+name	partitive	plural	esselí	esselí	esselion	esselínen	esselinna(r)	esselin	esselisse(n)	esselis	esselillo(n)	esselíva			
+rope	nonpartitive	singular	ᴺnurda	ᴺnurdá	ᴺnurdo	ᴺnurdanen	ᴺnurdanna	ᴺnurdan	ᴺnurdassë	ᴺnurdas	ᴺnurdallo	ᴺnurdava			
+rope	nonpartitive	dual	ᴺnurdat	ᴺnurdat	ᴺnurdato	ᴺnurdanten	ᴺnurdanta	ᴺnurdant	ᴺnurdatsë	ᴺnurdalto	—	—			
+rope	nonpartitive	plural	ᴺnurdar	ᴺnurdai	ᴺnurdaron	ᴺnurdainen	ᴺnurdannar	ᴺnurdain	ᴺnurdassen	ᴺnurdais	ᴺnurdallon	—			
+rope	partitive	plural	ᴺnurdalí	ᴺnurdalí	ᴺnurdalion	ᴺnurdalínen	ᴺnurdalinna(r)	ᴺnurdalin	ᴺnurdalisse(n)	ᴺnurdalis	ᴺnurdalillo(n)	ᴺnurdalíva			
+size	nonpartitive	singular	ᴺhöassë	ᴺhöassé	ᴺhöassëo	ᴺhöassenen	ᴺhöassenna	ᴺhöassen	ᴺhöassessë	ᴺhöasses	ᴺhöassello	ᴺhöasseva			
+size	nonpartitive	dual	ᴺhöasset	ᴺhöasset	ᴺhöasseto	ᴺhöassenten	ᴺhöassenta	ᴺhöassent	ᴺhöassetsë	ᴺhöasselto	—	—			
+size	nonpartitive	plural	ᴺhöassí	ᴺhöassí	ᴺhöassion	ᴺhöassínen	ᴺhöassennar	ᴺhöassin	ᴺhöassessen	ᴺhöassis	ᴺhöassellon 	—			
+size	partitive	plural	ᴺhöasselí	ᴺhöasselí	ᴺhöasselion	ᴺhöasselínen	ᴺhöasselinna(r)	ᴺhöasselin	ᴺhöasselisse(n)	ᴺhöasselis	ᴺhöasselillo(n)	ᴺhöasselíva			
+son	nonpartitive	singular	yondo	*ᴹyondo	*ᴹyondo	*ᴹyondoinen	*ᴹyondonta	*ᴹyondor	*ᴹyondosse	*ᴹyondos	*ᴹyondollo	*ᴹyondova			
+son	nonpartitive	dual	*ᴹyondos	*ᴹyondos	*ᴹyondu	*ᴹyondoinent	*ᴹyondontas	*ᴹyondur	*ᴹyondoset	*ᴹyondollut	—	—			
+son	nonpartitive	plural	yondor	*ᴹyondoli	*ᴹyondolion	*ᴹyondoinen	*ᴹyondolintan	*ᴹyondolir	*ᴹyondolissen	…	*ᴹyondolillon	—			
+son	partitive	plural	*ᴹyondoli	*ᴹyondoli	*ᴹyondolion	*ᴹyondolínen	*ᴹyondolinta(n)	*ᴹyondolir	yondolisse	…	*ᴹyondolillon	…			
+sound	nonpartitive	singular	láma	lámá	lámo	lámanen	lámanna	láman	lámassë	lámas	lámallo	lámava			
+sound	nonpartitive	dual	lámat	lámat	lámato	lámanten	lámanta	lámant	lámatsë	lámalto	—	—			
+sound	nonpartitive	plural	lámar	lámai	lámaron	lámainen	lámannar	lámain	lámassen	lámais	lámallon	—			
+sound	partitive	plural	lámalí	lámalí	lámalion	lámalínen	lámalinna(r)	lámalin	lámalisse(n)	lámalis	lámalillo(n)	lámalíva			
+warmth	nonpartitive	singular	úrë	úré	úrëo	úrenen	úrenna	úren	úressë	úres	úrello	úreva			
+warmth	nonpartitive	dual	úret	úret	úreto	úrenten	úrenta	úrent	úretsë	úrelto	—	—			
+warmth	nonpartitive	plural	úrí	úrí	úrion	úrínen	úrennar	úrin	úressen	úris	úrellon 	—			
+warmth	partitive	plural	úrelí	úrelí	úrelion	úrelínen	úrelinna(r)	úrelin	úrelisse(n)	úrelis	úrelillo(n)	úrelíva			
+water	nonpartitive	singular	nén	néna	néno	nénanen	nénnéna	nénan	nénassë	nénas	nénallo	nénava			
+water	nonpartitive	dual	nénat	nénat	nénato	nénanten	nénanta	nénant	nénatsë	nénalto	—	—			
+water	nonpartitive	plural	nénar	nénai	nénaron	nénainen	nénnénar	nénain	nénassen	nénais	nénallon	—			
+water	partitive	plural	nénalí	nénalí	nénalion	nénalínen	nénalinna(r)	nénalin	nénalisse(n)	nénalis	nénalillo(n)	nénalíva			
+way	nonpartitive	singular	tië	tié	tiëo	tienen	tienna	tien	tiessë	ties	tiello	tieva			
+way	nonpartitive	dual	tiet	tiet	tieto	tienten	tienta	tient	tietsë	tielto	—	—			
+way	nonpartitive	plural	tií	tií	tiion	tiínen	tiennar	tiin	tiessen	tiis	tiellon 	—			
+way	partitive	plural	tielí	tielí	tielion	tielínen	tielinna(r)	tielin	tielisse(n)	tielis	tielillo(n)	tielíva			
+wind	nonpartitive	singular	vailë	vailé	vailëo	vailenen	vailenna	vailen	vailessë	vailes	vailello	vaileva			
+wind	nonpartitive	dual	vailet	vailet	vaileto	vailenten	vailenta	vailent	vailetsë	vailelto	—	—			
+wind	nonpartitive	plural	vailí	vailí	vailion	vailínen	vailennar	vailin	vailessen	vailis	vailellon 	—			
+wind	partitive	plural	vailelí	vailelí	vailelion	vailelínen	vailelinna(r)	vailelin	vailelisse(n)	vailelis	vailelillo(n)	vailelíva			
+window	nonpartitive	singular	*ᴱlattin	*ᴱlattina	*ᴱlattino	*ᴱlattinanen	*ᴱlattin*ᴱlattina	*ᴱlattinan	*ᴱlattinassë	*ᴱlattinas	*ᴱlattinallo	*ᴱlattinava			
+window	nonpartitive	dual	*ᴱlattinat	*ᴱlattinat	*ᴱlattinato	*ᴱlattinanten	*ᴱlattinanta	*ᴱlattinant	*ᴱlattinatsë	*ᴱlattinalto	—	—			
+window	nonpartitive	plural	*ᴱlattinar	*ᴱlattinai	*ᴱlattinaron	*ᴱlattinainen	*ᴱlattin*ᴱlattinar	*ᴱlattinain	*ᴱlattinassen	*ᴱlattinais	*ᴱlattinallon	—			
+window	partitive	plural	*ᴱlattinalí	*ᴱlattinalí	*ᴱlattinalion	*ᴱlattinalínen	*ᴱlattinalinna(r)	*ᴱlattinalin	*ᴱlattinalisse(n)	*ᴱlattinalis	*ᴱlattinalillo(n)	*ᴱlattinalíva			
+woman	nonpartitive	singular	nissë	nissé	nissëo	nissenen	nissenna	nissen	nissessë	nisses	nissello	nisseva			
+woman	nonpartitive	dual	nisset	nisset	nisseto	nissenten	nissenta	nissent	nissetsë	nisselto	—	—			
+woman	nonpartitive	plural	nissí	nissí	nission	nissínen	nissennar	nissin	nissessen	nissis	nissellon 	—			
+woman	partitive	plural	nisselí	nisselí	nisselion	nisselínen	nisselinna(r)	nisselin	nisselisse(n)	nisselis	nisselillo(n)	nisselíva			
+work	nonpartitive	singular	*ᴹmólomë	*ᴹmólomé	*ᴹmólomëo	*ᴹmólomenen	*ᴹmólomenna	*ᴹmólomen	*ᴹmólomessë	*ᴹmólomes	*ᴹmólomello	*ᴹmólomeva			
+work	nonpartitive	dual	*ᴹmólomet	*ᴹmólomet	*ᴹmólometo	*ᴹmólomenten	*ᴹmólomenta	*ᴹmóloment	*ᴹmólometsë	*ᴹmólomelto	—	—			
+work	nonpartitive	plural	*ᴹmólomí	*ᴹmólomí	*ᴹmólomion	*ᴹmólomínen	*ᴹmólomennar	*ᴹmólomin	*ᴹmólomessen	*ᴹmólomis	*ᴹmólomellon 	—			
+work	partitive	plural	*ᴹmólomelí	*ᴹmólomelí	*ᴹmólomelion	*ᴹmólomelínen	*ᴹmólomelinna(r)	*ᴹmólomelin	*ᴹmólomelisse(n)	*ᴹmólomelis	*ᴹmólomelillo(n)	*ᴹmólomelíva			
