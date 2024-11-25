@@ -583,72 +583,72 @@
 581	19-630	conspiracy|plot	noun		
 582	19-650	meet	verb		
 583	19-720	prostitute	noun		
-584	2-100	person|human being	noun		
-585	2-210	man	noun		
-586	2-220	woman	noun		
-587	2-230	male	noun		
-588	2-240	female	noun		
-589	2-250	boy	noun		
-590	2-251	young man	noun		
-591	2-260	girl	noun		
-592	2-261	young woman	noun		
-593	2-270	child	noun		
-594	2-280	infant|baby	noun		
-595	2-310	husband	noun		
-596	2-320	wife	noun		
-597	2-330	marry	verb		
-598	2-340	marriage|wedding	noun		
-599	2-341	divorce	noun		
-600	2-350	father	noun		
-601	2-360	mother	noun		
-602	2-370	parents	noun		
-603	2-380	married man	noun		
-604	2-390	married woman	noun		
-605	2-410	son	noun		
-606	2-420	daughter	noun		
-607	2-430	offspring	noun		
-608	2-440	brother	noun		
-609	2-444	older brother	noun		
-610	2-445	younger brother	noun		
-611	2-450	sister	noun		
-612	2-454	older sister	noun		
-613	2-455	younger sister	noun		
-614	2-456	sibling	noun		
-615	2-458	twins	noun		
-616	2-460	grandfather	noun		
-617	2-461	old man	noun		
-618	2-470	grandmother	noun		
-619	2-471	old woman	noun		
-620	2-480	grandson	noun		
-621	2-490	granddaughter	noun		
-622	2-510	uncle	noun		
-623	2-511	mother's brother	noun		
-624	2-512	father's brother	noun		
-625	2-520	aunt	noun		
-626	2-521	mother's sister	noun		
-627	2-522	father's sister	noun		
-628	2-530	nephew	noun		
-629	2-540	niece	noun		
-630	2-550	cousin	noun		
-631	2-560	ancestors	noun		
-632	2-570	descendants	noun		
-633	2-610	father-in-law	noun		
-634	2-611	father-in-law	noun		
-635	2-620	mother-in-law	noun		
-636	2-621	mother-in-law	noun		
-637	2-630	son-in-law	noun		
-638	2-631	son-in-law	noun		
-639	2-640	daughter-in-law	noun		
-640	2-641	daughter-in-law	noun		
-641	2-710	stepfather	noun		
-642	2-720	stepmother	noun		
-643	2-730	stepson	noun		
-644	2-740	stepdaughter	noun		
-645	2-750	orphan	noun		
-646	2-760	widow	noun		
-647	2-770	widower	noun		
-648	2-810	relatives|kinsmen	noun		
-649	2-820	family	noun		
+584	2-100	person|human being	noun		taxonomy
+585	2-210	man	noun		taxonomy
+586	2-220	woman	noun		taxonomy
+587	2-230	male	noun		taxonomy
+588	2-240	female	noun		taxonomy
+589	2-250	boy	noun		taxonomy
+590	2-251	young man	noun		taxonomy
+591	2-260	girl	noun		taxonomy
+592	2-261	young woman	noun		taxonomy
+593	2-270	child	noun		taxonomy
+594	2-280	infant|baby	noun		taxonomy
+595	2-310	husband	noun		kinship
+596	2-320	wife	noun		kinship
+597	2-330	marry	verb		kinship
+598	2-340	marriage|wedding	noun		kinship
+599	2-341	divorce	noun		kinship
+600	2-350	father	noun		kinship
+601	2-360	mother	noun		kinship
+602	2-370	parents	noun		kinship
+603	2-380	married man	noun		kinship
+604	2-390	married woman	noun		kinship
+605	2-410	son	noun		kinship
+606	2-420	daughter	noun		kinship
+607	2-430	offspring	noun		kinship
+608	2-440	brother	noun		kinship
+609	2-444	older brother	noun		kinship
+610	2-445	younger brother	noun		kinship
+611	2-450	sister	noun		kinship
+612	2-454	older sister	noun		kinship
+613	2-455	younger sister	noun		kinship
+614	2-456	sibling	noun		kinship
+615	2-458	twins	noun		kinship
+616	2-460	grandfather	noun		kinship
+617	2-461	old man	noun		kinship
+618	2-470	grandmother	noun		kinship
+619	2-471	old woman	noun		kinship
+620	2-480	grandson	noun		kinship
+621	2-490	granddaughter	noun		kinship
+622	2-510	uncle	noun		kinship
+623	2-511	mother's brother	noun		kinship
+624	2-512	father's brother	noun		kinship
+625	2-520	aunt	noun		kinship
+626	2-521	mother's sister	noun		kinship
+627	2-522	father's sister	noun		kinship
+628	2-530	nephew	noun		kinship
+629	2-540	niece	noun		kinship
+630	2-550	cousin	noun		kinship
+631	2-560	ancestors	noun		kinship
+632	2-570	descendants	noun		kinship
+633	2-610	father-in-law	noun		kinship
+634	2-611	father-in-law	noun		kinship
+635	2-620	mother-in-law	noun		kinship
+636	2-621	mother-in-law	noun		kinship
+637	2-630	son-in-law	noun		kinship
+638	2-631	son-in-law	noun		kinship
+639	2-640	daughter-in-law	noun		kinship
+640	2-641	daughter-in-law	noun		kinship
+641	2-710	stepfather	noun		kinship
+642	2-720	stepmother	noun		kinship
+643	2-730	stepson	noun		kinship
+644	2-740	stepdaughter	noun		kinship
+645	2-750	orphan	noun		kinship
+646	2-760	widow	noun		kinship
+647	2-770	widower	noun		kinship
+648	2-810	relatives|kinsmen	noun		kinship
+649	2-820	family	noun		kinship
 650	2-910	I	noun		
 651	2-920	you	noun		
 652	2-930	he|she|it	noun		
@@ -752,95 +752,95 @@
 750	3-160	pasture	noun		
 751	3-180	herdsman	noun		
 752	3-190	stable|stall	noun		
-753	3-200	cattle	noun		
-754	3-210	bull	noun		
-755	3-220	ox	noun		
-756	3-230	cow	noun		
-757	3-240	calf	noun		
-758	3-250	sheep	noun		
-759	3-260	ram	noun		
-760	3-280	ewe	noun		
-761	3-290	lamb	noun		
-762	3-320	boar	noun		
-763	3-340	sow	noun		
-764	3-350	pig	noun		
-765	3-360	goat	noun		
-766	3-370	he-goat	noun		
-767	3-380	kid	noun		
-768	3-410	horse	noun		
-769	3-420	stallion	noun		
-770	3-440	mare	noun		
-771	3-450	foal|colt	noun		
-772	3-460	ass|donkey	noun		
-773	3-470	mule	noun		
-774	3-500	fowl	noun		
-775	3-520	cock|rooster	noun		
-776	3-540	hen	noun		
-777	3-550	chicken	noun		
-778	3-560	goose	noun		
-779	3-570	duck	noun		
-780	3-580	nest	noun		
-781	3-581	bird	noun		
-782	3-582	seagull	noun		
-783	3-583	heron	noun		
-784	3-584	eagle	noun		
-785	3-585	hawk	noun		
-786	3-586	vulture	noun		
-787	3-591	bat	noun		
-788	3-592	parrot	noun		
-789	3-593	crow	noun		
-790	3-594	dove	noun		
-791	3-596	owl	noun		
-792	3-610	dog	noun		
-793	3-614	rabbit	noun		
-794	3-620	cat	noun		
-795	3-622	opossum	noun		
-796	3-630	mouse|rat	noun		
-797	3-650	fish	noun		
+753	3-200	cattle	noun		taxonomy
+754	3-210	bull	noun		taxonomy
+755	3-220	ox	noun		taxonomy
+756	3-230	cow	noun		taxonomy
+757	3-240	calf	noun		taxonomy
+758	3-250	sheep	noun		taxonomy
+759	3-260	ram	noun		taxonomy
+760	3-280	ewe	noun		taxonomy
+761	3-290	lamb	noun		taxonomy
+762	3-320	boar	noun		taxonomy
+763	3-340	sow	noun		taxonomy
+764	3-350	pig	noun		taxonomy
+765	3-360	goat	noun		taxonomy
+766	3-370	he-goat	noun		taxonomy
+767	3-380	kid	noun		taxonomy
+768	3-410	horse	noun		taxonomy
+769	3-420	stallion	noun		taxonomy
+770	3-440	mare	noun		taxonomy
+771	3-450	foal|colt	noun		taxonomy
+772	3-460	ass|donkey	noun		taxonomy
+773	3-470	mule	noun		taxonomy
+774	3-500	fowl	noun		taxonomy
+775	3-520	cock|rooster	noun		taxonomy
+776	3-540	hen	noun		taxonomy
+777	3-550	chicken	noun		taxonomy
+778	3-560	goose	noun		taxonomy
+779	3-570	duck	noun		taxonomy
+780	3-580	nest	noun		taxonomy
+781	3-581	bird	noun		taxonomy
+782	3-582	seagull	noun		taxonomy
+783	3-583	heron	noun		taxonomy
+784	3-584	eagle	noun		taxonomy
+785	3-585	hawk	noun		taxonomy
+786	3-586	vulture	noun		taxonomy
+787	3-591	bat	noun		taxonomy
+788	3-592	parrot	noun		taxonomy
+789	3-593	crow	noun		taxonomy
+790	3-594	dove	noun		taxonomy
+791	3-596	owl	noun		taxonomy
+792	3-610	dog	noun		taxonomy
+793	3-614	rabbit	noun		taxonomy
+794	3-620	cat	noun		taxonomy
+795	3-622	opossum	noun		taxonomy
+796	3-630	mouse|rat	noun		taxonomy
+797	3-650	fish	noun		taxonomy
 798	3-652	fin	noun		
 799	3-653	fishscale	noun		
 800	3-654	gill	noun		
-801	3-655	shell	noun		
-802	3-661	shark	noun		
-803	3-662	porpoise|dolphin	noun		
-804	3-663	whale	noun		
-805	3-664	stingray	noun		
-806	3-665	freshwater eel	noun		
-807	3-710	wolf	noun		
-808	3-720	lion	noun		
-809	3-730	bear	noun		
-810	3-740	fox	noun		
-811	3-750	deer	noun		
-812	3-760	monkey	noun		
-813	3-770	elephant	noun		
-814	3-780	camel	noun		
-815	3-810	insect	noun		
-816	3-811	louse	noun		
-817	3-812	nit	noun		
-818	3-813	flea	noun		
-819	3-814	centipede	noun		
-820	3-815	scorpion	noun		
-821	3-816	cockroach	noun		
-822	3-817	ant	noun		
-823	3-818	spider	noun		
+801	3-655	shell	noun		taxonomy
+802	3-661	shark	noun		taxonomy
+803	3-662	porpoise|dolphin	noun		taxonomy
+804	3-663	whale	noun		taxonomy
+805	3-664	stingray	noun		taxonomy
+806	3-665	freshwater eel	noun		taxonomy
+807	3-710	wolf	noun		taxonomy
+808	3-720	lion	noun		taxonomy
+809	3-730	bear	noun		taxonomy
+810	3-740	fox	noun		taxonomy
+811	3-750	deer	noun		taxonomy
+812	3-760	monkey	noun		taxonomy
+813	3-770	elephant	noun		taxonomy
+814	3-780	camel	noun		taxonomy
+815	3-810	insect	noun		taxonomy
+816	3-811	louse	noun		taxonomy
+817	3-812	nit	noun		taxonomy
+818	3-813	flea	noun		taxonomy
+819	3-814	centipede	noun		taxonomy
+820	3-815	scorpion	noun		taxonomy
+821	3-816	cockroach	noun		taxonomy
+822	3-817	ant	noun		taxonomy
+823	3-818	spider	noun		taxonomy
 824	3-819	spider web	noun		
-825	3-820	bee	noun		
+825	3-820	bee	noun		taxonomy
 826	3-821	beeswax	noun		
 827	3-822	beehive	noun		
-828	3-823	wasp	noun		
-829	3-830	fly	noun		
-830	3-831	sandfly|midge|gnat	noun		
-831	3-832	mosquito	noun		
-832	3-840	worm	noun		
-833	3-850	snake	noun		
-834	3-910	firefly	noun		
-835	3-920	butterfly	noun		
-836	3-930	grasshopper	noun		
-837	3-940	snail	noun		
-838	3-950	frog	noun		
-839	3-960	lizard	noun		
-840	3-970	crocodile|alligator	noun		
-841	3-980	turtle	noun		
+828	3-823	wasp	noun		taxonomy
+829	3-830	fly	noun		taxonomy
+830	3-831	sandfly|midge|gnat	noun		taxonomy
+831	3-832	mosquito	noun		taxonomy
+832	3-840	worm	noun		taxonomy
+833	3-850	snake	noun		taxonomy
+834	3-910	firefly	noun		taxonomy
+835	3-920	butterfly	noun		taxonomy
+836	3-930	grasshopper	noun		taxonomy
+837	3-940	snail	noun		taxonomy
+838	3-950	frog	noun		taxonomy
+839	3-960	lizard	noun		taxonomy
+840	3-970	crocodile|alligator	noun		taxonomy
+841	3-980	turtle	noun		taxonomy
 842	4-110	body	noun		
 843	4-120	skin|hide	noun		
 844	4-130	flesh	noun		

@@ -374,264 +374,264 @@
 372	15-410	hear	verb	*hlar-	
 373	15-420	listen	verb	lasta-	
 374	15-440	sound|noise	noun		
-375	15-450	loud	adjective		
-376	15-460	quiet|silence	noun		
-377	15-510	see	verb		
-378	15-520	look|look at	verb		
-379	15-550	show	verb		
-380	15-560	shine	verb		
-381	15-570	bright	adjective		
-382	15-610	color	noun		
-383	15-620	light	adjective		
-384	15-630	dark	adjective		
-385	15-640	white	adjective		
-386	15-650	black	adjective		
-387	15-660	red	adjective		
-388	15-670	blue	adjective		
-389	15-680	green	adjective		
-390	15-690	yellow	adjective		
-391	15-710	touch	verb		
+375	15-450	loud	adjective	hlón(a)	
+376	15-460	quiet|silence	adjective	quildë	
+377	15-510	see	verb	cen-	
+378	15-520	look|look at	verb	cen-	
+379	15-550	show	verb	*ᴱapanta-	
+380	15-560	shine	verb	*cal-	
+381	15-570	bright	adjective	nalda	
+382	15-610	color	noun	quilë	
+383	15-620	light	adjective	vilina	
+384	15-630	dark	adjective	mordo	
+385	15-640	white	adjective	fána	
+386	15-650	black	adjective	morë	
+387	15-660	red	adjective	carnë	
+388	15-670	blue	adjective	luinë	
+389	15-680	green	adjective	laica	
+390	15-690	yellow	adjective	malina	
+391	15-710	touch	verb	appa-	
 392	15-712	pinch	verb		
-393	15-720	feel	verb		
-394	15-740	hard	adjective		
-395	15-750	soft	adjective		
-396	15-760	rough	adjective		
-397	15-770	smooth	adjective		
-398	15-780	sharp	adjective		
-399	15-790	blunt|dull	adjective		
-400	15-810	heavy	adjective		
-401	15-820	light-weight	adjective		
-402	15-830	wet|damp	adjective		
-403	15-840	dry	adjective		
-404	15-850	hot	adjective		
-405	15-851	warm	adjective		
-406	15-860	cold	adjective		
-407	15-870	clean	adjective		
-408	15-880	dirty|soiled	adjective		
+393	15-720	feel	verb	ᴺfel-	
+394	15-740	hard	adjective	norna	
+395	15-750	soft	adjective	ᴹmilya, ᴺmoica	
+396	15-760	rough	adjective	ᴺhorna	# Luinyelle
+397	15-770	smooth	adjective	ᴺmilla	
+398	15-780	sharp	adjective	maica	
+399	15-790	blunt|dull	adjective	*ᴱalaica	# Paul Strack
+400	15-810	heavy	adjective	*lungo	
+401	15-820	light-weight	adjective	cólima	
+402	15-830	wet|damp	adjective	ᴹlinquë, ᴹmixa, ᴹnítë	
+403	15-840	dry	adjective	ᴹparca	
+404	15-850	hot	adjective	úra	
+405	15-851	warm	adjective	lauca	
+406	15-860	cold	adjective	helca	
+407	15-870	clean	adjective	ᴹpoica	
+408	15-880	dirty|soiled	adjective	ᴹvára	
 409	15-890	wrinkled	adjective		
-410	16-110	soul|spirit	noun		
+410	16-110	soul|spirit	noun	fëa	
 411	16-150	surprised|astonished	adjective		
-412	16-180	good fortune|luck	noun		
+412	16-180	good fortune|luck	noun	almë	
 413	16-190	misfortune|bad luck	noun		
-414	16-230	joyful|glad|happy	adjective		
-415	16-250	laugh	verb		
-416	16-251	smile	verb		
-417	16-260	play	verb		
-418	16-270	love	verb		
-419	16-290	kiss	verb		
+414	16-230	joyful|glad|happy	adjective	ᴺalassëa	# Ales Bican’s New Words
+415	16-250	laugh	verb	lala-	
+416	16-251	smile	verb	raita-	
+417	16-260	play	verb	tyal-	
+418	16-270	love	verb	mel-	
+419	16-290	kiss	verb	miqu-	
 420	16-300	embrace	verb		
-421	16-310	pain	noun		
-422	16-320	grief|sorrow|sadness	noun		
-423	16-330	anxiety|worry	noun		
-424	16-340	regret|be sorry	verb		
-425	16-350	pity	noun		
-426	16-370	cry|weep	verb		
-427	16-380	tear	noun		
-428	16-390	groan	verb		
-429	16-410	hate	verb		
+421	16-310	pain	noun	ᴹnwalma	
+422	16-320	grief|sorrow|sadness	noun	*ᴱnyérë	
+423	16-330	anxiety|worry	noun	ᴺtírelë	# Raccoon
+424	16-340	regret|be sorry	verb	ᴺapanaina-	# Luinyelle
+425	16-350	pity	noun	ᴺofelmë	# David Kiltz, PPQ, Helge Fauskanger, NQNT
+426	16-370	cry|weep	verb	ᴺníta-	# Helge Fauskanger
+427	16-380	tear	noun	ᴹnië	
+428	16-390	groan	verb	ᴺnauna-	
+429	16-410	hate	verb	*ᴱtev-	
 430	16-420	anger	noun		
-431	16-440	envy|jealousy	noun		
-432	16-450	shame	noun		
-433	16-480	proud	adjective		
-434	16-510	dare	verb		
-435	16-520	brave	adjective		
-436	16-530	fear|fright	noun		
-437	16-540	danger	noun		
-438	16-620	desire|want	verb		
-439	16-622	choose	verb		
-440	16-630	hope	noun		
-441	16-650	faithful	adjective		
-442	16-660	TRUE	adjective		
-443	16-670	lie|tell lies	verb		
-444	16-680	deceit	noun		
-445	16-690	forgive	verb		
-446	16-710	good	adjective		
-447	16-720	bad	adjective		
-448	16-730	right|correct	adjective		
-449	16-740	wrong	adjective		
+431	16-440	envy|jealousy	noun	ᴺhrúcen	# Helge Fauskanger
+432	16-450	shame	noun	ᴺnaityalë	# Helge Fauskanger
+433	16-480	proud	adjective	ᴺvalatëa 	# Helge Fauskanger
+434	16-510	dare	verb	ᴹverya-	
+435	16-520	brave	adjective	verya	
+436	16-530	fear|fright	noun	*sossë	
+437	16-540	danger	noun	*raxë	
+438	16-620	desire|want	verb	mína-, mer-	
+439	16-622	choose	verb	ᴺcil-	# Common
+440	16-630	hope	noun	estel	
+441	16-650	faithful	adjective	voronda	
+442	16-660	true	adjective	nanwa	
+443	16-670	lie|tell lies	verb	ᴺcupta-	
+444	16-680	deceit	noun	ᴺcuptalë	
+445	16-690	forgive	verb	*apsen-	
+446	16-710	good	adjective	sá	
+447	16-720	bad	adjective	urra	
+448	16-730	right|correct	adjective	sá, téra	
+449	16-740	wrong	adjective	ᴹraica	
 450	16-760	fault	noun		
-451	16-770	mistake|error	noun		
+451	16-770	mistake|error	noun	loima	
 452	16-780	blame	noun		
-453	16-790	praise	verb		
-454	16-810	beautiful	adjective		
-455	16-820	ugly	adjective		
-456	16-830	greedy	adjective		
-457	16-840	clever	adjective		
-458	17-110	mind	noun		
-459	17-130	think|reflect	verb		
-460	17-140	think	verb		
-461	17-150	believe	verb		
-462	17-160	understand	verb		
-463	17-170	know	verb		
-464	17-171	guess	verb		
-465	17-172	imitate	verb		
-466	17-180	seem	verb		
-467	17-190	idea|notion	noun		
-468	17-210	wise	adjective		
-469	17-220	foolish|stupid	adjective		
-470	17-230	insane|crazy	adjective		
-471	17-240	learn	verb		
-472	17-242	study	verb		
-473	17-250	teach	verb		
-474	17-260	pupil	noun		
-475	17-270	teacher	noun		
-476	17-280	school	noun		
-477	17-310	remember	verb		
-478	17-320	forget	verb		
-479	17-340	clear|plain	adjective		
-480	17-350	obscure	adjective		
-481	17-360	secret	adjective		
-482	17-370	sure|certain	adjective		
+453	16-790	praise	verb	*laitalë	
+454	16-810	beautiful	adjective	vanya	
+455	16-820	ugly	adjective	úvanima	
+456	16-830	greedy	adjective	ᴹmilca	
+457	16-840	clever	adjective	finca (in petty ways), finya	
+458	17-110	mind	noun	sanar	
+459	17-130	think|reflect	verb	*sana-	
+460	17-140	think	verb	*sana-	
+461	17-150	believe	verb	sav-	
+462	17-160	understand	verb	ᴹhanya-	
+463	17-170	know	verb	ista-	
+464	17-171	guess	verb	ᴹintya-	
+465	17-172	imitate	verb	ᴺovëanta-	
+466	17-180	seem	verb	nem-	
+467	17-190	idea|notion	noun	tenna	
+468	17-210	wise	adjective	saila	
+469	17-220	foolish|stupid	adjective	*ᴱlamanwa	
+470	17-230	insane|crazy	adjective	ᴺhwinda	# Tamas Ferencz
+471	17-240	learn	verb	par-	
+472	17-242	study	verb	ᴺnolya-	# Robert Reynolds, Tamas Ferencz, Helge Fauskanger, PPQ
+473	17-250	teach	verb	ᴺnolta-	# Robert Reynolds
+474	17-260	pupil	noun	*cen	
+475	17-270	teacher	noun	ᴺnoltar 	# Robert Reynolds
+476	17-280	school	noun	ᴺparmen	# Tamas Ferencz
+477	17-310	remember	verb	ᴺren-	# Helge Fauskanger
+478	17-320	forget	verb	ᴺetsen-	# Tamas Ferencz
+479	17-340	clear|plain	adjective	ᴹnemestëa	
+480	17-350	obscure	adjective	ᴹnulla	
+481	17-360	secret	adjective	ᴹmuina	
+482	17-370	sure|certain	adjective	sinwa	
 483	17-380	explain	verb		
-484	17-410	intention|purpose	noun		
-485	17-420	cause	verb		
+484	17-410	intention|purpose	noun	*mínasta	
+485	17-420	cause	verb	alya-	
 486	17-430	doubt	verb		
 487	17-440	suspect	verb		
-488	17-441	betray	verb		
-489	17-450	need|necessity	noun		
-490	17-460	easy	adjective		
-491	17-470	difficult	adjective		
-492	17-480	try|attempt	verb		
-493	17-490	way|manner	noun		
-494	17-510	and	conjunction		
-495	17-520	because	conjunction		
-496	17-530	if	conjunction		
-497	17-540	or	conjunction		
-498	17-550	yes|affirmative	particle		
-499	17-560	no|negative	particle		
-500	17-610	how	adverb		
-501	17-620	how many	adjective		
+488	17-441	betray	verb	ᴺvarta-	# Boris Shapiro
+489	17-450	need|necessity	noun	ᴹmaurë	
+490	17-460	easy	adjective	ancárima	
+491	17-470	difficult	adjective	úcárima	
+492	17-480	try|attempt	verb	*nav-	
+493	17-490	way|manner	noun	lé	
+494	17-510	and	conjunction	ya(n), ar	
+495	17-520	because	conjunction	ᴺpan	# Helge Fauskanger
+496	17-530	if	conjunction	qui	
+497	17-540	or	conjunction	hya	
+498	17-550	yes|affirmative	particle	né	
+499	17-560	no|negative	particle	fó	
+500	17-610	how	adverb	manen	
+501	17-620	how many	adjective	ᴺmanotë	
 502	17-630	how much	adjective		
-503	17-640	what	noun		
-504	17-650	when	adverb		
-505	17-660	where	adverb		
-506	17-670	which	adjective		
-507	17-680	who	noun		
-508	17-690	why	adverb		
-509	18-110	voice	noun		
-510	18-120	sing	verb		
-511	18-130	shout|cry out	verb		
-512	18-150	whisper	verb		
-513	18-160	mumble	verb		
+503	17-640	what	noun	i	
+504	17-650	when	adverb	ᴺmalumë	# Paul Strack
+505	17-660	where	adverb	ᴹmassë	
+506	17-670	which	adjective	i	
+507	17-680	who	noun	i	
+508	17-690	why	adverb	ᴺmanan	# Petri Tikka
+509	18-110	voice	noun	óma	
+510	18-120	sing	verb	*lir-	
+511	18-130	shout|cry out	verb	*ᴱholtu-	
+512	18-150	whisper	verb	*hlussa-	
+513	18-160	mumble	verb	nurru-	
 514	18-170	whistle	verb		
 515	18-180	shriek|screech	verb		
-516	18-190	howl	verb		
-517	18-210	speak|talk	verb		
+516	18-190	howl	verb	ᴺnauna-	
+517	18-210	speak|talk	verb	ᴺpahta-	
 518	18-211	stutter|stammer	verb		
-519	18-220	say	verb		
-520	18-221	tell story	verb		
-521	18-222	speech	verb		
-522	18-230	silent	adjective		
-523	18-240	language	noun		
-524	18-260	word	noun		
-525	18-280	name	noun		
+519	18-220	say	verb	quet-	
+520	18-221	tell story	verb	nyar-	
+521	18-222	speech	verb	pahta	
+522	18-230	silent	adjective	*ᴱquilda	
+523	18-240	language	noun	lambë	
+524	18-260	word	noun	quetta	
+525	18-280	name	noun	essë	
 526	18-310	ask question|inquire	verb		
-527	18-320	answer	verb		
-528	18-330	admit|confess	verb		
-529	18-340	deny	verb		
-530	18-350	ask|request	verb		
+527	18-320	answer	verb	ᴺhanquet-	
+528	18-330	admit|confess	verb	ᴺetequet-	# Helge Fauskanger
+529	18-340	deny	verb	ala-	
+530	18-350	ask|request	verb	cesta-	
 531	18-360	promise	verb		
-532	18-370	refuse	verb		
-533	18-380	forbid	verb		
-534	18-390	rebuke|scold	verb		
-535	18-410	call|summon	verb		
+532	18-370	refuse	verb	váquet-	
+533	18-380	forbid	verb	váquet-	
+534	18-390	rebuke|scold	verb	naitya	
+535	18-410	call|summon	verb	yal-	
 536	18-420	call by name	verb		
-537	18-430	announce	verb		
-538	18-440	threaten	verb		
+537	18-430	announce	verb	ᴺcacanna-	# Tamas Ferencz
+538	18-440	threaten	verb	ᴺorda-	# Helge Fauskanger
 539	18-450	boast	verb		
-540	18-510	write	verb		
-541	18-520	read	verb		
-542	18-560	paper	noun		
-543	18-570	pen	noun		
-544	18-610	book	noun		
-545	18-670	poet	noun		
-546	18-710	flute	noun		
-547	18-720	drum	noun		
-548	18-730	horn|trumpet	noun		
+540	18-510	write	verb	ᴹtec-	
+541	18-520	read	verb	tengwa-	
+542	18-560	paper	noun	*ᴱhyalin	
+543	18-570	pen	noun	tecil	
+544	18-610	book	noun	parma	
+545	18-670	poet	noun	ᴺlairemo	# Petri Tikka
+546	18-710	flute	noun	*ᴱᴬsimpa	
+547	18-720	drum	noun	*ᴱtompa	
+548	18-730	horn|trumpet	noun	romba	
 549	18-740	rattle	noun		
-550	19-110	country	noun		
+550	19-110	country	noun	nórë	
 551	19-120	one's native country	noun		
-552	19-150	city|town	noun		
-553	19-160	village	noun		
-554	19-170	boundary	noun		
-555	19-210	people|populace	noun		
-556	19-230	tribe|clan	noun		
-557	19-240	chief|chieftain	noun		
-558	19-250	staff|walking stick	noun		
-559	19-310	rule|govern	verb		
-560	19-320	king|ruler	noun		
-561	19-330	queen	noun		
-562	19-360	noble|nobleman	noun		
-563	19-370	citizen|subject	noun		
-564	19-410	master	noun		
-565	19-420	slave	noun		
-566	19-430	servant	noun		
-567	19-440	freeman	noun		
-568	19-450	command|order	verb		
+552	19-150	city|town	noun	minassë	
+553	19-160	village	noun	ᴹopelë	
+554	19-170	boundary	noun	yonwa	
+555	19-210	people|populace	noun	lië	
+556	19-230	tribe|clan	noun	*rendë	
+557	19-240	chief|chieftain	noun	cáno	
+558	19-250	staff|walking stick	noun	*vanga 	
+559	19-310	rule|govern	verb	ᴹsanyë	
+560	19-320	king|ruler	noun	aran	
+561	19-330	queen	noun	tári	
+562	19-360	noble|nobleman	noun	aráto	
+563	19-370	citizen|subject	noun	ᴺostomo	
+564	19-410	master	noun	heru	
+565	19-420	slave	noun	mól	
+566	19-430	servant	noun	ᴹnúro	
+567	19-440	freeman	noun	ᴺléramo 	
+568	19-450	command|order	verb	canya-	
 569	19-460	obey	verb		
 570	19-470	let|permit	verb		
-571	19-510	friend|companion	noun		
-572	19-520	enemy	noun		
-573	19-540	neighbor	noun		
-574	19-550	stranger	noun		
-575	19-560	guest	noun		
-576	19-570	host	noun		
-577	19-580	help|aid	verb		
-578	19-590	hinder|prevent	verb		
-579	19-610	custom	noun		
-580	19-620	strife|quarrel	noun		
+571	19-510	friend|companion	noun	málo, *meldo	
+572	19-520	enemy	noun	ᴹcotumo	
+573	19-540	neighbor	noun	armaro	
+574	19-550	stranger	noun	ᴹaiano	
+575	19-560	guest	noun	ᴺnasal	
+576	19-570	host	noun	liyúmë	
+577	19-580	help|aid	verb	*rehta-	
+578	19-590	hinder|prevent	verb	ᴺ(n)ungwar-	# Röandil
+579	19-610	custom	noun	*ᴱsito	
+580	19-620	strife|quarrel	noun	*costë	
 581	19-630	conspiracy|plot	noun		
-582	19-650	meet	verb		
+582	19-650	meet	verb	*omen-	
 583	19-720	prostitute	noun		
-584	2-100	person|human being	noun		
-585	2-210	man	noun		
-586	2-220	woman	noun		
-587	2-230	male	noun		
-588	2-240	female	noun		
-589	2-250	boy	noun		
+584	2-100	person|human being	noun	quén, námo	
+585	2-210	man	noun	nér (adult male), quendu (elf male), firë (mortal), Atan (species)	
+586	2-220	woman	noun	nís (adult female), quendi (elf female)	
+587	2-230	male	noun	ᴹhanwa	
+588	2-240	female	noun	ᴹinya	
+589	2-250	boy	noun	yonyo	
 590	2-251	young man	noun		
-591	2-260	girl	noun		
-592	2-261	young woman	noun		
-593	2-270	child	noun		
-594	2-280	infant|baby	noun		
-595	2-310	husband	noun		
-596	2-320	wife	noun		
-597	2-330	marry	verb		
-598	2-340	marriage|wedding	noun		
-599	2-341	divorce	noun		
-600	2-350	father	noun		
-601	2-360	mother	noun		
-602	2-370	parents	noun		
+591	2-260	girl	noun	nettë	
+592	2-261	young woman	noun	vendë	
+593	2-270	child	noun	hína	
+594	2-280	infant|baby	noun	vinimo	
+595	2-310	husband	noun	veru	
+596	2-320	wife	noun	veri	
+597	2-330	marry	verb	vesta-	
+598	2-340	marriage|wedding	noun	ᴹvesta (ceremony), ᴹvestalë (state)	
+599	2-341	divorce	noun	ᴺaumentalë	# Helge Fauskanger
+600	2-350	father	noun	atar	
+601	2-360	mother	noun	amil(lë)	
+602	2-370	parents	noun	*nostar	
 603	2-380	married man	noun		
 604	2-390	married woman	noun		
-605	2-410	son	noun		
-606	2-420	daughter	noun		
-607	2-430	offspring	noun		
-608	2-440	brother	noun		
-609	2-444	older brother	noun		
-610	2-445	younger brother	noun		
-611	2-450	sister	noun		
-612	2-454	older sister	noun		
-613	2-455	younger sister	noun		
-614	2-456	sibling	noun		
-615	2-458	twins	noun		
-616	2-460	grandfather	noun		
+605	2-410	son	noun	yondo	
+606	2-420	daughter	noun	seldë, selyë	
+607	2-430	offspring	noun	*hilmë	
+608	2-440	brother	noun	ᴹtoron	
+609	2-444	older brother	noun	ᴺyárahan	# Röandil
+610	2-445	younger brother	noun	ᴺvinyahan	# Röandil
+611	2-450	sister	noun	nésa	# Röandil
+612	2-454	older sister	noun	ᴺyáranet	# Röandil
+613	2-455	younger sister	noun	ᴺvinyanet	# Röandil
+614	2-456	sibling	noun	*ᴱhes	
+615	2-458	twins	noun	onóna	
+616	2-460	grandfather	noun	*ᴱharu	
 617	2-461	old man	noun		
-618	2-470	grandmother	noun		
+618	2-470	grandmother	noun	*ᴱharuni	
 619	2-471	old woman	noun		
-620	2-480	grandson	noun		
-621	2-490	granddaughter	noun		
+620	2-480	grandson	noun	ᴹindyo	
+621	2-490	granddaughter	noun	ᴹindyo	
 622	2-510	uncle	noun		
 623	2-511	mother's brother	noun		
 624	2-512	father's brother	noun		
 625	2-520	aunt	noun		
 626	2-521	mother's sister	noun		
 627	2-522	father's sister	noun		
-628	2-530	nephew	noun		
-629	2-540	niece	noun		
-630	2-550	cousin	noun		
-631	2-560	ancestors	noun		
-632	2-570	descendants	noun		
+628	2-530	nephew	noun	*ᴱsúyon	
+629	2-540	niece	noun	ᴺsúyel	
+630	2-550	cousin	noun	rendo (male), ressë (female)	
+631	2-560	ancestors	noun	*nostar	
+632	2-570	descendants	noun	*ᴱhilmë	
 633	2-610	father-in-law	noun		
 634	2-611	father-in-law	noun		
 635	2-620	mother-in-law	noun		
@@ -645,203 +645,203 @@
 643	2-730	stepson	noun		
 644	2-740	stepdaughter	noun		
 645	2-750	orphan	noun		
-646	2-760	widow	noun		
+646	2-760	widow	noun	ᴺverulóra	# Helge Fauskanger
 647	2-770	widower	noun		
-648	2-810	relatives|kinsmen	noun		
-649	2-820	family	noun		
-650	2-910	I	noun		
-651	2-920	you	noun		
-652	2-930	he|she|it	noun		
-653	2-940	we	noun		
-654	2-941	we	noun		
-655	2-942	we	noun		
-656	2-950	you	noun		
-657	2-960	they	noun		
-658	20-110	fight	verb		
-659	20-130	war|battle	noun		
-660	20-140	peace	noun		
-661	20-150	army	noun		
-662	20-170	soldier	noun		
-663	20-210	weapons|arms	noun		
+648	2-810	relatives|kinsmen	noun	rendo (male), ressë (female)	"# lit. ""cousin"""
+649	2-820	family	noun	nos(së)	
+650	2-910	I	noun	ní	
+651	2-920	you	noun	lyé	
+652	2-930	he|she|it	noun	sé (gendered), sá (neuter)	
+653	2-940	we	noun	wé/vé (inclusive), mé (exclusive)	
+654	2-941	we	noun	wé/vé (inclusive), mé (exclusive)	
+655	2-942	we	noun	wé/vé (inclusive), mé (exclusive)	
+656	2-950	you	noun	lé	
+657	2-960	they	noun	té (gendered), sa (inanimate)	
+658	20-110	fight	verb	ᴹmahta-	
+659	20-130	war|battle	noun	ohta	
+660	20-140	peace	noun	rainë	
+661	20-150	army	noun	*hotsë	
+662	20-170	soldier	noun	ᴹmahtar	
+663	20-210	weapons|arms	noun	carma	
 664	20-220	club	noun		
 665	20-222	battle-ax	noun		
 666	20-230	sling	noun		
-667	20-240	bow	noun		
-668	20-250	arrow	noun		
-669	20-260	spear	noun		
-670	20-270	sword	noun		
-671	20-280	gun|cannon	noun		
-672	20-310	armor	noun		
-673	20-330	helmet	noun		
-674	20-340	shield	noun		
-675	20-350	fortress	noun		
-676	20-360	tower	noun		
-677	20-410	victory	noun		
+667	20-240	bow	noun	ᴹcú	
+668	20-250	arrow	noun	ᴹpilin	
+669	20-260	spear	noun	ehtë	
+670	20-270	sword	noun	macil	
+671	20-280	gun|cannon	noun	ᴺnarcarma	# Agonyz
+672	20-310	armor	noun	ᴺvarma	# Röandil
+673	20-330	helmet	noun	castol(o)	
+674	20-340	shield	noun	ᴹturma	
+675	20-350	fortress	noun	ᴹarta	
+676	20-360	tower	noun	taras	
+677	20-410	victory	noun	ᴹtúrë	
 678	20-420	defeat	noun		
-679	20-430	attack	verb		
+679	20-430	attack	verb	ᴺnalanta-	
 680	20-440	defend	verb		
-681	20-450	retreat	verb		
-682	20-460	surrender	verb		
-683	20-470	captive|prisoner	noun		
-684	20-471	guard|sentinel	noun		
+681	20-450	retreat	verb	ᴺnan-	
+682	20-460	surrender	verb	ᴺvar-	# Röandil
+683	20-470	captive|prisoner	noun	ᴺmandano	# Elaran
+684	20-471	guard|sentinel	noun	*ᴹtirista	
 685	20-480	booty|spoils	noun		
 686	20-490	ambush	verb		
-687	20-510	fisherman	noun		
+687	20-510	fisherman	noun	ᴺlingwimo	# Helge Fauskanger
 688	20-520	fishhook	noun		
 689	20-530	fishing line	noun		
 690	20-540	fishnet	noun		
 691	20-550	fish trap	noun		
 692	20-560	bait	noun		
-693	20-610	hunt	verb		
-694	20-620	shoot	verb		
-695	20-630	miss target	verb		
-696	20-640	trap	noun		
-697	20-650	trap	verb		
-698	21-110	law	noun		
-699	21-150	court	noun		
-700	21-160	judge	verb		
+693	20-610	hunt	verb	fara-	
+694	20-620	shoot	verb	ᴺquihta-	# Sami Paldanius
+695	20-630	miss target	verb	loita-	
+696	20-640	trap	noun	remma	
+697	20-650	trap	verb	*rem-	
+698	21-110	law	noun	namna	
+699	21-150	court	noun	ᴺnammar	"# Tamas Ferencz, lit. ""judgement house"""
+700	21-160	judge	verb	*nam-	
 701	21-170	judgment	noun		
-702	21-180	judge	noun		
+702	21-180	judge	noun	námo	
 703	21-210	plaintiff	noun		
 704	21-220	defendant	noun		
-705	21-230	witness	noun		
-706	21-240	swear	verb		
-707	21-250	oath	noun		
-708	21-310	accuse	verb		
-709	21-320	condemn	verb		
-710	21-330	convict	verb		
+705	21-230	witness	noun	ᴺvetto	# Helge Fauskanger
+706	21-240	swear	verb	*ᴹvesta-	
+707	21-250	oath	noun	vanda	
+708	21-310	accuse	verb	ᴺaccuse	# Helge Fauskanger
+709	21-320	condemn	verb	ᴺhrunam-	# Eldamo
+710	21-330	convict	verb	ᴺhrunam-	# Eldamo
 711	21-340	acquit	verb		
 712	21-350	guilty	adjective		
-713	21-360	innocent	adjective		
-714	21-370	penalty|punishment	noun		
+713	21-360	innocent	adjective	ᴺcámalóra	# Helge Fauskanger
+714	21-370	penalty|punishment	noun	*ᴱpaimë	
 715	21-380	fine	noun		
-716	21-390	prison|jail	noun		
-717	21-420	murder	verb		
-718	21-430	adultery	noun		
-719	21-440	rape	noun		
+716	21-390	prison|jail	noun	mando	
+717	21-420	murder	verb	ᴺqualta-	# ABNW
+718	21-430	adultery	noun	ᴺvestaracië	# Helge Fauskanger
+719	21-440	rape	noun	*ᴱmaptalë 	
 720	21-460	arson	noun		
 721	21-470	perjury	noun		
-722	21-510	steal	verb		
-723	21-520	thief	noun		
-724	22-110	religion	noun		
-725	22-120	God	noun		
-726	22-130	temple|church	noun		
-727	22-140	altar	noun		
-728	22-150	sacrifice|offering	noun		
-729	22-160	worship	verb		
-730	22-170	pray	verb		
-731	22-180	priest	noun		
-732	22-190	holy|sacred	adjective		
-733	22-220	preach	verb		
-734	22-230	bless	verb		
-735	22-240	curse	verb		
-736	22-260	fast	verb		
-737	22-310	heaven	noun		
-738	22-320	hell	noun		
-739	22-350	demon|evil spirit	noun		
-740	22-370	idol	noun		
-741	22-420	magic|witchcraft|sorcery	noun		
-742	22-430	sorcerer|witch	noun		
-743	22-440	fairy|elf	noun		
-744	22-450	ghost|phantom	noun		
-745	22-470	omen|portent	noun		
-746	3-110	animal	noun		
-747	3-120	male	adjective		
-748	3-130	female	adjective		
+722	21-510	steal	verb	*ᴱpil-	
+723	21-520	thief	noun	arpo	
+724	22-110	religion	noun	*ᴱaitalë	
+725	22-120	God	noun	ᴺaino	# Helge Fauskanger
+726	22-130	temple|church	noun	*ᴱcorda	
+727	22-140	altar	noun	ᴺyangwa	# Helge Fauskanger
+728	22-150	sacrifice|offering	noun	ᴺyacië	# Helge Fauskanger
+729	22-160	worship	verb	ᴺaita-	
+730	22-170	pray	verb	arca-	
+731	22-180	priest	noun	ᴺairimo	
+732	22-190	holy|sacred	adjective	aina	
+733	22-220	preach	verb	ᴺnyarda-	
+734	22-230	bless	verb	aina-	
+735	22-240	curse	verb	húta-	
+736	22-260	fast	verb	ᴺavamat-	
+737	22-310	heaven	noun	telumë	
+738	22-320	hell	noun	*ᴱmando	
+739	22-350	demon|evil spirit	noun	ᴱorc, rauca, rauco	
+740	22-370	idol	noun	*ᴱcordon	
+741	22-420	magic|witchcraft|sorcery	noun	*ᴱluhtu	
+742	22-430	sorcerer|witch	noun	ᴺnúlemo	
+743	22-440	fairy|elf	noun	Quendë	"# lit. ""one that speaks"""
+744	22-450	ghost|phantom	noun	fairë	
+745	22-470	omen|portent	noun	alamen (good omen)	
+746	3-110	animal	noun	*celva	
+747	3-120	male	adjective	ᴹhanu	
+748	3-130	female	adjective	*ᴹhani	
 749	3-150	livestock	noun		
-750	3-160	pasture	noun		
-751	3-180	herdsman	noun		
+750	3-160	pasture	noun	ᴺnesselë	
+751	3-180	herdsman	noun	ᴺemerro	# Damien Bador
 752	3-190	stable|stall	noun		
 753	3-200	cattle	noun		
-754	3-210	bull	noun		
-755	3-220	ox	noun		
-756	3-230	cow	noun		
-757	3-240	calf	noun		
-758	3-250	sheep	noun		
-759	3-260	ram	noun		
+754	3-210	bull	noun	mundo	
+755	3-220	ox	noun	mundo	
+756	3-230	cow	noun	*ᴱyaxë	
+757	3-240	calf	noun	ᴺmundollë	# Helge Fauskanger
+758	3-250	sheep	noun	laman	
+759	3-260	ram	noun	ᴺpollo	# Gábor Lőrinczi
 760	3-280	ewe	noun		
-761	3-290	lamb	noun		
-762	3-320	boar	noun		
+761	3-290	lamb	noun	*ᴱeulë	
+762	3-320	boar	noun	*ᴱcarcapolca	
 763	3-340	sow	noun		
-764	3-350	pig	noun		
-765	3-360	goat	noun		
+764	3-350	pig	noun	*ᴱpolca	
+765	3-360	goat	noun	ᴺnaico	
 766	3-370	he-goat	noun		
 767	3-380	kid	noun		
-768	3-410	horse	noun		
+768	3-410	horse	noun	rocco	
 769	3-420	stallion	noun		
-770	3-440	mare	noun		
-771	3-450	foal|colt	noun		
-772	3-460	ass|donkey	noun		
+770	3-440	mare	noun	*rocci	
+771	3-450	foal|colt	noun	ᴺrocollë	# Helge Fauskanger
+772	3-460	ass|donkey	noun	ᴺpellopë	# Helge Fauskanger
 773	3-470	mule	noun		
-774	3-500	fowl	noun		
-775	3-520	cock|rooster	noun		
-776	3-540	hen	noun		
-777	3-550	chicken	noun		
-778	3-560	goose	noun		
-779	3-570	duck	noun		
-780	3-580	nest	noun		
-781	3-581	bird	noun		
+774	3-500	fowl	noun	ᴱporocë	
+775	3-520	cock|rooster	noun	*ᴱtocot	
+776	3-540	hen	noun	ᴱporocë	
+777	3-550	chicken	noun	ᴱporocë	
+778	3-560	goose	noun	ᴹván	
+779	3-570	duck	noun	ᴱquá	
+780	3-580	nest	noun	ᴺhausta	
+781	3-581	bird	noun	aiwë	
 782	3-582	seagull	noun		
 783	3-583	heron	noun		
-784	3-584	eagle	noun		
-785	3-585	hawk	noun		
+784	3-584	eagle	noun	soron	
+785	3-585	hawk	noun	ᴹfion	
 786	3-586	vulture	noun		
-787	3-591	bat	noun		
+787	3-591	bat	noun	*ᴱquildarë	
 788	3-592	parrot	noun		
-789	3-593	crow	noun		
-790	3-594	dove	noun		
-791	3-596	owl	noun		
-792	3-610	dog	noun		
-793	3-614	rabbit	noun		
-794	3-620	cat	noun		
-795	3-622	opossum	noun		
-796	3-630	mouse|rat	noun		
-797	3-650	fish	noun		
-798	3-652	fin	noun		
+789	3-593	crow	noun	ᴹcorco	
+790	3-594	dove	noun	ᴹcucua	
+791	3-596	owl	noun	ᴱhó	
+792	3-610	dog	noun	röa	
+793	3-614	rabbit	noun	*lopoldë	
+794	3-620	cat	noun	ᴹmiuë	
+795	3-622	opossum	noun	ᴺpoco(lle)nyarro	# Dírheron
+796	3-630	mouse|rat	noun	ᴹnyarro	
+797	3-650	fish	noun	*lingwë	
+798	3-652	fin	noun	ᴺlunwa	# Arael
 799	3-653	fishscale	noun		
 800	3-654	gill	noun		
-801	3-655	shell	noun		
+801	3-655	shell	noun	ᴹhyalma	
 802	3-661	shark	noun		
 803	3-662	porpoise|dolphin	noun		
-804	3-663	whale	noun		
+804	3-663	whale	noun	fanto	
 805	3-664	stingray	noun		
-806	3-665	freshwater eel	noun		
-807	3-710	wolf	noun		
-808	3-720	lion	noun		
-809	3-730	bear	noun		
-810	3-740	fox	noun		
-811	3-750	deer	noun		
-812	3-760	monkey	noun		
-813	3-770	elephant	noun		
-814	3-780	camel	noun		
-815	3-810	insect	noun		
+806	3-665	freshwater eel	noun	ᴺlingwileuca	
+807	3-710	wolf	noun	ᴹnarmo	
+808	3-720	lion	noun	ᴬrá	
+809	3-730	bear	noun	ᴹmorco	
+810	3-740	fox	noun	rusco	
+811	3-750	deer	noun	ᴺarasso	
+812	3-760	monkey	noun	ᴺmaimun 	# Dírheron
+813	3-770	elephant	noun	ᴹandamunda	
+814	3-780	camel	noun	*ᴱulumpë	
+815	3-810	insect	noun	pí	
 816	3-811	louse	noun		
 817	3-812	nit	noun		
-818	3-813	flea	noun		
+818	3-813	flea	noun	*campo	
 819	3-814	centipede	noun		
-820	3-815	scorpion	noun		
+820	3-815	scorpion	noun	ᴺnastaro	# Helge Fauskanger
 821	3-816	cockroach	noun		
-822	3-817	ant	noun		
-823	3-818	spider	noun		
-824	3-819	spider web	noun		
-825	3-820	bee	noun		
-826	3-821	beeswax	noun		
-827	3-822	beehive	noun		
-828	3-823	wasp	noun		
-829	3-830	fly	noun		
-830	3-831	sandfly|midge|gnat	noun		
+822	3-817	ant	noun	ᴺpímótar	# Helge Fauskanger
+823	3-818	spider	noun	ᴹliantë, *ungol (giant spider)	"# ""ungol"" from Paul Strack"
+824	3-819	spider web	noun	ungwë	
+825	3-820	bee	noun	*ᴱnier	
+826	3-821	beeswax	noun	líco	
+827	3-822	beehive	noun	*ᴱnieres	
+828	3-823	wasp	noun	ᴺricci	# Luinyelle
+829	3-830	fly	noun	*ᴹitsë	
+830	3-831	sandfly|midge|gnat	noun	pí	
 831	3-832	mosquito	noun		
-832	3-840	worm	noun		
-833	3-850	snake	noun		
-834	3-910	firefly	noun		
-835	3-920	butterfly	noun		
-836	3-930	grasshopper	noun		
-837	3-940	snail	noun		
-838	3-950	frog	noun		
-839	3-960	lizard	noun		
-840	3-970	crocodile|alligator	noun		
-841	3-980	turtle	noun		
-842	4-110	body	noun		
+832	3-840	worm	noun	hlócë	
+833	3-850	snake	noun	hlócë	
+834	3-910	firefly	noun	ᴺelenitsë	# Delle
+835	3-920	butterfly	noun	ᴬwilwarin	
+836	3-930	grasshopper	noun	ᴺsalquecápo	# Helge Fauskanger
+837	3-940	snail	noun	ᴺcöacolindo	# Lokyt
+838	3-950	frog	noun	quácë	
+839	3-960	lizard	noun	hlócë	
+840	3-970	crocodile|alligator	noun	ᴺcarcaran	# Delle
+841	3-980	turtle	noun	ᴺsandanasto	# Luinyelle
+842	4-110	body	noun	hröa	
 843	4-120	skin|hide	noun		
 844	4-130	flesh	noun		
 845	4-140	hair	noun		
@@ -1261,11 +1261,11 @@
 1259	9-261	broken	adjective		
 1260	9-270	split	verb		
 1261	9-280	tear	verb		
-1262	9-290	flay|skin	verb		
-1263	9-310	rub|wipe	verb		
-1264	9-320	stretch	verb		
-1265	9-330	pull	verb		
-1266	9-340	spread out	verb		
+1262	9-290	flay|skin	verb	*ᴱripta-	
+1263	9-310	rub|wipe	verb	ᴺöapsar-	# Paul Strack
+1264	9-320	stretch	verb	*ᴱrahta-	
+1265	9-330	pull	verb	tuc-	
+1266	9-340	spread out	verb	ᴹlat-	
 1267	9-341	hang up	verb		
 1268	9-342	press	verb		
 1269	9-343	squeeze|wring	verb		
