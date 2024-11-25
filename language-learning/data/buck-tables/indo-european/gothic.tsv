@@ -1,0 +1,752 @@
+chapter_id	entry_id	meaning	Gothic_StandardOrth	comment
+1	100	world	fairhwus; midjungards; manaseþs	
+1	210	earth, land	airþa; land	
+1	212	earth=ground, soil	mulda	
+1	213	dust	stubjus	
+1	214	mud	fani	
+1	215	sand	malma	
+1	220	mountain, hill	fairguni; hlain	
+1	222	cliff, precipice	driuso	
+1	230	plain, field	haiþi	
+1	240	valley	dals	
+1	270	shore	staþa	
+1	280	cave	hulundi	
+1	310	water	wato	
+1	320	sea	marei	
+1	322	calm (of sea)	wis	
+1	324	foam	hwaþo	
+1	330	lake	saiws; mari-saiws	
+1	350	wave	wegos	Plural form.
+1	360	river, stream, brook	ahwa; flodus	Also rinno 'torrent'.; Also rinno 'torrent'.
+1	370	spring, well	brunna	
+1	420	tree (cf 08.600)	bagms	
+1	430	wood	triu	
+1	440	stone, rock	stains; hallus	
+1	450	earthquake	reiro	
+1	510	sky	himins	
+1	520	sun	sauil; sunno	
+1	530	moon	mena	
+1	540	star	stairno	
+1	550	lightning	lauhmuni	
+1	560	thunder	þeihwo	
+1	580	storm	wegs	
+1	610	light (noun)	liuhaþ	
+1	620	darkness	riqis	
+1	630	shade, shadow	skadus	
+1	710	air	luftus	
+1	720	wind	winds	
+1	730	cloud	milhma	
+1	750	rain (noun)	rign	
+1	760	snow (noun)	snaiws	
+1	770	ice	iiz	Name of the rune for < i >.
+1	810	fire	fon	
+1	840	ashes	azgo	
+1	851	burn (vb trans)	brannjan	
+1	852	burn (vb intrans)	brinnan	
+1	860	light, kindle, ignite	tandjan	
+1	861	extinguish	afhwapjan	
+2	100	person, human being	manna	See 'face' 04.204.
+2	210	man (vs. woman)	wair; aba	
+2	220	woman	qino	
+2	230	male	gumeins; gumakunds	
+2	240	female	qineins; qina-kinds	
+2	250	boy	magus	
+2	260	girl	mawi	
+2	270	child	barn	
+2	280	infant, baby	barn	
+2	310	husband	aba	
+2	320	wife	qens	
+2	330	marry	liugan	
+2	340	marriage, wedding	liuga	
+2	341	divorce	gaskaidnan	Verbal form.
+2	350	father	atta; fadar	
+2	360	mother	aiþei	
+2	370	parents	berusjos; fadrein	
+2	410	son	sunus	
+2	420	daughter	dauhtar	
+2	430	offspring (son or daughter)	frasts	
+2	440	brother	broþar	
+2	450	sister	swistar	
+2	470	grandmother	awo	
+2	480	grandson	barne barna	Lit. 'child of children'.
+2	490	granddaughter	barne barna	Lit. 'child of children'.
+2	550	cousin	gadiliggs	
+2	560	ancestors	gadreina	
+2	610	father-in-law (of a man)	swaihra	
+2	611	father-in-law (of a woman)	swaihra	
+2	620	mother-in-law (of a man)	swaihro	
+2	621	mother-in-law (of a woman)	swaihro	
+2	630	son-in-law (of a man)	megs	
+2	631	son-in-law (of a woman)	megs	
+2	640	daughter-in-law (of a man)	bruþs	
+2	641	daughter-in-law (of a woman)	bruþs	
+2	750	orphan	widuwairna	
+2	760	widow	widuwo	
+2	810	relatives, kinsmen	niþjis	
+2	820	family	gards	
+2	910	I	ik	
+2	920	you (singular)	þu	
+2	930	he/she/it	is; si; it; izei	
+2	940	we	weis	
+2	950	you (plural)	jus	
+2	960	they	eis	
+3	110	animal	dius	
+3	160	pasture	winja	
+3	180	herdsman	hairdeis	
+3	190	stable, stall	awistr	Means 'sheepfold'.
+3	220	ox	auhsus	
+3	240	calf	stiur; kalbo	Respectively: 'steer; young cow'; Respectively: 'steer; young cow'
+3	250	sheep	lamb	
+3	290	lamb	lamb; wiþrus	
+3	320	boar	swein	Means 'swine'.
+3	360	goat	gaits	
+3	450	foal, colt	fula	
+3	460	ass, donkey	asilus	
+3	500	fowl	fugls	
+3	520	cock, rooster	hana	
+3	581	bird	fugls	
+3	584	eagle	ara	
+3	594	dove	ahaks; dubo; hraiwadubo	
+3	610	dog	hunds	
+3	630	mouse, rat	mus	
+3	650	fish	fisks	
+3	710	wolf	wulfs	
+3	740	fox	fauho	
+3	780	camel	ulbandus	
+3	815	scorpion	skaurpjo	
+3	840	worm	maþa	
+3	850	snake	waurms; nadrs	The latter means 'viper'.; The latter means 'viper'.
+3	930	grasshopper	þramstei	
+4	110	body	leik	
+4	120	skin, hide	-fill	
+4	130	flesh	mimz; mammo	Respectively: 'meat; flesh'; Respectively: 'meat; flesh'
+4	140	hair (head)	tagl; skuft	
+4	150	blood	bloþ	
+4	170	horn	haurn	
+4	200	head	haubiþ	
+4	202	skull	hwairnei	
+4	204	face	andwairþi; wlits; andawleizn; ludja	First form refers to 'person'; wlits 'appearance'.; First form refers to 'person'; wlits 'appearance'.; First form refers to 'person'; wlits 'appearance'.; First form refers to 'person'; wlits 'appearance'.
+4	208	cheek	kinnus	
+4	210	eye	augo	
+4	220	ear	auso	
+4	240	mouth	munþs	
+4	250	lip	wairilo	
+4	260	tongue	tuggo	
+4	270	tooth	tunþus	
+4	280	neck	hals	
+4	300	shoulder	ams; amsa	
+4	310	arm	arms	
+4	330	hand	handus	
+4	340	finger	figgrs	
+4	360	knee	kniu	
+4	370	foot	fotus	
+4	400	chest	brusts	
+4	410	breast (of woman)	brusts	
+4	440	heart	hairto	
+4	460	stomach	wamba; qiþus	Respectively: 'belly, womb'; 'stomach, womb'; Respectively: 'belly, womb'; 'stomach, womb'
+4	461	intestines, guts	hairþra	Plural form.
+4	463	hip	hups	
+4	470	womb	wamba; qiþus; kilþei	
+4	510	breathe, breath	anan	
+4	560	spit	speiwan	
+4	580	bite	beitan	
+4	590	lick	laigon	
+4	610	sleep	slepan	
+4	630	wake up	uswakjan; gawaknan	First form is transitive; second form is 'keep awake'. 'Be awake' is wakan.; First form is transitive; second form is 'keep awake'. 'Be awake' is wakan.
+4	730	pregnant	inkilþo; qiþuhafto	
+4	740	live, living, life	liban; qius; libains	
+4	750	die, dead	swiltan; gadauþnan; dauþs	
+4	760	kill	afdauþjan; gadauþjan; afslahan	Also usqiman 'destroy'.; Also usqiman 'destroy'.; Also usqiman 'destroy'.
+4	770	corpse	leik; naus	
+4	780	bury (the dead)	gafilhan; usfilhan; ganawistron	
+4	790	grave, tomb	hlaiw	
+4	810	strong, mighty, powerful	swinþs; mahteigs; abrs	
+4	820	weak	lasiws	
+4	830	well, health	hails	
+4	840	sick, sickness	siuks; siukei; sauhts	
+4	841	fever	brinno; heito	
+4	850	wound, sore	banja	
+4	860	cure, heal	hailjan; lekinon	
+4	870	physician	lekeis	
+4	890	poison	lubja-leis	Means 'knowing drugs, poison'.
+4	910	tired, weary	afmauiþs	
+4	912	rest	gahweilan sik	
+4	920	lazy	lats	
+4	940	lame	halts	
+4	950	deaf	bauþs	
+4	960	mute	dumbs; bauþs	
+4	970	blind	blinds	
+4	980	intoxicated	drugkans	wein-drugkja is 'drunkard'.
+4	990	naked, bare	naqaþs	
+5	110	eat	itan; matjan	
+5	120	food	mats; fodeins	
+5	125	rotten	fuls	
+5	130	drink	drigkan	
+5	140	hunger	huhrus; gredus	
+5	141	famine	huhrus	
+5	150	thirst	þaurstei	
+5	181	swallow	fraslindan	Mean 'swallow up, devour'.
+5	190	choke	afhwapjan; afhwapnan	Respectively: transitive; intransitive.; Respectively: transitive; intransitive.
+5	250	oven	auhns	
+5	260	pot, cooking vessel	aurkeis; kas	
+5	270	kettle	katils	
+5	310	dish	mes	
+5	320	plate	mes	Refers to 'platter'.
+5	350	cup, drinking vessel	stikls	Means 'beaker'.
+5	410	meal (a)	mats; dauhts	Latter form means 'feast'.; Latter form means 'feast'.
+5	430	lunch	undaurni-mats	Means 'midday meal'.
+5	440	dinner	undaurni-mats	Means 'midday meal'.
+5	450	supper	nahta-mats	Means 'evening meal'.
+5	490	stir, mix	blandan	
+5	510	bread	hlaifs	
+5	530	dough	daigs	
+5	540	knead	digan; gadigan	
+5	560	crush, grind	malan	
+5	570	mill	asilu-qairnus	
+5	610	meat	mimz	
+5	650	vegetables	gras	
+5	750	fig	smakka	
+5	760	grape	weinabasi	
+5	780	olive	alewabagms	Means 'olive tree'.
+5	790	oil	alew	
+5	810	salt	salt	
+5	840	honey	miliþ	
+5	860	milk (noun)	miluks	
+5	910	mead	midus	Inferred from a Greek transcription.
+5	920	wine	wein	
+5	970	egg	ada	Crimean Gothic.
+6	110	put on (clothes)	wasjan	
+6	120	clothing, clothes	wasjos; gafeteins; gawaseins; gaskadweins	
+6	210	cloth	fana	
+6	220	wool	wulla	
+6	230	linen, flax	lein	
+6	290	leather	filleins	Adjective form.
+6	310	spin	spinnan	
+6	350	sew	siujan	
+6	360	needle	neþla	
+6	410	cloak	wasti; hakuls; snage	First form means 'garment, raiment'; latter forms mean 'cloak'. Also see 'clothing' 06.120.; First form means 'garment, raiment'; latter forms mean 'cloak'. Also see 'clothing' 06.120.; First form means 'garment, raiment'; latter forms mean 'cloak'. Also see 'clothing' 06.120.
+6	430	coat	paida	
+6	510	shoe	skohs	
+6	570	belt, girdle	gairda	
+6	730	ring (for finger)	figgragulþ	
+6	921	braid	flahto	
+6	940	ointment	salbons	
+6	960	mirror	skuggwa	
+7	110	dwell, live	bauan	
+7	120	house	gards; razn	
+7	140	tent	hleiþra; hlija	
+7	150	yard, court	rohsns; gards	
+7	220	door, gate	daur; haurds	
+7	250	window	auga-dauro	
+7	270	wall	-waddjus	Second member of compound.
+7	420	bed	ligrs; badi	
+7	430	chair	sitls; stols	stols refers to a 'throne'.; stols refers to a 'throne'.
+7	440	table	biuþs; mes	
+7	450	lamp, torch	lukarn	
+7	510	roof	hrot	
+7	550	beam	ans	
+7	570	board	-baurd	
+7	620	brick	skalja	Means 'tile'.
+8	110	farmer	airþos waurstwa	Lit. 'soil worker'.
+8	120	field (for cultivation)	akrs	
+8	130	garden	aurtigards	
+8	160	fence	faþa	Means 'hedge, dividing wall'.
+8	170	ditch	graba	Means 'rampart'.
+8	210	plow	arjan	
+8	220	dig	graban	
+8	240	shovel	-skauro; skauro	Refers to 'winnowing shovel'.; Refers to 'winnowing shovel'.
+8	310	sow	saian	
+8	311	seed	fraiw	
+8	320	mow, reap	sneiþan	
+8	330	sickle, scythe	gilþa	
+8	340	thresh	þriskan	
+8	350	threshing-floor	gaþrask	
+8	410	crop, harvest	akran; asans	
+8	420	grain (barley, oats etc)	kaurn	
+8	430	wheat	hwaiteis	
+8	440	barley	bairizeins	Adjective form.
+8	510	grass	hawi	
+8	520	hay	hawi	
+8	540	root	waurts	
+8	550	branch	asts	
+8	560	leaf	laufs	
+8	570	flower	bloma	
+8	600	tree	bagms; triu	
+8	670	vine	weina triu	
+8	810	palm tree	peika bagms	
+9	110	do, make	taujan; waurkjan	
+9	120	work	arbaidjan	
+9	140	bend	biugan	
+9	150	fold	falþan	
+9	160	tie, bind	bindan	
+9	180	chain	naudibandi; eisarnabandi	
+9	210	strike (hit, beat)	slahan; stautan; bliggwan	
+9	220	cut	maitan; sneiþan	
+9	221	cut down	afmaitan; usmaitan	
+9	250	ax	aqizi	
+9	260	break	brikan	
+9	261	broken	gabrukans	
+9	280	tear	tahjan; distairan	
+9	310	rub, wipe	bnauan	
+9	320	stretch	ufþanjan	
+9	330	pull	atþinsan	
+9	340	spread out	straujan	
+9	342	press	þreihan	
+9	350	pour	giutan	
+9	360	wash	þwahan	
+9	370	sweep	usbaugjan	
+9	430	carpenter	timrja	
+9	440	build	timrjan	
+9	600	smith, blacksmith	aizasmiþa	
+9	640	gold	gulþ	
+9	650	silver	silubr	
+9	660	copper, bronze	aiz	
+9	670	iron	eisarn	
+9	710	potter	kasja	
+9	720	mold (clay etc)	digan	
+9	730	clay	þaho	
+9	750	weave, plait	uswindan	
+9	760	basket	tainjo; snorjo	
+9	830	statue	manleika	Means 'image'.
+10	110	move	wagjan; wiþon	Respectively: 'shake'; 'shake, wag'.; Respectively: 'shake'; 'shake, wag'.
+10	120	turn over	wandjan	Means 'turn'.
+10	140	wind, wrap	-windan	
+10	150	roll	-walwjan; waltan	
+10	160	drop (vb)	afdrausjan	Means 'throw down'.
+10	170	twist	inwandjan	
+10	210	rise	wreisan; usstandan	
+10	220	raise, lift	hafjan	
+10	230	fall	driusan	
+10	250	throw	wairpan	
+10	260	shake	gawigan; afhrisjan	
+10	320	flow	rinnan	
+10	330	sink	sigqan; sagqan	Respectively: intransitive; transitive.; Respectively: intransitive; transitive.
+10	360	sail (vb)	farjan	
+10	380	blow	waian; -blesan	
+10	412	kneel	knussjan	
+10	420	slide, slip	sliupan	Means 'slip into'.
+10	430	jump, leap	-hlaupan	
+10	440	dance	plinsjan	
+10	450	walk	gaggan	
+10	460	run	rinnan; þragjan	
+10	470	go	gaggan; -leiþan	
+10	471	go up	ufarsteigan; ussteigan	
+10	472	climb	steigan	
+10	473	go down	atsteigan	
+10	474	go out	utgaggan	
+10	480	come	qiman	
+10	481	come back	atwandjan	
+10	490	go away, depart	afleiþan; usgaggan	
+10	510	flee	þliuhan	
+10	520	follow	laistjan	
+10	530	pursue	wrikan	
+10	550	reach, arrive	anaqiman	
+10	560	approach	nehwa qiman	Means 'come near'.
+10	570	enter	galeiþan; inngangan; innatgaggan	
+10	610	carry (bear)	bairan	
+10	620	bring	briggan	
+10	630	send	sandjan	
+10	640	lead (vb)	tiuhan	
+10	650	drive	dreiban; draibjan	
+10	670	push, shove	afskiuban	
+10	710	road	wigs	
+10	720	path	staiga	
+10	780	yoke	yukuzi	
+10	810	ship	skip	
+10	830	boat	skip	
+11	110	have	haban; aigan	
+11	120	own, possess	gastaldan; aigan	
+11	130	take	niman	
+11	140	seize, grasp	fahan; greipan	
+11	150	hold	haban	
+11	160	get, obtain	gastaldan	Means 'gain'.
+11	170	keep, retain	fastan	
+11	180	thing	waihts	
+11	210	give	giban	
+11	220	give back	at-giban	
+11	240	preserve, look after	bairgan; gafastan	
+11	250	save, rescue	nasjan	
+11	270	destroy	fraqistjan	
+11	280	harm, injure, damage	gaskaþjan; gasleiþjan	
+11	310	seek, look for	sokjan	
+11	320	find	bigitan	
+11	330	lose	fraliusan	
+11	340	release, let go	fraletan; lausjan	
+11	430	money	skatts; faihu	
+11	440	coin	skatts	
+11	510	rich	gabigs	
+11	520	poor	unleds	
+11	530	beggar	bidagwa	
+11	540	avaricious, stingy	faihufriks; faihugairns	
+11	610	lend	leihwan	
+11	620	borrow	leihwan sis	
+11	630	owe	skulan	
+11	640	debt	dulgs	
+11	650	pay (vb)	-gildan	
+11	660	account, reckoning	raþjo	
+11	690	tax, tribute	gild; gilstr; gabaur	gabaur also means 'contribution'.; gabaur also means 'contribution'.; gabaur also means 'contribution'.
+11	780	wages	mizdo; laun	
+11	810	buy	bugjan	
+11	820	sell	frabugjan	
+11	830	trade, barter	kaupon	
+11	850	market (place)	maþl	
+11	870	price	wairþ; andawairþi	
+11	880	dear (costly, expensive)	galaufs	
+11	910	share (distribute)	dailjan; disdailjan; fradailjan	
+12	10	after	afar; biþe	Latter means 'afterward'.; Latter means 'afterward'.
+12	11	behind	afar; hindana; hindar	
+12	30	down, below	dalaþa; undaro	
+12	40	before	faur; faura	
+12	50	inside, in	in; inna	
+12	60	outside	uta	
+12	70	under	undar; undaro	
+12	80	up, above	ana	
+12	110	place	staþs	
+12	120	put	satjan; lagjan	
+12	130	sit	sitan	
+12	140	lie down	ligan	
+12	150	stand	standan	
+12	160	remain, stay	beidan; wisan; saljan	
+12	170	remains, left overs	laiba	
+12	210	collect, gather	lisan	
+12	220	join, unite	gawidan	
+12	230	separate	skaidan	
+12	232	divide	dailjan	
+12	240	open	uslukan	
+12	250	shut, close	galukan	
+12	260	cover	huljan	
+12	270	hide, conceal	filhan	
+12	310	high	hauhs	
+12	350	end	andeis	
+12	353	edge	skauta	Means 'hem, edge'.
+12	360	side	fera	
+12	370	middle, center	midjis	
+12	410	right (side)	taihswa	
+12	420	left (side)	hleiduma	
+12	430	near (adv)	nehw; nehwa	
+12	440	far (adv)	fairra	
+12	450	east	austr	
+12	460	west	saggqs	
+12	530	grow	wahsjan	
+12	540	measure	mitan	
+12	550	large, big	mikils	
+12	560	small, little	leitils; smals	
+12	570	long	laggs	
+12	610	wide, broad	braiþs	
+12	620	narrow	aggwus	
+12	670	deep	diups	
+12	710	flat	ibns	
+12	730	straight	raihts	
+12	740	crooked	wraiqs	
+12	760	corner	waihsta	
+12	770	cross	galga	
+12	850	hole	usluk; þairko	The former means 'opening'; the latter refers to the eye of a needle.; The former means 'opening'; the latter refers to the eye of a needle.
+12	920	like, similar	ibna; galeiks	
+12	930	change	maidjan; inmaidjan	The latter means 'transform'.; The latter means 'transform'.
+13	10	one	ains	
+13	20	two	twai	
+13	30	three	þrija	
+13	40	four	fidwor	
+13	50	five	fimf	
+13	60	six	saihs	
+13	70	seven	sibun	
+13	80	eight	ahtau	
+13	90	nine	niun	
+13	100	ten	taihun	
+13	101	eleven	ainlif	
+13	102	twelve	twalif	
+13	103	fifteen	fimf taihun	
+13	104	twenty	twai tiguns	
+13	105	hundred	hunda	
+13	106	thousand	þusundi	
+13	107	count	garaþjan	
+13	140	every, all	hwazuh; allai	
+13	150	much, many	manags; mikils; filu	
+13	160	more	managiza; maizo; mais	The last form is an adverb.; The last form is an adverb.; The last form is an adverb.
+13	170	little (quantity), few	leitil; fawai	
+13	180	enough	ganohs	
+13	181	some	waiht	
+13	190	multitude, crowd	managei	
+13	210	full	fulls	
+13	220	empty	laus	
+13	230	part, piece	dails	
+13	240	half	halbs	
+13	330	alone, only	ains; ainaha; þatainei	
+13	340	first	frumist; fruma	
+13	350	last	aftumists; spedists	
+13	360	second	anþar	
+13	370	pair	juk; gajuk	
+13	380	two times	twai sinþos	Lit. 'two times'.
+13	420	third	þridja	
+13	440	three times	þrija sinþos	Not attested; cf. 13.380.
+14	110	time	mel; hweila	First form means 'hour'; second form 'while, hour'. Also 'occasion' þeihs.; First form means 'hour'; second form 'while, hour'. Also 'occasion' þeihs.
+14	120	age	alds	
+14	130	new	niujis	
+14	140	young	juggs	
+14	150	old	fairneis; alþeis; sineigs	
+14	160	early	air	Adverbial form.
+14	170	late	seiþus	
+14	180	now	nu	
+14	190	immediately	sprauto; suns	
+14	210	swift, fast, quick	sprauto	Adverbial form.
+14	220	slow	lats	Means 'idle, lazy'.
+14	230	hasten, hurry	sniumjan; sniwan	
+14	240	retard, delay	latjan; sainjan	
+14	250	begin, beginning	duginnan; anastodjan; dustodjan; anastodeins; frumisti	
+14	260	end (temporal)	andeis	
+14	270	finish	ustiuhan; usfulljan	
+14	280	cease, stop	gaandjan; sweiban	
+14	290	ready	manwus	
+14	310	always	sinteino	
+14	320	often	ufta	
+14	330	sometimes	hwan	
+14	331	soon	sprauto; suns	
+14	340	never	ni hwanjan; ni aiw	
+14	350	again	aftra	
+14	410	day	dags	
+14	420	night	nahts	
+14	440	morning	maurgins	
+14	460	evening	andanahti	
+14	470	today	himma daga	Lit. 'this day'.
+14	480	tomorrow	du maurgina; gistra dagis	Latter form is 'next day'.; Latter form is 'next day'.
+14	510	hour	hweila	
+14	610	week	sabbato	
+14	620	Sunday	afarsabbate dags	
+14	670	Friday	paraskaiwe; fruma sabbato	Respectively: 'preparation'; 'beginning of sabbath'.; Respectively: 'preparation'; 'beginning of sabbath'.
+14	680	Saturday	sabbato dags	
+14	710	month	menoþs	
+14	730	year	jer; aþn; ataþni	jer 'a single year'; jer 'a single year'; jer 'a single year'
+14	740	winter	wintrus	
+14	760	summer	asans	
+15	260	stinking, bad smelling	fuls	
+15	310	taste	kausjan	
+15	360	salty	salt	Noun form.
+15	370	bitter	baitrs	
+15	410	hear	hausjan	
+15	440	sound, noise	auhjodus	
+15	460	quiet, silence	þahains	
+15	510	see	saihwan	
+15	520	look, look at	wlaiton	Means 'look around'.
+15	550	show	augjan	
+15	560	shine	skeinan; liuhtjan; glitmunjan	liuhtjan 'give light'; glitnumjan 'gleam'.; liuhtjan 'give light'; glitnumjan 'gleam'.; liuhtjan 'give light'; glitnumjan 'gleam'.
+15	570	bright	bairhts	
+15	640	white	hweits	
+15	650	black	swarts	
+15	660	red	rauþs	
+15	710	touch	tekan	
+15	740	hard	hardus	
+15	750	soft	hnasqus	
+15	760	rough	usdrusts	Means 'rough road'.
+15	770	smooth	slaihts	
+15	780	sharp	hwass	Inferred from hwassaba, (adverb).
+15	810	heavy	kaurus	
+15	820	light (in weight)	leihts	
+15	830	wet, damp	qramms	Inferred from qrammiþa 'moisture'.
+15	840	dry	þaursus	
+15	850	hot	warms	Inferred from warmjan, (verb).
+15	851	warm	warms	Inferred from warmjan, (verb).
+15	860	cold	kalds	
+15	870	clean	hrains	
+15	880	dirty, soiled	unhrains	
+16	110	soul, spirit	saiwala; ahma	Latter form is 'mind'.; Latter form is 'mind'.
+16	150	surprised, astonished	sildaleik	Noun form.
+16	230	joyful, glad, happy	hlas; audags	Respectively: 'cheerful'; 'happy'.; Respectively: 'cheerful'; 'happy'.
+16	250	laugh	hlahjan	
+16	270	love	frijaþwa; frijon	Resepctively: noun; verb.; Resepctively: noun; verb.
+16	290	kiss	kukjan	
+16	300	embrace	gaþlaihan	Also means 'comfort'.
+16	310	pain	sair; winno; balweins	Second form means 'suffering'; last form, 'torture'.; Second form means 'suffering'; last form, 'torture'.; Second form means 'suffering'; last form, 'torture'.
+16	320	grief, sorrow, sadness	saurga; gaurei; gauriþa	
+16	330	anxiety, worry	saurga	
+16	340	regret, be sorry	idreigon	
+16	350	pity	armaio; armahairtei	armaio means 'mercy, alms'; armahairtei, 'mercy'.; armaio means 'mercy, alms'; armahairtei, 'mercy'.
+16	370	cry, weep	gretan	
+16	380	tear (noun)	tagr	
+16	390	groan	swogatjan	
+16	410	hate	fijaþwa; fijan; hatan	Latter two forms are verbs.; Latter two forms are verbs.; Latter two forms are verbs.
+16	420	anger	þwairhei; moþs; hatis	Respectively: 'anger, passion'; 'anger'; 'hatred'.; Respectively: 'anger, passion'; 'anger'; 'hatred'.; Respectively: 'anger, passion'; 'anger'; 'hatred'.
+16	440	envy, jealousy	neiþ; aljan	Latter form also means 'zeal'.; Latter form also means 'zeal'.
+16	450	shame (noun)	aiwiski; skanda; gariudei	Latter form has meaning of 'modesty'.; Latter form has meaning of 'modesty'.; Latter form has meaning of 'modesty'.
+16	480	proud	hauhhairts; hauhþuhts; mikilþuhts	First two forms have meaning of 'arrogant'.; First two forms have meaning of 'arrogant'.; First two forms have meaning of 'arrogant'.
+16	510	dare	gadaursan	
+16	520	brave	balþs	Inferred from balþaba, (adverb).
+16	530	fear, fright	agis; faurhtei	Respectively: 'terror'; 'fear'.; Respectively: 'terror'; 'fear'.
+16	540	danger	bireikei; sleiþi	
+16	620	desire, want	gairnjan	
+16	622	choose	kiusan; waljan	kiusan means 'test'; waljan 'select'.; kiusan means 'test'; waljan 'select'.
+16	630	hope	wens	
+16	650	faithful	triggws	
+16	660	true	sunja	
+16	670	lie, tell lies	liugan	
+16	680	deceit	marzeins; liutei; lists	Resepctively: 'deception'; 'treachery'; 'cunning'.; Resepctively: 'deception'; 'treachery'; 'cunning'.; Resepctively: 'deception'; 'treachery'; 'cunning'.
+16	690	forgive	afletan; fragiban	
+16	710	good	gods; þiuþeigs; sels	Second form means 'just; blessed'; last form, 'kind, useful'.; Second form means 'just; blessed'; last form, 'kind, useful'.; Second form means 'just; blessed'; last form, 'kind, useful'.
+16	720	bad	ubils	
+16	730	right, correct	raihts; garaihts	Last form means 'right' in moral sense.; Last form means 'right' in moral sense.
+16	740	wrong	inwinds; untriggws; unsibjis	Respectively: 'unjust, perverse'; 'unjust'; 'unlawful'.; Respectively: 'unjust, perverse'; 'unjust'; 'unlawful'.; Respectively: 'unjust, perverse'; 'unjust'; 'unlawful'.
+16	760	fault	fairina	
+16	770	mistake, error	airziþa; airzei	
+16	780	blame	fairina	
+16	790	praise	hazeins	
+16	810	beautiful	skauns	
+16	830	greedy	friks	
+16	840	clever	handugs; froþs	Respectively: 'wise; intelligent'.; Respectively: 'wise; intelligent'.
+17	110	mind	aha; fraþi; hugi	
+17	130	think (= reflect)	hugjan; fraþjan	
+17	140	think (= be of the opinion)	hugjan; munan; ahjan	munanmeans 'intend'.; munanmeans 'intend'.; munanmeans 'intend'.
+17	150	believe	galaubjan	
+17	160	understand	fraþjan	
+17	170	know	witan; kunnan	
+17	172	imitate	miþgaleikon	
+17	180	seem	þugkjan	
+17	210	wise	snutrs; froþs; handugs	Second form means 'intelligent'.; Second form means 'intelligent'.; Second form means 'intelligent'.
+17	220	foolish, stupid	unfroþs; dwals	
+17	230	insane, crazy	woþs	
+17	240	learn	laisjan sik; ganiman	First form is lit, 'teach oneself'.; First form is lit, 'teach oneself'.
+17	250	teach	laisjan	
+17	260	pupil	siponeis	
+17	270	teacher	laisareis	
+17	310	remember	gamunan; andþagkjan sik	
+17	320	forget	ufarmunnon	
+17	340	clear, plain	skeirs; bairhts; swikunþs	Respectively: 'clear'; 'bright, manifest'; 'obvious'.; Respectively: 'clear'; 'bright, manifest'; 'obvious'.; Respectively: 'clear'; 'bright, manifest'; 'obvious'.
+17	360	secret	fulgins	
+17	370	sure, certain	-wiss	Inferred from un-wiss, 'uncertain'.
+17	380	explain	gaskeirjan	
+17	410	intention, purpose	muns	
+17	420	cause	fairina	
+17	430	doubt	tweifl	
+17	440	suspect	frawrohjan	
+17	441	betray	lewjan; fralewjan	
+17	450	need, necessity	þaurfts; nauþs	
+17	460	easy	azetizo	A comparative form.
+17	470	difficult	aglus	
+17	480	try, attempt	kiusan; kausjan; fraisan; sokjan	First form is 'test'; second form is 'experience'; final form is 'seek'.; First form is 'test'; second form is 'experience'; final form is 'seek'.; First form is 'test'; second form is 'experience'; final form is 'seek'.; First form is 'test'; second form is 'experience'; final form is 'seek'.
+17	490	way, manner	haidus	
+17	510	and	-uh; ei; jah; iþ; þanuh; þande; unte	iþ also means 'but'; and þande also means 'since'.; iþ also means 'but'; and þande also means 'since'.; iþ also means 'but'; and þande also means 'since'.; iþ also means 'but'; and þande also means 'since'.; iþ also means 'but'; and þande also means 'since'.; iþ also means 'but'; and þande also means 'since'.; iþ also means 'but'; and þande also means 'since'.
+17	520	because	duþe ei	
+17	530	if	jabai; þande; iþ	
+17	540	or	aiþþau; þau	
+17	550	yes, affirmative	ja; jai	
+17	560	no, negative	ni	
+17	610	how?	hwaiwa	
+17	620	how many?	hwaiwa	
+17	630	how much?	hwaiwa	
+17	640	what?	hwat	
+17	650	when?	hwan	
+17	660	where?	hwar	
+17	670	which?	hwaþar	
+17	680	who?	hwas	
+17	690	why?	duhwe	
+18	110	voice	stibna	
+18	120	sing	siggwan	
+18	130	shout, cry out	hropjan; wopjan	
+18	180	shriek, screech	ufhropjan	
+18	210	speak, talk	rodjan; maþljan	
+18	220	say	qiþan	
+18	230	silent (be)	þahan; slawan	
+18	240	language	razda	
+18	260	word	waurd	
+18	280	name	namo	
+18	310	ask (question, inquire)	fraihnan	
+18	320	answer	andhafjan; usbairan	
+18	330	admit, confess	andhaitan	
+18	340	deny	laugnjan; afaikan	
+18	350	ask, request	bidjan	
+18	360	promise	gahaitan	
+18	380	forbid	faurbiudan	
+18	390	rebuke, scold	sakan; gasakan; andbeitan; anahaitan	
+18	410	call (=summon)	haitan	
+18	420	call (=name)	namnjan; haitan	
+18	430	announce	gateikan; merjan; spillon	First form is 'announce, tell'; second form, 'proclaim'.; First form is 'announce, tell'; second form, 'proclaim'.; First form is 'announce, tell'; second form, 'proclaim'.
+18	440	threaten	hwotjan	
+18	450	boast	hwopan	
+18	510	write	meljan	'Writing tablet' is spilda.
+18	520	read	ussiggwan; anakunnan	
+18	610	book	bokos	Plural of boka 'letter'.
+18	730	horn, trumpet	haurn	
+19	110	country	land	
+19	120	one's native country	gabaurþs; land	
+19	150	city, town	baurgs	
+19	160	village	haims; weihs	
+19	170	boundary	marka	
+19	210	people (populace)	managei; þiuda	Latter form is 'a people'.; Latter form is 'a people'.
+19	230	tribe, clan	kuni	
+19	250	staff, walking stick	hrugga; walus	
+19	310	rule, govern	reikinon	
+19	320	king, ruler	þiudans	
+19	360	noble, nobleman	manna godakunds	Lit. 'a man of good family'.
+19	370	citizen, subject	baurgja	
+19	410	master	frauja	
+19	420	slave	skalks; þius	
+19	430	servant	andbahts	
+19	450	command, order	haitan; anabiudan	
+19	460	obey	ufhausjan	
+19	470	let, permit	letan; uslaubjan	
+19	510	friend, companion	frijonds	
+19	520	enemy	fijands	
+19	540	neighbor	garazna	
+19	550	stranger	gasts	
+19	570	host	wairdus	
+19	580	help, aid	hilpan	
+19	590	hinder, prevent	warjan; analatjan; galatjan	
+19	610	custom	sidus; biuhti	
+19	620	strife, quarrel	haifsts; sakjo; þwairhei	
+19	650	meet	gamotjan	
+19	720	prostitute	kalkjo	
+20	110	fight (vb)	weihan	
+20	130	war, battle	waihjo; wigana	Latter form is dative singular.; Latter form is dative singular.
+20	140	peace	gawairþi	
+20	150	army	harjis	
+20	170	soldier	gadrauhts	
+20	210	weapons, arms	wepna	
+20	220	club	triu	Plural form.
+20	250	arrow	arhwazna	
+20	270	sword	hairus; meki	
+20	310	armor (defensive)	sarwa	
+20	330	helmet	hilms	
+20	340	shield	skildus	
+20	360	tower	kelikn	
+20	410	victory	sigis	
+20	450	retreat	þlauhs	Means 'flight'.
+20	460	surrender	atgiban	
+20	470	captive, prisoner	frahunþans	
+20	510	fisherman	fiskja; nuta	
+20	540	fishnet	nati; snorjo	
+21	110	law	witoþ	
+21	160	judge (vb)	stojan; domjan	
+21	170	judgment	staua; doms	
+21	180	judge (noun)	staua	
+21	230	witness	weitwoþs	
+21	240	swear	swaran	
+21	250	oath	aiþs	
+21	310	accuse	wrohjan	
+21	320	condemn	afdomjan; gawargjan	
+21	330	convict (vb)	gasakan	
+21	340	acquit	fraletan	
+21	350	guilty	skula	
+21	360	innocent	swikns	
+21	370	penalty, punishment	balweins	
+21	390	prison, jail	karkara	
+21	420	murder	maurþr	
+21	430	adultery	kalkinassus; horinassus	
+21	470	perjury	galiuga-weitwodiþa	Inferred from galiuga-weitwoþs 'perjurer.'
+21	510	steal	hlifan; stilan; biniman	
+21	520	thief	hliftus	
+22	120	God	guþ	
+22	130	temple, church	alhs; gudhus	
+22	140	altar	hunslastaþs	
+22	150	sacrifice, offering	hunsl; sauþs	
+22	160	worship	inweitan; blotan	
+22	170	pray	bidjan	
+22	180	priest	gutja	
+22	190	holy, sacred	weihs; hailags	
+22	220	preach	merjan	
+22	230	bless	þiuþjan	
+22	240	curse	fraqiþan; unþiuþjan	
+22	260	fast (vb)	fastan	
+22	310	heaven	himins	
+22	320	hell	halja; gaiainno	
+22	350	demon (evil spirit)	unhulþo; skohsl	
+22	420	magic, witchcraft, sorcery	lubjaleisei	
+22	430	sorcerer, witch	lubjaleis	
+22	470	omen, portent	taikns	

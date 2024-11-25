@@ -1,0 +1,1311 @@
+chapter_id	entry_id	meaning	Võro_StandardOrth	comment
+1	100	world	ilm; maailm; ilmamaa	
+1	210	earth, land	maa	
+1	212	earth=ground, soil	maa; maakammaŕ	
+1	213	dust	tolm	
+1	214	mud	muda	
+1	215	sand	liiv; sõmmõŕ	
+1	220	mountain, hill	mägi	
+1	222	cliff, precipice	müür; müürümägi; sain; kivi	
+1	230	plain, field	nurḿ	
+1	240	valley	org	
+1	250	island	saaŕ	
+1	260	mainland	maisõmaa; suuŕmaa; maa; mannõŕ	
+1	270	shore	perv́; viiviiŕ; maaviiŕ; rand	
+1	280	cave	kuup; uus; tśopp	
+1	310	water	vesi; vet́o	
+1	320	sea	meri	
+1	322	calm (of sea)	rahulinõ; rahunõ; tasalik; rahulik; vaganõ	
+1	323	rough (of sea)	marunõ; torminõ; tormilinõ	
+1	324	foam	vatt; souḿ; koho; suuḿ	
+1	329	ocean	ilmameri; suuŕmeri	
+1	330	lake	järv́; land	
+1	340	gulf, bay	laht́; kolk; merekiiĺ	
+1	341	lagoon	laguuń	
+1	342	reef	viialonõ kivi; kivestü	
+1	343	headland, point	nõna; nukk; nokḱ	
+1	350	wave	lainõq; lainõh	
+1	352	tide	nõsõng ja alang	
+1	353	lowtide	mõõn; alang	
+1	354	hightide	nõsõḱ; nõsõng; nõstatus; ülesmineḱ	
+1	360	river, stream, brook	jõgi; oja; uja; ora; ura	
+1	362	whirlpool	viipöörüs	
+1	370	spring, well	läteq; kaiv	
+1	380	swamp	suu	
+1	390	waterfall	satam; sadamik; viisadang; sadahus; sadang	
+1	410	woods, forest	mõts	
+1	420	tree (cf 08.600)	puu	
+1	430	wood	puu; puumatõrjaĺ; puunõ	
+1	440	stone, rock	kivi; müür; müürümägi; sain	
+1	450	earthquake	maavärrin; maahütin	
+1	510	sky	taivas; ilm	
+1	520	sun	päiv; päivlik	
+1	530	moon	kuu	
+1	540	star	täht́	
+1	550	lightning	välḱ; välk	
+1	560	thunder	pikne; pikjäne; kukutätä; hür-rümürrü	
+1	570	lightning (as striking)	pikne; pikjäne; hür-rümürrü	
+1	580	storm	torḿ; maru	
+1	590	rainbow	vikaht́kaaŕ; vikakaaŕ	
+1	610	light (noun)	valgus; valgõ; valu	
+1	620	darkness	pümehüs; sõgõhus	
+1	630	shade, shadow	vari	
+1	640	dew	kastõq	
+1	710	air	hõhk; luht́; hõng	
+1	720	wind	tuuĺ; tuulõhõng	
+1	730	cloud	pilv́	
+1	740	fog	udsu; undsõq; undsõh	
+1	750	rain (noun)	vihm	
+1	760	snow (noun)	lumi	
+1	770	ice	iä; ijä; jää	
+1	780	weather	ilm	
+1	810	fire	tuli	
+1	820	flame (noun)	tuli; tulõkirǵ; tulõkiiĺ	
+1	830	smoke (noun)	savv; sau; suits	
+1	840	ashes	tuhk	
+1	841	embers	hõõgavaq hüdseq	
+1	851	burn (vb trans)	palotama	
+1	852	burn (vb intrans)	palama	
+1	860	light, kindle, ignite	läütämä; läütmä; tuld alostama; soetama	
+1	861	extinguish	kistutama; mülgütämä	
+1	870	match (noun)	tikk; pitśka; pitśki	
+1	880	firewood	tulõpuu	
+1	890	charcoal	hüdsi	
+2	100	person, human being	inemine	
+2	210	man (vs. woman)	miiś	
+2	220	woman	naanõ; naańõ; paaba	
+2	230	male	esäne; miiśsugu	
+2	240	female	imäne	
+2	250	boy	poisś; tśura; poiskõnõ; puika; põnń; jorsś	
+2	251	young man (adolescent)	nuuŕmiiś	
+2	260	girl	tütrik; tütäŕlatś; latśkõnõ	
+2	261	young woman (adolescent)	näio; neio; latśkõnõ; kabo; kabõhõnõ; kabõhinõ	
+2	270	child	latś	
+2	280	infant, baby	latś; rinnalatś; üsälatś; nisalinõ; nännäline	
+2	310	husband	miiś; ülä; tõnõpuuĺ; tõõnõpuuĺ; abikaas; kaasa	
+2	320	wife	naanõ; naańõ; paaba	
+2	330	marry	paari minemä; paari hiitmä; naist võtma; mehele võtma; tano alaq saama	
+2	340	marriage, wedding	abielo; paarielo; saajaq; pulm; hähäq; ähkäq; lätkädseq; laulatus	
+2	341	divorce	abielolahutus; lahkumineḱ; erälemineḱ	
+2	350	father	esä	
+2	360	mother	imä; mamma; äidi; ääde	
+2	370	parents	vanõmbaq	
+2	380	married man	naasõmiiś; abielomiiś; ülä	
+2	390	married woman	mehenaanõ; abielonaanõ	
+2	410	son	poig	
+2	420	daughter	tütäŕ	
+2	430	offspring (son or daughter)	latś; perrätulõja; periline	
+2	440	brother	veli; veline	
+2	444	older brother	vanõmb veli	
+2	445	younger brother	noorõmb veli	
+2	450	sister	sõsaŕ	
+2	454	older sister	vanõmb sõsaŕ	
+2	455	younger sister	noorõmb sõsaŕ	
+2	456	sibling	sõsaraq-veleq; velidseq	
+2	458	twins	katsikõsõq	
+2	460	grandfather	vanaesä; tätä; teeda	
+2	461	old man	vanamiiś; tarik	
+2	470	grandmother	vanaimä; vanaäide; vana-äidi; vanamemḿ; mamma	
+2	471	old woman	vananaanõ; vananaańõ	
+2	480	grandson	pojapoig; pujapoig; tütrepoig	
+2	490	granddaughter	pojatütäŕ; pujatütäŕ; tütretütäŕ	
+2	510	uncle	uno	
+2	511	mother's brother	uno	
+2	512	father's brother	lell	
+2	520	aunt	tädi	
+2	521	mother's sister	tädi	
+2	522	father's sister	tsõdsõ	
+2	530	nephew	vellepoig; sõsarapoig	
+2	540	niece	velletütäŕ; sõsaratütäŕ	
+2	550	cousin	tsõdsõlatś	
+2	560	ancestors	edevanõmbaq; alovanõmbaq; vanavanõmbaq; iihnvanõmb	
+2	570	descendants	perrätulõjaq	
+2	610	father-in-law (of a man)	meheesä	
+2	611	father-in-law (of a woman)	naasõesä	
+2	620	mother-in-law (of a man)	meheimä	
+2	621	mother-in-law (of a woman)	naasõimä	
+2	630	son-in-law (of a man)	väümiiś; vävü; väüpoig	
+2	631	son-in-law (of a woman)	tütremiiś; vävü	
+2	640	daughter-in-law (of a man)	minnij	
+2	641	daughter-in-law (of a woman)	pujanaanõ	
+2	710	stepfather	võõrasesä; võõrasesä; kasuesä; esäk	
+2	720	stepmother	võõrasimä; võõrasimä; imäk; kasuimä	
+2	730	stepson	kasupoig	
+2	740	stepdaughter	kasutütär	
+2	750	orphan	vaenõlatś	
+2	760	widow	läsḱ	
+2	770	widower	läsḱ	
+2	810	relatives, kinsmen	sugulasõq; sugulisõq	
+2	820	family	pereq; pereh; vahmil; vammil	
+2	910	I	ma; maq	
+2	920	you (singular)	sa; saq	
+2	930	he/she/it	timä; tä	
+2	940	we	mi; miiq	
+2	941	we (inclusive)	mi; miiq	
+2	942	we (exclusive)	mi; miiq	
+2	950	you (plural)	ti; tiiq	
+2	960	they	nimäq; niäq; nääq	
+3	110	animal	elläi	
+3	120	male (adj)	esäne	
+3	130	female (adj)	imäne	
+3	150	livestock	kaŕaeläjäq	
+3	160	pasture	kaŕamaa	
+3	180	herdsman	kaŕus	
+3	190	stable, stall	laut; talĺ	
+3	200	cattle (bovine)	tõbras	
+3	210	bull	pulĺ	
+3	220	ox	härg	
+3	230	cow	lehm	
+3	240	calf	vasik; vaśkas	
+3	250	sheep	lammas	
+3	260	ram	oinas; päri; pokk; pärioinas; synń	
+3	280	ewe	utt́; imälammas	
+3	290	lamb	voonakõnõ; hoonakõnõ; tsile; tallõkõnõ; vuun	
+3	320	boar	kult́; pahr; pardo; paro	
+3	340	sow (2)	immis	
+3	350	pig	põrss; põrsas	
+3	360	goat	kitś; kiďo	
+3	370	he-goat	sikk; pokk	
+3	380	kid	kitsõtallõkõnõ; voonakõnõ	
+3	410	horse (equine)	hopõń; hobõnõ	
+3	420	stallion	t́akk; täkk	
+3	440	mare	märä	
+3	450	foal, colt	vars; hindśo	
+3	460	ass, donkey	iisli; esseĺ	
+3	470	mule	muul	
+3	500	fowl	kodotsirk	
+3	520	cock, rooster	kikas; kiko	
+3	540	hen	kana	
+3	550	chicken	kana	
+3	560	goose	hani; haah́	
+3	570	duck	partś; piiĺo	
+3	580	nest	pesä	
+3	581	bird	tsirk	
+3	582	seagull	merikajak	
+3	583	heron	haigru	
+3	584	eagle	kodas; kodasḱ	
+3	585	hawk	haugas; kulĺ	
+3	586	vulture	rõipõkodas; rõipõkodasḱ	
+3	591	bat	nahkhiiŕ; üüsisas	
+3	592	parrot	papagoi	
+3	593	crow	varõs	
+3	594	dove	tuvi	
+3	596	owl	üükakk; üükulĺ	
+3	610	dog	pini	
+3	614	rabbit	jänes; näńu; jäńo	
+3	620	cat	kasś; tiide; tsiidśo; tsiidsi	
+3	622	opossum	opossuḿ	
+3	630	mouse, rat	hiiŕ; rott́; võhń; võhr; võhl; sork	
+3	650	fish	kala	
+3	652	fin (dorsal)	horm; hormus; hurm; hurmus; hoimus	
+3	653	fishscale	kalasoomus; kalasoomõq	
+3	654	gill	lõpus	
+3	655	shell	tiokarṕ; kilikauḱ; kilikausś	
+3	661	shark	hai	
+3	662	porpoise, dolphin	delfiiń	
+3	663	whale	vaalaskala; valas	
+3	664	stingray	nõgõlrai	
+3	665	freshwater eel	makõvii angõrjas; makõvii angõrus	
+3	710	wolf	susi; suśo; mõtsatśudśu	
+3	720	lion	lõvi	
+3	730	bear	kahr; karh; otś	
+3	740	fox	repäń; rebäne; rebo	
+3	750	deer	hirv́	
+3	760	monkey	ahv́; määrkasś	
+3	770	elephant	éelevant́	
+3	780	camel	kaamli; kaamõĺ	
+3	810	insect	mutuk; mutik; putuk	
+3	811	louse	täi; puśa; suśo; tśudśu	
+3	812	nit (louse egg)	ting; täimuna	
+3	813	flea	kirp	
+3	814	centipede	saajalgnõ	
+3	815	scorpion	skorpioń	
+3	816	cockroach	prussak; kirges; kirgatś	
+3	817	ant	sipõrlanõ; kuklanõ	
+3	818	spider	härmävitäi; härm; härmläne; härmäelläi; hämäläne	
+3	819	spider web	härmävõrk; härmähäll	
+3	820	bee	mehiläne; mehine	
+3	821	beeswax	mehidsevaha	
+3	822	beehive	taro; mesipakk; mesipuu	
+3	823	wasp	hüürläne; hürüläne	
+3	830	fly	kärbläne	
+3	831	sandfly (midge), gnat	mudalanõ; tsämbläne; maslanõ	
+3	832	mosquito	kiholanõ; uno	
+3	840	worm	husś; vagõl; vakl	
+3	850	snake	siug; husś; mado; tsusś; küü; paloangõrjas	
+3	910	firefly	tulivagõl; jaanivagõl; jaanisilm	
+3	920	butterfly	liblik; lipkas; tsibiläne	
+3	930	grasshopper	hainaritsik; ritsik; hainaritśk; ritśk; hainaritśkas; ritśkas; hainatsirts; hainakadsak; hainakasak	
+3	940	snail	tigo	
+3	950	frog	kunn	
+3	960	lizard	sisalik; sõsalik; tsisasḱ	
+3	970	crocodile, alligator	krokotilĺ; kroogotilĺ	
+3	980	turtle	padakunn; kilṕkunn	
+4	110	body	kihä; iho	
+4	120	skin, hide	nahk	
+4	130	flesh	liha	
+4	140	hair (head)	hiussõq; täträq	
+4	142	beard	habõnaq; habõnanürsś	
+4	144	body hair	karv	
+4	145	pubic hair	häbehüskarvaq	
+4	146	dandruff	koomõq; kohmõq	
+4	150	blood	veri	
+4	151	vein, artery	mustaveresuuń; tõmbsuuń; tummõsuuń; elosuuń; puhtaveresuuń; tuiksuuń	
+4	160	bone	luu; kunt́	
+4	162	rib	külleluu; külǵluu; ribi; ribiluu	
+4	170	horn	sarv́; lutusarv́	
+4	180	tail	hand	
+4	190	back	sälg	
+4	191	spine	sälgruuds; sälläruuds	
+4	200	head	pää	
+4	201	side of head, temple	meelekotus	
+4	202	skull	pääluu; pääkoĺo	
+4	203	brain	ajo; pääajo	
+4	204	face	nägo; ńago; palõq; palõh	
+4	205	forehead	ots; otsaedine	
+4	207	jaw	lõvvaluu	
+4	208	cheek	põsḱ; palõq	
+4	209	chin	lõug	
+4	210	eye	silm; tsimmä	
+4	212	eyebrow	kulm; kolm	
+4	213	eyelid	silmälakk; silmälaud	
+4	214	eyelash	silmäkarv	
+4	215	blink	silmi pilgutama; polgutama; pilgutõllõma	
+4	220	ear	kõrv	
+4	221	earlobe	kõrvanibu; kõrvanublak; nipp	
+4	222	earwax	kõrvasitt	
+4	230	nose	nõna; ninni	
+4	231	nostril	nõnasõõrõq	
+4	232	mucus (nasal)	tatt́; nõlǵ; häüss	
+4	240	mouth	suu; tśuko	
+4	241	beak	nokḱ; nokk; tśauń; tśank	
+4	250	lip	huuĺ; mokk	
+4	260	tongue	kiiĺ	
+4	270	tooth	hammas	
+4	271	gums	ikim; igimät	
+4	272	molartooth	purimanõ hammas; tśalkmishammas; tagomanõ hammas	
+4	280	neck	kaal	
+4	281	nape of neck	kukro	
+4	290	throat	kõri; lõõŕ	
+4	300	shoulder	olg	
+4	301	shoulderblade	labaluu; laba	
+4	302	collarbone	kaalavitsaluu; rangluu	
+4	310	arm	käsivarś; käevarś	
+4	312	armpit	kaindlitśomp	
+4	320	elbow	künnäŕpää; künnäŕnutt́	
+4	321	wrist	randmõs; käejakk	
+4	330	hand	käsi; kät́u	
+4	331	palm of hand	pego; peo; pigo; pio; peopesä	
+4	340	finger	näpp; ńapp; sõrḿ	
+4	342	thumb	päkk; päss; täitapja; pudrokiitjä	
+4	344	fingernail	sõrmõküüdś; küüdś	
+4	345	claw	küüdś	
+4	350	leg	jalg; lalĺa	
+4	351	thigh	kints; raǵa; ragja	
+4	352	calf of leg	seeremari	
+4	360	knee	põlv́	
+4	370	foot	jalg; labajalg; jalaleht́; jalalaparď	
+4	371	ankle	munaluu; kunt́	
+4	372	heel	kunds	
+4	374	footprint	jalajälǵ; jalatśomp	
+4	380	toe	varbas; varvas	
+4	392	wing	siib; haaŕ	
+4	393	feather	klambri; sulg	
+4	400	chest	rind; rõnd; nisa; nänn	
+4	410	breast (of woman)	rind; rõnd; nisa; nänn	
+4	412	nipple, teat	nisa; nibu; nublak; nipp	
+4	420	udder	utaŕ	
+4	430	navel	naba	
+4	440	heart	süä	
+4	441	lung	täü; tävv; kops	
+4	450	liver	mass	
+4	451	kidney	rahu; rauh; niir; ritsõq	
+4	452	spleen	põrn	
+4	460	stomach	mago	
+4	461	intestines, guts	sisekund; sisemädseq; rapmõq; krupskiq	
+4	462	waist	piht; keskkotus; keskkihä; talja	
+4	463	hip	puus	
+4	464	buttocks	tuhhaŕ; perseq; perä; persepuuĺ; tagaots	
+4	470	womb	imäkoda; latsõkoda; pujakoda	
+4	490	testicle	paut́; muna	
+4	492	penis	titt́; tilk; vulgar munń; vulg türä; kara; tila	
+4	510	breathe, breath	hingämä; hengämä; hõng; hõngutõmbaminõ	
+4	520	yawn, gape	haigutama; haigutõllõma	
+4	521	hiccough	hõkśma; jõkśma; klõkśma; niguma; nikśma	
+4	530	cough	köhimä; köhkätämä; plohkatama; plohkutama; pröhkätämä; rüügämä; rüüsütämä	
+4	540	sneeze	aivastama; tśuhḱma; tsihatama; tśuhatama; tśuhkatama; tśuhahtama; tsihahtama; tśuhahutma; tśuhknõllõma; tsihatõllõma	
+4	550	perspire	higonõma; higitsemä; higovama; higistämä; hiitsemä; hiitämä	
+4	560	spit	sülgämä; tatitama; sülgellemä; tsirkõlõma	
+4	570	vomit	ossõndama	
+4	580	bite	haukama; hampsama; tsälkämä; purõma; tsälksämä; tsälgähtämä	
+4	590	lick	lakma; lakahtama; lakahutma; lakiskõllõma	
+4	591	dribble	nirisemä; tsirrama; tsirisemä; tsirahama; tsimisemä; nõrisõma	
+4	610	sleep	magahama; tudima; tuďoma; tõhrama	
+4	612	snore	kruuskama; norskama	
+4	620	dream	unistama; ette kujotama; igätsemä	
+4	630	wake up	heränemä; herähtümä; üles virguma	
+4	640	break wind	piiru laskma; piirämä; peerähtämä; peerähütmä; peeriskellemä; peerüskellemä; pussutama	
+4	650	urinate	kusõma; kusiskõllõma	
+4	660	defecate	sitma; pasandama	
+4	670	have sexual intercourse	sekśmä; suku tegemä; suku soetama; nuśma; jõpśma; koinlõma; koinama; paaritama; maatama; kargama; tukkama	
+4	680	shiver	värisemä; hüdisemä; hudisõma; habisõma; hibisemä; libisemä; vibisemä; kahmistõllõma; kahmustõllõma; kahmustama; liglõtama; judisõma; jõdisõma; tudisõma	
+4	690	bathe	vannitama; mõskma; mõskuma; mõsiskõllõma; leebitsemä; püügitsemä; tsuklõma; tsukõldama	
+4	710	beget (of father)	last tegemä	
+4	720	born (to be)	sündümä; tegünemä	
+4	730	pregnant	rassõ; rasõhõnõ; rassõjalalinõ; vannajalga; tsälksämä; latsõnõ; tooja; toogi pääl; läülä; käünüs saanuq; tiinõq; jämme; juustunuq; poigõ täüs; ramm	
+4	732	conceive	rassõs jäämä; rasõhõs jäämä; käünüs jäämä; käünüs saama	
+4	740	live, living, life	elämä; hingehn; hingeline; elolinõ; elläv; elohn; elo	
+4	750	die, dead	kuulma; koolnuq	
+4	751	drowned	uppunuq	
+4	760	kill	tapma; maaha lüümä; ello vällä võtma; otsatama; otsama; ärq võtma	
+4	770	corpse	koolnuq; kuulnuq; koolnuq; kuulnukihä; koolukihä; lõpnu	
+4	780	bury (the dead)	maaha matma; maa sisse kaibma; katma; kinniq katma	
+4	790	grave, tomb	matus; haud; kalm	
+4	810	strong, mighty, powerful	kõva; kimmäs; tukõv; uhkõ; väkev; võimsa	
+4	820	weak	nõrk; nõrga	
+4	830	well, health	terveq; terveh; tervüseline; tehrüline; tervüs; tehrüs	
+4	840	sick, sickness	tõbinõ; haigõ; tõbialonõ; tõbi; hädä; haigus; vigahus; vigandus	
+4	841	fever	palavik; palavus; pallavhädä; kuumahädä; kuumõtus; kuumus	
+4	842	goiter	hõdśo; hõtsk; pugo; kubo	
+4	843	cold (catarrh)	külmäsaaminõ; külmähädä; külmätõbi	
+4	850	wound, sore	haav	
+4	852	bruise	joovik; johvik; johv́kas; joobik; jooṕkas	
+4	853	swelling	paistus	
+4	854	itch	süüdik; süüt	
+4	855	blister	vilĺ; vesivilĺ; paun	
+4	856	boil (noun)	paisõq; paisõh; pahus	
+4	857	pus	mädä; määnüq	
+4	858	scar	arḿ; arb; jama; juma; juhm	
+4	860	cure, heal	ravitama; ravitsõma; tohtõrdama; praavitama; arst́ma; sütütämä; rohitsõma; terves tegemä	
+4	870	physician	tohtri; tohtrõ; arst́	
+4	880	medicine, drug	arstiruuh; arstiruhe; rohi; roht	
+4	890	poison	mürk; viha; kihvt́; jihvt́; jõhvt́	
+4	910	tired, weary	väsünüq	
+4	912	rest	hingämä; hõngu tagasi haardma; puhkama; hingähtämä; hengähtämä	
+4	920	lazy	laisk; veteĺ; hilläk; rimasḱ; tambinõ; kangjas; kõhma	
+4	930	bald	palĺas; plesś	
+4	940	lame	limbajalg; limbak; limp; limbatś; liba; lööbäk; kungatś; kunka	
+4	950	deaf	kõrvoldaq; kuuldmaldaq; kurt́; kluhho; hurŕ	
+4	960	mute	tumḿ; keeledü; keeleldäq; helüldäq	
+4	970	blind	pümme; sõkõ	
+4	980	intoxicated	puŕohn; puŕokillaq; tśommihn; tśoksihn; hunnihn; pinnuhn; jommihn; vindihn; pommihn; viinanõ; võtnuq; juubunuq; joovahtunuq	
+4	990	naked, bare	alastõ; alastõllaq; palĺas; tühi; puusta	
+5	110	eat	süümä; ruuga võtma	
+5	120	food	süüḱ; ihotoidus; ravi; kõtutäüdeq	
+5	121	cooked	keededüq; küdsedüq	
+5	122	raw	toorõs; tooras; jõhkra; jõhikunõ; hirmsa; hirmudu; halõstamaldaq	
+5	123	ripe	kütse; kütseq; kütseh; küdsi-; valmis; valminuq	
+5	124	green, unripe	rohilinõ; haĺas	
+5	125	rotten	mädänüq	
+5	130	drink	juuma; mammama; klõnotama	
+5	140	hunger	nälg	
+5	141	famine	näläaig; nälg	
+5	150	thirst	joogihädä; jooginälg; joogijano	
+5	160	suck	nudsima; nutsutama; immitsemä; nüdsimä; nütsütämä; rudsima; nibimä; imemä; nudsahtama; nudsahutma	
+5	180	chew	tśalḱma; tsälḱmä; jürämä; järämä; tsätsütämä; tśalgotama; tsälgotama; lõssutama; lõssõtama; tsätsütellemä	
+5	181	swallow	niildmä; klõmpsama; lõbahtama; lymbahtama; lõmbahtama	
+5	190	choke	ärq läpähtütmä; ärq läpähtämä; ärq läppümä; hõngu kinniq lüümä; pitsitämä; ummutama	
+5	210	cook	süvväq tegemä	
+5	220	boil (vb)	kiitmä	
+5	230	roast, fry	praat́ma; küdsämä; praat́uma; paistma	
+5	240	bake	küdsämä	
+5	250	oven	ahi; aho	
+5	260	pot, cooking vessel	pott́; pada	
+5	270	kettle	katla; katal; katõĺ	
+5	280	pan	panń	
+5	310	dish	liud	
+5	320	plate	taldrik; livvakõnõ; taldrek	
+5	330	bowl	kausś	
+5	340	pitcher, jug	kanń; kuksin	
+5	350	cup, drinking vessel	kruuś; kroosikõnõ; tasś	
+5	360	saucer	alostaldrik	
+5	370	spoon	luits; luidsas; luhits; lohets	
+5	380	knife (2)	väitś; pussak	
+5	390	fork (2)	kahvli	
+5	391	tongs	tangiq	
+5	410	meal (a)	süümaig; suuŕ süümine; süüḱ	
+5	420	breakfast	pruukost́; käopeteq; tsirgujüvä; tsirgupeteq; hummogusüüḱ	
+5	430	lunch	süümaig	
+5	440	dinner	lõunõsüüḱ; lõunasüüḱ; lõunaq; lõunõq	
+5	450	supper	õdagusüüḱ; õdaklinõ	
+5	460	peel	kuuŕma; nilgma; koorahutma	
+5	470	sieve, strain	sõgluma; sõklma; sõgõlma; kurnama	
+5	480	scrape	kraaṕma; kaabitsõma; koobitsõma; rääṕmä; kraapõlõma; kraabatama; kraabitsõma; rääbitsemä; kraabahtama; kraabahutma	
+5	490	stir, mix	segähämä; sumṕma; mülmä; möĺmä; segähtämä; segähütmä; liigutama; liigutõllõma; liigahtama; liigahutma; kangutama	
+5	510	bread	leib; päpp	
+5	530	dough	tahas; tainas; kohetus	
+5	540	knead	sõkma; sõksama; sõkiskõllõma; kastma	
+5	550	meal, flour	jauh; jahu; jahvõq	
+5	560	crush, grind	jauhma; jahvma; jauhatama	
+5	570	mill	kivi; veśki; vesikivi; kivikoda	
+5	580	mortar (2)	huhmri; huhmõŕ	
+5	590	pestle	pekli; tambinui; tambits; surbinui; surbipuu; tambipuu; pombri	
+5	610	meat	liha	
+5	630	sausage	vorst́; valõq	
+5	640	soup, broth	supṕ; liiḿ; ruug; lihaliiḿ; puljoń	
+5	650	vegetables	aidvili; aiavili; aiakraaḿ	
+5	660	bean	uba	
+5	700	potato	kardok; kardohkas; kartoĺ; kardoĺ; kartli; maaupin; upo	
+5	710	fruit	puuvili	
+5	712	bunch	kimp; peo; punt́; tśauk; tsäräk; tsäbärik; müdsärik; tsähälik; hubalik	
+5	750	fig	viigimari	
+5	760	grape	viinamari	
+5	770	nut	pähkeń; pähḱnäs; päheq; pähḱmäs	
+5	780	olive	oliiv́; õlimari	
+5	790	oil	õli; õõli; õlĺ; eli	
+5	791	grease, fat	rasõv; rasv; vägi	
+5	810	salt	suul	
+5	820	pepper	pipõŕ	
+5	821	chili pepper	tsilli; verikõdõr	
+5	840	honey	mesi	
+5	850	sugar	tsukru; tsukõŕ; tsukri	
+5	860	milk (noun)	piim; pipṕ	
+5	870	milk (vb)	nüsmä	
+5	880	cheese	juust; kiis	
+5	890	butter	võid; võisõq	
+5	900	beverage, drink	juuḱ; juuminõ; serbähtüs; servähtüs; mamm; mamma	
+5	910	mead	mõdu	
+5	920	wine	veiń; maŕaviin	
+5	930	beer	oluq; ollõkõnõ	
+5	940	fermented drink	taaŕ; kvasś	
+5	970	egg	muna	
+5	971	egg yolk	munakõllanõ; munasora; tsora; munaverrev	
+6	110	put on (clothes)	rõivit sälgä pandma; rõivilõ pandma; rõivihe pandma; rõivihe säädmä	
+6	120	clothing, clothes	rõivaq	
+6	130	tailor	rätt́sepp; rätsep; umblõja	
+6	210	cloth	rõivas; kangas; rõõvas	
+6	220	wool	vill	
+6	230	linen, flax	linanõ rõivas; lina	
+6	240	cotton	puumvill	
+6	250	silk	siiď; śolk	
+6	270	felt	vilt́	
+6	280	fur	kahunahk; karvnahk	
+6	290	leather	nahk	
+6	310	spin	keträmä; prääditämä; präätämä	
+6	320	spindle	värtnä; verehtin; kistavarś	
+6	330	weave	kangast kudama	
+6	340	loom	peeleq; tellipuuq; telleq	
+6	350	sew	umblõma	
+6	360	needle	nõgõl; nõkl	
+6	370	awl	naaskli; tsusas	
+6	380	thread	niit́; lang	
+6	390	dye	värḿmä; värv́mä; pindseldämä; maaĺma; painma; püretämä	
+6	410	cloak	mäntli; palit; paĺto	
+6	411	poncho	pontśo	
+6	420	woman's dress	kleit́	
+6	430	coat	kuub; kuup; pindsak; särḱ; pihtsärḱ	
+6	440	shirt	hamõq; hamõh; pluusõ; pääväsärḱ	
+6	450	collar	kaaldanõ; kaaltagonõ; kraaǵ; krae	
+6	460	skirt	ündrik; undruk; undrek; ümbrik; pruntś; jupka; lörtś; ĺortś	
+6	461	grass-skirt	hainaündrik	
+6	480	trousers	püksiq; pöksiq; kaadsaq; kaldsaq; proogiq	
+6	490	stocking, sock	sukk; kaput; tallakõnõ; tallukõnõ	
+6	510	shoe	käng	
+6	520	boot	saabas	
+6	540	shoemaker, cobbler	kängsepp	
+6	550	hat, cap	küpäŕ; müts	
+6	570	belt, girdle	vüü; hüü; kurt́; puudõq; raik	
+6	580	glove	sõrḿkinnas; kinnas; sõrmulinõ kinnas	
+6	590	veil	leieŕ; luuŕ	
+6	610	pocket	taśku; taśki; karmań; kármanń	
+6	620	button	nöpś; nüpś	
+6	630	pin	nöpśnõgõl	
+6	710	ornament, adornment	ilostus; eheq; hõtil; ehte	
+6	720	jewel	kalliskivi; kalliskivi	
+6	730	ring (for finger)	sõrmus; sõrḿvits	
+6	740	bracelet	käsivahr; armpant́; käevits	
+6	750	necklace	kaalakõrd; kiiď; kaaladsiq; trimuliq; tśapotska; tsäpotska	
+6	760	bead	helḿ; helmeq; kralĺ; sora; pärli	
+6	770	earring	kõrvarõngas	
+6	780	headband, headdress	päävüü; pääpail	
+6	790	tattoo	nõglatsehkendüs	
+6	810	handkerchief, rag	nõnarätt́; tatilapṕ; näräĺ; räpäĺ; räbäk; närts; ripuĺ; ribusḱ; näro; lupard́; pulst́; nuustak; ńarts	
+6	820	towel	käterätt́; käepühüs; tirasnik	
+6	910	comb	kamḿ; suga	
+6	920	brush	hari; pürst́	
+6	921	braid	kudama; palmitsõma; plet́mä; poiḿma; palḿma	
+6	930	razor	habõnaväitś; habõnaraud	
+6	940	ointment	salv́; määŕ; võiõq; võius	
+6	950	soap	siiṕ	
+6	960	mirror	piigli; vaŕokaehtus	
+7	110	dwell, live	elämä	
+7	120	house	maja; tarõ; elämine; elotus; elo; hoonõq	
+7	130	hut	hurdsik; löövits; tśubarik; pugõrik; sannakõnõ; majakõnõ; lobotka; koomits; lüüv́; putka; onń	
+7	131	garden-house	aidamaja	
+7	140	tent	löövits; telḱ; lüüv́	
+7	150	yard, court	kinniline huuv́; moro; muro; ussaid; huuv́	
+7	160	men's house	litsimaja; pordomaja	
+7	170	cookhouse	suvõküüḱ; väläküüḱ; pino; pilukoda; pinokoda	
+7	180	meeting house	palvõmaja; pallusõtarõ	
+7	210	room	kambri; tarõ	
+7	220	door, gate	usś; värteq; värräq; vähräq; värjäq; värdeq; väreht́; värräi	
+7	221	doorpost, jamb	ussõpiit	
+7	230	lock (noun)	lukk	
+7	231	latch, door-bolt	ussõlinḱ; ussõlenḱ	
+7	240	key	võti	
+7	250	window	akõń; akań	
+7	260	floor	põrmand	
+7	270	wall	sain; müür	
+7	310	fireplace	kammin; puuĺahi	
+7	320	stove	ahi; aho	
+7	330	chimney	truba; korssna	
+7	370	ladder	reteĺ	
+7	420	bed	säng; voodõh; asõ	
+7	421	pillow	padi	
+7	422	blanket	tekḱ	
+7	430	chair	tuuĺ	
+7	440	table	laud	
+7	450	lamp, torch	lamṕ	
+7	460	candle	küünäl; künneĺ; künnäĺ	
+7	470	shelf	riioĺ; poolka	
+7	480	trough	ruih; ruuhv́; molď; rohe	
+7	510	roof	katus	
+7	520	thatch	olõkatus; napukatus	
+7	530	ridgepole	haŕalatt́	
+7	540	rafter	paaripuu	
+7	550	beam	tala; vinütüs; oripuu	
+7	560	post, pole	saivas; saibas	
+7	570	board	plank; planḱ; laud	
+7	580	arch	võlv́; võlĺ	
+7	610	mason	müürsepp; müürnik	
+7	620	brick	savikivi; tellüskivi	
+7	630	mortar	mört́	
+7	640	adobe	plunń; plönń; plonń	
+8	110	farmer	põllumiiś; maamiiś; talomiiś; talopidäjä	
+8	120	field (for cultivation)	nurḿ; põld; muu	
+8	130	garden	aid; tahr	
+8	150	cultivate, till	harima; kasvatama; kasutama; maad arima; maad tegemä	
+8	160	fence	sulgma; kinniq pandma; ärq hoitma	
+8	170	ditch	kraav́; tsolĺ; tsori; tsoro; tsorg	
+8	210	plow	kündmä; adõr; atr	
+8	212	furrow	virges; viirgus; vago; kukḱ	
+8	220	dig	kaibma	
+8	230	spade	lapju	
+8	240	shovel	kühvli; köhvli	
+8	250	hoe	kõblas; kõpl; kõbli; maakirvõs	
+8	260	fork	vigõl; vikl	
+8	270	rake	riha; rihä	
+8	310	sow	külvmä; külbmä	
+8	311	seed	seemeń; seemeq	
+8	320	mow, reap	ragoma; niitmä; põimma	
+8	330	sickle, scythe	tsirṕ; vikaht́; vikat́	
+8	340	thresh	utma	
+8	350	threshing-floor	rehealonõ; kuuvna	
+8	410	crop, harvest	saaḱ; nuuś; püvvüs; põim; põimminõ; viläpandminõ; põllupandminõ	
+8	420	grain (barley, oats etc)	terävili	
+8	430	wheat	nisu	
+8	440	barley	kesev	
+8	450	rye	rügä	
+8	460	oats	kaar	
+8	470	maize, corn	maiś; kukuruuś	
+8	480	rice	riiś	
+8	510	grass	hain	
+8	520	hay	hain	
+8	530	plant (noun)	kasv; luum	
+8	531	plant (vb)	istutama; kükkämä; kükütämä; kasuma pandma	
+8	540	root	juuŕ	
+8	550	branch	oss	
+8	560	leaf	leht́	
+8	570	flower	lilĺ; ninń	
+8	600	tree	puu	
+8	610	oak	tamḿ	
+8	620	beech	püüḱ	
+8	630	birch	kõiv	
+8	640	pine	petäi	
+8	650	fir	kuuś	
+8	660	acorn	tammõtõhv	
+8	670	vine	viinapuu; viinamari; viinamaŕapuhm	
+8	680	tobacco	tubak; tuvak	
+8	690	smoke (tobacco)	suidsutama; kiskma; kakma; tõmbama; piibutama; piipama	
+8	691	pipe	piip; piibusḱ	
+8	720	tree stump	kand; rambõq	
+8	730	tree trunk	puutüvi; puutümi	
+8	740	forked branch	haraliganõ oks; hargliganõ oks; hargõlinõ oks; harḱliganõ oks; harõlinõ oks; harikanõ oks; harolinõ oks; harohn oks	
+8	750	bark	puukuuŕ; kosḱ	
+8	760	sap	mahl	
+8	810	palm tree	palḿ	
+8	820	coconut	kookospähḱmäs	
+8	830	citrus fruit	tsitrus	
+8	840	banana tree	banaanipuu; banaań	
+8	850	banyan	bengali viigipuu	
+8	910	sweet potato	bataat́; makõkardohk	
+8	912	yam	jamsś	
+8	920	tapioca, manioc, cassava	tapiokḱ	
+8	930	gourd	putõĺkürvits	
+8	931	pumpkin, squash	kürvits	
+8	940	bamboo	bambus	
+8	941	sugar cane	tsukruruug	
+8	960	fish poison (root)	kalamürk	
+8	970	nettle	nõkõś; nõkõń; nõgõnõ	
+8	980	mushroom	siiń	
+9	110	do, make	tegemä; valmis tegemä	
+9	120	work	tüütämä; tüüd tegemä	
+9	140	bend	painutama; nõrgutama; painahtama; painahutma; painutõllõma; vaaĺma	
+9	150	fold	volt́ma; kimardama	
+9	160	tie, bind	köütmä; ütehn haardma	
+9	161	untie	vallalõ köütmä; valla köütmä; lakḱa köütmä; lakja köütmä; lajalõ köütmä	
+9	180	chain	hahhil; kett́; rida	
+9	190	rope, cord	nüüŕ; köüdüs; köüdś; kabõl	
+9	192	knot (noun)	sõlḿ	
+9	210	strike (hit, beat)	lüümä; lapsama; tsinkama; puust́ma; läügähtämä; läügähütmä; pesmä	
+9	211	pound with fist	rusigugaq lüümä	
+9	220	cut	lõikama; polkama; tsipsama; lõigahtama; lõigahutma; tsäbähütmä	
+9	221	cut down	pügämä; lõikama; lühembäs; vähämbäs tegemä; maahaq lõikama	
+9	222	chop, hew	ragoma; tśakutama; tsäkütämä	
+9	223	stab	tsuskama; tuudsitama	
+9	230	knife	väitś; pussak	
+9	240	scissors, shears	kääriq	
+9	250	ax	kirvõs; tsäkś	
+9	251	adze	tahvitsõmiskirvõs	
+9	260	break	murdma; murdama; murrahutma; murdsama; murdõlõma	
+9	261	broken	murdunu	
+9	270	split	lahksama; lahki lüümä; lahksama; laotama; laotõllõma; lahastama	
+9	280	tear	kaksama; kiskma; käristämä; tõmbama; räbimä; räḿmä; rämmämä; rämpsämä; rääṕmä; rääbitsemä	
+9	290	flay, skin	nilgma; nilgsama	
+9	310	rub, wipe	hõõrdma; hõõratama; nüüstmä; nühksämä; hõõrahtama; hõõrahutma	
+9	320	stretch	vinnütämä; vinnähütmä; ärq vinütämä; singahtuma; trimmi minemä	
+9	330	pull	tõmbama; kiskma; sikutama; tsingutama; kakma; vidämä; tirimä; rümʼmä; rümmämä	
+9	340	spread out	lakja lahotama	
+9	341	hang up	üles pandma	
+9	342	press	vaotama; vaotõllõma; tsurmama; litsma; preśmä; surbma; tsurḿma	
+9	343	squeeze, wring	pitsitämä; pitsähtämä; pitsähütmä; pitsitellemä	
+9	350	pour	valama; kaldama; valksama; valiskõllõma; valitsõllõma; kallahtama; kallahutma	
+9	360	wash	mõskma; mõskuma; mõsiskõllõma; leebitsemä; püügitsemä	
+9	370	sweep	pühḱmä; laaṕma; pühkümä; pühksämä; laapsama	
+9	380	broom	luud	
+9	422	tool	tüüriist	
+9	430	carpenter	puussepp	
+9	440	build	ehitämä; eihtämä; ehitellemä; eihtellemä; tsäpändämä; tsäpendämä	
+9	460	bore	puuŕma; uurdma; urgatama; uherdama; uuratama	
+9	461	hollow out	uurdma; kauŕma; kaibma	
+9	480	saw	saaǵ	
+9	490	hammer	vassaŕ	
+9	500	nail	nagõl; nakl	
+9	560	glue	kliiḿ	
+9	600	smith, blacksmith	sepp; raudsepp	
+9	610	forge	sepätüüd tegemä	
+9	620	anvil	allaś	
+9	630	cast (metals)	valama; kaldama; valksama; valiskõllõma; valitsõllõma; kallahtama; kallahutma	
+9	640	gold	kuld	
+9	650	silver	hõpõ	
+9	660	copper, bronze	vasḱ; pronkś; prunkś	
+9	670	iron	raud	
+9	680	lead (noun)	tsiatina	
+9	690	tin, tinplate	tina; inglüstina; tinotõt plekḱ	
+9	710	potter	pott́sepp; ahinik	
+9	720	mold (clay etc)	vorḿma; horḿma; vormi andma; kujjo andma; sääd́mä; vuuĺma	
+9	730	clay	savi	
+9	740	glass	klaaś	
+9	750	weave, plait	kudama; palmitsõma; plet́mä; poiḿma; palḿma	
+9	760	basket	korv́	
+9	770	mat	matt́; jalapühüs; jalgrõivas; jalamatt́	
+9	771	rug	põrmandurõivas; vaip	
+9	780	netbag	võrk; krõõś; karsś	
+9	790	fan (noun)	viuhka	
+9	791	fan (vb)	tuulõtama; tuulutama; luhtitama	
+9	810	carve	vuuĺma; väidsegaq lõikama; höölitsemä; voolitsõma; huuĺma; hoolitsõma	
+9	820	sculptor	kujorakoi; kujotekij	
+9	830	statue	sammas; kujo; kojo; münt	
+9	840	chisel	peikli; peitli; purasḱ; puras; meisli	
+9	880	paint (noun)	värḿ; värv́; pain	
+9	890	paint (vb)	värḿmä; värv́mä; pindseldämä; maaĺma; painma; püretämä	
+10	110	move	liigutama; liigutõllõma; liigahtama; liigahutma; kangutama	
+10	120	turn over	ümbre käändmä; püürdmä; käänähtämä; käänähütmä; pöörähtämä; pöörähütmä	
+10	130	turn around	käändmä; püürdmä; keerotama; keerähtämä; höörätämä; höörütämä	
+10	140	wind, wrap	mähḱmä; polḿma; mähksämä	
+10	150	roll	truĺma; käändmä; kerimä; veerütämä; veerätämä; vöörütämä; veerütellemä	
+10	160	drop (vb)	maaha saatma; maaha laskma; tsilgutama	
+10	170	twist	väändmä; püürdmä; käändmä	
+10	210	rise	nõsõma; kerkümä; üles minemä	
+10	220	raise, lift	nõstma; nõstiskõllõma; nõstõlõma	
+10	230	fall	kuukma; kukma; kukutama; kuugahtama; kuugaskõllõma	
+10	240	drip	tsilkma; tsilgahtuma	
+10	250	throw	viskama; hiitmä; hiitämä; virahutma	
+10	252	catch (ball)	püündmä; koetama	
+10	260	shake	raputama; ropśma; sarjama; tõrgutama; raputõllõma; rapahtama	
+10	320	flow	juuskma; lahmama; lahkama; vuulama	
+10	330	sink	sadama; vaoma; laskma; vaivuma; pliitümä	
+10	340	float	ujoma; ojoma; oidma; oiduma	
+10	350	swim	ujoma; ojoma; oidma; oiduma	
+10	351	dive	vii alaq minemä; vii alaq hüppämä	
+10	352	splash	pritśmä; tsiukma; tsiugutama; tsiukuma; pritsümä; tsirkõlõma; tsiuksama; tsiugahtama; tsibahtama; tsiugahutma; tsiugahtuma	
+10	360	sail (vb)	puŕolaivagaq sõitma; puŕogaq sõitma; laivagaq sõitma	
+10	370	fly (vb)	lindama	
+10	380	blow	puhkma; puhksama	
+10	410	creep, crawl	ruumama; ruupama; kuupama; rüüpämä	
+10	412	kneel	põlvitama; põlvildõ olõma; põlvildõ laskma; põlviskõllõma; põlvildama	
+10	413	crouch	köörätämä; kungutama; köödsätämä; upitõllõma; ungõrdama	
+10	420	slide, slip	juuskma; nilvõskõllõma; nilvõstuma; nilbahtama; nilbuma; nilbahutma; rimahtuma	
+10	430	jump, leap	hüppämä; kargama; hülpämä; rõpahtuma	
+10	431	kick	poḱma; pokśma; põkśma; tamṕma; jalagaq lüümä	
+10	440	dance	tandśma; tirgutama; kargama	
+10	450	walk	käümä; kõnďma; astma; käülemä	
+10	451	limp	linkama; klimpama; klõmpama; kunkama; lüüpämä; luupama; tõnkama; klimbõrdama; klõmbõrdama; kukkama; likatama	
+10	460	run	juuskma	
+10	470	go	minemä; käümä	
+10	471	go up	üles minemä	
+10	472	climb	ronima; rudima; kedsimä	
+10	473	go down	alla minemä	
+10	474	go out	vällä minemä	
+10	480	come	tulõma	
+10	481	come back	tagasi ilmuma; tagasi tulõma; tagasi joudma	
+10	490	go away, depart	ärq minemä	
+10	491	disappear	kaoma; häömä; kõnďma minemä	
+10	510	flee	pagõhõma	
+10	520	follow	perähn tulõma; takahn minemä; kinniq pidämä	
+10	530	pursue	takan ajama; takan virotama; kargutama; krassatama; perähn käümä; takahn käümä; silmä pääl hoitma	
+10	550	reach, arrive	peräle joudma; kätte tulõma; joudma; jõudma	
+10	560	approach	lähembäle minemä; lähembäle tulõma; lähembäle küündümä; lähünemä; ligembäle tulõma; ligembäle minemä	
+10	570	enter	sisse minemä; sisse tulõma; sisse astma	
+10	610	carry (bear)	kandma; vidämä; nüürämä	
+10	612	carry-in-hand	käehn kandma	
+10	613	carry-on-shoulder	ola pääl kandma	
+10	614	carry-on-head	pää pääl kandma	
+10	615	carry-underarm	kangli all kandma	
+10	620	bring	tuuma	
+10	630	send	saatma; olõtama	
+10	640	lead (vb)	juht́ma; uhjama	
+10	650	drive	juht́ma; uhjama	
+10	660	ride	ratsutama; ratsallaq sõitma; sõitma	
+10	670	push, shove	toukama; tuukama; tunkama; tsurmama; tüünämä; alla, ümbre kukkama; tsurmahutma; survama	
+10	710	road	tii; maantii; suuŕtii	
+10	720	path	tiirada; jalgtii	
+10	740	bridge	sild	
+10	750	carriage, wagon, cart	vankri; vangõŕ; rattaq; vakoń; vakuń	
+10	760	wheel	tsõõŕ; ratas	
+10	770	axle	telǵ	
+10	780	yoke	ikeq; ikäs	
+10	810	ship	laiv	
+10	830	boat	loodsik; veneq; vineq; klötś; irbus	
+10	831	canoe	süst; tsolohkloodsik; tsolo; kanuu	
+10	832	outrigger	pardaväline tugivärk	
+10	840	raft	parv́	
+10	850	oar	mõla; air	
+10	851	paddle (noun)	mõla	
+10	852	row (vb)	sõudma; huupama; tõmbama	
+10	860	rudder	tüüŕ; sopits; peromõla; ruuĺ	
+10	870	mast	mast́	
+10	880	sail (noun)	puŕo; puri	
+10	890	anchor	ankru; ankri	
+10	910	harbor, port	sataḿ	
+10	920	land (vb)	maa pääle; maalõ tulõma; viirde joudma; viirde sõitma; viirde tulõma	
+11	110	have	kinkalgiq olõma; umas pidämä	
+11	120	own, possess	olõma kinkalgiq	
+11	130	take	võtma	
+11	140	seize, grasp	haardma; habima	
+11	150	hold	hoitma; armitsõma; pidämä	
+11	160	get, obtain	saama	
+11	170	keep, retain	kätte saama; kätte võitma; hoitma	
+11	180	thing	asi	
+11	210	give	andma	
+11	220	give back	tagasi andma	
+11	240	preserve, look after	hoitma	
+11	250	save, rescue	ärq pästmä; vabas pästmä; vallalõ pästmä; vabas tegemä; vallalõ tegemä; vabastama	
+11	270	destroy	ärq häötämä; häötellemä; lahkma; purus tegemä; katśki tegemä	
+11	280	harm, injure, damage	kurja tegemä; halva tegemä; hätä tegemä	
+11	310	seek, look for	otśma	
+11	320	find	löüdmä; leüdmä	
+11	330	lose	ärq kaotama; soorutama	
+11	340	release, let go	vabas pästmä; priis laskma; priis tegemä	
+11	430	money	raha; nauď	
+11	440	coin	raudraha; rahatükk	
+11	510	rich	rikas	
+11	520	poor	vaenõ; kehv; tühäline; kitsas	
+11	530	beggar	sant́; kerjäk; kerjäi; keriläne; sandinõ; hõel	
+11	540	avaricious, stingy	ahnõq; ahnik	
+11	610	lend	lainama; võlgo andma; lainu andma; lainus andma	
+11	620	borrow	lainus võtma; võlgo võtma; lainu pääle võtma	
+11	630	owe	võlgo olõma	
+11	640	debt	võlg	
+11	650	pay (vb)	masma; tasoma	
+11	660	account, reckoning	arvõq; rehnut́; masmisõpapõŕ; rehnudipapõŕ	
+11	690	tax, tribute	mass	
+11	770	hire	tüüle võtma; palkama	
+11	780	wages	palk; teenüḱ; teenüsḱ; tüütaso	
+11	790	earn	tiińmä; päĺmä; kullõma	
+11	810	buy	ostma	
+11	820	sell	müümä; kauplõma	
+11	830	trade, barter	kauplõma; müüskellemä	
+11	840	merchant	kaupmiiś	
+11	850	market (place)	turg	
+11	860	store, shop	puut́	
+11	870	price	hind	
+11	880	dear (costly, expensive)	kallis; väärt; hinnahn	
+11	890	cheap	otav	
+11	910	share (distribute)	jagama; jaotama; arvo saama	
+11	920	weigh	kaaldma; tähendämä; masma	
+12	10	after	perähn; perähnä; päält; pääle	
+12	11	behind	takahn; perähn	
+12	20	beside	kõrval; kõrvahn	
+12	30	down, below	alahn; alahahn; alavahn; alambahn; alaq	
+12	40	before	inne; innembi	
+12	41	front	edekülǵ	
+12	50	inside, in	seehn; sisehn	
+12	60	outside	vällähn; ussõhn	
+12	70	under	all	
+12	80	up, above	üleväl; ülevähn; üllehn	
+12	110	place	paik; kotus	
+12	120	put	pandma; säädmä	
+12	130	sit	istma; istuskõllõma; persütämä	
+12	140	lie down	pikutama; pikäle olõma; lamaskõllõma; lamõskõllõma	
+12	150	stand	saisma; saisuma	
+12	160	remain, stay	jäämä	
+12	170	remains, left overs	peräkeseq	
+12	210	collect, gather	kokko korjama; kogohama; korjama; nobima	
+12	212	pick up	nobima; üles võtma; üles korjama	
+12	213	pile up	unikuhe korjama; unikuhe ajama; unikuhe pandma	
+12	220	join, unite	ütte pandma; kokko pandma; kokko lüümä; kokko köütmä; ütte lüümä; ütte köütmä; kokko pandma	
+12	230	separate	lahutama; eräle minemä	
+12	232	divide	jagama; jaotama	
+12	240	open	vallalõ tegemä; vallalõ laskma; vallalõ võtma	
+12	250	shut, close	kinniq pandma; sulgma	
+12	260	cover	katma; kinniq pandma	
+12	270	hide, conceal	käḱmä; paotama; käkkelema; käküskellemä; paoskõllõma; varjama; varima	
+12	310	high	korgõ; korgukõnõ; korgugõnõ	
+12	320	low	mataĺ	
+12	330	top	ots; pää	
+12	340	bottom	põhi	
+12	350	end	lõpp; ots; perä; peräots	
+12	352	pointed	terräv; vaib; vaiv	
+12	353	edge	viiŕ; serv; serb; parras; parrõq	
+12	360	side	külǵ; puuĺ	
+12	370	middle, center	keskmäne; vahemanõ; keskus; kesküs	
+12	410	right (side)	parõmb	
+12	420	left (side)	kura; kuri	
+12	430	near (adv)	lähkühn; lähkehn; lähkesehn; lähükesehn; lähkohn; ligi; lähkokõsõhn	
+12	440	far (adv)	kauguhn; kavvõl; kavvõndahn; kavvõndõhn; kavvõhn; kavvõhõhn; kavvõndal	
+12	450	east	hummok; päävänõsõng	
+12	460	west	õdak; õtak; õdang	
+12	470	north	põhi	
+12	480	south	lõunõq; lõunaq; lõunak	
+12	530	grow	kasuma; korgust võtma	
+12	540	measure	mõõtma; mõõdind võtma; tollipuuga	
+12	541	span, fathom	vass; süli; süld	
+12	550	large, big	suuŕ	
+12	560	small, little	väikene; väiku; väiko; väikukõnõ; väikugõnõ; väikokõnõ; väikogõnõ; piinü; peenükene; peeńokõnõ; peenüq; tsilĺo	
+12	570	long	pikḱ	
+12	580	tall	pikḱ; korgõ; korgukõnõ; korgugõnõ	
+12	590	short	lühke; lühükene; lühkükene; lühkügene; lühüq; lühkokõnõ; lühkogõnõ; lühko	
+12	610	wide, broad	laǵa; lagja	
+12	620	narrow	kitsas; ahtakõnõ; ahtagõnõ; ahas	
+12	630	thick (in dimension)	paks; jämme; jürre; padi	
+12	650	thin (in dimension)	piinü; peenüq; peenükene; peeńokõnõ; kõhn; kõhna; kehvä; kiidsak; kuivjanõ; kuivjas	
+12	670	deep	sükäv; süvä	
+12	680	shallow	mataĺ	
+12	710	flat	lammõ; tasanõ; lausik; lammõ; lapik; lamõhõnõ	
+12	730	straight	õkv; õgõv; õgvalinõ; õigõ; sirgõ; siuhkõ	
+12	740	crooked	kõvvõŕ; virril; väntrik; vildak	
+12	750	hook	tśank; tsänk; konkś; haaḱ	
+12	760	corner	nulk; nukk; kolk; kant́	
+12	770	cross	rist́	
+12	780	square	nellinukk	
+12	810	round	tsõõrik; tsõõrikanõ; ümärik; höörik	
+12	820	circle	tsõõŕ; tsiir; rinǵ	
+12	830	sphere, ball	kerä; palĺ	
+12	840	line	juuń; jutt́; rida	
+12	850	hole	mulk; haud	
+12	920	like, similar	sarnanõ; üttemuudu; ütesugumanõ; ütesugunõ; säänesamanõ	
+12	930	change	muutma; vahetama; vaihtama; vaeldama	
+13	0	zero, nothing	nulĺ	
+13	10	one	ütś	
+13	20	two	katś	
+13	30	three	kolm; kolq	
+13	40	four	nelli	
+13	50	five	viiś	
+13	60	six	kuuś	
+13	70	seven	säidse	
+13	80	eight	katõssa	
+13	90	nine	ütessä	
+13	100	ten	kümme	
+13	101	eleven	ütśtõistkümmend; ütśtõisku	
+13	102	twelve	katśtõistkümmend; katśtõisku	
+13	103	fifteen	viiśtõistkümmend; viiśtõisku	
+13	104	twenty	katśkümmend	
+13	105	hundred	sada	
+13	106	thousand	tuhat	
+13	107	count	kokko lugõma; ärq lugõma; üles lugõma	
+13	140	every, all	egäütś; õgaütś; kõiḱ	
+13	150	much, many	palĺo; palĺond; hulga; meheste	
+13	160	more	rohkõmb; inämb	
+13	170	little (quantity), few	vähä; veidüq; veidükene; veiďoq	
+13	180	enough	küländ; küländäle; viländ; viländäle; vinäld; vinäldäle	
+13	181	some	mõni; tsipakõnõ; veidüq; veitkene; veiďoq; tsutikõnõ; hyngukõnõ; pisokõnõ; teräkene; suguperäst	
+13	190	multitude, crowd	hulk; summ; parḱ; part́	
+13	210	full	täüs; terveq; terveh; kõiḱ	
+13	220	empty	tühi; puhas; puusta	
+13	230	part, piece	osa; jago; jupṕ; pala	
+13	240	half	puuĺ	
+13	330	alone, only	umaette; ütsindä; umaette	
+13	340	first	edimäne	
+13	350	last	viimäne; viimäskine; perämäne; perämine	
+13	360	second	tõõnõ; tõnõ; muu	
+13	370	pair	paaŕ	
+13	380	two times	katś kõrda	
+13	420	third	kolmas	
+13	440	three times	kolm kõrda	
+14	110	time	aig	
+14	120	age	vannus; vahnus; igä	
+14	130	new	vahtsõnõ	
+14	140	young	nuuŕ	
+14	150	old	vana; vahn	
+14	160	early	varra; varatsõlt	
+14	170	late	ilda; illakult; illaldõ	
+14	180	now	noq; nüüd; parhillaq; prõlla; õkva	
+14	190	immediately	õkva; õkvalt; kõrragaq; õkvaprõllaq	
+14	210	swift, fast, quick	kipõ; rutulinõ; virk; käpe; kärmäs; västli; tirrõ; nopri; nopõ; krapatś; kratsak; teiras	
+14	220	slow	aiglanõ; hilläline; hilläk; pikäline; oigõ; oigu; vitäv	
+14	230	hasten, hurry	ruttama; kippama; rututama	
+14	240	retard, delay	viivitämä; vinnütämä; aigo viitmä	
+14	250	begin, beginning	alostama; alostõllõma; pääle nakkama; nakkama; algus; alostus; edeots; alõnǵ	
+14	252	last, endure	püsümä; püsümä jäämä; vasta pidämä; vasta saisma; vasta lüümä; kestmä	
+14	260	end (temporal)	lõpp; ots; perä; peräots; lõpus	
+14	270	finish	lõpõtama; lõppu tegemä; perrä jätmä	
+14	280	cease, stop	kinniq pidämä; piätämä; lõpma	
+14	290	ready	valmis	
+14	310	always	kõgõ; kõõ; alasi; kõiḱ aig	
+14	320	often	sakõstõ; sagõhõhe; sagõhõlõ; tihtsähe; tihtsäle; paksustõ	
+14	330	sometimes	mõnikõrd; mõntvuuri; tõõnõkõrd; vaihtõpääl; vahjõpääl	
+14	331	soon	pia; varsti	
+14	332	long-time (for a)	kavva; kauga; kaugu; pikält	
+14	340	never	ei kunagiq; ei ilmangiq	
+14	350	again	jälq; jalq; jälkinäq; jällekiq; vahtsõhe; vahtsõlõ; vahtsõst	
+14	410	day	päiv	
+14	420	night	üü	
+14	430	dawn	hummogunõ ago; aoaig; hahk; hummoguhämmär	
+14	440	morning	hummok; hummong	
+14	450	noon, midday	keskpäiv; pääväsüä; süäpäiv; lõunõq; lõunaq; lõunak	
+14	451	afternoon	päältlõunõq; päälelõunõq	
+14	460	evening	õdak; õtak; õdang	
+14	470	today	täämbä	
+14	480	tomorrow	hummõń	
+14	481	day-after-tomorrow	ülehummõń	
+14	490	yesterday	eeläq; iiläq	
+14	491	day-before-yesterday	üle-eeläq	
+14	510	hour	tunń	
+14	530	clock, timepiece	kell	
+14	610	week	nätäĺ	
+14	620	Sunday	pühäpäiv	
+14	630	Monday	iispäiv	
+14	640	Tuesday	tõõsõpäiv	
+14	650	Wednesday	kolmapäiv	
+14	660	Thursday	nelläpäiv	
+14	670	Friday	riidi; riide	
+14	680	Saturday	puuĺpäiv; puuĺpühä; puuĺpühi	
+14	710	month	kuu	
+14	730	year	aaśtak; aestak; aastaig; ajastaig; ajasta; aasta	
+14	740	winter	talv́	
+14	750	spring	kevväi	
+14	760	summer	suvi	
+14	770	autumn	süküs	
+14	780	season	aastagaaig; aig	
+15	210	smell (vb intrans)	hõngama; hõnkama; haisama	
+15	212	sniff	nuhutama	
+15	220	smell (vb trans)	nuhutama; nuhatama; nuhutõllõma; nuhahtama; nuhahutma; nuhastama	
+15	250	fragrant, good smelling	hää hõngugaq; aromaatnõ	
+15	260	stinking, bad smelling	haisva; halva hõngugaq	
+15	310	taste	maitsma; meḱmä; maitsõma; meksämä; maidsahtama	
+15	350	sweet	makõ; makus; maǵahus; magjahus	
+15	360	salty	soolanõ; piso	
+15	370	bitter	mõro; hallus; kipõ	
+15	380	acid, sour	hapu; hapnik	
+15	390	brackish	soolakas; soolakanõ	
+15	410	hear	kuuldma	
+15	420	listen	kullõma; kullõskõlõma; kulliskõlõma	
+15	440	sound, noise	helü; helähtüs; rõõm	
+15	450	loud	kõva	
+15	460	quiet, silence	vaikus; rahu; vaikiolõḱ	
+15	510	see	nägemä	
+15	520	look, look at	vaht́ma; kaema; kaeskõllõma; tunnistama; silmämä; kaehtama; kaehutma; silmitellemä	
+15	550	show	näütämä	
+15	560	shine	paistma; paistuma; hiilama; läükämä; helkämä; hilkama; kirgämä	
+15	570	bright	helle; vallus; valgõ; valsjanõ; valsjas; valsjas; valss	
+15	610	color	värḿ; värv́; pain	
+15	620	light (in color)	helle; vallus; valgõ; valsjanõ; valsjas; valsjas	
+15	630	dark (in color)	tummõ; tumm; tümme; tümbe; pümme	
+15	640	white	valgõ; vallus	
+15	650	black	must	
+15	660	red	verrev; vereväne	
+15	670	blue	sinine; sinnin	
+15	680	green	rohilinõ; haĺas	
+15	690	yellow	kõllanõ; vahanõ	
+15	710	touch	pututama; putma; kumpama; putahtama; putahutma	
+15	712	pinch	näpistämä; nokistama	
+15	720	feel	tundma; tiidmä	
+15	740	hard	kalǵ; kallõ; kõva; kangõ	
+15	750	soft	pehmeq; pehmegene; pehmekene; lepeq; leppene	
+15	760	rough	kahrõq; korrõ; kuri; kõva; kallõ; kalǵ	
+15	770	smooth	sille; sillev; hille; planḱ; tasanõ	
+15	780	sharp	terräv; vaib; vaiv	
+15	790	blunt, dull	nühr; nührä; nühräskine; nühräsḱ; nurasḱ	
+15	810	heavy	rassõ; ränk; kaalsa	
+15	820	light (in weight)	kerge	
+15	830	wet, damp	likõ; hämm	
+15	840	dry	kuiv; tahhe	
+15	850	hot	kuum; lämmi; tulinõ	
+15	851	warm	lämmi	
+15	860	cold	külm; vilu; kahu	
+15	870	clean	puhas	
+15	880	dirty, soiled	must; mustaslännüq; mustõnuq; kriimo; mõskmaldaq; sitanõ	
+15	890	wrinkled	käbräne; kordsõnõ	
+16	110	soul, spirit	hinǵ; henǵ; toss; hingeline; hengeline; vaim	
+16	150	surprised, astonished	imehtünüq	
+16	180	good fortune, luck	õnń; rõõm	
+16	190	misfortune, bad luck	halv õnń; äpärdüs; õnnõtus; summamineḱ	
+16	230	joyful, glad, happy	rõõmsa; ilolinõ; nalĺalinõ; lustilinõ; naarulinõ	
+16	250	laugh	naardma; naaraskõllõma; naariskõllõma	
+16	251	smile	naarahtama; naaratama; naaratõllõma; naaraskõllõma; naariskõllõma	
+16	260	play	mänǵmä; asjo tegemä; aśatama; aśatõllõma; haugõlõma	
+16	270	love	hoitminõ n; armastus n; arm n; salďus n; hoitma vb; armastama vb; salďma vb; saĺma vb; armsas pidämä vb	
+16	290	kiss	suud andma; muśotama; mudsahtama; tśukotama	
+16	300	embrace	kallistama; üsätämä; hõlma võtma	
+16	310	pain	halu; valu; vaiv; piin	
+16	320	grief, sorrow, sadness	kurbus; kurvastus; murõq	
+16	330	anxiety, worry	murõq; murõh	
+16	340	regret, be sorry	kahitsõma; kaihkõlõma; kaiho tundma; kahḣo tundma; kahitsõllõma	
+16	350	pity	halõstus; kaḣotunnõq; halõstus	
+16	370	cry, weep	ikma; ikahtama; ikahutma; jõrvama	
+16	380	tear (noun)	pissaŕ; silmävesi; piso; pisõq; tsilk	
+16	390	groan	oigama; kaiblõma; võiatama; uiatama; hädäldämä; hädändellemä; oihkõllõma; uialõma	
+16	410	hate	vihkama; viha; vihahus	
+16	420	anger	viha	
+16	440	envy, jealousy	kadõhus; võhlus	
+16	450	shame (noun)	häbü; häpe; tigo	
+16	480	proud	uhkõ; kõrḱ; kinä	
+16	510	dare	julguma; julgama; söendämä; söeldämä; usaldama; uskma	
+16	520	brave	julgõ; kõva süämegaq; mehene; vapra	
+16	530	fear, fright	pelgüs; pelg; hirm	
+16	540	danger	oht; ohk; hädä	
+16	620	desire, want	tahtma; himostama; suuv́ma	
+16	622	choose	valima; sort́ma; valitsõma	
+16	630	hope	loodus; luutus	
+16	650	faithful	ustav; truu; truvv́; kimmäs	
+16	660	true	õigõ; tõtõ	
+16	670	lie, tell lies	võlśma; petmä	
+16	680	deceit	pettüs; petmine; peteq; võlśminõ; petüng; peting	
+16	690	forgive	andis andma; andis jätmä	
+16	710	good	hää; hüvä; kukunõ	
+16	720	bad	halv; hõel; kehvä	
+16	730	right, correct	õigõq; küländ	
+16	740	wrong	võlsś; petüs; võlśkus	
+16	760	fault	süü; süüd	
+16	770	mistake, error	viga; hädä; muting; putahtus; putas; jukõrus; essütüs; essähtüs; essünǵ	
+16	780	blame	laidus	
+16	790	praise	kitüs; kitus; kittüs	
+16	810	beautiful	illos; kinä	
+16	820	ugly	jälle; ilodu; ilõdu; nuŕadu; näodu; jäledü	
+16	830	greedy	ahnõq; ahnik	
+16	840	clever	tark; päägaq; oṕnuq; märksä; harit	
+17	110	mind	mõistus; mudsu; muts; arv; aro; miiĺ; taid; pulm	
+17	130	think (= reflect)	mõtlõma; märḱmä; märgütämä; märgotama	
+17	140	think (= be of the opinion)	arvama; märḱmä	
+17	150	believe	uskma	
+17	160	understand	arvo saama; mõistma; pulmama; taidma; taltma	
+17	170	know	tiidmä; tundma	
+17	171	guess	arvama	
+17	172	imitate	perrä tegemä; takahntegemä; ahv́ma	
+17	180	seem	näkkümä; vällä näütämä; tunduma; paistuma	
+17	190	idea, notion	mõtõq; mõtõh; idee; ettekujotus; kujotõlõminõ; vaimosilmän nägemine	
+17	210	wise	palĺonännüq; tiidjä	
+17	220	foolish, stupid	rummaĺ; ulĺ; moĺo; moĺonõ; turak; tuhḿ; tühmä	
+17	230	insane, crazy	ulĺ; hull	
+17	240	learn	oṕma; opitsõma	
+17	242	study	oṕma; opitsõma	
+17	250	teach	oppama; koolitama	
+17	260	pupil	oṕja; koolilatś; koolilinõ; opilinõ; opilanõ	
+17	270	teacher	oppaja; kuuĺmeistre; keriguopõtaja	
+17	280	school	kuuĺ	
+17	310	remember	mälehtämä; mäletämä; meelehn pidämä	
+17	320	forget	unõhtama; unõhutma; meelest laskma	
+17	340	clear, plain	selge; klaaŕ; lahhe; arvo saiaq	
+17	350	obscure	arvosaamaldaq; segäne; selgüseldäq	
+17	360	secret	salahanõ; salanõ	
+17	370	sure, certain	kindmäs; julgõ	
+17	380	explain	seletämä; sellätämä; selges tegemä; klaaŕma	
+17	410	intention, purpose	plaań; mõtõq; märgütüs; tsiht́; tsihḱ	
+17	420	cause	põhjusõs olõma; süüs olõma; sünnütämä; luuma	
+17	430	doubt	katsildõ mõtlõma; haihkõlõma; haikõlõma; kahtlõma	
+17	440	suspect	minkas pidämä; minkas arvama; kinkas pidämä; kinkas arvama; kahtlustama	
+17	441	betray	avaldama; petmä; ärq andma; üles andma; vällä andma; ärq salgama; üles salgama; vällä salgama	
+17	450	need, necessity	vajahus; tarvõq; nõudminõ	
+17	460	easy	kerge	
+17	470	difficult	rassõ; ränk	
+17	480	try, attempt	püündmä; pruuḿma; koetama; väütämä; pruuv́ma	
+17	490	way, manner	hindä üllehnpidämine; hindä ülevähnpidämine; olõminõ; elopidämine	
+17	510	and	ja; ni	
+17	520	because	selle; selle et; tollõ; seoperäst; taaperäst; tuuperäst; seoperrä	
+17	530	if	kuq; jos	
+17	540	or	vai	
+17	550	yes, affirmative	jah; neh; külh	
+17	560	no, negative	eiq; es	
+17	610	how?	kuis; kuismuudu; kummildõ; kuvvildõ; midäviisi	
+17	620	how many?	palĺos; kupalĺo; mitu	
+17	630	how much?	palĺos; kupalĺo; mitu	
+17	640	what?	miä; mia; mis; kuis; midä	
+17	650	when?	ku; kunas	
+17	660	where?	kos; konnõs; konh; kohn	
+17	670	which?	määne; määndene; määres; määräne; määnedäne; märne	
+17	680	who?	kiä; kuas	
+17	690	why?	mille; minkperäst	
+18	110	voice	helü; rõõm	
+18	120	sing	laulma; lauliskõllõma	
+18	130	shout, cry out	hõikama; hõikma; rüüḱmä; hõhutama; ämmärdämä; kirsma; jõrvama	
+18	150	whisper	tsosistama; tsoskatama; tśossatama; tsobistama	
+18	160	mumble	pomisõma; tonisõma; tśobisõma; tsöbisemä; tünisemä; pommama	
+18	170	whistle	vilistämä; villu ajama; villu laskma; valmitsõma; valmahutma; vilistellemä	
+18	180	shriek, screech	kirsma; kirsama; tänitämä; rüüḱmä; larmama; lõõgõrdama; haurama; rüügämä	
+18	190	howl	vingma; vaugma; vavvama; vauglõma; viuglõma	
+18	210	speak, talk	kõnõlõma	
+18	211	stutter, stammer	kokutama; kokutõllõma; mükütämä; nakatõllõma; nakaskõllõma	
+18	220	say	ütlemä; lausma; kitmä; kõnõlõma	
+18	221	tell story	kõnõlõma; seletämä; jutustama	
+18	222	speech (make a)	kõnõt pidämä; kõnõt pedämä	
+18	230	silent (be)	vakka olõma; vaiki olõma; hillä olõma; vaikuma; vakka jäämä; tassa jäämä	
+18	240	language	kiiĺ	
+18	260	word	sõna	
+18	280	name	nimi	
+18	310	ask (question, inquire)	küsümä	
+18	320	answer	vastama; kostma; vasta ütlemä	
+18	330	admit, confess	tunnistama; takast kitmä; perrä kitmä	
+18	340	deny	eitämä; ei ütlemä; salgama	
+18	350	ask, request	pallõma; pallõlõma; nõudma; tahtma	
+18	360	promise	lubahama; tootama; toovotama; tõotama	
+18	370	refuse	ärq ütlemä	
+18	380	forbid	karistama; kiildmä	
+18	390	rebuke, scold	maanitsõma; nuuḿma	
+18	410	call (=summon)	kutsma; hõikama	
+18	420	call (=name)	nimmama; nimitämä; nimitsemä; mainitsõma; manima	
+18	430	announce	teedäq andma; teedüstämä; kõnõlõma; kuulutama; kellämä	
+18	440	threaten	ähvärdämä; ähvärdellemä	
+18	450	boast	kekśmä; suurustama; õuhkõlõma; platsitama; keksiskellemä; kirkelemä; kirmistämä; kekśmä; uhkõlõma; uhkõndama	
+18	510	write	kirotama; kiŕotama	
+18	520	read	lugõma	
+18	560	paper	papõŕ	
+18	570	pen	sulǵ; putsai	
+18	610	book	raamat; raamadukõnõ; raamadugõnõ	
+18	670	poet	luulõtaja; laulja; sõnolinõ	
+18	710	flute	flüüt́; vile; vilepilĺ; vilespilĺ	
+18	720	drum	trumli; trummuĺ	
+18	730	horn, trumpet	sarv́; lutusarv́; trompet́; truba	
+18	740	rattle	kõristaja; kõrrin	
+19	110	country	maa	
+19	120	one's native country	kodomaa; esämaa	
+19	150	city, town	liin	
+19	160	village	külä	
+19	170	boundary	piiŕ	
+19	210	people (populace)	rahvas	
+19	230	tribe, clan	hõim; suguharo; suguseltś; vahmil; vammil; sugukund	
+19	240	chief, chieftain	päälik; päämiiś; vidosnik; juht́; juhik	
+19	250	staff, walking stick	tokḱ; kepṕ; nui; patsõrtokḱ	
+19	310	rule, govern	valitsõma; valitsõllõma; juht́ma; uhjama	
+19	320	king, ruler	kuning; korroĺ; valitsõja	
+19	330	queen	kuningaimänd	
+19	360	noble, nobleman	aadlimiiś	
+19	370	citizen, subject	kodanik; kundlanõ	
+19	410	master	esänd; perremiiś	
+19	420	slave	ori	
+19	430	servant	tiindri; tiindre; sulanõ	
+19	440	freeman	vaba miis	
+19	450	command, order	käskmä; käskü andma; käsütämä; käsotama; kammandama	
+19	460	obey	sõnna kullõma; umas võtma; sõnna võtma	
+19	470	let, permit	lubahama; laskma	
+19	510	friend, companion	sõbõr; sõpr; seldsiline; ütehnolõja	
+19	520	enemy	vainlanõ; vaimlanõ; vihalanõ; vihalinõ	
+19	540	neighbor	naabri; piirimiiś; naabrimiiś; pindremiiś	
+19	550	stranger	võõras; tundmaldaq	
+19	560	guest	küläline; võõras	
+19	570	host	perremiiś; esänd; vastavõtja; külläkutsja	
+19	580	help, aid	avitama; autama	
+19	590	hinder, prevent	segähämä; takistama; mitte laskma; kiildmä	
+19	610	custom	kommõq; kummõq; muud; pruuḱ; viiś	
+19	620	strife, quarrel	riid; tülü; tõra; närriń; krasś; prada	
+19	630	conspiracy, plot	salanõu	
+19	650	meet	trehvämä; kokko saama	
+19	720	prostitute	ihomüüjä; huur; hatt; litś; miiślitś male; lirva	
+20	110	fight (vb)	võitlõma; võitõlõma; sõdima; taplõma	
+20	130	war, battle	sõda; tapõlus; laheng	
+20	140	peace	rauh; rahu	
+20	150	army	sõavägi	
+20	170	soldier	soldat́; soldań; soldań; sõamiiś	
+20	210	weapons, arms	sõariist; vääs	
+20	220	club	nui; tõlv	
+20	222	battle-ax	sõakirvõs	
+20	230	sling	ling; linnaskiiĺ	
+20	240	bow	vibu; luuk	
+20	250	arrow	nuuĺ	
+20	260	spear	oda; nuuĺ	
+20	270	sword	mõõk	
+20	280	gun, cannon	püss; suuŕtükk	
+20	310	armor (defensive)	soomusrüüd; raudrõivaq	
+20	330	helmet	kiivri	
+20	340	shield	kilṕ	
+20	350	fortress	kimmüs; kindmüs	
+20	360	tower	torń	
+20	410	victory	võit	
+20	420	defeat	kaotus; turak; lüvväqsaaminõ; pessäqsaaminõ	
+20	430	attack	rünnäk; ründämine; päälemineḱ; pääletulõminõ	
+20	440	defend	kaitsma; hoitma	
+20	450	retreat	taganõma; tagasi tõmbama	
+20	460	surrender	alla andma; alaq andma; perrä andma	
+20	470	captive, prisoner	kinniq võet; vanǵ	
+20	471	guard, sentinel	vahimiiś; vaht́; tooros	
+20	480	booty, spoils	saaḱ; sõahää; sõahüä; sõasaaḱ	
+20	490	ambush	paśmiskotus; paśminõ	
+20	510	fisherman	kalamiiś	
+20	520	fishhook	õnǵ	
+20	530	fishing line	õngõnüüŕ	
+20	540	fishnet	kalavõrk	
+20	550	fish trap	mõrd; sakoĺ	
+20	560	bait	süüt; eläjäsüüḱ	
+20	610	hunt	jaht́ma; jahti pidämä	
+20	620	shoot	laskma; tuld andma	
+20	630	miss (target)	müüdä laskma	
+20	640	trap (noun)	lõkś; püünis; lauss	
+20	650	trap (vb)	püündmä; pruuḿma; koetama; väütämä	
+21	110	law	õigus; meelevald; säädüs	
+21	150	court	kohtupidämine; kohus	
+21	160	judge (vb)	arvo saama; kohtu mõistma; pulmama; taidma; taltma	
+21	170	judgment	kohtuotsus	
+21	180	judge (noun)	kohtumiiś; kohtuherr; kohtumõistja; sunďja	
+21	210	plaintiff	nõudja; kaibaja	
+21	220	defendant	süüdläne	
+21	230	witness	tunnistaja; tunnismiiś	
+21	240	swear	tootama; vanma; vandma; tsortõlõma; vannõt vandma	
+21	250	oath	vannõq; vannutus; toovotus; tootus	
+21	310	accuse	süüdüstämä; süüs pandma; süüdü pandma; süütämä; süüstämä; tagistama	
+21	320	condemn	süüdü mõistma	
+21	330	convict (vb)	süüdü mõistma	
+21	340	acquit	arvo saama; õigõs mõistma	
+21	350	guilty	süüdläne	
+21	360	innocent	süüldäq	
+21	370	penalty, punishment	karistus; nuhklus; nuhtlus; trahv́; karistaminõ	
+21	380	fine	trahv́; trahviraha	
+21	390	prison, jail	vangimaja; türḿ; vangikoda	
+21	420	murder	mõrdsugatüü; tapminõ	
+21	430	adultery	abielorikminõ; ülevehmreviskaminõ; abielohäötämine	
+21	440	rape	väelävõtminõ	
+21	460	arson	palamapandminõ; läütämine	
+21	470	perjury	vandõmurdminõ	
+21	510	steal	varastama; käppämä	
+21	520	thief	varas; näpomiiś; näposnik	
+22	110	religion	usk	
+22	120	God	jummaĺ; taivaesä; kukutätä	
+22	130	temple, church	templi; pühäkoda; kerik; keŕk	
+22	140	altar	altri; aldaŕ; aldõŕ	
+22	150	sacrifice, offering	ohvri; annõq; annus	
+22	160	worship	kumardama; kungutama; koogutama; nõõgutama; kumardõllõma; avvustama; avvu andma; luku pidämä	
+22	170	pray	pallõma; palvit tegemä; palvust pidämä; pallust pidämä	
+22	180	priest	priistre; papṕ	
+22	190	holy, sacred	pühä	
+22	220	preach	lugõma; jutust pidämä; jutust ütlemä	
+22	230	bless	õnnistama; pühendämä	
+22	240	curse	niit́mä; vanma; sõnoma; sõnotama; sõnno alaq pandma	
+22	260	fast (vb)	paastma; paastu pidämä	
+22	310	heaven	taivas; ilm	
+22	320	hell	põrgu	
+22	350	demon (evil spirit)	kurivaim; kuŕalinõ; juudalinõ; juudakihä; kuradilinõ; tiindüs	
+22	370	idol	jumalus; iidoĺ	
+22	420	magic, witchcraft, sorcery	nõidus; kuntś; nõidminõ; võhlus; kaehtus; kahetus; kahi	
+22	430	sorcerer, witch	nõid; sopij; sobija; sorṕ; võhl; võhń	
+22	440	fairy, elf	haldja	
+22	450	ghost, phantom	kodokäüjä; vaivaja; kuuljavaim; kaabajalg; nägemine; kolĺ; vaim; virvetüs; kogo; viilüs; nägemine	
+22	470	omen, portent	märḱ; ende; ettetähendüs; näütüs	

@@ -1,0 +1,1301 @@
+chapter_id	entry_id	meaning	Komi_Phonemic	comment
+1	100	world	enköla; mu	
+1	210	earth, land	mu	
+1	212	earth=ground, soil	musin; pod; poduv	
+1	213	dust	bus	
+1	214	mud	nyayt	
+1	215	sand	lɩa	
+1	220	mountain, hill	ker̃ös; nör̃ɩs	Respectively: mountain; hill.; Respectively: mountain; hill.
+1	222	cliff, precipice	kɩr̃ta	
+1	230	plain, field	tšötškösin; er̃d; er̃d vɩv	Respectively: plain; field.; Respectively: plain; field.; Respectively: plain; field.
+1	240	valley	kovtɩs	
+1	250	island	di	
+1	260	mainland	mater̃ik	
+1	270	shore	vador̃	
+1	280	cave	gor̃s	
+1	310	water	va	
+1	320	sea	sar̃idz	
+1	322	calm (of sea)	lönʸ	
+1	323	rough (of sea)	gɩa; gɩzʸöm	
+1	324	foam	bɩg	
+1	329	ocean	okean	
+1	330	lake	tɩ; vad	
+1	340	gulf, bay	kur̃ya	
+1	342	reef	va kɩr̃ta	
+1	343	headland, point	ködž; kötšas	
+1	350	wave	gɩ	
+1	352	tide	va tuöm; va sodöm; va usʸöm	
+1	353	lowtide	va usʸöm	
+1	354	hightide	va sodöm	
+1	360	river, stream, brook	yu; vizuv; šor̃	
+1	362	whirlpool	vaber̃gač	
+1	370	spring, well	öšmös; yukmös	
+1	380	swamp	nyur̃	
+1	390	waterfall	bor̃gan	
+1	410	woods, forest	vör̃	
+1	420	tree (cf 08.600)	pu	
+1	430	wood	vör̃; ker̃	
+1	440	stone, rock	iz; kɩr̃ta	
+1	450	earthquake	mu vör̃öm	
+1	510	sky	enež	
+1	520	sun	šondi	
+1	530	moon	tölɩsʸ	
+1	540	star	kodzuv	
+1	550	lightning	vir̃d	
+1	560	thunder	gɩm	
+1	570	lightning (as striking)	gɩmnʸöv	
+1	580	storm	tövnɩr̃; buškov	
+1	590	rainbow	öškamöška	
+1	610	light (noun)	yugɩd; bi	
+1	620	darkness	pemɩd	
+1	630	shade, shadow	vudžör̃	
+1	640	dew	lɩsva	
+1	710	air	sɩnöd	
+1	720	wind	töv	
+1	730	cloud	kɩmör̃	
+1	740	fog	r̃u	
+1	750	rain (noun)	zer̃	
+1	760	snow (noun)	lɩm	
+1	770	ice	yi	
+1	780	weather	povoddya	
+1	810	fire	bi	
+1	820	flame (noun)	nyala bi	
+1	830	smoke (noun)	tšɩn	
+1	840	ashes	pöim	
+1	841	embers	ögɩr̃	
+1	851	burn (vb trans)	sotnɩ	
+1	852	burn (vb intrans)	sotčɩnɩ	
+1	860	light, kindle, ignite	öztɩnɩ	
+1	861	extinguish	kusödnɩ	
+1	870	match (noun)	istög tuv	
+1	880	firewood	pes	
+1	890	charcoal	šom	
+2	100	person, human being	mor̃t	
+2	210	man (vs. woman)	mužik; mužik mor̃t	
+2	220	woman	nɩvbaba; anʸ	
+2	230	male	ay	
+2	240	female	enʸ	
+2	250	boy	zon; zonka	
+2	251	young man (adolescent)	zon; tom mor̃t	
+2	260	girl	nɩv; nɩvka	
+2	261	young woman (adolescent)	nɩv	
+2	270	child	kaga; čelyadʸ; nɩv-či	
+2	280	infant, baby	kaga	
+2	310	husband	ver̃ös	
+2	320	wife	götɩr̃	
+2	330	marry	götr̃asʸnɩ; ver̃ös sayo munnɩ	Respectively: to get married (about man); to get married (about woman).; Respectively: to get married (about man); to get married (about woman).
+2	340	marriage, wedding	ver̃ös sayö munöm; kölɩsʸ	Respectively: marriage; wedding.; Respectively: marriage; wedding.
+2	341	divorce	yuksʸöm	
+2	350	father	batʸ; ay	
+2	360	mother	mam	
+2	370	parents	ay-mam; batʸ-mam	
+2	380	married man	götɩr̃a	
+2	390	married woman	ver̃ös sayɩn	
+2	410	son	pi	
+2	420	daughter	nɩv	
+2	430	offspring (son or daughter)	yɩlöm	
+2	440	brother	vok	
+2	444	older brother	ɩdžɩd vok	
+2	445	younger brother	ičötdžɩk vok	
+2	450	sister	čoy	
+2	454	older sister	ɩdžɩd čoy	
+2	455	younger sister	ičötdžɩk čoy	
+2	456	sibling	čoya-voka	
+2	458	twins	dvöyni	
+2	460	grandfather	ɩdžɩd ay; pölʸ	
+2	461	old man	pör̃ɩsʸ mor̃t	
+2	470	grandmother	pöč; ɩdžɩd mam	
+2	471	old woman	pör̃ɩsʸ nɩvbaba	
+2	480	grandson	pölʸön šuɩsʸ; pögön šuɩsʸ	
+2	490	granddaughter	pölʸön šuɩsʸ; pögön šuɩsʸ	
+2	510	uncle	dyadʸ; čož	
+2	511	mother's brother	čož	
+2	512	father's brother	dyadʸ	
+2	520	aunt	tʸöt	
+2	521	mother's sister	ičinʸ	
+2	522	father's sister	ob	
+2	530	nephew	plemyannik	
+2	540	niece	plemyannic̷a	
+2	550	cousin	voga vok; bratan; voga čoy	
+2	560	ancestors	pöč-pölʸ	
+2	570	descendants	kotɩr̃; yɩlöm	
+2	610	father-in-law (of a man)	ayka	
+2	611	father-in-law (of a woman)	testʸ	
+2	620	mother-in-law (of a man)	enʸka; inʸka	
+2	621	mother-in-law (of a woman)	tʸöšʸa	
+2	630	son-in-law (of a man)	zyatʸ	
+2	631	son-in-law (of a woman)	zyatʸ	
+2	640	daughter-in-law (of a man)	monʸ; kev	
+2	641	daughter-in-law (of a woman)	monʸ; kev	
+2	710	stepfather	dyadʸ	
+2	720	stepmother	tʸötka; ičinʸ	
+2	730	stepson	tʸöttom pi; dyadʸvodz pi	
+2	740	stepdaughter	tʸötpom nɩv; dyadʸvodz nɩv	
+2	750	orphan	batʸ-mamtöm kaga	
+2	760	widow	döva	
+2	770	widower	döveč	
+2	810	relatives, kinsmen	r̃ödvuž; r̃öd	
+2	820	family	semʸa; kotɩr̃	
+2	910	I	me	
+2	920	you (singular)	te	
+2	930	he/she/it	siyö	
+2	940	we	mi	
+2	941	we (inclusive)	mi	
+2	942	we (exclusive)	mi	
+2	950	you (plural)	ti	
+2	960	they	nayö	
+3	110	animal	pemös; vör̃sa pemös	
+3	120	male (adj)	ay	
+3	130	female (adj)	enʸ	
+3	150	livestock	vöv-mös; gor̃tsa pemös	
+3	160	pasture	yir̃syanin	
+3	180	herdsman	sköt vidzɩsʸ; penösʸ vidzɩsʸ	
+3	190	stable, stall	kar̃ta; gid	
+3	200	cattle (bovine)	vöv-mös; gor̃tsa pemös	
+3	210	bull	öš	
+3	220	ox	öš	
+3	230	cow	mös	
+3	240	calf	kuk; kukanʸ	
+3	250	sheep	ɩž; balya	
+3	260	ram	mež; megö	
+3	280	ewe	ɩž	
+3	290	lamb	balyapi; ɩžpi	
+3	320	boar	vör̃ por̃sʸ	
+3	340	sow (2)	por̃sʸ	
+3	350	pig	por̃sʸpi	
+3	360	goat	köza	
+3	370	he-goat	ay köza	
+3	380	kid	közapi	
+3	410	horse (equine)	vöv	
+3	420	stallion	už	
+3	440	mare	köbɩla	
+3	450	foal, colt	čanʸ; čibö	
+3	460	ass, donkey	osyol	
+3	500	fowl	čipan	
+3	520	cock, rooster	petuk	
+3	540	hen	kur̃ög	
+3	550	chicken	čipanpi; kur̃öčpi	
+3	560	goose	dzodzög	
+3	570	duck	utka; čöž	
+3	580	nest	poz	
+3	581	bird	lebač; kay; pötka	
+3	582	seagull	kalya	
+3	583	heron	c̷aplya	
+3	584	eagle	kutš	
+3	585	hawk	var̃ɩš	
+3	591	bat	bor̃dya šɩr̃; nyabor̃dya šɩr̃	
+3	592	parrot	pöpugay	
+3	593	crow	r̃aka	
+3	594	dove	gulyu	
+3	596	owl	syuzʸ	
+3	610	dog	pon	
+3	614	rabbit	kr̃olik; seč	
+3	620	cat	kanʸ	
+3	622	opossum	opossum	
+3	630	mouse, rat	šɩr̃; kr̃ɩsa	
+3	650	fish	čer̃i	
+3	652	fin (dorsal)	bor̃d	
+3	653	fishscale	sʸöm	
+3	654	gill	nyokčim	
+3	655	shell	r̃akpanʸ	
+3	661	shark	akula	
+3	662	porpoise, dolphin	delʸfin	
+3	663	whale	kit	
+3	664	stingray	skat	
+3	665	freshwater eel	yun; nyugley	
+3	710	wolf	köin	
+3	720	lion	lev	
+3	730	bear	oš	
+3	740	fox	r̃uč	
+3	750	deer	kör̃	
+3	760	monkey	öbezʸyana	
+3	770	elephant	slön	
+3	780	camel	ver̃blyud	
+3	810	insect	čag; gut-gas	
+3	811	louse	toy	
+3	812	nit (louse egg)	ser̃ov	
+3	813	flea	pɩtš	
+3	814	centipede	syokoka	
+3	815	scorpion	skor̃pion	
+3	816	cockroach	gör̃d tör̃ökan	
+3	817	ant	kodzuvkot	
+3	818	spider	čer̃anʸ	
+3	819	spider web	čer̃anʸ vez	
+3	820	bee	mazi; malyazi; malyamuš	
+3	821	beeswax	masisʸ	
+3	822	beehive	mazipoz	
+3	823	wasp	guškanzi; zi	
+3	830	fly	gut	
+3	831	sandfly (midge), gnat	nom; geb	
+3	832	mosquito	nom	
+3	840	worm	nomɩr̃; lyolʸö	
+3	850	snake	už; kɩy	
+3	910	firefly	šɩr̃bi	
+3	920	butterfly	bobuv	
+3	930	grasshopper	čir̃k	
+3	940	snail	lyolʸö	
+3	950	frog	lyaguša	
+3	960	lizard	lyokgag; čodzuv	
+3	970	crocodile, alligator	kr̃okodil	
+3	980	turtle	čer̃epaxa	
+4	110	body	mɩgör̃; vɩvtɩr̃	
+4	120	skin, hide	ku; kučik	
+4	130	flesh	yay	
+4	140	hair (head)	yur̃si; si	
+4	142	beard	toš	
+4	144	body hair	lovgön; gön	
+4	145	pubic hair	manyan gön	
+4	146	dandruff	kilʸ	
+4	150	blood	vir̃	
+4	151	vein, artery	vir̃ sön	
+4	160	bone	lɩ	
+4	162	rib	or̃dlɩ	
+4	170	horn	syur̃	
+4	180	tail	böž	
+4	190	back	mɩšku	
+4	191	spine	syur̃sa lɩ	
+4	200	head	yur̃	
+4	201	side of head, temple	kösiča; pelʸ din	
+4	202	skull	yur̃ lɩ	
+4	203	brain	vem	
+4	204	face	čužöm; čužöm ban	
+4	205	forehead	kɩmös	
+4	207	jaw	čer̃lɩ	
+4	208	cheek	ban; bandzib	
+4	209	chin	tšöka	
+4	210	eye	sin	
+4	212	eyebrow	sinkɩm	
+4	213	eyelid	sin lap	
+4	214	eyelash	sin lɩs	
+4	215	blink	lapyödlɩnɩ; kunʸtɩr̃avnɩ	
+4	220	ear	pelʸ	
+4	221	earlobe	pelʸ nyonʸ	
+4	222	earwax	pelʸ sit	
+4	230	nose	nɩr̃	
+4	231	nostril	nɩr̃ r̃ozʸ	
+4	232	mucus (nasal)	zɩr̃ɩm	
+4	240	mouth	vom	
+4	241	beak	nɩr̃	
+4	250	lip	vom dor̃; par̃	
+4	260	tongue	kɩv	
+4	270	tooth	pinʸ	
+4	271	gums	pinʸ an	
+4	272	molartooth	yur̃ pinʸ	
+4	280	neck	sʸɩli; golya	
+4	281	nape of neck	balyaböž	
+4	290	throat	gor̃š	
+4	300	shoulder	pelʸpom	
+4	301	shoulderblade	pulɩpom	
+4	302	collarbone	votšlɩ	
+4	310	arm	ki	
+4	312	armpit	kɩnyauv	
+4	320	elbow	gɩr̃ddza	
+4	321	wrist	kilutš	
+4	330	hand	ki	
+4	331	palm of hand	ki pɩdös	
+4	340	finger	gunʸ	
+4	342	thumb	pev	
+4	344	fingernail	gɩž	
+4	345	claw	kok gɩž	
+4	350	leg	kok	
+4	351	thigh	kok gum; lyadʸvey lɩ	
+4	352	calf of leg	kok pök	
+4	360	knee	pidzös	
+4	370	foot	kok lapa	
+4	371	ankle	kok šeg	
+4	372	heel	koklyabör̃	
+4	374	footprint	kok tuy	
+4	380	toe	kok čunʸ	
+4	392	wing	bor̃d	
+4	393	feather	gön	
+4	400	chest	mor̃ös; mor̃ös kud	
+4	410	breast (of woman)	mör̃ös; nyonʸ	
+4	412	nipple, teat	nyonʸ; nyonʸ yur̃	
+4	420	udder	vör̃a	
+4	430	navel	gög	
+4	440	heart	sʸölöm	
+4	441	lung	tɩ	
+4	450	liver	mus	
+4	451	kidney	vör̃k	
+4	452	spleen	log	
+4	460	stomach	kɩnöm	
+4	461	intestines, guts	tɩ-mus	
+4	462	waist	kos	
+4	463	hip	bek	
+4	464	buttocks	sitan; sitan bek	
+4	470	womb	matka	
+4	490	testicle	kolʸk	
+4	492	penis	kay; tyutʸ; kolʸk	
+4	510	breathe, breath	lolavnɩ; lov šɩ	
+4	520	yawn, gape	ogsavnɩ	
+4	521	hiccough	sutšiktɩnɩ	
+4	530	cough	kɩznɩ; kɩzödnɩ	
+4	540	sneeze	nesyavnɩ	
+4	550	perspire	pösyavnɩ	
+4	560	spit	sʸölavnɩ	
+4	570	vomit	vosnɩ	
+4	580	bite	kur̃čgavnɩ	
+4	590	lick	nyuvnɩ	
+4	591	dribble	voytavnɩ	
+4	610	sleep	uzʸnɩ; un; uzʸöm	
+4	612	snore	škor̃gɩnɩ	
+4	620	dream	vöt	
+4	630	wake up	sadvmödnɩ	
+4	640	break wind	sur̃tɩvnɩ	
+4	650	urinate	kudzasʸnɩ	
+4	660	defecate	sit; sitasʸnɩ	
+4	670	have sexual intercourse	kayasʸnɩ; tyutyasʸnɩ	
+4	680	shiver	tir̃avnɩ	
+4	690	bathe	kupaytčɩnɩ	
+4	710	beget (of father)	čužtɩnɩ; čelyadyasʸnɩ	
+4	720	born (to be)	čužnɩ	
+4	730	pregnant	sʸökɩd	
+4	732	conceive	sʸöktɩnɩ	
+4	740	live, living, life	ovnɩ; olöm	
+4	750	die, dead	kuvnɩ; kulöm	
+4	751	drowned	vöyöm mor̃t	
+4	760	kill	vinɩ	
+4	770	corpse	šoy	
+4	780	bury (the dead)	guavnɩ	
+4	790	grave, tomb	gu	
+4	810	strong, mighty, powerful	yon; vɩna; ɩdžɩd	
+4	820	weak	žeb; omölʸ	
+4	830	well, health	dzonʸvidza; dzonʸvidzalun	
+4	840	sick, sickness	visʸɩsʸ; visʸöm	
+4	841	fever	kɩntan visʸöm	
+4	842	goiter	zob	
+4	843	cold (catarrh)	kɩnmöm	
+4	850	wound, sore	doy	
+4	852	bruise	löz	
+4	853	swelling	pɩkös	
+4	854	itch	ludöm; ludan visʸöm	
+4	855	blister	va gadʸ	
+4	856	boil (noun)	mɩlʸ; doy	
+4	857	pus	or̃	
+4	858	scar	vur̃ɩs	
+4	860	cure, heal	bur̃dödnɩ	
+4	870	physician	vr̃ač; bur̃dödčɩsʸ	
+4	880	medicine, drug	lekar̃stvo	
+4	890	poison	yad kulan zellya	
+4	910	tired, weary	mudz; mudzöm	
+4	912	rest	šoyččɩnɩ	
+4	920	lazy	dɩš	
+4	930	bald	kuš yur̃a	
+4	940	lame	koktöm	
+4	950	deaf	pelʸtöm; sʸökɩd pelya	
+4	960	mute	čemöy; kɩvtöm	
+4	970	blind	sintöm	
+4	980	intoxicated	kod yur̃a	
+4	990	naked, bare	pasʸtöm	
+5	110	eat	syoynɩ	
+5	120	food	syoyan-yuan	
+5	121	cooked	puöm	
+5	122	raw	votöm; kɩn	
+5	123	ripe	kisʸmöm; voöm	
+5	124	green, unripe	votöm; kisʸmɩtöm; kɩn	
+5	125	rotten	sisʸ	
+5	130	drink	yunɩ	
+5	140	hunger	tšɩglun	
+5	141	famine	tšɩgyalöm	
+5	150	thirst	gor̃š kosʸmöm	
+5	160	suck	nyonyavnɩ	
+5	180	chew	nyamlyavnɩ; r̃ömidztɩnɩ	
+5	181	swallow	nʸɩlavnɩ	
+5	190	choke	pödnɩ; dzagödnɩ	
+5	210	cook	punɩ	
+5	220	boil (vb)	punɩ	
+5	230	roast, fry	žar̃itnɩ; pr̃ažitnɩ	
+5	240	bake	pöžavnɩ; pöžasʸnɩ	
+5	250	oven	pač; gor̃	
+5	260	pot, cooking vessel	gɩr̃nič	
+5	270	kettle	pör̃t	
+5	280	pan	r̃ač	
+5	310	dish	tasʸti; bekar̃; syoyan; syoyantor̃	Respectively: dish; plate.; Respectively: dish; plate.; Respectively: dish; plate.; Respectively: dish; plate.
+5	320	plate	tör̃elka	
+5	330	bowl	tasʸti	
+5	340	pitcher, jug	kuvšin; kr̃užka	
+5	350	cup, drinking vessel	čaška	
+5	360	saucer	blyud	
+5	370	spoon	panʸ	
+5	380	knife (2)	pur̃t	
+5	390	fork (2)	vilki	
+5	391	tongs	klešʸi	
+5	410	meal (a)	syoyan; syoyan-yuan	
+5	420	breakfast	zavtr̃ak; čay yuöm	
+5	430	lunch	zavtr̃ak	
+5	440	dinner	pažɩn	
+5	450	supper	užɩn; užɩnaytöm	
+5	460	peel	kulʸnɩ; kɩr̃ssʸɩnɩ	
+5	470	sieve, strain	požnavnɩ; södzödnɩ	
+5	480	scrape	gognavnɩ; vuštɩnɩ; zɩr̃tnɩ	
+5	490	stir, mix	gudr̃avnɩ; sor̃avnɩ	
+5	510	bread	nyanʸ	
+5	530	dough	nyanʸšom	
+5	540	knead	loynɩ	
+5	550	meal, flour	pɩzʸ	
+5	560	crush, grind	iznɩ	
+5	570	mill	melʸniča	
+5	580	mortar (2)	gɩr̃	
+5	590	pestle	nɩr̃an; toin	
+5	610	meat	yay	
+5	630	sausage	kalbas	
+5	640	soup, broth	šɩd; yukva	
+5	650	vegetables	gr̃ad vɩv puktas	
+5	660	bean	anʸkɩtš	
+5	700	potato	kar̃tupelʸ	
+5	710	fruit	pu votöa	
+5	712	bunch	r̃oz; čalʸ	
+5	750	fig	piga	
+5	760	grape	vinogr̃ad	
+5	770	nut	ör̃eški; ör̃ek	
+5	780	olive	oliva	
+5	790	oil	kön tusʸ; vɩy	
+5	791	grease, fat	tšög	
+5	810	salt	sov	
+5	820	pepper	gor̃mög	
+5	821	chili pepper	gör̃d-gor̃mög	
+5	840	honey	ma	
+5	850	sugar	sakar̃	
+5	860	milk (noun)	yöv	
+5	870	milk (vb)	lɩsʸtɩnɩ; lɩsʸtɩsʸnɩ	
+5	880	cheese	r̃ɩsʸ; sɩr̃	
+5	890	butter	vɩy	
+5	900	beverage, drink	yuan; yuantor̃	
+5	910	mead	ma	
+5	920	wine	vina	
+5	930	beer	sur̃	
+5	940	fermented drink	ɩr̃öš; kalʸlya ɩr̃öš	
+5	970	egg	kolʸk	
+5	971	egg yolk	kolʸk viž	
+6	110	put on (clothes)	pasʸtasʸnɩ	
+6	120	clothing, clothes	pasʸköm; köm-pasʸ	
+6	130	tailor	vur̃sʸɩsʸ	
+6	210	cloth	dör̃a; noy	
+6	220	wool	gön; vur̃un	
+6	230	linen, flax	šabdi	
+6	240	cotton	xlopok	
+6	250	silk	šövk	
+6	270	felt	gɩn	
+6	280	fur	ku	
+6	290	leather	ku; kučik	
+6	310	spin	pečkɩnɩ	
+6	320	spindle	čör̃s	
+6	330	weave	kɩnɩ	
+6	340	loom	stan	
+6	350	sew	vur̃nɩ; vur̃sʸɩnɩ	
+6	360	needle	em	
+6	370	awl	šɩla	
+6	380	thread	šör̃t; sunis	
+6	390	dye	kr̃asitnɩ; mičödnɩ	
+6	410	cloak	plašʸ	
+6	411	poncho	pončo	
+6	420	woman's dress	plattʸö	
+6	430	coat	pinžak	
+6	440	shirt	dör̃öm	
+6	450	collar	vor̃otnik	
+6	460	skirt	yubka	
+6	480	trousers	gač; vɩlɩs gač; ulɩs gač	
+6	490	stocking, sock	čör̃ös; čulki	
+6	510	shoe	tyupelʸ; kamaš	
+6	520	boot	sapög	
+6	540	shoemaker, cobbler	sapög vur̃ɩsʸ	
+6	550	hat, cap	šapka; šlyapa	
+6	570	belt, girdle	vönʸ; yi	
+6	580	glove	čunya kepɩsʸ	
+6	590	veil	vualʸ	
+6	610	pocket	zep	
+6	620	button	kizʸ; molʸ	
+6	630	pin	bulavka	
+6	710	ornament, adornment	mičmödčantor̃	
+6	720	jewel	donapor̃	
+6	730	ring (for finger)	čunʸkɩtš	
+6	740	bracelet	br̃aslet	
+6	750	necklace	sikötš	
+6	760	bead	sikötš molʸ	
+6	770	earring	iser̃go	
+6	780	headband, headdress	yur̃kɩtš; yur̃kɩšöd	
+6	790	tattoo	tatuir̃uytöm pas	
+6	810	handkerchief, rag	nɩr̃ čɩšköd; us čɩškɩd; vetʸök; r̃uzum	Respectively: handkerchief; rag; rag.; Respectively: handkerchief; rag; rag.; Respectively: handkerchief; rag; rag.; Respectively: handkerchief; rag; rag.
+6	820	towel	ki čɩšköd	
+6	910	comb	sɩnan; sor̃s	
+6	920	brush	šʸötka	
+6	921	braid	kɩnɩ; kɩsʸɩnɩ	
+6	930	razor	br̃itva	
+6	940	ointment	mavtas	
+6	950	soap	maytög	
+6	960	mirror	r̃ömpöštan	
+7	110	dwell, live	ovnɩ	
+7	120	house	ker̃ka; gor̃t	
+7	130	hut	ičötik ker̃ka; čom	
+7	131	garden-house	ker̃kator̃	
+7	140	tent	von	
+7	150	yard, court	yör̃; öšinʸ uv	
+7	170	cookhouse	kuxnya	
+7	180	meeting house	yur̃bitanin; yur̃bitan ker̃ka	
+7	210	room	vežös; gor̃niča; žɩr̃	
+7	220	door, gate	ödzös	
+7	221	doorpost, jamb	ödzös kur̃ič	
+7	230	lock (noun)	toman	
+7	231	latch, door-bolt	vug; ödzös vug	
+7	240	key	vosʸtan	
+7	250	window	öšinʸ	
+7	260	floor	džodž	
+7	270	wall	sten	
+7	310	fireplace	kamin; pač	
+7	320	stove	pač; gor̃	
+7	330	chimney	tr̃uba	
+7	370	ladder	pos	
+7	420	bed	volʸpasʸ; uzʸlanin	
+7	421	pillow	yur̃lös; gor̃uv	
+7	422	blanket	eškɩn; šebr̃as	
+7	430	chair	ulös; džek	
+7	440	table	pɩzan	
+7	450	lamp, torch	lampa	
+7	460	candle	sisʸ	
+7	470	shelf	džadž	
+7	480	trough	vor̃	
+7	510	roof	vetv; sar̃ay	
+7	520	thatch	idzas vetv; idzas sar̃ay	
+7	530	ridgepole	öklupenʸ	
+7	540	rafter	ströpilö	
+7	550	beam	matič	
+7	560	post, pole	čotm	
+7	570	board	pöv	
+7	580	arch	svod	
+7	610	mason	kamenšʸik	
+7	620	brick	kir̃pič	
+7	630	mortar	izvestya va	
+7	640	adobe	saman	
+8	110	farmer	vidz-mu udžalɩsʸ	
+8	120	field (for cultivation)	ködza; ködza-mu	
+8	130	garden	sad; grad yör̃	
+8	150	cultivate, till	gör̃nɩ	
+8	160	fence	potšnɩ	
+8	170	ditch	r̃öv; kɩr̃öm	
+8	210	plow	gör̃nɩ; gör̃	
+8	212	furrow	gör̃öm tuy	
+8	220	dig	kodyɩnɩ; kodyɩsʸnɩ	
+8	230	spade	kör̃t zɩr̃	
+8	240	shovel	zɩr̃	
+8	250	hoe	kokan	
+8	260	fork	džɩban	
+8	270	rake	kur̃an; nar̃man	
+8	310	sow	ködznɩ; požnavnɩ	
+8	311	seed	köydž	
+8	320	mow, reap	vundɩnɩ	
+8	330	sickle, scythe	čar̃la; kosa; litovka	
+8	340	thresh	var̃tnɩ	
+8	350	threshing-floor	gumla; vetva gumla	
+8	410	crop, harvest	vundöm; vundan kad; vundan dɩr̃	
+8	420	grain (barley, oats etc)	tusʸ; nyanʸ; syu	
+8	430	wheat	šobdi	
+8	440	barley	id	
+8	450	rye	syu; r̃udzög	
+8	460	oats	zör̃	
+8	470	maize, corn	kukur̃uza	
+8	480	rice	r̃is	
+8	510	grass	tur̃un; lug; lud	
+8	520	hay	tur̃un	
+8	530	plant (noun)	bɩdmög	
+8	531	plant (vb)	puktɩnɩ	
+8	540	root	vuž	
+8	550	branch	uv; vož	
+8	560	leaf	kor̃	
+8	570	flower	dzor̃idz	
+8	600	tree	pu; ker̃	
+8	610	oak	dub; tupu	
+8	620	beech	buk	
+8	630	birch	kɩdz; kɩdz pu	
+8	640	pine	požöm	
+8	650	fir	koz; koz pu	
+8	660	acorn	tupu kolʸ	
+8	670	vine	vinogr̃ad	
+8	680	tobacco	tabak	
+8	690	smoke (tobacco)	tšɩnasʸnɩ	
+8	691	pipe	kallyan	
+8	720	tree stump	mɩr̃	
+8	730	tree trunk	pu gum; pu čer̃	
+8	740	forked branch	uv; vož	
+8	750	bark	kɩr̃sʸ	
+8	760	sap	va; sök	
+8	810	palm tree	palʸma	
+8	820	coconut	kokosövöy ör̃ek	
+8	830	citrus fruit	c̷itr̃us	
+8	840	banana tree	banan pu	
+8	850	banyan	figa pu	
+8	910	sweet potato	yumov kar̃tupelʸ	
+8	930	gourd	tɩkva	
+8	931	pumpkin, squash	kabačko	
+8	940	bamboo	bambuk	
+8	941	sugar cane	saxar̃nöy tr̃ostnik	
+8	970	nettle	petšör̃	
+8	980	mushroom	tšak	
+9	110	do, make	vöčnɩ; ker̃nɩ	
+9	120	work	udžavnɩ	
+9	140	bend	kusɩnʸtnɩ; nyukɩlʸtnɩ	
+9	150	fold	tečnɩ; sövtnɩ	
+9	160	tie, bind	kör̃tavnɩ; yitnɩ	
+9	161	untie	r̃azʸnɩ	
+9	180	chain	čep	
+9	190	rope, cord	gez; köv	
+9	192	knot (noun)	gör̃öd	
+9	210	strike (hit, beat)	noytnɩ; kučkavnɩ; kučkɩnɩ	
+9	211	pound with fist	kučkɩnɩ kulakön	
+9	220	cut	vundɩnɩ	
+9	221	cut down	dženʸdödnɩ; čintɩnɩ	
+9	222	chop, hew	ker̃avnɩ	
+9	223	stab	bɩtškɩnɩ; sutškɩnɩ	
+9	230	knife	pur̃t	
+9	240	scissors, shears	šɩr̃an	
+9	250	ax	čer̃	
+9	251	adze	kuzʸnɩr̃	
+9	260	break	žuglɩnɩ	
+9	261	broken	žugödöm; žugalöm; potöm	
+9	270	split	yukavnɩ; potködlɩnɩ	
+9	280	tear	netškɩnɩ	
+9	290	flay, skin	kulʸnɩ	
+9	310	rub, wipe	nir̃tnɩ; zɩr̃avnɩ	
+9	320	stretch	nyužödnɩ	
+9	330	pull	kɩskɩnɩ	
+9	340	spread out	bolʸsavnɩ; kisʸkavnɩ	
+9	341	hang up	öšödnɩ	
+9	342	press	topödnɩ; žmitnɩ	
+9	343	squeeze, wring	pɩčödnɩ	
+9	350	pour	kisʸtnɩ	
+9	360	wash	mɩsʸkɩnɩ; peslavnɩ	
+9	370	sweep	gɩškɩnɩ	
+9	380	broom	r̃os; gölik	
+9	422	tool	köluy	
+9	430	carpenter	tšupsʸɩsʸ	
+9	440	build	vöčnɩ; lösʸödnɩ	
+9	460	bore	pisʸködnɩ	
+9	461	hollow out	kodyɩnɩ	
+9	480	saw	pila	
+9	490	hammer	mölöt	
+9	500	nail	kör̃t tuv; pu tuv	
+9	560	glue	kley; lem	
+9	600	smith, blacksmith	dor̃ččɩsʸ	
+9	610	forge	dor̃nɩ	
+9	620	anvil	nakövalʸnya	
+9	630	cast (metals)	kisʸtnɩ	
+9	640	gold	zar̃ni	
+9	650	silver	ezɩsʸ	
+9	660	copper, bronze	ɩr̃gön	
+9	670	iron	kör̃t	
+9	680	lead (noun)	svineč	
+9	690	tin, tinplate	ozɩsʸ; žöč	
+9	720	mold (clay etc)	vöčnɩ; lepitnɩ	
+9	730	clay	sey	
+9	740	glass	steklö	
+9	750	weave, plait	kɩnɩ	
+9	760	basket	pester̃; kuzov	
+9	770	mat	r̃ögöza	
+9	771	rug	kovyor̃	
+9	780	netbag	setka	
+9	790	fan (noun)	övtčan	
+9	791	fan (vb)	övtčɩnɩ	
+9	810	carve	vöčnɩ	
+9	820	sculptor	statuya vöčɩsʸ	
+9	830	statue	statuya	
+9	840	chisel	öžɩn	
+9	880	paint (noun)	kr̃aska	
+9	890	paint (vb)	mičödnɩ	
+10	110	move	veštɩnɩ	
+10	120	turn over	kɩmɩnʸtnɩ; gatšödnɩ	
+10	130	turn around	ber̃gödlɩnɩ; gar̃tnɩ	
+10	140	wind, wrap	gar̃tnɩ; tubr̃avnɩ	
+10	150	roll	bɩgɩlʸtnɩ; bɩglyavnɩ	
+10	160	drop (vb)	usʸködnɩ; usʸnɩ	
+10	170	twist	gar̃tnɩ	
+10	210	rise	kɩpödgɩnɩ; leptɩsʸnɩ	
+10	220	raise, lift	leptɩnɩ	
+10	230	fall	usʸnɩ; uslyavnɩ	
+10	240	drip	voytavnɩ; vizuvtnɩ	
+10	250	throw	šɩbitnɩ	
+10	252	catch (ball)	kutnɩ; kɩynɩ	
+10	260	shake	pɩr̃ködnɩ	
+10	320	flow	vizuvtnɩ; viyavnɩ	
+10	330	sink	vöytnɩ; vöynɩ	
+10	340	float	uynɩ	
+10	350	swim	var̃ččɩnɩ; uyavnɩ	
+10	351	dive	sunavnɩ; sunnɩ	
+10	352	splash	palʸskakɩvnɩ; r̃eznɩ	
+10	360	sail (vb)	var̃ččɩnɩ; uynɩ; katnɩ	
+10	370	fly (vb)	lebnɩ	
+10	380	blow	pölʸtnɩ	
+10	410	creep, crawl	vellyasʸnɩ	
+10	412	kneel	pidzösčanʸön sulavnɩ; pidzösčanʸasʸna	
+10	413	crouch	kopr̃asʸnɩ	
+10	420	slide, slip	iskovtnɩ; islavnɩ	
+10	430	jump, leap	čeččɩštnɩ; čeččɩnɩ	
+10	431	kick	čutyasʸnɩ	
+10	440	dance	yöktɩnɩ	
+10	450	walk	munnɩ; vetlödlɩnɩ	
+10	451	limp	čotnɩ	
+10	460	run	kotör̃tnɩ	
+10	470	go	munnɩ; vetlödlɩnɩ	
+10	471	go up	kaynɩ; petnɩ	
+10	472	climb	kaynɩ; kavšasʸnɩ	
+10	473	go down	ledzčɩnɩ; kɩvtnɩ	
+10	474	go out	petnɩ	
+10	480	come	loknɩ; vonɩ	
+10	481	come back	bör̃ vonɩ; bör̃ loknɩ	
+10	490	go away, depart	petnɩ	
+10	491	disappear	vošnɩ; dzebsyasʸnɩ	
+10	510	flee	pɩšyɩnɩ	
+10	520	follow	vidzödnɩ; kɩyödnɩ	
+10	530	pursue	vötödnɩ; vötlɩsʸnɩ	
+10	550	reach, arrive	vonɩ; loknɩ	
+10	560	approach	matɩstčɩnɩ; sibödčɩnɩ	
+10	570	enter	pɩr̃nɩ	
+10	610	carry (bear)	nunɩ; novlödlɩnɩ	
+10	612	carry-in-hand	ki vɩlɩn novlödlɩnɩ	
+10	613	carry-on-shoulder	čelʸčom vɩlɩn novlödlɩnɩ	
+10	614	carry-on-head	yur̃ vɩlɩn novlɩnɩ	
+10	615	carry-underarm	kinyaulɩn novlɩnɩ; kinyaulɩn novlödaɩnɩ	
+10	620	bring	vaynɩ	
+10	630	send	ɩstɩnɩ; mödönɩ	
+10	640	lead (vb)	nuödnɩ; nunɩ	
+10	650	drive	vötlɩnɩ; gönitödnɩ	
+10	660	ride	ver̃zʸömön munnɩ	
+10	670	push, shove	toyɩštnɩ; yötkɩštnɩ	
+10	710	road	tuy	
+10	720	path	or̃dɩm	
+10	740	bridge	pos	
+10	750	carriage, wagon, cart	telega	
+10	760	wheel	kölesa	
+10	770	axle	čör̃s	
+10	780	yoke	sšyös	
+10	810	ship	kör̃ablʸ	
+10	830	boat	pɩž	
+10	831	canoe	baydar̃ka	
+10	840	raft	pur̃	
+10	850	oar	pelɩs	
+10	851	paddle (noun)	öpasnöy pelɩs	
+10	852	row (vb)	sɩnnɩ	
+10	860	rudder	r̃ulʸ	
+10	870	mast	mačta; šolga	
+10	880	sail (noun)	par̃us	
+10	890	anchor	yakör̃	
+10	910	harbor, port	por̃t; özɩn	
+10	920	land (vb)	meččɩnɩ; petnɩ	
+11	110	have	em	
+11	120	own, possess	as ulɩn kutnɩ; kiɩn kutnɩ	
+11	130	take	bosʸtnɩ	
+11	140	seize, grasp	kvatitnɩ; tšapnitnɩ	
+11	150	hold	kutnɩ; vidznɩ	
+11	160	get, obtain	sudzödnɩ	
+11	170	keep, retain	vidznɩ	
+11	180	thing	embur̃	
+11	210	give	setnɩ	
+11	220	give back	setnɩ; bör̃ setnɩ	
+11	240	preserve, look after	töždɩsʸnɩ; vidznɩ	
+11	250	save, rescue	mezdɩnɩ	
+11	270	destroy	bɩr̃ödnɩ; kisʸtnɩ; žugödnɩ	
+11	280	harm, injure, damage	lyok ker̃nɩ; lyok vöčnɩ	
+11	310	seek, look for	kor̃sʸnɩ; kor̃sʸɩsʸnɩ	
+11	320	find	addzɩnɩ	
+11	330	lose	voštɩnɩ	
+11	340	release, let go	ledznɩ	
+11	430	money	sʸöm	
+11	440	coin	kör̃t sʸöm	
+11	510	rich	ozɩr̃	
+11	520	poor	gölʸ	
+11	530	beggar	kor̃ɩsʸ	
+11	540	avaricious, stingy	točɩd; gor̃š	
+11	610	lend	udždɩnɩ; vodzösön semnɩ	
+11	620	borrow	udždɩnɩ; vodzösavnɩ	
+11	630	owe	lonɩ	
+11	640	debt	udžyös; vodzös	
+11	650	pay (vb)	mɩntɩnɩ; mɩntɩsʸnɩ	
+11	660	account, reckoning	lɩd; tšöt	
+11	690	tax, tribute	vot	
+11	770	hire	medavnɩ	
+11	780	wages	udždon	
+11	790	earn	nažövitnɩ	
+11	810	buy	nʸöbnɩ; bosʸtnɩ	
+11	820	sell	vizavnɩ	
+11	830	trade, barter	vizasʸnɩ	
+11	840	merchant	vizasʸɩsʸ	
+11	850	market (place)	bazar̃	
+11	860	store, shop	lavka	
+11	870	price	don	
+11	880	dear (costly, expensive)	dona	
+11	890	cheap	dontöm	
+11	910	share (distribute)	yuknɩ	
+11	920	weigh	vesitnɩ	
+12	10	after	bör̃ɩn; bör̃ti	
+12	11	behind	sayö; sayɩn	
+12	20	beside	dinɩn; ber̃dɩn	
+12	30	down, below	ulö; ulɩn	
+12	40	before	vodzɩn	
+12	41	front	vodz	
+12	50	inside, in	pövstö; pɩtškɩn	
+12	60	outside	or̃tsɩn; bokɩn	
+12	70	under	ulɩn	
+12	80	up, above	vɩlɩn	
+12	110	place	in; mesta	
+12	120	put	puktɩnɩ; suvtödnɩ	
+12	130	sit	puxavnɩ	
+12	140	lie down	kuylɩnɩ	
+12	150	stand	sulavnɩ	
+12	160	remain, stay	kolʸččɩnɩ	
+12	170	remains, left overs	kolyas; šɩblas	
+12	210	collect, gather	čukör̃tni; botnɩ	
+12	212	pick up	leptɩnɩ	
+12	213	pile up	ötčukör̃ö puktavnɩ	
+12	220	join, unite	ötlaödnɩ; yitnɩ	
+12	230	separate	tor̃yödnɩ	
+12	232	divide	yukkɩ	
+12	240	open	vosʸtnɩ	
+12	250	shut, close	pödlavnɩ; tupkɩnɩ	
+12	260	cover	vevttʸɩnɩ; šebr̃avnɩ	
+12	270	hide, conceal	dzebnɩ; dzeblavnɩ	
+12	310	high	džudžɩd; kuzʸ	
+12	320	low	lyapkɩd; ičöt	
+12	330	top	vɩv; yɩv	
+12	340	bottom	pɩdös	
+12	350	end	pom; dor̃	
+12	352	pointed	yos yɩla; yosʸ	
+12	353	edge	dor̃; bok	
+12	360	side	bok; gug	
+12	370	middle, center	šör̃	
+12	410	right (side)	vesʸkɩdvɩv; vesʸkɩd	
+12	420	left (side)	šuygalador̃; šuyga	
+12	430	near (adv)	matɩn	
+12	440	far (adv)	ɩlɩn	
+12	450	east	asɩv; asɩvvɩv	
+12	460	west	r̃ɩt; r̃ɩtɩv; r̃ɩtɩvvɩv	
+12	470	north	voy; voyvɩv	
+12	480	south	lun; lunvɩv	
+12	530	grow	bɩdmɩnɩ	
+12	540	measure	mur̃tavnɩ	
+12	541	span, fathom	vesʸt; sɩv	
+12	550	large, big	ɩdžɩd	
+12	560	small, little	ičöt	
+12	570	long	kuzʸ	
+12	580	tall	džudžɩd	
+12	590	short	dženʸɩd	
+12	610	wide, broad	pasʸkɩd; ɩdžɩd	
+12	620	narrow	vekni; uzeskɩd	
+12	630	thick (in dimension)	kɩz	
+12	650	thin (in dimension)	vösni	
+12	670	deep	džudžɩd	
+12	680	shallow	posni; lyapkɩd	
+12	710	flat	plavkös	
+12	730	straight	vesʸkɩd	
+12	740	crooked	čuklya; pölös	
+12	750	hook	kr̃uk	
+12	760	corner	pelʸös; ser̃ög	
+12	770	cross	kr̃est	
+12	780	square	kvadr̃at	
+12	810	round	gögr̃ös	
+12	820	circle	kɩtš	
+12	830	sphere, ball	šar̃	
+12	840	line	vizʸ	
+12	850	hole	r̃ozʸ	
+12	920	like, similar	kodʸ; syama; noga	
+12	930	change	vežnɩ; vežlavnɩ	
+13	0	zero, nothing	nulʸ; ninöm abu	
+13	10	one	öti; ötik	
+13	20	two	kɩk	
+13	30	three	kuim	
+13	40	four	nyolʸ	
+13	50	five	vit	
+13	60	six	kvayt	
+13	70	seven	sizim	
+13	80	eight	kökyamɩs	
+13	90	nine	ökmɩs	
+13	100	ten	das	
+13	101	eleven	das öti	
+13	102	twelve	das kɩk	
+13	103	fifteen	das vit	
+13	104	twenty	kɩzʸ	
+13	105	hundred	syo	
+13	106	thousand	syur̃s	
+13	107	count	lɩddʸɩnɩ; ar̃tavnɩ	
+13	140	every, all	bɩd; bɩdön; stav	
+13	150	much, many	una; yona	
+13	160	more	undžɩk; yondžɩka	
+13	170	little (quantity), few	etša; neuna	
+13	180	enough	tɩr̃mɩmön	
+13	181	some	mɩykö mɩnda; mɩytakö	
+13	190	multitude, crowd	zev una; pomtöm	
+13	210	full	tɩr̃; tɩr̃a	
+13	220	empty	tɩr̃töm; kuš	
+13	230	part, piece	yukön; tor̃	
+13	240	half	dožɩn	
+13	330	alone, only	ötkön; ötnam; ötka	
+13	340	first	medvoddza	
+13	350	last	medbör̃ya	
+13	360	second	möd	
+13	370	pair	goz; kɩk	
+13	380	two times	kɩkɩsʸ; kɩk pöv	
+13	420	third	koymöd	
+13	440	three times	kuimɩsʸ; kuim čöv	
+14	110	time	kad	
+14	120	age	ar̃lɩd	
+14	130	new	vɩlʸ	
+14	140	young	tom	
+14	150	old	pör̃ɩsʸ	
+14	160	early	vodz	
+14	170	late	syor̃ön; syor̃	
+14	180	now	öni	
+14	190	immediately	pɩr̃; dzik pɩr̃; pɩr̃ɩsʸ-pɩr̃	
+14	210	swift, fast, quick	vizuv; ter̃ɩb	
+14	220	slow	nʸöžmɩd	
+14	230	hasten, hurry	ter̃masʸnɩ	
+14	240	retard, delay	nyužmasʸnɩ	
+14	250	begin, beginning	zavoditnɩ; gondɩnɩ; pannɩ	
+14	252	last, endure	kɩssʸɩnɩ; nyužavnɩ	
+14	260	end (temporal)	pom	
+14	270	finish	pomavnɩ; eštödnɩ	
+14	280	cease, stop	dugdɩnɩ; enovtčɩnɩ	
+14	290	ready	dasʸ	
+14	310	always	pɩr̃; vek	
+14	320	often	tšökɩda	
+14	330	sometimes	muköd dɩr̃yi; kor̃syur̃ö	
+14	331	soon	ödyö; r̃egɩd	
+14	332	long-time (for a)	dɩr̃; kuzya	
+14	340	never	nekor̃	
+14	350	again	bar̃a; vɩlʸɩsʸ	
+14	410	day	lun	
+14	420	night	voy	
+14	430	dawn	kɩa; yugan kad	
+14	440	morning	asɩv; asɩvvodz	
+14	450	noon, midday	lun šör̃; lun šör̃ kad	
+14	451	afternoon	lunšör̃ bör̃ɩn	
+14	460	evening	r̃ɩt	
+14	470	today	talun	
+14	480	tomorrow	asku	
+14	481	day-after-tomorrow	askomɩsʸ	
+14	490	yesterday	tör̃ɩt	
+14	491	day-before-yesterday	voydör̃lun	
+14	510	hour	čas; kad	
+14	530	clock, timepiece	časi	
+14	610	week	vežön	
+14	620	Sunday	vöskr̃esennʸö; vežalun	
+14	630	Monday	vɩlʸlun	
+14	640	Tuesday	votor̃nik	
+14	650	Wednesday	ser̃eda	
+14	660	Thursday	četver̃g	
+14	670	Friday	pekniča	
+14	680	Saturday	suböta	
+14	710	month	tölɩsʸ	
+14	730	year	vo	
+14	740	winter	töv	
+14	750	spring	tulɩs	
+14	760	summer	gožöm	
+14	770	autumn	ar̃	
+14	780	season	volön kad	
+15	210	smell (vb intrans)	kɩvnɩ; petnɩ	
+15	212	sniff	isavnɩ	
+15	220	smell (vb trans)	isavnɩ	
+15	250	fragrant, good smelling	čöskɩd duka; čöskɩd kör̃a	
+15	260	stinking, bad smelling	lyok duka; lyok kör̃a	
+15	310	taste	vidlɩnɩ	
+15	350	sweet	yumov	
+15	360	salty	sola	
+15	370	bitter	kur̃ɩd	
+15	380	acid, sour	šoma	
+15	390	brackish	solakodʸ	
+15	410	hear	kɩvnɩ; kɩvlɩnɩ	
+15	420	listen	kɩvzɩnnɩ	
+15	440	sound, noise	šɩ; gor̃	
+15	450	loud	gor̃a	
+15	460	quiet, silence	lönʸ; čövlun	
+15	510	see	addzɩnɩ; addzɩvnɩ	
+15	520	look, look at	vidzödnɩ	
+15	550	show	petködlɩnɩ	
+15	560	shine	dzir̃davnɩ	
+15	570	bright	yugɩd; dzir̃dalan	
+15	610	color	r̃öm	
+15	620	light (in color)	yugɩd	
+15	630	dark (in color)	pemɩd r̃öma; sʸödov	
+15	640	white	edžɩd	
+15	650	black	sʸöd	
+15	660	red	gör̃d; don	
+15	670	blue	löz; kelʸɩd löz	
+15	680	green	vež; tur̃unviž	
+15	690	yellow	viž; kolʸkviž	
+15	710	touch	vör̃ödnɩ	
+15	712	pinch	čeplyavnɩ; čepölʸtnɩ	
+15	720	feel	kɩvnɩ	
+15	740	hard	čor̃ɩd	
+15	750	soft	nebɩd	
+15	760	rough	sar̃öga	
+15	770	smooth	šɩlʸɩd; molʸɩd	
+15	780	sharp	lečɩd; yosʸ	
+15	790	blunt, dull	nɩž	
+15	810	heavy	sʸökɩd	
+15	820	light (in weight)	kokni; koknʸɩd	
+15	830	wet, damp	kötasʸöm; va; ulʸ	
+15	840	dry	kos	
+15	850	hot	pösʸ	
+15	851	warm	šonɩd	
+15	860	cold	ködzɩd	
+15	870	clean	söstöm; södz	
+15	880	dirty, soiled	nyayt; sʸöd	
+15	890	wrinkled	čukɩr̃ösʸ	
+16	110	soul, spirit	lov; sʸölöm	
+16	150	surprised, astonished	čuymöm	
+16	180	good fortune, luck	šud	
+16	190	misfortune, bad luck	šog	
+16	230	joyful, glad, happy	nimkodʸ; dolɩd	
+16	250	laugh	ser̃avnɩ	
+16	251	smile	nyumyavnɩ	
+16	260	play	vor̃snɩ	
+16	270	love	r̃adeytöm; r̃adeytnɩ	
+16	290	kiss	okavnɩ	
+16	300	embrace	kutlɩnɩ	
+16	310	pain	doy	
+16	320	grief, sorrow, sadness	šog	
+16	330	anxiety, worry	töždɩsʸöm	
+16	340	regret, be sorry	žalitnɩ; kaitčɩnɩ	
+16	350	pity	žalitan; žalʸ	
+16	370	cry, weep	bör̃dnɩ	
+16	380	tear (noun)	sinva	
+16	390	groan	oyzɩnɩ; r̃užtɩnɩ	
+16	410	hate	mustömtnɩ; lög petöm	
+16	420	anger	lyok; lög	
+16	440	envy, jealousy	vežögtöm	
+16	450	shame (noun)	yandzim	
+16	480	proud	tšap; ɩkša	
+16	510	dare	lɩsʸtnɩ	
+16	520	brave	povtöm	
+16	530	fear, fright	polöm	
+16	540	danger	lyok; lyoktor̃	
+16	620	desire, want	okotitnɩ; kovnɩ	
+16	622	choose	bör̃yɩnɩ	
+16	630	hope	nadeya; lača	
+16	650	faithful	vesʸkɩd	
+16	660	true	vesʸkɩd	
+16	670	lie, tell lies	ɩlödčɩnɩ	
+16	680	deceit	ɩlödčöm	
+16	690	forgive	pr̃östitnɩ	
+16	710	good	bur̃; lösʸɩd	
+16	720	bad	lyok; omölʸ	
+16	730	right, correct	vesʸkɩd	
+16	740	wrong	nelyučki; abu vesʸkɩd	
+16	760	fault	mɩž	
+16	770	mistake, error	tor̃ksʸöm; sor̃sʸöm	
+16	780	blame	vöypöm; čir̃ɩštöm	
+16	790	praise	ošköm	
+16	810	beautiful	zev miča	
+16	820	ugly	misʸtöm	
+16	830	greedy	gor̃š; gor̃šasʸɩsʸ	
+16	840	clever	vežör̃a; syusʸ	
+17	110	mind	vežör̃; mɩvkɩd	
+17	130	think (= reflect)	mövpavnɩ	
+17	140	think (= be of the opinion)	čaytnɩ	
+17	150	believe	eskɩnɩ	
+17	160	understand	gögör̃vonɩ	
+17	170	know	tödnɩ	
+17	171	guess	tödnɩ	
+17	172	imitate	sɩnog vöčnɩ	
+17	180	seem	kažitgɩnɩ	
+17	190	idea, notion	tögöm	
+17	210	wise	ɩdžɩd; syusʸ	
+17	220	foolish, stupid	yöy; vežör̃töm; ičöt vežör̃a	
+17	230	insane, crazy	yöy; yöytalɩsʸ	
+17	240	learn	velödgɩnɩ	
+17	242	study	velödnö; tödmavnɩ; tuyavnɩ	
+17	250	teach	velödnɩ	
+17	260	pupil	velödgɩsʸ	
+17	270	teacher	velödɩsʸ	
+17	280	school	velödganin	
+17	310	remember	töd vɩlɩn kutnɩ	
+17	320	forget	vunödžɩ; vunnɩ	
+17	340	clear, plain	yugɩd; sin yor̃an	
+17	350	obscure	pemɩd	
+17	360	secret	gusya; sayödöm	
+17	370	sure, certain	vesʸkɩd	
+17	380	explain	visʸtavnɩ; gögör̃voödnɩ	
+17	410	intention, purpose	kösyöm	
+17	420	cause	mog; pomka	
+17	430	doubt	mayšasʸöm	
+17	440	suspect	mayšasʸnɩ	
+17	441	betray	setnɩ	
+17	450	need, necessity	gölʸlun	
+17	460	easy	kokni; koknɩd	
+17	470	difficult	sʸökɩd	
+17	480	try, attempt	vidlɩnɩ; vidlavnɩ	
+17	490	way, manner	nog; syam	
+17	510	and	i; da	
+17	520	because	sɩ vösna; sɩ ponda	
+17	530	if	kö	
+17	540	or	ali; libö	
+17	550	yes, affirmative	da; esködan	
+17	560	no, negative	abu	
+17	610	how?	kɩdz	
+17	620	how many?	una-ö; kɩmɩn	
+17	630	how much?	una-ö; mɩyta	
+17	640	what?	mɩy	
+17	650	when?	kor̃; kodɩr̃	
+17	660	where?	kön	
+17	670	which?	kutšöm	
+17	680	who?	kodi; kod	
+17	690	why?	mɩyla; mɩy ponda	
+18	110	voice	gölös; šɩ	
+18	120	sing	sʸɩvnɩ	
+18	130	shout, cry out	gor̃zɩnɩ	
+18	150	whisper	vašködnɩ	
+18	160	mumble	r̃opkɩnɩ; numanamakɩvnɩ	
+18	170	whistle	šutʸlyavnɩ	
+18	180	shriek, screech	lečɩda; gor̃ödnɩ	
+18	190	howl	omlyavnɩ	
+18	210	speak, talk	visʸtavnɩ	
+18	211	stutter, stammer	mɩktavnɩ	
+18	220	say	šunɩ; visʸtavnɩ	
+18	221	tell story	visʸtavnɩ; moydnɩ	
+18	222	speech (make a)	r̃ečʸ kutnɩ; syor̃nitnɩ	
+18	230	silent (be)	čöv ovnɩ	
+18	240	language	kɩv; syor̃ni	
+18	260	word	kɩv	
+18	280	name	nim	
+18	310	ask (question, inquire)	yuavnɩ; kor̃nɩ	
+18	320	answer	vočavidznɩ	
+18	330	admit, confess	tödnɩ; pɩddi	
+18	340	deny	panɩd suvtnɩ	
+18	350	ask, request	kor̃nɩ	
+18	360	promise	kösyɩnɩ; kösyɩsʸnɩ	
+18	370	refuse	bör̃ɩnʸtnɩ	
+18	380	forbid	ölödnɩ	
+18	390	rebuke, scold	vidnɩ; pinyavnɩ	
+18	410	call (=summon)	kor̃nɩ; čuksavnɩ	
+18	420	call (=name)	šunɩ; nim puktɩnɩ	
+18	430	announce	visʸtavnɩ; yuör̃tnɩ	
+18	440	threaten	povzʸödlɩnɩ	
+18	450	boast	ošyɩsʸnɩ	
+18	510	write	čižnɩ	
+18	520	read	lɩddʸɩnɩ	
+18	560	paper	kabala	
+18	570	pen	per̃ö	
+18	610	book	kniga; nebög	
+18	670	poet	kɩvbur̃ tečɩsʸ	
+18	710	flute	fleyta	
+18	720	drum	bar̃aban	
+18	730	horn, trumpet	buksan	
+18	740	rattle	golʸgan; syar̃gan	
+19	110	country	mu	
+19	120	one's native country	čužan mu; as mu	
+19	150	city, town	kar̃	
+19	160	village	sikt; gr̃ezd	
+19	170	boundary	gr̃anitsa; vežtas	
+19	210	people (populace)	yöž	
+19	230	tribe, clan	r̃ödvuž kotɩr̃	
+19	240	chief, chieftain	yur̃ nuödɩsʸ	
+19	250	staff, walking stick	bedʸ	
+19	310	rule, govern	vesʸködlɩnɩ; yur̃ nuödnɩ	
+19	320	king, ruler	kor̃olʸ	
+19	330	queen	kor̃oleva	
+19	360	noble, nobleman	dvor̃yanin	
+19	370	citizen, subject	gr̃aždanin; poddannöy	
+19	410	master	közyain	
+19	420	slave	r̃ab; ver̃	
+19	430	servant	kesyalɩsʸ	
+19	440	freeman	völʸnöy mor̃t	
+19	450	command, order	tšöktɩnɩ	
+19	460	obey	kɩvzɩsʸnɩ	
+19	470	let, permit	tšöktɩnɩ; setnɩ	
+19	510	friend, companion	yor̃t; musuk	
+19	520	enemy	vör̃ög	
+19	540	neighbor	or̃čča ker̃kasa	
+19	550	stranger	tödtöm	
+19	560	guest	göstʸ	
+19	570	host	közyain	
+19	580	help, aid	otsavnɩ	
+19	590	hinder, prevent	pɩknɩ	
+19	610	custom	olannog	
+19	620	strife, quarrel	ven; venzʸöm	
+19	630	conspiracy, plot	syor̃nitčöm	
+19	650	meet	panɩdavnɩ	
+19	720	prostitute	kɩskasʸɩsʸ	
+20	110	fight (vb)	kosyasʸnɩ	
+20	130	war, battle	tɩš; kosʸ	
+20	140	peace	söglasön olöm; mir̃	
+20	150	army	ar̃miya; voyska	
+20	170	soldier	saldat	
+20	210	weapons, arms	ör̃užʸe	
+20	220	club	zor̃	
+20	222	battle-ax	čer̃	
+20	230	sling	tr̃ašʸa	
+20	240	bow	nʸövvuž	
+20	250	arrow	nʸöv	
+20	260	spear	šɩ	
+20	270	sword	šɩ pur̃t	
+20	280	gun, cannon	pišʸalʸ; puška	
+20	310	armor (defensive)	br̃onya	
+20	330	helmet	šlyom	
+20	340	shield	šʸit	
+20	350	fortress	izkar̃; kr̃epöstʸ	
+20	360	tower	bašnya	
+20	410	victory	ver̃möm	
+20	420	defeat	žugödöm	
+20	430	attack	vodzö zɩr̃öm	
+20	440	defend	dor̃yɩnɩ; dor̃yɩsʸnɩ	
+20	450	retreat	bör̃ɩnʸtšɩnɩ	
+20	460	surrender	sdaytnɩ; setnɩ	
+20	470	captive, prisoner	plennöy; plenö syur̃öm mor̃t	
+20	471	guard, sentinel	kar̃aul; vidzɩsʸ	
+20	480	booty, spoils	kɩyömtör̃; köydös	
+20	490	ambush	kɩyödgöm	
+20	510	fisherman	čer̃i kɩyɩsʸ	
+20	520	fishhook	vugɩr̃	
+20	530	fishing line	vugɩr̃ köv	
+20	540	fishnet	tɩv	
+20	550	fish trap	gɩmga	
+20	560	bait	sam	
+20	610	hunt	kɩysʸɩnɩ; vör̃avnɩ	
+20	620	shoot	lɩylɩnɩ; lɩynɩ	
+20	630	miss (target)	bokö; lɩynɩ	
+20	640	trap (noun)	čös	
+20	650	trap (vb)	kɩynɩ; syur̃nɩ nalʸkö	
+21	110	law	pr̃avo	
+21	150	court	sud	
+21	160	judge (vb)	mɩždɩnɩ	
+21	170	judgment	šuöm	
+21	180	judge (noun)	sudʸa	
+21	210	plaintiff	sud pɩr̃ kor̃sʸɩsʸɩsʸ	
+21	220	defendant	kɩv kutɩsʸ	
+21	230	witness	addzɩlɩsʸ; tödlɩsʸ	
+21	240	swear	pr̃isyaga setnɩ; kɩv setnɩ	
+21	250	oath	kɩv setöm; pr̃isyaga	
+21	310	accuse	mɩžavnɩ	
+21	320	condemn	mɩždɩnɩ	
+21	330	convict (vb)	lɩddʸɩnɩ mɩžaön	
+21	340	acquit	mɩžtömön lɩddʸɩnɩ	
+21	350	guilty	mɩž vöčɩsʸ; mɩža	
+21	360	innocent	mɩžtöm	
+21	370	penalty, punishment	mɩždöm	
+21	380	fine	štr̃ap	
+21	390	prison, jail	tyur̃ʸma; dzeskɩdin	
+21	420	murder	mor̃t viöm; viöm	
+21	430	adultery	ver̃ös vɩvti vetlöm	
+21	440	rape	mɩr̃dönavnɩ	
+21	460	arson	öztöm	
+21	470	perjury	xɩv vidžöm	
+21	510	steal	gusyasʸnɩ; gusyavnɩ	
+21	520	thief	gusyasʸɩsʸ	
+22	110	religion	esköm	
+22	120	God	en	
+22	130	temple, church	vičko	
+22	140	altar	völtar̃	
+22	150	sacrifice, offering	žer̃tva; visʸ	
+22	160	worship	yur̃bitnɩ	
+22	170	pray	yur̃bitnɩ; kevmɩsʸnɩ	
+22	180	priest	pop	
+22	190	holy, sacred	veža	
+22	220	preach	bur̃ visʸtavnɩ	
+22	230	bless	bur̃ sinɩ; oškɩnɩ	
+22	240	curse	yor̃nɩ; yor̃sʸɩnɩ	
+22	260	fast (vb)	vidzavnɩ; koslunyön syoynɩ	
+22	310	heaven	enež	
+22	320	hell	ad	
+22	350	demon (evil spirit)	omöl; kulʸ	
+22	370	idol	bölban	
+22	420	magic, witchcraft, sorcery	tödöm; nimkɩv tödöm	
+22	430	sorcerer, witch	yoma; tun	
+22	440	fairy, elf	nɩvbaba tun	
+22	450	ghost, phantom	kažitgöm; olɩsya; or̃t	
+22	470	omen, portent	tunalöm	

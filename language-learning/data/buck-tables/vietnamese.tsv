@@ -1,0 +1,481 @@
+chapter_id	entry_id	meaning	Vietnamese_phonetic	comment
+1	100	world	thế gio'́i; vũ trụ	
+1	210	earth, land	quaʔ d̄ất	
+1	212	earth=ground, soil	d̄ất	
+1	213	dust	bụi	
+1	214	mud	bùn	
+1	215	sand	cát	
+1	220	mountain, hill	núi; d̄ồ	
+1	222	cliff, precipice	vụ'c	
+1	230	plain, field	cánh d̄ồng; bình nguyên; d̄ồng bằng	
+1	240	valley	thung lũng	
+1	250	island	d̄aʔo; cù lào	
+1	260	mainland	ḍất liền	
+1	270	shore	bò'	
+1	280	cave	hang	
+1	310	water	nu'ó'c	
+1	320	sea	biêʔn	
+1	322	calm (of sea)	lặng gió; sóng yên	
+1	323	rough (of sea)	do'n dọ'n	
+1	324	foam	bọt	
+1	329	ocean	d̄ại du'o'ng	
+1	330	lake	hồ	
+1	340	gulf, bay	vịnh	
+1	341	lagoon	vũng; phá	
+1	342	reef	d̄á ngầm	
+1	343	headland, point	mũi d̄ất; doi d̄ất	
+1	352	tide	thuʔy triều	
+1	353	lowtide	triều thuʔy thập	
+1	354	hightide	triều thuʔy cao	
+1	360	river, stream, brook	sông; dòng; suối	
+1	362	whirlpool	xoáy nu'ó'c	
+1	370	spring, well	mạch nu'ó'c; dòng suối; nguồn; mạch nu'ó'c ngầm; suồi ngầm; giếng	
+1	380	swamp	lầy	
+1	390	waterfall	thác	
+1	410	woods, forest	rù'ng	
+1	420	tree (cf 08.600)	cây	
+1	430	wood	gỗ	
+1	440	stone, rock	d̄á taʔng	
+1	450	earthquake	d̄ộng d̄ất; d̄ịa chấn	
+1	510	sky	trò'i	
+1	520	sun	mặt trò'i	
+1	530	moon	trăng	
+1	540	star	sao	
+1	550	lightning	chó'p; sét	
+1	560	thunder	sấm; sấm sét	
+1	570	lightning (as striking)	tia chó'p	
+1	580	storm	bão	
+1	590	rainbow	cầu vồng	
+1	610	light (noun)	ánh sáng mặt trò'i	
+1	620	darkness	bóng tối	
+1	630	shade, shadow	bóng râm	
+1	640	dew	su'o'ng	
+1	710	air	không khí	
+1	720	wind	gió	
+1	730	cloud	mây	
+1	740	fog	su'o'ng mù	
+1	750	rain (noun)	mu'a; mu'a phùn	
+1	760	snow (noun)	tuyết	
+1	770	ice	băng; nu'ó'c d̄á	
+1	780	weather	thò'i tiết	
+1	810	fire	lu'ʔa	
+1	820	flame (noun)	ngọn lu'ʔa	
+1	830	smoke (noun)	khói; bồ hóng; muội	
+1	840	ashes	tro; tàn	
+1	841	embers	than hồng	
+1	851	burn (vb trans)	d̄ốt; thắp; làm cháy	
+1	852	burn (vb intrans)	cháy	
+1	860	light, kindle, ignite	châm; nhóm; dốt; bắt lu'ʔa	
+1	861	extinguish	tắt	
+1	870	match (noun)	diêm	
+1	880	firewood	cuʔi	
+1	890	charcoal	than cuʔi	
+2	100	person, human being	ngu'ò'i	
+2	210	man (vs. woman)	d̄àn ông	
+2	220	woman	d̄àn bà	
+2	230	male	nam; trai	
+2	240	female	nũ'; gái	
+2	250	boy	cậu bé	
+2	251	young man (adolescent)	thanh niên; chàng trai	
+2	260	girl	cô bé	
+2	261	young woman (adolescent)	cô gái; thanh nũ'	
+2	270	child	d̄ú'a con; d̄ú'a bé; d̄ú'a treʔ	
+2	280	infant, baby	treʔ tho'; treʔ so' sinh	
+2	310	husband	chồng	
+2	320	wife	vọ'	
+2	330	marry	lấy vọ'; lấy chồng; cu'ó'i	
+2	340	marriage, wedding	d̄ám cu'ó'i; kết hôn; lễ cu'ó'i; hôn lễ	
+2	341	divorce	ly hôn; ly dị	
+2	350	father	bố; cha	
+2	370	parents	bố mẹ; cha mẹ	
+2	380	married man	ngu'ò'i d̄àn ông có vọ'	
+2	390	married woman	ngu'ò'i d̄àn bà có chồng	
+2	410	son	con trai	
+2	420	daughter	con gái	
+2	430	offspring (son or daughter)	con cháu; ngu'ò'i hậu sinh; ngu'ò'i nó̂i dõi	
+2	444	older brother	anh	
+2	445	younger brother	em trai	
+2	454	older sister	chị	
+2	455	younger sister	em gái	
+2	456	sibling	ruột; anh ruột; em ruột; chị ruột; em ruột	
+2	458	twins	treʔ sinh d̄ôi	
+2	460	grandfather	ông; ông nội; ông ngoại	
+2	461	old man	ông già; cụ già	
+2	470	grandmother	bà; bà nội; bà ngoại	
+2	471	old woman	bà già	
+2	480	grandson	cháu trai	
+2	490	granddaughter	cháu gái	
+2	511	mother's brother	bác; cậu	
+2	512	father's brother	bác; chú	
+2	521	mother's sister	bác; cô	
+2	522	father's sister	bác; cô	
+2	530	nephew	cháu trai	
+2	540	niece	cháu gái	
+2	550	cousin	anh họ; anh họ; em họ; chị họ; em họ	
+2	560	ancestors	tôʔ tiên; ông bà	
+2	570	descendants	hâu thế; con cháu; dòng dõi	
+2	610	father-in-law (of a man)	bố chồng	
+2	611	father-in-law (of a woman)	bố vọ'	
+2	620	mother-in-law (of a man)	mẹ chồng	
+2	621	mother-in-law (of a woman)	mɛ.6 vọ'	
+2	630	son-in-law (of a man)	rêʔ	
+2	631	son-in-law (of a woman)	rêʔ; anh rêʔ; em rêʔ	
+2	640	daughter-in-law (of a man)	dâu	
+2	641	daughter-in-law (of a woman)	dâu; chị dâu	
+2	710	stepfather	bố du'ọ'ng; bố gheʔ	
+2	720	stepmother	mẹ kế; mẹ gheʔ	
+2	730	stepson	con trai riêng	
+2	740	stepdaughter	con gái riêng	
+2	750	orphan	trʔ mồ côi	
+2	760	widow	ngu'ò'i góa vọ'	
+2	770	widower	ngu'ò'i góa chồng	
+2	810	relatives, kinsmen	họ hàng	
+2	820	family	gia d̄ình	
+2	910	I	tôi	
+2	920	you (singular)	mày; anh; chị	
+2	930	he/she/it	nó; anh ấy; chị ấy	
+2	941	we (inclusive)	chúng ta	
+2	942	we (exclusive)	chúng tôi	
+2	950	you (plural)	các anh	
+2	960	they	chúng nó; hai d̄ú'a chúng nó	
+3	110	animal	súc vật	
+3	120	male (adj)	d̄ụ'c; trống	
+3	130	female (adj)	cái; mái	
+3	150	livestock	gia súc	
+3	160	pasture	cánh d̄ồng coʔ; bãi coʔ	
+3	180	herdsman	ngu'ò'i chăn	
+3	190	stable, stall	chuò̂ng	
+3	200	cattle (bovine)	trâu bò	
+3	210	bull	trâu d̄ụ'c; bò d̄ụ'c	
+3	220	ox	bò d̄ụ'c	
+3	230	cow	bò cái	
+3	240	calf	bê	
+3	250	sheep	cù'u	
+3	260	ram	cù'u d̄ụ'c	
+3	280	ewe	cù'u cái	
+3	290	lamb	cù'u con	
+3	320	boar	lọ'n d̄ụ'c; lọ'n rù'ng	
+3	340	sow (2)	lọ'n cái	
+3	350	pig	lọ'n con	
+3	360	goat	dê	
+3	370	he-goat	dê d̄ụ'c	
+3	380	kid	dê con	
+3	410	horse (equine)	ngụ'a	
+3	420	stallion	ngụ'a d̄ụ'c	
+3	440	mare	ngụ'a cái	
+3	450	foal, colt	ngụ'a con	
+3	460	ass, donkey	lù'a	
+3	470	mule	la	
+3	500	fowl	gia cầm	
+3	520	cock, rooster	gà trống	
+3	540	hen	gà mái	
+3	550	chicken	gà con	
+3	560	goose	ngỗng	
+3	570	duck	vịt	
+3	580	nest	tôʔ; ôʔ	
+3	581	bird	chim	
+3	582	seagull	haʔi âu	
+3	583	heron	cò	
+3	584	eagle	d̄ại bàng	
+3	585	hawk	diều hâu	
+3	586	vulture	kền kền	
+3	591	bat	do'i	
+3	592	parrot	vẹt	
+3	593	crow	quạ	
+3	594	dove	bồ câu	
+3	596	owl	cú	
+3	610	dog	chó	
+3	614	rabbit	thoʔ	
+3	620	cat	mèo	
+3	622	opossum	chuọʌt túi	
+3	630	mouse, rat	chuột	
+3	650	fish	cá	
+3	652	fin (dorsal)	vây	
+3	653	fishscale	vaʔy	
+3	654	gill	mang	
+3	655	shell	voʔ; mai	
+3	661	shark	cá mập	
+3	662	porpoise, dolphin	cá heo	
+3	663	whale	cá voi	
+3	664	stingray	cá ḍuó̂i	
+3	665	freshwater eel	lu'o'n; cá chình	
+3	710	wolf	sói	
+3	720	lion	su' tu'ʔ	
+3	730	bear	gấu	
+3	740	fox	cáo; chồn	
+3	750	deer	hu'o'u; nai	
+3	760	monkey	khiʔ; vu'ọ'n; d̄u'ò'i u'o'i	
+3	770	elephant	voi	
+3	780	camel	lạc d̄à	
+3	810	insect	sâu	
+3	811	louse	chấy; rận	
+3	812	nit (louse egg)	trú'ng chấy	
+3	813	flea	bọ chép	
+3	814	centipede	rết	
+3	815	scorpion	bọ cạp	
+3	816	cockroach	gián	
+3	817	ant	kiến; kiến lu'ʔa	
+3	818	spider	nhện	
+3	819	spider web	mạng nhện	
+3	820	bee	ong	
+3	821	beeswax	sáp	
+3	822	beehive	tôʔ ong	
+3	823	wasp	ong vẽ; ong bắp cày	
+3	830	fly	ruò̂i; mòng; ruồi trâu	
+3	831	sandfly (midge), gnat	dĩn	
+3	832	mosquito	muỗi	
+3	840	worm	giun	
+3	850	snake	rắn	
+3	910	firefly	d̄om d̄óm	
+3	920	butterfly	bu'ó'm	
+3	930	grasshopper	cào cào; châu chấu	
+3	940	snail	óʌc	
+3	950	frog	é̂ch; nhái; cóc	
+3	960	lizard	thằn lằn	
+3	970	crocodile, alligator	cá sấu	
+3	980	turtle	rùa; ba ba	
+4	110	body	thân thêʔ	
+4	120	skin, hide	da	
+4	130	flesh	thịt	
+4	140	hair (head)	tóc	
+4	142	beard	râu	
+4	144	body hair	lông	
+4	145	pubic hair	lông lồn	
+4	146	dandruff	gầu	
+4	150	blood	máu	
+4	151	vein, artery	mạch	
+4	160	bone	xu'o'ng	
+4	162	rib	xu'o'ng su'ò'n	
+4	170	horn	sù'ng	
+4	180	tail	d̄uôi	
+4	190	back	lu'ng	
+4	191	spine	xu'o'ng só̂ng	
+4	200	head	d̄à̂u	
+4	201	side of head, temple	thái du'o'ng	
+4	202	skull	sọ	
+4	203	brain	óc; não	
+4	204	face	mặt	
+4	205	forehead	trán	
+4	207	jaw	hàm	
+4	208	cheek	má	
+4	209	chin	cằm	
+4	215	blink	chó'p	
+4	220	ear	tai	
+4	221	earlobe	la.24 sa:j.33	
+4	241	beak	moʔ	
+4	270	tooth	răng; răng nanh	
+4	312	armpit	nách	
+4	374	footprint	vết bàn chân	
+4	392	wing	cánh	
+4	410	breast (of woman)	vú	
+4	461	intestines, guts	ruột	
+4	463	hip	hông; háng	
+4	560	spit	nu'o'́t bọt; nu'o'́c rãi; nu'o'́c miếng	
+4	620	dream	chiêm bao; mo' thấy; nằm thấy	
+4	660	defecate	d̄ại tiện	
+4	680	shiver	run; rung	
+4	730	pregnant	có thai; có mang	
+4	732	conceive	chu'ʔa	
+4	750	die, dead	mất; khuât	
+4	751	drowned	chết d̄uối; chết chìm	
+4	780	bury (the dead)	chôn; mai táng	
+4	790	grave, tomb	mộ; maʔ	
+4	853	swelling	u	
+4	854	itch	ngu'́a	
+4	860	cure, heal	trị bệnh	
+4	870	physician	thầy thuốc	
+4	880	medicine, drug	thuốc; du'o'̣c phâʔm	
+4	910	tired, weary	mệt; moʔi	
+4	912	rest	tĩnh d̄u'o'̀ng	
+4	940	lame	khập khiễng	
+4	990	naked, bare	truồng	
+5	121	cooked	luộc chín	
+5	122	raw	chu'a chín	
+5	125	rotten	thối; u'o'n; thìu; ôi	
+5	230	roast, fry	quay; chiên; nu'ó'ng; rán	
+5	240	bake	nu'ó'ng	
+5	320	plate	diã	
+5	340	pitcher, jug	vò; chum	
+5	360	saucer	d̄iã lót chén	
+5	460	peel	lột; bóc	
+5	470	sieve, strain	giần; sàng; rây	
+5	490	stir, mix	trộn lẫn; pha trộn	
+5	560	crush, grind	xay; nghiền; tán; giã nát	
+5	770	nut	hột; trái cây	
+6	250	silk	to'; lụa	
+6	320	spindle	thoi	
+6	330	weave	dệt; d̄an	
+6	710	ornament, adornment	trang trí; d̄ồ trang sú'c	
+6	921	braid	tết; bện	
+7	110	dwell, live	sống; o'ʔ	
+7	130	hut	nhà sàn; chòi	
+7	210	room	gian	
+7	220	door, gate	côʔng	
+7	231	latch, door-bolt	cho'́t cu'ʔa; then cu'ʔa	
+7	270	wall	tu'o'̀ng; vách	
+7	510	roof	mái	
+7	560	post, pole	sào; cọc; cột; trụ	
+8	150	cultivate, till	cày cấy; trồng trọt	
+8	170	ditch	hào; mu'o'ng; rãnh	
+8	330	sickle, scythe	liềm	
+8	340	thresh	tuốt	
+8	420	grain (barley, oats etc)	hạt	
+8	691	pipe	ồng d̄iếu	
+8	912	yam	cuʔ nâu; cuʔ mài	
+8	940	bamboo	giang; trúc; vầu; nu'́a	
+9	150	fold	gập; gấp	
+9	160	tie, bind	trói	
+9	180	chain	cái xích; xích	
+9	222	chop, hew	bôʔ; chặt; băm; cheʔ; chém; phát; xắt	
+9	260	break	beʔ; gẫy; võ'; rách; d̄u'́t	
+9	270	split	cheʔ; bôʔ	
+9	280	tear	xé; rách	
+9	290	flay, skin	bóc; gọt	
+9	310	rub, wipe	cọ; vò; xoa; chùi	
+9	320	stretch	kéo dài; căng; nong	
+9	330	pull	kéo; lôi	
+9	340	spread out	d̄ang ra	
+9	342	press	ấn; kẹp; d̄è	
+9	350	pour	d̄ôʔ; rót	
+9	360	wash	ru'ʔa; ru'ʔa bát	
+9	461	hollow out	d̄ục; d̄ục lỗ; d̄ục khoét	
+9	560	glue	keo; hồ	
+9	630	cast (metals)	d̄ôʔ khuôn	
+9	740	glass	kính; thuʔy tinh	
+9	760	basket	thúng; rôʔ; gioʔ; gùi; nia	
+9	890	paint (vb)	vẽ; so'n	
+10	110	move	d̄i chuyêʔn; cu'ʔ d̄ộng	
+10	120	turn over	lật sấp; lật nhào	
+10	140	wind, wrap	gói; quấn; bọc	
+10	160	drop (vb)	ro'i; nhoʔ giọt	
+10	170	twist	xoắn; vặn; bện; xe	
+10	210	rise	lên; bốc lên; mọc; dậy; d̄u'́ng lên	
+10	220	raise, lift	nâng; d̄u'a lên	
+10	230	fall	ro'i; ngã	
+10	252	catch (ball)	bắt; hú'ng	
+10	260	shake	lắc; rung	
+10	410	creep, crawl	bò; tru'ò'n	
+10	413	crouch	cúi xuống; d̄ú'ng co ro	
+10	450	walk	d̄i dạo; dạo	
+10	451	limp	di khập khiễng	
+10	472	climb	trèo; leo	
+10	481	come back	về; quay về	
+10	490	go away, depart	d̄i khoʔi; ra d̄i	
+10	550	reach, arrive	d̄ến; to'́i	
+10	610	carry (bear)	mang; d̄em	
+10	670	push, shove	xô	
+10	920	land (vb)	dậu	
+11	140	seize, grasp	vồ; bắt	
+11	150	hold	cầm; nắm; giũ'	
+11	160	get, obtain	d̄u'ọ'c; nhận	
+11	180	thing	dồ	
+11	210	give	cho; d̄u'a	
+11	240	preserve, look after	giũ'; trông nom	
+11	280	harm, injure, damage	làm hoʔng	
+11	540	avaricious, stingy	tham lam; keo kiệt	
+11	620	borrow	vay; mu'ọ'n	
+11	780	wages	tiền công; tiền lu'o'ng	
+11	910	share (distribute)	phân phát; chia	
+12	160	remain, stay	còn lại	
+12	210	collect, gather	gom; thu thập	
+12	212	pick up	hái quaʔ	
+12	220	join, unite	nối; chắp; ghép	
+12	230	separate	tách ra; chia ra	
+12	260	cover	d̄ắp; phuʔ	
+12	330	top	phần trên; d̄ầu; ngọn	
+12	340	bottom	phần du'ó'; d̄áy	
+12	350	end	kết thúc	
+12	530	grow	mọc; ló'n lên	
+12	540	measure	d̄o; d̄ong	
+12	560	small, little	nhoʔ	
+12	670	deep	sâu	
+12	680	shallow	nông; cạn	
+12	740	crooked	oằn	
+13	160	more	ló'n ho'n; thêm	
+13	180	enough	duʔ	
+13	181	some	mấy; một ít; một tí; một số	
+13	190	multitude, crowd	d̄ám d̄ông	
+13	220	empty	rỗng	
+13	230	part, piece	bộ phận	
+13	330	alone, only	một mình; d̄o'n d̄ộc; cô d̄o'n; chiʔ có một	
+14	110	time	thò'i gian; thì giò'	
+14	190	immediately	ngay; lập tú'c	
+14	210	swift, fast, quick	nhanh; mau	
+14	252	last, endure	tiếp tục; kéo d̄ài	
+14	260	end (temporal)	kết thúc; hết	
+14	270	finish	xong; hết	
+14	310	always	lúc nào cũng; luôn luôn	
+14	320	often	thu'o'̀ng; hay	
+14	350	again	lại; nũ'a; một lần nu'̃a	
+14	430	dawn	bình minh	
+14	780	season	mùa; vụ mùa	
+15	212	sniff	ngu'ʔi; hít; d̄ánh ho'i	
+15	220	smell (vb trans)	ngu'ʔi thấy; d̄ánh ho'i thấy	
+15	390	brackish	lọ'	
+15	450	loud	to; vang	
+15	460	quiet, silence	khẽ; nhoʔ	
+15	520	look, look at	nhìn; xem; trông	
+15	630	dark (in color)	sẫm	
+15	760	rough	gồ ghề; xù xì	
+15	790	blunt, dull	cùn; nhụt	
+15	840	dry	khô; ráo	
+15	860	cold	lạnh; nguội	
+16	180	good fortune, luck	may; hạnh phúc	
+16	230	joyful, glad, happy	vui su'o'ng; vui veʔ; vui mù'ng	
+16	340	regret, be sorry	thu'o'ng tiếc; hối tiếc	
+16	450	shame (noun)	tuʔi hôʔ	
+16	480	proud	tụ' hào; hãnh diện	
+16	520	brave	can d̄aʔm; gan dạ	
+16	660	true	d̄úng; có thật	
+16	740	wrong	không d̄úng; sai	
+16	760	fault	lỗi; tội	
+16	780	blame	khiêʔn trách	
+16	830	greedy	tham an	
+17	140	think (= be of the opinion)	suy sét	
+17	172	imitate	bất chu'o'́c; mô phoʔng	
+17	180	seem	xem nhu'; hình nhu'; du'ò'ng nhu'	
+17	190	idea, notion	khái niệm; ý kiến	
+17	220	foolish, stupid	d̄iên	
+17	230	insane, crazy	mất trí	
+17	242	study	học; nghiên cu'́u	
+17	280	school	tru'o'̀ng phôʔ thông	
+17	340	clear, plain	dễ hiêʔu	
+17	350	obscure	tối tăm; khó hiêʔu	
+17	360	secret	kín; bí mật	
+17	370	sure, certain	thật	
+17	430	doubt	chu'a chắc; nghi ngo'̀	
+17	440	suspect	nghi ngò'; d̄oán phoʔng	
+17	470	difficult	khó tíng	
+17	480	try, attempt	cố gắng	
+17	550	yes, affirmative	u'̀	
+17	560	no, negative	d̄á	
+17	620	how many?	mấy; bao nhiêu	
+17	630	how much?	bao nhiêu	
+17	690	why?	vì sao; tại sao	
+18	160	mumble	lâʔm nhâʔm	
+18	210	speak, talk	nói chuyện	
+18	320	answer	traʔ lò'; d̄áp lò'; nhận	
+18	330	admit, confess	thú nhận	
+18	350	ask, request	xin; yêu cầu; d̄òi hoʔi	
+18	360	promise	hẹn; hu'́a	
+18	420	call (=name)	d̄ặt tên; gọi	
+19	170	boundary	ranh gió'i; biên gió'i	
+19	240	chief, chieftain	thuʔ lình; tù tru'o'ʔng	
+19	430	servant	d̄ầy to'́; ngu'o'̀i o'ʔ	
+19	470	let, permit	cho phép; d̄u'o'̣c pgép; d̄êʔ cho	
+19	590	hinder, prevent	caʔn; ngăn caʔn; ngăn chặn	
+19	720	prostitute	d̄ĩ; gái d̄iếm	
+20	110	fight (vb)	d̄ấu tranh; chiến d̄ấu	
+20	170	soldier	nhu'o'̀i lính	
+20	260	spear	giáo; thu'o'ng	
+20	270	sword	gu'o'm; kiếm	
+20	420	defeat	d̄ánh bại; thua	
+20	490	ambush	mau phục; phục kích	
+20	630	miss (target)	không trúng d̄ích; tru'o'̣t	
+21	110	law	luật	
+21	460	arson	cốý d̄ốt; d̄ốt	
+21	470	perjury	lò'i thề giaʔ; dối	
+21	520	thief	keʔ cu'o'́p	
+22	120	God	thần	
+22	240	curse	chu'ʔi ruʔa	
+22	470	omen, portent	mầ nhiệm	

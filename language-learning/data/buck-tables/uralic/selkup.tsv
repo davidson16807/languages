@@ -1,0 +1,1009 @@
+chapter_id	entry_id	meaning	Selkup_Phonemic	comment
+1	100	world	mir̃	
+1	210	earth, land	təttɨ	
+1	212	earth=ground, soil	čʸu	
+1	213	dust	tuspo	
+1	214	mud	tam	
+1	215	sand	ḳor̃a	
+1	220	mountain, hill	maḳḳa; ḳə	
+1	230	plain, field	nur̃ḳɨlʸ təttɨ	
+1	250	island	mar̃kɨ	
+1	270	shore	ḳanɨk	
+1	310	water	üt	
+1	320	sea	mor̃æ; čʸɔntɨs	
+1	322	calm (of sea)	sümɨkɨtɨlʸ	
+1	323	rough (of sea)	sümɨsɨmɨlʸ	
+1	324	foam	šʸi	
+1	330	lake	to	
+1	340	gulf, bay	ḳalsɨ	Refers to a 'gulf on a river'.
+1	343	headland, point	soḳḳɨ; soḳ	
+1	350	wave	ḳɔmpɨ	
+1	360	river, stream, brook	ḳoltɨ; kɨ; kɩkæ	
+1	362	whirlpool	pur̃ɨlʸta; küŋɨlʸ kolʸa	
+1	370	spring, well	ɔtɨr̃; tɛr̃ɨ	
+1	380	swamp	nʸar̃ɨ; lɨmpæ	
+1	410	woods, forest	mačʸɨ; sæḳḳɨ	
+1	420	tree (cf 08.600)	po	
+1	430	wood	po	
+1	440	stone, rock	pü	
+1	510	sky	nom	
+1	520	sun	čʸelɨ	
+1	530	moon	ir̃ætɨ	
+1	540	star	ḳišʸḳæ	
+1	550	lightning	nuttü	
+1	560	thunder	ḳɔn	
+1	570	lightning (as striking)	nuttü	
+1	580	storm	pusḳa; mɛr̃ḳɨlʸpalʸčʸa	
+1	590	rainbow	nuttaŋkɨ; ḳɔttaŋkɨ	
+1	610	light (noun)	čʸelɨ	
+1	620	darkness	lɨpɨḳ	
+1	630	shade, shadow	ḳɛtɨ; tika	
+1	640	dew	čʸaptɨn üt	
+1	710	air	nut kɛy	
+1	720	wind	mær̃ḳɨ	
+1	730	cloud	nulʸ mar̃ḳɨ; tɩnolɨ	
+1	740	fog	čʸaptɨ	
+1	750	rain (noun)	sor̃ɨntæ	
+1	760	snow (noun)	sɨr̃ɨ	
+1	770	ice	ulḳa	
+1	780	weather	čʸelɨ	
+1	810	fire	tü	
+1	820	flame (noun)	tüšʸe	
+1	830	smoke (noun)	pur̃ḳɨ	
+1	840	ashes	šʸimɨ	
+1	841	embers	sičʸillakalʸa	
+1	851	burn (vb trans)	čʸotɨḳo	
+1	852	burn (vb intrans)	čʸɔpɨḳo	
+1	860	light, kindle, ignite	ačʸaltɨḳo	
+1	861	extinguish	ḳaptɨḳo	
+1	870	match (noun)	soypo; solʸpo	
+1	880	firewood	po	
+1	890	charcoal	polʸ sičʸi	
+2	100	person, human being	ḳum; ḳup	
+2	210	man (vs. woman)	ir̃a; ḳum; ḳumɨlʸ ḳum	
+2	220	woman	ima; imalʸ ḳum	
+2	230	male	ir̃alʸ	
+2	240	female	imalʸ	
+2	250	boy	iya	
+2	251	young man (adolescent)	ilʸmatɨlʸ ḳum	
+2	260	girl	nætælʸa; nætæk	
+2	261	young woman (adolescent)	nætæk; nætællaka	
+2	270	child	iya	
+2	280	infant, baby	iyalʸa	
+2	310	husband	ir̃atɨ	
+2	320	wife	imatɨ	
+2	330	marry	imaŋḳo; ir̃aŋḳo	
+2	350	father	əsɨ	
+2	360	mother	əmɨ	
+2	370	parents	əssɨitɨ	
+2	380	married man	imasɨmɨlʸ	
+2	390	married woman	ir̃asɨmɨlʸ	
+2	410	son	iya; iyatɨ	
+2	420	daughter	nælʸa	
+2	440	brother	tɩmnʸa	
+2	444	older brother	mɛr̃ḳɨ tɩmnʸa	
+2	445	younger brother	kɨpa tɩmnʸa	
+2	450	sister	nenʸnʸa	
+2	454	older sister	mɛr̃ḳɨ nenʸnʸa	
+2	455	younger sister	kɨpa nenʸnʸa	
+2	456	sibling	tɛtɨčʸalʸ tɩmnʸa; tɛtɨčʸalʸ nenʸnʸa	
+2	458	twins	šʸittæḳɩlʸ	
+2	460	grandfather	ilʸčʸa	
+2	461	old man	ir̃a; ir̃aḳota; ir̃alɩpɨ	
+2	470	grandmother	imɨlʸa	
+2	471	old woman	imaḳota; imaḳotalɩpɨ	
+2	480	grandson	kətsan	
+2	490	granddaughter	kətsan	
+2	510	uncle	ilʸčʸa	
+2	511	mother's brother	tɩtæ; ilʸčʸa	Respectively: younger uncle of mother's side; older uncle of mother's side.; Respectively: younger uncle of mother's side; older uncle of mother's side.
+2	512	father's brother	tɩmnʸa; ilʸčʸa	Respectively: younger uncle of father's side; older uncle of father's side.; Respectively: younger uncle of father's side; older uncle of father's side.
+2	520	aunt	imɨlʸa	
+2	521	mother's sister	onʸa; imɨlʸa	Respectively: younger aunt of mother's side; older aunt of mother's side.; Respectively: younger aunt of mother's side; older aunt of mother's side.
+2	522	father's sister	nenʸnʸa; imɨlʸa	Respectively: younger aunt of father's side; older aunt of father's side; Respectively: younger aunt of father's side; older aunt of father's side
+2	530	nephew	kətsan	Means 'younger nephew'.
+2	540	niece	kətsan	Means 'younger niece'.
+2	610	father-in-law (of a man)	əsɨlʸir̃a; ilʸčʸa; ḳənir̃a	
+2	611	father-in-law (of a woman)	ḳənir̃a	
+2	620	mother-in-law (of a man)	əmɨlʸima; imɨlʸa; imɨlʸalʸ ima	
+2	621	mother-in-law (of a woman)	imɨlʸalʸ ima	
+2	630	son-in-law (of a man)	kər̃mæ; ḳənɨk; šʸelɨ	Respectively: older son-in-law; younger son-in-law; younger son-in-law.; Respectively: older son-in-law; younger son-in-law; younger son-in-law.; Respectively: older son-in-law; younger son-in-law; younger son-in-law.
+2	631	son-in-law (of a woman)	šʸelɨ	
+2	640	daughter-in-law (of a man)	æmnæ	
+2	641	daughter-in-law (of a woman)	æmnæ	
+2	710	stepfather	əsɨku; apaku	
+2	720	stepmother	əmɨku	
+2	730	stepson	iyaku	
+2	740	stepdaughter	nælʸaku	
+2	750	orphan	čʸilʸalʸ	
+2	760	widow	ir̃akɨtɨlʸ ima	
+2	770	widower	imakɨtɨlʸ ir̃a	
+2	810	relatives, kinsmen	tɛtɨčʸa	
+2	820	family	iyalʸ mɔt; ḳumɨlʸ mɔt	
+2	910	I	man; mat	
+2	920	you (singular)	tan; tat	
+2	930	he/she/it	təp; təm	
+2	940	we	me	
+2	950	you (plural)	tɛ	
+2	960	they	təpɨn; təpɨt	
+3	110	animal	sur̃ɨm	
+3	120	male (adj)	ḳor̃ɨ	Refers to an animal with male identity: bull, stag.
+3	130	female (adj)	čʸektɨ	Means 'female deer'.
+3	150	livestock	mɔtḳɨlʸ sur̃ɨlʸ mɨ	
+3	160	pasture	up	
+3	180	herdsman	ɔttɨntɨtɨy ḳum	
+3	190	stable, stall	sur̃ɨlʸ mɔt	
+3	200	cattle (bovine)	mɔtḳɨlʸ sur̃ɨlʸ mɨ	
+3	210	bull	ḳor̃ɨ	Refers to an animal with male identity: bull, stag.
+3	230	cow	sɨr̃ɨ	
+3	240	calf	tor̃nʸak	
+3	340	sow (2)	sɨpɨnʸčʸa	
+3	410	horse (equine)	čʸuntɨ	
+3	560	goose	töka	
+3	570	duck	šʸipa	
+3	580	nest	pitɨ; sur̃ɨlʸ pitɨ	
+3	581	bird	sur̃ɨm	
+3	582	seagull	ḳalʸlik	
+3	584	eagle	lɩmpɨ	
+3	585	hawk	muntaya	
+3	593	crow	ḳər̃æ	
+3	596	owl	piya	
+3	610	dog	kanak	
+3	614	rabbit	nʸoma	
+3	620	cat	koška	
+3	630	mouse, rat	tama; mɛr̃ḳɨ tama	Respectively: mouse; rat.; Respectively: mouse; rat.
+3	650	fish	ḳəlɨ	
+3	653	fishscale	lünʸčʸɨ	
+3	654	gill	tɔr̃	
+3	655	shell	kɛna	
+3	710	wolf	ɔtælʸ amɨr̃ɨlʸ sur̃ɨm; čʸumpɨna; talʸčʸɨsɨmɨlʸ	
+3	730	bear	ḳor̃ḳɨ	
+3	740	fox	loḳa	
+3	750	deer	ɔtæ	
+3	810	insect	tuk	
+3	811	louse	untɨ	
+3	812	nit (louse egg)	tur̃æ	
+3	817	ant	kɨta	
+3	818	spider	otaya; poḳḳɨlʸ kota	
+3	819	spider web	otayat poḳḳɨ	
+3	820	bee	loḳæ	
+3	823	wasp	loḳæ	
+3	830	fly	tɨpæ	
+3	831	sandfly (midge), gnat	nɩmɨr̃æ	
+3	832	mosquito	nɛnɨḳa	
+3	840	worm	tuk; neni	Respectively: worm; earthworm.; Respectively: worm; earthworm.
+3	850	snake	šʸü	
+3	920	butterfly	lontɨr̃æ	
+3	940	snail	kɛna	
+3	950	frog	tɔmtæ	
+3	960	lizard	tüšʸi	
+4	110	body	kəpɨ	
+4	120	skin, hide	ḳopɨ	
+4	130	flesh	məčʸɨ; wəčʸɨ	
+4	140	hair (head)	optɨ	
+4	142	beard	untɨlʸ ukɨ	
+4	150	blood	kəm	
+4	160	bone	lə	
+4	162	rib	ḳötɨ	
+4	170	horn	ɔmtɨ	
+4	180	tail	talʸčʸɨ	
+4	190	back	moḳal	
+4	191	spine	moḳalɨlʸ lə	
+4	200	head	olɨ	
+4	202	skull	olɨllaka	
+4	203	brain	ḳümɨ	
+4	204	face	wəntɨ; məntɨ	
+4	205	forehead	ḳɔt	
+4	207	jaw	ɔḳɨlə; tɩmɨllaka	
+4	208	cheek	putɨl	
+4	209	chin	peptælʸ	
+4	210	eye	sayɨ	
+4	212	eyebrow	sayɨn üntɨlʸ tar̃	
+4	213	eyelid	sayɨn ḳanɨk	
+4	214	eyelash	sayɨt tar̃	
+4	220	ear	üŋkɨma; ḳo	
+4	221	earlobe	üŋkɨma pɔr̃ɨ	
+4	230	nose	ɨntælʸ	
+4	231	nostril	ɨntælʸ mü	
+4	232	mucus (nasal)	ɨntælʸ üt	
+4	240	mouth	ɔŋ; ɔk	
+4	241	beak	ukɨ	
+4	250	lip	ɔŋɨttop	
+4	260	tongue	šʸe	
+4	270	tooth	tɩmɨ	
+4	271	gums	tɩmɨn kontɨ	
+4	280	neck	tɔšʸan	
+4	281	nape of neck	šʸuk	
+4	290	throat	soy	
+4	300	shoulder	ḳəḳpɔr̃ɨ; ḳəḳ	
+4	301	shoulderblade	šʸütɨkotɨ	
+4	310	arm	utɨ	
+4	312	armpit	ḳɔlɨnʸ	
+4	320	elbow	sɨŋtæt	
+4	330	hand	utɨ	
+4	331	palm of hand	utɨt šʸe	
+4	340	finger	munɨ	
+4	342	thumb	ḳɔḳal	
+4	344	fingernail	ḳatɨ	
+4	345	claw	ḳatɨ	
+4	350	leg	topɨ	
+4	351	thigh	nælɨ	
+4	360	knee	pulɨ	
+4	370	foot	topɨ; topɨn olɨ	
+4	371	ankle	kəčʸɨ	
+4	372	heel	lakčʸɨn	
+4	374	footprint	topɨn mɛttɨ	
+4	380	toe	munɨ	
+4	392	wing	kola	
+4	393	feather	tu	
+4	400	chest	kɨlɨ	
+4	410	breast (of woman)	kɨlɨ	
+4	420	udder	nima	
+4	430	navel	šʸönʸ	
+4	440	heart	sɩčʸɨ	
+4	441	lung	pɨkšʸa	
+4	450	liver	mɨtɨ	
+4	451	kidney	kalpanʸ	
+4	452	spleen	pitɨr̃sa	
+4	460	stomach	sɨlʸ mɨtɨ	
+4	461	intestines, guts	putɨ	
+4	462	waist	ḳəḳ; ḳəḳpɔr̃n	
+4	463	hip	pælɨ	
+4	464	buttocks	tas	
+4	470	womb	pučʸɨ; pučʸɨllaka	
+4	490	testicle	ɛŋ	
+4	492	penis	manɨ	
+4	510	breathe, breath	kɛyɨ	
+4	520	yawn, gape	ɔŋŋɨmpɨḳo	
+4	521	hiccough	polɨḳo; niḳtɨḳo	
+4	530	cough	ḳotar̃ḳo	
+4	540	sneeze	šʸiḳɨr̃ḳo; ḳɔttɨmpɨḳo	
+4	550	perspire	nelʸčʸikɨḳo	
+4	560	spit	sösɨmpɨḳo	
+4	570	vomit	tötkɨḳo	
+4	580	bite	satalḳo	
+4	590	lick	nʸuḳo	
+4	591	dribble	čʸapɨmpɨḳo	
+4	610	sleep	ḳontɨḳo	
+4	612	snore	r̃ɨḳɨmpɨḳo	
+4	620	dream	kütæptɨḳo	
+4	630	wake up	šʸitɨḳo	
+4	650	urinate	püsuḳo	
+4	660	defecate	tüt	
+4	670	have sexual intercourse	ɛtɨḳo	
+4	680	shiver	tar̃ɨmpɨḳo	
+4	690	bathe	musɨltɨḳo	
+4	710	beget (of father)	ḳoḳo; ḳokkɨḳo	
+4	720	born (to be)	čʸelɨŋḳo	
+4	730	pregnant	pær̃ḳɨsɨmɨlʸ	
+4	732	conceive	iyasæ ɛḳo	
+4	740	live, living, life	ilɨḳo; ilɨptæ	Respectively: live; life.; Respectively: live; life.
+4	750	die, dead	ḳuḳo; ilɨptækɨtɨlʸ; ḳupɨlʸ	
+4	751	drowned	ütḳɨn ḳupɨlʸ	
+4	760	kill	ḳətḳo	
+4	770	corpse	čʸapsɨt	
+4	780	bury (the dead)	ɩllæ meḳo	
+4	790	grave, tomb	lattar̃ čʸɔtp kečʸɨ	
+4	810	strong, mighty, powerful	or̃sɨmɨlʸ	
+4	820	weak	or̃kɨtɨlʸ; ɔlɨŋɨlʸ	
+4	830	well, health	mušʸkɨtɨlʸ; ḳütɨkɨtɨlʸ	
+4	840	sick, sickness	ḳütɨntɨy; ḳütɨ	
+4	850	wound, sore	kɨr̃	
+4	856	boil (noun)	pən	
+4	857	pus	tɛ	
+4	860	cure, heal	lečʸɨŋḳo	
+4	870	physician	lekkar̃	
+4	880	medicine, drug	lekar̃salʸmɨ	
+4	910	tired, weary	nunɨčʸɨpɨlʸ	
+4	912	rest	nišʸḳɨlḳo	
+4	920	lazy	ɨŋkalta	
+4	930	bald	optɨkɨtɨlʸ	
+4	940	lame	ḳur̃alʸ; nʸor̃ḳalʸ	
+4	950	deaf	ḳokɨta; ḳokɨtɨlʸ	
+4	960	mute	ətɨkɨta; ətɨkɨtɨlʸ	
+4	970	blind	sayɨkɨta; sayɨkɨtɨlʸ	
+4	980	intoxicated	ütɨmpɨlʸ ḳum	
+4	990	naked, bare	nʸaŋɨčʸalʸ; nʸaŋɨčʸa	
+5	110	eat	amɨr̃ḳo	
+5	120	food	apsɨ	
+5	121	cooked	mušʸɨr̃ɨpɨlʸ	
+5	122	raw	čʸentalʸ	
+5	123	ripe	sočʸɨmpɨlʸ	
+5	124	green, unripe	ašʸšʸa sočʸɨmpɨlʸ	
+5	125	rotten	tɛpɨlʸ	
+5	130	drink	ütɨr̃ḳo	
+5	140	hunger	amna	
+5	141	famine	amna	
+5	150	thirst	pakkɨmɔtka	
+5	160	suck	nimḳo	
+5	180	chew	tutalḳo	
+5	181	swallow	polɨḳo	
+5	190	choke	ɨpḳɨlḳo; ɨpaḳo	Respectively: frequentative; momentaneous verb; Respectively: frequentative; momentaneous verb
+5	210	cook	mušʸɨr̃ɨḳo	
+5	220	boil (vb)	mušʸɨr̃ɨḳo	
+5	230	roast, fry	pir̃ɨḳo	
+5	240	bake	pir̃ɨḳo	
+5	250	oven	šʸoḳɨr̃	
+5	270	kettle	čʸi	
+5	320	plate	amɨr̃sa; tor̃ḳɨ	
+5	330	bowl	amɨr̃sa; tor̃ḳɨ	
+5	340	pitcher, jug	pakal	
+5	350	cup, drinking vessel	amɨr̃sa; tor̃ḳɨ; čʸɔšʸka	
+5	360	saucer	čʸɔšʸkan ɨlɨ	
+5	370	spoon	solak	
+5	380	knife (2)	paŋɨ	
+5	391	tongs	tɨšʸšʸan	
+5	410	meal (a)	apsɨ	
+5	420	breakfast	čʸɔy	
+5	430	lunch	ḳar̃ɨlʸ apsɨ	
+5	440	dinner	čʸelɨlʸ apsɨ	
+5	450	supper	ütɨn apsɨ	
+5	460	peel	tɛšʸaŋḳo	
+5	480	scrape	natḳɨlḳo	
+5	490	stir, mix	kor̃pɨtḳo	
+5	510	bread	nʸanʸ; nʸay	
+5	540	knead	kor̃pɨtḳo	
+5	550	meal, flour	muka; por̃sa	Respectively: meal; meal from fish.; Respectively: meal; meal from fish.
+5	560	crush, grind	kɨpɛmtɨḳa	
+5	610	meat	məčʸɨ; wəčʸɨ	
+5	640	soup, broth	keni	
+5	700	potato	kar̃tofelʸ	
+5	770	nut	sɛtḳɨ	
+5	790	oil	ür̃	
+5	791	grease, fat	ür̃; čʸošʸ	
+5	810	salt	šʸæk; šʸæŋ	
+5	850	sugar	sɔkɨr̃	
+5	860	milk (noun)	nima	
+5	870	milk (vb)	par̃kɨlḳo; par̃kɛntɨḳo	
+5	890	butter	ür̃	
+5	920	wine	nʸar̃ḳɨ üt	
+5	970	egg	ɛŋ	
+6	110	put on (clothes)	tokaltɨḳo	
+6	120	clothing, clothes	por̃ḳɨ	
+6	130	tailor	šʸütɨr̃ɨpɨlʸ kum; šʸütɨr̃ɨpɨlʸ ima	
+6	210	cloth	ḳampiy; lɨptɨk; künʸčʸɨ; ḳɔtɨr̃	
+6	220	wool	tar̃ɨlʸ lɨptɨk	Means 'woolen cloth'.
+6	280	fur	sur̃ɨt ḳopɨ	
+6	290	leather	ḳopɨ	
+6	350	sew	šʸütɨr̃nḳo; šʸütḳo	
+6	360	needle	mɨka	
+6	370	awl	utɨlʸ pur̃	
+6	380	thread	šʸekɨ	
+6	390	dye	natḳɨlḳo; kr̃askasæ natḳɨlḳo	
+6	420	woman's dress	ḳalʸpor̃ḳɨ	
+6	440	shirt	ḳalʸpor̃ḳɨ	
+6	450	collar	solʸ ker̃ɨ	
+6	460	skirt	yupka	
+6	480	trousers	pümmɨ	
+6	490	stocking, sock	toka	
+6	510	shoe	pemɨ	
+6	520	boot	pemɨ	
+6	540	shoemaker, cobbler	pemɨlʸ šʸütɨr̃ɨpɨlʸ ḳum	
+6	550	hat, cap	ükɨ	
+6	570	belt, girdle	čʸü	
+6	580	glove	nopɨ	
+6	610	pocket	kar̃mat	
+6	620	button	muḳḳɨlʸa	
+6	710	ornament, adornment	nɛkɨr̃	
+6	720	jewel	mir̃sɨmɨlʸ	
+6	730	ring (for finger)	munkəsɨ	
+6	760	bead	püsalʸ ker̃	
+6	770	earring	ḳolʸ kəsɨ; ḳotɨ	
+6	780	headband, headdress	lenta	
+6	810	handkerchief, rag	kar̃matḳɨlʸ ḳampi; ḳampi	Respectively: handkerchief; rag.; Respectively: handkerchief; rag.
+6	820	towel	mučʸitɨlʸ ḳampi	
+6	910	comb	tiwsɨn	
+6	920	brush	šʸotka	
+6	921	braid	patḳɨlḳo	
+6	940	ointment	mɨtɨ	
+6	950	soap	mɔytak	
+6	960	mirror	zer̃kalo	
+7	110	dwell, live	ilɨḳo	
+7	120	house	mɔt	
+7	130	hut	čʸulʸ mɔt; mɔtlaka	
+7	150	yard, court	ɛtɨmantɨ	
+7	180	meeting house	nulʸ mɔt	
+7	220	door, gate	mɔta	
+7	230	lock (noun)	tama	
+7	250	window	okošʸka	
+7	260	floor	mɔtɨn ɨlɨ	
+7	270	wall	mɔt po	
+7	320	stove	šʸokɨr̃	
+7	330	chimney	tur̃pa	
+7	420	bed	tæḳašʸ	
+7	421	pillow	üŋalʸ kota; üŋalʸ	
+7	422	blanket	čʸontɨr̃sa	
+7	430	chair	ɔmtɨtɨlʸpo	
+7	440	table	tɔntɨpo	
+7	450	lamp, torch	lampa	
+7	470	shelf	polka	
+7	480	trough	pata	
+7	510	roof	mɔtɨpɔr̃ɨ	
+7	560	post, pole	mɔtɨko	
+7	570	board	tɔntɨpo	
+8	150	cultivate, till	pünkaltɨḳo	
+8	160	fence	kutalḳo	
+8	170	ditch	kečʸi	
+8	220	dig	tilɨḳo	
+8	240	shovel	lappo	
+8	320	mow, reap	pütɨḳo; pačʸɨtɨḳo	
+8	330	sickle, scythe	nʸutɨm pačʸɨtɨlʸ paŋɨ	
+8	510	grass	nʸutɨ	
+8	520	hay	tɛkɨr̃ɨpɨlʸ nʸutɨ	
+8	531	plant (vb)	omtɨltɨḳo	
+8	540	root	kontɨ	
+8	550	branch	mo	
+8	560	leaf	čʸɔpɨ	
+8	570	flower	sɨr̃ḳɨ	
+8	600	tree	po	
+8	630	birch	ḳæ	
+8	640	pine	čʸö	
+8	650	fir	ḳut	
+8	680	tobacco	čʸɔpɨ	
+8	690	smoke (tobacco)	nækælḳo	
+8	691	pipe	kɔnsan	
+8	720	tree stump	saltɨ	
+8	730	tree trunk	kɛpɨ; pot kɛpɨ	
+8	740	forked branch	mo	
+8	750	bark	ḳɔsɨ	
+8	760	sap	ül	
+8	970	nettle	sɔttɨ	
+8	980	mushroom	aḳsɨl	
+9	110	do, make	meḳo	
+9	120	work	učʸɨḳo	
+9	140	bend	mɨnɨḳo	
+9	150	fold	pinḳɨlḳo	
+9	160	tie, bind	sɔr̃ɨḳo	
+9	161	untie	toütɨḳo	
+9	180	chain	kəsɨlʸ tɛmtɨ	
+9	190	rope, cord	tɛmtɨ	
+9	192	knot (noun)	muḳḳɨl	
+9	210	strike (hit, beat)	kættɨḳo; motḳo	
+9	211	pound with fist	ḳættɨḳo	
+9	220	cut	matɨḳo	
+9	221	cut down	matɨkkɨḳo	
+9	222	chop, hew	pačʸalḳo	
+9	223	stab	pær̃ḳɨlḳo	
+9	230	knife	paŋɨ	
+9	240	scissors, shears	šʸittɨ ɔŋtɨlʸ paŋɨ	
+9	250	ax	pičʸi	
+9	251	adze	kor̃san	
+9	260	break	panalḳo	
+9	261	broken	panalpɨlʸ	
+9	270	split	pačʸɨtḳo	
+9	280	tear	nɨtaḳo; tonɨtaḳo	
+9	290	flay, skin	ɩnnælʸmɨm toiḳo	
+9	310	rub, wipe	musɨḳo; natḳɨlḳo	
+9	320	stretch	nækæḳo; nækæmpɨḳo	
+9	330	pull	næḳḳɨlpɨḳo	
+9	340	spread out	tɔḳɨḳo	
+9	341	hang up	ɨtɨḳo	
+9	342	press	ɨpaḳo	
+9	343	squeeze, wring	ɨpḳɨleḳo	
+9	350	pour	ḳamtɨḳo	
+9	360	wash	musɨltɨḳo	
+9	370	sweep	ḳatalḳo	
+9	380	broom	mʸayɨllaka	
+9	422	tool	učʸɨptælʸmɨ	
+9	440	build	meḳo	
+9	460	bore	pur̃tɨḳo	
+9	461	hollow out	čʸoḳḳoḳo	
+9	480	saw	pila	
+9	490	hammer	sɔlɨ	
+9	500	nail	tipɨ	
+9	560	glue	čʸimɨ	
+9	600	smith, blacksmith	čʸɔttɨr̃ælʸ ḳum	
+9	610	forge	čʸɔttɨr̃ḳo	
+9	620	anvil	kəsɨllaka	
+9	630	cast (metals)	čʸɔttɨr̃ḳo	Means 'to smelt'.
+9	640	gold	solota	
+9	650	silver	ser̃epr̃a	
+9	660	copper, bronze	tulla	Means 'copper'.
+9	670	iron	kəsɨ	
+9	720	mold (clay etc)	meḳo	
+9	730	clay	šʸyo	
+9	740	glass	sekɨla	
+9	750	weave, plait	sər̃ɨḳo	
+9	760	basket	tuyka	
+9	780	netbag	r̃ušʸɨlʸ mešak	
+9	810	carve	meḳo	
+9	880	paint (noun)	sɨ; kr̃aska	
+9	890	paint (vb)	sɨtḳo; natḳɨlḳo	
+10	110	move	čʸaḳḳɨltɨḳo; čʸoḳḳolḳo	
+10	120	turn over	kolʸalḳo	
+10	130	turn around	kolimpɨḳo	
+10	140	wind, wrap	kolʸaltɨḳo	
+10	150	roll	kolimpɨḳo	
+10	160	drop (vb)	əstɨḳo	
+10	170	twist	kolʸlimɔtḳo	
+10	210	rise	ɩnnæ nɨlaiḳo	
+10	220	raise, lift	ɩnnæ iḳo	
+10	230	fall	alʸčʸɨḳo	
+10	240	drip	čʸapɨḳo	
+10	250	throw	čʸattɨḳo	
+10	252	catch (ball)	or̃aḳo	
+10	260	shake	tupaḳo	
+10	320	flow	küŋtɨltɨmpɨḳo	
+10	330	sink	ütḳɨn ḳuḳo	
+10	340	float	pentaleḳo	Means 'to float with the stream, downstream'.
+10	350	swim	uḳɨlḳo	
+10	351	dive	patɨḳo; üttɨ patḳo	
+10	352	splash	ličʸḳɨr̃altɨḳo	
+10	360	sail (vb)	pentɨḳo	Refers to locomotion by means of a boat.
+10	370	fly (vb)	tɩmpɨḳo	
+10	380	blow	mær̃ḳɨḳo; puḳo	
+10	410	creep, crawl	soḳḳɨr̃ḳo	
+10	412	kneel	pultɨtalelʸčʸɨḳo	
+10	413	crouch	kɛtɨŋḳo	
+10	420	slide, slip	nešʸɨr̃ḳo	
+10	430	jump, leap	paktɨr̃ɨḳo	
+10	431	kick	tappɔlḳo; tapɨr̃ḳo	
+10	440	dance	laksɨr̃ɨḳo	
+10	450	walk	ḳənḳo	
+10	451	limp	nʸor̃ḳaḳo; ḳur̃aḳo	
+10	460	run	kur̃alḳo; tɨŋaltɨḳo	
+10	470	go	kənḳo; antar̃ḳo; ḳonɩšʸḳo; ḳöšʸḳo; ḳoɩšʸḳo	
+10	471	go up	sɨḳɨlḳo; wəšʸɨḳo	
+10	472	climb	sɨḳɨlḳo	
+10	473	go down	panɩšʸḳo; paɩšʸḳo	
+10	474	go out	tar̃ɨḳo; tantɨḳo	
+10	480	come	tüḳo; ičʸčʸɨḳo; ičʸčʸɨr̃ḳo	
+10	481	come back	pɔr̃aliḳo	
+10	490	go away, depart	tantɨḳo; tar̃ɨḳo; ḳənḳo; kur̃alḳo; wašʸɨḳo	
+10	491	disappear	ür̃r̃aiḳo	
+10	510	flee	kur̃alḳo; ḳælḳo; ḳoptɨr̃ḳo; paktɨḳo	
+10	520	follow	nʸotɨḳo	
+10	530	pursue	nʸor̃ḳo; nʸotɨḳo	
+10	550	reach, arrive	tüḳo; tulɨšʸḳo	
+10	560	approach	tɛtɨčʸak tüḳo	
+10	570	enter	šʸer̃ḳo	
+10	610	carry (bear)	tuḳɨlḳo	
+10	612	carry-in-hand	utɨsæ tuḳɨlḳo	
+10	613	carry-on-shoulder	ḳəḳsæ tuḳɨlḳo	
+10	614	carry-on-head	olɨsæ tuḳɨlḳo	
+10	615	carry-underarm	ḳolɨnʸ šʸünʸčʸoḳɨt tuḳɨlḳo	
+10	620	bring	totɨḳo	
+10	630	send	ütɨḳo	
+10	640	lead (vb)	tɔtɨr̃ɨḳo	
+10	650	drive	nʸotɨḳo; nʸoḳo	
+10	660	ride	ḳənḳo; kor̃aḳo	
+10	670	push, shove	noḳḳoḳo; noḳḳolḳo	
+10	710	road	wəttɨ; məttɨ	
+10	720	path	wəttɨ	
+10	740	bridge	pɨlɨ	
+10	750	carriage, wagon, cart	kolʸalʸ ḳaḳlɨ	
+10	760	wheel	kolʸa	
+10	830	boat	alako	
+10	831	canoe	antɨ	
+10	840	raft	pɨlɨ	
+10	850	oar	lapɨ	
+10	851	paddle (noun)	lapɨ	
+10	852	row (vb)	tuḳo	
+10	890	anchor	yakor̃ʸ	
+10	920	land (vb)	ḳanɨktɨ matḳačʸɨḳo	
+11	110	have	ɛḳo	
+11	120	own, possess	ɛḳo	
+11	130	take	iḳo	
+11	140	seize, grasp	or̃aḳo	
+11	150	hold	or̃ḳɨlpɨḳo	
+11	160	get, obtain	iḳo	
+11	170	keep, retain	or̃ḳɨlpɨḳo	
+11	180	thing	utak; tetamɨ	
+11	210	give	miḳo	
+11	220	give back	ḳotta miḳo	
+11	240	preserve, look after	mɛr̃ɨḳo	
+11	250	save, rescue	nennæ iḳo	
+11	270	destroy	panalḳo; topanalḳo; tayaltɨḳo	
+11	280	harm, injure, damage	ḳošʸɨk meḳo	
+11	310	seek, look for	peḳo	
+11	320	find	ḳoḳo	
+11	330	lose	ür̃tɨḳo	
+11	340	release, let go	ütɨḳo	
+11	430	money	ḳomtæ	
+11	440	coin	kəsɨlʸ ḳomtæ	
+11	510	rich	tɛttalʸ	
+11	520	poor	ɨpkɨlɨmpɨtɨlʸ; sɨḳɨlalʸ	
+11	530	beggar	ḳomtækɨtɨlʸ; ḳošʸtɨlʸ	
+11	540	avaricious, stingy	tar̃alʸ; panʸčʸɨnɨlʸ	
+11	610	lend	mintɨr̃ḳo	
+11	620	borrow	itɨr̃ḳo	
+11	630	owe	ḳolʸčʸan ɛḳo	
+11	640	debt	ḳolʸčʸa	
+11	650	pay (vb)	mir̃tɨḳo	
+11	660	account, reckoning	toḳɨltɨpsa	
+11	770	hire	lɛntɨḳo	
+11	780	wages	ləni	
+11	790	earn	učʸɨḳo ḳomtæt čʸɔtɨ	
+11	810	buy	təmɨko	
+11	820	sell	mir̃ɨŋḳo	
+11	830	trade, barter	təmtɨḳo	
+11	840	merchant	təmḳup	
+11	860	store, shop	lopkɨ	
+11	870	price	mir̃	
+11	880	dear (costly, expensive)	mir̃sɨmɨlʸ	
+11	890	cheap	ḳeptɨmɨlʸ	
+11	910	share (distribute)	mɔlɨiḳo; miḳɨlḳo	
+11	920	weigh	wessaŋḳo	
+12	10	after	pun	
+12	11	behind	tɔḳɨn; čʸipɔḳɨn; moḳɨnæn	
+12	20	beside	ḳöḳɨn	
+12	30	down, below	ɩllæ	
+12	40	before	ukon	
+12	41	front	ukon	
+12	50	inside, in	šʸünʸčʸoḳɨt	
+12	60	outside	ponæ	
+12	70	under	ɨlḳɨn	
+12	80	up, above	pɔr̃oḳɨn	
+12	110	place	təttɨ; koptɨ	
+12	120	put	pinḳo	
+12	130	sit	ɔmtɨḳo	
+12	140	lie down	ippɨḳo	
+12	150	stand	nɨŋkɨḳo	
+12	160	remain, stay	ḳalɨḳo	
+12	170	remains, left overs	ḳalɨpɨlʸ	
+12	210	collect, gather	taḳḳɨlḳo	
+12	212	pick up	ɩnnæ iḳo	
+12	213	pile up	teltɨḳo	
+12	220	join, unite	næntɨ tokaltɨḳo	
+12	230	separate	toiḳo	
+12	232	divide	miḳɨlḳo	
+12	240	open	nüḳo	
+12	250	shut, close	taḳɨtɨḳo	
+12	260	cover	tamtɨlḳo	
+12	270	hide, conceal	ɛttɨḳo	
+12	310	high	pir̃ḳɨ	
+12	320	low	ḳɔptɨlʸ	
+12	330	top	pɔr̃ɨ	
+12	340	bottom	ɨlɨ	
+12	350	end	čʸipɨ; tur̃iy; pontar̃	
+12	352	pointed	ɔŋsɨmɨlʸ; minɨtɨlʸ	
+12	353	edge	ɔŋtɨ	
+12	360	side	ḳö; pelæk	
+12	370	middle, center	čʸontoḳɨlʸ	
+12	410	right (side)	tɔtɨlʸ; tɔtɨk	
+12	420	left (side)	kɛtɨkælʸ	
+12	430	near (adv)	tɛtɨčʸaŋ	
+12	440	far (adv)	kuntaḳɨn	
+12	450	east	pülʸ pelæk	
+12	460	west	čʸelɨntɨ patɨr̃mo; sæḳḳɨlʸ təttɨ	
+12	470	north	takkɨlʸ təttɨ; takkɨlʸ pelæk; takkɨ	
+12	480	south	nennælʸ təttɨ; nennælʸ pelæktɨ; nennæ	
+12	530	grow	sočʸɨḳo; mɛr̃ḳɨ ɛsɨḳo	Respectively: about plants; about children.; Respectively: about plants; about children.
+12	540	measure	mɔntɨḳo	
+12	541	span, fathom	tɩ	
+12	550	large, big	mɛr̃ḳɨ	
+12	560	small, little	kɨpa	
+12	570	long	čʸumpɨlʸ	
+12	580	tall	pir̃ḳɨlʸ	
+12	590	short	ḳɔmɨčʸalʸ	
+12	610	wide, broad	tɔntɨlʸ	
+12	620	narrow	čʸɛsɨlʸ	
+12	630	thick (in dimension)	nʸaŋtɨlʸ	
+12	650	thin (in dimension)	čʸoptɨlʸ	
+12	670	deep	ḳor̃æ; ḳor̃æ ɛtɨlʸ	
+12	680	shallow	kɨpɛmɨya; ašʸšʸa ḳor̃æ	
+12	710	flat	nur̃ḳɨlʸ	
+12	730	straight	nur̃ḳɨlʸ	
+12	740	crooked	lʸaḳḳɨlʸ	
+12	750	hook	kotɨ; ɨtḳɨ	
+12	760	corner	šʸæŋæ	
+12	770	cross	pir̃nʸa	
+12	810	round	kolʸalʸ	
+12	820	circle	kolʸa	
+12	830	sphere, ball	puŋḳolʸa	
+12	840	line	kor̃ælʸta	
+12	850	hole	mü	
+12	920	like, similar	pütɨntɨlʸ	
+12	930	change	mɔlɨḳo	
+13	0	zero, nothing	nolʸ; čʸæŋkɨptælʸ ɔnɨltɨ	
+13	10	one	ukkɨr̃	
+13	20	two	šʸittɨ	
+13	30	three	nɔkɨr̃	
+13	40	four	tɛttɨ	
+13	50	five	sompɨla	
+13	60	six	muktɨt	
+13	70	seven	selʸčʸɨ	
+13	80	eight	šʸittɨ čʸæŋkɨtɨlʸ köt	
+13	90	nine	ukkɨr̃ čʸæŋkɨtɨlʸ köt	
+13	100	ten	köt	
+13	101	eleven	ukkɨr̃ kəlʸ köt	
+13	102	twelve	šʸittɨ kəlʸ köt	
+13	103	fifteen	sompɨla kəlʸ köt	
+13	104	twenty	šʸittɨsar̃	
+13	105	hundred	ton	
+13	106	thousand	köt ton	
+13	107	count	toḳɨltɨḳo	
+13	140	every, all	istamɨy; isay; muntɨk	
+13	150	much, many	kočʸčʸɨ	
+13	160	more	pušʸšʸæ	
+13	170	little (quantity), few	ḳɔnak	
+13	180	enough	nɔtsepɨ; sepɨk	
+13	181	some	kɨpɛka	
+13	190	multitude, crowd	ḳumɨlʸmɨ	
+13	210	full	tɩr̃ɨtɨpɨlʸ; mukɨltɩr̃ɨlʸ	
+13	220	empty	šʸünʸčʸɨpɨlʸ	
+13	230	part, piece	pelæk	
+13	240	half	pelæk	
+13	330	alone, only	laka	
+13	340	first	ukolʸ; posukolʸ	
+13	350	last	čʸipɨnɨlʸ	
+13	360	second	šʸittɨmtælɨlʸ; šʸittælɨlʸ	
+13	370	pair	šʸittæḳɩ	
+13	380	two times	šʸittɨmtæl; šʸittæl	
+13	420	third	nɔkɨr̃ɨmtælɨlʸ; nɔkɨr̃tælɨlʸ	
+13	440	three times	nɔkɨr̃ɨmtæl; nɔkɨr̃tæl	
+14	130	new	šʸentɨ	
+14	140	young	ilʸmatɨlʸ	
+14	150	old	mentælʸ	
+14	160	early	ḳar̃ɨn	
+14	170	late	ütɨn; pin	Respectively: in the evening; at night.; Respectively: in the evening; at night.
+14	180	now	tɩ; ɛmpæ	
+14	190	immediately	pullæ	
+14	210	swift, fast, quick	kɛnpɨtɨlʸ; čʸatkɨsɨmɨlʸ	
+14	220	slow	čʸontɨkɨtɨlʸ	
+14	230	hasten, hurry	čʸækaptɨḳo	
+14	240	retard, delay	ašʸšʸa čʸækaptɨḳo	
+14	250	begin, beginning	ukɨtaltɨḳo; olɨmḳo	
+14	260	end (temporal)	čʸipɨ	
+14	270	finish	tur̃tɨḳo; šʸünʸčʸɨptɨḳo	
+14	280	cease, stop	ḳɨḳɨlḳa	
+14	290	ready	olampɨlʸ	
+14	310	always	meltɨ	
+14	320	often	pelæk	
+14	330	sometimes	kolɨk	
+14	331	soon	ɛmpæ; čʸɛŋ	
+14	332	long-time (for a)	ḳuntɨ	
+14	340	never	kušʸšʸan ašʸšʸa	
+14	350	again	očʸɨk; očʸɨšʸak	
+14	410	day	čʸelɨ	
+14	420	night	pin; lɨpɨḳɨn	
+14	430	dawn	ḳar̃ɨlʸ kɛntɨ	
+14	440	morning	ḳar̃ɨ	
+14	450	noon, midday	čʸelɨt čʸɔntɨ	
+14	460	evening	ütɨn	
+14	470	today	tap čʸelɨ	
+14	480	tomorrow	tælɨ	
+14	481	day-after-tomorrow	nattoy čʸelɨ	
+14	490	yesterday	tælʸ čʸelɨ	
+14	491	day-before-yesterday	ukolʸ čʸelɨ	
+14	510	hour	čʸas	
+14	530	clock, timepiece	čʸassa	
+14	610	week	selʸčʸɨ čʸelɨ; nedelʸa	
+14	620	Sunday	selʸčʸɨmtælɨlʸ čʸelɨ nedelʸaḳɨn	
+14	630	Monday	posukokɨlʸ čʸelɨ nedelʸaḳɨn	
+14	640	Tuesday	šʸittɨmtælɨlʸ čʸelɨ nedelʸaḳɨn	
+14	650	Wednesday	nɔkɨr̃ɨmtælɨlʸ čʸelɨ nedelʸaḳɨn	
+14	660	Thursday	tɛttɨmtælɨlʸ čʸelɨ nedelʸaḳɨn	
+14	670	Friday	sompɨlamtælɨlʸ čʸelɨ nedelʸaḳɨn	
+14	680	Saturday	muktɨntælɨlʸ čʸelɨ nedelʸaḳɨn	
+14	710	month	ir̃atɨ	
+14	730	year	po	
+14	740	winter	kə	
+14	750	spring	üttɨ	
+14	760	summer	taŋɨ	
+14	770	autumn	ar̃a	
+15	210	smell (vb intrans)	aptalḳo	
+15	212	sniff	tɩnalḳo	
+15	220	smell (vb trans)	aptɨr̃ḳo	
+15	250	fragrant, good smelling	soma aptɨlʸ	
+15	260	stinking, bad smelling	ḳošʸtɨlʸ aptɨlʸ	
+15	350	sweet	nʸunitɨlʸ	
+15	360	salty	šʸæḳɨlʸ	
+15	370	bitter	par̃r̃ɨnnilʸ	
+15	380	acid, sour	par̃r̃ɨnnilʸ	
+15	390	brackish	šʸæḳɨlɔḳɨlʸ	
+15	410	hear	üŋtɨḳo	
+15	420	listen	üŋkɨltɨḳo	
+15	440	sound, noise	čʸar̃ɨ; sümɨ	
+15	450	loud	čʸar̃ɨsɨmɨlʸ	
+15	460	quiet, silence	sümɨkɔlɨŋ ɛŋa	
+15	510	see	ḳontɨr̃ḳo	
+15	520	look, look at	mannɨmpɨḳo	
+15	550	show	atɨltɨḳo	
+15	560	shine	ḳɛtɨmpɨḳo	
+15	570	bright	čʸelɨŋpɨtɨlʸ	
+15	620	light (in color)	ḳalʸmɨlʸ	
+15	630	dark (in color)	lɨpɨḳɨlʸ	
+15	640	white	sər̃ɨ	
+15	650	black	šʸæḳɨ	
+15	660	red	nʸar̃ḳɨ	
+15	670	blue	nor̃ælʸ	
+15	680	green	patɨlʸ	
+15	690	yellow	patɨlʸ	
+15	710	touch	ḳatɨḳo	
+15	712	pinch	niŋkɨlḳo	
+15	720	feel	ḳatɨḳo	
+15	740	hard	talɨḳɨlʸ	
+15	750	soft	nʸamɨḳɨlʸ	
+15	770	smooth	nur̃ḳɨlʸ	
+15	780	sharp	ɔŋsɨmɨlʸ; minɨtɨlʸ	
+15	790	blunt, dull	ɔŋkɨtɨlʸ	
+15	810	heavy	sɛttɨmɨlʸ	
+15	820	light (in weight)	šʸepɨlʸ	
+15	830	wet, damp	nišʸḳɨmɔtpɨlʸ; čʸentalʸ	
+15	840	dry	tɛkɨpɨlʸ	
+15	850	hot	pötpɨlʸ	
+15	851	warm	pötpɨlʸ; lɨsɨḳɛŋ ɛŋa	
+15	860	cold	ḳoŋḳɨlʸ	
+15	870	clean	tɛšʸaŋpɨlʸ	
+15	880	dirty, soiled	tamɨlʸ	
+15	890	wrinkled	tar̃sɨr̃ɨmpɨtɨlʸ	
+16	110	soul, spirit	ilsan	
+16	150	surprised, astonished	aḳlɨmɔttɨlʸ	
+16	180	good fortune, luck	kɨ	
+16	190	misfortune, bad luck	tor̃æ	
+16	230	joyful, glad, happy	ɔntalpɨtɨlʸ	
+16	250	laugh	pisɨšʸḳo	
+16	251	smile	pisaltɨmpɨḳo	
+16	260	play	sɔntɨr̃ḳo	
+16	270	love	kɨkɨḳo	
+16	290	kiss	nitɨḳo	
+16	300	embrace	ḳɔmalḳo	
+16	310	pain	čʸüma	
+16	320	grief, sorrow, sadness	kekkɨ	
+16	330	anxiety, worry	ɛsa	
+16	340	regret, be sorry	sɨḳɨlʸaiŋḳo	
+16	370	cry, weep	čʸur̃ɨḳo	
+16	380	tear (noun)	sayɨn üt	
+16	390	groan	nir̃ɨḳo	
+16	410	hate	ḳümɨḳo	
+16	420	anger	nenʸa	
+16	440	envy, jealousy	ḳɔčʸɨptæ	
+16	450	shame (noun)	šʸor̃ɨ	
+16	520	brave	or̃ɨpɨlʸ; ɛnɨkunʸčʸɨtɨlʸ	
+16	530	fear, fright	ɛnta; ɛnɨptæ	
+16	540	danger	ɛntapoḳɨ; ɛnɨḳo	
+16	620	desire, want	ɛsɨlta	
+16	622	choose	wɨbor̃aiŋḳo	
+16	650	faithful	ür̃omɨntɨ; tɔtɨk	
+16	660	true	ɔnšʸünʸčʸɨk	
+16	670	lie, tell lies	molmɨttɨḳo	
+16	680	deceit	molmɨ	
+16	690	forgive	ɛmɨltɨḳo	
+16	710	good	soma	
+16	720	bad	ḳošʸtɨlʸ	
+16	730	right, correct	ür̃omɨntɨlʸ	
+16	740	wrong	molmɨlʸ	
+16	760	fault	ür̃ɨ	
+16	770	mistake, error	ür̃kɨptæ	
+16	780	blame	totɨptæ	
+16	790	praise	somar̃sɨptæ	
+16	810	beautiful	kur̃assɨmɨlʸ	
+16	820	ugly	ašʸšʸa kur̃assɨmɨlʸ	
+16	830	greedy	panʸčʸɨpɨlʸ	
+16	840	clever	tənɨsɨmɨlʸ	
+17	110	mind	tənɨ	
+17	130	think (= reflect)	tənɨr̃pɨḳo	
+17	140	think (= be of the opinion)	tənɨr̃pɨḳo	
+17	150	believe	ɛtɨŋḳo	
+17	160	understand	tənɨmɨḳo	
+17	170	know	tənɨmɨḳo	
+17	171	guess	tənɨr̃pɨḳo	
+17	190	idea, notion	tənɨ	
+17	210	wise	tənɨsɨmɨlʸ; mutɨr̃ʸonɨlʸ; ḳətɨsɨmɨlʸ	
+17	220	foolish, stupid	tənɨkɨtɨlʸ; mɔmaka	
+17	230	insane, crazy	olɨkɨtɨlʸ	
+17	240	learn	učʸɨttɨḳo	
+17	242	study	učʸɨŋḳo; tantaltɨḳo	
+17	250	teach	učʸɨŋḳo; tantaltɨḳo	
+17	260	pupil	učʸɨttɨlʸ iya	
+17	270	teacher	učʸɨčʸɨlɨlʸ ima	
+17	280	school	škola	
+17	310	remember	tənaptɨḳo	
+17	320	forget	ɛmɨltɨḳo; ɛmɨltɨḳɔlamḳo	
+17	340	clear, plain	tənɨmɨla	
+17	350	obscure	əšʸšʸa tənɨmɨla	
+17	360	secret	tɔmɨlʸ	
+17	370	sure, certain	anɨlʸ	
+17	380	explain	atɨltɨḳo	
+17	410	intention, purpose	ɛsɨmpa	
+17	420	cause	ür̃ɨ	
+17	440	suspect	ḳompɨḳo	
+17	450	need, necessity	nɔtna	
+17	460	easy	šʸepɨlʸ; olɨk	
+17	470	difficult	sɛttɨmetɨlʸ	
+17	480	try, attempt	saŋaḳo	
+17	510	and	ay	
+17	520	because	mitɨ	
+17	530	if	ḳatamol; ḳata; čʸɔlsæ	
+17	540	or	ḳay	
+17	550	yes, affirmative	nɩlʸčʸɨk; nɩlʸčʸɨlʸ	
+17	560	no, negative	čʸæŋka; ašʸšʸa; ašʸ; ɨkɨ; čʸæ; ni	First example: 'no'; following words are negative particles.; First example: 'no'; following words are negative particles.; First example: 'no'; following words are negative particles.; First example: 'no'; following words are negative particles.; First example: 'no'; following words are negative particles.; First example: 'no'; following words are negative particles.
+17	610	how?	kuttar̃; ḳæntɨk	
+17	620	how many?	kušʸšʸak; kušʸšʸalʸ	
+17	630	how much?	kušʸšʸak; kušʸšʸalʸ	
+17	640	what?	ḳay	
+17	650	when?	kušʸšʸaḳɨn	
+17	660	where?	kun; kučʸčʸæ; ku	Respectively: situation; moving to; moving to.; Respectively: situation; moving to; moving to.; Respectively: situation; moving to; moving to.
+17	670	which?	ḳayɨlʸ	
+17	680	who?	kutɨ; kutɨka	
+17	690	why?	ḳa	
+18	110	voice	čʸar̃ɨ; sümɨ	
+18	120	sing	sumpɨḳo; kolʸmɨttɨḳo	
+18	130	shout, cry out	laŋkɨšʸḳo; laŋkalʸḳo	
+18	150	whisper	sʸapsɨmpɨḳo	
+18	160	mumble	kekkɨsa mulaltɨḳo	
+18	170	whistle	kükɨmpɨḳo; kükɨr̃ḳo	
+18	180	shriek, screech	čʸar̃ɨsæ laŋkɨšʸḳo	
+18	190	howl	lulɨmpɨḳo	
+18	210	speak, talk	mulaltɨḳo; kɛtɨḳo	
+18	211	stutter, stammer	mumɨlɨmpɨḳo	
+18	220	say	koŋɨmpɨḳo	
+18	221	tell story	koŋaltɨḳo	
+18	222	speech (make a)	kɛtɨḳo	
+18	230	silent (be)	taŋaltɨmpɨḳo	
+18	240	language	ətɨ	
+18	260	word	ətɨ	
+18	280	name	nɩm	
+18	310	ask (question, inquire)	soḳɨnʸčʸɨḳo	
+18	320	answer	kɛtɨḳo	
+18	350	ask, request	mɔtɨr̃ḳo; čʸɨtɨḳo	
+18	360	promise	čʸaptɨḳo	
+18	410	call (=summon)	ḳɛr̃ɨḳo	
+18	420	call (=name)	nɩmtɨḳo	
+18	450	boast	somar̃sɨmpɨḳo	
+18	510	write	nɛkɨr̃ḳo	
+18	520	read	toḳɨltɨḳo	
+18	560	paper	nɛkɨr̃	
+18	610	book	toḳɨltɨpsɔtɨlʸ nɛkɨr̃	
+18	720	drum	nuŋa	Refers to a tambourine type of drum.
+18	730	horn, trumpet	tur̃pa	
+18	740	rattle	kuŋɨr̃a; mumlalʸ kəsɨlʸa; mumlalʸ kəsɨllaka	
+19	110	country	ḳadar̃; pontar̃; təttɨ	
+19	120	one's native country	r̃odina	
+19	150	city, town	ḳəttɨ	
+19	160	village	šʸimalʸa; mɔtɨlʸmɨ	
+19	210	people (populace)	tamtɨr̃	
+19	230	tribe, clan	tamtɨr̃	
+19	240	chief, chieftain	ḳok	
+19	250	staff, walking stick	tür̃ɨ	
+19	310	rule, govern	ḳoḳɨlpɨḳo	
+19	320	king, ruler	ɔmtɨlʸ ḳok	
+19	450	command, order	ḳur̃altɨmpɨḳo; ḳur̃altɨḳo	
+19	460	obey	üŋkɨltɨmpɨḳo	
+19	470	let, permit	tomḳo	
+19	510	friend, companion	lʸaḳḳa	
+19	520	enemy	molmɨsɨmɨlʸ ḳup	
+19	540	neighbor	ḳöḳɨn ilɨntɨy ḳup	
+19	550	stranger	mɛnɨlʸ; wɛnɨlʸ	
+19	570	host	nʸušʸɨ	
+19	580	help, aid	peltɨḳo	
+19	590	hinder, prevent	taḳɨtɨmpɨḳo	
+19	610	custom	šʸer̃tɨ	
+19	620	strife, quarrel	antɨptæ	
+19	650	meet	čʸetɨḳo	
+19	720	prostitute	ḳolma	
+20	110	fight (vb)	müttɨḳo; ḳəttɨḳo	
+20	130	war, battle	mütɨ	
+20	140	peace	mir̃	
+20	150	army	ar̃miya; müttɨntɨlʸ ḳumɨlʸmɨ	
+20	170	soldier	soldat; müttɨntɨlʸ ḳum	
+20	210	weapons, arms	pušʸkan	
+20	240	bow	ɨntɨ	
+20	250	arrow	koma; tɨšʸšʸa	
+20	260	spear	taḳa	
+20	280	gun, cannon	pušʸkan	
+20	440	defend	ɔttɨḳo	
+20	471	guard, sentinel	tor̃ɨšʸ	
+20	510	fisherman	ḳəlɨčʸčʸɨlʸ ḳum	
+20	520	fishhook	nup	
+20	540	fishnet	poḳḳɨ	
+20	560	bait	tüt	
+20	610	hunt	sur̃ɨšʸḳo	
+20	620	shoot	čʸüntɨḳo; čʸattɨḳo	
+20	630	miss (target)	nʸunir̃ɨḳo	
+20	640	trap (noun)	čʸaŋkɨ	
+20	650	trap (vb)	čʸaŋkɨtɨḳo	
+21	110	law	ür̃ɨ	
+21	360	innocent	kuŋɛtɨlʸ	
+21	390	prison, jail	wastr̃ok	
+21	420	murder	ḳəttæ	
+21	510	steal	telɨḳo	
+21	520	thief	telɨtɨlʸ ḳum	
+22	120	God	nom	
+22	130	temple, church	nulʸ mɔt	
+22	150	sacrifice, offering	ḳossɨ	
+22	170	pray	nomtɨ omtɨttɨḳo	
+22	180	priest	pɔčʸka	
+22	310	heaven	nom	
+22	350	demon (evil spirit)	losɨ	Has meaning of 'devil'.
+22	370	idol	por̃ḳæ	

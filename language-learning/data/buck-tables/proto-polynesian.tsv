@@ -1,0 +1,771 @@
+chapter_id	entry_id	meaning	Proto Polynesian_Phonemic	comment
+1	210	earth, land	*ʔuta; *nuku; *fanua; *kele	PPN; PPN; PPN; PPN
+1	212	earth=ground, soil	*kele; *fanua; *kau; *takaŋa; *repo	PPN; PPN; PPN; PPN; PEP; PPN
+1	213	dust	*efu; *pu-efu; *efu; *lefu; *pUefu	PPN; See also 'ashes, powder, flour'.; PNP; PPN; See also 'ashes, powder, flour'.; PNP; PPN; See also 'ashes, powder, flour'.; PNP; PPN; See also 'ashes, powder, flour'.; PNP; PPN; See also 'ashes, powder, flour'.
+1	214	mud	*oru; *oru; *pela; *kele; *repo; *Lepo; *taʔe	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+1	215	sand	*ʔone; *qone; *'one; *oneone; *kili-kili	PPN; PPN; PPN; PPN; PPN
+1	220	mountain, hill	*maʔuŋa; *maquŋa; *siwi; *afu; *tuqasiwi	PPN; Second form is 'ridge of hill'. PPN *puke 'mound'.; PPN; Second form is 'ridge of hill'. PPN *puke 'mound'.; PPN; Second form is 'ridge of hill'. PPN *puke 'mound'.; PPN; Second form is 'ridge of hill'. PPN *puke 'mound'.; PPN; Second form is 'ridge of hill'. PPN *puke 'mound'.
+1	222	cliff, precipice	*mato; *pari; *paLi; *kala	PPN; PEP *pali; PCP *bari.; PPN; PEP *pali; PCP *bari.; PPN; PEP *pali; PCP *bari.; PPN; PEP *pali; PCP *bari.
+1	230	plain, field	*papa	PPN
+1	250	island	*motu	PPN
+1	270	shore	*quta	PPN
+1	280	cave	*ʔana; *qana	PPN; 'Mine, pit' *(q)oru.; PPN; 'Mine, pit' *(q)oru.
+1	310	water	*vai; *wai; *wari; *waLi; *suu; *sū; *su-a; *lanu	PPN; 'To melt, liquefy' *naw. PPN *suu; *lanu 'liquid, watery'. To draw/ fetch water asu. 'Fluid' *wale. 'Calm water' Lipo. 'Watery' ko(o)pu(u)wai.; PPN; 'To melt, liquefy' *naw. PPN *suu; *lanu 'liquid, watery'. To draw/ fetch water asu. 'Fluid' *wale. 'Calm water' Lipo. 'Watery' ko(o)pu(u)wai.; PPN; 'To melt, liquefy' *naw. PPN *suu; *lanu 'liquid, watery'. To draw/ fetch water asu. 'Fluid' *wale. 'Calm water' Lipo. 'Watery' ko(o)pu(u)wai.; PPN; 'To melt, liquefy' *naw. PPN *suu; *lanu 'liquid, watery'. To draw/ fetch water asu. 'Fluid' *wale. 'Calm water' Lipo. 'Watery' ko(o)pu(u)wai.; PPN; 'To melt, liquefy' *naw. PPN *suu; *lanu 'liquid, watery'. To draw/ fetch water asu. 'Fluid' *wale. 'Calm water' Lipo. 'Watery' ko(o)pu(u)wai.; PPN; 'To melt, liquefy' *naw. PPN *suu; *lanu 'liquid, watery'. To draw/ fetch water asu. 'Fluid' *wale. 'Calm water' Lipo. 'Watery' ko(o)pu(u)wai.; PPN; 'To melt, liquefy' *naw. PPN *suu; *lanu 'liquid, watery'. To draw/ fetch water asu. 'Fluid' *wale. 'Calm water' Lipo. 'Watery' ko(o)pu(u)wai.; PPN; 'To melt, liquefy' *naw. PPN *suu; *lanu 'liquid, watery'. To draw/ fetch water asu. 'Fluid' *wale. 'Calm water' Lipo. 'Watery' ko(o)pu(u)wai.
+1	320	sea	*wasa; *tahi; *tasi; *miti; *moano; *lau	PPN; First form means 'open s'. PCP *wasa'open s'.; PPN; First form means 'open s'. PCP *wasa'open s'.; PPN; First form means 'open s'. PCP *wasa'open s'.; PPN; First form means 'open s'. PCP *wasa'open s'.; PPN; First form means 'open s'. PCP *wasa'open s'.; PPN; First form means 'open s'. PCP *wasa'open s'.
+1	323	rough (of sea)	*sou; *lepu; *lili	PPN; PPN; PPN
+1	324	foam	*pusa; *fiho; *fuka; *huka; *fuka	PPN; PPN; PPN; PPN; PEP; PPN
+1	330	lake	*loto; *namo; *rano; *lano; *ʔano	PPN; PPN; PPN; PPN; PPN
+1	340	gulf, bay	*fana; *faŋa; *mana	PPN; PPN; PPN
+1	341	lagoon	*loto; *nama	PPN; PPN
+1	342	reef	*awa; *hakau; *moana; *ʔulu-ʔulu; *feo; *puŋa; *lase	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+1	343	headland, point	*mata; *lae; *siku	PPN; PPN'point of land'; PPN; PPN'point of land'; PPN; PPN'point of land'
+1	350	wave	*peau; *pali; *ŋalu; *-alu; *kale	PPN; PPN; PPN; PPN; PEP; PPN
+1	353	lowtide	*masa	PPN
+1	354	hightide	*huʔa; *huqa; *ua	PPN; Latter means 'wave'. PEP *pari; PPN; Latter means 'wave'. PEP *pari; PPN; Latter means 'wave'. PEP *pari
+1	360	river, stream, brook	*wai-tafe; *pihi; *sali; *tafe	PPN; 'Mouth of river' PPN *muriwai; see 'buttocks'.; PPN; 'Mouth of river' PPN *muriwai; see 'buttocks'.; PPN; 'Mouth of river' PPN *muriwai; see 'buttocks'.; PPN; 'Mouth of river' PPN *muriwai; see 'buttocks'.
+1	362	whirlpool	*lipo; *Lipo	PPN; PPN
+1	370	spring, well	*puna; *pun-a; *fun-a; *tupu	PPN; PPN; PPN; PPN
+1	380	swamp	*rano; *fusi; *oru; *lepu; *lepo	PPN; PPN; PPN; PPN; PPN
+1	390	waterfall	*safu; *hafu	PPN; PPN
+1	410	woods, forest	*wao; *ŋaheze; *ŋaheLe; *ŋahele	PPN; PPN; PPN; PEP; PPN
+1	420	tree (cf 08.600)	*kau; *kai; *fuʔu; *fuqu; *waqakau; *qakau; *raʔa	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+1	430	wood	*kai; *kau; *raʔakau; *raqakau; *ʔakau	PPN; 'Chip of wood' mala.; PPN; 'Chip of wood' mala.; PPN; 'Chip of wood' mala.; PPN; 'Chip of wood' mala.; PPN; 'Chip of wood' mala.
+1	440	stone, rock	*maka; *kala; *kalaa; *ʔutu; *fatu; *koofatu; *poofatu; *teko	PPN; PNP *toka.; PPN; PNP *toka.; PPN; PNP *toka.; PPN; PNP *toka.; PPN; PNP *toka.; PPN; PNP *toka.; PPN; PNP *toka.; PPN; PNP *toka.
+1	510	sky	*laŋi; *laṅi	PPN; PPN
+1	520	sun	*ʔaho; qaho; *laqa; *laʔA; *laʔa	PPN; Means 'sun, day'; PPN; Means 'sun, day'; PPN; Means 'sun, day'; PPN; Means 'sun, day'; PPN; Means 'sun, day'
+1	530	moon	*maasina; *ma-sina; *ma-lama; *kawake	PPN; PNP *ʔumu 'halo around m.'; PPN; PNP *ʔumu 'halo around m.'; PPN; PNP *ʔumu 'halo around m.'; PPN; PNP *ʔumu 'halo around m.'
+1	540	star	*fetuʔu; *fetuqu; *fetu'u; *fetū	PPN; 'Pleiades' PPN *mata-liki.; PPN; 'Pleiades' PPN *mata-liki.; PPN; 'Pleiades' PPN *mata-liki.; PPN; 'Pleiades' PPN *mata-liki.
+1	550	lightning	*ʔuhila; *quhila; *hila	PPN; PPN; PPN
+1	560	thunder	*fatitili	PPN
+1	570	lightning (as striking)	*suwelo	PPN; Means 'ray of light'
+1	580	storm	*afaa; *'afaa; *'afā	PPN; PPN; PPN
+1	590	rainbow	*ʔumata; *nuanua; *nua-nua	PPN; PPN; PNP; PPN
+1	610	light (noun)	*rama; *lama; *ʔama; *'ama; *marama; *maarama; *hina; *sina; *sulu; *su sulu; *huelo	PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'; PPN; Cf. 'sun'
+1	620	darkness	*kele; *poʔuli. *poquli; *matuke; *kiwa; *liko; *kele	PPN; PPN; PPN; PPN; PPN; PEP; PPN
+1	630	shade, shadow	*malu; *qata; *ʔata; *ata	PPN; PPN; PPN; PPN
+1	640	dew	*sau; *sasau; *sa'u; *afu afu	PPN; PCP sasau.; PPN; PCP sasau.; PPN; PCP sasau.; PPN; PCP sasau.
+1	710	air	*saʔu	PPN
+1	720	wind	*muLe; *muze; *mataŋi; *mat-aṅi; *sau; *sau-sau; *sawili; *tiu; *tiu	PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.; PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.; PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.; PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.; PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.; PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.; PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.; PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.; PPN; PNP *ti(ʔ)u. 'Hurricane' *afaa.
+1	730	cloud	*ao; *ʔao; qao; *kapua; *puulefu	PPN; PNP *puulefu. PEP *paku; *kapua; PPN; PNP *puulefu. PEP *paku; *kapua; PPN; PNP *puulefu. PEP *paku; *kapua; PPN; PNP *puulefu. PEP *paku; *kapua; PPN; PNP *puulefu. PEP *paku; *kapua
+1	740	fog	*hau; *kofu; *kfu; *puulefu	PPN; PEP *kapua; PPN; PEP *kapua; PPN; PEP *kapua; PPN; PEP *kapua
+1	750	rain (noun)	*ʔuha; *quha; *timu	PPN; PPN *lolo 'flood, heavy r'. PPN *kofu; *kapu'mist'. PCP *qovu'mist'. PCP *kabu, *kavu; *quza. 'Raindrop' *pata.; PPN; PPN *lolo 'flood, heavy r'. PPN *kofu; *kapu'mist'. PCP *qovu'mist'. PCP *kabu, *kavu; *quza. 'Raindrop' *pata.; PPN; PPN *lolo 'flood, heavy r'. PPN *kofu; *kapu'mist'. PCP *qovu'mist'. PCP *kabu, *kavu; *quza. 'Raindrop' *pata.
+1	810	fire	*afi; *ati; *ka kaha	PPN; Latter form means 'fetch f.' 'Expose to heat of fire' *paarara; *paaLaLa.; PPN; Latter form means 'fetch f.' 'Expose to heat of fire' *paarara; *paaLaLa.; PPN; Latter form means 'fetch f.' 'Expose to heat of fire' *paarara; *paaLaLa.
+1	820	flame (noun)	*zito; *muLa	PPN; PPN
+1	830	smoke (noun)	*lala; *ʔahu; *qahu; *'asu	PPN; PNP *ʔauafi; PPN; PNP *ʔauafi; PPN; PNP *ʔauafi; PPN; PNP *ʔauafi
+1	840	ashes	*rafu; *refu	PPN; See 'dust' 01.213; PPN; See 'dust' 01.213
+1	851	burn (vb trans)	*lito; *kilia; *kaha; *kaatia; *qafu; kama; *paka; *lala	PPN; PCP *ka(a)tia; *'avu.; PPN; PCP *ka(a)tia; *'avu.; PPN; PCP *ka(a)tia; *'avu.; PPN; PCP *ka(a)tia; *'avu.; PPN; PCP *ka(a)tia; *'avu.; PPN; PCP *ka(a)tia; *'avu.; PPN; PCP *ka(a)tia; *'avu.; PPN; PCP *ka(a)tia; *'avu.
+1	852	burn (vb intrans)	*zito; *kaha; *sunu	PPN; PPN; PPN
+1	860	light, kindle, ignite	*tafu; *tuŋi; *tuŋi; *tutu	PPN; PPN; PPN; PPN
+1	861	extinguish	*poko; *mate; *tinai; *tini; *pio; *pio; *tinaʔi	PPN; First form also means 'cover over, enclose'. Cf. 'die'. PNP *tinaʔi; PEP *pi(ʔ)o; PCP *boko.; PPN; First form also means 'cover over, enclose'. Cf. 'die'. PNP *tinaʔi; PEP *pi(ʔ)o; PCP *boko.; PPN; First form also means 'cover over, enclose'. Cf. 'die'. PNP *tinaʔi; PEP *pi(ʔ)o; PCP *boko.; PPN; First form also means 'cover over, enclose'. Cf. 'die'. PNP *tinaʔi; PEP *pi(ʔ)o; PCP *boko.; PPN; First form also means 'cover over, enclose'. Cf. 'die'. PNP *tinaʔi; PEP *pi(ʔ)o; PCP *boko.; PPN; First form also means 'cover over, enclose'. Cf. 'die'. PNP *tinaʔi; PEP *pi(ʔ)o; PCP *boko.; PNP; PPN; First form also means 'cover over, enclose'. Cf. 'die'. PNP *tinaʔi; PEP *pi(ʔ)o; PCP *boko.
+1	880	firewood	*fafie	PPN
+1	890	charcoal	*ranahu; *malala; *ŋarahu; *ŋALahu; *na-lafu; *ŋalafu	PPN; PPN; PPN; PPN; PPN; PNP; PPN
+2	100	person, human being	*toko-; *taŋata; *tau; *l-ava	PPN; PPN; PPN; PPN
+2	210	man (vs. woman)	*taŋata; *taʔane; *taqane; *haakoi	PPN; PPN; PPN; PPN
+2	220	woman	*fine; *fa-fine; *ma-fine; *ta-fine	PPN; PCP *vahine.; PPN; PCP *vahine.; PPN; PCP *vahine.; PPN; PCP *vahine.
+2	230	male	taʔane	PPN
+2	250	boy	*titi	PPN
+2	261	young woman (adolescent)	*pii	PPN
+2	270	child	*tama; *fua-tasi	PPN; Respectively: also means 'father'; only child. PEP *pootiki; PPN; Respectively: also means 'father'; only child. PEP *pootiki
+2	310	husband	*ʔaawaŋa; *sava; *hava	PPN; PPN; PPN
+2	320	wife	*punarua; *sava; *hava	PEP; Means 'having two spouses' < *rua 'two'; PEP; Means 'having two spouses' < *rua 'two'; PEP; Means 'having two spouses' < *rua 'two'
+2	330	marry	*qawaŋa; *ʔAwaŋa	PPN; PPN
+2	350	father	*tama; *tama; na; *tamai; *t-ama-na	PPN; Also means 'child'. PNP *tama/na; PPN; Also means 'child'. PNP *tama/na; PPN; Also means 'child'. PNP *tama/na; PPN; Also means 'child'. PNP *tama/na; PPN; Also means 'child'. PNP *tama/na
+2	360	mother	*tina; *tinana; *t-ina; *nana; *nau; *fae; *faqe	PPN; PSO=PSM *nau'mum'. PCP *nau'mum'. Vocative: *nana; *nau. 'Young mother' fa(a)qele.; PPN; PSO=PSM *nau'mum'. PCP *nau'mum'. Vocative: *nana; *nau. 'Young mother' fa(a)qele.; PPN; PSO=PSM *nau'mum'. PCP *nau'mum'. Vocative: *nana; *nau. 'Young mother' fa(a)qele.; PPN; PSO=PSM *nau'mum'. PCP *nau'mum'. Vocative: *nana; *nau. 'Young mother' fa(a)qele.; PPN; PSO=PSM *nau'mum'. PCP *nau'mum'. Vocative: *nana; *nau. 'Young mother' fa(a)qele.; PPN; PSO=PSM *nau'mum'. PCP *nau'mum'. Vocative: *nana; *nau. 'Young mother' fa(a)qele.; PPN; PSO=PSM *nau'mum'. PCP *nau'mum'. Vocative: *nana; *nau. 'Young mother' fa(a)qele.
+2	370	parents	*matuʔa; *matuqa	PPN; PPN
+2	430	offspring (son or daughter)	*momo; *ʔuhiki; *faanau	PPN; PPN; PPN
+2	456	sibling	*tahi; na; *tahina; *t-ahi-na; *tehi; na; *tuaka; na; *kawe	PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'; PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'; PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'; PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'; PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'; PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'; PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'; PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'; PPN; Respectively: PPN 'younger; elder'. PNP *kawe; PCP *weka-'opposite sex s.'
+2	458	twins	*maasaŋa; *masaṅ-a	PPN; PPN
+2	460	grandfather	*tupu; na	PPN; PPN
+2	461	old man	*tafito; *tupuʔa; a; *kui; *lufa	PPN; PPN; PPN; PPN; PNP; PPN
+2	471	old woman	*kui	PPN
+2	480	grandson	*mokopuna; *makupuna; *maka-pu-na	PPN; Means 'g.child' PCP *makubu-; *vua-'grandchild'.; PPN; Means 'g.child' PCP *makubu-; *vua-'grandchild'.; PPN; Means 'g.child' PCP *makubu-; *vua-'grandchild'.
+2	511	mother's brother	*tuaŋane	PPN
+2	530	nephew	*ʔilaamutu; *qilaamutu	PPN; 'nephew or niece'; PPN; 'nephew or niece'
+2	560	ancestors	*kui	PPN
+2	570	descendants	*fuaaŋa	PPN; PEP *fuaaŋa. PCP *vua-.
+2	610	father-in-law (of a man)	*fuŋaoi; *fuŋaona	PPN; PPN
+2	640	daughter-in-law (of a man)	*funooŋa	PPN
+2	810	relatives, kinsmen	*funaoŋa; *fuaaŋa; *funo; *kaaiŋa; *asi-na; *ahi-na; *taʔokete; *taqokete	PPN; First ex. 'relative by marriage'.; PPN; First ex. 'relative by marriage'.; PPN; First ex. 'relative by marriage'.; PPN; First ex. 'relative by marriage'.; PPN; First ex. 'relative by marriage'.; PPN; First ex. 'relative by marriage'.; PPN; First ex. 'relative by marriage'.; PPN; First ex. 'relative by marriage'.
+2	910	I	*au; *kita; *aku; *kau	PPN; PPN *-ku 'my'. PEP *n-'possessive particle'; PPN; PPN *-ku 'my'. PEP *n-'possessive particle'; PPN; PPN *-ku 'my'. PEP *n-'possessive particle'; PPN; PPN *-ku 'my'. PEP *n-'possessive particle'
+2	920	you (singular)	*koe; *ko-e	PPN; Dual *(mou)rua; *(ou)lua.; PPN; Dual *(mou)rua; *(ou)lua.
+2	930	he/she/it	*ia	PPN; PPN *-na; -naa 'his/her'
+2	940	we	*-ta; *ki-tato; *kita	PPN; Dual *(ki)taa.; PPN; Dual *(ki)taa.; PPN; Dual *(ki)taa.
+2	942	we (exclusive)	*kima; tou	PPN; Exclusive marker *soko-; *hoko.; PPN; Exclusive marker *soko-; *hoko.
+2	950	you (plural)	*tou; *kimo; tou	PPN; PPN; PPN
+2	960	they	*kira; tou; *hila; *la; *'a; *latou; *laatou	PPN; Dual form: *ru; *ru(ka); *(ki)laa.; PPN; Dual form: *ru; *ru(ka); *(ki)laa.; PPN; Dual form: *ru; *ru(ka); *(ki)laa.; PPN; Dual form: *ru; *ru(ka); *(ki)laa.; PPN; Dual form: *ru; *ru(ka); *(ki)laa.; PPN; Dual form: *ru; *ru(ka); *(ki)laa.; PPN; Dual form: *ru; *ru(ka); *(ki)laa.
+3	110	animal	*manu	PPN
+3	350	pig	*puaka	PPN; PCP *(bv)uaka.
+3	500	fowl	*moa	PPN; Clucking of fowl *kokoo.
+3	580	nest	*punaŋa; *punuŋa	PPN; PNP *oofaŋa; PPN; PNP *oofaŋa
+3	581	bird	*manu; *moso	PPN; PPN
+3	583	heron	*matuku	PPN
+3	591	bat	*peka; *peka-peka	PPN; PPN
+3	592	parrot	*kakaa; *kAkaa	PPN; PPN
+3	594	dove	*kulu-kulu; *lupe; *kuku; *kuku	PPN; PPN; PPN; PPN
+3	596	owl	*lulu	PPN; PCP *lulu.
+3	610	dog	*kulii	PPN; PCP *k(ou)lī.
+3	630	mouse, rat	*kumaa; *labaw; *kiole; *kioLe	PPN; PNP *kiole; PPN; PNP *kiole; PPN; PNP *kiole; PPN; PNP *kiole
+3	650	fish	*ika; *ma-lau	PPN; Flounder *paatiki.; PPN; Flounder *paatiki.
+3	653	fishscale	*ʔuna-fi; *qunafi; *una	PPN; PPN; PPN
+3	654	gill	*laumea; *'asa	PPN; PPN
+3	655	shell	*pule; *sisi	PPN; First ex. 'cowrie shell'.; PPN; First ex. 'cowrie shell'.
+3	661	shark	*mako; *maŋoo; *maŋO; *niufi	PPN; PPN *mataqitaliŋa'hammerhead s'; PPN; PPN *mataqitaliŋa'hammerhead s'; PPN; PPN *mataqitaliŋa'hammerhead s'; PPN; PPN *mataqitaliŋa'hammerhead s'
+3	662	porpoise, dolphin	*masimasi	PPN
+3	663	whale	*paikea; *palaoa; *paLAoa	PPN; PPN; PPN
+3	664	stingray	*fai; *foto	PPN; Latter ex. is 'barb of stingray'.; PPN; Latter ex. is 'barb of stingray'.
+3	665	freshwater eel	*tuna; *toke; *silu; *koqilo	PPN; Latter is 'conger eel'.; PPN; Latter is 'conger eel'.; PPN; Latter is 'conger eel'.; PPN; Latter is 'conger eel'.
+3	810	insect	*muu; *wiiwii; *waawaa	PPN; PPN; PPN
+3	811	louse	*kutu; *zehe	PPN; 'Body louse' *tuma.; PPN; 'Body louse' *tuma.
+3	812	nit (louse egg)	*lia; *lih	PPN; PPN
+3	813	flea	*kutu-fiti	PPN
+3	816	cockroach	*kakalu	PPN
+3	817	ant	*loo; *lo; *looʔata; *ane	PPN; Respectively: 'ant; large a.; white a'. 'Termite' *ane.; PPN; Respectively: 'ant; large a.; white a'. 'Termite' *ane.; PPN; Respectively: 'ant; large a.; white a'. 'Termite' *ane.; PPN; Respectively: 'ant; large a.; white a'. 'Termite' *ane.
+3	818	spider	*ka-lewe-lewe	PPN; PEP *puŋaa-were-were
+3	819	spider web	*ka-lewe-lewe; *leve; *vele	PPN; PPN; PPN
+3	830	fly	*laŋo; *ŋalo	PPN; PPN
+3	831	sandfly (midge), gnat	*nao; *nao-nao	PPN; PEP *na(q)o-na(q)o. PCP *(nɲ)a(')o-(nɲ)a(')o.; PPN; PEP *na(q)o-na(q)o. PCP *(nɲ)a(')o-(nɲ)a(')o.
+3	832	mosquito	*namu; *lamu	PPN; PPN
+3	840	worm	*ilo; *noke; *toke; *kelemutu; *nufe; *ʔanufe; *fee; *qulo	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+3	850	snake	*ŋata; *gata	PPN; PPN
+3	920	butterfly	*pepe	PPN
+3	930	grasshopper	*see; *seqe	PPN; PPN
+3	940	snail	*ŋata	PPN
+3	960	lizard	*moko; *pili	PPN; PCP *moko.; PPN; PCP *moko.
+3	980	turtle	*fonu; *kea	PPN; PPN
+4	110	body	*tina; *tino	PPN; Upper part of trunk fatafata. 'Hull' (canoe) katea.; PPN; Upper part of trunk fatafata. 'Hull' (canoe) katea.
+4	120	skin, hide	*tapa; *kili; *paku	PPN; First form means 'bark cloth'.; PPN; First form means 'bark cloth'.; PPN; First form means 'bark cloth'.
+4	140	hair (head)	*awe; *fulu; *lauʔulu; *qulu; *ʔulu	PPN; 'Coconut husk/ fibre' *pulu . 'Tuft of hair' tope.; PPN; 'Coconut husk/ fibre' *pulu . 'Tuft of hair' tope.; PPN; 'Coconut husk/ fibre' *pulu . 'Tuft of hair' tope.; PPN; 'Coconut husk/ fibre' *pulu . 'Tuft of hair' tope.; PPN; 'Coconut husk/ fibre' *pulu . 'Tuft of hair' tope.
+4	142	beard	*kumi-kumi; *kumi; *kawa	PPN; PPN; PPN
+4	144	body hair	*fulu	PPN
+4	145	pubic hair	*fure	PPN; 'Pubic region'.
+4	146	dandruff	*lafa	PPN
+4	150	blood	*toto	PPN; PEP 'menstrual' *wari; *ra(r, R)a
+4	151	vein, artery	*ua; *ua-ua	PPN; Sinew.; PPN; Sinew.
+4	160	bone	*hui; *hiwi; *hwi; *iwi; *kuti	PPN; PNP *iwi. 'Medula, marrow' is *PPN *lolo; *uso.; PPN; PNP *iwi. 'Medula, marrow' is *PPN *lolo; *uso.; PPN; PNP *iwi. 'Medula, marrow' is *PPN *lolo; *uso.; PPN; PNP *iwi. 'Medula, marrow' is *PPN *lolo; *uso.; PPN; PNP *iwi. 'Medula, marrow' is *PPN *lolo; *uso.
+4	162	rib	*lala; *kawakawa	PPN; See also 'rafter'.; PPN; See also 'rafter'.
+4	180	tail	*iku; *siku	PPN; PPN
+4	190	back	*tuʔa; *pa-patuʔa	PPN; Flat of back *pa(a)pa(a)tuqa.; PPN; Flat of back *pa(a)pa(a)tuqa.
+4	200	head	*pane; *fofoŋa; *qulu; *ʔulu; *'ulu	PPN; Latter form also means 'hair'. PEP *(ʔ)upoko. Honorific term fofoŋa.; PPN; Latter form also means 'hair'. PEP *(ʔ)upoko. Honorific term fofoŋa.; PPN; Latter form also means 'hair'. PEP *(ʔ)upoko. Honorific term fofoŋa.; PPN; Latter form also means 'hair'. PEP *(ʔ)upoko. Honorific term fofoŋa.; PPN; Latter form also means 'hair'. PEP *(ʔ)upoko. Honorific term fofoŋa.
+4	203	brain	*lolo	PPN
+4	204	face	**fofoŋa; haŋa; *mata	PPN; Respectively: 'honorific-face, eyes, mouth; face; face, eye'.; PPN; Respectively: 'honorific-face, eyes, mouth; face; face, eye'.; PPN; Respectively: 'honorific-face, eyes, mouth; face; face, eye'.
+4	205	forehead	*laʔe; *lae; *laqe; *raʔe; *faŋa	PPN; PPN; PPN; PPN; PPN
+4	207	jaw	taŋa; *kauʔahe; *kauqahe; *aqa; *aa	PPN; PNP *aʔa; PPN; PNP *aʔa; PPN; PNP *aʔa; PPN; PNP *aʔa; PPN; PNP *aʔa
+4	208	cheek	*kauʔahe; *kauqahe	PPN; PEP *pa(ʔ)a-pa(ʔ)ariŋ; PPN; PEP *pa(ʔ)a-pa(ʔ)ariŋ
+4	209	chin	*kauʔahe; *kauqahe; *kumi-kumi; *kumukumu; *taŋa; *vahe	PPN; PPN; PPN; PPN; PPN; PPN
+4	210	eye	*mata; *konohi; *kOnohi; *pula	PPN; First ex. also means 'face'. PEP *ko(o)no(f, s)i. Honorific term for eye: fofoŋa.; PPN; First ex. also means 'face'. PEP *ko(o)no(f, s)i. Honorific term for eye: fofoŋa.; PPN; First ex. also means 'face'. PEP *ko(o)no(f, s)i. Honorific term for eye: fofoŋa.; PPN; First ex. also means 'face'. PEP *ko(o)no(f, s)i. Honorific term for eye: fofoŋa.
+4	212	eyebrow	*kape	PPN
+4	213	eyelid	*lefa	PPN
+4	215	blink	*kamo	PPN
+4	220	ear	*roŋo; *taliŋa	PPN; Also 'hear'.; PPN; Also 'hear'.
+4	230	nose	*isu; *usu; *su	PPN; PPN; PPN
+4	232	mucus (nasal)	*isupeʔe; *isupeqe; *huupeqe; *tuŋu; *fiho	PPN; PPN *(iu∅)supeqe. PNP *suupeʔe. PEP tuŋu. PCP *luka. PCP *(iu∅)supe'e.; PPN; PPN *(iu∅)supeqe. PNP *suupeʔe. PEP tuŋu. PCP *luka. PCP *(iu∅)supe'e.; PPN; PPN *(iu∅)supeqe. PNP *suupeʔe. PEP tuŋu. PCP *luka. PCP *(iu∅)supe'e.; PPN; PPN *(iu∅)supeqe. PNP *suupeʔe. PEP tuŋu. PCP *luka. PCP *(iu∅)supe'e.; PPN; PPN *(iu∅)supeqe. PNP *suupeʔe. PEP tuŋu. PCP *luka. PCP *(iu∅)supe'e.
+4	240	mouth	*ŋutu; *ŋaa; *mafa; *fafa; *taŋa	PPN; Second and third forms are 'open the m'. PCP *kubu. Honorific term: fofoŋa.; PPN; Second and third forms are 'open the m'. PCP *kubu. Honorific term: fofoŋa.; PPN; Second and third forms are 'open the m'. PCP *kubu. Honorific term: fofoŋa.; PPN; Second and third forms are 'open the m'. PCP *kubu. Honorific term: fofoŋa.; PPN; Second and third forms are 'open the m'. PCP *kubu. Honorific term: fofoŋa.
+4	241	beak	*ŋutu	PPN
+4	260	tongue	*ʔalelo; *qalelo	PPN; PPN
+4	270	tooth	*nifo; *n-ifo	PPN; PPN
+4	280	neck	*uʔa; *uqa; *kia; *kakii	PPN; PNP *ka(a)kii; PPN; PNP *ka(a)kii; PPN; PNP *ka(a)kii; PPN; PNP *ka(a)kii
+4	281	nape of neck	*uqa; *uʔa	PPN; PPN
+4	290	throat	*taŋa; *uʔa; *kakii; *kia	PPN; PNP *ka(a)kii. 'Windpipe' kookoo.; PPN; PNP *ka(a)kii. 'Windpipe' kookoo.; PPN; PNP *ka(a)kii. 'Windpipe' kookoo.; PPN; PNP *ka(a)kii. 'Windpipe' kookoo.
+4	300	shoulder	*keke	PPN; PEP *pak(i, u)hiwi.
+4	310	arm	*liŋa	PPN
+4	312	armpit	*keekee; *keekee; *fine	PPN; PNP *(')afiŋa; *(q)afiŋa. PCP *(')aviga-.; PPN; PNP *(')afiŋa; *(q)afiŋa. PCP *(')aviga-.; PPN; PNP *(')afiŋa; *(q)afiŋa. PCP *(')aviga-.
+4	320	elbow	*siku	PPN
+4	330	hand	*lima; *liŋa	PPN; PPN
+4	340	finger	*mataa-lima; *matikuku; *lisi	PPN; PNP *matikuku; PPN; PNP *matikuku; PPN; PNP *matikuku
+4	344	fingernail	*maikuku	PPN
+4	345	claw	*kuku; *maikuku	PPN; First ex. means 'draw together, grasp'.; PPN; First ex. means 'draw together, grasp'.
+4	350	leg	*waqe; *waʔe	PPN; PCP *la(')a. *? *(')alaga. PPN *(q)alaŋa; PPN; PCP *la(')a. *? *(')alaga. PPN *(q)alaŋa
+4	351	thigh	*teŋa; *paka; *koihaŋa; *kuufaa	PPN; PCP *poke-'groin'; *(')alaga. PPN *(-)saŋa'female genitals'; *ko(iu)saŋa; *(q)alaŋa'(animal) thigh, leg'. PNP *fuufaa. PEP *(f, s)uufaa; PPN; PCP *poke-'groin'; *(')alaga. PPN *(-)saŋa'female genitals'; *ko(iu)saŋa; *(q)alaŋa'(animal) thigh, leg'. PNP *fuufaa. PEP *(f, s)uufaa; PPN; PCP *poke-'groin'; *(')alaga. PPN *(-)saŋa'female genitals'; *ko(iu)saŋa; *(q)alaŋa'(animal) thigh, leg'. PNP *fuufaa. PEP *(f, s)uufaa; PPN; PCP *poke-'groin'; *(')alaga. PPN *(-)saŋa'female genitals'; *ko(iu)saŋa; *(q)alaŋa'(animal) thigh, leg'. PNP *fuufaa. PEP *(f, s)uufaa
+4	360	knee	*turi	PPN
+4	370	foot	*waʔe; *va'e	PPN; PPN
+4	374	footprint	*tapu-waʔe	PPN
+4	380	toe	*matikuku	PPN
+4	392	wing	*kapakau; *kapa; *kapa-kapa	PPN; PNP *kopa 'flap w.'. PEP *pererau; PPN; PNP *kopa 'flap w.'. PEP *pererau; PPN; PNP *kopa 'flap w.'. PEP *pererau
+4	393	feather	*palaa; *fulu; *kula; *lawe	PPN; 'Tail-feather' is PCP *lawe-. PPN *lawe- 'tail-feather'; PPN; 'Tail-feather' is PCP *lawe-. PPN *lawe- 'tail-feather'; PPN; 'Tail-feather' is PCP *lawe-. PPN *lawe- 'tail-feather'; PPN; 'Tail-feather' is PCP *lawe-. PPN *lawe- 'tail-feather'
+4	400	chest	*fata-fata; *uma	PPN; PPN
+4	410	breast (of woman)	*huhu; *susu; *uma	PPN; PPN; PPN
+4	412	nipple, teat	*susu; *huhu	PPN; PPN
+4	430	navel	*uso; *iho; *pito	PPN; PPN; PPN
+4	440	heart	*finaŋalo	PPN; *PNP *fatu-manawa
+4	441	lung	*maʔa-maʔa; *maqamaqa	PPN; PPN
+4	450	liver	*ʔate; *qate	PPN; PPN
+4	451	kidney	*mape	PPN
+4	460	stomach	*koopuu; *koopoo; *kopu; *manawa; *ʔalo; *qalo; *kete; *kona; *tinaqe; *tinae; *tia	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+4	461	intestines, guts	*silo; *ŋaakau; *tinaqe; *tinae; *waawaa; *ma-nava; *fekafeka; *qalo; *ʔalo	PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a; PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a; PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a; PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a; PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a; PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a; PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a; PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a; PPN; PSO=PSM *wa(q)awa(q)a. PCP *wa(')a-wa(')a. PPN *wa(q)a-wa(q)a
+4	463	hip	*noko	PPN
+4	464	buttocks	*noko; tipi; *muri; *lemu; *sope	PPN; Last form is '(animal)b., after'. 'Anus' is PPN *faʔelu; *lemu; *silo. PNP *kootoze; PPN *kootole. 'Rump' PPN *fure.; PPN; Last form is '(animal)b., after'. 'Anus' is PPN *faʔelu; *lemu; *silo. PNP *kootoze; PPN *kootole. 'Rump' PPN *fure.; PPN; Last form is '(animal)b., after'. 'Anus' is PPN *faʔelu; *lemu; *silo. PNP *kootoze; PPN *kootole. 'Rump' PPN *fure.; PPN; Last form is '(animal)b., after'. 'Anus' is PPN *faʔelu; *lemu; *silo. PNP *kootoze; PPN *kootole. 'Rump' PPN *fure.; PPN; Last form is '(animal)b., after'. 'Anus' is PPN *faʔelu; *lemu; *silo. PNP *kootoze; PPN *kootole. 'Rump' PPN *fure.
+4	470	womb	*ewe	PPN; 'Placenta' PPN *fanua.
+4	490	testicle	*kala; *rie; *Lie; *laso	PPN; PPN; PPN; PPN
+4	492	penis	*ule	PPN; PCP *kula'circumcision'. PCP *puku'erect p., protrude, bulge'. PCP *baku 'uncircumcised, foreskin'. PCP *buku-'female genitals'.PPN *kula'circumcision'; *paku'foreskin'; PPN *(-)saŋa 'female genitals'
+4	510	breathe, breath	*ŋaa; *na; *ma-nawa; *maanawa; *mapu; *sela	PPN; Last two forms: 'breathe hard; gasp for breath'. PNP *pusa. PEP *saa; PPN; Last two forms: 'breathe hard; gasp for breath'. PNP *pusa. PEP *saa; PPN; Last two forms: 'breathe hard; gasp for breath'. PNP *pusa. PEP *saa; PPN; Last two forms: 'breathe hard; gasp for breath'. PNP *pusa. PEP *saa; PPN; Last two forms: 'breathe hard; gasp for breath'. PNP *pusa. PEP *saa; PPN; Last two forms: 'breathe hard; gasp for breath'. PNP *pusa. PEP *saa
+4	520	yawn, gape	*fakamaawaa	PPN; PCP *v-māwā.
+4	530	cough	*fuu; *male; *mle; *tale; *tuŋu	PPN; PEP *tuŋu; PPN; PEP *tuŋu; PPN; PEP *tuŋu; PPN; PEP *tuŋu; PPN; PEP *tuŋu
+4	540	sneeze	*tie; *tihe	PPN; PPN
+4	550	perspire	*kakawa; *kawa	PPN; PCP *kawa; *hou.; PPN; PCP *kawa; *hou.
+4	560	spit	*ʔaʔanu; *qaqanu; *suki; *puqaki; *ifo	PPN; PPN *(ka)kawa'sweat'. PPN *qanusi; *kalu; *wale. PNP *saavale. PEP *tufa. PCP *kawa; *wale.; PPN; PPN *(ka)kawa'sweat'. PPN *qanusi; *kalu; *wale. PNP *saavale. PEP *tufa. PCP *kawa; *wale.; PPN; PPN *(ka)kawa'sweat'. PPN *qanusi; *kalu; *wale. PNP *saavale. PEP *tufa. PCP *kawa; *wale.; PPN; PPN *(ka)kawa'sweat'. PPN *qanusi; *kalu; *wale. PNP *saavale. PEP *tufa. PCP *kawa; *wale.; PPN; PPN *(ka)kawa'sweat'. PPN *qanusi; *kalu; *wale. PNP *saavale. PEP *tufa. PCP *kawa; *wale.
+4	570	vomit	*lua; *lu-aki	PPN; PPN
+4	580	bite	*kati; *kom-i	PPN; *PPN *quuti *ʔuti. 'Gnaw, bite' *ŋali, *toŋi.; PPN; *PPN *quuti *ʔuti. 'Gnaw, bite' *ŋali, *toŋi.
+4	590	lick	*lami; *miti; *ʔepo; *qemo	PPN; *ʔemo; PPN; *ʔemo; PPN; *ʔemo; PPN; *ʔemo
+4	610	sleep	*pipiki; *mohe	PPN; PPN
+4	620	dream	*lika; *miti	PPN; PPN
+4	630	wake up	*ʔara; *mata-ʔara; *ofo; *hala; *fa; faŋu; *faṅu	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+4	640	break wind	*puu; *teʔe; *suu	PPN; PPN *si(i)sii'hiss'. PNP *suu; PPN; PPN *si(i)sii'hiss'. PNP *suu; PPN; PPN *si(i)sii'hiss'. PNP *suu
+4	650	urinate	*mimi; *mi	PPN; PPN *soŋo; sosoŋo 'smell of u.'. 'To sprinkle (spray, wet, urinate, pour)' afu afu; 'sprinkle water' pii pii.; PPN; PPN *soŋo; sosoŋo 'smell of u.'. 'To sprinkle (spray, wet, urinate, pour)' afu afu; 'sprinkle water' pii pii.
+4	660	defecate	*feka-feka; *ta'e; *taʔe; taqe; *teʔe; *tiko	PPN; PNP *pala; PPN; PNP *pala; PPN; PNP *pala; PPN; PNP *pala; PPN; PNP *pala; PPN; PNP *pala
+4	670	have sexual intercourse	*fai; *haqi; *oli; *oLi; *oni oni	PPN; PPN haqi; PPN; PPN haqi; PPN; PPN haqi; PPN; PPN haqi; PPN; PPN haqi
+4	680	shiver	*tete; *lifu; *ŋatali; *ŋaaluelue	PPN; PPN; PPN; PPN
+4	690	bathe	*kaukau; *lanu; *'anu	PPN; PPN; PPN
+4	720	born (to be)	*faanau; *fa-nau	PPN; PPN
+4	730	pregnant	*sapuu; *sapu; *hapuu	PPN; 'Swell, as pregnant' kune.; PPN; 'Swell, as pregnant' kune.; PPN; 'Swell, as pregnant' kune.
+4	740	live, living, life	*maʔuri; *maquri; *ola; *ʔuli; *ʔuʔi	PPN; PPN; PPN; PPN; PPN
+4	750	die, dead	*mate; *ma-mate; *kero; *'oti	PPN; PPN; PPN; PPN
+4	751	drowned	*lemo; le-lemo; *-lemo; *lemo; *malemo; *paremo	PPN; PEP *paremo; PPN; PEP *paremo; PPN; PEP *paremo; PPN; PEP *paremo; PPN; PEP *paremo; PPN; PEP *paremo
+4	770	corpse	*qaŋaqaŋa	PPN
+4	780	bury (the dead)	*tanu; *tano; *tanu; *fala	PPN; PPN; PPN; PPN
+4	790	grave, tomb	*fala	PPN
+4	810	strong, mighty, powerful	*kafa; *malosi; *mana; *mafi; *ta'a	PPN; PNP *ivi. PEP *pakari; PPN; PNP *ivi. PEP *pakari; PPN; PNP *ivi. PEP *pakari; PPN; PNP *ivi. PEP *pakari; PPN; PNP *ivi. PEP *pakari
+4	820	weak	*ŋo-ŋo; *wai-wai; *ŋaawari; *ŋase-ŋase; *loma	PPN; PNP *kopa; *saŋeŋe. PEP *hemo; *ru(f, s)i; PPN; PNP *kopa; *saŋeŋe. PEP *hemo; *ru(f, s)i; PPN; PNP *kopa; *saŋeŋe. PEP *hemo; *ru(f, s)i; PPN; PNP *kopa; *saŋeŋe. PEP *hemo; *ru(f, s)i; PPN; PNP *kopa; *saŋeŋe. PEP *hemo; *ru(f, s)i
+4	830	well, health	*ola	PPN
+4	840	sick, sickness	*maki; *masaki; *ma-saki; *mahaki; *ma-haki; *kafo; *lila	PPN; PEP *maauʔiuʔi; PPN; PEP *maauʔiuʔi; PPN; PEP *maauʔiuʔi; PPN; PEP *maauʔiuʔi; PPN; PEP *maauʔiuʔi; PPN; PEP *maauʔiuʔi; PPN; PEP *maauʔiuʔi
+4	850	wound, sore	*maki; *pala; *tane; *kafo	PPN; PEP *paka; PCP *mavoa. 'Scab' is PPN *paku; *paka.; PPN; PEP *paka; PCP *mavoa. 'Scab' is PPN *paku; *paka.; PPN; PEP *paka; PCP *mavoa. 'Scab' is PPN *paku; *paka.; PPN; PEP *paka; PCP *mavoa. 'Scab' is PPN *paku; *paka.
+4	852	bruise	*qunoko	PPN
+4	853	swelling	*pona; *fula; *pula; *puku; *puke; *puŋa; *poka; *tupu; *fuse; *kozopupuu	PPN; PCP *vuce.; PPN; PCP *vuce.; PPN; PCP *vuce.; PPN; PCP *vuce.; PPN; PCP *vuce.; PPN; PCP *vuce.; PPN; PCP *vuce.; PPN; PCP *vuce.; PPN; PCP *vuce.; PPN; PCP *vuce.
+4	854	itch	*fune; *maŋeo; *maqene; *maʔene	PPN; PPN; PPN; PPN
+4	855	blister	*kana; *kozopupuu	PPN; PPN
+4	856	boil (noun)	*-faa; *patu	PPN; PPN
+4	857	pus	*pilau; *pala	PPN; Latter is 'pustulous sore'. PNP *ʔatilo; ʔaukau; PPN; Latter is 'pustulous sore'. PNP *ʔatilo; ʔaukau
+4	858	scar	*patu; *kali	PPN; PPN
+4	860	cure, heal	*mafu; *ola	PPN; PPN
+4	910	tired, weary	*maanunu; *hemo	PPN; PEP *hemo; *ru(f, s)i; PPN; PEP *hemo; *ru(f, s)i
+4	912	rest	*tau; *toka; *okioki; *hili; *ili	PPN; PPN; PPN; PPN; PPN
+4	920	lazy	*noa	PPN
+4	930	bald	*kila; *ali; *mozi	PPN; PPN; PPN
+4	940	lame	*kopa; *koki; *maoa; *sape	PPN; PPN; PPN; PPN
+4	950	deaf	*tuli	PPN
+4	960	mute	*m-utu	PPN
+4	970	blind	*kui	PPN; PCP kui.
+4	980	intoxicated	*kona	PPN
+4	990	naked, bare	*tafaŋafaŋa	PPN
+5	110	eat	*ka; *kai; *kei; *faŋaʔi; *faŋa; *taumafa	PPN; PPN; PPN; PPN; PPN; PPN
+5	120	food	*ʔoho; *ʔoso; *qoso; *kai; *taumafa	PPN; 'Pudding made by mixing...' poke; cf. 'poi'.; PPN; 'Pudding made by mixing...' poke; cf. 'poi'.; PPN; 'Pudding made by mixing...' poke; cf. 'poi'.; PPN; 'Pudding made by mixing...' poke; cf. 'poi'.; PPN; 'Pudding made by mixing...' poke; cf. 'poi'.
+5	121	cooked	*rara; *maoa; *moso; *masa	PPN; PPN; PPN; PPN
+5	122	raw	*mata; *ʔota; *qota; *ota	PPN; PPN; PPN; PPN
+5	123	ripe	*pala; *leu; *makulu	PPN; PCP *dreu. 'Over-ripe' *peqe; *peʔe.; PPN; PCP *dreu. 'Over-ripe' *peqe; *peʔe.; PPN; PCP *dreu. 'Over-ripe' *peqe; *peʔe.
+5	124	green, unripe	*mata; *ota	PPN; PPN
+5	125	rotten	*pela; *pilo; *piLo; *pilau; *popo; *pala; *keza; *pizo	PPN; *? *maumau. PPN *maumau'wasted'; *popo'decay'; PPN; *? *maumau. PPN *maumau'wasted'; *popo'decay'; PPN; *? *maumau. PPN *maumau'wasted'; *popo'decay'; PPN; *? *maumau. PPN *maumau'wasted'; *popo'decay'; PPN; *? *maumau. PPN *maumau'wasted'; *popo'decay'; PPN; *? *maumau. PPN *maumau'wasted'; *popo'decay'; PPN; *? *maumau. PPN *maumau'wasted'; *popo'decay'; PPN; *? *maumau. PPN *maumau'wasted'; *popo'decay'
+5	130	drink	*unu; *inu; *inu	PPN; PCP *inu; PPN; PCP *inu; PPN; PCP *inu
+5	140	hunger	*hoŋe; *fiakai	PPN; PNP *ʔaukai; PPN; PNP *ʔaukai
+5	141	famine	*hoŋe	PPN
+5	160	suck	*huhu; *komo; *miti	PPN; PPN misi. *PEP *omo; PPN; PPN misi. *PEP *omo; PPN; PPN misi. *PEP *omo
+5	180	chew	*lam; *mama; *ŋali; *ŋau; *ŋuŋu	PPN; PPN; PPN; PPN; PPN
+5	181	swallow	*folo; *moni	PPN; PPN
+5	190	choke	*ku kumi	PPN; strangle
+5	210	cook	*taʔo; *neki; *tafu; *lala	PPN; 'Cook on open fire' *tunu.; PPN; 'Cook on open fire' *tunu.; PPN; 'Cook on open fire' *tunu.; PPN; 'Cook on open fire' *tunu.
+5	220	boil (vb)	*lili	PPN
+5	230	roast, fry	*tunu; *taʔo; *taqo; *faku; *paka	PPN; PPN; PPN; PPN; PPN
+5	240	bake	*taʔo	PPN
+5	250	oven	*ʔumu; *qumu; *haaŋii	PPN; PPN; PPN
+5	260	pot, cooking vessel	*kulo; *kuzo; *kuLo	PPN; PPN; PPN
+5	330	bowl	*taanoʔa; *taanoqa; *kumete	PPN; PCP *tākona'wooden kava b'.; PPN; PCP *tākona'wooden kava b'.; PPN; PCP *tākona'wooden kava b'.
+5	340	pitcher, jug	*ipu	PPN
+5	350	cup, drinking vessel	*ipu	PPN; 'Cup-like' *kapu.
+5	370	spoon	*ao; *sisi; *selu	PPN; PCP *ao'scoop'. PPN *sisi; *koko 'scoop'; *qasu; *asu 'ladle out'; PPN; PCP *ao'scoop'. PPN *sisi; *koko 'scoop'; *qasu; *asu 'ladle out'; PPN; PCP *ao'scoop'. PPN *sisi; *koko 'scoop'; *qasu; *asu 'ladle out'
+5	380	knife (2)	*sele	PPN
+5	430	lunch	*qoso; *ʔoo	PPN; 'Provisions for journey'.; PPN; 'Provisions for journey'.
+5	460	peel	*fule; *foke; *fohi; *hisi; *sisi; *tasi	PPN; *PNP *koolepe.; PPN; *PNP *koolepe.; PPN; *PNP *koolepe.; PPN; *PNP *koolepe.; PPN; *PNP *koolepe.; PPN; *PNP *koolepe.
+5	470	sieve, strain	*tupuqa	PPN
+5	480	scrape	*laku; *laku; *tasi; *waru; *salu; *falu; *maqa; *fazo; *kili; *sakalo; *saqalo; *saʔalo; *seru	PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.; PPN; PNP *tuai. PCP *solo'grate, rub hard'; *waku's. with hand'. PPN *holo'grate, grind'; *solo'rub'; *waku 'scrape, scratch w hand'.
+5	490	stir, mix	*firo; *nane; *natu; *nawa; *sola-sola; *kanoni; *seu	PPN; PNP *lapu; *poke.; PPN; PNP *lapu; *poke.; PPN; PNP *lapu; *poke.; PPN; PNP *lapu; *poke.; PPN; PNP *lapu; *poke.; PPN; PNP *lapu; *poke.; PPN; PNP *lapu; *poke.
+5	540	knead	*lapu; *nane; *natu; *oqi; *oʔi	PPN; PPN; PPN; PPN; PPN
+5	560	crush, grind	*holo; *ŋatu; *roqi; *oqi; *oʔi; *wari; *waLi	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+5	610	meat	*kakano; *kiko; *kanofi; *kan-o	PPN; PPN; PPN; PPN
+5	710	fruit	*fua; *pua	PPN; PPN
+5	712	bunch	*kau; *kofukofu; *kawei	PPN; PPN; PPN
+5	791	grease, fat	*sinu; *momona; *mOmona; *ŋako	PPN; PPN; PPN; PPN
+5	810	salt	*paatai	PPN; 'Salt water' PPN *miti.
+5	900	beverage, drink	*nu	PPN
+5	940	fermented drink	*maa; *mara; *masi; *m-asi; *m-ahi	PPN; PPN; PPN; PPN; PPN
+6	110	put on (clothes)	*tala; *kofu; *kafu; *sume; *hume	PPN; PPN; PPN; PPN; PPN
+6	120	clothing, clothes	*kafu; *kofu	PPN; PEP *puʔa. 'Loincloth' *malo.; PPN; PEP *puʔa. 'Loincloth' *malo.
+6	310	spin	*taka	PPN
+6	330	weave	*faʔu; *fatu; *la-laŋa; *tia	PPN; PPN; PPN; PPN
+6	350	sew	*tia; *tui	PPN; PPN
+6	360	needle	*sika; *hau; *sau; *kuti	PPN; First ex. is 'net needle'. 'Thorn' sui.; PPN; First ex. is 'net needle'. 'Thorn' sui.; PPN; First ex. is 'net needle'. 'Thorn' sui.; PPN; First ex. is 'net needle'. 'Thorn' sui.
+6	380	thread	*ʔatu; *afo; *kafa; *kaalawa; *makawe	PPN; PNP *makawe. Verbal form *tui.; PPN; PNP *makawe. Verbal form *tui.; PPN; PNP *makawe. Verbal form *tui.; PPN; PNP *makawe. Verbal form *tui.; PPN; PNP *makawe. Verbal form *tui.
+6	570	belt, girdle	*taatua; *kiekie	PPN; PPN
+6	710	ornament, adornment	*laakei; *niko	PPN; PPN
+6	730	ring (for finger)	*mama	PPN
+6	740	bracelet	*mama	PPN
+6	750	necklace	*kasoa; *lei; *Lei	PPN; PPN; PPN
+6	770	earring	*sau	PPN
+6	780	headband, headdress	*lemo; *pale; *puulou; *lave	PPN; PPN; PPN; PPN
+6	790	tattoo	*tatau; *tau	PPN; PPN
+6	910	comb	*selu	PPN
+6	921	braid	*firi; *filo; *tali	PPN; PPN; PPN
+6	960	mirror	*qata; *ʔata; *fakaata	PPN; PPN; PPN
+7	110	dwell, live	*toka; *nofo; *noho	PPN; PPN; PPN
+7	120	house	*fale	PPN; PEP *kali(f, s)i 'foundation wall of house'
+7	130	hut	*ruru; *LuLu	PPN; PCP *pa(')aruru'shelter from wind'; PPN; PCP *pa(')aruru'shelter from wind'
+7	180	meeting house	*malaqe; *malaʔe	PPN; PPN
+7	210	room	*kano; *loki	PPN; First ex. means 'inner part'.; PPN; First ex. means 'inner part'.
+7	270	wall	*ʔaa; *qaa; *pakitara	PPN; PCP *kaba(of house). PPN *qapa-qapa '(house)w'; PPN; PCP *kaba(of house). PPN *qapa-qapa '(house)w'; PPN; PCP *kaba(of house). PPN *qapa-qapa '(house)w'
+7	310	fireplace	*lafu; *'afu	PPN; PPN
+7	421	pillow	*ʔuluŋa; *ʔoluŋa; *kali	PPN; PPN; PPN
+7	450	lamp, torch	*rama; *sulu	PPN; PPN
+7	470	shelf	*fata	PPN
+7	510	roof	*ato	PPN
+7	520	thatch	*ʔato; *qato; *inaki; *rau	PPN; PCP *kapa'pieces of t., length of t.for wall'. PPN *kapa [covering???]; PPN; PCP *kapa'pieces of t., length of t.for wall'. PPN *kapa [covering???]; PPN; PCP *kapa'pieces of t., length of t.for wall'. PPN *kapa [covering???]; PPN; PCP *kapa'pieces of t., length of t.for wall'. PPN *kapa [covering???]
+7	530	ridgepole	*fufu; *taʔufufu; *tqfufu; *tʔfufu	PPN; PPN; PPN; PPN
+7	540	rafter	*kaso; *fatuŋa; *hoka	PPN; PPN; PPN
+7	550	beam	*fatuŋa	PPN; PCP *qutupot(ou); *'utupot(ou)'. PPN *qutupoto
+7	560	post, pole	*pou; *tia; *tia; *tia; *toko; *take	PPN; PCP *dia-'handle, shaft'. PPN *lohu 'fruit-plucking pole'.; PPN; PCP *dia-'handle, shaft'. PPN *lohu 'fruit-plucking pole'.; PPN; PCP *dia-'handle, shaft'. PPN *lohu 'fruit-plucking pole'.; PPN; PCP *dia-'handle, shaft'. PPN *lohu 'fruit-plucking pole'.; PPN; PCP *dia-'handle, shaft'. PPN *lohu 'fruit-plucking pole'.; PPN; PCP *dia-'handle, shaft'. PPN *lohu 'fruit-plucking pole'.
+7	570	board	*papa	PPN
+7	580	arch	*aze; *ale	PPN; PPN
+8	130	garden	*were; *maqala; *maʔala	PPN; PPN; PPN
+8	150	cultivate, till	*suo; *mafi	PPN; PPN
+8	160	fence	*paa; *pa; *ʔaa; *kolo; *taŋa; *qaa	PPN; PPN; PPN; PPN; PPN; PPN
+8	170	ditch	*salia; *haalia; *lua	PPN; PPN; PPN
+8	210	plow	*salu	PPN
+8	220	dig	*kli; *keli; *kaLi; *kenu; *kazi; *ketu	PPN; PPN *koho; *koso; *koo 'dig, digging stick'.; PPN; PPN *koho; *koso; *koo 'dig, digging stick'.; PPN; PPN *koho; *koso; *koo 'dig, digging stick'.; PPN; PPN *koho; *koso; *koo 'dig, digging stick'.; PPN; PPN *koho; *koso; *koo 'dig, digging stick'.; PPN; PPN *koho; *koso; *koo 'dig, digging stick'.
+8	250	hoe	*suo	PPN
+8	260	fork	*saŋa; *fana; *mana; *kausaŋa; *maŋamaŋa	PPN; PPN; PPN; PPN; PPN
+8	311	seed	*kano; *fuero; *pulapula; *pula	PPN; 'Core, kernel' *qalito; *uso; *patu.; PPN; 'Core, kernel' *qalito; *uso; *patu.; PPN; 'Core, kernel' *qalito; *uso; *patu.; PPN; 'Core, kernel' *qalito; *uso; *patu.
+8	410	crop, harvest	*utu; *fuat-a	PPN; PPN
+8	510	grass	*mhuku; *mahuku; *suku	PPN; PCP *mo(')a. PPN mo(q)a; PPN; PCP *mo(')a. PPN mo(q)a; PPN; PCP *mo(')a. PPN mo(q)a
+8	531	plant (vb)	*tanu; *tanu; *tano; *tou; *feki	PPN; PPN; PPN; PPN; PPN
+8	540	root	*aka	PPN; PNP *paki-aka. 'Taproot' *mole.
+8	550	branch	*maŋa; *raʔa-raʔa; *peka; *laʔa	PPN; PPN *faqa 'stalk'. PEP *peka. 'Small branch' *laqa.; PPN; PPN *faqa 'stalk'. PEP *peka. 'Small branch' *laqa.; PPN; PPN *faqa 'stalk'. PEP *peka. 'Small branch' *laqa.; PPN; PPN *faqa 'stalk'. PEP *peka. 'Small branch' *laqa.
+8	560	leaf	*lau; *pele	PPN; PPN *sulu(i) 'dried l.' 'Coconut leaf' *tapakau; *niikau; 'plaited coconut leaf' *pola .; PPN; PPN *sulu(i) 'dried l.' 'Coconut leaf' *tapakau; *niikau; 'plaited coconut leaf' *pola .
+8	570	flower	*pua; *fiti; *see; *tiale; *funa	PPN; 'Hibiscus' *fau.; PPN; 'Hibiscus' *fau.; PPN; 'Hibiscus' *fau.; PPN; 'Hibiscus' *fau.; PPN; 'Hibiscus' *fau.
+8	600	tree	*kau	PPN
+8	670	vine	*fue; *aka	PPN; PPN
+8	730	tree trunk	*puʔu; *puu; *fuʔu; *tumu; *take; *tafito; *kau	PPN; 'Stalk' is *faʔa; *faqa. 'Origin, beginning, cause, basis, trunk' PPN *tumu; *tafito; *take; *pu(q)u.; PPN; 'Stalk' is *faʔa; *faqa. 'Origin, beginning, cause, basis, trunk' PPN *tumu; *tafito; *take; *pu(q)u.; PPN; 'Stalk' is *faʔa; *faqa. 'Origin, beginning, cause, basis, trunk' PPN *tumu; *tafito; *take; *pu(q)u.; PPN; 'Stalk' is *faʔa; *faqa. 'Origin, beginning, cause, basis, trunk' PPN *tumu; *tafito; *take; *pu(q)u.; PPN; 'Stalk' is *faʔa; *faqa. 'Origin, beginning, cause, basis, trunk' PPN *tumu; *tafito; *take; *pu(q)u.; PPN; 'Stalk' is *faʔa; *faqa. 'Origin, beginning, cause, basis, trunk' PPN *tumu; *tafito; *take; *pu(q)u.; PPN; 'Stalk' is *faʔa; *faqa. 'Origin, beginning, cause, basis, trunk' PPN *tumu; *tafito; *take; *pu(q)u.
+8	750	bark	*tapa; *ao; *koo	PPN; 'Barkcloth' PPN *tapa; siapo.; PPN; 'Barkcloth' PPN *tapa; siapo.; PPN; 'Barkcloth' PPN *tapa; siapo.
+8	760	sap	*pulu	PPN; PNP *pia-pia, *pia. 'Coconut oil/ sap' *lolo.
+8	810	palm tree	*piu	PPN
+8	820	coconut	*niu; *erehi	PPN; PPN *qota. 'Coconut shell container' is *pu(')u-pu(')u. Coconut flesh *penu. 'Sprouting c.' *quto; *ʔuto.; PPN; PPN *qota. 'Coconut shell container' is *pu(')u-pu(')u. Coconut flesh *penu. 'Sprouting c.' *quto; *ʔuto.
+8	830	citrus fruit	*moli	PPN
+8	840	banana tree	*futi	PPN; Means 'banana'. Also *pata; *meika.
+8	850	banyan	*qaoa	PPN
+8	910	sweet potato	*kumala; *kumala; *kao; *moi; *moI; *hamo	PPN; PPN; PPN; PPN; PPN; PPN
+8	912	yam	*ʔufi; *qufi	PPN; PCP *puke-'mound of sweet potato, manioc'.; PPN; PCP *puke-'mound of sweet potato, manioc'.
+8	940	bamboo	*kofe	PPN
+8	941	sugar cane	*too	PPN; 'Reed' PPN *kaso; *kuta.
+8	970	nettle	*salato; *sa-lato	PPN; PPN
+9	110	do, make	*fai; *saŋa; *tafu; *saka; *fatu; *mafi	PPN; PPN; PPN; PPN; PPN; PPN
+9	120	work	*mafi	PPN
+9	140	bend	*fatu; *numi; *noku; *loku; *piko; *pelu; *ŋaofe	PPN; PNP *kopi; kolu; *lipi; PPN; PNP *kopi; kolu; *lipi; PPN; PNP *kopi; kolu; *lipi; PPN; PNP *kopi; kolu; *lipi; PPN; PNP *kopi; kolu; *lipi; PPN; PNP *kopi; kolu; *lipi; PPN; PNP *kopi; kolu; *lipi
+9	150	fold	*pelu; *mapelu; *noku; *loku; *kolu; *fatu; *numi; *lipi; *kopi	PPN; PCP *puli'form into ball, shape, f.together, mold'; PPN; PCP *puli'form into ball, shape, f.together, mold'; PPN; PCP *puli'form into ball, shape, f.together, mold'; PPN; PCP *puli'form into ball, shape, f.together, mold'; PPN; PCP *puli'form into ball, shape, f.together, mold'; PPN; PCP *puli'form into ball, shape, f.together, mold'; PPN; PCP *puli'form into ball, shape, f.together, mold'; PPN; PCP *puli'form into ball, shape, f.together, mold'; PPN; PCP *puli'form into ball, shape, f.together, mold'
+9	160	tie, bind	*faʔu; *faqu; *fau; *fus-i; *futu; *kawei; *saqi; *saʔi; *lawa; *lilii; *takai	PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka; PPN; PPN *noqa. PNP *lulu; *sumu. PEP *fii-tiki. PCP *moko; *noka
+9	161	untie	*tala; wete	PPN; PPN
+9	190	rope, cord	*tai; *maea; *afo; *tali; *kalihi; *awe; *makawe; *kaalawa; *fenu	PPN; PNP *kali(f, s)i.; PPN; PNP *kali(f, s)i.; PPN; PNP *kali(f, s)i.; PPN; PNP *kali(f, s)i.; PPN; PNP *kali(f, s)i.; PPN; PNP *kali(f, s)i.; PPN; PNP *kali(f, s)i.; PPN; PNP *kali(f, s)i.; PPN; PNP *kali(f, s)i.
+9	192	knot (noun)	*patu; *pona; *puku	PPN; PEP *koʔu. See 'joint, limb'.; PPN; PEP *koʔu. See 'joint, limb'.; PPN; PEP *koʔu. See 'joint, limb'.
+9	210	strike (hit, beat)	*paa; *palo; *sau; *sasa; *taa; *tuki	PPN; PPN *fusu; *naapaqa. PNP *kulu; patu. PCP *vucu. PCP *jau. PCP *(bv)acu. PCP *na(a)pa'a'slap'. 'Beat down' kini. 'Tapa beater' ike.; PPN; PPN *fusu; *naapaqa. PNP *kulu; patu. PCP *vucu. PCP *jau. PCP *(bv)acu. PCP *na(a)pa'a'slap'. 'Beat down' kini. 'Tapa beater' ike.; PPN; PPN *fusu; *naapaqa. PNP *kulu; patu. PCP *vucu. PCP *jau. PCP *(bv)acu. PCP *na(a)pa'a'slap'. 'Beat down' kini. 'Tapa beater' ike.; PPN; PPN *fusu; *naapaqa. PNP *kulu; patu. PCP *vucu. PCP *jau. PCP *(bv)acu. PCP *na(a)pa'a'slap'. 'Beat down' kini. 'Tapa beater' ike.; PPN; PPN *fusu; *naapaqa. PNP *kulu; patu. PCP *vucu. PCP *jau. PCP *(bv)acu. PCP *na(a)pa'a'slap'. 'Beat down' kini. 'Tapa beater' ike.; PPN; PPN *fusu; *naapaqa. PNP *kulu; patu. PCP *vucu. PCP *jau. PCP *(bv)acu. PCP *na(a)pa'a'slap'. 'Beat down' kini. 'Tapa beater' ike.
+9	211	pound with fist	*palu; *penu	PPN; PPN *moto 'strike with fist'.; PPN; PPN *moto 'strike with fist'.
+9	220	cut	*motu; *mutu; *ko-koti; *koti; *sele; *tafa; *tipi; *tope	PPN; PCP *puru.; PPN; PCP *puru.; PPN; PCP *puru.; PPN; PCP *puru.; PPN; PCP *puru.; PPN; PCP *puru.; PPN; PCP *puru.; PPN; PCP *puru.
+9	221	cut down	*kini; *tua	PPN; PPN
+9	222	chop, hew	*sau; *talai; *tALai; alisi	PPN; 'Pulverized' PPN *fufu; *popo.; PPN; 'Pulverized' PPN *fufu; *popo.; PPN; 'Pulverized' PPN *fufu; *popo.; PPN; 'Pulverized' PPN *fufu; *popo.
+9	223	stab	*suki; *soka; *hoka; *humaki; *welo; *pau; *pahu	PPN; PPN *kupu; *fohu; *sulu; *qati; *tomo. PNP *ko(h)o 'piercing instrument'.; PPN; PPN *kupu; *fohu; *sulu; *qati; *tomo. PNP *ko(h)o 'piercing instrument'.; PPN; PPN *kupu; *fohu; *sulu; *qati; *tomo. PNP *ko(h)o 'piercing instrument'.; PPN; PPN *kupu; *fohu; *sulu; *qati; *tomo. PNP *ko(h)o 'piercing instrument'.; PPN; PPN *kupu; *fohu; *sulu; *qati; *tomo. PNP *ko(h)o 'piercing instrument'.; PPN; PPN *kupu; *fohu; *sulu; *qati; *tomo. PNP *ko(h)o 'piercing instrument'.; PPN; PPN *kupu; *fohu; *sulu; *qati; *tomo. PNP *ko(h)o 'piercing instrument'.
+9	230	knife	*sele; *kofe; *polo; *mata	PPN; *mata; *ni(i)ao; *nihi is 'cutting edge'.; PPN; *mata; *ni(i)ao; *nihi is 'cutting edge'.; PPN; *mata; *ni(i)ao; *nihi is 'cutting edge'.; PPN; *mata; *ni(i)ao; *nihi is 'cutting edge'.
+9	240	scissors, shears	*kuti	PPN; 'To shear' *ko koti; *tefe.
+9	250	ax	*matau; *toki; *lipi	PPN; PPN; PPN
+9	251	adze	*toki; *alisi	PPN; PNP *(ʔ)a(a)lisi.; PPN; PNP *(ʔ)a(a)lisi.
+9	260	break	*koto; *fati; *foa; *tofo; *poka	PPN; 'To burst' *paa.; PPN; 'To burst' *paa.; PPN; 'To burst' *paa.; PPN; 'To burst' *paa.; PPN; 'To burst' *paa.
+9	261	broken	*foha	PPN
+9	270	split	*fasi; *fasi; *matata; *sana; *kapiti; *kali; *sae	PPN; PCP *kola'split w wedge'. PPN *fasi; *qola'wedge'; PPN; PCP *kola'split w wedge'. PPN *fasi; *qola'wedge'; PPN; PCP *kola'split w wedge'. PPN *fasi; *qola'wedge'; PPN; PCP *kola'split w wedge'. PPN *fasi; *qola'wedge'; PPN; PCP *kola'split w wedge'. PPN *fasi; *qola'wedge'; PPN; PCP *kola'split w wedge'. PPN *fasi; *qola'wedge'; PPN; PCP *kola'split w wedge'. PPN *fasi; *qola'wedge'
+9	280	tear	*ewe; *masae; *sae	PPN; PCP *sae-∅.; PPN; PCP *sae-∅.; PPN; PCP *sae-∅.
+9	290	flay, skin	*fohi; *sole; *fufu; *hisi; *hoLe	PPN; 'strip off'; PPN; 'strip off'; PPN; 'strip off'; PPN; 'strip off'; PPN; 'strip off'
+9	310	rub, wipe	*solo; *olo; *faro; *amo; *mulu; *mili; *kana; *pani	PPN; PPN *qu(hs)i.; PPN; PPN *qu(hs)i.; PPN; PPN *qu(hs)i.; PPN; PPN *qu(hs)i.; PPN; PPN *qu(hs)i.; PPN; PPN *qu(hs)i.; PPN; PPN *qu(hs)i.; PPN; PPN *qu(hs)i.
+9	320	stretch	*faloo; *fAloo; *pekapeka	PPN; PPN; PPN
+9	340	spread out	*fola; *fola; *fola; *malufa; *mafela; *feLa; *na'a; *'atu; *Laha; *lala	PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'; PPN; PPN *kapu 'spread over, surrounded, enveloped'
+9	341	hang up	*hili; *safe; *zewa; *Lewa	PPN; PNP *leva; *Lewa; PPN; PNP *leva; *Lewa; PPN; PNP *leva; *Lewa; PPN; PNP *leva; *Lewa
+9	342	press	*koko; *lomi; *taʔomi; *ŋatu	PPN; PPN; PPN; PPN
+9	343	squeeze, wring	*fota; *kopi; *koko; *kum-aki; *kum-i; *ku kumi; *taqomi; *taʔomi; *lomi	PPN; PNP *ku-kumi. 'To press with hand' *kom-i.; PPN; PNP *ku-kumi. 'To press with hand' *kom-i.; PPN; PNP *ku-kumi. 'To press with hand' *kom-i.; PPN; PNP *ku-kumi. 'To press with hand' *kom-i.; PPN; PNP *ku-kumi. 'To press with hand' *kom-i.; PPN; PNP *ku-kumi. 'To press with hand' *kom-i.; PPN; PNP *ku-kumi. 'To press with hand' *kom-i.; PPN; PNP *ku-kumi. 'To press with hand' *kom-i.; PPN; PNP *ku-kumi. 'To press with hand' *kom-i.
+9	350	pour	*liŋi; *pua	PPN; PPN suqi 'dilute'; PPN; PPN suqi 'dilute'
+9	360	wash	*soloi; *fano; *fulu; *tafi; *tapi	PPN; 'Rinse' PPN *tafi, *tapi. 'Wash hands' fanofano.; PPN; 'Rinse' PPN *tafi, *tapi. 'Wash hands' fanofano.; PPN; 'Rinse' PPN *tafi, *tapi. 'Wash hands' fanofano.; PPN; 'Rinse' PPN *tafi, *tapi. 'Wash hands' fanofano.; PPN; 'Rinse' PPN *tafi, *tapi. 'Wash hands' fanofano.
+9	370	sweep	*tafi	PPN
+9	380	broom	*safu	PPN
+9	460	bore	*wili; *fao	PPN; PPN
+9	461	hollow out	*leke; *poko	PPN; PPN
+9	480	saw	*kili	PPN
+9	500	nail	*faqo; *titi	PPN; PPN
+9	560	glue	*pili; *pulu; *piki; *pia pia	PPN; PPN *pulu 'resin, gum'. Also *lama; ʔama.; PPN; PPN *pulu 'resin, gum'. Also *lama; ʔama.; PPN; PPN *pulu 'resin, gum'. Also *lama; ʔama.; PPN; PPN *pulu 'resin, gum'. Also *lama; ʔama.
+9	720	mold (clay etc)	*puŋa	PPN; PPN *puli 'shape, mold'
+9	750	weave, plait	*firi; *nino; *tali; taLi	PPN; PPN; PPN; PPN
+9	760	basket	*kato; *kete; *lafi	PPN; PPN; PPN
+9	770	mat	*fala; *kie; *kiekie; *fatuŋa; ʔepa; *faaliki; *pola	PPN; 'Coconut leaf mat' *tapakau.; PPN; 'Coconut leaf mat' *tapakau.; PPN; 'Coconut leaf mat' *tapakau.; PPN; 'Coconut leaf mat' *tapakau.; PPN; 'Coconut leaf mat' *tapakau.; PPN; 'Coconut leaf mat' *tapakau.; PPN; 'Coconut leaf mat' *tapakau.
+9	780	netbag	*taŋa; *tan-a; *kaka; *kete; *puutee; *pute	PPN; 'Mesh of net' mata.; PPN; 'Mesh of net' mata.; PPN; 'Mesh of net' mata.; PPN; 'Mesh of net' mata.; PPN; 'Mesh of net' mata.; PPN; 'Mesh of net' mata.
+9	790	fan (noun)	*fue; *pekahi; *taʔili; *taqili; *ili	PPN; PPN; PPN; PPN; PPN
+9	810	carve	*talai; *taLai	PPN; PPN
+9	830	statue	*afua; *tiki; *ata	PPN; First ex. means 'form, figure, shape'.; PPN; First ex. means 'form, figure, shape'.; PPN; First ex. means 'form, figure, shape'.
+9	840	chisel	*toŋi	PPN
+9	880	paint (noun)	*pani	PPN
+9	890	paint (vb)	*peta; *tosi; *tusi	PPN; PPN; PPN
+10	110	move	*firi; *keu; *oni oni	PPN; PNP *koni; neke-neke; PPN; PNP *koni; neke-neke; PPN; PNP *koni; neke-neke
+10	120	turn over	*tafuli; *tulki; *sua; *fuli; *fili; *taafiti; *ketu	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+10	130	turn around	*liu; *winli; *kaapui; *kapu; *liko; *puni; *taŋa; *faliu; *liu; *fuli; *haŋa; *teka; *fati; *fuli	PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.; PPN; PPN *Vfoli. PEP *poti. PCP *Vvoli.
+10	140	wind, wrap	*kapu; *kaapui; *kofu; *a-fo; *afi; *lilii; *Lii; *LiLi; *takai; *pookai; *kope; *punu; *puni	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+10	150	roll	*teka; *fili; *lulu	PPN; PPN; PPN
+10	170	twist	*piko; *wili; *miŋi; *lino; *nino; *fenu; *filo; *milo; *kawiri	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+10	210	rise	*eʔa; *eqa; *malaŋa	PPN; PNP *fanake. PEP *(ʔ)araŋa; PPN; PNP *fanake. PEP *(ʔ)araŋa; PPN; PNP *fanake. PEP *(ʔ)araŋa
+10	220	raise, lift	*ketu; *liaki; *sapai; *siki; *laŋa; *mašiki; *masiki; *sua; *sili	PPN; 'Lift onto head' *suʔu.; PPN; 'Lift onto head' *suʔu.; PPN; 'Lift onto head' *suʔu.; PPN; 'Lift onto head' *suʔu.; PPN; 'Lift onto head' *suʔu.; PPN; 'Lift onto head' *suʔu.; PPN; 'Lift onto head' *suʔu.; PPN; 'Lift onto head' *suʔu.; PPN; 'Lift onto head' *suʔu.
+10	230	fall	*makulu; *siŋa; *opa; *lutu	PPN; PCP *paku(')u'thud, splash, bang, deep noise'.; PPN; PCP *paku(')u'thud, splash, bang, deep noise'.; PPN; PCP *paku(')u'thud, splash, bang, deep noise'.; PPN; PCP *paku(')u'thud, splash, bang, deep noise'.
+10	240	drip	*tulu; *zu; *sali	PPN; PPN; PPN
+10	250	throw	*maka; *nou; *piu; *fiu; *tili; *tolo; *liaki; *welo	PPN; PPN *fiu'fling'. PNP *tii; *ʔa(a)kili 'throw away'; PPN; PPN *fiu'fling'. PNP *tii; *ʔa(a)kili 'throw away'; PPN; PPN *fiu'fling'. PNP *tii; *ʔa(a)kili 'throw away'; PPN; PPN *fiu'fling'. PNP *tii; *ʔa(a)kili 'throw away'; PPN; PPN *fiu'fling'. PNP *tii; *ʔa(a)kili 'throw away'; PPN; PPN *fiu'fling'. PNP *tii; *ʔa(a)kili 'throw away'; PPN; PPN *fiu'fling'. PNP *tii; *ʔa(a)kili 'throw away'; PPN; PPN *fiu'fling'. PNP *tii; *ʔa(a)kili 'throw away'
+10	252	catch (ball)	*sapo	PPN; PCP *sapo'catch'.
+10	260	shake	*nini; *oʔi; *oqi; *ŋaue; *natali; *ŋatali; *ŋaaluelue; *lulu; *luluu; *lue; *tete; *mania; *poze; *poLe	PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole; PPN; PNP *pole
+10	320	flow	*tafe; *pihi; *sali; *pua	PPN; 'Current, flow' *qau; *ʔau; *'au(s).; PPN; 'Current, flow' *qau; *ʔau; *'au(s).; PPN; 'Current, flow' *qau; *ʔau; *'au(s).; PPN; 'Current, flow' *qau; *ʔau; *'au(s).
+10	330	sink	*asu; *lom-aki; *lom-i; *luku; *ŋoto	PPN; PPN; PPN; PPN; PPN
+10	340	float	*manu; *maaŋi; *ma-ʔanu; *'anu; *maqanu; *ope; *tere; *uto; *zewa; *Lewa	PPN; PNP *leva.; PPN; PNP *leva.; PPN; PNP *leva.; PPN; PNP *leva.; PPN; PNP *leva.; PPN; PNP *leva.; PPN; PNP *leva.; PPN; PNP *leva.; PPN; PNP *leva.; PPN; PNP *leva.
+10	350	swim	*kaukau; *kau	PPN; PPN
+10	351	dive	*sopu; *ruku; *luku; *lom-aki; *lom-i	PPN; PCP *jobu.; PPN; PCP *jobu.; PPN; PCP *jobu.; PPN; PCP *jobu.; PPN; PCP *jobu.
+10	370	fly (vb)	*lele; *kopa	PPN; 'Flying fish' *maalolo.; PPN; 'Flying fish' *maalolo.
+10	380	blow	*ani; *aŋi; *pusi; *pus-i; *pu-pu; *falala; *ifi; *muze; *sawili; *paa	PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.; PPN; PPN *muze; *pisi; *pisi-kia 'splash, squirt'; *pusi; PPN *aŋina'blown away'. PCP *pusi. PCP *pu(q)u'raspberry, trumpet'. PCP *pu(')u'make noise by b'. PCP *yaginia'blown away'.
+10	410	creep, crawl	*neke neke	PPN
+10	420	slide, slip	*solo; *seke	PPN; PPN
+10	430	jump, leap	*fiti; *lele; *rei; *Lei; *sopo; *panau; *ʔoso	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+10	431	kick	*ʔaka; *qaka; *sake	PPN; PPN; PPN
+10	440	dance	*mako; *saka; *sak-a; *sea; *kapa; *huLa	PPN; PPN *meqe. PNP *kapa. PEP *fula; PPN; PPN *meqe. PNP *kapa. PEP *fula; PPN; PPN *meqe. PNP *kapa. PEP *fula; PPN; PPN *meqe. PNP *kapa. PEP *fula; PPN; PPN *meqe. PNP *kapa. PEP *fula; PPN; PPN *meqe. PNP *kapa. PEP *fula
+10	450	walk	*laka; *fano; *maliu; *qalu; *lao; *roo; *saqele; *sAʔele; *takafi	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+10	451	limp	*tipa; *luli; *LuLi	PPN; PPN; PPN
+10	460	run	*lele; *kifu	PPN; PCP *kiv(iu).; PPN; PCP *kiv(iu).
+10	470	go	*fano; *laka; *maliu; *ʔalu; *roo; *saʔele	PPN; PPN; PPN; PPN; PPN; PPN
+10	471	go up	*hake; *ato; *fa-nake; *fa-nai	PPN; PPN; PPN; PPN
+10	472	climb	*ato; *heke; *hake; *sake; *ake; *kake; *piki; *fanai	PPN; PNP *fa-nake; PPN; PNP *fa-nake; PPN; PNP *fa-nake; PPN; PNP *fa-nake; PPN; PNP *fa-nake; PPN; PNP *fa-nake; PPN; PNP *fa-nake; PPN; PNP *fa-nake
+10	473	go down	*solo	PPN
+10	480	come	*maliu; *saqu	PPN; PPN
+10	481	come back	*foki; *maliu; *fuli	PPN; PPN; PPN
+10	490	go away, depart	*masuq; *tuku; *walho	PPN; PNP *fiu'fling'. PCP *(bv)iu'leave, throw away'.; PPN; PNP *fiu'fling'. PCP *(bv)iu'leave, throw away'.; PPN; PNP *fiu'fling'. PCP *(bv)iu'leave, throw away'.
+10	491	disappear	*ŋalo; *nimo; *numi	PPN; PEP *numi; PPN; PEP *numi; PPN; PEP *numi
+10	510	flee	*roo; *halu; *kalo; *sao; *sola	PPN; PPN *sao 'escaped'. PCP *drō; 'escape, free' *sao. 'Refuge' punaŋa.; PPN; PPN *sao 'escaped'. PCP *drō; 'escape, free' *sao. 'Refuge' punaŋa.; PPN; PPN *sao 'escaped'. PCP *drō; 'escape, free' *sao. 'Refuge' punaŋa.; PPN; PPN *sao 'escaped'. PCP *drō; 'escape, free' *sao. 'Refuge' punaŋa.; PPN; PPN *sao 'escaped'. PCP *drō; 'escape, free' *sao. 'Refuge' punaŋa.
+10	520	follow	*ʔalu; *qalu; *fai	PPN; PPN *(q)usi. PNP *fai; PPN; PPN *(q)usi. PNP *fai; PPN; PPN *(q)usi. PNP *fai
+10	550	reach, arrive	*hoko; *soko; *tae; *lau	PPN; PPN; PPN; PPN
+10	560	approach	*fotu; *ofi ofi	PPN; PPN
+10	570	enter	*huru; *ofi-ofi; *tomo; *tama	PPN; PNP *tomo. PSS *sulupa. PCP *curu.; PPN; PNP *tomo. PSS *sulupa. PCP *curu.; PPN; PNP *tomo. PSS *sulupa. PCP *curu.; PPN; PNP *tomo. PSS *sulupa. PCP *curu.
+10	610	carry (bear)	*kawe; *ʔavatu; *fafa; *tali; *sapai	PPN; PPN *uta; *fua(t) 'load, cargo'. PNP *sa(a)pa. PCP *(')adi.; PPN; PPN *uta; *fua(t) 'load, cargo'. PNP *sa(a)pa. PCP *(')adi.; PPN; PPN *uta; *fua(t) 'load, cargo'. PNP *sa(a)pa. PCP *(')adi.; PPN; PPN *uta; *fua(t) 'load, cargo'. PNP *sa(a)pa. PCP *(')adi.; PPN; PPN *uta; *fua(t) 'load, cargo'. PNP *sa(a)pa. PCP *(')adi.
+10	613	carry-on-shoulder	*fafa; *fua; *ʔamo; *qamo	PPN; PPN *sole; *papa; *fafa'carry on back'; PPN; PPN *sole; *papa; *fafa'carry on back'; PPN; PPN *sole; *papa; *fafa'carry on back'; PPN; PPN *sole; *papa; *fafa'carry on back'
+10	630	send	*fekau	PPN; 'Message, report'.
+10	640	lead (vb)	*taki; *ala	PPN; PPN
+10	650	drive	*folau	PPN; 'Sea travel'.
+10	670	push, shove	*keu; *tule; *take; *pau; *pahu	PPN; PPN *tule(kq)i; *tono. PEP tute 'push away'. PCP *tono'poke'; *tule.; PPN; PPN *tule(kq)i; *tono. PEP tute 'push away'. PCP *tono'poke'; *tule.; PPN; PPN *tule(kq)i; *tono. PEP tute 'push away'. PCP *tono'poke'; *tule.; PPN; PPN *tule(kq)i; *tono. PEP tute 'push away'. PCP *tono'poke'; *tule.; PPN; PPN *tule(kq)i; *tono. PEP tute 'push away'. PCP *tono'poke'; *tule.
+10	720	path	*hala; *hala; *sala; *te-a	PPN; 'To make path' *foa.; PPN; 'To make path' *foa.; PPN; 'To make path' *foa.; PPN; 'To make path' *foa.
+10	740	bridge	*te-a	PPN
+10	810	ship	*pola	PPN
+10	830	boat	*waka; *vaka; *folau	PPN; 'Craft, sea-going' fouzua.; PPN; 'Craft, sea-going' fouzua.; PPN; 'Craft, sea-going' fouzua.
+10	831	canoe	*waka	PPN; PPN *katea '(canoe)side opposite outrigger'. 'Canoe shed' *folau.
+10	832	outrigger	*ama; *hama; *sama	PPN; PPN; PPN
+10	840	raft	*kiato	PPN
+10	850	oar	ʔalo	PPN; PPN *sua 'scull'
+10	851	paddle (noun)	*fohe; *qalo	PPN; PPN *paki'ornamental paddle'.; PPN; PPN *paki'ornamental paddle'.
+10	852	row (vb)	*qalo	PPN
+10	860	rudder	*uli	PPN
+10	870	mast	*tila; *fanaa	PPN; PPN
+10	880	sail (noun)	*laa; *tere	PPN; PPN
+10	910	harbor, port	*taulaŋa	PPN
+11	110	have	*fai	PPN
+11	120	own, possess	*no	PPN; Possessive particle *to(o); *na(a); *nA; *tO; *n(i).
+11	130	take	*toʔo; *toqo; *saru; *lilo; *lauka	PPN; PPN *saqu; *tali 'receive'. PNP *kape. PCP *tari.; PPN; PPN *saqu; *tali 'receive'. PNP *kape. PCP *tari.; PPN; PPN *saqu; *tali 'receive'. PNP *kape. PCP *tari.; PPN; PPN *saqu; *tali 'receive'. PNP *kape. PCP *tari.; PPN; PPN *saqu; *tali 'receive'. PNP *kape. PCP *tari.
+11	140	seize, grasp	*kapo; *hapo; *sapo; *puke; *lasu; *saru; *sopu; *kuku; *siko; *piki; *kape	PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu; PPN; PNP *apu
+11	150	hold	*sapo; *sopu; *piki; *lafi; *lapi	PPN; 'Hold in hand' *kum-aki; *kum-i.; PPN; 'Hold in hand' *kum-aki; *kum-i.; PPN; 'Hold in hand' *kum-aki; *kum-i.; PPN; 'Hold in hand' *kum-aki; *kum-i.; PPN; 'Hold in hand' *kum-aki; *kum-i.
+11	180	thing	*meqa; *meʔa; *me-a; *afa	PPN; PPN; PPN; PPN
+11	210	give	*foo; *foaki; *hoo; *fo-aki; *soli; *qatu	PPN; *TO *ʔatu. PNP *soli; *ʔavatu, 'give away'. PCP *soli.; PPN; *TO *ʔatu. PNP *soli; *ʔavatu, 'give away'. PCP *soli.; PPN; *TO *ʔatu. PNP *soli; *ʔavatu, 'give away'. PCP *soli.; PPN; *TO *ʔatu. PNP *soli; *ʔavatu, 'give away'. PCP *soli.; PPN; *TO *ʔatu. PNP *soli; *ʔavatu, 'give away'. PCP *soli.; PPN; *TO *ʔatu. PNP *soli; *ʔavatu, 'give away'. PCP *soli.
+11	270	destroy	*solo; *ofa	PPN; First ex.means 'crash, collapse'.; PPN; First ex.means 'crash, collapse'.
+11	280	harm, injure, damage	*mafoa; *kaŋa	PPN; PEP kaŋa. PCP *mavoa'wounded'.; PPN; PEP kaŋa. PCP *mavoa'wounded'.
+11	310	seek, look for	*kumi; *kmi; *uŋa; *sala	PPN; PSO *sala. PCP *cara.; PPN; PSO *sala. PCP *cara.; PPN; PSO *sala. PCP *cara.; PPN; PSO *sala. PCP *cara.
+11	520	poor	*mativa; *matiwa; *wewe	PPN; PPN; PPN
+11	530	beggar	*hu	PPN
+11	650	pay (vb)	*totoŋi; *utu	PPN; PPN
+11	780	wages	*utu	PPN
+11	810	buy	*hoko	PPN; PEP *hoko
+11	820	sell	*hoko	PPN; PEP *hoko
+11	830	trade, barter	*tau	PPN
+11	870	price	*tau	PPN
+11	890	cheap	*noa	PPN
+11	910	share (distribute)	*taki-; *wase; *wahe; *maawae; *tufa; *tusa	PPN; PPN; PPN; PPN; PPN; PPN
+11	920	weigh	*fua	PPN
+12	11	behind	*muri	PPN
+12	30	down, below	*hifo; *ifo; *lalo	PPN; PPN; PPN
+12	40	before	*ʔaro; *tuai; *muqa; *muʔa	PPN; PPN; PPN; PPN
+12	41	front	*muʔa; *muqa; *tuai; *haŋa; *qaro; *ʔaro; *'alo	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+12	50	inside, in	*lalo; *lo; *loto; *poko; *i	PPN; Means 'underneath' (cf. go, walk).; PPN; Means 'underneath' (cf. go, walk).; PPN; Means 'underneath' (cf. go, walk).; PPN; Means 'underneath' (cf. go, walk).; PPN; Means 'underneath' (cf. go, walk).
+12	60	outside	*fafo	PPN
+12	70	under	*lalo	PPN
+12	80	up, above	*fafo; *hake; *luŋa; *ʔaluŋa	PPN; PEP *(ʔ)araŋa; PPN; PEP *(ʔ)araŋa; PPN; PEP *(ʔ)araŋa; PPN; PEP *(ʔ)araŋa
+12	110	place	*waa; *faʔasi; *faqasi; *i; *mea	PPN; PPN *afu 'raised place'; PPN; PPN *afu 'raised place'; PPN; PPN *afu 'raised place'; PPN; PPN *afu 'raised place'; PPN; PPN *afu 'raised place'
+12	120	put	*tuku; *tau	PPN; PPN means 'put down'. PPN *sulu; *hurumaki; *fa, faqo; *fafaʔo'insert, put into'.; PPN; PPN means 'put down'. PPN *sulu; *hurumaki; *fa, faqo; *fafaʔo'insert, put into'.
+12	130	sit	*nofo; *noho; *toka; *lolo	PPN; Cf. 'squat' with 'defecate' (position connected with function). 'Squat, hunch, sit' lofa(t).; PPN; Cf. 'squat' with 'defecate' (position connected with function). 'Squat, hunch, sit' lofa(t).; PPN; Cf. 'squat' with 'defecate' (position connected with function). 'Squat, hunch, sit' lofa(t).; PPN; Cf. 'squat' with 'defecate' (position connected with function). 'Squat, hunch, sit' lofa(t).
+12	140	lie down	*takoto; *ta; koto	PPN; PCP *koto. 'Lie open towards' *paarara; *paaLaLa.; PPN; PCP *koto. 'Lie open towards' *paarara; *paaLaLa.; PPN; PCP *koto. 'Lie open towards' *paarara; *paaLaLa.
+12	150	stand	*tuʔu; *tuqu; *sako	PPN; PPN; PPN
+12	160	remain, stay	*nofo	PPN; PCP *novo; *no(')o.
+12	170	remains, left overs	*toe; *toeŋa	PPN; PPN
+12	210	collect, gather	*fono; *haʔo; *sao; *luku; *mui; *tanaki; *toli; *kofi; *kato; *faki; *futi; *fut-i	PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.; PPN; PCP *cokotia.
+12	212	pick up	*kato; *faki; *toli	PPN; PPN; PPN
+12	213	pile up	afu; *puke. *pil	PPN; PEP *ahu; PPN; PEP *ahu
+12	220	join, unite	*soko; *sokosoko; *ao; *toli; *anaki; *saʔi; *fono; *pili; *fuhi; *kaapiti; *kapiti; *lafo	PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi; PPN; PPN *sokotia 'gathered together'. PNP *kofi
+12	230	separate	*maawae; *wahe; *wase; *masuʔie; *masuq	PPN; PPN; PPN; PPN; PPN
+12	232	divide	maawae; *faʔasi; *wahe; *wase	PPN; PPN; PPN; PPN
+12	240	open	*puu; *are-are; *fuke; *fela; *feLa; *mafela; *Laha	PPN; PPN *mama 'open, of mouth'; PPN; PPN *mama 'open, of mouth'; PPN; PPN *mama 'open, of mouth'; PPN; PPN *mama 'open, of mouth'; PPN; PPN *mama 'open, of mouth'; PPN; PPN *mama 'open, of mouth'; PPN; PPN *mama 'open, of mouth'
+12	250	shut, close	*kopiti; *pono	PPN; PPN
+12	260	cover	*kofu; *kafu; *hafu; *ʔufi; *qufi; *puni; *puipui: *kapu; *kapi; *poki; *uta; *həb; *kəpi	PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.; PPN; PPN *puului; *fuke'uncover'. PNP *poki; (ʔ)uta. PEP *puʔa; *puuroku, 'cover head'. PCP *'u(bv)i. PCP *pu(u)ru'shelter, shield, protect'.
+12	270	hide, conceal	*fuu; *fun-a; *lilo; *mumuni; *muni; *puni; *punaŋa	PPN; PNP *funa; PEP *numi; PPN; PNP *funa; PEP *numi; PPN; PNP *funa; PEP *numi; PPN; PNP *funa; PEP *numi; PPN; PNP *funa; PEP *numi; PPN; PNP *funa; PEP *numi; PPN; PNP *funa; PEP *numi
+12	310	high	*tike; *afu	PPN; 'raised place, elevation'; PPN; 'raised place, elevation'
+12	330	top	*tumu; *sili; *ata; *foṅ-a; *nihi; *nii; *fafo	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+12	350	end	*siku; *iku; *potu; *mutu; *lato	PPN; PEP *tisi (*tifi) ? See also 'tail, point, extremity'.; PPN; PEP *tisi (*tifi) ? See also 'tail, point, extremity'.; PPN; PEP *tisi (*tifi) ? See also 'tail, point, extremity'.; PPN; PEP *tisi (*tifi) ? See also 'tail, point, extremity'.; PPN; PEP *tisi (*tifi) ? See also 'tail, point, extremity'.
+12	352	pointed	*popo; *tusi; *mata; *tii; *tihi; *tala	PPN; PNP *tifi. PEP *ke(ʔ)o; PPN; PNP *tifi. PEP *ke(ʔ)o; PPN; PNP *tifi. PEP *ke(ʔ)o; PPN; PNP *tifi. PEP *ke(ʔ)o; PPN; PNP *tifi. PEP *ke(ʔ)o; PPN; PNP *tifi. PEP *ke(ʔ)o
+12	353	edge	*tapa; *tafa; *niao; *niao; *nIao; *nihi; *nii; *pae; *kau; *lipi; *fatuŋa	PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.; PPN; Latter ex. means 'rim'.
+12	360	side	*tafa; *tapa; *paʔasi; *kau; *pae	PPN; PPN *tafo; *kaokao 'side of canoe or anything; ribs, boundary'. PCP *tavo.; PPN; PPN *tafo; *kaokao 'side of canoe or anything; ribs, boundary'. PCP *tavo.; PPN; PPN *tafo; *kaokao 'side of canoe or anything; ribs, boundary'. PCP *tavo.; PPN; PPN *tafo; *kaokao 'side of canoe or anything; ribs, boundary'. PCP *tavo.; PPN; PPN *tafo; *kaokao 'side of canoe or anything; ribs, boundary'. PCP *tavo.
+12	410	right (side)	*mataʔu; *mataqu; *ma-ta'u; *kataʔu; *katau; *kAtau	PPN; PEP *katau; PPN; PEP *katau; PPN; PEP *katau; PPN; PEP *katau; PPN; PEP *katau; PPN; PEP *katau
+12	420	left (side)	*mauii; *sema; *kaui	PPN; PCP *sema.; PPN; PCP *sema.; PPN; PCP *sema.
+12	430	near (adv)	*tata; *ofi-ofi; *pili; *nei	PPN; PNP *nei; PPN; PNP *nei; PPN; PNP *nei; PPN; PNP *nei
+12	440	far (adv)	*mamaʔo; *mamaqo; *tafiti; *laa; *hau	PPN; PPN; PPN; PPN; PPN
+12	450	east	*hake; *sasake	PPN; PPN
+12	460	west	*sisifo; *laki	PPN; sun ???; PPN; sun ???
+12	470	north	*tokelau	PPN
+12	480	south	*toŋa	PPN
+12	530	grow	*tupu; *somo; *tili	PPN; PPN; PPN
+12	540	measure	*rofa; *lofa; *'ofa	PPN; A fathom.; PPN; A fathom.; PPN; A fathom.
+12	541	span, fathom	*haŋa; *rofa; *saṅa; *haṅa	PPN; A measure of 10 fathoms: kumi.; PPN; A measure of 10 fathoms: kumi.; PPN; A measure of 10 fathoms: kumi.; PPN; A measure of 10 fathoms: kumi.
+12	550	large, big	*nui; *lasi; *poka; *ʔuke; *kafa	PPN; PNP *nui; *ʔefa. 'Enlarge' teni.; PPN; PNP *nui; *ʔefa. 'Enlarge' teni.; PPN; PNP *nui; *ʔefa. 'Enlarge' teni.; PPN; PNP *nui; *ʔefa. 'Enlarge' teni.; PPN; PNP *nui; *ʔefa. 'Enlarge' teni.
+12	560	small, little	*riki; *iti; *liki; *riki; *kisi; *mata-liki; *qiti	PPN; PNP *moku; *ʔiti; PPN; PNP *moku; *ʔiti; PPN; PNP *moku; *ʔiti; PPN; PNP *moku; *ʔiti; PPN; PNP *moku; *ʔiti; PPN; PNP *moku; *ʔiti; PPN; PNP *moku; *ʔiti
+12	570	long	*loa	PPN
+12	590	short	*poto	PPN; PCP *leka. PPN leka'short, dwarf'
+12	610	wide, broad	*laulasi; *lapa; *laupapa; *faalasi	PPN; PPN; PPN; PPN
+12	620	narrow	*oho; *kopiti	PPN; PPN
+12	630	thick (in dimension)	*matolu; *matolu; *newenewe	PPN; PPN; PPN
+12	650	thin (in dimension)	*ale-ale; *manifi; *ʔaŋo-ʔaŋo; *lila; *pakau	PPN; PNP *aŋo.; PPN; PNP *aŋo.; PPN; PNP *aŋo.; PPN; PNP *aŋo.; PPN; PNP *aŋo.
+12	670	deep	*ŋoto; *fofonu	PPN; PEP *fofonu.; PPN; PEP *fofonu.
+12	680	shallow	*m-asa	PPN
+12	710	flat	*papa; *lafa; *lafa-lafa; *lapa; *laupapa; *kaupapa; *malena; *lata; *fafo	PPN; PPN *(lr)apa; PPN; PPN *(lr)apa; PPN; PPN *(lr)apa; PPN; PPN *(lr)apa; PPN; PPN *(lr)apa; PPN; PPN *(lr)apa; PPN; PPN *(lr)apa; PPN; PPN *(lr)apa; PPN; PPN *(lr)apa
+12	730	straight	*sako	PPN
+12	740	crooked	*sisi; *nasa; *loku; *piko; *mapelu; *ŋaofe; *teke	PPN; See also 'bend' 09.140. 'Asymmetrical' PPN sapa.; PPN; See also 'bend' 09.140. 'Asymmetrical' PPN sapa.; PPN; See also 'bend' 09.140. 'Asymmetrical' PPN sapa.; PPN; See also 'bend' 09.140. 'Asymmetrical' PPN sapa.; PPN; See also 'bend' 09.140. 'Asymmetrical' PPN sapa.; PPN; See also 'bend' 09.140. 'Asymmetrical' PPN sapa.; PPN; See also 'bend' 09.140. 'Asymmetrical' PPN sapa.
+12	750	hook	*laʔu; *laqu; *lohu	PPN; PPN; PPN
+12	760	corner	*tuliki; *kona; *siku	PPN; PNP *kona.; PPN; PNP *kona.; PPN; PNP *kona.
+12	810	round	*taka; *pae; *po	PPN; PPN; PPN
+12	820	circle	*taka; *teka; *liko	PPN; 'Coil' pookai. 'Curly' *miŋi; *kopa. 'Surround' *poti; *kaapui; *kapu; *liko; *puni; *taŋa.; PPN; 'Coil' pookai. 'Curly' *miŋi; *kopa. 'Surround' *poti; *kaapui; *kapu; *liko; *puni; *taŋa.; PPN; 'Coil' pookai. 'Curly' *miŋi; *kopa. 'Surround' *poti; *kaapui; *kapu; *liko; *puni; *taŋa.
+12	830	sphere, ball	*patu	PPN; 'To make into ball' *po(e, i); *poopoo. Numeral classifier (spherical) PPN *fuaʔi, *foʔi.
+12	840	line	*qatu; *ʔatu; *kaalawa	PPN; PPN; PPN
+12	850	hole	*puta; *poko; *puu; *leke; *lua; *lu; *fao; *ŋutu	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+12	920	like, similar	*pe; *pE; *fela; *pela; *tusa; *lite; *Lite	PPN; PPN *pa(q)u. PEP *lite. PCP *ba(')u.; PPN; PPN *pa(q)u. PEP *lite. PCP *ba(')u.; PPN; PPN *pa(q)u. PEP *lite. PCP *ba(')u.; PPN; PPN *pa(q)u. PEP *lite. PCP *ba(')u.; PPN; PPN *pa(q)u. PEP *lite. PCP *ba(')u.; PPN; PPN *pa(q)u. PEP *lite. PCP *ba(')u.; PPN; PPN *pa(q)u. PEP *lite. PCP *ba(')u.
+13	10	one	*taha; *ha; *sa; *se; *tasi	PPN; PNP *tasi.; PPN; PNP *tasi.; PPN; PNP *tasi.; PPN; PNP *tasi.; PPN; PNP *tasi.
+13	20	two	*rua; *lua; *rie; *Lie; *'ua	PPN; PPN; PPN; PPN; PPN
+13	30	three	*tolu; *tolo; *tou	PPN; PPN; PPN
+13	40	four	*faa; *fa	PPN; PPN
+13	50	five	*lima	PPN
+13	60	six	*ono	PPN
+13	70	seven	*fitu	PPN
+13	80	eight	*walu; *valu	PPN; PPN
+13	90	nine	*hiwa; *siwa; *siva; *hiva	PPN; Sch *hiva.; PPN; Sch *hiva.; PPN; Sch *hiva.; PPN; Sch *hiva.
+13	100	ten	*haŋafulu; *fulu; *hafe	PPN; PPN; PPN
+13	104	twenty	*tekau	PPN; PCPPAW RuaNavui.
+13	105	hundred	*rau; *au; *lau; *hafe	PPN; PPN; PPN; PPN
+13	106	thousand	*afe; *lefu	PPN; PPN
+13	107	count	*pau	PPN; 'Numeral particle' soko(soko).
+13	140	every, all	*katoa; *lako	PPN; PPN *Nqoti. PSO *qoti. PCP (*NV)'oti.; PPN; PPN *Nqoti. PSO *qoti. PCP (*NV)'oti.
+13	150	much, many	*mano; *ma-no; *mahu; *lawa; *lau; *nanea; *lasi	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+13	180	enough	*lawa; *nanea	PPN; PPN
+13	190	multitude, crowd	*tini; *kapi; *kapikapi; *ʔapiʔapi; *nuku	PPN; 'Association of people' PPN *mata. 'Crowded' *pupu; *putu putu.; PPN; 'Association of people' PPN *mata. 'Crowded' *pupu; *putu putu.; PPN; 'Association of people' PPN *mata. 'Crowded' *pupu; *putu putu.; PPN; 'Association of people' PPN *mata. 'Crowded' *pupu; *putu putu.; PPN; 'Association of people' PPN *mata. 'Crowded' *pupu; *putu putu.
+13	210	full	*fonu; *fofonu; *kanoni; *kapi; *fiu; *kona; *musu	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+13	220	empty	*ʔaŋoʔaŋo; *fua	PPN; PPN
+13	230	part, piece	*tape; *koŋa; *mala; *maawae	PPN; PPN; PPN; PPN
+13	330	alone, only	*anake; *l-ava; *soko-; *hoko; *hua	PPN; *PNN *kehe'different, unusual'.; PPN; *PNN *kehe'different, unusual'.; PPN; *PNN *kehe'different, unusual'.; PPN; *PNN *kehe'different, unusual'.; PPN; *PNN *kehe'different, unusual'.
+13	340	first	*matua	PPN; PNP *matua(aki). PCP *t(ae)iV
+14	130	new	*foʔou; *foqou *fo'ou; *fou	PPN; PPN; PPN
+14	140	young	*pi; *pii	PPN; PPN
+14	150	old	*tafito; *tupuqa; *tupuʔa; *tuai	PPN; PPN; PPN; PPN
+14	180	now	*ni	PPN
+14	210	swift, fast, quick	*wawe; *solo; *soLo	PPN; PPN; PPN
+14	250	begin, beginning	*kamata	PPN
+14	252	last, endure	*maqu; *maʔu	PPN; PPN
+14	270	finish	*qoti; *ʔoti; *qotiV; *lawa; *iku; *potu; *mutu; *lato	PPN; PCP *V'oti'finished, already'.; PPN; PCP *V'oti'finished, already'.; PPN; PCP *V'oti'finished, already'.; PPN; PCP *V'oti'finished, already'.; PPN; PCP *V'oti'finished, already'.; PPN; PCP *V'oti'finished, already'.; PPN; PCP *V'oti'finished, already'.; PPN; PCP *V'oti'finished, already'.
+14	280	cease, stop	*'oti	PPN
+14	310	always	*tauV	PPN
+14	320	often	*sokosoko; *soko	PPN; PPN
+14	331	soon	*taiV	PPN
+14	332	long-time (for a)	*tuai; *leva	PPN; PPN
+14	350	again	*Vfoki; *foki; *toe; *toe	PPN; PCP *Vvoki'again, also'.; PPN; PCP *Vvoki'again, also'.; PPN; PPN; PCP *Vvoki'again, also'.; PNP; PPN; PPN; PCP *Vvoki'again, also'.
+14	410	day	*ʔaho; *qaho; *aho; *ʔaso; *aso; *qaso	PPN; PPN 'day, sun'. PNP *(ʔ)awatea.; PPN; PPN 'day, sun'. PNP *(ʔ)awatea.; PPN; PPN 'day, sun'. PNP *(ʔ)awatea.; PPN; PPN 'day, sun'. PNP *(ʔ)awatea.; PPN; PPN 'day, sun'. PNP *(ʔ)awatea.; PPN; PPN 'day, sun'. PNP *(ʔ)awatea.
+14	420	night	*poo; *poṅi; *po	PPN; PPN *pooŋia 'overcome by night'; *poŋi(poŋi) 'early morning, dawn'; PPN; PPN *pooŋia 'overcome by night'; *poŋi(poŋi) 'early morning, dawn'; PPN; PPN *pooŋia 'overcome by night'; *poŋi(poŋi) 'early morning, dawn'
+14	430	dawn	*maliko; *maLiko; *ata; *seŋ	PPN; PPN; PPN; PPN
+14	440	morning	*poŋi-poŋi	PPN; PCP *bogi-bogi.
+14	460	evening	*afi-afi; *afi; *poŋipoŋi; *maliko; *liko; *Liko	PPN; PNP *(ʔ)awatea.; PPN; PNP *(ʔ)awatea.; PPN; PNP *(ʔ)awatea.; PPN; PNP *(ʔ)awatea.; PPN; PNP *(ʔ)awatea.; PPN; PNP *(ʔ)awatea.
+14	470	today	*kua	PPN
+14	480	tomorrow	*poŋi-poŋi; *aapoŋi-poŋi	PPN; PPN
+14	481	day-after-tomorrow	*-ina	PPN
+14	490	yesterday	*anaafi; *ana; nafi; *nafi; *qana-poo	PPN; PPN; PPN; PPN; PPN
+14	491	day-before-yesterday	*-ina	PPN
+14	710	month	*malama	PPN
+14	730	year	*ta'u	PPN
+14	780	season	*taʔu; *taqu	PPN; PPN
+15	210	smell (vb intrans)	*namu; *soŋi; *sauŋa	PPN; PSO *puqi. PPN *puqi. PCP *bu'i.; PPN; PSO *puqi. PPN *puqi. PCP *bu'i.; PPN; PSO *puqi. PPN *puqi. PCP *bu'i.
+15	250	fragrant, good smelling	*ka-kala; *m-aṅon-i; *manoni; *manoṅi	PPN; PPN; PPN; PPN
+15	260	stinking, bad smelling	*ʔelo; *qelo; *pulau; *pilau; *pizo; *piLo	PPN; PCP *poa'smell of fish'; PPN; PCP *poa'smell of fish'; PPN; PCP *poa'smell of fish'; PPN; PCP *poa'smell of fish'; PPN; PCP *poa'smell of fish'; PPN; PCP *poa'smell of fish'
+15	310	taste	*namu; *kamata	PPN; PPN
+15	350	sweet	*maaŋazo; *suqamlie; *ma-mi	PPN; PPN; PPN
+15	360	salty	*maʔai	PPN
+15	370	bitter	*masa; *kawa; *kona; *fehu	PPN; PPN; PPN; PPN
+15	380	acid, sour	*kawa; *kona; *mara; *m-asi; *m-ahi; *masa	PPN; PCP *wīwī. PPN *wii(wii). PNP *maʔai.; PPN; PCP *wīwī. PPN *wii(wii). PNP *maʔai.; PPN; PCP *wīwī. PPN *wii(wii). PNP *maʔai.; PPN; PCP *wīwī. PPN *wii(wii). PNP *maʔai.; PPN; PCP *wīwī. PPN *wii(wii). PNP *maʔai.; PPN; PCP *wīwī. PPN *wii(wii). PNP *maʔai.
+15	410	hear	*roŋo; *fanoŋo; *faloŋo; *lono; *loṅo; *'ono; *nono	PPN; PCP *varogo.; PPN; PCP *varogo.; PPN; PCP *varogo.; PPN; PCP *varogo.; PPN; PCP *varogo.; PPN; PCP *varogo.; PPN; PCP *varogo.
+15	420	listen	*fanoŋolife	PPN
+15	440	sound, noise	*olo; *koo; *kulu; *ṅulu; *lili; *kekekeke; *patatoo; *palalaa; *pAtatoo	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+15	460	quiet, silence	*loŋo; *liŋo; *liṅo; *ruru; *LuLu; *maluu; *malie; *manino; *nia; *maa; *mlino; *ma-lino; *naqa; *naʔa	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+15	510	see	*mata; *kite	PPN; PNP *fee-kite'see indistinctly'.; PPN; PNP *fee-kite'see indistinctly'.
+15	520	look, look at	*tiro; *pula	PPN; PPN
+15	550	show	*tusi	PPN
+15	560	shine	*kikila; *ŋiŋila; *pula; *kama; *tapa; *sina; *hina; *soata; *qali; *aLi; *qaatea; *tafaŋafaŋa; *malena; *maqa; *maʔa; *fola	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+15	570	bright	*marama	PPN; See 'shine'
+15	610	color	*kano	PPN
+15	620	light (in color)	*moka moka	PPN
+15	630	dark (in color)	*ʔuli; *quli; *kiwa; *tako	PPN; PEP *kiwa; *tako; *paku; PPN; PEP *kiwa; *tako; *paku; PPN; PEP *kiwa; *tako; *paku; PPN; PEP *kiwa; *tako; *paku
+15	640	white	*teko; *moka-moka; *tea; *pute-a; *mote-a	PPN; PPN *sina 'white-haired'.; PPN; PPN *sina 'white-haired'.; PPN; PPN *sina 'white-haired'.; PPN; PPN *sina 'white-haired'.; PPN; PPN *sina 'white-haired'.
+15	650	black	*kele; *paʔo; *ʔuli; *quli	PPN; PEP *kele; *kiwa; *paŋo; *siwa; *hiwa.; PPN; PEP *kele; *kiwa; *paŋo; *siwa; *hiwa.; PPN; PEP *kele; *kiwa; *paŋo; *siwa; *hiwa.; PPN; PEP *kele; *kiwa; *paŋo; *siwa; *hiwa.
+15	660	red	*kula; *mea; *mea; *m-ila; *kefu; *kefukefu; *feLo	PPN; PPN; PPN; PPN; PPN; PPN; PPN
+15	670	blue	*usi; ʔusi	PPN; PEP *uhi.; PPN; PEP *uhi.
+15	680	green	*mata	PPN
+15	690	yellow	*reŋareŋa; *reŋa; *seṅa; *felo	PPN; PPN *kesa 'yellowish'. PNP *leŋaleŋa.; PPN; PPN *kesa 'yellowish'. PNP *leŋaleŋa.; PPN; PPN *kesa 'yellowish'. PNP *leŋaleŋa.; PPN; PPN *kesa 'yellowish'. PNP *leŋaleŋa.
+15	710	touch	*paa; *faa-faa; *paki; *amo; *kawei	PPN; *? *tari. PPN *tali'receive'; PPN; *? *tari. PPN *tali'receive'; PPN; *? *tari. PPN *tali'receive'; PPN; *? *tari. PPN *tali'receive'; PPN; *? *tari. PPN *tali'receive'
+15	712	pinch	*kini; *laqu; *laʔu	PPN; PPN; PPN
+15	720	feel	*fia	PPN
+15	750	soft	*faro; *malena; *mole-mole; *mozi; *ŋaele; *ŋolu; *peʔe	PPN; PPN *maluu. PNP *mania. PEP *ni(ʔ)a.; PPN; PPN *maluu. PNP *mania. PEP *ni(ʔ)a.; PPN; PPN *maluu. PNP *mania. PEP *ni(ʔ)a.; PPN; PPN *maluu. PNP *mania. PEP *ni(ʔ)a.; PPN; PPN *maluu. PNP *mania. PEP *ni(ʔ)a.; PPN; PPN *maluu. PNP *mania. PEP *ni(ʔ)a.; PPN; PPN *maluu. PNP *mania. PEP *ni(ʔ)a.
+15	760	rough	*feke-feke	PPN
+15	780	sharp	*popo; *kohi; *koi; *tala	PPN; PEP *ke(ʔ)o.; PPN; PEP *ke(ʔ)o.; PPN; PEP *ke(ʔ)o.; PPN; PEP *ke(ʔ)o.
+15	790	blunt, dull	*pusuki; *paku	PPN; PPN
+15	810	heavy	*mamafa; *ma-fa	PPN; PPN
+15	820	light (in weight)	*maʔamaʔa; *maqamaqa; *m-aʔa	PPN; PPN; PPN
+15	830	wet, damp	*lali; *LaLi; *palapala; *suu; *su; *su-a; *siu; *puzu; *puLu	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+15	840	dry	paku; *paka; *pakaka; *masa; *masa; *maha; *'ano	PPN; PEP *paka.; PPN; PEP *paka.; PPN; PEP *paka.; PPN; PEP *paka.; PPN; PEP *paka.; PPN; PEP *paka.; PPN; PEP *paka.
+15	850	hot	*rara; *wela; *ʔafu; *qafu; *fana; *mafana; *kasa; *kaha	PPN; PEP *paarara.; PPN; PEP *paarara.; PPN; PEP *paarara.; PPN; PEP *paarara.; PPN; PEP *paarara.; PPN; PEP *paarara.; PPN; PEP *paarara.; PPN; PEP *paarara.
+15	851	warm	*maafana; *mafana; *ma-fana	PPN; PPN *qafu; PPN; PPN *qafu; PPN; PPN *qafu
+15	860	cold	*ʔanu; *qanu; *makalili; *makaLiLi; *lili	PPN; PPN; PPN; PPN; PPN
+15	870	clean	*maʔa; *saʔalo	PPN; PPN
+15	880	dirty, soiled	*keza; *liko; *pela; *fela; *pala-pala; *sawa	PPN; PNP *pala.; PPN; PNP *pala.; PPN; PNP *pala.; PPN; PNP *pala.; PPN; PNP *pala.; PPN; PNP *pala.
+15	890	wrinkled	*kolu; *kalu; *poli	PPN; PPN; PPN
+16	110	soul, spirit	*ʔana-ʔana; *feqao; *qaitu; *aitu; *maquri; *maʔuri; *qaŋaqaŋa; *ma-nava; *vai-lua	PPN; PCP 'alo-. PPN *qalo.; PPN; PCP 'alo-. PPN *qalo.; PPN; PCP 'alo-. PPN *qalo.; PPN; PCP 'alo-. PPN *qalo.; PPN; PCP 'alo-. PPN *qalo.; PPN; PCP 'alo-. PPN *qalo.; PPN; PCP 'alo-. PPN *qalo.; PPN; PCP 'alo-. PPN *qalo.; PPN; PCP 'alo-. PPN *qalo.
+16	150	surprised, astonished	*ofo	PPN
+16	180	good fortune, luck	*manuuqia; *ma-tua	PPN; PPN
+16	230	joyful, glad, happy	*fali; *mali; *koLi; *fiu; *kona	PPN; PPN; PPN; PPN; PPN
+16	250	laugh	*kata; *sisi	PPN; PPN
+16	251	smile	*ni	PPN; 'Bare the teeth' is *ŋis.
+16	260	play	*takalo	PPN
+16	270	love	*fia; *finaŋalo; *hofi; *kolo; *manako; *ʔaloʔofa; *qaloqofa; *ʔalo; *pele	PPN; PNP *ofia; pole. PEP *mina; PPN; PNP *ofia; pole. PEP *mina; PPN; PNP *ofia; pole. PEP *mina; PPN; PNP *ofia; pole. PEP *mina; PPN; PNP *ofia; pole. PEP *mina; PPN; PNP *ofia; pole. PEP *mina; PPN; PNP *ofia; pole. PEP *mina; PPN; PNP *ofia; pole. PEP *mina; PPN; PNP *ofia; pole. PEP *mina
+16	290	kiss	*soŋi	PPN; PCP *'uma. PPN *quma
+16	300	embrace	*nani; *amo; *afi	PPN; PPN; PPN
+16	310	pain	*suki; *mamae	PPN; PPN *kakaa'hurt'; *kai. PNP *mamae; *sa(ʔ)e 'intense suffering'.; PPN; PPN *kakaa'hurt'; *kai. PNP *mamae; *sa(ʔ)e 'intense suffering'.
+16	330	anxiety, worry	*mamae; *peu	PPN; PPN
+16	350	pity	*qaloqofa; *ʔaloʔofa	PPN; PPN
+16	370	cry, weep	*taŋi; *taŋi-sia; *taṅi; *kuha	PPN; PEP *ku(f, s)a.; PPN; PEP *ku(f, s)a.; PPN; PEP *ku(f, s)a.; PPN; PEP *ku(f, s)a.
+16	380	tear (noun)	*loqi-mata; *lo	PPN; PPN
+16	390	groan	*ŋuu	PPN
+16	410	hate	*fesia	PPN
+16	420	anger	*kilia; *lili; *lilia; *ʔita; *sauaa; *nene; *poni	PPN; PNP *kaitaua; *ŋutu. PEP *tuma. PCP *nene.; PPN; PNP *kaitaua; *ŋutu. PEP *tuma. PCP *nene.; PPN; PNP *kaitaua; *ŋutu. PEP *tuma. PCP *nene.; PPN; PNP *kaitaua; *ŋutu. PEP *tuma. PCP *nene.; PPN; PNP *kaitaua; *ŋutu. PEP *tuma. PCP *nene.; PPN; PNP *kaitaua; *ŋutu. PEP *tuma. PCP *nene.; PPN; PNP *kaitaua; *ŋutu. PEP *tuma. PCP *nene.
+16	440	envy, jealousy	*fuaʔa; *fuaqa; *fuu-a	PPN; PPN; PPN
+16	450	shame (noun)	*maa; *luma	PPN; PPN
+16	520	brave	*mata-toqa; *toqa; *toʔa; *manawa-nui	PPN; PPN; PPN; PPN
+16	530	fear, fright	*mataku; *ma-taku; *lika; *ilifia	PPN; PPN; PPN; PPN
+16	620	desire, want	*ʔaloʔofa; *kolo; *fia; *fiafia; *piapia; *hofi; *finaŋolo; *manako; *poze; *mina; *m-ina; *poLe; *ifo; *kuha	PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.; PPN; PTO *teiV. PCP *deiV; *viaV; *fiaV.
+16	622	choose	*fili	PPN
+16	660	true	*maqoi; *mʔoi; *pono	PPN; PPN; PPN
+16	670	lie, tell lies	*losi; *loi	PPN; PNP *lasu. PCP *loi. PCP *lasu; PPN; PNP *lasu. PCP *loi. PCP *lasu
+16	680	deceit	*lasu; *losi; *teke	PPN; PPN; PPN
+16	720	bad	*lialia; *keza; *sa'a; *ha'a; *kino	PPN; PPN; PPN; PPN; PPN
+16	730	right, correct	*tonu; *pono; *tika	PPN; PEP *tika.; PPN; PEP *tika.; PPN; PEP *tika.
+16	740	wrong	*sala	PPN; PPN *pasu 'false, untrue'.
+16	770	mistake, error	*sala; *see-see	PPN; PPN
+16	780	blame	*nanu	PPN
+16	790	praise	*teni; *sula	PPN; PPN
+17	110	mind	*ma-nava	PPN
+17	130	think (= reflect)	*masalo; *masal; *nanu	PPN; PPN; PPN
+17	160	understand	*roŋo	PPN
+17	170	know	*kite; *ʔilo; *qilo; *tahuŋa; *tafuŋa; *thuŋa	PPN; PPN; PPN; PPN; PPN; PPN
+17	230	insane, crazy	*wale	PPN
+17	240	learn	*ako	PPN
+17	250	teach	*ako; *ako	PPN; PPN
+17	310	remember	*manatu	PPN
+17	320	forget	*ŋalo	PPN
+17	340	clear, plain	*fola	PPN
+17	360	secret	*nimo	PPN
+17	410	intention, purpose	*ke; *kolo; *foa	PPN; PNP *ina.; PPN; PNP *ina.; PPN; PNP *ina.
+17	420	cause	*faka; *faa; *fa; *taa-V	PPN; PPN; PPN; PPN; PPN
+17	460	easy	*ŋose; *ma-a'a	PPN; PPN
+17	470	difficult	ŋataʔa; *ŋataqa; *na-ta'a; *faiŋataʔa; *sao	PPN; PPN; PPN; PPN; PPN
+17	480	try, attempt	*mili	PPN
+17	510	and	*ma; *maa; *pe; po; *kaS; *ka; *kae; *kai	PPN; PPN; PPN; PPN; PPN; PPN; PPN; PPN
+17	520	because	*faa-; *faka-	PPN; PPN
+17	530	if	*ke; *me; *pe; *kana; *kanaS	PPN; PPN; PPN; PPN; PPN
+17	540	or	*loa	PPN
+17	560	no, negative	*ʔikai; *tikai; *ʔaaoʔe; *qaaaoqe; *ʔaua; *teʔe; *eʔe; *tee; *tE; *le; *kore; koLe	PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV; PPN; PPN *taqe; *taqekiV'not yet'; *(h)a(q)uV; *tikai. PEP *kore. PCP *(cy)a(')uV; *ta'ekiV
+17	610	how?	*pehe-fea; *pefea; *pesee; *feefee; *kuha	PPN; PPN; PPN; PPN; PPN
+17	620	how many?	*fiha	PPN
+17	630	how much?	*fiha	PPN
+17	640	what?	*hafa; *haa; *afa; *afa	PPN; PPN; PPN; PPN
+17	650	when?	*fea	PPN
+17	660	where?	*fea; *fee; *fEa	PPN; PPN; PPN
+17	680	who?	*hai	PPN
+17	690	why?	*haa	PPN
+18	110	voice	*leʔo; *leqo	PPN; PPN
+18	120	sing	*laŋi; *sua	PPN; PNP *umele; *oli; *pese 'song'. 'Chant' oli oli.; PPN; PNP *umele; *oli; *pese 'song'. 'Chant' oli oli.
+18	130	shout, cry out	*taŋi; *kaa; *kalaŋa; *soo; *tapa	PPN; PNP *umele, 'shout in praise'. PCP *cō.; PPN; PNP *umele, 'shout in praise'. PCP *cō.; PPN; PNP *umele, 'shout in praise'. PCP *cō.; PPN; PNP *umele, 'shout in praise'. PCP *cō.; PPN; PNP *umele, 'shout in praise'. PCP *cō.
+18	150	whisper	*fafana	PPN
+18	160	mumble	*lea; *walo; *koohumu	PPN; PPN; PPN
+18	170	whistle	*mapu; *ma-pu; *oki oki; *fio	PPN; PNP *(f, s)io; *oki.; PPN; PNP *(f, s)io; *oki.; PPN; PNP *(f, s)io; *oki.; PPN; PNP *(f, s)io; *oki.
+18	180	shriek, screech	*kaa	PPN
+18	190	howl	*au; *kaa	PPN; PPN
+18	210	speak, talk	*nani; *lea; *walo; *lau; *palau; *koolelo; *kooLeLo	PPN; PNP *koolele; *ŋutu 'angry/ scolding talk'; *muna 'speak confidentially'. PEP *fu(ʔ)a; PPN; PNP *koolele; *ŋutu 'angry/ scolding talk'; *muna 'speak confidentially'. PEP *fu(ʔ)a; PPN; PNP *koolele; *ŋutu 'angry/ scolding talk'; *muna 'speak confidentially'. PEP *fu(ʔ)a; PPN; PNP *koolele; *ŋutu 'angry/ scolding talk'; *muna 'speak confidentially'. PEP *fu(ʔ)a; PPN; PNP *koolele; *ŋutu 'angry/ scolding talk'; *muna 'speak confidentially'. PEP *fu(ʔ)a; PPN; PNP *koolele; *ŋutu 'angry/ scolding talk'; *muna 'speak confidentially'. PEP *fu(ʔ)a; PPN; PNP *koolele; *ŋutu 'angry/ scolding talk'; *muna 'speak confidentially'. PEP *fu(ʔ)a
+18	211	stutter, stammer	*kukuu; *kukuu	PPN; PPN
+18	220	say	*muna; *fua	PPN; PCP *muna.; PPN; PCP *muna.
+18	221	tell story	*tala	PPN
+18	230	silent (be)	*loŋo; *liṅo	PPN; PPN
+18	240	language	*leʔo; *ʔalelo	PPN; PPN
+18	260	word	*kupu	PPN
+18	280	name	*hiŋoa; *kaapiki	PPN; PPN
+18	310	ask (question, inquire)	*fesu; *huhuu	PPN; 'Question marker' *pe; *fee; *ne(e); *haa; (aa)nei.; PPN; 'Question marker' *pe; *fee; *ne(e); *haa; (aa)nei.
+18	330	admit, confess	*faaki; *fAki	PPN; PPN
+18	340	deny	*hele	PPN
+18	350	ask, request	*fesu; *kole; *pati	PPN; PCP *k(eo)re.; PPN; PCP *k(eo)re.; PPN; PCP *k(eo)re.
+18	380	forbid	*tapu; *lafu; *Laahui	PPN; PPN; PPN
+18	390	rebuke, scold	*ŋutu	PPN
+18	410	call (=summon)	*kasi; *tapa; *kalaŋa	PPN; PCP *kaci.; PPN; PCP *kaci.; PPN; PCP *kaci.
+18	420	call (=name)	*tapa	PPN
+18	430	announce	*tapa	PPN
+18	450	boast	*palau	PPN
+18	710	flute	*fano	PPN
+18	720	drum	*pasu; *lali	PPN; PPN
+18	730	horn, trumpet	*puu	PPN; Means 'conch t.'. PNP *pu(ʔ)u
+19	110	country	*fanua; *kaaiŋa	PPN; PPN
+19	170	boundary	*lipa; *tusi; *lva	PPN; PPN; PPN
+19	240	chief, chieftain	*sau; *ʔariki; *qariki; *t-upu	PPN; PPN; PPN; PPN
+19	250	staff, walking stick	*toki; *toko; *toko	PPN; 'Stick, pole' au PCPPAW; PPN; 'Stick, pole' au PCPPAW; PPN; 'Stick, pole' au PCPPAW
+19	310	rule, govern	*sau	PPN
+19	410	master	*latu; ʔatu	PPN; PPN
+19	420	slave	*lopa	PPN
+19	430	servant	*fekau	PPN
+19	450	command, order	*tono; *fekau; *sau	PPN; PPN; PPN
+19	510	friend, companion	*feʔao; *feqao; *soa; *soa-na; *hoa-na	PPN; PPN; PPN; PPN; PPN
+19	560	guest	*kau; *soko-; *sokosoko	PPN; PPN; PPN
+19	590	hinder, prevent	*pae; *araqi	PPN; PPN
+19	610	custom	*masni; *aŋa; *faqa; *tau-; *kano	PPN; PPN; PPN; PPN; PPN
+19	620	strife, quarrel	*fekiki; *tamaki; *tAmaki	PPN; PPN; PPN
+20	110	fight (vb)	*tamaki; *faʔi	PPN; PPN
+20	140	peace	*malie	PPN
+20	230	sling	*maka; *sele	PPN; PPN
+20	240	bow	*ŋasau; *kaufana	PPN; 'Weapon' *fana; *pana.; PPN; 'Weapon' *fana; *pana.
+20	250	arrow	*ŋasau	PPN; PCP *gwasau'reed'. Cf. 'needle'. 'Dart' *teka; *tika.
+20	260	spear	*tao; *fuata	PPN; PCP *jao.; PPN; PCP *jao.
+20	350	fortress	*kolo; *na'a	PPN; PPN
+20	420	defeat	*ŋaki	PPN
+20	440	defend	*feqao; *pale	PPN; PPN
+20	471	guard, sentinel	*leʔo; *leqo; *tiaki	PPN; PEP *tiaki.; PPN; PEP *tiaki.; PPN; PEP *tiaki.
+20	520	fishhook	*paa; *mataku; *mAtaʔu	PPN; PPN; PPN
+20	530	fishing line	*afo	PPN
+20	550	fish trap	*heqe; *fiinaki	PPN; PPN
+20	560	bait	*maunu; *munu	PPN; PCP *poa'scatter b., fish odor, smell bad'. PPN *poa'fish odor'; PPN; PCP *poa'scatter b., fish odor, smell bad'. PPN *poa'fish odor'
+20	620	shoot	*fana	PPN
+20	640	trap (noun)	*sele	PPN
+21	160	judge (vb)	*fifili	PPN
+21	510	steal	*fanako; *fa-nako; *kaihaqa; *kaihaʔa	PPN; PPN; PPN; PPN
+22	120	God	*qatua; *ʔatua	PPN; 'Goddess' *sina. 'Supernatural' mana.; PPN; 'Goddess' *sina. 'Supernatural' mana.
+22	150	sacrifice, offering	*mori; *mOri	PPN; PPN
+22	160	worship	*mori; *mOri	PPN; PPN
+22	170	pray	*supa; *lotu	PPN; PPN
+22	180	priest	*tahuŋa; *tufuŋa; *thuŋa	PPN; PPN; PPN
+22	190	holy, sacred	*tapu; *laka; *Laka	PPN; PPN; PPN
+22	450	ghost, phantom	*ʔaitu; *qaitu; *aitu; *vai-lua; *maliko; *maLiko	PPN; PPN; PPN; PPN; PPN; PPN

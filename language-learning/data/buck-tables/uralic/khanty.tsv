@@ -1,0 +1,1133 @@
+chapter_id	entry_id	meaning	Khanty_Phonemic	comment
+1	100	world	tər̃um	
+1	210	earth, land	muw	
+1	212	earth=ground, soil	muw	
+1	213	dust	xiš; r̃aw	
+1	214	mud	xəlɨ	
+1	215	sand	səy	
+1	220	mountain, hill	r̃en; saŋxum	
+1	222	cliff, precipice	xar̃	
+1	230	plain, field	xar̃	
+1	240	valley	puxɨr̃	
+1	250	island	muw	
+1	260	mainland	xonɨŋ	
+1	310	water	yiŋk	
+1	320	sea	sʸor̃ɨs	
+1	322	calm (of sea)	tewan	
+1	323	rough (of sea)	xumpaŋ	
+1	324	foam	nʸer̃	
+1	329	ocean	wən sʸor̃ɨs	
+1	330	lake	malaŋ	
+1	340	gulf, bay	lux	
+1	343	headland, point	pan nʸul	
+1	350	wave	xump	
+1	352	tide	yiŋk nux epattɨ yit; yink il pittɨ yit	
+1	353	lowtide	yiŋk il pittɨ yit	
+1	354	hightide	yiŋk nuxepattɨ yit	
+1	360	river, stream, brook	as; yuxan; yər̃am; soyum	
+1	380	swamp	nʸur̃m	
+1	410	woods, forest	wənt	
+1	420	tree (cf 08.600)	yux	
+1	430	wood	yux	
+1	440	stone, rock	kʸew	
+1	450	earthquake	muw tor̃ʸiytɨ	
+1	510	sky	tər̃umxar̃	
+1	520	sun	xatl	
+1	530	moon	tɨlasʸ	
+1	540	star	xəs	
+1	550	lightning	palaŋtut; poxal nʸol; pay nʸol	
+1	560	thunder	poxal sɨy; mar̃itɨ sɨy	
+1	570	lightning (as striking)	tut sultum; tut sem	
+1	580	storm	tər̃um	
+1	590	rainbow	nʸul yux	
+1	610	light (noun)	nuwi; tut	
+1	620	darkness	patlam	
+1	630	shade, shadow	isxur̃	
+1	640	dew	at yiŋk	
+1	710	air	lɨl šuw	
+1	720	wind	wot	
+1	730	cloud	palaŋ	
+1	740	fog	šiw	
+1	750	rain (noun)	yer̃t	
+1	760	snow (noun)	lonʸsʸ	
+1	770	ice	yeŋk	
+1	780	weather	tər̃um	
+1	810	fire	tut; nay	
+1	820	flame (noun)	tut nʸalum	
+1	830	smoke (noun)	pəsaŋ	
+1	840	ashes	xoyum	
+1	841	embers	ay lawum sem	
+1	851	burn (vb trans)	kutar̃ttɨ; letɨ	
+1	852	burn (vb intrans)	letɨ	
+1	860	light, kindle, ignite	wusʸittɨ; altɨ	
+1	861	extinguish	xər̃attɨ	
+1	870	match (noun)	sʸer̃anka	
+1	880	firewood	tutʸyux	
+1	890	charcoal	lawum	
+2	100	person, human being	xannexə; nexə; xoyat	
+2	210	man (vs. woman)	xə; iki; xə xoyat	
+2	220	woman	ne	
+2	230	male	xə; xor̃	
+2	240	female	ne	
+2	250	boy	pux	
+2	251	young man (adolescent)	aylat pux	
+2	260	girl	ewi	
+2	261	young woman (adolescent)	aylat ewi	
+2	270	child	nʸawr̃em	
+2	280	infant, baby	ay nʸawr̃em	
+2	310	husband	iki; xə	
+2	320	wife	imi	
+2	330	marry	imi tətɨ	
+2	340	marriage, wedding	moy	
+2	341	divorce	katna mantɨ	
+2	350	father	asʸi	
+2	360	mother	aŋki	
+2	370	parents	aŋkʸeŋan-asʸeŋan	
+2	380	married man	imʸeŋ xə	
+2	390	married woman	ikʸeŋ imi	
+2	410	son	pux	
+2	420	daughter	ewi	
+2	430	offspring (son or daughter)	yultɨ xasʸtɨ ewi-pux	
+2	440	brother	yiwpux	
+2	444	older brother	yay	
+2	445	younger brother	apsʸi; apal	
+2	450	sister	yiwewi	
+2	454	older sister	upi	
+2	455	younger sister	apsʸi; apalne	
+2	456	sibling	yiwpux; yiwewi	
+2	460	grandfather	aŋksʸasʸi; sʸatsʸasʸi	Respectively: the father of one's father; the father of one's mother.; Respectively: the father of one's father; the father of one's mother.
+2	461	old man	pir̃sʸ ikʸi	
+2	470	grandmother	aŋkaŋkʸi; sʸasʸi	Respectively: the mother of one's mother; the mother of one's father; Respectively: the mother of one's mother; the mother of one's father
+2	471	old woman	pir̃sʸ imi	
+2	480	grandson	xilɨ	
+2	490	granddaughter	xilne	
+2	510	uncle	aki; yay; wər̃tɨ	Respectively: the oldest brother of one's father or mother; the youngest brother of one's father; the youngest brother of one's mother.; Respectively: the oldest brother of one's father or mother; the youngest brother of one's father; the youngest brother of one's mother.; Respectively: the oldest brother of one's father or mother; the youngest brother of one's father; the youngest brother of one's mother.
+2	511	mother's brother	wər̃tɨ	The youngest brother of one's mother.
+2	512	father's brother	aki; yay	Respectively: the oldest brother of one's father; the youngest brother of one's father.; Respectively: the oldest brother of one's father; the youngest brother of one's father.
+2	520	aunt	imi; nɨy; or̃tne	Respectively: the oldest sister of one's father or mother; the youngest sister of one's mother; the youngest sister of one's father.; Respectively: the oldest sister of one's father or mother; the youngest sister of one's mother; the youngest sister of one's father.; Respectively: the oldest sister of one's father or mother; the youngest sister of one's mother; the youngest sister of one's father.
+2	521	mother's sister	imi; nɨy	Respectively: the oldest sister of one's mother; the youngest sister of one's mother.; Respectively: the oldest sister of one's mother; the youngest sister of one's mother.
+2	522	father's sister	imi; or̃tne	Respectively: the oldest sister of one's father; the youngest sister of one's father.; Respectively: the oldest sister of one's father; the youngest sister of one's father.
+2	530	nephew	lexə	
+2	540	niece	or̃tne	
+2	550	cousin	aspux; asewi	Respectively: son on the mother's side; daughter on the mother's side.; Respectively: son on the mother's side; daughter on the mother's side.
+2	560	ancestors	opr̃asʸit	
+2	570	descendants	yultɨ xasʸtɨ ewi-pux	
+2	610	father-in-law (of a man)	kʸilɨ ikʸi	
+2	611	father-in-law (of a woman)	kʸilɨ ikʸi	
+2	620	mother-in-law (of a man)	kʸilɨ imʸi	
+2	621	mother-in-law (of a woman)	kʸilɨ imʸi	
+2	630	son-in-law (of a man)	wʸeŋ	
+2	631	son-in-law (of a woman)	ur̃ti wʸeŋ	
+2	640	daughter-in-law (of a man)	mʸenʸ	
+2	641	daughter-in-law (of a woman)	mʸenʸ	
+2	710	stepfather	yiwlaŋ	
+2	720	stepmother	anʸxʸi	
+2	750	orphan	yiwlɨ-aslɨ	
+2	760	widow	ikʸelɨ xasʸum	
+2	770	widower	imʸelɨ xasʸum	
+2	810	relatives, kinsmen	r̃utɨt	
+2	820	family	sʸemʸya	
+2	910	I	ma	
+2	920	you (singular)	naŋ	
+2	930	he/she/it	luw	
+2	940	we	muŋ	
+2	941	we (inclusive)	muŋ pilewa	
+2	942	we (exclusive)	muŋ taklewa	
+2	950	you (plural)	nɨn	
+2	960	they	lin; liw	
+3	110	animal	woy-xul; wənt-woy	
+3	120	male (adj)	xor̃	
+3	130	female (adj)	ne	
+3	150	livestock	woy-xul	
+3	160	pasture	sʸaxər̃	
+3	180	herdsman	woy-xul lawaltɨ xoyat	
+3	190	stable, stall	osʸ	
+3	200	cattle (bovine)	woy-xul	
+3	210	bull	xor̃ mis	
+3	230	cow	mis	
+3	240	calf	aymis	
+3	250	sheep	oš	
+3	260	ram	xor̃ oš	
+3	280	ewe	ne oš	
+3	290	lamb	oš pušax; oš kuy	
+3	320	boar	xor̃ pur̃sʸ	
+3	340	sow (2)	ne pur̃sʸ	
+3	350	pig	pur̃sʸ pušax; pur̃sʸ kuy	
+3	410	horse (equine)	low	
+3	420	stallion	nʸewɨr̃	
+3	440	mare	ne low	
+3	450	foal, colt	nʸewar̃	
+3	500	fowl	tuxlaŋ woy-xul	
+3	520	cock, rooster	sʸisʸkur̃ek	
+3	540	hen	ne sʸisʸkur̃ek	
+3	550	chicken	sʸisʸkur̃ek pušax; sʸisʸkur̃ek kuy	
+3	560	goose	lənt	
+3	570	duck	wasɨ	
+3	580	nest	tɨxal	
+3	581	bird	tuxlaŋ woy; sʸisʸkʸi	
+3	582	seagull	xalew	
+3	583	heron	tor̃ɨ	
+3	584	eagle	kur̃k	
+3	585	hawk	wor̃š	
+3	591	bat	tuxlaŋ aywoy	
+3	592	parrot	yipi	
+3	593	crow	wur̃ŋa	
+3	596	owl	aŋkal woy; maŋkla; yipi	
+3	610	dog	amp; akar̃	
+3	614	rabbit	šowar̃	
+3	620	cat	katʸi	
+3	630	mouse, rat	ay woy; muw xar̃ woy; leŋkar̃	First two examples are 'mouse'; latter example is 'rat'.; First two examples are 'mouse'; latter example is 'rat'.; First two examples are 'mouse'; latter example is 'rat'.
+3	650	fish	xul	
+3	652	fin (dorsal)	xul tax	
+3	653	fishscale	som	
+3	654	gill	nʸaxsʸem	
+3	655	shell	kar̃ɨ	
+3	663	whale	wəs	
+3	710	wolf	wulɨ pur̃tɨ woy; pur̃woy	
+3	730	bear	moypar̃	
+3	740	fox	wuxsar̃	
+3	750	deer	wulɨ	
+3	811	louse	tewtum	
+3	812	nit (louse egg)	senɨ	
+3	813	flea	sus	
+3	816	cockroach	tar̃akan	
+3	817	ant	xašŋa	
+3	818	spider	nʸimsar̃	
+3	819	spider web	nʸimsar̃ pun; nʸimsar̃ xošap	
+3	820	bee	maw pir̃um	
+3	822	beehive	maw pir̃um xot	
+3	823	wasp	pos; pʸeslɨ; pir̃um	
+3	830	fly	sɨr̃anta	
+3	831	sandfly (midge), gnat	aywoy	
+3	832	mosquito	pelŋa	
+3	840	worm	nʸar̃woy; muwler̃	
+3	850	snake	yeman woy	
+3	920	butterfly	lɨpanta	
+3	950	frog	nawar̃ne	
+3	960	lizard	susl	
+4	110	body	el	
+4	120	skin, hide	sux	
+4	130	flesh	nʸuxi	
+4	140	hair (head)	əpat; əptat	
+4	142	beard	tuš	
+4	144	body hair	pun	
+4	145	pubic hair	əptat	
+4	146	dandruff	xayp	
+4	150	blood	kalɨ; wur̃	
+4	151	vein, artery	kalɨ yuš	
+4	160	bone	luw	
+4	162	rib	oŋtɨl	
+4	170	horn	oŋat	
+4	180	tail	lɨw	
+4	190	back	šanš	
+4	191	spine	šanšluw	
+4	200	head	ux	
+4	201	side of head, temple	wowtɨye	
+4	202	skull	ux luw; ux xošap	
+4	203	brain	wʸelum	
+4	204	face	wʸenš	
+4	205	forehead	wʸenš loxt; wʸenš luw	
+4	207	jaw	ulsʸ	
+4	208	cheek	wʸenš puŋal	
+4	209	chin	aŋal	
+4	210	eye	sem	
+4	212	eyebrow	sem xulʸum	
+4	213	eyelid	sem puŋal	
+4	214	eyelash	sempun	
+4	215	blink	r̃apsʸatɨ	
+4	220	ear	pal	
+4	222	earwax	oŋx	
+4	230	nose	nʸul	
+4	231	nostril	nʸul wus	
+4	232	mucus (nasal)	pulx	
+4	240	mouth	uŋal	
+4	241	beak	tuxlaŋ woy nʸul	
+4	250	lip	tur̃up	
+4	260	tongue	nʸalum	
+4	270	tooth	pʸeŋk	
+4	271	gums	pʸeŋknʸuxʸet	
+4	272	molartooth	ulsʸpʸeŋk; lur̃altɨ pʸeŋk; wʸenš puŋal pʸeŋk	
+4	280	neck	sapl	
+4	281	nape of neck	putlaŋ	
+4	290	throat	tur̃	
+4	300	shoulder	laŋkar̃	
+4	301	shoulderblade	poŋxal	
+4	310	arm	yoš	
+4	312	armpit	puxat	
+4	320	elbow	kunš olaŋ	
+4	330	hand	yoš	
+4	331	palm of hand	yoš pat	
+4	340	finger	luy	
+4	342	thumb	paŋ	
+4	344	fingernail	kunškar̃	
+4	345	claw	kunš	
+4	350	leg	kur̃	
+4	360	knee	šanš	
+4	370	foot	kur̃pat	
+4	374	footprint	kur̃pat pos	
+4	380	toe	luy	
+4	392	wing	tuxl	
+4	393	feather	pun	
+4	400	chest	mʸewl	
+4	410	breast (of woman)	esum	
+4	412	nipple, teat	esum	
+4	420	udder	mis esum	
+4	430	navel	pup	
+4	440	heart	sam	
+4	441	lung	xopsa; xupsa	
+4	450	liver	muxat	
+4	451	kidney	sɨyolaŋ	
+4	461	intestines, guts	sulet	
+4	462	waist	por̃x	
+4	464	buttocks	puy	
+4	490	testicle	kʸisʸ	
+4	510	breathe, breath	laltɨ; laltupsɨ; lal; lɨl	Respectively: verb; noun.; Respectively: verb; noun.; Respectively: verb; noun.; Respectively: verb; noun.
+4	520	yawn, gape	usʸinʸtatɨ	
+4	530	cough	xəlʸlʸitɨ	
+4	540	sneeze	nʸaxɨstɨ	
+4	550	perspire	šaŋkumtɨ	
+4	560	spit	laksatɨ	
+4	570	vomit	oxtɨ	
+4	580	bite	pur̃tɨ	
+4	590	lick	nʸulɨtɨ	
+4	591	dribble	sʸur̃ʸitɨ	
+4	610	sleep	ultɨ	
+4	612	snore	tor̃ɨyttɨ	
+4	620	dream	wəlmʸiyltɨ	
+4	630	wake up	kur̃attɨ	
+4	640	break wind	ponɨyltɨ	
+4	650	urinate	kisʸtɨ	
+4	660	defecate	posʸtɨ	
+4	670	have sexual intercourse	utanttɨ	
+4	680	shiver	tor̃ɨtɨ	
+4	690	bathe	lʸuxʸitɨyltɨ; pewaltɨ	
+4	710	beget (of father)	r̃utʸittɨ	
+4	720	born (to be)	r̃utʸilatɨ; sema pʸitum	
+4	730	pregnant	xunaŋ	
+4	732	conceive	xunaŋa yitɨ	
+4	740	live, living, life	wəltɨ; lɨlaŋ; wəlupsa	Respectively: verb; adjective; noun.; Respectively: verb; adjective; noun.; Respectively: verb; adjective; noun.
+4	750	die, dead	antəma yitɨ; sur̃ma yitɨ; xala	Respectively: verb; verb; adjective.; Respectively: verb; verb; adjective.; Respectively: verb; verb; adjective.
+4	751	drowned	šəytum	
+4	760	kill	wʸeltɨ	
+4	770	corpse	xala	
+4	780	bury (the dead)	muwa puntɨ	
+4	790	grave, tomb	xot	
+4	810	strong, mighty, powerful	yur̃	
+4	820	weak	sʸomlɨ; wʸewlɨ; wʸewtam	
+4	830	well, health	talaŋ; talaŋ wəlupsa	
+4	840	sick, sickness	kašeŋ; məšaŋ; kašɨ; məš	
+4	841	fever	kaši r̃uw	
+4	842	goiter	ay xotn bəltɨ; uksʸum kalɨ	
+4	843	cold (catarrh)	potɨyltɨ kaši; potɨyltɨ məš	
+4	850	wound, sore	nʸulum	
+4	853	swelling	nux puwtopsa	
+4	854	itch	kunšopsa	
+4	855	blister	yuŋk nʸulum	
+4	856	boil (noun)	lɨyaŋ nʸulum	
+4	857	pus	lɨy	
+4	860	cure, heal	yamaltɨ	
+4	870	physician	yamaltɨ xoyat	
+4	880	medicine, drug	ler̃; pur̃tən	
+4	890	poison	xaltɨ ler̃; tuyaŋ ler̃; poŋxaŋ ler̃	
+4	910	tired, weary	wʸewtama pitum	
+4	912	rest	r̃utʸsʸitɨ; sʸutʸsʸitɨ	
+4	920	lazy	lenʸ; šək	
+4	930	bald	əpat taklɨ	
+4	940	lame	noxʸiyltɨ	
+4	950	deaf	pallɨ	
+4	960	mute	nʸalum taklɨ	
+4	970	blind	semlɨ	
+4	980	intoxicated	kusʸ	
+4	990	naked, bare	nʸar̃lomt	
+5	110	eat	letɨ	
+5	120	food	letut; tep	
+5	121	cooked	yetšum	
+5	122	raw	nʸar̃	
+5	123	ripe	poxiyim; pušum; yetšum	
+5	124	green, unripe	nʸar̃	
+5	125	rotten	lɨyum	
+5	130	drink	yanʸsʸtɨ	
+5	140	hunger	lelɨ	
+5	141	famine	lelɨ	
+5	150	thirst	tur̃ xoxtɨ; nʸalum sor̃tɨ	
+5	160	suck	šeptɨ	
+5	180	chew	lur̃ttɨ	
+5	181	swallow	yuxʸi səxtatɨ	
+5	190	choke	šaknɨyltɨ; lal yer̃mattɨ	
+5	210	cook	put wʸer̃tɨ	
+5	220	boil (vb)	kawar̃tti	
+5	230	roast, fry	put wʸer̃tɨ	
+5	240	bake	nʸanʸ wʸer̃tɨ	
+5	250	oven	nʸanʸ wʸer̃tɨ kur̃	
+5	260	pot, cooking vessel	put; lɨpʸi	
+5	270	kettle	kʸew put	
+5	280	pan	kew kar̃taŋ	
+5	310	dish	put	
+5	320	plate	an	
+5	330	bowl	an	
+5	340	pitcher, jug	suxtaput; kur̃ška	
+5	350	cup, drinking vessel	an	
+5	360	saucer	an	
+5	370	spoon	nʸalɨ	
+5	380	knife (2)	kʸeši	
+5	390	fork (2)	wulka	
+5	391	tongs	kar̃tɨ yoš	
+5	410	meal (a)	letut	
+5	420	breakfast	šay; alaŋ letut lewupsa	
+5	430	lunch	xatl letut letapsa; xatl kutlup letapsa	
+5	440	dinner	xatl kutlup letapsa	
+5	450	supper	yetna letapsa	
+5	460	peel	nʸir̃tɨ; xur̃tɨ	
+5	470	sieve, strain	sistamttɨ	
+5	480	scrape	kunštɨ	
+5	490	stir, mix	lɨlattɨ; liltɨyltɨ	
+5	510	bread	nʸanʸ	
+5	530	dough	nʸanʸ šum	
+5	540	knead	nʸanʸ omastɨ; muw r̃uwattɨ	
+5	550	meal, flour	lant	
+5	560	crush, grind	r̃awa šukatti; r̃awa wʸer̃tɨ	
+5	610	meat	nʸuxɨ	
+5	640	soup, broth	lant; xošum yuŋk	
+5	650	vegetables	sur̃nʸet	
+5	700	potato	kar̃təpka	
+5	710	fruit	kar̃ɨ; lak; mor̃ʸi	
+5	770	nut	noxar̃ sem	
+5	790	oil	wuy	
+5	791	grease, fat	wuy	
+5	810	salt	sul	
+5	820	pepper	kur̃mʸek	
+5	821	chili pepper	kur̃mʸek	
+5	840	honey	maw	
+5	850	sugar	sakkar̃	
+5	860	milk (noun)	esumyiŋk	
+5	870	milk (vb)	pəstɨ	
+5	880	cheese	war̃ok	
+5	890	butter	miswuy	
+5	900	beverage, drink	yanʸsʸtut	
+5	910	mead	mawaŋ yanʸsʸtut	
+5	920	wine	wuna	
+5	930	beer	piwa	
+5	940	fermented drink	piwa	
+5	970	egg	kar̃aŋ pušax	
+6	110	put on (clothes)	ləmaltatɨ	
+6	120	clothing, clothes	ləmatsux	
+6	130	tailor	ləmatsux yonttɨ xoyat	
+6	210	cloth	sʸeškan; nuy	
+6	220	wool	pun sʸeškan	
+6	230	linen, flax	sʸeškan	
+6	240	cotton	sʸeškan	
+6	250	silk	yer̃mak	
+6	270	felt	katanka	
+6	280	fur	woy punaŋ sux	
+6	290	leather	sux	
+6	310	spin	yeŋtti	
+6	320	spindle	yeŋt	
+6	350	sew	yonttɨ	
+6	360	needle	yintup	
+6	370	awl	yoš pur̃	
+6	380	thread	suxum	
+6	390	dye	olʸupn ner̃tɨ	
+6	410	cloak	yer̃t sux	
+6	420	woman's dress	yer̃nas	
+6	430	coat	wan sax; xoptan	
+6	440	shirt	yer̃nas	
+6	450	collar	r̃ux	
+6	460	skirt	yupka	
+6	480	trousers	ayer̃nas; kasʸ	
+6	490	stocking, sock	wʸey	
+6	510	shoe	sopʸek; pošmʸek	
+6	520	boot	sopʸek	
+6	540	shoemaker, cobbler	sopʸek yonttɨ xoyat; pošmʸek yonttɨ xoyat	
+6	550	hat, cap	mʸil	
+6	570	belt, girdle	antup	
+6	580	glove	luyn pos	
+6	610	pocket	sʸep	
+6	620	button	poxl; nʸul	
+6	710	ornament, adornment	xur̃am	
+6	720	jewel	tɨnaŋ kʸew	
+6	730	ring (for finger)	ləyt	
+6	750	necklace	tur̃lops	
+6	760	bead	sak	
+6	770	earring	sʸimsʸik	
+6	810	handkerchief, rag	pulx pəsti sux; lanʸsʸak; r̃akasʸi	Respectively: handkerchief; rag; rag.; Respectively: handkerchief; rag; rag.; Respectively: handkerchief; rag; rag.
+6	820	towel	wenš moŋxtɨ sux	
+6	910	comb	kunšup	
+6	920	brush	sʸotka	
+6	921	braid	sewtɨ; sew	
+6	940	ointment	ler̃	
+6	950	soap	lunʸsʸax; moytek	
+6	960	mirror	wenš wanttɨ wux	
+7	110	dwell, live	wəltɨ	
+7	120	house	xot	
+7	130	hut	xot	
+7	131	garden-house	xot	
+7	140	tent	par̃sʸin xot	
+7	150	yard, court	xot puŋal taxʸi	
+7	180	meeting house	ux puntɨ; poyiksʸatɨ xot	
+7	210	room	xot yit	
+7	220	door, gate	ow; pəšas ow	Respectively: door; gate.; Respectively: door; gate.
+7	221	doorpost, jamb	ow xošap	
+7	230	lock (noun)	tuman	
+7	231	latch, door-bolt	ow kattup	
+7	240	key	tuman nʸalum	
+7	250	window	išnʸi	
+7	260	floor	xotxar̃ɨ	
+7	270	wall	xot pawar̃t; xot puŋal	
+7	310	fireplace	kər̃	
+7	320	stove	kər̃	
+7	330	chimney	tur̃pa	
+7	370	ladder	xəŋxep	
+7	420	bed	ultɨ lot	
+7	421	pillow	usum xɨr̃	
+7	422	blanket	laŋkup	
+7	430	chair	bəlas	
+7	440	table	pasan	
+7	450	lamp, torch	lampa	
+7	460	candle	iswesʸa	
+7	470	shelf	nur̃um	
+7	480	trough	xur̃ɨ	
+7	510	roof	xotlaŋal	
+7	520	thatch	tur̃n xotlaŋal	
+7	550	beam	pawar̃t	
+7	560	post, pole	aŋkal; nɨr̃	
+7	570	board	soxal	
+7	610	mason	kʸew seŋktɨ xoyat	
+7	620	brick	kʸir̃masʸ	
+8	110	farmer	muw xusʸa r̃əpittɨ xoyat	
+8	120	field (for cultivation)	xar̃	
+8	130	garden	osʸ; okr̃ot	
+8	150	cultivate, till	muw šukattɨ	
+8	160	fence	okr̃ot wer̃tɨ	
+8	170	ditch	xulɨ	
+8	210	plow	muw šukattɨ	
+8	212	furrow	xulɨ	
+8	220	dig	xʸir̃tɨ	
+8	230	spade	sar̃; kar̃tsar̃	
+8	240	shovel	sar̃	
+8	260	fork	wula	
+8	270	rake	kunšpaŋ yux	
+8	310	sow	lant sem omastɨ	
+8	311	seed	sem	
+8	320	mow, reap	sewar̃tɨ	
+8	330	sickle, scythe	tur̃n sewar̃tɨ kar̃tɨ	
+8	350	threshing-floor	kum	
+8	410	crop, harvest	lant tur̃n sewar̃tɨ pur̃a	
+8	420	grain (barley, oats etc)	lant	
+8	430	wheat	nuwi lant tur̃n; nuwi lant sem	
+8	450	rye	al nʸanʸ tur̃n	
+8	460	oats	low lant	
+8	510	grass	tur̃n; wanši	
+8	520	hay	tur̃n	
+8	530	plant (noun)	tur̃n	
+8	531	plant (vb)	omastɨ	
+8	540	root	ler̃	
+8	550	branch	nuw	
+8	560	leaf	lɨpat	
+8	570	flower	tʸatʸi	
+8	600	tree	yux	
+8	630	birch	sumat	
+8	640	pine	bənši	
+8	650	fir	xəl	
+8	680	tobacco	šar̃	
+8	690	smoke (tobacco)	šar̃ laltɨ	
+8	691	pipe	tur̃pka	
+8	720	tree stump	aŋkal	
+8	730	tree trunk	yux	
+8	740	forked branch	nuw	
+8	750	bark	kar̃	
+8	910	sweet potato	eplaŋ kar̃təpka	
+8	912	yam	yam; yams	
+8	980	mushroom	tulax	
+9	110	do, make	wʸer̃tɨ; wʸer̃attɨ	
+9	120	work	r̃əpittɨ	
+9	140	bend	xutaltɨ; kusaltɨ	
+9	150	fold	i taxʸiya punɨyltɨ	
+9	160	tie, bind	yir̃tɨ	
+9	161	untie	losɨtti	
+9	180	chain	kar̃tkʸel; sʸuŋk	
+9	190	rope, cord	kʸel	
+9	192	knot (noun)	monxal	
+9	210	strike (hit, beat)	xatʸsʸatɨ; weltɨ	
+9	211	pound with fist	sʸaxnɨn xatʸsʸati	
+9	220	cut	ewattɨ; sewar̃tɨ	
+9	221	cut down	ewattɨ	
+9	222	chop, hew	sewar̃tɨ	
+9	223	stab	lonʸsʸtɨ	
+9	230	knife	kʸeši	
+9	240	scissors, shears	kat yonlun kʸeši	
+9	250	ax	layum	
+9	260	break	šukattɨ	
+9	261	broken	šukatum	
+9	270	split	sewar̃tɨ	
+9	280	tear	manšitɨ	
+9	290	flay, skin	xur̃tɨ	
+9	310	rub, wipe	ner̃tɨ	
+9	320	stretch	lakka taltɨ	
+9	330	pull	taltɨ	
+9	340	spread out	laŋktɨ; par̃ŋaltɨ	
+9	341	hang up	ixattɨ; exattɨ	
+9	342	press	taŋar̃tti; nʸor̃ttɨ	
+9	343	squeeze, wring	taŋar̃ttɨ	
+9	350	pour	šošumtɨ	
+9	360	wash	lʸuxattɨ; xul ner̃tɨ; xul muŋxtɨ	
+9	370	sweep	yowaltɨ	
+9	380	broom	yowlapsa	
+9	422	tool	por̃mas	
+9	430	carpenter	xot omastɨ xoyat	
+9	440	build	omastɨ	
+9	460	bore	pur̃attɨ	
+9	461	hollow out	moxtɨ pur̃attɨ	
+9	480	saw	yux ewattɨ kar̃tɨ	
+9	490	hammer	sʸak; seŋkup	
+9	500	nail	kar̃luŋk	
+9	560	glue	aym	
+9	600	smith, blacksmith	kar̃tɨ seŋktɨ xoyat	
+9	610	forge	kar̃tɨ seŋktɨ	
+9	620	anvil	kar̃tɨ seŋktɨ kʸew	
+9	630	cast (metals)	kar̃tɨ pur̃mas wʸer̃tɨ	
+9	640	gold	sor̃nʸi	
+9	650	silver	sʸel wux	
+9	660	copper, bronze	patar̃ ox	
+9	670	iron	kar̃tɨ	
+9	720	mold (clay etc)	wʸer̃attɨ; laktɨ	
+9	730	clay	suxta	
+9	740	glass	lɨs	
+9	750	weave, plait	sewtɨ	
+9	760	basket	xʸint; xošap	
+9	770	mat	lapi	
+9	780	netbag	xolap	
+9	791	fan (vb)	sɨstamttɨ	
+9	810	carve	lʸaktɨ; wʸer̃attɨ	
+9	820	sculptor	wʸer̃attɨ xoyat	
+9	880	paint (noun)	olʸup	
+9	890	paint (vb)	olʸuptatɨ	
+10	110	move	xatlmatɨ; yelšak nʸoxtatɨ	
+10	120	turn over	kar̃ematɨ	
+10	130	turn around	lar̃ɨttɨ	
+10	140	wind, wrap	yuwar̃matɨ	
+10	150	roll	lar̃ɨttɨ	
+10	160	drop (vb)	il pawattɨ	
+10	170	twist	kar̃ematɨ; kʸer̃attɨ	
+10	210	rise	nux wʸer̃latɨ; nux lolʸtɨ	
+10	220	raise, lift	nux alumtɨ	
+10	230	fall	il pitɨyltɨ	
+10	240	drip	posɨtɨ; uwtɨ	
+10	250	throw	wusʸkatɨ	
+10	252	catch (ball)	katltɨ; weltɨ	
+10	260	shake	par̃kattɨ	
+10	320	flow	uwtɨ	
+10	330	sink	yiŋka šəyittɨ	
+10	340	float	wəsʸtɨ; wəsʸiyltɨ	
+10	350	swim	wəsʸti; wəsʸiyltɨ	
+10	351	dive	mar̃tatlʸatɨ; yiŋka wuxaltɨ	
+10	352	splash	r̃uwtɨ; r̃uwaltɨ	
+10	360	sail (vb)	wəsʸtɨ; wəsʸiyltɨ	
+10	370	fly (vb)	pər̃latɨ	
+10	380	blow	pultɨ	
+10	410	creep, crawl	waŋkʸiyltɨ	
+10	412	kneel	šanš əxtɨyn lolʸtɨ	
+10	413	crouch	makar̃lɨyltɨ	
+10	420	slide, slip	wulʸkʸematɨ	
+10	430	jump, leap	nawar̃matɨ	
+10	431	kick	šuŋxsatɨ	
+10	440	dance	yaktɨ	
+10	450	walk	mantɨ; yaŋxtɨ; šuštɨ	
+10	451	limp	nuxtɨ	
+10	460	run	xəxaltɨ	
+10	470	go	mantɨ; šəšti	
+10	471	go up	nux xəŋxtɨ	
+10	472	climb	xəŋxtɨ; xəŋxʸiyltɨ	
+10	473	go down	il eslasʸiyltɨ	
+10	474	go out	kʸim etmiyltɨ; kʸim etlʸatɨ; kʸim etmatɨ	
+10	480	come	yuxattɨ; yuxatɨyltɨ	
+10	481	come back	yuxlɨ kʸer̃lɨyltɨ; yuxʸi yuxattɨ	
+10	490	go away, depart	kʸim ettɨ	
+10	491	disappear	wəšiyltɨ	
+10	510	flee	xəxalti	
+10	520	follow	kusʸtɨ; ar̃tasʸman wanttɨ	
+10	530	pursue	nʸoxaltɨ	
+10	550	reach, arrive	yuxattɨ	
+10	560	approach	wanemiyltɨ	
+10	570	enter	luŋtɨ	
+10	610	carry (bear)	tətɨ; altɨ	
+10	612	carry-in-hand	yoš lɨpʸiyn altɨ	
+10	613	carry-on-shoulder	laŋkar̃ əxtɨyn altɨ	
+10	614	carry-on-head	ux əxtɨyn alti	
+10	615	carry-underarm	puxal lɨpʸiyn altɨ	
+10	620	bring	tətɨ	
+10	630	send	kittɨ	
+10	640	lead (vb)	wanltatɨ; tətɨ	
+10	650	drive	wošattɨ	
+10	660	ride	mantɨ	
+10	670	push, shove	pəxaltɨ	
+10	710	road	yəš; pant	
+10	720	path	yəš xər̃	
+10	740	bridge	untas	
+10	760	wheel	lak	
+10	810	ship	tutaŋ xop	
+10	830	boat	xop	
+10	831	canoe	xop	
+10	840	raft	pur̃	
+10	850	oar	ləp	
+10	851	paddle (noun)	ləp	
+10	852	row (vb)	lowaltɨ	
+10	860	rudder	sewas	
+10	870	mast	par̃š aŋkal	
+10	880	sail (noun)	par̃š	
+10	890	anchor	wuŋlep; yakar̃	
+10	920	land (vb)	wut mantɨ; xoytɨ	
+11	110	have	taytɨ	
+11	120	own, possess	taytɨ	
+11	130	take	wutɨ; wuylʸatɨ; alematɨ	
+11	140	seize, grasp	alematɨ; katltɨ	
+11	150	hold	taytɨ	
+11	160	get, obtain	wutɨ; yoša pawattɨ; musʸattɨ; weltɨ	
+11	170	keep, retain	taytɨ	
+11	180	thing	ut; pur̃mas	
+11	210	give	matɨ	
+11	220	give back	matɨ; yuxlɨ kʸer̃latɨ	
+11	240	preserve, look after	šawʸilatɨ	
+11	250	save, rescue	nux pasayttɨ	
+11	270	destroy	r̃awa šukattɨ; wonʸsʸala wʸer̃tɨ	
+11	280	harm, injure, damage	atum wʸer̃tɨ	
+11	310	seek, look for	kanštɨ	
+11	320	find	əyttɨ; əytʸatɨ	
+11	330	lose	ətšiyltɨ	
+11	340	release, let go	esltɨ	
+11	430	money	wux	
+11	440	coin	ay wux	
+11	510	rich	tasʸiŋ	
+11	520	poor	nuša; šəkaŋ	
+11	530	beggar	mʸet nuša	
+11	540	avaricious, stingy	sʸakar̃	
+11	610	lend	ar̃ɨntaya matɨ	
+11	620	borrow	ar̃ɨntaya wutɨ	
+11	630	owe	ar̃ɨntayɨŋa wəltɨ	
+11	640	debt	ar̃ɨnta	
+11	650	pay (vb)	suxuptatɨ	
+11	660	account, reckoning	luŋtopsa	
+11	770	hire	mita wutɨ	
+11	780	wages	wux wutɨ	
+11	790	earn	wux pənuttɨ	
+11	810	buy	ləttɨ	
+11	820	sell	tɨnɨtɨ	
+11	830	trade, barter	tɨnɨyltɨ; tɨnɨsatɨ	
+11	840	merchant	sʸor̃asxə	
+11	850	market (place)	tɨnɨsatɨ taxi	
+11	860	store, shop	lapka	
+11	870	price	tɨn	
+11	880	dear (costly, expensive)	tɨnaŋ	
+11	890	cheap	tɨnlɨ	
+11	910	share (distribute)	or̃ttɨ	
+11	920	weigh	weskalatɨ	
+12	10	after	yəxat; sʸaxa	
+12	11	behind	yulta; yupʸiyn	
+12	20	beside	puŋaln	
+12	30	down, below	iln; il	
+12	40	before	yeln; yelpiyn; sɨr̃iya	
+12	41	front	xot yelpʸi	
+12	50	inside, in	lɨpiyn	
+12	60	outside	kamɨn	
+12	70	under	iln	
+12	80	up, above	numpiyn	
+12	110	place	taxi	
+12	120	put	puntɨ; lonʸsʸtɨ	
+12	130	sit	omastɨ	
+12	140	lie down	ultɨ	
+12	150	stand	lolʸtɨ	
+12	160	remain, stay	xasʸtɨ	
+12	170	remains, left overs	xasʸum utat	
+12	210	collect, gather	akattɨ	
+12	212	pick up	nux almiyltɨ	
+12	220	join, unite	pʸilattɨ	
+12	230	separate	katna or̃ttɨ	
+12	232	divide	or̃tti	
+12	240	open	punštɨ	
+12	250	shut, close	lap pʸenttɨ	
+12	260	cover	laŋktɨ	
+12	270	hide, conceal	sawitɨ; xanʸattɨ	
+12	310	high	kar̃sʸ	
+12	320	low	lel	
+12	330	top	nux; tiy; num	
+12	340	bottom	pat; patɨ	
+12	350	end	olaŋ; yuwolaŋ	
+12	352	pointed	pastɨ; tɨyaŋ	
+12	353	edge	tɨy; xonaŋ	
+12	360	side	pʸelak; puŋal	
+12	370	middle, center	kutlup	
+12	410	right (side)	yams pʸelɨk; yams pʸelka	
+12	420	left (side)	puwa pʸelɨk; puwa pʸelka	
+12	430	near (adv)	wana; wanan	
+12	440	far (adv)	xuwa; xuwn	
+12	450	east	xatl etti pʸelak	
+12	460	west	kew pʸelak; xatl omastɨ pʸelak	
+12	470	north	uwas	
+12	480	south	num muw; num olaŋ	
+12	530	grow	enumtɨ	
+12	540	measure	ar̃talatɨ; mʸer̃attɨ	
+12	550	large, big	wən; wulaŋ	
+12	560	small, little	ay	
+12	570	long	xuw	
+12	580	tall	kar̃sʸ	
+12	590	short	wan	
+12	610	wide, broad	wutaŋ	
+12	620	narrow	wasʸ; yer̃mat	
+12	630	thick (in dimension)	kul	
+12	650	thin (in dimension)	wasʸ	
+12	670	deep	mal	
+12	680	shallow	pantaŋ	
+12	710	flat	lupsax	
+12	730	straight	tuŋ	
+12	740	crooked	yuwr̃a	
+12	750	hook	kur̃k	
+12	760	corner	suŋ	
+12	770	cross	pʸer̃na	
+12	780	square	nʸalsuŋup	
+12	810	round	yeŋta	
+12	820	circle	lak	
+12	830	sphere, ball	yeŋta xɨr̃	
+12	840	line	sʸur̃tmʸil	
+12	850	hole	wus	
+12	920	like, similar	sʸi xur̃asup	
+12	930	change	pʸelattɨ	
+13	0	zero, nothing	wonʸsʸal; nemultɨ	
+13	10	one	i; iy; it	
+13	20	two	kat; katn	
+13	30	three	xəlum	
+13	40	four	nʸal	
+13	50	five	wʸet	
+13	60	six	xət	
+13	70	seven	lapat	
+13	80	eight	nʸiwal	
+13	90	nine	yar̃tʸyaŋ	
+13	100	ten	yaŋ	
+13	101	eleven	iyxusʸyaŋ	
+13	102	twelve	katxusʸyaŋ	
+13	103	fifteen	wetxusʸyaŋ	
+13	104	twenty	xus	
+13	105	hundred	sot	
+13	106	thousand	sʸur̃as	
+13	107	count	nux luŋatti	
+13	140	every, all	kasʸiŋ; isat	
+13	150	much, many	ar̃	
+13	160	more	ar̃šik	
+13	170	little (quantity), few	šimal	
+13	180	enough	tar̃mal	
+13	181	some	mattɨ; təxut; šimal	
+13	190	multitude, crowd	ar̃at	
+13	210	full	teliye; teknak; tekanman	
+13	220	empty	tal	
+13	230	part, piece	pʸelak; šəp	
+13	240	half	pʸelak; šəp	
+13	330	alone, only	i; iy; it; atelt; təp	Respectively: alone; only; the only, alone.; Respectively: alone; only; the only, alone.; Respectively: alone; only; the only, alone.; Respectively: alone; only; the only, alone.; Respectively: alone; only; the only, alone.
+13	340	first	olaŋmʸit	
+13	350	last	yuxat	
+13	360	second	kʸimʸit	
+13	380	two times	katpuš	
+13	420	third	xəlmit	
+13	440	three times	xəlmpuš	
+14	110	time	mar̃; ar̃t; kem; pur̃a	
+14	120	age	nəpat	
+14	130	new	yilup	
+14	140	young	aylat	
+14	150	old	pir̃asʸ	
+14	160	early	sɨr̃ɨ	
+14	170	late	yəxat	
+14	180	now	in; intam; welʸsʸi	
+14	190	immediately	moxtɨ	
+14	210	swift, fast, quick	pastɨ; kar̃kam	
+14	220	slow	ayilta	
+14	230	hasten, hurry	ter̃malatɨ	
+14	240	retard, delay	an ter̃malatɨ	
+14	250	begin, beginning	olaŋ; olŋaltɨ	
+14	252	last, endure	muy wuš wəntɨ wəltɨ	
+14	260	end (temporal)	yuwolaŋ	
+14	270	finish	yetšuptatɨ; xultuptatɨ	
+14	280	cease, stop	nux wulɨtɨ	
+14	290	ready	yetšum	
+14	310	always	isa pur̃ayn; kašiŋ pur̃ayn; ipuša; isat	First two forms mean 'always'; latter two forms mean 'forever'.; First two forms mean 'always'; latter two forms mean 'forever'.; First two forms mean 'always'; latter two forms mean 'forever'.; First two forms mean 'always'; latter two forms mean 'forever'.
+14	320	often	wankutlɨ	
+14	330	sometimes	təxal pur̃ayn	
+14	331	soon	sor̃a	
+14	332	long-time (for a)	xuw	
+14	340	never	nemult pur̃ayn	
+14	350	again	yilpa; pasʸi	
+14	410	day	xatl	
+14	420	night	at	
+14	430	dawn	xənʸlʸ	
+14	440	morning	alaŋ	
+14	450	noon, midday	xatl kutlup	
+14	451	afternoon	xatl kutlup yuwpʸi pur̃a	
+14	460	evening	yet	
+14	470	today	tamxatl	
+14	480	tomorrow	xalewat	
+14	481	day-after-tomorrow	paxatl	
+14	490	yesterday	mulxatl	
+14	491	day-before-yesterday	xəlmit xatl	
+14	510	hour	sʸos	
+14	530	clock, timepiece	sʸos	
+14	610	week	lapat	
+14	620	Sunday	r̃utʸsʸatɨ xatl	
+14	630	Monday	lapat olaŋ xatl	
+14	640	Tuesday	lapat kimit xatl	
+14	650	Wednesday	lapat xəlmit xatl	
+14	660	Thursday	lapat nʸalmit xatl	
+14	670	Friday	lapat wʸetmit xatl	
+14	680	Saturday	lapat xətmit xatl	
+14	710	month	tɨlasʸ	
+14	730	year	ol; tal	
+14	740	winter	tal	
+14	750	spring	towi	
+14	760	summer	luŋ	
+14	770	autumn	sus	
+15	210	smell (vb intrans)	epattɨ	
+15	212	sniff	epsatɨ	
+15	220	smell (vb trans)	epsatɨ	
+15	250	fragrant, good smelling	yam əplaŋ	
+15	260	stinking, bad smelling	lɨyum	
+15	310	taste	lawʸematɨ	
+15	350	sweet	eplaŋ	
+15	360	salty	sulaŋ	
+15	370	bitter	wusʸr̃em; wusʸr̃emaŋ	
+15	380	acid, sour	wusʸlum; šumum	
+15	390	brackish	sulaŋšik	
+15	410	hear	xəltɨ	
+15	420	listen	xəlanttɨ	
+15	440	sound, noise	sɨy	
+15	450	loud	sɨyaŋ	
+15	460	quiet, silence	sɨylɨ	
+15	510	see	wanttɨ	
+15	520	look, look at	wanttɨ	
+15	550	show	alʸtɨ	
+15	560	shine	wulitɨ; sur̃ttɨ	
+15	570	bright	nuwi	
+15	610	color	elup	
+15	620	light (in color)	nuwi; etar̃	
+15	630	dark (in color)	pitɨxur̃aspʸi	
+15	640	white	nuwi; yeŋk	
+15	650	black	pitɨ	
+15	660	red	wur̃tɨ	
+15	670	blue	etar̃xar̃ɨ	
+15	680	green	wustɨ; nʸar̃ tur̃n	
+15	690	yellow	wusʸlum; xoym lɨpat	
+15	710	touch	ketmiyltɨ	
+15	720	feel	malasʸlatɨ	
+15	740	hard	susum; tak	
+15	750	soft	lepat	
+15	770	smooth	paylɨ	
+15	780	sharp	pastɨ; tɨyn	
+15	790	blunt, dull	nʸaš; tɨylɨ	
+15	810	heavy	lawar̃t	
+15	820	light (in weight)	kʸen	
+15	830	wet, damp	yiŋkʸi	
+15	840	dry	sor̃m	
+15	850	hot	r̃uwaŋ; kawr̃um	
+15	851	warm	mʸelk; xošm	
+15	860	cold	isʸkʸi	
+15	870	clean	sɨstam	
+15	880	dirty, soiled	xəlaŋ	
+16	180	good fortune, luck	uy	
+16	190	misfortune, bad luck	šək	
+16	230	joyful, glad, happy	amtaŋ; kašiŋ	
+16	250	laugh	nʸaxtɨ	
+16	251	smile	nʸax mulaŋa yuwanttɨ	
+16	260	play	yunttɨ	
+16	270	love	mosman taytɨ	
+16	290	kiss	mosaltatɨ	
+16	300	embrace	apalttɨ; apalmatɨ	
+16	310	pain	kaši	
+16	320	grief, sorrow, sadness	šək	
+16	340	regret, be sorry	šalittɨ	
+16	350	pity	šalʸ	
+16	370	cry, weep	xollatɨ	
+16	380	tear (noun)	sem yiŋk	
+16	390	groan	eŋaltɨ	
+16	420	anger	lɨk; kant; sam	
+16	450	shame (noun)	yelem	
+16	480	proud	yur̃aŋ	
+16	520	brave	paltaplɨ	
+16	530	fear, fright	paltɨ wʸer̃	
+16	540	danger	paltap wʸer̃	
+16	620	desire, want	laŋxatɨ	
+16	622	choose	pir̃itɨ	
+16	650	faithful	wʸesʸkat; šopaŋ	
+16	660	true	wʸesʸkat; šop	
+16	670	lie, tell lies	r̃oxpʸiyltɨ	
+16	680	deceit	r̃oxpi	
+16	710	good	yam	
+16	720	bad	atum	
+16	730	right, correct	tumtak; tuŋ; təs	
+16	740	wrong	r̃oxpi; yowr̃a	
+16	760	fault	wunawot	
+16	770	mistake, error	yuwr̃a wʸer̃	
+16	780	blame	lʸawtum	
+16	790	praise	išiktɨ wer̃	
+16	810	beautiful	wʸesʸiŋ	
+16	820	ugly	xur̃aslɨ	
+16	830	greedy	nʸelaŋ; sʸakar̃	
+16	840	clever	nəmsaŋ; ušaŋ	
+17	110	mind	nəmas; uš	
+17	130	think (= reflect)	nəmastɨ	
+17	140	think (= be of the opinion)	yama nəmastɨ	
+17	150	believe	ewaltɨ	
+17	160	understand	uša wʸer̃tɨ; uša wʸer̃iyltɨ	
+17	170	know	wətɨ; wəylttɨ	
+17	171	guess	nəmastɨ	
+17	172	imitate	isʸitɨ wʸer̃tɨ	
+17	190	idea, notion	nəmas; uš	
+17	210	wise	nəmsaŋ	
+17	220	foolish, stupid	utšam; ušlɨ	
+17	230	insane, crazy	utšam; ušlɨ	
+17	240	learn	wənltɨyltɨ	
+17	242	study	uša wʸer̃tɨ	
+17	250	teach	wənltatɨ	
+17	260	pupil	wənltɨyltɨ nʸawr̃em	
+17	270	teacher	nʸawr̃em wənltatɨ xoyat	
+17	280	school	nʸawr̃em wənltatɨ xot	
+17	310	remember	nəmtɨ	
+17	320	forget	yur̃ematɨ	
+17	360	secret	xanʸi	
+17	410	intention, purpose	laŋxatɨ wʸer̃	
+17	420	cause	muysar̃ pʸisʸ pata	
+17	430	doubt	ant wətɨ wʸer̃	
+17	440	suspect	ant wətɨ	
+17	441	betray	yastatɨ; luptɨ; potar̃ttɨ	
+17	450	need, necessity	mostɨ wʸer̃	
+17	460	easy	ken	
+17	470	difficult	lawar̃t	
+17	480	try, attempt	wur̃atiyltɨ; ar̃talatɨ	
+17	510	and	pa	
+17	520	because	sʸi pata; sʸir̃n	
+17	530	if	ki	
+17	540	or	amuy	
+17	550	yes, affirmative	sʸitɨ sʸi	
+17	560	no, negative	anta; antum	
+17	610	how?	xutɨ; xutɨsa; muy wur̃n; muy sʸir̃n	
+17	620	how many?	muy ar̃at; muykʸem; kamn	
+17	630	how much?	muy ar̃at; muykʸem; kamn	
+17	640	what?	muy	
+17	650	when?	xun	
+17	660	where?	xota; xulta; xulʸsʸa	
+17	670	which?	muysar̃; kamnmit	
+17	680	who?	xoy	
+17	690	why?	muy pata; muya	
+18	110	voice	tur̃sɨy	
+18	120	sing	ar̃ɨtɨ	
+18	130	shout, cry out	uwtɨ; xʸiyitɨ	
+18	150	whisper	wušitɨ	
+18	160	mumble	lomʸitɨ	
+18	170	whistle	šəxumtɨ	
+18	180	shriek, screech	uwatti; uwti	
+18	190	howl	or̃ʸiyltɨ	
+18	210	speak, talk	potar̃ttɨ	
+18	220	say	luptɨ	
+18	222	speech (make a)	yasaŋ taytɨ	
+18	230	silent (be)	xusta wəltɨ	
+18	240	language	yasaŋ	
+18	260	word	yasaŋ	
+18	280	name	nem	
+18	310	ask (question, inquire)	inʸsʸastɨ	
+18	320	answer	yuxlɨ luptɨ	
+18	350	ask, request	taka inʸsʸastɨ	
+18	360	promise	yastatɨ	
+18	370	refuse	at laŋxatɨ	
+18	380	forbid	lap yer̃tti; lap yer̃tɨyltɨ	
+18	410	call (=summon)	woxtɨ	
+18	420	call (=name)	nemasatɨ; nemiyltɨ	
+18	430	announce	yoxa luptɨ	
+18	450	boast	iškasʸtɨ; or̃kasʸtɨ	
+18	510	write	xanštɨ	
+18	520	read	luŋatti	
+18	560	paper	nepʸek	
+18	570	pen	xanštɨ yux	
+18	610	book	nepʸek	
+18	740	rattle	ay ləŋxanʸsʸup	
+19	110	country	muw	
+19	120	one's native country	r̃ət muw; šəšɨ muw	
+19	150	city, town	woš	
+19	160	village	kər̃t	
+19	210	people (populace)	yox; mʸir̃	
+19	230	tribe, clan	r̃ət	
+19	240	chief, chieftain	kəsʸa	
+19	250	staff, walking stick	suwyux	
+19	310	rule, govern	kəsʸaylɨtɨ	
+19	410	master	kəsʸa	
+19	430	servant	mʸitxə	
+19	440	freeman	osa	
+19	450	command, order	par̃ttɨ	
+19	460	obey	lušittɨ	
+19	470	let, permit	esltɨ	
+19	510	friend, companion	ləxas	
+19	520	enemy	wur̃ak	
+19	540	neighbor	lepn wəltɨ xoyat	
+19	550	stranger	paxoyat	
+19	560	guest	moyŋ xoyat	
+19	570	host	kəsʸa	
+19	580	help, aid	nʸottɨ	
+19	590	hinder, prevent	tur̃as wʸer̃tɨ	
+19	610	custom	pisʸ; pisʸit	
+19	620	strife, quarrel	wur̃asʸtɨ wʸer̃; lʸawattɨ wʸer̃	
+19	630	conspiracy, plot	wur̃ak wʸer̃	
+19	650	meet	yesʸalt wəyttɨ	
+19	720	prostitute	posar̃	
+20	110	fight (vb)	nʸul wʸeltɨ	
+20	130	war, battle	lalʸ	
+20	140	peace	lalʸlɨ wəlupsɨ	
+20	210	weapons, arms	puškan	
+20	240	bow	yəxal	
+20	250	arrow	nʸul	
+20	270	sword	altɨ kʸeši	
+20	280	gun, cannon	puškan	
+20	410	victory	nux pʸittɨ wʸer̃	
+20	430	attack	lalʸ	
+20	440	defend	lalistɨ	
+20	450	retreat	yuxlɨ pʸela manɨyltɨ	
+20	460	surrender	matɨ	
+20	480	booty, spoils	wʸelpas	
+20	490	ambush	xanʸemuman omastɨ	
+20	510	fisherman	xul wʸelpaslatɨ xoyat	
+20	520	fishhook	nʸaš	
+20	530	fishing line	nʸaš kʸel	
+20	540	fishnet	xolap	
+20	550	fish trap	mʸerʸoša	
+20	610	hunt	wʸelpaslatɨ	
+20	620	shoot	puškan esltɨ	
+20	630	miss (target)	moxtɨ esltɨ	
+20	640	trap (noun)	sesɨ; kar̃tsesɨ	
+20	650	trap (vb)	katltɨ; kar̃tsesiyn wʸeltɨ	
+21	110	law	sakkon	
+21	150	court	sut	
+21	160	judge (vb)	sutʸittɨ	
+21	180	judge (noun)	sut xoyat	
+21	250	oath	yastopsa	
+21	310	accuse	wunawota luptɨ	
+21	320	condemn	wunawota luptɨ	
+21	330	convict (vb)	wunawota luptɨ	
+21	340	acquit	tuŋa luŋattɨ	
+21	350	guilty	wunawot	
+21	360	innocent	wunawot taklɨ	
+21	380	fine	aštr̃ap	
+21	390	prison, jail	tʸur̃ʸma xot	
+21	420	murder	wʸeltɨ wʸer̃	
+21	430	adultery	posar̃	
+21	460	arson	wusʸittɨ wʸer̃; tuta lapattɨ wʸer̃	
+21	510	steal	lolumtɨ	
+21	520	thief	lolmax	
+22	110	religion	tər̃um wʸer̃	
+22	120	God	tər̃um	
+22	130	temple, church	yemaŋ xot; tər̃um xot	
+22	140	altar	yemaŋ taxʸi	
+22	150	sacrifice, offering	yir̃	
+22	160	worship	ux puntɨ	
+22	170	pray	poyiksʸatɨ	
+22	180	priest	pup	
+22	190	holy, sacred	yemaŋ	
+22	220	preach	wənltatɨ	
+22	230	bless	yama luptɨ	
+22	240	curse	tekattɨ	
+22	310	heaven	tər̃umxar̃	
+22	350	demon (evil spirit)	kulʸ	
+22	370	idol	ləŋx	
+22	420	magic, witchcraft, sorcery	sʸar̃tut	
+22	430	sorcerer, witch	sʸar̃tne	
+22	450	ghost, phantom	yisxur̃	

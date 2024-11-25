@@ -1,0 +1,888 @@
+chapter_id	entry_id	meaning	Nahuatl (Sierra de Zacapoaxtla variety)_Phonemic	comment
+1	100	world	tal-tikpa-k; tal-mani-k	
+1	210	earth, land	tal	*Aztecan *tlaal-.
+1	212	earth=ground, soil	tal-pan	
+1	213	dust	tal-neš; taal-neeš-yo	Latter is 'dusty, powder'. Cf. 'ashes' 01.840.; Latter is 'dusty, powder'. Cf. 'ashes' 01.840.
+1	214	mud	soki-t; soki-yo	'It is muddy' ta-soki-yo-wa.; 'It is muddy' ta-soki-yo-wa.
+1	215	sand	šal	
+1	220	mountain, hill	tepe-t	
+1	222	cliff, precipice	tepe-hši-t	Also tal-tepe-hši-t; tepe-hši-yoh.
+1	230	plain, field	tal; tal-pan; ištawa-t	
+1	240	valley	a-tekomol; atawit	First example is a valley with water.; First example is a valley with water.
+1	270	shore	a-ten-tenoh; ašošowil	'Bank (of river)' is a-ten-ti. Cf. 'mouth' 04.240; 'edge' 12.353.; 'Bank (of river)' is a-ten-ti. Cf. 'mouth' 04.240; 'edge' 12.353.
+1	280	cave	tepe-koyo-k	Lit. 'mountain-hole' 01.220, 12.850. *Aztecan *ostoo-.
+1	310	water	a-t	'Liquid' is iayo. 'Sprinkle' is tahwačoia; toyawi; tepewi; kišinia; kimoyawa; kiahwačoia; čačapa-ni; ki-mimi-lo-a. 'Watery' is aa-ti-k; (honorific) is aa-c̷iin. *Aztecan *aa-.
+1	320	sea	weyi a-t	Lit. 'large water'.
+1	324	foam	poso-k; po-poso-ka	'Bubbles' poposoka. *Aztecan *posoonal.; 'Bubbles' poposoka. *Aztecan *posoonal.
+1	330	lake	kampa tektok a-t	
+1	360	river, stream, brook	weyi-a-t; apic̷ak; a-pic̷ak-ti	Latter is 'stream'.; Latter is 'stream'.; Latter is 'stream'.
+1	370	spring, well	amel; pila; akomol; ameyal	
+1	380	swamp	ačawtah; ačawit	
+1	390	waterfall	panc̷ikʷi-ni in a-t	
+1	410	woods, forest	kʷow-yoh; kʷow-tah	
+1	420	tree (cf 08.600)	kʷowi-t; kʷawi-t	*Aztecan *kʷawɨ-.; *Aztecan *kʷawɨ-.
+1	430	wood	kʷowi-t; kʷow	*Aztecan *kʷawɨ-.; *Aztecan *kʷawɨ-.
+1	440	stone, rock	te-t	'Throw rock at' -te-ta-moota. 'Rocky cliff' is te-šahkal. *Aztecan *tə-.
+1	450	earthquake	tal-olini; tal-olini-lo-t	
+1	510	sky	elwiyak	
+1	520	sun	tona-l	Also means 'day' 14.410. 'A la puesta del sol' kampika kalaki in tonal. 'Eclipse' is kʷaloa ya in tonal-c̷in. *Aztecan *toonal-.
+1	530	moon	mec̷-ti	*Aztecan *meec̷-.
+1	540	star	sitalin	
+1	550	lightning	meyo-t	
+1	560	thunder	topo-ni; totopoka	Also tatac̷i-ni; tatikʷi-ni.; Also tatac̷i-ni; tatikʷi-ni.
+1	570	lightning (as striking)	tapetani-lo-t	
+1	580	storm	weyi kiowi-t	Lit. 'large rain'. Also kiowa malaka-eheka-t (wind 01.720); tec̷aw-kiowi-t.
+1	590	rainbow	kosamalo-t	
+1	610	light (noun)	ta-wi-a; ki-ta-neš-ti-a	'Cause to be lighted' -taa-wi; 'to light a way' -ta-neeš-tii; 'light for' -taa-wi-li; 'it lighted for him' ki-taa-wi-li-h.; 'Cause to be lighted' -taa-wi; 'to light a way' -ta-neeš-tii; 'light for' -taa-wi-li; 'it lighted for him' ki-taa-wi-li-h.
+1	620	darkness	ta-yowa-yan; ta-yowa-ya-ni-lo-t	yowa also means 'night' 14.420; 'round' 12.810.; yowa also means 'night' 14.420; 'round' 12.810.
+1	630	shade, shadow	ekawil; i-yekawil; ekawil-ti	
+1	640	dew	ahwačti	
+1	710	air	eheka-t	
+1	720	wind	eheka-t	
+1	730	cloud	miš-ti	
+1	740	fog	miš-ti; ta-miš-tentok	
+1	750	rain (noun)	kiowa-t; kiowi-t	'Diluvio' is weyi kiowa-t.; 'Diluvio' is weyi kiowa-t.
+1	760	snow (noun)	ta-sek wec̷i; sek-ti	Also kʷow-sek; kʷow-sek-ti, 'ice in the tree'.; Also kʷow-sek; kʷow-sek-ti, 'ice in the tree'.
+1	770	ice	sek-ti; a-sek	
+1	810	fire	ti-t	'Place of fire' ti-ko. *Aztecan *tlai(h)-.
+1	820	flame (noun)	mimi-li-ni	
+1	830	smoke (noun)	pok-ti	
+1	840	ashes	kʷow-neš	Cf. 'dust' 01.213.
+1	841	embers	teko-l	Also ti-kʷowi-t; čawis-ti.
+1	851	burn (vb trans)	-tata; ki-tati-a	'Burned' is ta-tah-tati-lis; ta-tati-lis. *Aztecan *tlatia, *tlatla.; 'Burned' is ta-tah-tati-lis; ta-tati-lis. *Aztecan *tlatia, *tlatla.
+1	852	burn (vb intrans)	tata; tone-wi	Cf. 'sun' 01.520. *Aztecan *tlatla.; Cf. 'sun' 01.520. *Aztecan *tlatla.
+1	860	light, kindle, ignite	-šootaa-l-tii	Means 'to set afire'.
+1	861	extinguish	ki-sewi-a	*Aztecan *seewi.
+1	880	firewood	kʷowi-t; kʷow-tatil	'Hace leña' is kʷahkʷowi.; 'Hace leña' is kʷahkʷowi.
+1	890	charcoal	teko-l	'Soot' is *Aztecan *tiil-, cf. 'black' 15.650.
+2	210	man (vs. woman)	taga-t; taka-t	*Aztecan *tlaaka-.; *Aztecan *tlaaka-.
+2	220	woman	siwa-t	
+2	230	male	taga-t; okič-pil	*Aztecan *okɨč-.; *Aztecan *okɨč-.
+2	240	female	siwa-t	
+2	250	boy	okič-pil; kone-t	*Aztecan *pilc̷iin-, also 'son'.; *Aztecan *pilc̷iin-, also 'son'.
+2	251	young man (adolescent)	itelpoč; okič-pil	
+2	260	girl	swa-pil; kone-t	
+2	261	young woman (adolescent)	ičpokat	
+2	270	child	pili; kone-t; swaa-pil	Latter form is 'female child'. Plural form: pii-pil. *Aztecan *konee-.; Latter form is 'female child'. Plural form: pii-pil. *Aztecan *konee-.; Latter form is 'female child'. Plural form: pii-pil. *Aztecan *konee-.
+2	280	infant, baby	pili	
+2	310	husband	i-yokič; i-taka-w	
+2	320	wife	i-siwa-w; i-swa-c̷in	
+2	330	marry	ki-namik-ti-ya	*Aztecan *naamɨktia.
+2	340	marriage, wedding	ilwit; namik-ti-lis; ilwit-čiwalis	
+2	350	father	i-tah-c̷in; te-tat	
+2	360	mother	i-nan-c̷in	*Aztecan *naan-; yəh.
+2	380	married man	taga-t nami-keh	
+2	390	married woman	siwa-t nami-keh	
+2	410	son	i-telpoč; i-kone-w; i-okič-pil	*Aztecan *pilc̷iin-.; *Aztecan *pilc̷iin-.; *Aztecan *pilc̷iin-.
+2	420	daughter	i-swa-pil; ičpoč; i-kone-w	
+2	430	offspring (son or daughter)	i-kone-w	
+2	440	brother	ii-kni-w	
+2	450	sister	ii-kni-w; no-swaa-iknii-w	Latter form 'my sister'.; Latter form 'my sister'.
+2	458	twins	nenec̷	
+2	460	grandfather	tata-h weyi; i-weyi-tata-h	Also i-papa weyi.; Also i-papa weyi.
+2	461	old man	wewe-t; wewen-c̷in	
+2	470	grandmother	nana-h weyi; i-weyi-nan-c̷in	Also i-mama weyi.; Also i-mama weyi.
+2	471	old woman	lama-c̷in	A unique form, in that it is the only word that begins with /l/.
+2	480	grandson	i-šwi-w	
+2	490	granddaughter	i-šwi-w-swa-pil	
+2	550	cousin	i-wehka-swa-i-kni-w	Female cousin. '(Male) cousin' is i-wehka-i-kni-w; wehka means 'far, distant' 12.440.
+2	560	ancestors	wehka-w-kayo-t	Also wehka-w-te-tat; wehka-w-tata-h.
+2	610	father-in-law (of a man)	mon-tat	
+2	620	mother-in-law (of a man)	mo-nan	
+2	630	son-in-law (of a man)	mon-tikeh; i-mon-tikaw	
+2	640	daughter-in-law (of a man)	i-swa-mon	Also of a woman.
+2	641	daughter-in-law (of a woman)	i-swa-mon	
+2	710	stepfather	i-takpa-tat	
+2	720	stepmother	i-takpa-nan	
+2	730	stepson	imikakawal	
+2	750	orphan	mike-kawal	mike is 'dead, corpse' 04.770. 'Adoptado' is i-wehka-konew.
+2	760	widow	swa-kawal	
+2	770	widower	taka-kawal	
+2	810	relatives, kinsmen	i-čan-kaw	čan is 'house' 07.120.
+2	820	family	i-čan-kawan	
+2	910	I	neh-wa; neh; ni-	Object, 'to, for me': neč-; possession 'my' no-. *Aztecan *nəh.; Object, 'to, for me': neč-; possession 'my' no-. *Aztecan *nəh.; Object, 'to, for me': neč-; possession 'my' no-. *Aztecan *nəh.
+2	920	you (singular)	teh; teh-wa; ti-	Object 'to, for you' mic̷-; possession 'your' mo-.; Object 'to, for you' mic̷-; possession 'your' mo-.; Object 'to, for you' mic̷-; possession 'your' mo-.
+2	930	he/she/it	yeh; yeh-wa	Subject, 3rd p. singular, is a zero form, ∅. 'Suyo (de él o ella)' i-aška. Object 'it' ki- ~ k-; possession 'his, hers, its' ni- ~ i-. General object, non-personal ta-. Personal, 'someone's' te-.; Subject, 3rd p. singular, is a zero form, ∅. 'Suyo (de él o ella)' i-aška. Object 'it' ki- ~ k-; possession 'his, hers, its' ni- ~ i-. General object, non-personal ta-. Personal, 'someone's' te-.
+2	940	we	teh-wa-n; ti-; t-...-h; -keh	Object, 1st p. plural: teeč-; possession: to-.; Object, 1st p. plural: teeč-; possession: to-.; Object, 1st p. plural: teeč-; possession: to-.; Object, 1st p. plural: teeč-; possession: to-.
+2	950	you (plural)	nan-; ta-...-h; -eh; nameh-wa-n	Object, 2nd p. plural: nameeč- ~ ameeč-; possession 'your' plural: namo-.; Object, 2nd p. plural: nameeč- ~ ameeč-; possession 'your' plural: namo-.; Object, 2nd p. plural: nameeč- ~ ameeč-; possession 'your' plural: namo-.; Object, 2nd p. plural: nameeč- ~ ameeč-; possession 'your' plural: namo-.
+2	960	they	yeh-wa-n; ∅-...-h	Subject, 3rd p. plural, is a zero form, followed by a suffix ...-h. Object, 3rd p. plural, 'them' iin- ~ kiin-; possession 'their' iin- ~ niin-.; Subject, 3rd p. plural, is a zero form, followed by a suffix ...-h. Object, 3rd p. plural, 'them' iin- ~ kiin-; possession 'their' iin- ~ niin-.
+3	110	animal	okʷil-in	'Domestic animal' is tapial; 'wild a.' is kʷowtah-kʷil-in; okʷil-tamahc̷awal. 'Coyote' is koyot, used to label 'white man'. *Aztecan *koyoo-.
+3	150	livestock	kʷakʷehmeh	
+3	160	pasture	taselo-t; ištawa-t; takomol	
+3	180	herdsman	tapi-š-keh	'He herds/tends (animals)' tapi[y]a.
+3	190	stable, stall	sin-kal	
+3	200	cattle (bovine)	tapial-meh; kʷakʷeh-meh	
+3	210	bull	kʷakʷoweh	
+3	220	ox	kʷakʷoweh	
+3	230	cow	kʷakʷoweh	
+3	240	calf	kʷakʷow-kone-t; kʷakʷeh-c̷in	kone- is 'offspring'.; kone- is 'offspring'.
+3	250	sheep	ička-t	
+3	290	lamb	ička-t; ička-c̷in	
+3	320	boar	kʷopic̷ot	
+3	340	sow (2)	tatokalis	
+3	350	pig	pic̷o-t	
+3	360	goat	čiβah	From Span. 'chivo'.
+3	410	horse (equine)	kabayoh	From Span. 'caballo'.
+3	460	ass, donkey	burroh	From Span. 'burro'.
+3	520	cock, rooster	kašti-l	'Su cresta' is i-kʷa-nakaw.
+3	540	hen	pio; swa-pio	
+3	550	chicken	pio; pio-kone-t	kone- is 'offspring' 02.430. *Aztecan *tootoo-. 'Turkey' *Aztecan *tootol-.; kone- is 'offspring' 02.430. *Aztecan *tootoo-. 'Turkey' *Aztecan *tootol-.
+3	580	nest	tapahsol; tako-čan	čan is 'house' 07.120.; čan is 'house' 07.120.
+3	581	bird	toto-c̷in	*Aztecan *tootoo-, *tootol-.
+3	583	heron	a-ten-patoh; apatoh	
+3	584	eagle	kʷišin	
+3	585	hawk	kʷišin	
+3	586	vulture	c̷ohpilo-t	*Aztecan *c̷opiiloo-.
+3	591	bat	c̷inaka	*Aztecan *c̷inaakan.
+3	593	crow	kakalo-t	
+3	594	dove	točtekolo-t	
+3	596	owl	tololoh; kʷow-šašaka; čičti	*Aztecan *təkoloo-.; *Aztecan *təkoloo-.; *Aztecan *təkoloo-.
+3	610	dog	ic̷kʷin-ti	
+3	614	rabbit	toč-; točin	
+3	620	cat	miston	
+3	630	mouse, rat	kimičin	
+3	650	fish	miči; miči-n	*Aztecan *mičɨm.; *Aztecan *mičɨm.
+3	653	fishscale	i-tapač; ewa-t	Cf. 'shell' 03.655; cf. 'skin, hide, bark' 04.120.; Cf. 'shell' 03.655; cf. 'skin, hide, bark' 04.120.
+3	655	shell	tapač	
+3	665	freshwater eel	koa-miči-n	Cf. 'snake' 03.850.
+3	740	fox	kʷek-ti	
+3	750	deer	masa-t	*Aztecan *masaa-.
+3	810	insect	okʷil-c̷in	
+3	811	louse	tekolo-t	*Aztecan *atəmV-.
+3	812	nit (louse egg)	ahsilit	
+3	813	flea	tekpin-ti	
+3	816	cockroach	šopepe	
+3	817	ant	aska-t	'Hormiga arriera' čičilaskat; 'hormiga picahuye' čilaskat. 'Hormiguero' is aska-tel. *Aztecan *c̷iika-.
+3	818	spider	toka-t	
+3	819	spider web	c̷awal	
+3	820	bee	sera-okʷil-c̷in	From Span. 'cera'. See 'insect' 03.810.
+3	822	beehive	serah okʷilkahon; i-čan in kolmena; nekc̷i-c̷in	čan is 'house' 07.120. See 'honey' 05.840.; čan is 'house' 07.120. See 'honey' 05.840.; čan is 'house' 07.120. See 'honey' 05.840.
+3	823	wasp	alsin; neškomeh	
+3	830	fly	moyo-t	*Aztecan *mooyoo-.
+3	831	sandfly (midge), gnat	čakistle; moyo-c̷in	
+3	832	mosquito	šahkal-moyo-t	*Aztecan *mooyoo-.
+3	840	worm	okʷil-c̷in; tal-ihkočin; tal-kʷetaš-kol	tal is 'earth, dirt' 01.210; kʷetaš is 'skin' 04.120. Also kʷitkowat. A kind of worm is ihkočin.; tal is 'earth, dirt' 01.210; kʷetaš is 'skin' 04.120. Also kʷitkowat. A kind of worm is ihkočin.; tal is 'earth, dirt' 01.210; kʷetaš is 'skin' 04.120. Also kʷitkowat. A kind of worm is ihkočin.
+3	850	snake	kowa-t	*Aztecan *koowa-.
+3	920	butterfly	papalo-t; čawa-papalo-t	Latter is 'mariposa nocturna'.; Latter is 'mariposa nocturna'.
+3	930	grasshopper	čapoli-n	
+3	940	snail	šok-ti	
+3	950	frog	kala-t; kʷeya; akʷeya	Also šošo-kala-t. 'Toad' is tamasolin.; Also šošo-kala-t. 'Toad' is tamasolin.; Also šošo-kala-t. 'Toad' is tamasolin.
+3	960	lizard	maliguay; topeh; šilkʷowiši	'Iguana' is *Aztecan *kʷəc̷-.; 'Iguana' is *Aztecan *kʷəc̷-.; 'Iguana' is *Aztecan *kʷəc̷-.
+4	110	body	i-naka-yo	Also means 'flesh; meat' 05.610.
+4	120	skin, hide	kʷetaš; i-kʷetaš-yio; i-ewa-yo	See 'bark' 08.750. 'Pod (of bean)' is e-kʷetaš. *Aztecan *kʷətaš-.; See 'bark' 08.750. 'Pod (of bean)' is e-kʷetaš. *Aztecan *kʷətaš-.; See 'bark' 08.750. 'Pod (of bean)' is e-kʷetaš. *Aztecan *kʷətaš-.
+4	130	flesh	i-naka-yo-h	
+4	140	hair (head)	i-c̷on; c̷oon-ti	*Aztecan *c̷on-.; *Aztecan *c̷on-.
+4	142	beard	i-ten-c̷on-yo	Lit. 'possessed-mouth-hair-human'.
+4	144	body hair	i-tohmi-yo	Also means 'wool' 06.220.
+4	146	dandruff	i-kʷa-ewa-yo	Cf. 'head' 04.200, 'skin' 04.120.
+4	150	blood	es-ti; es-yoh	'Sangrar' is es-kisa; 'cause to be bloody' is -es-wi. *Aztecan *əs-.; 'Sangrar' is es-kisa; 'cause to be bloody' is -es-wi. *Aztecan *əs-.
+4	160	bone	omi-t	*Aztecan *oomV-.
+4	162	rib	i-elčikiw	
+4	180	tail	i-kʷita-pil	pil is used as a diminutive; cf. 'child' 02.270. See 'defecate' 04.660.
+4	190	back	i-kampa; i-kʷita-pan; i-kan	Cf. 'tail' 04.180; 'defecate' 04.660. *Aztecan *təpoc̷-, also 'shoulder'.; Cf. 'tail' 04.180; 'defecate' 04.660. *Aztecan *təpoc̷-, also 'shoulder'.; Cf. 'tail' 04.180; 'defecate' 04.660. *Aztecan *təpoc̷-, also 'shoulder'.
+4	191	spine	i-kʷita-panomiyo	See 'defecate' 04.660.
+4	200	head	i-c̷on-tekon; i-kʷa-ko	Cf. 'hair' 04.140; 'dandruff' 04.146. tekomat is 'jícara', a bowl/ container' 05.330. 'Dentro de su cabeza' is ikʷa-ihtik. *Aztecan *kʷaa(y)(V)-.; Cf. 'hair' 04.140; 'dandruff' 04.146. tekomat is 'jícara', a bowl/ container' 05.330. 'Dentro de su cabeza' is ikʷa-ihtik. *Aztecan *kʷaa(y)(V)-.
+4	202	skull	mike-c̷on-tekoma-t	mike- is 'dead, corpse' 04.770. See 'head' 04.200. Also i-kʷa-kakawi-yo; i-kʷakakaw-yo.
+4	203	brain	i-kʷa-tiš-yo	
+4	204	face	i-iš-ko	Means place/location of the eye. Cf. 'eye' 04.210. *Aztecan *iiš-.
+4	205	forehead	iš-kʷa-ko; iš-kʷa-y	Respectively: lit. 'eye-head-place/location; eye-head-person possessed'.; Respectively: lit. 'eye-head-place/location; eye-head-person possessed'.
+4	208	cheek	i-kama-nakas-tan; i-kačeteh	Cf. 'flesh' 04.130; 'ear' 04.220.; Cf. 'flesh' 04.130; 'ear' 04.220.
+4	210	eye	i-iš-tololo	Cf. 'seed' 08.311. See 'face' 04.204.
+4	212	eyebrow	i-iš-tohmi-yo	Means 'eye-hair' 04.144.
+4	213	eyelid	iš-pil-kʷetaš-yo	See 04.120 'skin'.
+4	214	eyelash	iš-pil; iš-pilwi-yo	Also iš-pil-tohmi-yo, see 04.144 'body hair'.; Also iš-pil-tohmi-yo, see 04.144 'body hair'.
+4	215	blink	ihkopi	
+4	220	ear	i-nakas	'Su oído, auditivo' is i-nakas-koyok. *Aztecan *nakas-.
+4	230	nose	yeka; i-yekac̷ol	*Aztecan *yaka-.; *Aztecan *yaka-.
+4	231	nostril	i-yekac̷ol-koyo-k	Lit 'nose-hole' 12.850.
+4	232	mucus (nasal)	i-yeka-kʷi-t	
+4	240	mouth	i-ten; teem-; i-kamak	*Aztecan *teen-.; *Aztecan *teen-.; *Aztecan *teen-.
+4	241	beak	i-tem-pil	
+4	250	lip	i-ten-šipal	
+4	260	tongue	i-nene-pil	
+4	270	tooth	i-tan	
+4	271	gums	i-kamanaka-yo	
+4	272	molartooth	i-tan-koč	
+4	280	neck	i-keč	*Aztecan *kəč-.
+4	281	nape of neck	i-keč-kočta	'Pescuezo (de animal)' is i-keč-kʷow-yo.
+4	290	throat	i-toskak	
+4	300	shoulder	i-ahkol	See 'arriba' ahko 12.080.
+4	310	arm	i-ahkol; i-ma-y; i-maka-yo	
+4	312	armpit	i-sekatan	
+4	320	elbow	i-molik	
+4	321	wrist	i-ma-keč-tah; i-ma-keč-tan	Refers to hand-neck, 04.280. Also see 'ankle' 04.371.; Refers to hand-neck, 04.280. Also see 'ankle' 04.371.
+4	330	hand	i-ma-y; -maa; mah	*Aztecan *maa(y)(V)-.; *Aztecan *maa(y)(V)-.; *Aztecan *maa(y)(V)-.
+4	331	palm of hand	i-ma-iško; i-ma-kpal	
+4	340	finger	i-ma-h-pil	
+4	342	thumb	i-weyi ma-h-pil	Lit. 'possessed-large hand-diminutive (child)'.
+4	344	fingernail	isti	*Aztecan *ɨstə-.
+4	350	leg	i-kes; i-mec̷	'Canilla, espinilla' is i-mec̷aka-yo.; 'Canilla, espinilla' is i-mec̷aka-yo.
+4	351	thigh	i-kes	
+4	352	calf of leg	i-koc̷; i-koc̷-ko; i-koc̷i-kan	
+4	360	knee	i-tan-kʷa-y	Cf. 'head' 04.200.
+4	370	foot	i-mec̷	'To step on' is taksa; -iksa. 'Planta del pie' is i-mec̷-iš-ko; i-mec̷-tampa; i-mec̷-šokpal. *Aztecan *ɨkši-.
+4	371	ankle	i-mec̷-keč-saliwiyan	Refers to the neck of the leg/foot; keč is 'neck' 04.280. Cf. 'wrist' 04.321.
+4	372	heel	i-koc̷	
+4	374	footprint	taksa-lis; tac̷oniksalis	See 'foot' 04.370. Also kitalia nimah-pil.; See 'foot' 04.370. Also kitalia nimah-pil.
+4	380	toe	i-mec̷-ikši-pil	Cf. 'small (child)' 02.270.
+4	392	wing	ahtapal	
+4	393	feather	ihwi-t	
+4	400	chest	i-el-pan	
+4	410	breast (of woman)	i-čiči-wal	
+4	430	navel	i-ši-k	*Aztecan *šiik-.
+4	440	heart	yool; i-yolo	
+4	441	lung	i-popoc̷o-a	
+4	451	kidney	i-e-yo	Also means 'bean' 05.660.
+4	460	stomach	i-poš	Also means 'womb' 04.470. 'Panzón, barrigón' is weyi i-poš.
+4	461	intestines, guts	i-ihti-yo; i-kʷit-kowan	First form also means 'inside' 12.050. Also i-kʷita-škol; cf. 'defecate' 04.660.; First form also means 'inside' 12.050. Also i-kʷita-škol; cf. 'defecate' 04.660.
+4	462	waist	i-tahko-yan	tahko is 'half' 13.240.
+4	464	buttocks	i-c̷in-tan	
+4	470	womb	i-poš	Also means 'stomach' 04.460.
+4	510	breathe, breath	i-iyo-yo; iihyoyo; ihsika	Also mo-ihyoti-a; ihyoc̷akʷis.; Also mo-ihyoti-a; ihyoc̷akʷis.; Also mo-ihyoti-a; ihyoc̷akʷis.
+4	520	yawn, gape	koč-kama-čalo-a	Lit. 'sleep' 04.610 + 'cheek' 04.208 + ?
+4	521	hiccough	c̷ikno-a	
+4	530	cough	tatasi	Noun is tatašis.
+4	540	sneeze	ikšo-a; ikšo-lis	
+4	550	perspire	mitoni-a	Cf. 'fever' 04.841. 'He is sweating himself in the bathhouse' mo-tema.
+4	560	spit	ki-čihča; i-čihči; i-ten-a-yo	*Aztecan *čɨhčV-.; *Aztecan *čɨhčV-.; *Aztecan *čɨhčV-.
+4	570	vomit	ta-kepa; mo-yoliš-kepa; mo-ihsota	kepa is 'return' 10.481.; kepa is 'return' 10.481.; kepa is 'return' 10.481.
+4	580	bite	ki-kehc̷oma	
+4	590	lick	ta-pahpalo-a; -pic̷ohtoya	*Aztecan *palowa.; *Aztecan *palowa.
+4	591	dribble	čičipika; čipini	
+4	610	sleep	koči; -koh-koči	'Sleepy' is koči-s-neki; 'dormilón' is koč-mihmil. *Aztecan *kočɨ.; 'Sleepy' is koči-s-neki; 'dormilón' is koč-mihmil. *Aztecan *kočɨ.
+4	612	snore	sosolka	
+4	620	dream	ta-koči-ta; koči-lis; -koh-koči-ta	
+4	630	wake up	k-ihšiti-a; ihsa; ihsa-lis; ihsa-tok	
+4	650	urinate	mo-šišiša	*Aztecan *šiiša.
+4	660	defecate	kʷita-t	Noun form. 'Dung' is tapalan. *Aztecan *kʷitla-. *Aztecan *aapiic̷a 'have diarrhea', lit. 'water+blow'.
+4	680	shiver	kʷekʷetaka; wiwiška; wiwiyoka	
+4	690	bathe	ki-pahpaka	Also ki-tema; ki-altia. The sweatbath is temas-kal, 'stone-house'; see 'perspire' 04.550.
+4	720	born (to be)	ta-yoliti-a; ki-taka-tilti-a	Also yooli-k; taskalti-a.; Also yooli-k; taskalti-a.
+4	730	pregnant	oc̷titok	*Aztecan *ooc̷-.
+4	740	live, living, life	yol-tok; nemi	yol is 'heart' 04.440.; yol is 'heart' 04.440.
+4	750	die, dead	miki; -miki-tii	Past tense: miyi-k. Latter form is 'kill, cause to die'. *Aztecan *mɨki.; Past tense: miyi-k. Latter form is 'kill, cause to die'. *Aztecan *mɨki.
+4	751	drowned	atohtoloa	
+4	760	kill	-miki-tii; ki-mik-ti-ya	*Aztecan *mɨktia.; *Aztecan *mɨktia.
+4	770	corpse	mike-t	
+4	780	bury (the dead)	ki-toka; ki-tal-toka	Also means 'plant' 08.531. Also ki-pačo-a *Aztecan tooka, also 'plant'.; Also means 'plant' 08.531. Also ki-pačo-a *Aztecan tooka, also 'plant'.
+4	790	grave, tomb	mike-koyo-k-ti; mike-tekoč	See 'hole' 12.850.; See 'hole' 12.850.
+4	810	strong, mighty, powerful	čikawa-k; čikawalis; čikaw-tok	Also iliwis; welilis. *Aztecan *čika(awa)k.; Also iliwis; welilis. *Aztecan *čika(awa)k.; Also iliwis; welilis. *Aztecan *čika(awa)k.
+4	820	weak	wiwis-ti-k; amo čikawa-k; kʷekʷetaka	
+4	830	well, health	pak-tok; pahti-k ya	
+4	840	sick, sickness	mo-koko-a; koko-lis; koko-š-kakʷi	*Aztecan *koko(wa) (?).; *Aztecan *koko(wa) (?).; *Aztecan *koko(wa) (?).
+4	841	fever	totoni-k	Cf. 'perspire' 04.550. 'Paludismo' is ičtaka-tonawis.
+4	843	cold (catarrh)	c̷ompil	
+4	850	wound, sore	tatek-ti; koko-t	
+4	852	bruise	šokolti-tok	Cf. 'blue' 15.670.
+4	853	swelling	posawa-k; ki-posawa-l-ti-a	See 'pregnant' 04.730.; See 'pregnant' 04.730.
+4	854	itch	ahwayowa; ahwayowalis; sawa-t	*Aztecan *kəškia.; *Aztecan *kəškia.; *Aztecan *kəškia.
+4	855	blister	asoloni	'Blood blister' is es-tata.
+4	857	pus	temal	
+4	858	scar	i-tatek	
+4	860	cure, heal	ki-pahti-a	
+4	870	physician	te-pahtih-keh	
+4	880	medicine, drug	-pah; pahti	
+4	890	poison	ta-pahwi-lo-ni	Means 'negative-medicine (heal)'.
+4	910	tired, weary	siowi-k; siow-tok; kʷač-ti-k; kʷaw-ti-k	*Aztecan *soota; *sVyawi.; *Aztecan *soota; *sVyawi.; *Aztecan *soota; *sVyawi.; *Aztecan *soota; *sVyawi.
+4	912	rest	mo-sewi-a	
+4	920	lazy	tac̷iwi; sonsoh	
+4	930	bald	kʷa-šikal-ti-k	Lit. 'head-jícara (gourd container)-adj.'
+4	940	lame	košo	Span. 'cojo'(?). Also mec̷-koko-š-keh; ki-koko-a i-mec̷; mec̷-kohkol-ti-k; mec̷-kotol-ti-k.
+4	950	deaf	nakas-c̷ac̷a; nakas-tapal; nakas-c̷akʷi	nakas is 'ear' 04.220.; nakas is 'ear' 04.220.; nakas is 'ear' 04.220.
+4	960	mute	amo wel-tahto-a; non-c̷in	The former, lit. 'negative able-talk'.; The former, lit. 'negative able-talk'.
+4	970	blind	amo ta-ča	'Sight (vista)' is tačialis.
+4	980	intoxicated	win-ti-tok; tawan-keh	*Aztecan *VwVnti.; *Aztecan *VwVnti.
+4	990	naked, bare	šikal-ti-k; šitac̷-ti-k	šikal- is 'gourd (jícara)'.; šikal- is 'gourd (jícara)'.
+5	110	eat	ta-kʷa; ta-kʷa-a	Lit. 'general, nonpersonal object-eat'. *Aztecan *kʷa.; Lit. 'general, nonpersonal object-eat'. *Aztecan *kʷa.
+5	120	food	ta-kʷa-l; ta-kʷa-lo-ni	Also tapalo-l; 'tamales pintos' ešiši-tamal.; Also tapalo-l; 'tamales pintos' ešiši-tamal.
+5	121	cooked	yoksi; ta-kʷa-l-čiwa	The latter means 'food-make'. *Aztecan *ɨkʷsik.; The latter means 'food-make'. *Aztecan *ɨkʷsik.
+5	122	raw	šošo-wi-k	Cf. 'blue, green' 15.670.
+5	123	ripe	yoksi	
+5	124	green, unripe	šošo-wi-k	Also means the color green 15.680. 'Immature' is *Aztecan *səli-.
+5	125	rotten	palak-ti-k; kihtakʷa; ihtakawi	Verbal form is pala-ni.; Verbal form is pala-ni.; Verbal form is pala-ni.
+5	130	drink	tayi; ati	Latter is 'drink water'.; Latter is 'drink water'.
+5	140	hunger	mayana; apis; apis-ti	
+5	141	famine	apis-ti; mayaan-miki	
+5	150	thirst	a-miki; amik; amik-ti	Lit. 'water-die'.; Lit. 'water-die'.; Lit. 'water-die'.
+5	160	suck	ki-pipi-na; ki-pipi-c̷o-a	'To suckle' is čiči.; 'To suckle' is čiči.
+5	180	chew	kic̷on-kʷahkʷa	kʷa is 'eat'.
+5	181	swallow	ki-tolo-a	
+5	190	choke	ki-keč-pac̷-ka; kihiyo-mik-ti-a	keč is 'neck'. 'Die of strangling' -keč-paac̷-miki. Also tasonewaltia; kihyo-mik-ti-a.; keč is 'neck'. 'Die of strangling' -keč-paac̷-miki. Also tasonewaltia; kihyo-mik-ti-a.
+5	220	boil (vb)	mo-molo-ka; molo-ni; čočopoka	*Aztecan .*moloonV.; *Aztecan .*moloonV.; *Aztecan .*moloonV.
+5	230	roast, fry	tewaik; tatewac̷	Also ki-c̷oyoni-a.; Also ki-c̷oyoni-a.
+5	240	bake	tatoki-a	
+5	260	pot, cooking vessel	ahpac̷-ti; kešahpas	'Olla' is komit.; 'Olla' is komit.
+5	280	pan	akomit; tenašah	'Comale' is komal. *Aztecan *komaal- 'tortilla gridle'.; 'Comale' is komal. *Aztecan *komaal- 'tortilla gridle'.
+5	310	dish	kašahpas; ahpaac̷-ti	
+5	320	plate	kašit; kašahpas	
+5	330	bowl	šikal	Means 'jícara'. Also tekomat.
+5	340	pitcher, jug	a-c̷oc̷okol	*Aztecan *koomV-.
+5	350	cup, drinking vessel	tayi-lo-ni	
+5	360	saucer	kašahpas-konet	
+5	430	lunch	tamahsewa; almasal	
+5	450	supper	ta-kʷa ta-yowa-k	kʷa is 'eat'; yowa- is 'night, dark' 14.420, 01.620.
+5	460	peel	ki-piš-ka; kišima; kišol-ewa; kakawa-t	Cf. 'skin, hide' 04.120.; Cf. 'skin, hide' 04.120.; Cf. 'skin, hide' 04.120.; Cf. 'skin, hide' 04.120.
+5	470	sieve, strain	ki-c̷ec̷elo-a	
+5	480	scrape	kišitoma	
+5	490	stir, mix	ki-nelo-a; kolini-a	Also ki-ma-nelo-a (with the hand). *Aztecan *oolɨɨnia.; Also ki-ma-nelo-a (with the hand). *Aztecan *oolɨɨnia.
+5	530	dough	tiš-ti	Dough made of corn. *Aztecan *tɨš-/ *təš-
+5	540	knead	ki-pahpačo-a	
+5	560	crush, grind	ki-kʷečo-a; tiskeh	*Aztecan *tɨsɨ, *təsɨ.; *Aztecan *tɨsɨ, *təsɨ.
+5	580	mortar (2)	meta-t	*Aztecan *mətla-.
+5	590	pestle	meta-ma-it	
+5	610	meat	naka-t	Also means 'flesh' 04.130. *Aztecan *naka-.
+5	640	soup, broth	kil-a-t; e-mol	The latter is 'bean soup' 05.660.; The latter is 'bean soup' 05.660.
+5	650	vegetables	kili-t; kil-toni-l; waw-kilit	Also waw-kili-t; ehkaw; ehkaw-ti.; Also waw-kili-t; ehkaw; ehkaw-ti.; Also waw-kili-t; ehkaw; ehkaw-ti.
+5	660	bean	e-t; e-c̷iin	'Frijol torito' is čičimeko; 'frijol gordo' ešoyaman.; 'Frijol torito' is čičimeko; 'frijol gordo' ešoyaman.
+5	710	fruit	šoko-t	'Avocado' is awakat. *Aztecan aawaka-. 'Tomato' is toma-t; *Aztecan *toma-.
+5	791	grease, fat	tomawa-k; čawa-k	
+5	810	salt	ista-t	*Aztecan *ɨsta-.
+5	821	chili pepper	či-l; čilito; koko-k	Cf. 'red' 15.660. Also 'chile atole' čilatol; 'chile verde' čilčot. *Aztecan *čiil-.; Cf. 'red' 15.660. Also 'chile atole' čilatol; 'chile verde' čilčot. *Aztecan *čiil-.; Cf. 'red' 15.660. Also 'chile atole' čilatol; 'chile verde' čilčot. *Aztecan *čiil-.
+5	840	honey	c̷ope-k-a-t; nekʷ-a-t	Means 'agua miel/ dulce'. Also nek-ti.; Means 'agua miel/ dulce'. Also nek-ti.
+5	870	milk (vb)	ki-pac̷ka	Also means 'squeeze' 09.343.
+5	900	beverage, drink	a-tol	*Aztecan *atool-, 'atole'.
+5	930	beer	ok-ti	Made of maguey plant.
+5	940	fermented drink	mo-čikawa-l-tih; kokokat	
+5	970	egg	pio-te-t	Lit. 'chicken-rock' 01.440.
+5	971	egg yolk	pio-te-šoči-t	šoči-t means 'flower' 08.570.
+6	110	put on (clothes)	mo-kʷey-ti-a; mo-taken-ti-a	
+6	120	clothing, clothes	tasa-l; i-taken	'Sarape' (man's clothing) is koton; takemit.; 'Sarape' (man's clothing) is koton; takemit.
+6	210	cloth	tasa-l; tate-k	
+6	220	wool	tohmi-t	Also means 'hair' 04.144.
+6	290	leather	kʷetaš	*Aztecan *kʷətaš-.
+6	310	spin	ta-c̷awa	*Aztecan *c̷aawa.
+6	320	spindle	malaka-t	*Aztecan *malaka-.
+6	330	weave	čayal-ti-k	Refers to a 'tejido abierto'. *Aztecan *ihkVti.
+6	340	loom	kʷowtahkit	
+6	350	sew	tahc̷oma	*Aztecan *c̷oma.
+6	360	needle	tahc̷oma-lo-ni	'Thorn' is wic̷-ti. *Aztecan *wic̷-.
+6	380	thread	ičti	Refers to 'hilo de maguey, ixtle'. *Aztecan *ɨkpa-.
+6	390	dye	ki-tapal-wi-a; kipa	Noun is tapal.; Noun is tapal.
+6	410	cloak	kapisayoh	
+6	420	woman's dress	i-kʷey; i-taken	keč-kemit means 'huipil'. *Aztecan *kəčkeemV- (?).; keč-kemit means 'huipil'. *Aztecan *kəčkeemV- (?).
+6	430	coat	taken-ti; takem-it	
+6	450	collar	koskat	
+6	460	skirt	kʷeyi-t; i-kʷey	'Lap (of a woman)' is i-kʷešanko. *Aztecan *kʷeey(V)-.; 'Lap (of a woman)' is i-kʷešanko. *Aztecan *kʷeey(V)-.
+6	550	hat, cap	i-kʷa-pikka; ikʷa-pikiloni	
+6	570	belt, girdle	i-tahko-ilpi-ka	Lit. 'half-tie' 09.160. See 'waist' 04.462.
+6	580	glove	ma-tapeč; i-ma-pikka	
+6	730	ring (for finger)	i-ma-tepos	Lit. 'possessed-hand-metal'.
+6	750	necklace	koska-t	Cf. 'throat' 04.290.
+6	770	earring	i-nakas-tapilo-l	
+6	910	comb	ta-c̷ikawas-wi-a	Noun is c̷ikawas; c̷ikʷas. *Aztecan *c̷ɨkawaas-.
+6	920	brush	ki-šilwi-a; ikʷa-šiluas	
+6	921	braid	mo-c̷on-ilpi-a; tamaihki-t	The former means 'hair-tie'. 'Estambre (worsted)' (for the braids) is kolton.; The former means 'hair-tie'. 'Estambre (worsted)' (for the braids) is kolton.
+6	950	soap	šapoh	
+6	960	mirror	teska-t	
+7	110	dwell, live	kal-yeto-k; mo-čan-ti-a	Cf. 'house' 07.120. 'Habitante' is kayot; čaneh.; Cf. 'house' 07.120. 'Habitante' is kayot; čaneh.
+7	120	house	kal-i; i-čan	*Aztecan *čaan-.; *Aztecan *čaan-.
+7	130	hut	šah-kal	
+7	150	yard, court	kal-iš-pan; kal-ten-oh	Note body parts: iš 'face'; ten 'mouth'.; Note body parts: iš 'face'; ten 'mouth'.
+7	220	door, gate	kal-ten-c̷akʷi-lo-ni; kal-ten-ti	ten is 'mouth' 04.240.; ten is 'mouth' 04.240.
+7	270	wall	te-pami-t; te-paan	Latter is 'stone wall'.; Latter is 'stone wall'.
+7	310	fireplace	ti-komit; tekʷileh; ti-ko-n	ti is 'fire'. Cf. 05.260.; ti is 'fire'. Cf. 05.260.; ti is 'fire'. Cf. 05.260.
+7	420	bed	koč-pet; i-pet; tapeč	Also kʷopan-ti; kʷowpan-ti 'lecho, camilla'. *Aztecan *tlapəč-.; Also kʷopan-ti; kʷowpan-ti 'lecho, camilla'. *Aztecan *tlapəč-.; Also kʷopan-ti; kʷowpan-ti 'lecho, camilla'. *Aztecan *tlapəč-.
+7	421	pillow	kʷa-tapeč	Lit. 'head-bed'.
+7	422	blanket	aya-taken; aya-t	taken is 'clothing'.; taken is 'clothing'.
+7	430	chair	sewi-lo-ni	sewi is 'rest' 04.912.
+7	440	table	mesah	From Span. 'mesa'.
+7	450	lamp, torch	ta-wi-l; ta-wil-ti	
+7	460	candle	ta-wi-l	
+7	480	trough	kʷow-ta-paka-lo-ni	kʷow- is 'wood' 01.430; paka is 'wash' 09.360. Also wapal ta-paka-lo-ni, 'board' 07.570.
+7	510	roof	kal-kʷa-ko	Lit. 'house-head (top)-place'.
+7	560	post, pole	kʷow-tok	
+7	570	board	wapal	
+7	610	mason	te-pan-čiw-keh	
+7	620	brick	tawah-wilis	
+8	120	field (for cultivation)	mil; milah; sintah; sin-mil	*Aztecan *miil-.; *Aztecan *miil-.; *Aztecan *miil-.; *Aztecan *miil-.
+8	150	cultivate, till	tekiti milah	Also tamewa.
+8	170	ditch	kʷemi-t; kanyoh; tal-kanyoh; akanyoh	
+8	210	plow	yuntahtekiti	
+8	212	furrow	kʷemi-t	
+8	220	dig	kičkʷa; -koyoo-ni; ta-koyoo-ni	Latter forms mean 'to dig holes'.; Latter forms mean 'to dig holes'.; Latter forms mean 'to dig holes'.
+8	250	hoe	čapi	
+8	260	fork	kʷawmašal	
+8	311	seed	šinač	Cf. 'eye'. *Aztecan *aač-.
+8	330	sickle, scythe	ohoso	
+8	410	crop, harvest	takilot; ta-piška	*Aztecan *piška, 'husk, shell corn'.; *Aztecan *piška, 'husk, shell corn'.
+8	470	maize, corn	elo-t; ooloo-t; tago-l	'Blue corn' is yawit. 'Mazorca' is sin-ti; 'small one' is molkat; 'corn cob' is sin-ti ta-piška-l. 'Cabello de elote' is elo-c̷on. 'He is shelling corn' tago-š-tok. *Aztecan *tlayool-(?). *Aztecan *tootomoč- 'corn husk'. *Aztecan *sən-, 'ear of corn'. *Aztecan *eeloo- 'roasting ear'.; 'Blue corn' is yawit. 'Mazorca' is sin-ti; 'small one' is molkat; 'corn cob' is sin-ti ta-piška-l. 'Cabello de elote' is elo-c̷on. 'He is shelling corn' tago-š-tok. *Aztecan *tlayool-(?). *Aztecan *tootomoč- 'corn husk'. *Aztecan *sən-, 'ear of corn'. *Aztecan *eeloo- 'roasting ear'.; 'Blue corn' is yawit. 'Mazorca' is sin-ti; 'small one' is molkat; 'corn cob' is sin-ti ta-piška-l. 'Cabello de elote' is elo-c̷on. 'He is shelling corn' tago-š-tok. *Aztecan *tlayool-(?). *Aztecan *tootomoč- 'corn husk'. *Aztecan *sən-, 'ear of corn'. *Aztecan *eeloo- 'roasting ear'.
+8	510	grass	šiwi-t; saka-t	*Aztecan *saka-.; *Aztecan *saka-.
+8	520	hay	pač-ti; paštle; saka-t	
+8	531	plant (vb)	ki-tooka; ki-tal-tooka; seli-a	The former also means 'bury' 04.780. 'He plants it everywhere' ki-toh-tooka. Also ki-tepewa. tal is 'earth'. *Aztecan *tooka.; The former also means 'bury' 04.780. 'He plants it everywhere' ki-toh-tooka. Also ki-tepewa. tal is 'earth'. *Aztecan *tooka.; The former also means 'bury' 04.780. 'He plants it everywhere' ki-toh-tooka. Also ki-tepewa. tal is 'earth'. *Aztecan *tooka.
+8	540	root	nalwa-t	
+8	550	branch	i-ma-yo	Cf. 'hand' 04.330; 'arm' 04.310.
+8	560	leaf	šiwi-t	Cf. 'feather' 04.393. *Aztecan *šVwV-.
+8	570	flower	šoči-t	*Aztecan *šoočɨ-
+8	600	tree	kʷowi-t	*Aztecan kʷawɨ-.
+8	610	oak	awat	
+8	660	acorn	awabeyotah	From Span. 'bellota'.
+8	670	vine	kʷo-meka-t	Lit. 'tree-rope' 09.190.
+8	690	smoke (tobacco)	ta-čiči-na	Cf. 'suck' 05.160.
+8	730	tree trunk	kʷaw-ten-ti	See 'edge' 12.353.
+8	750	bark	ewa-t	Also means 'skin' 04.120.
+8	760	sap	ičokilo	
+8	810	palm tree	kʷow-šiwit	
+8	910	sweet potato	kamoh; tal-kamoh	
+8	920	tapioca, manioc, cassava	kʷowkamoh	
+8	930	gourd	šikal; waho; tekoma-t	See 'bald' 04.930; 'skull' 04.202. Also c̷owahkal; ayoh. *Aztecan *šɨɨka(l)- (?).; See 'bald' 04.930; 'skull' 04.202. Also c̷owahkal; ayoh. *Aztecan *šɨɨka(l)- (?).; See 'bald' 04.930; 'skull' 04.202. Also c̷owahkal; ayoh. *Aztecan *šɨɨka(l)- (?).
+8	931	pumpkin, squash	ayoh; ayoh-ti	*Aztecan *ayoh-.; *Aztecan *ayoh-.
+8	940	bamboo	aka-t	*Aztecan *aaka-, 'reed'.
+8	941	sugar cane	owat c̷ope-k	Lit. 'cane sweet'. 'Cane' is aka-t.
+8	980	mushroom	nanaka-t; kosawi-k	Also totol-koskat; kosawi-k; šopic̷a.; Also totol-koskat; kosawi-k; šopic̷a.
+9	110	do, make	ki-čiwa; čih-čiiwa	*Aztecan *čiiwa.; *Aztecan *čiiwa.
+9	120	work	teki-t; -tekiti; čiwa-lis	*Aztecan *təkɨtɨ.; *Aztecan *təkɨtɨ.; *Aztecan *təkɨtɨ.
+9	140	bend	tec̷il-ti-k; čiko-ti-k; ta-tec̷ilol	Also kʷelpačiw-tok.; Also kʷelpačiw-tok.; Also kʷelpačiw-tok.
+9	150	fold	ta-kʷelpačo-a	Also košoločo-a.
+9	160	tie, bind	k-ilpi-a; ilpi-tok	See 'knot' 09.192. *Aztecan *ɨlpi-.; See 'knot' 09.192. *Aztecan *ɨlpi-.
+9	161	untie	ki-kaša-ni-a; ki-kahkawa; motoma-k	*Aztecan *kašaani; *toma.; *Aztecan *kašaani; *toma.; *Aztecan *kašaani; *toma.
+9	190	rope, cord	meka-t	
+9	192	knot (noun)	ilpi-tok	
+9	210	strike (hit, beat)	ki-maga; -mah-maga	The latter is 'strike with the hand'. Also ta-kahkalani-a; ta-kohkomoni-a; kitalwiteki; -wih-wii-teki. 'To beat (with a whip)' is kʷetaš-wi-a; 'to hit (with hand)' is ki-ma-solwi-a; 'to hit (with a stick)' is kʷow-tema.; The latter is 'strike with the hand'. Also ta-kahkalani-a; ta-kohkomoni-a; kitalwiteki; -wih-wii-teki. 'To beat (with a whip)' is kʷetaš-wi-a; 'to hit (with hand)' is ki-ma-solwi-a; 'to hit (with a stick)' is kʷow-tema.
+9	211	pound with fist	ki-kʷečo-a; ki-nac̷kʷalti-a	(Hand/fist is not involved.) ?; (Hand/fist is not involved.) ?
+9	220	cut	ki-teki; ki-kotona	'Cortado, reventado' is kotol-ti-k. Incorporation: 'cut meat' -naka-teki; 'cut flesh' -naka-yoh-teki. *Aztecan *təkɨtɨ.; 'Cortado, reventado' is kotol-ti-k. Incorporation: 'cut meat' -naka-teki; 'cut flesh' -naka-yoh-teki. *Aztecan *təkɨtɨ.
+9	221	cut down	kʷitakepa	
+9	222	chop, hew	kokotoc̷a; -teh-teki	
+9	223	stab	ki-tihtikʷina-lti-a; tihtikʷini	
+9	240	scissors, shears	ta-teki-lo-ni	teki is 'cut' 09.220.
+9	260	break	ki-tapana; -tapani; kotoni	*Aztecan *pos.; *Aztecan *pos.; *Aztecan *pos.
+9	261	broken	c̷ayak-ti-k; mo-hmoš-ti-k; tapak-ti-k	
+9	270	split	ki-tapana	'To split wood' kʷow-tapana.
+9	280	tear	ki-c̷ayana	Also kipos-teki; ki-tapana.
+9	310	rub, wipe	ki-šakʷalo-a	Also ki-alašo-a.
+9	320	stretch	ki-sowa	
+9	330	pull	ki-tilana	
+9	340	spread out	ki-takac̷o-a	
+9	341	hang up	ki-pam-pilo-a; ki-pilo-a	'To hang up different things' -pih-piloo.; 'To hang up different things' -pih-piloo.
+9	343	squeeze, wring	ki-pac̷ka; ki-pac̷o-a	Also ki-nac̷kʷal-ti-a.; Also ki-nac̷kʷal-ti-a.
+9	350	pour	ki-kepa	
+9	360	wash	ki-paka	*Aztecan *paaka.
+9	370	sweep	ta-čpana; kočpana	*Aztecan *(tla-)očpaana.; *Aztecan *(tla-)očpaana.
+9	380	broom	očpawas	
+9	430	carpenter	kʷow-ta-čih-čiw-keh	
+9	440	build	čihčiw-tok	
+9	460	bore	ki-koyo-ni-a; koyoni	koyo is 'hole' 12.850.; koyo is 'hole' 12.850.
+9	480	saw	ta-teki-lo-ni	'Aserrador' is kʷawšinkeh. teki is 'cut' 09.220.
+9	500	nail	ki-sohso-a	
+9	560	glue	ki-pepečo-a	
+9	630	cast (metals)	tepos-ti	Means 'metal'.
+9	670	iron	tepos; tepos-ti	Also means 'metal' 09.630.; Also means 'metal' 09.630.
+9	740	glass	teska-t	Also means 'mirror' 06.960.
+9	750	weave, plait	kihkiti	
+9	760	basket	čikiwi-t; tanah	
+9	770	mat	peta-t; tapeč; akapeč-ti	*Aztecan *pətla-.; *Aztecan *pətla-.; *Aztecan *pətla-.
+9	790	fan (noun)	ta-pipic̷a-lo-ni	
+9	791	fan (vb)	ki-tamota	
+9	830	statue	nekec̷a-lis	
+9	880	paint (noun)	tapal; kʷikʷi-l-ti-k	
+9	890	paint (vb)	ki-tapal-wi-a	
+10	110	move	ki-olini-a; ki-manelo-a; ki-nelo-a	
+10	120	turn over	ki-nelo-a	Also ki-noki-a; ki-c̷onikanoki-a; kic̷on-kʷepa.
+10	130	turn around	ki-kepa; mo-kepa; mo-malaka-čo-a	
+10	140	wind, wrap	ki-kemilo-a; ki-piki	*Aztecan *(pi)pilowa.; *Aztecan *(pi)pilowa.
+10	150	roll	te-tekʷino-l	Also ki-yowalo-a; tamaololol.
+10	170	twist	ki-tec̷ilo-a; mo-malaka-čo-a	Also ki-malina.; Also ki-malina.
+10	210	rise	-seen-tehko; tehko-ka	Respectively: 'to go up together; he went up'.; Respectively: 'to go up together; he went up'.
+10	220	raise, lift	ki-ahakʷi	Also ki-ewa; mewa; ki-tehkol-ti-a. *Aztecan *təhko.
+10	230	fall	wec̷i; -wec̷o	Latter is 'fall'. *Aztecan *wəc̷ɨ.; Latter is 'fall'. *Aztecan *wəc̷ɨ.
+10	240	drip	čičipika; čipini; čalani	
+10	250	throw	ki-ta-mota	'Throw (it) out' -kalaan-ta-moota; 'throw out' -kalaan-kiiš-tii-h. *Aztecan *mootla.
+10	260	shake	wi-wiška; kʷe-kʷetaka	Also wiwiyoka; ta-c̷ec̷elo-a. *Aztecan *c̷əlowa.; Also wiwiyoka; ta-c̷ec̷elo-a. *Aztecan *c̷əlowa.
+10	330	sink	pan-kalaki; mo-pac̷-toka	Cf. 'bury, plant'.; Cf. 'bury, plant'.
+10	340	float	nemi a-iš-ko	Lit. 'walk' + water-face-locative.
+10	350	swim	ahkʷi	
+10	352	splash	čačakʷaka; čačapaka; čačapani	'Salpica, busea' is čoponi.; 'Salpica, busea' is čoponi.; 'Salpica, busea' is čoponi.
+10	370	fly (vb)	pata-ni	*Aztecan *pataanV.
+10	380	blow	ki-pi-pic̷a; ki-pic̷a	'Blow (the wind)' ta-eheka. *Aztecan *-piic̷a.; 'Blow (the wind)' ta-eheka. *Aztecan *-piic̷a.
+10	410	creep, crawl	mo-titilac̷a; mo-išakawilana	
+10	412	kneel	mo-tan-kʷa-kec̷a	tan-kʷa- is 'knee' 04.360.
+10	420	slide, slip	ta-šolawa; alak-ti-k; alawa-k	'Escurrir' is ihšika.; 'Escurrir' is ihšika.; 'Escurrir' is ihšika.
+10	430	jump, leap	c̷ikʷi-ni	
+10	431	kick	-mec̷-topeewa; ki-tel-iksa	
+10	440	dance	mihtoti-a; kʷesaltin; wewes	Latter forms are 'bailador'. *Aztecan *-ɨhtootia.; Latter forms are 'bailador'. *Aztecan *-ɨhtootia.; Latter forms are 'bailador'. *Aztecan *-ɨhtootia.
+10	450	walk	-nemi; neh-nemi; -nen; -nehnen	
+10	460	run	mo-talo-a	*Aztecan *-tlalowa.
+10	470	go	neh-nemi; nemi; yowi; -ow; yow-; -yah	'To pass' is pano-a. 'To stroll' is pašalo-a; 'he is passing' pašaalooh-tok. *Aztecan *panowa.; 'To pass' is pano-a. 'To stroll' is pašalo-a; 'he is passing' pašaalooh-tok. *Aztecan *panowa.; 'To pass' is pano-a. 'To stroll' is pašalo-a; 'he is passing' pašaalooh-tok. *Aztecan *panowa.; 'To pass' is pano-a. 'To stroll' is pašalo-a; 'he is passing' pašaalooh-tok. *Aztecan *panowa.; 'To pass' is pano-a. 'To stroll' is pašalo-a; 'he is passing' pašaalooh-tok. *Aztecan *panowa.; 'To pass' is pano-a. 'To stroll' is pašalo-a; 'he is passing' pašaalooh-tok. *Aztecan *panowa.
+10	471	go up	tehko; pan-kisa; kahakʷi	'To go up together' -seen-tehko.; 'To go up together' -seen-tehko.; 'To go up together' -seen-tehko.
+10	473	go down	temo-wa	'Bajado' is wal-temolis. 'He is making it go down' ki-temooltiih-tok. *Aztecan *təmo(wa).
+10	474	go out	kisa; -kiiš; ewtewa	'To leave hastily' -kiiš-ti-wec̷i.; 'To leave hastily' -kiiš-ti-wec̷i.; 'To leave hastily' -kiiš-ti-wec̷i.
+10	480	come	wic̷a; wala-; wiki	Latter form is irregular verb. *Aztecan *wiic̷-; *waallaah-.; Latter form is irregular verb. *Aztecan *wiic̷-; *waallaah-.; Latter form is irregular verb. *Aztecan *wiic̷-; *waallaah-.
+10	481	come back	mo-kepa; išpeta-ni	'To return it' is ki-kʷepa.; 'To return it' is ki-kʷepa.
+10	490	go away, depart	ki-kawa; ki-kač-tewa	Cf. 'forget' 17.320. *Aztecan *kiisa.; ? - Cf. 'forget' 17.320. *Aztecan *kiisa.
+10	510	flee	čolo-a; čoloh-ti-nemi	Latter is 'he goes along furtively'.; Latter is 'he goes along furtively'.
+10	520	follow	-toka; ta-toh-toka; ki-sen-toka	sen- is 'together'.; sen- is 'together'.; sen- is 'together'.
+10	530	pursue	-toka	'Follow footsteps' -mec̷-toh-toka.
+10	550	reach, arrive	ki-ahsi; ehko	*Aztecan *ahsi.; *Aztecan *ahsi.
+10	570	enter	kalaki	
+10	610	carry (bear)	ta-mama; kʷika	'To unload' -ta-mama-l-kiiš-tii. *Aztecan *maama.; 'To unload' -ta-mama-l-kiiš-tii. *Aztecan *maama.
+10	612	carry-in-hand	ki-mah-čana	
+10	620	bring	-wiikaa; kʷal-kʷi; -waal-kʷii	
+10	630	send	ki-titani	
+10	640	lead (vb)	ki-yekana; -čaana	'Lead with the hand' is -mah-čaana.; 'Lead with the hand' is -mah-čaana.
+10	650	drive	ki-neh-nemi-l-ti-a	
+10	710	road	oh-ti	*Aztecan *oh-.
+10	720	path	oh-ti; oh-pic̷a-k	*Aztecan *oh-.; *Aztecan *oh-.
+10	750	carriage, wagon, cart	tal-kišti-lo-ni	For hauling dirt, tal.
+10	760	wheel	yowa-l-ti-k	yowa also means 'round' 12.810; 'night' 14.420. 'Goes around' is malakač-ti-k. See 'turn around' 10.130.
+11	110	have	ki-pi-ya	*Aztecan *piya.
+11	120	own, possess	-w; -wan	Respectively: occurs with singular; occurs with plural. 'Possessions/property' is i-aška-ko; te-aška-t.; Respectively: occurs with singular; occurs with plural. 'Possessions/property' is i-aška-ko; te-aška-t.
+11	130	take	ki-kʷi; tahkʷani-a; kʷi-lia	'Take out' is k-išti-a.; 'Take out' is k-išti-a.; 'Take out' is k-išti-a.
+11	140	seize, grasp	ki-kʷi; -maa-kʷi-li	Latter is 'seize from, take from'.; Latter is 'seize from, take from'.
+11	150	hold	ki-kic̷ki-a	
+11	170	keep, retain	ki-piya	*Aztecan *piya.
+11	180	thing	tehsa	Nominalizer: -l; -lis; -yot.
+11	210	give	ki-maka; ki-te-maka	Also te-tayokoli-a. *Aztecan *maka.; Also te-tayokoli-a. *Aztecan *maka.
+11	270	destroy	ki-weh-welo-a	Cf. 'old' 14.150.
+11	280	harm, injure, damage	ki-čiwilia mal; mo-ihtako-a	Also ki-koko-a.; Also ki-koko-a.
+11	310	seek, look for	ki-teemo-wa	*Aztecan *teemowa.
+11	320	find	ki-ahsi; mo-mati	*Aztecan *ɨhta, also 'see'.; *Aztecan *ɨhta, also 'see'.
+11	330	lose	ki-polo-wa	'To be lost' -pooliwi; -polo-wi. *Aztecan *polowa.
+11	430	money	tomin	
+11	510	rich	tomin piš-keh	tomin is 'money' 11.430.
+11	520	poor	naken amo kipia ten i-aška	Lit. 'someone negative has ? possessions'.
+11	530	beggar	naken tahtani maj	'To beg' is ta-tetekiwi-a.
+11	540	avaricious, stingy	c̷oc̷oka-t	
+11	620	borrow	tanew-ti; -tanewi	
+11	630	owe	tawika	
+11	640	debt	tawika-lis	
+11	650	pay (vb)	taštawa; -ištaa	'His/her pay' is i-tatan.; 'His/her pay' is i-tatan.
+11	810	buy	ki-kowa	'Cause to be purchased' -ko-wi. *Aztecan *kowa.
+11	820	sell	ki-namaka	
+11	870	price	i-pati-w	
+11	880	dear (costly, expensive)	pati-oh	
+11	890	cheap	amo pati-oh	Lit. 'not expensive'. Also c̷inkisa.
+11	910	share (distribute)	ki-šeh-šelo-a	
+12	11	behind	ta-i-kampa; i-kampa; i-kan	Cf. 'back' 04.190.; Cf. 'back' 04.190.; Cf. 'back' 04.190.
+12	20	beside	anal; anal-pa; inakastan	'Al otro lado'.; 'Al otro lado'.; 'Al otro lado'.
+12	30	down, below	tani; ne win-tani	
+12	40	before	ačto; ačto-pa	
+12	41	front	ta-iš-pan; iš-ten-oh; iš-pan	Cf. 'face' 04.204; 'eye' 04.210; 'mouth' 04.240.; Cf. 'face' 04.204; 'eye' 04.210; 'mouth' 04.240.; Cf. 'face' 04.204; 'eye' 04.210; 'mouth' 04.240.
+12	50	inside, in	ihti-k; ta-ihti-k; aktok; -ko	Cf. 'intestines' 04.461. *Aztecan *-ɨhtɨ-k.; Cf. 'intestines' 04.461. *Aztecan *-ɨhtɨ-k.; Cf. 'intestines' 04.461. *Aztecan *-ɨhtɨ-k.; Cf. 'intestines' 04.461. *Aztecan *-ɨhtɨ-k.
+12	60	outside	kalan; kalam-pa	
+12	70	under	tatam-pa	
+12	80	up, above	ahko; ipan; pani	See 'shoulder' 04.300. 'High place' is ahko-pa. *Aztecan *-pan, 'on, place'.; See 'shoulder' 04.300. 'High place' is ahko-pa. *Aztecan *-pan, 'on, place'.; See 'shoulder' 04.300. 'High place' is ahko-pa. *Aztecan *-pan, 'on, place'.
+12	110	place	-kan; -an; seko; -ko	Latter form is locative indicating inside.; Latter form is locative indicating inside.; Latter form is locative indicating inside.; Latter form is locative indicating inside.
+12	120	put	ki-tali-a	*Aztecan *tlaalia.
+12	130	sit	ki-tokoc̷-tali-a; mo-tali-a	'Seated' is tokoc̷-yeto (located), lit. 'shorten oneself' 12.590. Cf. 'put' 12.120.; 'Seated' is tokoc̷-yeto (located), lit. 'shorten oneself' 12.590. Cf. 'put' 12.120.
+12	140	lie down	ki-teka; wec̷-tok	*Aztecan *teeka.; *Aztecan *teeka.
+12	150	stand	ihka-tok; ihka-tok melawak; kec̷a	Second form means 'vertical'. *Aztecan *kəc̷a.; Second form means 'vertical'. *Aztecan *kəc̷a.; Second form means 'vertical'. *Aztecan *kəc̷a.
+12	160	remain, stay	mo-kawa	*Aztecan *kaawa.
+12	170	remains, left overs	ten mo-kawa-k	
+12	210	collect, gather	ki-ololo-a	Also ki-sen-tili-a; sen is 'together'.
+12	213	pile up	ki-nepano-a; ki-tema; mo-teema	
+12	220	join, unite	ki-sen-tili-a; mo-nečiko-a	
+12	230	separate	ki-šelo-a; ki-taman-šel-ka	
+12	232	divide	ki-šelo-a; ki-tahko-šelo-a	tahko is 'half'.; tahko is 'half'.
+12	240	open	ta-tapo-wa	'Cause to be opened' -tapo-wi; 'open the top of' -kʷaa-tapoo. *Aztecan *tapowa.
+12	250	shut, close	ki-c̷akʷa	*Aztecan *c̷akʷa.
+12	260	cover	ta-topalwi-a; ki-pačo-a; ki-c̷akʷa	Also i-ten-c̷ak-ka; 'cover with dirt' -taal-pačoo.; Also i-ten-c̷ak-ka; 'cover with dirt' -taal-pačoo.; Also i-ten-c̷ak-ka; 'cover with dirt' -taal-pačoo.
+12	270	hide, conceal	ki-tati-a; ki-ičtakaewa	
+12	310	high	wehka-pan; wehka-pan-ti-k	
+12	330	top	ta-kʷa-pan	'Top of mountain' is tepe-kʷa-ko; tepe-kʷa-pan; kʷa also means 'head' 04.200. *Aztecan *-pan; *-(ɨ)kpa-k.
+12	350	end	kampa c̷on-tami	tami also means 'finish' 14.270. *Aztecan *tlami.
+12	352	pointed	kʷa-yeka-pic̷-ti-k; yeka-pic̷-ti-k	Cf. 'nose' 04.230. 'Point' is i-kʷa-pan; see 'top' 12.330.; Cf. 'nose' 04.230. 'Point' is i-kʷa-pan; see 'top' 12.330.
+12	353	edge	ta-ten-oh; tama-čiw-tok	See 'mouth' 04.240; 'cheek' 04.208. 'Edge (of road)' is oh-ten-oh; 'edge (of river)' is a-ten-ten-oh; also weyi-a-ten-oh.; See 'mouth' 04.240; 'cheek' 04.208. 'Edge (of road)' is oh-ten-oh; 'edge (of river)' is a-ten-ten-oh; also weyi-a-ten-oh.
+12	360	side	i-poš-nakas-tan	See 'stomach' 04.460; 'ear' 04.220.
+12	370	middle, center	ta-tahko-yan	tahko is 'half'.
+12	410	right (side)	i-yek-ma-y	Lit. 'his/her-correct-hand'. Also i-yek-ma-kokopa.
+12	420	left (side)	opoč-ti	'Left hand' is i-poč-ma-y; i-poč-ma-kokopa.
+12	430	near (adv)	amo wehka; inawak; i-nakas-tan	Lit. 'not far'. Cf. 'ear' 04. 220. *Aztecan *-naa(wa)k.; Lit. 'not far'. Cf. 'ear' 04. 220. *Aztecan *-naa(wa)k.; Lit. 'not far'. Cf. 'ear' 04. 220. *Aztecan *-naa(wa)k.
+12	440	far (adv)	wehka	*Aztecan *wəhka.
+12	450	east	tona-l-kisa-yampa	Lit. 'sun-leaves- ?'. Also kampa kisa in tona-l.
+12	460	west	tona-l-kalaki-ampa	Lit. 'sun-enters- ?'. Also tona-l-poliwi-ampa.
+12	470	north	tani-pa	Lit. 'down-place'.
+12	480	south	ahko-pa	Lit. 'el lado de arriba' 12.080, 'up-place'.
+12	530	grow	mo-skalti-a	
+12	540	measure	ki-tama-čiwa	
+12	550	large, big	weyi	'Gigante, enorme' is semi weyi. *Aztecan *weey(ɨ).
+12	560	small, little	c̷ik-c̷in; c̷iki-c̷in	Also nohnel; pisil-ti-k; kopic̷-ti-k.; Also nohnel; pisil-ti-k; kopic̷-ti-k.
+12	570	long	weya-k	
+12	580	tall	wehka-pan	
+12	590	short	c̷ik-c̷in; nohnel; amo wehkapan; tokoc̷	See 'sit' (shorten oneself) 12.130.; See 'sit' (shorten oneself) 12.130.; See 'sit' (shorten oneself) 12.130.; See 'sit' (shorten oneself) 12.130.
+12	610	wide, broad	patawa-k; koyawa-k	*Aztecan *patla(awa)k.; *Aztecan *patla(awa)k.
+12	620	narrow	kopic̷-ti-k; pic̷awa-k	
+12	630	thick (in dimension)	tilawa-k; tomawa-k	
+12	650	thin (in dimension)	kakal-ti-k; kakalač-ti-k; pic̷awa-k	Also kanak-ti-k; kanawa-k. *Aztecan *pVc̷a(awa)k.; Also kanak-ti-k; kanawa-k. *Aztecan *pVc̷a(awa)k.; Also kanak-ti-k; kanawa-k. *Aztecan *pVc̷a(awa)k.
+12	670	deep	wehka-tan	wehka means 'far'.
+12	730	straight	melawa-k; naal-; yeek	Also kʷali ihkatok.; Also kʷali ihkatok.; Also kʷali ihkatok.
+12	740	crooked	čikol; čihkol-ti-k; ilakac̷-ti-k	'Sinuoso' čičihkol-ti-k; čihčihkol-ti-k.; 'Sinuoso' čičihkol-ti-k; čihčihkol-ti-k.; 'Sinuoso' čičihkol-ti-k; čihčihkol-ti-k.
+12	810	round	yowa-l-ti-k	Also means 'night' 14.420. 'Curve' is wi-kol-ti-k; kol-ti-k; koliw-tok.
+12	830	sphere, ball	te-olol-ti-k	
+12	840	line	ki-tekpana; kisaloa	
+12	850	hole	koyo-k; koyok-ti; tekoč	'Picado, agujerado' is kohkoyok-ti-k. See 'cave' 01.280.; 'Picado, agujerado' is kohkoyok-ti-k. See 'cave' 01.280.; 'Picado, agujerado' is kohkoyok-ti-k. See 'cave' 01.280.
+12	920	like, similar	išiwki; tamati-s-neki; tamati	
+12	930	change	ki-pata	
+13	0	zero, nothing	amo teyi	Lit. 'negative ?'
+13	10	one	se; seya	'Another' ok-see. *Aztecan *see; *seem-.; 'Another' ok-see. *Aztecan *see; *seem-.
+13	20	two	ome	'Two by two' oh-oome. *Aztecan *oomə.
+13	30	three	eyi	*Aztecan *eeyɨ.
+13	40	four	nawi	*Aztecan *naawɨ.
+13	50	five	ma-kʷi-l	Cf. 'hand' 04.330; 'grasp' 11.140. *Aztecan *maakʷil-.
+13	60	six	čikʷa-sen	*Aztecan *čikʷaseem.
+13	70	seven	čik-ome	
+13	80	eight	čikʷe-eyi	
+13	90	nine	čik-nawi	
+13	100	ten	mah-takti	
+13	101	eleven	mah-taktion-se	
+13	102	twelve	mah-taktiom-ome	
+13	103	fifteen	kaštol	
+13	104	twenty	sem-powa-l	
+13	105	hundred	ma-kʷil powa-l	Lit. 'five counts' (of twenty each); cf. 'twenty' 13.104.
+13	106	thousand	se mil	Also mah-takti [siento], Span. 'ciento'.
+13	107	count	ta-po-wa	*Aztecan *po(wa).
+13	140	every, all	seh-se; noči; noči-n	*Aztecan *močɨ.; *Aztecan *močɨ.; *Aztecan *močɨ.
+13	150	much, many	kači; miak; nel; simi	*Aztecan *məyak.; *Aztecan *məyak.; *Aztecan *məyak.; *Aztecan *məyak.
+13	160	more	kači; miak; seki; ok seki	Final form is 'again'.; Final form is 'again'.; Final form is 'again'.; Final form is 'again'.
+13	170	little (quantity), few	kači tipi-c̷in	Also semi tipi-c̷in.
+13	180	enough	ongak miak; telahsi	
+13	181	some	tehsa; aken; akin; aksaa	Latter form is 'somebody'.; Latter form is 'somebody'.; Latter form is 'somebody'.; Latter form is 'somebody'.
+13	210	full	pešon-tok	
+13	220	empty	kinoki-a; iwki	
+13	230	part, piece	tahko	
+13	240	half	tahko	
+13	330	alone, only	i-sel-ti; iškoyan; sayoh	Cf. 'one' 13.010.; Cf. 'one' 13.010.; Cf. 'one' 13.010.
+13	340	first	ačto	
+13	350	last	wehka-wa	Cf. 'far' 12.440. 'Last one' is naken ta-tohtoka, 'whoever follows' 10.520.
+13	380	two times	ohpa	'Two by two' oh-oome.
+13	440	three times	ešpa	
+14	110	time	iksa	Means 'alguna vez'. 'Short time' is yekimpa; 'long time' is wehka-wia; wehika, (far).
+14	120	age	šiw-yeh ya; ni-šwi-w; wewehyot	Cf. 'year' 14.740.; Cf. 'year' 14.740.; Cf. 'year' 14.740.
+14	130	new	yangwi-k	
+14	150	old	sol-ti-k; wewe-t	Cf. 'destroy' 11.270. *Aztecan *weewəh-.; Cf. 'destroy' 11.270. *Aztecan *weewəh-.
+14	160	early	kʷalkan	
+14	170	late	wehka-wa	Also mo-tiotaki-li-a.
+14	180	now	aškan; aškan niman; yekin-c̷in	
+14	210	swift, fast, quick	ihsi-wi-k; ihsiw-kayot; niman	
+14	220	slow	yooliik	*Aztecan *yooliik.
+14	230	hasten, hurry	mo-ihsiwi-li-a	Also nenken sah; niman.
+14	240	retard, delay	wehka-wa	
+14	250	begin, beginning	pewa; c̷ine-wa	*Aztecan *peewa.; *Aztecan *peewa.
+14	252	last, endure	siiko; ta-šiko-a; kihyowi-a	
+14	270	finish	tami-a	See 'end' 12.350.
+14	290	ready	nenken sah weli	
+14	310	always	noči-pa; nači-pa; ačipa	Also ipa; [para] wehka-was, Span. 'para(for)'.; Also ipa; [para] wehka-was, Span. 'para(for)'.; Also ipa; [para] wehka-was, Span. 'para(for)'.
+14	331	soon	amo wehika	
+14	332	long-time (for a)	wehika; wehka-wia	
+14	340	never	amo-ikah; nion keman; amo keman	Also ipa amo keman.; Also ipa amo keman.; Also ipa amo keman.
+14	350	again	ok sepa; ok	
+14	410	day	tona-l	Also means 'sun' 01.520. Cf. 'burn' 01.852.
+14	420	night	yowa-l	Also means 'darkness' 01.620; 'round' 12.810. Cf.'wheel' 10.760. *Aztecan *tlayowa; *yowa(l)-.
+14	430	dawn	ta-nesi; kʷalkan	ta is 'light' 01.610.; ta is 'light' 01.610.
+14	440	morning	de kʷalkan; okyan-c̷in	
+14	450	noon, midday	nepan-tah; tahko-tona-l	Latter is 'half-day/sun' 14.410; 01.520.; Latter is 'half-day/sun' 14.410; 01.520.
+14	451	afternoon	tiotak	
+14	470	today	aškan; aškan nihin tona-l	
+14	480	tomorrow	mosta; imostika	
+14	481	day-after-tomorrow	wiwta	'Al tercer día' iwiwtika.
+14	490	yesterday	yalwa	*Aztecan *yaalwa.
+14	491	day-before-yesterday	yo-wiwta	
+14	510	hour	horah	From Span. 'hora'.
+14	610	week	teč čikʷeyi tona-l	Lit. 'in eight days'.
+14	710	month	mec̷-ti	Also means 'moon' 01.530.
+14	730	year	šiwi-t; šiw-	
+14	740	winter	keman ta-sese-ya	Lit. 'when it is cold'.
+14	750	spring	pewa ta-totoni-a ya	Lit. 'begins warming up'.
+14	760	summer	ta-totoni-lo-t	
+14	780	season	welaman	
+15	210	smell (vb intrans)	tahnekʷi	
+15	220	smell (vb trans)	ahwiaya; ahwiayalis; ahwiyak	Latter forms are nouns.; Latter forms are nouns.; Latter forms are nouns.
+15	250	fragrant, good smelling	ahwiyak; kʷal-c̷in ahwiyak	
+15	260	stinking, bad smelling	c̷ohyak; -c̷ohyaya	'Apestar' is ihyak. *Aztecan *ihyaak.; 'Apestar' is ihyak. *Aztecan *ihyaak.
+15	310	taste	kieko-a	
+15	350	sweet	c̷ope-k	
+15	360	salty	ista-yoh; nel-ista-yoh; poye-k	
+15	370	bitter	čiči-k; čičipah-ti-k	'Bile (hiel)' is ičičikka.; 'Bile (hiel)' is ičičikka.
+15	380	acid, sour	šoko-k; šoko-pal-ti-k	
+15	410	hear	kaki	*Aztecan *kaki.
+15	420	listen	ki-kaki	
+15	440	sound, noise	kakalaka; c̷ilini; komoni	*Aztecan *c̷iliinV.; *Aztecan *c̷iliinV.; *Aztecan *c̷iliinV.
+15	460	quiet, silence	mo-tamati-li-a	
+15	510	see	k-ita; mo-ta	'See well' is kʷali ta-ča. 'Visible' is mo-ta; moc̷-tok. 'View' is ta-ča-lis. *Aztecan *ɨhta.; 'See well' is kʷali ta-ča. 'Visible' is mo-ta; moc̷-tok. 'View' is ta-ča-lis. *Aztecan *ɨhta.
+15	520	look, look at	k-ita; ki-senita; ki-mowiso-a	
+15	550	show	ki-neš-ti-a; -neeš-tii-li	
+15	560	shine	pepetaka; milini; petani; kakawaka	
+15	610	color	tapa-l	
+15	640	white	ista-k; počik-ti-k	*Aztecan *čɨpa(awa)k.; *Aztecan *čɨpa(awa)k.
+15	650	black	til-ti-k	'Soot' is til. Cf. 'fire' 01.810.
+15	660	red	čii-čii-; či-či-l-ti-k	
+15	670	blue	šošok-ti-k	
+15	680	green	šošok-ti-k	*Aztecan *šowi.
+15	690	yellow	kos-ti-k	'Se pone amarillo' kosawia; 'amarillento' kosewi.
+15	712	pinch	kistekʷi	
+15	720	feel	ki-mačili-a	
+15	740	hard	takʷawa-k	*Aztecan *tlakʷaawak.
+15	750	soft	yemaš-c̷in	Also yemanik; potoš-ti-k.
+15	760	rough	šihšipin-ti-k; šašakač-ti-k	
+15	770	smooth	alaš-ti-k; yemaš-c̷in	Also potoš-ti-k; -peta.; Also potoš-ti-k; -peta.
+15	780	sharp	ki-tentia	
+15	810	heavy	eti-k	*Aztecan *ətiik.
+15	820	light (in weight)	ehkaw-ti-k	
+15	830	wet, damp	pal-ti-k; a-tac̷-ti-k; kʷečawa-k	Also kʷečawa-lis. 'Empapar (soak)' ahaki; 'it is becoming wet' paaltiiš-tok.; Also kʷečawa-lis. 'Empapar (soak)' ahaki; 'it is becoming wet' paaltiiš-tok.; Also kʷečawa-lis. 'Empapar (soak)' ahaki; 'it is becoming wet' paaltiiš-tok.
+15	840	dry	ki-wac̷a; waki; wayi-k	*Aztecan *waaki.; *Aztecan *waaki.; *Aztecan *waaki.
+15	850	hot	totooni-k; totok-ti-k; kawan-tok; kawak-ti-k	'To be hot' is šiw-tata. *Aztecan *tlatla.; 'To be hot' is šiw-tata. *Aztecan *tlatla.; 'To be hot' is šiw-tata. *Aztecan *tlatla.; 'To be hot' is šiw-tata. *Aztecan *tlatla.
+15	851	warm	ki-to-toni-a; ki-kawanti-a	Also yemani-k. 'Warm weather' is ta-šiwtata.; Also yemani-k. 'Warm weather' is ta-šiwtata.
+15	860	cold	sese-k	
+15	870	clean	čipawa-k; ki-čipawa; ki-pohpowa	*Aztecan *powa; *čɨpa(awa)k.; *Aztecan *powa; *čɨpa(awa)k.; *Aztecan *powa; *čɨpa(awa)k.
+15	880	dirty, soiled	pic̷o-ti-k; c̷ohkʷil-ti-k; yayak-ti-k	For first form, see 'pig' 03.350.; For first form, see 'pig' 03.350.; For first form, see 'pig' 03.350.
+15	890	wrinkled	c̷oc̷ol-ti-k; kʷehkʷelpač-ti-k	
+16	110	soul, spirit	i-yolo; i-tona-l; i-anima	Respectively: 'his/her heart; his/her day'. See Alfredo López Austin, for distinctions. For a healing cure of 'Loss of soul or spirit' see Harold Key, pp. 83-84, [Tlalocan]; Respectively: 'his/her heart; his/her day'. See Alfredo López Austin, for distinctions. For a healing cure of 'Loss of soul or spirit' see Harold Key, pp. 83-84, [Tlalocan]; Respectively: 'his/her heart; his/her day'. See Alfredo López Austin, for distinctions. For a healing cure of 'Loss of soul or spirit' see Harold Key, pp. 83-84, [Tlalocan]
+16	150	surprised, astonished	ki-mow-ti-a	
+16	230	joyful, glad, happy	yol-paki; yol-kisa; paki	Also 'make happy' -paak-tii; 'state of being happy' -paaki-ta; 'make happy (give)' -paaki-liis-maka.; Also 'make happy' -paak-tii; 'state of being happy' -paaki-ta; 'make happy (give)' -paaki-liis-maka.; Also 'make happy' -paak-tii; 'state of being happy' -paaki-ta; 'make happy (give)' -paaki-liis-maka.
+16	250	laugh	-wec̷ka; we-wec̷ka; wec̷ka-lis	
+16	251	smile	iš-wec̷ka	Lit. 'face-laugh'.
+16	260	play	mawil-ti-a; awil; awil-ti	Latter are nouns.; Latter are nouns.; Latter are nouns.
+16	270	love	ki-tasoh-ta	'Love with all the heart' -yool-tasoh-ta.
+16	290	kiss	ki-ten-amiki	'mouth' 04.240.
+16	310	pain	te-koko-a; te-kokohkayo-t	Also tac̷akʷilti-lis; pinawa.; Also tac̷akʷilti-lis; pinawa.
+16	320	grief, sorrow, sadness	mo-yol-koko-a	Lit. 'reflexive-heart-sick'. Also amo paki; ta-yokoya.
+16	350	pity	te-ikneli-lis	
+16	370	cry, weep	čoka; iš-čoka	'Llanto' is čokalis; čokilis. *Aztecan *čooka.; 'Llanto' is čokalis; čokilis. *Aztecan *čooka.
+16	380	tear (noun)	iš-a-yo	Means 'eye-liquid'.
+16	390	groan	sosolka	
+16	410	hate	ki-ta-welita	Also ki-yolita.
+16	420	anger	kʷalan-ti; mo-kʷa-totoni-a	Latter is 'head-hot'.; Latter is 'head-hot'.
+16	440	envy, jealousy	čawa-lis; čawa-ti	
+16	450	shame (noun)	pinawa	'Embarrass' -piinaa-w-tii. *Aztecan *pinaawa.
+16	480	proud	weyi-nekilis	
+16	510	dare	moiiseewi-a	
+16	520	brave	yol-čikawa-k; iš-mata-ti-k; tontoh-ti-k	
+16	530	fear, fright	mow-kayot; mo-wi-lis; ki-mow-ti-a	
+16	540	danger	owih-kan	Lit. 'difficult-place'.
+16	620	desire, want	ki-neki; ki-čiwa-s-neki; kelewi-a	*Aztecan *nəki.; *Aztecan *nəki.; *Aztecan *nəki.
+16	622	choose	kihita; kištali-a; ki-pehpena	
+16	630	hope	ta-kʷawtamati-lis; ten kiča; -ča	'Wait' is *Aztecan *čia.; 'Wait' is *Aztecan *čia.; 'Wait' is *Aztecan *čia.
+16	650	faithful	ta-kʷawtamati-lis; ta-nel-toka-lis	Also yol-kʷali, lit. 'heart-good'.; Also yol-kʷali, lit. 'heart-good'.
+16	660	true	mela-n; mela-wa-k	
+16	670	lie, tell lies	takahkayawa; šolopih-ti	
+16	690	forgive	-tapoh-poo-l	
+16	710	good	kʷal-i; kʷali yetok	
+16	720	bad	amo-kʷali	Lit. 'negative-good'.
+16	730	right, correct	kʷali yetok	Also yol-kʷali; yol-mela-wa-k; yol-yemani-k; yol-čipawa-k. See 'heart' 04.440.
+16	760	fault	tahtakol	
+16	770	mistake, error	mo-polo-a	
+16	790	praise	-kʷaal-kec̷a	Lit. 'good-stands' 12.150.
+16	810	beautiful	kʷal-c̷in	Lit. 'good-honorific'.
+16	820	ugly	amo kʷal-c̷in; pic̷o-ti-k	The former lit. 'not good'. Cf. 'bad' 16.720; 'dirty' 15.880. See 'pig' 03.350.; The former lit. 'not good'. Cf. 'bad' 16.720; 'dirty' 15.880. See 'pig' 03.350.
+17	110	mind	ta-mači-lis; el	Also means 'idea, notion' 17.190.; Also means 'idea, notion' 17.190.
+17	130	think (= reflect)	ta-nemi-li-a	nemi is 'live, walk'.
+17	140	think (= be of the opinion)	-tanemilia	
+17	150	believe	ki-nel-toka	Means 'really follow'.
+17	160	understand	ki-mati	
+17	170	know	ki-mati	'To know (someone)' is k-iš-mati, lit. 'him/her-face-know' 04.204. *Aztecan *mati.
+17	172	imitate	ki-nehnemi-lia-; ki-tenkʷi	
+17	180	seem	iwtok; pane; nesi; ta-mati	
+17	190	idea, notion	ta-mači-lis	Also means 'mind' 17.110.
+17	210	wise	ta-mat-keh; ta-mači-leh	Also yek-tel-ta-mat-keh; yol-ta-mat-keh; nel-ta-mat-keh. Cf. 'mind' 17.110.; Also yek-tel-ta-mat-keh; yol-ta-mat-keh; nel-ta-mat-keh. Cf. 'mind' 17.110.
+17	220	foolish, stupid	seensool; amo kipia mo-wisiot	Also amo ta-mat-keh; amo ta-mači-leh; amo kʷa-ta-mati.; Also amo ta-mat-keh; amo ta-mači-leh; amo kʷa-ta-mati.
+17	230	insane, crazy	kʷa-kep-tok; kʷakepi	Also kʷa-ta-poloh-tok; yol-kep-tok; amo kʷa-ta-mati; kʷa-yol-kep-tok; kʷa-yol-kepi mih-miki-lot, 'atontado, azorado'.; Also kʷa-ta-poloh-tok; yol-kep-tok; amo kʷa-ta-mati; kʷa-yol-kep-tok; kʷa-yol-kepi mih-miki-lot, 'atontado, azorado'.
+17	240	learn	mo-mač-ti-a	
+17	242	study	mo-mač-ti-a	
+17	250	teach	ki-mač-ti-a; ki-yek-neštili-a	*Aztecan *mačtia.; *Aztecan *mačtia.
+17	270	teacher	ta-mač-tih-keh	
+17	310	remember	ihsa; k-ihšiti-a; k-el-namiki	First form means 'wake up'.; First form means 'wake up'.; First form means 'wake up'.
+17	320	forget	ki-elka-wa; -el-kaawa	
+17	340	clear, plain	yek melan; yek-nes-tok	
+17	360	secret	ičta-ka	
+17	370	sure, certain	melan; yek melan	
+17	380	explain	ki-yek-ihto-a; ki-yek-ilis	
+17	410	intention, purpose	-ti	'To go to act'.
+17	420	cause	-tii; -wi; -w	'Causative, transitivizer of verbs'.; 'Causative, transitivizer of verbs'.; 'Causative, transitivizer of verbs'.
+17	430	doubt	amo ta-kʷawta-mati	'Dubitative' taa; dubious future, -ti.
+17	440	suspect	ki-paantii-a	
+17	450	need, necessity	mo-neki	Lit. 'reflexive-desire'.
+17	460	easy	amo owih	Lit. 'not difficult' 17.470.
+17	470	difficult	owih; tel-owih	
+17	480	try, attempt	-eko; -eh-eko	'To test, take various proofs'.; 'To test, take various proofs'.
+17	510	and	wan	
+17	520	because	porin	
+17	530	if	ta; ša	
+17	550	yes, affirmative	kemah	
+17	560	no, negative	amo; taa-	'Nadie' amo naken; amo-akah; amo nakah; amo akin; 'ninguna parte' amo kanah.; 'Nadie' amo naken; amo-akah; amo nakah; amo akin; 'ninguna parte' amo kanah.
+17	610	how?	kinin; kini-w	*Aztecan *keem.; *Aztecan *keem.
+17	620	how many?	kanači; kanačin	*Aztecan *keeskɨ.; *Aztecan *keeskɨ.
+17	630	how much?	kanači	
+17	640	what?	toni; koš; še	*Aztecan *tla-.; *Aztecan *tla-.; *Aztecan *tla-.
+17	650	when?	keman	
+17	660	where?	kan; kam-pa; kanika; kansika	*Aztecan *kaa(n).; *Aztecan *kaa(n).; *Aztecan *kaa(n).; *Aztecan *kaa(n).
+17	670	which?	katin; katih-yeh-wa	
+17	680	who?	akoni; naken	*Aztecan *aak.; *Aztecan *aak.
+17	690	why?	keyeh; para toni	The latter from Span. 'para', lit. 'for what?'; The latter from Span. 'para', lit. 'for what?'
+18	120	sing	kantaro-a	From Span.'cantar'. *Aztecan *kʷiika.
+18	130	shout, cry out	c̷ahc̷i; yol-c̷ahc̷i	*Aztecan *tlahc̷ɨ.; *Aztecan *tlahc̷ɨ.
+18	150	whisper	ičtakata-noh-noc̷a	
+18	170	whistle	ki-kisi; ta-pic̷a	
+18	210	speak, talk	tahto-a; sani-lo-a	The former also means 'word' 18.260. 'Conversation' is tahto-l; sani-l.; The former also means 'word' 18.260. 'Conversation' is tahto-l; sani-l.
+18	211	stutter, stammer	ten-ohototi-a	
+18	220	say	k-ihto-a; tahtoo; k-ili-a	
+18	221	tell story	ki-ta-powi-a; sani-lo-a	'Tell things to people as a story teller' tee-ta-po-wia.; 'Tell things to people as a story teller' tee-ta-po-wia.
+18	230	silent (be)	ičta	
+18	240	language	tahto-l	
+18	260	word	tahto-l	
+18	280	name	ki-tenewa	Verbal form. Noun is i-toka-y.
+18	310	ask (question, inquire)	tahtani; ki-matahtani-a	'Palabra que introduce interrogación' is koš. *Aztecan *tlahtlani.; 'Palabra que introduce interrogación' is koš. *Aztecan *tlahtlani.
+18	320	answer	ki-nakili-a	
+18	330	admit, confess	ki-seli-a; mo-yol-pata	Also ki-yol-kʷiti-a.; Also ki-yol-kʷiti-a.
+18	340	deny	amo mo-aškati-a	
+18	360	promise	ki-nawatili-a; ki-yek-kili-a; -yeek-teen-kaawa	Cf. 'say' 18.220; see 'mouth' 04.240.; Cf. 'say' 18.220; see 'mouth' 04.240.; Cf. 'say' 18.220; see 'mouth' 04.240.
+18	390	rebuke, scold	kʷalani	
+18	410	call (=summon)	ki-noc̷a	'Wave hand, signal to someone' -maa-iiš-nooc̷a. *Aztecan *nooc̷a.
+18	430	announce	ki-mati-l-ti-a	
+18	510	write	k-ihkʷilo-a; -tahkʷiloowili	*Aztecan *(tla-)ɨhkʷVlowa.; *Aztecan *(tla-)ɨhkʷVlowa.
+18	520	read	ta-leroa	From Span. 'leer'. 'Knows how to read' is ama-iš-mati.
+18	560	paper	ama-t	*Aztecan *aama-.
+18	710	flute	ta-pic̷a-lo-ni; ta-pic̷-ti	
+18	740	rattle	ayakač	
+19	150	city, town	weyi-pan	
+19	160	village	ičam-pa; pʷebloh	From Span. 'pueblo'.; From Span. 'pueblo'.
+19	210	people (populace)	taka-yot	
+19	240	chief, chieftain	weyi tahtohkeh	Means 'authority'.
+19	250	staff, walking stick	i-topi-l	
+19	310	rule, govern	kin-yekʷika; ta-yekana	Cf. 'lead' 10.640, 'nose' 04.230.; Cf. 'lead' 10.640, 'nose' 04.230.
+19	370	citizen, subject	i-čan-kaw; masewal-c̷in	The latter means 'Indian'.; The latter means 'Indian'.
+19	410	master	i-teko	Also ta-yekan-keh; i-taga-teko. *Aztecan *teekʷ-.
+19	420	slave	takewal ten amo ki-taštawi-a	
+19	430	servant	takewal	Also tis-keh, 'female, who grinds'.
+19	450	command, order	tanawatil; -nahnawati	
+19	460	obey	ki-takamati; -tataakamat; tamat	
+19	470	let, permit	mah; mah...-kan	Permissive forms; latter is plural.; Permissive forms; latter is plural.
+19	510	friend, companion	i-tasoh-ikni-w; i-ma-ikni-w	'Acompañar' is iwan powi 'goes with him'.; 'Acompañar' is iwan powi 'goes with him'.
+19	540	neighbor	i-čan-kaw; amo wehka čanih	-čan is 'house'.; -čan is 'house'.
+19	550	stranger	wehka-čan-eh; anal-tekoh; amo k-iš-mati-h	
+19	580	help, aid	ki-palewi-a	
+19	590	hinder, prevent	kic̷akʷili-a	
+19	610	custom	i-pano-lis; i-yalis; ki-ne-mač-tia	
+19	650	meet	-namiki	
+19	720	prostitute	takanečiko-a	
+20	110	fight (vb)	ta-tewi-a	
+20	130	war, battle	ta-tewi-lis	
+20	140	peace	yol-kʷali	Lit. 'heart-good'. Also ta-mat-kayetok; yol-čikawa-lis; -yool-yeek-taali.
+20	280	gun, cannon	tepos-tatopon; tatopon	
+20	340	shield	čima-l	
+20	430	attack	k-iš-namiki; ki-tewi-a	
+20	471	guard, sentinel	ki-yek-tali-a; ki-yek-pia; k-iewa	See 'have' 11.110.; See 'have' 11.110.; See 'have' 11.110.
+20	540	fishnet	mamata; kosolera	
+20	610	hunt	tamota	
+20	620	shoot	tatoponi-a	
+21	110	law	tanawati-l	
+21	160	judge (vb)	ta-iš-eh-eko-a; ta-neh-nemi-li-a	
+21	230	witness	iš-pan-ti	
+21	240	swear	ki-yek-k-ihto-a	
+21	370	penalty, punishment	ki-yokoli-a	Also tac̷akʷilti-lis.
+21	510	steal	tačteki	
+21	520	thief	tačtek-keh	
+22	120	God	-teko-c̷in	
+22	130	temple, church	tio-pan	
+22	150	sacrifice, offering	tamanal; te-tayokoli-l	
+22	160	worship	mo-wistili-a	
+22	170	pray	mo-tata-tawtili-a; ki-mo-wistili-a	
+22	180	priest	tio-piškat	
+22	190	holy, sacred	mo-wistika-c̷in	Also yek-tika-c̷in.
+22	220	preach	te-neštili-a	
+22	230	bless	ki-tio-čiwa	
+22	240	curse	ki-tel-čiwa	
+22	260	fast (vb)	mo-sawa	
+22	310	heaven	elwiak	
+22	320	hell	mik-tan	
+22	350	demon (evil spirit)	amo-kʷali	Lit. 'not good'.
+22	370	idol	tata-dios	From Span. 'Dios'.
+22	420	magic, witchcraft, sorcery	nawa-lot	
+22	440	fairy, elf	masaka	

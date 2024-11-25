@@ -1,0 +1,1308 @@
+chapter_id	entry_id	meaning	Mandarin Chinese_Pinyin	Mandarin Chinese_StandOrth (Simplified);StandOrth (Traditional)	comment
+1	100	world	shìjiè	世界;世界	
+1	210	earth, land	dìqiú; lùdì	地球;地球; 陆地;陸地	the planet; land
+1	212	earth=ground, soil	tǔdì	土地;土地	
+1	213	dust	huīchén	灰尘;灰塵	
+1	214	mud	ní	泥;泥	
+1	215	sand	shā	沙;沙	
+1	220	mountain, hill	shān	山;山	
+1	222	cliff, precipice	xuányá	悬崖;懸崖	
+1	230	plain, field	píngyuán; tiándì	平原;平原; 田地;田地	plain; field
+1	240	valley	shāngǔ	山谷;山谷	
+1	250	island	dǎo	岛;島	
+1	260	mainland	dàlù	大陆;大陸	
+1	270	shore	hǎibīn; húbīn	海滨;海濱; 湖滨;湖濱	sea shore; lake shore
+1	280	cave	dòngxué	洞穴;洞穴	
+1	310	water	shuǐ	水;水	
+1	320	sea	hǎi	海;海	
+1	322	calm (of sea)	píngjìng	平静;平靜	
+1	323	rough (of sea)	bōtāoxiōngyǒng	波涛汹涌;波濤洶湧	
+1	324	foam	pàomò	泡沫;泡沫	
+1	329	ocean	hǎiyáng	海洋;海洋	
+1	330	lake	hú	壶;壺, 湖;湖	
+1	340	gulf, bay	wān	湾;灣	
+1	341	lagoon	huánjiāohú	环礁湖;環礁湖	
+1	342	reef	jiāo	教;教, 礁;礁	
+1	343	headland, point	jiǎjiǎo	岬角;岬角	
+1	350	wave	bōlàng	波浪;波浪	
+1	352	tide	cháo	潮;潮	
+1	353	lowtide	dīcháo	低潮;低潮	
+1	354	hightide	gāocháo	高潮;高潮	
+1	360	river, stream, brook	hé; xīliú	颌;頜, 河;河, 和;和; 溪流;溪流	river; stream
+1	362	whirlpool	xuánwō	旋涡;漩渦	Simplified also 漩涡
+1	370	spring, well	quán; jǐng	泉;泉; 井;井, 颈;頸	spring; well
+1	380	swamp	zhǎozé	沼泽;沼澤	
+1	390	waterfall	pùbù	瀑布;瀑布	
+1	410	woods, forest	sēnlín	森林;森林	
+1	420	tree (cf 08.600)	shù	束;束, 树;樹	
+1	430	wood	mùtou	木头;木頭	
+1	440	stone, rock	shítou; yánshí	石头;石頭; 岩石;岩石	stone; rock
+1	450	earthquake	dìzhèn	地震;地震	
+1	510	sky	tiānkōng	天空;天空	
+1	520	sun	tàiyáng	太阳;太陽	
+1	530	moon	yuèliàng	月亮;月亮	
+1	540	star	xīng	星;星	
+1	550	lightning	shǎndiàn	闪电;閃電	
+1	560	thunder	léi	雷;雷	
+1	570	lightning (as striking)	léijī	雷击;雷擊	
+1	580	storm	bàofēngyǔ	暴风雨;暴風雨	
+1	590	rainbow	cǎihóng	彩虹;彩虹	
+1	610	light (noun)	guāng	光;光	
+1	620	darkness	hēi’àn	黑暗;黑暗	
+1	630	shade, shadow	yīnyǐng	阴影;陰影	
+1	640	dew	lùshuǐ	露水;露水	
+1	710	air	kōngqì	空气;空氣	
+1	720	wind	fēng	风;風	
+1	730	cloud	yún	云;雲	
+1	740	fog	wù	雾;霧	
+1	750	rain (noun)	yǔ	雨;雨	
+1	760	snow (noun)	xuě	雪;雪	
+1	770	ice	bīng	冰;冰	
+1	780	weather	tiānqì	天气;天氣	
+1	810	fire	huǒ	火;火	
+1	820	flame (noun)	huǒyàn	火焰;火焰	
+1	830	smoke (noun)	yān	烟;煙	
+1	840	ashes	huījìn	灰烬;灰燼	
+1	841	embers	yújìn	余烬;餘燼	
+1	851	burn (vb trans)	shāohuǐ	烧毁;燒燬	
+1	852	burn (vb intrans)	ránshāo	燃烧;燃燒	
+1	860	light, kindle, ignite	diǎnrán	点燃;點燃	
+1	861	extinguish	xīmiè	熄灭;熄滅	
+1	870	match (noun)	huǒchái	火柴;火柴	
+1	880	firewood	mùchái	木柴;木柴	
+1	890	charcoal	mùtàn	木炭;木炭	
+2	100	person, human being	rén	人;人	
+2	210	man (vs. woman)	nánrén	男人;男人	
+2	220	woman	nǚrén	女人;女人	
+2	230	male	nánxìng	男性;男性	
+2	240	female	nǚxìng	女性;女性	
+2	250	boy	nánhái	男孩;男孩	
+2	251	young man (adolescent)	shàonián	少年;少年	
+2	260	girl	nǚhái	女孩;女孩	
+2	261	young woman (adolescent)	shàonǚ	少女;少女	
+2	270	child	értóng; háizi	儿童;兒童; 孩子;孩子	pre-puberty; offspring
+2	280	infant, baby	yīng’ér	婴儿;嬰兒	
+2	310	husband	zhàngfu	丈夫;丈夫	
+2	320	wife	qīzi	妻子;妻子	
+2	330	marry	jiéhūn	结婚;結婚	
+2	340	marriage, wedding	hūnyīn; hūnlǐ	婚姻;婚姻; 婚礼;婚禮	marriage; wedding
+2	341	divorce	líhūn	离婚;離婚	
+2	350	father	fùqin	父亲;父親	
+2	360	mother	mǔqin	母亲;母親	
+2	370	parents	fùmǔ	父母;父母	
+2	380	married man	yǐhūn nánrén	已婚男人;已婚男人	
+2	390	married woman	yǐhūn nǚrén	已婚女人;已婚女人	
+2	410	son	érzi	儿子;兒子	
+2	420	daughter	nǚ’ér	女儿;女兒	
+2	430	offspring (son or daughter)	zǐnǚ	子女;子女	
+2	440	brother	xiōngdì	兄弟;兄弟	
+2	444	older brother	gēge	哥哥;哥哥	
+2	445	younger brother	dìdi	弟弟;弟弟	
+2	450	sister	jiěmèi	姐妹;姐妹	
+2	454	older sister	jiějie	姐姐;姐姐	
+2	455	younger sister	mèimei	妹妹;妹妹	
+2	456	sibling	xiōngdì jiěmèi	兄弟姐妹;兄弟姐妹	
+2	458	twins	shuāngbāotāi	双胞胎;雙胞胎	
+2	460	grandfather	zǔfù; wàizǔfù	祖父;祖父; 外祖父;外祖父	paternal; maternal
+2	461	old man	lǎorén	老人;老人	
+2	470	grandmother	zǔmǔ; wàizǔmǔ	祖母;祖母; 外祖母;外祖母	paternal; maternal
+2	471	old woman	lǎo fùrén	老妇人;老婦人	
+2	480	grandson	sūnzi; wàisūn	孙子;孫子; 外孙;外孫	son’s son; daughter’s son
+2	490	granddaughter	sūnnǚ; wàisūnnǚ	孙女;孫女; 外孙女;外孫女	son’s daughter; daughter’s daughter
+2	511	mother's brother	jiùfù	舅父;舅父	
+2	512	father's brother	bófù; shūfù	伯父;伯父; 叔父;叔父	father’s older brother; father’s younger brother
+2	521	mother's sister	yímǔ	姨母;姨母	
+2	522	father's sister	gūmǔ	姑母;姑母	
+2	530	nephew	zhízi; wàisheng	侄子;侄子; 外甥;外甥	father’s sibling’s son; mother’s sibling’s son
+2	540	niece	zhínǚ; wàishengnǚ	侄女;侄女; 外甥女;外甥女	father’s sibling’s daughter; mother’s sibling’s daughter
+2	550	cousin	tángxiōngdì; biǎoxiōngdì; tánɡjiěmèi; biǎojiěmèi	堂兄弟;堂兄弟; 表兄弟;表兄弟; 堂姐妹;堂姐妹; 表姐妹;表姐妹	father’s brother’s son; other male cousin; father’s brother’s daughter; other female cousin
+2	560	ancestors	zǔxiān	祖先;祖先	
+2	570	descendants	hòudài	后代;後代	
+2	610	father-in-law (of a man)	yuèfù	岳父;岳父	
+2	611	father-in-law (of a woman)	gōnggong	公公;公公	
+2	620	mother-in-law (of a man)	yuèmǔ	岳母;岳母	
+2	621	mother-in-law (of a woman)	pópo	婆婆;婆婆	
+2	630	son-in-law (of a man)	nǚxu	女婿;女婿	
+2	631	son-in-law (of a woman)	nǚxu	女婿;女婿	
+2	640	daughter-in-law (of a man)	érxífu	儿媳妇;兒媳婦	
+2	641	daughter-in-law (of a woman)	érxífu	儿媳妇;兒媳婦	
+2	710	stepfather	jìfù	继父;繼父	
+2	720	stepmother	jìmǔ	继母;繼母	
+2	730	stepson	jìzǐ	继子;繼子	
+2	740	stepdaughter	jìnǚ	继女;繼女	
+2	750	orphan	gū'ér	孤儿;孤兒	
+2	760	widow	guǎfu	寡妇;寡婦	
+2	770	widower	guānfū	鳏夫;鰥夫	
+2	810	relatives, kinsmen	qīnqi; qīnshǔ	亲戚;親戚; 亲属;親屬	general; close
+2	820	family	jiātíng	家庭;家庭	
+2	910	I	wǒ	我;我	
+2	920	you (singular)	nǐ	你;你	
+2	930	he/she/it	tā; tā; tā	他;他, 她;她, 它;它; 他;他, 她;她, 它;它; 他;他, 她;她, 它;它	he; she; it
+2	940	we	wǒmen	我们;我們	
+2	941	we (inclusive)	zánmen	咱们;咱們	Northern
+2	942	we (exclusive)	wǒmen	我们;我們	Northern
+2	950	you (plural)	nǐmen	你们;你們	
+2	960	they	tāmen; tāmen; tāmen	她们;她們, 它们;它們, 他们;他們; 她们;她們, 它们;它們, 他们;他們; 她们;她們, 它们;它們, 他们;他們	he.PL; she.PL; it.PL
+3	110	animal	dòngwù	动物;動物	
+3	120	male (adj)	xióngxìng; gōng	雄性;雄性; 公;公, 弓;弓	choice depends on animal; choice depends on animal
+3	130	female (adj)	cíxìng; mǔ	雌性;雌性; 母;母	choice depends on animal; choice depends on animal
+3	150	livestock	shēngchù	牲畜;牲畜	
+3	160	pasture	mùchǎng	牧场;牧場	
+3	180	herdsman	mùrén	牧人;牧人	
+3	190	stable, stall	mǎjiù; chùlán	马厩;馬廄; 畜栏;畜欄	for horses; for other animals
+3	200	cattle (bovine)	niú	牛;牛	
+3	210	bull	gōngniú	公牛;公牛	
+3	220	ox	niú	牛;牛	
+3	230	cow	mǔniú	母牛;母牛	
+3	240	calf	niúdú	牛犊;牛犢	
+3	250	sheep	yáng	羊;羊	
+3	260	ram	gōngyáng	公羊;公羊	
+3	280	ewe	mǔyáng	母羊;母羊	
+3	290	lamb	gāoyáng	羔羊;羔羊	
+3	320	boar	gōngzhū	公猪;公豬	
+3	340	sow (2)	mǔzhū	母猪;母豬	
+3	350	pig	zhū	猪;豬	
+3	360	goat	shānyáng	山羊;山羊	
+3	370	he-goat	gōng shānyáng	公山羊;公山羊	
+3	380	kid	xiǎo shānyáng	小山羊;小山羊	
+3	410	horse (equine)	mǎ	马;馬	
+3	420	stallion	gōngmǎ	公马;公馬	
+3	440	mare	mǔmǎ	母马;母馬	
+3	450	foal, colt	xiǎomǎ	小马;小馬	
+3	460	ass, donkey	lǘ	驴;驢	
+3	470	mule	luózi	骡子;騾子	
+3	500	fowl	jiāqín	家禽;家禽	
+3	520	cock, rooster	gōngjī	攻击;攻擊, 公鸡;公雞	
+3	540	hen	mǔjī	母鸡;母雞	
+3	550	chicken	jī	鸡;雞	
+3	560	goose	é	额;額, 鹅;鵝	
+3	570	duck	yā	鸭;鴨	
+3	580	nest	wō	窝;窩	
+3	581	bird	niǎo	鸟;鳥	
+3	582	seagull	hǎi’ōu	海鸥;海鷗	
+3	583	heron	lù	鹿;鹿, 鹭;鷺	
+3	584	eagle	yīng	鹰;鷹	
+3	585	hawk	yīng; sǔn	鹰;鷹; 隼;隼	different species; different species
+3	586	vulture	wùjiù	兀鹫;兀鷲	
+3	591	bat	biānfú	蝙蝠;蝙蝠	
+3	592	parrot	yīngwǔ	鹦鹉;鸚鵡	
+3	593	crow	wūyā	乌鸦;烏鴉	
+3	594	dove	gēzi	鸽子;鴿子	
+3	596	owl	māotóuyīng	猫头鹰;貓頭鷹	
+3	610	dog	gǒu	狗;狗	
+3	614	rabbit	tù	兔;兔	
+3	620	cat	māo	猫;貓	
+3	622	opossum	fùshǔ	负鼠;負鼠	
+3	630	mouse, rat	shǔ	鼠;鼠	
+3	650	fish	yú	鱼;魚	
+3	652	fin (dorsal)	qí	鳍;鰭, 骑;騎	
+3	653	fishscale	yúlín	鱼鳞;魚鱗	
+3	654	gill	yúsāi	鱼鳃;魚鰓	
+3	655	shell	bèiké	贝壳;貝殼	
+3	661	shark	shāyú	鲨鱼;鯊魚	
+3	662	porpoise, dolphin	hǎitún	海豚;海豚	
+3	663	whale	jīng	鲸;鯨	
+3	664	stingray	hóng	红;紅, 魟;魟	
+3	665	freshwater eel	mányú	鳗鱼;鰻魚	
+3	710	wolf	láng	狼;狼	
+3	720	lion	shīzi	虱子;蝨子, 狮子;獅子	
+3	730	bear	xióng	熊;熊	
+3	740	fox	húli	狐狸;狐狸	
+3	750	deer	lù	鹿;鹿, 鹭;鷺	
+3	760	monkey	hóuzi	猴子;猴子	
+3	770	elephant	dàxiàng	大象;大象	
+3	780	camel	luòtuo	骆驼;駱駝	
+3	810	insect	kūnchóng	昆虫;昆蟲	
+3	811	louse	shīzi	虱子;蝨子, 狮子;獅子	Traditional also 虱子
+3	812	nit (louse egg)	shīzi luǎn	虱子卵;蝨子卵	Traditional also 虱子卵
+3	813	flea	tiàozao	跳蚤;跳蚤	
+3	814	centipede	wúgōng	蜈蚣;蜈蚣	
+3	815	scorpion	xiēzi	蝎子;蠍子	
+3	816	cockroach	zhāngláng	蟑螂;蟑螂	
+3	817	ant	mǎyǐ	蚂蚁;螞蟻	
+3	818	spider	zhīzhū	蜘蛛;蜘蛛	
+3	819	spider web	zhīzhūwǎng	蜘蛛网;蜘蛛網	
+3	820	bee	mìfēng	蜜蜂;蜜蜂	
+3	821	beeswax	fēnglà	蜂蜡;蜂蠟	
+3	822	beehive	fēngwō	蜂窝;蜂窩	
+3	823	wasp	huángfēng	黄蜂;黃蜂	
+3	830	fly	cāngying	苍蝇;蒼蠅	
+3	831	sandfly (midge), gnat	báilíng	白蛉;白蛉	
+3	832	mosquito	wénzi	蚊子;蚊子	
+3	840	worm	rúchóng	蠕虫;蠕蟲	
+3	850	snake	shé	蛇;蛇	
+3	910	firefly	yínghuǒchóng	萤火虫;螢火蟲	
+3	920	butterfly	húdié	蝴蝶;蝴蝶	
+3	930	grasshopper	zhàměng	蚱蜢;蚱蜢	
+3	940	snail	wōniú	蜗牛;蝸牛	
+3	950	frog	qīngwā	青蛙;青蛙	
+3	960	lizard	xīyì	蜥蜴;蜥蜴	
+3	970	crocodile, alligator	èyú	鳄鱼;鰐魚	
+3	980	turtle	hǎiguī	海龟;海龜	Traditional character for guī may not show correctly in all fonts; see https://en.wiktionary.org/wiki/%E9%BE%9C
+4	110	body	shēntǐ	身体;身體	
+4	120	skin, hide	pífū	皮肤;皮膚	
+4	130	flesh	ròu	肉;肉	
+4	140	hair (head)	tóufa	头发;頭髮	
+4	142	beard	húxū	胡须;鬍鬚	
+4	144	body hair	tǐmáo	体毛;體毛	
+4	145	pubic hair	yīnmáo	阴毛;陰毛	
+4	146	dandruff	tóuxiè	头屑;頭屑	
+4	150	blood	xuè; xiě	血;血; 血;血, 写;寫	
+4	151	vein, artery	jìngmài; dòngmài	静脉;靜脈; 动脉;動脈	vein; artery
+4	160	bone	gǔtou	骨头;骨頭	
+4	162	rib	lèigǔ	肋骨;肋骨	
+4	170	horn	jiǎo	脚;腳, 角;角	
+4	180	tail	wěi	尾;尾	
+4	190	back	bèi	背;背	
+4	191	spine	jǐzhù	脊柱;脊柱	
+4	200	head	tóu	头;頭, 投;投	
+4	201	side of head, temple	tàiyángxué	太阳穴;太陽穴	
+4	202	skull	lúgǔ	颅骨;顱骨	
+4	203	brain	nǎo	脑;腦	
+4	204	face	liǎn	脸;臉	
+4	205	forehead	é	额;額, 鹅;鵝	
+4	207	jaw	hé	颌;頜, 河;河, 和;和	
+4	208	cheek	miànjiá	面颊;面頰	
+4	209	chin	xiàba	下巴;下巴	
+4	210	eye	yǎnjing	眼睛;眼睛	
+4	212	eyebrow	méimao	眉毛;眉毛	
+4	213	eyelid	yǎnpí	眼皮;眼皮	
+4	214	eyelash	jiémáo	睫毛;睫毛	
+4	215	blink	zhǎyǎn	眨眼;眨眼	
+4	220	ear	ěrduo	耳朵;耳朵	
+4	221	earlobe	ěrchuí	耳垂;耳垂	
+4	222	earwax	ěrshǐ	耳屎;耳屎	
+4	230	nose	bízi	鼻子;鼻子	
+4	231	nostril	bíkǒng	鼻孔;鼻孔	
+4	232	mucus (nasal)	bítì	鼻涕;鼻涕	
+4	240	mouth	zuǐ	嘴;嘴	
+4	241	beak	huì	喙;喙	
+4	250	lip	zuǐchún	嘴唇;嘴唇	
+4	260	tongue	shétou	舌头;舌頭	
+4	270	tooth	yáchǐ	牙齿;牙齒	
+4	271	gums	yáyín	牙龈;牙齦	
+4	272	molartooth	jiùchǐ	臼齿;臼齒	
+4	280	neck	jǐng; bózi	井;井, 颈;頸; 脖子;脖子	medical; colloquial
+4	281	nape of neck	bógěng	脖颈;脖頸	
+4	290	throat	yānhóu; hóulóng	咽喉;咽喉; 喉咙;喉嚨	medical; colloquial
+4	300	shoulder	jiān; jiānbǎng	尖;尖, 肩;肩; 肩膀;肩膀	medical; colloquial
+4	301	shoulderblade	jiānjiǎgǔ	肩胛骨;肩胛骨	
+4	302	collarbone	suǒgǔ	锁骨;鎖骨	
+4	310	arm	bì; gēbo	臂;臂; 胳膊;胳膊	medical; colloquial
+4	312	armpit	yèwō	腋窝;腋窩	
+4	320	elbow	zhǒu	肘;肘	
+4	321	wrist	wànguānjié	腕关节;腕關節	
+4	330	hand	shǒu	手;手	
+4	331	palm of hand	shǒuzhǎng	手掌;手掌	
+4	340	finger	shǒuzhǐ	手指;手指	
+4	342	thumb	mǔzhǐ	拇指;拇指	
+4	344	fingernail	shǒuzhījia	手指甲;手指甲	
+4	345	claw	zhuǎzi	爪子;爪子	
+4	350	leg	tuǐ	腿;腿	
+4	351	thigh	dàtuǐ	大腿;大腿	
+4	352	calf of leg	tuǐdù	腿肚;腿肚	
+4	360	knee	xīguānjié	膝关节;膝關節	
+4	370	foot	jiǎo	脚;腳, 角;角	
+4	371	ankle	jiǎohuái	脚踝;腳踝	
+4	372	heel	jiǎohòugēn	脚后跟;腳後跟	
+4	374	footprint	jiǎoyìn	脚印;腳印	
+4	380	toe	jiǎozhǐ	脚趾;腳趾	
+4	392	wing	chìbǎng	翅膀;翅膀	
+4	393	feather	yǔmáo	羽毛;羽毛	
+4	400	chest	xiōngtáng	胸膛;胸膛	
+4	410	breast (of woman)	rǔfáng	乳房;乳房	
+4	412	nipple, teat	rǔtóu	乳头;乳頭	
+4	420	udder	rǔfáng	乳房;乳房	
+4	430	navel	dùqí	肚脐;肚臍	
+4	440	heart	xīnzàng	心脏;心臟	
+4	441	lung	fèi	肺;肺	
+4	450	liver	gānzàng	肝脏;肝臟	
+4	451	kidney	shèn	肾;腎	
+4	452	spleen	pí	脾;脾	
+4	460	stomach	wèi	胃;胃	
+4	461	intestines, guts	cháng	长;長, 肠;腸	
+4	462	waist	yāo	腰;腰	
+4	463	hip	kuān	宽;寬, 髋;髖	
+4	464	buttocks	tún	臀;臀	
+4	470	womb	zǐgōng	子宫;子宮	
+4	490	testicle	gāowán	睾丸;睾丸	
+4	492	penis	yīnjīnɡ	阴茎;陰莖	
+4	510	breathe, breath	hūxī	呼吸;呼吸	
+4	520	yawn, gape	dǎ hāqian	打哈欠;打哈欠	
+4	521	hiccough	dǎ gé	打嗝;打嗝	
+4	530	cough	késou	咳嗽;咳嗽	
+4	540	sneeze	dǎ pēntì	打喷嚏;打噴嚏	
+4	550	perspire	chū hàn	出汗;出汗	
+4	560	spit	tǔ kǒushuǐ	吐口水;吐口水	
+4	570	vomit	ǒutù	呕吐;嘔吐	
+4	580	bite	yǎo	咬;咬	
+4	590	lick	tiǎn	舔;舔	
+4	591	dribble	liú kǒushuǐ	流口水;流口水	
+4	610	sleep	shuì jiào	睡觉;睡覺	
+4	612	snore	dǎhān	打鼾;打鼾	
+4	620	dream	zuò mèng	做梦;做夢	
+4	630	wake up	jiàoxǐng	叫醒;叫醒	
+4	640	break wind	páiqì	排气;排氣	
+4	650	urinate	páiniào	排尿;排尿	
+4	660	defecate	páibiàn	排便;排便	
+4	670	have sexual intercourse	xìngjiāo	性交;性交	
+4	680	shiver	chàndǒu	颤抖;顫抖	
+4	690	bathe	xǐ zǎo	洗澡;洗澡	
+4	720	born (to be)	chūshēnɡ	出生;出生	
+4	730	pregnant	huáiyùn	怀孕;懷孕	
+4	732	conceive	huáiyùn	怀孕;懷孕	
+4	740	live, living, life	huó; shēnghuó; shēngmìng	活;活; 生活;生活; 生命;生命	be alive; life (abstract); life (biological)
+4	750	die, dead	sǐ; sǐwáng	死;死; 死亡;死亡	die; death
+4	751	drowned	yānsǐ	淹死;淹死	
+4	760	kill	shāsǐ	杀死;殺死	
+4	770	corpse	shītǐ	尸体;屍體	
+4	780	bury (the dead)	máizàng	埋葬;埋葬	
+4	790	grave, tomb	fénmù	坟墓;墳墓	
+4	810	strong, mighty, powerful	qiáng	强;強, 墙;牆	
+4	820	weak	ruǎnruò	软弱;軟弱	
+4	830	well, health	jiànkāng	健康;健康	
+4	840	sick, sickness	bìng; jíbìng	病;病; 疾病;疾病	short-term; long-term
+4	841	fever	fāshāo	发烧;發燒	
+4	842	goiter	jiǎzhuàngxiànzhǒng	甲状腺肿;甲狀腺腫	
+4	843	cold (catarrh)	gǎnmào	感冒;感冒	
+4	850	wound, sore	shāngkǒu	伤口;傷口	
+4	852	bruise	yūqīng	淤青;淤青	
+4	853	swelling	zhǒngzhàng	肿胀;腫脹	
+4	854	itch	yǎng	痒;癢	
+4	855	blister	shuǐpào	水疱;水皰	
+4	856	boil (noun)	jiē	疖;癤	
+4	857	pus	nóng	脓;膿	
+4	858	scar	bā	八;八, 疤;疤	
+4	860	cure, heal	zhìyù	治愈;治癒	
+4	870	physician	yīshēng; dàifu	医生;醫生; 大夫;大夫	both Northern and Southern; Northern
+4	880	medicine, drug	yào	药;藥	
+4	890	poison	dú	毒;毒, 读;讀	
+4	910	tired, weary	lèi; píláo	累;累; 疲劳;疲勞	
+4	912	rest	xiūxi	休息;休息	
+4	920	lazy	lǎnduò	懒惰;懶惰	
+4	930	bald	tūtóu	秃头;禿頭	
+4	940	lame	quétuǐ	瘸腿;瘸腿	
+4	950	deaf	lóng	聋;聾	
+4	960	mute	yǎ	哑;啞	
+4	970	blind	xiā	瞎;瞎	
+4	980	intoxicated	hēzuì	喝醉;喝醉	
+4	990	naked, bare	luǒlù	裸露;裸露	
+5	110	eat	chī	吃;吃	
+5	120	food	shíwù	食物;食物	
+5	121	cooked	shāoshú	烧熟;燒熟	
+5	122	raw	shēng	生;生	
+5	123	ripe	chéngshú	成熟;成熟	
+5	124	green, unripe	wèi chéngshú	未成熟;未成熟	
+5	125	rotten	fǔlàn	腐烂;腐爛	
+5	130	drink	hē	喝;喝	
+5	140	hunger	jī'è	饥饿;饑餓	
+5	141	famine	jīhuāng	饥荒;饑荒	
+5	150	thirst	kǒukě	口渴;口渴	
+5	160	suck	xī	西;西, 吸;吸, 锡;錫	
+5	180	chew	jǔjué	咀嚼;咀嚼	
+5	181	swallow	tūn	吞;吞	
+5	190	choke	zhìxī	窒息;窒息	
+5	210	cook	pēngzhì; zhǔ	烹制;烹制; 煮;煮	general; in water
+5	220	boil (vb)	shāokāi	烧开;燒開	
+5	230	roast, fry	kǎo; yóujiān	烤;烤; 油煎;油煎	roast; fry
+5	240	bake	hōng	烘;烘	
+5	250	oven	kǎoxiāng	烤箱;烤箱	
+5	260	pot, cooking vessel	guō	锅;鍋	
+5	270	kettle	shuǐhú	水壶;水壺	
+5	280	pan	píngdǐguō	平底锅;平底鍋	
+5	310	dish	diézi	碟子;碟子	
+5	320	plate	pánzi	盘子;盤子	
+5	330	bowl	wǎn	碗;碗, 晚;晚	
+5	340	pitcher, jug	hú	壶;壺, 湖;湖	
+5	350	cup, drinking vessel	bēizi	杯子;杯子	
+5	360	saucer	chátuō	茶托;茶托	
+5	370	spoon	chízi; sháozi	匙子;匙子; 勺子;勺子	Southern; Northern
+5	380	knife (2)	dāo	刀;刀	
+5	390	fork (2)	chāzi	叉子;叉子	
+5	391	tongs	jiāzi	夹子;夾子	
+5	410	meal (a)	cān; yìcān	餐;餐; 一餐;一餐	
+5	420	breakfast	zǎocān	早餐;早餐	
+5	430	lunch	wǔcān	午餐;午餐	
+5	440	dinner	wǎncān; zhèngcān	晚餐;晚餐; 正餐;正餐	
+5	450	supper	wǎncān; xiāoyè	晚餐;晚餐; 宵夜;宵夜	
+5	460	peel	qùpí; xiāopí	去皮;去皮; 削皮;削皮	
+5	470	sieve, strain	shāi; guòlǜ	筛;篩; 过滤;過濾	solid; liquid
+5	480	scrape	guā	刮;刮	
+5	490	stir, mix	jiǎodòng; hùnhé	搅动;攪動; 混合;混合	stir; mix
+5	510	bread	miànbāo	面包;麵包	
+5	530	dough	shēng miàntuán	生面团;生麵團	
+5	540	knead	róu	揉;揉	
+5	550	meal, flour	miànfěn	面粉;麵粉	
+5	560	crush, grind	yā suì; mó suì	压碎;壓碎; 磨碎;磨碎	crush; grind
+5	570	mill	mòfáng	磨坊;磨坊	
+5	580	mortar (2)	yánbō	研钵;研缽	
+5	590	pestle	chǔ	杵;杵	
+5	610	meat	ròu	肉;肉	
+5	630	sausage	xiāngcháng	香肠;香腸	
+5	640	soup, broth	tāng	汤;湯	
+5	650	vegetables	shūcài	蔬菜;蔬菜	
+5	660	bean	dòu	豆;豆	
+5	700	potato	tǔdòu	土豆;土豆	
+5	710	fruit	shuǐguǒ	水果;水果	
+5	712	bunch	shù; chuàn	束;束, 树;樹; 串;串	flowers; other
+5	750	fig	wúhuāguǒ	无花果;無花果	
+5	760	grape	pútáo	葡萄;葡萄	
+5	770	nut	jiānguǒ	坚果;堅果	
+5	780	olive	gǎnlǎn	橄榄;橄欖	
+5	790	oil	yóu	油;油	
+5	791	grease, fat	yóuzhī	油脂;油脂	
+5	810	salt	yán	盐;鹽	
+5	820	pepper	hújiāofěn	胡椒粉;胡椒粉	
+5	821	chili pepper	làjiāo	辣椒;辣椒	
+5	840	honey	fēngmì	蜂蜜;蜂蜜	
+5	850	sugar	táng	糖;糖	
+5	860	milk (noun)	nǎi	奶;奶	
+5	870	milk (vb)	jǐ nǎi	挤奶;擠奶	
+5	880	cheese	nǎilào	奶酪;奶酪	
+5	890	butter	huángyóu	黄油;黃油	
+5	900	beverage, drink	yǐnliào	饮料;飲料	
+5	910	mead	fēngmìjiǔ	蜂蜜酒;蜂蜜酒	
+5	920	wine	pútaojiǔ	葡萄酒;葡萄酒	
+5	930	beer	píjiǔ	啤酒;啤酒	
+5	940	fermented drink	jiǔ	酒;酒, 九;九	
+5	970	egg	dàn	蛋;蛋	
+5	971	egg yolk	dànhuáng	蛋黄;蛋黃	
+6	110	put on (clothes)	chuān	穿;穿	
+6	120	clothing, clothes	yīfu	衣服;衣服	
+6	130	tailor	cáifeng	裁缝;裁縫	
+6	210	cloth	bùliào	布料;布料	
+6	220	wool	yángmáo	羊毛;羊毛	
+6	230	linen, flax	yàmá	亚麻;亞麻	
+6	240	cotton	miánbù	棉布;棉布	
+6	250	silk	sīchóu	丝绸;絲綢	
+6	270	felt	máozhān	毛毡;毛氈	
+6	280	fur	máopí	毛皮;毛皮	
+6	290	leather	pígé	皮革;皮革	
+6	310	spin	fǎng	纺;紡	
+6	320	spindle	fǎngchuí	纺锤;紡錘	
+6	330	weave	biānzhī	编织;編織	
+6	340	loom	zhībùjī	织布机;織布機	
+6	350	sew	féng	缝;縫	
+6	360	needle	zhēn	针;針	
+6	370	awl	jiānzhuī	尖锥;尖錐	
+6	380	thread	xiàn	线;線	
+6	390	dye	rǎnliào	染料;染料	
+6	410	cloak	pīfēng	披风;披風	
+6	411	poncho	dǒupéng	斗篷;斗篷	
+6	420	woman's dress	liányīqún	连衣裙;連衣裙	
+6	430	coat	wàitào	外套;外套	
+6	440	shirt	chènshān	衬衫;襯衫	
+6	450	collar	lǐngzi	领子;領子	
+6	460	skirt	qúnzi	裙子;裙子	
+6	461	grass-skirt	cǎoqún	草裙;草裙	
+6	480	trousers	kùzi	裤子;褲子	
+6	490	stocking, sock	chángwà; wàzi	长袜;長襪; 袜子;襪子	stocking; sock
+6	510	shoe	xié	鞋;鞋	
+6	520	boot	xuēzi	靴子;靴子	
+6	540	shoemaker, cobbler	xiéjiàng	鞋匠;鞋匠	
+6	550	hat, cap	màozi	帽子;帽子	
+6	570	belt, girdle	yāodài	腰带;腰帶	
+6	580	glove	shǒutào	手套;手套	
+6	590	veil	miànshā	面纱;面紗	
+6	610	pocket	yīdài	衣袋;衣袋	
+6	620	button	niǔkòu	纽扣;紐扣	
+6	630	pin	biézhēn	别针;別針	
+6	710	ornament, adornment	zhuāngshìpǐn	装饰品;裝飾品	
+6	720	jewel	zhūbǎo	珠宝;珠寶	
+6	730	ring (for finger)	jièzhi	戒指;戒指	
+6	740	bracelet	shǒuzhuó	手镯;手鐲	
+6	750	necklace	xiàngliàn	项链;項鏈	
+6	760	bead	zhūzi	珠子;珠子	
+6	770	earring	ěrhuán	耳环;耳環	
+6	780	headband, headdress	tóudài; tóushì	头带;頭帶; 头饰;頭飾	headband; headdress
+6	790	tattoo	wénshēn	纹身;紋身	
+6	810	handkerchief, rag	shǒupà	手帕;手帕	
+6	820	towel	máojīn	毛巾;毛巾	
+6	910	comb	shūzi	梳子;梳子	
+6	920	brush	shuāzi	刷子;刷子	
+6	921	braid	biànzi	辫子;辮子	
+6	930	razor	tìdāo	剃刀;剃刀	
+6	940	ointment	yàogāo	药膏;藥膏	
+6	950	soap	féizào	肥皂;肥皂	
+6	960	mirror	jìngzi	镜子;鏡子	
+7	110	dwell, live	zhù	住;住, 柱;柱	
+7	120	house	fángzi	房子;房子	
+7	130	hut	xiǎowū	小屋;小屋	
+7	131	garden-house	huāyuán yángfáng	花园洋房;花園洋房	
+7	140	tent	zhàngpeng	帐篷;帳篷	
+7	150	yard, court	tíngyuàn	庭院;庭院	
+7	160	men's house	nánzǐ zhuānyòng chǎngsuǒ	男子专用场所;男子專用場所	
+7	170	cookhouse	huǒfáng	伙房;伙房	
+7	180	meeting house	huìyì shì	会议室;會議室	
+7	210	room	fángjiān	房间;房間	
+7	220	door, gate	mén	门;門	
+7	221	doorpost, jamb	ménzhù	门柱;門柱	
+7	230	lock (noun)	suǒ	锁;鎖	
+7	231	latch, door-bolt	ménshuān	门闩;門閂	
+7	240	key	yàoshi	钥匙;鑰匙	
+7	250	window	chuānghu	窗户;窗戶	
+7	260	floor	dìbǎn	地板;地板	
+7	270	wall	qiáng	强;強, 墙;牆	
+7	310	fireplace	bìlú	壁炉;壁爐	
+7	320	stove	lúzi	炉子;爐子	
+7	330	chimney	yāncōng	烟囱;煙囪	
+7	370	ladder	tīzi	梯子;梯子	
+7	420	bed	chuáng	床;床	
+7	421	pillow	zhěntou	枕头;枕頭	
+7	422	blanket	tǎnzi	毯子;毯子	
+7	430	chair	yǐzi	椅子;椅子	
+7	440	table	zhuōzi	桌子;桌子	
+7	450	lamp, torch	dēng; huǒbǎ	灯;燈; 火把;火把	lamp; torch, firebrand
+7	460	candle	làzhú	蜡烛;蠟燭	
+7	470	shelf	jiàzi	架子;架子	
+7	480	trough	shuǐcáo	水槽;水槽	
+7	510	roof	wūdǐng	屋顶;屋頂	
+7	520	thatch	máocǎo wūdǐng	茅草屋顶;茅草屋頂	
+7	530	ridgepole	héngliáng	横梁;橫梁	
+7	540	rafter	chuán	椽;椽	
+7	550	beam	liáng	梁;梁, 量;量	
+7	560	post, pole	zhù	住;住, 柱;柱	
+7	570	board	mùbǎn	木板;木板	
+7	580	arch	gǒng	拱;拱	
+7	610	mason	shíjiàng	石匠;石匠	
+7	620	brick	zhuān	砖;磚	
+7	630	mortar	shājiāng	砂浆;砂漿	
+7	640	adobe	niántǔ	黏土;黏土	
+8	110	farmer	nóngmín	农民;農民	
+8	120	field (for cultivation)	tiándì	田地;田地	
+8	130	garden	huāyuán	花园;花園	
+8	150	cultivate, till	gēngzuò	耕作;耕作	
+8	160	fence	zhàlán	栅栏;柵欄	
+8	170	ditch	gōu	沟;溝	
+8	210	plow	lí	犁;犁	
+8	212	furrow	gōu	沟;溝	
+8	220	dig	wājué	挖掘;挖掘	
+8	230	spade	qiāo	锹;鍬	
+8	240	shovel	tiěchǎn	铁铲;鐵鏟	
+8	250	hoe	chútou	锄头;鋤頭	
+8	260	fork	chā	叉;叉	
+8	270	rake	pá	耙;耙, 爬;爬	
+8	310	sow	bōzhòng	播种;播種	
+8	311	seed	zhǒngzi	种子;種子	
+8	320	mow, reap	gē; shōugē	割;割; 收割;收割	mow; reap
+8	330	sickle, scythe	liándāo	镰刀;鐮刀	
+8	340	thresh	dǎgǔ	打谷;打谷	
+8	350	threshing-floor	dǎgǔchǎng	打谷场;打谷場	
+8	410	crop, harvest	shōuchéng	收成;收成	
+8	420	grain (barley, oats etc)	gǔwù	谷物;谷物	
+8	430	wheat	xiǎomài	小麦;小麥	
+8	440	barley	dàmài	大麦;大麥	
+8	450	rye	hēimài	黑麦;黑麥	
+8	460	oats	yànmài	燕麦;燕麥	
+8	470	maize, corn	yùmǐ	玉米;玉米	
+8	480	rice	shuǐdào; mǐ; fàn	水稻;水稻; 米;米; 饭;飯	plant; husked; cooked
+8	510	grass	cǎo	草;草	
+8	520	hay	gāncǎo	干草;乾草	
+8	530	plant (noun)	zhíwù	植物;植物	
+8	531	plant (vb)	zhòngzhí	种植;種植	
+8	540	root	gēn	根;根	
+8	550	branch	shùzhī	树枝;樹枝	
+8	560	leaf	yèzi	叶子;葉子	
+8	570	flower	huā	花;花	
+8	600	tree	shù	束;束, 树;樹	
+8	610	oak	lìshù	栎树;栎樹	
+8	620	beech	shānmáojǔ	山毛榉;山毛櫸	
+8	630	birch	báihuàshù	白桦树;白樺樹	
+8	640	pine	sōngshù	松树;松樹	
+8	650	fir	lěngshān	冷杉;冷杉	
+8	660	acorn	xiàngzi	橡子;橡子	
+8	670	vine	téng	藤;藤	
+8	680	tobacco	yāncǎo	烟草;煙草	
+8	690	smoke (tobacco)	xīyān	吸烟;吸煙	
+8	691	pipe	yāndǒu	烟斗;煙斗	
+8	720	tree stump	shùzhuāng	树桩;樹樁	
+8	730	tree trunk	shùgàn	树干;樹幹	
+8	740	forked branch	fēnchà shùzhī	分叉树枝;分叉樹枝	
+8	750	bark	shùpí	树皮;樹皮	
+8	760	sap	yè	液;液	
+8	810	palm tree	zōnglǘshù	棕榈树;棕櫚樹	
+8	820	coconut	yēzi	椰子;椰子	
+8	830	citrus fruit	gānjú	柑橘;柑橘	
+8	840	banana tree	xiāngjiāoshù	香蕉树;香蕉樹	
+8	850	banyan	róngshù	榕树;榕樹	
+8	910	sweet potato	hóngshǔ	红薯;紅薯	
+8	912	yam	gānshǔ	甘薯;甘薯	
+8	920	tapioca, manioc, cassava	mùshǔ	木薯;木薯	
+8	930	gourd	húlu	葫芦;葫蘆	
+8	931	pumpkin, squash	nánguā	南瓜;南瓜	
+8	940	bamboo	zhúzi	竹子;竹子	
+8	941	sugar cane	gānzhe	甘蔗;甘蔗	
+8	960	fish poison (root)	yúdú	鱼毒;魚毒	
+8	970	nettle	xúnmá	荨麻;蕁麻	
+8	980	mushroom	mógu	蘑菇;蘑菇	
+9	110	do, make	zuò	做;做, 坐;坐	
+9	120	work	gōngzuò	工作;工作	
+9	140	bend	wānqū	弯曲;彎曲	
+9	150	fold	zhédié	折叠;摺疊	
+9	160	tie, bind	kǔn	捆;捆	
+9	161	untie	jiě kāi	解开;解開	
+9	180	chain	liàntiáo	链条;鏈條	
+9	190	rope, cord	shéngzi	绳子;繩子	
+9	192	knot (noun)	jié	结;結	
+9	210	strike (hit, beat)	dǎ	打;打	
+9	211	pound with fist	dǎ	打;打	
+9	220	cut	qiē; gē	切;切; 割;割	slice; sever
+9	221	cut down	kǎn dǎo	砍倒;砍倒	
+9	222	chop, hew	kǎn	砍;砍	
+9	223	stab	cì; zhā	刺;刺; 扎;扎	
+9	230	knife	dāo	刀;刀	
+9	240	scissors, shears	jiǎndāo	剪刀;剪刀	
+9	250	ax	fǔ	斧;斧	
+9	251	adze	bēnzi	锛子;錛子	
+9	260	break	dǎ pò; nòng duàn	打破;打破; 弄断;弄斷	shatter; snap
+9	261	broken	pòsuì; zhé duàn	破碎;破碎; 折断;折斷	shattered; snapped
+9	270	split	qiē kāi	切开;切開	soft material
+9	280	tear	sī	撕;撕	
+9	290	flay, skin	bō pí	剥皮;剝皮	
+9	310	rub, wipe	cā	擦;擦	
+9	320	stretch	chēng dà	撑大;撐大	
+9	330	pull	lā	拉;拉	
+9	340	spread out	sàn kāi	散开;散開	
+9	341	hang up	guà qǐ	挂起;掛起	
+9	342	press	àn	按;按	
+9	343	squeeze, wring	jǐ; nǐng	挤;擠; 拧;擰	squeeze; wring
+9	350	pour	dào	倒;倒	
+9	360	wash	xǐ	洗;洗	
+9	370	sweep	sǎo	扫;掃	
+9	380	broom	sàozhou	扫帚;掃帚	
+9	422	tool	gōngjù	工具;工具	
+9	430	carpenter	mùjiàng	木匠;木匠	
+9	440	build	jiànzào	建造;建造	
+9	460	bore	zuān kǒng	钻孔;鑽孔	
+9	461	hollow out	wā kōng	挖空;挖空	
+9	480	saw	jù	锯;鋸	
+9	490	hammer	chuízi	锤子;錘子	
+9	500	nail	dīngzi	钉子;釘子	
+9	560	glue	jiāoshuǐ	胶水;膠水	
+9	600	smith, blacksmith	tiějiàng	铁匠;鐵匠	
+9	610	forge	duànzào	锻造;鍛造	
+9	620	anvil	tiězhēn	铁砧;鐵砧	
+9	630	cast (metals)	jiāozhù	浇铸;澆鑄	
+9	640	gold	jīn	金;金	
+9	650	silver	yín	银;銀	
+9	660	copper, bronze	tóng; qīngtóng	铜;銅; 青铜;青銅	copper; bronze
+9	670	iron	tiě	铁;鐵	
+9	680	lead (noun)	qiān	铅;鉛	
+9	690	tin, tinplate	xī	西;西, 吸;吸, 锡;錫	
+9	710	potter	táogōng	陶工;陶工	
+9	720	mold (clay etc)	mújù	模具;模具	
+9	730	clay	táotǔ	陶土;陶土	
+9	740	glass	bōli	玻璃;玻璃	
+9	750	weave, plait	zhī; biān	织;織; 编;編, 边;邊	weave, knit; plait
+9	760	basket	lánzi	篮子;籃子	
+9	770	mat	diànzi	垫子;墊子	
+9	771	rug	xiǎo dìtǎn	小地毯;小地毯	
+9	780	netbag	wǎngdōu	网兜;網兜	
+9	790	fan (noun)	shànzi	扇子;扇子	
+9	791	fan (vb)	shān fēng	扇风;扇風	
+9	810	carve	diāokè	雕刻;雕刻	
+9	820	sculptor	diāokèjiā	雕刻家;雕刻家	
+9	830	statue	diāoxiàng	雕像;雕像	
+9	840	chisel	záozi	凿子;鑿子	
+9	880	paint (noun)	yánliào; yóuqī	颜料;顏料; 油漆;油漆	for art; for building
+9	890	paint (vb)	huìhuà; shuā yóuqī	绘画;繪畫; 刷油漆;刷油漆	for art; for building
+10	110	move	yídòng	移动;移動	
+10	120	turn over	fān shēn	翻身;翻身	
+10	130	turn around	zhuǎn shēn	转身;轉身	
+10	140	wind, wrap	chánrào	缠绕;纏繞	
+10	150	roll	gǔndòng	滚动;滾動	
+10	160	drop (vb)	diào	掉;掉	
+10	170	twist	zhuàndòng	转动;轉動	
+10	210	rise	shàngshēng	上升;上升	
+10	220	raise, lift	tái qǐ	抬起;擡起	
+10	230	fall	luò xià	落下;落下	
+10	240	drip	dī xià	滴下;滴下	
+10	250	throw	tóu; rēng	头;頭, 投;投; 扔;扔	at target; without target
+10	252	catch (ball)	jiē zhù	接住;接住	
+10	260	shake	yáo dòng	摇动;搖動	
+10	320	flow	liúdòng	流动;流動	
+10	330	sink	xiàchén	下沉;下沈	
+10	340	float	fú	浮;浮	
+10	350	swim	yóu yǒng	游泳;游泳	
+10	351	dive	qián shuǐ	潜水;潛水	
+10	352	splash	jiàn qǐ	溅起;濺起	
+10	360	sail (vb)	hángxíng	航行;航行	
+10	370	fly (vb)	fēi	飞;飛	
+10	380	blow	chuī	吹;吹	
+10	410	creep, crawl	pá	耙;耙, 爬;爬	
+10	412	kneel	guì	跪;跪	
+10	413	crouch	dūn	蹲;蹲	
+10	420	slide, slip	huá dòng	滑动;滑動	
+10	430	jump, leap	tiào	跳;跳	
+10	431	kick	tī	踢;踢	
+10	440	dance	tiào wǔ	跳舞;跳舞	
+10	450	walk	zǒu lù	走路;走路	
+10	451	limp	bǒxíng	跛行;跛行	
+10	460	run	pǎo	跑;跑	
+10	470	go	qù	去;去	
+10	471	go up	shàng qù	上去;上去	
+10	472	climb	pāndēng	攀登;攀登	
+10	473	go down	xià qù	下去;下去	
+10	474	go out	chū qù	出去;出去	
+10	480	come	lái	来;來	
+10	481	come back	huí lái	回来;回來	
+10	490	go away, depart	lí kāi	离开;離開	
+10	491	disappear	xiāoshī	消失;消失	
+10	510	flee	táolí	逃离;逃離	
+10	520	follow	gēnsuí	跟随;跟隨	
+10	530	pursue	zhuīzhú	追逐;追逐	
+10	550	reach, arrive	dàodá	到达;到達	
+10	560	approach	jiējìn	接近;接近	
+10	570	enter	jìnrù	进入;進入	
+10	610	carry (bear)	xiédài	携带;攜帶	
+10	612	carry-in-hand	ná	拿;拿	
+10	613	carry-on-shoulder	káng	扛;扛	
+10	614	carry-on-head	dǐng	顶;頂	
+10	615	carry-underarm	jiā	夹;夾	
+10	620	bring	dài	带;帶	
+10	630	send	sòng	送;送	
+10	640	lead (vb)	dàilù	带路;帶路	
+10	650	drive	jiàshǐ	驾驶;駕駛	
+10	660	ride	qí	鳍;鰭, 骑;騎	
+10	670	push, shove	tuī	推;推	
+10	710	road	dàolù	道路;道路	
+10	720	path	jìng	径;徑	
+10	740	bridge	qiáo	桥;橋	
+10	750	carriage, wagon, cart	mǎchē	马车;馬車	
+10	760	wheel	lúnzi	轮子;輪子	
+10	770	axle	chēzhóu	车轴;車軸	
+10	780	yoke	è	轭;軛	
+10	810	ship	lúnchuán	轮船;輪船	
+10	830	boat	xiǎochuán	小船;小船	
+10	831	canoe	dúmùzhōu	独木舟;獨木舟	
+10	832	outrigger	xián wài tuōjià	舷外托架;舷外托架	
+10	840	raft	fá	筏;筏	
+10	850	oar	jiǎng	桨;槳	
+10	851	paddle (noun)	duǎnjiǎng	短桨;短槳	
+10	852	row (vb)	huáchuán	划船;划船	
+10	860	rudder	duò	舵;舵	
+10	870	mast	wéigān	桅杆;桅杆	
+10	880	sail (noun)	fān	帆;帆	
+10	890	anchor	máo	锚;錨, 矛;矛	
+10	910	harbor, port	gǎngkǒu	港口;港口	
+10	920	land (vb)	zhuólù	着陆;着陆	
+11	110	have	yǒu	有;有	
+11	120	own, possess	yōngyǒu	拥有;擁有	
+11	130	take	ná	拿;拿	
+11	140	seize, grasp	zhuā zhù	抓住;抓住	
+11	150	hold	wòzhe	握着;握著	
+11	160	get, obtain	huòdé	获得;獲得	
+11	170	keep, retain	bǎochí	保持;保持	
+11	180	thing	shìqing; dōngxi	事情;事情; 东西;東西	abstract; concrete
+11	210	give	gěi	给;給	
+11	220	give back	guīhuán	归还;歸還	
+11	240	preserve, look after	bǎohù; kānhù	保护;保護; 看护;看護	preserve; look after
+11	250	save, rescue	wǎnjiù	挽救;挽救	
+11	270	destroy	pòhuài	破坏;破壞	
+11	280	harm, injure, damage	sǔnhài	损害;損害	
+11	310	seek, look for	xúnzhǎo	寻找;尋找	
+11	320	find	zhǎo dào	找到;找到	
+11	330	lose	shīqù	失去;失去	
+11	340	release, let go	fàng kāi	放开;放開	
+11	430	money	qián	钱;錢	
+11	440	coin	yìngbì	硬币;硬幣	
+11	510	rich	fùyǒu	富有;富有	
+11	520	poor	pínqióng	贫穷;貧窮	
+11	530	beggar	qǐgài	乞丐;乞丐	
+11	540	avaricious, stingy	lìnsè	吝啬;吝嗇	
+11	610	lend	jièchū	借出;借出	
+11	620	borrow	jiè	借;借	
+11	630	owe	qiàn	欠;欠	
+11	640	debt	zhài	债;債	
+11	650	pay (vb)	fù fèi	付费;付費	
+11	660	account, reckoning	zhànghù; jìsuàn	账户;賬戶; 计算;計算	bank account; calculation
+11	690	tax, tribute	shuì	税;稅	
+11	770	hire	gùyòng	雇用;雇用	
+11	780	wages	gōngzī	工资;工資	
+11	790	earn	zhèng	挣;掙	
+11	810	buy	mǎi	买;買	
+11	820	sell	mài	卖;賣	
+11	830	trade, barter	màoyì	贸易;貿易	
+11	840	merchant	shāngrén	商人;商人	
+11	850	market (place)	shìchǎng	市场;市場	
+11	860	store, shop	shāngdiàn	商店;商店	
+11	870	price	jiàgé	价格;價格	
+11	880	dear (costly, expensive)	ángguì	昂贵;昂貴	
+11	890	cheap	piányi	便宜;便宜	
+11	910	share (distribute)	fēnpèi	分配;分配	
+11	920	weigh	chēng; liáng	称;稱; 梁;梁, 量;量	
+12	10	after	yǐhòu	以后;以後	
+12	11	behind	hòumiàn	后面;後面	
+12	20	beside	pángbiān	旁边;旁邊	
+12	30	down, below	xiàmiàn	下面;下面	
+12	40	before	qiánmiàn	前面;前面	
+12	41	front	qiánmiàn	前面;前面	
+12	50	inside, in	lǐmiàn	里面;裡面	
+12	60	outside	wàimiàn	外面;外面	
+12	70	under	xiàmiàn	下面;下面	
+12	80	up, above	shàngmiàn	上面;上面	
+12	110	place	dìfang	地方;地方	
+12	120	put	fàng	放;放	
+12	130	sit	zuò	做;做, 坐;坐	
+12	140	lie down	tǎng	躺;躺	
+12	150	stand	zhàn	站;站	
+12	160	remain, stay	bǎochí	保持;保持	
+12	170	remains, left overs	shèngyúwù	剩余物;剩餘物	
+12	210	collect, gather	shōují	收集;收集	
+12	212	pick up	jiǎn qǐ	捡起;撿起	
+12	213	pile up	duījī	堆积;堆積	
+12	220	join, unite	liánjiē; liánhé	连接;連接; 联合;聯合	join; unite
+12	230	separate	fēn kāi	分开;分開	
+12	232	divide	fēn	分;分	
+12	240	open	dǎ kāi	打开;打開	
+12	250	shut, close	guānbì	关闭;關閉	
+12	260	cover	zhēgài	遮盖;遮蓋	
+12	270	hide, conceal	yǐncáng	隐藏;隱藏	
+12	310	high	gāo	高;高	
+12	320	low	dī	低;低	
+12	330	top	dǐngbù	顶部;頂部	
+12	340	bottom	dǐbù	底部;底部	
+12	350	end	mòwěi	末尾;末尾	
+12	352	pointed	jiān	尖;尖, 肩;肩	
+12	353	edge	biānyuán	边缘;邊緣	
+12	360	side	miàn; biān	面;面; 编;編, 边;邊	
+12	370	middle, center	zhōngjiān	中间;中間	
+12	410	right (side)	yòu	右;右, 又;又	
+12	420	left (side)	zuǒ	左;左	
+12	430	near (adv)	fùjìn	附近;附近	
+12	440	far (adv)	yuǎn	远;遠	
+12	450	east	dōng	东;東	
+12	460	west	xī	西;西, 吸;吸, 锡;錫	
+12	470	north	běi	北;北	
+12	480	south	nán	南;南	
+12	530	grow	shēngzhǎng	生长;生長	
+12	540	measure	cèliáng	测量;測量	
+12	541	span, fathom	kuāndù; yīngxún	宽度;寬度; 英寻;英尋	span; fathom
+12	550	large, big	dà	大;大	
+12	560	small, little	xiǎo	小;小	
+12	570	long	cháng	长;長, 肠;腸	
+12	580	tall	gāo	高;高	
+12	590	short	duǎn	短;短	
+12	610	wide, broad	kuān	宽;寬, 髋;髖	
+12	620	narrow	zhǎi	窄;窄	
+12	630	thick (in dimension)	hòu	厚;厚	
+12	650	thin (in dimension)	báo	薄;薄	
+12	670	deep	shēn	深;深	
+12	680	shallow	qiǎn	浅;淺	
+12	710	flat	píng	平;平	
+12	730	straight	zhí	直;直	
+12	740	crooked	wānqū	弯曲;彎曲	
+12	750	hook	guàgōu	挂钩;掛鉤	
+12	760	corner	jiǎo	脚;腳, 角;角	
+12	770	cross	shízì	十字;十字	
+12	780	square	zhèngfāngxíng	正方形;正方形	
+12	810	round	yuánxíng	圆形;圓形	
+12	820	circle	yuán	圆;圓	
+12	830	sphere, ball	qiútǐ	球体;球體	
+12	840	line	xiàn	线;線	
+12	850	hole	dòng	洞;洞	
+12	920	like, similar	xiāngxiàng; xiāngsì	相像;相像; 相似;相似	colloquial; literary
+12	930	change	gǎibiàn	改变;改變	
+13	0	zero, nothing	líng	零;零	
+13	10	one	yī	一;一	
+13	20	two	èr	二;二	
+13	30	three	sān	三;三	
+13	40	four	sì	四;四	
+13	50	five	wǔ	五;五	
+13	60	six	liù	六;六	
+13	70	seven	qī	七;七	
+13	80	eight	bā	八;八, 疤;疤	
+13	90	nine	jiǔ	酒;酒, 九;九	
+13	100	ten	shí	十;十	
+13	101	eleven	shíyī	十一;十一	
+13	102	twelve	shí'èr	十二;十二	
+13	103	fifteen	shíwǔ	十五;十五	
+13	104	twenty	èrshí	二十;二十	
+13	105	hundred	yìbǎi	一百;一百	
+13	106	thousand	yìqiān	一千;一千	
+13	107	count	shǔshù	数数;數數	
+13	140	every, all	quánbù	全部;全部	
+13	150	much, many	xǔduō	许多;許多	
+13	160	more	gèngduō	更多;更多	
+13	170	little (quantity), few	shǎo	少;少	
+13	180	enough	zúgòu	足够;足夠	
+13	181	some	yìxiē	一些;一些	
+13	190	multitude, crowd	yìduī	一堆;一堆	
+13	210	full	mǎn	满;滿	
+13	220	empty	kōng	空;空	
+13	230	part, piece	bùfen	部分;部分	
+13	240	half	yíbàn	一半;一半	
+13	330	alone, only	wéiyī	唯一;唯一	
+13	340	first	dìyī; zuìxiān	第一;第一; 最先;最先	
+13	350	last	zuìhòu	最后;最後	
+13	360	second	dì'èr	第二;第二	
+13	370	pair	yìshuāng; yíduì	一双;一雙; 一对;一對	inanimate objects (shoes, socks, etc); people (e.g. husband and wife, son and daughter, boyfriend and girlfriend); inanimate objects (earrings)
+13	380	two times	liǎngcì	两次;兩次	
+13	420	third	dìsān	第三;第三	
+13	440	three times	sāncì	三次;三次	
+14	110	time	shíjiān	时间;時間	
+14	120	age	niánlíng	年龄;年齡	
+14	130	new	xīn	新;新	
+14	140	young	niánqīng	年轻;年輕	
+14	150	old	lǎo	老;老	
+14	160	early	zǎo	早;早	
+14	170	late	wǎn	碗;碗, 晚;晚	
+14	180	now	xiànzài	现在;現在	
+14	190	immediately	lìkè; mǎshàng	立刻;立刻; 马上;馬上	
+14	210	swift, fast, quick	xùnsù; kuài	迅速;迅速; 快;快	
+14	220	slow	màn	慢;慢	
+14	230	hasten, hurry	jímáng	急忙;急忙	
+14	240	retard, delay	yánwù	延误;延誤	
+14	250	begin, beginning	kāishǐ	开始;開始	
+14	252	last, endure	chíxù	持续;持續	
+14	260	end (temporal)	jiéshù	结束;結束	
+14	270	finish	wánchéng	完成;完成	
+14	280	cease, stop	tíngzhǐ	停止;停止	
+14	290	ready	zhǔnbèi hǎo	准备好;準備好	
+14	310	always	zǒngshì	总是;總是	
+14	320	often	jīngcháng	经常;經常	
+14	330	sometimes	yǒushí	有时;有時	
+14	331	soon	bùjiǔ	不久;不久	
+14	332	long-time (for a)	cháng shíjiān	长时间;長時間	
+14	340	never	cóngbù	从不;從不	
+14	350	again	zài; yòu	再;再; 右;右, 又;又	future reference; past reference
+14	410	day	báitiān; tiān	白天;白天; 天;天	versus night; period of 24 hours
+14	420	night	yèwǎn	夜晚;夜晚	
+14	430	dawn	límíng	黎明;黎明	
+14	440	morning	zǎochen; shàngwǔ	早晨;早晨; 上午;上午	early morning; late morning
+14	450	noon, midday	zhōngwǔ	中午;中午	
+14	451	afternoon	xiàwǔ	下午;下午	
+14	460	evening	wǎnshang	晚上;晚上	
+14	470	today	jīntiān	今天;今天	
+14	480	tomorrow	míngtiān	明天;明天	
+14	481	day-after-tomorrow	hòutiān	后天;後天	
+14	490	yesterday	zuótiān	昨天;昨天	
+14	491	day-before-yesterday	qiántiān	前天;前天	
+14	510	hour	xiǎoshí	小时;小時	
+14	530	clock, timepiece	zhōng	钟;鐘	
+14	610	week	zhōu; xīngqī	周;周; 星期;星期	literary; colloquial
+14	620	Sunday	zhōurì; xīngqīrì	周日;周日; 星期日;星期日	literary; colloquial
+14	630	Monday	zhōuyī; xīngqīyī	周一;周一; 星期一;星期一	literary; colloquial
+14	640	Tuesday	zhōuèr; xīngqī’èr	周二;周二; 星期二;星期二	literary; colloquial
+14	650	Wednesday	zhōusān; xīngqīsān	周三;周三; 星期三;星期三	literary; colloquial
+14	660	Thursday	zhōusì; xīngqīsì	周四;周四; 星期四;星期四	literary; colloquial
+14	670	Friday	zhōuwǔ; xīngqīwǔ	周五;周五; 星期五;星期五	literary; colloquial
+14	680	Saturday	zhōuliù; xīngqīliù	周六;周六; 星期六;星期六	literary; colloquial
+14	710	month	yuè	月;月	
+14	730	year	nián	年;年	
+14	740	winter	dōngjì; dōngtiān	冬季;冬季; 冬天;冬天	literary; colloquial
+14	750	spring	chūnjì; chūntiān	春季;春季; 春天;春天	literary; colloquial
+14	760	summer	xiàjì; xiàtiān	夏季;夏季; 夏天;夏天	literary; colloquial
+14	770	autumn	qiūjì; qiūtiān	秋季;秋季; 秋天;秋天	literary; colloquial
+14	780	season	jìjié	季节;季節	
+15	210	smell (vb intrans)	yǒu qìwèi	有气味;有氣味	
+15	212	sniff	wén	闻;聞	
+15	220	smell (vb trans)	wéndào	闻到;聞到	
+15	250	fragrant, good smelling	xiāng	香;香	
+15	260	stinking, bad smelling	chòuwèi	臭味;臭味	
+15	310	taste	wèidào	味道;味道	
+15	350	sweet	tián	甜;甜	
+15	360	salty	xián	咸;鹹	
+15	370	bitter	kǔ	苦;苦	
+15	380	acid, sour	suān	酸;酸	
+15	390	brackish	wēixián	微咸;微鹹	
+15	410	hear	tīng dào	听到;聽到	
+15	420	listen	tīng	听;聽	
+15	440	sound, noise	shēngyīn	声音;聲音	
+15	450	loud	dàshēng	大声;大聲	
+15	460	quiet, silence	ānjìng	安静;安靜	
+15	510	see	kàn jiàn	看见;看見	
+15	520	look, look at	kàn	看;看	
+15	550	show	chūshì	出示;出示	
+15	560	shine	fāguāng	发光;發光	
+15	570	bright	xiānyàn	鲜艳;鮮豔	
+15	610	color	yánsè	颜色;顏色	
+15	620	light (in color)	qiǎnsè	浅色;淺色	
+15	630	dark (in color)	shēnsè	深色;深色	
+15	640	white	bái	白;白	
+15	650	black	hēi	黑;黑	
+15	660	red	hóng	红;紅, 魟;魟	
+15	670	blue	lán	蓝;藍	
+15	680	green	lǜ	绿;綠	
+15	690	yellow	huáng	黄;黃	
+15	710	touch	mō; pèng	摸;摸; 碰;碰	
+15	712	pinch	niē; qiā	捏;捏; 掐;掐	larger area; smaller area
+15	720	feel	gǎnjué; juéde	感觉;感覺; 觉得;覺得	
+15	740	hard	jiānyìng	坚硬;堅硬	
+15	750	soft	róuruǎn	柔软;柔軟	
+15	760	rough	cūcāo	粗糙;粗糙	
+15	770	smooth	guānghuá	光滑;光滑	
+15	780	sharp	jiān	尖;尖, 肩;肩	
+15	790	blunt, dull	dùn	钝;鈍	
+15	810	heavy	zhòng	重;重	
+15	820	light (in weight)	qīng	轻;輕	
+15	830	wet, damp	shī	湿;濕	
+15	840	dry	gān	干;乾	
+15	850	hot	rè	热;熱	
+15	851	warm	wēnnuǎn	温暖;溫暖	
+15	860	cold	lěng	冷;冷	
+15	870	clean	gānjìng	干净;乾凈	
+15	880	dirty, soiled	zāng	脏;髒	
+15	890	wrinkled	yǒu zhòuwén	有皱纹;有皺紋	
+16	110	soul, spirit	línghún	灵魂;靈魂	
+16	150	surprised, astonished	jīngyà	惊讶;驚訝	
+16	180	good fortune, luck	hǎoyùn	好运;好運	
+16	190	misfortune, bad luck	èyùn	厄运;厄運	
+16	230	joyful, glad, happy	xǐyuè; gāoxìng; kuàilè	喜悦;喜悅; 高兴;高興; 快乐;快樂	joyful; glad; happy
+16	250	laugh	xiào	笑;笑	
+16	251	smile	wēixiào	微笑;微笑	
+16	260	play	wánshuǎ	玩耍;玩耍	
+16	270	love	ài	爱;愛	
+16	290	kiss	qīnwěn	亲吻;親吻	
+16	300	embrace	yōngbào	拥抱;擁抱	
+16	310	pain	tòngkǔ	痛苦;痛苦	
+16	320	grief, sorrow, sadness	bēishāng	悲伤;悲傷	
+16	330	anxiety, worry	jiāolǜ; dānxīn	焦虑;焦慮; 担心;擔心	anxiety; worry
+16	340	regret, be sorry	àohuǐ	懊悔;懊悔	
+16	350	pity	tóngqíng	同情;同情	
+16	370	cry, weep	kū	哭;哭	
+16	380	tear (noun)	yǎnlèi	眼泪;眼淚	
+16	390	groan	bàoyuàn	抱怨;抱怨	
+16	410	hate	yuànhèn	怨恨;怨恨	
+16	420	anger	fènnù	愤怒;憤怒	
+16	440	envy, jealousy	jídù	嫉妒;嫉妒	
+16	450	shame (noun)	xiūkuìgǎn	羞愧感;羞愧感	
+16	480	proud	jiāo’ào	骄傲;驕傲	
+16	510	dare	gǎn	敢;敢	
+16	520	brave	yǒnggǎn	勇敢;勇敢	
+16	530	fear, fright	hàipà	害怕;害怕	
+16	540	danger	wēixiǎn	危险;危險	
+16	620	desire, want	kěwàng	渴望;渴望	
+16	622	choose	xuǎnzé	选择;選擇	
+16	630	hope	xīwàng	希望;希望	
+16	650	faithful	zhōngchéng	忠诚;忠誠	
+16	660	true	zhēnshí	真实;真實	
+16	670	lie, tell lies	shuō huǎng	说谎;說謊	
+16	680	deceit	qīzhà	欺诈;欺詐	
+16	690	forgive	yuánliàng	原谅;原諒	
+16	710	good	hǎo	好;好	
+16	720	bad	huài	坏;壞	
+16	730	right, correct	zhèngquè	正确;正確	
+16	740	wrong	cuò	错;錯	
+16	760	fault	quēdiǎn	缺点;缺點	
+16	770	mistake, error	cuòwù	错误;錯誤	
+16	780	blame	zéguài	责怪;責怪	
+16	790	praise	chēngzàn	称赞;稱贊	
+16	810	beautiful	měilì	美丽;美麗	
+16	820	ugly	chǒulòu	丑陋;醜陋	
+16	830	greedy	tānlán	贪婪;貪婪	
+16	840	clever	cōngming	聪明;聰明	
+17	110	mind	tóunǎo	头脑;頭腦	
+17	130	think (= reflect)	sīkǎo	思考;思考	
+17	140	think (= be of the opinion)	xiǎng; rènwéi	想;想; 认为;認為	
+17	150	believe	xiāngxìn	相信;相信	
+17	160	understand	lǐjiě	理解;理解	
+17	170	know	zhīdào	知道;知道	
+17	171	guess	cāicè	猜测;猜測	
+17	172	imitate	mófǎng	模仿;模仿	
+17	180	seem	hǎoxiàng	好像;好像	
+17	190	idea, notion	guānniàn	观念;觀念	
+17	210	wise	míngzhì	明智;明智	
+17	220	foolish, stupid	yúchǔn	愚蠢;愚蠢	
+17	230	insane, crazy	fēngkuáng	疯狂;瘋狂	
+17	240	learn	xuéxí	学习;學習	
+17	242	study	xuéxí	学习;學習	
+17	250	teach	jiāo	教;教, 礁;礁	
+17	260	pupil	xiǎoxuéshēng; zhōngxuéshēng	小学生;小學生; 中学生;中學生	elementary school; middle/high school
+17	270	teacher	jiàoshī; lǎoshī	教师;教師; 老师;老師	
+17	280	school	xuéxiào	学校;學校	
+17	310	remember	jìde	记得;記得	
+17	320	forget	wàngjì	忘记;忘記	
+17	340	clear, plain	qīngchu	清楚;清楚	
+17	350	obscure	móhu	模糊;模糊	
+17	360	secret	mìmì	秘密;秘密	
+17	370	sure, certain	quèxìn	确信;確信	
+17	380	explain	jiěshì	解释;解釋	
+17	410	intention, purpose	mùdì	目的;目的	
+17	420	cause	yuányīn	原因;原因	
+17	430	doubt	huáiyí	怀疑;懷疑	
+17	440	suspect	tuīcè	推测;推測	
+17	441	betray	bèipàn	背叛;背叛	
+17	450	need, necessity	xūyào	需要;需要	
+17	460	easy	róngyì	容易;容易	
+17	470	difficult	kùnnán	困难;困難	
+17	480	try, attempt	chángshì	尝试;嘗試	
+17	490	way, manner	fāngshì	方式;方式	
+17	510	and	hé	颌;頜, 河;河, 和;和	
+17	520	because	yīnwèi	因为;因為	
+17	530	if	rúguǒ	如果;如果	
+17	540	or	huòzhě	或者;或者	
+17	550	yes, affirmative	shì	是;是	
+17	560	no, negative	bù	不;不	bú before fourth tone
+17	610	how?	zěnyàng; zěnmeyàng	怎样？;怎樣？; 怎么样？;怎麽樣？	
+17	620	how many?	duōshǎo	多少？;多少？	
+17	630	how much?	duōshǎo	多少？;多少？	
+17	640	what?	shénme	什么？;什麼？	
+17	650	when?	shénme shíhou	什么时候？;什麼時候？	
+17	660	where?	nǎli; nǎr	哪里?;哪裡？; 哪儿？;哪兒？	Southern; Northern
+17	670	which?	nǎge	哪个？;哪個？	
+17	680	who?	shuí	谁？;誰？	
+17	690	why?	wèishénme	为什么？;為什麼？	
+18	110	voice	shēngyīn	声音;聲音	
+18	120	sing	chàng	唱;唱	
+18	130	shout, cry out	hǎnjiào	喊叫;喊叫	
+18	150	whisper	dīyǔ	低语;低語	
+18	160	mumble	gūnong	咕哝;咕噥	
+18	170	whistle	shàoshēng	哨声;哨聲	
+18	180	shriek, screech	jiānjiào	尖叫;尖叫	
+18	190	howl	háojiào	号叫;號叫	
+18	210	speak, talk	shuō huà	说话;說話	
+18	211	stutter, stammer	kǒuchī	口吃;口吃	
+18	220	say	shuō	说;說	
+18	221	tell story	jiǎng gùshi	讲故事;講故事	
+18	222	speech (make a)	yǎnjiǎng	演讲;演講	
+18	230	silent (be)	ānjìng	安静;安靜	
+18	240	language	yǔyán	语言;語言	
+18	260	word	cí; zì	词;詞; 字;字	depends on context; depends on context
+18	280	name	míngzi	名字;名字	
+18	310	ask (question, inquire)	wèn	问;問	
+18	320	answer	huídá	回答;回答	
+18	330	admit, confess	chéngrèn	承认;承認	
+18	340	deny	fǒurèn	否认;否認	
+18	350	ask, request	qǐngqiú	请求;請求	
+18	360	promise	chéngnuò	承诺;承諾	
+18	370	refuse	jùjué	拒绝;拒絕	
+18	380	forbid	jìnzhǐ	禁止;禁止	
+18	390	rebuke, scold	zhǐzé	指责;指責	
+18	410	call (=summon)	hūhuàn	呼唤;呼喚	
+18	420	call (=name)	chēnghu	称呼;稱呼	
+18	430	announce	xuānbù	宣布;宣布	
+18	440	threaten	kǒnghè	恐吓;恐嚇	
+18	450	boast	zìkuā	自夸;自誇	
+18	510	write	xiě	血;血, 写;寫	
+18	520	read	dú	毒;毒, 读;讀	
+18	560	paper	zhǐ	纸;紙	
+18	570	pen	bǐ	笔;筆	
+18	610	book	shū	书;書	
+18	670	poet	shīrén	诗人;詩人	
+18	710	flute	chángdí	长笛;長笛	
+18	720	drum	gǔ	鼓;鼓	
+18	730	horn, trumpet	hào	号;號	
+18	740	rattle	pīngpāng xiǎng	乒乓响;乒乓響	
+19	110	country	guójiā	国家;國家	
+19	120	one's native country	zǔguó	祖国;祖國	
+19	150	city, town	chéng	城;城	
+19	160	village	cūnzhuāng	村庄;村莊	
+19	170	boundary	biānjiè	边界;邊界	
+19	210	people (populace)	rénmín	人民;人民	
+19	230	tribe, clan	bùluò; zōngzú	部落;部落; 宗族;宗族	tribe; clan
+19	240	chief, chieftain	qiúzhǎng; zúzhǎng	酋长;酋長; 族长;族長	of tribe; of clan
+19	250	staff, walking stick	guǎizhàng	拐杖;拐杖	
+19	310	rule, govern	tǒngzhì	统治;統治	
+19	320	king, ruler	guówáng; tǒngzhìzhě	国王;國王; 统治者;統治者	king; ruler
+19	330	queen	nǚwáng; wánghòu	女王;女王; 王后;王后	ruler (female); ruler’s wife
+19	360	noble, nobleman	guìzú	贵族;貴族	
+19	370	citizen, subject	gōngmín	公民;公民	
+19	410	master	zhǔrén	主人;主人	
+19	420	slave	núlì	奴隶;奴隸	
+19	430	servant	yōngrén	佣人;佣人	
+19	440	freeman	zìyóumín	自由民;自由民	
+19	450	command, order	mìnglìng	命令;命令	
+19	460	obey	fúcóng	服从;服從	
+19	470	let, permit	xǔkě	许可;許可	
+19	510	friend, companion	péngyou	朋友;朋友	
+19	520	enemy	dírén	敌人;敵人	
+19	540	neighbor	línjū	邻居;鄰居	
+19	550	stranger	mòshēngrén	陌生人;陌生人	
+19	560	guest	kèrén	客人;客人	
+19	570	host	zhǔrén	主人;主人	
+19	580	help, aid	bāngzhù	帮助;幫助	
+19	590	hinder, prevent	zǔzhǐ	阻止;阻止	
+19	610	custom	xísú	习俗;習俗	
+19	620	strife, quarrel	chōngtū	冲突;衝突	
+19	630	conspiracy, plot	mìmóu	密谋;密謀	
+19	650	meet	yùjiàn	遇见;遇見	
+19	720	prostitute	lànyòng	滥用;濫用	
+20	110	fight (vb)	dǎdòu	打斗;打鬥	
+20	130	war, battle	zhànzhēng	战争;戰爭	
+20	140	peace	hépíng	和平;和平	
+20	150	army	jūnduì	军队;軍隊	
+20	170	soldier	shìbīng	士兵;士兵	
+20	210	weapons, arms	wǔqì	武器;武器	
+20	220	club	gùnbàng	棍棒;棍棒	
+20	222	battle-ax	zhànfǔ	战斧;戰斧	
+20	230	sling	tóushíqì	投石器;投石器	
+20	240	bow	gōng	公;公, 弓;弓	
+20	250	arrow	jiàn	剑;劍, 箭;箭	
+20	260	spear	máo	锚;錨, 矛;矛	
+20	270	sword	jiàn	剑;劍, 箭;箭	
+20	280	gun, cannon	qiāng; pào	枪;槍; 炮;炮	gun; cannon
+20	310	armor (defensive)	kuījiǎ	盔甲;盔甲	
+20	330	helmet	tóukuī	头盔;頭盔	
+20	340	shield	dùnpái	盾牌;盾牌	
+20	350	fortress	yàosài	要塞;要塞	
+20	360	tower	tǎ	塔;塔	
+20	410	victory	shènglì	胜利;勝利	
+20	420	defeat	jībài	击败;擊敗	
+20	430	attack	gōngjī	攻击;攻擊, 公鸡;公雞	
+20	440	defend	fángshǒu	防守;防守	
+20	450	retreat	chètuì	撤退;撤退	
+20	460	surrender	tóuxiáng	投降;投降	
+20	470	captive, prisoner	fúlǔ	俘虏;俘虜	
+20	471	guard, sentinel	jǐngwèi; shàobīng	警卫;警衛; 哨兵;哨兵	guard; sentinel
+20	480	booty, spoils	zhànlìpǐn	战利品;戰利品	
+20	490	ambush	fújī	伏击;伏擊	
+20	510	fisherman	yúmín	渔民;漁民	
+20	520	fishhook	yúgōu	鱼钩;魚鉤	
+20	530	fishing line	diàoyúxiàn	钓鱼线;釣魚線	
+20	540	fishnet	yúwǎng	渔网;漁網	
+20	550	fish trap	yúxiànjǐng	鱼陷阱;魚陷阱	
+20	560	bait	ěr	饵;餌	
+20	610	hunt	dǎ liè	打猎;打獵	
+20	620	shoot	shèjī	射击;射擊	
+20	630	miss (target)	wèi jīzhòng	未击中;未擊中	
+20	640	trap (noun)	xiànjǐng	陷阱;陷阱	
+20	650	trap (vb)	shè xiànjǐng	设陷阱;設陷阱	
+21	110	law	fǎlǜ	法律;法律	
+21	150	court	fǎtíng	法庭;法庭	
+21	160	judge (vb)	pànjué	判决;判決	
+21	170	judgment	pànjué	判决;判決	
+21	180	judge (noun)	fǎguān	法官;法官	
+21	210	plaintiff	yuángào	原告;原告	
+21	220	defendant	bèigào	被告;被告	
+21	230	witness	zhèngrén	证人;證人	
+21	240	swear	fāshì	发誓;發誓	
+21	250	oath	xuānshì	宣誓;宣誓	
+21	310	accuse	zhǐkòng	指控;指控	
+21	320	condemn	pànchǔ	判处;判處	
+21	330	convict (vb)	pànjué...yǒuzuì	判决...有罪;判決...有罪	
+21	340	acquit	xuānpàn...wúzuì	宣判...无罪;宣判...無罪	
+21	350	guilty	yǒuzuì	有罪;有罪	
+21	360	innocent	wúzuì	无罪;無罪	
+21	370	penalty, punishment	chǔfá	处罚;處罰	
+21	380	fine	fákuǎn	罚款;罰款	
+21	390	prison, jail	jiānyù	监狱;監獄	
+21	420	murder	móushā	谋杀;謀殺	
+21	430	adultery	tōngjiān	通奸;通姦	
+21	440	rape	qiángjiān	强奸;強姦	
+21	460	arson	zònghuǒ	纵火;縱火	
+21	470	perjury	wěizhèngzuì	伪证罪;偽證罪	
+21	510	steal	tōu	偷;偷	
+21	520	thief	xiǎotōu	小偷;小偷	
+22	110	religion	zōngjiào	宗教;宗教	
+22	120	God	shén	神;神	
+22	130	temple, church	miào; jiàotáng	庙;廟; 教堂;教堂	Buddhist temple; Christian church
+22	140	altar	jìtán	祭坛;祭壇	
+22	150	sacrifice, offering	jìpǐn	祭品;祭品	
+22	160	worship	jìngshén; chóngbài	敬神;敬神; 崇拜;崇拜	traditional Chinese; Christian
+22	170	pray	qíqiú	祈求;祈求	
+22	180	priest	jìsī	祭司;祭司	
+22	190	holy, sacred	shénshèng	神圣;神聖	
+22	220	preach	jiǎngdào	讲道;講道	
+22	230	bless	bǎoyòu	保佑;保佑	
+22	240	curse	zǔzhòu	诅咒;詛咒	
+22	260	fast (vb)	jìnshí	禁食;禁食	
+22	310	heaven	tiāntáng	天堂;天堂	
+22	320	hell	dìyù	地狱;地獄	
+22	350	demon (evil spirit)	èmó	恶魔;惡魔	
+22	370	idol	ǒuxiàng	偶像;偶像	
+22	420	magic, witchcraft, sorcery	mófǎ	魔法;魔法	
+22	430	sorcerer, witch	nánwū; nǚwū	男巫;男巫; 女巫;女巫	male; female
+22	440	fairy, elf	xiānzǐ; jīnglíng	仙子;仙子; 精灵;精靈	fairy; elf
+22	450	ghost, phantom	guǐ; yōulíng	鬼;鬼; 幽灵;幽靈	evil; neutral
+22	470	omen, portent	zhēngzhào	征兆;徵兆	

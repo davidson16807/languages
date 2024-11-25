@@ -1,0 +1,540 @@
+chapter_id	entry_id	meaning	Tocharian A_Phonemic	comment
+1	100	world	ārkiśoṣi	
+1	210	earth, land	tkaṃ	
+1	212	earth=ground, soil	tkaṃ	
+1	213	dust	twe; tor	Also mean 'ashes' 01.840.; Also mean 'ashes' 01.840.
+1	214	mud	lyom	(?)
+1	215	sand	wāryāɲc	
+1	220	mountain, hill	ṣul	
+1	250	island	prank; dvip	[dvip] is Indic loanword.; [dvip] is Indic loanword.
+1	260	mainland	śoṃ	
+1	310	water	wär; wräntu	Second forms are plural.; Second forms are plural.
+1	320	sea	lyäm	
+1	329	ocean	sāmudtär	Indic loan words.
+1	380	swamp	kärtkāl	
+1	410	woods, forest	kārāś	
+1	420	tree (cf 08.600)	ṣtām	
+1	430	wood	or	'Of wood, wooden': B oraṣṣe; A orṣi.
+1	440	stone, rock	pāreṃ	
+1	510	sky	eprer-	Also means 'air' 01.710.
+1	520	sun	koṃ	Also means 'day' 14.410.
+1	530	moon	maɲ	Also means 'month' 14.710, q.v.
+1	540	star	śre-	
+1	550	lightning	polkāṃts	
+1	570	lightning (as striking)	vājär	Indic loanwords.
+1	610	light (noun)	lkäś	
+1	620	darkness	orkäm	
+1	710	air	eprer-	Also means 'sky' 01.510.
+1	720	wind	want	
+1	730	cloud	tärkär	
+1	750	rain (noun)	swase	
+1	810	fire	por	
+1	820	flame (noun)	slam	
+1	840	ashes	twe; tor	Also mean 'dust' 01.213.; Also mean 'dust' 01.213.
+1	851	burn (vb trans)	tsäk-	Inactive form.
+1	852	burn (vb intrans)	sälp-	First term occurs when in middle form.
+1	860	light, kindle, ignite	tu-	
+1	861	extinguish	käs-	
+2	100	person, human being	napeṃ	
+2	210	man (vs. woman)	onk	
+2	220	woman	śäṃ; kùli	Also means 'wife' 02.320.; Also means 'wife' 02.320.
+2	230	male	oɲi	
+2	250	boy	śom	Also used for 'child' 02.270.
+2	251	young man (adolescent)	wir	
+2	260	girl	śomiṃ	
+2	270	child	śom	Also means 'son' 02.250.
+2	320	wife	śäṃ	Also means 'woman' 02.220.
+2	350	father	pācar	
+2	360	mother	mācar	
+2	410	son	se; sewās	Latter form refers to plural accusative 'sons'.; Latter form refers to plural accusative 'sons'.
+2	420	daughter	ckācar	
+2	440	brother	pracar	
+2	450	sister	ṣar	
+2	560	ancestors	āp	Both forms are singular.
+2	810	relatives, kinsmen	ṣɲaṣṣeɲ	Derivatives of reflexive pronoun 'own'.
+2	820	family	kotär	Indic loanwords.
+2	910	I	näṣ; ɲuk	Forms for A are: masc., fem.; Forms for A are: masc., fem.
+2	920	you (singular)	tu	
+2	940	we	was	
+2	950	you (plural)	yas	
+3	110	animal	lu	apparently includes 'bird' which is ṣalamo luwo 'flying animal', and opposed to ynamo luwo 'going animal' (= + or - mammal).
+3	120	male (adj)	oɲi	
+3	130	female (adj)	kùleɲci	
+3	160	pasture	wäsri	
+3	210	bull	kayurṣ	
+3	230	cow	ko	
+3	250	sheep	śoś	Form A is 'collective'.
+3	280	ewe	āù	
+3	410	horse (equine)	yuk	
+3	593	crow	sukrāṃ	
+3	610	dog	ku	
+3	720	lion	śiśäk	
+3	770	elephant	onkaläm	
+3	820	bee	kroṅśe	Cf. 'hornet' in IE.
+3	840	worm	walyī	Form A is plural.
+3	850	snake	ārṣal	
+4	110	body	kapśaɲi	
+4	120	skin, hide	yats	respectively: 'outer skin, inner skin'.
+4	130	flesh	śwāl	form is plural.
+4	140	hair (head)	śāku	
+4	144	body hair	yok	'Body hair (of humans), animal hair, fleece'.
+4	150	blood	ysār	
+4	160	bone	āy; āyäntu	Respectively: sg.; plural.; Respectively: sg.; plural.
+4	170	horn	kror	
+4	191	spine	särśi	
+4	200	head	mrāc; lap	GSL A mrāc-spāl(yo) means 'with the head', lit. 'top + head'.; GSL A mrāc-spāl(yo) means 'with the head', lit. 'top + head'.
+4	204	face	ak-mal	B form is plural. A form, lit. 'eye + nose' 04.210+04.230.
+4	205	forehead	ānt	
+4	207	jaw	śanweṃ	Form A is 'dual'.
+4	210	eye	ak	See 'face' 04.204.
+4	212	eyebrow	pärwāṃ	'Dual'.
+4	220	ear	klots	Cf. 'hear' 15.410.
+4	230	nose	mal	form is plural.
+4	240	mouth	ko	
+4	250	lip	lymeṃ	Forms are 'dual'.
+4	260	tongue	käntu	
+4	270	tooth	kam	
+4	280	neck	kɲuk	
+4	290	throat	ṣunk	
+4	300	shoulder	es	
+4	310	arm	poke	form is accusative singular.
+4	330	hand	tsar	
+4	331	palm of hand	āle	
+4	340	finger	prār	
+4	344	fingernail	maku	Plural forms: 'finger/toe nails'.
+4	360	knee	kanweṃ	'Dual' forms.
+4	370	foot	pe	
+4	374	footprint	ṣik	
+4	400	chest	pratsak	
+4	410	breast (of woman)	päśśäṃ	Second B and A form are dual.
+4	440	heart	āriɲc	käryāɲ (nom. pl.) 'hearts'.
+4	460	stomach	kāts	
+4	510	breathe, breath	wraseṃ	Respectively: 'breathe; breath'.
+4	520	yawn, gape	śew-	
+4	610	sleep	klis-; ṣpäṇ	Second forms of B and A are nouns.; Second forms of B and A are nouns.
+4	630	wake up	wār-	
+4	710	beget (of father)	täm-	When active in form.
+4	720	born (to be)	täm-	When middle in form.
+4	740	live, living, life	śo-; śol	Second B form: 'live'; first A form: 'live'; second A form: 'life'.; Second B form: 'live'; first A form: 'live'; second A form: 'life'.
+4	750	die, dead	wäl-; walu	Respectively: 'die'; 'dead' (past participle of sruk-; 'die'; 'dead'.; Respectively: 'die'; 'dead' (past participle of sruk-; 'die'; 'dead'.
+4	760	kill	ko-	
+4	810	strong, mighty, powerful	tampe	A, tsraṣṣuneyā means 'by strength'; tsraṣiśśi means 'of the strong'.
+4	820	weak	ylār	
+4	840	sick, sickness	ekro	
+4	850	wound, sore	päl	
+4	857	pus	saku	
+4	870	physician	sāṃtkenu	Cf. following related forms in next entry.
+4	880	medicine, drug	sāṃtäk	Indic loanwords.
+4	890	poison	wäs	
+4	912	rest	āɲu	Noun forms.
+4	970	blind	trak	Second B form, lit. 'the eyes set', dual.
+5	110	eat	śu-; śuwā-	
+5	120	food	śwātsi	Both forms infinitives of śu- ~ śuwā- 05.110.
+5	121	cooked	pakku	
+5	130	drink	yok-	
+5	140	hunger	kaṣt	
+5	150	thirst	yoke	
+5	210	cook	päk-	'Cook, ripen'.
+5	220	boil (vb)	särk-	
+5	260	pot, cooking vessel	kunti	See also 'pitcher' 05.340. Indic loanword.
+5	330	bowl	pātär	Both forms indicate '(alms)bowl', Indic loanwords.
+5	340	pitcher, jug	kunti	See also 'pot' 05.260. Indic loanword.
+5	490	stir, mix	triw-	
+5	560	crush, grind	malyw-	
+5	610	meat	śwal	
+5	710	fruit	oko	
+5	790	oil	ṣälyp	
+5	791	grease, fat	ṣälyp	
+5	810	salt	sāle	
+5	860	milk (noun)	malke	
+5	900	beverage, drink	yoktsi	Infinitive of yok- 'to drink'.
+6	110	put on (clothes)	wäs-	
+6	120	clothing, clothes	wsal	First form infinitive of wäs- 06.110.
+6	220	wool	yok	Also 'human body hair, fur' 04.144.
+6	280	fur	yok	Also 'human body hair, wool' 04.144, 06.220.
+6	330	weave	wäp-	
+6	350	sew	su-	
+6	380	thread	kluṃts	(?)
+6	710	ornament, adornment	katu	
+6	720	jewel	katu; ɲemi; wmār; yetwe	
+6	930	razor	kṣur	Indic loanword
+6	940	ointment	ṣälyp	
+6	960	mirror	tāpaki	
+7	120	house	waṣt	Plural forms: B ostwa; A waṣtu.
+7	130	hut	yṣitstse	Respectively: Iranian loanword; form A is loanword from B. (?)
+7	220	door, gate	yokäm	First form indicates 'door'. Second and third forms indicate '(city-)gate'.
+7	250	window	pātsank	Borrowed from some Iranian source.
+7	270	wall	poṣi	
+7	420	bed	lake	Latter form in B is Indic loanword.
+7	450	lamp, torch	cok	
+7	560	post, pole	asäl	
+7	620	brick	tukri	
+8	130	garden	warpiśke; warpi	werpiśka-tse 'gardener'; werpiśka-tse-ɲɲe 'gardening'.; werpiśka-tse 'gardener'; werpiśka-tse-ɲɲe 'gardening'.
+8	170	ditch	yṣaṃ	
+8	210	plow	pāt	
+8	220	dig	räp-	
+8	310	sow	kät-	
+8	311	seed	sārm	
+8	420	grain (barley, oats etc)	wsār	
+8	430	wheat	wsār	Also 'grain' in general.
+8	440	barley	yap	Or possibly 'millet'.
+8	480	rice	klu	Loanword from Chinese.
+8	510	grass	āti	
+8	531	plant (vb)	sāry-	
+8	540	root	tsmār	
+8	550	branch	karke	
+8	560	leaf	pält	
+8	570	flower	pyāpi	
+8	600	tree	ṣtām	
+8	670	vine	letke	
+8	760	sap	śuk	
+9	110	do, make	yām-; ypa-; ya-	
+9	120	work	wles-	
+9	140	bend	näm-	Respectively: 'bend away; bend toward'.
+9	160	tie, bind	kärk-	
+9	161	untie	tärk-	'Release'.
+9	210	strike (hit, beat)	on-; ko-; tsop-	'hit, wound'; 'strike downward'; 'strike down, kill'; tsop-: 'strike'.; 'hit, wound'; 'strike downward'; 'strike down, kill'; tsop-: 'strike'.; 'hit, wound'; 'strike downward'; 'strike down, kill'; tsop-: 'strike'.
+9	220	cut	karṣt-; lātk-; prutk-	lātk-; prutk- 'cut down/off'; 'cut off'.; lātk-; prutk- 'cut down/off'; 'cut off'.; lātk-; prutk- 'cut down/off'; 'cut off'.
+9	221	cut down	kärṣt-	'Cut down/off'.
+9	222	chop, hew	kot-	
+9	223	stab	tsop-	'Strike, penetrate'.
+9	230	knife	yepe	
+9	250	ax	porat	Iranian loanwords.
+9	260	break	kot-	
+9	270	split	wāk-; kaut-; kot-	'split (intrans.); split (trans.)'.; 'split (intrans.); split (trans.)'.; 'split (intrans.); split (trans.)'.
+9	280	tear	kärṣt-	
+9	320	stretch	pänw-	
+9	330	pull	yärt-; ep-; ru-	ru-: 'pull out'; 'pull over (so as to cover)'.; ru-: 'pull out'; 'pull over (so as to cover)'.; ru-: 'pull out'; 'pull over (so as to cover)'.
+9	340	spread out	sätk-	
+9	341	hang up	länk-	
+9	342	press	kälts-	
+9	343	squeeze, wring	malyw-; wnisk-	'squeeze, crush'; forms: 'squeeze'.; 'squeeze, crush'; forms: 'squeeze'.
+9	350	pour	ku-	
+9	360	wash	lik-	
+9	422	tool	yantär	Indic loanwords
+9	440	build	tsik-	
+9	640	gold	wäs	
+9	650	silver	nkiɲc	
+9	670	iron	aɲcu	
+9	710	potter	kuntis-tsek	
+9	720	mold (clay etc)	tsik-	
+9	730	clay	tukri	'Clay, brick'.
+9	750	weave, plait	wäp-	
+9	890	paint (vb)	pik-	
+10	110	move	wāsk-; lit-; rutk-; mus-	lit-; rutk-; mus- 'move'; 'move aside/away'.; lit-; rutk-; mus- 'move'; 'move aside/away'.; lit-; rutk-; mus- 'move'; 'move aside/away'.; lit-; rutk-; mus- 'move'; 'move aside/away'.
+10	120	turn over	lotk-	
+10	130	turn around	spārtw-	
+10	140	wind, wrap	wänt-	
+10	150	roll	spārtw-	
+10	210	rise	kātk-; pärk-	
+10	220	raise, lift	täl-	
+10	230	fall	klā-	
+10	250	throw	säl-	
+10	260	shake	miw-	
+10	340	float	plu-	
+10	350	swim	yär-	
+10	370	fly (vb)	plu-; säl-	
+10	380	blow	pis-	
+10	440	dance	tsip-	
+10	450	walk	i-	Means 'go, walk'.
+10	470	go	i-; yeṣ; kälk-	First three forms, respectively: present tense, imperfect; A form, perfect.; First three forms, respectively: present tense, imperfect; A form, perfect.; First three forms, respectively: present tense, imperfect; A form, perfect.
+10	473	go down	kārp-	
+10	474	go out	länt-	
+10	480	come	kum-	
+10	481	come back	lotk-	
+10	490	go away, depart	lit-	GSL B letkār; A waiptār 'apart'.
+10	491	disappear	nut-; spärk-	spärk-; spärk-
+10	510	flee	mlusk-	'Escape'.
+10	520	follow	säk-	(?)
+10	550	reach, arrive	yom-	
+10	570	enter	yow-	
+10	610	carry (bear)	pär-	
+10	620	bring	käl-	
+10	630	send	lu-	
+10	640	lead (vb)	āk-	'Lead, drive'.
+10	650	drive	āk-	
+10	660	ride	klānk-	
+10	670	push, shove	nätk-	
+10	710	road	ṣont	
+10	720	path	yme	
+10	750	carriage, wagon, cart	kukäl	See 'wheel' 10.760.
+10	760	wheel	wärkänt	form is accusative.
+10	830	boat	koläm	
+11	130	take	eṃts-	
+11	140	seize, grasp	eṃts-	
+11	160	get, obtain	kälp-	
+11	180	thing	wram	
+11	210	give	e-	
+11	240	preserve, look after	pās-	
+11	250	save, rescue	tsälp-	
+11	270	destroy	näk-	
+11	280	harm, injure, damage	mi-	
+11	310	seek, look for	rit-	
+11	320	find	kälp-	
+11	340	release, let go	tärk-	
+11	510	rich	śāt; niṣpalntu	Latter A form means 'riches'.; Latter A form means 'riches'.
+11	520	poor	ekro	
+11	530	beggar	yāṣṣuce	
+11	640	debt	pare	
+11	690	tax, tribute	potäk	
+11	880	dear (costly, expensive)	kāpɲe	
+11	910	share (distribute)	pāk yām-; ypa-; ya-	form, lit. 'do [a] distribution'.; form, lit. 'do [a] distribution'.; form, lit. 'do [a] distribution'.
+12	10	after	särki	
+12	11	behind	särki	
+12	30	down, below	posaṃ; posac	
+12	40	before	anapär	
+12	50	inside, in	ane	
+12	60	outside	pärne	
+12	70	under	āɲe; posäṃ; posac	
+12	80	up, above	koc	B forms respectively: 'up, above'; 'from, above'. A form: 'up above'.
+12	110	place	wṣeɲɲe; śmoɲɲe	
+12	120	put	tā-	
+12	130	sit	ṣäm-; laṃ-	Suppletive verb.; Suppletive verb.
+12	150	stand	käly-; stäm-	Suppletive verb.; Suppletive verb.
+12	170	remains, left overs	lyipär	
+12	210	collect, gather	krop-	
+12	213	pile up	krop-	
+12	230	separate	wätk-; putk-	
+12	232	divide	putk-	
+12	240	open	ru-	
+12	250	shut, close	prutk-	
+12	260	cover	ep-; räk-; wāl-	
+12	270	hide, conceal	tpuk-	
+12	310	high	tpär	
+12	350	end	āk	
+12	360	side	poṣi	second form, dual 'sides (of the body)'.
+12	410	right (side)	śālyi	Lit. '+ or - pertaining to eating' because of the Hindu custom of eating only with the right hand.
+12	420	left (side)	pācyās	
+12	430	near (adv)	kātse	
+12	440	far (adv)	lok	
+12	450	east	koṃ-pärkānt	Lit. 'sun-rising'.
+12	460	west	koṃ-wmānt	Lit. 'sun-setting'.
+12	470	north	ṣuliɲc	A form, lit. 'pertaining to the mountain(side)', presumably with reference to the Tian Shan, to the north of the Tarim Basin.
+12	480	south	mäcriṃ	(?)
+12	530	grow	śamantär; tsäm-	3rd person pl. present.; 3rd person pl. present.
+12	540	measure	me-	
+12	550	large, big	tsopats; śāwe	Form A, respectively: 'sg., plural'.; Form A, respectively: 'sg., plural'.
+12	560	small, little	lykäly	
+12	570	long	pärkär; aryu	Second B form: 'long (of time)'.; Second B form: 'long (of time)'.
+12	590	short	tsru	
+12	610	wide, broad	wärts	
+12	630	thick (in dimension)	ātsäts	
+12	670	deep	kupār	
+12	820	circle	sark	
+12	840	line	slyi	
+12	930	change	lutk-	
+13	10	one	sas; säṃ	Second and third forms are fem.; Second and third forms are fem.
+13	20	two	wu; we	Forms A, respectively: masc., fem.; Forms A, respectively: masc., fem.
+13	30	three	tre; tri	First forms BA are masc.; second forms are fem.; First forms BA are masc.; second forms are fem.
+13	40	four	śtwar	second form is fem.; A is both masc.and fem.
+13	50	five	paɲ	
+13	60	six	ṣäk	
+13	70	seven	ṣpat	
+13	80	eight	okät	
+13	90	nine	ɲu	
+13	100	ten	śäk	
+13	101	eleven	śäk-ṣa-pi	
+13	102	twelve	śäk-we-pi	
+13	103	fifteen	śäk-päɲ-pi	
+13	104	twenty	wiki	
+13	105	hundred	känt	
+13	106	thousand	wälts	
+13	140	every, all	pont-	GSL B solme; A solu, means 'whole'.
+13	150	much, many	māk	
+13	160	more	ṣokyo; lyutār	
+13	170	little (quantity), few	tsru	
+13	181	some	some	Both forms are plural of 'one' 13.010.
+13	190	multitude, crowd	krop	
+13	210	full	ypic	
+13	220	empty	ekär	
+13	230	part, piece	pāk	
+13	330	alone, only	sasak; snāki	All are derived from 'one' 13.010. Form A, respectively: masc., fem.; All are derived from 'one' 13.010. Form A, respectively: masc., fem.
+13	340	first	maltowinu	
+13	360	second	wät	
+13	420	third	trit	
+13	440	three times	tri-lkwär	
+14	110	time	praṣt	
+14	130	new	ɲu	
+14	150	old	mokone	Refers to 'old age'; cf. 02.461.
+14	160	early	neṣ	
+14	170	late	särkiɲco	Respectively: adj.+ adv.; adverb.
+14	180	now	tāpärk	
+14	190	immediately	śkā; ātukek	(?)
+14	210	swift, fast, quick	ymāräk	
+14	240	retard, delay	tänk-	
+14	250	begin, beginning	on-	
+14	252	last, endure	käly-	Lit. 'stand' 12.150.
+14	260	end (temporal)	āk	
+14	270	finish	ār-	(?)
+14	280	cease, stop	ār-	
+14	290	ready	ārwar	
+14	310	always	skam	
+14	332	long-time (for a)	aryu	
+14	340	never	mā ontaṃ	
+14	350	again	nuṃ	
+14	410	day	koṃ	Also means 'sun' 01.520.
+14	420	night	wṣe; oṣeɲi	Second forms mean 'by night, at night'.; Second forms mean 'by night, at night'.
+14	430	dawn	koṃ-pärkānt	
+14	440	morning	ksär	'In the morning'.
+14	470	today	ārśo	
+14	610	week	ṣpät-koɲi	Respectively: 'seven-day; seven-days'.
+14	710	month	maɲ	Also means 'moon'. GSL pl. B meɲi 'nom.'; meɲäṃ 'oblique'; A pl. maɲi 'nom.'; maɲäs 'oblique'.
+14	730	year	pùkäl	
+14	740	winter	śärme	form means 'pertaining to winter'.
+14	750	spring	yusār	(?)
+14	760	summer	ṣme	Respectively: 'pertaining to summer; summer'.
+14	770	autumn	yäpsant	(?)
+14	780	season	praṣt	Both forms also mean 'time' 14.110.
+15	210	smell (vb intrans)	wär-	
+15	220	smell (vb trans)	wär-	
+15	310	taste	śuk	
+15	350	sweet	swār	
+15	410	hear	klyos-	Cf. A klyoṣtä-r 'is heard'. See 'ear' 04.220.
+15	420	listen	klyos-	Cf. A klyoṣtä-r 'is heard'. See 'ear' 04.220.
+15	440	sound, noise	waśeṃ	
+15	460	quiet, silence	sākät	Respectively: 'quietly; quiet; be quiet; quiet'.
+15	510	see	läk-	
+15	520	look, look at	läk-	
+15	550	show	läks-	First B form and A form, lit. 'cause to see'.
+15	560	shine	pälk-	
+15	570	bright	lukśanu	
+15	610	color	yok	Also 'body-hair, animal hair' 04.144.
+15	630	dark (in color)	orkäm	
+15	640	white	ārki	
+15	650	black	arkant-	
+15	660	red	rtär; rätri	First B and A forms are masc.; second forms are fem.; First B and A forms are masc.; second forms are fem.
+15	670	blue	tseṃ	
+15	740	hard	tsär	
+15	750	soft	wlep	
+15	760	rough	āśāwe	
+15	780	sharp	pśär	
+15	810	heavy	krāmärts	
+15	830	wet, damp	wip-	'Be wet'.
+15	840	dry	āsar	
+15	850	hot	omäl	
+15	851	warm	omäl	
+15	860	cold	kùraś	
+15	870	clean	āṣtär	
+16	110	soul, spirit	āɲcäm	
+16	180	good fortune, luck	suk	Indic loanwords.
+16	230	joyful, glad, happy	tsārwo	
+16	250	laugh	kary-	
+16	270	love	tunk-iɲɲ-	
+16	300	embrace	yäks-	
+16	310	pain	klop	
+16	320	grief, sorrow, sadness	śurām	
+16	340	regret, be sorry	śur-	
+16	380	tear (noun)	ākär	form is plural.
+16	410	hate	roɲcäm; rse	Examples are nouns.; Examples are nouns.
+16	420	anger	tärm-	A form: 'to anger'.
+16	440	envy, jealousy	eṃts	
+16	450	shame (noun)	kip	
+16	480	proud	āmāṃ	Noun forms, possibly Iranian loanwords.
+16	530	fear, fright	praski	
+16	540	danger	ɲātse; oklop	
+16	620	desire, want	yoke	
+16	630	hope	pärmank	
+16	660	true	kārme	
+16	670	lie, tell lies	smale	Noun forms.
+16	690	forgive	kṣānti	Both forms are nouns; Indic loanwords.
+16	710	good	kāsu	
+16	720	bad	umpar; omäskeṃ	
+16	740	wrong	appärmāt	Indic loanwords.
+16	760	fault	nākäm	
+16	770	mistake, error	triślune	
+16	780	blame	nākäm	
+16	790	praise	päl-	
+17	110	mind	pältsäk	
+17	130	think (= reflect)	pälsk-	GSL B maim-palsko; A mnu-päktsäk means 'reflection, consideration', lit. 'measuring + thinking'. Also GSL B pälskonta; A pälskant 'thoughts'; and palskosa 'by thought'.
+17	140	think (= be of the opinion)	pälsk-	GSL B maim-palsko; A mnu-päktsäk means 'reflection, consideration', lit. 'measuring + thinking'. Also GSL B pälskonta; A pälskant 'thoughts'; and palskosa 'by thought'.
+17	160	understand	kärs-	
+17	170	know	kärs-	GSL B aik-; A knān- 'know, recognize'.
+17	220	foolish, stupid	āknats	
+17	240	learn	ākl-	
+17	242	study	ākl-	
+17	250	teach	ṣärp-	
+17	260	pupil	ākälṣäl	
+17	270	teacher	käṣṣi	Iranian loanwords.
+17	310	remember	opyac käl-	First forms of B and A are Iranian loanwords.
+17	320	forget	märs-	
+17	340	clear, plain	āṣtär	
+17	380	explain	ṣärp-	
+17	420	cause	ṣurm	
+17	430	doubt	saɲce	
+17	450	need, necessity	ɲātse	
+17	470	difficult	māski	
+17	480	try, attempt	ske-	
+17	490	way, manner	wkäṃ	
+17	510	and	śkaṃ; yo	ṣäp conjoins clauses + words; wai conjoins only words.; ṣäp conjoins clauses + words; wai conjoins only words.
+17	520	because	kuc	
+17	530	if	kuprene	
+17	560	no, negative	mā	
+17	610	how?	mänt	
+17	620	how many?	kos	
+17	640	what?	kus	Same as 'who' 17.680.
+17	650	when?	äntāne	
+17	660	where?	äntanne	Second B form: 'from where'.
+17	670	which?	äntsam	
+17	680	who?	kus	
+17	690	why?	kùyal	
+18	110	voice	waśeṃ; wak	
+18	130	shout, cry out	nu-	
+18	210	speak, talk	träṅk-	
+18	220	say	träṅk-	
+18	221	tell story	tränk-	
+18	240	language	käntu	Lit. 'tongue' 04.260.
+18	260	word	rake	
+18	280	name	ɲom	GSL B ɲem-kälywe; A ɲom-klyu 'fame', lit. 'name + report'; cf. 'announce, call' 18.430.
+18	310	ask (question, inquire)	pärk-	
+18	350	ask, request	pärk-	
+18	390	rebuke, scold	nāk-	
+18	410	call (=summon)	ken-	First form is suppletive verb.
+18	430	announce	klāw-	
+18	440	threaten	nu-	
+18	510	write	pik-	
+18	610	book	postak; postäk	Iranian loanwords.; Iranian loanwords.
+18	720	drum	kumpäc	
+19	110	country	ype	
+19	150	city, town	ri	Respectively: 'nom.; oblique'.
+19	160	village	ṣukṣ-	A and B forms are 'oblique'.
+19	210	people (populace)	ārkiśoṣi; śoṣi	
+19	230	tribe, clan	kotär	Indic loanwords.
+19	240	chief, chieftain	nātäk	Mean 'lord'.
+19	320	king, ruler	wäl; lāṃś	Second forms are plural.; Second forms are plural.
+19	330	queen	lānts	
+19	410	master	nātäk	'Master, lord'.
+19	430	servant	māɲɲe	Iranian loanwords.
+19	450	command, order	wätk-	
+19	460	obey	nam	Noun form.
+19	510	friend, companion	naṣu	
+19	520	enemy	yäslu; yäsluɲcas	Second A form is plural.; Second A form is plural.
+19	550	stranger	lokit	
+19	590	hinder, prevent	tänk-	
+19	610	custom	wkäṃ	Also 'way, manner'.
+19	620	strife, quarrel	kùɲaś	
+20	130	war, battle	wac	
+20	140	peace	āɲu	
+20	150	army	ratäk	
+20	170	soldier	waco	
+20	210	weapons, arms	yepe	Singular form. Also means 'knife' 09.230.
+20	220	club	ṣtop	
+20	222	battle-ax	porat	Iranian loanwords.
+20	240	bow	aɲcäl	
+20	250	arrow	pär	Second B form is Iranian loanword. Cf. Av. zaēna- 'weapon'.
+20	270	sword	kāre	Second B form prob. Iranian loanword.
+20	471	guard, sentinel	pās-	
+21	110	law	märkampal	
+21	230	witness	ram	
+21	320	condemn	nāk-	Also 'blame'.
+21	390	prison, jail	protäk	
+21	510	steal	kärk-	
+21	520	thief	lyäk	Lit. 'one who lies (in wait)'; cf. 'lie down' 12.140.
+22	120	God	ɲkät	
+22	150	sacrifice, offering	talke	
+22	160	worship	winās-	
+22	180	priest	ṣāmaṃ	Indic loanwords, 'monk'. B aśiya; A aśi 'nun'.
+22	220	preach	āks-	Lit. 'announce'.
+22	320	hell	ɲare	Indic loanwords.
+22	350	demon (evil spirit)	omäskeṃ; umpar	A forms are adj. and sb., and adj., respectively.; A forms are adj. and sb., and adj., respectively.
+22	420	magic, witchcraft, sorcery	räddhi	Indic loanwords.
+22	450	ghost, phantom	pret; yakäṣ	Indic loanwords.; Indic loanwords.

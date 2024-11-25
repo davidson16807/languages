@@ -1,21 +1,29 @@
-				
-t-k	sharp, unpleasant			
-b	round, pleasant			
-front vowels	near, small			
-	far, large			
-laterals	relating to the tongue			
-	otomatopoeias			
-	correlatives			
-	algebras, rings, modules			
-	orders			
-				
-	k	b		
-i	snowflake, glass shard	sand		
-a	blade	gravel		
-o	war machine	boulder, planet		
-				
-	n	d		
-i	subtraction	addition		
-a	division	multiple		
-o	root	exponent		
-				example usage: emission is constant-ad by fourth-od of temperature
+					
+t-k	sharp, unpleasant				
+b	round, pleasant				
+front vowels	near, small				
+back vowels	far, large				
+laterals	relating to the tongue				
+					
+	example:				
+	k	b			
+i	snowflake, glass shard	sand			
+a	blade	gravel			
+o	war machine	boulder, planet			
+					
+	other techniques:				
+	otomatopoeias				
+	correlatives				
+	orders				
+	algebras, rings, modules				
+					
+	algebra:				
+	n	d	t	th	
+i	subtraction	addition	option	option instance	
+a	division	multiple	tuple	tuple instance	
+o	root	exponent	function	function instance	
+					
+					
+					
+					
+					example usage: emission is constant-ad by fourth-od of temperature
