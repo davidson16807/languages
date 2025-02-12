@@ -15,8 +15,8 @@
 13	1-280	cave	noun	*ᴹrotto	
 14	1-310	water	noun	nén	
 15	1-320	sea	noun	ëar, ᴬairë	
-16	1-322	calm	adjective	ᴱquië	
-17	1-323	rough	adjective	ᴺhorna	#Luinyelle
+16	1-322	calm (of sea)	adjective	ᴱquië	
+17	1-323	rough (of sea)	adjective	ᴺhorna	#Luinyelle
 18	1-324	foam	noun	vingë	
 19	1-329	ocean	noun	váya	
 20	1-330	lake	noun	nendë	
@@ -64,8 +64,8 @@
 62	1-830	smoke	noun	ᴺquonda	
 63	1-840	ashes	noun	ᴺlittë	# Helge Fauskanger
 64	1-841	embers	noun	ᴹyúla	
-65	1-851	burn	verb	*ᴱurta-	
-66	1-852	burn	verb	*ᴱurta-	
+65	1-851	burn	verb, transitive	*ᴱurta-	
+66	1-852	burn	verb, intransitive	*ᴱurta-	
 67	1-860	light|kindle|ignite	verb	ᴹnarta-	
 68	1-861	extinguish	verb	ᴺluhtya-	# Helge Fauskanger
 69	1-870	match	noun	*ᴱtusturin	
@@ -83,7 +83,7 @@
 81	10-230	fall	verb	lanta-	
 82	10-240	drip	verb	*ᴱlipta-	
 83	10-250	throw	verb	ᴺetehat-	# Helge Fauskanger
-84	10-252	catch ball	verb	ᴺat-	# Fiona Jallings
+84	10-252	catch (ball)	verb	ᴺat-	# Fiona Jallings
 85	10-260	shake	verb	*ᴱquas-	
 86	10-320	flow	verb	sirya-	
 87	10-330	sink	verb	*ᴹsuv-	
@@ -189,12 +189,12 @@
 187	11-820	sell	verb	ᴺaumanca-	# Sami Paldanius
 188	11-830	trade|barter	verb	ᴹmanca-	
 189	11-840	merchant	noun	*ᴱmahar	
-190	11-850	market place	noun	ᴺmancanómë	# Helge Fauskanger
+190	11-850	market (place)	noun	ᴺmancanómë	# Helge Fauskanger
 191	11-860	store|shop	noun		
 192	11-870	price	noun	ᴺmirma	# Sami Paldanius
-193	11-880	dear|costly|expensive	adjective		
+193	11-880	dear (costly, expensive)	adjective		
 194	11-890	cheap	noun	ᴺalamirwa	# NQ-Wiki
-195	11-910	share|distribute	verb	*ᴱvalda	
+195	11-910	share (distribute)	verb	*ᴱvalda	
 196	11-920	weigh	verb	ᴱtala-	
 197	12-10	after	adposition	epë, apa	
 198	12-11	behind	adposition	ca(ta)	
@@ -226,10 +226,10 @@
 224	12-353	edge	noun	*hríma	
 225	12-360	side	noun	ᴺpermë	# Röandil
 226	12-370	middle|center	noun	endë	
-227	12-40	before	adposition	opo	
+227	12-40	before (a thing)	adposition	opo	
 228	12-41	front	noun	ᴺpentë	
-229	12-410	right	adjective	formen	
-230	12-420	left	adjective	hyarmen	
+229	12-410	right (side)	adjective	formen	
+230	12-420	left (side)	adjective	hyarmen	
 231	12-430	near	adjective	*ᴱarë	
 232	12-440	far	adjective	anda	
 233	12-450	east	adjective	(h)róna	
@@ -242,9 +242,9 @@
 240	12-541	span|fathom	noun	ᴺrangwië	# Röandil
 241	12-550	large|big	adjective	túra	
 242	12-560	small|little	adjective	aiwë	
-243	12-570	long	adjective	anda	
-244	12-580	tall	adjective	tára	
-245	12-590	short	adjective	senna	
+243	12-570	long (spatially)	adjective	anda	
+244	12-580	tall (spatially)	adjective	tára	
+245	12-590	short (spatially)	adjective	senna	
 246	12-60	outside	adjective	ᴹettë	
 247	12-610	wide|broad	adjective	landa	
 248	12-620	narrow	adjective	náha	
@@ -260,7 +260,7 @@
 258	12-760	corner	verb	neltë	
 259	12-770	cross	noun	*ᴱtarwë	
 260	12-780	square	noun	ᴺcantil	
-261	12-80	up|above	adposition	or	
+261	12-80	up above	adposition	or	
 262	12-810	round	adjective	ᴺpirindëa, ᴹcorna	
 263	12-820	circle	noun	corto*	
 264	12-830	sphere|ball	noun	ᴹcoron, ᴹpamba	
@@ -277,7 +277,7 @@
 275	13-104	twenty	numeral	yucainen	
 276	13-105	hundred	numeral	tuxa	
 277	13-106	thousand	numeral	húmë	
-278	13-107	count	verb	not-	
+278	13-107	count	noun	not-	
 279	13-140	every|all	adjective	*il	
 280	13-150	much|many	adjective	ᴺlina	
 281	13-160	more	adjective	amba	
@@ -320,7 +320,7 @@
 318	14-240	retard|delay	verb	ᴺhapya-	# Paul Strack
 319	14-250	begin|beginning	verb	ᴺyesta-, ᴺyestië	# Ryszard Derdzinski
 320	14-252	last|endure	verb	*tav-	
-321	14-260	end	noun	metta	
+321	14-260	end (temporal)	noun	metta	
 322	14-270	finish	verb	*tel-	
 323	14-280	cease|stop	verb	hauta-	
 324	14-290	ready	adjective	ᴺferya	# Vyacheslav Stepanov
@@ -375,15 +375,15 @@
 373	15-420	listen	verb	lasta-	
 374	15-440	sound|noise	noun		
 375	15-450	loud	adjective	hlón(a)	
-376	15-460	quiet|silence	adjective	quildë	
+376	15-460	quiet|silence	noun	quildë	
 377	15-510	see	verb	cen-	
 378	15-520	look|look at	verb	cen-	
 379	15-550	show	verb	*ᴱapanta-	
 380	15-560	shine	verb	*cal-	
 381	15-570	bright	adjective	nalda	
 382	15-610	color	noun	quilë	
-383	15-620	light	adjective	vilina	
-384	15-630	dark	adjective	mordo	
+383	15-620	light (in color)	adjective	vilina	
+384	15-630	dark (in color)	adjective	mordo	
 385	15-640	white	adjective	fána	
 386	15-650	black	adjective	morë	
 387	15-660	red	adjective	carnë	
@@ -400,7 +400,7 @@
 398	15-780	sharp	adjective	maica	
 399	15-790	blunt|dull	adjective	*ᴱalaica	# Paul Strack
 400	15-810	heavy	adjective	*lungo	
-401	15-820	light-weight	adjective	cólima	
+401	15-820	light (in weight)	adjective	cólima	
 402	15-830	wet|damp	adjective	ᴹlinquë, ᴹmixa, ᴹnítë	
 403	15-840	dry	adjective	ᴹparca	
 404	15-850	hot	adjective	úra	
@@ -441,7 +441,7 @@
 439	16-622	choose	verb	ᴺcil-	# Common
 440	16-630	hope	noun	estel	
 441	16-650	faithful	adjective	voronda	
-442	16-660	true	adjective	nanwa	
+442	16-660	TRUE	adjective	nanwa	
 443	16-670	lie|tell lies	verb	ᴺcupta-	
 444	16-680	deceit	noun	ᴺcuptalë	
 445	16-690	forgive	verb	*apsen-	
@@ -458,8 +458,8 @@
 456	16-830	greedy	adjective	ᴹmilca	
 457	16-840	clever	adjective	finca (in petty ways), finya	
 458	17-110	mind	noun	sanar	
-459	17-130	think|reflect	verb	*sana-	
-460	17-140	think	verb	*sana-	
+459	17-130	think (reflect)	verb	*sana-	
+460	17-140	think (be of the opinion)	verb	*sana-	
 461	17-150	believe	verb	sav-	
 462	17-160	understand	verb	ᴹhanya-	
 463	17-170	know	verb	ista-	
@@ -525,7 +525,7 @@
 523	18-240	language	noun	lambë	
 524	18-260	word	noun	quetta	
 525	18-280	name	noun	essë	
-526	18-310	ask question|inquire	verb		
+526	18-310	ask (question, inquire)	verb		
 527	18-320	answer	verb	ᴺhanquet-	
 528	18-330	admit|confess	verb	ᴺetequet-	# Helge Fauskanger
 529	18-340	deny	verb	ala-	
@@ -584,7 +584,7 @@
 582	19-650	meet	verb	*omen-	
 583	19-720	prostitute	noun		
 584	2-100	person|human being	noun	quén, námo	
-585	2-210	man	noun	nér (adult male), quendu (elf male), firë (mortal), Atan (species)	
+585	2-210	man (not woman)	noun	nér (adult male), quendu (elf male), firë (mortal), Atan (species)	
 586	2-220	woman	noun	nís (adult female), quendi (elf female)	
 587	2-230	male	noun	ᴹhanwa	
 588	2-240	female	noun	ᴹinya	
@@ -632,14 +632,14 @@
 630	2-550	cousin	noun	rendo (male), ressë (female)	
 631	2-560	ancestors	noun	*nostar	
 632	2-570	descendants	noun	*ᴱhilmë	
-633	2-610	father-in-law	noun		
-634	2-611	father-in-law	noun		
-635	2-620	mother-in-law	noun		
-636	2-621	mother-in-law	noun		
-637	2-630	son-in-law	noun		
-638	2-631	son-in-law	noun		
-639	2-640	daughter-in-law	noun		
-640	2-641	daughter-in-law	noun		
+633	2-610	father-in-law (of a man)	noun		
+634	2-611	father-in-law (of a woman)	noun		
+635	2-620	mother-in-law (of a man)	noun		
+636	2-621	mother-in-law (of a woman)	noun		
+637	2-630	son-in-law (of a man)	noun		
+638	2-631	son-in-law (of a woman)	noun		
+639	2-640	daughter-in-law (of a man)	noun		
+640	2-641	daughter-in-law (of a woman)	noun		
 641	2-710	stepfather	noun		
 642	2-720	stepmother	noun		
 643	2-730	stepson	noun		
@@ -694,7 +694,7 @@
 692	20-560	bait	noun		
 693	20-610	hunt	verb	fara-	
 694	20-620	shoot	verb	ᴺquihta-	# Sami Paldanius
-695	20-630	miss target	verb	loita-	
+695	20-630	miss (target)	verb	loita-	
 696	20-640	trap	noun	remma	
 697	20-650	trap	verb	*rem-	
 698	21-110	law	noun	namna	
@@ -738,7 +738,7 @@
 736	22-260	fast	verb	ᴺavamat-	
 737	22-310	heaven	noun	telumë	
 738	22-320	hell	noun	*ᴱmando	
-739	22-350	demon|evil spirit	noun	ᴱorc, rauca, rauco	
+739	22-350	demon (evil spirit)	noun	ᴱorc, rauca, rauco	
 740	22-370	idol	noun	*ᴱcordon	
 741	22-420	magic|witchcraft|sorcery	noun	*ᴱluhtu	
 742	22-430	sorcerer|witch	noun	ᴺnúlemo	
@@ -797,7 +797,7 @@
 795	3-622	opossum	noun	ᴺpoco(lle)nyarro	# Dírheron
 796	3-630	mouse|rat	noun	ᴹnyarro	
 797	3-650	fish	noun	*lingwë	
-798	3-652	fin	noun	ᴺlunwa	# Arael
+798	3-652	fin (dorsal)	noun	ᴺlunwa	# Arael
 799	3-653	fishscale	noun		
 800	3-654	gill	noun		
 801	3-655	shell	noun	ᴹhyalma	
@@ -844,7 +844,7 @@
 842	4-110	body	noun	hröa	
 843	4-120	skin|hide	noun	ᴹhelma	
 844	4-130	flesh	noun	hrávë	
-845	4-140	hair	noun	findë	
+845	4-140	hair (on head)	noun	findë	
 846	4-142	beard	noun	*fanga	
 847	4-144	body hair	noun		
 848	4-145	pubic hair	noun		
@@ -912,7 +912,7 @@
 910	4-392	wing	noun	ráma	
 911	4-393	feather	noun	quessë	
 912	4-400	chest	noun	*ᴱambos	
-913	4-410	breast	noun	*ᴱtittë	
+913	4-410	breast (of a woman)	noun	*ᴱtittë	
 914	4-412	nipple|teat	noun	*ᴱtyetsë	
 915	4-420	udder	noun		
 916	4-430	navel	noun		
@@ -950,8 +950,8 @@
 948	4-670	have sexual intercourse	verb	*ᴱpuhta-	# Fiona Jallings
 949	4-680	shiver	verb		
 950	4-690	bathe	verb	*ᴱsov-	
-951	4-710	beget	verb	*ᴱnosta-	
-952	4-720	be born	verb	ᴱnó-	
+951	4-710	beget (as a father)	verb	*ᴱnosta-	
+952	4-720	born	verb	ᴱnó-	
 953	4-730	pregnant	adjective	ᴺlapselunga	# ABNW
 954	4-732	conceive	verb	ᴺnauta-	# ABNW
 955	4-740	live|living|life	verb	ᴹoi-	
@@ -959,7 +959,7 @@
 957	4-751	drowned	adjective	ᴱquorin	
 958	4-760	kill	verb	ᴺqualta-	
 959	4-770	corpse	noun	loico	
-960	4-780	bury	verb		
+960	4-780	bury (the dead)	verb		
 961	4-790	grave|tomb	noun	*noirë	
 962	4-810	strong|mighty|powerful	adjective	ᴹtulca	
 963	4-820	weak	adjective	ᴹmilya	
@@ -967,7 +967,7 @@
 965	4-840	sick|sickness	adjective|noun	*ᴱquámëa	
 966	4-841	fever	noun		
 967	4-842	goiter	noun		
-968	4-843	cold	noun	*ᴱnungwë	
+968	4-843	cold (illness)	noun	*ᴱnungwë	
 969	4-850	wound|sore	noun	ᴹharna-	
 970	4-852	bruise	noun		
 971	4-853	swelling	noun		
@@ -1009,7 +1009,7 @@
 1007	5-220	boil	verb	*ᴱvel-	
 1008	5-230	roast|fry	verb		
 1009	5-240	bake	verb	ᴹmasta-	
-1010	5-250	oven	noun	urna	
+1010	5-250	oven	verb	urna	
 1011	5-260	pot|cooking vessel	noun	ᴹtambë	
 1012	5-270	kettle	noun		
 1013	5-280	pan	noun	ᴺsitwa	# Luinyelle
@@ -1070,7 +1070,7 @@
 1068	5-940	fermented drink	noun		
 1069	5-970	egg	noun	*ᴱohtë	
 1070	5-971	egg yolk	noun	ᴺmaldë	# Raccoon
-1071	6-110	put on clothes	noun	ᴺhlappo	# Luinyelle
+1071	6-110	put on (clothes)	noun	ᴺhlappo	# Luinyelle
 1072	6-120	clothing|clothes	noun	ᴺhampë	# Ales Bican
 1073	6-130	tailor	noun		
 1074	6-210	cloth	noun	ᴹlannë	
@@ -1112,7 +1112,7 @@
 1110	6-630	pin	noun	ᴹtancal(a)	
 1111	6-710	ornament|adornment	noun	netil	
 1112	6-720	jewel	noun	mírë	
-1113	6-730	ring	noun	*corma	
+1113	6-730	ring (for finger)	noun	*corma	
 1114	6-740	bracelet	noun		
 1115	6-750	necklace	noun	*ᴱfiringa	
 1116	6-760	bead	noun		
@@ -1172,7 +1172,7 @@
 1170	7-630	mortar	noun		
 1171	7-640	adobe	noun		
 1172	8-110	farmer	noun	ᴺcemendur	# Helge Fauskanger
-1173	8-120	field	noun	ᴹpalar 	
+1173	8-120	field (for farming)	noun	ᴹpalar 	
 1174	8-130	garden	noun	*ᴱtarwa	
 1175	8-150	cultivate|till	verb		
 1176	8-160	fence	noun	pelo	
@@ -1285,7 +1285,7 @@
 1283	9-600	smith|blacksmith	noun	sintamo	
 1284	9-610	forge	noun	*ᴱtamin	
 1285	9-620	anvil	noun	*ᴱonin	
-1286	9-630	cast metals	verb	ᴺticuta-	# Orondil
+1286	9-630	cast (metals)	verb	ᴺticuta-	# Orondil
 1287	9-640	gold	noun	malta	
 1288	9-650	silver	noun	telpë	
 1289	9-660	copper|bronze	noun	*ᴱtambë	
@@ -1293,7 +1293,7 @@
 1291	9-680	lead	noun	*ᴱcanu	
 1292	9-690	tin|tinplate	noun	*ᴱlatúcen	
 1293	9-710	potter	noun	ᴹcemnaro	
-1294	9-720	mold	verb		
+1294	9-720	mold (clay)	verb		
 1295	9-730	clay	noun		
 1296	9-740	glass	noun	calca	
 1297	9-750	weave|plait	verb		
