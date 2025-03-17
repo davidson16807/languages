@@ -1,0 +1,137 @@
+*	*	*	*	case	preposition	postposition				
+#	subjectivity	motion	role							
+	subject			nominative			#	∅		
+	addressee			nominative			#	∅		
+	direct-object			accusative			#	∅		
+	indirect-object			accusative			#	∅		
+	adnominal		possessor	genitive			#	of		
+	adverbial	departed	agent				#	by		
+	adverbial	associated	agent				#	by		
+	adverbial	acquired	agent				#	by		
+	adverbial	approached	agent				#	by		
+	adverbial	surpassed	agent				#	by		
+	adverbial	leveraged	agent				#	by		
+	adverbial	departed	force				#	by		
+	adverbial	associated	force				#	by		
+	adverbial	acquired	force				#	by		
+	adverbial	approached	force				#	by		
+	adverbial	surpassed	force				#	by		
+	adverbial	leveraged	force				#	by		
+	adverbial	departed	possessor	genitive			#	from [the possession of]		
+	adverbial	associated	possessor	genitive			#	of		
+	adverbial	acquired	possessor	genitive			#	to [the possession of]		
+	adverbial	approached	possessor	genitive			#	towards [the possession of]		
+	adverbial	surpassed	possessor	genitive			#	beyond [the possession of]		
+	adverbial	leveraged	possessor	genitive			#	[due to the possession of]		
+	adverbial	departed	location	genitive	min		#	away from		
+	adverbial	associated	location	genitive			#	by		
+	adverbial	acquired	location	genitive	ha		#	to		
+	adverbial	approached	location	genitive	(t)sin		#	towards		
+	adverbial	surpassed	location	genitive			#	past		
+	adverbial	leveraged	location	genitive			#	along		
+	adverbial	departed	extent	genitive			#	starting from		
+	adverbial	associated	extent	genitive	ʕal(aj)		#	beside		
+	adverbial	acquired	extent	genitive			#	up to		
+	adverbial	approached	extent	genitive			#	towards [the edge of]		
+	adverbial	surpassed	extent	genitive			#	past [the edge of]		
+	adverbial	leveraged	extent	genitive			#	along [the edges of]		
+	adverbial	departed	vicinity	genitive			#	from around		
+	adverbial	associated	vicinity	genitive	wist		#	by		
+	adverbial	acquired	vicinity	genitive			#	to around		
+	adverbial	approached	vicinity	genitive			#	towards [the vicinity of]		
+	adverbial	surpassed	vicinity	genitive			#	past [the vicinity of]		
+	adverbial	leveraged	vicinity	genitive			#	via		
+	adverbial	departed	interior	genitive			#	out of		
+	adverbial	associated	interior	genitive	"""ʔin (east)"	" bal (west)"""		#	in	
+	adverbial	acquired	interior	genitive			#	into		
+	adverbial	approached	interior	genitive			#	in towards		
+	adverbial	surpassed	interior	genitive			#	past [the inside of]		
+	adverbial	leveraged	interior	genitive			#	through		
+	adverbial	departed	medium	genitive			#	out of [the mass of]		
+	adverbial	associated	medium	genitive			#	in [the mass of]		
+	adverbial	acquired	medium	genitive			#	into [the mass of]		
+	adverbial	approached	medium	genitive			#	in towards [the mass of]		
+	adverbial	surpassed	medium	genitive			#	past [the mass of]		
+	adverbial	leveraged	medium	genitive			#	through [the mass of]		
+	adverbial	departed	side	genitive			#	from against		
+	adverbial	associated	side	genitive			#	against		
+	adverbial	acquired	side	genitive			#	up against		
+	adverbial	approached	side	genitive			#	towards [the side of]		
+	adverbial	surpassed	side	genitive			#	past [the side of]		
+	adverbial	leveraged	side	genitive			#	along [the side of]		
+	adverbial	departed	surface	genitive			#	off of		
+	adverbial	associated	surface	genitive			#	on		
+	adverbial	acquired	surface	genitive			#	onto		
+	adverbial	approached	surface	genitive			#	towards [the surface of]		
+	adverbial	surpassed	surface	genitive			#	past [the surface of]		
+	adverbial	leveraged	surface	genitive			#	over		
+	adverbial	departed	subsurface	genitive			#	out from under		
+	adverbial	associated	subsurface	genitive			#	under		
+	adverbial	acquired	subsurface	genitive			#	in under		
+	adverbial	approached	subsurface	genitive			#	heading under		
+	adverbial	surpassed	subsurface	genitive			#	past under		
+	adverbial	leveraged	subsurface	genitive			#	through under		
+	adverbial	departed	presence	genitive			#	[due to the presence of]		
+	adverbial	associated	presence	genitive			#	[in the presence of]		
+	adverbial	acquired	presence	genitive			#	[to draw in]		
+	adverbial	approached	presence	genitive			#	towards [the presence of]		
+	adverbial	surpassed	presence	genitive			#	beyond [the presence of]		
+	adverbial	leveraged	presence	genitive			#	by using [the presence of]		
+	adverbial	departed	lack	genitive			#	[for want of]		
+	adverbial	associated	lack	genitive	bal		#	[in the absence of]		
+	adverbial	acquired	lack	genitive			#	[to avoid]		
+	adverbial	approached	lack	genitive			#	towards [a lack of]		
+	adverbial	surpassed	lack	genitive			#	beyond [a lack of]		
+	adverbial	leveraged	lack	genitive			#	[by taking advantage of the lack of]		
+	adverbial	departed	aid	genitive			#	[thanks to the aid of]		
+	adverbial	associated	aid	genitive			#	[with the aid of]		
+	adverbial	acquired	aid	genitive			#	[to aid]		
+	adverbial	approached	aid	genitive			#	towards [the aid of]		
+	adverbial	surpassed	aid	genitive			#	beyond [the aid of]		
+	adverbial	leveraged	aid	genitive			#	by using [the aid of]		
+	adverbial	departed	interest	genitive			#	[out of the interest of]		
+	adverbial	associated	interest	genitive	ha (west		#	[for the sake of]		
+	adverbial	acquired	interest	genitive			#	to [the interest of]		
+	adverbial	approached	interest	genitive			#	towards [the interest of]		
+	adverbial	surpassed	interest	genitive			#	beyond [the interest of]		
+	adverbial	leveraged	interest	genitive			#	[by appealing to the interest of]		
+	adverbial	departed	purpose	genitive			#	[following from the purpose of]		
+	adverbial	associated	purpose	genitive			#	[assuming the purpose of]		
+	adverbial	acquired	purpose	genitive			#	[for the purpose of]		
+	adverbial	approached	purpose	genitive			#	towards [the purpose of]		
+	adverbial	surpassed	purpose	genitive			#	beyond [the purpose of]		
+	adverbial	leveraged	purpose	genitive			#	[by leveraging the purpose of]		
+	adverbial	departed	time	genitive			#	after		
+	adverbial	associated	time	genitive			#	during		
+	adverbial	acquired	time	genitive	ʕad(aj)		#	until		
+	adverbial	approached	time	genitive			#	nearing		
+	adverbial	surpassed	time	genitive			#	past		
+	adverbial	leveraged	time	genitive			#	by [making use of]		
+	adverbial	departed	state-of-being	genitive			#	from having been		
+	adverbial	associated	state-of-being	genitive			#	as a		
+	adverbial	acquired	state-of-being	genitive			#	in order to be		
+	adverbial	approached	state-of-being	genitive			#	towards being		
+	adverbial	surpassed	state-of-being	genitive			#	beyond being		
+	adverbial	leveraged	state-of-being	genitive			#	due to being		
+	adverbial	departed	topic	genitive			#	[off the topic of]		
+	adverbial	associated	topic	genitive			#	[regarding]		
+	adverbial	acquired	topic	genitive			#	[pursuant to]		
+	adverbial	approached	topic	genitive			#	towards [the topic of]		
+	adverbial	surpassed	topic	genitive			#	beyond [the topic of]		
+	adverbial	leveraged	topic	genitive			#	by using [the topic of]		
+	adverbial	associated	resemblance	genitive	ka		#	like		
+	adverbial	departed	company	genitive			#	leaving [the company of]		
+	adverbial	associated	company	genitive			#	with		
+	adverbial	acquired	company	genitive			#	joining [the company of]		
+										
+#	subjectivity	motion	role							
+#	subject	departed	[see above]							
+#	direct-object	associated								
+#	indirect-object	acquired								
+#	adverbial	approached								
+#		surpassed								
+#		leveraged								
+#										
+#										
+#										
+#										

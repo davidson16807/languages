@@ -1,4 +1,13 @@
-*	singular 	plural 	dual
-nominative 	*-u 	*-ū 	*-ā
-genitive 	*-i 	*-ī 	*-āy
-accusative 	*-a 	*-ī 	*-āy 
+	*	*	singular 	dual	plural 
+unbound	masculine	nominative 	-um	-āna	-ūna
+unbound	masculine	genitive 	-im	-ayna	-īna
+unbound	masculine	accusative 	-am	-ayna	-īna
+unbound	feminine	nominative 	-atum	-atāna	-ātum
+unbound	feminine	genitive 	-atim	-atayna	-ātim
+unbound	feminine	accusative 	-atam	-atayna	-ātim
+bound	masculine	nominative 	-u	-ā	-ū
+bound	masculine	genitive 	-i	-ay	-ī
+bound	masculine	accusative 	-a	-ay	-ī
+bound	feminine	nominative 	-atu	-atā	-ātu
+bound	feminine	genitive 	-ati	-atay	-āti
+bound	feminine	accusative 	-ata	-atay	-āti
