@@ -102,22 +102,23 @@ imperative mood
 
 the egg and the main-bird×2
 
-In a nest there is an egg×1:
+In a nest×1×interior there is an egg×1:
 
-🪺
+🪺 ← nest×1
 
-how many eggs×n are in the nest?
+how many eggs×n are in the nest×1×interior?
 
-🥚🥚🥚
+🥚🥚🥚 ← eggs×n
 
 three eggs×3 are in the nest×1×interior
 what is in an egg×1×interior?
 
 🐣
 
-a bird is in an egg×1×interior
-what is a bird?
+a bird×1 is in an egg×1×interior
+what is a bird×1?
 
+birds×n:
 🦅 large-bird
 🪿 other-bird
 🐦 small-bird
