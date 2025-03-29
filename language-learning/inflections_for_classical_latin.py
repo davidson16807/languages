@@ -79,8 +79,8 @@ foreign_language = Language(
         debug=True,
     ),
     RuleSyntax(
+        parse_any.tokens('adposition det n adj np clause'),
         parse_any.terms('subject adverbial indirect-object direct-object verb'), 
-        parse_any.tokens('adposition det n adj np clause')
     ),
     {'language-type':'foreign'},
     list_tools,
@@ -464,25 +464,8 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/latin/finite-conjugation.html')
-write('flashcards/latin/finite-conjugation.html', 
-    deck_generation.generate(
-        [demonstration.generator(
-            tree_lookup = UniformDictLookup(
-                'clause [test [np n] [vp cloze v verb]] [dummy np [adposition] n]',)
-        ) for demonstration in demonstrations],
-        defaults.override(
-              conjugation_subject_traversal 
-            * conjugation_traversal
-        ),
-        tag_templates ={
-            'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
-        },
-    ))
-
-print('flashcards/latin/nonfinite-conjugation.html')
-write('flashcards/latin/nonfinite-conjugation.html', 
+print('flashcards/romance/latin/nonfinite-conjugation.html')
+write('flashcards/romance/latin/nonfinite-conjugation.html', 
     deck_generation.generate(
         [
             emoji_demonstration.generator(),
@@ -507,8 +490,25 @@ write('flashcards/latin/nonfinite-conjugation.html',
         },
     ))
 
-print('flashcards/latin/participle-declension.html')
-write('flashcards/latin/participle-declension.html', 
+print('flashcards/romance/latin/finite-conjugation.html')
+write('flashcards/romance/latin/finite-conjugation.html', 
+    deck_generation.generate(
+        [demonstration.generator(
+            tree_lookup = UniformDictLookup(
+                'clause [test [np n] [vp cloze v verb]] [dummy np [adposition] n]',)
+        ) for demonstration in demonstrations],
+        defaults.override(
+              conjugation_subject_traversal 
+            * conjugation_traversal
+        ),
+        tag_templates ={
+            'test'    : parse.termaxis_to_term('personal associated agent subject'),
+            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
+        },
+    ))
+
+print('flashcards/romance/latin/participle-declension.html')
+write('flashcards/romance/latin/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
@@ -530,8 +530,8 @@ write('flashcards/latin/participle-declension.html',
         },
     ))
 
-print('flashcards/latin/adpositions.html')
-write('flashcards/latin/adpositions.html', 
+print('flashcards/romance/latin/adpositions.html')
+write('flashcards/romance/latin/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -551,8 +551,8 @@ write('flashcards/latin/adpositions.html',
         },
     ))
 
-print('flashcards/latin/common-noun-declension.html')
-write('flashcards/latin/common-noun-declension.html',
+print('flashcards/romance/latin/common-noun-declension.html')
+write('flashcards/romance/latin/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -571,8 +571,8 @@ write('flashcards/latin/common-noun-declension.html',
     ))
 
 
-print('flashcards/latin/pronoun-declension.html')
-write('flashcards/latin/pronoun-declension.html', 
+print('flashcards/romance/latin/pronoun-declension.html')
+write('flashcards/romance/latin/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -589,8 +589,8 @@ write('flashcards/latin/pronoun-declension.html',
         },
     ))
 
-print('flashcards/latin/adjective-agreement.html')
-write('flashcards/latin/adjective-agreement.html', 
+print('flashcards/romance/latin/adjective-agreement.html')
+write('flashcards/romance/latin/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
@@ -610,8 +610,8 @@ write('flashcards/latin/adjective-agreement.html',
         },
     ))
 
-print('flashcards/latin/pronoun-possessives.html')
-write('flashcards/latin/pronoun-possessives.html', 
+print('flashcards/romance/latin/pronoun-possessives.html')
+write('flashcards/romance/latin/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

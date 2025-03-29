@@ -1,5 +1,13 @@
-python inflections_for_classical_latin.py 
-python inflections_for_gaulish.py 
-# python inflections_for_proto_indo_european.py 
-# python inflections_for_old_english.py 
-# python inflections_for_ancient_greek.py 
+python3 inflections_for_ancient_greek.py 
+python3 inflections_for_classical_latin.py 
+python3 inflections_for_french.py 
+python3 inflections_for_gaulish.py 
+python3 inflections_for_italian.py 
+python3 inflections_for_middle_english.py 
+python3 inflections_for_old_english.py 
+python3 inflections_for_portugese.py 
+python3 inflections_for_proto_indo_european.py 
+python3 inflections_for_romanian.py 
+python3 inflections_for_russian.py 
+python3 inflections_for_spanish.py 
+python3 inflections_for_swedish.py 

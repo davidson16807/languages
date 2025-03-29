@@ -91,8 +91,8 @@ foreign_language = Language(
             ])),
     ),
     RuleSyntax(
+        parse_any.tokens('adposition det adj np n clause'),
         parse_any.terms('subject verb direct-object indirect-object adverbial'),
-        parse_any.tokens('adposition det adj np n clause')
     ),
     # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
     {'language-type':'foreign'},

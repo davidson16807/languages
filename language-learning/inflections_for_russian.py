@@ -75,8 +75,8 @@ foreign_language = Language(
             ])),
     ),
     RuleSyntax(
+        parse_any.tokens('adposition det adj n np clause'),
         parse_any.terms('subject verb direct-object indirect-object adverbial'),
-        parse_any.tokens('adposition det adj n np clause')
     ),
     {'language-type':'foreign'},
     list_tools,

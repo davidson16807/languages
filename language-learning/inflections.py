@@ -917,8 +917,8 @@ class EnglishListSubstitution:
 
 
 class EnglishRuleSyntax(RuleSyntax):
-    def __init__(self, sentence_structure, noun_phrase_structure):
-        super().__init__(sentence_structure, noun_phrase_structure)
+    def __init__(self, noun_phrase_structure, sentence_structure, content_question_structure=None):
+        super().__init__(noun_phrase_structure, sentence_structure, content_question_structure)
     def order_noun_phrase(self, treemap, phrase):
         rules = [element for element in phrase.content if isinstance(element, Rule)]
         nonrules = [element for element in phrase.content if not isinstance(element, Rule)]
@@ -1026,8 +1026,8 @@ english_language = Language(
         # debug=True,
     ),
     EnglishRuleSyntax(
+        parse_any.tokens('adposition det adj n np clause'),
         parse_any.terms('subject verb direct-object indirect-object adverbial'),
-        parse_any.tokens('adposition det adj n np clause')
     ),
     {'language-type':'native'},
     list_tools,

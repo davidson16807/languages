@@ -134,9 +134,10 @@ class RuleSyntax:
     `RuleTrees` to perform operations on a syntax tree of rules that encapsulate 
     the syntax of a natural language, such as the structuring of clauses and noun phrases.
     """
-    def __init__(self, sentence_structure, noun_phrase_structure):
-        self.sentence_structure = sentence_structure
+    def __init__(self, noun_phrase_structure, sentence_structure, content_question_structure=None):
         self.noun_phrase_structure = noun_phrase_structure
+        self.sentence_structure = sentence_structure
+        self.content_question_structure = content_question_structure or None
     def order_clause(self, treemap, clause):
         rules = clause.content
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
@@ -148,18 +149,23 @@ class RuleSyntax:
                 if noun.tags['subjectivity'] == subjectivity]
             for subjectivity in 'subject direct-object indirect-object adverbial adnominal'.split()
         }
+        interrogatives = [noun 
+            for noun in nouns 
+            if 'noun-form' in noun.tags 
+            and noun.tags['noun-form'] == 'interrogative']
         verbs = [phrase
             for phrase in rules 
             if phrase.tag in {'vp'}]
         phrase_lookup = {
             **noun_lookup,
+            'interrogative': interrogatives,
             'verb': verbs,
         }
         ordered = Rule(clause.tag, 
             clause.tags,
             treemap.map([
                 phrase
-                for phrase_type in self.sentence_structure
+                for phrase_type in (self.content_question_structure if interrogatives else self.sentence_structure)
                 for phrase in phrase_lookup[phrase_type]
             ]))
         return ordered

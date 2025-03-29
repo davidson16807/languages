@@ -36,57 +36,12 @@ from inflections import (
     template_tree_lookup,
     noun_template_whitelist,
 )
+from languages.romance import ModernRomanceRuleSyntax
 
 label_editing = TermLabelEditing()
 deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
-
-class ModernRomanceRuleSyntax(RuleSyntax):
-    def __init__(self, sentence_structure, noun_phrase_structure):
-        super().__init__(sentence_structure, noun_phrase_structure)
-    def order_clause(self, treemap, clause):
-        rules = clause.content
-        nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
-        # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
-        # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
-        noun_lookup = {
-            subjectivity: [noun 
-                for noun in nouns 
-                if noun.tags['subjectivity'] == subjectivity]
-            for subjectivity in 'subject adverbial adnominal'.split()
-        }
-        verbs = [phrase
-            for phrase in rules 
-            if phrase.tag in {'vp'}]
-        phrase_lookup = {
-            **noun_lookup,
-            'personal-direct-object': [noun 
-                for noun in nouns 
-                if noun.tags['subjectivity'] == 'direct-object'
-                and noun.tags['noun-form'] == 'personal'],
-            'common-direct-object': [noun 
-                for noun in nouns 
-                if noun.tags['subjectivity'] == 'direct-object'
-                and noun.tags['noun-form'] != 'personal'],
-            'personal-indirect-object': [noun 
-                for noun in nouns 
-                if noun.tags['subjectivity'] == 'indirect-object'
-                and noun.tags['noun-form'] == 'personal'],
-            'common-indirect-object': [noun 
-                for noun in nouns 
-                if noun.tags['subjectivity'] == 'indirect-object'
-                and noun.tags['noun-form'] != 'personal'],
-            'verb': verbs,
-        }
-        ordered = Rule(clause.tag, 
-            clause.tags,
-            treemap.map([
-                phrase
-                for phrase_type in self.sentence_structure
-                for phrase in phrase_lookup[phrase_type]
-            ]))
-        return ordered
 
 foreign_language = Language(
     ListSemantics(
@@ -124,8 +79,8 @@ foreign_language = Language(
             ])),
     ),
     ModernRomanceRuleSyntax(
+        parse_any.tokens('adposition det adj n np clause'),
         'subject personal-indirect-object personal-direct-object verb common-direct-object common-indirect-object adverbial'.split(), 
-        parse_any.tokens('adposition det adj n np clause')
     ),
     {'language-type':'foreign'},
     list_tools,

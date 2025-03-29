@@ -1,0 +1,110 @@
+problems:
+* difficulty in specifying decks for new languages
+* difficulty in working with non indo european paradigms
+	* different signals of negation (e.g. negative verb in uralic, tonal negation, etc.)
+	* auxillary verbs, particles, and affixes
+	* tripartite conjugation
+* difficulty in demonstrating concepts whose syntax may change between language:
+	* conjunction
+	* negation
+✓	* interrogatives
+	* comparatives
+	* relative clauses
+	* different valencies
+
+proposals:
+* tokens anywhere can be inflected by any paradigm or class of word (noun, verb, etc.) 
+* syntax specification is taken directly from wals-summary.tsv (e.g. snVom, etc.)
+* language-agnostic decisions (e.g. how to demonstrate inflection) 
+  are separated from language-specific decisions 
+  (e.g. how meanings are conveyed with verbs, particles, inflections, word order, etc.)
+
+questions that specification must answer:
+* what semepoints must be demonstrated?
+* what phrase or clause will convey that inflection?
+	 	valency × subjectivity → tree
+	where tree is:
+		sVo, sV, da#Ng, etc.
+* how does the language convey those semepoints?
+	negation signaling
+	question signaling
+	inflection table signatures for each word
+	any signaling using word order (e.g. interrogatives)
+	any signaling using particles, auxillary verbs, phrases, etc. (e.g. tense, mood, negation, definiteness)
+		examples for english:
+			definiteness:
+				add determiner with lemma "the" if definite
+				add numeral with lemma "a" if indefinite
+			tense:
+				add auxillary verbs for certain tenses
+			mood:
+				add phrase literal for certain moods
+			negation:
+				add negator if negative
+			interrogative:
+				add wh-word or signal that a word is wh-, figure out which is easier
+				use word order specified for circumstances where wh-word ("w") is present
+		examples for uralic:
+			negation:
+				add verb with lemma "do-not" if negative
+				add "-k" particle and sort as sₙVⁿo or inflect verb to have "-k" suffix
+		examples for french:
+			negation:
+				add "ne" particle
+				add "pas" particle
+				order according to word order for negations, i.e. sₙVⁿo
+	inflection tables for words/particles/markers
+
+
+requirements:
+	must demonstrate all inflections of all natural attested languages in complete sentences or noun phrases
+	adjective agreement
+	noun declension
+	finite verb conjugation
+	nonfinite verb conjugation:
+		-ing noun ("supine")
+		"to..." noun ("gerund")
+		-ing adjective
+
+
+test → dummy
+test → template
+test → tree
+
+	examples:
+	sVo
+	sVoaN
+	saNVo
+	Ng
+	s#NVoNg
+
+test → test-dummy → tree
+
+	examples:
+
+	s 	test
+	o 	dummy
+
+	s 	test
+	a 	falling
+	V 	hit
+	o 	
+
+	N 	dummy
+	g 	test
+
+idea:
+	representation in python still uses lists
+	but string representation is basically toki pona syntax:
+	. s a quick a brown N fox V jump o p over a lazy N dog
+	[[s [a quick] [a brown] [N fox]] [V jump] [o [a lazy] [N dog]]]
+	. s a quick a brown N fox V jump o p over a lazy N dog r V bit o man
+
+split by \b.\b
+split leaves by \b[sVo]\b
+split leaves by \b[Na#dgrp]\b
+split leaves by \b[Na#dgrp]\b
+
+
+assumed language invariants:
+	the contents of a noun phrase (e.g. subject) never inflect for things outside of that phrase (e.g. direct-object)
