@@ -4,3 +4,5 @@ __pycache__/*
 *.ods#
 
 language-learning/data/syntax/venv/
+
+language-learning/venv/
