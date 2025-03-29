@@ -1,0 +1,1197 @@
+Matthew S. Dryer. 2013. Position of Negative Morpheme With Respect to Subject, Object, and Verb.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+WALS Online (v2020.4) [Data set]. Zenodo.
+https://doi.org/10.5281/zenodo.13950591
+(Available online at http://wals.info/chapter/144, Accessed on 2025-03-22.)
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+ani	//Ani	21	Other	-18.9166666667	21.9166666667	Khoe-Kwadi	Khoe-Kwadi	Word Order
+xam	/Xam	21	Other	-31.0	21.0	Tu	Tu	Word Order
+huc	=|Hoan	2	SNegVO	-25.5	25.0	=|Hoan	Kxa	Word Order
+aar	Aari	20	MorphNeg	6.0	36.5833333333	South Omotic	Afro-Asiatic	Word Order
+aba	Abau	8	SOVNeg	-4.0	141.25	Abau	Sepik	Word Order
+abi	Abipón	21	Other	-29.0	-61.0	Abipon	Guaicuruan	Word Order
+abk	Abkhaz	20	MorphNeg	43.0833333333	41.0	Northwest Caucasian	Northwest Caucasian	Word Order
+abv	Abui	8	SOVNeg	-8.25	124.666666667	Alor-Pantar	Greater West Bomberai	Word Order
+abu	Abun	18	ObligDoubleNeg	-0.5	132.5	Abun	Abun	Word Order
+acg	Achagua	2	SNegVO	4.41666666667	-72.25	Japura-Colombia	Arawakan	Word Order
+acl	Acholi	16	More than one position	3.0	32.6666666667	Western Nilotic	Eastern Sudanic	Word Order
+acm	Achumawi	21	Other	41.5	-121.0	Achumawi	Hokan	Word Order
+adg	Adang	19	OptDoubleNeg	-8.2	124.0	Alor-Pantar	Greater West Bomberai	Word Order
+adi	Adioukrou	20	MorphNeg	5.41666666667	-4.58333333333	Agneby	Niger-Congo	Word Order
+adz	Adzera	19	OptDoubleNeg	-6.25	146.25	Oceanic	Austronesian	Word Order
+agh	Aghem	16	More than one position	6.66666666667	10.0	Wide Grassfields	Niger-Congo	Word Order
+agc	Agta (Central)	9	NegVSO	17.9666666667	121.833333333	Greater Central Philippine	Austronesian	Word Order
+agd	Agta (Dupaningan)	9	NegVSO	18.0	122.083333333	Greater Central Philippine	Austronesian	Word Order
+ain	Ainu	7	SONegV	43.0	143.0	Ainu	Ainu	Word Order
+aja	Aja	4	SVONeg	7.33333333333	25.6666666667	Kresh	Central Sudanic	Word Order
+ajg	Ajagbe	16	More than one position	7.0	1.75	Gbe	Niger-Congo	Word Order
+akn	Akan	20	MorphNeg	6.5	-1.25	Tano	Niger-Congo	Word Order
+akh	Akha	7	SONegV	21.8333333333	99.8333333333	Burmese-Lolo	Sino-Tibetan	Word Order
+all	Ala'ala	21	Other	-8.91666666667	146.75	Oceanic	Austronesian	Word Order
+ala	Alamblak	7	SONegV	-4.66666666667	143.333333333	Sepik Hill	Sepik	Word Order
+alb	Albanian	2	SNegVO	41.0	20.0	Albanian	Indo-European	Word Order
+als	Alsea	21	Other	44.6666666667	-123.916666667	Alsea	Oregon Coast	Word Order
+aln	Alune	4	SVONeg	-3.0	128.333333333	Central Malayo-Polynesian	Austronesian	Word Order
+aly	Alyawarra	20	MorphNeg	-22.5	135.0	Central Pama-Nyungan	Pama-Nyungan	Word Order
+amn	Amanab	18	ObligDoubleNeg	-3.58333333333	141.25	Border	Border	Word Order
+aml	Ambae (Lolovoli Northeast)	18	ObligDoubleNeg	-15.4166666667	167.883333333	Oceanic	Austronesian	Word Order
+amq	Ambai	4	SVONeg	-1.83333333333	136.5	South Halmahera - West New Guinea	Austronesian	Word Order
+amb	Ambulas	16	More than one position	-3.83333333333	143.0	Ndu	Sepik	Word Order
+amt	Amdo (Themchen)	20	MorphNeg	38.0	98.0	Bodic	Sino-Tibetan	Word Order
+ame	Amele	19	OptDoubleNeg	-5.25	145.583333333	Mabuso	Trans-New Guinea	Word Order
+amh	Amharic	18	ObligDoubleNeg	10.0	38.0	Semitic	Afro-Asiatic	Word Order
+amx	Anamuxra	18	ObligDoubleNeg	-4.66666666667	145.0	Josephstaal	Trans-New Guinea	Word Order
+anj	Anejom	12	NegVOS	-20.2	169.8	Oceanic	Austronesian	Word Order
+agm	Angami	8	SOVNeg	25.6666666667	94.5	Angami-Pochuri	Sino-Tibetan	Word Order
+anc	Angas	4	SVONeg	9.5	9.5	West Chadic	Afro-Asiatic	Word Order
+ang	Anggor	20	MorphNeg	-3.75	141.166666667	Senagi	Senagi	Word Order
+ann	Anindilyakwa	21	Other	-14.0	136.5	Anindilyakwa	Gunwinyguan	Word Order
+anu	Anufo	3	SVNegO	10.0833333333	0.25	Tano	Niger-Congo	Word Order
+any	Anywa	21	Other	8.0	33.5	Western Nilotic	Eastern Sudanic	Word Order
+ane	Anêm	4	SVONeg	-5.58333333333	149.083333333	Anêm	Anêm	Word Order
+ao	Ao	19	OptDoubleNeg	26.5833333333	94.6666666667	Central Naga	Sino-Tibetan	Word Order
+apw	Apache (Western)	18	ObligDoubleNeg	33.75	-110.0	Athapaskan	Na-Dene	Word Order
+apl	Apalaí	20	MorphNeg	0.0	-54.0	Cariban	Cariban	Word Order
+apt	Apatani	20	MorphNeg	27.5	93.75	Tani	Sino-Tibetan	Word Order
+apu	Apurinã	16	More than one position	-9.0	-67.0	Purus	Arawakan	Word Order
+abn	Arabana	21	Other	-28.25	136.25	Central Pama-Nyungan	Pama-Nyungan	Word Order
+aeg	Arabic (Egyptian)	19	OptDoubleNeg	30.0	31.0	Semitic	Afro-Asiatic	Word Order
+arg	Arabic (Gulf)	2	SNegVO	26.0	49.0	Semitic	Afro-Asiatic	Word Order
+arq	Arabic (Iraqi)	20	MorphNeg	33.0	44.0	Semitic	Afro-Asiatic	Word Order
+arj	Arabic (Kuwaiti)	2	SNegVO	29.5	47.5	Semitic	Afro-Asiatic	Word Order
+ams	Arabic (Modern Standard)	9	NegVSO	25.0	42.0	Semitic	Afro-Asiatic	Word Order
+amr	Arabic (Moroccan)	18	ObligDoubleNeg	34.0	-6.0	Semitic	Afro-Asiatic	Word Order
+asy	Arabic (Syrian)	16	More than one position	34.0	38.0	Semitic	Afro-Asiatic	Word Order
+ana	Araona	18	ObligDoubleNeg	-12.3333333333	-67.75	Tacanan	Pano-Tacanan	Word Order
+aab	Arapesh (Abu)	4	SVONeg	-3.45	142.95	Kombio-Arapesh	Torricelli	Word Order
+arp	Arapesh (Mountain)	19	OptDoubleNeg	-3.46666666667	143.166666667	Kombio-Arapesh	Torricelli	Word Order
+arc	Archi	20	MorphNeg	42.0	46.8333333333	Lezgic	Nakh-Daghestanian	Word Order
+arm	Armenian (Eastern)	16	More than one position	40.0	45.0	Armenian	Indo-European	Word Order
+arw	Armenian (Western)	16	More than one position	38.5	43.5	Armenian	Indo-European	Word Order
+alk	Arop-Lokep	4	SVONeg	-5.38333333333	147.05	Oceanic	Austronesian	Word Order
+aro	Arosi	2	SNegVO	-10.25	161.333333333	Oceanic	Austronesian	Word Order
+amp	Arrernte (Mparntwe)	20	MorphNeg	-24.0	136.0	Central Pama-Nyungan	Pama-Nyungan	Word Order
+asm	Asmat	8	SOVNeg	-5.5	138.5	Asmat-Kamrau Bay	Asmat-Kamrau Bay	Word Order
+ass	Assamese	20	MorphNeg	26.0	93.0	Indic	Indo-European	Word Order
+asu	Asuriní	18	ObligDoubleNeg	-3.5	-49.5	Maweti-Guarani	Tupian	Word Order
+ata	Atayal	21	Other	24.5	121.333333333	Atayalic	Austronesian	Word Order
+ath	Athpare	20	MorphNeg	27.0	87.3333333333	Himalayish	Sino-Tibetan	Word Order
+au	Au	16	More than one position	-3.58333333333	142.083333333	Central Wapei	Torricelli	Word Order
+ava	Avar	8	SOVNeg	42.5	46.5	Avar-Andic-Tsezic	Nakh-Daghestanian	Word Order
+awa	Awa	7	SONegV	-6.66666666667	145.75	Gauwa	Trans-New Guinea	Word Order
+awp	Awa Pit	18	ObligDoubleNeg	1.5	-78.25	Barbacoan	Barbacoan	Word Order
+awt	Awtuw	20	MorphNeg	-3.58333333333	142.0	Ram	Sepik	Word Order
+aym	Aymara (Central)	16	More than one position	-17.0	-69.0	Aymaran	Aymaran	Word Order
+azi	Azari (Iranian)	20	MorphNeg	37.5	47.0	Turkic	Altaic	Word Order
+aze	Azerbaijani	20	MorphNeg	40.5	48.5	Turkic	Altaic	Word Order
+bbl	Babole	20	MorphNeg	1.08333333333	17.25	Bantu	Niger-Congo	Word Order
+bab	Babungo	18	ObligDoubleNeg	6.11666666667	10.4166666667	Wide Grassfields	Niger-Congo	Word Order
+bac	Bachamal	21	Other	-13.1666666667	130.166666667	Wandjiginy	Wandjiginy	Word Order
+bdm	Badimaya	21	Other	-27.6666666667	118.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+baf	Bafut	18	ObligDoubleNeg	6.25	9.91666666667	Wide Grassfields	Niger-Congo	Word Order
+bag	Bagirmi	4	SVONeg	11.6666666667	16.0	Bongo-Bagirmi	Central Sudanic	Word Order
+bgr	Bagiro	4	SVONeg	4.33333333333	20.5833333333	Bongo-Bagirmi	Central Sudanic	Word Order
+bai	Bai	2	SNegVO	26.0	100.0	Macro-Bai	Sino-Tibetan	Word Order
+bwc	Bajau (West Coast)	21	Other	6.33333333333	116.333333333	Sama-Bajaw	Austronesian	Word Order
+bak	Baka (in Cameroon)	4	SVONeg	2.58333333333	13.5833333333	Ubangi	Niger-Congo	Word Order
+bka	Baka (in South Sudan)	4	SVONeg	4.83333333333	29.25	Bongo-Bagirmi	Central Sudanic	Word Order
+bku	Bakueri	20	MorphNeg	4.25	9.25	Bantu	Niger-Congo	Word Order
+blz	Balanta	20	MorphNeg	12.25	-15.3333333333	Balanta	Niger-Congo	Word Order
+bvi	Bali-Vitu	2	SNegVO	-4.9	149.116666667	Oceanic	Austronesian	Word Order
+blt	Balti	16	More than one position	35.0	76.0	Bodic	Sino-Tibetan	Word Order
+bam	Bambara	6	SNegOV	12.5	-7.5	Western Mande	Mande	Word Order
+bnn	Banoni	2	SNegVO	-6.41666666667	155.25	Oceanic	Austronesian	Word Order
+bao	Bao'an	21	Other	35.75	102.833333333333	Mongolic	Altaic	Word Order
+ble	Baoulé	18	ObligDoubleNeg	7.0	-5.0	Tano	Niger-Congo	Word Order
+brl	Baragaunle	20	MorphNeg	28.8333333333	83.8333333333	Bodic	Sino-Tibetan	Word Order
+baa	Barai	7	SONegV	-9.33333333333	148.083333333	Koiarian	Trans-New Guinea	Word Order
+bbu	Barambu	19	OptDoubleNeg	3.5	27.0	Ubangi	Niger-Congo	Word Order
+bar	Bari	2	SNegVO	5.0	31.6666666667	Eastern Nilotic	Eastern Sudanic	Word Order
+brp	Barupu	6	SNegOV	-3.08333333333	142.083333333	Warapu	Skou	Word Order
+bae	Baré	2	SNegVO	1.0	-67.0	Japura-Colombia	Arawakan	Word Order
+bas	Basaá	21	Other	3.91666666667	10.5	Bantu	Niger-Congo	Word Order
+bsk	Bashkir	20	MorphNeg	53.0	58.0	Turkic	Altaic	Word Order
+bsq	Basque	7	SONegV	43.0	-3.0	Basque	Basque	Word Order
+bkr	Batak (Karo)	16	More than one position	3.25	98.25	Northwest Sumatra-Barrier Islands	Austronesian	Word Order
+bto	Batak (Toba)	12	NegVOS	2.5	99.0	Northwest Sumatra-Barrier Islands	Austronesian	Word Order
+baq	Baure	12	NegVOS	-13.0833333333	-64.1666666667	Bolivia-Parana	Arawakan	Word Order
+bzi	Bauzi	8	SOVNeg	-2.5	137.5	Geelvink Bay	Geelvink Bay	Word Order
+baw	Bawm	8	SOVNeg	22.5	92.25	Kuki-Chin	Sino-Tibetan	Word Order
+bej	Beja	20	MorphNeg	18.0	36.0	Beja	Afro-Asiatic	Word Order
+bel	Belhare	19	OptDoubleNeg	26.9666666667	87.3	Himalayish	Sino-Tibetan	Word Order
+bco	Bella Coola	9	NegVSO	52.5	-126.666666667	Bella Coola	Salishan	Word Order
+ben	Bengali	8	SOVNeg	24.0	90.0	Indic	Indo-European	Word Order
+bch	Berber (Chaouia)	16	More than one position	35.0	7.0	Berber	Afro-Asiatic	Word Order
+bfg	Berber (Figuig)	9	NegVSO	32.5	-1.5	Berber	Afro-Asiatic	Word Order
+brf	Berber (Rif)	2	SNegVO	34.5	-4.0	Berber	Afro-Asiatic	Word Order
+zag	Beria	20	MorphNeg	16.0	23.0	Eastern Saharan	Saharan	Word Order
+ber	Berta	20	MorphNeg	10.3333333333	34.6666666667	Berta	Berta	Word Order
+bti	Betoi	20	MorphNeg	7.16666666667	-71.25	Betoi	Betoi	Word Order
+bho	Bhojpuri	7	SONegV	26.0	84.0	Indic	Indo-European	Word Order
+bik	Biak	4	SVONeg	-1.0	136.0	South Halmahera - West New Guinea	Austronesian	Word Order
+bid	Bidiya	18	ObligDoubleNeg	11.9166666667	18.75	East Chadic	Afro-Asiatic	Word Order
+bia	Bila	20	MorphNeg	1.0	28.75	Bantu	Niger-Congo	Word Order
+blx	Biloxi	19	OptDoubleNeg	30.5	-88.6666666667	Ohio Valley Siouan	Siouan	Word Order
+bil	Bilua	21	Other	-7.75	156.666666667	Bilua	Solomons East Papuan	Word Order
+bmb	Bimoba	19	OptDoubleNeg	10.5	0.0	Oti-Volta	Niger-Congo	Word Order
+bni	Bini	2	SNegVO	6.41666666667	5.83333333333	Edoid	Niger-Congo	Word Order
+bbw	Bininj Gun-Wok	21	Other	-12.5	133.75	Marne	Gunwinyguan	Word Order
+bii	Biri	16	More than one position	-20.5	146.5	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+bir	Birom	4	SVONeg	9.66666666667	8.83333333333	Benue-Congo Plateau	Niger-Congo	Word Order
+biu	Bisu	20	MorphNeg	19.75	100.0	Burmese-Lolo	Sino-Tibetan	Word Order
+boa	Boazi (Kuni)	20	MorphNeg	-7.0	141.333333333	Boazi	Trans-New Guinea	Word Order
+bob	Bobangi	18	ObligDoubleNeg	-1.33333333333	17.3333333333	Bantu	Niger-Congo	Word Order
+bod	Bodo	16	More than one position	26.8333333333	92.0	Brahmaputran	Sino-Tibetan	Word Order
+bok	Boko	19	OptDoubleNeg	10.5	3.5	Eastern Mande	Mande	Word Order
+bol	Bolia	19	OptDoubleNeg	-1.25	18.3333333333	Bantu	Niger-Congo	Word Order
+bgo	Bongo	19	OptDoubleNeg	7.5	28.5	Bongo-Bagirmi	Central Sudanic	Word Order
+btk	Bontok	21	Other	17.0833333333	120.916666667	Northern Luzon	Austronesian	Word Order
+bra	Brao	2	SNegVO	14.1666666667	107.5	Bahnaric	Austro-Asiatic	Word Order
+bre	Breton	18	ObligDoubleNeg	48.0	-3.0	Celtic	Indo-European	Word Order
+bri	Bribri	21	Other	9.41666666667	-83.0	Western Isthmic Chibchan	Chibchan	Word Order
+bud	Buduma	4	SVONeg	13.5	14.5	Biu-Mandara	Afro-Asiatic	Word Order
+bug	Bugis	21	Other	-4.0	120.0	South Sulawesi	Austronesian	Word Order
+bnu	Bularnu	21	Other	-21.0	138.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+bul	Bulgarian	2	SNegVO	42.5	25.0	Slavic	Indo-European	Word Order
+buy	Buli (in Ghana)	18	ObligDoubleNeg	10.5	-1.25	Oti-Volta	Niger-Congo	Word Order
+bum	Buma	4	SVONeg	-11.6333333333	166.833333333	Oceanic	Austronesian	Word Order
+ghr	Bunan	21	Other	32.5	77.0	Bodic	Sino-Tibetan	Word Order
+pnu	Bunu (Younuo)	21	Other	24.0	107.0	Hmongic	Hmong-Mien	Word Order
+bua	Burarra	21	Other	-12.25	134.583333333	Burarran	Mangrida	Word Order
+but	Buriat	20	MorphNeg	52.0	108.0	Mongolic	Altaic	Word Order
+brm	Burmese	18	ObligDoubleNeg	21.0	96.0	Burmese-Lolo	Sino-Tibetan	Word Order
+brn	Burunge	20	MorphNeg	-5.33333333333	36.0	Southern Cushitic	Afro-Asiatic	Word Order
+bur	Burushaski	20	MorphNeg	36.5	74.5	Burushaski	Burushaski	Word Order
+bus	Busa	8	SOVNeg	9.66666666667	4.0	Eastern Mande	Mande	Word Order
+bsh	Bushoong	20	MorphNeg	-4.5	21.5	Bantu	Niger-Congo	Word Order
+bya	Byansi	20	MorphNeg	30.1666666667	80.5	Bodic	Sino-Tibetan	Word Order
+cah	Cahuilla	7	SONegV	33.5	-116.25	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+cak	Cakchiquel	18	ObligDoubleNeg	14.5	-91.0	Mayan	Mayan	Word Order
+cml	Camling	18	ObligDoubleNeg	27.0	86.6666666667	Himalayish	Sino-Tibetan	Word Order
+can	Candoshi	20	MorphNeg	-4.16666666667	-77.0	Candoshi	Candoshi	Word Order
+cnl	Canela	8	SOVNeg	-7.0	-45.0	Je Setentrional	Macro-Ge	Word Order
+cnt	Cantonese	2	SNegVO	23.0	113.0	Chinese	Sino-Tibetan	Word Order
+car	Carib	20	MorphNeg	5.5	-56.0	Cariban	Cariban	Word Order
+cde	Carib (De'kwana)	20	MorphNeg	5.5	-65.0	Cariban	Cariban	Word Order
+cas	Cashibo	20	MorphNeg	-8.5	-75.5	Panoan	Pano-Tacanan	Word Order
+ctl	Catalan	19	OptDoubleNeg	41.75	2.0	Romance	Indo-European	Word Order
+cay	Cayapa	20	MorphNeg	0.666666666667	-79.0	Barbacoan	Barbacoan	Word Order
+cyv	Cayuvava	20	MorphNeg	-13.5	-65.5	Cayuvava	Cayuvava	Word Order
+cga	Chaga	20	MorphNeg	-3.0	37.0	Bantu	Niger-Congo	Word Order
+chh	Chaha	20	MorphNeg	8.112935	37.93267	Semitic	Afro-Asiatic	Word Order
+cai	Chai	16	More than one position	5.33333333333	35.3333333333	South Surmic	Eastern Sudanic	Word Order
+chw	Cham (Western)	4	SVONeg	12.0	105.5	Malayo-Sumbawan	Austronesian	Word Order
+chb	Chambri	18	ObligDoubleNeg	-4.16666666667	143.083333333	Lower Sepik	Ramu-Lower Sepik	Word Order
+cha	Chamorro	9	NegVSO	13.45	144.75	Chamorro	Austronesian	Word Order
+chg	Chang	20	MorphNeg	26.3333333333	94.75	Brahmaputran	Sino-Tibetan	Word Order
+chn	Chantyal	20	MorphNeg	28.5833333333	83.4166666667	Bodic	Sino-Tibetan	Word Order
+cso	Chatino (Sierra Occidental)	9	NegVSO	16.25	-97.3333333333	Zapotecan	Oto-Manguean	Word Order
+cya	Chatino (Yaitepec)	9	NegVSO	16.25	-97.25	Zapotecan	Oto-Manguean	Word Order
+chd	Chaudangsi	21	Other	30.0	80.25	Bodic	Sino-Tibetan	Word Order
+chc	Chechen	7	SONegV	43.25	45.8333333333	Nakh	Nakh-Daghestanian	Word Order
+cpn	Chepang	20	MorphNeg	27.6666666667	84.75	Himalayish	Sino-Tibetan	Word Order
+cic	Chichewa	20	MorphNeg	-14.0	34.0	Bantu	Niger-Congo	Word Order
+chi	Chimariko	19	OptDoubleNeg	41.0	-123.0	Chimariko	Hokan	Word Order
+cmr	Chin (Mara)	21	Other	23.0	93.1666666667	Kuki-Chin	Sino-Tibetan	Word Order
+chs	Chin (Siyin)	21	Other	23.8333333333	94.0	Kuki-Chin	Sino-Tibetan	Word Order
+cti	Chin (Tiddim)	21	Other	23.3333333333	93.6666666667	Kuki-Chin	Sino-Tibetan	Word Order
+ccm	Chinantec (Comaltepec)	20	MorphNeg	17.5833333333	-96.4166666667	Chinantecan	Oto-Manguean	Word Order
+cle	Chinantec (Lealao)	12	NegVOS	17.3333333333	-95.9166666667	Chinantecan	Oto-Manguean	Word Order
+cpl	Chinantec (Palantla)	20	MorphNeg	18.8333333333	-96.75	Chinantecan	Oto-Manguean	Word Order
+chq	Chinantec (Quiotepec)	9	NegVSO	17.5833333333	-96.6666666667	Chinantecan	Oto-Manguean	Word Order
+ckl	Chinook (Lower)	12	NegVOS	46.25	-123.5	Chinookan	Penutian	Word Order
+cpy	Chipaya	5	NegSOV	-18.75	-67.8333333333	Uru-Chipaya	Uru-Chipaya	Word Order
+chp	Chipewyan	8	SOVNeg	59.0	-106.0	Athapaskan	Na-Dene	Word Order
+ctm	Chitimacha	20	MorphNeg	29.6666666667	-91.0	Chitimacha	Chitimacha	Word Order
+cct	Choctaw	20	MorphNeg	32.25	-88.5	Muskogean	Muskogean	Word Order
+cln	Cholón	20	MorphNeg	-8.0	-77.5	Hobitu-Cholon	Hobitu-Cholon	Word Order
+chx	Chontal (Huamelultec Oaxaca)	21	Other	16.0	-95.75	Tequistlatecan	Hokan	Word Order
+cmy	Chontal Maya	2	SNegVO	18.1666666667	-92.5833333333	Mayan	Mayan	Word Order
+chr	Chrau	19	OptDoubleNeg	10.75	107.5	Bahnaric	Austro-Asiatic	Word Order
+chj	Chuj	19	OptDoubleNeg	15.9166666667	-91.5833333333	Mayan	Mayan	Word Order
+chk	Chukchi	21	Other	67.0	-173.0	Northern Chukotko-Kamchatkan	Chukotko-Kamchatkan	Word Order
+cba	Chumash (Barbareño)	20	MorphNeg	34.5	-120.25	Chumash	Chumash	Word Order
+chv	Chuvash	20	MorphNeg	55.5	47.5	Turkic	Altaic	Word Order
+coa	Coahuilteco	20	MorphNeg	28.0	-100.0	Coahuiltecan	Coahuiltecan	Word Order
+coc	Cocama	1	NegSVO	-5.0	-74.5	Maweti-Guarani	Tupian	Word Order
+cmn	Comanche	16	More than one position	33.5	-101.5	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+cop	Coptic	19	OptDoubleNeg	26.0	32.0	Egyptian-Coptic	Afro-Asiatic	Word Order
+crn	Cornish	9	NegVSO	50.3333333333	-5.0	Celtic	Indo-European	Word Order
+cre	Cree (Plains)	21	Other	54.0	-110.0	Algonquian	Algic	Word Order
+cea	Cree (Swampy)	21	Other	56.0	-90.0	Algonquian	Algic	Word Order
+cub	Cubeo	20	MorphNeg	1.33333333333	-70.5	Tucanoan	Tucanoan	Word Order
+cui	Cuiba	18	ObligDoubleNeg	6.5	-70.0	Guahiban	Guahiban	Word Order
+cup	Cupeño	16	More than one position	33.1666666667	-116.5	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+cze	Czech	20	MorphNeg	50.0	15.0	Slavic	Indo-European	Word Order
+cem	Cèmuhî	12	NegVOS	-20.8333333333	165.166666667	Oceanic	Austronesian	Word Order
+dag	Daga	7	SONegV	-10.0	149.333333333	Dagan	Trans-New Guinea	Word Order
+dga	Dagaare	2	SNegVO	10.5	-2.66666666667	Oti-Volta	Niger-Congo	Word Order
+dgb	Dagbani	2	SNegVO	9.58333333333	-0.5	Oti-Volta	Niger-Congo	Word Order
+dgr	Dagur	21	Other	48.0	124.0	Mongolic	Altaic	Word Order
+dan	Dan	21	Other	7.5	-8.0	Eastern Mande	Mande	Word Order
+dni	Dani (Lower Grand Valley)	8	SOVNeg	-4.33333333333	138.833333333	Dani	Trans-New Guinea	Word Order
+dsh	Danish	16	More than one position	56.0	10.0	Germanic	Indo-European	Word Order
+drm	Darma	20	MorphNeg	30.0	79.75	Bodic	Sino-Tibetan	Word Order
+deg	Degema	18	ObligDoubleNeg	4.75	6.75	Edoid	Niger-Congo	Word Order
+des	Desano	20	MorphNeg	0.833333333333	-69.8333333333	Tucanoan	Tucanoan	Word Order
+deu	Deuri	20	MorphNeg	26.0	90.25	Brahmaputran	Sino-Tibetan	Word Order
+dha	Dhaasanac	18	ObligDoubleNeg	4.66666666667	36.3333333333	Lowland East Cushitic	Afro-Asiatic	Word Order
+dhm	Dhimal	20	MorphNeg	26.6666666667	87.75	Dhimalic	Sino-Tibetan	Word Order
+did	Didinga	9	NegVSO	4.5	33.5	South Surmic	Eastern Sudanic	Word Order
+die	Diegueño (Mesa Grande)	8	SOVNeg	32.6666666667	-116.166666667	Yuman	Hokan	Word Order
+dig	Digaro	20	MorphNeg	28.4166666667	96.0	Digaroan	Sino-Tibetan	Word Order
+dms	Dimasa	20	MorphNeg	25.5	93.0	Brahmaputran	Sino-Tibetan	Word Order
+dim	Dime	20	MorphNeg	6.16666666667	36.25	South Omotic	Afro-Asiatic	Word Order
+din	Dinka	6	SNegOV	8.5	28.0	Western Nilotic	Eastern Sudanic	Word Order
+dio	Diola-Fogny	20	MorphNeg	13.0	-16.25	Jola	Niger-Congo	Word Order
+dja	Djabugay	21	Other	-16.75	145.583333333	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+djp	Djapu	5	NegSOV	-12.6666666667	136.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+djn	Djinang	21	Other	-12.3333333333	134.833333333	Western Pama-Nyungan	Pama-Nyungan	Word Order
+dji	Djingili	7	SONegV	-17.75	134.0	Djingili	Mirndi	Word Order
+dmk	Domaaki	21	Other	36.1666666667	74.0	Indic	Indo-European	Word Order
+dom	Domari	21	Other	32.0	35.0	Indic	Indo-European	Word Order
+dgo	Dongo	16	More than one position	3.0	30.0	Ubangi	Niger-Congo	Word Order
+dds	Donno So	20	MorphNeg	14.3333333333	-3.58333333333	Dogon	Dogon	Word Order
+doy	Doyayo	18	ObligDoubleNeg	8.66666666667	13.0833333333	Samba-Duru	Niger-Congo	Word Order
+dre	Drehu	16	More than one position	-21.0	167.25	Oceanic	Austronesian	Word Order
+dua	Duala	2	SNegVO	4.0	9.41666666667	Bantu	Niger-Congo	Word Order
+duk	Duka	4	SVONeg	11.1666666667	5.08333333333	Central Kainji	Niger-Congo	Word Order
+dul	Dulong	20	MorphNeg	28.0	98.3333333333	Nungish	Sino-Tibetan	Word Order
+dma	Duma	19	OptDoubleNeg	-0.95	13.0	Bantu	Niger-Congo	Word Order
+dmi	Dumi	20	MorphNeg	27.25	86.6666666667	Himalayish	Sino-Tibetan	Word Order
+dum	Dumo	8	SOVNeg	-2.68333333333	141.3	Western Skou	Skou	Word Order
+dun	Duna	18	ObligDoubleNeg	-5.5	142.5	Duna	Duna-Bogaya	Word Order
+dut	Dutch	16	More than one position	52.5	6.0	Germanic	Indo-European	Word Order
+dyi	Dyirbal	21	Other	-17.8333333333	145.583333333	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+ebi	Ebira	2	SNegVO	8.16666666667	7.0	Nupoid	Niger-Congo	Word Order
+erk	Efate (South)	18	ObligDoubleNeg	-17.75	168.416666667	Oceanic	Austronesian	Word Order
+ega	Ega	4	SVONeg	5.5	-5.5	Ega	Niger-Congo	Word Order
+eip	Eipo	16	More than one position	-4.33333333333	140.083333333	Mek	Trans-New Guinea	Word Order
+eka	Ekari	16	More than one position	-3.83333333333	135.5	Paniai Lakes	Trans-New Guinea	Word Order
+eko	Ekoti	20	MorphNeg	-16.5	39.5	Bantu	Niger-Congo	Word Order
+emb	Emberá (Northern)	20	MorphNeg	6.83333333333	-77.1666666667	Choco	Choco	Word Order
+ene	Enets	21	Other	67.5	86.5	Samoyedic	Uralic	Word Order
+egn	Engenni	20	MorphNeg	5.16666666667	6.38333333333	Edoid	Niger-Congo	Word Order
+eno	Enggano	21	Other	-5.41666666667	102.25	Enggano	Austronesian	Word Order
+eng	English	2	SNegVO	52.0	0.0	Germanic	Indo-European	Word Order
+epe	Epena Pedee	20	MorphNeg	3.0	-77.0	Choco	Choco	Word Order
+err	Erromangan	20	MorphNeg	-18.8333333333	169.166666667	Oceanic	Austronesian	Word Order
+ese	Ese Ejja	8	SOVNeg	-11.0	-66.0	Tacanan	Pano-Tacanan	Word Order
+est	Estonian	2	SNegVO	59.0	26.0	Finnic	Uralic	Word Order
+eud	Eudeve	21	Other	29.1666666667	-109.666666667	Opata-Eudeve	Uto-Aztecan	Word Order
+evn	Even	18	ObligDoubleNeg	68.0	130.0	Tungusic	Altaic	Word Order
+eve	Evenki	18	ObligDoubleNeg	56.0	125.0	Tungusic	Altaic	Word Order
+ewe	Ewe	18	ObligDoubleNeg	6.33333333333	0.416666666667	Gbe	Niger-Congo	Word Order
+ewo	Ewondo	19	OptDoubleNeg	4.0	12.0	Bantu	Niger-Congo	Word Order
+fij	Fijian	16	More than one position	-17.8333333333	178.0	Oceanic	Austronesian	Word Order
+fin	Finnish	2	SNegVO	62.0	25.0	Finnic	Uralic	Word Order
+fon	Fongbe	2	SNegVO	6.41666666667	2.16666666667	Gbe	Niger-Congo	Word Order
+fre	French	19	OptDoubleNeg	48.0	2.0	Romance	Indo-European	Word Order
+fua	Fulfulde (Adamawa)	20	MorphNeg	9.16666666667	13.5	Peul-Serer	Niger-Congo	Word Order
+fur	Fur	18	ObligDoubleNeg	13.5	25.0	Fur	Fur	Word Order
+fut	Futuna-Aniwa	2	SNegVO	-19.5333333333	170.216666667	Oceanic	Austronesian	Word Order
+fye	Fyem	19	OptDoubleNeg	9.58333333333	9.33333333333	Benue-Congo Plateau	Niger-Congo	Word Order
+gds	Gadsup	7	SONegV	-6.25	146.0	Gauwa	Trans-New Guinea	Word Order
+gae	Gaelic (Scots)	9	NegVSO	57.0	-4.0	Celtic	Indo-European	Word Order
+gah	Gahuku	20	MorphNeg	-6.0	145.416666667	Gahuku	Trans-New Guinea	Word Order
+gal	Galo	20	MorphNeg	28.1666666667	94.6666666667	Tani	Sino-Tibetan	Word Order
+gap	Gapapaiwa	7	SONegV	-9.75	149.833333333	Oceanic	Austronesian	Word Order
+gar	Garo	20	MorphNeg	25.6666666667	90.5	Brahmaputran	Sino-Tibetan	Word Order
+grf	Garífuna	9	NegVSO	15.6666666667	-88.0	Antillean Arawakan	Arawakan	Word Order
+gav	Gavião	21	Other	-10.6666666667	-62.0	Monde	Tupian	Word Order
+gbs	Gbaya (Southwest)	4	SVONeg	4.7	14.96	Gbaya-Manza-Ngbaka	Niger-Congo	Word Order
+gbb	Gbeya Bossangoa	19	OptDoubleNeg	6.66666666667	17.5	Gbaya-Manza-Ngbaka	Niger-Congo	Word Order
+gel	Gela	12	NegVOS	-9.08333333333	160.25	Oceanic	Austronesian	Word Order
+gla	Gelao	4	SVONeg	22.9166666667	105.5	Kadai	Tai-Kadai	Word Order
+geo	Georgian	7	SONegV	42.0	44.0	Kartvelian	Kartvelian	Word Order
+ger	German	16	More than one position	52.0	10.0	Germanic	Indo-European	Word Order
+gim	Gimira	20	MorphNeg	7.0	35.75	Ta-Ne-Omotic	Afro-Asiatic	Word Order
+goa	Goajiro	9	NegVSO	12.0	-72.0	Guajiro-Paraujano	Arawakan	Word Order
+god	Godoberi	20	MorphNeg	42.6666666667	46.0833333333	Avar-Andic-Tsezic	Nakh-Daghestanian	Word Order
+goe	Goemai	4	SVONeg	8.66666666667	9.75	West Chadic	Afro-Asiatic	Word Order
+gok	Gokana	2	SNegVO	4.58333333333	7.33333333333	Ogonoid	Niger-Congo	Word Order
+gln	Golin	20	MorphNeg	-6.33333333333	144.75	Chimbu-Wahgi	Trans-New Guinea	Word Order
+gon	Gondi	20	MorphNeg	19.0	81.0	Dravidian	Dravidian	Word Order
+goo	Gooniyandi	21	Other	-18.3333333333	126.333333333	Bunuban	Bunuban	Word Order
+grb	Grebo	6	SNegOV	5.0	-8.0	Kru	Niger-Congo	Word Order
+grk	Greek (Modern)	16	More than one position	39.0	22.0	Greek	Indo-European	Word Order
+grw	Greenlandic (West)	20	MorphNeg	64.0	-51.0	Eskimo	Eskimo-Aleut	Word Order
+gjj	Guajajara	20	MorphNeg	-5.0	-46.0	Maweti-Guarani	Tupian	Word Order
+gua	Guaraní	18	ObligDoubleNeg	-26.0	-56.0	Maweti-Guarani	Tupian	Word Order
+grj	Guarijío	21	Other	27.75	-108.666666667	Tarahumaran	Uto-Aztecan	Word Order
+gud	Gude	1	NegSVO	10.4166666667	13.4166666667	Biu-Mandara	Afro-Asiatic	Word Order
+gug	Gugada	16	More than one position	-30.0	134.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+guh	Guhu-Samane	19	OptDoubleNeg	-8.0	147.333333333	Guhu-Samane	Trans-New Guinea	Word Order
+guj	Gujarati	7	SONegV	23.0	72.0	Indic	Indo-European	Word Order
+gul	Gula (in Central African Republic)	4	SVONeg	9.5	22.5	Bongo-Bagirmi	Central Sudanic	Word Order
+gmw	Gumawana	7	SONegV	-9.25	150.833333333	Oceanic	Austronesian	Word Order
+gmz	Gumuz	21	Other	12.5	35.8333333333	Gumuz	Gumuz	Word Order
+gnb	Gunbalang	18	ObligDoubleNeg	-12.0	134.0	Marne	Gunwinyguan	Word Order
+ggu	Gureng Gureng	21	Other	-25.25	151.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+gur	Gurung	20	MorphNeg	28.3333333333	84.3333333333	Bodic	Sino-Tibetan	Word Order
+guu	Guugu Yimidhirr	7	SONegV	-15.0	144.833333333	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+gwa	Gwari	18	ObligDoubleNeg	9.5	7.0	Nupoid	Niger-Congo	Word Order
+gwo	Gworok	4	SVONeg	9.91666666667	8.16666666667	Benue-Congo Plateau	Niger-Congo	Word Order
+gyc	Gyarong (Cogtse)	20	MorphNeg	31.5	102.0	Na-Qiangic	Sino-Tibetan	Word Order
+ga	Gã	20	MorphNeg	5.66666666667	-0.166666666667	Ga-Dangme	Niger-Congo	Word Order
+gku	Gününa Küne	20	MorphNeg	-41.0	-67.0	Puelche	Chonan	Word Order
+hai	Haida	18	ObligDoubleNeg	53.0	-132.0	Haida	Haida	Word Order
+hak	Hakka	2	SNegVO	25.0	116.0	Chinese	Sino-Tibetan	Word Order
+hal	Halia	18	ObligDoubleNeg	-5.25	154.666666667	Oceanic	Austronesian	Word Order
+hlu	Halkomelem (Upriver)	9	NegVSO	49.25	-121.916666667	Central Salish	Salishan	Word Order
+ham	Hamtai	20	MorphNeg	-7.5	146.25	Nuclear Angan	Trans-New Guinea	Word Order
+han	Hani	21	Other	23.0	103.0	Burmese-Lolo	Sino-Tibetan	Word Order
+har	Haruai	20	MorphNeg	-5.08333333333	144.166666667	Piawi	Piawi	Word Order
+hat	Hatam	4	SVONeg	-1.0	134.0	Hatim-Mansim	Hatim-Mansim	Word Order
+hau	Hausa	19	OptDoubleNeg	12.0	7.0	West Chadic	Afro-Asiatic	Word Order
+haw	Hawaiian	9	NegVSO	19.5833333333	-155.5	Oceanic	Austronesian	Word Order
+hya	Haya	20	MorphNeg	-2.0	31.5	Bantu	Niger-Congo	Word Order
+hay	Hayu	7	SONegV	27.25	86.0	Himalayish	Sino-Tibetan	Word Order
+hdi	Hdi	18	ObligDoubleNeg	11.8666666667	13.7166666667	Biu-Mandara	Afro-Asiatic	Word Order
+heb	Hebrew (Modern)	2	SNegVO	31.5	34.8333333333	Semitic	Afro-Asiatic	Word Order
+heh	Hehe	20	MorphNeg	-8.0	36.0	Bantu	Niger-Congo	Word Order
+hei	Heiltsuk	9	NegVSO	52.0	-127.5	Northern Wakashan	Wakashan	Word Order
+hid	Hidatsa	20	MorphNeg	47.0	-102.5	Missouri River Siouan	Siouan	Word Order
+hil	Hiligaynon	9	NegVSO	10.25	123.0	Greater Central Philippine	Austronesian	Word Order
+hin	Hindi	7	SONegV	25.0	77.0	Indic	Indo-European	Word Order
+hix	Hixkaryana	20	MorphNeg	-1.0	-59.0	Cariban	Cariban	Word Order
+lic	Hlai (Baoding)	2	SNegVO	19.0	109.5	Hlai	Tai-Kadai	Word Order
+hma	Hmar	21	Other	24.1666666667	93.0	Kuki-Chin	Sino-Tibetan	Word Order
+hmo	Hmong Njua	2	SNegVO	28.0	105.0	Hmongic	Hmong-Mien	Word Order
+hoa	Hoava	9	NegVSO	-8.08333333333	157.5	Oceanic	Austronesian	Word Order
+hol	Holoholo	20	MorphNeg	-5.16666666667	29.9166666667	Bantu	Niger-Congo	Word Order
+hop	Hopi	7	SONegV	36.0	-110.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+hua	Hua	20	MorphNeg	-6.33333333333	145.333333333	Siane-Yagaria	Trans-New Guinea	Word Order
+hlp	Hualapai	19	OptDoubleNeg	35.5	-113.75	Yuman	Hokan	Word Order
+htc	Huastec	2	SNegVO	22.0833333333	-99.3333333333	Mayan	Mayan	Word Order
+hve	Huave (San Mateo del Mar)	21	Other	16.2166666667	-95.0	Huavean	Huavean	Word Order
+hui	Huichol	20	MorphNeg	22.0	-104.0	Corachol	Uto-Aztecan	Word Order
+hmi	Huitoto (Minica)	20	MorphNeg	-0.333333333333	-74.0	Witoto	Witotoan	Word Order
+hum	Huitoto (Murui)	20	MorphNeg	-1.0	-73.5	Witoto	Witotoan	Word Order
+hnd	Hunde	20	MorphNeg	-1.16666666667	28.8333333333	Bantu	Niger-Congo	Word Order
+hun	Hungarian	2	SNegVO	47.0	20.0	Ugric	Uralic	Word Order
+hzb	Hunzib	20	MorphNeg	42.1666666667	46.25	Avar-Andic-Tsezic	Nakh-Daghestanian	Word Order
+hpd	Hup	20	MorphNeg	0.166666666667	-69.25	Nadahup	Nadahup	Word Order
+hup	Hupa	21	Other	41.0833333333	-123.666666667	Athapaskan	Na-Dene	Word Order
+isa	I'saka	8	SOVNeg	-2.83333333333	141.283333333	Krisa	Skou	Word Order
+iaa	Iaai	2	SNegVO	-20.4166666667	166.583333333	Oceanic	Austronesian	Word Order
+iau	Iau	21	Other	-3.16666666667	137.5	Central Tariku	Lakes Plain	Word Order
+iba	Iban	21	Other	2.0	112.0	Malayo-Sumbawan	Austronesian	Word Order
+ice	Icelandic	16	More than one position	65.0	-17.0	Germanic	Indo-European	Word Order
+idu	Idu	20	MorphNeg	29.3333333333	95.8333333333	Digaroan	Sino-Tibetan	Word Order
+idn	Iduna	7	SONegV	-9.33333333333	150.25	Oceanic	Austronesian	Word Order
+mxe	Ifira-Mele	19	OptDoubleNeg	-17.75	168.25	Oceanic	Austronesian	Word Order
+ifu	Ifugao (Batad)	21	Other	16.8333333333	121.083333333	Northern Luzon	Austronesian	Word Order
+ifm	Ifumu	18	ObligDoubleNeg	-3.66666666667	15.3333333333	Bantu	Niger-Congo	Word Order
+ige	Igede	4	SVONeg	7.0	8.16666666667	Idomoid	Niger-Congo	Word Order
+ign	Ignaciano	21	Other	-15.1666666667	-65.4166666667	Bolivia-Parana	Arawakan	Word Order
+ijo	Ijo (Kolokuma)	16	More than one position	4.91666666667	5.66666666667	Ijoid	Ijoid	Word Order
+ik	Ik	9	NegVSO	3.75	34.1666666667	Kuliak	Eastern Sudanic	Word Order
+ika	Ika	20	MorphNeg	10.6666666667	-73.75	Arhuacic	Chibchan	Word Order
+ila	Ila	20	MorphNeg	-15.5833333333	26.5	Bantu	Niger-Congo	Word Order
+imo	Imonda	21	Other	-3.33333333333	141.166666667	Border	Border	Word Order
+ina	Inanwatan	21	Other	-2.08333333333	132.083333333	Inanwatan	South Bird's Head	Word Order
+ind	Indonesian	2	SNegVO	0.0	106.0	Malayo-Sumbawan	Austronesian	Word Order
+igs	Ingessana	4	SVONeg	11.5	34.0	Eastern Jebel	Eastern Sudanic	Word Order
+inn	Innamincka	5	NegSOV	-27.75	140.75	Central Pama-Nyungan	Pama-Nyungan	Word Order
+iqu	Iquito	1	NegSVO	-3.25	-74.0	Zaparoan	Zaparoan	Word Order
+irx	Iranxe	20	MorphNeg	-13.0	-58.0	Iranxe	Iranxe	Word Order
+irq	Iraqw	20	MorphNeg	-4.0	35.5	Southern Cushitic	Afro-Asiatic	Word Order
+irr	Irarutu	4	SVONeg	-3.0	133.5	South Halmahera - West New Guinea	Austronesian	Word Order
+iri	Irish	9	NegVSO	53.0	-8.0	Celtic	Indo-European	Word Order
+ita	Italian	2	SNegVO	43.0	12.0	Romance	Indo-European	Word Order
+ite	Itelmen	18	ObligDoubleNeg	57.0	157.5	Southern Chukotko-Kamchatkan	Chukotko-Kamchatkan	Word Order
+iwm	Iwam	8	SOVNeg	-4.33333333333	142.0	Iwamic	Sepik	Word Order
+kwy	Iwoyo	18	ObligDoubleNeg	-5.5	12.25	Bantu	Niger-Congo	Word Order
+jar	Izere	4	SVONeg	9.5	8.6666667	Benue-Congo Plateau	Niger-Congo	Word Order
+izi	Izi	18	ObligDoubleNeg	6.33333333333	8.0	Igboid	Niger-Congo	Word Order
+jab	Jabêm	4	SVONeg	-6.58333333333	147.783333333	Oceanic	Austronesian	Word Order
+jak	Jakaltek	9	NegVSO	15.6666666667	-91.6666666667	Mayan	Mayan	Word Order
+jms	Jamsay	20	MorphNeg	14.4166666667	-2.5	Dogon	Dogon	Word Order
+jpn	Japanese	20	MorphNeg	37.0	140.0	Japanese	Japanese	Word Order
+jng	Jingpho	21	Other	25.4166666667	97.0	Brahmaputran	Sino-Tibetan	Word Order
+jiv	Jivaro	20	MorphNeg	-2.5	-78.0	Jivaroan	Jivaroan	Word Order
+joh	Johari	21	Other	30.6666666667	80.0	Bodic	Sino-Tibetan	Word Order
+juk	Jukun	4	SVONeg	6.91666666667	10.4166666667	Jukunoid	Niger-Congo	Word Order
+jmo	Jur Mödö	4	SVONeg	6.0	30.0	Bongo-Bagirmi	Central Sudanic	Word Order
+juh	Ju|'hoan	2	SNegVO	-19.0	21.0	Ju-Kung	Kxa	Word Order
+kab	Kabardian	20	MorphNeg	43.5	43.5	Northwest Caucasian	Northwest Caucasian	Word Order
+kby	Kabiyé	20	MorphNeg	9.66666666667	1.16666666667	Grusi	Niger-Congo	Word Order
+kbl	Kabyle	18	ObligDoubleNeg	36.5	5.0	Berber	Afro-Asiatic	Word Order
+kac	Kachari	20	MorphNeg	26.5	91.0	Brahmaputran	Sino-Tibetan	Word Order
+kdz	Kadazan	9	NegVSO	5.91666666667	117.166666667	North Borneo	Austronesian	Word Order
+kdw	Kadiwéu	20	MorphNeg	-20.0	-57.0	Kadiwéu	Guaicuruan	Word Order
+kad	Kadugli	21	Other	11.0	29.6666666667	Kadugli	Kadu	Word Order
+kng	Kaingang	8	SOVNeg	-26.0	-52.0	Je Meridional	Macro-Ge	Word Order
+krr	Kairiru	8	SOVNeg	-3.33333333333	143.583333333	Oceanic	Austronesian	Word Order
+kae	Kaki Ae	16	More than one position	-8.0	145.833333333	Tate	Tate	Word Order
+kls	Kalispel	9	NegVSO	48.0	-117.0	Interior Salish	Salishan	Word Order
+kmk	Kalmyk	16	More than one position	44.0	83.0	Mongolic	Altaic	Word Order
+kll	Kaluli	20	MorphNeg	-6.5	142.75	Bosavi	Trans-New Guinea	Word Order
+kma	Kamaiurá	19	OptDoubleNeg	-12.0833333333	-52.5833333333	Maweti-Guarani	Tupian	Word Order
+kmz	Kamasau	8	SOVNeg	-3.91666666667	143.666666667	Marienberg	Torricelli	Word Order
+kms	Kamass	21	Other	52.0	92.0	Samoyedic	Uralic	Word Order
+kba	Kamba	20	MorphNeg	-1.5	38.0	Bantu	Niger-Congo	Word Order
+kbo	Kambot	20	MorphNeg	-4.25	144.133333333	Ap Ma	Keram	Word Order
+kmr	Kamoro	20	MorphNeg	-4.33333333333	136.0	Asmat-Kamrau Bay	Asmat-Kamrau Bay	Word Order
+kmw	Kamu	21	Other	-13.5833333333	130.833333333	Eastern Daly	Eastern Daly	Word Order
+kan	Kana	2	SNegVO	4.75	7.41666666667	Ogonoid	Niger-Congo	Word Order
+knk	Kanakuru	18	ObligDoubleNeg	10.0	12.0	West Chadic	Afro-Asiatic	Word Order
+xns	Kanashi	21	Other	32.0833333333	77.25	Bodic	Sino-Tibetan	Word Order
+knd	Kannada	20	MorphNeg	14.0	76.0	Dravidian	Dravidian	Word Order
+knb	Kanum (Bädi)	21	Other	-8.83333333333	140.75	Kanum	Yam	Word Order
+knr	Kanuri	20	MorphNeg	12.0	13.0	Western Saharan	Saharan	Word Order
+kar	Kara (in Central African Republic)	4	SVONeg	10.0	23.0	Bongo-Bagirmi	Central Sudanic	Word Order
+krc	Karachay-Balkar	16	More than one position	43.5	42.0	Turkic	Altaic	Word Order
+kkp	Karakalpak	20	MorphNeg	43.0	60.0	Turkic	Altaic	Word Order
+kbw	Karen (Bwe)	18	ObligDoubleNeg	19.5	97.0	Karen	Sino-Tibetan	Word Order
+kpw	Karen (Pwo)	4	SVONeg	13.0	99.1666666667	Karen	Sino-Tibetan	Word Order
+ksg	Karen (Sgaw)	18	ObligDoubleNeg	18.0	97.0	Karen	Sino-Tibetan	Word Order
+kmj	Karimojong	16	More than one position	3.0	34.1666666667	Eastern Nilotic	Eastern Sudanic	Word Order
+kyr	Karkar-Yuri	16	More than one position	-3.75	141.083333333	Eastern Pauwasi	Pauwasi	Word Order
+kaa	Karó (Arára)	8	SOVNeg	-10.3333333333	-62.0	Ramarama	Tupian	Word Order
+kas	Kashmiri	20	MorphNeg	34.0	76.0	Indic	Indo-European	Word Order
+ksn	Kasong	2	SNegVO	12.75	102.116666667	Pearic	Austro-Asiatic	Word Order
+ktc	Katcha	21	Other	10.8333333333	29.6666666667	Kadugli	Kadu	Word Order
+kti	Kati (in West Papua, Indonesia)	8	SOVNeg	-5.75	140.916666667	Ok	Trans-New Guinea	Word Order
+ktl	Katla	18	ObligDoubleNeg	11.8333333333	29.3333333333	Katla-Tima	Kordofanian	Word Order
+kau	Kaulong	21	Other	-6.16666666667	149.666666667	Oceanic	Austronesian	Word Order
+kyz	Kayabí	19	OptDoubleNeg	-11.0	-55.5	Maweti-Guarani	Tupian	Word Order
+kyl	Kayah Li (Eastern)	4	SVONeg	19.0	97.5	Karen	Sino-Tibetan	Word Order
+kyp	Kayapó	8	SOVNeg	-9.0	-52.0	Je Setentrional	Macro-Ge	Word Order
+kel	Kele	4	SVONeg	-2.08333333333	147.083333333	Oceanic	Austronesian	Word Order
+kem	Kemant	20	MorphNeg	12.6666666667	37.4166666667	Central Cushitic	Afro-Asiatic	Word Order
+ken	Kenga	4	SVONeg	12.0	18.0	Bongo-Bagirmi	Central Sudanic	Word Order
+ker	Kera	4	SVONeg	9.83333333333	15.0833333333	East Chadic	Afro-Asiatic	Word Order
+ksa	Keresan (Santa Ana)	21	Other	35.4166666667	-106.666666667	Keresan	Keresan	Word Order
+ket	Ket	7	SONegV	64.0	87.0	Yeniseian	Yeniseian	Word Order
+kew	Kewa	20	MorphNeg	-6.5	143.833333333	Enga_Kewa-Huli	Trans-New Guinea	Word Order
+khl	Khalaj	20	MorphNeg	35.0	50.0	Turkic	Altaic	Word Order
+khg	Khaling	19	OptDoubleNeg	27.5	86.6666666667	Himalayish	Sino-Tibetan	Word Order
+kha	Khalkha	20	MorphNeg	47.0	105.0	Mongolic	Altaic	Word Order
+kmh	Kham	20	MorphNeg	28.5	82.75	Himalayish	Sino-Tibetan	Word Order
+khd	Kham (Dege)	20	MorphNeg	31.8333333333	98.5833333333	Bodic	Sino-Tibetan	Word Order
+knz	Kham (Tibetan) (Nangchen)	20	MorphNeg	32.5	96.5	Bodic	Sino-Tibetan	Word Order
+kty	Khanty	7	SONegV	65.0	65.0	Ugric	Uralic	Word Order
+khr	Kharia	21	Other	22.5	84.3333333333	Munda	Austro-Asiatic	Word Order
+khs	Khasi	2	SNegVO	25.5	92.0	Khasian	Austro-Asiatic	Word Order
+khm	Khmer	2	SNegVO	12.5	105.0	Khmer	Austro-Asiatic	Word Order
+kmu	Khmu'	21	Other	21.0	102.0	Khmuic	Austro-Asiatic	Word Order
+khn	Khün	21	Other	21.0	100.0	Kam-Tai	Tai-Kadai	Word Order
+kik	Kikuyu	20	MorphNeg	-0.75	36.75	Bantu	Niger-Congo	Word Order
+klv	Kilivila	21	Other	-8.5	151.083333333	Oceanic	Austronesian	Word Order
+klw	Kiliwa	19	OptDoubleNeg	31.3333333333	-115.666666667	Yuman	Hokan	Word Order
+kil	Kiluba	20	MorphNeg	-8.0	26.0	Bantu	Niger-Congo	Word Order
+kim	Kimaghama	8	SOVNeg	-8.0	138.5	Kolopom	Kolopom	Word Order
+kga	Kinga	20	MorphNeg	-9.0	34.0	Bantu	Niger-Congo	Word Order
+knn	Kinnauri	7	SONegV	31.5	78.0	Bodic	Sino-Tibetan	Word Order
+kin	Kinyarwanda	20	MorphNeg	-2.0	30.0	Bantu	Niger-Congo	Word Order
+kio	Kiowa	18	ObligDoubleNeg	37.0	-99.0	Kiowa-Tanoan	Kiowa-Tanoan	Word Order
+kri	Kipea	20	MorphNeg	-10.0	-37.0	Kariri	Kariri	Word Order
+kie	Kire	8	SOVNeg	-4.25	144.75	Ruboni	Ramu-Lower Sepik	Word Order
+krb	Kiribati	12	NegVOS	1.33333333333	173.0	Oceanic	Austronesian	Word Order
+kir	Kirma	2	SNegVO	10.25	-4.83333333333	Kirma-Tyurama	Niger-Congo	Word Order
+kis	Kisi	18	ObligDoubleNeg	8.83333333333	-10.1666666667	Southern Mel	Niger-Congo	Word Order
+kiw	Kiwai (Southern)	18	ObligDoubleNeg	-8.0	143.5	Kiwaian	Trans-New Guinea	Word Order
+klm	Klamath	21	Other	42.5	-121.5	Klamath-Modoc	Penutian	Word Order
+kla	Klao	6	SNegOV	4.75	-8.75	Kru	Niger-Congo	Word Order
+shp	Klikitat	9	NegVSO	46.5	-120.0	Sahaptian	Penutian	Word Order
+koa	Koasati	20	MorphNeg	34.8333333333	-85.1666666667	Muskogean	Muskogean	Word Order
+kob	Kobon	20	MorphNeg	-5.16666666667	144.333333333	Kalam-Kobon	Trans-New Guinea	Word Order
+koe	Koegu	16	More than one position	7.0	36.0833333333	South Surmic	Eastern Sudanic	Word Order
+kmo	Koiali (Mountain)	20	MorphNeg	-9.0	147.5	Koiarian	Trans-New Guinea	Word Order
+kta	Koita	20	MorphNeg	-9.33333333333	147.083333333	Koiarian	Trans-New Guinea	Word Order
+kok	Kokborok	20	MorphNeg	24.3333333333	92.5	Brahmaputran	Sino-Tibetan	Word Order
+kkt	Kokota	9	NegVSO	-8.0	159.133333333	Oceanic	Austronesian	Word Order
+kol	Kolami	16	More than one position	20.0	78.5	Dravidian	Dravidian	Word Order
+kmb	Kombai	19	OptDoubleNeg	-5.58333333333	140.0	Ndeiram	Trans-New Guinea	Word Order
+xbi	Kombio	2	SNegVO	-3.5	142.75	Kombio-Arapesh	Torricelli	Word Order
+kzy	Komi-Zyrian	2	SNegVO	65.0	55.0	Permic	Uralic	Word Order
+kom	Komo	2	SNegVO	8.75	33.75	Koman	Koman	Word Order
+kon	Kongo	16	More than one position	-5.0	15.0	Bantu	Niger-Congo	Word Order
+knw	Konkow	20	MorphNeg	39.5	-121.5	Maiduan	Penutian	Word Order
+kni	Konni	2	SNegVO	10.25	-1.58333333333	Oti-Volta	Niger-Congo	Word Order
+krn	Korana	21	Other	-29.5	20.5	Khoe-Kwadi	Khoe-Kwadi	Word Order
+kor	Korean	7	SONegV	37.5	128.0	Korean	Korean	Word Order
+kfe	Koromfe	2	SNegVO	14.25	-0.916666666667	Koromfe	Niger-Congo	Word Order
+krw	Korowai	18	ObligDoubleNeg	-5.25	140.0	Becking-Dawi	Trans-New Guinea	Word Order
+kry	Koryak	18	ObligDoubleNeg	61.0	167.0	Northern Chukotko-Kamchatkan	Chukotko-Kamchatkan	Word Order
+kos	Kosraean	2	SNegVO	5.3	163.0	Oceanic	Austronesian	Word Order
+koy	Koya	20	MorphNeg	17.5	81.3333333333	Dravidian	Dravidian	Word Order
+kch	Koyra Chiini	2	SNegVO	17.0	-3.0	Songhay	Songhay	Word Order
+kse	Koyraboro Senni	6	SNegOV	16.0	0.0	Songhay	Songhay	Word Order
+krh	Krahô	20	MorphNeg	-8.0	-48.0	Je Setentrional	Macro-Ge	Word Order
+kre	Kresh	19	OptDoubleNeg	8.5	24.5	Kresh	Central Sudanic	Word Order
+kro	Krongo	18	ObligDoubleNeg	10.5	30.0	Kadugli	Kadu	Word Order
+knc	Kugu Nganhcara	21	Other	-14.4166666667	142.0	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+kya	Kuku-Yalanji	21	Other	-16.0	145.0	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+klg	Kulung	20	MorphNeg	27.5	87.0	Himalayish	Sino-Tibetan	Word Order
+kmn	Kuman	20	MorphNeg	-5.91666666667	145.0	Chimbu-Wahgi	Trans-New Guinea	Word Order
+kum	Kumauni	21	Other	30.0	80.0	Indic	Indo-European	Word Order
+kun	Kuna	20	MorphNeg	8.0	-77.3333333333	Kuna	Chibchan	Word Order
+knm	Kunama	20	MorphNeg	14.5	37.0	Kunama	Kunama	Word Order
+kmp	Kunimaipa	20	MorphNeg	-8.0	146.833333333	Core Goilalan	Trans-New Guinea	Word Order
+kuo	Kuot	9	NegVSO	-3.05	151.5	Kuot	Kuot	Word Order
+krd	Kurdish (Central)	20	MorphNeg	36.0	44.0	Iranian	Indo-European	Word Order
+kus	Kusunda	20	MorphNeg	28.0	84.6666666667	Kusunda	Kusunda	Word Order
+kut	Kutenai	16	More than one position	49.5	-116.0	Kutenai	Kutenai	Word Order
+thy	Kuuk Thaayorre	7	SONegV	-14.5833333333	141.833333333	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+kuv	Kuvi	20	MorphNeg	18.75	82.6666666667	Dravidian	Dravidian	Word Order
+kwa	Kwaio	2	SNegVO	-8.95	161.0	Oceanic	Austronesian	Word Order
+kwn	Kwangali	21	Other	-18.0	19.5	Bantu	Niger-Congo	Word Order
+kwz	Kwaza	20	MorphNeg	-12.5833333333	-60.6666666667	Kwaza	Kwaza	Word Order
+kwo	Kwoma	19	OptDoubleNeg	-4.16666666667	142.75	Nukuma	Sepik	Word Order
+kwt	Kwomtari	19	OptDoubleNeg	-3.5	141.5	Kwomtari	Kwomtari	Word Order
+kxo	Kxoe	15	OSVNeg	-17.5	22.5	Khoe-Kwadi	Khoe-Kwadi	Word Order
+kgy	Kyirong	20	MorphNeg	28.4166666667	85.3333333333	Bodic	Sino-Tibetan	Word Order
+kyq	Kyuquot	9	NegVSO	50.1666666667	-127.166666667	Southern Wakashan	Wakashan	Word Order
+laa	Laal	4	SVONeg	10.0	17.6666666667	Laal	Laal	Word Order
+lab	Labu	4	SVONeg	-6.75	146.916666667	Oceanic	Austronesian	Word Order
+lac	Lacandón	21	Other	17.0	-91.5	Mayan	Mayan	Word Order
+lad	Ladakhi	20	MorphNeg	34.0	78.0	Bodic	Sino-Tibetan	Word Order
+lag	Lagwan	4	SVONeg	11.5	14.8333333333	Biu-Mandara	Afro-Asiatic	Word Order
+lah	Lahu	7	SONegV	20.0	98.1666666667	Burmese-Lolo	Sino-Tibetan	Word Order
+lai	Lai	8	SOVNeg	22.6666666667	93.6666666667	Kuki-Chin	Sino-Tibetan	Word Order
+lkt	Lakhota	8	SOVNeg	43.8333333333	-101.833333333	Mississippi Valley Siouan	Siouan	Word Order
+lal	Lalo	21	Other	25.0	100.25	Burmese-Lolo	Sino-Tibetan	Word Order
+lmh	Lamaholot	4	SVONeg	-8.25	122.916666667	Central Malayo-Polynesian	Austronesian	Word Order
+lmg	Lamang	19	OptDoubleNeg	11.25	13.5833333333	Biu-Mandara	Afro-Asiatic	Word Order
+lmn	Lamani	8	SOVNeg	17.0	77.0	Indic	Indo-European	Word Order
+lmu	Lamen	18	ObligDoubleNeg	-16.5833333333	168.166666667	Oceanic	Austronesian	Word Order
+lmp	Lampung	20	MorphNeg	-5.0	105.0	Lampungic	Austronesian	Word Order
+lgi	Langi	20	MorphNeg	-4.5	36.0	Bantu	Niger-Congo	Word Order
+lan	Lango	2	SNegVO	2.16666666667	33.0	Western Nilotic	Eastern Sudanic	Word Order
+lao	Lao	2	SNegVO	18.0	103.0	Kam-Tai	Tai-Kadai	Word Order
+lar	Laragia	21	Other	-12.6666666667	130.833333333	Laragiya	Darwin Region	Word Order
+lat	Latvian	20	MorphNeg	57.0	24.0	Baltic	Indo-European	Word Order
+lav	Lavukaleve	16	More than one position	-9.08333333333	159.2	Lavukaleve	Solomons East Papuan	Word Order
+leb	Lebeo	20	MorphNeg	1.75	25.0	Bantu	Niger-Congo	Word Order
+leg	Lega	20	MorphNeg	-2.83333333333	27.1666666667	Bantu	Niger-Congo	Word Order
+agb	Leggbó	20	MorphNeg	6.0	8.0	Upper Cross	Niger-Congo	Word Order
+lel	Lele	4	SVONeg	9.08333333333	15.5833333333	East Chadic	Afro-Asiatic	Word Order
+llm	Lelemi	20	MorphNeg	7.33333333333	0.5	Na-Togo	Niger-Congo	Word Order
+len	Lenakel	18	ObligDoubleNeg	-19.45	169.25	Oceanic	Austronesian	Word Order
+ldu	Lendu	16	More than one position	2.0	30.5	Lendu	Central Sudanic	Word Order
+lep	Lepcha	18	ObligDoubleNeg	27.1666666667	88.5	Himalayish	Sino-Tibetan	Word Order
+let	Leti	20	MorphNeg	-8.2	127.666666667	Central Malayo-Polynesian	Austronesian	Word Order
+lew	Lewo	19	OptDoubleNeg	-16.75	168.333333333	Oceanic	Austronesian	Word Order
+lez	Lezgian	20	MorphNeg	41.6666666667	47.8333333333	Lezgic	Nakh-Daghestanian	Word Order
+lho	Lhomi	16	More than one position	27.6666666667	87.4166666667	Bodic	Sino-Tibetan	Word Order
+lim	Limbu	18	ObligDoubleNeg	27.1666666667	87.75	Himalayish	Sino-Tibetan	Word Order
+lnd	Linda	18	ObligDoubleNeg	6.5	20.75	Ubangi	Niger-Congo	Word Order
+lin	Lingala	4	SVONeg	2.0	18.5	Bantu	Niger-Congo	Word Order
+lis	Lisu	7	SONegV	26.0	98.0	Burmese-Lolo	Sino-Tibetan	Word Order
+lit	Lithuanian	20	MorphNeg	55.0	24.0	Baltic	Indo-European	Word Order
+lgt	Logoti	16	More than one position	3.5	30.0	Moru-Ma'di	Central Sudanic	Word Order
+ara	Lokono	21	Other	5.5	-55.1666666667	Antillean Arawakan	Arawakan	Word Order
+ldo	Londo	20	MorphNeg	5.0	9.16666666667	Bantu	Niger-Congo	Word Order
+lgu	Longgu	12	NegVOS	-9.75	160.666666667	Oceanic	Austronesian	Word Order
+lon	Loniu	4	SVONeg	-2.06666666667	147.333333333	Oceanic	Austronesian	Word Order
+lot	Lotha	20	MorphNeg	26.5	94.25	Central Naga	Sino-Tibetan	Word Order
+lou	Lou	18	ObligDoubleNeg	-2.38333333333	147.316666667	Oceanic	Austronesian	Word Order
+luc	Lucazi	20	MorphNeg	-14.0	20.0	Bantu	Niger-Congo	Word Order
+lug	Lugbara	16	More than one position	3.08333333333	30.9166666667	Moru-Ma'di	Central Sudanic	Word Order
+lui	Luiseño	21	Other	33.3333333333	-117.166666667	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+lbu	Lunda	18	ObligDoubleNeg	-10.6666666667	24.0	Bantu	Niger-Congo	Word Order
+luo	Luo	16	More than one position	-0.5	34.75	Western Nilotic	Eastern Sudanic	Word Order
+kkv	Lusi	4	SVONeg	-5.58333333333	149.666666667	Oceanic	Austronesian	Word Order
+luv	Luvale	18	ObligDoubleNeg	-12.0	22.0	Bantu	Niger-Congo	Word Order
+ma	Ma	18	ObligDoubleNeg	3.5	28.0	Ubangi	Niger-Congo	Word Order
+mad	Ma'di	16	More than one position	3.25	31.5	Moru-Ma'di	Central Sudanic	Word Order
+maa	Maasai	16	More than one position	-3.0	36.0	Eastern Nilotic	Eastern Sudanic	Word Order
+mab	Maba	19	OptDoubleNeg	13.75	20.8333333333	Maban	Maban	Word Order
+mcd	Macedonian	2	SNegVO	41.6666666667	21.75	Slavic	Indo-European	Word Order
+mch	Machiguenga	21	Other	-12.0	-72.6666666667	Pre-Andine Arawakan	Arawakan	Word Order
+mac	Macushi	16	More than one position	4.0	-60.0	Cariban	Cariban	Word Order
+mda	Mada (in Cameroon)	4	SVONeg	10.8333333333	14.1666666667	Biu-Mandara	Afro-Asiatic	Word Order
+mae	Mae	2	SNegVO	-16.0	167.25	Oceanic	Austronesian	Word Order
+mag	Magar	20	MorphNeg	28.0	83.0	Himalayish	Sino-Tibetan	Word Order
+mgi	Magi	7	SONegV	-10.3333333333	149.333333333	Mailuan	Trans-New Guinea	Word Order
+mne	Maidu (Northeast)	20	MorphNeg	40.0	-120.666666667	Maiduan	Penutian	Word Order
+mrs	Mairasi	20	MorphNeg	-3.5	134.0	Mairasic	Mairasic	Word Order
+msn	Maisin	18	ObligDoubleNeg	-9.5	149.166666667	Oceanic	Austronesian	Word Order
+mai	Maithili	21	Other	26.0	86.0	Indic	Indo-European	Word Order
+maj	Majang	1	NegSVO	6.75	35.0	Majang	Eastern Sudanic	Word Order
+mkz	Makaa	20	MorphNeg	3.41666666667	12.25	Bantu	Niger-Congo	Word Order
+mak	Makah	9	NegVSO	48.3333333333	-124.666666667	Southern Wakashan	Wakashan	Word Order
+mkj	Makasae	7	SONegV	-8.66666666667	126.5	East Timor	Greater West Bomberai	Word Order
+mkl	Maklew	21	Other	-7.66666666667	139.416666667	Bulaka River	Bulaka River	Word Order
+mkd	Makonde	20	MorphNeg	-11.0	40.0	Bantu	Niger-Congo	Word Order
+mua	Makua	20	MorphNeg	-15.0	38.6666666667	Bantu	Niger-Congo	Word Order
+mal	Malagasy	12	NegVOS	-20.0	47.0	Barito	Austronesian	Word Order
+mlk	Malakmalak	21	Other	-13.4166666667	130.416666667	Northern Daly	Northern Daly	Word Order
+mym	Malayalam	20	MorphNeg	10.0	76.5	Dravidian	Dravidian	Word Order
+mlu	Maleu	4	SVONeg	-5.71666666667	148.416666667	Oceanic	Austronesian	Word Order
+mlg	Malgwa	20	MorphNeg	11.5	13.75	Biu-Mandara	Afro-Asiatic	Word Order
+mam	Mam	9	NegVSO	15.0	-91.8333333333	Mayan	Mayan	Word Order
+mmn	Mamanwa	9	NegVSO	9.41666666667	125.5	Greater Central Philippine	Austronesian	Word Order
+mmv	Mamvu	20	MorphNeg	3.25	29.0	Mangbutu-Efe	Central Sudanic	Word Order
+mnm	Manam	7	SONegV	-4.0	145.0	Oceanic	Austronesian	Word Order
+nmm	Manange	20	MorphNeg	28.5833333333	84.0	Bodic	Sino-Tibetan	Word Order
+mnc	Manchu	20	MorphNeg	49.5	127.5	Tungusic	Altaic	Word Order
+mdn	Mandan	18	ObligDoubleNeg	46.5	-102.5	Mandan	Siouan	Word Order
+mnd	Mandarin	2	SNegVO	34.0	110.0	Chinese	Sino-Tibetan	Word Order
+mkg	Mandinka (Gambian)	6	SNegOV	13.4166666667	-16.0	Western Mande	Mande	Word Order
+mmb	Mangap-Mbula	4	SVONeg	-5.66666666667	148.083333333	Oceanic	Austronesian	Word Order
+myi	Mangarrayi	13	ONegVS	-14.6666666667	133.5	Mangarrayi	Mangarrayi-Maran	Word Order
+mbt	Mangbetu	16	More than one position	2.5	26.5	Mangbetu	Central Sudanic	Word Order
+mgg	Mangghuer	7	SONegV	36.0	102.0	Mongolic	Altaic	Word Order
+maw	Maninka (Western)	6	SNegOV	13.0	-11.0	Western Mande	Mande	Word Order
+man	Mano	6	SNegOV	7.0	-9.0	Eastern Mande	Mande	Word Order
+mwb	Manobo (Western Bukidnon)	9	NegVSO	7.66666666667	124.75	Greater Central Philippine	Austronesian	Word Order
+mns	Mansi	7	SONegV	62.0	62.0	Ugric	Uralic	Word Order
+mao	Maori	1	NegSVO	-40.0	176.0	Oceanic	Austronesian	Word Order
+map	Mapudungun	20	MorphNeg	-38.0	-72.0	Araucanian	Araucanian	Word Order
+mku	Maranungku	19	OptDoubleNeg	-13.6666666667	130.0	Wagaydy	Western Daly	Word Order
+mhi	Marathi	8	SOVNeg	19.0	76.0	Indic	Indo-European	Word Order
+mny	Margany	5	NegSOV	-27.0	144.5	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+mrg	Margi	4	SVONeg	11.0	13.0	Biu-Mandara	Afro-Asiatic	Word Order
+mar	Maricopa	18	ObligDoubleNeg	33.1666666667	-113.166666667	Yuman	Hokan	Word Order
+mrd	Marind	21	Other	-7.83333333333	140.166666667	Marind-Yaqay	Trans-New Guinea	Word Order
+mrr	Maringarr	21	Other	-14.25	130.0	Bringen	Western Daly	Word Order
+mrq	Marquesan	1	NegSVO	-8.91666666667	-140.083333333	Oceanic	Austronesian	Word Order
+mrh	Marrithiyel	21	Other	-13.8333333333	130.0	Bringen	Western Daly	Word Order
+mrt	Martuthunira	2	SNegVO	-20.8333333333	116.5	Western Pama-Nyungan	Pama-Nyungan	Word Order
+mru	Maru	7	SONegV	23.5	98.5	Burmese-Lolo	Sino-Tibetan	Word Order
+mas	Masa	4	SVONeg	10.5	15.5	Masa	Afro-Asiatic	Word Order
+msk	Masakin	18	ObligDoubleNeg	10.6666666667	30.0	Talodi	Kordofanian	Word Order
+msl	Masalit	20	MorphNeg	13.3333333333	22.0	Maban	Maban	Word Order
+mts	Matis	20	MorphNeg	-4.41666666667	-70.25	Panoan	Pano-Tacanan	Word Order
+mdl	Matngele	21	Other	-13.8333333333	130.416666667	Eastern Daly	Eastern Daly	Word Order
+mtb	Matuumbi	16	More than one position	-8.5	39.0	Bantu	Niger-Congo	Word Order
+mka	Mauka	19	OptDoubleNeg	8.33333333333	-7.5	Western Mande	Mande	Word Order
+mau	Maung	2	SNegVO	-11.9166666667	133.5	Iwaidjan	Iwaidjan	Word Order
+may	Maybrat	4	SVONeg	-1.33333333333	132.5	Maybrat	Maybrat	Word Order
+myg	Mayogo	4	SVONeg	3.0	29.0	Ubangi	Niger-Congo	Word Order
+mzc	Mazatec (Chiquihuitlán)	20	MorphNeg	17.75	-96.9166666667	Popolocan	Oto-Manguean	Word Order
+mba	Mba	21	Other	1.0	25.0	Ubangi	Niger-Congo	Word Order
+mhu	Mbalanhu	2	SNegVO	-17.5	15.0	Bantu	Niger-Congo	Word Order
+mbr	Mbara	4	SVONeg	11.0	15.4166666667	Biu-Mandara	Afro-Asiatic	Word Order
+mby	Mbay	4	SVONeg	8.25	17.5	Bongo-Bagirmi	Central Sudanic	Word Order
+mbe	Mbere	19	OptDoubleNeg	-0.5	14.0	Bantu	Niger-Congo	Word Order
+mbi	Mbili	6	SNegOV	6.11666666667	10.2	Wide Grassfields	Niger-Congo	Word Order
+mdo	Mbodomo	4	SVONeg	4.5	15.5	Gbaya-Manza-Ngbaka	Niger-Congo	Word Order
+mdw	Mbosi	8	SOVNeg	-1.25	15.5	Bantu	Niger-Congo	Word Order
+mbm	Mbum	4	SVONeg	7.75	13.1666666667	Mbumic	Niger-Congo	Word Order
+mee	Me'en	20	MorphNeg	5.0	37.0	South Surmic	Eastern Sudanic	Word Order
+meh	Mehri	16	More than one position	17.0	51.5	Semitic	Afro-Asiatic	Word Order
+mei	Meithei	20	MorphNeg	24.75	94.0	Manipuri	Sino-Tibetan	Word Order
+mek	Mekens	8	SOVNeg	-12.5	-61.5	Tupari	Tupian	Word Order
+mke	Mekeo	20	MorphNeg	-8.33333333333	146.5	Oceanic	Austronesian	Word Order
+mde	Mende	21	Other	7.83333333333	-11.5	Western Mande	Mande	Word Order
+mer	Meryam Mir	21	Other	-9.91666666667	144.083333333	Eastern Trans-Fly	Eastern Trans-Fly	Word Order
+mea	Meyah	4	SVONeg	-1.16666666667	133.5	East Bird's Head	East Bird's Head	Word Order
+mpt	Mian	20	MorphNeg	-4.75	141.5	Ok	Trans-New Guinea	Word Order
+mie	Mien	21	Other	25.0	111.0	Mienic	Hmong-Mien	Word Order
+mii	Miisiirii	20	MorphNeg	13.5	22.0	Taman	Eastern Sudanic	Word Order
+mki	Mikasuki	20	MorphNeg	32.0	-85.0	Muskogean	Muskogean	Word Order
+mik	Mikir	20	MorphNeg	26.3333333333	93.5	Karbic	Sino-Tibetan	Word Order
+hna	Mina	4	SVONeg	10.3333333333	13.8333333333	Biu-Mandara	Afro-Asiatic	Word Order
+msg	Mising	20	MorphNeg	28.5	94.8333333333	Tani	Sino-Tibetan	Word Order
+mis	Miskito	20	MorphNeg	14.0	-83.6666666667	Misumalpan	Misumalpan	Word Order
+mxc	Mixtec (Chalcatongo)	9	NegVSO	17.05	-97.5833333333	Mixtec	Oto-Manguean	Word Order
+mxj	Mixtec (Jicaltepec)	9	NegVSO	16.3333333333	-98.0	Mixtec	Oto-Manguean	Word Order
+mxo	Mixtec (Ocotepec)	9	NegVSO	17.1666666667	-97.75	Mixtec	Oto-Manguean	Word Order
+mxp	Mixtec (Peñoles)	9	NegVSO	17.0833333333	-96.9166666667	Mixtec	Oto-Manguean	Word Order
+miy	Miya	18	ObligDoubleNeg	10.9166666667	9.66666666667	West Chadic	Afro-Asiatic	Word Order
+miz	Mizo	8	SOVNeg	23.1666666667	92.8333333333	Kuki-Chin	Sino-Tibetan	Word Order
+mcv	Mocoví	20	MorphNeg	-28.0	-60.5	Qom	Guaicuruan	Word Order
+mog	Moghol	21	Other	35.0	62.0	Mongolic	Altaic	Word Order
+mok	Mokilese	2	SNegVO	6.66666666667	159.75	Oceanic	Austronesian	Word Order
+mom	Mombum	18	ObligDoubleNeg	-8.25	138.75	Mombum	Mombum	Word Order
+mon	Mon	2	SNegVO	14.8333333333	100.5	Monic	Austro-Asiatic	Word Order
+mga	Mondunga	16	More than one position	2.25	21.5	Ubangi	Niger-Congo	Word Order
+mkh	Mongol (Khamnigan)	16	More than one position	49.0	117.0	Mongolic	Altaic	Word Order
+mni	Moni	21	Other	-3.66666666667	137.0	Paniai Lakes	Trans-New Guinea	Word Order
+mno	Mono (in United States)	5	NegSOV	38.0	-119.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+moo	Mooré	18	ObligDoubleNeg	12.8333333333	-1.25	Oti-Volta	Niger-Congo	Word Order
+mor	Mor	4	SVONeg	-2.95	135.75	South Halmahera - West New Guinea	Austronesian	Word Order
+mri	Moraori	21	Other	-8.58333333333	140.666666667	Moraori	Moraori	Word Order
+moe	Mordvin (Erzya)	21	Other	53.0	45.5	Mordvin	Uralic	Word Order
+mro	Moro	2	SNegVO	11.0	30.1666666667	Heiban	Kordofanian	Word Order
+mou	Moru	16	More than one position	4.75	29.75	Moru-Ma'di	Central Sudanic	Word Order
+mos	Mosetén	16	More than one position	-14.75	-67.8333333333	Mosetenan	Mosetenan	Word Order
+mtu	Motu	16	More than one position	-9.33333333333	147.0	Oceanic	Austronesian	Word Order
+mot	Motuna	20	MorphNeg	-6.61666666667	155.416666667	South Bougainville	South Bougainville	Word Order
+mov	Movima	16	More than one position	-13.8333333333	-65.6666666667	Movima	Movima	Word Order
+mpu	Mpur	4	SVONeg	-0.75	133.25	Mpur	Mpur	Word Order
+aoj	Mufian	18	ObligDoubleNeg	-3.5	143.0	Kombio-Arapesh	Torricelli	Word Order
+mui	Muinane	20	MorphNeg	-1.0	-72.5	Boran	Boran	Word Order
+msc	Muisca	20	MorphNeg	5.0	-74.0	Chibcha-Duit	Chibchan	Word Order
+mum	Mumuye	19	OptDoubleNeg	9.0	11.6666666667	Mumuye-Yandang	Niger-Congo	Word Order
+mna	Muna	2	SNegVO	-5.0	122.5	Celebic	Austronesian	Word Order
+mdg	Mundang	4	SVONeg	9.66666666667	14.5	Mbumic	Niger-Congo	Word Order
+mun	Mundari	7	SONegV	23.0	84.6666666667	Munda	Austro-Asiatic	Word Order
+mgk	Mungaka	19	OptDoubleNeg	5.91666666667	10.0	Wide Grassfields	Niger-Congo	Word Order
+mup	Mupun	19	OptDoubleNeg	9.5	8.83333333333	West Chadic	Afro-Asiatic	Word Order
+mrl	Murle	9	NegVSO	6.5	33.5	South Surmic	Eastern Sudanic	Word Order
+mpa	Murrinh-Patha	7	SONegV	-14.6666666667	129.666666667	Murrinh-Patha	Southern Daly	Word Order
+mur	Mursi	7	SONegV	5.58333333333	36.0833333333	South Surmic	Eastern Sudanic	Word Order
+mrw	Muruwari	21	Other	-28.75	147.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+mgu	Musgu	4	SVONeg	10.8333333333	14.9166666667	Biu-Mandara	Afro-Asiatic	Word Order
+msm	Musom	21	Other	-6.58333333333	147.0	Oceanic	Austronesian	Word Order
+msq	Musqueam	9	NegVSO	49.1666666667	-123.0	Central Salish	Salishan	Word Order
+mus	Mussau	2	SNegVO	-1.45	149.616666667	Oceanic	Austronesian	Word Order
+mut	Mutsun	2	SNegVO	36.8333333333	-121.5	Costanoan	Penutian	Word Order
+mwe	Mwera	20	MorphNeg	-9.0	39.0	Bantu	Niger-Congo	Word Order
+mwo	Mwotlap	18	ObligDoubleNeg	-13.5833333333	167.583333333	Oceanic	Austronesian	Word Order
+nab	Nabak	7	SONegV	-6.41666666667	147.0	Huon	Trans-New Guinea	Word Order
+ndr	Nadroga	21	Other	-18.0833333333	177.416666667	Oceanic	Austronesian	Word Order
+nad	Nadëb	16	More than one position	-1.0	-66.5	Nadahup	Nadahup	Word Order
+nma	Naga (Mao)	8	SOVNeg	25.5	94.3333333333	Angami-Pochuri	Sino-Tibetan	Word Order
+ngt	Naga (Tangkhul)	20	MorphNeg	25.0	94.5	Tangkhul-Maring	Sino-Tibetan	Word Order
+nze	Naga (Zeme)	21	Other	25.1666666667	93.5	Zemeic	Sino-Tibetan	Word Order
+nag	Nagatman	16	More than one position	-3.75	141.5	Yale	Yale	Word Order
+nhh	Nahuatl (Huasteca)	9	NegVSO	22.0	-99.0	Aztecan	Uto-Aztecan	Word Order
+nhm	Nahuatl (Michoacán)	2	SNegVO	18.5	-103.0	Aztecan	Uto-Aztecan	Word Order
+nht	Nahuatl (Tetelcingo)	21	Other	19.6666666667	-99.0	Aztecan	Uto-Aztecan	Word Order
+bio	Nai	20	MorphNeg	-3.71666666667	141.266666667	Kwomtari	Kwomtari	Word Order
+nak	Nakanai	2	SNegVO	-5.58333333333	150.583333333	Oceanic	Austronesian	Word Order
+nal	Nalik	2	SNegVO	-2.95	151.333333333	Oceanic	Austronesian	Word Order
+kho	Nama	8	SOVNeg	-25.5	18.0	Khoe-Kwadi	Khoe-Kwadi	Word Order
+nmb	Nambikuára (Southern)	20	MorphNeg	-14.0	-59.5	Nambikuaran	Nambikuaran	Word Order
+nam	Namia	20	MorphNeg	-3.83333333333	141.75	Yellow River	Sepik	Word Order
+nan	Nandi	20	MorphNeg	0.25	35.0	Eastern Nilotic	Eastern Sudanic	Word Order
+nnk	Nankina	8	SOVNeg	-5.78333333333	146.45	Finisterre	Trans-New Guinea	Word Order
+nph	Nar-Phu	19	OptDoubleNeg	28.6666666667	84.25	Bodic	Sino-Tibetan	Word Order
+nar	Nara (in Ethiopia)	7	SONegV	15.0833333333	37.5833333333	Nara	Eastern Sudanic	Word Order
+nas	Nasioi	16	More than one position	-6.33333333333	155.583333333	South Bougainville	South Bougainville	Word Order
+nav	Navajo	16	More than one position	36.1666666667	-108.0	Athapaskan	Na-Dene	Word Order
+ncm	Ncàm	2	SNegVO	9.33333333333	0.666666666667	Oti-Volta	Niger-Congo	Word Order
+ndb	Ndebele	20	MorphNeg	-25.3333333333	29.0	Bantu	Niger-Congo	Word Order
+ndj	Ndjébbana	21	Other	-12.1666666667	134.116666667	Ndjébbana	Mangrida	Word Order
+ndo	Ndonga	21	Other	-18.0	17.0	Bantu	Niger-Congo	Word Order
+ndu	Ndumu	18	ObligDoubleNeg	-1.66666666667	13.5833333333	Bantu	Niger-Congo	Word Order
+ndt	Ndut	20	MorphNeg	14.9166666667	-16.9166666667	Cangin	Niger-Congo	Word Order
+ndy	Ndyuka	2	SNegVO	4.5	-54.5	Creoles and Pidgins	other	Word Order
+neh	Nehan	2	SNegVO	-4.5	154.2	Oceanic	Austronesian	Word Order
+ntu	Nenets	7	SONegV	70.0	76.0	Samoyedic	Uralic	Word Order
+nne	Nengone	2	SNegVO	-21.5	168.0	Oceanic	Austronesian	Word Order
+naj	Neo-Aramaic (Arbel Jewish)	7	SONegV	36.3833	44.0	Semitic	Afro-Asiatic	Word Order
+nep	Nepali	20	MorphNeg	28.0	85.0	Indic	Indo-European	Word Order
+nev	Nevome	21	Other	31.0	-112.5	Tepiman	Uto-Aztecan	Word Order
+nwd	Newar (Dolakha)	20	MorphNeg	27.3333333333	86.0	Himalayish	Sino-Tibetan	Word Order
+new	Newari (Kathmandu)	20	MorphNeg	27.6666666667	85.5	Himalayish	Sino-Tibetan	Word Order
+nez	Nez Perce	21	Other	46.0	-116.0	Sahaptian	Penutian	Word Order
+ntj	Ngaanyatjarra	20	MorphNeg	-26.0	126.5	Western Pama-Nyungan	Pama-Nyungan	Word Order
+ngd	Ngad'a	21	Other	-8.83333333333	121.0	Central Malayo-Polynesian	Austronesian	Word Order
+ngj	Ngadjumaja	21	Other	-32.3333333333	123.833333333	Western Pama-Nyungan	Pama-Nyungan	Word Order
+ngm	Ngambay	4	SVONeg	8.66666666667	16.0	Bongo-Bagirmi	Central Sudanic	Word Order
+nga	Nganasan	7	SONegV	71.0	93.0	Samoyedic	Uralic	Word Order
+ngn	Ngandi	20	MorphNeg	-13.8333333333	135.0	Eastern Gunwinyguan	Gunwinyguan	Word Order
+ngw	Ngawun	1	NegSVO	-19.0	141.5	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+nbm	Ngbaka (Ma'bo)	4	SVONeg	3.56	18.36	Ubangi	Niger-Congo	Word Order
+nti	Ngiti	16	More than one position	1.33333333333	30.25	Lendu	Central Sudanic	Word Order
+ngi	Ngiyambaa	21	Other	-31.75	145.5	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+ngz	Ngizim	4	SVONeg	12.0833333333	10.9166666667	West Chadic	Afro-Asiatic	Word Order
+ngo	Ngoni	16	More than one position	-11.0	36.0	Bantu	Niger-Congo	Word Order
+ngu	Nguna	2	SNegVO	-16.9166666667	168.5	Oceanic	Austronesian	Word Order
+nbr	Ngäbere	21	Other	8.66666666667	-82.0	Guaymiic	Chibchan	Word Order
+nia	Nias	12	NegVOS	1.0	97.75	Northwest Sumatra-Barrier Islands	Austronesian	Word Order
+nca	Nicobarese (Car)	12	NegVOS	9.0	93.0	Nicobarese	Austro-Asiatic	Word Order
+nsn	Nisenan	20	MorphNeg	39.0	-121.0	Maiduan	Penutian	Word Order
+nsg	Nisgha	9	NegVSO	55.0	-130.0	Tsimshianic	Tsimshianic	Word Order
+nif	Niuafo'ou	9	NegVSO	-15.5666666667	-175.616666667	Oceanic	Austronesian	Word Order
+niu	Niuean	9	NegVSO	-19.05	-170.116666667	Oceanic	Austronesian	Word Order
+niv	Nivkh	19	OptDoubleNeg	53.3333333333	142.0	Nivkh	Nivkh	Word Order
+nke	Nkem	19	OptDoubleNeg	6.58333333333	8.58333333333	Ekoid-Mbe	Niger-Congo	Word Order
+nkn	Nkonya	20	MorphNeg	7.16666666667	0.25	Tano	Niger-Congo	Word Order
+nko	Nkore-Kiga	20	MorphNeg	-0.916666666667	29.8333333333	Bantu	Niger-Congo	Word Order
+noc	Nocte	20	MorphNeg	27.0	95.5	Brahmaputran	Sino-Tibetan	Word Order
+non	Noni	18	ObligDoubleNeg	6.41666666667	10.5833333333	Beboid	Niger-Congo	Word Order
+noo	Noon	20	MorphNeg	14.8333333333	-16.8333333333	Cangin	Niger-Congo	Word Order
+nor	Norwegian	16	More than one position	61.0	8.0	Germanic	Indo-European	Word Order
+nse	Nsenga	16	More than one position	-14.5	30.8333333333	Bantu	Niger-Congo	Word Order
+nto	Ntomba	20	MorphNeg	-2.0	18.3333333333	Bantu	Niger-Congo	Word Order
+nua	Nuaulu	4	SVONeg	-3.25	129.166666667	Central Malayo-Polynesian	Austronesian	Word Order
+nbd	Nubian (Dongolese)	20	MorphNeg	18.25	30.75	Nubian	Eastern Sudanic	Word Order
+nku	Nubian (Kunuz)	20	MorphNeg	23.0	33.0	Nubian	Eastern Sudanic	Word Order
+nue	Nuer	5	NegSOV	8.33333333333	32.0	Western Nilotic	Eastern Sudanic	Word Order
+nun	Nung (in Vietnam)	2	SNegVO	21.9166666667	106.416666667	Kam-Tai	Tai-Kadai	Word Order
+nug	Nunggubuyu	21	Other	-13.75	135.666666667	Nunggubuyu	Gunwinyguan	Word Order
+yi	Nuosu	21	Other	28.0	103.0	Burmese-Lolo	Sino-Tibetan	Word Order
+nup	Nupe	4	SVONeg	9.16666666667	5.41666666667	Nupoid	Niger-Congo	Word Order
+nyk	Nyamkad	21	Other	32.0	78.5	Bodic	Sino-Tibetan	Word Order
+nyi	Nyimang	7	SONegV	12.1666666667	29.3333333333	Nyimang	Eastern Sudanic	Word Order
+nis	Nyishi	20	MorphNeg	27.5	93.5	Tani	Sino-Tibetan	Word Order
+nza	Nzakara	4	SVONeg	5.0	23.0	Ubangi	Niger-Congo	Word Order
+ood	O'odham	21	Other	32.0	-112.0	Tepiman	Uto-Aztecan	Word Order
+obo	Obolo	20	MorphNeg	4.58333333333	7.83333333333	Lower Cross	Niger-Congo	Word Order
+ocu	Ocuilteco	20	MorphNeg	18.9166666667	-99.6666666667	Matlatzincan	Oto-Manguean	Word Order
+obg	Ogbronuagum	20	MorphNeg	4.75	6.86666666667	Central Delta	Niger-Congo	Word Order
+oir	Oirat	21	Other	37.5	93.0	Mongolic	Altaic	Word Order
+oji	Ojibwa (Eastern)	16	More than one position	46.0	-80.0	Algonquian	Algic	Word Order
+oks	Oksapmin	7	SONegV	-5.16666666667	142.166666667	Oksapmin	Trans-New Guinea	Word Order
+olo	Olo	4	SVONeg	-3.41666666667	142.0	Central Wapei	Torricelli	Word Order
+omh	Omaha	20	MorphNeg	42.0	-97.25	Mississippi Valley Siouan	Siouan	Word Order
+one	One	19	OptDoubleNeg	-3.25	141.916666667	West Wapei	Torricelli	Word Order
+ond	Oneida	21	Other	43.0	-75.6666666667	Northern Iroquoian	Iroquoian	Word Order
+ong	Onge	8	SOVNeg	10.75	92.4166666667	South Andamanese	South Andamanese	Word Order
+ori	Orig	20	MorphNeg	12.1666666667	30.8333333333	Rashad	Kordofanian	Word Order
+oya	Oriya	20	MorphNeg	21.0	85.0	Indic	Indo-European	Word Order
+ork	Orok	20	MorphNeg	49.5	143.5	Tungusic	Altaic	Word Order
+oro	Orokaiva	16	More than one position	-8.83333333333	148.25	Binanderean	Trans-New Guinea	Word Order
+orh	Oromo (Harar)	18	ObligDoubleNeg	9.0	42.0	Lowland East Cushitic	Afro-Asiatic	Word Order
+orw	Oromo (Waata)	18	ObligDoubleNeg	-3.33333333333	39.8333333333	Lowland East Cushitic	Afro-Asiatic	Word Order
+osa	Osage	8	SOVNeg	37.0	-94.0	Mississippi Valley Siouan	Siouan	Word Order
+oss	Ossetic	21	Other	43.0	44.0	Iranian	Indo-European	Word Order
+otm	Otomí (Mezquital)	12	NegVOS	20.1666666667	-99.1666666667	Otomian	Oto-Manguean	Word Order
+otr	Otoro	18	ObligDoubleNeg	11.1666666667	30.5	Heiban	Kordofanian	Word Order
+paa	Pa'a	19	OptDoubleNeg	11.0	9.25	West Chadic	Afro-Asiatic	Word Order
+pkn	Paakantyi	1	NegSVO	-32.5	142.5	Central Pama-Nyungan	Pama-Nyungan	Word Order
+pms	Paamese	20	MorphNeg	-16.5	168.25	Oceanic	Austronesian	Word Order
+pno	Paiute (Northern)	5	NegSOV	42.0	-118.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+pai	Paiwan	16	More than one position	22.5	120.833333333	Paiwan	Austronesian	Word Order
+pal	Palauan	2	SNegVO	7.5	134.583333333	Palauan	Austronesian	Word Order
+plg	Palaung	2	SNegVO	22.6666666667	96.6666666667	Palaungic	Austro-Asiatic	Word Order
+pnn	Pangasinan	9	NegVSO	15.9166666667	120.333333333	Northern Luzon	Austronesian	Word Order
+png	Pangwa	20	MorphNeg	-10.0	34.75	Bantu	Niger-Congo	Word Order
+pan	Panjabi	7	SONegV	31.0	74.0	Indic	Indo-European	Word Order
+pre	Pare	20	MorphNeg	-4.0	36.5	Bantu	Niger-Congo	Word Order
+psh	Pashto	20	MorphNeg	33.0	67.0	Iranian	Indo-European	Word Order
+pat	Patep	4	SVONeg	-6.91666666667	146.583333333	Oceanic	Austronesian	Word Order
+ptt	Pattani	20	MorphNeg	32.75	76.75	Bodic	Sino-Tibetan	Word Order
+ptw	Patwin	20	MorphNeg	39.0	-122.333333333	Wintuan	Penutian	Word Order
+plh	Paulohi	19	OptDoubleNeg	-3.25	128.75	Central Malayo-Polynesian	Austronesian	Word Order
+pau	Paumarí	16	More than one position	-6.0	-64.0	Arauan	Arauan	Word Order
+paw	Pawaian	16	More than one position	-7.0	145.083333333	Pawaian	Teberan-Pawaian	Word Order
+per	Pero	18	ObligDoubleNeg	9.58333333333	11.0	West Chadic	Afro-Asiatic	Word Order
+prs	Persian	20	MorphNeg	32.0	54.0	Iranian	Indo-European	Word Order
+pia	Piaroa	20	MorphNeg	5.0	-67.0	Maco-Piaroa	Sáliban	Word Order
+pga	Pilagá	20	MorphNeg	-25.0	-60.0	Qom	Guaicuruan	Word Order
+pba	Pima Bajo	16	More than one position	29.0	-111.0	Tepiman	Uto-Aztecan	Word Order
+pip	Pipil	21	Other	13.8333333333	-89.5833333333	Aztecan	Uto-Aztecan	Word Order
+prh	Pirahã	20	MorphNeg	-7.0	-62.0	Mura	Mura	Word Order
+pis	Pisa	18	ObligDoubleNeg	-5.16666666667	139.166666667	Awju	Trans-New Guinea	Word Order
+pit	Pitjantjatjara	21	Other	-26.0	130.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+pod	Podoko	11	VSONeg	11.0	14.0833333333	Biu-Mandara	Afro-Asiatic	Word Order
+pog	Pogoro	21	Other	-8.75	36.5	Bantu	Niger-Congo	Word Order
+poh	Pohnpeian	2	SNegVO	6.88333333333	158.25	Oceanic	Austronesian	Word Order
+pkt	Pokot	19	OptDoubleNeg	1.5	35.5	Southern Nilotic	Eastern Sudanic	Word Order
+pol	Polish	2	SNegVO	52.0	20.0	Slavic	Indo-European	Word Order
+pme	Pomo (Eastern)	20	MorphNeg	39.0	-122.666666667	Pomoan	Hokan	Word Order
+pso	Pomo (Southeastern)	18	ObligDoubleNeg	39.0	-122.5	Pomoan	Hokan	Word Order
+zqs	Popoluca (Sierra)	2	SNegVO	18.3333333333	-95.1666666667	Mixe-Zoque	Mixe-Zoque	Word Order
+psw	Port Sandwich	20	MorphNeg	-16.5	167.75	Oceanic	Austronesian	Word Order
+por	Portuguese	2	SNegVO	39.0	-8.0	Romance	Indo-European	Word Order
+pra	Prasuni	16	More than one position	35.5	71.0	Nuristani	Indo-European	Word Order
+pul	Puluwat	2	SNegVO	7.33333333333	149.333333333	Oceanic	Austronesian	Word Order
+pum	Pumi	20	MorphNeg	28.0	101.0	Na-Qiangic	Sino-Tibetan	Word Order
+pun	Pungupungu	21	Other	-13.5	130.416666667	Wandjiginy	Wandjiginy	Word Order
+prk	Purki	20	MorphNeg	34.6666666667	76.0	Bodic	Sino-Tibetan	Word Order
+pur	Purépecha	21	Other	19.5	-101.666666667	Tarascan	Tarascan	Word Order
+pae	Páez	20	MorphNeg	2.66666666667	-76.0	Páezan	Páezan	Word Order
+par	Päri	21	Other	5.0	32.5	Western Nilotic	Eastern Sudanic	Word Order
+qaw	Qawasqar	21	Other	-49.0	-75.0	Alacalufan	Alacalufan	Word Order
+qhu	Quechua (Huallaga)	18	ObligDoubleNeg	-9.5	-75.5	Quechuan	Quechuan	Word Order
+qim	Quechua (Imbabura)	16	More than one position	0.333333333333	-78.0	Quechuan	Quechuan	Word Order
+qui	Quileute	9	NegVSO	47.9166666667	-124.25	Chimakuan	Chimakuan	Word Order
+rag	Raga	18	ObligDoubleNeg	-15.5	168.166666667	Oceanic	Austronesian	Word Order
+ram	Rama	16	More than one position	11.75	-83.75	Rama	Chibchan	Word Order
+rpa	Rang Pas	21	Other	30.3333333333	79.3333333333	Bodic	Sino-Tibetan	Word Order
+rao	Rao	20	MorphNeg	-4.75	144.5	Rao	Ramu-Lower Sepik	Word Order
+rap	Rapanui	19	OptDoubleNeg	-27.1166666667	-109.366666667	Oceanic	Austronesian	Word Order
+ras	Rashad	20	MorphNeg	11.8333333333	31.05	Rashad	Kordofanian	Word Order
+rwa	Rawa	21	Other	-5.83333333333	146.0	Finisterre	Trans-New Guinea	Word Order
+raw	Rawang	7	SONegV	27.5	97.5	Nungish	Sino-Tibetan	Word Order
+rem	Remo	20	MorphNeg	18.0	82.0	Munda	Austro-Asiatic	Word Order
+res	Resígaro	5	NegSOV	-2.41666666667	-71.5	Japura-Colombia	Arawakan	Word Order
+ret	Retuarã	20	MorphNeg	-0.5	-70.6666666667	Tucanoan	Tucanoan	Word Order
+rik	Rikbaktsa	21	Other	-11.8333333333	-57.5	Rikbaktsa	Macro-Ge	Word Order
+rim	Rimi	20	MorphNeg	-5.0	34.6666666667	Bantu	Niger-Congo	Word Order
+rwe	Romani (Welsh)	19	OptDoubleNeg	52.0	-4.0	Indic	Indo-European	Word Order
+rom	Romanian	2	SNegVO	46.0	25.0	Romance	Indo-European	Word Order
+rsu	Romansch (Sursilvan)	21	Other	46.6666666667	8.83333333333	Romance	Indo-European	Word Order
+ron	Ron	4	SVONeg	9.0	8.75	West Chadic	Afro-Asiatic	Word Order
+rot	Rotuman	18	ObligDoubleNeg	-12.5	177.066666667	Oceanic	Austronesian	Word Order
+rov	Roviana	9	NegVSO	-8.25	157.333333333	Oceanic	Austronesian	Word Order
+ruk	Rukai (Tanan)	16	More than one position	22.8333333333	120.833333333	Rukai	Austronesian	Word Order
+cos	Rumsien	21	Other	36.8333333333333	-121.75	Costanoan	Penutian	Word Order
+rum	Rumu	20	MorphNeg	-7.16666666667	144.25	Turama-Kikorian	Trans-New Guinea	Word Order
+run	Runga	19	OptDoubleNeg	10.3333333333	21.0	Maban	Maban	Word Order
+rny	Runyankore	20	MorphNeg	-0.5	30.5	Bantu	Niger-Congo	Word Order
+rru	Runyoro-Rutooro	20	MorphNeg	1.5	31.3333333333	Bantu	Niger-Congo	Word Order
+rus	Russian	2	SNegVO	56.0	38.0	Slavic	Indo-European	Word Order
+sno	Saami (Northern)	21	Other	69.0	24.0	Saami	Uralic	Word Order
+sah	Sahu	16	More than one position	1.16666666667	127.5	North Halmaheran	North Halmaheran	Word Order
+sak	Sakao	20	MorphNeg	-15.1666666667	167.083333333	Oceanic	Austronesian	Word Order
+slb	Saliba (in Papua New Guinea)	6	SNegOV	-10.5833333333	150.716666667	Oceanic	Austronesian	Word Order
+sal	Salinan	18	ObligDoubleNeg	36.0	-121.0	Salinan	Hokan	Word Order
+syu	Salt-Yui	20	MorphNeg	-6.28333333333	145.033333333	Chimbu-Wahgi	Trans-New Guinea	Word Order
+sam	Samoan	16	More than one position	-13.9166666667	-171.833333333	Oceanic	Austronesian	Word Order
+sdw	Sandawe	20	MorphNeg	-5.0	35.0	Sandawe	Sandawe	Word Order
+san	Sango	4	SVONeg	5.0	18.0	Ubangi	Niger-Congo	Word Order
+sgu	Sangu	20	MorphNeg	-1.5	11.8333333333	Bantu	Niger-Congo	Word Order
+sta	Santa	21	Other	31.5	107.5	Mongolic	Altaic	Word Order
+stl	Santali	7	SONegV	24.5	87.0	Munda	Austro-Asiatic	Word Order
+snm	Sanuma	8	SOVNeg	4.5	-64.6666666667	Yanomam	Yanomam	Word Order
+sap	Sapuan	2	SNegVO	15.1666666667	106.833333333	Bahnaric	Austro-Asiatic	Word Order
+src	Sarcee	21	Other	52.5	-116.0	Athapaskan	Na-Dene	Word Order
+srd	Sardinian	2	SNegVO	40.0	9.0	Romance	Indo-European	Word Order
+sar	Sare	20	MorphNeg	-4.5	143.166666667	Sepik Hill	Sepik	Word Order
+svs	Savosavo	21	Other	-9.13333333333	159.8	Savosavo	Solomons East Papuan	Word Order
+sed	Sedang	2	SNegVO	14.8333333333	108.0	Bahnaric	Austro-Asiatic	Word Order
+see	Seediq	12	NegVOS	24.1666666667	121.416666667	Atayalic	Austronesian	Word Order
+sel	Selknam	14	OVNegS	-53.0	-70.0	Chonan Proper	Chonan	Word Order
+sem	Sema	20	MorphNeg	26.0	94.5	Angami-Pochuri	Sino-Tibetan	Word Order
+sme	Seme	8	SOVNeg	11.0	-4.91666666667	Siamou	Siamou	Word Order
+sml	Semelai	16	More than one position	3.0	103.0	Aslian	Austro-Asiatic	Word Order
+smn	Seminole	20	MorphNeg	33.0	-84.0	Muskogean	Muskogean	Word Order
+sgl	Sengele	18	ObligDoubleNeg	-1.83333333333	17.3333333333	Bantu	Niger-Congo	Word Order
+snt	Sentani	20	MorphNeg	-2.58333333333	140.583333333	Sentanic	Sentanic	Word Order
+scr	Serbian-Croatian	21	Other	44.0	19.0	Slavic	Indo-European	Word Order
+ser	Seri	20	MorphNeg	29.0	-112.0	Seri	Hokan	Word Order
+ses	Sesotho	21	Other	-28.0	27.0	Bantu	Niger-Congo	Word Order
+shb	Shabo	8	SOVNeg	7.58333333333	35.4166666667	Shabo	Shabo	Word Order
+shm	Shambala	20	MorphNeg	-4.25	38.25	Bantu	Niger-Congo	Word Order
+shh	Sharanahua	20	MorphNeg	-11.0	-70.0	Panoan	Pano-Tacanan	Word Order
+sht	Shatt	4	SVONeg	10.8333333333	30.0	Daju	Eastern Sudanic	Word Order
+skw	Shekhawati	21	Other	28.0	75.5	Indic	Indo-European	Word Order
+she	Sherpa	20	MorphNeg	27.75	86.8333333333	Bodic	Sino-Tibetan	Word Order
+shl	Shilluk	2	SNegVO	9.66666666667	31.75	Western Nilotic	Eastern Sudanic	Word Order
+sna	Shina	7	SONegV	36.0	74.0	Indic	Indo-European	Word Order
+shk	Shipibo-Konibo	20	MorphNeg	-7.5	-75.0	Panoan	Pano-Tacanan	Word Order
+shi	Shiriana	8	SOVNeg	3.5	-62.8333333333	Yanomam	Yanomam	Word Order
+shn	Shona	20	MorphNeg	-18.0	31.0	Bantu	Niger-Congo	Word Order
+shu	Shuswap	16	More than one position	52.0	-120.0	Interior Salish	Salishan	Word Order
+sia	Siane	20	MorphNeg	-6.08333333333	145.2	Siane-Yagaria	Trans-New Guinea	Word Order
+sir	Siar	2	SNegVO	-4.66666666667	152.916666667	Oceanic	Austronesian	Word Order
+sid	Sidaama	7	SONegV	6.66666666667	38.5	Highland East Cushitic	Afro-Asiatic	Word Order
+skk	Sikkimese	21	Other	27.8333333333	88.5	Bodic	Sino-Tibetan	Word Order
+sil	Sila	7	SONegV	12.3333333333	21.75	Daju	Eastern Sudanic	Word Order
+sng	Sinaugoro	7	SONegV	-9.83333333333	147.833333333	Oceanic	Austronesian	Word Order
+sio	Sio	4	SVONeg	-5.95	147.333333333	Oceanic	Austronesian	Word Order
+sin	Siona	20	MorphNeg	0.333333333333	-76.25	Tucanoan	Tucanoan	Word Order
+qum	Sipakapense	9	NegVSO	15.25	-91.75	Mayan	Mayan	Word Order
+sro	Siroi	8	SOVNeg	-5.5	146.0	Rai Coast	Trans-New Guinea	Word Order
+ssa	Sisaala	2	SNegVO	10.8333333333	-2.66666666667	Grusi	Niger-Congo	Word Order
+sis	Sisiqa	2	SNegVO	-7.0	156.833333333	Oceanic	Austronesian	Word Order
+sla	Slave	8	SOVNeg	67.0	-125.0	Athapaskan	Na-Dene	Word Order
+slo	Slovene	2	SNegVO	46.0	15.0	Slavic	Indo-European	Word Order
+so	So	9	NegVSO	2.58333333333	34.75	Kuliak	Eastern Sudanic	Word Order
+sob	Sobei	2	SNegVO	-1.91666666667	138.75	Oceanic	Austronesian	Word Order
+sod	Soddo	20	MorphNeg	8.5	38.5	Semitic	Afro-Asiatic	Word Order
+som	Somali	7	SONegV	3.0	45.0	Lowland East Cushitic	Afro-Asiatic	Word Order
+snn	Soninke	6	SNegOV	15.0	-10.5	Western Mande	Mande	Word Order
+son	Sonsorol-Tobi	21	Other	5.33333333333	132.25	Oceanic	Austronesian	Word Order
+srb	Sorbian	20	MorphNeg	51.5	14.0	Slavic	Indo-European	Word Order
+stn	Sotho (Northern)	18	ObligDoubleNeg	-24.0	29.0	Bantu	Niger-Congo	Word Order
+sgb	Sougb	4	SVONeg	-1.5	134.0	East Bird's Head	East Bird's Head	Word Order
+tou	Southern Toussian	21	Other	11.0	-4.66666666667	Tusia	Niger-Congo	Word Order
+spa	Spanish	2	SNegVO	40.0	-4.0	Romance	Indo-European	Word Order
+squ	Squamish	9	NegVSO	49.6666666667	-123.166666667	Central Salish	Salishan	Word Order
+sre	Sre	2	SNegVO	11.5	108.0	Bahnaric	Austro-Asiatic	Word Order
+sti	Stieng	2	SNegVO	11.8333333333	106.75	Bahnaric	Austro-Asiatic	Word Order
+sud	Sudest	21	Other	-11.5	153.45	Oceanic	Austronesian	Word Order
+sue	Suena	21	Other	-7.75	147.55	Binanderean	Trans-New Guinea	Word Order
+skm	Sukuma	20	MorphNeg	-2.83333333333	32.0	Bantu	Niger-Congo	Word Order
+sul	Sulka	20	MorphNeg	-5.08333333333	151.916666667	Sulka	Sulka	Word Order
+sun	Sundanese	2	SNegVO	-7.0	107.0	Malayo-Sumbawan	Austronesian	Word Order
+sup	Supyire	19	OptDoubleNeg	11.5	-5.58333333333	Senufo	Niger-Congo	Word Order
+swa	Swahili	20	MorphNeg	-6.5	39.0	Bantu	Niger-Congo	Word Order
+swe	Swedish	16	More than one position	60.0	15.0	Germanic	Indo-European	Word Order
+tab	Taba	4	SVONeg	0.0	127.5	South Halmahera - West New Guinea	Austronesian	Word Order
+tba	Tabare	20	MorphNeg	-6.08333333333	145.0	Chimbu-Wahgi	Trans-New Guinea	Word Order
+tbl	Tabla	18	ObligDoubleNeg	-2.45	140.416666667	Sentanic	Sentanic	Word Order
+tbw	Tabwa	20	MorphNeg	-8.0	29.5	Bantu	Niger-Congo	Word Order
+tac	Tacana	21	Other	-13.5	-68.0	Tacanan	Pano-Tacanan	Word Order
+tag	Tagalog	9	NegVSO	15.0	121.0	Greater Central Philippine	Austronesian	Word Order
+tah	Tahitian	9	NegVSO	-17.6666666667	-149.583333333	Oceanic	Austronesian	Word Order
+taf	Taiof	2	SNegVO	-5.53333333333	154.633333333	Oceanic	Austronesian	Word Order
+trr	Tairora	5	NegSOV	-6.5	146.0	Tairora	Trans-New Guinea	Word Order
+taj	Tajik	20	MorphNeg	38.6666666667	70.0	Iranian	Indo-European	Word Order
+tkl	Takelma	21	Other	42.5	-123.0	Takelma	Takelma	Word Order
+tak	Takia	7	SONegV	-4.66666666667	146.0	Oceanic	Austronesian	Word Order
+tal	Talinga	20	MorphNeg	0.416666666667	29.6666666667	Bantu	Niger-Congo	Word Order
+tma	Tama	20	MorphNeg	14.5	22.0	Taman	Eastern Sudanic	Word Order
+tmm	Tamabo	2	SNegVO	-15.6666666667	167.166666667	Oceanic	Austronesian	Word Order
+tam	Tamang (Eastern)	7	SONegV	27.5	85.666666666667	Bodic	Sino-Tibetan	Word Order
+tsk	Tamashek	19	OptDoubleNeg	20.0	-2.0	Berber	Afro-Asiatic	Word Order
+tml	Tamil	20	MorphNeg	11.0	78.5	Dravidian	Dravidian	Word Order
+tnc	Tanacross	18	ObligDoubleNeg	63.5	-143.5	Athapaskan	Na-Dene	Word Order
+tan	Tangale	20	MorphNeg	9.75	11.3333333333	West Chadic	Afro-Asiatic	Word Order
+tpt	Tapieté	20	MorphNeg	-19.75	-61.6666666667	Maweti-Guarani	Tupian	Word Order
+tce	Tarahumara (Central)	21	Other	27.5	-107.5	Tarahumaran	Uto-Aztecan	Word Order
+twe	Tarahumara (Western)	21	Other	27.5	-108.0	Tarahumaran	Uto-Aztecan	Word Order
+tao	Tarao	20	MorphNeg	24.25	94.1666666667	Kuki-Chin	Sino-Tibetan	Word Order
+tar	Tariana	19	OptDoubleNeg	1.0	-69.1666666667	Japura-Colombia	Arawakan	Word Order
+tsg	Tausug	21	Other	6.0	121.0	Greater Central Philippine	Austronesian	Word Order
+tau	Tauya	7	SONegV	-5.75	145.333333333	Rai Coast	Trans-New Guinea	Word Order
+taw	Tawala	21	Other	-10.3333333333	150.666666667	Oceanic	Austronesian	Word Order
+tbo	Tboli	9	NegVSO	6.16666666667	124.5	Bilic	Austronesian	Word Order
+tel	Telugu	20	MorphNeg	16.0	79.0	Dravidian	Dravidian	Word Order
+tmn	Temein	19	OptDoubleNeg	11.9166666667	29.4166666667	Temein	Eastern Sudanic	Word Order
+tmr	Temiar	2	SNegVO	5.0	101.5	Aslian	Austro-Asiatic	Word Order
+tne	Temne	20	MorphNeg	8.66666666667	-13.0833333333	Northern Mel	Niger-Congo	Word Order
+ten	Tennet	1	NegSVO	4.41666666667	32.5	South Surmic	Eastern Sudanic	Word Order
+tny	Tenyer	21	Other	10.6666666667	-4.5	Senufo	Niger-Congo	Word Order
+teo	Teop	18	ObligDoubleNeg	-5.66666666667	155.0	Oceanic	Austronesian	Word Order
+tee	Tepehua (Huehuetla)	16	More than one position	20.5	-98.0	Totonacan	Totonacan	Word Order
+tep	Tepehua (Tlachichilco)	21	Other	20.5833333333	-98.25	Totonacan	Totonacan	Word Order
+tpn	Tepehuan (Northern)	9	NegVSO	26.3333333333	-107.0	Tepiman	Uto-Aztecan	Word Order
+ter	Tera	19	OptDoubleNeg	11.0	11.8333333333	Biu-Mandara	Afro-Asiatic	Word Order
+trb	Teribe	8	SOVNeg	9.33333333333	-82.6666666667	Western Isthmic Chibchan	Chibchan	Word Order
+tes	Teso	1	NegSVO	1.83333333333	33.8333333333	Eastern Nilotic	Eastern Sudanic	Word Order
+tet	Tetela	20	MorphNeg	-4.0	24.0	Bantu	Niger-Congo	Word Order
+ttn	Tetun	2	SNegVO	-9.0	126.0	Central Malayo-Polynesian	Austronesian	Word Order
+tha	Thai	2	SNegVO	16.0	101.0	Kam-Tai	Tai-Kadai	Word Order
+thn	Thangmi	20	MorphNeg	27.75	86.0	Himalayish	Sino-Tibetan	Word Order
+tho	Thompson	16	More than one position	49.75	-121.75	Interior Salish	Salishan	Word Order
+thu	Thulung	18	ObligDoubleNeg	27.4166666667	86.5	Himalayish	Sino-Tibetan	Word Order
+tdr	Tibetan (Drokpa)	20	MorphNeg	32.25	81.25	Bodic	Sino-Tibetan	Word Order
+tmo	Tibetan (Modern Literary)	16	More than one position	29.8333333333	91.5	Bodic	Sino-Tibetan	Word Order
+tis	Tibetan (Shigatse)	20	MorphNeg	29.0	89.0	Bodic	Sino-Tibetan	Word Order
+tib	Tibetan (Standard Spoken)	20	MorphNeg	30.0	91.0	Bodic	Sino-Tibetan	Word Order
+tid	Tidore	19	OptDoubleNeg	0.75	127.5	North Halmaheran	North Halmaheran	Word Order
+tgk	Tigak	2	SNegVO	-2.71666666667	150.8	Oceanic	Austronesian	Word Order
+tig	Tigrinya	18	ObligDoubleNeg	14.5	38.5	Semitic	Afro-Asiatic	Word Order
+tgr	Tigré	20	MorphNeg	16.5	38.5	Semitic	Afro-Asiatic	Word Order
+tja	Tiipay (Jamul)	19	OptDoubleNeg	32.1666666667	-116.5	Yuman	Hokan	Word Order
+tim	Timugon	9	NegVSO	5.0	116.0	North Borneo	Austronesian	Word Order
+tin	Tinrin	16	More than one position	-21.6666666667	165.75	Oceanic	Austronesian	Word Order
+tir	Tiriyo	20	MorphNeg	3.25	-55.75	Cariban	Cariban	Word Order
+trm	Tirmaga	18	ObligDoubleNeg	5.75	35.25	South Surmic	Eastern Sudanic	Word Order
+tiv	Tiv	4	SVONeg	7.5	9.0	Tivoid	Niger-Congo	Word Order
+twn	Tiwa (Northern)	20	MorphNeg	36.5	-105.5	Kiowa-Tanoan	Kiowa-Tanoan	Word Order
+tiw	Tiwi	2	SNegVO	-11.5	131.0	Tiwian	Tiwian	Word Order
+tlp	Tlapanec	20	MorphNeg	17.0833333333	-99.0	Subtiaba-Tlapanec	Oto-Manguean	Word Order
+tli	Tlingit	7	SONegV	59.0	-135.0	Tlingit	Na-Dene	Word Order
+tob	Toba	20	MorphNeg	-26.5	-59.0	Qom	Guaicuruan	Word Order
+tbt	Tobati	19	OptDoubleNeg	-2.58333333333	140.666666667	Oceanic	Austronesian	Word Order
+tlo	Tobelo	20	MorphNeg	1.5	128.5	North Halmaheran	North Halmaheran	Word Order
+tod	Tod	20	MorphNeg	32.4166666667	77.25	Bodic	Sino-Tibetan	Word Order
+tke	Tokelauan	21	Other	-9.0	-172.0	Oceanic	Austronesian	Word Order
+tla	Tolai	21	Other	-4.25	152.083333333	Oceanic	Austronesian	Word Order
+toz	Tonga (in Zambia)	20	MorphNeg	-17.0	27.0	Bantu	Niger-Congo	Word Order
+tng	Tongan	16	More than one position	-21.1666666667	-175.166666667	Oceanic	Austronesian	Word Order
+ton	Tonkawa	20	MorphNeg	30.25	-96.75	Tonkawa	Tonkawa	Word Order
+tri	Trique (Copala)	9	NegVSO	17.1666666667	-97.9166666667	Trique	Oto-Manguean	Word Order
+tru	Trumai	16	More than one position	-11.9166666667	-53.5833333333	Trumai	Trumai	Word Order
+tsf	Tsafiki	20	MorphNeg	-1.0	-79.3333333333	Barbacoan	Barbacoan	Word Order
+tsz	Tsez	8	SOVNeg	42.25	45.75	Avar-Andic-Tsezic	Nakh-Daghestanian	Word Order
+tgl	Tshangla	19	OptDoubleNeg	27.8333333333	92.1666666667	Bodic	Sino-Tibetan	Word Order
+tsi	Tsimshian (Coast)	18	ObligDoubleNeg	52.5	-129.0	Tsimshianic	Tsimshianic	Word Order
+ttu	Tsova-Tush	7	SONegV	42.5	45.5	Nakh	Nakh-Daghestanian	Word Order
+tbu	Tubu	20	MorphNeg	16.0	15.0	Western Saharan	Saharan	Word Order
+tuc	Tucano	20	MorphNeg	0.5	-69.1666666667	Tucanoan	Tucanoan	Word Order
+tuk	Tukang Besi	12	NegVOS	-5.5	123.5	Celebic	Austronesian	Word Order
+tki	Tuki	20	MorphNeg	4.58333333333	11.5	Bantu	Niger-Congo	Word Order
+tul	Tulu	20	MorphNeg	12.75	75.3333333333	Dravidian	Dravidian	Word Order
+tnn	Tunen	6	SNegOV	4.75	10.6666666667	Bantu	Niger-Congo	Word Order
+tun	Tunica	20	MorphNeg	32.6666666667	-91.0	Tunica	Tunica	Word Order
+tpr	Tupuri	4	SVONeg	10.1666666667	14.75	Mbumic	Niger-Congo	Word Order
+tna	Turkana	20	MorphNeg	3.0	35.5	Eastern Nilotic	Eastern Sudanic	Word Order
+tur	Turkish	20	MorphNeg	39.0	35.0	Turkic	Altaic	Word Order
+tus	Tuscarora	21	Other	36.0	-77.5	Northern Iroquoian	Iroquoian	Word Order
+tte	Tutelo	18	ObligDoubleNeg	37.6666666667	-78.75	Ohio Valley Siouan	Siouan	Word Order
+tvl	Tuvaluan	13	ONegVS	-8.5	179.166666667	Oceanic	Austronesian	Word Order
+tuv	Tuvan	20	MorphNeg	52.0	95.0	Turkic	Altaic	Word Order
+tuy	Tuyuca	20	MorphNeg	0.5	-70.0833333333	Tucanoan	Tucanoan	Word Order
+tye	Tyeraity	18	ObligDoubleNeg	-13.0	130.333333333	Northern Daly	Northern Daly	Word Order
+tzo	Tzotzil	12	NegVOS	16.5	-92.6666666667	Mayan	Mayan	Word Order
+tzu	Tzutujil	16	More than one position	14.6666666667	-91.3333333333	Mayan	Mayan	Word Order
+tsh	Tümpisa Shoshone	19	OptDoubleNeg	37.0	-117.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+uby	Ubykh	20	MorphNeg	43.6666666667	39.6666666667	Northwest Caucasian	Northwest Caucasian	Word Order
+udi	Udi	20	MorphNeg	41.0	48.0	Lezgic	Nakh-Daghestanian	Word Order
+udh	Udihe	7	SONegV	47.6666666667	136.25	Tungusic	Altaic	Word Order
+udm	Udmurt	8	SOVNeg	57.5	52.5	Permic	Uralic	Word Order
+ukr	Ukrainian	2	SNegVO	49.0	33.0	Slavic	Indo-European	Word Order
+uld	Uldeme	4	SVONeg	10.95	14.1166666667	Biu-Mandara	Afro-Asiatic	Word Order
+uli	Ulithian	2	SNegVO	9.91666666667	139.583333333	Oceanic	Austronesian	Word Order
+una	Una	7	SONegV	-4.66666666667	140.0	Mek	Trans-New Guinea	Word Order
+ung	Ungarinjin	13	ONegVS	-16.3333333333	126.0	Worrorran	Worrorran	Word Order
+url	Urak Lawoi'	2	SNegVO	8.0	98.3333333333	Malayo-Sumbawan	Austronesian	Word Order
+urn	Urarina	20	MorphNeg	-4.5	-75.5	Urarina	Urarina	Word Order
+urt	Urat	19	OptDoubleNeg	-3.66666666667	142.833333333	Urat	Torricelli	Word Order
+urd	Urdu	7	SONegV	25.0	67.0	Indic	Indo-European	Word Order
+uru	Uru	21	Other	-16.75	-69.0	Uru-Chipaya	Uru-Chipaya	Word Order
+urk	Urubú-Kaapor	8	SOVNeg	-2.33333333333	-46.5	Maweti-Guarani	Tupian	Word Order
+usa	Usan	7	SONegV	-4.83333333333	145.166666667	North Adelbert	Trans-New Guinea	Word Order
+usr	Usarufa	20	MorphNeg	-6.41666666667	145.583333333	Gauwa	Trans-New Guinea	Word Order
+uyg	Uyghur	20	MorphNeg	40.0	80.0	Turkic	Altaic	Word Order
+uzb	Uzbek	20	MorphNeg	39.0	66.0	Turkic	Altaic	Word Order
+vai	Vai	6	SNegOV	6.91666666667	-11.25	Western Mande	Mande	Word Order
+ven	Venda	20	MorphNeg	-22.0	30.0	Bantu	Niger-Congo	Word Order
+vie	Vietnamese	2	SNegVO	10.5	106.5	Vietic	Austro-Asiatic	Word Order
+vnm	Vinmavis	20	MorphNeg	-16.1666666667	167.416666667	Oceanic	Austronesian	Word Order
+wag	Wagiman	7	SONegV	-14.0	131.25	Wagiman	Wagiman	Word Order
+wah	Wahgi	21	Other	-5.83333333333	144.716666667	Chimbu-Wahgi	Trans-New Guinea	Word Order
+wak	Wakhi	7	SONegV	36.5	72.0	Iranian	Indo-European	Word Order
+wal	Walman	2	SNegVO	-3.21666666667	142.5	West Palei	Torricelli	Word Order
+wam	Wambaya	21	Other	-18.6666666667	135.75	Wambayan	Mirndi	Word Order
+wbn	Wambon	20	MorphNeg	-5.5	140.416666667	Dumut	Trans-New Guinea	Word Order
+wme	Wambule	20	MorphNeg	29.25	85.9166666667	Himalayish	Sino-Tibetan	Word Order
+wna	Wan	8	SOVNeg	7.83333333333	-5.86666666667	Eastern Mande	Mande	Word Order
+wao	Waorani	20	MorphNeg	-1.0	-76.5	Waorani	Waorani	Word Order
+wap	Wappo	20	MorphNeg	38.5	-122.5	Wappo	Wappo-Yukian	Word Order
+wra	Warao	20	MorphNeg	9.33333333333	-61.6666666667	Warao	Warao	Word Order
+wrd	Wardaman	21	Other	-15.5	131.0	Yangmanic	Yangmanic	Word Order
+wrk	Warekena	18	ObligDoubleNeg	1.5	-67.5	Alto-Orinoco	Arawakan	Word Order
+wrm	Warembori	4	SVONeg	-1.66666666667	137.583333333	South Halmahera - West New Guinea	Austronesian	Word Order
+war	Wari'	12	NegVOS	-11.3333333333	-65.0	Chapacura-Wanham	Chapacura-Wanham	Word Order
+wlw	Warluwara	5	NegSOV	-22.0	138.5	Western Pama-Nyungan	Pama-Nyungan	Word Order
+wrn	Warndarang	20	MorphNeg	-14.4166666667	135.583333333	Mara	Mangarrayi-Maran	Word Order
+wrb	Warrnambool	21	Other	-38.25	142.5	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+was	Washo	20	MorphNeg	39.25	-120.0	Washo	Washo	Word Order
+wsk	Waskia	7	SONegV	-4.5	146.0	Kowan	Trans-New Guinea	Word Order
+wtm	Watam	20	MorphNeg	-3.91666666667	144.5	Lower Ramu	Ramu-Lower Sepik	Word Order
+wau	Waunana	20	MorphNeg	4.0	-77.0	Choco	Choco	Word Order
+way	Wayampi	18	ObligDoubleNeg	1.0	-52.0	Maweti-Guarani	Tupian	Word Order
+wed	Wedau	21	Other	-10.1666666667	150.166666667	Oceanic	Austronesian	Word Order
+wel	Welsh	9	NegVSO	52.0	-3.0	Celtic	Indo-European	Word Order
+wec	Welsh (Colloquial)	10	VSNegO	52.75	-3.5833	Celtic	Indo-European	Word Order
+wem	Wembawemba	12	NegVOS	-35.3333333333	144.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+wma	West Makian	4	SVONeg	0.5	127.583333333	North Halmaheran	North Halmaheran	Word Order
+wic	Wichita	16	More than one position	33.3333333333	-97.3333333333	Northern Caddoan	Caddoan	Word Order
+wch	Wichí	16	More than one position	-22.5	-62.5833333333	Matacoan	Matacoan	Word Order
+wmu	Wik Munkan	21	Other	-13.9166666667	141.75	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+woi	Woisika	19	OptDoubleNeg	-8.25	124.833333333	Alor-Pantar	Greater West Bomberai	Word Order
+wly	Wolaytta	20	MorphNeg	6.83333333333	37.75	Ta-Ne-Omotic	Afro-Asiatic	Word Order
+wol	Woleaian	2	SNegVO	7.33333333333	143.833333333	Oceanic	Austronesian	Word Order
+wlf	Wolof	16	More than one position	15.25	-16.0	Wolof	Niger-Congo	Word Order
+wom	Womo	8	SOVNeg	-2.91666666667	141.833333333	Serra Hills	Skou	Word Order
+wya	Wyandot	17	OptSingleNeg	44.3333333333	-77.5	Northern Iroquoian	Iroquoian	Word Order
+xho	Xhosa	20	MorphNeg	-32.0	27.0	Bantu	Niger-Congo	Word Order
+xar	Xârâcùù	2	SNegVO	-21.6666666667	166.0	Oceanic	Austronesian	Word Order
+ygr	Yagaria	20	MorphNeg	-6.33333333333	145.416666667	Siane-Yagaria	Trans-New Guinea	Word Order
+yag	Yagua	21	Other	-3.5	-72.0	Peba-Yaguan	Peba-Yaguan	Word Order
+ykt	Yakut	20	MorphNeg	62.0	130.0	Turkic	Altaic	Word Order
+yam	Yaminahua	20	MorphNeg	-8.0	-73.0	Panoan	Pano-Tacanan	Word Order
+ybi	Yamphu	20	MorphNeg	27.5833333333	87.3333333333	Himalayish	Sino-Tibetan	Word Order
+yao	Yao (in Malawi)	20	MorphNeg	-14.5	35.5	Bantu	Niger-Congo	Word Order
+yap	Yapese	9	NegVSO	9.58333333333	138.166666667	Yapese	Austronesian	Word Order
+yqy	Yaqay	18	ObligDoubleNeg	-6.58333333333	139.25	Marind-Yaqay	Trans-New Guinea	Word Order
+yaq	Yaqui	6	SNegOV	27.5	-110.25	Cahita	Uto-Aztecan	Word Order
+yar	Yareba	20	MorphNeg	-9.5	148.5	Yareban	Trans-New Guinea	Word Order
+yei	Yei	21	Other	-7.91666666667	140.916666667	Yei	Yam	Word Order
+ylm	Yelmek	21	Other	-7.66666666667	139.166666667	Bulaka River	Bulaka River	Word Order
+yiw	Yi (Wuding-Luquan)	21	Other	25.5	102.5	Burmese-Lolo	Sino-Tibetan	Word Order
+yid	Yidiny	7	SONegV	-17.0	145.75	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+yim	Yimas	20	MorphNeg	-4.66666666667	143.55	Lower Sepik	Ramu-Lower Sepik	Word Order
+yin	Yindjibarndi	2	SNegVO	-21.75	117.916666667	Western Pama-Nyungan	Pama-Nyungan	Word Order
+yng	Yingkarta	2	SNegVO	-25.1666666667	114.833333333	Western Pama-Nyungan	Pama-Nyungan	Word Order
+yok	Yokuts (Yaudanchi)	21	Other	36.0833333333	-119.083333333	Yokuts	Penutian	Word Order
+yor	Yoruba	2	SNegVO	8.0	4.33333333333	Defoid	Niger-Congo	Word Order
+yuc	Yuchi	21	Other	35.75	-86.75	Yuchi	Yuchi	Word Order
+yko	Yukaghir (Kolyma)	20	MorphNeg	65.75	150.833333333	Yukaghir	Yukaghir	Word Order
+ytu	Yukaghir (Tundra)	20	MorphNeg	69.0	155.0	Yukaghir	Yukaghir	Word Order
+yuk	Yukulta	18	ObligDoubleNeg	-17.3333333333	138.833333333	Tangkic	Tangkic	Word Order
+yul	Yulu	3	SVNegO	8.5	25.25	Bongo-Bagirmi	Central Sudanic	Word Order
+yur	Yurok	21	Other	41.3333333333	-124.0	Yurok	Algic	Word Order
+yuw	Yuwaalaraay	5	NegSOV	-29.5	148.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+zan	Zande	18	ObligDoubleNeg	4.0	26.0	Ubangi	Niger-Congo	Word Order
+zpr	Zaparo	18	ObligDoubleNeg	-2.0	-76.3333333333	Zaparoan	Zaparoan	Word Order
+zai	Zapotec (Isthmus)	9	NegVSO	16.416667	-95.0	Zapotecan	Oto-Manguean	Word Order
+zap	Zapotec (Mitla)	20	MorphNeg	16.8	-96.25	Zapotecan	Oto-Manguean	Word Order
+zzo	Zapotec (Zoogocho)	9	NegVSO	17.25	-96.25	Zapotecan	Oto-Manguean	Word Order
+zay	Zayse	20	MorphNeg	5.91666666667	37.3333333333	Ta-Ne-Omotic	Afro-Asiatic	Word Order
+zaz	Zazaki	20	MorphNeg	39.0	41.0	Iranian	Indo-European	Word Order
+zch	Zoque (Chimalapa)	19	OptDoubleNeg	16.75	-94.75	Mixe-Zoque	Mixe-Zoque	Word Order
+zqc	Zoque (Copainalá)	16	More than one position	17.0	-93.25	Mixe-Zoque	Mixe-Zoque	Word Order
+zqo	Zoque (Ostuacan)	21	Other	17.4166666667	-93.3	Mixe-Zoque	Mixe-Zoque	Word Order
+zul	Zulu	20	MorphNeg	-30.0	30.0	Bantu	Niger-Congo	Word Order
+zun	Zuni	18	ObligDoubleNeg	35.0833333333	-108.833333333	Zuni	Zuni	Word Order
+rgc	rGyalrong (Caodeng)	20	MorphNeg	31.6666666667	101.75	Na-Qiangic	Sino-Tibetan	Word Order
+eme	Émérillon	18	ObligDoubleNeg	3.16666666667	-52.4166666667	Maweti-Guarani	Tupian	Word Order
+omi	Ömie	21	Other	-9.05	148.083333333	Koiarian	Trans-New Guinea	Word Order

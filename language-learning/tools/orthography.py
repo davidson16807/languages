@@ -2,7 +2,7 @@
 class Orthography:
     """
     `Orthography` is the product of a `Language` and a "script".
-    It represents a single language being depicted in a single writing system.
+    It represents a single language being depicted in a single script.
     `Orthography` is a "tree mapping" class, analogous to those found under nodemaps.py.
     As a tree mapping class, `Orthography` is a category with at least one arrow
     that maps a syntax tree in one representation to another syntax tree in another representation.

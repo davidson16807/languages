@@ -1,16 +1,16 @@
 							
-	verb suffix	1	2	3			
-active	singular	-m	-∅	-t		active verb suffixes would have indicated primitive pronouns for agents and forces in a VS language	
-active	dual	-wos/we	-tes/tom	-tes/tam			
-active	plural	-mos/me	-te	-ent			
-stative	singular	-h₂e	-th₂e	-e		active verb suffixes would have indicated primitive pronouns for patients and themes in a VS language	
-stative	dual	-we	-?	-?			
-stative	plural	-me	-e	-er			
+	verb suffix	singular	dual	plural			
+active	1	-m	-wos/we	-mos/me		active verb suffixes would have indicated primitive pronouns for agents and forces in a VS language	
+active	2	-∅	-tes/tom	-te			
+active	3	-t	-tes/tam	-ent			
+stative	1	-h₂e	-we	-me		stative verb suffixes would have indicated primitive pronouns for patients and themes in a VS language	
+stative	2	-th₂e	-?	-e			
+stative	3	-e	-?	-er			
 							
-	pronoun stems	1	2				
-	singular	m-	tU-				
-	dual	nH-	UH-				
-	plural	ns-	Us-				
+	pronoun stems	singular	dual	plural			
+	1	m-	nH-	ns-			
+	2	tU-	UH-	Us-			
+							
 							
 	pronoun suffixes	tonic	enclitic			nominative pronouns came as a later development, or more accurately,	
 	accusative	-me/-we	-∅			the verb suffixes stood as nominative pronouns in an early form of the language	
@@ -26,3 +26,6 @@ animate	plural	-es	-es	-ms		vocative singular would have reflected the root of t
 inanimate	singular	-m	-m	-m		inanimate singular suffixes would have indicated particles for patients and themes, since they could never be agents	
 inanimate	dual	-h₁	-h₁	-h₁			
 inanimate	plural	-h₂	-h₂	-h₂			
+							
+							
+							

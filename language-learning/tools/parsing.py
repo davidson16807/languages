@@ -25,7 +25,7 @@ class SeparatedValuesFileParsing:
 
 class TokenParsing:
     '''
-    Parses native data structures that are populated by strings that represent tokens.
+    Parses data structures that are populated by strings that represent tokens.
     "Tokens" are arbitrary strings that use a restricted characterset: [0-9a-z-]
     `TokenParsing` leverages the above guarantee to simplify deck construction and guarantee validity.
     '''

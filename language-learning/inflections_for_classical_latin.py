@@ -80,7 +80,7 @@ foreign_language = Language(
     ),
     RuleSyntax(
         parse_any.terms('subject adverbial indirect-object direct-object verb'), 
-        parse_any.tokens('stock-adposition det adj n np clause')
+        parse_any.tokens('stock-adposition det n adj np clause')
     ),
     {'language-type':'foreign'},
     list_tools,

@@ -1,0 +1,35 @@
+Matthew S. Dryer. 2013. Position of Negative Morpheme With Respect to Subject, Object, and Verb.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+WALS Online (v2020.4) [Data set]. Zenodo.
+https://doi.org/10.5281/zenodo.13950591
+(Available online at http://wals.info/chapter/144, Accessed on 2025-03-23.)
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+baf	Bafut	9	SVO, but NegSNegOV	6.25	9.91666666667	Wide Grassfields	Niger-Congo	Word Order
+bbu	Barambu	13	SVO/VSO, but [Neg-V]SO(Neg)	3.5	27.0	Ubangi	Niger-Congo	Word Order
+crn	Cornish	5	SVO, but NegVSO	50.3333333333	-5.0	Celtic	Indo-European	Word Order
+din	Dinka	16	SVO/SOV, but SNegOV	8.5	28.0	Western Nilotic	Eastern Sudanic	Word Order
+dgo	Dongo	14	SVO/SOV, but SVONeg	3.0	30.0	Ubangi	Niger-Congo	Word Order
+grb	Grebo	2	SVO, but SNegOV	5.0	-8.0	Kru	Niger-Congo	Word Order
+gud	Gude	1	VSO, but NegSVO	10.4166666667	13.4166666667	Biu-Mandara	Afro-Asiatic	Word Order
+hun	Hungarian	15	SVO/SOV, but SNegVO	47.0	20.0	Ugric	Uralic	Word Order
+kyz	Kayabí	11	SOV but  SONeg[V-Neg]/S[Neg-V-Neg] O	-11.0	-55.5	Maweti-Guarani	Tupian	Word Order
+kla	Klao	2	SVO, but SNegOV	4.75	-8.75	Kru	Niger-Congo	Word Order
+agb	Leggbó	7	SVO but SO[Neg-V]	6.0	8.0	Upper Cross	Niger-Congo	Word Order
+lgt	Logoti	14	SVO/SOV, but SVONeg	3.5	30.0	Moru-Ma'di	Central Sudanic	Word Order
+lug	Lugbara	14	SVO/SOV, but SVONeg	3.08333333333	30.9166666667	Moru-Ma'di	Central Sudanic	Word Order
+mad	Ma'di	14	SVO/SOV, but SVONeg	3.25	31.5	Moru-Ma'di	Central Sudanic	Word Order
+maj	Majang	1	VSO, but NegSVO	6.75	35.0	Majang	Eastern Sudanic	Word Order
+mao	Maori	1	VSO, but NegSVO	-40.0	176.0	Oceanic	Austronesian	Word Order
+mrq	Marquesan	1	VSO, but NegSVO	-8.91666666667	-140.083333333	Oceanic	Austronesian	Word Order
+msk	Masakin	12	SVO/VSO, but NegSVONeg	10.6666666667	30.0	Talodi	Kordofanian	Word Order
+mbi	Mbili	2	SVO, but SNegOV	6.11666666667	10.2	Wide Grassfields	Niger-Congo	Word Order
+mdw	Mbosi	4	SVO, but SOVNeg	-1.25	15.5	Bantu	Niger-Congo	Word Order
+mee	Me'en	6	SVO but SO[V-Neg]	5.0	37.0	South Surmic	Eastern Sudanic	Word Order
+mou	Moru	14	SVO/SOV, but SVONeg	4.75	29.75	Moru-Ma'di	Central Sudanic	Word Order
+mur	Mursi	3	SVO, but SONegV	5.58333333333	36.0833333333	South Surmic	Eastern Sudanic	Word Order
+nad	Nadëb	8	OSV but NegSVO/O[Neg-V]S	-1.0	-66.5	Nadahup	Nadahup	Word Order
+nue	Nuer	17	SVO/SOV, but SOVNeg	8.33333333333	32.0	Western Nilotic	Eastern Sudanic	Word Order
+ten	Tennet	1	VSO, but NegSVO	4.41666666667	32.5	South Surmic	Eastern Sudanic	Word Order
+tes	Teso	1	VSO, but NegSVO	1.83333333333	33.8333333333	Eastern Nilotic	Eastern Sudanic	Word Order
+trm	Tirmaga	10	SVO, but SONeg[V-Neg]/SO[Neg-V-Neg]	5.75	35.25	South Surmic	Eastern Sudanic	Word Order

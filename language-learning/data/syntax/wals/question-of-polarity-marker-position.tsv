@@ -1,0 +1,891 @@
+Matthew S. Dryer. 2013. Position of Polar Question Particles.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+WALS Online (v2020.4) [Data set]. Zenodo.
+https://doi.org/10.5281/zenodo.13950591
+(Available online at http://wals.info/chapter/92, Accessed on 2025-03-23.)
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+xoo	!Xóõ	1	Initial	-24.0	21.5	Tu	Tu	Word Order
+ani	//Ani	2	Final	-18.9166666667	21.9166666667	Khoe-Kwadi	Khoe-Kwadi	Word Order
+aar	Aari	6	No question particle	6.0	36.5833333333	South Omotic	Afro-Asiatic	Word Order
+abk	Abkhaz	6	No question particle	43.0833333333	41.0	Northwest Caucasian	Northwest Caucasian	Word Order
+abu	Abun	2	Final	-0.5	132.5	Abun	Abun	Word Order
+ace	Acehnese	5	In either of two positions	5.5	95.5	Malayo-Sumbawan	Austronesian	Word Order
+acn	Achang	2	Final	25.0	98.5	Burmese-Lolo	Sino-Tibetan	Word Order
+acu	Achuar	6	No question particle	-2.66667	-76.0	Jivaroan	Jivaroan	Word Order
+adi	Adioukrou	2	Final	5.41666666667	-4.58333333333	Agneby	Niger-Congo	Word Order
+adz	Adzera	6	No question particle	-6.25	146.25	Oceanic	Austronesian	Word Order
+aga	Agarabi	6	No question particle	-6.16666666667	146.0	Gauwa	Trans-New Guinea	Word Order
+agc	Agta (Central)	1	Initial	17.9666666667	121.833333333	Greater Central Philippine	Austronesian	Word Order
+agd	Agta (Dupaningan)	3	Second position	18.0	122.083333333	Greater Central Philippine	Austronesian	Word Order
+ain	Ainu	2	Final	43.0	143.0	Ainu	Ainu	Word Order
+ajg	Ajagbe	2	Final	7.0	1.75	Gbe	Niger-Congo	Word Order
+akn	Akan	5	In either of two positions	6.5	-1.25	Tano	Niger-Congo	Word Order
+akh	Akha	2	Final	21.8333333333	99.8333333333	Burmese-Lolo	Sino-Tibetan	Word Order
+all	Ala'ala	1	Initial	-8.91666666667	146.75	Oceanic	Austronesian	Word Order
+ala	Alamblak	6	No question particle	-4.66666666667	143.333333333	Sepik Hill	Sepik	Word Order
+alb	Albanian	1	Initial	41.0	20.0	Albanian	Indo-European	Word Order
+amc	Amahuaca	3	Second position	-10.5	-72.5	Panoan	Pano-Tacanan	Word Order
+amn	Amanab	5	In either of two positions	-3.58333333333	141.25	Border	Border	Word Order
+aml	Ambae (Lolovoli Northeast)	6	No question particle	-15.4166666667	167.883333333	Oceanic	Austronesian	Word Order
+amq	Ambai	2	Final	-1.83333333333	136.5	South Halmahera - West New Guinea	Austronesian	Word Order
+ame	Amele	2	Final	-5.25	145.583333333	Mabuso	Trans-New Guinea	Word Order
+amo	Amo	2	Final	10.3333333333	8.66666666667	Central Kainji	Niger-Congo	Word Order
+anj	Anejom	2	Final	-20.2	169.8	Oceanic	Austronesian	Word Order
+agm	Angami	2	Final	25.6666666667	94.5	Angami-Pochuri	Sino-Tibetan	Word Order
+anc	Angas	2	Final	9.5	9.5	West Chadic	Afro-Asiatic	Word Order
+ang	Anggor	6	No question particle	-3.75	141.166666667	Senagi	Senagi	Word Order
+ano	Anong	6	No question particle	27.3333333333	98.75	Nungish	Sino-Tibetan	Word Order
+anu	Anufo	2	Final	10.0833333333	0.25	Tano	Niger-Congo	Word Order
+ao	Ao	2	Final	26.5833333333	94.6666666667	Central Naga	Sino-Tibetan	Word Order
+apw	Apache (Western)	6	No question particle	33.75	-110.0	Athapaskan	Na-Dene	Word Order
+apl	Apalaí	6	No question particle	0.0	-54.0	Cariban	Cariban	Word Order
+apt	Apatani	2	Final	27.5	93.75	Tani	Sino-Tibetan	Word Order
+api	Apinayé	1	Initial	-5.5	-48.0	Je Setentrional	Macro-Ge	Word Order
+apu	Apurinã	6	No question particle	-9.0	-67.0	Purus	Arawakan	Word Order
+aeg	Arabic (Egyptian)	1	Initial	30.0	31.0	Semitic	Afro-Asiatic	Word Order
+arg	Arabic (Gulf)	6	No question particle	26.0	49.0	Semitic	Afro-Asiatic	Word Order
+ams	Arabic (Modern Standard)	1	Initial	25.0	42.0	Semitic	Afro-Asiatic	Word Order
+amr	Arabic (Moroccan)	1	Initial	34.0	-6.0	Semitic	Afro-Asiatic	Word Order
+asy	Arabic (Syrian)	2	Final	34.0	38.0	Semitic	Afro-Asiatic	Word Order
+ana	Araona	6	No question particle	-12.3333333333	-67.75	Tacanan	Pano-Tacanan	Word Order
+aab	Arapesh (Abu)	2	Final	-3.45	142.95	Kombio-Arapesh	Torricelli	Word Order
+arp	Arapesh (Mountain)	2	Final	-3.46666666667	143.166666667	Kombio-Arapesh	Torricelli	Word Order
+arc	Archi	6	No question particle	42.0	46.8333333333	Lezgic	Nakh-Daghestanian	Word Order
+arm	Armenian (Eastern)	6	No question particle	40.0	45.0	Armenian	Indo-European	Word Order
+arw	Armenian (Western)	6	No question particle	38.5	43.5	Armenian	Indo-European	Word Order
+alk	Arop-Lokep	6	No question particle	-5.38333333333	147.05	Oceanic	Austronesian	Word Order
+aro	Arosi	2	Final	-10.25	161.333333333	Oceanic	Austronesian	Word Order
+amp	Arrernte (Mparntwe)	3	Second position	-24.0	136.0	Central Pama-Nyungan	Pama-Nyungan	Word Order
+asm	Asmat	2	Final	-5.5	138.5	Asmat-Kamrau Bay	Asmat-Kamrau Bay	Word Order
+ass	Assamese	6	No question particle	26.0	93.0	Indic	Indo-European	Word Order
+ata	Atayal	2	Final	24.5	121.333333333	Atayalic	Austronesian	Word Order
+ath	Athpare	6	No question particle	27.0	87.3333333333	Himalayish	Sino-Tibetan	Word Order
+ava	Avar	3	Second position	42.5	46.5	Avar-Andic-Tsezic	Nakh-Daghestanian	Word Order
+avk	Avikam	2	Final	5.16666666667	-5.5	Avikam-Alladian	Niger-Congo	Word Order
+awp	Awa Pit	2	Final	1.5	-78.25	Barbacoan	Barbacoan	Word Order
+awt	Awtuw	2	Final	-3.58333333333	142.0	Ram	Sepik	Word Order
+aym	Aymara (Central)	2	Final	-17.0	-69.0	Aymaran	Aymaran	Word Order
+azi	Azari (Iranian)	6	No question particle	37.5	47.0	Turkic	Altaic	Word Order
+aze	Azerbaijani	2	Final	40.5	48.5	Turkic	Altaic	Word Order
+bab	Babungo	2	Final	6.11666666667	10.4166666667	Wide Grassfields	Niger-Congo	Word Order
+bdm	Badimaya	6	No question particle	-27.6666666667	118.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+baf	Bafut	6	No question particle	6.25	9.91666666667	Wide Grassfields	Niger-Congo	Word Order
+bag	Bagirmi	2	Final	11.6666666667	16.0	Bongo-Bagirmi	Central Sudanic	Word Order
+bai	Bai	2	Final	26.0	100.0	Macro-Bai	Sino-Tibetan	Word Order
+bwc	Bajau (West Coast)	3	Second position	6.33333333333	116.333333333	Sama-Bajaw	Austronesian	Word Order
+bkn	Bakundu	2	Final	4.83333333333	9.33333333333	Bantu	Niger-Congo	Word Order
+blt	Balti	6	No question particle	35.0	76.0	Bodic	Sino-Tibetan	Word Order
+bam	Bambara	2	Final	12.5	-7.5	Western Mande	Mande	Word Order
+bnj	Bandjalang	1	Initial	-28.75	153.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+bgz	Banggi	6	No question particle	7.25	117.166666667	North Borneo	Austronesian	Word Order
+bao	Bao'an	6	No question particle	35.75	102.833333333333	Mongolic	Altaic	Word Order
+ble	Baoulé	6	No question particle	7.0	-5.0	Tano	Niger-Congo	Word Order
+brs	Barasano	6	No question particle	-0.166666666667	-70.6666666667	Tucanoan	Tucanoan	Word Order
+brp	Barupu	1	Initial	-3.08333333333	142.083333333	Warapu	Skou	Word Order
+bae	Baré	6	No question particle	1.0	-67.0	Japura-Colombia	Arawakan	Word Order
+bsq	Basque	4	Other position	43.0	-3.0	Basque	Basque	Word Order
+bkr	Batak (Karo)	3	Second position	3.25	98.25	Northwest Sumatra-Barrier Islands	Austronesian	Word Order
+baw	Bawm	2	Final	22.5	92.25	Kuki-Chin	Sino-Tibetan	Word Order
+bej	Beja	6	No question particle	18.0	36.0	Beja	Afro-Asiatic	Word Order
+bel	Belhare	2	Final	26.9666666667	87.3	Himalayish	Sino-Tibetan	Word Order
+bco	Bella Coola	6	No question particle	52.5	-126.666666667	Bella Coola	Salishan	Word Order
+blr	Belorussian	1	Initial	54.0	28.0	Slavic	Indo-European	Word Order
+bem	Bemba	5	In either of two positions	-10.0	28.25	Bantu	Niger-Congo	Word Order
+bfg	Berber (Figuig)	1	Initial	32.5	-1.5	Berber	Afro-Asiatic	Word Order
+bma	Berber (Middle Atlas)	1	Initial	33.0	-5.0	Berber	Afro-Asiatic	Word Order
+brf	Berber (Rif)	1	Initial	34.5	-4.0	Berber	Afro-Asiatic	Word Order
+zag	Beria	6	No question particle	16.0	23.0	Eastern Saharan	Saharan	Word Order
+ber	Berta	2	Final	10.3333333333	34.6666666667	Berta	Berta	Word Order
+bti	Betoi	6	No question particle	7.16666666667	-71.25	Betoi	Betoi	Word Order
+bho	Bhojpuri	1	Initial	26.0	84.0	Indic	Indo-European	Word Order
+bik	Biak	6	No question particle	-1.0	136.0	South Halmahera - West New Guinea	Austronesian	Word Order
+bln	Bilin	6	No question particle	15.75	38.5	Central Cushitic	Afro-Asiatic	Word Order
+blx	Biloxi	2	Final	30.5	-88.6666666667	Ohio Valley Siouan	Siouan	Word Order
+bil	Bilua	6	No question particle	-7.75	156.666666667	Bilua	Solomons East Papuan	Word Order
+bmb	Bimoba	6	No question particle	10.5	0.0	Oti-Volta	Niger-Congo	Word Order
+bbw	Bininj Gun-Wok	1	Initial	-12.5	133.75	Marne	Gunwinyguan	Word Order
+bii	Biri	6	No question particle	-20.5	146.5	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+bir	Birom	2	Final	9.66666666667	8.83333333333	Benue-Congo Plateau	Niger-Congo	Word Order
+biu	Bisu	6	No question particle	19.75	100.0	Burmese-Lolo	Sino-Tibetan	Word Order
+bla	Blackfoot	6	No question particle	50.0	-112.666666667	Algonquian	Algic	Word Order
+bbf	Bobo Madaré (Northern)	2	Final	12.4166666666667	-4.3333333333333	Western Mande	Mande	Word Order
+bod	Bodo	6	No question particle	26.8333333333	92.0	Brahmaputran	Sino-Tibetan	Word Order
+bgo	Bongo	2	Final	7.5	28.5	Bongo-Bagirmi	Central Sudanic	Word Order
+bon	Bongu	2	Final	-5.5	145.916666667	Rai Coast	Trans-New Guinea	Word Order
+btk	Bontok	1	Initial	17.0833333333	120.916666667	Northern Luzon	Austronesian	Word Order
+bra	Brao	2	Final	14.1666666667	107.5	Bahnaric	Austro-Asiatic	Word Order
+bre	Breton	1	Initial	48.0	-3.0	Celtic	Indo-European	Word Order
+bud	Buduma	2	Final	13.5	14.5	Biu-Mandara	Afro-Asiatic	Word Order
+bgn	Bugun	2	Final	27.5	92.5833333333	Kho-Bwa	Sino-Tibetan	Word Order
+bnu	Bularnu	1	Initial	-21.0	138.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+bul	Bulgarian	3	Second position	42.5	25.0	Slavic	Indo-European	Word Order
+bum	Buma	6	No question particle	-11.6333333333	166.833333333	Oceanic	Austronesian	Word Order
+ghr	Bunan	2	Final	32.5	77.0	Bodic	Sino-Tibetan	Word Order
+brm	Burmese	6	No question particle	21.0	96.0	Burmese-Lolo	Sino-Tibetan	Word Order
+brn	Burunge	6	No question particle	-5.33333333333	36.0	Southern Cushitic	Afro-Asiatic	Word Order
+bur	Burushaski	6	No question particle	36.5	74.5	Burushaski	Burushaski	Word Order
+bus	Busa	2	Final	9.66666666667	4.0	Eastern Mande	Mande	Word Order
+bsh	Bushoong	6	No question particle	-4.5	21.5	Bantu	Niger-Congo	Word Order
+bya	Byansi	1	Initial	30.1666666667	80.5	Bodic	Sino-Tibetan	Word Order
+cah	Cahuilla	6	No question particle	33.5	-116.25	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+cml	Camling	6	No question particle	27.0	86.6666666667	Himalayish	Sino-Tibetan	Word Order
+can	Candoshi	6	No question particle	-4.16666666667	-77.0	Candoshi	Candoshi	Word Order
+cnl	Canela	1	Initial	-7.0	-45.0	Je Setentrional	Macro-Ge	Word Order
+crp	Carapana	6	No question particle	0.833333333333	-70.75	Tucanoan	Tucanoan	Word Order
+car	Carib	6	No question particle	5.5	-56.0	Cariban	Cariban	Word Order
+ctl	Catalan	6	No question particle	41.75	2.0	Romance	Indo-European	Word Order
+cga	Chaga	2	Final	-3.0	37.0	Bantu	Niger-Congo	Word Order
+chh	Chaha	2	Final	8.112935	37.93267	Semitic	Afro-Asiatic	Word Order
+cai	Chai	6	No question particle	5.33333333333	35.3333333333	South Surmic	Eastern Sudanic	Word Order
+chw	Cham (Western)	2	Final	12.0	105.5	Malayo-Sumbawan	Austronesian	Word Order
+cha	Chamorro	1	Initial	13.45	144.75	Chamorro	Austronesian	Word Order
+chg	Chang	2	Final	26.3333333333	94.75	Brahmaputran	Sino-Tibetan	Word Order
+cso	Chatino (Sierra Occidental)	2	Final	16.25	-97.3333333333	Zapotecan	Oto-Manguean	Word Order
+chc	Chechen	6	No question particle	43.25	45.8333333333	Nakh	Nakh-Daghestanian	Word Order
+cmh	Chemehuevi	3	Second position	34.3333333333	-115.166666667	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+che	Cherokee	3	Second position	35.5	-83.5	Southern Iroquoian	Iroquoian	Word Order
+cic	Chichewa	1	Initial	-14.0	34.0	Bantu	Niger-Congo	Word Order
+chi	Chimariko	6	No question particle	41.0	-123.0	Chimariko	Hokan	Word Order
+cmr	Chin (Mara)	2	Final	23.0	93.1666666667	Kuki-Chin	Sino-Tibetan	Word Order
+chs	Chin (Siyin)	2	Final	23.8333333333	94.0	Kuki-Chin	Sino-Tibetan	Word Order
+ccm	Chinantec (Comaltepec)	1	Initial	17.5833333333	-96.4166666667	Chinantecan	Oto-Manguean	Word Order
+cle	Chinantec (Lealao)	1	Initial	17.3333333333	-95.9166666667	Chinantecan	Oto-Manguean	Word Order
+cpl	Chinantec (Palantla)	6	No question particle	18.8333333333	-96.75	Chinantecan	Oto-Manguean	Word Order
+chq	Chinantec (Quiotepec)	1	Initial	17.5833333333	-96.6666666667	Chinantecan	Oto-Manguean	Word Order
+cpy	Chipaya	6	No question particle	-18.75	-67.8333333333	Uru-Chipaya	Uru-Chipaya	Word Order
+chp	Chipewyan	2	Final	59.0	-106.0	Athapaskan	Na-Dene	Word Order
+ctm	Chitimacha	2	Final	29.6666666667	-91.0	Chitimacha	Chitimacha	Word Order
+cct	Choctaw	2	Final	32.25	-88.5	Muskogean	Muskogean	Word Order
+chx	Chontal (Huamelultec Oaxaca)	1	Initial	16.0	-95.75	Tequistlatecan	Hokan	Word Order
+cmy	Chontal Maya	6	No question particle	18.1666666667	-92.5833333333	Mayan	Mayan	Word Order
+chr	Chrau	2	Final	10.75	107.5	Bahnaric	Austro-Asiatic	Word Order
+chk	Chukchi	6	No question particle	67.0	-173.0	Northern Chukotko-Kamchatkan	Chukotko-Kamchatkan	Word Order
+cba	Chumash (Barbareño)	6	No question particle	34.5	-120.25	Chumash	Chumash	Word Order
+chv	Chuvash	6	No question particle	55.5	47.5	Turkic	Altaic	Word Order
+coa	Coahuilteco	6	No question particle	28.0	-100.0	Coahuiltecan	Coahuiltecan	Word Order
+coc	Cocama	3	Second position	-5.0	-74.5	Maweti-Guarani	Tupian	Word Order
+cmn	Comanche	3	Second position	33.5	-101.5	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+coo	Coos (Hanis)	2	Final	43.5	-124.166666667	Coosan	Oregon Coast	Word Order
+cop	Coptic	1	Initial	26.0	32.0	Egyptian-Coptic	Afro-Asiatic	Word Order
+crn	Cornish	1	Initial	50.3333333333	-5.0	Celtic	Indo-European	Word Order
+cre	Cree (Plains)	3	Second position	54.0	-110.0	Algonquian	Algic	Word Order
+cea	Cree (Swampy)	3	Second position	56.0	-90.0	Algonquian	Algic	Word Order
+cub	Cubeo	6	No question particle	1.33333333333	-70.5	Tucanoan	Tucanoan	Word Order
+cup	Cupeño	6	No question particle	33.1666666667	-116.5	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+cze	Czech	6	No question particle	50.0	15.0	Slavic	Indo-European	Word Order
+cem	Cèmuhî	1	Initial	-20.8333333333	165.166666667	Oceanic	Austronesian	Word Order
+dgr	Dagur	2	Final	48.0	124.0	Mongolic	Altaic	Word Order
+dan	Dan	2	Final	7.5	-8.0	Eastern Mande	Mande	Word Order
+dni	Dani (Lower Grand Valley)	6	No question particle	-4.33333333333	138.833333333	Dani	Trans-New Guinea	Word Order
+dsh	Danish	6	No question particle	56.0	10.0	Germanic	Indo-European	Word Order
+drm	Darma	1	Initial	30.0	79.75	Bodic	Sino-Tibetan	Word Order
+des	Desano	6	No question particle	0.833333333333	-69.8333333333	Tucanoan	Tucanoan	Word Order
+deu	Deuri	6	No question particle	26.0	90.25	Brahmaputran	Sino-Tibetan	Word Order
+dha	Dhaasanac	6	No question particle	4.66666666667	36.3333333333	Lowland East Cushitic	Afro-Asiatic	Word Order
+dhi	Dhivehi	2	Final	4.16666666667	73.5	Indic	Indo-European	Word Order
+die	Diegueño (Mesa Grande)	6	No question particle	32.6666666667	-116.166666667	Yuman	Hokan	Word Order
+dim	Dime	6	No question particle	6.16666666667	36.25	South Omotic	Afro-Asiatic	Word Order
+din	Dinka	6	No question particle	8.5	28.0	Western Nilotic	Eastern Sudanic	Word Order
+dio	Diola-Fogny	6	No question particle	13.0	-16.25	Jola	Niger-Congo	Word Order
+diy	Diyari	6	No question particle	-28.0	139.0	Central Pama-Nyungan	Pama-Nyungan	Word Order
+djm	Djambarrpuyngu	6	No question particle	-12.1666666667	135.5	Western Pama-Nyungan	Pama-Nyungan	Word Order
+djp	Djapu	1	Initial	-12.6666666667	136.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+dji	Djingili	1	Initial	-17.75	134.0	Djingili	Mirndi	Word Order
+dlm	Dla (Menggwa)	6	No question particle	-3.55	141.033333333	Senagi	Senagi	Word Order
+dmk	Domaaki	2	Final	36.1666666667	74.0	Indic	Indo-European	Word Order
+don	Dong (Southern)	2	Final	27.0	109.0	Kam-Tai	Tai-Kadai	Word Order
+dds	Donno So	2	Final	14.3333333333	-3.58333333333	Dogon	Dogon	Word Order
+doy	Doyayo	2	Final	8.66666666667	13.0833333333	Samba-Duru	Niger-Congo	Word Order
+dre	Drehu	1	Initial	-21.0	167.25	Oceanic	Austronesian	Word Order
+duk	Duka	2	Final	11.1666666667	5.08333333333	Central Kainji	Niger-Congo	Word Order
+dul	Dulong	2	Final	28.0	98.3333333333	Nungish	Sino-Tibetan	Word Order
+dum	Dumo	2	Final	-2.68333333333	141.3	Western Skou	Skou	Word Order
+dun	Duna	2	Final	-5.5	142.5	Duna	Duna-Bogaya	Word Order
+dut	Dutch	6	No question particle	52.5	6.0	Germanic	Indo-European	Word Order
+dyi	Dyirbal	3	Second position	-17.8333333333	145.583333333	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+ebi	Ebira	5	In either of two positions	8.16666666667	7.0	Nupoid	Niger-Congo	Word Order
+erk	Efate (South)	6	No question particle	-17.75	168.416666667	Oceanic	Austronesian	Word Order
+efi	Efik	1	Initial	4.91666666667	8.5	Lower Cross	Niger-Congo	Word Order
+ega	Ega	2	Final	5.5	-5.5	Ega	Niger-Congo	Word Order
+eip	Eipo	6	No question particle	-4.33333333333	140.083333333	Mek	Trans-New Guinea	Word Order
+ora	Emai	6	No question particle	7.08333333333	5.91666666667	Edoid	Niger-Congo	Word Order
+emb	Emberá (Northern)	6	No question particle	6.83333333333	-77.1666666667	Choco	Choco	Word Order
+ene	Enets	6	No question particle	67.5	86.5	Samoyedic	Uralic	Word Order
+egn	Engenni	2	Final	5.16666666667	6.38333333333	Edoid	Niger-Congo	Word Order
+eno	Enggano	6	No question particle	-5.41666666667	102.25	Enggano	Austronesian	Word Order
+eng	English	6	No question particle	52.0	0.0	Germanic	Indo-European	Word Order
+epe	Epena Pedee	6	No question particle	3.0	-77.0	Choco	Choco	Word Order
+err	Erromangan	1	Initial	-18.8333333333	169.166666667	Oceanic	Austronesian	Word Order
+ese	Ese Ejja	1	Initial	-11.0	-66.0	Tacanan	Pano-Tacanan	Word Order
+est	Estonian	5	In either of two positions	59.0	26.0	Finnic	Uralic	Word Order
+eud	Eudeve	1	Initial	29.1666666667	-109.666666667	Opata-Eudeve	Uto-Aztecan	Word Order
+eve	Evenki	2	Final	56.0	125.0	Tungusic	Altaic	Word Order
+ewe	Ewe	2	Final	6.33333333333	0.416666666667	Gbe	Niger-Congo	Word Order
+ewo	Ewondo	1	Initial	4.0	12.0	Bantu	Niger-Congo	Word Order
+fas	Fasu	6	No question particle	-6.58333333333	143.333333333	Fasu	Trans-New Guinea	Word Order
+fij	Fijian	6	No question particle	-17.8333333333	178.0	Oceanic	Austronesian	Word Order
+fin	Finnish	3	Second position	62.0	25.0	Finnic	Uralic	Word Order
+foe	Foe	6	No question particle	-6.5	143.5	Foe	Trans-New Guinea	Word Order
+pdp	Folopa	6	No question particle	-7.0	144.5	Teberan	Teberan-Pawaian	Word Order
+fre	French	1	Initial	48.0	2.0	Romance	Indo-European	Word Order
+fri	Frisian	6	No question particle	53.0	5.0	Germanic	Indo-European	Word Order
+fua	Fulfulde (Adamawa)	2	Final	9.16666666667	13.5	Peul-Serer	Niger-Congo	Word Order
+ful	Fulniô	6	No question particle	-8.0	-37.5	Fulniô	Fulniô	Word Order
+fut	Futuna-Aniwa	2	Final	-19.5333333333	170.216666667	Oceanic	Austronesian	Word Order
+fye	Fyem	2	Final	9.58333333333	9.33333333333	Benue-Congo Plateau	Niger-Congo	Word Order
+gds	Gadsup	6	No question particle	-6.25	146.0	Gauwa	Trans-New Guinea	Word Order
+gae	Gaelic (Scots)	6	No question particle	57.0	-4.0	Celtic	Indo-European	Word Order
+gah	Gahuku	6	No question particle	-6.0	145.416666667	Gahuku	Trans-New Guinea	Word Order
+gal	Galo	6	No question particle	28.1666666667	94.6666666667	Tani	Sino-Tibetan	Word Order
+gap	Gapapaiwa	2	Final	-9.75	149.833333333	Oceanic	Austronesian	Word Order
+gar	Garo	6	No question particle	25.6666666667	90.5	Brahmaputran	Sino-Tibetan	Word Order
+grr	Garrwa	5	In either of two positions	-17.0833333333	137.166666667	Garrwan	Garrwan	Word Order
+gav	Gavião	1	Initial	-10.6666666667	-62.0	Monde	Tupian	Word Order
+gbb	Gbeya Bossangoa	2	Final	6.66666666667	17.5	Gbaya-Manza-Ngbaka	Niger-Congo	Word Order
+gel	Gela	2	Final	-9.08333333333	160.25	Oceanic	Austronesian	Word Order
+geo	Georgian	6	No question particle	42.0	44.0	Kartvelian	Kartvelian	Word Order
+ger	German	6	No question particle	52.0	10.0	Germanic	Indo-European	Word Order
+gim	Gimira	6	No question particle	7.0	35.75	Ta-Ne-Omotic	Afro-Asiatic	Word Order
+git	Gitksan	2	Final	55.3333333333	-127.75	Tsimshianic	Tsimshianic	Word Order
+goa	Goajiro	1	Initial	12.0	-72.0	Guajiro-Paraujano	Arawakan	Word Order
+goe	Goemai	2	Final	8.66666666667	9.75	West Chadic	Afro-Asiatic	Word Order
+gok	Gokana	1	Initial	4.58333333333	7.33333333333	Ogonoid	Niger-Congo	Word Order
+gln	Golin	6	No question particle	-6.33333333333	144.75	Chimbu-Wahgi	Trans-New Guinea	Word Order
+gon	Gondi	2	Final	19.0	81.0	Dravidian	Dravidian	Word Order
+grb	Grebo	1	Initial	5.0	-8.0	Kru	Niger-Congo	Word Order
+grk	Greek (Modern)	1	Initial	39.0	22.0	Greek	Indo-European	Word Order
+grw	Greenlandic (West)	6	No question particle	64.0	-51.0	Eskimo	Eskimo-Aleut	Word Order
+ghb	Guahibo	6	No question particle	5.0	-69.0	Guahiban	Guahiban	Word Order
+grj	Guarijío	6	No question particle	27.75	-108.666666667	Tarahumaran	Uto-Aztecan	Word Order
+gud	Gude	2	Final	10.4166666667	13.4166666667	Biu-Mandara	Afro-Asiatic	Word Order
+guh	Guhu-Samane	2	Final	-8.0	147.333333333	Guhu-Samane	Trans-New Guinea	Word Order
+guj	Gujarati	6	No question particle	23.0	72.0	Indic	Indo-European	Word Order
+gul	Gula (in Central African Republic)	2	Final	9.5	22.5	Bongo-Bagirmi	Central Sudanic	Word Order
+gmw	Gumawana	6	No question particle	-9.25	150.833333333	Oceanic	Austronesian	Word Order
+gum	Gumbaynggir	6	No question particle	-30.1666666667	152.5	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+gmz	Gumuz	6	No question particle	12.5	35.8333333333	Gumuz	Gumuz	Word Order
+gnb	Gunbalang	6	No question particle	-12.0	134.0	Marne	Gunwinyguan	Word Order
+guw	Gungbe	2	Final	6.5	2.5	Gbe	Niger-Congo	Word Order
+gur	Gurung	2	Final	28.3333333333	84.3333333333	Bodic	Sino-Tibetan	Word Order
+gdb	Gutob	6	No question particle	19.0	83.6666666667	Munda	Austro-Asiatic	Word Order
+gwa	Gwari	2	Final	9.5	7.0	Nupoid	Niger-Congo	Word Order
+gyc	Gyarong (Cogtse)	6	No question particle	31.5	102.0	Na-Qiangic	Sino-Tibetan	Word Order
+hai	Haida	3	Second position	53.0	-132.0	Haida	Haida	Word Order
+ham	Hamtai	2	Final	-7.5	146.25	Nuclear Angan	Trans-New Guinea	Word Order
+hat	Hatam	2	Final	-1.0	134.0	Hatim-Mansim	Hatim-Mansim	Word Order
+hau	Hausa	2	Final	12.0	7.0	West Chadic	Afro-Asiatic	Word Order
+hya	Haya	6	No question particle	-2.0	31.5	Bantu	Niger-Congo	Word Order
+hay	Hayu	6	No question particle	27.25	86.0	Himalayish	Sino-Tibetan	Word Order
+hdi	Hdi	2	Final	11.8666666667	13.7166666667	Biu-Mandara	Afro-Asiatic	Word Order
+heb	Hebrew (Modern)	1	Initial	31.5	34.8333333333	Semitic	Afro-Asiatic	Word Order
+hin	Hindi	1	Initial	25.0	77.0	Indic	Indo-European	Word Order
+hix	Hixkaryana	6	No question particle	-1.0	-59.0	Cariban	Cariban	Word Order
+hma	Hmar	2	Final	24.1666666667	93.0	Kuki-Chin	Sino-Tibetan	Word Order
+hmo	Hmong Njua	4	Other position	28.0	105.0	Hmongic	Hmong-Mien	Word Order
+ho	Ho	2	Final	22.0	86.0	Munda	Austro-Asiatic	Word Order
+hoa	Hoava	6	No question particle	-8.08333333333	157.5	Oceanic	Austronesian	Word Order
+hop	Hopi	1	Initial	36.0	-110.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+hua	Hua	6	No question particle	-6.33333333333	145.333333333	Siane-Yagaria	Trans-New Guinea	Word Order
+htc	Huastec	6	No question particle	22.0833333333	-99.3333333333	Mayan	Mayan	Word Order
+hve	Huave (San Mateo del Mar)	1	Initial	16.2166666667	-95.0	Huavean	Huavean	Word Order
+hmi	Huitoto (Minica)	6	No question particle	-0.333333333333	-74.0	Witoto	Witotoan	Word Order
+hnd	Hunde	5	In either of two positions	-1.16666666667	28.8333333333	Bantu	Niger-Congo	Word Order
+hzb	Hunzib	6	No question particle	42.1666666667	46.25	Avar-Andic-Tsezic	Nakh-Daghestanian	Word Order
+hpd	Hup	6	No question particle	0.166666666667	-69.25	Nadahup	Nadahup	Word Order
+iaa	Iaai	1	Initial	-20.4166666667	166.583333333	Oceanic	Austronesian	Word Order
+iba	Iban	1	Initial	2.0	112.0	Malayo-Sumbawan	Austronesian	Word Order
+idu	Idu	6	No question particle	29.3333333333	95.8333333333	Digaroan	Sino-Tibetan	Word Order
+ifu	Ifugao (Batad)	1	Initial	16.8333333333	121.083333333	Northern Luzon	Austronesian	Word Order
+ifm	Ifumu	2	Final	-3.66666666667	15.3333333333	Bantu	Niger-Congo	Word Order
+igb	Igbo	6	No question particle	6.0	7.33333333333	Igboid	Niger-Congo	Word Order
+ige	Igede	2	Final	7.0	8.16666666667	Idomoid	Niger-Congo	Word Order
+ijo	Ijo (Kolokuma)	6	No question particle	4.91666666667	5.66666666667	Ijoid	Ijoid	Word Order
+ik	Ik	2	Final	3.75	34.1666666667	Kuliak	Eastern Sudanic	Word Order
+ika	Ika	2	Final	10.6666666667	-73.75	Arhuacic	Chibchan	Word Order
+ina	Inanwatan	2	Final	-2.08333333333	132.083333333	Inanwatan	South Bird's Head	Word Order
+ind	Indonesian	5	In either of two positions	0.0	106.0	Malayo-Sumbawan	Austronesian	Word Order
+ing	Ingush	6	No question particle	43.1666666667	45.0833333333	Nakh	Nakh-Daghestanian	Word Order
+irq	Iraqw	6	No question particle	-4.0	35.5	Southern Cushitic	Afro-Asiatic	Word Order
+irr	Irarutu	6	No question particle	-3.0	133.5	South Halmahera - West New Guinea	Austronesian	Word Order
+iri	Irish	1	Initial	53.0	-8.0	Celtic	Indo-European	Word Order
+ita	Italian	6	No question particle	43.0	12.0	Romance	Indo-European	Word Order
+ito	Itonama	6	No question particle	-12.8333333333	-64.3333333333	Itonama	Itonama	Word Order
+iwa	Iwaidja	5	In either of two positions	-11.5	132.666666667	Iwaidjan	Iwaidjan	Word Order
+iwm	Iwam	2	Final	-4.33333333333	142.0	Iwamic	Sepik	Word Order
+jar	Izere	2	Final	9.5	8.6666667	Benue-Congo Plateau	Niger-Congo	Word Order
+izi	Izi	2	Final	6.33333333333	8.0	Igboid	Niger-Congo	Word Order
+jab	Jabêm	2	Final	-6.58333333333	147.783333333	Oceanic	Austronesian	Word Order
+jak	Jakaltek	6	No question particle	15.6666666667	-91.6666666667	Mayan	Mayan	Word Order
+jms	Jamsay	2	Final	14.4166666667	-2.5	Dogon	Dogon	Word Order
+jpn	Japanese	2	Final	37.0	140.0	Japanese	Japanese	Word Order
+jng	Jingpho	2	Final	25.4166666667	97.0	Brahmaputran	Sino-Tibetan	Word Order
+jug	Jugli	6	No question particle	27.5	96.3333333333	Brahmaputran	Sino-Tibetan	Word Order
+juk	Jukun	2	Final	6.91666666667	10.4166666667	Jukunoid	Niger-Congo	Word Order
+jmo	Jur Mödö	6	No question particle	6.0	30.0	Bongo-Bagirmi	Central Sudanic	Word Order
+juh	Ju|'hoan	3	Second position	-19.0	21.0	Ju-Kung	Kxa	Word Order
+kab	Kabardian	6	No question particle	43.5	43.5	Northwest Caucasian	Northwest Caucasian	Word Order
+kby	Kabiyé	2	Final	9.66666666667	1.16666666667	Grusi	Niger-Congo	Word Order
+kbl	Kabyle	6	No question particle	36.5	5.0	Berber	Afro-Asiatic	Word Order
+kdz	Kadazan	3	Second position	5.91666666667	117.166666667	North Borneo	Austronesian	Word Order
+kae	Kaki Ae	6	No question particle	-8.0	145.833333333	Tate	Tate	Word Order
+kmk	Kalmyk	6	No question particle	44.0	83.0	Mongolic	Altaic	Word Order
+kma	Kamaiurá	6	No question particle	-12.0833333333	-52.5833333333	Maweti-Guarani	Tupian	Word Order
+kmz	Kamasau	6	No question particle	-3.91666666667	143.666666667	Marienberg	Torricelli	Word Order
+kba	Kamba	6	No question particle	-1.5	38.0	Bantu	Niger-Congo	Word Order
+kmr	Kamoro	6	No question particle	-4.33333333333	136.0	Asmat-Kamrau Bay	Asmat-Kamrau Bay	Word Order
+kan	Kana	6	No question particle	4.75	7.41666666667	Ogonoid	Niger-Congo	Word Order
+knk	Kanakuru	2	Final	10.0	12.0	West Chadic	Afro-Asiatic	Word Order
+knd	Kannada	2	Final	14.0	76.0	Dravidian	Dravidian	Word Order
+kno	Kanoê	2	Final	-13.25	-61.0	Kapixana	Kapixana	Word Order
+knr	Kanuri	6	No question particle	12.0	13.0	Western Saharan	Saharan	Word Order
+kar	Kara (in Central African Republic)	2	Final	10.0	23.0	Bongo-Bagirmi	Central Sudanic	Word Order
+krc	Karachay-Balkar	6	No question particle	43.5	42.0	Turkic	Altaic	Word Order
+krj	Karadjeri	1	Initial	-19.0	122.0	Western Pama-Nyungan	Pama-Nyungan	Word Order
+kkp	Karakalpak	6	No question particle	43.0	60.0	Turkic	Altaic	Word Order
+kbw	Karen (Bwe)	2	Final	19.5	97.0	Karen	Sino-Tibetan	Word Order
+kpw	Karen (Pwo)	2	Final	13.0	99.1666666667	Karen	Sino-Tibetan	Word Order
+ksg	Karen (Sgaw)	2	Final	18.0	97.0	Karen	Sino-Tibetan	Word Order
+kmj	Karimojong	2	Final	3.0	34.1666666667	Eastern Nilotic	Eastern Sudanic	Word Order
+kaa	Karó (Arára)	2	Final	-10.3333333333	-62.0	Ramarama	Tupian	Word Order
+ksm	Kasem	2	Final	11.25	-1.25	Grusi	Niger-Congo	Word Order
+kau	Kaulong	2	Final	-6.16666666667	149.666666667	Oceanic	Austronesian	Word Order
+kws	Kawaiisu	6	No question particle	36.0	-117.5	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+kyz	Kayabí	3	Second position	-11.0	-55.5	Maweti-Guarani	Tupian	Word Order
+kyl	Kayah Li (Eastern)	2	Final	19.0	97.5	Karen	Sino-Tibetan	Word Order
+kyp	Kayapó	1	Initial	-9.0	-52.0	Je Setentrional	Macro-Ge	Word Order
+kay	Kayardild	6	No question particle	-17.05	139.5	Tangkic	Tangkic	Word Order
+kel	Kele	2	Final	-2.08333333333	147.083333333	Oceanic	Austronesian	Word Order
+kem	Kemant	6	No question particle	12.6666666667	37.4166666667	Central Cushitic	Afro-Asiatic	Word Order
+ken	Kenga	2	Final	12.0	18.0	Bongo-Bagirmi	Central Sudanic	Word Order
+ker	Kera	2	Final	9.83333333333	15.0833333333	East Chadic	Afro-Asiatic	Word Order
+ksa	Keresan (Santa Ana)	1	Initial	35.4166666667	-106.666666667	Keresan	Keresan	Word Order
+kew	Kewa	2	Final	-6.5	143.833333333	Enga_Kewa-Huli	Trans-New Guinea	Word Order
+khg	Khaling	2	Final	27.5	86.6666666667	Himalayish	Sino-Tibetan	Word Order
+kha	Khalkha	2	Final	47.0	105.0	Mongolic	Altaic	Word Order
+kmh	Kham	6	No question particle	28.5	82.75	Himalayish	Sino-Tibetan	Word Order
+khr	Kharia	2	Final	22.5	84.3333333333	Munda	Austro-Asiatic	Word Order
+khi	Khinalug	6	No question particle	41.1666666667	48.0833333333	Khinalug	Nakh-Daghestanian	Word Order
+khm	Khmer	2	Final	12.5	105.0	Khmer	Austro-Asiatic	Word Order
+kmu	Khmu'	2	Final	21.0	102.0	Khmuic	Austro-Asiatic	Word Order
+khn	Khün	2	Final	21.0	100.0	Kam-Tai	Tai-Kadai	Word Order
+kik	Kikuyu	6	No question particle	-0.75	36.75	Bantu	Niger-Congo	Word Order
+klv	Kilivila	6	No question particle	-8.5	151.083333333	Oceanic	Austronesian	Word Order
+klw	Kiliwa	6	No question particle	31.3333333333	-115.666666667	Yuman	Hokan	Word Order
+kil	Kiluba	2	Final	-8.0	26.0	Bantu	Niger-Congo	Word Order
+kim	Kimaghama	2	Final	-8.0	138.5	Kolopom	Kolopom	Word Order
+knn	Kinnauri	6	No question particle	31.5	78.0	Bodic	Sino-Tibetan	Word Order
+kio	Kiowa	1	Initial	37.0	-99.0	Kiowa-Tanoan	Kiowa-Tanoan	Word Order
+kgz	Kirghiz	2	Final	42.0	75.0	Turkic	Altaic	Word Order
+kis	Kisi	6	No question particle	8.83333333333	-10.1666666667	Southern Mel	Niger-Congo	Word Order
+klm	Klamath	5	In either of two positions	42.5	-121.5	Klamath-Modoc	Penutian	Word Order
+kob	Kobon	2	Final	-5.16666666667	144.333333333	Kalam-Kobon	Trans-New Guinea	Word Order
+koe	Koegu	6	No question particle	7.0	36.0833333333	South Surmic	Eastern Sudanic	Word Order
+kmo	Koiali (Mountain)	3	Second position	-9.0	147.5	Koiarian	Trans-New Guinea	Word Order
+kta	Koita	2	Final	-9.33333333333	147.083333333	Koiarian	Trans-New Guinea	Word Order
+kok	Kokborok	6	No question particle	24.3333333333	92.5	Brahmaputran	Sino-Tibetan	Word Order
+kol	Kolami	6	No question particle	20.0	78.5	Dravidian	Dravidian	Word Order
+kmb	Kombai	2	Final	-5.58333333333	140.0	Ndeiram	Trans-New Guinea	Word Order
+xbi	Kombio	6	No question particle	-3.5	142.75	Kombio-Arapesh	Torricelli	Word Order
+knw	Konkow	6	No question particle	39.5	-121.5	Maiduan	Penutian	Word Order
+kni	Konni	6	No question particle	10.25	-1.58333333333	Oti-Volta	Niger-Congo	Word Order
+krn	Korana	2	Final	-29.5	20.5	Khoe-Kwadi	Khoe-Kwadi	Word Order
+kor	Korean	6	No question particle	37.5	128.0	Korean	Korean	Word Order
+kje	Koreguaje	6	No question particle	1.0	-75.5	Tucanoan	Tucanoan	Word Order
+kfe	Koromfe	2	Final	14.25	-0.916666666667	Koromfe	Niger-Congo	Word Order
+krw	Korowai	2	Final	-5.25	140.0	Becking-Dawi	Trans-New Guinea	Word Order
+kos	Kosraean	1	Initial	5.3	163.0	Oceanic	Austronesian	Word Order
+kch	Koyra Chiini	6	No question particle	17.0	-3.0	Songhay	Songhay	Word Order
+kse	Koyraboro Senni	5	In either of two positions	16.0	0.0	Songhay	Songhay	Word Order
+kqq	Krenak	6	No question particle	-15.5	-41.0	Aimore	Macro-Ge	Word Order
+kre	Kresh	2	Final	8.5	24.5	Kresh	Central Sudanic	Word Order
+kro	Krongo	6	No question particle	10.5	30.0	Kadugli	Kadu	Word Order
+knc	Kugu Nganhcara	6	No question particle	-14.4166666667	142.0	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+kya	Kuku-Yalanji	1	Initial	-16.0	145.0	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+kmn	Kuman	6	No question particle	-5.91666666667	145.0	Chimbu-Wahgi	Trans-New Guinea	Word Order
+kum	Kumauni	5	In either of two positions	30.0	80.0	Indic	Indo-European	Word Order
+kun	Kuna	6	No question particle	8.0	-77.3333333333	Kuna	Chibchan	Word Order
+knm	Kunama	6	No question particle	14.5	37.0	Kunama	Kunama	Word Order
+kuo	Kuot	6	No question particle	-3.05	151.5	Kuot	Kuot	Word Order
+kut	Kutenai	1	Initial	49.5	-116.0	Kutenai	Kutenai	Word Order
+thy	Kuuk Thaayorre	6	No question particle	-14.5833333333	141.833333333	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+kuu	Kuuku Ya'u	6	No question particle	-12.5833333333	143.083333333	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+kuv	Kuvi	2	Final	18.75	82.6666666667	Dravidian	Dravidian	Word Order
+kwn	Kwangali	2	Final	-18.0	19.5	Bantu	Niger-Congo	Word Order
+kwz	Kwaza	6	No question particle	-12.5833333333	-60.6666666667	Kwaza	Kwaza	Word Order
+kwo	Kwoma	3	Second position	-4.16666666667	142.75	Nukuma	Sepik	Word Order
+kxo	Kxoe	2	Final	-17.5	22.5	Khoe-Kwadi	Khoe-Kwadi	Word Order
+kyk	Kyaka	6	No question particle	-5.55	144.083333333	Enga_Kewa-Huli	Trans-New Guinea	Word Order
+laa	Laal	5	In either of two positions	10.0	17.6666666667	Laal	Laal	Word Order
+lab	Labu	6	No question particle	-6.75	146.916666667	Oceanic	Austronesian	Word Order
+lac	Lacandón	2	Final	17.0	-91.5	Mayan	Mayan	Word Order
+lad	Ladakhi	6	No question particle	34.0	78.0	Bodic	Sino-Tibetan	Word Order
+lag	Lagwan	2	Final	11.5	14.8333333333	Biu-Mandara	Afro-Asiatic	Word Order
+lah	Lahu	2	Final	20.0	98.1666666667	Burmese-Lolo	Sino-Tibetan	Word Order
+lai	Lai	2	Final	22.6666666667	93.6666666667	Kuki-Chin	Sino-Tibetan	Word Order
+lkt	Lakhota	2	Final	43.8333333333	-101.833333333	Mississippi Valley Siouan	Siouan	Word Order
+lal	Lalo	2	Final	25.0	100.25	Burmese-Lolo	Sino-Tibetan	Word Order
+lmh	Lamaholot	6	No question particle	-8.25	122.916666667	Central Malayo-Polynesian	Austronesian	Word Order
+lmg	Lamang	2	Final	11.25	13.5833333333	Biu-Mandara	Afro-Asiatic	Word Order
+lmn	Lamani	2	Final	17.0	77.0	Indic	Indo-European	Word Order
+lmp	Lampung	1	Initial	-5.0	105.0	Lampungic	Austronesian	Word Order
+lan	Lango	6	No question particle	2.16666666667	33.0	Western Nilotic	Eastern Sudanic	Word Order
+lao	Lao	2	Final	18.0	103.0	Kam-Tai	Tai-Kadai	Word Order
+lat	Latvian	1	Initial	57.0	24.0	Baltic	Indo-European	Word Order
+lav	Lavukaleve	2	Final	-9.08333333333	159.2	Lavukaleve	Solomons East Papuan	Word Order
+lel	Lele	2	Final	9.08333333333	15.5833333333	East Chadic	Afro-Asiatic	Word Order
+len	Lenakel	2	Final	-19.45	169.25	Oceanic	Austronesian	Word Order
+ldu	Lendu	3	Second position	2.0	30.5	Lendu	Central Sudanic	Word Order
+lep	Lepcha	2	Final	27.1666666667	88.5	Himalayish	Sino-Tibetan	Word Order
+lew	Lewo	2	Final	-16.75	168.333333333	Oceanic	Austronesian	Word Order
+lez	Lezgian	6	No question particle	41.6666666667	47.8333333333	Lezgic	Nakh-Daghestanian	Word Order
+lho	Lhomi	6	No question particle	27.6666666667	87.4166666667	Bodic	Sino-Tibetan	Word Order
+lnd	Linda	2	Final	6.5	20.75	Ubangi	Niger-Congo	Word Order
+lin	Lingala	6	No question particle	2.0	18.5	Bantu	Niger-Congo	Word Order
+lis	Lisu	6	No question particle	26.0	98.0	Burmese-Lolo	Sino-Tibetan	Word Order
+lit	Lithuanian	1	Initial	55.0	24.0	Baltic	Indo-European	Word Order
+lgt	Logoti	2	Final	3.5	30.0	Moru-Ma'di	Central Sudanic	Word Order
+ara	Lokono	6	No question particle	5.5	-55.1666666667	Antillean Arawakan	Arawakan	Word Order
+ldo	Londo	2	Final	5.0	9.16666666667	Bantu	Niger-Congo	Word Order
+lon	Loniu	6	No question particle	-2.06666666667	147.333333333	Oceanic	Austronesian	Word Order
+lot	Lotha	6	No question particle	26.5	94.25	Central Naga	Sino-Tibetan	Word Order
+loz	Lozi	5	In either of two positions	-17.8333333333	26.0	Bantu	Niger-Congo	Word Order
+lug	Lugbara	2	Final	3.08333333333	30.9166666667	Moru-Ma'di	Central Sudanic	Word Order
+lui	Luiseño	3	Second position	33.3333333333	-117.166666667	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+lbu	Lunda	6	No question particle	-10.6666666667	24.0	Bantu	Niger-Congo	Word Order
+lun	Lungchang	2	Final	27.5	96.4166666667	Brahmaputran	Sino-Tibetan	Word Order
+luo	Luo	6	No question particle	-0.5	34.75	Western Nilotic	Eastern Sudanic	Word Order
+mad	Ma'di	2	Final	3.25	31.5	Moru-Ma'di	Central Sudanic	Word Order
+maa	Maasai	1	Initial	-3.0	36.0	Eastern Nilotic	Eastern Sudanic	Word Order
+mab	Maba	6	No question particle	13.75	20.8333333333	Maban	Maban	Word Order
+mac	Macushi	6	No question particle	4.0	-60.0	Cariban	Cariban	Word Order
+mae	Mae	2	Final	-16.0	167.25	Oceanic	Austronesian	Word Order
+mne	Maidu (Northeast)	6	No question particle	40.0	-120.666666667	Maiduan	Penutian	Word Order
+msn	Maisin	2	Final	-9.5	149.166666667	Oceanic	Austronesian	Word Order
+maj	Majang	2	Final	6.75	35.0	Majang	Eastern Sudanic	Word Order
+mak	Makah	3	Second position	48.3333333333	-124.666666667	Southern Wakashan	Wakashan	Word Order
+mal	Malagasy	5	In either of two positions	-20.0	47.0	Barito	Austronesian	Word Order
+mym	Malayalam	2	Final	10.0	76.5	Dravidian	Dravidian	Word Order
+mlg	Malgwa	6	No question particle	11.5	13.75	Biu-Mandara	Afro-Asiatic	Word Order
+mam	Mam	3	Second position	15.0	-91.8333333333	Mayan	Mayan	Word Order
+mmi	Mambai	2	Final	9.66666666667	14.0	Mbumic	Niger-Congo	Word Order
+mnm	Manam	6	No question particle	-4.0	145.0	Oceanic	Austronesian	Word Order
+mnc	Manchu	6	No question particle	49.5	127.5	Tungusic	Altaic	Word Order
+mdn	Mandan	6	No question particle	46.5	-102.5	Mandan	Siouan	Word Order
+mnd	Mandarin	2	Final	34.0	110.0	Chinese	Sino-Tibetan	Word Order
+mmb	Mangap-Mbula	2	Final	-5.66666666667	148.083333333	Oceanic	Austronesian	Word Order
+myi	Mangarrayi	2	Final	-14.6666666667	133.5	Mangarrayi	Mangarrayi-Maran	Word Order
+mng	Manggarai	6	No question particle	-8.5	120.333333333	Central Malayo-Polynesian	Austronesian	Word Order
+mgg	Mangghuer	6	No question particle	36.0	102.0	Mongolic	Altaic	Word Order
+maw	Maninka (Western)	2	Final	13.0	-11.0	Western Mande	Mande	Word Order
+man	Mano	6	No question particle	7.0	-9.0	Eastern Mande	Mande	Word Order
+mns	Mansi	1	Initial	62.0	62.0	Ugric	Uralic	Word Order
+mao	Maori	6	No question particle	-40.0	176.0	Oceanic	Austronesian	Word Order
+mra	Mara	6	No question particle	-15.0	135.166666667	Mara	Mangarrayi-Maran	Word Order
+mku	Maranungku	6	No question particle	-13.6666666667	130.0	Wagaydy	Western Daly	Word Order
+mhi	Marathi	2	Final	19.0	76.0	Indic	Indo-European	Word Order
+mny	Margany	1	Initial	-27.0	144.5	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+mrg	Margi	2	Final	11.0	13.0	Biu-Mandara	Afro-Asiatic	Word Order
+mar	Maricopa	6	No question particle	33.1666666667	-113.166666667	Yuman	Hokan	Word Order
+mrd	Marind	2	Final	-7.83333333333	140.166666667	Marind-Yaqay	Trans-New Guinea	Word Order
+mrq	Marquesan	1	Initial	-8.91666666667	-140.083333333	Oceanic	Austronesian	Word Order
+mrt	Martuthunira	6	No question particle	-20.8333333333	116.5	Western Pama-Nyungan	Pama-Nyungan	Word Order
+mru	Maru	2	Final	23.5	98.5	Burmese-Lolo	Sino-Tibetan	Word Order
+mas	Masa	2	Final	10.5	15.5	Masa	Afro-Asiatic	Word Order
+msl	Masalit	6	No question particle	13.3333333333	22.0	Maban	Maban	Word Order
+mtt	Massachusett	6	No question particle	42.5	-71.0	Algonquian	Algic	Word Order
+mts	Matis	6	No question particle	-4.41666666667	-70.25	Panoan	Pano-Tacanan	Word Order
+mka	Mauka	2	Final	8.33333333333	-7.5	Western Mande	Mande	Word Order
+mau	Maung	1	Initial	-11.9166666667	133.5	Iwaidjan	Iwaidjan	Word Order
+max	Maxakalí	1	Initial	-18.0	-40.0	Maxakalian	Macro-Ge	Word Order
+may	Maybrat	2	Final	-1.33333333333	132.5	Maybrat	Maybrat	Word Order
+mzh	Mazatec (Huautla)	1	Initial	18.25	-96.8333333333	Popolocan	Oto-Manguean	Word Order
+mbr	Mbara	2	Final	11.0	15.4166666667	Biu-Mandara	Afro-Asiatic	Word Order
+mby	Mbay	2	Final	8.25	17.5	Bongo-Bagirmi	Central Sudanic	Word Order
+mbi	Mbili	4	Other position	6.11666666667	10.2	Wide Grassfields	Niger-Congo	Word Order
+mdo	Mbodomo	2	Final	4.5	15.5	Gbaya-Manza-Ngbaka	Niger-Congo	Word Order
+mbm	Mbum	2	Final	7.75	13.1666666667	Mbumic	Niger-Congo	Word Order
+mee	Me'en	2	Final	5.0	37.0	South Surmic	Eastern Sudanic	Word Order
+meh	Mehri	6	No question particle	17.0	51.5	Semitic	Afro-Asiatic	Word Order
+mei	Meithei	2	Final	24.75	94.0	Manipuri	Sino-Tibetan	Word Order
+mek	Mekens	2	Final	-12.5	-61.5	Tupari	Tupian	Word Order
+mke	Mekeo	2	Final	-8.33333333333	146.5	Oceanic	Austronesian	Word Order
+mde	Mende	6	No question particle	7.83333333333	-11.5	Western Mande	Mande	Word Order
+men	Menomini	6	No question particle	45.5	-88.3333333333	Algonquian	Algic	Word Order
+mey	Menya	2	Final	-7.25	146.0	Nuclear Angan	Trans-New Guinea	Word Order
+mer	Meryam Mir	6	No question particle	-9.91666666667	144.083333333	Eastern Trans-Fly	Eastern Trans-Fly	Word Order
+mea	Meyah	2	Final	-1.16666666667	133.5	East Bird's Head	East Bird's Head	Word Order
+mpt	Mian	2	Final	-4.75	141.5	Ok	Trans-New Guinea	Word Order
+mie	Mien	2	Final	25.0	111.0	Mienic	Hmong-Mien	Word Order
+mik	Mikir	6	No question particle	26.3333333333	93.5	Karbic	Sino-Tibetan	Word Order
+hna	Mina	2	Final	10.3333333333	13.8333333333	Biu-Mandara	Afro-Asiatic	Word Order
+msg	Mising	6	No question particle	28.5	94.8333333333	Tani	Sino-Tibetan	Word Order
+mis	Miskito	2	Final	14.0	-83.6666666667	Misumalpan	Misumalpan	Word Order
+mxx	Mixe (Ayutla)	2	Final	17.0833333333	-96.0833333333	Mixe-Zoque	Mixe-Zoque	Word Order
+mco	Mixe (Coatlán)	5	In either of two positions	16.9166666667	-95.6666666667	Mixe-Zoque	Mixe-Zoque	Word Order
+mxc	Mixtec (Chalcatongo)	6	No question particle	17.05	-97.5833333333	Mixtec	Oto-Manguean	Word Order
+mxj	Mixtec (Jicaltepec)	2	Final	16.3333333333	-98.0	Mixtec	Oto-Manguean	Word Order
+mxo	Mixtec (Ocotepec)	1	Initial	17.1666666667	-97.75	Mixtec	Oto-Manguean	Word Order
+mxp	Mixtec (Peñoles)	2	Final	17.0833333333	-96.9166666667	Mixtec	Oto-Manguean	Word Order
+mxy	Mixtec (Yosondúa)	2	Final	16.9166666667	-97.5833333333	Mixtec	Oto-Manguean	Word Order
+miy	Miya	2	Final	10.9166666667	9.66666666667	West Chadic	Afro-Asiatic	Word Order
+miz	Mizo	2	Final	23.1666666667	92.8333333333	Kuki-Chin	Sino-Tibetan	Word Order
+mok	Mokilese	1	Initial	6.66666666667	159.75	Oceanic	Austronesian	Word Order
+mon	Mon	2	Final	14.8333333333	100.5	Monic	Austro-Asiatic	Word Order
+mkh	Mongol (Khamnigan)	2	Final	49.0	117.0	Mongolic	Altaic	Word Order
+mni	Moni	6	No question particle	-3.66666666667	137.0	Paniai Lakes	Trans-New Guinea	Word Order
+mno	Mono (in United States)	3	Second position	38.0	-119.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+moo	Mooré	2	Final	12.8333333333	-1.25	Oti-Volta	Niger-Congo	Word Order
+mri	Moraori	2	Final	-8.58333333333	140.666666667	Moraori	Moraori	Word Order
+mro	Moro	1	Initial	11.0	30.1666666667	Heiban	Kordofanian	Word Order
+mou	Moru	2	Final	4.75	29.75	Moru-Ma'di	Central Sudanic	Word Order
+mos	Mosetén	3	Second position	-14.75	-67.8333333333	Mosetenan	Mosetenan	Word Order
+mtu	Motu	2	Final	-9.33333333333	147.0	Oceanic	Austronesian	Word Order
+mov	Movima	6	No question particle	-13.8333333333	-65.6666666667	Movima	Movima	Word Order
+mpu	Mpur	2	Final	-0.75	133.25	Mpur	Mpur	Word Order
+aoj	Mufian	2	Final	-3.5	143.0	Kombio-Arapesh	Torricelli	Word Order
+msc	Muisca	6	No question particle	5.0	-74.0	Chibcha-Duit	Chibchan	Word Order
+mum	Mumuye	2	Final	9.0	11.6666666667	Mumuye-Yandang	Niger-Congo	Word Order
+mna	Muna	6	No question particle	-5.0	122.5	Celebic	Austronesian	Word Order
+mun	Mundari	2	Final	23.0	84.6666666667	Munda	Austro-Asiatic	Word Order
+mgk	Mungaka	2	Final	5.91666666667	10.0	Wide Grassfields	Niger-Congo	Word Order
+mup	Mupun	2	Final	9.5	8.83333333333	West Chadic	Afro-Asiatic	Word Order
+mrl	Murle	6	No question particle	6.5	33.5	South Surmic	Eastern Sudanic	Word Order
+mpa	Murrinh-Patha	2	Final	-14.6666666667	129.666666667	Murrinh-Patha	Southern Daly	Word Order
+mrw	Muruwari	1	Initial	-28.75	147.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+mgu	Musgu	2	Final	10.8333333333	14.9166666667	Biu-Mandara	Afro-Asiatic	Word Order
+mus	Mussau	2	Final	-1.45	149.616666667	Oceanic	Austronesian	Word Order
+mut	Mutsun	1	Initial	36.8333333333	-121.5	Costanoan	Penutian	Word Order
+mwo	Mwotlap	6	No question particle	-13.5833333333	167.583333333	Oceanic	Austronesian	Word Order
+nab	Nabak	6	No question particle	-6.41666666667	147.0	Huon	Trans-New Guinea	Word Order
+ndr	Nadroga	6	No question particle	-18.0833333333	177.416666667	Oceanic	Austronesian	Word Order
+nad	Nadëb	6	No question particle	-1.0	-66.5	Nadahup	Nadahup	Word Order
+nma	Naga (Mao)	2	Final	25.5	94.3333333333	Angami-Pochuri	Sino-Tibetan	Word Order
+ngt	Naga (Tangkhul)	6	No question particle	25.0	94.5	Tangkhul-Maring	Sino-Tibetan	Word Order
+nze	Naga (Zeme)	2	Final	25.1666666667	93.5	Zemeic	Sino-Tibetan	Word Order
+nag	Nagatman	2	Final	-3.75	141.5	Yale	Yale	Word Order
+nht	Nahuatl (Tetelcingo)	6	No question particle	19.6666666667	-99.0	Aztecan	Uto-Aztecan	Word Order
+kho	Nama	3	Second position	-25.5	18.0	Khoe-Kwadi	Khoe-Kwadi	Word Order
+nmb	Nambikuára (Southern)	6	No question particle	-14.0	-59.5	Nambikuaran	Nambikuaran	Word Order
+nam	Namia	2	Final	-3.83333333333	141.75	Yellow River	Sepik	Word Order
+nnc	Nancowry	1	Initial	8.05	93.5	Nicobarese	Austro-Asiatic	Word Order
+nan	Nandi	2	Final	0.25	35.0	Eastern Nilotic	Eastern Sudanic	Word Order
+nnk	Nankina	6	No question particle	-5.78333333333	146.45	Finisterre	Trans-New Guinea	Word Order
+nph	Nar-Phu	6	No question particle	28.6666666667	84.25	Bodic	Sino-Tibetan	Word Order
+nas	Nasioi	3	Second position	-6.33333333333	155.583333333	South Bougainville	South Bougainville	Word Order
+nav	Navajo	5	In either of two positions	36.1666666667	-108.0	Athapaskan	Na-Dene	Word Order
+ncm	Ncàm	2	Final	9.33333333333	0.666666666667	Oti-Volta	Niger-Congo	Word Order
+ndb	Ndebele	2	Final	-25.3333333333	29.0	Bantu	Niger-Congo	Word Order
+ndj	Ndjébbana	6	No question particle	-12.1666666667	134.116666667	Ndjébbana	Mangrida	Word Order
+ndy	Ndyuka	6	No question particle	4.5	-54.5	Creoles and Pidgins	other	Word Order
+nnd	Nend	6	No question particle	-5.0	144.916666667	Sogeram	Trans-New Guinea	Word Order
+naj	Neo-Aramaic (Arbel Jewish)	6	No question particle	36.3833	44.0	Semitic	Afro-Asiatic	Word Order
+nev	Nevome	1	Initial	31.0	-112.5	Tepiman	Uto-Aztecan	Word Order
+nwd	Newar (Dolakha)	2	Final	27.3333333333	86.0	Himalayish	Sino-Tibetan	Word Order
+new	Newari (Kathmandu)	2	Final	27.6666666667	85.5	Himalayish	Sino-Tibetan	Word Order
+ney	Neyo	2	Final	5.0	-6.0	Kru	Niger-Congo	Word Order
+nez	Nez Perce	1	Initial	46.0	-116.0	Sahaptian	Penutian	Word Order
+ngd	Ngad'a	6	No question particle	-8.83333333333	121.0	Central Malayo-Polynesian	Austronesian	Word Order
+nkb	Ngalkbun	1	Initial	-13.5	134.833333333	Marne	Gunwinyguan	Word Order
+ngm	Ngambay	2	Final	8.66666666667	16.0	Bongo-Bagirmi	Central Sudanic	Word Order
+nga	Nganasan	6	No question particle	71.0	93.0	Samoyedic	Uralic	Word Order
+ngn	Ngandi	1	Initial	-13.8333333333	135.0	Eastern Gunwinyguan	Gunwinyguan	Word Order
+ngk	Ngankikurungkurr	6	No question particle	-14.0	130.5	Ngankikurungkurr	Southern Daly	Word Order
+nbm	Ngbaka (Ma'bo)	2	Final	3.56	18.36	Ubangi	Niger-Congo	Word Order
+ngb	Ngbaka (Minagende)	2	Final	3.5	20.0	Gbaya-Manza-Ngbaka	Niger-Congo	Word Order
+ndi	Ngbandi	6	No question particle	3.75	22.0	Ubangi	Niger-Congo	Word Order
+nti	Ngiti	5	In either of two positions	1.33333333333	30.25	Lendu	Central Sudanic	Word Order
+ngi	Ngiyambaa	3	Second position	-31.75	145.5	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+ngz	Ngizim	6	No question particle	12.0833333333	10.9166666667	West Chadic	Afro-Asiatic	Word Order
+ngo	Ngoni	6	No question particle	-11.0	36.0	Bantu	Niger-Congo	Word Order
+nha	Nhanda	6	No question particle	-27.0	114.166666667	Western Pama-Nyungan	Pama-Nyungan	Word Order
+nia	Nias	1	Initial	1.0	97.75	Northwest Sumatra-Barrier Islands	Austronesian	Word Order
+nsg	Nisgha	2	Final	55.0	-130.0	Tsimshianic	Tsimshianic	Word Order
+nif	Niuafo'ou	6	No question particle	-15.5666666667	-175.616666667	Oceanic	Austronesian	Word Order
+niu	Niuean	4	Other position	-19.05	-170.116666667	Oceanic	Austronesian	Word Order
+niv	Nivkh	2	Final	53.3333333333	142.0	Nivkh	Nivkh	Word Order
+nke	Nkem	2	Final	6.58333333333	8.58333333333	Ekoid-Mbe	Niger-Congo	Word Order
+nkn	Nkonya	2	Final	7.16666666667	0.25	Tano	Niger-Congo	Word Order
+nko	Nkore-Kiga	2	Final	-0.916666666667	29.8333333333	Bantu	Niger-Congo	Word Order
+noc	Nocte	6	No question particle	27.0	95.5	Brahmaputran	Sino-Tibetan	Word Order
+non	Noni	2	Final	6.41666666667	10.5833333333	Beboid	Niger-Congo	Word Order
+noo	Noon	2	Final	14.8333333333	-16.8333333333	Cangin	Niger-Congo	Word Order
+nor	Norwegian	6	No question particle	61.0	8.0	Germanic	Indo-European	Word Order
+nua	Nuaulu	6	No question particle	-3.25	129.166666667	Central Malayo-Polynesian	Austronesian	Word Order
+nbd	Nubian (Dongolese)	6	No question particle	18.25	30.75	Nubian	Eastern Sudanic	Word Order
+nun	Nung (in Vietnam)	2	Final	21.9166666667	106.416666667	Kam-Tai	Tai-Kadai	Word Order
+nug	Nunggubuyu	5	In either of two positions	-13.75	135.666666667	Nunggubuyu	Gunwinyguan	Word Order
+nup	Nupe	5	In either of two positions	9.16666666667	5.41666666667	Nupoid	Niger-Congo	Word Order
+nyk	Nyamkad	6	No question particle	32.0	78.5	Bodic	Sino-Tibetan	Word Order
+nyu	Nyulnyul	1	Initial	-17.0	122.833333333	Nyulnyulan	Nyulnyulan	Word Order
+ood	O'odham	1	Initial	32.0	-112.0	Tepiman	Uto-Aztecan	Word Order
+obo	Obolo	1	Initial	4.58333333333	7.83333333333	Lower Cross	Niger-Congo	Word Order
+ocu	Ocuilteco	1	Initial	18.9166666667	-99.6666666667	Matlatzincan	Oto-Manguean	Word Order
+obg	Ogbronuagum	2	Final	4.75	6.86666666667	Central Delta	Niger-Congo	Word Order
+oji	Ojibwa (Eastern)	3	Second position	46.0	-80.0	Algonquian	Algic	Word Order
+olo	Olo	2	Final	-3.41666666667	142.0	Central Wapei	Torricelli	Word Order
+omh	Omaha	2	Final	42.0	-97.25	Mississippi Valley Siouan	Siouan	Word Order
+ond	Oneida	3	Second position	43.0	-75.6666666667	Northern Iroquoian	Iroquoian	Word Order
+ong	Onge	1	Initial	10.75	92.4166666667	South Andamanese	South Andamanese	Word Order
+oya	Oriya	2	Final	21.0	85.0	Indic	Indo-European	Word Order
+oro	Orokaiva	2	Final	-8.83333333333	148.25	Binanderean	Trans-New Guinea	Word Order
+orh	Oromo (Harar)	6	No question particle	9.0	42.0	Lowland East Cushitic	Afro-Asiatic	Word Order
+osa	Osage	6	No question particle	37.0	-94.0	Mississippi Valley Siouan	Siouan	Word Order
+otm	Otomí (Mezquital)	1	Initial	20.1666666667	-99.1666666667	Otomian	Oto-Manguean	Word Order
+paa	Pa'a	6	No question particle	11.0	9.25	West Chadic	Afro-Asiatic	Word Order
+pms	Paamese	6	No question particle	-16.5	168.25	Oceanic	Austronesian	Word Order
+pno	Paiute (Northern)	3	Second position	42.0	-118.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+pai	Paiwan	6	No question particle	22.5	120.833333333	Paiwan	Austronesian	Word Order
+pal	Palauan	6	No question particle	7.5	134.583333333	Palauan	Austronesian	Word Order
+plk	Palikur	1	Initial	3.0	-51.0	Palikur	Arawakan	Word Order
+pnx	Panará	1	Initial	-10.0	-55.0	Je Setentrional	Macro-Ge	Word Order
+pan	Panjabi	1	Initial	31.0	74.0	Indic	Indo-European	Word Order
+psh	Pashto	6	No question particle	33.0	67.0	Iranian	Indo-European	Word Order
+ptt	Pattani	6	No question particle	32.75	76.75	Bodic	Sino-Tibetan	Word Order
+pau	Paumarí	6	No question particle	-6.0	-64.0	Arauan	Arauan	Word Order
+paw	Pawaian	6	No question particle	-7.0	145.083333333	Pawaian	Teberan-Pawaian	Word Order
+per	Pero	2	Final	9.58333333333	11.0	West Chadic	Afro-Asiatic	Word Order
+prs	Persian	1	Initial	32.0	54.0	Iranian	Indo-European	Word Order
+pga	Pilagá	1	Initial	-25.0	-60.0	Qom	Guaicuruan	Word Order
+pip	Pipil	6	No question particle	13.8333333333	-89.5833333333	Aztecan	Uto-Aztecan	Word Order
+prh	Pirahã	2	Final	-7.0	-62.0	Mura	Mura	Word Order
+pis	Pisa	2	Final	-5.16666666667	139.166666667	Awju	Trans-New Guinea	Word Order
+ppi	Pitta Pitta	6	No question particle	-22.8333333333	140.0	Central Pama-Nyungan	Pama-Nyungan	Word Order
+pod	Podoko	2	Final	11.0	14.0833333333	Biu-Mandara	Afro-Asiatic	Word Order
+poh	Pohnpeian	6	No question particle	6.88333333333	158.25	Oceanic	Austronesian	Word Order
+pok	Poko-Rawo	2	Final	-2.83333333333	141.583333333	Serra Hills	Skou	Word Order
+pol	Polish	1	Initial	52.0	20.0	Slavic	Indo-European	Word Order
+pme	Pomo (Eastern)	6	No question particle	39.0	-122.666666667	Pomoan	Hokan	Word Order
+pso	Pomo (Southeastern)	6	No question particle	39.0	-122.5	Pomoan	Hokan	Word Order
+psw	Port Sandwich	6	No question particle	-16.5	167.75	Oceanic	Austronesian	Word Order
+por	Portuguese	1	Initial	39.0	-8.0	Romance	Indo-European	Word Order
+puq	Puquina	6	No question particle	-16.5	-68.5	Puquina	Puquina	Word Order
+prk	Purki	6	No question particle	34.6666666667	76.0	Bodic	Sino-Tibetan	Word Order
+pae	Páez	6	No question particle	2.66666666667	-76.0	Páezan	Páezan	Word Order
+par	Päri	6	No question particle	5.0	32.5	Western Nilotic	Eastern Sudanic	Word Order
+qaw	Qawasqar	6	No question particle	-49.0	-75.0	Alacalufan	Alacalufan	Word Order
+qia	Qiang	6	No question particle	32.0	102.666666667	Na-Qiangic	Sino-Tibetan	Word Order
+qhu	Quechua (Huallaga)	6	No question particle	-9.5	-75.5	Quechuan	Quechuan	Word Order
+qim	Quechua (Imbabura)	2	Final	0.333333333333	-78.0	Quechuan	Quechuan	Word Order
+qui	Quileute	6	No question particle	47.9166666667	-124.25	Chimakuan	Chimakuan	Word Order
+rap	Rapanui	1	Initial	-27.1166666667	-109.366666667	Oceanic	Austronesian	Word Order
+raw	Rawang	2	Final	27.5	97.5	Nungish	Sino-Tibetan	Word Order
+rem	Remo	6	No question particle	18.0	82.0	Munda	Austro-Asiatic	Word Order
+res	Resígaro	1	Initial	-2.41666666667	-71.5	Japura-Colombia	Arawakan	Word Order
+ret	Retuarã	1	Initial	-0.5	-70.6666666667	Tucanoan	Tucanoan	Word Order
+rit	Ritharngu	2	Final	-12.8333333333	135.5	Western Pama-Nyungan	Pama-Nyungan	Word Order
+rwe	Romani (Welsh)	1	Initial	52.0	-4.0	Indic	Indo-European	Word Order
+rom	Romanian	6	No question particle	46.0	25.0	Romance	Indo-European	Word Order
+ron	Ron	2	Final	9.0	8.75	West Chadic	Afro-Asiatic	Word Order
+rot	Rotuman	1	Initial	-12.5	177.066666667	Oceanic	Austronesian	Word Order
+rov	Roviana	6	No question particle	-8.25	157.333333333	Oceanic	Austronesian	Word Order
+ruk	Rukai (Tanan)	6	No question particle	22.8333333333	120.833333333	Rukai	Austronesian	Word Order
+rum	Rumu	2	Final	-7.16666666667	144.25	Turama-Kikorian	Trans-New Guinea	Word Order
+run	Runga	6	No question particle	10.3333333333	21.0	Maban	Maban	Word Order
+rny	Runyankore	6	No question particle	-0.5	30.5	Bantu	Niger-Congo	Word Order
+rus	Russian	3	Second position	56.0	38.0	Slavic	Indo-European	Word Order
+sah	Sahu	6	No question particle	1.16666666667	127.5	North Halmaheran	North Halmaheran	Word Order
+slb	Saliba (in Papua New Guinea)	2	Final	-10.5833333333	150.716666667	Oceanic	Austronesian	Word Order
+sal	Salinan	6	No question particle	36.0	-121.0	Salinan	Hokan	Word Order
+syu	Salt-Yui	6	No question particle	-6.28333333333	145.033333333	Chimbu-Wahgi	Trans-New Guinea	Word Order
+sle	Samba Leko	2	Final	8.5	12.5	Samba-Duru	Niger-Congo	Word Order
+sam	Samoan	1	Initial	-13.9166666667	-171.833333333	Oceanic	Austronesian	Word Order
+san	Sango	2	Final	5.0	18.0	Ubangi	Niger-Congo	Word Order
+sta	Santa	6	No question particle	31.5	107.5	Mongolic	Altaic	Word Order
+stl	Santali	6	No question particle	24.5	87.0	Munda	Austro-Asiatic	Word Order
+snm	Sanuma	6	No question particle	4.5	-64.6666666667	Yanomam	Yanomam	Word Order
+sap	Sapuan	2	Final	15.1666666667	106.833333333	Bahnaric	Austro-Asiatic	Word Order
+src	Sarcee	6	No question particle	52.5	-116.0	Athapaskan	Na-Dene	Word Order
+srd	Sardinian	1	Initial	40.0	9.0	Romance	Indo-European	Word Order
+sar	Sare	6	No question particle	-4.5	143.166666667	Sepik Hill	Sepik	Word Order
+svs	Savosavo	6	No question particle	-9.13333333333	159.8	Savosavo	Solomons East Papuan	Word Order
+sed	Sedang	4	Other position	14.8333333333	108.0	Bahnaric	Austro-Asiatic	Word Order
+sem	Sema	2	Final	26.0	94.5	Angami-Pochuri	Sino-Tibetan	Word Order
+sml	Semelai	6	No question particle	3.0	103.0	Aslian	Austro-Asiatic	Word Order
+smn	Seminole	6	No question particle	33.0	-84.0	Muskogean	Muskogean	Word Order
+scr	Serbian-Croatian	5	In either of two positions	44.0	19.0	Slavic	Indo-European	Word Order
+ser	Seri	2	Final	29.0	-112.0	Seri	Hokan	Word Order
+ses	Sesotho	6	No question particle	-28.0	27.0	Bantu	Niger-Congo	Word Order
+shh	Sharanahua	2	Final	-11.0	-70.0	Panoan	Pano-Tacanan	Word Order
+skw	Shekhawati	6	No question particle	28.0	75.5	Indic	Indo-European	Word Order
+she	Sherpa	2	Final	27.75	86.8333333333	Bodic	Sino-Tibetan	Word Order
+shl	Shilluk	6	No question particle	9.66666666667	31.75	Western Nilotic	Eastern Sudanic	Word Order
+sna	Shina	6	No question particle	36.0	74.0	Indic	Indo-European	Word Order
+shk	Shipibo-Konibo	3	Second position	-7.5	-75.0	Panoan	Pano-Tacanan	Word Order
+shi	Shiriana	2	Final	3.5	-62.8333333333	Yanomam	Yanomam	Word Order
+ryu	Shuri	6	No question particle	26.5	127.5	Japanese	Japanese	Word Order
+shu	Shuswap	5	In either of two positions	52.0	-120.0	Interior Salish	Salishan	Word Order
+sia	Siane	6	No question particle	-6.08333333333	145.2	Siane-Yagaria	Trans-New Guinea	Word Order
+sid	Sidaama	6	No question particle	6.66666666667	38.5	Highland East Cushitic	Afro-Asiatic	Word Order
+skk	Sikkimese	2	Final	27.8333333333	88.5	Bodic	Sino-Tibetan	Word Order
+sng	Sinaugoro	2	Final	-9.83333333333	147.833333333	Oceanic	Austronesian	Word Order
+sio	Sio	2	Final	-5.95	147.333333333	Oceanic	Austronesian	Word Order
+qum	Sipakapense	1	Initial	15.25	-91.75	Mayan	Mayan	Word Order
+srn	Sirionó	2	Final	-15.5833333333	-64.0	Maweti-Guarani	Tupian	Word Order
+sro	Siroi	2	Final	-5.5	146.0	Rai Coast	Trans-New Guinea	Word Order
+sko	Skou	2	Final	-2.66666666667	140.916666667	Western Skou	Skou	Word Order
+sla	Slave	1	Initial	67.0	-125.0	Athapaskan	Na-Dene	Word Order
+so	So	2	Final	2.58333333333	34.75	Kuliak	Eastern Sudanic	Word Order
+sob	Sobei	2	Final	-1.91666666667	138.75	Oceanic	Austronesian	Word Order
+som	Somali	4	Other position	3.0	45.0	Lowland East Cushitic	Afro-Asiatic	Word Order
+snn	Soninke	2	Final	15.0	-10.5	Western Mande	Mande	Word Order
+son	Sonsorol-Tobi	1	Initial	5.33333333333	132.25	Oceanic	Austronesian	Word Order
+sea	Southeast Ambrym	6	No question particle	-16.3	168.216666667	Oceanic	Austronesian	Word Order
+spa	Spanish	6	No question particle	40.0	-4.0	Romance	Indo-European	Word Order
+squ	Squamish	3	Second position	49.6666666667	-123.166666667	Central Salish	Salishan	Word Order
+sre	Sre	2	Final	11.5	108.0	Bahnaric	Austro-Asiatic	Word Order
+sti	Stieng	2	Final	11.8333333333	106.75	Bahnaric	Austro-Asiatic	Word Order
+sud	Sudest	6	No question particle	-11.5	153.45	Oceanic	Austronesian	Word Order
+sue	Suena	6	No question particle	-7.75	147.55	Binanderean	Trans-New Guinea	Word Order
+sul	Sulka	6	No question particle	-5.08333333333	151.916666667	Sulka	Sulka	Word Order
+slg	Sulung	2	Final	28.3333333333	93.25	Kho-Bwa	Sino-Tibetan	Word Order
+sun	Sundanese	1	Initial	-7.0	107.0	Malayo-Sumbawan	Austronesian	Word Order
+sup	Supyire	2	Final	11.5	-5.58333333333	Senufo	Niger-Congo	Word Order
+swa	Swahili	1	Initial	-6.5	39.0	Bantu	Niger-Congo	Word Order
+swt	Swati	2	Final	-26.5	31.0	Bantu	Niger-Congo	Word Order
+swe	Swedish	6	No question particle	60.0	15.0	Germanic	Indo-European	Word Order
+tab	Taba	6	No question particle	0.0	127.5	South Halmahera - West New Guinea	Austronesian	Word Order
+tbw	Tabwa	6	No question particle	-8.0	29.5	Bantu	Niger-Congo	Word Order
+tac	Tacana	1	Initial	-13.5	-68.0	Tacanan	Pano-Tacanan	Word Order
+tag	Tagalog	3	Second position	15.0	121.0	Greater Central Philippine	Austronesian	Word Order
+tah	Tahitian	3	Second position	-17.6666666667	-149.583333333	Oceanic	Austronesian	Word Order
+taf	Taiof	6	No question particle	-5.53333333333	154.633333333	Oceanic	Austronesian	Word Order
+taj	Tajik	2	Final	38.6666666667	70.0	Iranian	Indo-European	Word Order
+tkl	Takelma	3	Second position	42.5	-123.0	Takelma	Takelma	Word Order
+tak	Takia	2	Final	-4.66666666667	146.0	Oceanic	Austronesian	Word Order
+tam	Tamang (Eastern)	2	Final	27.5	85.666666666667	Bodic	Sino-Tibetan	Word Order
+tsk	Tamashek	1	Initial	20.0	-2.0	Berber	Afro-Asiatic	Word Order
+tml	Tamil	6	No question particle	11.0	78.5	Dravidian	Dravidian	Word Order
+tbx	Tangbe	6	No question particle	28.9166666667	83.75	Bodic	Sino-Tibetan	Word Order
+tao	Tarao	2	Final	24.25	94.1666666667	Kuki-Chin	Sino-Tibetan	Word Order
+tar	Tariana	6	No question particle	1.0	-69.1666666667	Japura-Colombia	Arawakan	Word Order
+tau	Tauya	2	Final	-5.75	145.333333333	Rai Coast	Trans-New Guinea	Word Order
+tbo	Tboli	4	Other position	6.16666666667	124.5	Bilic	Austronesian	Word Order
+tel	Telugu	6	No question particle	16.0	79.0	Dravidian	Dravidian	Word Order
+tne	Temne	2	Final	8.66666666667	-13.0833333333	Northern Mel	Niger-Congo	Word Order
+ten	Tennet	6	No question particle	4.41666666667	32.5	South Surmic	Eastern Sudanic	Word Order
+tny	Tenyer	2	Final	10.6666666667	-4.5	Senufo	Niger-Congo	Word Order
+teo	Teop	6	No question particle	-5.66666666667	155.0	Oceanic	Austronesian	Word Order
+tee	Tepehua (Huehuetla)	1	Initial	20.5	-98.0	Totonacan	Totonacan	Word Order
+tpn	Tepehuan (Northern)	3	Second position	26.3333333333	-107.0	Tepiman	Uto-Aztecan	Word Order
+tps	Tepehuan (Southeastern)	6	No question particle	23.0	-104.5	Tepiman	Uto-Aztecan	Word Order
+ter	Tera	2	Final	11.0	11.8333333333	Biu-Mandara	Afro-Asiatic	Word Order
+trb	Teribe	2	Final	9.33333333333	-82.6666666667	Western Isthmic Chibchan	Chibchan	Word Order
+tet	Tetela	2	Final	-4.0	24.0	Bantu	Niger-Congo	Word Order
+ttn	Tetun	2	Final	-9.0	126.0	Central Malayo-Polynesian	Austronesian	Word Order
+tha	Thai	2	Final	16.0	101.0	Kam-Tai	Tai-Kadai	Word Order
+tho	Thompson	5	In either of two positions	49.75	-121.75	Interior Salish	Salishan	Word Order
+tmo	Tibetan (Modern Literary)	6	No question particle	29.8333333333	91.5	Bodic	Sino-Tibetan	Word Order
+tib	Tibetan (Standard Spoken)	2	Final	30.0	91.0	Bodic	Sino-Tibetan	Word Order
+tid	Tidore	6	No question particle	0.75	127.5	North Halmaheran	North Halmaheran	Word Order
+tgk	Tigak	2	Final	-2.71666666667	150.8	Oceanic	Austronesian	Word Order
+tja	Tiipay (Jamul)	2	Final	32.1666666667	-116.5	Yuman	Hokan	Word Order
+tni	Tinani	6	No question particle	32.3333333333	77.1666666667	Bodic	Sino-Tibetan	Word Order
+tin	Tinrin	4	Other position	-21.6666666667	165.75	Oceanic	Austronesian	Word Order
+tir	Tiriyo	6	No question particle	3.25	-55.75	Cariban	Cariban	Word Order
+tiw	Tiwi	2	Final	-11.5	131.0	Tiwian	Tiwian	Word Order
+tlp	Tlapanec	1	Initial	17.0833333333	-99.0	Subtiaba-Tlapanec	Oto-Manguean	Word Order
+tob	Toba	6	No question particle	-26.5	-59.0	Qom	Guaicuruan	Word Order
+tbt	Tobati	6	No question particle	-2.58333333333	140.666666667	Oceanic	Austronesian	Word Order
+tke	Tokelauan	6	No question particle	-9.0	-172.0	Oceanic	Austronesian	Word Order
+tla	Tolai	1	Initial	-4.25	152.083333333	Oceanic	Austronesian	Word Order
+ton	Tonkawa	6	No question particle	30.25	-96.75	Tonkawa	Tonkawa	Word Order
+txj	Totonac (Xicotepec de Juárez)	1	Initial	20.4166666667	-97.8333333333	Totonacan	Totonacan	Word Order
+tri	Trique (Copala)	2	Final	17.1666666667	-97.9166666667	Trique	Oto-Manguean	Word Order
+tsf	Tsafiki	6	No question particle	-1.0	-79.3333333333	Barbacoan	Barbacoan	Word Order
+tsz	Tsez	6	No question particle	42.25	45.75	Avar-Andic-Tsezic	Nakh-Daghestanian	Word Order
+tgl	Tshangla	2	Final	27.8333333333	92.1666666667	Bodic	Sino-Tibetan	Word Order
+tsi	Tsimshian (Coast)	6	No question particle	52.5	-129.0	Tsimshianic	Tsimshianic	Word Order
+tsn	Tsonga	5	In either of two positions	-24.0	32.0	Bantu	Niger-Congo	Word Order
+ttu	Tsova-Tush	3	Second position	42.5	45.5	Nakh	Nakh-Daghestanian	Word Order
+tai	Tuareg (Air)	6	No question particle	19.0	9.0	Berber	Afro-Asiatic	Word Order
+tbu	Tubu	2	Final	16.0	15.0	Western Saharan	Saharan	Word Order
+tuc	Tucano	6	No question particle	0.5	-69.1666666667	Tucanoan	Tucanoan	Word Order
+tuk	Tukang Besi	2	Final	-5.5	123.5	Celebic	Austronesian	Word Order
+tnn	Tunen	2	Final	4.75	10.6666666667	Bantu	Niger-Congo	Word Order
+tun	Tunica	6	No question particle	32.6666666667	-91.0	Tunica	Tunica	Word Order
+tna	Turkana	2	Final	3.0	35.5	Eastern Nilotic	Eastern Sudanic	Word Order
+tur	Turkish	2	Final	39.0	35.0	Turkic	Altaic	Word Order
+tus	Tuscarora	3	Second position	36.0	-77.5	Northern Iroquoian	Iroquoian	Word Order
+tte	Tutelo	6	No question particle	37.6666666667	-78.75	Ohio Valley Siouan	Siouan	Word Order
+tvt	Tutsa	2	Final	27.5	96.5	Brahmaputran	Sino-Tibetan	Word Order
+tvl	Tuvaluan	6	No question particle	-8.5	179.166666667	Oceanic	Austronesian	Word Order
+tuv	Tuvan	2	Final	52.0	95.0	Turkic	Altaic	Word Order
+tuy	Tuyuca	6	No question particle	0.5	-70.0833333333	Tucanoan	Tucanoan	Word Order
+tzo	Tzotzil	1	Initial	16.5	-92.6666666667	Mayan	Mayan	Word Order
+tzu	Tzutujil	1	Initial	14.6666666667	-91.3333333333	Mayan	Mayan	Word Order
+tsh	Tümpisa Shoshone	3	Second position	37.0	-117.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+uby	Ubykh	6	No question particle	43.6666666667	39.6666666667	Northwest Caucasian	Northwest Caucasian	Word Order
+udh	Udihe	6	No question particle	47.6666666667	136.25	Tungusic	Altaic	Word Order
+ukr	Ukrainian	1	Initial	49.0	33.0	Slavic	Indo-European	Word Order
+uld	Uldeme	2	Final	10.95	14.1166666667	Biu-Mandara	Afro-Asiatic	Word Order
+uli	Ulithian	6	No question particle	9.91666666667	139.583333333	Oceanic	Austronesian	Word Order
+una	Una	6	No question particle	-4.66666666667	140.0	Mek	Trans-New Guinea	Word Order
+url	Urak Lawoi'	2	Final	8.0	98.3333333333	Malayo-Sumbawan	Austronesian	Word Order
+urt	Urat	2	Final	-3.66666666667	142.833333333	Urat	Torricelli	Word Order
+urd	Urdu	1	Initial	25.0	67.0	Indic	Indo-European	Word Order
+urk	Urubú-Kaapor	2	Final	-2.33333333333	-46.5	Maweti-Guarani	Tupian	Word Order
+usa	Usan	6	No question particle	-4.83333333333	145.166666667	North Adelbert	Trans-New Guinea	Word Order
+usr	Usarufa	6	No question particle	-6.41666666667	145.583333333	Gauwa	Trans-New Guinea	Word Order
+ute	Ute	3	Second position	39.0	-109.0	Northern Uto-Aztecan	Uto-Aztecan	Word Order
+uzb	Uzbek	6	No question particle	39.0	66.0	Turkic	Altaic	Word Order
+vie	Vietnamese	2	Final	10.5	106.5	Vietic	Austro-Asiatic	Word Order
+vnm	Vinmavis	6	No question particle	-16.1666666667	167.416666667	Oceanic	Austronesian	Word Order
+wwa	Waama	2	Final	10.5833333333	1.66666666667	Oti-Volta	Niger-Congo	Word Order
+wah	Wahgi	2	Final	-5.83333333333	144.716666667	Chimbu-Wahgi	Trans-New Guinea	Word Order
+wak	Wakhi	6	No question particle	36.5	72.0	Iranian	Indo-European	Word Order
+wal	Walman	2	Final	-3.21666666667	142.5	West Palei	Torricelli	Word Order
+wao	Waorani	6	No question particle	-1.0	-76.5	Waorani	Waorani	Word Order
+wap	Wappo	6	No question particle	38.5	-122.5	Wappo	Wappo-Yukian	Word Order
+wra	Warao	6	No question particle	9.33333333333	-61.6666666667	Warao	Warao	Word Order
+wrk	Warekena	6	No question particle	1.5	-67.5	Alto-Orinoco	Arawakan	Word Order
+war	Wari'	6	No question particle	-11.3333333333	-65.0	Chapacura-Wanham	Chapacura-Wanham	Word Order
+wrl	Warlpiri	3	Second position	-20.0	132.333333333	Western Pama-Nyungan	Pama-Nyungan	Word Order
+wrn	Warndarang	6	No question particle	-14.4166666667	135.583333333	Mara	Mangarrayi-Maran	Word Order
+wrg	Warrgamay	6	No question particle	-18.5833333333	146.083333333	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+was	Washo	2	Final	39.25	-120.0	Washo	Washo	Word Order
+wtm	Watam	6	No question particle	-3.91666666667	144.5	Lower Ramu	Ramu-Lower Sepik	Word Order
+wth	Wathawurrung	1	Initial	-38.0	144.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+way	Wayampi	3	Second position	1.0	-52.0	Maweti-Guarani	Tupian	Word Order
+wel	Welsh	1	Initial	52.0	-3.0	Celtic	Indo-European	Word Order
+wem	Wembawemba	6	No question particle	-35.3333333333	144.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+wma	West Makian	6	No question particle	0.5	127.583333333	North Halmaheran	North Halmaheran	Word Order
+wch	Wichí	1	Initial	-22.5	-62.5833333333	Matacoan	Matacoan	Word Order
+wn	Wik Ngathana	2	Final	-13.9166666667	141.5	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+wik	Wikchamni	1	Initial	36.4166666667	-119.083333333	Yokuts	Penutian	Word Order
+wiy	Wiyot	3	Second position	40.8333333333	-124.166666667	Wiyot	Algic	Word Order
+wly	Wolaytta	6	No question particle	6.83333333333	37.75	Ta-Ne-Omotic	Afro-Asiatic	Word Order
+wol	Woleaian	6	No question particle	7.33333333333	143.833333333	Oceanic	Austronesian	Word Order
+wlf	Wolof	1	Initial	15.25	-16.0	Wolof	Niger-Congo	Word Order
+xas	Xasonga	5	In either of two positions	14.25	-10.5	Western Mande	Mande	Word Order
+xav	Xavánte	1	Initial	-15.0	-52.5	Je Central	Macro-Ge	Word Order
+ygr	Yagaria	2	Final	-6.33333333333	145.416666667	Siane-Yagaria	Trans-New Guinea	Word Order
+yag	Yagua	3	Second position	-3.5	-72.0	Peba-Yaguan	Peba-Yaguan	Word Order
+yal	Yale (Kosarek)	6	No question particle	-4.08333333333	139.5	Mek	Trans-New Guinea	Word Order
+yap	Yapese	6	No question particle	9.58333333333	138.166666667	Yapese	Austronesian	Word Order
+yaq	Yaqui	1	Initial	27.5	-110.25	Cahita	Uto-Aztecan	Word Order
+yar	Yareba	2	Final	-9.5	148.5	Yareban	Trans-New Guinea	Word Order
+ywl	Yawelmani	1	Initial	35.4166666667	-119.0	Yokuts	Penutian	Word Order
+yid	Yidiny	6	No question particle	-17.0	145.75	Northern Pama-Nyungan	Pama-Nyungan	Word Order
+yin	Yindjibarndi	2	Final	-21.75	117.916666667	Western Pama-Nyungan	Pama-Nyungan	Word Order
+yng	Yingkarta	6	No question particle	-25.1666666667	114.833333333	Western Pama-Nyungan	Pama-Nyungan	Word Order
+yok	Yokuts (Yaudanchi)	1	Initial	36.0833333333	-119.083333333	Yokuts	Penutian	Word Order
+yor	Yoruba	6	No question particle	8.0	4.33333333333	Defoid	Niger-Congo	Word Order
+yuc	Yuchi	3	Second position	35.75	-86.75	Yuchi	Yuchi	Word Order
+yko	Yukaghir (Kolyma)	6	No question particle	65.75	150.833333333	Yukaghir	Yukaghir	Word Order
+yuk	Yukulta	1	Initial	-17.3333333333	138.833333333	Tangkic	Tangkic	Word Order
+yul	Yulu	2	Final	8.5	25.25	Bongo-Bagirmi	Central Sudanic	Word Order
+ypk	Yup'ik (Central)	3	Second position	59.5	-160.0	Eskimo	Eskimo-Aleut	Word Order
+yur	Yurok	3	Second position	41.3333333333	-124.0	Yurok	Algic	Word Order
+yuw	Yuwaalaraay	1	Initial	-29.5	148.0	Southeastern Pama-Nyungan	Pama-Nyungan	Word Order
+zai	Zapotec (Isthmus)	2	Final	16.416667	-95.0	Zapotecan	Oto-Manguean	Word Order
+zap	Zapotec (Mitla)	1	Initial	16.8	-96.25	Zapotecan	Oto-Manguean	Word Order
+zya	Zapotec (Yatzachi)	1	Initial	17.2	-96.2	Zapotecan	Oto-Manguean	Word Order
+zzo	Zapotec (Zoogocho)	6	No question particle	17.25	-96.25	Zapotecan	Oto-Manguean	Word Order
+zay	Zayse	6	No question particle	5.91666666667	37.3333333333	Ta-Ne-Omotic	Afro-Asiatic	Word Order
+zaz	Zazaki	6	No question particle	39.0	41.0	Iranian	Indo-European	Word Order
+zhn	Zhuang (Northern)	2	Final	24.0	108.0	Kam-Tai	Tai-Kadai	Word Order
+zch	Zoque (Chimalapa)	6	No question particle	16.75	-94.75	Mixe-Zoque	Mixe-Zoque	Word Order
+zqc	Zoque (Copainalá)	6	No question particle	17.0	-93.25	Mixe-Zoque	Mixe-Zoque	Word Order
+zul	Zulu	2	Final	-30.0	30.0	Bantu	Niger-Congo	Word Order
+eme	Émérillon	3	Second position	3.16666666667	-52.4166666667	Maweti-Guarani	Tupian	Word Order

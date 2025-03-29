@@ -3,12 +3,12 @@ personal	1	singular		ego	mē       	mihi  	meī        	mē    	egō
 personal	1	plural		nōs	nōs	nōbīs 	nostrī     	nōbīs 	nōs
 personal	2	singular		tū	tē       	tibi  	tuī        	tē    	tū
 personal	2	plural		vōs	vōs      	vōbīs 	vestrī     	vōbīs 	vōs
-personal	3	singular	masculine	is	eum	ea eī    	eius       	eō	
-personal	3	singular	feminine	ea	eam	ea eī    	eius       	eā    	
-personal	3	singular	neuter	id	id	ea eī    	eius       	eō    	
-personal	3	plural	masculine	ei	eōs      	ea eīs   	eōrum      	eīs   	
-personal	3	plural	feminine	eae	eās      	ea eīs   	eārum      	eīs   	
-personal	3	plural	neuter	ea	ea	ea eīs   	eōrum      	eīs   	
+personal	3	singular	masculine	is	eum	eī    	eius       	eō	
+personal	3	singular	feminine	ea	eam	ea	eius       	eā    	
+personal	3	singular	neuter	id	id	ea	eius       	eō    	
+personal	3	plural	masculine	ei	eōs      	eīs   	eōrum      	eīs   	
+personal	3	plural	feminine	eae	eās      	ea	eārum      	eīs   	
+personal	3	plural	neuter	ea	ea	ea	eōrum      	eīs   	
 reflexive		singular		—	sēs      	id sibi  	suī       	sē    	
 reflexive		plural		—	sē      	id sibi 	suī       	sē    	
 emphatic-reflexive		singular		—	sēsēs    	—	—	sēsē 	
