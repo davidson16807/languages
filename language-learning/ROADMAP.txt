@@ -10,13 +10,13 @@ DONE:
 	* infinitive conjugation  custom templates
 	* participles             generalize library currently used for english auxillaries
 	* moods                   reimplement
+?	* support regularized inflections, affixes, and clitics
+	* separation of usage aspect vs grammatical aspect
+	* separation of usage mood vs grammatical mood
 
 TODO:
 	* encode determiner/demonstrative/article distinction and necessity
-✓?	* support regularized inflections, affixes, and clitics
 	* improve support for roles (predicand, stimulus, etc.) and verb types (copulative, existential, adjectival, etc.)
-	* separation of usage aspect vs grammatical aspect
-	* separation of usage mood vs grammatical mood
 
 	* gerundive               degenerate case of participles (passive future participle, e.g. "to be written")
 	* gerund                  adapt declension templates for use with verb roots (indicating concepts, "-ing" or "-tion")

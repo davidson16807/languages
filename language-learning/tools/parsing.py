@@ -1,6 +1,6 @@
 import re
 
-from tools.indexing import DictKeyIndexing, DictTupleIndexing
+from tools.indexing import DictTupleIndexing
 from tools.dictstores import DictSpace, DictList, DictSet, DictLookup
 
 class SeparatedValuesFileParsing:

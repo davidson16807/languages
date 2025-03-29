@@ -7,7 +7,7 @@ import time
 from bs4 import BeautifulSoup
 
 # in-house libraries
-from inflections import write
+from tools.inflections import write
 from tools.parsing import TokenParsing
 
 class Uniform:

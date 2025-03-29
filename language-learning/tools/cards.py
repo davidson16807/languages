@@ -1,4 +1,3 @@
-from .shorthands import EmojiPerson
 
 class DeckGeneration:
     def __init__(self, omit_codes = ['—','❕','❔']):

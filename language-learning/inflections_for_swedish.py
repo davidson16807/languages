@@ -3,24 +3,22 @@ import time
 start_time = time.time()
 
 from tools.labels import TermLabelEditing
-from tools.parsing import TokenParsing, TermParsing
+from tools.parsing import TermParsing
 from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
-from tools.indexing import DictTupleIndexing, DictKeyIndexing
+from tools.indexing import DictTupleIndexing
 from tools.languages import Language
 from tools.orthography import Orthography
 from tools.nodemaps import (
     ListTools, ListGrammar, ListSemantics,
-    RuleTools, RuleSyntax, RuleFormatting, 
+    RuleTools, RuleFormatting, RuleSyntax, 
 )
 from tools.cards import DeckGeneration
-from inflections import (
+from tools.inflections import (
     dict_bundle_to_map,
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
-    english_orthography, english_mood_context,
     card_formatting,
     tsv_parsing,
-    has_annotation,
-    finite_annotation, nonfinite_annotation, declension_verb_annotation, 
+    finite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
@@ -35,6 +33,7 @@ from inflections import (
     template_tree_lookup,
     noun_template_whitelist,
 )
+from languages.english import native_english_demonstration
 
 label_editing = TermLabelEditing()
 deck_generation = DeckGeneration()
@@ -136,13 +135,6 @@ foreign_demonstration = LanguageSpecificTextDemonstration(
     [('∅','')]
 )
 
-english_demonstration = LanguageSpecificTextDemonstration(
-    english_orthography,
-    english_mood_context,
-    card_formatting.native_word, 
-    [('[the mass of]','')]
-)
-
 emoji_demonstration = LanguageSpecificEmojiDemonstration(
     emoji_casts[2],
     card_formatting.emoji_focus,
@@ -151,7 +143,7 @@ emoji_demonstration = LanguageSpecificEmojiDemonstration(
 demonstrations = [
     emoji_demonstration,
     foreign_demonstration,
-    english_demonstration,
+    native_english_demonstration,
 ]
 
 axis = {
