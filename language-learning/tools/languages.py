@@ -85,13 +85,13 @@ class Language:
         debug =  self.debug
         tag_insertion = {opcode:self.semantics.tag({**value,'script':script}, remove=False) for (opcode, value) in opcode_tags.items()}
         tag_removal   = {opcode:self.semantics.tag({**value,'script':script}, remove=True, debug=debug)  for (opcode, value) in opcode_tags.items()}
-        rules = 'clause det adj np vp n v stock-adposition'
+        rules = 'clause det adj np vp n v adposition'
         pipeline = [
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in substitutions],      # deck specific substitutions
             *[ListTreeMap({**tag_insertion, **substitution}) for substitution in self.substitutions], # language specific substitutions
             ListTreeMap({
                 **tag_insertion, 
-                'stock-adposition': self.semantics.stock_adposition,
+                'adposition': self.semantics.stock_adposition,
                 'v':                self.grammar.conjugate,
                 'n':                self.grammar.decline,
                 'det':              self.grammar.agree,

@@ -173,7 +173,7 @@ class RuleSyntax:
             part: [rule
                 for rule in rules
                 if rule.tag == part]
-            for part in 'stock-adposition det adj n np clause'.split()
+            for part in 'adposition det adj n np clause'.split()
         }
         return Rule(phrase.tag, 
             phrase.tags, 

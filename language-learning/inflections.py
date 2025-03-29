@@ -719,7 +719,7 @@ class EnglishListSubstitution:
         tense = memory['tense']
         voice = memory['voice']
         if form  == 'participle': 
-            return [['stock-adposition','that'], 'finite', tree]
+            return [['adposition','that'], 'finite', tree]
         return tree
     def mood(self, machine, tree, memory):
         '''creates auxillary verb phrases when necessary to express mood'''
@@ -926,7 +926,7 @@ class EnglishRuleSyntax(RuleSyntax):
             part: [rule
                 for rule in rules
                 if rule.tag == part]
-            for part in 'stock-adposition det n np clause'.split()
+            for part in 'adposition det n np clause'.split()
         }
         # only one determiner may exist
         # personal possessives
@@ -1027,7 +1027,7 @@ english_language = Language(
     ),
     EnglishRuleSyntax(
         parse_any.terms('subject verb direct-object indirect-object adverbial'),
-        parse_any.tokens('stock-adposition det adj n np clause')
+        parse_any.tokens('adposition det adj n np clause')
     ),
     {'language-type':'native'},
     list_tools,

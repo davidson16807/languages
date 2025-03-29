@@ -80,7 +80,7 @@ foreign_language = Language(
     ),
     RuleSyntax(
         parse_any.terms('subject adverbial indirect-object direct-object verb'), 
-        parse_any.tokens('stock-adposition det n adj np clause')
+        parse_any.tokens('adposition det n adj np clause')
     ),
     {'language-type':'foreign'},
     list_tools,
@@ -464,13 +464,12 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-
 print('flashcards/latin/finite-conjugation.html')
 write('flashcards/latin/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
-                'clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]',)
+                'clause [test [np n] [vp cloze v verb]] [dummy np [adposition] n]',)
         ) for demonstration in demonstrations],
         defaults.override(
               conjugation_subject_traversal 
@@ -489,11 +488,11 @@ write('flashcards/latin/nonfinite-conjugation.html',
             emoji_demonstration.generator(),
             foreign_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'clause [speaker finite [vp v figure]] [adverbial np clause [test infinitive [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]]',)
+                    'clause [speaker finite [vp v figure]] [adverbial np clause [test infinitive [np n] [vp cloze v verb]] [dummy np [adposition] n]]',)
             ),
             english_demonstration.generator(
                 tree_lookup = UniformDictLookup(
-                    'adverbial clause [speaker finite [np n] [vp v figure]] [adverbial np clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]] ',)
+                    'adverbial clause [speaker finite [np n] [vp v figure]] [adverbial np clause [test [np n] [vp cloze v verb]] [dummy np [adposition] n]] ',)
             ),
         ],
         defaults.override(
@@ -514,7 +513,7 @@ write('flashcards/latin/participle-declension.html',
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
                 '''clause test [
-                    [np participle clause [np n] parentheses [vp cloze v verb] [dummy np [stock-adposition] n]]
+                    [np participle clause [np n] parentheses [vp cloze v verb] [dummy np [adposition] n]]
                     [vp active present atelic v appear]
                 ]'''),
         ) for demonstration in demonstrations],
@@ -538,7 +537,7 @@ write('flashcards/latin/adpositions.html',
             tree_lookup = template_tree_lookup,
             substitutions = [
                 {'declined': list_tools.replace(['n'])},
-                {'stock-adposition': list_tools.wrap('cloze')},
+                {'adposition': list_tools.wrap('cloze')},
             ],
         ) for demonstration in demonstrations],
         defaults.override(

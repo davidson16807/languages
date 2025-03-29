@@ -137,7 +137,7 @@ foreign_language = Language(
     ),
     ModernRomanceRuleSyntax(
         'subject personal-indirect-object personal-direct-object verb common-direct-object common-indirect-object adverbial'.split(), 
-        parse_any.tokens('stock-adposition det adj n np clause')
+        parse_any.tokens('adposition det adj n np clause')
     ),
     {'language-type':'foreign'},
     list_tools,
@@ -461,7 +461,7 @@ write('flashcards/romance/italian/finite-conjugation.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = UniformDictLookup(
-                'clause [test [np n] [vp cloze v verb]] [dummy np [stock-adposition] n]',)
+                'clause [test [np n] [vp cloze v verb]] [dummy np [adposition] n]',)
         ) for demonstration in demonstrations],
         defaults.override(
               conjugation_subject_traversal 
@@ -480,7 +480,7 @@ write('flashcards/romance/italian/adpositions.html',
             tree_lookup = template_tree_lookup,
             substitutions = [
                 {'declined': list_tools.replace(['n'])},
-                {'stock-adposition': list_tools.wrap('cloze')},
+                {'adposition': list_tools.wrap('cloze')},
             ],
         ) for demonstration in demonstrations],
         defaults.override(
