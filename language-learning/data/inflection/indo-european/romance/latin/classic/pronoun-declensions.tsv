@@ -1,16 +1,39 @@
-*	*	*	*	nominative	accusative	dative	genitive	ablative	vocative
-personal	1	singular		ego	mē       	mihi  	meī        	mē    	egō
-personal	1	plural		nōs	nōs	nōbīs 	nostrī     	nōbīs 	nōs
-personal	2	singular		tū	tē       	tibi  	tuī        	tē    	tū
-personal	2	plural		vōs	vōs      	vōbīs 	vestrī     	vōbīs 	vōs
-personal	3	singular	masculine	is	eum	eī    	eius       	eō	
-personal	3	singular	feminine	ea	eam	ea	eius       	eā    	
-personal	3	singular	neuter	id	id	ea	eius       	eō    	
-personal	3	plural	masculine	ei	eōs      	eīs   	eōrum      	eīs   	
-personal	3	plural	feminine	eae	eās      	ea	eārum      	eīs   	
-personal	3	plural	neuter	ea	ea	ea	eōrum      	eīs   	
-reflexive		singular		—	sēs      	id sibi  	suī       	sē    	
-reflexive		plural		—	sē      	id sibi 	suī       	sē    	
-emphatic-reflexive		singular		—	sēsēs    	—	—	sēsē 	
-emphatic-reflexive		plural		—	sēsē	—	—	sēsē 	
-									
+*	*	*	*	nominative	genitive	dative	accusative	ablative	vocative
+personal	1	singular		ego	meī        	mihi  	mē       	mē    	egō
+personal	1	plural		nōs	nostrī     	nōbīs 	nōs	nōbīs 	nōs
+personal	2	singular		tū	tuī        	tibi  	tē       	tē    	tū
+personal	2	plural		vōs	vestrī     	vōbīs 	vōs      	vōbīs 	vōs
+personal	3	singular	masculine	is	eius       	eī    	eum	eō	— 
+personal	3	singular	feminine	ea	eius       	ea	eam	eā    	— 
+personal	3	singular	neuter	id	eius       	ea	id	eō    	— 
+personal	3	plural	masculine	ei	eōrum      	eīs   	eōs      	eīs   	— 
+personal	3	plural	feminine	eae	eārum      	ea	eās      	eīs   	— 
+personal	3	plural	neuter	ea	eōrum      	ea	ea	eīs   	— 
+reflexive		singular		—	suī       	id sibi  	sēs      	sē    	— 
+reflexive		plural		—	suī       	id sibi 	sē      	sē    	— 
+emphatic-reflexive		singular		—	—	—	sēsēs    	sēsē 	— 
+emphatic-reflexive		plural		—	—	—	sēsē	sēsē 	— 
+demonstrative	distal	singular	masculine	ille	illī̆us	illī	illum	illō	ille 
+demonstrative	distal	singular	feminine	illa	illī̆us	illī	illam	illā	illa 
+demonstrative	distal	singular	neuter	illud	illī̆us	illī	illud	illō	illum 
+demonstrative	distal	plural	masculine	illī	illōrum	illīs	illōs	illīs	illī 
+demonstrative	distal	plural	feminine	illae	illārum	illīs	illās	illīs	illae 
+demonstrative	distal	plural	neuter	illa	illōrum	illīs	illa	illīs	illa 
+demonstrative	proximal	singular	masculine	hic	huius	huic	hunc	hōc	he 
+demonstrative	proximal	singular	feminine	haec			hanc	hāc	ha 
+demonstrative	proximal	singular	neuter	hoc			hoc	hōc	hum 
+demonstrative	proximal	plural	masculine	hī	hōrum	hīs	hōs	hīs	hī 
+demonstrative	proximal	plural	feminine	hae	hārum		hās		hae 
+demonstrative	proximal	plural	neuter	haec	hōrum		haec		ha 
+demonstrative	medial	singular	masculine	iste	istī̆us	istī	istum	istō	iste 
+demonstrative	medial	singular	feminine	ista			istam	istā	ista 
+demonstrative	medial	singular	neuter	istud			istud	istō	istum 
+demonstrative	medial	plural	masculine	istī	istōrum	istīs	istōs	istīs	istī 
+demonstrative	medial	plural	feminine	istae	istārum		istās		istae 
+demonstrative	medial	plural	neuter	ista	istōrum		ista		ista 
+interrogative		singular	masculine	quis	cuius	cui	quem	quō	—
+interrogative		singular	feminine	quae	cuius	cui	quam	quā	—
+interrogative		singular	neuter	quid	cuius	cui	quid	quō	—
+interrogative		plural	masculine	quī	quōrum 	quibus	quōs 	quibus	—
+interrogative		plural	feminine	quae	quārum 	quibus	quās 	quibus	—
+interrogative		plural	neuter	quae	quōrum 	quibus	quae	quibus	—

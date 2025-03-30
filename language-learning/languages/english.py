@@ -157,6 +157,7 @@ class EnglishListSubstitution:
         tense = memory['tense']
         verbform = memory['verb-form']
         if (tense, verbform) == ('future', 'finite'):       return ['will',        'infinitive', tree]
+        # if (tense, verbform) == ('future', 'infinitive'):   return ['will',        'infinitive', tree]
         if (tense, verbform) == ('past',   'infinitive'):   return ['[back then]', tree]
         # if (tense, verbform) == ('present','infinitive'):   return ['[right now]', tree]
         if (tense, verbform) == ('future', 'infinitive'):   return ['[later on]',   tree]
@@ -261,9 +262,9 @@ class EnglishListSubstitution:
         definiteness = memory['definiteness'] if 'definiteness' in memory else 'indefinite'
         subjectivity = memory['subjectivity']
         nounform = memory['noun-form']
-        if definiteness == 'definite' and subjectivity != 'addressee' and nounform != 'personal': 
+        if definiteness == 'definite' and subjectivity != 'addressee' and nounform in {'common'}: 
             return [['det','the'], tree]
-        if definiteness == 'indefinite' and subjectivity != 'addressee' and nounform != 'personal': 
+        if definiteness == 'indefinite' and subjectivity != 'addressee' and nounform in {'common'}: 
             return [['det','a'], tree]
         else:
             return tree
@@ -440,6 +441,7 @@ english_language = Language(
     EnglishRuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
         parse_any.terms('subject verb direct-object indirect-object adverbial'),
+        parse_any.terms('interrogative verb subject direct-object indirect-object adverbial'),
     ),
     {'language-type':'native'},
     list_tools,

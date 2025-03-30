@@ -80,6 +80,7 @@ foreign_language = Language(
     RuleSyntax(
         parse_any.tokens('adposition det n adj np clause'),
         parse_any.terms('subject adverbial indirect-object direct-object verb'), 
+        parse_any.terms('interrogative verb subject adverbial indirect-object direct-object'), 
     ),
     {'language-type':'foreign'},
     list_tools,
@@ -274,18 +275,48 @@ verb_voice_blacklist = parse.termmask(
 
 pronoun_traversal = parse.tokenpath(
     'pronoun_traversal', 
-    'noun person number gender',
+    'noun-form distance noun person number gender',
     '''
-    man    1 singular neuter   
-    woman  2 singular feminine 
-    man    3 singular masculine
-    woman  3 singular feminine 
-    snake  3 singular neuter   
-    man    1 plural   neuter   
-    woman  2 plural   feminine 
-    man    3 plural   masculine
-    woman  3 plural   feminine 
-    man    3 plural   neuter   
+    personal      proximal man    1 singular neuter   
+    personal      proximal woman  2 singular feminine 
+    personal      proximal man    3 singular masculine
+    personal      proximal woman  3 singular feminine 
+    personal      proximal snake  3 singular neuter   
+    personal      proximal man    1 plural   neuter   
+    personal      proximal woman  2 plural   feminine 
+    personal      proximal man    3 plural   masculine
+    personal      proximal woman  3 plural   feminine 
+    personal      proximal man    3 plural   neuter   
+    ''')
+
+correlative_traversal = parse.tokenpath(
+    'correlative_traversal', 
+    'noun-form distance noun person number gender',
+    '''
+    interrogative proximal man    3 singular masculine
+    interrogative proximal woman  3 singular feminine 
+    interrogative proximal thing  3 singular neuter   
+    interrogative proximal man    3 plural   masculine
+    interrogative proximal woman  3 plural   feminine 
+    interrogative proximal thing  3 plural   neuter   
+    demonstrative proximal man    3 singular masculine
+    demonstrative proximal woman  3 singular feminine 
+    demonstrative proximal thing  3 singular neuter   
+    demonstrative proximal man    3 plural   masculine
+    demonstrative proximal woman  3 plural   feminine 
+    demonstrative proximal thing  3 plural   neuter   
+    demonstrative medial   man    3 singular masculine
+    demonstrative medial   woman  3 singular feminine 
+    demonstrative medial   thing  3 singular neuter   
+    demonstrative medial   man    3 plural   masculine
+    demonstrative medial   woman  3 plural   feminine 
+    demonstrative medial   thing  3 plural   neuter   
+    demonstrative distal   man    3 singular masculine
+    demonstrative distal   woman  3 singular feminine 
+    demonstrative distal   thing  3 singular neuter   
+    demonstrative distal   man    3 plural   masculine
+    demonstrative distal   woman  3 plural   feminine 
+    demonstrative distal   thing  3 plural   neuter   
     ''')
 
 gender_agreement_traversal = parse.tokenpath(
@@ -578,7 +609,25 @@ write('flashcards/romance/latin/pronoun-declension.html',
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('personal'),
+            'test'       : parse.termaxis_to_term(''),
+        },
+    ))
+
+print('flashcards/romance/latin/correlative-declension.html')
+write('flashcards/romance/latin/correlative-declension.html', 
+    deck_generation.generate(
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
+            substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
+        ) for demonstration in demonstrations],
+        defaults.override(
+            ((correlative_traversal * declension_noun_traversal)
+            & noun_template_whitelist)
+            - subjectivity_person_blacklist
+        ),
+        tag_templates ={
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term(''),
         },
     ))
 
