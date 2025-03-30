@@ -118,7 +118,7 @@ class RegularEnglishGrammar:
             return self.imperfective_verb(verb)
         if tags['tense']=='past' or tags['aspect']=='perfective':
             return self.perfective_verb(verb)
-        if tags['number']=='singular' and tags['person']=='3':
+        if tags['number']=='singular' and tags['person']=='3' and tags['verb-form']=='finite':
             return self.singular_third_verb(verb)
         return verb
     def agree(self, tags):
