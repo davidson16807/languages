@@ -33,7 +33,7 @@ from tools.inflections import (
     template_tree_lookup,
     noun_template_whitelist,
 )
-from languages.english import native_english_demonstration
+from languages.english import native_english_demonstration, EnglishRuleSyntax
 
 label_editing = TermLabelEditing()
 deck_generation = DeckGeneration()
@@ -544,4 +544,3 @@ write(f'{deck_path}/pronoun-possessives.{deck_format}',
 end_time = time.time()
 duration = end_time-start_time
 print(f'runtime: {int(duration//60)}:{int(duration%60):02}')
- 
