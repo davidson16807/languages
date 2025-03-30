@@ -134,25 +134,36 @@ class RuleSyntax:
     `RuleTrees` to perform operations on a syntax tree of rules that encapsulate 
     the syntax of a natural language, such as the structuring of clauses and noun phrases.
     """
-    def __init__(self, noun_phrase_structure, sentence_structure, content_question_structure=None):
+    def __init__(self, 
+            noun_phrase_structure, 
+            sentence_structure, 
+            content_question_structure=None, 
+            polar_question_structure=None):
         self.noun_phrase_structure = noun_phrase_structure
         self.sentence_structure = sentence_structure
-        self.content_question_structure = content_question_structure or None
+        self.content_question_structure = content_question_structure or sentence_structure
+        self.polar_question_structure = polar_question_structure or sentence_structure
     def order_clause(self, treemap, clause):
+        nounform = lambda rule: rule.tags['noun-form'] if 'noun-form' in rule.tags else None
+        subjectivity = lambda rule: rule.tags['subjectivity'] if 'subjectivity' in rule.tags else None
+        evidentiality = lambda rule: rule.tags['evidentiality'] if 'evidentiality' in rule.tags else None
         rules = clause.content
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
         # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
         # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
-        noun_lookup = {
-            subjectivity: [noun 
-                for noun in nouns 
-                if noun.tags['subjectivity'] == subjectivity]
-            for subjectivity in 'subject direct-object indirect-object adverbial adnominal'.split()
-        }
         interrogatives = [noun 
             for noun in nouns 
-            if 'noun-form' in noun.tags 
-            and noun.tags['noun-form'] == 'interrogative']
+            if nounform(noun) == 'interrogative']
+        noun_lookup = {
+            placement: [noun 
+                for noun in nouns 
+                if subjectivity(noun) == placement
+                and nounform(noun) != 'interrogative']
+            for placement in '''
+                subject direct-object indirect-object 
+                adverbial adnominal negation polar-question-marker
+                '''.strip().split()
+        }
         verbs = [phrase
             for phrase in rules 
             if phrase.tag in {'vp'}]
@@ -161,11 +172,21 @@ class RuleSyntax:
             'interrogative': interrogatives,
             'verb': verbs,
         }
+        structure_name = ('content question' if interrogatives 
+            else 'polar question' if evidentiality(clause) == 'interrogated'
+            else 'typical sentence')
+        structure = {
+            'content question': self.content_question_structure,
+            'polar question': self.polar_question_structure,
+            'typical sentence': self.sentence_structure,
+        }[structure_name]
+        if not structure:
+            raise ValueError(f"No syntax is defined for a {structure_name} in this language")
         ordered = Rule(clause.tag, 
             clause.tags,
             treemap.map([
                 phrase
-                for phrase_type in (self.content_question_structure if interrogatives else self.sentence_structure)
+                for phrase_type in structure
                 for phrase in phrase_lookup[phrase_type]
             ]))
         return ordered
