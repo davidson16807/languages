@@ -71,6 +71,11 @@ def EmojiDemonstration(
                 tags['gender'][0] if tags['gender'][0] in 'mfn' else 'n', 
                 self.persons[int(tags['person'])-1].color if 'personal' in tags['noun-form'] else '4'
             )
+            '''
+            <span style="filter: drop-shadow(0 0 0.3em #7777FF)"><span style="filter:brightness(0%)">
+            
+            </span></span>
+            '''
             persons = [
                 subject if str(i+1)==tags['person'] else person
                 for i, person in enumerate(self.persons)]
@@ -87,6 +92,11 @@ def EmojiDemonstration(
                             'script': 'emoji',
                         }, tag_templates)
                     return self.decode(tags, '\\flex{'+possessed+'\\r{'+possessor+'}}')
+                elif tags['noun-form'] == 'demonstrative':
+                    return noun({**tags, 'noun-form':'common'}, tag_templates)+'←'
+                elif tags['noun-form'] == 'interrogative':
+                    return htmlTenseTransform.interrogative(
+                        noun({**tags, 'noun-form':'common'}, tag_templates))
                 else:
                     depiction = ('missing' if 'noun' not in tags 
                         else tags['noun'] if tags['noun'] not in nouns_to_depictions 

@@ -50,15 +50,20 @@ class HtmlNumberTransform:
     def plural_inclusive(self, a,b,c): 
         return self.positions.group(self.positions.farleft(a), self.positions.center(b), self.positions.right(c))
 
-class HtmlTenseTransform:
+class HtmlTenseMoodTransform:
     def __init__(self):
         pass
     def present(self, scene): 
         return f'''{scene}'''
     def past(self, scene): 
+        # old timey sepia filter
         return f'''<span style='filter: sepia(0.8)  drop-shadow(0px 0px 5px black)'>{scene}</span>'''
     def future(self, scene): 
+        # blurry filter because we can't see the future
         return f'''<span style='filter: blur(1px) drop-shadow(0px 0px 5px black)'>{scene}</span>'''
+    def interrogative(self, scene): 
+        # "who's that pokemon!?"
+        return f'''<span style="filter: drop-shadow(0 0 0.3em #7777FF)"><span style="filter:brightness(0)">{scene}</span></span>'''
 
 class HtmlProgressTransform:
     def __init__(self):

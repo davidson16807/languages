@@ -133,32 +133,96 @@ class RuleSyntax:
     `RuleSyntax` is a library of functions that can be used in conjunction with 
     `RuleTrees` to perform operations on a syntax tree of rules that encapsulate 
     the syntax of a natural language, such as the structuring of clauses and noun phrases.
+    It is designed to accomodate sentences in the majority of natural languages, including:
+    * typical sentences ("I go to him")
+    * negative sentences ("I don't go to him")
+    * content questions ("who did?" "where do we go?" etc.)
+    * polar questions ("is it so?")
+    * languages where word order varies for any of the above (e.g. German)
+    * languages where markers for the above are placed between verb and noun phrases (e.g. Spanish)
+    * languages where markers for the above are placed as 1st word, 2nd word, last word, etc. (e.g. Latin)
+    It does not account for the following:
+    * languages where inflected verbs double as polar question markers (e.g. English)
+    * languages with multiple obligatory markers for negation (e.g. Middle Egyptian, French)
+    * languages with multiple obligatory markers for questions
+    Accounting for any of the above requires a custom class that is polymorphic to `RuleSyntax`
     """
     def __init__(self, 
             noun_phrase_structure, 
             sentence_structure, 
             content_question_structure=None, 
-            polar_question_structure=None):
+            polar_question_structure=None,
+            negative_sentence_structure=None, 
+            interrogative_position=None,
+            polar_particle_position=None):
+        # word order in phrases:
         self.noun_phrase_structure = noun_phrase_structure
+        # phrase order in sentences:
         self.sentence_structure = sentence_structure
-        self.content_question_structure = content_question_structure or sentence_structure
-        self.polar_question_structure = polar_question_structure or sentence_structure
+        self.content_question_structure = content_question_structure
+        self.polar_question_structure = polar_question_structure
+        self.negative_sentence_structure = negative_sentence_structure
+        # word order in sentences:
+        self.interrogative_position = interrogative_position
+        self.polar_particle_position = polar_particle_position
+    def order_word_sequence(self, treemap, clause):
+        '''
+        `order_word_sequence()` orders words without regard to where those words are in syntax trees.
+        This can be useful to follow certain rules in language, particularly for question formation.
+        For instance, content questions in English move interrogative words like "where" to the front 
+        without moving other words like prepositions from the same noun phrase:
+            ✓what did the quick brown fox jump over?
+            ˣover what did the quick brown fox jump?
+        Certain languages indicate polar ("yes/no") questions 
+        by inserting a particle after the first word in the sentence.
+        For our purposes, this is sufficient to ask polar questions in Latin using the suffix -ne:
+            Estne verum?
+            Nōnne animadvertis?
+            Nihilne in mentem?
+        `interrogative_position` and `polar_particle_position` 
+        indicate the index of the respective word in the word sequence (typically 0, 1, or -1)
+        Setting these to `None` will preserve the existing order.
+        '''
+        rules = clause.content
+        interrogatives = [rule 
+            for rule in rules 
+            if rule['noun-form'] == 'interrogative']
+        polar_question_particles = [rule 
+            for rule in rules 
+            if rule['subjectivity'] == 'polar-question-marker']
+        if self.interrogative_position is not None and interrogatives:
+            noninterrogatives = [rule 
+                for rule in rules 
+                if rule['noun-form'] != 'interrogative']
+            rules = (
+                noninterrogatives[:self.interrogative_position] + 
+                interrogatives + 
+                noninterrogatives[self.interrogative_position:]
+            )
+        elif self.polar_particle_position is not None and polar_question_particles:
+            non_polar_question_particles = [rule 
+                for rule in rules 
+                if rule['subjectivity'] != 'polar-question-marker']
+            rules = (
+                non_polar_question_particles[:self.polar_particle_position] + 
+                polar_question_particles + 
+                non_polar_question_particles[self.polar_particle_position:]
+            )
+        ordered = Rule(clause.tag, clause.tags, rules)
+        return ordered
     def order_clause(self, treemap, clause):
-        nounform = lambda rule: rule.tags['noun-form'] if 'noun-form' in rule.tags else None
-        subjectivity = lambda rule: rule.tags['subjectivity'] if 'subjectivity' in rule.tags else None
-        evidentiality = lambda rule: rule.tags['evidentiality'] if 'evidentiality' in rule.tags else None
         rules = clause.content
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
         # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
         # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
         interrogatives = [noun 
             for noun in nouns 
-            if nounform(noun) == 'interrogative']
+            if noun['noun-form'] == 'interrogative']
         noun_lookup = {
             placement: [noun 
                 for noun in nouns 
-                if subjectivity(noun) == placement
-                and nounform(noun) != 'interrogative']
+                if noun['subjectivity'] == placement
+                and noun['noun-form'] != 'interrogative']
             for placement in '''
                 subject direct-object indirect-object 
                 adverbial adnominal negation polar-question-marker
@@ -173,11 +237,13 @@ class RuleSyntax:
             'verb': verbs,
         }
         structure_name = ('content question' if interrogatives 
-            else 'polar question' if evidentiality(clause) == 'interrogated'
+            else 'polar question' if clause['evidentiality'] == 'interrogated'
+            else 'negative' if clause['polarity'] == 'negative'
             else 'typical sentence')
         structure = {
             'content question': self.content_question_structure,
             'polar question': self.polar_question_structure,
+            'negative': self.negative_sentence_structure,
             'typical sentence': self.sentence_structure,
         }[structure_name]
         if not structure:
@@ -357,10 +423,13 @@ class ListTools:
 class RuleTools:
     def __init__(self):
         pass
-    def filter_tags(self, tags):
+    def flatten(self, tags):
         def _map(treemap, rule):
-            return Rule(rule.tag,
-                {key:value for key,value in rule.tags.items()
-                 if tags is None or key in tags},
-                treemap.map([content for content in rule.content]))
+            return Rule(
+                rule.tag,
+                rule.tags,
+                [descendant 
+                    for child in rule.content
+                    for descendant in treemap.map(child).content]
+            )
         return _map

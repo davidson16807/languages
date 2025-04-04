@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 from .treemaps import ListTreeMap, RuleTreeMap
 
 class Language:
@@ -104,6 +106,10 @@ class Language:
             RuleTreeMap({
                 'clause':  self.syntax.order_clause,
                 'np':      self.syntax.order_noun_phrase,
+            }),
+            RuleTreeMap(defaultdict(lambda: self.rule_tools.flatten)),
+            RuleTreeMap({
+                'clause': self.syntax.order_word_sequence
             }),
             RuleTreeMap({
                 **{tag:self.formatting.default for tag in rules.split()},

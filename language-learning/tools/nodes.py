@@ -8,7 +8,17 @@ class Rule:
         self.tags = tags
         self.content = content
     def __getitem__(self, key):
-        return self.content[key]
+        if type(key) is int:
+            return self.content[key]
+        else:
+            return self.tags[key] if key in self.tags else None
+    def __setitem__(self, key):
+        if type(key) is int:
+            self.content[key] = key
+            return self.content[key]
+        else:
+            self.tags[key] = key
+            return self.tags[key]
     def __str__(self):
         return '' + self.tag + '{'+' '.join([str(member) for member in self.content])+'}'
     def __repr__(self):

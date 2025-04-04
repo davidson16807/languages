@@ -24,9 +24,9 @@
 #	demonstrative	emphatic	singular	feminine	sosā	sosiān	sosās	sosī, sosiā	sosī, sosiā	sosī, sosiā	#	
 #	demonstrative	emphatic	singular	masculine	soso(s)	soson	sosi	sosiū	sosiū	sosiū	#	
 #	demonstrative	emphatic	singular	neuter	sosin	sosin	sosi	sosiū	sosiū	sosiū	#	
-#	demonstrative	emphatic	plural	feminine	sosās	sosās	sosanom	-	-	-	#	
-#	demonstrative	emphatic	plural	masculine	sosii	sosūs	soson	-	-	-	#	
-#	demonstrative	emphatic	plural	neuter	sosanā	sosanā	soson	-	-	-	#	
+#	demonstrative	emphatic	plural	feminine	sosās	sosās	sosanom	—	—	—	#	
+#	demonstrative	emphatic	plural	masculine	sosii	sosūs	soson	—	—	—	#	
+#	demonstrative	emphatic	plural	neuter	sosanā	sosanā	soson	—	—	—	#	
 	demonstrative	medial	singular	feminine	sondā	sondin	sondās	sondī	sondī	sondī	#	
 	demonstrative	medial	singular	masculine	sondos	sondon	sondī	sondū	sondū	sondē	#	
 	demonstrative	medial	singular	neuter	sindon	sindon	sindī	sindū	sindū	sindē	#	
@@ -39,4 +39,12 @@
 	demonstrative	distal	plural	feminine	sindās	sindās	sindānon	sindābo	sindābi	sindābi	#	
 	demonstrative	distal	plural	masculine	sindii	sindūs	sindon	sindobo	sindobi	sindobi	#	
 	demonstrative	distal	plural	neuter	sindā	sindā	sindon	sindobo	sindobi	sindobi	#	
-												
+	interrogative		singular	feminine	peis	pon	peio	peiu	❔	❔	#	
+	interrogative		singular	masculine	peis	pon	peio	peiu	❔	❔	#	
+	interrogative		singular	neuter	pida	pida	peio	peiu	❔	❔	#	
+	interrogative		dual	feminine	pi	pi	peio	peiobon	❔	❔	#	
+	interrogative		dual	masculine	pi	pi	peio	peiobon	❔	❔	#	
+	interrogative		dual	neuter	pi	pi	peio	peiobon	❔	❔	#	
+	interrogative		plural	feminine	❔	❔	❔	❔	❔	❔	#	
+	interrogative		plural	masculine	peies	pus	peionon	peiobo	❔	❔	#	
+	interrogative		plural	neuter	❔	❔	❔	❔	❔	❔	#	

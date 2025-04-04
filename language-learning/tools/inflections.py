@@ -9,7 +9,7 @@ import re
 
 from tools.transforms import (
     HtmlGroupPositioning, HtmlPersonPositioning,
-    HtmlTextTransform,  HtmlNumberTransform, HtmlTenseTransform, HtmlProgressTransform, HtmlBubble
+    HtmlTextTransform,  HtmlNumberTransform, HtmlTenseMoodTransform, HtmlProgressTransform, HtmlBubble
 )
 from tools.shorthands import (
     Enclosures, BracketedShorthand, TextTransformShorthand,
@@ -88,14 +88,13 @@ case_episemaxis_to_episemes = {
 }
 
 mood_episemaxis_to_episemes = {
-    # NOTE: "evidentiality", "logic", "confidence", etc. are small parts ("episemes") to a larger part (a "seme") known as the "semantic mood".
+    # NOTE: "evidentiality", "logic", "confidence", etc. are small parts ("episemes") to a larger part (a "seme") of meaning known as the "semantic mood".
     # A "seme" is simply the domain of any map "seme→tag" that creates distinction 
-    #  between the meaning that the speaker intends to convey and the grammatical decision (bijective to a set of meanings) that could be interpreted by the audience.
+    #  between the meaning that the speaker intends to convey and the grammatical decision that could be interpreted by the audience.
     # The names for semes are assigned here by appending "semantic" to the name of whatever tag they map to, i.e. "semantic case", "semantic mood", etc.
     # See README.txt and GLOSSARY.tsv for more information on these and related terms.
     # how the statement arises in the context of logical discourse
     'evidentiality': [
-        'promised',       # speaker attests to the event, speaker determines if the event occurs
         'deliberated',    # addressee attests to the event, addressee determines if the event occurs, speaker is neutral
         'requested',      # addressee attests to the event, addressee determines if the event occurs, speaker offers no persuasion
         'encouraged',     # addressee attests to the event, addressee determines if the event occurs, speaker persuades by encouragement
@@ -103,6 +102,8 @@ mood_episemaxis_to_episemes = {
         'pending',        # addressee attests to the event, addressee determines if the event occurs, no persuasion needed, addressee agrees and confirmation is pending
         'commanded',      # addressee attests to the event, addressee determines if the event occurs, no persuasion needed, addressee is subordinate
         'prayed',         # addressee attests to the event, addressee determines if the event occurs, no persuasion needed, addressee is supernatural
+        'interrogated',   # addressee attests to the event, subject determines if the event occurs
+        'promised',       # speaker attests to the event, speaker determines if the event occurs
         'presumed',       # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, no evidence given
         'visual',         # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is visual
         'nonvisual',      # speaker attests to the event, subject determines if the event occurs, actuality of event is considered, evidence is nonvisual
@@ -117,9 +118,8 @@ mood_episemaxis_to_episemes = {
         'supposed',       # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence provided elsewhere
         'antecedent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence provided elsewhere
         'consequent',     # speaker attests to the event, subject determines if the event occurs, actuality of event is not considered, evidence is contingent on other event
-        'interrogated',   # addressee attests to the event, subject determines if the event occurs
-        'wished',         # subject attests to the event, subject determines if the event occurs, addressee is invested in outcome
-        'deferred',       # subject attests to the event, subject determines if the event occurs, addressee is not invested in outcome
+        'wished',         # subject attests to the event, subject determines if the event occurs, speaker is invested in outcome
+        'deferred',       # subject attests to the event, subject determines if the event occurs, speaker is not invested in outcome
     ],
     # whether the event is confirmed or denied
     'polarity':         'affirmative negative'.split(),
@@ -583,7 +583,7 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
     TermLabelEditing(),
     TermLabelFiltering(),
     emoji_shorthand, 
-    HtmlTenseTransform(), 
+    HtmlTenseMoodTransform(), 
     HtmlProgressTransform(), 
 )
 
