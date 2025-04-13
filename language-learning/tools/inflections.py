@@ -9,7 +9,8 @@ import re
 
 from tools.transforms import (
     HtmlGroupPositioning, HtmlPersonPositioning,
-    HtmlTextTransform,  HtmlNumberTransform, HtmlTenseMoodTransform, HtmlProgressTransform, HtmlBubble
+    HtmlTextTransform,  HtmlNumberTransform, 
+    HtmlTenseTransform, HtmlProgressTransform, HtmlNounFormTransform, HtmlBubble
 )
 from tools.shorthands import (
     Enclosures, BracketedShorthand, TextTransformShorthand,
@@ -375,7 +376,7 @@ conjugation_template_lookups = DictLookup(
         'group': DictLookup('group', DictKeyIndexing('verb')),
     })
 
-basic_pronoun_declension_hashing = parse_any.termindexing('number gender animacy partitivity case script')
+basic_pronoun_declension_hashing = parse_any.termindexing('number gender animacy humanity partitivity case script')
 reflexive_pronoun_declension_hashing = parse_any.termindexing('person number gender formality case script')
 
 declension_template_lookups = DictLookup(
@@ -462,22 +463,6 @@ nonfinite_traversal = DictTupleIndexing(['tense', 'aspect', 'mood', 'voice'])
 bracket_shorthand = BracketedShorthand(Enclosures())
 
 html_group_positioning = HtmlGroupPositioning()
-
-emoji_shorthand = EmojiInflectionShorthand(
-    EmojiSubjectShorthand(), 
-    EmojiPersonShorthand(
-        EmojiNumberShorthand(
-            HtmlNumberTransform(
-                HtmlPersonPositioning(html_group_positioning)
-            ), 
-            bracket_shorthand
-        )
-    ),
-    EmojiBubbleShorthand(HtmlBubble(), bracket_shorthand),
-    TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
-    EmojiAnnotationShorthand(html_group_positioning, bracket_shorthand),
-    EmojiModifierShorthand(),
-)
 
 tsv_parsing = SeparatedValuesFileParsing()
 
@@ -582,12 +567,28 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
             tsv_parsing.rows('data/inflection/emoji/moods.tsv'))),
     TermLabelEditing(),
     TermLabelFiltering(),
-    emoji_shorthand, 
-    HtmlTenseMoodTransform(), 
+    EmojiInflectionShorthand(
+        EmojiSubjectShorthand(), 
+        EmojiPersonShorthand(
+            EmojiNumberShorthand(
+                HtmlNumberTransform(
+                    HtmlPersonPositioning(html_group_positioning)
+                ), 
+                bracket_shorthand
+            )
+        ),
+        EmojiBubbleShorthand(HtmlBubble(), bracket_shorthand),
+        TextTransformShorthand(HtmlTextTransform(), bracket_shorthand),
+        EmojiAnnotationShorthand(html_group_positioning, bracket_shorthand),
+        EmojiModifierShorthand(),
+    ), 
+    HtmlTenseTransform(), 
     HtmlProgressTransform(), 
+    HtmlNounFormTransform(html_group_positioning)
 )
 
 def write(filename, rows):
+    print(filename)
     with open(filename, 'w') as file:
         for row in rows:
             file.write(f'{row}\n')

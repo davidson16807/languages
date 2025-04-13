@@ -396,7 +396,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/romance/portugese/finite-conjugation.html')
 write('flashcards/romance/portugese/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -413,7 +412,6 @@ write('flashcards/romance/portugese/finite-conjugation.html',
         },
     ))
 
-print('flashcards/romance/portugese/adpositions.html')
 write('flashcards/romance/portugese/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -434,7 +432,6 @@ write('flashcards/romance/portugese/adpositions.html',
         },
     ))
 
-print('flashcards/romance/portugese/pronoun-declension.html')
 write('flashcards/romance/portugese/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -452,7 +449,6 @@ write('flashcards/romance/portugese/pronoun-declension.html',
         },
     ))
 
-print('flashcards/romance/portugese/adjective-agreement.html')
 write('flashcards/romance/portugese/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -474,7 +470,6 @@ write('flashcards/romance/portugese/adjective-agreement.html',
         },
     ))
 
-print('flashcards/romance/portugese/pronoun-possessives.html')
 write('flashcards/romance/portugese/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

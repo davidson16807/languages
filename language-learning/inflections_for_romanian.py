@@ -388,7 +388,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/romance/romanian/finite-conjugation.html')
 write('flashcards/romance/romanian/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -405,7 +404,6 @@ write('flashcards/romance/romanian/finite-conjugation.html',
         },
     ))
 
-print('flashcards/romance/romanian/adpositions.html')
 write('flashcards/romance/romanian/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -426,7 +424,6 @@ write('flashcards/romance/romanian/adpositions.html',
         },
     ))
 
-print('flashcards/romance/romanian/common-noun-declension.html')
 write('flashcards/romance/romanian/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
@@ -445,7 +442,6 @@ write('flashcards/romance/romanian/common-noun-declension.html',
         },
     ))
 
-print('flashcards/romance/romanian/pronoun-declension.html')
 write('flashcards/romance/romanian/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -463,7 +459,6 @@ write('flashcards/romance/romanian/pronoun-declension.html',
         },
     ))
 
-print('flashcards/romance/romanian/adjective-agreement.html')
 write('flashcards/romance/romanian/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -485,7 +480,6 @@ write('flashcards/romance/romanian/adjective-agreement.html',
         },
     ))
 
-print('flashcards/romance/romanian/pronoun-possessives.html')
 write('flashcards/romance/romanian/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

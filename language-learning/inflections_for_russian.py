@@ -513,7 +513,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/slavic/russian/finite-conjugation.html')
 write('flashcards/slavic/russian/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -532,7 +531,6 @@ write('flashcards/slavic/russian/finite-conjugation.html',
     ))
 
 """
-print('flashcards/slavic/russian/participle-declension.html')
 write('flashcards/slavic/russian/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -555,7 +553,6 @@ write('flashcards/slavic/russian/participle-declension.html',
     ))
 """
 
-print('flashcards/slavic/russian/adpositions.html')
 write('flashcards/slavic/russian/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -576,7 +573,6 @@ write('flashcards/slavic/russian/adpositions.html',
         },
     ))
 
-print('flashcards/slavic/russian/common-noun-declension.html')
 write('flashcards/slavic/russian/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
@@ -596,7 +592,6 @@ write('flashcards/slavic/russian/common-noun-declension.html',
     ))
 
 
-print('flashcards/slavic/russian/pronoun-declension.html')
 write('flashcards/slavic/russian/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -613,7 +608,6 @@ write('flashcards/slavic/russian/pronoun-declension.html',
         },
     ))
 
-print('flashcards/slavic/russian/adjective-agreement.html')
 write('flashcards/slavic/russian/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -633,7 +627,6 @@ write('flashcards/slavic/russian/adjective-agreement.html',
         },
     ))
 
-print('flashcards/slavic/russian/pronoun-possessives.html')
 write('flashcards/slavic/russian/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

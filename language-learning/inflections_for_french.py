@@ -395,7 +395,6 @@ declension_noun_traversal = (
 deck_path = 'flashcards/romance/french'
 deck_format = 'tsv'
 
-print(f'{deck_path}/finite-conjugation.{deck_format}')
 write(f'{deck_path}/finite-conjugation.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -412,7 +411,6 @@ write(f'{deck_path}/finite-conjugation.{deck_format}',
         },
     ))
 
-print(f'{deck_path}/adpositions.{deck_format}')
 write(f'{deck_path}/adpositions.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -433,7 +431,6 @@ write(f'{deck_path}/adpositions.{deck_format}',
         },
     ))
 
-print(f'{deck_path}/pronoun-declension.{deck_format}')
 write(f'{deck_path}/pronoun-declension.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -451,7 +448,6 @@ write(f'{deck_path}/pronoun-declension.{deck_format}',
         },
     ))
 
-print(f'{deck_path}/adjective-agreement.{deck_format}')
 write(f'{deck_path}/adjective-agreement.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -473,7 +469,6 @@ write(f'{deck_path}/adjective-agreement.{deck_format}',
         },
     ))
 
-print(f'{deck_path}/pronoun-possessives.{deck_format}')
 write(f'{deck_path}/pronoun-possessives.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(

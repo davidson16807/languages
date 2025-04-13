@@ -368,7 +368,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/proto-indo-european/finite-conjugation.html')
 write('flashcards/proto-indo-european/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -386,7 +385,6 @@ write('flashcards/proto-indo-european/finite-conjugation.html',
     ))
 
 """
-print('flashcards/proto-indo-european/participle-declension.html')
 write('flashcards/proto-indo-european/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -409,7 +407,6 @@ write('flashcards/proto-indo-european/participle-declension.html',
     ))
 """
 
-print('flashcards/proto-indo-european/adpositions.html')
 write('flashcards/proto-indo-european/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -430,7 +427,6 @@ write('flashcards/proto-indo-european/adpositions.html',
         },
     ))
 
-print('flashcards/proto-indo-european/common-noun-declension.html')
 write('flashcards/proto-indo-european/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
@@ -447,7 +443,6 @@ write('flashcards/proto-indo-european/common-noun-declension.html',
         },
     ))
 
-print('flashcards/proto-indo-european/pronoun-declension.html')
 write('flashcards/proto-indo-european/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -464,7 +459,6 @@ write('flashcards/proto-indo-european/pronoun-declension.html',
         },
     ))
 
-print('flashcards/proto-indo-european/adjective-agreement.html')
 write('flashcards/proto-indo-european/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -485,7 +479,6 @@ write('flashcards/proto-indo-european/adjective-agreement.html',
         },
     ))
 
-print('flashcards/proto-indo-european/pronoun-possessives.html')
 write('flashcards/proto-indo-european/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

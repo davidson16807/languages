@@ -390,7 +390,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/romance/italian/finite-conjugation.html')
 write('flashcards/romance/italian/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -407,7 +406,6 @@ write('flashcards/romance/italian/finite-conjugation.html',
         },
     ))
 
-print('flashcards/romance/italian/adpositions.html')
 write('flashcards/romance/italian/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -428,7 +426,6 @@ write('flashcards/romance/italian/adpositions.html',
         },
     ))
 
-print('flashcards/romance/italian/pronoun-declension.html')
 write('flashcards/romance/italian/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -446,7 +443,6 @@ write('flashcards/romance/italian/pronoun-declension.html',
         },
     ))
 
-print('flashcards/romance/italian/adjective-agreement.html')
 write('flashcards/romance/italian/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -468,7 +464,6 @@ write('flashcards/romance/italian/adjective-agreement.html',
         },
     ))
 
-print('flashcards/romance/italian/pronoun-possessives.html')
 write('flashcards/romance/italian/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

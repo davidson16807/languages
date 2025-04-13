@@ -635,7 +635,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/ancient-greek/finite-conjugation.html')
 write('flashcards/ancient-greek/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -653,7 +652,6 @@ write('flashcards/ancient-greek/finite-conjugation.html',
     ))
 
 """
-print('flashcards/ancient-greek/participle-declension.html')
 write('flashcards/ancient-greek/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -676,7 +674,6 @@ write('flashcards/ancient-greek/participle-declension.html',
     ))
 """
 
-print('flashcards/ancient-greek/adpositions.html')
 write('flashcards/ancient-greek/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -697,7 +694,6 @@ write('flashcards/ancient-greek/adpositions.html',
         },
     ))
 
-print('flashcards/ancient-greek/common-noun-declension.html')
 write('flashcards/ancient-greek/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
@@ -717,7 +713,6 @@ write('flashcards/ancient-greek/common-noun-declension.html',
     ))
 
 
-print('flashcards/ancient-greek/pronoun-declension.html')
 write('flashcards/ancient-greek/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -734,7 +729,6 @@ write('flashcards/ancient-greek/pronoun-declension.html',
         },
     ))
 
-# print('flashcards/ancient-greek/adjective-agreement.html')
 # write('flashcards/ancient-greek/adjective-agreement.html', 
 #     deck_generation.generate(
 #         [demonstration.generator(
@@ -754,7 +748,6 @@ write('flashcards/ancient-greek/pronoun-declension.html',
 #         },
 #     ))
 
-print('flashcards/ancient-greek/pronoun-possessives.html')
 write('flashcards/ancient-greek/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

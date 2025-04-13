@@ -80,7 +80,7 @@ foreign_language = Language(
     RuleSyntax(
         parse_any.tokens('adposition det n adj np clause'),
         parse_any.terms('subject adverbial indirect-object direct-object verb'), 
-        parse_any.terms('interrogative verb subject adverbial indirect-object direct-object'), 
+        parse_any.terms('interrogative subject adverbial indirect-object direct-object verb'), 
     ),
     {'language-type':'foreign'},
     list_tools,
@@ -488,7 +488,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/romance/latin/nonfinite-conjugation.html')
 write('flashcards/romance/latin/nonfinite-conjugation.html', 
     deck_generation.generate(
         [
@@ -514,7 +513,6 @@ write('flashcards/romance/latin/nonfinite-conjugation.html',
         },
     ))
 
-print('flashcards/romance/latin/finite-conjugation.html')
 write('flashcards/romance/latin/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -531,7 +529,6 @@ write('flashcards/romance/latin/finite-conjugation.html',
         },
     ))
 
-print('flashcards/romance/latin/participle-declension.html')
 write('flashcards/romance/latin/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -554,7 +551,6 @@ write('flashcards/romance/latin/participle-declension.html',
         },
     ))
 
-print('flashcards/romance/latin/adpositions.html')
 write('flashcards/romance/latin/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -575,7 +571,6 @@ write('flashcards/romance/latin/adpositions.html',
         },
     ))
 
-print('flashcards/romance/latin/common-noun-declension.html')
 write('flashcards/romance/latin/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
@@ -595,7 +590,6 @@ write('flashcards/romance/latin/common-noun-declension.html',
     ))
 
 
-print('flashcards/romance/latin/pronoun-declension.html')
 write('flashcards/romance/latin/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -613,7 +607,6 @@ write('flashcards/romance/latin/pronoun-declension.html',
         },
     ))
 
-print('flashcards/romance/latin/correlative-declension.html')
 write('flashcards/romance/latin/correlative-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -631,7 +624,6 @@ write('flashcards/romance/latin/correlative-declension.html',
         },
     ))
 
-print('flashcards/romance/latin/adjective-agreement.html')
 write('flashcards/romance/latin/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -652,7 +644,6 @@ write('flashcards/romance/latin/adjective-agreement.html',
         },
     ))
 
-print('flashcards/romance/latin/pronoun-possessives.html')
 write('flashcards/romance/latin/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

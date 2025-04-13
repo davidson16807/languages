@@ -76,6 +76,7 @@ foreign_language = Language(
     RuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
         parse_any.terms('subject verb direct-object indirect-object adverbial'),
+        parse_any.terms('interrogative subject verb adverbial indirect-object direct-object'), 
     ),
     # TODO: this should technically be SOV, but V2 ordering applies to main clauses which mainly produces SVO
     {'language-type':'foreign'},
@@ -214,11 +215,32 @@ pronoun_traversal = parse.tokenpath(
     man    3 singular masculine
     woman  3 singular feminine 
     snake  3 singular neuter   
+    man    1 dual     neuter   
+    woman  2 dual     feminine 
     man    1 plural   neuter   
     woman  2 plural   feminine 
     man    3 plural   masculine
     woman  3 plural   feminine 
     man    3 plural   neuter   
+    ''')
+
+correlative_traversal = parse.tokenpath(
+    'correlative_traversal', 
+    'noun-form distance noun person number gender humanity',
+    '''
+    interrogative proximal man    3 singular masculine human
+    interrogative proximal woman  3 singular feminine  human
+    interrogative proximal woman  3 plural   feminine  human
+    interrogative proximal thing  3 singular neuter    nonhuman
+    interrogative proximal thing  3 plural   neuter    nonhuman
+    demonstrative proximal man    3 singular masculine human
+    demonstrative proximal woman  3 singular feminine  human
+    demonstrative proximal thing  3 singular neuter    nonhuman
+    demonstrative proximal thing  3 plural   neuter    nonhuman
+    demonstrative distal   man    3 singular masculine human
+    demonstrative distal   woman  3 singular feminine  human
+    demonstrative distal   thing  3 singular neuter    nonhuman
+    demonstrative distal   thing  3 plural   neuter    nonhuman
     ''')
 
 gender_agreement_traversal = parse.tokenpath(
@@ -385,7 +407,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/germanic/old-english/finite-conjugation.html')
 write('flashcards/germanic/old-english/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -403,7 +424,6 @@ write('flashcards/germanic/old-english/finite-conjugation.html',
     ))
 
 """
-print('flashcards/germanic/old-english/participle-declension.html')
 write('flashcards/germanic/old-english/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -426,7 +446,6 @@ write('flashcards/germanic/old-english/participle-declension.html',
     ))
 """
 
-print('flashcards/germanic/old-english/adpositions.html')
 write('flashcards/germanic/old-english/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -447,7 +466,6 @@ write('flashcards/germanic/old-english/adpositions.html',
         },
     ))
 
-print('flashcards/germanic/old-english/common-noun-declension.html')
 write('flashcards/germanic/old-english/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
@@ -464,7 +482,6 @@ write('flashcards/germanic/old-english/common-noun-declension.html',
         },
     ))
 
-print('flashcards/germanic/old-english/pronoun-declension.html')
 write('flashcards/germanic/old-english/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -481,7 +498,22 @@ write('flashcards/germanic/old-english/pronoun-declension.html',
         },
     ))
 
-print('flashcards/germanic/old-english/adjective-agreement.html')
+write('flashcards/germanic/old-english/correlative-declension.html', 
+    deck_generation.generate(
+        [demonstration.generator(
+            tree_lookup = template_tree_lookup,
+            substitutions = [{'declined': list_tools.replace(['cloze', 'n'])}],
+        ) for demonstration in demonstrations],
+        defaults.override(
+            ((correlative_traversal * declension_noun_traversal)
+            & noun_template_whitelist)
+        ),
+        tag_templates ={
+            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'test'       : parse.termaxis_to_term(''),
+        },
+    ))
+
 write('flashcards/germanic/old-english/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -501,7 +533,6 @@ write('flashcards/germanic/old-english/adjective-agreement.html',
         },
     ))
 
-print('flashcards/germanic/old-english/pronoun-possessives.html')
 write('flashcards/germanic/old-english/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

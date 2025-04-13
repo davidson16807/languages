@@ -57,6 +57,7 @@ def EmojiDemonstration(
             emojiInflectionShorthand,
             htmlTenseTransform,
             htmlProgressTransform,
+            htmlNounFormTransform,
         ):
     class LanguageSpecificEmojiDemonstration:
         def __init__(self, persons, format_card):
@@ -93,9 +94,10 @@ def EmojiDemonstration(
                         }, tag_templates)
                     return self.decode(tags, '\\flex{'+possessed+'\\r{'+possessor+'}}')
                 elif tags['noun-form'] == 'demonstrative':
-                    return noun({**tags, 'noun-form':'common'}, tag_templates)+'←'
+                    return htmlNounFormTransform.demonstrative(
+                        noun({**tags, 'noun-form':'common'}, tag_templates))
                 elif tags['noun-form'] == 'interrogative':
-                    return htmlTenseTransform.interrogative(
+                    return htmlNounFormTransform.interrogative(
                         noun({**tags, 'noun-form':'common'}, tag_templates))
                 else:
                     depiction = ('missing' if 'noun' not in tags 

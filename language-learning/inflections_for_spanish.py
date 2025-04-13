@@ -405,7 +405,6 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
-print('flashcards/romance/spanish/finite-conjugation.html')
 write('flashcards/romance/spanish/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -422,7 +421,6 @@ write('flashcards/romance/spanish/finite-conjugation.html',
         },
     ))
 
-print('flashcards/romance/spanish/adpositions.html')
 write('flashcards/romance/spanish/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -443,7 +441,6 @@ write('flashcards/romance/spanish/adpositions.html',
         },
     ))
 
-print('flashcards/romance/spanish/pronoun-declension.html')
 write('flashcards/romance/spanish/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -461,7 +458,6 @@ write('flashcards/romance/spanish/pronoun-declension.html',
         },
     ))
 
-print('flashcards/romance/spanish/adjective-agreement.html')
 write('flashcards/romance/spanish/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -483,7 +479,6 @@ write('flashcards/romance/spanish/adjective-agreement.html',
         },
     ))
 
-print('flashcards/romance/spanish/pronoun-possessives.html')
 write('flashcards/romance/spanish/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(

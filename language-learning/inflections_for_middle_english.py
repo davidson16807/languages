@@ -227,6 +227,8 @@ pronoun_traversal = parse.tokenpath(
     man    3 singular masculine
     woman  3 singular feminine 
     snake  3 singular neuter   
+    man    1 dual     neuter   
+    woman  2 dual     feminine 
     man    1 plural   neuter   
     woman  2 plural   feminine 
     man    3 plural   masculine
@@ -401,7 +403,6 @@ declension_noun_traversal = (
 deck_format = 'html'
 deck_path = 'flashcards/germanic/middle-english'
 
-print(f'{deck_path}/finite-conjugation.{deck_format}')
 write(f'{deck_path}/finite-conjugation.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -419,7 +420,6 @@ write(f'{deck_path}/finite-conjugation.{deck_format}',
     ))
 
 """
-print(f'{deck_path}/participle-declension.{deck_format}')
 write(f'{deck_path}/participle-declension.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -442,7 +442,6 @@ write(f'{deck_path}/participle-declension.{deck_format}',
     ))
 """
 
-print(f'{deck_path}/adpositions.{deck_format}')
 write(f'{deck_path}/adpositions.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -463,7 +462,6 @@ write(f'{deck_path}/adpositions.{deck_format}',
         },
     ))
 
-print(f'{deck_path}/common-noun-declension.{deck_format}')
 write(f'{deck_path}/common-noun-declension.{deck_format}',
     deck_generation.generate(
         [demonstration.generator(
@@ -480,7 +478,6 @@ write(f'{deck_path}/common-noun-declension.{deck_format}',
         },
     ))
 
-print(f'{deck_path}/pronoun-declension.{deck_format}')
 write(f'{deck_path}/pronoun-declension.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -497,7 +494,6 @@ write(f'{deck_path}/pronoun-declension.{deck_format}',
         },
     ))
 
-print(f'{deck_path}/adjective-agreement.{deck_format}')
 write(f'{deck_path}/adjective-agreement.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(
@@ -517,7 +513,6 @@ write(f'{deck_path}/adjective-agreement.{deck_format}',
         },
     ))
 
-print(f'{deck_path}/pronoun-possessives.{deck_format}')
 write(f'{deck_path}/pronoun-possessives.{deck_format}', 
     deck_generation.generate(
         [demonstration.generator(

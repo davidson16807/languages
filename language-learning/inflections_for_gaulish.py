@@ -394,7 +394,6 @@ declension_noun_traversal = (
 )
 
 
-print('flashcards/gaulish/finite-conjugation.html')
 write('flashcards/gaulish/finite-conjugation.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -412,7 +411,6 @@ write('flashcards/gaulish/finite-conjugation.html',
     ))
 
 """
-print('flashcards/gaulish/participle-declension.html')
 write('flashcards/gaulish/participle-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -435,7 +433,6 @@ write('flashcards/gaulish/participle-declension.html',
     ))
 """
 
-print('flashcards/gaulish/adpositions.html')
 write('flashcards/gaulish/adpositions.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -456,7 +453,6 @@ write('flashcards/gaulish/adpositions.html',
         },
     ))
 
-print('flashcards/gaulish/common-noun-declension.html')
 write('flashcards/gaulish/common-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
@@ -476,7 +472,6 @@ write('flashcards/gaulish/common-noun-declension.html',
     ))
 
 
-print('flashcards/gaulish/pronoun-declension.html')
 write('flashcards/gaulish/pronoun-declension.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -494,7 +489,6 @@ write('flashcards/gaulish/pronoun-declension.html',
         },
     ))
 
-print('flashcards/gaulish/adjective-agreement.html')
 write('flashcards/gaulish/adjective-agreement.html', 
     deck_generation.generate(
         [demonstration.generator(
@@ -515,7 +509,6 @@ write('flashcards/gaulish/adjective-agreement.html',
         },
     ))
 
-print('flashcards/gaulish/pronoun-possessives.html')
 write('flashcards/gaulish/pronoun-possessives.html', 
     deck_generation.generate(
         [demonstration.generator(
