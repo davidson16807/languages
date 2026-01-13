@@ -1,0 +1,33 @@
+			
+	DictTupleIndexing	& | ^ - 	
+path    	DictList  	empty len in + * & - fallback	
+space   	DictSpace  	empty len in + * & - fallback override	
+field   	DictLookup 	empty len in ∘ [] fallback restrict*	
+mask    	DictSet  	empty len in 	
+        	DefaultDictLookup		
+        	NestedDictLookup		
+        	FallbackDictLookup		
+        	UniformDictLookup		
+        	ProceduralLookup		
+			
+text 	any string of characters		
+token 	a text without spaces		
+term 	a token from a predefined set		
+			
+term			
+terms	tokens		
+termpoints	tokenpoints		
+termindexing	tokenindexing		
+termpath	tokenpath		
+termmask	tokenmask		
+termspace	tokenspace		
+termfield	tokenfield		
+termaxis			
+termaxes			
+term_to_terms*	token_to_tokens		
+term_to_term*	token_to_token*		
+termaxis_to_terms			
+termaxis_to_term			
+	token_to_text		
+			
+*unimplemented			

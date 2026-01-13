@@ -6,7 +6,6 @@ from tools.dictstores import DictSpace, DictList, DictSet, DictLookup
 class SeparatedValuesFileParsing:
     '''
     Parses files composed of rows of values that are separated by `delimeters`.
-    
     '''
     def __init__(self, comment='#', delimeter='\t', padding=' \t\r\n', quotation='"'):
         self.comment = comment
@@ -30,7 +29,7 @@ class TokenParsing:
     `TokenParsing` leverages the above guarantee to simplify deck construction and guarantee validity.
     '''
     def __init__(self):
-        self.comment_regex = re.compile(r'#[^\n]*?\n')
+        self.comment_regex = re.compile(r'#[^\n]*')
     def tokens(self, string):
         return [token.strip() for token in string.split()]
     def tokenpoints(self, string):
@@ -50,7 +49,7 @@ class TokenParsing:
         def itemtoken(item):
             tokens = [token.strip() for token in item.split()]
             return [token for token in tokens if token]
-        uncommented = re.sub(self.comment_regex,'\n',string)
+        uncommented = re.sub(self.comment_regex,'',string)
         itemtokens = [itemtoken(row) for row in uncommented.split(':')]
         token_to_text = [[last[-1], current[:-1] if i < len(itemtokens)-2 else current]
             for i, (last,current) in enumerate(zip(itemtokens[:-1],itemtokens[1:]))]
@@ -223,9 +222,9 @@ class ListParsing:
         stack = [[]]
         # standardize string so that it can be handled without regex escape codes
         standardized = string
-        standardized = standardized.replace('[','(')
-        standardized = standardized.replace(']',')')
-        for match in re.finditer('[()]|[^() ]*', standardized):
+        standardized = standardized.replace(self.L,'(')
+        standardized = standardized.replace(self.R,')')
+        for match in re.finditer('[()]|[^() ]+', standardized):
             token = match.group(0)
             if token == '(':
                 stack.append([])

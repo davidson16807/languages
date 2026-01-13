@@ -1,3 +1,4 @@
+import math
 import itertools
 
 class DictKeyIndexing:
@@ -23,17 +24,18 @@ class DictKeyIndexing:
     def dictkey(self, tuplekey):
         return {self.key:tuplekey}
     def check(self, dictkey):
-        if self.key not in dictkey:
-            raise KeyError(' '.join(['Dictionary is missing required key:', self.key]))
+        key = self.key
+        if key not in dictkey:
+            raise KeyError(' '.join(['Dictionary is missing required key:', key]))
         if type(dictkey[key]) != str:
-            raise KeyError(' '.join(['Dictionary maps keys to invalid type:', self.key]))
+            raise KeyError(' '.join(['Dictionary maps keys to invalid type:', key]))
     def tuplekey(self, containerkey):
         '''
         Returns a value that represents the `containerkey` according to the indexing,
         where `containerkey` is either a value, or a dict that maps a key from `keys` to a single value.
         '''
         if type(containerkey) == dict:
-            return tuple([containerkey[key] for key in self.keys])
+            return containerkey[self.key]
         else:
             return containerkey
     def tuplekeys(self, dictkey):
@@ -51,6 +53,7 @@ class DictKeyIndexing:
         else:
             return [dictkey]
     def count(self, dictkey):
+        key = self.key
         if type(dictkey) in {dict}:
             return (0 if key not in dictkey 
                     else len(dictkey[key]) if type(dictkey[key]) in {set,list} 
@@ -70,9 +73,9 @@ class DictTupleIndexing:
     `DictKeyIndexing` works by ordering values in a dictkey 
      into one or more tuplekeys according to a given list of `keys`.
     '''
-    def __init__(self, keys, defaults={}):
+    def __init__(self, keys, defaults=None):
         self.keys = keys
-        self.defaults = defaults
+        self.defaults = {} if defaults is None else defaults
     def __str__(self):
         return ''.join([f'DictTupleIndexing(', ', '.join(self.keys), ')'])
     def __repr__(self):
@@ -158,7 +161,7 @@ class DictTupleIndexing:
             ])
     def __xor__(self, other):
         '''
-        Returns a new `DictKeyIndexing` that contains the union of keys from both `self` and `other`
+        Returns a new `DictKeyIndexing` that contains the keys that are from `self` and `other` but not both
         '''
         other_set = set(other)
         self_set = set(self)
@@ -174,7 +177,8 @@ class DictTupleIndexing:
         '''
         Returns a new `DictKeyIndexing` that contains the negation of keys from `self` and `other`
         '''
+        other_set = set(other)
         return DictTupleIndexing([key 
             for key in self.keys
-            if key not in other.keys])
+            if key not in other_set])
 
