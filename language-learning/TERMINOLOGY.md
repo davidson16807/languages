@@ -4,7 +4,7 @@ The terms used in this project are based on a systemization that was first adopt
 then later expanded by Kenneth Pike in his own book ("Language in Relation to a Unified Theory of the Structure of Human Behavior", 1965).
 The definitions given by Bloomfield in his book oftentimes appear ambiguous,
 and this can be seen by the fact that later authors appear to mistakenly coopt these terms to other usage, 
-with at least one attested admission to this (see Kenneth Pike, "Tagmemes née Grammees").
+with at least one attested admission to this (see Kenneth Pike, "Tagmemes née Gramemes").
 At this point it may be better to understand these terms as metasyntactic variables,
 loosely corresponding to the definitions given by Bloomfield but whose precise definition varies by author.
 For this reason we will attempt to remain consistent with the definitions that were provided by Leonard Bloomfield,
@@ -23,9 +23,9 @@ More precisely, we define that any two sounds of the same phone can be interchan
 in any statement of any attested natural language and still produce the same meaning.
 This is to say that each phone is an *equalizer* of sounds for a given set of functions, which we will now attempt to define.
 
-What follows is an attempted at formalization that can be skipped if desired.
+What follows is an attempt at formalization that can be skipped if desired.
 Suppose there is a function f:U→(S+1) that maps any utterance (U) to the semantic meaning (S) received by an audience in that language, or no meaning (1) if the utterance is unintelligible.
-Suppose there is also a function: g:L→P(U) that for any any attested natural language maps to the set of all meaningful utterances made in that language, such that ∀u∈g(l):f(u)∈S. 
+Suppose there is also a function: g:L→P(U) that for any any attested natural language l∈L maps to the set of all meaningful utterances made in that language, such that ∀l∈L,u∈g(l):f(u)∈S. 
 For every l∈L, and for every utterance u∈g(l), we say there is a function, h(l,u):P×P→U that replaces every instance of one sound in a phone P with another in the utterance u
 The phone is then the following equalizer:
 	Eq({f∘h(l,u) | l∈L, u∈g(l)})
@@ -48,7 +48,7 @@ We therefore say in Japanese the sounds conveyed by letters "l" and "r" correspo
 whereas in English "l" and "r" correspond to different phonemes but not the sounds that correspond to the rolled and unrolled "r",
 and in Spanish all three sounds correspond to different phonemes.
 If Japanese, English, and Spanish were the only natural languages ever to have been attested,
-we would then have to declare that the "rolled r", "unrolled r", and "l" were each instances of a phone.
+we would then have to declare that the "rolled r", "unrolled r", and "l" were each separate phones.
 
 The system of phonemes that are used by a language are known as that language's "phonemics",
 whereas the study of phones across all languages is known as "phonetics". 
@@ -92,7 +92,7 @@ to the semes of both the "solitary" and "agent" of the Ergative-Absolutive langu
 If one were able to create a system that could represent any distinction present in the morphemes of any attested natural language,
 such a system would consist of a set of "semes". Each "seme" represents an equivalence class of meanings 
 that cannot be further distinguished in any attested natural language without introducing additional morphemes.
-A sememe is therefore merely any distinction that can be represented a single language. 
+A sememe is therefore merely any distinction that can be represented by a single language. 
 To return to our example, one possible seme the "solitary subject" concept (together with whatever else is indicated by a morph), 
 and in a single Nominative-Accusative language, one possible sememe is the "nominative" concept (together with whatever else is indicated by a morpheme).
 
@@ -110,14 +110,14 @@ however the language also clearly allows a distinction between sememes of plural
 We should therefore introduce a new term to describe such a distinction. The term we use is "tag".
 The "-emic" unit of a tag is a "tagmeme". Plural and singular are both instances of a "tagmeme" in Spanish.
 
-Plural and singular the only two tagmemes in Spanish that represent "grammatical number".
+Plural and singular are the only two tagmemes in Spanish that represent "grammatical number".
 Other languages have different tagmemes that represent grammatical number, such as paucal or superplural,
 and if we compiled a list of all such distinctions in all natural attested languages,
 we would have a set of "tags". The concept of "number" is classically referred to as a "grammatical category",
 but in this body of work we will refer to this concept as a "tagaxis".
-We do so because the "-axis" suffix permits a far more productive paradigm. 
+We do so because the "-axis" suffix permits a far more productive paradigm, as we will see
 An "-axis" simply describes a set containing sets. Each nested set corresponds to a term. 
-The root that it modifies indicates what type of seme set is being referred to.
+The root that it modifies indicates what type of term set is being referred to.
 
 Up to present, we can establish the following termaxes:
 * *phonaxes*   are sets of mutually exclusive phones whose product defines a parameter space of syllables. Examples of phonaxes are consonant, vowel, etc.
@@ -126,7 +126,7 @@ Up to present, we can establish the following termaxes:
 * *tagaxes*    are sets of mutually exclusive tags whose product with other tagaxes defines a parameter space of morphemes. Examples of tagaxes are case, tense, aspect, number, gender, etc.
 
 Equivalent "termemeaxes" can be constructed for respective termemes. 
-For instance a "tagmemaxis" is analogous to a tagaxis for a given language. 
+For instance, a "tagmemaxis" is analogous to a tagaxis for a given language. 
 
 The "-axis" suffix permits an extended metaphor that leverages concepts in geometry.
 If we have a cartesian product of termaxes that each correspond to the same term, the result is a "termspace":
@@ -141,7 +141,14 @@ And a "-point" refers to a member of such a termspace:
 * *sempoint*    a point within a semspace, which represent meanings
 * *tagpoint*    a point within a tagspace, which could represent a seme or morph
 
-We lastly note that a termaxis is merely a set of sets. 
+Lastly:
+* a "-path" represents a sequence of termpoints within a termspace
+* a "-field" refers to a map whose domain is a termspace 
+* a "-mask" represents a termfield whose codomain is the set of all booleans, or in otherwords, a subset of a termspace
+
+It is an exercise for the reader to identify where these terms could be useful.
+
+We remind the reader that a termaxis is merely a set of sets. 
 It is not a mathematical bundle, since its sets need not be disjoint.
 There is also no requirement that tags represent disjoint sets of semes,
 and so we know specifically that a tagaxis is not a bundle.
@@ -165,7 +172,10 @@ which could indicate many things that in certain languages could be their own as
 such as whether something is unfinished, or started without specifying completion, or paused.
 "case" includes things such as "accusative", which we've already seen could also represent the absolutive case.
 If one were to create a system that represented these tags as the composition of mutually exclusive units,
-such units would be episemes.
-
+such units would be episemes. 
+Although we doubt we can truly succeed, we still make an attempt at such a system which in inflections.py.
+To encourage what may become a productive paradigm, 
+we permit "epi-" to be used to describe when a term is part of a termaxis where all set members are disjoint.
 
 The table defined in GLOSSARY.tsv compiles the definitions for all terms we introduce here for the project.
+

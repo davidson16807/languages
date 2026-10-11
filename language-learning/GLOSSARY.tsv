@@ -27,10 +27,11 @@ linguistics	text	a string comprised of natural language
 	-eme	an indivisible unit within the context of a specific language, such as a phoneme, morpheme, etc.
 	-axis	a set of sets that each contain terms
 	-space	a cartesian product of axes
-	-mask	a subset of a space
 	-point	a member of a space
+	-mask	a subset of a space
 	-path	a sequence of points within a space
 	-field	an operation between spaces
+	epi-	a term that is part of a termaxes where all set members are disjoint
 		
 implementations	-store	a representation of a collection of any kind in memory, including spaces, masks, paths, sets, fields, etc.
 	-series	any store that allows traversal but forbids tests of membership in the interest of performance
