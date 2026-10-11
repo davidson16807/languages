@@ -41,6 +41,17 @@ def dict_bundle_to_map(bundle):
         for germ in germs
     }
 
+'''
+Given a pure function that is encoded as a dictionary,
+`dict_map_to_bundle` returns the inverse of that function as a dictionary,
+i.e., a mathematical bundle that maps each stalk to the germs that the function maps to it.
+It is inverse to `dict_bundle_to_map`
+'''
+def dict_map_to_bundle(map):
+    bundle = {}
+    for (germ, stalk) in map.items():
+        bundle.setdefault(stalk, []).append(germ)
+    return bundle
 
 case_episemaxis_to_episemes = {
     # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
@@ -169,7 +180,7 @@ tagaxis_to_tags = {
     'script': 
         # scripts that were derived from the phoenecian alphabet:
         'latin cyrillic gothic greek hebrew arabic phoenician ipa transliteration '
-        # scripts that were derived, borrowing aesthetics from chinese logograms:
+        # scripts that borrow aesthetics from chinese logograms:
         'hirigana katakana hangul '
         # scripts that were derived from chinese logograms:
         'traditional-han simplified-han kanji hanja chữ-hán chữ-nôm '
