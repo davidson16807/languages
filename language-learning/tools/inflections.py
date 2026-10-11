@@ -21,6 +21,7 @@ from tools.shorthands import (
 from tools.parsing import SeparatedValuesFileParsing, TermParsing, ListParsing
 from tools.annotation import RowAnnotation, CellAnnotation
 from tools.dictstores import DefaultDictLookup, DictLookup, DictSet
+from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing, DictKeyIndexing
 from tools.labels import TermLabelEditing, TermLabelFiltering
 from tools.evaluation import KeyEvaluation, MultiKeyEvaluation
@@ -29,29 +30,7 @@ from tools.nodemaps import ListTools, RuleTools
 from tools.demonstration import TextDemonstration, EmojiDemonstration
 from tools.cards import CardFormatting
 
-'''
-Given a mathematical bundle that is encoded as a dictionary,
-`dict_bundle_to_map` returns the inverse of that bundle as a dictionary,
-i.e., a pure function that is encoded as a dictionary and maps each germ in the bundle to its respective stalk.
-'''
-def dict_bundle_to_map(bundle):
-    return {
-        germ:stalk 
-        for (stalk, germs) in bundle.items() 
-        for germ in germs
-    }
-
-'''
-Given a pure function that is encoded as a dictionary,
-`dict_map_to_bundle` returns the inverse of that function as a dictionary,
-i.e., a mathematical bundle that maps each stalk to the germs that the function maps to it.
-It is inverse to `dict_bundle_to_map`
-'''
-def dict_map_to_bundle(map):
-    bundle = {}
-    for (germ, stalk) in map.items():
-        bundle.setdefault(stalk, []).append(germ)
-    return bundle
+dict_bundles = DictBundles()
 
 case_episemaxis_to_episemes = {
     # NOTE: "role" is used in the sense of "semantic role", a.k.a. "thematic relation": https://en.wikipedia.org/wiki/Thematic_relation
@@ -305,10 +284,10 @@ tagaxis_to_tags = {
     'verb-form':  'finite infinitive participle gerundive gerund adverbial supine group'.split(),
 }
 
-tag_to_tagaxis = dict_bundle_to_map(tagaxis_to_tags)
-episemes_to_case_episemaxis = dict_bundle_to_map(case_episemaxis_to_episemes)
-episemes_to_mood_episemaxis = dict_bundle_to_map(mood_episemaxis_to_episemes)
-episemes_to_aspect_episemaxis = dict_bundle_to_map(aspect_episemaxis_to_episemes)
+tag_to_tagaxis = dict_bundles.bundle_to_map(tagaxis_to_tags)
+episemes_to_case_episemaxis = dict_bundles.bundle_to_map(case_episemaxis_to_episemes)
+episemes_to_mood_episemaxis = dict_bundles.bundle_to_map(mood_episemaxis_to_episemes)
+episemes_to_aspect_episemaxis = dict_bundles.bundle_to_map(aspect_episemaxis_to_episemes)
 
 termaxis_to_terms = {
     **tagaxis_to_tags,
@@ -317,7 +296,7 @@ termaxis_to_terms = {
     **aspect_episemaxis_to_episemes,
 }
 
-term_to_termaxis = dict_bundle_to_map(termaxis_to_terms)
+term_to_termaxis = dict_bundles.bundle_to_map(termaxis_to_terms)
 parse_any = TermParsing(term_to_termaxis)
 
 verbial_declension_hashing = parse_any.tokenindexing('verb voice number gender case script')
@@ -506,7 +485,7 @@ case_usage_dict = {
     'script':tagaxis_to_tags['script'],
 }
 case_usage_annotation = CellAnnotation('case', 
-    dict_bundle_to_map(case_usage_dict), {0:'column'}, {}, {})
+    dict_bundles.bundle_to_map(case_usage_dict), {0:'column'}, {}, {})
 case_usage_population = NestedLookupPopulation(
     DefaultDictLookup('case-usage', 
         DictTupleIndexing(
@@ -518,7 +497,7 @@ case_usage_population = NestedLookupPopulation(
     KeyEvaluation('case')
 )
 
-mood_usage_annotation = CellAnnotation('mood', dict_bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {}, debug=True)
+mood_usage_annotation = CellAnnotation('mood', dict_bundles.bundle_to_map(mood_episemaxis_to_episemes), {0:'column'}, {}, {}, debug=True)
 mood_usage_population = NestedLookupPopulation(
     DefaultDictLookup('mood-usage', 
         DictTupleIndexing(
@@ -530,7 +509,7 @@ mood_usage_population = NestedLookupPopulation(
     KeyEvaluation('mood')
 )
 
-aspect_usage_annotation = CellAnnotation('aspect', dict_bundle_to_map(aspect_episemaxis_to_episemes), {0:'column'}, {}, {})
+aspect_usage_annotation = CellAnnotation('aspect', dict_bundles.bundle_to_map(aspect_episemaxis_to_episemes), {0:'column'}, {}, {})
 aspect_usage_population = NestedLookupPopulation(
     DefaultDictLookup('aspect-usage', 
         DictTupleIndexing(

@@ -5,6 +5,7 @@ start_time = time.time()
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
 from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
 from tools.orthography import Orthography
@@ -14,7 +15,6 @@ from tools.nodemaps import (
 )
 from tools.cards import DeckGeneration
 from tools.inflections import (
-    dict_bundle_to_map,
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
@@ -37,6 +37,7 @@ from languages.romance import definiteness, ModernRomanceRuleSyntax
 from languages.english import native_english_demonstration
 
 label_editing = TermLabelEditing()
+dict_bundles = DictBundles()
 deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
@@ -112,7 +113,7 @@ foreign_termaxis_to_terms = {
     '''),
 }
 
-foreign_term_to_termaxis = dict_bundle_to_map(foreign_termaxis_to_terms)
+foreign_term_to_termaxis = dict_bundles.bundle_to_map(foreign_termaxis_to_terms)
 
 parse = TermParsing(foreign_term_to_termaxis)
 
