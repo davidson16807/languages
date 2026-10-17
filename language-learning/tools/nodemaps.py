@@ -128,6 +128,10 @@ class ListGrammar:
             None if alttag not in self.conjugation_lookups
             else self.conjugation_lookups[alttag]]
 
+def matches(candidate, pattern):
+    remaining = iter(pattern)
+    return all(item in remaining for item in candidate)
+
 class RuleSyntax:
     """
     `RuleSyntax` is a library of functions that can be used in conjunction with 
@@ -163,7 +167,7 @@ class RuleSyntax:
             interrogative_position=None,
             polar_particle_position=None):
         def deduplicate(list_):
-            return list(dict.fromkeys(list_))
+            return None if list_ is None else list(dict.fromkeys(list_))
         # word order in phrases:
         self.noun_phrase_structure = noun_phrase_structure
         # phrase order in sentences:
@@ -181,6 +185,7 @@ class RuleSyntax:
             'negative': deduplicate(self.negative_sentence_structure),
             'typical sentence': deduplicate(self.sentence_structure),
         }
+
     def order_word_sequence(self, treemap, clause):
         '''
         `order_word_sequence()` orders words without regard to where those words are in syntax trees.
@@ -226,19 +231,40 @@ class RuleSyntax:
             )
         ordered = Rule(clause.tag, clause.tags, rules)
         return ordered
+
+    def order_for_clause(self, clause):
+        rules = clause.content
+        nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
+        # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
+        # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
+        interrogatives = [noun 
+            for noun in nouns 
+            if noun['noun-form'] == 'interrogative']
+        order_name = ('content question' if interrogatives 
+            else 'polar question' if clause['evidentiality'] == 'interrogated'
+            else 'negative' if clause['polarity'] == 'negative'
+            else 'typical sentence')
+        return self.order_for_sentence_type[order_name]
+
+    def is_ordered_clause(self, clause):
+        order_labels = (
+            'interrogative' if subrule.tags['noun-form'] == 'interrogative'
+            else subrule.tags['subjectivity'] if subrule.tag == 'np'
+            else subrule.tag
+            for subrule in rules)
+        return matches(order_labels, self.order_for_clause(clause))
+
     def order_clause(self, treemap, clause):
         rules = clause.content
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
         # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
         # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
-        order_name = ('content question' if interrogatives 
-            else 'polar question' if clause['evidentiality'] == 'interrogated'
-            else 'negative' if clause['polarity'] == 'negative'
-            else 'typical sentence')
-        order = order_for_sentence_type[order_name]
         interrogatives = [noun 
             for noun in nouns 
             if noun['noun-form'] == 'interrogative']
+        order = self.order_for_clause(clause)
+        if not order:
+            raise ValueError(f"No syntax is defined for a {structure_name} in this language")
         noun_lookup = {
             placement: [noun 
                 for noun in nouns 
@@ -265,6 +291,15 @@ class RuleSyntax:
                 for phrase in phrase_lookup[phrase_type]
             ]))
         return ordered
+
+    def order_for_noun_phrase(self, phrase):
+        return self.noun_phrase_order
+
+    def is_ordered_noun_phrase(self, phrase):
+        rules = [element for element in phrase.content if isinstance(element, Rule)]
+        order_labels = (rule.tag for rule in rules)
+        return matches(order_labels, self.order_for_noun_phrase(phrase))
+
     def order_noun_phrase(self, treemap, phrase):
         rules = [element for element in phrase.content if isinstance(element, Rule)]
         nonrules = [element for element in phrase.content if not isinstance(element, Rule)]
