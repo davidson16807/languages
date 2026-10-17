@@ -69,7 +69,7 @@ case_episemaxis_to_episemes = {
     # NOTE: "motion" is introduced here as a grammatical episemaxis to capture certain kinds of motion based use cases
     #  that differ only in whether something is moving towards or away from them, whether something is staying still, or whether something is being leveraged
     # To illustrate, in Finnish motion is what distinguishes the "lative" case from the "allative" case.
-    'subjectivity': 'addressee subject direct-object indirect-object adverbial adnominal verb'.split(),
+    'subjectivity': 'addressee subject direct-object indirect-object adverbial adnominal verb polar-question-marker negative-marker'.split(),
     # the kind of relationship that the noun participates in
     'motion':  'departed associated acquired approached surpassed leveraged'.split(),
     # the kind of relationship that the noun participates in

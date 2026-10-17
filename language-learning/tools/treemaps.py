@@ -17,7 +17,7 @@ class ListTreeMap:
     """
     `ListTrees` captures the transformation of tree like structures that are made out of lists.
     Its functionality is roughly comparable to that of the Lisp programming language.
-    The content of lists is roughly comparable to that of the phase marker notation used in linguiustics:
+    The content of lists is roughly comparable to that of the phase marker notation used in linguistics:
         https://en.wikipedia.org/wiki/Parse_tree#Phrase_markers
     """
     def __init__(self, operations={}):
