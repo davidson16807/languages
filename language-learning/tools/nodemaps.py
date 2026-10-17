@@ -146,6 +146,13 @@ class RuleSyntax:
     * languages with multiple obligatory markers for negation (e.g. Middle Egyptian, French)
     * languages with multiple obligatory markers for questions
     Accounting for any of the above requires a custom class that is polymorphic to `RuleSyntax`
+
+    Here, "structure" is a list with duplicates that is used to indicate allowed word orders, e.g.
+        subject verb subject direct-object indirect-object adverbial
+    An "order" is a list without duplicates that indicates the order something will be placed in, e.g.:
+        subject verb direct-object indirect-object adverbial
+    A "sentence" is defined here as a Rule with subject and verb subrules that is isolated from context.
+    A "clause" only differs from this definition academically, as such a rule that may not be isolated.
     """
     def __init__(self, 
             noun_phrase_structure, 
@@ -155,6 +162,8 @@ class RuleSyntax:
             negative_sentence_structure=None, 
             interrogative_position=None,
             polar_particle_position=None):
+        def deduplicate(list_):
+            return list(dict.fromkeys(list_))
         # word order in phrases:
         self.noun_phrase_structure = noun_phrase_structure
         # phrase order in sentences:
@@ -165,6 +174,13 @@ class RuleSyntax:
         # word order in sentences:
         self.interrogative_position = interrogative_position
         self.polar_particle_position = polar_particle_position
+        self.noun_phrase_order = deduplicate(noun_phrase_structure)
+        self.order_for_sentence_type = {
+            'content question': deduplicate(self.content_question_structure),
+            'polar question': deduplicate(self.polar_question_structure),
+            'negative': deduplicate(self.negative_sentence_structure),
+            'typical sentence': deduplicate(self.sentence_structure),
+        }
     def order_word_sequence(self, treemap, clause):
         '''
         `order_word_sequence()` orders words without regard to where those words are in syntax trees.
@@ -215,6 +231,11 @@ class RuleSyntax:
         nouns = [phrase for phrase in rules if phrase.tag in {'np'}]
         # enclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'enclitic'}]
         # proclitic_subjects = [noun for noun in subjects if noun.tags['clitic'] in {'proclitic'}]
+        order_name = ('content question' if interrogatives 
+            else 'polar question' if clause['evidentiality'] == 'interrogated'
+            else 'negative' if clause['polarity'] == 'negative'
+            else 'typical sentence')
+        order = order_for_sentence_type[order_name]
         interrogatives = [noun 
             for noun in nouns 
             if noun['noun-form'] == 'interrogative']
@@ -225,7 +246,7 @@ class RuleSyntax:
                 and noun['noun-form'] != 'interrogative']
             for placement in '''
                 subject direct-object indirect-object 
-                adverbial adnominal negation polar-question-marker
+                adverbial adnominal negative-marker polar-question-marker
                 '''.strip().split()
         }
         verbs = [phrase
@@ -236,30 +257,15 @@ class RuleSyntax:
             'interrogative': interrogatives,
             'verb': verbs,
         }
-        structure_name = ('content question' if interrogatives 
-            else 'polar question' if clause['evidentiality'] == 'interrogated'
-            else 'negative' if clause['polarity'] == 'negative'
-            else 'typical sentence')
-        structure = {
-            'content question': self.content_question_structure,
-            'polar question': self.polar_question_structure,
-            'negative': self.negative_sentence_structure,
-            'typical sentence': self.sentence_structure,
-        }[structure_name]
-        if not structure:
-            raise ValueError(f"No syntax is defined for a {structure_name} in this language")
         ordered = Rule(clause.tag, 
             clause.tags,
             treemap.map([
                 phrase
-                for phrase_type in structure
+                for phrase_type in order
                 for phrase in phrase_lookup[phrase_type]
             ]))
         return ordered
     def order_noun_phrase(self, treemap, phrase):
-        # if 'alt' in str(phrase):
-        #     print(phrase)
-        #     # breakpoint()
         rules = [element for element in phrase.content if isinstance(element, Rule)]
         nonrules = [element for element in phrase.content if not isinstance(element, Rule)]
         part_to_words = {
@@ -271,7 +277,7 @@ class RuleSyntax:
         return Rule(phrase.tag, 
             phrase.tags, 
             treemap.map([element
-                        for part in self.noun_phrase_structure
+                        for part in self.noun_phrase_order
                         for element in part_to_words[part]
             ]))
 
