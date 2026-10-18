@@ -248,10 +248,11 @@ class RuleSyntax:
 
     def is_ordered_clause(self, clause):
         order_labels = (
-            'interrogative' if subrule.tags['noun-form'] == 'interrogative'
-            else subrule.tags['subjectivity'] if subrule.tag == 'np'
+            'interrogative' if subrule['noun-form'] == 'interrogative'
+            else subrule['subjectivity'] if subrule.tag == 'np'
+            else 'verb' if subrule.tag == 'vp'
             else subrule.tag
-            for subrule in rules)
+            for subrule in clause.content)
         return matches(order_labels, self.order_for_clause(clause))
 
     def order_clause(self, treemap, clause):
@@ -264,7 +265,7 @@ class RuleSyntax:
             if noun['noun-form'] == 'interrogative']
         order = self.order_for_clause(clause)
         if not order:
-            raise ValueError(f"No syntax is defined for a {structure_name} in this language")
+            raise ValueError(f"No syntax is defined for this kind of clause in this language")
         noun_lookup = {
             placement: [noun 
                 for noun in nouns 
