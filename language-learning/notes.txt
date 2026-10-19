@@ -71,13 +71,6 @@ test → dummy
 test → template
 test → tree
 
-	examples:
-	sVo
-	sVoaN
-	saNVo
-	Ng
-	s#NVoNg
-
 test → test-dummy → tree
 
 	examples:
@@ -101,10 +94,8 @@ idea:
 	. s a quick a brown N fox V jump o p over a lazy N dog r V bit o man
 
 split by \b.\b
-split leaves by \b[sVo]\b
-split leaves by \b[Na#dgrp]\b
-split leaves by \b[Na#dgrp]\b
-
+split sentence by \b[sVo]\b
+split noun phrases by \b[Na#dgrp]\b
 
 assumed language invariants:
 	the contents of a noun phrase (e.g. subject) never inflect for things outside of that phrase (e.g. direct-object)

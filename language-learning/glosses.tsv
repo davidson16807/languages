@@ -28,6 +28,8 @@
 	adjective	well	well	https://en.wiktionary.org/wiki/well#Translations_2	in good health
 	adjective	good	good	https://en.wiktionary.org/wiki/good#Translations	acting in the interest of good; ethical good intentions
 	adjective	bad	bad	https://en.wiktionary.org/wiki/bad#Translations	unfavorable; negative
+	adjective	angry	angry	https://en.wiktionary.org/wiki/angry#Translations	displaying anger
+	adjective	angry	angry	https://en.wiktionary.org/wiki/angry#Translations	Translations to be checked
 	adjective	happy	happy	https://en.wiktionary.org/wiki/happy#Translations	contented, joyous
 	adjective	happy	happy	https://en.wiktionary.org/wiki/happy#Translations	Translations to be checked
 	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	feeling sorrow
@@ -35,12 +37,21 @@
 	adjective	bright	bright	https://en.wiktionary.org/wiki/bright#Translations	emitting much light; visually dazzling
 	adjective	bright	bright	https://en.wiktionary.org/wiki/bright#Translations	of light: brilliant, intense
 	adjective	bright	bright	https://en.wiktionary.org/wiki/bright#Translations	Translations to be checked
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	not working properly
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	not whole; fragmented
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	Translations to be checked
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	wounded, injured
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	Translations to be checked
 	noun	attention	attention	https://en.wiktionary.org/wiki/attention#Translations	mental focus
 	noun	attention	attention	https://en.wiktionary.org/wiki/attention#Translations	Translations to be checked
 	noun	focus	focus	https://en.wiktionary.org/wiki/focus#Translations	concentration of attention
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	representation created in the mind
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	Translations to be checked
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	solid or hollow sphere
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	object, generally spherical, used for playing games
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	Translations to be checked
 	noun	bird	bird	https://en.wiktionary.org/wiki/bird#Translations	animal
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	construction or natural feature that spans a divide
 	noun	small-bird	sparrow	https://en.wiktionary.org/wiki/sparrow#Translations	bird of the family Passeridae
 	noun	small-bird	sparrow	https://en.wiktionary.org/wiki/sparrow#Translations	bird of the family Emberizidae
 	noun	small-bird	sparrow	https://en.wiktionary.org/wiki/sparrow#Translations	generically, any small, nondescript bird
@@ -55,7 +66,6 @@
 	noun	main-bird	dove	https://en.wiktionary.org/wiki/dove#Translations	bird of the family Columbidae, especially one smaller than a pigeon
 	noun	main-bird	pigeon	https://en.wiktionary.org/wiki/pigeon#Translations	bird of the dove and pigeon family Columbidae
 	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations	any bird of the genus ''Corvus''
-	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations	Translations to be checked
 	noun	chick	chick	https://en.wiktionary.org/wiki/chick#Translations	young bird
 	noun	chick	child	https://en.wiktionary.org/wiki/child#Translations	son or daughter; someone's child
 	noun	chick	child	https://en.wiktionary.org/wiki/child#Translations	a minor
@@ -69,7 +79,7 @@
 	noun	boat	boat	https://en.wiktionary.org/wiki/boat#Translations	water craft
 	noun	book	book	https://en.wiktionary.org/wiki/book/translations#Noun	collection of sheets of paper bound together containing printed or written material
 	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	an insect of the order Hemiptera
-	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	a colloquial name for insect
+	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	a colloquial name for various arthropods and other similar creeping creatures
 	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	Translations to be checked
 	noun	bug	insect	https://en.wiktionary.org/wiki/insect#Translations	arthropod of class Insecta
 	noun	bug	insect	https://en.wiktionary.org/wiki/insect#Translations	colloquial: any small arthropod
@@ -78,7 +88,6 @@
 	noun	bug	louse	https://en.wiktionary.org/wiki/louse#Translations	an insect of the order Psocodea
 	noun	clothing	clothing	https://en.wiktionary.org/wiki/clothing#Translations	clothes
 	noun	clothing	garment	https://en.wiktionary.org/wiki/garment#Translations	single item of clothing
-	noun	clothing	shirt	https://en.wiktionary.org/wiki/shirt#Translations	article of clothing
 	noun	dog	dog	https://en.wiktionary.org/wiki/dog/translations#Noun	animal
 	noun	dog	dog	https://en.wiktionary.org/wiki/dog/translations#Noun	male canine
 	noun	dog	dog	https://en.wiktionary.org/wiki/dog/translations#Noun	Translations to be checked
@@ -87,6 +96,8 @@
 	noun	drum	drum	https://en.wiktionary.org/wiki/drum#Translations	musical instrument
 	noun	enemy	enemy	https://en.wiktionary.org/wiki/enemy#Translations	someone who is hostile to, feels hatred towards, opposes the interests of, or intends injury to someone else
 	noun	enemy	enemy	https://en.wiktionary.org/wiki/enemy#Translations	Translations to be checked
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	archaic: any vertebrate that lives in water and cannot live outside it
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	vertebrate animal
 	noun	fire	fire	https://en.wiktionary.org/wiki/fire/translations#Noun	oxidation reaction
 	noun	fire	fire	https://en.wiktionary.org/wiki/fire/translations#Noun	instance of this chemical reaction
 	noun	fire	fire	https://en.wiktionary.org/wiki/fire/translations#Noun	damaging occurrence of fire
@@ -94,20 +105,27 @@
 	noun	food	food	https://en.wiktionary.org/wiki/food#Translations	any substance consumed by living organisms to sustain life
 	noun	food	food	https://en.wiktionary.org/wiki/food#Translations	anything intended to supply energy or nourishment of other forms
 	noun	food	food	https://en.wiktionary.org/wiki/food#Translations	foodstuff
+	noun	forest	forest	https://en.wiktionary.org/wiki/forest#Translations	dense collection of trees
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	door-like structure outside
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	doorway, opening, or passage in a fence or wall
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	Translations to be checked
 	noun	gift	gift	https://en.wiktionary.org/wiki/gift#Translations	something given to another voluntarily, without charge
 	noun	gift	gift	https://en.wiktionary.org/wiki/gift#Translations	Translations to be checked
 	noun	glass	glass	https://en.wiktionary.org/wiki/glass#Translations	substance
 	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	person who or thing that protects something
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations	elevated location
 	noun	horse	horse	https://en.wiktionary.org/wiki/horse#Translations	members of the species ''Equus ferus''
 	noun	horse	horse	https://en.wiktionary.org/wiki/horse#Translations	related or similar species
 	noun	house	house	https://en.wiktionary.org/wiki/house/translations#Noun	human abode
 	noun	house	house	https://en.wiktionary.org/wiki/house/translations#Noun	archetypal structure of a human abode
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	bulky piece of timber
 	noun	love	love	https://en.wiktionary.org/wiki/love/translations#Noun	strong affection
 	verb	love	love	https://en.wiktionary.org/wiki/love/translations#Noun	care about; will good for
 	noun	idea	idea	https://en.wiktionary.org/wiki/idea#Descendants	philosophy: abstract archetype of a given thing, compared to which real-life examples are seen as imperfect
 	noun	idea	idea	https://en.wiktionary.org/wiki/idea#Descendants	Translations to be checked
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	representation created in the mind
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	Translations to be checked
+	noun	metal	metal	https://en.wiktionary.org/wiki/metal#Translations	atomic element or material made of such atoms
 	noun	money	money	https://en.wiktionary.org/wiki/money#Translations	means of exchange and measure of value
 	noun	money	money	https://en.wiktionary.org/wiki/money#Translations	currency
 	noun	money	money	https://en.wiktionary.org/wiki/money#Translations	hard cash
@@ -132,6 +150,11 @@
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	a length of this string
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	hand twisted rope
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	Translations to be checked
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	mechanical device intended to make a task easier
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	equipment used in a profession
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	Translations to be checked
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations	collection of valuable things
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations	any single thing one values greatly
 	noun	warmth	warmth	https://en.wiktionary.org/wiki/warmth	moderate heat; sensation of being warm
 	noun	heat	heat	https://en.wiktionary.org/wiki/heat#Translations	thermal energy
 	noun	heat	heat	https://en.wiktionary.org/wiki/heat#Translations	condition or quality of being hot
@@ -142,7 +165,11 @@
 	noun	wind	wind	https://en.wiktionary.org/wiki/wind/translations#Etymology_1	movement of air
 	noun	wind	wind	https://en.wiktionary.org/wiki/wind/translations#Etymology_1	the force developed by the movement of air
 	noun	wind	wind	https://en.wiktionary.org/wiki/wind/translations#Etymology_1	Translations to be checked
+	noun	wolf	wolf	https://en.wiktionary.org/wiki/wolf#Translations	animal
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	substance
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	wood from a particular species
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	labour, employment, occupation, job
+	noun	worker	worker	https://en.wiktionary.org/wiki/worker#Translations	person who performs labor
 	noun	worm	worm	https://en.wiktionary.org/wiki/worm#Translations	animal
 	noun	language	language	https://en.wiktionary.org/wiki/language/translations#Noun	body of words used as a form of communication
 	noun	language	language	https://en.wiktionary.org/wiki/language/translations#Noun	Translations to be checked
@@ -154,6 +181,8 @@
 	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations	season between winter and summer in temperate climates
 	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations	period from vernal equinox to summer solstice
 	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations	the three months March to May (N. Hem.) or September to November (S. Hem.)
+	noun	autumn	autumn	https://en.wiktionary.org/wiki/autumn#Translations	season
+	noun	winter	winter	https://en.wiktionary.org/wiki/winter#Translations	fourth season, marked by short days and the lowest temperatures
 	noun	year	year	https://en.wiktionary.org/wiki/year/translations#Noun	time it takes for the Earth to complete one revolution around the Sun
 	noun	year	year	https://en.wiktionary.org/wiki/year/translations#Noun	time it takes for any planetary body to make one revolution around another body
 	noun	year	year	https://en.wiktionary.org/wiki/year/translations#Noun	a period between set dates that mark a year
@@ -188,7 +217,7 @@
 	noun	son	son	https://en.wiktionary.org/wiki/son/translations#Noun	a male person in relation to his parents
 	noun	son	son	https://en.wiktionary.org/wiki/son/translations#Noun	Translations to be checked
 	noun	daughter	daughter	https://en.wiktionary.org/wiki/daughter#Translations	female offspring
-	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	female (human) who parents a child, gives birth to a baby, or is pregnant
+	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	female (human) who gives birth to or parents a child
 	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	one’s female parent
 	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	Translations to be checked
 	noun	father	father	https://en.wiktionary.org/wiki/father/translations#Noun	male parent
@@ -198,14 +227,28 @@
 	noun	brother	brother	https://en.wiktionary.org/wiki/brother/translations#Noun	Translations to be checked
 	noun	sister	sister	https://en.wiktionary.org/wiki/sister/translations#Noun	woman or girl having the same parents
 	noun	sister	sister	https://en.wiktionary.org/wiki/sister/translations#Noun	Translations to be checked
+	noun	grandmother	grandmother	https://en.wiktionary.org/wiki/grandmother#Translations	mother of someone's parent
+	noun	grandmother	grandmother	https://en.wiktionary.org/wiki/grandmother#Translations	Translations to be checked
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations	grandfather (from either side)
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations	male forefather
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations	Translations to be checked
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	sensation perceived by the ear
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	vibration capable of causing this
 	noun	size	size	https://en.wiktionary.org/wiki/size#Translations	dimensions or magnitude of a thing
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	representation created in the mind
 	noun	thought	idea	https://en.wiktionary.org/wiki/idea#Translations	philosophy: abstract archetype of a given thing, compared to which real-life examples are seen as imperfect
 	noun	thought	idea	https://en.wiktionary.org/wiki/idea#Translations	Translations to be checked
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	compass point
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	Translations to be checked
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	compass point
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	Translations to be checked
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	compass point
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	Translations to be checked
+	noun	west	west	https://en.wiktionary.org/wiki/west#Translations	compass point
+	noun	west	west	https://en.wiktionary.org/wiki/west#Translations	Translations to be checked
 	interjection	hello	hello	https://en.wiktionary.org/wiki/hello#Translations	greeting
 	interjection	hello	hello	https://en.wiktionary.org/wiki/hello#Translations	Translations to be checked
+	interjection	bye	bye	https://en.wiktionary.org/wiki/goodbye#Translations	farewell
 	verb	make	make	https://en.wiktionary.org/wiki/make#Translations	to construct
 	verb	make	make	https://en.wiktionary.org/wiki/make#Translations	to create
 	verb	make	make	https://en.wiktionary.org/wiki/make#Translations	to cause to be
@@ -253,12 +296,16 @@
 	verb	endure	endure	https://en.wiktionary.org/wiki/endure#Translations	to tolerate something
 	verb	endure	endure	https://en.wiktionary.org/wiki/endure#Translations	to suffer patiently
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	move to a lower position under the effect of gravity
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to mend or repair
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	(transitive) to engage in (a physical conflict)
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to mend or repair
 	verb	fly	fly	https://en.wiktionary.org/wiki/fly/translations#Etymology_2	to travel through air
 	verb	flow	flow	https://en.wiktionary.org/wiki/flow#Translations	to move as a fluid
 	verb	flow	flow	https://en.wiktionary.org/wiki/flow#Translations	to move smoothly
 	verb	greet	greet	https://en.wiktionary.org/wiki/greet#Translations	to address with salutations or expressions of kind wishes
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations	to perceive with the ear
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations	Translations to be checked
+	verb	heal	heal	https://en.wiktionary.org/wiki/heal#Translations	make better
 	verb	occupy	occupy	https://en.wiktionary.org/wiki/occupy	to fill (space)
 	verb	occupy	occupy	https://en.wiktionary.org/wiki/occupy	time or space
 	verb	occupy	occupy	https://en.wiktionary.org/wiki/occupy	reside in
@@ -266,6 +313,8 @@
 	verb	occupy	inhabit	https://en.wiktionary.org/wiki/inhabit#Translations	to be present in some place
 	verb	occupy	inhabit	https://en.wiktionary.org/wiki/inhabit#Translations	Translations to be checked
 	verb	resemble	resemble	https://en.wiktionary.org/wiki/resemble#Translations	to be like or similar to something else
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to look at and interpret letters or other information
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to speak aloud words or other information that is written
 	verb	rest	rest	https://en.wiktionary.org/wiki/rest#Translations_2	intransitive: take repose
 	verb	rest	rest	https://en.wiktionary.org/wiki/rest#Translations_2	stay, remain, be situated
 	verb	rest	rest	https://en.wiktionary.org/wiki/rest#Translations_2	intransitive: lie or lean or be supported
@@ -279,12 +328,14 @@
 	verb	startle	surprise	https://en.wiktionary.org/wiki/surprise#Translations	cause (someone) to feel surprise
 	verb	swim	swim	https://en.wiktionary.org/wiki/swim	move through water
 	verb	swim	swim	https://en.wiktionary.org/wiki/swim	Translations to be checked
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to cause an object to move rapidly through the air
 	verb	walk	walk	https://en.wiktionary.org/wiki/walk#Translations	to move on the feet
 	verb	walk	walk	https://en.wiktionary.org/wiki/walk#Translations	Translations to be checked
 	verb	warm	warm	https://en.wiktionary.org/wiki/warm#Translations	to make or keep warm
 	verb	heat	heat	https://en.wiktionary.org/wiki/heat#Translations	to cause an increase in temperature of an object or space
 	verb	heat	heat	https://en.wiktionary.org/wiki/heat#Translations	Translations to be checked
+	verb	wait	wait	https://en.wiktionary.org/wiki/wait#Translations	delay until some event
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations	to look at for a period of time
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations	to observe
-	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	to do a specific task
+	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	intransitive: to do a specific task
 	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	Translations to be checked

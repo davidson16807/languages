@@ -82,7 +82,6 @@
 	adjective	second	second	https://en.wiktionary.org/wiki/second#Translations	another chance to achieve what should have been done the first time
 	adjective	second	second	https://en.wiktionary.org/wiki/second#Translations	music: interval between two adjacent notes
 	adjective	second	second	https://en.wiktionary.org/wiki/second#Translations	second gear
-	adjective	second	second	https://en.wiktionary.org/wiki/second#Translations	baseball: second base
 	adjective	second	second	https://en.wiktionary.org/wiki/second#Translations	to follow in the next place
 	adjective	second	second	https://en.wiktionary.org/wiki/second#Translations	to agree
 	adjective	second	second	https://en.wiktionary.org/wiki/second#Translations	one-sixtieth of a minute; SI unit of time
@@ -120,6 +119,7 @@
 	adjective	loud	loud	https://en.wiktionary.org/wiki/loud#Translations	of a sound
 	adjective	loud	loud	https://en.wiktionary.org/wiki/loud#Translations	noisy
 	adjective	loud	loud	https://en.wiktionary.org/wiki/loud#Translations	of a colour, clothing, etc.
+	adjective	loud	loud	https://en.wiktionary.org/wiki/loud#Translations	Translations to be checked
 	adjective	strong	strong	https://en.wiktionary.org/wiki/strong#Translations	capable of producing great physical force
 	adjective	strong	strong	https://en.wiktionary.org/wiki/strong#Translations	capable of withstanding great physical force
 	adjective	strong	strong	https://en.wiktionary.org/wiki/strong#Translations	fast moving water
@@ -154,7 +154,7 @@
 	adjective	well	well	https://en.wiktionary.org/wiki/well#Translations_2	open space between the bench and the counsel tables in a courtroom
 	adjective	well	well	https://en.wiktionary.org/wiki/well#Translations_2	metalworking: lower part of a furnace
 	adjective	well	well	https://en.wiktionary.org/wiki/well#Translations_2	video games: playfield of ''Tetris'' and similar games
-	adjective	well	well	https://en.wiktionary.org/wiki/well#Translations_2	small section of a microtiter plate
+	adjective	well	well	https://en.wiktionary.org/wiki/well#Translations_2	biology: small section of a microtiter plate
 	adjective	well	well	https://en.wiktionary.org/wiki/well#Translations_2	to issue forth
 	adjective	well	well	https://en.wiktionary.org/wiki/well#Translations_2	to have something seep out of the surface
 	adjective	good	good	https://en.wiktionary.org/wiki/good#Translations	acting in the interest of good; ethical good intentions
@@ -190,17 +190,21 @@
 	adjective	bad	bad	https://en.wiktionary.org/wiki/bad#Translations	Translations to be checked
 	adjective	bad	bad	https://en.wiktionary.org/wiki/bad#Translations	error, mistake
 	adjective	bad	bad	https://en.wiktionary.org/wiki/bad#Translations	to misbehaving child or pet
+	adjective	angry	angry	https://en.wiktionary.org/wiki/angry#Translations	displaying anger
+	adjective	angry	angry	https://en.wiktionary.org/wiki/angry#Translations	inflamed and painful
+	adjective	angry	angry	https://en.wiktionary.org/wiki/angry#Translations	dark and stormy
+	adjective	angry	angry	https://en.wiktionary.org/wiki/angry#Translations	Translations to be checked
 	adjective	happy	happy	https://en.wiktionary.org/wiki/happy#Translations	contented, joyous
 	adjective	happy	happy	https://en.wiktionary.org/wiki/happy#Translations	fortunate, lucky
 	adjective	happy	happy	https://en.wiktionary.org/wiki/happy#Translations	content (to do something); having no objection (to something)
 	adjective	happy	happy	https://en.wiktionary.org/wiki/happy#Translations	apt, felicitous, fortunate, propitious
 	adjective	happy	happy	https://en.wiktionary.org/wiki/happy#Translations	may you have a happy
 	adjective	happy	happy	https://en.wiktionary.org/wiki/happy#Translations	Translations to be checked
-	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	of colours: dark, sombre, dull
 	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	feeling sorrow
 	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	appearing sorrowful
 	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	causing sorrow, lamentable
 	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	poor in quality, deplorable
+	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	of colours: dark, sombre, dull
 	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	slang: socially inadequate or undesirable
 	adjective	sad	sad	https://en.wiktionary.org/wiki/sad#Translations	Translations to be checked
 	adjective	bright	bright	https://en.wiktionary.org/wiki/bright#Translations	emitting much light; visually dazzling
@@ -218,6 +222,25 @@
 	adjective	bright	bright	https://en.wiktionary.org/wiki/bright#Translations	person with a naturalistic worldview with no mystical or supernatural elements
 	adjective	bright	bright	https://en.wiktionary.org/wiki/bright#Translations	artist’s brush with a long ferrule and a flat, somewhat tapering bristle head
 
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	not whole; fragmented
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	having the bone in pieces, fractured
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	of a line: dashed
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	of skin: split or ruptured
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	not working properly
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	completely defeated and dispirited
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	poorly spoken
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	having no money
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	uneven of relief, cut by valleys
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	disconnected
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	of software: badly designed or implemented
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	meteorology: five eighths to seven eighths obscured by clouds
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	sports and gaming: very powerful
+	adjective	broken	broken	https://en.wiktionary.org/wiki/broken#Translations	Translations to be checked
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	wounded, injured
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	pained
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	Translations to be checked
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	An emotional or psychological pain or bad experience
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	blue roundel
 	noun	attention	attention	https://en.wiktionary.org/wiki/attention#Translations	mental focus
 	noun	attention	attention	https://en.wiktionary.org/wiki/attention#Translations	romantic interest
 	noun	attention	attention	https://en.wiktionary.org/wiki/attention#Translations	state of alertness in the standing position
@@ -240,6 +263,37 @@
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	process
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	way of thinking
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	Translations to be checked
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	solid or hollow sphere
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	object, generally spherical, used for playing games
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	quantity of string, thread, etc., wound into a spherical shape
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	baseball: a pitch that falls outside the strike zone
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	pinball: an opportunity to launch the ball into play
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	ballistics: a solid nonexplosive missile
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	mathematics: set of points in a metric space lying within a given distance of a given point
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	testicle
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	mildly vulgar slang: nonsense
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	in plural — slang — courage
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	cricket: a single delivery
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	anatomy: ball of a foot
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	Translations to be checked
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	vulgar slang: have sexual intercourse with
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	formal dance
+	noun	ball	ball	https://en.wiktionary.org/wiki/ball#Translations	colloquial: a very enjoyable time
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	construction or natural feature that spans a divide
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	(anatomy) bony ridge of the nose
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	(dentistry) replacement for teeth
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	(nautical) platform above the upper deck
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	(music, lutherie) piece on string instruments
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	(wrestling) defensive position
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	(computing) device which connects computer buses
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	(chemistry) intermolecular valence bond
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	(graph theory) edge
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	to make a bridge
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	to span as if with a bridge
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	music: to transition from one piece or section to another
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	computing, communication: to connect with a bridge
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	wrestling: to go to the bridge position
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations	card game
 	noun	bird	bird	https://en.wiktionary.org/wiki/bird#Translations	animal
 	noun	bird	bird	https://en.wiktionary.org/wiki/bird#Translations	person
 	noun	bird	bird	https://en.wiktionary.org/wiki/bird#Translations	woman
@@ -284,7 +338,6 @@
 	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations	to make the sound of a rooster
 	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations	to utter a sound of joy
 	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations	to shout or brag
-	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations	Translations to be checked
 	noun	chick	chick	https://en.wiktionary.org/wiki/chick#Translations	young bird
 	noun	chick	chick	https://en.wiktionary.org/wiki/chick#Translations	young chicken
 	noun	chick	chick	https://en.wiktionary.org/wiki/chick#Translations	young woman
@@ -357,7 +410,7 @@
 	noun	book	book	https://en.wiktionary.org/wiki/book/translations#Noun	slang: to leave
 	noun	book	book	https://en.wiktionary.org/wiki/book/translations#Noun	Translations to be checked
 	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	an insect of the order Hemiptera
-	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	a colloquial name for insect
+	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	a colloquial name for various arthropods and other similar creeping creatures
 	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	various species of marine or freshwater crustaceans
 	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	problem that needs fixing (especially in computing)
 	noun	bug	bug	https://en.wiktionary.org/wiki/bug#Translations	contagious illness, bacteria, virus
@@ -380,7 +433,8 @@
 	noun	bug	louse	https://en.wiktionary.org/wiki/louse#Translations	worthless person
 	noun	bug	louse	https://en.wiktionary.org/wiki/louse#Translations	To remove lice
 	noun	clothing	clothing	https://en.wiktionary.org/wiki/clothing#Translations	clothes
-	noun	clothing	garment	https://en.wiktionary.org/wiki/shirt#Translations	article of clothing
+	noun	clothing	garment	https://en.wiktionary.org/wiki/garment#Translations	single item of clothing
+	noun	clothing	garment	https://en.wiktionary.org/wiki/garment#Translations	to clothe in a garment
 	noun	clothing	shirt	https://en.wiktionary.org/wiki/shirt#Translations	article of clothing
 	noun	dog	dog	https://en.wiktionary.org/wiki/dog/translations#Noun	animal
 	noun	dog	dog	https://en.wiktionary.org/wiki/dog/translations#Noun	male canine
@@ -407,6 +461,17 @@
 	noun	enemy	enemy	https://en.wiktionary.org/wiki/enemy#Translations	an alliance of hostile forces
 	noun	enemy	enemy	https://en.wiktionary.org/wiki/enemy#Translations	of, relating to, or belonging to an enemy
 	noun	enemy	enemy	https://en.wiktionary.org/wiki/enemy#Translations	Translations to be checked
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	vertebrate animal
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	collective plural of fish
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	archaic: any vertebrate that lives in water and cannot live outside it
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	flesh of fish as food
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	period of time spent fishing
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	instance of seeking something
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	card game
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	derogatory slang: woman
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	slang: easy victim for swindling
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	nautical: makeshift brace
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun	Translations to be checked
 	noun	fire	fire	https://en.wiktionary.org/wiki/fire/translations#Noun	oxidation reaction
 	noun	fire	fire	https://en.wiktionary.org/wiki/fire/translations#Noun	instance of this chemical reaction
 	noun	fire	fire	https://en.wiktionary.org/wiki/fire/translations#Noun	damaging occurrence of fire
@@ -422,6 +487,18 @@
 	noun	food	food	https://en.wiktionary.org/wiki/food#Translations	any substance consumed by living organisms to sustain life
 	noun	food	food	https://en.wiktionary.org/wiki/food#Translations	anything intended to supply energy or nourishment of other forms
 	noun	food	food	https://en.wiktionary.org/wiki/food#Translations	foodstuff
+	noun	forest	forest	https://en.wiktionary.org/wiki/forest#Translations	dense collection of trees
+	noun	forest	forest	https://en.wiktionary.org/wiki/forest#Translations	any dense collection
+	noun	forest	forest	https://en.wiktionary.org/wiki/forest#Translations	graph theory: union of trees
+	noun	forest	forest	https://en.wiktionary.org/wiki/forest#Translations	to cover an area with trees
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	door-like structure outside
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	doorway, opening, or passage in a fence or wall
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	computing: logical pathway
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	cricket: gap between a batsman the bat and his pad
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	money made by selling tickets for an event
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	in an air terminal
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	(electronics) name of one terminal of a transistor
+	noun	gate	gate	https://en.wiktionary.org/wiki/gate#Translations	Translations to be checked
 	noun	gift	gift	https://en.wiktionary.org/wiki/gift#Translations	something given to another voluntarily, without charge
 	noun	gift	gift	https://en.wiktionary.org/wiki/gift#Translations	something received incidentally, without effort
 	noun	gift	gift	https://en.wiktionary.org/wiki/gift#Translations	talent or natural ability
@@ -456,6 +533,7 @@
 	noun	glass	glass	https://en.wiktionary.org/wiki/glass#Translations	attributive: transparent or translucent
 	noun	glass	glass	https://en.wiktionary.org/wiki/glass#Translations	to furnish with glass
 	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	person who or thing that protects something
+	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	squad, group of guards
 	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	the part of a sword that protects the wielder's hand
 	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	part of machine blocking dangerous parts
 	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	player in sports in general
@@ -465,6 +543,13 @@
 	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	to watch by way of caution or defense
 	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	to protect the edge of
 	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations	to fasten by binding; to gird
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations	elevated location
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations	sloping road
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations	steepness
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations	heap of earth surrounding a plant
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations	baseball: pitcher's mound
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations	To form into a heap or mound
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations	To heap or draw earth around plants
 	noun	horse	horse	https://en.wiktionary.org/wiki/horse#Translations	members of the species ''Equus ferus''
 	noun	horse	horse	https://en.wiktionary.org/wiki/horse#Translations	related or similar species
 	noun	horse	horse	https://en.wiktionary.org/wiki/horse#Translations	cavalry soldiers
@@ -486,6 +571,16 @@
 	noun	house	house	https://en.wiktionary.org/wiki/house/translations#Noun	grouping of schoolchildren
 	noun	house	house	https://en.wiktionary.org/wiki/house/translations#Noun	curling: three concentric circles
 	noun	house	house	https://en.wiktionary.org/wiki/house/translations#Noun	children's game
+	noun	king	king	https://en.wiktionary.org/wiki/king#Translations	in checkers
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	trunk of dead tree, cleared of branches
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	bulky piece of timber
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	nautical: device for measuring the speed of a vessel
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	Translations to be checked
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	to cut down trees
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	chronological record
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	(computer) an append-only sequence of records written to disk
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	Translations to be checked
+	noun	log	log	https://en.wiktionary.org/wiki/log#Translations	make an entry in a log
 	noun	love	love	https://en.wiktionary.org/wiki/love/translations#Noun	strong affection
 	noun	love	love	https://en.wiktionary.org/wiki/love/translations#Noun	object of one's romantic feelings; darling or sweetheart
 	noun	love	love	https://en.wiktionary.org/wiki/love/translations#Noun	colloquial: term of friendly address
@@ -515,6 +610,8 @@
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	process
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	way of thinking
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations	Translations to be checked
+	noun	metal	metal	https://en.wiktionary.org/wiki/metal#Translations	atomic element or material made of such atoms
+	noun	metal	metal	https://en.wiktionary.org/wiki/metal#Translations	certain category of rock music
 	noun	money	money	https://en.wiktionary.org/wiki/money#Translations	means of exchange and measure of value
 	noun	money	money	https://en.wiktionary.org/wiki/money#Translations	currency
 	noun	money	money	https://en.wiktionary.org/wiki/money#Translations	hard cash
@@ -550,6 +647,7 @@
 	noun	beast	beast	https://en.wiktionary.org/wiki/beast#Translations	something unpleasant and difficult
 	noun	beast	beast	https://en.wiktionary.org/wiki/beast#Translations	difficult or unruly thing
 	noun	beast	beast	https://en.wiktionary.org/wiki/beast#Translations	Translations to be checked
+	noun	beast	beast	https://en.wiktionary.org/wiki/beast#Translations	
 	noun	name	name	https://en.wiktionary.org/wiki/name#Translations	word or phrase indicating a particular person, place, class or thing
 	noun	name	name	https://en.wiktionary.org/wiki/name#Translations	reputation
 	noun	name	name	https://en.wiktionary.org/wiki/name#Translations	abusive or insulting epithet
@@ -623,6 +721,23 @@
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	to climb by means of ropes
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	to be formed into rope; to draw out or extend into a filament or thread
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	slang: to commit suicide by hanging
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	mechanical device intended to make a task easier
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	equipment used in a profession
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	software for developers
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	person or group used or controlled by another
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	penis
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	Translations to be checked
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	to work on or shape with tools
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	to equip with tools
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	to work very hard
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	volleyball
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	(slang) ride or drive
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations	Translations to be checked
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations	collection of valuable things
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations	any single thing one values greatly
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations	term of endearment
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations	consider to be precious
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations	to store, to amass
 	noun	warmth	warmth	https://en.wiktionary.org/wiki/warmth	moderate heat; sensation of being warm
 	noun	warmth	warmth	https://en.wiktionary.org/wiki/warmth	friendliness, affection
 	noun	warmth	warmth	https://en.wiktionary.org/wiki/warmth	intensity of emotion or expression
@@ -683,6 +798,22 @@
 	noun	wind	wind	https://en.wiktionary.org/wiki/wind/translations#Etymology_1	to have complete control over
 	noun	wind	wind	https://en.wiktionary.org/wiki/wind/translations#Etymology_1	to cover or surround with something coiled about
 	noun	wind	wind	https://en.wiktionary.org/wiki/wind/translations#Etymology_1	Translations to be checked
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	substance
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	wood from a particular species
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	woodland
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	firewood
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	type of golf club
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	music: woodwind instrument
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	slang: an erection
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	Translations to be checked
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	to cover or plant with trees
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations	attributive
+	noun	worker	worker	https://en.wiktionary.org/wiki/worker#Translations	person who performs labor
+	noun	worker	worker	https://en.wiktionary.org/wiki/worker#Translations	insect
+	noun	wolf	wolf	https://en.wiktionary.org/wiki/wolf#Translations	animal
+	noun	wolf	wolf	https://en.wiktionary.org/wiki/wolf#Translations	man who makes amorous advances on many women
+	noun	wolf	wolf	https://en.wiktionary.org/wiki/wolf#Translations	unpleasant musical tone
+	noun	wolf	wolf	https://en.wiktionary.org/wiki/wolf#Translations	to devour
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	labour, employment, occupation, job
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	place where one is employed
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	effort expended on a particular task
@@ -694,8 +825,8 @@
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	fortification
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	wrestling: staging of events
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	Translations to be checked
-	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	to do a specific task
-	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	to operate in a certain place, area, or specialty.
+	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	intransitive: to do a specific task
+	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	transitive: to operate in a certain place, area, or specialty
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	to operate in, through<span class="serial-comma">,</span> or by means of
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	to function correctly; to act as intended; to achieve the goal designed for
 	noun	work	work	https://en.wiktionary.org/wiki/work/translations#Noun	to set into action
@@ -761,6 +892,10 @@
 	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations	any active power
 	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations	Translations to be checked
 	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations	to spend the springtime
+	noun	autumn	autumn	https://en.wiktionary.org/wiki/autumn#Translations	season
+	noun	winter	winter	https://en.wiktionary.org/wiki/winter#Translations	fourth season, marked by short days and the lowest temperatures
+	noun	winter	winter	https://en.wiktionary.org/wiki/winter#Translations	spend the winter, as in a particular place on holiday
+	noun	winter	winter	https://en.wiktionary.org/wiki/winter#Translations	store over winter
 	noun	year	year	https://en.wiktionary.org/wiki/year/translations#Noun	time it takes for the Earth to complete one revolution around the Sun
 	noun	year	year	https://en.wiktionary.org/wiki/year/translations#Noun	time it takes for any planetary body to make one revolution around another body
 	noun	year	year	https://en.wiktionary.org/wiki/year/translations#Noun	a period between set dates that mark a year
@@ -832,8 +967,7 @@
 	noun	son	son	https://en.wiktionary.org/wiki/son/translations#Noun	familiar address
 	noun	son	son	https://en.wiktionary.org/wiki/son/translations#Noun	Translations to be checked
 	noun	daughter	daughter	https://en.wiktionary.org/wiki/daughter#Translations	female offspring
-	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	female (human) who parents a child, gives birth to a baby, or is pregnant
-	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	one’s female parent
+	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	female (human) who gives birth to or parents a child
 	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	female parent of an animal
 	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	female ancestor
 	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun	source or origin
@@ -865,6 +999,13 @@
 	noun	sister	sister	https://en.wiktionary.org/wiki/sister/translations#Noun	form of address to a woman
 	noun	sister	sister	https://en.wiktionary.org/wiki/sister/translations#Noun	attributively: of an entity that has a special relationship with another
 	noun	sister	sister	https://en.wiktionary.org/wiki/sister/translations#Noun	Translations to be checked
+	noun	grandmother	grandmother	https://en.wiktionary.org/wiki/grandmother#Translations	mother of someone's parent
+	noun	grandmother	grandmother	https://en.wiktionary.org/wiki/grandmother#Translations	Translations to be checked
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations	grandfather (from either side)
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations	male forefather
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations	Translations to be checked
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations	to be, or act as, a grandfather to
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations	to retain existing laws or rules for a thing, person or organization previously affected by them
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	sensation perceived by the ear
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	vibration capable of causing this
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	speech sound
@@ -876,9 +1017,10 @@
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	to pronounce
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	Translations to be checked
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	long narrow inlet
-	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	to dive downwards, of a whale
-	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	to probe
-	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	to test
+	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	of a whale: to dive downwards
+	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	to ascertain, or to try to ascertain, the thoughts, motives, and purposes of (a person); to examine; to try; to test; to probe
+	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	to fathom or test; to ascertain the depth of water with a sounding line or other device
+	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	medicine: to examine with the instrument called a sound or sonde, or by auscultation or percussion
 	noun	sound	sound	https://en.wiktionary.org/wiki/sound#Translations	long, thin probe for sounding or dilating body cavities or canals
 	noun	size	size	https://en.wiktionary.org/wiki/size#Translations	dimensions or magnitude of a thing
 	noun	size	size	https://en.wiktionary.org/wiki/size#Translations	a specific set of dimensions for clothing
@@ -904,12 +1046,47 @@
 	noun	thought	idea	https://en.wiktionary.org/wiki/idea#Translations	a vague or fanciful notion; a feeling or hunch; an impression
 	noun	thought	idea	https://en.wiktionary.org/wiki/idea#Translations	a musical theme or melodic subject
 	noun	thought	idea	https://en.wiktionary.org/wiki/idea#Translations	Translations to be checked
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	compass point
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	up or positive direction
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	north pole of a magnet
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	of or pertaining to the north
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	toward the north
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	meteorology: of wind, from the north
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	part of a corridor used by northbound traffic
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	Translations to be checked
+	noun	north	north	https://en.wiktionary.org/wiki/north#Translations	towards the north
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	compass point
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	of or pertaining to the south
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	towards the south
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	meteorology, of wind: from the south
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	part of a corridor used by northbound traffic
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	Translations to be checked
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	towards the south
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	of wind: from the south
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	in an adverse direction or trend
+	noun	south	south	https://en.wiktionary.org/wiki/south#Translations	Translations to be checked
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	compass point
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	Translations to be checked
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	in or towards the east
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	meteorology: easterly
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	of or pertaining to the east
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	from the East
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	towards the east
+	noun	east	east	https://en.wiktionary.org/wiki/east#Translations	Translations to be checked
+	noun	west	west	https://en.wiktionary.org/wiki/west#Translations	compass point
+	noun	west	west	https://en.wiktionary.org/wiki/west#Translations	towards the west
+	noun	west	west	https://en.wiktionary.org/wiki/west#Translations	western
+	noun	west	west	https://en.wiktionary.org/wiki/west#Translations	occidental
+	noun	west	west	https://en.wiktionary.org/wiki/west#Translations	Translations to be checked
+	noun	west	west	https://en.wiktionary.org/wiki/west#Translations	towards the west
 	interjection	hello	hello	https://en.wiktionary.org/wiki/hello#Translations	greeting
 	interjection	hello	hello	https://en.wiktionary.org/wiki/hello#Translations	when answering the telephone
 	interjection	hello	hello	https://en.wiktionary.org/wiki/hello#Translations	is anyone there?
 	interjection	hello	hello	https://en.wiktionary.org/wiki/hello#Translations	sarcastic: that was foolish
 	interjection	hello	hello	https://en.wiktionary.org/wiki/hello#Translations	expression of puzzlement
 	interjection	hello	hello	https://en.wiktionary.org/wiki/hello#Translations	Translations to be checked
+	interjection	bye	bye	https://en.wiktionary.org/wiki/goodbye#Translations	farewell
+	interjection	bye	bye	https://en.wiktionary.org/wiki/goodbye#Translations	an utterance of goodbye
 	verb	make	make	https://en.wiktionary.org/wiki/make#Translations	to construct
 	verb	make	make	https://en.wiktionary.org/wiki/make#Translations	to produce
 	verb	make	make	https://en.wiktionary.org/wiki/make#Translations	to create
@@ -1056,7 +1233,6 @@
 	verb	climb	crawl	https://en.wiktionary.org/wiki/crawl#Translations	to swim using crawl stroke
 	verb	climb	crawl	https://en.wiktionary.org/wiki/crawl#Translations	to move over an area on hands and knees
 	verb	climb	crawl	https://en.wiktionary.org/wiki/crawl#Translations	to index files or web sites in order to make them available for search
-	verb	climb	crawl	https://en.wiktionary.org/wiki/crawl#Translations	slow movement on hands and knees, or with frequent stops
 	verb	climb	crawl	https://en.wiktionary.org/wiki/crawl#Translations	swimming stroke
 	verb	climb	crawl	https://en.wiktionary.org/wiki/crawl#Translations	a very slow pace
 	verb	climb	climb	https://en.wiktionary.org/wiki/climb#Translations	to ascend, to go up
@@ -1120,9 +1296,9 @@
 	verb	lead	direct	https://en.wiktionary.org/wiki/lead/translations#Etymology_2	business: the person in charge of a project
 	verb	lead	direct	https://en.wiktionary.org/wiki/lead/translations#Etymology_2	Translations to be checked
 	verb	displease	displease	https://en.wiktionary.org/wiki/displease#Translations	to fail to please or satisfy
-	verb	upset	upset	https://en.wiktionary.org/wiki/upset#Translations	make (a person) angry, distressed or unhappy
-	verb	upset	upset	https://en.wiktionary.org/wiki/upset#Translations	disturb, disrupt, unfavorably alter
 	verb	upset	upset	https://en.wiktionary.org/wiki/upset#Translations	tip, overturn
+	verb	upset	upset	https://en.wiktionary.org/wiki/upset#Translations	disturb, disrupt, unfavorably alter
+	verb	upset	upset	https://en.wiktionary.org/wiki/upset#Translations	make (a person) angry, distressed or unhappy
 	verb	anger	anger	https://en.wiktionary.org/wiki/anger#Translations	to cause such a feeling of antagonism
 	verb	anger	anger	https://en.wiktionary.org/wiki/anger#Translations	to become angry
 	verb	eat	eat	https://en.wiktionary.org/wiki/eat#Translations	to ingest
@@ -1146,13 +1322,42 @@
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	die
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	be allotted to
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	become or change into
-	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	10. (intransitive) to become ensnared or entrapped; to be worse off than before
+	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	to become ensnared or entrapped; to be worse off than before
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	Translations to be checked
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	act of moving in gas or vacuum under the effect of gravity from a point to a lower point
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	a period of decline before the end
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	loss of greatness or status
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	cricket: the act of a batsman being out
 	verb	fall	fall	https://en.wiktionary.org/wiki/fall#Translations	Translations to be checked
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	(intransitive) to contend in physical conflict
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	(reciprocal) to contend in physical conflict with each other
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	to strive for
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	(transitive) to engage in (a physical conflict)
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	(transitive) to contend in physical conflict against
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	to counteract
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	Translations to be checked
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	occasion of fighting
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	battle
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	physical confrontation
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	martial arts match
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	conflict of will, strife
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	will or ability to fight
+	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations	Translations to be checked
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to mend or repair
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to attach; to affix; to hold in place
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to hold at a particular time
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to prepare
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to make a contest, vote, or gamble unfair
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to make a business of getting paid to arrange immunity for defendants
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to render an animal infertile
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to map (a point or subset) to itself
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to render (a photographic impression) permanent
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	to inject a drug
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	Translations to be checked
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	an instance of fixing
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	a difficult situation or dilemma
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	a single dose of an addictive drug
+	verb	fix	fix	https://en.wiktionary.org/wiki/fix#Translations	determination of location
 	verb	fly	fly	https://en.wiktionary.org/wiki/fly/translations#Etymology_2	to travel through air
 	verb	fly	fly	https://en.wiktionary.org/wiki/fly/translations#Etymology_2	to flee
 	verb	fly	fly	https://en.wiktionary.org/wiki/fly/translations#Etymology_2	to cause to travel through the air
@@ -1179,6 +1384,14 @@
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations	to perceive sounds through the ear
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations	To receive information about; to come to learn of
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations	Translations to be checked
+	verb	heal	heal	https://en.wiktionary.org/wiki/heal#Translations	make better
+	verb	heal	heal	https://en.wiktionary.org/wiki/heal#Translations	become better
+	verb	heal	heal	https://en.wiktionary.org/wiki/heal#Translations	Translations to be checked
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	wounded, injured
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	pained
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	Translations to be checked
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	An emotional or psychological pain or bad experience
+	adjective	hurt	hurt	https://en.wiktionary.org/wiki/hurt#Translations_2	blue roundel
 	verb	occupy	occupy	https://en.wiktionary.org/wiki/occupy	to fill (time)
 	verb	occupy	occupy	https://en.wiktionary.org/wiki/occupy	to fill (space)
 	verb	occupy	occupy	https://en.wiktionary.org/wiki/occupy	time or space
@@ -1191,6 +1404,22 @@
 	verb	inhabit	inhabit	https://en.wiktionary.org/wiki/inhabit#Translations	to be present in some place
 	verb	inhabit	inhabit	https://en.wiktionary.org/wiki/inhabit#Translations	Translations to be checked
 	verb	resemble	resemble	https://en.wiktionary.org/wiki/resemble#Translations	to be like or similar to something else
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to look at and interpret letters or other information
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to speak aloud words or other information that is written
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to interpret or infer a meaning, significance, thought, intention, etc. from
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to consist of certain text
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	of text, etc., to be interpreted or read in a particular way
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to substitute (a corrected piece of text in place of an erroneous one); used to introduce an emendation of a text
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	''(informal, usually ironic)'' used after a euphemism to introduce the intended, more blunt meaning of a term
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to be able to hear (in a radio connection)
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to observe and comprehend (a displayed signal)
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to make a study of
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to fetch data from (a storage medium, etc.)
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	to imagine sequences of moves
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	Translations to be checked
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	a reading or an act of reading
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	''(in combination)'' something to be read; a written work
+	verb	read	read	https://en.wiktionary.org/wiki/read#Translations	a person's interpretation or impression of something
 	verb	rest	rest	https://en.wiktionary.org/wiki/rest#Translations_2	intransitive: take repose
 	verb	rest	rest	https://en.wiktionary.org/wiki/rest#Translations_2	put into state of rest
 	verb	rest	rest	https://en.wiktionary.org/wiki/rest#Translations_2	stop working, become inactive
@@ -1206,6 +1435,7 @@
 	verb	see	see	https://en.wiktionary.org/wiki/see#Translations	to be the setting or time of
 	verb	see	see	https://en.wiktionary.org/wiki/see#Translations	to ensure that something happens
 	verb	see	see	https://en.wiktionary.org/wiki/see#Translations	to wait upon; attend, escort
+	verb	see	see	https://en.wiktionary.org/wiki/see#Translations	to reference or to study for further details
 	verb	see	see	https://en.wiktionary.org/wiki/see#Translations	to include as one of something's experiences
 	verb	see	see	https://en.wiktionary.org/wiki/see#Translations	Translations to be checked
 	verb	see	see	https://en.wiktionary.org/wiki/see#Translations	interjection to attract attention
@@ -1241,6 +1471,37 @@
 	verb	swim	swim	https://en.wiktionary.org/wiki/swim	move through water
 	verb	swim	swim	https://en.wiktionary.org/wiki/swim	Translations to be checked
 	verb	swim	swim	https://en.wiktionary.org/wiki/swim	act or instance of swimming
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to cause an object to move rapidly through the air
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to eject or cause to fall off
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to move to another position
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to make by shaping clay as it turns on a wheel
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	in cricket, to deliver the ball illegally by straightening the bowling arm during delivery
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	computing: to send an error to an exception-handling mechanism
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	sports: to intentionally lose a game
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to confuse or mislead
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to send desperately
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to imprison
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to organize an event, especially a party
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to roll a die or dice
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to cause a certain number on the die or dice
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	bridge: to discard
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	martial arts: to lift the opponent off the ground and bring him back down
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	of voice: to change in order to give the illusion that the voice is that of someone else
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to show sudden emotion, especially anger
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to project or send forth
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to put on hastily; to spread carelessly
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to twist two or more filaments of
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	baseball: to select a pitcher
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to install a bridge
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	to twist or turn
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	boxing: to deliver
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	of animals: to give birth to
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	Translations to be checked
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	flight of a thrown object
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	act of throwing something
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	a distance travelled
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	piece of fabric used to cover a bed, sofa or other soft furnishing
+	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations	single instance, occurrence, venture, or chance
 	verb	walk	walk	https://en.wiktionary.org/wiki/walk#Translations	to move on the feet
 	verb	walk	walk	https://en.wiktionary.org/wiki/walk#Translations	colloquial: to avoid a criminal court case
 	verb	walk	walk	https://en.wiktionary.org/wiki/walk#Translations	colloquial: to be stolen
@@ -1272,14 +1533,17 @@
 	verb	heat	heat	https://en.wiktionary.org/wiki/heat#Translations	to cause an increase in temperature of an object or space
 	verb	heat	heat	https://en.wiktionary.org/wiki/heat#Translations	to arouse, to excite (sexually)
 	verb	heat	heat	https://en.wiktionary.org/wiki/heat#Translations	Translations to be checked
+	verb	wait	wait	https://en.wiktionary.org/wiki/wait#Translations	delay until some event
+	verb	wait	wait	https://en.wiktionary.org/wiki/wait#Translations	to serve customers
+	verb	wait	wait	https://en.wiktionary.org/wiki/wait#Translations	a delay
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations	to look at for a period of time
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations	to observe
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations	to attend or guard
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations	to be wary
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations	to be vigilant
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations	Translations to be checked
-	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	to do a specific task
-	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	to operate in a certain place, area, or specialty.
+	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	intransitive: to do a specific task
+	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	transitive: to operate in a certain place, area, or specialty
 	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	to operate in, through<span class="serial-comma">,</span> or by means of
 	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	to function correctly; to act as intended; to achieve the goal designed for
 	verb	work	work	https://en.wiktionary.org/wiki/work/translations#Verb	to set into action

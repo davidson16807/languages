@@ -30,19 +30,19 @@
 	https://en.wiktionary.org/wiki/well#Translations_2	well	well	adjective	x	x						 for nominatives of pronouns and other sapients
 	https://en.wiktionary.org/wiki/good#Translations	good	good	adjective	x	x					x	 for nominatives of concepts and miscellaneous nouns
 	https://en.wiktionary.org/wiki/bad#Translations	bad	bad	adjective	x	x					x	 for nominatives of concepts and miscellaneous nouns
-#	https://en.wiktionary.org/wiki/angry#Translations	angry	angry	adjective		x			x			to clarify that agency is present, or that something is personified as having agency, status ailment
+	https://en.wiktionary.org/wiki/angry#Translations	angry	angry	adjective		x			x			to clarify that agency is present, or that something is personified as having agency, status ailment
 #		falling	falling	adjective		x						to clarify that something is acting as a force
 	https://en.wiktionary.org/wiki/happy#Translations	happy	happy	adjective						x		for compelling narrative
 	https://en.wiktionary.org/wiki/sad#Translations	sad	sad	adjective					x	x		for compelling narrative, status ailment
 	https://en.wiktionary.org/wiki/bright#Translations	bright	bright	adjective				x				needed to clarify what Venus is
 	https://en.wiktionary.org/wiki/red#Translations	red	red	adjective				x	x		x	needed to clarify what Mars is
-		broken	broken	adjective								
-		hurt	hurt	adjective								
+	https://en.wiktionary.org/wiki/broken#Translations	broken	broken	adjective								
+	https://en.wiktionary.org/wiki/hurt#Translations_2	hurt	hurt	adjective								
 	https://en.wiktionary.org/wiki/attention#Translations	attention	attention	noun	x							something that can be directed at arbitrary things
 	https://en.wiktionary.org/wiki/focus#Translations	focus	focus	noun	x							
 	https://en.wiktionary.org/wiki/thought#Translations	thought	thought	noun	x							
-		ball	ball	noun					x			
-		bridge	bridge	noun					x			
+	https://en.wiktionary.org/wiki/ball#Translations	ball	ball	noun					x			
+	https://en.wiktionary.org/wiki/bridge#Translations	bridge	bridge	noun					x			
 	https://en.wiktionary.org/wiki/bird#Translations	bird	bird	noun	x				x	x	x	something that can fly
 	https://en.wiktionary.org/wiki/sparrow#Translations	sparrow	small-bird	noun						x		"demonstrates the word ""small"", demonstrates dual number with other birds"
 	https://en.wiktionary.org/wiki/swallow#Translations_2	swallow	small-bird	noun						x		
@@ -73,22 +73,24 @@
 	https://en.wiktionary.org/wiki/door#Translations	door	door	noun	x				x			opened and closed, locked
 	https://en.wiktionary.org/wiki/drum#Translations	drum	drum	noun	x							beaten in good taste and makes noise
 	https://en.wiktionary.org/wiki/enemy#Translations	enemy	enemy	noun	x				x			captures men and is captured, does bad things and is subjected to bad things without further justification
+	https://en.wiktionary.org/wiki/fish/translations#Noun	fish	fish	noun					x			needed for fetch quests
 	https://en.wiktionary.org/wiki/fire/translations#Noun	fire	fire	noun	x				x		x	warms most objects
 	https://en.wiktionary.org/wiki/food#Translations	food	food	noun	x				x			eaten by virtually anything with agency, cooked, useful inventory item
-		forest	forest	noun								
-		gate	gate	noun					x			
+	https://en.wiktionary.org/wiki/forest#Translations	forest	forest	noun								
+	https://en.wiktionary.org/wiki/gate#Translations	gate	gate	noun					x			
 	https://en.wiktionary.org/wiki/gift#Translations	gift	gift	noun	x			x	x			given and taken, useful inventory item
 	https://en.wiktionary.org/wiki/present#Translations	present	present	noun	x			x				
 	https://en.wiktionary.org/wiki/glass#Translations	glass	glass	noun	x							cleaned, broken in good taste
 	https://en.wiktionary.org/wiki/guard#Translations	guard	guard	noun	x				x			captures and releases men
-		hill	hill	noun								
+	https://en.wiktionary.org/wiki/hill#Translations	hill	hill	noun								
 	https://en.wiktionary.org/wiki/horse#Translations	horse	horse	noun	x							directed, ridden, and tamed
 	https://en.wiktionary.org/wiki/house/translations#Noun	house	house	noun	x				x			location, interior, property
-		log	log	noun					x			
+	https://en.wiktionary.org/wiki/king/translations#Noun	king	king	noun					x			"needed for ""king of the hill"" and character at the end of the story"
+	https://en.wiktionary.org/wiki/log#Translations	log	log	noun					x			needed for fetch quests
 	https://en.wiktionary.org/wiki/love/translations#Noun	love	love	noun	x				x			something that motivates and alters men in good taste
 	https://en.wiktionary.org/wiki/idea#Descendants	idea	idea	noun	x							thought and taught
 	https://en.wiktionary.org/wiki/thought#Translations	thought	thought	noun	x							
-		metal	metal	noun					x			
+	https://en.wiktionary.org/wiki/metal#Translations	metal	metal	noun					x			
 	https://en.wiktionary.org/wiki/money#Translations	money	money	noun	x				x			something that is exchanged and has value
 	https://en.wiktionary.org/wiki/coin#Translations	coin	coin	noun	x				x			
 	https://en.wiktionary.org/wiki/wealth#Translations	weath	weath	noun	x				x			
@@ -99,15 +101,16 @@
 	https://en.wiktionary.org/wiki/rock#Translations	rock	rock	noun	x			x	x		x	carried by men, thrown without further justification
 	https://en.wiktionary.org/wiki/stone#Translations	stone	stone	noun	x			x	x		x	
 	https://en.wiktionary.org/wiki/rope#Translations	rope	rope	noun	x				x		x	can be deformed
-		tool	tool	noun					x			
-		treasure	treasure	noun					x			
+	https://en.wiktionary.org/wiki/tool#Translations	tool	tool	noun					x			
+	https://en.wiktionary.org/wiki/treasure#Translations	treasure	treasure	noun					x			
 	https://en.wiktionary.org/wiki/warmth	warmth	warmth	noun	x							passes in and out of objects regardless of whether they have interiors
 	https://en.wiktionary.org/wiki/heat#Translations	heat	heat	noun	x							
 	https://en.wiktionary.org/wiki/water/translations#Noun	water	water	noun	x				x		x	drunk, swum in, cools most objects
 	https://en.wiktionary.org/wiki/way#Translations	way	way	noun	x				x			shown
 	https://en.wiktionary.org/wiki/wind/translations#Etymology_1	wind	wind	noun	x						x	carries men, flown in
-		wood	wood	noun					x			
-		wolf	wolf	noun					x			
+	https://en.wiktionary.org/wiki/wood#Translations	wood	wood	noun					x			
+	https://en.wiktionary.org/wiki/worker#Translations	worker	worker	noun					x			stone worker, wood worker, metal worker
+	https://en.wiktionary.org/wiki/wolf#Translations	wolf	wolf	noun					x			
 	https://en.wiktionary.org/wiki/work/translations#Noun	work	work	noun	x				x			something that can be done
 	https://en.wiktionary.org/wiki/worm#Translations	worm	worm	noun							x	
 #	https://en.wiktionary.org/wiki/window#Translations	window	window	noun	x							closed, opened, and broken in good taste
@@ -117,8 +120,8 @@
 	https://en.wiktionary.org/wiki/river/translations#Noun	river	river	noun				x	x		x	needed as high stable place markers for long duration messages
 	https://en.wiktionary.org/wiki/summer#Translations	summer	summer	noun				x	x			needed to self document rosetta book
 	https://en.wiktionary.org/wiki/spring#Translations	spring	spring	noun				x	x			needed to self document rosetta book
-		autumn	autumn	noun					x			
-		winter	winter	noun					x			
+	https://en.wiktionary.org/wiki/autumn#Translations	autumn	autumn	noun					x			
+	https://en.wiktionary.org/wiki/winter#Translations	winter	winter	noun					x			
 	https://en.wiktionary.org/wiki/year/translations#Noun	year	year	noun				x	x		x	needed to self document rosetta book
 	https://en.wiktionary.org/wiki/day/translations#Noun	day	day	noun				x	x		x	needed to self document rosetta book
 	https://en.wiktionary.org/wiki/moon/translations#Noun	moon	moon	noun				x	x		x	needed for highly stable chronological reference for long duration messages
@@ -139,18 +142,18 @@
 	https://en.wiktionary.org/wiki/father/translations#Noun	father	father	noun					x	x	x	
 	https://en.wiktionary.org/wiki/brother/translations#Noun	brother	brother	noun					x			
 	https://en.wiktionary.org/wiki/sister/translations#Noun	sister	sister	noun					x			
-		grandmother	grandmother	noun					x			
-		grandfather	grandfather	noun					x			
+	https://en.wiktionary.org/wiki/grandmother#Translations	grandmother	grandmother	noun					x			
+	https://en.wiktionary.org/wiki/grandfather#Translations	grandfather	grandfather	noun					x			
 	https://en.wiktionary.org/wiki/sound#Translations	sound	sound	noun			x					for genitives of audibles
 	https://en.wiktionary.org/wiki/size#Translations	size	size	noun			x					for genitives of visibles
 	https://en.wiktionary.org/wiki/thought#Translations	thought	thought	noun			x					for genitives of concepts and miscellaneous nouns, for demonstrating motion to/from a concept
 	https://en.wiktionary.org/wiki/idea#Translations	idea	thought	noun			x					
-		north	north	noun					x			
-		south	south	noun					x			
-		east	east	noun					x			
-		west	west	noun					x			
+	https://en.wiktionary.org/wiki/north#Translations	north	north	noun					x			
+	https://en.wiktionary.org/wiki/south#Translations	south	south	noun					x			
+	https://en.wiktionary.org/wiki/east#Translations	east	east	noun					x			
+	https://en.wiktionary.org/wiki/west#Translations	west	west	noun					x			
 	https://en.wiktionary.org/wiki/hello#Translations	hello	hello	interjection		x	x	x	x	x		for vocatives
-		bye	bye	interjection					x			
+	https://en.wiktionary.org/wiki/goodbye#Translations	bye	bye	interjection					x			
 	https://en.wiktionary.org/wiki/make#Translations	make	make	verb				x	x			needed to self document rosetta book
 	https://en.wiktionary.org/wiki/speak#Translations	speak	speak	verb				x	x	x		needed to self document rosetta book and its languages
 	https://en.wiktionary.org/wiki/become#Translations	become	become	verb				x				needed to self document rosetta book and its languages
@@ -182,18 +185,18 @@
 	https://en.wiktionary.org/wiki/endure#Translations	endure	endure	verb		x						done by most things as a patient
 	https://en.wiktionary.org/wiki/suffer#Translations	suffer	suffer	verb		x						
 	https://en.wiktionary.org/wiki/fall#Translations	fall	fall	verb		x			x		x	done by most physical things as a force
-		fight	fight	verb					x			
-		fix	fix	verb					x			
+	https://en.wiktionary.org/wiki/fight#Translations	fight	fight	verb					x			
+	https://en.wiktionary.org/wiki/fix#Translations	fix	fix	verb					x			
 	https://en.wiktionary.org/wiki/fly/translations#Etymology_2	fly	fly	verb		x					x	can convey motion to/from any aerial thing
 	https://en.wiktionary.org/wiki/flow#Translations	flow	flow	verb		x			x		x	can be done by warmth to pass in and out of objects regardless of whether they have interiors
 	https://en.wiktionary.org/wiki/greet#Translations	greet	greet	verb					x	x		
 	https://en.wiktionary.org/wiki/hear#Translations	hear	hear	verb					x	x		
-		heal	heal	verb					x			
-		hurt	hurt	verb					x			
+	https://en.wiktionary.org/wiki/heal#Translations	heal	heal	verb					x			
+	https://en.wiktionary.org/wiki/hurt#Translations_2	hurt	hurt	adjective					x			status ailment
 	https://en.wiktionary.org/wiki/occupy	occupy	occupy	verb		x			x			done by most things as a theme
 	https://en.wiktionary.org/wiki/inhabit#Translations	inhabit	inhabit	verb		x			x			
 	https://en.wiktionary.org/wiki/resemble#Translations	resemble	resemble	verb		x						needed for certain noun cases in certain languages
-		read	read	verb					x			
+	https://en.wiktionary.org/wiki/read#Translations	read	read	verb					x			
 	https://en.wiktionary.org/wiki/rest#Translations_2	rest	rest	verb		x			x			can be associated to most themes without requiring their ability to move
 	https://en.wiktionary.org/wiki/see#Translations	see	see	verb		x			x	x		can be done to most stimuli
 	https://en.wiktionary.org/wiki/shout#Translations	shout	shout	verb						x		
@@ -202,11 +205,11 @@
 	https://en.wiktionary.org/wiki/frighten#Translations	frighten	startle	verb		x			x			
 	https://en.wiktionary.org/wiki/surprise#Translations	surprise	startle	verb		x			x			
 	https://en.wiktionary.org/wiki/swim	swim	swim	verb		x			x			can convey motion to/from any aquatic thing
-		throw	throw	verb					x			
+	https://en.wiktionary.org/wiki/throw#Translations	throw	throw	verb					x			
 	https://en.wiktionary.org/wiki/walk#Translations	walk	walk	verb		x		x	x			conveys motion relative to most terrestrial things
 	https://en.wiktionary.org/wiki/warm#Translations	warm	warm	verb		x						"can be done to most patients (unless intrinsically hot, like fire, in which case we use ""cool"")"
 	https://en.wiktionary.org/wiki/heat#Translations	heat	heat	verb		x						
-		wait	wait	verb					x			
+	https://en.wiktionary.org/wiki/wait#Translations	wait	wait	verb					x			needed to control time of day
 	https://en.wiktionary.org/wiki/watch#Translations	watch	watch	verb		x						can be done to most stimuli
 	https://en.wiktionary.org/wiki/work/translations#Verb	work	work	verb		x			x			can be done for the sake or interest of things
 												
