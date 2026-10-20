@@ -7,4 +7,4 @@ scraped-glosses.tsv
 	↓ 	manual selection
 glosses.tsv
 	↓ 	scrape_translations.py
-scraped-translations.tsv
+translations.tsv
