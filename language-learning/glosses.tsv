@@ -1,4 +1,4 @@
-#	part-of-speech	intent	lexeme	url	gloss
+#	part-of-speech	intent	lemma	url	gloss
 	conjunction	and	and	https://en.wiktionary.org/wiki/and/translations#Conjunction	used to connect two similar words, phrases, et cetera
 	conjunction	and	and	https://en.wiktionary.org/wiki/and/translations#Conjunction	Translations to be checked
 	conjunction	but	but	https://en.wiktionary.org/wiki/but#Translations	although
@@ -144,8 +144,8 @@
 	noun	other	other	https://en.wiktionary.org/wiki/other#Translations	an other one
 	noun	other	other	https://en.wiktionary.org/wiki/other#Translations	not the one referred to
 	noun	rock	rock	https://en.wiktionary.org/wiki/rock#Translations	natural mineral aggregate
-	noun	stone	stone	https://en.wiktionary.org/wiki/stone#Translations	substance
-	noun	stone	stone	https://en.wiktionary.org/wiki/stone#Translations	small piece of stone
+	noun	rock	stone	https://en.wiktionary.org/wiki/stone#Translations	substance
+	noun	rock	stone	https://en.wiktionary.org/wiki/stone#Translations	small piece of stone
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	thick, strong string
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	a length of this string
 	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations	hand twisted rope
@@ -266,6 +266,12 @@
 	verb	hide	hide	https://en.wiktionary.org/wiki/hide#Translations	(transitive) put in a place where it will be harder to discover
 	verb	be-able	be-able	https://en.wiktionary.org/wiki/be_able_to#Translations	have ability to
 	verb	be-able	be-able	https://en.wiktionary.org/wiki/can#Translations	to be able to; to know how to
+	verb	be-inherently	be-inherently	https://en.wiktionary.org/wiki/be/translations#Verb	used to indicate that the subject has the qualities described by a noun or noun phrase
+	verb	be-inherently	be-inherently	https://en.wiktionary.org/wiki/be/translations#Verb	used to indicate that the subject plays the role of the predicate nominal
+	verb	be-momentarily	be-momentarily	https://en.wiktionary.org/wiki/be/translations#Verb	to occupy a place
+	verb	be-same	be-same	https://en.wiktionary.org/wiki/be/translations#Verb	used to indicate that the values on either side of an equation are the same
+	verb	be-adjective	be-adjective	https://en.wiktionary.org/wiki/be/translations#Verb	used to indicate that the subject has the qualities described by an adjective
+	verb	be-existing	be-existing	https://en.wiktionary.org/wiki/there_be#Translations	"statements of existance, e.g. ""there is..."""
 	verb	appear	appear	https://en.wiktionary.org/wiki/appear	to come or be in sight; to be in view; to become visible
 	verb	appear	arrive	https://en.wiktionary.org/wiki/arrive#Translations	to get to a certain place
 	verb	appear	come	https://en.wiktionary.org/wiki/come#Translations	to arrive, to appear
@@ -303,6 +309,7 @@
 	verb	flow	flow	https://en.wiktionary.org/wiki/flow#Translations	to move as a fluid
 	verb	flow	flow	https://en.wiktionary.org/wiki/flow#Translations	to move smoothly
 	verb	greet	greet	https://en.wiktionary.org/wiki/greet#Translations	to address with salutations or expressions of kind wishes
+	verb	have-in-possession	have-in-possession	https://en.wiktionary.org/wiki/have#Translations	to possess
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations	to perceive with the ear
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations	Translations to be checked
 	verb	heal	heal	https://en.wiktionary.org/wiki/heal#Translations	make better

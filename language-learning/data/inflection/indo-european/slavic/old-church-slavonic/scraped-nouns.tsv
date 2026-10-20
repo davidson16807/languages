@@ -1,208 +1,752 @@
-animal		singular	dual	plural
-animal	nominative	животъživotŭ	животаživota	животиživoti
-animal	genitive	животаživota	животоуživotu	животъživotŭ
-animal	dative	животоу, животовиživotu, životovi	животомаživotoma	животомъživotomŭ
-animal	accusative	животъ, животаživotŭ, života	животаživota	животꙑživoty
-animal	instrumental	животомъživotomŭ	животомаživotoma	животꙑživoty
-animal	locative	животѣživotě	животоуživotu	животѣхъživotěxŭ
-animal	vocative	животеživote	животаživota	животиživoti
-bird		singular	dual	plural
-bird	nominative	пътицаpŭtica	пътициpŭtici	пътицѧpŭticę
-bird	genitive	пътицѧpŭticę	пътицоуpŭticu	пътицьpŭticĭ
-bird	dative	пътициpŭtici	пътицамаpŭticama	пътицамъpŭticamŭ
-bird	accusative	пътицѫpŭticǫ	пътициpŭtici	пътицѧpŭticę
-bird	instrumental	пътицеѭpŭticejǫ	пътицамаpŭticama	пътицамиpŭticami
-bird	locative	пътициpŭtici	пътицоуpŭticu	пътицахъpŭticaxŭ
-bird	vocative	пътицеpŭtice	пътициpŭtici	пътицѧpŭticę
-boat		singular	dual	plural
-boat	nominative	ладииladii	ладииladii	ладиѩladiję
-boat	genitive	ладиѩladiję	ладиюladiju	ладииladii
-boat	dative	ладииladii	ладиꙗмаladijama	ладиꙗмъladijamŭ
-boat	accusative	ладиѭladijǫ	ладииladii	ладиѩladiję
-boat	instrumental	ладиѥѭladijejǫ	ладиꙗмаladijama	ладиꙗмиladijami
-boat	locative	ладииladii	ладиюladiju	ладиꙗхъladijaxŭ
-boat	vocative	ладиѥladije	ладииladii	ладиѩladiję
-book		singular	dual	plural
-book	nominative	боукꙑbuky	боукъвиbukŭvi	боукъвиbukŭvi
-book	genitive	боукъвеbukŭve	боукъвоуbukŭvu	боукъвъbukŭvŭ
-book	dative	боукъвиbukŭvi	боукъвамаbukŭvama	боукъвамъbukŭvamŭ
-book	accusative	боукъвьbukŭvĭ	боукъвиbukŭvi	боукъвиbukŭvi
-book	instrumental	боукъвьѭ, боукъвиѭbukŭvĭjǫ, bukŭvijǫ	боукъвамаbukŭvama	боукъвамиbukŭvami
-book	locative	боукъвеbukŭve	боукъвоуbukŭvu	боукъвахъbukŭvaxŭ
-book	vocative	боукꙑbuky	боукъвиbukŭvi	боукъвиbukŭvi
-brother		singular	dual	plural
-brother	nominative	братр{{{2}}}ъbratr{{{2}}}ŭ	братр{{{2}}}аbratr{{{2}}}a	братр{{{2}}}иbratr{{{2}}}i
-brother	genitive	братр{{{2}}}аbratr{{{2}}}a	братр{{{2}}}оуbratr{{{2}}}u	братр{{{2}}}ъbratr{{{2}}}ŭ
-brother	dative	братр{{{2}}}оу, братр{{{2}}}овиbratr{{{2}}}u, bratr{{{2}}}ovi	братр{{{2}}}омаbratr{{{2}}}oma	братр{{{2}}}омъbratr{{{2}}}omŭ
-brother	accusative	братр{{{2}}}ъ, братр{{{2}}}аbratr{{{2}}}ŭ, bratr{{{2}}}a	братр{{{2}}}аbratr{{{2}}}a	братр{{{2}}}ꙑbratr{{{2}}}y
-brother	instrumental	братр{{{2}}}омъbratr{{{2}}}omŭ	братр{{{2}}}омаbratr{{{2}}}oma	братр{{{2}}}ꙑbratr{{{2}}}y
-brother	locative	братр{{{2}}}ѣbratr{{{2}}}ě	братр{{{2}}}оуbratr{{{2}}}u	братр{{{2}}}ѣхъbratr{{{2}}}ěxŭ
-brother	vocative	братр{{{2}}}еbratr{{{2}}}e	братр{{{2}}}аbratr{{{2}}}a	братр{{{2}}}иbratr{{{2}}}i
-clothing		singular	dual	plural
-clothing	nominative	одеждаodežda	одеждиodeždi	одеждѧodeždę
-clothing	genitive	одеждѧodeždę	одеждоуodeždu	одеждьodeždĭ
-clothing	dative	одеждиodeždi	одеждамаodeždama	одеждамъodeždamŭ
-clothing	accusative	одеждѫodeždǫ	одеждиodeždi	одеждѧodeždę
-clothing	instrumental	одеждеѭodeždejǫ	одеждамаodeždama	одеждамиodeždami
-clothing	locative	одеждиodeždi	одеждоуodeždu	одеждахъodeždaxŭ
-clothing	vocative	одеждеodežde	одеждиodeždi	одеждѧodeždę
-daughter		singular	dual	plural
-daughter	nominative	дъщиdŭšti	дъщериdŭšteri	дъщериdŭšteri
-daughter	genitive	дъщереdŭštere	дъщероуdŭšteru	дъщеръdŭšterŭ
-daughter	dative	дъщериdŭšteri	дъщерьмаdŭšterĭma	дъщерьмъdŭšterĭmŭ
-daughter	accusative	дъщерьdŭšterĭ	дъщериdŭšteri	дъщериdŭšteri
-daughter	instrumental	дъщерьѭdŭšterĭjǫ	дъщерьмаdŭšterĭma	дъщерьмиdŭšterĭmi
-daughter	locative	дъщериdŭšteri	дъщероуdŭšteru	дъщерьхъdŭšterĭxŭ
-daughter	vocative	дъщиdŭšti	дъщериdŭšteri	дъщериdŭšteri
-dog		singular	dual	plural
-dog	nominative	пьсъpĭsŭ	пьсаpĭsa	пьсиpĭsi
-dog	genitive	пьсаpĭsa	пьсоуpĭsu	пьсъpĭsŭ
-dog	dative	пьсоу, пьсовиpĭsu, pĭsovi	пьсомаpĭsoma	пьсомъpĭsomŭ
-dog	accusative	пьсъ, пьсаpĭsŭ, pĭsa	пьсаpĭsa	пьсꙑpĭsy
-dog	instrumental	пьсомъpĭsomŭ	пьсомаpĭsoma	пьсꙑpĭsy
-dog	locative	пьсѣpĭsě	пьсоуpĭsu	пьсѣхъpĭsěxŭ
-dog	vocative	пьсеpĭse	пьсаpĭsa	пьсиpĭsi
-door		singular	dual	plural
-door	nominative	двьрьdvĭrĭ	двьриdvĭri	двьриdvĭri
-door	genitive	двьриdvĭri	двьрью, двьриюdvĭrĭju, dvĭriju	двьрьи, двьрииdvĭrĭi, dvĭrii
-door	dative	двьриdvĭri	двьрьмаdvĭrĭma	двьрьмъdvĭrĭmŭ
-door	accusative	двьрьdvĭrĭ	двьриdvĭri	двьриdvĭri
-door	instrumental	двьрьѭ, двьриѭdvĭrĭjǫ, dvĭrijǫ	двьрьмаdvĭrĭma	двьрьмиdvĭrĭmi
-door	locative	двьриdvĭri	двьрью, двьриюdvĭrĭju, dvĭriju	двьрьхъdvĭrĭxŭ
-door	vocative	двьриdvĭri	двьриdvĭri	двьрьѥ, двьриѥdvĭrĭje, dvĭrije
-enemy		singular	dual	plural
-enemy	nominative	врагъvragŭ	врагаvraga	враѕиvradzi
-enemy	genitive	врагаvraga	врагоуvragu	врагъvragŭ
-enemy	dative	врагоу, враговиvragu, vragovi	врагомаvragoma	врагомъvragomŭ
-enemy	accusative	врагъ, врагаvragŭ, vraga	врагаvraga	врагꙑvragy
-enemy	instrumental	врагомъvragomŭ	врагомаvragoma	врагꙑvragy
-enemy	locative	враѕѣvradzě	врагоуvragu	враѕѣхъvradzěxŭ
-enemy	vocative	вражеvraže	врагаvraga	враѕиvradzi
-horse		singular	dual	plural
-horse	nominative	коньkonĭ	кониkoni	коньѥ, кониѥkonĭje, konije
-horse	genitive	кониkoni	конью, кониюkonĭju, koniju	коньи, конииkonĭi, konii
-horse	dative	кониkoni	коньмаkonĭma	коньмъkonĭmŭ
-horse	accusative	коньkonĭ	кониkoni	кониkoni
-horse	instrumental	коньмьkonĭmĭ	коньмаkonĭma	коньмиkonĭmi
-horse	locative	кониkoni	конью, кониюkonĭju, koniju	коньхъkonĭxŭ
-horse	vocative	кониkoni	кониkoni	коньѥ, кониѥkonĭje, konije
-horse		singular	dual	plural
-horse	nominative	кон҄ьkonʹĭ	кон҄аkonʹa	кон҄иkonʹi
-horse	genitive	кон҄аkonʹa	кон҄оуkonʹu	кон҄ьkonʹĭ
-horse	dative	кон҄оу, кон҄евиkonʹu, konʹevi	кон҄емаkonʹema	кон҄емъkonʹemŭ
-horse	accusative	кон҄ь, кон҄аkonʹĭ, konʹa	кон҄аkonʹa	кон҄ѧkonʹę
-horse	instrumental	кон҄емьkonʹemĭ	кон҄емаkonʹema	кон҄иkonʹi
-horse	locative	кон҄иkonʹi	кон҄оуkonʹu	кон҄ихъkonʹixŭ
-horse	vocative	кон҄оуkonʹu	кон҄аkonʹa	кон҄иkonʹi
-house		singular	dual	plural
-house	nominative	домъdomŭ	домꙑdomy	домовеdomove
-house	genitive	домоуdomu	домовоуdomovu	домовъdomovŭ
-house	dative	домовиdomovi	домъмаdomŭma	домъмъdomŭmŭ
-house	accusative	домъdomŭ	домꙑdomy	домꙑdomy
-house	instrumental	домъмьdomŭmĭ	домъмаdomŭma	домъмиdomŭmi
-house	locative	домоуdomu	домовоуdomovu	домъхъdomŭxŭ
-house	vocative	домоуdomu	домꙑdomy	домовеdomove
-love		singular	dual	plural
-love	nominative	любꙑljuby	любъвиljubŭvi	любъвиljubŭvi
-love	genitive	любъвеljubŭve	любъвоуljubŭvu	любъвъljubŭvŭ
-love	dative	любъвиljubŭvi	любъвамаljubŭvama	любъвамъljubŭvamŭ
-love	accusative	любъвьljubŭvĭ	любъвиljubŭvi	любъвиljubŭvi
-love	instrumental	любъвьѭ, любъвиѭljubŭvĭjǫ, ljubŭvijǫ	любъвамаljubŭvama	любъвамиljubŭvami
-love	locative	любъвеljubŭve	любъвоуljubŭvu	любъвахъljubŭvaxŭ
-love	vocative	любꙑljuby	любъвиljubŭvi	любъвиljubŭvi
-man		singular	dual	plural
-man	nominative	мѫжьmǫžĭ	мѫжаmǫža	мѫжиmǫži
-man	genitive	мѫжаmǫža	мѫжоуmǫžu	мѫжьmǫžĭ
-man	dative	мѫжоу, мѫжевиmǫžu, mǫževi	мѫжемаmǫžema	мѫжемъmǫžemŭ
-man	accusative	мѫжь, мѫжаmǫžĭ, mǫža	мѫжаmǫža	мѫжѧmǫžę
-man	instrumental	мѫжемьmǫžemĭ	мѫжемаmǫžema	мѫжиmǫži
-man	locative	мѫжиmǫži	мѫжоуmǫžu	мѫжихъmǫžixŭ
-man	vocative	мѫжоуmǫžu	мѫжаmǫža	мѫжиmǫži
-money		singular	dual	plural
-money	nominative	пѣнѧѕьpěnędzĭ	пѣнѧѕаpěnędza	пѣнѧѕиpěnędzi
-money	genitive	пѣнѧѕаpěnędza	пѣнѧѕоуpěnędzu	пѣнѧѕьpěnędzĭ
-money	dative	пѣнѧѕоуpěnędzu	пѣнѧѕемаpěnędzema	пѣнѧѕемъpěnędzemŭ
-money	accusative	пѣнѧѕьpěnędzĭ	пѣнѧѕаpěnędza	пѣнѧѕѧpěnędzę
-money	instrumental	пѣнѧѕемьpěnędzemĭ	пѣнѧѕемаpěnędzema	пѣнѧѕиpěnędzi
-money	locative	пѣнѧѕиpěnędzi	пѣнѧѕоуpěnędzu	пѣнѧѕихъpěnędzixŭ
-money	vocative	пѣнѧжеpěnęže	пѣнѧѕаpěnędza	пѣнѧѕиpěnędzi
-monster		singular	dual	plural
-monster	nominative	звѣрьzvěrĭ	звѣриzvěri	звѣрьѥ, звѣриѥzvěrĭje, zvěrije
-monster	genitive	звѣриzvěri	звѣрью, звѣриюzvěrĭju, zvěriju	звѣрьи, звѣрииzvěrĭi, zvěrii
-monster	dative	звѣриzvěri	звѣрьмаzvěrĭma	звѣрьмъzvěrĭmŭ
-monster	accusative	звѣрьzvěrĭ	звѣриzvěri	звѣриzvěri
-monster	instrumental	звѣрьмьzvěrĭmĭ	звѣрьмаzvěrĭma	звѣрьмиzvěrĭmi
-monster	locative	звѣриzvěri	звѣрью, звѣриюzvěrĭju, zvěriju	звѣрьхъzvěrĭxŭ
-monster	vocative	звѣриzvěri	звѣриzvěri	звѣрьѥ, звѣриѥzvěrĭje, zvěrije
-rock		singular	dual	plural
-rock	nominative	камꙑkamy	камениkameni	каменеkamene
-rock	genitive	каменеkamene	каменоуkamenu	каменъkamenŭ
-rock	dative	камениkameni	каменьмаkamenĭma	каменьмъkamenĭmŭ
-rock	accusative	каменьkamenĭ	камениkameni	камениkameni
-rock	instrumental	каменьмьkamenĭmĭ	каменьмаkamenĭma	каменьмиkamenĭmi
-rock	locative	каменеkamene	каменоуkamenu	каменьхъkamenĭxŭ
-rock	vocative	камꙑkamy	камениkameni	каменеkamene
-rope		singular	dual	plural
-rope	nominative	ѫжеǫže	ѫжиǫži	ѫжаǫža
-rope	genitive	ѫжаǫža	ѫжоуǫžu	ѫжьǫžĭ
-rope	dative	ѫжоуǫžu	ѫжемаǫžema	ѫжемъǫžemŭ
-rope	accusative	ѫжеǫže	ѫжиǫži	ѫжаǫža
-rope	instrumental	ѫжемьǫžemĭ	ѫжемаǫžema	ѫжиǫži
-rope	locative	ѫжиǫži	ѫжоуǫžu	ѫжихъǫžixŭ
-rope	vocative	ѫжеǫže	ѫжиǫži	ѫжаǫža
-son		singular	dual	plural
-son	nominative	сꙑнъsynŭ	сꙑнꙑsyny	сꙑновеsynove
-son	genitive	сꙑноуsynu	сꙑновоуsynovu	сꙑновъsynovŭ
-son	dative	сꙑновиsynovi	сꙑнъмаsynŭma	сꙑнъмъsynŭmŭ
-son	accusative	сꙑнъsynŭ	сꙑнꙑsyny	сꙑнꙑsyny
-son	instrumental	сꙑнъмьsynŭmĭ	сꙑнъмаsynŭma	сꙑнъмиsynŭmi
-son	locative	сꙑноуsynu	сꙑновоуsynovu	сꙑнъхъsynŭxŭ
-son	vocative	сꙑноуsynu	сꙑнꙑsyny	сꙑновеsynove
-son		singular	dual	plural
-son	nominative	сꙑнъsynŭ	сꙑнꙑsyny	сꙑновеsynove
-son	genitive	сꙑноуsynu	сꙑновоуsynovu	сꙑновъsynovŭ
-son	dative	сꙑновиsynovi	сꙑнъмаsynŭma	сꙑнъмъsynŭmŭ
-son	accusative	сꙑнъsynŭ	сꙑнꙑsyny	сꙑнꙑsyny
-son	instrumental	сꙑнъмьsynŭmĭ	сꙑнъмаsynŭma	сꙑнъмиsynŭmi
-son	locative	сꙑноуsynu	сꙑновоуsynovu	сꙑнъхъsynŭxŭ
-son	vocative	сꙑноуsynu	сꙑнꙑsyny	сꙑновеsynove
-water		singular	dual	plural
-water	nominative	водаvoda	водѣvodě	водꙑvody
-water	genitive	водꙑvody	водоуvodu	водъvodŭ
-water	dative	водѣvodě	водамаvodama	водамъvodamŭ
-water	accusative	водѫvodǫ	водѣvodě	водꙑvody
-water	instrumental	водоѭvodojǫ	водамаvodama	водамиvodami
-water	locative	водѣvodě	водоуvodu	водахъvodaxŭ
-water	vocative	водоvodo	водѣvodě	водꙑvody
-way		singular	dual	plural
-way	nominative	пѫтьpǫtĭ	пѫтиpǫti	пѫтьѥ, пѫтиѥpǫtĭje, pǫtije
-way	genitive	пѫтиpǫti	пѫтью, пѫтиюpǫtĭju, pǫtiju	пѫтьи, пѫтииpǫtĭi, pǫtii
-way	dative	пѫтиpǫti	пѫтьмаpǫtĭma	пѫтьмъpǫtĭmŭ
-way	accusative	пѫтьpǫtĭ	пѫтиpǫti	пѫтиpǫti
-way	instrumental	пѫтьмьpǫtĭmĭ	пѫтьмаpǫtĭma	пѫтьмиpǫtĭmi
-way	locative	пѫтиpǫti	пѫтью, пѫтиюpǫtĭju, pǫtiju	пѫтьхъpǫtĭxŭ
-way	vocative	пѫтиpǫti	пѫтиpǫti	пѫтьѥ, пѫтиѥpǫtĭje, pǫtije
-wind		singular	dual	plural
-wind	nominative	вѣтръvětrŭ	вѣтраvětra	вѣтриvětri
-wind	genitive	вѣтраvětra	вѣтроуvětru	вѣтръvětrŭ
-wind	dative	вѣтроуvětru	вѣтромаvětroma	вѣтромъvětromŭ
-wind	accusative	вѣтръvětrŭ	вѣтраvětra	вѣтрꙑvětry
-wind	instrumental	вѣтромъvětromŭ	вѣтромаvětroma	вѣтрꙑvětry
-wind	locative	вѣтрѣvětrě	вѣтроуvětru	вѣтрѣхъvětrěxŭ
-wind	vocative	вѣтреvětre	вѣтраvětra	вѣтриvětri
-woman		singular	dual	plural
-woman	nominative	женаžena	женѣženě	женꙑženy
-woman	genitive	женꙑženy	женоуženu	женъženŭ
-woman	dative	женѣženě	женамаženama	женамъženamŭ
-woman	accusative	женѫženǫ	женѣženě	женꙑženy
-woman	instrumental	женоѭženojǫ	женамаženama	женамиženami
-woman	locative	женѣženě	женоуženu	женахъženaxŭ
-woman	vocative	женоženo	женѣženě	женꙑženy
-work		singular	dual	plural
-work	nominative	работаrabota	работѣrabotě	работꙑraboty
-work	genitive	работꙑraboty	работоуrabotu	работъrabotŭ
-work	dative	работѣrabotě	работамаrabotama	работамъrabotamŭ
-work	accusative	работѫrabotǫ	работѣrabotě	работꙑraboty
-work	instrumental	работоѭrabotojǫ	работамаrabotama	работамиrabotami
-work	locative	работѣrabotě	работоуrabotu	работахъrabotaxŭ
-work	vocative	работоraboto	работѣrabotě	работꙑraboty
+thought			singular		dual		plural	
+thought	nominative		мꙑсль ()	myslĭ	мꙑсли ()	mysli	мꙑсли ()	mysli
+thought	genitive		мꙑсли ()	mysli	мꙑслью, мꙑслию ()	myslĭju, mysliju	мꙑсльи, мꙑслии ()	myslĭi, myslii
+thought	dative		мꙑсли ()	mysli	мꙑсльма ()	myslĭma	мꙑсльмъ ()	myslĭmŭ
+thought	accusative		мꙑсль ()	myslĭ	мꙑсли ()	mysli	мꙑсли ()	mysli
+thought	instrumental		мꙑсльѭ, мꙑслиѭ ()	myslĭjǫ, myslijǫ	мꙑсльма ()	myslĭma	мꙑсльми ()	myslĭmi
+thought	locative		мꙑсли ()	mysli	мꙑслью, мꙑслию ()	myslĭju, mysliju	мꙑсльхъ ()	myslĭxŭ
+thought	vocative		мꙑсли ()	mysli	мꙑсли ()	mysli	мꙑсльѥ, мꙑслиѥ ()	myslĭje, myslije
+thought			singular		dual		plural	
+thought	nominative		мꙑсль ()	myslĭ	мꙑсли ()	mysli	мꙑсли ()	mysli
+thought	genitive		мꙑсли ()	mysli	мꙑслью, мꙑслию ()	myslĭju, mysliju	мꙑсльи, мꙑслии ()	myslĭi, myslii
+thought	dative		мꙑсли ()	mysli	мꙑсльма ()	myslĭma	мꙑсльмъ ()	myslĭmŭ
+thought	accusative		мꙑсль ()	myslĭ	мꙑсли ()	mysli	мꙑсли ()	mysli
+thought	instrumental		мꙑсльѭ, мꙑслиѭ ()	myslĭjǫ, myslijǫ	мꙑсльма ()	myslĭma	мꙑсльми ()	myslĭmi
+thought	locative		мꙑсли ()	mysli	мꙑслью, мꙑслию ()	myslĭju, mysliju	мꙑсльхъ ()	myslĭxŭ
+thought	vocative		мꙑсли ()	mysli	мꙑсли ()	mysli	мꙑсльѥ, мꙑслиѥ ()	myslĭje, myslije
+thought			singular		dual		plural	
+thought	nominative		мꙑсль ()	myslĭ	мꙑсли ()	mysli	мꙑсли ()	mysli
+thought	genitive		мꙑсли ()	mysli	мꙑслью, мꙑслию ()	myslĭju, mysliju	мꙑсльи, мꙑслии ()	myslĭi, myslii
+thought	dative		мꙑсли ()	mysli	мꙑсльма ()	myslĭma	мꙑсльмъ ()	myslĭmŭ
+thought	accusative		мꙑсль ()	myslĭ	мꙑсли ()	mysli	мꙑсли ()	mysli
+thought	instrumental		мꙑсльѭ, мꙑслиѭ ()	myslĭjǫ, myslijǫ	мꙑсльма ()	myslĭma	мꙑсльми ()	myslĭmi
+thought	locative		мꙑсли ()	mysli	мꙑслью, мꙑслию ()	myslĭju, mysliju	мꙑсльхъ ()	myslĭxŭ
+thought	vocative		мꙑсли ()	mysli	мꙑсли ()	mysli	мꙑсльѥ, мꙑслиѥ ()	myslĭje, myslije
+bird			singular		dual		plural	
+bird	nominative		пътица ()	pŭtica	пътици ()	pŭtici	пътицѧ ()	pŭticę
+bird	genitive		пътицѧ ()	pŭticę	пътицоу ()	pŭticu	пътиць ()	pŭticĭ
+bird	dative		пътици ()	pŭtici	пътицама ()	pŭticama	пътицамъ ()	pŭticamŭ
+bird	accusative		пътицѫ ()	pŭticǫ	пътици ()	pŭtici	пътицѧ ()	pŭticę
+bird	instrumental		пътицеѭ ()	pŭticejǫ	пътицама ()	pŭticama	пътицами ()	pŭticami
+bird	locative		пътици ()	pŭtici	пътицоу ()	pŭticu	пътицахъ ()	pŭticaxŭ
+bird	vocative		пътице ()	pŭtice	пътици ()	pŭtici	пътицѧ ()	pŭticę
+bridge			singular		dual		plural	
+bridge	nominative		мостъ ()	mostŭ	моста ()	mosta	мости ()	mosti
+bridge	genitive		моста ()	mosta	мостоу ()	mostu	мостъ ()	mostŭ
+bridge	dative		мостоу ()	mostu	мостома ()	mostoma	мостомъ ()	mostomŭ
+bridge	accusative		мостъ ()	mostŭ	моста ()	mosta	мостꙑ ()	mosty
+bridge	instrumental		мостомъ ()	mostomŭ	мостома ()	mostoma	мостꙑ ()	mosty
+bridge	locative		мостѣ ()	mostě	мостоу ()	mostu	мостѣхъ ()	mostěxŭ
+bridge	vocative		мосте ()	moste	моста ()	mosta	мости ()	mosti
+sparrow			singular		dual		plural	
+sparrow	nominative		врабии ()	vrabii	врабии ()	vrabii	врабиѩ ()	vrabiję
+sparrow	genitive		врабиѩ ()	vrabiję	врабию ()	vrabiju	врабии ()	vrabii
+sparrow	dative		врабии ()	vrabii	врабиꙗма ()	vrabijama	врабиꙗмъ ()	vrabijamŭ
+sparrow	accusative		врабиѭ ()	vrabijǫ	врабии ()	vrabii	врабиѩ ()	vrabiję
+sparrow	instrumental		врабиѥѭ ()	vrabijejǫ	врабиꙗма ()	vrabijama	врабиꙗми ()	vrabijami
+sparrow	locative		врабии ()	vrabii	врабию ()	vrabiju	врабиꙗхъ ()	vrabijaxŭ
+sparrow	vocative		врабиѥ ()	vrabije	врабии ()	vrabii	врабиѩ ()	vrabiję
+eagle			singular		dual		plural	
+eagle	nominative		орьлъ ()	orĭlŭ	орьла ()	orĭla	орьли ()	orĭli
+eagle	genitive		орьла ()	orĭla	орьлоу ()	orĭlu	орьлъ ()	orĭlŭ
+eagle	dative		орьлоу ()	orĭlu	орьлома ()	orĭloma	орьломъ ()	orĭlomŭ
+eagle	accusative		орьлъ ()	orĭlŭ	орьла ()	orĭla	орьлꙑ ()	orĭly
+eagle	instrumental		орьломъ ()	orĭlomŭ	орьлома ()	orĭloma	орьлꙑ ()	orĭly
+eagle	locative		орьлѣ ()	orĭlě	орьлоу ()	orĭlu	орьлѣхъ ()	orĭlěxŭ
+eagle	vocative		орьле ()	orĭle	орьла ()	orĭla	орьли ()	orĭli
+pigeon			singular		dual		plural	
+pigeon	nominative		голѫбь ()	golǫbĭ	голѫби ()	golǫbi	голѫбьѥ, голѫбиѥ ()	golǫbĭje, golǫbije
+pigeon	genitive		голѫби ()	golǫbi	голѫбью, голѫбию ()	golǫbĭju, golǫbiju	голѫбьи, голѫбии ()	golǫbĭi, golǫbii
+pigeon	dative		голѫби ()	golǫbi	голѫбьма ()	golǫbĭma	голѫбьмъ ()	golǫbĭmŭ
+pigeon	accusative		голѫбь ()	golǫbĭ	голѫби ()	golǫbi	голѫби ()	golǫbi
+pigeon	instrumental		голѫбьмь ()	golǫbĭmĭ	голѫбьма ()	golǫbĭma	голѫбьми ()	golǫbĭmi
+pigeon	locative		голѫби ()	golǫbi	голѫбью, голѫбию ()	golǫbĭju, golǫbiju	голѫбьхъ ()	golǫbĭxŭ
+pigeon	vocative		голѫби ()	golǫbi	голѫби ()	golǫbi	голѫбьѥ, голѫбиѥ ()	golǫbĭje, golǫbije
+child			singular		dual		plural	
+child	nominative		чѧдо ()	čędo	чѧдѣ ()	čędě	чѧда ()	čęda
+child	genitive		чѧда ()	čęda	чѧдоу ()	čędu	чѧдъ ()	čędŭ
+child	dative		чѧдоу ()	čędu	чѧдома ()	čędoma	чѧдомъ ()	čędomŭ
+child	accusative		чѧдо ()	čędo	чѧдѣ ()	čędě	чѧда ()	čęda
+child	instrumental		чѧдомъ ()	čędomŭ	чѧдома ()	čędoma	чѧдꙑ ()	čędy
+child	locative		чѧдѣ ()	čędě	чѧдоу ()	čędu	чѧдѣхъ ()	čęděxŭ
+child	vocative		чѧдо ()	čędo	чѧдѣ ()	čędě	чѧда ()	čęda
+child			singular		dual		plural	
+child	nominative		дѣтѧ ()	dětę	дѣтѧтѣ ()	dětętě	дѣтѧта ()	dětęta
+child	genitive		дѣтѧте ()	dětęte	дѣтѧтоу ()	dětętu	дѣтѧтъ ()	dětętŭ
+child	dative		дѣтѧти ()	dětęti	дѣтѧтьма ()	dětętĭma	дѣтѧтьмъ ()	dětętĭmŭ
+child	accusative		дѣтѧ ()	dětę	дѣтѧтѣ ()	dětętě	дѣтѧта ()	dětęta
+child	instrumental		дѣтѧтьмь ()	dětętĭmĭ	дѣтѧтьма ()	dětętĭma	дѣтѧтꙑ ()	dětęty
+child	locative		дѣтѧте ()	dětęte	дѣтѧтоу ()	dětętu	дѣтѧтьхъ ()	dětętĭxŭ
+child	vocative		дѣтѧ ()	dětę	дѣтѧтѣ ()	dětętě	дѣтѧта ()	dětęta
+egg			singular		dual		plural	
+egg	nominative		аице ()	aice	аици ()	aici	аица ()	aica
+egg	genitive		аица ()	aica	аицоу ()	aicu	аиць ()	aicĭ
+egg	dative		аицоу ()	aicu	аицема ()	aicema	аицемъ ()	aicemŭ
+egg	accusative		аице ()	aice	аици ()	aici	аица ()	aica
+egg	instrumental		аицемь ()	aicemĭ	аицема ()	aicema	аици ()	aici
+egg	locative		аици ()	aici	аицоу ()	aicu	аицихъ ()	aicixŭ
+egg	vocative		аице ()	aice	аици ()	aici	аица ()	aica
+nest			singular		dual		plural	
+nest	nominative		гнѣздо ()	gnězdo	гнѣздѣ ()	gnězdě	гнѣзда ()	gnězda
+nest	genitive		гнѣзда ()	gnězda	гнѣздоу ()	gnězdu	гнѣздъ ()	gnězdŭ
+nest	dative		гнѣздоу ()	gnězdu	гнѣздома ()	gnězdoma	гнѣздомъ ()	gnězdomŭ
+nest	accusative		гнѣздо ()	gnězdo	гнѣздѣ ()	gnězdě	гнѣзда ()	gnězda
+nest	instrumental		гнѣздомъ ()	gnězdomŭ	гнѣздома ()	gnězdoma	гнѣздꙑ ()	gnězdy
+nest	locative		гнѣздѣ ()	gnězdě	гнѣздоу ()	gnězdu	гнѣздѣхъ ()	gnězděxŭ
+nest	vocative		гнѣздо ()	gnězdo	гнѣздѣ ()	gnězdě	гнѣзда ()	gnězda
+tree			singular		dual		plural	
+tree	nominative		дрѣво ()	drěvo	дрѣвесѣ ()	drěvesě	дрѣвеса ()	drěvesa
+tree	genitive		дрѣвесе ()	drěvese	дрѣвесоу ()	drěvesu	дрѣвесъ ()	drěvesŭ
+tree	dative		дрѣвеси ()	drěvesi	дрѣвесьма ()	drěvesĭma	дрѣвесьмъ ()	drěvesĭmŭ
+tree	accusative		дрѣво ()	drěvo	дрѣвесѣ ()	drěvesě	дрѣвеса ()	drěvesa
+tree	instrumental		дрѣвесьмь ()	drěvesĭmĭ	дрѣвесьма ()	drěvesĭma	дрѣвесꙑ ()	drěvesy
+tree	locative		дрѣвесе ()	drěvese	дрѣвесоу ()	drěvesu	дрѣвесьхъ ()	drěvesĭxŭ
+tree	vocative		дрѣво ()	drěvo	дрѣвесѣ ()	drěvesě	дрѣвеса ()	drěvesa
+boat			singular		dual		plural	
+boat	nominative		ладии ()	ladii	ладии ()	ladii	ладиѩ ()	ladiję
+boat	genitive		ладиѩ ()	ladiję	ладию ()	ladiju	ладии ()	ladii
+boat	dative		ладии ()	ladii	ладиꙗма ()	ladijama	ладиꙗмъ ()	ladijamŭ
+boat	accusative		ладиѭ ()	ladijǫ	ладии ()	ladii	ладиѩ ()	ladiję
+boat	instrumental		ладиѥѭ ()	ladijejǫ	ладиꙗма ()	ladijama	ладиꙗми ()	ladijami
+boat	locative		ладии ()	ladii	ладию ()	ladiju	ладиꙗхъ ()	ladijaxŭ
+boat	vocative		ладиѥ ()	ladije	ладии ()	ladii	ладиѩ ()	ladiję
+boat			singular		dual		plural	
+boat	nominative		алъдии ()	alŭdii	алъдии ()	alŭdii	алъдиѩ ()	alŭdiję
+boat	genitive		алъдиѩ ()	alŭdiję	алъдию ()	alŭdiju	алъдии ()	alŭdii
+boat	dative		алъдии ()	alŭdii	алъдиꙗма ()	alŭdijama	алъдиꙗмъ ()	alŭdijamŭ
+boat	accusative		алъдиѭ ()	alŭdijǫ	алъдии ()	alŭdii	алъдиѩ ()	alŭdiję
+boat	instrumental		алъдиѥѭ ()	alŭdijejǫ	алъдиꙗма ()	alŭdijama	алъдиꙗми ()	alŭdijami
+boat	locative		алъдии ()	alŭdii	алъдию ()	alŭdiju	алъдиꙗхъ ()	alŭdijaxŭ
+boat	vocative		алъдиѥ ()	alŭdije	алъдии ()	alŭdii	алъдиѩ ()	alŭdiję
+book			singular		dual		plural	
+book	nominative		боукꙑ ()	buky	боукъви ()	bukŭvi	боукъви ()	bukŭvi
+book	genitive		боукъве ()	bukŭve	боукъвоу ()	bukŭvu	боукъвъ ()	bukŭvŭ
+book	dative		боукъви ()	bukŭvi	боукъвама ()	bukŭvama	боукъвамъ ()	bukŭvamŭ
+book	accusative		боукъвь ()	bukŭvĭ	боукъви ()	bukŭvi	боукъви ()	bukŭvi
+book	instrumental		боукъвьѭ, боукъвиѭ ()	bukŭvĭjǫ, bukŭvijǫ	боукъвама ()	bukŭvama	боукъвами ()	bukŭvami
+book	locative		боукъве ()	bukŭve	боукъвоу ()	bukŭvu	боукъвахъ ()	bukŭvaxŭ
+book	vocative		боукꙑ ()	buky	боукъви ()	bukŭvi	боукъви ()	bukŭvi
+book			singular		dual		plural	
+book	nominative		-		-		кън҄игꙑ ()	kŭnʹigy
+book	genitive		-		-		кън҄игъ ()	kŭnʹigŭ
+book	dative		-		-		кън҄игамъ ()	kŭnʹigamŭ
+book	accusative		-		-		кън҄игꙑ ()	kŭnʹigy
+book	instrumental		-		-		кън҄игами ()	kŭnʹigami
+book	locative		-		-		кън҄игахъ ()	kŭnʹigaxŭ
+book	vocative		-		-		кън҄игꙑ ()	kŭnʹigy
+louse			singular		dual		plural	
+louse	nominative		въшь ()	vŭšĭ	въши ()	vŭši	въши ()	vŭši
+louse	genitive		въши ()	vŭši	въшью, въшию ()	vŭšĭju, vŭšiju	въшьи, въшии ()	vŭšĭi, vŭšii
+louse	dative		въши ()	vŭši	въшьма ()	vŭšĭma	въшьмъ ()	vŭšĭmŭ
+louse	accusative		въшь ()	vŭšĭ	въши ()	vŭši	въши ()	vŭši
+louse	instrumental		въшьѭ, въшиѭ ()	vŭšĭjǫ, vŭšijǫ	въшьма ()	vŭšĭma	въшьми ()	vŭšĭmi
+louse	locative		въши ()	vŭši	въшью, въшию ()	vŭšĭju, vŭšiju	въшьхъ ()	vŭšĭxŭ
+louse	vocative		въши ()	vŭši	въши ()	vŭši	въшьѥ, въшиѥ ()	vŭšĭje, vŭšije
+clothing			singular		dual		plural	
+clothing	nominative		одежда ()	odežda	одежди ()	odeždi	одеждѧ ()	odeždę
+clothing	genitive		одеждѧ ()	odeždę	одеждоу ()	odeždu	одеждь ()	odeždĭ
+clothing	dative		одежди ()	odeždi	одеждама ()	odeždama	одеждамъ ()	odeždamŭ
+clothing	accusative		одеждѫ ()	odeždǫ	одежди ()	odeždi	одеждѧ ()	odeždę
+clothing	instrumental		одеждеѭ ()	odeždejǫ	одеждама ()	odeždama	одеждами ()	odeždami
+clothing	locative		одежди ()	odeždi	одеждоу ()	odeždu	одеждахъ ()	odeždaxŭ
+clothing	vocative		одежде ()	odežde	одежди ()	odeždi	одеждѧ ()	odeždę
+dog			singular		dual		plural	
+dog	nominative		пьсъ ()	pĭsŭ	пьса ()	pĭsa	пьси ()	pĭsi
+dog	genitive		пьса ()	pĭsa	пьсоу ()	pĭsu	пьсъ ()	pĭsŭ
+dog	dative		пьсоу, пьсови ()	pĭsu, pĭsovi	пьсома ()	pĭsoma	пьсомъ ()	pĭsomŭ
+dog	accusative		пьсъ, пьса ()	pĭsŭ, pĭsa	пьса ()	pĭsa	пьсꙑ ()	pĭsy
+dog	instrumental		пьсомъ ()	pĭsomŭ	пьсома ()	pĭsoma	пьсꙑ ()	pĭsy
+dog	locative		пьсѣ ()	pĭsě	пьсоу ()	pĭsu	пьсѣхъ ()	pĭsěxŭ
+dog	vocative		пьсе ()	pĭse	пьса ()	pĭsa	пьси ()	pĭsi
+door			singular		dual		plural	
+door	nominative		двьрь ()	dvĭrĭ	двьри ()	dvĭri	двьри ()	dvĭri
+door	genitive		двьри ()	dvĭri	двьрью, двьрию ()	dvĭrĭju, dvĭriju	двьрьи, двьрии ()	dvĭrĭi, dvĭrii
+door	dative		двьри ()	dvĭri	двьрьма ()	dvĭrĭma	двьрьмъ ()	dvĭrĭmŭ
+door	accusative		двьрь ()	dvĭrĭ	двьри ()	dvĭri	двьри ()	dvĭri
+door	instrumental		двьрьѭ, двьриѭ ()	dvĭrĭjǫ, dvĭrijǫ	двьрьма ()	dvĭrĭma	двьрьми ()	dvĭrĭmi
+door	locative		двьри ()	dvĭri	двьрью, двьрию ()	dvĭrĭju, dvĭriju	двьрьхъ ()	dvĭrĭxŭ
+door	vocative		двьри ()	dvĭri	двьри ()	dvĭri	двьрьѥ, двьриѥ ()	dvĭrĭje, dvĭrije
+door			singular		dual		plural	
+door	nominative		-		-		врата ()	vrata
+door	genitive		-		-		вратъ ()	vratŭ
+door	dative		-		-		вратомъ ()	vratomŭ
+door	accusative		-		-		врата ()	vrata
+door	instrumental		-		-		вратꙑ ()	vraty
+door	locative		-		-		вратѣхъ ()	vratěxŭ
+door	vocative		-		-		врата ()	vrata
+enemy			singular		dual		plural	
+enemy	nominative		врагъ ()	vragŭ	врага ()	vraga	враѕи ()	vradzi
+enemy	genitive		врага ()	vraga	врагоу ()	vragu	врагъ ()	vragŭ
+enemy	dative		врагоу, врагови ()	vragu, vragovi	врагома ()	vragoma	врагомъ ()	vragomŭ
+enemy	accusative		врагъ, врага ()	vragŭ, vraga	врага ()	vraga	врагꙑ ()	vragy
+enemy	instrumental		врагомъ ()	vragomŭ	врагома ()	vragoma	врагꙑ ()	vragy
+enemy	locative		враѕѣ ()	vradzě	врагоу ()	vragu	враѕѣхъ ()	vradzěxŭ
+enemy	vocative		враже ()	vraže	врага ()	vraga	враѕи ()	vradzi
+fish			singular		dual		plural	
+fish	nominative		рꙑба ()	ryba	рꙑбѣ ()	rybě	рꙑбꙑ ()	ryby
+fish	genitive		рꙑбꙑ ()	ryby	рꙑбоу ()	rybu	рꙑбъ ()	rybŭ
+fish	dative		рꙑбѣ ()	rybě	рꙑбама ()	rybama	рꙑбамъ ()	rybamŭ
+fish	accusative		рꙑбѫ ()	rybǫ	рꙑбѣ ()	rybě	рꙑбꙑ ()	ryby
+fish	instrumental		рꙑбоѭ ()	rybojǫ	рꙑбама ()	rybama	рꙑбами ()	rybami
+fish	locative		рꙑбѣ ()	rybě	рꙑбоу ()	rybu	рꙑбахъ ()	rybaxŭ
+fish	vocative		рꙑбо ()	rybo	рꙑбѣ ()	rybě	рꙑбꙑ ()	ryby
+fire			singular		dual		plural	
+fire	nominative		огн҄ь ()	ognʹĭ	огн҄и ()	ognʹi	огн҄ьѥ, огн҄иѥ ()	ognʹĭje, ognʹije
+fire	genitive		огн҄и ()	ognʹi	огн҄ью, огн҄ию ()	ognʹĭju, ognʹiju	огн҄ьи, огн҄ии ()	ognʹĭi, ognʹii
+fire	dative		огн҄и ()	ognʹi	огн҄ьма ()	ognʹĭma	огн҄ьмъ ()	ognʹĭmŭ
+fire	accusative		огн҄ь ()	ognʹĭ	огн҄и ()	ognʹi	огн҄и ()	ognʹi
+fire	instrumental		огн҄ьмь ()	ognʹĭmĭ	огн҄ьма ()	ognʹĭma	огн҄ьми ()	ognʹĭmi
+fire	locative		огн҄и ()	ognʹi	огн҄ью, огн҄ию ()	ognʹĭju, ognʹiju	огн҄ьхъ ()	ognʹĭxŭ
+fire	vocative		огн҄и ()	ognʹi	огн҄и ()	ognʹi	огн҄ьѥ, огн҄иѥ ()	ognʹĭje, ognʹije
+forest			singular		dual		plural	
+forest	nominative		лѣсъ ()	lěsŭ	лѣса ()	lěsa	лѣси ()	lěsi
+forest	genitive		лѣса ()	lěsa	лѣсоу ()	lěsu	лѣсъ ()	lěsŭ
+forest	dative		лѣсоу ()	lěsu	лѣсома ()	lěsoma	лѣсомъ ()	lěsomŭ
+forest	accusative		лѣсъ ()	lěsŭ	лѣса ()	lěsa	лѣсꙑ ()	lěsy
+forest	instrumental		лѣсомъ ()	lěsomŭ	лѣсома ()	lěsoma	лѣсꙑ ()	lěsy
+forest	locative		лѣсѣ ()	lěsě	лѣсоу ()	lěsu	лѣсѣхъ ()	lěsěxŭ
+forest	vocative		лѣсе ()	lěse	лѣса ()	lěsa	лѣси ()	lěsi
+forest			singular		dual		plural	
+forest	nominative		дрѧзга ()	dręzga	дрѧзѕѣ ()	dręzdzě	дрѧзгꙑ ()	dręzgy
+forest	genitive		дрѧзгꙑ ()	dręzgy	дрѧзгоу ()	dręzgu	дрѧзгъ ()	dręzgŭ
+forest	dative		дрѧзѕѣ ()	dręzdzě	дрѧзгама ()	dręzgama	дрѧзгамъ ()	dręzgamŭ
+forest	accusative		дрѧзгѫ ()	dręzgǫ	дрѧзѕѣ ()	dręzdzě	дрѧзгꙑ ()	dręzgy
+forest	instrumental		дрѧзгоѭ ()	dręzgojǫ	дрѧзгама ()	dręzgama	дрѧзгами ()	dręzgami
+forest	locative		дрѧзѕѣ ()	dręzdzě	дрѧзгоу ()	dręzgu	дрѧзгахъ ()	dręzgaxŭ
+forest	vocative		дрѧзго ()	dręzgo	дрѧзѕѣ ()	dręzdzě	дрѧзгꙑ ()	dręzgy
+hill			singular		dual		plural	
+hill	nominative		брѣгъ ()	brěgŭ	брѣга ()	brěga	брѣѕи ()	brědzi
+hill	genitive		брѣга ()	brěga	брѣгоу ()	brěgu	брѣгъ ()	brěgŭ
+hill	dative		брѣгоу ()	brěgu	брѣгома ()	brěgoma	брѣгомъ ()	brěgomŭ
+hill	accusative		брѣгъ ()	brěgŭ	брѣга ()	brěga	брѣгꙑ ()	brěgy
+hill	instrumental		брѣгомъ ()	brěgomŭ	брѣгома ()	brěgoma	брѣгꙑ ()	brěgy
+hill	locative		брѣѕѣ ()	brědzě	брѣгоу ()	brěgu	брѣѕѣхъ ()	brědzěxŭ
+hill	vocative		брѣже ()	brěže	брѣга ()	brěga	брѣѕи ()	brědzi
+horse			singular		dual		plural	
+horse	nominative		конь ()	konĭ	кони ()	koni	коньѥ, кониѥ ()	konĭje, konije
+horse	genitive		кони ()	koni	конью, конию ()	konĭju, koniju	коньи, конии ()	konĭi, konii
+horse	dative		кони ()	koni	коньма ()	konĭma	коньмъ ()	konĭmŭ
+horse	accusative		конь ()	konĭ	кони ()	koni	кони ()	koni
+horse	instrumental		коньмь ()	konĭmĭ	коньма ()	konĭma	коньми ()	konĭmi
+horse	locative		кони ()	koni	конью, конию ()	konĭju, koniju	коньхъ ()	konĭxŭ
+horse	vocative		кони ()	koni	кони ()	koni	коньѥ, кониѥ ()	konĭje, konije
+horse			singular		dual		plural	
+horse	nominative		кон҄ь ()	konʹĭ	кон҄а ()	konʹa	кон҄и ()	konʹi
+horse	genitive		кон҄а ()	konʹa	кон҄оу ()	konʹu	кон҄ь ()	konʹĭ
+horse	dative		кон҄оу, кон҄еви ()	konʹu, konʹevi	кон҄ема ()	konʹema	кон҄емъ ()	konʹemŭ
+horse	accusative		кон҄ь, кон҄а ()	konʹĭ, konʹa	кон҄а ()	konʹa	кон҄ѧ ()	konʹę
+horse	instrumental		кон҄емь ()	konʹemĭ	кон҄ема ()	konʹema	кон҄и ()	konʹi
+horse	locative		кон҄и ()	konʹi	кон҄оу ()	konʹu	кон҄ихъ ()	konʹixŭ
+horse	vocative		кон҄оу ()	konʹu	кон҄а ()	konʹa	кон҄и ()	konʹi
+house			singular		dual		plural	
+house	nominative		домъ ()	domŭ	домꙑ ()	domy	домове ()	domove
+house	genitive		домоу ()	domu	домовоу ()	domovu	домовъ ()	domovŭ
+house	dative		домови ()	domovi	домъма ()	domŭma	домъмъ ()	domŭmŭ
+house	accusative		домъ ()	domŭ	домꙑ ()	domy	домꙑ ()	domy
+house	instrumental		домъмь ()	domŭmĭ	домъма ()	domŭma	домъми ()	domŭmi
+house	locative		домоу ()	domu	домовоу ()	domovu	домъхъ ()	domŭxŭ
+house	vocative		домоу ()	domu	домꙑ ()	domy	домове ()	domove
+love			singular		dual		plural	
+love	nominative		любꙑ ()	ljuby	любъви ()	ljubŭvi	любъви ()	ljubŭvi
+love	genitive		любъве ()	ljubŭve	любъвоу ()	ljubŭvu	любъвъ ()	ljubŭvŭ
+love	dative		любъви ()	ljubŭvi	любъвама ()	ljubŭvama	любъвамъ ()	ljubŭvamŭ
+love	accusative		любъвь ()	ljubŭvĭ	любъви ()	ljubŭvi	любъви ()	ljubŭvi
+love	instrumental		любъвьѭ, любъвиѭ ()	ljubŭvĭjǫ, ljubŭvijǫ	любъвама ()	ljubŭvama	любъвами ()	ljubŭvami
+love	locative		любъве ()	ljubŭve	любъвоу ()	ljubŭvu	любъвахъ ()	ljubŭvaxŭ
+love	vocative		любꙑ ()	ljuby	любъви ()	ljubŭvi	любъви ()	ljubŭvi
+money			singular		dual		plural	
+money	nominative		пѣнѧѕь ()	pěnędzĭ	пѣнѧѕа ()	pěnędza	пѣнѧѕи ()	pěnędzi
+money	genitive		пѣнѧѕа ()	pěnędza	пѣнѧѕоу ()	pěnędzu	пѣнѧѕь ()	pěnędzĭ
+money	dative		пѣнѧѕоу ()	pěnędzu	пѣнѧѕема ()	pěnędzema	пѣнѧѕемъ ()	pěnędzemŭ
+money	accusative		пѣнѧѕь ()	pěnędzĭ	пѣнѧѕа ()	pěnędza	пѣнѧѕѧ ()	pěnędzę
+money	instrumental		пѣнѧѕемь ()	pěnędzemĭ	пѣнѧѕема ()	pěnędzema	пѣнѧѕи ()	pěnędzi
+money	locative		пѣнѧѕи ()	pěnędzi	пѣнѧѕоу ()	pěnędzu	пѣнѧѕихъ ()	pěnędzixŭ
+money	vocative		пѣнѧже ()	pěnęže	пѣнѧѕа ()	pěnędza	пѣнѧѕи ()	pěnędzi
+coin			singular		dual		plural	
+coin	nominative		цѧта ()	cęta	цѧтѣ ()	cętě	цѧтꙑ ()	cęty
+coin	genitive		цѧтꙑ ()	cęty	цѧтоу ()	cętu	цѧтъ ()	cętŭ
+coin	dative		цѧтѣ ()	cętě	цѧтама ()	cętama	цѧтамъ ()	cętamŭ
+coin	accusative		цѧтѫ ()	cętǫ	цѧтѣ ()	cętě	цѧтꙑ ()	cęty
+coin	instrumental		цѧтоѭ ()	cętojǫ	цѧтама ()	cętama	цѧтами ()	cętami
+coin	locative		цѧтѣ ()	cętě	цѧтоу ()	cętu	цѧтахъ ()	cętaxŭ
+coin	vocative		цѧто ()	cęto	цѧтѣ ()	cętě	цѧтꙑ ()	cęty
+beast			singular		dual		plural	
+beast	nominative		звѣрь ()	zvěrĭ	звѣри ()	zvěri	звѣрьѥ, звѣриѥ ()	zvěrĭje, zvěrije
+beast	genitive		звѣри ()	zvěri	звѣрью, звѣрию ()	zvěrĭju, zvěriju	звѣрьи, звѣрии ()	zvěrĭi, zvěrii
+beast	dative		звѣри ()	zvěri	звѣрьма ()	zvěrĭma	звѣрьмъ ()	zvěrĭmŭ
+beast	accusative		звѣрь ()	zvěrĭ	звѣри ()	zvěri	звѣри ()	zvěri
+beast	instrumental		звѣрьмь ()	zvěrĭmĭ	звѣрьма ()	zvěrĭma	звѣрьми ()	zvěrĭmi
+beast	locative		звѣри ()	zvěri	звѣрью, звѣрию ()	zvěrĭju, zvěriju	звѣрьхъ ()	zvěrĭxŭ
+beast	vocative		звѣри ()	zvěri	звѣри ()	zvěri	звѣрьѥ, звѣриѥ ()	zvěrĭje, zvěrije
+name			singular		dual		plural	
+name	nominative		имѧ ()	imę	именѣ ()	imeně	имена ()	imena
+name	genitive		имене ()	imene	именоу ()	imenu	именъ ()	imenŭ
+name	dative		имени ()	imeni	именьма ()	imenĭma	именьмъ ()	imenĭmŭ
+name	accusative		имѧ ()	imę	именѣ ()	imeně	имена ()	imena
+name	instrumental		именьмь ()	imenĭmĭ	именьма ()	imenĭma	именꙑ ()	imeny
+name	locative		имене ()	imene	именоу ()	imenu	именьхъ ()	imenĭxŭ
+name	vocative		имѧ ()	imę	именѣ ()	imeně	имена ()	imena
+stone			singular		dual		plural	
+stone	nominative		камꙑ ()	kamy	камени ()	kameni	камене ()	kamene
+stone	genitive		камене ()	kamene	каменоу ()	kamenu	каменъ ()	kamenŭ
+stone	dative		камени ()	kameni	каменьма ()	kamenĭma	каменьмъ ()	kamenĭmŭ
+stone	accusative		камень ()	kamenĭ	камени ()	kameni	камени ()	kameni
+stone	instrumental		каменьмь ()	kamenĭmĭ	каменьма ()	kamenĭma	каменьми ()	kamenĭmi
+stone	locative		камене ()	kamene	каменоу ()	kamenu	каменьхъ ()	kamenĭxŭ
+stone	vocative		камꙑ ()	kamy	камени ()	kameni	камене ()	kamene
+stone			singular		dual		plural	
+stone	nominative		камꙑ ()	kamy	камени ()	kameni	камене ()	kamene
+stone	genitive		камене ()	kamene	каменоу ()	kamenu	каменъ ()	kamenŭ
+stone	dative		камени ()	kameni	каменьма ()	kamenĭma	каменьмъ ()	kamenĭmŭ
+stone	accusative		камень ()	kamenĭ	камени ()	kameni	камени ()	kameni
+stone	instrumental		каменьмь ()	kamenĭmĭ	каменьма ()	kamenĭma	каменьми ()	kamenĭmi
+stone	locative		камене ()	kamene	каменоу ()	kamenu	каменьхъ ()	kamenĭxŭ
+stone	vocative		камꙑ ()	kamy	камени ()	kameni	камене ()	kamene
+rope			singular		dual		plural	
+rope	nominative		ѫже ()	ǫže	ѫжи ()	ǫži	ѫжа ()	ǫža
+rope	genitive		ѫжа ()	ǫža	ѫжоу ()	ǫžu	ѫжь ()	ǫžĭ
+rope	dative		ѫжоу ()	ǫžu	ѫжема ()	ǫžema	ѫжемъ ()	ǫžemŭ
+rope	accusative		ѫже ()	ǫže	ѫжи ()	ǫži	ѫжа ()	ǫža
+rope	instrumental		ѫжемь ()	ǫžemĭ	ѫжема ()	ǫžema	ѫжи ()	ǫži
+rope	locative		ѫжи ()	ǫži	ѫжоу ()	ǫžu	ѫжихъ ()	ǫžixŭ
+rope	vocative		ѫже ()	ǫže	ѫжи ()	ǫži	ѫжа ()	ǫža
+tool			singular		dual		plural	
+tool	nominative		орѫдиѥ ()	orǫdije	орѫдии ()	orǫdii	орѫдиꙗ ()	orǫdija
+tool	genitive		орѫдиꙗ ()	orǫdija	орѫдию ()	orǫdiju	орѫдии ()	orǫdii
+tool	dative		орѫдию ()	orǫdiju	орѫдиема ()	orǫdijema	орѫдиемъ ()	orǫdijemŭ
+tool	accusative		орѫдиѥ ()	orǫdije	орѫдии ()	orǫdii	орѫдиꙗ ()	orǫdija
+tool	instrumental		орѫдиемь ()	orǫdijemĭ	орѫдиема ()	orǫdijema	орѫдии ()	orǫdii
+tool	locative		орѫдии ()	orǫdii	орѫдию ()	orǫdiju	орѫдиихъ ()	orǫdiixŭ
+tool	vocative		орѫдиѥ ()	orǫdije	орѫдии ()	orǫdii	орѫдиꙗ ()	orǫdija
+water			singular		dual		plural	
+water	nominative		вода ()	voda	водѣ ()	vodě	водꙑ ()	vody
+water	genitive		водꙑ ()	vody	водоу ()	vodu	водъ ()	vodŭ
+water	dative		водѣ ()	vodě	водама ()	vodama	водамъ ()	vodamŭ
+water	accusative		водѫ ()	vodǫ	водѣ ()	vodě	водꙑ ()	vody
+water	instrumental		водоѭ ()	vodojǫ	водама ()	vodama	водами ()	vodami
+water	locative		водѣ ()	vodě	водоу ()	vodu	водахъ ()	vodaxŭ
+water	vocative		водо ()	vodo	водѣ ()	vodě	водꙑ ()	vody
+way			singular		dual		plural	
+way	nominative		пѫть ()	pǫtĭ	пѫти ()	pǫti	пѫтьѥ, пѫтиѥ ()	pǫtĭje, pǫtije
+way	genitive		пѫти ()	pǫti	пѫтью, пѫтию ()	pǫtĭju, pǫtiju	пѫтьи, пѫтии ()	pǫtĭi, pǫtii
+way	dative		пѫти ()	pǫti	пѫтьма ()	pǫtĭma	пѫтьмъ ()	pǫtĭmŭ
+way	accusative		пѫть ()	pǫtĭ	пѫти ()	pǫti	пѫти ()	pǫti
+way	instrumental		пѫтьмь ()	pǫtĭmĭ	пѫтьма ()	pǫtĭma	пѫтьми ()	pǫtĭmi
+way	locative		пѫти ()	pǫti	пѫтью, пѫтию ()	pǫtĭju, pǫtiju	пѫтьхъ ()	pǫtĭxŭ
+way	vocative		пѫти ()	pǫti	пѫти ()	pǫti	пѫтьѥ, пѫтиѥ ()	pǫtĭje, pǫtije
+way			singular		dual		plural	
+way	nominative		цѣста ()	cěsta	цѣстѣ ()	cěstě	цѣстꙑ ()	cěsty
+way	genitive		цѣстꙑ ()	cěsty	цѣстоу ()	cěstu	цѣстъ ()	cěstŭ
+way	dative		цѣстѣ ()	cěstě	цѣстама ()	cěstama	цѣстамъ ()	cěstamŭ
+way	accusative		цѣстѫ ()	cěstǫ	цѣстѣ ()	cěstě	цѣстꙑ ()	cěsty
+way	instrumental		цѣстоѭ ()	cěstojǫ	цѣстама ()	cěstama	цѣстами ()	cěstami
+way	locative		цѣстѣ ()	cěstě	цѣстоу ()	cěstu	цѣстахъ ()	cěstaxŭ
+way	vocative		цѣсто ()	cěsto	цѣстѣ ()	cěstě	цѣстꙑ ()	cěsty
+way			singular		dual		plural	
+way	nominative		ⱂⱘⱅⱐ ()	pǫtĭ	ⱂⱘⱅⰻ ()	pǫti	ⱂⱘⱅⱐⰵ, ⱂⱘⱅⰻⰵ ()	pǫtĭe, pǫtie
+way	genitive		ⱂⱘⱅⰻ ()	pǫti	ⱂⱘⱅⱐⱓ, ⱂⱘⱅⰻⱓ ()	pǫtĭju, pǫtiju	ⱂⱘⱅⱐⰻ, ⱂⱘⱅⰻⰻ ()	pǫtĭi, pǫtii
+way	dative		ⱂⱘⱅⰻ ()	pǫti	ⱂⱘⱅⱐⰿⰰ ()	pǫtĭma	ⱂⱘⱅⱐⰿⱏ ()	pǫtĭmŭ
+way	accusative		ⱂⱘⱅⱐ ()	pǫtĭ	ⱂⱘⱅⰻ ()	pǫti	ⱂⱘⱅⰻ ()	pǫti
+way	instrumental		ⱂⱘⱅⱐⰿⱐ ()	pǫtĭmĭ	ⱂⱘⱅⱐⰿⰰ ()	pǫtĭma	ⱂⱘⱅⱐⰿⰻ ()	pǫtĭmi
+way	locative		ⱂⱘⱅⰻ ()	pǫti	ⱂⱘⱅⱐⱓ, ⱂⱘⱅⰻⱓ ()	pǫtĭju, pǫtiju	ⱂⱘⱅⱐⱈⱏ ()	pǫtĭxŭ
+way	vocative		ⱂⱘⱅⰻ ()	pǫti	ⱂⱘⱅⰻ ()	pǫti	ⱂⱘⱅⱐⰵ, ⱂⱘⱅⰻⰵ ()	pǫtĭe, pǫtie
+wind			singular		dual		plural	
+wind	nominative		вѣтръ ()	větrŭ	вѣтра ()	větra	вѣтри ()	větri
+wind	genitive		вѣтра ()	větra	вѣтроу ()	větru	вѣтръ ()	větrŭ
+wind	dative		вѣтроу ()	větru	вѣтрома ()	větroma	вѣтромъ ()	větromŭ
+wind	accusative		вѣтръ ()	větrŭ	вѣтра ()	větra	вѣтрꙑ ()	větry
+wind	instrumental		вѣтромъ ()	větromŭ	вѣтрома ()	větroma	вѣтрꙑ ()	větry
+wind	locative		вѣтрѣ ()	větrě	вѣтроу ()	větru	вѣтрѣхъ ()	větrěxŭ
+wind	vocative		вѣтре ()	větre	вѣтра ()	větra	вѣтри ()	větri
+wolf			singular		dual		plural	
+wolf	nominative		влькъ ()	vlĭkŭ	влька ()	vlĭka	вльци ()	vlĭci
+wolf	genitive		влька ()	vlĭka	влькоу ()	vlĭku	влькъ ()	vlĭkŭ
+wolf	dative		влькоу, влькови ()	vlĭku, vlĭkovi	влькома ()	vlĭkoma	влькомъ ()	vlĭkomŭ
+wolf	accusative		влькъ, влька ()	vlĭkŭ, vlĭka	влька ()	vlĭka	влькꙑ ()	vlĭky
+wolf	instrumental		влькомъ ()	vlĭkomŭ	влькома ()	vlĭkoma	влькꙑ ()	vlĭky
+wolf	locative		вльцѣ ()	vlĭcě	влькоу ()	vlĭku	вльцѣхъ ()	vlĭcěxŭ
+wolf	vocative		вльче ()	vlĭče	влька ()	vlĭka	вльци ()	vlĭci
+work			singular		dual		plural	
+work	nominative		работа ()	rabota	работѣ ()	rabotě	работꙑ ()	raboty
+work	genitive		работꙑ ()	raboty	работоу ()	rabotu	работъ ()	rabotŭ
+work	dative		работѣ ()	rabotě	работама ()	rabotama	работамъ ()	rabotamŭ
+work	accusative		работѫ ()	rabotǫ	работѣ ()	rabotě	работꙑ ()	raboty
+work	instrumental		работоѭ ()	rabotojǫ	работама ()	rabotama	работами ()	rabotami
+work	locative		работѣ ()	rabotě	работоу ()	rabotu	работахъ ()	rabotaxŭ
+work	vocative		работо ()	raboto	работѣ ()	rabotě	работꙑ ()	raboty
+work			singular		dual		plural	
+work	nominative		троудъ ()	trudŭ	троуда ()	truda	троуди ()	trudi
+work	genitive		троуда ()	truda	троудоу ()	trudu	троудъ ()	trudŭ
+work	dative		троудоу ()	trudu	троудома ()	trudoma	троудомъ ()	trudomŭ
+work	accusative		троудъ ()	trudŭ	троуда ()	truda	троудꙑ ()	trudy
+work	instrumental		троудомъ ()	trudomŭ	троудома ()	trudoma	троудꙑ ()	trudy
+work	locative		троудѣ ()	trudě	троудоу ()	trudu	троудѣхъ ()	truděxŭ
+work	vocative		троуде ()	trude	троуда ()	truda	троуди ()	trudi
+worm			singular		dual		plural	
+worm	nominative		чрьвь ()	črĭvĭ	чрьви ()	črĭvi	чрьвьѥ, чрьвиѥ ()	črĭvĭje, črĭvije
+worm	genitive		чрьви ()	črĭvi	чрьвью, чрьвию ()	črĭvĭju, črĭviju	чрьвьи, чрьвии ()	črĭvĭi, črĭvii
+worm	dative		чрьви ()	črĭvi	чрьвьма ()	črĭvĭma	чрьвьмъ ()	črĭvĭmŭ
+worm	accusative		чрьвь ()	črĭvĭ	чрьви ()	črĭvi	чрьви ()	črĭvi
+worm	instrumental		чрьвьмь ()	črĭvĭmĭ	чрьвьма ()	črĭvĭma	чрьвьми ()	črĭvĭmi
+worm	locative		чрьви ()	črĭvi	чрьвью, чрьвию ()	črĭvĭju, črĭviju	чрьвьхъ ()	črĭvĭxŭ
+worm	vocative		чрьви ()	črĭvi	чрьви ()	črĭvi	чрьвьѥ, чрьвиѥ ()	črĭvĭje, črĭvije
+language			singular		dual		plural	
+language	nominative		ѩзꙑкъ ()	językŭ	ѩзꙑка ()	języka	ѩзꙑци ()	języci
+language	genitive		ѩзꙑка ()	języka	ѩзꙑкоу ()	języku	ѩзꙑкъ ()	językŭ
+language	dative		ѩзꙑкоу, ѩзꙑкови ()	języku, językovi	ѩзꙑкома ()	językoma	ѩзꙑкомъ ()	językomŭ
+language	accusative		ѩзꙑкъ, ѩзꙑка ()	językŭ, języka	ѩзꙑка ()	języka	ѩзꙑкꙑ ()	języky
+language	instrumental		ѩзꙑкомъ ()	językomŭ	ѩзꙑкома ()	językoma	ѩзꙑкꙑ ()	języky
+language	locative		ѩзꙑцѣ ()	języcě	ѩзꙑкоу ()	języku	ѩзꙑцѣхъ ()	języcěxŭ
+language	vocative		ѩзꙑче ()	języče	ѩзꙑка ()	języka	ѩзꙑци ()	języci
+language			singular		dual		plural	
+language	nominative		млъва ()	mlŭva	млъвѣ ()	mlŭvě	млъвꙑ ()	mlŭvy
+language	genitive		млъвꙑ ()	mlŭvy	млъвоу ()	mlŭvu	млъвъ ()	mlŭvŭ
+language	dative		млъвѣ ()	mlŭvě	млъвама ()	mlŭvama	млъвамъ ()	mlŭvamŭ
+language	accusative		млъвѫ ()	mlŭvǫ	млъвѣ ()	mlŭvě	млъвꙑ ()	mlŭvy
+language	instrumental		млъвоѭ ()	mlŭvojǫ	млъвама ()	mlŭvama	млъвами ()	mlŭvami
+language	locative		млъвѣ ()	mlŭvě	млъвоу ()	mlŭvu	млъвахъ ()	mlŭvaxŭ
+language	vocative		млъво ()	mlŭvo	млъвѣ ()	mlŭvě	млъвꙑ ()	mlŭvy
+town			singular		dual		plural	
+town	nominative		градъ ()	gradŭ	града ()	grada	гради ()	gradi
+town	genitive		града ()	grada	градоу ()	gradu	градъ ()	gradŭ
+town	dative		градоу ()	gradu	градома ()	gradoma	градомъ ()	gradomŭ
+town	accusative		градъ ()	gradŭ	града ()	grada	градꙑ ()	grady
+town	instrumental		градомъ ()	gradomŭ	градома ()	gradoma	градꙑ ()	grady
+town	locative		градѣ ()	gradě	градоу ()	gradu	градѣхъ ()	graděxŭ
+town	vocative		граде ()	grade	града ()	grada	гради ()	gradi
+town			singular		dual		plural	
+town	nominative		градъ ()	gradŭ	-		-	
+town	genitive		града ()	grada	-		-	
+town	dative		градоу ()	gradu	-		-	
+town	accusative		градъ ()	gradŭ	-		-	
+town	instrumental		градомъ ()	gradomŭ	-		-	
+town	locative		градѣ ()	gradě	-		-	
+town	vocative		граде ()	grade	-		-	
+town			singular		dual		plural	
+town	nominative		мѣсто ()	město	мѣстѣ ()	městě	мѣста ()	města
+town	genitive		мѣста ()	města	мѣстоу ()	městu	мѣстъ ()	městŭ
+town	dative		мѣстоу ()	městu	мѣстома ()	městoma	мѣстомъ ()	městomŭ
+town	accusative		мѣсто ()	město	мѣстѣ ()	městě	мѣста ()	města
+town	instrumental		мѣстомъ ()	městomŭ	мѣстома ()	městoma	мѣстꙑ ()	městy
+town	locative		мѣстѣ ()	městě	мѣстоу ()	městu	мѣстѣхъ ()	městěxŭ
+town	vocative		мѣсто ()	město	мѣстѣ ()	městě	мѣста ()	města
+river			singular		dual		plural	
+river	nominative		рѣка ()	rěka	рѣцѣ ()	rěcě	рѣкꙑ ()	rěky
+river	genitive		рѣкꙑ ()	rěky	рѣкоу ()	rěku	рѣкъ ()	rěkŭ
+river	dative		рѣцѣ ()	rěcě	рѣкама ()	rěkama	рѣкамъ ()	rěkamŭ
+river	accusative		рѣкѫ ()	rěkǫ	рѣцѣ ()	rěcě	рѣкꙑ ()	rěky
+river	instrumental		рѣкоѭ ()	rěkojǫ	рѣкама ()	rěkama	рѣками ()	rěkami
+river	locative		рѣцѣ ()	rěcě	рѣкоу ()	rěku	рѣкахъ ()	rěkaxŭ
+river	vocative		рѣко ()	rěko	рѣцѣ ()	rěcě	рѣкꙑ ()	rěky
+summer			singular		dual		plural	
+summer	nominative		лѣто ()	lěto	лѣтѣ ()	lětě	лѣта ()	lěta
+summer	genitive		лѣта ()	lěta	лѣтоу ()	lětu	лѣтъ ()	lětŭ
+summer	dative		лѣтоу ()	lětu	лѣтома ()	lětoma	лѣтомъ ()	lětomŭ
+summer	accusative		лѣто ()	lěto	лѣтѣ ()	lětě	лѣта ()	lěta
+summer	instrumental		лѣтомъ ()	lětomŭ	лѣтома ()	lětoma	лѣтꙑ ()	lěty
+summer	locative		лѣтѣ ()	lětě	лѣтоу ()	lětu	лѣтѣхъ ()	lětěxŭ
+summer	vocative		лѣто ()	lěto	лѣтѣ ()	lětě	лѣта ()	lěta
+spring			singular		dual		plural	
+spring	nominative		весна ()	vesna	веснѣ ()	vesně	веснꙑ ()	vesny
+spring	genitive		веснꙑ ()	vesny	весноу ()	vesnu	веснъ ()	vesnŭ
+spring	dative		веснѣ ()	vesně	веснама ()	vesnama	веснамъ ()	vesnamŭ
+spring	accusative		веснѫ ()	vesnǫ	веснѣ ()	vesně	веснꙑ ()	vesny
+spring	instrumental		весноѭ ()	vesnojǫ	веснама ()	vesnama	веснами ()	vesnami
+spring	locative		веснѣ ()	vesně	весноу ()	vesnu	веснахъ ()	vesnaxŭ
+spring	vocative		весно ()	vesno	веснѣ ()	vesně	веснꙑ ()	vesny
+autumn			singular		dual		plural	
+autumn	nominative		ѥсень ()	jesenĭ	ѥсени ()	jeseni	ѥсени ()	jeseni
+autumn	genitive		ѥсени ()	jeseni	ѥсенью, ѥсению ()	jesenĭju, jeseniju	ѥсеньи, ѥсении ()	jesenĭi, jesenii
+autumn	dative		ѥсени ()	jeseni	ѥсеньма ()	jesenĭma	ѥсеньмъ ()	jesenĭmŭ
+autumn	accusative		ѥсень ()	jesenĭ	ѥсени ()	jeseni	ѥсени ()	jeseni
+autumn	instrumental		ѥсеньѭ, ѥсениѭ ()	jesenĭjǫ, jesenijǫ	ѥсеньма ()	jesenĭma	ѥсеньми ()	jesenĭmi
+autumn	locative		ѥсени ()	jeseni	ѥсенью, ѥсению ()	jesenĭju, jeseniju	ѥсеньхъ ()	jesenĭxŭ
+autumn	vocative		ѥсени ()	jeseni	ѥсени ()	jeseni	ѥсеньѥ, ѥсениѥ ()	jesenĭje, jesenije
+winter			singular		dual		plural	
+winter	nominative		зима ()	zima	зимѣ ()	zimě	зимꙑ ()	zimy
+winter	genitive		зимꙑ ()	zimy	зимоу ()	zimu	зимъ ()	zimŭ
+winter	dative		зимѣ ()	zimě	зимама ()	zimama	зимамъ ()	zimamŭ
+winter	accusative		зимѫ ()	zimǫ	зимѣ ()	zimě	зимꙑ ()	zimy
+winter	instrumental		зимоѭ ()	zimojǫ	зимама ()	zimama	зимами ()	zimami
+winter	locative		зимѣ ()	zimě	зимоу ()	zimu	зимахъ ()	zimaxŭ
+winter	vocative		зимо ()	zimo	зимѣ ()	zimě	зимꙑ ()	zimy
+year			singular		dual		plural	
+year	nominative		годъ ()	godŭ	года ()	goda	годи ()	godi
+year	genitive		года ()	goda	годоу ()	godu	годъ ()	godŭ
+year	dative		годоу ()	godu	годома ()	godoma	годомъ ()	godomŭ
+year	accusative		годъ ()	godŭ	года ()	goda	годꙑ ()	gody
+year	instrumental		годомъ ()	godomŭ	годома ()	godoma	годꙑ ()	gody
+year	locative		годѣ ()	godě	годоу ()	godu	годѣхъ ()	goděxŭ
+year	vocative		годе ()	gode	года ()	goda	годи ()	godi
+year			singular		dual		plural	
+year	nominative		рокъ ()	rokŭ	рока ()	roka	роци ()	roci
+year	genitive		рока ()	roka	рокоу ()	roku	рокъ ()	rokŭ
+year	dative		рокоу ()	roku	рокома ()	rokoma	рокомъ ()	rokomŭ
+year	accusative		рокъ ()	rokŭ	рока ()	roka	рокꙑ ()	roky
+year	instrumental		рокомъ ()	rokomŭ	рокома ()	rokoma	рокꙑ ()	roky
+year	locative		роцѣ ()	rocě	рокоу ()	roku	роцѣхъ ()	rocěxŭ
+year	vocative		роче ()	roče	рока ()	roka	роци ()	roci
+year			singular		dual		plural	
+year	nominative		лѣто ()	lěto	лѣтѣ ()	lětě	лѣта ()	lěta
+year	genitive		лѣта ()	lěta	лѣтоу ()	lětu	лѣтъ ()	lětŭ
+year	dative		лѣтоу ()	lětu	лѣтома ()	lětoma	лѣтомъ ()	lětomŭ
+year	accusative		лѣто ()	lěto	лѣтѣ ()	lětě	лѣта ()	lěta
+year	instrumental		лѣтомъ ()	lětomŭ	лѣтома ()	lětoma	лѣтꙑ ()	lěty
+year	locative		лѣтѣ ()	lětě	лѣтоу ()	lětu	лѣтѣхъ ()	lětěxŭ
+year	vocative		лѣто ()	lěto	лѣтѣ ()	lětě	лѣта ()	lěta
+day			singular		dual		plural	
+day	nominative		дьнь ()	dĭnĭ	дьни ()	dĭni	дьньѥ, дьниѥ ()	dĭnĭje, dĭnije
+day	genitive		дьни ()	dĭni	дьнью, дьнию ()	dĭnĭju, dĭniju	дьньи, дьнии ()	dĭnĭi, dĭnii
+day	dative		дьни ()	dĭni	дьньма ()	dĭnĭma	дьньмъ ()	dĭnĭmŭ
+day	accusative		дьнь ()	dĭnĭ	дьни ()	dĭni	дьни ()	dĭni
+day	instrumental		дьньмь ()	dĭnĭmĭ	дьньма ()	dĭnĭma	дьньми ()	dĭnĭmi
+day	locative		дьни ()	dĭni	дьнью, дьнию ()	dĭnĭju, dĭniju	дьньхъ ()	dĭnĭxŭ
+day	vocative		дьни ()	dĭni	дьни ()	dĭni	дьньѥ, дьниѥ ()	dĭnĭje, dĭnije
+day			singular		dual		plural	
+day	nominative		дьнь ()	dĭnĭ	дьни ()	dĭni	дьньѥ, дьниѥ ()	dĭnĭje, dĭnije
+day	genitive		дьни ()	dĭni	дьнью, дьнию ()	dĭnĭju, dĭniju	дьньи, дьнии ()	dĭnĭi, dĭnii
+day	dative		дьни ()	dĭni	дьньма ()	dĭnĭma	дьньмъ ()	dĭnĭmŭ
+day	accusative		дьнь ()	dĭnĭ	дьни ()	dĭni	дьни ()	dĭni
+day	instrumental		дьньмь ()	dĭnĭmĭ	дьньма ()	dĭnĭma	дьньми ()	dĭnĭmi
+day	locative		дьни ()	dĭni	дьнью, дьнию ()	dĭnĭju, dĭniju	дьньхъ ()	dĭnĭxŭ
+day	vocative		дьни ()	dĭni	дьни ()	dĭni	дьньѥ, дьниѥ ()	dĭnĭje, dĭnije
+moon			singular		dual		plural	
+moon	nominative		мѣсѧць ()	měsęcĭ	мѣсѧца ()	měsęca	мѣсѧци ()	měsęci
+moon	genitive		мѣсѧца ()	měsęca	мѣсѧцоу ()	měsęcu	мѣсѧць ()	měsęcĭ
+moon	dative		мѣсѧцоу ()	měsęcu	мѣсѧцема ()	měsęcema	мѣсѧцемъ ()	měsęcemŭ
+moon	accusative		мѣсѧць ()	měsęcĭ	мѣсѧца ()	měsęca	мѣсѧцѧ ()	měsęcę
+moon	instrumental		мѣсѧцемь ()	měsęcemĭ	мѣсѧцема ()	měsęcema	мѣсѧци ()	měsęci
+moon	locative		мѣсѧци ()	měsęci	мѣсѧцоу ()	měsęcu	мѣсѧцихъ ()	měsęcixŭ
+moon	vocative		мѣсѧче ()	měsęče	мѣсѧца ()	měsęca	мѣсѧци ()	měsęci
+sun			singular		dual		plural	
+sun	nominative		слъньце ()	slŭnĭce	слъньци ()	slŭnĭci	слъньца ()	slŭnĭca
+sun	genitive		слъньца ()	slŭnĭca	слъньцоу ()	slŭnĭcu	слъньць ()	slŭnĭcĭ
+sun	dative		слъньцоу ()	slŭnĭcu	слъньцема ()	slŭnĭcema	слъньцемъ ()	slŭnĭcemŭ
+sun	accusative		слъньце ()	slŭnĭce	слъньци ()	slŭnĭci	слъньца ()	slŭnĭca
+sun	instrumental		слъньцемь ()	slŭnĭcemĭ	слъньцема ()	slŭnĭcema	слъньци ()	slŭnĭci
+sun	locative		слъньци ()	slŭnĭci	слъньцоу ()	slŭnĭcu	слъньцихъ ()	slŭnĭcixŭ
+sun	vocative		слъньце ()	slŭnĭce	слъньци ()	slŭnĭci	слъньца ()	slŭnĭca
+planet			singular		dual		plural	
+planet	nominative		планита ()	planita	планитѣ ()	planitě	планитꙑ ()	planity
+planet	genitive		планитꙑ ()	planity	планитоу ()	planitu	планитъ ()	planitŭ
+planet	dative		планитѣ ()	planitě	планитама ()	planitama	планитамъ ()	planitamŭ
+planet	accusative		планитѫ ()	planitǫ	планитѣ ()	planitě	планитꙑ ()	planity
+planet	instrumental		планитоѭ ()	planitojǫ	планитама ()	planitama	планитами ()	planitami
+planet	locative		планитѣ ()	planitě	планитоу ()	planitu	планитахъ ()	planitaxŭ
+planet	vocative		планито ()	planito	планитѣ ()	planitě	планитꙑ ()	planity
+planet			singular		dual		plural	
+planet	nominative		планитъ ()	planitŭ	планита ()	planita	планити ()	planiti
+planet	genitive		планита ()	planita	планитоу ()	planitu	планитъ ()	planitŭ
+planet	dative		планитоу ()	planitu	планитома ()	planitoma	планитомъ ()	planitomŭ
+planet	accusative		планитъ ()	planitŭ	планита ()	planita	планитꙑ ()	planity
+planet	instrumental		планитомъ ()	planitomŭ	планитома ()	planitoma	планитꙑ ()	planity
+planet	locative		планитѣ ()	planitě	планитоу ()	planitu	планитѣхъ ()	planitěxŭ
+planet	vocative		планите ()	planite	планита ()	planita	планити ()	planiti
+star			singular		dual		plural	
+star	nominative		ѕвѣзда ()	dzvězda	ѕвѣздѣ ()	dzvězdě	ѕвѣздꙑ ()	dzvězdy
+star	genitive		ѕвѣздꙑ ()	dzvězdy	ѕвѣздоу ()	dzvězdu	ѕвѣздъ ()	dzvězdŭ
+star	dative		ѕвѣздѣ ()	dzvězdě	ѕвѣздама ()	dzvězdama	ѕвѣздамъ ()	dzvězdamŭ
+star	accusative		ѕвѣздѫ ()	dzvězdǫ	ѕвѣздѣ ()	dzvězdě	ѕвѣздꙑ ()	dzvězdy
+star	instrumental		ѕвѣздоѭ ()	dzvězdojǫ	ѕвѣздама ()	dzvězdama	ѕвѣздами ()	dzvězdami
+star	locative		ѕвѣздѣ ()	dzvězdě	ѕвѣздоу ()	dzvězdu	ѕвѣздахъ ()	dzvězdaxŭ
+star	vocative		ѕвѣздо ()	dzvězdo	ѕвѣздѣ ()	dzvězdě	ѕвѣздꙑ ()	dzvězdy
+star			singular		dual		plural	
+star	nominative		звѣзда ()	zvězda	звѣздѣ ()	zvězdě	звѣздꙑ ()	zvězdy
+star	genitive		звѣздꙑ ()	zvězdy	звѣздоу ()	zvězdu	звѣздъ ()	zvězdŭ
+star	dative		звѣздѣ ()	zvězdě	звѣздама ()	zvězdama	звѣздамъ ()	zvězdamŭ
+star	accusative		звѣздѫ ()	zvězdǫ	звѣздѣ ()	zvězdě	звѣздꙑ ()	zvězdy
+star	instrumental		звѣздоѭ ()	zvězdojǫ	звѣздама ()	zvězdama	звѣздами ()	zvězdami
+star	locative		звѣздѣ ()	zvězdě	звѣздоу ()	zvězdu	звѣздахъ ()	zvězdaxŭ
+star	vocative		звѣздо ()	zvězdo	звѣздѣ ()	zvězdě	звѣздꙑ ()	zvězdy
+man			singular		dual		plural	
+man	nominative		мѫжь ()	mǫžĭ	мѫжа ()	mǫža	мѫжи ()	mǫži
+man	genitive		мѫжа ()	mǫža	мѫжоу ()	mǫžu	мѫжь ()	mǫžĭ
+man	dative		мѫжоу, мѫжеви ()	mǫžu, mǫževi	мѫжема ()	mǫžema	мѫжемъ ()	mǫžemŭ
+man	accusative		мѫжь, мѫжа ()	mǫžĭ, mǫža	мѫжа ()	mǫža	мѫжѧ ()	mǫžę
+man	instrumental		мѫжемь ()	mǫžemĭ	мѫжема ()	mǫžema	мѫжи ()	mǫži
+man	locative		мѫжи ()	mǫži	мѫжоу ()	mǫžu	мѫжихъ ()	mǫžixŭ
+man	vocative		мѫжоу ()	mǫžu	мѫжа ()	mǫža	мѫжи ()	mǫži
+woman			singular		dual		plural	
+woman	nominative		жена ()	žena	женѣ ()	ženě	женꙑ ()	ženy
+woman	genitive		женꙑ ()	ženy	женоу ()	ženu	женъ ()	ženŭ
+woman	dative		женѣ ()	ženě	женама ()	ženama	женамъ ()	ženamŭ
+woman	accusative		женѫ ()	ženǫ	женѣ ()	ženě	женꙑ ()	ženy
+woman	instrumental		женоѭ ()	ženojǫ	женама ()	ženama	женами ()	ženami
+woman	locative		женѣ ()	ženě	женоу ()	ženu	женахъ ()	ženaxŭ
+woman	vocative		жено ()	ženo	женѣ ()	ženě	женꙑ ()	ženy
+human			singular		dual		plural	
+human	nominative		чловѣкъ ()	člověkŭ	чловѣка ()	člověka	чловѣци ()	člověci
+human	genitive		чловѣка ()	člověka	чловѣкоу ()	člověku	чловѣкъ ()	člověkŭ
+human	dative		чловѣкоу, чловѣкови ()	člověku, člověkovi	чловѣкома ()	člověkoma	чловѣкомъ ()	člověkomŭ
+human	accusative		чловѣкъ, чловѣка ()	člověkŭ, člověka	чловѣка ()	člověka	чловѣкꙑ ()	člověky
+human	instrumental		чловѣкомъ ()	člověkomŭ	чловѣкома ()	člověkoma	чловѣкꙑ ()	člověky
+human	locative		чловѣцѣ ()	člověcě	чловѣкоу ()	člověku	чловѣцѣхъ ()	člověcěxŭ
+human	vocative		чловѣче ()	člověče	чловѣка ()	člověka	чловѣци ()	člověci
+human			singular		dual		plural	
+human	nominative		чловѣкъ ()	člověkŭ	чловѣка ()	člověka	чловѣци ()	člověci
+human	genitive		чловѣка ()	člověka	чловѣкоу ()	člověku	чловѣкъ ()	člověkŭ
+human	dative		чловѣкоу, чловѣкови ()	člověku, člověkovi	чловѣкома ()	člověkoma	чловѣкомъ ()	člověkomŭ
+human	accusative		чловѣкъ, чловѣка ()	člověkŭ, člověka	чловѣка ()	člověka	чловѣкꙑ ()	člověky
+human	instrumental		чловѣкомъ ()	člověkomŭ	чловѣкома ()	člověkoma	чловѣкꙑ ()	člověky
+human	locative		чловѣцѣ ()	člověcě	чловѣкоу ()	člověku	чловѣцѣхъ ()	člověcěxŭ
+human	vocative		чловѣче ()	člověče	чловѣка ()	člověka	чловѣци ()	člověci
+animal			singular		dual		plural	
+animal	nominative		животьно ()	životĭno	животьнѣ ()	životĭně	животьна ()	životĭna
+animal	genitive		животьна ()	životĭna	животьноу ()	životĭnu	животьнъ ()	životĭnŭ
+animal	dative		животьноу ()	životĭnu	животьнома ()	životĭnoma	животьномъ ()	životĭnomŭ
+animal	accusative		животьно ()	životĭno	животьнѣ ()	životĭně	животьна ()	životĭna
+animal	instrumental		животьномъ ()	životĭnomŭ	животьнома ()	životĭnoma	животьнꙑ ()	životĭny
+animal	locative		животьнѣ ()	životĭně	животьноу ()	životĭnu	животьнѣхъ ()	životĭněxŭ
+animal	vocative		животьно ()	životĭno	животьнѣ ()	životĭně	животьна ()	životĭna
+animal			singular		dual		plural	
+animal	nominative		животъ ()	životŭ	живота ()	života	животи ()	životi
+animal	genitive		живота ()	života	животоу ()	životu	животъ ()	životŭ
+animal	dative		животоу, животови ()	životu, životovi	животома ()	životoma	животомъ ()	životomŭ
+animal	accusative		животъ, живота ()	životŭ, života	живота ()	života	животꙑ ()	životy
+animal	instrumental		животомъ ()	životomŭ	животома ()	životoma	животꙑ ()	životy
+animal	locative		животѣ ()	životě	животоу ()	životu	животѣхъ ()	životěxŭ
+animal	vocative		животе ()	živote	живота ()	života	животи ()	životi
+animal			singular		dual		plural	
+animal	nominative		звѣрь ()	zvěrĭ	звѣри ()	zvěri	звѣрьѥ, звѣриѥ ()	zvěrĭje, zvěrije
+animal	genitive		звѣри ()	zvěri	звѣрью, звѣрию ()	zvěrĭju, zvěriju	звѣрьи, звѣрии ()	zvěrĭi, zvěrii
+animal	dative		звѣри ()	zvěri	звѣрьма ()	zvěrĭma	звѣрьмъ ()	zvěrĭmŭ
+animal	accusative		звѣрь ()	zvěrĭ	звѣри ()	zvěri	звѣри ()	zvěri
+animal	instrumental		звѣрьмь ()	zvěrĭmĭ	звѣрьма ()	zvěrĭma	звѣрьми ()	zvěrĭmi
+animal	locative		звѣри ()	zvěri	звѣрью, звѣрию ()	zvěrĭju, zvěriju	звѣрьхъ ()	zvěrĭxŭ
+animal	vocative		звѣри ()	zvěri	звѣри ()	zvěri	звѣрьѥ, звѣриѥ ()	zvěrĭje, zvěrije
+animal			singular		dual		plural	
+animal	nominative		звѣрь ()	zvěrĭ	звѣри ()	zvěri	звѣрьѥ, звѣриѥ ()	zvěrĭje, zvěrije
+animal	genitive		звѣри ()	zvěri	звѣрью, звѣрию ()	zvěrĭju, zvěriju	звѣрьи, звѣрии ()	zvěrĭi, zvěrii
+animal	dative		звѣри ()	zvěri	звѣрьма ()	zvěrĭma	звѣрьмъ ()	zvěrĭmŭ
+animal	accusative		звѣрь ()	zvěrĭ	звѣри ()	zvěri	звѣри ()	zvěri
+animal	instrumental		звѣрьмь ()	zvěrĭmĭ	звѣрьма ()	zvěrĭma	звѣрьми ()	zvěrĭmi
+animal	locative		звѣри ()	zvěri	звѣрью, звѣрию ()	zvěrĭju, zvěriju	звѣрьхъ ()	zvěrĭxŭ
+animal	vocative		звѣри ()	zvěri	звѣри ()	zvěri	звѣрьѥ, звѣриѥ ()	zvěrĭje, zvěrije
+animal			singular		dual		plural	
+animal	nominative		звѣрь ()	zvěrĭ	звѣри ()	zvěri	звѣрьѥ, звѣриѥ ()	zvěrĭje, zvěrije
+animal	genitive		звѣри ()	zvěri	звѣрью, звѣрию ()	zvěrĭju, zvěriju	звѣрьи, звѣрии ()	zvěrĭi, zvěrii
+animal	dative		звѣри ()	zvěri	звѣрьма ()	zvěrĭma	звѣрьмъ ()	zvěrĭmŭ
+animal	accusative		звѣрь ()	zvěrĭ	звѣри ()	zvěri	звѣри ()	zvěri
+animal	instrumental		звѣрьмь ()	zvěrĭmĭ	звѣрьма ()	zvěrĭma	звѣрьми ()	zvěrĭmi
+animal	locative		звѣри ()	zvěri	звѣрью, звѣрию ()	zvěrĭju, zvěriju	звѣрьхъ ()	zvěrĭxŭ
+animal	vocative		звѣри ()	zvěri	звѣри ()	zvěri	звѣрьѥ, звѣриѥ ()	zvěrĭje, zvěrije
+son			singular		dual		plural	
+son	nominative		сꙑнъ ()	synŭ	сꙑнꙑ ()	syny	сꙑнове ()	synove
+son	genitive		сꙑноу ()	synu	сꙑновоу ()	synovu	сꙑновъ ()	synovŭ
+son	dative		сꙑнови ()	synovi	сꙑнъма ()	synŭma	сꙑнъмъ ()	synŭmŭ
+son	accusative		сꙑнъ ()	synŭ	сꙑнꙑ ()	syny	сꙑнꙑ ()	syny
+son	instrumental		сꙑнъмь ()	synŭmĭ	сꙑнъма ()	synŭma	сꙑнъми ()	synŭmi
+son	locative		сꙑноу ()	synu	сꙑновоу ()	synovu	сꙑнъхъ ()	synŭxŭ
+son	vocative		сꙑноу ()	synu	сꙑнꙑ ()	syny	сꙑнове ()	synove
+son			singular		dual		plural	
+son	nominative		сꙑнъ ()	synŭ	сꙑнꙑ ()	syny	сꙑнове ()	synove
+son	genitive		сꙑноу ()	synu	сꙑновоу ()	synovu	сꙑновъ ()	synovŭ
+son	dative		сꙑнови ()	synovi	сꙑнъма ()	synŭma	сꙑнъмъ ()	synŭmŭ
+son	accusative		сꙑнъ ()	synŭ	сꙑнꙑ ()	syny	сꙑнꙑ ()	syny
+son	instrumental		сꙑнъмь ()	synŭmĭ	сꙑнъма ()	synŭma	сꙑнъми ()	synŭmi
+son	locative		сꙑноу ()	synu	сꙑновоу ()	synovu	сꙑнъхъ ()	synŭxŭ
+son	vocative		сꙑноу ()	synu	сꙑнꙑ ()	syny	сꙑнове ()	synove
+son			singular		dual		plural	
+son	nominative		ⱄⱏⰺⱀⱏ ()	synŭ	ⱄⱏⰺⱀⱏⰹ ()	syny	ⱄⱏⰺⱀⱁⰲⰵ ()	synove
+son	genitive		ⱄⱏⰺⱀⱆ ()	synu	ⱄⱏⰺⱀⱁⰲⱆ ()	synovu	ⱄⱏⰺⱀⱁⰲⱏ ()	synovŭ
+son	dative		ⱄⱏⰺⱀⱁⰲⰻ ()	synovi	ⱄⱏⰺⱀⱏⰿⰰ ()	synŭma	ⱄⱏⰺⱀⱏⰿⱏ ()	synŭmŭ
+son	accusative		ⱄⱏⰺⱀⱏ ()	synŭ	ⱄⱏⰺⱀⱏⰹ ()	syny	ⱄⱏⰺⱀⱏⰹ ()	syny
+son	instrumental		ⱄⱏⰺⱀⱏⰿⱐ ()	synŭmĭ	ⱄⱏⰺⱀⱏⰿⰰ ()	synŭma	ⱄⱏⰺⱀⱏⰿⰻ ()	synŭmi
+son	locative		ⱄⱏⰺⱀⱆ ()	synu	ⱄⱏⰺⱀⱁⰲⱆ ()	synovu	ⱄⱏⰺⱀⱏⱈⱏ ()	synŭxŭ
+son	vocative		ⱄⱏⰺⱀⱆ ()	synu	ⱄⱏⰺⱀⱏⰹ ()	syny	ⱄⱏⰺⱀⱁⰲⰵ ()	synove
+daughter			singular		dual		plural	
+daughter	nominative		дъщи ()	dŭšti	дъщери ()	dŭšteri	дъщери ()	dŭšteri
+daughter	genitive		дъщере ()	dŭštere	дъщероу ()	dŭšteru	дъщеръ ()	dŭšterŭ
+daughter	dative		дъщери ()	dŭšteri	дъщерьма ()	dŭšterĭma	дъщерьмъ ()	dŭšterĭmŭ
+daughter	accusative		дъщерь ()	dŭšterĭ	дъщери ()	dŭšteri	дъщери ()	dŭšteri
+daughter	instrumental		дъщерьѭ ()	dŭšterĭjǫ	дъщерьма ()	dŭšterĭma	дъщерьми ()	dŭšterĭmi
+daughter	locative		дъщери ()	dŭšteri	дъщероу ()	dŭšteru	дъщерьхъ ()	dŭšterĭxŭ
+daughter	vocative		дъщи ()	dŭšti	дъщери ()	dŭšteri	дъщери ()	dŭšteri
+mother			singular		dual		plural	
+mother	nominative		мати ()	mati	матери ()	materi	матери ()	materi
+mother	genitive		матере ()	matere	матероу ()	materu	матеръ ()	materŭ
+mother	dative		матери ()	materi	матерьма ()	materĭma	матерьмъ ()	materĭmŭ
+mother	accusative		матерь ()	materĭ	матери ()	materi	матери ()	materi
+mother	instrumental		матерьѭ ()	materĭjǫ	матерьма ()	materĭma	матерьми ()	materĭmi
+mother	locative		матери ()	materi	матероу ()	materu	матерьхъ ()	materĭxŭ
+mother	vocative		мати ()	mati	матери ()	materi	матери ()	materi
+mother			singular		dual		plural	
+mother	nominative		ⰿⰰⱅⰻ ()	mati	ⰿⰰⱅⰵⱃⰻ ()	materi	ⰿⰰⱅⰵⱃⰻ ()	materi
+mother	genitive		ⰿⰰⱅⰵⱃⰵ ()	matere	ⰿⰰⱅⰵⱃⱆ ()	materu	ⰿⰰⱅⰵⱃⱏ ()	materŭ
+mother	dative		ⰿⰰⱅⰵⱃⰻ ()	materi	ⰿⰰⱅⰵⱃⱐⰿⰰ ()	materĭma	ⰿⰰⱅⰵⱃⱐⰿⱏ ()	materĭmŭ
+mother	accusative		ⰿⰰⱅⰵⱃⱐ ()	materĭ	ⰿⰰⱅⰵⱃⰻ ()	materi	ⰿⰰⱅⰵⱃⰻ ()	materi
+mother	instrumental		ⰿⰰⱅⰵⱃⱐⱙ ()	materĭjǫ	ⰿⰰⱅⰵⱃⱐⰿⰰ ()	materĭma	ⰿⰰⱅⰵⱃⱐⰿⰻ ()	materĭmi
+mother	locative		ⰿⰰⱅⰵⱃⰻ ()	materi	ⰿⰰⱅⰵⱃⱆ ()	materu	ⰿⰰⱅⰵⱃⱐⱈⱏ ()	materĭxŭ
+mother	vocative		ⰿⰰⱅⰻ ()	mati	ⰿⰰⱅⰵⱃⰻ ()	materi	ⰿⰰⱅⰵⱃⰻ ()	materi
+father			singular		dual		plural	
+father	nominative		отьць ()	otĭcĭ	отьца ()	otĭca	отьци ()	otĭci
+father	genitive		отьца ()	otĭca	отьцоу ()	otĭcu	отьць ()	otĭcĭ
+father	dative		отьцоу, отьцеви ()	otĭcu, otĭcevi	отьцема ()	otĭcema	отьцемъ ()	otĭcemŭ
+father	accusative		отьць, отьца ()	otĭcĭ, otĭca	отьца ()	otĭca	отьцѧ ()	otĭcę
+father	instrumental		отьцемь ()	otĭcemĭ	отьцема ()	otĭcema	отьци ()	otĭci
+father	locative		отьци ()	otĭci	отьцоу ()	otĭcu	отьцихъ ()	otĭcixŭ
+father	vocative		отьче ()	otĭče	отьца ()	otĭca	отьци ()	otĭci
+brother			singular		dual		plural	
+brother	nominative		братр{{{2}}}ъ ()	bratr{{{2}}}ŭ	братр{{{2}}}а ()	bratr{{{2}}}a	братр{{{2}}}и ()	bratr{{{2}}}i
+brother	genitive		братр{{{2}}}а ()	bratr{{{2}}}a	братр{{{2}}}оу ()	bratr{{{2}}}u	братр{{{2}}}ъ ()	bratr{{{2}}}ŭ
+brother	dative		братр{{{2}}}оу, братр{{{2}}}ови ()	bratr{{{2}}}u, bratr{{{2}}}ovi	братр{{{2}}}ома ()	bratr{{{2}}}oma	братр{{{2}}}омъ ()	bratr{{{2}}}omŭ
+brother	accusative		братр{{{2}}}ъ, братр{{{2}}}а ()	bratr{{{2}}}ŭ, bratr{{{2}}}a	братр{{{2}}}а ()	bratr{{{2}}}a	братр{{{2}}}ꙑ ()	bratr{{{2}}}y
+brother	instrumental		братр{{{2}}}омъ ()	bratr{{{2}}}omŭ	братр{{{2}}}ома ()	bratr{{{2}}}oma	братр{{{2}}}ꙑ ()	bratr{{{2}}}y
+brother	locative		братр{{{2}}}ѣ ()	bratr{{{2}}}ě	братр{{{2}}}оу ()	bratr{{{2}}}u	братр{{{2}}}ѣхъ ()	bratr{{{2}}}ěxŭ
+brother	vocative		братр{{{2}}}е ()	bratr{{{2}}}e	братр{{{2}}}а ()	bratr{{{2}}}a	братр{{{2}}}и ()	bratr{{{2}}}i
+sister			singular		dual		plural	
+sister	nominative		сестра ()	sestra	сестрѣ ()	sestrě	сестрꙑ ()	sestry
+sister	genitive		сестрꙑ ()	sestry	сестроу ()	sestru	сестръ ()	sestrŭ
+sister	dative		сестрѣ ()	sestrě	сестрама ()	sestrama	сестрамъ ()	sestramŭ
+sister	accusative		сестрѫ ()	sestrǫ	сестрѣ ()	sestrě	сестрꙑ ()	sestry
+sister	instrumental		сестроѭ ()	sestrojǫ	сестрама ()	sestrama	сестрами ()	sestrami
+sister	locative		сестрѣ ()	sestrě	сестроу ()	sestru	сестрахъ ()	sestraxŭ
+sister	vocative		сестро ()	sestro	сестрѣ ()	sestrě	сестрꙑ ()	sestry
+grandfather			singular		dual		plural	
+grandfather	nominative		дѣдъ ()	dědŭ	дѣда ()	děda	дѣди ()	dědi
+grandfather	genitive		дѣда ()	děda	дѣдоу ()	dědu	дѣдъ ()	dědŭ
+grandfather	dative		дѣдоу, дѣдови ()	dědu, dědovi	дѣдома ()	dědoma	дѣдомъ ()	dědomŭ
+grandfather	accusative		дѣдъ, дѣда ()	dědŭ, děda	дѣда ()	děda	дѣдꙑ ()	dědy
+grandfather	instrumental		дѣдомъ ()	dědomŭ	дѣдома ()	dědoma	дѣдꙑ ()	dědy
+grandfather	locative		дѣдѣ ()	dědě	дѣдоу ()	dědu	дѣдѣхъ ()	děděxŭ
+grandfather	vocative		дѣде ()	děde	дѣда ()	děda	дѣди ()	dědi
+grandfather			singular		dual		plural	
+grandfather	nominative		дѣдъ ()	dědŭ	дѣда ()	děda	дѣди ()	dědi
+grandfather	genitive		дѣда ()	děda	дѣдоу ()	dědu	дѣдъ ()	dědŭ
+grandfather	dative		дѣдоу, дѣдови ()	dědu, dědovi	дѣдома ()	dědoma	дѣдомъ ()	dědomŭ
+grandfather	accusative		дѣдъ, дѣда ()	dědŭ, děda	дѣда ()	děda	дѣдꙑ ()	dědy
+grandfather	instrumental		дѣдомъ ()	dědomŭ	дѣдома ()	dědoma	дѣдꙑ ()	dědy
+grandfather	locative		дѣдѣ ()	dědě	дѣдоу ()	dědu	дѣдѣхъ ()	děděxŭ
+grandfather	vocative		дѣде ()	děde	дѣда ()	děda	дѣди ()	dědi
+north			singular		dual		plural	
+north	nominative		сѣверъ ()	sěverŭ	-		-	
+north	genitive		сѣвера ()	sěvera	-		-	
+north	dative		сѣвероу ()	sěveru	-		-	
+north	accusative		сѣверъ ()	sěverŭ	-		-	
+north	instrumental		сѣверомъ ()	sěveromŭ	-		-	
+north	locative		сѣверѣ ()	sěverě	-		-	
+north	vocative		сѣвере ()	sěvere	-		-	
+south			singular		dual		plural	
+south	nominative		югъ ()	jugŭ	юга ()	juga	юѕи ()	judzi
+south	genitive		юга ()	juga	югоу ()	jugu	югъ ()	jugŭ
+south	dative		югоу ()	jugu	югома ()	jugoma	югомъ ()	jugomŭ
+south	accusative		югъ ()	jugŭ	юга ()	juga	югꙑ ()	jugy
+south	instrumental		югомъ ()	jugomŭ	югома ()	jugoma	югꙑ ()	jugy
+south	locative		юѕѣ ()	judzě	югоу ()	jugu	юѕѣхъ ()	judzěxŭ
+south	vocative		юже ()	juže	юга ()	juga	юѕи ()	judzi
+east			singular		dual		plural	
+east	nominative		въстокъ ()	vŭstokŭ	въстока ()	vŭstoka	въстоци ()	vŭstoci
+east	genitive		въстока ()	vŭstoka	въстокоу ()	vŭstoku	въстокъ ()	vŭstokŭ
+east	dative		въстокоу ()	vŭstoku	въстокома ()	vŭstokoma	въстокомъ ()	vŭstokomŭ
+east	accusative		въстокъ ()	vŭstokŭ	въстока ()	vŭstoka	въстокꙑ ()	vŭstoky
+east	instrumental		въстокомъ ()	vŭstokomŭ	въстокома ()	vŭstokoma	въстокꙑ ()	vŭstoky
+east	locative		въстоцѣ ()	vŭstocě	въстокоу ()	vŭstoku	въстоцѣхъ ()	vŭstocěxŭ
+east	vocative		въсточе ()	vŭstoče	въстока ()	vŭstoka	въстоци ()	vŭstoci
+west			singular		dual		plural	
+west	nominative		западъ ()	zapadŭ	-		-	
+west	genitive		запада ()	zapada	-		-	
+west	dative		западоу ()	zapadu	-		-	
+west	accusative		западъ ()	zapadŭ	-		-	
+west	instrumental		западомъ ()	zapadomŭ	-		-	
+west	locative		западѣ ()	zapadě	-		-	
+west	vocative		западе ()	zapade	-		-	

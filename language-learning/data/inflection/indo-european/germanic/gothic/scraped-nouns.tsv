@@ -1,207 +1,376 @@
-animal	neuter a-stem	neuter a-stem	neuter a-stem
-animal		singular	plural
-animal	nominative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-animal	vocative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-animal	accusative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-animal	genitive	𐌳𐌹𐌿𐌶𐌹𐍃diuzis	𐌳𐌹𐌿𐌶𐌴diuzē
-animal	dative	𐌳𐌹𐌿𐌶𐌰diuza	𐌳𐌹𐌿𐌶𐌰𐌼diuzam
-attention	feminine i-stem	feminine i-stem	feminine i-stem
-attention		singular	plural
-attention	nominative	𐌼𐌹𐍄𐍉𐌽𐍃mitōns	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
-attention	vocative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
-attention	accusative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌹𐌽𐍃mitōnins
-attention	genitive	𐌼𐌹𐍄𐍉𐌽𐌰𐌹𐍃mitōnais	𐌼𐌹𐍄𐍉𐌽𐌴mitōnē
-attention	dative	𐌼𐌹𐍄𐍉𐌽𐌰𐌹mitōnai	𐌼𐌹𐍄𐍉𐌽𐌹𐌼mitōnim
-bird	masculine a-stem	masculine a-stem	masculine a-stem
+thought		singular	plural
+thought	nominative	𐌼𐌹𐍄𐍉𐌽𐍃mitōns	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
+thought	vocative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
+thought	accusative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌹𐌽𐍃mitōnins
+thought	genitive	𐌼𐌹𐍄𐍉𐌽𐌰𐌹𐍃mitōnais	𐌼𐌹𐍄𐍉𐌽𐌴mitōnē
+thought	dative	𐌼𐌹𐍄𐍉𐌽𐌰𐌹mitōnai	𐌼𐌹𐍄𐍉𐌽𐌹𐌼mitōnim
+thought		singular	plural
+thought	nominative	𐌼𐌹𐍄𐍉𐌽𐍃mitōns	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
+thought	vocative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
+thought	accusative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌹𐌽𐍃mitōnins
+thought	genitive	𐌼𐌹𐍄𐍉𐌽𐌰𐌹𐍃mitōnais	𐌼𐌹𐍄𐍉𐌽𐌴mitōnē
+thought	dative	𐌼𐌹𐍄𐍉𐌽𐌰𐌹mitōnai	𐌼𐌹𐍄𐍉𐌽𐌹𐌼mitōnim
+thought		singular	plural
+thought	nominative	𐌼𐌹𐍄𐍉𐌽𐍃mitōns	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
+thought	vocative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
+thought	accusative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌹𐌽𐍃mitōnins
+thought	genitive	𐌼𐌹𐍄𐍉𐌽𐌰𐌹𐍃mitōnais	𐌼𐌹𐍄𐍉𐌽𐌴mitōnē
+thought	dative	𐌼𐌹𐍄𐍉𐌽𐌰𐌹mitōnai	𐌼𐌹𐍄𐍉𐌽𐌹𐌼mitōnim
 bird		singular	plural
 bird	nominative	𐍆𐌿𐌲𐌻𐍃fugls	𐍆𐌿𐌲𐌻𐍉𐍃fuglōs
 bird	vocative	𐍆𐌿𐌲𐌻fugl	𐍆𐌿𐌲𐌻𐍉𐍃fuglōs
 bird	accusative	𐍆𐌿𐌲𐌻fugl	𐍆𐌿𐌲𐌻𐌰𐌽𐍃fuglans
 bird	genitive	𐍆𐌿𐌲𐌻𐌹𐍃fuglis	𐍆𐌿𐌲𐌻𐌴fuglē
 bird	dative	𐍆𐌿𐌲𐌻𐌰fugla	𐍆𐌿𐌲𐌻𐌰𐌼fuglam
-boat	neuter a-stem	neuter a-stem	neuter a-stem
+sparrow		singular	plural
+sparrow	nominative	𐍃𐍀𐌰𐍂𐍅𐌰sparwa	𐍃𐍀𐌰𐍂𐍅𐌰𐌽𐍃sparwans
+sparrow	vocative	𐍃𐍀𐌰𐍂𐍅𐌰sparwa	𐍃𐍀𐌰𐍂𐍅𐌰𐌽𐍃sparwans
+sparrow	accusative	𐍃𐍀𐌰𐍂𐍅𐌰𐌽sparwan	𐍃𐍀𐌰𐍂𐍅𐌰𐌽𐍃sparwans
+sparrow	genitive	𐍃𐍀𐌰𐍂𐍅𐌹𐌽𐍃sparwins	𐍃𐍀𐌰𐍂𐍅𐌰𐌽𐌴sparwanē
+sparrow	dative	𐍃𐍀𐌰𐍂𐍅𐌹𐌽sparwin	𐍃𐍀𐌰𐍂𐍅𐌰𐌼sparwam
+eagle		singular	plural
+eagle	nominative	𐌰𐍂𐌰ara	𐌰𐍂𐌰𐌽𐍃arans
+eagle	vocative	𐌰𐍂𐌰ara	𐌰𐍂𐌰𐌽𐍃arans
+eagle	accusative	𐌰𐍂𐌰𐌽aran	𐌰𐍂𐌰𐌽𐍃arans
+eagle	genitive	𐌰𐍂𐌹𐌽𐍃arins	𐌰𐍂𐌰𐌽𐌴aranē
+eagle	dative	𐌰𐍂𐌹𐌽arin	𐌰𐍂𐌰𐌼aram
+dove		singular	plural
+dove	nominative	𐌰𐌷𐌰𐌺𐍃ahaks	𐌰𐌷𐌰𐌺𐌴𐌹𐍃ahakeis
+dove	vocative	𐌰𐌷𐌰𐌺ahak	𐌰𐌷𐌰𐌺𐌴𐌹𐍃ahakeis
+dove	accusative	𐌰𐌷𐌰𐌺ahak	𐌰𐌷𐌰𐌺𐌹𐌽𐍃ahakins
+dove	genitive	𐌰𐌷𐌰𐌺𐌰𐌹𐍃ahakais	𐌰𐌷𐌰𐌺𐌴ahakē
+dove	dative	𐌰𐌷𐌰𐌺𐌰𐌹ahakai	𐌰𐌷𐌰𐌺𐌹𐌼ahakim
+pigeon		singular	plural
+pigeon	nominative	𐌰𐌷𐌰𐌺𐍃ahaks	𐌰𐌷𐌰𐌺𐌴𐌹𐍃ahakeis
+pigeon	vocative	𐌰𐌷𐌰𐌺ahak	𐌰𐌷𐌰𐌺𐌴𐌹𐍃ahakeis
+pigeon	accusative	𐌰𐌷𐌰𐌺ahak	𐌰𐌷𐌰𐌺𐌹𐌽𐍃ahakins
+pigeon	genitive	𐌰𐌷𐌰𐌺𐌰𐌹𐍃ahakais	𐌰𐌷𐌰𐌺𐌴ahakē
+pigeon	dative	𐌰𐌷𐌰𐌺𐌰𐌹ahakai	𐌰𐌷𐌰𐌺𐌹𐌼ahakim
+child		singular	plural
+child	nominative	𐍆𐍂𐌰𐍃𐍄𐍃frasts	𐍆𐍂𐌰𐍃𐍄𐌴𐌹𐍃frasteis
+child	vocative	𐍆𐍂𐌰𐍃𐍄frast	𐍆𐍂𐌰𐍃𐍄𐌴𐌹𐍃frasteis
+child	accusative	𐍆𐍂𐌰𐍃𐍄frast	𐍆𐍂𐌰𐍃𐍄𐌹𐌽𐍃frastins
+child	genitive	𐍆𐍂𐌰𐍃𐍄𐌹𐍃frastis	𐍆𐍂𐌰𐍃𐍄𐌴frastē
+child	dative	𐍆𐍂𐌰𐍃𐍄𐌰frasta	𐍆𐍂𐌰𐍃𐍄𐌹𐌼frastim
+child		singular	plural
+child	nominative	𐌱𐌰𐍂𐌽barn	𐌱𐌰𐍂𐌽𐌰barna
+child	vocative	𐌱𐌰𐍂𐌽barn	𐌱𐌰𐍂𐌽𐌰barna
+child	accusative	𐌱𐌰𐍂𐌽barn	𐌱𐌰𐍂𐌽𐌰barna
+child	genitive	𐌱𐌰𐍂𐌽𐌹𐍃barnis	𐌱𐌰𐍂𐌽𐌴barnē
+child	dative	𐌱𐌰𐍂𐌽𐌰barna	𐌱𐌰𐍂𐌽𐌰𐌼barnam
+nest		singular	plural
+nest	nominative	𐍃𐌹𐍄𐌻𐍃sitls	𐍃𐌹𐍄𐌻𐍉𐍃sitlōs
+nest	vocative	𐍃𐌹𐍄𐌻sitl	𐍃𐌹𐍄𐌻𐍉𐍃sitlōs
+nest	accusative	𐍃𐌹𐍄𐌻sitl	𐍃𐌹𐍄𐌻𐌰𐌽𐍃sitlans
+nest	genitive	𐍃𐌹𐍄𐌻𐌹𐍃sitlis	𐍃𐌹𐍄𐌻𐌴sitlē
+nest	dative	𐍃𐌹𐍄𐌻𐌰sitla	𐍃𐌹𐍄𐌻𐌰𐌼sitlam
+tree		singular	plural
+tree	nominative	𐌱𐌰𐌲𐌼𐍃bagms	𐌱𐌰𐌲𐌼𐍉𐍃bagmōs
+tree	vocative	𐌱𐌰𐌲𐌼bagm	𐌱𐌰𐌲𐌼𐍉𐍃bagmōs
+tree	accusative	𐌱𐌰𐌲𐌼bagm	𐌱𐌰𐌲𐌼𐌰𐌽𐍃bagmans
+tree	genitive	𐌱𐌰𐌲𐌼𐌹𐍃bagmis	𐌱𐌰𐌲𐌼𐌴bagmē
+tree	dative	𐌱𐌰𐌲𐌼𐌰bagma	𐌱𐌰𐌲𐌼𐌰𐌼bagmam
 boat		singular	plural
 boat	nominative	𐍃𐌺𐌹𐍀skip	𐍃𐌺𐌹𐍀𐌰skipa
 boat	vocative	𐍃𐌺𐌹𐍀skip	𐍃𐌺𐌹𐍀𐌰skipa
 boat	accusative	𐍃𐌺𐌹𐍀skip	𐍃𐌺𐌹𐍀𐌰skipa
 boat	genitive	𐍃𐌺𐌹𐍀𐌹𐍃skipis	𐍃𐌺𐌹𐍀𐌴skipē
 boat	dative	𐍃𐌺𐌹𐍀𐌰skipa	𐍃𐌺𐌹𐍀𐌰𐌼skipam
-clothing	feminine ō-stem	feminine ō-stem	feminine ō-stem
-clothing		singular	plural
-clothing	nominative	𐍅𐌰𐍃𐍄𐌹wasti	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
-clothing	vocative	𐍅𐌰𐍃𐍄𐌹wasti	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
-clothing	accusative	𐍅𐌰𐍃𐍄𐌾𐌰wastja	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
-clothing	genitive	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs	𐍅𐌰𐍃𐍄𐌾𐍉wastjō
-clothing	dative	𐍅𐌰𐍃𐍄𐌾𐌰𐌹wastjai	𐍅𐌰𐍃𐍄𐌾𐍉𐌼wastjōm
-daughter	masculine/feminine r-stem	masculine/feminine r-stem	masculine/feminine r-stem
-daughter		singular	plural
-daughter	nominative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌾𐌿𐍃dauhtrjus
-daughter	vocative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌾𐌿𐍃dauhtrjus
-daughter	accusative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌿𐌽𐍃dauhtruns
-daughter	genitive	𐌳𐌰𐌿𐌷𐍄𐍂𐍃dauhtrs	𐌳𐌰𐌿𐌷𐍄𐍂𐌴dauhtrē
-daughter	dative	𐌳𐌰𐌿𐌷𐍄𐍂dauhtr	𐌳𐌰𐌿𐌷𐍄𐍂𐌿𐌼dauhtrum
-dog	masculine a-stem	masculine a-stem	masculine a-stem
+garment		singular	plural
+garment	nominative	𐍅𐌰𐍃𐍄𐌹wasti	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
+garment	vocative	𐍅𐌰𐍃𐍄𐌹wasti	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
+garment	accusative	𐍅𐌰𐍃𐍄𐌾𐌰wastja	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
+garment	genitive	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs	𐍅𐌰𐍃𐍄𐌾𐍉wastjō
+garment	dative	𐍅𐌰𐍃𐍄𐌾𐌰𐌹wastjai	𐍅𐌰𐍃𐍄𐌾𐍉𐌼wastjōm
 dog		singular	plural
 dog	nominative	𐌷𐌿𐌽𐌳𐍃hunds	𐌷𐌿𐌽𐌳𐍉𐍃hundōs
 dog	vocative	𐌷𐌿𐌽𐌳hund	𐌷𐌿𐌽𐌳𐍉𐍃hundōs
 dog	accusative	𐌷𐌿𐌽𐌳hund	𐌷𐌿𐌽𐌳𐌰𐌽𐍃hundans
 dog	genitive	𐌷𐌿𐌽𐌳𐌹𐍃hundis	𐌷𐌿𐌽𐌳𐌴hundē
 dog	dative	𐌷𐌿𐌽𐌳𐌰hunda	𐌷𐌿𐌽𐌳𐌰𐌼hundam
-door	feminine i-stem	feminine i-stem	feminine i-stem
+door		singular	plural
+door	nominative	𐌳𐌰𐌿𐍂daur	𐌳𐌰𐌿𐍂𐌰daura
+door	vocative	𐌳𐌰𐌿𐍂daur	𐌳𐌰𐌿𐍂𐌰daura
+door	accusative	𐌳𐌰𐌿𐍂daur	𐌳𐌰𐌿𐍂𐌰daura
+door	genitive	𐌳𐌰𐌿𐍂𐌹𐍃dauris	𐌳𐌰𐌿𐍂𐌴daurē
+door	dative	𐌳𐌰𐌿𐍂𐌰daura	𐌳𐌰𐌿𐍂𐌰𐌼dauram
 door		singular	plural
 door	nominative	𐌷𐌰𐌿𐍂𐌳𐍃haurds	𐌷𐌰𐌿𐍂𐌳𐌴𐌹𐍃haurdeis
 door	vocative	𐌷𐌰𐌿𐍂𐌳haurd	𐌷𐌰𐌿𐍂𐌳𐌴𐌹𐍃haurdeis
 door	accusative	𐌷𐌰𐌿𐍂𐌳haurd	𐌷𐌰𐌿𐍂𐌳𐌹𐌽𐍃haurdins
 door	genitive	𐌷𐌰𐌿𐍂𐌳𐌰𐌹𐍃haurdais	𐌷𐌰𐌿𐍂𐌳𐌴haurdē
 door	dative	𐌷𐌰𐌿𐍂𐌳𐌰𐌹haurdai	𐌷𐌰𐌿𐍂𐌳𐌹𐌼haurdim
-enemy	masculine nd-stem	masculine nd-stem	masculine nd-stem
 enemy		singular	plural
 enemy	nominative	𐍆𐌹𐌾𐌰𐌽𐌳𐍃fijands	𐍆𐌹𐌾𐌰𐌽𐌳𐍃fijands
 enemy	vocative	𐍆𐌹𐌾𐌰𐌽𐌳fijand	𐍆𐌹𐌾𐌰𐌽𐌳𐍃fijands
 enemy	accusative	𐍆𐌹𐌾𐌰𐌽𐌳fijand	𐍆𐌹𐌾𐌰𐌽𐌳𐍃fijands
 enemy	genitive	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐍃fijandis	𐍆𐌹𐌾𐌰𐌽𐌳𐌴fijandē
 enemy	dative	𐍆𐌹𐌾𐌰𐌽𐌳fijand	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌼fijandam
-enemy	an/īn-stem, strong in m. nom. sg.	an/īn-stem, strong in m. nom. sg.	an/īn-stem, strong in m. nom. sg.	an/īn-stem, strong in m. nom. sg.
 enemy	singular	masculine	feminine	neuter
-enemy	nominative	𐍆𐌹𐌾𐌰𐌽𐌳𐍃, 𐍆𐌹𐌾𐌰𐌽𐌳𐌰fijands, fijanda	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹fijandei	𐍆𐌹𐌾𐌰𐌽𐌳𐍉fijandō
-enemy	accusative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽fijandan	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽fijandein	𐍆𐌹𐌾𐌰𐌽𐌳𐍉fijandō
-enemy	genitive	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽𐍃fijandins	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijandeins	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽𐍃fijandins
-enemy	dative	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽fijandin	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽fijandein	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽fijandin
+enemy	nominative	𐍆𐌹𐌾𐌰𐌽𐌳𐍃, 𐍆𐌹𐌾𐌰𐌽𐌳𐌰fijānds, fijānda	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹fijāndei	𐍆𐌹𐌾𐌰𐌽𐌳𐍉fijāndō
+enemy	accusative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽fijāndan	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽fijāndein	𐍆𐌹𐌾𐌰𐌽𐌳𐍉fijāndō
+enemy	genitive	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽𐍃fijāndins	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijāndeins	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽𐍃fijāndins
+enemy	dative	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽fijāndin	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽fijāndein	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽fijāndin
 enemy	plural	masculine	feminine	neuter
-enemy	nominative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐍃fijandans	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijandeins	𐍆𐌹𐌾𐌰𐌽𐌳𐍉𐌽𐌰fijandōna
-enemy	accusative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐍃fijandans	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijandeins	𐍆𐌹𐌾𐌰𐌽𐌳𐍉𐌽𐌰fijandōna
-enemy	genitive	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐌴fijandanē	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍉fijandeinō	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐌴fijandanē
-enemy	dative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌼fijandam	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌼fijandeim	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌼fijandam
-fire	neuter an-stem, irregular nominative	neuter an-stem, irregular nominative	neuter an-stem, irregular nominative
+enemy	nominative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐍃fijāndans	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijāndeins	𐍆𐌹𐌾𐌰𐌽𐌳𐍉𐌽𐌰fijāndōna
+enemy	accusative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐍃fijāndans	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijāndeins	𐍆𐌹𐌾𐌰𐌽𐌳𐍉𐌽𐌰fijāndōna
+enemy	genitive	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐌴fijāndanē	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍉fijāndeinō	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐌴fijāndanē
+enemy	dative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌼fijāndam	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌼fijāndeim	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌼fijāndam
+fish		singular	plural
+fish	nominative	𐍆𐌹𐍃𐌺𐍃fisks	𐍆𐌹𐍃𐌺𐍉𐍃fiskōs
+fish	vocative	𐍆𐌹𐍃𐌺fisk	𐍆𐌹𐍃𐌺𐍉𐍃fiskōs
+fish	accusative	𐍆𐌹𐍃𐌺fisk	𐍆𐌹𐍃𐌺𐌰𐌽𐍃fiskans
+fish	genitive	𐍆𐌹𐍃𐌺𐌹𐍃fiskis	𐍆𐌹𐍃𐌺𐌴fiskē
+fish	dative	𐍆𐌹𐍃𐌺𐌰fiska	𐍆𐌹𐍃𐌺𐌰𐌼fiskam
 fire		singular	plural
 fire	nominative	𐍆𐍉𐌽fōn	—
 fire	vocative	𐍆𐍉𐌽fōn	—
 fire	accusative	𐍆𐍉𐌽fōn	—
 fire	genitive	𐍆𐌿𐌽𐌹𐌽𐍃funins	—
 fire	dative	𐍆𐌿𐌽𐌹𐌽funin	—
-food	masculine i-stem	masculine i-stem	masculine i-stem
 food		singular	plural
 food	nominative	𐌼𐌰𐍄𐍃mats	𐌼𐌰𐍄𐌴𐌹𐍃mateis
 food	vocative	𐌼𐌰𐍄mat	𐌼𐌰𐍄𐌴𐌹𐍃mateis
 food	accusative	𐌼𐌰𐍄mat	𐌼𐌰𐍄𐌹𐌽𐍃matins
 food	genitive	𐌼𐌰𐍄𐌹𐍃matis	𐌼𐌰𐍄𐌴matē
 food	dative	𐌼𐌰𐍄𐌰mata	𐌼𐌰𐍄𐌹𐌼matim
-gift	masculine a-stem	masculine a-stem	masculine a-stem
 gift		singular	plural
 gift	nominative	𐌼𐌰𐌹𐌸𐌼𐍃maiþms	𐌼𐌰𐌹𐌸𐌼𐍉𐍃maiþmōs
 gift	vocative	𐌼𐌰𐌹𐌸𐌼maiþm	𐌼𐌰𐌹𐌸𐌼𐍉𐍃maiþmōs
 gift	accusative	𐌼𐌰𐌹𐌸𐌼maiþm	𐌼𐌰𐌹𐌸𐌼𐌰𐌽𐍃maiþmans
 gift	genitive	𐌼𐌰𐌹𐌸𐌼𐌹𐍃maiþmis	𐌼𐌰𐌹𐌸𐌼𐌴maiþmē
 gift	dative	𐌼𐌰𐌹𐌸𐌼𐌰maiþma	𐌼𐌰𐌹𐌸𐌼𐌰𐌼maiþmam
-guard	masculine an-stem	masculine an-stem	masculine an-stem
+gift		singular	plural
+gift	nominative	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐍃fragifts	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌴𐌹𐍃fragifteis
+gift	vocative	𐍆𐍂𐌰𐌲𐌹𐍆𐍄fragift	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌴𐌹𐍃fragifteis
+gift	accusative	𐍆𐍂𐌰𐌲𐌹𐍆𐍄fragift	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌹𐌽𐍃fragiftins
+gift	genitive	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌰𐌹𐍃fragiftais	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌴fragiftē
+gift	dative	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌰𐌹fragiftai	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌹𐌼fragiftim
+gift		singular	plural
+gift	nominative	𐌰𐌹𐌱𐍂aibr	𐌰𐌹𐌱𐍂𐌰aibra
+gift	vocative	𐌰𐌹𐌱𐍂aibr	𐌰𐌹𐌱𐍂𐌰aibra
+gift	accusative	𐌰𐌹𐌱𐍂aibr	𐌰𐌹𐌱𐍂𐌰aibra
+gift	genitive	𐌰𐌹𐌱𐍂𐌹𐍃aibris	𐌰𐌹𐌱𐍂𐌴aibrē
+gift	dative	𐌰𐌹𐌱𐍂𐌰aibra	𐌰𐌹𐌱𐍂𐌰𐌼aibram
 guard		singular	plural
 guard	nominative	𐍅𐌰𐍂𐌳𐌾𐌰wardja	𐍅𐌰𐍂𐌳𐌾𐌰𐌽𐍃wardjans
 guard	vocative	𐍅𐌰𐍂𐌳𐌾𐌰wardja	𐍅𐌰𐍂𐌳𐌾𐌰𐌽𐍃wardjans
 guard	accusative	𐍅𐌰𐍂𐌳𐌾𐌰𐌽wardjan	𐍅𐌰𐍂𐌳𐌾𐌰𐌽𐍃wardjans
 guard	genitive	𐍅𐌰𐍂𐌳𐌾𐌹𐌽𐍃wardjins	𐍅𐌰𐍂𐌳𐌾𐌰𐌽𐌴wardjanē
 guard	dative	𐍅𐌰𐍂𐌳𐌾𐌹𐌽wardjin	𐍅𐌰𐍂𐌳𐌾𐌰𐌼wardjam
-house	neuter a-stem	neuter a-stem	neuter a-stem
 house		singular	plural
 house	nominative	𐍂𐌰𐌶𐌽razn	𐍂𐌰𐌶𐌽𐌰razna
 house	vocative	𐍂𐌰𐌶𐌽razn	𐍂𐌰𐌶𐌽𐌰razna
 house	accusative	𐍂𐌰𐌶𐌽razn	𐍂𐌰𐌶𐌽𐌰razna
 house	genitive	𐍂𐌰𐌶𐌽𐌹𐍃raznis	𐍂𐌰𐌶𐌽𐌴raznē
 house	dative	𐍂𐌰𐌶𐌽𐌰razna	𐍂𐌰𐌶𐌽𐌰𐌼raznam
-livestock	masculine mixed an/u stem, contraction in the plural	masculine mixed an/u stem, contraction in the plural	masculine mixed an/u stem, contraction in the plural
-livestock		singular	plural
-livestock	nominative	𐌰𐌿𐌷𐍃𐌰auhsa	*𐌰𐌿𐌷𐍃𐌽𐌾𐌿𐍃*auhsnjus
-livestock	vocative	*𐌰𐌿𐌷𐍃𐌰*auhsa	*𐌰𐌿𐌷𐍃𐌽𐌾𐌿𐍃*auhsnjus
-livestock	accusative	𐌰𐌿𐌷𐍃𐌰𐌿auhsau	𐌰𐌿𐌷𐍃𐌽𐌿𐌽𐍃auhsnuns
-livestock	genitive	*𐌰𐌿𐌷𐍃𐌰𐌿𐍃?*auhsaus?	𐌰𐌿𐌷𐍃𐌽𐌴auhsne
-livestock	dative	𐌰𐌿𐌷𐍃𐌰𐌿auhsau	*𐌰𐌿𐌷𐍃𐌿𐌼*auhsum
-love	feminine ō-stem	feminine ō-stem	feminine ō-stem
 love		singular	plural
 love	nominative	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰frijaþwa	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐍃frijaþwōs
 love	vocative	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰frijaþwa	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐍃frijaþwōs
 love	accusative	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰frijaþwa	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐍃frijaþwōs
 love	genitive	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐍃frijaþwōs	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉frijaþwō
 love	dative	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰𐌹frijaþwai	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐌼frijaþwōm
-idea	feminine i-stem	feminine i-stem	feminine i-stem
-idea		singular	plural
-idea	nominative	𐌼𐌹𐍄𐍉𐌽𐍃mitōns	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
-idea	vocative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mitōneis
-idea	accusative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌹𐌽𐍃mitōnins
-idea	genitive	𐌼𐌹𐍄𐍉𐌽𐌰𐌹𐍃mitōnais	𐌼𐌹𐍄𐍉𐌽𐌴mitōnē
-idea	dative	𐌼𐌹𐍄𐍉𐌽𐌰𐌹mitōnai	𐌼𐌹𐍄𐍉𐌽𐌹𐌼mitōnim
-man	masculine mixed an/consonant stem	masculine mixed an/consonant stem	masculine mixed an/consonant stem
-man		singular	plural
-man	nominative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
-man	vocative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
-man	accusative	𐌼𐌰𐌽𐌽𐌰𐌽mannan	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
-man	genitive	𐌼𐌰𐌽𐍃mans	𐌼𐌰𐌽𐌽𐌴mannē
-man	dative	𐌼𐌰𐌽𐌽mann	𐌼𐌰𐌽𐌽𐌰𐌼mannam
-money	masculine a-stem	masculine a-stem	masculine a-stem
 money		singular	plural
 money	nominative	𐍃𐌺𐌰𐍄𐍄𐍃skatts	𐍃𐌺𐌰𐍄𐍄𐍉𐍃skattōs
 money	vocative	𐍃𐌺𐌰𐍄𐍄skatt	𐍃𐌺𐌰𐍄𐍄𐍉𐍃skattōs
 money	accusative	𐍃𐌺𐌰𐍄𐍄skatt	𐍃𐌺𐌰𐍄𐍄𐌰𐌽𐍃skattans
 money	genitive	𐍃𐌺𐌰𐍄𐍄𐌹𐍃skattis	𐍃𐌺𐌰𐍄𐍄𐌴skattē
 money	dative	𐍃𐌺𐌰𐍄𐍄𐌰skatta	𐍃𐌺𐌰𐍄𐍄𐌰𐌼skattam
-monster	neuter a-stem	neuter a-stem	neuter a-stem
-monster		singular	plural
-monster	nominative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-monster	vocative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-monster	accusative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-monster	genitive	𐌳𐌹𐌿𐌶𐌹𐍃diuzis	𐌳𐌹𐌿𐌶𐌴diuzē
-monster	dative	𐌳𐌹𐌿𐌶𐌰diuza	𐌳𐌹𐌿𐌶𐌰𐌼diuzam
-name	neuter an-stem, contraction in plural	neuter an-stem, contraction in plural	neuter an-stem, contraction in plural
+weath		singular	plural
+weath	nominative	𐍆𐌰𐌹𐌷𐌿faihu	—
+weath	vocative	𐍆𐌰𐌹𐌷𐌿faihu	—
+weath	accusative	𐍆𐌰𐌹𐌷𐌿faihu	—
+weath	genitive	𐍆𐌰𐌹𐌷𐌰𐌿𐍃faihaus	—
+weath	dative	𐍆𐌰𐌹𐌷𐌰𐌿faihau	—
+weath		singular	plural
+weath	nominative	𐌲𐌰𐌱𐌴𐌹gabei	𐌲𐌰𐌱𐌴𐌹𐌽𐍃gabeins
+weath	vocative	𐌲𐌰𐌱𐌴𐌹gabei	𐌲𐌰𐌱𐌴𐌹𐌽𐍃gabeins
+weath	accusative	𐌲𐌰𐌱𐌴𐌹𐌽gabein	𐌲𐌰𐌱𐌴𐌹𐌽𐍃gabeins
+weath	genitive	𐌲𐌰𐌱𐌴𐌹𐌽𐍃gabeins	𐌲𐌰𐌱𐌴𐌹𐌽𐍉gabeinō
+weath	dative	𐌲𐌰𐌱𐌴𐌹𐌽gabein	𐌲𐌰𐌱𐌴𐌹𐌼gabeim
+beast		singular	plural
+beast	nominative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
+beast	vocative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
+beast	accusative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
+beast	genitive	𐌳𐌹𐌿𐌶𐌹𐍃diuzis	𐌳𐌹𐌿𐌶𐌴diuzē
+beast	dative	𐌳𐌹𐌿𐌶𐌰diuza	𐌳𐌹𐌿𐌶𐌰𐌼diuzam
 name		singular	plural
 name	nominative	𐌽𐌰𐌼𐍉namō	𐌽𐌰𐌼𐌽𐌰namna
 name	vocative	𐌽𐌰𐌼𐍉namō	𐌽𐌰𐌼𐌽𐌰namna
 name	accusative	𐌽𐌰𐌼𐍉namō	𐌽𐌰𐌼𐌽𐌰namna
 name	genitive	𐌽𐌰𐌼𐌹𐌽𐍃namins	𐌽𐌰𐌼𐌽𐌴namnē
 name	dative	𐌽𐌰𐌼𐌹𐌽namin	𐌽𐌰𐌼𐌽𐌰𐌼namnam
-rock	masculine a-stem	masculine a-stem	masculine a-stem
-rock		singular	plural
-rock	nominative	𐍃𐍄𐌰𐌹𐌽𐍃stains	𐍃𐍄𐌰𐌹𐌽𐍉𐍃stainōs
-rock	vocative	𐍃𐍄𐌰𐌹𐌽stain	𐍃𐍄𐌰𐌹𐌽𐍉𐍃stainōs
-rock	accusative	𐍃𐍄𐌰𐌹𐌽stain	𐍃𐍄𐌰𐌹𐌽𐌰𐌽𐍃stainans
-rock	genitive	𐍃𐍄𐌰𐌹𐌽𐌹𐍃stainis	𐍃𐍄𐌰𐌹𐌽𐌴stainē
-rock	dative	𐍃𐍄𐌰𐌹𐌽𐌰staina	𐍃𐍄𐌰𐌹𐌽𐌰𐌼stainam
-son	masculine/feminine u-stem	masculine/feminine u-stem	masculine/feminine u-stem
-son		singular	plural
-son	nominative	𐍃𐌿𐌽𐌿𐍃sunus	𐍃𐌿𐌽𐌾𐌿𐍃sunjus
-son	vocative	𐍃𐌿𐌽𐌰𐌿sunau	𐍃𐌿𐌽𐌾𐌿𐍃sunjus
-son	accusative	𐍃𐌿𐌽𐌿sunu	𐍃𐌿𐌽𐌿𐌽𐍃sununs
-son	genitive	𐍃𐌿𐌽𐌰𐌿𐍃sunaus	𐍃𐌿𐌽𐌹𐍅𐌴suniwē
-son	dative	𐍃𐌿𐌽𐌰𐌿sunau	𐍃𐌿𐌽𐌿𐌼sunum
-sound	masculine/feminine u-stem	masculine/feminine u-stem	masculine/feminine u-stem
-sound		singular	plural
-sound	nominative	𐌳𐍂𐌿𐌽𐌾𐌿𐍃drunjus	𐌳𐍂𐌿𐌽𐌾𐌾𐌿𐍃drunjjus
-sound	vocative	𐌳𐍂𐌿𐌽𐌾𐌰𐌿drunjau	𐌳𐍂𐌿𐌽𐌾𐌾𐌿𐍃drunjjus
-sound	accusative	𐌳𐍂𐌿𐌽𐌾𐌿drunju	𐌳𐍂𐌿𐌽𐌾𐌿𐌽𐍃drunjuns
-sound	genitive	𐌳𐍂𐌿𐌽𐌾𐌰𐌿𐍃drunjaus	𐌳𐍂𐌿𐌽𐌾𐌹𐍅𐌴drunjiwē
-sound	dative	𐌳𐍂𐌿𐌽𐌾𐌰𐌿drunjau	𐌳𐍂𐌿𐌽𐌾𐌿𐌼drunjum
-water	neuter an-stem, contraction in plural	neuter an-stem, contraction in plural	neuter an-stem, contraction in plural
+stone		singular	plural
+stone	nominative	𐍃𐍄𐌰𐌹𐌽𐍃stains	𐍃𐍄𐌰𐌹𐌽𐍉𐍃stainōs
+stone	vocative	𐍃𐍄𐌰𐌹𐌽stain	𐍃𐍄𐌰𐌹𐌽𐍉𐍃stainōs
+stone	accusative	𐍃𐍄𐌰𐌹𐌽stain	𐍃𐍄𐌰𐌹𐌽𐌰𐌽𐍃stainans
+stone	genitive	𐍃𐍄𐌰𐌹𐌽𐌹𐍃stainis	𐍃𐍄𐌰𐌹𐌽𐌴stainē
+stone	dative	𐍃𐍄𐌰𐌹𐌽𐌰staina	𐍃𐍄𐌰𐌹𐌽𐌰𐌼stainam
+treasure		singular	plural
+treasure	nominative	𐌷𐌿𐌶𐌳huzd	𐌷𐌿𐌶𐌳𐌰huzda
+treasure	vocative	𐌷𐌿𐌶𐌳huzd	𐌷𐌿𐌶𐌳𐌰huzda
+treasure	accusative	𐌷𐌿𐌶𐌳huzd	𐌷𐌿𐌶𐌳𐌰huzda
+treasure	genitive	𐌷𐌿𐌶𐌳𐌹𐍃huzdis	𐌷𐌿𐌶𐌳𐌴huzdē
+treasure	dative	𐌷𐌿𐌶𐌳𐌰huzda	𐌷𐌿𐌶𐌳𐌰𐌼huzdam
 water		singular	plural
 water	nominative	𐍅𐌰𐍄𐍉watō	*𐍅𐌰𐍄𐌽𐌰*watna
 water	vocative	𐍅𐌰𐍄𐍉watō	*𐍅𐌰𐍄𐌽𐌰*watna
 water	accusative	𐍅𐌰𐍄𐍉watō	*𐍅𐌰𐍄𐌽𐌰*watna
 water	genitive	𐍅𐌰𐍄𐌹𐌽𐍃watins	*𐍅𐌰𐍄𐌽𐌴*watnē
 water	dative	𐍅𐌰𐍄𐌹𐌽watin	𐍅𐌰𐍄𐌽𐌰𐌼watnam
-wind	masculine a-stem	masculine a-stem	masculine a-stem
 wind		singular	plural
 wind	nominative	𐍅𐌹𐌽𐌳𐍃winds	𐍅𐌹𐌽𐌳𐍉𐍃windōs
 wind	vocative	𐍅𐌹𐌽𐌳wind	𐍅𐌹𐌽𐌳𐍉𐍃windōs
 wind	accusative	𐍅𐌹𐌽𐌳wind	𐍅𐌹𐌽𐌳𐌰𐌽𐍃windans
 wind	genitive	𐍅𐌹𐌽𐌳𐌹𐍃windis	𐍅𐌹𐌽𐌳𐌴windē
 wind	dative	𐍅𐌹𐌽𐌳𐌰winda	𐍅𐌹𐌽𐌳𐌰𐌼windam
-woman	feminine ōn-stem	feminine ōn-stem	feminine ōn-stem
-woman		singular	plural
-woman	nominative	𐌵𐌹𐌽𐍉qinō	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
-woman	vocative	𐌵𐌹𐌽𐍉qinō	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
-woman	accusative	𐌵𐌹𐌽𐍉𐌽qinōn	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
-woman	genitive	𐌵𐌹𐌽𐍉𐌽𐍃qinōns	𐌵𐌹𐌽𐍉𐌽𐍉qinōnō
-woman	dative	𐌵𐌹𐌽𐍉𐌽qinōn	𐌵𐌹𐌽𐍉𐌼qinōm
-work	feminine i-stem	feminine i-stem	feminine i-stem
+wolf		singular	plural
+wolf	nominative	𐍅𐌿𐌻𐍆𐍃wulfs	𐍅𐌿𐌻𐍆𐍉𐍃wulfōs
+wolf	vocative	𐍅𐌿𐌻𐍆wulf	𐍅𐌿𐌻𐍆𐍉𐍃wulfōs
+wolf	accusative	𐍅𐌿𐌻𐍆wulf	𐍅𐌿𐌻𐍆𐌰𐌽𐍃wulfans
+wolf	genitive	𐍅𐌿𐌻𐍆𐌹𐍃wulfis	𐍅𐌿𐌻𐍆𐌴wulfē
+wolf	dative	𐍅𐌿𐌻𐍆𐌰wulfa	𐍅𐌿𐌻𐍆𐌰𐌼wulfam
 work		singular	plural
 work	nominative	𐌰𐍂𐌱𐌰𐌹𐌸𐍃arbaiþs	𐌰𐍂𐌱𐌰𐌹𐌳𐌴𐌹𐍃arbaideis
 work	vocative	𐌰𐍂𐌱𐌰𐌹𐌸arbaiþ	𐌰𐍂𐌱𐌰𐌹𐌳𐌴𐌹𐍃arbaideis
 work	accusative	𐌰𐍂𐌱𐌰𐌹𐌸arbaiþ	𐌰𐍂𐌱𐌰𐌹𐌳𐌹𐌽𐍃arbaidins
 work	genitive	𐌰𐍂𐌱𐌰𐌹𐌳𐌰𐌹𐍃arbaidais	𐌰𐍂𐌱𐌰𐌹𐌳𐌴arbaidē
 work	dative	𐌰𐍂𐌱𐌰𐌹𐌳𐌰𐌹arbaidai	𐌰𐍂𐌱𐌰𐌹𐌳𐌹𐌼arbaidim
+worker		singular	plural
+worker	nominative	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰waurstwa	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰𐌽𐍃waurstwans
+worker	vocative	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰waurstwa	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰𐌽𐍃waurstwans
+worker	accusative	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰𐌽waurstwan	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰𐌽𐍃waurstwans
+worker	genitive	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌹𐌽𐍃waurstwins	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰𐌽𐌴waurstwanē
+worker	dative	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌹𐌽waurstwin	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰𐌼waurstwam
+worm		singular	plural
+worm	nominative	𐍅𐌰𐌿𐍂𐌼𐍃waurms	𐍅𐌰𐌿𐍂𐌼𐍉𐍃waurmōs
+worm	vocative	𐍅𐌰𐌿𐍂𐌼waurm	𐍅𐌰𐌿𐍂𐌼𐍉𐍃waurmōs
+worm	accusative	𐍅𐌰𐌿𐍂𐌼waurm	𐍅𐌰𐌿𐍂𐌼𐌰𐌽𐍃waurmans
+worm	genitive	𐍅𐌰𐌿𐍂𐌼𐌹𐍃waurmis	𐍅𐌰𐌿𐍂𐌼𐌴waurmē
+worm	dative	𐍅𐌰𐌿𐍂𐌼𐌰waurma	𐍅𐌰𐌿𐍂𐌼𐌰𐌼waurmam
+language		singular	plural
+language	nominative	𐍂𐌰𐌶𐌳𐌰razda	𐍂𐌰𐌶𐌳𐍉𐍃razdōs
+language	vocative	𐍂𐌰𐌶𐌳𐌰razda	𐍂𐌰𐌶𐌳𐍉𐍃razdōs
+language	accusative	𐍂𐌰𐌶𐌳𐌰razda	𐍂𐌰𐌶𐌳𐍉𐍃razdōs
+language	genitive	𐍂𐌰𐌶𐌳𐍉𐍃razdōs	𐍂𐌰𐌶𐌳𐍉razdō
+language	dative	𐍂𐌰𐌶𐌳𐌰𐌹razdai	𐍂𐌰𐌶𐌳𐍉𐌼razdōm
+river		singular	plural
+river	nominative	𐌰𐍈𐌰aƕa	𐌰𐍈𐍉𐍃aƕōs
+river	vocative	𐌰𐍈𐌰aƕa	𐌰𐍈𐍉𐍃aƕōs
+river	accusative	𐌰𐍈𐌰aƕa	𐌰𐍈𐍉𐍃aƕōs
+river	genitive	𐌰𐍈𐍉𐍃aƕōs	𐌰𐍈𐍉aƕō
+river	dative	𐌰𐍈𐌰𐌹aƕai	𐌰𐍈𐍉𐌼aƕōm
+river		singular	plural
+river	nominative	𐍆𐌻𐍉𐌳𐌿𐍃flōdus	𐍆𐌻𐍉𐌳𐌾𐌿𐍃flōdjus
+river	vocative	𐍆𐌻𐍉𐌳𐌰𐌿flōdau	𐍆𐌻𐍉𐌳𐌾𐌿𐍃flōdjus
+river	accusative	𐍆𐌻𐍉𐌳𐌿flōdu	𐍆𐌻𐍉𐌳𐌿𐌽𐍃flōduns
+river	genitive	𐍆𐌻𐍉𐌳𐌰𐌿𐍃flōdaus	𐍆𐌻𐍉𐌳𐌹𐍅𐌴flōdiwē
+river	dative	𐍆𐌻𐍉𐌳𐌰𐌿flōdau	𐍆𐌻𐍉𐌳𐌿𐌼flōdum
+year		singular	plural
+year	nominative	𐌾𐌴𐍂jēr	𐌾𐌴𐍂𐌰jēra
+year	vocative	𐌾𐌴𐍂jēr	𐌾𐌴𐍂𐌰jēra
+year	accusative	𐌾𐌴𐍂jēr	𐌾𐌴𐍂𐌰jēra
+year	genitive	𐌾𐌴𐍂𐌹𐍃jēris	𐌾𐌴𐍂𐌴jērē
+year	dative	𐌾𐌴𐍂𐌰jēra	𐌾𐌴𐍂𐌰𐌼jēram
+year		singular	plural
+year	nominative	𐌰𐍄𐌰𐌸𐌽𐌹ataþni	𐌰𐍄𐌰𐌸𐌽𐌾𐌰ataþnja
+year	vocative	𐌰𐍄𐌰𐌸𐌽𐌹ataþni	𐌰𐍄𐌰𐌸𐌽𐌾𐌰ataþnja
+year	accusative	𐌰𐍄𐌰𐌸𐌽𐌹ataþni	𐌰𐍄𐌰𐌸𐌽𐌾𐌰ataþnja
+year	genitive	𐌰𐍄𐌰𐌸𐌽𐌾𐌹𐍃ataþnjis	𐌰𐍄𐌰𐌸𐌽𐌾𐌴ataþnjē
+year	dative	𐌰𐍄𐌰𐌸𐌽𐌾𐌰ataþnja	𐌰𐍄𐌰𐌸𐌽𐌾𐌰𐌼ataþnjam
+day		singular	plural
+day	nominative	𐌳𐌰𐌲𐍃dags	𐌳𐌰𐌲𐍉𐍃dagōs
+day	vocative	𐌳𐌰𐌲dag	𐌳𐌰𐌲𐍉𐍃dagōs
+day	accusative	𐌳𐌰𐌲dag	𐌳𐌰𐌲𐌰𐌽𐍃dagans
+day	genitive	𐌳𐌰𐌲𐌹𐍃dagis	𐌳𐌰𐌲𐌴dagē
+day	dative	𐌳𐌰𐌲𐌰daga	𐌳𐌰𐌲𐌰𐌼dagam
+day		singular	plural
+day	nominative	𐌳𐌰𐌲𐍃dags	𐌳𐌰𐌲𐍉𐍃dagōs
+day	vocative	𐌳𐌰𐌲dag	𐌳𐌰𐌲𐍉𐍃dagōs
+day	accusative	𐌳𐌰𐌲dag	𐌳𐌰𐌲𐌰𐌽𐍃dagans
+day	genitive	𐌳𐌰𐌲𐌹𐍃dagis	𐌳𐌰𐌲𐌴dagē
+day	dative	𐌳𐌰𐌲𐌰daga	𐌳𐌰𐌲𐌰𐌼dagam
+star		singular	plural
+star	nominative	𐍃𐍄𐌰𐌹𐍂𐌽𐍉stairnō	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽𐍃stairnōns
+star	vocative	𐍃𐍄𐌰𐌹𐍂𐌽𐍉stairnō	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽𐍃stairnōns
+star	accusative	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽stairnōn	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽𐍃stairnōns
+star	genitive	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽𐍃stairnōns	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽𐍉stairnōnō
+star	dative	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽stairnōn	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌼stairnōm
+man		singular	plural
+man	nominative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+man	vocative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+man	accusative	𐌼𐌰𐌽𐌽𐌰𐌽mannan	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+man	genitive	𐌼𐌰𐌽𐍃mans	𐌼𐌰𐌽𐌽𐌴mannē
+man	dative	𐌼𐌰𐌽𐌽mann	𐌼𐌰𐌽𐌽𐌰𐌼mannam
+man		singular	plural
+man	nominative	𐌲𐌿𐌼𐌰guma	𐌲𐌿𐌼𐌰𐌽𐍃gumans
+man	vocative	𐌲𐌿𐌼𐌰guma	𐌲𐌿𐌼𐌰𐌽𐍃gumans
+man	accusative	𐌲𐌿𐌼𐌰𐌽guman	𐌲𐌿𐌼𐌰𐌽𐍃gumans
+man	genitive	𐌲𐌿𐌼𐌹𐌽𐍃gumins	𐌲𐌿𐌼𐌰𐌽𐌴gumanē
+man	dative	𐌲𐌿𐌼𐌹𐌽gumin	𐌲𐌿𐌼𐌰𐌼gumam
+woman		singular	plural
+woman	nominative	𐌵𐌹𐌽𐍉qinō	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
+woman	vocative	𐌵𐌹𐌽𐍉qinō	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
+woman	accusative	𐌵𐌹𐌽𐍉𐌽qinōn	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
+woman	genitive	𐌵𐌹𐌽𐍉𐌽𐍃qinōns	𐌵𐌹𐌽𐍉𐌽𐍉qinōnō
+woman	dative	𐌵𐌹𐌽𐍉𐌽qinōn	𐌵𐌹𐌽𐍉𐌼qinōm
+human		singular	plural
+human	nominative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+human	vocative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+human	accusative	𐌼𐌰𐌽𐌽𐌰𐌽mannan	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+human	genitive	𐌼𐌰𐌽𐍃mans	𐌼𐌰𐌽𐌽𐌴mannē
+human	dative	𐌼𐌰𐌽𐌽mann	𐌼𐌰𐌽𐌽𐌰𐌼mannam
+human		singular	plural
+human	nominative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+human	vocative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+human	accusative	𐌼𐌰𐌽𐌽𐌰𐌽mannan	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
+human	genitive	𐌼𐌰𐌽𐍃mans	𐌼𐌰𐌽𐌽𐌴mannē
+human	dative	𐌼𐌰𐌽𐌽mann	𐌼𐌰𐌽𐌽𐌰𐌼mannam
+animal		singular	plural
+animal	nominative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
+animal	vocative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
+animal	accusative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
+animal	genitive	𐌳𐌹𐌿𐌶𐌹𐍃diuzis	𐌳𐌹𐌿𐌶𐌴diuzē
+animal	dative	𐌳𐌹𐌿𐌶𐌰diuza	𐌳𐌹𐌿𐌶𐌰𐌼diuzam
+son		singular	plural
+son	nominative	𐍃𐌿𐌽𐌿𐍃sunus	𐍃𐌿𐌽𐌾𐌿𐍃sunjus
+son	vocative	𐍃𐌿𐌽𐌰𐌿sunau	𐍃𐌿𐌽𐌾𐌿𐍃sunjus
+son	accusative	𐍃𐌿𐌽𐌿sunu	𐍃𐌿𐌽𐌿𐌽𐍃sununs
+son	genitive	𐍃𐌿𐌽𐌰𐌿𐍃sunaus	𐍃𐌿𐌽𐌹𐍅𐌴suniwē
+son	dative	𐍃𐌿𐌽𐌰𐌿sunau	𐍃𐌿𐌽𐌿𐌼sunum
+daughter		singular	plural
+daughter	nominative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌾𐌿𐍃dauhtrjus
+daughter	vocative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌾𐌿𐍃dauhtrjus
+daughter	accusative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌿𐌽𐍃dauhtruns
+daughter	genitive	𐌳𐌰𐌿𐌷𐍄𐍂𐍃dauhtrs	𐌳𐌰𐌿𐌷𐍄𐍂𐌴dauhtrē
+daughter	dative	𐌳𐌰𐌿𐌷𐍄𐍂dauhtr	𐌳𐌰𐌿𐌷𐍄𐍂𐌿𐌼dauhtrum
+mother		singular	plural
+mother	nominative	𐌰𐌹𐌸𐌴𐌹aiþei	𐌰𐌹𐌸𐌴𐌹𐌽𐍃aiþeins
+mother	vocative	𐌰𐌹𐌸𐌴𐌹aiþei	𐌰𐌹𐌸𐌴𐌹𐌽𐍃aiþeins
+mother	accusative	𐌰𐌹𐌸𐌴𐌹𐌽aiþein	𐌰𐌹𐌸𐌴𐌹𐌽𐍃aiþeins
+mother	genitive	𐌰𐌹𐌸𐌴𐌹𐌽𐍃aiþeins	𐌰𐌹𐌸𐌴𐌹𐌽𐍉aiþeinō
+mother	dative	𐌰𐌹𐌸𐌴𐌹𐌽aiþein	𐌰𐌹𐌸𐌴𐌹𐌼aiþeim
+father		singular	plural
+father	nominative	𐌰𐍄𐍄𐌰atta	𐌰𐍄𐍄𐌰𐌽𐍃attans
+father	vocative	𐌰𐍄𐍄𐌰atta	𐌰𐍄𐍄𐌰𐌽𐍃attans
+father	accusative	𐌰𐍄𐍄𐌰𐌽attan	𐌰𐍄𐍄𐌰𐌽𐍃attans
+father	genitive	𐌰𐍄𐍄𐌹𐌽𐍃attins	𐌰𐍄𐍄𐌰𐌽𐌴attanē
+father	dative	𐌰𐍄𐍄𐌹𐌽attin	𐌰𐍄𐍄𐌰𐌼attam
+father		singular	plural
+father	nominative	𐍆𐌰𐌳𐌰𐍂fadar	𐍆𐌰𐌳𐍂𐌾𐌿𐍃fadrjus
+father	vocative	𐍆𐌰𐌳𐌰𐍂fadar	𐍆𐌰𐌳𐍂𐌾𐌿𐍃fadrjus
+father	accusative	𐍆𐌰𐌳𐌰𐍂fadar	𐍆𐌰𐌳𐍂𐌿𐌽𐍃fadruns
+father	genitive	𐍆𐌰𐌳𐍂𐍃fadrs	𐍆𐌰𐌳𐍂𐌴fadrē
+father	dative	𐍆𐌰𐌳𐍂fadr	𐍆𐌰𐌳𐍂𐌿𐌼fadrum
+sister		singular	plural
+sister	nominative	𐍃𐍅𐌹𐍃𐍄𐌰𐍂swistar	𐍃𐍅𐌹𐍃𐍄𐍂𐌾𐌿𐍃swistrjus
+sister	vocative	𐍃𐍅𐌹𐍃𐍄𐌰𐍂swistar	𐍃𐍅𐌹𐍃𐍄𐍂𐌾𐌿𐍃swistrjus
+sister	accusative	𐍃𐍅𐌹𐍃𐍄𐌰𐍂swistar	𐍃𐍅𐌹𐍃𐍄𐍂𐌿𐌽𐍃swistruns
+sister	genitive	𐍃𐍅𐌹𐍃𐍄𐍂𐍃swistrs	𐍃𐍅𐌹𐍃𐍄𐍂𐌴swistrē
+sister	dative	𐍃𐍅𐌹𐍃𐍄𐍂swistr	𐍃𐍅𐌹𐍃𐍄𐍂𐌿𐌼swistrum
+sound		singular	plural
+sound	nominative	𐌳𐍂𐌿𐌽𐌾𐌿𐍃drunjus	𐌳𐍂𐌿𐌽𐌾𐌾𐌿𐍃drunjjus
+sound	vocative	𐌳𐍂𐌿𐌽𐌾𐌰𐌿drunjau	𐌳𐍂𐌿𐌽𐌾𐌾𐌿𐍃drunjjus
+sound	accusative	𐌳𐍂𐌿𐌽𐌾𐌿drunju	𐌳𐍂𐌿𐌽𐌾𐌿𐌽𐍃drunjuns
+sound	genitive	𐌳𐍂𐌿𐌽𐌾𐌰𐌿𐍃drunjaus	𐌳𐍂𐌿𐌽𐌾𐌹𐍅𐌴drunjiwē
+sound	dative	𐌳𐍂𐌿𐌽𐌾𐌰𐌿drunjau	𐌳𐍂𐌿𐌽𐌾𐌿𐌼drunjum

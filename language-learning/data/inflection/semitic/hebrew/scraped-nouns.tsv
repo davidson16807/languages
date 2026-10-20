@@ -1,189 +1,1014 @@
-attention	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-attention	number	state	form	person	singular	singular	plural	plural
-attention	number	state	form	person	m.	f.	m.	f.
-attention	singular	indefinite	מַחְשָׁבָה	first	מַחְשָׁבָתִי‎	מַחְשָׁבָתִי‎	מַחְשָׁבָתֵנוּ‎	מַחְשָׁבָתֵנוּ‎
-attention	singular	definite	הַמַּחְשָׁבָה‎	second	מַחְשָׁבָתְךָ‎	מַחְשָׁבָתֵךְ‎	מַחְשָׁבַתְכֶם‎	מַחְשָׁבַתְכֶן‎
-attention	singular	construct	מַחְשָׁבַת־‎	third	מַחְשָׁבָתוֹ‎	מַחְשָׁבָתָהּ‎	מַחְשָׁבָתָם‎	מַחְשָׁבָתָן‎
-attention	plural	indefinite	מַחְשְׁבוֹת‎	first	מחשבותיי / מַחְשְׁבוֹתַי‎	מחשבותיי / מַחְשְׁבוֹתַי‎	מַחְשְׁבוֹתֵינוּ‎	מַחְשְׁבוֹתֵינוּ‎
-attention	plural	definite	הַמַּחְשְׁבוֹת‎	second	מַחְשְׁבוֹתֶיךָ‎	מחשבותייך / מַחְשְׁבוֹתַיִךְ‎	מַחְשְׁבוֹתֵיכֶם‎	מַחְשְׁבוֹתֵיכֶן‎
-attention	plural	construct	מַחְשְׁבוֹת־‎	third	מַחְשְׁבוֹתָיו‎	מַחְשְׁבוֹתֶיהָ‎	מַחְשְׁבוֹתָם‎	מַחְשְׁבוֹתָן‎
-book	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-book	number	state	form	person	singular	singular	plural	plural
-book	number	state	form	person	m.	f.	m.	f.
-book	singular	indefinite	סֵפֶר	first	סִפְרִי‎	סִפְרִי‎	סִפְרֵנוּ‎	סִפְרֵנוּ‎
-book	singular	definite	הַסֵּפֶר‎	second	סִפְרְךָ‎	סִפְרֵךְ‎	סִפְרְכֶם‎	סִפְרְכֶן‎
-book	singular	construct	סֵפֶר־	third	סִפְרוֹ‎	סִפְרָהּ‎	סִפְרָם‎	סִפְרָן‎
-book	plural	indefinite	סְפָרִים‎	first	ספריי / סְפָרַי‎	ספריי / סְפָרַי‎	סְפָרֵינוּ‎	סְפָרֵינוּ‎
-book	plural	definite	הַסְּפָרִים‎	second	סְפָרֶיךָ‎	ספרייך / סְפָרַיִךְ‎	סִפְרֵיכֶם‎	סִפְרֵיכֶן‎
-book	plural	construct	סִפְרֵי־‎	third	סְפָרָיו‎	סְפָרֶיהָ‎	סִפְרֵיהֶם‎	סִפְרֵיהֶן‎
-brother	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-brother	number	state	form	person	singular	singular	plural	plural
-brother	number	state	form	person	m.	f.	m.	f.
-brother	singular	indefinite	אָח	first	אָחִי‎	אָחִי‎	אָחִינוּ‎	אָחִינוּ‎
-brother	singular	definite	הָאָח‎	second	אָחִיךָ‎	אָחִיךְ‎	אֲחִיכֶם‎	אֲחִיכֶן‎
-brother	singular	construct	אֲחִי־‎	third	אָחִיו‎	אָחִיהָ‎	אֲחִיהֶם‎	אֲחִיהֶן‎
-brother	plural	indefinite	אַחִים‎	first	אחיי / אַחַי‎	אחיי / אַחַי‎	אַחֵינוּ‎	אַחֵינוּ‎
-brother	plural	definite	הָאַחִים‎	second	אַחֶיךָ‎	אחייך / אַחַיִךְ‎	אַחֵיכֶם‎	אַחֵיכֶן‎
-brother	plural	construct	אַחֵי־‎	third	אֶחָיו‎	אַחֶיהָ‎	אַחֵיהֶם‎	אַחֵיהֶן‎
-daughter	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-daughter	number	state	form	person	singular	singular	plural	plural
-daughter	number	state	form	person	m.	f.	m.	f.
-daughter	singular	indefinite	בַּת	first	בִּתִּי‎	בִּתִּי‎	בִּתֵּנוּ‎	בִּתֵּנוּ‎
-daughter	singular	definite	הַבַּת‎	second	בִּתְּךָ‎	בִּתֵּךְ‎	בִּתְּכֶם‎	בִּתְּכֶן‎
-daughter	singular	construct	בַּת־	third	בִּתּוֹ‎	בִּתָּהּ‎	בִּתָּם‎	בִּתָּן‎
-daughter	plural	indefinite	בָּנוֹת‎	first	בנותיי / בְּנוֹתַי‎	בנותיי / בְּנוֹתַי‎	בְּנוֹתֵינוּ‎	בְּנוֹתֵינוּ‎
-daughter	plural	definite	הַבָּנוֹת‎	second	בְּנוֹתֶיךָ‎	בנותייך / בְּנוֹתַיִךְ‎	בְּנוֹתֵיכֶם‎	בְּנוֹתֵיכֶן‎
-daughter	plural	construct	בְּנוֹת־‎	third	בְּנוֹתָיו‎	בְּנוֹתֶיהָ‎	בְּנוֹתָם‎	בְּנוֹתָן‎
-dog	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-dog	number	state	form	person	singular	singular	plural	plural
-dog	number	state	form	person	m.	f.	m.	f.
-dog	masculine singular	indefinite	כֶּלֶב	first	כַּלְבִּי‎	כַּלְבִּי‎	כַּלְבֵּנוּ‎	כַּלְבֵּנוּ‎
-dog	masculine singular	definite	הַכֶּלֶב‎	second	כַּלְבְּךָ‎	כַּלְבֵּךְ‎	כַּלְבְּכֶם‎	כַּלְבְּכֶן‎
-dog	masculine singular	construct	כֶּלֶב־	third	כַּלְבּוֹ‎	כַּלְבָּהּ‎	כַּלְבָּם‎	כַּלְבָּן‎
-dog	masculine plural	indefinite	כְּלָבִים‎	first	כלביי / כְּלָבַי‎	כלביי / כְּלָבַי‎	כְּלָבֵינוּ‎	כְּלָבֵינוּ‎
-dog	masculine plural	definite	הַכְּלָבִים‎	second	כְּלָבֶיךָ‎	כלבייך / כְּלָבַיִךְ‎	כַּלְבֵיכֶם‎	כַּלְבֵיכֶן‎
-dog	masculine plural	construct	כַּלְבֵי־‎	third	כְּלָבָיו‎	כְּלָבֶיהָ‎	כַּלְבֵיהֶם‎	כַּלְבֵיהֶן‎
-dog	feminine singular	indefinite	כַּלְבָּה‎	first	כַּלְבָּתִי‎	כַּלְבָּתִי‎	כַּלְבָּתֵנוּ‎	כַּלְבָּתֵנוּ‎
-dog	feminine singular	definite	הַכַּלְבָּה‎	second	כַּלְבָּתְךָ‎	כַּלְבָּתֵךְ‎	כַּלְבַּתְכֶם‎	כַּלְבַּתְכֶן‎
-dog	feminine singular	construct	כַּלְבַּת־‎	third	כַּלְבָּתוֹ‎	כַּלְבָּתָהּ‎	כַּלְבָּתָם‎	כַּלְבָּתָן‎
-dog	feminine plural	indefinite	כְּלָבוֹת‎	first	כלבותיי / כַּלְבוֹתַי‎	כלבותיי / כַּלְבוֹתַי‎	כַּלְבוֹתֵינוּ‎	כַּלְבוֹתֵינוּ‎
-dog	feminine plural	definite	הַכְּלָבוֹת‎	second	כַּלְבוֹתֶיךָ‎	כלבותייך / כַּלְבוֹתַיִךְ‎	כַּלְבוֹתֵיכֶם‎	כַּלְבוֹתֵיכֶן‎
-dog	feminine plural	construct	כַּלְבוֹת־‎	third	כַּלְבוֹתָיו‎	כַּלְבוֹתֶיהָ‎	כַּלְבוֹתָם‎	כַּלְבוֹתָן‎
-door	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-door	number	state	form	person	singular	singular	plural	plural
-door	number	state	form	person	m.	f.	m.	f.
-door	singular	indefinite	דֶּלֶת	first	דַּלְתִּי‎	דַּלְתִּי‎	דַּלְתֵּנוּ‎	דַּלְתֵּנוּ‎
-door	singular	definite	הַדֶּלֶת‎	second	דַּלְתְּךָ‎	דַּלְתֵּךְ‎	דַּלְתְּכֶם‎	דַּלְתְּכֶן‎
-door	singular	construct	דֶּלֶת־	third	דַּלְתּוֹ‎	דַּלְתָּהּ‎	דַּלְתָּם‎	דַּלְתָּן‎
-door	dual	indefinite	דלתיים / דְּלָתַיִם‎	first	דלתיי / דְּלָתַי‎	דלתיי / דְּלָתַי‎	דְּלָתֵינוּ‎	דְּלָתֵינוּ‎
-door	dual	definite	הדלתיים / הַדְּלָתַיִם‎	second	דְּלָתֶיךָ‎	דלתייך / דְּלָתַיִךְ‎	דַּלְתֵיכֶם‎	דַּלְתֵיכֶן‎
-door	dual	construct	דַּלְתֵי־‎	third	דְּלָתָיו‎	דְּלָתֶיהָ‎	דַּלְתֵיהֶם‎	דַּלְתֵיהֶן‎
-door	plural	indefinite	דְּלָתוֹת‎	first	דלתותיי / דַּלְתוֹתַי‎	דלתותיי / דַּלְתוֹתַי‎	דַּלְתוֹתֵינוּ‎	דַּלְתוֹתֵינוּ‎
-door	plural	definite	הַדְּלָתוֹת‎	second	דַּלְתוֹתֶיךָ‎	דלתותייך / דַּלְתוֹתַיִךְ‎	דַּלְתוֹתֵיכֶם‎	דַּלְתוֹתֵיכֶן‎
-door	plural	construct	דַּלְתוֹת־‎	third	דַּלְתוֹתָיו‎	דַּלְתוֹתֶיהָ‎	דַּלְתוֹתָם‎	דַּלְתוֹתָן‎
-food	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-food	number	state	form	person	singular	singular	plural	plural
-food	number	state	form	person	m.	f.	m.	f.
-food	singular	indefinite	מָזוֹן	first	מְזוֹנִי‎	מְזוֹנִי‎	מְזוֹנֵנוּ‎	מְזוֹנֵנוּ‎
-food	singular	definite	הַמָּזוֹן‎	second	מְזוֹנְךָ‎	מְזוֹנֵךְ‎	מְזוֹנְכֶם‎	מְזוֹנְכֶן‎
-food	singular	construct	מְזוֹן־	third	מְזוֹנוֹ‎	מְזוֹנָהּ‎	מְזוֹנָם‎	מְזוֹנָן‎
-food	plural	indefinite	מְזוֹנוֹת‎	first	מזונותיי / מְזוֹנוֹתַי‎	מזונותיי / מְזוֹנוֹתַי‎	מְזוֹנוֹתֵינוּ‎	מְזוֹנוֹתֵינוּ‎
-food	plural	definite	הַמְּזוֹנוֹת‎	second	מְזוֹנוֹתֶיךָ‎	מזונותייך / מְזוֹנוֹתַיִךְ‎	מְזוֹנוֹתֵיכֶם‎	מְזוֹנוֹתֵיכֶן‎
-food	plural	construct	מְזוֹנוֹת־‎	third	מְזוֹנוֹתָיו‎	מְזוֹנוֹתֶיהָ‎	מְזוֹנוֹתָם‎	מְזוֹנוֹתָן‎
-horse	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-horse	number	state	form	person	singular	singular	plural	plural
-horse	number	state	form	person	m.	f.	m.	f.
-horse	masculine singular	indefinite	סוּס	first	סוּסִי‎	סוּסִי‎	סוּסֵנוּ‎	סוּסֵנוּ‎
-horse	masculine singular	definite	הַסּוּס‎	second	סוּסְךָ‎	סוּסֵךְ‎	סוּסְכֶם‎	סוּסְכֶן‎
-horse	masculine singular	construct	סוּס־	third	סוּסוֹ‎	סוּסָהּ‎	סוּסָם‎	סוּסָן‎
-horse	feminine singular	indefinite	סוּסָה‎	first	סוּסָתִי‎	סוּסָתִי‎	סוּסָתֵנוּ‎	סוּסָתֵנוּ‎
-horse	feminine singular	definite	הַסּוּסָה‎	second	סוּסָתְךָ‎	סוּסָתֵךְ‎	סוּסַתְכֶם‎	סוּסַתְכֶן‎
-horse	feminine singular	construct	סוּסַת־‎	third	סוּסָתוֹ‎	סוּסָתָהּ‎	סוּסָתָם‎	סוּסָתָן‎
-horse	feminine plural	indefinite	סוּסוֹת‎	first	סוסותיי / סוּסוֹתַי‎	סוסותיי / סוּסוֹתַי‎	סוּסוֹתֵינוּ‎	סוּסוֹתֵינוּ‎
-horse	feminine plural	definite	הַסּוּסוֹת‎	second	סוּסוֹתֶיךָ‎	סוסותייך / סוּסוֹתַיִךְ‎	סוּסוֹתֵיכֶם‎	סוּסוֹתֵיכֶן‎
-horse	feminine plural	construct	סוּסוֹת־‎	third	סוּסוֹתָיו‎	סוּסוֹתֶיהָ‎	סוּסוֹתָם‎	סוּסוֹתָן‎
-horse	masculine dual	indefinite	סוסיים / סוּסַיִם‎	first	סוסיי / סוּסַי‎	סוסיי / סוּסַי‎	סוּסֵינוּ‎	סוּסֵינוּ‎
-horse	masculine dual	definite	הסוסיים / הַסּוּסַיִם‎	second	סוּסֶיךָ‎	סוסייך / סוּסַיִךְ‎	סוּסֵיכֶם‎	סוּסֵיכֶן‎
-horse	masculine dual	construct	סוּסֵי־‎	third	סוּסָיו‎	סוּסֶיהָ‎	סוּסֵיהֶם‎	סוּסֵיהֶן‎
-horse	masculine plural	indefinite	סוּסִים‎	first	סוסיי / סוּסַי‎	סוסיי / סוּסַי‎	סוּסֵינוּ‎	סוּסֵינוּ‎
-horse	masculine plural	definite	הַסּוּסִים‎	second	סוּסֶיךָ‎	סוסייך / סוּסַיִךְ‎	סוּסֵיכֶם‎	סוּסֵיכֶן‎
-horse	masculine plural	construct	סוּסֵי־‎	third	סוּסָיו‎	סוּסֶיהָ‎	סוּסֵיהֶם‎	סוּסֵיהֶן‎
-house	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-house	number	state	form	person	singular	singular	plural	plural
-house	number	state	form	person	m.	f.	m.	f.
-house	singular	indefinite	בַּיִת	first	בֵּיתִי‎	בֵּיתִי‎	בֵּיתֵנוּ‎	בֵּיתֵנוּ‎
-house	singular	definite	הַבַּיִת‎	second	בֵּיתְךָ‎	בֵּיתֵךְ‎	בֵּיתְכֶם‎	בֵּיתְכֶן‎
-house	singular	construct	בֵּית־	third	בֵּיתוֹ‎	בֵּיתָהּ‎	בֵּיתָם‎	בֵּיתָן‎
-house	plural	indefinite	בָּֽתִּים‎	first	בתיי / בָּֽתַּי‎	בתיי / בָּֽתַּי‎	בָּֽתֵּינוּ‎	בָּֽתֵּינוּ‎
-house	plural	definite	הַבָּֽתִּים‎	second	בָּֽתֶּיךָ‎	בתייך / בָּֽתַּיִךְ‎	בָּֽתֵּיכֶם‎	בָּֽתֵּיכֶן‎
-house	plural	construct	בָּֽתֵּי־‎	third	בָּֽתָּיו‎	בָּֽתֶּיהָ‎	בָּֽתֵּיהֶם‎	בָּֽתֵּיהֶן‎
-love	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-love	number	state	form	person	singular	singular	plural	plural
-love	number	state	form	person	m.	f.	m.	f.
-love	singular	indefinite	אַהֲבָה	first	אַהֲבָתִי‎	אַהֲבָתִי‎	אַהֲבָתֵנוּ‎	אַהֲבָתֵנוּ‎
-love	singular	definite	הָאַהֲבָה‎	second	אַהֲבָתְךָ‎	אַהֲבָתֵךְ‎	אַהֲבַתְכֶם‎	אַהֲבַתְכֶן‎
-love	singular	construct	אַהֲבַת־‎	third	אַהֲבָתוֹ‎	אַהֲבָתָהּ‎	אַהֲבָתָם‎	אַהֲבָתָן‎
-love	plural	indefinite	אֲהָבוֹת‎	first	אהבותיי / אַהֲבוֹתַי‎	אהבותיי / אַהֲבוֹתַי‎	אַהֲבוֹתֵינוּ‎	אַהֲבוֹתֵינוּ‎
-love	plural	definite	הָאֲהָבוֹת‎	second	אַהֲבוֹתֶיךָ‎	אהבותייך / אַהֲבוֹתַיִךְ‎	אַהֲבוֹתֵיכֶם‎	אַהֲבוֹתֵיכֶן‎
-love	plural	construct	אַהֲבוֹת־‎	third	אַהֲבוֹתָיו‎	אַהֲבוֹתֶיהָ‎	אַהֲבוֹתָם‎	אַהֲבוֹתָן‎
-idea	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-idea	number	state	form	person	singular	singular	plural	plural
-idea	number	state	form	person	m.	f.	m.	f.
-idea	singular	indefinite	מַחְשָׁבָה	first	מַחְשָׁבָתִי‎	מַחְשָׁבָתִי‎	מַחְשָׁבָתֵנוּ‎	מַחְשָׁבָתֵנוּ‎
-idea	singular	definite	הַמַּחְשָׁבָה‎	second	מַחְשָׁבָתְךָ‎	מַחְשָׁבָתֵךְ‎	מַחְשָׁבַתְכֶם‎	מַחְשָׁבַתְכֶן‎
-idea	singular	construct	מַחְשָׁבַת־‎	third	מַחְשָׁבָתוֹ‎	מַחְשָׁבָתָהּ‎	מַחְשָׁבָתָם‎	מַחְשָׁבָתָן‎
-idea	plural	indefinite	מַחְשְׁבוֹת‎	first	מחשבותיי / מַחְשְׁבוֹתַי‎	מחשבותיי / מַחְשְׁבוֹתַי‎	מַחְשְׁבוֹתֵינוּ‎	מַחְשְׁבוֹתֵינוּ‎
-idea	plural	definite	הַמַּחְשְׁבוֹת‎	second	מַחְשְׁבוֹתֶיךָ‎	מחשבותייך / מַחְשְׁבוֹתַיִךְ‎	מַחְשְׁבוֹתֵיכֶם‎	מַחְשְׁבוֹתֵיכֶן‎
-idea	plural	construct	מַחְשְׁבוֹת־‎	third	מַחְשְׁבוֹתָיו‎	מַחְשְׁבוֹתֶיהָ‎	מַחְשְׁבוֹתָם‎	מַחְשְׁבוֹתָן‎
-man	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-man	number	state	form	person	singular	singular	plural	plural
-man	number	state	form	person	m.	f.	m.	f.
-man	singular	indefinite	אִישׁ	first	אִישִׁי‎	אִישִׁי‎	אִישֵׁנוּ‎	אִישֵׁנוּ‎
-man	singular	definite	הָאִישׁ‎	second	אִישְׁךָ‎	אִישֵׁךְ‎	אִישְׁכֶם‎	אִישְׁכֶן‎
-man	singular	construct	אִישׁ־	third	אִישׁוֹ‎	אִישָׁהּ‎	אִישָׁם‎	אִישָׁן‎
-man	plural	indefinite	אֲנָשִׁים‎	first	אנשיי / אֲנָשַׁי‎	אנשיי / אֲנָשַׁי‎	אֲנָשֵׁינוּ‎	אֲנָשֵׁינוּ‎
-man	plural	definite	הָאֲנָשִׁים‎	second	אֲנָשֶׁיךָ‎	אנשייך / אֲנָשַׁיִךְ‎	אַנְשֵׁיכֶם‎	אַנְשֵׁיכֶן‎
-man	plural	construct	אַנְשֵׁי־‎	third	אֲנָשָׁיו‎	אֲנָשֶׁיהָ‎	אַנְשֵׁיהֶם‎	אַנְשֵׁיהֶן‎
-money	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-money	number	state	form	person	singular	singular	plural	plural
-money	number	state	form	person	m.	f.	m.	f.
-money	singular	indefinite	כֶּסֶף	first	כַּסְפִּי‎	כַּסְפִּי‎	כַּסְפֵּנוּ‎	כַּסְפֵּנוּ‎
-money	singular	definite	הַכֶּסֶף‎	second	כַּסְפְּךָ‎	כַּסְפֵּךְ‎	כַּסְפְּכֶם‎	כַּסְפְּכֶן‎
-money	singular	construct	כֶּסֶף־	third	כַּסְפּוֹ‎	כַּסְפָּהּ‎	כַּסְפָּם‎	כַּסְפָּן‎
-money	plural	indefinite	כְּסָפִים‎	first	כספיי / כְּסָפַי‎	כספיי / כְּסָפַי‎	כְּסָפֵינוּ‎	כְּסָפֵינוּ‎
-money	plural	definite	הַכְּסָפִים‎	second	כְּסָפֶיךָ‎	כספייך / כְּסָפַיִךְ‎	כַּסְפֵיכֶם‎	כַּסְפֵיכֶן‎
-money	plural	construct	כַּסְפֵי־‎	third	כְּסָפָיו‎	כְּסָפֶיהָ‎	כַּסְפֵיהֶם‎	כַּסְפֵיהֶן‎
-monster	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-monster	number	state	form	person	singular	singular	plural	plural
-monster	number	state	form	person	m.	f.	m.	f.
-monster	singular	indefinite	בְּהֵמָה	first	בְּהֶמְתִּי‎	בְּהֶמְתִּי‎	בְּהֶמְתֵּנוּ‎	בְּהֶמְתֵּנוּ‎
-monster	singular	definite	הַבְּהֵמָה‎	second	בְּהֶמְתְּךָ‎	בְּהֶמְתֵּךְ‎	בְּהֶמְתְּכֶם‎	בְּהֶמְתְּכֶן‎
-monster	singular	construct	בֶּהֱמַת־‎	third	בְּהֶמְתּוֹ‎	בְּהֶמְתָּהּ‎	בְּהֶמְתָּם‎	בְּהֶמְתָּן‎
-monster	plural	indefinite	בְּהֵמוֹת‎	first	בהמותיי / בַּהֲמוֹתַי‎	בהמותיי / בַּהֲמוֹתַי‎	בַּהֲמוֹתֵינוּ‎	בַּהֲמוֹתֵינוּ‎
-monster	plural	definite	הַבְּהֵמוֹת‎	second	בַּהֲמוֹתֶיךָ‎	בהמותייך / בַּהֲמוֹתַיִךְ‎	בַּהֲמוֹתֵיכֶם‎	בַּהֲמוֹתֵיכֶן‎
-monster	plural	construct	בַּהֲמוֹת־‎	third	בַּהֲמוֹתָיו‎	בַּהֲמוֹתֶיהָ‎	בַּהֲמוֹתָם‎	בַּהֲמוֹתָן‎
-name	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-name	number	state	form	person	singular	singular	plural	plural
-name	number	state	form	person	m.	f.	m.	f.
-name	singular	indefinite	שֵׁם	first	שְׁמִי‎	שְׁמִי‎	שְׁמֵנוּ‎	שְׁמֵנוּ‎
-name	singular	definite	הַשֵּׁם‎	second	שִׁמְךָ‎	שְׁמֵךְ‎	שִׁמְכֶם‎	שִׁמְכֶן‎
-name	singular	construct	שֵׁם־	third	שְׁמוֹ‎	שְׁמָהּ‎	שְׁמָם‎	שְׁמָן‎
-name	plural	indefinite	שֵׁמוֹת‎	first	שמותיי / שְׁמוֹתַי‎	שמותיי / שְׁמוֹתַי‎	שְׁמוֹתֵינוּ‎	שְׁמוֹתֵינוּ‎
-name	plural	definite	הַשֵּׁמוֹת‎	second	שְׁמוֹתֶיךָ‎	שמותייך / שְׁמוֹתַיִךְ‎	שְׁמוֹתֵיכֶם‎	שְׁמוֹתֵיכֶן‎
-name	plural	construct	שְׁמוֹת־‎	third	שְׁמוֹתָיו‎	שְׁמוֹתֶיהָ‎	שְׁמוֹתָם‎	שְׁמוֹתָן‎
-rock	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-rock	number	state	form	person	singular	singular	plural	plural
-rock	number	state	form	person	m.	f.	m.	f.
-rock	singular	indefinite	אֶבֶן	first	אַבְנִי‎	אַבְנִי‎	אַבְנֵנוּ‎	אַבְנֵנוּ‎
-rock	singular	definite	הָאֶבֶן‎	second	אַבְנְךָ‎	אַבְנֵךְ‎	אַבְנְכֶם‎	אַבְנְכֶן‎
-rock	singular	construct	אֶבֶן־	third	אַבְנוֹ‎	אַבְנָהּ‎	אַבְנָם‎	אַבְנָן‎
-rock	plural	indefinite	אֲבָנִים‎	first	אבניי / אֲבָנַי‎	אבניי / אֲבָנַי‎	אֲבָנֵינוּ‎	אֲבָנֵינוּ‎
-rock	plural	definite	הָאֲבָנִים‎	second	אֲבָנֶיךָ‎	אבנייך / אֲבָנַיִךְ‎	אַבְנֵיכֶם‎	אַבְנֵיכֶן‎
-rock	plural	construct	אַבְנֵי־‎	third	אֲבָנָיו‎	אֲבָנֶיהָ‎	אַבְנֵיהֶם‎	אַבְנֵיהֶן‎
-son	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-son	number	state	form	person	singular	singular	plural	plural
-son	number	state	form	person	m.	f.	m.	f.
-son	singular	indefinite	בֵּן	first	בְּנִי‎	בְּנִי‎	בְּנֵנוּ‎	בְּנֵנוּ‎
-son	singular	definite	הַבֵּן‎	second	בִּנְךָ‎	בְּנֵךְ‎	בִּנְכֶם‎	בִּנְכֶן‎
-son	singular	construct	בֶּן־	third	בְּנוֹ‎	בְּנָהּ‎	בְּנָם‎	בְּנָן‎
-son	plural	indefinite	בָּנִים‎	first	בניי / בָּנַי‎	בניי / בָּנַי‎	בָּנֵינוּ‎	בָּנֵינוּ‎
-son	plural	definite	הַבָּנִים‎	second	בָּנֶיךָ‎	בנייך / בָּנַיִךְ‎	בְּנֵיכֶם‎	בְּנֵיכֶן‎
-son	plural	construct	בְּנֵי־‎	third	בָּנָיו‎	בָּנֶיהָ‎	בְּנֵיהֶם‎	בְּנֵיהֶן‎
-way	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-way	number	state	form	person	singular	singular	plural	plural
-way	number	state	form	person	m.	f.	m.	f.
-way	singular	indefinite	דֶּרֶךְ	first	דַּרְכִּי‎	דַּרְכִּי‎	דַּרְכֵּנוּ‎	דַּרְכֵּנוּ‎
-way	singular	definite	הַדֶּרֶךְ‎	second	דַּרְכְּךָ‎	דַּרְכֵּךְ‎	דַּרְכְּכֶם‎	דַּרְכְּכֶן‎
-way	singular	construct	דֶּרֶךְ־	third	דַּרְכּוֹ‎	דַּרְכָּהּ‎	דַּרְכָּם‎	דַּרְכָּן‎
-way	plural	indefinite	דְּרָכִים‎	first	דרכיי / דְּרָכַי‎	דרכיי / דְּרָכַי‎	דְּרָכֵינוּ‎	דְּרָכֵינוּ‎
-way	plural	definite	הַדְּרָכִים‎	second	דְּרָכֶיךָ‎	דרכייך / דְּרָכַיִךְ‎	דַּרְכֵיכֶם‎	דַּרְכֵיכֶן‎
-way	plural	construct	דַּרְכֵי־‎	third	דְּרָכָיו‎	דְּרָכֶיהָ‎	דַּרְכֵיהֶם‎	דַּרְכֵיהֶן‎
-work	number	isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
-work	number	state	form	person	singular	singular	plural	plural
-work	number	state	form	person	m.	f.	m.	f.
-work	singular	indefinite	מְלָאכָה	first	מְלַאכְתִּי‎	מְלַאכְתִּי‎	מְלַאכְתֵּנוּ‎	מְלַאכְתֵּנוּ‎
-work	singular	definite	הַמְּלָאכָה‎	second	מְלַאכְתְּךָ‎	מְלַאכְתֵּךְ‎	מְלַאכְתְּכֶם‎	מְלַאכְתְּכֶן‎
-work	singular	construct	מְלֶאכֶת־‎	third	מְלַאכְתּוֹ‎	מְלַאכְתָּהּ‎	מְלַאכְתָּם‎	מְלַאכְתָּן‎
-work	plural	indefinite	מְלָאכוֹת‎	first	מלאכותיי / מְלָאכוֹתַי‎	מלאכותיי / מְלָאכוֹתַי‎	מְלָאכוֹתֵינוּ‎	מְלָאכוֹתֵינוּ‎
-work	plural	definite	הַמְּלָאכוֹת‎	second	מְלָאכוֹתֶיךָ‎	מלאכותייך / מְלָאכוֹתַיִךְ‎	מְלָאכוֹתֵיכֶם‎	מְלָאכוֹתֵיכֶן‎
-work	plural	construct	מְלָאכוֹת־‎	third	מְלָאכוֹתָיו‎	מְלָאכוֹתֶיהָ‎	מְלָאכוֹתָם‎	מְלָאכוֹתָן‎
+thought		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+thought	number:	state:	form	person:	singular	singular	plural	plural
+thought	number:	state:	form	person:	m	f	m	f
+thought	singular	indefinite	מַחְשָׁבָה	first	מַחְשָׁבָתִי	מַחְשָׁבָתִי	מַחְשָׁבָתֵנוּ	מַחְשָׁבָתֵנוּ
+thought	singular	definite	הַמַּחְשָׁבָה	second	מַחְשָׁבָתְךָ	מַחְשָׁבָתֵךְ	מַחְשָׁבַתְכֶם	מַחְשָׁבַתְכֶן
+thought	singular	construct	מַחְשָׁבַת־	third	מַחְשָׁבָתוֹ	מַחְשָׁבָתָהּ	מַחְשָׁבָתָם	מַחְשָׁבָתָן
+thought	plural	indefinite	מַחְשְׁבוֹת	first	מחשבותיי / מַחְשְׁבוֹתַי	מחשבותיי / מַחְשְׁבוֹתַי	מַחְשְׁבוֹתֵינוּ	מַחְשְׁבוֹתֵינוּ
+thought	plural	definite	הַמַּחְשְׁבוֹת	second	מַחְשְׁבוֹתֶיךָ	מחשבותייך / מַחְשְׁבוֹתַיִךְ	מַחְשְׁבוֹתֵיכֶם	מַחְשְׁבוֹתֵיכֶן
+thought	plural	construct	מַחְשְׁבוֹת־	third	מַחְשְׁבוֹתָיו	מַחְשְׁבוֹתֶיהָ	מַחְשְׁבוֹתֵיהֶם, מַחְשְׁבוֹתָם	מַחְשְׁבוֹתֵיהֶן, מַחְשְׁבוֹתָן
+thought		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+thought	number:	state:	form	person:	singular	singular	plural	plural
+thought	number:	state:	form	person:	m	f	m	f
+thought	singular	indefinite	מַחְשָׁבָה	first	מַחְשָׁבָתִי	מַחְשָׁבָתִי	מַחְשָׁבָתֵנוּ	מַחְשָׁבָתֵנוּ
+thought	singular	definite	הַמַּחְשָׁבָה	second	מַחְשָׁבָתְךָ	מַחְשָׁבָתֵךְ	מַחְשָׁבַתְכֶם	מַחְשָׁבַתְכֶן
+thought	singular	construct	מַחְשָׁבַת־	third	מַחְשָׁבָתוֹ	מַחְשָׁבָתָהּ	מַחְשָׁבָתָם	מַחְשָׁבָתָן
+thought	plural	indefinite	מַחְשְׁבוֹת	first	מחשבותיי / מַחְשְׁבוֹתַי	מחשבותיי / מַחְשְׁבוֹתַי	מַחְשְׁבוֹתֵינוּ	מַחְשְׁבוֹתֵינוּ
+thought	plural	definite	הַמַּחְשְׁבוֹת	second	מַחְשְׁבוֹתֶיךָ	מחשבותייך / מַחְשְׁבוֹתַיִךְ	מַחְשְׁבוֹתֵיכֶם	מַחְשְׁבוֹתֵיכֶן
+thought	plural	construct	מַחְשְׁבוֹת־	third	מַחְשְׁבוֹתָיו	מַחְשְׁבוֹתֶיהָ	מַחְשְׁבוֹתֵיהֶם, מַחְשְׁבוֹתָם	מַחְשְׁבוֹתֵיהֶן, מַחְשְׁבוֹתָן
+thought		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+thought	number:	state:	form	person:	singular	singular	plural	plural
+thought	number:	state:	form	person:	m	f	m	f
+thought	singular	indefinite	מַחְשָׁבָה	first	מַחְשָׁבָתִי	מַחְשָׁבָתִי	מַחְשָׁבָתֵנוּ	מַחְשָׁבָתֵנוּ
+thought	singular	definite	הַמַּחְשָׁבָה	second	מַחְשָׁבָתְךָ	מַחְשָׁבָתֵךְ	מַחְשָׁבַתְכֶם	מַחְשָׁבַתְכֶן
+thought	singular	construct	מַחְשָׁבַת־	third	מַחְשָׁבָתוֹ	מַחְשָׁבָתָהּ	מַחְשָׁבָתָם	מַחְשָׁבָתָן
+thought	plural	indefinite	מַחְשְׁבוֹת	first	מחשבותיי / מַחְשְׁבוֹתַי	מחשבותיי / מַחְשְׁבוֹתַי	מַחְשְׁבוֹתֵינוּ	מַחְשְׁבוֹתֵינוּ
+thought	plural	definite	הַמַּחְשְׁבוֹת	second	מַחְשְׁבוֹתֶיךָ	מחשבותייך / מַחְשְׁבוֹתַיִךְ	מַחְשְׁבוֹתֵיכֶם	מַחְשְׁבוֹתֵיכֶן
+thought	plural	construct	מַחְשְׁבוֹת־	third	מַחְשְׁבוֹתָיו	מַחְשְׁבוֹתֶיהָ	מַחְשְׁבוֹתֵיהֶם, מַחְשְׁבוֹתָם	מַחְשְׁבוֹתֵיהֶן, מַחְשְׁבוֹתָן
+ball		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+ball	number:	state:	form	person:	singular	singular	plural	plural
+ball	number:	state:	form	person:	m	f	m	f
+ball	singular	indefinite	כַּדּוּר	first	כַּדּוּרִי	כַּדּוּרִי	כַּדּוּרֵנוּ	כַּדּוּרֵנוּ
+ball	singular	definite	הַכַּדּוּר	second	כַּדּוּרְךָ	כַּדּוּרֵךְ	כַּדּוּרְכֶם	כַּדּוּרְכֶן
+ball	singular	construct	כַּדּוּר־	third	כַּדּוּרוֹ	כַּדּוּרָהּ	כַּדּוּרָם	כַּדּוּרָן
+ball	plural	indefinite	כַּדּוּרִים	first	כדוריי / כַּדּוּרַי	כדוריי / כַּדּוּרַי	כַּדּוּרֵינוּ	כַּדּוּרֵינוּ
+ball	plural	definite	הַכַּדּוּרִים	second	כַּדּוּרֶיךָ	כדורייך / כַּדּוּרַיִךְ	כַּדּוּרֵיכֶם	כַּדּוּרֵיכֶן
+ball	plural	construct	כַּדּוּרֵי־	third	כַּדּוּרָיו	כַּדּוּרֶיהָ	כַּדּוּרֵיהֶם	כַּדּוּרֵיהֶן
+ball		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+ball	number:	state:	form	person:	singular	singular	plural	plural
+ball	number:	state:	form	person:	m	f	m	f
+ball	singular	indefinite	כַּדּוּר	first	כַּדּוּרִי	כַּדּוּרִי	כַּדּוּרֵנוּ	כַּדּוּרֵנוּ
+ball	singular	definite	הַכַּדּוּר	second	כַּדּוּרְךָ	כַּדּוּרֵךְ	כַּדּוּרְכֶם	כַּדּוּרְכֶן
+ball	singular	construct	כַּדּוּר־	third	כַּדּוּרוֹ	כַּדּוּרָהּ	כַּדּוּרָם	כַּדּוּרָן
+ball	plural	indefinite	כַּדּוּרִים	first	כדוריי / כַּדּוּרַי	כדוריי / כַּדּוּרַי	כַּדּוּרֵינוּ	כַּדּוּרֵינוּ
+ball	plural	definite	הַכַּדּוּרִים	second	כַּדּוּרֶיךָ	כדורייך / כַּדּוּרַיִךְ	כַּדּוּרֵיכֶם	כַּדּוּרֵיכֶן
+ball	plural	construct	כַּדּוּרֵי־	third	כַּדּוּרָיו	כַּדּוּרֶיהָ	כַּדּוּרֵיהֶם	כַּדּוּרֵיהֶן
+bird		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+bird	number:	state:	form	person:	singular	singular	plural	plural
+bird	number:	state:	form	person:	m	f	m	f
+bird	singular	indefinite	ציפור / צִפּוֹר	first	ציפורי / צִפּוֹרִי	ציפורי / צִפּוֹרִי	ציפורנו / צִפּוֹרֵנוּ	ציפורנו / צִפּוֹרֵנוּ
+bird	singular	definite	הציפור / הַצִּפּוֹר	second	ציפורך / צִפּוֹרְךָ	ציפורך / צִפּוֹרֵךְ	ציפורכם / צִפּוֹרְכֶם	ציפורכן / צִפּוֹרְכֶן
+bird	singular	construct	ציפור־ / צִפּוֹר־	third	ציפורו / צִפּוֹרוֹ	ציפורה / צִפּוֹרָהּ	ציפורם / צִפּוֹרָם	ציפורן / צִפּוֹרָן
+bird	plural	indefinite	ציפורים / צִפֳּרִים	first	ציפוריי / צִפֳּרַי	ציפוריי / צִפֳּרַי	ציפורינו / צִפֳּרֵינוּ	ציפורינו / צִפֳּרֵינוּ
+bird	plural	definite	הציפורים / הַצִּפֳּרִים	second	ציפוריך / צִפֳּרֶיךָ	ציפורייך / צִפֳּרַיִךְ	ציפוריכם / צִפֳּרֵיכֶם	ציפוריכן / צִפֳּרֵיכֶן
+bird	plural	construct	ציפורי־ / צִפֳּרֵי־	third	ציפוריו / צִפֳּרָיו	ציפוריה / צִפֳּרֶיהָ	ציפוריהם / צִפֳּרֵיהֶם	ציפוריהן / צִפֳּרֵיהֶן
+bridge		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+bridge	number:	state:	form	person:	singular	singular	plural	plural
+bridge	number:	state:	form	person:	m	f	m	f
+bridge	singular	indefinite	גֶּשֶׁר	first	גִּשְׁרִי	גִּשְׁרִי	גִּשְׁרֵנוּ	גִּשְׁרֵנוּ
+bridge	singular	definite	הַגֶּשֶׁר	second	גִּשְׁרְךָ	גִּשְׁרֵךְ	גִּשְׁרְכֶם	גִּשְׁרְכֶן
+bridge	singular	construct	גֶּשֶׁר־	third	גִּשְׁרוֹ	גִּשְׁרָהּ	גִּשְׁרָם	גִּשְׁרָן
+bridge	plural	indefinite	גְּשָׁרִים	first	גשריי / גְּשָׁרַי	גשריי / גְּשָׁרַי	גְּשָׁרֵינוּ	גְּשָׁרֵינוּ
+bridge	plural	definite	הַגְּשָׁרִים	second	גְּשָׁרֶיךָ	גשרייך / גְּשָׁרַיִךְ	גִּשְׁרֵיכֶם	גִּשְׁרֵיכֶן
+bridge	plural	construct	גִּשְׁרֵי־	third	גְּשָׁרָיו	גְּשָׁרֶיהָ	גִּשְׁרֵיהֶם	גִּשְׁרֵיהֶן
+sparrow		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+sparrow	number:	state:	form	person:	singular	singular	plural	plural
+sparrow	number:	state:	form	person:	m	f	m	f
+sparrow	singular	indefinite	דְּרוֹר	first	דְּרוֹרִי	דְּרוֹרִי	דְּרוֹרֵנוּ	דְּרוֹרֵנוּ
+sparrow	singular	definite	הַדְּרוֹר	second	דְּרוֹרְךָ	דְּרוֹרֵךְ	דְּרוֹרְכֶם	דְּרוֹרְכֶן
+sparrow	singular	construct	דְּרוֹר־	third	דְּרוֹרוֹ	דְּרוֹרָהּ	דְּרוֹרָם	דְּרוֹרָן
+sparrow	plural	indefinite	דְּרוֹרִים	first	דרוריי / דְּרוֹרַי	דרוריי / דְּרוֹרַי	דְּרוֹרֵינוּ	דְּרוֹרֵינוּ
+sparrow	plural	definite	הַדְּרוֹרִים	second	דְּרוֹרֶיךָ	דרורייך / דְּרוֹרַיִךְ	דְּרוֹרֵיכֶם	דְּרוֹרֵיכֶן
+sparrow	plural	construct	דְּרוֹרֵי־	third	דְּרוֹרָיו	דְּרוֹרֶיהָ	דְּרוֹרֵיהֶם	דְּרוֹרֵיהֶן
+swan		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+swan	number:	state:	form	person:	singular	singular	plural	plural
+swan	number:	state:	form	person:	m	f	m	f
+swan	singular	indefinite	בַּרְבּוּר	first	בַּרְבּוּרִי	בַּרְבּוּרִי	בַּרְבּוּרֵנוּ	בַּרְבּוּרֵנוּ
+swan	singular	definite	הַבַּרְבּוּר	second	בַּרְבּוּרְךָ	בַּרְבּוּרֵךְ	בַּרְבּוּרְכֶם	בַּרְבּוּרְכֶן
+swan	singular	construct	בַּרְבּוּר־	third	בַּרְבּוּרוֹ	בַּרְבּוּרָהּ	בַּרְבּוּרָם	בַּרְבּוּרָן
+swan	plural	indefinite	בַּרְבּוּרִים	first	ברבוריי / בַּרְבּוּרַי	ברבוריי / בַּרְבּוּרַי	בַּרְבּוּרֵינוּ	בַּרְבּוּרֵינוּ
+swan	plural	definite	הַבַּרְבּוּרִים	second	בַּרְבּוּרֶיךָ	ברבורייך / בַּרְבּוּרַיִךְ	בַּרְבּוּרֵיכֶם	בַּרְבּוּרֵיכֶן
+swan	plural	construct	בַּרְבּוּרֵי־	third	בַּרְבּוּרָיו	בַּרְבּוּרֶיהָ	בַּרְבּוּרֵיהֶם	בַּרְבּוּרֵיהֶן
+dove		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+dove	number:	state:	form	person:	singular	singular	plural	plural
+dove	number:	state:	form	person:	m	f	m	f
+dove	singular	indefinite	יוֹנָה	first	יוֹנָתִי	יוֹנָתִי	יוֹנָתֵנוּ	יוֹנָתֵנוּ
+dove	singular	definite	הַיּוֹנָה	second	יוֹנָתְךָ	יוֹנָתֵךְ	יוֹנַתְכֶם	יוֹנַתְכֶן
+dove	singular	construct	יוֹנַת־	third	יוֹנָתוֹ	יוֹנָתָהּ	יוֹנָתָם	יוֹנָתָן
+dove	plural	indefinite	יוֹנִים	first	יוניי / יוֹנַי	יוניי / יוֹנַי	יוֹנֵינוּ	יוֹנֵינוּ
+dove	plural	definite	הַיּוֹנִים	second	יוֹנֶיךָ	יונייך / יוֹנַיִךְ	יוֹנֵיכֶם	יוֹנֵיכֶן
+dove	plural	construct	יוֹנֵי־	third	יוֹנָיו	יוֹנֶיהָ	יוֹנֵיהֶם	יוֹנֵיהֶן
+pigeon		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+pigeon	number:	state:	form	person:	singular	singular	plural	plural
+pigeon	number:	state:	form	person:	m	f	m	f
+pigeon	singular	indefinite	יוֹנָה	first	יוֹנָתִי	יוֹנָתִי	יוֹנָתֵנוּ	יוֹנָתֵנוּ
+pigeon	singular	definite	הַיּוֹנָה	second	יוֹנָתְךָ	יוֹנָתֵךְ	יוֹנַתְכֶם	יוֹנַתְכֶן
+pigeon	singular	construct	יוֹנַת־	third	יוֹנָתוֹ	יוֹנָתָהּ	יוֹנָתָם	יוֹנָתָן
+pigeon	plural	indefinite	יוֹנִים	first	יוניי / יוֹנַי	יוניי / יוֹנַי	יוֹנֵינוּ	יוֹנֵינוּ
+pigeon	plural	definite	הַיּוֹנִים	second	יוֹנֶיךָ	יונייך / יוֹנַיִךְ	יוֹנֵיכֶם	יוֹנֵיכֶן
+pigeon	plural	construct	יוֹנֵי־	third	יוֹנָיו	יוֹנֶיהָ	יוֹנֵיהֶם	יוֹנֵיהֶן
+chick		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+chick	number:	state:	form	person:	singular	singular	plural	plural
+chick	number:	state:	form	person:	m	f	m	f
+chick	singular	indefinite	אֶפְרוֹחַ	first	אֶפְרוֹחִי	אֶפְרוֹחִי	אֶפְרוֹחֵנוּ	אֶפְרוֹחֵנוּ
+chick	singular	definite	הָאֶפְרוֹחַ	second	אֶפְרוֹחֲךָ	אֶפְרוֹחֵךְ	אֶפְרוֹחֲכֶם	אֶפְרוֹחֲכֶן
+chick	singular	construct	אֶפְרוֹחַ־	third	אֶפְרוֹחוֹ	אֶפְרוֹחָהּ	אֶפְרוֹחָם	אֶפְרוֹחָן
+chick	plural	indefinite	אֶפְרוֹחִים	first	אפרוחיי / אֶפְרוֹחַי	אפרוחיי / אֶפְרוֹחַי	אֶפְרוֹחֵינוּ	אֶפְרוֹחֵינוּ
+chick	plural	definite	הָאֶפְרוֹחִים	second	אֶפְרוֹחֶיךָ	אפרוחייך / אֶפְרוֹחַיִךְ	אֶפְרוֹחֵיכֶם	אֶפְרוֹחֵיכֶן
+chick	plural	construct	אֶפְרוֹחֵי־	third	אֶפְרוֹחָיו	אֶפְרוֹחֶיהָ	אֶפְרוֹחֵיהֶם	אֶפְרוֹחֵיהֶן
+chick		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+chick	number:	state:	form	person:	singular	singular	plural	plural
+chick	number:	state:	form	person:	m	f	m	f
+chick	singular	indefinite	גּוֹזָל	first	גּוֹזָלִי	גּוֹזָלִי	גּוֹזָלֵנוּ	גּוֹזָלֵנוּ
+chick	singular	definite	הַגּוֹזָל	second	גּוֹזָלְךָ	גּוֹזָלֵךְ	גּוֹזַלְכֶם	גּוֹזַלְכֶן
+chick	singular	construct	גּוֹזַל־	third	גּוֹזָלוֹ	גּוֹזָלָהּ	גּוֹזָלָם	גּוֹזָלָן
+chick	plural	indefinite	גּוֹזָלִים	first	גוזליי / גּוֹזָלַי	גוזליי / גּוֹזָלַי	גּוֹזָלֵינוּ	גּוֹזָלֵינוּ
+chick	plural	definite	הַגּוֹזָלִים	second	גּוֹזָלֶיךָ	גוזלייך / גּוֹזָלַיִךְ	גּוֹזְלֵיכֶם	גּוֹזְלֵיכֶן
+chick	plural	construct	גּוֹזְלֵי־	third	גּוֹזָלָיו	גּוֹזָלֶיהָ	גּוֹזְלֵיהֶם	גּוֹזְלֵיהֶן
+child		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+child	number:	state:	form	person:	singular	singular	plural	plural
+child	number:	state:	form	person:	m	f	m	f
+child	singular	indefinite	יֶלֶד	first	יַלְדִּי	יַלְדִּי	יַלְדֵּנוּ	יַלְדֵּנוּ
+child	singular	definite	הַיֶּלֶד	second	יַלְדְּךָ	יַלְדֵּךְ	יַלְדְּכֶם	יַלְדְּכֶן
+child	singular	construct	יֶלֶד־	third	יַלְדּוֹ	יַלְדָּהּ	יַלְדָּם	יַלְדָּן
+child	plural	indefinite	יְלָדִים	first	ילדיי / יְלָדַי	ילדיי / יְלָדַי	יְלָדֵינוּ	יְלָדֵינוּ
+child	plural	definite	הַיְּלָדִים	second	יְלָדֶיךָ	ילדייך / יְלָדַיִךְ	יַלְדֵיכֶם	יַלְדֵיכֶן
+child	plural	construct	יַלְדֵי־	third	יְלָדָיו	יְלָדֶיהָ	יַלְדֵיהֶם	יַלְדֵיהֶן
+child		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+child	number:	state:	form	person:	singular	singular	plural	plural
+child	number:	state:	form	person:	m	f	m	f
+child	singular	indefinite	בֵּן	first	בְּנִי	בְּנִי	בְּנֵנוּ	בְּנֵנוּ
+child	singular	definite	הַבֵּן	second	בִּנְךָ	בְּנֵךְ	בִּנְכֶם	בִּנְכֶן
+child	singular	construct	בֶּן־	third	בְּנוֹ	בְּנָהּ	בְּנָם	בְּנָן
+child	plural	indefinite	בָּנִים	first	בניי / בָּנַי	בניי / בָּנַי	בָּנֵינוּ	בָּנֵינוּ
+child	plural	definite	הַבָּנִים	second	בָּנֶיךָ	בנייך / בָּנַיִךְ	בְּנֵיכֶם	בְּנֵיכֶן
+child	plural	construct	בְּנֵי־	third	בָּנָיו	בָּנֶיהָ	בְּנֵיהֶם	בְּנֵיהֶן
+child		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+child	number:	state:	form	person:	singular	singular	plural	plural
+child	number:	state:	form	person:	m	f	m	f
+child	singular	indefinite	בַּת	first	בִּתִּי	בִּתִּי	בִּתֵּנוּ	בִּתֵּנוּ
+child	singular	definite	הַבַּת	second	בִּתְּךָ	בִּתֵּךְ	בִּתְּכֶם	בִּתְּכֶן
+child	singular	construct	בַּת־	third	בִּתּוֹ	בִּתָּהּ	בִּתָּם	בִּתָּן
+child	plural	indefinite	בָּנוֹת	first	בנותיי / בְּנוֹתַי	בנותיי / בְּנוֹתַי	בְּנוֹתֵינוּ	בְּנוֹתֵינוּ
+child	plural	definite	הַבָּנוֹת	second	בְּנוֹתֶיךָ	בנותייך / בְּנוֹתַיִךְ	בְּנוֹתֵיכֶם	בְּנוֹתֵיכֶן
+child	plural	construct	בְּנוֹת־	third	בְּנוֹתָיו	בְּנוֹתֶיהָ	בְּנוֹתֵיהֶם, בְּנוֹתָם	בְּנוֹתֵיהֶן, בְּנוֹתָן
+child		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+child	number:	state:	form	person:	singular	singular	plural	plural
+child	number:	state:	form	person:	m	f	m	f
+child	singular	indefinite	יֶלֶד	first	יַלְדִּי	יַלְדִּי	יַלְדֵּנוּ	יַלְדֵּנוּ
+child	singular	definite	הַיֶּלֶד	second	יַלְדְּךָ	יַלְדֵּךְ	יַלְדְּכֶם	יַלְדְּכֶן
+child	singular	construct	יֶלֶד־	third	יַלְדּוֹ	יַלְדָּהּ	יַלְדָּם	יַלְדָּן
+child	plural	indefinite	יְלָדִים	first	ילדיי / יְלָדַי	ילדיי / יְלָדַי	יְלָדֵינוּ	יְלָדֵינוּ
+child	plural	definite	הַיְּלָדִים	second	יְלָדֶיךָ	ילדייך / יְלָדַיִךְ	יַלְדֵיכֶם	יַלְדֵיכֶן
+child	plural	construct	יַלְדֵי־	third	יְלָדָיו	יְלָדֶיהָ	יַלְדֵיהֶם	יַלְדֵיהֶן
+egg		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+egg	number:	state:	form	person:	singular	singular	plural	plural
+egg	number:	state:	form	person:	m	f	m	f
+egg	singular	indefinite	בֵּיצָה	first	בֵּיצָתִי	בֵּיצָתִי	בֵּיצָתֵנוּ	בֵּיצָתֵנוּ
+egg	singular	definite	הַבֵּיצָה	second	בֵּיצָתְךָ	בֵּיצָתֵךְ	בֵּיצַתְכֶם	בֵּיצַתְכֶן
+egg	singular	construct	בֵּיצַת־	third	בֵּיצָתוֹ	בֵּיצָתָהּ	בֵּיצָתָם	בֵּיצָתָן
+egg	plural	indefinite	בֵּיצִים	first	ביציי / בֵּיצַי	ביציי / בֵּיצַי	בֵּיצֵינוּ	בֵּיצֵינוּ
+egg	plural	definite	הַבֵּיצִים	second	בֵּיצֶיךָ	ביצייך / בֵּיצַיִךְ	בֵּיצֵיכֶם	בֵּיצֵיכֶן
+egg	plural	construct	בֵּיצֵי־	third	בֵּיצָיו	בֵּיצֶיהָ	בֵּיצֵיהֶם	בֵּיצֵיהֶן
+nest		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+nest	number:	state:	form	person:	singular	singular	plural	plural
+nest	number:	state:	form	person:	m	f	m	f
+nest	singular	indefinite	קֵן	first	קִנִּי	קִנִּי	קִנֵּנוּ	קִנֵּנוּ
+nest	singular	definite	הַקֵּן	second	קִנְּךָ	קִנֵּךְ	קִנְּכֶם	קִנְּכֶן
+nest	singular	construct	קַן־	third	קִנּוֹ	קִנָּהּ	קִנָּם	קִנָּן
+nest	plural	indefinite	קִנִּים	first	קניי / קִנַּי	קניי / קִנַּי	קִנֵּינוּ	קִנֵּינוּ
+nest	plural	definite	הַקִּנִּים	second	קִנֶּיךָ	קנייך / קִנַּיִךְ	קִנֵּיכֶם	קִנֵּיכֶן
+nest	plural	construct	קִנֵּי־	third	קִנָּיו	קִנֶּיהָ	קִנֵּיהֶם	קִנֵּיהֶן
+tree		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+tree	number:	state:	form	person:	singular	singular	plural	plural
+tree	number:	state:	form	person:	m	f	m	f
+tree	singular	indefinite	עֵץ	first	עֵצִי	עֵצִי	עֵצֵנוּ	עֵצֵנוּ
+tree	singular	definite	הָעֵץ	second	עֵצְךָ	עֵצֵךְ	עֵצְכֶם	עֵצְכֶן
+tree	singular	construct	עֵץ־	third	עֵצוֹ	עֵצָהּ	עֵצָם	עֵצָן
+tree	plural	indefinite	עֵצִים	first	עציי / עֵצַי	עציי / עֵצַי	עֵצֵינוּ	עֵצֵינוּ
+tree	plural	definite	הָעֵצִים	second	עֵצֶיךָ	עצייך / עֵצַיִךְ	עֲצֵיכֶם	עֲצֵיכֶן
+tree	plural	construct	עֲצֵי־	third	עֵצָיו	עֵצֶיהָ	עֲצֵיהֶם	עֲצֵיהֶן
+tree		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+tree	number:	state:	form	person:	singular	singular	plural	plural
+tree	number:	state:	form	person:	m	f	m	f
+tree	singular	indefinite	אִילָן	first	אִילָנִי	אִילָנִי	אִילָנֵנוּ	אִילָנֵנוּ
+tree	singular	definite	הָאִילָן	second	אִילָנְךָ	אִילָנֵךְ	אִילָנְכֶם	אִילָנְכֶן
+tree	singular	construct	אִילָן־	third	אִילָנוֹ	אִילָנָהּ	אִילָנָם	אִילָנָן
+tree	plural	indefinite	אִילָנוֹת	first	אילניי / אִילָנַי	אילניי / אִילָנַי	אִילָנֵינוּ	אִילָנֵינוּ
+tree	plural	definite	הָאִילָנוֹת	second	אִילָנֶיךָ	אילנייך / אִילָנַיִךְ	אִילָנֵיכֶם	אִילָנֵיכֶן
+tree	plural	construct	אִילָנֵי־	third	אִילָנוֹתָיו	אִילָנֶיהָ	אִילָנֵיהֶם	אִילָנֵיהֶן
+book		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+book	number:	state:	form	person:	singular	singular	plural	plural
+book	number:	state:	form	person:	m	f	m	f
+book	singular	indefinite	סֵפֶר	first	סִפְרִי	סִפְרִי	סִפְרֵנוּ	סִפְרֵנוּ
+book	singular	definite	הַסֵּפֶר	second	סִפְרְךָ	סִפְרֵךְ	סִפְרְכֶם	סִפְרְכֶן
+book	singular	construct	סֵפֶר־	third	סִפְרוֹ	סִפְרָהּ	סִפְרָם	סִפְרָן
+book	plural	indefinite	סְפָרִים	first	ספריי / סְפָרַי	ספריי / סְפָרַי	סְפָרֵינוּ	סְפָרֵינוּ
+book	plural	definite	הַסְּפָרִים	second	סְפָרֶיךָ	ספרייך / סְפָרַיִךְ	סִפְרֵיכֶם	סִפְרֵיכֶן
+book	plural	construct	סִפְרֵי־	third	סְפָרָיו	סְפָרֶיהָ	סִפְרֵיהֶם	סִפְרֵיהֶן
+clothing		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+clothing	number:	state:	form	person:	singular	singular	plural	plural
+clothing	number:	state:	form	person:	m	f	m	f
+clothing	singular	indefinite	לְבוּשׁ	first	לְבוּשִׁי	לְבוּשִׁי	לְבוּשֵׁנוּ	לְבוּשֵׁנוּ
+clothing	singular	definite	הַלְּבוּשׁ	second	לְבוּשְׁךָ	לְבוּשֵׁךְ	לְבוּשְׁכֶם	לְבוּשְׁכֶן
+clothing	singular	construct	לְבוּשׁ־	third	לְבוּשׁוֹ	לְבוּשָׁהּ	לְבוּשָׁם	לְבוּשָׁן
+clothing	plural	indefinite	לְבוּשִׁים	first	לבושיי / לְבוּשַׁי	לבושיי / לְבוּשַׁי	לְבוּשֵׁינוּ	לְבוּשֵׁינוּ
+clothing	plural	definite	הַלְּבוּשִׁים	second	לְבוּשֶׁיךָ	לבושייך / לְבוּשַׁיִךְ	לְבוּשֵׁיכֶם	לְבוּשֵׁיכֶן
+clothing	plural	construct	לְבוּשֵׁי־	third	לְבוּשָׁיו	לְבוּשֶׁיהָ	לְבוּשֵׁיהֶם	לְבוּשֵׁיהֶן
+garment		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+garment	number:	state:	form	person:	singular	singular	plural	plural
+garment	number:	state:	form	person:	m	f	m	f
+garment	singular	indefinite	בֶּגֶד	first	בִּגְדִּי	בִּגְדִּי	בִּגְדֵּנוּ	בִּגְדֵּנוּ
+garment	singular	definite	הַבֶּגֶד	second	בִּגְדְּךָ	בִּגְדֵּךְ	בִּגְדְּכֶם	בִּגְדְּכֶן
+garment	singular	construct	בֶּגֶד־	third	בִּגְדּוֹ	בִּגְדָּהּ	בִּגְדָּם	בִּגְדָּן
+garment	plural	indefinite	בְּגָדִים	first	בגדיי / בְּגָדַי	בגדיי / בְּגָדַי	בְּגָדֵינוּ	בְּגָדֵינוּ
+garment	plural	definite	הַבְּגָדִים	second	בְּגָדֶיךָ	בגדייך / בְּגָדַיִךְ	בִּגְדֵּיכֶם	בִּגְדֵּיכֶן
+garment	plural	construct	בִּגְדֵּי־	third	בְּגָדָיו	בְּגָדֶיהָ	בִּגְדֵּיהֶם	בִּגְדֵּיהֶן
+dog		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+dog	number:	state:	form	person:	singular	singular	plural	plural
+dog	number:	state:	form	person:	m	f	m	f
+dog	masculine singular	indefinite	כֶּלֶב	first	כַּלְבִּי	כַּלְבִּי	כַּלְבֵּנוּ	כַּלְבֵּנוּ
+dog	masculine singular	definite	הַכֶּלֶב	second	כַּלְבְּךָ	כַּלְבֵּךְ	כַּלְבְּכֶם	כַּלְבְּכֶן
+dog	masculine singular	construct	כֶּלֶב־	third	כַּלְבּוֹ	כַּלְבָּהּ	כַּלְבָּם	כַּלְבָּן
+dog	masculine plural	indefinite	כְּלָבִים	first	כלביי / כְּלָבַי	כלביי / כְּלָבַי	כְּלָבֵינוּ	כְּלָבֵינוּ
+dog	masculine plural	definite	הַכְּלָבִים	second	כְּלָבֶיךָ	כלבייך / כְּלָבַיִךְ	כַּלְבֵיכֶם	כַּלְבֵיכֶן
+dog	masculine plural	construct	כַּלְבֵי־	third	כְּלָבָיו	כְּלָבֶיהָ	כַּלְבֵיהֶם	כַּלְבֵיהֶן
+dog	feminine singular	indefinite	כַּלְבָּה	first	כַּלְבָּתִי	כַּלְבָּתִי	כַּלְבָּתֵנוּ	כַּלְבָּתֵנוּ
+dog	feminine singular	definite	הַכַּלְבָּה	second	כַּלְבָּתְךָ	כַּלְבָּתֵךְ	כַּלְבַּתְכֶם	כַּלְבַּתְכֶן
+dog	feminine singular	construct	כַּלְבַּת־	third	כַּלְבָּתוֹ	כַּלְבָּתָהּ	כַּלְבָּתָם	כַּלְבָּתָן
+dog	feminine plural	indefinite	כְּלָבוֹת	first	כלבותיי / כַּלְבוֹתַי	כלבותיי / כַּלְבוֹתַי	כַּלְבוֹתֵינוּ	כַּלְבוֹתֵינוּ
+dog	feminine plural	definite	הַכְּלָבוֹת	second	כַּלְבוֹתֶיךָ	כלבותייך / כַּלְבוֹתַיִךְ	כַּלְבוֹתֵיכֶם	כַּלְבוֹתֵיכֶן
+dog	feminine plural	construct	כַּלְבוֹת־	third	כַּלְבוֹתָיו	כַּלְבוֹתֶיהָ	כַּלְבוֹתֵיהֶם, כַּלְבוֹתָם	כַּלְבוֹתֵיהֶן, כַּלְבוֹתָן
+door		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+door	number:	state:	form	person:	singular	singular	plural	plural
+door	number:	state:	form	person:	m	f	m	f
+door	singular	indefinite	דֶּלֶת	first	דַּלְתִּי	דַּלְתִּי	דַּלְתֵּנוּ	דַּלְתֵּנוּ
+door	singular	definite	הַדֶּלֶת	second	דַּלְתְּךָ	דַּלְתֵּךְ	דַּלְתְּכֶם	דַּלְתְּכֶן
+door	singular	construct	דֶּלֶת־	third	דַּלְתּוֹ	דַּלְתָּהּ	דַּלְתָּם	דַּלְתָּן
+door	dual	indefinite	דלתיים / דְּלָתַיִם	first	דלתיי / דְּלָתַי	דלתיי / דְּלָתַי	דְּלָתֵינוּ	דְּלָתֵינוּ
+door	dual	definite	הדלתיים / הַדְּלָתַיִם	second	דְּלָתֶיךָ	דלתייך / דְּלָתַיִךְ	דַּלְתֵיכֶם	דַּלְתֵיכֶן
+door	dual	construct	דַּלְתֵי־	third	דְּלָתָיו	דְּלָתֶיהָ	דַּלְתֵיהֶם	דַּלְתֵיהֶן
+door	plural	indefinite	דְּלָתוֹת	first	דלתותיי / דַּלְתוֹתַי	דלתותיי / דַּלְתוֹתַי	דַּלְתוֹתֵינוּ	דַּלְתוֹתֵינוּ
+door	plural	definite	הַדְּלָתוֹת	second	דַּלְתוֹתֶיךָ	דלתותייך / דַּלְתוֹתַיִךְ	דַּלְתוֹתֵיכֶם	דַּלְתוֹתֵיכֶן
+door	plural	construct	דַּלְתוֹת־	third	דַּלְתוֹתָיו	דַּלְתוֹתֶיהָ	דַּלְתוֹתֵיהֶם, דַּלְתוֹתָם	דַּלְתוֹתֵיהֶן, דַּלְתוֹתָן
+enemy		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+enemy	number:	state:	form	person:	singular	singular	plural	plural
+enemy	number:	state:	form	person:	m	f	m	f
+enemy	singular	indefinite	אוֹיֵב	first	אוֹיְבִי	אוֹיְבִי	אוֹיְבֵנוּ	אוֹיְבֵנוּ
+enemy	singular	definite	הָאוֹיֵב	second	אוֹיֶבְךָ	אוֹיְבֵךְ	אוֹיֶבְכֶם	אוֹיֶבְכֶן
+enemy	singular	construct	אוֹיֵב־	third	אוֹיְבוֹ	אוֹיְבָהּ	אוֹיְבָם	אוֹיְבָן
+enemy	plural	indefinite	אוֹיְבִים	first	אויביי / אוֹיְבַי	אויביי / אוֹיְבַי	אוֹיְבֵינוּ	אוֹיְבֵינוּ
+enemy	plural	definite	הָאוֹיְבִים	second	אוֹיְבֶיךָ	אויבייך / אוֹיְבַיִךְ	אוֹיְבֵיכֶם	אוֹיְבֵיכֶן
+enemy	plural	construct	אוֹיְבֵי־	third	אוֹיְבָיו	אוֹיְבֶיהָ	אוֹיְבֵיהֶם	אוֹיְבֵיהֶן
+fish		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+fish	number:	state:	form	person:	singular	singular	plural	plural
+fish	number:	state:	form	person:	m	f	m	f
+fish	singular	indefinite	דָּג	first	דָּגִי	דָּגִי	דָּגֵנוּ	דָּגֵנוּ
+fish	singular	definite	הַדָּג	second	דָּגְךָ	דָּגֵךְ	דַּגְכֶם	דַּגְכֶן
+fish	singular	construct	דַּג־	third	דָּגוֹ	דָּגָהּ	דָּגָם	דָּגָן
+fish	plural	indefinite	דָּגִים	first	דגיי / דָּגַי	דגיי / דָּגַי	דָּגֵינוּ	דָּגֵינוּ
+fish	plural	definite	הַדָּגִים	second	דָּגֶיךָ	דגייך / דָּגַיִךְ	דְּגֵיכֶם	דְּגֵיכֶן
+fish	plural	construct	דְּגֵי־	third	דָּגָיו	דָּגֶיהָ	דְּגֵיהֶם	דְּגֵיהֶן
+fire		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+fire	number:	state:	form	person:	singular	singular	plural	plural
+fire	number:	state:	form	person:	m	f	m	f
+fire	singular	indefinite	מְדוּרָה	first	מְדוּרָתִי	מְדוּרָתִי	מְדוּרָתֵנוּ	מְדוּרָתֵנוּ
+fire	singular	definite	הַמְּדוּרָה	second	מְדוּרָתְךָ	מְדוּרָתֵךְ	מְדוּרַתְכֶם	מְדוּרַתְכֶן
+fire	singular	construct	מְדוּרַת־	third	מְדוּרָתוֹ	מְדוּרָתָהּ	מְדוּרָתָם	מְדוּרָתָן
+fire	plural	indefinite	מְדוּרוֹת	first	מדורותיי / מְדוּרוֹתַי	מדורותיי / מְדוּרוֹתַי	מְדוּרוֹתֵינוּ	מְדוּרוֹתֵינוּ
+fire	plural	definite	הַמְּדוּרוֹת	second	מְדוּרוֹתֶיךָ	מדורותייך / מְדוּרוֹתַיִךְ	מְדוּרוֹתֵיכֶם	מְדוּרוֹתֵיכֶן
+fire	plural	construct	מְדוּרוֹת־	third	מְדוּרוֹתָיו	מְדוּרוֹתֶיהָ	מְדוּרוֹתֵיהֶם, מְדוּרוֹתָם	מְדוּרוֹתֵיהֶן, מְדוּרוֹתָן
+fire		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+fire	number:	state:	form	person:	singular	singular	plural	plural
+fire	number:	state:	form	person:	m	f	m	f
+fire	singular	indefinite	שְׂרֵפָה	first	שְׂרֵפָתִי	שְׂרֵפָתִי	שְׂרֵפָתֵנוּ	שְׂרֵפָתֵנוּ
+fire	singular	definite	הַשְּׂרֵפָה	second	שְׂרֵפָתְךָ	שְׂרֵפָתֵךְ	שְׂרֵפַתְכֶם	שְׂרֵפַתְכֶן
+fire	singular	construct	שְׂרֵפַת־	third	שְׂרֵפָתוֹ	שְׂרֵפָתָהּ	שְׂרֵפָתָם	שְׂרֵפָתָן
+fire	plural	indefinite	שְׂרֵפוֹת	first	שרפותיי / שְׂרֵפוֹתַי	שרפותיי / שְׂרֵפוֹתַי	שְׂרֵפוֹתֵינוּ	שְׂרֵפוֹתֵינוּ
+fire	plural	definite	הַשְּׂרֵפוֹת	second	שְׂרֵפוֹתֶיךָ	שרפותייך / שְׂרֵפוֹתַיִךְ	שְׂרֵפוֹתֵיכֶם	שְׂרֵפוֹתֵיכֶן
+fire	plural	construct	שְׂרֵפוֹת־	third	שְׂרֵפוֹתָיו	שְׂרֵפוֹתֶיהָ	שְׂרֵפוֹתֵיהֶם, שְׂרֵפוֹתָם	שְׂרֵפוֹתֵיהֶן, שְׂרֵפוֹתָן
+food		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+food	number:	state:	form	person:	singular	singular	plural	plural
+food	number:	state:	form	person:	m	f	m	f
+food	singular	indefinite	אוכל / אֹכֶל	first	אוכלי / אָכְלִי	אוכלי / אָכְלִי	אוכלנו / אָכְלֵנוּ	אוכלנו / אָכְלֵנוּ
+food	singular	definite	האוכל / הָאֹכֶל	second	אוכלך / אָכְלְךָ	אוכלך / אָכְלֵךְ	אוכלכם / אָכְלְכֶם	אוכלכן / אָכְלְכֶן
+food	singular	construct	אוכל־ / אֹכֶל־	third	אוכלו / אָכְלוֹ	אוכלה / אָכְלָהּ	אוכלם / אָכְלָם	אוכלן / אָכְלָן
+food	plural	indefinite	אוכלים / אֳכָלִים	first	אוכליי / אֳכָלַי	אוכליי / אֳכָלַי	אוכלינו / אֳכָלֵינוּ	אוכלינו / אֳכָלֵינוּ
+food	plural	definite	האוכלים / הָאֳכָלִים	second	אוכליך / אֳכָלֶיךָ	אוכלייך / אֳכָלַיִךְ	אוכליכם / אָכְלֵיכֶם	אוכליכן / אָכְלֵיכֶן
+food	plural	construct	אוכלי־ / אָכְלֵי־	third	אוכליו / אֳכָלָיו	אוכליה / אֳכָלֶיהָ	אוכליהם / אָכְלֵיהֶם	אוכליהן / אָכְלֵיהֶן
+food		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+food	number:	state:	form	person:	singular	singular	plural	plural
+food	number:	state:	form	person:	m	f	m	f
+food	singular	indefinite	מָזוֹן	first	מְזוֹנִי	מְזוֹנִי	מְזוֹנֵנוּ	מְזוֹנֵנוּ
+food	singular	definite	הַמָּזוֹן	second	מְזוֹנְךָ	מְזוֹנֵךְ	מְזוֹנְכֶם	מְזוֹנְכֶן
+food	singular	construct	מְזוֹן־	third	מְזוֹנוֹ	מְזוֹנָהּ	מְזוֹנָם	מְזוֹנָן
+food	plural	indefinite	מְזוֹנוֹת	first	מזונותיי / מְזוֹנוֹתַי	מזונותיי / מְזוֹנוֹתַי	מְזוֹנוֹתֵינוּ	מְזוֹנוֹתֵינוּ
+food	plural	definite	הַמְּזוֹנוֹת	second	מְזוֹנוֹתֶיךָ	מזונותייך / מְזוֹנוֹתַיִךְ	מְזוֹנוֹתֵיכֶם	מְזוֹנוֹתֵיכֶן
+food	plural	construct	מְזוֹנוֹת־	third	מְזוֹנוֹתָיו	מְזוֹנוֹתֶיהָ	מְזוֹנוֹתֵיהֶם, מְזוֹנוֹתָם	מְזוֹנוֹתֵיהֶן, מְזוֹנוֹתָן
+forest		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+forest	number:	state:	form	person:	singular	singular	plural	plural
+forest	number:	state:	form	person:	m	f	m	f
+forest	singular	indefinite	יַעַר	first	יַעָרִי	יַעָרִי	יַעָרֵנוּ	יַעָרֵנוּ
+forest	singular	definite	הַיַּעַר	second	יַעָרְךָ	יַעָרֵךְ	יַעַרְכֶם	יַעַרְכֶן
+forest	singular	construct	יַעַר־	third	יַעָרוֹ	יַעָרָהּ	יַעָרָם	יַעָרָן
+forest	plural	indefinite	יְעָרוֹת	first	יעריי / יַעֲרַי	יעריי / יַעֲרַי	יַעֲרֵינוּ	יַעֲרֵינוּ
+forest	plural	definite	הַיְּעָרוֹת	second	יַעֲרֶיךָ	יערייך / יַעֲרַיִךְ	יַעֲרֵיכֶם	יַעֲרֵיכֶן
+forest	plural	construct	יַעֲרֵי־	third	יַעֲרָיו	יַעֲרֶיהָ	יַעֲרֵיהֶם	יַעֲרֵיהֶן
+gate		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+gate	number:	state:	form	person:	singular	singular	plural	plural
+gate	number:	state:	form	person:	m	f	m	f
+gate	singular	indefinite	שַׁעַר	first	שַׁעֲרִי	שַׁעֲרִי	שַׁעֲרֵנוּ	שַׁעֲרֵנוּ
+gate	singular	definite	הַשַּׁעַר	second	שַׁעַרְךָ	שַׁעֲרֵךְ	שַׁעַרְכֶם	שַׁעַרְכֶן
+gate	singular	construct	שַׁעַר־	third	שַׁעֲרוֹ	שַׁעֲרָהּ	שַׁעֲרָם	שַׁעֲרָן
+gate	plural	indefinite	שְׁעָרִים	first	שעריי / שְׁעָרַי	שעריי / שְׁעָרַי	שְׁעָרֵינוּ	שְׁעָרֵינוּ
+gate	plural	definite	הַשְּׁעָרִים	second	שְׁעָרֶיךָ	שערייך / שְׁעָרַיִךְ	שַׁעֲרֵיכֶם	שַׁעֲרֵיכֶן
+gate	plural	construct	שַׁעֲרֵי־	third	שְׁעָרָיו	שְׁעָרֶיהָ	שַׁעֲרֵיהֶם	שַׁעֲרֵיהֶן
+gate		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+gate	number:	state:	form	person:	singular	singular	plural	plural
+gate	number:	state:	form	person:	m	f	m	f
+gate	singular	indefinite	שֵׂעָר	first	שְׂעָרִי	שְׂעָרִי	שְׂעָרֵנוּ	שְׂעָרֵנוּ
+gate	singular	definite	הַשֵּׂעָר	second	שְׂעָרְךָ	שְׂעָרֵךְ	שְׂעַרְכֶם	שְׂעַרְכֶן
+gate	singular	construct	שְׂעַר־	third	שְׂעָרוֹ	שְׂעָרָהּ	שְׂעָרָם	שְׂעָרָן
+gate	plural	indefinite	שְׂעָרוֹת	first	שערותיי / שַׂעֲרוֹתַי	שערותיי / שַׂעֲרוֹתַי	שַׂעֲרוֹתֵינוּ	שַׂעֲרוֹתֵינוּ
+gate	plural	definite	הַשְּׂעָרוֹת	second	שַׂעֲרוֹתֶיךָ	שערותייך / שַׂעֲרוֹתַיִךְ	שַׂעֲרוֹתֵיכֶם	שַׂעֲרוֹתֵיכֶן
+gate	plural	construct	שַׂעֲרוֹת־	third	שַׂעֲרוֹתָיו	שַׂעֲרוֹתֶיהָ	שַׂעֲרוֹתֵיהֶם, שַׂעֲרוֹתָם	שַׂעֲרוֹתֵיהֶן, שַׂעֲרוֹתָן
+gate		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+gate	number:	state:	form	person:	singular	singular	plural	plural
+gate	number:	state:	form	person:	m	f	m	f
+gate	singular	indefinite	שַׁעַר	first	שַׁעֲרִי	שַׁעֲרִי	שַׁעֲרֵנוּ	שַׁעֲרֵנוּ
+gate	singular	definite	הַשַּׁעַר	second	שַׁעַרְךָ	שַׁעֲרֵךְ	שַׁעַרְכֶם	שַׁעַרְכֶן
+gate	singular	construct	שַׁעַר־	third	שַׁעֲרוֹ	שַׁעֲרָהּ	שַׁעֲרָם	שַׁעֲרָן
+gate	plural	indefinite	שְׁעָרִים	first	שעריי / שְׁעָרַי	שעריי / שְׁעָרַי	שְׁעָרֵינוּ	שְׁעָרֵינוּ
+gate	plural	definite	הַשְּׁעָרִים	second	שְׁעָרֶיךָ	שערייך / שְׁעָרַיִךְ	שַׁעֲרֵיכֶם	שַׁעֲרֵיכֶן
+gate	plural	construct	שַׁעֲרֵי־	third	שְׁעָרָיו	שְׁעָרֶיהָ	שַׁעֲרֵיהֶם	שַׁעֲרֵיהֶן
+gate		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+gate	number:	state:	form	person:	singular	singular	plural	plural
+gate	number:	state:	form	person:	m	f	m	f
+gate	singular	indefinite	שֵׂעָר	first	שְׂעָרִי	שְׂעָרִי	שְׂעָרֵנוּ	שְׂעָרֵנוּ
+gate	singular	definite	הַשֵּׂעָר	second	שְׂעָרְךָ	שְׂעָרֵךְ	שְׂעַרְכֶם	שְׂעַרְכֶן
+gate	singular	construct	שְׂעַר־	third	שְׂעָרוֹ	שְׂעָרָהּ	שְׂעָרָם	שְׂעָרָן
+gate	plural	indefinite	שְׂעָרוֹת	first	שערותיי / שַׂעֲרוֹתַי	שערותיי / שַׂעֲרוֹתַי	שַׂעֲרוֹתֵינוּ	שַׂעֲרוֹתֵינוּ
+gate	plural	definite	הַשְּׂעָרוֹת	second	שַׂעֲרוֹתֶיךָ	שערותייך / שַׂעֲרוֹתַיִךְ	שַׂעֲרוֹתֵיכֶם	שַׂעֲרוֹתֵיכֶן
+gate	plural	construct	שַׂעֲרוֹת־	third	שַׂעֲרוֹתָיו	שַׂעֲרוֹתֶיהָ	שַׂעֲרוֹתֵיהֶם, שַׂעֲרוֹתָם	שַׂעֲרוֹתֵיהֶן, שַׂעֲרוֹתָן
+horse		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+horse	number:	state:	form	person:	singular	singular	plural	plural
+horse	number:	state:	form	person:	m	f	m	f
+horse	masculine singular	indefinite	סוּס	first	סוּסִי	סוּסִי	סוּסֵנוּ	סוּסֵנוּ
+horse	masculine singular	definite	הַסּוּס	second	סוּסְךָ	סוּסֵךְ	סוּסְכֶם	סוּסְכֶן
+horse	masculine singular	construct	סוּס־	third	סוּסוֹ	סוּסָהּ	סוּסָם	סוּסָן
+horse	feminine singular	indefinite	סוּסָה	first	סוּסָתִי	סוּסָתִי	סוּסָתֵנוּ	סוּסָתֵנוּ
+horse	feminine singular	definite	הַסּוּסָה	second	סוּסָתְךָ	סוּסָתֵךְ	סוּסַתְכֶם	סוּסַתְכֶן
+horse	feminine singular	construct	סוּסַת־	third	סוּסָתוֹ	סוּסָתָהּ	סוּסָתָם	סוּסָתָן
+horse	feminine plural	indefinite	סוּסוֹת	first	סוסותיי / סוּסוֹתַי	סוסותיי / סוּסוֹתַי	סוּסוֹתֵינוּ	סוּסוֹתֵינוּ
+horse	feminine plural	definite	הַסּוּסוֹת	second	סוּסוֹתֶיךָ	סוסותייך / סוּסוֹתַיִךְ	סוּסוֹתֵיכֶם	סוּסוֹתֵיכֶן
+horse	feminine plural	construct	סוּסוֹת־	third	סוּסוֹתָיו	סוּסוֹתֶיהָ	סוּסוֹתֵיהֶם, סוּסוֹתָם	סוּסוֹתֵיהֶן, סוּסוֹתָן
+horse	masculine dual	indefinite	סוסיים / סוּסַיִם	first	סוסיי / סוּסַי	סוסיי / סוּסַי	סוּסֵינוּ	סוּסֵינוּ
+horse	masculine dual	definite	הסוסיים / הַסּוּסַיִם	second	סוּסֶיךָ	סוסייך / סוּסַיִךְ	סוּסֵיכֶם	סוּסֵיכֶן
+horse	masculine dual	construct	סוּסֵי־	third	סוּסָיו	סוּסֶיהָ	סוּסֵיהֶם	סוּסֵיהֶן
+horse	masculine plural	indefinite	סוּסִים	first	סוסיי / סוּסַי	סוסיי / סוּסַי	סוּסֵינוּ	סוּסֵינוּ
+horse	masculine plural	definite	הַסּוּסִים	second	סוּסֶיךָ	סוסייך / סוּסַיִךְ	סוּסֵיכֶם	סוּסֵיכֶן
+horse	masculine plural	construct	סוּסֵי־	third	סוּסָיו	סוּסֶיהָ	סוּסֵיהֶם	סוּסֵיהֶן
+house		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+house	number:	state:	form	person:	singular	singular	plural	plural
+house	number:	state:	form	person:	m	f	m	f
+house	singular	indefinite	בַּיִת	first	בֵּיתִי	בֵּיתִי	בֵּיתֵנוּ	בֵּיתֵנוּ
+house	singular	definite	הַבַּיִת	second	בֵּיתְךָ	בֵּיתֵךְ	בֵּיתְכֶם	בֵּיתְכֶן
+house	singular	construct	בֵּית־	third	בֵּיתוֹ	בֵּיתָהּ	בֵּיתָם	בֵּיתָן
+house	plural	indefinite	בָּתִּים	first	בתיי / בָּתַּי	בתיי / בָּתַּי	בָּתֵּינוּ	בָּתֵּינוּ
+house	plural	definite	הַבָּתִּים	second	בָּתֶּיךָ	בתייך / בָּתַּיִךְ	בָּתֵּיכֶם	בָּתֵּיכֶן
+house	plural	construct	בָּתֵּי־	third	בָּתָּיו	בָּתֶּיהָ	בָּתֵּיהֶם	בָּתֵּיהֶן
+love		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+love	number:	state:	form	person:	singular	singular	plural	plural
+love	number:	state:	form	person:	m	f	m	f
+love	singular	indefinite	אַהֲבָה	first	אַהֲבָתִי	אַהֲבָתִי	אַהֲבָתֵנוּ	אַהֲבָתֵנוּ
+love	singular	definite	הָאַהֲבָה	second	אַהֲבָתְךָ	אַהֲבָתֵךְ	אַהֲבַתְכֶם	אַהֲבַתְכֶן
+love	singular	construct	אַהֲבַת־	third	אַהֲבָתוֹ	אַהֲבָתָהּ	אַהֲבָתָם	אַהֲבָתָן
+love	plural	indefinite	אֲהָבוֹת	first	אהבותיי / אַהֲבוֹתַי	אהבותיי / אַהֲבוֹתַי	אַהֲבוֹתֵינוּ	אַהֲבוֹתֵינוּ
+love	plural	definite	הָאֲהָבוֹת	second	אַהֲבוֹתֶיךָ	אהבותייך / אַהֲבוֹתַיִךְ	אַהֲבוֹתֵיכֶם	אַהֲבוֹתֵיכֶן
+love	plural	construct	אַהֲבוֹת־	third	אַהֲבוֹתָיו	אַהֲבוֹתֶיהָ	אַהֲבוֹתֵיהֶם, אַהֲבוֹתָם	אַהֲבוֹתֵיהֶן, אַהֲבוֹתָן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כֶּסֶף	first	כַּסְפִּי	כַּסְפִּי	כַּסְפֵּנוּ	כַּסְפֵּנוּ
+money	singular	definite	הַכֶּסֶף	second	כַּסְפְּךָ	כַּסְפֵּךְ	כַּסְפְּכֶם	כַּסְפְּכֶן
+money	singular	construct	כֶּסֶף־	third	כַּסְפּוֹ	כַּסְפָּהּ	כַּסְפָּם	כַּסְפָּן
+money	plural	indefinite	כְּסָפִים	first	כספיי / כְּסָפַי	כספיי / כְּסָפַי	כְּסָפֵינוּ	כְּסָפֵינוּ
+money	plural	definite	הַכְּסָפִים	second	כְּסָפֶיךָ	כספייך / כְּסָפַיִךְ	כַּסְפֵּיכֶם	כַּסְפֵּיכֶן
+money	plural	construct	כַּסְפֵּי־	third	כְּסָפָיו	כְּסָפֶיהָ	כַּסְפֵּיהֶם	כַּסְפֵּיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כַּסָּף	first	כַּסָּפִי	כַּסָּפִי	כַּסָּפֵנוּ	כַּסָּפֵנוּ
+money	singular	definite	הַכַּסָּף	second	כַּסָּפְךָ	כַּסָּפֵךְ	כַּסַּפְכֶם	כַּסַּפְכֶן
+money	singular	construct	כַּסַּף־	third	כַּסָּפוֹ	כַּסָּפָהּ	כַּסָּפָם	כַּסָּפָן
+money	plural	indefinite	כַּסָּפִים	first	כספיי / כַּסָּפַי	כספיי / כַּסָּפַי	כַּסָּפֵינוּ	כַּסָּפֵינוּ
+money	plural	definite	הַכַּסָּפִים	second	כַּסָּפֶיךָ	כספייך / כַּסָּפַיִךְ	כַּסָּפֵיכֶם	כַּסָּפֵיכֶן
+money	plural	construct	כַּסָּפֵי־	third	כַּסָּפָיו	כַּסָּפֶיהָ	כַּסָּפֵיהֶם	כַּסָּפֵיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כֶּסֶף	first	כַּסְפִּי	כַּסְפִּי	כַּסְפֵּנוּ	כַּסְפֵּנוּ
+money	singular	definite	הַכֶּסֶף	second	כַּסְפְּךָ	כַּסְפֵּךְ	כַּסְפְּכֶם	כַּסְפְּכֶן
+money	singular	construct	כֶּסֶף־	third	כַּסְפּוֹ	כַּסְפָּהּ	כַּסְפָּם	כַּסְפָּן
+money	plural	indefinite	כְּסָפִים	first	כספיי / כְּסָפַי	כספיי / כְּסָפַי	כְּסָפֵינוּ	כְּסָפֵינוּ
+money	plural	definite	הַכְּסָפִים	second	כְּסָפֶיךָ	כספייך / כְּסָפַיִךְ	כַּסְפֵּיכֶם	כַּסְפֵּיכֶן
+money	plural	construct	כַּסְפֵּי־	third	כְּסָפָיו	כְּסָפֶיהָ	כַּסְפֵּיהֶם	כַּסְפֵּיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כַּסָּף	first	כַּסָּפִי	כַּסָּפִי	כַּסָּפֵנוּ	כַּסָּפֵנוּ
+money	singular	definite	הַכַּסָּף	second	כַּסָּפְךָ	כַּסָּפֵךְ	כַּסַּפְכֶם	כַּסַּפְכֶן
+money	singular	construct	כַּסַּף־	third	כַּסָּפוֹ	כַּסָּפָהּ	כַּסָּפָם	כַּסָּפָן
+money	plural	indefinite	כַּסָּפִים	first	כספיי / כַּסָּפַי	כספיי / כַּסָּפַי	כַּסָּפֵינוּ	כַּסָּפֵינוּ
+money	plural	definite	הַכַּסָּפִים	second	כַּסָּפֶיךָ	כספייך / כַּסָּפַיִךְ	כַּסָּפֵיכֶם	כַּסָּפֵיכֶן
+money	plural	construct	כַּסָּפֵי־	third	כַּסָּפָיו	כַּסָּפֶיהָ	כַּסָּפֵיהֶם	כַּסָּפֵיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כֶּסֶף	first	כַּסְפִּי	כַּסְפִּי	כַּסְפֵּנוּ	כַּסְפֵּנוּ
+money	singular	definite	הַכֶּסֶף	second	כַּסְפְּךָ	כַּסְפֵּךְ	כַּסְפְּכֶם	כַּסְפְּכֶן
+money	singular	construct	כֶּסֶף־	third	כַּסְפּוֹ	כַּסְפָּהּ	כַּסְפָּם	כַּסְפָּן
+money	plural	indefinite	כְּסָפִים	first	כספיי / כְּסָפַי	כספיי / כְּסָפַי	כְּסָפֵינוּ	כְּסָפֵינוּ
+money	plural	definite	הַכְּסָפִים	second	כְּסָפֶיךָ	כספייך / כְּסָפַיִךְ	כַּסְפֵּיכֶם	כַּסְפֵּיכֶן
+money	plural	construct	כַּסְפֵּי־	third	כְּסָפָיו	כְּסָפֶיהָ	כַּסְפֵּיהֶם	כַּסְפֵּיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כַּסָּף	first	כַּסָּפִי	כַּסָּפִי	כַּסָּפֵנוּ	כַּסָּפֵנוּ
+money	singular	definite	הַכַּסָּף	second	כַּסָּפְךָ	כַּסָּפֵךְ	כַּסַּפְכֶם	כַּסַּפְכֶן
+money	singular	construct	כַּסַּף־	third	כַּסָּפוֹ	כַּסָּפָהּ	כַּסָּפָם	כַּסָּפָן
+money	plural	indefinite	כַּסָּפִים	first	כספיי / כַּסָּפַי	כספיי / כַּסָּפַי	כַּסָּפֵינוּ	כַּסָּפֵינוּ
+money	plural	definite	הַכַּסָּפִים	second	כַּסָּפֶיךָ	כספייך / כַּסָּפַיִךְ	כַּסָּפֵיכֶם	כַּסָּפֵיכֶן
+money	plural	construct	כַּסָּפֵי־	third	כַּסָּפָיו	כַּסָּפֶיהָ	כַּסָּפֵיהֶם	כַּסָּפֵיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כֶּסֶף	first	כַּסְפִּי	כַּסְפִּי	כַּסְפֵּנוּ	כַּסְפֵּנוּ
+money	singular	definite	הַכֶּסֶף	second	כַּסְפְּךָ	כַּסְפֵּךְ	כַּסְפְּכֶם	כַּסְפְּכֶן
+money	singular	construct	כֶּסֶף־	third	כַּסְפּוֹ	כַּסְפָּהּ	כַּסְפָּם	כַּסְפָּן
+money	plural	indefinite	כְּסָפִים	first	כספיי / כְּסָפַי	כספיי / כְּסָפַי	כְּסָפֵינוּ	כְּסָפֵינוּ
+money	plural	definite	הַכְּסָפִים	second	כְּסָפֶיךָ	כספייך / כְּסָפַיִךְ	כַּסְפֵּיכֶם	כַּסְפֵּיכֶן
+money	plural	construct	כַּסְפֵּי־	third	כְּסָפָיו	כְּסָפֶיהָ	כַּסְפֵּיהֶם	כַּסְפֵּיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כַּסָּף	first	כַּסָּפִי	כַּסָּפִי	כַּסָּפֵנוּ	כַּסָּפֵנוּ
+money	singular	definite	הַכַּסָּף	second	כַּסָּפְךָ	כַּסָּפֵךְ	כַּסַּפְכֶם	כַּסַּפְכֶן
+money	singular	construct	כַּסַּף־	third	כַּסָּפוֹ	כַּסָּפָהּ	כַּסָּפָם	כַּסָּפָן
+money	plural	indefinite	כַּסָּפִים	first	כספיי / כַּסָּפַי	כספיי / כַּסָּפַי	כַּסָּפֵינוּ	כַּסָּפֵינוּ
+money	plural	definite	הַכַּסָּפִים	second	כַּסָּפֶיךָ	כספייך / כַּסָּפַיִךְ	כַּסָּפֵיכֶם	כַּסָּפֵיכֶן
+money	plural	construct	כַּסָּפֵי־	third	כַּסָּפָיו	כַּסָּפֶיהָ	כַּסָּפֵיהֶם	כַּסָּפֵיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כֶּסֶף	first	כַּסְפִּי	כַּסְפִּי	כַּסְפֵּנוּ	כַּסְפֵּנוּ
+money	singular	definite	הַכֶּסֶף	second	כַּסְפְּךָ	כַּסְפֵּךְ	כַּסְפְּכֶם	כַּסְפְּכֶן
+money	singular	construct	כֶּסֶף־	third	כַּסְפּוֹ	כַּסְפָּהּ	כַּסְפָּם	כַּסְפָּן
+money	plural	indefinite	כְּסָפִים	first	כספיי / כְּסָפַי	כספיי / כְּסָפַי	כְּסָפֵינוּ	כְּסָפֵינוּ
+money	plural	definite	הַכְּסָפִים	second	כְּסָפֶיךָ	כספייך / כְּסָפַיִךְ	כַּסְפֵּיכֶם	כַּסְפֵּיכֶן
+money	plural	construct	כַּסְפֵּי־	third	כְּסָפָיו	כְּסָפֶיהָ	כַּסְפֵּיהֶם	כַּסְפֵּיהֶן
+money		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+money	number:	state:	form	person:	singular	singular	plural	plural
+money	number:	state:	form	person:	m	f	m	f
+money	singular	indefinite	כַּסָּף	first	כַּסָּפִי	כַּסָּפִי	כַּסָּפֵנוּ	כַּסָּפֵנוּ
+money	singular	definite	הַכַּסָּף	second	כַּסָּפְךָ	כַּסָּפֵךְ	כַּסַּפְכֶם	כַּסַּפְכֶן
+money	singular	construct	כַּסַּף־	third	כַּסָּפוֹ	כַּסָּפָהּ	כַּסָּפָם	כַּסָּפָן
+money	plural	indefinite	כַּסָּפִים	first	כספיי / כַּסָּפַי	כספיי / כַּסָּפַי	כַּסָּפֵינוּ	כַּסָּפֵינוּ
+money	plural	definite	הַכַּסָּפִים	second	כַּסָּפֶיךָ	כספייך / כַּסָּפַיִךְ	כַּסָּפֵיכֶם	כַּסָּפֵיכֶן
+money	plural	construct	כַּסָּפֵי־	third	כַּסָּפָיו	כַּסָּפֶיהָ	כַּסָּפֵיהֶם	כַּסָּפֵיהֶן
+coin		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+coin	number:	state:	form	person:	singular	singular	plural	plural
+coin	number:	state:	form	person:	m	f	m	f
+coin	singular	indefinite	מַטְבֵּעַ	first	מַטְבְּעִי	מַטְבְּעִי	מַטְבְּעֵנוּ	מַטְבְּעֵנוּ
+coin	singular	definite	הַמַּטְבֵּעַ	second	מַטְבַּעֲךָ	מַטְבְּעֵךְ	מַטְבַּעֲכֶם	מַטְבַּעֲכֶן
+coin	singular	construct	מַטְבֵּעַ־	third	מַטְבְּעוֹ	מַטְבְּעָהּ	מַטְבְּעָם	מַטְבְּעָן
+coin	plural	indefinite	מַטְבְּעוֹת	first	מטבעותיי / מַטְבְּעוֹתַי	מטבעותיי / מַטְבְּעוֹתַי	מַטְבְּעוֹתֵינוּ	מַטְבְּעוֹתֵינוּ
+coin	plural	definite	הַמַּטְבְּעוֹת	second	מַטְבְּעוֹתֶיךָ	מטבעותייך / מַטְבְּעוֹתַיִךְ	מַטְבְּעוֹתֵיכֶם	מַטְבְּעוֹתֵיכֶן
+coin	plural	construct	מַטְבְּעוֹת־	third	מַטְבְּעוֹתָיו	מַטְבְּעוֹתֶיהָ	מַטְבְּעוֹתֵיהֶם, מַטְבְּעוֹתָם	מַטְבְּעוֹתֵיהֶן, מַטְבְּעוֹתָן
+beast		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+beast	number:	state:	form	person:	singular	singular	plural	plural
+beast	number:	state:	form	person:	m	f	m	f
+beast	singular	indefinite	בְּהֵמָה	first	בְּהֶמְתִּי	בְּהֶמְתִּי	בְּהֶמְתֵּנוּ	בְּהֶמְתֵּנוּ
+beast	singular	definite	הַבְּהֵמָה	second	בְּהֶמְתְּךָ	בְּהֶמְתֵּךְ	בְּהֶמְתְּכֶם	בְּהֶמְתְּכֶן
+beast	singular	construct	בֶּהֱמַת־	third	בְּהֶמְתּוֹ	בְּהֶמְתָּהּ	בְּהֶמְתָּם	בְּהֶמְתָּן
+beast	plural	indefinite	בְּהֵמוֹת	first	בהמותיי / בַּהֲמוֹתַי	בהמותיי / בַּהֲמוֹתַי	בַּהֲמוֹתֵינוּ	בַּהֲמוֹתֵינוּ
+beast	plural	definite	הַבְּהֵמוֹת	second	בַּהֲמוֹתֶיךָ	בהמותייך / בַּהֲמוֹתַיִךְ	בַּהֲמוֹתֵיכֶם	בַּהֲמוֹתֵיכֶן
+beast	plural	construct	בַּהֲמוֹת־	third	בַּהֲמוֹתָיו	בַּהֲמוֹתֶיהָ	בַּהֲמוֹתֵיהֶם, בַּהֲמוֹתָם	בַּהֲמוֹתֵיהֶן, בַּהֲמוֹתָן
+name		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+name	number:	state:	form	person:	singular	singular	plural	plural
+name	number:	state:	form	person:	m	f	m	f
+name	singular	indefinite	שֵׁם	first	שְׁמִי	שְׁמִי	שְׁמֵנוּ	שְׁמֵנוּ
+name	singular	definite	הַשֵּׁם	second	שִׁמְךָ	שְׁמֵךְ	שִׁמְכֶם	שִׁמְכֶן
+name	singular	construct	שֵׁם־	third	שְׁמוֹ	שְׁמָהּ	שְׁמָם	שְׁמָן
+name	plural	indefinite	שֵׁמוֹת	first	שמותיי / שְׁמוֹתַי	שמותיי / שְׁמוֹתַי	שְׁמוֹתֵינוּ	שְׁמוֹתֵינוּ
+name	plural	definite	הַשֵּׁמוֹת	second	שְׁמוֹתֶיךָ	שמותייך / שְׁמוֹתַיִךְ	שְׁמוֹתֵיכֶם	שְׁמוֹתֵיכֶן
+name	plural	construct	שְׁמוֹת־	third	שְׁמוֹתָיו	שְׁמוֹתֶיהָ	שְׁמוֹתֵיהֶם, שְׁמוֹתָם	שְׁמוֹתֵיהֶן, שְׁמוֹתָן
+rock		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+rock	number:	state:	form	person:	singular	singular	plural	plural
+rock	number:	state:	form	person:	m	f	m	f
+rock	singular	indefinite	סֶלַע	first	סַלְעִי	סַלְעִי	סַלְעֵנוּ	סַלְעֵנוּ
+rock	singular	definite	הַסֶּלַע	second	סַלְעֲךָ	סַלְעֵךְ	סַלְעֲכֶם	סַלְעֲכֶן
+rock	singular	construct	סֶלַע־	third	סַלְעוֹ	סַלְעָהּ	סַלְעָם	סַלְעָן
+rock	plural	indefinite	סְלָעִים	first	סלעיי / סְלָעַי	סלעיי / סְלָעַי	סְלָעֵינוּ	סְלָעֵינוּ
+rock	plural	definite	הַסְּלָעִים	second	סְלָעֶיךָ	סלעייך / סְלָעַיִךְ	סַלְעֵיכֶם	סַלְעֵיכֶן
+rock	plural	construct	סַלְעֵי־	third	סְלָעָיו	סְלָעֶיהָ	סַלְעֵיהֶם	סַלְעֵיהֶן
+rock		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+rock	number:	state:	form	person:	singular	singular	plural	plural
+rock	number:	state:	form	person:	m	f	m	f
+rock	singular	indefinite	אֶבֶן	first	אַבְנִי	אַבְנִי	אַבְנֵנוּ	אַבְנֵנוּ
+rock	singular	definite	הָאֶבֶן	second	אַבְנְךָ	אַבְנֵךְ	אַבְנְכֶם	אַבְנְכֶן
+rock	singular	construct	אֶבֶן־	third	אַבְנוֹ	אַבְנָהּ	אַבְנָם	אַבְנָן
+rock	plural	indefinite	אֲבָנִים	first	אבניי / אֲבָנַי	אבניי / אֲבָנַי	אֲבָנֵינוּ	אֲבָנֵינוּ
+rock	plural	definite	הָאֲבָנִים	second	אֲבָנֶיךָ	אבנייך / אֲבָנַיִךְ	אַבְנֵיכֶם	אַבְנֵיכֶן
+rock	plural	construct	אַבְנֵי־	third	אֲבָנָיו	אֲבָנֶיהָ	אַבְנֵיהֶם	אַבְנֵיהֶן
+stone		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+stone	number:	state:	form	person:	singular	singular	plural	plural
+stone	number:	state:	form	person:	m	f	m	f
+stone	singular	indefinite	אֶבֶן	first	אַבְנִי	אַבְנִי	אַבְנֵנוּ	אַבְנֵנוּ
+stone	singular	definite	הָאֶבֶן	second	אַבְנְךָ	אַבְנֵךְ	אַבְנְכֶם	אַבְנְכֶן
+stone	singular	construct	אֶבֶן־	third	אַבְנוֹ	אַבְנָהּ	אַבְנָם	אַבְנָן
+stone	plural	indefinite	אֲבָנִים	first	אבניי / אֲבָנַי	אבניי / אֲבָנַי	אֲבָנֵינוּ	אֲבָנֵינוּ
+stone	plural	definite	הָאֲבָנִים	second	אֲבָנֶיךָ	אבנייך / אֲבָנַיִךְ	אַבְנֵיכֶם	אַבְנֵיכֶן
+stone	plural	construct	אַבְנֵי־	third	אֲבָנָיו	אֲבָנֶיהָ	אַבְנֵיהֶם	אַבְנֵיהֶן
+stone		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+stone	number:	state:	form	person:	singular	singular	plural	plural
+stone	number:	state:	form	person:	m	f	m	f
+stone	singular	indefinite	אֶבֶן	first	אַבְנִי	אַבְנִי	אַבְנֵנוּ	אַבְנֵנוּ
+stone	singular	definite	הָאֶבֶן	second	אַבְנְךָ	אַבְנֵךְ	אַבְנְכֶם	אַבְנְכֶן
+stone	singular	construct	אֶבֶן־	third	אַבְנוֹ	אַבְנָהּ	אַבְנָם	אַבְנָן
+stone	plural	indefinite	אֲבָנִים	first	אבניי / אֲבָנַי	אבניי / אֲבָנַי	אֲבָנֵינוּ	אֲבָנֵינוּ
+stone	plural	definite	הָאֲבָנִים	second	אֲבָנֶיךָ	אבנייך / אֲבָנַיִךְ	אַבְנֵיכֶם	אַבְנֵיכֶן
+stone	plural	construct	אַבְנֵי־	third	אֲבָנָיו	אֲבָנֶיהָ	אַבְנֵיהֶם	אַבְנֵיהֶן
+rope		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+rope	number:	state:	form	person:	singular	singular	plural	plural
+rope	number:	state:	form	person:	m	f	m	f
+rope	singular	indefinite	חֶבֶל	first	חַבְלִי	חַבְלִי	חַבְלֵנוּ	חַבְלֵנוּ
+rope	singular	definite	הַחֶבֶל	second	חַבְלְךָ	חַבְלֵךְ	חַבְלְכֶם	חַבְלְכֶן
+rope	singular	construct	חֶבֶל־	third	חַבְלוֹ	חַבְלָהּ	חַבְלָם	חַבְלָן
+rope	plural	indefinite	חֲבָלִים	first	חבליי / חֲבָלַי	חבליי / חֲבָלַי	חֲבָלֵינוּ	חֲבָלֵינוּ
+rope	plural	definite	הַחֲבָלִים	second	חֲבָלֶיךָ	חבלייך / חֲבָלַיִךְ	חַבְלֵיכֶם	חַבְלֵיכֶן
+rope	plural	construct	חַבְלֵי־	third	חֲבָלָיו	חֲבָלֶיהָ	חַבְלֵיהֶם	חַבְלֵיהֶן
+tool		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+tool	number:	state:	form	person:	singular	singular	plural	plural
+tool	number:	state:	form	person:	m	f	m	f
+tool	singular	indefinite	כְּלִי	first	כִּלְיִי	כִּלְיִי	כִּלְיֵנוּ	כִּלְיֵנוּ
+tool	singular	definite	הַכְּלִי	second	כִּלְיְךָ	כִּלְיֵךְ	כִּלְיְכֶם	כִּלְיְכֶן
+tool	singular	construct	כְּלִי־	third	כִּלְיוֹ	כִּלְיָהּ	כִּלְיָם	כִּלְיָן
+tool	plural	indefinite	כֵּלִים	first	כליי / כֵּלַי	כליי / כֵּלַי	כֵּלֵינוּ	כֵּלֵינוּ
+tool	plural	definite	הַכֵּלִים	second	כֵּלֶיךָ	כלייך / כֵּלַיִךְ	כְּלֵיכֶם	כְּלֵיכֶן
+tool	plural	construct	כְּלֵי־	third	כֵּלָיו	כֵּלֶיהָ	כְּלֵיהֶם	כְּלֵיהֶן
+tool		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+tool	number:	state:	form	person:	singular	singular	plural	plural
+tool	number:	state:	form	person:	m	f	m	f
+tool	singular	indefinite	מַכְשִׁיר	first	מַכְשִׁירִי	מַכְשִׁירִי	מַכְשִׁירֵנוּ	מַכְשִׁירֵנוּ
+tool	singular	definite	הַמַּכְשִׁיר	second	מַכְשִׁירְךָ	מַכְשִׁירֵךְ	מַכְשִׁירְכֶם	מַכְשִׁירְכֶן
+tool	singular	construct	מַכְשִׁיר־	third	מַכְשִׁירוֹ	מַכְשִׁירָהּ	מַכְשִׁירָם	מַכְשִׁירָן
+tool	plural	indefinite	מַכְשִׁירִים	first	מכשיריי / מַכְשִׁירַי	מכשיריי / מַכְשִׁירַי	מַכְשִׁירֵינוּ	מַכְשִׁירֵינוּ
+tool	plural	definite	הַמַּכְשִׁירִים	second	מַכְשִׁירֶיךָ	מכשירייך / מַכְשִׁירַיִךְ	מַכְשִׁירֵיכֶם	מַכְשִׁירֵיכֶן
+tool	plural	construct	מַכְשִׁירֵי־	third	מַכְשִׁירָיו	מַכְשִׁירֶיהָ	מַכְשִׁירֵיהֶם	מַכְשִׁירֵיהֶן
+treasure		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+treasure	number:	state:	form	person:	singular	singular	plural	plural
+treasure	number:	state:	form	person:	m	f	m	f
+treasure	singular	indefinite	אוֹצָר	first	אוֹצָרִי	אוֹצָרִי	אוֹצָרֵנוּ	אוֹצָרֵנוּ
+treasure	singular	definite	הָאוֹצָר	second	אוֹצָרְךָ	אוֹצָרֵךְ	אוֹצַרְכֶם	אוֹצַרְכֶן
+treasure	singular	construct	אוֹצַר־	third	אוֹצָרוֹ	אוֹצָרָהּ	אוֹצָרָם	אוֹצָרָן
+treasure	plural	indefinite	אוֹצָרוֹת	first	אוצרותיי / אוֹצְרוֹתַי	אוצרותיי / אוֹצְרוֹתַי	אוֹצְרוֹתֵינוּ	אוֹצְרוֹתֵינוּ
+treasure	plural	definite	הָאוֹצָרוֹת	second	אוֹצְרוֹתֶיךָ	אוצרותייך / אוֹצְרוֹתַיִךְ	אוֹצְרוֹתֵיכֶם	אוֹצְרוֹתֵיכֶן
+treasure	plural	construct	אוֹצְרוֹת־	third	אוֹצְרוֹתָיו	אוֹצְרוֹתֶיהָ	אוֹצְרוֹתֵיהֶם, אוֹצְרוֹתָם	אוֹצְרוֹתֵיהֶן, אוֹצְרוֹתָן
+treasure		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+treasure	number:	state:	form	person:	singular	singular	plural	plural
+treasure	number:	state:	form	person:	m	f	m	f
+treasure	singular	indefinite	אוֹצָר	first	אוֹצָרִי	אוֹצָרִי	אוֹצָרֵנוּ	אוֹצָרֵנוּ
+treasure	singular	definite	הָאוֹצָר	second	אוֹצָרְךָ	אוֹצָרֵךְ	אוֹצַרְכֶם	אוֹצַרְכֶן
+treasure	singular	construct	אוֹצַר־	third	אוֹצָרוֹ	אוֹצָרָהּ	אוֹצָרָם	אוֹצָרָן
+treasure	plural	indefinite	אוֹצָרוֹת	first	אוצרותיי / אוֹצְרוֹתַי	אוצרותיי / אוֹצְרוֹתַי	אוֹצְרוֹתֵינוּ	אוֹצְרוֹתֵינוּ
+treasure	plural	definite	הָאוֹצָרוֹת	second	אוֹצְרוֹתֶיךָ	אוצרותייך / אוֹצְרוֹתַיִךְ	אוֹצְרוֹתֵיכֶם	אוֹצְרוֹתֵיכֶן
+treasure	plural	construct	אוֹצְרוֹת־	third	אוֹצְרוֹתָיו	אוֹצְרוֹתֶיהָ	אוֹצְרוֹתֵיהֶם, אוֹצְרוֹתָם	אוֹצְרוֹתֵיהֶן, אוֹצְרוֹתָן
+heat		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+heat	number:	state:	form	person:	singular	singular	plural	plural
+heat	number:	state:	form	person:	m	f	m	f
+heat	singular	indefinite	חום / חֹם	first	חומי / חֻמִּי	חומי / חֻמִּי	חומנו / חֻמֵּנוּ	חומנו / חֻמֵּנוּ
+heat	singular	definite	החום / הַחֹם	second	חומך / חֻמְּךָ	חומך / חֻמֵּךְ	חומכם / חֻמְּכֶם	חומכן / חֻמְּכֶן
+heat	singular	construct	חום־ / חֹם־	third	חומו / חֻמּוֹ	חומה / חֻמָּהּ	חומם / חֻמָּם	חומן / חֻמָּן
+heat		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+heat	number:	state:	form	person:	singular	singular	plural	plural
+heat	number:	state:	form	person:	m	f	m	f
+heat	singular	indefinite	חום / חֹם	first	חומי / חֻמִּי	חומי / חֻמִּי	חומנו / חֻמֵּנוּ	חומנו / חֻמֵּנוּ
+heat	singular	definite	החום / הַחֹם	second	חומך / חֻמְּךָ	חומך / חֻמֵּךְ	חומכם / חֻמְּכֶם	חומכן / חֻמְּכֶן
+heat	singular	construct	חום־ / חֹם־	third	חומו / חֻמּוֹ	חומה / חֻמָּהּ	חומם / חֻמָּם	חומן / חֻמָּן
+way		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+way	number:	state:	form	person:	singular	singular	plural	plural
+way	number:	state:	form	person:	m	f	m	f
+way	singular	indefinite	דֶּרֶךְ	first	דַּרְכִּי	דַּרְכִּי	דַּרְכֵּנוּ	דַּרְכֵּנוּ
+way	singular	definite	הַדֶּרֶךְ	second	דַּרְכְּךָ	דַּרְכֵּךְ	דַּרְכְּכֶם	דַּרְכְּכֶן
+way	singular	construct	דֶּרֶךְ־	third	דַּרְכּוֹ	דַּרְכָּהּ	דַּרְכָּם	דַּרְכָּן
+way	plural	indefinite	דְּרָכִים	first	דרכיי / דְּרָכַי	דרכיי / דְּרָכַי	דְּרָכֵינוּ	דְּרָכֵינוּ
+way	plural	definite	הַדְּרָכִים	second	דְּרָכֶיךָ	דרכייך / דְּרָכַיִךְ	דַּרְכֵיכֶם	דַּרְכֵיכֶן
+way	plural	construct	דַּרְכֵי־	third	דְּרָכָיו	דְּרָכֶיהָ	דַּרְכֵיהֶם	דַּרְכֵיהֶן
+wind		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+wind	number:	state:	form	person:	singular	singular	plural	plural
+wind	number:	state:	form	person:	m	f	m	f
+wind	singular	indefinite	רוּחַ	first	רוּחִי	רוּחִי	רוּחֵנוּ	רוּחֵנוּ
+wind	singular	definite	הָרוּחַ	second	רוּחֲךָ	רוּחֵךְ	רוּחֲכֶם	רוּחֲכֶן
+wind	singular	construct	רוּחַ־	third	רוּחוֹ	רוּחָהּ	רוּחָם	רוּחָן
+wind	plural	indefinite	רוּחוֹת	first	רוחותיי / רוּחוֹתַי	רוחותיי / רוּחוֹתַי	רוּחוֹתֵינוּ	רוּחוֹתֵינוּ
+wind	plural	definite	הָרוּחוֹת	second	רוּחוֹתֶיךָ	רוחותייך / רוּחוֹתַיִךְ	רוּחוֹתֵיכֶם	רוּחוֹתֵיכֶן
+wind	plural	construct	רוּחוֹת־	third	רוּחוֹתָיו	רוּחוֹתֶיהָ	רוּחוֹתֵיהֶם, רוּחוֹתָם	רוּחוֹתֵיהֶן, רוּחוֹתָן
+wolf		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+wolf	number:	state:	form	person:	singular	singular	plural	plural
+wolf	number:	state:	form	person:	m	f	m	f
+wolf	singular	indefinite	זְאֵב	first	זְאֵבִי	זְאֵבִי	זְאֵבֵנוּ	זְאֵבֵנוּ
+wolf	singular	definite	הַזְּאֵב	second	זְאֵבְךָ	זְאֵבֵךְ	זְאֵבְכֶם	זְאֵבְכֶן
+wolf	singular	construct	זְאֵב־	third	זְאֵבוֹ	זְאֵבָהּ	זְאֵבָם	זְאֵבָן
+wolf	plural	indefinite	זְאֵבִים	first	זאביי / זְאֵבַי	זאביי / זְאֵבַי	זְאֵבֵינוּ	זְאֵבֵינוּ
+wolf	plural	definite	הַזְּאֵבִים	second	זְאֵבֶיךָ	זאבייך / זְאֵבַיִךְ	זְאֵבֵיכֶם	זְאֵבֵיכֶן
+wolf	plural	construct	זְאֵבֵי־	third	זְאֵבָיו	זְאֵבֶיהָ	זְאֵבֵיהֶם	זְאֵבֵיהֶן
+wood		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+wood	number:	state:	form	person:	singular	singular	plural	plural
+wood	number:	state:	form	person:	m	f	m	f
+wood	singular	indefinite	עֵץ	first	עֵצִי	עֵצִי	עֵצֵנוּ	עֵצֵנוּ
+wood	singular	definite	הָעֵץ	second	עֵצְךָ	עֵצֵךְ	עֵצְכֶם	עֵצְכֶן
+wood	singular	construct	עֵץ־	third	עֵצוֹ	עֵצָהּ	עֵצָם	עֵצָן
+wood	plural	indefinite	עֵצִים	first	עציי / עֵצַי	עציי / עֵצַי	עֵצֵינוּ	עֵצֵינוּ
+wood	plural	definite	הָעֵצִים	second	עֵצֶיךָ	עצייך / עֵצַיִךְ	עֲצֵיכֶם	עֲצֵיכֶן
+wood	plural	construct	עֲצֵי־	third	עֵצָיו	עֵצֶיהָ	עֲצֵיהֶם	עֲצֵיהֶן
+wood		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+wood	number:	state:	form	person:	singular	singular	plural	plural
+wood	number:	state:	form	person:	m	f	m	f
+wood	singular	indefinite	קֶרֶשׁ	first	קַרְשִׁי	קַרְשִׁי	קַרְשֵׁנוּ	קַרְשֵׁנוּ
+wood	singular	definite	הַקֶּרֶשׁ	second	קַרְשְׁךָ	קַרְשֵׁךְ	קַרְשְׁכֶם	קַרְשְׁכֶן
+wood	singular	construct	קֶרֶשׁ־	third	קַרְשׁוֹ	קַרְשָׁהּ	קַרְשָׁם	קַרְשָׁן
+wood	plural	indefinite	קְרָשִׁים	first	קרשיי / קְרָשַׁי	קרשיי / קְרָשַׁי	קְרָשֵׁינוּ	קְרָשֵׁינוּ
+wood	plural	definite	הַקְּרָשִׁים	second	קְרָשֶׁיךָ	קרשייך / קְרָשַׁיִךְ	קָרְשֵׁיכֶם	קָרְשֵׁיכֶן
+wood	plural	construct	קָרְשֵׁי־	third	קְרָשָׁיו	קְרָשֶׁיהָ	קָרְשֵׁיהֶם	קָרְשֵׁיהֶן
+work		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+work	number:	state:	form	person:	singular	singular	plural	plural
+work	number:	state:	form	person:	m	f	m	f
+work	singular	indefinite	עֲבוֹדָה	first	עֲבוֹדָתִי	עֲבוֹדָתִי	עֲבוֹדָתֵנוּ	עֲבוֹדָתֵנוּ
+work	singular	definite	הָעֲבוֹדָה	second	עֲבוֹדָתְךָ	עֲבוֹדָתֵךְ	עֲבוֹדַתְכֶם	עֲבוֹדַתְכֶן
+work	singular	construct	עֲבוֹדַת־	third	עֲבוֹדָתוֹ	עֲבוֹדָתָהּ	עֲבוֹדָתָם	עֲבוֹדָתָן
+work	plural	indefinite	עֲבוֹדוֹת	first	עבודותיי / עֲבוֹדוֹתַי	עבודותיי / עֲבוֹדוֹתַי	עֲבוֹדוֹתֵינוּ	עֲבוֹדוֹתֵינוּ
+work	plural	definite	הָעֲבוֹדוֹת	second	עֲבוֹדוֹתֶיךָ	עבודותייך / עֲבוֹדוֹתַיִךְ	עֲבוֹדוֹתֵיכֶם	עֲבוֹדוֹתֵיכֶן
+work	plural	construct	עֲבוֹדוֹת־	third	עֲבוֹדוֹתָיו	עֲבוֹדוֹתֶיהָ	עֲבוֹדוֹתֵיהֶם, עֲבוֹדוֹתָם	עֲבוֹדוֹתֵיהֶן, עֲבוֹדוֹתָן
+work		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+work	number:	state:	form	person:	singular	singular	plural	plural
+work	number:	state:	form	person:	m	f	m	f
+work	singular	indefinite	מְלָאכָה	first	מְלַאכְתִּי	מְלַאכְתִּי	מְלַאכְתֵּנוּ	מְלַאכְתֵּנוּ
+work	singular	definite	הַמְּלָאכָה	second	מְלַאכְתְּךָ	מְלַאכְתֵּךְ	מְלַאכְתְּכֶם	מְלַאכְתְּכֶן
+work	singular	construct	מְלֶאכֶת־	third	מְלַאכְתּוֹ	מְלַאכְתָּהּ	מְלַאכְתָּם	מְלַאכְתָּן
+work	plural	indefinite	מְלָאכוֹת	first	מלאכותיי / מְלָאכוֹתַי	מלאכותיי / מְלָאכוֹתַי	מְלָאכוֹתֵינוּ	מְלָאכוֹתֵינוּ
+work	plural	definite	הַמְּלָאכוֹת	second	מְלָאכוֹתֶיךָ	מלאכותייך / מְלָאכוֹתַיִךְ	מְלָאכוֹתֵיכֶם	מְלָאכוֹתֵיכֶן
+work	plural	construct	מְלָאכוֹת־	third	מְלָאכוֹתָיו	מְלָאכוֹתֶיהָ	מְלָאכוֹתֵיהֶם, מְלָאכוֹתָם	מְלָאכוֹתֵיהֶן, מְלָאכוֹתָן
+worker		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+worker	number:	state:	form	person:	singular	singular	plural	plural
+worker	number:	state:	form	person:	m	f	m	f
+worker	singular	indefinite	פועל / פֹּעַל	first	פָּעֳלִי	פָּעֳלִי	פָּעֳלֵנוּ	פָּעֳלֵנוּ
+worker	singular	definite	הפועל / הַפֹּעַל	second	פָּעֳלְךָ	פָּעֳלֵךְ	פועלכם / פֹּעַלְכֶם	פועלכן / פֹּעַלְכֶן
+worker	singular	construct	פועל־ / פֹּעַל־	third	פָּעֳלוֹ	פָּעֳלָהּ	פָּעֳלָם	פָּעֳלָן
+worker	plural	indefinite	פְּעָלִים	first	פעליי / פְּעָלַי	פעליי / פְּעָלַי	פְּעָלֵינוּ	פְּעָלֵינוּ
+worker	plural	definite	הַפְּעָלִים	second	פְּעָלֶיךָ	פעלייך / פְּעָלַיִךְ	פָּעֳלֵיכֶם	פָּעֳלֵיכֶן
+worker	plural	construct	פָּעֳלֵי־	third	פְּעָלָיו	פְּעָלֶיהָ	פָּעֳלֵיהֶם	פָּעֳלֵיהֶן
+worker		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+worker	number:	state:	form	person:	singular	singular	plural	plural
+worker	number:	state:	form	person:	m	f	m	f
+worker	masculine singular	indefinite	פּוֹעֵל	first	פּוֹעֵלִי	פּוֹעֵלִי	פּוֹעֵלֵנוּ	פּוֹעֵלֵנוּ
+worker	masculine singular	definite	הַפּוֹעֵל	second	פּוֹעֵלְךָ	פּוֹעֵלֵךְ	פּוֹעֵלְכֶם	פּוֹעֵלְכֶן
+worker	masculine singular	construct	פּוֹעֵל־	third	פּוֹעֵלוֹ	פּוֹעֵלָהּ	פּוֹעֵלָם	פּוֹעֵלָן
+worker	masculine plural	indefinite	פּוֹעֲלִים	first	פועליי / פּוֹעֲלַי	פועליי / פּוֹעֲלַי	פּוֹעֲלֵינוּ	פּוֹעֲלֵינוּ
+worker	masculine plural	definite	הַפּוֹעֲלִים	second	פּוֹעֲלֶיךָ	פועלייך / פּוֹעֲלַיִךְ	פּוֹעֲלֵיכֶם	פּוֹעֲלֵיכֶן
+worker	masculine plural	construct	פּוֹעֲלֵי־	third	פּוֹעֲלָיו	פּוֹעֲלֶיהָ	פּוֹעֲלֵיהֶם	פּוֹעֲלֵיהֶן
+worker	feminine singular	indefinite	פּוֹעֶלֶת	first	פּוֹעַלְתִּי	פּוֹעַלְתִּי	פּוֹעַלְתֵּנוּ	פּוֹעַלְתֵּנוּ
+worker	feminine singular	definite	הַפּוֹעֶלֶת	second	פּוֹעַלְתְּךָ	פּוֹעַלְתֵּךְ	פּוֹעַלְתְּכֶם	פּוֹעַלְתְּכֶן
+worker	feminine singular	construct	פּוֹעֶלֶת־	third	פּוֹעַלְתּוֹ	פּוֹעַלְתָּהּ	פּוֹעַלְתָּם	פּוֹעַלְתָּן
+worker	feminine plural	indefinite	פּוֹעֲלוֹת	first	פועלותיי / פּוֹעֲלוֹתַי	פועלותיי / פּוֹעֲלוֹתַי	פּוֹעֲלוֹתֵינוּ	פּוֹעֲלוֹתֵינוּ
+worker	feminine plural	definite	הַפּוֹעֲלוֹת	second	פּוֹעֲלוֹתֶיךָ	פועלותייך / פּוֹעֲלוֹתַיִךְ	פּוֹעֲלוֹתֵיכֶם	פּוֹעֲלוֹתֵיכֶן
+worker	feminine plural	construct	פּוֹעֲלוֹת־	third	פּוֹעֲלוֹתָיו	פּוֹעֲלוֹתֶיהָ	פּוֹעֲלוֹתֵיהֶם, פּוֹעֲלוֹתָם	פּוֹעֲלוֹתֵיהֶן, פּוֹעֲלוֹתָן
+language		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+language	number:	state:	form	person:	singular	singular	plural	plural
+language	number:	state:	form	person:	m	f	m	f
+language	singular	indefinite	לָשׁוֹן	first	לְשׁוֹנִי	לְשׁוֹנִי	לְשׁוֹנֵנוּ	לְשׁוֹנֵנוּ
+language	singular	definite	הַלָּשׁוֹן	second	לְשׁוֹנְךָ	לְשׁוֹנֵךְ	לְשׁוֹנְכֶם	לְשׁוֹנְכֶן
+language	singular	construct	לְשׁוֹן־	third	לְשׁוֹנוֹ	לְשׁוֹנָהּ	לְשׁוֹנָם	לְשׁוֹנָן
+language	plural	indefinite	לְשׁוֹנוֹת	first	לשונותיי / לְשׁוֹנוֹתַי	לשונותיי / לְשׁוֹנוֹתַי	לְשׁוֹנוֹתֵינוּ	לְשׁוֹנוֹתֵינוּ
+language	plural	definite	הַלְּשׁוֹנוֹת	second	לְשׁוֹנוֹתֶיךָ	לשונותייך / לְשׁוֹנוֹתַיִךְ	לְשׁוֹנוֹתֵיכֶם	לְשׁוֹנוֹתֵיכֶן
+language	plural	construct	לְשׁוֹנוֹת־	third	לְשׁוֹנוֹתָיו	לְשׁוֹנוֹתֶיהָ	לְשׁוֹנוֹתֵיהֶם, לְשׁוֹנוֹתָם	לְשׁוֹנוֹתֵיהֶן, לְשׁוֹנוֹתָן
+language		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+language	number:	state:	form	person:	singular	singular	plural	plural
+language	number:	state:	form	person:	m	f	m	f
+language	singular	indefinite	שָׂפָה	first	שְׂפָתִי	שְׂפָתִי	שְׂפָתֵנוּ	שְׂפָתֵנוּ
+language	singular	definite	הַשָּׂפָה	second	שְׂפָתְךָ	שְׂפָתֵךְ	שְׂפַתְכֶם	שְׂפַתְכֶן
+language	singular	construct	שְׂפַת־	third	שְׂפָתוֹ	שְׂפָתָהּ	שְׂפָתָם	שְׂפָתָן
+language	dual	indefinite	שפתיים / שְׂפָתַיִם	first	שפתיי / שְׂפָתַי	שפתיי / שְׂפָתַי	שְׂפָתֵינוּ	שְׂפָתֵינוּ
+language	dual	definite	השפתיים / הַשְּׂפָתַיִם	second	שְׂפָתֶיךָ	שפתייך / שְׂפָתַיִךְ	שִׂפְתֵיכֶם	שִׂפְתֵיכֶן
+language	dual	construct	שִׂפְתֵי־	third	שְׂפָתָיו	שְׂפָתֶיהָ	שִׂפְתֵיהֶם	שִׂפְתֵיהֶן
+language	plural	indefinite	שָׂפוֹת	first	שפותיי / שְׂפוֹתַי	שפותיי / שְׂפוֹתַי	שְׂפוֹתֵינוּ	שְׂפוֹתֵינוּ
+language	plural	definite	הַשָּׂפוֹת	second	שְׂפוֹתֶיךָ	שפותייך / שְׂפוֹתַיִךְ	שְׂפוֹתֵיכֶם	שְׂפוֹתֵיכֶן
+language	plural	construct	שְׂפוֹת־	third	שְׂפוֹתָיו	שְׂפוֹתֶיהָ	שְׂפוֹתֵיהֶם, שְׂפוֹתָם	שְׂפוֹתֵיהֶן, שְׂפוֹתָן
+town		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+town	number:	state:	form	person:	singular	singular	plural	plural
+town	number:	state:	form	person:	m	f	m	f
+town	singular	indefinite	עִיר	first	עִירִי	עִירִי	עִירֵנוּ	עִירֵנוּ
+town	singular	definite	הָעִיר	second	עִירְךָ	עִירֵךְ	עִירְכֶם	עִירְכֶן
+town	singular	construct	עִיר־	third	עִירוֹ	עִירָהּ	עִירָם	עִירָן
+town	plural	indefinite	עָרִים	first	עריי / עָרַי	עריי / עָרַי	עָרֵינוּ	עָרֵינוּ
+town	plural	definite	הָעָרִים	second	עָרֶיךָ	ערייך / עָרַיִךְ	עָרֵיכֶם	עָרֵיכֶן
+town	plural	construct	עָרֵי־	third	עָרָיו	עָרֶיהָ	עָרֵיהֶם	עָרֵיהֶן
+spring		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+spring	number:	state:	form	person:	singular	singular	plural	plural
+spring	number:	state:	form	person:	m	f	m	f
+spring	singular	indefinite	אָבִיב	first	אֲבִיבִי	אֲבִיבִי	אֲבִיבֵנוּ	אֲבִיבֵנוּ
+spring	singular	definite	הָאָבִיב	second	אֲבִיבְךָ	אֲבִיבֵךְ	אֲבִיבְכֶם	אֲבִיבְכֶן
+spring	singular	construct	אֲבִיב־	third	אֲבִיבוֹ	אֲבִיבָהּ	אֲבִיבָם	אֲבִיבָן
+spring	plural	indefinite	אֲבִיבִים	first	אביביי / אֲבִיבַי	אביביי / אֲבִיבַי	אֲבִיבֵינוּ	אֲבִיבֵינוּ
+spring	plural	definite	הָאֲבִיבִים	second	אֲבִיבֶיךָ	אביבייך / אֲבִיבַיִךְ	אֲבִיבֵיכֶם	אֲבִיבֵיכֶן
+spring	plural	construct	אֲבִיבֵי־	third	אֲבִיבָיו	אֲבִיבֶיהָ	אֲבִיבֵיהֶם	אֲבִיבֵיהֶן
+winter		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+winter	number:	state:	form	person:	singular	singular	plural	plural
+winter	number:	state:	form	person:	m	f	m	f
+winter	singular	indefinite	חורף / חֹרֶף	first	חורפי / חׇרְפִּי	חורפי / חׇרְפִּי	חורפנו / חׇרְפֵּנוּ	חורפנו / חׇרְפֵּנוּ
+winter	singular	definite	החורף / הַחֹרֶף	second	חורפך / חׇרְפְּךָ	חורפך / חׇרְפֵּךְ	חורפכם / חׇרְפְּכֶם	חורפכן / חׇרְפְּכֶן
+winter	singular	construct	חורף־ / חֹרֶף־	third	חורפו / חׇרְפּוֹ	חורפה / חׇרְפָּהּ	חורפם / חׇרְפָּם	חורפן / חׇרְפָּן
+winter	plural	indefinite	חורפים / חֳרָפִים	first	חורפיי / חֳרָפַי	חורפיי / חֳרָפַי	חורפינו / חֳרָפֵינוּ	חורפינו / חֳרָפֵינוּ
+winter	plural	definite	החורפים / הַחֳרָפִים	second	חורפיך / חֳרָפֶיךָ	חורפייך / חֳרָפַיִךְ	חורפיכם / חׇרְפֵיכֶם	חורפיכן / חׇרְפֵיכֶן
+winter	plural	construct	חורפי־ / חׇרְפֵי־	third	חורפיו / חֳרָפָיו	חורפיה / חֳרָפֶיהָ	חורפיהם / חׇרְפֵיהֶם	חורפיהן / חׇרְפֵיהֶן
+year		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+year	number:	state:	form	person:	singular	singular	plural	plural
+year	number:	state:	form	person:	m	f	m	f
+year	singular	indefinite	שָׁנָה	first	שְׁנָתִי	שְׁנָתִי	שְׁנָתֵנוּ	שְׁנָתֵנוּ
+year	singular	definite	הַשָּׁנָה	second	שְׁנָתְךָ	שְׁנָתֵךְ	שְׁנַתְכֶם	שְׁנַתְכֶן
+year	singular	construct	שְׁנַת־	third	שְׁנָתוֹ	שְׁנָתָהּ	שְׁנָתָם	שְׁנָתָן
+year	dual	indefinite	שְׁנָתַיִם	first	שנתיי / שְׁנָתַי	שנתיי / שְׁנָתַי	שְׁנָתֵינוּ	שְׁנָתֵינוּ
+year	dual	definite	הַשְּׁנָתַיִם	second	שְׁנָתֶיךָ	שנתייך / שְׁנָתַיִךְ	שְׁנָתֵיכֶם	שְׁנָתֵיכֶן
+year	dual	construct	שְׁנָתֵי־	third	שְׁנָתָיו	שְׁנָתֶיהָ	שְׁנָתֵיהֶם	שְׁנָתֵיהֶן
+year	plural	indefinite	שָׁנִים	first	שנותיי / שְׁנוֹתַי	שנותיי / שְׁנוֹתַי	שְׁנוֹתֵינוּ	שְׁנוֹתֵינוּ
+year	plural	definite	הַשָּׁנִים	second	שְׁנוֹתֶיךָ	שנותייך / שְׁנוֹתַיִךְ	שְׁנוֹתֵיכֶם	שְׁנוֹתֵיכֶן
+year	plural	construct	שְׁנוֹת־	third	שְׁנוֹתָיו	שְׁנוֹתֶיהָ	שְׁנוֹתֵיהֶם, שְׁנוֹתָם	שְׁנוֹתֵיהֶן, שְׁנוֹתָן
+day		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+day	number:	state:	form	person:	singular	singular	plural	plural
+day	number:	state:	form	person:	m	f	m	f
+day	singular	indefinite	יוֹם	first	יוֹמִי	יוֹמִי	יוֹמֵנוּ	יוֹמֵנוּ
+day	singular	definite	הַיּוֹם	second	יוֹמְךָ	יוֹמֵךְ	יוֹמְכֶם	יוֹמְכֶן
+day	singular	construct	יוֹם־	third	יוֹמוֹ	יוֹמָהּ	יוֹמָם	יוֹמָן
+day	dual	indefinite	יומיים / יוֹמַיִם	first	יומיי / יוֹמַי	יומיי / יוֹמַי	יוֹמֵינוּ	יוֹמֵינוּ
+day	dual	definite	היומיים / הַיּוֹמַיִם	second	יוֹמֶיךָ	יומייך / יוֹמַיִךְ	יוֹמֵיכֶם	יוֹמֵיכֶן
+day	dual	construct	יוֹמֵי־	third	יוֹמָיו	יוֹמֶיהָ	יוֹמֵיהֶם	יוֹמֵיהֶן
+day	plural	indefinite	יָמִים	first	ימיי / יָמַי	ימיי / יָמַי	יָמֵינוּ	יָמֵינוּ
+day	plural	definite	הַיָּמִים	second	יָמֶיךָ	ימייך / יָמַיִךְ	יְמֵיכֶם	יְמֵיכֶן
+day	plural	construct	יְמֵי־	third	יָמָיו	יָמֶיהָ	יְמֵיהֶם	יְמֵיהֶן
+day		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+day	number:	state:	form	person:	singular	singular	plural	plural
+day	number:	state:	form	person:	m	f	m	f
+day	singular	indefinite	יוֹם	first	יוֹמִי	יוֹמִי	יוֹמֵנוּ	יוֹמֵנוּ
+day	singular	definite	הַיּוֹם	second	יוֹמְךָ	יוֹמֵךְ	יוֹמְכֶם	יוֹמְכֶן
+day	singular	construct	יוֹם־	third	יוֹמוֹ	יוֹמָהּ	יוֹמָם	יוֹמָן
+day	dual	indefinite	יומיים / יוֹמַיִם	first	יומיי / יוֹמַי	יומיי / יוֹמַי	יוֹמֵינוּ	יוֹמֵינוּ
+day	dual	definite	היומיים / הַיּוֹמַיִם	second	יוֹמֶיךָ	יומייך / יוֹמַיִךְ	יוֹמֵיכֶם	יוֹמֵיכֶן
+day	dual	construct	יוֹמֵי־	third	יוֹמָיו	יוֹמֶיהָ	יוֹמֵיהֶם	יוֹמֵיהֶן
+day	plural	indefinite	יָמִים	first	ימיי / יָמַי	ימיי / יָמַי	יָמֵינוּ	יָמֵינוּ
+day	plural	definite	הַיָּמִים	second	יָמֶיךָ	ימייך / יָמַיִךְ	יְמֵיכֶם	יְמֵיכֶן
+day	plural	construct	יְמֵי־	third	יָמָיו	יָמֶיהָ	יְמֵיהֶם	יְמֵיהֶן
+day		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+day	number:	state:	form	person:	singular	singular	plural	plural
+day	number:	state:	form	person:	m	f	m	f
+day	singular	indefinite	יוֹם	first	יוֹמִי	יוֹמִי	יוֹמֵנוּ	יוֹמֵנוּ
+day	singular	definite	הַיּוֹם	second	יוֹמְךָ	יוֹמֵךְ	יוֹמְכֶם	יוֹמְכֶן
+day	singular	construct	יוֹם־	third	יוֹמוֹ	יוֹמָהּ	יוֹמָם	יוֹמָן
+day	dual	indefinite	יומיים / יוֹמַיִם	first	יומיי / יוֹמַי	יומיי / יוֹמַי	יוֹמֵינוּ	יוֹמֵינוּ
+day	dual	definite	היומיים / הַיּוֹמַיִם	second	יוֹמֶיךָ	יומייך / יוֹמַיִךְ	יוֹמֵיכֶם	יוֹמֵיכֶן
+day	dual	construct	יוֹמֵי־	third	יוֹמָיו	יוֹמֶיהָ	יוֹמֵיהֶם	יוֹמֵיהֶן
+day	plural	indefinite	יָמִים	first	ימיי / יָמַי	ימיי / יָמַי	יָמֵינוּ	יָמֵינוּ
+day	plural	definite	הַיָּמִים	second	יָמֶיךָ	ימייך / יָמַיִךְ	יְמֵיכֶם	יְמֵיכֶן
+day	plural	construct	יְמֵי־	third	יָמָיו	יָמֶיהָ	יְמֵיהֶם	יְמֵיהֶן
+moon		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+moon	number:	state:	form	person:	singular	singular	plural	plural
+moon	number:	state:	form	person:	m	f	m	f
+moon	singular	indefinite	יָרֵחַ	first	יְרֵחִי	יְרֵחִי	יְרֵחֵנוּ	יְרֵחֵנוּ
+moon	singular	definite	הַיָּרֵחַ	second	יְרֵחֲךָ	יְרֵחֵךְ	יְרֵחֲכֶם	יְרֵחֲכֶן
+moon	singular	construct	יְרֵחַ־	third	יְרֵחוֹ	יְרֵחָהּ	יְרֵחָם	יְרֵחָן
+moon	plural	indefinite	יְרֵחִים	first	ירחיי / יְרֵחַי	ירחיי / יְרֵחַי	יְרֵחֵינוּ	יְרֵחֵינוּ
+moon	plural	definite	הַיְּרֵחִים	second	יְרֵחֶיךָ	ירחייך / יְרֵחַיִךְ	יְרֵחֵיכֶם	יְרֵחֵיכֶן
+moon	plural	construct	יְרֵחֵי־	third	יְרֵחָיו	יְרֵחֶיהָ	יְרֵחֵיהֶם	יְרֵחֵיהֶן
+moon		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+moon	number:	state:	form	person:	singular	singular	plural	plural
+moon	number:	state:	form	person:	m	f	m	f
+moon	singular	indefinite	יֶרַח	first	יַרְחִי	יַרְחִי	יַרְחֵנוּ	יַרְחֵנוּ
+moon	singular	definite	הַיֶּרַח	second	יַרְחֲךָ	יַרְחֵךְ	יַרְחֲכֶם	יַרְחֲכֶן
+moon	singular	construct	יֶרַח־	third	יַרְחוֹ	יַרְחָהּ	יַרְחָם	יַרְחָן
+moon	plural	indefinite	יְרָחִים	first	ירחיי / יְרָחַי	ירחיי / יְרָחַי	יְרָחֵינוּ	יְרָחֵינוּ
+moon	plural	definite	הַיְּרָחִים	second	יְרָחֶיךָ	ירחייך / יְרָחַיִךְ	יַרְחֵיכֶם	יַרְחֵיכֶן
+moon	plural	construct	יַרְחֵי־	third	יְרָחָיו	יְרָחֶיהָ	יַרְחֵיהֶם	יַרְחֵיהֶן
+moon		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+moon	number:	state:	form	person:	singular	singular	plural	plural
+moon	number:	state:	form	person:	m	f	m	f
+moon	singular	indefinite	לְבֵנָה	first	לִבְנָתִי	לִבְנָתִי	לִבְנָתֵנוּ	לִבְנָתֵנוּ
+moon	singular	definite	הַלְּבֵנָה	second	לִבְנָתְךָ	לִבְנָתֵךְ	לְבֵנַתְכֶם	לְבֵנַתְכֶן
+moon	singular	construct	לְבֵנַת־	third	לִבְנָתוֹ	לִבְנָתָהּ	לִבְנָתָם	לִבְנָתָן
+moon	plural	indefinite	לְבֵנִים	first	לבניי / לְבֵנַי	לבניי / לְבֵנַי	לְבֵנֵינוּ	לְבֵנֵינוּ
+moon	plural	definite	הַלְּבֵנִים	second	לְבֵנֶיךָ	לבנייך / לְבֵנַיִךְ	לִבְנֵיכֶם	לִבְנֵיכֶן
+moon	plural	construct	לִבְנֵי־	third	לְבֵנָיו	לְבֵנֶיהָ	לִבְנֵיהֶם	לִבְנֵיהֶן
+moon		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+moon	number:	state:	form	person:	singular	singular	plural	plural
+moon	number:	state:	form	person:	m	f	m	f
+moon	singular	indefinite	יָרֵחַ	first	יְרֵחִי	יְרֵחִי	יְרֵחֵנוּ	יְרֵחֵנוּ
+moon	singular	definite	הַיָּרֵחַ	second	יְרֵחֲךָ	יְרֵחֵךְ	יְרֵחֲכֶם	יְרֵחֲכֶן
+moon	singular	construct	יְרֵחַ־	third	יְרֵחוֹ	יְרֵחָהּ	יְרֵחָם	יְרֵחָן
+moon	plural	indefinite	יְרֵחִים	first	ירחיי / יְרֵחַי	ירחיי / יְרֵחַי	יְרֵחֵינוּ	יְרֵחֵינוּ
+moon	plural	definite	הַיְּרֵחִים	second	יְרֵחֶיךָ	ירחייך / יְרֵחַיִךְ	יְרֵחֵיכֶם	יְרֵחֵיכֶן
+moon	plural	construct	יְרֵחֵי־	third	יְרֵחָיו	יְרֵחֶיהָ	יְרֵחֵיהֶם	יְרֵחֵיהֶן
+moon		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+moon	number:	state:	form	person:	singular	singular	plural	plural
+moon	number:	state:	form	person:	m	f	m	f
+moon	singular	indefinite	יֶרַח	first	יַרְחִי	יַרְחִי	יַרְחֵנוּ	יַרְחֵנוּ
+moon	singular	definite	הַיֶּרַח	second	יַרְחֲךָ	יַרְחֵךְ	יַרְחֲכֶם	יַרְחֲכֶן
+moon	singular	construct	יֶרַח־	third	יַרְחוֹ	יַרְחָהּ	יַרְחָם	יַרְחָן
+moon	plural	indefinite	יְרָחִים	first	ירחיי / יְרָחַי	ירחיי / יְרָחַי	יְרָחֵינוּ	יְרָחֵינוּ
+moon	plural	definite	הַיְּרָחִים	second	יְרָחֶיךָ	ירחייך / יְרָחַיִךְ	יַרְחֵיכֶם	יַרְחֵיכֶן
+moon	plural	construct	יַרְחֵי־	third	יְרָחָיו	יְרָחֶיהָ	יַרְחֵיהֶם	יַרְחֵיהֶן
+sun		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+sun	number:	state:	form	person:	singular	singular	plural	plural
+sun	number:	state:	form	person:	m	f	m	f
+sun	singular	indefinite	שֶׁמֶשׁ	first	שִׁמְשִׁי	שִׁמְשִׁי	שִׁמְשֵׁנוּ	שִׁמְשֵׁנוּ
+sun	singular	definite	הַשֶּׁמֶשׁ	second	שִׁמְשְׁךָ	שִׁמְשֵׁךְ	שִׁמְשְׁכֶם	שִׁמְשְׁכֶן
+sun	singular	construct	שֶׁמֶשׁ־	third	שִׁמְשׁוֹ	שִׁמְשָׁהּ	שִׁמְשָׁם	שִׁמְשָׁן
+sun		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+sun	number:	state:	form	person:	singular	singular	plural	plural
+sun	number:	state:	form	person:	m	f	m	f
+sun	singular	indefinite	כּוֹכָב	first	כּוֹכָבִי	כּוֹכָבִי	כּוֹכָבֵנוּ	כּוֹכָבֵנוּ
+sun	singular	definite	הַכּוֹכָב	second	כּוֹכָבְךָ	כּוֹכָבֵךְ	כּוֹכַבְכֶם	כּוֹכַבְכֶן
+sun	singular	construct	כּוֹכַב־	third	כּוֹכָבוֹ	כּוֹכָבָהּ	כּוֹכָבָם	כּוֹכָבָן
+sun	plural	indefinite	כּוֹכָבִים	first	כוכביי / כּוֹכָבַי	כוכביי / כּוֹכָבַי	כּוֹכָבֵינוּ	כּוֹכָבֵינוּ
+sun	plural	definite	הַכּוֹכָבִים	second	כּוֹכָבֶיךָ	כוכבייך / כּוֹכָבַיִךְ	כּוֹכְבֵיכֶם	כּוֹכְבֵיכֶן
+sun	plural	construct	כּוֹכְבֵי־	third	כּוֹכָבָיו	כּוֹכָבֶיהָ	כּוֹכְבֵיהֶם	כּוֹכְבֵיהֶן
+star		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+star	number:	state:	form	person:	singular	singular	plural	plural
+star	number:	state:	form	person:	m	f	m	f
+star	singular	indefinite	כּוֹכָב	first	כּוֹכָבִי	כּוֹכָבִי	כּוֹכָבֵנוּ	כּוֹכָבֵנוּ
+star	singular	definite	הַכּוֹכָב	second	כּוֹכָבְךָ	כּוֹכָבֵךְ	כּוֹכַבְכֶם	כּוֹכַבְכֶן
+star	singular	construct	כּוֹכַב־	third	כּוֹכָבוֹ	כּוֹכָבָהּ	כּוֹכָבָם	כּוֹכָבָן
+star	plural	indefinite	כּוֹכָבִים	first	כוכביי / כּוֹכָבַי	כוכביי / כּוֹכָבַי	כּוֹכָבֵינוּ	כּוֹכָבֵינוּ
+star	plural	definite	הַכּוֹכָבִים	second	כּוֹכָבֶיךָ	כוכבייך / כּוֹכָבַיִךְ	כּוֹכְבֵיכֶם	כּוֹכְבֵיכֶן
+star	plural	construct	כּוֹכְבֵי־	third	כּוֹכָבָיו	כּוֹכָבֶיהָ	כּוֹכְבֵיהֶם	כּוֹכְבֵיהֶן
+man		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+man	number:	state:	form	person:	singular	singular	plural	plural
+man	number:	state:	form	person:	m	f	m	f
+man	singular	indefinite	גֶּבֶר	first	גַּבְרִי	גַּבְרִי	גַּבְרֵנוּ	גַּבְרֵנוּ
+man	singular	definite	הַגֶּבֶר	second	גַּבְרְךָ	גַּבְרֵךְ	גַּבְרְכֶם	גַּבְרְכֶן
+man	singular	construct	גֶּבֶר־	third	גַּבְרוֹ	גַּבְרָהּ	גַּבְרָם	גַּבְרָן
+man	plural	indefinite	גְּבָרִים	first	גבריי / גְּבָרַי	גבריי / גְּבָרַי	גְּבָרֵינוּ	גְּבָרֵינוּ
+man	plural	definite	הַגְּבָרִים	second	גְּבָרֶיךָ	גברייך / גְּבָרַיִךְ	גַּבְרֵיכֶם	גַּבְרֵיכֶן
+man	plural	construct	גַּבְרֵי־	third	גְּבָרָיו	גְּבָרֶיהָ	גַּבְרֵיהֶם	גַּבְרֵיהֶן
+man		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+man	number:	state:	form	person:	singular	singular	plural	plural
+man	number:	state:	form	person:	m	f	m	f
+man	singular	indefinite	אִישׁ	first	אִישִׁי	אִישִׁי	אִישֵׁנוּ	אִישֵׁנוּ
+man	singular	definite	הָאִישׁ	second	אִישְׁךָ	אִישֵׁךְ	אִישְׁכֶם	אִישְׁכֶן
+man	singular	construct	אִישׁ־	third	אִישׁוֹ	אִישָׁהּ	אִישָׁם	אִישָׁן
+man	plural	indefinite	אֲנָשִׁים	first	אנשיי / אֲנָשַׁי	אנשיי / אֲנָשַׁי	אֲנָשֵׁינוּ	אֲנָשֵׁינוּ
+man	plural	definite	הָאֲנָשִׁים	second	אֲנָשֶׁיךָ	אנשייך / אֲנָשַׁיִךְ	אַנְשֵׁיכֶם	אַנְשֵׁיכֶן
+man	plural	construct	אַנְשֵׁי־	third	אֲנָשָׁיו	אֲנָשֶׁיהָ	אַנְשֵׁיהֶם	אַנְשֵׁיהֶן
+woman		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+woman	number:	state:	form	person:	singular	singular	plural	plural
+woman	number:	state:	form	person:	m	f	m	f
+woman	singular	indefinite	אִשָּׁה	first	אִשְׁתִּי	אִשְׁתִּי	אִשְׁתֵּנוּ	אִשְׁתֵּנוּ
+woman	singular	definite	הָאִשָּׁה	second	אִשְׁתְּךָ	אִשְׁתֵּךְ	אִשְׁתְּכֶם	אִשְׁתְּכֶן
+woman	singular	construct	אֵשֶׁת־	third	אִשְׁתּוֹ	אִשְׁתָּהּ	אִשְׁתָּם	אִשְׁתָּן
+woman	plural	indefinite	נָשִׁים	first	נשותיי / נְשׁוֹתַי	נשותיי / נְשׁוֹתַי	נְשׁוֹתֵינוּ	נְשׁוֹתֵינוּ
+woman	plural	definite	הַנָּשִׁים	second	נְשׁוֹתֶיךָ	נשותייך / נְשׁוֹתַיִךְ	נְשׁוֹתֵיכֶם	נְשׁוֹתֵיכֶן
+woman	plural	construct	נְשׁוֹת־	third	נְשׁוֹתָיו	נְשׁוֹתֶיהָ	נְשׁוֹתֵיהֶם, נְשׁוֹתָם	נְשׁוֹתֵיהֶן, נְשׁוֹתָן
+woman	plural	indefinite	נָשִׁים	first	נשיי / נָשַׁי	נשיי / נָשַׁי	נָשֵׁינוּ	נָשֵׁינוּ
+woman	plural	definite	הַנָּשִׁים	second	נָשֶׁיךָ	נשייך / נָשַׁיִךְ	נְשֵׁיכֶם	נְשֵׁיכֶן
+woman	plural	construct	נְשֵׁי־	third	נָשָׁיו	נָשֶׁיהָ	נְשֵׁיהֶם	נְשֵׁיהֶן
+son		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+son	number:	state:	form	person:	singular	singular	plural	plural
+son	number:	state:	form	person:	m	f	m	f
+son	singular	indefinite	בֵּן	first	בְּנִי	בְּנִי	בְּנֵנוּ	בְּנֵנוּ
+son	singular	definite	הַבֵּן	second	בִּנְךָ	בְּנֵךְ	בִּנְכֶם	בִּנְכֶן
+son	singular	construct	בֶּן־	third	בְּנוֹ	בְּנָהּ	בְּנָם	בְּנָן
+son	plural	indefinite	בָּנִים	first	בניי / בָּנַי	בניי / בָּנַי	בָּנֵינוּ	בָּנֵינוּ
+son	plural	definite	הַבָּנִים	second	בָּנֶיךָ	בנייך / בָּנַיִךְ	בְּנֵיכֶם	בְּנֵיכֶן
+son	plural	construct	בְּנֵי־	third	בָּנָיו	בָּנֶיהָ	בְּנֵיהֶם	בְּנֵיהֶן
+daughter		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+daughter	number:	state:	form	person:	singular	singular	plural	plural
+daughter	number:	state:	form	person:	m	f	m	f
+daughter	singular	indefinite	בַּת	first	בִּתִּי	בִּתִּי	בִּתֵּנוּ	בִּתֵּנוּ
+daughter	singular	definite	הַבַּת	second	בִּתְּךָ	בִּתֵּךְ	בִּתְּכֶם	בִּתְּכֶן
+daughter	singular	construct	בַּת־	third	בִּתּוֹ	בִּתָּהּ	בִּתָּם	בִּתָּן
+daughter	plural	indefinite	בָּנוֹת	first	בנותיי / בְּנוֹתַי	בנותיי / בְּנוֹתַי	בְּנוֹתֵינוּ	בְּנוֹתֵינוּ
+daughter	plural	definite	הַבָּנוֹת	second	בְּנוֹתֶיךָ	בנותייך / בְּנוֹתַיִךְ	בְּנוֹתֵיכֶם	בְּנוֹתֵיכֶן
+daughter	plural	construct	בְּנוֹת־	third	בְּנוֹתָיו	בְּנוֹתֶיהָ	בְּנוֹתֵיהֶם, בְּנוֹתָם	בְּנוֹתֵיהֶן, בְּנוֹתָן
+mother		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+mother	number:	state:	form	person:	singular	singular	plural	plural
+mother	number:	state:	form	person:	m	f	m	f
+mother	singular	indefinite	אֵם	first	אִמִּי	אִמִּי	אִמֵּנוּ	אִמֵּנוּ
+mother	singular	definite	הָאֵם	second	אִמְּךָ	אִמֵּךְ	אִמְּכֶם	אִמְּכֶן
+mother	singular	construct	אֵם־	third	אִמּוֹ	אִמָּהּ	אִמָּם	אִמָּן
+mother	plural	indefinite	אימהות / אִמָּהוֹת	first	אימותיי / אִמּוֹתַי	אימותיי / אִמּוֹתַי	אימותינו / אִמּוֹתֵינוּ	אימותינו / אִמּוֹתֵינוּ
+mother	plural	definite	האימהות / הָאִמָּהוֹת	second	אימותיך / אִמּוֹתֶיךָ	אימותייך / אִמּוֹתַיִךְ	אימותיכם / אִמּוֹתֵיכֶם	אימותיכן / אִמּוֹתֵיכֶן
+mother	plural	construct	אימות־ / אִמּוֹת־	third	אימותיו / אִמּוֹתָיו	אימותיה / אִמּוֹתֶיהָ	אימותיהם / אִמּוֹתֵיהֶם, אימותם / אִמּוֹתָם	אימותיהן / אִמּוֹתֵיהֶן, אימותן / אִמּוֹתָן
+father		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+father	number:	state:	form	person:	singular	singular	plural	plural
+father	number:	state:	form	person:	m	f	m	f
+father	singular	indefinite	אָב	first	אָבִי	אָבִי	אָבִינוּ	אָבִינוּ
+father	singular	definite	הָאָב	second	אָבִיךָ	אָבִיךְ	אֲבִיכֶם	אֲבִיכֶן
+father	singular	construct	אֲבִי־	third	אָבִיו	אָבִיהָ	אֲבִיהֶם	אֲבִיהֶן
+father	plural	indefinite	אָבוֹת	first	אבותיי / אֲבוֹתַי	אבותיי / אֲבוֹתַי	אֲבוֹתֵינוּ	אֲבוֹתֵינוּ
+father	plural	definite	הָאָבוֹת	second	אֲבוֹתֶיךָ	אבותייך / אֲבוֹתַיִךְ	אֲבוֹתֵיכֶם	אֲבוֹתֵיכֶן
+father	plural	construct	אֲבוֹת־	third	אֲבוֹתָיו	אֲבוֹתֶיהָ	אֲבוֹתֵיהֶם, אֲבוֹתָם	אֲבוֹתֵיהֶן, אֲבוֹתָן
+brother		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+brother	number:	state:	form	person:	singular	singular	plural	plural
+brother	number:	state:	form	person:	m	f	m	f
+brother	singular	indefinite	אָח	first	אָחִי	אָחִי	אָחִינוּ	אָחִינוּ
+brother	singular	definite	הָאָח	second	אָחִיךָ	אָחִיךְ	אֲחִיכֶם	אֲחִיכֶן
+brother	singular	construct	אֲחִי־	third	אָחִיו	אָחִיהָ	אֲחִיהֶם	אֲחִיהֶן
+brother	plural	indefinite	אַחִים	first	אחיי / אַחַי	אחיי / אַחַי	אַחֵינוּ	אַחֵינוּ
+brother	plural	definite	הָאַחִים	second	אַחֶיךָ	אחייך / אַחַיִךְ	אַחֵיכֶם	אַחֵיכֶן
+brother	plural	construct	אַחֵי־	third	אֶחָיו	אַחֶיהָ	אַחֵיהֶם	אַחֵיהֶן
+brother		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+brother	number:	state:	form	person:	singular	singular	plural	plural
+brother	number:	state:	form	person:	m	f	m	f
+brother	singular	indefinite	אָח	first	אָחִי	אָחִי	אָחִינוּ	אָחִינוּ
+brother	singular	definite	הָאָח	second	אָחִיךָ	אָחִיךְ	אֲחִיכֶם	אֲחִיכֶן
+brother	singular	construct	אֲחִי־	third	אָחִיו	אָחִיהָ	אֲחִיהֶם	אֲחִיהֶן
+brother	plural	indefinite	אַחִים	first	אחיי / אַחַי	אחיי / אַחַי	אַחֵינוּ	אַחֵינוּ
+brother	plural	definite	הָאַחִים	second	אַחֶיךָ	אחייך / אַחַיִךְ	אַחֵיכֶם	אַחֵיכֶן
+brother	plural	construct	אַחֵי־	third	אֶחָיו	אַחֶיהָ	אַחֵיהֶם	אַחֵיהֶן
+sister		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+sister	number:	state:	form	person:	singular	singular	plural	plural
+sister	number:	state:	form	person:	m	f	m	f
+sister	singular	indefinite	אָחוֹת	first	אֲחוֹתִי	אֲחוֹתִי	אֲחוֹתֵנוּ	אֲחוֹתֵנוּ
+sister	singular	definite	הָאָחוֹת	second	אֲחוֹתְךָ	אֲחוֹתֵךְ	אֲחוֹתְכֶם	אֲחוֹתְכֶן
+sister	singular	construct	אֲחוֹת־	third	אֲחוֹתוֹ	אֲחוֹתָהּ	אֲחוֹתָם	אֲחוֹתָן
+sister	plural	indefinite	אֲחָיוֹת	first	אחיותיי / אַחְיוֹתַי	אחיותיי / אַחְיוֹתַי	אַחְיוֹתֵינוּ	אַחְיוֹתֵינוּ
+sister	plural	definite	הָאֲחָיוֹת	second	אַחְיוֹתֶיךָ	אחיותייך / אַחְיוֹתַיִךְ	אַחְיוֹתֵיכֶם	אַחְיוֹתֵיכֶן
+sister	plural	construct	אַחְיוֹת־	third	אַחְיוֹתָיו	אַחְיוֹתֶיהָ	אַחְיוֹתֵיהֶם, אַחְיוֹתָם	אַחְיוֹתֵיהֶן, אַחְיוֹתָן
+grandmother		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+grandmother	number:	state:	form	person:	singular	singular	plural	plural
+grandmother	number:	state:	form	person:	m	f	m	f
+grandmother	singular	indefinite	סָבָה	first	סָבָתִי	סָבָתִי	סָבָתֵנוּ	סָבָתֵנוּ
+grandmother	singular	definite	הַסָּבָה	second	סָבָתְךָ	סָבָתֵךְ	סָבַתְכֶם	סָבַתְכֶן
+grandmother	singular	construct	סָבַת־	third	סָבָתוֹ	סָבָתָהּ	סָבָתָם	סָבָתָן
+grandmother	plural	indefinite	סָבוֹת	first	סבותיי / סָבוֹתַי	סבותיי / סָבוֹתַי	סָבוֹתֵינוּ	סָבוֹתֵינוּ
+grandmother	plural	definite	הַסָּבוֹת	second	סָבוֹתֶיךָ	סבותייך / סָבוֹתַיִךְ	סָבוֹתֵיכֶם	סָבוֹתֵיכֶן
+grandmother	plural	construct	סָבוֹת־	third	סָבוֹתָיו	סָבוֹתֶיהָ	סָבוֹתֵיהֶם, סָבוֹתָם	סָבוֹתֵיהֶן, סָבוֹתָן
+grandfather		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+grandfather	number:	state:	form	person:	singular	singular	plural	plural
+grandfather	number:	state:	form	person:	m	f	m	f
+grandfather	singular	indefinite	סָב	first	סָבִי	סָבִי	סָבֵנוּ	סָבֵנוּ
+grandfather	singular	definite	הַסָּב	second	סָבְךָ	סָבֵךְ	סַבְכֶם	סַבְכֶן
+grandfather	singular	construct	סַב־	third	סָבוֹ	סָבָהּ	סָבָם	סָבָן
+grandfather	plural	indefinite	סָבִים	first	סביי / סָבַי	סביי / סָבַי	סָבֵינוּ	סָבֵינוּ
+grandfather	plural	definite	הַסָּבִים	second	סָבֶיךָ	סבייך / סָבַיִךְ	סָבֵיכֶם	סָבֵיכֶן
+grandfather	plural	construct	סָבֵי־	third	סָבָיו	סָבֶיהָ	סָבֵיהֶם	סָבֵיהֶן
+sound		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+sound	number:	state:	form	person:	singular	singular	plural	plural
+sound	number:	state:	form	person:	m	f	m	f
+sound	singular	indefinite	קוֹל	first	קוֹלִי	קוֹלִי	קוֹלֵנוּ	קוֹלֵנוּ
+sound	singular	definite	הַקּוֹל	second	קוֹלְךָ	קוֹלֵךְ	קוֹלְכֶם	קוֹלְכֶן
+sound	singular	construct	קוֹל־	third	קוֹלוֹ	קוֹלָהּ	קוֹלָם	קוֹלָן
+sound	plural	indefinite	קוֹלוֹת	first	קולותיי / קוֹלוֹתַי	קולותיי / קוֹלוֹתַי	קוֹלוֹתֵינוּ	קוֹלוֹתֵינוּ
+sound	plural	definite	הַקּוֹלוֹת	second	קוֹלוֹתֶיךָ	קולותייך / קוֹלוֹתַיִךְ	קוֹלוֹתֵיכֶם	קוֹלוֹתֵיכֶן
+sound	plural	construct	קוֹלוֹת־	third	קוֹלוֹתָיו	קוֹלוֹתֶיהָ	קוֹלוֹתֵיהֶם, קוֹלוֹתָם	קוֹלוֹתֵיהֶן, קוֹלוֹתָן
+sound		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+sound	number:	state:	form	person:	singular	singular	plural	plural
+sound	number:	state:	form	person:	m	f	m	f
+sound	singular	indefinite	צְלִיל	first	צְלִילִי	צְלִילִי	צְלִילֵנוּ	צְלִילֵנוּ
+sound	singular	definite	הַצְּלִיל	second	צְלִילְךָ	צְלִילֵךְ	צְלִילְכֶם	צְלִילְכֶן
+sound	singular	construct	צְלִיל־	third	צְלִילוֹ	צְלִילָהּ	צְלִילָם	צְלִילָן
+sound	plural	indefinite	צְלִילִים	first	צליליי / צְלִילַי	צליליי / צְלִילַי	צְלִילֵינוּ	צְלִילֵינוּ
+sound	plural	definite	הַצְּלִילִים	second	צְלִילֶיךָ	צלילייך / צְלִילַיִךְ	צְלִילֵיכֶם	צְלִילֵיכֶן
+sound	plural	construct	צְלִילֵי־	third	צְלִילָיו	צְלִילֶיהָ	צְלִילֵיהֶם	צְלִילֵיהֶן
+size		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+size	number:	state:	form	person:	singular	singular	plural	plural
+size	number:	state:	form	person:	m	f	m	f
+size	singular	indefinite	גודל / גֹּדֶל	first	גודלי / גׇּדְלִי	גודלי / גׇּדְלִי	גודלנו / גׇּדְלֵנוּ	גודלנו / גׇּדְלֵנוּ
+size	singular	definite	הגודל / הַגֹּדֶל	second	גודלך / גׇּדְלְךָ	גודלך / גׇּדְלֵךְ	גודלכם / גׇּדְלְכֶם	גודלכן / גׇּדְלְכֶן
+size	singular	construct	גודל־ / גֹּדֶל־	third	גודלו / גׇּדְלוֹ	גודלה / גׇּדְלָהּ	גודלם / גׇּדְלָם	גודלן / גׇּדְלָן
+size	plural	indefinite	גְּדָלִים	first	גדליי / גְּדָלַי	גדליי / גְּדָלַי	גְּדָלֵינוּ	גְּדָלֵינוּ
+size	plural	definite	הַגְּדָלִים	second	גְּדָלֶיךָ	גדלייך / גְּדָלַיִךְ	גודליכם / גׇּדְלֵיכֶם	גודליכן / גׇּדְלֵיכֶן
+size	plural	construct	גודלי־ / גׇּדְלֵי־	third	גְּדָלָיו	גְּדָלֶיהָ	גודליהם / גׇּדְלֵיהֶם	גודליהן / גׇּדְלֵיהֶן
+south		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+south	number:	state:	form	person:	singular	singular	plural	plural
+south	number:	state:	form	person:	m	f	m	f
+south	singular	indefinite	דָּרוֹם	first	דְּרוֹמִי	דְּרוֹמִי	דְּרוֹמֵנוּ	דְּרוֹמֵנוּ
+south	singular	definite	הַדָּרוֹם	second	דְּרוֹמְךָ	דְּרוֹמֵךְ	דְּרוֹמְכֶם	דְּרוֹמְכֶן
+south	singular	construct	דְּרוֹם־	third	דְּרוֹמוֹ	דְּרוֹמָהּ	דְּרוֹמָם	דְּרוֹמָן
+east		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+east	number:	state:	form	person:	singular	singular	plural	plural
+east	number:	state:	form	person:	m	f	m	f
+east	singular	indefinite	מִזְרָח	first	מִזְרָחִי	מִזְרָחִי	מִזְרָחֵנוּ	מִזְרָחֵנוּ
+east	singular	definite	הַמִּזְרָח	second	מִזְרָחֲךָ	מִזְרָחֵךְ	מִזְרַחֲכֶם	מִזְרַחֲכֶן
+east	singular	construct	מִזְרַח־	third	מִזְרָחוֹ	מִזְרָחָהּ	מִזְרָחָם	מִזְרָחָן
+east		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+east	number:	state:	form	person:	singular	singular	plural	plural
+east	number:	state:	form	person:	m	f	m	f
+east	singular	indefinite	קֶדֶם	first	קִדְמִי	קִדְמִי	קִדְמֵנוּ	קִדְמֵנוּ
+east	singular	definite	הַקֶּדֶם	second	קִדְמְךָ	קִדְמֵךְ	קִדְמְכֶם	קִדְמְכֶן
+east	singular	construct	קֶדֶם־	third	קִדְמוֹ	קִדְמָהּ	קִדְמָם	קִדְמָן
+east	plural	indefinite	קְדָמִים	first	קדמיי / קְדָמַי	קדמיי / קְדָמַי	קְדָמֵינוּ	קְדָמֵינוּ
+east	plural	definite	הַקְּדָמִים	second	קְדָמֶיךָ	קדמייך / קְדָמַיִךְ	קְדָמֵיכֶם	קְדָמֵיכֶן
+east	plural	construct	קְדָמֵי־	third	קְדָמָיו	קְדָמֶיהָ	קְדָמֵיהֶם	קְדָמֵיהֶן
+west		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+west	number:	state:	form	person:	singular	singular	plural	plural
+west	number:	state:	form	person:	m	f	m	f
+west	singular	indefinite	מַעֲרָב	first	מַעֲרָבִי	מַעֲרָבִי	מַעֲרָבֵנוּ	מַעֲרָבֵנוּ
+west	singular	definite	הַמַּעֲרָב	second	מַעֲרָבְךָ	מַעֲרָבֵךְ	מַעֲרַבְכֶם	מַעֲרַבְכֶן
+west	singular	construct	מַעֲרַב־	third	מַעֲרָבוֹ	מַעֲרָבָהּ	מַעֲרָבָם	מַעֲרָבָן
+west		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+west	number:	state:	form	person:	singular	singular	plural	plural
+west	number:	state:	form	person:	m	f	m	f
+west	singular	indefinite	יָם	first	יַמִּי	יַמִּי	יַמֵּנוּ	יַמֵּנוּ
+west	singular	definite	הַיָּם	second	יַמְּךָ	יַמֵּךְ	יַמְּכֶם	יַמְּכֶן
+west	singular	construct	יַם־	third	יַמּוֹ	יַמָּהּ	יַמָּם	יַמָּן
+west	plural	indefinite	יַמִּים	first	ימיי / יַמַּי	ימיי / יַמַּי	יַמֵּינוּ	יַמֵּינוּ
+west	plural	definite	הַיַּמִּים	second	יַמֶּיךָ	ימייך / יַמַּיִךְ	יַמֵּיכֶם	יַמֵּיכֶן
+west	plural	construct	יַמֵּי־	third	יַמָּיו	יַמֶּיהָ	יַמֵּיהֶם	יַמֵּיהֶן

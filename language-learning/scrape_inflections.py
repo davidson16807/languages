@@ -15,16 +15,13 @@ from tools.inflections import write
 from tools.parsing import TokenParsing
 
 '''
-USAGE: python scrape_inflections.py <language-code> [output-directory]
+USAGE: python scrape_inflections.py <language-code> <output-directory>
 	e.g. python scrape_inflections.py sv data/inflection/indo-european/germanic/swedish/modern
 
-For every (part-of-speech, intent) pair in translations.tsv,
-the first translation whose language code matches <language-code> is crawled,
-and its inflection tables are written to "scraped-<language-code>-<part-of-speech>s.tsv".
-Genders of nouns are also written to "scraped-<language-code>-genders.tsv".
-
-The classes below are copied verbatim from scrape_special_inflections.py,
-since importing that file would run every crawl that it contains.
+For every (part-of-speech, lemma) pair in translations.tsv,
+translations whose language code matches <language-code> are crawled in order until one is found that has an inflection table,
+and the tables of that translation are written to "scraped-<part-of-speech>s.tsv".
+Genders of nouns are also written to "scraped-genders.tsv".
 '''
 
 class Uniform:
@@ -172,17 +169,18 @@ class GenderWikiHtml:
 class Caching:
 	def __init__(self, parsing):
 		self.parsing = parsing
-	def crawl(self, lemma_url_text):
-		result = []
-		for lemma_url in self.parsing.tokenpoints(lemma_url_text):
-			if len(lemma_url) == 2:
-				(lemma, url) = lemma_url
-				print('\t'.join([lemma, url]))
+	def crawl(self, lemma_urls):
+		result = {}
+		for lemma, url in lemma_urls:
+			try:
+				print(f'{lemma}\t{url}')
 				time.sleep(1) # rate limit for kindness
 				headers={'User-Agent': 
 					'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36'
 				}
-				result.append((lemma, requests.get(url,headers=headers).text))
+				result[url.split('#')[0]] = requests.get(url,headers=headers).text
+			except Exception as ex:
+				print(ex)
 		return result
 
 ops = RowMajorTableOps()
@@ -218,72 +216,95 @@ table_count_for_language_code = {
 # languages whose tables do not mark their cells with a "lang" attribute
 unmarked_language_codes = {'xtg', 'kw', 'ta', 'hit'}
 
-if len(sys.argv) < 3:
-	print('USAGE: python scrape_inflections.py <language-code> [output-directory]')
-	sys.exit(1)
+class Translation:
+	def __init__(self, part_of_speech, intent, lemma, gloss, language_code, url, language_id=None):
+		self.part_of_speech = part_of_speech
+		self.intent = intent
+		self.lemma = lemma
+		self.gloss = gloss
+		self.language_code = language_code
+		self.url = url
+		self.language_id = language_id
 
-target_language_code = sys.argv[1].strip()
-output_directory = sys.argv[2]
-
-# find the first available translation for each (part-of-speech, intent) pair
-first_translations = collections.OrderedDict()
-language_id_counts = collections.Counter()
+translations = []
 with open('translations.tsv','r') as file:
-	content = file.read()
-	for row in content.split('\n'):
+	for row in file.read().split('\n'):
 		if not row.startswith('#'):
 			parameters = row.split('\t')
 			if len(parameters) == 9:
-				_, part_of_speech, intent, lexeme, url, gloss, language_code, translation_url, translation = parameters
-				if language_code == target_language_code:
-					if '#' in translation_url:
-						language_id_counts[translation_url.split('#')[-1]] += 1
-					if (part_of_speech, intent) not in first_translations:
-						first_translations[(part_of_speech, intent)] = translation_url
+				_, part_of_speech, intent, lemma, word_url, gloss, language_code, translation_url, translation = parameters
+				translations.append(Translation(part_of_speech, intent, lemma, gloss, language_code, *translation_url.split('#')))
 
-if not first_translations:
-	print(f'no translations found for language code: {target_language_code}')
-	sys.exit(1)
+with open('translation-languages.tsv','r') as file:
+	code_directories = [
+		list(cell.strip() for cell in row.split('\t'))[1:]
+		for row in file.read().split('\n')
+		if row.strip() and not row.startswith('#')
+	]
 
-if not language_id_counts:
-	print(f'no wiktionary language section could be determined for language code: {target_language_code}')
-	sys.exit(1)
+for target_language_code, output_directory in code_directories:
 
-# the wiktionary section id (e.g. "Old_English") is the anchor that is most often used in translation urls
-((language_id, _),) = language_id_counts.most_common(1)
+	language_translations = [translation 
+		for translation in translations 
+		if translation.language_code == target_language_code]
 
-lemma_urls_for_part_of_speech = collections.OrderedDict()
-for ((part_of_speech, intent), translation_url) in first_translations.items():
-	if part_of_speech not in lemma_urls_for_part_of_speech:
-		lemma_urls_for_part_of_speech[part_of_speech] = []
-	lemma_urls_for_part_of_speech[part_of_speech].append(f'{intent}\t{translation_url}')
+	count_for_language_id = collections.Counter([translation.language_id 
+		for translation in language_translations
+		if translation.language_id
+	])
 
-os.makedirs(output_directory, exist_ok=True)
+	if not language_translations:
+		print(f'no translations found for language code: {target_language_code}')
+		sys.exit(1)
 
-print(language_id.upper())
-for (part_of_speech, lemma_urls) in lemma_urls_for_part_of_speech.items():
+	if not count_for_language_id:
+		print(f'no wiktionary language section could be determined for language code: {target_language_code}')
+		sys.exit(1)
 
-	(part_of_speech_text, table_texts) = section_texts_for_part_of_speech.get(
-		part_of_speech, (part_of_speech.title(), ['Inflection']))
+	# the wiktionary section id (e.g. "Old_English") is the anchor that is most often used in translation urls
+	if len(count_for_language_id) != 1:
+		print(f'more than one language id found for code "{target_language_code}": ' + 
+			','.join([str(language_id) for language_id in count_for_language_id]))
+		sys.exit(1)
 
-	table_count = table_count_for_language_code.get(target_language_code, {}).get(part_of_speech, 1)
-	table_language_code = None if target_language_code in unmarked_language_codes else target_language_code
+	translations_for_part_of_speech_lemma = collections.defaultdict(list)
+	for translation in language_translations:
+		translations_for_part_of_speech_lemma[(translation.part_of_speech, translation.lemma)].append(translation)
 
-	lemma_html = caching.crawl('\n'.join(['', *lemma_urls, '']))
+	lemmas_for_part_of_speech = collections.defaultdict(list)
+	for (part_of_speech, lemma) in translations_for_part_of_speech_lemma:
+		lemmas_for_part_of_speech[part_of_speech].append(lemma)
 
-	if part_of_speech == 'noun':
-		write(os.path.join(output_directory, f'scraped-genders.tsv'),
+	((language_id, _),) = count_for_language_id.most_common(1)
+
+	os.makedirs(output_directory, exist_ok=True)
+
+	html_for_url = caching.crawl({(translation.lemma, translation.url) for translation in language_translations})
+
+	for part_of_speech, lemmas in lemmas_for_part_of_speech.items():
+		part_of_speech_text, table_texts = section_texts_for_part_of_speech[part_of_speech]
+		table_count = table_count_for_language_code.get(target_language_code, {}).get(part_of_speech, 1)
+		table_parsing = (
+			GreekRowMajorWikiTableHtml(ops) if target_language_code == 'grc' else
+			RowMajorWikiTableHtml(ops, part_of_speech_text, table_texts, language_id, target_language_code, table_count))
+		gender_parsing = GenderWikiHtml(ops, part_of_speech_text, language_id)
+		lemma_html = [
+			(lemma, html_for_url[url])
+			for lemma in lemmas
+			if (part_of_speech, lemma) in translations_for_part_of_speech_lemma
+			for translation in translations_for_part_of_speech_lemma[(part_of_speech, lemma)]
+			if (url:=translation.url.split('#')[0]) in html_for_url
+		]
+
+		if part_of_speech == 'noun':
+			write(os.path.join(output_directory, f'scraped-genders.tsv'),
+				formatting.format(
+					scraping.scrape(gender_parsing, lemma_html)
+				)
+			)
+
+		write(os.path.join(output_directory, f'scraped-{part_of_speech}s.tsv'),
 			formatting.format(
-				scraping.scrape(GenderWikiHtml(ops, part_of_speech_text, language_id), lemma_html)
+				scraping.scrape(table_parsing, lemma_html)
 			)
 		)
-
-	write(os.path.join(output_directory, f'scraped-{part_of_speech}s.tsv'),
-		formatting.format(
-			scraping.scrape(
-				GreekRowMajorWikiTableHtml(ops) if target_language_code == 'grc' else
-				RowMajorWikiTableHtml(ops, part_of_speech_text, table_texts, language_id, table_language_code, table_count),
-				lemma_html
-			)
-		)
-	)

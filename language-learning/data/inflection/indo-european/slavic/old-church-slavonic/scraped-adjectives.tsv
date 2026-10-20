@@ -1,0 +1,36 @@
+big		singular	singular	singular	dual	dual	dual	plural	plural	plural
+big		masculine	neuter	feminine	masculine	neuter	feminine	masculine	neuter	feminine
+big	nominative	великъvelikŭ	великоveliko	великаvelika	великаvelika	велицѣvelicě	велицѣvelicě	велициvelici	великаvelika	великꙑveliky
+big	genitive	великаvelika	великаvelika	великꙑveliky	великоуveliku	великоуveliku	великоуveliku	великъvelikŭ	великъvelikŭ	великъvelikŭ
+big	dative	великоуveliku	великоуveliku	велицѣvelicě	великомаvelikoma	великомаvelikoma	великамаvelikama	великомъvelikomŭ	великомъvelikomŭ	великамъvelikamŭ
+big	accusative	великъvelikŭ	великоveliko	великѫvelikǫ	великаvelika	велицѣvelicě	велицѣvelicě	великꙑveliky	великаvelika	великꙑveliky
+big	instrumental	великомьvelikomĭ	великомьvelikomĭ	великоѭvelikojǫ	великомаvelikoma	великомаvelikoma	великамаvelikama	великꙑveliky	великꙑveliky	великамиvelikami
+big	locative	велицѣvelicě	велицѣvelicě	велицѣvelicě	великоуveliku	великоуveliku	великоуveliku	велицѣхъvelicěxŭ	велицѣхъvelicěxŭ	великахъvelikaxŭ
+big	vocative	великъvelikŭ	великоveliko	великаvelika	великаvelika	велицѣvelicě	велицѣvelicě	велициvelici	великаvelika	великꙑveliky
+small		singular	singular	singular	dual	dual	dual	plural	plural	plural
+small		masculine	neuter	feminine	masculine	neuter	feminine	masculine	neuter	feminine
+small	nominative	малъmalŭ	малоmalo	малаmala	малаmala	малѣmalě	малѣmalě	малиmali	малаmala	малꙑmaly
+small	genitive	малаmala	малаmala	малꙑmaly	малоуmalu	малоуmalu	малоуmalu	малъmalŭ	малъmalŭ	малъmalŭ
+small	dative	малоуmalu	малоуmalu	малѣmalě	маломаmaloma	маломаmaloma	маламаmalama	маломъmalomŭ	маломъmalomŭ	маламъmalamŭ
+small	accusative	малъmalŭ	малоmalo	малѫmalǫ	малаmala	малѣmalě	малѣmalě	малꙑmaly	малаmala	малꙑmaly
+small	instrumental	маломьmalomĭ	маломьmalomĭ	малоѭmalojǫ	маломаmaloma	маломаmaloma	маламаmalama	малꙑmaly	малꙑmaly	маламиmalami
+small	locative	малѣmalě	малѣmalě	малѣmalě	малоуmalu	малоуmalu	малоуmalu	малѣхъmalěxŭ	малѣхъmalěxŭ	малахъmalaxŭ
+small	vocative	малъmalŭ	малоmalo	малаmala	малаmala	малѣmalě	малѣmalě	малиmali	малаmala	малꙑmaly
+good		singular	singular	singular	dual	dual	dual	plural	plural	plural
+good		masculine	neuter	feminine	masculine	neuter	feminine	masculine	neuter	feminine
+good	nominative	добръdobrŭ	доброdobro	добраdobra	добраdobra	добрѣdobrě	добрѣdobrě	добриdobri	добраdobra	добрꙑdobry
+good	genitive	добраdobra	добраdobra	добрꙑdobry	доброуdobru	доброуdobru	доброуdobru	добръdobrŭ	добръdobrŭ	добръdobrŭ
+good	dative	доброуdobru	доброуdobru	добрѣdobrě	добромаdobroma	добромаdobroma	добрамаdobrama	добромъdobromŭ	добромъdobromŭ	добрамъdobramŭ
+good	accusative	добръdobrŭ	доброdobro	добрѫdobrǫ	добраdobra	добрѣdobrě	добрѣdobrě	добрꙑdobry	добраdobra	добрꙑdobry
+good	instrumental	добромьdobromĭ	добромьdobromĭ	доброѭdobrojǫ	добромаdobroma	добромаdobroma	добрамаdobrama	добрꙑdobry	добрꙑdobry	добрамиdobrami
+good	locative	добрѣdobrě	добрѣdobrě	добрѣdobrě	доброуdobru	доброуdobru	доброуdobru	добрѣхъdobrěxŭ	добрѣхъdobrěxŭ	добрахъdobraxŭ
+good	vocative	добръdobrŭ	доброdobro	добраdobra	добраdobra	добрѣdobrě	добрѣdobrě	добриdobri	добраdobra	добрꙑdobry
+bad		singular	singular	singular	dual	dual	dual	plural	plural	plural
+bad		masculine	neuter	feminine	masculine	neuter	feminine	masculine	neuter	feminine
+bad	nominative	зълъzŭlŭ	зълоzŭlo	зълаzŭla	зълаzŭla	зълѣzŭlě	зълѣzŭlě	зълиzŭli	зълаzŭla	зълꙑzŭly
+bad	genitive	зълаzŭla	зълаzŭla	зълꙑzŭly	зълоуzŭlu	зълоуzŭlu	зълоуzŭlu	зълъzŭlŭ	зълъzŭlŭ	зълъzŭlŭ
+bad	dative	зълоуzŭlu	зълоуzŭlu	зълѣzŭlě	зъломаzŭloma	зъломаzŭloma	зъламаzŭlama	зъломъzŭlomŭ	зъломъzŭlomŭ	зъламъzŭlamŭ
+bad	accusative	зълъzŭlŭ	зълоzŭlo	зълѫzŭlǫ	зълаzŭla	зълѣzŭlě	зълѣzŭlě	зълꙑzŭly	зълаzŭla	зълꙑzŭly
+bad	instrumental	зъломьzŭlomĭ	зъломьzŭlomĭ	зълоѭzŭlojǫ	зъломаzŭloma	зъломаzŭloma	зъламаzŭlama	зълꙑzŭly	зълꙑzŭly	зъламиzŭlami
+bad	locative	зълѣzŭlě	зълѣzŭlě	зълѣzŭlě	зълоуzŭlu	зълоуzŭlu	зълоуzŭlu	зълѣхъzŭlěxŭ	зълѣхъzŭlěxŭ	зълахъzŭlaxŭ
+bad	vocative	зълъzŭlŭ	зълоzŭlo	зълаzŭla	зълаzŭla	зълѣzŭlě	зълѣzŭlě	зълиzŭli	зълаzŭla	зълꙑzŭly

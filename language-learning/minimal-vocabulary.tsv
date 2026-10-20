@@ -1,4 +1,4 @@
-#	url	intent	lexeme	part of speech	conjugation	declension	possessive	rosetta	babbling	birds and	swadesh	comments
+#	url	intent	lemma	part of speech	conjugation	declension	possessive	rosetta	babbling	birds and	swadesh	comments
 #					cards	cards	cards	book	brook	the egg	list	
 	https://en.wiktionary.org/wiki/and/translations#Conjunction	and	and	conjunction					x	x		
 	https://en.wiktionary.org/wiki/but#Translations	but	but	conjunction					x	x		
@@ -22,9 +22,9 @@
 	https://en.wiktionary.org/wiki/second#Translations	second	second	adjective					x	x		demonstrates counting
 	https://en.wiktionary.org/wiki/third#Translations	third	third	adjective					x	x		demonstrates counting
 	https://en.wiktionary.org/wiki/big#Translations	big	big	adjective	x	x			x	x	x	something you are inherently, for copulatives of visibles
-	https://en.wiktionary.org/wiki/large#Translations	large	big	adjective	x	x			x	x	x	
+	https://en.wiktionary.org/wiki/large#Translations	big	large	adjective	x	x			x	x	x	
 	https://en.wiktionary.org/wiki/small#Translations	small	small	adjective					x	x	x	
-	https://en.wiktionary.org/wiki/little#Translations	little	small	adjective					x	x	x	
+	https://en.wiktionary.org/wiki/little#Translations	small	little	adjective					x	x	x	
 	https://en.wiktionary.org/wiki/loud#Translations	loud	loud	adjective	x	x						something you can be momentarily, for copulatives of audibles
 	https://en.wiktionary.org/wiki/strong#Translations	strong	strong	adjective	x	x			x			something you can be momentarily, for copulatives of visibles
 	https://en.wiktionary.org/wiki/well#Translations_2	well	well	adjective	x	x						 for nominatives of pronouns and other sapients
@@ -44,31 +44,32 @@
 	https://en.wiktionary.org/wiki/ball#Translations	ball	ball	noun					x			
 	https://en.wiktionary.org/wiki/bridge#Translations	bridge	bridge	noun					x			
 	https://en.wiktionary.org/wiki/bird#Translations	bird	bird	noun	x				x	x	x	something that can fly
-	https://en.wiktionary.org/wiki/sparrow#Translations	sparrow	small-bird	noun						x		"demonstrates the word ""small"", demonstrates dual number with other birds"
-	https://en.wiktionary.org/wiki/swallow#Translations_2	swallow	small-bird	noun						x		
-	https://en.wiktionary.org/wiki/finch#Translations	finch	small-bird	noun						x		
-	https://en.wiktionary.org/wiki/eagle#Translations	eagle	big-bird	noun						x		"demonstrates the word ""large"", demonstrates dual number with other birds"
-	https://en.wiktionary.org/wiki/swan#Translations	swan	big-bird	noun						x		
-	https://en.wiktionary.org/wiki/flamingo#Translations	flamingo	big-bird	noun						x		
-	https://en.wiktionary.org/wiki/chicken#Translations	goose	other-bird	noun						x		demonstrates plural or trial number along with other birds
-	https://en.wiktionary.org/wiki/chicken#Translations	chicken	other-bird	noun						x		
-	https://en.wiktionary.org/wiki/dove#Translations	dove	main-bird	noun						x		demonstrates masculine and feminine nouns, if applicable
-	https://en.wiktionary.org/wiki/pigeon#Translations	pigeon	main-bird	noun						x		demonstrates masculine and feminine nouns, if applicable
-	https://en.wiktionary.org/wiki/crow#Translations	crow	main-bird	noun						x		
+	https://en.wiktionary.org/wiki/sparrow#Translations	small-bird	sparrow	noun						x		"demonstrates the word ""small"", demonstrates dual number with other birds"
+	https://en.wiktionary.org/wiki/swallow#Translations_2	small-bird	swallow	noun						x		
+	https://en.wiktionary.org/wiki/finch#Translations	small-bird	finch	noun						x		
+	https://en.wiktionary.org/wiki/eagle#Translations	big-bird	eagle	noun						x		"demonstrates the word ""large"", demonstrates dual number with other birds"
+	https://en.wiktionary.org/wiki/swan#Translations	big-bird	swan	noun						x		
+	https://en.wiktionary.org/wiki/flamingo#Translations	big-bird	flamingo	noun						x		
+	https://en.wiktionary.org/wiki/chicken#Translations	other-bird	goose	noun						x		demonstrates plural or trial number along with other birds
+	https://en.wiktionary.org/wiki/chicken#Translations	other-bird	chicken	noun						x		
+	https://en.wiktionary.org/wiki/dove#Translations	main-bird	dove	noun						x		demonstrates masculine and feminine nouns, if applicable
+	https://en.wiktionary.org/wiki/pigeon#Translations	main-bird	pigeon	noun						x		demonstrates masculine and feminine nouns, if applicable
+	https://en.wiktionary.org/wiki/crow#Translations	main-bird	crow	noun						x		
 	https://en.wiktionary.org/wiki/chick#Translations	chick	chick	noun						x		
-	https://en.wiktionary.org/wiki/child#Translations	child	chick	noun					x	x		audience insert, justifies simple language
+	https://en.wiktionary.org/wiki/child#Translations	chick	child	noun					x	x		audience insert, justifies simple language
 	https://en.wiktionary.org/wiki/egg/translations#Noun	egg	egg	noun					x	x	x	demonstrates declension in neuter nouns
 	https://en.wiktionary.org/wiki/nest#Translations	nest	nest	noun						x		demonstrates locatives
 	https://en.wiktionary.org/wiki/tree#Translations	tree	tree	noun					x	x	x	"demonstrates locatives, fallback for ""nest"""
 	https://en.wiktionary.org/wiki/boat#Translations	boat	boat	noun	x				x			floats and sinks, steered
 	https://en.wiktionary.org/wiki/book/translations#Noun	book	book	noun	x			x	x			read and written
 	https://en.wiktionary.org/wiki/bug#Translations	bug	bug	noun	x				x			treats most objects as surfaces in relatively good taste
-	https://en.wiktionary.org/wiki/insect#Translations	insect	bug	noun	x							
-	https://en.wiktionary.org/wiki/beetle#Translations	beetle	bug	noun	x							
-	https://en.wiktionary.org/wiki/louse#Translations	louse	bug	noun	x							
+	https://en.wiktionary.org/wiki/insect#Translations	bug	insect	noun	x							
+	https://en.wiktionary.org/wiki/beetle#Translations	bug	beetle	noun	x							
+	https://en.wiktionary.org/wiki/bee#Translations	bug	bee	noun	x							
+	https://en.wiktionary.org/wiki/louse#Translations	bug	louse	noun	x							
 	https://en.wiktionary.org/wiki/clothing#Translations	clothing	clothing	noun	x				x			cleaned, changed, worn, chosen, preferred
-	https://en.wiktionary.org/wiki/garment#Translations	garment	clothing	noun	x							
-	https://en.wiktionary.org/wiki/shirt#Translations	shirt	clothing	noun	x							
+	https://en.wiktionary.org/wiki/garment#Translations	clothing	garment	noun	x							
+	https://en.wiktionary.org/wiki/shirt#Translations	clothing	shirt	noun	x							
 	https://en.wiktionary.org/wiki/dog/translations#Noun	dog	dog	noun	x				x		x	something that can be loved generically and in good taste
 	https://en.wiktionary.org/wiki/door#Translations	door	door	noun	x				x			opened and closed, locked
 	https://en.wiktionary.org/wiki/drum#Translations	drum	drum	noun	x							beaten in good taste and makes noise
@@ -99,7 +100,7 @@
 	https://en.wiktionary.org/wiki/name#Translations	name	name	noun	x		x	x		x	x	spoken, highly conserved, for genitive and possessive pronouns of neuter possessions and neuter possessors
 	https://en.wiktionary.org/wiki/other#Translations	other	other	noun				x	x			
 	https://en.wiktionary.org/wiki/rock#Translations	rock	rock	noun	x			x	x		x	carried by men, thrown without further justification
-	https://en.wiktionary.org/wiki/stone#Translations	stone	stone	noun	x			x	x		x	
+	https://en.wiktionary.org/wiki/stone#Translations	rock	stone	noun	x			x	x		x	
 	https://en.wiktionary.org/wiki/rope#Translations	rope	rope	noun	x				x		x	can be deformed
 	https://en.wiktionary.org/wiki/tool#Translations	tool	tool	noun					x			
 	https://en.wiktionary.org/wiki/treasure#Translations	treasure	treasure	noun					x			
@@ -147,7 +148,7 @@
 	https://en.wiktionary.org/wiki/sound#Translations	sound	sound	noun			x					for genitives of audibles
 	https://en.wiktionary.org/wiki/size#Translations	size	size	noun			x					for genitives of visibles
 	https://en.wiktionary.org/wiki/thought#Translations	thought	thought	noun			x					for genitives of concepts and miscellaneous nouns, for demonstrating motion to/from a concept
-	https://en.wiktionary.org/wiki/idea#Translations	idea	thought	noun			x					
+	https://en.wiktionary.org/wiki/idea#Translations	thought	idea	noun			x					
 	https://en.wiktionary.org/wiki/north#Translations	north	north	noun					x			
 	https://en.wiktionary.org/wiki/south#Translations	south	south	noun					x			
 	https://en.wiktionary.org/wiki/east#Translations	east	east	noun					x			
@@ -165,19 +166,19 @@
 	https://en.wiktionary.org/wiki/can#Translations	be-able	be-able	verb				x	x			for succinct demonstration of verb conjugation
 	https://en.wiktionary.org/wiki/be_able_to#Translations	be-able	be-able	verb					x			
 	https://en.wiktionary.org/wiki/appear	appear	appear	verb		x				x	x	done by most things as a stimulus
-	https://en.wiktionary.org/wiki/arrive#Translations	arrive	appear	verb		x				x	x	
-	https://en.wiktionary.org/wiki/come#Translations	come	appear	verb		x				x	x	
+	https://en.wiktionary.org/wiki/arrive#Translations	appear	arrive	verb		x				x	x	
+	https://en.wiktionary.org/wiki/come#Translations	appear	come	verb		x				x	x	
 	https://en.wiktionary.org/wiki/ask#Translations	ask	ask	verb					x	x		
 	https://en.wiktionary.org/wiki/be/translations#Verb	be	be	verb		x		x				needed for any copulative statement
-	https://en.wiktionary.org/wiki/break#Translations	become-open	break	verb						x		
-	https://en.wiktionary.org/wiki/open#Translations	become-open	open	verb					x	x		
+	https://en.wiktionary.org/wiki/break#Translations	break	become-open	verb						x		
+	https://en.wiktionary.org/wiki/open#Translations	open	become-open	verb					x	x		
 	https://en.wiktionary.org/wiki/change#Translations	change	change	verb		x						done by most things as a patient
-	https://en.wiktionary.org/wiki/crawl#Translations	crawl	climb	verb		x			x			can be done by most small creatures (e.g. a bug) to traverse most physical things
+	https://en.wiktionary.org/wiki/crawl#Translations	climb	crawl	verb		x			x			can be done by most small creatures (e.g. a bug) to traverse most physical things
 	https://en.wiktionary.org/wiki/climb#Translations	climb	climb	verb		x			x			
 	https://en.wiktionary.org/wiki/cool#Translations	cool	cool	verb		x						"can be done to most patients (unless intrinsically hot, like ice, in which case we use ""warm"")"
 	https://en.wiktionary.org/wiki/chill#Translations	chill	chill	verb		x			x			
 	https://en.wiktionary.org/wiki/direct#Translations	direct	direct	verb		x			x			can be associated with motion relative to concepts and other unreachable things
-	https://en.wiktionary.org/wiki/lead/translations#Etymology_2	direct	lead	verb		x			x			
+	https://en.wiktionary.org/wiki/lead/translations#Etymology_2	lead	direct	verb		x			x			
 	https://en.wiktionary.org/wiki/displease#Translations	displease	displease	verb		x						done by most things as a stimulus
 	https://en.wiktionary.org/wiki/upset#Translations	upset	upset	verb		x			x			
 	https://en.wiktionary.org/wiki/anger#Translations	anger	anger	verb		x			x			
@@ -202,8 +203,8 @@
 	https://en.wiktionary.org/wiki/shout#Translations	shout	shout	verb						x		
 	https://en.wiktionary.org/wiki/show#Translations	show	show	verb		x		x	x			can be done to most themes, needed to self document rosetta book
 	https://en.wiktionary.org/wiki/startle#Translations	startle	startle	verb		x			x			done by most things as a stimulus, status ailment
-	https://en.wiktionary.org/wiki/frighten#Translations	frighten	startle	verb		x			x			
-	https://en.wiktionary.org/wiki/surprise#Translations	surprise	startle	verb		x			x			
+	https://en.wiktionary.org/wiki/frighten#Translations	startle	frighten	verb		x			x			
+	https://en.wiktionary.org/wiki/surprise#Translations	startle	surprise	verb		x			x			
 	https://en.wiktionary.org/wiki/swim	swim	swim	verb		x			x			can convey motion to/from any aquatic thing
 	https://en.wiktionary.org/wiki/throw#Translations	throw	throw	verb					x			
 	https://en.wiktionary.org/wiki/walk#Translations	walk	walk	verb		x		x	x			conveys motion relative to most terrestrial things
