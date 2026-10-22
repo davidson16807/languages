@@ -1,122 +1,1176 @@
-*	*	singular	singular	plural	plural
-*	*	indefinite	definite	indefinite	definite
-animal	nominative	(un) animal	animalul	(niște) animale	animalele
-animal	genitive	(unui) animal	animalului	(unor) animale	animalelor
-animal	vocative	animalule	animalule	animalelor	animalelor
-attention	nominative	(o) atenție	atenția	(niște) atenții	atențiile
-attention	genitive	(unei) atenții	atenției	(unor) atenții	atențiilor
+attention		singular	singular	plural	plural
+attention		indefinite	definite	indefinite	definite
+attention	nominative-accusative	atenție	atenția	atenții	atențiile
+attention	genitive-dative	atenții	atenției	atenții	atențiilor
 attention	vocative	atenție, atențio	atenție, atențio	atențiilor	atențiilor
-bird	nominative	(o) pasăre	pasărea	(niște) păsări	păsările
-bird	genitive	(unei) păsări	păsării	(unor) păsări	păsărilor
+focus		singular	singular	plural	plural
+focus		indefinite	definite	indefinite	definite
+focus	nominative-accusative	concentrare	concentrarea	concentrări	concentrările
+focus	genitive-dative	concentrări	concentrării	concentrări	concentrărilor
+focus	vocative	concentrare, concentrareo	concentrare, concentrareo	concentrărilor	concentrărilor
+thought		singular	singular	plural	plural
+thought		indefinite	definite	indefinite	definite
+thought	nominative-accusative	gând	gândul	gânduri	gândurile
+thought	genitive-dative	gând	gândului	gânduri	gândurilor
+thought	vocative	gândule	gândule	gândurilor	gândurilor
+thought		singular	singular	plural	plural
+thought		indefinite	definite	indefinite	definite
+thought	nominative-accusative	cuget	cugetul	cugete	cugetele
+thought	genitive-dative	cuget	cugetului	cugete	cugetelor
+thought	vocative	cugetule	cugetule	cugetelor	cugetelor
+thought		singular	singular	plural	plural
+thought		indefinite	definite	indefinite	definite
+thought	nominative-accusative	gând	gândul	gânduri	gândurile
+thought	genitive-dative	gând	gândului	gânduri	gândurilor
+thought	vocative	gândule	gândule	gândurilor	gândurilor
+thought		singular	singular	plural	plural
+thought		indefinite	definite	indefinite	definite
+thought	nominative-accusative	gând	gândul	gânduri	gândurile
+thought	genitive-dative	gând	gândului	gânduri	gândurilor
+thought	vocative	gândule	gândule	gândurilor	gândurilor
+thought		singular	singular	plural	plural
+thought		indefinite	definite	indefinite	definite
+thought	nominative-accusative	cuget	cugetul	cugete	cugetele
+thought	genitive-dative	cuget	cugetului	cugete	cugetelor
+thought	vocative	cugetule	cugetule	cugetelor	cugetelor
+thought		singular	singular	plural	plural
+thought		indefinite	definite	indefinite	definite
+thought	nominative-accusative	gând	gândul	gânduri	gândurile
+thought	genitive-dative	gând	gândului	gânduri	gândurilor
+thought	vocative	gândule	gândule	gândurilor	gândurilor
+thought		singular	singular	plural	plural
+thought		indefinite	definite	indefinite	definite
+thought	nominative-accusative	gând	gândul	gânduri	gândurile
+thought	genitive-dative	gând	gândului	gânduri	gândurilor
+thought	vocative	gândule	gândule	gândurilor	gândurilor
+thought		singular	singular	plural	plural
+thought		indefinite	definite	indefinite	definite
+thought	nominative-accusative	cuget	cugetul	cugete	cugetele
+thought	genitive-dative	cuget	cugetului	cugete	cugetelor
+thought	vocative	cugetule	cugetule	cugetelor	cugetelor
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	minge	mingea	mingi	mingile
+ball	genitive-dative	mingi	mingii	mingi	mingilor
+ball	vocative	minge, mingeo	minge, mingeo	mingilor	mingilor
+ball	singular only	indefinite	definite
+ball	nominative-accusative	bilă	bila
+ball	genitive-dative	bile	bilei
+ball	vocative	bilă, bilo	bilă, bilo
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	bilă	bila	bile	bilele
+ball	genitive-dative	bile	bilei	bile	bilelor
+ball	vocative	bilă, bilo	bilă, bilo	bilelor	bilelor
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	bilă	bila	bile	bilele
+ball	genitive-dative	bile	bilei	bile	bilelor
+ball	vocative	bilă, bilo	bilă, bilo	bilelor	bilelor
+ball	singular only	indefinite	definite
+ball	nominative-accusative	bilă	bila
+ball	genitive-dative	bile	bilei
+ball	vocative	bilă, bilo	bilă, bilo
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	bilă	bila	bile	bilele
+ball	genitive-dative	bile	bilei	bile	bilelor
+ball	vocative	bilă, bilo	bilă, bilo	bilelor	bilelor
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	bilă	bila	bile	bilele
+ball	genitive-dative	bile	bilei	bile	bilelor
+ball	vocative	bilă, bilo	bilă, bilo	bilelor	bilelor
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	minge	mingea	mingi	mingile
+ball	genitive-dative	mingi	mingii	mingi	mingilor
+ball	vocative	minge, mingeo	minge, mingeo	mingilor	mingilor
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	minge	mingea	mingi	mingile
+ball	genitive-dative	mingi	mingii	mingi	mingilor
+ball	vocative	minge, mingeo	minge, mingeo	mingilor	mingilor
+ball	singular only	indefinite	definite
+ball	nominative-accusative	bilă	bila
+ball	genitive-dative	bile	bilei
+ball	vocative	bilă, bilo	bilă, bilo
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	bilă	bila	bile	bilele
+ball	genitive-dative	bile	bilei	bile	bilelor
+ball	vocative	bilă, bilo	bilă, bilo	bilelor	bilelor
+ball		singular	singular	plural	plural
+ball		indefinite	definite	indefinite	definite
+ball	nominative-accusative	bilă	bila	bile	bilele
+ball	genitive-dative	bile	bilei	bile	bilelor
+ball	vocative	bilă, bilo	bilă, bilo	bilelor	bilelor
+bird		singular	singular	plural	plural
+bird		indefinite	definite	indefinite	definite
+bird	nominative-accusative	pasăre	pasărea	păsări	păsările
+bird	genitive-dative	păsări	păsării	păsări	păsărilor
 bird	vocative	pasăre, pasăreo	pasăre, pasăreo	păsărilor	păsărilor
-boat	nominative	(o) barcă	barca	(niște) bărci	bărcile
-boat	genitive	(unei) bărci	bărcii	(unor) bărci	bărcilor
+bridge		singular	singular	plural	plural
+bridge		indefinite	definite	indefinite	definite
+bridge	nominative-accusative	pod	podul	poduri	podurile
+bridge	genitive-dative	pod	podului	poduri	podurilor
+bridge	vocative	podule	podule	podurilor	podurilor
+bridge		singular	singular	plural	plural
+bridge		indefinite	definite	indefinite	definite
+bridge	nominative-accusative	punte	puntea	punți	punțile
+bridge	genitive-dative	punți	punții	punți	punților
+bridge	vocative	punte, punteo	punte, punteo	punților	punților
+sparrow		singular	singular	plural	plural
+sparrow		indefinite	definite	indefinite	definite
+sparrow	nominative-accusative	vrabie	vrabia	vrăbii	vrăbiile
+sparrow	genitive-dative	vrăbii	vrabiei	vrăbii	vrăbiilor
+sparrow	vocative	vrabie, vrabio	vrabie, vrabio	vrăbiilor	vrăbiilor
+sparrow		singular	singular	plural	plural
+sparrow		indefinite	definite	indefinite	definite
+sparrow	nominative-accusative	vrabie	vrabia	vrăbii	vrăbiile
+sparrow	genitive-dative	vrăbii	vrabiei	vrăbii	vrăbiilor
+sparrow	vocative	vrabie, vrabio	vrabie, vrabio	vrăbiilor	vrăbiilor
+swallow		singular	singular	plural	plural
+swallow		indefinite	definite	indefinite	definite
+swallow	nominative-accusative	rândunică	rândunica	rândunici	rândunicile
+swallow	genitive-dative	rândunici	rândunicii	rândunici	rândunicilor
+swallow	vocative	—	—	—	—
+swallow		singular	singular	plural	plural
+swallow		indefinite	definite	indefinite	definite
+swallow	nominative-accusative	lăstun	lăstunul	lăstuni	lăstunii
+swallow	genitive-dative	lăstun	lăstunului	lăstuni	lăstunilor
+swallow	vocative	lăstunule	lăstunule	lăstunilor	lăstunilor
+swallow		singular	singular	plural	plural
+swallow		indefinite	definite	indefinite	definite
+swallow	nominative-accusative	rândunea	rânduneaua	rândunele	rândunelele
+swallow	genitive-dative	rândunele	rândunelei	rândunele	rândunelelor
+swallow	vocative	rândunea	rândunea	rândunelelor	rândunelelor
+finch		singular	singular	plural	plural
+finch		indefinite	definite	indefinite	definite
+finch	nominative-accusative	cinteză	cinteza	cinteze	cintezele
+finch	genitive-dative	cinteze	cintezei	cinteze	cintezelor
+finch	vocative	—	—	—	—
+finch		singular	singular	plural	plural
+finch		indefinite	definite	indefinite	definite
+finch	nominative-accusative	fringilid	fringilidul	fringilide	fringilidele
+finch	genitive-dative	fringilid	fringilidului	fringilide	fringilidelor
+finch	vocative	fringilidule	fringilidule	fringilidelor	fringilidelor
+eagle		singular	singular	plural	plural
+eagle		indefinite	definite	indefinite	definite
+eagle	nominative-accusative	acvilă	acvila	acvile	acvilele
+eagle	genitive-dative	acvile	acvilei	acvile	acvilelor
+eagle	vocative	acvilă, acvilo	acvilă, acvilo	acvilelor	acvilelor
+eagle		singular	singular	plural	plural
+eagle		indefinite	definite	indefinite	definite
+eagle	nominative-accusative	aceră	acera	acere	acerele
+eagle	genitive-dative	acere	acerei	acere	acerelor
+eagle	vocative	aceră, acero	aceră, acero	acerelor	acerelor
+eagle		singular	singular	plural	plural
+eagle		indefinite	definite	indefinite	definite
+eagle	nominative-accusative	vultur	vulturul	vulturi	vulturii
+eagle	genitive-dative	vultur	vulturului	vulturi	vulturilor
+eagle	vocative	vulturule	vulturule	vulturilor	vulturilor
+eagle		singular	singular	plural	plural
+eagle		indefinite	definite	indefinite	definite
+eagle	nominative-accusative	pajură	pajura	pajuri	pajurile
+eagle	genitive-dative	pajuri	pajurii	pajuri	pajurilor
+eagle	vocative	pajură, pajuro	pajură, pajuro	pajurilor	pajurilor
+swan		singular	singular	plural	plural
+swan		indefinite	definite	indefinite	definite
+swan	nominative-accusative	lebădă	lebăda	lebede	lebedele
+swan	genitive-dative	lebede	lebedei	lebede	lebedelor
+swan	vocative	lebădă, lebădo	lebădă, lebădo	lebedelor	lebedelor
+goose		singular	singular	plural	plural
+goose		indefinite	definite	indefinite	definite
+goose	nominative-accusative	pui	puiul	pui	puii
+goose	genitive-dative	pui	puiului	pui	puilor
+goose	vocative	puiule	puiule	puilor	puilor
+goose		singular	singular	plural	plural
+goose		indefinite	definite	indefinite	definite
+goose	nominative-accusative	găină	găina	găini	găinile
+goose	genitive-dative	găini	găinii	găini	găinilor
+goose	vocative	găină, găino	găină, găino	găinilor	găinilor
+chicken		singular	singular	plural	plural
+chicken		indefinite	definite	indefinite	definite
+chicken	nominative-accusative	pui	puiul	pui	puii
+chicken	genitive-dative	pui	puiului	pui	puilor
+chicken	vocative	puiule	puiule	puilor	puilor
+chicken		singular	singular	plural	plural
+chicken		indefinite	definite	indefinite	definite
+chicken	nominative-accusative	găină	găina	găini	găinile
+chicken	genitive-dative	găini	găinii	găini	găinilor
+chicken	vocative	găină, găino	găină, găino	găinilor	găinilor
+dove		singular	singular	plural	plural
+dove		indefinite	definite	indefinite	definite
+dove	nominative-accusative	porumbel	porumbelul	porumbei	porumbeii
+dove	genitive-dative	porumbel	porumbelului	porumbei	porumbeilor
+dove	vocative	porumbelule	porumbelule	porumbeilor	porumbeilor
+pigeon		singular	singular	plural	plural
+pigeon		indefinite	definite	indefinite	definite
+pigeon	nominative-accusative	porumbel	porumbelul	porumbei	porumbeii
+pigeon	genitive-dative	porumbel	porumbelului	porumbei	porumbeilor
+pigeon	vocative	porumbelule	porumbelule	porumbeilor	porumbeilor
+pigeon		singular	singular	plural	plural
+pigeon		indefinite	definite	indefinite	definite
+pigeon	nominative-accusative	porumbă	porumba	porumbe	porumbele
+pigeon	genitive-dative	porumbe	porumbei	porumbe	porumbelor
+pigeon	vocative	porumbă, porumbo	porumbă, porumbo	porumbelor	porumbelor
+crow		singular	singular	plural	plural
+crow		indefinite	definite	indefinite	definite
+crow	nominative-accusative	cioară	cioara	ciori	ciorile
+crow	genitive-dative	ciori	ciorii	ciori	ciorilor
+crow	vocative	cioară, cioaro	cioară, cioaro	ciorilor	ciorilor
+chick		singular	singular	plural	plural
+chick		indefinite	definite	indefinite	definite
+chick	nominative-accusative	pui	puiul	pui	puii
+chick	genitive-dative	pui	puiului	pui	puilor
+chick	vocative	puiule	puiule	puilor	puilor
+child		singular	singular	plural	plural
+child		indefinite	definite	indefinite	definite
+child	nominative-accusative	fiu	fiul	fii	fiii
+child	genitive-dative	fiu	fiului	fii	fiilor
+child	vocative	fiule	fiule	fiilor	fiilor
+child		singular	singular	plural	plural
+child		indefinite	definite	indefinite	definite
+child	nominative-accusative	fiică	fiica	fiice	fiicele
+child	genitive-dative	fiice	fiicei	fiice	fiicelor
+child	vocative	fiică, fiico	fiică, fiico	fiicelor	fiicelor
+child		singular	singular	plural	plural
+child		indefinite	definite	indefinite	definite
+child	nominative-accusative	copil	copilul	copii	copiii
+child	genitive-dative	copil	copilului	copii	copiilor
+child	vocative	copilule	copilule	copiilor	copiilor
+child		singular	singular	plural	plural
+child		indefinite	definite	indefinite	definite
+child	nominative-accusative	copilă	copila	copile	copilele
+child	genitive-dative	copile	copilei	copile	copilelor
+child	vocative	copilă, copilo	copilă, copilo	copilelor	copilelor
+child		singular	singular	plural	plural
+child		indefinite	definite	indefinite	definite
+child	nominative-accusative	copil	copilul	copii	copiii
+child	genitive-dative	copil	copilului	copii	copiilor
+child	vocative	copilule	copilule	copiilor	copiilor
+child		singular	singular	plural	plural
+child		indefinite	definite	indefinite	definite
+child	nominative-accusative	copilă	copila	copile	copilele
+child	genitive-dative	copile	copilei	copile	copilelor
+child	vocative	copilă, copilo	copilă, copilo	copilelor	copilelor
+egg		singular	singular	plural	plural
+egg		indefinite	definite	indefinite	definite
+egg	nominative-accusative	ou	oul	ouă	ouăle
+egg	genitive-dative	ou	oului	ouă	ouălor
+egg	vocative	oule	oule	ouălor	ouălor
+nest		singular	singular	plural	plural
+nest		indefinite	definite	indefinite	definite
+nest	nominative-accusative	cuib	cuibul	cuiburi	cuiburile
+nest	genitive-dative	cuib	cuibului	cuiburi	cuiburilor
+nest	vocative	cuibule	cuibule	cuiburilor	cuiburilor
+nest		singular	singular	plural	plural
+nest		indefinite	definite	indefinite	definite
+nest	nominative-accusative	cuib	cuibul	cuiburi	cuiburile
+nest	genitive-dative	cuib	cuibului	cuiburi	cuiburilor
+nest	vocative	cuibule	cuibule	cuiburilor	cuiburilor
+nest		singular	singular	plural	plural
+nest		indefinite	definite	indefinite	definite
+nest	nominative-accusative	cuibar	cuibarul	cuibare	cuibarele
+nest	genitive-dative	cuibar	cuibarului	cuibare	cuibarelor
+nest	vocative	cuibarule	cuibarule	cuibarelor	cuibarelor
+tree		singular	singular	plural	plural
+tree		indefinite	definite	indefinite	definite
+tree	nominative-accusative	arbore	arborele	arbori	arborii
+tree	genitive-dative	arbore	arborelui	arbori	arborilor
+tree	vocative	arbore	arbore	arborilor	arborilor
+tree		singular	singular	plural	plural
+tree		indefinite	definite	indefinite	definite
+tree	nominative-accusative	copac	copacul	copaci	copacii
+tree	genitive-dative	copac	copacului	copaci	copacilor
+tree	vocative	copacule	copacule	copacilor	copacilor
+tree		singular	singular	plural	plural
+tree		indefinite	definite	indefinite	definite
+tree	nominative-accusative	pom	pomul	pomi	pomii
+tree	genitive-dative	pom	pomului	pomi	pomilor
+tree	vocative	pomule	pomule	pomilor	pomilor
+boat		singular	singular	plural	plural
+boat		indefinite	definite	indefinite	definite
+boat	nominative-accusative	barcă	barca	bărci	bărcile
+boat	genitive-dative	bărci	bărcii	bărci	bărcilor
 boat	vocative	barcă, barco	barcă, barco	bărcilor	bărcilor
-book	nominative	(o) carte	cartea	(niște) cărți	cărțile
-book	genitive	(unei) cărți	cărții	(unor) cărți	cărților
+boat		singular	singular	plural	plural
+boat		indefinite	definite	indefinite	definite
+boat	nominative-accusative	luntre	luntrea	luntre	luntrele
+boat	genitive-dative	luntre	luntrei	luntre	luntrelor
+boat	vocative	luntre, luntreo	luntre, luntreo	luntrelor	luntrelor
+boat		singular	singular	plural	plural
+boat		indefinite	definite	indefinite	definite
+boat	nominative-accusative	vapor	vaporul	vapoare	vapoarele
+boat	genitive-dative	vapor	vaporului	vapoare	vapoarelor
+boat	vocative	vaporule	vaporule	vapoarelor	vapoarelor
+book		singular	singular	plural	plural
+book		indefinite	definite	indefinite	definite
+book	nominative-accusative	carte	cartea	cărți	cărțile
+book	genitive-dative	cărți	cărții	cărți	cărților
 book	vocative	carte, carteo	carte, carteo	cărților	cărților
-brother	nominative	(un) frate	fratele	(niște) frați	frații
-brother	genitive	(unui) frate	fratelui	(unor) frați	fraților
-brother	vocative	frate	frate	fraților	fraților
-bug	nominative	(o) insectă	insecta	(niște) insecte	insectele
-bug	genitive	(unei) insecte	insectei	(unor) insecte	insectelor
-bug	vocative	insectă, insecto	insectă, insecto	insectelor	insectelor
-clothing	nominative	(o) îmbrăcăminte	îmbrăcămintea	(niște) îmbrăcăminți	îmbrăcămințile
-clothing	genitive	(unei) îmbrăcăminți	îmbrăcăminții	(unor) îmbrăcăminți	îmbrăcăminților
+bug		singular	singular	plural	plural
+bug		indefinite	definite	indefinite	definite
+bug	nominative-accusative	gândac	gândacul	gândaci	gândacii
+bug	genitive-dative	gândac	gândacului	gândaci	gândacilor
+bug	vocative	gândacule	gândacule	gândacilor	gândacilor
+bug		singular	singular	plural	plural
+bug		indefinite	definite	indefinite	definite
+bug	nominative-accusative	gânganie	gângania	gânganii	gânganiile
+bug	genitive-dative	gânganii	gânganiei	gânganii	gânganiilor
+bug	vocative	gânganie, gânganio	gânganie, gânganio	gânganiilor	gânganiilor
+insect		singular	singular	plural	plural
+insect		indefinite	definite	indefinite	definite
+insect	nominative-accusative	insectă	insecta	insecte	insectele
+insect	genitive-dative	insecte	insectei	insecte	insectelor
+insect	vocative	insectă, insecto	insectă, insecto	insectelor	insectelor
+beetle		singular	singular	plural	plural
+beetle		indefinite	definite	indefinite	definite
+beetle	nominative-accusative	gândac	gândacul	gândaci	gândacii
+beetle	genitive-dative	gândac	gândacului	gândaci	gândacilor
+beetle	vocative	gândacule	gândacule	gândacilor	gândacilor
+louse		singular	singular	plural	plural
+louse		indefinite	definite	indefinite	definite
+louse	nominative-accusative	păduche	păduchele	păduchi	păduchii
+louse	genitive-dative	păduche	păduchelui	păduchi	păduchilor
+louse	vocative	păduche	păduche	păduchilor	păduchilor
+clothing		singular	singular	plural	plural
+clothing		indefinite	definite	indefinite	definite
+clothing	nominative-accusative	îmbrăcăminte	îmbrăcămintea	îmbrăcăminți	îmbrăcămințile
+clothing	genitive-dative	îmbrăcăminți	îmbrăcăminții	îmbrăcăminți	îmbrăcăminților
 clothing	vocative	—	—	—	—
-daughter	nominative	(o) fiică	fiica	(niște) fiice	fiicele
-daughter	genitive	(unei) fiice	fiicei	(unor) fiice	fiicelor
-daughter	vocative	fiică, fiico	fiică, fiico	fiicelor	fiicelor
-dog	nominative	(un) câine	câinele	(niște) câini	câinii
-dog	genitive	(unui) câine	câinelui	(unor) câini	câinilor
+clothing		singular	singular	plural	plural
+clothing		indefinite	definite	indefinite	definite
+clothing	nominative-accusative	haină	haina	haine	hainele
+clothing	genitive-dative	haine	hainei	haine	hainelor
+clothing	vocative	haină, haino	haină, haino	hainelor	hainelor
+clothing		singular	singular	plural	plural
+clothing		indefinite	definite	indefinite	definite
+clothing	nominative-accusative	haină	haina	haine	hainele
+clothing	genitive-dative	haine	hainei	haine	hainelor
+clothing	vocative	haină, haino	haină, haino	hainelor	hainelor
+garment		singular	singular	plural	plural
+garment		indefinite	definite	indefinite	definite
+garment	nominative-accusative	haină	haina	haine	hainele
+garment	genitive-dative	haine	hainei	haine	hainelor
+garment	vocative	haină, haino	haină, haino	hainelor	hainelor
+garment		singular	singular	plural	plural
+garment		indefinite	definite	indefinite	definite
+garment	nominative-accusative	haină	haina	haine	hainele
+garment	genitive-dative	haine	hainei	haine	hainelor
+garment	vocative	haină, haino	haină, haino	hainelor	hainelor
+garment		singular	singular	plural	plural
+garment		indefinite	definite	indefinite	definite
+garment	nominative-accusative	veșmânt	veșmântul	veșminte	veșmintele
+garment	genitive-dative	veșmânt	veșmântului	veșminte	veșmintelor
+garment	vocative	veșmântule	veșmântule	veșmintelor	veșmintelor
+dog		singular	singular	plural	plural
+dog		indefinite	definite	indefinite	definite
+dog	nominative-accusative	câine	câinele	câini	câinii
+dog	genitive-dative	câine	câinelui	câini	câinilor
 dog	vocative	câine	câine	câinilor	câinilor
-door	nominative	(o) ușă	ușa	(niște) uși	ușile
-door	genitive	(unei) uși	ușii	(unor) uși	ușilor
+dog		singular	singular	plural	plural
+dog		indefinite	definite	indefinite	definite
+dog	nominative-accusative	cățea	cățeaua	cățele	cățelele
+dog	genitive-dative	cățele	cățelei	cățele	cățelelor
+dog	vocative	cățea	cățea	cățelelor	cățelelor
+dog		singular	singular	plural	plural
+dog		indefinite	definite	indefinite	definite
+dog	nominative-accusative	câine	câinele	câini	câinii
+dog	genitive-dative	câine	câinelui	câini	câinilor
+dog	vocative	câine	câine	câinilor	câinilor
+door		singular	singular	plural	plural
+door		indefinite	definite	indefinite	definite
+door	nominative-accusative	ușă	ușa	uși	ușile
+door	genitive-dative	uși	ușii	uși	ușilor
 door	vocative	ușă, ușo	ușă, ușo	ușilor	ușilor
-drum	nominative	(o) tobă	toba	(niște) tobe	tobele
-drum	genitive	(unei) tobe	tobei	(unor) tobe	tobelor
+drum		singular	singular	plural	plural
+drum		indefinite	definite	indefinite	definite
+drum	nominative-accusative	tobă	toba	tobe	tobele
+drum	genitive-dative	tobe	tobei	tobe	tobelor
 drum	vocative	—	—	—	—
-enemy	nominative	(un) dușman	dușmanul	(niște) dușmani	dușmanii
-enemy	genitive	(unui) dușman	dușmanului	(unor) dușmani	dușmanilor
+enemy		singular	singular	plural	plural
+enemy		indefinite	definite	indefinite	definite
+enemy	nominative-accusative	dușman	dușmanul	dușmani	dușmanii
+enemy	genitive-dative	dușman	dușmanului	dușmani	dușmanilor
 enemy	vocative	dușmanule	dușmanule	dușmanilor	dușmanilor
-fire	nominative	(un) foc	focul	(niște) focuri	focurile
-fire	genitive	(unui) foc	focului	(unor) focuri	focurilor
+enemy		singular	singular	plural	plural
+enemy		indefinite	definite	indefinite	definite
+enemy	nominative-accusative	vrăjmaș	vrăjmașul	vrăjmași	vrăjmașii
+enemy	genitive-dative	vrăjmaș	vrăjmașului	vrăjmași	vrăjmașilor
+enemy	vocative	vrăjmașule	vrăjmașule	vrăjmașilor	vrăjmașilor
+enemy			singular	singular	singular	plural	plural	plural
+enemy			masculine	neuter	feminine	masculine	neuter	feminine
+enemy	nominative-accusative	indefinite	vrăjmaș	vrăjmaș	vrăjmașă	vrăjmași	vrăjmașe	vrăjmașe
+enemy	nominative-accusative	definite	vrăjmașul	vrăjmașul	vrăjmașa	vrăjmașii	vrăjmașele	vrăjmașele
+enemy	genitive-dative	indefinite	vrăjmaș	vrăjmaș	vrăjmașe	vrăjmași	vrăjmașe	vrăjmașe
+enemy	genitive-dative	definite	vrăjmașului	vrăjmașului	vrăjmașei	vrăjmașilor	vrăjmașelor	vrăjmașelor
+enemy		singular	singular	plural	plural
+enemy		indefinite	definite	indefinite	definite
+enemy	nominative-accusative	inamică	inamica	inamice	inamicele
+enemy	genitive-dative	inamice	inamicei	inamice	inamicelor
+enemy	vocative	inamică, inamico	inamică, inamico	inamicelor	inamicelor
+fish		singular	singular	plural	plural
+fish		indefinite	definite	indefinite	definite
+fish	nominative-accusative	pește	peștele	pești	peștii
+fish	genitive-dative	pește	peștelui	pești	peștilor
+fish	vocative	pește	pește	peștilor	peștilor
+fire		singular	singular	plural	plural
+fire		indefinite	definite	indefinite	definite
+fire	nominative-accusative	foc	focul	focuri	focurile
+fire	genitive-dative	foc	focului	focuri	focurilor
 fire	vocative	focule	focule	focurilor	focurilor
-food	nominative	(un) aliment	alimentul	(niște) alimente	alimentele
-food	genitive	(unui) aliment	alimentului	(unor) alimente	alimentelor
+fire		singular	singular	plural	plural
+fire		indefinite	definite	indefinite	definite
+fire	nominative-accusative	incendiu	incendiul	incendii	incendiile
+fire	genitive-dative	incendiu	incendiului	incendii	incendiilor
+fire	vocative	incendiule	incendiule	incendiilor	incendiilor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	aliment	alimentul	alimente	alimentele
+food	genitive-dative	aliment	alimentului	alimente	alimentelor
 food	vocative	alimentule	alimentule	alimentelor	alimentelor
-gift	nominative	(un) cadou	cadoul	(niște) cadouri	cadourile
-gift	genitive	(unui) cadou	cadoului	(unor) cadouri	cadourilor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	mâncare	mâncarea	mâncăruri	mâncărurile
+food	genitive-dative	mâncări	mâncării	mâncăruri	mâncărurilor
+food	vocative	mâncare, mâncareo	mâncare, mâncareo	mâncărurilor	mâncărurilor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	mâncare	mâncarea	mâncări	mâncările
+food	genitive-dative	mâncări	mâncării	mâncări	mâncărilor
+food	vocative	mâncare, mâncareo	mâncare, mâncareo	mâncărilor	mâncărilor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	hrană	hrana	hrane	hranele
+food	genitive-dative	hrane	hranei	hrane	hranelor
+food	vocative	hrană, hrano	hrană, hrano	hranelor	hranelor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	alimentare	alimentarea	alimentări	alimentările
+food	genitive-dative	alimentări	alimentării	alimentări	alimentărilor
+food	vocative	alimentare, alimentareo	alimentare, alimentareo	alimentărilor	alimentărilor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	nutriție	nutriția	nutriții	nutrițiile
+food	genitive-dative	nutriții	nutriției	nutriții	nutrițiilor
+food	vocative	nutriție, nutrițio	nutriție, nutrițio	nutrițiilor	nutrițiilor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	aliment	alimentul	alimente	alimentele
+food	genitive-dative	aliment	alimentului	alimente	alimentelor
+food	vocative	alimentule	alimentule	alimentelor	alimentelor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	mâncare	mâncarea	mâncăruri	mâncărurile
+food	genitive-dative	mâncări	mâncării	mâncăruri	mâncărurilor
+food	vocative	mâncare, mâncareo	mâncare, mâncareo	mâncărurilor	mâncărurilor
+food		singular	singular	plural	plural
+food		indefinite	definite	indefinite	definite
+food	nominative-accusative	mâncare	mâncarea	mâncări	mâncările
+food	genitive-dative	mâncări	mâncării	mâncări	mâncărilor
+food	vocative	mâncare, mâncareo	mâncare, mâncareo	mâncărilor	mâncărilor
+forest		singular	singular	plural	plural
+forest		indefinite	definite	indefinite	definite
+forest	nominative-accusative	pădure	pădurea	păduri	pădurile
+forest	genitive-dative	păduri	pădurii	păduri	pădurilor
+forest	vocative	pădure, pădureo	pădure, pădureo	pădurilor	pădurilor
+forest		singular	singular	plural	plural
+forest		indefinite	definite	indefinite	definite
+forest	nominative-accusative	codru	codrul	codri	codrii
+forest	genitive-dative	codru	codrului	codri	codrilor
+forest	vocative	codrule	codrule	codrilor	codrilor
+forest		singular	singular	plural	plural
+forest		indefinite	definite	indefinite	definite
+forest	nominative-accusative	silvă	silva	silve	silvele
+forest	genitive-dative	silve	silvei	silve	silvelor
+forest	vocative	silvă, silvo	silvă, silvo	silvelor	silvelor
+gate		singular	singular	plural	plural
+gate		indefinite	definite	indefinite	definite
+gate	nominative-accusative	poartă	poarta	porți	porțile
+gate	genitive-dative	porți	porții	porți	porților
+gate	vocative	poartă, poarto	poartă, poarto	porților	porților
+gate		singular	singular	plural	plural
+gate		indefinite	definite	indefinite	definite
+gate	nominative-accusative	poartă	poarta	porți	porțile
+gate	genitive-dative	porți	porții	porți	porților
+gate	vocative	poartă, poarto	poartă, poarto	porților	porților
+gate		singular	singular	plural	plural
+gate		indefinite	definite	indefinite	definite
+gate	nominative-accusative	poartă	poarta	porți	porțile
+gate	genitive-dative	porți	porții	porți	porților
+gate	vocative	poartă, poarto	poartă, poarto	porților	porților
+gift		singular	singular	plural	plural
+gift		indefinite	definite	indefinite	definite
+gift	nominative-accusative	cadou	cadoul	cadouri	cadourile
+gift	genitive-dative	cadou	cadoului	cadouri	cadourilor
 gift	vocative	cadoule	cadoule	cadourilor	cadourilor
-glass	nominative	(o) sticlă	sticla	(niște) sticle	sticlele
-glass	genitive	(unei) sticle	sticlei	(unor) sticle	sticlelor
+gift		singular	singular	plural	plural
+gift		indefinite	definite	indefinite	definite
+gift	nominative-accusative	dar	darul	daruri	darurile
+gift	genitive-dative	dar	darului	daruri	darurilor
+gift	vocative	darule	darule	darurilor	darurilor
+glass		singular	singular	plural	plural
+glass		indefinite	definite	indefinite	definite
+glass	nominative-accusative	sticlă	sticla	sticle	sticlele
+glass	genitive-dative	sticle	sticlei	sticle	sticlelor
 glass	vocative	sticlă, sticlo	sticlă, sticlo	sticlelor	sticlelor
-guard	nominative	(o) gardă	garda	(niște) gărzi	gărzile
-guard	genitive	(unei) gărzi	gărzii	(unor) gărzi	gărzilor
+guard		singular	singular	plural	plural
+guard		indefinite	definite	indefinite	definite
+guard	nominative-accusative	gardă	garda	gărzi	gărzile
+guard	genitive-dative	gărzi	gărzii	gărzi	gărzilor
 guard	vocative	gardă, gardo	gardă, gardo	gărzilor	gărzilor
-horse	nominative	(un) cal	calul	(niște) cai	caii
-horse	genitive	(unui) cal	calului	(unor) cai	cailor
+guard		singular	singular	plural	plural
+guard		indefinite	definite	indefinite	definite
+guard	nominative-accusative	păzitor	păzitorul	păzitori	păzitorii
+guard	genitive-dative	păzitor	păzitorului	păzitori	păzitorilor
+guard	vocative	păzitorule	păzitorule	păzitorilor	păzitorilor
+hill		singular	singular	plural	plural
+hill		indefinite	definite	indefinite	definite
+hill	nominative-accusative	deal	dealul	dealuri	dealurile
+hill	genitive-dative	deal	dealului	dealuri	dealurilor
+hill	vocative	dealule	dealule	dealurilor	dealurilor
+hill		singular	singular	plural	plural
+hill		indefinite	definite	indefinite	definite
+hill	nominative-accusative	colină	colina	coline	colinele
+hill	genitive-dative	coline	colinei	coline	colinelor
+hill	vocative	colină, colino	colină, colino	colinelor	colinelor
+horse		singular	singular	plural	plural
+horse		indefinite	definite	indefinite	definite
+horse	nominative-accusative	cal	calul	cai	caii
+horse	genitive-dative	cal	calului	cai	cailor
 horse	vocative	calule	calule	cailor	cailor
-house	nominative	(o) casă	casa	(niște) case	casele
-house	genitive	(unei) case	casei	(unor) case	caselor
+horse		singular	singular	plural	plural
+horse		indefinite	definite	indefinite	definite
+horse	nominative-accusative	cabalin	cabalinul	cabalini	cabalinile
+horse	genitive-dative	cabalin	cabalinului	cabalini	cabalinilor
+horse	vocative	cabalinule	cabalinule	cabalinilor	cabalinilor
+house		singular	singular	plural	plural
+house		indefinite	definite	indefinite	definite
+house	nominative-accusative	casă	casa	case	casele
+house	genitive-dative	case	casei	case	caselor
 house	vocative	casă, caso	casă, caso	caselor	caselor
-livestock	nominative	(un) șeptel	șeptelul	(niște) șepteluri	șeptelurile
-livestock	genitive	(unui) șeptel	șeptelului	(unor) șepteluri	șeptelurilor
-livestock	vocative	șeptelule	șeptelule	șeptelurilor	șeptelurilor
-love	nominative	(o) iubire	iubirea	(niște) iubiri	iubirile
-love	genitive	(unei) iubiri	iubirii	(unor) iubiri	iubirilor
+love		singular	singular	plural	plural
+love		indefinite	definite	indefinite	definite
+love	nominative-accusative	iubire	iubirea	iubiri	iubirile
+love	genitive-dative	iubiri	iubirii	iubiri	iubirilor
 love	vocative	iubire, iubireo	iubire, iubireo	iubirilor	iubirilor
-idea	nominative	(o) idee	ideea	(niște) idei	ideile
-idea	genitive	(unei) idei	ideii	(unor) idei	ideilor
-idea	vocative	idee, ideeo	idee, ideeo	ideilor	ideilor
-man	nominative	(un) bărbat	bărbatul	(niște) bărbați	bărbații
-man	genitive	(unui) bărbat	bărbatului	(unor) bărbați	bărbaților
-man	vocative	bărbatule, bărbate	bărbatule, bărbate	bărbaților	bărbaților
-money	nominative	(un) ban	banul	(niște) bani	banii
-money	genitive	(unui) ban	banului	(unor) bani	banilor
+love		singular	singular	plural	plural
+love		indefinite	definite	indefinite	definite
+love	nominative-accusative	dragoste	dragostea	dragoste	dragostele
+love	genitive-dative	dragoste	dragostei	dragoste	dragostelor
+love	vocative	dragoste, dragosteo	dragoste, dragosteo	dragostelor	dragostelor
+love		singular	singular	plural	plural
+love		indefinite	definite	indefinite	definite
+love	nominative-accusative	amor	amorul	amoruri	amorurile
+love	genitive-dative	amor	amorului	amoruri	amorurilor
+love	vocative	amorule	amorule	amorurilor	amorurilor
+money		singular	singular	plural	plural
+money		indefinite	definite	indefinite	definite
+money	nominative-accusative	ban	banul	bani	banii
+money	genitive-dative	ban	banului	bani	banilor
 money	vocative	banule	banule	banilor	banilor
-monster	nominative	(un) monstru	monstrul	(niște) monștri	monștrii
-monster	genitive	(unui) monstru	monstrului	(unor) monștri	monștrilor
+money		singular	singular	plural	plural
+money		indefinite	definite	indefinite	definite
+money	nominative-accusative	ban	banul	bani	banii
+money	genitive-dative	ban	banului	bani	banilor
+money	vocative	banule	banule	banilor	banilor
+coin		singular	singular	plural	plural
+coin		indefinite	definite	indefinite	definite
+coin	nominative-accusative	monedă	moneda	monede	monedele
+coin	genitive-dative	monede	monedei	monede	monedelor
+coin	vocative	monedă, monedo	monedă, monedo	monedelor	monedelor
+weath		singular	singular	plural	plural
+weath		indefinite	definite	indefinite	definite
+weath	nominative-accusative	avere	averea	averi	averile
+weath	genitive-dative	averi	averii	averi	averilor
+weath	vocative	avere, avereo	avere, avereo	averilor	averilor
+weath		singular	singular	plural	plural
+weath		indefinite	definite	indefinite	definite
+weath	nominative-accusative	bogăție	bogăția	bogății	bogățiile
+weath	genitive-dative	bogății	bogăției	bogății	bogățiilor
+weath	vocative	bogăție, bogățio	bogăție, bogățio	bogățiilor	bogățiilor
+weath		singular	singular	plural	plural
+weath		indefinite	definite	indefinite	definite
+weath	nominative-accusative	avere	averea	averi	averile
+weath	genitive-dative	averi	averii	averi	averilor
+weath	vocative	avere, avereo	avere, avereo	averilor	averilor
+weath		singular	singular	plural	plural
+weath		indefinite	definite	indefinite	definite
+weath	nominative-accusative	bogăție	bogăția	bogății	bogățiile
+weath	genitive-dative	bogății	bogăției	bogății	bogățiilor
+weath	vocative	bogăție, bogățio	bogăție, bogățio	bogățiilor	bogățiilor
+monster		singular	singular	plural	plural
+monster		indefinite	definite	indefinite	definite
+monster	nominative-accusative	monstru	monstrul	monștri	monștrii
+monster	genitive-dative	monstru	monstrului	monștri	monștrilor
 monster	vocative	monstrule	monstrule	monștrilor	monștrilor
-name	nominative	(un) nume	numele	(niște) nume	numele
-name	genitive	(unui) nume	numelui	(unor) nume	numelor
+beast		singular	singular	plural	plural
+beast		indefinite	definite	indefinite	definite
+beast	nominative-accusative	fiară	fiara	fiare	fiarele
+beast	genitive-dative	fiare	fiarei	fiare	fiarelor
+beast	vocative	—	—	—	—
+name		singular	singular	plural	plural
+name		indefinite	definite	indefinite	definite
+name	nominative-accusative	nume	numele	nume	numele
+name	genitive-dative	nume	numelui	nume	numelor
 name	vocative	nume	nume	numelor	numelor
-rock	nominative	(o) stană	stana	(niște) stane	stanele
-rock	genitive	(unei) stane	stanei	(unor) stane	stanelor
-rock	vocative	stană, stano	stană, stano	stanelor	stanelor
-rope	nominative	(o) frânghie	frânghia	(niște) frânghii	frânghiile
-rope	genitive	(unei) frânghii	frânghiei	(unor) frânghii	frânghiilor
+rock		singular	singular	plural	plural
+rock		indefinite	definite	indefinite	definite
+rock	nominative-accusative	stâncă	stânca	stânci	stâncile
+rock	genitive-dative	stânci	stâncii	stânci	stâncilor
+rock	vocative	stâncă, stânco	stâncă, stânco	stâncilor	stâncilor
+rock		singular	singular	plural	plural
+rock		indefinite	definite	indefinite	definite
+rock	nominative-accusative	rocă	roca	roci	rocile
+rock	genitive-dative	roci	rocii	roci	rocilor
+rock	vocative	rocă, roco	rocă, roco	rocilor	rocilor
+stone		singular	singular	plural	plural
+stone		indefinite	definite	indefinite	definite
+stone	nominative-accusative	piatră	piatra	pietre	pietrele
+stone	genitive-dative	pietre	pietrei	pietre	pietrelor
+stone	vocative	piatră, piatro	piatră, piatro	pietrelor	pietrelor
+stone		singular	singular	plural	plural
+stone		indefinite	definite	indefinite	definite
+stone	nominative-accusative	piatră	piatra	pietre	pietrele
+stone	genitive-dative	pietre	pietrei	pietre	pietrelor
+stone	vocative	piatră, piatro	piatră, piatro	pietrelor	pietrelor
+rope		singular	singular	plural	plural
+rope		indefinite	definite	indefinite	definite
+rope	nominative-accusative	frânghie	frânghia	frânghii	frânghiile
+rope	genitive-dative	frânghii	frânghiei	frânghii	frânghiilor
 rope	vocative	frânghie, frânghio	frânghie, frânghio	frânghiilor	frânghiilor
-size	nominative	(o) mărime	mărimea	(niște) mărimi	mărimile
-size	genitive	(unei) mărimi	mărimii	(unor) mărimi	mărimilor
-size	vocative	mărime, mărimeo	mărime, mărimeo	mărimilor	mărimilor
-sister	nominative	(o) soră	sora	(niște) surori	surorile
-sister	genitive	(unei) surori	surorii	(unor) surori	surorilor
-sister	vocative	—	—	—	—
-son	nominative	(un) fiu	fiul	(niște) fii	fiii
-son	genitive	(unui) fiu	fiului	(unor) fii	fiilor
-son	vocative	fiule	fiule	fiilor	fiilor
-sound	nominative	(un) sunet	sunetul	(niște) sunete	sunetele
-sound	genitive	(unui) sunet	sunetului	(unor) sunete	sunetelor
-sound	vocative	sunetule	sunetule	sunetelor	sunetelor
-warmth	nominative	(o) căldură	căldura	(niște) călduri	căldurile
-warmth	genitive	(unei) călduri	căldurii	(unor) călduri	căldurilor
+rope		singular	singular	plural	plural
+rope		indefinite	definite	indefinite	definite
+rope	nominative-accusative	coardă	coarda	coarde	coardele
+rope	genitive-dative	coarde	coardei	coarde	coardelor
+rope	vocative	coardă, coardo	coardă, coardo	coardelor	coardelor
+rope		singular	singular	plural	plural
+rope		indefinite	definite	indefinite	definite
+rope	nominative-accusative	coardă	coarda	coarde	coardele
+rope	genitive-dative	coarde	coardei	coarde	coardelor
+rope	vocative	coardă, coardo	coardă, coardo	coardelor	coardelor
+rope		singular	singular	plural	plural
+rope		indefinite	definite	indefinite	definite
+rope	nominative-accusative	funie	funia	funii	funiile
+rope	genitive-dative	funii	funiei	funii	funiilor
+rope	vocative	funie, funio	funie, funio	funiilor	funiilor
+tool		singular	singular	plural	plural
+tool		indefinite	definite	indefinite	definite
+tool	nominative-accusative	sculă	scula	scule	sculele
+tool	genitive-dative	scule	sculei	scule	sculelor
+tool	vocative	sculă, sculo	sculă, sculo	sculelor	sculelor
+tool		singular	singular	plural	plural
+tool		indefinite	definite	indefinite	definite
+tool	nominative-accusative	unealtă	unealta	unelte	uneltele
+tool	genitive-dative	unelte	uneltei	unelte	uneltelor
+tool	vocative	unealtă, unealto	unealtă, unealto	uneltelor	uneltelor
+tool		singular	singular	plural	plural
+tool		indefinite	definite	indefinite	definite
+tool	nominative-accusative	instrument	instrumentul	instrumente	instrumentele
+tool	genitive-dative	instrument	instrumentului	instrumente	instrumentelor
+tool	vocative	instrumentule	instrumentule	instrumentelor	instrumentelor
+tool		singular	singular	plural	plural
+tool		indefinite	definite	indefinite	definite
+tool	nominative-accusative	unealtă	unealta	unelte	uneltele
+tool	genitive-dative	unelte	uneltei	unelte	uneltelor
+tool	vocative	unealtă, unealto	unealtă, unealto	uneltelor	uneltelor
+tool		singular	singular	plural	plural
+tool		indefinite	definite	indefinite	definite
+tool	nominative-accusative	instrument	instrumentul	instrumente	instrumentele
+tool	genitive-dative	instrument	instrumentului	instrumente	instrumentelor
+tool	vocative	instrumentule	instrumentule	instrumentelor	instrumentelor
+tool		singular	singular	plural	plural
+tool		indefinite	definite	indefinite	definite
+tool	nominative-accusative	unealtă	unealta	unelte	uneltele
+tool	genitive-dative	unelte	uneltei	unelte	uneltelor
+tool	vocative	unealtă, unealto	unealtă, unealto	uneltelor	uneltelor
+tool		singular	singular	plural	plural
+tool		indefinite	definite	indefinite	definite
+tool	nominative-accusative	ustensilă	ustensila	ustensile	ustensilele
+tool	genitive-dative	ustensile	ustensilei	ustensile	ustensilelor
+tool	vocative	ustensilă, ustensilo	ustensilă, ustensilo	ustensilelor	ustensilelor
+tool		singular	singular	plural	plural
+tool		indefinite	definite	indefinite	definite
+tool	nominative-accusative	instrument	instrumentul	instrumente	instrumentele
+tool	genitive-dative	instrument	instrumentului	instrumente	instrumentelor
+tool	vocative	instrumentule	instrumentule	instrumentelor	instrumentelor
+treasure		singular	singular	plural	plural
+treasure		indefinite	definite	indefinite	definite
+treasure	nominative-accusative	comoară	comoara	comori	comorile
+treasure	genitive-dative	comori	comorii	comori	comorilor
+treasure	vocative	comoară, comoaro	comoară, comoaro	comorilor	comorilor
+treasure		singular	singular	plural	plural
+treasure		indefinite	definite	indefinite	definite
+treasure	nominative-accusative	tezaur	tezaurul	tezaure	tezaurele
+treasure	genitive-dative	tezaur	tezaurului	tezaure	tezaurelor
+treasure	vocative	tezaurule	tezaurule	tezaurelor	tezaurelor
+treasure		singular	singular	plural	plural
+treasure		indefinite	definite	indefinite	definite
+treasure	nominative-accusative	comoară	comoara	comori	comorile
+treasure	genitive-dative	comori	comorii	comori	comorilor
+treasure	vocative	comoară, comoaro	comoară, comoaro	comorilor	comorilor
+warmth		singular	singular	plural	plural
+warmth		indefinite	definite	indefinite	definite
+warmth	nominative-accusative	căldură	căldura	călduri	căldurile
+warmth	genitive-dative	călduri	căldurii	călduri	căldurilor
 warmth	vocative	căldură, călduro	căldură, călduro	căldurilor	căldurilor
-water	nominative	(o) apă	apa	(niște) ape	apele
-water	genitive	(unei) ape	apei	(unor) ape	apelor
+heat		singular	singular	plural	plural
+heat		indefinite	definite	indefinite	definite
+heat	nominative-accusative	căldură	căldura	călduri	căldurile
+heat	genitive-dative	călduri	căldurii	călduri	căldurilor
+heat	vocative	căldură, călduro	căldură, călduro	căldurilor	căldurilor
+heat		singular	singular	plural	plural
+heat		indefinite	definite	indefinite	definite
+heat	nominative-accusative	căldură	căldura	călduri	căldurile
+heat	genitive-dative	călduri	căldurii	călduri	căldurilor
+heat	vocative	căldură, călduro	căldură, călduro	căldurilor	căldurilor
+water		singular	singular	plural	plural
+water		indefinite	definite	indefinite	definite
+water	nominative-accusative	apă	apa	ape	apele
+water	genitive-dative	ape	apei	ape	apelor
 water	vocative	apă, apo	apă, apo	apelor	apelor
-way	nominative	(o) cale	calea	(niște) căi	căile
-way	genitive	(unei) căi	căii	(unor) căi	căilor
+way		singular	singular	plural	plural
+way		indefinite	definite	indefinite	definite
+way	nominative-accusative	cale	calea	căi	căile
+way	genitive-dative	căi	căii	căi	căilor
 way	vocative	cale, caleo	cale, caleo	căilor	căilor
-wind	nominative	(un) vânt	vântul	(niște) vânturi	vânturile
-wind	genitive	(unui) vânt	vântului	(unor) vânturi	vânturilor
+way		singular	singular	plural	plural
+way		indefinite	definite	indefinite	definite
+way	nominative-accusative	drum	drumul	drumuri	drumurile
+way	genitive-dative	drum	drumului	drumuri	drumurilor
+way	vocative	drumule	drumule	drumurilor	drumurilor
+wind		singular	singular	plural	plural
+wind		indefinite	definite	indefinite	definite
+wind	nominative-accusative	vânt	vântul	vânturi	vânturile
+wind	genitive-dative	vânt	vântului	vânturi	vânturilor
 wind	vocative	vântule	vântule	vânturilor	vânturilor
-window	nominative	(o) fereastră	fereastra	(niște) ferestre	ferestrele
-window	genitive	(unei) ferestre	ferestrei	(unor) ferestre	ferestrelor
-window	vocative	fereastră, fereastro	fereastră, fereastro	ferestrelor	ferestrelor
-woman	nominative	(o) femeie	femeia	(niște) femei	femeile
-woman	genitive	(unei) femei	femeii	(unor) femei	femeilor
-woman	vocative	femeie, femeio	femeie, femeio	femeilor	femeilor
-work	nominative	(o) muncă	munca	(niște) munci	muncile
-work	genitive	(unei) munci	muncii	(unor) munci	muncilor
+wolf		singular	singular	plural	plural
+wolf		indefinite	definite	indefinite	definite
+wolf	nominative-accusative	lup	lupul	lupi	lupii
+wolf	genitive-dative	lup	lupului	lupi	lupilor
+wolf	vocative	lupule	lupule	lupilor	lupilor
+wood		singular	singular	plural	plural
+wood		indefinite	definite	indefinite	definite
+wood	nominative-accusative	lemn	lemnul	lemne	lemnele
+wood	genitive-dative	lemn	lemnului	lemne	lemnelor
+wood	vocative	lemnule	lemnule	lemnelor	lemnelor
+work		singular	singular	plural	plural
+work		indefinite	definite	indefinite	definite
+work	nominative-accusative	muncă	munca	munci	muncile
+work	genitive-dative	munci	muncii	munci	muncilor
 work	vocative	muncă, munco	muncă, munco	muncilor	muncilor
+work		singular	singular	plural	plural
+work		indefinite	definite	indefinite	definite
+work	nominative-accusative	serviciu	serviciul	servicii	serviciile
+work	genitive-dative	serviciu	serviciului	servicii	serviciilor
+work	vocative	serviciule	serviciule	serviciilor	serviciilor
+work		singular	singular	plural	plural
+work		indefinite	definite	indefinite	definite
+work	nominative-accusative	ocupație	ocupația	ocupații	ocupațiile
+work	genitive-dative	ocupații	ocupației	ocupații	ocupațiilor
+work	vocative	ocupație, ocupațio	ocupație, ocupațio	ocupațiilor	ocupațiilor
+work		singular	singular	plural	plural
+work		indefinite	definite	indefinite	definite
+work	nominative-accusative	îndeletnicire	îndeletnicirea	îndeletniciri	îndeletnicirile
+work	genitive-dative	îndeletniciri	îndeletnicirii	îndeletniciri	îndeletnicirilor
+work	vocative	îndeletnicire, îndeletnicireo	îndeletnicire, îndeletnicireo	îndeletnicirilor	îndeletnicirilor
+worker		singular	singular	plural	plural
+worker		indefinite	definite	indefinite	definite
+worker	nominative-accusative	lucrător	lucrătorul	lucrători	lucrătorii
+worker	genitive-dative	lucrător	lucrătorului	lucrători	lucrătorilor
+worker	vocative	lucrătorule	lucrătorule	lucrătorilor	lucrătorilor
+worker			singular	singular	singular	plural	plural	plural
+worker			masculine	neuter	feminine	masculine	neuter	feminine
+worker	nominative-accusative	indefinite	lucrător	lucrător	lucrătoare	lucrători	lucrătoare	lucrătoare
+worker	nominative-accusative	definite	lucrătorul	lucrătorul	lucrătoarea	lucrătorii	lucrătoarele	lucrătoarele
+worker	genitive-dative	indefinite	lucrător	lucrător	lucrătoare	lucrători	lucrătoare	lucrătoare
+worker	genitive-dative	definite	lucrătorului	lucrătorului	lucrătoarei	lucrătorilor	lucrătoarelor	lucrătoarelor
+worker		singular	singular	plural	plural
+worker		indefinite	definite	indefinite	definite
+worker	nominative-accusative	lucrătoare	lucrătoarea	lucrătoare	lucrătoarele
+worker	genitive-dative	lucrătoare	lucrătoarei	lucrătoare	lucrătoarelor
+worker	vocative	lucrătoare, lucrătoareo	lucrătoare, lucrătoareo	lucrătoarelor	lucrătoarelor
+worker		singular	singular	plural	plural
+worker		indefinite	definite	indefinite	definite
+worker	nominative-accusative	muncitor	muncitorul	muncitori	muncitorii
+worker	genitive-dative	muncitor	muncitorului	muncitori	muncitorilor
+worker	vocative	muncitorule	muncitorule	muncitorilor	muncitorilor
+worker			singular	singular	singular	plural	plural	plural
+worker			masculine	neuter	feminine	masculine	neuter	feminine
+worker	nominative-accusative	indefinite	muncitor	muncitor	muncitoare	muncitori	muncitoare	muncitoare
+worker	nominative-accusative	definite	muncitorul	muncitorul	muncitoarea	muncitorii	muncitoarele	muncitoarele
+worker	genitive-dative	indefinite	muncitor	muncitor	muncitoare	muncitori	muncitoare	muncitoare
+worker	genitive-dative	definite	muncitorului	muncitorului	muncitoarei	muncitorilor	muncitoarelor	muncitoarelor
+worker		singular	singular	plural	plural
+worker		indefinite	definite	indefinite	definite
+worker	nominative-accusative	muncitoare	muncitoarea	muncitoare	muncitoarele
+worker	genitive-dative	muncitoare	muncitoarei	muncitoare	muncitoarelor
+worker	vocative	muncitoare, muncitoareo	muncitoare, muncitoareo	muncitoarelor	muncitoarelor
+worker		singular	singular	plural	plural
+worker		indefinite	definite	indefinite	definite
+worker	nominative-accusative	angajată	angajata	angajate	angajatele
+worker	genitive-dative	angajate	angajatei	angajate	angajatelor
+worker	vocative	angajată, angajato	angajată, angajato	angajatelor	angajatelor
+worm		singular	singular	plural	plural
+worm		indefinite	definite	indefinite	definite
+worm	nominative-accusative	vierme	viermele	viermi	viermii
+worm	genitive-dative	vierme	viermelui	viermi	viermilor
+worm	vocative	vierme	vierme	viermilor	viermilor
+worm		singular	singular	plural	plural
+worm		indefinite	definite	indefinite	definite
+worm	nominative-accusative	râmă	râma	râme	râmele
+worm	genitive-dative	râme	râmei	râme	râmelor
+worm	vocative	râmă, râmo	râmă, râmo	râmelor	râmelor
+language		singular	singular	plural	plural
+language		indefinite	definite	indefinite	definite
+language	nominative-accusative	limbă	limba	limbi	limbile
+language	genitive-dative	limbi	limbii	limbi	limbilor
+language	vocative	limbă, limbo	limbă, limbo	limbilor	limbilor
+town		singular	singular	plural	plural
+town		indefinite	definite	indefinite	definite
+town	nominative-accusative	oraș	orașul	orașe	orașele
+town	genitive-dative	oraș	orașului	orașe	orașelor
+town	vocative	orașule	orașule	orașelor	orașelor
+river		singular	singular	plural	plural
+river		indefinite	definite	indefinite	definite
+river	nominative-accusative	râu	râul	râuri	râurile
+river	genitive-dative	râu	râului	râuri	râurilor
+river	vocative	râule	râule	râurilor	râurilor
+river		singular	singular	plural	plural
+river		indefinite	definite	indefinite	definite
+river	nominative-accusative	fluviu	fluviul	fluvii	fluviile
+river	genitive-dative	fluviu	fluviului	fluvii	fluviilor
+river	vocative	fluviule	fluviule	fluviilor	fluviilor
+river		singular	singular	plural	plural
+river		indefinite	definite	indefinite	definite
+river	nominative-accusative	râu	râul	râuri	râurile
+river	genitive-dative	râu	râului	râuri	râurilor
+river	vocative	râule	râule	râurilor	râurilor
+river		singular	singular	plural	plural
+river		indefinite	definite	indefinite	definite
+river	nominative-accusative	fluviu	fluviul	fluvii	fluviile
+river	genitive-dative	fluviu	fluviului	fluvii	fluviilor
+river	vocative	fluviule	fluviule	fluviilor	fluviilor
+summer		singular	singular	plural	plural
+summer		indefinite	definite	indefinite	definite
+summer	nominative-accusative	vară	vara	veri	verile
+summer	genitive-dative	veri	verii	veri	verilor
+summer	vocative	vară, varo	vară, varo	verilor	verilor
+summer		singular	singular	plural	plural
+summer		indefinite	definite	indefinite	definite
+summer	nominative-accusative	vară	vara	vere	verele
+summer	genitive-dative	vere	verei	vere	verelor
+summer	vocative	vară, varo	vară, varo	verelor	verelor
+spring		singular	singular	plural	plural
+spring		indefinite	definite	indefinite	definite
+spring	nominative-accusative	primăvară	primăvara	primăveri	primăverile
+spring	genitive-dative	primăveri	primăverii	primăveri	primăverilor
+spring	vocative	primăvară, primăvaro	primăvară, primăvaro	primăverilor	primăverilor
+autumn		singular	singular	plural	plural
+autumn		indefinite	definite	indefinite	definite
+autumn	nominative-accusative	toamnă	toamna	toamne	toamnele
+autumn	genitive-dative	toamne	toamnei	toamne	toamnelor
+autumn	vocative	toamnă, toamno	toamnă, toamno	toamnelor	toamnelor
+winter		singular	singular	plural	plural
+winter		indefinite	definite	indefinite	definite
+winter	nominative-accusative	iarnă	iarna	ierni	iernile
+winter	genitive-dative	ierni	iernii	ierni	iernilor
+winter	vocative	iarnă, iarno	iarnă, iarno	iernilor	iernilor
+year		singular	singular	plural	plural
+year		indefinite	definite	indefinite	definite
+year	nominative-accusative	an	anul	ani	anii
+year	genitive-dative	an	anului	ani	anilor
+year	vocative	anule	anule	anilor	anilor
+year		singular	singular	plural	plural
+year		indefinite	definite	indefinite	definite
+year	nominative-accusative	an	anul	ani	anii
+year	genitive-dative	an	anului	ani	anilor
+year	vocative	anule	anule	anilor	anilor
+day		singular	singular	plural	plural
+day		indefinite	definite	indefinite	definite
+day	nominative-accusative	zi	ziua	zile	zilele
+day	genitive-dative	zile	zilei	zile	zilelor
+day	vocative	ziuo	ziuo	zilelor	zilelor
+day		singular	singular	plural	plural
+day		indefinite	definite	indefinite	definite
+day	nominative-accusative	zi	ziua	zile	zilele
+day	genitive-dative	zile	zilei	zile	zilelor
+day	vocative	ziuo	ziuo	zilelor	zilelor
+day		singular	singular	plural	plural
+day		indefinite	definite	indefinite	definite
+day	nominative-accusative	zi	ziua	zile	zilele
+day	genitive-dative	zile	zilei	zile	zilelor
+day	vocative	ziuo	ziuo	zilelor	zilelor
+day		singular	singular	plural	plural
+day		indefinite	definite	indefinite	definite
+day	nominative-accusative	zi	ziua	zile	zilele
+day	genitive-dative	zile	zilei	zile	zilelor
+day	vocative	ziuo	ziuo	zilelor	zilelor
+moon		singular	singular	plural	plural
+moon		indefinite	definite	indefinite	definite
+moon	nominative-accusative	lună	luna	luni	lunile
+moon	genitive-dative	luni	lunii	luni	lunilor
+moon	vocative	lună, luno	lună, luno	lunilor	lunilor
+moon		singular	singular	plural	plural
+moon		indefinite	definite	indefinite	definite
+moon	nominative-accusative	lună	luna	luni	lunile
+moon	genitive-dative	luni	lunii	luni	lunilor
+moon	vocative	lună, luno	lună, luno	lunilor	lunilor
+sun		singular	singular	plural	plural
+sun		indefinite	definite	indefinite	definite
+sun	nominative-accusative	soare	soarele	sori	sorii
+sun	genitive-dative	soare	soarelui	sori	sorilor
+sun	vocative	soare	soare	sorilor	sorilor
+sun		singular	singular	plural	plural
+sun		indefinite	definite	indefinite	definite
+sun	nominative-accusative	soare	soarele	sori	sorii
+sun	genitive-dative	soare	soarelui	sori	sorilor
+sun	vocative	soare	soare	sorilor	sorilor
+planet		singular	singular	plural	plural
+planet		indefinite	definite	indefinite	definite
+planet	nominative-accusative	planetă	planeta	planete	planetele
+planet	genitive-dative	planete	planetei	planete	planetelor
+planet	vocative	—	—	—	—
+planet		singular	singular	plural	plural
+planet		indefinite	definite	indefinite	definite
+planet	nominative-accusative	planetă	planeta	planete	planetele
+planet	genitive-dative	planete	planetei	planete	planetelor
+planet	vocative	—	—	—	—
+planet		singular	singular	plural	plural
+planet		indefinite	definite	indefinite	definite
+planet	nominative-accusative	planetă	planeta	planete	planetele
+planet	genitive-dative	planete	planetei	planete	planetelor
+planet	vocative	—	—	—	—
+star		singular	singular	plural	plural
+star		indefinite	definite	indefinite	definite
+star	nominative-accusative	stea	steaua	stele	stelele
+star	genitive-dative	stele	stelei	stele	stelelor
+star	vocative	stea	stea	stelelor	stelelor
+man		singular	singular	plural	plural
+man		indefinite	definite	indefinite	definite
+man	nominative-accusative	bărbat	bărbatul	bărbați	bărbații
+man	genitive-dative	bărbat	bărbatului	bărbați	bărbaților
+man	vocative	bărbatule, bărbate	bărbatule, bărbate	bărbaților	bărbaților
+man			singular	singular	singular	plural	plural	plural
+man			masculine	neuter	feminine	masculine	neuter	feminine
+man	nominative-accusative	indefinite	bărbat	bărbat	bărbată	bărbați	bărbate	bărbate
+man	nominative-accusative	definite	bărbatul	bărbatul	bărbata	bărbații	bărbatele	bărbatele
+man	genitive-dative	indefinite	bărbat	bărbat	bărbate	bărbați	bărbate	bărbate
+man	genitive-dative	definite	bărbatului	bărbatului	bărbatei	bărbaților	bărbatelor	bărbatelor
+man		singular	singular	plural	plural
+man		indefinite	definite	indefinite	definite
+man	nominative-accusative	om	omul	oameni	oamenii
+man	genitive-dative	om	omului	oameni	oamenilor
+man	vocative	omule	omule	oamenilor	oamenilor
+woman		singular	singular	plural	plural
+woman		indefinite	definite	indefinite	definite
+woman	nominative-accusative	femeie	femeia	femei	femeile
+woman	genitive-dative	femei	femeii	femei	femeilor
+woman	vocative	femeie, femeio	femeie, femeio	femeilor	femeilor
+woman		singular	singular	plural	plural
+woman		indefinite	definite	indefinite	definite
+woman	nominative-accusative	muiere	muierea	muieri	muierile
+woman	genitive-dative	muieri	muierii	muieri	muierilor
+woman	vocative	muiere, muiereo	muiere, muiereo	muierilor	muierilor
+woman		singular	singular	plural	plural
+woman		indefinite	definite	indefinite	definite
+woman	nominative-accusative	muiere	muierea	muieri	muierile
+woman	genitive-dative	muieri	muierii	muieri	muierilor
+woman	vocative	muiere, muiereo	muiere, muiereo	muierilor	muierilor
+woman		singular	singular	plural	plural
+woman		indefinite	definite	indefinite	definite
+woman	nominative-accusative	doamnă	doamna	doamne	doamnele
+woman	genitive-dative	doamne	doamnei	doamne	doamnelor
+woman	vocative	doamnă, doamno	doamnă, doamno	doamnelor	doamnelor
+human		singular	singular	plural	plural
+human		indefinite	definite	indefinite	definite
+human	nominative-accusative	om	omul	oameni	oamenii
+human	genitive-dative	om	omului	oameni	oamenilor
+human	vocative	omule	omule	oamenilor	oamenilor
+human		singular	singular	plural	plural
+human		indefinite	definite	indefinite	definite
+human	nominative-accusative	uman	umanul	umani	umanii
+human	genitive-dative	uman	umanului	umani	umanilor
+human	vocative	umanule	umanule	umanilor	umanilor
+human		singular	singular	plural	plural
+human		indefinite	definite	indefinite	definite
+human	nominative-accusative	om	omul	oameni	oamenii
+human	genitive-dative	om	omului	oameni	oamenilor
+human	vocative	omule	omule	oamenilor	oamenilor
+animal		singular	singular	plural	plural
+animal		indefinite	definite	indefinite	definite
+animal	nominative-accusative	animal	animalul	animale	animalele
+animal	genitive-dative	animal	animalului	animale	animalelor
+animal	vocative	animalule	animalule	animalelor	animalelor
+animal		singular	singular	plural	plural
+animal		indefinite	definite	indefinite	definite
+animal	nominative-accusative	fiară	fiara	fiare	fiarele
+animal	genitive-dative	fiare	fiarei	fiare	fiarelor
+animal	vocative	—	—	—	—
+animal		singular	singular	plural	plural
+animal		indefinite	definite	indefinite	definite
+animal	nominative-accusative	animal	animalul	animale	animalele
+animal	genitive-dative	animal	animalului	animale	animalelor
+animal	vocative	animalule	animalule	animalelor	animalelor
+animal		singular	singular	plural	plural
+animal		indefinite	definite	indefinite	definite
+animal	nominative-accusative	jivină	jivina	jivine	jivinele
+animal	genitive-dative	jivine	jivinei	jivine	jivinelor
+animal	vocative	jivină, jivino	jivină, jivino	jivinelor	jivinelor
+animal		singular	singular	plural	plural
+animal		indefinite	definite	indefinite	definite
+animal	nominative-accusative	animal	animalul	animale	animalele
+animal	genitive-dative	animal	animalului	animale	animalelor
+animal	vocative	animalule	animalule	animalelor	animalelor
+animal		singular	singular	plural	plural
+animal		indefinite	definite	indefinite	definite
+animal	nominative-accusative	jivină	jivina	jivine	jivinele
+animal	genitive-dative	jivine	jivinei	jivine	jivinelor
+animal	vocative	jivină, jivino	jivină, jivino	jivinelor	jivinelor
+livestock		singular	singular	plural	plural
+livestock		indefinite	definite	indefinite	definite
+livestock	nominative-accusative	șeptel	șeptelul	șepteluri	șeptelurile
+livestock	genitive-dative	șeptel	șeptelului	șepteluri	șeptelurilor
+livestock	vocative	șeptelule	șeptelule	șeptelurilor	șeptelurilor
+son		singular	singular	plural	plural
+son		indefinite	definite	indefinite	definite
+son	nominative-accusative	fiu	fiul	fii	fiii
+son	genitive-dative	fiu	fiului	fii	fiilor
+son	vocative	fiule	fiule	fiilor	fiilor
+son		singular	singular	plural	plural
+son		indefinite	definite	indefinite	definite
+son	nominative-accusative	fiu	fiul	fii	fiii
+son	genitive-dative	fiu	fiului	fii	fiilor
+son	vocative	fiule	fiule	fiilor	fiilor
+daughter		singular	singular	plural	plural
+daughter		indefinite	definite	indefinite	definite
+daughter	nominative-accusative	fiică	fiica	fiice	fiicele
+daughter	genitive-dative	fiice	fiicei	fiice	fiicelor
+daughter	vocative	fiică, fiico	fiică, fiico	fiicelor	fiicelor
+mother		singular	singular	plural	plural
+mother		indefinite	definite	indefinite	definite
+mother	nominative-accusative	mamă	mama	mame	mamele
+mother	genitive-dative	mame	mamei	mame	mamelor
+mother	vocative	mamă, mamo	mamă, mamo	mamelor	mamelor
+mother		singular	singular	plural	plural
+mother		indefinite	definite	indefinite	definite
+mother	nominative-accusative	maică	maica	maici	maicile
+mother	genitive-dative	maici	maicii	maici	maicilor
+mother	vocative	maică, maico	maică, maico	maicilor	maicilor
+mother		singular	singular	plural	plural
+mother		indefinite	definite	indefinite	definite
+mother	nominative-accusative	mamă	mama	mame	mamele
+mother	genitive-dative	mame	mamei	mame	mamelor
+mother	vocative	mamă, mamo	mamă, mamo	mamelor	mamelor
+father		singular	singular	plural	plural
+father		indefinite	definite	indefinite	definite
+father	nominative-accusative	tată	tatăl	tați	tații
+father	genitive-dative	tată	tatălui	tați	taților
+father	vocative	tată	tată	taților	taților
+brother		singular	singular	plural	plural
+brother		indefinite	definite	indefinite	definite
+brother	nominative-accusative	frate	fratele	frați	frații
+brother	genitive-dative	frate	fratelui	frați	fraților
+brother	vocative	frate	frate	fraților	fraților
+brother		singular	singular	plural	plural
+brother		indefinite	definite	indefinite	definite
+brother	nominative-accusative	frate	fratele	frați	frații
+brother	genitive-dative	frate	fratelui	frați	fraților
+brother	vocative	frate	frate	fraților	fraților
+sister		singular	singular	plural	plural
+sister		indefinite	definite	indefinite	definite
+sister	nominative-accusative	soră	sora	surori	surorile
+sister	genitive-dative	surori	surorii	surori	surorilor
+sister	vocative	—	—	—	—
+sister		singular	singular	plural	plural
+sister		indefinite	definite	indefinite	definite
+sister	nominative-accusative	soră	sora	surori	surorile
+sister	genitive-dative	surori	surorii	surori	surorilor
+sister	vocative	—	—	—	—
+grandmother		singular	singular	plural	plural
+grandmother		indefinite	definite	indefinite	definite
+grandmother	nominative-accusative	bunică	bunica	bunici	bunicile
+grandmother	genitive-dative	bunici	bunicii	bunici	bunicilor
+grandmother	vocative	bunică, bunico	bunică, bunico	bunicilor	bunicilor
+grandfather		singular	singular	plural	plural
+grandfather		indefinite	definite	indefinite	definite
+grandfather	nominative-accusative	bunic	bunicul	bunici	bunicii
+grandfather	genitive-dative	bunic	bunicului	bunici	bunicilor
+grandfather	vocative	bunicule	bunicule	bunicilor	bunicilor
+grandfather	singular only	indefinite	definite
+grandfather	nominative-accusative	tataie	tataiele
+grandfather	genitive-dative	tataie	tataielui
+grandfather	vocative	tataie	tataie
+grandfather		singular	singular	plural	plural
+grandfather		indefinite	definite	indefinite	definite
+grandfather	nominative-accusative	străbunic	străbunicul	străbunici	străbunicii
+grandfather	genitive-dative	străbunic	străbunicului	străbunici	străbunicilor
+grandfather	vocative	străbunicule	străbunicule	străbunicilor	străbunicilor
+grandfather		singular	singular	plural	plural
+grandfather		indefinite	definite	indefinite	definite
+grandfather	nominative-accusative	strămoș	strămoșul	strămoși	strămoșii
+grandfather	genitive-dative	strămoș	strămoșului	strămoși	strămoșilor
+grandfather	vocative	strămoșule	strămoșule	strămoșilor	strămoșilor
+grandfather		singular	singular	plural	plural
+grandfather		indefinite	definite	indefinite	definite
+grandfather	nominative-accusative	străbun	străbunul	străbuni	străbunii
+grandfather	genitive-dative	străbun	străbunului	străbuni	străbunilor
+grandfather	vocative	străbunule	străbunule	străbunilor	străbunilor
+sound		singular	singular	plural	plural
+sound		indefinite	definite	indefinite	definite
+sound	nominative-accusative	sunet	sunetul	sunete	sunetele
+sound	genitive-dative	sunet	sunetului	sunete	sunetelor
+sound	vocative	sunetule	sunetule	sunetelor	sunetelor
+size		singular	singular	plural	plural
+size		indefinite	definite	indefinite	definite
+size	nominative-accusative	mărime	mărimea	mărimi	mărimile
+size	genitive-dative	mărimi	mărimii	mărimi	mărimilor
+size	vocative	mărime, mărimeo	mărime, mărimeo	mărimilor	mărimilor
+north	singular only	indefinite	definite
+north	nominative-accusative	nord	nordul
+north	genitive-dative	nord	nordului
+north	vocative	nordule	nordule
+north	singular only	indefinite	definite
+north	nominative-accusative	miazănoapte	miazănoaptea
+north	genitive-dative	miazănopți	miazănopții
+north	vocative	miazănoapte, miazănoapteo	miazănoapte, miazănoapteo
+north	singular only	indefinite	definite
+north	nominative-accusative	septentrion	septentrionul
+north	genitive-dative	septentrion	septentrionului
+north	vocative	septentrionule	septentrionule
+south	singular only	indefinite	definite
+south	nominative-accusative	sud	sudul
+south	genitive-dative	sud	sudului
+south	vocative	sudule	sudule
+south	singular only	indefinite	definite
+south	nominative-accusative	miazăzi	miazăziua
+south	genitive-dative	miazăzile	miazăzilei
+south	vocative	miazăziuo	miazăziuo
+east	singular only	indefinite	definite
+east	nominative-accusative	est	estul
+east	genitive-dative	est	estului
+east	vocative	estule	estule
+east	singular only	indefinite	definite
+east	nominative-accusative	orient	orientul
+east	genitive-dative	orient	orientului
+east	vocative	orientule	orientule
+east		singular	singular	plural	plural
+east		indefinite	definite	indefinite	definite
+east	nominative-accusative	răsărit	răsăritul	răsărituri	răsăriturile
+east	genitive-dative	răsărit	răsăritului	răsărituri	răsăriturilor
+east	vocative	răsăritule	răsăritule	răsăriturilor	răsăriturilor
+west	singular only	indefinite	definite
+west	nominative-accusative	vest	vestul
+west	genitive-dative	vest	vestului
+west	vocative	vestule	vestule
+west		singular	singular	plural	plural
+west		indefinite	definite	indefinite	definite
+west	nominative-accusative	apus	apusul	apusuri	apusurile
+west	genitive-dative	apus	apusului	apusuri	apusurilor
+west	vocative	apusule	apusule	apusurilor	apusurilor
+west	singular only	indefinite	definite
+west	nominative-accusative	occident	occidentul
+west	genitive-dative	occident	occidentului
+west	vocative	occidentule	occidentule

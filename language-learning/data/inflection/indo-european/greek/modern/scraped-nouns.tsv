@@ -1,198 +1,965 @@
-animal	case     \     number	singular	plural	
-animal	nominative	ζώο •	ζώα •	
-animal	genitive	ζώου •	ζώων •	
-animal	accusative	ζώο •	ζώα •	
-animal	vocative	ζώο •	ζώα •	
-animal	vernacular nominative, accusative and vocative plural: ζα	vernacular nominative, accusative and vocative plural: ζα	vernacular nominative, accusative and vocative plural: ζα	vernacular nominative, accusative and vocative plural: ζα
-attention	case     \     number	singular
-attention	nominative	προσοχή •
-attention	genitive	προσοχής •
-attention	accusative	προσοχή •
-attention	vocative	προσοχή •
-bird	case     \     number	singular	plural
-bird	nominative	πτηνό •	πτηνά •
-bird	genitive	πτηνού •	πτηνών •
-bird	accusative	πτηνό •	πτηνά •
-bird	vocative	πτηνό •	πτηνά •
-boat	case     \     number	singular	plural
-boat	nominative	βάρκα •	βάρκες •
-boat	genitive	βάρκας •	—
-boat	accusative	βάρκα •	βάρκες •
-boat	vocative	βάρκα •	βάρκες •
-book	case     \     number	singular	plural
-book	nominative	βιβλίο •	βιβλία •
-book	genitive	βιβλίου •	βιβλίων •
-book	accusative	βιβλίο •	βιβλία •
-book	vocative	βιβλίο •	βιβλία •
-brother	case     \     number	singular	plural
-brother	nominative	αδελφός •	αδελφοί •
-brother	genitive	αδελφού •	αδελφών •
-brother	accusative	αδελφό •	αδελφούς •
-brother	vocative	αδελφέ •	αδελφοί •
-bug	case     \     number	singular	plural
-bug	nominative	ζουζούνι •	ζουζούνια •
-bug	genitive	ζουζουνιού •	ζουζουνιών •
-bug	accusative	ζουζούνι •	ζουζούνια •
-bug	vocative	ζουζούνι •	ζουζούνια •
-clothing	case     \     number	singular	plural
-clothing	nominative	ρούχο •	ρούχα •
-clothing	genitive	ρούχου •	ρούχων •
-clothing	accusative	ρούχο •	ρούχα •
-clothing	vocative	ρούχο •	ρούχα •
-daughter	case     \     number	singular	plural
-daughter	nominative	κόρη •	κόρες •
-daughter	genitive	κόρης •	κορών •
-daughter	accusative	κόρη •	κόρες •
-daughter	vocative	κόρη •	κόρες •
-dog	case     \     number	singular	plural
-dog	nominative	σκύλος •	σκύλοι •
-dog	genitive	σκύλου •	σκύλων •
-dog	accusative	σκύλο •	σκύλους •
-dog	vocative	σκύλε •	σκύλοι •
-door	case     \     number	singular	plural
-door	nominative	πόρτα •	πόρτες •
-door	genitive	πόρτας •	πορτών •
-door	accusative	πόρτα •	πόρτες •
-door	vocative	πόρτα •	πόρτες •
-drum	case     \     number	singular	plural
-drum	nominative	τύμπανο •	τύμπανα •
-drum	genitive	τυμπάνου •,  τύμπανου •	τυμπάνων •,  τύμπανων •
-drum	accusative	τύμπανο •	τύμπανα •
-drum	vocative	τύμπανο •	τύμπανα •
-enemy	case     \     number	singular	plural
-enemy	nominative	εχθρός •	εχθροί •
-enemy	genitive	εχθρού •	εχθρών •
-enemy	accusative	εχθρό •	εχθρούς •
-enemy	vocative	εχθρέ •	εχθροί •
-fire	case     \     number	singular	plural
-fire	nominative	φωτιά •	φωτιές •
-fire	genitive	φωτιάς •	φωτιών •
-fire	accusative	φωτιά •	φωτιές •
-fire	vocative	φωτιά •	φωτιές •
-food	case     \     number		singular		plural			
-food	nominative		φαΐ •		φαγιά •			
-food	genitive		φαγιού •		φαγιών •			
-food	accusative		φαΐ •		φαγιά •			
-food	vocative		φαΐ •		φαγιά •			
-food	• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó	• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó	• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó	• all inflectional forms especially genitives are rare and informal. Instead, φαγητού, φαγητά and φαγητών can be used, from synonym φαγητό ().	fagitó
-gift	case     \     number	singular	plural
-gift	nominative	δώρο •	δώρα •
-gift	genitive	δώρου •	δώρων •
-gift	accusative	δώρο •	δώρα •
-gift	vocative	δώρο •	δώρα •
-glass	case     \     number	singular	plural
-glass	nominative	γυαλί •	γυαλιά •
-glass	genitive	γυαλιού •	γυαλιών •
-glass	accusative	γυαλί •	γυαλιά •
-glass	vocative	γυαλί •	γυαλιά •
-guard	case     \     number	singular	plural
-guard	nominative	φύλακας •	φύλακες •
-guard	genitive	φύλακα •	φυλάκων •
-guard	accusative	φύλακα •	φύλακες •
-guard	vocative	φύλακα •	φύλακες •
-horse	case     \     number	singular	plural
-horse	nominative	ίππος •	ίπποι •
-horse	genitive	ίππου •	ίππων •
-horse	accusative	ίππο •	ίππους •
-horse	vocative	ίππε •	ίπποι •
-house	case     \     number	singular	plural
-house	nominative	σπίτι •	σπίτια •
-house	genitive	σπιτιού •	σπιτιών •
-house	accusative	σπίτι •	σπίτια •
-house	vocative	σπίτι •	σπίτια •
-livestock	case     \     number	plural
-livestock	nominative	βοοειδή •
-livestock	genitive	βοοειδών •
-livestock	accusative	βοοειδή •
-livestock	vocative	βοοειδή •
-love	case     \     number	singular	plural
-love	nominative	αγάπη •	αγάπες •
-love	genitive	αγάπης •	αγαπών •
-love	accusative	αγάπη •	αγάπες •
-love	vocative	αγάπη •	αγάπες •
-idea	case     \     number	singular	plural
-idea	nominative	ιδέα •	ιδέες •
-idea	genitive	ιδέας •	ιδεών •
-idea	accusative	ιδέα •	ιδέες •
-idea	vocative	ιδέα •	ιδέες •
-man	case     \     number	singular	plural
-man	nominative	άνδρας •	άνδρες •
-man	genitive	άνδρα •	ανδρών •
-man	accusative	άνδρα •	άνδρες •
-man	vocative	άνδρα •	άνδρες •
-money	case     \     number	plural	
-money	nominative	λεφτά •	
-money	genitive	λεφτών •	
-money	accusative	λεφτά •	
-money	vocative	λεφτά •	
-money	Genitive is rare.	Genitive is rare.	Genitive is rare.
-monster	case     \     number	singular	plural
-monster	nominative	τέρας •	τέρατα •
-monster	genitive	τέρατος •	τεράτων •
-monster	accusative	τέρας •	τέρατα •
-monster	vocative	τέρας •	τέρατα •
-name	case     \     number	singular	plural
-name	nominative	όνομα •	ονόματα •
-name	genitive	ονόματος •	ονομάτων •
-name	accusative	όνομα •	ονόματα •
-name	vocative	όνομα •	ονόματα •
-rock	case     \     number	singular	plural
-rock	nominative	πέτρα •	πέτρες •
-rock	genitive	πέτρας •	πετρών •
-rock	accusative	πέτρα •	πέτρες •
-rock	vocative	πέτρα •	πέτρες •
-rope	case     \     number	singular	plural
-rope	nominative	σχοινί •	σχοινιά •
-rope	genitive	σχοινιού •	σχοινιών •
-rope	accusative	σχοινί •	σχοινιά •
-rope	vocative	σχοινί •	σχοινιά •
-size	case     \     number	singular	plural
-size	nominative	μέγεθος •	μεγέθη •
-size	genitive	μεγέθους •	μεγεθών •
-size	accusative	μέγεθος •	μεγέθη •
-size	vocative	μέγεθος •	μεγέθη •
-son	case     \     number	singular	plural
-son	nominative	γιος •	γιοι •
-son	genitive	γιου •	γιων •
-son	accusative	γιο •	γιους •
-son	vocative	γιε •	γιοι •
-sound	case     \     number	singular	plural
-sound	nominative	ήχος •	ήχοι •
-sound	genitive	ήχου •	ήχων •
-sound	accusative	ήχο •	ήχους •
-sound	vocative	ήχε •	ήχοι •
-warmth	case     \     number	singular
-warmth	nominative	θερμότητα •
-warmth	genitive	θερμότητας •
-warmth	accusative	θερμότητα •
-warmth	vocative	θερμότητα •
-water	case     \     number	singular	plural
-water	nominative	νερό •	νερά •
-water	genitive	νερού •	νερών •
-water	accusative	νερό •	νερά •
-water	vocative	νερό •	νερά •
-way	case     \     number	singular	plural
-way	nominative	δρόμος •	δρόμοι •
-way	genitive	δρόμου •	δρόμων •
-way	accusative	δρόμο •	δρόμους •
-way	vocative	δρόμε •	δρόμοι •
-wind	case     \     number	singular	plural
-wind	nominative	άνεμος •	άνεμοι •
-wind	genitive	ανέμου •	ανέμων •
-wind	accusative	άνεμο •	ανέμους •
-wind	vocative	άνεμε •	άνεμοι •
-window	case     \     number	singular	plural
-window	nominative	παράθυρο •	παράθυρα •
-window	genitive	παραθύρου •,  παράθυρου •	παραθύρων •
-window	accusative	παράθυρο •	παράθυρα •
-window	vocative	παράθυρο •	παράθυρα •
-woman	case     \     number	singular	plural
-woman	nominative	γυναίκα •	γυναίκες •
-woman	genitive	γυναίκας •	γυναικών •
-woman	accusative	γυναίκα •	γυναίκες •
-woman	vocative	γυναίκα •	γυναίκες •
-work	case     \     number	singular	plural
-work	nominative	εργασία •	εργασίες •
-work	genitive	εργασίας •	εργασιών •
-work	accusative	εργασία •	εργασίες •
-work	vocative	εργασία •	εργασίες •
+attention			singular	
+attention	nominative		προσοχή ()	prosochí
+attention	genitive		προσοχής ()	prosochís
+attention	accusative		προσοχή ()	prosochí
+attention	vocative		προσοχή ()	prosochí
+thought			singular		plural	
+thought	nominative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+thought	genitive		σκέψης ()	sképsis	σκέψεων ()	sképseon
+thought	accusative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+thought	vocative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+thought			singular		plural	
+thought	nominative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+thought	genitive		σκέψης ()	sképsis	σκέψεων ()	sképseon
+thought	accusative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+thought	vocative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+thought			singular		plural	
+thought	nominative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+thought	genitive		σκέψης ()	sképsis	σκέψεων ()	sképseon
+thought	accusative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+thought	vocative		σκέψη ()	sképsi	σκέψεις ()	sképseis
+ball			singular		plural	
+ball	nominative		σφαίρα ()	sfaíra	σφαίρες ()	sfaíres
+ball	genitive		σφαίρας ()	sfaíras	σφαιρών ()	sfairón
+ball	accusative		σφαίρα ()	sfaíra	σφαίρες ()	sfaíres
+ball	vocative		σφαίρα ()	sfaíra	σφαίρες ()	sfaíres
+ball			singular		plural	
+ball	nominative		μπάλα ()	bála	μπάλες ()	báles
+ball	genitive		μπάλας ()	bálas	—	
+ball	accusative		μπάλα ()	bála	μπάλες ()	báles
+ball	vocative		μπάλα ()	bála	μπάλες ()	báles
+ball			singular		plural	
+ball	nominative		τόπι ()	tópi	τόπια ()	tópia
+ball	genitive		τοπιού ()	topioú	τοπιών ()	topión
+ball	accusative		τόπι ()	tópi	τόπια ()	tópia
+ball	vocative		τόπι ()	tópi	τόπια ()	tópia
+bird			singular		plural	
+bird	nominative		πουλί ()	poulí	πουλιά ()	pouliá
+bird	genitive		πουλιού ()	poulioú	πουλιών ()	poulión
+bird	accusative		πουλί ()	poulí	πουλιά ()	pouliá
+bird	vocative		πουλί ()	poulí	πουλιά ()	pouliá
+bird			singular		plural	
+bird	nominative		πτηνό ()	ptinó	πτηνά ()	ptiná
+bird	genitive		πτηνού ()	ptinoú	πτηνών ()	ptinón
+bird	accusative		πτηνό ()	ptinó	πτηνά ()	ptiná
+bird	vocative		πτηνό ()	ptinó	πτηνά ()	ptiná
+bridge			singular		plural	
+bridge	nominative		γέφυρα ()	géfyra	γέφυρες ()	géfyres
+bridge	genitive		γέφυρας ()	géfyras	γεφυρών ()	gefyrón
+bridge	accusative		γέφυρα ()	géfyra	γέφυρες ()	géfyres
+bridge	vocative		γέφυρα ()	géfyra	γέφυρες ()	géfyres
+sparrow			singular		plural	
+sparrow	nominative		σπουργίτι ()	spourgíti	σπουργίτια ()	spourgítia
+sparrow	genitive		σπουργιτιού ()	spourgitioú	σπουργιτιών ()	spourgitión
+sparrow	accusative		σπουργίτι ()	spourgíti	σπουργίτια ()	spourgítia
+sparrow	vocative		σπουργίτι ()	spourgíti	σπουργίτια ()	spourgítia
+sparrow			singular		plural	
+sparrow	nominative		σπουργίτης ()	spourgítis	σπουργίτες ()	spourgítes
+sparrow	genitive		σπουργίτη ()	spourgíti	σπουργιτών ()	spourgitón
+sparrow	accusative		σπουργίτη ()	spourgíti	σπουργίτες ()	spourgítes
+sparrow	vocative		σπουργίτη ()	spourgíti	σπουργίτες ()	spourgítes
+swallow			singular		plural	
+swallow	nominative		χελιδόνι ()	chelidóni	χελιδόνια ()	chelidónia
+swallow	genitive		χελιδονιού ()	chelidonioú	χελιδονιών ()	chelidonión
+swallow	accusative		χελιδόνι ()	chelidóni	χελιδόνια ()	chelidónia
+swallow	vocative		χελιδόνι ()	chelidóni	χελιδόνια ()	chelidónia
+finch			singular		plural	
+finch	nominative		σπίνος ()	spínos	σπίνοι ()	spínoi
+finch	genitive		σπίνου ()	spínou	σπίνων ()	spínon
+finch	accusative		σπίνο ()	spíno	σπίνους ()	spínous
+finch	vocative		σπίνε ()	spíne	σπίνοι ()	spínoi
+eagle			singular		plural	
+eagle	nominative		αετός ()	aetós	αετοί ()	aetoí
+eagle	genitive		αετού ()	aetoú	αετών ()	aetón
+eagle	accusative		αετό ()	aetó	αετούς ()	aetoús
+eagle	vocative		αετέ ()	aeté	αετοί ()	aetoí
+swan			singular		plural	
+swan	nominative		κύκνος ()	kýknos	κύκνοι ()	kýknoi
+swan	genitive		κύκνου ()	kýknou	κύκνων ()	kýknon
+swan	accusative		κύκνο ()	kýkno	κύκνους ()	kýknous
+swan	vocative		κύκνε ()	kýkne	κύκνοι ()	kýknoi
+goose			singular		plural	
+goose	nominative		κοτόπουλο ()	kotópoulo	κοτόπουλα ()	kotópoula
+goose	genitive		κοτόπουλου ()	kotópoulou	κοτόπουλων ()	kotópoulon
+goose	accusative		κοτόπουλο ()	kotópoulo	κοτόπουλα ()	kotópoula
+goose	vocative		κοτόπουλο ()	kotópoulo	κοτόπουλα ()	kotópoula
+goose			singular		plural	
+goose	nominative		κότα ()	kóta	κότες ()	kótes
+goose	genitive		κότας ()	kótas	—	
+goose	accusative		κότα ()	kóta	κότες ()	kótes
+goose	vocative		κότα ()	kóta	κότες ()	kótes
+chicken			singular		plural	
+chicken	nominative		κοτόπουλο ()	kotópoulo	κοτόπουλα ()	kotópoula
+chicken	genitive		κοτόπουλου ()	kotópoulou	κοτόπουλων ()	kotópoulon
+chicken	accusative		κοτόπουλο ()	kotópoulo	κοτόπουλα ()	kotópoula
+chicken	vocative		κοτόπουλο ()	kotópoulo	κοτόπουλα ()	kotópoula
+chicken			singular		plural	
+chicken	nominative		κότα ()	kóta	κότες ()	kótes
+chicken	genitive		κότας ()	kótas	—	
+chicken	accusative		κότα ()	kóta	κότες ()	kótes
+chicken	vocative		κότα ()	kóta	κότες ()	kótes
+dove			singular		plural	
+dove	nominative		περιστέρι ()	peristéri	περιστέρια ()	peristéria
+dove	genitive		περιστεριού ()	peristerioú	περιστεριών ()	peristerión
+dove	accusative		περιστέρι ()	peristéri	περιστέρια ()	peristéria
+dove	vocative		περιστέρι ()	peristéri	περιστέρια ()	peristéria
+dove			singular		plural	
+dove	nominative		περιστέρα ()	peristéra	περιστέρες ()	peristéres
+dove	genitive		περιστέρας ()	peristéras	περιστερών ()	peristerón
+dove	accusative		περιστέρα ()	peristéra	περιστέρες ()	peristéres
+dove	vocative		περιστέρα ()	peristéra	περιστέρες ()	peristéres
+pigeon			singular		plural	
+pigeon	nominative		περιστέρι ()	peristéri	περιστέρια ()	peristéria
+pigeon	genitive		περιστεριού ()	peristerioú	περιστεριών ()	peristerión
+pigeon	accusative		περιστέρι ()	peristéri	περιστέρια ()	peristéria
+pigeon	vocative		περιστέρι ()	peristéri	περιστέρια ()	peristéria
+crow			singular		plural	
+crow	nominative		κουρούνα ()	kouroúna	κουρούνες ()	kouroúnes
+crow	genitive		κουρούνας ()	kouroúnas	—	
+crow	accusative		κουρούνα ()	kouroúna	κουρούνες ()	kouroúnes
+crow	vocative		κουρούνα ()	kouroúna	κουρούνες ()	kouroúnes
+chick			singular		plural	
+chick	nominative		πουλάκι ()	pouláki	πουλάκια ()	poulákia
+chick	genitive		—		—	
+chick	accusative		πουλάκι ()	pouláki	πουλάκια ()	poulákia
+chick	vocative		πουλάκι ()	pouláki	πουλάκια ()	poulákia
+child			singular		plural	
+child	nominative		παιδί ()	paidí	παιδιά ()	paidiá
+child	genitive		παιδιού ()	paidioú	παιδιών ()	paidión
+child	accusative		παιδί ()	paidí	παιδιά ()	paidiá
+child	vocative		παιδί ()	paidí	παιδιά ()	paidiá
+child			singular		plural	
+child	nominative		τέκνο ()	tékno	τέκνα ()	tékna
+child	genitive		τέκνου ()	téknou	τέκνων ()	téknon
+child	accusative		τέκνο ()	tékno	τέκνα ()	tékna
+child	vocative		τέκνο ()	tékno	τέκνα ()	tékna
+child			singular		plural	
+child	nominative		παιδί ()	paidí	παιδιά ()	paidiá
+child	genitive		παιδιού ()	paidioú	παιδιών ()	paidión
+child	accusative		παιδί ()	paidí	παιδιά ()	paidiá
+child	vocative		παιδί ()	paidí	παιδιά ()	paidiá
+child			singular		plural	
+child	nominative		ανήλικος ()	anílikos	ανήλικοι ()	anílikoi
+child	genitive		ανηλίκου ()	anilíkou	ανηλίκων ()	anilíkon
+child	accusative		ανήλικο ()	aníliko	ανηλίκους ()	anilíkous
+child	vocative		ανήλικε ()	anílike	ανήλικοι ()	anílikoi
+egg			singular		plural	
+egg	nominative		αβγό ()	avgó	αβγά ()	avgá
+egg	genitive		αβγού ()	avgoú	αβγών ()	avgón
+egg	accusative		αβγό ()	avgó	αβγά ()	avgá
+egg	vocative		αβγό ()	avgó	αβγά ()	avgá
+nest			singular		plural	
+nest	nominative		φωλιά ()	foliá	φωλιές ()	foliés
+nest	genitive		φωλιάς ()	foliás	φωλιών ()	folión
+nest	accusative		φωλιά ()	foliá	φωλιές ()	foliés
+nest	vocative		φωλιά ()	foliá	φωλιές ()	foliés
+nest			singular		plural	
+nest	nominative		φωλιά ()	foliá	φωλιές ()	foliés
+nest	genitive		φωλιάς ()	foliás	φωλιών ()	folión
+nest	accusative		φωλιά ()	foliá	φωλιές ()	foliés
+nest	vocative		φωλιά ()	foliá	φωλιές ()	foliés
+tree			singular		plural	
+tree	nominative		δέντρο ()	déntro	δέντρα ()	déntra
+tree	genitive		δέντρου ()	déntrou	δέντρων ()	déntron
+tree	accusative		δέντρο ()	déntro	δέντρα ()	déntra
+tree	vocative		δέντρο ()	déntro	δέντρα ()	déntra
+boat			singular		plural	
+boat	nominative		βάρκα ()	várka	βάρκες ()	várkes
+boat	genitive		βάρκας ()	várkas	—	
+boat	accusative		βάρκα ()	várka	βάρκες ()	várkes
+boat	vocative		βάρκα ()	várka	βάρκες ()	várkes
+boat				singular			plural		
+boat	nominative			λέμβος ()	lémvos		λέμβοι ()	lémvoi	
+boat	genitive			λέμβου ()	lémvou		λέμβων ()	lémvon	
+boat	accusative			λέμβο ()	lémvo		λέμβους ()	lémvous	
+boat	vocative			λέμβε ()λέμβο ()	lémve	lémvo	λέμβοι ()	lémvoi	
+boat			singular		plural	
+boat	nominative		καΐκι ()	kaḯki	καΐκια ()	kaḯkia
+boat	genitive		καϊκιού ()	kaïkioú	καϊκιών ()	kaïkión
+boat	accusative		καΐκι ()	kaḯki	καΐκια ()	kaḯkia
+boat	vocative		καΐκι ()	kaḯki	καΐκια ()	kaḯkia
+book			singular		plural	
+book	nominative		βιβλίο ()	vivlío	βιβλία ()	vivlía
+book	genitive		βιβλίου ()	vivlíou	βιβλίων ()	vivlíon
+book	accusative		βιβλίο ()	vivlío	βιβλία ()	vivlía
+book	vocative		βιβλίο ()	vivlío	βιβλία ()	vivlía
+bug			singular		plural	
+bug	nominative		κοριός ()	koriós	κοριοί ()	korioí
+bug	genitive		κοριού ()	korioú	κοριών ()	korión
+bug	accusative		κοριό ()	korió	κοριούς ()	korioús
+bug	vocative		κοριέ ()	korié	κοριοί ()	korioí
+bug				singular			plural		
+bug	nominative			ζωύφιο ()	zoýfio		ζωύφια ()	zoýfia	
+bug	genitive			ζωυφίου ()ζωύφιου ()	zoyfíou	zoýfiou	ζωυφίων ()ζωύφιων ()	zoyfíon	zoýfion
+bug	accusative			ζωύφιο ()	zoýfio		ζωύφια ()	zoýfia	
+bug	vocative			ζωύφιο ()	zoýfio		ζωύφια ()	zoýfia	
+bug			singular		plural	
+bug	nominative		ζουζούνι ()	zouzoúni	ζουζούνια ()	zouzoúnia
+bug	genitive		ζουζουνιού ()	zouzounioú	ζουζουνιών ()	zouzounión
+bug	accusative		ζουζούνι ()	zouzoúni	ζουζούνια ()	zouzoúnia
+bug	vocative		ζουζούνι ()	zouzoúni	ζουζούνια ()	zouzoúnia
+insect				singular			plural		
+insect	nominative			έντομο ()	éntomo		έντομα ()	éntoma	
+insect	genitive			εντόμου ()έντομου ()	entómou	éntomou	εντόμων ()	entómon	
+insect	accusative			έντομο ()	éntomo		έντομα ()	éntoma	
+insect	vocative			έντομο ()	éntomo		έντομα ()	éntoma	
+beetle			singular		plural	
+beetle	nominative		σκαθάρι ()	skathári	σκαθάρια ()	skathária
+beetle	genitive		σκαθαριού ()	skatharioú	σκαθαριών ()	skatharión
+beetle	accusative		σκαθάρι ()	skathári	σκαθάρια ()	skathária
+beetle	vocative		σκαθάρι ()	skathári	σκαθάρια ()	skathária
+louse			singular		plural	
+louse	nominative		ψείρα ()	pseíra	ψείρες ()	pseíres
+louse	genitive		ψείρας ()	pseíras	ψειρών ()	pseirón
+louse	accusative		ψείρα ()	pseíra	ψείρες ()	pseíres
+louse	vocative		ψείρα ()	pseíra	ψείρες ()	pseíres
+clothing			singular		plural	
+clothing	nominative		ρούχο ()	roúcho	ρούχα ()	roúcha
+clothing	genitive		ρούχου ()	roúchou	ρούχων ()	roúchon
+clothing	accusative		ρούχο ()	roúcho	ρούχα ()	roúcha
+clothing	vocative		ρούχο ()	roúcho	ρούχα ()	roúcha
+garment			singular		plural	
+garment	nominative		ρούχο ()	roúcho	ρούχα ()	roúcha
+garment	genitive		ρούχου ()	roúchou	ρούχων ()	roúchon
+garment	accusative		ρούχο ()	roúcho	ρούχα ()	roúcha
+garment	vocative		ρούχο ()	roúcho	ρούχα ()	roúcha
+dog			singular		plural	
+dog	nominative		σκύλος ()	skýlos	σκύλοι ()	skýloi
+dog	genitive		σκύλου ()	skýlou	σκύλων ()	skýlon
+dog	accusative		σκύλο ()	skýlo	σκύλους ()	skýlous
+dog	vocative		σκύλε ()	skýle	σκύλοι ()	skýloi
+dog			singular		plural	
+dog	nominative		σκυλί ()	skylí	σκυλιά ()	skyliá
+dog	genitive		σκυλιού ()	skylioú	σκυλιών ()	skylión
+dog	accusative		σκυλί ()	skylí	σκυλιά ()	skyliá
+dog	vocative		σκυλί ()	skylí	σκυλιά ()	skyliá
+dog			singular		plural	
+dog	nominative		σκύλος ()	skýlos	σκύλοι ()	skýloi
+dog	genitive		σκύλου ()	skýlou	σκύλων ()	skýlon
+dog	accusative		σκύλο ()	skýlo	σκύλους ()	skýlous
+dog	vocative		σκύλε ()	skýle	σκύλοι ()	skýloi
+door			singular		plural	
+door	nominative		πόρτα ()	pórta	πόρτες ()	pórtes
+door	genitive		πόρτας ()	pórtas	πορτών ()	portón
+door	accusative		πόρτα ()	pórta	πόρτες ()	pórtes
+door	vocative		πόρτα ()	pórta	πόρτες ()	pórtes
+door			singular		plural	
+door	nominative		θύρα ()	thýra	θύρες ()	thýres
+door	genitive		θύρας ()	thýras	θυρών ()	thyrón
+door	accusative		θύρα ()	thýra	θύρες ()	thýres
+door	vocative		θύρα ()	thýra	θύρες ()	thýres
+drum				singular			plural		
+drum	nominative			τύμπανο ()	týmpano		τύμπανα ()	týmpana	
+drum	genitive			τυμπάνου ()τύμπανου ()	tympánou	týmpanou	τυμπάνων ()τύμπανων ()	tympánon	týmpanon
+drum	accusative			τύμπανο ()	týmpano		τύμπανα ()	týmpana	
+drum	vocative			τύμπανο ()	týmpano		τύμπανα ()	týmpana	
+enemy			singular		plural	
+enemy	nominative		εχθρός ()	echthrós	εχθροί ()	echthroí
+enemy	genitive		εχθρού ()	echthroú	εχθρών ()	echthrón
+enemy	accusative		εχθρό ()	echthró	εχθρούς ()	echthroús
+enemy	vocative		εχθρέ ()	echthré	εχθροί ()	echthroí
+fish			singular		plural	
+fish	nominative		ψάρι ()	psári	ψάρια ()	psária
+fish	genitive		ψαριού ()	psarioú	ψαριών ()	psarión
+fish	accusative		ψάρι ()	psári	ψάρια ()	psária
+fish	vocative		ψάρι ()	psári	ψάρια ()	psária
+fire			singular		plural	
+fire	nominative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire	genitive		φωτιάς ()	fotiás	φωτιών ()	fotión
+fire	accusative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire	vocative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire			singular		plural	
+fire	nominative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire	genitive		φωτιάς ()	fotiás	φωτιών ()	fotión
+fire	accusative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire	vocative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire			singular		plural	
+fire	nominative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire	genitive		φωτιάς ()	fotiás	φωτιών ()	fotión
+fire	accusative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire	vocative		φωτιά ()	fotiá	φωτιές ()	fotiés
+fire			singular		plural	
+fire	nominative		πυρκαγιά ()	pyrkagiá	πυρκαγιές ()	pyrkagiés
+fire	genitive		πυρκαγιάς ()	pyrkagiás	πυρκαγιών ()	pyrkagión
+fire	accusative		πυρκαγιά ()	pyrkagiá	πυρκαγιές ()	pyrkagiés
+fire	vocative		πυρκαγιά ()	pyrkagiá	πυρκαγιές ()	pyrkagiés
+food			singular		plural	
+food	nominative		τροφή ()	trofí	τροφές ()	trofés
+food	genitive		τροφής ()	trofís	τροφών ()	trofón
+food	accusative		τροφή ()	trofí	τροφές ()	trofés
+food	vocative		τροφή ()	trofí	τροφές ()	trofés
+food			singular		plural	
+food	nominative		φαγητό ()	fagitó	φαγητά ()	fagitá
+food	genitive		φαγητού ()	fagitoú	φαγητών ()	fagitón
+food	accusative		φαγητό ()	fagitó	φαγητά ()	fagitá
+food	vocative		φαγητό ()	fagitó	φαγητά ()	fagitá
+food			singular		plural	
+food	nominative		φαΐ ()	faḯ	φαγιά ()	fagiá
+food	genitive		φαγιού ()	fagioú	φαγιών ()	fagión
+food	accusative		φαΐ ()	faḯ	φαγιά ()	fagiá
+food	vocative		φαΐ ()	faḯ	φαγιά ()	fagiá
+food			singular		plural	
+food	nominative		τροφή ()	trofí	τροφές ()	trofés
+food	genitive		τροφής ()	trofís	τροφών ()	trofón
+food	accusative		τροφή ()	trofí	τροφές ()	trofés
+food	vocative		τροφή ()	trofí	τροφές ()	trofés
+forest			singular		plural	
+forest	nominative		δάσος ()	dásos	δάση ()	dási
+forest	genitive		δάσους ()	dásous	δασών ()	dasón
+forest	accusative		δάσος ()	dásos	δάση ()	dási
+forest	vocative		δάσος ()	dásos	δάση ()	dási
+forest			singular		plural	
+forest	nominative		δρυμός ()	drymós	δρυμοί ()	drymoí
+forest	genitive		δρυμού ()	drymoú	δρυμών ()	drymón
+forest	accusative		δρυμό ()	drymó	δρυμούς ()	drymoús
+forest	vocative		δρυμέ ()	drymé	δρυμοί ()	drymoí
+gate			singular		plural	
+gate	nominative		πόρτα ()	pórta	πόρτες ()	pórtes
+gate	genitive		πόρτας ()	pórtas	πορτών ()	portón
+gate	accusative		πόρτα ()	pórta	πόρτες ()	pórtes
+gate	vocative		πόρτα ()	pórta	πόρτες ()	pórtes
+gate			singular		plural	
+gate	nominative		εξώπορτα ()	exóporta	εξώπορτες ()	exóportes
+gate	genitive		εξώπορτας ()	exóportas	εξωπορτών ()	exoportón
+gate	accusative		εξώπορτα ()	exóporta	εξώπορτες ()	exóportes
+gate	vocative		εξώπορτα ()	exóporta	εξώπορτες ()	exóportes
+gate			singular		plural	
+gate	nominative		αυλόπορτα ()	avlóporta	αυλόπορτες ()	avlóportes
+gate	genitive		αυλόπορτας ()	avlóportas	αυλοπορτών ()	avloportón
+gate	accusative		αυλόπορτα ()	avlóporta	αυλόπορτες ()	avlóportes
+gate	vocative		αυλόπορτα ()	avlóporta	αυλόπορτες ()	avlóportes
+gate			singular		plural	
+gate	nominative		πύλη ()	pýli	πύλες ()	pýles
+gate	genitive		πύλης ()	pýlis	πυλών ()	pylón
+gate	accusative		πύλη ()	pýli	πύλες ()	pýles
+gate	vocative		πύλη ()	pýli	πύλες ()	pýles
+gate			singular		plural	
+gate	nominative		θύρα ()	thýra	θύρες ()	thýres
+gate	genitive		θύρας ()	thýras	θυρών ()	thyrón
+gate	accusative		θύρα ()	thýra	θύρες ()	thýres
+gate	vocative		θύρα ()	thýra	θύρες ()	thýres
+gift			singular		plural	
+gift	nominative		δώρο ()	dóro	δώρα ()	dóra
+gift	genitive		δώρου ()	dórou	δώρων ()	dóron
+gift	accusative		δώρο ()	dóro	δώρα ()	dóra
+gift	vocative		δώρο ()	dóro	δώρα ()	dóra
+gift			singular		plural	
+gift	nominative		δωρεά ()	doreá	δωρεές ()	doreés
+gift	genitive		δωρεάς ()	doreás	δωρεών ()	doreón
+gift	accusative		δωρεά ()	doreá	δωρεές ()	doreés
+gift	vocative		δωρεά ()	doreá	δωρεές ()	doreés
+gift			singular		plural	
+gift	nominative		χάρισμα ()	chárisma	χαρίσματα ()	charísmata
+gift	genitive		χαρίσματος ()	charísmatos	χαρισμάτων ()	charismáton
+gift	accusative		χάρισμα ()	chárisma	χαρίσματα ()	charísmata
+gift	vocative		χάρισμα ()	chárisma	χαρίσματα ()	charísmata
+glass			singular		plural	
+glass	nominative		γυαλί ()	gyalí	γυαλιά ()	gyaliá
+glass	genitive		γυαλιού ()	gyalioú	γυαλιών ()	gyalión
+glass	accusative		γυαλί ()	gyalí	γυαλιά ()	gyaliá
+glass	vocative		γυαλί ()	gyalí	γυαλιά ()	gyaliá
+guard			singular		plural	
+guard	nominative		φύλακας ()	fýlakas	φύλακες ()	fýlakes
+guard	genitive		φύλακα ()	fýlaka	φυλάκων ()	fylákon
+guard	accusative		φύλακα ()	fýlaka	φύλακες ()	fýlakes
+guard	vocative		φύλακα ()	fýlaka	φύλακες ()	fýlakes
+guard			singular		plural	
+guard	nominative		φρουρός ()	frourós	φρουροί ()	frouroí
+guard	genitive		φρουρού ()	frouroú	φρουρών ()	frourón
+guard	accusative		φρουρό ()	frouró	φρουρούς ()	frouroús
+guard	vocative		φρουρέ ()	frouré	φρουροί ()	frouroí
+guard			singular		plural	
+guard	nominative		σκοπός ()	skopós	σκοποί ()	skopoí
+guard	genitive		σκοπού ()	skopoú	σκοπών ()	skopón
+guard	accusative		σκοπό ()	skopó	σκοπούς ()	skopoús
+guard	vocative		σκοπέ ()	skopé	σκοποί ()	skopoí
+hill			singular		plural	
+hill	nominative		λόφος ()	lófos	λόφοι ()	lófoi
+hill	genitive		λόφου ()	lófou	λόφων ()	lófon
+hill	accusative		λόφο ()	lófo	λόφους ()	lófous
+hill	vocative		λόφε ()	lófe	λόφοι ()	lófoi
+horse			singular		plural	
+horse	nominative		άλογο ()	álogo	άλογα ()	áloga
+horse	genitive		αλόγου ()	alógou	αλόγων ()	alógon
+horse	accusative		άλογο ()	álogo	άλογα ()	áloga
+horse	vocative		άλογο ()	álogo	άλογα ()	áloga
+horse			singular		plural	
+horse	nominative		ίππος ()	íppos	ίπποι ()	íppoi
+horse	genitive		ίππου ()	íppou	ίππων ()	íppon
+horse	accusative		ίππο ()	íppo	ίππους ()	íppous
+horse	vocative		ίππε ()	íppe	ίπποι ()	íppoi
+house			singular		plural	
+house	nominative		σπίτι ()	spíti	σπίτια ()	spítia
+house	genitive		σπιτιού ()	spitioú	σπιτιών ()	spitión
+house	accusative		σπίτι ()	spíti	σπίτια ()	spítia
+house	vocative		σπίτι ()	spíti	σπίτια ()	spítia
+house			singular		plural	
+house	nominative		σπίτι ()	spíti	σπίτια ()	spítia
+house	genitive		σπιτιού ()	spitioú	σπιτιών ()	spitión
+house	accusative		σπίτι ()	spíti	σπίτια ()	spítia
+house	vocative		σπίτι ()	spíti	σπίτια ()	spítia
+house			singular		plural	
+house	nominative		σπίτι ()	spíti	σπίτια ()	spítia
+house	genitive		σπιτιού ()	spitioú	σπιτιών ()	spitión
+house	accusative		σπίτι ()	spíti	σπίτια ()	spítia
+house	vocative		σπίτι ()	spíti	σπίτια ()	spítia
+log			singular		plural	
+log	nominative		κούτσουρο ()	koútsouro	κούτσουρα ()	koútsoura
+log	genitive		κούτσουρου ()	koútsourou	κούτσουρων ()	koútsouron
+log	accusative		κούτσουρο ()	koútsouro	κούτσουρα ()	koútsoura
+log	vocative		κούτσουρο ()	koútsouro	κούτσουρα ()	koútsoura
+love			singular		plural	
+love	nominative		αγάπη ()	agápi	αγάπες ()	agápes
+love	genitive		αγάπης ()	agápis	αγαπών ()	agapón
+love	accusative		αγάπη ()	agápi	αγάπες ()	agápes
+love	vocative		αγάπη ()	agápi	αγάπες ()	agápes
+love			singular		plural	
+love	nominative		έρωτας ()	érotas	έρωτες ()	érotes
+love	genitive		έρωτα ()	érota	ερώτων ()	eróton
+love	accusative		έρωτα ()	érota	έρωτες ()	érotes
+love	vocative		έρωτα ()	érota	έρωτες ()	érotes
+metal				singular			plural		
+metal	nominative			μέταλλο ()	métallo		μέταλλα ()	métalla	
+metal	genitive			μετάλλου ()μέταλλου ()	metállou	métallou	μετάλλων ()	metállon	
+metal	accusative			μέταλλο ()	métallo		μέταλλα ()	métalla	
+metal	vocative			μέταλλο ()	métallo		μέταλλα ()	métalla	
+money			singular		plural	
+money	nominative		χρήμα ()	chríma	χρήματα ()	chrímata
+money	genitive		χρήματος ()	chrímatos	χρημάτων ()	chrimáton
+money	accusative		χρήμα ()	chríma	χρήματα ()	chrímata
+money	vocative		χρήμα ()	chríma	χρήματα ()	chrímata
+money			plural	
+money	nominative		λεφτά ()	leftá
+money	genitive		λεφτών ()	leftón
+money	accusative		λεφτά ()	leftá
+money	vocative		λεφτά ()	leftá
+money			singular		plural	
+money	nominative		νόμισμα ()	nómisma	νομίσματα ()	nomísmata
+money	genitive		νομίσματος ()	nomísmatos	νομισμάτων ()	nomismáton
+money	accusative		νόμισμα ()	nómisma	νομίσματα ()	nomísmata
+money	vocative		νόμισμα ()	nómisma	νομίσματα ()	nomísmata
+money			plural	
+money	nominative		μετρητά ()	metritá
+money	genitive		μετρητών ()	metritón
+money	accusative		μετρητά ()	metritá
+money	vocative		μετρητά ()	metritá
+money			singular		plural	
+money	nominative		πλούτος ()	ploútos	πλούτη ()	ploúti
+money	genitive		πλούτου ()	ploútou	πλούτων ()	ploúton
+money	accusative		πλούτο ()	ploúto	πλούτη ()	ploúti
+money	vocative		πλούτε ()	ploúte	πλούτη ()	ploúti
+money			plural	
+money	nominative		λεφτά ()	leftá
+money	genitive		λεφτών ()	leftón
+money	accusative		λεφτά ()	leftá
+money	vocative		λεφτά ()	leftá
+coin			singular		plural	
+coin	nominative		κέρμα ()	kérma	κέρματα ()	kérmata
+coin	genitive		κέρματος ()	kérmatos	κερμάτων ()	kermáton
+coin	accusative		κέρμα ()	kérma	κέρματα ()	kérmata
+coin	vocative		κέρμα ()	kérma	κέρματα ()	kérmata
+coin			singular		plural	
+coin	nominative		νόμισμα ()	nómisma	νομίσματα ()	nomísmata
+coin	genitive		νομίσματος ()	nomísmatos	νομισμάτων ()	nomismáton
+coin	accusative		νόμισμα ()	nómisma	νομίσματα ()	nomísmata
+coin	vocative		νόμισμα ()	nómisma	νομίσματα ()	nomísmata
+weath			singular		plural	
+weath	nominative		πλούτος ()	ploútos	πλούτη ()	ploúti
+weath	genitive		πλούτου ()	ploútou	πλούτων ()	ploúton
+weath	accusative		πλούτο ()	ploúto	πλούτη ()	ploúti
+weath	vocative		πλούτε ()	ploúte	πλούτη ()	ploúti
+monster			singular		plural	
+monster	nominative		τέρας ()	téras	τέρατα ()	térata
+monster	genitive		τέρατος ()	tératos	τεράτων ()	teráton
+monster	accusative		τέρας ()	téras	τέρατα ()	térata
+monster	vocative		τέρας ()	téras	τέρατα ()	térata
+monster			singular		plural	
+monster	nominative		τέρας ()	téras	τέρατα ()	térata
+monster	genitive		τέρατος ()	tératos	τεράτων ()	teráton
+monster	accusative		τέρας ()	téras	τέρατα ()	térata
+monster	vocative		τέρας ()	téras	τέρατα ()	térata
+beast			singular		plural	
+beast	nominative		τέρας ()	téras	τέρατα ()	térata
+beast	genitive		τέρατος ()	tératos	τεράτων ()	teráton
+beast	accusative		τέρας ()	téras	τέρατα ()	térata
+beast	vocative		τέρας ()	téras	τέρατα ()	térata
+beast			singular		plural	
+beast	nominative		θηρίο ()	thirío	θηρία ()	thiría
+beast	genitive		θηρίου ()	thiríou	θηρίων ()	thiríon
+beast	accusative		θηρίο ()	thirío	θηρία ()	thiría
+beast	vocative		θηρίο ()	thirío	θηρία ()	thiría
+name			singular		plural	
+name	nominative		όνομα ()	ónoma	ονόματα ()	onómata
+name	genitive		ονόματος ()	onómatos	ονομάτων ()	onomáton
+name	accusative		όνομα ()	ónoma	ονόματα ()	onómata
+name	vocative		όνομα ()	ónoma	ονόματα ()	onómata
+rock			singular		plural	
+rock	nominative		πέτρα ()	pétra	πέτρες ()	pétres
+rock	genitive		πέτρας ()	pétras	πετρών ()	petrón
+rock	accusative		πέτρα ()	pétra	πέτρες ()	pétres
+rock	vocative		πέτρα ()	pétra	πέτρες ()	pétres
+stone			singular		plural	
+stone	nominative		λίθος ()	líthos	λίθοι ()	líthoi
+stone	genitive		λίθου ()	líthou	λίθων ()	líthon
+stone	accusative		λίθο ()	lítho	λίθους ()	líthous
+stone	vocative		λίθε ()	líthe	λίθοι ()	líthoi
+stone			singular		plural	
+stone	nominative		πέτρα ()	pétra	πέτρες ()	pétres
+stone	genitive		πέτρας ()	pétras	πετρών ()	petrón
+stone	accusative		πέτρα ()	pétra	πέτρες ()	pétres
+stone	vocative		πέτρα ()	pétra	πέτρες ()	pétres
+rope			singular		plural	
+rope	nominative		σχοινί ()	schoiní	σχοινιά ()	schoiniá
+rope	genitive		σχοινιού ()	schoinioú	σχοινιών ()	schoinión
+rope	accusative		σχοινί ()	schoiní	σχοινιά ()	schoiniá
+rope	vocative		σχοινί ()	schoiní	σχοινιά ()	schoiniá
+tool			singular		plural	
+tool	nominative		εργαλείο ()	ergaleío	εργαλεία ()	ergaleía
+tool	genitive		εργαλείου ()	ergaleíou	εργαλείων ()	ergaleíon
+tool	accusative		εργαλείο ()	ergaleío	εργαλεία ()	ergaleía
+tool	vocative		εργαλείο ()	ergaleío	εργαλεία ()	ergaleía
+tool				singular			plural		
+tool	nominative			όργανο ()	órgano		όργανα ()	órgana	
+tool	genitive			οργάνου ()όργανου ()	orgánou	órganou	οργάνων ()	orgánon	
+tool	accusative			όργανο ()	órgano		όργανα ()	órgana	
+tool	vocative			όργανο ()	órgano		όργανα ()	órgana	
+tool			singular		plural	
+tool	nominative		εργαλείο ()	ergaleío	εργαλεία ()	ergaleía
+tool	genitive		εργαλείου ()	ergaleíou	εργαλείων ()	ergaleíon
+tool	accusative		εργαλείο ()	ergaleío	εργαλεία ()	ergaleía
+tool	vocative		εργαλείο ()	ergaleío	εργαλεία ()	ergaleía
+treasure			singular		plural	
+treasure	nominative		θησαυρός ()	thisavrós	θησαυροί ()	thisavroí
+treasure	genitive		θησαυρού ()	thisavroú	θησαυρών ()	thisavrón
+treasure	accusative		θησαυρό ()	thisavró	θησαυρούς ()	thisavroús
+treasure	vocative		θησαυρέ ()	thisavré	θησαυροί ()	thisavroí
+heat			singular	
+heat	nominative		θερμότητα ()	thermótita
+heat	genitive		θερμότητας ()	thermótitas
+heat	accusative		θερμότητα ()	thermótita
+heat	vocative		θερμότητα ()	thermótita
+heat			singular		plural	
+heat	nominative		ζέστη ()	zésti	ζέστες ()	zéstes
+heat	genitive		ζέστης ()	zéstis	—	
+heat	accusative		ζέστη ()	zésti	ζέστες ()	zéstes
+heat	vocative		ζέστη ()	zésti	ζέστες ()	zéstes
+water			singular		plural	
+water	nominative		νερό ()	neró	νερά ()	nerá
+water	genitive		νερού ()	neroú	νερών ()	nerón
+water	accusative		νερό ()	neró	νερά ()	nerá
+water	vocative		νερό ()	neró	νερά ()	nerá
+water			singular		plural	
+water	nominative		ύδωρ ()	ýdor	ύδατα ()	ýdata
+water	genitive		ύδατος ()	ýdatos	υδάτων ()	ydáton
+water	accusative		ύδωρ ()	ýdor	ύδατα ()	ýdata
+water	vocative		ύδωρ ()	ýdor	ύδατα ()	ýdata
+way			singular		plural	
+way	nominative		δρόμος ()	drómos	δρόμοι ()	drómoi
+way	genitive		δρόμου ()	drómou	δρόμων ()	drómon
+way	accusative		δρόμο ()	drómo	δρόμους ()	drómous
+way	vocative		δρόμε ()	dróme	δρόμοι ()	drómoi
+wind			singular		plural	
+wind	nominative		άνεμος ()	ánemos	άνεμοι ()	ánemoi
+wind	genitive		ανέμου ()	anémou	ανέμων ()	anémon
+wind	accusative		άνεμο ()	ánemo	ανέμους ()	anémous
+wind	vocative		άνεμε ()	áneme	άνεμοι ()	ánemoi
+wind				singular			plural		
+wind	nominative			αέρας ()	aéras		αέρες ()αέρηδες ()	aéres	aérides
+wind	genitive			αέρα ()	aéra		αέρων ()αέρηδων ()	aéron	aéridon
+wind	accusative			αέρα ()	aéra		αέρες ()αέρηδες ()	aéres	aérides
+wind	vocative			αέρα ()	aéra		αέρες ()αέρηδες ()	aéres	aérides
+wolf			singular		plural	
+wolf	nominative		λύκος ()	lýkos	λύκοι ()	lýkoi
+wolf	genitive		λύκου ()	lýkou	λύκων ()	lýkon
+wolf	accusative		λύκο ()	lýko	λύκους ()	lýkous
+wolf	vocative		λύκε ()	lýke	λύκοι ()	lýkoi
+wood			singular	
+wood	nominative		ξυλεία ()	xyleía
+wood	genitive		ξυλείας ()	xyleías
+wood	accusative		ξυλεία ()	xyleía
+wood	vocative		ξυλεία ()	xyleía
+work			singular		plural	
+work	nominative		έργο ()	érgo	έργα ()	érga
+work	genitive		έργου ()	érgou	έργων ()	érgon
+work	accusative		έργο ()	érgo	έργα ()	érga
+work	vocative		έργο ()	érgo	έργα ()	érga
+work			singular		plural	
+work	nominative		εργασία ()	ergasía	εργασίες ()	ergasíes
+work	genitive		εργασίας ()	ergasías	εργασιών ()	ergasión
+work	accusative		εργασία ()	ergasía	εργασίες ()	ergasíes
+work	vocative		εργασία ()	ergasía	εργασίες ()	ergasíes
+work			singular		plural	
+work	nominative		δουλειά ()	douleiá	δουλειές ()	douleiés
+work	genitive		δουλειάς ()	douleiás	δουλειών ()	douleión
+work	accusative		δουλειά ()	douleiá	δουλειές ()	douleiés
+work	vocative		δουλειά ()	douleiá	δουλειές ()	douleiés
+worker			singular		plural	
+worker	nominative		εργάτης ()	ergátis	εργάτες ()	ergátes
+worker	genitive		εργάτη ()	ergáti	εργατών ()	ergatón
+worker	accusative		εργάτη ()	ergáti	εργάτες ()	ergátes
+worker	vocative		εργάτη ()	ergáti	εργάτες ()	ergátes
+worker			singular		plural	
+worker	nominative		εργάτρια ()	ergátria	εργάτριες ()	ergátries
+worker	genitive		εργάτριας ()	ergátrias	εργατριών ()	ergatrión
+worker	accusative		εργάτρια ()	ergátria	εργάτριες ()	ergátries
+worker	vocative		εργάτρια ()	ergátria	εργάτριες ()	ergátries
+worm			singular		plural	
+worm	nominative		σκουλήκι ()	skoulíki	σκουλήκια ()	skoulíkia
+worm	genitive		σκουληκιού ()	skoulikioú	σκουληκιών ()	skoulikión
+worm	accusative		σκουλήκι ()	skoulíki	σκουλήκια ()	skoulíkia
+worm	vocative		σκουλήκι ()	skoulíki	σκουλήκια ()	skoulíkia
+language			singular		plural	
+language	nominative		γλώσσα ()	glóssa	γλώσσες ()	glósses
+language	genitive		γλώσσας ()	glóssas	γλωσσών ()	glossón
+language	accusative		γλώσσα ()	glóssa	γλώσσες ()	glósses
+language	vocative		γλώσσα ()	glóssa	γλώσσες ()	glósses
+town			singular		plural	
+town	nominative		πόλη ()	póli	πόλεις ()	póleis
+town	genitive		πόλης ()	pólis	πόλεων ()	póleon
+town	accusative		πόλη ()	póli	πόλεις ()	póleis
+town	vocative		πόλη ()	póli	πόλεις ()	póleis
+river			singular		plural	
+river	nominative		ποτάμι ()	potámi	ποτάμια ()	potámia
+river	genitive		ποταμιού ()	potamioú	ποταμιών ()	potamión
+river	accusative		ποτάμι ()	potámi	ποτάμια ()	potámia
+river	vocative		ποτάμι ()	potámi	ποτάμια ()	potámia
+river			singular		plural	
+river	nominative		ποταμός ()	potamós	ποταμοί ()	potamoí
+river	genitive		ποταμού ()	potamoú	ποταμών ()	potamón
+river	accusative		ποταμό ()	potamó	ποταμούς ()	potamoús
+river	vocative		ποταμέ ()	potamé	ποταμοί ()	potamoí
+summer			singular		plural	
+summer	nominative		καλοκαίρι ()	kalokaíri	καλοκαίρια ()	kalokaíria
+summer	genitive		καλοκαιριού ()	kalokairioú	καλοκαιριών ()	kalokairión
+summer	accusative		καλοκαίρι ()	kalokaíri	καλοκαίρια ()	kalokaíria
+summer	vocative		καλοκαίρι ()	kalokaíri	καλοκαίρια ()	kalokaíria
+spring			singular		plural	
+spring	nominative		άνοιξη ()	ánoixi	ανοίξεις ()	anoíxeis
+spring	genitive		άνοιξης ()	ánoixis	ανοίξεων ()	anoíxeon
+spring	accusative		άνοιξη ()	ánoixi	ανοίξεις ()	anoíxeis
+spring	vocative		άνοιξη ()	ánoixi	ανοίξεις ()	anoíxeis
+spring			singular	
+spring	nominative		έαρ ()	éar
+spring	genitive		έαρος ()	éaros
+spring	accusative		έαρ ()	éar
+spring	vocative		έαρ ()	éar
+autumn				singular			plural		
+autumn	nominative			φθινόπωρο ()	fthinóporo		φθινόπωρα ()	fthinópora	
+autumn	genitive			φθινοπώρου ()φθινόπωρου ()	fthinopórou	fthinóporou	φθινοπώρων ()	fthinopóron	
+autumn	accusative			φθινόπωρο ()	fthinóporo		φθινόπωρα ()	fthinópora	
+autumn	vocative			φθινόπωρο ()	fthinóporo		φθινόπωρα ()	fthinópora	
+winter			singular		plural	
+winter	nominative		χειμώνας ()	cheimónas	χειμώνες ()	cheimónes
+winter	genitive		χειμώνα ()	cheimóna	χειμώνων ()	cheimónon
+winter	accusative		χειμώνα ()	cheimóna	χειμώνες ()	cheimónes
+winter	vocative		χειμώνα ()	cheimóna	χειμώνες ()	cheimónes
+year			singular		plural	
+year	nominative		χρόνος ()	chrónos	χρόνοι ()	chrónoi
+year	genitive		χρόνου ()	chrónou	χρόνων ()	chrónon
+year	accusative		χρόνο ()	chróno	χρόνους ()	chrónous
+year	vocative		χρόνε ()	chróne	χρόνοι ()	chrónoi
+year			singular		plural	
+year	nominative		χρονιά ()	chroniá	χρονιές ()	chroniés
+year	genitive		χρονιάς ()	chroniás	χρονιών ()	chronión
+year	accusative		χρονιά ()	chroniá	χρονιές ()	chroniés
+year	vocative		χρονιά ()	chroniá	χρονιές ()	chroniés
+year			singular		plural	
+year	nominative		έτος ()	étos	έτη ()	éti
+year	genitive		έτους ()	étous	ετών ()	etón
+year	accusative		έτος ()	étos	έτη ()	éti
+year	vocative		έτος ()	étos	έτη ()	éti
+year			singular		plural	
+year	nominative		χρόνος ()	chrónos	χρόνοι ()	chrónoi
+year	genitive		χρόνου ()	chrónou	χρόνων ()	chrónon
+year	accusative		χρόνο ()	chróno	χρόνους ()	chrónous
+year	vocative		χρόνε ()	chróne	χρόνοι ()	chrónoi
+year			singular		plural	
+year	nominative		έτος ()	étos	έτη ()	éti
+year	genitive		έτους ()	étous	ετών ()	etón
+year	accusative		έτος ()	étos	έτη ()	éti
+year	vocative		έτος ()	étos	έτη ()	éti
+year			singular		plural	
+year	nominative		χρόνος ()	chrónos	χρόνοι ()	chrónoi
+year	genitive		χρόνου ()	chrónou	χρόνων ()	chrónon
+year	accusative		χρόνο ()	chróno	χρόνους ()	chrónous
+year	vocative		χρόνε ()	chróne	χρόνοι ()	chrónoi
+year			singular		plural	
+year	nominative		έτος ()	étos	έτη ()	éti
+year	genitive		έτους ()	étous	ετών ()	etón
+year	accusative		έτος ()	étos	έτη ()	éti
+year	vocative		έτος ()	étos	έτη ()	éti
+day			singular		plural	
+day	nominative		ημέρα ()	iméra	ημέρες ()	iméres
+day	genitive		ημέρας ()	iméras	ημερών ()	imerón
+day	accusative		ημέρα ()	iméra	ημέρες ()	iméres
+day	vocative		ημέρα ()	iméra	ημέρες ()	iméres
+day			singular		plural	
+day	nominative		μέρα ()	méra	μέρες ()	méres
+day	genitive		μέρας ()	méras	μερών ()	merón
+day	accusative		μέρα ()	méra	μέρες ()	méres
+day	vocative		μέρα ()	méra	μέρες ()	méres
+day			singular		plural	
+day	nominative		ημέρα ()	iméra	ημέρες ()	iméres
+day	genitive		ημέρας ()	iméras	ημερών ()	imerón
+day	accusative		ημέρα ()	iméra	ημέρες ()	iméres
+day	vocative		ημέρα ()	iméra	ημέρες ()	iméres
+day			singular		plural	
+day	nominative		μέρα ()	méra	μέρες ()	méres
+day	genitive		μέρας ()	méras	μερών ()	merón
+day	accusative		μέρα ()	méra	μέρες ()	méres
+day	vocative		μέρα ()	méra	μέρες ()	méres
+day				singular			plural		
+day	nominative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+day	genitive			ημερονυχτίου ()ημερονύχτιου ()	imeronychtíou	imeronýchtiou	ημερονυχτίων ()	imeronychtíon	
+day	accusative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+day	vocative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+day			singular		plural	
+day	nominative		ημέρα ()	iméra	ημέρες ()	iméres
+day	genitive		ημέρας ()	iméras	ημερών ()	imerón
+day	accusative		ημέρα ()	iméra	ημέρες ()	iméres
+day	vocative		ημέρα ()	iméra	ημέρες ()	iméres
+day			singular		plural	
+day	nominative		μέρα ()	méra	μέρες ()	méres
+day	genitive		μέρας ()	méras	μερών ()	merón
+day	accusative		μέρα ()	méra	μέρες ()	méres
+day	vocative		μέρα ()	méra	μέρες ()	méres
+day				singular			plural		
+day	nominative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+day	genitive			ημερονυχτίου ()ημερονύχτιου ()	imeronychtíou	imeronýchtiou	ημερονυχτίων ()	imeronychtíon	
+day	accusative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+day	vocative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+day			singular		plural	
+day	nominative		ημέρα ()	iméra	ημέρες ()	iméres
+day	genitive		ημέρας ()	iméras	ημερών ()	imerón
+day	accusative		ημέρα ()	iméra	ημέρες ()	iméres
+day	vocative		ημέρα ()	iméra	ημέρες ()	iméres
+day			singular		plural	
+day	nominative		μέρα ()	méra	μέρες ()	méres
+day	genitive		μέρας ()	méras	μερών ()	merón
+day	accusative		μέρα ()	méra	μέρες ()	méres
+day	vocative		μέρα ()	méra	μέρες ()	méres
+day				singular			plural		
+day	nominative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+day	genitive			ημερονυχτίου ()ημερονύχτιου ()	imeronychtíou	imeronýchtiou	ημερονυχτίων ()	imeronychtíon	
+day	accusative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+day	vocative			ημερονύχτιο ()	imeronýchtio		ημερονύχτια ()	imeronýchtia	
+moon			singular		plural	
+moon	nominative		φεγγάρι ()	fengári	φεγγάρια ()	fengária
+moon	genitive		φεγγαριού ()	fengarioú	φεγγαριών ()	fengarión
+moon	accusative		φεγγάρι ()	fengári	φεγγάρια ()	fengária
+moon	vocative		φεγγάρι ()	fengári	φεγγάρια ()	fengária
+moon			singular		plural	
+moon	nominative		φεγγάρι ()	fengári	φεγγάρια ()	fengária
+moon	genitive		φεγγαριού ()	fengarioú	φεγγαριών ()	fengarión
+moon	accusative		φεγγάρι ()	fengári	φεγγάρια ()	fengária
+moon	vocative		φεγγάρι ()	fengári	φεγγάρια ()	fengária
+moon			singular		plural	
+moon	nominative		δορυφόρος ()	doryfóros	δορυφόροι ()	doryfóroi
+moon	genitive		δορυφόρου ()	doryfórou	δορυφόρων ()	doryfóron
+moon	accusative		δορυφόρο ()	doryfóro	δορυφόρους ()	doryfórous
+moon	vocative		δορυφόρε ()	doryfóre	δορυφόροι ()	doryfóroi
+sun				singular			plural		
+sun	nominative			ήλιος ()	ílios		ήλιοι ()	ílioi	
+sun	genitive			ήλιου ()ηλίου ()	íliou	ilíou	ήλιων ()ηλίων ()	ílion	ilíon
+sun	accusative			ήλιο ()	ílio		ήλιους ()ηλίους ()	ílious	ilíous
+sun	vocative			ήλιε ()	ílie		ήλιοι ()	ílioi	
+planet			singular		plural	
+planet	nominative		πλανήτης ()	planítis	πλανήτες ()	planítes
+planet	genitive		πλανήτη ()	planíti	πλανητών ()	planitón
+planet	accusative		πλανήτη ()	planíti	πλανήτες ()	planítes
+planet	vocative		πλανήτη ()	planíti	πλανήτες ()	planítes
+planet			singular		plural	
+planet	nominative		πλανήτης ()	planítis	πλανήτες ()	planítes
+planet	genitive		πλανήτη ()	planíti	πλανητών ()	planitón
+planet	accusative		πλανήτη ()	planíti	πλανήτες ()	planítes
+planet	vocative		πλανήτη ()	planíti	πλανήτες ()	planítes
+planet			singular		plural	
+planet	nominative		πλανήτης ()	planítis	πλανήτες ()	planítes
+planet	genitive		πλανήτη ()	planíti	πλανητών ()	planitón
+planet	accusative		πλανήτη ()	planíti	πλανήτες ()	planítes
+planet	vocative		πλανήτη ()	planíti	πλανήτες ()	planítes
+star			singular		plural	
+star	nominative		αστέρι ()	astéri	αστέρια ()	astéria
+star	genitive		αστεριού ()	asterioú	αστεριών ()	asterión
+star	accusative		αστέρι ()	astéri	αστέρια ()	astéria
+star	vocative		αστέρι ()	astéri	αστέρια ()	astéria
+star			singular		plural	
+star	nominative		αστέρας ()	astéras	αστέρες ()	astéres
+star	genitive		αστέρα ()	astéra	αστέρων ()	astéron
+star	accusative		αστέρα ()	astéra	αστέρες ()	astéres
+star	vocative		αστέρα ()	astéra	αστέρες ()	astéres
+man			singular		plural	
+man	nominative		άνδρας ()	ándras	άνδρες ()	ándres
+man	genitive		άνδρα ()	ándra	ανδρών ()	andrón
+man	accusative		άνδρα ()	ándra	άνδρες ()	ándres
+man	vocative		άνδρα ()	ándra	άνδρες ()	ándres
+woman			singular		plural	
+woman	nominative		γυναίκα ()	gynaíka	γυναίκες ()	gynaíkes
+woman	genitive		γυναίκας ()	gynaíkas	γυναικών ()	gynaikón
+woman	accusative		γυναίκα ()	gynaíka	γυναίκες ()	gynaíkes
+woman	vocative		γυναίκα ()	gynaíka	γυναίκες ()	gynaíkes
+human			singular		plural	
+human	nominative		άνθρωπος ()	ánthropos	άνθρωποι ()	ánthropoi
+human	genitive		ανθρώπου ()	anthrópou	ανθρώπων ()	anthrópon
+human	accusative		άνθρωπο ()	ánthropo	ανθρώπους ()	anthrópous
+human	vocative		άνθρωπε ()	ánthrope	άνθρωποι ()	ánthropoi
+human			singular		plural	
+human	nominative		άνθρωπος ()	ánthropos	άνθρωποι ()	ánthropoi
+human	genitive		ανθρώπου ()	anthrópou	ανθρώπων ()	anthrópon
+human	accusative		άνθρωπο ()	ánthropo	ανθρώπους ()	anthrópous
+human	vocative		άνθρωπε ()	ánthrope	άνθρωποι ()	ánthropoi
+animal			singular		plural	
+animal	nominative		ζώο ()	zóo	ζώα ()	zóa
+animal	genitive		ζώου ()	zóou	ζώων ()	zóon
+animal	accusative		ζώο ()	zóo	ζώα ()	zóa
+animal	vocative		ζώο ()	zóo	ζώα ()	zóa
+animal			singular		plural	
+animal	nominative		ζώο ()	zóo	ζώα ()	zóa
+animal	genitive		ζώου ()	zóou	ζώων ()	zóon
+animal	accusative		ζώο ()	zóo	ζώα ()	zóa
+animal	vocative		ζώο ()	zóo	ζώα ()	zóa
+animal			singular		plural	
+animal	nominative		κτήνος ()	ktínos	κτήνη ()	ktíni
+animal	genitive		κτήνους ()	ktínous	κτηνών ()	ktinón
+animal	accusative		κτήνος ()	ktínos	κτήνη ()	ktíni
+animal	vocative		κτήνος ()	ktínos	κτήνη ()	ktíni
+animal			singular		plural	
+animal	nominative		θηρίο ()	thirío	θηρία ()	thiría
+animal	genitive		θηρίου ()	thiríou	θηρίων ()	thiríon
+animal	accusative		θηρίο ()	thirío	θηρία ()	thiría
+animal	vocative		θηρίο ()	thirío	θηρία ()	thiría
+animal			singular		plural	
+animal	nominative		ζώο ()	zóo	ζώα ()	zóa
+animal	genitive		ζώου ()	zóou	ζώων ()	zóon
+animal	accusative		ζώο ()	zóo	ζώα ()	zóa
+animal	vocative		ζώο ()	zóo	ζώα ()	zóa
+animal			singular		plural	
+animal	nominative		κτήνος ()	ktínos	κτήνη ()	ktíni
+animal	genitive		κτήνους ()	ktínous	κτηνών ()	ktinón
+animal	accusative		κτήνος ()	ktínos	κτήνη ()	ktíni
+animal	vocative		κτήνος ()	ktínos	κτήνη ()	ktíni
+animal			singular		plural	
+animal	nominative		θηρίο ()	thirío	θηρία ()	thiría
+animal	genitive		θηρίου ()	thiríou	θηρίων ()	thiríon
+animal	accusative		θηρίο ()	thirío	θηρία ()	thiría
+animal	vocative		θηρίο ()	thirío	θηρία ()	thiría
+son			singular		plural	
+son	nominative		γιος ()	gios	γιοι ()	gioi
+son	genitive		γιου ()	giou	γιων ()	gion
+son	accusative		γιο ()	gio	γιους ()	gious
+son	vocative		γιε ()	gie	γιοι ()	gioi
+daughter			singular		plural	
+daughter	nominative		κόρη ()	kóri	κόρες ()	kóres
+daughter	genitive		κόρης ()	kóris	κορών ()	korón
+daughter	accusative		κόρη ()	kóri	κόρες ()	kóres
+daughter	vocative		κόρη ()	kóri	κόρες ()	kóres
+daughter			singular		plural	
+daughter	nominative		θυγατέρα ()	thygatéra	θυγατέρες ()	thygatéres
+daughter	genitive		θυγατέρας ()	thygatéras	θυγατέρων ()	thygatéron
+daughter	accusative		θυγατέρα ()	thygatéra	θυγατέρες ()	thygatéres
+daughter	vocative		θυγατέρα ()	thygatéra	θυγατέρες ()	thygatéres
+mother			singular		plural	
+mother	nominative		μητέρα ()	mitéra	μητέρες ()	mitéres
+mother	genitive		μητέρας ()	mitéras	μητέρων ()	mitéron
+mother	accusative		μητέρα ()	mitéra	μητέρες ()	mitéres
+mother	vocative		μητέρα ()	mitéra	μητέρες ()	mitéres
+mother				singular			plural		
+mother	nominative			μάνα ()	mána		μάνες ()μανάδες ()	mánes	manádes
+mother	genitive			μάνας ()	mánas		μάνων ()μανάδων ()	mánon	manádon
+mother	accusative			μάνα ()	mána		μάνες ()μανάδες ()	mánes	manádes
+mother	vocative			μάνα ()	mána		μάνες ()μανάδες ()	mánes	manádes
+father				singular			plural		
+father	nominative			πατέρας ()	patéras		πατέρες ()πατεράδες ()	patéres	paterádes
+father	genitive			πατέρα ()	patéra		πατέρων ()πατεράδων ()	patéron	paterádon
+father	accusative			πατέρα ()	patéra		πατέρες ()πατεράδες ()	patéres	paterádes
+father	vocative			πατέρα ()	patéra		πατέρες ()πατεράδες ()	patéres	paterádes
+brother			singular		plural	
+brother	nominative		αδελφός ()	adelfós	αδελφοί ()	adelfoí
+brother	genitive		αδελφού ()	adelfoú	αδελφών ()	adelfón
+brother	accusative		αδελφό ()	adelfó	αδελφούς ()	adelfoús
+brother	vocative		αδελφέ ()	adelfé	αδελφοί ()	adelfoí
+brother			singular		plural	
+brother	nominative		αδερφός ()	aderfós	αδερφοί ()	aderfoí
+brother	genitive		αδερφού ()	aderfoú	αδερφών ()	aderfón
+brother	accusative		αδερφό ()	aderfó	αδερφούς ()	aderfoús
+brother	vocative		αδερφέ ()	aderfé	αδερφοί ()	aderfoí
+brother			singular		plural	
+brother	nominative		αδελφός ()	adelfós	αδελφοί ()	adelfoí
+brother	genitive		αδελφού ()	adelfoú	αδελφών ()	adelfón
+brother	accusative		αδελφό ()	adelfó	αδελφούς ()	adelfoús
+brother	vocative		αδελφέ ()	adelfé	αδελφοί ()	adelfoí
+sister			singular		plural	
+sister	nominative		αδελφή ()	adelfí	αδελφές ()	adelfés
+sister	genitive		αδελφής ()	adelfís	αδελφών ()	adelfón
+sister	accusative		αδελφή ()	adelfí	αδελφές ()	adelfés
+sister	vocative		αδελφή ()	adelfí	αδελφές ()	adelfés
+sister			singular		plural	
+sister	nominative		αδερφή ()	aderfí	αδερφές ()	aderfés
+sister	genitive		αδερφής ()	aderfís	αδερφών ()	aderfón
+sister	accusative		αδερφή ()	aderfí	αδερφές ()	aderfés
+sister	vocative		αδερφή ()	aderfí	αδερφές ()	aderfés
+grandmother			singular		plural	
+grandmother	nominative		γιαγιά ()	giagiá	γιαγιάδες ()	giagiádes
+grandmother	genitive		γιαγιάς ()	giagiás	γιαγιάδων ()	giagiádon
+grandmother	accusative		γιαγιά ()	giagiá	γιαγιάδες ()	giagiádes
+grandmother	vocative		γιαγιά ()	giagiá	γιαγιάδες ()	giagiádes
+grandmother			singular		plural	
+grandmother	nominative		μάμμη ()	mámmi	μάμμες ()	mámmes
+grandmother	genitive		μάμμης ()	mámmis	—	
+grandmother	accusative		μάμμη ()	mámmi	μάμμες ()	mámmes
+grandmother	vocative		μάμμη ()	mámmi	μάμμες ()	mámmes
+grandfather			singular		plural	
+grandfather	nominative		παππούς ()	pappoús	παππούδες ()	pappoúdes
+grandfather	genitive		παππού ()	pappoú	παππούδων ()	pappoúdon
+grandfather	accusative		παππού ()	pappoú	παππούδες ()	pappoúdes
+grandfather	vocative		παππού ()	pappoú	παππούδες ()	pappoúdes
+grandfather			singular		plural	
+grandfather	nominative		πάππος ()	páppos	πάπποι ()	páppoi
+grandfather	genitive		πάππου ()	páppou	πάππων ()	páppon
+grandfather	accusative		πάππο ()	páppo	πάππους ()	páppous
+grandfather	vocative		πάππε ()	páppe	πάπποι ()	páppoi
+grandfather			singular		plural	
+grandfather	nominative		παππούς ()	pappoús	παππούδες ()	pappoúdes
+grandfather	genitive		παππού ()	pappoú	παππούδων ()	pappoúdon
+grandfather	accusative		παππού ()	pappoú	παππούδες ()	pappoúdes
+grandfather	vocative		παππού ()	pappoú	παππούδες ()	pappoúdes
+grandfather			singular		plural	
+grandfather	nominative		πάππος ()	páppos	πάπποι ()	páppoi
+grandfather	genitive		πάππου ()	páppou	πάππων ()	páppon
+grandfather	accusative		πάππο ()	páppo	πάππους ()	páppous
+grandfather	vocative		πάππε ()	páppe	πάπποι ()	páppoi
+sound			singular		plural	
+sound	nominative		ήχος ()	íchos	ήχοι ()	íchoi
+sound	genitive		ήχου ()	íchou	ήχων ()	íchon
+sound	accusative		ήχο ()	ícho	ήχους ()	íchous
+sound	vocative		ήχε ()	íche	ήχοι ()	íchoi
+sound			singular		plural	
+sound	nominative		ήχος ()	íchos	ήχοι ()	íchoi
+sound	genitive		ήχου ()	íchou	ήχων ()	íchon
+sound	accusative		ήχο ()	ícho	ήχους ()	íchous
+sound	vocative		ήχε ()	íche	ήχοι ()	íchoi
+size			singular		plural	
+size	nominative		μέγεθος ()	mégethos	μεγέθη ()	megéthi
+size	genitive		μεγέθους ()	megéthous	μεγεθών ()	megethón
+size	accusative		μέγεθος ()	mégethos	μεγέθη ()	megéthi
+size	vocative		μέγεθος ()	mégethos	μεγέθη ()	megéthi
+north			singular	
+north	nominative		βορράς ()	vorrás
+north	genitive		βορρά ()	vorrá
+north	accusative		βορρά ()	vorrá
+north	vocative		βορρά ()	vorrá
+south			singular	
+south	nominative		νότος ()	nótos
+south	genitive		νότου ()	nótou
+south	accusative		νότο ()	nóto
+south	vocative		νότε ()	nóte
+east			singular		plural	
+east	nominative		ανατολή ()	anatolí	ανατολές ()	anatolés
+east	genitive		ανατολής ()	anatolís	ανατολών ()	anatolón
+east	accusative		ανατολή ()	anatolí	ανατολές ()	anatolés
+east	vocative		ανατολή ()	anatolí	ανατολές ()	anatolés
+west			singular		plural	
+west	nominative		δύση ()	dýsi	δύσεις ()	dýseis
+west	genitive		δύσης ()	dýsis	δύσεων ()	dýseon
+west	accusative		δύση ()	dýsi	δύσεις ()	dýseis
+west	vocative		δύση ()	dýsi	δύσεις ()	dýseis

@@ -1,31 +1,381 @@
-be-inherently	undeclined																	
-be-inherently	stem			stem			हो	ho										
-be-inherently	infinitive			infinitive			होना	honā										
-be-inherently	oblique infinitive			oblique infinitive			होने	hone										
-be-inherently	conjunctive			conjunctive			होकर, होके, 	hokar	hoke									
-be-inherently	progressive			progressive			होते-होते	hote-hote										
-be-inherently	participles																	
-be-inherently							dir m s			m pobl m s			f s			f p		
-be-inherently	infinitive			infinitive			होना	honā		होने	hone		होनी	honī		होनीं	honī̃	
-be-inherently	habitual			habitual			होता	hotā		होते	hote		होती	hotī		होतीं	hotī̃	
-be-inherently	perfective			perfective			हुआ	huā		हुए	hue		हुई	huī		हुईं	huī̃	
-be-inherently	prospectiveagentive			prospectiveagentive			होनेवाला	honevālā		होनेवाले	honevāle		होनेवाली	honevālī		होनेवालीं	honevālī̃	
-be-inherently	adjectival			perfective			हुआ हुआ	huā huā		हुए हुए	hue hue		हुई हुई	huī huī		हुई हुईं	huī huī̃	
-be-inherently	adjectival			habitual			होता हुआ	hotā huā		होते हुए	hote hue		होती हुई	hotī huī		होती हुईं	hotī huī̃	
-change	undeclined																	
-change	stem			stem			बदल	badal										
-change	infinitive			infinitive			बदलना	badalnā										
-change	oblique infinitive			oblique infinitive			बदलने	badalne										
-change	conjunctive			conjunctive			बदलकर, बदलके, 	badalkar	badalke									
-change	progressive			progressive			बदलते-बदलते	badalte-badalte										
-change	participles																	
-change							dir m s			m pobl m s			f s			f p		
-change	infinitive			infinitive			बदलना	badalnā		बदलने	badalne		बदलनी	badalnī		बदलनीं	badalnī̃	
-change	habitual			habitual			बदलता	badaltā		बदलते	badalte		बदलती	badaltī		बदलतीं	badaltī̃	
-change	perfective			perfective			बदला	badlā		बदले	badle		बदली	badlī		बदलीं	badlī̃	
-change	prospectiveagentive			prospectiveagentive			बदलनेवाला	badalnevālā		बदलनेवाले	badalnevāle		बदलनेवाली	badalnevālī		बदलनेवालीं	badalnevālī̃	
-change	adjectival			perfective			बदला हुआ	badlā huā		बदले हुए	badle hue		बदली हुई	badlī huī		बदली हुईं	badlī huī̃	
-change	adjectival			habitual			बदलता हुआ	badaltā huā		बदलते हुए	badalte hue		बदलती हुई	badaltī huī		बदलती हुईं	badaltī huī̃	
+make	undeclined																	
+make	stem			stem			बना	banā										
+make	infinitive			infinitive			बनाना	banānā										
+make	oblique infinitive			oblique infinitive			बनाने	banāne										
+make	conjunctive			conjunctive			बनाकर, बनाके, 	banākar	banāke									
+make	progressive			progressive			बनाते-बनाते	banāte-banāte										
+make	participles																	
+make							dir m s			m pobl m s			f s			f p		
+make	infinitive			infinitive			बनाना	banānā		बनाने	banāne		बनानी	banānī		बनानीं	banānī̃	
+make	habitual			habitual			बनाता	banātā		बनाते	banāte		बनाती	banātī		बनातीं	banātī̃	
+make	perfective			perfective			बनाया	banāyā		बनाये11	banāye		बनायी11	banāyī		बनायीं11	banāyī̃	
+make	prospectiveagentive			prospectiveagentive			बनानेवाला	banānevālā		बनानेवाले	banānevāle		बनानेवाली	banānevālī		बनानेवालीं	banānevālī̃	
+make	adjectival			perfective			बनाया हुआ	banāyā huā		बनाये हुए11	banāye hue		बनायी हुई11	banāyī huī		बनायी हुईं11	banāyī huī̃	
+make	adjectival			habitual			बनाता हुआ	banātā huā		बनाते हुए	banāte hue		बनाती हुई	banātī huī		बनाती हुईं	banātī huī̃	
+make	undeclined																	
+make	stem			stem			रच	rac										
+make	infinitive			infinitive			रचना	racnā										
+make	oblique infinitive			oblique infinitive			रचने	racne										
+make	conjunctive			conjunctive			रचकर, रचके, 	rackar	racke									
+make	progressive			progressive			रचते-रचते	racte-racte										
+make	participles																	
+make							dir m s			m pobl m s			f s			f p		
+make	infinitive			infinitive			रचना	racnā		रचने	racne		रचनी	racnī		रचनीं	racnī̃	
+make	habitual			habitual			रचता	ractā		रचते	racte		रचती	ractī		रचतीं	ractī̃	
+make	perfective			perfective			रचा	racā		रचे	race		रची	racī		रचीं	racī̃	
+make	prospectiveagentive			prospectiveagentive			रचनेवाला	racnevālā		रचनेवाले	racnevāle		रचनेवाली	racnevālī		रचनेवालीं	racnevālī̃	
+make	adjectival			perfective			रचा हुआ	racā huā		रचे हुए	race hue		रची हुई	racī huī		रची हुईं	racī huī̃	
+make	adjectival			habitual			रचता हुआ	ractā huā		रचते हुए	racte hue		रचती हुई	ractī huī		रचती हुईं	ractī huī̃	
+make	undeclined																	
+make	stem			stem			रच	rac										
+make	infinitive			infinitive			रचना	racnā										
+make	oblique infinitive			oblique infinitive			रचने	racne										
+make	conjunctive			conjunctive			रचकर, रचके, 	rackar	racke									
+make	progressive			progressive			रचते-रचते	racte-racte										
+make	participles																	
+make							dir m s			m pobl m s			f s			f p		
+make	infinitive			infinitive			रचना	racnā		रचने	racne		रचनी	racnī		रचनीं	racnī̃	
+make	habitual			habitual			रचता	ractā		रचते	racte		रचती	ractī		रचतीं	ractī̃	
+make	perfective			perfective			रचा	racā		रचे	race		रची	racī		रचीं	racī̃	
+make	prospectiveagentive			prospectiveagentive			रचनेवाला	racnevālā		रचनेवाले	racnevāle		रचनेवाली	racnevālī		रचनेवालीं	racnevālī̃	
+make	adjectival			perfective			रचा हुआ	racā huā		रचे हुए	race hue		रची हुई	racī huī		रची हुईं	racī huī̃	
+make	adjectival			habitual			रचता हुआ	ractā huā		रचते हुए	racte hue		रचती हुई	ractī huī		रचती हुईं	ractī huī̃	
+make	undeclined																	
+make	stem			stem			सृज	sŕj										
+make	infinitive			infinitive			सृजना	sŕjnā										
+make	oblique infinitive			oblique infinitive			सृजने	sŕjne										
+make	conjunctive			conjunctive			सृजकर, सृजके, 	sŕjkar	sŕjke									
+make	progressive			progressive			सृजते-सृजते	sŕjte-sŕjte										
+make	participles																	
+make							dir m s			m pobl m s			f s			f p		
+make	infinitive			infinitive			सृजना	sŕjnā		सृजने	sŕjne		सृजनी	sŕjnī		सृजनीं	sŕjnī̃	
+make	habitual			habitual			सृजता	sŕjtā		सृजते	sŕjte		सृजती	sŕjtī		सृजतीं	sŕjtī̃	
+make	perfective			perfective			सृजा	sŕjā		सृजे	sŕje		सृजी	sŕjī		सृजीं	sŕjī̃	
+make	prospectiveagentive			prospectiveagentive			सृजनेवाला	sŕjnevālā		सृजनेवाले	sŕjnevāle		सृजनेवाली	sŕjnevālī		सृजनेवालीं	sŕjnevālī̃	
+make	adjectival			perfective			सृजा हुआ	sŕjā huā		सृजे हुए	sŕje hue		सृजी हुई	sŕjī huī		सृजी हुईं	sŕjī huī̃	
+make	adjectival			habitual			सृजता हुआ	sŕjtā huā		सृजते हुए	sŕjte hue		सृजती हुई	sŕjtī huī		सृजती हुईं	sŕjtī huī̃	
+make	undeclined																	
+make	stem			stem			रचना कर	racnā kar										
+make	infinitive			infinitive			रचना करना	racnā karnā										
+make	oblique infinitive			oblique infinitive			रचना करने	racnā karne										
+make	conjunctive			conjunctive			रचना करकर, रचना करके, 	racnā karkar	racnā karke									
+make	progressive			progressive			रचना करते-करते	racnā karte-karte										
+make	participles																	
+make							dir m s			m pobl m s			f s			f p		
+make	infinitive			infinitive			रचना करना	racnā karnā		रचना करने	racnā karne		रचना करनी	racnā karnī		रचना करनीं	racnā karnī̃	
+make	habitual			habitual			रचना करता	racnā kartā		रचना करते	racnā karte		रचना करती	racnā kartī		रचना करतीं	racnā kartī̃	
+make	perfective			perfective			रचना किया	racnā kiyā		रचना किये11	racnā kiye		रचना की	racnā kī		रचना कीं	racnā kī̃	
+make	prospectiveagentive			prospectiveagentive			रचना करनेवाला	racnā karnevālā		रचना करनेवाले	racnā karnevāle		रचना करनेवाली	racnā karnevālī		रचना करनेवालीं	racnā karnevālī̃	
+make	adjectival			perfective			रचना किया हुआ	racnā kiyā huā		रचना किये हुए11	racnā kiye hue		रचना की हुई	racnā kī huī		रचना की हुईं	racnā kī huī̃	
+make	adjectival			habitual			रचना करता हुआ	racnā kartā huā		रचना करते हुए	racnā karte hue		रचना करती हुई	racnā kartī huī		रचना करती हुईं	racnā kartī huī̃	
+make	undeclined																	
+make	stem			stem			सृजन कर	sŕjan kar										
+make	infinitive			infinitive			सृजन करना	sŕjan karnā										
+make	oblique infinitive			oblique infinitive			सृजन करने	sŕjan karne										
+make	conjunctive			conjunctive			सृजन करकर, सृजन करके, 	sŕjan karkar	sŕjan karke									
+make	progressive			progressive			सृजन करते-करते	sŕjan karte-karte										
+make	participles																	
+make							dir m s			m pobl m s			f s			f p		
+make	infinitive			infinitive			सृजन करना	sŕjan karnā		सृजन करने	sŕjan karne		सृजन करनी	sŕjan karnī		सृजन करनीं	sŕjan karnī̃	
+make	habitual			habitual			सृजन करता	sŕjan kartā		सृजन करते	sŕjan karte		सृजन करती	sŕjan kartī		सृजन करतीं	sŕjan kartī̃	
+make	perfective			perfective			सृजन किया	sŕjan kiyā		सृजन किये11	sŕjan kiye		सृजन की	sŕjan kī		सृजन कीं	sŕjan kī̃	
+make	prospectiveagentive			prospectiveagentive			सृजन करनेवाला	sŕjan karnevālā		सृजन करनेवाले	sŕjan karnevāle		सृजन करनेवाली	sŕjan karnevālī		सृजन करनेवालीं	sŕjan karnevālī̃	
+make	adjectival			perfective			सृजन किया हुआ	sŕjan kiyā huā		सृजन किये हुए11	sŕjan kiye hue		सृजन की हुई	sŕjan kī huī		सृजन की हुईं	sŕjan kī huī̃	
+make	adjectival			habitual			सृजन करता हुआ	sŕjan kartā huā		सृजन करते हुए	sŕjan karte hue		सृजन करती हुई	sŕjan kartī huī		सृजन करती हुईं	sŕjan kartī huī̃	
+make	undeclined																	
+make	stem			stem			बना	banā										
+make	infinitive			infinitive			बनाना	banānā										
+make	oblique infinitive			oblique infinitive			बनाने	banāne										
+make	conjunctive			conjunctive			बनाकर, बनाके, 	banākar	banāke									
+make	progressive			progressive			बनाते-बनाते	banāte-banāte										
+make	participles																	
+make							dir m s			m pobl m s			f s			f p		
+make	infinitive			infinitive			बनाना	banānā		बनाने	banāne		बनानी	banānī		बनानीं	banānī̃	
+make	habitual			habitual			बनाता	banātā		बनाते	banāte		बनाती	banātī		बनातीं	banātī̃	
+make	perfective			perfective			बनाया	banāyā		बनाये11	banāye		बनायी11	banāyī		बनायीं11	banāyī̃	
+make	prospectiveagentive			prospectiveagentive			बनानेवाला	banānevālā		बनानेवाले	banānevāle		बनानेवाली	banānevālī		बनानेवालीं	banānevālī̃	
+make	adjectival			perfective			बनाया हुआ	banāyā huā		बनाये हुए11	banāye hue		बनायी हुई11	banāyī huī		बनायी हुईं11	banāyī huī̃	
+make	adjectival			habitual			बनाता हुआ	banātā huā		बनाते हुए	banāte hue		बनाती हुई	banātī huī		बनाती हुईं	banātī huī̃	
+speak	undeclined																	
+speak	stem			stem			बोल	bol										
+speak	infinitive			infinitive			बोलना	bolnā										
+speak	oblique infinitive			oblique infinitive			बोलने	bolne										
+speak	conjunctive			conjunctive			बोलकर, बोलके, 	bolkar	bolke									
+speak	progressive			progressive			बोलते-बोलते	bolte-bolte										
+speak	participles																	
+speak							dir m s			m pobl m s			f s			f p		
+speak	infinitive			infinitive			बोलना	bolnā		बोलने	bolne		बोलनी	bolnī		बोलनीं	bolnī̃	
+speak	habitual			habitual			बोलता	boltā		बोलते	bolte		बोलती	boltī		बोलतीं	boltī̃	
+speak	perfective			perfective			बोला	bolā		बोले	bole		बोली	bolī		बोलीं	bolī̃	
+speak	prospectiveagentive			prospectiveagentive			बोलनेवाला	bolnevālā		बोलनेवाले	bolnevāle		बोलनेवाली	bolnevālī		बोलनेवालीं	bolnevālī̃	
+speak	adjectival			perfective			बोला हुआ	bolā huā		बोले हुए	bole hue		बोली हुई	bolī huī		बोली हुईं	bolī huī̃	
+speak	adjectival			habitual			बोलता हुआ	boltā huā		बोलते हुए	bolte hue		बोलती हुई	boltī huī		बोलती हुईं	boltī huī̃	
+speak	undeclined																	
+speak	stem			stem			कह	kah										
+speak	infinitive			infinitive			कहना	kahnā										
+speak	oblique infinitive			oblique infinitive			कहने	kahne										
+speak	conjunctive			conjunctive			कहकर, कहके, 	kahkar	kahke									
+speak	progressive			progressive			कहते-कहते	kahte-kahte										
+speak	participles																	
+speak							dir m s			m pobl m s			f s			f p		
+speak	infinitive			infinitive			कहना	kahnā		कहने	kahne		कहनी	kahnī		कहनीं	kahnī̃	
+speak	habitual			habitual			कहता	kahtā		कहते	kahte		कहती	kahtī		कहतीं	kahtī̃	
+speak	perfective			perfective			कहा	kahā		कहे	kahe		कही	kahī		कहीं	kahī̃	
+speak	prospectiveagentive			prospectiveagentive			कहनेवाला	kahnevālā		कहनेवाले	kahnevāle		कहनेवाली	kahnevālī		कहनेवालीं	kahnevālī̃	
+speak	adjectival			perfective			कहा हुआ	kahā huā		कहे हुए	kahe hue		कही हुई	kahī huī		कही हुईं	kahī huī̃	
+speak	adjectival			habitual			कहता हुआ	kahtā huā		कहते हुए	kahte hue		कहती हुई	kahtī huī		कहती हुईं	kahtī huī̃	
+become	undeclined																	
+become	stem			stem			बन	ban										
+become	infinitive			infinitive			बनना	bannā										
+become	oblique infinitive			oblique infinitive			बनने	banne										
+become	conjunctive			conjunctive			बनकर, बनके, 	bankar	banke									
+become	progressive			progressive			बनते-बनते	bante-bante										
+become	participles																	
+become							dir m s			m pobl m s			f s			f p		
+become	infinitive			infinitive			बनना	bannā		बनने	banne		बननी	bannī		बननीं	bannī̃	
+become	habitual			habitual			बनता	bantā		बनते	bante		बनती	bantī		बनतीं	bantī̃	
+become	perfective			perfective			बना	banā		बने	bane		बनी	banī		बनीं	banī̃	
+become	prospectiveagentive			prospectiveagentive			बननेवाला	bannevālā		बननेवाले	bannevāle		बननेवाली	bannevālī		बननेवालीं	bannevālī̃	
+become	adjectival			perfective			बना हुआ	banā huā		बने हुए	bane hue		बनी हुई	banī huī		बनी हुईं	banī huī̃	
+become	adjectival			habitual			बनता हुआ	bantā huā		बनते हुए	bante hue		बनती हुई	bantī huī		बनती हुईं	bantī huī̃	
+become	undeclined																	
+become	stem			stem			हो जा	ho jā										
+become	infinitive			infinitive			हो जाना	ho jānā										
+become	oblique infinitive			oblique infinitive			हो जाने	ho jāne										
+become	conjunctive			conjunctive			हो जाकर, हो जाके, 	ho jākar	ho jāke									
+become	progressive			progressive			हो जाते-जाते	ho jāte-jāte										
+become	participles																	
+become							dir m s			m pobl m s			f s			f p		
+become	infinitive			infinitive			हो जाना	ho jānā		हो जाने	ho jāne		हो जानी	ho jānī		हो जानीं	ho jānī̃	
+become	habitual			habitual			हो जाता	ho jātā		हो जाते	ho jāte		हो जाती	ho jātī		हो जातीं	ho jātī̃	
+become	perfective			perfective			हो गया, हो जाया3, 3	ho gayā	ho jāyā	हो गए1, हो जाये2,31, 2,3	ho gae	ho jāye	हो गई1, हो जायी2,31, 2,3	ho gaī	ho jāyī	हो गईं1, हो जायीं2,31, 2,3	ho gaī̃	ho jāyī̃
+become	prospectiveagentive			prospectiveagentive			हो जानेवाला	ho jānevālā		हो जानेवाले	ho jānevāle		हो जानेवाली	ho jānevālī		हो जानेवालीं	ho jānevālī̃	
+become	adjectival			perfective			हो गया हुआ	ho gayā huā		हो गए हुए11	ho gae hue		हो गई हुई11	ho gaī huī		हो गई हुईं11	ho gaī huī̃	
+become	adjectival			habitual			हो जाता हुआ	ho jātā huā		हो जाते हुए	ho jāte hue		हो जाती हुई	ho jātī huī		हो जाती हुईं	ho jātī huī̃	
+learn	undeclined																	
+learn	stem			stem			सीख	sīkh										
+learn	infinitive			infinitive			सीखना	sīkhnā										
+learn	oblique infinitive			oblique infinitive			सीखने	sīkhne										
+learn	conjunctive			conjunctive			सीखकर, सीखके, 	sīkhkar	sīkhke									
+learn	progressive			progressive			सीखते-सीखते	sīkhte-sīkhte										
+learn	participles																	
+learn							dir m s			m pobl m s			f s			f p		
+learn	infinitive			infinitive			सीखना	sīkhnā		सीखने	sīkhne		सीखनी	sīkhnī		सीखनीं	sīkhnī̃	
+learn	habitual			habitual			सीखता	sīkhtā		सीखते	sīkhte		सीखती	sīkhtī		सीखतीं	sīkhtī̃	
+learn	perfective			perfective			सीखा	sīkhā		सीखे	sīkhe		सीखी	sīkhī		सीखीं	sīkhī̃	
+learn	prospectiveagentive			prospectiveagentive			सीखनेवाला	sīkhnevālā		सीखनेवाले	sīkhnevāle		सीखनेवाली	sīkhnevālī		सीखनेवालीं	sīkhnevālī̃	
+learn	adjectival			perfective			सीखा हुआ	sīkhā huā		सीखे हुए	sīkhe hue		सीखी हुई	sīkhī huī		सीखी हुईं	sīkhī huī̃	
+learn	adjectival			habitual			सीखता हुआ	sīkhtā huā		सीखते हुए	sīkhte hue		सीखती हुई	sīkhtī huī		सीखती हुईं	sīkhtī huī̃	
+give	undeclined																	
+give	stem			stem			दे	de										
+give	infinitive			infinitive			देना	denā										
+give	oblique infinitive			oblique infinitive			देने	dene										
+give	conjunctive			conjunctive			देकर, देके, 	dekar	deke									
+give	progressive			progressive			देते-देते	dete-dete										
+give	participles																	
+give							dir m s			m pobl m s			f s			f p		
+give	infinitive			infinitive			देना	denā		देने	dene		देनी	denī		देनीं	denī̃	
+give	habitual			habitual			देता	detā		देते	dete		देती	detī		देतीं	detī̃	
+give	perfective			perfective			दिया	diyā		दिये11	diye		दी	dī		दीं	dī̃	
+give	prospectiveagentive			prospectiveagentive			देनेवाला	denevālā		देनेवाले	denevāle		देनेवाली	denevālī		देनेवालीं	denevālī̃	
+give	adjectival			perfective			दिया हुआ	diyā huā		दिये हुए11	diye hue		दी हुई	dī huī		दी हुईं	dī huī̃	
+give	adjectival			habitual			देता हुआ	detā huā		देते हुए	dete hue		देती हुई	detī huī		देती हुईं	detī huī̃	
+help	undeclined																	
+help	stem			stem			मदद कर	madad kar										
+help	infinitive			infinitive			मदद करना	madad karnā										
+help	oblique infinitive			oblique infinitive			मदद करने	madad karne										
+help	conjunctive			conjunctive			मदद करकर, मदद करके, 	madad karkar	madad karke									
+help	progressive			progressive			मदद करते-करते	madad karte-karte										
+help	participles																	
+help							dir m s			m pobl m s			f s			f p		
+help	infinitive			infinitive			मदद करना	madad karnā		मदद करने	madad karne		मदद करनी	madad karnī		मदद करनीं	madad karnī̃	
+help	habitual			habitual			मदद करता	madad kartā		मदद करते	madad karte		मदद करती	madad kartī		मदद करतीं	madad kartī̃	
+help	perfective			perfective			मदद किया	madad kiyā		मदद किये11	madad kiye		मदद की	madad kī		मदद कीं	madad kī̃	
+help	prospectiveagentive			prospectiveagentive			मदद करनेवाला	madad karnevālā		मदद करनेवाले	madad karnevāle		मदद करनेवाली	madad karnevālī		मदद करनेवालीं	madad karnevālī̃	
+help	adjectival			perfective			मदद किया हुआ	madad kiyā huā		मदद किये हुए11	madad kiye hue		मदद की हुई	madad kī huī		मदद की हुईं	madad kī huī̃	
+help	adjectival			habitual			मदद करता हुआ	madad kartā huā		मदद करते हुए	madad karte hue		मदद करती हुई	madad kartī huī		मदद करती हुईं	madad kartī huī̃	
+protect	undeclined																	
+protect	stem			stem			रक्षा कर	rakṣā kar										
+protect	infinitive			infinitive			रक्षा करना	rakṣā karnā										
+protect	oblique infinitive			oblique infinitive			रक्षा करने	rakṣā karne										
+protect	conjunctive			conjunctive			रक्षा करकर, रक्षा करके, 	rakṣā karkar	rakṣā karke									
+protect	progressive			progressive			रक्षा करते-करते	rakṣā karte-karte										
+protect	participles																	
+protect							dir m s			m pobl m s			f s			f p		
+protect	infinitive			infinitive			रक्षा करना	rakṣā karnā		रक्षा करने	rakṣā karne		रक्षा करनी	rakṣā karnī		रक्षा करनीं	rakṣā karnī̃	
+protect	habitual			habitual			रक्षा करता	rakṣā kartā		रक्षा करते	rakṣā karte		रक्षा करती	rakṣā kartī		रक्षा करतीं	rakṣā kartī̃	
+protect	perfective			perfective			रक्षा किया	rakṣā kiyā		रक्षा किये11	rakṣā kiye		रक्षा की	rakṣā kī		रक्षा कीं	rakṣā kī̃	
+protect	prospectiveagentive			prospectiveagentive			रक्षा करनेवाला	rakṣā karnevālā		रक्षा करनेवाले	rakṣā karnevāle		रक्षा करनेवाली	rakṣā karnevālī		रक्षा करनेवालीं	rakṣā karnevālī̃	
+protect	adjectival			perfective			रक्षा किया हुआ	rakṣā kiyā huā		रक्षा किये हुए11	rakṣā kiye hue		रक्षा की हुई	rakṣā kī huī		रक्षा की हुईं	rakṣā kī huī̃	
+protect	adjectival			habitual			रक्षा करता हुआ	rakṣā kartā huā		रक्षा करते हुए	rakṣā karte hue		रक्षा करती हुई	rakṣā kartī huī		रक्षा करती हुईं	rakṣā kartī huī̃	
+hide	undeclined																	
+hide	stem			stem			छुपा	chupā										
+hide	infinitive			infinitive			छुपाना	chupānā										
+hide	oblique infinitive			oblique infinitive			छुपाने	chupāne										
+hide	conjunctive			conjunctive			छुपाकर, छुपाके, 	chupākar	chupāke									
+hide	progressive			progressive			छुपाते-छुपाते	chupāte-chupāte										
+hide	participles																	
+hide							dir m s			m pobl m s			f s			f p		
+hide	infinitive			infinitive			छुपाना	chupānā		छुपाने	chupāne		छुपानी	chupānī		छुपानीं	chupānī̃	
+hide	habitual			habitual			छुपाता	chupātā		छुपाते	chupāte		छुपाती	chupātī		छुपातीं	chupātī̃	
+hide	perfective			perfective			छुपाया	chupāyā		छुपाये11	chupāye		छुपायी11	chupāyī		छुपायीं11	chupāyī̃	
+hide	prospectiveagentive			prospectiveagentive			छुपानेवाला	chupānevālā		छुपानेवाले	chupānevāle		छुपानेवाली	chupānevālī		छुपानेवालीं	chupānevālī̃	
+hide	adjectival			perfective			छुपाया हुआ	chupāyā huā		छुपाये हुए11	chupāye hue		छुपायी हुई11	chupāyī huī		छुपायी हुईं11	chupāyī huī̃	
+hide	adjectival			habitual			छुपाता हुआ	chupātā huā		छुपाते हुए	chupāte hue		छुपाती हुई	chupātī huī		छुपाती हुईं	chupātī huī̃	
+hide	undeclined																	
+hide	stem			stem			छिपा	chipā										
+hide	infinitive			infinitive			छिपाना	chipānā										
+hide	oblique infinitive			oblique infinitive			छिपाने	chipāne										
+hide	conjunctive			conjunctive			छिपाकर, छिपाके, 	chipākar	chipāke									
+hide	progressive			progressive			छिपाते-छिपाते	chipāte-chipāte										
+hide	participles																	
+hide							dir m s			m pobl m s			f s			f p		
+hide	infinitive			infinitive			छिपाना	chipānā		छिपाने	chipāne		छिपानी	chipānī		छिपानीं	chipānī̃	
+hide	habitual			habitual			छिपाता	chipātā		छिपाते	chipāte		छिपाती	chipātī		छिपातीं	chipātī̃	
+hide	perfective			perfective			छिपाया	chipāyā		छिपाये11	chipāye		छिपायी11	chipāyī		छिपायीं11	chipāyī̃	
+hide	prospectiveagentive			prospectiveagentive			छिपानेवाला	chipānevālā		छिपानेवाले	chipānevāle		छिपानेवाली	chipānevālī		छिपानेवालीं	chipānevālī̃	
+hide	adjectival			perfective			छिपाया हुआ	chipāyā huā		छिपाये हुए11	chipāye hue		छिपायी हुई11	chipāyī huī		छिपायी हुईं11	chipāyī huī̃	
+hide	adjectival			habitual			छिपाता हुआ	chipātā huā		छिपाते हुए	chipāte hue		छिपाती हुई	chipātī huī		छिपाती हुईं	chipātī huī̃	
+be-able	undeclined																	
+be-able	stem			stem			सक	sak										
+be-able	infinitive			infinitive			सकना	saknā										
+be-able	oblique infinitive			oblique infinitive			सकने	sakne										
+be-able	conjunctive			conjunctive			सककर, सकके, 	sakkar	sakke									
+be-able	progressive			progressive			सकते-सकते	sakte-sakte										
+be-able	participles																	
+be-able							dir m s			m pobl m s			f s			f p		
+be-able	infinitive			infinitive			सकना	saknā		सकने	sakne		सकनी	saknī		सकनीं	saknī̃	
+be-able	habitual			habitual			सकता	saktā		सकते	sakte		सकती	saktī		सकतीं	saktī̃	
+be-able	perfective			perfective			सका	sakā		सके	sake		सकी	sakī		सकीं	sakī̃	
+be-able	prospectiveagentive			prospectiveagentive			सकनेवाला	saknevālā		सकनेवाले	saknevāle		सकनेवाली	saknevālī		सकनेवालीं	saknevālī̃	
+be-able	adjectival			perfective			सका हुआ	sakā huā		सके हुए	sake hue		सकी हुई	sakī huī		सकी हुईं	sakī huī̃	
+be-able	adjectival			habitual			सकता हुआ	saktā huā		सकते हुए	sakte hue		सकती हुई	saktī huī		सकती हुईं	saktī huī̃	
+be-able	undeclined																	
+be-able	stem			stem			सक	sak										
+be-able	infinitive			infinitive			सकना	saknā										
+be-able	oblique infinitive			oblique infinitive			सकने	sakne										
+be-able	conjunctive			conjunctive			सककर, सकके, 	sakkar	sakke									
+be-able	progressive			progressive			सकते-सकते	sakte-sakte										
+be-able	participles																	
+be-able							dir m s			m pobl m s			f s			f p		
+be-able	infinitive			infinitive			सकना	saknā		सकने	sakne		सकनी	saknī		सकनीं	saknī̃	
+be-able	habitual			habitual			सकता	saktā		सकते	sakte		सकती	saktī		सकतीं	saktī̃	
+be-able	perfective			perfective			सका	sakā		सके	sake		सकी	sakī		सकीं	sakī̃	
+be-able	prospectiveagentive			prospectiveagentive			सकनेवाला	saknevālā		सकनेवाले	saknevāle		सकनेवाली	saknevālī		सकनेवालीं	saknevālī̃	
+be-able	adjectival			perfective			सका हुआ	sakā huā		सके हुए	sake hue		सकी हुई	sakī huī		सकी हुईं	sakī huī̃	
+be-able	adjectival			habitual			सकता हुआ	saktā huā		सकते हुए	sakte hue		सकती हुई	saktī huī		सकती हुईं	saktī huī̃	
+arrive	undeclined																	
+arrive	stem			stem			पहुँच	pahũc										
+arrive	infinitive			infinitive			पहुँचना	pahũcnā										
+arrive	oblique infinitive			oblique infinitive			पहुँचने	pahũcne										
+arrive	conjunctive			conjunctive			पहुँचकर, पहुँचके, 	pahũckar	pahũcke									
+arrive	progressive			progressive			पहुँचते-पहुँचते	pahũcte-pahũcte										
+arrive	participles																	
+arrive							dir m s			m pobl m s			f s			f p		
+arrive	infinitive			infinitive			पहुँचना	pahũcnā		पहुँचने	pahũcne		पहुँचनी	pahũcnī		पहुँचनीं	pahũcnī̃	
+arrive	habitual			habitual			पहुँचता	pahũctā		पहुँचते	pahũcte		पहुँचती	pahũctī		पहुँचतीं	pahũctī̃	
+arrive	perfective			perfective			पहुँचा	pahũcā		पहुँचे	pahũce		पहुँची	pahũcī		पहुँचीं	pahũcī̃	
+arrive	prospectiveagentive			prospectiveagentive			पहुँचनेवाला	pahũcnevālā		पहुँचनेवाले	pahũcnevāle		पहुँचनेवाली	pahũcnevālī		पहुँचनेवालीं	pahũcnevālī̃	
+arrive	adjectival			perfective			पहुँचा हुआ	pahũcā huā		पहुँचे हुए	pahũce hue		पहुँची हुई	pahũcī huī		पहुँची हुईं	pahũcī huī̃	
+arrive	adjectival			habitual			पहुँचता हुआ	pahũctā huā		पहुँचते हुए	pahũcte hue		पहुँचती हुई	pahũctī huī		पहुँचती हुईं	pahũctī huī̃	
+ask	undeclined																	
+ask	stem			stem			पूछ	pūch										
+ask	infinitive			infinitive			पूछना	pūchnā										
+ask	oblique infinitive			oblique infinitive			पूछने	pūchne										
+ask	conjunctive			conjunctive			पूछकर, पूछके, 	pūchkar	pūchke									
+ask	progressive			progressive			पूछते-पूछते	pūchte-pūchte										
+ask	participles																	
+ask							dir m s			m pobl m s			f s			f p		
+ask	infinitive			infinitive			पूछना	pūchnā		पूछने	pūchne		पूछनी	pūchnī		पूछनीं	pūchnī̃	
+ask	habitual			habitual			पूछता	pūchtā		पूछते	pūchte		पूछती	pūchtī		पूछतीं	pūchtī̃	
+ask	perfective			perfective			पूछा	pūchā		पूछे	pūche		पूछी	pūchī		पूछीं	pūchī̃	
+ask	prospectiveagentive			prospectiveagentive			पूछनेवाला	pūchnevālā		पूछनेवाले	pūchnevāle		पूछनेवाली	pūchnevālī		पूछनेवालीं	pūchnevālī̃	
+ask	adjectival			perfective			पूछा हुआ	pūchā huā		पूछे हुए	pūche hue		पूछी हुई	pūchī huī		पूछी हुईं	pūchī huī̃	
+ask	adjectival			habitual			पूछता हुआ	pūchtā huā		पूछते हुए	pūchte hue		पूछती हुई	pūchtī huī		पूछती हुईं	pūchtī huī̃	
+be	undeclined																	
+be	stem			stem			हो	ho										
+be	infinitive			infinitive			होना	honā										
+be	oblique infinitive			oblique infinitive			होने	hone										
+be	conjunctive			conjunctive			होकर, होके, 	hokar	hoke									
+be	progressive			progressive			होते-होते	hote-hote										
+be	participles																	
+be							dir m s			m pobl m s			f s			f p		
+be	infinitive			infinitive			होना	honā		होने	hone		होनी	honī		होनीं	honī̃	
+be	habitual			habitual			होता	hotā		होते	hote		होती	hotī		होतीं	hotī̃	
+be	perfective			perfective			हुआ	huā		हुए	hue		हुई	huī		हुईं	huī̃	
+be	prospectiveagentive			prospectiveagentive			होनेवाला	honevālā		होनेवाले	honevāle		होनेवाली	honevālī		होनेवालीं	honevālī̃	
+be	adjectival			perfective			हुआ हुआ	huā huā		हुए हुए	hue hue		हुई हुई	huī huī		हुई हुईं	huī huī̃	
+be	adjectival			habitual			होता हुआ	hotā huā		होते हुए	hote hue		होती हुई	hotī huī		होती हुईं	hotī huī̃	
+be	undeclined																	
+be	stem			stem			हो	ho										
+be	infinitive			infinitive			होना	honā										
+be	oblique infinitive			oblique infinitive			होने	hone										
+be	conjunctive			conjunctive			होकर, होके, 	hokar	hoke									
+be	progressive			progressive			होते-होते	hote-hote										
+be	participles																	
+be							dir m s			m pobl m s			f s			f p		
+be	infinitive			infinitive			होना	honā		होने	hone		होनी	honī		होनीं	honī̃	
+be	habitual			habitual			होता	hotā		होते	hote		होती	hotī		होतीं	hotī̃	
+be	perfective			perfective			हुआ	huā		हुए	hue		हुई	huī		हुईं	huī̃	
+be	prospectiveagentive			prospectiveagentive			होनेवाला	honevālā		होनेवाले	honevāle		होनेवाली	honevālī		होनेवालीं	honevālī̃	
+be	adjectival			perfective			हुआ हुआ	huā huā		हुए हुए	hue hue		हुई हुई	huī huī		हुई हुईं	huī huī̃	
+be	adjectival			habitual			होता हुआ	hotā huā		होते हुए	hote hue		होती हुई	hotī huī		होती हुईं	hotī huī̃	
+be	undeclined																	
+be	stem			stem			हो	ho										
+be	infinitive			infinitive			होना	honā										
+be	oblique infinitive			oblique infinitive			होने	hone										
+be	conjunctive			conjunctive			होकर, होके, 	hokar	hoke									
+be	progressive			progressive			होते-होते	hote-hote										
+be	participles																	
+be							dir m s			m pobl m s			f s			f p		
+be	infinitive			infinitive			होना	honā		होने	hone		होनी	honī		होनीं	honī̃	
+be	habitual			habitual			होता	hotā		होते	hote		होती	hotī		होतीं	hotī̃	
+be	perfective			perfective			हुआ	huā		हुए	hue		हुई	huī		हुईं	huī̃	
+be	prospectiveagentive			prospectiveagentive			होनेवाला	honevālā		होनेवाले	honevāle		होनेवाली	honevālī		होनेवालीं	honevālī̃	
+be	adjectival			perfective			हुआ हुआ	huā huā		हुए हुए	hue hue		हुई हुई	huī huī		हुई हुईं	huī huī̃	
+be	adjectival			habitual			होता हुआ	hotā huā		होते हुए	hote hue		होती हुई	hotī huī		होती हुईं	hotī huī̃	
+be	undeclined																	
+be	stem			stem			हो	ho										
+be	infinitive			infinitive			होना	honā										
+be	oblique infinitive			oblique infinitive			होने	hone										
+be	conjunctive			conjunctive			होकर, होके, 	hokar	hoke									
+be	progressive			progressive			होते-होते	hote-hote										
+be	participles																	
+be							dir m s			m pobl m s			f s			f p		
+be	infinitive			infinitive			होना	honā		होने	hone		होनी	honī		होनीं	honī̃	
+be	habitual			habitual			होता	hotā		होते	hote		होती	hotī		होतीं	hotī̃	
+be	perfective			perfective			हुआ	huā		हुए	hue		हुई	huī		हुईं	huī̃	
+be	prospectiveagentive			prospectiveagentive			होनेवाला	honevālā		होनेवाले	honevāle		होनेवाली	honevālī		होनेवालीं	honevālī̃	
+be	adjectival			perfective			हुआ हुआ	huā huā		हुए हुए	hue hue		हुई हुई	huī huī		हुई हुईं	huī huī̃	
+be	adjectival			habitual			होता हुआ	hotā huā		होते हुए	hote hue		होती हुई	hotī huī		होती हुईं	hotī huī̃	
+open	undeclined																	
+open	stem			stem			खुल	khul										
+open	infinitive			infinitive			खुलना	khulnā										
+open	oblique infinitive			oblique infinitive			खुलने	khulne										
+open	conjunctive			conjunctive			खुलकर, खुलके, 	khulkar	khulke									
+open	progressive			progressive			खुलते-खुलते	khulte-khulte										
+open	participles																	
+open							dir m s			m pobl m s			f s			f p		
+open	infinitive			infinitive			खुलना	khulnā		खुलने	khulne		खुलनी	khulnī		खुलनीं	khulnī̃	
+open	habitual			habitual			खुलता	khultā		खुलते	khulte		खुलती	khultī		खुलतीं	khultī̃	
+open	perfective			perfective			खुला	khulā		खुले	khule		खुली	khulī		खुलीं	khulī̃	
+open	prospectiveagentive			prospectiveagentive			खुलनेवाला	khulnevālā		खुलनेवाले	khulnevāle		खुलनेवाली	khulnevālī		खुलनेवालीं	khulnevālī̃	
+open	adjectival			perfective			खुला हुआ	khulā huā		खुले हुए	khule hue		खुली हुई	khulī huī		खुली हुईं	khulī huī̃	
+open	adjectival			habitual			खुलता हुआ	khultā huā		खुलते हुए	khulte hue		खुलती हुई	khultī huī		खुलती हुईं	khultī huī̃	
+climb	undeclined																	
+climb	stem			stem			चढ़	caṛh										
+climb	infinitive			infinitive			चढ़ना	caṛhnā										
+climb	oblique infinitive			oblique infinitive			चढ़ने	caṛhne										
+climb	conjunctive			conjunctive			चढ़कर, चढ़के, 	caṛhkar	caṛhke									
+climb	progressive			progressive			चढ़ते-चढ़ते	caṛhte-caṛhte										
+climb	participles																	
+climb							dir m s			m pobl m s			f s			f p		
+climb	infinitive			infinitive			चढ़ना	caṛhnā		चढ़ने	caṛhne		चढ़नी	caṛhnī		चढ़नीं	caṛhnī̃	
+climb	habitual			habitual			चढ़ता	caṛhtā		चढ़ते	caṛhte		चढ़ती	caṛhtī		चढ़तीं	caṛhtī̃	
+climb	perfective			perfective			चढ़ा	caṛhā		चढ़े	caṛhe		चढ़ी	caṛhī		चढ़ीं	caṛhī̃	
+climb	prospectiveagentive			prospectiveagentive			चढ़नेवाला	caṛhnevālā		चढ़नेवाले	caṛhnevāle		चढ़नेवाली	caṛhnevālī		चढ़नेवालीं	caṛhnevālī̃	
+climb	adjectival			perfective			चढ़ा हुआ	caṛhā huā		चढ़े हुए	caṛhe hue		चढ़ी हुई	caṛhī huī		चढ़ी हुईं	caṛhī huī̃	
+climb	adjectival			habitual			चढ़ता हुआ	caṛhtā huā		चढ़ते हुए	caṛhte hue		चढ़ती हुई	caṛhtī huī		चढ़ती हुईं	caṛhtī huī̃	
 climb	undeclined																	
 climb	stem			stem			चढ़	caṛh										
 climb	infinitive			infinitive			चढ़ना	caṛhnā										
@@ -54,6 +404,20 @@ eat	perfective			perfective			खाया	khāyā		खाये11	khāye		ख�
 eat	prospectiveagentive			prospectiveagentive			खानेवाला	khānevālā		खानेवाले	khānevāle		खानेवाली	khānevālī		खानेवालीं	khānevālī̃	
 eat	adjectival			perfective			खाया हुआ	khāyā huā		खाये हुए11	khāye hue		खायी हुई11	khāyī huī		खायी हुईं11	khāyī huī̃	
 eat	adjectival			habitual			खाता हुआ	khātā huā		खाते हुए	khāte hue		खाती हुई	khātī huī		खाती हुईं	khātī huī̃	
+eat	undeclined																	
+eat	stem			stem			ले	le										
+eat	infinitive			infinitive			लेना	lenā										
+eat	oblique infinitive			oblique infinitive			लेने	lene										
+eat	conjunctive			conjunctive			लेकर, लेके, 	lekar	leke									
+eat	progressive			progressive			लेते-लेते	lete-lete										
+eat	participles																	
+eat							dir m s			m pobl m s			f s			f p		
+eat	infinitive			infinitive			लेना	lenā		लेने	lene		लेनी	lenī		लेनीं	lenī̃	
+eat	habitual			habitual			लेता	letā		लेते	lete		लेती	letī		लेतीं	letī̃	
+eat	perfective			perfective			लिया	liyā		लिये11	liye		ली	lī		लीं	lī̃	
+eat	prospectiveagentive			prospectiveagentive			लेनेवाला	lenevālā		लेनेवाले	lenevāle		लेनेवाली	lenevālī		लेनेवालीं	lenevālī̃	
+eat	adjectival			perfective			लिया हुआ	liyā huā		लिये हुए11	liye hue		ली हुई	lī huī		ली हुईं	lī huī̃	
+eat	adjectival			habitual			लेता हुआ	letā huā		लेते हुए	lete hue		लेती हुई	letī huī		लेती हुईं	letī huī̃	
 fall	undeclined																	
 fall	stem			stem			गिर	gir										
 fall	infinitive			infinitive			गिरना	girnā										
@@ -68,6 +432,20 @@ fall	perfective			perfective			गिरा	girā		गिरे	gire		गिर�
 fall	prospectiveagentive			prospectiveagentive			गिरनेवाला	girnevālā		गिरनेवाले	girnevāle		गिरनेवाली	girnevālī		गिरनेवालीं	girnevālī̃	
 fall	adjectival			perfective			गिरा हुआ	girā huā		गिरे हुए	gire hue		गिरी हुई	girī huī		गिरी हुईं	girī huī̃	
 fall	adjectival			habitual			गिरता हुआ	girtā huā		गिरते हुए	girte hue		गिरती हुई	girtī huī		गिरती हुईं	girtī huī̃	
+fall	undeclined																	
+fall	stem			stem			पड़	paṛ										
+fall	infinitive			infinitive			पड़ना	paṛnā										
+fall	oblique infinitive			oblique infinitive			पड़ने	paṛne										
+fall	conjunctive			conjunctive			पड़कर, पड़के, 	paṛkar	paṛke									
+fall	progressive			progressive			पड़ते-पड़ते	paṛte-paṛte										
+fall	participles																	
+fall							dir m s			m pobl m s			f s			f p		
+fall	infinitive			infinitive			पड़ना	paṛnā		पड़ने	paṛne		पड़नी	paṛnī		पड़नीं	paṛnī̃	
+fall	habitual			habitual			पड़ता	paṛtā		पड़ते	paṛte		पड़ती	paṛtī		पड़तीं	paṛtī̃	
+fall	perfective			perfective			पड़ा	paṛā		पड़े	paṛe		पड़ी	paṛī		पड़ीं	paṛī̃	
+fall	prospectiveagentive			prospectiveagentive			पड़नेवाला	paṛnevālā		पड़नेवाले	paṛnevāle		पड़नेवाली	paṛnevālī		पड़नेवालीं	paṛnevālī̃	
+fall	adjectival			perfective			पड़ा हुआ	paṛā huā		पड़े हुए	paṛe hue		पड़ी हुई	paṛī huī		पड़ी हुईं	paṛī huī̃	
+fall	adjectival			habitual			पड़ता हुआ	paṛtā huā		पड़ते हुए	paṛte hue		पड़ती हुई	paṛtī huī		पड़ती हुईं	paṛtī huī̃	
 fly	undeclined																	
 fly	stem			stem			उड़	uṛ										
 fly	infinitive			infinitive			उड़ना	uṛnā										
@@ -82,129 +460,17 @@ fly	perfective			perfective			उड़ा	uṛā		उड़े	uṛe		उड़
 fly	prospectiveagentive			prospectiveagentive			उड़नेवाला	uṛnevālā		उड़नेवाले	uṛnevāle		उड़नेवाली	uṛnevālī		उड़नेवालीं	uṛnevālī̃	
 fly	adjectival			perfective			उड़ा हुआ	uṛā huā		उड़े हुए	uṛe hue		उड़ी हुई	uṛī huī		उड़ी हुईं	uṛī huī̃	
 fly	adjectival			habitual			उड़ता हुआ	uṛtā huā		उड़ते हुए	uṛte hue		उड़ती हुई	uṛtī huī		उड़ती हुईं	uṛtī huī̃	
-hear	undeclined																	
-hear	stem			stem			सुन	sun										
-hear	infinitive			infinitive			सुनना	sunnā										
-hear	oblique infinitive			oblique infinitive			सुनने	sunne										
-hear	conjunctive			conjunctive			सुनकर, सुनके, 	sunkar	sunke									
-hear	progressive			progressive			सुनते-सुनते	sunte-sunte										
-hear	participles																	
-hear							dir m s			m pobl m s			f s			f p		
-hear	infinitive			infinitive			सुनना	sunnā		सुनने	sunne		सुननी	sunnī		सुननीं	sunnī̃	
-hear	habitual			habitual			सुनता	suntā		सुनते	sunte		सुनती	suntī		सुनतीं	suntī̃	
-hear	perfective			perfective			सुना	sunā		सुने	sune		सुनी	sunī		सुनीं	sunī̃	
-hear	prospectiveagentive			prospectiveagentive			सुननेवाला	sunnevālā		सुननेवाले	sunnevāle		सुननेवाली	sunnevālī		सुननेवालीं	sunnevālī̃	
-hear	adjectival			perfective			सुना हुआ	sunā huā		सुने हुए	sune hue		सुनी हुई	sunī huī		सुनी हुईं	sunī huī̃	
-hear	adjectival			habitual			सुनता हुआ	suntā huā		सुनते हुए	sunte hue		सुनती हुई	suntī huī		सुनती हुईं	suntī huī̃	
-rest	undeclined																	
-rest	stem			stem			आराम कर	ārām kar										
-rest	infinitive			infinitive			आराम करना	ārām karnā										
-rest	oblique infinitive			oblique infinitive			आराम करने	ārām karne										
-rest	conjunctive			conjunctive			आराम करकर, आराम करके, 	ārām karkar	ārām karke									
-rest	progressive			progressive			आराम करते-करते	ārām karte-karte										
-rest	participles																	
-rest							dir m s			m pobl m s			f s			f p		
-rest	infinitive			infinitive			आराम करना	ārām karnā		आराम करने	ārām karne		आराम करनी	ārām karnī		आराम करनीं	ārām karnī̃	
-rest	habitual			habitual			आराम करता	ārām kartā		आराम करते	ārām karte		आराम करती	ārām kartī		आराम करतीं	ārām kartī̃	
-rest	perfective			perfective			आराम किया	ārām kiyā		आराम किये11	ārām kiye		आराम की	ārām kī		आराम कीं	ārām kī̃	
-rest	prospectiveagentive			prospectiveagentive			आराम करनेवाला	ārām karnevālā		आराम करनेवाले	ārām karnevāle		आराम करनेवाली	ārām karnevālī		आराम करनेवालीं	ārām karnevālī̃	
-rest	adjectival			perfective			आराम किया हुआ	ārām kiyā huā		आराम किये हुए11	ārām kiye hue		आराम की हुई	ārām kī huī		आराम की हुईं	ārām kī huī̃	
-rest	adjectival			habitual			आराम करता हुआ	ārām kartā huā		आराम करते हुए	ārām karte hue		आराम करती हुई	ārām kartī huī		आराम करती हुईं	ārām kartī huī̃	
-see	undeclined																	
-see	stem			stem			देख	dekh										
-see	infinitive			infinitive			देखना	dekhnā										
-see	oblique infinitive			oblique infinitive			देखने	dekhne										
-see	conjunctive			conjunctive			देखकर, देखके, 	dekhkar	dekhke									
-see	progressive			progressive			देखते-देखते	dekhte-dekhte										
-see	participles																	
-see							dir m s			m pobl m s			f s			f p		
-see	infinitive			infinitive			देखना	dekhnā		देखने	dekhne		देखनी	dekhnī		देखनीं	dekhnī̃	
-see	habitual			habitual			देखता	dekhtā		देखते	dekhte		देखती	dekhtī		देखतीं	dekhtī̃	
-see	perfective			perfective			देखा	dekhā		देखे	dekhe		देखी	dekhī		देखीं	dekhī̃	
-see	prospectiveagentive			prospectiveagentive			देखनेवाला	dekhnevālā		देखनेवाले	dekhnevāle		देखनेवाली	dekhnevālī		देखनेवालीं	dekhnevālī̃	
-see	adjectival			perfective			देखा हुआ	dekhā huā		देखे हुए	dekhe hue		देखी हुई	dekhī huī		देखी हुईं	dekhī huī̃	
-see	adjectival			habitual			देखता हुआ	dekhtā huā		देखते हुए	dekhte hue		देखती हुई	dekhtī huī		देखती हुईं	dekhtī huī̃	
-show	undeclined																	
-show	stem			stem			दिखा	dikhā										
-show	infinitive			infinitive			दिखाना	dikhānā										
-show	oblique infinitive			oblique infinitive			दिखाने	dikhāne										
-show	conjunctive			conjunctive			दिखाकर, दिखाके, 	dikhākar	dikhāke									
-show	progressive			progressive			दिखाते-दिखाते	dikhāte-dikhāte										
-show	participles																	
-show							dir m s			m pobl m s			f s			f p		
-show	infinitive			infinitive			दिखाना	dikhānā		दिखाने	dikhāne		दिखानी	dikhānī		दिखानीं	dikhānī̃	
-show	habitual			habitual			दिखाता	dikhātā		दिखाते	dikhāte		दिखाती	dikhātī		दिखातीं	dikhātī̃	
-show	perfective			perfective			दिखाया	dikhāyā		दिखाये11	dikhāye		दिखायी11	dikhāyī		दिखायीं11	dikhāyī̃	
-show	prospectiveagentive			prospectiveagentive			दिखानेवाला	dikhānevālā		दिखानेवाले	dikhānevāle		दिखानेवाली	dikhānevālī		दिखानेवालीं	dikhānevālī̃	
-show	adjectival			perfective			दिखाया हुआ	dikhāyā huā		दिखाये हुए11	dikhāye hue		दिखायी हुई11	dikhāyī huī		दिखायी हुईं11	dikhāyī huī̃	
-show	adjectival			habitual			दिखाता हुआ	dikhātā huā		दिखाते हुए	dikhāte hue		दिखाती हुई	dikhātī huī		दिखाती हुईं	dikhātī huī̃	
-startle	undeclined																	
-startle	stem			stem			डरा	ḍarā										
-startle	infinitive			infinitive			डराना	ḍarānā										
-startle	oblique infinitive			oblique infinitive			डराने	ḍarāne										
-startle	conjunctive			conjunctive			डराकर, डराके, 	ḍarākar	ḍarāke									
-startle	progressive			progressive			डराते-डराते	ḍarāte-ḍarāte										
-startle	participles																	
-startle							dir m s			m pobl m s			f s			f p		
-startle	infinitive			infinitive			डराना	ḍarānā		डराने	ḍarāne		डरानी	ḍarānī		डरानीं	ḍarānī̃	
-startle	habitual			habitual			डराता	ḍarātā		डराते	ḍarāte		डराती	ḍarātī		डरातीं	ḍarātī̃	
-startle	perfective			perfective			डराया	ḍarāyā		डराये11	ḍarāye		डरायी11	ḍarāyī		डरायीं11	ḍarāyī̃	
-startle	prospectiveagentive			prospectiveagentive			डरानेवाला	ḍarānevālā		डरानेवाले	ḍarānevāle		डरानेवाली	ḍarānevālī		डरानेवालीं	ḍarānevālī̃	
-startle	adjectival			perfective			डराया हुआ	ḍarāyā huā		डराये हुए11	ḍarāye hue		डरायी हुई11	ḍarāyī huī		डरायी हुईं11	ḍarāyī huī̃	
-startle	adjectival			habitual			डराता हुआ	ḍarātā huā		डराते हुए	ḍarāte hue		डराती हुई	ḍarātī huī		डराती हुईं	ḍarātī huī̃	
-swim	undeclined																	
-swim	stem			stem			तैर	tair										
-swim	infinitive			infinitive			तैरना	tairnā										
-swim	oblique infinitive			oblique infinitive			तैरने	tairne										
-swim	conjunctive			conjunctive			तैरकर, तैरके, 	tairkar	tairke									
-swim	progressive			progressive			तैरते-तैरते	tairte-tairte										
-swim	participles																	
-swim							dir m s			m pobl m s			f s			f p		
-swim	infinitive			infinitive			तैरना	tairnā		तैरने	tairne		तैरनी	tairnī		तैरनीं	tairnī̃	
-swim	habitual			habitual			तैरता	tairtā		तैरते	tairte		तैरती	tairtī		तैरतीं	tairtī̃	
-swim	perfective			perfective			तैरा	tairā		तैरे	taire		तैरी	tairī		तैरीं	tairī̃	
-swim	prospectiveagentive			prospectiveagentive			तैरनेवाला	tairnevālā		तैरनेवाले	tairnevāle		तैरनेवाली	tairnevālī		तैरनेवालीं	tairnevālī̃	
-swim	adjectival			perfective			तैरा हुआ	tairā huā		तैरे हुए	taire hue		तैरी हुई	tairī huī		तैरी हुईं	tairī huī̃	
-swim	adjectival			habitual			तैरता हुआ	tairtā huā		तैरते हुए	tairte hue		तैरती हुई	tairtī huī		तैरती हुईं	tairtī huī̃	
-walk	undeclined																	
-walk	stem			stem			टहल	ṭahal										
-walk	infinitive			infinitive			टहलना	ṭahalnā										
-walk	oblique infinitive			oblique infinitive			टहलने	ṭahalne										
-walk	conjunctive			conjunctive			टहलकर, टहलके, 	ṭahalkar	ṭahalke									
-walk	progressive			progressive			टहलते-टहलते	ṭahalte-ṭahalte										
-walk	participles																	
-walk							dir m s			m pobl m s			f s			f p		
-walk	infinitive			infinitive			टहलना	ṭahalnā		टहलने	ṭahalne		टहलनी	ṭahalnī		टहलनीं	ṭahalnī̃	
-walk	habitual			habitual			टहलता	ṭahaltā		टहलते	ṭahalte		टहलती	ṭahaltī		टहलतीं	ṭahaltī̃	
-walk	perfective			perfective			टहला	ṭahlā		टहले	ṭahle		टहली	ṭahlī		टहलीं	ṭahlī̃	
-walk	prospectiveagentive			prospectiveagentive			टहलनेवाला	ṭahalnevālā		टहलनेवाले	ṭahalnevāle		टहलनेवाली	ṭahalnevālī		टहलनेवालीं	ṭahalnevālī̃	
-walk	adjectival			perfective			टहला हुआ	ṭahlā huā		टहले हुए	ṭahle hue		टहली हुई	ṭahlī huī		टहली हुईं	ṭahlī huī̃	
-walk	adjectival			habitual			टहलता हुआ	ṭahaltā huā		टहलते हुए	ṭahalte hue		टहलती हुई	ṭahaltī huī		टहलती हुईं	ṭahaltī huī̃	
-watch	undeclined																	
-watch	stem			stem			देख	dekh										
-watch	infinitive			infinitive			देखना	dekhnā										
-watch	oblique infinitive			oblique infinitive			देखने	dekhne										
-watch	conjunctive			conjunctive			देखकर, देखके, 	dekhkar	dekhke									
-watch	progressive			progressive			देखते-देखते	dekhte-dekhte										
-watch	participles																	
-watch							dir m s			m pobl m s			f s			f p		
-watch	infinitive			infinitive			देखना	dekhnā		देखने	dekhne		देखनी	dekhnī		देखनीं	dekhnī̃	
-watch	habitual			habitual			देखता	dekhtā		देखते	dekhte		देखती	dekhtī		देखतीं	dekhtī̃	
-watch	perfective			perfective			देखा	dekhā		देखे	dekhe		देखी	dekhī		देखीं	dekhī̃	
-watch	prospectiveagentive			prospectiveagentive			देखनेवाला	dekhnevālā		देखनेवाले	dekhnevāle		देखनेवाली	dekhnevālī		देखनेवालीं	dekhnevālī̃	
-watch	adjectival			perfective			देखा हुआ	dekhā huā		देखे हुए	dekhe hue		देखी हुई	dekhī huī		देखी हुईं	dekhī huī̃	
-watch	adjectival			habitual			देखता हुआ	dekhtā huā		देखते हुए	dekhte hue		देखती हुई	dekhtī huī		देखती हुईं	dekhtī huī̃	
-work	undeclined																	
-work	stem			stem			काम कर	kām kar										
-work	infinitive			infinitive			काम करना	kām karnā										
-work	oblique infinitive			oblique infinitive			काम करने	kām karne										
-work	conjunctive			conjunctive			काम करकर, काम करके, 	kām karkar	kām karke									
-work	progressive			progressive			काम करते-करते	kām karte-karte										
-work	participles																	
-work							dir m s			m pobl m s			f s			f p		
-work	infinitive			infinitive			काम करना	kām karnā		काम करने	kām karne		काम करनी	kām karnī		काम करनीं	kām karnī̃	
-work	habitual			habitual			काम करता	kām kartā		काम करते	kām karte		काम करती	kām kartī		काम करतीं	kām kartī̃	
-work	perfective			perfective			काम किया	kām kiyā		काम किये11	kām kiye		काम की	kām kī		काम कीं	kām kī̃	
-work	prospectiveagentive			prospectiveagentive			काम करनेवाला	kām karnevālā		काम करनेवाले	kām karnevāle		काम करनेवाली	kām karnevālī		काम करनेवालीं	kām karnevālī̃	
-work	adjectival			perfective			काम किया हुआ	kām kiyā huā		काम किये हुए11	kām kiye hue		काम की हुई	kām kī huī		काम की हुईं	kām kī huī̃	
-work	adjectival			habitual			काम करता हुआ	kām kartā huā		काम करते हुए	kām karte hue		काम करती हुई	kām kartī huī		काम करती हुईं	kām kartī huī̃	
+flow	undeclined																	
+flow	stem			stem			बह	bah										
+flow	infinitive			infinitive			बहना	bahnā										
+flow	oblique infinitive			oblique infinitive			बहने	bahne										
+flow	conjunctive			conjunctive			बहकर, बहके, 	bahkar	bahke									
+flow	progressive			progressive			बहते-बहते	bahte-bahte										
+flow	participles																	
+flow							dir m s			m pobl m s			f s			f p		
+flow	infinitive			infinitive			बहना	bahnā		बहने	bahne		बहनी	bahnī		बहनीं	bahnī̃	
+flow	habitual			habitual			बहता	bahtā		बहते	bahte		बहती	bahtī		बहतीं	bahtī̃	
+flow	perfective			perfective			बहा	bahā		बहे	bahe		बही	bahī		बहीं	bahī̃	
+flow	prospectiveagentive			prospectiveagentive			बहनेवाला	bahnevālā		बहनेवाले	bahnevāle		बहनेवाली	bahnevālī		बहनेवालीं	bahnevālī̃	
+flow	adjectival			perfective			बहा हुआ	bahā huā		बहे हुए	bahe hue		बही हुई	bahī huī		बही हुईं	bahī huī̃	
+flow	adjectival			habitual			बहता हुआ	bahtā huā		बहते हुए	bahte hue		बहती हुई	bahtī huī		बहती हुईं	bahtī huī̃	

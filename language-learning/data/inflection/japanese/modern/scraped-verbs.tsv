@@ -1,38 +1,1224 @@
-be-inherently	stem forms	stem forms	stem forms	stem forms	
-be-inherently	Imperfective (未然形)	だろでは	darode wa		
-be-inherently	Continuative (連用形)	だっで	da'de		
-be-inherently	Terminal (終止形)	だ	da		
-be-inherently	Attributive (連体形)	であるな	de aruna		
-be-inherently	Hypothetical (仮定形)	であれなら	de arenara		
-be-inherently	Imperative (命令形)	-	-		
-be-inherently	key constructions	key constructions	key constructions	key constructions	
-be-inherently	Passive	-	-		
-be-inherently	Causative	-	-		
-be-inherently	Potential	-	-		
-be-inherently	Volitional	だろう	darō		
-be-inherently	Negative	ではないじゃない¹でない	de wa naija nai¹de nai		
-be-inherently	Negative continuative	ではなくてじゃなくて¹	de wa nakuteja nakute¹		
-be-inherently	Formal	です	desu		
-be-inherently	Perfective	だった	datta		
-be-inherently	Conjunctive	で	de		
-be-inherently	Hypothetical conditional	ならばであれば	narabade areba		
-be-inherently	¹ Colloquial contraction	¹ Colloquial contraction	¹ Colloquial contraction	¹ Colloquial contraction	¹ Colloquial contraction
-be-momentarily	stem forms	stem forms	stem forms	stem forms	
-be-momentarily	Imperfective (未然形)	だろでは	darode wa		
-be-momentarily	Continuative (連用形)	だっで	da'de		
-be-momentarily	Terminal (終止形)	だ	da		
-be-momentarily	Attributive (連体形)	であるな	de aruna		
-be-momentarily	Hypothetical (仮定形)	であれなら	de arenara		
-be-momentarily	Imperative (命令形)	-	-		
-be-momentarily	key constructions	key constructions	key constructions	key constructions	
-be-momentarily	Passive	-	-		
-be-momentarily	Causative	-	-		
-be-momentarily	Potential	-	-		
-be-momentarily	Volitional	だろう	darō		
-be-momentarily	Negative	ではないじゃない¹でない	de wa naija nai¹de nai		
-be-momentarily	Negative continuative	ではなくてじゃなくて¹	de wa nakuteja nakute¹		
-be-momentarily	Formal	です	desu		
-be-momentarily	Perfective	だった	datta		
-be-momentarily	Conjunctive	で	de		
-be-momentarily	Hypothetical conditional	ならばであれば	narabade areba		
-be-momentarily	¹ Colloquial contraction	¹ Colloquial contraction	¹ Colloquial contraction	¹ Colloquial contraction	¹ Colloquial contraction
+make	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+make	mizenkei ("imperfective")	作ら	つくら	tsukura
+make	ren’yōkei ("continuative")	作り	つくり	tsukuri
+make	shūshikei ("terminal")	作る	つくる	tsukuru
+make	rentaikei ("attributive")	作る	つくる	tsukuru
+make	kateikei ("hypothetical")	作れ	つくれ	tsukure
+make	meireikei ("imperative")	作れ	つくれ	tsukure
+make	key constructions	key constructions	key constructions	key constructions
+make	passive	作られる	つくられる	tsukurareru
+make	causative	作らせる作らす	つくらせるつくらす	tsukuraserutsukurasu
+make	potential	作れる	つくれる	tsukureru
+make	volitional	作ろう	つくろう	tsukurō
+make	negative	作らない	つくらない	tsukuranai
+make	negative continuative	作らず	つくらず	tsukurazu
+make	formal	作ります	つくります	tsukurimasu
+make	perfective	作った	つくった	tsukutta
+make	conjunctive	作って	つくって	tsukutte
+make	hypothetical conditional	作れば	つくれば	tsukureba
+make	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+make	mizenkei ("imperfective")	建設し	けんせつし	kensetsu shi
+make	ren’yōkei ("continuative")	建設し	けんせつし	kensetsu shi
+make	shūshikei ("terminal")	建設する	けんせつする	kensetsu suru
+make	rentaikei ("attributive")	建設する	けんせつする	kensetsu suru
+make	kateikei ("hypothetical")	建設すれ	けんせつすれ	kensetsu sure
+make	meireikei ("imperative")	建設せよ¹建設しろ²	けんせつせよ¹けんせつしろ²	kensetsu seyo¹kensetsu shiro²
+make	key constructions	key constructions	key constructions	key constructions
+make	passive	建設される	けんせつされる	kensetsu sareru
+make	causative	建設させる建設さす	けんせつさせるけんせつさす	kensetsu saserukensetsu sasu
+make	potential	建設できる	けんせつできる	kensetsu dekiru
+make	volitional	建設しよう	けんせつしよう	kensetsu shiyō
+make	negative	建設しない	けんせつしない	kensetsu shinai
+make	negative continuative	建設せず	けんせつせず	kensetsu sezu
+make	formal	建設します	けんせつします	kensetsu shimasu
+make	perfective	建設した	けんせつした	kensetsu shita
+make	conjunctive	建設して	けんせつして	kensetsu shite
+make	hypothetical conditional	建設すれば	けんせつすれば	kensetsu sureba
+make	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+make	mizenkei ("imperfective")	創ら	つくら	tsukura
+make	ren’yōkei ("continuative")	創り	つくり	tsukuri
+make	shūshikei ("terminal")	創る	つくる	tsukuru
+make	rentaikei ("attributive")	創る	つくる	tsukuru
+make	kateikei ("hypothetical")	創れ	つくれ	tsukure
+make	meireikei ("imperative")	創れ	つくれ	tsukure
+make	key constructions	key constructions	key constructions	key constructions
+make	passive	創られる	つくられる	tsukurareru
+make	causative	創らせる創らす	つくらせるつくらす	tsukuraserutsukurasu
+make	potential	創れる	つくれる	tsukureru
+make	volitional	創ろう	つくろう	tsukurō
+make	negative	創らない	つくらない	tsukuranai
+make	negative continuative	創らず	つくらず	tsukurazu
+make	formal	創ります	つくります	tsukurimasu
+make	perfective	創った	つくった	tsukutta
+make	conjunctive	創って	つくって	tsukutte
+make	hypothetical conditional	創れば	つくれば	tsukureba
+make	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+make	mizenkei ("imperfective")	創造し	そうぞうし	sōzō shi
+make	ren’yōkei ("continuative")	創造し	そうぞうし	sōzō shi
+make	shūshikei ("terminal")	創造する	そうぞうする	sōzō suru
+make	rentaikei ("attributive")	創造する	そうぞうする	sōzō suru
+make	kateikei ("hypothetical")	創造すれ	そうぞうすれ	sōzō sure
+make	meireikei ("imperative")	創造せよ¹創造しろ²	そうぞうせよ¹そうぞうしろ²	sōzō seyo¹sōzō shiro²
+make	key constructions	key constructions	key constructions	key constructions
+make	passive	創造される	そうぞうされる	sōzō sareru
+make	causative	創造させる創造さす	そうぞうさせるそうぞうさす	sōzō saserusōzō sasu
+make	potential	創造できる	そうぞうできる	sōzō dekiru
+make	volitional	創造しよう	そうぞうしよう	sōzō shiyō
+make	negative	創造しない	そうぞうしない	sōzō shinai
+make	negative continuative	創造せず	そうぞうせず	sōzō sezu
+make	formal	創造します	そうぞうします	sōzō shimasu
+make	perfective	創造した	そうぞうした	sōzō shita
+make	conjunctive	創造して	そうぞうして	sōzō shite
+make	hypothetical conditional	創造すれば	そうぞうすれば	sōzō sureba
+make	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+make	mizenkei ("imperfective")	原因し	げんいんし	gen'in shi
+make	ren’yōkei ("continuative")	原因し	げんいんし	gen'in shi
+make	shūshikei ("terminal")	原因する	げんいんする	gen'in suru
+make	rentaikei ("attributive")	原因する	げんいんする	gen'in suru
+make	kateikei ("hypothetical")	原因すれ	げんいんすれ	gen'in sure
+make	meireikei ("imperative")	原因せよ¹原因しろ²	げんいんせよ¹げんいんしろ²	gen'in seyo¹gen'in shiro²
+make	key constructions	key constructions	key constructions	key constructions
+make	passive	原因される	げんいんされる	gen'in sareru
+make	causative	原因させる原因さす	げんいんさせるげんいんさす	gen'in saserugen'in sasu
+make	potential	原因できる	げんいんできる	gen'in dekiru
+make	volitional	原因しよう	げんいんしよう	gen'in shiyō
+make	negative	原因しない	げんいんしない	gen'in shinai
+make	negative continuative	原因せず	げんいんせず	gen'in sezu
+make	formal	原因します	げんいんします	gen'in shimasu
+make	perfective	原因した	げんいんした	gen'in shita
+make	conjunctive	原因して	げんいんして	gen'in shite
+make	hypothetical conditional	原因すれば	げんいんすれば	gen'in sureba
+make	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+make	mizenkei ("imperfective")	さ・し・せ*	sa shi se*	
+make	ren’yōkei ("continuative")	し	shi	
+make	shūshikei ("terminal")	する	suru	
+make	rentaikei ("attributive")	する	suru	
+make	kateikei ("hypothetical")	すれ	sure	
+make	meireikei ("imperative")	せよ¹しろ²	seyo¹shiro²	
+make	key constructions	key constructions	key constructions	key constructions
+make	passive	される	sareru	
+make	causative	させるさす	saserusasu	
+make	potential	できる	dekiru	
+make	volitional	しよう	shiyō	
+make	negative	しない	shinai	
+make	negative continuative	せず	sezu	
+make	formal	します	shimasu	
+make	perfective	した	shita	
+make	conjunctive	して	shite	
+make	hypothetical conditional	すれば	sureba	
+make	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+make	mizenkei ("imperfective")	作ら	つくら	tsukura
+make	ren’yōkei ("continuative")	作り	つくり	tsukuri
+make	shūshikei ("terminal")	作る	つくる	tsukuru
+make	rentaikei ("attributive")	作る	つくる	tsukuru
+make	kateikei ("hypothetical")	作れ	つくれ	tsukure
+make	meireikei ("imperative")	作れ	つくれ	tsukure
+make	key constructions	key constructions	key constructions	key constructions
+make	passive	作られる	つくられる	tsukurareru
+make	causative	作らせる作らす	つくらせるつくらす	tsukuraserutsukurasu
+make	potential	作れる	つくれる	tsukureru
+make	volitional	作ろう	つくろう	tsukurō
+make	negative	作らない	つくらない	tsukuranai
+make	negative continuative	作らず	つくらず	tsukurazu
+make	formal	作ります	つくります	tsukurimasu
+make	perfective	作った	つくった	tsukutta
+make	conjunctive	作って	つくって	tsukutte
+make	hypothetical conditional	作れば	つくれば	tsukureba
+speak	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+speak	mizenkei ("imperfective")	話さ	はなさ	hanasa
+speak	ren’yōkei ("continuative")	話し	はなし	hanashi
+speak	shūshikei ("terminal")	話す	はなす	hanasu
+speak	rentaikei ("attributive")	話す	はなす	hanasu
+speak	kateikei ("hypothetical")	話せ	はなせ	hanase
+speak	meireikei ("imperative")	話せ	はなせ	hanase
+speak	key constructions	key constructions	key constructions	key constructions
+speak	passive	話される	はなされる	hanasareru
+speak	causative	話させる話さす	はなさせるはなさす	hanasaseruhanasasu
+speak	potential	話せる	はなせる	hanaseru
+speak	volitional	話そう	はなそう	hanasō
+speak	negative	話さない	はなさない	hanasanai
+speak	negative continuative	話さず	はなさず	hanasazu
+speak	formal	話します	はなします	hanashimasu
+speak	perfective	話した	はなした	hanashita
+speak	conjunctive	話して	はなして	hanashite
+speak	hypothetical conditional	話せば	はなせば	hanaseba
+speak	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+speak	mizenkei ("imperfective")	語ら	かたら	katara
+speak	ren’yōkei ("continuative")	語り	かたり	katari
+speak	shūshikei ("terminal")	語る	かたる	kataru
+speak	rentaikei ("attributive")	語る	かたる	kataru
+speak	kateikei ("hypothetical")	語れ	かたれ	katare
+speak	meireikei ("imperative")	語れ	かたれ	katare
+speak	key constructions	key constructions	key constructions	key constructions
+speak	passive	語られる	かたられる	katarareru
+speak	causative	語らせる語らす	かたらせるかたらす	kataraserukatarasu
+speak	potential	語れる	かたれる	katareru
+speak	volitional	語ろう	かたろう	katarō
+speak	negative	語らない	かたらない	kataranai
+speak	negative continuative	語らず	かたらず	katarazu
+speak	formal	語ります	かたります	katarimasu
+speak	perfective	語った	かたった	katatta
+speak	conjunctive	語って	かたって	katatte
+speak	hypothetical conditional	語れば	かたれば	katareba
+speak	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+speak	mizenkei ("imperfective")	言わ	いわ	iwa
+speak	ren’yōkei ("continuative")	言い	いい	ii
+speak	shūshikei ("terminal")	言う	いう	iu
+speak	rentaikei ("attributive")	言う	いう	iu
+speak	kateikei ("hypothetical")	言え	いえ	ie
+speak	meireikei ("imperative")	言え	いえ	ie
+speak	key constructions	key constructions	key constructions	key constructions
+speak	passive	言われる	いわれる	iwareru
+speak	causative	言わせる言わす	いわせるいわす	iwaseruiwasu
+speak	potential	言える	いえる	ieru
+speak	volitional	言おう	いおう	iō
+speak	negative	言わない	いわない	iwanai
+speak	negative continuative	言わず	いわず	iwazu
+speak	formal	言います	いいます	iimasu
+speak	perfective	言った	いった	itta
+speak	conjunctive	言って	いって	itte
+speak	hypothetical conditional	言えば	いえば	ieba
+speak	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+speak	mizenkei ("imperfective")	しゃべら	shabera	
+speak	ren’yōkei ("continuative")	しゃべり	shaberi	
+speak	shūshikei ("terminal")	しゃべる	shaberu	
+speak	rentaikei ("attributive")	しゃべる	shaberu	
+speak	kateikei ("hypothetical")	しゃべれ	shabere	
+speak	meireikei ("imperative")	しゃべれ	shabere	
+speak	key constructions	key constructions	key constructions	key constructions
+speak	passive	しゃべられる	shaberareru	
+speak	causative	しゃべらせるしゃべらす	shaberaserushaberasu	
+speak	potential	しゃべれる	shabereru	
+speak	volitional	しゃべろう	shaberō	
+speak	negative	しゃべらない	shaberanai	
+speak	negative continuative	しゃべらず	shaberazu	
+speak	formal	しゃべります	shaberimasu	
+speak	perfective	しゃべった	shabetta	
+speak	conjunctive	しゃべって	shabette	
+speak	hypothetical conditional	しゃべれば	shabereba	
+become	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+become	mizenkei ("imperfective")	なら	nara	
+become	ren’yōkei ("continuative")	なり	nari	
+become	shūshikei ("terminal")	なる	naru	
+become	rentaikei ("attributive")	なる	naru	
+become	kateikei ("hypothetical")	なれ	nare	
+become	meireikei ("imperative")	なれ	nare	
+become	key constructions	key constructions	key constructions	key constructions
+become	passive	なられる	narareru	
+become	causative	ならせるならす	naraserunarasu	
+become	potential	なれる	nareru	
+become	volitional	なろう	narō	
+become	negative	ならない	naranai	
+become	negative continuative	ならず	narazu	
+become	formal	なります	narimasu	
+become	perfective	なった	natta	
+become	conjunctive	なって	natte	
+become	hypothetical conditional	なれば	nareba	
+become	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+become	mizenkei ("imperfective")	なら	nara	
+become	ren’yōkei ("continuative")	なり	nari	
+become	shūshikei ("terminal")	なる	naru	
+become	rentaikei ("attributive")	なる	naru	
+become	kateikei ("hypothetical")	なれ	nare	
+become	meireikei ("imperative")	なれ	nare	
+become	key constructions	key constructions	key constructions	key constructions
+become	passive	なられる	narareru	
+become	causative	ならせるならす	naraserunarasu	
+become	potential	なれる	nareru	
+become	volitional	なろう	narō	
+become	negative	ならない	naranai	
+become	negative continuative	ならず	narazu	
+become	formal	なります	narimasu	
+become	perfective	なった	natta	
+become	conjunctive	なって	natte	
+become	hypothetical conditional	なれば	nareba	
+learn	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+learn	mizenkei ("imperfective")	習わ	ならわ	narawa
+learn	ren’yōkei ("continuative")	習い	ならい	narai
+learn	shūshikei ("terminal")	習う	ならう	narau
+learn	rentaikei ("attributive")	習う	ならう	narau
+learn	kateikei ("hypothetical")	習え	ならえ	narae
+learn	meireikei ("imperative")	習え	ならえ	narae
+learn	key constructions	key constructions	key constructions	key constructions
+learn	passive	習われる	ならわれる	narawareru
+learn	causative	習わせる習わす	ならわせるならわす	narawaserunarawasu
+learn	potential	習える	ならえる	naraeru
+learn	volitional	習おう	ならおう	naraō
+learn	negative	習わない	ならわない	narawanai
+learn	negative continuative	習わず	ならわず	narawazu
+learn	formal	習います	ならいます	naraimasu
+learn	perfective	習った	ならった	naratta
+learn	conjunctive	習って	ならって	naratte
+learn	hypothetical conditional	習えば	ならえば	naraeba
+learn	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+learn	mizenkei ("imperfective")	学ば	まなば	manaba
+learn	ren’yōkei ("continuative")	学び	まなび	manabi
+learn	shūshikei ("terminal")	学ぶ	まなぶ	manabu
+learn	rentaikei ("attributive")	学ぶ	まなぶ	manabu
+learn	kateikei ("hypothetical")	学べ	まなべ	manabe
+learn	meireikei ("imperative")	学べ	まなべ	manabe
+learn	key constructions	key constructions	key constructions	key constructions
+learn	passive	学ばれる	まなばれる	manabareru
+learn	causative	学ばせる学ばす	まなばせるまなばす	manabaserumanabasu
+learn	potential	学べる	まなべる	manaberu
+learn	volitional	学ぼう	まなぼう	manabō
+learn	negative	学ばない	まなばない	manabanai
+learn	negative continuative	学ばず	まなばず	manabazu
+learn	formal	学びます	まなびます	manabimasu
+learn	perfective	学んだ	まなんだ	mananda
+learn	conjunctive	学んで	まなんで	manande
+learn	hypothetical conditional	学べば	まなべば	manabeba
+learn	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+learn	mizenkei ("imperfective")	知ら	しら	shira
+learn	ren’yōkei ("continuative")	知り	しり	shiri
+learn	shūshikei ("terminal")	知る	しる	shiru
+learn	rentaikei ("attributive")	知る	しる	shiru
+learn	kateikei ("hypothetical")	知れ	しれ	shire
+learn	meireikei ("imperative")	知れ	しれ	shire
+learn	key constructions	key constructions	key constructions	key constructions
+learn	passive	知られる	しられる	shirareru
+learn	causative	知らせる知らす	しらせるしらす	shiraserushirasu
+learn	potential	知れる	しれる	shireru
+learn	volitional	知ろう	しろう	shirō
+learn	negative	知らない	しらない	shiranai
+learn	negative continuative	知らず	しらず	shirazu
+learn	formal	知ります	しります	shirimasu
+learn	perfective	知った	しった	shitta
+learn	conjunctive	知って	しって	shitte
+learn	hypothetical conditional	知れば	しれば	shireba
+give	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+give	mizenkei ("imperfective")	あげ	age	
+give	ren’yōkei ("continuative")	あげ	age	
+give	shūshikei ("terminal")	あげる	ageru	
+give	rentaikei ("attributive")	あげる	ageru	
+give	kateikei ("hypothetical")	あげれ	agere	
+give	meireikei ("imperative")	あげよ¹あげろ²	ageyo¹agero²	
+give	key constructions	key constructions	key constructions	key constructions
+give	passive	あげられる	agerareru	
+give	causative	あげさせるあげさす	agesaseruagesasu	
+give	potential	あげられるあげれる³	agerareruagereru³	
+give	volitional	あげよう	ageyō	
+give	negative	あげないあげぬあげん	agenaiagenuagen	
+give	negative continuative	あげず	agezu	
+give	formal	あげます	agemasu	
+give	perfective	あげた	ageta	
+give	conjunctive	あげて	agete	
+give	hypothetical conditional	あげれば	agereba	
+give	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+give	mizenkei ("imperfective")	下さら	くださら	kudasara
+give	ren’yōkei ("continuative")	下さい下さり	くださいくださり	kudasaikudasari
+give	shūshikei ("terminal")	下さる	くださる	kudasaru
+give	rentaikei ("attributive")	下さる	くださる	kudasaru
+give	kateikei ("hypothetical")	下され	くだされ	kudasare
+give	meireikei ("imperative")	下さい	ください	kudasai
+give	key constructions	key constructions	key constructions	key constructions
+give	passive	下さられる	くださられる	kudasarareru
+give	causative	下さらせる下さらす	くださらせるくださらす	kudasaraserukudasarasu
+give	potential	下される	くだされる	kudasareru
+give	volitional	下さろう	くださろう	kudasarō
+give	negative	下さらない	くださらない	kudasaranai
+give	negative continuative	下さらず	くださらず	kudasarazu
+give	formal	下さいます	くださいます	kudasaimasu
+give	perfective	下さった	くださった	kudasatta
+give	conjunctive	下さって	くださって	kudasatte
+give	hypothetical conditional	下されば	くだされば	kudasareba
+give	stem forms	stem forms	stem forms	stem forms
+give	irrealis (未然形)	下さら	くださら	kudasara
+give	continuative (連用形)	下さり	くださり	kudasari
+give	terminal (終止形)	下さる	くださる	kudasaru
+give	attributive (連体形)	下さる	くださる	kudasaru
+give	realis (已然形)	下され	くだされ	kudasare
+give	imperative (命令形)	下され下さい	くだされください	kudasarekudasai
+give	key constructions	key constructions	key constructions	key constructions
+give	negative	下さらず	くださらず	kudasarazu
+give	contrasting conjunction	下されど	くだされど	kudasaredo
+give	causal conjunction	下されば	くだされば	kudasareba
+give	conditional conjunction	下さらば	くださらば	kudasaraba
+give	past tense (firsthand knowledge)	下さりき	くださりき	kudasariki
+give	past tense (secondhand knowledge)	下さりけり	くださりけり	kudasarikeri
+give	perfect tense (conscious action)	下さりつ	くださりつ	kudasaritu
+give	perfect tense (natural event)	下さりぬ	くださりぬ	kudasarinu
+give	perfect-continuative tense	下されり下さりたり	くだされりくださりたり	kudasarerikudasaritari
+give	volitional	下さらむ	くださらむ	kudasaramu
+give	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+give	mizenkei ("imperfective")	差し上げ	さしあげ	sashiage
+give	ren’yōkei ("continuative")	差し上げ	さしあげ	sashiage
+give	shūshikei ("terminal")	差し上げる	さしあげる	sashiageru
+give	rentaikei ("attributive")	差し上げる	さしあげる	sashiageru
+give	kateikei ("hypothetical")	差し上げれ	さしあげれ	sashiagere
+give	meireikei ("imperative")	差し上げよ¹差し上げろ²	さしあげよ¹さしあげろ²	sashiageyo¹sashiagero²
+give	key constructions	key constructions	key constructions	key constructions
+give	passive	差し上げられる	さしあげられる	sashiagerareru
+give	causative	差し上げさせる差し上げさす	さしあげさせるさしあげさす	sashiagesaserusashiagesasu
+give	potential	差し上げられる差し上げれる³	さしあげられるさしあげれる³	sashiagerarerusashiagereru³
+give	volitional	差し上げよう	さしあげよう	sashiageyō
+give	negative	差し上げない差し上げぬ差し上げん	さしあげないさしあげぬさしあげん	sashiagenaisashiagenusashiagen
+give	negative continuative	差し上げず	さしあげず	sashiagezu
+give	formal	差し上げます	さしあげます	sashiagemasu
+give	perfective	差し上げた	さしあげた	sashiageta
+give	conjunctive	差し上げて	さしあげて	sashiagete
+give	hypothetical conditional	差し上げれば	さしあげれば	sashiagereba
+give	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+give	mizenkei ("imperfective")	呉れ	くれ	kure
+give	ren’yōkei ("continuative")	呉れ	くれ	kure
+give	shūshikei ("terminal")	呉れる	くれる	kureru
+give	rentaikei ("attributive")	呉れる	くれる	kureru
+give	kateikei ("hypothetical")	呉れれ	くれれ	kurere
+give	meireikei ("imperative")	呉れ¹	くれ¹	kure¹
+give	key constructions	key constructions	key constructions	key constructions
+give	passive	呉れられる	くれられる	kurerareru
+give	causative	呉れさせる呉れさす	くれさせるくれさす	kuresaserukuresasu
+give	potential	呉れられる呉れれる²	くれられるくれれる²	kurerarerukurereru²
+give	volitional	呉れよう	くれよう	kureyō
+give	negative	呉れない呉れぬ呉れん	くれないくれぬくれん	kurenaikurenukuren
+give	negative continuative	呉れず	くれず	kurezu
+give	formal	呉れます	くれます	kuremasu
+give	perfective	呉れた	くれた	kureta
+give	conjunctive	呉れて	くれて	kurete
+give	hypothetical conditional	呉れれば	くれれば	kurereba
+help	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+help	mizenkei ("imperfective")	助け	たすけ	tasuke
+help	ren’yōkei ("continuative")	助け	たすけ	tasuke
+help	shūshikei ("terminal")	助ける	たすける	tasukeru
+help	rentaikei ("attributive")	助ける	たすける	tasukeru
+help	kateikei ("hypothetical")	助けれ	たすけれ	tasukere
+help	meireikei ("imperative")	助けよ¹助けろ²	たすけよ¹たすけろ²	tasukeyo¹tasukero²
+help	key constructions	key constructions	key constructions	key constructions
+help	passive	助けられる	たすけられる	tasukerareru
+help	causative	助けさせる助けさす	たすけさせるたすけさす	tasukesaserutasukesasu
+help	potential	助けられる助けれる³	たすけられるたすけれる³	tasukerarerutasukereru³
+help	volitional	助けよう	たすけよう	tasukeyō
+help	negative	助けない助けぬ助けん	たすけないたすけぬたすけん	tasukenaitasukenutasuken
+help	negative continuative	助けず	たすけず	tasukezu
+help	formal	助けます	たすけます	tasukemasu
+help	perfective	助けた	たすけた	tasuketa
+help	conjunctive	助けて	たすけて	tasukete
+help	hypothetical conditional	助ければ	たすければ	tasukereba
+help	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+help	mizenkei ("imperfective")	助け	すけ	suke
+help	ren’yōkei ("continuative")	助け	すけ	suke
+help	shūshikei ("terminal")	助ける	すける	sukeru
+help	rentaikei ("attributive")	助ける	すける	sukeru
+help	kateikei ("hypothetical")	助けれ	すけれ	sukere
+help	meireikei ("imperative")	助けよ¹助けろ²	すけよ¹すけろ²	sukeyo¹sukero²
+help	key constructions	key constructions	key constructions	key constructions
+help	passive	助けられる	すけられる	sukerareru
+help	causative	助けさせる助けさす	すけさせるすけさす	sukesaserusukesasu
+help	potential	助けられる助けれる³	すけられるすけれる³	sukerarerusukereru³
+help	volitional	助けよう	すけよう	sukeyō
+help	negative	助けない助けぬ助けん	すけないすけぬすけん	sukenaisukenusuken
+help	negative continuative	助けず	すけず	sukezu
+help	formal	助けます	すけます	sukemasu
+help	perfective	助けた	すけた	suketa
+help	conjunctive	助けて	すけて	sukete
+help	hypothetical conditional	助ければ	すければ	sukereba
+help	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+help	mizenkei ("imperfective")	手伝わ	てつだわ	tetsudawa
+help	ren’yōkei ("continuative")	手伝い	てつだい	tetsudai
+help	shūshikei ("terminal")	手伝う	てつだう	tetsudau
+help	rentaikei ("attributive")	手伝う	てつだう	tetsudau
+help	kateikei ("hypothetical")	手伝え	てつだえ	tetsudae
+help	meireikei ("imperative")	手伝え	てつだえ	tetsudae
+help	key constructions	key constructions	key constructions	key constructions
+help	passive	手伝われる	てつだわれる	tetsudawareru
+help	causative	手伝わせる手伝わす	てつだわせるてつだわす	tetsudawaserutetsudawasu
+help	potential	手伝える	てつだえる	tetsudaeru
+help	volitional	手伝おう	てつだおう	tetsudaō
+help	negative	手伝わない	てつだわない	tetsudawanai
+help	negative continuative	手伝わず	てつだわず	tetsudawazu
+help	formal	手伝います	てつだいます	tetsudaimasu
+help	perfective	手伝った	てつだった	tetsudatta
+help	conjunctive	手伝って	てつだって	tetsudatte
+help	hypothetical conditional	手伝えば	てつだえば	tetsudaeba
+protect	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+protect	mizenkei ("imperfective")	守ら	まもら	mamora
+protect	ren’yōkei ("continuative")	守り	まもり	mamori
+protect	shūshikei ("terminal")	守る	まもる	mamoru
+protect	rentaikei ("attributive")	守る	まもる	mamoru
+protect	kateikei ("hypothetical")	守れ	まもれ	mamore
+protect	meireikei ("imperative")	守れ	まもれ	mamore
+protect	key constructions	key constructions	key constructions	key constructions
+protect	passive	守られる	まもられる	mamorareru
+protect	causative	守らせる守らす	まもらせるまもらす	mamoraserumamorasu
+protect	potential	守れる	まもれる	mamoreru
+protect	volitional	守ろう	まもろう	mamorō
+protect	negative	守らない	まもらない	mamoranai
+protect	negative continuative	守らず	まもらず	mamorazu
+protect	formal	守ります	まもります	mamorimasu
+protect	perfective	守った	まもった	mamotta
+protect	conjunctive	守って	まもって	mamotte
+protect	hypothetical conditional	守れば	まもれば	mamoreba
+protect	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+protect	mizenkei ("imperfective")	守ら	もら	mora
+protect	ren’yōkei ("continuative")	守り	もり	mori
+protect	shūshikei ("terminal")	守る	もる	moru
+protect	rentaikei ("attributive")	守る	もる	moru
+protect	kateikei ("hypothetical")	守れ	もれ	more
+protect	meireikei ("imperative")	守れ	もれ	more
+protect	key constructions	key constructions	key constructions	key constructions
+protect	passive	守られる	もられる	morareru
+protect	causative	守らせる守らす	もらせるもらす	moraserumorasu
+protect	potential	守れる	もれる	moreru
+protect	volitional	守ろう	もろう	morō
+protect	negative	守らない	もらない	moranai
+protect	negative continuative	守らず	もらず	morazu
+protect	formal	守ります	もります	morimasu
+protect	perfective	守った	もった	motta
+protect	conjunctive	守って	もって	motte
+protect	hypothetical conditional	守れば	もれば	moreba
+protect	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+protect	mizenkei ("imperfective")	保護し	ほごし	hogo shi
+protect	ren’yōkei ("continuative")	保護し	ほごし	hogo shi
+protect	shūshikei ("terminal")	保護する	ほごする	hogo suru
+protect	rentaikei ("attributive")	保護する	ほごする	hogo suru
+protect	kateikei ("hypothetical")	保護すれ	ほごすれ	hogo sure
+protect	meireikei ("imperative")	保護せよ¹保護しろ²	ほごせよ¹ほごしろ²	hogo seyo¹hogo shiro²
+protect	key constructions	key constructions	key constructions	key constructions
+protect	passive	保護される	ほごされる	hogo sareru
+protect	causative	保護させる保護さす	ほごさせるほごさす	hogo saseruhogo sasu
+protect	potential	保護できる	ほごできる	hogo dekiru
+protect	volitional	保護しよう	ほごしよう	hogo shiyō
+protect	negative	保護しない	ほごしない	hogo shinai
+protect	negative continuative	保護せず	ほごせず	hogo sezu
+protect	formal	保護します	ほごします	hogo shimasu
+protect	perfective	保護した	ほごした	hogo shita
+protect	conjunctive	保護して	ほごして	hogo shite
+protect	hypothetical conditional	保護すれば	ほごすれば	hogo sureba
+hide	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+hide	mizenkei ("imperfective")	隠さ	かくさ	kakusa
+hide	ren’yōkei ("continuative")	隠し	かくし	kakushi
+hide	shūshikei ("terminal")	隠す	かくす	kakusu
+hide	rentaikei ("attributive")	隠す	かくす	kakusu
+hide	kateikei ("hypothetical")	隠せ	かくせ	kakuse
+hide	meireikei ("imperative")	隠せ	かくせ	kakuse
+hide	key constructions	key constructions	key constructions	key constructions
+hide	passive	隠される	かくされる	kakusareru
+hide	causative	隠させる隠さす	かくさせるかくさす	kakusaserukakusasu
+hide	potential	隠せる	かくせる	kakuseru
+hide	volitional	隠そう	かくそう	kakusō
+hide	negative	隠さない	かくさない	kakusanai
+hide	negative continuative	隠さず	かくさず	kakusazu
+hide	formal	隠します	かくします	kakushimasu
+hide	perfective	隠した	かくした	kakushita
+hide	conjunctive	隠して	かくして	kakushite
+hide	hypothetical conditional	隠せば	かくせば	kakuseba
+hide	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+hide	mizenkei ("imperfective")	隠匿し	いんとくし	intoku shi
+hide	ren’yōkei ("continuative")	隠匿し	いんとくし	intoku shi
+hide	shūshikei ("terminal")	隠匿する	いんとくする	intoku suru
+hide	rentaikei ("attributive")	隠匿する	いんとくする	intoku suru
+hide	kateikei ("hypothetical")	隠匿すれ	いんとくすれ	intoku sure
+hide	meireikei ("imperative")	隠匿せよ¹隠匿しろ²	いんとくせよ¹いんとくしろ²	intoku seyo¹intoku shiro²
+hide	key constructions	key constructions	key constructions	key constructions
+hide	passive	隠匿される	いんとくされる	intoku sareru
+hide	causative	隠匿させる隠匿さす	いんとくさせるいんとくさす	intoku saseruintoku sasu
+hide	potential	隠匿できる	いんとくできる	intoku dekiru
+hide	volitional	隠匿しよう	いんとくしよう	intoku shiyō
+hide	negative	隠匿しない	いんとくしない	intoku shinai
+hide	negative continuative	隠匿せず	いんとくせず	intoku sezu
+hide	formal	隠匿します	いんとくします	intoku shimasu
+hide	perfective	隠匿した	いんとくした	intoku shita
+hide	conjunctive	隠匿して	いんとくして	intoku shite
+hide	hypothetical conditional	隠匿すれば	いんとくすれば	intoku sureba
+be-able	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+be-able	mizenkei ("imperfective")	でき	deki	
+be-able	ren’yōkei ("continuative")	でき	deki	
+be-able	shūshikei ("terminal")	できる	dekiru	
+be-able	rentaikei ("attributive")	できる	dekiru	
+be-able	kateikei ("hypothetical")	できれ	dekire	
+be-able	meireikei ("imperative")	できよ¹できろ²	dekiyo¹dekiro²	
+be-able	key constructions	key constructions	key constructions	key constructions
+be-able	passive	できられる	dekirareru	
+be-able	causative	できさせるできさす	dekisaserudekisasu	
+be-able	potential	できられるできれる³	dekirarerudekireru³	
+be-able	volitional	できよう	dekiyō	
+be-able	negative	できないできぬできん	dekinaidekinudekin	
+be-able	negative continuative	できず	dekizu	
+be-able	formal	できます	dekimasu	
+be-able	perfective	できた	dekita	
+be-able	conjunctive	できて	dekite	
+be-able	hypothetical conditional	できれば	dekireba	
+appear	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+appear	mizenkei ("imperfective")	現れ	あらわれ	araware
+appear	ren’yōkei ("continuative")	現れ	あらわれ	araware
+appear	shūshikei ("terminal")	現れる	あらわれる	arawareru
+appear	rentaikei ("attributive")	現れる	あらわれる	arawareru
+appear	kateikei ("hypothetical")	現れれ	あらわれれ	arawarere
+appear	meireikei ("imperative")	現れよ¹現れろ²	あらわれよ¹あらわれろ²	arawareyo¹arawarero²
+appear	key constructions	key constructions	key constructions	key constructions
+appear	passive	現れられる	あらわれられる	arawarerareru
+appear	causative	現れさせる現れさす	あらわれさせるあらわれさす	arawaresaseruarawaresasu
+appear	potential	現れられる現れれる³	あらわれられるあらわれれる³	arawarerareruarawarereru³
+appear	volitional	現れよう	あらわれよう	arawareyō
+appear	negative	現れない現れぬ現れん	あらわれないあらわれぬあらわれん	arawarenaiarawarenuarawaren
+appear	negative continuative	現れず	あらわれず	arawarezu
+appear	formal	現れます	あらわれます	arawaremasu
+appear	perfective	現れた	あらわれた	arawareta
+appear	conjunctive	現れて	あらわれて	arawarete
+appear	hypothetical conditional	現れれば	あらわれれば	arawarereba
+arrive	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+arrive	mizenkei ("imperfective")	着か	つか	tsuka
+arrive	ren’yōkei ("continuative")	着き	つき	tsuki
+arrive	shūshikei ("terminal")	着く	つく	tsuku
+arrive	rentaikei ("attributive")	着く	つく	tsuku
+arrive	kateikei ("hypothetical")	着け	つけ	tsuke
+arrive	meireikei ("imperative")	着け	つけ	tsuke
+arrive	key constructions	key constructions	key constructions	key constructions
+arrive	passive	着かれる	つかれる	tsukareru
+arrive	causative	着かせる着かす	つかせるつかす	tsukaserutsukasu
+arrive	potential	着ける	つける	tsukeru
+arrive	volitional	着こう	つこう	tsukō
+arrive	negative	着かない	つかない	tsukanai
+arrive	negative continuative	着かず	つかず	tsukazu
+arrive	formal	着きます	つきます	tsukimasu
+arrive	perfective	着いた	ついた	tsuita
+arrive	conjunctive	着いて	ついて	tsuite
+arrive	hypothetical conditional	着けば	つけば	tsukeba
+arrive	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+arrive	mizenkei ("imperfective")	到着し	とうちゃくし	tōchaku shi
+arrive	ren’yōkei ("continuative")	到着し	とうちゃくし	tōchaku shi
+arrive	shūshikei ("terminal")	到着する	とうちゃくする	tōchaku suru
+arrive	rentaikei ("attributive")	到着する	とうちゃくする	tōchaku suru
+arrive	kateikei ("hypothetical")	到着すれ	とうちゃくすれ	tōchaku sure
+arrive	meireikei ("imperative")	到着せよ¹到着しろ²	とうちゃくせよ¹とうちゃくしろ²	tōchaku seyo¹tōchaku shiro²
+arrive	key constructions	key constructions	key constructions	key constructions
+arrive	passive	到着される	とうちゃくされる	tōchaku sareru
+arrive	causative	到着させる到着さす	とうちゃくさせるとうちゃくさす	tōchaku saserutōchaku sasu
+arrive	potential	到着できる	とうちゃくできる	tōchaku dekiru
+arrive	volitional	到着しよう	とうちゃくしよう	tōchaku shiyō
+arrive	negative	到着しない	とうちゃくしない	tōchaku shinai
+arrive	negative continuative	到着せず	とうちゃくせず	tōchaku sezu
+arrive	formal	到着します	とうちゃくします	tōchaku shimasu
+arrive	perfective	到着した	とうちゃくした	tōchaku shita
+arrive	conjunctive	到着して	とうちゃくして	tōchaku shite
+arrive	hypothetical conditional	到着すれば	とうちゃくすれば	tōchaku sureba
+come	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+come	mizenkei ("imperfective")	着か	つか	tsuka
+come	ren’yōkei ("continuative")	着き	つき	tsuki
+come	shūshikei ("terminal")	着く	つく	tsuku
+come	rentaikei ("attributive")	着く	つく	tsuku
+come	kateikei ("hypothetical")	着け	つけ	tsuke
+come	meireikei ("imperative")	着け	つけ	tsuke
+come	key constructions	key constructions	key constructions	key constructions
+come	passive	着かれる	つかれる	tsukareru
+come	causative	着かせる着かす	つかせるつかす	tsukaserutsukasu
+come	potential	着ける	つける	tsukeru
+come	volitional	着こう	つこう	tsukō
+come	negative	着かない	つかない	tsukanai
+come	negative continuative	着かず	つかず	tsukazu
+come	formal	着きます	つきます	tsukimasu
+come	perfective	着いた	ついた	tsuita
+come	conjunctive	着いて	ついて	tsuite
+come	hypothetical conditional	着けば	つけば	tsukeba
+come	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+come	mizenkei ("imperfective")	到着し	とうちゃくし	tōchaku shi
+come	ren’yōkei ("continuative")	到着し	とうちゃくし	tōchaku shi
+come	shūshikei ("terminal")	到着する	とうちゃくする	tōchaku suru
+come	rentaikei ("attributive")	到着する	とうちゃくする	tōchaku suru
+come	kateikei ("hypothetical")	到着すれ	とうちゃくすれ	tōchaku sure
+come	meireikei ("imperative")	到着せよ¹到着しろ²	とうちゃくせよ¹とうちゃくしろ²	tōchaku seyo¹tōchaku shiro²
+come	key constructions	key constructions	key constructions	key constructions
+come	passive	到着される	とうちゃくされる	tōchaku sareru
+come	causative	到着させる到着さす	とうちゃくさせるとうちゃくさす	tōchaku saserutōchaku sasu
+come	potential	到着できる	とうちゃくできる	tōchaku dekiru
+come	volitional	到着しよう	とうちゃくしよう	tōchaku shiyō
+come	negative	到着しない	とうちゃくしない	tōchaku shinai
+come	negative continuative	到着せず	とうちゃくせず	tōchaku sezu
+come	formal	到着します	とうちゃくします	tōchaku shimasu
+come	perfective	到着した	とうちゃくした	tōchaku shita
+come	conjunctive	到着して	とうちゃくして	tōchaku shite
+come	hypothetical conditional	到着すれば	とうちゃくすれば	tōchaku sureba
+ask	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+ask	mizenkei ("imperfective")	聞か	きか	kika
+ask	ren’yōkei ("continuative")	聞き	きき	kiki
+ask	shūshikei ("terminal")	聞く	きく	kiku
+ask	rentaikei ("attributive")	聞く	きく	kiku
+ask	kateikei ("hypothetical")	聞け	きけ	kike
+ask	meireikei ("imperative")	聞け	きけ	kike
+ask	key constructions	key constructions	key constructions	key constructions
+ask	passive	聞かれる	きかれる	kikareru
+ask	causative	聞かせる聞かす	きかせるきかす	kikaserukikasu
+ask	potential	聞ける	きける	kikeru
+ask	volitional	聞こう	きこう	kikō
+ask	negative	聞かない	きかない	kikanai
+ask	negative continuative	聞かず	きかず	kikazu
+ask	formal	聞きます	ききます	kikimasu
+ask	perfective	聞いた	きいた	kiita
+ask	conjunctive	聞いて	きいて	kiite
+ask	hypothetical conditional	聞けば	きけば	kikeba
+ask	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+ask	mizenkei ("imperfective")	尋ね	たずね	tazune
+ask	ren’yōkei ("continuative")	尋ね	たずね	tazune
+ask	shūshikei ("terminal")	尋ねる	たずねる	tazuneru
+ask	rentaikei ("attributive")	尋ねる	たずねる	tazuneru
+ask	kateikei ("hypothetical")	尋ねれ	たずねれ	tazunere
+ask	meireikei ("imperative")	尋ねよ¹尋ねろ²	たずねよ¹たずねろ²	tazuneyo¹tazunero²
+ask	key constructions	key constructions	key constructions	key constructions
+ask	passive	尋ねられる	たずねられる	tazunerareru
+ask	causative	尋ねさせる尋ねさす	たずねさせるたずねさす	tazunesaserutazunesasu
+ask	potential	尋ねられる尋ねれる³	たずねられるたずねれる³	tazunerarerutazunereru³
+ask	volitional	尋ねよう	たずねよう	tazuneyō
+ask	negative	尋ねない尋ねぬ尋ねん	たずねないたずねぬたずねん	tazunenaitazunenutazunen
+ask	negative continuative	尋ねず	たずねず	tazunezu
+ask	formal	尋ねます	たずねます	tazunemasu
+ask	perfective	尋ねた	たずねた	tazuneta
+ask	conjunctive	尋ねて	たずねて	tazunete
+ask	hypothetical conditional	尋ねれば	たずねれば	tazunereba
+ask	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+ask	mizenkei ("imperfective")	伺わ	うかがわ	ukagawa
+ask	ren’yōkei ("continuative")	伺い	うかがい	ukagai
+ask	shūshikei ("terminal")	伺う	うかがう	ukagau
+ask	rentaikei ("attributive")	伺う	うかがう	ukagau
+ask	kateikei ("hypothetical")	伺え	うかがえ	ukagae
+ask	meireikei ("imperative")	伺え	うかがえ	ukagae
+ask	key constructions	key constructions	key constructions	key constructions
+ask	passive	伺われる	うかがわれる	ukagawareru
+ask	causative	伺わせる伺わす	うかがわせるうかがわす	ukagawaseruukagawasu
+ask	potential	伺える	うかがえる	ukagaeru
+ask	volitional	伺おう	うかがおう	ukagaō
+ask	negative	伺わない	うかがわない	ukagawanai
+ask	negative continuative	伺わず	うかがわず	ukagawazu
+ask	formal	伺います	うかがいます	ukagaimasu
+ask	perfective	伺った	うかがった	ukagatta
+ask	conjunctive	伺って	うかがって	ukagatte
+ask	hypothetical conditional	伺えば	うかがえば	ukagaeba
+ask	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+ask	mizenkei ("imperfective")	質問し	しつもんし	shitsumon shi
+ask	ren’yōkei ("continuative")	質問し	しつもんし	shitsumon shi
+ask	shūshikei ("terminal")	質問する	しつもんする	shitsumon suru
+ask	rentaikei ("attributive")	質問する	しつもんする	shitsumon suru
+ask	kateikei ("hypothetical")	質問すれ	しつもんすれ	shitsumon sure
+ask	meireikei ("imperative")	質問せよ¹質問しろ²	しつもんせよ¹しつもんしろ²	shitsumon seyo¹shitsumon shiro²
+ask	key constructions	key constructions	key constructions	key constructions
+ask	passive	質問される	しつもんされる	shitsumon sareru
+ask	causative	質問させる質問さす	しつもんさせるしつもんさす	shitsumon saserushitsumon sasu
+ask	potential	質問できる	しつもんできる	shitsumon dekiru
+ask	volitional	質問しよう	しつもんしよう	shitsumon shiyō
+ask	negative	質問しない	しつもんしない	shitsumon shinai
+ask	negative continuative	質問せず	しつもんせず	shitsumon sezu
+ask	formal	質問します	しつもんします	shitsumon shimasu
+ask	perfective	質問した	しつもんした	shitsumon shita
+ask	conjunctive	質問して	しつもんして	shitsumon shite
+ask	hypothetical conditional	質問すれば	しつもんすれば	shitsumon sureba
+be	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+be	mizenkei ("imperfective")	だろでは	darode wa	
+be	ren’yōkei ("continuative")	だっで	da'de	
+be	shūshikei ("terminal")	だ	da	
+be	rentaikei ("attributive")	であるなだ	de arunada	
+be	kateikei ("hypothetical")	であれなら	de arenara	
+be	meireikei ("imperative")	-	-	
+be	key constructions	key constructions	key constructions	key constructions
+be	passive	-	-	
+be	causative	-	-	
+be	potential	-	-	
+be	volitional	だろう	darō	
+be	negative	ではないじゃない¹でない	de wa naija nai¹de nai	
+be	negative continuative	ではなくてじゃなくて¹	de wa nakuteja nakute¹	
+be	formal	です	desu	
+be	perfective	だった	datta	
+be	conjunctive	で	de	
+be	hypothetical conditional	ならばであれば	narabade areba	
+be	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+be	mizenkei ("imperfective")	だろでは	darode wa	
+be	ren’yōkei ("continuative")	だっで	da'de	
+be	shūshikei ("terminal")	だ	da	
+be	rentaikei ("attributive")	であるなだ	de arunada	
+be	kateikei ("hypothetical")	であれなら	de arenara	
+be	meireikei ("imperative")	-	-	
+be	key constructions	key constructions	key constructions	key constructions
+be	passive	-	-	
+be	causative	-	-	
+be	potential	-	-	
+be	volitional	だろう	darō	
+be	negative	ではないじゃない¹でない	de wa naija nai¹de nai	
+be	negative continuative	ではなくてじゃなくて¹	de wa nakuteja nakute¹	
+be	formal	です	desu	
+be	perfective	だった	datta	
+be	conjunctive	で	de	
+be	hypothetical conditional	ならばであれば	narabade areba	
+be	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+be	mizenkei ("imperfective")	だろでは	darode wa	
+be	ren’yōkei ("continuative")	だっで	da'de	
+be	shūshikei ("terminal")	だ	da	
+be	rentaikei ("attributive")	であるなだ	de arunada	
+be	kateikei ("hypothetical")	であれなら	de arenara	
+be	meireikei ("imperative")	-	-	
+be	key constructions	key constructions	key constructions	key constructions
+be	passive	-	-	
+be	causative	-	-	
+be	potential	-	-	
+be	volitional	だろう	darō	
+be	negative	ではないじゃない¹でない	de wa naija nai¹de nai	
+be	negative continuative	ではなくてじゃなくて¹	de wa nakuteja nakute¹	
+be	formal	です	desu	
+be	perfective	だった	datta	
+be	conjunctive	で	de	
+be	hypothetical conditional	ならばであれば	narabade areba	
+change	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+change	mizenkei ("imperfective")	変え	かえ	kae
+change	ren’yōkei ("continuative")	変え	かえ	kae
+change	shūshikei ("terminal")	変える	かえる	kaeru
+change	rentaikei ("attributive")	変える	かえる	kaeru
+change	kateikei ("hypothetical")	変えれ	かえれ	kaere
+change	meireikei ("imperative")	変えよ¹変えろ²	かえよ¹かえろ²	kaeyo¹kaero²
+change	key constructions	key constructions	key constructions	key constructions
+change	passive	変えられる	かえられる	kaerareru
+change	causative	変えさせる変えさす	かえさせるかえさす	kaesaserukaesasu
+change	potential	変えられる変えれる³	かえられるかえれる³	kaerarerukaereru³
+change	volitional	変えよう	かえよう	kaeyō
+change	negative	変えない変えぬ変えん	かえないかえぬかえん	kaenaikaenukaen
+change	negative continuative	変えず	かえず	kaezu
+change	formal	変えます	かえます	kaemasu
+change	perfective	変えた	かえた	kaeta
+change	conjunctive	変えて	かえて	kaete
+change	hypothetical conditional	変えれば	かえれば	kaereba
+change	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+change	mizenkei ("imperfective")	変更し	へんこうし	henkō shi
+change	ren’yōkei ("continuative")	変更し	へんこうし	henkō shi
+change	shūshikei ("terminal")	変更する	へんこうする	henkō suru
+change	rentaikei ("attributive")	変更する	へんこうする	henkō suru
+change	kateikei ("hypothetical")	変更すれ	へんこうすれ	henkō sure
+change	meireikei ("imperative")	変更せよ¹変更しろ²	へんこうせよ¹へんこうしろ²	henkō seyo¹henkō shiro²
+change	key constructions	key constructions	key constructions	key constructions
+change	passive	変更される	へんこうされる	henkō sareru
+change	causative	変更させる変更さす	へんこうさせるへんこうさす	henkō saseruhenkō sasu
+change	potential	変更できる	へんこうできる	henkō dekiru
+change	volitional	変更しよう	へんこうしよう	henkō shiyō
+change	negative	変更しない	へんこうしない	henkō shinai
+change	negative continuative	変更せず	へんこうせず	henkō sezu
+change	formal	変更します	へんこうします	henkō shimasu
+change	perfective	変更した	へんこうした	henkō shita
+change	conjunctive	変更して	へんこうして	henkō shite
+change	hypothetical conditional	変更すれば	へんこうすれば	henkō sureba
+crawl	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+crawl	mizenkei ("imperfective")	這わ	はわ	hawa
+crawl	ren’yōkei ("continuative")	這い	はい	hai
+crawl	shūshikei ("terminal")	這う	はう	hau
+crawl	rentaikei ("attributive")	這う	はう	hau
+crawl	kateikei ("hypothetical")	這え	はえ	hae
+crawl	meireikei ("imperative")	這え	はえ	hae
+crawl	key constructions	key constructions	key constructions	key constructions
+crawl	passive	這われる	はわれる	hawareru
+crawl	causative	這わせる這わす	はわせるはわす	hawaseruhawasu
+crawl	potential	這える	はえる	haeru
+crawl	volitional	這おう	はおう	haō
+crawl	negative	這わない	はわない	hawanai
+crawl	negative continuative	這わず	はわず	hawazu
+crawl	formal	這います	はいます	haimasu
+crawl	perfective	這った	はった	hatta
+crawl	conjunctive	這って	はって	hatte
+crawl	hypothetical conditional	這えば	はえば	haeba
+lead	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+lead	mizenkei ("imperfective")	導か	みちびか	michibika
+lead	ren’yōkei ("continuative")	導き	みちびき	michibiki
+lead	shūshikei ("terminal")	導く	みちびく	michibiku
+lead	rentaikei ("attributive")	導く	みちびく	michibiku
+lead	kateikei ("hypothetical")	導け	みちびけ	michibike
+lead	meireikei ("imperative")	導け	みちびけ	michibike
+lead	key constructions	key constructions	key constructions	key constructions
+lead	passive	導かれる	みちびかれる	michibikareru
+lead	causative	導かせる導かす	みちびかせるみちびかす	michibikaserumichibikasu
+lead	potential	導ける	みちびける	michibikeru
+lead	volitional	導こう	みちびこう	michibikō
+lead	negative	導かない	みちびかない	michibikanai
+lead	negative continuative	導かず	みちびかず	michibikazu
+lead	formal	導きます	みちびきます	michibikimasu
+lead	perfective	導いた	みちびいた	michibiita
+lead	conjunctive	導いて	みちびいて	michibiite
+lead	hypothetical conditional	導けば	みちびけば	michibikeba
+lead	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+lead	mizenkei ("imperfective")	案内し	あんないし	annai shi
+lead	ren’yōkei ("continuative")	案内し	あんないし	annai shi
+lead	shūshikei ("terminal")	案内する	あんないする	annai suru
+lead	rentaikei ("attributive")	案内する	あんないする	annai suru
+lead	kateikei ("hypothetical")	案内すれ	あんないすれ	annai sure
+lead	meireikei ("imperative")	案内せよ¹案内しろ²	あんないせよ¹あんないしろ²	annai seyo¹annai shiro²
+lead	key constructions	key constructions	key constructions	key constructions
+lead	passive	案内される	あんないされる	annai sareru
+lead	causative	案内させる案内さす	あんないさせるあんないさす	annai saseruannai sasu
+lead	potential	案内できる	あんないできる	annai dekiru
+lead	volitional	案内しよう	あんないしよう	annai shiyō
+lead	negative	案内しない	あんないしない	annai shinai
+lead	negative continuative	案内せず	あんないせず	annai sezu
+lead	formal	案内します	あんないします	annai shimasu
+lead	perfective	案内した	あんないした	annai shita
+lead	conjunctive	案内して	あんないして	annai shite
+lead	hypothetical conditional	案内すれば	あんないすれば	annai sureba
+lead	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+lead	mizenkei ("imperfective")	導か	みちびか	michibika
+lead	ren’yōkei ("continuative")	導き	みちびき	michibiki
+lead	shūshikei ("terminal")	導く	みちびく	michibiku
+lead	rentaikei ("attributive")	導く	みちびく	michibiku
+lead	kateikei ("hypothetical")	導け	みちびけ	michibike
+lead	meireikei ("imperative")	導け	みちびけ	michibike
+lead	key constructions	key constructions	key constructions	key constructions
+lead	passive	導かれる	みちびかれる	michibikareru
+lead	causative	導かせる導かす	みちびかせるみちびかす	michibikaserumichibikasu
+lead	potential	導ける	みちびける	michibikeru
+lead	volitional	導こう	みちびこう	michibikō
+lead	negative	導かない	みちびかない	michibikanai
+lead	negative continuative	導かず	みちびかず	michibikazu
+lead	formal	導きます	みちびきます	michibikimasu
+lead	perfective	導いた	みちびいた	michibiita
+lead	conjunctive	導いて	みちびいて	michibiite
+lead	hypothetical conditional	導けば	みちびけば	michibikeba
+eat	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+eat	mizenkei ("imperfective")	食べ	たべ	tabe
+eat	ren’yōkei ("continuative")	食べ	たべ	tabe
+eat	shūshikei ("terminal")	食べる	たべる	taberu
+eat	rentaikei ("attributive")	食べる	たべる	taberu
+eat	kateikei ("hypothetical")	食べれ	たべれ	tabere
+eat	meireikei ("imperative")	食べよ¹食べろ²	たべよ¹たべろ²	tabeyo¹tabero²
+eat	key constructions	key constructions	key constructions	key constructions
+eat	passive	食べられる	たべられる	taberareru
+eat	causative	食べさせる食べさす	たべさせるたべさす	tabesaserutabesasu
+eat	potential	食べられる食べれる³	たべられるたべれる³	taberarerutabereru³
+eat	volitional	食べよう	たべよう	tabeyō
+eat	negative	食べない食べぬ食べん	たべないたべぬたべん	tabenaitabenutaben
+eat	negative continuative	食べず	たべず	tabezu
+eat	formal	食べます	たべます	tabemasu
+eat	perfective	食べた	たべた	tabeta
+eat	conjunctive	食べて	たべて	tabete
+eat	hypothetical conditional	食べれば	たべれば	tabereba
+eat	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+eat	mizenkei ("imperfective")	食わ	くわ	kuwa
+eat	ren’yōkei ("continuative")	食い	くい	kui
+eat	shūshikei ("terminal")	食う	くう	kuu
+eat	rentaikei ("attributive")	食う	くう	kuu
+eat	kateikei ("hypothetical")	食え	くえ	kue
+eat	meireikei ("imperative")	食え	くえ	kue
+eat	key constructions	key constructions	key constructions	key constructions
+eat	passive	食われる	くわれる	kuwareru
+eat	causative	食わせる食わす	くわせるくわす	kuwaserukuwasu
+eat	potential	食える	くえる	kueru
+eat	volitional	食おう	くおう	kuō
+eat	negative	食わない	くわない	kuwanai
+eat	negative continuative	食わず	くわず	kuwazu
+eat	formal	食います	くいます	kuimasu
+eat	perfective	食った	くった	kutta
+eat	conjunctive	食って	くって	kutte
+eat	hypothetical conditional	食えば	くえば	kueba
+eat	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+eat	mizenkei ("imperfective")	食事し	しょくじし	shokuji shi
+eat	ren’yōkei ("continuative")	食事し	しょくじし	shokuji shi
+eat	shūshikei ("terminal")	食事する	しょくじする	shokuji suru
+eat	rentaikei ("attributive")	食事する	しょくじする	shokuji suru
+eat	kateikei ("hypothetical")	食事すれ	しょくじすれ	shokuji sure
+eat	meireikei ("imperative")	食事せよ¹食事しろ²	しょくじせよ¹しょくじしろ²	shokuji seyo¹shokuji shiro²
+eat	key constructions	key constructions	key constructions	key constructions
+eat	passive	食事される	しょくじされる	shokuji sareru
+eat	causative	食事させる食事さす	しょくじさせるしょくじさす	shokuji saserushokuji sasu
+eat	potential	食事できる	しょくじできる	shokuji dekiru
+eat	volitional	食事しよう	しょくじしよう	shokuji shiyō
+eat	negative	食事しない	しょくじしない	shokuji shinai
+eat	negative continuative	食事せず	しょくじせず	shokuji sezu
+eat	formal	食事します	しょくじします	shokuji shimasu
+eat	perfective	食事した	しょくじした	shokuji shita
+eat	conjunctive	食事して	しょくじして	shokuji shite
+eat	hypothetical conditional	食事すれば	しょくじすれば	shokuji sureba
+eat	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+eat	mizenkei ("imperfective")	召し上がら	めしあがら	meshiagara
+eat	ren’yōkei ("continuative")	召し上がり	めしあがり	meshiagari
+eat	shūshikei ("terminal")	召し上がる	めしあがる	meshiagaru
+eat	rentaikei ("attributive")	召し上がる	めしあがる	meshiagaru
+eat	kateikei ("hypothetical")	召し上がれ	めしあがれ	meshiagare
+eat	meireikei ("imperative")	召し上がれ	めしあがれ	meshiagare
+eat	key constructions	key constructions	key constructions	key constructions
+eat	passive	召し上がられる	めしあがられる	meshiagarareru
+eat	causative	召し上がらせる召し上がらす	めしあがらせるめしあがらす	meshiagaraserumeshiagarasu
+eat	potential	召し上がれる	めしあがれる	meshiagareru
+eat	volitional	召し上がろう	めしあがろう	meshiagarō
+eat	negative	召し上がらない	めしあがらない	meshiagaranai
+eat	negative continuative	召し上がらず	めしあがらず	meshiagarazu
+eat	formal	召し上がります	めしあがります	meshiagarimasu
+eat	perfective	召し上がった	めしあがった	meshiagatta
+eat	conjunctive	召し上がって	めしあがって	meshiagatte
+eat	hypothetical conditional	召し上がれば	めしあがれば	meshiagareba
+eat	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+eat	mizenkei ("imperfective")	頂か	いただか	itadaka
+eat	ren’yōkei ("continuative")	頂き	いただき	itadaki
+eat	shūshikei ("terminal")	頂く	いただく	itadaku
+eat	rentaikei ("attributive")	頂く	いただく	itadaku
+eat	kateikei ("hypothetical")	頂け	いただけ	itadake
+eat	meireikei ("imperative")	頂け	いただけ	itadake
+eat	key constructions	key constructions	key constructions	key constructions
+eat	passive	頂かれる	いただかれる	itadakareru
+eat	causative	頂かせる頂かす	いただかせるいただかす	itadakaseruitadakasu
+eat	potential	頂ける	いただける	itadakeru
+eat	volitional	頂こう	いただこう	itadakō
+eat	negative	頂かない	いただかない	itadakanai
+eat	negative continuative	頂かず	いただかず	itadakazu
+eat	formal	頂きます	いただきます	itadakimasu
+eat	perfective	頂いた	いただいた	itadaita
+eat	conjunctive	頂いて	いただいて	itadaite
+eat	hypothetical conditional	頂けば	いただけば	itadakeba
+endure	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+endure	mizenkei ("imperfective")	たえ	tae	
+endure	ren’yōkei ("continuative")	たえ	tae	
+endure	shūshikei ("terminal")	たえる	taeru	
+endure	rentaikei ("attributive")	たえる	taeru	
+endure	kateikei ("hypothetical")	たえれ	taere	
+endure	meireikei ("imperative")	たえよ¹たえろ²	taeyo¹taero²	
+endure	key constructions	key constructions	key constructions	key constructions
+endure	passive	たえられる	taerareru	
+endure	causative	たえさせるたえさす	taesaserutaesasu	
+endure	potential	たえられるたえれる³	taerarerutaereru³	
+endure	volitional	たえよう	taeyō	
+endure	negative	たえないたえぬたえん	taenaitaenutaen	
+endure	negative continuative	たえず	taezu	
+endure	formal	たえます	taemasu	
+endure	perfective	たえた	taeta	
+endure	conjunctive	たえて	taete	
+endure	hypothetical conditional	たえれば	taereba	
+endure	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+endure	mizenkei ("imperfective")	たえ	tae	
+endure	ren’yōkei ("continuative")	たえ	tae	
+endure	shūshikei ("terminal")	たえる	taeru	
+endure	rentaikei ("attributive")	たえる	taeru	
+endure	kateikei ("hypothetical")	たえれ	taere	
+endure	meireikei ("imperative")	たえよ¹たえろ²	taeyo¹taero²	
+endure	key constructions	key constructions	key constructions	key constructions
+endure	passive	たえられる	taerareru	
+endure	causative	たえさせるたえさす	taesaserutaesasu	
+endure	potential	たえられるたえれる³	taerarerutaereru³	
+endure	volitional	たえよう	taeyō	
+endure	negative	たえないたえぬたえん	taenaitaenutaen	
+endure	negative continuative	たえず	taezu	
+endure	formal	たえます	taemasu	
+endure	perfective	たえた	taeta	
+endure	conjunctive	たえて	taete	
+endure	hypothetical conditional	たえれば	taereba	
+fall	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fall	mizenkei ("imperfective")	落ち	おち	ochi
+fall	ren’yōkei ("continuative")	落ち	おち	ochi
+fall	shūshikei ("terminal")	落ちる	おちる	ochiru
+fall	rentaikei ("attributive")	落ちる	おちる	ochiru
+fall	kateikei ("hypothetical")	落ちれ	おちれ	ochire
+fall	meireikei ("imperative")	落ちよ¹落ちろ²	おちよ¹おちろ²	ochiyo¹ochiro²
+fall	key constructions	key constructions	key constructions	key constructions
+fall	passive	落ちられる	おちられる	ochirareru
+fall	causative	落ちさせる落ちさす	おちさせるおちさす	ochisaseruochisasu
+fall	potential	落ちられる落ちれる³	おちられるおちれる³	ochirareruochireru³
+fall	volitional	落ちよう	おちよう	ochiyō
+fall	negative	落ちない落ちぬ落ちん	おちないおちぬおちん	ochinaiochinuochin
+fall	negative continuative	落ちず	おちず	ochizu
+fall	formal	落ちます	おちます	ochimasu
+fall	perfective	落ちた	おちた	ochita
+fall	conjunctive	落ちて	おちて	ochite
+fall	hypothetical conditional	落ちれば	おちれば	ochireba
+fall	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fall	mizenkei ("imperfective")	崩れ	くずれ	kuzure
+fall	ren’yōkei ("continuative")	崩れ	くずれ	kuzure
+fall	shūshikei ("terminal")	崩れる	くずれる	kuzureru
+fall	rentaikei ("attributive")	崩れる	くずれる	kuzureru
+fall	kateikei ("hypothetical")	崩れれ	くずれれ	kuzurere
+fall	meireikei ("imperative")	崩れよ¹崩れろ²	くずれよ¹くずれろ²	kuzureyo¹kuzurero²
+fall	key constructions	key constructions	key constructions	key constructions
+fall	passive	崩れられる	くずれられる	kuzurerareru
+fall	causative	崩れさせる崩れさす	くずれさせるくずれさす	kuzuresaserukuzuresasu
+fall	potential	崩れられる崩れれる³	くずれられるくずれれる³	kuzurerarerukuzurereru³
+fall	volitional	崩れよう	くずれよう	kuzureyō
+fall	negative	崩れない崩れぬ崩れん	くずれないくずれぬくずれん	kuzurenaikuzurenukuzuren
+fall	negative continuative	崩れず	くずれず	kuzurezu
+fall	formal	崩れます	くずれます	kuzuremasu
+fall	perfective	崩れた	くずれた	kuzureta
+fall	conjunctive	崩れて	くずれて	kuzurete
+fall	hypothetical conditional	崩れれば	くずれれば	kuzurereba
+fall	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fall	mizenkei ("imperfective")	落下し	らっかし	rakka shi
+fall	ren’yōkei ("continuative")	落下し	らっかし	rakka shi
+fall	shūshikei ("terminal")	落下する	らっかする	rakka suru
+fall	rentaikei ("attributive")	落下する	らっかする	rakka suru
+fall	kateikei ("hypothetical")	落下すれ	らっかすれ	rakka sure
+fall	meireikei ("imperative")	落下せよ¹落下しろ²	らっかせよ¹らっかしろ²	rakka seyo¹rakka shiro²
+fall	key constructions	key constructions	key constructions	key constructions
+fall	passive	落下される	らっかされる	rakka sareru
+fall	causative	落下させる落下さす	らっかさせるらっかさす	rakka saserurakka sasu
+fall	potential	落下できる	らっかできる	rakka dekiru
+fall	volitional	落下しよう	らっかしよう	rakka shiyō
+fall	negative	落下しない	らっかしない	rakka shinai
+fall	negative continuative	落下せず	らっかせず	rakka sezu
+fall	formal	落下します	らっかします	rakka shimasu
+fall	perfective	落下した	らっかした	rakka shita
+fall	conjunctive	落下して	らっかして	rakka shite
+fall	hypothetical conditional	落下すれば	らっかすれば	rakka sureba
+fall	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fall	mizenkei ("imperfective")	転ば	ころば	koroba
+fall	ren’yōkei ("continuative")	転び	ころび	korobi
+fall	shūshikei ("terminal")	転ぶ	ころぶ	korobu
+fall	rentaikei ("attributive")	転ぶ	ころぶ	korobu
+fall	kateikei ("hypothetical")	転べ	ころべ	korobe
+fall	meireikei ("imperative")	転べ	ころべ	korobe
+fall	key constructions	key constructions	key constructions	key constructions
+fall	passive	転ばれる	ころばれる	korobareru
+fall	causative	転ばせる転ばす	ころばせるころばす	korobaserukorobasu
+fall	potential	転べる	ころべる	koroberu
+fall	volitional	転ぼう	ころぼう	korobō
+fall	negative	転ばない	ころばない	korobanai
+fall	negative continuative	転ばず	ころばず	korobazu
+fall	formal	転びます	ころびます	korobimasu
+fall	perfective	転んだ	ころんだ	koronda
+fall	conjunctive	転んで	ころんで	koronde
+fall	hypothetical conditional	転べば	ころべば	korobeba
+fall	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fall	mizenkei ("imperfective")	降下し	こうかし	kōka shi
+fall	ren’yōkei ("continuative")	降下し	こうかし	kōka shi
+fall	shūshikei ("terminal")	降下する	こうかする	kōka suru
+fall	rentaikei ("attributive")	降下する	こうかする	kōka suru
+fall	kateikei ("hypothetical")	降下すれ	こうかすれ	kōka sure
+fall	meireikei ("imperative")	降下せよ¹降下しろ²	こうかせよ¹こうかしろ²	kōka seyo¹kōka shiro²
+fall	key constructions	key constructions	key constructions	key constructions
+fall	passive	降下される	こうかされる	kōka sareru
+fall	causative	降下させる降下さす	こうかさせるこうかさす	kōka saserukōka sasu
+fall	potential	降下できる	こうかできる	kōka dekiru
+fall	volitional	降下しよう	こうかしよう	kōka shiyō
+fall	negative	降下しない	こうかしない	kōka shinai
+fall	negative continuative	降下せず	こうかせず	kōka sezu
+fall	formal	降下します	こうかします	kōka shimasu
+fall	perfective	降下した	こうかした	kōka shita
+fall	conjunctive	降下して	こうかして	kōka shite
+fall	hypothetical conditional	降下すれば	こうかすれば	kōka sureba
+fall	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fall	mizenkei ("imperfective")	降ら	ふら	fura
+fall	ren’yōkei ("continuative")	降り	ふり	furi
+fall	shūshikei ("terminal")	降る	ふる	furu
+fall	rentaikei ("attributive")	降る	ふる	furu
+fall	kateikei ("hypothetical")	降れ	ふれ	fure
+fall	meireikei ("imperative")	降れ	ふれ	fure
+fall	key constructions	key constructions	key constructions	key constructions
+fall	passive	降られる	ふられる	furareru
+fall	causative	降らせる降らす	ふらせるふらす	furaserufurasu
+fall	potential	降れる	ふれる	fureru
+fall	volitional	降ろう	ふろう	furō
+fall	negative	降らない	ふらない	furanai
+fall	negative continuative	降らず	ふらず	furazu
+fall	formal	降ります	ふります	furimasu
+fall	perfective	降った	ふった	futta
+fall	conjunctive	降って	ふって	futte
+fall	hypothetical conditional	降れば	ふれば	fureba
+fix	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fix	mizenkei ("imperfective")	修理し	しゅうりし	shūri shi
+fix	ren’yōkei ("continuative")	修理し	しゅうりし	shūri shi
+fix	shūshikei ("terminal")	修理する	しゅうりする	shūri suru
+fix	rentaikei ("attributive")	修理する	しゅうりする	shūri suru
+fix	kateikei ("hypothetical")	修理すれ	しゅうりすれ	shūri sure
+fix	meireikei ("imperative")	修理せよ¹修理しろ²	しゅうりせよ¹しゅうりしろ²	shūri seyo¹shūri shiro²
+fix	key constructions	key constructions	key constructions	key constructions
+fix	passive	修理される	しゅうりされる	shūri sareru
+fix	causative	修理させる修理さす	しゅうりさせるしゅうりさす	shūri saserushūri sasu
+fix	potential	修理できる	しゅうりできる	shūri dekiru
+fix	volitional	修理しよう	しゅうりしよう	shūri shiyō
+fix	negative	修理しない	しゅうりしない	shūri shinai
+fix	negative continuative	修理せず	しゅうりせず	shūri sezu
+fix	formal	修理します	しゅうりします	shūri shimasu
+fix	perfective	修理した	しゅうりした	shūri shita
+fix	conjunctive	修理して	しゅうりして	shūri shite
+fix	hypothetical conditional	修理すれば	しゅうりすれば	shūri sureba
+fix	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fix	mizenkei ("imperfective")	治さ	なおさ	naosa
+fix	ren’yōkei ("continuative")	治し	なおし	naoshi
+fix	shūshikei ("terminal")	治す	なおす	naosu
+fix	rentaikei ("attributive")	治す	なおす	naosu
+fix	kateikei ("hypothetical")	治せ	なおせ	naose
+fix	meireikei ("imperative")	治せ	なおせ	naose
+fix	key constructions	key constructions	key constructions	key constructions
+fix	passive	治される	なおされる	naosareru
+fix	causative	治させる治さす	なおさせるなおさす	naosaserunaosasu
+fix	potential	治せる	なおせる	naoseru
+fix	volitional	治そう	なおそう	naosō
+fix	negative	治さない	なおさない	naosanai
+fix	negative continuative	治さず	なおさず	naosazu
+fix	formal	治します	なおします	naoshimasu
+fix	perfective	治した	なおした	naoshita
+fix	conjunctive	治して	なおして	naoshite
+fix	hypothetical conditional	治せば	なおせば	naoseba
+fix	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fix	mizenkei ("imperfective")	直さ	なおさ	naosa
+fix	ren’yōkei ("continuative")	直し	なおし	naoshi
+fix	shūshikei ("terminal")	直す	なおす	naosu
+fix	rentaikei ("attributive")	直す	なおす	naosu
+fix	kateikei ("hypothetical")	直せ	なおせ	naose
+fix	meireikei ("imperative")	直せ	なおせ	naose
+fix	key constructions	key constructions	key constructions	key constructions
+fix	passive	直される	なおされる	naosareru
+fix	causative	直させる直さす	なおさせるなおさす	naosaserunaosasu
+fix	potential	直せる	なおせる	naoseru
+fix	volitional	直そう	なおそう	naosō
+fix	negative	直さない	なおさない	naosanai
+fix	negative continuative	直さず	なおさず	naosazu
+fix	formal	直します	なおします	naoshimasu
+fix	perfective	直した	なおした	naoshita
+fix	conjunctive	直して	なおして	naoshite
+fix	hypothetical conditional	直せば	なおせば	naoseba
+fix	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fix	mizenkei ("imperfective")	修理し	しゅうりし	shūri shi
+fix	ren’yōkei ("continuative")	修理し	しゅうりし	shūri shi
+fix	shūshikei ("terminal")	修理する	しゅうりする	shūri suru
+fix	rentaikei ("attributive")	修理する	しゅうりする	shūri suru
+fix	kateikei ("hypothetical")	修理すれ	しゅうりすれ	shūri sure
+fix	meireikei ("imperative")	修理せよ¹修理しろ²	しゅうりせよ¹しゅうりしろ²	shūri seyo¹shūri shiro²
+fix	key constructions	key constructions	key constructions	key constructions
+fix	passive	修理される	しゅうりされる	shūri sareru
+fix	causative	修理させる修理さす	しゅうりさせるしゅうりさす	shūri saserushūri sasu
+fix	potential	修理できる	しゅうりできる	shūri dekiru
+fix	volitional	修理しよう	しゅうりしよう	shūri shiyō
+fix	negative	修理しない	しゅうりしない	shūri shinai
+fix	negative continuative	修理せず	しゅうりせず	shūri sezu
+fix	formal	修理します	しゅうりします	shūri shimasu
+fix	perfective	修理した	しゅうりした	shūri shita
+fix	conjunctive	修理して	しゅうりして	shūri shite
+fix	hypothetical conditional	修理すれば	しゅうりすれば	shūri sureba
+fix	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fix	mizenkei ("imperfective")	治さ	なおさ	naosa
+fix	ren’yōkei ("continuative")	治し	なおし	naoshi
+fix	shūshikei ("terminal")	治す	なおす	naosu
+fix	rentaikei ("attributive")	治す	なおす	naosu
+fix	kateikei ("hypothetical")	治せ	なおせ	naose
+fix	meireikei ("imperative")	治せ	なおせ	naose
+fix	key constructions	key constructions	key constructions	key constructions
+fix	passive	治される	なおされる	naosareru
+fix	causative	治させる治さす	なおさせるなおさす	naosaserunaosasu
+fix	potential	治せる	なおせる	naoseru
+fix	volitional	治そう	なおそう	naosō
+fix	negative	治さない	なおさない	naosanai
+fix	negative continuative	治さず	なおさず	naosazu
+fix	formal	治します	なおします	naoshimasu
+fix	perfective	治した	なおした	naoshita
+fix	conjunctive	治して	なおして	naoshite
+fix	hypothetical conditional	治せば	なおせば	naoseba
+fix	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fix	mizenkei ("imperfective")	直さ	なおさ	naosa
+fix	ren’yōkei ("continuative")	直し	なおし	naoshi
+fix	shūshikei ("terminal")	直す	なおす	naosu
+fix	rentaikei ("attributive")	直す	なおす	naosu
+fix	kateikei ("hypothetical")	直せ	なおせ	naose
+fix	meireikei ("imperative")	直せ	なおせ	naose
+fix	key constructions	key constructions	key constructions	key constructions
+fix	passive	直される	なおされる	naosareru
+fix	causative	直させる直さす	なおさせるなおさす	naosaserunaosasu
+fix	potential	直せる	なおせる	naoseru
+fix	volitional	直そう	なおそう	naosō
+fix	negative	直さない	なおさない	naosanai
+fix	negative continuative	直さず	なおさず	naosazu
+fix	formal	直します	なおします	naoshimasu
+fix	perfective	直した	なおした	naoshita
+fix	conjunctive	直して	なおして	naoshite
+fix	hypothetical conditional	直せば	なおせば	naoseba
+fly	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")	katsuyōkei ("stem forms")
+fly	mizenkei ("imperfective")	飛ば	とば	toba
+fly	ren’yōkei ("continuative")	飛び	とび	tobi
+fly	shūshikei ("terminal")	飛ぶ	とぶ	tobu
+fly	rentaikei ("attributive")	飛ぶ	とぶ	tobu
+fly	kateikei ("hypothetical")	飛べ	とべ	tobe
+fly	meireikei ("imperative")	飛べ	とべ	tobe
+fly	key constructions	key constructions	key constructions	key constructions
+fly	passive	飛ばれる	とばれる	tobareru
+fly	causative	飛ばせる飛ばす	とばせるとばす	tobaserutobasu
+fly	potential	飛べる	とべる	toberu
+fly	volitional	飛ぼう	とぼう	tobō
+fly	negative	飛ばない	とばない	tobanai
+fly	negative continuative	飛ばず	とばず	tobazu
+fly	formal	飛びます	とびます	tobimasu
+fly	perfective	飛んだ	とんだ	tonda
+fly	conjunctive	飛んで	とんで	tonde
+fly	hypothetical conditional	飛べば	とべば	tobeba

@@ -1,0 +1,206 @@
+first			singular	singular	singular	plural	plural	plural
+first			masculine	neuter	feminine	masculine	neuter	feminine
+first	nominative-accusative	indefinite	prim	prim	primă	primi	prime	prime
+first	nominative-accusative	definite	primul	primul	prima	primii	primele	primele
+first	genitive-dative	indefinite	prim	prim	prime	primi	prime	prime
+first	genitive-dative	definite	primului	primului	primei	primilor	primelor	primelor
+first		singular	singular	plural	plural
+first		indefinite	definite	indefinite	definite
+first	nominative-accusative	prim	primul	primuri	primurile
+first	genitive-dative	prim	primului	primuri	primurilor
+first	vocative	primule	primule	primurilor	primurilor
+second			singular	singular	singular	plural	plural	plural
+second			masculine	neuter	feminine	masculine	neuter	feminine
+second	nominative-accusative	indefinite	secund	secund	secundă	secunzi	secunde	secunde
+second	nominative-accusative	definite	secundul	secundul	secunda	secunzii	secundele	secundele
+second	genitive-dative	indefinite	secund	secund	secunde	secunzi	secunde	secunde
+second	genitive-dative	definite	secundului	secundului	secundei	secunzilor	secundelor	secundelor
+big			singular	singular	singular	plural	plural	plural
+big			masculine	neuter	feminine	masculine	neuter	feminine
+big	nominative-accusative	indefinite	mare	mare	mare	mari	mari	mari
+big	nominative-accusative	definite	marele	marele	marea	marii	marile	marile
+big	genitive-dative	indefinite	mare	mare	mari	mari	mari	mari
+big	genitive-dative	definite	marelui	marelui	marii	marilor	marilor	marilor
+big		singular	singular	plural	plural
+big		indefinite	definite	indefinite	definite
+big	nominative-accusative	mare	marea	mări	mările
+big	genitive-dative	mări	mării	mări	mărilor
+big	vocative	mare, mareo	mare, mareo	mărilor	mărilor
+large			singular	singular	singular	plural	plural	plural
+large			masculine	neuter	feminine	masculine	neuter	feminine
+large	nominative-accusative	indefinite	mare	mare	mare	mari	mari	mari
+large	nominative-accusative	definite	marele	marele	marea	marii	marile	marile
+large	genitive-dative	indefinite	mare	mare	mari	mari	mari	mari
+large	genitive-dative	definite	marelui	marelui	marii	marilor	marilor	marilor
+large		singular	singular	plural	plural
+large		indefinite	definite	indefinite	definite
+large	nominative-accusative	mare	marea	mări	mările
+large	genitive-dative	mări	mării	mări	mărilor
+large	vocative	mare, mareo	mare, mareo	mărilor	mărilor
+small			singular	singular	singular	plural	plural	plural
+small			masculine	neuter	feminine	masculine	neuter	feminine
+small	nominative-accusative	indefinite	mic	mic	mică	mici	mici	mici
+small	nominative-accusative	definite	micul	micul	mica	micii	micile	micile
+small	genitive-dative	indefinite	mic	mic	mici	mici	mici	mici
+small	genitive-dative	definite	micului	micului	micii	micilor	micilor	micilor
+small		singular	singular	plural	plural
+small		indefinite	definite	indefinite	definite
+small	nominative-accusative	mic	micul	mici	micii
+small	genitive-dative	mic	micului	mici	micilor
+small	vocative	micule	micule	micilor	micilor
+little			singular	singular	singular	plural	plural	plural
+little			masculine	neuter	feminine	masculine	neuter	feminine
+little	nominative-accusative	indefinite	mic	mic	mică	mici	mici	mici
+little	nominative-accusative	definite	micul	micul	mica	micii	micile	micile
+little	genitive-dative	indefinite	mic	mic	mici	mici	mici	mici
+little	genitive-dative	definite	micului	micului	micii	micilor	micilor	micilor
+little		singular	singular	plural	plural
+little		indefinite	definite	indefinite	definite
+little	nominative-accusative	mic	micul	mici	micii
+little	genitive-dative	mic	micului	mici	micilor
+little	vocative	micule	micule	micilor	micilor
+little		singular	singular	plural	plural
+little		indefinite	definite	indefinite	definite
+little	nominative-accusative	mică	mica	mici	micile
+little	genitive-dative	mici	micii	mici	micilor
+little	vocative	mică, mico	mică, mico	micilor	micilor
+little		singular	singular	plural	plural
+little		indefinite	definite	indefinite	definite
+little	nominative-accusative	mică	mica	mice	micele
+little	genitive-dative	mice	micei	mice	micelor
+little	vocative	mică, mico	mică, mico	micelor	micelor
+loud			singular	singular	singular	plural	plural	plural
+loud			masculine	neuter	feminine	masculine	neuter	feminine
+loud	nominative-accusative	indefinite	tare	tare	tare	tari	tari	tari
+loud	nominative-accusative	definite	tarele	tarele	tarea	tarii	tarile	tarile
+loud	genitive-dative	indefinite	tare	tare	tari	tari	tari	tari
+loud	genitive-dative	definite	tarelui	tarelui	tarii	tarilor	tarilor	tarilor
+loud			singular	singular	singular	plural	plural	plural
+loud			masculine	neuter	feminine	masculine	neuter	feminine
+loud	nominative-accusative	indefinite	gălăgios	gălăgios	gălăgioasă	gălăgioși	gălăgioase	gălăgioase
+loud	nominative-accusative	definite	gălăgiosul	gălăgiosul	gălăgioasa	gălăgioșii	gălăgioasele	gălăgioasele
+loud	genitive-dative	indefinite	gălăgios	gălăgios	gălăgioase	gălăgioși	gălăgioase	gălăgioase
+loud	genitive-dative	definite	gălăgiosului	gălăgiosului	gălăgioasei	gălăgioșilor	gălăgioaselor	gălăgioaselor
+loud			singular	singular	singular	plural	plural	plural
+loud			masculine	neuter	feminine	masculine	neuter	feminine
+loud	nominative-accusative	indefinite	zgomotos	zgomotos	zgomotoasă	zgomotoși	zgomotoase	zgomotoase
+loud	nominative-accusative	definite	zgomotosul	zgomotosul	zgomotoasa	zgomotoșii	zgomotoasele	zgomotoasele
+loud	genitive-dative	indefinite	zgomotos	zgomotos	zgomotoase	zgomotoși	zgomotoase	zgomotoase
+loud	genitive-dative	definite	zgomotosului	zgomotosului	zgomotoasei	zgomotoșilor	zgomotoaselor	zgomotoaselor
+strong			singular	singular	singular	plural	plural	plural
+strong			masculine	neuter	feminine	masculine	neuter	feminine
+strong	nominative-accusative	indefinite	puternic	puternic	puternică	puternici	puternice	puternice
+strong	nominative-accusative	definite	puternicul	puternicul	puternica	puternicii	puternicele	puternicele
+strong	genitive-dative	indefinite	puternic	puternic	puternice	puternici	puternice	puternice
+strong	genitive-dative	definite	puternicului	puternicului	puternicei	puternicilor	puternicelor	puternicelor
+well			singular	singular	singular	plural	plural	plural
+well			masculine	neuter	feminine	masculine	neuter	feminine
+well	nominative-accusative	indefinite	bine	bine	bine	bine	bine	bine
+well	nominative-accusative	definite	—	—	—	—	—	—
+well	genitive-dative	indefinite	bine	bine	bine	bine	bine	bine
+well	genitive-dative	definite	—	—	—	—	—	—
+good			singular	singular	singular	plural	plural	plural
+good			masculine	neuter	feminine	masculine	neuter	feminine
+good	nominative-accusative	indefinite	bun	bun	bună	buni	bune	bune
+good	nominative-accusative	definite	bunul	bunul	buna	bunii	bunele	bunele
+good	genitive-dative	indefinite	bun	bun	bune	buni	bune	bune
+good	genitive-dative	definite	bunului	bunului	bunei	bunilor	bunelor	bunelor
+good		singular	singular	plural	plural
+good		indefinite	definite	indefinite	definite
+good	nominative-accusative	bun	bunul	bunuri	bunurile
+good	genitive-dative	bun	bunului	bunuri	bunurilor
+good	vocative	bunule	bunule	bunurilor	bunurilor
+good		singular	singular	plural	plural
+good		indefinite	definite	indefinite	definite
+good	nominative-accusative	bun	bunul	buni	bunii
+good	genitive-dative	bun	bunului	buni	bunilor
+good	vocative	bunule	bunule	bunilor	bunilor
+bad			singular	singular	singular	plural	plural	plural
+bad			masculine	neuter	feminine	masculine	neuter	feminine
+bad	nominative-accusative	indefinite	rău	rău	rea	răi	rele	rele
+bad	nominative-accusative	definite	răul	răul	reaua	răii	relele	relele
+bad	genitive-dative	indefinite	rău	rău	rele	răi	rele	rele
+bad	genitive-dative	definite	răului	răului	relei	răilor	relelor	relelor
+bad		singular	singular	plural	plural
+bad		indefinite	definite	indefinite	definite
+bad	nominative-accusative	rău	răuul	rele	relele
+bad	genitive-dative	rău	răuului	rele	relelor
+bad	vocative	răuule	răuule	relelor	relelor
+angry			singular	singular	singular	plural	plural	plural
+angry			masculine	neuter	feminine	masculine	neuter	feminine
+angry	nominative-accusative	indefinite	furios	furios	furioasă	furioși	furioase	furioase
+angry	nominative-accusative	definite	furiosul	furiosul	furioasa	furioșii	furioasele	furioasele
+angry	genitive-dative	indefinite	furios	furios	furioase	furioși	furioase	furioase
+angry	genitive-dative	definite	furiosului	furiosului	furioasei	furioșilor	furioaselor	furioaselor
+angry			singular	singular	singular	plural	plural	plural
+angry			masculine	neuter	feminine	masculine	neuter	feminine
+angry	nominative-accusative	indefinite	mânios	mânios	mânioasă	mânioși	mânioase	mânioase
+angry	nominative-accusative	definite	mâniosul	mâniosul	mânioasa	mânioșii	mânioasele	mânioasele
+angry	genitive-dative	indefinite	mânios	mânios	mânioase	mânioși	mânioase	mânioase
+angry	genitive-dative	definite	mâniosului	mâniosului	mânioasei	mânioșilor	mânioaselor	mânioaselor
+angry			singular	singular	singular	plural	plural	plural
+angry			masculine	neuter	feminine	masculine	neuter	feminine
+angry	nominative-accusative	indefinite	supărat	supărat	supărată	supărați	supărate	supărate
+angry	nominative-accusative	definite	supăratul	supăratul	supărata	supărații	supăratele	supăratele
+angry	genitive-dative	indefinite	supărat	supărat	supărate	supărați	supărate	supărate
+angry	genitive-dative	definite	supăratului	supăratului	supăratei	supăraților	supăratelor	supăratelor
+happy			singular	singular	singular	plural	plural	plural
+happy			masculine	neuter	feminine	masculine	neuter	feminine
+happy	nominative-accusative	indefinite	fericit	fericit	fericită	fericiți	fericite	fericite
+happy	nominative-accusative	definite	fericitul	fericitul	fericita	fericiții	fericitele	fericitele
+happy	genitive-dative	indefinite	fericit	fericit	fericite	fericiți	fericite	fericite
+happy	genitive-dative	definite	fericitului	fericitului	fericitei	fericiților	fericitelor	fericitelor
+happy			singular	singular	singular	plural	plural	plural
+happy			masculine	neuter	feminine	masculine	neuter	feminine
+happy	nominative-accusative	indefinite	bucuros	bucuros	bucuroasă	bucuroși	bucuroase	bucuroase
+happy	nominative-accusative	definite	bucurosul	bucurosul	bucuroasa	bucuroșii	bucuroasele	bucuroasele
+happy	genitive-dative	indefinite	bucuros	bucuros	bucuroase	bucuroși	bucuroase	bucuroase
+happy	genitive-dative	definite	bucurosului	bucurosului	bucuroasei	bucuroșilor	bucuroaselor	bucuroaselor
+sad			singular	singular	singular	plural	plural	plural
+sad			masculine	neuter	feminine	masculine	neuter	feminine
+sad	nominative-accusative	indefinite	trist	trist	tristă	triști	triste	triste
+sad	nominative-accusative	definite	tristul	tristul	trista	triștii	tristele	tristele
+sad	genitive-dative	indefinite	trist	trist	triste	triști	triste	triste
+sad	genitive-dative	definite	tristului	tristului	tristei	triștilor	tristelor	tristelor
+sad			singular	singular	singular	plural	plural	plural
+sad			masculine	neuter	feminine	masculine	neuter	feminine
+sad	nominative-accusative	indefinite	abătut	abătut	abătută	abătuți	abătute	abătute
+sad	nominative-accusative	definite	abătutul	abătutul	abătuta	abătuții	abătutele	abătutele
+sad	genitive-dative	indefinite	abătut	abătut	abătute	abătuți	abătute	abătute
+sad	genitive-dative	definite	abătutului	abătutului	abătutei	abătuților	abătutelor	abătutelor
+bright			singular	singular	singular	plural	plural	plural
+bright			masculine	neuter	feminine	masculine	neuter	feminine
+bright	nominative-accusative	indefinite	clar	clar	clară	clari	clare	clare
+bright	nominative-accusative	definite	clarul	clarul	clara	clarii	clarele	clarele
+bright	genitive-dative	indefinite	clar	clar	clare	clari	clare	clare
+bright	genitive-dative	definite	clarului	clarului	clarei	clarilor	clarelor	clarelor
+bright			singular	singular	singular	plural	plural	plural
+bright			masculine	neuter	feminine	masculine	neuter	feminine
+bright	nominative-accusative	indefinite	luminos	luminos	luminoasă	luminoși	luminoase	luminoase
+bright	nominative-accusative	definite	luminosul	luminosul	luminoasa	luminoșii	luminoasele	luminoasele
+bright	genitive-dative	indefinite	luminos	luminos	luminoase	luminoși	luminoase	luminoase
+bright	genitive-dative	definite	luminosului	luminosului	luminoasei	luminoșilor	luminoaselor	luminoaselor
+bright			singular	singular	singular	plural	plural	plural
+bright			masculine	neuter	feminine	masculine	neuter	feminine
+bright	nominative-accusative	indefinite	strălucitor	strălucitor	strălucitoare	strălucitori	strălucitoare	strălucitoare
+bright	nominative-accusative	definite	strălucitorul	strălucitorul	strălucitoarea	strălucitorii	strălucitoarele	strălucitoarele
+bright	genitive-dative	indefinite	strălucitor	strălucitor	strălucitoare	strălucitori	strălucitoare	strălucitoare
+bright	genitive-dative	definite	strălucitorului	strălucitorului	strălucitoarei	strălucitorilor	strălucitoarelor	strălucitoarelor
+broken			singular	singular	singular	plural	plural	plural
+broken			masculine	neuter	feminine	masculine	neuter	feminine
+broken	nominative-accusative	indefinite	stricat	stricat	stricată	stricați	stricate	stricate
+broken	nominative-accusative	definite	stricatul	stricatul	stricata	stricații	stricatele	stricatele
+broken	genitive-dative	indefinite	stricat	stricat	stricate	stricați	stricate	stricate
+broken	genitive-dative	definite	stricatului	stricatului	stricatei	stricaților	stricatelor	stricatelor
+broken			singular	singular	singular	plural	plural	plural
+broken			masculine	neuter	feminine	masculine	neuter	feminine
+broken	nominative-accusative	indefinite	rupt	rupt	ruptă	rupți	rupte	rupte
+broken	nominative-accusative	definite	ruptul	ruptul	rupta	rupții	ruptele	ruptele
+broken	genitive-dative	indefinite	rupt	rupt	rupte	rupți	rupte	rupte
+broken	genitive-dative	definite	ruptului	ruptului	ruptei	rupților	ruptelor	ruptelor
+broken			singular	singular	singular	plural	plural	plural
+broken			masculine	neuter	feminine	masculine	neuter	feminine
+broken	nominative-accusative	indefinite	frânt	frânt	frântă	frânți	frânte	frânte
+broken	nominative-accusative	definite	frântul	frântul	frânta	frânții	frântele	frântele
+broken	genitive-dative	indefinite	frânt	frânt	frânte	frânți	frânte	frânte
+broken	genitive-dative	definite	frântului	frântului	frântei	frânților	frântelor	frântelor

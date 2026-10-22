@@ -1,69 +1,559 @@
-animal		singular	singular	singular	plural	plural
-animal		indef.	def.	noun	def.	noun
-animal	nominative	ein	das	Tier	die	Tiere
-animal	genitive	eines	des	Tieres, Tiers	der	Tiere
-animal	dative	einem	dem	Tier, Tiere1	den	Tieren
-animal	accusative	ein	das	Tier	die	Tiere
+attention		singular	singular	singular	plural	plural
+attention		indef.	def.	noun	def.	noun
+attention	nominative	eine	die	Aufmerksamkeit	die	Aufmerksamkeiten
+attention	genitive	einer	der	Aufmerksamkeit	der	Aufmerksamkeiten
+attention	dative	einer	der	Aufmerksamkeit	den	Aufmerksamkeiten
+attention	accusative	eine	die	Aufmerksamkeit	die	Aufmerksamkeiten
 attention		singular	singular	singular
 attention		indef.	def.	noun
 attention	nominative	eine	die	Beachtung
 attention	genitive	einer	der	Beachtung
 attention	dative	einer	der	Beachtung
 attention	accusative	eine	die	Beachtung
+attention		singular	singular	singular
+attention		indef.	def.	noun
+attention	nominative	eine	die	Wachsamkeit
+attention	genitive	einer	der	Wachsamkeit
+attention	dative	einer	der	Wachsamkeit
+attention	accusative	eine	die	Wachsamkeit
+focus		singular	singular	singular	plural	plural
+focus		indef.	def.	noun	def.	noun
+focus	nominative	eine	die	Konzentration	die	Konzentrationen
+focus	genitive	einer	der	Konzentration	der	Konzentrationen
+focus	dative	einer	der	Konzentration	den	Konzentrationen
+focus	accusative	eine	die	Konzentration	die	Konzentrationen
+thought		singular	singular	singular	plural	plural
+thought		indef.	def.	noun	def.	noun
+thought	nominative	ein	der	Gedanke	die	Gedanken
+thought	genitive	eines	des	Gedankens, Gedanken1	der	Gedanken
+thought	dative	einem	dem	Gedanken	den	Gedanken
+thought	accusative	einen	den	Gedanken	die	Gedanken
+thought		singular	singular	singular	plural	plural
+thought		indef.	def.	noun	def.	noun
+thought	nominative	ein	der	Gedanke	die	Gedanken
+thought	genitive	eines	des	Gedankens, Gedanken1	der	Gedanken
+thought	dative	einem	dem	Gedanken	den	Gedanken
+thought	accusative	einen	den	Gedanken	die	Gedanken
+thought		singular	singular	singular	plural	plural
+thought		indef.	def.	noun	def.	noun
+thought	nominative	ein	der	Gedanke	die	Gedanken
+thought	genitive	eines	des	Gedankens, Gedanken1	der	Gedanken
+thought	dative	einem	dem	Gedanken	den	Gedanken
+thought	accusative	einen	den	Gedanken	die	Gedanken
+ball		singular	singular	singular	plural	plural
+ball		indef.	def.	noun	def.	noun
+ball	nominative	eine	die	Kugel	die	Kugeln
+ball	genitive	einer	der	Kugel	der	Kugeln
+ball	dative	einer	der	Kugel	den	Kugeln
+ball	accusative	eine	die	Kugel	die	Kugeln
+ball		singular	singular	singular	plural	plural
+ball		indef.	def.	noun	def.	noun
+ball	nominative	eine	die	Kugel	die	Kugeln
+ball	genitive	einer	der	Kugel	der	Kugeln
+ball	dative	einer	der	Kugel	den	Kugeln
+ball	accusative	eine	die	Kugel	die	Kugeln
+ball		singular	singular	singular	plural	plural
+ball		indef.	def.	noun	def.	noun
+ball	nominative	ein	der	Ball	die	Bälle
+ball	genitive	eines	des	Balles, Balls	der	Bälle
+ball	dative	einem	dem	Ball, Balle1	den	Bällen
+ball	accusative	einen	den	Ball	die	Bälle
+ball		singular	singular	singular	plural	plural
+ball		indef.	def.	noun	def.	noun
+ball	nominative	ein	der	Ball	die	Bälle
+ball	genitive	eines	des	Balles, Balls	der	Bälle
+ball	dative	einem	dem	Ball, Balle1	den	Bällen
+ball	accusative	einen	den	Ball	die	Bälle
+ball		singular	singular	singular	plural	plural
+ball		indef.	def.	noun	def.	noun
+ball	nominative	ein	der	Ball	die	Bälle
+ball	genitive	eines	des	Balles, Balls	der	Bälle
+ball	dative	einem	dem	Ball, Balle1	den	Bällen
+ball	accusative	einen	den	Ball	die	Bälle
+ball		singular	singular	singular	plural	plural
+ball		indef.	def.	noun	def.	noun
+ball	nominative	ein	der	Ball	die	Bälle
+ball	genitive	eines	des	Balles, Balls	der	Bälle
+ball	dative	einem	dem	Ball, Balle1	den	Bällen
+ball	accusative	einen	den	Ball	die	Bälle
+ball		singular	singular	singular	plural	plural
+ball		indef.	def.	noun	def.	noun
+ball	nominative	eine	die	Kugel	die	Kugeln
+ball	genitive	einer	der	Kugel	der	Kugeln
+ball	dative	einer	der	Kugel	den	Kugeln
+ball	accusative	eine	die	Kugel	die	Kugeln
+ball		singular	singular	singular	plural	plural
+ball		indef.	def.	noun	def.	noun
+ball	nominative	eine	die	Kugel	die	Kugeln
+ball	genitive	einer	der	Kugel	der	Kugeln
+ball	dative	einer	der	Kugel	den	Kugeln
+ball	accusative	eine	die	Kugel	die	Kugeln
 bird		singular	singular	singular	plural	plural
 bird		indef.	def.	noun	def.	noun
 bird	nominative	ein	der	Vogel	die	Vögel
 bird	genitive	eines	des	Vogels	der	Vögel
 bird	dative	einem	dem	Vogel	den	Vögeln
 bird	accusative	einen	den	Vogel	die	Vögel
+bird		singular	singular	singular	plural	plural
+bird		indef.	def.	noun	def.	noun
+bird	nominative	ein	das	Vögelchen	die	Vögelchen
+bird	genitive	eines	des	Vögelchens	der	Vögelchen
+bird	dative	einem	dem	Vögelchen	den	Vögelchen
+bird	accusative	ein	das	Vögelchen	die	Vögelchen
+bird		singular	singular	singular	plural	plural
+bird		indef.	def.	noun	def.	noun
+bird	nominative	ein	das	Vögelein	die	Vögelein
+bird	genitive	eines	des	Vögeleins	der	Vögelein
+bird	dative	einem	dem	Vögelein	den	Vögelein
+bird	accusative	ein	das	Vögelein	die	Vögelein
+bird		singular	singular	singular	plural	plural
+bird		indef.	def.	noun	def.	noun
+bird	nominative	ein	das	Vöglein	die	Vöglein
+bird	genitive	eines	des	Vögleins	der	Vöglein
+bird	dative	einem	dem	Vöglein	den	Vöglein
+bird	accusative	ein	das	Vöglein	die	Vöglein
+bridge		singular	singular	singular	plural	plural
+bridge		indef.	def.	noun	def.	noun
+bridge	nominative	eine	die	Brücke	die	Brücken
+bridge	genitive	einer	der	Brücke	der	Brücken
+bridge	dative	einer	der	Brücke	den	Brücken
+bridge	accusative	eine	die	Brücke	die	Brücken
+sparrow		singular	singular	singular	plural	plural
+sparrow		indef.	def.	noun	def.	noun
+sparrow	nominative	ein	der	Sperling	die	Sperlinge
+sparrow	genitive	eines	des	Sperlings	der	Sperlinge
+sparrow	dative	einem	dem	Sperling	den	Sperlingen
+sparrow	accusative	einen	den	Sperling	die	Sperlinge
+sparrow		singular	singular	singular	plural	plural
+sparrow		indef.	def.	noun	def.	noun
+sparrow	nominative	ein	der	Spatz	die	Spatzen
+sparrow	genitive	eines	des	Spatzes, Spatzen	der	Spatzen
+sparrow	dative	einem	dem	Spatz, Spatze1, Spatzen	den	Spatzen
+sparrow	accusative	einen	den	Spatz, Spatzen	die	Spatzen
+sparrow		singular	singular	singular	plural	plural
+sparrow		indef.	def.	noun	def.	noun
+sparrow	nominative	ein	der	Spatz	die	Spätze
+sparrow	genitive	eines	des	Spatzes	der	Spätze
+sparrow	dative	einem	dem	Spatz, Spatze1	den	Spätzen
+sparrow	accusative	einen	den	Spatz	die	Spätze
+swallow		singular	singular	singular	plural	plural
+swallow		indef.	def.	noun	def.	noun
+swallow	nominative	eine	die	Schwalbe	die	Schwalben
+swallow	genitive	einer	der	Schwalbe	der	Schwalben
+swallow	dative	einer	der	Schwalbe	den	Schwalben
+swallow	accusative	eine	die	Schwalbe	die	Schwalben
+finch		singular	singular	singular	plural	plural
+finch		indef.	def.	noun	def.	noun
+finch	nominative	ein	der	Fink	die	Finken
+finch	genitive	eines	des	Finken1, Finks2	der	Finken
+finch	dative	einem	dem	Finken1, Fink2	den	Finken
+finch	accusative	einen	den	Finken1, Fink2	die	Finken
+finch		singular	singular	singular	singular	singular	singular	plural	plural
+finch		masculine	masculine	masculine	feminine	feminine	feminine	plural	plural
+finch		indef.	def.	noun	indef.	def.	noun	def.	noun
+finch	nominative	(ein)	(der)	Fink	(eine)	(die)	Fink	(die)	Finks
+finch	genitive	(eines)	(des)	Finks, Fink1	(einer)	(der)	Fink	(der)	Finks
+finch	dative	(einem)	(dem)	Fink	(einer)	(der)	Fink	(den)	Finks
+finch	accusative	(einen)	(den)	Fink	(eine)	(die)	Fink	(die)	Finks
+eagle		singular	singular	singular	plural	plural
+eagle		indef.	def.	noun	def.	noun
+eagle	nominative	ein	der	Adler	die	Adler
+eagle	genitive	eines	des	Adlers	der	Adler
+eagle	dative	einem	dem	Adler	den	Adlern
+eagle	accusative	einen	den	Adler	die	Adler
+eagle		singular	singular	singular
+eagle		indef.	def.	noun
+eagle	nominative	ein	der	Adler
+eagle	genitive	eines	des	Adlers
+eagle	dative	einem	dem	Adler
+eagle	accusative	einen	den	Adler
+eagle		singular	singular	singular	singular	singular	singular	plural	plural
+eagle		masculine	masculine	masculine	feminine	feminine	feminine	plural	plural
+eagle		indef.	def.	noun	indef.	def.	noun	def.	noun
+eagle	nominative	(ein)	(der)	Adler	(eine)	(die)	Adler	(die)	Adlers, Adler
+eagle	genitive	(eines)	(des)	Adlers, Adler1	(einer)	(der)	Adler	(der)	Adlers, Adler
+eagle	dative	(einem)	(dem)	Adler	(einer)	(der)	Adler	(den)	Adlers, Adler
+eagle	accusative	(einen)	(den)	Adler	(eine)	(die)	Adler	(die)	Adlers, Adler
+eagle		singular	singular	singular	plural	plural
+eagle		indef.	def.	noun	def.	noun
+eagle	nominative	ein	der	Aar	die	Aare, Aaren
+eagle	genitive	eines	des	Aares, Aars, Aaren	der	Aare, Aaren
+eagle	dative	einem	dem	Aar, Aare1, Aaren	den	Aaren
+eagle	accusative	einen	den	Aar, Aaren	die	Aare, Aaren
+eagle		singular	singular
+eagle		def.	noun
+eagle	nominative	die	Aar
+eagle	genitive	der	Aar
+eagle	dative	der	Aar
+eagle	accusative	die	Aar
+swan		singular	singular	singular	plural	plural
+swan		indef.	def.	noun	def.	noun
+swan	nominative	ein	der	Schwan	die	Schwäne, Schwanen2
+swan	genitive	eines	des	Schwans, Schwanes	der	Schwäne, Schwanen2
+swan	dative	einem	dem	Schwan, Schwane1	den	Schwänen, Schwanen2
+swan	accusative	einen	den	Schwan	die	Schwäne, Schwanen2
+swan		singular	singular	singular	plural	plural
+swan		indef.	def.	noun	def.	noun
+swan	nominative	eine	die	Schwänin	die	Schwäninnen
+swan	genitive	einer	der	Schwänin	der	Schwäninnen
+swan	dative	einer	der	Schwänin	den	Schwäninnen
+swan	accusative	eine	die	Schwänin	die	Schwäninnen
+flamingo		singular	singular	singular	plural	plural
+flamingo		indef.	def.	noun	def.	noun
+flamingo	nominative	ein	der	Flamingo	die	Flamingos
+flamingo	genitive	eines	des	Flamingos	der	Flamingos
+flamingo	dative	einem	dem	Flamingo	den	Flamingos
+flamingo	accusative	einen	den	Flamingo	die	Flamingos
+goose		singular	singular	singular	plural	plural
+goose		indef.	def.	noun	def.	noun
+goose	nominative	ein	das	Huhn	die	Hühner
+goose	genitive	eines	des	Huhnes, Huhns	der	Hühner
+goose	dative	einem	dem	Huhn, Huhne1	den	Hühnern
+goose	accusative	ein	das	Huhn	die	Hühner
+goose		singular	singular	singular	plural	plural
+goose		indef.	def.	noun	def.	noun
+goose	nominative	ein	das	Hähnchen	die	Hähnchen
+goose	genitive	eines	des	Hähnchens	der	Hähnchen
+goose	dative	einem	dem	Hähnchen	den	Hähnchen
+goose	accusative	ein	das	Hähnchen	die	Hähnchen
+goose		singular	singular	singular	plural	plural
+goose		indef.	def.	noun	def.	noun
+goose	nominative	ein	das	Hühnchen	die	Hühnchen, Hühnerchen
+goose	genitive	eines	des	Hühnchens	der	Hühnchen, Hühnerchen
+goose	dative	einem	dem	Hühnchen	den	Hühnchen, Hühnerchen
+goose	accusative	ein	das	Hühnchen	die	Hühnchen, Hühnerchen
+goose		singular	singular	singular	plural	plural
+goose		indef.	def.	noun	def.	noun
+goose	nominative	ein	das	Küchlein	die	Küchlein
+goose	genitive	eines	des	Küchleins	der	Küchlein
+goose	dative	einem	dem	Küchlein	den	Küchlein
+goose	accusative	ein	das	Küchlein	die	Küchlein
+goose		singular	singular	singular	plural	plural
+goose		indef.	def.	noun	def.	noun
+goose	nominative	ein	das	Küchlein	die	Küchlein
+goose	genitive	eines	des	Küchleins	der	Küchlein
+goose	dative	einem	dem	Küchlein	den	Küchlein
+goose	accusative	ein	das	Küchlein	die	Küchlein
+goose		singular	singular	singular	plural	plural
+goose		indef.	def.	noun	def.	noun
+goose	nominative	ein	das	Küchlein	die	Küchlein
+goose	genitive	eines	des	Küchleins	der	Küchlein
+goose	dative	einem	dem	Küchlein	den	Küchlein
+goose	accusative	ein	das	Küchlein	die	Küchlein
+chicken		singular	singular	singular	plural	plural
+chicken		indef.	def.	noun	def.	noun
+chicken	nominative	ein	das	Huhn	die	Hühner
+chicken	genitive	eines	des	Huhnes, Huhns	der	Hühner
+chicken	dative	einem	dem	Huhn, Huhne1	den	Hühnern
+chicken	accusative	ein	das	Huhn	die	Hühner
+chicken		singular	singular	singular	plural	plural
+chicken		indef.	def.	noun	def.	noun
+chicken	nominative	ein	das	Hähnchen	die	Hähnchen
+chicken	genitive	eines	des	Hähnchens	der	Hähnchen
+chicken	dative	einem	dem	Hähnchen	den	Hähnchen
+chicken	accusative	ein	das	Hähnchen	die	Hähnchen
+chicken		singular	singular	singular	plural	plural
+chicken		indef.	def.	noun	def.	noun
+chicken	nominative	ein	das	Hühnchen	die	Hühnchen, Hühnerchen
+chicken	genitive	eines	des	Hühnchens	der	Hühnchen, Hühnerchen
+chicken	dative	einem	dem	Hühnchen	den	Hühnchen, Hühnerchen
+chicken	accusative	ein	das	Hühnchen	die	Hühnchen, Hühnerchen
+chicken		singular	singular	singular	plural	plural
+chicken		indef.	def.	noun	def.	noun
+chicken	nominative	ein	das	Küchlein	die	Küchlein
+chicken	genitive	eines	des	Küchleins	der	Küchlein
+chicken	dative	einem	dem	Küchlein	den	Küchlein
+chicken	accusative	ein	das	Küchlein	die	Küchlein
+chicken		singular	singular	singular	plural	plural
+chicken		indef.	def.	noun	def.	noun
+chicken	nominative	ein	das	Küchlein	die	Küchlein
+chicken	genitive	eines	des	Küchleins	der	Küchlein
+chicken	dative	einem	dem	Küchlein	den	Küchlein
+chicken	accusative	ein	das	Küchlein	die	Küchlein
+chicken		singular	singular	singular	plural	plural
+chicken		indef.	def.	noun	def.	noun
+chicken	nominative	ein	das	Küchlein	die	Küchlein
+chicken	genitive	eines	des	Küchleins	der	Küchlein
+chicken	dative	einem	dem	Küchlein	den	Küchlein
+chicken	accusative	ein	das	Küchlein	die	Küchlein
+dove		singular	singular	singular	plural	plural
+dove		indef.	def.	noun	def.	noun
+dove	nominative	eine	die	Taube	die	Tauben
+dove	genitive	einer	der	Taube	der	Tauben
+dove	dative	einer	der	Taube	den	Tauben
+dove	accusative	eine	die	Taube	die	Tauben
+dove		singular	singular	plural	plural
+dove	feminine gender 	strong declension	strong declension	strong declension	strong declension
+dove	nominative	Taube	Taube	Taube	Taube
+dove	genitive	Tauber	Tauber	Tauber	Tauber
+dove	dative	Tauber	Tauber	Tauben	Tauben
+dove	accusative	Taube	Taube	Taube	Taube
+dove		weak declension	weak declension	weak declension	weak declension
+dove	nominative	die	Taube	die	Tauben
+dove	genitive	der	Tauben	der	Tauben
+dove	dative	der	Tauben	den	Tauben
+dove	accusative	die	Taube	die	Tauben
+dove		mixed declension	mixed declension	mixed declension	mixed declension
+dove	nominative	eine	Taube	(keine)	Tauben
+dove	genitive	einer	Tauben	(keiner)	Tauben
+dove	dative	einer	Tauben	(keinen)	Tauben
+dove	accusative	eine	Taube	(keine)	Tauben
+dove		singular	singular	singular	singular	singular	singular	plural	plural
+dove		masculine	masculine	masculine	feminine	feminine	feminine	plural	plural
+dove		indef.	def.	noun	indef.	def.	noun	def.	noun
+dove	nominative	(ein)	(der)	Taube	(eine)	(die)	Taube	(die)	Taubes, Taube
+dove	genitive	(eines)	(des)	Taubes, Taube1	(einer)	(der)	Taube	(der)	Taubes, Taube
+dove	dative	(einem)	(dem)	Taube	(einer)	(der)	Taube	(den)	Taubes, Taube
+dove	accusative	(einen)	(den)	Taube	(eine)	(die)	Taube	(die)	Taubes, Taube
+pigeon		singular	singular	singular	plural	plural
+pigeon		indef.	def.	noun	def.	noun
+pigeon	nominative	eine	die	Taube	die	Tauben
+pigeon	genitive	einer	der	Taube	der	Tauben
+pigeon	dative	einer	der	Taube	den	Tauben
+pigeon	accusative	eine	die	Taube	die	Tauben
+pigeon		singular	singular	plural	plural
+pigeon	feminine gender 	strong declension	strong declension	strong declension	strong declension
+pigeon	nominative	Taube	Taube	Taube	Taube
+pigeon	genitive	Tauber	Tauber	Tauber	Tauber
+pigeon	dative	Tauber	Tauber	Tauben	Tauben
+pigeon	accusative	Taube	Taube	Taube	Taube
+pigeon		weak declension	weak declension	weak declension	weak declension
+pigeon	nominative	die	Taube	die	Tauben
+pigeon	genitive	der	Tauben	der	Tauben
+pigeon	dative	der	Tauben	den	Tauben
+pigeon	accusative	die	Taube	die	Tauben
+pigeon		mixed declension	mixed declension	mixed declension	mixed declension
+pigeon	nominative	eine	Taube	(keine)	Tauben
+pigeon	genitive	einer	Tauben	(keiner)	Tauben
+pigeon	dative	einer	Tauben	(keinen)	Tauben
+pigeon	accusative	eine	Taube	(keine)	Tauben
+pigeon		singular	singular	singular	singular	singular	singular	plural	plural
+pigeon		masculine	masculine	masculine	feminine	feminine	feminine	plural	plural
+pigeon		indef.	def.	noun	indef.	def.	noun	def.	noun
+pigeon	nominative	(ein)	(der)	Taube	(eine)	(die)	Taube	(die)	Taubes, Taube
+pigeon	genitive	(eines)	(des)	Taubes, Taube1	(einer)	(der)	Taube	(der)	Taubes, Taube
+pigeon	dative	(einem)	(dem)	Taube	(einer)	(der)	Taube	(den)	Taubes, Taube
+pigeon	accusative	(einen)	(den)	Taube	(eine)	(die)	Taube	(die)	Taubes, Taube
+pigeon		singular	singular	singular	plural	plural
+pigeon		indef.	def.	noun	def.	noun
+pigeon	nominative	ein	der	Tauber	die	Tauber
+pigeon	genitive	eines	des	Taubers	der	Tauber
+pigeon	dative	einem	dem	Tauber	den	Taubern
+pigeon	accusative	einen	den	Tauber	die	Tauber
+pigeon		singular	singular	plural	plural
+pigeon	masculine gender 	strong declension	strong declension	strong declension	strong declension
+pigeon	nominative	Tauber	Tauber	Taube	Taube
+pigeon	genitive	Tauben	Tauben	Tauber	Tauber
+pigeon	dative	Taubem	Taubem	Tauben	Tauben
+pigeon	accusative	Tauben	Tauben	Taube	Taube
+pigeon		weak declension	weak declension	weak declension	weak declension
+pigeon	nominative	der	Taube	die	Tauben
+pigeon	genitive	des	Tauben	der	Tauben
+pigeon	dative	dem	Tauben	den	Tauben
+pigeon	accusative	den	Tauben	die	Tauben
+pigeon		mixed declension	mixed declension	mixed declension	mixed declension
+pigeon	nominative	ein	Tauber	(keine)	Tauben
+pigeon	genitive	eines	Tauben	(keiner)	Tauben
+pigeon	dative	einem	Tauben	(keinen)	Tauben
+pigeon	accusative	einen	Tauben	(keine)	Tauben
+pigeon		singular	singular	singular	plural	plural
+pigeon		indef.	def.	noun	def.	noun
+pigeon	nominative	ein	der	Täuber	die	Täuber
+pigeon	genitive	eines	des	Täubers	der	Täuber
+pigeon	dative	einem	dem	Täuber	den	Täubern
+pigeon	accusative	einen	den	Täuber	die	Täuber
+pigeon		singular	singular	singular	plural	plural
+pigeon		indef.	def.	noun	def.	noun
+pigeon	nominative	eine	die	Täubin	die	Täubinnen
+pigeon	genitive	einer	der	Täubin	der	Täubinnen
+pigeon	dative	einer	der	Täubin	den	Täubinnen
+pigeon	accusative	eine	die	Täubin	die	Täubinnen
+pigeon		singular	singular	singular	plural	plural
+pigeon		indef.	def.	noun	def.	noun
+pigeon	nominative	ein	das	Täubchen	die	Täubchen
+pigeon	genitive	eines	des	Täubchens	der	Täubchen
+pigeon	dative	einem	dem	Täubchen	den	Täubchen
+pigeon	accusative	ein	das	Täubchen	die	Täubchen
+pigeon		singular	singular	singular	plural	plural
+pigeon		indef.	def.	noun	def.	noun
+pigeon	nominative	ein	das	Täublein	die	Täublein
+pigeon	genitive	eines	des	Täubleins	der	Täublein
+pigeon	dative	einem	dem	Täublein	den	Täublein
+pigeon	accusative	ein	das	Täublein	die	Täublein
+crow		singular	singular	singular	plural	plural
+crow		indef.	def.	noun	def.	noun
+crow	nominative	eine	die	Krähe	die	Krähen
+crow	genitive	einer	der	Krähe	der	Krähen
+crow	dative	einer	der	Krähe	den	Krähen
+crow	accusative	eine	die	Krähe	die	Krähen
+chick		singular	singular	singular	plural	plural
+chick		indef.	def.	noun	def.	noun
+chick	nominative	ein	das	Küken	die	Küken
+chick	genitive	eines	des	Kükens	der	Küken
+chick	dative	einem	dem	Küken	den	Küken
+chick	accusative	ein	das	Küken	die	Küken
+child		singular	singular	singular	plural	plural
+child		indef.	def.	noun	def.	noun
+child	nominative	ein	das	Kind	die	Kinder
+child	genitive	eines	des	Kindes, Kinds	der	Kinder
+child	dative	einem	dem	Kind, Kinde1	den	Kindern
+child	accusative	ein	das	Kind	die	Kinder
+child		singular	singular	singular	plural	plural
+child		indef.	def.	noun	def.	noun
+child	nominative	ein	das	Kind	die	Kinder
+child	genitive	eines	des	Kindes, Kinds	der	Kinder
+child	dative	einem	dem	Kind, Kinde1	den	Kindern
+child	accusative	ein	das	Kind	die	Kinder
+egg		singular	singular	singular	plural	plural
+egg		indef.	def.	noun	def.	noun
+egg	nominative	ein	das	Ei	die	Eier
+egg	genitive	eines	des	Eies, Eis	der	Eier
+egg	dative	einem	dem	Ei, Eie1	den	Eiern
+egg	accusative	ein	das	Ei	die	Eier
+nest		singular	singular	singular	plural	plural
+nest		indef.	def.	noun	def.	noun
+nest	nominative	ein	das	Nest	die	Nester
+nest	genitive	eines	des	Nestes, Nests	der	Nester
+nest	dative	einem	dem	Nest, Neste1	den	Nestern
+nest	accusative	ein	das	Nest	die	Nester
+nest		singular	singular	singular	plural	plural
+nest		indef.	def.	noun	def.	noun
+nest	nominative	ein	das	Nest	die	Nester
+nest	genitive	eines	des	Nestes, Nests	der	Nester
+nest	dative	einem	dem	Nest, Neste1	den	Nestern
+nest	accusative	ein	das	Nest	die	Nester
+tree		singular	singular	singular	plural	plural
+tree		indef.	def.	noun	def.	noun
+tree	nominative	ein	der	Baum	die	Bäume
+tree	genitive	eines	des	Baumes, Baums	der	Bäume
+tree	dative	einem	dem	Baum, Baume1	den	Bäumen
+tree	accusative	einen	den	Baum	die	Bäume
 boat		singular	singular	singular	plural	plural
 boat		indef.	def.	noun	def.	noun
 boat	nominative	ein	das	Boot	die	Boote
 boat	genitive	eines	des	Bootes, Boots	der	Boote
 boat	dative	einem	dem	Boot, Boote1	den	Booten
 boat	accusative	ein	das	Boot	die	Boote
+boat		singular	singular	singular	plural	plural
+boat		indef.	def.	noun	def.	noun
+boat	nominative	ein	das	Schiff	die	Schiffe
+boat	genitive	eines	des	Schiffes, Schiffs	der	Schiffe
+boat	dative	einem	dem	Schiff, Schiffe1	den	Schiffen
+boat	accusative	ein	das	Schiff	die	Schiffe
 book		singular	singular	singular	plural	plural
 book		indef.	def.	noun	def.	noun
 book	nominative	ein	das	Buch	die	Bücher
 book	genitive	eines	des	Buches, Buchs	der	Bücher
 book	dative	einem	dem	Buch, Buche1	den	Büchern
 book	accusative	ein	das	Buch	die	Bücher
-brother		singular	singular	singular	plural	plural
-brother		indef.	def.	noun	def.	noun
-brother	nominative	ein	der	Bruder	die	Brüder
-brother	genitive	eines	des	Bruders	der	Brüder
-brother	dative	einem	dem	Bruder	den	Brüdern
-brother	accusative	einen	den	Bruder	die	Brüder
 bug		singular	singular	singular	plural	plural
 bug		indef.	def.	noun	def.	noun
 bug	nominative	eine	die	Wanze	die	Wanzen
 bug	genitive	einer	der	Wanze	der	Wanzen
 bug	dative	einer	der	Wanze	den	Wanzen
 bug	accusative	eine	die	Wanze	die	Wanzen
+bug		singular	singular	singular	plural	plural
+bug		indef.	def.	noun	def.	noun
+bug	nominative	ein	der	Schnabelkerf	die	Schnabelkerfe
+bug	genitive	eines	des	Schnabelkerfes, Schnabelkerfs	der	Schnabelkerfe
+bug	dative	einem	dem	Schnabelkerf, Schnabelkerfe1	den	Schnabelkerfen
+bug	accusative	einen	den	Schnabelkerf	die	Schnabelkerfe
+bug		singular	singular	singular	plural	plural
+bug		indef.	def.	noun	def.	noun
+bug	nominative	eine	die	Wanze	die	Wanzen
+bug	genitive	einer	der	Wanze	der	Wanzen
+bug	dative	einer	der	Wanze	den	Wanzen
+bug	accusative	eine	die	Wanze	die	Wanzen
+bug		singular	singular	singular	plural	plural
+bug		indef.	def.	noun	def.	noun
+bug	nominative	ein	das	Krabbeltier	die	Krabbeltiere
+bug	genitive	eines	des	Krabbeltieres, Krabbeltiers	der	Krabbeltiere
+bug	dative	einem	dem	Krabbeltier, Krabbeltiere1	den	Krabbeltieren
+bug	accusative	ein	das	Krabbeltier	die	Krabbeltiere
+bug		singular	singular	singular	plural	plural
+bug		indef.	def.	noun	def.	noun
+bug	nominative	ein	das	Ungeziefer	die	Ungeziefer
+bug	genitive	eines	des	Ungeziefers	der	Ungeziefer
+bug	dative	einem	dem	Ungeziefer	den	Ungeziefern
+bug	accusative	ein	das	Ungeziefer	die	Ungeziefer
+insect		singular	singular	singular	plural	plural
+insect		indef.	def.	noun	def.	noun
+insect	nominative	ein	das	Insekt	die	Insekten
+insect	genitive	eines	des	Insektes, Insekts	der	Insekten
+insect	dative	einem	dem	Insekt, Insekte1	den	Insekten
+insect	accusative	ein	das	Insekt	die	Insekten
+insect		singular	singular	singular	plural	plural
+insect		indef.	def.	noun	def.	noun
+insect	nominative	ein	das	Kerbtier	die	Kerbtiere
+insect	genitive	eines	des	Kerbtieres, Kerbtiers	der	Kerbtiere
+insect	dative	einem	dem	Kerbtier, Kerbtiere1	den	Kerbtieren
+insect	accusative	ein	das	Kerbtier	die	Kerbtiere
+insect		singular	singular	singular	plural	plural
+insect		indef.	def.	noun	def.	noun
+insect	nominative	ein	der	Kerf	die	Kerfe
+insect	genitive	eines	des	Kerfes, Kerfs	der	Kerfe
+insect	dative	einem	dem	Kerf, Kerfe1	den	Kerfen
+insect	accusative	einen	den	Kerf	die	Kerfe
+beetle		singular	singular	singular	plural	plural
+beetle		indef.	def.	noun	def.	noun
+beetle	nominative	ein	der	Käfer	die	Käfer
+beetle	genitive	eines	des	Käfers	der	Käfer
+beetle	dative	einem	dem	Käfer	den	Käfern
+beetle	accusative	einen	den	Käfer	die	Käfer
+louse		singular	singular	singular	plural	plural
+louse		indef.	def.	noun	def.	noun
+louse	nominative	eine	die	Laus	die	Läuse
+louse	genitive	einer	der	Laus	der	Läuse
+louse	dative	einer	der	Laus	den	Läusen
+louse	accusative	eine	die	Laus	die	Läuse
 clothing		singular	singular	singular	plural	plural
 clothing		indef.	def.	noun	def.	noun
-clothing	nominative	ein	das	Kleidungsstück	die	Kleidungsstücke
-clothing	genitive	eines	des	Kleidungsstückes, Kleidungsstücks	der	Kleidungsstücke
-clothing	dative	einem	dem	Kleidungsstück, Kleidungsstücke1	den	Kleidungsstücken
-clothing	accusative	ein	das	Kleidungsstück	die	Kleidungsstücke
-daughter		singular	singular	singular	plural	plural
-daughter		indef.	def.	noun	def.	noun
-daughter	nominative	eine	die	Tochter	die	Töchter
-daughter	genitive	einer	der	Tochter	der	Töchter
-daughter	dative	einer	der	Tochter	den	Töchtern
-daughter	accusative	eine	die	Tochter	die	Töchter
+clothing	nominative	ein	das	Gewand	die	Gewänder
+clothing	genitive	eines	des	Gewandes, Gewands	der	Gewänder
+clothing	dative	einem	dem	Gewand, Gewande1	den	Gewändern
+clothing	accusative	ein	das	Gewand	die	Gewänder
+clothing		singular	singular	singular	plural	plural
+clothing		indef.	def.	noun	def.	noun
+clothing	nominative	eine	die	Kleidung	die	Kleidungen
+clothing	genitive	einer	der	Kleidung	der	Kleidungen
+clothing	dative	einer	der	Kleidung	den	Kleidungen
+clothing	accusative	eine	die	Kleidung	die	Kleidungen
+garment		singular	singular	singular	plural	plural
+garment		indef.	def.	noun	def.	noun
+garment	nominative	ein	das	Kleidungsstück	die	Kleidungsstücke
+garment	genitive	eines	des	Kleidungsstückes, Kleidungsstücks	der	Kleidungsstücke
+garment	dative	einem	dem	Kleidungsstück, Kleidungsstücke1	den	Kleidungsstücken
+garment	accusative	ein	das	Kleidungsstück	die	Kleidungsstücke
 dog		singular	singular	singular	plural	plural
 dog		indef.	def.	noun	def.	noun
 dog	nominative	ein	der	Hund	die	Hunde, Hünde2
 dog	genitive	eines	des	Hundes, Hunds	der	Hunde, Hünde2
 dog	dative	einem	dem	Hund, Hunde1	den	Hunden, Hünden2
 dog	accusative	einen	den	Hund	die	Hunde, Hünde2
+dog		singular	singular	singular	plural	plural
+dog		indef.	def.	noun	def.	noun
+dog	nominative	eine	die	Hündin	die	Hündinnen
+dog	genitive	einer	der	Hündin	der	Hündinnen
+dog	dative	einer	der	Hündin	den	Hündinnen
+dog	accusative	eine	die	Hündin	die	Hündinnen
+dog		singular	singular	singular	plural	plural
+dog		indef.	def.	noun	def.	noun
+dog	nominative	ein	der	Rüde	die	Rüden
+dog	genitive	eines	des	Rüden	der	Rüden
+dog	dative	einem	dem	Rüden	den	Rüden
+dog	accusative	einen	den	Rüden	die	Rüden
 door		singular	singular	singular	plural	plural
 door		indef.	def.	noun	def.	noun
 door	nominative	eine	die	Tür	die	Türen
 door	genitive	einer	der	Tür	der	Türen
 door	dative	einer	der	Tür	den	Türen
 door	accusative	eine	die	Tür	die	Türen
+door		singular	singular	singular	plural	plural
+door		indef.	def.	noun	def.	noun
+door	nominative	eine	die	Türe	die	Türen
+door	genitive	einer	der	Türe	der	Türen
+door	dative	einer	der	Türe	den	Türen
+door	accusative	eine	die	Türe	die	Türen
 drum		singular	singular	singular	plural	plural
 drum		indef.	def.	noun	def.	noun
 drum	nominative	eine	die	Trommel	die	Trommeln
@@ -76,24 +566,168 @@ enemy	nominative	ein	der	Feind	die	Feinde
 enemy	genitive	eines	des	Feindes, Feinds	der	Feinde
 enemy	dative	einem	dem	Feind, Feinde1	den	Feinden
 enemy	accusative	einen	den	Feind	die	Feinde
+enemy		singular	singular	singular	plural	plural
+enemy		indef.	def.	noun	def.	noun
+enemy	nominative	eine	die	Feindin	die	Feindinnen
+enemy	genitive	einer	der	Feindin	der	Feindinnen
+enemy	dative	einer	der	Feindin	den	Feindinnen
+enemy	accusative	eine	die	Feindin	die	Feindinnen
+enemy		singular	singular	singular	plural	plural
+enemy		indef.	def.	noun	def.	noun
+enemy	nominative	ein	der	Gegner	die	Gegner
+enemy	genitive	eines	des	Gegners	der	Gegner
+enemy	dative	einem	dem	Gegner	den	Gegnern
+enemy	accusative	einen	den	Gegner	die	Gegner
+enemy		singular	singular	singular	plural	plural
+enemy		indef.	def.	noun	def.	noun
+enemy	nominative	eine	die	Gegnerin	die	Gegnerinnen
+enemy	genitive	einer	der	Gegnerin	der	Gegnerinnen
+enemy	dative	einer	der	Gegnerin	den	Gegnerinnen
+enemy	accusative	eine	die	Gegnerin	die	Gegnerinnen
+fish		singular	singular	singular	plural	plural
+fish		indef.	def.	noun	def.	noun
+fish	nominative	ein	der	Fisch	die	Fische
+fish	genitive	eines	des	Fisches, Fischs	der	Fische
+fish	dative	einem	dem	Fisch, Fische1	den	Fischen
+fish	accusative	einen	den	Fisch	die	Fische
 fire		singular	singular	singular	plural	plural
 fire		indef.	def.	noun	def.	noun
 fire	nominative	ein	das	Feuer	die	Feuer
 fire	genitive	eines	des	Feuers	der	Feuer
 fire	dative	einem	dem	Feuer	den	Feuern
 fire	accusative	ein	das	Feuer	die	Feuer
+fire		singular	singular	singular	plural	plural
+fire		indef.	def.	noun	def.	noun
+fire	nominative	ein	das	Feuer	die	Feuer
+fire	genitive	eines	des	Feuers	der	Feuer
+fire	dative	einem	dem	Feuer	den	Feuern
+fire	accusative	ein	das	Feuer	die	Feuer
+fire		singular	singular	singular	plural	plural
+fire		indef.	def.	noun	def.	noun
+fire	nominative	ein	das	Feuer	die	Feuer
+fire	genitive	eines	des	Feuers	der	Feuer
+fire	dative	einem	dem	Feuer	den	Feuern
+fire	accusative	ein	das	Feuer	die	Feuer
+fire		singular	singular	singular	plural	plural
+fire		indef.	def.	noun	def.	noun
+fire	nominative	ein	der	Brand	die	Brände
+fire	genitive	eines	des	Brandes, Brands	der	Brände
+fire	dative	einem	dem	Brand, Brande1	den	Bränden
+fire	accusative	einen	den	Brand	die	Brände
+fire		singular	singular	singular	plural	plural
+fire		indef.	def.	noun	def.	noun
+fire	nominative	ein	das, der	Brand	die	Brands
+fire	genitive	eines	des	Brands	der	Brands
+fire	dative	einem	dem	Brand	den	Brands
+fire	accusative	ein, einen	das, den	Brand	die	Brands
+fire		singular	singular
+fire		def.	noun
+fire	nominative	das	Brand
+fire	genitive	des	Brands, Brand1
+fire	dative	dem	Brand
+fire	accusative	das	Brand
 food		singular	singular	singular	plural	plural
 food		indef.	def.	noun	def.	noun
 food	nominative	eine	die	Nahrung	die	Nahrungen
 food	genitive	einer	der	Nahrung	der	Nahrungen
 food	dative	einer	der	Nahrung	den	Nahrungen
 food	accusative	eine	die	Nahrung	die	Nahrungen
+food		singular	singular	singular	plural	plural
+food		indef.	def.	noun	def.	noun
+food	nominative	ein	das	Essen	die	Essen
+food	genitive	eines	des	Essens	der	Essen
+food	dative	einem	dem	Essen	den	Essen
+food	accusative	ein	das	Essen	die	Essen
+food		singular	singular	singular	plural	plural
+food		indef.	def.	noun	def.	noun
+food	nominative	ein	das	Lebensmittel	die	Lebensmittel
+food	genitive	eines	des	Lebensmittels	der	Lebensmittel
+food	dative	einem	dem	Lebensmittel	den	Lebensmitteln
+food	accusative	ein	das	Lebensmittel	die	Lebensmittel
+food		singular	singular	singular	plural	plural
+food		indef.	def.	noun	def.	noun
+food	nominative	eine	die	Speise	die	Speisen
+food	genitive	einer	der	Speise	der	Speisen
+food	dative	einer	der	Speise	den	Speisen
+food	accusative	eine	die	Speise	die	Speisen
+forest		singular	singular	singular	plural	plural
+forest		indef.	def.	noun	def.	noun
+forest	nominative	ein	der	Wald	die	Wälder
+forest	genitive	eines	des	Waldes, Walds	der	Wälder
+forest	dative	einem	dem	Wald, Walde1	den	Wäldern
+forest	accusative	einen	den	Wald	die	Wälder
+forest		singular	singular	singular	plural	plural
+forest		indef.	def.	noun	def.	noun
+forest	nominative	ein	der	Forst	die	Forste, Forsten, Förste2
+forest	genitive	eines	des	Forstes, Forsts	der	Forste, Forsten, Förste2
+forest	dative	einem	dem	Forst, Forste1	den	Forsten, Försten2
+forest	accusative	einen	den	Forst	die	Forste, Forsten, Förste2
+forest		singular	singular
+forest		def.	noun
+forest	nominative	das	Forst
+forest	genitive	des	Forsts, Forst1
+forest	dative	dem	Forst
+forest	accusative	das	Forst
+forest		singular	singular	singular	plural	plural
+forest		indef.	def.	noun	def.	noun
+forest	nominative	ein	das	Gehölz	die	Gehölze
+forest	genitive	eines	des	Gehölzes	der	Gehölze
+forest	dative	einem	dem	Gehölz, Gehölze1	den	Gehölzen
+forest	accusative	ein	das	Gehölz	die	Gehölze
+forest		singular	singular	singular	plural	plural
+forest		indef.	def.	noun	def.	noun
+forest	nominative	ein	der	Hain	die	Haine
+forest	genitive	eines	des	Haines, Hains	der	Haine
+forest	dative	einem	dem	Hain, Haine1	den	Hainen
+forest	accusative	einen	den	Hain	die	Haine
+gate		singular	singular	singular	plural	plural
+gate		indef.	def.	noun	def.	noun
+gate	nominative	ein	das	Tor	die	Tore
+gate	genitive	eines	des	Tores, Tors	der	Tore
+gate	dative	einem	dem	Tor, Tore1	den	Toren
+gate	accusative	ein	das	Tor	die	Tore
+gate		singular	singular	singular	plural	plural
+gate		indef.	def.	noun	def.	noun
+gate	nominative	ein	der	Tor	die	Toren
+gate	genitive	eines	des	Toren	der	Toren
+gate	dative	einem	dem	Toren	den	Toren
+gate	accusative	einen	den	Toren	die	Toren
+gate		singular	singular	singular	plural	plural
+gate		indef.	def.	noun	def.	noun
+gate	nominative	ein	das	Tor	die	Tore
+gate	genitive	eines	des	Tores, Tors	der	Tore
+gate	dative	einem	dem	Tor, Tore1	den	Toren
+gate	accusative	ein	das	Tor	die	Tore
+gate		singular	singular	singular	plural	plural
+gate		indef.	def.	noun	def.	noun
+gate	nominative	ein	der	Tor	die	Toren
+gate	genitive	eines	des	Toren	der	Toren
+gate	dative	einem	dem	Toren	den	Toren
+gate	accusative	einen	den	Toren	die	Toren
 gift		singular	singular	singular	plural	plural
 gift		indef.	def.	noun	def.	noun
 gift	nominative	ein	das	Geschenk	die	Geschenke
 gift	genitive	eines	des	Geschenkes, Geschenks	der	Geschenke
 gift	dative	einem	dem	Geschenk, Geschenke1	den	Geschenken
 gift	accusative	ein	das	Geschenk	die	Geschenke
+gift		singular	singular	singular	plural	plural
+gift		indef.	def.	noun	def.	noun
+gift	nominative	ein	das	Präsent	die	Präsente
+gift	genitive	eines	des	Präsents, Präsentes	der	Präsente
+gift	dative	einem	dem	Präsent, Präsente1	den	Präsenten
+gift	accusative	ein	das	Präsent	die	Präsente
+gift		singular	singular	singular	plural	plural
+gift		indef.	def.	noun	def.	noun
+gift	nominative	eine	die	Spende	die	Spenden
+gift	genitive	einer	der	Spende	der	Spenden
+gift	dative	einer	der	Spende	den	Spenden
+gift	accusative	eine	die	Spende	die	Spenden
+gift		singular	singular	singular	plural	plural
+gift		indef.	def.	noun	def.	noun
+gift	nominative	eine	die	Gabe	die	Gaben
+gift	genitive	einer	der	Gabe	der	Gaben
+gift	dative	einer	der	Gabe	den	Gaben
+gift	accusative	eine	die	Gabe	die	Gaben
 glass		singular	singular	singular	plural	plural
 glass		indef.	def.	noun	def.	noun
 glass	nominative	ein	das	Glas	die	Gläser, Glas
@@ -112,6 +746,54 @@ guard	nominative	ein	der	Wächter	die	Wächter
 guard	genitive	eines	des	Wächters	der	Wächter
 guard	dative	einem	dem	Wächter	den	Wächtern
 guard	accusative	einen	den	Wächter	die	Wächter
+hill		singular	singular	singular	plural	plural
+hill		indef.	def.	noun	def.	noun
+hill	nominative	ein	der	Hügel	die	Hügel
+hill	genitive	eines	des	Hügels	der	Hügel
+hill	dative	einem	dem	Hügel	den	Hügeln
+hill	accusative	einen	den	Hügel	die	Hügel
+horse		singular	singular	singular	plural	plural
+horse		indef.	def.	noun	def.	noun
+horse	nominative	ein	das	Pferd	die	Pferde
+horse	genitive	eines	des	Pferdes, Pferds	der	Pferde
+horse	dative	einem	dem	Pferd, Pferde1	den	Pferden
+horse	accusative	ein	das	Pferd	die	Pferde
+horse		singular	singular	singular	plural	plural
+horse		indef.	def.	noun	def.	noun
+horse	nominative	ein	das	Ross	die	Rosse, Rösser
+horse	genitive	eines	des	Rosses	der	Rosse, Rösser
+horse	dative	einem	dem	Ross, Rosse1	den	Rossen, Rössern
+horse	accusative	ein	das	Ross	die	Rosse, Rösser
+horse		singular	singular	singular	plural	plural
+horse		indef.	def.	noun	def.	noun
+horse	nominative	ein	das	Roß	die	Roße
+horse	genitive	eines	des	Roßes	der	Roße
+horse	dative	einem	dem	Roß, Roße1	den	Roßen
+horse	accusative	ein	das	Roß	die	Roße
+horse		singular	singular	singular	plural	plural
+horse		indef.	def.	noun	def.	noun
+horse	nominative	ein	der	Gaul	die	Gäule
+horse	genitive	eines	des	Gauls, Gaules	der	Gäule
+horse	dative	einem	dem	Gaul, Gaule1	den	Gäulen
+horse	accusative	einen	den	Gaul	die	Gäule
+horse		singular	singular	singular	plural	plural
+horse		indef.	def.	noun	def.	noun
+horse	nominative	ein	der	Hengst	die	Hengste
+horse	genitive	eines	des	Hengstes, Hengsts	der	Hengste
+horse	dative	einem	dem	Hengst, Hengste1	den	Hengsten
+horse	accusative	einen	den	Hengst	die	Hengste
+horse		singular	singular	singular	plural	plural
+horse		indef.	def.	noun	def.	noun
+horse	nominative	eine	die	Stute	die	Stuten
+horse	genitive	einer	der	Stute	der	Stuten
+horse	dative	einer	der	Stute	den	Stuten
+horse	accusative	eine	die	Stute	die	Stuten
+horse		singular	singular	singular	plural	plural
+horse		indef.	def.	noun	def.	noun
+horse	nominative	ein	das	Rössel	die	Rössel, Rösseln
+horse	genitive	eines	des	Rössels	der	Rössel, Rösseln
+horse	dative	einem	dem	Rössel	den	Rösseln
+horse	accusative	ein	das	Rössel	die	Rössel, Rösseln
 horse		singular	singular	singular	plural	plural
 horse		indef.	def.	noun	def.	noun
 horse	nominative	ein	das	Pferd	die	Pferde
@@ -124,42 +806,132 @@ house	nominative	ein	das	Haus	die	Häuser
 house	genitive	eines	des	Hauses	der	Häuser
 house	dative	einem	dem	Haus, Hause1	den	Häusern
 house	accusative	ein	das	Haus	die	Häuser
-livestock		singular	singular	singular
-livestock		indef.	def.	noun
-livestock	nominative	ein	das	Vieh
-livestock	genitive	eines	des	Viehes, Viehs
-livestock	dative	einem	dem	Vieh, Viehe1
-livestock	accusative	ein	das	Vieh
+house		singular	singular	singular	plural	plural
+house		indef.	def.	noun	def.	noun
+house	nominative	ein	das	Haus	die	Häuser
+house	genitive	eines	des	Hauses	der	Häuser
+house	dative	einem	dem	Haus, Hause1	den	Häusern
+house	accusative	ein	das	Haus	die	Häuser
+house		singular	singular	singular	plural	plural
+house		indef.	def.	noun	def.	noun
+house	nominative	ein	das	Haus	die	Häuser
+house	genitive	eines	des	Hauses	der	Häuser
+house	dative	einem	dem	Haus, Hause1	den	Häusern
+house	accusative	ein	das	Haus	die	Häuser
+log		singular	singular	singular	plural	plural
+log		indef.	def.	noun	def.	noun
+log	nominative	ein	der	Holzklotz	die	Holzklötze
+log	genitive	eines	des	Holzklotzes	der	Holzklötze
+log	dative	einem	dem	Holzklotz, Holzklotze1	den	Holzklötzen
+log	accusative	einen	den	Holzklotz	die	Holzklötze
+love		singular	singular	singular	plural	plural
+love		indef.	def.	noun	def.	noun
+love	nominative	eine	die	Liebe	die	Lieben
+love	genitive	einer	der	Liebe	der	Lieben
+love	dative	einer	der	Liebe	den	Lieben
+love	accusative	eine	die	Liebe	die	Lieben
 love		singular	singular	singular	plural	plural
 love		indef.	def.	noun	def.	noun
 love	nominative	eine	die	Zuneigung	die	Zuneigungen
 love	genitive	einer	der	Zuneigung	der	Zuneigungen
 love	dative	einer	der	Zuneigung	den	Zuneigungen
 love	accusative	eine	die	Zuneigung	die	Zuneigungen
-idea		singular	singular	singular	plural	plural
-idea		indef.	def.	noun	def.	noun
-idea	nominative	ein	der	Gedanke	die	Gedanken
-idea	genitive	eines	des	Gedankens, Gedanken1	der	Gedanken
-idea	dative	einem	dem	Gedanken	den	Gedanken
-idea	accusative	einen	den	Gedanken	die	Gedanken
-man		singular	singular	singular	plural	plural
-man		indef.	def.	noun	def.	noun
-man	nominative	ein	der	Mann	die	Männer, Mann2, Mannen3
-man	genitive	eines	des	Mannes, Manns	der	Männer, Mann2, Mannen3
-man	dative	einem	dem	Mann, Manne1	den	Männern, Mann2, Mannen3
-man	accusative	einen	den	Mann	die	Männer, Mann2, Mannen3
+love		singular	singular	singular
+love		indef.	def.	noun
+love	nominative	eine	die	Minne
+love	genitive	einer	der	Minne
+love	dative	einer	der	Minne
+love	accusative	eine	die	Minne
+metal		singular	singular	singular	plural	plural
+metal		indef.	def.	noun	def.	noun
+metal	nominative	ein	das	Metall	die	Metalle
+metal	genitive	eines	des	Metalles, Metalls	der	Metalle
+metal	dative	einem	dem	Metall, Metalle1	den	Metallen
+metal	accusative	ein	das	Metall	die	Metalle
 money		singular	singular	singular	plural	plural
 money		indef.	def.	noun	def.	noun
 money	nominative	ein	das	Geld	die	Gelder
 money	genitive	eines	des	Geldes, Gelds	der	Gelder
 money	dative	einem	dem	Geld, Gelde1	den	Geldern
 money	accusative	ein	das	Geld	die	Gelder
+money		singular	singular	singular	plural	plural
+money		indef.	def.	noun	def.	noun
+money	nominative	ein	das	Geld	die	Gelder
+money	genitive	eines	des	Geldes, Gelds	der	Gelder
+money	dative	einem	dem	Geld, Gelde1	den	Geldern
+money	accusative	ein	das	Geld	die	Gelder
+money		singular	singular	singular	plural	plural
+money		indef.	def.	noun	def.	noun
+money	nominative	ein	das	Bargeld	die	Bargelder
+money	genitive	eines	des	Bargeldes, Bargelds	der	Bargelder
+money	dative	einem	dem	Bargeld, Bargelde1	den	Bargeldern
+money	accusative	ein	das	Bargeld	die	Bargelder
+money		singular	singular	singular	plural	plural
+money		indef.	def.	noun	def.	noun
+money	nominative	ein	das	Vermögen	die	Vermögen
+money	genitive	eines	des	Vermögens	der	Vermögen
+money	dative	einem	dem	Vermögen	den	Vermögen
+money	accusative	ein	das	Vermögen	die	Vermögen
+money		singular	singular	singular	plural	plural
+money		indef.	def.	noun	def.	noun
+money	nominative	ein	der	Reichtum	die	Reichtümer
+money	genitive	eines	des	Reichtums, Reichtumes1	der	Reichtümer
+money	dative	einem	dem	Reichtum, Reichtume1,2	den	Reichtümern
+money	accusative	einen	den	Reichtum	die	Reichtümer
+coin		singular	singular	singular	plural	plural
+coin		indef.	def.	noun	def.	noun
+coin	nominative	eine	die	Münze	die	Münzen
+coin	genitive	einer	der	Münze	der	Münzen
+coin	dative	einer	der	Münze	den	Münzen
+coin	accusative	eine	die	Münze	die	Münzen
+coin		singular	singular	singular	plural	plural
+coin		indef.	def.	noun	def.	noun
+coin	nominative	eine	die	Münze	die	Münzen
+coin	genitive	einer	der	Münze	der	Münzen
+coin	dative	einer	der	Münze	den	Münzen
+coin	accusative	eine	die	Münze	die	Münzen
+coin		singular	singular	singular	plural	plural
+coin		indef.	def.	noun	def.	noun
+coin	nominative	ein	das	Geldstück	die	Geldstücke
+coin	genitive	eines	des	Geldstückes, Geldstücks	der	Geldstücke
+coin	dative	einem	dem	Geldstück, Geldstücke1	den	Geldstücken
+coin	accusative	ein	das	Geldstück	die	Geldstücke
+weath		singular	singular	singular	plural	plural
+weath		indef.	def.	noun	def.	noun
+weath	nominative	ein	der	Reichtum	die	Reichtümer
+weath	genitive	eines	des	Reichtums, Reichtumes1	der	Reichtümer
+weath	dative	einem	dem	Reichtum, Reichtume1,2	den	Reichtümern
+weath	accusative	einen	den	Reichtum	die	Reichtümer
+weath		singular	singular	singular	plural	plural
+weath		indef.	def.	noun	def.	noun
+weath	nominative	ein	das	Vermögen	die	Vermögen
+weath	genitive	eines	des	Vermögens	der	Vermögen
+weath	dative	einem	dem	Vermögen	den	Vermögen
+weath	accusative	ein	das	Vermögen	die	Vermögen
 monster		singular	singular	singular	plural	plural
 monster		indef.	def.	noun	def.	noun
 monster	nominative	ein	das	Monster	die	Monster
 monster	genitive	eines	des	Monsters	der	Monster
 monster	dative	einem	dem	Monster	den	Monstern
 monster	accusative	ein	das	Monster	die	Monster
+monster		singular	singular	singular	plural	plural
+monster		indef.	def.	noun	def.	noun
+monster	nominative	ein	das	Ungeheuer	die	Ungeheuer
+monster	genitive	eines	des	Ungeheuers	der	Ungeheuer
+monster	dative	einem	dem	Ungeheuer	den	Ungeheuern
+monster	accusative	ein	das	Ungeheuer	die	Ungeheuer
+beast		singular	singular	singular	plural	plural
+beast		indef.	def.	noun	def.	noun
+beast	nominative	ein	das	Tier	die	Tiere
+beast	genitive	eines	des	Tieres, Tiers	der	Tiere
+beast	dative	einem	dem	Tier, Tiere1	den	Tieren
+beast	accusative	ein	das	Tier	die	Tiere
+beast		singular	singular	singular	plural	plural
+beast		indef.	def.	noun	def.	noun
+beast	nominative	eine	die	Bestie	die	Bestien
+beast	genitive	einer	der	Bestie	der	Bestien
+beast	dative	einer	der	Bestie	den	Bestien
+beast	accusative	eine	die	Bestie	die	Bestien
 name		singular	singular	singular	plural	plural
 name		indef.	def.	noun	def.	noun
 name	nominative	ein	der	Name	die	Namen
@@ -172,30 +944,150 @@ rock	nominative	ein	der	Fels	die	Felsen
 rock	genitive	eines	des	Felses, Felsen, Felsens	der	Felsen
 rock	dative	einem	dem	Fels, Felse1, Felsen	den	Felsen
 rock	accusative	einen	den	Fels, Felsen	die	Felsen
+rock		singular	singular	singular	plural	plural
+rock		indef.	def.	noun	def.	noun
+rock	nominative	ein	das	Gestein	die	Gesteine
+rock	genitive	eines	des	Gesteines, Gesteins	der	Gesteine
+rock	dative	einem	dem	Gestein, Gesteine1	den	Gesteinen
+rock	accusative	ein	das	Gestein	die	Gesteine
+stone		singular	singular	singular	plural	plural
+stone		indef.	def.	noun	def.	noun
+stone	nominative	ein	der	Stein	die	Steine
+stone	genitive	eines	des	Steins, Steines	der	Steine
+stone	dative	einem	dem	Stein, Steine1	den	Steinen
+stone	accusative	einen	den	Stein	die	Steine
+stone		singular	singular	singular	plural	plural
+stone		indef.	def.	noun	def.	noun
+stone	nominative	ein	der	Stein	die	Steine
+stone	genitive	eines	des	Steins, Steines	der	Steine
+stone	dative	einem	dem	Stein, Steine1	den	Steinen
+stone	accusative	einen	den	Stein	die	Steine
 rope		singular	singular	singular	plural	plural
 rope		indef.	def.	noun	def.	noun
 rope	nominative	ein	das	Seil	die	Seile
 rope	genitive	eines	des	Seiles, Seils	der	Seile
 rope	dative	einem	dem	Seil, Seile1	den	Seilen
 rope	accusative	ein	das	Seil	die	Seile
-size		singular	singular	singular	plural	plural
-size		indef.	def.	noun	def.	noun
-size	nominative	eine	die	Größe	die	Größen
-size	genitive	einer	der	Größe	der	Größen
-size	dative	einer	der	Größe	den	Größen
-size	accusative	eine	die	Größe	die	Größen
-son		singular	singular	singular	plural	plural
-son		indef.	def.	noun	def.	noun
-son	nominative	ein	der	Sohn	die	Söhne
-son	genitive	eines	des	Sohnes, Sohns	der	Söhne
-son	dative	einem	dem	Sohn, Sohne1	den	Söhnen
-son	accusative	einen	den	Sohn	die	Söhne
+rope		singular	singular	singular
+rope		indef.	def.	noun
+rope	nominative	ein	der	Tau
+rope	genitive	eines	des	Taues, Taus
+rope	dative	einem	dem	Tau, Taue1
+rope	accusative	einen	den	Tau
+rope		singular	singular	singular	plural	plural
+rope		indef.	def.	noun	def.	noun
+rope	nominative	ein	das	Tau	die	Taue
+rope	genitive	eines	des	Taues, Taus	der	Taue
+rope	dative	einem	dem	Tau, Taue1	den	Tauen
+rope	accusative	ein	das	Tau	die	Taue
+rope		singular	singular	singular	plural	plural
+rope		indef.	def.	noun	def.	noun
+rope	nominative	ein	das	Tau	die	Taus
+rope	genitive	eines	des	Taus	der	Taus
+rope	dative	einem	dem	Tau	den	Taus
+rope	accusative	ein	das	Tau	die	Taus
+rope		singular	singular	singular	plural	plural
+rope		indef.	def.	noun	def.	noun
+rope	nominative	eine	die	Schnur	die	Schnüre
+rope	genitive	einer	der	Schnur	der	Schnüre
+rope	dative	einer	der	Schnur	den	Schnüren
+rope	accusative	eine	die	Schnur	die	Schnüre
+rope		singular	singular	singular	plural	plural
+rope		indef.	def.	noun	def.	noun
+rope	nominative	eine	die	Schnur	die	Schnuren, Schnüre
+rope	genitive	einer	der	Schnur	der	Schnuren, Schnüre
+rope	dative	einer	der	Schnur	den	Schnuren, Schnüren
+rope	accusative	eine	die	Schnur	die	Schnuren, Schnüre
+rope		singular	singular	singular	plural	plural
+rope		indef.	def.	noun	def.	noun
+rope	nominative	ein	das	Seil	die	Seile
+rope	genitive	eines	des	Seiles, Seils	der	Seile
+rope	dative	einem	dem	Seil, Seile1	den	Seilen
+rope	accusative	ein	das	Seil	die	Seile
+rope		singular	singular	singular
+rope		indef.	def.	noun
+rope	nominative	ein	der	Tau
+rope	genitive	eines	des	Taues, Taus
+rope	dative	einem	dem	Tau, Taue1
+rope	accusative	einen	den	Tau
+rope		singular	singular	singular	plural	plural
+rope		indef.	def.	noun	def.	noun
+rope	nominative	ein	das	Tau	die	Taue
+rope	genitive	eines	des	Taues, Taus	der	Taue
+rope	dative	einem	dem	Tau, Taue1	den	Tauen
+rope	accusative	ein	das	Tau	die	Taue
+rope		singular	singular	singular	plural	plural
+rope		indef.	def.	noun	def.	noun
+rope	nominative	ein	das	Tau	die	Taus
+rope	genitive	eines	des	Taus	der	Taus
+rope	dative	einem	dem	Tau	den	Taus
+rope	accusative	ein	das	Tau	die	Taus
+tool		singular	singular	singular	plural	plural
+tool		indef.	def.	noun	def.	noun
+tool	nominative	ein	das	Gerät	die	Geräte
+tool	genitive	eines	des	Gerätes, Geräts	der	Geräte
+tool	dative	einem	dem	Gerät, Geräte1	den	Geräten
+tool	accusative	ein	das	Gerät	die	Geräte
+tool		singular	singular	singular	plural	plural
+tool		indef.	def.	noun	def.	noun
+tool	nominative	ein	das	Instrument	die	Instrumente
+tool	genitive	eines	des	Instrumentes, Instruments	der	Instrumente
+tool	dative	einem	dem	Instrument, Instrumente1	den	Instrumenten
+tool	accusative	ein	das	Instrument	die	Instrumente
+tool		singular	singular	singular	plural	plural
+tool		indef.	def.	noun	def.	noun
+tool	nominative	ein	das	Werkzeug	die	Werkzeuge
+tool	genitive	eines	des	Werkzeuges, Werkzeugs	der	Werkzeuge
+tool	dative	einem	dem	Werkzeug, Werkzeuge1	den	Werkzeugen
+tool	accusative	ein	das	Werkzeug	die	Werkzeuge
+tool		singular	singular	singular	plural	plural
+tool		indef.	def.	noun	def.	noun
+tool	nominative	ein	das	Instrument	die	Instrumente
+tool	genitive	eines	des	Instrumentes, Instruments	der	Instrumente
+tool	dative	einem	dem	Instrument, Instrumente1	den	Instrumenten
+tool	accusative	ein	das	Instrument	die	Instrumente
+tool		singular	singular	singular	plural	plural
+tool		indef.	def.	noun	def.	noun
+tool	nominative	ein	das	Werkzeug	die	Werkzeuge
+tool	genitive	eines	des	Werkzeuges, Werkzeugs	der	Werkzeuge
+tool	dative	einem	dem	Werkzeug, Werkzeuge1	den	Werkzeugen
+tool	accusative	ein	das	Werkzeug	die	Werkzeuge
+treasure		singular	singular	singular	plural	plural
+treasure		indef.	def.	noun	def.	noun
+treasure	nominative	ein	der	Schatz	die	Schätze
+treasure	genitive	eines	des	Schatzes	der	Schätze
+treasure	dative	einem	dem	Schatz, Schatze1	den	Schätzen
+treasure	accusative	einen	den	Schatz	die	Schätze
+treasure		singular	singular	singular	plural	plural
+treasure		indef.	def.	noun	def.	noun
+treasure	nominative	ein	der	Schatz	die	Schätze
+treasure	genitive	eines	des	Schatzes	der	Schätze
+treasure	dative	einem	dem	Schatz, Schatze1	den	Schätzen
+treasure	accusative	einen	den	Schatz	die	Schätze
 warmth		singular	singular	singular
 warmth		indef.	def.	noun
 warmth	nominative	eine	die	Wärme
 warmth	genitive	einer	der	Wärme
 warmth	dative	einer	der	Wärme
 warmth	accusative	eine	die	Wärme
+heat		singular	singular	singular
+heat		indef.	def.	noun
+heat	nominative	eine	die	Wärme
+heat	genitive	einer	der	Wärme
+heat	dative	einer	der	Wärme
+heat	accusative	eine	die	Wärme
+heat		singular	singular	singular	plural	plural
+heat		indef.	def.	noun	def.	noun
+heat	nominative	eine	die	Hitze	die	Hitzen1
+heat	genitive	einer	der	Hitze	der	Hitzen1
+heat	dative	einer	der	Hitze	den	Hitzen1
+heat	accusative	eine	die	Hitze	die	Hitzen1
+heat		singular	singular	singular
+heat		indef.	def.	noun
+heat	nominative	eine	die	Wärme
+heat	genitive	einer	der	Wärme
+heat	dative	einer	der	Wärme
+heat	accusative	eine	die	Wärme
 water		singular	singular	singular	plural	plural
 water		indef.	def.	noun	def.	noun
 water	nominative	ein	das	Wasser	die	Wasser, Wässer
@@ -214,21 +1106,679 @@ wind	nominative	ein	der	Wind	die	Winde
 wind	genitive	eines	des	Windes, Winds	der	Winde
 wind	dative	einem	dem	Wind, Winde1	den	Winden
 wind	accusative	einen	den	Wind	die	Winde
-window		singular	singular	singular	plural	plural
-window		indef.	def.	noun	def.	noun
-window	nominative	ein	das	Fenster	die	Fenster
-window	genitive	eines	des	Fensters	der	Fenster
-window	dative	einem	dem	Fenster	den	Fenstern
-window	accusative	ein	das	Fenster	die	Fenster
-woman		singular	singular	singular	plural	plural
-woman		indef.	def.	noun	def.	noun
-woman	nominative	eine	die	Frau	die	Frauen
-woman	genitive	einer	der	Frau	der	Frauen
-woman	dative	einer	der	Frau	den	Frauen
-woman	accusative	eine	die	Frau	die	Frauen
+wolf		singular	singular	singular	plural	plural
+wolf		indef.	def.	noun	def.	noun
+wolf	nominative	ein	der	Wolf	die	Wölfe
+wolf	genitive	eines	des	Wolfes, Wolfs	der	Wölfe
+wolf	dative	einem	dem	Wolf, Wolfe1	den	Wölfen
+wolf	accusative	einen	den	Wolf	die	Wölfe
+wood		singular	singular	singular	plural	plural
+wood		indef.	def.	noun	def.	noun
+wood	nominative	ein	das	Holz	die	Hölzer
+wood	genitive	eines	des	Holzes	der	Hölzer
+wood	dative	einem	dem	Holz, Holze1	den	Hölzern
+wood	accusative	ein	das	Holz	die	Hölzer
+wood		singular	singular	singular	plural	plural
+wood		indef.	def.	noun	def.	noun
+wood	nominative	ein	das	Holz	die	Hölzer
+wood	genitive	eines	des	Holzes	der	Hölzer
+wood	dative	einem	dem	Holz, Holze1	den	Hölzern
+wood	accusative	ein	das	Holz	die	Hölzer
 work		singular	singular	singular	plural	plural
 work		indef.	def.	noun	def.	noun
 work	nominative	eine	die	Arbeit	die	Arbeiten
 work	genitive	einer	der	Arbeit	der	Arbeiten
 work	dative	einer	der	Arbeit	den	Arbeiten
 work	accusative	eine	die	Arbeit	die	Arbeiten
+worker		singular	singular	singular	plural	plural
+worker		indef.	def.	noun	def.	noun
+worker	nominative	ein	der	Arbeiter	die	Arbeiter
+worker	genitive	eines	des	Arbeiters	der	Arbeiter
+worker	dative	einem	dem	Arbeiter	den	Arbeitern
+worker	accusative	einen	den	Arbeiter	die	Arbeiter
+worker		singular	singular	singular	plural	plural
+worker		indef.	def.	noun	def.	noun
+worker	nominative	eine	die	Arbeiterin	die	Arbeiterinnen
+worker	genitive	einer	der	Arbeiterin	der	Arbeiterinnen
+worker	dative	einer	der	Arbeiterin	den	Arbeiterinnen
+worker	accusative	eine	die	Arbeiterin	die	Arbeiterinnen
+worker		singular	singular	plural	plural
+worker	masculine gender 	strong declension	strong declension	strong declension	strong declension
+worker	nominative	Angestellter	Angestellter	Angestellte	Angestellte
+worker	genitive	Angestellten	Angestellten	Angestellter	Angestellter
+worker	dative	Angestelltem	Angestelltem	Angestellten	Angestellten
+worker	accusative	Angestellten	Angestellten	Angestellte	Angestellte
+worker		weak declension	weak declension	weak declension	weak declension
+worker	nominative	der	Angestellte	die	Angestellten
+worker	genitive	des	Angestellten	der	Angestellten
+worker	dative	dem	Angestellten	den	Angestellten
+worker	accusative	den	Angestellten	die	Angestellten
+worker		mixed declension	mixed declension	mixed declension	mixed declension
+worker	nominative	ein	Angestellter	(keine)	Angestellten
+worker	genitive	eines	Angestellten	(keiner)	Angestellten
+worker	dative	einem	Angestellten	(keinen)	Angestellten
+worker	accusative	einen	Angestellten	(keine)	Angestellten
+worker		singular	singular	plural	plural
+worker	feminine gender 	strong declension	strong declension	strong declension	strong declension
+worker	nominative	Angestellte	Angestellte	Angestellte	Angestellte
+worker	genitive	Angestellter	Angestellter	Angestellter	Angestellter
+worker	dative	Angestellter	Angestellter	Angestellten	Angestellten
+worker	accusative	Angestellte	Angestellte	Angestellte	Angestellte
+worker		weak declension	weak declension	weak declension	weak declension
+worker	nominative	die	Angestellte	die	Angestellten
+worker	genitive	der	Angestellten	der	Angestellten
+worker	dative	der	Angestellten	den	Angestellten
+worker	accusative	die	Angestellte	die	Angestellten
+worker		mixed declension	mixed declension	mixed declension	mixed declension
+worker	nominative	eine	Angestellte	(keine)	Angestellten
+worker	genitive	einer	Angestellten	(keiner)	Angestellten
+worker	dative	einer	Angestellten	(keinen)	Angestellten
+worker	accusative	eine	Angestellte	(keine)	Angestellten
+worker		singular	singular	singular	plural	plural
+worker		indef.	def.	noun	def.	noun
+worker	nominative	ein	der	Hackler	die	Hackler
+worker	genitive	eines	des	Hacklers	der	Hackler
+worker	dative	einem	dem	Hackler	den	Hacklern
+worker	accusative	einen	den	Hackler	die	Hackler
+worker		singular	singular	singular	plural	plural
+worker		indef.	def.	noun	def.	noun
+worker	nominative	ein	der	Arbeitnehmer	die	Arbeitnehmer
+worker	genitive	eines	des	Arbeitnehmers	der	Arbeitnehmer
+worker	dative	einem	dem	Arbeitnehmer	den	Arbeitnehmern
+worker	accusative	einen	den	Arbeitnehmer	die	Arbeitnehmer
+worker		singular	singular	singular	plural	plural
+worker		indef.	def.	noun	def.	noun
+worker	nominative	eine	die	Arbeitnehmerin	die	Arbeitnehmerinnen
+worker	genitive	einer	der	Arbeitnehmerin	der	Arbeitnehmerinnen
+worker	dative	einer	der	Arbeitnehmerin	den	Arbeitnehmerinnen
+worker	accusative	eine	die	Arbeitnehmerin	die	Arbeitnehmerinnen
+worm		singular	singular	singular	plural	plural
+worm		indef.	def.	noun	def.	noun
+worm	nominative	ein	der, das	Wurm	die	Würmer, Würme2
+worm	genitive	eines	des	Wurmes, Wurms	der	Würmer, Würme2
+worm	dative	einem	dem	Wurm, Wurme1	den	Würmern, Würmen2
+worm	accusative	einen, ein	den, das	Wurm	die	Würmer, Würme2
+language		singular	singular	singular	plural	plural
+language		indef.	def.	noun	def.	noun
+language	nominative	eine	die	Sprache	die	Sprachen
+language	genitive	einer	der	Sprache	der	Sprachen
+language	dative	einer	der	Sprache	den	Sprachen
+language	accusative	eine	die	Sprache	die	Sprachen
+language		singular	singular	singular	plural	plural
+language		indef.	def.	noun	def.	noun
+language	nominative	eine	die	Einzelsprache	die	Einzelsprachen
+language	genitive	einer	der	Einzelsprache	der	Einzelsprachen
+language	dative	einer	der	Einzelsprache	den	Einzelsprachen
+language	accusative	eine	die	Einzelsprache	die	Einzelsprachen
+town		singular	singular	singular	plural	plural
+town		indef.	def.	noun	def.	noun
+town	nominative	eine	die	Stadt	die	Städte
+town	genitive	einer	der	Stadt	der	Städte
+town	dative	einer	der	Stadt	den	Städten
+town	accusative	eine	die	Stadt	die	Städte
+town		singular	singular	singular	plural	plural
+town		indef.	def.	noun	def.	noun
+town	nominative	ein	der	Ort	die	Orte, Örter2
+town	genitive	eines	des	Ortes, Orts	der	Orte, Örter2
+town	dative	einem	dem	Ort, Orte1	den	Orten, Örtern2
+town	accusative	einen	den	Ort	die	Orte, Örter2
+town		singular	singular	singular	plural	plural
+town		indef.	def.	noun	def.	noun
+town	nominative	ein	das	Ort	die	Örter
+town	genitive	eines	des	Ortes, Orts	der	Örter
+town	dative	einem	dem	Ort, Orte1	den	Örtern
+town	accusative	ein	das	Ort	die	Örter
+town		singular	singular	singular	plural	plural
+town		indef.	def.	noun	def.	noun
+town	nominative	ein	der, das	Ort	die	Orte
+town	genitive	eines	des	Ortes, Orts	der	Orte
+town	dative	einem	dem	Ort, Orte1	den	Orten
+town	accusative	einen, ein	den, das	Ort	die	Orte
+town		singular	singular	singular	plural	plural
+town		indef.	def.	noun	def.	noun
+town	nominative	ein	der	Ort	die	Orte
+town	genitive	eines	des	Ortes, Orts	der	Orte
+town	dative	einem	dem	Ort, Orte1	den	Orten
+town	accusative	einen	den	Ort	die	Orte
+town		singular	singular	singular	plural	plural
+town		indef.	def.	noun	def.	noun
+town	nominative	ein	das	Städtchen	die	Städtchen
+town	genitive	eines	des	Städtchens	der	Städtchen
+town	dative	einem	dem	Städtchen	den	Städtchen
+town	accusative	ein	das	Städtchen	die	Städtchen
+town		singular	singular	singular	plural	plural
+town		indef.	def.	noun	def.	noun
+town	nominative	eine	die	Gemeinde	die	Gemeinden
+town	genitive	einer	der	Gemeinde	der	Gemeinden
+town	dative	einer	der	Gemeinde	den	Gemeinden
+town	accusative	eine	die	Gemeinde	die	Gemeinden
+river		singular	singular	singular	plural	plural
+river		indef.	def.	noun	def.	noun
+river	nominative	ein	der	Fluss	die	Flüsse
+river	genitive	eines	des	Flusses	der	Flüsse
+river	dative	einem	dem	Fluss, Flusse1	den	Flüssen
+river	accusative	einen	den	Fluss	die	Flüsse
+river		singular	singular	singular	plural	plural
+river		indef.	def.	noun	def.	noun
+river	nominative	ein	der	Strom	die	Ströme
+river	genitive	eines	des	Stromes, Stroms	der	Ströme
+river	dative	einem	dem	Strom, Strome1	den	Strömen
+river	accusative	einen	den	Strom	die	Ströme
+river		singular	singular	singular	plural	plural
+river		indef.	def.	noun	def.	noun
+river	nominative	ein	der	Strom	die	Ströme
+river	genitive	eines	des	Stromes, Stroms	der	Ströme
+river	dative	einem	dem	Strom, Strome1	den	Strömen
+river	accusative	einen	den	Strom	die	Ströme
+summer		singular	singular	singular	plural	plural
+summer		indef.	def.	noun	def.	noun
+summer	nominative	ein	der	Sommer	die	Sommer
+summer	genitive	eines	des	Sommers	der	Sommer
+summer	dative	einem	dem	Sommer	den	Sommern
+summer	accusative	einen	den	Sommer	die	Sommer
+summer		singular	singular	singular	singular	singular	singular	plural	plural
+summer		masculine	masculine	masculine	feminine	feminine	feminine	plural	plural
+summer		indef.	def.	noun	indef.	def.	noun	def.	noun
+summer	nominative	(ein)	(der)	Sommer	(eine)	(die)	Sommer	(die)	Sommers, Sommer
+summer	genitive	(eines)	(des)	Sommers, Sommer1	(einer)	(der)	Sommer	(der)	Sommers, Sommer
+summer	dative	(einem)	(dem)	Sommer	(einer)	(der)	Sommer	(den)	Sommers, Sommer
+summer	accusative	(einen)	(den)	Sommer	(eine)	(die)	Sommer	(die)	Sommers, Sommer
+summer		singular	singular	singular	plural	plural
+summer		indef.	def.	noun	def.	noun
+summer	nominative	eine	die	Sommerzeit	die	Sommerzeiten
+summer	genitive	einer	der	Sommerzeit	der	Sommerzeiten
+summer	dative	einer	der	Sommerzeit	den	Sommerzeiten
+summer	accusative	eine	die	Sommerzeit	die	Sommerzeiten
+spring		singular	singular	singular	plural	plural
+spring		indef.	def.	noun	def.	noun
+spring	nominative	ein	der	Frühling	die	Frühlinge
+spring	genitive	eines	des	Frühlings	der	Frühlinge
+spring	dative	einem	dem	Frühling	den	Frühlingen
+spring	accusative	einen	den	Frühling	die	Frühlinge
+spring		singular	singular	singular	plural	plural
+spring		indef.	def.	noun	def.	noun
+spring	nominative	ein	das	Frühjahr	die	Frühjahre
+spring	genitive	eines	des	Frühjahres, Frühjahrs	der	Frühjahre
+spring	dative	einem	dem	Frühjahr, Frühjahre1	den	Frühjahren
+spring	accusative	ein	das	Frühjahr	die	Frühjahre
+spring		singular	singular	singular	plural	plural
+spring		indef.	def.	noun	def.	noun
+spring	nominative	ein	der	Lenz	die	Lenze
+spring	genitive	eines	des	Lenzes	der	Lenze
+spring	dative	einem	dem	Lenz, Lenze1	den	Lenzen
+spring	accusative	einen	den	Lenz	die	Lenze
+spring		singular	singular	singular	plural	plural
+spring		indef.	def.	noun	def.	noun
+spring	nominative	eine	die	Frühlingszeit	die	Frühlingszeiten
+spring	genitive	einer	der	Frühlingszeit	der	Frühlingszeiten
+spring	dative	einer	der	Frühlingszeit	den	Frühlingszeiten
+spring	accusative	eine	die	Frühlingszeit	die	Frühlingszeiten
+autumn		singular	singular	singular	plural	plural
+autumn		indef.	def.	noun	def.	noun
+autumn	nominative	ein	der	Herbst	die	Herbste
+autumn	genitive	eines	des	Herbstes, Herbsts	der	Herbste
+autumn	dative	einem	dem	Herbst, Herbste1	den	Herbsten
+autumn	accusative	einen	den	Herbst	die	Herbste
+autumn		singular	singular	singular	plural	plural
+autumn		indef.	def.	noun	def.	noun
+autumn	nominative	eine	die	Herbstzeit	die	Herbstzeiten
+autumn	genitive	einer	der	Herbstzeit	der	Herbstzeiten
+autumn	dative	einer	der	Herbstzeit	den	Herbstzeiten
+autumn	accusative	eine	die	Herbstzeit	die	Herbstzeiten
+winter		singular	singular	singular	plural	plural
+winter		indef.	def.	noun	def.	noun
+winter	nominative	ein	der	Winter	die	Winter
+winter	genitive	eines	des	Winters	der	Winter
+winter	dative	einem	dem	Winter	den	Wintern
+winter	accusative	einen	den	Winter	die	Winter
+winter		singular	singular	singular	singular	singular	singular	plural	plural
+winter		masculine	masculine	masculine	feminine	feminine	feminine	plural	plural
+winter		indef.	def.	noun	indef.	def.	noun	def.	noun
+winter	nominative	(ein)	(der)	Winter	(eine)	(die)	Winter	(die)	Winters, Winter
+winter	genitive	(eines)	(des)	Winters, Winter1	(einer)	(der)	Winter	(der)	Winters, Winter
+winter	dative	(einem)	(dem)	Winter	(einer)	(der)	Winter	(den)	Winters, Winter
+winter	accusative	(einen)	(den)	Winter	(eine)	(die)	Winter	(die)	Winters, Winter
+winter		singular	singular	singular	plural	plural
+winter		indef.	def.	noun	def.	noun
+winter	nominative	eine	die	Winterzeit	die	Winterzeiten
+winter	genitive	einer	der	Winterzeit	der	Winterzeiten
+winter	dative	einer	der	Winterzeit	den	Winterzeiten
+winter	accusative	eine	die	Winterzeit	die	Winterzeiten
+year		singular	singular	singular	plural	plural
+year		indef.	def.	noun	def.	noun
+year	nominative	ein	das	Jahr	die	Jahre, Jahr
+year	genitive	eines	des	Jahres, Jahrs	der	Jahre, Jahr
+year	dative	einem	dem	Jahr, Jahre1	den	Jahren, Jahr
+year	accusative	ein	das	Jahr	die	Jahre, Jahr
+year		singular	singular	singular	plural	plural
+year		indef.	def.	noun	def.	noun
+year	nominative	ein	das	Jahr	die	Jahre, Jahr
+year	genitive	eines	des	Jahres, Jahrs	der	Jahre, Jahr
+year	dative	einem	dem	Jahr, Jahre1	den	Jahren, Jahr
+year	accusative	ein	das	Jahr	die	Jahre, Jahr
+year		singular	singular	singular	plural	plural
+year		indef.	def.	noun	def.	noun
+year	nominative	ein	das	Jahr	die	Jahre, Jahr
+year	genitive	eines	des	Jahres, Jahrs	der	Jahre, Jahr
+year	dative	einem	dem	Jahr, Jahre1	den	Jahren, Jahr
+year	accusative	ein	das	Jahr	die	Jahre, Jahr
+day		singular	singular	singular	plural	plural
+day		indef.	def.	noun	def.	noun
+day	nominative	ein	der	Tag	die	Tage
+day	genitive	eines	des	Tages, Tags	der	Tage
+day	dative	einem	dem	Tag, Tage1	den	Tagen
+day	accusative	einen	den	Tag	die	Tage
+day		singular	singular	singular	plural	plural
+day		indef.	def.	noun	def.	noun
+day	nominative	ein	der	Tag	die	Tage
+day	genitive	eines	des	Tages, Tags	der	Tage
+day	dative	einem	dem	Tag, Tage1	den	Tagen
+day	accusative	einen	den	Tag	die	Tage
+day		singular	singular	singular	plural	plural
+day		indef.	def.	noun	def.	noun
+day	nominative	ein	der	Tag	die	Tage
+day	genitive	eines	des	Tages, Tags	der	Tage
+day	dative	einem	dem	Tag, Tage1	den	Tagen
+day	accusative	einen	den	Tag	die	Tage
+day		singular	singular	singular	plural	plural
+day		indef.	def.	noun	def.	noun
+day	nominative	ein	der	Tag	die	Tage
+day	genitive	eines	des	Tages, Tags	der	Tage
+day	dative	einem	dem	Tag, Tage1	den	Tagen
+day	accusative	einen	den	Tag	die	Tage
+moon		singular	singular	singular	plural	plural
+moon		indef.	def.	noun	def.	noun
+moon	nominative	ein	der	Mond	die	Monde
+moon	genitive	eines	des	Mondes, Monds	der	Monde
+moon	dative	einem	dem	Mond, Monde1	den	Monden
+moon	accusative	einen	den	Mond	die	Monde
+moon		singular	singular	singular	plural	plural
+moon		indef.	def.	noun	def.	noun
+moon	nominative	ein	der	Mond	die	Monde
+moon	genitive	eines	des	Mondes, Monds	der	Monde
+moon	dative	einem	dem	Mond, Monde1	den	Monden
+moon	accusative	einen	den	Mond	die	Monde
+moon		singular	singular	singular	plural	plural
+moon		indef.	def.	noun	def.	noun
+moon	nominative	ein	der	Trabant	die	Trabanten
+moon	genitive	eines	des	Trabanten	der	Trabanten
+moon	dative	einem	dem	Trabanten	den	Trabanten
+moon	accusative	einen	den	Trabanten	die	Trabanten
+moon		singular	singular	singular	plural	plural
+moon		indef.	def.	noun	def.	noun
+moon	nominative	ein	der	Trabant	die	Trabants
+moon	genitive	eines	des	Trabants, Trabant	der	Trabants
+moon	dative	einem	dem	Trabant	den	Trabants
+moon	accusative	einen	den	Trabant	die	Trabants
+moon		singular	singular	singular	plural	plural
+moon		indef.	def.	noun	def.	noun
+moon	nominative	ein	der	Satellit	die	Satelliten
+moon	genitive	eines	des	Satelliten	der	Satelliten
+moon	dative	einem	dem	Satelliten	den	Satelliten
+moon	accusative	einen	den	Satelliten	die	Satelliten
+sun		singular	singular	singular	plural	plural
+sun		indef.	def.	noun	def.	noun
+sun	nominative	eine	die	Sonne	die	Sonnen
+sun	genitive	einer	der	Sonne	der	Sonnen
+sun	dative	einer	der	Sonne	den	Sonnen
+sun	accusative	eine	die	Sonne	die	Sonnen
+sun		singular	singular	singular	plural	plural
+sun		indef.	def.	noun	def.	noun
+sun	nominative	eine	die	Sonne	die	Sonnen
+sun	genitive	einer	der	Sonne	der	Sonnen
+sun	dative	einer	der	Sonne	den	Sonnen
+sun	accusative	eine	die	Sonne	die	Sonnen
+planet		singular	singular	singular	plural	plural
+planet		indef.	def.	noun	def.	noun
+planet	nominative	ein	der	Planet	die	Planeten
+planet	genitive	eines	des	Planeten	der	Planeten
+planet	dative	einem	dem	Planeten	den	Planeten
+planet	accusative	einen	den	Planeten	die	Planeten
+planet		singular	singular	singular	plural	plural
+planet		indef.	def.	noun	def.	noun
+planet	nominative	ein	der	Wandelstern	die	Wandelsterne
+planet	genitive	eines	des	Wandelsternes, Wandelsterns	der	Wandelsterne
+planet	dative	einem	dem	Wandelstern, Wandelsterne1	den	Wandelsternen
+planet	accusative	einen	den	Wandelstern	die	Wandelsterne
+planet		singular	singular	singular	plural	plural
+planet		indef.	def.	noun	def.	noun
+planet	nominative	ein	der	Planet	die	Planeten
+planet	genitive	eines	des	Planeten	der	Planeten
+planet	dative	einem	dem	Planeten	den	Planeten
+planet	accusative	einen	den	Planeten	die	Planeten
+planet		singular	singular	singular	plural	plural
+planet		indef.	def.	noun	def.	noun
+planet	nominative	ein	der	Planet	die	Planeten
+planet	genitive	eines	des	Planeten	der	Planeten
+planet	dative	einem	dem	Planeten	den	Planeten
+planet	accusative	einen	den	Planeten	die	Planeten
+star		singular	singular	singular	plural	plural
+star		indef.	def.	noun	def.	noun
+star	nominative	ein	der	Stern	die	Sterne
+star	genitive	eines	des	Sternes, Sterns	der	Sterne
+star	dative	einem	dem	Stern, Sterne1	den	Sternen
+star	accusative	einen	den	Stern	die	Sterne
+star		singular	singular	singular	plural	plural
+star		indef.	def.	noun	def.	noun
+star	nominative	ein	das	Gestirn	die	Gestirne
+star	genitive	eines	des	Gestirns, Gestirnes	der	Gestirne
+star	dative	einem	dem	Gestirn, Gestirne1	den	Gestirnen
+star	accusative	ein	das	Gestirn	die	Gestirne
+star		singular	singular	singular	plural	plural
+star		indef.	def.	noun	def.	noun
+star	nominative	ein	der	Himmelskörper	die	Himmelskörper
+star	genitive	eines	des	Himmelskörpers	der	Himmelskörper
+star	dative	einem	dem	Himmelskörper	den	Himmelskörpern
+star	accusative	einen	den	Himmelskörper	die	Himmelskörper
+man		singular	singular	singular	plural	plural
+man		indef.	def.	noun	def.	noun
+man	nominative	ein	der	Mann	die	Männer, Mann2, Mannen3
+man	genitive	eines	des	Mannes, Manns	der	Männer, Mann2, Mannen3
+man	dative	einem	dem	Mann, Manne1	den	Männern, Mann2, Mannen3
+man	accusative	einen	den	Mann	die	Männer, Mann2, Mannen3
+man		singular	singular	singular	plural	plural
+man		indef.	def.	noun	def.	noun
+man	nominative	ein	der	Herr	die	Herren, Herrn1
+man	genitive	eines	des	Herrn, Herren1	der	Herren, Herrn1
+man	dative	einem	dem	Herrn, Herren1	den	Herren, Herrn1
+man	accusative	einen	den	Herrn, Herren1	die	Herren, Herrn1
+woman		singular	singular	singular	plural	plural
+woman		indef.	def.	noun	def.	noun
+woman	nominative	eine	die	Frau	die	Frauen
+woman	genitive	einer	der	Frau	der	Frauen
+woman	dative	einer	der	Frau	den	Frauen
+woman	accusative	eine	die	Frau	die	Frauen
+woman		singular	singular	singular	plural	plural
+woman		indef.	def.	noun	def.	noun
+woman	nominative	ein	das	Weib	die	Weiber
+woman	genitive	eines	des	Weibes, Weibs	der	Weiber
+woman	dative	einem	dem	Weib, Weibe1	den	Weibern
+woman	accusative	ein	das	Weib	die	Weiber
+woman		singular	singular	singular	plural	plural
+woman		indef.	def.	noun	def.	noun
+woman	nominative	ein	das	Weibchen	die	Weibchen
+woman	genitive	eines	des	Weibchens	der	Weibchen
+woman	dative	einem	dem	Weibchen	den	Weibchen
+woman	accusative	ein	das	Weibchen	die	Weibchen
+woman		singular	singular	singular	plural	plural
+woman		indef.	def.	noun	def.	noun
+woman	nominative	eine	die	Weibsperson	die	Weibspersonen
+woman	genitive	einer	der	Weibsperson	der	Weibspersonen
+woman	dative	einer	der	Weibsperson	den	Weibspersonen
+woman	accusative	eine	die	Weibsperson	die	Weibspersonen
+woman		singular	singular	singular	plural	plural
+woman		indef.	def.	noun	def.	noun
+woman	nominative	ein	der	Mensch	die	Menschen
+woman	genitive	eines	des	Menschen	der	Menschen
+woman	dative	einem	dem	Menschen	den	Menschen
+woman	accusative	einen	den	Menschen	die	Menschen
+woman		singular	singular	singular	plural	plural
+woman		indef.	def.	noun	def.	noun
+woman	nominative	ein	das	Mensch	die	Menscher
+woman	genitive	eines	des	Mensches, Menschs	der	Menscher
+woman	dative	einem	dem	Mensch, Mensche1	den	Menschern
+woman	accusative	ein	das	Mensch	die	Menscher
+human		singular	singular	singular	plural	plural
+human		indef.	def.	noun	def.	noun
+human	nominative	ein	der	Mensch	die	Menschen
+human	genitive	eines	des	Menschen	der	Menschen
+human	dative	einem	dem	Menschen	den	Menschen
+human	accusative	einen	den	Menschen	die	Menschen
+human		singular	singular	singular	plural	plural
+human		indef.	def.	noun	def.	noun
+human	nominative	ein	das	Mensch	die	Menscher
+human	genitive	eines	des	Mensches, Menschs	der	Menscher
+human	dative	einem	dem	Mensch, Mensche1	den	Menschern
+human	accusative	ein	das	Mensch	die	Menscher
+human		singular	singular	singular	plural	plural
+human		indef.	def.	noun	def.	noun
+human	nominative	ein	der	Mensch	die	Menschen
+human	genitive	eines	des	Menschen	der	Menschen
+human	dative	einem	dem	Menschen	den	Menschen
+human	accusative	einen	den	Menschen	die	Menschen
+human		singular	singular	singular	plural	plural
+human		indef.	def.	noun	def.	noun
+human	nominative	ein	das	Mensch	die	Menscher
+human	genitive	eines	des	Mensches, Menschs	der	Menscher
+human	dative	einem	dem	Mensch, Mensche1	den	Menschern
+human	accusative	ein	das	Mensch	die	Menscher
+animal		singular	singular	singular	plural	plural
+animal		indef.	def.	noun	def.	noun
+animal	nominative	ein	das	Tier	die	Tiere
+animal	genitive	eines	des	Tieres, Tiers	der	Tiere
+animal	dative	einem	dem	Tier, Tiere1	den	Tieren
+animal	accusative	ein	das	Tier	die	Tiere
+animal		singular	singular	singular	plural	plural
+animal		indef.	def.	noun	def.	noun
+animal	nominative	ein	das	Tier	die	Tiere
+animal	genitive	eines	des	Tieres, Tiers	der	Tiere
+animal	dative	einem	dem	Tier, Tiere1	den	Tieren
+animal	accusative	ein	das	Tier	die	Tiere
+animal		singular	singular	singular	plural	plural
+animal		indef.	def.	noun	def.	noun
+animal	nominative	ein	das	Tier	die	Tiere
+animal	genitive	eines	des	Tieres, Tiers	der	Tiere
+animal	dative	einem	dem	Tier, Tiere1	den	Tieren
+animal	accusative	ein	das	Tier	die	Tiere
+livestock		singular	singular	singular
+livestock		indef.	def.	noun
+livestock	nominative	ein	das	Vieh
+livestock	genitive	eines	des	Viehes, Viehs
+livestock	dative	einem	dem	Vieh, Viehe1
+livestock	accusative	ein	das	Vieh
+livestock		singular	singular	singular	plural	plural
+livestock		indef.	def.	noun	def.	noun
+livestock	nominative	ein	das	Nutzvieh	die	-, Rindviecher
+livestock	genitive	eines	des	Nutzviehes, Nutzviehs	der	-, Rindviecher
+livestock	dative	einem	dem	Nutzvieh, Nutzviehe1	den	-, Rindviechern
+livestock	accusative	ein	das	Nutzvieh	die	-, Rindviecher
+son		singular	singular	singular	plural	plural
+son		indef.	def.	noun	def.	noun
+son	nominative	ein	der	Sohn	die	Söhne
+son	genitive	eines	des	Sohnes, Sohns	der	Söhne
+son	dative	einem	dem	Sohn, Sohne1	den	Söhnen
+son	accusative	einen	den	Sohn	die	Söhne
+son		singular	singular	singular	plural	plural
+son		indef.	def.	noun	def.	noun
+son	nominative	ein	der	Sohn	die	Söhne
+son	genitive	eines	des	Sohnes, Sohns	der	Söhne
+son	dative	einem	dem	Sohn, Sohne1	den	Söhnen
+son	accusative	einen	den	Sohn	die	Söhne
+daughter		singular	singular	singular	plural	plural
+daughter		indef.	def.	noun	def.	noun
+daughter	nominative	eine	die	Tochter	die	Töchter
+daughter	genitive	einer	der	Tochter	der	Töchter
+daughter	dative	einer	der	Tochter	den	Töchtern
+daughter	accusative	eine	die	Tochter	die	Töchter
+mother		singular	singular	singular	plural	plural
+mother		indef.	def.	noun	def.	noun
+mother	nominative	eine	die	Mutter	die	Mütter
+mother	genitive	einer	der	Mutter	der	Mütter
+mother	dative	einer	der	Mutter	den	Müttern
+mother	accusative	eine	die	Mutter	die	Mütter
+mother		singular	singular	singular
+mother		indef.	def.	noun
+mother	nominative	eine	die	Mutter
+mother	genitive	einer	der	Mutters, Mutter
+mother	dative	einer	der	Mutter
+mother	accusative	eine	die	Mutter
+mother		singular	singular	singular	plural	plural
+mother		indef.	def.	noun	def.	noun
+mother	nominative	eine	die	Mutter	die	Muttern
+mother	genitive	einer	der	Mutter	der	Muttern
+mother	dative	einer	der	Mutter	den	Muttern
+mother	accusative	eine	die	Mutter	die	Muttern
+mother		singular	singular	singular	plural	plural
+mother		indef.	def.	noun	def.	noun
+mother	nominative	eine	die	Mutti	die	Muttis
+mother	genitive	einer	der	Muttis, Mutti1	der	Muttis
+mother	dative	einer	der	Mutti	den	Muttis
+mother	accusative	eine	die	Mutti	die	Muttis
+mother		singular	singular	singular
+mother		indef.	def.	noun
+mother	nominative	eine	die	Mutti
+mother	genitive	einer	der	Muttis, Mutti1
+mother	dative	einer	der	Mutti
+mother	accusative	eine	die	Mutti
+mother		singular	singular	singular	plural	plural
+mother		indef.	def.	noun	def.	noun
+mother	nominative	eine	die	Mama	die	Mamas
+mother	genitive	einer	der	Mama, Mamas1	der	Mamas
+mother	dative	einer	der	Mama	den	Mamas
+mother	accusative	eine	die	Mama	die	Mamas
+father		singular	singular	singular	plural	plural
+father		indef.	def.	noun	def.	noun
+father	nominative	ein	der	Vater	die	Väter
+father	genitive	eines	des	Vaters	der	Väter
+father	dative	einem	dem	Vater	den	Vätern
+father	accusative	einen	den	Vater	die	Väter
+father		singular	singular	singular	plural	plural
+father		indef.	def.	noun	def.	noun
+father	nominative	ein	der	Papa	die	Papas
+father	genitive	eines	des	Papas	der	Papas
+father	dative	einem	dem	Papa	den	Papas
+father	accusative	einen	den	Papa	die	Papas
+brother		singular	singular	singular	plural	plural
+brother		indef.	def.	noun	def.	noun
+brother	nominative	ein	der	Bruder	die	Brüder
+brother	genitive	eines	des	Bruders	der	Brüder
+brother	dative	einem	dem	Bruder	den	Brüdern
+brother	accusative	einen	den	Bruder	die	Brüder
+brother		singular	singular	singular	plural	plural
+brother		indef.	def.	noun	def.	noun
+brother	nominative	ein	der	Bruder	die	Brüder
+brother	genitive	eines	des	Bruders	der	Brüder
+brother	dative	einem	dem	Bruder	den	Brüdern
+brother	accusative	einen	den	Bruder	die	Brüder
+sister		singular	singular	singular	plural	plural
+sister		indef.	def.	noun	def.	noun
+sister	nominative	eine	die	Schwester	die	Schwestern
+sister	genitive	einer	der	Schwester	der	Schwestern
+sister	dative	einer	der	Schwester	den	Schwestern
+sister	accusative	eine	die	Schwester	die	Schwestern
+grandmother		singular	singular	singular	plural	plural
+grandmother		indef.	def.	noun	def.	noun
+grandmother	nominative	eine	die	Großmutter	die	Großmütter
+grandmother	genitive	einer	der	Großmutter	der	Großmütter
+grandmother	dative	einer	der	Großmutter	den	Großmüttern
+grandmother	accusative	eine	die	Großmutter	die	Großmütter
+grandmother		singular	singular	singular	plural	plural
+grandmother		indef.	def.	noun	def.	noun
+grandmother	nominative	eine	die	Oma	die	Omas
+grandmother	genitive	einer	der	Oma, Omas1	der	Omas
+grandmother	dative	einer	der	Oma	den	Omas
+grandmother	accusative	eine	die	Oma	die	Omas
+grandmother		singular	singular	singular	plural	plural
+grandmother		indef.	def.	noun	def.	noun
+grandmother	nominative	eine	die	Omi	die	Omis
+grandmother	genitive	einer	der	Omi, Omis1	der	Omis
+grandmother	dative	einer	der	Omi	den	Omis
+grandmother	accusative	eine	die	Omi	die	Omis
+grandmother		singular	singular	singular	plural	plural
+grandmother		indef.	def.	noun	def.	noun
+grandmother	nominative	ein	das	Großmütterchen	die	Großmütterchen
+grandmother	genitive	eines	des	Großmütterchens	der	Großmütterchen
+grandmother	dative	einem	dem	Großmütterchen	den	Großmütterchen
+grandmother	accusative	ein	das	Großmütterchen	die	Großmütterchen
+grandfather		singular	singular	singular	plural	plural
+grandfather		indef.	def.	noun	def.	noun
+grandfather	nominative	ein	der	Großvater	die	Großväter
+grandfather	genitive	eines	des	Großvaters	der	Großväter
+grandfather	dative	einem	dem	Großvater	den	Großvätern
+grandfather	accusative	einen	den	Großvater	die	Großväter
+grandfather		singular	singular	singular	plural	plural
+grandfather		indef.	def.	noun	def.	noun
+grandfather	nominative	ein	der	Grossvater	die	Grossväter
+grandfather	genitive	eines	des	Grossvaters	der	Grossväter
+grandfather	dative	einem	dem	Grossvater	den	Grossvätern
+grandfather	accusative	einen	den	Grossvater	die	Grossväter
+grandfather		singular	singular	singular	plural	plural
+grandfather		indef.	def.	noun	def.	noun
+grandfather	nominative	ein	der	Opa	die	Opas
+grandfather	genitive	eines	des	Opas	der	Opas
+grandfather	dative	einem	dem	Opa	den	Opas
+grandfather	accusative	einen	den	Opa	die	Opas
+grandfather		singular	singular	singular	plural	plural
+grandfather		indef.	def.	noun	def.	noun
+grandfather	nominative	ein	der	Großvater	die	Großväter
+grandfather	genitive	eines	des	Großvaters	der	Großväter
+grandfather	dative	einem	dem	Großvater	den	Großvätern
+grandfather	accusative	einen	den	Großvater	die	Großväter
+grandfather		singular	singular	singular	plural	plural
+grandfather		indef.	def.	noun	def.	noun
+grandfather	nominative	ein	der	Großvater	die	Großväter
+grandfather	genitive	eines	des	Großvaters	der	Großväter
+grandfather	dative	einem	dem	Großvater	den	Großvätern
+grandfather	accusative	einen	den	Großvater	die	Großväter
+sound		singular	singular	singular	plural	plural
+sound		indef.	def.	noun	def.	noun
+sound	nominative	ein	der	Klang	die	Klänge
+sound	genitive	eines	des	Klanges, Klangs	der	Klänge
+sound	dative	einem	dem	Klang, Klange1	den	Klängen
+sound	accusative	einen	den	Klang	die	Klänge
+sound		singular	singular	singular	plural	plural
+sound		indef.	def.	noun	def.	noun
+sound	nominative	ein	der	Schall	die	Schälle, Schalle
+sound	genitive	eines	des	Schalles, Schalls	der	Schälle, Schalle
+sound	dative	einem	dem	Schall, Schalle1	den	Schällen, Schallen
+sound	accusative	einen	den	Schall	die	Schälle, Schalle
+sound		singular	singular	singular	plural	plural
+sound		indef.	def.	noun	def.	noun
+sound	nominative	ein	der	Laut	die	Laute
+sound	genitive	eines	des	Lautes, Lauts	der	Laute
+sound	dative	einem	dem	Laut, Laute1	den	Lauten
+sound	accusative	einen	den	Laut	die	Laute
+sound		singular	singular	singular	plural	plural
+sound		indef.	def.	noun	def.	noun
+sound	nominative	ein	der	Schall	die	Schälle, Schalle
+sound	genitive	eines	des	Schalles, Schalls	der	Schälle, Schalle
+sound	dative	einem	dem	Schall, Schalle1	den	Schällen, Schallen
+sound	accusative	einen	den	Schall	die	Schälle, Schalle
+size		singular	singular	singular	plural	plural
+size		indef.	def.	noun	def.	noun
+size	nominative	eine	die	Größe	die	Größen
+size	genitive	einer	der	Größe	der	Größen
+size	dative	einer	der	Größe	den	Größen
+size	accusative	eine	die	Größe	die	Größen
+north		singular	singular	singular
+north		indef.	def.	noun
+north	nominative	ein	der	Norden
+north	genitive	eines	des	Nordens
+north	dative	einem	dem	Norden
+north	accusative	einen	den	Norden
+north		singular	singular	singular
+north		indef.	def.	noun
+north	nominative	ein	der	Nord
+north	genitive	eines	des	Nords, Nord
+north	dative	einem	dem	Nord
+north	accusative	einen	den	Nord
+south		singular	singular	singular
+south		indef.	def.	noun
+south	nominative	ein	der	Süden
+south	genitive	eines	des	Südens
+south	dative	einem	dem	Süden
+south	accusative	einen	den	Süden
+east		singular	singular	singular
+east		indef.	def.	noun
+east	nominative	ein	der	Osten
+east	genitive	eines	des	Ostens
+east	dative	einem	dem	Osten
+east	accusative	einen	den	Osten
+east		singular	singular	singular
+east		indef.	def.	noun
+east	nominative	ein	der	Ost
+east	genitive	eines	des	Osts, Ost
+east	dative	einem	dem	Ost
+east	accusative	einen	den	Ost
+west		singular	singular	singular
+west		indef.	def.	noun
+west	nominative	ein	der	West
+west	genitive	eines	des	Wests, West
+west	dative	einem	dem	West
+west	accusative	einen	den	West
+west		singular	singular	singular
+west		indef.	def.	noun
+west	nominative	ein	der	Westen
+west	genitive	eines	des	Westens
+west	dative	einem	dem	Westen
+west	accusative	einen	den	Westen

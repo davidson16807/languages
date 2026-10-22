@@ -1,0 +1,1401 @@
+make	sentence-final forms											
+make					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+make	indicative		non-past		만든다	mandeunda	만들어	mandeureo	만들어요	mandeureoyo	만듭니다	mandeumnida
+make	indicative		past		만들었다	mandeureotda	만들었어	mandeureosseo	만들었어요	mandeureosseoyo	만들었습니다	mandeureotseumnida
+make	interrogative		non-past		만드느냐	mandeuneunya	만들어	mandeureo	만들어요	mandeureoyo	만듭니까	mandeumnikka
+make	interrogative		past		만들었느냐	mandeureonneunya	만들었어	mandeureosseo	만들었어요	mandeureosseoyo	만들었습니까	mandeureotseumnikka
+make	hortative		hortative		만들자	mandeulja	만들어	mandeureo	만들어요	mandeureoyo	만드십시다	mandeusipsida
+make	imperative		imperative		만들어라	mandeureora	만들어	mandeureo	만들어요	mandeureoyo	만듭시오	mandeupsio
+make	assertive		assertive		만들겠다	mandeulgetda	만들겠어	mandeulgesseo	만들겠어요	mandeulgesseoyo	만들겠습니다	mandeulgetseumnida
+make	connective forms											
+make	cause/reason		cause/reason		만들어	mandeureo	만들어서	mandeureoseo	만드니	mandeuni	만드니까	mandeunikka
+make	contrast		contrast		만들지만	mandeuljiman	만드는데	mandeuneunde	만들더니	mandeuldeoni		
+make	conjunction		conjunction		만들고	mandeulgo						
+make	condition		condition		만들면	mandeulmyeon	만들어야	mandeureoya				
+make	motive		motive		만들려고	mandeullyeogo						
+make	noun and determiner forms											
+make	verbal nouns		verbal nouns		만듦	mandeum	만들기	mandeulgi				
+make	past-tense verbal nouns		past-tense verbal nouns		만들었음	mandeureosseum	만들었기	mandeureotgi				
+make	determiners		past		만든	mandeun						
+make	determiners		present		만드는	mandeuneun						
+make	determiners		future		만들	mandeul						
+make	sentence-final forms											
+make					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+make	indicative		non-past		한다	handa	해	hae	해요	haeyo	합니다	hamnida
+make	indicative		past		했다	haetda	했어	haesseo	했어요	haesseoyo	했습니다	haetseumnida
+make	interrogative		non-past		하느냐	haneunya	해	hae	해요	haeyo	합니까	hamnikka
+make	interrogative		past		했느냐	haenneunya	했어	haesseo	했어요	haesseoyo	했습니까	haetseumnikka
+make	hortative		hortative		하자	haja	해	hae	해요	haeyo	하십시다	hasipsida
+make	imperative		imperative		해라, 하여라	haera, hayeora	해	hae	해요	haeyo	합시오	hapsio
+make	assertive		assertive		하겠다	hagetda	하겠어	hagesseo	하겠어요	hagesseoyo	하겠습니다	hagetseumnida
+make	connective forms											
+make	cause/reason		cause/reason		해	hae	해서, 하여서	haeseo, hayeoseo	하니	hani	하니까	hanikka
+make	contrast		contrast		하지만	hajiman	하는데	haneunde	하더니	hadeoni		
+make	conjunction		conjunction		하고	hago						
+make	condition		condition		하면	hamyeon	해야, 하여야	haeya, hayeoya				
+make	motive		motive		하려고	haryeogo						
+make	noun and determiner forms											
+make	verbal nouns		verbal nouns		함	ham	하기	hagi				
+make	past-tense verbal nouns		past-tense verbal nouns		했음, 하였음	haesseum, hayeosseum	했기, 하였기	haetgi, hayeotgi				
+make	determiners		past		한	han						
+make	determiners		present		하는	haneun						
+make	determiners		future		할	hal						
+make	sentence-final forms											
+make					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+make	indicative		non-past		제작한다	jejakhanda	제작해	jejakhae	제작해요	jejakhaeyo	제작합니다	jejakhamnida
+make	indicative		past		제작했다	jejakhaetda	제작했어	jejakhaesseo	제작했어요	jejakhaesseoyo	제작했습니다	jejakhaetseumnida
+make	interrogative		non-past		제작하느냐	jejakhaneunya	제작해	jejakhae	제작해요	jejakhaeyo	제작합니까	jejakhamnikka
+make	interrogative		past		제작했느냐	jejakhaenneunya	제작했어	jejakhaesseo	제작했어요	jejakhaesseoyo	제작했습니까	jejakhaetseumnikka
+make	hortative		hortative		제작하자	jejakhaja	제작해	jejakhae	제작해요	jejakhaeyo	제작하십시다	jejakhasipsida
+make	imperative		imperative		제작해라, 제작하여라	jejakhaera, jejakhayeora	제작해	jejakhae	제작해요	jejakhaeyo	제작합시오	jejakhapsio
+make	assertive		assertive		제작하겠다	jejakhagetda	제작하겠어	jejakhagesseo	제작하겠어요	jejakhagesseoyo	제작하겠습니다	jejakhagetseumnida
+make	connective forms											
+make	cause/reason		cause/reason		제작해	jejakhae	제작해서, 제작하여서	jejakhaeseo, jejakhayeoseo	제작하니	jejakhani	제작하니까	jejakhanikka
+make	contrast		contrast		제작하지만	jejakhajiman	제작하는데	jejakhaneunde	제작하더니	jejakhadeoni		
+make	conjunction		conjunction		제작하고	jejakhago						
+make	condition		condition		제작하면	jejakhamyeon	제작해야, 제작하여야	jejakhaeya, jejakhayeoya				
+make	motive		motive		제작하려고	jejakharyeogo						
+make	noun and determiner forms											
+make	verbal nouns		verbal nouns		제작함	jejakham	제작하기	jejakhagi				
+make	past-tense verbal nouns		past-tense verbal nouns		제작했음, 제작하였음	jejakhaesseum, jejakhayeosseum	제작했기, 제작하였기	jejakhaetgi, jejakhayeotgi				
+make	determiners		past		제작한	jejakhan						
+make	determiners		present		제작하는	jejakhaneun						
+make	determiners		future		제작할	jejakhal						
+make	sentence-final forms											
+make					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+make	indicative		non-past		만든다	mandeunda	만들어	mandeureo	만들어요	mandeureoyo	만듭니다	mandeumnida
+make	indicative		past		만들었다	mandeureotda	만들었어	mandeureosseo	만들었어요	mandeureosseoyo	만들었습니다	mandeureotseumnida
+make	interrogative		non-past		만드느냐	mandeuneunya	만들어	mandeureo	만들어요	mandeureoyo	만듭니까	mandeumnikka
+make	interrogative		past		만들었느냐	mandeureonneunya	만들었어	mandeureosseo	만들었어요	mandeureosseoyo	만들었습니까	mandeureotseumnikka
+make	hortative		hortative		만들자	mandeulja	만들어	mandeureo	만들어요	mandeureoyo	만드십시다	mandeusipsida
+make	imperative		imperative		만들어라	mandeureora	만들어	mandeureo	만들어요	mandeureoyo	만듭시오	mandeupsio
+make	assertive		assertive		만들겠다	mandeulgetda	만들겠어	mandeulgesseo	만들겠어요	mandeulgesseoyo	만들겠습니다	mandeulgetseumnida
+make	connective forms											
+make	cause/reason		cause/reason		만들어	mandeureo	만들어서	mandeureoseo	만드니	mandeuni	만드니까	mandeunikka
+make	contrast		contrast		만들지만	mandeuljiman	만드는데	mandeuneunde	만들더니	mandeuldeoni		
+make	conjunction		conjunction		만들고	mandeulgo						
+make	condition		condition		만들면	mandeulmyeon	만들어야	mandeureoya				
+make	motive		motive		만들려고	mandeullyeogo						
+make	noun and determiner forms											
+make	verbal nouns		verbal nouns		만듦	mandeum	만들기	mandeulgi				
+make	past-tense verbal nouns		past-tense verbal nouns		만들었음	mandeureosseum	만들었기	mandeureotgi				
+make	determiners		past		만든	mandeun						
+make	determiners		present		만드는	mandeuneun						
+make	determiners		future		만들	mandeul						
+make	sentence-final forms											
+make					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+make	indicative		non-past		제작한다	jejakhanda	제작해	jejakhae	제작해요	jejakhaeyo	제작합니다	jejakhamnida
+make	indicative		past		제작했다	jejakhaetda	제작했어	jejakhaesseo	제작했어요	jejakhaesseoyo	제작했습니다	jejakhaetseumnida
+make	interrogative		non-past		제작하느냐	jejakhaneunya	제작해	jejakhae	제작해요	jejakhaeyo	제작합니까	jejakhamnikka
+make	interrogative		past		제작했느냐	jejakhaenneunya	제작했어	jejakhaesseo	제작했어요	jejakhaesseoyo	제작했습니까	jejakhaetseumnikka
+make	hortative		hortative		제작하자	jejakhaja	제작해	jejakhae	제작해요	jejakhaeyo	제작하십시다	jejakhasipsida
+make	imperative		imperative		제작해라, 제작하여라	jejakhaera, jejakhayeora	제작해	jejakhae	제작해요	jejakhaeyo	제작합시오	jejakhapsio
+make	assertive		assertive		제작하겠다	jejakhagetda	제작하겠어	jejakhagesseo	제작하겠어요	jejakhagesseoyo	제작하겠습니다	jejakhagetseumnida
+make	connective forms											
+make	cause/reason		cause/reason		제작해	jejakhae	제작해서, 제작하여서	jejakhaeseo, jejakhayeoseo	제작하니	jejakhani	제작하니까	jejakhanikka
+make	contrast		contrast		제작하지만	jejakhajiman	제작하는데	jejakhaneunde	제작하더니	jejakhadeoni		
+make	conjunction		conjunction		제작하고	jejakhago						
+make	condition		condition		제작하면	jejakhamyeon	제작해야, 제작하여야	jejakhaeya, jejakhayeoya				
+make	motive		motive		제작하려고	jejakharyeogo						
+make	noun and determiner forms											
+make	verbal nouns		verbal nouns		제작함	jejakham	제작하기	jejakhagi				
+make	past-tense verbal nouns		past-tense verbal nouns		제작했음, 제작하였음	jejakhaesseum, jejakhayeosseum	제작했기, 제작하였기	jejakhaetgi, jejakhayeotgi				
+make	determiners		past		제작한	jejakhan						
+make	determiners		present		제작하는	jejakhaneun						
+make	determiners		future		제작할	jejakhal						
+make	sentence-final forms											
+make					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+make	indicative		non-past		만든다	mandeunda	만들어	mandeureo	만들어요	mandeureoyo	만듭니다	mandeumnida
+make	indicative		past		만들었다	mandeureotda	만들었어	mandeureosseo	만들었어요	mandeureosseoyo	만들었습니다	mandeureotseumnida
+make	interrogative		non-past		만드느냐	mandeuneunya	만들어	mandeureo	만들어요	mandeureoyo	만듭니까	mandeumnikka
+make	interrogative		past		만들었느냐	mandeureonneunya	만들었어	mandeureosseo	만들었어요	mandeureosseoyo	만들었습니까	mandeureotseumnikka
+make	hortative		hortative		만들자	mandeulja	만들어	mandeureo	만들어요	mandeureoyo	만드십시다	mandeusipsida
+make	imperative		imperative		만들어라	mandeureora	만들어	mandeureo	만들어요	mandeureoyo	만듭시오	mandeupsio
+make	assertive		assertive		만들겠다	mandeulgetda	만들겠어	mandeulgesseo	만들겠어요	mandeulgesseoyo	만들겠습니다	mandeulgetseumnida
+make	connective forms											
+make	cause/reason		cause/reason		만들어	mandeureo	만들어서	mandeureoseo	만드니	mandeuni	만드니까	mandeunikka
+make	contrast		contrast		만들지만	mandeuljiman	만드는데	mandeuneunde	만들더니	mandeuldeoni		
+make	conjunction		conjunction		만들고	mandeulgo						
+make	condition		condition		만들면	mandeulmyeon	만들어야	mandeureoya				
+make	motive		motive		만들려고	mandeullyeogo						
+make	noun and determiner forms											
+make	verbal nouns		verbal nouns		만듦	mandeum	만들기	mandeulgi				
+make	past-tense verbal nouns		past-tense verbal nouns		만들었음	mandeureosseum	만들었기	mandeureotgi				
+make	determiners		past		만든	mandeun						
+make	determiners		present		만드는	mandeuneun						
+make	determiners		future		만들	mandeul						
+speak	sentence-final forms											
+speak					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+speak	indicative		non-past		말한다	malhanda	말해	malhae	말해요	malhaeyo	말합니다	malhamnida
+speak	indicative		past		말했다	malhaetda	말했어	malhaesseo	말했어요	malhaesseoyo	말했습니다	malhaetseumnida
+speak	interrogative		non-past		말하느냐	malhaneunya	말해	malhae	말해요	malhaeyo	말합니까	malhamnikka
+speak	interrogative		past		말했느냐	malhaenneunya	말했어	malhaesseo	말했어요	malhaesseoyo	말했습니까	malhaetseumnikka
+speak	hortative		hortative		말하자	malhaja	말해	malhae	말해요	malhaeyo	말하십시다	malhasipsida
+speak	imperative		imperative		말해라, 말하여라	malhaera, malhayeora	말해	malhae	말해요	malhaeyo	말합시오	malhapsio
+speak	assertive		assertive		말하겠다	malhagetda	말하겠어	malhagesseo	말하겠어요	malhagesseoyo	말하겠습니다	malhagetseumnida
+speak	connective forms											
+speak	cause/reason		cause/reason		말해	malhae	말해서, 말하여서	malhaeseo, malhayeoseo	말하니	malhani	말하니까	malhanikka
+speak	contrast		contrast		말하지만	malhajiman	말하는데	malhaneunde	말하더니	malhadeoni		
+speak	conjunction		conjunction		말하고	malhago						
+speak	condition		condition		말하면	malhamyeon	말해야, 말하여야	malhaeya, malhayeoya				
+speak	motive		motive		말하려고	malharyeogo						
+speak	noun and determiner forms											
+speak	verbal nouns		verbal nouns		말함	malham	말하기	malhagi				
+speak	past-tense verbal nouns		past-tense verbal nouns		말했음, 말하였음	malhaesseum, malhayeosseum	말했기, 말하였기	malhaetgi, malhayeotgi				
+speak	determiners		past		말한	malhan						
+speak	determiners		present		말하는	malhaneun						
+speak	determiners		future		말할	malhal						
+speak	sentence-final forms											
+speak					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+speak	indicative		non-past		말씀한다	malsseumhanda	말씀해	malsseumhae	말씀해요	malsseumhaeyo	말씀합니다	malsseumhamnida
+speak	indicative		past		말씀했다	malsseumhaetda	말씀했어	malsseumhaesseo	말씀했어요	malsseumhaesseoyo	말씀했습니다	malsseumhaetseumnida
+speak	interrogative		non-past		말씀하느냐	malsseumhaneunya	말씀해	malsseumhae	말씀해요	malsseumhaeyo	말씀합니까	malsseumhamnikka
+speak	interrogative		past		말씀했느냐	malsseumhaenneunya	말씀했어	malsseumhaesseo	말씀했어요	malsseumhaesseoyo	말씀했습니까	malsseumhaetseumnikka
+speak	hortative		hortative		말씀하자	malsseumhaja	말씀해	malsseumhae	말씀해요	malsseumhaeyo	말씀하십시다	malsseumhasipsida
+speak	imperative		imperative		말씀해라, 말씀하여라	malsseumhaera, malsseumhayeora	말씀해	malsseumhae	말씀해요	malsseumhaeyo	말씀합시오	malsseumhapsio
+speak	assertive		assertive		말씀하겠다	malsseumhagetda	말씀하겠어	malsseumhagesseo	말씀하겠어요	malsseumhagesseoyo	말씀하겠습니다	malsseumhagetseumnida
+speak	connective forms											
+speak	cause/reason		cause/reason		말씀해	malsseumhae	말씀해서, 말씀하여서	malsseumhaeseo, malsseumhayeoseo	말씀하니	malsseumhani	말씀하니까	malsseumhanikka
+speak	contrast		contrast		말씀하지만	malsseumhajiman	말씀하는데	malsseumhaneunde	말씀하더니	malsseumhadeoni		
+speak	conjunction		conjunction		말씀하고	malsseumhago						
+speak	condition		condition		말씀하면	malsseumhamyeon	말씀해야, 말씀하여야	malsseumhaeya, malsseumhayeoya				
+speak	motive		motive		말씀하려고	malsseumharyeogo						
+speak	noun and determiner forms											
+speak	verbal nouns		verbal nouns		말씀함	malsseumham	말씀하기	malsseumhagi				
+speak	past-tense verbal nouns		past-tense verbal nouns		말씀했음, 말씀하였음	malsseumhaesseum, malsseumhayeosseum	말씀했기, 말씀하였기	malsseumhaetgi, malsseumhayeotgi				
+speak	determiners		past		말씀한	malsseumhan						
+speak	determiners		present		말씀하는	malsseumhaneun						
+speak	determiners		future		말씀할	malsseumhal						
+speak	sentence-final forms											
+speak					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+speak	indicative		non-past		이야기한다	iyagihanda	이야기해	iyagihae	이야기해요	iyagihaeyo	이야기합니다	iyagihamnida
+speak	indicative		past		이야기했다	iyagihaetda	이야기했어	iyagihaesseo	이야기했어요	iyagihaesseoyo	이야기했습니다	iyagihaetseumnida
+speak	interrogative		non-past		이야기하느냐	iyagihaneunya	이야기해	iyagihae	이야기해요	iyagihaeyo	이야기합니까	iyagihamnikka
+speak	interrogative		past		이야기했느냐	iyagihaenneunya	이야기했어	iyagihaesseo	이야기했어요	iyagihaesseoyo	이야기했습니까	iyagihaetseumnikka
+speak	hortative		hortative		이야기하자	iyagihaja	이야기해	iyagihae	이야기해요	iyagihaeyo	이야기하십시다	iyagihasipsida
+speak	imperative		imperative		이야기해라, 이야기하여라	iyagihaera, iyagihayeora	이야기해	iyagihae	이야기해요	iyagihaeyo	이야기합시오	iyagihapsio
+speak	assertive		assertive		이야기하겠다	iyagihagetda	이야기하겠어	iyagihagesseo	이야기하겠어요	iyagihagesseoyo	이야기하겠습니다	iyagihagetseumnida
+speak	connective forms											
+speak	cause/reason		cause/reason		이야기해	iyagihae	이야기해서, 이야기하여서	iyagihaeseo, iyagihayeoseo	이야기하니	iyagihani	이야기하니까	iyagihanikka
+speak	contrast		contrast		이야기하지만	iyagihajiman	이야기하는데	iyagihaneunde	이야기하더니	iyagihadeoni		
+speak	conjunction		conjunction		이야기하고	iyagihago						
+speak	condition		condition		이야기하면	iyagihamyeon	이야기해야, 이야기하여야	iyagihaeya, iyagihayeoya				
+speak	motive		motive		이야기하려고	iyagiharyeogo						
+speak	noun and determiner forms											
+speak	verbal nouns		verbal nouns		이야기함	iyagiham	이야기하기	iyagihagi				
+speak	past-tense verbal nouns		past-tense verbal nouns		이야기했음, 이야기하였음	iyagihaesseum, iyagihayeosseum	이야기했기, 이야기하였기	iyagihaetgi, iyagihayeotgi				
+speak	determiners		past		이야기한	iyagihan						
+speak	determiners		present		이야기하는	iyagihaneun						
+speak	determiners		future		이야기할	iyagihal						
+become	sentence-final forms											
+become					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+become	indicative		non-past		된다	doenda	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	됩니다	doemnida
+become	indicative		past		됐다	dwaetda	됐어	dwaesseo	됐어요	dwaesseoyo	됐습니다	dwaetseumnida
+become	interrogative		non-past		되느냐	doeneunya	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	됩니까	doemnikka
+become	interrogative		past		됐느냐	dwaenneunya	됐어	dwaesseo	됐어요	dwaesseoyo	됐습니까	dwaetseumnikka
+become	hortative		hortative		되자	doeja	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	되십시다	doesipsida
+become	imperative		imperative		돼라, 되어라	dwaera, doeeora	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	됩시오	doepsio
+become	assertive		assertive		되겠다	doegetda	되겠어	doegesseo	되겠어요	doegesseoyo	되겠습니다	doegetseumnida
+become	connective forms											
+become	cause/reason		cause/reason		돼	dwae	돼서, 되어서	dwaeseo, doeeoseo	되니	doeni	되니까	doenikka
+become	contrast		contrast		되지만	doejiman	되는데	doeneunde	되더니	doedeoni		
+become	conjunction		conjunction		되고	doego						
+become	condition		condition		되면	doemyeon	돼야, 되어야	dwaeya, doeeoya				
+become	motive		motive		되려고	doeryeogo						
+become	noun and determiner forms											
+become	verbal nouns		verbal nouns		됨	doem	되기	doegi				
+become	past-tense verbal nouns		past-tense verbal nouns		됐음, 되었음	dwaesseum, doeeosseum	됐기, 되었기	dwaetgi, doeeotgi				
+become	determiners		past		된	doen						
+become	determiners		present		되는	doeneun						
+become	determiners		future		될	doel						
+become	sentence-final forms											
+become					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+become	indicative		non-past		되다	doeda	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	됩니다	doemnida
+become	indicative		past		됐다	dwaetda	됐어	dwaesseo	됐어요	dwaesseoyo	됐습니다	dwaetseumnida
+become	interrogative		non-past		되냐	doenya	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	됩니까	doemnikka
+become	interrogative		past		됐느냐	dwaenneunya	됐어	dwaesseo	됐어요	dwaesseoyo	됐습니까	dwaetseumnikka
+become	assertive		assertive		되겠다	doegetda	되겠어	doegesseo	되겠어요	doegesseoyo	되겠습니다	doegetseumnida
+become	connective forms											
+become	cause/reason		cause/reason		돼	dwae	돼서, 되어서	dwaeseo, doeeoseo	되니	doeni	되니까	doenikka
+become	contrast		contrast		되지만	doejiman	된데	doende	되더니	doedeoni		
+become	conjunction		conjunction		되고	doego						
+become	condition		condition		되면	doemyeon	돼야, 되어야	dwaeya, doeeoya				
+become	noun and determiner forms											
+become	verbal nouns		verbal nouns		됨	doem	되기	doegi				
+become	past-tense verbal nouns		past-tense verbal nouns		됐음, 되었음	dwaesseum, doeeosseum	됐기, 되었기	dwaetgi, doeeotgi				
+become	determiners		present				된	doen				
+become	determiners		future				될	doel				
+become	sentence-final forms											
+become					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+become	indicative		non-past		된다	doenda	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	됩니다	doemnida
+become	indicative		past		됐다	dwaetda	됐어	dwaesseo	됐어요	dwaesseoyo	됐습니다	dwaetseumnida
+become	interrogative		non-past		되느냐	doeneunya	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	됩니까	doemnikka
+become	interrogative		past		됐느냐	dwaenneunya	됐어	dwaesseo	됐어요	dwaesseoyo	됐습니까	dwaetseumnikka
+become	hortative		hortative		되자	doeja	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	되십시다	doesipsida
+become	imperative		imperative		돼라, 되어라	dwaera, doeeora	돼	dwae	돼요, 되어요	dwaeyo, doeeoyo	됩시오	doepsio
+become	assertive		assertive		되겠다	doegetda	되겠어	doegesseo	되겠어요	doegesseoyo	되겠습니다	doegetseumnida
+become	connective forms											
+become	cause/reason		cause/reason		돼	dwae	돼서, 되어서	dwaeseo, doeeoseo	되니	doeni	되니까	doenikka
+become	contrast		contrast		되지만	doejiman	되는데	doeneunde	되더니	doedeoni		
+become	conjunction		conjunction		되고	doego						
+become	condition		condition		되면	doemyeon	돼야, 되어야	dwaeya, doeeoya				
+become	motive		motive		되려고	doeryeogo						
+become	noun and determiner forms											
+become	verbal nouns		verbal nouns		됨	doem	되기	doegi				
+become	past-tense verbal nouns		past-tense verbal nouns		됐음, 되었음	dwaesseum, doeeosseum	됐기, 되었기	dwaetgi, doeeotgi				
+become	determiners		past		된	doen						
+become	determiners		present		되는	doeneun						
+become	determiners		future		될	doel						
+become	sentence-final forms											
+become					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+become	indicative		non-past		진다	jinda	져	jeo	져요, 지어요	jeoyo, jieoyo	집니다	jimnida
+become	indicative		past		졌다	jeotda	졌어	jeosseo	졌어요	jeosseoyo	졌습니다	jeotseumnida
+become	interrogative		non-past		지느냐	jineunya	져	jeo	져요, 지어요	jeoyo, jieoyo	집니까	jimnikka
+become	interrogative		past		졌느냐	jeonneunya	졌어	jeosseo	졌어요	jeosseoyo	졌습니까	jeotseumnikka
+become	hortative		hortative		지자	jija	져	jeo	져요, 지어요	jeoyo, jieoyo	지십시다	jisipsida
+become	imperative		imperative		져라, 지어라	jeora, jieora	져	jeo	져요, 지어요	jeoyo, jieoyo	집시오	jipsio
+become	assertive		assertive		지겠다	jigetda	지겠어	jigesseo	지겠어요	jigesseoyo	지겠습니다	jigetseumnida
+become	connective forms											
+become	cause/reason		cause/reason		져	jeo	져서, 지어서	jeoseo, jieoseo	지니	jini	지니까	jinikka
+become	contrast		contrast		지지만	jijiman	지는데	jineunde	지더니	jideoni		
+become	conjunction		conjunction		지고	jigo						
+become	condition		condition		지면	jimyeon	져야, 지어야	jeoya, jieoya				
+become	motive		motive		지려고	jiryeogo						
+become	noun and determiner forms											
+become	verbal nouns		verbal nouns		짐	jim	지기	jigi				
+become	past-tense verbal nouns		past-tense verbal nouns		졌음, 지었음	jeosseum, jieosseum	졌기, 지었기	jeotgi, jieotgi				
+become	determiners		past		진	jin						
+become	determiners		present		지는	jineun						
+become	determiners		future		질	jil						
+become	sentence-final forms											
+become					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+become	indicative		non-past		진다	jinda	져	jeo	져요, 지어요	jeoyo, jieoyo	집니다	jimnida
+become	indicative		past		졌다	jeotda	졌어	jeosseo	졌어요	jeosseoyo	졌습니다	jeotseumnida
+become	interrogative		non-past		지느냐	jineunya	져	jeo	져요, 지어요	jeoyo, jieoyo	집니까	jimnikka
+become	interrogative		past		졌느냐	jeonneunya	졌어	jeosseo	졌어요	jeosseoyo	졌습니까	jeotseumnikka
+become	hortative		hortative		지자	jija	져	jeo	져요, 지어요	jeoyo, jieoyo	지십시다	jisipsida
+become	imperative		imperative		져라, 지어라	jeora, jieora	져	jeo	져요, 지어요	jeoyo, jieoyo	집시오	jipsio
+become	assertive		assertive		지겠다	jigetda	지겠어	jigesseo	지겠어요	jigesseoyo	지겠습니다	jigetseumnida
+become	connective forms											
+become	cause/reason		cause/reason		져	jeo	져서, 지어서	jeoseo, jieoseo	지니	jini	지니까	jinikka
+become	contrast		contrast		지지만	jijiman	지는데	jineunde	지더니	jideoni		
+become	conjunction		conjunction		지고	jigo						
+become	condition		condition		지면	jimyeon	져야, 지어야	jeoya, jieoya				
+become	motive		motive		지려고	jiryeogo						
+become	noun and determiner forms											
+become	verbal nouns		verbal nouns		짐	jim	지기	jigi				
+become	past-tense verbal nouns		past-tense verbal nouns		졌음, 지었음	jeosseum, jieosseum	졌기, 지었기	jeotgi, jieotgi				
+become	determiners		past		진	jin						
+become	determiners		present		지는	jineun						
+become	determiners		future		질	jil						
+become	sentence-final forms											
+become					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+become	indicative		non-past		진다	jinda	져	jeo	져요, 지어요	jeoyo, jieoyo	집니다	jimnida
+become	indicative		past		졌다	jeotda	졌어	jeosseo	졌어요	jeosseoyo	졌습니다	jeotseumnida
+become	interrogative		non-past		지느냐	jineunya	져	jeo	져요, 지어요	jeoyo, jieoyo	집니까	jimnikka
+become	interrogative		past		졌느냐	jeonneunya	졌어	jeosseo	졌어요	jeosseoyo	졌습니까	jeotseumnikka
+become	hortative		hortative		지자	jija	져	jeo	져요, 지어요	jeoyo, jieoyo	지십시다	jisipsida
+become	imperative		imperative		져라, 지어라	jeora, jieora	져	jeo	져요, 지어요	jeoyo, jieoyo	집시오	jipsio
+become	assertive		assertive		지겠다	jigetda	지겠어	jigesseo	지겠어요	jigesseoyo	지겠습니다	jigetseumnida
+become	connective forms											
+become	cause/reason		cause/reason		져	jeo	져서, 지어서	jeoseo, jieoseo	지니	jini	지니까	jinikka
+become	contrast		contrast		지지만	jijiman	지는데	jineunde	지더니	jideoni		
+become	conjunction		conjunction		지고	jigo						
+become	condition		condition		지면	jimyeon	져야, 지어야	jeoya, jieoya				
+become	motive		motive		지려고	jiryeogo						
+become	noun and determiner forms											
+become	verbal nouns		verbal nouns		짐	jim	지기	jigi				
+become	past-tense verbal nouns		past-tense verbal nouns		졌음, 지었음	jeosseum, jieosseum	졌기, 지었기	jeotgi, jieotgi				
+become	determiners		past		진	jin						
+become	determiners		present		지는	jineun						
+become	determiners		future		질	jil						
+become	sentence-final forms											
+become					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+become	indicative		non-past		진다	jinda	져	jeo	져요, 지어요	jeoyo, jieoyo	집니다	jimnida
+become	indicative		past		졌다	jeotda	졌어	jeosseo	졌어요	jeosseoyo	졌습니다	jeotseumnida
+become	interrogative		non-past		지느냐	jineunya	져	jeo	져요, 지어요	jeoyo, jieoyo	집니까	jimnikka
+become	interrogative		past		졌느냐	jeonneunya	졌어	jeosseo	졌어요	jeosseoyo	졌습니까	jeotseumnikka
+become	hortative		hortative		지자	jija	져	jeo	져요, 지어요	jeoyo, jieoyo	지십시다	jisipsida
+become	imperative		imperative		져라, 지어라	jeora, jieora	져	jeo	져요, 지어요	jeoyo, jieoyo	집시오	jipsio
+become	assertive		assertive		지겠다	jigetda	지겠어	jigesseo	지겠어요	jigesseoyo	지겠습니다	jigetseumnida
+become	connective forms											
+become	cause/reason		cause/reason		져	jeo	져서, 지어서	jeoseo, jieoseo	지니	jini	지니까	jinikka
+become	contrast		contrast		지지만	jijiman	지는데	jineunde	지더니	jideoni		
+become	conjunction		conjunction		지고	jigo						
+become	condition		condition		지면	jimyeon	져야, 지어야	jeoya, jieoya				
+become	motive		motive		지려고	jiryeogo						
+become	noun and determiner forms											
+become	verbal nouns		verbal nouns		짐	jim	지기	jigi				
+become	past-tense verbal nouns		past-tense verbal nouns		졌음, 지었음	jeosseum, jieosseum	졌기, 지었기	jeotgi, jieotgi				
+become	determiners		past		진	jin						
+become	determiners		present		지는	jineun						
+become	determiners		future		질	jil						
+learn	sentence-final forms											
+learn					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+learn	indicative		non-past		배운다	bae'unda	배워	baewo	배워요	baewoyo	배웁니다	bae'umnida
+learn	indicative		past		배웠다	baewotda	배웠어	baewosseo	배웠어요	baewosseoyo	배웠습니다	baewotseumnida
+learn	interrogative		non-past		배우느냐	bae'uneunya	배워	baewo	배워요	baewoyo	배웁니까	bae'umnikka
+learn	interrogative		past		배웠느냐	baewonneunya	배웠어	baewosseo	배웠어요	baewosseoyo	배웠습니까	baewotseumnikka
+learn	hortative		hortative		배우자	bae'uja	배워	baewo	배워요	baewoyo	배우십시다	bae'usipsida
+learn	imperative		imperative		배워라	baewora	배워	baewo	배워요	baewoyo	배웁시오	bae'upsio
+learn	assertive		assertive		배우겠다	bae'ugetda	배우겠어	bae'ugesseo	배우겠어요	bae'ugesseoyo	배우겠습니다	bae'ugetseumnida
+learn	connective forms											
+learn	cause/reason		cause/reason		배워	baewo	배워서	baewoseo	배우니	bae'uni	배우니까	bae'unikka
+learn	contrast		contrast		배우지만	bae'ujiman	배우는데	bae'uneunde	배우더니	bae'udeoni		
+learn	conjunction		conjunction		배우고	bae'ugo						
+learn	condition		condition		배우면	bae'umyeon	배워야	baewoya				
+learn	motive		motive		배우려고	bae'uryeogo						
+learn	noun and determiner forms											
+learn	verbal nouns		verbal nouns		배움	bae'um	배우기	bae'ugi				
+learn	past-tense verbal nouns		past-tense verbal nouns		배웠음	baewosseum	배웠기	baewotgi				
+learn	determiners		past		배운	bae'un						
+learn	determiners		present		배우는	bae'uneun						
+learn	determiners		future		배울	bae'ul						
+learn	sentence-final forms											
+learn					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+learn	indicative		non-past		배운다	bae'unda	배워	baewo	배워요	baewoyo	배웁니다	bae'umnida
+learn	indicative		past		배웠다	baewotda	배웠어	baewosseo	배웠어요	baewosseoyo	배웠습니다	baewotseumnida
+learn	interrogative		non-past		배우느냐	bae'uneunya	배워	baewo	배워요	baewoyo	배웁니까	bae'umnikka
+learn	interrogative		past		배웠느냐	baewonneunya	배웠어	baewosseo	배웠어요	baewosseoyo	배웠습니까	baewotseumnikka
+learn	hortative		hortative		배우자	bae'uja	배워	baewo	배워요	baewoyo	배우십시다	bae'usipsida
+learn	imperative		imperative		배워라	baewora	배워	baewo	배워요	baewoyo	배웁시오	bae'upsio
+learn	assertive		assertive		배우겠다	bae'ugetda	배우겠어	bae'ugesseo	배우겠어요	bae'ugesseoyo	배우겠습니다	bae'ugetseumnida
+learn	connective forms											
+learn	cause/reason		cause/reason		배워	baewo	배워서	baewoseo	배우니	bae'uni	배우니까	bae'unikka
+learn	contrast		contrast		배우지만	bae'ujiman	배우는데	bae'uneunde	배우더니	bae'udeoni		
+learn	conjunction		conjunction		배우고	bae'ugo						
+learn	condition		condition		배우면	bae'umyeon	배워야	baewoya				
+learn	motive		motive		배우려고	bae'uryeogo						
+learn	noun and determiner forms											
+learn	verbal nouns		verbal nouns		배움	bae'um	배우기	bae'ugi				
+learn	past-tense verbal nouns		past-tense verbal nouns		배웠음	baewosseum	배웠기	baewotgi				
+learn	determiners		past		배운	bae'un						
+learn	determiners		present		배우는	bae'uneun						
+learn	determiners		future		배울	bae'ul						
+give	sentence-final forms											
+give					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+give	indicative		non-past		준다	junda	주어	jueo	주어요, 줘요	jueoyo, jwoyo	줍니다	jumnida
+give	indicative		past		주었다	jueotda	주었어	jueosseo	주었어요	jueosseoyo	주었습니다	jueotseumnida
+give	interrogative		non-past		주느냐	juneunya	주어	jueo	주어요, 줘요	jueoyo, jwoyo	줍니까	jumnikka
+give	interrogative		past		주었느냐	jueonneunya	주었어	jueosseo	주었어요	jueosseoyo	주었습니까	jueotseumnikka
+give	hortative		hortative		주자	juja	주어	jueo	주어요, 줘요	jueoyo, jwoyo	주십시다	jusipsida
+give	imperative		imperative		주어라, 줘라	jueora, jwora	주어	jueo	주어요, 줘요	jueoyo, jwoyo	줍시오	jupsio
+give	assertive		assertive		주겠다	jugetda	주겠어	jugesseo	주겠어요	jugesseoyo	주겠습니다	jugetseumnida
+give	connective forms											
+give	cause/reason		cause/reason		주어	jueo	주어서, 줘서	jueoseo, jwoseo	주니	juni	주니까	junikka
+give	contrast		contrast		주지만	jujiman	주는데	juneunde	주더니	judeoni		
+give	conjunction		conjunction		주고	jugo						
+give	condition		condition		주면	jumyeon	주어야, 줘야	jueoya, jwoya				
+give	motive		motive		주려고	juryeogo						
+give	noun and determiner forms											
+give	verbal nouns		verbal nouns		줌	jum	주기	jugi				
+give	past-tense verbal nouns		past-tense verbal nouns		주었음, 줬음	jueosseum, jwosseum	주었기, 줬기	jueotgi, jwotgi				
+give	determiners		past		준	jun						
+give	determiners		present		주는	juneun						
+give	determiners		future		줄	jul						
+give	sentence-final forms											
+give					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+give	indicative		non-past		드린다	deurinda	드려	deuryeo	드려요, 드리어요	deuryeoyo, deurieoyo	드립니다	deurimnida
+give	indicative		past		드렸다	deuryeotda	드렸어	deuryeosseo	드렸어요	deuryeosseoyo	드렸습니다	deuryeotseumnida
+give	interrogative		non-past		드리느냐	deurineunya	드려	deuryeo	드려요, 드리어요	deuryeoyo, deurieoyo	드립니까	deurimnikka
+give	interrogative		past		드렸느냐	deuryeonneunya	드렸어	deuryeosseo	드렸어요	deuryeosseoyo	드렸습니까	deuryeotseumnikka
+give	hortative		hortative		드리자	deurija	드려	deuryeo	드려요, 드리어요	deuryeoyo, deurieoyo	드리십시다	deurisipsida
+give	imperative		imperative		드려라, 드리어라	deuryeora, deurieora	드려	deuryeo	드려요, 드리어요	deuryeoyo, deurieoyo	드립시오	deuripsio
+give	assertive		assertive		드리겠다	deurigetda	드리겠어	deurigesseo	드리겠어요	deurigesseoyo	드리겠습니다	deurigetseumnida
+give	connective forms											
+give	cause/reason		cause/reason		드려	deuryeo	드려서, 드리어서	deuryeoseo, deurieoseo	드리니	deurini	드리니까	deurinikka
+give	contrast		contrast		드리지만	deurijiman	드리는데	deurineunde	드리더니	deurideoni		
+give	conjunction		conjunction		드리고	deurigo						
+give	condition		condition		드리면	deurimyeon	드려야, 드리어야	deuryeoya, deurieoya				
+give	motive		motive		드리려고	deuriryeogo						
+give	noun and determiner forms											
+give	verbal nouns		verbal nouns		드림	deurim	드리기	deurigi				
+give	past-tense verbal nouns		past-tense verbal nouns		드렸음, 드리었음	deuryeosseum, deurieosseum	드렸기, 드리었기	deuryeotgi, deurieotgi				
+give	determiners		past		드린	deurin						
+give	determiners		present		드리는	deurineun						
+give	determiners		future		드릴	deuril						
+help	sentence-final forms											
+help					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+help	indicative		non-past		돕는다	domneunda	도와	dowa	도와요	dowayo	돕습니다	dopseumnida
+help	indicative		past		도왔다	dowatda	도왔어	dowasseo	도왔어요	dowasseoyo	도왔습니다	dowatseumnida
+help	interrogative		non-past		돕느냐	domneunya	도와	dowa	도와요	dowayo	돕습니까	dopseumnikka
+help	interrogative		past		도왔느냐	dowanneunya	도왔어	dowasseo	도왔어요	dowasseoyo	도왔습니까	dowatseumnikka
+help	hortative		hortative		돕자	dopja	도와	dowa	도와요	dowayo	도우십시다	dousipsida
+help	imperative		imperative		도와라	dowara	도와	dowa	도와요	dowayo	도웁시오	doupsio
+help	assertive		assertive		돕겠다	dopgetda	돕겠어	dopgesseo	돕겠어요	dopgesseoyo	돕겠습니다	dopgetseumnida
+help	connective forms											
+help	cause/reason		cause/reason		도와	dowa	도와서	dowaseo	도우니	douni	도우니까	dounikka
+help	contrast		contrast		돕지만	dopjiman	돕는데	domneunde	돕더니	dopdeoni		
+help	conjunction		conjunction		돕고	dopgo						
+help	condition		condition		도우면	doumyeon	도와야	dowaya				
+help	motive		motive		도우려고	douryeogo						
+help	noun and determiner forms											
+help	verbal nouns		verbal nouns		도움	doum	돕기	dopgi				
+help	past-tense verbal nouns		past-tense verbal nouns		도왔음	dowasseum	도왔기	dowatgi				
+help	determiners		past		도운	doun						
+help	determiners		present		돕는	domneun						
+help	determiners		future		도울	doul						
+protect	sentence-final forms											
+protect					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+protect	indicative		non-past		보호한다	bohohanda	보호해	bohohae	보호해요	bohohaeyo	보호합니다	bohohamnida
+protect	indicative		past		보호했다	bohohaetda	보호했어	bohohaesseo	보호했어요	bohohaesseoyo	보호했습니다	bohohaetseumnida
+protect	interrogative		non-past		보호하느냐	bohohaneunya	보호해	bohohae	보호해요	bohohaeyo	보호합니까	bohohamnikka
+protect	interrogative		past		보호했느냐	bohohaenneunya	보호했어	bohohaesseo	보호했어요	bohohaesseoyo	보호했습니까	bohohaetseumnikka
+protect	hortative		hortative		보호하자	bohohaja	보호해	bohohae	보호해요	bohohaeyo	보호하십시다	bohohasipsida
+protect	imperative		imperative		보호해라, 보호하여라	bohohaera, bohohayeora	보호해	bohohae	보호해요	bohohaeyo	보호합시오	bohohapsio
+protect	assertive		assertive		보호하겠다	bohohagetda	보호하겠어	bohohagesseo	보호하겠어요	bohohagesseoyo	보호하겠습니다	bohohagetseumnida
+protect	connective forms											
+protect	cause/reason		cause/reason		보호해	bohohae	보호해서, 보호하여서	bohohaeseo, bohohayeoseo	보호하니	bohohani	보호하니까	bohohanikka
+protect	contrast		contrast		보호하지만	bohohajiman	보호하는데	bohohaneunde	보호하더니	bohohadeoni		
+protect	conjunction		conjunction		보호하고	bohohago						
+protect	condition		condition		보호하면	bohohamyeon	보호해야, 보호하여야	bohohaeya, bohohayeoya				
+protect	motive		motive		보호하려고	bohoharyeogo						
+protect	noun and determiner forms											
+protect	verbal nouns		verbal nouns		보호함	bohoham	보호하기	bohohagi				
+protect	past-tense verbal nouns		past-tense verbal nouns		보호했음, 보호하였음	bohohaesseum, bohohayeosseum	보호했기, 보호하였기	bohohaetgi, bohohayeotgi				
+protect	determiners		past		보호한	bohohan						
+protect	determiners		present		보호하는	bohohaneun						
+protect	determiners		future		보호할	bohohal						
+hide	sentence-final forms											
+hide					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+hide	indicative		non-past		숨긴다	sumginda	숨겨	sumgyeo	숨겨요, 숨기어요	sumgyeoyo, sumgieoyo	숨깁니다	sumgimnida
+hide	indicative		past		숨겼다	sumgyeotda	숨겼어	sumgyeosseo	숨겼어요	sumgyeosseoyo	숨겼습니다	sumgyeotseumnida
+hide	interrogative		non-past		숨기느냐	sumgineunya	숨겨	sumgyeo	숨겨요, 숨기어요	sumgyeoyo, sumgieoyo	숨깁니까	sumgimnikka
+hide	interrogative		past		숨겼느냐	sumgyeonneunya	숨겼어	sumgyeosseo	숨겼어요	sumgyeosseoyo	숨겼습니까	sumgyeotseumnikka
+hide	hortative		hortative		숨기자	sumgija	숨겨	sumgyeo	숨겨요, 숨기어요	sumgyeoyo, sumgieoyo	숨기십시다	sumgisipsida
+hide	imperative		imperative		숨겨라, 숨기어라	sumgyeora, sumgieora	숨겨	sumgyeo	숨겨요, 숨기어요	sumgyeoyo, sumgieoyo	숨깁시오	sumgipsio
+hide	assertive		assertive		숨기겠다	sumgigetda	숨기겠어	sumgigesseo	숨기겠어요	sumgigesseoyo	숨기겠습니다	sumgigetseumnida
+hide	connective forms											
+hide	cause/reason		cause/reason		숨겨	sumgyeo	숨겨서, 숨기어서	sumgyeoseo, sumgieoseo	숨기니	sumgini	숨기니까	sumginikka
+hide	contrast		contrast		숨기지만	sumgijiman	숨기는데	sumgineunde	숨기더니	sumgideoni		
+hide	conjunction		conjunction		숨기고	sumgigo						
+hide	condition		condition		숨기면	sumgimyeon	숨겨야, 숨기어야	sumgyeoya, sumgieoya				
+hide	motive		motive		숨기려고	sumgiryeogo						
+hide	noun and determiner forms											
+hide	verbal nouns		verbal nouns		숨김	sumgim	숨기기	sumgigi				
+hide	past-tense verbal nouns		past-tense verbal nouns		숨겼음, 숨기었음	sumgyeosseum, sumgieosseum	숨겼기, 숨기었기	sumgyeotgi, sumgieotgi				
+hide	determiners		past		숨긴	sumgin						
+hide	determiners		present		숨기는	sumgineun						
+hide	determiners		future		숨길	sumgil						
+hide	sentence-final forms											
+hide					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+hide	indicative		non-past		감춘다	gamchunda	감추어	gamchueo	감추어요, 감춰요	gamchueoyo, gamchwoyo	감춥니다	gamchumnida
+hide	indicative		past		감추었다	gamchueotda	감추었어	gamchueosseo	감추었어요	gamchueosseoyo	감추었습니다	gamchueotseumnida
+hide	interrogative		non-past		감추느냐	gamchuneunya	감추어	gamchueo	감추어요, 감춰요	gamchueoyo, gamchwoyo	감춥니까	gamchumnikka
+hide	interrogative		past		감추었느냐	gamchueonneunya	감추었어	gamchueosseo	감추었어요	gamchueosseoyo	감추었습니까	gamchueotseumnikka
+hide	hortative		hortative		감추자	gamchuja	감추어	gamchueo	감추어요, 감춰요	gamchueoyo, gamchwoyo	감추십시다	gamchusipsida
+hide	imperative		imperative		감추어라, 감춰라	gamchueora, gamchwora	감추어	gamchueo	감추어요, 감춰요	gamchueoyo, gamchwoyo	감춥시오	gamchupsio
+hide	assertive		assertive		감추겠다	gamchugetda	감추겠어	gamchugesseo	감추겠어요	gamchugesseoyo	감추겠습니다	gamchugetseumnida
+hide	connective forms											
+hide	cause/reason		cause/reason		감추어	gamchueo	감추어서, 감춰서	gamchueoseo, gamchwoseo	감추니	gamchuni	감추니까	gamchunikka
+hide	contrast		contrast		감추지만	gamchujiman	감추는데	gamchuneunde	감추더니	gamchudeoni		
+hide	conjunction		conjunction		감추고	gamchugo						
+hide	condition		condition		감추면	gamchumyeon	감추어야, 감춰야	gamchueoya, gamchwoya				
+hide	motive		motive		감추려고	gamchuryeogo						
+hide	noun and determiner forms											
+hide	verbal nouns		verbal nouns		감춤	gamchum	감추기	gamchugi				
+hide	past-tense verbal nouns		past-tense verbal nouns		감추었음, 감췄음	gamchueosseum, gamchwosseum	감추었기, 감췄기	gamchueotgi, gamchwotgi				
+hide	determiners		past		감춘	gamchun						
+hide	determiners		present		감추는	gamchuneun						
+hide	determiners		future		감출	gamchul						
+hide	sentence-final forms											
+hide					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+hide	indicative		non-past		가린다	garinda	가려	garyeo	가려요, 가리어요	garyeoyo, garieoyo	가립니다	garimnida
+hide	indicative		past		가렸다	garyeotda	가렸어	garyeosseo	가렸어요	garyeosseoyo	가렸습니다	garyeotseumnida
+hide	interrogative		non-past		가리느냐	garineunya	가려	garyeo	가려요, 가리어요	garyeoyo, garieoyo	가립니까	garimnikka
+hide	interrogative		past		가렸느냐	garyeonneunya	가렸어	garyeosseo	가렸어요	garyeosseoyo	가렸습니까	garyeotseumnikka
+hide	hortative		hortative		가리자	garija	가려	garyeo	가려요, 가리어요	garyeoyo, garieoyo	가리십시다	garisipsida
+hide	imperative		imperative		가려라, 가리어라	garyeora, garieora	가려	garyeo	가려요, 가리어요	garyeoyo, garieoyo	가립시오	garipsio
+hide	assertive		assertive		가리겠다	garigetda	가리겠어	garigesseo	가리겠어요	garigesseoyo	가리겠습니다	garigetseumnida
+hide	connective forms											
+hide	cause/reason		cause/reason		가려	garyeo	가려서, 가리어서	garyeoseo, garieoseo	가리니	garini	가리니까	garinikka
+hide	contrast		contrast		가리지만	garijiman	가리는데	garineunde	가리더니	garideoni		
+hide	conjunction		conjunction		가리고	garigo						
+hide	condition		condition		가리면	garimyeon	가려야, 가리어야	garyeoya, garieoya				
+hide	motive		motive		가리려고	gariryeogo						
+hide	noun and determiner forms											
+hide	verbal nouns		verbal nouns		가림	garim	가리기	garigi				
+hide	past-tense verbal nouns		past-tense verbal nouns		가렸음, 가리었음	garyeosseum, garieosseum	가렸기, 가리었기	garyeotgi, garieotgi				
+hide	determiners		past		가린	garin						
+hide	determiners		present		가리는	garineun						
+hide	determiners		future		가릴	garil						
+hide	sentence-final forms											
+hide					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+hide	indicative		non-past		가린다	garinda	가려	garyeo	가려요, 가리어요	garyeoyo, garieoyo	가립니다	garimnida
+hide	indicative		past		가렸다	garyeotda	가렸어	garyeosseo	가렸어요	garyeosseoyo	가렸습니다	garyeotseumnida
+hide	interrogative		non-past		가리느냐	garineunya	가려	garyeo	가려요, 가리어요	garyeoyo, garieoyo	가립니까	garimnikka
+hide	interrogative		past		가렸느냐	garyeonneunya	가렸어	garyeosseo	가렸어요	garyeosseoyo	가렸습니까	garyeotseumnikka
+hide	hortative		hortative		가리자	garija	가려	garyeo	가려요, 가리어요	garyeoyo, garieoyo	가리십시다	garisipsida
+hide	imperative		imperative		가려라, 가리어라	garyeora, garieora	가려	garyeo	가려요, 가리어요	garyeoyo, garieoyo	가립시오	garipsio
+hide	assertive		assertive		가리겠다	garigetda	가리겠어	garigesseo	가리겠어요	garigesseoyo	가리겠습니다	garigetseumnida
+hide	connective forms											
+hide	cause/reason		cause/reason		가려	garyeo	가려서, 가리어서	garyeoseo, garieoseo	가리니	garini	가리니까	garinikka
+hide	contrast		contrast		가리지만	garijiman	가리는데	garineunde	가리더니	garideoni		
+hide	conjunction		conjunction		가리고	garigo						
+hide	condition		condition		가리면	garimyeon	가려야, 가리어야	garyeoya, garieoya				
+hide	motive		motive		가리려고	gariryeogo						
+hide	noun and determiner forms											
+hide	verbal nouns		verbal nouns		가림	garim	가리기	garigi				
+hide	past-tense verbal nouns		past-tense verbal nouns		가렸음, 가리었음	garyeosseum, garieosseum	가렸기, 가리었기	garyeotgi, garieotgi				
+hide	determiners		past		가린	garin						
+hide	determiners		present		가리는	garineun						
+hide	determiners		future		가릴	garil						
+appear	sentence-final forms											
+appear					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+appear	indicative		non-past		나타난다	natananda	나타나	natana	나타나요	natanayo	나타납니다	natanamnida
+appear	indicative		past		나타났다	natanatda	나타났어	natanasseo	나타났어요	natanasseoyo	나타났습니다	natanatseumnida
+appear	interrogative		non-past		나타나느냐	natananeunya	나타나	natana	나타나요	natanayo	나타납니까	natanamnikka
+appear	interrogative		past		나타났느냐	natananneunya	나타났어	natanasseo	나타났어요	natanasseoyo	나타났습니까	natanatseumnikka
+appear	hortative		hortative		나타나자	natanaja	나타나	natana	나타나요	natanayo	나타나십시다	natanasipsida
+appear	imperative		imperative		나타나라	natanara	나타나	natana	나타나요	natanayo	나타납시오	natanapsio
+appear	assertive		assertive		나타나겠다	natanagetda	나타나겠어	natanagesseo	나타나겠어요	natanagesseoyo	나타나겠습니다	natanagetseumnida
+appear	connective forms											
+appear	cause/reason		cause/reason		나타나	natana	나타나서	natanaseo	나타나니	natanani	나타나니까	natananikka
+appear	contrast		contrast		나타나지만	natanajiman	나타나는데	natananeunde	나타나더니	natanadeoni		
+appear	conjunction		conjunction		나타나고	natanago						
+appear	condition		condition		나타나면	natanamyeon	나타나야	natanaya				
+appear	motive		motive		나타나려고	natanaryeogo						
+appear	noun and determiner forms											
+appear	verbal nouns		verbal nouns		나타남	natanam	나타나기	natanagi				
+appear	past-tense verbal nouns		past-tense verbal nouns		나타났음	natanasseum	나타났기	natanatgi				
+appear	determiners		past		나타난	natanan						
+appear	determiners		present		나타나는	natananeun						
+appear	determiners		future		나타날	natanal						
+arrive	sentence-final forms											
+arrive					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+arrive	indicative		non-past		도착한다	dochakhanda	도착해	dochakhae	도착해요	dochakhaeyo	도착합니다	dochakhamnida
+arrive	indicative		past		도착했다	dochakhaetda	도착했어	dochakhaesseo	도착했어요	dochakhaesseoyo	도착했습니다	dochakhaetseumnida
+arrive	interrogative		non-past		도착하느냐	dochakhaneunya	도착해	dochakhae	도착해요	dochakhaeyo	도착합니까	dochakhamnikka
+arrive	interrogative		past		도착했느냐	dochakhaenneunya	도착했어	dochakhaesseo	도착했어요	dochakhaesseoyo	도착했습니까	dochakhaetseumnikka
+arrive	hortative		hortative		도착하자	dochakhaja	도착해	dochakhae	도착해요	dochakhaeyo	도착하십시다	dochakhasipsida
+arrive	imperative		imperative		도착해라, 도착하여라	dochakhaera, dochakhayeora	도착해	dochakhae	도착해요	dochakhaeyo	도착합시오	dochakhapsio
+arrive	assertive		assertive		도착하겠다	dochakhagetda	도착하겠어	dochakhagesseo	도착하겠어요	dochakhagesseoyo	도착하겠습니다	dochakhagetseumnida
+arrive	connective forms											
+arrive	cause/reason		cause/reason		도착해	dochakhae	도착해서, 도착하여서	dochakhaeseo, dochakhayeoseo	도착하니	dochakhani	도착하니까	dochakhanikka
+arrive	contrast		contrast		도착하지만	dochakhajiman	도착하는데	dochakhaneunde	도착하더니	dochakhadeoni		
+arrive	conjunction		conjunction		도착하고	dochakhago						
+arrive	condition		condition		도착하면	dochakhamyeon	도착해야, 도착하여야	dochakhaeya, dochakhayeoya				
+arrive	motive		motive		도착하려고	dochakharyeogo						
+arrive	noun and determiner forms											
+arrive	verbal nouns		verbal nouns		도착함	dochakham	도착하기	dochakhagi				
+arrive	past-tense verbal nouns		past-tense verbal nouns		도착했음, 도착하였음	dochakhaesseum, dochakhayeosseum	도착했기, 도착하였기	dochakhaetgi, dochakhayeotgi				
+arrive	determiners		past		도착한	dochakhan						
+arrive	determiners		present		도착하는	dochakhaneun						
+arrive	determiners		future		도착할	dochakhal						
+come	sentence-final forms											
+come					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+come	indicative		non-past		도착한다	dochakhanda	도착해	dochakhae	도착해요	dochakhaeyo	도착합니다	dochakhamnida
+come	indicative		past		도착했다	dochakhaetda	도착했어	dochakhaesseo	도착했어요	dochakhaesseoyo	도착했습니다	dochakhaetseumnida
+come	interrogative		non-past		도착하느냐	dochakhaneunya	도착해	dochakhae	도착해요	dochakhaeyo	도착합니까	dochakhamnikka
+come	interrogative		past		도착했느냐	dochakhaenneunya	도착했어	dochakhaesseo	도착했어요	dochakhaesseoyo	도착했습니까	dochakhaetseumnikka
+come	hortative		hortative		도착하자	dochakhaja	도착해	dochakhae	도착해요	dochakhaeyo	도착하십시다	dochakhasipsida
+come	imperative		imperative		도착해라, 도착하여라	dochakhaera, dochakhayeora	도착해	dochakhae	도착해요	dochakhaeyo	도착합시오	dochakhapsio
+come	assertive		assertive		도착하겠다	dochakhagetda	도착하겠어	dochakhagesseo	도착하겠어요	dochakhagesseoyo	도착하겠습니다	dochakhagetseumnida
+come	connective forms											
+come	cause/reason		cause/reason		도착해	dochakhae	도착해서, 도착하여서	dochakhaeseo, dochakhayeoseo	도착하니	dochakhani	도착하니까	dochakhanikka
+come	contrast		contrast		도착하지만	dochakhajiman	도착하는데	dochakhaneunde	도착하더니	dochakhadeoni		
+come	conjunction		conjunction		도착하고	dochakhago						
+come	condition		condition		도착하면	dochakhamyeon	도착해야, 도착하여야	dochakhaeya, dochakhayeoya				
+come	motive		motive		도착하려고	dochakharyeogo						
+come	noun and determiner forms											
+come	verbal nouns		verbal nouns		도착함	dochakham	도착하기	dochakhagi				
+come	past-tense verbal nouns		past-tense verbal nouns		도착했음, 도착하였음	dochakhaesseum, dochakhayeosseum	도착했기, 도착하였기	dochakhaetgi, dochakhayeotgi				
+come	determiners		past		도착한	dochakhan						
+come	determiners		present		도착하는	dochakhaneun						
+come	determiners		future		도착할	dochakhal						
+come	sentence-final forms											
+come					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+come	indicative		non-past		이른다	ireunda	이르러	ireureo	이르러요	ireureoyo	이릅니다	ireumnida
+come	indicative		past		이르렀다	ireureotda	이르렀어	ireureosseo	이르렀어요	ireureosseoyo	이르렀습니다	ireureotseumnida
+come	interrogative		non-past		이르느냐	ireuneunya	이르러	ireureo	이르러요	ireureoyo	이릅니까	ireumnikka
+come	interrogative		past		이르렀느냐	ireureonneunya	이르렀어	ireureosseo	이르렀어요	ireureosseoyo	이르렀습니까	ireureotseumnikka
+come	hortative		hortative		이르자	ireuja	이르러	ireureo	이르러요	ireureoyo	이르십시다	ireusipsida
+come	imperative		imperative		이르러라	ireureora	이르러	ireureo	이르러요	ireureoyo	이릅시오	ireupsio
+come	assertive		assertive		이르겠다	ireugetda	이르겠어	ireugesseo	이르겠어요	ireugesseoyo	이르겠습니다	ireugetseumnida
+come	connective forms											
+come	cause/reason		cause/reason		이르러	ireureo	이르러서	ireureoseo	이르니	ireuni	이르니까	ireunikka
+come	contrast		contrast		이르지만	ireujiman	이르는데	ireuneunde	이르더니	ireudeoni		
+come	conjunction		conjunction		이르고	ireugo						
+come	condition		condition		이르면	ireumyeon	이르러야	ireureoya				
+come	motive		motive		이르려고	ireuryeogo						
+come	noun and determiner forms											
+come	verbal nouns		verbal nouns		이름	ireum	이르기	ireugi				
+come	past-tense verbal nouns		past-tense verbal nouns		이르렀음	ireureosseum	이르렀기	ireureotgi				
+come	determiners		past		이른	ireun						
+come	determiners		present		이르는	ireuneun						
+come	determiners		future		이를	ireul						
+come	sentence-final forms											
+come					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+come	indicative		non-past		이른다	ireunda	일러	illeo	일러요	illeoyo	이릅니다	ireumnida
+come	indicative		past		일렀다	illeotda	일렀어	illeosseo	일렀어요	illeosseoyo	일렀습니다	illeotseumnida
+come	interrogative		non-past		이르느냐	ireuneunya	일러	illeo	일러요	illeoyo	이릅니까	ireumnikka
+come	interrogative		past		일렀느냐	illeonneunya	일렀어	illeosseo	일렀어요	illeosseoyo	일렀습니까	illeotseumnikka
+come	hortative		hortative		이르자	ireuja	일러	illeo	일러요	illeoyo	이르십시다	ireusipsida
+come	imperative		imperative		일러라	illeora	일러	illeo	일러요	illeoyo	이릅시오	ireupsio
+come	assertive		assertive		이르겠다	ireugetda	이르겠어	ireugesseo	이르겠어요	ireugesseoyo	이르겠습니다	ireugetseumnida
+come	connective forms											
+come	cause/reason		cause/reason		일러	illeo	일러서	illeoseo	이르니	ireuni	이르니까	ireunikka
+come	contrast		contrast		이르지만	ireujiman	이르는데	ireuneunde	이르더니	ireudeoni		
+come	conjunction		conjunction		이르고	ireugo						
+come	condition		condition		이르면	ireumyeon	일러야	illeoya				
+come	motive		motive		이르려고	ireuryeogo						
+come	noun and determiner forms											
+come	verbal nouns		verbal nouns		이름	ireum	이르기	ireugi				
+come	past-tense verbal nouns		past-tense verbal nouns		일렀음	illeosseum	일렀기	illeotgi				
+come	determiners		past		이른	ireun						
+come	determiners		present		이르는	ireuneun						
+come	determiners		future		이를	ireul						
+ask	sentence-final forms											
+ask					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+ask	indicative		non-past		묻는다	munneunda	물어	mureo	물어요	mureoyo	묻습니다	mutseumnida
+ask	indicative		past		물었다	mureotda	물었어	mureosseo	물었어요	mureosseoyo	물었습니다	mureotseumnida
+ask	interrogative		non-past		묻느냐	munneunya	물어	mureo	물어요	mureoyo	묻습니까	mutseumnikka
+ask	interrogative		past		물었느냐	mureonneunya	물었어	mureosseo	물었어요	mureosseoyo	물었습니까	mureotseumnikka
+ask	hortative		hortative		묻자	mutja	물어	mureo	물어요	mureoyo	물으십시다	mureusipsida
+ask	imperative		imperative		물어라	mureora	물어	mureo	물어요	mureoyo	물읍시오	mureupsio
+ask	assertive		assertive		묻겠다	mutgetda	묻겠어	mutgesseo	묻겠어요	mutgesseoyo	묻겠습니다	mutgetseumnida
+ask	connective forms											
+ask	cause/reason		cause/reason		물어	mureo	물어서	mureoseo	물으니	mureuni	물으니까	mureunikka
+ask	contrast		contrast		묻지만	mutjiman	묻는데	munneunde	묻더니	mutdeoni		
+ask	conjunction		conjunction		묻고	mutgo						
+ask	condition		condition		물으면	mureumyeon	물어야	mureoya				
+ask	motive		motive		물으려고	mureuryeogo						
+ask	noun and determiner forms											
+ask	verbal nouns		verbal nouns		물음	mureum	묻기	mutgi				
+ask	past-tense verbal nouns		past-tense verbal nouns		물었음	mureosseum	물었기	mureotgi				
+ask	determiners		past		물은	mureun						
+ask	determiners		present		묻는	munneun						
+ask	determiners		future		물을	mureul						
+ask	sentence-final forms											
+ask					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+ask	indicative		non-past		묻는다	munneunda	묻어	mudeo	묻어요	mudeoyo	묻습니다	mutseumnida
+ask	indicative		past		묻었다	mudeotda	묻었어	mudeosseo	묻었어요	mudeosseoyo	묻었습니다	mudeotseumnida
+ask	interrogative		non-past		묻느냐	munneunya	묻어	mudeo	묻어요	mudeoyo	묻습니까	mutseumnikka
+ask	interrogative		past		묻었느냐	mudeonneunya	묻었어	mudeosseo	묻었어요	mudeosseoyo	묻었습니까	mudeotseumnikka
+ask	hortative		hortative		묻자	mutja	묻어	mudeo	묻어요	mudeoyo	묻으십시다	mudeusipsida
+ask	imperative		imperative		묻어라	mudeora	묻어	mudeo	묻어요	mudeoyo	묻읍시오	mudeupsio
+ask	assertive		assertive		묻겠다	mutgetda	묻겠어	mutgesseo	묻겠어요	mutgesseoyo	묻겠습니다	mutgetseumnida
+ask	connective forms											
+ask	cause/reason		cause/reason		묻어	mudeo	묻어서	mudeoseo	묻으니	mudeuni	묻으니까	mudeunikka
+ask	contrast		contrast		묻지만	mutjiman	묻는데	munneunde	묻더니	mutdeoni		
+ask	conjunction		conjunction		묻고	mutgo						
+ask	condition		condition		묻으면	mudeumyeon	묻어야	mudeoya				
+ask	motive		motive		묻으려고	mudeuryeogo						
+ask	noun and determiner forms											
+ask	verbal nouns		verbal nouns		묻음	mudeum	묻기	mutgi				
+ask	past-tense verbal nouns		past-tense verbal nouns		묻었음	mudeosseum	묻었기	mudeotgi				
+ask	determiners		past		묻은	mudeun						
+ask	determiners		present		묻는	munneun						
+ask	determiners		future		묻을	mudeul						
+ask	sentence-final forms											
+ask					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+ask	indicative		non-past		묻는다	munneunda	묻어	mudeo	묻어요	mudeoyo	묻습니다	mutseumnida
+ask	indicative		past		묻었다	mudeotda	묻었어	mudeosseo	묻었어요	mudeosseoyo	묻었습니다	mudeotseumnida
+ask	interrogative		non-past		묻느냐	munneunya	묻어	mudeo	묻어요	mudeoyo	묻습니까	mutseumnikka
+ask	interrogative		past		묻었느냐	mudeonneunya	묻었어	mudeosseo	묻었어요	mudeosseoyo	묻었습니까	mudeotseumnikka
+ask	hortative		hortative		묻자	mutja	묻어	mudeo	묻어요	mudeoyo	묻으십시다	mudeusipsida
+ask	imperative		imperative		묻어라	mudeora	묻어	mudeo	묻어요	mudeoyo	묻읍시오	mudeupsio
+ask	assertive		assertive		묻겠다	mutgetda	묻겠어	mutgesseo	묻겠어요	mutgesseoyo	묻겠습니다	mutgetseumnida
+ask	connective forms											
+ask	cause/reason		cause/reason		묻어	mudeo	묻어서	mudeoseo	묻으니	mudeuni	묻으니까	mudeunikka
+ask	contrast		contrast		묻지만	mutjiman	묻는데	munneunde	묻더니	mutdeoni		
+ask	conjunction		conjunction		묻고	mutgo						
+ask	condition		condition		묻으면	mudeumyeon	묻어야	mudeoya				
+ask	motive		motive		묻으려고	mudeuryeogo						
+ask	noun and determiner forms											
+ask	verbal nouns		verbal nouns		묻음	mudeum	묻기	mutgi				
+ask	past-tense verbal nouns		past-tense verbal nouns		묻었음	mudeosseum	묻었기	mudeotgi				
+ask	determiners		past		묻은	mudeun						
+ask	determiners		present		묻는	munneun						
+ask	determiners		future		묻을	mudeul						
+ask	sentence-final forms											
+ask					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+ask	indicative		non-past		여쭌다	yeojjunda	여쭈어	yeojjueo	여쭈어요, 여쭤요	yeojjueoyo, yeojjwoyo	여쭙니다	yeojjumnida
+ask	indicative		past		여쭈었다	yeojjueotda	여쭈었어	yeojjueosseo	여쭈었어요	yeojjueosseoyo	여쭈었습니다	yeojjueotseumnida
+ask	interrogative		non-past		여쭈느냐	yeojjuneunya	여쭈어	yeojjueo	여쭈어요, 여쭤요	yeojjueoyo, yeojjwoyo	여쭙니까	yeojjumnikka
+ask	interrogative		past		여쭈었느냐	yeojjueonneunya	여쭈었어	yeojjueosseo	여쭈었어요	yeojjueosseoyo	여쭈었습니까	yeojjueotseumnikka
+ask	hortative		hortative		여쭈자	yeojjuja	여쭈어	yeojjueo	여쭈어요, 여쭤요	yeojjueoyo, yeojjwoyo	여쭈십시다	yeojjusipsida
+ask	imperative		imperative		여쭈어라, 여쭤라	yeojjueora, yeojjwora	여쭈어	yeojjueo	여쭈어요, 여쭤요	yeojjueoyo, yeojjwoyo	여쭙시오	yeojjupsio
+ask	assertive		assertive		여쭈겠다	yeojjugetda	여쭈겠어	yeojjugesseo	여쭈겠어요	yeojjugesseoyo	여쭈겠습니다	yeojjugetseumnida
+ask	connective forms											
+ask	cause/reason		cause/reason		여쭈어	yeojjueo	여쭈어서, 여쭤서	yeojjueoseo, yeojjwoseo	여쭈니	yeojjuni	여쭈니까	yeojjunikka
+ask	contrast		contrast		여쭈지만	yeojjujiman	여쭈는데	yeojjuneunde	여쭈더니	yeojjudeoni		
+ask	conjunction		conjunction		여쭈고	yeojjugo						
+ask	condition		condition		여쭈면	yeojjumyeon	여쭈어야, 여쭤야	yeojjueoya, yeojjwoya				
+ask	motive		motive		여쭈려고	yeojjuryeogo						
+ask	noun and determiner forms											
+ask	verbal nouns		verbal nouns		여쭘	yeojjum	여쭈기	yeojjugi				
+ask	past-tense verbal nouns		past-tense verbal nouns		여쭈었음, 여쭸음	yeojjueosseum, yeojjwosseum	여쭈었기, 여쭸기	yeojjueotgi, yeojjwotgi				
+ask	determiners		past		여쭌	yeojjun						
+ask	determiners		present		여쭈는	yeojjuneun						
+ask	determiners		future		여쭐	yeojjul						
+be	sentence-final forms											
+be					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+be	indicative		non-past		인다	inda	여	yeo	여요, 이어요	yeoyo, ieoyo	입니다	imnida
+be	indicative		past		였다	yeotda	였어	yeosseo	였어요	yeosseoyo	였습니다	yeotseumnida
+be	interrogative		non-past		이느냐	ineunya	여	yeo	여요, 이어요	yeoyo, ieoyo	입니까	imnikka
+be	interrogative		past		였느냐	yeonneunya	였어	yeosseo	였어요	yeosseoyo	였습니까	yeotseumnikka
+be	hortative		hortative		이자	ija	여	yeo	여요, 이어요	yeoyo, ieoyo	이십시다	isipsida
+be	imperative		imperative		여라, 이어라	yeora, ieora	여	yeo	여요, 이어요	yeoyo, ieoyo	입시오	ipsio
+be	assertive		assertive		이겠다	igetda	이겠어	igesseo	이겠어요	igesseoyo	이겠습니다	igetseumnida
+be	connective forms											
+be	cause/reason		cause/reason		여	yeo	여서, 이어서	yeoseo, ieoseo	이니	ini	이니까	inikka
+be	contrast		contrast		이지만	ijiman	이는데	ineunde	이더니	ideoni		
+be	conjunction		conjunction		이고	igo						
+be	condition		condition		이면	imyeon	여야, 이어야	yeoya, ieoya				
+be	motive		motive		이려고	iryeogo						
+be	noun and determiner forms											
+be	verbal nouns		verbal nouns		임	im	이기	igi				
+be	past-tense verbal nouns		past-tense verbal nouns		였음, 이었음	yeosseum, ieosseum	였기, 이었기	yeotgi, ieotgi				
+be	determiners		past		인	in						
+be	determiners		present		이는	ineun						
+be	determiners		future		일	il						
+be	sentence-final forms											
+be					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+be	indicative		non-past		인다	inda	여	yeo	여요, 이어요	yeoyo, ieoyo	입니다	imnida
+be	indicative		past		였다	yeotda	였어	yeosseo	였어요	yeosseoyo	였습니다	yeotseumnida
+be	interrogative		non-past		이느냐	ineunya	여	yeo	여요, 이어요	yeoyo, ieoyo	입니까	imnikka
+be	interrogative		past		였느냐	yeonneunya	였어	yeosseo	였어요	yeosseoyo	였습니까	yeotseumnikka
+be	hortative		hortative		이자	ija	여	yeo	여요, 이어요	yeoyo, ieoyo	이십시다	isipsida
+be	imperative		imperative		여라, 이어라	yeora, ieora	여	yeo	여요, 이어요	yeoyo, ieoyo	입시오	ipsio
+be	assertive		assertive		이겠다	igetda	이겠어	igesseo	이겠어요	igesseoyo	이겠습니다	igetseumnida
+be	connective forms											
+be	cause/reason		cause/reason		여	yeo	여서, 이어서	yeoseo, ieoseo	이니	ini	이니까	inikka
+be	contrast		contrast		이지만	ijiman	이는데	ineunde	이더니	ideoni		
+be	conjunction		conjunction		이고	igo						
+be	condition		condition		이면	imyeon	여야, 이어야	yeoya, ieoya				
+be	motive		motive		이려고	iryeogo						
+be	noun and determiner forms											
+be	verbal nouns		verbal nouns		임	im	이기	igi				
+be	past-tense verbal nouns		past-tense verbal nouns		였음, 이었음	yeosseum, ieosseum	였기, 이었기	yeotgi, ieotgi				
+be	determiners		past		인	in						
+be	determiners		present		이는	ineun						
+be	determiners		future		일	il						
+be	sentence-final forms											
+be					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+be	indicative		non-past		인다	inda	여	yeo	여요, 이어요	yeoyo, ieoyo	입니다	imnida
+be	indicative		past		였다	yeotda	였어	yeosseo	였어요	yeosseoyo	였습니다	yeotseumnida
+be	interrogative		non-past		이느냐	ineunya	여	yeo	여요, 이어요	yeoyo, ieoyo	입니까	imnikka
+be	interrogative		past		였느냐	yeonneunya	였어	yeosseo	였어요	yeosseoyo	였습니까	yeotseumnikka
+be	hortative		hortative		이자	ija	여	yeo	여요, 이어요	yeoyo, ieoyo	이십시다	isipsida
+be	imperative		imperative		여라, 이어라	yeora, ieora	여	yeo	여요, 이어요	yeoyo, ieoyo	입시오	ipsio
+be	assertive		assertive		이겠다	igetda	이겠어	igesseo	이겠어요	igesseoyo	이겠습니다	igetseumnida
+be	connective forms											
+be	cause/reason		cause/reason		여	yeo	여서, 이어서	yeoseo, ieoseo	이니	ini	이니까	inikka
+be	contrast		contrast		이지만	ijiman	이는데	ineunde	이더니	ideoni		
+be	conjunction		conjunction		이고	igo						
+be	condition		condition		이면	imyeon	여야, 이어야	yeoya, ieoya				
+be	motive		motive		이려고	iryeogo						
+be	noun and determiner forms											
+be	verbal nouns		verbal nouns		임	im	이기	igi				
+be	past-tense verbal nouns		past-tense verbal nouns		였음, 이었음	yeosseum, ieosseum	였기, 이었기	yeotgi, ieotgi				
+be	determiners		past		인	in						
+be	determiners		present		이는	ineun						
+be	determiners		future		일	il						
+be	sentence-final forms											
+be					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+be	indicative		non-past		인다	inda	여	yeo	여요, 이어요	yeoyo, ieoyo	입니다	imnida
+be	indicative		past		였다	yeotda	였어	yeosseo	였어요	yeosseoyo	였습니다	yeotseumnida
+be	interrogative		non-past		이느냐	ineunya	여	yeo	여요, 이어요	yeoyo, ieoyo	입니까	imnikka
+be	interrogative		past		였느냐	yeonneunya	였어	yeosseo	였어요	yeosseoyo	였습니까	yeotseumnikka
+be	hortative		hortative		이자	ija	여	yeo	여요, 이어요	yeoyo, ieoyo	이십시다	isipsida
+be	imperative		imperative		여라, 이어라	yeora, ieora	여	yeo	여요, 이어요	yeoyo, ieoyo	입시오	ipsio
+be	assertive		assertive		이겠다	igetda	이겠어	igesseo	이겠어요	igesseoyo	이겠습니다	igetseumnida
+be	connective forms											
+be	cause/reason		cause/reason		여	yeo	여서, 이어서	yeoseo, ieoseo	이니	ini	이니까	inikka
+be	contrast		contrast		이지만	ijiman	이는데	ineunde	이더니	ideoni		
+be	conjunction		conjunction		이고	igo						
+be	condition		condition		이면	imyeon	여야, 이어야	yeoya, ieoya				
+be	motive		motive		이려고	iryeogo						
+be	noun and determiner forms											
+be	verbal nouns		verbal nouns		임	im	이기	igi				
+be	past-tense verbal nouns		past-tense verbal nouns		였음, 이었음	yeosseum, ieosseum	였기, 이었기	yeotgi, ieotgi				
+be	determiners		past		인	in						
+be	determiners		present		이는	ineun						
+be	determiners		future		일	il						
+be	sentence-final forms											
+be					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+be	indicative		non-past		인다	inda	여	yeo	여요, 이어요	yeoyo, ieoyo	입니다	imnida
+be	indicative		past		였다	yeotda	였어	yeosseo	였어요	yeosseoyo	였습니다	yeotseumnida
+be	interrogative		non-past		이느냐	ineunya	여	yeo	여요, 이어요	yeoyo, ieoyo	입니까	imnikka
+be	interrogative		past		였느냐	yeonneunya	였어	yeosseo	였어요	yeosseoyo	였습니까	yeotseumnikka
+be	hortative		hortative		이자	ija	여	yeo	여요, 이어요	yeoyo, ieoyo	이십시다	isipsida
+be	imperative		imperative		여라, 이어라	yeora, ieora	여	yeo	여요, 이어요	yeoyo, ieoyo	입시오	ipsio
+be	assertive		assertive		이겠다	igetda	이겠어	igesseo	이겠어요	igesseoyo	이겠습니다	igetseumnida
+be	connective forms											
+be	cause/reason		cause/reason		여	yeo	여서, 이어서	yeoseo, ieoseo	이니	ini	이니까	inikka
+be	contrast		contrast		이지만	ijiman	이는데	ineunde	이더니	ideoni		
+be	conjunction		conjunction		이고	igo						
+be	condition		condition		이면	imyeon	여야, 이어야	yeoya, ieoya				
+be	motive		motive		이려고	iryeogo						
+be	noun and determiner forms											
+be	verbal nouns		verbal nouns		임	im	이기	igi				
+be	past-tense verbal nouns		past-tense verbal nouns		였음, 이었음	yeosseum, ieosseum	였기, 이었기	yeotgi, ieotgi				
+be	determiners		past		인	in						
+be	determiners		present		이는	ineun						
+be	determiners		future		일	il						
+be	sentence-final forms											
+be					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+be	indicative		non-past		인다	inda	여	yeo	여요, 이어요	yeoyo, ieoyo	입니다	imnida
+be	indicative		past		였다	yeotda	였어	yeosseo	였어요	yeosseoyo	였습니다	yeotseumnida
+be	interrogative		non-past		이느냐	ineunya	여	yeo	여요, 이어요	yeoyo, ieoyo	입니까	imnikka
+be	interrogative		past		였느냐	yeonneunya	였어	yeosseo	였어요	yeosseoyo	였습니까	yeotseumnikka
+be	hortative		hortative		이자	ija	여	yeo	여요, 이어요	yeoyo, ieoyo	이십시다	isipsida
+be	imperative		imperative		여라, 이어라	yeora, ieora	여	yeo	여요, 이어요	yeoyo, ieoyo	입시오	ipsio
+be	assertive		assertive		이겠다	igetda	이겠어	igesseo	이겠어요	igesseoyo	이겠습니다	igetseumnida
+be	connective forms											
+be	cause/reason		cause/reason		여	yeo	여서, 이어서	yeoseo, ieoseo	이니	ini	이니까	inikka
+be	contrast		contrast		이지만	ijiman	이는데	ineunde	이더니	ideoni		
+be	conjunction		conjunction		이고	igo						
+be	condition		condition		이면	imyeon	여야, 이어야	yeoya, ieoya				
+be	motive		motive		이려고	iryeogo						
+be	noun and determiner forms											
+be	verbal nouns		verbal nouns		임	im	이기	igi				
+be	past-tense verbal nouns		past-tense verbal nouns		였음, 이었음	yeosseum, ieosseum	였기, 이었기	yeotgi, ieotgi				
+be	determiners		past		인	in						
+be	determiners		present		이는	ineun						
+be	determiners		future		일	il						
+open	sentence-final forms											
+open					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+open	indicative		non-past		열린다	yeollinda	열려	yeollyeo	열려요, 열리어요	yeollyeoyo, yeollieoyo	열립니다	yeollimnida
+open	indicative		past		열렸다	yeollyeotda	열렸어	yeollyeosseo	열렸어요	yeollyeosseoyo	열렸습니다	yeollyeotseumnida
+open	interrogative		non-past		열리느냐	yeollineunya	열려	yeollyeo	열려요, 열리어요	yeollyeoyo, yeollieoyo	열립니까	yeollimnikka
+open	interrogative		past		열렸느냐	yeollyeonneunya	열렸어	yeollyeosseo	열렸어요	yeollyeosseoyo	열렸습니까	yeollyeotseumnikka
+open	hortative		hortative		열리자	yeollija	열려	yeollyeo	열려요, 열리어요	yeollyeoyo, yeollieoyo	열리십시다	yeollisipsida
+open	imperative		imperative		열려라, 열리어라	yeollyeora, yeollieora	열려	yeollyeo	열려요, 열리어요	yeollyeoyo, yeollieoyo	열립시오	yeollipsio
+open	assertive		assertive		열리겠다	yeolligetda	열리겠어	yeolligesseo	열리겠어요	yeolligesseoyo	열리겠습니다	yeolligetseumnida
+open	connective forms											
+open	cause/reason		cause/reason		열려	yeollyeo	열려서, 열리어서	yeollyeoseo, yeollieoseo	열리니	yeollini	열리니까	yeollinikka
+open	contrast		contrast		열리지만	yeollijiman	열리는데	yeollineunde	열리더니	yeollideoni		
+open	conjunction		conjunction		열리고	yeolligo						
+open	condition		condition		열리면	yeollimyeon	열려야, 열리어야	yeollyeoya, yeollieoya				
+open	motive		motive		열리려고	yeolliryeogo						
+open	noun and determiner forms											
+open	verbal nouns		verbal nouns		열림	yeollim	열리기	yeolligi				
+open	past-tense verbal nouns		past-tense verbal nouns		열렸음, 열리었음	yeollyeosseum, yeollieosseum	열렸기, 열리었기	yeollyeotgi, yeollieotgi				
+open	determiners		past		열린	yeollin						
+open	determiners		present		열리는	yeollineun						
+open	determiners		future		열릴	yeollil						
+change	sentence-final forms											
+change					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+change	indicative		non-past		바꾼다	bakkunda	바꾸어	bakkueo	바꾸어요, 바꿔요	bakkueoyo, bakkwoyo	바꿉니다	bakkumnida
+change	indicative		past		바꾸었다	bakkueotda	바꾸었어	bakkueosseo	바꾸었어요	bakkueosseoyo	바꾸었습니다	bakkueotseumnida
+change	interrogative		non-past		바꾸느냐	bakkuneunya	바꾸어	bakkueo	바꾸어요, 바꿔요	bakkueoyo, bakkwoyo	바꿉니까	bakkumnikka
+change	interrogative		past		바꾸었느냐	bakkueonneunya	바꾸었어	bakkueosseo	바꾸었어요	bakkueosseoyo	바꾸었습니까	bakkueotseumnikka
+change	hortative		hortative		바꾸자	bakkuja	바꾸어	bakkueo	바꾸어요, 바꿔요	bakkueoyo, bakkwoyo	바꾸십시다	bakkusipsida
+change	imperative		imperative		바꾸어라, 바꿔라	bakkueora, bakkwora	바꾸어	bakkueo	바꾸어요, 바꿔요	bakkueoyo, bakkwoyo	바꿉시오	bakkupsio
+change	assertive		assertive		바꾸겠다	bakkugetda	바꾸겠어	bakkugesseo	바꾸겠어요	bakkugesseoyo	바꾸겠습니다	bakkugetseumnida
+change	connective forms											
+change	cause/reason		cause/reason		바꾸어	bakkueo	바꾸어서, 바꿔서	bakkueoseo, bakkwoseo	바꾸니	bakkuni	바꾸니까	bakkunikka
+change	contrast		contrast		바꾸지만	bakkujiman	바꾸는데	bakkuneunde	바꾸더니	bakkudeoni		
+change	conjunction		conjunction		바꾸고	bakkugo						
+change	condition		condition		바꾸면	bakkumyeon	바꾸어야, 바꿔야	bakkueoya, bakkwoya				
+change	motive		motive		바꾸려고	bakkuryeogo						
+change	noun and determiner forms											
+change	verbal nouns		verbal nouns		바꿈	bakkum	바꾸기	bakkugi				
+change	past-tense verbal nouns		past-tense verbal nouns		바꾸었음, 바꿨음	bakkueosseum, bakkwosseum	바꾸었기, 바꿨기	bakkueotgi, bakkwotgi				
+change	determiners		past		바꾼	bakkun						
+change	determiners		present		바꾸는	bakkuneun						
+change	determiners		future		바꿀	bakkul						
+change	sentence-final forms											
+change					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+change	indicative		non-past		변경한다	byeon'gyeonghanda	변경해	byeon'gyeonghae	변경해요	byeon'gyeonghaeyo	변경합니다	byeon'gyeonghamnida
+change	indicative		past		변경했다	byeon'gyeonghaetda	변경했어	byeon'gyeonghaesseo	변경했어요	byeon'gyeonghaesseoyo	변경했습니다	byeon'gyeonghaetseumnida
+change	interrogative		non-past		변경하느냐	byeon'gyeonghaneunya	변경해	byeon'gyeonghae	변경해요	byeon'gyeonghaeyo	변경합니까	byeon'gyeonghamnikka
+change	interrogative		past		변경했느냐	byeon'gyeonghaenneunya	변경했어	byeon'gyeonghaesseo	변경했어요	byeon'gyeonghaesseoyo	변경했습니까	byeon'gyeonghaetseumnikka
+change	hortative		hortative		변경하자	byeon'gyeonghaja	변경해	byeon'gyeonghae	변경해요	byeon'gyeonghaeyo	변경하십시다	byeon'gyeonghasipsida
+change	imperative		imperative		변경해라, 변경하여라	byeon'gyeonghaera, byeon'gyeonghayeora	변경해	byeon'gyeonghae	변경해요	byeon'gyeonghaeyo	변경합시오	byeon'gyeonghapsio
+change	assertive		assertive		변경하겠다	byeon'gyeonghagetda	변경하겠어	byeon'gyeonghagesseo	변경하겠어요	byeon'gyeonghagesseoyo	변경하겠습니다	byeon'gyeonghagetseumnida
+change	connective forms											
+change	cause/reason		cause/reason		변경해	byeon'gyeonghae	변경해서, 변경하여서	byeon'gyeonghaeseo, byeon'gyeonghayeoseo	변경하니	byeon'gyeonghani	변경하니까	byeon'gyeonghanikka
+change	contrast		contrast		변경하지만	byeon'gyeonghajiman	변경하는데	byeon'gyeonghaneunde	변경하더니	byeon'gyeonghadeoni		
+change	conjunction		conjunction		변경하고	byeon'gyeonghago						
+change	condition		condition		변경하면	byeon'gyeonghamyeon	변경해야, 변경하여야	byeon'gyeonghaeya, byeon'gyeonghayeoya				
+change	motive		motive		변경하려고	byeon'gyeongharyeogo						
+change	noun and determiner forms											
+change	verbal nouns		verbal nouns		변경함	byeon'gyeongham	변경하기	byeon'gyeonghagi				
+change	past-tense verbal nouns		past-tense verbal nouns		변경했음, 변경하였음	byeon'gyeonghaesseum, byeon'gyeonghayeosseum	변경했기, 변경하였기	byeon'gyeonghaetgi, byeon'gyeonghayeotgi				
+change	determiners		past		변경한	byeon'gyeonghan						
+change	determiners		present		변경하는	byeon'gyeonghaneun						
+change	determiners		future		변경할	byeon'gyeonghal						
+crawl	sentence-final forms											
+crawl					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+crawl	indicative		non-past		기어간다	gieoganda	기어가	gieoga	기어가요	gieogayo	기어갑니다	gieogamnida
+crawl	indicative		past		기어갔다	gieogatda	기어갔어	gieogasseo	기어갔어요	gieogasseoyo	기어갔습니다	gieogatseumnida
+crawl	interrogative		non-past		기어가느냐	gieoganeunya	기어가	gieoga	기어가요	gieogayo	기어갑니까	gieogamnikka
+crawl	interrogative		past		기어갔느냐	gieoganneunya	기어갔어	gieogasseo	기어갔어요	gieogasseoyo	기어갔습니까	gieogatseumnikka
+crawl	hortative		hortative		기어가자	gieogaja	기어가	gieoga	기어가요	gieogayo	기어가십시다	gieogasipsida
+crawl	imperative		imperative		기어가거라, 기어가라	gieogageora, gieogara	기어가	gieoga	기어가요	gieogayo	기어갑시오	gieogapsio
+crawl	assertive		assertive		기어가겠다	gieogagetda	기어가겠어	gieogagesseo	기어가겠어요	gieogagesseoyo	기어가겠습니다	gieogagetseumnida
+crawl	connective forms											
+crawl	cause/reason		cause/reason		기어가	gieoga	기어가서	gieogaseo	기어가니	gieogani	기어가니까	gieoganikka
+crawl	contrast		contrast		기어가지만	gieogajiman	기어가는데	gieoganeunde	기어가더니	gieogadeoni		
+crawl	conjunction		conjunction		기어가고	gieogago						
+crawl	condition		condition		기어가면	gieogamyeon	기어가야	gieogaya				
+crawl	motive		motive		기어가려고	gieogaryeogo						
+crawl	noun and determiner forms											
+crawl	verbal nouns		verbal nouns		기어감	gieogam	기어가기	gieogagi				
+crawl	past-tense verbal nouns		past-tense verbal nouns		기어갔음	gieogasseum	기어갔기	gieogatgi				
+crawl	determiners		past		기어간	gieogan						
+crawl	determiners		present		기어가는	gieoganeun						
+crawl	determiners		future		기어갈	gieogal						
+crawl	sentence-final forms											
+crawl					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+crawl	indicative		non-past		긴다	ginda	겨	gyeo	겨요, 기어요	gyeoyo, gieoyo	깁니다	gimnida
+crawl	indicative		past		겼다	gyeotda	겼어	gyeosseo	겼어요	gyeosseoyo	겼습니다	gyeotseumnida
+crawl	interrogative		non-past		기느냐	gineunya	겨	gyeo	겨요, 기어요	gyeoyo, gieoyo	깁니까	gimnikka
+crawl	interrogative		past		겼느냐	gyeonneunya	겼어	gyeosseo	겼어요	gyeosseoyo	겼습니까	gyeotseumnikka
+crawl	hortative		hortative		기자	gija	겨	gyeo	겨요, 기어요	gyeoyo, gieoyo	기십시다	gisipsida
+crawl	imperative		imperative		겨라, 기어라	gyeora, gieora	겨	gyeo	겨요, 기어요	gyeoyo, gieoyo	깁시오	gipsio
+crawl	assertive		assertive		기겠다	gigetda	기겠어	gigesseo	기겠어요	gigesseoyo	기겠습니다	gigetseumnida
+crawl	connective forms											
+crawl	cause/reason		cause/reason		겨	gyeo	겨서, 기어서	gyeoseo, gieoseo	기니	gini	기니까	ginikka
+crawl	contrast		contrast		기지만	gijiman	기는데	gineunde	기더니	gideoni		
+crawl	conjunction		conjunction		기고	gigo						
+crawl	condition		condition		기면	gimyeon	겨야, 기어야	gyeoya, gieoya				
+crawl	motive		motive		기려고	giryeogo						
+crawl	noun and determiner forms											
+crawl	verbal nouns		verbal nouns		김	gim	기기	gigi				
+crawl	past-tense verbal nouns		past-tense verbal nouns		겼음, 기었음	gyeosseum, gieosseum	겼기, 기었기	gyeotgi, gieotgi				
+crawl	determiners		past		긴	gin						
+crawl	determiners		present		기는	gineun						
+crawl	determiners		future		길	gil						
+crawl	sentence-final forms											
+crawl					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+crawl	indicative		non-past		긴다	ginda	겨	gyeo	겨요, 기어요	gyeoyo, gieoyo	깁니다	gimnida
+crawl	indicative		past		겼다	gyeotda	겼어	gyeosseo	겼어요	gyeosseoyo	겼습니다	gyeotseumnida
+crawl	interrogative		non-past		기느냐	gineunya	겨	gyeo	겨요, 기어요	gyeoyo, gieoyo	깁니까	gimnikka
+crawl	interrogative		past		겼느냐	gyeonneunya	겼어	gyeosseo	겼어요	gyeosseoyo	겼습니까	gyeotseumnikka
+crawl	hortative		hortative		기자	gija	겨	gyeo	겨요, 기어요	gyeoyo, gieoyo	기십시다	gisipsida
+crawl	imperative		imperative		겨라, 기어라	gyeora, gieora	겨	gyeo	겨요, 기어요	gyeoyo, gieoyo	깁시오	gipsio
+crawl	assertive		assertive		기겠다	gigetda	기겠어	gigesseo	기겠어요	gigesseoyo	기겠습니다	gigetseumnida
+crawl	connective forms											
+crawl	cause/reason		cause/reason		겨	gyeo	겨서, 기어서	gyeoseo, gieoseo	기니	gini	기니까	ginikka
+crawl	contrast		contrast		기지만	gijiman	기는데	gineunde	기더니	gideoni		
+crawl	conjunction		conjunction		기고	gigo						
+crawl	condition		condition		기면	gimyeon	겨야, 기어야	gyeoya, gieoya				
+crawl	motive		motive		기려고	giryeogo						
+crawl	noun and determiner forms											
+crawl	verbal nouns		verbal nouns		김	gim	기기	gigi				
+crawl	past-tense verbal nouns		past-tense verbal nouns		겼음, 기었음	gyeosseum, gieosseum	겼기, 기었기	gyeotgi, gieotgi				
+crawl	determiners		past		긴	gin						
+crawl	determiners		present		기는	gineun						
+crawl	determiners		future		길	gil						
+climb	sentence-final forms											
+climb					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+climb	indicative		non-past		오른다	oreunda	올라	olla	올라요	ollayo	오릅니다	oreumnida
+climb	indicative		past		올랐다	ollatda	올랐어	ollasseo	올랐어요	ollasseoyo	올랐습니다	ollatseumnida
+climb	interrogative		non-past		오르느냐	oreuneunya	올라	olla	올라요	ollayo	오릅니까	oreumnikka
+climb	interrogative		past		올랐느냐	ollanneunya	올랐어	ollasseo	올랐어요	ollasseoyo	올랐습니까	ollatseumnikka
+climb	hortative		hortative		오르자	oreuja	올라	olla	올라요	ollayo	오르십시다	oreusipsida
+climb	imperative		imperative		올라라	ollara	올라	olla	올라요	ollayo	오릅시오	oreupsio
+climb	assertive		assertive		오르겠다	oreugetda	오르겠어	oreugesseo	오르겠어요	oreugesseoyo	오르겠습니다	oreugetseumnida
+climb	connective forms											
+climb	cause/reason		cause/reason		올라	olla	올라서	ollaseo	오르니	oreuni	오르니까	oreunikka
+climb	contrast		contrast		오르지만	oreujiman	오르는데	oreuneunde	오르더니	oreudeoni		
+climb	conjunction		conjunction		오르고	oreugo						
+climb	condition		condition		오르면	oreumyeon	올라야	ollaya				
+climb	motive		motive		오르려고	oreuryeogo						
+climb	noun and determiner forms											
+climb	verbal nouns		verbal nouns		오름	oreum	오르기	oreugi				
+climb	past-tense verbal nouns		past-tense verbal nouns		올랐음	ollasseum	올랐기	ollatgi				
+climb	determiners		past		오른	oreun						
+climb	determiners		present		오르는	oreuneun						
+climb	determiners		future		오를	oreul						
+climb	sentence-final forms											
+climb					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+climb	indicative		non-past		오른다	oreunda	올라	olla	올라요	ollayo	오릅니다	oreumnida
+climb	indicative		past		올랐다	ollatda	올랐어	ollasseo	올랐어요	ollasseoyo	올랐습니다	ollatseumnida
+climb	interrogative		non-past		오르느냐	oreuneunya	올라	olla	올라요	ollayo	오릅니까	oreumnikka
+climb	interrogative		past		올랐느냐	ollanneunya	올랐어	ollasseo	올랐어요	ollasseoyo	올랐습니까	ollatseumnikka
+climb	hortative		hortative		오르자	oreuja	올라	olla	올라요	ollayo	오르십시다	oreusipsida
+climb	imperative		imperative		올라라	ollara	올라	olla	올라요	ollayo	오릅시오	oreupsio
+climb	assertive		assertive		오르겠다	oreugetda	오르겠어	oreugesseo	오르겠어요	oreugesseoyo	오르겠습니다	oreugetseumnida
+climb	connective forms											
+climb	cause/reason		cause/reason		올라	olla	올라서	ollaseo	오르니	oreuni	오르니까	oreunikka
+climb	contrast		contrast		오르지만	oreujiman	오르는데	oreuneunde	오르더니	oreudeoni		
+climb	conjunction		conjunction		오르고	oreugo						
+climb	condition		condition		오르면	oreumyeon	올라야	ollaya				
+climb	motive		motive		오르려고	oreuryeogo						
+climb	noun and determiner forms											
+climb	verbal nouns		verbal nouns		오름	oreum	오르기	oreugi				
+climb	past-tense verbal nouns		past-tense verbal nouns		올랐음	ollasseum	올랐기	ollatgi				
+climb	determiners		past		오른	oreun						
+climb	determiners		present		오르는	oreuneun						
+climb	determiners		future		오를	oreul						
+lead	sentence-final forms											
+lead					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+lead	indicative		non-past		이끈다	ikkeunda	이끌어	ikkeureo	이끌어요	ikkeureoyo	이끕니다	ikkeumnida
+lead	indicative		past		이끌었다	ikkeureotda	이끌었어	ikkeureosseo	이끌었어요	ikkeureosseoyo	이끌었습니다	ikkeureotseumnida
+lead	interrogative		non-past		이끄느냐	ikkeuneunya	이끌어	ikkeureo	이끌어요	ikkeureoyo	이끕니까	ikkeumnikka
+lead	interrogative		past		이끌었느냐	ikkeureonneunya	이끌었어	ikkeureosseo	이끌었어요	ikkeureosseoyo	이끌었습니까	ikkeureotseumnikka
+lead	hortative		hortative		이끌자	ikkeulja	이끌어	ikkeureo	이끌어요	ikkeureoyo	이끄십시다	ikkeusipsida
+lead	imperative		imperative		이끌어라	ikkeureora	이끌어	ikkeureo	이끌어요	ikkeureoyo	이끕시오	ikkeupsio
+lead	assertive		assertive		이끌겠다	ikkeulgetda	이끌겠어	ikkeulgesseo	이끌겠어요	ikkeulgesseoyo	이끌겠습니다	ikkeulgetseumnida
+lead	connective forms											
+lead	cause/reason		cause/reason		이끌어	ikkeureo	이끌어서	ikkeureoseo	이끄니	ikkeuni	이끄니까	ikkeunikka
+lead	contrast		contrast		이끌지만	ikkeuljiman	이끄는데	ikkeuneunde	이끌더니	ikkeuldeoni		
+lead	conjunction		conjunction		이끌고	ikkeulgo						
+lead	condition		condition		이끌면	ikkeulmyeon	이끌어야	ikkeureoya				
+lead	motive		motive		이끌려고	ikkeullyeogo						
+lead	noun and determiner forms											
+lead	verbal nouns		verbal nouns		이끎	ikkeum	이끌기	ikkeulgi				
+lead	past-tense verbal nouns		past-tense verbal nouns		이끌었음	ikkeureosseum	이끌었기	ikkeureotgi				
+lead	determiners		past		이끈	ikkeun						
+lead	determiners		present		이끄는	ikkeuneun						
+lead	determiners		future		이끌	ikkeul						
+eat	sentence-final forms											
+eat					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+eat	indicative		non-past		먹는다	meongneunda	먹어	meogeo	먹어요	meogeoyo	먹습니다	meokseumnida
+eat	indicative		past		먹었다	meogeotda	먹었어	meogeosseo	먹었어요	meogeosseoyo	먹었습니다	meogeotseumnida
+eat	interrogative		non-past		먹느냐	meongneunya	먹어	meogeo	먹어요	meogeoyo	먹습니까	meokseumnikka
+eat	interrogative		past		먹었느냐	meogeonneunya	먹었어	meogeosseo	먹었어요	meogeosseoyo	먹었습니까	meogeotseumnikka
+eat	hortative		hortative		먹자	meokja	먹어	meogeo	먹어요	meogeoyo	먹으십시다	meogeusipsida
+eat	imperative		imperative		먹어라	meogeora	먹어	meogeo	먹어요	meogeoyo	먹읍시오	meogeupsio
+eat	assertive		assertive		먹겠다	meokgetda	먹겠어	meokgesseo	먹겠어요	meokgesseoyo	먹겠습니다	meokgetseumnida
+eat	connective forms											
+eat	cause/reason		cause/reason		먹어	meogeo	먹어서	meogeoseo	먹으니	meogeuni	먹으니까	meogeunikka
+eat	contrast		contrast		먹지만	meokjiman	먹는데	meongneunde	먹더니	meokdeoni		
+eat	conjunction		conjunction		먹고	meokgo						
+eat	condition		condition		먹으면	meogeumyeon	먹어야	meogeoya				
+eat	motive		motive		먹으려고	meogeuryeogo						
+eat	noun and determiner forms											
+eat	verbal nouns		verbal nouns		먹음	meogeum	먹기	meokgi				
+eat	past-tense verbal nouns		past-tense verbal nouns		먹었음	meogeosseum	먹었기	meogeotgi				
+eat	determiners		past		먹은	meogeun						
+eat	determiners		present		먹는	meongneun						
+eat	determiners		future		먹을	meogeul						
+eat	sentence-final forms											
+eat					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+eat	indicative		non-past		드신다	deusinda	드셔	deusyeo	드세요, 드셔요	deuseyo, deusyeoyo	드십니다	deusimnida
+eat	indicative		past		드셨다	deusyeotda	드셨어	deusyeosseo	드셨어요	deusyeosseoyo	드셨습니다	deusyeotseumnida
+eat	interrogative		non-past		드시느냐	deusineunya	드셔	deusyeo	드세요, 드셔요	deuseyo, deusyeoyo	드십니까	deusimnikka
+eat	interrogative		past		드셨느냐	deusyeonneunya	드셨어	deusyeosseo	드셨어요	deusyeosseoyo	드셨습니까	deusyeotseumnikka
+eat	imperative		imperative						드세요, 드셔요	deuseyo, deusyeoyo	드십시오	deusipsio
+eat	assertive		assertive		드시겠다	deusigetda	드시겠어	deusigesseo	드시겠어요	deusigesseoyo	드시겠습니다	deusigetseumnida
+eat	connective forms											
+eat	cause/reason		cause/reason		드셔	deusyeo	드셔서	deusyeoseo	드시니	deusini	드시니까	deusinikka
+eat	contrast		contrast		드시지만	deusijiman	드시는데	deusineunde	드시더니	deusideoni		
+eat	conjunction		conjunction		드시고	deusigo						
+eat	condition		condition		드시면	deusimyeon	드셔야	deusyeoya				
+eat	motive		motive		드시려고	deusiryeogo						
+eat	noun and determiner forms											
+eat	verbal nouns		verbal nouns		드심	deusim	드시기	deusigi				
+eat	past-tense verbal nouns		past-tense verbal nouns		드셨음	deusyeosseum	드셨기	deusyeotgi				
+eat	determiners		past		드신	deusin						
+eat	determiners		present		드시는	deusineun						
+eat	determiners		future		드실	deusil						
+eat	sentence-final forms											
+eat					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+eat	indicative		non-past		잡수신다	japsusinda	잡수셔	japsusyeo	잡수세요, 잡수셔요	japsuseyo, japsusyeoyo	잡수십니다	japsusimnida
+eat	indicative		past		잡수셨다	japsusyeotda	잡수셨어	japsusyeosseo	잡수셨어요	japsusyeosseoyo	잡수셨습니다	japsusyeotseumnida
+eat	interrogative		non-past		잡수시느냐	japsusineunya	잡수셔	japsusyeo	잡수세요, 잡수셔요	japsuseyo, japsusyeoyo	잡수십니까	japsusimnikka
+eat	interrogative		past		잡수셨느냐	japsusyeonneunya	잡수셨어	japsusyeosseo	잡수셨어요	japsusyeosseoyo	잡수셨습니까	japsusyeotseumnikka
+eat	imperative		imperative						잡수세요, 잡수셔요	japsuseyo, japsusyeoyo	잡수십시오	japsusipsio
+eat	assertive		assertive		잡수시겠다	japsusigetda	잡수시겠어	japsusigesseo	잡수시겠어요	japsusigesseoyo	잡수시겠습니다	japsusigetseumnida
+eat	connective forms											
+eat	cause/reason		cause/reason		잡수셔	japsusyeo	잡수셔서	japsusyeoseo	잡수시니	japsusini	잡수시니까	japsusinikka
+eat	contrast		contrast		잡수시지만	japsusijiman	잡수시는데	japsusineunde	잡수시더니	japsusideoni		
+eat	conjunction		conjunction		잡수시고	japsusigo						
+eat	condition		condition		잡수시면	japsusimyeon	잡수셔야	japsusyeoya				
+eat	motive		motive		잡수시려고	japsusiryeogo						
+eat	noun and determiner forms											
+eat	verbal nouns		verbal nouns		잡수심	japsusim	잡수시기	japsusigi				
+eat	past-tense verbal nouns		past-tense verbal nouns		잡수셨음	japsusyeosseum	잡수셨기	japsusyeotgi				
+eat	determiners		past		잡수신	japsusin						
+eat	determiners		present		잡수시는	japsusineun						
+eat	determiners		future		잡수실	japsusil						
+eat	sentence-final forms											
+eat					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+eat	indicative		non-past		섭취한다	seopchwihanda	섭취해	seopchwihae	섭취해요	seopchwihaeyo	섭취합니다	seopchwihamnida
+eat	indicative		past		섭취했다	seopchwihaetda	섭취했어	seopchwihaesseo	섭취했어요	seopchwihaesseoyo	섭취했습니다	seopchwihaetseumnida
+eat	interrogative		non-past		섭취하느냐	seopchwihaneunya	섭취해	seopchwihae	섭취해요	seopchwihaeyo	섭취합니까	seopchwihamnikka
+eat	interrogative		past		섭취했느냐	seopchwihaenneunya	섭취했어	seopchwihaesseo	섭취했어요	seopchwihaesseoyo	섭취했습니까	seopchwihaetseumnikka
+eat	hortative		hortative		섭취하자	seopchwihaja	섭취해	seopchwihae	섭취해요	seopchwihaeyo	섭취하십시다	seopchwihasipsida
+eat	imperative		imperative		섭취해라, 섭취하여라	seopchwihaera, seopchwihayeora	섭취해	seopchwihae	섭취해요	seopchwihaeyo	섭취합시오	seopchwihapsio
+eat	assertive		assertive		섭취하겠다	seopchwihagetda	섭취하겠어	seopchwihagesseo	섭취하겠어요	seopchwihagesseoyo	섭취하겠습니다	seopchwihagetseumnida
+eat	connective forms											
+eat	cause/reason		cause/reason		섭취해	seopchwihae	섭취해서, 섭취하여서	seopchwihaeseo, seopchwihayeoseo	섭취하니	seopchwihani	섭취하니까	seopchwihanikka
+eat	contrast		contrast		섭취하지만	seopchwihajiman	섭취하는데	seopchwihaneunde	섭취하더니	seopchwihadeoni		
+eat	conjunction		conjunction		섭취하고	seopchwihago						
+eat	condition		condition		섭취하면	seopchwihamyeon	섭취해야, 섭취하여야	seopchwihaeya, seopchwihayeoya				
+eat	motive		motive		섭취하려고	seopchwiharyeogo						
+eat	noun and determiner forms											
+eat	verbal nouns		verbal nouns		섭취함	seopchwiham	섭취하기	seopchwihagi				
+eat	past-tense verbal nouns		past-tense verbal nouns		섭취했음, 섭취하였음	seopchwihaesseum, seopchwihayeosseum	섭취했기, 섭취하였기	seopchwihaetgi, seopchwihayeotgi				
+eat	determiners		past		섭취한	seopchwihan						
+eat	determiners		present		섭취하는	seopchwihaneun						
+eat	determiners		future		섭취할	seopchwihal						
+endure	sentence-final forms											
+endure					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+endure	indicative		non-past		견딘다	gyeondinda	견뎌	gyeondyeo	견뎌요, 견디어요	gyeondyeoyo, gyeondieoyo	견딥니다	gyeondimnida
+endure	indicative		past		견뎠다	gyeondyeotda	견뎠어	gyeondyeosseo	견뎠어요	gyeondyeosseoyo	견뎠습니다	gyeondyeotseumnida
+endure	interrogative		non-past		견디느냐	gyeondineunya	견뎌	gyeondyeo	견뎌요, 견디어요	gyeondyeoyo, gyeondieoyo	견딥니까	gyeondimnikka
+endure	interrogative		past		견뎠느냐	gyeondyeonneunya	견뎠어	gyeondyeosseo	견뎠어요	gyeondyeosseoyo	견뎠습니까	gyeondyeotseumnikka
+endure	hortative		hortative		견디자	gyeondija	견뎌	gyeondyeo	견뎌요, 견디어요	gyeondyeoyo, gyeondieoyo	견디십시다	gyeondisipsida
+endure	imperative		imperative		견뎌라, 견디어라	gyeondyeora, gyeondieora	견뎌	gyeondyeo	견뎌요, 견디어요	gyeondyeoyo, gyeondieoyo	견딥시오	gyeondipsio
+endure	assertive		assertive		견디겠다	gyeondigetda	견디겠어	gyeondigesseo	견디겠어요	gyeondigesseoyo	견디겠습니다	gyeondigetseumnida
+endure	connective forms											
+endure	cause/reason		cause/reason		견뎌	gyeondyeo	견뎌서, 견디어서	gyeondyeoseo, gyeondieoseo	견디니	gyeondini	견디니까	gyeondinikka
+endure	contrast		contrast		견디지만	gyeondijiman	견디는데	gyeondineunde	견디더니	gyeondideoni		
+endure	conjunction		conjunction		견디고	gyeondigo						
+endure	condition		condition		견디면	gyeondimyeon	견뎌야, 견디어야	gyeondyeoya, gyeondieoya				
+endure	motive		motive		견디려고	gyeondiryeogo						
+endure	noun and determiner forms											
+endure	verbal nouns		verbal nouns		견딤	gyeondim	견디기	gyeondigi				
+endure	past-tense verbal nouns		past-tense verbal nouns		견뎠음, 견디었음	gyeondyeosseum, gyeondieosseum	견뎠기, 견디었기	gyeondyeotgi, gyeondieotgi				
+endure	determiners		past		견딘	gyeondin						
+endure	determiners		present		견디는	gyeondineun						
+endure	determiners		future		견딜	gyeondil						
+endure	sentence-final forms											
+endure					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+endure	indicative		non-past		참는다	chamneunda	참아	chama	참아요	chamayo	참습니다	chamseumnida
+endure	indicative		past		참았다	chamatda	참았어	chamasseo	참았어요	chamasseoyo	참았습니다	chamatseumnida
+endure	interrogative		non-past		참느냐	chamneunya	참아	chama	참아요	chamayo	참습니까	chamseumnikka
+endure	interrogative		past		참았느냐	chamanneunya	참았어	chamasseo	참았어요	chamasseoyo	참았습니까	chamatseumnikka
+endure	hortative		hortative		참자	chamja	참아	chama	참아요	chamayo	참으십시다	chameusipsida
+endure	imperative		imperative		참아라	chamara	참아	chama	참아요	chamayo	참읍시오	chameupsio
+endure	assertive		assertive		참겠다	chamgetda	참겠어	chamgesseo	참겠어요	chamgesseoyo	참겠습니다	chamgetseumnida
+endure	connective forms											
+endure	cause/reason		cause/reason		참아	chama	참아서	chamaseo	참으니	chameuni	참으니까	chameunikka
+endure	contrast		contrast		참지만	chamjiman	참는데	chamneunde	참더니	chamdeoni		
+endure	conjunction		conjunction		참고	chamgo						
+endure	condition		condition		참으면	chameumyeon	참아야	chamaya				
+endure	motive		motive		참으려고	chameuryeogo						
+endure	noun and determiner forms											
+endure	verbal nouns		verbal nouns		참음	chameum	참기	chamgi				
+endure	past-tense verbal nouns		past-tense verbal nouns		참았음	chamasseum	참았기	chamatgi				
+endure	determiners		past		참은	chameun						
+endure	determiners		present		참는	chamneun						
+endure	determiners		future		참을	chameul						
+fall	sentence-final forms											
+fall					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fall	indicative		non-past		넘어진다	neomeojinda	넘어져	neomeojeo	넘어져요, 넘어지어요	neomeojeoyo, neomeojieoyo	넘어집니다	neomeojimnida
+fall	indicative		past		넘어졌다	neomeojeotda	넘어졌어	neomeojeosseo	넘어졌어요	neomeojeosseoyo	넘어졌습니다	neomeojeotseumnida
+fall	interrogative		non-past		넘어지느냐	neomeojineunya	넘어져	neomeojeo	넘어져요, 넘어지어요	neomeojeoyo, neomeojieoyo	넘어집니까	neomeojimnikka
+fall	interrogative		past		넘어졌느냐	neomeojeonneunya	넘어졌어	neomeojeosseo	넘어졌어요	neomeojeosseoyo	넘어졌습니까	neomeojeotseumnikka
+fall	hortative		hortative		넘어지자	neomeojija	넘어져	neomeojeo	넘어져요, 넘어지어요	neomeojeoyo, neomeojieoyo	넘어지십시다	neomeojisipsida
+fall	imperative		imperative		넘어져라, 넘어지어라	neomeojeora, neomeojieora	넘어져	neomeojeo	넘어져요, 넘어지어요	neomeojeoyo, neomeojieoyo	넘어집시오	neomeojipsio
+fall	assertive		assertive		넘어지겠다	neomeojigetda	넘어지겠어	neomeojigesseo	넘어지겠어요	neomeojigesseoyo	넘어지겠습니다	neomeojigetseumnida
+fall	connective forms											
+fall	cause/reason		cause/reason		넘어져	neomeojeo	넘어져서, 넘어지어서	neomeojeoseo, neomeojieoseo	넘어지니	neomeojini	넘어지니까	neomeojinikka
+fall	contrast		contrast		넘어지지만	neomeojijiman	넘어지는데	neomeojineunde	넘어지더니	neomeojideoni		
+fall	conjunction		conjunction		넘어지고	neomeojigo						
+fall	condition		condition		넘어지면	neomeojimyeon	넘어져야, 넘어지어야	neomeojeoya, neomeojieoya				
+fall	motive		motive		넘어지려고	neomeojiryeogo						
+fall	noun and determiner forms											
+fall	verbal nouns		verbal nouns		넘어짐	neomeojim	넘어지기	neomeojigi				
+fall	past-tense verbal nouns		past-tense verbal nouns		넘어졌음, 넘어지었음	neomeojeosseum, neomeojieosseum	넘어졌기, 넘어지었기	neomeojeotgi, neomeojieotgi				
+fall	determiners		past		넘어진	neomeojin						
+fall	determiners		present		넘어지는	neomeojineun						
+fall	determiners		future		넘어질	neomeojil						
+fall	sentence-final forms											
+fall					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fall	indicative		non-past		쓰러진다	sseureojinda	쓰러져	sseureojeo	쓰러져요, 쓰러지어요	sseureojeoyo, sseureojieoyo	쓰러집니다	sseureojimnida
+fall	indicative		past		쓰러졌다	sseureojeotda	쓰러졌어	sseureojeosseo	쓰러졌어요	sseureojeosseoyo	쓰러졌습니다	sseureojeotseumnida
+fall	interrogative		non-past		쓰러지느냐	sseureojineunya	쓰러져	sseureojeo	쓰러져요, 쓰러지어요	sseureojeoyo, sseureojieoyo	쓰러집니까	sseureojimnikka
+fall	interrogative		past		쓰러졌느냐	sseureojeonneunya	쓰러졌어	sseureojeosseo	쓰러졌어요	sseureojeosseoyo	쓰러졌습니까	sseureojeotseumnikka
+fall	hortative		hortative		쓰러지자	sseureojija	쓰러져	sseureojeo	쓰러져요, 쓰러지어요	sseureojeoyo, sseureojieoyo	쓰러지십시다	sseureojisipsida
+fall	imperative		imperative		쓰러져라, 쓰러지어라	sseureojeora, sseureojieora	쓰러져	sseureojeo	쓰러져요, 쓰러지어요	sseureojeoyo, sseureojieoyo	쓰러집시오	sseureojipsio
+fall	assertive		assertive		쓰러지겠다	sseureojigetda	쓰러지겠어	sseureojigesseo	쓰러지겠어요	sseureojigesseoyo	쓰러지겠습니다	sseureojigetseumnida
+fall	connective forms											
+fall	cause/reason		cause/reason		쓰러져	sseureojeo	쓰러져서, 쓰러지어서	sseureojeoseo, sseureojieoseo	쓰러지니	sseureojini	쓰러지니까	sseureojinikka
+fall	contrast		contrast		쓰러지지만	sseureojijiman	쓰러지는데	sseureojineunde	쓰러지더니	sseureojideoni		
+fall	conjunction		conjunction		쓰러지고	sseureojigo						
+fall	condition		condition		쓰러지면	sseureojimyeon	쓰러져야, 쓰러지어야	sseureojeoya, sseureojieoya				
+fall	motive		motive		쓰러지려고	sseureojiryeogo						
+fall	noun and determiner forms											
+fall	verbal nouns		verbal nouns		쓰러짐	sseureojim	쓰러지기	sseureojigi				
+fall	past-tense verbal nouns		past-tense verbal nouns		쓰러졌음, 쓰러지었음	sseureojeosseum, sseureojieosseum	쓰러졌기, 쓰러지었기	sseureojeotgi, sseureojieotgi				
+fall	determiners		past		쓰러진	sseureojin						
+fall	determiners		present		쓰러지는	sseureojineun						
+fall	determiners		future		쓰러질	sseureojil						
+fall	sentence-final forms											
+fall					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fall	indicative		non-past		떨어진다	tteoreojinda	떨어져	tteoreojeo	떨어져요, 떨어지어요	tteoreojeoyo, tteoreojieoyo	떨어집니다	tteoreojimnida
+fall	indicative		past		떨어졌다	tteoreojeotda	떨어졌어	tteoreojeosseo	떨어졌어요	tteoreojeosseoyo	떨어졌습니다	tteoreojeotseumnida
+fall	interrogative		non-past		떨어지느냐	tteoreojineunya	떨어져	tteoreojeo	떨어져요, 떨어지어요	tteoreojeoyo, tteoreojieoyo	떨어집니까	tteoreojimnikka
+fall	interrogative		past		떨어졌느냐	tteoreojeonneunya	떨어졌어	tteoreojeosseo	떨어졌어요	tteoreojeosseoyo	떨어졌습니까	tteoreojeotseumnikka
+fall	hortative		hortative		떨어지자	tteoreojija	떨어져	tteoreojeo	떨어져요, 떨어지어요	tteoreojeoyo, tteoreojieoyo	떨어지십시다	tteoreojisipsida
+fall	imperative		imperative		떨어져라, 떨어지어라	tteoreojeora, tteoreojieora	떨어져	tteoreojeo	떨어져요, 떨어지어요	tteoreojeoyo, tteoreojieoyo	떨어집시오	tteoreojipsio
+fall	assertive		assertive		떨어지겠다	tteoreojigetda	떨어지겠어	tteoreojigesseo	떨어지겠어요	tteoreojigesseoyo	떨어지겠습니다	tteoreojigetseumnida
+fall	connective forms											
+fall	cause/reason		cause/reason		떨어져	tteoreojeo	떨어져서, 떨어지어서	tteoreojeoseo, tteoreojieoseo	떨어지니	tteoreojini	떨어지니까	tteoreojinikka
+fall	contrast		contrast		떨어지지만	tteoreojijiman	떨어지는데	tteoreojineunde	떨어지더니	tteoreojideoni		
+fall	conjunction		conjunction		떨어지고	tteoreojigo						
+fall	condition		condition		떨어지면	tteoreojimyeon	떨어져야, 떨어지어야	tteoreojeoya, tteoreojieoya				
+fall	motive		motive		떨어지려고	tteoreojiryeogo						
+fall	noun and determiner forms											
+fall	verbal nouns		verbal nouns		떨어짐	tteoreojim	떨어지기	tteoreojigi				
+fall	past-tense verbal nouns		past-tense verbal nouns		떨어졌음, 떨어지었음	tteoreojeosseum, tteoreojieosseum	떨어졌기, 떨어지었기	tteoreojeotgi, tteoreojieotgi				
+fall	determiners		past		떨어진	tteoreojin						
+fall	determiners		present		떨어지는	tteoreojineun						
+fall	determiners		future		떨어질	tteoreojil						
+fall	sentence-final forms											
+fall					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fall	indicative		non-past		하락한다	harakhanda	하락해	harakhae	하락해요	harakhaeyo	하락합니다	harakhamnida
+fall	indicative		past		하락했다	harakhaetda	하락했어	harakhaesseo	하락했어요	harakhaesseoyo	하락했습니다	harakhaetseumnida
+fall	interrogative		non-past		하락하느냐	harakhaneunya	하락해	harakhae	하락해요	harakhaeyo	하락합니까	harakhamnikka
+fall	interrogative		past		하락했느냐	harakhaenneunya	하락했어	harakhaesseo	하락했어요	harakhaesseoyo	하락했습니까	harakhaetseumnikka
+fall	hortative		hortative		하락하자	harakhaja	하락해	harakhae	하락해요	harakhaeyo	하락하십시다	harakhasipsida
+fall	imperative		imperative		하락해라, 하락하여라	harakhaera, harakhayeora	하락해	harakhae	하락해요	harakhaeyo	하락합시오	harakhapsio
+fall	assertive		assertive		하락하겠다	harakhagetda	하락하겠어	harakhagesseo	하락하겠어요	harakhagesseoyo	하락하겠습니다	harakhagetseumnida
+fall	connective forms											
+fall	cause/reason		cause/reason		하락해	harakhae	하락해서, 하락하여서	harakhaeseo, harakhayeoseo	하락하니	harakhani	하락하니까	harakhanikka
+fall	contrast		contrast		하락하지만	harakhajiman	하락하는데	harakhaneunde	하락하더니	harakhadeoni		
+fall	conjunction		conjunction		하락하고	harakhago						
+fall	condition		condition		하락하면	harakhamyeon	하락해야, 하락하여야	harakhaeya, harakhayeoya				
+fall	motive		motive		하락하려고	harakharyeogo						
+fall	noun and determiner forms											
+fall	verbal nouns		verbal nouns		하락함	harakham	하락하기	harakhagi				
+fall	past-tense verbal nouns		past-tense verbal nouns		하락했음, 하락하였음	harakhaesseum, harakhayeosseum	하락했기, 하락하였기	harakhaetgi, harakhayeotgi				
+fall	determiners		past		하락한	harakhan						
+fall	determiners		present		하락하는	harakhaneun						
+fall	determiners		future		하락할	harakhal						
+fall	sentence-final forms											
+fall					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fall	indicative		non-past		낙하한다	nakhahanda	낙하해	nakhahae	낙하해요	nakhahaeyo	낙하합니다	nakhahamnida
+fall	indicative		past		낙하했다	nakhahaetda	낙하했어	nakhahaesseo	낙하했어요	nakhahaesseoyo	낙하했습니다	nakhahaetseumnida
+fall	interrogative		non-past		낙하하느냐	nakhahaneunya	낙하해	nakhahae	낙하해요	nakhahaeyo	낙하합니까	nakhahamnikka
+fall	interrogative		past		낙하했느냐	nakhahaenneunya	낙하했어	nakhahaesseo	낙하했어요	nakhahaesseoyo	낙하했습니까	nakhahaetseumnikka
+fall	hortative		hortative		낙하하자	nakhahaja	낙하해	nakhahae	낙하해요	nakhahaeyo	낙하하십시다	nakhahasipsida
+fall	imperative		imperative		낙하해라, 낙하하여라	nakhahaera, nakhahayeora	낙하해	nakhahae	낙하해요	nakhahaeyo	낙하합시오	nakhahapsio
+fall	assertive		assertive		낙하하겠다	nakhahagetda	낙하하겠어	nakhahagesseo	낙하하겠어요	nakhahagesseoyo	낙하하겠습니다	nakhahagetseumnida
+fall	connective forms											
+fall	cause/reason		cause/reason		낙하해	nakhahae	낙하해서, 낙하하여서	nakhahaeseo, nakhahayeoseo	낙하하니	nakhahani	낙하하니까	nakhahanikka
+fall	contrast		contrast		낙하하지만	nakhahajiman	낙하하는데	nakhahaneunde	낙하하더니	nakhahadeoni		
+fall	conjunction		conjunction		낙하하고	nakhahago						
+fall	condition		condition		낙하하면	nakhahamyeon	낙하해야, 낙하하여야	nakhahaeya, nakhahayeoya				
+fall	motive		motive		낙하하려고	nakhaharyeogo						
+fall	noun and determiner forms											
+fall	verbal nouns		verbal nouns		낙하함	nakhaham	낙하하기	nakhahagi				
+fall	past-tense verbal nouns		past-tense verbal nouns		낙하했음, 낙하하였음	nakhahaesseum, nakhahayeosseum	낙하했기, 낙하하였기	nakhahaetgi, nakhahayeotgi				
+fall	determiners		past		낙하한	nakhahan						
+fall	determiners		present		낙하하는	nakhahaneun						
+fall	determiners		future		낙하할	nakhahal						
+fix	sentence-final forms											
+fix					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fix	indicative		non-past		고친다	gochinda	고쳐	gocheo	고쳐요, 고치어요	gocheoyo, gochieoyo	고칩니다	gochimnida
+fix	indicative		past		고쳤다	gocheotda	고쳤어	gocheosseo	고쳤어요	gocheosseoyo	고쳤습니다	gocheotseumnida
+fix	interrogative		non-past		고치느냐	gochineunya	고쳐	gocheo	고쳐요, 고치어요	gocheoyo, gochieoyo	고칩니까	gochimnikka
+fix	interrogative		past		고쳤느냐	gocheonneunya	고쳤어	gocheosseo	고쳤어요	gocheosseoyo	고쳤습니까	gocheotseumnikka
+fix	hortative		hortative		고치자	gochija	고쳐	gocheo	고쳐요, 고치어요	gocheoyo, gochieoyo	고치십시다	gochisipsida
+fix	imperative		imperative		고쳐라, 고치어라	gocheora, gochieora	고쳐	gocheo	고쳐요, 고치어요	gocheoyo, gochieoyo	고칩시오	gochipsio
+fix	assertive		assertive		고치겠다	gochigetda	고치겠어	gochigesseo	고치겠어요	gochigesseoyo	고치겠습니다	gochigetseumnida
+fix	connective forms											
+fix	cause/reason		cause/reason		고쳐	gocheo	고쳐서, 고치어서	gocheoseo, gochieoseo	고치니	gochini	고치니까	gochinikka
+fix	contrast		contrast		고치지만	gochijiman	고치는데	gochineunde	고치더니	gochideoni		
+fix	conjunction		conjunction		고치고	gochigo						
+fix	condition		condition		고치면	gochimyeon	고쳐야, 고치어야	gocheoya, gochieoya				
+fix	motive		motive		고치려고	gochiryeogo						
+fix	noun and determiner forms											
+fix	verbal nouns		verbal nouns		고침	gochim	고치기	gochigi				
+fix	past-tense verbal nouns		past-tense verbal nouns		고쳤음, 고치었음	gocheosseum, gochieosseum	고쳤기, 고치었기	gocheotgi, gochieotgi				
+fix	determiners		past		고친	gochin						
+fix	determiners		present		고치는	gochineun						
+fix	determiners		future		고칠	gochil						
+fix	sentence-final forms											
+fix					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fix	indicative		non-past		수리한다	surihanda	수리해	surihae	수리해요	surihaeyo	수리합니다	surihamnida
+fix	indicative		past		수리했다	surihaetda	수리했어	surihaesseo	수리했어요	surihaesseoyo	수리했습니다	surihaetseumnida
+fix	interrogative		non-past		수리하느냐	surihaneunya	수리해	surihae	수리해요	surihaeyo	수리합니까	surihamnikka
+fix	interrogative		past		수리했느냐	surihaenneunya	수리했어	surihaesseo	수리했어요	surihaesseoyo	수리했습니까	surihaetseumnikka
+fix	hortative		hortative		수리하자	surihaja	수리해	surihae	수리해요	surihaeyo	수리하십시다	surihasipsida
+fix	imperative		imperative		수리해라, 수리하여라	surihaera, surihayeora	수리해	surihae	수리해요	surihaeyo	수리합시오	surihapsio
+fix	assertive		assertive		수리하겠다	surihagetda	수리하겠어	surihagesseo	수리하겠어요	surihagesseoyo	수리하겠습니다	surihagetseumnida
+fix	connective forms											
+fix	cause/reason		cause/reason		수리해	surihae	수리해서, 수리하여서	surihaeseo, surihayeoseo	수리하니	surihani	수리하니까	surihanikka
+fix	contrast		contrast		수리하지만	surihajiman	수리하는데	surihaneunde	수리하더니	surihadeoni		
+fix	conjunction		conjunction		수리하고	surihago						
+fix	condition		condition		수리하면	surihamyeon	수리해야, 수리하여야	surihaeya, surihayeoya				
+fix	motive		motive		수리하려고	suriharyeogo						
+fix	noun and determiner forms											
+fix	verbal nouns		verbal nouns		수리함	suriham	수리하기	surihagi				
+fix	past-tense verbal nouns		past-tense verbal nouns		수리했음, 수리하였음	surihaesseum, surihayeosseum	수리했기, 수리하였기	surihaetgi, surihayeotgi				
+fix	determiners		past		수리한	surihan						
+fix	determiners		present		수리하는	surihaneun						
+fix	determiners		future		수리할	surihal						
+fix	sentence-final forms											
+fix					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fix	indicative		non-past		고친다	gochinda	고쳐	gocheo	고쳐요, 고치어요	gocheoyo, gochieoyo	고칩니다	gochimnida
+fix	indicative		past		고쳤다	gocheotda	고쳤어	gocheosseo	고쳤어요	gocheosseoyo	고쳤습니다	gocheotseumnida
+fix	interrogative		non-past		고치느냐	gochineunya	고쳐	gocheo	고쳐요, 고치어요	gocheoyo, gochieoyo	고칩니까	gochimnikka
+fix	interrogative		past		고쳤느냐	gocheonneunya	고쳤어	gocheosseo	고쳤어요	gocheosseoyo	고쳤습니까	gocheotseumnikka
+fix	hortative		hortative		고치자	gochija	고쳐	gocheo	고쳐요, 고치어요	gocheoyo, gochieoyo	고치십시다	gochisipsida
+fix	imperative		imperative		고쳐라, 고치어라	gocheora, gochieora	고쳐	gocheo	고쳐요, 고치어요	gocheoyo, gochieoyo	고칩시오	gochipsio
+fix	assertive		assertive		고치겠다	gochigetda	고치겠어	gochigesseo	고치겠어요	gochigesseoyo	고치겠습니다	gochigetseumnida
+fix	connective forms											
+fix	cause/reason		cause/reason		고쳐	gocheo	고쳐서, 고치어서	gocheoseo, gochieoseo	고치니	gochini	고치니까	gochinikka
+fix	contrast		contrast		고치지만	gochijiman	고치는데	gochineunde	고치더니	gochideoni		
+fix	conjunction		conjunction		고치고	gochigo						
+fix	condition		condition		고치면	gochimyeon	고쳐야, 고치어야	gocheoya, gochieoya				
+fix	motive		motive		고치려고	gochiryeogo						
+fix	noun and determiner forms											
+fix	verbal nouns		verbal nouns		고침	gochim	고치기	gochigi				
+fix	past-tense verbal nouns		past-tense verbal nouns		고쳤음, 고치었음	gocheosseum, gochieosseum	고쳤기, 고치었기	gocheotgi, gochieotgi				
+fix	determiners		past		고친	gochin						
+fix	determiners		present		고치는	gochineun						
+fix	determiners		future		고칠	gochil						
+fix	sentence-final forms											
+fix					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fix	indicative		non-past		수리한다	surihanda	수리해	surihae	수리해요	surihaeyo	수리합니다	surihamnida
+fix	indicative		past		수리했다	surihaetda	수리했어	surihaesseo	수리했어요	surihaesseoyo	수리했습니다	surihaetseumnida
+fix	interrogative		non-past		수리하느냐	surihaneunya	수리해	surihae	수리해요	surihaeyo	수리합니까	surihamnikka
+fix	interrogative		past		수리했느냐	surihaenneunya	수리했어	surihaesseo	수리했어요	surihaesseoyo	수리했습니까	surihaetseumnikka
+fix	hortative		hortative		수리하자	surihaja	수리해	surihae	수리해요	surihaeyo	수리하십시다	surihasipsida
+fix	imperative		imperative		수리해라, 수리하여라	surihaera, surihayeora	수리해	surihae	수리해요	surihaeyo	수리합시오	surihapsio
+fix	assertive		assertive		수리하겠다	surihagetda	수리하겠어	surihagesseo	수리하겠어요	surihagesseoyo	수리하겠습니다	surihagetseumnida
+fix	connective forms											
+fix	cause/reason		cause/reason		수리해	surihae	수리해서, 수리하여서	surihaeseo, surihayeoseo	수리하니	surihani	수리하니까	surihanikka
+fix	contrast		contrast		수리하지만	surihajiman	수리하는데	surihaneunde	수리하더니	surihadeoni		
+fix	conjunction		conjunction		수리하고	surihago						
+fix	condition		condition		수리하면	surihamyeon	수리해야, 수리하여야	surihaeya, surihayeoya				
+fix	motive		motive		수리하려고	suriharyeogo						
+fix	noun and determiner forms											
+fix	verbal nouns		verbal nouns		수리함	suriham	수리하기	surihagi				
+fix	past-tense verbal nouns		past-tense verbal nouns		수리했음, 수리하였음	surihaesseum, surihayeosseum	수리했기, 수리하였기	surihaetgi, surihayeotgi				
+fix	determiners		past		수리한	surihan						
+fix	determiners		present		수리하는	surihaneun						
+fix	determiners		future		수리할	surihal						
+fly	sentence-final forms											
+fly					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+fly	indicative		non-past		난다	nanda	날아	nara	날아요	narayo	납니다	namnida
+fly	indicative		past		날았다	naratda	날았어	narasseo	날았어요	narasseoyo	날았습니다	naratseumnida
+fly	interrogative		non-past		나느냐	naneunya	날아	nara	날아요	narayo	납니까	namnikka
+fly	interrogative		past		날았느냐	naranneunya	날았어	narasseo	날았어요	narasseoyo	날았습니까	naratseumnikka
+fly	hortative		hortative		날자	nalja	날아	nara	날아요	narayo	나십시다	nasipsida
+fly	imperative		imperative		날아라	narara	날아	nara	날아요	narayo	납시오	napsio
+fly	assertive		assertive		날겠다	nalgetda	날겠어	nalgesseo	날겠어요	nalgesseoyo	날겠습니다	nalgetseumnida
+fly	connective forms											
+fly	cause/reason		cause/reason		날아	nara	날아서	naraseo	나니	nani	나니까	nanikka
+fly	contrast		contrast		날지만	naljiman	나는데	naneunde	날더니	naldeoni		
+fly	conjunction		conjunction		날고	nalgo						
+fly	condition		condition		날면	nalmyeon	날아야	naraya				
+fly	motive		motive		날려고	nallyeogo						
+fly	noun and determiner forms											
+fly	verbal nouns		verbal nouns		낢	nam	날기	nalgi				
+fly	past-tense verbal nouns		past-tense verbal nouns		날았음	narasseum	날았기	naratgi				
+fly	determiners		past		난	nan						
+fly	determiners		present		나는	naneun						
+fly	determiners		future		날	nal						
+flow	sentence-final forms											
+flow					formal non-polite(해라체)		informal non-polite(해체)		informal polite(해요체)		formal polite(하십시오체)	
+flow	indicative		non-past		흐른다	heureunda	흘러	heulleo	흘러요	heulleoyo	흐릅니다	heureumnida
+flow	indicative		past		흘렀다	heulleotda	흘렀어	heulleosseo	흘렀어요	heulleosseoyo	흘렀습니다	heulleotseumnida
+flow	interrogative		non-past		흐르느냐	heureuneunya	흘러	heulleo	흘러요	heulleoyo	흐릅니까	heureumnikka
+flow	interrogative		past		흘렀느냐	heulleonneunya	흘렀어	heulleosseo	흘렀어요	heulleosseoyo	흘렀습니까	heulleotseumnikka
+flow	hortative		hortative		흐르자	heureuja	흘러	heulleo	흘러요	heulleoyo	흐르십시다	heureusipsida
+flow	imperative		imperative		흘러라	heulleora	흘러	heulleo	흘러요	heulleoyo	흐릅시오	heureupsio
+flow	assertive		assertive		흐르겠다	heureugetda	흐르겠어	heureugesseo	흐르겠어요	heureugesseoyo	흐르겠습니다	heureugetseumnida
+flow	connective forms											
+flow	cause/reason		cause/reason		흘러	heulleo	흘러서	heulleoseo	흐르니	heureuni	흐르니까	heureunikka
+flow	contrast		contrast		흐르지만	heureujiman	흐르는데	heureuneunde	흐르더니	heureudeoni		
+flow	conjunction		conjunction		흐르고	heureugo						
+flow	condition		condition		흐르면	heureumyeon	흘러야	heulleoya				
+flow	motive		motive		흐르려고	heureuryeogo						
+flow	noun and determiner forms											
+flow	verbal nouns		verbal nouns		흐름	heureum	흐르기	heureugi				
+flow	past-tense verbal nouns		past-tense verbal nouns		흘렀음	heulleosseum	흘렀기	heulleotgi				
+flow	determiners		past		흐른	heureun						
+flow	determiners		present		흐르는	heureuneun						
+flow	determiners		future		흐를	heureul						

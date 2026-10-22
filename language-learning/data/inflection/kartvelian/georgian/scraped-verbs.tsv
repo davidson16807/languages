@@ -1,0 +1,81 @@
+protect					imperfective		imperfective		imperfective		perfective		perfective		perfective	
+protect	verbal noun		verbal noun		ცვა ()	cva	ცვა ()	cva	ცვა ()	cva	დაცვა ()	dacva	დაცვა ()	dacva	დაცვა ()	dacva
+protect	person		person		singular		singular		singular		plural		plural		plural	
+protect	person		person		first		second		third		first		second		third	
+protect	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+protect	present subseries		present		ვიცავ ()	vicav	იცავ ()	icav	იცავს ()	icavs	ვიცავთ ()	vicavt	იცავთ ()	icavt	იცავენ ()	icaven
+protect	present subseries		imperfect		ვიცავდი ()	vicavdi	იცავდი ()	icavdi	იცავდა ()	icavda	ვიცავდით ()	vicavdit	იცავდით ()	icavdit	იცავდნენ ()	icavdnen
+protect	present subseries		present subjunctive		ვიცავდე ()	vicavde	იცავდე ()	icavde	იცავდეს ()	icavdes	ვიცავდეთ ()	vicavdet	იცავდეთ ()	icavdet	იცავდნენ ()	icavdnen
+protect	future subseries		future		დავიცავ ()	davicav	დაიცავ ()	daicav	დაიცავს ()	daicavs	დავიცავთ ()	davicavt	დაიცავთ ()	daicavt	დაიცავენ ()	daicaven
+protect	future subseries		conditional		დავიცავდი ()	davicavdi	დაიცავდი ()	daicavdi	დაიცავდა ()	daicavda	დავიცავდით ()	davicavdit	დაიცავდით ()	daicavdit	დაიცავდნენ ()	daicavdnen
+protect	future subseries		future subjunctive		დავიცავდე ()	davicavde	დაიცავდე ()	daicavde	დაიცავდეს ()	daicavdes	დავიცავდეთ ()	davicavdet	დაიცავდეთ ()	daicavdet	დაიცავდნენ ()	daicavdnen
+protect	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+protect	aorist series		aorist		დავიცავი ()	davicavi	დაიცავი ()	daicavi	დაიცვა ()	daicva	დავიცავით ()	davicavit	დაიცავით ()	daicavit	დაიცვეს ()	daicves
+protect	aorist series		optative		დავიცვა ()	davicva	დაიცვა ()	daicva	დაიცვას ()	daicvas	დავიცვათ ()	davicvat	დაიცვათ ()	daicvat	დაიცვან ()	daicvan
+protect	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+protect	perfect series		perfect		დამიცავს ()	damicavs	დაგიცავს ()	dagicavs	დაუცავს ()	daucavs	დაგვიცავს ()	dagvicavs	დაგიცავთ ()	dagicavt	დაუცავთ ()	daucavt
+protect	perfect series		pluperfect		დამეცვა ()	damecva	დაგეცვა ()	dagecva	დაეცვა ()	daecva	დაგვეცვა ()	dagvecva	დაგეცვათ ()	dagecvat	დაეცვათ ()	daecvat
+protect	perfect series		perfect subjunctive		დამეცვას ()	damecvas	დაგეცვას ()	dagecvas	დაეცვას ()	daecvas	დაგვეცვას ()	dagvecvas	დაგეცვათ ()	dagecvat	დაეცვათ ()	daecvat
+protect	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+protect	imperative		imperative		—		დაიცავი ()	daicavi	—		დავიცვათ ()	davicvat	დაიცავით ()	daicavit		
+protect	negative imperative		negative imperative		—		არ დაიცვა ()	ar daicva	—		ნუ დავიცავთ ()	nu davicavt	არ დაიცვათ ()	ar daicvat	—	
+hide					perfective		perfective		perfective		imperfective		imperfective		imperfective	
+hide	verbal noun		verbal noun		დამალვა ()	damalva	დამალვა ()	damalva	დამალვა ()	damalva	მალვა ()	malva	მალვა ()	malva	მალვა ()	malva
+hide	person		person		singular		singular		singular		plural		plural		plural	
+hide	person		person		first		second		third		first		second		third	
+hide	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+hide	present subseries		present		ვმალავ ()	vmalav	მალავ ()	malav	მალავს ()	malavs	ვმალავთ ()	vmalavt	მალავთ ()	malavt	მალავენ ()	malaven
+hide	present subseries		imperfect		ვმალავდი ()	vmalavdi	მალავდი ()	malavdi	მალავდა ()	malavda	ვმალავდით ()	vmalavdit	მალავდით ()	malavdit	მალავდნენ ()	malavdnen
+hide	present subseries		present subjunctive		ვმალავდე ()	vmalavde	მალავდე ()	malavde	მალავდეს ()	malavdes	ვმალავდეთ ()	vmalavdet	მალავდეთ ()	malavdet	მალავდნენ ()	malavdnen
+hide	future subseries		future		დავმალავ ()	davmalav	დამალავ ()	damalav	დამალავს ()	damalavs	დავმალავთ ()	davmalavt	დამალავთ ()	damalavt	დამალავენ ()	damalaven
+hide	future subseries		conditional		დავმალავდი ()	davmalavdi	დამალავდი ()	damalavdi	დამალავდა ()	damalavda	დავმალავდით ()	davmalavdit	დამალავდით ()	damalavdit	დამალავდნენ ()	damalavdnen
+hide	future subseries		future subjunctive		დავმალავდე ()	davmalavde	დამალავდე ()	damalavde	დამალავდეს ()	damalavdes	დავმალავდეთ ()	davmalavdet	დამალავდეთ ()	damalavdet	დამალავდნენ ()	damalavdnen
+hide	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+hide	aorist series		aorist		დავმალე ()	davmale	დამალე ()	damale	დამალა ()	damala	დავმალეთ ()	davmalet	დამალეთ ()	damalet	დამალეს ()	damales
+hide	aorist series		optative		დავმალო ()	davmalo	დამალო ()	damalo	დამალოს ()	damalos	დავმალოთ ()	davmalot	დამალოთ ()	damalot	დამალონ ()	damalon
+hide	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+hide	perfect series		perfect		დამიმალავს ()	damimalavs	დაგიმალავს ()	dagimalavs	დაუმალავს ()	daumalavs	დაგვიმალავს ()	dagvimalavs	დაგიმალავთ ()	dagimalavt	დაუმალავთ ()	daumalavt
+hide	perfect series		pluperfect		დამემალა ()	damemala	დაგემალა ()	dagemala	დაემალა ()	daemala	დაგვემალა ()	dagvemala	დაგემალათ ()	dagemalat	დაემალათ ()	daemalat
+hide	perfect series		perfect subjunctive		დამემალოს ()	damemalos	დაგემალოს ()	dagemalos	დაემალოს ()	daemalos	დაგვემალოს ()	dagvemalos	დაგემალოთ ()	dagemalot	დაემალოთ ()	daemalot
+hide	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+hide	imperative		imperative		—		დამალე ()	damale	—		დავმალოთ ()	davmalot	დამალეთ ()	damalet		
+hide					perfective		perfective		perfective		imperfective		imperfective		imperfective	
+hide	verbal noun		verbal noun		დამალვა ()	damalva	დამალვა ()	damalva	დამალვა ()	damalva	მალვა ()	malva	მალვა ()	malva	მალვა ()	malva
+hide	person		person		singular		singular		singular		plural		plural		plural	
+hide	person		person		first		second		third		first		second		third	
+hide	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+hide	present subseries		present		ვმალავ ()	vmalav	მალავ ()	malav	მალავს ()	malavs	ვმალავთ ()	vmalavt	მალავთ ()	malavt	მალავენ ()	malaven
+hide	present subseries		imperfect		ვმალავდი ()	vmalavdi	მალავდი ()	malavdi	მალავდა ()	malavda	ვმალავდით ()	vmalavdit	მალავდით ()	malavdit	მალავდნენ ()	malavdnen
+hide	present subseries		present subjunctive		ვმალავდე ()	vmalavde	მალავდე ()	malavde	მალავდეს ()	malavdes	ვმალავდეთ ()	vmalavdet	მალავდეთ ()	malavdet	მალავდნენ ()	malavdnen
+hide	future subseries		future		დავმალავ ()	davmalav	დამალავ ()	damalav	დამალავს ()	damalavs	დავმალავთ ()	davmalavt	დამალავთ ()	damalavt	დამალავენ ()	damalaven
+hide	future subseries		conditional		დავმალავდი ()	davmalavdi	დამალავდი ()	damalavdi	დამალავდა ()	damalavda	დავმალავდით ()	davmalavdit	დამალავდით ()	damalavdit	დამალავდნენ ()	damalavdnen
+hide	future subseries		future subjunctive		დავმალავდე ()	davmalavde	დამალავდე ()	damalavde	დამალავდეს ()	damalavdes	დავმალავდეთ ()	davmalavdet	დამალავდეთ ()	damalavdet	დამალავდნენ ()	damalavdnen
+hide	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+hide	aorist series		aorist		დავმალე ()	davmale	დამალე ()	damale	დამალა ()	damala	დავმალეთ ()	davmalet	დამალეთ ()	damalet	დამალეს ()	damales
+hide	aorist series		optative		დავმალო ()	davmalo	დამალო ()	damalo	დამალოს ()	damalos	დავმალოთ ()	davmalot	დამალოთ ()	damalot	დამალონ ()	damalon
+hide	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+hide	perfect series		perfect		დამიმალავს ()	damimalavs	დაგიმალავს ()	dagimalavs	დაუმალავს ()	daumalavs	დაგვიმალავს ()	dagvimalavs	დაგიმალავთ ()	dagimalavt	დაუმალავთ ()	daumalavt
+hide	perfect series		pluperfect		დამემალა ()	damemala	დაგემალა ()	dagemala	დაემალა ()	daemala	დაგვემალა ()	dagvemala	დაგემალათ ()	dagemalat	დაემალათ ()	daemalat
+hide	perfect series		perfect subjunctive		დამემალოს ()	damemalos	დაგემალოს ()	dagemalos	დაემალოს ()	daemalos	დაგვემალოს ()	dagvemalos	დაგემალოთ ()	dagemalot	დაემალოთ ()	daemalot
+hide	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+hide	imperative		imperative		—		დამალე ()	damale	—		დავმალოთ ()	davmalot	დამალეთ ()	damalet		
+ask					perfective		perfective		perfective		imperfective		imperfective		imperfective	
+ask	verbal noun		verbal noun		კითხვა ()	ḳitxva	კითხვა ()	ḳitxva	კითხვა ()	ḳitxva	კითხვა ()	ḳitxva	კითხვა ()	ḳitxva	კითხვა ()	ḳitxva
+ask	person		person		singular		singular		singular		plural		plural		plural	
+ask	person		person		first		second		third		first		second		third	
+ask	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+ask	present subseries		present		ვკითხულობ ()	vḳitxulob	კითხულობ ()	ḳitxulob	კითხულობს ()	ḳitxulobs	ვკითხულობთ ()	vḳitxulobt	კითხულობთ ()	ḳitxulobt	კითხულობენ ()	ḳitxuloben
+ask	present subseries		imperfect		ვკითხულობდი ()	vḳitxulobdi	კითხულობდი ()	ḳitxulobdi	კითხულობდა ()	ḳitxulobda	ვკითხულობდით ()	vḳitxulobdit	კითხულობდით ()	ḳitxulobdit	კითხულობდნენ ()	ḳitxulobdnen
+ask	present subseries		present subjunctive		ვკითხულობდე ()	vḳitxulobde	კითხულობდე ()	ḳitxulobde	კითხულობდეს ()	ḳitxulobdes	ვკითხულობდეთ ()	vḳitxulobdet	კითხულობდეთ ()	ḳitxulobdet	კითხულობდნენ ()	ḳitxulobdnen
+ask	future subseries		future		ვიკითხავ ()	viḳitxav	იკითხავ ()	iḳitxav	იკითხავს ()	iḳitxavs	ვიკითხავთ ()	viḳitxavt	იკითხავთ ()	iḳitxavt	იკითხავენ ()	iḳitxaven
+ask	future subseries		conditional		ვიკითხავდი ()	viḳitxavdi	იკითხავდი ()	iḳitxavdi	იკითხავდა ()	iḳitxavda	ვიკითხავდით ()	viḳitxavdit	იკითხავდით ()	iḳitxavdit	იკითხავდნენ ()	iḳitxavdnen
+ask	future subseries		future subjunctive		ვიკითხავდე ()	viḳitxavde	იკითხავდე ()	iḳitxavde	იკითხავდეს ()	iḳitxavdes	ვიკითხავდეთ ()	viḳitxavdet	იკითხავდეთ ()	iḳitxavdet	იკითხავდნენ ()	iḳitxavdnen
+ask	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+ask	aorist series		aorist		ვიკითხე ()	viḳitxe	იკითხე ()	iḳitxe	იკითხა ()	iḳitxa	ვიკითხეთ ()	viḳitxet	იკითხეთ ()	iḳitxet	იკითხეს ()	iḳitxes
+ask	aorist series		optative		ვიკითხო ()	viḳitxo	იკითხო ()	iḳitxo	იკითხოს ()	iḳitxos	ვიკითხოთ ()	viḳitxot	იკითხოთ ()	iḳitxot	იკითხონ ()	iḳitxon
+ask	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+ask	perfect series		perfect		მიკითხავს ()	miḳitxavs	გიკითხავს ()	giḳitxavs	უკითხავს ()	uḳitxavs	გვიკითხავს ()	gviḳitxavs	გიკითხავთ ()	giḳitxavt	უკითხავთ ()	uḳitxavt
+ask	perfect series		pluperfect		მეკითხა ()	meḳitxa	გეკითხა ()	geḳitxa	ეკითხა ()	eḳitxa	გვეკითხა ()	gveḳitxa	გეკითხათ ()	geḳitxat	ეკითხათ ()	eḳitxat
+ask	perfect series		perfect subjunctive		მეკითხოს ()	meḳitxos	გეკითხოს ()	geḳitxos	ეკითხოს ()	eḳitxos	გვეკითხოს ()	gveḳitxos	გეკითხოთ ()	geḳitxot	ეკითხოთ ()	eḳitxot
+ask	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+ask	imperative		imperative		—		იკითხე ()	iḳitxe	—		ვიკითხოთ ()	viḳitxot	იკითხეთ ()	iḳitxet		

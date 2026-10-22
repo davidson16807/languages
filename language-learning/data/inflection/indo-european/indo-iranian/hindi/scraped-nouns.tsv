@@ -1,47 +1,451 @@
-animal			singular		plural	
-animal	direct		जानवर	jānvar	जानवर	jānvar
-animal	oblique		जानवर	jānvar	जानवरों	jānvarõ
-animal	vocative		जानवर	jānvar	जानवरो	jānvaro
 attention			singular		plural	
 attention	direct		ध्यान	dhyān	ध्यान	dhyān
 attention	oblique		ध्यान	dhyān	ध्यानों	dhyānõ
 attention	vocative		ध्यान	dhyān	ध्यानो	dhyāno
+focus			singular		plural	
+focus	direct		ध्यान	dhyān	ध्यान	dhyān
+focus	oblique		ध्यान	dhyān	ध्यानों	dhyānõ
+focus	vocative		ध्यान	dhyān	ध्यानो	dhyāno
+thought			singular		plural	
+thought	direct		विचार	vicār	विचार	vicār
+thought	oblique		विचार	vicār	विचारों	vicārõ
+thought	vocative		विचार	vicār	विचारो	vicāro
+thought			singular		plural	
+thought	direct		चिंतन	cintan	चिंतन	cintan
+thought	oblique		चिंतन	cintan	चिंतनों	cintanõ
+thought	vocative		चिंतन	cintan	चिंतनो	cintano
+thought			singular		plural	
+thought	direct		मनन	manan	मनन	manan
+thought	oblique		मनन	manan	मननों	mananõ
+thought	vocative		मनन	manan	मननो	manano
+thought			singular	
+thought	direct		मनन	manan
+thought	oblique		मनन	manan
+thought	vocative		मनन	manan
+thought			singular		plural	
+thought	direct		विचार	vicār	विचार	vicār
+thought	oblique		विचार	vicār	विचारों	vicārõ
+thought	vocative		विचार	vicār	विचारो	vicāro
+thought			singular		plural	
+thought	direct		चिंतन	cintan	चिंतन	cintan
+thought	oblique		चिंतन	cintan	चिंतनों	cintanõ
+thought	vocative		चिंतन	cintan	चिंतनो	cintano
+thought			singular		plural	
+thought	direct		मनन	manan	मनन	manan
+thought	oblique		मनन	manan	मननों	mananõ
+thought	vocative		मनन	manan	मननो	manano
+thought			singular	
+thought	direct		मनन	manan
+thought	oblique		मनन	manan
+thought	vocative		मनन	manan
+thought			singular		plural	
+thought	direct		विचार	vicār	विचार	vicār
+thought	oblique		विचार	vicār	विचारों	vicārõ
+thought	vocative		विचार	vicār	विचारो	vicāro
+thought			singular		plural	
+thought	direct		चिंतन	cintan	चिंतन	cintan
+thought	oblique		चिंतन	cintan	चिंतनों	cintanõ
+thought	vocative		चिंतन	cintan	चिंतनो	cintano
+thought			singular		plural	
+thought	direct		मनन	manan	मनन	manan
+thought	oblique		मनन	manan	मननों	mananõ
+thought	vocative		मनन	manan	मननो	manano
+thought			singular	
+thought	direct		मनन	manan
+thought	oblique		मनन	manan
+thought	vocative		मनन	manan
+ball			singular		plural	
+ball	direct		गोला	golā	गोले	gole
+ball	oblique		गोले	gole	गोलों	golõ
+ball	vocative		गोले	gole	गोलो	golo
+ball			singular		plural	
+ball	direct		गेंद	gend	गेंद	gend
+ball	oblique		गेंद	gend	गेंदों	gendõ
+ball	vocative		गेंद	gend	गेंदो	gendo
+bird			singular		plural	
+bird	direct		चिड़िया	ciṛiyā	चिड़ियाँ	ciṛiyā̃
+bird	oblique		चिड़िया	ciṛiyā	चिड़ियों	ciṛiyõ
+bird	vocative		चिड़िया	ciṛiyā	चिड़ियो	ciṛiyo
 bird			singular		plural	
 bird	direct		पंछी	pañchī	पंछी	pañchī
 bird	oblique		पंछी	pañchī	पंछियों	pañchiyõ
 bird	vocative		पंछी	pañchī	पंछियो	pañchiyo
+bird			singular		plural	
+bird	direct		पक्षी	pakṣī	पक्षी	pakṣī
+bird	oblique		पक्षी	pakṣī	पक्षियों	pakṣiyõ
+bird	vocative		पक्षी	pakṣī	पक्षियो	pakṣiyo
+bird			singular		plural	
+bird	direct		पखेरू	pakherū	पखेरू	pakherū
+bird	oblique		पखेरू	pakherū	पखेरुओं	pakheruõ
+bird	vocative		पखेरू	pakherū	पखेरुओ	pakheruo
+bridge			singular		plural	
+bridge	direct		सेतु	setu	सेतु	setu
+bridge	oblique		सेतु	setu	सेतुओं	setuõ
+bridge	vocative		सेतु	setu	सेतुओ	setuo
+bridge			singular		plural	
+bridge	direct		पुल	pul	पुल	pul
+bridge	oblique		पुल	pul	पुलों	pulõ
+bridge	vocative		पुल	pul	पुलो	pulo
+sparrow			singular		plural	
+sparrow	direct		गौरैया	gauraiyā	गौरैयाएँ	gauraiyāẽ
+sparrow	oblique		गौरैया	gauraiyā	गौरैयाओं	gauraiyāõ
+sparrow	vocative		गौरैया	gauraiyā	गौरैयाओ	gauraiyāo
+swallow			singular		plural	
+swallow	direct		अबाबील	abābīl	अबाबीलें	abābīlẽ
+swallow	oblique		अबाबील	abābīl	अबाबीलों	abābīlõ
+swallow	vocative		अबाबील	abābīl	अबाबीलो	abābīlo
+eagle			singular		plural	
+eagle	direct		चील	cīl	चीलें	cīlẽ
+eagle	oblique		चील	cīl	चीलों	cīlõ
+eagle	vocative		चील	cīl	चीलो	cīlo
+eagle			singular		plural	
+eagle	direct		उक़ाब	uqāb	उक़ाब	uqāb
+eagle	oblique		उक़ाब	uqāb	उक़ाबों	uqābõ
+eagle	vocative		उक़ाब	uqāb	उक़ाबो	uqābo
+swan			singular		plural	
+swan	direct		हंस	hans	हंस	hans
+swan	oblique		हंस	hans	हंसों	hansõ
+swan	vocative		हंस	hans	हंसो	hanso
+flamingo			singular		plural	
+flamingo	direct		राजहंस	rājhans	राजहंस	rājhans
+flamingo	oblique		राजहंस	rājhans	राजहंसों	rājhansõ
+flamingo	vocative		राजहंस	rājhans	राजहंसो	rājhanso
+goose			singular		plural	
+goose	direct		मुर्ग़ा	murġā	मुर्ग़े	murġe
+goose	oblique		मुर्ग़े	murġe	मुर्ग़ों	murġõ
+goose	vocative		मुर्ग़े	murġe	मुर्ग़ो	murġo
+goose			singular		plural	
+goose	direct		मुर्ग़	murġ	मुर्ग़	murġ
+goose	oblique		मुर्ग़	murġ	मुर्ग़ों	murġõ
+goose	vocative		मुर्ग़	murġ	मुर्ग़ो	murġo
+goose			singular		plural	
+goose	direct		कुक्कुट	kukkuṭ	कुक्कुट	kukkuṭ
+goose	oblique		कुक्कुट	kukkuṭ	कुक्कुटों	kukkuṭõ
+goose	vocative		कुक्कुट	kukkuṭ	कुक्कुटो	kukkuṭo
+chicken			singular		plural	
+chicken	direct		मुर्ग़ा	murġā	मुर्ग़े	murġe
+chicken	oblique		मुर्ग़े	murġe	मुर्ग़ों	murġõ
+chicken	vocative		मुर्ग़े	murġe	मुर्ग़ो	murġo
+chicken			singular		plural	
+chicken	direct		मुर्ग़	murġ	मुर्ग़	murġ
+chicken	oblique		मुर्ग़	murġ	मुर्ग़ों	murġõ
+chicken	vocative		मुर्ग़	murġ	मुर्ग़ो	murġo
+chicken			singular		plural	
+chicken	direct		कुक्कुट	kukkuṭ	कुक्कुट	kukkuṭ
+chicken	oblique		कुक्कुट	kukkuṭ	कुक्कुटों	kukkuṭõ
+chicken	vocative		कुक्कुट	kukkuṭ	कुक्कुटो	kukkuṭo
+dove			singular		plural	
+dove	direct		कपोत	kapot	कपोत	kapot
+dove	oblique		कपोत	kapot	कपोतों	kapotõ
+dove	vocative		कपोत	kapot	कपोतो	kapoto
+dove			singular		plural	
+dove	direct		कबूतर	kabūtar	कबूतर	kabūtar
+dove	oblique		कबूतर	kabūtar	कबूतरों	kabūtarõ
+dove	vocative		कबूतर	kabūtar	कबूतरो	kabūtaro
+dove			singular		plural	
+dove	direct		परेवा	parevā	परेवे	pareve
+dove	oblique		परेवे	pareve	परेवों	parevõ
+dove	vocative		परेवे	pareve	परेवो	parevo
+pigeon			singular		plural	
+pigeon	direct		कबूतर	kabūtar	कबूतर	kabūtar
+pigeon	oblique		कबूतर	kabūtar	कबूतरों	kabūtarõ
+pigeon	vocative		कबूतर	kabūtar	कबूतरो	kabūtaro
+pigeon			singular		plural	
+pigeon	direct		कपोत	kapot	कपोत	kapot
+pigeon	oblique		कपोत	kapot	कपोतों	kapotõ
+pigeon	vocative		कपोत	kapot	कपोतो	kapoto
+pigeon			singular		plural	
+pigeon	direct		परेवा	parevā	परेवे	pareve
+pigeon	oblique		परेवे	pareve	परेवों	parevõ
+pigeon	vocative		परेवे	pareve	परेवो	parevo
+crow			singular		plural	
+crow	direct		कौआ	kauā	कौए	kaue
+crow	oblique		कौए	kaue	कौओं	kauõ
+crow	vocative		कौए	kaue	कौओ	kauo
+crow			singular		plural	
+crow	direct		कौवा	kauvā	कौवे	kauve
+crow	oblique		कौवे	kauve	कौवों	kauvõ
+crow	vocative		कौवे	kauve	कौवो	kauvo
+crow			singular		plural	
+crow	direct		काग	kāg	काग	kāg
+crow	oblique		काग	kāg	कागों	kāgõ
+crow	vocative		काग	kāg	कागो	kāgo
+child			singular		plural	
+child	direct		बच्चा	baccā	बच्चे	bacce
+child	oblique		बच्चे	bacce	बच्चों	baccõ
+child	vocative		बच्चे	bacce	बच्चो	bacco
+child			singular		plural	
+child	direct		बेटा	beṭā	बेटे	beṭe
+child	oblique		बेटे	beṭe	बेटों	beṭõ
+child	vocative		बेटे	beṭe	बेटो	beṭo
+child			singular		plural	
+child	direct		बेटी	beṭī	बेटियाँ	beṭiyā̃
+child	oblique		बेटी	beṭī	बेटियों	beṭiyõ
+child	vocative		बेटी	beṭī	बेटियो	beṭiyo
+child			singular		plural	
+child	direct		शिशु	śiśu	शिशु	śiśu
+child	oblique		शिशु	śiśu	शिशुओं	śiśuõ
+child	vocative		शिशु	śiśu	शिशुओ	śiśuo
+child			singular		plural	
+child	direct		लड़का	laṛkā	लड़के	laṛke
+child	oblique		लड़के	laṛke	लड़कों	laṛkõ
+child	vocative		लड़के	laṛke	लड़को	laṛko
+child			singular		plural	
+child	direct		लड़की	laṛkī	लड़कियाँ	laṛkiyā̃
+child	oblique		लड़की	laṛkī	लड़कियों	laṛkiyõ
+child	vocative		लड़की	laṛkī	लड़कियो	laṛkiyo
+child			singular		plural	
+child	direct		छोरा	chorā	छोरे	chore
+child	oblique		छोरे	chore	छोरों	chorõ
+child	vocative		छोरे	chore	छोरो	choro
+child			singular		plural	
+child	direct		छोरी	chorī	छोरियाँ	choriyā̃
+child	oblique		छोरी	chorī	छोरियों	choriyõ
+child	vocative		छोरी	chorī	छोरियो	choriyo
+child			singular		plural	
+child	direct		बच्ची	baccī	बच्चियाँ	bacciyā̃
+child	oblique		बच्ची	baccī	बच्चियों	bacciyõ
+child	vocative		बच्ची	baccī	बच्चियो	bacciyo
+child			singular		plural	
+child	direct		बालक	bālak	बालक	bālak
+child	oblique		बालक	bālak	बालकों	bālakõ
+child	vocative		बालक	bālak	बालको	bālako
+child			singular		plural	
+child	direct		बालिका	bālikā	बालिकाएँ	bālikāẽ
+child	oblique		बालिका	bālikā	बालिकाओं	bālikāõ
+child	vocative		बालिका	bālikā	बालिकाओ	bālikāo
+child			singular		plural	
+child	direct		कन्या	kanyā	कन्याएँ	kanyāẽ
+child	oblique		कन्या	kanyā	कन्याओं	kanyāõ
+child	vocative		कन्या	kanyā	कन्याओ	kanyāo
+child			singular	
+child	direct		कन्या	kanyā
+child	oblique		कन्या	kanyā
+child	vocative		कन्या	kanyā
+child			singular		plural	
+child	direct		बच्चा	baccā	बच्चे	bacce
+child	oblique		बच्चे	bacce	बच्चों	baccõ
+child	vocative		बच्चे	bacce	बच्चो	bacco
+child			singular		plural	
+child	direct		बच्ची	baccī	बच्चियाँ	bacciyā̃
+child	oblique		बच्ची	baccī	बच्चियों	bacciyõ
+child	vocative		बच्ची	baccī	बच्चियो	bacciyo
+child			singular		plural	
+child	direct		शिशु	śiśu	शिशु	śiśu
+child	oblique		शिशु	śiśu	शिशुओं	śiśuõ
+child	vocative		शिशु	śiśu	शिशुओ	śiśuo
+child			singular		plural	
+child	direct		बालक	bālak	बालक	bālak
+child	oblique		बालक	bālak	बालकों	bālakõ
+child	vocative		बालक	bālak	बालको	bālako
+child			singular		plural	
+child	direct		बालिका	bālikā	बालिकाएँ	bālikāẽ
+child	oblique		बालिका	bālikā	बालिकाओं	bālikāõ
+child	vocative		बालिका	bālikā	बालिकाओ	bālikāo
+egg			singular		plural	
+egg	direct		अंडा	aṇḍā	अंडे	aṇḍe
+egg	oblique		अंडे	aṇḍe	अंडों	aṇḍõ
+egg	vocative		अंडे	aṇḍe	अंडो	aṇḍo
+egg			singular		plural	
+egg	direct		अंड	aṇḍ	अंड	aṇḍ
+egg	oblique		अंड	aṇḍ	अंडों	aṇḍõ
+egg	vocative		अंड	aṇḍ	अंडो	aṇḍo
+egg			singular		plural	
+egg	direct		अंड	aṇḍ	अंड	aṇḍ
+egg	oblique		अंड	aṇḍ	अंडों	aṇḍõ
+egg	vocative		अंड	aṇḍ	अंडो	aṇḍo
+nest			singular		plural	
+nest	direct		घोसला	ghoslā	घोसले	ghosle
+nest	oblique		घोसले	ghosle	घोसलों	ghoslõ
+nest	vocative		घोसले	ghosle	घोसलो	ghoslo
+nest			singular		plural	
+nest	direct		घोंसला	ghonslā	घोंसले	ghonsle
+nest	oblique		घोंसले	ghonsle	घोंसलों	ghonslõ
+nest	vocative		घोंसले	ghonsle	घोंसलो	ghonslo
+tree			singular		plural	
+tree	direct		पेड़	peṛ	पेड़	peṛ
+tree	oblique		पेड़	peṛ	पेड़ों	peṛõ
+tree	vocative		पेड़	peṛ	पेड़ो	peṛo
+tree			singular		plural	
+tree	direct		पेड़	peṛ	पेड़	peṛ
+tree	oblique		पेड़	peṛ	पेड़ों	peṛõ
+tree	vocative		पेड़	peṛ	पेड़ो	peṛo
+tree			singular		plural	
+tree	direct		वृक्ष	vŕkṣ	वृक्ष	vŕkṣ
+tree	oblique		वृक्ष	vŕkṣ	वृक्षों	vŕkṣõ
+tree	vocative		वृक्ष	vŕkṣ	वृक्षो	vŕkṣo
 boat			singular		plural	
 boat	direct		नाव	nāv	नावें	nāvẽ
 boat	oblique		नाव	nāv	नावों	nāvõ
 boat	vocative		नाव	nāv	नावो	nāvo
+boat			singular		plural	
+boat	direct		नौका	naukā	नौकाएँ	naukāẽ
+boat	oblique		नौका	naukā	नौकाओं	naukāõ
+boat	vocative		नौका	naukā	नौकाओ	naukāo
+boat			singular		plural	
+boat	direct		डोँगी	ḍõgī	डोँगियाँ	ḍõgiyā̃
+boat	oblique		डोँगी	ḍõgī	डोँगियों	ḍõgiyõ
+boat	vocative		डोँगी	ḍõgī	डोँगियो	ḍõgiyo
+boat			singular		plural	
+boat	direct		डोँगा	ḍõgā	डोँगे	ḍõge
+boat	oblique		डोँगे	ḍõge	डोँगों	ḍõgõ
+boat	vocative		डोँगे	ḍõge	डोँगो	ḍõgo
+boat			singular		plural	
+boat	direct		बेड़ी	beṛī	बेड़ियाँ	beṛiyā̃
+boat	oblique		बेड़ी	beṛī	बेड़ियों	beṛiyõ
+boat	vocative		बेड़ी	beṛī	बेड़ियो	beṛiyo
+boat			singular		plural	
+boat	direct		बेड़ा	beṛā	बेड़े	beṛe
+boat	oblique		बेड़े	beṛe	बेड़ों	beṛõ
+boat	vocative		बेड़े	beṛe	बेड़ो	beṛo
+boat			singular		plural	
+boat	direct		बेड़ा	beṛā	बेड़े	beṛe
+boat	oblique		बेड़े	beṛe	बेड़ों	beṛõ
+boat	vocative		बेड़े	beṛe	बेड़ो	beṛo
+boat			singular		plural	
+boat	direct		कश्ती	kaśtī	कश्तियाँ	kaśtiyā̃
+boat	oblique		कश्ती	kaśtī	कश्तियों	kaśtiyõ
+boat	vocative		कश्ती	kaśtī	कश्तियो	kaśtiyo
 book			singular		plural	
 book	direct		पुस्तक	pustak	पुस्तकें	pustakẽ
 book	oblique		पुस्तक	pustak	पुस्तकों	pustakõ
 book	vocative		पुस्तक	pustak	पुस्तको	pustako
-brother			singular		plural	
-brother	direct		भाई	bhāī	भाई	bhāī
-brother	oblique		भाई	bhāī	भाइयों	bhāiyõ
-brother	vocative		भाई	bhāī	भाइयो	bhāiyo
-bug			singular		plural	
-bug	direct		कीड़ा	kīṛā	कीड़े	kīṛe
-bug	oblique		कीड़े	kīṛe	कीड़ों	kīṛõ
-bug	vocative		कीड़े	kīṛe	कीड़ो	kīṛo
+book			singular		plural	
+book	direct		किताब	kitāb	किताबें	kitābẽ
+book	oblique		किताब	kitāb	किताबों	kitābõ
+book	vocative		किताब	kitāb	किताबो	kitābo
+book			singular		plural	
+book	direct		ग्रंथ	granth	ग्रंथ	granth
+book	oblique		ग्रंथ	granth	ग्रंथों	granthõ
+book	vocative		ग्रंथ	granth	ग्रंथो	grantho
+book			singular		plural	
+book	direct		बही	bahī	बहियाँ	bahiyā̃
+book	oblique		बही	bahī	बहियों	bahiyõ
+book	vocative		बही	bahī	बहियो	bahiyo
+book			singular		plural	
+book	direct		पोथी	pothī	पोथियाँ	pothiyā̃
+book	oblique		पोथी	pothī	पोथियों	pothiyõ
+book	vocative		पोथी	pothī	पोथियो	pothiyo
+book			singular		plural	
+book	direct		पोथी	pothī	पोथियाँ	pothiyā̃
+book	oblique		पोथी	pothī	पोथियों	pothiyõ
+book	vocative		पोथी	pothī	पोथियो	pothiyo
+book			singular		plural	
+book	direct		पोथा	pothā	पोथे	pothe
+book	oblique		पोथे	pothe	पोथों	pothõ
+book	vocative		पोथे	pothe	पोथो	potho
+book			singular		plural	
+book	direct		पुस्तिका	pustikā	पुस्तिकाएँ	pustikāẽ
+book	oblique		पुस्तिका	pustikā	पुस्तिकाओं	pustikāõ
+book	vocative		पुस्तिका	pustikā	पुस्तिकाओ	pustikāo
+book			singular		plural	
+book	direct		पत्रिका	patrikā	पत्रिकाएँ	patrikāẽ
+book	oblique		पत्रिका	patrikā	पत्रिकाओं	patrikāõ
+book	vocative		पत्रिका	patrikā	पत्रिकाओ	patrikāo
+insect			singular		plural	
+insect	direct		कीड़ा	kīṛā	कीड़े	kīṛe
+insect	oblique		कीड़े	kīṛe	कीड़ों	kīṛõ
+insect	vocative		कीड़े	kīṛe	कीड़ो	kīṛo
+insect			singular		plural	
+insect	direct		कीट	kīṭ	कीट	kīṭ
+insect	oblique		कीट	kīṭ	कीटों	kīṭõ
+insect	vocative		कीट	kīṭ	कीटो	kīṭo
+insect			singular		plural	
+insect	direct		पोका	pokā	पोके	poke
+insect	oblique		पोके	poke	पोकों	pokõ
+insect	vocative		पोके	poke	पोको	poko
+beetle			singular		plural	
+beetle	direct		गुबरैला	gubrailā	गुबरैले	gubraile
+beetle	oblique		गुबरैले	gubraile	गुबरैलों	gubrailõ
+beetle	vocative		गुबरैले	gubraile	गुबरैलो	gubrailo
+beetle			singular		plural	
+beetle	direct		भृंग	bhŕṅg	भृंग	bhŕṅg
+beetle	oblique		भृंग	bhŕṅg	भृंगों	bhŕṅgõ
+beetle	vocative		भृंग	bhŕṅg	भृंगो	bhŕṅgo
+louse			singular		plural	
+louse	direct		जूँ	jū̃	जुएँ	juẽ
+louse	oblique		जूँ	jū̃	जुओं	juõ
+louse	vocative		जूँ	jū̃	जुओं	juõ
 clothing			singular		plural	
 clothing	direct		वस्त्र	vastra	वस्त्र	vastra
 clothing	oblique		वस्त्र	vastra	वस्त्रों	vastrõ
 clothing	vocative		वस्त्र	vastra	वस्त्रो	vastro
-daughter			singular		plural	
-daughter	direct		बेटी	beṭī	बेटियाँ	beṭiyā̃
-daughter	oblique		बेटी	beṭī	बेटियों	beṭiyõ
-daughter	vocative		बेटी	beṭī	बेटियो	beṭiyo
+clothing			singular		plural	
+clothing	direct		कपड़ा	kapṛā	कपड़े	kapṛe
+clothing	oblique		कपड़े	kapṛe	कपड़ों	kapṛõ
+clothing	vocative		कपड़े	kapṛe	कपड़ो	kapṛo
+clothing			singular		plural	
+clothing	direct		परिधान	paridhān	परिधान	paridhān
+clothing	oblique		परिधान	paridhān	परिधानों	paridhānõ
+clothing	vocative		परिधान	paridhān	परिधानो	paridhāno
+garment			singular		plural	
+garment	direct		वस्त्र	vastra	वस्त्र	vastra
+garment	oblique		वस्त्र	vastra	वस्त्रों	vastrõ
+garment	vocative		वस्त्र	vastra	वस्त्रो	vastro
 dog			singular		plural	
 dog	direct		कुत्ता	kuttā	कुत्ते	kutte
 dog	oblique		कुत्ते	kutte	कुत्तों	kuttõ
 dog	vocative		कुत्ते	kutte	कुत्तो	kutto
+dog			singular		plural	
+dog	direct		कुत्ती	kuttī	कुत्तियाँ	kuttiyā̃
+dog	oblique		कुत्ती	kuttī	कुत्तियों	kuttiyõ
+dog	vocative		कुत्ती	kuttī	कुत्तियो	kuttiyo
+dog			singular		plural	
+dog	direct		श्वान	śvān	श्वान	śvān
+dog	oblique		श्वान	śvān	श्वानों	śvānõ
+dog	vocative		श्वान	śvān	श्वानो	śvāno
+dog			singular		plural	
+dog	direct		कुक्कुर	kukkur	कुक्कुर	kukkur
+dog	oblique		कुक्कुर	kukkur	कुक्कुरों	kukkurõ
+dog	vocative		कुक्कुर	kukkur	कुक्कुरो	kukkuro
+dog			singular		plural	
+dog	direct		कुतिया	kutiyā	कुतियाएँ	kutiyāẽ
+dog	oblique		कुतिया	kutiyā	कुतियाओं	kutiyāõ
+dog	vocative		कुतिया	kutiyā	कुतियाओ	kutiyāo
+dog			singular		plural	
+dog	direct		कुत्ता	kuttā	कुत्ते	kutte
+dog	oblique		कुत्ते	kutte	कुत्तों	kuttõ
+dog	vocative		कुत्ते	kutte	कुत्तो	kutto
+dog			singular		plural	
+dog	direct		श्वान	śvān	श्वान	śvān
+dog	oblique		श्वान	śvān	श्वानों	śvānõ
+dog	vocative		श्वान	śvān	श्वानो	śvāno
+dog			singular		plural	
+dog	direct		कुक्कुर	kukkur	कुक्कुर	kukkur
+dog	oblique		कुक्कुर	kukkur	कुक्कुरों	kukkurõ
+dog	vocative		कुक्कुर	kukkur	कुक्कुरो	kukkuro
+door			singular		plural	
+door	direct		किवाड़	kivāṛ	किवाड़	kivāṛ
+door	oblique		किवाड़	kivāṛ	किवाड़ों	kivāṛõ
+door	vocative		किवाड़	kivāṛ	किवाड़ो	kivāṛo
+door			singular		plural	
+door	direct		दरवाज़ा	darvāzā	दरवाज़े	darvāze
+door	oblique		दरवाज़े	darvāze	दरवाज़ों	darvāzõ
+door	vocative		दरवाज़े	darvāze	दरवाज़ो	darvāzo
 door			singular		plural	
 door	direct		द्वार	dvār	द्वार	dvār
 door	oblique		द्वार	dvār	द्वारों	dvārõ
 door	vocative		द्वार	dvār	द्वारो	dvāro
+door			singular		plural	
+door	direct		दर	dar	दरें	darẽ
+door	oblique		दर	dar	दरों	darõ
+door	vocative		दर	dar	दरो	daro
+door			singular		plural	
+door	direct		दर	dar	दर	dar
+door	oblique		दर	dar	दरों	darõ
+door	vocative		दर	dar	दरो	daro
+door			singular		plural	
+door	direct		प्रवेश	praveś	प्रवेश	praveś
+door	oblique		प्रवेश	praveś	प्रवेशों	praveśõ
+door	vocative		प्रवेश	praveś	प्रवेशो	praveśo
+door			singular		plural	
+door	direct		फाटक	phāṭak	फाटक	phāṭak
+door	oblique		फाटक	phāṭak	फाटकों	phāṭakõ
+door	vocative		फाटक	phāṭak	फाटको	phāṭako
+drum			singular		plural	
+drum	direct		ड्रम	ḍram	ड्रम	ḍram
+drum	oblique		ड्रम	ḍram	ड्रमों	ḍramõ
+drum	vocative		ड्रम	ḍram	ड्रमो	ḍramo
 drum			singular		plural	
 drum	direct		ढोल	ḍhol	ढोल	ḍhol
 drum	oblique		ढोल	ḍhol	ढोलों	ḍholõ
@@ -50,22 +454,146 @@ enemy			singular		plural
 enemy	direct		दुश्मन	duśman	दुश्मन	duśman
 enemy	oblique		दुश्मन	duśman	दुश्मनों	duśmanõ
 enemy	vocative		दुश्मन	duśman	दुश्मनो	duśmano
+enemy			singular		plural	
+enemy	direct		शत्रु	śatru	शत्रु	śatru
+enemy	oblique		शत्रु	śatru	शत्रुओं	śatruõ
+enemy	vocative		शत्रु	śatru	शत्रुओ	śatruo
+enemy			singular		plural	
+enemy	direct		द्वेषी	dveṣī	द्वेषी	dveṣī
+enemy	oblique		द्वेषी	dveṣī	द्वेषियों	dveṣiyõ
+enemy	vocative		द्वेषी	dveṣī	द्वेषियो	dveṣiyo
+enemy			singular		plural	
+enemy	direct		बैरी	bairī	बैरी	bairī
+enemy	oblique		बैरी	bairī	बैरियों	bairiyõ
+enemy	vocative		बैरी	bairī	बैरियो	bairiyo
+enemy			singular		plural	
+enemy	direct		विरोधी	virodhī	विरोधी	virodhī
+enemy	oblique		विरोधी	virodhī	विरोधियों	virodhiyõ
+enemy	vocative		विरोधी	virodhī	विरोधियो	virodhiyo
+enemy			singular		plural	
+enemy	direct		विपक्षी	vipakṣī	विपक्षी	vipakṣī
+enemy	oblique		विपक्षी	vipakṣī	विपक्षियों	vipakṣiyõ
+enemy	vocative		विपक्षी	vipakṣī	विपक्षियो	vipakṣiyo
+fish			singular		plural	
+fish	direct		मछली	machlī	मछलियाँ	machliyā̃
+fish	oblique		मछली	machlī	मछलियों	machliyõ
+fish	vocative		मछली	machlī	मछलियो	machliyo
+fish			singular		plural	
+fish	direct		मत्स्य	matsya	मत्स्य	matsya
+fish	oblique		मत्स्य	matsya	मत्स्यों	matsyõ
+fish	vocative		मत्स्य	matsya	मत्स्यो	matsyo
+fish			singular	
+fish	direct		मत्स्य	matsya
+fish	oblique		मत्स्य	matsya
+fish	vocative		मत्स्य	matsya
+fish			singular		plural	
+fish	direct		माही	māhī	माहियाँ	māhiyā̃
+fish	oblique		माही	māhī	माहियों	māhiyõ
+fish	vocative		माही	māhī	माहियो	māhiyo
+fish			singular		plural	
+fish	direct		माही	māhī	माही	māhī
+fish	oblique		माही	māhī	माहियों	māhiyõ
+fish	vocative		माही	māhī	माहियो	māhiyo
+fish			singular		plural	
+fish	direct		मीन	mīn	मीन	mīn
+fish	oblique		मीन	mīn	मीनों	mīnõ
+fish	vocative		मीन	mīn	मीनो	mīno
+fish			singular	
+fish	direct		मीन	mīn
+fish	oblique		मीन	mīn
+fish	vocative		मीन	mīn
+fish			singular		plural	
+fish	direct		मच्छी	macchī	मच्छियाँ	macchiyā̃
+fish	oblique		मच्छी	macchī	मच्छियों	macchiyõ
+fish	vocative		मच्छी	macchī	मच्छियो	macchiyo
 fire			singular		plural	
 fire	direct		आग	āg	आगें	āgẽ
 fire	oblique		आग	āg	आगों	āgõ
 fire	vocative		आग	āg	आगो	āgo
+fire			singular		plural	
+fire	direct		अग्नि	agni	अग्नियाँ	agniyā̃
+fire	oblique		अग्नि	agni	अग्नियों	agniyõ
+fire	vocative		अग्नि	agni	अग्नियो	agniyo
+fire			singular	
+fire	direct		अग्नि	agni
+fire	oblique		अग्नि	agni
+fire	vocative		अग्नि	agni
+fire			singular		plural	
+fire	direct		आतिश	ātiś	आतिशें	ātiśẽ
+fire	oblique		आतिश	ātiś	आतिशों	ātiśõ
+fire	vocative		आतिश	ātiś	आतिशो	ātiśo
+fire			singular	
+fire	direct		जलन	jalan
+fire	oblique		जलन	jalan
+fire	vocative		जलन	jalan
+fire			singular		plural	
+fire	direct		शोला	śolā	शोले	śole
+fire	oblique		शोले	śole	शोलों	śolõ
+fire	vocative		शोले	śole	शोलो	śolo
 food			singular		plural	
 food	direct		खाना	khānā	खाने	khāne
 food	oblique		खाने	khāne	खानों	khānõ
 food	vocative		खाने	khāne	खानो	khāno
+food			singular		plural	
+food	direct		भोजन	bhojan	भोजन	bhojan
+food	oblique		भोजन	bhojan	भोजनों	bhojanõ
+food	vocative		भोजन	bhojan	भोजनो	bhojano
+forest			singular		plural	
+forest	direct		जंगल	jaṅgal	जंगल	jaṅgal
+forest	oblique		जंगल	jaṅgal	जंगलों	jaṅgalõ
+forest	vocative		जंगल	jaṅgal	जंगलो	jaṅgalo
+forest			singular		plural	
+forest	direct		वन	van	वन	van
+forest	oblique		वन	van	वनों	vanõ
+forest	vocative		वन	van	वनो	vano
+gate			singular		plural	
+gate	direct		फाटक	phāṭak	फाटक	phāṭak
+gate	oblique		फाटक	phāṭak	फाटकों	phāṭakõ
+gate	vocative		फाटक	phāṭak	फाटको	phāṭako
+gate			singular		plural	
+gate	direct		द्वार	dvār	द्वार	dvār
+gate	oblique		द्वार	dvār	द्वारों	dvārõ
+gate	vocative		द्वार	dvār	द्वारो	dvāro
+gate			singular		plural	
+gate	direct		फाटक	phāṭak	फाटक	phāṭak
+gate	oblique		फाटक	phāṭak	फाटकों	phāṭakõ
+gate	vocative		फाटक	phāṭak	फाटको	phāṭako
 gift			singular		plural	
 gift	direct		उपहार	uphār	उपहार	uphār
 gift	oblique		उपहार	uphār	उपहारों	uphārõ
 gift	vocative		उपहार	uphār	उपहारो	uphāro
+gift			singular		plural	
+gift	direct		देन	den	देनें	denẽ
+gift	oblique		देन	den	देनों	denõ
+gift	vocative		देन	den	देनो	deno
+gift			singular		plural	
+gift	direct		बख़्शिश	baxśiś	बख़्शिशें	baxśiśẽ
+gift	oblique		बख़्शिश	baxśiś	बख़्शिशों	baxśiśõ
+gift	vocative		बख़्शिश	baxśiś	बख़्शिशो	baxśiśo
+gift			singular		plural	
+gift	direct		सौग़ात	sauġāt	सौग़ातें	sauġātẽ
+gift	oblique		सौग़ात	sauġāt	सौग़ातों	sauġātõ
+gift	vocative		सौग़ात	sauġāt	सौग़ातो	sauġāto
+gift			singular		plural	
+gift	direct		भेंट	bhẽṭ	भेंटें	bhẽṭẽ
+gift	oblique		भेंट	bhẽṭ	भेंटों	bhẽṭõ
+gift	vocative		भेंट	bhẽṭ	भेंटो	bhẽṭo
 glass			singular		plural	
 glass	direct		काँच	kā̃c	काँच	kā̃c
 glass	oblique		काँच	kā̃c	काँचों	kā̃cõ
 glass	vocative		काँच	kā̃c	काँचो	kā̃co
+glass			singular		plural	
+glass	direct		शीशा	śīśā	शीशे	śīśe
+glass	oblique		शीशे	śīśe	शीशों	śīśõ
+glass	vocative		शीशे	śīśe	शीशो	śīśo
+guard			singular		plural	
+guard	direct		प्रहरी	prahrī	प्रहरी	prahrī
+guard	oblique		प्रहरी	prahrī	प्रहरियों	prahriyõ
+guard	vocative		प्रहरी	prahrī	प्रहरियो	prahriyo
+guard			singular		plural	
+guard	direct		रक्षक	rakṣak	रक्षक	rakṣak
+guard	oblique		रक्षक	rakṣak	रक्षकों	rakṣakõ
+guard	vocative		रक्षक	rakṣak	रक्षको	rakṣako
 guard			singular		plural	
 guard	direct		पासबान	pāsbān	पासबान	pāsbān
 guard	oblique		पासबान	pāsbān	पासबानों	pāsbānõ
@@ -74,18 +602,74 @@ guard			singular		plural
 guard	direct		पासबान	pāsbān	पासबानें	pāsbānẽ
 guard	oblique		पासबान	pāsbān	पासबानों	pāsbānõ
 guard	vocative		पासबान	pāsbān	पासबानो	pāsbāno
+guard			singular		plural	
+guard	direct		रखवाला	rakhvālā	रखवाले	rakhvāle
+guard	oblique		रखवाले	rakhvāle	रखवालों	rakhvālõ
+guard	vocative		रखवाले	rakhvāle	रखवालो	rakhvālo
+hill			singular		plural	
+hill	direct		पहाड़ी	pahāṛī	पहाड़ियाँ	pahāṛiyā̃
+hill	oblique		पहाड़ी	pahāṛī	पहाड़ियों	pahāṛiyõ
+hill	vocative		पहाड़ी	pahāṛī	पहाड़ियो	pahāṛiyo
+hill			singular		plural	
+hill	direct		पहाड़	pahāṛ	पहाड़	pahāṛ
+hill	oblique		पहाड़	pahāṛ	पहाड़ों	pahāṛõ
+hill	vocative		पहाड़	pahāṛ	पहाड़ो	pahāṛo
+hill			singular		plural	
+hill	direct		गिरि	giri	गिरि	giri
+hill	oblique		गिरि	giri	गिरियों	giriyõ
+hill	vocative		गिरि	giri	गिरियो	giriyo
 horse			singular		plural	
 horse	direct		घोड़ा	ghoṛā	घोड़े	ghoṛe
 horse	oblique		घोड़े	ghoṛe	घोड़ों	ghoṛõ
 horse	vocative		घोड़े	ghoṛe	घोड़ो	ghoṛo
+horse			singular		plural	
+horse	direct		अश्व	aśva	अश्व	aśva
+horse	oblique		अश्व	aśva	अश्वों	aśvõ
+horse	vocative		अश्व	aśva	अश्वो	aśvo
+horse			singular		plural	
+horse	direct		तुरग	turag	तुरग	turag
+horse	oblique		तुरग	turag	तुरगों	turagõ
+horse	vocative		तुरग	turag	तुरगो	turago
+house			singular		plural	
+house	direct		घर	ghar	घर	ghar
+house	oblique		घर	ghar	घरों	gharõ
+house	vocative		घर	ghar	घरो	gharo
 house			singular		plural	
 house	direct		मकान	makān	मकान	makān
 house	oblique		मकान	makān	मकानों	makānõ
 house	vocative		मकान	makān	मकानो	makāno
-livestock			singular		plural	
-livestock	direct		पशु	paśu	पशु	paśu
-livestock	oblique		पशु	paśu	पशुओं	paśuõ
-livestock	vocative		पशु	paśu	पशुओ	paśuo
+house			singular		plural	
+house	direct		गृह	gŕh	गृह	gŕh
+house	oblique		गृह	gŕh	गृहों	gŕhõ
+house	vocative		गृह	gŕh	गृहो	gŕho
+house			singular		plural	
+house	direct		आवास	āvās	आवास	āvās
+house	oblique		आवास	āvās	आवासों	āvāsõ
+house	vocative		आवास	āvās	आवासो	āvāso
+house			singular		plural	
+house	direct		निवास	nivās	निवास	nivās
+house	oblique		निवास	nivās	निवासों	nivāsõ
+house	vocative		निवास	nivās	निवासो	nivāso
+house			singular		plural	
+house	direct		निकेतन	niketan	निकेतन	niketan
+house	oblique		निकेतन	niketan	निकेतनों	niketanõ
+house	vocative		निकेतन	niketan	निकेतनो	niketano
+house			singular		plural	
+house	direct		वास	vās	वास	vās
+house	oblique		वास	vās	वासों	vāsõ
+house	vocative		वास	vās	वासो	vāso
+house			singular		plural	
+house	direct		घर	ghar	घर	ghar
+house	oblique		घर	ghar	घरों	gharõ
+house	vocative		घर	ghar	घरो	gharo
+house			singular		plural	
+house	direct		घर	ghar	घर	ghar
+house	oblique		घर	ghar	घरों	gharõ
+house	vocative		घर	ghar	घरो	gharo
+love			singular		plural	
+love	direct		प्यार	pyār	प्यार	pyār
+love	oblique		प्यार	pyār	प्यारों	pyārõ
+love	vocative		प्यार	pyār	प्यारो	pyāro
 love			singular		plural	
 love	direct		प्रेम	prem	प्रेम	prem
 love	oblique		प्रेम	prem	प्रेमों	premõ
@@ -94,71 +678,1187 @@ love			singular		plural
 love	direct		प्रेम	prem	प्रेम	prem
 love	oblique		प्रेम	prem	प्रेमों	premõ
 love	vocative		प्रेम	prem	प्रेमो	premo
-idea			singular		plural	
-idea	direct		विचार	vicār	विचार	vicār
-idea	oblique		विचार	vicār	विचारों	vicārõ
-idea	vocative		विचार	vicār	विचारो	vicāro
-man			singular		plural	
-man	direct		मानुस	mānus	मानुस	mānus
-man	oblique		मानुस	mānus	मानुसों	mānusõ
-man	vocative		मानुस	mānus	मानुसो	mānuso
+love			singular		plural	
+love	direct		स्नेह	sneh	स्नेह	sneh
+love	oblique		स्नेह	sneh	स्नेहों	snehõ
+love	vocative		स्नेह	sneh	स्नेहो	sneho
+love			singular	
+love	direct		स्नेह	sneh
+love	oblique		स्नेह	sneh
+love	vocative		स्नेह	sneh
+love			singular		plural	
+love	direct		अनुराग	anurāg	अनुराग	anurāg
+love	oblique		अनुराग	anurāg	अनुरागों	anurāgõ
+love	vocative		अनुराग	anurāg	अनुरागो	anurāgo
+love			singular	
+love	direct		अनुराग	anurāg
+love	oblique		अनुराग	anurāg
+love	vocative		अनुराग	anurāg
+love			singular		plural	
+love	direct		प्रीति	prīti	प्रीतियाँ	prītiyā̃
+love	oblique		प्रीति	prīti	प्रीतियों	prītiyõ
+love	vocative		प्रीति	prīti	प्रीतियो	prītiyo
+love			singular	
+love	direct		प्रीति	prīti
+love	oblique		प्रीति	prīti
+love	vocative		प्रीति	prīti
+love			singular		plural	
+love	direct		इष्ट	iṣṭ	इष्ट	iṣṭ
+love	oblique		इष्ट	iṣṭ	इष्टों	iṣṭõ
+love	vocative		इष्ट	iṣṭ	इष्टो	iṣṭo
+love			singular		plural	
+love	direct		मोह	moh	मोह	moh
+love	oblique		मोह	moh	मोहों	mohõ
+love	vocative		मोह	moh	मोहो	moho
+metal				singular			plural		
+metal	direct			धातु	dhātu		धातुएँ, धातु, 	dhātuẽ	dhātu
+metal	oblique			धातु	dhātu		धातुओं	dhātuõ	
+metal	vocative			धातु	dhātu		धातुओ	dhātuo	
+money			singular		plural	
+money	direct		पैसा	paisā	पैसे	paise
+money	oblique		पैसे	paise	पैसों	paisõ
+money	vocative		पैसे	paise	पैसो	paiso
 money			singular		plural	
 money	direct		धन	dhan	धन	dhan
 money	oblique		धन	dhan	धनों	dhanõ
 money	vocative		धन	dhan	धनो	dhano
+money			singular		plural	
+money	direct		माल	māl	माल	māl
+money	oblique		माल	māl	मालों	mālõ
+money	vocative		माल	māl	मालो	mālo
+money			singular		plural	
+money	direct		माल	māl	माल	māl
+money	oblique		माल	māl	मालों	mālõ
+money	vocative		माल	māl	मालो	mālo
+money			singular		plural	
+money	direct		माल	māl	मालें	mālẽ
+money	oblique		माल	māl	मालों	mālõ
+money	vocative		माल	māl	मालो	mālo
+money			singular		plural	
+money	direct		मुद्रा	mudrā	मुद्राएँ	mudrāẽ
+money	oblique		मुद्रा	mudrā	मुद्राओं	mudrāõ
+money	vocative		मुद्रा	mudrā	मुद्राओ	mudrāo
+coin			singular		plural	
+coin	direct		सिक्का	sikkā	सिक्के	sikke
+coin	oblique		सिक्के	sikke	सिक्कों	sikkõ
+coin	vocative		सिक्के	sikke	सिक्को	sikko
+coin			singular		plural	
+coin	direct		मुद्रा	mudrā	मुद्राएँ	mudrāẽ
+coin	oblique		मुद्रा	mudrā	मुद्राओं	mudrāõ
+coin	vocative		मुद्रा	mudrā	मुद्राओ	mudrāo
+coin			singular		plural	
+coin	direct		टंक	ṭaṅk	टंक	ṭaṅk
+coin	oblique		टंक	ṭaṅk	टंकों	ṭaṅkõ
+coin	vocative		टंक	ṭaṅk	टंको	ṭaṅko
+weath			singular		plural	
+weath	direct		धन	dhan	धन	dhan
+weath	oblique		धन	dhan	धनों	dhanõ
+weath	vocative		धन	dhan	धनो	dhano
+weath			singular		plural	
+weath	direct		संपत्ति	sampatti	संपत्तियाँ	sampattiyā̃
+weath	oblique		संपत्ति	sampatti	संपत्तियों	sampattiyõ
+weath	vocative		संपत्ति	sampatti	संपत्तियो	sampattiyo
+monster			singular		plural	
+monster	direct		राक्षस	rākṣas	राक्षस	rākṣas
+monster	oblique		राक्षस	rākṣas	राक्षसों	rākṣasõ
+monster	vocative		राक्षस	rākṣas	राक्षसो	rākṣaso
+monster			singular		plural	
+monster	direct		देव	dev	देव	dev
+monster	oblique		देव	dev	देवों	devõ
+monster	vocative		देव	dev	देवो	devo
+monster			singular		plural	
+monster	direct		देव	dev	देव	dev
+monster	oblique		देव	dev	देवों	devõ
+monster	vocative		देव	dev	देवो	devo
+monster			singular		plural	
+monster	direct		देव	dev	देव	dev
+monster	oblique		देव	dev	देवों	devõ
+monster	vocative		देव	dev	देवो	devo
 monster			singular		plural	
 monster	direct		दैत्य	daitya	दैत्य	daitya
 monster	oblique		दैत्य	daitya	दैत्यों	daityõ
 monster	vocative		दैत्य	daitya	दैत्यो	daityo
+beast			singular		plural	
+beast	direct		जानवर	jānvar	जानवर	jānvar
+beast	oblique		जानवर	jānvar	जानवरों	jānvarõ
+beast	vocative		जानवर	jānvar	जानवरो	jānvaro
+beast			singular		plural	
+beast	direct		हैवान	haivān	हैवान	haivān
+beast	oblique		हैवान	haivān	हैवानों	haivānõ
+beast	vocative		हैवान	haivān	हैवानो	haivāno
+beast			singular		plural	
+beast	direct		जंतु	jantu	जंतु	jantu
+beast	oblique		जंतु	jantu	जंतुओं	jantuõ
+beast	vocative		जंतु	jantu	जंतुओ	jantuo
+beast			singular		plural	
+beast	direct		मृग	mŕg	मृग	mŕg
+beast	oblique		मृग	mŕg	मृगों	mŕgõ
+beast	vocative		मृग	mŕg	मृगो	mŕgo
 name			singular		plural	
 name	direct		नाम	nām	नाम	nām
 name	oblique		नाम	nām	नामों	nāmõ
 name	vocative		नाम	nām	नामो	nāmo
+name			singular		plural	
+name	direct		इस्म	ism	इस्म	ism
+name	oblique		इस्म	ism	इस्मों	ismõ
+name	vocative		इस्म	ism	इस्मो	ismo
 rock			singular		plural	
-rock	direct		शिला	śilā	शिलाएँ	śilāẽ
-rock	oblique		शिला	śilā	शिलाओं	śilāõ
-rock	vocative		शिला	śilā	शिलाओ	śilāo
+rock	direct		चट्टान	caṭṭān	चट्टानें	caṭṭānẽ
+rock	oblique		चट्टान	caṭṭān	चट्टानों	caṭṭānõ
+rock	vocative		चट्टान	caṭṭān	चट्टानो	caṭṭāno
+stone			singular		plural	
+stone	direct		पत्थर	patthar	पत्थर	patthar
+stone	oblique		पत्थर	patthar	पत्थरों	pattharõ
+stone	vocative		पत्थर	patthar	पत्थरो	pattharo
+stone			singular		plural	
+stone	direct		शिला	śilā	शिलाएँ	śilāẽ
+stone	oblique		शिला	śilā	शिलाओं	śilāõ
+stone	vocative		शिला	śilā	शिलाओ	śilāo
+stone			singular		plural	
+stone	direct		रोड़ा	roṛā	रोड़े	roṛe
+stone	oblique		रोड़े	roṛe	रोड़ों	roṛõ
+stone	vocative		रोड़े	roṛe	रोड़ो	roṛo
+stone			singular		plural	
+stone	direct		संग	saṅg	संग	saṅg
+stone	oblique		संग	saṅg	संगों	saṅgõ
+stone	vocative		संग	saṅg	संगो	saṅgo
+stone			singular		plural	
+stone	direct		संग	saṅg	संग	saṅg
+stone	oblique		संग	saṅg	संगों	saṅgõ
+stone	vocative		संग	saṅg	संगो	saṅgo
+stone			singular		plural	
+stone	direct		सिल	sil	सिलें	silẽ
+stone	oblique		सिल	sil	सिलों	silõ
+stone	vocative		सिल	sil	सिलो	silo
+stone			singular		plural	
+stone	direct		पत्थर	patthar	पत्थर	patthar
+stone	oblique		पत्थर	patthar	पत्थरों	pattharõ
+stone	vocative		पत्थर	patthar	पत्थरो	pattharo
+stone			singular		plural	
+stone	direct		संग	saṅg	संग	saṅg
+stone	oblique		संग	saṅg	संगों	saṅgõ
+stone	vocative		संग	saṅg	संगो	saṅgo
+stone			singular		plural	
+stone	direct		संग	saṅg	संग	saṅg
+stone	oblique		संग	saṅg	संगों	saṅgõ
+stone	vocative		संग	saṅg	संगो	saṅgo
 rope			singular		plural	
 rope	direct		डोरी	ḍorī	डोरियाँ	ḍoriyā̃
 rope	oblique		डोरी	ḍorī	डोरियों	ḍoriyõ
 rope	vocative		डोरी	ḍorī	डोरियो	ḍoriyo
-size			singular		plural	
-size	direct		आकार	ākār	आकार	ākār
-size	oblique		आकार	ākār	आकारों	ākārõ
-size	vocative		आकार	ākār	आकारो	ākāro
-son			singular		plural	
-son	direct		बेटा	beṭā	बेटे	beṭe
-son	oblique		बेटे	beṭe	बेटों	beṭõ
-son	vocative		बेटे	beṭe	बेटो	beṭo
-sound			singular		plural	
-sound	direct		ध्वनी	dhvanī	ध्वनियाँ	dhvaniyā̃
-sound	oblique		ध्वनी	dhvanī	ध्वनियों	dhvaniyõ
-sound	vocative		ध्वनी	dhvanī	ध्वनियो	dhvaniyo
+rope			singular		plural	
+rope	direct		रस्सी	rassī	रस्सियाँ	rassiyā̃
+rope	oblique		रस्सी	rassī	रस्सियों	rassiyõ
+rope	vocative		रस्सी	rassī	रस्सियो	rassiyo
+tool			singular		plural	
+tool	direct		उपकरण	upkaraṇ	उपकरण	upkaraṇ
+tool	oblique		उपकरण	upkaraṇ	उपकरणों	upkaraṇõ
+tool	vocative		उपकरण	upkaraṇ	उपकरणो	upkaraṇo
+tool			singular		plural	
+tool	direct		औज़ार	auzār	औज़ार	auzār
+tool	oblique		औज़ार	auzār	औज़ारों	auzārõ
+tool	vocative		औज़ार	auzār	औज़ारो	auzāro
+tool			singular		plural	
+tool	direct		उपकरण	upkaraṇ	उपकरण	upkaraṇ
+tool	oblique		उपकरण	upkaraṇ	उपकरणों	upkaraṇõ
+tool	vocative		उपकरण	upkaraṇ	उपकरणो	upkaraṇo
+treasure			singular		plural	
+treasure	direct		ख़ज़ाना	xazānā	ख़ज़ाने	xazāne
+treasure	oblique		ख़ज़ाने	xazāne	ख़ज़ानों	xazānõ
+treasure	vocative		ख़ज़ाने	xazāne	ख़ज़ानो	xazāno
+treasure			singular		plural	
+treasure	direct		कोश	koś	कोश	koś
+treasure	oblique		कोश	koś	कोशों	kośõ
+treasure	vocative		कोश	koś	कोशो	kośo
+treasure			singular		plural	
+treasure	direct		निधि	nidhi	निधियाँ	nidhiyā̃
+treasure	oblique		निधि	nidhi	निधियों	nidhiyõ
+treasure	vocative		निधि	nidhi	निधियो	nidhiyo
+treasure			singular	
+treasure	direct		निधि	nidhi
+treasure	oblique		निधि	nidhi
+treasure	vocative		निधि	nidhi
 warmth			singular		plural	
-warmth	direct		ताप	tāp	ताप	tāp
-warmth	oblique		ताप	tāp	तापों	tāpõ
-warmth	vocative		ताप	tāp	तापो	tāpo
+warmth	direct		तपन	tapan	तपन	tapan
+warmth	oblique		तपन	tapan	तपनों	tapanõ
+warmth	vocative		तपन	tapan	तपनो	tapano
+heat			singular		plural	
+heat	direct		गर्मी	garmī	गर्मियाँ	garmiyā̃
+heat	oblique		गर्मी	garmī	गर्मियों	garmiyõ
+heat	vocative		गर्मी	garmī	गर्मियो	garmiyo
+heat			singular		plural	
+heat	direct		ऊष्मा	ūṣmā	ऊष्माएँ	ūṣmāẽ
+heat	oblique		ऊष्मा	ūṣmā	ऊष्माओं	ūṣmāõ
+heat	vocative		ऊष्मा	ūṣmā	ऊष्माओ	ūṣmāo
+heat			singular		plural	
+heat	direct		आँच	ā̃c	आँचें	ā̃cẽ
+heat	oblique		आँच	ā̃c	आँचों	ā̃cõ
+heat	vocative		आँच	ā̃c	आँचो	ā̃co
+heat			singular		plural	
+heat	direct		ताप	tāp	ताप	tāp
+heat	oblique		ताप	tāp	तापों	tāpõ
+heat	vocative		ताप	tāp	तापो	tāpo
+heat			singular		plural	
+heat	direct		तपन	tapan	तपन	tapan
+heat	oblique		तपन	tapan	तपनों	tapanõ
+heat	vocative		तपन	tapan	तपनो	tapano
+heat			singular		plural	
+heat	direct		घर्म	gharm	घर्म	gharm
+heat	oblique		घर्म	gharm	घर्मों	gharmõ
+heat	vocative		घर्म	gharm	घर्मो	gharmo
+heat			singular		plural	
+heat	direct		तपन	tapan	तपन	tapan
+heat	oblique		तपन	tapan	तपनों	tapanõ
+heat	vocative		तपन	tapan	तपनो	tapano
 water			singular		plural	
 water	direct		पानी	pānī	पानी	pānī
 water	oblique		पानी	pānī	पानियों	pāniyõ
 water	vocative		पानी	pānī	पानियो	pāniyo
+water			singular		plural	
+water	direct		जल	jal	जल	jal
+water	oblique		जल	jal	जलों	jalõ
+water	vocative		जल	jal	जलो	jalo
+water			singular		plural	
+water	direct		आब	āb	आब	āb
+water	oblique		आब	āb	आबों	ābõ
+water	vocative		आब	āb	आबो	ābo
+water			singular		plural	
+water	direct		नीर	nīr	नीर	nīr
+water	oblique		नीर	nīr	नीरों	nīrõ
+water	vocative		नीर	nīr	नीरो	nīro
+water			singular		plural	
+water	direct		उदक	udak	उदक	udak
+water	oblique		उदक	udak	उदकों	udakõ
+water	vocative		उदक	udak	उदको	udako
+water			singular		plural	
+water	direct		वाटर	vāṭar	वाटर	vāṭar
+water	oblique		वाटर	vāṭar	वाटरों	vāṭarõ
+water	vocative		वाटर	vāṭar	वाटरो	vāṭaro
+way			singular		plural	
+way	direct		रास्ता	rāstā	रास्ते	rāste
+way	oblique		रास्ते	rāste	रास्तों	rāstõ
+way	vocative		रास्ते	rāste	रास्तो	rāsto
 way			singular		plural	
 way	direct		पथ	path	पथ	path
 way	oblique		पथ	path	पथों	pathõ
 way	vocative		पथ	path	पथो	patho
+way			singular		plural	
+way	direct		राह	rāh	राहें	rāhẽ
+way	oblique		राह	rāh	राहों	rāhõ
+way	vocative		राह	rāh	राहो	rāho
 wind			singular		plural	
 wind	direct		हवा	havā	हवाएँ	havāẽ
 wind	oblique		हवा	havā	हवाओं	havāõ
 wind	vocative		हवा	havā	हवाओ	havāo
-window			singular		plural	
-window	direct		खिड़की	khiṛkī	खिड़कियाँ	khiṛkiyā̃
-window	oblique		खिड़की	khiṛkī	खिड़कियों	khiṛkiyõ
-window	vocative		खिड़की	khiṛkī	खिड़कियो	khiṛkiyo
-woman			singular		plural	
-woman	direct		नारी	nārī	नारियाँ	nāriyā̃
-woman	oblique		नारी	nārī	नारियों	nāriyõ
-woman	vocative		नारी	nārī	नारियो	nāriyo
+wind			singular		plural	
+wind	direct		पवन	pavan	पवन	pavan
+wind	oblique		पवन	pavan	पवनों	pavanõ
+wind	vocative		पवन	pavan	पवनो	pavano
+wind			singular	
+wind	direct		पवन	pavan
+wind	oblique		पवन	pavan
+wind	vocative		पवन	pavan
+wind			singular		plural	
+wind	direct		वात	vāt	वात	vāt
+wind	oblique		वात	vāt	वातों	vātõ
+wind	vocative		वात	vāt	वातो	vāto
+wind			singular		plural	
+wind	direct		वात	vāt	वात	vāt
+wind	oblique		वात	vāt	वातों	vātõ
+wind	vocative		वात	vāt	वातो	vāto
+wolf				singular			plural		
+wolf	direct			भेड़िया	bheṛiyā		भेड़िए, भेड़िये, 	bheṛie	bheṛiye
+wolf	oblique			भेड़िए, भेड़िये, 	bheṛie	bheṛiye	भेड़ियों	bheṛiyõ	
+wolf	vocative			भेड़िए, भेड़िये, 	bheṛie	bheṛiye	भेड़ियो	bheṛiyo	
+wolf			singular		plural	
+wolf	direct		वृक	vŕk	वृक	vŕk
+wolf	oblique		वृक	vŕk	वृकों	vŕkõ
+wolf	vocative		वृक	vŕk	वृको	vŕko
+wood			singular		plural	
+wood	direct		लकड़ी	lakṛī	लकड़ियाँ	lakṛiyā̃
+wood	oblique		लकड़ी	lakṛī	लकड़ियों	lakṛiyõ
+wood	vocative		लकड़ी	lakṛī	लकड़ियो	lakṛiyo
+wood			singular		plural	
+wood	direct		काठ	kāṭh	काठ	kāṭh
+wood	oblique		काठ	kāṭh	काठों	kāṭhõ
+wood	vocative		काठ	kāṭh	काठो	kāṭho
+work			singular		plural	
+work	direct		काम	kām	काम	kām
+work	oblique		काम	kām	कामों	kāmõ
+work	vocative		काम	kām	कामो	kāmo
+work			singular		plural	
+work	direct		काम	kām	काम	kām
+work	oblique		काम	kām	कामों	kāmõ
+work	vocative		काम	kām	कामो	kāmo
+work			singular		plural	
+work	direct		श्रम	śram	श्रम	śram
+work	oblique		श्रम	śram	श्रमों	śramõ
+work	vocative		श्रम	śram	श्रमो	śramo
+work			singular		plural	
+work	direct		उद्योग	udyog	उद्योग	udyog
+work	oblique		उद्योग	udyog	उद्योगों	udyogõ
+work	vocative		उद्योग	udyog	उद्योगो	udyogo
+work			singular		plural	
+work	direct		वृत्ति	vŕtti	वृत्तियाँ	vŕttiyā̃
+work	oblique		वृत्ति	vŕtti	वृत्तियों	vŕttiyõ
+work	vocative		वृत्ति	vŕtti	वृत्तियो	vŕttiyo
 work			singular		plural	
 work	direct		कार्य	kārya	कार्य	kārya
 work	oblique		कार्य	kārya	कार्यों	kāryõ
 work	vocative		कार्य	kārya	कार्यो	kāryo
+work			singular		plural	
+work	direct		कार	kār	कार	kār
+work	oblique		कार	kār	कारों	kārõ
+work	vocative		कार	kār	कारो	kāro
+work			singular		plural	
+work	direct		कार	kār	कार	kār
+work	oblique		कार	kār	कारों	kārõ
+work	vocative		कार	kār	कारो	kāro
+work			singular		plural	
+work	direct		कार	kār	कारें	kārẽ
+work	oblique		कार	kār	कारों	kārõ
+work	vocative		कार	kār	कारो	kāro
+work			singular		plural	
+work	direct		कर्म	karm	कर्म	karm
+work	oblique		कर्म	karm	कर्मों	karmõ
+work	vocative		कर्म	karm	कर्मो	karmo
+work			singular		plural	
+work	direct		अमल	amal	अमल	amal
+work	oblique		अमल	amal	अमलों	amalõ
+work	vocative		अमल	amal	अमलो	amalo
+worker			singular		plural	
+worker	direct		मज़दूर	mazdūr	मज़दूर	mazdūr
+worker	oblique		मज़दूर	mazdūr	मज़दूरों	mazdūrõ
+worker	vocative		मज़दूर	mazdūr	मज़दूरो	mazdūro
+worker			singular		plural	
+worker	direct		श्रमिक	śramik	श्रमिक	śramik
+worker	oblique		श्रमिक	śramik	श्रमिकों	śramikõ
+worker	vocative		श्रमिक	śramik	श्रमिको	śramiko
+worker			singular		plural	
+worker	direct		कामगार	kāmgār	कामगार	kāmgār
+worker	oblique		कामगार	kāmgār	कामगारों	kāmgārõ
+worker	vocative		कामगार	kāmgār	कामगारो	kāmgāro
+worm			singular		plural	
+worm	direct		कीड़ा	kīṛā	कीड़े	kīṛe
+worm	oblique		कीड़े	kīṛe	कीड़ों	kīṛõ
+worm	vocative		कीड़े	kīṛe	कीड़ो	kīṛo
+worm			singular		plural	
+worm	direct		पोका	pokā	पोके	poke
+worm	oblique		पोके	poke	पोकों	pokõ
+worm	vocative		पोके	poke	पोको	poko
+language			singular		plural	
+language	direct		भाषा	bhāṣā	भाषाएँ	bhāṣāẽ
+language	oblique		भाषा	bhāṣā	भाषाओं	bhāṣāõ
+language	vocative		भाषा	bhāṣā	भाषाओ	bhāṣāo
+language			singular		plural	
+language	direct		बोली	bolī	बोलियाँ	boliyā̃
+language	oblique		बोली	bolī	बोलियों	boliyõ
+language	vocative		बोली	bolī	बोलियो	boliyo
+language			singular		plural	
+language	direct		भाखा	bhākhā	भाखाएँ	bhākhāẽ
+language	oblique		भाखा	bhākhā	भाखाओं	bhākhāõ
+language	vocative		भाखा	bhākhā	भाखाओ	bhākhāo
+language			singular		plural	
+language	direct		भासा	bhāsā	भासाएँ	bhāsāẽ
+language	oblique		भासा	bhāsā	भासाओं	bhāsāõ
+language	vocative		भासा	bhāsā	भासाओ	bhāsāo
+language			singular		plural	
+language	direct		वाणी	vāṇī	वाणियाँ	vāṇiyā̃
+language	oblique		वाणी	vāṇī	वाणियों	vāṇiyõ
+language	vocative		वाणी	vāṇī	वाणियो	vāṇiyo
+language			singular	
+language	direct		वाणी	vāṇī
+language	oblique		वाणी	vāṇī
+language	vocative		वाणी	vāṇī
+town			singular		plural	
+town	direct		शहर	śahar	शहर	śahar
+town	oblique		शहर	śahar	शहरों	śaharõ
+town	vocative		शहर	śahar	शहरो	śaharo
+town			singular		plural	
+town	direct		नगर	nagar	नगर	nagar
+town	oblique		नगर	nagar	नगरों	nagarõ
+town	vocative		नगर	nagar	नगरो	nagaro
+river			singular		plural	
+river	direct		नदी	nadī	नदियाँ	nadiyā̃
+river	oblique		नदी	nadī	नदियों	nadiyõ
+river	vocative		नदी	nadī	नदियो	nadiyo
+river			singular		plural	
+river	direct		सरिता	saritā	सरिताएँ	saritāẽ
+river	oblique		सरिता	saritā	सरिताओं	saritāõ
+river	vocative		सरिता	saritā	सरिताओ	saritāo
+river			singular	
+river	direct		सरिता	saritā
+river	oblique		सरिता	saritā
+river	vocative		सरिता	saritā
+river			singular		plural	
+river	direct		शैलजा	śailjā	शैलजाएँ	śailjāẽ
+river	oblique		शैलजा	śailjā	शैलजाओं	śailjāõ
+river	vocative		शैलजा	śailjā	शैलजाओ	śailjāo
+river			singular	
+river	direct		शैलजा	śailjā
+river	oblique		शैलजा	śailjā
+river	vocative		शैलजा	śailjā
+river			singular		plural	
+river	direct		नदी	nadī	नदियाँ	nadiyā̃
+river	oblique		नदी	nadī	नदियों	nadiyõ
+river	vocative		नदी	nadī	नदियो	nadiyo
+summer			singular		plural	
+summer	direct		ग्रीष्म	grīṣma	ग्रीष्म	grīṣma
+summer	oblique		ग्रीष्म	grīṣma	ग्रीष्मों	grīṣmõ
+summer	vocative		ग्रीष्म	grīṣma	ग्रीष्मो	grīṣmo
+summer			singular		plural	
+summer	direct		गर्मी	garmī	गर्मियाँ	garmiyā̃
+summer	oblique		गर्मी	garmī	गर्मियों	garmiyõ
+summer	vocative		गर्मी	garmī	गर्मियो	garmiyo
+summer			singular		plural	
+summer	direct		गर्मी	garmī	गर्मियाँ	garmiyā̃
+summer	oblique		गर्मी	garmī	गर्मियों	garmiyõ
+summer	vocative		गर्मी	garmī	गर्मियो	garmiyo
+spring			singular		plural	
+spring	direct		बसंत	basant	बसंत	basant
+spring	oblique		बसंत	basant	बसंतों	basantõ
+spring	vocative		बसंत	basant	बसंतो	basanto
+spring			singular		plural	
+spring	direct		वसंत	vasant	वसंत	vasant
+spring	oblique		वसंत	vasant	वसंतों	vasantõ
+spring	vocative		वसंत	vasant	वसंतो	vasanto
+spring			singular		plural	
+spring	direct		बहार	bahār	बहारें	bahārẽ
+spring	oblique		बहार	bahār	बहारों	bahārõ
+spring	vocative		बहार	bahār	बहारो	bahāro
+spring			singular		plural	
+spring	direct		बसंत	basant	बसंत	basant
+spring	oblique		बसंत	basant	बसंतों	basantõ
+spring	vocative		बसंत	basant	बसंतो	basanto
+spring			singular		plural	
+spring	direct		बहार	bahār	बहारें	bahārẽ
+spring	oblique		बहार	bahār	बहारों	bahārõ
+spring	vocative		बहार	bahār	बहारो	bahāro
+spring			singular		plural	
+spring	direct		वसंत	vasant	वसंत	vasant
+spring	oblique		वसंत	vasant	वसंतों	vasantõ
+spring	vocative		वसंत	vasant	वसंतो	vasanto
+spring			singular		plural	
+spring	direct		बहार	bahār	बहारें	bahārẽ
+spring	oblique		बहार	bahār	बहारों	bahārõ
+spring	vocative		बहार	bahār	बहारो	bahāro
+autumn			singular	
+autumn	direct		शरद्	śarad
+autumn	oblique		शरद्	śarad
+autumn	vocative		शरद्	śarad
+autumn			singular		plural	
+autumn	direct		पतझड़	patjhaṛ	पतझड़ें	patjhaṛẽ
+autumn	oblique		पतझड़	patjhaṛ	पतझड़ों	patjhaṛõ
+autumn	vocative		पतझड़	patjhaṛ	पतझड़ो	patjhaṛo
+winter			singular		plural	
+winter	direct		शीत	śīt	शीत	śīt
+winter	oblique		शीत	śīt	शीतों	śītõ
+winter	vocative		शीत	śīt	शीतो	śīto
+winter			singular		plural	
+winter	direct		हेमंत	hemant	हेमंत	hemant
+winter	oblique		हेमंत	hemant	हेमंतों	hemantõ
+winter	vocative		हेमंत	hemant	हेमंतो	hemanto
+winter			singular	
+winter	direct		हेमंत	hemant
+winter	oblique		हेमंत	hemant
+winter	vocative		हेमंत	hemant
+winter			singular		plural	
+winter	direct		सर्दी	sardī	सर्दियाँ	sardiyā̃
+winter	oblique		सर्दी	sardī	सर्दियों	sardiyõ
+winter	vocative		सर्दी	sardī	सर्दियो	sardiyo
+winter			singular		plural	
+winter	direct		जाड़ा	jāṛā	जाड़ाएँ	jāṛāẽ
+winter	oblique		जाड़ा	jāṛā	जाड़ाओं	jāṛāõ
+winter	vocative		जाड़ा	jāṛā	जाड़ाओ	jāṛāo
+winter			singular		plural	
+winter	direct		शिशिर	śiśir	शिशिर	śiśir
+winter	oblique		शिशिर	śiśir	शिशिरों	śiśirõ
+winter	vocative		शिशिर	śiśir	शिशिरो	śiśiro
+winter			singular	
+winter	direct		शिशिर	śiśir
+winter	oblique		शिशिर	śiśir
+winter	vocative		शिशिर	śiśir
+year			singular		plural	
+year	direct		साल	sāl	साल	sāl
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		साल	sāl	साल	sāl
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		साल	sāl	साल	sāl
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		साल	sāl	सालें	sālẽ
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		साल	sāl	साल	sāl
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		वर्ष	varṣ	वर्ष	varṣ
+year	oblique		वर्ष	varṣ	वर्षों	varṣõ
+year	vocative		वर्ष	varṣ	वर्षो	varṣo
+year			singular		plural	
+year	direct		सन	san	सन	san
+year	oblique		सन	san	सनों	sanõ
+year	vocative		सन	san	सनो	sano
+year			singular		plural	
+year	direct		सन	san	सनें	sanẽ
+year	oblique		सन	san	सनों	sanõ
+year	vocative		सन	san	सनो	sano
+year			singular		plural	
+year	direct		संवत्सर	samvatsar	संवत्सर	samvatsar
+year	oblique		संवत्सर	samvatsar	संवत्सरों	samvatsarõ
+year	vocative		संवत्सर	samvatsar	संवत्सरो	samvatsaro
+year			singular		plural	
+year	direct		वत्सर	vatsar	वत्सर	vatsar
+year	oblique		वत्सर	vatsar	वत्सरों	vatsarõ
+year	vocative		वत्सर	vatsar	वत्सरो	vatsaro
+year			singular		plural	
+year	direct		काल	kāl	काल	kāl
+year	oblique		काल	kāl	कालों	kālõ
+year	vocative		काल	kāl	कालो	kālo
+year			singular		plural	
+year	direct		काल	kāl	काल	kāl
+year	oblique		काल	kāl	कालों	kālõ
+year	vocative		काल	kāl	कालो	kālo
+year			singular		plural	
+year	direct		मासल	māsal	मासल	māsal
+year	oblique		मासल	māsal	मासलों	māsalõ
+year	vocative		मासल	māsal	मासलो	māsalo
+year			singular		plural	
+year	direct		अब्द	abd	अब्द	abd
+year	oblique		अब्द	abd	अब्दों	abdõ
+year	vocative		अब्द	abd	अब्दो	abdo
+year			singular		plural	
+year	direct		मासमान	māsmān	मासमान	māsmān
+year	oblique		मासमान	māsmān	मासमानों	māsmānõ
+year	vocative		मासमान	māsmān	मासमानो	māsmāno
+year			singular		plural	
+year	direct		साल	sāl	साल	sāl
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		साल	sāl	साल	sāl
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		साल	sāl	साल	sāl
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		साल	sāl	सालें	sālẽ
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		साल	sāl	साल	sāl
+year	oblique		साल	sāl	सालों	sālõ
+year	vocative		साल	sāl	सालो	sālo
+year			singular		plural	
+year	direct		संवत्सर	samvatsar	संवत्सर	samvatsar
+year	oblique		संवत्सर	samvatsar	संवत्सरों	samvatsarõ
+year	vocative		संवत्सर	samvatsar	संवत्सरो	samvatsaro
+year			singular		plural	
+year	direct		वत्सर	vatsar	वत्सर	vatsar
+year	oblique		वत्सर	vatsar	वत्सरों	vatsarõ
+year	vocative		वत्सर	vatsar	वत्सरो	vatsaro
+year			singular		plural	
+year	direct		काल	kāl	काल	kāl
+year	oblique		काल	kāl	कालों	kālõ
+year	vocative		काल	kāl	कालो	kālo
+year			singular		plural	
+year	direct		काल	kāl	काल	kāl
+year	oblique		काल	kāl	कालों	kālõ
+year	vocative		काल	kāl	कालो	kālo
+day			singular		plural	
+day	direct		दिन	din	दिन	din
+day	oblique		दिन	din	दिनों	dinõ
+day	vocative		दिन	din	दिनो	dino
+day			singular		plural	
+day	direct		दिवस	divas	दिवस	divas
+day	oblique		दिवस	divas	दिवसों	divasõ
+day	vocative		दिवस	divas	दिवसो	divaso
+day			singular		plural	
+day	direct		दिन	din	दिन	din
+day	oblique		दिन	din	दिनों	dinõ
+day	vocative		दिन	din	दिनो	dino
+day			singular		plural	
+day	direct		वार	vār	वार	vār
+day	oblique		वार	vār	वारों	vārõ
+day	vocative		वार	vār	वारो	vāro
+day			singular		plural	
+day	direct		दिवस	divas	दिवस	divas
+day	oblique		दिवस	divas	दिवसों	divasõ
+day	vocative		दिवस	divas	दिवसो	divaso
+day			singular		plural	
+day	direct		दिहाड़ा	dihāṛā	दिहाड़े	dihāṛe
+day	oblique		दिहाड़े	dihāṛe	दिहाड़ों	dihāṛõ
+day	vocative		दिहाड़े	dihāṛe	दिहाड़ो	dihāṛo
+day			singular		plural	
+day	direct		दिन	din	दिन	din
+day	oblique		दिन	din	दिनों	dinõ
+day	vocative		दिन	din	दिनो	dino
+day			singular		plural	
+day	direct		दिवस	divas	दिवस	divas
+day	oblique		दिवस	divas	दिवसों	divasõ
+day	vocative		दिवस	divas	दिवसो	divaso
+day			singular		plural	
+day	direct		दिन	din	दिन	din
+day	oblique		दिन	din	दिनों	dinõ
+day	vocative		दिन	din	दिनो	dino
+day			singular		plural	
+day	direct		दिवस	divas	दिवस	divas
+day	oblique		दिवस	divas	दिवसों	divasõ
+day	vocative		दिवस	divas	दिवसो	divaso
+moon			singular		plural	
+moon	direct		चांद	cānd	चांद	cānd
+moon	oblique		चांद	cānd	चांदों	cāndõ
+moon	vocative		चांद	cānd	चांदो	cāndo
+moon			singular		plural	
+moon	direct		मयंक	mayaṅk	मयंक	mayaṅk
+moon	oblique		मयंक	mayaṅk	मयंकों	mayaṅkõ
+moon	vocative		मयंक	mayaṅk	मयंको	mayaṅko
+moon			singular	
+moon	direct		मयंक	mayaṅk
+moon	oblique		मयंक	mayaṅk
+moon	vocative		मयंक	mayaṅk
+moon			singular		plural	
+moon	direct		मृगांक	mŕgāṅk	मृगांक	mŕgāṅk
+moon	oblique		मृगांक	mŕgāṅk	मृगांकों	mŕgāṅkõ
+moon	vocative		मृगांक	mŕgāṅk	मृगांको	mŕgāṅko
+moon			singular	
+moon	direct		मृगांक	mŕgāṅk
+moon	oblique		मृगांक	mŕgāṅk
+moon	vocative		मृगांक	mŕgāṅk
+moon			singular		plural	
+moon	direct		शशांक	śaśāṅk	शशांक	śaśāṅk
+moon	oblique		शशांक	śaśāṅk	शशांकों	śaśāṅkõ
+moon	vocative		शशांक	śaśāṅk	शशांको	śaśāṅko
+moon			singular	
+moon	direct		शशांक	śaśāṅk
+moon	oblique		शशांक	śaśāṅk
+moon	vocative		शशांक	śaśāṅk
+moon			singular		plural	
+moon	direct		चंद्र	candra	चंद्र	candra
+moon	oblique		चंद्र	candra	चंद्रों	candrõ
+moon	vocative		चंद्र	candra	चंद्रो	candro
+moon			singular	
+moon	direct		चंद्र	candra
+moon	oblique		चंद्र	candra
+moon	vocative		चंद्र	candra
+moon			singular		plural	
+moon	direct		इंदु	indu	इंदु	indu
+moon	oblique		इंदु	indu	इंदुओं	induõ
+moon	vocative		इंदु	indu	इंदुओ	induo
+moon			singular		plural	
+moon	direct		सोम	som	सोम	som
+moon	oblique		सोम	som	सोमों	somõ
+moon	vocative		सोम	som	सोमो	somo
+moon			singular	
+moon	direct		सोम	som
+moon	oblique		सोम	som
+moon	vocative		सोम	som
+moon			singular		plural	
+moon	direct		शशि	śaśi	शशि	śaśi
+moon	oblique		शशि	śaśi	शशियों	śaśiyõ
+moon	vocative		शशि	śaśi	शशियो	śaśiyo
+moon			singular	
+moon	direct		शशि	śaśi
+moon	oblique		शशि	śaśi
+moon	vocative		शशि	śaśi
+moon			singular		plural	
+moon	direct		सुधांशु	sudhāñśu	सुधांशु	sudhāñśu
+moon	oblique		सुधांशु	sudhāñśu	सुधांशुओं	sudhāñśuõ
+moon	vocative		सुधांशु	sudhāñśu	सुधांशुओ	sudhāñśuo
+moon			singular	
+moon	direct		सुधांशु	sudhāñśu
+moon	oblique		सुधांशु	sudhāñśu
+moon	vocative		सुधांशु	sudhāñśu
+moon			singular		plural	
+moon	direct		हिमांशु	himāñśu	हिमांशु	himāñśu
+moon	oblique		हिमांशु	himāñśu	हिमांशुओं	himāñśuõ
+moon	vocative		हिमांशु	himāñśu	हिमांशुओ	himāñśuo
+moon			singular	
+moon	direct		हिमांशु	himāñśu
+moon	oblique		हिमांशु	himāñśu
+moon	vocative		हिमांशु	himāñśu
+moon			singular		plural	
+moon	direct		विधु	vidhu	विधु	vidhu
+moon	oblique		विधु	vidhu	विधुओं	vidhuõ
+moon	vocative		विधु	vidhu	विधुओ	vidhuo
+moon			singular	
+moon	direct		विधु	vidhu
+moon	oblique		विधु	vidhu
+moon	vocative		विधु	vidhu
+moon			singular		plural	
+moon	direct		जयंत	jayant	जयंत	jayant
+moon	oblique		जयंत	jayant	जयंतों	jayantõ
+moon	vocative		जयंत	jayant	जयंतो	jayanto
+moon			singular	
+moon	direct		जयंत	jayant
+moon	oblique		जयंत	jayant
+moon	vocative		जयंत	jayant
+moon			singular		plural	
+moon	direct		माह	māh	माह	māh
+moon	oblique		माह	māh	माहों	māhõ
+moon	vocative		माह	māh	माहो	māho
+moon			singular		plural	
+moon	direct		महताब	mahtāb	महताब	mahtāb
+moon	oblique		महताब	mahtāb	महताबों	mahtābõ
+moon	vocative		महताब	mahtāb	महताबो	mahtābo
+moon			singular	
+moon	direct		क़मर	qamar
+moon	oblique		क़मर	qamar
+moon	vocative		क़मर	qamar
+moon			singular		plural	
+moon	direct		चाँद	cā̃d	चाँद	cā̃d
+moon	oblique		चाँद	cā̃d	चाँदों	cā̃dõ
+moon	vocative		चाँद	cā̃d	चाँदो	cā̃do
+moon				singular			plural		
+moon	direct			उपग्रह, 	upgrah	upagrah	उपग्रह, 	upgrah	upagrah
+moon	oblique			उपग्रह, 	upgrah	upagrah	उपग्रहों, 	upgrahõ	upagrahõ
+moon	vocative			उपग्रह, 	upgrah	upagrah	उपग्रहो, 	upgraho	upagraho
+sun			singular		plural	
+sun	direct		ख़्वुरशेद	xvurśed	ख़्वुरशेद	xvurśed
+sun	oblique		ख़्वुरशेद	xvurśed	ख़्वुरशेदों	xvurśedõ
+sun	vocative		ख़्वुरशेद	xvurśed	ख़्वुरशेदो	xvurśedo
+sun			singular		plural	
+sun	direct		रवि	ravi	रवि	ravi
+sun	oblique		रवि	ravi	रवियों	raviyõ
+sun	vocative		रवि	ravi	रवियो	raviyo
+sun			singular	
+sun	direct		रवि	ravi
+sun	oblique		रवि	ravi
+sun	vocative		रवि	ravi
+sun			singular		plural	
+sun	direct		आफ़ताब	āftāb	आफ़ताब	āftāb
+sun	oblique		आफ़ताब	āftāb	आफ़ताबों	āftābõ
+sun	vocative		आफ़ताब	āftāb	आफ़ताबो	āftābo
+sun			singular		plural	
+sun	direct		आफ़ताब	āftāb	आफ़ताब	āftāb
+sun	oblique		आफ़ताब	āftāb	आफ़ताबों	āftābõ
+sun	vocative		आफ़ताब	āftāb	आफ़ताबो	āftābo
+planet			singular		plural	
+planet	direct		ग्रह	grah	ग्रह	grah
+planet	oblique		ग्रह	grah	ग्रहों	grahõ
+planet	vocative		ग्रह	grah	ग्रहो	graho
+planet			singular		plural	
+planet	direct		ग्रह	grah	ग्रह	grah
+planet	oblique		ग्रह	grah	ग्रहों	grahõ
+planet	vocative		ग्रह	grah	ग्रहो	graho
+planet			singular		plural	
+planet	direct		ग्रह	grah	ग्रह	grah
+planet	oblique		ग्रह	grah	ग्रहों	grahõ
+planet	vocative		ग्रह	grah	ग्रहो	graho
+star			singular		plural	
+star	direct		तारा	tārā	तारे	tāre
+star	oblique		तारे	tāre	तारों	tārõ
+star	vocative		तारे	tāre	तारो	tāro
+star			singular		plural	
+star	direct		सितारा	sitārā	सितारे	sitāre
+star	oblique		सितारे	sitāre	सितारों	sitārõ
+star	vocative		सितारे	sitāre	सितारो	sitāro
+man			singular		plural	
+man	direct		पुरुष	puruṣ	पुरुष	puruṣ
+man	oblique		पुरुष	puruṣ	पुरुषों	puruṣõ
+man	vocative		पुरुष	puruṣ	पुरुषो	puruṣo
+man			singular		plural	
+man	direct		नर	nar	नर	nar
+man	oblique		नर	nar	नरों	narõ
+man	vocative		नर	nar	नरो	naro
+man			singular		plural	
+man	direct		मानुस	mānus	मानुस	mānus
+man	oblique		मानुस	mānus	मानुसों	mānusõ
+man	vocative		मानुस	mānus	मानुसो	mānuso
+man			singular		plural	
+man	direct		मानस	mānas	मानस	mānas
+man	oblique		मानस	mānas	मानसों	mānasõ
+man	vocative		मानस	mānas	मानसो	mānaso
+man			singular		plural	
+man	direct		मानस	mānas	मानस	mānas
+man	oblique		मानस	mānas	मानसों	mānasõ
+man	vocative		मानस	mānas	मानसो	mānaso
+man			singular		plural	
+man	direct		आदमी	ādmī	आदमी	ādmī
+man	oblique		आदमी	ādmī	आदमियों	ādmiyõ
+man	vocative		आदमी	ādmī	आदमियो	ādmiyo
+man			singular		plural	
+man	direct		मर्द	mard	मर्द	mard
+man	oblique		मर्द	mard	मर्दों	mardõ
+man	vocative		मर्द	mard	मर्दो	mardo
+man			singular		plural	
+man	direct		मर्द	mard	मर्द	mard
+man	oblique		मर्द	mard	मर्दों	mardõ
+man	vocative		मर्द	mard	मर्दो	mardo
+man			singular		plural	
+man	direct		मानव	mānav	मानव	mānav
+man	oblique		मानव	mānav	मानवों	mānavõ
+man	vocative		मानव	mānav	मानवो	mānavo
+man			singular	
+man	direct		मानव	mānav
+man	oblique		मानव	mānav
+man	vocative		मानव	mānav
+woman			singular		plural	
+woman	direct		महिला	mahilā	महिलाएँ	mahilāẽ
+woman	oblique		महिला	mahilā	महिलाओं	mahilāõ
+woman	vocative		महिला	mahilā	महिलाओ	mahilāo
+woman			singular		plural	
+woman	direct		नारी	nārī	नारियाँ	nāriyā̃
+woman	oblique		नारी	nārī	नारियों	nāriyõ
+woman	vocative		नारी	nārī	नारियो	nāriyo
+woman			singular		plural	
+woman	direct		स्त्री	strī	स्त्रियाँ	striyā̃
+woman	oblique		स्त्री	strī	स्त्रियों	striyõ
+woman	vocative		स्त्री	strī	स्त्रियो	striyo
+woman			singular		plural	
+woman	direct		औरत	aurat	औरतें	auratẽ
+woman	oblique		औरत	aurat	औरतों	auratõ
+woman	vocative		औरत	aurat	औरतो	aurato
+human			singular		plural	
+human	direct		मनुष्य	manuṣya	मनुष्य	manuṣya
+human	oblique		मनुष्य	manuṣya	मनुष्यों	manuṣyõ
+human	vocative		मनुष्य	manuṣya	मनुष्यो	manuṣyo
+human			singular		plural	
+human	direct		मानव	mānav	मानव	mānav
+human	oblique		मानव	mānav	मानवों	mānavõ
+human	vocative		मानव	mānav	मानवो	mānavo
+human			singular	
+human	direct		मानव	mānav
+human	oblique		मानव	mānav
+human	vocative		मानव	mānav
+human			singular		plural	
+human	direct		इंसान	insān	इंसान	insān
+human	oblique		इंसान	insān	इंसानों	insānõ
+human	vocative		इंसान	insān	इंसानो	insāno
+human			plural	
+human	direct		लोग	log
+human	oblique		लोगों	logõ
+human	vocative		लोगो	logo
+human			singular		plural	
+human	direct		आदमी	ādmī	आदमी	ādmī
+human	oblique		आदमी	ādmī	आदमियों	ādmiyõ
+human	vocative		आदमी	ādmī	आदमियो	ādmiyo
+human			singular		plural	
+human	direct		आदम	ādam	आदम	ādam
+human	oblique		आदम	ādam	आदमों	ādamõ
+human	vocative		आदम	ādam	आदमो	ādamo
+human			singular		plural	
+human	direct		आदम	ādam	आदम	ādam
+human	oblique		आदम	ādam	आदमों	ādamõ
+human	vocative		आदम	ādam	आदमो	ādamo
+human			singular		plural	
+human	direct		जन	jan	जन	jan
+human	oblique		जन	jan	जनों	janõ
+human	vocative		जन	jan	जनो	jano
+human			singular		plural	
+human	direct		व्यक्ति	vyakti	व्यक्ति	vyakti
+human	oblique		व्यक्ति	vyakti	व्यक्तियों	vyaktiyõ
+human	vocative		व्यक्ति	vyakti	व्यक्तियो	vyaktiyo
+human			singular		plural	
+human	direct		मानस	mānas	मानस	mānas
+human	oblique		मानस	mānas	मानसों	mānasõ
+human	vocative		मानस	mānas	मानसो	mānaso
+human			singular		plural	
+human	direct		मानस	mānas	मानस	mānas
+human	oblique		मानस	mānas	मानसों	mānasõ
+human	vocative		मानस	mānas	मानसो	mānaso
+human			singular		plural	
+human	direct		मानुस	mānus	मानुस	mānus
+human	oblique		मानुस	mānus	मानुसों	mānusõ
+human	vocative		मानुस	mānus	मानुसो	mānuso
+human			singular		plural	
+human	direct		मनुष्य	manuṣya	मनुष्य	manuṣya
+human	oblique		मनुष्य	manuṣya	मनुष्यों	manuṣyõ
+human	vocative		मनुष्य	manuṣya	मनुष्यो	manuṣyo
+human			singular		plural	
+human	direct		मानव	mānav	मानव	mānav
+human	oblique		मानव	mānav	मानवों	mānavõ
+human	vocative		मानव	mānav	मानवो	mānavo
+human			singular	
+human	direct		मानव	mānav
+human	oblique		मानव	mānav
+human	vocative		मानव	mānav
+human			singular		plural	
+human	direct		इंसान	insān	इंसान	insān
+human	oblique		इंसान	insān	इंसानों	insānõ
+human	vocative		इंसान	insān	इंसानो	insāno
+human			plural	
+human	direct		लोग	log
+human	oblique		लोगों	logõ
+human	vocative		लोगो	logo
+human			singular		plural	
+human	direct		आदमी	ādmī	आदमी	ādmī
+human	oblique		आदमी	ādmī	आदमियों	ādmiyõ
+human	vocative		आदमी	ādmī	आदमियो	ādmiyo
+human			singular		plural	
+human	direct		आदम	ādam	आदम	ādam
+human	oblique		आदम	ādam	आदमों	ādamõ
+human	vocative		आदम	ādam	आदमो	ādamo
+human			singular		plural	
+human	direct		आदम	ādam	आदम	ādam
+human	oblique		आदम	ādam	आदमों	ādamõ
+human	vocative		आदम	ādam	आदमो	ādamo
+human			singular		plural	
+human	direct		जन	jan	जन	jan
+human	oblique		जन	jan	जनों	janõ
+human	vocative		जन	jan	जनो	jano
+human			singular		plural	
+human	direct		व्यक्ति	vyakti	व्यक्ति	vyakti
+human	oblique		व्यक्ति	vyakti	व्यक्तियों	vyaktiyõ
+human	vocative		व्यक्ति	vyakti	व्यक्तियो	vyaktiyo
+human			singular		plural	
+human	direct		मानस	mānas	मानस	mānas
+human	oblique		मानस	mānas	मानसों	mānasõ
+human	vocative		मानस	mānas	मानसो	mānaso
+human			singular		plural	
+human	direct		मानस	mānas	मानस	mānas
+human	oblique		मानस	mānas	मानसों	mānasõ
+human	vocative		मानस	mānas	मानसो	mānaso
+human			singular		plural	
+human	direct		मानुस	mānus	मानुस	mānus
+human	oblique		मानुस	mānus	मानुसों	mānusõ
+human	vocative		मानुस	mānus	मानुसो	mānuso
+animal			singular		plural	
+animal	direct		पशु	paśu	पशु	paśu
+animal	oblique		पशु	paśu	पशुओं	paśuõ
+animal	vocative		पशु	paśu	पशुओ	paśuo
+animal			singular		plural	
+animal	direct		जानवर	jānvar	जानवर	jānvar
+animal	oblique		जानवर	jānvar	जानवरों	jānvarõ
+animal	vocative		जानवर	jānvar	जानवरो	jānvaro
+animal			singular		plural	
+animal	direct		हैवान	haivān	हैवान	haivān
+animal	oblique		हैवान	haivān	हैवानों	haivānõ
+animal	vocative		हैवान	haivān	हैवानो	haivāno
+animal			singular		plural	
+animal	direct		जंतु	jantu	जंतु	jantu
+animal	oblique		जंतु	jantu	जंतुओं	jantuõ
+animal	vocative		जंतु	jantu	जंतुओ	jantuo
+animal			singular		plural	
+animal	direct		प्राणी	prāṇī	प्राणी	prāṇī
+animal	oblique		प्राणी	prāṇī	प्राणियों	prāṇiyõ
+animal	vocative		प्राणी	prāṇī	प्राणियो	prāṇiyo
+animal			singular		plural	
+animal	direct		मृग	mŕg	मृग	mŕg
+animal	oblique		मृग	mŕg	मृगों	mŕgõ
+animal	vocative		मृग	mŕg	मृगो	mŕgo
+animal			singular		plural	
+animal	direct		हैवान	haivān	हैवान	haivān
+animal	oblique		हैवान	haivān	हैवानों	haivānõ
+animal	vocative		हैवान	haivān	हैवानो	haivāno
+animal			singular		plural	
+animal	direct		जंतु	jantu	जंतु	jantu
+animal	oblique		जंतु	jantu	जंतुओं	jantuõ
+animal	vocative		जंतु	jantu	जंतुओ	jantuo
+animal			singular		plural	
+animal	direct		जानवर	jānvar	जानवर	jānvar
+animal	oblique		जानवर	jānvar	जानवरों	jānvarõ
+animal	vocative		जानवर	jānvar	जानवरो	jānvaro
+animal			singular		plural	
+animal	direct		हैवान	haivān	हैवान	haivān
+animal	oblique		हैवान	haivān	हैवानों	haivānõ
+animal	vocative		हैवान	haivān	हैवानो	haivāno
+animal			singular		plural	
+animal	direct		जंतु	jantu	जंतु	jantu
+animal	oblique		जंतु	jantu	जंतुओं	jantuõ
+animal	vocative		जंतु	jantu	जंतुओ	jantuo
+animal			singular		plural	
+animal	direct		जानवर	jānvar	जानवर	jānvar
+animal	oblique		जानवर	jānvar	जानवरों	jānvarõ
+animal	vocative		जानवर	jānvar	जानवरो	jānvaro
+son			singular		plural	
+son	direct		बेटा	beṭā	बेटे	beṭe
+son	oblique		बेटे	beṭe	बेटों	beṭõ
+son	vocative		बेटे	beṭe	बेटो	beṭo
+daughter			singular		plural	
+daughter	direct		बेटी	beṭī	बेटियाँ	beṭiyā̃
+daughter	oblique		बेटी	beṭī	बेटियों	beṭiyõ
+daughter	vocative		बेटी	beṭī	बेटियो	beṭiyo
+daughter			singular		plural	
+daughter	direct		लड़की	laṛkī	लड़कियाँ	laṛkiyā̃
+daughter	oblique		लड़की	laṛkī	लड़कियों	laṛkiyõ
+daughter	vocative		लड़की	laṛkī	लड़कियो	laṛkiyo
+daughter			singular		plural	
+daughter	direct		पुत्री	putrī	पुत्रियाँ	putriyā̃
+daughter	oblique		पुत्री	putrī	पुत्रियों	putriyõ
+daughter	vocative		पुत्री	putrī	पुत्रियो	putriyo
+daughter				singular			plural		
+daughter	direct			दुख़्तर	duxtar		दुख़्तरें, दुख़्तरान, 	duxtarẽ	duxtarān
+daughter	oblique			दुख़्तर	duxtar		दुख़्तरों	duxtarõ	
+daughter	vocative			दुख़्तर	duxtar		दुख़्तरो	duxtaro	
+mother			singular		plural	
+mother	direct		माता	mātā	माताएँ	mātāẽ
+mother	oblique		माता	mātā	माताओं	mātāõ
+mother	vocative		माता	mātā	माताओ	mātāo
+mother			singular		plural	
+mother	direct		मां	mā̃	माएँ	māẽ
+mother	oblique		मां	mā̃	माओं	māõ
+mother	vocative		मां	mā̃	माओं	māõ
+mother			singular		plural	
+mother	direct		मादर	mādar	मादरें	mādarẽ
+mother	oblique		मादर	mādar	मादरों	mādarõ
+mother	vocative		मादर	mādar	मादरो	mādaro
+mother			singular		plural	
+mother	direct		वालिदा	vālidā	वालिदाएँ	vālidāẽ
+mother	oblique		वालिदा	vālidā	वालिदाओं	vālidāõ
+mother	vocative		वालिदा	vālidā	वालिदाओ	vālidāo
+father			singular		plural	
+father	direct		पिता	pitā	पिता	pitā
+father	oblique		पिता	pitā	पिताओं	pitāõ
+father	vocative		पिता	pitā	पिताओ	pitāo
+father			singular		plural	
+father	direct		वालिद	vālid	वालिद	vālid
+father	oblique		वालिद	vālid	वालिदों	vālidõ
+father	vocative		वालिद	vālid	वालिदो	vālido
+father			singular		plural	
+father	direct		बाप	bāp	बाप	bāp
+father	oblique		बाप	bāp	बापों	bāpõ
+father	vocative		बाप	bāp	बापो	bāpo
+father			singular		plural	
+father	direct		पिदर	pidar	पिदर	pidar
+father	oblique		पिदर	pidar	पिदरों	pidarõ
+father	vocative		पिदर	pidar	पिदरो	pidaro
+brother			singular		plural	
+brother	direct		भाई	bhāī	भाई	bhāī
+brother	oblique		भाई	bhāī	भाइयों	bhāiyõ
+brother	vocative		भाई	bhāī	भाइयो	bhāiyo
+brother			singular		plural	
+brother	direct		भ्राता	bhrātā	भ्राता	bhrātā
+brother	oblique		भ्राता	bhrātā	भ्राताओं	bhrātāõ
+brother	vocative		भ्राता	bhrātā	भ्राताओ	bhrātāo
+brother			singular		plural	
+brother	direct		सहोदर	sahodar	सहोदर	sahodar
+brother	oblique		सहोदर	sahodar	सहोदरों	sahodarõ
+brother	vocative		सहोदर	sahodar	सहोदरो	sahodaro
+brother			singular		plural	
+brother	direct		दादा	dādā	दादा	dādā
+brother	oblique		दादा	dādā	दादाओं	dādāõ
+brother	vocative		दादा	dādā	दादाओ	dādāo
+brother			singular		plural	
+brother	direct		वीर	vīr	वीर	vīr
+brother	oblique		वीर	vīr	वीरों	vīrõ
+brother	vocative		वीर	vīr	वीरो	vīro
+brother			singular		plural	
+brother	direct		बंधु	bandhu	बंधु	bandhu
+brother	oblique		बंधु	bandhu	बंधुओं	bandhuõ
+brother	vocative		बंधु	bandhu	बंधुओ	bandhuo
+brother			singular		plural	
+brother	direct		भैया	bhaiyā	भैया	bhaiyā
+brother	oblique		भैया	bhaiyā	भैयाओं	bhaiyāõ
+brother	vocative		भैया	bhaiyā	भैयाओ	bhaiyāo
+brother			singular		plural	
+brother	direct		भ्रातृ	bhrātŕ	भ्रातृ	bhrātŕ
+brother	oblique		भ्रातृ	bhrātŕ	भ्रातृओं	bhrātŕõ
+brother	vocative		भ्रातृ	bhrātŕ	भ्रातृओ	bhrātŕo
+brother			singular		plural	
+brother	direct		सहोदर	sahodar	सहोदर	sahodar
+brother	oblique		सहोदर	sahodar	सहोदरों	sahodarõ
+brother	vocative		सहोदर	sahodar	सहोदरो	sahodaro
+brother			singular		plural	
+brother	direct		बंधु	bandhu	बंधु	bandhu
+brother	oblique		बंधु	bandhu	बंधुओं	bandhuõ
+brother	vocative		बंधु	bandhu	बंधुओ	bandhuo
+brother			singular		plural	
+brother	direct		भाई	bhāī	भाई	bhāī
+brother	oblique		भाई	bhāī	भाइयों	bhāiyõ
+brother	vocative		भाई	bhāī	भाइयो	bhāiyo
+brother			singular		plural	
+brother	direct		भ्राता	bhrātā	भ्राता	bhrātā
+brother	oblique		भ्राता	bhrātā	भ्राताओं	bhrātāõ
+brother	vocative		भ्राता	bhrātā	भ्राताओ	bhrātāo
+sister			singular		plural	
+sister	direct		बहन	bahan	बहनें	bahanẽ
+sister	oblique		बहन	bahan	बहनों	bahanõ
+sister	vocative		बहन	bahan	बहनो	bahano
+sister			singular		plural	
+sister	direct		बहिन	bahin	बहिनें	bahinẽ
+sister	oblique		बहिन	bahin	बहिनों	bahinõ
+sister	vocative		बहिन	bahin	बहिनो	bahino
+grandmother			singular		plural	
+grandmother	direct		दादी	dādī	दादियाँ	dādiyā̃
+grandmother	oblique		दादी	dādī	दादियों	dādiyõ
+grandmother	vocative		दादी	dādī	दादियो	dādiyo
+grandmother			singular		plural	
+grandmother	direct		नानी	nānī	नानियाँ	nāniyā̃
+grandmother	oblique		नानी	nānī	नानियों	nāniyõ
+grandmother	vocative		नानी	nānī	नानियो	nāniyo
+grandfather			singular		plural	
+grandfather	direct		दादा	dādā	दादा	dādā
+grandfather	oblique		दादा	dādā	दादाओं	dādāõ
+grandfather	vocative		दादा	dādā	दादाओ	dādāo
+grandfather			singular		plural	
+grandfather	direct		नाना	nānā	नाना	nānā
+grandfather	oblique		नाना	nānā	नानाओं	nānāõ
+grandfather	vocative		नाना	nānā	नानाओ	nānāo
+sound			singular		plural	
+sound	direct		आवाज़	āvāz	आवाज़ें	āvāzẽ
+sound	oblique		आवाज़	āvāz	आवाज़ों	āvāzõ
+sound	vocative		आवाज़	āvāz	आवाज़ो	āvāzo
+sound			singular		plural	
+sound	direct		शब्द	śabd	शब्द	śabd
+sound	oblique		शब्द	śabd	शब्दों	śabdõ
+sound	vocative		शब्द	śabd	शब्दो	śabdo
+sound			singular		plural	
+sound	direct		स्वर	svar	स्वर	svar
+sound	oblique		स्वर	svar	स्वरों	svarõ
+sound	vocative		स्वर	svar	स्वरो	svaro
+sound			singular		plural	
+sound	direct		आवाज़	āvāz	आवाज़ें	āvāzẽ
+sound	oblique		आवाज़	āvāz	आवाज़ों	āvāzõ
+sound	vocative		आवाज़	āvāz	आवाज़ो	āvāzo
+size			singular		plural	
+size	direct		आकार	ākār	आकार	ākār
+size	oblique		आकार	ākār	आकारों	ākārõ
+size	vocative		आकार	ākār	आकारो	ākāro
+north			singular		plural	
+north	direct		उत्तर	uttar	उत्तर	uttar
+north	oblique		उत्तर	uttar	उत्तरों	uttarõ
+north	vocative		उत्तर	uttar	उत्तरो	uttaro
+north			singular		plural	
+north	direct		ऊतर	ūtar	ऊतर	ūtar
+north	oblique		ऊतर	ūtar	ऊतरों	ūtarõ
+north	vocative		ऊतर	ūtar	ऊतरो	ūtaro
+south			singular		plural	
+south	direct		दक्षिण	dakṣiṇ	दक्षिण	dakṣiṇ
+south	oblique		दक्षिण	dakṣiṇ	दक्षिणों	dakṣiṇõ
+south	vocative		दक्षिण	dakṣiṇ	दक्षिणो	dakṣiṇo
+south			singular		plural	
+south	direct		दक्खिन	dakkhin	दक्खिन	dakkhin
+south	oblique		दक्खिन	dakkhin	दक्खिनों	dakkhinõ
+south	vocative		दक्खिन	dakkhin	दक्खिनो	dakkhino
+south			singular		plural	
+south	direct		जनूब	janūb	जनूब	janūb
+south	oblique		जनूब	janūb	जनूबों	janūbõ
+south	vocative		जनूब	janūb	जनूबो	janūbo
+east			singular		plural	
+east	direct		पूर्व	pūrv	पूर्व	pūrv
+east	oblique		पूर्व	pūrv	पूर्वों	pūrvõ
+east	vocative		पूर्व	pūrv	पूर्वो	pūrvo
+east			singular		plural	
+east	direct		पूरब	pūrab	पूरब	pūrab
+east	oblique		पूरब	pūrab	पूरबों	pūrabõ
+east	vocative		पूरब	pūrab	पूरबो	pūrabo
+west			singular		plural	
+west	direct		पश्चिम	paścim	पश्चिम	paścim
+west	oblique		पश्चिम	paścim	पश्चिमों	paścimõ
+west	vocative		पश्चिम	paścim	पश्चिमो	paścimo
+west			singular		plural	
+west	direct		पच्छिम	pacchim	पच्छिम	pacchim
+west	oblique		पच्छिम	pacchim	पच्छिमों	pacchimõ
+west	vocative		पच्छिम	pacchim	पच्छिमो	pacchimo
+west			singular		plural	
+west	direct		मग़रिब	maġrib	मग़रिब	maġrib
+west	oblique		मग़रिब	maġrib	मग़रिबों	maġribõ
+west	vocative		मग़रिब	maġrib	मग़रिबो	maġribo
+west			singular		plural	
+west	direct		अस्त	ast	अस्त	ast
+west	oblique		अस्त	ast	अस्तों	astõ
+west	vocative		अस्त	ast	अस्तो	asto
+west			singular		plural	
+west	direct		अथमना	athamnā	अथमने	athamne
+west	oblique		अथमने	athamne	अथमनों	athamnõ
+west	vocative		अथमने	athamne	अथमनो	athamno

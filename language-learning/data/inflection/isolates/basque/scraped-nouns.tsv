@@ -1,648 +1,2275 @@
-animal		indefinite	singular	plural
-animal	absolutive	animalia	animalia	animaliak
-animal	ergative	animaliak	animaliak	animaliek
-animal	dative	animaliari	animaliari	animaliei
-animal	genitive	animaliaren	animaliaren	animalien
-animal	comitative	animaliarekin	animaliarekin	animaliekin
-animal	causative	animaliarengatik	animaliarengatik	animaliengatik
-animal	benefactive	animaliarentzat	animaliarentzat	animalientzat
-animal	instrumental	animaliaz	animaliaz	animaliez
-animal	inessive	animaliarengan	animaliarengan	animaliengan
-animal	locative	—	—	—
-animal	allative	animaliarengana	animaliarengana	animaliengana
-animal	terminative	animaliarenganaino	animaliarenganaino	animalienganaino
-animal	directive	animaliarenganantz	animaliarenganantz	animalienganantz
-animal	destinative	animaliarenganako	animaliarenganako	animalienganako
-animal	ablative	animaliarengandik	animaliarengandik	animaliengandik
-animal	partitive	animaliarik	—	—
-animal	prolative	animaliatzat	—	—
-attention		indefinite	singular	plural
-attention	absolutive	gogo	gogoa	gogoak
-attention	ergative	gogok	gogoak	gogoek
-attention	dative	gogori	gogoari	gogoei
-attention	genitive	gogoren	gogoaren	gogoen
-attention	comitative	gogorekin	gogoarekin	gogoekin
-attention	causative	gogorengatik	gogoarengatik	gogoengatik
-attention	benefactive	gogorentzat	gogoarentzat	gogoentzat
-attention	instrumental	gogoz	gogoaz	gogoez
-attention	inessive	gogotan	gogoan	gogoetan
-attention	locative	gogotako	gogoko	gogoetako
-attention	allative	gogotara	gogora	gogoetara
-attention	terminative	gogotaraino	gogoraino	gogoetaraino
-attention	directive	gogotarantz	gogorantz	gogoetarantz
-attention	destinative	gogotarako	gogorako	gogoetarako
-attention	ablative	gogotatik	gogotik	gogoetatik
-attention	partitive	gogorik	—	—
-attention	prolative	gogotzat	—	—
-bird		indefinite	singular	plural
-bird	absolutive	txori	txoria	txoriak
-bird	ergative	txorik	txoriak	txoriek
-bird	dative	txoriri	txoriari	txoriei
-bird	genitive	txoriren	txoriaren	txorien
-bird	comitative	txorirekin	txoriarekin	txoriekin
-bird	causative	txorirengatik	txoriarengatik	txoriengatik
-bird	benefactive	txorirentzat	txoriarentzat	txorientzat
-bird	instrumental	txoriz	txoriaz	txoriez
-bird	inessive	txorirengan	txoriarengan	txoriengan
-bird	locative	—	—	—
-bird	allative	txorirengana	txoriarengana	txoriengana
-bird	terminative	txorirenganaino	txoriarenganaino	txorienganaino
-bird	directive	txorirenganantz	txoriarenganantz	txorienganantz
-bird	destinative	txorirenganako	txoriarenganako	txorienganako
-bird	ablative	txorirengandik	txoriarengandik	txoriengandik
-bird	partitive	txoririk	—	—
-bird	prolative	txoritzat	—	—
-boat		indefinite	singular	plural
-boat	absolutive	txalupa	txalupa	txalupak
-boat	ergative	txalupak	txalupak	txalupek
-boat	dative	txalupari	txalupari	txalupei
-boat	genitive	txaluparen	txaluparen	txalupen
-boat	comitative	txaluparekin	txaluparekin	txalupekin
-boat	causative	txaluparengatik	txaluparengatik	txalupengatik
-boat	benefactive	txaluparentzat	txaluparentzat	txalupentzat
-boat	instrumental	txalupaz	txalupaz	txalupez
-boat	inessive	txalupatan	txalupan	txalupetan
-boat	locative	txalupatako	txalupako	txalupetako
-boat	allative	txalupatara	txalupara	txalupetara
-boat	terminative	txalupataraino	txaluparaino	txalupetaraino
-boat	directive	txalupatarantz	txaluparantz	txalupetarantz
-boat	destinative	txalupatarako	txaluparako	txalupetarako
-boat	ablative	txalupatatik	txalupatik	txalupetatik
-boat	partitive	txaluparik	—	—
-boat	prolative	txalupatzat	—	—
-book		indefinite	singular	plural
-book	absolutive	liburu	liburua	liburuak
-book	ergative	liburuk	liburuak	liburuek
-book	dative	libururi	liburuari	liburuei
-book	genitive	libururen	liburuaren	liburuen
-book	comitative	libururekin	liburuarekin	liburuekin
-book	causative	libururengatik	liburuarengatik	liburuengatik
-book	benefactive	libururentzat	liburuarentzat	liburuentzat
-book	instrumental	liburuz	liburuaz	liburuez
-book	inessive	liburutan	liburuan	liburuetan
-book	locative	liburutako	liburuko	liburuetako
-book	allative	liburutara	liburura	liburuetara
-book	terminative	liburutaraino	libururaino	liburuetaraino
-book	directive	liburutarantz	libururantz	liburuetarantz
-book	destinative	liburutarako	libururako	liburuetarako
-book	ablative	liburutatik	liburutik	liburuetatik
-book	partitive	libururik	—	—
-book	prolative	liburutzat	—	—
-brother		indefinite	singular	plural
-brother	absolutive	anaia	anaia	anaiak
-brother	ergative	anaiak	anaiak	anaiek
-brother	dative	anaiari	anaiari	anaiei
-brother	genitive	anaiaren	anaiaren	anaien
-brother	comitative	anaiarekin	anaiarekin	anaiekin
-brother	causative	anaiarengatik	anaiarengatik	anaiengatik
-brother	benefactive	anaiarentzat	anaiarentzat	anaientzat
-brother	instrumental	anaiaz	anaiaz	anaiez
-brother	inessive	anaiarengan	anaiarengan	anaiengan
-brother	locative	—	—	—
-brother	allative	anaiarengana	anaiarengana	anaiengana
-brother	terminative	anaiarenganaino	anaiarenganaino	anaienganaino
-brother	directive	anaiarenganantz	anaiarenganantz	anaienganantz
-brother	destinative	anaiarenganako	anaiarenganako	anaienganako
-brother	ablative	anaiarengandik	anaiarengandik	anaiengandik
-brother	partitive	anaiarik	—	—
-brother	prolative	anaiatzat	—	—
-bug		indefinite	singular	plural
-bug	absolutive	zomorro	zomorroa	zomorroak
-bug	ergative	zomorrok	zomorroak	zomorroek
-bug	dative	zomorrori	zomorroari	zomorroei
-bug	genitive	zomorroren	zomorroaren	zomorroen
-bug	comitative	zomorrorekin	zomorroarekin	zomorroekin
-bug	causative	zomorrorengatik	zomorroarengatik	zomorroengatik
-bug	benefactive	zomorrorentzat	zomorroarentzat	zomorroentzat
-bug	instrumental	zomorroz	zomorroaz	zomorroez
-bug	inessive	zomorrorengan	zomorroarengan	zomorroengan
-bug	locative	—	—	—
-bug	allative	zomorrorengana	zomorroarengana	zomorroengana
-bug	terminative	zomorrorenganaino	zomorroarenganaino	zomorroenganaino
-bug	directive	zomorrorenganantz	zomorroarenganantz	zomorroenganantz
-bug	destinative	zomorrorenganako	zomorroarenganako	zomorroenganako
-bug	ablative	zomorrorengandik	zomorroarengandik	zomorroengandik
-bug	partitive	zomorrorik	—	—
-bug	prolative	zomorrotzat	—	—
-clothing		indefinite	singular	plural
-clothing	absolutive	jantzi	jantzia	jantziak
-clothing	ergative	jantzik	jantziak	jantziek
-clothing	dative	jantziri	jantziari	jantziei
-clothing	genitive	jantziren	jantziaren	jantzien
-clothing	comitative	jantzirekin	jantziarekin	jantziekin
-clothing	causative	jantzirengatik	jantziarengatik	jantziengatik
-clothing	benefactive	jantzirentzat	jantziarentzat	jantzientzat
-clothing	instrumental	jantziz	jantziaz	jantziez
-clothing	inessive	jantzitan	jantzian	jantzietan
-clothing	locative	jantzitako	jantziko	jantzietako
-clothing	allative	jantzitara	jantzira	jantzietara
-clothing	terminative	jantzitaraino	jantziraino	jantzietaraino
-clothing	directive	jantzitarantz	jantzirantz	jantzietarantz
-clothing	destinative	jantzitarako	jantzirako	jantzietarako
-clothing	ablative	jantzitatik	jantzitik	jantzietatik
-clothing	partitive	jantzirik	—	—
-clothing	prolative	jantzitzat	—	—
-daughter		indefinite	singular	plural
-daughter	absolutive	alaba	alaba	alabak
-daughter	ergative	alabak	alabak	alabek
-daughter	dative	alabari	alabari	alabei
-daughter	genitive	alabaren	alabaren	alaben
-daughter	comitative	alabarekin	alabarekin	alabekin
-daughter	causative	alabarengatik	alabarengatik	alabengatik
-daughter	benefactive	alabarentzat	alabarentzat	alabentzat
-daughter	instrumental	alabaz	alabaz	alabez
-daughter	inessive	alabarengan	alabarengan	alabengan
-daughter	locative	—	—	—
-daughter	allative	alabarengana	alabarengana	alabengana
-daughter	terminative	alabarenganaino	alabarenganaino	alabenganaino
-daughter	directive	alabarenganantz	alabarenganantz	alabenganantz
-daughter	destinative	alabarenganako	alabarenganako	alabenganako
-daughter	ablative	alabarengandik	alabarengandik	alabengandik
-daughter	partitive	alabarik	—	—
-daughter	prolative	alabatzat	—	—
-dog		indefinite	singular	plural
-dog	absolutive	txakur	txakurra	txakurrak
-dog	ergative	txakurrek	txakurrak	txakurrek
-dog	dative	txakurri	txakurrari	txakurrei
-dog	genitive	txakurren	txakurraren	txakurren
-dog	comitative	txakurrekin	txakurrarekin	txakurrekin
-dog	causative	txakurrengatik	txakurrarengatik	txakurrengatik
-dog	benefactive	txakurrentzat	txakurrarentzat	txakurrentzat
-dog	instrumental	txakurrez	txakurraz	txakurrez
-dog	inessive	txakurrengan	txakurrarengan	txakurrengan
-dog	locative	—	—	—
-dog	allative	txakurrengana	txakurrarengana	txakurrengana
-dog	terminative	txakurrenganaino	txakurrarenganaino	txakurrenganaino
-dog	directive	txakurrenganantz	txakurrarenganantz	txakurrenganantz
-dog	destinative	txakurrenganako	txakurrarenganako	txakurrenganako
-dog	ablative	txakurrengandik	txakurrarengandik	txakurrengandik
-dog	partitive	txakurrik	—	—
-dog	prolative	txakurtzat	—	—
-door		indefinite	singular	plural
-door	absolutive	ate	atea	ateak
-door	ergative	atek	ateak	ateek
-door	dative	ateri	ateari	ateei
-door	genitive	ateren	atearen	ateen
-door	comitative	aterekin	atearekin	ateekin
-door	causative	aterengatik	atearengatik	ateengatik
-door	benefactive	aterentzat	atearentzat	ateentzat
-door	instrumental	atez	ateaz	ateez
-door	inessive	atetan	atean	ateetan
-door	locative	atetako	ateko	ateetako
-door	allative	atetara	atera	ateetara
-door	terminative	atetaraino	ateraino	ateetaraino
-door	directive	atetarantz	aterantz	ateetarantz
-door	destinative	atetarako	aterako	ateetarako
-door	ablative	atetatik	atetik	ateetatik
-door	partitive	aterik	—	—
-door	prolative	atetzat	—	—
-drum		indefinite	singular	plural
-drum	absolutive	danbor	danborra	danborrak
-drum	ergative	danborrek	danborrak	danborrek
-drum	dative	danborri	danborrari	danborrei
-drum	genitive	danborren	danborraren	danborren
-drum	comitative	danborrekin	danborrarekin	danborrekin
-drum	causative	danborrengatik	danborrarengatik	danborrengatik
-drum	benefactive	danborrentzat	danborrarentzat	danborrentzat
-drum	instrumental	danborrez	danborraz	danborrez
-drum	inessive	danborretan	danborrean	danborretan
-drum	locative	danborretako	danborreko	danborretako
-drum	allative	danborretara	danborrera	danborretara
-drum	terminative	danborretaraino	danborreraino	danborretaraino
-drum	directive	danborretarantz	danborrerantz	danborretarantz
-drum	destinative	danborretarako	danborrerako	danborretarako
-drum	ablative	danborretatik	danborretik	danborretatik
-drum	partitive	danborrik	—	—
-drum	prolative	danbortzat	—	—
-enemy		indefinite	singular	plural
-enemy	absolutive	janari	janaria	janariak
-enemy	ergative	janarik	janariak	janariek
-enemy	dative	janariri	janariari	janariei
-enemy	genitive	janariren	janariaren	janarien
-enemy	comitative	janarirekin	janariarekin	janariekin
-enemy	causative	janarirengatik	janariarengatik	janariengatik
-enemy	benefactive	janarirentzat	janariarentzat	janarientzat
-enemy	instrumental	janariz	janariaz	janariez
-enemy	inessive	janaritan	janarian	janarietan
-enemy	locative	janaritako	janariko	janarietako
-enemy	allative	janaritara	janarira	janarietara
-enemy	terminative	janaritaraino	janariraino	janarietaraino
-enemy	directive	janaritarantz	janarirantz	janarietarantz
-enemy	destinative	janaritarako	janarirako	janarietarako
-enemy	ablative	janaritatik	janaritik	janarietatik
-enemy	partitive	janaririk	—	—
-enemy	prolative	janaritzat	—	—
-fire		indefinite	singular	plural
-fire	absolutive	su	sua	suak
-fire	ergative	suk	suak	suek
-fire	dative	suri	suari	suei
-fire	genitive	suren	suaren	suen
-fire	comitative	surekin	suarekin	suekin
-fire	causative	surengatik	suarengatik	suengatik
-fire	benefactive	surentzat	suarentzat	suentzat
-fire	instrumental	suz	suaz	suez
-fire	inessive	sutan	suan	suetan
-fire	locative	sutako	suko	suetako
-fire	allative	sutara	sura	suetara
-fire	terminative	sutaraino	suraino	suetaraino
-fire	directive	sutarantz	surantz	suetarantz
-fire	destinative	sutarako	surako	suetarako
-fire	ablative	sutatik	sutik	suetatik
-fire	partitive	surik	—	—
-fire	prolative	sutzat	—	—
-food		indefinite	singular	plural
-food	absolutive	janari	janaria	janariak
-food	ergative	janarik	janariak	janariek
-food	dative	janariri	janariari	janariei
-food	genitive	janariren	janariaren	janarien
-food	comitative	janarirekin	janariarekin	janariekin
-food	causative	janarirengatik	janariarengatik	janariengatik
-food	benefactive	janarirentzat	janariarentzat	janarientzat
-food	instrumental	janariz	janariaz	janariez
-food	inessive	janaritan	janarian	janarietan
-food	locative	janaritako	janariko	janarietako
-food	allative	janaritara	janarira	janarietara
-food	terminative	janaritaraino	janariraino	janarietaraino
-food	directive	janaritarantz	janarirantz	janarietarantz
-food	destinative	janaritarako	janarirako	janarietarako
-food	ablative	janaritatik	janaritik	janarietatik
-food	partitive	janaririk	—	—
-food	prolative	janaritzat	—	—
-horse		indefinite	singular	plural
-horse	absolutive	zaldi	zaldia	zaldiak
-horse	ergative	zaldik	zaldiak	zaldiek
-horse	dative	zaldiri	zaldiari	zaldiei
-horse	genitive	zaldiren	zaldiaren	zaldien
-horse	comitative	zaldirekin	zaldiarekin	zaldiekin
-horse	causative	zaldirengatik	zaldiarengatik	zaldiengatik
-horse	benefactive	zaldirentzat	zaldiarentzat	zaldientzat
-horse	instrumental	zaldiz	zaldiaz	zaldiez
-horse	inessive	zaldirengan	zaldiarengan	zaldiengan
-horse	locative	—	—	—
-horse	allative	zaldirengana	zaldiarengana	zaldiengana
-horse	terminative	zaldirenganaino	zaldiarenganaino	zaldienganaino
-horse	directive	zaldirenganantz	zaldiarenganantz	zaldienganantz
-horse	destinative	zaldirenganako	zaldiarenganako	zaldienganako
-horse	ablative	zaldirengandik	zaldiarengandik	zaldiengandik
-horse	partitive	zaldirik	—	—
-horse	prolative	zalditzat	—	—
-house		indefinite	singular	plural
-house	absolutive	etxe	etxea	etxeak
-house	ergative	etxek	etxeak	etxeek
-house	dative	etxeri	etxeari	etxeei
-house	genitive	etxeren	etxearen	etxeen
-house	comitative	etxerekin	etxearekin	etxeekin
-house	causative	etxerengatik	etxearengatik	etxeengatik
-house	benefactive	etxerentzat	etxearentzat	etxeentzat
-house	instrumental	etxez	etxeaz	etxeez
-house	inessive	etxetan	etxean	etxeetan
-house	locative	etxetako	etxeko	etxeetako
-house	allative	etxetara	etxera	etxeetara
-house	terminative	etxetaraino	etxeraino	etxeetaraino
-house	directive	etxetarantz	etxerantz	etxeetarantz
-house	destinative	etxetarako	etxerako	etxeetarako
-house	ablative	etxetatik	etxetik	etxeetatik
-house	partitive	etxerik	—	—
-house	prolative	etxetzat	—	—
-livestock		indefinite	singular	plural
-livestock	absolutive	abere	aberea	abereak
-livestock	ergative	aberek	abereak	abereek
-livestock	dative	abereri	abereari	abereei
-livestock	genitive	abereren	aberearen	abereen
-livestock	comitative	abererekin	aberearekin	abereekin
-livestock	causative	abererengatik	aberearengatik	abereengatik
-livestock	benefactive	abererentzat	aberearentzat	abereentzat
-livestock	instrumental	aberez	abereaz	abereez
-livestock	inessive	abererengan	aberearengan	abereengan
-livestock	locative	—	—	—
-livestock	allative	abererengana	aberearengana	abereengana
-livestock	terminative	abererenganaino	aberearenganaino	abereenganaino
-livestock	directive	abererenganantz	aberearenganantz	abereenganantz
-livestock	destinative	abererenganako	aberearenganako	abereenganako
-livestock	ablative	abererengandik	aberearengandik	abereengandik
-livestock	partitive	abererik	—	—
-livestock	prolative	aberetzat	—	—
-love		indefinite	singular	plural
-love	absolutive	amodio	amodioa	amodioak
-love	ergative	amodiok	amodioak	amodioek
-love	dative	amodiori	amodioari	amodioei
-love	genitive	amodioren	amodioaren	amodioen
-love	comitative	amodiorekin	amodioarekin	amodioekin
-love	causative	amodiorengatik	amodioarengatik	amodioengatik
-love	benefactive	amodiorentzat	amodioarentzat	amodioentzat
-love	instrumental	amodioz	amodioaz	amodioez
-love	inessive	amodiotan	amodioan	amodioetan
-love	locative	amodiotako	amodioko	amodioetako
-love	allative	amodiotara	amodiora	amodioetara
-love	terminative	amodiotaraino	amodioraino	amodioetaraino
-love	directive	amodiotarantz	amodiorantz	amodioetarantz
-love	destinative	amodiotarako	amodiorako	amodioetarako
-love	ablative	amodiotatik	amodiotik	amodioetatik
-love	partitive	amodiorik	—	—
-love	prolative	amodiotzat	—	—
-idea		indefinite	singular	plural
-idea	absolutive	gogo	gogoa	gogoak
-idea	ergative	gogok	gogoak	gogoek
-idea	dative	gogori	gogoari	gogoei
-idea	genitive	gogoren	gogoaren	gogoen
-idea	comitative	gogorekin	gogoarekin	gogoekin
-idea	causative	gogorengatik	gogoarengatik	gogoengatik
-idea	benefactive	gogorentzat	gogoarentzat	gogoentzat
-idea	instrumental	gogoz	gogoaz	gogoez
-idea	inessive	gogotan	gogoan	gogoetan
-idea	locative	gogotako	gogoko	gogoetako
-idea	allative	gogotara	gogora	gogoetara
-idea	terminative	gogotaraino	gogoraino	gogoetaraino
-idea	directive	gogotarantz	gogorantz	gogoetarantz
-idea	destinative	gogotarako	gogorako	gogoetarako
-idea	ablative	gogotatik	gogotik	gogoetatik
-idea	partitive	gogorik	—	—
-idea	prolative	gogotzat	—	—
-man		indefinite	singular	plural
-man	absolutive	gizon	gizona	gizonak
-man	ergative	gizonek	gizonak	gizonek
-man	dative	gizoni	gizonari	gizonei
-man	genitive	gizonen	gizonaren	gizonen
-man	comitative	gizonekin	gizonarekin	gizonekin
-man	causative	gizonengatik	gizonarengatik	gizonengatik
-man	benefactive	gizonentzat	gizonarentzat	gizonentzat
-man	instrumental	gizonez	gizonaz	gizonez
-man	inessive	gizonengan	gizonarengan	gizonengan
-man	locative	—	—	—
-man	allative	gizonengana	gizonarengana	gizonengana
-man	terminative	gizonenganaino	gizonarenganaino	gizonenganaino
-man	directive	gizonenganantz	gizonarenganantz	gizonenganantz
-man	destinative	gizonenganako	gizonarenganako	gizonenganako
-man	ablative	gizonengandik	gizonarengandik	gizonengandik
-man	partitive	gizonik	—	—
-man	prolative	gizontzat	—	—
-money		indefinite	singular	plural
-money	absolutive	diru	dirua	diruak
-money	ergative	diruk	diruak	diruek
-money	dative	diruri	diruari	diruei
-money	genitive	diruren	diruaren	diruen
-money	comitative	dirurekin	diruarekin	diruekin
-money	causative	dirurengatik	diruarengatik	diruengatik
-money	benefactive	dirurentzat	diruarentzat	diruentzat
-money	instrumental	diruz	diruaz	diruez
-money	inessive	dirutan	diruan	diruetan
-money	locative	dirutako	diruko	diruetako
-money	allative	dirutara	dirura	diruetara
-money	terminative	dirutaraino	diruraino	diruetaraino
-money	directive	dirutarantz	dirurantz	diruetarantz
-money	destinative	dirutarako	dirurako	diruetarako
-money	ablative	dirutatik	dirutik	diruetatik
-money	partitive	dirurik	—	—
-money	prolative	dirutzat	—	—
-monster		indefinite	singular	plural
-monster	absolutive	munstro	munstroa	munstroak
-monster	ergative	munstrok	munstroak	munstroek
-monster	dative	munstrori	munstroari	munstroei
-monster	genitive	munstroren	munstroaren	munstroen
-monster	comitative	munstrorekin	munstroarekin	munstroekin
-monster	causative	munstrorengatik	munstroarengatik	munstroengatik
-monster	benefactive	munstrorentzat	munstroarentzat	munstroentzat
-monster	instrumental	munstroz	munstroaz	munstroez
-monster	inessive	munstrorengan	munstroarengan	munstroengan
-monster	locative	—	—	—
-monster	allative	munstrorengana	munstroarengana	munstroengana
-monster	terminative	munstrorenganaino	munstroarenganaino	munstroenganaino
-monster	directive	munstrorenganantz	munstroarenganantz	munstroenganantz
-monster	destinative	munstrorenganako	munstroarenganako	munstroenganako
-monster	ablative	munstrorengandik	munstroarengandik	munstroengandik
-monster	partitive	munstrorik	—	—
-monster	prolative	munstrotzat	—	—
-name		indefinite	singular	plural
-name	absolutive	izen	izena	izenak
-name	ergative	izenek	izenak	izenek
-name	dative	izeni	izenari	izenei
-name	genitive	izenen	izenaren	izenen
-name	comitative	izenekin	izenarekin	izenekin
-name	causative	izenengatik	izenarengatik	izenengatik
-name	benefactive	izenentzat	izenarentzat	izenentzat
-name	instrumental	izenez	izenaz	izenez
-name	inessive	izenetan	izenean	izenetan
-name	locative	izenetako	izeneko	izenetako
-name	allative	izenetara	izenera	izenetara
-name	terminative	izenetaraino	izeneraino	izenetaraino
-name	directive	izenetarantz	izenerantz	izenetarantz
-name	destinative	izenetarako	izenerako	izenetarako
-name	ablative	izenetatik	izenetik	izenetatik
-name	partitive	izenik	—	—
-name	prolative	izentzat	—	—
-rock		indefinite	singular	plural
-rock	absolutive	harri	harria	harriak
-rock	ergative	harrik	harriak	harriek
-rock	dative	harriri	harriari	harriei
-rock	genitive	harriren	harriaren	harrien
-rock	comitative	harrirekin	harriarekin	harriekin
-rock	causative	harrirengatik	harriarengatik	harriengatik
-rock	benefactive	harrirentzat	harriarentzat	harrientzat
-rock	instrumental	harriz	harriaz	harriez
-rock	inessive	harritan	harrian	harrietan
-rock	locative	harritako	harriko	harrietako
-rock	allative	harritara	harrira	harrietara
-rock	terminative	harritaraino	harriraino	harrietaraino
-rock	directive	harritarantz	harrirantz	harrietarantz
-rock	destinative	harritarako	harrirako	harrietarako
-rock	ablative	harritatik	harritik	harrietatik
-rock	partitive	harririk	—	—
-rock	prolative	harritzat	—	—
-rope		indefinite	singular	plural
-rope	absolutive	soka	soka	sokak
-rope	ergative	sokak	sokak	sokek
-rope	dative	sokari	sokari	sokei
-rope	genitive	sokaren	sokaren	soken
-rope	comitative	sokarekin	sokarekin	sokekin
-rope	causative	sokarengatik	sokarengatik	sokengatik
-rope	benefactive	sokarentzat	sokarentzat	sokentzat
-rope	instrumental	sokaz	sokaz	sokez
-rope	inessive	sokatan	sokan	soketan
-rope	locative	sokatako	sokako	soketako
-rope	allative	sokatara	sokara	soketara
-rope	terminative	sokataraino	sokaraino	soketaraino
-rope	directive	sokatarantz	sokarantz	soketarantz
-rope	destinative	sokatarako	sokarako	soketarako
-rope	ablative	sokatatik	sokatik	soketatik
-rope	partitive	sokarik	—	—
-rope	prolative	sokatzat	—	—
-size		indefinite	singular	plural
-size	absolutive	tamaina	tamaina	tamainak
-size	ergative	tamainak	tamainak	tamainek
-size	dative	tamainari	tamainari	tamainei
-size	genitive	tamainaren	tamainaren	tamainen
-size	comitative	tamainarekin	tamainarekin	tamainekin
-size	causative	tamainarengatik	tamainarengatik	tamainengatik
-size	benefactive	tamainarentzat	tamainarentzat	tamainentzat
-size	instrumental	tamainaz	tamainaz	tamainez
-size	inessive	tamainatan	tamainan	tamainetan
-size	locative	tamainatako	tamainako	tamainetako
-size	allative	tamainatara	tamainara	tamainetara
-size	terminative	tamainataraino	tamainaraino	tamainetaraino
-size	directive	tamainatarantz	tamainarantz	tamainetarantz
-size	destinative	tamainatarako	tamainarako	tamainetarako
-size	ablative	tamainatatik	tamainatik	tamainetatik
-size	partitive	tamainarik	—	—
-size	prolative	tamainatzat	—	—
-son		indefinite	singular	plural
-son	absolutive	seme	semea	semeak
-son	ergative	semek	semeak	semeek
-son	dative	semeri	semeari	semeei
-son	genitive	semeren	semearen	semeen
-son	comitative	semerekin	semearekin	semeekin
-son	causative	semerengatik	semearengatik	semeengatik
-son	benefactive	semerentzat	semearentzat	semeentzat
-son	instrumental	semez	semeaz	semeez
-son	inessive	semerengan	semearengan	semeengan
-son	locative	—	—	—
-son	allative	semerengana	semearengana	semeengana
-son	terminative	semerenganaino	semearenganaino	semeenganaino
-son	directive	semerenganantz	semearenganantz	semeenganantz
-son	destinative	semerenganako	semearenganako	semeenganako
-son	ablative	semerengandik	semearengandik	semeengandik
-son	partitive	semerik	—	—
-son	prolative	semetzat	—	—
-sound		indefinite	singular	plural
-sound	absolutive	hots	hotsa	hotsak
-sound	ergative	hotsek	hotsak	hotsek
-sound	dative	hotsi	hotsari	hotsei
-sound	genitive	hotsen	hotsaren	hotsen
-sound	comitative	hotsekin	hotsarekin	hotsekin
-sound	causative	hotsengatik	hotsarengatik	hotsengatik
-sound	benefactive	hotsentzat	hotsarentzat	hotsentzat
-sound	instrumental	hotsez	hotsaz	hotsez
-sound	inessive	hotsetan	hotsean	hotsetan
-sound	locative	hotsetako	hotseko	hotsetako
-sound	allative	hotsetara	hotsera	hotsetara
-sound	terminative	hotsetaraino	hotseraino	hotsetaraino
-sound	directive	hotsetarantz	hotserantz	hotsetarantz
-sound	destinative	hotsetarako	hotserako	hotsetarako
-sound	ablative	hotsetatik	hotsetik	hotsetatik
-sound	partitive	hotsik	—	—
-sound	prolative	hostzat	—	—
-warmth		indefinite	singular	plural
-warmth	absolutive	bero	beroa	beroak
-warmth	ergative	berok	beroak	beroek
-warmth	dative	berori	beroari	beroei
-warmth	genitive	beroren	beroaren	beroen
-warmth	comitative	berorekin	beroarekin	beroekin
-warmth	causative	berorengatik	beroarengatik	beroengatik
-warmth	benefactive	berorentzat	beroarentzat	beroentzat
-warmth	instrumental	beroz	beroaz	beroez
-warmth	inessive	berotan	beroan	beroetan
-warmth	locative	berotako	beroko	beroetako
-warmth	allative	berotara	berora	beroetara
-warmth	terminative	berotaraino	beroraino	beroetaraino
-warmth	directive	berotarantz	berorantz	beroetarantz
-warmth	destinative	berotarako	berorako	beroetarako
-warmth	ablative	berotatik	berotik	beroetatik
-warmth	partitive	berorik	—	—
-warmth	prolative	berotzat	—	—
-water		indefinite	singular	plural
-water	absolutive	ur	ura	urak
-water	ergative	urek	urak	urek
-water	dative	uri	urari	urei
-water	genitive	uren	uraren	uren
-water	comitative	urekin	urarekin	urekin
-water	causative	urengatik	urarengatik	urengatik
-water	benefactive	urentzat	urarentzat	urentzat
-water	instrumental	urez	uraz	urez
-water	inessive	uretan	urean	uretan
-water	locative	uretako	ureko	uretako
-water	allative	uretara	urera	uretara
-water	terminative	uretaraino	ureraino	uretaraino
-water	directive	uretarantz	urerantz	uretarantz
-water	destinative	uretarako	urerako	uretarako
-water	ablative	uretatik	uretik	uretatik
-water	partitive	urik	—	—
-water	prolative	urtzat	—	—
-way		indefinite	singular	plural
-way	absolutive	bide	bidea	bideak
-way	ergative	bidek	bideak	bideek
-way	dative	bideri	bideari	bideei
-way	genitive	bideren	bidearen	bideen
-way	comitative	biderekin	bidearekin	bideekin
-way	causative	biderengatik	bidearengatik	bideengatik
-way	benefactive	biderentzat	bidearentzat	bideentzat
-way	instrumental	bidez	bideaz	bideez
-way	inessive	bidetan	bidean	bideetan
-way	locative	bidetako	bideko	bideetako
-way	allative	bidetara	bidera	bideetara
-way	terminative	bidetaraino	bideraino	bideetaraino
-way	directive	bidetarantz	biderantz	bideetarantz
-way	destinative	bidetarako	biderako	bideetarako
-way	ablative	bidetatik	bidetik	bideetatik
-way	partitive	biderik	—	—
-way	prolative	bidetzat	—	—
-wind		indefinite	singular	plural
-wind	absolutive	haize	haizea	haizeak
-wind	ergative	haizek	haizeak	haizeek
-wind	dative	haizeri	haizeari	haizeei
-wind	genitive	haizeren	haizearen	haizeen
-wind	comitative	haizerekin	haizearekin	haizeekin
-wind	causative	haizerengatik	haizearengatik	haizeengatik
-wind	benefactive	haizerentzat	haizearentzat	haizeentzat
-wind	instrumental	haizez	haizeaz	haizeez
-wind	inessive	haizetan	haizean	haizeetan
-wind	locative	haizetako	haizeko	haizeetako
-wind	allative	haizetara	haizera	haizeetara
-wind	terminative	haizetaraino	haizeraino	haizeetaraino
-wind	directive	haizetarantz	haizerantz	haizeetarantz
-wind	destinative	haizetarako	haizerako	haizeetarako
-wind	ablative	haizetatik	haizetik	haizeetatik
-wind	partitive	haizerik	—	—
-wind	prolative	haizetzat	—	—
-window		indefinite	singular	plural
-window	absolutive	leiho	leihoa	leihoak
-window	ergative	leihok	leihoak	leihoek
-window	dative	leihori	leihoari	leihoei
-window	genitive	leihoren	leihoaren	leihoen
-window	comitative	leihorekin	leihoarekin	leihoekin
-window	causative	leihorengatik	leihoarengatik	leihoengatik
-window	benefactive	leihorentzat	leihoarentzat	leihoentzat
-window	instrumental	leihoz	leihoaz	leihoez
-window	inessive	leihotan	leihoan	leihoetan
-window	locative	leihotako	leihoko	leihoetako
-window	allative	leihotara	leihora	leihoetara
-window	terminative	leihotaraino	leihoraino	leihoetaraino
-window	directive	leihotarantz	leihorantz	leihoetarantz
-window	destinative	leihotarako	leihorako	leihoetarako
-window	ablative	leihotatik	leihotik	leihoetatik
-window	partitive	leihorik	—	—
-window	prolative	leihotzat	—	—
-woman		indefinite	singular	plural
-woman	absolutive	andre	andrea	andreak
-woman	ergative	andrek	andreak	andreek
-woman	dative	andreri	andreari	andreei
-woman	genitive	andreren	andrearen	andreen
-woman	comitative	andrerekin	andrearekin	andreekin
-woman	causative	andrerengatik	andrearengatik	andreengatik
-woman	benefactive	andrerentzat	andrearentzat	andreentzat
-woman	instrumental	andrez	andreaz	andreez
-woman	inessive	andrerengan	andrearengan	andreengan
-woman	locative	—	—	—
-woman	allative	andrerengana	andrearengana	andreengana
-woman	terminative	andrerenganaino	andrearenganaino	andreenganaino
-woman	directive	andrerenganantz	andrearenganantz	andreenganantz
-woman	destinative	andrerenganako	andrearenganako	andreenganako
-woman	ablative	andrerengandik	andrearengandik	andreengandik
-woman	partitive	andrerik	—	—
-woman	prolative	andretzat	—	—
-work		indefinite	singular	plural
-work	absolutive	lan	lana	lanak
-work	ergative	lanek	lanak	lanek
-work	dative	lani	lanari	lanei
-work	genitive	lanen	lanaren	lanen
-work	comitative	lanekin	lanarekin	lanekin
-work	causative	lanengatik	lanarengatik	lanengatik
-work	benefactive	lanentzat	lanarentzat	lanentzat
-work	instrumental	lanez	lanaz	lanez
-work	inessive	lanetan	lanean	lanetan
-work	locative	lanetako	laneko	lanetako
-work	allative	lanetara	lanera	lanetara
-work	terminative	lanetaraino	laneraino	lanetaraino
-work	directive	lanetarantz	lanerantz	lanetarantz
-work	destinative	lanetarako	lanerako	lanetarako
-work	ablative	lanetatik	lanetik	lanetatik
-work	partitive	lanik	—	—
-work	prolative	lantzat	—	—
+thought		indefinite	singular	plural	proximal plural
+thought	absolutive	gogo	gogoa	gogoak	gogook
+thought	ergative	gogok	gogoak	gogoek	gogook
+thought	dative	gogori	gogoari	gogoei	gogooi
+thought	genitive	gogoren	gogoaren	gogoen	gogoon
+thought	comitative	gogorekin	gogoarekin	gogoekin	gogookin
+thought	causative	gogorengatik	gogoarengatik	gogoengatik	gogoongatik
+thought	benefactive	gogorentzat	gogoarentzat	gogoentzat	gogoontzat
+thought	instrumental	gogoz	gogoaz	gogoez	gogootaz
+thought	inessive	gogotan	gogoan	gogoetan	gogootan
+thought	locative	gogotako	gogoko	gogoetako	gogootako
+thought	allative	gogotara	gogora	gogoetara	gogootara
+thought	terminative	gogotaraino	gogoraino	gogoetaraino	gogootaraino
+thought	directive	gogotarantz	gogorantz	gogoetarantz	gogootarantz
+thought	destinative	gogotarako	gogorako	gogoetarako	gogootarako
+thought	ablative	gogotatik	gogotik	gogoetatik	gogootatik
+thought	partitive	gogorik	—	—	—
+thought	prolative	gogotzat	—	—	—
+thought		indefinite	singular	plural	proximal plural
+thought	absolutive	gogo	gogoa	gogoak	gogook
+thought	ergative	gogok	gogoak	gogoek	gogook
+thought	dative	gogori	gogoari	gogoei	gogooi
+thought	genitive	gogoren	gogoaren	gogoen	gogoon
+thought	comitative	gogorekin	gogoarekin	gogoekin	gogookin
+thought	causative	gogorengatik	gogoarengatik	gogoengatik	gogoongatik
+thought	benefactive	gogorentzat	gogoarentzat	gogoentzat	gogoontzat
+thought	instrumental	gogoz	gogoaz	gogoez	gogootaz
+thought	inessive	gogotan	gogoan	gogoetan	gogootan
+thought	locative	gogotako	gogoko	gogoetako	gogootako
+thought	allative	gogotara	gogora	gogoetara	gogootara
+thought	terminative	gogotaraino	gogoraino	gogoetaraino	gogootaraino
+thought	directive	gogotarantz	gogorantz	gogoetarantz	gogootarantz
+thought	destinative	gogotarako	gogorako	gogoetarako	gogootarako
+thought	ablative	gogotatik	gogotik	gogoetatik	gogootatik
+thought	partitive	gogorik	—	—	—
+thought	prolative	gogotzat	—	—	—
+thought		indefinite	singular	plural	proximal plural
+thought	absolutive	gogo	gogoa	gogoak	gogook
+thought	ergative	gogok	gogoak	gogoek	gogook
+thought	dative	gogori	gogoari	gogoei	gogooi
+thought	genitive	gogoren	gogoaren	gogoen	gogoon
+thought	comitative	gogorekin	gogoarekin	gogoekin	gogookin
+thought	causative	gogorengatik	gogoarengatik	gogoengatik	gogoongatik
+thought	benefactive	gogorentzat	gogoarentzat	gogoentzat	gogoontzat
+thought	instrumental	gogoz	gogoaz	gogoez	gogootaz
+thought	inessive	gogotan	gogoan	gogoetan	gogootan
+thought	locative	gogotako	gogoko	gogoetako	gogootako
+thought	allative	gogotara	gogora	gogoetara	gogootara
+thought	terminative	gogotaraino	gogoraino	gogoetaraino	gogootaraino
+thought	directive	gogotarantz	gogorantz	gogoetarantz	gogootarantz
+thought	destinative	gogotarako	gogorako	gogoetarako	gogootarako
+thought	ablative	gogotatik	gogotik	gogoetatik	gogootatik
+thought	partitive	gogorik	—	—	—
+thought	prolative	gogotzat	—	—	—
+ball		indefinite	singular	plural	proximal plural
+ball	absolutive	baloi	baloia	baloiak	baloiok
+ball	ergative	baloik	baloiak	baloiek	baloiok
+ball	dative	baloiri	baloiari	baloiei	baloioi
+ball	genitive	baloiren	baloiaren	baloien	baloion
+ball	comitative	baloirekin	baloiarekin	baloiekin	baloiokin
+ball	causative	baloirengatik	baloiarengatik	baloiengatik	baloiongatik
+ball	benefactive	baloirentzat	baloiarentzat	baloientzat	baloiontzat
+ball	instrumental	baloiz	baloiaz	baloiez	baloiotaz
+ball	inessive	baloitan	baloian	baloietan	baloiotan
+ball	locative	baloitako	baloiko	baloietako	baloiotako
+ball	allative	baloitara	baloira	baloietara	baloiotara
+ball	terminative	baloitaraino	baloiraino	baloietaraino	baloiotaraino
+ball	directive	baloitarantz	baloirantz	baloietarantz	baloiotarantz
+ball	destinative	baloitarako	baloirako	baloietarako	baloiotarako
+ball	ablative	baloitatik	baloitik	baloietatik	baloiotatik
+ball	partitive	baloirik	—	—	—
+ball	prolative	baloitzat	—	—	—
+bird		indefinite	singular	plural	proximal plural
+bird	absolutive	txori	txoria	txoriak	txoriok
+bird	ergative	txorik	txoriak	txoriek	txoriok
+bird	dative	txoriri	txoriari	txoriei	txorioi
+bird	genitive	txoriren	txoriaren	txorien	txorion
+bird	comitative	txorirekin	txoriarekin	txoriekin	txoriokin
+bird	causative	txorirengatik	txoriarengatik	txoriengatik	txoriongatik
+bird	benefactive	txorirentzat	txoriarentzat	txorientzat	txoriontzat
+bird	instrumental	txoriz	txoriaz	txoriez	txoriotaz
+bird	inessive	txorirengan	txoriarengan	txoriengan	txoriongan
+bird	locative	—	—	—	—
+bird	allative	txorirengana	txoriarengana	txoriengana	txoriongana
+bird	terminative	txorirenganaino	txoriarenganaino	txorienganaino	txorionganaino
+bird	directive	txorirenganantz	txoriarenganantz	txorienganantz	txorionganantz
+bird	destinative	txorirenganako	txoriarenganako	txorienganako	txorionganako
+bird	ablative	txorirengandik	txoriarengandik	txoriengandik	txoriongandik
+bird	partitive	txoririk	—	—	—
+bird	prolative	txoritzat	—	—	—
+bird		indefinite	singular	plural	proximal plural
+bird	absolutive	hegazti	hegaztia	hegaztiak	hegaztiok
+bird	ergative	hegaztik	hegaztiak	hegaztiek	hegaztiok
+bird	dative	hegaztiri	hegaztiari	hegaztiei	hegaztioi
+bird	genitive	hegaztiren	hegaztiaren	hegaztien	hegaztion
+bird	comitative	hegaztirekin	hegaztiarekin	hegaztiekin	hegaztiokin
+bird	causative	hegaztirengatik	hegaztiarengatik	hegaztiengatik	hegaztiongatik
+bird	benefactive	hegaztirentzat	hegaztiarentzat	hegaztientzat	hegaztiontzat
+bird	instrumental	hegaztiz	hegaztiaz	hegaztiez	hegaztiotaz
+bird	inessive	hegaztirengan	hegaztiarengan	hegaztiengan	hegaztiongan
+bird	locative	—	—	—	—
+bird	allative	hegaztirengana	hegaztiarengana	hegaztiengana	hegaztiongana
+bird	terminative	hegaztirenganaino	hegaztiarenganaino	hegaztienganaino	hegaztionganaino
+bird	directive	hegaztirenganantz	hegaztiarenganantz	hegaztienganantz	hegaztionganantz
+bird	destinative	hegaztirenganako	hegaztiarenganako	hegaztienganako	hegaztionganako
+bird	ablative	hegaztirengandik	hegaztiarengandik	hegaztiengandik	hegaztiongandik
+bird	partitive	hegaztirik	—	—	—
+bird	prolative	hegaztitzat	—	—	—
+bridge		indefinite	singular	plural	proximal plural
+bridge	absolutive	zubi	zubia	zubiak	zubiok
+bridge	ergative	zubik	zubiak	zubiek	zubiok
+bridge	dative	zubiri	zubiari	zubiei	zubioi
+bridge	genitive	zubiren	zubiaren	zubien	zubion
+bridge	comitative	zubirekin	zubiarekin	zubiekin	zubiokin
+bridge	causative	zubirengatik	zubiarengatik	zubiengatik	zubiongatik
+bridge	benefactive	zubirentzat	zubiarentzat	zubientzat	zubiontzat
+bridge	instrumental	zubiz	zubiaz	zubiez	zubiotaz
+bridge	inessive	zubitan	zubian	zubietan	zubiotan
+bridge	locative	zubitako	zubiko	zubietako	zubiotako
+bridge	allative	zubitara	zubira	zubietara	zubiotara
+bridge	terminative	zubitaraino	zubiraino	zubietaraino	zubiotaraino
+bridge	directive	zubitarantz	zubirantz	zubietarantz	zubiotarantz
+bridge	destinative	zubitarako	zubirako	zubietarako	zubiotarako
+bridge	ablative	zubitatik	zubitik	zubietatik	zubiotatik
+bridge	partitive	zubirik	—	—	—
+bridge	prolative	zubitzat	—	—	—
+sparrow		indefinite	singular	plural	proximal plural
+sparrow	absolutive	txolarre	txolarrea	txolarreak	txolarreok
+sparrow	ergative	txolarrek	txolarreak	txolarreek	txolarreok
+sparrow	dative	txolarreri	txolarreari	txolarreei	txolarreoi
+sparrow	genitive	txolarreren	txolarrearen	txolarreen	txolarreon
+sparrow	comitative	txolarrerekin	txolarrearekin	txolarreekin	txolarreokin
+sparrow	causative	txolarrerengatik	txolarrearengatik	txolarreengatik	txolarreongatik
+sparrow	benefactive	txolarrerentzat	txolarrearentzat	txolarreentzat	txolarreontzat
+sparrow	instrumental	txolarrez	txolarreaz	txolarreez	txolarreotaz
+sparrow	inessive	txolarrerengan	txolarrearengan	txolarreengan	txolarreongan
+sparrow	locative	—	—	—	—
+sparrow	allative	txolarrerengana	txolarrearengana	txolarreengana	txolarreongana
+sparrow	terminative	txolarrerenganaino	txolarrearenganaino	txolarreenganaino	txolarreonganaino
+sparrow	directive	txolarrerenganantz	txolarrearenganantz	txolarreenganantz	txolarreonganantz
+sparrow	destinative	txolarrerenganako	txolarrearenganako	txolarreenganako	txolarreonganako
+sparrow	ablative	txolarrerengandik	txolarrearengandik	txolarreengandik	txolarreongandik
+sparrow	partitive	txolarrerik	—	—	—
+sparrow	prolative	txolarretzat	—	—	—
+swallow		indefinite	singular	plural	proximal plural
+swallow	absolutive	enara	enara	enarak	enarok
+swallow	ergative	enarak	enarak	enarek	enarok
+swallow	dative	enarari	enarari	enarei	enaroi
+swallow	genitive	enararen	enararen	enaren	enaron
+swallow	comitative	enararekin	enararekin	enarekin	enarokin
+swallow	causative	enararengatik	enararengatik	enarengatik	enarongatik
+swallow	benefactive	enararentzat	enararentzat	enarentzat	enarontzat
+swallow	instrumental	enaraz	enaraz	enarez	enarotaz
+swallow	inessive	enararengan	enararengan	enarengan	enarongan
+swallow	locative	—	—	—	—
+swallow	allative	enararengana	enararengana	enarengana	enarongana
+swallow	terminative	enararenganaino	enararenganaino	enarenganaino	enaronganaino
+swallow	directive	enararenganantz	enararenganantz	enarenganantz	enaronganantz
+swallow	destinative	enararenganako	enararenganako	enarenganako	enaronganako
+swallow	ablative	enararengandik	enararengandik	enarengandik	enarongandik
+swallow	partitive	enararik	—	—	—
+swallow	prolative	enaratzat	—	—	—
+eagle		indefinite	singular	plural	proximal plural
+eagle	absolutive	arrano	arranoa	arranoak	arranook
+eagle	ergative	arranok	arranoak	arranoek	arranook
+eagle	dative	arranori	arranoari	arranoei	arranooi
+eagle	genitive	arranoren	arranoaren	arranoen	arranoon
+eagle	comitative	arranorekin	arranoarekin	arranoekin	arranookin
+eagle	causative	arranorengatik	arranoarengatik	arranoengatik	arranoongatik
+eagle	benefactive	arranorentzat	arranoarentzat	arranoentzat	arranoontzat
+eagle	instrumental	arranoz	arranoaz	arranoez	arranootaz
+eagle	inessive	arranorengan	arranoarengan	arranoengan	arranoongan
+eagle	locative	—	—	—	—
+eagle	allative	arranorengana	arranoarengana	arranoengana	arranoongana
+eagle	terminative	arranorenganaino	arranoarenganaino	arranoenganaino	arranoonganaino
+eagle	directive	arranorenganantz	arranoarenganantz	arranoenganantz	arranoonganantz
+eagle	destinative	arranorenganako	arranoarenganako	arranoenganako	arranoonganako
+eagle	ablative	arranorengandik	arranoarengandik	arranoengandik	arranoongandik
+eagle	partitive	arranorik	—	—	—
+eagle	prolative	arranotzat	—	—	—
+swan		indefinite	singular	plural	proximal plural
+swan	absolutive	beltxarga	beltxarga	beltxargak	beltxargok
+swan	ergative	beltxargak	beltxargak	beltxargek	beltxargok
+swan	dative	beltxargari	beltxargari	beltxargei	beltxargoi
+swan	genitive	beltxargaren	beltxargaren	beltxargen	beltxargon
+swan	comitative	beltxargarekin	beltxargarekin	beltxargekin	beltxargokin
+swan	causative	beltxargarengatik	beltxargarengatik	beltxargengatik	beltxargongatik
+swan	benefactive	beltxargarentzat	beltxargarentzat	beltxargentzat	beltxargontzat
+swan	instrumental	beltxargaz	beltxargaz	beltxargez	beltxargotaz
+swan	inessive	beltxargarengan	beltxargarengan	beltxargengan	beltxargongan
+swan	locative	—	—	—	—
+swan	allative	beltxargarengana	beltxargarengana	beltxargengana	beltxargongana
+swan	terminative	beltxargarenganaino	beltxargarenganaino	beltxargenganaino	beltxargonganaino
+swan	directive	beltxargarenganantz	beltxargarenganantz	beltxargenganantz	beltxargonganantz
+swan	destinative	beltxargarenganako	beltxargarenganako	beltxargenganako	beltxargonganako
+swan	ablative	beltxargarengandik	beltxargarengandik	beltxargengandik	beltxargongandik
+swan	partitive	beltxargarik	—	—	—
+swan	prolative	beltxargatzat	—	—	—
+goose		indefinite	singular	plural	proximal plural
+goose	absolutive	oilasko	oilaskoa	oilaskoak	oilaskook
+goose	ergative	oilaskok	oilaskoak	oilaskoek	oilaskook
+goose	dative	oilaskori	oilaskoari	oilaskoei	oilaskooi
+goose	genitive	oilaskoren	oilaskoaren	oilaskoen	oilaskoon
+goose	comitative	oilaskorekin	oilaskoarekin	oilaskoekin	oilaskookin
+goose	causative	oilaskorengatik	oilaskoarengatik	oilaskoengatik	oilaskoongatik
+goose	benefactive	oilaskorentzat	oilaskoarentzat	oilaskoentzat	oilaskoontzat
+goose	instrumental	oilaskoz	oilaskoaz	oilaskoez	oilaskootaz
+goose	inessive	oilaskorengan	oilaskoarengan	oilaskoengan	oilaskoongan
+goose	locative	—	—	—	—
+goose	allative	oilaskorengana	oilaskoarengana	oilaskoengana	oilaskoongana
+goose	terminative	oilaskorenganaino	oilaskoarenganaino	oilaskoenganaino	oilaskoonganaino
+goose	directive	oilaskorenganantz	oilaskoarenganantz	oilaskoenganantz	oilaskoonganantz
+goose	destinative	oilaskorenganako	oilaskoarenganako	oilaskoenganako	oilaskoonganako
+goose	ablative	oilaskorengandik	oilaskoarengandik	oilaskoengandik	oilaskoongandik
+goose	partitive	oilaskorik	—	—	—
+goose	prolative	oilaskotzat	—	—	—
+goose		indefinite	singular	plural	proximal plural
+goose	absolutive	oilo	oiloa	oiloak	oilook
+goose	ergative	oilok	oiloak	oiloek	oilook
+goose	dative	oilori	oiloari	oiloei	oilooi
+goose	genitive	oiloren	oiloaren	oiloen	oiloon
+goose	comitative	oilorekin	oiloarekin	oiloekin	oilookin
+goose	causative	oilorengatik	oiloarengatik	oiloengatik	oiloongatik
+goose	benefactive	oilorentzat	oiloarentzat	oiloentzat	oiloontzat
+goose	instrumental	oiloz	oiloaz	oiloez	oilootaz
+goose	inessive	oilotan	oiloan	oiloetan	oilootan
+goose	locative	oilotako	oiloko	oiloetako	oilootako
+goose	allative	oilotara	oilora	oiloetara	oilootara
+goose	terminative	oilotaraino	oiloraino	oiloetaraino	oilootaraino
+goose	directive	oilotarantz	oilorantz	oiloetarantz	oilootarantz
+goose	destinative	oilotarako	oilorako	oiloetarako	oilootarako
+goose	ablative	oilotatik	oilotik	oiloetatik	oilootatik
+goose	partitive	oilorik	—	—	—
+goose	prolative	oilotzat	—	—	—
+chicken		indefinite	singular	plural	proximal plural
+chicken	absolutive	oilasko	oilaskoa	oilaskoak	oilaskook
+chicken	ergative	oilaskok	oilaskoak	oilaskoek	oilaskook
+chicken	dative	oilaskori	oilaskoari	oilaskoei	oilaskooi
+chicken	genitive	oilaskoren	oilaskoaren	oilaskoen	oilaskoon
+chicken	comitative	oilaskorekin	oilaskoarekin	oilaskoekin	oilaskookin
+chicken	causative	oilaskorengatik	oilaskoarengatik	oilaskoengatik	oilaskoongatik
+chicken	benefactive	oilaskorentzat	oilaskoarentzat	oilaskoentzat	oilaskoontzat
+chicken	instrumental	oilaskoz	oilaskoaz	oilaskoez	oilaskootaz
+chicken	inessive	oilaskorengan	oilaskoarengan	oilaskoengan	oilaskoongan
+chicken	locative	—	—	—	—
+chicken	allative	oilaskorengana	oilaskoarengana	oilaskoengana	oilaskoongana
+chicken	terminative	oilaskorenganaino	oilaskoarenganaino	oilaskoenganaino	oilaskoonganaino
+chicken	directive	oilaskorenganantz	oilaskoarenganantz	oilaskoenganantz	oilaskoonganantz
+chicken	destinative	oilaskorenganako	oilaskoarenganako	oilaskoenganako	oilaskoonganako
+chicken	ablative	oilaskorengandik	oilaskoarengandik	oilaskoengandik	oilaskoongandik
+chicken	partitive	oilaskorik	—	—	—
+chicken	prolative	oilaskotzat	—	—	—
+chicken		indefinite	singular	plural	proximal plural
+chicken	absolutive	oilo	oiloa	oiloak	oilook
+chicken	ergative	oilok	oiloak	oiloek	oilook
+chicken	dative	oilori	oiloari	oiloei	oilooi
+chicken	genitive	oiloren	oiloaren	oiloen	oiloon
+chicken	comitative	oilorekin	oiloarekin	oiloekin	oilookin
+chicken	causative	oilorengatik	oiloarengatik	oiloengatik	oiloongatik
+chicken	benefactive	oilorentzat	oiloarentzat	oiloentzat	oiloontzat
+chicken	instrumental	oiloz	oiloaz	oiloez	oilootaz
+chicken	inessive	oilotan	oiloan	oiloetan	oilootan
+chicken	locative	oilotako	oiloko	oiloetako	oilootako
+chicken	allative	oilotara	oilora	oiloetara	oilootara
+chicken	terminative	oilotaraino	oiloraino	oiloetaraino	oilootaraino
+chicken	directive	oilotarantz	oilorantz	oiloetarantz	oilootarantz
+chicken	destinative	oilotarako	oilorako	oiloetarako	oilootarako
+chicken	ablative	oilotatik	oilotik	oiloetatik	oilootatik
+chicken	partitive	oilorik	—	—	—
+chicken	prolative	oilotzat	—	—	—
+dove		indefinite	singular	plural	proximal plural
+dove	absolutive	urzo	urzoa	urzoak	urzook
+dove	ergative	urzok	urzoak	urzoek	urzook
+dove	dative	urzori	urzoari	urzoei	urzooi
+dove	genitive	urzoren	urzoaren	urzoen	urzoon
+dove	comitative	urzorekin	urzoarekin	urzoekin	urzookin
+dove	causative	urzorengatik	urzoarengatik	urzoengatik	urzoongatik
+dove	benefactive	urzorentzat	urzoarentzat	urzoentzat	urzoontzat
+dove	instrumental	urzoz	urzoaz	urzoez	urzootaz
+dove	inessive	urzorengan	urzoarengan	urzoengan	urzoongan
+dove	locative	—	—	—	—
+dove	allative	urzorengana	urzoarengana	urzoengana	urzoongana
+dove	terminative	urzorenganaino	urzoarenganaino	urzoenganaino	urzoonganaino
+dove	directive	urzorenganantz	urzoarenganantz	urzoenganantz	urzoonganantz
+dove	destinative	urzorenganako	urzoarenganako	urzoenganako	urzoonganako
+dove	ablative	urzorengandik	urzoarengandik	urzoengandik	urzoongandik
+dove	partitive	urzorik	—	—	—
+dove	prolative	urzotzat	—	—	—
+pigeon		indefinite	singular	plural	proximal plural
+pigeon	absolutive	uso	usoa	usoak	usook
+pigeon	ergative	usok	usoak	usoek	usook
+pigeon	dative	usori	usoari	usoei	usooi
+pigeon	genitive	usoren	usoaren	usoen	usoon
+pigeon	comitative	usorekin	usoarekin	usoekin	usookin
+pigeon	causative	usorengatik	usoarengatik	usoengatik	usoongatik
+pigeon	benefactive	usorentzat	usoarentzat	usoentzat	usoontzat
+pigeon	instrumental	usoz	usoaz	usoez	usootaz
+pigeon	inessive	usorengan	usoarengan	usoengan	usoongan
+pigeon	locative	—	—	—	—
+pigeon	allative	usorengana	usoarengana	usoengana	usoongana
+pigeon	terminative	usorenganaino	usoarenganaino	usoenganaino	usoonganaino
+pigeon	directive	usorenganantz	usoarenganantz	usoenganantz	usoonganantz
+pigeon	destinative	usorenganako	usoarenganako	usoenganako	usoonganako
+pigeon	ablative	usorengandik	usoarengandik	usoengandik	usoongandik
+pigeon	partitive	usorik	—	—	—
+pigeon	prolative	usotzat	—	—	—
+pigeon		indefinite	singular	plural	proximal plural
+pigeon	absolutive	urzo	urzoa	urzoak	urzook
+pigeon	ergative	urzok	urzoak	urzoek	urzook
+pigeon	dative	urzori	urzoari	urzoei	urzooi
+pigeon	genitive	urzoren	urzoaren	urzoen	urzoon
+pigeon	comitative	urzorekin	urzoarekin	urzoekin	urzookin
+pigeon	causative	urzorengatik	urzoarengatik	urzoengatik	urzoongatik
+pigeon	benefactive	urzorentzat	urzoarentzat	urzoentzat	urzoontzat
+pigeon	instrumental	urzoz	urzoaz	urzoez	urzootaz
+pigeon	inessive	urzorengan	urzoarengan	urzoengan	urzoongan
+pigeon	locative	—	—	—	—
+pigeon	allative	urzorengana	urzoarengana	urzoengana	urzoongana
+pigeon	terminative	urzorenganaino	urzoarenganaino	urzoenganaino	urzoonganaino
+pigeon	directive	urzorenganantz	urzoarenganantz	urzoenganantz	urzoonganantz
+pigeon	destinative	urzorenganako	urzoarenganako	urzoenganako	urzoonganako
+pigeon	ablative	urzorengandik	urzoarengandik	urzoengandik	urzoongandik
+pigeon	partitive	urzorik	—	—	—
+pigeon	prolative	urzotzat	—	—	—
+crow		indefinite	singular	plural	proximal plural
+crow	absolutive	bele	belea	beleak	beleok
+crow	ergative	belek	beleak	beleek	beleok
+crow	dative	beleri	beleari	beleei	beleoi
+crow	genitive	beleren	belearen	beleen	beleon
+crow	comitative	belerekin	belearekin	beleekin	beleokin
+crow	causative	belerengatik	belearengatik	beleengatik	beleongatik
+crow	benefactive	belerentzat	belearentzat	beleentzat	beleontzat
+crow	instrumental	belez	beleaz	beleez	beleotaz
+crow	inessive	belerengan	belearengan	beleengan	beleongan
+crow	locative	—	—	—	—
+crow	allative	belerengana	belearengana	beleengana	beleongana
+crow	terminative	belerenganaino	belearenganaino	beleenganaino	beleonganaino
+crow	directive	belerenganantz	belearenganantz	beleenganantz	beleonganantz
+crow	destinative	belerenganako	belearenganako	beleenganako	beleonganako
+crow	ablative	belerengandik	belearengandik	beleengandik	beleongandik
+crow	partitive	belerik	—	—	—
+crow	prolative	beletzat	—	—	—
+child		indefinite	singular	plural	proximal plural
+child	absolutive	sein	seina	seinak	seinok
+child	ergative	seinek	seinak	seinek	seinok
+child	dative	seini	seinari	seinei	seinoi
+child	genitive	seinen	seinaren	seinen	seinon
+child	comitative	seinekin	seinarekin	seinekin	seinokin
+child	causative	seinengatik	seinarengatik	seinengatik	seinongatik
+child	benefactive	seinentzat	seinarentzat	seinentzat	seinontzat
+child	instrumental	seinez	seinaz	seinez	seinotaz
+child	inessive	seinengan	seinarengan	seinengan	seinongan
+child	locative	—	—	—	—
+child	allative	seinengana	seinarengana	seinengana	seinongana
+child	terminative	seinenganaino	seinarenganaino	seinenganaino	seinonganaino
+child	directive	seinenganantz	seinarenganantz	seinenganantz	seinonganantz
+child	destinative	seinenganako	seinarenganako	seinenganako	seinonganako
+child	ablative	seinengandik	seinarengandik	seinengandik	seinongandik
+child	partitive	seinik	—	—	—
+child	prolative	seintzat	—	—	—
+child		indefinite	singular	plural	proximal plural
+child	absolutive	ume	umea	umeak	umeok
+child	ergative	umek	umeak	umeek	umeok
+child	dative	umeri	umeari	umeei	umeoi
+child	genitive	umeren	umearen	umeen	umeon
+child	comitative	umerekin	umearekin	umeekin	umeokin
+child	causative	umerengatik	umearengatik	umeengatik	umeongatik
+child	benefactive	umerentzat	umearentzat	umeentzat	umeontzat
+child	instrumental	umez	umeaz	umeez	umeotaz
+child	inessive	umerengan	umearengan	umeengan	umeongan
+child	locative	—	—	—	—
+child	allative	umerengana	umearengana	umeengana	umeongana
+child	terminative	umerenganaino	umearenganaino	umeenganaino	umeonganaino
+child	directive	umerenganantz	umearenganantz	umeenganantz	umeonganantz
+child	destinative	umerenganako	umearenganako	umeenganako	umeonganako
+child	ablative	umerengandik	umearengandik	umeengandik	umeongandik
+child	partitive	umerik	—	—	—
+child	prolative	umetzat	—	—	—
+egg		indefinite	singular	plural	proximal plural
+egg	absolutive	arrautza	arrautza	arrautzak	arrautzok
+egg	ergative	arrautzak	arrautzak	arrautzek	arrautzok
+egg	dative	arrautzari	arrautzari	arrautzei	arrautzoi
+egg	genitive	arrautzaren	arrautzaren	arrautzen	arrautzon
+egg	comitative	arrautzarekin	arrautzarekin	arrautzekin	arrautzokin
+egg	causative	arrautzarengatik	arrautzarengatik	arrautzengatik	arrautzongatik
+egg	benefactive	arrautzarentzat	arrautzarentzat	arrautzentzat	arrautzontzat
+egg	instrumental	arrautzaz	arrautzaz	arrautzez	arrautzotaz
+egg	inessive	arrautzatan	arrautzan	arrautzetan	arrautzotan
+egg	locative	arrautzatako	arrautzako	arrautzetako	arrautzotako
+egg	allative	arrautzatara	arrautzara	arrautzetara	arrautzotara
+egg	terminative	arrautzataraino	arrautzaraino	arrautzetaraino	arrautzotaraino
+egg	directive	arrautzatarantz	arrautzarantz	arrautzetarantz	arrautzotarantz
+egg	destinative	arrautzatarako	arrautzarako	arrautzetarako	arrautzotarako
+egg	ablative	arrautzatatik	arrautzatik	arrautzetatik	arrautzotatik
+egg	partitive	arrautzarik	—	—	—
+egg	prolative	arrautzatzat	—	—	—
+nest		indefinite	singular	plural	proximal plural
+nest	absolutive	habia	habia	habiak	habiok
+nest	ergative	habiak	habiak	habiek	habiok
+nest	dative	habiari	habiari	habiei	habioi
+nest	genitive	habiaren	habiaren	habien	habion
+nest	comitative	habiarekin	habiarekin	habiekin	habiokin
+nest	causative	habiarengatik	habiarengatik	habiengatik	habiongatik
+nest	benefactive	habiarentzat	habiarentzat	habientzat	habiontzat
+nest	instrumental	habiaz	habiaz	habiez	habiotaz
+nest	inessive	habiatan	habian	habietan	habiotan
+nest	locative	habiatako	habiako	habietako	habiotako
+nest	allative	habiatara	habiara	habietara	habiotara
+nest	terminative	habiataraino	habiaraino	habietaraino	habiotaraino
+nest	directive	habiatarantz	habiarantz	habietarantz	habiotarantz
+nest	destinative	habiatarako	habiarako	habietarako	habiotarako
+nest	ablative	habiatatik	habiatik	habietatik	habiotatik
+nest	partitive	habiarik	—	—	—
+nest	prolative	habiatzat	—	—	—
+tree		indefinite	singular	plural	proximal plural
+tree	absolutive	zuhaitz	zuhaitza	zuhaitzak	zuhaitzok
+tree	ergative	zuhaitzek	zuhaitzak	zuhaitzek	zuhaitzok
+tree	dative	zuhaitzi	zuhaitzari	zuhaitzei	zuhaitzoi
+tree	genitive	zuhaitzen	zuhaitzaren	zuhaitzen	zuhaitzon
+tree	comitative	zuhaitzekin	zuhaitzarekin	zuhaitzekin	zuhaitzokin
+tree	causative	zuhaitzengatik	zuhaitzarengatik	zuhaitzengatik	zuhaitzongatik
+tree	benefactive	zuhaitzentzat	zuhaitzarentzat	zuhaitzentzat	zuhaitzontzat
+tree	instrumental	zuhaitzez	zuhaitzaz	zuhaitzez	zuhaitzotaz
+tree	inessive	zuhaitzetan	zuhaitzean	zuhaitzetan	zuhaitzotan
+tree	locative	zuhaitzetako	zuhaitzeko	zuhaitzetako	zuhaitzotako
+tree	allative	zuhaitzetara	zuhaitzera	zuhaitzetara	zuhaitzotara
+tree	terminative	zuhaitzetaraino	zuhaitzeraino	zuhaitzetaraino	zuhaitzotaraino
+tree	directive	zuhaitzetarantz	zuhaitzerantz	zuhaitzetarantz	zuhaitzotarantz
+tree	destinative	zuhaitzetarako	zuhaitzerako	zuhaitzetarako	zuhaitzotarako
+tree	ablative	zuhaitzetatik	zuhaitzetik	zuhaitzetatik	zuhaitzotatik
+tree	partitive	zuhaitzik	—	—	—
+tree	prolative	zuhaiztzat	—	—	—
+tree		indefinite	singular	plural	proximal plural
+tree	absolutive	arbola	arbola	arbolak	arbolok
+tree	ergative	arbolak	arbolak	arbolek	arbolok
+tree	dative	arbolari	arbolari	arbolei	arboloi
+tree	genitive	arbolaren	arbolaren	arbolen	arbolon
+tree	comitative	arbolarekin	arbolarekin	arbolekin	arbolokin
+tree	causative	arbolarengatik	arbolarengatik	arbolengatik	arbolongatik
+tree	benefactive	arbolarentzat	arbolarentzat	arbolentzat	arbolontzat
+tree	instrumental	arbolaz	arbolaz	arbolez	arbolotaz
+tree	inessive	arbolatan	arbolan	arboletan	arbolotan
+tree	locative	arbolatako	arbolako	arboletako	arbolotako
+tree	allative	arbolatara	arbolara	arboletara	arbolotara
+tree	terminative	arbolataraino	arbolaraino	arboletaraino	arbolotaraino
+tree	directive	arbolatarantz	arbolarantz	arboletarantz	arbolotarantz
+tree	destinative	arbolatarako	arbolarako	arboletarako	arbolotarako
+tree	ablative	arbolatatik	arbolatik	arboletatik	arbolotatik
+tree	partitive	arbolarik	—	—	—
+tree	prolative	arbolatzat	—	—	—
+boat		indefinite	singular	plural	proximal plural
+boat	absolutive	txalupa	txalupa	txalupak	txalupok
+boat	ergative	txalupak	txalupak	txalupek	txalupok
+boat	dative	txalupari	txalupari	txalupei	txalupoi
+boat	genitive	txaluparen	txaluparen	txalupen	txalupon
+boat	comitative	txaluparekin	txaluparekin	txalupekin	txalupokin
+boat	causative	txaluparengatik	txaluparengatik	txalupengatik	txalupongatik
+boat	benefactive	txaluparentzat	txaluparentzat	txalupentzat	txalupontzat
+boat	instrumental	txalupaz	txalupaz	txalupez	txalupotaz
+boat	inessive	txalupatan	txalupan	txalupetan	txalupotan
+boat	locative	txalupatako	txalupako	txalupetako	txalupotako
+boat	allative	txalupatara	txalupara	txalupetara	txalupotara
+boat	terminative	txalupataraino	txaluparaino	txalupetaraino	txalupotaraino
+boat	directive	txalupatarantz	txaluparantz	txalupetarantz	txalupotarantz
+boat	destinative	txalupatarako	txaluparako	txalupetarako	txalupotarako
+boat	ablative	txalupatatik	txalupatik	txalupetatik	txalupotatik
+boat	partitive	txaluparik	—	—	—
+boat	prolative	txalupatzat	—	—	—
+boat		indefinite	singular	plural	proximal plural
+boat	absolutive	batel	batela	batelak	batelok
+boat	ergative	batelek	batelak	batelek	batelok
+boat	dative	bateli	batelari	batelei	bateloi
+boat	genitive	batelen	batelaren	batelen	batelon
+boat	comitative	batelekin	batelarekin	batelekin	batelokin
+boat	causative	batelengatik	batelarengatik	batelengatik	batelongatik
+boat	benefactive	batelentzat	batelarentzat	batelentzat	batelontzat
+boat	instrumental	batelez	batelaz	batelez	batelotaz
+boat	inessive	bateletan	batelean	bateletan	batelotan
+boat	locative	bateletako	bateleko	bateletako	batelotako
+boat	allative	bateletara	batelera	bateletara	batelotara
+boat	terminative	bateletaraino	bateleraino	bateletaraino	batelotaraino
+boat	directive	bateletarantz	batelerantz	bateletarantz	batelotarantz
+boat	destinative	bateletarako	batelerako	bateletarako	batelotarako
+boat	ablative	bateletatik	bateletik	bateletatik	batelotatik
+boat	partitive	batelik	—	—	—
+boat	prolative	bateltzat	—	—	—
+book		indefinite	singular	plural	proximal plural
+book	absolutive	liburu	liburua	liburuak	liburuok
+book	ergative	liburuk	liburuak	liburuek	liburuok
+book	dative	libururi	liburuari	liburuei	liburuoi
+book	genitive	libururen	liburuaren	liburuen	liburuon
+book	comitative	libururekin	liburuarekin	liburuekin	liburuokin
+book	causative	libururengatik	liburuarengatik	liburuengatik	liburuongatik
+book	benefactive	libururentzat	liburuarentzat	liburuentzat	liburuontzat
+book	instrumental	liburuz	liburuaz	liburuez	liburuotaz
+book	inessive	liburutan	liburuan	liburuetan	liburuotan
+book	locative	liburutako	liburuko	liburuetako	liburuotako
+book	allative	liburutara	liburura	liburuetara	liburuotara
+book	terminative	liburutaraino	libururaino	liburuetaraino	liburuotaraino
+book	directive	liburutarantz	libururantz	liburuetarantz	liburuotarantz
+book	destinative	liburutarako	libururako	liburuetarako	liburuotarako
+book	ablative	liburutatik	liburutik	liburuetatik	liburuotatik
+book	partitive	libururik	—	—	—
+book	prolative	liburutzat	—	—	—
+bug		indefinite	singular	plural	proximal plural
+bug	absolutive	zomorro	zomorroa	zomorroak	zomorrook
+bug	ergative	zomorrok	zomorroak	zomorroek	zomorrook
+bug	dative	zomorrori	zomorroari	zomorroei	zomorrooi
+bug	genitive	zomorroren	zomorroaren	zomorroen	zomorroon
+bug	comitative	zomorrorekin	zomorroarekin	zomorroekin	zomorrookin
+bug	causative	zomorrorengatik	zomorroarengatik	zomorroengatik	zomorroongatik
+bug	benefactive	zomorrorentzat	zomorroarentzat	zomorroentzat	zomorroontzat
+bug	instrumental	zomorroz	zomorroaz	zomorroez	zomorrootaz
+bug	inessive	zomorrorengan	zomorroarengan	zomorroengan	zomorroongan
+bug	locative	—	—	—	—
+bug	allative	zomorrorengana	zomorroarengana	zomorroengana	zomorroongana
+bug	terminative	zomorrorenganaino	zomorroarenganaino	zomorroenganaino	zomorroonganaino
+bug	directive	zomorrorenganantz	zomorroarenganantz	zomorroenganantz	zomorroonganantz
+bug	destinative	zomorrorenganako	zomorroarenganako	zomorroenganako	zomorroonganako
+bug	ablative	zomorrorengandik	zomorroarengandik	zomorroengandik	zomorroongandik
+bug	partitive	zomorrorik	—	—	—
+bug	prolative	zomorrotzat	—	—	—
+insect		indefinite	singular	plural	proximal plural
+insect	absolutive	intsektu	intsektua	intsektuak	intsektuok
+insect	ergative	intsektuk	intsektuak	intsektuek	intsektuok
+insect	dative	intsekturi	intsektuari	intsektuei	intsektuoi
+insect	genitive	intsekturen	intsektuaren	intsektuen	intsektuon
+insect	comitative	intsekturekin	intsektuarekin	intsektuekin	intsektuokin
+insect	causative	intsekturengatik	intsektuarengatik	intsektuengatik	intsektuongatik
+insect	benefactive	intsekturentzat	intsektuarentzat	intsektuentzat	intsektuontzat
+insect	instrumental	intsektuz	intsektuaz	intsektuez	intsektuotaz
+insect	inessive	intsekturengan	intsektuarengan	intsektuengan	intsektuongan
+insect	locative	—	—	—	—
+insect	allative	intsekturengana	intsektuarengana	intsektuengana	intsektuongana
+insect	terminative	intsekturenganaino	intsektuarenganaino	intsektuenganaino	intsektuonganaino
+insect	directive	intsekturenganantz	intsektuarenganantz	intsektuenganantz	intsektuonganantz
+insect	destinative	intsekturenganako	intsektuarenganako	intsektuenganako	intsektuonganako
+insect	ablative	intsekturengandik	intsektuarengandik	intsektuengandik	intsektuongandik
+insect	partitive	intsekturik	—	—	—
+insect	prolative	intsektutzat	—	—	—
+insect		indefinite	singular	plural	proximal plural
+insect	absolutive	zomorro	zomorroa	zomorroak	zomorrook
+insect	ergative	zomorrok	zomorroak	zomorroek	zomorrook
+insect	dative	zomorrori	zomorroari	zomorroei	zomorrooi
+insect	genitive	zomorroren	zomorroaren	zomorroen	zomorroon
+insect	comitative	zomorrorekin	zomorroarekin	zomorroekin	zomorrookin
+insect	causative	zomorrorengatik	zomorroarengatik	zomorroengatik	zomorroongatik
+insect	benefactive	zomorrorentzat	zomorroarentzat	zomorroentzat	zomorroontzat
+insect	instrumental	zomorroz	zomorroaz	zomorroez	zomorrootaz
+insect	inessive	zomorrorengan	zomorroarengan	zomorroengan	zomorroongan
+insect	locative	—	—	—	—
+insect	allative	zomorrorengana	zomorroarengana	zomorroengana	zomorroongana
+insect	terminative	zomorrorenganaino	zomorroarenganaino	zomorroenganaino	zomorroonganaino
+insect	directive	zomorrorenganantz	zomorroarenganantz	zomorroenganantz	zomorroonganantz
+insect	destinative	zomorrorenganako	zomorroarenganako	zomorroenganako	zomorroonganako
+insect	ablative	zomorrorengandik	zomorroarengandik	zomorroengandik	zomorroongandik
+insect	partitive	zomorrorik	—	—	—
+insect	prolative	zomorrotzat	—	—	—
+beetle		indefinite	singular	plural	proximal plural
+beetle	absolutive	kakalardo	kakalardoa	kakalardoak	kakalardook
+beetle	ergative	kakalardok	kakalardoak	kakalardoek	kakalardook
+beetle	dative	kakalardori	kakalardoari	kakalardoei	kakalardooi
+beetle	genitive	kakalardoren	kakalardoaren	kakalardoen	kakalardoon
+beetle	comitative	kakalardorekin	kakalardoarekin	kakalardoekin	kakalardookin
+beetle	causative	kakalardorengatik	kakalardoarengatik	kakalardoengatik	kakalardoongatik
+beetle	benefactive	kakalardorentzat	kakalardoarentzat	kakalardoentzat	kakalardoontzat
+beetle	instrumental	kakalardoz	kakalardoaz	kakalardoez	kakalardootaz
+beetle	inessive	kakalardorengan	kakalardoarengan	kakalardoengan	kakalardoongan
+beetle	locative	—	—	—	—
+beetle	allative	kakalardorengana	kakalardoarengana	kakalardoengana	kakalardoongana
+beetle	terminative	kakalardorenganaino	kakalardoarenganaino	kakalardoenganaino	kakalardoonganaino
+beetle	directive	kakalardorenganantz	kakalardoarenganantz	kakalardoenganantz	kakalardoonganantz
+beetle	destinative	kakalardorenganako	kakalardoarenganako	kakalardoenganako	kakalardoonganako
+beetle	ablative	kakalardorengandik	kakalardoarengandik	kakalardoengandik	kakalardoongandik
+beetle	partitive	kakalardorik	—	—	—
+beetle	prolative	kakalardotzat	—	—	—
+louse		indefinite	singular	plural	proximal plural
+louse	absolutive	zorri	zorria	zorriak	zorriok
+louse	ergative	zorrik	zorriak	zorriek	zorriok
+louse	dative	zorriri	zorriari	zorriei	zorrioi
+louse	genitive	zorriren	zorriaren	zorrien	zorrion
+louse	comitative	zorrirekin	zorriarekin	zorriekin	zorriokin
+louse	causative	zorrirengatik	zorriarengatik	zorriengatik	zorriongatik
+louse	benefactive	zorrirentzat	zorriarentzat	zorrientzat	zorriontzat
+louse	instrumental	zorriz	zorriaz	zorriez	zorriotaz
+louse	inessive	zorrirengan	zorriarengan	zorriengan	zorriongan
+louse	locative	—	—	—	—
+louse	allative	zorrirengana	zorriarengana	zorriengana	zorriongana
+louse	terminative	zorrirenganaino	zorriarenganaino	zorrienganaino	zorrionganaino
+louse	directive	zorrirenganantz	zorriarenganantz	zorrienganantz	zorrionganantz
+louse	destinative	zorrirenganako	zorriarenganako	zorrienganako	zorrionganako
+louse	ablative	zorrirengandik	zorriarengandik	zorriengandik	zorriongandik
+louse	partitive	zorririk	—	—	—
+louse	prolative	zorritzat	—	—	—
+clothing		indefinite	singular	plural	proximal plural
+clothing	absolutive	jantzi	jantzia	jantziak	jantziok
+clothing	ergative	jantzik	jantziak	jantziek	jantziok
+clothing	dative	jantziri	jantziari	jantziei	jantzioi
+clothing	genitive	jantziren	jantziaren	jantzien	jantzion
+clothing	comitative	jantzirekin	jantziarekin	jantziekin	jantziokin
+clothing	causative	jantzirengatik	jantziarengatik	jantziengatik	jantziongatik
+clothing	benefactive	jantzirentzat	jantziarentzat	jantzientzat	jantziontzat
+clothing	instrumental	jantziz	jantziaz	jantziez	jantziotaz
+clothing	inessive	jantzitan	jantzian	jantzietan	jantziotan
+clothing	locative	jantzitako	jantziko	jantzietako	jantziotako
+clothing	allative	jantzitara	jantzira	jantzietara	jantziotara
+clothing	terminative	jantzitaraino	jantziraino	jantzietaraino	jantziotaraino
+clothing	directive	jantzitarantz	jantzirantz	jantzietarantz	jantziotarantz
+clothing	destinative	jantzitarako	jantzirako	jantzietarako	jantziotarako
+clothing	ablative	jantzitatik	jantzitik	jantzietatik	jantziotatik
+clothing	partitive	jantzirik	—	—	—
+clothing	prolative	jantzitzat	—	—	—
+dog		indefinite	singular	plural	proximal plural
+dog	absolutive	txakur	txakurra	txakurrak	txakurrok
+dog	ergative	txakurrek	txakurrak	txakurrek	txakurrok
+dog	dative	txakurri	txakurrari	txakurrei	txakurroi
+dog	genitive	txakurren	txakurraren	txakurren	txakurron
+dog	comitative	txakurrekin	txakurrarekin	txakurrekin	txakurrokin
+dog	causative	txakurrengatik	txakurrarengatik	txakurrengatik	txakurrongatik
+dog	benefactive	txakurrentzat	txakurrarentzat	txakurrentzat	txakurrontzat
+dog	instrumental	txakurrez	txakurraz	txakurrez	txakurrotaz
+dog	inessive	txakurrengan	txakurrarengan	txakurrengan	txakurrongan
+dog	locative	—	—	—	—
+dog	allative	txakurrengana	txakurrarengana	txakurrengana	txakurrongana
+dog	terminative	txakurrenganaino	txakurrarenganaino	txakurrenganaino	txakurronganaino
+dog	directive	txakurrenganantz	txakurrarenganantz	txakurrenganantz	txakurronganantz
+dog	destinative	txakurrenganako	txakurrarenganako	txakurrenganako	txakurronganako
+dog	ablative	txakurrengandik	txakurrarengandik	txakurrengandik	txakurrongandik
+dog	partitive	txakurrik	—	—	—
+dog	prolative	txakurtzat	—	—	—
+dog		indefinite	singular	plural	proximal plural
+dog	absolutive	etxe-txakur	etxe-txakurra	etxe-txakurrak	etxe-txakurrok
+dog	ergative	etxe-txakurrek	etxe-txakurrak	etxe-txakurrek	etxe-txakurrok
+dog	dative	etxe-txakurri	etxe-txakurrari	etxe-txakurrei	etxe-txakurroi
+dog	genitive	etxe-txakurren	etxe-txakurraren	etxe-txakurren	etxe-txakurron
+dog	comitative	etxe-txakurrekin	etxe-txakurrarekin	etxe-txakurrekin	etxe-txakurrokin
+dog	causative	etxe-txakurrengatik	etxe-txakurrarengatik	etxe-txakurrengatik	etxe-txakurrongatik
+dog	benefactive	etxe-txakurrentzat	etxe-txakurrarentzat	etxe-txakurrentzat	etxe-txakurrontzat
+dog	instrumental	etxe-txakurrez	etxe-txakurraz	etxe-txakurrez	etxe-txakurrotaz
+dog	inessive	etxe-txakurrengan	etxe-txakurrarengan	etxe-txakurrengan	etxe-txakurrongan
+dog	locative	—	—	—	—
+dog	allative	etxe-txakurrengana	etxe-txakurrarengana	etxe-txakurrengana	etxe-txakurrongana
+dog	terminative	etxe-txakurrenganaino	etxe-txakurrarenganaino	etxe-txakurrenganaino	etxe-txakurronganaino
+dog	directive	etxe-txakurrenganantz	etxe-txakurrarenganantz	etxe-txakurrenganantz	etxe-txakurronganantz
+dog	destinative	etxe-txakurrenganako	etxe-txakurrarenganako	etxe-txakurrenganako	etxe-txakurronganako
+dog	ablative	etxe-txakurrengandik	etxe-txakurrarengandik	etxe-txakurrengandik	etxe-txakurrongandik
+dog	partitive	etxe-txakurrik	—	—	—
+dog	prolative	etxe-txakurtzat	—	—	—
+door		indefinite	singular	plural	proximal plural
+door	absolutive	ate	atea	ateak	ateok
+door	ergative	atek	ateak	ateek	ateok
+door	dative	ateri	ateari	ateei	ateoi
+door	genitive	ateren	atearen	ateen	ateon
+door	comitative	aterekin	atearekin	ateekin	ateokin
+door	causative	aterengatik	atearengatik	ateengatik	ateongatik
+door	benefactive	aterentzat	atearentzat	ateentzat	ateontzat
+door	instrumental	atez	ateaz	ateez	ateotaz
+door	inessive	atetan	atean	ateetan	ateotan
+door	locative	atetako	ateko	ateetako	ateotako
+door	allative	atetara	atera	ateetara	ateotara
+door	terminative	atetaraino	ateraino	ateetaraino	ateotaraino
+door	directive	atetarantz	aterantz	ateetarantz	ateotarantz
+door	destinative	atetarako	aterako	ateetarako	ateotarako
+door	ablative	atetatik	atetik	ateetatik	ateotatik
+door	partitive	aterik	—	—	—
+door	prolative	atetzat	—	—	—
+drum		indefinite	singular	plural	proximal plural
+drum	absolutive	danbor	danborra	danborrak	danborrok
+drum	ergative	danborrek	danborrak	danborrek	danborrok
+drum	dative	danborri	danborrari	danborrei	danborroi
+drum	genitive	danborren	danborraren	danborren	danborron
+drum	comitative	danborrekin	danborrarekin	danborrekin	danborrokin
+drum	causative	danborrengatik	danborrarengatik	danborrengatik	danborrongatik
+drum	benefactive	danborrentzat	danborrarentzat	danborrentzat	danborrontzat
+drum	instrumental	danborrez	danborraz	danborrez	danborrotaz
+drum	inessive	danborretan	danborrean	danborretan	danborrotan
+drum	locative	danborretako	danborreko	danborretako	danborrotako
+drum	allative	danborretara	danborrera	danborretara	danborrotara
+drum	terminative	danborretaraino	danborreraino	danborretaraino	danborrotaraino
+drum	directive	danborretarantz	danborrerantz	danborretarantz	danborrotarantz
+drum	destinative	danborretarako	danborrerako	danborretarako	danborrotarako
+drum	ablative	danborretatik	danborretik	danborretatik	danborrotatik
+drum	partitive	danborrik	—	—	—
+drum	prolative	danbortzat	—	—	—
+enemy		indefinite	singular	plural	proximal plural
+enemy	absolutive	etsai	etsaia	etsaiak	etsaiok
+enemy	ergative	etsaik	etsaiak	etsaiek	etsaiok
+enemy	dative	etsairi	etsaiari	etsaiei	etsaioi
+enemy	genitive	etsairen	etsaiaren	etsaien	etsaion
+enemy	comitative	etsairekin	etsaiarekin	etsaiekin	etsaiokin
+enemy	causative	etsairengatik	etsaiarengatik	etsaiengatik	etsaiongatik
+enemy	benefactive	etsairentzat	etsaiarentzat	etsaientzat	etsaiontzat
+enemy	instrumental	etsaiz	etsaiaz	etsaiez	etsaiotaz
+enemy	inessive	etsairengan	etsaiarengan	etsaiengan	etsaiongan
+enemy	locative	—	—	—	—
+enemy	allative	etsairengana	etsaiarengana	etsaiengana	etsaiongana
+enemy	terminative	etsairenganaino	etsaiarenganaino	etsaienganaino	etsaionganaino
+enemy	directive	etsairenganantz	etsaiarenganantz	etsaienganantz	etsaionganantz
+enemy	destinative	etsairenganako	etsaiarenganako	etsaienganako	etsaionganako
+enemy	ablative	etsairengandik	etsaiarengandik	etsaiengandik	etsaiongandik
+enemy	partitive	etsairik	—	—	—
+enemy	prolative	etsaitzat	—	—	—
+fish		indefinite	singular	plural	proximal plural
+fish	absolutive	arrain	arraina	arrainak	arrainok
+fish	ergative	arrainek	arrainak	arrainek	arrainok
+fish	dative	arraini	arrainari	arrainei	arrainoi
+fish	genitive	arrainen	arrainaren	arrainen	arrainon
+fish	comitative	arrainekin	arrainarekin	arrainekin	arrainokin
+fish	causative	arrainengatik	arrainarengatik	arrainengatik	arrainongatik
+fish	benefactive	arrainentzat	arrainarentzat	arrainentzat	arrainontzat
+fish	instrumental	arrainez	arrainaz	arrainez	arrainotaz
+fish	inessive	arrainengan	arrainarengan	arrainengan	arrainongan
+fish	locative	—	—	—	—
+fish	allative	arrainengana	arrainarengana	arrainengana	arrainongana
+fish	terminative	arrainenganaino	arrainarenganaino	arrainenganaino	arrainonganaino
+fish	directive	arrainenganantz	arrainarenganantz	arrainenganantz	arrainonganantz
+fish	destinative	arrainenganako	arrainarenganako	arrainenganako	arrainonganako
+fish	ablative	arrainengandik	arrainarengandik	arrainengandik	arrainongandik
+fish	partitive	arrainik	—	—	—
+fish	prolative	arraintzat	—	—	—
+fire		indefinite	singular	plural	proximal plural
+fire	absolutive	su	sua	suak	suok
+fire	ergative	suk	suak	suek	suok
+fire	dative	suri	suari	suei	suoi
+fire	genitive	suren	suaren	suen	suon
+fire	comitative	surekin	suarekin	suekin	suokin
+fire	causative	surengatik	suarengatik	suengatik	suongatik
+fire	benefactive	surentzat	suarentzat	suentzat	suontzat
+fire	instrumental	suz	suaz	suez	suotaz
+fire	inessive	sutan	suan	suetan	suotan
+fire	locative	sutako	suko	suetako	suotako
+fire	allative	sutara	sura	suetara	suotara
+fire	terminative	sutaraino	suraino	suetaraino	suotaraino
+fire	directive	sutarantz	surantz	suetarantz	suotarantz
+fire	destinative	sutarako	surako	suetarako	suotarako
+fire	ablative	sutatik	sutik	suetatik	suotatik
+fire	partitive	surik	—	—	—
+fire	prolative	sutzat	—	—	—
+food		indefinite	singular	plural	proximal plural
+food	absolutive	janari	janaria	janariak	janariok
+food	ergative	janarik	janariak	janariek	janariok
+food	dative	janariri	janariari	janariei	janarioi
+food	genitive	janariren	janariaren	janarien	janarion
+food	comitative	janarirekin	janariarekin	janariekin	janariokin
+food	causative	janarirengatik	janariarengatik	janariengatik	janariongatik
+food	benefactive	janarirentzat	janariarentzat	janarientzat	janariontzat
+food	instrumental	janariz	janariaz	janariez	janariotaz
+food	inessive	janaritan	janarian	janarietan	janariotan
+food	locative	janaritako	janariko	janarietako	janariotako
+food	allative	janaritara	janarira	janarietara	janariotara
+food	terminative	janaritaraino	janariraino	janarietaraino	janariotaraino
+food	directive	janaritarantz	janarirantz	janarietarantz	janariotarantz
+food	destinative	janaritarako	janarirako	janarietarako	janariotarako
+food	ablative	janaritatik	janaritik	janarietatik	janariotatik
+food	partitive	janaririk	—	—	—
+food	prolative	janaritzat	—	—	—
+forest		indefinite	singular	plural	proximal plural
+forest	absolutive	baso	basoa	basoak	basook
+forest	ergative	basok	basoak	basoek	basook
+forest	dative	basori	basoari	basoei	basooi
+forest	genitive	basoren	basoaren	basoen	basoon
+forest	comitative	basorekin	basoarekin	basoekin	basookin
+forest	causative	basorengatik	basoarengatik	basoengatik	basoongatik
+forest	benefactive	basorentzat	basoarentzat	basoentzat	basoontzat
+forest	instrumental	basoz	basoaz	basoez	basootaz
+forest	inessive	basotan	basoan	basoetan	basootan
+forest	locative	basotako	basoko	basoetako	basootako
+forest	allative	basotara	basora	basoetara	basootara
+forest	terminative	basotaraino	basoraino	basoetaraino	basootaraino
+forest	directive	basotarantz	basorantz	basoetarantz	basootarantz
+forest	destinative	basotarako	basorako	basoetarako	basootarako
+forest	ablative	basotatik	basotik	basoetatik	basootatik
+forest	partitive	basorik	—	—	—
+forest	prolative	basotzat	—	—	—
+forest		indefinite	singular	plural	proximal plural
+forest	absolutive	baso	basoa	basoak	basook
+forest	ergative	basok	basoak	basoek	basook
+forest	dative	basori	basoari	basoei	basooi
+forest	genitive	basoren	basoaren	basoen	basoon
+forest	comitative	basorekin	basoarekin	basoekin	basookin
+forest	causative	basorengatik	basoarengatik	basoengatik	basoongatik
+forest	benefactive	basorentzat	basoarentzat	basoentzat	basoontzat
+forest	instrumental	basoz	basoaz	basoez	basootaz
+forest	inessive	basotan	basoan	basoetan	basootan
+forest	locative	basotako	basoko	basoetako	basootako
+forest	allative	basotara	basora	basoetara	basootara
+forest	terminative	basotaraino	basoraino	basoetaraino	basootaraino
+forest	directive	basotarantz	basorantz	basoetarantz	basootarantz
+forest	destinative	basotarako	basorako	basoetarako	basootarako
+forest	ablative	basotatik	basotik	basoetatik	basootatik
+forest	partitive	basorik	—	—	—
+forest	prolative	basotzat	—	—	—
+forest		indefinite	singular	plural	proximal plural
+forest	absolutive	oihan	oihana	oihanak	oihanok
+forest	ergative	oihanek	oihanak	oihanek	oihanok
+forest	dative	oihani	oihanari	oihanei	oihanoi
+forest	genitive	oihanen	oihanaren	oihanen	oihanon
+forest	comitative	oihanekin	oihanarekin	oihanekin	oihanokin
+forest	causative	oihanengatik	oihanarengatik	oihanengatik	oihanongatik
+forest	benefactive	oihanentzat	oihanarentzat	oihanentzat	oihanontzat
+forest	instrumental	oihanez	oihanaz	oihanez	oihanotaz
+forest	inessive	oihanetan	oihanean	oihanetan	oihanotan
+forest	locative	oihanetako	oihaneko	oihanetako	oihanotako
+forest	allative	oihanetara	oihanera	oihanetara	oihanotara
+forest	terminative	oihanetaraino	oihaneraino	oihanetaraino	oihanotaraino
+forest	directive	oihanetarantz	oihanerantz	oihanetarantz	oihanotarantz
+forest	destinative	oihanetarako	oihanerako	oihanetarako	oihanotarako
+forest	ablative	oihanetatik	oihanetik	oihanetatik	oihanotatik
+forest	partitive	oihanik	—	—	—
+forest	prolative	oihantzat	—	—	—
+gift		indefinite	singular	plural	proximal plural
+gift	absolutive	opari	oparia	opariak	opariok
+gift	ergative	oparik	opariak	opariek	opariok
+gift	dative	opariri	opariari	opariei	oparioi
+gift	genitive	opariren	opariaren	oparien	oparion
+gift	comitative	oparirekin	opariarekin	opariekin	opariokin
+gift	causative	oparirengatik	opariarengatik	opariengatik	opariongatik
+gift	benefactive	oparirentzat	opariarentzat	oparientzat	opariontzat
+gift	instrumental	opariz	opariaz	opariez	opariotaz
+gift	inessive	oparitan	oparian	oparietan	opariotan
+gift	locative	oparitako	opariko	oparietako	opariotako
+gift	allative	oparitara	oparira	oparietara	opariotara
+gift	terminative	oparitaraino	opariraino	oparietaraino	opariotaraino
+gift	directive	oparitarantz	oparirantz	oparietarantz	opariotarantz
+gift	destinative	oparitarako	oparirako	oparietarako	opariotarako
+gift	ablative	oparitatik	oparitik	oparietatik	opariotatik
+gift	partitive	oparirik	—	—	—
+gift	prolative	oparitzat	—	—	—
+glass		indefinite	singular
+glass	absolutive	beira	beira
+glass	ergative	—	beirak
+glass	dative	—	beirari
+glass	genitive	—	beiraren
+glass	comitative	—	beirarekin
+glass	causative	—	beirarengatik
+glass	benefactive	—	beirarentzat
+glass	instrumental	beiraz	beiraz
+glass	inessive	—	beiran
+glass	locative	—	beirako
+glass	allative	—	beirara
+glass	terminative	—	beiraraino
+glass	directive	—	beirarantz
+glass	destinative	—	beirarako
+glass	ablative	—	beiratik
+glass	partitive	beirarik	—
+glass	prolative	beiratzat	—
+hill		indefinite	singular	plural	proximal plural
+hill	absolutive	gain	gaina	gainak	gainok
+hill	ergative	gainek	gainak	gainek	gainok
+hill	dative	gaini	gainari	gainei	gainoi
+hill	genitive	gainen	gainaren	gainen	gainon
+hill	comitative	gainekin	gainarekin	gainekin	gainokin
+hill	causative	gainengatik	gainarengatik	gainengatik	gainongatik
+hill	benefactive	gainentzat	gainarentzat	gainentzat	gainontzat
+hill	instrumental	gainez	gainaz	gainez	gainotaz
+hill	inessive	gainetan	gainean	gainetan	gainotan
+hill	locative	gainetako	gaineko	gainetako	gainotako
+hill	allative	gainetara	gainera	gainetara	gainotara
+hill	terminative	gainetaraino	gaineraino	gainetaraino	gainotaraino
+hill	directive	gainetarantz	gainerantz	gainetarantz	gainotarantz
+hill	destinative	gainetarako	gainerako	gainetarako	gainotarako
+hill	ablative	gainetatik	gainetik	gainetatik	gainotatik
+hill	partitive	gainik	—	—	—
+hill	prolative	gaintzat	—	—	—
+hill		indefinite	singular	plural	proximal plural
+hill	absolutive	muino	muinoa	muinoak	muinook
+hill	ergative	muinok	muinoak	muinoek	muinook
+hill	dative	muinori	muinoari	muinoei	muinooi
+hill	genitive	muinoren	muinoaren	muinoen	muinoon
+hill	comitative	muinorekin	muinoarekin	muinoekin	muinookin
+hill	causative	muinorengatik	muinoarengatik	muinoengatik	muinoongatik
+hill	benefactive	muinorentzat	muinoarentzat	muinoentzat	muinoontzat
+hill	instrumental	muinoz	muinoaz	muinoez	muinootaz
+hill	inessive	muinotan	muinoan	muinoetan	muinootan
+hill	locative	muinotako	muinoko	muinoetako	muinootako
+hill	allative	muinotara	muinora	muinoetara	muinootara
+hill	terminative	muinotaraino	muinoraino	muinoetaraino	muinootaraino
+hill	directive	muinotarantz	muinorantz	muinoetarantz	muinootarantz
+hill	destinative	muinotarako	muinorako	muinoetarako	muinootarako
+hill	ablative	muinotatik	muinotik	muinoetatik	muinootatik
+hill	partitive	muinorik	—	—	—
+hill	prolative	muinotzat	—	—	—
+horse		indefinite	singular	plural	proximal plural
+horse	absolutive	zaldi	zaldia	zaldiak	zaldiok
+horse	ergative	zaldik	zaldiak	zaldiek	zaldiok
+horse	dative	zaldiri	zaldiari	zaldiei	zaldioi
+horse	genitive	zaldiren	zaldiaren	zaldien	zaldion
+horse	comitative	zaldirekin	zaldiarekin	zaldiekin	zaldiokin
+horse	causative	zaldirengatik	zaldiarengatik	zaldiengatik	zaldiongatik
+horse	benefactive	zaldirentzat	zaldiarentzat	zaldientzat	zaldiontzat
+horse	instrumental	zaldiz	zaldiaz	zaldiez	zaldiotaz
+horse	inessive	zaldirengan	zaldiarengan	zaldiengan	zaldiongan
+horse	locative	—	—	—	—
+horse	allative	zaldirengana	zaldiarengana	zaldiengana	zaldiongana
+horse	terminative	zaldirenganaino	zaldiarenganaino	zaldienganaino	zaldionganaino
+horse	directive	zaldirenganantz	zaldiarenganantz	zaldienganantz	zaldionganantz
+horse	destinative	zaldirenganako	zaldiarenganako	zaldienganako	zaldionganako
+horse	ablative	zaldirengandik	zaldiarengandik	zaldiengandik	zaldiongandik
+horse	partitive	zaldirik	—	—	—
+horse	prolative	zalditzat	—	—	—
+house		indefinite	singular	plural	proximal plural
+house	absolutive	etxe	etxea	etxeak	etxeok
+house	ergative	etxek	etxeak	etxeek	etxeok
+house	dative	etxeri	etxeari	etxeei	etxeoi
+house	genitive	etxeren	etxearen	etxeen	etxeon
+house	comitative	etxerekin	etxearekin	etxeekin	etxeokin
+house	causative	etxerengatik	etxearengatik	etxeengatik	etxeongatik
+house	benefactive	etxerentzat	etxearentzat	etxeentzat	etxeontzat
+house	instrumental	etxez	etxeaz	etxeez	etxeotaz
+house	inessive	etxetan	etxean	etxeetan	etxeotan
+house	locative	etxetako	etxeko	etxeetako	etxeotako
+house	allative	etxetara	etxera	etxeetara	etxeotara
+house	terminative	etxetaraino	etxeraino	etxeetaraino	etxeotaraino
+house	directive	etxetarantz	etxerantz	etxeetarantz	etxeotarantz
+house	destinative	etxetarako	etxerako	etxeetarako	etxeotarako
+house	ablative	etxetatik	etxetik	etxeetatik	etxeotatik
+house	partitive	etxerik	—	—	—
+house	prolative	etxetzat	—	—	—
+love		indefinite	singular	plural	proximal plural
+love	absolutive	amodio	amodioa	amodioak	amodiook
+love	ergative	amodiok	amodioak	amodioek	amodiook
+love	dative	amodiori	amodioari	amodioei	amodiooi
+love	genitive	amodioren	amodioaren	amodioen	amodioon
+love	comitative	amodiorekin	amodioarekin	amodioekin	amodiookin
+love	causative	amodiorengatik	amodioarengatik	amodioengatik	amodioongatik
+love	benefactive	amodiorentzat	amodioarentzat	amodioentzat	amodioontzat
+love	instrumental	amodioz	amodioaz	amodioez	amodiootaz
+love	inessive	amodiotan	amodioan	amodioetan	amodiootan
+love	locative	amodiotako	amodioko	amodioetako	amodiootako
+love	allative	amodiotara	amodiora	amodioetara	amodiootara
+love	terminative	amodiotaraino	amodioraino	amodioetaraino	amodiootaraino
+love	directive	amodiotarantz	amodiorantz	amodioetarantz	amodiootarantz
+love	destinative	amodiotarako	amodiorako	amodioetarako	amodiootarako
+love	ablative	amodiotatik	amodiotik	amodioetatik	amodiootatik
+love	partitive	amodiorik	—	—	—
+love	prolative	amodiotzat	—	—	—
+money		indefinite	singular	plural	proximal plural
+money	absolutive	diru	dirua	diruak	diruok
+money	ergative	diruk	diruak	diruek	diruok
+money	dative	diruri	diruari	diruei	diruoi
+money	genitive	diruren	diruaren	diruen	diruon
+money	comitative	dirurekin	diruarekin	diruekin	diruokin
+money	causative	dirurengatik	diruarengatik	diruengatik	diruongatik
+money	benefactive	dirurentzat	diruarentzat	diruentzat	diruontzat
+money	instrumental	diruz	diruaz	diruez	diruotaz
+money	inessive	dirutan	diruan	diruetan	diruotan
+money	locative	dirutako	diruko	diruetako	diruotako
+money	allative	dirutara	dirura	diruetara	diruotara
+money	terminative	dirutaraino	diruraino	diruetaraino	diruotaraino
+money	directive	dirutarantz	dirurantz	diruetarantz	diruotarantz
+money	destinative	dirutarako	dirurako	diruetarako	diruotarako
+money	ablative	dirutatik	dirutik	diruetatik	diruotatik
+money	partitive	dirurik	—	—	—
+money	prolative	dirutzat	—	—	—
+money		indefinite	singular	plural	proximal plural
+money	absolutive	diru	dirua	diruak	diruok
+money	ergative	diruk	diruak	diruek	diruok
+money	dative	diruri	diruari	diruei	diruoi
+money	genitive	diruren	diruaren	diruen	diruon
+money	comitative	dirurekin	diruarekin	diruekin	diruokin
+money	causative	dirurengatik	diruarengatik	diruengatik	diruongatik
+money	benefactive	dirurentzat	diruarentzat	diruentzat	diruontzat
+money	instrumental	diruz	diruaz	diruez	diruotaz
+money	inessive	dirutan	diruan	diruetan	diruotan
+money	locative	dirutako	diruko	diruetako	diruotako
+money	allative	dirutara	dirura	diruetara	diruotara
+money	terminative	dirutaraino	diruraino	diruetaraino	diruotaraino
+money	directive	dirutarantz	dirurantz	diruetarantz	diruotarantz
+money	destinative	dirutarako	dirurako	diruetarako	diruotarako
+money	ablative	dirutatik	dirutik	diruetatik	diruotatik
+money	partitive	dirurik	—	—	—
+money	prolative	dirutzat	—	—	—
+coin		indefinite	singular	plural	proximal plural
+coin	absolutive	txanpon	txanpona	txanponak	txanponok
+coin	ergative	txanponek	txanponak	txanponek	txanponok
+coin	dative	txanponi	txanponari	txanponei	txanponoi
+coin	genitive	txanponen	txanponaren	txanponen	txanponon
+coin	comitative	txanponekin	txanponarekin	txanponekin	txanponokin
+coin	causative	txanponengatik	txanponarengatik	txanponengatik	txanponongatik
+coin	benefactive	txanponentzat	txanponarentzat	txanponentzat	txanponontzat
+coin	instrumental	txanponez	txanponaz	txanponez	txanponotaz
+coin	inessive	txanponetan	txanponean	txanponetan	txanponotan
+coin	locative	txanponetako	txanponeko	txanponetako	txanponotako
+coin	allative	txanponetara	txanponera	txanponetara	txanponotara
+coin	terminative	txanponetaraino	txanponeraino	txanponetaraino	txanponotaraino
+coin	directive	txanponetarantz	txanponerantz	txanponetarantz	txanponotarantz
+coin	destinative	txanponetarako	txanponerako	txanponetarako	txanponotarako
+coin	ablative	txanponetatik	txanponetik	txanponetatik	txanponotatik
+coin	partitive	txanponik	—	—	—
+coin	prolative	txanpontzat	—	—	—
+weath		indefinite	singular	plural	proximal plural
+weath	absolutive	aberastasun	aberastasuna	aberastasunak	aberastasunok
+weath	ergative	aberastasunek	aberastasunak	aberastasunek	aberastasunok
+weath	dative	aberastasuni	aberastasunari	aberastasunei	aberastasunoi
+weath	genitive	aberastasunen	aberastasunaren	aberastasunen	aberastasunon
+weath	comitative	aberastasunekin	aberastasunarekin	aberastasunekin	aberastasunokin
+weath	causative	aberastasunengatik	aberastasunarengatik	aberastasunengatik	aberastasunongatik
+weath	benefactive	aberastasunentzat	aberastasunarentzat	aberastasunentzat	aberastasunontzat
+weath	instrumental	aberastasunez	aberastasunaz	aberastasunez	aberastasunotaz
+weath	inessive	aberastasunetan	aberastasunean	aberastasunetan	aberastasunotan
+weath	locative	aberastasunetako	aberastasuneko	aberastasunetako	aberastasunotako
+weath	allative	aberastasunetara	aberastasunera	aberastasunetara	aberastasunotara
+weath	terminative	aberastasunetaraino	aberastasuneraino	aberastasunetaraino	aberastasunotaraino
+weath	directive	aberastasunetarantz	aberastasunerantz	aberastasunetarantz	aberastasunotarantz
+weath	destinative	aberastasunetarako	aberastasunerako	aberastasunetarako	aberastasunotarako
+weath	ablative	aberastasunetatik	aberastasunetik	aberastasunetatik	aberastasunotatik
+weath	partitive	aberastasunik	—	—	—
+weath	prolative	aberastasuntzat	—	—	—
+monster		indefinite	singular	plural	proximal plural
+monster	absolutive	munstro	munstroa	munstroak	munstrook
+monster	ergative	munstrok	munstroak	munstroek	munstrook
+monster	dative	munstrori	munstroari	munstroei	munstrooi
+monster	genitive	munstroren	munstroaren	munstroen	munstroon
+monster	comitative	munstrorekin	munstroarekin	munstroekin	munstrookin
+monster	causative	munstrorengatik	munstroarengatik	munstroengatik	munstroongatik
+monster	benefactive	munstrorentzat	munstroarentzat	munstroentzat	munstroontzat
+monster	instrumental	munstroz	munstroaz	munstroez	munstrootaz
+monster	inessive	munstrorengan	munstroarengan	munstroengan	munstroongan
+monster	locative	—	—	—	—
+monster	allative	munstrorengana	munstroarengana	munstroengana	munstroongana
+monster	terminative	munstrorenganaino	munstroarenganaino	munstroenganaino	munstroonganaino
+monster	directive	munstrorenganantz	munstroarenganantz	munstroenganantz	munstroonganantz
+monster	destinative	munstrorenganako	munstroarenganako	munstroenganako	munstroonganako
+monster	ablative	munstrorengandik	munstroarengandik	munstroengandik	munstroongandik
+monster	partitive	munstrorik	—	—	—
+monster	prolative	munstrotzat	—	—	—
+beast		indefinite	singular	plural	proximal plural
+beast	absolutive	aberetzar	aberetzarra	aberetzarrak	aberetzarrok
+beast	ergative	aberetzarrek	aberetzarrak	aberetzarrek	aberetzarrok
+beast	dative	aberetzarri	aberetzarrari	aberetzarrei	aberetzarroi
+beast	genitive	aberetzarren	aberetzarraren	aberetzarren	aberetzarron
+beast	comitative	aberetzarrekin	aberetzarrarekin	aberetzarrekin	aberetzarrokin
+beast	causative	aberetzarrengatik	aberetzarrarengatik	aberetzarrengatik	aberetzarrongatik
+beast	benefactive	aberetzarrentzat	aberetzarrarentzat	aberetzarrentzat	aberetzarrontzat
+beast	instrumental	aberetzarrez	aberetzarraz	aberetzarrez	aberetzarrotaz
+beast	inessive	aberetzarrengan	aberetzarrarengan	aberetzarrengan	aberetzarrongan
+beast	locative	—	—	—	—
+beast	allative	aberetzarrengana	aberetzarrarengana	aberetzarrengana	aberetzarrongana
+beast	terminative	aberetzarrenganaino	aberetzarrarenganaino	aberetzarrenganaino	aberetzarronganaino
+beast	directive	aberetzarrenganantz	aberetzarrarenganantz	aberetzarrenganantz	aberetzarronganantz
+beast	destinative	aberetzarrenganako	aberetzarrarenganako	aberetzarrenganako	aberetzarronganako
+beast	ablative	aberetzarrengandik	aberetzarrarengandik	aberetzarrengandik	aberetzarrongandik
+beast	partitive	aberetzarrik	—	—	—
+beast	prolative	aberetzartzat	—	—	—
+name		indefinite	singular	plural	proximal plural
+name	absolutive	izen	izena	izenak	izenok
+name	ergative	izenek	izenak	izenek	izenok
+name	dative	izeni	izenari	izenei	izenoi
+name	genitive	izenen	izenaren	izenen	izenon
+name	comitative	izenekin	izenarekin	izenekin	izenokin
+name	causative	izenengatik	izenarengatik	izenengatik	izenongatik
+name	benefactive	izenentzat	izenarentzat	izenentzat	izenontzat
+name	instrumental	izenez	izenaz	izenez	izenotaz
+name	inessive	izenetan	izenean	izenetan	izenotan
+name	locative	izenetako	izeneko	izenetako	izenotako
+name	allative	izenetara	izenera	izenetara	izenotara
+name	terminative	izenetaraino	izeneraino	izenetaraino	izenotaraino
+name	directive	izenetarantz	izenerantz	izenetarantz	izenotarantz
+name	destinative	izenetarako	izenerako	izenetarako	izenotarako
+name	ablative	izenetatik	izenetik	izenetatik	izenotatik
+name	partitive	izenik	—	—	—
+name	prolative	izentzat	—	—	—
+stone		indefinite	singular	plural	proximal plural
+stone	absolutive	harri	harria	harriak	harriok
+stone	ergative	harrik	harriak	harriek	harriok
+stone	dative	harriri	harriari	harriei	harrioi
+stone	genitive	harriren	harriaren	harrien	harrion
+stone	comitative	harrirekin	harriarekin	harriekin	harriokin
+stone	causative	harrirengatik	harriarengatik	harriengatik	harriongatik
+stone	benefactive	harrirentzat	harriarentzat	harrientzat	harriontzat
+stone	instrumental	harriz	harriaz	harriez	harriotaz
+stone	inessive	harritan	harrian	harrietan	harriotan
+stone	locative	harritako	harriko	harrietako	harriotako
+stone	allative	harritara	harrira	harrietara	harriotara
+stone	terminative	harritaraino	harriraino	harrietaraino	harriotaraino
+stone	directive	harritarantz	harrirantz	harrietarantz	harriotarantz
+stone	destinative	harritarako	harrirako	harrietarako	harriotarako
+stone	ablative	harritatik	harritik	harrietatik	harriotatik
+stone	partitive	harririk	—	—	—
+stone	prolative	harritzat	—	—	—
+rope		indefinite	singular	plural	proximal plural
+rope	absolutive	soka	soka	sokak	sokok
+rope	ergative	sokak	sokak	sokek	sokok
+rope	dative	sokari	sokari	sokei	sokoi
+rope	genitive	sokaren	sokaren	soken	sokon
+rope	comitative	sokarekin	sokarekin	sokekin	sokokin
+rope	causative	sokarengatik	sokarengatik	sokengatik	sokongatik
+rope	benefactive	sokarentzat	sokarentzat	sokentzat	sokontzat
+rope	instrumental	sokaz	sokaz	sokez	sokotaz
+rope	inessive	sokatan	sokan	soketan	sokotan
+rope	locative	sokatako	sokako	soketako	sokotako
+rope	allative	sokatara	sokara	soketara	sokotara
+rope	terminative	sokataraino	sokaraino	soketaraino	sokotaraino
+rope	directive	sokatarantz	sokarantz	soketarantz	sokotarantz
+rope	destinative	sokatarako	sokarako	soketarako	sokotarako
+rope	ablative	sokatatik	sokatik	soketatik	sokotatik
+rope	partitive	sokarik	—	—	—
+rope	prolative	sokatzat	—	—	—
+treasure		indefinite	singular	plural	proximal plural
+treasure	absolutive	altxor	altxorra	altxorrak	altxorrok
+treasure	ergative	altxorrek	altxorrak	altxorrek	altxorrok
+treasure	dative	altxorri	altxorrari	altxorrei	altxorroi
+treasure	genitive	altxorren	altxorraren	altxorren	altxorron
+treasure	comitative	altxorrekin	altxorrarekin	altxorrekin	altxorrokin
+treasure	causative	altxorrengatik	altxorrarengatik	altxorrengatik	altxorrongatik
+treasure	benefactive	altxorrentzat	altxorrarentzat	altxorrentzat	altxorrontzat
+treasure	instrumental	altxorrez	altxorraz	altxorrez	altxorrotaz
+treasure	inessive	altxorretan	altxorrean	altxorretan	altxorrotan
+treasure	locative	altxorretako	altxorreko	altxorretako	altxorrotako
+treasure	allative	altxorretara	altxorrera	altxorretara	altxorrotara
+treasure	terminative	altxorretaraino	altxorreraino	altxorretaraino	altxorrotaraino
+treasure	directive	altxorretarantz	altxorrerantz	altxorretarantz	altxorrotarantz
+treasure	destinative	altxorretarako	altxorrerako	altxorretarako	altxorrotarako
+treasure	ablative	altxorretatik	altxorretik	altxorretatik	altxorrotatik
+treasure	partitive	altxorrik	—	—	—
+treasure	prolative	altxortzat	—	—	—
+heat		indefinite	singular	plural	proximal plural
+heat	absolutive	bero	beroa	beroak	berook
+heat	ergative	berok	beroak	beroek	berook
+heat	dative	berori	beroari	beroei	berooi
+heat	genitive	beroren	beroaren	beroen	beroon
+heat	comitative	berorekin	beroarekin	beroekin	berookin
+heat	causative	berorengatik	beroarengatik	beroengatik	beroongatik
+heat	benefactive	berorentzat	beroarentzat	beroentzat	beroontzat
+heat	instrumental	beroz	beroaz	beroez	berootaz
+heat	inessive	berotan	beroan	beroetan	berootan
+heat	locative	berotako	beroko	beroetako	berootako
+heat	allative	berotara	berora	beroetara	berootara
+heat	terminative	berotaraino	beroraino	beroetaraino	berootaraino
+heat	directive	berotarantz	berorantz	beroetarantz	berootarantz
+heat	destinative	berotarako	berorako	beroetarako	berootarako
+heat	ablative	berotatik	berotik	beroetatik	berootatik
+heat	partitive	berorik	—	—	—
+heat	prolative	berotzat	—	—	—
+heat		indefinite	singular	plural	proximal plural
+heat	absolutive	bero	beroa	beroak	berook
+heat	ergative	berok	beroak	beroek	berook
+heat	dative	berori	beroari	beroei	berooi
+heat	genitive	beroren	beroaren	beroen	beroon
+heat	comitative	berorekin	beroarekin	beroekin	berookin
+heat	causative	berorengatik	beroarengatik	beroengatik	beroongatik
+heat	benefactive	berorentzat	beroarentzat	beroentzat	beroontzat
+heat	instrumental	beroz	beroaz	beroez	berootaz
+heat	inessive	berotan	beroan	beroetan	berootan
+heat	locative	berotako	beroko	beroetako	berootako
+heat	allative	berotara	berora	beroetara	berootara
+heat	terminative	berotaraino	beroraino	beroetaraino	berootaraino
+heat	directive	berotarantz	berorantz	beroetarantz	berootarantz
+heat	destinative	berotarako	berorako	beroetarako	berootarako
+heat	ablative	berotatik	berotik	beroetatik	berootatik
+heat	partitive	berorik	—	—	—
+heat	prolative	berotzat	—	—	—
+water		indefinite	singular	plural	proximal plural
+water	absolutive	ur	ura	urak	urok
+water	ergative	urek	urak	urek	urok
+water	dative	uri	urari	urei	uroi
+water	genitive	uren	uraren	uren	uron
+water	comitative	urekin	urarekin	urekin	urokin
+water	causative	urengatik	urarengatik	urengatik	urongatik
+water	benefactive	urentzat	urarentzat	urentzat	urontzat
+water	instrumental	urez	uraz	urez	urotaz
+water	inessive	uretan	urean	uretan	urotan
+water	locative	uretako	ureko	uretako	urotako
+water	allative	uretara	urera	uretara	urotara
+water	terminative	uretaraino	ureraino	uretaraino	urotaraino
+water	directive	uretarantz	urerantz	uretarantz	urotarantz
+water	destinative	uretarako	urerako	uretarako	urotarako
+water	ablative	uretatik	uretik	uretatik	urotatik
+water	partitive	urik	—	—	—
+water	prolative	urtzat	—	—	—
+way		indefinite	singular	plural	proximal plural
+way	absolutive	bide	bidea	bideak	bideok
+way	ergative	bidek	bideak	bideek	bideok
+way	dative	bideri	bideari	bideei	bideoi
+way	genitive	bideren	bidearen	bideen	bideon
+way	comitative	biderekin	bidearekin	bideekin	bideokin
+way	causative	biderengatik	bidearengatik	bideengatik	bideongatik
+way	benefactive	biderentzat	bidearentzat	bideentzat	bideontzat
+way	instrumental	bidez	bideaz	bideez	bideotaz
+way	inessive	bidetan	bidean	bideetan	bideotan
+way	locative	bidetako	bideko	bideetako	bideotako
+way	allative	bidetara	bidera	bideetara	bideotara
+way	terminative	bidetaraino	bideraino	bideetaraino	bideotaraino
+way	directive	bidetarantz	biderantz	bideetarantz	bideotarantz
+way	destinative	bidetarako	biderako	bideetarako	bideotarako
+way	ablative	bidetatik	bidetik	bideetatik	bideotatik
+way	partitive	biderik	—	—	—
+way	prolative	bidetzat	—	—	—
+wind		indefinite	singular	plural	proximal plural
+wind	absolutive	haize	haizea	haizeak	haizeok
+wind	ergative	haizek	haizeak	haizeek	haizeok
+wind	dative	haizeri	haizeari	haizeei	haizeoi
+wind	genitive	haizeren	haizearen	haizeen	haizeon
+wind	comitative	haizerekin	haizearekin	haizeekin	haizeokin
+wind	causative	haizerengatik	haizearengatik	haizeengatik	haizeongatik
+wind	benefactive	haizerentzat	haizearentzat	haizeentzat	haizeontzat
+wind	instrumental	haizez	haizeaz	haizeez	haizeotaz
+wind	inessive	haizetan	haizean	haizeetan	haizeotan
+wind	locative	haizetako	haizeko	haizeetako	haizeotako
+wind	allative	haizetara	haizera	haizeetara	haizeotara
+wind	terminative	haizetaraino	haizeraino	haizeetaraino	haizeotaraino
+wind	directive	haizetarantz	haizerantz	haizeetarantz	haizeotarantz
+wind	destinative	haizetarako	haizerako	haizeetarako	haizeotarako
+wind	ablative	haizetatik	haizetik	haizeetatik	haizeotatik
+wind	partitive	haizerik	—	—	—
+wind	prolative	haizetzat	—	—	—
+wolf		indefinite	singular	plural	proximal plural
+wolf	absolutive	otso	otsoa	otsoak	otsook
+wolf	ergative	otsok	otsoak	otsoek	otsook
+wolf	dative	otsori	otsoari	otsoei	otsooi
+wolf	genitive	otsoren	otsoaren	otsoen	otsoon
+wolf	comitative	otsorekin	otsoarekin	otsoekin	otsookin
+wolf	causative	otsorengatik	otsoarengatik	otsoengatik	otsoongatik
+wolf	benefactive	otsorentzat	otsoarentzat	otsoentzat	otsoontzat
+wolf	instrumental	otsoz	otsoaz	otsoez	otsootaz
+wolf	inessive	otsorengan	otsoarengan	otsoengan	otsoongan
+wolf	locative	—	—	—	—
+wolf	allative	otsorengana	otsoarengana	otsoengana	otsoongana
+wolf	terminative	otsorenganaino	otsoarenganaino	otsoenganaino	otsoonganaino
+wolf	directive	otsorenganantz	otsoarenganantz	otsoenganantz	otsoonganantz
+wolf	destinative	otsorenganako	otsoarenganako	otsoenganako	otsoonganako
+wolf	ablative	otsorengandik	otsoarengandik	otsoengandik	otsoongandik
+wolf	partitive	otsorik	—	—	—
+wolf	prolative	otsotzat	—	—	—
+wood		indefinite	singular	plural	proximal plural
+wood	absolutive	zur	zura	zurak	zurok
+wood	ergative	zurek	zurak	zurek	zurok
+wood	dative	zuri	zurari	zurei	zuroi
+wood	genitive	zuren	zuraren	zuren	zuron
+wood	comitative	zurekin	zurarekin	zurekin	zurokin
+wood	causative	zurengatik	zurarengatik	zurengatik	zurongatik
+wood	benefactive	zurentzat	zurarentzat	zurentzat	zurontzat
+wood	instrumental	zurez	zuraz	zurez	zurotaz
+wood	inessive	zuretan	zurean	zuretan	zurotan
+wood	locative	zuretako	zureko	zuretako	zurotako
+wood	allative	zuretara	zurera	zuretara	zurotara
+wood	terminative	zuretaraino	zureraino	zuretaraino	zurotaraino
+wood	directive	zuretarantz	zurerantz	zuretarantz	zurotarantz
+wood	destinative	zuretarako	zurerako	zuretarako	zurotarako
+wood	ablative	zuretatik	zuretik	zuretatik	zurotatik
+wood	partitive	zurik	—	—	—
+wood	prolative	zurtzat	—	—	—
+work		indefinite	singular	plural	proximal plural
+work	absolutive	lan	lana	lanak	lanok
+work	ergative	lanek	lanak	lanek	lanok
+work	dative	lani	lanari	lanei	lanoi
+work	genitive	lanen	lanaren	lanen	lanon
+work	comitative	lanekin	lanarekin	lanekin	lanokin
+work	causative	lanengatik	lanarengatik	lanengatik	lanongatik
+work	benefactive	lanentzat	lanarentzat	lanentzat	lanontzat
+work	instrumental	lanez	lanaz	lanez	lanotaz
+work	inessive	lanetan	lanean	lanetan	lanotan
+work	locative	lanetako	laneko	lanetako	lanotako
+work	allative	lanetara	lanera	lanetara	lanotara
+work	terminative	lanetaraino	laneraino	lanetaraino	lanotaraino
+work	directive	lanetarantz	lanerantz	lanetarantz	lanotarantz
+work	destinative	lanetarako	lanerako	lanetarako	lanotarako
+work	ablative	lanetatik	lanetik	lanetatik	lanotatik
+work	partitive	lanik	—	—	—
+work	prolative	lantzat	—	—	—
+worker		indefinite	singular	plural	proximal plural
+worker	absolutive	langile	langilea	langileak	langileok
+worker	ergative	langilek	langileak	langileek	langileok
+worker	dative	langileri	langileari	langileei	langileoi
+worker	genitive	langileren	langilearen	langileen	langileon
+worker	comitative	langilerekin	langilearekin	langileekin	langileokin
+worker	causative	langilerengatik	langilearengatik	langileengatik	langileongatik
+worker	benefactive	langilerentzat	langilearentzat	langileentzat	langileontzat
+worker	instrumental	langilez	langileaz	langileez	langileotaz
+worker	inessive	langilerengan	langilearengan	langileengan	langileongan
+worker	locative	—	—	—	—
+worker	allative	langilerengana	langilearengana	langileengana	langileongana
+worker	terminative	langilerenganaino	langilearenganaino	langileenganaino	langileonganaino
+worker	directive	langilerenganantz	langilearenganantz	langileenganantz	langileonganantz
+worker	destinative	langilerenganako	langilearenganako	langileenganako	langileonganako
+worker	ablative	langilerengandik	langilearengandik	langileengandik	langileongandik
+worker	partitive	langilerik	—	—	—
+worker	prolative	langiletzat	—	—	—
+worm		indefinite	singular	plural	proximal plural
+worm	absolutive	beldar	beldarra	beldarrak	beldarrok
+worm	ergative	beldarrek	beldarrak	beldarrek	beldarrok
+worm	dative	beldarri	beldarrari	beldarrei	beldarroi
+worm	genitive	beldarren	beldarraren	beldarren	beldarron
+worm	comitative	beldarrekin	beldarrarekin	beldarrekin	beldarrokin
+worm	causative	beldarrengatik	beldarrarengatik	beldarrengatik	beldarrongatik
+worm	benefactive	beldarrentzat	beldarrarentzat	beldarrentzat	beldarrontzat
+worm	instrumental	beldarrez	beldarraz	beldarrez	beldarrotaz
+worm	inessive	beldarrengan	beldarrarengan	beldarrengan	beldarrongan
+worm	locative	—	—	—	—
+worm	allative	beldarrengana	beldarrarengana	beldarrengana	beldarrongana
+worm	terminative	beldarrenganaino	beldarrarenganaino	beldarrenganaino	beldarronganaino
+worm	directive	beldarrenganantz	beldarrarenganantz	beldarrenganantz	beldarronganantz
+worm	destinative	beldarrenganako	beldarrarenganako	beldarrenganako	beldarronganako
+worm	ablative	beldarrengandik	beldarrarengandik	beldarrengandik	beldarrongandik
+worm	partitive	beldarrik	—	—	—
+worm	prolative	beldartzat	—	—	—
+worm		indefinite	singular	plural	proximal plural
+worm	absolutive	zizare	zizarea	zizareak	zizareok
+worm	ergative	zizarek	zizareak	zizareek	zizareok
+worm	dative	zizareri	zizareari	zizareei	zizareoi
+worm	genitive	zizareren	zizarearen	zizareen	zizareon
+worm	comitative	zizarerekin	zizarearekin	zizareekin	zizareokin
+worm	causative	zizarerengatik	zizarearengatik	zizareengatik	zizareongatik
+worm	benefactive	zizarerentzat	zizarearentzat	zizareentzat	zizareontzat
+worm	instrumental	zizarez	zizareaz	zizareez	zizareotaz
+worm	inessive	zizarerengan	zizarearengan	zizareengan	zizareongan
+worm	locative	—	—	—	—
+worm	allative	zizarerengana	zizarearengana	zizareengana	zizareongana
+worm	terminative	zizarerenganaino	zizarearenganaino	zizareenganaino	zizareonganaino
+worm	directive	zizarerenganantz	zizarearenganantz	zizareenganantz	zizareonganantz
+worm	destinative	zizarerenganako	zizarearenganako	zizareenganako	zizareonganako
+worm	ablative	zizarerengandik	zizarearengandik	zizareengandik	zizareongandik
+worm	partitive	zizarerik	—	—	—
+worm	prolative	zizaretzat	—	—	—
+language		indefinite	singular	plural	proximal plural
+language	absolutive	hizkuntza	hizkuntza	hizkuntzak	hizkuntzok
+language	ergative	hizkuntzak	hizkuntzak	hizkuntzek	hizkuntzok
+language	dative	hizkuntzari	hizkuntzari	hizkuntzei	hizkuntzoi
+language	genitive	hizkuntzaren	hizkuntzaren	hizkuntzen	hizkuntzon
+language	comitative	hizkuntzarekin	hizkuntzarekin	hizkuntzekin	hizkuntzokin
+language	causative	hizkuntzarengatik	hizkuntzarengatik	hizkuntzengatik	hizkuntzongatik
+language	benefactive	hizkuntzarentzat	hizkuntzarentzat	hizkuntzentzat	hizkuntzontzat
+language	instrumental	hizkuntzaz	hizkuntzaz	hizkuntzez	hizkuntzotaz
+language	inessive	hizkuntzatan	hizkuntzan	hizkuntzetan	hizkuntzotan
+language	locative	hizkuntzatako	hizkuntzako	hizkuntzetako	hizkuntzotako
+language	allative	hizkuntzatara	hizkuntzara	hizkuntzetara	hizkuntzotara
+language	terminative	hizkuntzataraino	hizkuntzaraino	hizkuntzetaraino	hizkuntzotaraino
+language	directive	hizkuntzatarantz	hizkuntzarantz	hizkuntzetarantz	hizkuntzotarantz
+language	destinative	hizkuntzatarako	hizkuntzarako	hizkuntzetarako	hizkuntzotarako
+language	ablative	hizkuntzatatik	hizkuntzatik	hizkuntzetatik	hizkuntzotatik
+language	partitive	hizkuntzarik	—	—	—
+language	prolative	hizkuntzatzat	—	—	—
+town			indefinite	singular	plural	proximal plural
+town	absolutive	absolutive	herri	herria	herriak	herriok
+town	ergative	ergative	herrik	herriak	herriek	herriok
+town	dative	dative	herriri	herriari	herriei	herrioi
+town	genitive	genitive	herriren	herriaren	herrien	herrion
+town	comitative	comitative	herrirekin	herriarekin	herriekin	herriokin
+town	causative	causative	herrirengatik	herriarengatik	herriengatik	herriongatik
+town	benefactive	benefactive	herrirentzat	herriarentzat	herrientzat	herriontzat
+town	instrumental	instrumental	herriz	herriaz	herriez	herriotaz
+town	inessive	anim.	herrirengan	herriarengan	herriengan	herriongan
+town	inessive	inan.	herritan	herrian	herrietan	herriotan
+town	locative	anim.	—	—	—	—
+town	locative	inan.	herritako	herriko	herrietako	herriotako
+town	allative	anim.	herrirengana	herriarengana	herriengana	herriongana
+town	allative	inan.	herritara	herrira	herrietara	herriotara
+town	terminative	anim.	herrirenganaino	herriarenganaino	herrienganaino	herrionganaino
+town	terminative	inan.	herritaraino	herriraino	herrietaraino	herriotaraino
+town	directive	anim.	herrirenganantz	herriarenganantz	herrienganantz	herrionganantz
+town	directive	inan.	herritarantz	herrirantz	herrietarantz	herriotarantz
+town	destinative	anim.	herrirenganako	herriarenganako	herrienganako	herrionganako
+town	destinative	inan.	herritarako	herrirako	herrietarako	herriotarako
+town	ablative	anim.	herrirengandik	herriarengandik	herriengandik	herriongandik
+town	ablative	inan.	herritatik	herritik	herrietatik	herriotatik
+town	partitive	partitive	herririk	—	—	—
+town	prolative	prolative	herritzat	—	—	—
+river		indefinite	singular	plural	proximal plural
+river	absolutive	ibai	ibaia	ibaiak	ibaiok
+river	ergative	ibaik	ibaiak	ibaiek	ibaiok
+river	dative	ibairi	ibaiari	ibaiei	ibaioi
+river	genitive	ibairen	ibaiaren	ibaien	ibaion
+river	comitative	ibairekin	ibaiarekin	ibaiekin	ibaiokin
+river	causative	ibairengatik	ibaiarengatik	ibaiengatik	ibaiongatik
+river	benefactive	ibairentzat	ibaiarentzat	ibaientzat	ibaiontzat
+river	instrumental	ibaiz	ibaiaz	ibaiez	ibaiotaz
+river	inessive	ibaitan	ibaian	ibaietan	ibaiotan
+river	locative	ibaitako	ibaiko	ibaietako	ibaiotako
+river	allative	ibaitara	ibaira	ibaietara	ibaiotara
+river	terminative	ibaitaraino	ibairaino	ibaietaraino	ibaiotaraino
+river	directive	ibaitarantz	ibairantz	ibaietarantz	ibaiotarantz
+river	destinative	ibaitarako	ibairako	ibaietarako	ibaiotarako
+river	ablative	ibaitatik	ibaitik	ibaietatik	ibaiotatik
+river	partitive	ibairik	—	—	—
+river	prolative	ibaitzat	—	—	—
+summer		indefinite	singular	plural	proximal plural
+summer	absolutive	uda	uda	udak	udok
+summer	ergative	udak	udak	udek	udok
+summer	dative	udari	udari	udei	udoi
+summer	genitive	udaren	udaren	uden	udon
+summer	comitative	udarekin	udarekin	udekin	udokin
+summer	causative	udarengatik	udarengatik	udengatik	udongatik
+summer	benefactive	udarentzat	udarentzat	udentzat	udontzat
+summer	instrumental	udaz	udaz	udez	udotaz
+summer	inessive	udatan	udan	udetan	udotan
+summer	locative	udatako	udako	udetako	udotako
+summer	allative	udatara	udara	udetara	udotara
+summer	terminative	udataraino	udaraino	udetaraino	udotaraino
+summer	directive	udatarantz	udarantz	udetarantz	udotarantz
+summer	destinative	udatarako	udarako	udetarako	udotarako
+summer	ablative	udatatik	udatik	udetatik	udotatik
+summer	partitive	udarik	—	—	—
+summer	prolative	udatzat	—	—	—
+spring		indefinite	singular	plural	proximal plural
+spring	absolutive	udaberri	udaberria	udaberriak	udaberriok
+spring	ergative	udaberrik	udaberriak	udaberriek	udaberriok
+spring	dative	udaberriri	udaberriari	udaberriei	udaberrioi
+spring	genitive	udaberriren	udaberriaren	udaberrien	udaberrion
+spring	comitative	udaberrirekin	udaberriarekin	udaberriekin	udaberriokin
+spring	causative	udaberrirengatik	udaberriarengatik	udaberriengatik	udaberriongatik
+spring	benefactive	udaberrirentzat	udaberriarentzat	udaberrientzat	udaberriontzat
+spring	instrumental	udaberriz	udaberriaz	udaberriez	udaberriotaz
+spring	inessive	udaberritan	udaberrian	udaberrietan	udaberriotan
+spring	locative	udaberritako	udaberriko	udaberrietako	udaberriotako
+spring	allative	udaberritara	udaberrira	udaberrietara	udaberriotara
+spring	terminative	udaberritaraino	udaberriraino	udaberrietaraino	udaberriotaraino
+spring	directive	udaberritarantz	udaberrirantz	udaberrietarantz	udaberriotarantz
+spring	destinative	udaberritarako	udaberrirako	udaberrietarako	udaberriotarako
+spring	ablative	udaberritatik	udaberritik	udaberrietatik	udaberriotatik
+spring	partitive	udaberririk	—	—	—
+spring	prolative	udaberritzat	—	—	—
+autumn		indefinite	singular	plural	proximal plural
+autumn	absolutive	udazken	udazkena	udazkenak	udazkenok
+autumn	ergative	udazkenek	udazkenak	udazkenek	udazkenok
+autumn	dative	udazkeni	udazkenari	udazkenei	udazkenoi
+autumn	genitive	udazkenen	udazkenaren	udazkenen	udazkenon
+autumn	comitative	udazkenekin	udazkenarekin	udazkenekin	udazkenokin
+autumn	causative	udazkenengatik	udazkenarengatik	udazkenengatik	udazkenongatik
+autumn	benefactive	udazkenentzat	udazkenarentzat	udazkenentzat	udazkenontzat
+autumn	instrumental	udazkenez	udazkenaz	udazkenez	udazkenotaz
+autumn	inessive	udazkenetan	udazkenean	udazkenetan	udazkenotan
+autumn	locative	udazkenetako	udazkeneko	udazkenetako	udazkenotako
+autumn	allative	udazkenetara	udazkenera	udazkenetara	udazkenotara
+autumn	terminative	udazkenetaraino	udazkeneraino	udazkenetaraino	udazkenotaraino
+autumn	directive	udazkenetarantz	udazkenerantz	udazkenetarantz	udazkenotarantz
+autumn	destinative	udazkenetarako	udazkenerako	udazkenetarako	udazkenotarako
+autumn	ablative	udazkenetatik	udazkenetik	udazkenetatik	udazkenotatik
+autumn	partitive	udazkenik	—	—	—
+autumn	prolative	udazkentzat	—	—	—
+winter		indefinite	singular	plural	proximal plural
+winter	absolutive	negu	negua	neguak	neguok
+winter	ergative	neguk	neguak	neguek	neguok
+winter	dative	neguri	neguari	neguei	neguoi
+winter	genitive	neguren	neguaren	neguen	neguon
+winter	comitative	negurekin	neguarekin	neguekin	neguokin
+winter	causative	negurengatik	neguarengatik	neguengatik	neguongatik
+winter	benefactive	negurentzat	neguarentzat	neguentzat	neguontzat
+winter	instrumental	neguz	neguaz	neguez	neguotaz
+winter	inessive	negutan	neguan	neguetan	neguotan
+winter	locative	negutako	neguko	neguetako	neguotako
+winter	allative	negutara	negura	neguetara	neguotara
+winter	terminative	negutaraino	neguraino	neguetaraino	neguotaraino
+winter	directive	negutarantz	negurantz	neguetarantz	neguotarantz
+winter	destinative	negutarako	negurako	neguetarako	neguotarako
+winter	ablative	negutatik	negutik	neguetatik	neguotatik
+winter	partitive	negurik	—	—	—
+winter	prolative	negutzat	—	—	—
+year		indefinite	singular	plural	proximal plural
+year	absolutive	urte	urtea	urteak	urteok
+year	ergative	urtek	urteak	urteek	urteok
+year	dative	urteri	urteari	urteei	urteoi
+year	genitive	urteren	urtearen	urteen	urteon
+year	comitative	urterekin	urtearekin	urteekin	urteokin
+year	causative	urterengatik	urtearengatik	urteengatik	urteongatik
+year	benefactive	urterentzat	urtearentzat	urteentzat	urteontzat
+year	instrumental	urtez	urteaz	urteez	urteotaz
+year	inessive	urtetan	urtean	urteetan	urteotan
+year	locative	urtetako	urteko	urteetako	urteotako
+year	allative	urtetara	urtera	urteetara	urteotara
+year	terminative	urtetaraino	urteraino	urteetaraino	urteotaraino
+year	directive	urtetarantz	urterantz	urteetarantz	urteotarantz
+year	destinative	urtetarako	urterako	urteetarako	urteotarako
+year	ablative	urtetatik	urtetik	urteetatik	urteotatik
+year	partitive	urterik	—	—	—
+year	prolative	urtetzat	—	—	—
+year		indefinite	singular	plural	proximal plural
+year	absolutive	urte	urtea	urteak	urteok
+year	ergative	urtek	urteak	urteek	urteok
+year	dative	urteri	urteari	urteei	urteoi
+year	genitive	urteren	urtearen	urteen	urteon
+year	comitative	urterekin	urtearekin	urteekin	urteokin
+year	causative	urterengatik	urtearengatik	urteengatik	urteongatik
+year	benefactive	urterentzat	urtearentzat	urteentzat	urteontzat
+year	instrumental	urtez	urteaz	urteez	urteotaz
+year	inessive	urtetan	urtean	urteetan	urteotan
+year	locative	urtetako	urteko	urteetako	urteotako
+year	allative	urtetara	urtera	urteetara	urteotara
+year	terminative	urtetaraino	urteraino	urteetaraino	urteotaraino
+year	directive	urtetarantz	urterantz	urteetarantz	urteotarantz
+year	destinative	urtetarako	urterako	urteetarako	urteotarako
+year	ablative	urtetatik	urtetik	urteetatik	urteotatik
+year	partitive	urterik	—	—	—
+year	prolative	urtetzat	—	—	—
+day		indefinite	singular	plural	proximal plural
+day	absolutive	egun	eguna	egunak	egunok
+day	ergative	egunek	egunak	egunek	egunok
+day	dative	eguni	egunari	egunei	egunoi
+day	genitive	egunen	egunaren	egunen	egunon
+day	comitative	egunekin	egunarekin	egunekin	egunokin
+day	causative	egunengatik	egunarengatik	egunengatik	egunongatik
+day	benefactive	egunentzat	egunarentzat	egunentzat	egunontzat
+day	instrumental	egunez	egunaz	egunez	egunotaz
+day	inessive	egunetan	egunean	egunetan	egunotan
+day	locative	egunetako	eguneko	egunetako	egunotako
+day	allative	egunetara	egunera	egunetara	egunotara
+day	terminative	egunetaraino	eguneraino	egunetaraino	egunotaraino
+day	directive	egunetarantz	egunerantz	egunetarantz	egunotarantz
+day	destinative	egunetarako	egunerako	egunetarako	egunotarako
+day	ablative	egunetatik	egunetik	egunetatik	egunotatik
+day	partitive	egunik	—	—	—
+day	prolative	eguntzat	—	—	—
+day		indefinite	singular	plural	proximal plural
+day	absolutive	egun	eguna	egunak	egunok
+day	ergative	egunek	egunak	egunek	egunok
+day	dative	eguni	egunari	egunei	egunoi
+day	genitive	egunen	egunaren	egunen	egunon
+day	comitative	egunekin	egunarekin	egunekin	egunokin
+day	causative	egunengatik	egunarengatik	egunengatik	egunongatik
+day	benefactive	egunentzat	egunarentzat	egunentzat	egunontzat
+day	instrumental	egunez	egunaz	egunez	egunotaz
+day	inessive	egunetan	egunean	egunetan	egunotan
+day	locative	egunetako	eguneko	egunetako	egunotako
+day	allative	egunetara	egunera	egunetara	egunotara
+day	terminative	egunetaraino	eguneraino	egunetaraino	egunotaraino
+day	directive	egunetarantz	egunerantz	egunetarantz	egunotarantz
+day	destinative	egunetarako	egunerako	egunetarako	egunotarako
+day	ablative	egunetatik	egunetik	egunetatik	egunotatik
+day	partitive	egunik	—	—	—
+day	prolative	eguntzat	—	—	—
+day		indefinite	singular	plural	proximal plural
+day	absolutive	egun	eguna	egunak	egunok
+day	ergative	egunek	egunak	egunek	egunok
+day	dative	eguni	egunari	egunei	egunoi
+day	genitive	egunen	egunaren	egunen	egunon
+day	comitative	egunekin	egunarekin	egunekin	egunokin
+day	causative	egunengatik	egunarengatik	egunengatik	egunongatik
+day	benefactive	egunentzat	egunarentzat	egunentzat	egunontzat
+day	instrumental	egunez	egunaz	egunez	egunotaz
+day	inessive	egunetan	egunean	egunetan	egunotan
+day	locative	egunetako	eguneko	egunetako	egunotako
+day	allative	egunetara	egunera	egunetara	egunotara
+day	terminative	egunetaraino	eguneraino	egunetaraino	egunotaraino
+day	directive	egunetarantz	egunerantz	egunetarantz	egunotarantz
+day	destinative	egunetarako	egunerako	egunetarako	egunotarako
+day	ablative	egunetatik	egunetik	egunetatik	egunotatik
+day	partitive	egunik	—	—	—
+day	prolative	eguntzat	—	—	—
+day		indefinite	singular	plural	proximal plural
+day	absolutive	egun	eguna	egunak	egunok
+day	ergative	egunek	egunak	egunek	egunok
+day	dative	eguni	egunari	egunei	egunoi
+day	genitive	egunen	egunaren	egunen	egunon
+day	comitative	egunekin	egunarekin	egunekin	egunokin
+day	causative	egunengatik	egunarengatik	egunengatik	egunongatik
+day	benefactive	egunentzat	egunarentzat	egunentzat	egunontzat
+day	instrumental	egunez	egunaz	egunez	egunotaz
+day	inessive	egunetan	egunean	egunetan	egunotan
+day	locative	egunetako	eguneko	egunetako	egunotako
+day	allative	egunetara	egunera	egunetara	egunotara
+day	terminative	egunetaraino	eguneraino	egunetaraino	egunotaraino
+day	directive	egunetarantz	egunerantz	egunetarantz	egunotarantz
+day	destinative	egunetarako	egunerako	egunetarako	egunotarako
+day	ablative	egunetatik	egunetik	egunetatik	egunotatik
+day	partitive	egunik	—	—	—
+day	prolative	eguntzat	—	—	—
+moon		indefinite	singular	plural	proximal plural
+moon	absolutive	ilargi	ilargia	ilargiak	ilargiok
+moon	ergative	ilargik	ilargiak	ilargiek	ilargiok
+moon	dative	ilargiri	ilargiari	ilargiei	ilargioi
+moon	genitive	ilargiren	ilargiaren	ilargien	ilargion
+moon	comitative	ilargirekin	ilargiarekin	ilargiekin	ilargiokin
+moon	causative	ilargirengatik	ilargiarengatik	ilargiengatik	ilargiongatik
+moon	benefactive	ilargirentzat	ilargiarentzat	ilargientzat	ilargiontzat
+moon	instrumental	ilargiz	ilargiaz	ilargiez	ilargiotaz
+moon	inessive	ilargitan	ilargian	ilargietan	ilargiotan
+moon	locative	ilargitako	ilargiko	ilargietako	ilargiotako
+moon	allative	ilargitara	ilargira	ilargietara	ilargiotara
+moon	terminative	ilargitaraino	ilargiraino	ilargietaraino	ilargiotaraino
+moon	directive	ilargitarantz	ilargirantz	ilargietarantz	ilargiotarantz
+moon	destinative	ilargitarako	ilargirako	ilargietarako	ilargiotarako
+moon	ablative	ilargitatik	ilargitik	ilargietatik	ilargiotatik
+moon	partitive	ilargirik	—	—	—
+moon	prolative	ilargitzat	—	—	—
+moon		indefinite	singular	plural	proximal plural
+moon	absolutive	ilargi	ilargia	ilargiak	ilargiok
+moon	ergative	ilargik	ilargiak	ilargiek	ilargiok
+moon	dative	ilargiri	ilargiari	ilargiei	ilargioi
+moon	genitive	ilargiren	ilargiaren	ilargien	ilargion
+moon	comitative	ilargirekin	ilargiarekin	ilargiekin	ilargiokin
+moon	causative	ilargirengatik	ilargiarengatik	ilargiengatik	ilargiongatik
+moon	benefactive	ilargirentzat	ilargiarentzat	ilargientzat	ilargiontzat
+moon	instrumental	ilargiz	ilargiaz	ilargiez	ilargiotaz
+moon	inessive	ilargitan	ilargian	ilargietan	ilargiotan
+moon	locative	ilargitako	ilargiko	ilargietako	ilargiotako
+moon	allative	ilargitara	ilargira	ilargietara	ilargiotara
+moon	terminative	ilargitaraino	ilargiraino	ilargietaraino	ilargiotaraino
+moon	directive	ilargitarantz	ilargirantz	ilargietarantz	ilargiotarantz
+moon	destinative	ilargitarako	ilargirako	ilargietarako	ilargiotarako
+moon	ablative	ilargitatik	ilargitik	ilargietatik	ilargiotatik
+moon	partitive	ilargirik	—	—	—
+moon	prolative	ilargitzat	—	—	—
+sun		indefinite	singular	plural	proximal plural
+sun	absolutive	eguzki	eguzkia	eguzkiak	eguzkiok
+sun	ergative	eguzkik	eguzkiak	eguzkiek	eguzkiok
+sun	dative	eguzkiri	eguzkiari	eguzkiei	eguzkioi
+sun	genitive	eguzkiren	eguzkiaren	eguzkien	eguzkion
+sun	comitative	eguzkirekin	eguzkiarekin	eguzkiekin	eguzkiokin
+sun	causative	eguzkirengatik	eguzkiarengatik	eguzkiengatik	eguzkiongatik
+sun	benefactive	eguzkirentzat	eguzkiarentzat	eguzkientzat	eguzkiontzat
+sun	instrumental	eguzkiz	eguzkiaz	eguzkiez	eguzkiotaz
+sun	inessive	eguzkitan	eguzkian	eguzkietan	eguzkiotan
+sun	locative	eguzkitako	eguzkiko	eguzkietako	eguzkiotako
+sun	allative	eguzkitara	eguzkira	eguzkietara	eguzkiotara
+sun	terminative	eguzkitaraino	eguzkiraino	eguzkietaraino	eguzkiotaraino
+sun	directive	eguzkitarantz	eguzkirantz	eguzkietarantz	eguzkiotarantz
+sun	destinative	eguzkitarako	eguzkirako	eguzkietarako	eguzkiotarako
+sun	ablative	eguzkitatik	eguzkitik	eguzkietatik	eguzkiotatik
+sun	partitive	eguzkirik	—	—	—
+sun	prolative	eguzkitzat	—	—	—
+sun		indefinite	singular	plural	proximal plural
+sun	absolutive	eguzki	eguzkia	eguzkiak	eguzkiok
+sun	ergative	eguzkik	eguzkiak	eguzkiek	eguzkiok
+sun	dative	eguzkiri	eguzkiari	eguzkiei	eguzkioi
+sun	genitive	eguzkiren	eguzkiaren	eguzkien	eguzkion
+sun	comitative	eguzkirekin	eguzkiarekin	eguzkiekin	eguzkiokin
+sun	causative	eguzkirengatik	eguzkiarengatik	eguzkiengatik	eguzkiongatik
+sun	benefactive	eguzkirentzat	eguzkiarentzat	eguzkientzat	eguzkiontzat
+sun	instrumental	eguzkiz	eguzkiaz	eguzkiez	eguzkiotaz
+sun	inessive	eguzkitan	eguzkian	eguzkietan	eguzkiotan
+sun	locative	eguzkitako	eguzkiko	eguzkietako	eguzkiotako
+sun	allative	eguzkitara	eguzkira	eguzkietara	eguzkiotara
+sun	terminative	eguzkitaraino	eguzkiraino	eguzkietaraino	eguzkiotaraino
+sun	directive	eguzkitarantz	eguzkirantz	eguzkietarantz	eguzkiotarantz
+sun	destinative	eguzkitarako	eguzkirako	eguzkietarako	eguzkiotarako
+sun	ablative	eguzkitatik	eguzkitik	eguzkietatik	eguzkiotatik
+sun	partitive	eguzkirik	—	—	—
+sun	prolative	eguzkitzat	—	—	—
+star		indefinite	singular	plural	proximal plural
+star	absolutive	izar	izarra	izarrak	izarrok
+star	ergative	izarrek	izarrak	izarrek	izarrok
+star	dative	izarri	izarrari	izarrei	izarroi
+star	genitive	izarren	izarraren	izarren	izarron
+star	comitative	izarrekin	izarrarekin	izarrekin	izarrokin
+star	causative	izarrengatik	izarrarengatik	izarrengatik	izarrongatik
+star	benefactive	izarrentzat	izarrarentzat	izarrentzat	izarrontzat
+star	instrumental	izarrez	izarraz	izarrez	izarrotaz
+star	inessive	izarretan	izarrean	izarretan	izarrotan
+star	locative	izarretako	izarreko	izarretako	izarrotako
+star	allative	izarretara	izarrera	izarretara	izarrotara
+star	terminative	izarretaraino	izarreraino	izarretaraino	izarrotaraino
+star	directive	izarretarantz	izarrerantz	izarretarantz	izarrotarantz
+star	destinative	izarretarako	izarrerako	izarretarako	izarrotarako
+star	ablative	izarretatik	izarretik	izarretatik	izarrotatik
+star	partitive	izarrik	—	—	—
+star	prolative	izartzat	—	—	—
+man		indefinite	singular	plural	proximal plural
+man	absolutive	gizon	gizona	gizonak	gizonok
+man	ergative	gizonek	gizonak	gizonek	gizonok
+man	dative	gizoni	gizonari	gizonei	gizonoi
+man	genitive	gizonen	gizonaren	gizonen	gizonon
+man	comitative	gizonekin	gizonarekin	gizonekin	gizonokin
+man	causative	gizonengatik	gizonarengatik	gizonengatik	gizonongatik
+man	benefactive	gizonentzat	gizonarentzat	gizonentzat	gizonontzat
+man	instrumental	gizonez	gizonaz	gizonez	gizonotaz
+man	inessive	gizonengan	gizonarengan	gizonengan	gizonongan
+man	locative	—	—	—	—
+man	allative	gizonengana	gizonarengana	gizonengana	gizonongana
+man	terminative	gizonenganaino	gizonarenganaino	gizonenganaino	gizononganaino
+man	directive	gizonenganantz	gizonarenganantz	gizonenganantz	gizononganantz
+man	destinative	gizonenganako	gizonarenganako	gizonenganako	gizononganako
+man	ablative	gizonengandik	gizonarengandik	gizonengandik	gizonongandik
+man	partitive	gizonik	—	—	—
+man	prolative	gizontzat	—	—	—
+woman		indefinite	singular	plural	proximal plural
+woman	absolutive	andre	andrea	andreak	andreok
+woman	ergative	andrek	andreak	andreek	andreok
+woman	dative	andreri	andreari	andreei	andreoi
+woman	genitive	andreren	andrearen	andreen	andreon
+woman	comitative	andrerekin	andrearekin	andreekin	andreokin
+woman	causative	andrerengatik	andrearengatik	andreengatik	andreongatik
+woman	benefactive	andrerentzat	andrearentzat	andreentzat	andreontzat
+woman	instrumental	andrez	andreaz	andreez	andreotaz
+woman	inessive	andrerengan	andrearengan	andreengan	andreongan
+woman	locative	—	—	—	—
+woman	allative	andrerengana	andrearengana	andreengana	andreongana
+woman	terminative	andrerenganaino	andrearenganaino	andreenganaino	andreonganaino
+woman	directive	andrerenganantz	andrearenganantz	andreenganantz	andreonganantz
+woman	destinative	andrerenganako	andrearenganako	andreenganako	andreonganako
+woman	ablative	andrerengandik	andrearengandik	andreengandik	andreongandik
+woman	partitive	andrerik	—	—	—
+woman	prolative	andretzat	—	—	—
+woman		indefinite	singular	plural	proximal plural
+woman	absolutive	emakume	emakumea	emakumeak	emakumeok
+woman	ergative	emakumek	emakumeak	emakumeek	emakumeok
+woman	dative	emakumeri	emakumeari	emakumeei	emakumeoi
+woman	genitive	emakumeren	emakumearen	emakumeen	emakumeon
+woman	comitative	emakumerekin	emakumearekin	emakumeekin	emakumeokin
+woman	causative	emakumerengatik	emakumearengatik	emakumeengatik	emakumeongatik
+woman	benefactive	emakumerentzat	emakumearentzat	emakumeentzat	emakumeontzat
+woman	instrumental	emakumez	emakumeaz	emakumeez	emakumeotaz
+woman	inessive	emakumerengan	emakumearengan	emakumeengan	emakumeongan
+woman	locative	—	—	—	—
+woman	allative	emakumerengana	emakumearengana	emakumeengana	emakumeongana
+woman	terminative	emakumerenganaino	emakumearenganaino	emakumeenganaino	emakumeonganaino
+woman	directive	emakumerenganantz	emakumearenganantz	emakumeenganantz	emakumeonganantz
+woman	destinative	emakumerenganako	emakumearenganako	emakumeenganako	emakumeonganako
+woman	ablative	emakumerengandik	emakumearengandik	emakumeengandik	emakumeongandik
+woman	partitive	emakumerik	—	—	—
+woman	prolative	emakumetzat	—	—	—
+human		indefinite	singular	plural	proximal plural
+human	absolutive	gizon	gizona	gizonak	gizonok
+human	ergative	gizonek	gizonak	gizonek	gizonok
+human	dative	gizoni	gizonari	gizonei	gizonoi
+human	genitive	gizonen	gizonaren	gizonen	gizonon
+human	comitative	gizonekin	gizonarekin	gizonekin	gizonokin
+human	causative	gizonengatik	gizonarengatik	gizonengatik	gizonongatik
+human	benefactive	gizonentzat	gizonarentzat	gizonentzat	gizonontzat
+human	instrumental	gizonez	gizonaz	gizonez	gizonotaz
+human	inessive	gizonengan	gizonarengan	gizonengan	gizonongan
+human	locative	—	—	—	—
+human	allative	gizonengana	gizonarengana	gizonengana	gizonongana
+human	terminative	gizonenganaino	gizonarenganaino	gizonenganaino	gizononganaino
+human	directive	gizonenganantz	gizonarenganantz	gizonenganantz	gizononganantz
+human	destinative	gizonenganako	gizonarenganako	gizonenganako	gizononganako
+human	ablative	gizonengandik	gizonarengandik	gizonengandik	gizonongandik
+human	partitive	gizonik	—	—	—
+human	prolative	gizontzat	—	—	—
+human		indefinite	singular	plural	proximal plural
+human	absolutive	gizaki	gizakia	gizakiak	gizakiok
+human	ergative	gizakik	gizakiak	gizakiek	gizakiok
+human	dative	gizakiri	gizakiari	gizakiei	gizakioi
+human	genitive	gizakiren	gizakiaren	gizakien	gizakion
+human	comitative	gizakirekin	gizakiarekin	gizakiekin	gizakiokin
+human	causative	gizakirengatik	gizakiarengatik	gizakiengatik	gizakiongatik
+human	benefactive	gizakirentzat	gizakiarentzat	gizakientzat	gizakiontzat
+human	instrumental	gizakiz	gizakiaz	gizakiez	gizakiotaz
+human	inessive	gizakirengan	gizakiarengan	gizakiengan	gizakiongan
+human	locative	—	—	—	—
+human	allative	gizakirengana	gizakiarengana	gizakiengana	gizakiongana
+human	terminative	gizakirenganaino	gizakiarenganaino	gizakienganaino	gizakionganaino
+human	directive	gizakirenganantz	gizakiarenganantz	gizakienganantz	gizakionganantz
+human	destinative	gizakirenganako	gizakiarenganako	gizakienganako	gizakionganako
+human	ablative	gizakirengandik	gizakiarengandik	gizakiengandik	gizakiongandik
+human	partitive	gizakirik	—	—	—
+human	prolative	gizakitzat	—	—	—
+human		indefinite	singular	plural	proximal plural
+human	absolutive	gizon	gizona	gizonak	gizonok
+human	ergative	gizonek	gizonak	gizonek	gizonok
+human	dative	gizoni	gizonari	gizonei	gizonoi
+human	genitive	gizonen	gizonaren	gizonen	gizonon
+human	comitative	gizonekin	gizonarekin	gizonekin	gizonokin
+human	causative	gizonengatik	gizonarengatik	gizonengatik	gizonongatik
+human	benefactive	gizonentzat	gizonarentzat	gizonentzat	gizonontzat
+human	instrumental	gizonez	gizonaz	gizonez	gizonotaz
+human	inessive	gizonengan	gizonarengan	gizonengan	gizonongan
+human	locative	—	—	—	—
+human	allative	gizonengana	gizonarengana	gizonengana	gizonongana
+human	terminative	gizonenganaino	gizonarenganaino	gizonenganaino	gizononganaino
+human	directive	gizonenganantz	gizonarenganantz	gizonenganantz	gizononganantz
+human	destinative	gizonenganako	gizonarenganako	gizonenganako	gizononganako
+human	ablative	gizonengandik	gizonarengandik	gizonengandik	gizonongandik
+human	partitive	gizonik	—	—	—
+human	prolative	gizontzat	—	—	—
+human		indefinite	singular	plural	proximal plural
+human	absolutive	gizaki	gizakia	gizakiak	gizakiok
+human	ergative	gizakik	gizakiak	gizakiek	gizakiok
+human	dative	gizakiri	gizakiari	gizakiei	gizakioi
+human	genitive	gizakiren	gizakiaren	gizakien	gizakion
+human	comitative	gizakirekin	gizakiarekin	gizakiekin	gizakiokin
+human	causative	gizakirengatik	gizakiarengatik	gizakiengatik	gizakiongatik
+human	benefactive	gizakirentzat	gizakiarentzat	gizakientzat	gizakiontzat
+human	instrumental	gizakiz	gizakiaz	gizakiez	gizakiotaz
+human	inessive	gizakirengan	gizakiarengan	gizakiengan	gizakiongan
+human	locative	—	—	—	—
+human	allative	gizakirengana	gizakiarengana	gizakiengana	gizakiongana
+human	terminative	gizakirenganaino	gizakiarenganaino	gizakienganaino	gizakionganaino
+human	directive	gizakirenganantz	gizakiarenganantz	gizakienganantz	gizakionganantz
+human	destinative	gizakirenganako	gizakiarenganako	gizakienganako	gizakionganako
+human	ablative	gizakirengandik	gizakiarengandik	gizakiengandik	gizakiongandik
+human	partitive	gizakirik	—	—	—
+human	prolative	gizakitzat	—	—	—
+animal		indefinite	singular	plural	proximal plural
+animal	absolutive	animalia	animalia	animaliak	animaliok
+animal	ergative	animaliak	animaliak	animaliek	animaliok
+animal	dative	animaliari	animaliari	animaliei	animalioi
+animal	genitive	animaliaren	animaliaren	animalien	animalion
+animal	comitative	animaliarekin	animaliarekin	animaliekin	animaliokin
+animal	causative	animaliarengatik	animaliarengatik	animaliengatik	animaliongatik
+animal	benefactive	animaliarentzat	animaliarentzat	animalientzat	animaliontzat
+animal	instrumental	animaliaz	animaliaz	animaliez	animaliotaz
+animal	inessive	animaliarengan	animaliarengan	animaliengan	animaliongan
+animal	locative	—	—	—	—
+animal	allative	animaliarengana	animaliarengana	animaliengana	animaliongana
+animal	terminative	animaliarenganaino	animaliarenganaino	animalienganaino	animalionganaino
+animal	directive	animaliarenganantz	animaliarenganantz	animalienganantz	animalionganantz
+animal	destinative	animaliarenganako	animaliarenganako	animalienganako	animalionganako
+animal	ablative	animaliarengandik	animaliarengandik	animaliengandik	animaliongandik
+animal	partitive	animaliarik	—	—	—
+animal	prolative	animaliatzat	—	—	—
+animal		indefinite	singular	plural	proximal plural
+animal	absolutive	animalia	animalia	animaliak	animaliok
+animal	ergative	animaliak	animaliak	animaliek	animaliok
+animal	dative	animaliari	animaliari	animaliei	animalioi
+animal	genitive	animaliaren	animaliaren	animalien	animalion
+animal	comitative	animaliarekin	animaliarekin	animaliekin	animaliokin
+animal	causative	animaliarengatik	animaliarengatik	animaliengatik	animaliongatik
+animal	benefactive	animaliarentzat	animaliarentzat	animalientzat	animaliontzat
+animal	instrumental	animaliaz	animaliaz	animaliez	animaliotaz
+animal	inessive	animaliarengan	animaliarengan	animaliengan	animaliongan
+animal	locative	—	—	—	—
+animal	allative	animaliarengana	animaliarengana	animaliengana	animaliongana
+animal	terminative	animaliarenganaino	animaliarenganaino	animalienganaino	animalionganaino
+animal	directive	animaliarenganantz	animaliarenganantz	animalienganantz	animalionganantz
+animal	destinative	animaliarenganako	animaliarenganako	animalienganako	animalionganako
+animal	ablative	animaliarengandik	animaliarengandik	animaliengandik	animaliongandik
+animal	partitive	animaliarik	—	—	—
+animal	prolative	animaliatzat	—	—	—
+animal		indefinite	singular	plural	proximal plural
+animal	absolutive	animalia	animalia	animaliak	animaliok
+animal	ergative	animaliak	animaliak	animaliek	animaliok
+animal	dative	animaliari	animaliari	animaliei	animalioi
+animal	genitive	animaliaren	animaliaren	animalien	animalion
+animal	comitative	animaliarekin	animaliarekin	animaliekin	animaliokin
+animal	causative	animaliarengatik	animaliarengatik	animaliengatik	animaliongatik
+animal	benefactive	animaliarentzat	animaliarentzat	animalientzat	animaliontzat
+animal	instrumental	animaliaz	animaliaz	animaliez	animaliotaz
+animal	inessive	animaliarengan	animaliarengan	animaliengan	animaliongan
+animal	locative	—	—	—	—
+animal	allative	animaliarengana	animaliarengana	animaliengana	animaliongana
+animal	terminative	animaliarenganaino	animaliarenganaino	animalienganaino	animalionganaino
+animal	directive	animaliarenganantz	animaliarenganantz	animalienganantz	animalionganantz
+animal	destinative	animaliarenganako	animaliarenganako	animalienganako	animalionganako
+animal	ablative	animaliarengandik	animaliarengandik	animaliengandik	animaliongandik
+animal	partitive	animaliarik	—	—	—
+animal	prolative	animaliatzat	—	—	—
+livestock		indefinite	singular	plural	proximal plural
+livestock	absolutive	azienda	azienda	aziendak	aziendok
+livestock	ergative	aziendak	aziendak	aziendek	aziendok
+livestock	dative	aziendari	aziendari	aziendei	aziendoi
+livestock	genitive	aziendaren	aziendaren	azienden	aziendon
+livestock	comitative	aziendarekin	aziendarekin	aziendekin	aziendokin
+livestock	causative	aziendarengatik	aziendarengatik	aziendengatik	aziendongatik
+livestock	benefactive	aziendarentzat	aziendarentzat	aziendentzat	aziendontzat
+livestock	instrumental	aziendaz	aziendaz	aziendez	aziendotaz
+livestock	inessive	aziendarengan	aziendarengan	aziendengan	aziendongan
+livestock	locative	—	—	—	—
+livestock	allative	aziendarengana	aziendarengana	aziendengana	aziendongana
+livestock	terminative	aziendarenganaino	aziendarenganaino	aziendenganaino	aziendonganaino
+livestock	directive	aziendarenganantz	aziendarenganantz	aziendenganantz	aziendonganantz
+livestock	destinative	aziendarenganako	aziendarenganako	aziendenganako	aziendonganako
+livestock	ablative	aziendarengandik	aziendarengandik	aziendengandik	aziendongandik
+livestock	partitive	aziendarik	—	—	—
+livestock	prolative	aziendatzat	—	—	—
+livestock		indefinite	singular	plural	proximal plural
+livestock	absolutive	abere	aberea	abereak	abereok
+livestock	ergative	aberek	abereak	abereek	abereok
+livestock	dative	abereri	abereari	abereei	abereoi
+livestock	genitive	abereren	aberearen	abereen	abereon
+livestock	comitative	abererekin	aberearekin	abereekin	abereokin
+livestock	causative	abererengatik	aberearengatik	abereengatik	abereongatik
+livestock	benefactive	abererentzat	aberearentzat	abereentzat	abereontzat
+livestock	instrumental	aberez	abereaz	abereez	abereotaz
+livestock	inessive	abererengan	aberearengan	abereengan	abereongan
+livestock	locative	—	—	—	—
+livestock	allative	abererengana	aberearengana	abereengana	abereongana
+livestock	terminative	abererenganaino	aberearenganaino	abereenganaino	abereonganaino
+livestock	directive	abererenganantz	aberearenganantz	abereenganantz	abereonganantz
+livestock	destinative	abererenganako	aberearenganako	abereenganako	abereonganako
+livestock	ablative	abererengandik	aberearengandik	abereengandik	abereongandik
+livestock	partitive	abererik	—	—	—
+livestock	prolative	aberetzat	—	—	—
+son		indefinite	singular	plural	proximal plural
+son	absolutive	seme	semea	semeak	semeok
+son	ergative	semek	semeak	semeek	semeok
+son	dative	semeri	semeari	semeei	semeoi
+son	genitive	semeren	semearen	semeen	semeon
+son	comitative	semerekin	semearekin	semeekin	semeokin
+son	causative	semerengatik	semearengatik	semeengatik	semeongatik
+son	benefactive	semerentzat	semearentzat	semeentzat	semeontzat
+son	instrumental	semez	semeaz	semeez	semeotaz
+son	inessive	semerengan	semearengan	semeengan	semeongan
+son	locative	—	—	—	—
+son	allative	semerengana	semearengana	semeengana	semeongana
+son	terminative	semerenganaino	semearenganaino	semeenganaino	semeonganaino
+son	directive	semerenganantz	semearenganantz	semeenganantz	semeonganantz
+son	destinative	semerenganako	semearenganako	semeenganako	semeonganako
+son	ablative	semerengandik	semearengandik	semeengandik	semeongandik
+son	partitive	semerik	—	—	—
+son	prolative	semetzat	—	—	—
+daughter		indefinite	singular	plural	proximal plural
+daughter	absolutive	alaba	alaba	alabak	alabok
+daughter	ergative	alabak	alabak	alabek	alabok
+daughter	dative	alabari	alabari	alabei	alaboi
+daughter	genitive	alabaren	alabaren	alaben	alabon
+daughter	comitative	alabarekin	alabarekin	alabekin	alabokin
+daughter	causative	alabarengatik	alabarengatik	alabengatik	alabongatik
+daughter	benefactive	alabarentzat	alabarentzat	alabentzat	alabontzat
+daughter	instrumental	alabaz	alabaz	alabez	alabotaz
+daughter	inessive	alabarengan	alabarengan	alabengan	alabongan
+daughter	locative	—	—	—	—
+daughter	allative	alabarengana	alabarengana	alabengana	alabongana
+daughter	terminative	alabarenganaino	alabarenganaino	alabenganaino	alabonganaino
+daughter	directive	alabarenganantz	alabarenganantz	alabenganantz	alabonganantz
+daughter	destinative	alabarenganako	alabarenganako	alabenganako	alabonganako
+daughter	ablative	alabarengandik	alabarengandik	alabengandik	alabongandik
+daughter	partitive	alabarik	—	—	—
+daughter	prolative	alabatzat	—	—	—
+mother		indefinite	singular	plural	proximal plural
+mother	absolutive	ama	ama	amak	amok
+mother	ergative	amak	amak	amek	amok
+mother	dative	amari	amari	amei	amoi
+mother	genitive	amaren	amaren	amen	amon
+mother	comitative	amarekin	amarekin	amekin	amokin
+mother	causative	amarengatik	amarengatik	amengatik	amongatik
+mother	benefactive	amarentzat	amarentzat	amentzat	amontzat
+mother	instrumental	amaz	amaz	amez	amotaz
+mother	inessive	amarengan	amarengan	amengan	amongan
+mother	locative	—	—	—	—
+mother	allative	amarengana	amarengana	amengana	amongana
+mother	terminative	amarenganaino	amarenganaino	amenganaino	amonganaino
+mother	directive	amarenganantz	amarenganantz	amenganantz	amonganantz
+mother	destinative	amarenganako	amarenganako	amenganako	amonganako
+mother	ablative	amarengandik	amarengandik	amengandik	amongandik
+mother	partitive	amarik	—	—	—
+mother	prolative	amatzat	—	—	—
+father		indefinite	singular	plural	proximal plural
+father	absolutive	aita	aita	aitak	aitok
+father	ergative	aitak	aitak	aitek	aitok
+father	dative	aitari	aitari	aitei	aitoi
+father	genitive	aitaren	aitaren	aiten	aiton
+father	comitative	aitarekin	aitarekin	aitekin	aitokin
+father	causative	aitarengatik	aitarengatik	aitengatik	aitongatik
+father	benefactive	aitarentzat	aitarentzat	aitentzat	aitontzat
+father	instrumental	aitaz	aitaz	aitez	aitotaz
+father	inessive	aitarengan	aitarengan	aitengan	aitongan
+father	locative	—	—	—	—
+father	allative	aitarengana	aitarengana	aitengana	aitongana
+father	terminative	aitarenganaino	aitarenganaino	aitenganaino	aitonganaino
+father	directive	aitarenganantz	aitarenganantz	aitenganantz	aitonganantz
+father	destinative	aitarenganako	aitarenganako	aitenganako	aitonganako
+father	ablative	aitarengandik	aitarengandik	aitengandik	aitongandik
+father	partitive	aitarik	—	—	—
+father	prolative	aitatzat	—	—	—
+brother		indefinite	singular	plural	proximal plural
+brother	absolutive	anaia	anaia	anaiak	anaiok
+brother	ergative	anaiak	anaiak	anaiek	anaiok
+brother	dative	anaiari	anaiari	anaiei	anaioi
+brother	genitive	anaiaren	anaiaren	anaien	anaion
+brother	comitative	anaiarekin	anaiarekin	anaiekin	anaiokin
+brother	causative	anaiarengatik	anaiarengatik	anaiengatik	anaiongatik
+brother	benefactive	anaiarentzat	anaiarentzat	anaientzat	anaiontzat
+brother	instrumental	anaiaz	anaiaz	anaiez	anaiotaz
+brother	inessive	anaiarengan	anaiarengan	anaiengan	anaiongan
+brother	locative	—	—	—	—
+brother	allative	anaiarengana	anaiarengana	anaiengana	anaiongana
+brother	terminative	anaiarenganaino	anaiarenganaino	anaienganaino	anaionganaino
+brother	directive	anaiarenganantz	anaiarenganantz	anaienganantz	anaionganantz
+brother	destinative	anaiarenganako	anaiarenganako	anaienganako	anaionganako
+brother	ablative	anaiarengandik	anaiarengandik	anaiengandik	anaiongandik
+brother	partitive	anaiarik	—	—	—
+brother	prolative	anaiatzat	—	—	—
+brother		indefinite	singular	plural	proximal plural
+brother	absolutive	neba	neba	nebak	nebok
+brother	ergative	nebak	nebak	nebek	nebok
+brother	dative	nebari	nebari	nebei	neboi
+brother	genitive	nebaren	nebaren	neben	nebon
+brother	comitative	nebarekin	nebarekin	nebekin	nebokin
+brother	causative	nebarengatik	nebarengatik	nebengatik	nebongatik
+brother	benefactive	nebarentzat	nebarentzat	nebentzat	nebontzat
+brother	instrumental	nebaz	nebaz	nebez	nebotaz
+brother	inessive	nebarengan	nebarengan	nebengan	nebongan
+brother	locative	—	—	—	—
+brother	allative	nebarengana	nebarengana	nebengana	nebongana
+brother	terminative	nebarenganaino	nebarenganaino	nebenganaino	nebonganaino
+brother	directive	nebarenganantz	nebarenganantz	nebenganantz	nebonganantz
+brother	destinative	nebarenganako	nebarenganako	nebenganako	nebonganako
+brother	ablative	nebarengandik	nebarengandik	nebengandik	nebongandik
+brother	partitive	nebarik	—	—	—
+brother	prolative	nebatzat	—	—	—
+brother		indefinite	singular	plural	proximal plural
+brother	absolutive	neba	neba	nebak	nebok
+brother	ergative	nebak	nebak	nebek	nebok
+brother	dative	nebari	nebari	nebei	neboi
+brother	genitive	nebaren	nebaren	neben	nebon
+brother	comitative	nebarekin	nebarekin	nebekin	nebokin
+brother	causative	nebarengatik	nebarengatik	nebengatik	nebongatik
+brother	benefactive	nebarentzat	nebarentzat	nebentzat	nebontzat
+brother	instrumental	nebaz	nebaz	nebez	nebotaz
+brother	inessive	nebarengan	nebarengan	nebengan	nebongan
+brother	locative	—	—	—	—
+brother	allative	nebarengana	nebarengana	nebengana	nebongana
+brother	terminative	nebarenganaino	nebarenganaino	nebenganaino	nebonganaino
+brother	directive	nebarenganantz	nebarenganantz	nebenganantz	nebonganantz
+brother	destinative	nebarenganako	nebarenganako	nebenganako	nebonganako
+brother	ablative	nebarengandik	nebarengandik	nebengandik	nebongandik
+brother	partitive	nebarik	—	—	—
+brother	prolative	nebatzat	—	—	—
+sister		indefinite	singular	plural	proximal plural
+sister	absolutive	arreba	arreba	arrebak	arrebok
+sister	ergative	arrebak	arrebak	arrebek	arrebok
+sister	dative	arrebari	arrebari	arrebei	arreboi
+sister	genitive	arrebaren	arrebaren	arreben	arrebon
+sister	comitative	arrebarekin	arrebarekin	arrebekin	arrebokin
+sister	causative	arrebarengatik	arrebarengatik	arrebengatik	arrebongatik
+sister	benefactive	arrebarentzat	arrebarentzat	arrebentzat	arrebontzat
+sister	instrumental	arrebaz	arrebaz	arrebez	arrebotaz
+sister	inessive	arrebarengan	arrebarengan	arrebengan	arrebongan
+sister	locative	—	—	—	—
+sister	allative	arrebarengana	arrebarengana	arrebengana	arrebongana
+sister	terminative	arrebarenganaino	arrebarenganaino	arrebenganaino	arrebonganaino
+sister	directive	arrebarenganantz	arrebarenganantz	arrebenganantz	arrebonganantz
+sister	destinative	arrebarenganako	arrebarenganako	arrebenganako	arrebonganako
+sister	ablative	arrebarengandik	arrebarengandik	arrebengandik	arrebongandik
+sister	partitive	arrebarik	—	—	—
+sister	prolative	arrebatzat	—	—	—
+sister		indefinite	singular	plural	proximal plural
+sister	absolutive	ahizpa	ahizpa	ahizpak	ahizpok
+sister	ergative	ahizpak	ahizpak	ahizpek	ahizpok
+sister	dative	ahizpari	ahizpari	ahizpei	ahizpoi
+sister	genitive	ahizparen	ahizparen	ahizpen	ahizpon
+sister	comitative	ahizparekin	ahizparekin	ahizpekin	ahizpokin
+sister	causative	ahizparengatik	ahizparengatik	ahizpengatik	ahizpongatik
+sister	benefactive	ahizparentzat	ahizparentzat	ahizpentzat	ahizpontzat
+sister	instrumental	ahizpaz	ahizpaz	ahizpez	ahizpotaz
+sister	inessive	ahizparengan	ahizparengan	ahizpengan	ahizpongan
+sister	locative	—	—	—	—
+sister	allative	ahizparengana	ahizparengana	ahizpengana	ahizpongana
+sister	terminative	ahizparenganaino	ahizparenganaino	ahizpenganaino	ahizponganaino
+sister	directive	ahizparenganantz	ahizparenganantz	ahizpenganantz	ahizponganantz
+sister	destinative	ahizparenganako	ahizparenganako	ahizpenganako	ahizponganako
+sister	ablative	ahizparengandik	ahizparengandik	ahizpengandik	ahizpongandik
+sister	partitive	ahizparik	—	—	—
+sister	prolative	ahizpatzat	—	—	—
+grandmother		indefinite	singular	plural	proximal plural
+grandmother	absolutive	amona	amona	amonak	amonok
+grandmother	ergative	amonak	amonak	amonek	amonok
+grandmother	dative	amonari	amonari	amonei	amonoi
+grandmother	genitive	amonaren	amonaren	amonen	amonon
+grandmother	comitative	amonarekin	amonarekin	amonekin	amonokin
+grandmother	causative	amonarengatik	amonarengatik	amonengatik	amonongatik
+grandmother	benefactive	amonarentzat	amonarentzat	amonentzat	amonontzat
+grandmother	instrumental	amonaz	amonaz	amonez	amonotaz
+grandmother	inessive	amonarengan	amonarengan	amonengan	amonongan
+grandmother	locative	—	—	—	—
+grandmother	allative	amonarengana	amonarengana	amonengana	amonongana
+grandmother	terminative	amonarenganaino	amonarenganaino	amonenganaino	amononganaino
+grandmother	directive	amonarenganantz	amonarenganantz	amonenganantz	amononganantz
+grandmother	destinative	amonarenganako	amonarenganako	amonenganako	amononganako
+grandmother	ablative	amonarengandik	amonarengandik	amonengandik	amonongandik
+grandmother	partitive	amonarik	—	—	—
+grandmother	prolative	amonatzat	—	—	—
+grandfather		indefinite	singular	plural	proximal plural
+grandfather	absolutive	aitona	aitona	aitonak	aitonok
+grandfather	ergative	aitonak	aitonak	aitonek	aitonok
+grandfather	dative	aitonari	aitonari	aitonei	aitonoi
+grandfather	genitive	aitonaren	aitonaren	aitonen	aitonon
+grandfather	comitative	aitonarekin	aitonarekin	aitonekin	aitonokin
+grandfather	causative	aitonarengatik	aitonarengatik	aitonengatik	aitonongatik
+grandfather	benefactive	aitonarentzat	aitonarentzat	aitonentzat	aitonontzat
+grandfather	instrumental	aitonaz	aitonaz	aitonez	aitonotaz
+grandfather	inessive	aitonarengan	aitonarengan	aitonengan	aitonongan
+grandfather	locative	—	—	—	—
+grandfather	allative	aitonarengana	aitonarengana	aitonengana	aitonongana
+grandfather	terminative	aitonarenganaino	aitonarenganaino	aitonenganaino	aitononganaino
+grandfather	directive	aitonarenganantz	aitonarenganantz	aitonenganantz	aitononganantz
+grandfather	destinative	aitonarenganako	aitonarenganako	aitonenganako	aitononganako
+grandfather	ablative	aitonarengandik	aitonarengandik	aitonengandik	aitonongandik
+grandfather	partitive	aitonarik	—	—	—
+grandfather	prolative	aitonatzat	—	—	—
+grandfather		indefinite	singular	plural	proximal plural
+grandfather	absolutive	aitatxi	aitatxia	aitatxiak	aitatxiok
+grandfather	ergative	aitatxik	aitatxiak	aitatxiek	aitatxiok
+grandfather	dative	aitatxiri	aitatxiari	aitatxiei	aitatxioi
+grandfather	genitive	aitatxiren	aitatxiaren	aitatxien	aitatxion
+grandfather	comitative	aitatxirekin	aitatxiarekin	aitatxiekin	aitatxiokin
+grandfather	causative	aitatxirengatik	aitatxiarengatik	aitatxiengatik	aitatxiongatik
+grandfather	benefactive	aitatxirentzat	aitatxiarentzat	aitatxientzat	aitatxiontzat
+grandfather	instrumental	aitatxiz	aitatxiaz	aitatxiez	aitatxiotaz
+grandfather	inessive	aitatxirengan	aitatxiarengan	aitatxiengan	aitatxiongan
+grandfather	locative	—	—	—	—
+grandfather	allative	aitatxirengana	aitatxiarengana	aitatxiengana	aitatxiongana
+grandfather	terminative	aitatxirenganaino	aitatxiarenganaino	aitatxienganaino	aitatxionganaino
+grandfather	directive	aitatxirenganantz	aitatxiarenganantz	aitatxienganantz	aitatxionganantz
+grandfather	destinative	aitatxirenganako	aitatxiarenganako	aitatxienganako	aitatxionganako
+grandfather	ablative	aitatxirengandik	aitatxiarengandik	aitatxiengandik	aitatxiongandik
+grandfather	partitive	aitatxirik	—	—	—
+grandfather	prolative	aitatxitzat	—	—	—
+sound		indefinite	singular	plural	proximal plural
+sound	absolutive	soinu	soinua	soinuak	soinuok
+sound	ergative	soinuk	soinuak	soinuek	soinuok
+sound	dative	soinuri	soinuari	soinuei	soinuoi
+sound	genitive	soinuren	soinuaren	soinuen	soinuon
+sound	comitative	soinurekin	soinuarekin	soinuekin	soinuokin
+sound	causative	soinurengatik	soinuarengatik	soinuengatik	soinuongatik
+sound	benefactive	soinurentzat	soinuarentzat	soinuentzat	soinuontzat
+sound	instrumental	soinuz	soinuaz	soinuez	soinuotaz
+sound	inessive	soinutan	soinuan	soinuetan	soinuotan
+sound	locative	soinutako	soinuko	soinuetako	soinuotako
+sound	allative	soinutara	soinura	soinuetara	soinuotara
+sound	terminative	soinutaraino	soinuraino	soinuetaraino	soinuotaraino
+sound	directive	soinutarantz	soinurantz	soinuetarantz	soinuotarantz
+sound	destinative	soinutarako	soinurako	soinuetarako	soinuotarako
+sound	ablative	soinutatik	soinutik	soinuetatik	soinuotatik
+sound	partitive	soinurik	—	—	—
+sound	prolative	soinutzat	—	—	—
+sound		indefinite	singular	plural	proximal plural
+sound	absolutive	hots	hotsa	hotsak	hotsok
+sound	ergative	hotsek	hotsak	hotsek	hotsok
+sound	dative	hotsi	hotsari	hotsei	hotsoi
+sound	genitive	hotsen	hotsaren	hotsen	hotson
+sound	comitative	hotsekin	hotsarekin	hotsekin	hotsokin
+sound	causative	hotsengatik	hotsarengatik	hotsengatik	hotsongatik
+sound	benefactive	hotsentzat	hotsarentzat	hotsentzat	hotsontzat
+sound	instrumental	hotsez	hotsaz	hotsez	hotsotaz
+sound	inessive	hotsetan	hotsean	hotsetan	hotsotan
+sound	locative	hotsetako	hotseko	hotsetako	hotsotako
+sound	allative	hotsetara	hotsera	hotsetara	hotsotara
+sound	terminative	hotsetaraino	hotseraino	hotsetaraino	hotsotaraino
+sound	directive	hotsetarantz	hotserantz	hotsetarantz	hotsotarantz
+sound	destinative	hotsetarako	hotserako	hotsetarako	hotsotarako
+sound	ablative	hotsetatik	hotsetik	hotsetatik	hotsotatik
+sound	partitive	hotsik	—	—	—
+sound	prolative	hostzat	—	—	—
+size		indefinite	singular	plural	proximal plural
+size	absolutive	tamaina	tamaina	tamainak	tamainok
+size	ergative	tamainak	tamainak	tamainek	tamainok
+size	dative	tamainari	tamainari	tamainei	tamainoi
+size	genitive	tamainaren	tamainaren	tamainen	tamainon
+size	comitative	tamainarekin	tamainarekin	tamainekin	tamainokin
+size	causative	tamainarengatik	tamainarengatik	tamainengatik	tamainongatik
+size	benefactive	tamainarentzat	tamainarentzat	tamainentzat	tamainontzat
+size	instrumental	tamainaz	tamainaz	tamainez	tamainotaz
+size	inessive	tamainatan	tamainan	tamainetan	tamainotan
+size	locative	tamainatako	tamainako	tamainetako	tamainotako
+size	allative	tamainatara	tamainara	tamainetara	tamainotara
+size	terminative	tamainataraino	tamainaraino	tamainetaraino	tamainotaraino
+size	directive	tamainatarantz	tamainarantz	tamainetarantz	tamainotarantz
+size	destinative	tamainatarako	tamainarako	tamainetarako	tamainotarako
+size	ablative	tamainatatik	tamainatik	tamainetatik	tamainotatik
+size	partitive	tamainarik	—	—	—
+size	prolative	tamainatzat	—	—	—
+north		indefinite	singular	plural	proximal plural
+north	absolutive	ipar	iparra	iparrak	iparrok
+north	ergative	iparrek	iparrak	iparrek	iparrok
+north	dative	iparri	iparrari	iparrei	iparroi
+north	genitive	iparren	iparraren	iparren	iparron
+north	comitative	iparrekin	iparrarekin	iparrekin	iparrokin
+north	causative	iparrengatik	iparrarengatik	iparrengatik	iparrongatik
+north	benefactive	iparrentzat	iparrarentzat	iparrentzat	iparrontzat
+north	instrumental	iparrez	iparraz	iparrez	iparrotaz
+north	inessive	iparretan	iparrean	iparretan	iparrotan
+north	locative	iparretako	iparreko	iparretako	iparrotako
+north	allative	iparretara	iparrera	iparretara	iparrotara
+north	terminative	iparretaraino	iparreraino	iparretaraino	iparrotaraino
+north	directive	iparretarantz	iparrerantz	iparretarantz	iparrotarantz
+north	destinative	iparretarako	iparrerako	iparretarako	iparrotarako
+north	ablative	iparretatik	iparretik	iparretatik	iparrotatik
+north	partitive	iparrik	—	—	—
+north	prolative	ipartzat	—	—	—
+north		indefinite	singular	plural	proximal plural
+north	absolutive	helburu	helburua	helburuak	helburuok
+north	ergative	helburuk	helburuak	helburuek	helburuok
+north	dative	helbururi	helburuari	helburuei	helburuoi
+north	genitive	helbururen	helburuaren	helburuen	helburuon
+north	comitative	helbururekin	helburuarekin	helburuekin	helburuokin
+north	causative	helbururengatik	helburuarengatik	helburuengatik	helburuongatik
+north	benefactive	helbururentzat	helburuarentzat	helburuentzat	helburuontzat
+north	instrumental	helburuz	helburuaz	helburuez	helburuotaz
+north	inessive	helburutan	helburuan	helburuetan	helburuotan
+north	locative	helburutako	helburuko	helburuetako	helburuotako
+north	allative	helburutara	helburura	helburuetara	helburuotara
+north	terminative	helburutaraino	helbururaino	helburuetaraino	helburuotaraino
+north	directive	helburutarantz	helbururantz	helburuetarantz	helburuotarantz
+north	destinative	helburutarako	helbururako	helburuetarako	helburuotarako
+north	ablative	helburutatik	helburutik	helburuetatik	helburuotatik
+north	partitive	helbururik	—	—	—
+north	prolative	helburutzat	—	—	—
+south		indefinite	singular	plural	proximal plural
+south	absolutive	hego	hegoa	hegoak	hegook
+south	ergative	hegok	hegoak	hegoek	hegook
+south	dative	hegori	hegoari	hegoei	hegooi
+south	genitive	hegoren	hegoaren	hegoen	hegoon
+south	comitative	hegorekin	hegoarekin	hegoekin	hegookin
+south	causative	hegorengatik	hegoarengatik	hegoengatik	hegoongatik
+south	benefactive	hegorentzat	hegoarentzat	hegoentzat	hegoontzat
+south	instrumental	hegoz	hegoaz	hegoez	hegootaz
+south	inessive	hegotan	hegoan	hegoetan	hegootan
+south	locative	hegotako	hegoko	hegoetako	hegootako
+south	allative	hegotara	hegora	hegoetara	hegootara
+south	terminative	hegotaraino	hegoraino	hegoetaraino	hegootaraino
+south	directive	hegotarantz	hegorantz	hegoetarantz	hegootarantz
+south	destinative	hegotarako	hegorako	hegoetarako	hegootarako
+south	ablative	hegotatik	hegotik	hegoetatik	hegootatik
+south	partitive	hegorik	—	—	—
+south	prolative	hegotzat	—	—	—
+south		indefinite	singular	plural	proximal plural
+south	absolutive	hego	hegoa	hegoak	hegook
+south	ergative	hegok	hegoak	hegoek	hegook
+south	dative	hegori	hegoari	hegoei	hegooi
+south	genitive	hegoren	hegoaren	hegoen	hegoon
+south	comitative	hegorekin	hegoarekin	hegoekin	hegookin
+south	causative	hegorengatik	hegoarengatik	hegoengatik	hegoongatik
+south	benefactive	hegorentzat	hegoarentzat	hegoentzat	hegoontzat
+south	instrumental	hegoz	hegoaz	hegoez	hegootaz
+south	inessive	hegotan	hegoan	hegoetan	hegootan
+south	locative	hegotako	hegoko	hegoetako	hegootako
+south	allative	hegotara	hegora	hegoetara	hegootara
+south	terminative	hegotaraino	hegoraino	hegoetaraino	hegootaraino
+south	directive	hegotarantz	hegorantz	hegoetarantz	hegootarantz
+south	destinative	hegotarako	hegorako	hegoetarako	hegootarako
+south	ablative	hegotatik	hegotik	hegoetatik	hegootatik
+south	partitive	hegorik	—	—	—
+south	prolative	hegotzat	—	—	—
+east		indefinite	singular	plural	proximal plural
+east	absolutive	sortalde	sortaldea	sortaldeak	sortaldeok
+east	ergative	sortaldek	sortaldeak	sortaldeek	sortaldeok
+east	dative	sortalderi	sortaldeari	sortaldeei	sortaldeoi
+east	genitive	sortalderen	sortaldearen	sortaldeen	sortaldeon
+east	comitative	sortalderekin	sortaldearekin	sortaldeekin	sortaldeokin
+east	causative	sortalderengatik	sortaldearengatik	sortaldeengatik	sortaldeongatik
+east	benefactive	sortalderentzat	sortaldearentzat	sortaldeentzat	sortaldeontzat
+east	instrumental	sortaldez	sortaldeaz	sortaldeez	sortaldeotaz
+east	inessive	sortaldetan	sortaldean	sortaldeetan	sortaldeotan
+east	locative	sortaldetako	sortaldeko	sortaldeetako	sortaldeotako
+east	allative	sortaldetara	sortaldera	sortaldeetara	sortaldeotara
+east	terminative	sortaldetaraino	sortalderaino	sortaldeetaraino	sortaldeotaraino
+east	directive	sortaldetarantz	sortalderantz	sortaldeetarantz	sortaldeotarantz
+east	destinative	sortaldetarako	sortalderako	sortaldeetarako	sortaldeotarako
+east	ablative	sortaldetatik	sortaldetik	sortaldeetatik	sortaldeotatik
+east	partitive	sortalderik	—	—	—
+east	prolative	sortaldetzat	—	—	—
+east		indefinite	singular	plural	proximal plural
+east	absolutive	ekialde	ekialdea	ekialdeak	ekialdeok
+east	ergative	ekialdek	ekialdeak	ekialdeek	ekialdeok
+east	dative	ekialderi	ekialdeari	ekialdeei	ekialdeoi
+east	genitive	ekialderen	ekialdearen	ekialdeen	ekialdeon
+east	comitative	ekialderekin	ekialdearekin	ekialdeekin	ekialdeokin
+east	causative	ekialderengatik	ekialdearengatik	ekialdeengatik	ekialdeongatik
+east	benefactive	ekialderentzat	ekialdearentzat	ekialdeentzat	ekialdeontzat
+east	instrumental	ekialdez	ekialdeaz	ekialdeez	ekialdeotaz
+east	inessive	ekialdetan	ekialdean	ekialdeetan	ekialdeotan
+east	locative	ekialdetako	ekialdeko	ekialdeetako	ekialdeotako
+east	allative	ekialdetara	ekialdera	ekialdeetara	ekialdeotara
+east	terminative	ekialdetaraino	ekialderaino	ekialdeetaraino	ekialdeotaraino
+east	directive	ekialdetarantz	ekialderantz	ekialdeetarantz	ekialdeotarantz
+east	destinative	ekialdetarako	ekialderako	ekialdeetarako	ekialdeotarako
+east	ablative	ekialdetatik	ekialdetik	ekialdeetatik	ekialdeotatik
+east	partitive	ekialderik	—	—	—
+east	prolative	ekialdetzat	—	—	—
+west		indefinite	singular	plural	proximal plural
+west	absolutive	sartalde	sartaldea	sartaldeak	sartaldeok
+west	ergative	sartaldek	sartaldeak	sartaldeek	sartaldeok
+west	dative	sartalderi	sartaldeari	sartaldeei	sartaldeoi
+west	genitive	sartalderen	sartaldearen	sartaldeen	sartaldeon
+west	comitative	sartalderekin	sartaldearekin	sartaldeekin	sartaldeokin
+west	causative	sartalderengatik	sartaldearengatik	sartaldeengatik	sartaldeongatik
+west	benefactive	sartalderentzat	sartaldearentzat	sartaldeentzat	sartaldeontzat
+west	instrumental	sartaldez	sartaldeaz	sartaldeez	sartaldeotaz
+west	inessive	sartaldetan	sartaldean	sartaldeetan	sartaldeotan
+west	locative	sartaldetako	sartaldeko	sartaldeetako	sartaldeotako
+west	allative	sartaldetara	sartaldera	sartaldeetara	sartaldeotara
+west	terminative	sartaldetaraino	sartalderaino	sartaldeetaraino	sartaldeotaraino
+west	directive	sartaldetarantz	sartalderantz	sartaldeetarantz	sartaldeotarantz
+west	destinative	sartaldetarako	sartalderako	sartaldeetarako	sartaldeotarako
+west	ablative	sartaldetatik	sartaldetik	sartaldeetatik	sartaldeotatik
+west	partitive	sartalderik	—	—	—
+west	prolative	sartaldetzat	—	—	—
+west		indefinite	singular	plural	proximal plural
+west	absolutive	mendebal	mendebala	mendebalak	mendebalok
+west	ergative	mendebalek	mendebalak	mendebalek	mendebalok
+west	dative	mendebali	mendebalari	mendebalei	mendebaloi
+west	genitive	mendebalen	mendebalaren	mendebalen	mendebalon
+west	comitative	mendebalekin	mendebalarekin	mendebalekin	mendebalokin
+west	causative	mendebalengatik	mendebalarengatik	mendebalengatik	mendebalongatik
+west	benefactive	mendebalentzat	mendebalarentzat	mendebalentzat	mendebalontzat
+west	instrumental	mendebalez	mendebalaz	mendebalez	mendebalotaz
+west	inessive	mendebaletan	mendebalean	mendebaletan	mendebalotan
+west	locative	mendebaletako	mendebaleko	mendebaletako	mendebalotako
+west	allative	mendebaletara	mendebalera	mendebaletara	mendebalotara
+west	terminative	mendebaletaraino	mendebaleraino	mendebaletaraino	mendebalotaraino
+west	directive	mendebaletarantz	mendebalerantz	mendebaletarantz	mendebalotarantz
+west	destinative	mendebaletarako	mendebalerako	mendebaletarako	mendebalotarako
+west	ablative	mendebaletatik	mendebaletik	mendebaletatik	mendebalotatik
+west	partitive	mendebalik	—	—	—
+west	prolative	mendebaltzat	—	—	—
