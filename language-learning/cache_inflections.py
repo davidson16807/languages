@@ -13,23 +13,6 @@ and the html of each url is written to "<output-directory>/<lemma>.html".
 Where a lemma has more than one url, the files are named "<lemma>.html", "<lemma>-2.html", "<lemma>-3.html", etc.
 '''
 
-class Caching:
-	def __init__(self):
-		pass
-	def crawl(self, lemma_urls):
-		result = {}
-		for lemma, url in lemma_urls:
-			try:
-				print(f'{lemma}\t{url}')
-				time.sleep(1) # rate limit for kindness
-				headers={'User-Agent': 
-					'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36'
-				}
-				result[url.split('#')[0]] = requests.get(url,headers=headers).text
-			except Exception as ex:
-				print(ex)
-		return result
-
 class Translation:
 	def __init__(self, part_of_speech, intent, lemma, gloss, language_code, url, language_id=None):
 		self.part_of_speech = part_of_speech
@@ -50,8 +33,6 @@ def parse_translations(text):
 				translations.append(Translation(part_of_speech, intent, lemma, gloss, language_code, *translation_url.split('#')))
 	return translations
 
-caching = Caching()
-
 translations = []
 
 with open('translations.tsv','r') as file:
@@ -69,23 +50,19 @@ with open('translation-languages.tsv','r') as file:
 
 for target_language_code, output_directory in code_directories:
 
-	output_directory = os.path.join('cache', output_directory)
+	cache_directory = os.path.join('cache', output_directory)
 
 	language_translations = [translation 
 		for translation in translations 
 		if translation.language_code == target_language_code]
 
-	if not language_translations:
-		print(f'no translations found for language code: "{target_language_code}"')
-		continue
-
-	os.makedirs(output_directory, exist_ok=True)
+	os.makedirs(cache_directory, exist_ok=True)
 
 	for translation in language_translations:
 		try:
 			url = translation.url.split('#')[0]
 			filestem = url.split('/')[-1]
-			filepath = os.path.join(output_directory, f'{filestem}.html')
+			filepath = os.path.join(cache_directory, f'{filestem}.html')
 			print('\t'.join([translation.lemma, translation.url, filepath]))
 			if not os.path.exists(filepath):
 				time.sleep(1) # rate limit for kindness

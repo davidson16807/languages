@@ -166,27 +166,9 @@ class GenderWikiHtml:
 						yield [gender]
 
 
-class Caching:
-	def __init__(self):
-		pass
-	def crawl(self, lemma_urls):
-		result = {}
-		for lemma, url in lemma_urls:
-			try:
-				print(f'{lemma}\t{url}')
-				time.sleep(1) # rate limit for kindness
-				headers={'User-Agent': 
-					'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36'
-				}
-				result[url.split('#')[0]] = requests.get(url,headers=headers).text
-			except Exception as ex:
-				print(ex)
-		return result
-
 ops = RowMajorTableOps()
 scraping = TableScraping(ops)
 parsing = TokenParsing()
-caching = Caching()
 formatting = RowMajorTableText('\t','\n')
 
 # HUMAN VETTED
@@ -290,9 +272,18 @@ for target_language_code, output_directory in code_directories:
 
 	((language_id, _),) = count_for_language_id.most_common(1)
 
-	os.makedirs(output_directory, exist_ok=True)
+	os.makedirs(cache_directory, exist_ok=True)
+	os.makedirs(scrape_directory, exist_ok=True)
 
-	html_for_url = caching.crawl({(translation.lemma, translation.url) for translation in language_translations})
+	def filepath_for_url(url):
+		url = translation.url.split('#')[0]
+		filestem = url.split('/')[-1]
+		filepath = os.path.join(cache_directory, f'{filestem}.html')
+		return filepath
+
+	def html_for_filepath(filepath):
+		with open(filepath, 'r', encoding='utf-8') as file:
+			return file.read()
 
 	for part_of_speech, lemmas in lemmas_for_part_of_speech.items():
 		part_of_speech_text, table_texts = section_texts_for_part_of_speech[part_of_speech]
@@ -301,23 +292,26 @@ for target_language_code, output_directory in code_directories:
 			GreekRowMajorWikiTableHtml(ops) if target_language_code == 'grc' else
 			RowMajorWikiTableHtml(ops, part_of_speech_text, table_texts, language_id, target_language_code, table_count))
 		gender_parsing = GenderWikiHtml(ops, part_of_speech_text, language_id)
+
 		lemma_html = [
-			(lemma, html_for_url[url])
+			(lemma, html_for_filepath(filepath))
 			for lemma in lemmas
 			if (part_of_speech, lemma) in translations_for_part_of_speech_lemma
 			for translation in translations_for_part_of_speech_lemma[(part_of_speech, lemma)]
-			if (url:=translation.url.split('#')[0]) in html_for_url
+			if file.os.exists(filepath:=filepath_for_url(translation.url))
 		]
 
-		if part_of_speech == 'noun':
-			write(os.path.join(output_directory, f'scraped-genders.tsv'),
+		if lemma_html:
+
+			if part_of_speech == 'noun':
+				write(os.path.join(scrape_directory, f'scraped-genders.tsv'),
+					formatting.format(
+						scraping.scrape(gender_parsing, lemma_html)
+					)
+				)
+
+			write(os.path.join(scrape_directory, f'scraped-{part_of_speech}s.tsv'),
 				formatting.format(
-					scraping.scrape(gender_parsing, lemma_html)
+					scraping.scrape(table_parsing, lemma_html)
 				)
 			)
-
-		write(os.path.join(output_directory, f'scraped-{part_of_speech}s.tsv'),
-			formatting.format(
-				scraping.scrape(table_parsing, lemma_html)
-			)
-		)
