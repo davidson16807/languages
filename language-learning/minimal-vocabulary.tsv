@@ -125,6 +125,7 @@
 	https://en.wiktionary.org/wiki/winter#Translations	winter	winter	noun					x			
 	https://en.wiktionary.org/wiki/year/translations#Noun	year	year	noun				x	x		x	needed to self document rosetta book
 	https://en.wiktionary.org/wiki/day/translations#Noun	day	day	noun				x	x		x	needed to self document rosetta book
+	https://en.wiktionary.org/wiki/night/translations#Noun	night	night	noun					x			needed for day/night cycle
 	https://en.wiktionary.org/wiki/moon/translations#Noun	moon	moon	noun				x	x		x	needed for highly stable chronological reference for long duration messages
 	https://en.wiktionary.org/wiki/sun/translations#Noun	sun	sun	noun				x	x		x	needed for highly stable chronological reference for long duration messages
 	https://en.wiktionary.org/wiki/Earth#Translations-Q2	earth	earth	noun				x			x	needed for highly stable chronological reference for long duration messages
@@ -145,6 +146,14 @@
 	https://en.wiktionary.org/wiki/sister/translations#Noun	sister	sister	noun					x			
 	https://en.wiktionary.org/wiki/grandmother#Translations	grandmother	grandmother	noun					x			
 	https://en.wiktionary.org/wiki/grandfather#Translations	grandfather	grandfather	noun					x			
+	https://en.wiktionary.org/wiki/paternal_grandmother#English	paternal-grandmother	paternal-grandmother	noun					x			needed for languages where there is no generic term for grandparent
+	https://en.wiktionary.org/wiki/grandmother#Translations	paternal-grandmother	grandmother	noun					x			needed for languages where there is no generic term for grandparent
+	https://en.wiktionary.org/wiki/maternal_grandmother#English	maternal-grandmother	maternal-grandmother	noun					x			needed for languages where there is no generic term for grandparent
+	https://en.wiktionary.org/wiki/grandmother#Translations	maternal-grandmother	grandmother	noun					x			needed for languages where there is no generic term for grandparent
+	https://en.wiktionary.org/wiki/paternal_grandfather#English	paternal-grandfather	paternal-grandfather	noun					x			needed for languages where there is no generic term for grandparent
+	https://en.wiktionary.org/wiki/grandfather#Translations	paternal-grandfather	grandfather	noun					x			needed for languages where there is no generic term for grandparent
+	https://en.wiktionary.org/wiki/maternal_grandfather#English	maternal-grandfather	maternal-grandfather	noun					x			needed for languages where there is no generic term for grandparent
+	https://en.wiktionary.org/wiki/grandfather#Translations	maternal-grandfather	grandfather	noun					x			needed for languages where there is no generic term for grandparent
 	https://en.wiktionary.org/wiki/sound#Translations	sound	sound	noun			x					for genitives of audibles
 	https://en.wiktionary.org/wiki/size#Translations	size	size	noun			x					for genitives of visibles
 	https://en.wiktionary.org/wiki/thought#Translations	thought	thought	noun			x					for genitives of concepts and miscellaneous nouns, for demonstrating motion to/from a concept
@@ -178,7 +187,8 @@
 	https://en.wiktionary.org/wiki/cool#Translations	cool	cool	verb		x						"can be done to most patients (unless intrinsically hot, like ice, in which case we use ""warm"")"
 	https://en.wiktionary.org/wiki/chill#Translations	chill	chill	verb		x			x			
 	https://en.wiktionary.org/wiki/direct#Translations	direct	direct	verb		x			x			can be associated with motion relative to concepts and other unreachable things
-	https://en.wiktionary.org/wiki/lead/translations#Etymology_2	lead	direct	verb		x			x			
+	https://en.wiktionary.org/wiki/lead/translations#Etymology_2	direct	lead	verb		x			x			
+	https://en.wiktionary.org/wiki/love/translations#Translations_2	love	love	verb					x			needed as early demonstration of dialog system and sentence formation
 	https://en.wiktionary.org/wiki/displease#Translations	displease	displease	verb		x						done by most things as a stimulus
 	https://en.wiktionary.org/wiki/upset#Translations	upset	upset	verb		x			x			
 	https://en.wiktionary.org/wiki/anger#Translations	anger	anger	verb		x			x			

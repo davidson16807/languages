@@ -167,8 +167,8 @@ class GenderWikiHtml:
 
 
 class Caching:
-	def __init__(self, parsing):
-		self.parsing = parsing
+	def __init__(self):
+		pass
 	def crawl(self, lemma_urls):
 		result = {}
 		for lemma, url in lemma_urls:
@@ -186,7 +186,7 @@ class Caching:
 ops = RowMajorTableOps()
 scraping = TableScraping(ops)
 parsing = TokenParsing()
-caching = Caching(parsing)
+caching = Caching()
 formatting = RowMajorTableText('\t','\n')
 
 # HUMAN VETTED
@@ -224,16 +224,25 @@ class Translation:
 		self.gloss = gloss
 		self.language_code = language_code
 		self.url = url
-		self.language_id = language_id
+		self.language_id = None if language_id is None else language_id.split(':')[0] 
 
-translations = []
-with open('translations.tsv','r') as file:
-	for row in file.read().split('\n'):
+def parse_translations(text):
+	translations = []
+	for row in text.split('\n'):
 		if not row.startswith('#'):
 			parameters = row.split('\t')
-			if len(parameters) == 9:
-				_, part_of_speech, intent, lemma, word_url, gloss, language_code, translation_url, translation = parameters
+			if len(parameters) >= 8:
+				_, part_of_speech, intent, lemma, word_url, gloss, language_code, translation_url = parameters[:8]
 				translations.append(Translation(part_of_speech, intent, lemma, gloss, language_code, *translation_url.split('#')))
+	return translations
+
+translations = []
+
+with open('translations.tsv','r') as file:
+	translations += parse_translations(file.read())
+
+with open('translation-specializations.tsv','r') as file:
+	translations += parse_translations(file.read())
 
 with open('translation-languages.tsv','r') as file:
 	code_directories = [
@@ -244,21 +253,25 @@ with open('translation-languages.tsv','r') as file:
 
 for target_language_code, output_directory in code_directories:
 
+	cache_directory = os.path.join('cache', output_directory)
+	scrape_directory = os.path.join('data', 'inflection', output_directory)
+
 	language_translations = [translation 
 		for translation in translations 
 		if translation.language_code == target_language_code]
 
-	count_for_language_id = collections.Counter([translation.language_id 
+	count_for_language_id = collections.Counter([
+		translation.language_id
 		for translation in language_translations
 		if translation.language_id
 	])
 
 	if not language_translations:
-		print(f'no translations found for language code: {target_language_code}')
+		print(f'no translations found for language code: "{target_language_code}"')
 		sys.exit(1)
 
 	if not count_for_language_id:
-		print(f'no wiktionary language section could be determined for language code: {target_language_code}')
+		print(f'no wiktionary language section could be determined for language code: "{target_language_code}"')
 		sys.exit(1)
 
 	# the wiktionary section id (e.g. "Old_English") is the anchor that is most often used in translation urls
