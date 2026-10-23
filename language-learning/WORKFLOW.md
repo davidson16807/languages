@@ -17,3 +17,4 @@ translations.tsv
 	↓ 	manual cleanup
 `data/inflection/**/*.tsv`
 
+`track_inflections.py` can be used to monitor the progress of each language when populating inflections for each lemma
