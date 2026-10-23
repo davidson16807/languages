@@ -21,7 +21,7 @@ def parse_translations(text):
 				translations.append(Translation(part_of_speech, intent, lemma, gloss, language_code, *translation_url.split('#')))
 	return translations
 
-parts_of_speech = 'adjectives adverbs articles determiners interjections nouns verbs'.split()
+parts_of_speech = 'adjective adverb article determiner interjection noun verb'.split()
 
 translations = []
 
@@ -52,22 +52,24 @@ with open(f'unscraped.tsv','w') as unscraped_file:
 		for translation in language_translations:
 			translations_for_part_of_speech[translation.part_of_speech].append(translation)
 
-		for part_of_speech in translations_for_part_of_speech:
-			part_of_speech_translations = translations_for_part_of_speech[part_of_speech]
+		for part_of_speech in parts_of_speech:
+			if part_of_speech in translations_for_part_of_speech:
 
-			with open(os.path.join(scrape_directory, f'scraped-{part_of_speech}s.tsv'),'r') as file:
-				scraped = {
-					row.strip().split('\t')[0]
-					for row in file.read().split('\n')
-					if row.strip() and not row.startswith('#')
-				}
+				part_of_speech_translations = translations_for_part_of_speech[part_of_speech]
 
-			unscraped = [translation
-				for translation in part_of_speech_translations
-				if translation.lemma not in scraped
-			]
+				with open(os.path.join(scrape_directory, f'scraped-{part_of_speech}s.tsv'),'r') as file:
+					scraped = {
+						row.strip().split('\t')[0]
+						for row in file.read().split('\n')
+						if row.strip() and not row.startswith('#')
+					}
 
-			unscraped_file.write('\n'.join([
-				'\t'.join([target_language_code, str(translation.language_id), part_of_speech, translation.lemma, translation.url])
-				for translation in unscraped
-			])+'\n')
+				unscraped = [translation
+					for translation in part_of_speech_translations
+					if translation.lemma not in scraped
+				]
+
+				unscraped_file.write('\n'.join([
+					'\t'.join([target_language_code, str(translation.language_id), part_of_speech, translation.lemma, translation.url])
+					for translation in unscraped
+				])+'\n')
