@@ -15,9 +15,9 @@
 	https://en.wiktionary.org/wiki/all#Translations	all	all	determiner						x		
 	https://en.wiktionary.org/wiki/his#Translations	his	his	adjective		x			x			 'his attention': for demonstrating motion to/from an audible or visible that cannot be reached
 	https://en.wiktionary.org/wiki/his#Translations	his	his	determiner		x			x			 'his attention': for demonstrating motion to/from an audible or visible that cannot be reached
-	https://en.wiktionary.org/wiki/one/translations#Numeral	one	one	adjective					x	x		demonstrates counting
-	https://en.wiktionary.org/wiki/two#Translations	two	two	adjective					x	x		demonstrates counting
-	https://en.wiktionary.org/wiki/three#Translations	three	three	adjective					x	x		demonstrates counting
+	https://en.wiktionary.org/wiki/one/translations#Numeral	one	one	numeral					x	x		demonstrates counting
+	https://en.wiktionary.org/wiki/two#Translations	two	two	numeral					x	x		demonstrates counting
+	https://en.wiktionary.org/wiki/three#Translations	three	three	numeral					x	x		demonstrates counting
 	https://en.wiktionary.org/wiki/first#Translations	first	first	adjective					x	x		demonstrates counting
 	https://en.wiktionary.org/wiki/second#Translations	second	second	adjective					x	x		demonstrates counting
 	https://en.wiktionary.org/wiki/third#Translations	third	third	adjective					x	x		demonstrates counting
@@ -39,8 +39,8 @@
 	https://en.wiktionary.org/wiki/broken#Translations	broken	broken	adjective								
 	https://en.wiktionary.org/wiki/hurt#Translations_2	hurt	hurt	adjective								
 	https://en.wiktionary.org/wiki/attention#Translations	attention	attention	noun	x							something that can be directed at arbitrary things
-	https://en.wiktionary.org/wiki/focus#Translations	focus	focus	noun	x							
-	https://en.wiktionary.org/wiki/thought#Translations	thought	thought	noun	x							
+	https://en.wiktionary.org/wiki/focus#Translations	attention	focus	noun	x							
+	https://en.wiktionary.org/wiki/thought#Translations	attention	thought	noun	x							
 	https://en.wiktionary.org/wiki/ball#Translations	ball	ball	noun					x			
 	https://en.wiktionary.org/wiki/bridge#Translations	bridge	bridge	noun					x			
 	https://en.wiktionary.org/wiki/bird#Translations	bird	bird	noun	x				x	x	x	something that can fly
@@ -129,6 +129,7 @@
 	https://en.wiktionary.org/wiki/moon/translations#Noun	moon	moon	noun				x	x		x	needed for highly stable chronological reference for long duration messages
 	https://en.wiktionary.org/wiki/sun/translations#Noun	sun	sun	noun				x	x		x	needed for highly stable chronological reference for long duration messages
 	https://en.wiktionary.org/wiki/Earth#Translations-Q2	earth	earth	noun				x			x	needed for highly stable chronological reference for long duration messages
+	https://en.wiktionary.org/wiki/Earth#Translations-Q2	earth	world	noun				x			x	needed for highly stable chronological reference for long duration messages
 	https://en.wiktionary.org/wiki/Venus#Translations	venus	venus	noun				x				needed for highly stable chronological reference for long duration messages
 	https://en.wiktionary.org/wiki/Mars#Translations	mars	mars	noun				x				needed for highly stable chronological reference for long duration messages
 	https://en.wiktionary.org/wiki/planet#Translations	planet	planet	noun				x				needed for highly stable chronological reference for long duration messages
@@ -179,8 +180,8 @@
 	https://en.wiktionary.org/wiki/come#Translations	appear	come	verb		x				x	x	
 	https://en.wiktionary.org/wiki/ask#Translations	ask	ask	verb					x	x		
 	https://en.wiktionary.org/wiki/be/translations#Verb	be	be	verb		x		x				needed for any copulative statement
-	https://en.wiktionary.org/wiki/break#Translations	break	become-open	verb						x		
-	https://en.wiktionary.org/wiki/open#Translations	open	become-open	verb					x	x		
+	https://en.wiktionary.org/wiki/break#Translations	become-open	break	verb						x		
+	https://en.wiktionary.org/wiki/open#Translations	become-open	open	verb					x	x		
 	https://en.wiktionary.org/wiki/change#Translations	change	change	verb		x						done by most things as a patient
 	https://en.wiktionary.org/wiki/crawl#Translations	climb	crawl	verb		x			x			can be done by most small creatures (e.g. a bug) to traverse most physical things
 	https://en.wiktionary.org/wiki/climb#Translations	climb	climb	verb		x			x			
@@ -194,7 +195,7 @@
 	https://en.wiktionary.org/wiki/anger#Translations	anger	anger	verb		x			x			
 	https://en.wiktionary.org/wiki/eat#Translations	eat	eat	verb		x			x		x	done by most things as an agent, as long as agency is possible
 	https://en.wiktionary.org/wiki/endure#Translations	endure	endure	verb		x						done by most things as a patient
-	https://en.wiktionary.org/wiki/suffer#Translations	suffer	suffer	verb		x						
+	https://en.wiktionary.org/wiki/suffer#Translations	endure	suffer	verb		x						
 	https://en.wiktionary.org/wiki/fall#Translations	fall	fall	verb		x			x		x	done by most physical things as a force
 	https://en.wiktionary.org/wiki/fight#Translations	fight	fight	verb					x			
 	https://en.wiktionary.org/wiki/fix#Translations	fix	fix	verb					x			
