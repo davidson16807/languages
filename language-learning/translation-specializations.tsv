@@ -591,6 +591,7 @@
 	verb	inhabit	inhabit			fr	https://en.wiktionary.org/wiki/habiter#French	habiter	
 	verb	loose	loose			fr	https://en.wiktionary.org/wiki/perdre#French					
 	verb	love	love			fr	https://en.wiktionary.org/wiki/aimer#French	aimer	
+	noun	main-bird	pigeon			fr	https://en.wiktionary.org/wiki/pigeon#French	pigeon	
 	verb	occupy	occupy			fr	https://en.wiktionary.org/wiki/occuper#French	occuper	
 	verb	read	read			fr	https://en.wiktionary.org/wiki/lire#French	lire	
 	verb	receive	receive			fr	https://en.wiktionary.org/wiki/recevoir#French					
@@ -657,6 +658,7 @@
 	adjective	red	red			pt	https://en.wiktionary.org/wiki/vermelho#Portuguese	vermelho	
 	adjective	this	this			pt	https://en.wiktionary.org/wiki/este#Portuguese	este	
 	adverb	now	now			pt	https://en.wiktionary.org/wiki/agora#Portuguese	agora	
+	noun	big-bird	flamingo			pt	https://en.wiktionary.org/wiki/flamingo#Portuguese	flamingo	
 	noun	bug	bee			pt	https://en.wiktionary.org/wiki/abelha#Portuguese	abelha	
 	noun	city	city			pt	https://en.wiktionary.org/wiki/cidade#Portuguese	cidade	
 	noun	clothing	shirt			pt	https://en.wiktionary.org/wiki/camisa#Portuguese	camisa	
@@ -707,6 +709,7 @@
 	adjective	red	red			ro	https://en.wiktionary.org/wiki/ro%C8%99u#Romanian	roșu	
 	adjective	this	this			ro	https://en.wiktionary.org/wiki/acest#Romanian	acest	
 	adverb	now	now			ro	https://en.wiktionary.org/wiki/acum#Romanian	acum	
+	noun	big-bird	flamingo			ro	https://en.wiktionary.org/wiki/flamingo#Romanian	flamingo	
 	noun	bug	bee			ro	https://en.wiktionary.org/wiki/albin%C4%83#Romanian	albină	
 	noun	city	city			ro	https://en.wiktionary.org/wiki/ora%C8%99#Romanian	oraș	
 	noun	clothing	shirt			ro	https://en.wiktionary.org/wiki/c%C4%83ma%C8%99%C4%83#Romanian	cămașă	
@@ -722,6 +725,7 @@
 	numeral	one	one			ro	https://en.wiktionary.org/wiki/unu#Romanian	unu	
 	numeral	three	three			ro	https://en.wiktionary.org/wiki/trei#Romanian	trei	
 	numeral	two	two			ro	https://en.wiktionary.org/wiki/doi#Romanian	doi	
+	verb	appear	come			ro	https://en.wiktionary.org/wiki/veni#Romanian	a veni	
 	verb	choose	choose			ro	https://en.wiktionary.org/wiki/alege#Romanian					
 	verb	come-late	come-late			ro	https://en.wiktionary.org/wiki/%C3%AEnt%C3%A2rzia#Romanian					
 	verb	continue	continue			ro	https://en.wiktionary.org/wiki/continua#Romanian					
@@ -762,69 +766,71 @@
 	adjective	many	many			grc	https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CF%8D%CF%82#Ancient_Greek	πολλοί	
 	adjective	red	red			grc	https://en.wiktionary.org/wiki/%E1%BC%90%CF%81%CF%85%CE%B8%CF%81%CF%8C%CF%82#Ancient_Greek	ἐρυθρός	
 	adjective	this	this			grc	https://en.wiktionary.org/wiki/%CE%BF%E1%BD%97%CF%84%CE%BF%CF%82#Ancient_Greek	οὗτος	
+	adjective 	strong 	strong			grc	https://en.wiktionary.org/wiki/%CE%B3%CE%AF%CE%B3%CE%B1%CF%82	γίγας
 	adverb	now	now			grc	https://en.wiktionary.org/wiki/%CE%BD%E1%BF%A6%CE%BD#Ancient_Greek	νῦν	
-	noun	Apollo	Apollo			grc	https://en.wiktionary.org/wiki/%CE%9F%E1%BC%B0%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82					
-	noun	Ares	Ares			grc	https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B0%CE%B4%CF%8E%CF%82#Ancient_Greek					
-	noun	arrow	arrow			grc	https://en.wiktionary.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%E1%BF%86%CF%82					
-	noun	axe	axe			grc	https://en.wiktionary.org/wiki/%CF%80%CF%8C%CE%BB%CE%B9%CF%82					
-	noun	bone	bone			grc	https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CE%AF%CF%80%CE%BB%CE%BF%CF%85%CF%82					
+	noun	Apollo	Apollo			grc	https://en.wiktionary.org/wiki/%E1%BC%88%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD#Ancient_Greek					
+	noun	Ares	Ares			grc	https://en.wiktionary.org/wiki/%E1%BC%8C%CF%81%CE%B7%CF%82#Ancient_Greek					
+	noun	arrow	arrow			grc	https://en.wiktionary.org/wiki/%CE%B2%CE%AD%CE%BB%CE%BF%CF%82					
+	noun	axe	axe			grc	https://en.wiktionary.org/wiki/%CF%80%CE%AD%CE%BB%CE%B5%CE%BA%CF%85%CF%82					
+	noun	bone	bone			grc	https://en.wiktionary.org/wiki/%E1%BD%80%CF%83%CF%84%CE%AD%CE%BF%CE%BD#Ancient_Greek					
 	noun	bug	bee			grc	https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CE%BB%CE%B9%CF%83%CF%83%CE%B1#Ancient_Greek	μέλισσα	
-	noun	chaff	chaff			grc	https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CF%8E%CF%81					
-	noun	circumnavigation	circumnavigation			grc	https://en.wiktionary.org/wiki/%E1%BD%81%CE%B4%CF%8C%CF%82					
-	noun	city	city			grc	https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82					
+	noun	chaff	chaff			grc	https://en.wiktionary.org/wiki/%E1%BC%80%CE%B8%CE%AE%CF%81					
+	noun	circumnavigation	circumnavigation			grc	https://en.wiktionary.org/wiki/%CF%80%CE%B5%CF%81%CE%AF%CF%80%CE%BB%CE%BF%CF%85%CF%82					
+	noun	tree	tree			grc	https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82					
 	noun	city	city			grc	https://en.wiktionary.org/wiki/%CF%80%CF%8C%CE%BB%CE%B9%CF%82#Ancient_Greek	πόλις	
-	noun	Clio	Clio			grc	https://en.wiktionary.org/wiki/%E1%BC%A0%CF%87%CF%8E					
-	noun	cow	cow			grc	https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%B1%E1%BF%A6%CF%82					
-	noun	crow	crow			grc	https://en.wiktionary.org/wiki/%CE%9A%CE%BB%CE%B5%CE%B9%CF%8E					
-	noun	Demeter	Demeter			grc	https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AE%CF%81					
-	noun	ear	ear			grc	https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82					
+	noun	Clio	Clio			grc	https://en.wiktionary.org/wiki/%CE%9A%CE%BB%CE%B5%CE%B9%CF%8E					
+	noun	cow	cow			grc	https://en.wiktionary.org/wiki/%CE%B2%CE%BF%E1%BF%A6%CF%82					
+	noun	crow	crow			grc	https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B1%CE%BE					
+	noun	Demeter	Demeter			grc	https://en.wiktionary.org/wiki/%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CE%B7%CF%81					
+	noun	ear	ear			grc	https://en.wiktionary.org/wiki/%CE%BF%E1%BD%96%CF%82					
 	noun	earth	earth			grc	https://en.wiktionary.org/wiki/%CE%B3%E1%BF%86#Ancient_Greek	γῆ	
-	noun	echo	echo			grc	https://en.wiktionary.org/wiki/%CE%B2%CE%BF%E1%BF%A6%CF%82					
-	noun	father	father			grc	https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AE%CF%84%CF%89%CF%81					
-	noun	fish	fish			grc	https://en.wiktionary.org/wiki/%E1%BC%A5%CF%81%CF%89%CF%82					
-	noun	foundation	foundation			grc	https://en.wiktionary.org/wiki/%CE%B2%CE%AD%CE%BB%CE%BF%CF%82					
+	noun	echo	echo			grc	https://en.wiktionary.org/wiki/%E1%BC%A0%CF%87%CF%8E					
+	noun	father	father			grc	https://en.wiktionary.org/wiki/%CF%80%CE%B1%CF%84%CE%AE%CF%81					
+	noun	fish	fish			grc	https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CE%B8%CF%8D%CF%82					
+	noun	foundation	foundation			grc	https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CE%B1%CF%86%CE%BF%CF%82#Ancient_Greek					
 	noun	giant	giant			grc	https://en.wiktionary.org/wiki/%CF%84%CE%AC%CF%80%CE%B7%CF%82					
 	noun	gift	present			grc	https://en.wiktionary.org/wiki/%CE%B4%E1%BF%B6%CF%81%CE%BF%CE%BD#Ancient_Greek	δῶρον	
-	noun	Greek	Greek			grc	https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BC%CE%B1					
-	noun	guide	guide			grc	https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%B9%CE%BC%CE%AE%CE%BD					
-	noun	hand	hand			grc	https://en.wiktionary.org/wiki/%CE%BF%E1%BD%96%CF%82					
-	noun	hero	hero			grc	https://en.wiktionary.org/wiki/%E1%BD%80%CF%83%CF%84%CE%BF%E1%BF%A6%CE%BD					
-	noun	ichor	ichor			grc	https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CE%AF%CF%84%CF%89%CE%BD					
-	noun	king	king			grc	https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82#Ancient_Greek	βασιλεύς	
+	noun	Greek	Greek			grc	https://en.wiktionary.org/wiki/%E1%BC%9D%CE%BB%CE%BB%CE%B7%CE%BD					
+	noun	guide	guide			grc	https://en.wiktionary.org/wiki/%E1%BC%A1%CE%B3%CE%B5%CE%BC%CF%8E%CE%BD					
+	noun	hand	hand			grc	https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%AF%CF%81#Ancient_Greek					
+	noun	hero	hero			grc	https://en.wiktionary.org/wiki/%E1%BC%A5%CF%81%CF%89%CF%82					
+	noun	ichor	ichor			grc	https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CF%8E%CF%81					
+	noun	king	king			grc	https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82	
 	noun	knee	knee			grc	https://en.wiktionary.org/wiki/%E1%BC%88%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD					
-	noun	light-ray	light-ray			grc	https://en.wiktionary.org/wiki/%CE%A4%CE%B9%CF%84%CE%AC%CE%BD					
-	noun	liver	liver			grc	https://en.wiktionary.org/wiki/%CE%96%CE%B5%CF%8D%CF%82					
+	noun	light-ray	light-ray			grc	https://en.wiktionary.org/wiki/%E1%BC%80%CE%BA%CF%84%CE%AF%CF%82					
+	noun	liver	liver			grc	https://en.wiktionary.org/wiki/%E1%BC%A7%CF%80%CE%B1%CF%81					
 	noun	log	log			grc	https://en.wiktionary.org/wiki/%CF%83%CF%84%CE%AD%CE%BB%CE%B5%CF%87%CE%BF%CF%82#Ancient_Greek	στέλεχος	
-	noun	master	master			grc	https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CF%84%CF%85					
-	noun	neighbor	neighbor			grc	https://en.wiktionary.org/wiki/%E1%BC%A1%CE%B3%CE%B5%CE%BC%CF%8E%CE%BD					
+	noun	master	master			grc	https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82#Ancient_Greek	βασιλεύς
+	noun	neighbor	neighbor			grc	https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CE%AF%CF%84%CF%89%CE%BD					
 	noun	night	night			grc	https://en.wiktionary.org/wiki/%CE%BD%CF%8D%CE%BE#Ancient_Greek	νύξ	
-	noun	oak	oak			grc	https://en.wiktionary.org/wiki/%E1%BC%B0%CF%87%CE%B8%CF%8D%CF%82					
+	noun	oak	oak			grc	https://en.wiktionary.org/wiki/%CE%B4%CF%81%E1%BF%A6%CF%82					
 	noun	Oedipus	Oedipus			grc	https://en.wiktionary.org/wiki/%CE%98%CE%B1%CE%BB%E1%BF%86%CF%82					
-	noun	old-man	old-man			grc	https://en.wiktionary.org/wiki/%E1%BD%80%CE%B4%CE%BF%CF%8D%CF%82					
-	noun	old-woman	old-woman			grc	https://en.wiktionary.org/wiki/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CF%8D%CF%82					
-	noun	orator	orator			grc	https://en.wiktionary.org/wiki/%E1%BC%80%CE%B8%CE%AE%CF%81					
-	noun	Pericles	Pericles			grc	https://en.wiktionary.org/wiki/%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%B7%CF%82					
-	noun	person	person			grc	https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BC%CE%B7					
-	noun	polity	polity			grc	https://en.wiktionary.org/wiki/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B9%CF%8E%CF%84%CE%B7%CF%82					
-	noun	property	property			grc	https://en.wiktionary.org/wiki/%CE%B3%CE%AD%CF%81%CF%89%CE%BD					
-	noun	rug	rug			grc	https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88					
-	noun	shame	shame			grc	https://en.wiktionary.org/wiki/%E1%BC%94%CE%B4%CE%B1%CF%86%CE%BF%CF%82#Ancient_Greek					
-	noun	shepherd	shepherd			grc	https://en.wiktionary.org/wiki/%E1%BC%80%CE%BA%CF%84%CE%AF%CF%82					
-	noun	ship	ship			grc	https://en.wiktionary.org/wiki/%E1%BC%A7%CF%80%CE%B1%CF%81					
-	noun	Socrates	Socrates			grc	https://en.wiktionary.org/wiki/%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CE%B7%CF%81					
-	noun	soldier	soldier			grc	https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CE%B1%CE%BD%CE%AF%CE%B1%CF%82					
-	noun	street	street			grc	https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82					
+	noun	old-man	old-man			grc	https://en.wiktionary.org/wiki/%CE%B3%CE%AD%CF%81%CF%89%CE%BD					
+	noun	old-woman	old-woman			grc	https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%B1%E1%BF%A6%CF%82					
+	noun	orator	orator			grc	https://en.wiktionary.org/wiki/%E1%BF%A5%CE%AE%CF%84%CF%89%CF%81					
+	noun	other-bird	goose			grc	https://en.wiktionary.org/wiki/%CF%87%CE%AE%CE%BD#Ancient_Greek	χήν	
+	noun	Pericles	Pericles			grc	https://en.wiktionary.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%E1%BF%86%CF%82					
+	noun	person	person			grc	https://en.wiktionary.org/wiki/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82					
+	noun	polity	polity			grc	https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1					
+	noun	property	property			grc	https://en.wiktionary.org/wiki/%CE%BA%CF%84%E1%BF%86%CE%BC%CE%B1					
+	noun	rug	rug			grc	https://en.wiktionary.org/wiki/%CF%84%CE%AC%CF%80%CE%B7%CF%82					
+	noun	shame	shame			grc	https://en.wiktionary.org/wiki/%CE%B1%E1%BC%B0%CE%B4%CF%8E%CF%82#Ancient_Greek
+	noun	shepherd	shepherd			grc	https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%B9%CE%BC%CE%AE%CE%BD					
+	noun	ship	ship			grc	https://en.wiktionary.org/wiki/%CE%BD%CE%B1%E1%BF%A6%CF%82					
+	noun	Socrates	Socrates			grc	https://en.wiktionary.org/wiki/%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%B7%CF%82					
+	noun	soldier	soldier			grc	https://en.wiktionary.org/wiki/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B9%CF%8E%CF%84%CE%B7%CF%82					
+	noun	street	street			grc	https://en.wiktionary.org/wiki/%E1%BD%81%CE%B4%CF%8C%CF%82					
 	noun	Thales	Thales			grc	https://en.wiktionary.org/wiki/%E1%BC%8C%CF%81%CE%B7%CF%82					
-	noun	Titan	Titan			grc	https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%B9%CE%BC%CF%8E%CE%BD					
-	noun	tooth	tooth			grc	https://en.wiktionary.org/wiki/%CE%B3%CE%AF%CE%B3%CE%B1%CF%82					
-	noun	town	town			grc	https://en.wiktionary.org/wiki/%CF%80%CE%AD%CE%BB%CE%B5%CE%BA%CF%85%CF%82					
+	noun	Titan	Titan			grc	https://en.wiktionary.org/wiki/%CE%A4%CE%B9%CF%84%CE%AC%CE%BD					
+	noun	tooth	tooth			grc	https://en.wiktionary.org/wiki/%E1%BD%80%CE%B4%CE%BF%CF%8D%CF%82					
+	noun	town	town			grc	https://en.wiktionary.org/wiki/%E1%BC%84%CF%83%CF%84%CF%85										
 	noun	venus	venus			grc	https://en.wiktionary.org/wiki/%E1%BC%9C%CF%81%CF%89%CF%82#Ancient_Greek	Ἔρως	
-	noun	village	village			grc	https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1					
-	noun	vulture	vulture			grc	https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%81%CE%B1%CE%BE					
-	noun	winter	winter			grc	https://en.wiktionary.org/wiki/%E1%BC%9D%CE%BB%CE%BB%CE%B7%CE%BD					
-	noun	wood	wood			grc	https://en.wiktionary.org/wiki/%CE%B3%CF%8C%CE%BD%CF%85					
-	noun	young-man	young-man			grc	https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek					
-	noun	Zeus	Zeus			grc	https://en.wiktionary.org/wiki/%CE%B4%CF%8C%CF%81%CF%85					
+	noun	village	village			grc	https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BC%CE%B7					
+	noun	vulture	vulture			grc	https://en.wiktionary.org/wiki/%CE%B3%CF%8D%CF%88					
+	noun	winter	winter			grc	https://en.wiktionary.org/wiki/%CF%87%CE%B5%CE%B9%CE%BC%CF%8E%CE%BD					
+	noun	wood	wood			grc	https://en.wiktionary.org/wiki/%CE%B4%CF%8C%CF%81%CF%85					
+	noun	young-man	young-man			grc	https://en.wiktionary.org/wiki/%CE%BD%CE%B5%CE%B1%CE%BD%CE%AF%CE%B1%CF%82					
+	noun	Zeus	Zeus			grc	https://en.wiktionary.org/wiki/%CE%96%CE%B5%CF%8D%CF%82					
 	numeral	one	one			grc	https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B7%CF%82#Ancient_Greek	εἷς	
 	numeral	three	three			grc	https://en.wiktionary.org/wiki/%CF%84%CF%81%CE%B5%E1%BF%96%CF%82#Ancient_Greek	τρεῖς	
 	numeral	two	two			grc	https://en.wiktionary.org/wiki/%CE%B4%CF%8D%CE%BF#Ancient_Greek	δύο	
@@ -933,6 +939,7 @@
 	noun	king	king			kw	https://en.wiktionary.org/wiki/mytern#Cornish	mytern	
 	noun	mars	mars			kw	https://en.wiktionary.org/wiki/Meurth#Cornish	Meurth	
 	noun	night	night			kw	https://en.wiktionary.org/wiki/nos#Cornish	nos	
+	noun	planet	planet			kw	https://en.wiktionary.org/wiki/planet#Cornish	planet	
 	noun	venus	venus			kw	https://en.wiktionary.org/wiki/Gwener#Cornish	Gwener	
 	numeral	three	three			kw	https://en.wiktionary.org/wiki/tri#Cornish	tri	
 	numeral	two	two			kw	https://en.wiktionary.org/wiki/dew#Cornish	dew	
@@ -1067,6 +1074,7 @@
 	numeral	one	one			sa	https://en.wiktionary.org/wiki/%E0%A4%8F%E0%A4%95#Sanskrit	एक	
 	numeral	three	three			sa	https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF#Sanskrit	त्रि	
 	numeral	two	two			sa	https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BF#Sanskrit	द्वि	
+	verb	appear	come			sa	https://en.wiktionary.org/wiki/%E0%A4%97%E0%A4%AE%E0%A4%A4%E0%A4%BF#Sanskrit	गमति	
 	verb	fight	fight			sa	https://en.wiktionary.org/wiki/%E0%A4%AF%E0%A5%81%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A5%87#Sanskrit	युध्यते	
 	verb	heal	heal			sa	https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%BF%E0%A4%B7%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF#Sanskrit	भिषक्ति
 	verb	hear	hear			sa	https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%81#Sanskrit	श्रु	
@@ -1113,6 +1121,7 @@
 	noun	maternal-grandmother	maternal-grandmother			hi	https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%A8%E0%A5%80#Hindi	नानी	
 	noun	paternal-grandfather	paternal-grandfather			hi	https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BE#Hindi	दादा	
 	noun	maternal-grandfather	maternal-grandfather			hi	https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi	नाना	
+	noun	chick	chick			hi	https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%82%E0%A4%9C%E0%A4%BC%E0%A4%BE#Hindi	चूज़ा	
 	noun	clothing	shirt			hi	https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BC%E0%A4%AE%E0%A5%80%E0%A4%9C%E0%A4%BC#Hindi	क़मीज़	
 	noun	earth	earth			hi	https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%83%E0%A4%A5%E0%A5%8D%E0%A4%B5%E0%A5%80#Hindi	पृथ्वी	
 	noun	gift	present			hi	https://en.wiktionary.org/wiki/%E0%A4%89%E0%A4%AA%E0%A4%B9%E0%A4%BE%E0%A4%B0#Hindi	उपहार	
@@ -1125,6 +1134,7 @@
 	numeral	one	one			hi	https://en.wiktionary.org/wiki/%E0%A4%8F%E0%A4%95#Hindi	एक	
 	numeral	three	three			hi	https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%80%E0%A4%A8#Hindi	तीन	
 	numeral	two	two			hi	https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%8B#Hindi	दो	
+	verb	appear	come			hi	https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%A8%E0%A4%BE#Hindi	आना	
 	verb	break	become-open			hi	https://en.wiktionary.org/wiki/%E0%A4%96%E0%A5%81%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi	खुलना	
 	verb	fight	fight			hi	https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%A1%E0%A4%BC%E0%A4%A8%E0%A4%BE#Hindi	लड़ना	
 	verb	hear	hear			hi	https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%81%E0%A4%A8%E0%A4%A8%E0%A4%BE#Hindi	सुनना	
@@ -1186,6 +1196,8 @@
 	noun	maternal-grandfather	grandfather			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9wh%E2%82%82os	*h₂éwh₂os	PIE word shared by old daughter translations (3 branches): hit 𒄷𒄴𒄩𒀸, la avus, txb āwe
 	noun	animal	animal			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/t%C3%A1wros#Proto-Indo-European					
 	noun	attention	attention			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%A9nos#Proto-Indo-European					
+	noun	beast	beast			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0wer-	*ǵʰwer-	PIE root shared by old daughter translations (3 branches): grc θήρ, la fera, cu звѣрь, orv звѣрь
+	noun	big-bird	swan			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0h%E2%82%82%C3%A9ns	*ǵʰh₂éns	PIE word shared by old daughter translations (2 branches): sga géis, sa हंस
 	noun	bird	bird			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9wis#Proto-Indo-European					
 	noun	boat	boat			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%C3%A9h%E2%82%82us#Proto-Indo-European					
 	noun	book	book			ine-pro						
@@ -1208,29 +1220,46 @@
 	noun	father	father			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ph%E2%82%82t%E1%B8%97r#Proto-Indo-European					
 	noun	fight	fight			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%C3%A9h%E2%82%83tus#Proto-Indo-European					
 	noun	fire	fire			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9h%E2%82%82wr%CC%A5#Proto-Indo-European					
-	noun	food	food			ine-pro						
+	noun	fish	fish			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9ysks	*péysks	PIE word shared by old daughter translations (3 branches): got 𐍆𐌹𐍃𐌺𐍃, sga íasc, la piscis, ang fisċ, non fiskr, osx fisk
+	noun	food	food			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ed-	*h₁ed-	PIE root shared by old daughter translations (3 branches): grc εἶδαρ, la esca, sa अन्न
 	noun	gift	gift			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%A9h%E2%82%83nom#Proto-Indo-European					
 	noun	gift	present			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%A9h%E2%82%83nom	*déh₃nom	PIE word shared by old daughter translations (2 branches): la dōnum, sa दान
 	noun	glass	glass			ine-pro						
+	noun	grandfather	grandfather			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9wh%E2%82%82os	*h₂éwh₂os	PIE word shared by old daughter translations (3 branches): hit 𒄷𒄴𒄩𒀸, la avus, txb āwe
 	noun	guard	guard			ine-pro	#	*péh₂-s-tōr	~	*ph₂-s-tr-és		
+	noun	heat	heat			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%CA%B0r%CC%A5n%C3%B3s	*gʷʰr̥nós	PIE word shared by old daughter translations (1 branch): sa घृण
+	noun	hill	hill			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0%C3%A9r%C7%B5%CA%B0os	bʰérǵʰos	PIE root shared by old daughter translations (2 branches): got 𐌷𐌻𐌰𐌹𐌽𐌴, la clivus
 	noun	horse	horse			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9%E1%B8%B1wos#Proto-Indo-European					
 	noun	house	house			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%E1%B9%93m#Proto-Indo-European					
+	noun	human	human			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0m%E1%B9%93	*ǵʰmṓ	PIE word shared by old daughter translations (2 branches): got 𐌼𐌰𐌽𐌽𐌰, la homō, ang mann, non maðr
 	noun	idea	idea			ine-pro						
 	noun	king	king			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83r%E1%B8%97%C7%B5s	*h₃rḗǵs	PIE word shared by old daughter translations (2 branches): sga rí, la rēx
+	noun	language	language			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dn%CC%A5%C7%B5%CA%B0w%C3%A9h%E2%82%82s	*dn̥ǵʰwéh₂s	PIE word shared by old daughter translations (5 branches): ae 𐬵𐬌𐬰𐬎𐬎𐬁, la lingua, cu ѩзꙑкъ, orv ѧзꙑкъ, non tunga, peo 𐏃𐏀𐎠, xto käntu, txb kantwo
 	noun	livestock	livestock			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9%E1%B8%B1u#Proto-Indo-European					
-	noun	love	love			ine-pro						
+	noun	love	love			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/lewb%CA%B0-	*preyH-	PIE root shared by old daughter translations (2 branches): got 𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰, sa प्रेमन्
 	noun	man	man			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wiHr%C3%B3s#Proto-Indo-European					
 	noun	mare	mare			ine-pro						
 	noun	mars	mars			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81rud%CA%B0r%C3%B3s	*h₁rudʰrós	PIE word shared by old daughter translations (1 branch): sa रुधिर
 	noun	metal	metal			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9yos	*h₂éyos	PIE word shared by old daughter translations (1 branch): sa अयस्
+	noun	moon	moon			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%E1%B8%97h%E2%82%81n%CC%A5s	*mḗh₁n̥s	PIE word shared by old daughter translations (4 branches): got 𐌼𐌴𐌽𐌰, cu мѣсѧць, ang mōna, non máni, peo 𐎶𐎠𐏃, xto mañ, txb meñe
 	noun	money	money			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7oyn%C3%A9h%E2%82%82#Proto-Indo-European	#	"""payment"""			
 	noun	monster	monster			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3g%CA%B7%CA%B0is#Proto-Indo-European					
 	noun	moon	moon			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%E1%B8%97h%E2%82%81n%CC%A5s	*mḗh₁n̥s	PIE word shared by old daughter translations (4 branches): got 𐌼𐌴𐌽𐌰, cu мѣсѧць, ang mōna, non máni, peo 𐎶𐎠𐏃, xto mañ, txb meñe
+	noun	mother	mother			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%A9h%E2%82%82t%C4%93r	*méh₂tēr	PIE word shared by old daughter translations (6 branches): ae 𐬨𐬁𐬙𐬀𐬭, grc μήτηρ, gmy 𐀔𐀳, sga máthir, la māter, ang mōdor, peo 𐎶𐎠𐎫𐎠, xto mācar, txb mācer
 	noun	name	name			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81n%C3%B3mn%CC%A5#Proto-Indo-European					
+	noun	nest	nest			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/nisd%C3%B3s	*nisdós	PIE word shared by old daughter translations (3 branches): la nīdus, cu гнѣздо, ang nest
 	noun	night	night			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%C3%B3k%CA%B7ts	*nókʷts	PIE word shared by old daughter translations (5 branches): got 𐌽𐌰𐌷𐍄𐍃, grc νύξ, la nox, cu нощь, ang niht, non nátt, sa नक्त्
+	noun	other-bird	goose			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0h%E2%82%82%C3%A9ns	*ǵʰh₂éns	PIE word shared by old daughter translations (4 branches): goh gans, grc χήν, la ānser, ang gōs, sa हंस
+	noun	other	other			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9lyos	*h₂élyos	no old-language translations for this sense; used the "other" result. PIE word shared by old daughter translations (5 branches): got 𐌰𐌻𐌾𐌹𐍃, grc ἄλλος, sga aile, la alius, sa अन्य॑
+	noun	river	river			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ep-	*h₂ep-	PIE root shared by old daughter translations (2 branches): sga aub, la amnis
 	noun	rock	rock			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%E1%B8%B1m%C5%8D#Proto-Indo-European					
 	noun	rope	rope			ine-pro						
 	noun	sea	sea			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%B3ri#Proto-Indo-European					
+	noun	summer	summer			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/semh%E2%82%82-	*semh₂-	PIE root shared by old daughter translations (2 branches): xcl ամառն, sa ग्रीष्म
+	noun	spring	spring			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%B3sr%CC%A5	*wósr̥	PIE word shared by old daughter translations (4 branches): la vēr, cu весна, non vár, sa वसन्त
+	noun	autumn	autumn			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)h%E2%82%81es-	*(s)h₁es-	PIE root shared by old daughter translations (2 branches): grc ὀπώρα, cu ѥсень, orv осень, prg assanis
+	noun	winter	winter			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0%C3%A9y%C5%8Dm	*ǵʰéyōm	PIE word shared by old daughter translations (3 branches): ae 𐬰𐬌𐬌𐬃, mga gemred, la hiems, sa हिम
+jõči
 	noun	seed	seed			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%C3%A9nh%E2%82%81mn%CC%A5#Proto-Indo-European					
 	noun	sister	sister			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sw%C3%A9s%C5%8Dr#Proto-Indo-European					
 	noun	size	size			ine-pro						
@@ -1239,12 +1268,15 @@
 	noun	star	star			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82st%E1%B8%97r	*h₂stḗr	PIE word shared by old daughter translations (7 branches): xcl աստղ, goh sterno, got 𐍃𐍄𐌰𐌹𐍂𐌽𐍉, grc ἀστήρ, hit 𒄩𒀸𒋼𒅕𒍝, la stēlla, ang steorra, non stjarna, sa तारा, xto śre, txb ścirye
 	noun	stone	stone			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%E1%B8%B1m%C5%8D#Proto-Indo-European					
 	noun	sun	sun			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C3%B3h%E2%82%82wl%CC%A5	*sóh₂wl̥	PIE word shared by old daughter translations (3 branches): grc ἥλιος, la sōl, sa सूर्य
+	noun	town	town			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0%C3%A9r%C7%B5%CA%B0s	*bʰérǵʰs	PIE word shared by old daughter translations (1 branch): goh burg, ang burg
+	noun	tree	tree			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%B3ru	*dóru	PIE word shared by old daughter translations (5 branches): grc δένδρον, hit 𒋫𒀀𒊒, cu дрѣво, ang trēow, non tré, sa द्रुम
 	noun	venus	venus			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ews-	*h₂ews-	PIE root shared by old 
 	noun	warmth	warmth			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%CA%B0%C3%A9ros#Proto-Indo-European					
 	noun	water	water			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9k%CA%B7eh%E2%82%82#Proto-Indo-European					
 	noun	way	way			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9ytr%CC%A5#Proto-Indo-European					
 	noun	wind	wind			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82w%C3%A9h%E2%82%81n%CC%A5ts#Proto-Indo-European					
 	noun	window	window			ine-pro						
+	noun	wood	wood			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%B3ru	*dóru	PIE word shared by old daughter translations (2 branches): sa दारु, xto or, txb or
 	noun	wolf	wolf			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C4%BA%CC%A5k%CA%B7os#Proto-Indo-European					
 	noun	woman	woman			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%E1%B8%97n#Proto-Indo-European					
 	noun	work	work			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%A9r%C7%B5om#Proto-Indo-European					
@@ -1252,6 +1284,7 @@
 	numeral	one	one			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3ynos	*h₁óynos	PIE word shared by old daughter translations (5 branches): ofs ēn, got 𐌰𐌹𐌽𐍃, sga óen, la ūnus, ang ān, non einn, prg ains, sa एक, xum 𐌖𐌍𐌖
 	numeral	three	three			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tr%C3%A9yes	*tréyes	PIE word shared by old daughter translations (8 branches): ofs thrē, got 𐌸𐍂𐌴𐌹𐍃, grc τρεῖς, hit 𒐈𒂊𒌍, sga trí, la trēs, cu триѥ, ang þrī, osc 𐌕𐌓𐌝𐌔, sa त्रि, xto tre, txb trai
 	numeral	two	two			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dw%C3%B3h%E2%82%81	*dwóh₁	PIE word shared by old daughter translations (5 branches): got 𐍄𐍅𐌰𐌹, sga dá, la duo, cu дъва, orv дъва, ang twēġen, xto wu, txb wi, xum 𐌕𐌖𐌚
+	verb	appear	come			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%C3%A9mt	*gʷémt	PIE word shared by old daughter translations (2 branches): got 𐌵𐌹𐌼𐌰𐌽, ang cuman, osx kuman, sa गमति
 	verb	appear	appear			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81lud%CA%B0%C3%A9t#Proto-Indo-European	#	"""arrive"""			
 	verb	arrive	arrive			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81lud%CA%B0%C3%A9t#Proto-Indo-European					
 	verb	ask	ask			ine-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pr%CC%A5s%E1%B8%B1%C3%A9ti#Proto-Indo-European					
@@ -1320,6 +1353,7 @@
 	numeral	one	one			eo	https://en.wiktionary.org/wiki/unu#Esperanto	unu	
 	numeral	three	three			eo	https://en.wiktionary.org/wiki/tri#Esperanto	tri	
 	numeral	two	two			eo	https://en.wiktionary.org/wiki/du#Esperanto	du	
+	verb	appear	come			eo	https://en.wiktionary.org/wiki/veni#Esperanto	veni	
 	verb	break	become-open			eo	https://en.wiktionary.org/wiki/malfermi%C4%9Di#Esperanto	malfermiĝi	
 	verb	endure	suffer			eo	https://en.wiktionary.org/wiki/suferi#Esperanto	suferi	
 	verb	fight	fight			eo	https://en.wiktionary.org/wiki/batali#Esperanto	batali	
@@ -1349,7 +1383,9 @@
 	adjective	many	many			io	https://en.wiktionary.org/wiki/multa#Ido	multa	
 	adjective	red	red			io	https://en.wiktionary.org/wiki/reda#Ido	reda	
 	adjective	this	this			io	https://en.wiktionary.org/wiki/ica#Ido	ico	
+	noun	big-bird	flamingo			io	https://en.wiktionary.org/wiki/flamingo#Ido	flamingo	
 	noun	bug	bee			io	https://en.wiktionary.org/wiki/abelo#Ido	abelo	
+	noun	chick	chick			io	https://en.wiktionary.org/wiki/hanyuno#Ido	hanyuno	
 	noun	city	city			io	https://en.wiktionary.org/wiki/urbo#Ido	urbo	
 	noun	clothing	shirt			io	https://en.wiktionary.org/wiki/kamizo#Ido	kamizo	
 	noun	earth	earth			io	https://en.wiktionary.org/wiki/Tero#Ido	Tero	
@@ -1360,6 +1396,7 @@
 	numeral	one	one			io	https://en.wiktionary.org/wiki/un#Ido	un	
 	numeral	three	three			io	https://en.wiktionary.org/wiki/tri#Ido	tri	
 	numeral	two	two			io	https://en.wiktionary.org/wiki/du#Ido	du	
+	verb	appear	come			io	https://en.wiktionary.org/wiki/venar#Ido	venar	
 	verb	endure	suffer			io	https://en.wiktionary.org/wiki/sufrar#Ido	sufrar	
 	verb	heal	heal			io	https://en.wiktionary.org/wiki/risanigar#Ido	risanigar	
 	verb	hear	hear			io	https://en.wiktionary.org/wiki/audar#Ido	audar	
@@ -1376,6 +1413,7 @@
 	adjective	many	many			fi	https://en.wiktionary.org/wiki/moni#Finnish	moni	
 	adjective	red	red			fi	https://en.wiktionary.org/wiki/punainen#Finnish	punainen	
 	determiner	this	this			fi	https://en.wiktionary.org/wiki/t%C3%A4m%C3%A4#Finnish	tämä	
+	noun	big-bird	flamingo			fi	https://en.wiktionary.org/wiki/flamingo#Finnish	flamingo	
 	noun	bug	bee			fi	https://en.wiktionary.org/wiki/mehil%C3%A4inen#Finnish	mehiläinen	
 	noun	city	city			fi	https://en.wiktionary.org/wiki/kaupunki#Finnish	kaupunki	
 	noun	paternal-grandmother	paternal-grandmother			fi	https://en.wiktionary.org/wiki/is%C3%A4n%C3%A4iti#Finnish	isänäiti	
@@ -1473,6 +1511,7 @@
 	noun	paternal-grandmother	paternal-grandmother			tr	https://en.wiktionary.org/wiki/babaanne#Turkish	babaanne	
 	noun	maternal-grandmother	maternal-grandmother			tr	https://en.wiktionary.org/wiki/anneanne#Turkish	anneanne	
 	noun	paternal-grandfather	paternal-grandfather			tr	https://en.wiktionary.org/wiki/b%C3%BCy%C3%BCkbaba#Turkish	büyükbaba	
+	noun	chick	chick			tr	https://en.wiktionary.org/wiki/civciv#Turkish	civciv	
 	noun	clothing	shirt			tr	https://en.wiktionary.org/wiki/g%C3%B6mlek#Turkish	gömlek	
 	noun	earth	earth			tr	https://en.wiktionary.org/wiki/D%C3%BCnya#Turkish	Dünya	
 	noun	gift	present			tr	https://en.wiktionary.org/wiki/hediye#Turkish	hediye	
@@ -1563,6 +1602,7 @@
 	numeral	one	one			he	https://en.wiktionary.org/wiki/%D7%90%D7%97%D7%AA#Hebrew	אַחַת	
 	numeral	three	three			he	https://en.wiktionary.org/wiki/%D7%A9%D7%9C%D7%95%D7%A9#Hebrew	שָׁלוֹשׁ	
 	numeral	two	two			he	https://en.wiktionary.org/wiki/%D7%A9%D7%AA%D7%99%D7%99%D7%9D#Hebrew	שתיים / שְׁתַּיִם	
+	verb	appear	come			he	https://en.wiktionary.org/wiki/%D7%91%D7%90#Hebrew	בָּא	
 	verb	endure	suffer			he	https://en.wiktionary.org/wiki/%D7%A1%D7%91%D7%9C#Hebrew	סבל	
 	verb	hear	hear			he	https://en.wiktionary.org/wiki/%D7%A9%D7%9E%D7%A2#Hebrew	שָׁמַע	
 	verb	heat	heat			he	https://en.wiktionary.org/wiki/%D7%97%D7%99%D7%9E%D7%9D#Hebrew	חימם	
@@ -1630,9 +1670,12 @@
 	numeral	three	three			akk	https://en.wiktionary.org/wiki/%C5%A1al%C4%81%C5%A1at#Akkadian	𒐈	
 	numeral	two	two			akk	https://en.wiktionary.org/wiki/%C5%A1in%C4%81#Akkadian	𒈫	
 	numeral	one	one			xpu	https://en.wiktionary.org/wiki/%F0%90%A4%80%F0%90%A4%87%F0%90%A4%83#Punic	𐤀𐤇𐤃	
+	verb	appear	come			xpu	https://en.wiktionary.org/wiki/%F0%90%A4%81%F0%90%A4%80#Punic	𐤁𐤀	
 	determiner	this	this			egy	https://en.wiktionary.org/wiki/pj#Egyptian	pj	
 	noun	earth	earth			egy	https://en.wiktionary.org/wiki/gbb#Egyptian	gbb	
+	noun	other-bird	goose			egy	https://en.wiktionary.org/wiki/srw#Egyptian	srw	
 	adjective	red	red			ja	https://en.wiktionary.org/wiki/%E8%B5%A4%E3%81%84#Japanese	赤い	
+	verb	appear	come			akk	https://en.wiktionary.org/wiki/al%C4%81kum#Akkadian	alākum	
 	adverb	now	now			ja	https://en.wiktionary.org/wiki/%E4%BB%8A#Japanese	今	
 	noun	bug	bee			ja	https://en.wiktionary.org/wiki/%E8%9C%82#Japanese	蜂	
 	noun	city	city			ja	https://en.wiktionary.org/wiki/%E9%83%BD%E5%B8%82#Japanese	都市	
@@ -1715,6 +1758,7 @@
 	adverb	now	now			eu	https://en.wiktionary.org/wiki/orain#Basque	orain	
 	determiner	this	this			eu	https://en.wiktionary.org/wiki/hau#Basque	hau	
 	noun	bug	bee			eu	https://en.wiktionary.org/wiki/erle#Basque	erle	
+	noun	chick	chick			eu	https://en.wiktionary.org/wiki/txita#Basque	txita	
 	noun	city	city			eu	https://en.wiktionary.org/wiki/hiri#Basque	hiri	
 	noun	clothing	shirt			eu	https://en.wiktionary.org/wiki/alkandora#Basque	alkandora	
 	noun	earth	earth			eu	https://en.wiktionary.org/wiki/Lurra#Basque	Lurra	
@@ -1725,6 +1769,8 @@
 	numeral	one	one			eu	https://en.wiktionary.org/wiki/bat#Basque	bat	
 	numeral	three	three			eu	https://en.wiktionary.org/wiki/hiru#Basque	hiru	
 	numeral	two	two			eu	https://en.wiktionary.org/wiki/bi#Basque	bi	
+	verb	appear	arrive			eu	https://en.wiktionary.org/wiki/heldu#Basque	heldu	
+	verb	appear	come			eu	https://en.wiktionary.org/wiki/etorri#Basque	etorri	
 	verb	hear	hear			eu	https://en.wiktionary.org/wiki/entzun#Basque	entzun	
 	verb	love	love			eu	https://en.wiktionary.org/wiki/maite_izan#Basque	maite izan	
 	verb	read	read			eu	https://en.wiktionary.org/wiki/irakurri#Basque	irakurri	
@@ -1745,6 +1791,7 @@
 	adverb	now	now			nv	https://en.wiktionary.org/wiki/k%CA%BCad#Navajo	kʼad	
 	determiner	this	this			nv	https://en.wiktionary.org/wiki/d%C3%AD%C3%AD#Navajo	díí	
 	noun	bug	bee			nv	https://en.wiktionary.org/wiki/ts%C3%ADs%CA%BCn%C3%A1#Navajo	tsísʼná	
+	noun	chick	chick			nv	https://en.wiktionary.org/wiki/naa%CA%BCah%C3%B3%C3%B3hai_biy%C3%A1zh%C3%AD#Navajo	naaʼahóóhai biyázhí	
 	noun	clothing	shirt			nv	https://en.wiktionary.org/wiki/deiji%CA%BC_%C3%A9%C3%A9%CA%BC#Navajo	deijiʼ ééʼ	
 	noun	earth	earth			nv	https://en.wiktionary.org/wiki/nahasdz%C3%A1%C3%A1n#Navajo	nahasdzáán	
 	noun	paternal-grandmother	paternal-grandmother			nv	https://en.wiktionary.org/wiki/an%C3%A1l%C3%AD_asdz%C4%85%CC%81%C4%85%CC%81#Navajo	análí asdzą́ą́	
@@ -1795,13 +1842,28 @@
 	adjective	this	this	https://en.wiktionary.org/wiki/this#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%E1%B8%8FV-	*ḏV-	Proto-Semitic word traced from daughter translations (3 branches: Ethiopic, Northwest Semitic, Arabic) — am ይህ, he זֶה, mt dan
 	determiner	this	this	https://en.wiktionary.org/wiki/this#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%E1%B8%8FV-	*ḏV-	Proto-Semitic word traced from daughter translations (3 branches: Ethiopic, Northwest Semitic, Arabic) — am ይህ, he זֶה, mt dan
 	determiner	this	this	https://en.wiktionary.org/wiki/this#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%E1%B8%8FV-	*ḏV-	Proto-Semitic word traced from daughter translations (3 branches: Ethiopic, Northwest Semitic, Arabic) — am ይህ, he זֶה, mt dan
+	noun	beast	beast	https://en.wiktionary.org/wiki/beast#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%94arway-	*ʔarway-	Proto-Semitic word traced from daughter translations (1 branch: Ethiopic) — am አውሬ
+	noun	big-bird	eagle	https://en.wiktionary.org/wiki/eagle#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/na%C5%A1r-	*našr-	Proto-Semitic word traced from daughter translations (1 branch: Ethiopic) — ti ንስሪ
 	noun	city	city	https://en.wiktionary.org/wiki/city#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%94ahl-	*ʔahl-	Proto-Semitic word traced from daughter translations (1 branch: Northwest Semitic) — phn 𐤀𐤄𐤋
+	noun	day	day	https://en.wiktionary.org/wiki/day/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/yawm-	*yawm-	Proto-Semitic word traced from 
 	noun	earth	earth			sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%94ar%E1%B9%A3%CC%81-	*ʔarṣ́-	Proto-Semitic word traced from daughter translations (1 branch: Northwest Semitic) — aii ܐܲܪܥܵܐ, he אֶרֶץ
+	noun	food	food	https://en.wiktionary.org/wiki/food#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%94akal-	*ʔakal-	Proto-Semitic word traced from daughter translations (1 branch: Northwest Semitic) — arc אוכלא, uga 𐎀𐎋𐎍
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/tall-	*tall-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar تَلّ, he תֵּל
+	noun	human	human	https://en.wiktionary.org/wiki/human#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%94in%C4%81%C5%A1-	*ʔināš-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar إِنْسَان, aii ܐ݇ܢܵܫܵܐ, arc אנשא
 	noun	king	king	https://en.wiktionary.org/wiki/king/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/malk-	*malk-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar مَلِك, syc ܡܠܟܐ, arc מַלְכָּא, he מֶלֶךְ, phn 𐤌𐤋𐤊, uga 𐎎𐎍𐎋
+	noun	language	language	https://en.wiktionary.org/wiki/language/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/li%C5%A1%C4%81n-	*lišān-	Proto-Semitic word traced from daughter translations (4 branches: Ethiopic, Arabic, Northwest Semitic, Old South Arabian) — am ልሳን, ar لِسَان, arc לִשָּׁנָא, gez ልሳን, he לָשׁוֹן, 
+	noun	main-bird	dove	https://en.wiktionary.org/wiki/dove#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%C5%A1awm%C4%81n-	*šawmān-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar حَمَام, he יוֹנָה
+	noun	main-bird	pigeon	https://en.wiktionary.org/wiki/pigeon#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%C5%A1awm%C4%81n-	*šawmān-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar حَمَامَة, he יוֹנָה
+	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%E1%B8%A1urayb-	*ḡurayb-	Proto-Semitic word traced from daughter translations (3 branches: Ethiopic, Arabic, Northwest Semitic) — am ቁራ, ar غُرَاب, he עוֹרֵב
 	noun	moon	moon	https://en.wiktionary.org/wiki/moon/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/war%E1%B8%AB-	*warḫ-	Proto-Semitic word traced from daughter translations (2 branches: Northwest Semitic, Ethiopic) — he יָרֵחַ, phn 𐤉𐤓𐤇, xpu 𐤉𐤓𐤇, ti ወርሒ, uga 𐎊𐎗𐎃
+	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%94imm-	*ʔimm-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar أُمّ, syc ܐܡܐ, arc אִמָּא, he אֵם, uga 𐎜𐎎
 	noun	night	night	https://en.wiktionary.org/wiki/night/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/laylay-	*laylay-	Proto-Semitic word traced from daughter translations (3 branches: Ethiopic, Arabic, Northwest Semitic) — am ሌት, ar لَيْلَة, syc ܠܠܝܐ, gez ሌሊት, he לַיְלָה, mt lejl, phn 𐤋𐤋, ti ለይቲ, uga 𐎍𐎍
+	noun	planet	planet	https://en.wiktionary.org/wiki/planet#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/kabkab-	*kabkab-	Proto-Semitic word traced from daughter translations (1 branch: Arabic) — ar كَوْكَب
+	noun	river	river	https://en.wiktionary.org/wiki/river/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/nahar-	*nahar-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar نَهْر, syc ܢܗܪܐ, arc נַהֲרָא, he נָהָר, uga 𐎐𐎅𐎗
+	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%E1%B8%A5abl-	*ḥabl-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar حَبْل, he חֶבֶל, mt ħabel, uga 𐎈𐎁𐎍
 	noun	star	star	https://en.wiktionary.org/wiki/star/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/kabkab-	*kabkab-	Proto-Semitic word traced from daughter translations (3 branches: Ethiopic, Arabic, Northwest Semitic) — am ኮከብ, ar كوكب, syc ܟܘܟܒܐ, arc כוכבא, gez ኮከብ, he כּוֹכָב, phn 𐤊𐤊𐤁, ti ኮኾብ, uga 
 	noun	sun	sun	https://en.wiktionary.org/wiki/sun/translations#Noun		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%C5%9Bam%C5%A1-	*śamš-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar شَمْس, aii ܫܡܫܐ, syc ܫܡܫܐ, he שֶׁמֶשׁ, phn 𐤔𐤌𐤔
+	noun	tree	tree	https://en.wiktionary.org/wiki/tree#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%95i%E1%B9%A3%CC%81-	*ʕiṣ́-	Proto-Semitic word traced from daughter translations (2 branches: Ethiopic, Northwest Semitic) — gez ዕፅ, he עֵץ, uga 𐎓𐎕
 	noun	venus	venus	https://en.wiktionary.org/wiki/Venus#Translations		sem-pro	https://en.wiktionary.org/wiki/
 	numeral	one	one	https://en.wiktionary.org/wiki/one/translations#Numeral		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%94a%E1%B8%A5ad-	*ʔaḥad-	Proto-Semitic word traced from daughter translations (3 branches: Ethiopic, Arabic, Northwest Semitic) — am አንድ, ar وَاحِد, aii ܚܲܕ݇, syc ܚܕ, arc חַד, gez አሐዱ, he אַחַת, tig ሐቴ, ti ሓደ
 	numeral	three	three	https://en.wiktionary.org/wiki/three#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%E1%B9%AFal%C4%81%E1%B9%AF-	*ṯalāṯ-	Proto-Semitic word traced from daughter translations (4 branches: East Semitic, Ethiopic, Arabic, Northwest Semitic) — akk šalāšat, am ሦስት, ar ثَلَاثَة, aii ܬܠܵܬܵܐ, arc תְּלָתָא, syc ܬܠܬܐ, gez ሠለስቱ, he שָׁלוֹשׁ, tig ሰለስ, ti ሰለስተ
@@ -1811,24 +1873,43 @@
 	verb	read	read	https://en.wiktionary.org/wiki/read#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%E1%B8%B3ara%CA%94-	*ḳaraʔ-	Proto-Semitic word traced from daughter translations (2 branches: Arabic, Northwest Semitic) — ar قَرَأَ, he קָרָא
 	verb	throw	throw	https://en.wiktionary.org/wiki/throw#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/ramay-	*ramay-	Proto-Semitic word traced from daughter translations (1 branch: Arabic) — ar رَمَى
 	verb	walk	walk	https://en.wiktionary.org/wiki/walk#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/halak-	*halak-	Proto-Semitic word traced from daughter translations (1 branch: Northwest Semitic) — aii ܗܲܠܸܟ݂, syc ܗܠܟ, he הָלַךְ
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations		sem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/%CA%95i%E1%B9%A3%CC%81-	*ʕiṣ́-	Proto-Semitic word traced from daughter translations (2 branches: Ethiopic, Northwest Semitic) — am እንጨት, tmr אָעָא, he עֵץ, uga 𐎓𐎕
+	noun	day	day	https://en.wiktionary.org/wiki/day/translations#Noun		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/p%C3%A4jw%C3%A4	*päjwä	Proto-Uralic word traced 
 	adjective	other	other	https://en.wiktionary.org/wiki/other#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/mu	*mu	Proto-Uralic word traced from daughter translations (2 branches: Finnic, Hungarian) — fi muu, hu más
 	adjective	this	this	https://en.wiktionary.org/wiki/this#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/t%C3%A4	*tä	Proto-Uralic word traced from daughter translations (2 branches: Mordvinic, Finnic) — myv те, fi tämä, izh tämä, mdf тя
 	determiner	other	other	https://en.wiktionary.org/wiki/other#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/mu	*mu	no daughter translations for this sense; used the "other" result. Proto-Uralic word traced from daughter translations (2 branches: Finnic, Hungarian) — fi muu, hu más
 	determiner	this	this	https://en.wiktionary.org/wiki/this#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/t%C3%A4	*tä	Proto-Uralic word traced from daughter translations (2 branches: Mordvinic, Finnic) — myv те, fi tämä, izh tämä, mdf тя
+	noun	summer	summer	https://en.wiktionary.org/wiki/summer#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/kes%C3%A4	*kesä	Proto-Uralic word traced from daughter translations (3 branches: Mordvinic, Finnic, Sami) — myv кизэ, fi kesä, izh kesä, mdf киза, se geassi, sms ǩieʹss, vep keza
+	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/towke	*towke	Proto-Uralic word traced from daughter translations (3 branches: Mordvinic, Hungarian, Permic) — myv тундо, hu tavasz, koi тулыс, kpv тулыс, mdf тунда, udm тулыс
+	noun	autumn	autumn	https://en.wiktionary.org/wiki/autumn#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/s%C3%BCk%C5%9Be	*sükśe	Proto-Uralic word traced from daughter translations (6 branches: Mordvinic, Finnic, Hungarian, Mari, Sami, Permic) — myv сёксь, et sügis, fi syksy, hu ősz, izh syksy, olo sygyzy, mhr шыже, mrj шӹжӹ, mdf сёксе, smn čohčâ, sjd че̄ххч, se čakča, sms čõhčč, sjt чаккч, udm сӥзьыл, vot süčüzü
+	noun	big-bird	eagle	https://en.wiktionary.org/wiki/eagle#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/ko%C4%8Dka	*kočka	Proto-Uralic word traced from daughter translations (3 branches: Mordvinic, Finnic, Sami) — myv куцькан, et kotkas, fi kotka, olo kotku, smn kuáskim, sjd куэццькэмь, smj goasskem, se 
+	noun	big-bird	swan	https://en.wiktionary.org/wiki/swan#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/jo%C5%8Bk%C4%87e	*joŋkće	Proto-Uralic word traced from daughter translations (5 branches: Mordvinic, Finnic, Permic, Mari, Sami) — myv локсей, fi joutsen, izh joutsen, kpv юсь, mhr йӱксӧ, sjd нюххч, smj 
 	noun	bug	bee	https://en.wiktionary.org/wiki/bee#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/mek%C5%A1e	*mekše	Proto-Uralic word traced from daughter translations (4 branches: Mordvinic, Finnic, Hungarian, Permic) — myv мекш, fi mehiläinen, hu méh, izh mehiläin, udm муш
 	noun	bug	louse	https://en.wiktionary.org/wiki/louse#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/t%C3%A4je	*täje	Proto-Uralic word traced from daughter translations (3 branches: Finnic, Hungarian, Permic) — et täi, fi täi, hu tetű, izh täi, liv tei, udm тэй
 	noun	city	city	https://en.wiktionary.org/wiki/city#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/kare	*kare	Proto-Uralic word traced from daughter translations (1 branch: Permic) — koi кар, kpv кар, udm кар
 	noun	clothing	clothing	https://en.wiktionary.org/wiki/clothing#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/%C5%9Bopa	*śopa	Proto-Uralic word traced from daughter translations (1 branch: Finnic) — vep soba
 	noun	earth	earth			urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/m%C3%ABxe	*mëxe	Proto-Uralic word traced from daughter translations (1 branch: Permic) — koi му, udm му
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/kala	*kala	Proto-Uralic word traced from daughter translations (6 branches: Mordvinic, Finnic, Hungarian, Mari, Samoyedic, Sami) — myv кал, et kala, fi kala, hu hal, izh kala, krl kala, liv kalā, lud kala, mhr 
 	noun	gift	gift	https://en.wiktionary.org/wiki/gift#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/ka%C4%87a-	*kaća-	Proto-Uralic word traced from daughter translations (1 branch: Permic) — udm кузьым
 	noun	gift	present	https://en.wiktionary.org/wiki/present#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/ka%C4%87a-	*kaća-	Proto-Uralic word traced from daughter translations (1 branch: Permic) — udm кузьым
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/%C3%A4jj%C3%A4	*äjjä	Proto-Uralic word traced from daughter translations (2 branches: Finnic, Sami) — izh äijä, se áddjá, sms äʹjj
+	noun	language	language	https://en.wiktionary.org/wiki/language/translations#Noun		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/k%C3%A4le	*käle	Proto-Uralic word traced from daughter translations (5 branches: Mordvinic, Finnic, Permic, Samoyedic, Sami) — myv кель, et keel, fi kieli, izh keeli, krl kieli, koi кыв, kpv 
+	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/war%E1%B4%88	*warᴈ	Proto-Uralic word traced from daughter translations (4 branches: Mordvinic, Finnic, Hungarian, Sami) — myv варака, et vares, fi varis, hu varjú, izh varis, mdf варси, smn vuorâš, se 
 	noun	moon	moon	https://en.wiktionary.org/wiki/moon/translations#Noun		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/ku%C5%8Be	*kuŋe	Proto-Uralic word traced from daughter translations (3 branches: Mordvinic, Finnic, Hungarian) — myv ков, et kuu, hu Hold, mdf ков
+	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/a%C5%84a	*ańa	Proto-Uralic word traced from daughter translations (2 branches: Hungarian, Permic) — hu anya, kpv ань
+	noun	nest	nest	https://en.wiktionary.org/wiki/nest#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/pes%C3%A4	*pesä	Proto-Uralic word traced from daughter translations (5 branches: Mordvinic, Finnic, Hungarian, Permic, Mari) — myv пизэ, et pesa, fi pesä, hu fészek, izh pesä, krl pezä, kpv поз, liv piezā, lud 
 	noun	night	night	https://en.wiktionary.org/wiki/night/translations#Noun		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/%C3%BCje	*üje	Proto-Uralic word traced from daughter translations (5 branches: Mordvinic, Finnic, Hungarian, Sami, Permic) — myv ве, et öö, fi yö, hu éj, izh öö, liv īe, mdf ве, smn ijjâ, sjd ыйй, smj idja, se idja, sje ijja, sma jïjje, sju jïjja, udm уй, vep ö, vro üü, vot üü
+	noun	other-bird	goose	https://en.wiktionary.org/wiki/chicken#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/lunta	*lunta	Proto-Uralic word traced from daughter translations (1 branch: Hungarian) — hu lúd
+	noun	other	other	https://en.wiktionary.org/wiki/other#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/mu	*mu	no daughter translations for this sense; used the "other" result. Proto-Uralic word traced from daughter translations (2 branches: Finnic, Hungarian) — fi muu, hu más
+	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/k%C3%A4wde	*käwde	Proto-Uralic word traced from daughter translations (1 branch: Finnic) — et köis, fi köysi, izh köys
 	noun	star	star	https://en.wiktionary.org/wiki/star/translations#Noun		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/t%C3%A4%C5%A1t%C3%A4	*täštä	Proto-Uralic word traced from daughter translations (1 branch: Finnic) — et täht, fi tähti, izh tähti, liv tēḑ, vep tähtaz, vro täht', vot tähti
 	noun	sun	sun	https://en.wiktionary.org/wiki/sun/translations#Noun		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/p%C3%A4jw%C3%A4	*päjwä	Proto-Uralic word traced from daughter translations (1 branch: Finnic) — izh päivä, liv pǟva
+	noun	tree	tree	https://en.wiktionary.org/wiki/tree#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/puwe	*puwe	Proto-Uralic word traced from daughter translations (4 branches: Finnic, Hungarian, Permic, Mari) — et puu, fi puu, hu fa, krl puu, kpv пу, mhr пу, udm пу, vro puu, vot puu
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/puwe	*puwe	Proto-Uralic word traced from daughter translations (2 branches: Finnic, Hungarian) — et puu, fi puu, hu fa, liv pū
 	numeral	one	one	https://en.wiktionary.org/wiki/one/translations#Numeral		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/%C3%BCkte	*ükte	Proto-Uralic word traced from daughter translations (4 branches: Mordvinic, Finnic, Permic, Sami) — myv вейке, et üks, fi yksi, izh yks, krl yksi, koi ӧ́тік, liv ikš, olo yksi, smn ohtâ, se okta, sms õhtt, udm одӥг, vep üksʹ, vro ütś, vot ühs
 	numeral	three	three	https://en.wiktionary.org/wiki/three#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/kolme	*kolme	Proto-Uralic word traced from daughter translations (5 branches: Mordvinic, Finnic, Hungarian, Permic, Sami) — myv колмо, et kolm, fi kolme, hu három, izh kolt, krl kolme, koi куим, kpv куим, liv kuolm, smn kulmâ, se golbma, sms koumm, sma golme, udm куинь, vep koume, vro kolm, vot kõlmõd
 	numeral	two	two	https://en.wiktionary.org/wiki/two#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/kakta	*kakta	Proto-Uralic word traced from daughter translations (6 branches: Samoyedic, Mordvinic, Finnic, Hungarian, Permic, Sami) — enf щизы, myv кавто, et kaks, fi kaksi, hu kettő, izh kaks, kpv кык, liv kakš, smn kyehti, se guokte, sma göökte, udm кык, vep kaksʹ, vro katś, vot kahs
+	verb	appear	appear	https://en.wiktionary.org/wiki/appear		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/%C4%8Da%C4%8Da-	*čača-	Proto-Uralic word traced from daughter translations (1 branch: Mari) — mhr шочаш
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/kuwle-	*kuwle-	Proto-Uralic word traced from daughter translations (2 branches: Finnic, Hungarian) — et kuulma, fi kuulla, hu hall, liv kūlõ
 	verb	love	love	https://en.wiktionary.org/wiki/love/translations#Translations_2		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/%C5%9Ber%C9%9C	*śerɜ	Proto-Uralic word traced from daughter translations (1 branch: Hungarian) — hu szeret
 	verb	read	read	https://en.wiktionary.org/wiki/read#Translations		urj-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/luke-	*luke-	Proto-Uralic word traced from daughter translations (3 branches: Finnic, Hungarian, Sami) — et lugema, fi lukea, hu olvas, izh lukkia, sjd ло̄гкэ, se lohkat
@@ -1845,28 +1926,62 @@
 	determiner	all	all	https://en.wiktionary.org/wiki/all#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/allaz	*allaz	Proto-Germanic word traced from old daughter translations (3 of 3 branches: East Gmc, West Gmc, North Gmc) — got 𐌰𐌻𐌻𐍃, ang eall, non allr da alle; also continued in nl al, fo allur, de all
 	determiner	other	other	https://en.wiktionary.org/wiki/other#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/an%C3%BEeraz	*anþeraz	Proto-Germanic word traced from old daughter translations (1 of 3 branches: East Gmc) — got 𐌰𐌽𐌸𐌰𐍂 da andre; also continued in nl ander, is annar, en other
 	determiner	this	this	https://en.wiktionary.org/wiki/this#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/sa	*sa	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang þēs de dieser; also continued in is þessi, nb den
+	noun	day	day	https://en.wiktionary.org/wiki/day/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/dagaz	*dagaz	Proto-Germanic word traced from 
+	noun	summer	summer	https://en.wiktionary.org/wiki/summer#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/sumaraz	*sumaraz	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — goh sumar, ang sumor, non sumar af somer; also continued in da sommer, nl zomer, fo summar
+	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wazr%C4%85	*wazrą	Proto-Germanic word traced from old daughter translations (1 of 3 branches: North Gmc) — non vár da vår; also continued in is vor, nb vår, nn vår
+	noun	autumn	autumn	https://en.wiktionary.org/wiki/autumn#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/harbistaz	*harbistaz	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang hærfest af herfs; also continued in da høst, nl herfst, stq Häärst
+	noun	winter	winter	https://en.wiktionary.org/wiki/winter#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wintruz	*wintruz	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang winter af winter; also continued in da vinter, nl winter, fo vetur
+	noun	beast	beast	https://en.wiktionary.org/wiki/beast#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/deuz%C4%85	*deuzą	Proto-Germanic word traced from old daughter translations (2 of 3 branches: East Gmc, West Gmc) — got 𐌳𐌹𐌿𐍃, ang dēor da dyr; also continued in nl dier, de Tier
+	noun	big-bird	swan	https://en.wiktionary.org/wiki/swan#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/swanaz	*swanaz	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — ang swan, non svanr da svane; also continued in fo svanur, stq Swoan, fy swan
+	noun	big-bird	eagle	https://en.wiktionary.org/wiki/eagle#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/ar%C3%B4	*arô	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, East Gmc) — goh arn, got 𐌰𐍂𐌰 af arend; also continued in da ørn, nl arend, fo ørn
 	noun	bug	bee	https://en.wiktionary.org/wiki/bee#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/bij%C7%AD	*bijǭ	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — ang bēo, non bý af by; also continued in da bi, nl bij, fy bij
+	noun	book	book	https://en.wiktionary.org/wiki/book/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/b%C5%8Dks	*bōks	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang bōc, osx bōk af boek; also continued in da bog, nl boek, fo bók
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/brugj%C7%AD	*brugjǭ	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — odt brugga, ang bryċġ af brug; also continued in nl brug, stq Brääch, fy brêge
 	noun	bug	louse	https://en.wiktionary.org/wiki/louse#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/l%C5%ABs	*lūs	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — ang lūs, non lús af luis; also continued in da lus, nl luis, fo lús
+	noun	chick	child	https://en.wiktionary.org/wiki/child#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/barn%C4%85	*barną	Proto-Germanic word traced from old daughter translations (3 of 3 branches: East Gmc, West Gmc, North Gmc) — got 𐌱𐌰𐍂𐌽, ang bearn, non barn da barn; also continued in fo barn, fy bern, is barn
 	noun	city	city	https://en.wiktionary.org/wiki/city#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/burgz	*burgz	Proto-Germanic word traced from old daughter translations (3 of 3 branches: East Gmc, West Gmc, North Gmc) — got 𐌱𐌰𐌿𐍂𐌲𐍃, ang burg, non borg is borg
 	noun	clothing	clothing	https://en.wiktionary.org/wiki/clothing#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/klai%C3%BE%C4%85	*klaiþą	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang clāþas fo klæði; also continued in de Kleidung, nb klær, nn klede
 	noun	clothing	garment	https://en.wiktionary.org/wiki/garment#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wastij%C5%8D	*wastijō	Proto-Germanic word traced from old daughter translations (1 of 3 branches: East Gmc) — got 𐍅𐌰𐍃𐍄𐌹
 	noun	clothing	shirt	https://en.wiktionary.org/wiki/shirt#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/skurtij%C7%AD	*skurtijǭ	Proto-Germanic word traced from old daughter translations (1 of 3 branches: North Gmc) — non skyrta da skjorte; also continued in enm schirte, sv skjorta, en shirt
 	noun	earth	earth			gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/er%C3%BE%C5%8D	*erþō	Proto-Germanic word traced from old daughter translations (3 of 3 branches: West Gmc, East Gmc, North Gmc) — odt ertha, ofs erthe, goh erda, got 𐌰𐌹𐍂𐌸𐌰, ang eorþe, non jǫrð, osx ertha da 
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/fiskaz	*fiskaz	Proto-Germanic word traced from old daughter translations (3 of 3 branches: West Gmc, East Gmc, North Gmc) — ofs fisk, got 𐍆𐌹𐍃𐌺𐍃, ang fisċ, non fiskr, osx fisk, gmq-osw fisker af vis; also 
+	noun	food	food	https://en.wiktionary.org/wiki/food#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/matiz	*matiz	Proto-Germanic word traced from old daughter translations (1 of 3 branches: East Gmc) — got 𐌼𐌰𐍄𐍃 da mad; also continued in fo matur, is matur, nb mat
 	noun	gift	gift	https://en.wiktionary.org/wiki/gift#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/g%C4%93b%C7%AD	*gēbǭ	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — ang ġiefu, non gáfa, gmq-osw gava da gave; also continued in fo gáva, de Gabe, is gjöf
 	noun	gift	present	https://en.wiktionary.org/wiki/present#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/g%C4%93b%C7%AD	*gēbǭ	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — ang ġiefu, non gáfa, gmq-osw gava da gave; also continued in fo gáva, de Gabe, is gjöf
+	noun	heat	heat	https://en.wiktionary.org/wiki/heat#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/hait%C4%AF%CC%84	*haitį̄	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang hǣtu enm hete; also continued in en heat
+	noun	human	human	https://en.wiktionary.org/wiki/human#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/mann-	*mann-	Proto-Germanic word traced from old daughter translations (3 of 3 branches: East Gmc, West Gmc, North Gmc) — got 𐌼𐌰𐌽𐌽𐌰, ang mann, non maðr da menneske; also continued in fo maður, de Mensch, is 
 	noun	idea	idea	https://en.wiktionary.org/wiki/idea#Descendants		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/%C3%BEanhtaz	*þanhtaz	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang ġeþōht nl gedachte
 	noun	king	king	https://en.wiktionary.org/wiki/king/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kuningaz	*kuningaz	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — odt kunink, goh kuning, ang cyning, non konungr, osx kuning af koning; also continued in da konge, nl koning, fo kongur
+	noun	language	language	https://en.wiktionary.org/wiki/language/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/tung%C7%AD	*tungǭ	Proto-Germanic word traced from old daughter translations (1 of 3 branches: North Gmc) — non tunga da tunge; also continued in nl tong, is tunga, enm tonge
 	noun	log	log	https://en.wiktionary.org/wiki/log#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/stukkaz	*stukkaz	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang stocc sv stock
+	noun	love	love	https://en.wiktionary.org/wiki/love/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/lub%C5%8D	*lubō	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang lufu enm love; also continued in en love
+	noun	main-bird	dove	https://en.wiktionary.org/wiki/dove#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/d%C5%ABb%C7%AD	*dūbǭ	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — ang *dūfe, non dúfa da due; also continued in nl duif, fo dúgva, de Taube
+	noun	main-bird	pigeon	https://en.wiktionary.org/wiki/pigeon#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/d%C5%ABb%C7%AD	*dūbǭ	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang *dūfe af duif; also continued in da due, nl duif, fo dúgva
+	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kr%C4%93%C7%AD	*krēǭ	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang crāwe af kraai; also continued in nl kraai, fy krie, de Krähe
 	noun	metal	metal	https://en.wiktionary.org/wiki/metal#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/blik%C4%85	*malmaz	no old-language translation with a traceable etymology; traced from later Germanic languages (1 branch: North Gmc) — fo málmur, is málmur
+	noun	moon	moon	https://en.wiktionary.org/wiki/moon/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/m%C4%93n%C3%B4	*mēnô	Proto-Germanic word traced from old daughter translations (3 of 3 branches: East Gmc, West Gmc, North Gmc) — got 𐌼𐌴𐌽𐌰, ang mōna, non máni af maan; also continued in da måne, nl maan, fo 
 	noun	moon	moon	https://en.wiktionary.org/wiki/moon/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/m%C4%93n%C3%B4	*mēnô	Proto-Germanic word traced from old daughter translations (3 of 3 branches: East Gmc, West Gmc, North Gmc) — got 𐌼𐌴𐌽𐌰, ang mōna, non máni af maan; also continued in da måne, nl maan, fo máni
+	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/m%C5%8Dd%C4%93r	*mōdēr	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang mōdor af moeder; also continued in da moder, nl moeder, fo móðir
+	noun	nest	nest	https://en.wiktionary.org/wiki/nest#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/nest%C4%85	*nestą	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang nest nl nest; also continued in de Nest, lb Nascht, yi נעסט
 	noun	night	night	https://en.wiktionary.org/wiki/night/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/nahts	*nahts	Proto-Germanic word traced from old daughter translations (3 of 3 branches: East Gmc, West Gmc, North Gmc) — got 𐌽𐌰𐌷𐍄𐍃, ang niht, non nátt af nag; also continued in da nat, nl nacht, fo nátt
+	noun	other-bird	goose	https://en.wiktionary.org/wiki/chicken#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/gans	*gans	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, East Gmc) — goh gans, got *𐌲𐌰𐌽𐍃, ang gōs af gans; also continued in da gås, nl gans, fo gás
+	noun	other	other	https://en.wiktionary.org/wiki/other#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/an%C3%BEeraz	*anþeraz	used the "other" result. Proto-Germanic word traced from old daughter translations (1 of 3 branches: East Gmc) — got 𐌰𐌽𐌸𐌰𐍂 da andre; also continued in nl ander, fy oar, is annar
+	noun	planet	planet	https://en.wiktionary.org/wiki/planet#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/tungl%C4%85	*tunglą	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang tungol
+	noun	river	river	https://en.wiktionary.org/wiki/river/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/ahw%C5%8D	*ahwō	Proto-Germanic word traced from old daughter translations (3 of 3 branches: East Gmc, West Gmc, North Gmc) — got 𐌰𐍈𐌰, ang ēa, non á, osx aha da å; also continued in stq Äi, sv å
+	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/sail%C4%85	*sailą	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang sāl de Seil; also continued in lb Seel
 	noun	star	star	https://en.wiktionary.org/wiki/star/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/stern%C7%AD	*sternǭ	Proto-Germanic word traced from old daughter translations (3 of 3 branches: West Gmc, East Gmc, North Gmc) — goh sterno, got 𐍃𐍄𐌰𐌹𐍂𐌽𐍉, ang steorra, non stjarna af ster; also continued in 
 	noun	sun	sun	https://en.wiktionary.org/wiki/sun/translations#Noun		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/sunn%C7%AD	*sunnǭ	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang sunne af son; also continued in nl zon, fy sinne, de Sonne
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/%C3%BEanhtaz	*þanhtaz	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang ġeþōht, osx githaht nl gedachte; also continued in en 
+	noun	tool	tool	https://en.wiktionary.org/wiki/tool#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/t%C5%8Dl%C4%85	*tōlą	no old-language translation with a traceable etymology; traced from later Germanic languages (2 branches: North Gmc, West Gmc) — is tól, en tool
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/huzd%C4%85	*huzdą	Proto-Germanic word traced from old daughter translations (1 of 3 branches: East Gmc) — got 𐌷𐌿𐌶𐌳
+	noun	tree	tree	https://en.wiktionary.org/wiki/tree#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/trew%C4%85	*trewą	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, North Gmc) — ang trēow, non tré da træ; also continued in fo træ, is tré, nb tre
 	noun	venus	venus	https://en.wiktionary.org/wiki/Venus#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/Auziwandilaz
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/hult%C4%85	*hultą	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang holt af hout; also continued in nl hout, fy hout, de Holz
 	numeral	one	one	https://en.wiktionary.org/wiki/one/translations#Numeral		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/ainaz	*ainaz	Proto-Germanic word traced from old daughter translations (3 of 3 branches: West Gmc, East Gmc, North Gmc) — ofs ēn, got 𐌰𐌹𐌽𐍃, ang ān, non einn af een; also continued in da én, nl één, fo ein
 	numeral	three	three	https://en.wiktionary.org/wiki/three#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/%C3%BEr%C4%ABz	*þrīz	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, East Gmc) — ofs thrē, got 𐌸𐍂𐌴𐌹𐍃, ang þrī af drie; also continued in da tre, nl drie, fo tríggir
 	numeral	two	two	https://en.wiktionary.org/wiki/two#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/twai	*twai	Proto-Germanic word traced from old daughter translations (2 of 3 branches: West Gmc, East Gmc) — ofs twā, got 𐍄𐍅𐌰𐌹, ang twēġen af twee; also continued in da to, nl twee, fo tveir
+	verb	appear	come	https://en.wiktionary.org/wiki/come#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kweman%C4%85	*kwemaną	Proto-Germanic word traced from old daughter translations (2 of 3 branches: East Gmc, West Gmc) — got 𐌵𐌹𐌼𐌰𐌽, ang cuman, osx kuman af kom; also continued in da komme, nl komen, fo koma
+	verb	appear	appear	https://en.wiktionary.org/wiki/appear		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/ataugijan%C4%85	*ataugijaną	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ang ætīewan
 	verb	break	become-open	https://en.wiktionary.org/wiki/break#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/brekan%C4%85	*brekaną	Proto-Germanic word traced from old daughter translations (1 of 3 branches: West Gmc) — ofs breka, goh brehhan, ang brecan, osx 
 	verb	endure	endure	https://en.wiktionary.org/wiki/endure#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/%C3%BEul%C4%81n%C4%85	*þulāną	no old-language translation with a traceable etymology; traced from later Germanic languages (2 branches: North Gmc, West Gmc) — da tåle, de dulden, is þola, sv tåla
 	verb	endure	suffer	https://en.wiktionary.org/wiki/suffer#Translations		gem-pro	https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/%C3%BEul%C4%81n%C4%85	*þulāną	Proto-Germanic word traced from old daughter translations (2 of 3 branches: East Gmc, West Gmc) — got 𐌸𐌿𐌻𐌰𐌽, ang þolian
@@ -1898,45 +2013,76 @@
 	adverb	now	now	https://en.wiktionary.org/wiki/now#Translations		non	https://en.wiktionary.org/wiki/n%C3%BA#Old_Norse	nú	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da nu, fo nú, is nú, nb nå, nn no, non nú, sv nu
 	determiner	all	all	https://en.wiktionary.org/wiki/all#Translations		non	https://en.wiktionary.org/wiki/allr#Old_Norse	allr	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da alle, fo allur, is allur, non allr, sv alla
 	determiner	other	other	https://en.wiktionary.org/wiki/other#Translations		non	https://en.wiktionary.org/wiki/annarr#Old_Norse	annarr	inherited by East Norse and West Norse descendants — da andre, is annar
+	noun	beast	beast	https://en.wiktionary.org/wiki/beast#Translations		non	https://en.wiktionary.org/wiki/villid%C3%BDr#Old_Norse	villidýr	inherited by East Norse descendants — da vilddyr
+	noun	big-bird	eagle	https://en.wiktionary.org/wiki/eagle#Translations		non	https://en.wiktionary.org/wiki/%C7%ABrn#Old_Norse	ǫrn	inherited by East Norse and West Norse descendants — da ørn, fo ørn, is örn, sv örn
+	noun	book	book	https://en.wiktionary.org/wiki/book/translations#Noun		non	https://en.wiktionary.org/wiki/b%C3%B3k#Old_Norse	bók	inherited by East Norse and West Norse descendants — da bog, ovd buok, fo bók, is bók, nb bok, nn bok, sv bok
+	noun	bridge	bridge	https://en.wiktionary.org/wiki/bridge#Translations		non	https://en.wiktionary.org/wiki/br%C3%BA#Old_Norse	brú	inherited by West Norse descendants — fo brúgv, is brú
 	noun	bug	bee	https://en.wiktionary.org/wiki/bee#Translations		non	https://en.wiktionary.org/wiki/b%C3%BD#Old_Norse	bý	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da bi, fo býfluga, is bý, non bý, sv bi
 	noun	bug	louse	https://en.wiktionary.org/wiki/louse#Translations		non	https://en.wiktionary.org/wiki/l%C3%BAs#Old_Norse	lús	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da lus, fo lús, is lús, nb lus, nn lus, non lús, sv lus
+	noun	chick	chick	https://en.wiktionary.org/wiki/chick#Translations		non	https://en.wiktionary.org/wiki/kj%C3%BAklingr#Old_Norse	kjúklingr	inherited by East Norse and West Norse descendants — da kylling, nb kylling
+	noun	chick	child	https://en.wiktionary.org/wiki/child#Translations		non	https://en.wiktionary.org/wiki/barn#Old_Norse	barn	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da barn, fo barn, is barn, nb barn, nn barn, non barn, sv barn
 	noun	city	city	https://en.wiktionary.org/wiki/city#Translations		non	https://en.wiktionary.org/wiki/borg#Old_Norse	borg	listed as the Old Norse translation on Wiktionary; inherited by West Norse descendants — is borg, non borg
 	noun	clothing	clothing	https://en.wiktionary.org/wiki/clothing#Translations		non	https://en.wiktionary.org/wiki/kl%C3%A6%C3%B0i#Old_Norse	klæði	inherited by West Norse and East Norse descendants — fo klæði, nb klær, nn klede, sv kläder
 	noun	clothing	garment	https://en.wiktionary.org/wiki/garment#Translations		non	https://en.wiktionary.org/wiki/plagg#Old_Norse	plagg	inherited by East Norse descendants — sv plagg
 	noun	clothing	shirt	https://en.wiktionary.org/wiki/shirt#Translations		non	https://en.wiktionary.org/wiki/skyrta#Old_Norse	skyrta	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da skjorte, nb skjorte, nn skjorte, non skyrta, sv skjorta
 	noun	earth	earth			non	https://en.wiktionary.org/wiki/j%C7%ABr%C3%B0#Old_Norse	jǫrð	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da jorden, fo jørð, is jörð, nb jord, nn jord, non jǫrð
+	noun	fish	fish	https://en.wiktionary.org/wiki/fish/translations#Noun		non	https://en.wiktionary.org/wiki/fiskr#Old_Norse	fiskr	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da fisk, fo fiskur, is fiskur, nb fisk, nn fisk, non fiskr, sv fisk, gmq-osw fisker
+	noun	food	food	https://en.wiktionary.org/wiki/food#Translations		non	https://en.wiktionary.org/wiki/matr#Old_Norse	matr	inherited by East Norse and West Norse descendants — da mad, fo matur, is matur, nb mat, sv mat
 	noun	gift	gift	https://en.wiktionary.org/wiki/gift#Translations		non	https://en.wiktionary.org/wiki/gj%C7%ABf#Old_Norse	gjǫf	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da gave, is gjöf, non gjǫf, gmq-osw gava
+	noun	guard	guard	https://en.wiktionary.org/wiki/guard#Translations		non	https://en.wiktionary.org/wiki/v%C7%ABr%C3%B0r#Old_Norse	vǫrðr	inherited by West Norse descendants — is vörður
+	noun	hill	hill	https://en.wiktionary.org/wiki/hill#Translations		non	https://en.wiktionary.org/wiki/h%C3%A6%C3%B0#Old_Norse	hæð	inherited by West Norse and East Norse descendants — is hæð, sv höjd
 	noun	king	king	https://en.wiktionary.org/wiki/king/translations#Noun		non	https://en.wiktionary.org/wiki/konungr#Old_Norse	konungr	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da konge, ovd kunungg, fo kongur, is konungur, nb konge, nn konge, non konungr, sv kung
+	noun	language	language	https://en.wiktionary.org/wiki/language/translations#Noun		non	https://en.wiktionary.org/wiki/m%C3%A1l#Old_Norse	mál	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da mål, fo mál, is mál, non mál, sv mål
+	noun	love	love	https://en.wiktionary.org/wiki/love/translations#Noun		non	https://en.wiktionary.org/wiki/k%C3%A6rleikr#Old_Norse	kærleikr	inherited by East Norse and West Norse descendants — da kærlighed, nb kjærleik, nn kjærleik, sv kärlek
 	noun	mars	mars	https://en.wiktionary.org/wiki/Mars#Translations		non	https://en.wiktionary.org/wiki/%C3%BErekstjarna#Old_Norse	þrekstjarna	listed as the Old Norse translation on Wiktionary — non þrekstjarna; no Wiktionary entry yet (red link)
+	noun	main-bird	dove	https://en.wiktionary.org/wiki/dove#Translations		non	https://en.wiktionary.org/wiki/d%C3%BAfa#Old_Norse	dúfa	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da due, fo dúgva, is dúfa, nb due, nn due, non dúfa, sv duva
+	noun	main-bird	pigeon	https://en.wiktionary.org/wiki/pigeon#Translations		non	https://en.wiktionary.org/wiki/d%C3%BAfa#Old_Norse	dúfa	inherited by East Norse and West Norse descendants — da due, fo dúgva, is dúfa, nn due, sv duva
+	noun	main-bird	crow	https://en.wiktionary.org/wiki/crow#Translations		non	https://en.wiktionary.org/wiki/kr%C3%A1ka#Old_Norse	kráka	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da krage, fo kráka, is kráka, non kráka, sv kråka
+	noun	maternal-grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations		non	https://en.wiktionary.org/wiki/afi#Old_Norse	afi	listed as the Old Norse translation on Wiktionary; inherited by West Norse descendants — fo avi, is afi, non afi
+	noun	maternal-grandfather	maternal-grandfather	https://en.wiktionary.org/wiki/maternal_grandfather#English		non	https://en.wiktionary.org/wiki/m%C3%B3%C3%B0urfa%C3%B0ir#Old_Norse	móðurfaðir	inherited by East Norse and West Norse descendants — da morfar, nb morfar, sv morfar
+	noun	maternal-grandmother	grandmother	https://en.wiktionary.org/wiki/grandmother#Translations		non	https://en.wiktionary.org/wiki/amma#Old_Norse	amma	inherited by West Norse descendants — fo omma, is amma
+	noun	maternal-grandmother	maternal-grandmother	https://en.wiktionary.org/wiki/maternal_grandmother#English		non	https://en.wiktionary.org/wiki/amma#Old_Norse	amma	no matching Norse evidence for this sense; used the "grandmother" result. inherited by West Norse descendants — fo omma, is amma
 	noun	metal	metal	https://en.wiktionary.org/wiki/metal#Translations		non	https://en.wiktionary.org/wiki/malmr#Old_Norse	malmr	inherited by West Norse descendants — fo málmur, is málmur
+	noun	day	day	https://en.wiktionary.org/wiki/day/translations#Noun		non	https://en.wiktionary.org/wiki/dagr#Old_Norse	dagr	listed as the Old Norse translation on Wiktionary; 
 	noun	moon	moon	https://en.wiktionary.org/wiki/moon/translations#Noun		non	https://en.wiktionary.org/wiki/m%C3%A1ni#Old_Norse	máni	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da måne, fo máni, is máni, nb måne, nn måne, non máni, sv måne
+	noun	nest	nest	https://en.wiktionary.org/wiki/nest#Translations		non	https://en.wiktionary.org/wiki/hrei%C3%B0r#Old_Norse	hreiðr	inherited by East Norse and West Norse descendants — da rede, fo reiður, is hreiður, nb rede, nn reir, sv rede
 	noun	night	night	https://en.wiktionary.org/wiki/night/translations#Noun		non	https://en.wiktionary.org/wiki/n%C3%A1tt#Old_Norse	nátt	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da nat, fo nátt, is nótt, nb natt, nn natt, non nátt, sv natt
+	noun	other	other	https://en.wiktionary.org/wiki/other#Translations		non	https://en.wiktionary.org/wiki/annarr#Old_Norse	annarr	no matching Norse evidence for this sense; used the "other" result. inherited by East Norse and West Norse descendants — da andre, is annar, sv annan
+	noun	paternal-grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations		non	https://en.wiktionary.org/wiki/afi#Old_Norse	afi	listed as the Old Norse translation on Wiktionary; inherited by West Norse descendants — fo avi, is afi, non afi
+	noun	paternal-grandfather	paternal-grandfather	https://en.wiktionary.org/wiki/paternal_grandfather#English		non	https://en.wiktionary.org/wiki/f%C7%AB%C3%B0urfa%C3%B0ir#Old_Norse	fǫðurfaðir	inherited by East Norse descendants — da farfar; no Wiktionary entry yet (red link)
+	noun	paternal-grandmother	grandmother	https://en.wiktionary.org/wiki/grandmother#Translations		non	https://en.wiktionary.org/wiki/amma#Old_Norse	amma	inherited by West Norse descendants — fo omma, is amma
+	noun	paternal-grandmother	paternal-grandmother	https://en.wiktionary.org/wiki/paternal_grandmother#English		non	https://en.wiktionary.org/wiki/amma#Old_Norse	amma	no matching Norse evidence for this sense; used the "grandmother" result. inherited by West Norse descendants — fo omma, is amma
+	noun	planet	planet	https://en.wiktionary.org/wiki/planet#Translations		non	https://en.wiktionary.org/wiki/plan%C3%A9ta#Old_Norse	planéta	inherited by West Norse descendants — nb planet, nn planet
+	noun	rope	rope	https://en.wiktionary.org/wiki/rope#Translations		non	https://en.wiktionary.org/wiki/reip#Old_Norse	reip	inherited by West Norse and East Norse descendants — fo reip, nb rep, nn reip, sv rep
 	noun	star	star	https://en.wiktionary.org/wiki/star/translations#Noun		non	https://en.wiktionary.org/wiki/stjarna#Old_Norse	stjarna	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da stjerne, fo stjørna, is stjarna, nb stjerne, nn stjerne, non stjarna, sv stjärna
 	noun	sun	sun	https://en.wiktionary.org/wiki/sun/translations#Noun		non	https://en.wiktionary.org/wiki/s%C3%B3l#Old_Norse	sól	inherited by East Norse and West Norse descendants — da sol, fo sól, is sól, nb sol, sv sol
 	noun	thought	thought	https://en.wiktionary.org/wiki/thought#Translations		non	https://en.wiktionary.org/wiki/%C3%BEanki#Old_Norse	þanki	inherited by West Norse descendants — nb tanke, nn tanke
+	noun	town	town	https://en.wiktionary.org/wiki/town#Translations		non	https://en.wiktionary.org/wiki/b%C7%BFr#Old_Norse	bǿr	inherited by East Norse and West Norse descendants — da by, is bær, sv by
+	noun	treasure	treasure	https://en.wiktionary.org/wiki/treasure#Translations		non	https://en.wiktionary.org/wiki/skattr#Old_Norse	skattr	inherited by East Norse and West Norse descendants — da skat, nb skatt, nn skatt, sv skatt; no Wiktionary entry yet (red link)
+	noun	tree	tree	https://en.wiktionary.org/wiki/tree#Translations		non	https://en.wiktionary.org/wiki/tr%C3%A9#Old_Norse	tré	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da træ, fo træ, is tré, nb tre, nn tre, non tré, sv träd
 	noun	venus	venus	https://en.wiktionary.org/wiki/Venus#Translations		non	https://en.wiktionary.org/wiki/bl%C3%B3%C3%B0stjarna#Old_Norse	blóðstjarna	
-	noun	paternal-grandmother	paternal-grandmother	https://en.wiktionary.org/wiki/paternal_grandmother#English		non	https://en.wiktionary.org/wiki/amma#Old_Norse	amma	no matching Norse evidence for this sense; used the "grandmother" result. inherited by West Norse descendants — fo omma, is amma
-	noun	paternal-grandmother	grandmother	https://en.wiktionary.org/wiki/grandmother#Translations		non	https://en.wiktionary.org/wiki/amma#Old_Norse	amma	inherited by West Norse descendants — fo omma, is amma
-	noun	maternal-grandmother	maternal-grandmother	https://en.wiktionary.org/wiki/maternal_grandmother#English		non	https://en.wiktionary.org/wiki/amma#Old_Norse	amma	no matching Norse evidence for this sense; used the "grandmother" result. inherited by West Norse descendants — fo omma, is amma
-	noun	maternal-grandmother	grandmother	https://en.wiktionary.org/wiki/grandmother#Translations		non	https://en.wiktionary.org/wiki/amma#Old_Norse	amma	inherited by West Norse descendants — fo omma, is amma
-	noun	paternal-grandfather	paternal-grandfather	https://en.wiktionary.org/wiki/paternal_grandfather#English		non	https://en.wiktionary.org/wiki/f%C7%AB%C3%B0urfa%C3%B0ir#Old_Norse	fǫðurfaðir	inherited by East Norse descendants — da farfar; no Wiktionary entry yet (red link)
-	noun	paternal-grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations		non	https://en.wiktionary.org/wiki/afi#Old_Norse	afi	listed as the Old Norse translation on Wiktionary; inherited by West Norse descendants — fo avi, is afi, non afi
-	noun	maternal-grandfather	maternal-grandfather	https://en.wiktionary.org/wiki/maternal_grandfather#English		non	https://en.wiktionary.org/wiki/m%C3%B3%C3%B0urfa%C3%B0ir#Old_Norse	móðurfaðir	inherited by East Norse and West Norse descendants — da morfar, nb morfar, sv morfar
-	noun	maternal-grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations		non	https://en.wiktionary.org/wiki/afi#Old_Norse	afi	listed as the Old Norse translation on Wiktionary; inherited by West Norse descendants — fo avi, is afi, non afi
 	numeral	one	one	https://en.wiktionary.org/wiki/one/translations#Numeral		non	https://en.wiktionary.org/wiki/einn#Old_Norse	einn	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da én, ovd ien, fo ein, is einn, nb én, nn éin, non einn, sv en
 	numeral	three	three	https://en.wiktionary.org/wiki/three#Translations		non	https://en.wiktionary.org/wiki/%C3%BEr%C3%ADr#Old_Norse	þrír	inherited by East Norse and West Norse descendants — da tre, ovd tri, fo tríggir, is þrír, nb tre, nn tre, sv tre
 	numeral	two	two	https://en.wiktionary.org/wiki/two#Translations		non	https://en.wiktionary.org/wiki/tveir#Old_Norse	tveir	inherited by East Norse and West Norse descendants — da to, fo tveir, is tveir, sv två
 	pronoun	this	this	https://en.wiktionary.org/wiki/this#Translations		non	https://en.wiktionary.org/wiki/%C3%BEann#Old_Norse	þann	inherited by East Norse and West Norse descendants — da denne, is þessi, nb den
+	verb	appear	arrive	https://en.wiktionary.org/wiki/arrive#Translations		non	https://en.wiktionary.org/wiki/koma#Old_Norse	koma	inherited by West Norse descendants — fo koma, is koma
+	verb	appear	come	https://en.wiktionary.org/wiki/come#Translations		non	https://en.wiktionary.org/wiki/koma#Old_Norse	koma	inherited by East Norse and West Norse descendants — da komme, ovd kumå, fo koma, is koma, nb komme, nn koma, sv komma
 	verb	endure	endure	https://en.wiktionary.org/wiki/endure#Translations		non	https://en.wiktionary.org/wiki/%C3%BEola#Old_Norse	þola	inherited by East Norse and West Norse descendants — da tåle, is þola, sv tåla
 	verb	fight	fight	https://en.wiktionary.org/wiki/fight#Translations		non	https://en.wiktionary.org/wiki/str%C3%AD%C3%B0a#Old_Norse	stríða	inherited by East Norse descendants — sv strida
 	verb	greet	greet	https://en.wiktionary.org/wiki/greet#Translations		non	https://en.wiktionary.org/wiki/heilsa#Old_Norse	heilsa	inherited by East Norse descendants — da hilse, sv hälsa
+	noun	grandfather	grandfather	https://en.wiktionary.org/wiki/grandfather#Translations		non	https://en.wiktionary.org/wiki/afi#Old_Norse	afi	listed as the Old Norse translation on Wiktionary; inherited by West Norse descendants — fo avi, is afi, non afi
 	verb	heal	heal	https://en.wiktionary.org/wiki/heal#Translations		non	https://en.wiktionary.org/wiki/l%C3%A6kna#Old_Norse	lækna	
 	verb	hear	hear	https://en.wiktionary.org/wiki/hear#Translations		non	https://en.wiktionary.org/wiki/heyra#Old_Norse	heyra	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da høre, fo hoyra, is heyra, nb høre, nn høyra, non heyra, sv höra
+	noun	human	human	https://en.wiktionary.org/wiki/human#Translations		non	https://en.wiktionary.org/wiki/ma%C3%B0r#Old_Norse	maðr	listed as the Old Norse translation on Wiktionary; inherited by West Norse descendants — fo maður, is maður, non maðr
 	verb	inhabit	inhabit	https://en.wiktionary.org/wiki/inhabit#Translations		non	https://en.wiktionary.org/wiki/b%C3%BAa#Old_Norse	búa	no Old Norse translation or Norse-descendant etymology found; Old Norse descendant listed under the Proto-Germanic result (*būaną)
 	verb	love	love	https://en.wiktionary.org/wiki/love/translations#Translations_2		non	https://en.wiktionary.org/wiki/elska#Old_Norse	elska	inherited by East Norse and West Norse descendants — da elske, fo elska, nb elske
+	noun	mother	mother	https://en.wiktionary.org/wiki/mother/translations#Noun		non	https://en.wiktionary.org/wiki/m%C3%B3%C3%B0ir#Old_Norse	móðir	inherited by East Norse and West Norse descendants — da moder, fo móðir, is móðir, nb mor, sv mor
+	noun	other-bird	goose	https://en.wiktionary.org/wiki/chicken#Translations		non	https://en.wiktionary.org/wiki/g%C3%A1s#Old_Norse	gás	inherited by East Norse and West Norse descendants — da gås, ovd gą̊s, fo gás, is gæs, nb gås, nn gås, sv gås
+	noun	other-bird	chicken	https://en.wiktionary.org/wiki/chicken#Translations		non	https://en.wiktionary.org/wiki/kj%C3%BAklingr#Old_Norse	kjúklingr	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da kylling, is kjúklingur, nb kylling, nn kjukling, non kjúklingr, sv kyckling
 	verb	occupy	occupy	https://en.wiktionary.org/wiki/occupy		non	https://en.wiktionary.org/wiki/b%C3%BAa#Old_Norse	búa	inherited by East Norse descendants — sv bo
 	verb	read	read	https://en.wiktionary.org/wiki/read#Translations		non	https://en.wiktionary.org/wiki/lesa#Old_Norse	lesa	inherited by East Norse and West Norse descendants — da læse, fo lesa, is lesa, nb lese, nn lesa, sv läsa
 	verb	rest	rest	https://en.wiktionary.org/wiki/rest#Translations_2		non	https://en.wiktionary.org/wiki/hv%C3%ADla#Old_Norse	hvíla	inherited by East Norse and West Norse descendants — da hvile, nb 
+	noun	river	river	https://en.wiktionary.org/wiki/river/translations#Noun		non	https://en.wiktionary.org/wiki/elfr#Old_Norse	elfr	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da elv, is elfur, nb elv, non elfr, sv älv
 	verb	see	see	https://en.wiktionary.org/wiki/see#Translations		non	https://en.wiktionary.org/wiki/sj%C3%A1#Old_Norse	sjá	inherited by East 
 	verb	shout	shout	https://en.wiktionary.org/wiki/shout#Translations		non	https://en.wiktionary.org/wiki/hr%C3%B3pa#Old_Norse	hrópa	
 	verb	show	show	https://en.wiktionary.org/wiki/show#Translations		non	https://en.wiktionary.org/wiki/v%C3%ADsa#Old_Norse	vísa	inherited by East Norse descendants — da vise, sv visa
@@ -1947,3 +2093,8 @@
 	verb	walk	walk	https://en.wiktionary.org/wiki/walk#Translations		non	https://en.wiktionary.org/wiki/ganga#Old_Norse	ganga	inherited by West Norse descendants — is ganga
 	verb	warm	warm	https://en.wiktionary.org/wiki/warm#Translations		non	https://en.wiktionary.org/wiki/verma#Old_Norse	verma	inherited by East Norse and West Norse descendants — da varme, nb varme, sv värma
 	verb	watch	watch	https://en.wiktionary.org/wiki/watch#Translations		non	https://en.wiktionary.org/wiki/sj%C3%A1#Old_Norse	sjá	no Old Norse translation or Norse-descendant etymology found; Old Norse descendant listed under the Proto-Germanic result (*sehwaną)
+	noun	wood	wood	https://en.wiktionary.org/wiki/wood#Translations		non	https://en.wiktionary.org/wiki/vi%C3%B0r#Old_Norse	viðr	inherited by East Norse and West Norse descendants — da ved, fo viður, is viður, sv ved
+	noun	summer	summer	https://en.wiktionary.org/wiki/summer#Translations		non	https://en.wiktionary.org/wiki/sumar#Old_Norse	sumar	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da sommer, fo summar, is sumar, nb sommer, nn sumar, non sumar, sv sommar
+	noun	spring	spring	https://en.wiktionary.org/wiki/spring#Translations		non	https://en.wiktionary.org/wiki/v%C3%A1r#Old_Norse	vár	listed as the Old Norse translation on Wiktionary; inherited by East Norse and West Norse descendants — da vår, fo vár, is vor, nb vår, nn vår, non vár, sv vår
+	noun	autumn	autumn	https://en.wiktionary.org/wiki/autumn#Translations		non	https://en.wiktionary.org/wiki/haust#Old_Norse	haust	inherited by East Norse and West Norse descendants — da høst, fo heyst, is haust, nb høst, nn haust
+	noun	winter	winter	https://en.wiktionary.org/wiki/winter#Translations		non	https://en.wiktionary.org/wiki/vintr#Old_Norse	vintr	inherited by East Norse and West Norse descendants — da vinter, nb vinter, sv vinter
