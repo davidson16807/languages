@@ -374,3 +374,39 @@ sound	vocative	𐌳𐍂𐌿𐌽𐌾𐌰𐌿drunjau	𐌳𐍂𐌿𐌽𐌾𐌾𐌿�
 sound	accusative	𐌳𐍂𐌿𐌽𐌾𐌿drunju	𐌳𐍂𐌿𐌽𐌾𐌿𐌽𐍃drunjuns
 sound	genitive	𐌳𐍂𐌿𐌽𐌾𐌰𐌿𐍃drunjaus	𐌳𐍂𐌿𐌽𐌾𐌹𐍅𐌴drunjiwē
 sound	dative	𐌳𐍂𐌿𐌽𐌾𐌰𐌿drunjau	𐌳𐍂𐌿𐌽𐌾𐌿𐌼drunjum
+city		singular	plural
+city	nominative	𐌱𐌰𐌿𐍂𐌲𐍃baurgs	𐌱𐌰𐌿𐍂𐌲𐍃baurgs
+city	vocative	𐌱𐌰𐌿𐍂𐌲baurg	𐌱𐌰𐌿𐍂𐌲𐍃baurgs
+city	accusative	𐌱𐌰𐌿𐍂𐌲baurg	𐌱𐌰𐌿𐍂𐌲𐍃baurgs
+city	genitive	𐌱𐌰𐌿𐍂𐌲𐍃baurgs	𐌱𐌰𐌿𐍂𐌲𐌴baurgē
+city	dative	𐌱𐌰𐌿𐍂𐌲baurg	𐌱𐌰𐌿𐍂𐌲𐌹𐌼baurgim
+earth		singular	plural
+earth	nominative	𐌼𐌹𐌳𐌾𐌿𐌽𐌲𐌰𐍂𐌳𐍃midjungards	—
+earth	vocative	𐌼𐌹𐌳𐌾𐌿𐌽𐌲𐌰𐍂𐌳midjungard	—
+earth	accusative	𐌼𐌹𐌳𐌾𐌿𐌽𐌲𐌰𐍂𐌳midjungard	—
+earth	genitive	𐌼𐌹𐌳𐌾𐌿𐌽𐌲𐌰𐍂𐌳𐌹𐍃midjungardis	—
+earth	dative	𐌼𐌹𐌳𐌾𐌿𐌽𐌲𐌰𐍂𐌳𐌰midjungarda	—
+present		singular	plural
+present	nominative	𐌼𐌰𐌹𐌸𐌼𐍃maiþms	𐌼𐌰𐌹𐌸𐌼𐍉𐍃maiþmōs
+present	vocative	𐌼𐌰𐌹𐌸𐌼maiþm	𐌼𐌰𐌹𐌸𐌼𐍉𐍃maiþmōs
+present	accusative	𐌼𐌰𐌹𐌸𐌼maiþm	𐌼𐌰𐌹𐌸𐌼𐌰𐌽𐍃maiþmans
+present	genitive	𐌼𐌰𐌹𐌸𐌼𐌹𐍃maiþmis	𐌼𐌰𐌹𐌸𐌼𐌴maiþmē
+present	dative	𐌼𐌰𐌹𐌸𐌼𐌰maiþma	𐌼𐌰𐌹𐌸𐌼𐌰𐌼maiþmam
+king		singular	plural
+king	nominative	𐌸𐌹𐌿𐌳𐌰𐌽𐍃þiudans	𐌸𐌹𐌿𐌳𐌰𐌽𐍉𐍃þiudanōs
+king	vocative	𐌸𐌹𐌿𐌳𐌰𐌽þiudan	𐌸𐌹𐌿𐌳𐌰𐌽𐍉𐍃þiudanōs
+king	accusative	𐌸𐌹𐌿𐌳𐌰𐌽þiudan	𐌸𐌹𐌿𐌳𐌰𐌽𐌰𐌽𐍃þiudanans
+king	genitive	𐌸𐌹𐌿𐌳𐌰𐌽𐌹𐍃þiudanis	𐌸𐌹𐌿𐌳𐌰𐌽𐌴þiudanē
+king	dative	𐌸𐌹𐌿𐌳𐌰𐌽𐌰þiudana	𐌸𐌹𐌿𐌳𐌰𐌽𐌰𐌼þiudanam
+night		singular	plural
+night	nominative	𐌽𐌰𐌷𐍄𐍃nahts	𐌽𐌰𐌷𐍄𐍃nahts
+night	vocative	𐌽𐌰𐌷𐍄naht	𐌽𐌰𐌷𐍄𐍃nahts
+night	accusative	𐌽𐌰𐌷𐍄naht	𐌽𐌰𐌷𐍄𐍃nahts
+night	genitive	𐌽𐌰𐌷𐍄𐍃nahts	𐌽𐌰𐌷𐍄𐌴nahtē
+night	dative	𐌽𐌰𐌷𐍄naht	𐌽𐌰𐌷𐍄𐌰𐌼nahtam
+goose		singular	plural
+goose	nominative	*𐌲𐌰𐌽𐍃*gans	*𐌲𐌰𐌽𐍃*gans
+goose	vocative	*𐌲𐌰𐌽*gan	*𐌲𐌰𐌽𐍃*gans
+goose	accusative	*𐌲𐌰𐌽*gan	*𐌲𐌰𐌽𐍃*gans
+goose	genitive	*𐌲𐌰𐌽𐍃*gans	*𐌲𐌰𐌽𐌴*ganē
+goose	dative	*𐌲𐌰𐌽*gan	*𐌲𐌰𐌽𐌿𐌼*ganum

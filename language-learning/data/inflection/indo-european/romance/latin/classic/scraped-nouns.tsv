@@ -9221,6 +9221,14 @@ day	dative	lūcī	lūcibus
 day	accusative	lūcem	lūcēs
 day	ablative	lūcelūcī	lūcibus
 day	vocative	lūx	lūcēs
+day		singular	plural
+day	nominative	diēs	diēs
+day	genitive	diēī	diērum
+day	dative	diēī	diēbus
+day	accusative	diem	diēs
+day	ablative	diē	diēbus
+day	vocative	diēs	diēs
+day	locative	diē	diēbus
 moon		singular	plural
 moon	nominative	lūna	lūnae
 moon	genitive	lūnae	lūnārum
@@ -9277,6 +9285,13 @@ star	dative	sīderī	sīderibus
 star	accusative	sīdus	sīdera
 star	ablative	sīdere	sīderibus
 star	vocative	sīdus	sīdera
+star		singular	plural
+star	nominative	stēlla	stēllae
+star	genitive	stēllae	stēllārum
+star	dative	stēllae	stēllīs
+star	accusative	stēllam	stēllās
+star	ablative	stēllā	stēllīs
+star	vocative	stēlla	stēllae
 man		singular	plural
 man	nominative	vir	virī
 man	genitive	virī	virōrumvirum
@@ -10330,7 +10345,7 @@ animal	nominative	animal	animālia
 animal	genitive	animālis	animālium
 animal	dative	animālī	animālibus
 animal	accusative	animal	animālia
-animal	ablative	animālī	animālibus
+animal	ablative	animālīanimāle	animālibus
 animal	vocative	animal	animālia
 animal		singular	plural
 animal	nominative	bēstia	bēstiae
@@ -14566,3 +14581,1199 @@ west
 west								
 west								
 west								
+air		singular	plural
+air	nominative	aerō	aerōnēs
+air	genitive	aerōnis	aerōnum
+air	dative	aerōnī	aerōnibus
+air	accusative	aerōnem	aerōnēs
+air	ablative	aerōne	aerōnibus
+air	vocative	aerō	aerōnēs
+atom		singular	plural
+atom	nominative	atomus	atomī
+atom	genitive	atomī	atomōrum
+atom	dative	atomō	atomīs
+atom	accusative	atomum	atomōs
+atom	ablative	atomō	atomīs
+atom	vocative	atome	atomī
+boy		singular	plural
+boy	nominative	puer	puerī
+boy	genitive	puerī	puerōrum
+boy	dative	puerō	puerīs
+boy	accusative	puerum	puerōs
+boy	ablative	puerō	puerīs
+boy	vocative	puer	puerī
+bee		singular	plural
+bee	nominative	apis	apēs
+bee	genitive	apis	apumapium
+bee	dative	apī	apibus
+bee	accusative	apem	apēsapīs
+bee	ablative	ape	apibus
+bee	vocative	apis	apēs
+city		singular	plural
+city	nominative	urbs	urbēsurbīs
+city	genitive	urbis	urbium
+city	dative	urbī	urbibus
+city	accusative	urbem	urbēsurbīs
+city	ablative	urbe	urbibus
+city	vocative	urbs	urbēsurbīs
+shirt		singular	plural
+shirt	nominative	camisia	camisiae
+shirt	genitive	camisiae	camisiārum
+shirt	dative	camisiae	camisiīs
+shirt	accusative	camisiam	camisiās
+shirt	ablative	camisiā	camisiīs
+shirt	vocative	camisia	camisiae
+comet		singular	plural
+comet	nominative	comētēs	comētae
+comet	genitive	comētae	comētārum
+comet	dative	comētae	comētīs
+comet	accusative	comētēncomētem	comētās
+comet	ablative	comētē	comētīs
+comet	vocative	comētē	comētae
+earth		singular	plural
+earth	nominative	terra	terrae
+earth	genitive	terrae	terrārum
+earth	dative	terrae	terrīs
+earth	accusative	terram	terrās
+earth	ablative	terrā	terrīs
+earth	vocative	terra	terrae
+echo		singular	plural
+echo	nominative	ēchō	ēchō
+echo	genitive	ēchūsēchō	ēchō
+echo	dative	ēchō	ēchō
+echo	accusative	ēchōēchōn	ēchō
+echo	ablative	ēchō	ēchō
+echo	vocative	ēchō	ēchō
+foundation		singular	plural
+foundation	nominative	basis	basēsbaseis
+foundation	genitive	basisbaseōsbasios	basium
+foundation	dative	basī	basibus
+foundation	accusative	basimbasinbasem1	basēsbasīs
+foundation	ablative	base1basī	basibus
+foundation	vocative	basisbasi	basēsbaseis
+present		singular	plural
+present	nominative	dōnum	dōna
+present	genitive	dōnī	dōnōrum
+present	dative	dōnō	dōnīs
+present	accusative	dōnum	dōna
+present	ablative	dōnō	dōnīs
+present	vocative	dōnum	dōna
+hand		singular	plural
+hand	nominative	manus	manūs
+hand	genitive	manūs	manuum
+hand	dative	manuī	manibus
+hand	accusative	manum	manūs
+hand	ablative	manū	manibus
+hand	vocative	manus	manūs
+hand		singular	singular	singular		plural	plural	plural
+hand		masculine	feminine	neuter		masculine	feminine	neuter
+hand	nominative	mānus	māna	mānum		mānī	mānae	māna
+hand	genitive	mānī	mānae	mānī		mānōrum	mānārum	mānōrum
+hand	dative	mānō	mānae	mānō		mānīs	mānīs	mānīs
+hand	accusative	mānum	mānam	mānum		mānōs	mānās	māna
+hand	ablative	mānō	mānā	mānō		mānīs	mānīs	mānīs
+hand	vocative	māne	māna	mānum		mānī	mānae	māna
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+hand								
+horn		singular	plural
+horn	nominative	cornū̆1	cornua
+horn	genitive	cornūs2cornū3	cornuum
+horn	dative	cornū4cornuī2	cornibus
+horn	accusative	cornū̆1	cornua
+horn	ablative	cornū	cornibus
+horn	vocative	cornū̆1	cornua
+idea		singular	plural
+idea	nominative	īnfōrmātiō	īnfōrmātiōnēs
+idea	genitive	īnfōrmātiōnis	īnfōrmātiōnum
+idea	dative	īnfōrmātiōnī	īnfōrmātiōnibus
+idea	accusative	īnfōrmātiōnem	īnfōrmātiōnēs
+idea	ablative	īnfōrmātiōne	īnfōrmātiōnibus
+idea	vocative	īnfōrmātiō	īnfōrmātiōnēs
+idea		singular	plural
+idea	nominative	īnfōrmātiō	īnfōrmātiōnēs
+idea	genitive	īnfōrmātiōnis	īnfōrmātiōnum
+idea	dative	īnfōrmātiōnī	īnfōrmātiōnibus
+idea	accusative	īnfōrmātiōnem	īnfōrmātiōnēs
+idea	ablative	īnfōrmātiōne	īnfōrmātiōnibus
+idea	vocative	īnfōrmātiō	īnfōrmātiōnēs
+king		singular	plural
+king	nominative	rēx	rēgēs
+king	genitive	rēgis	rēgum
+king	dative	rēgī	rēgibus
+king	accusative	rēgem	rēgēs
+king	ablative	rēge	rēgibus
+king	vocative	rēx	rēgēs
+mars		singular	plural
+mars	nominative	Mārs	Mārtēs
+mars	genitive	Mārtis	Mārtum
+mars	dative	Mārtī	Mārtibus
+mars	accusative	Mārtem	Mārtēs
+mars	ablative	Mārte	Mārtibus
+mars	vocative	Mārs	Mārtēs
+myth		singular	plural
+myth	nominative	mȳthos	mȳthīmȳthoe
+myth	genitive	mȳthī	mȳthōrummȳthōn
+myth	dative	mȳthō	mȳthīs
+myth	accusative	mȳthon	mȳthōs
+myth	ablative	mȳthō	mȳthīs
+myth	vocative	mȳthe	mȳthīmȳthoe
+night		singular	plural
+night	nominative	nox	noctēs
+night	genitive	noctis	noctium
+night	dative	noctī	noctibus
+night	accusative	noctem	noctēsnoctīs
+night	ablative	noctenoctū	noctibus
+night	vocative	nox	noctēs
+nymph		singular	plural
+nymph	nominative	nymphē	nymphae
+nymph	genitive	nymphēs	nymphārum
+nymph	dative	nymphae	nymphīs
+nymph	accusative	nymphēn	nymphās
+nymph	ablative	nymphē	nymphīs
+nymph	vocative	nymphē	nymphae
+paternal-grandmother		singular	plural
+paternal-grandmother	nominative	avia	aviae
+paternal-grandmother	genitive	aviae	aviārum
+paternal-grandmother	dative	aviae	aviīs
+paternal-grandmother	accusative	aviam	aviās
+paternal-grandmother	ablative	aviā	aviīs
+paternal-grandmother	vocative	avia	aviae
+paternal-grandmother		singular	plural
+paternal-grandmother	nominative	avia	aviae
+paternal-grandmother	genitive	aviae	aviārum
+paternal-grandmother	dative	aviae	aviīs
+paternal-grandmother	accusative	aviam	aviās
+paternal-grandmother	ablative	aviā	aviīs
+paternal-grandmother	vocative	avia	aviae
+phenomenon		singular	plural
+phenomenon	nominative	phaenomenon	phaenomena
+phenomenon	genitive	phaenomenī	phaenomenōrum
+phenomenon	dative	phaenomenō	phaenomenīs
+phenomenon	accusative	phaenomenon	phaenomena
+phenomenon	ablative	phaenomenō	phaenomenīs
+phenomenon	vocative	phaenomenon	phaenomena
+sailor		singular	plural
+sailor	nominative	nauta	nautae
+sailor	genitive	nautae	nautārum
+sailor	dative	nautae	nautīs
+sailor	accusative	nautam	nautās
+sailor	ablative	nautā	nautīs
+sailor	vocative	nauta	nautae
+thing		singular	plural
+thing	nominative	rēs	rēs
+thing	genitive	reī	rērum
+thing	dative	reī	rēbus
+thing	accusative	rem	rēs
+thing	ablative	rē	rēbus
+thing	vocative	rēs	rēs
+tower		singular	plural
+tower	nominative	turris	turrēs
+tower	genitive	turris	turrium
+tower	dative	turrī	turribus
+tower	accusative	turrimturrem	turrēsturrīs
+tower	ablative	turrīturre	turribus
+tower	vocative	turris	turrēs
+vine		singular	plural
+vine	nominative	ampelos	ampelīampeloe
+vine	genitive	ampelī	ampelōrum
+vine	dative	ampelō	ampelīs
+vine	accusative	ampelon	ampelōs
+vine	ablative	ampelō	ampelīs
+vine	vocative	ampele	ampelīampeloe
+war		singular	plural
+war	nominative	bellum	bella
+war	genitive	bellī	bellōrum
+war	dative	bellō	bellīs
+war	accusative	bellum	bella
+war	ablative	bellō	bellīs
+war	vocative	bellum	bella
+war	locative	bellī	—

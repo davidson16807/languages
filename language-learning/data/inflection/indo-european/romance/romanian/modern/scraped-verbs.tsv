@@ -118,6 +118,21 @@ give	subjunctive	present	să dau	să dai	să dea	să dăm	să dați	să dea
 give	imperative		—	tu	—	—	voi	—
 give	imperative	affirmative		dă			dați	
 give	imperative	negative		nu da			nu dați	
+give	infinitive	infinitive	infinitive	a da	a da	a da	a da	a da
+give	gerund	gerund	gerund	dând	dând	dând	dând	dând
+give	past participle	past participle	past participle	dat	dat	dat	dat	dat
+give	number	number	singular	singular	singular	plural	plural	plural
+give	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+give	indicative		eu	tu	el/ea	noi	voi	ei/ele
+give	indicative	present	dau	dai	dă	dăm	dați	dau
+give	indicative	imperfect	dădeam	dădeai	dădea	dădeam	dădeați	dădeau
+give	indicative	simple perfect	dădui	dăduși	dădu	dădurăm	dădurăți	dădură
+give	indicative	pluperfect	dădusem	dăduseși	dăduse	dăduserăm	dăduserăți	dăduseră
+give	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+give	subjunctive	present	să dau	să dai	să dea	să dăm	să dați	să dea
+give	imperative		—	tu	—	—	voi	—
+give	imperative	affirmative		dă			dați	
+give	imperative	negative		nu da			nu dați	
 help	infinitive	infinitive	infinitive	a ajuta	a ajuta	a ajuta	a ajuta	a ajuta
 help	gerund	gerund	gerund	ajutând	ajutând	ajutând	ajutând	ajutând
 help	past participle	past participle	past participle	ajutat	ajutat	ajutat	ajutat	ajutat
@@ -523,3 +538,543 @@ flow	subjunctive	present	să curg	să curgi	să curgă	să curgem	să curgeți	s
 flow	imperative		—	tu	—	—	voi	—
 flow	imperative	affirmative		curge			curgeți	
 flow	imperative	negative		nu curge			nu curgeți	
+come	infinitive	infinitive	infinitive	a veni	a veni	a veni	a veni	a veni
+come	gerund	gerund	gerund	venind	venind	venind	venind	venind
+come	past participle	past participle	past participle	venit	venit	venit	venit	venit
+come	number	number	singular	singular	singular	plural	plural	plural
+come	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+come	indicative		eu	tu	el/ea	noi	voi	ei/ele
+come	indicative	present	vin	vii	vine	venim	veniți	vin
+come	indicative	imperfect	veneam	veneai	venea	veneam	veneați	veneau
+come	indicative	simple perfect	venii	veniși	veni	venirăm	venirăți	veniră
+come	indicative	pluperfect	venisem	veniseși	venise	veniserăm	veniserăți	veniseră
+come	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+come	subjunctive	present	să vin	să vii	să vină	să venim	să veniți	să vină
+come	imperative		—	tu	—	—	voi	—
+come	imperative	affirmative		vino			veniți	
+come	imperative	negative		nu veni			nu veniți	
+choose	infinitive	infinitive	infinitive	a alege	a alege	a alege	a alege	a alege
+choose	gerund	gerund	gerund	alegând	alegând	alegând	alegând	alegând
+choose	past participle	past participle	past participle	ales	ales	ales	ales	ales
+choose	number	number	singular	singular	singular	plural	plural	plural
+choose	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+choose	indicative		eu	tu	el/ea	noi	voi	ei/ele
+choose	indicative	present	aleg	alegi	alege	alegem	alegeți	aleg
+choose	indicative	imperfect	alegeam	alegeai	alegea	alegeam	alegeați	alegeau
+choose	indicative	simple perfect	alesei	aleseși	alese	aleserăm	aleserăți	aleseră
+choose	indicative	pluperfect	alesesem	aleseseși	alesese	aleseserăm	aleseserăți	aleseseră
+choose	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+choose	subjunctive	present	să aleg	să alegi	să aleagă	să alegem	să alegeți	să aleagă
+choose	imperative		—	tu	—	—	voi	—
+choose	imperative	affirmative		alege			alegeți	
+choose	imperative	negative		nu alege			nu alegeți	
+come-late	infinitive	infinitive	infinitive	a întârzia	a întârzia	a întârzia	a întârzia	a întârzia
+come-late	gerund	gerund	gerund	întârziind	întârziind	întârziind	întârziind	întârziind
+come-late	past participle	past participle	past participle	întârziat	întârziat	întârziat	întârziat	întârziat
+come-late	number	number	singular	singular	singular	plural	plural	plural
+come-late	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+come-late	indicative		eu	tu	el/ea	noi	voi	ei/ele
+come-late	indicative	present	întârzii	întârzii	întârzie	întârziem	întârziați	întârzie
+come-late	indicative	imperfect	întârziam	întârziai	întârzia	întârziam	întârziați	întârziau
+come-late	indicative	simple perfect	întârziai	întârziași	întârzie	întârziarăm	întârziarăți	întârziară
+come-late	indicative	pluperfect	întârziasem	întârziaseși	întârziase	întârziaserăm	întârziaserăți	întârziaseră
+come-late	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+come-late	subjunctive	present	să întârzii	să întârzii	să întârzie	să întârziem	să întârziați	să întârzie
+come-late	imperative		—	tu	—	—	voi	—
+come-late	imperative	affirmative		întârzie			întârziați	
+come-late	imperative	negative		nu întârzia			nu întârziați	
+continue	infinitive	infinitive	infinitive	a continua	a continua	a continua	a continua	a continua
+continue	gerund	gerund	gerund	continuând	continuând	continuând	continuând	continuând
+continue	past participle	past participle	past participle	continuat	continuat	continuat	continuat	continuat
+continue	number	number	singular	singular	singular	plural	plural	plural
+continue	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+continue	indicative		eu	tu	el/ea	noi	voi	ei/ele
+continue	indicative	present	continui	continui	continuă	continuăm	continuați	continuă
+continue	indicative	imperfect	continuam	continuai	continua	continuam	continuați	continuau
+continue	indicative	simple perfect	continuai	continuași	continuă	continuarăm	continuarăți	continuară
+continue	indicative	pluperfect	continuasem	continuaseși	continuase	continuaserăm	continuaserăți	continuaseră
+continue	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+continue	subjunctive	present	să continui	să continui	să continue	să continuăm	să continuați	să continue
+continue	imperative		—	tu	—	—	voi	—
+continue	imperative	affirmative		continuă			continuați	
+continue	imperative	negative		nu continua			nu continuați	
+drink	infinitive	infinitive	infinitive	a bea	a bea	a bea	a bea	a bea
+drink	gerund	gerund	gerund	bând	bând	bând	bând	bând
+drink	past participle	past participle	past participle	băut	băut	băut	băut	băut
+drink	number	number	singular	singular	singular	plural	plural	plural
+drink	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+drink	indicative		eu	tu	el/ea	noi	voi	ei/ele
+drink	indicative	present	beau	bei	bea	bem	beți	beau
+drink	indicative	imperfect	beam	beai	bea	beam	beați	beau
+drink	indicative	simple perfect	băui	băuși	bău	băurăm	băurăți	băură
+drink	indicative	pluperfect	băusem	băuseși	băuse	băuserăm	băuserăți	băuseră
+drink	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+drink	subjunctive	present	să beau	să bei	să bea	să bem	să beți	să bea
+drink	imperative		—	tu	—	—	voi	—
+drink	imperative	affirmative		bea			beți	
+drink	imperative	negative		nu bea			nu beți	
+dry	infinitive	infinitive	infinitive	a usca	a usca	a usca	a usca	a usca
+dry	gerund	gerund	gerund	uscând	uscând	uscând	uscând	uscând
+dry	past participle	past participle	past participle	uscat	uscat	uscat	uscat	uscat
+dry	number	number	singular	singular	singular	plural	plural	plural
+dry	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+dry	indicative		eu	tu	el/ea	noi	voi	ei/ele
+dry	indicative	present	usuc	usuci	usucă	uscăm	uscați	usucă
+dry	indicative	imperfect	uscam	uscai	usca	uscam	uscați	uscau
+dry	indicative	simple perfect	uscai	uscași	uscă	uscarăm	uscarăți	uscară
+dry	indicative	pluperfect	uscasem	uscaseși	uscase	uscaserăm	uscaserăți	uscaseră
+dry	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+dry	subjunctive	present	să usuc	să usuci	să usuce	să uscăm	să uscați	să usuce
+dry	imperative		—	tu	—	—	voi	—
+dry	imperative	affirmative		usucă			uscați	
+dry	imperative	negative		nu usca			nu uscați	
+suffer	infinitive	infinitive	infinitive	a suferi	a suferi	a suferi	a suferi	a suferi
+suffer	gerund	gerund	gerund	suferind	suferind	suferind	suferind	suferind
+suffer	past participle	past participle	past participle	suferit	suferit	suferit	suferit	suferit
+suffer	number	number	singular	singular	singular	plural	plural	plural
+suffer	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+suffer	indicative		eu	tu	el/ea	noi	voi	ei/ele
+suffer	indicative	present	sufăr	suferi	suferă	suferim	suferiți	suferă
+suffer	indicative	imperfect	sufeream	sufereai	suferea	sufeream	sufereați	sufereau
+suffer	indicative	simple perfect	suferii	suferiși	suferi	suferirăm	suferirăți	suferiră
+suffer	indicative	pluperfect	suferisem	suferiseși	suferise	suferiserăm	suferiserăți	suferiseră
+suffer	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+suffer	subjunctive	present	să sufăr	să suferi	să sufere	să suferim	să suferiți	să sufere
+suffer	imperative		—	tu	—	—	voi	—
+suffer	imperative	affirmative		suferă			suferiți	
+suffer	imperative	negative		nu suferi			nu suferiți	
+fight	infinitive	infinitive	infinitive	a lupta	a lupta	a lupta	a lupta	a lupta
+fight	gerund	gerund	gerund	luptând	luptând	luptând	luptând	luptând
+fight	past participle	past participle	past participle	luptat	luptat	luptat	luptat	luptat
+fight	number	number	singular	singular	singular	plural	plural	plural
+fight	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+fight	indicative		eu	tu	el/ea	noi	voi	ei/ele
+fight	indicative	present	lupt	lupți	luptă	luptăm	luptați	luptă
+fight	indicative	imperfect	luptam	luptai	lupta	luptam	luptați	luptau
+fight	indicative	simple perfect	luptai	luptași	luptă	luptarăm	luptarăți	luptară
+fight	indicative	pluperfect	luptasem	luptaseși	luptase	luptaserăm	luptaserăți	luptaseră
+fight	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+fight	subjunctive	present	să lupt	să lupți	să lupte	să luptăm	să luptați	să lupte
+fight	imperative		—	tu	—	—	voi	—
+fight	imperative	affirmative		luptă			luptați	
+fight	imperative	negative		nu lupta			nu luptați	
+greet	infinitive	infinitive	infinitive	a saluta	a saluta	a saluta	a saluta	a saluta
+greet	gerund	gerund	gerund	salutând	salutând	salutând	salutând	salutând
+greet	past participle	past participle	past participle	salutat	salutat	salutat	salutat	salutat
+greet	number	number	singular	singular	singular	plural	plural	plural
+greet	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+greet	indicative		eu	tu	el/ea	noi	voi	ei/ele
+greet	indicative	present	salut	saluți	salută	salutăm	salutați	salută
+greet	indicative	imperfect	salutam	salutai	saluta	salutam	salutați	salutau
+greet	indicative	simple perfect	salutai	salutași	salută	salutarăm	salutarăți	salutară
+greet	indicative	pluperfect	salutasem	salutaseși	salutase	salutaserăm	salutaserăți	salutaseră
+greet	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+greet	subjunctive	present	să salut	să saluți	să salute	să salutăm	să salutați	să salute
+greet	imperative		—	tu	—	—	voi	—
+greet	imperative	affirmative		salută			salutați	
+greet	imperative	negative		nu saluta			nu salutați	
+have	infinitive	infinitive	infinitive	a avea	a avea	a avea	a avea	a avea
+have	gerund	gerund	gerund	având	având	având	având	având
+have	past participle	past participle	past participle	avut	avut	avut	avut	avut
+have	number	number	singular	singular	singular	plural	plural	plural
+have	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+have	indicative		eu	tu	el/ea	noi	voi	ei/ele
+have	indicative	present	am	ai	are	avem	aveți	au
+have	indicative	imperfect	aveam	aveai	avea	aveam	aveați	aveau
+have	indicative	simple perfect	avui	avuși	avu	avurăm	avurăți	avură
+have	indicative	pluperfect	avusem	avuseși	avuse	avuserăm	avuserăți	avuseră
+have	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+have	subjunctive	present	să am	să ai	să aibă	să avem	să aveți	să aibă
+have	imperative		—	tu	—	—	voi	—
+have	imperative	affirmative		ai			aveți	
+have	imperative	negative		nu avea			nu aveți	
+heal	infinitive	infinitive	infinitive	a vindeca	a vindeca	a vindeca	a vindeca	a vindeca
+heal	gerund	gerund	gerund	vindecând	vindecând	vindecând	vindecând	vindecând
+heal	past participle	past participle	past participle	vindecat	vindecat	vindecat	vindecat	vindecat
+heal	number	number	singular	singular	singular	plural	plural	plural
+heal	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+heal	indicative		eu	tu	el/ea	noi	voi	ei/ele
+heal	indicative	present	vindec	vindeci	vindecă	vindecăm	vindecați	vindecă
+heal	indicative	imperfect	vindecam	vindecai	vindeca	vindecam	vindecați	vindecau
+heal	indicative	simple perfect	vindecai	vindecași	vindecă	vindecarăm	vindecarăți	vindecară
+heal	indicative	pluperfect	vindecasem	vindecaseși	vindecase	vindecaserăm	vindecaserăți	vindecaseră
+heal	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+heal	subjunctive	present	să vindec	să vindeci	să vindece	să vindecăm	să vindecați	să vindece
+heal	imperative		—	tu	—	—	voi	—
+heal	imperative	affirmative		vindecă			vindecați	
+heal	imperative	negative		nu vindeca			nu vindecați	
+hear	infinitive	infinitive	infinitive	a auzi	a auzi	a auzi	a auzi	a auzi
+hear	gerund	gerund	gerund	auzind	auzind	auzind	auzind	auzind
+hear	past participle	past participle	past participle	auzit	auzit	auzit	auzit	auzit
+hear	number	number	singular	singular	singular	plural	plural	plural
+hear	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+hear	indicative		eu	tu	el/ea	noi	voi	ei/ele
+hear	indicative	present	aud	auzi	aude	auzim	auziți	aud
+hear	indicative	imperfect	auzeam	auzeai	auzea	auzeam	auzeați	auzeau
+hear	indicative	simple perfect	auzii	auziși	auzi	auzirăm	auzirăți	auziră
+hear	indicative	pluperfect	auzisem	auziseși	auzise	auziserăm	auziserăți	auziseră
+hear	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+hear	subjunctive	present	să aud	să auzi	să audă	să auzim	să auziți	să audă
+hear	imperative		—	tu	—	—	voi	—
+hear	imperative	affirmative		aude			auziți	
+hear	imperative	negative		nu auzi			nu auziți	
+heat	infinitive	infinitive	infinitive	a încălzi	a încălzi	a încălzi	a încălzi	a încălzi
+heat	gerund	gerund	gerund	încălzind	încălzind	încălzind	încălzind	încălzind
+heat	past participle	past participle	past participle	încălzit	încălzit	încălzit	încălzit	încălzit
+heat	number	number	singular	singular	singular	plural	plural	plural
+heat	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+heat	indicative		eu	tu	el/ea	noi	voi	ei/ele
+heat	indicative	present	încălzesc	încălzești	încălzește	încălzim	încălziți	încălzesc
+heat	indicative	imperfect	încălzeam	încălzeai	încălzea	încălzeam	încălzeați	încălzeau
+heat	indicative	simple perfect	încălzii	încălziși	încălzi	încălzirăm	încălzirăți	încălziră
+heat	indicative	pluperfect	încălzisem	încălziseși	încălzise	încălziserăm	încălziserăți	încălziseră
+heat	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+heat	subjunctive	present	să încălzesc	să încălzești	să încălzească	să încălzim	să încălziți	să încălzească
+heat	imperative		—	tu	—	—	voi	—
+heat	imperative	affirmative		încălzește			încălziți	
+heat	imperative	negative		nu încălzi			nu încălziți	
+know	infinitive	infinitive	infinitive	a ști	a ști	a ști	a ști	a ști
+know	gerund	gerund	gerund	știind	știind	știind	știind	știind
+know	past participle	past participle	past participle	știut	știut	știut	știut	știut
+know	number	number	singular	singular	singular	plural	plural	plural
+know	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+know	indicative		eu	tu	el/ea	noi	voi	ei/ele
+know	indicative	present	știu	știi	știe	știm	știți	știu
+know	indicative	imperfect	știam	știai	știa	știam	știați	știau
+know	indicative	simple perfect	știui	știuși	știu	știurăm	știurăți	știură
+know	indicative	pluperfect	știusem	știuseși	știuse	știuserăm	știuserăți	știuseră
+know	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+know	subjunctive	present	să știu	să știi	să știe	să știm	să știți	să știe
+know	imperative		—	tu	—	—	voi	—
+know	imperative	affirmative		știe			știți	
+know	imperative	negative		nu ști			nu știți	
+know	infinitive	infinitive	infinitive	a ști	a ști	a ști	a ști	a ști
+know	gerund	gerund	gerund	știind	știind	știind	știind	știind
+know	past participle	past participle	past participle	știut	știut	știut	știut	știut
+know	number	number	singular	singular	singular	plural	plural	plural
+know	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+know	indicative		eu	tu	el/ea	noi	voi	ei/ele
+know	indicative	present	știu	știi	știe	știm	știți	știu
+know	indicative	imperfect	știam	știai	știa	știam	știați	știau
+know	indicative	simple perfect	știui	știuși	știu	știurăm	știurăți	știură
+know	indicative	pluperfect	știusem	știuseși	știuse	știuserăm	știuserăți	știuseră
+know	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+know	subjunctive	present	să știu	să știi	să știe	să știm	să știți	să știe
+know	imperative		—	tu	—	—	voi	—
+know	imperative	affirmative		știe			știți	
+know	imperative	negative		nu ști			nu știți	
+offer	infinitive	infinitive	infinitive	a oferi	a oferi	a oferi	a oferi	a oferi
+offer	gerund	gerund	gerund	oferind	oferind	oferind	oferind	oferind
+offer	past participle	past participle	past participle	oferit	oferit	oferit	oferit	oferit
+offer	number	number	singular	singular	singular	plural	plural	plural
+offer	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+offer	indicative		eu	tu	el/ea	noi	voi	ei/ele
+offer	indicative	present	ofer	oferi	oferă	oferim	oferiți	oferă
+offer	indicative	imperfect	ofeream	ofereai	oferea	ofeream	ofereați	ofereau
+offer	indicative	simple perfect	oferii	oferiși	oferi	oferirăm	oferirăți	oferiră
+offer	indicative	pluperfect	oferisem	oferiseși	oferise	oferiserăm	oferiserăți	oferiseră
+offer	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+offer	subjunctive	present	să ofer	să oferi	să ofere	să oferim	să oferiți	să ofere
+offer	imperative		—	tu	—	—	voi	—
+offer	imperative	affirmative		oferă			oferiți	
+offer	imperative	negative		nu oferi			nu oferiți	
+read	infinitive	infinitive	infinitive	a citi	a citi	a citi	a citi	a citi
+read	gerund	gerund	gerund	citind	citind	citind	citind	citind
+read	past participle	past participle	past participle	citit	citit	citit	citit	citit
+read	number	number	singular	singular	singular	plural	plural	plural
+read	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+read	indicative		eu	tu	el/ea	noi	voi	ei/ele
+read	indicative	present	citesc	citești	citește	citim	citiți	citesc
+read	indicative	imperfect	citeam	citeai	citea	citeam	citeați	citeau
+read	indicative	simple perfect	citii	citiși	citi	citirăm	citirăți	citiră
+read	indicative	pluperfect	citisem	citiseși	citise	citiserăm	citiserăți	citiseră
+read	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+read	subjunctive	present	să citesc	să citești	să citească	să citim	să citiți	să citească
+read	imperative		—	tu	—	—	voi	—
+read	imperative	affirmative		citește			citiți	
+read	imperative	negative		nu citi			nu citiți	
+resemble	infinitive	infinitive	infinitive	a semăna	a semăna	a semăna	a semăna	a semăna
+resemble	gerund	gerund	gerund	semănând	semănând	semănând	semănând	semănând
+resemble	past participle	past participle	past participle	semănat	semănat	semănat	semănat	semănat
+resemble	number	number	singular	singular	singular	plural	plural	plural
+resemble	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+resemble	indicative		eu	tu	el/ea	noi	voi	ei/ele
+resemble	indicative	present	semănseamăn	semeni	seamănă	semănăm	semănați	seamănă
+resemble	indicative	imperfect	semănam	semănai	semăna	semănam	semănați	semănau
+resemble	indicative	simple perfect	semănai	semănași	semănă	semănarăm	semănarăți	semănară
+resemble	indicative	pluperfect	semănasem	semănaseși	semănase	semănaserăm	semănaserăți	semănaseră
+resemble	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+resemble	subjunctive	present	să semănsă seamăn	să semeni	să semene	să semănăm	să semănați	să semene
+resemble	imperative		—	tu	—	—	voi	—
+resemble	imperative	affirmative		seamănă			semănați	
+resemble	imperative	negative		nu semăna			nu semănați	
+resemble	infinitive	infinitive	infinitive	a semăna	a semăna	a semăna	a semăna	a semăna
+resemble	gerund	gerund	gerund	semănând	semănând	semănând	semănând	semănând
+resemble	past participle	past participle	past participle	semănat	semănat	semănat	semănat	semănat
+resemble	number	number	singular	singular	singular	plural	plural	plural
+resemble	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+resemble	indicative		eu	tu	el/ea	noi	voi	ei/ele
+resemble	indicative	present	semănseamăn	semeni	seamănă	semănăm	semănați	seamănă
+resemble	indicative	imperfect	semănam	semănai	semăna	semănam	semănați	semănau
+resemble	indicative	simple perfect	semănai	semănași	semănă	semănarăm	semănarăți	semănară
+resemble	indicative	pluperfect	semănasem	semănaseși	semănase	semănaserăm	semănaserăți	semănaseră
+resemble	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+resemble	subjunctive	present	să semănsă seamăn	să semeni	să semene	să semănăm	să semănați	să semene
+resemble	imperative		—	tu	—	—	voi	—
+resemble	imperative	affirmative		seamănă			semănați	
+resemble	imperative	negative		nu semăna			nu semănați	
+rest	infinitive	infinitive	infinitive	a odihni	a odihni	a odihni	a odihni	a odihni
+rest	gerund	gerund	gerund	odihnind	odihnind	odihnind	odihnind	odihnind
+rest	past participle	past participle	past participle	odihnit	odihnit	odihnit	odihnit	odihnit
+rest	number	number	singular	singular	singular	plural	plural	plural
+rest	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+rest	indicative		eu	tu	el/ea	noi	voi	ei/ele
+rest	indicative	present	odihnesc	odihnești	odihnește	odihnim	odihniți	odihnesc
+rest	indicative	imperfect	odihneam	odihneai	odihnea	odihneam	odihneați	odihneau
+rest	indicative	simple perfect	odihnii	odihniși	odihni	odihnirăm	odihnirăți	odihniră
+rest	indicative	pluperfect	odihnisem	odihniseși	odihnise	odihniserăm	odihniserăți	odihniseră
+rest	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+rest	subjunctive	present	să odihnesc	să odihnești	să odihnească	să odihnim	să odihniți	să odihnească
+rest	imperative		—	tu	—	—	voi	—
+rest	imperative	affirmative		odihnește			odihniți	
+rest	imperative	negative		nu odihni			nu odihniți	
+see	infinitive	infinitive	infinitive	a vedea	a vedea	a vedea	a vedea	a vedea
+see	gerund	gerund	gerund	văzând	văzând	văzând	văzând	văzând
+see	past participle	past participle	past participle	văzut	văzut	văzut	văzut	văzut
+see	number	number	singular	singular	singular	plural	plural	plural
+see	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+see	indicative		eu	tu	el/ea	noi	voi	ei/ele
+see	indicative	present	vădvăz	vezi	vede	vedem	vedeți	văd
+see	indicative	imperfect	vedeam	vedeai	vedea	vedeam	vedeați	vedeau
+see	indicative	simple perfect	văzui	văzuși	văzu	văzurăm	văzurăți	văzură
+see	indicative	pluperfect	văzusem	văzuseși	văzuse	văzuserăm	văzuserăți	văzuseră
+see	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+see	subjunctive	present	să vădsă văz	să vezi	să vadăsă vază	să vedem	să vedeți	să vadăsă vază
+see	imperative		—	tu	—	—	voi	—
+see	imperative	affirmative		vezi			vedeți	
+see	imperative	negative		nu vedea			nu vedeți	
+shout	infinitive	infinitive	infinitive	a striga	a striga	a striga	a striga	a striga
+shout	gerund	gerund	gerund	strigând	strigând	strigând	strigând	strigând
+shout	past participle	past participle	past participle	strigat	strigat	strigat	strigat	strigat
+shout	number	number	singular	singular	singular	plural	plural	plural
+shout	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+shout	indicative		eu	tu	el/ea	noi	voi	ei/ele
+shout	indicative	present	strig	strigi	strigă	strigăm	strigați	strigă
+shout	indicative	imperfect	strigam	strigai	striga	strigam	strigați	strigau
+shout	indicative	simple perfect	strigai	strigași	strigă	strigarăm	strigarăți	strigară
+shout	indicative	pluperfect	strigasem	strigaseși	strigase	strigaserăm	strigaserăți	strigaseră
+shout	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+shout	subjunctive	present	să strig	să strigi	să strige	să strigăm	să strigați	să strige
+shout	imperative		—	tu	—	—	voi	—
+shout	imperative	affirmative		strigă			strigați	
+shout	imperative	negative		nu striga			nu strigați	
+show	infinitive	infinitive	infinitive	a arăta	a arăta	a arăta	a arăta	a arăta
+show	gerund	gerund	gerund	arătând	arătând	arătând	arătând	arătând
+show	past participle	past participle	past participle	arătat	arătat	arătat	arătat	arătat
+show	number	number	singular	singular	singular	plural	plural	plural
+show	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+show	indicative		eu	tu	el/ea	noi	voi	ei/ele
+show	indicative	present	arăt	arăți	arată	arătăm	arătați	arată
+show	indicative	imperfect	arătam	arătai	arăta	arătam	arătați	arătau
+show	indicative	simple perfect	arătai	arătași	arătă	arătarăm	arătarăți	arătară
+show	indicative	pluperfect	arătasem	arătaseși	arătase	arătaserăm	arătaserăți	arătaseră
+show	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+show	subjunctive	present	să arăt	să arăți	să arate	să arătăm	să arătați	să arate
+show	imperative		—	tu	—	—	voi	—
+show	imperative	affirmative		arată			arătați	
+show	imperative	negative		nu arăta			nu arătați	
+sing	infinitive	infinitive	infinitive	a cânta	a cânta	a cânta	a cânta	a cânta
+sing	gerund	gerund	gerund	cântând	cântând	cântând	cântând	cântând
+sing	past participle	past participle	past participle	cântat	cântat	cântat	cântat	cântat
+sing	number	number	singular	singular	singular	plural	plural	plural
+sing	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+sing	indicative		eu	tu	el/ea	noi	voi	ei/ele
+sing	indicative	present	cânt	cânți	cântă	cântăm	cântați	cântă
+sing	indicative	imperfect	cântam	cântai	cânta	cântam	cântați	cântau
+sing	indicative	simple perfect	cântai	cântași	cântă	cântarăm	cântarăți	cântară
+sing	indicative	pluperfect	cântasem	cântaseși	cântase	cântaserăm	cântaserăți	cântaseră
+sing	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+sing	subjunctive	present	să cânt	să cânți	să cânte	să cântăm	să cântați	să cânte
+sing	imperative		—	tu	—	—	voi	—
+sing	imperative	affirmative		cântă			cântați	
+sing	imperative	negative		nu cânta			nu cântați	
+sit	infinitive	infinitive	infinitive	a sta	a sta	a sta	a sta	a sta
+sit	gerund	gerund	gerund	stând	stând	stând	stând	stând
+sit	past participle	past participle	past participle	stat	stat	stat	stat	stat
+sit	number	number	singular	singular	singular	plural	plural	plural
+sit	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+sit	indicative		eu	tu	el/ea	noi	voi	ei/ele
+sit	indicative	present	stau	stai	stă	stăm	stați	stau
+sit	indicative	imperfect	stăteam	stăteai	stătea	stăteam	stăteați	stăteau
+sit	indicative	simple perfect	stătui	stătuși	stătu	stăturăm	stăturăți	stătură
+sit	indicative	pluperfect	stătusem	stătuseși	stătuse	stătuserăm	stătuserăți	stătuseră
+sit	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+sit	subjunctive	present	să stau	să stai	să stea	să stăm	să stați	să stea
+sit	imperative		—	tu	—	—	voi	—
+sit	imperative	affirmative		stai			stați	
+sit	imperative	negative		nu sta			nu stați	
+sleep	infinitive	infinitive	infinitive	a dormi	a dormi	a dormi	a dormi	a dormi
+sleep	gerund	gerund	gerund	dormind	dormind	dormind	dormind	dormind
+sleep	past participle	past participle	past participle	dormit	dormit	dormit	dormit	dormit
+sleep	number	number	singular	singular	singular	plural	plural	plural
+sleep	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+sleep	indicative		eu	tu	el/ea	noi	voi	ei/ele
+sleep	indicative	present	dorm	dormi	doarme	dormim	dormiți	dorm
+sleep	indicative	imperfect	dormeam	dormeai	dormea	dormeam	dormeați	dormeau
+sleep	indicative	simple perfect	dormii	dormiși	dormi	dormirăm	dormirăți	dormiră
+sleep	indicative	pluperfect	dormisem	dormiseși	dormise	dormiserăm	dormiserăți	dormiseră
+sleep	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+sleep	subjunctive	present	să dorm	să dormi	să doarmă	să dormim	să dormiți	să doarmă
+sleep	imperative		—	tu	—	—	voi	—
+sleep	imperative	affirmative		doarme			dormiți	
+sleep	imperative	negative		nu dormi			nu dormiți	
+frighten	infinitive	infinitive	infinitive	a speria	a speria	a speria	a speria	a speria
+frighten	gerund	gerund	gerund	speriind	speriind	speriind	speriind	speriind
+frighten	past participle	past participle	past participle	speriat	speriat	speriat	speriat	speriat
+frighten	number	number	singular	singular	singular	plural	plural	plural
+frighten	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+frighten	indicative		eu	tu	el/ea	noi	voi	ei/ele
+frighten	indicative	present	sperii	sperii	sperie	speriem	speriați	sperie
+frighten	indicative	imperfect	speriam	speriai	speria	speriam	speriați	speriau
+frighten	indicative	simple perfect	speriai	speriași	sperie	speriarăm	speriarăți	speriară
+frighten	indicative	pluperfect	speriasem	speriaseși	speriase	speriaserăm	speriaserăți	speriaseră
+frighten	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+frighten	subjunctive	present	să sperii	să sperii	să sperie	să speriem	să speriați	să sperie
+frighten	imperative		—	tu	—	—	voi	—
+frighten	imperative	affirmative		sperie			speriați	
+frighten	imperative	negative		nu speria			nu speriați	
+surprise	infinitive	infinitive	infinitive	a surprinde	a surprinde	a surprinde	a surprinde	a surprinde
+surprise	gerund	gerund	gerund	surprinzând	surprinzând	surprinzând	surprinzând	surprinzând
+surprise	past participle	past participle	past participle	surprins	surprins	surprins	surprins	surprins
+surprise	number	number	singular	singular	singular	plural	plural	plural
+surprise	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+surprise	indicative		eu	tu	el/ea	noi	voi	ei/ele
+surprise	indicative	present	surprind	surprinzi	surprinde	surprindem	surprindeți	surprind
+surprise	indicative	imperfect	surprindeam	surprindeai	surprindea	surprindeam	surprindeați	surprindeau
+surprise	indicative	simple perfect	surprinsei	surprinseși	surprinse	surprinserăm	surprinserăți	surprinseră
+surprise	indicative	pluperfect	surprinsesem	surprinseseși	surprinsese	surprinseserăm	surprinseserăți	surprinseseră
+surprise	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+surprise	subjunctive	present	să surprind	să surprinzi	să surprindă	să surprindem	să surprindeți	să surprindă
+surprise	imperative		—	tu	—	—	voi	—
+surprise	imperative	affirmative		surprinde			surprindeți	
+surprise	imperative	negative		nu surprinde			nu surprindeți	
+swim	infinitive	infinitive	infinitive	a înota	a înota	a înota	a înota	a înota
+swim	gerund	gerund	gerund	înotând	înotând	înotând	înotând	înotând
+swim	past participle	past participle	past participle	înotat	înotat	înotat	înotat	înotat
+swim	number	number	singular	singular	singular	plural	plural	plural
+swim	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+swim	indicative		eu	tu	el/ea	noi	voi	ei/ele
+swim	indicative	present	înot	înoți	înoată	înotăm	înotați	înoată
+swim	indicative	imperfect	înotam	înotai	înota	înotam	înotați	înotau
+swim	indicative	simple perfect	înotai	înotași	înotă	înotarăm	înotarăți	înotară
+swim	indicative	pluperfect	înotasem	înotaseși	înotase	înotaserăm	înotaserăți	înotaseră
+swim	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+swim	subjunctive	present	să înot	să înoți	să înoate	să înotăm	să înotați	să înoate
+swim	imperative		—	tu	—	—	voi	—
+swim	imperative	affirmative		înoată			înotați	
+swim	imperative	negative		nu înota			nu înotați	
+take	infinitive	infinitive	infinitive	a lua	a lua	a lua	a lua	a lua
+take	gerund	gerund	gerund	luând	luând	luând	luând	luând
+take	past participle	past participle	past participle	luat	luat	luat	luat	luat
+take	number	number	singular	singular	singular	plural	plural	plural
+take	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+take	indicative		eu	tu	el/ea	noi	voi	ei/ele
+take	indicative	present	iau	iei	ia	luăm	luați	iau
+take	indicative	imperfect	luam	luai	lua	luam	luați	luau
+take	indicative	simple perfect	luai	luași	luă	luarăm	luarăți	luară
+take	indicative	pluperfect	luasem	luaseși	luase	luaserăm	luaserăți	luaseră
+take	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+take	subjunctive	present	să iau	să iei	să ia	să luăm	să luați	să ia
+take	imperative		—	tu	—	—	voi	—
+take	imperative	affirmative		ia			luați	
+take	imperative	negative		nu lua			nu luați	
+throw	infinitive	infinitive	infinitive	a azvârli	a azvârli	a azvârli	a azvârli	a azvârli
+throw	gerund	gerund	gerund	azvârlind	azvârlind	azvârlind	azvârlind	azvârlind
+throw	past participle	past participle	past participle	azvârlit	azvârlit	azvârlit	azvârlit	azvârlit
+throw	number	number	singular	singular	singular	plural	plural	plural
+throw	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+throw	indicative		eu	tu	el/ea	noi	voi	ei/ele
+throw	indicative	present	azvârl	azvârli	azvârle	azvârlim	azvârliți	azvârl
+throw	indicative	imperfect	azvârleam	azvârleai	azvârlea	azvârleam	azvârleați	azvârleau
+throw	indicative	simple perfect	azvârlii	azvârliși	azvârli	azvârlirăm	azvârlirăți	azvârliră
+throw	indicative	pluperfect	azvârlisem	azvârliseși	azvârlise	azvârliserăm	azvârliserăți	azvârliseră
+throw	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+throw	subjunctive	present	să azvârl	să azvârli	să azvârle	să azvârlim	să azvârliți	să azvârle
+throw	imperative		—	tu	—	—	voi	—
+throw	imperative	affirmative		azvârle			azvârliți	
+throw	imperative	negative		nu azvârli			nu azvârliți	
+wait	infinitive	infinitive	infinitive	a aștepta	a aștepta	a aștepta	a aștepta	a aștepta
+wait	gerund	gerund	gerund	așteptând	așteptând	așteptând	așteptând	așteptând
+wait	past participle	past participle	past participle	așteptat	așteptat	așteptat	așteptat	așteptat
+wait	number	number	singular	singular	singular	plural	plural	plural
+wait	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+wait	indicative		eu	tu	el/ea	noi	voi	ei/ele
+wait	indicative	present	aștept	aștepți	așteaptă	așteptăm	așteptați	așteaptă
+wait	indicative	imperfect	așteptam	așteptai	aștepta	așteptam	așteptați	așteptau
+wait	indicative	simple perfect	așteptai	așteptași	așteptă	așteptarăm	așteptarăți	așteptară
+wait	indicative	pluperfect	așteptasem	așteptaseși	așteptase	așteptaserăm	așteptaserăți	așteptaseră
+wait	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+wait	subjunctive	present	să aștept	să aștepți	să aștepte	să așteptăm	să așteptați	să aștepte
+wait	imperative		—	tu	—	—	voi	—
+wait	imperative	affirmative		așteaptă			așteptați	
+wait	imperative	negative		nu aștepta			nu așteptați	
+walk	infinitive	infinitive	infinitive	a merge	a merge	a merge	a merge	a merge
+walk	gerund	gerund	gerund	mergând	mergând	mergând	mergând	mergând
+walk	past participle	past participle	past participle	mers	mers	mers	mers	mers
+walk	number	number	singular	singular	singular	plural	plural	plural
+walk	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+walk	indicative		eu	tu	el/ea	noi	voi	ei/ele
+walk	indicative	present	merg	mergi	merge	mergem	mergeți	merg
+walk	indicative	imperfect	mergeam	mergeai	mergea	mergeam	mergeați	mergeau
+walk	indicative	simple perfect	mersei	merseși	merse	merserăm	merserăți	merseră
+walk	indicative	pluperfect	mersesem	merseseși	mersese	merseserăm	merseserăți	merseseră
+walk	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+walk	subjunctive	present	să merg	să mergi	să meargă	să mergem	să mergeți	să meargă
+walk	imperative		—	tu	—	—	voi	—
+walk	imperative	affirmative		mergi			mergeți	
+walk	imperative	negative		nu merge			nu mergeți	
+want	infinitive	infinitive	infinitive	a vrea	a vrea	a vrea	a vrea	a vrea
+want	gerund	gerund	gerund	vrând	vrând	vrând	vrând	vrând
+want	past participle	past participle	past participle	vrut	vrut	vrut	vrut	vrut
+want	number	number	singular	singular	singular	plural	plural	plural
+want	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+want	indicative		eu	tu	el/ea	noi	voi	ei/ele
+want	indicative	present	vreau	vrei	vrea	vrem	vreți	vor
+want	indicative	imperfect	vream	vreai	vrea	vream	vreați	vreau
+want	indicative	simple perfect	vrui	vruși	vruse	vrurăm	vrurăți	vrură
+want	indicative	pluperfect	vrusem	vruseși	vruse	vruserăm	vruserăți	vruseră
+want	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+want	subjunctive	present	să vreau	să vrei	să vrea	să vrem	să vreți	să vrea
+want	imperative		—	tu	—	—	voi	—
+want	imperative	affirmative		vrei			vreți	
+want	imperative	negative		nu vrea			nu vreți	
+warm	infinitive	infinitive	infinitive	a încălzi	a încălzi	a încălzi	a încălzi	a încălzi
+warm	gerund	gerund	gerund	încălzind	încălzind	încălzind	încălzind	încălzind
+warm	past participle	past participle	past participle	încălzit	încălzit	încălzit	încălzit	încălzit
+warm	number	number	singular	singular	singular	plural	plural	plural
+warm	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+warm	indicative		eu	tu	el/ea	noi	voi	ei/ele
+warm	indicative	present	încălzesc	încălzești	încălzește	încălzim	încălziți	încălzesc
+warm	indicative	imperfect	încălzeam	încălzeai	încălzea	încălzeam	încălzeați	încălzeau
+warm	indicative	simple perfect	încălzii	încălziși	încălzi	încălzirăm	încălzirăți	încălziră
+warm	indicative	pluperfect	încălzisem	încălziseși	încălzise	încălziserăm	încălziserăți	încălziseră
+warm	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+warm	subjunctive	present	să încălzesc	să încălzești	să încălzească	să încălzim	să încălziți	să încălzească
+warm	imperative		—	tu	—	—	voi	—
+warm	imperative	affirmative		încălzește			încălziți	
+warm	imperative	negative		nu încălzi			nu încălziți	
+watch	infinitive	infinitive	infinitive	a privi	a privi	a privi	a privi	a privi
+watch	gerund	gerund	gerund	privind	privind	privind	privind	privind
+watch	past participle	past participle	past participle	privit	privit	privit	privit	privit
+watch	number	number	singular	singular	singular	plural	plural	plural
+watch	person	person	1st person	2nd person	3rd person	1st person	2nd person	3rd person
+watch	indicative		eu	tu	el/ea	noi	voi	ei/ele
+watch	indicative	present	privesc	privești	privește	privim	priviți	privesc
+watch	indicative	imperfect	priveam	priveai	privea	priveam	priveați	priveau
+watch	indicative	simple perfect	privii	priviși	privi	privirăm	privirăți	priviră
+watch	indicative	pluperfect	privisem	priviseși	privise	priviserăm	priviserăți	priviseră
+watch	subjunctive		eu	tu	el/ea	noi	voi	ei/ele
+watch	subjunctive	present	să privesc	să privești	să privească	să privim	să priviți	să privească
+watch	imperative		—	tu	—	—	voi	—
+watch	imperative	affirmative		privește			priviți	
+watch	imperative	negative		nu privi			nu priviți	

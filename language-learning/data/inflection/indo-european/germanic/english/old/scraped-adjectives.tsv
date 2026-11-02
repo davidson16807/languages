@@ -183,3 +183,102 @@ broken	accusative	brocene	brocena, brocene	brocen
 broken	genitive	brocenra	brocenra	brocenra
 broken	dative	brocenum	brocenum	brocenum
 broken	instrumental	brocenum	brocenum	brocenum
+all	singular	masculine	feminine	neuter
+all	nominative	eall	eall	eall
+all	accusative	ealne	ealle	eall
+all	genitive	ealles	ealre	ealles
+all	dative	eallum	ealre	eallum
+all	instrumental	ealle	ealre	ealle
+all	plural	masculine	feminine	neuter
+all	nominative	ealle	ealla, ealle	eall
+all	accusative	ealle	ealla, ealle	eall
+all	genitive	ealra	ealra	ealra
+all	dative	eallum	eallum	eallum
+all	instrumental	eallum	eallum	eallum
+good	singular	masculine	feminine	neuter
+good	nominative	gōd	gōd	gōd
+good	accusative	gōdne	gōde	gōd
+good	genitive	gōdes	gōdre	gōdes
+good	dative	gōdum	gōdre	gōdum
+good	instrumental	gōde	gōdre	gōde
+good	plural	masculine	feminine	neuter
+good	nominative	gōde	gōda, gōde	gōd
+good	accusative	gōde	gōda, gōde	gōd
+good	genitive	gōdra	gōdra	gōdra
+good	dative	gōdum	gōdum	gōdum
+good	instrumental	gōdum	gōdum	gōdum
+good		singular	plural
+good	nominative	gōd	gōd
+good	accusative	gōd	gōd
+good	genitive	gōdes	gōda
+good	dative	gōde	gōdum
+good		singular	plural
+good	nominative	god	godu
+good	accusative	god	godu
+good	genitive	godes	goda
+good	dative	gode	godum
+good		singular	plural
+good	nominative	God	—
+good	accusative	God	—
+good	genitive	Godes	—
+good	dative	Gode	—
+loud	singular	masculine	feminine	neuter
+loud	nominative	hlūd	hlūd	hlūd
+loud	accusative	hlūdne	hlūde	hlūd
+loud	genitive	hlūdes	hlūdre	hlūdes
+loud	dative	hlūdum	hlūdre	hlūdum
+loud	instrumental	hlūde	hlūdre	hlūde
+loud	plural	masculine	feminine	neuter
+loud	nominative	hlūde	hlūda, hlūde	hlūd
+loud	accusative	hlūde	hlūda, hlūde	hlūd
+loud	genitive	hlūdra	hlūdra	hlūdra
+loud	dative	hlūdum	hlūdum	hlūdum
+loud	instrumental	hlūdum	hlūdum	hlūdum
+many	singular	masculine	feminine	neuter
+many	nominative	moniġ	moniġ	moniġ
+many	accusative	moniġne	moniġe	moniġ
+many	genitive	moniġes	moniġre	moniġes
+many	dative	moniġum	moniġre	moniġum
+many	instrumental	moniġe	moniġre	moniġe
+many	plural	masculine	feminine	neuter
+many	nominative	moniġe	moniġa, moniġe	moniġ
+many	accusative	moniġe	moniġa, moniġe	moniġ
+many	genitive	moniġra	moniġra	moniġra
+many	dative	moniġum	moniġum	moniġum
+many	instrumental	moniġum	moniġum	moniġum
+other	singular	masculine	feminine	neuter
+other	nominative	ōþer	ōþru, ōþro	ōþer
+other	accusative	ōþerne	ōþre	ōþer
+other	genitive	ōþres	ōþerre	ōþres
+other	dative	ōþrum	ōþerre	ōþrum
+other	instrumental	ōþre	ōþerre	ōþre
+other	plural	masculine	feminine	neuter
+other	nominative	ōþre	ōþra, ōþre	ōþru, ōþro
+other	accusative	ōþre	ōþra, ōþre	ōþru, ōþro
+other	genitive	ōþerra	ōþerra	ōþerra
+other	dative	ōþrum	ōþrum	ōþrum
+other	instrumental	ōþrum	ōþrum	ōþrum
+red	singular	masculine	feminine	neuter
+red	nominative	rēad	rēad	rēad
+red	accusative	rēadne	rēade	rēad
+red	genitive	rēades	rēadre	rēades
+red	dative	rēadum	rēadre	rēadum
+red	instrumental	rēade	rēadre	rēade
+red	plural	masculine	feminine	neuter
+red	nominative	rēade	rēada, rēade	rēad
+red	accusative	rēade	rēada, rēade	rēad
+red	genitive	rēadra	rēadra	rēadra
+red	dative	rēadum	rēadum	rēadum
+red	instrumental	rēadum	rēadum	rēadum
+strong	singular	masculine	feminine	neuter
+strong	nominative	strang	strang	strang
+strong	accusative	strangne	strange	strang
+strong	genitive	stranges	strangre	stranges
+strong	dative	strangum	strangre	strangum
+strong	instrumental	strange	strangre	strange
+strong	plural	masculine	feminine	neuter
+strong	nominative	strange	stranga, strange	strang
+strong	accusative	strange	stranga, strange	strang
+strong	genitive	strangra	strangra	strangra
+strong	dative	strangum	strangum	strangum
+strong	instrumental	strangum	strangum	strangum

@@ -1062,3 +1062,63 @@ west	singular	indefinite	väst	västs
 west	singular	definite	västen	västens
 west	plural	indefinite	västar	västars
 west	plural	definite	västarna	västarnas
+flamingo			nominative	genitive
+flamingo	singular	indefinite	flamingo	flamingos
+flamingo	singular	definite	flamingon	flamingons
+flamingo	plural	indefinite	flamingor	flamingors
+flamingo	plural	definite	flamingorna	flamingornas
+bee			nominative	genitive
+bee	singular	indefinite	bi	bis
+bee	singular	definite	biet	biets
+bee	plural	indefinite	bin	bins
+bee	plural	definite	bina	binas
+city			nominative	genitive
+city	singular	indefinite	stad	stads
+city	singular	definite	staden, stan	stadens, stans
+city	plural	indefinite	städer	städers
+city	plural	definite	städerna	städernas
+shirt			nominative	genitive
+shirt	singular	indefinite	skjorta	skjortas
+shirt	singular	definite	skjortan	skjortans
+shirt	plural	indefinite	skjortor	skjortors
+shirt	plural	definite	skjortorna	skjortornas
+present			nominative	genitive
+present	singular	indefinite	present	presents
+present	singular	definite	presenten	presentens
+present	plural	indefinite	presenter	presenters
+present	plural	definite	presenterna	presenternas
+king			nominative	genitive
+king	singular	indefinite	kung	kungs
+king	singular	definite	kungen	kungens
+king	plural	indefinite	kungar	kungars
+king	plural	definite	kungarna	kungarnas
+maternal-grandfather			nominative	genitive
+maternal-grandfather	singular	indefinite	morfar	morfars
+maternal-grandfather	singular	definite	morfadern	morfaderns
+maternal-grandfather	plural	indefinite	morfäder	morfäders
+maternal-grandfather	plural	definite	morfäderna	morfädernas
+maternal-grandmother			nominative	genitive
+maternal-grandmother	singular	indefinite	mormor	mormors
+maternal-grandmother	singular	definite	mormodern	mormoderns
+maternal-grandmother	plural	indefinite	mormödrar	mormödrars
+maternal-grandmother	plural	definite	mormödrarna	mormödrarnas
+night			nominative	genitive
+night	singular	indefinite	natt	natts
+night	singular	definite	natten	nattens
+night	plural	indefinite	nätter	nätters
+night	plural	definite	nätterna	nätternas
+paternal-grandfather			nominative	genitive
+paternal-grandfather	singular	indefinite	farfar	farfars
+paternal-grandfather	singular	definite	farfadern	farfaderns
+paternal-grandfather	plural	indefinite	farfäder	farfäders
+paternal-grandfather	plural	definite	farfäderna	farfädernas
+paternal-grandmother			nominative	genitive
+paternal-grandmother	singular	indefinite	farmor	farmors
+paternal-grandmother	singular	definite	farmodern	farmoderns
+paternal-grandmother	plural	indefinite	farmödrar	farmödrars
+paternal-grandmother	plural	definite	farmödrarna	farmödrarnas
+planet			nominative	genitive
+planet	singular	indefinite	planet	planets
+planet	singular	definite	planeten	planetens
+planet	plural	indefinite	planeter	planeters
+planet	plural	definite	planeterna	planeternas

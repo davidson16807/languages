@@ -196,6 +196,21 @@ book	singular	construct	סֵפֶר־	third	סִפְרוֹ	סִפְרָהּ	סִ�
 book	plural	indefinite	סְפָרִים	first	ספריי / סְפָרַי	ספריי / סְפָרַי	סְפָרֵינוּ	סְפָרֵינוּ
 book	plural	definite	הַסְּפָרִים	second	סְפָרֶיךָ	ספרייך / סְפָרַיִךְ	סִפְרֵיכֶם	סִפְרֵיכֶן
 book	plural	construct	סִפְרֵי־	third	סְפָרָיו	סְפָרֶיהָ	סִפְרֵיהֶם	סִפְרֵיהֶן
+book		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+book	number:	state:	form	person:	singular	singular	plural	plural
+book	number:	state:	form	person:	m	f	m	f
+book	masculine singular	indefinite	סַפָּר	first	סַפָּרִי	סַפָּרִי	סַפָּרֵנוּ	סַפָּרֵנוּ
+book	masculine singular	definite	הַסַּפָּר	second	סַפָּרְךָ	סַפָּרֵךְ	סַפַּרְכֶם	סַפַּרְכֶן
+book	masculine singular	construct	סַפַּר־	third	סַפָּרוֹ	סַפָּרָהּ	סַפָּרָם	סַפָּרָן
+book	feminine singular	indefinite	סַפָּרִית	first	סַפָּרִיתִי	סַפָּרִיתִי	סַפָּרִיתֵנוּ	סַפָּרִיתֵנוּ
+book	feminine singular	definite	הַסַּפָּרִית	second	סַפָּרִיתְךָ	סַפָּרִיתֵךְ	סַפָּרִיתְכֶם	סַפָּרִיתְכֶן
+book	feminine singular	construct	סַפָּרִית־	third	סַפָּרִיתוֹ	סַפָּרִיתָהּ	סַפָּרִיתָם	סַפָּרִיתָן
+book	masculine plural	indefinite	סַפָּרִים	first	ספריי / סַפָּרַי	ספריי / סַפָּרַי	סַפָּרֵינוּ	סַפָּרֵינוּ
+book	masculine plural	definite	הַסַּפָּרִים	second	סַפָּרֶיךָ	ספרייך / סַפָּרַיִךְ	סַפָּרֵיכֶם	סַפָּרֵיכֶן
+book	masculine plural	construct	סַפָּרֵי־	third	סַפָּרָיו	סַפָּרֶיהָ	סַפָּרֵיהֶם	סַפָּרֵיהֶן
+book	feminine plural	indefinite	סַפָּרִיּוֹת	first	ספריותיי / סַפָּרִיּוֹתַי	ספריותיי / סַפָּרִיּוֹתַי	סַפָּרִיּוֹתֵינוּ	סַפָּרִיּוֹתֵינוּ
+book	feminine plural	definite	הַסַּפָּרִיּוֹת	second	סַפָּרִיּוֹתֶיךָ	ספריותייך / סַפָּרִיּוֹתַיִךְ	סַפָּרִיּוֹתֵיכֶם	סַפָּרִיּוֹתֵיכֶן
+book	feminine plural	construct	סַפָּרִיּוֹת־	third	סַפָּרִיּוֹתָיו	סַפָּרִיּוֹתֶיהָ	סַפָּרִיּוֹתֵיהֶם	סַפָּרִיּוֹתֵיהֶן
 clothing		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
 clothing	number:	state:	form	person:	singular	singular	plural	plural
 clothing	number:	state:	form	person:	m	f	m	f
@@ -1012,3 +1027,90 @@ west	singular	construct	יַם־	third	יַמּוֹ	יַמָּהּ	יַמָּם	
 west	plural	indefinite	יַמִּים	first	ימיי / יַמַּי	ימיי / יַמַּי	יַמֵּינוּ	יַמֵּינוּ
 west	plural	definite	הַיַּמִּים	second	יַמֶּיךָ	ימייך / יַמַּיִךְ	יַמֵּיכֶם	יַמֵּיכֶן
 west	plural	construct	יַמֵּי־	third	יַמָּיו	יַמֶּיהָ	יַמֵּיהֶם	יַמֵּיהֶן
+bee		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+bee	number:	state:	form	person:	singular	singular	plural	plural
+bee	number:	state:	form	person:	m	f	m	f
+bee	singular	indefinite	דְּבוֹרָה	first	דְּבוֹרָתִי	דְּבוֹרָתִי	דְּבוֹרָתֵנוּ	דְּבוֹרָתֵנוּ
+bee	singular	definite	הַדְּבוֹרָה	second	דְּבוֹרָתְךָ	דְּבוֹרָתֵךְ	דְּבוֹרַתְכֶם	דְּבוֹרַתְכֶן
+bee	singular	construct	דְּבוֹרַת־	third	דְּבוֹרָתוֹ	דְּבוֹרָתָהּ	דְּבוֹרָתָם	דְּבוֹרָתָן
+bee	plural	indefinite	דְּבוֹרִים	first	דבוריי / דְּבוֹרַי	דבוריי / דְּבוֹרַי	דְּבוֹרֵינוּ	דְּבוֹרֵינוּ
+bee	plural	definite	הַדְּבוֹרִים	second	דְּבוֹרֶיךָ	דבורייך / דְּבוֹרַיִךְ	דְּבוֹרֵיכֶם	דְּבוֹרֵיכֶן
+bee	plural	construct	דְּבוֹרֵי־	third	דְּבוֹרָיו	דְּבוֹרֶיהָ	דְּבוֹרֵיהֶם	דְּבוֹרֵיהֶן
+city		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+city	number:	state:	form	person:	singular	singular	plural	plural
+city	number:	state:	form	person:	m	f	m	f
+city	singular	indefinite	עִיר	first	עִירִי	עִירִי	עִירֵנוּ	עִירֵנוּ
+city	singular	definite	הָעִיר	second	עִירְךָ	עִירֵךְ	עִירְכֶם	עִירְכֶן
+city	singular	construct	עִיר־	third	עִירוֹ	עִירָהּ	עִירָם	עִירָן
+city	plural	indefinite	עָרִים	first	עריי / עָרַי	עריי / עָרַי	עָרֵינוּ	עָרֵינוּ
+city	plural	definite	הָעָרִים	second	עָרֶיךָ	ערייך / עָרַיִךְ	עָרֵיכֶם	עָרֵיכֶן
+city	plural	construct	עָרֵי־	third	עָרָיו	עָרֶיהָ	עָרֵיהֶם	עָרֵיהֶן
+earth		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+earth	number:	state:	form	person:	singular	singular	plural	plural
+earth	number:	state:	form	person:	m	f	m	f
+earth	singular	indefinite	אֶרֶץ	first	אַרְצִי	אַרְצִי	אַרְצֵנוּ	אַרְצֵנוּ
+earth	singular	definite	הָאָרֶץ	second	אַרְצְךָ	אַרְצֵךְ	אַרְצְכֶם	אַרְצְכֶן
+earth	singular	construct	אֶרֶץ־	third	אַרְצוֹ	אַרְצָהּ	אַרְצָם	אַרְצָן
+earth	plural	indefinite	אֲרָצוֹת	first	ארצותיי / אַרְצוֹתַי	ארצותיי / אַרְצוֹתַי	אַרְצוֹתֵינוּ	אַרְצוֹתֵינוּ
+earth	plural	definite	הָאֲרָצוֹת	second	אַרְצוֹתֶיךָ	ארצותייך / אַרְצוֹתַיִךְ	אַרְצוֹתֵיכֶם	אַרְצוֹתֵיכֶן
+earth	plural	construct	אַרְצוֹת־	third	אַרְצוֹתָיו	אַרְצוֹתֶיהָ	אַרְצוֹתֵיהֶם, אַרְצוֹתָם	אַרְצוֹתֵיהֶן, אַרְצוֹתָן
+idea		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+idea	number:	state:	form	person:	singular	singular	plural	plural
+idea	number:	state:	form	person:	m	f	m	f
+idea	singular	indefinite	רַעֲיוֹן	first	רַעֲיוֹנִי	רַעֲיוֹנִי	רַעֲיוֹנֵנוּ	רַעֲיוֹנֵנוּ
+idea	singular	definite	הָרַעֲיוֹן	second	רַעֲיוֹנְךָ	רַעֲיוֹנֵךְ	רַעֲיוֹנְכֶם	רַעֲיוֹנְכֶן
+idea	singular	construct	רַעֲיוֹן־	third	רַעֲיוֹנוֹ	רַעֲיוֹנָהּ	רַעֲיוֹנָם	רַעֲיוֹנָן
+idea	plural	indefinite	רַעֲיוֹנוֹת	first	רעיונותיי / רַעֲיוֹנוֹתַי	רעיונותיי / רַעֲיוֹנוֹתַי	רַעֲיוֹנוֹתֵינוּ	רַעֲיוֹנוֹתֵינוּ
+idea	plural	definite	הָרַעֲיוֹנוֹת	second	רַעֲיוֹנוֹתֶיךָ	רעיונותייך / רַעֲיוֹנוֹתַיִךְ	רַעֲיוֹנוֹתֵיכֶם	רַעֲיוֹנוֹתֵיכֶן
+idea	plural	construct	רַעֲיוֹנוֹת־	third	רַעֲיוֹנוֹתָיו	רַעֲיוֹנוֹתֶיהָ	רַעֲיוֹנוֹתֵיהֶם, רַעֲיוֹנוֹתָם	רַעֲיוֹנוֹתֵיהֶן, רַעֲיוֹנוֹתָן
+idea	plural	indefinite	רַעֲיוֹנִים	first	רעיוניי / רַעֲיוֹנַי	רעיוניי / רַעֲיוֹנַי	רַעֲיוֹנֵינוּ	רַעֲיוֹנֵינוּ
+idea	plural	definite	הָרַעֲיוֹנִים	second	רַעֲיוֹנֶיךָ	רעיונייך / רַעֲיוֹנַיִךְ	רַעֲיוֹנֵיכֶם	רַעֲיוֹנֵיכֶן
+idea	plural	construct	רַעֲיוֹנֵי־	third	רַעֲיוֹנָיו	רַעֲיוֹנֶיהָ	רַעֲיוֹנֵיהֶם	רַעֲיוֹנֵיהֶן
+idea	singular	indefinite	רַעְיוֹן	first	רַעְיוֹנִי	רַעְיוֹנִי	רַעְיוֹנֵנוּ	רַעְיוֹנֵנוּ
+idea	singular	definite	הָרַעְיוֹן	second	רַעְיוֹנְךָ	רַעְיוֹנֵךְ	רַעְיוֹנְכֶם	רַעְיוֹנְכֶן
+idea	singular	construct	רַעְיוֹן־	third	רַעְיוֹנוֹ	רַעְיוֹנָהּ	רַעְיוֹנָם	רַעְיוֹנָן
+idea	plural	indefinite	רַעְיוֹנוֹת	first	רעיונותיי / רַעְיוֹנוֹתַי	רעיונותיי / רַעְיוֹנוֹתַי	רַעְיוֹנוֹתֵינוּ	רַעְיוֹנוֹתֵינוּ
+idea	plural	definite	הָרַעְיוֹנוֹת	second	רַעְיוֹנוֹתֶיךָ	רעיונותייך / רַעְיוֹנוֹתַיִךְ	רַעְיוֹנוֹתֵיכֶם	רַעְיוֹנוֹתֵיכֶן
+idea	plural	construct	רַעְיוֹנוֹת־	third	רַעְיוֹנוֹתָיו	רַעְיוֹנוֹתֶיהָ	רַעְיוֹנוֹתֵיהֶם, רַעְיוֹנוֹתָם	רַעְיוֹנוֹתֵיהֶן, רַעְיוֹנוֹתָן
+idea	plural	indefinite	רַעְיוֹנִים	first	רעיוניי / רַעְיוֹנַי	רעיוניי / רַעְיוֹנַי	רַעְיוֹנֵינוּ	רַעְיוֹנֵינוּ
+idea	plural	definite	הָרַעְיוֹנִים	second	רַעְיוֹנֶיךָ	רעיונייך / רַעְיוֹנַיִךְ	רַעְיוֹנֵיכֶם	רַעְיוֹנֵיכֶן
+idea	plural	construct	רַעְיוֹנֵי־	third	רַעְיוֹנָיו	רַעְיוֹנֶיהָ	רַעְיוֹנֵיהֶם	רַעְיוֹנֵיהֶן
+idea		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+idea	number:	state:	form	person:	singular	singular	plural	plural
+idea	number:	state:	form	person:	m	f	m	f
+idea	singular	indefinite	רַעֲיוֹן	first	רַעֲיוֹנִי	רַעֲיוֹנִי	רַעֲיוֹנֵנוּ	רַעֲיוֹנֵנוּ
+idea	singular	definite	הָרַעֲיוֹן	second	רַעֲיוֹנְךָ	רַעֲיוֹנֵךְ	רַעֲיוֹנְכֶם	רַעֲיוֹנְכֶן
+idea	singular	construct	רַעֲיוֹן־	third	רַעֲיוֹנוֹ	רַעֲיוֹנָהּ	רַעֲיוֹנָם	רַעֲיוֹנָן
+idea	plural	indefinite	רַעֲיוֹנוֹת	first	רעיונותיי / רַעֲיוֹנוֹתַי	רעיונותיי / רַעֲיוֹנוֹתַי	רַעֲיוֹנוֹתֵינוּ	רַעֲיוֹנוֹתֵינוּ
+idea	plural	definite	הָרַעֲיוֹנוֹת	second	רַעֲיוֹנוֹתֶיךָ	רעיונותייך / רַעֲיוֹנוֹתַיִךְ	רַעֲיוֹנוֹתֵיכֶם	רַעֲיוֹנוֹתֵיכֶן
+idea	plural	construct	רַעֲיוֹנוֹת־	third	רַעֲיוֹנוֹתָיו	רַעֲיוֹנוֹתֶיהָ	רַעֲיוֹנוֹתֵיהֶם, רַעֲיוֹנוֹתָם	רַעֲיוֹנוֹתֵיהֶן, רַעֲיוֹנוֹתָן
+idea	plural	indefinite	רַעֲיוֹנִים	first	רעיוניי / רַעֲיוֹנַי	רעיוניי / רַעֲיוֹנַי	רַעֲיוֹנֵינוּ	רַעֲיוֹנֵינוּ
+idea	plural	definite	הָרַעֲיוֹנִים	second	רַעֲיוֹנֶיךָ	רעיונייך / רַעֲיוֹנַיִךְ	רַעֲיוֹנֵיכֶם	רַעֲיוֹנֵיכֶן
+idea	plural	construct	רַעֲיוֹנֵי־	third	רַעֲיוֹנָיו	רַעֲיוֹנֶיהָ	רַעֲיוֹנֵיהֶם	רַעֲיוֹנֵיהֶן
+idea	singular	indefinite	רַעְיוֹן	first	רַעְיוֹנִי	רַעְיוֹנִי	רַעְיוֹנֵנוּ	רַעְיוֹנֵנוּ
+idea	singular	definite	הָרַעְיוֹן	second	רַעְיוֹנְךָ	רַעְיוֹנֵךְ	רַעְיוֹנְכֶם	רַעְיוֹנְכֶן
+idea	singular	construct	רַעְיוֹן־	third	רַעְיוֹנוֹ	רַעְיוֹנָהּ	רַעְיוֹנָם	רַעְיוֹנָן
+idea	plural	indefinite	רַעְיוֹנוֹת	first	רעיונותיי / רַעְיוֹנוֹתַי	רעיונותיי / רַעְיוֹנוֹתַי	רַעְיוֹנוֹתֵינוּ	רַעְיוֹנוֹתֵינוּ
+idea	plural	definite	הָרַעְיוֹנוֹת	second	רַעְיוֹנוֹתֶיךָ	רעיונותייך / רַעְיוֹנוֹתַיִךְ	רַעְיוֹנוֹתֵיכֶם	רַעְיוֹנוֹתֵיכֶן
+idea	plural	construct	רַעְיוֹנוֹת־	third	רַעְיוֹנוֹתָיו	רַעְיוֹנוֹתֶיהָ	רַעְיוֹנוֹתֵיהֶם, רַעְיוֹנוֹתָם	רַעְיוֹנוֹתֵיהֶן, רַעְיוֹנוֹתָן
+idea	plural	indefinite	רַעְיוֹנִים	first	רעיוניי / רַעְיוֹנַי	רעיוניי / רַעְיוֹנַי	רַעְיוֹנֵינוּ	רַעְיוֹנֵינוּ
+idea	plural	definite	הָרַעְיוֹנִים	second	רַעְיוֹנֶיךָ	רעיונייך / רַעְיוֹנַיִךְ	רַעְיוֹנֵיכֶם	רַעְיוֹנֵיכֶן
+idea	plural	construct	רַעְיוֹנֵי־	third	רַעְיוֹנָיו	רַעְיוֹנֶיהָ	רַעְיוֹנֵיהֶם	רַעְיוֹנֵיהֶן
+king		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+king	number:	state:	form	person:	singular	singular	plural	plural
+king	number:	state:	form	person:	m	f	m	f
+king	singular	indefinite	מֶלֶךְ	first	מַלְכִּי	מַלְכִּי	מַלְכֵּנוּ	מַלְכֵּנוּ
+king	singular	definite	הַמֶּלֶךְ	second	מַלְכְּךָ	מַלְכֵּךְ	מַלְכְּכֶם	מַלְכְּכֶן
+king	singular	construct	מֶלֶךְ־	third	מַלְכּוֹ	מַלְכָּהּ	מַלְכָּם	מַלְכָּן
+king	plural	indefinite	מְלָכִים	first	מלכיי / מְלָכַי	מלכיי / מְלָכַי	מְלָכֵינוּ	מְלָכֵינוּ
+king	plural	definite	הַמְּלָכִים	second	מְלָכֶיךָ	מלכייך / מְלָכַיִךְ	מַלְכֵיכֶם	מַלְכֵיכֶן
+king	plural	construct	מַלְכֵי־	third	מְלָכָיו	מְלָכֶיהָ	מַלְכֵיהֶם	מַלְכֵיהֶן
+night		isolated forms	isolated forms	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns	with possessive pronouns
+night	number:	state:	form	person:	singular	singular	plural	plural
+night	number:	state:	form	person:	m	f	m	f
+night	singular	indefinite	לַיְלָה	first	לֵילִי	לֵילִי	לֵילֵנוּ	לֵילֵנוּ
+night	singular	definite	הַלַּיְלָה	second	לֵילְךָ	לֵילֵךְ	לֵילְכֶם	לֵילְכֶן
+night	singular	construct	לֵיל־	third	לֵילוֹ	לֵילָהּ	לֵילָם	לֵילָן
+night	plural	indefinite	לֵילוֹת	first	לילותיי / לֵילוֹתַי	לילותיי / לֵילוֹתַי	לֵילוֹתֵינוּ	לֵילוֹתֵינוּ
+night	plural	definite	הַלֵּילוֹת	second	לֵילוֹתֶיךָ	לילותייך / לֵילוֹתַיִךְ	לֵילוֹתֵיכֶם	לֵילוֹתֵיכֶן
+night	plural	construct	לֵילוֹת־	third	לֵילוֹתָיו	לֵילוֹתֶיהָ	לֵילוֹתֵיהֶם, לֵילוֹתָם	לֵילוֹתֵיהֶן, לֵילוֹתָן

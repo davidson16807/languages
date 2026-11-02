@@ -80,6 +80,7 @@ clothing	feminine
 clothing	masculine
 clothing	masculine
 clothing	feminine
+clothing	feminine pl
 garment	feminine
 garment	feminine
 garment	feminine
@@ -210,9 +211,11 @@ treasure	masculine
 treasure	masculine
 warmth	feminine
 heat	masculine
-heat	(colloquial) feminine
+heat	(Aneuterdalusia, parts ofeminine Latineuter Amasculineerica,
+heat	archaic) feminine
 heat	masculine
-heat	(colloquial) feminine
+heat	(Aneuterdalusia, parts ofeminine Latineuter Amasculineerica,
+heat	archaic) feminine
 heat	feminine
 water	feminine
 water	feminine
@@ -243,6 +246,7 @@ worm	masculine
 worm	feminine
 language	feminine
 language	masculine
+town	feminine
 town	masculine
 town	feminine
 river	masculine
@@ -316,3 +320,16 @@ west	masculine
 west	masculine
 west	feminine
 west	masculine
+bee	feminine
+city	feminine
+paternal-grandmother	feminine
+maternal-grandmother	feminine
+paternal-grandfather	masculine
+maternal-grandfather	masculine
+shirt	feminine
+present	masculine
+idea	feminine
+idea	feminine
+king	masculine
+metal	masculine
+night	feminine

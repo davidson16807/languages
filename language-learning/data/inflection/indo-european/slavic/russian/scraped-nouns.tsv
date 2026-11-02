@@ -2617,3 +2617,146 @@ west	dative		захо́ду	zaxódu	захо́дам	zaxódam
 west	accusative		захо́д	zaxód	захо́ды	zaxódy
 west	instrumental		захо́дом	zaxódom	захо́дами	zaxódami
 west	prepositional		захо́де	zaxóde	захо́дах	zaxódax
+bathhouse				singular			plural		
+bathhouse	nominative			ба́ня	bánja		ба́ни	báni	
+bathhouse	genitive			ба́ни	báni		ба́нь	bánʹ	
+bathhouse	dative			ба́не	báne		ба́ням	bánjam	
+bathhouse	accusative			ба́ню	bánju		ба́ни	báni	
+bathhouse	instrumental			ба́ней, ба́нею, u	bánej	báneju	ба́нями	bánjami	
+bathhouse	prepositional			ба́не	báne		ба́нях	bánjax	
+bone				singular			plural		
+bone	nominative			ко́сть	kóstʹ		ко́сти	kósti	
+bone	genitive			ко́сти	kósti		косте́й	kostéj	
+bone	dative			ко́сти	kósti		костя́м	kostjám	
+bone	accusative			ко́сть	kóstʹ		ко́сти	kósti	
+bone	instrumental			ко́стью	kóstʹju		костя́ми, костьми́△*, 	kostjámi	kostʹmí△*
+bone	prepositional			ко́сти	kósti		костя́х	kostjáx	
+bone	locative			кости́	kostí				
+bee				singular			plural		
+bee	nominative			пчела́	pčelá		пчёлы	pčóly	
+bee	genitive			пчелы́	pčelý		пчёл	pčól	
+bee	dative			пчеле́	pčelé		пчёлам	pčólam	
+bee	accusative			пчелу́	pčelú		пчёл	pčól	
+bee	instrumental			пчело́й, пчело́ю, u	pčelój	pčelóju	пчёлами	pčólami	
+bee	prepositional			пчеле́	pčelé		пчёлах	pčólax	
+building			singular		plural	
+building	nominative		зда́ние	zdánije	зда́ния	zdánija
+building	genitive		зда́ния	zdánija	зда́ний	zdánij
+building	dative		зда́нию	zdániju	зда́ниям	zdánijam
+building	accusative		зда́ние	zdánije	зда́ния	zdánija
+building	instrumental		зда́нием	zdánijem	зда́ниями	zdánijami
+building	prepositional		зда́нии	zdánii	зда́ниях	zdánijax
+city			singular		plural	
+city	nominative		го́род	górod	города́△	gorodá△
+city	genitive		го́рода	góroda	городо́в	gorodóv
+city	dative		го́роду	górodu	города́м	gorodám
+city	accusative		го́род	górod	города́△	gorodá△
+city	instrumental		го́родом	górodom	города́ми	gorodámi
+city	prepositional		го́роде	górode	города́х	gorodáx
+city	locative		городу́*	gorodú*		
+shirt				singular			plural		
+shirt	nominative			руба́шка	rubáška		руба́шки	rubáški	
+shirt	genitive			руба́шки	rubáški		руба́шек	rubášek	
+shirt	dative			руба́шке	rubáške		руба́шкам	rubáškam	
+shirt	accusative			руба́шку	rubášku		руба́шки	rubáški	
+shirt	instrumental			руба́шкой, руба́шкою, u	rubáškoj	rubáškoju	руба́шками	rubáškami	
+shirt	prepositional			руба́шке	rubáške		руба́шках	rubáškax	
+comment			singular		plural	
+comment	nominative		коммента́рий	kommentárij	коммента́рии	kommentárii
+comment	genitive		коммента́рия	kommentárija	коммента́риев	kommentárijev
+comment	dative		коммента́рию	kommentáriju	коммента́риям	kommentárijam
+comment	accusative		коммента́рий	kommentárij	коммента́рии	kommentárii
+comment	instrumental		коммента́рием	kommentárijem	коммента́риями	kommentárijami
+comment	prepositional		коммента́рии	kommentárii	коммента́риях	kommentárijax
+present			singular		plural	
+present	nominative		пода́рок	podárok	пода́рки	podárki
+present	genitive		пода́рка	podárka	пода́рков	podárkov
+present	dative		пода́рку	podárku	пода́ркам	podárkam
+present	accusative		пода́рок	podárok	пода́рки	podárki
+present	instrumental		пода́рком	podárkom	пода́рками	podárkami
+present	prepositional		пода́рке	podárke	пода́рках	podárkax
+hero			singular		plural	
+hero	nominative		геро́й	gerój	геро́и	gerói
+hero	genitive		геро́я	gerója	геро́ев	gerójev
+hero	dative		геро́ю	geróju	геро́ям	gerójam
+hero	accusative		геро́я	gerója	геро́ев	gerójev
+hero	instrumental		геро́ем	gerójem	геро́ями	gerójami
+hero	prepositional		геро́е	geróje	геро́ях	gerójax
+job				singular			plural		
+job	nominative			рабо́та	rabóta		рабо́ты	rabóty	
+job	genitive			рабо́ты	rabóty		рабо́т	rabót	
+job	dative			рабо́те	rabóte		рабо́там	rabótam	
+job	accusative			рабо́ту	rabótu		рабо́ты	rabóty	
+job	instrumental			рабо́той, рабо́тою, u	rabótoj	rabótoju	рабо́тами	rabótami	
+job	prepositional			рабо́те	rabóte		рабо́тах	rabótax	
+king			singular		plural	
+king	nominative		коро́ль	korólʹ	короли́	korolí
+king	genitive		короля́	koroljá	короле́й	koroléj
+king	dative		королю́	koroljú	короля́м	koroljám
+king	accusative		короля́	koroljá	короле́й	koroléj
+king	instrumental		королём	koroljóm	короля́ми	koroljámi
+king	prepositional		короле́	korolé	короля́х	koroljáx
+line				singular			plural		
+line	nominative			ли́ния	línija		ли́нии	línii	
+line	genitive			ли́нии	línii		ли́ний	línij	
+line	dative			ли́нии	línii		ли́ниям	línijam	
+line	accusative			ли́нию	líniju		ли́нии	línii	
+line	instrumental			ли́нией, ли́ниею, u	línijej	línijeju	ли́ниями	línijami	
+line	prepositional			ли́нии	línii		ли́ниях	línijax	
+maternal-grandmother				singular			plural		
+maternal-grandmother	nominative			ба́бушка	bábuška		ба́бушки	bábuški	
+maternal-grandmother	genitive			ба́бушки	bábuški		ба́бушек	bábušek	
+maternal-grandmother	dative			ба́бушке	bábuške		ба́бушкам	bábuškam	
+maternal-grandmother	accusative			ба́бушку	bábušku		ба́бушек	bábušek	
+maternal-grandmother	instrumental			ба́бушкой, ба́бушкою, u	bábuškoj	bábuškoju	ба́бушками	bábuškami	
+maternal-grandmother	prepositional			ба́бушке	bábuške		ба́бушках	bábuškax	
+mouse			singular		plural	
+mouse	nominative		мы́шь	mýšʹ	мы́ши	mýši
+mouse	genitive		мы́ши	mýši	мыше́й	myšéj
+mouse	dative		мы́ши	mýši	мыша́м	myšám
+mouse	accusative		мы́шь	mýšʹ	мыше́й	myšéj
+mouse	instrumental		мы́шью	mýšʹju	мыша́ми	myšámi
+mouse	prepositional		мы́ши	mýši	мыша́х	myšáx
+movie			singular		plural	
+movie	nominative		фи́льм	fílʹm	фи́льмы	fílʹmy
+movie	genitive		фи́льма	fílʹma	фи́льмов	fílʹmov
+movie	dative		фи́льму	fílʹmu	фи́льмам	fílʹmam
+movie	accusative		фи́льм	fílʹm	фи́льмы	fílʹmy
+movie	instrumental		фи́льмом	fílʹmom	фи́льмами	fílʹmami
+movie	prepositional		фи́льме	fílʹme	фи́льмах	fílʹmax
+night			singular		plural	
+night	nominative		но́чь	nóčʹ	но́чи	nóči
+night	genitive		но́чи	nóči	ноче́й	nočéj
+night	dative		но́чи	nóči	ноча́м	nočám
+night	accusative		но́чь	nóčʹ	но́чи	nóči
+night	instrumental		но́чью	nóčʹju	ноча́ми	nočámi
+night	prepositional		но́чи	nóči	ноча́х	nočáx
+night	locative		ночи́	nočí		
+paternal-grandmother				singular			plural		
+paternal-grandmother	nominative			ба́бушка	bábuška		ба́бушки	bábuški	
+paternal-grandmother	genitive			ба́бушки	bábuški		ба́бушек	bábušek	
+paternal-grandmother	dative			ба́бушке	bábuške		ба́бушкам	bábuškam	
+paternal-grandmother	accusative			ба́бушку	bábušku		ба́бушек	bábušek	
+paternal-grandmother	instrumental			ба́бушкой, ба́бушкою, u	bábuškoj	bábuškoju	ба́бушками	bábuškami	
+paternal-grandmother	prepositional			ба́бушке	bábuške		ба́бушках	bábuškax	
+place			singular		plural	
+place	nominative		ме́сто	mésto	места́	mestá
+place	genitive		ме́ста	mésta	ме́ст	mést
+place	dative		ме́сту	méstu	места́м	mestám
+place	accusative		ме́сто	mésto	места́	mestá
+place	instrumental		ме́стом	méstom	места́ми	mestámi
+place	prepositional		ме́сте	méste	места́х	mestáx
+sea			singular		plural	
+sea	nominative		мо́ре	móre	моря́	morjá
+sea	genitive		мо́ря	mórja	море́й	moréj
+sea	dative		мо́рю	mórju	моря́м	morjám
+sea	accusative		мо́ре	móre	моря́	morjá
+sea	instrumental		мо́рем	mórem	моря́ми	morjámi
+sea	prepositional		мо́ре	móre	моря́х	morjáx
+writer			singular		plural	
+writer	nominative		писа́тель	pisátelʹ	писа́тели	pisáteli
+writer	genitive		писа́теля	pisátelja	писа́телей	pisátelej
+writer	dative		писа́телю	pisátelju	писа́телям	pisáteljam
+writer	accusative		писа́теля	pisátelja	писа́телей	pisátelej
+writer	instrumental		писа́телем	pisátelem	писа́телями	pisáteljami
+writer	prepositional		писа́теле	pisátele	писа́телях	pisáteljax

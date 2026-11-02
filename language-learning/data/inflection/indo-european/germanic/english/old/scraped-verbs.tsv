@@ -12,6 +12,20 @@ love	singular	lufa	lufa
 love	plural	lufiaþ	lufiaþ
 love	participle	present	past
 love		lufiende	(ġe)lufod
+love	infinitive	lufian	lufienne
+love	indicative mood	present tense	past tense
+love	first person singular	lufiġe	lufode
+love	second person singular	lufast	lufodest
+love	third person singular	lufaþ	lufode
+love	plural	lufiaþ	lufodon
+love	subjunctive	present tense	past tense
+love	singular	lufiġe	lufode
+love	plural	lufiġen	lufoden
+love	imperative		
+love	singular	lufa	lufa
+love	plural	lufiaþ	lufiaþ
+love	participle	present	past
+love		lufiende	(ġe)lufod
 make	infinitive	wyrċan	wyrċenne
 make	indicative mood	present tense	past tense
 make	first person singular	wyrċe	worhte
@@ -264,6 +278,20 @@ appear	singular	ætīew	ætīew
 appear	plural	ætīewaþ	ætīewaþ
 appear	participle	present	past
 appear		ætīewende	ætīewed
+appear	infinitive	ætīewan	ætīewenne
+appear	indicative mood	present tense	past tense
+appear	first person singular	ætīewe	ætīewde
+appear	second person singular	ætīewest, ætīewst	ætīewdest
+appear	third person singular	ætīeweþ, ætīewþ	ætīewde
+appear	plural	ætīewaþ	ætīewdon
+appear	subjunctive	present tense	past tense
+appear	singular	ætīewe	ætīewde
+appear	plural	ætīewen	ætīewden
+appear	imperative		
+appear	singular	ætīew	ætīew
+appear	plural	ætīewaþ	ætīewaþ
+appear	participle	present	past
+appear		ætīewende	ætīewed
 ask	infinitive	friġnan	friġnenne
 ask	indicative mood	present tense	past tense
 ask	first person singular	friġne	fræġn
@@ -362,6 +390,20 @@ change	singular	wend	wend
 change	plural	wendaþ	wendaþ
 change	participle	present	past
 change		wendende	(ġe)wended
+change	infinitive	wendan	wendenne
+change	indicative mood	present tense	past tense
+change	first person singular	wende	wende
+change	second person singular	wendest, wenst, wentst	wendest
+change	third person singular	wendeþ, went	wende
+change	plural	wendaþ	wendon
+change	subjunctive	present tense	past tense
+change	singular	wende	wende
+change	plural	wenden	wenden
+change	imperative		
+change	singular	wend	wend
+change	plural	wendaþ	wendaþ
+change	participle	present	past
+change		wendende	(ġe)wended
 crawl	infinitive	crēopan	crēopenne
 crawl	indicative mood	present tense	past tense
 crawl	first person singular	crēope	crēap
@@ -432,6 +474,20 @@ climb	singular	stīġ	stīġ
 climb	plural	stīgaþ	stīgaþ
 climb	participle	present	past
 climb		stīgende	(ġe)stiġen
+climb	infinitive	climban	climbenne
+climb	indicative mood	present tense	past tense
+climb	first person singular	climbe	clamb
+climb	second person singular	climbst	clumbe
+climb	third person singular	climbþ	clamb
+climb	plural	climbaþ	clumbon
+climb	subjunctive	present tense	past tense
+climb	singular	climbe	clumbe
+climb	plural	climben	clumben
+climb	imperative		
+climb	singular	climb	climb
+climb	plural	climbaþ	climbaþ
+climb	participle	present	past
+climb		climbende	(ġe)clumben
 upset	infinitive	drēfan	drēfenne
 upset	indicative mood	present tense	past tense
 upset	first person singular	drēfe	drēfde
@@ -446,6 +502,20 @@ upset	singular	drēf	drēf
 upset	plural	drēfaþ	drēfaþ
 upset	participle	present	past
 upset		drēfende	(ġe)drēfed
+eat	infinitive	etan	etenne
+eat	indicative mood	present tense	past tense
+eat	first person singular	ete	ǣt
+eat	second person singular	itst	ǣte
+eat	third person singular	itt, it	ǣt
+eat	plural	etaþ	ǣton
+eat	subjunctive	present tense	past tense
+eat	singular	ete	ǣte
+eat	plural	eten	ǣten
+eat	imperative		
+eat	singular	et	et
+eat	plural	etaþ	etaþ
+eat	participle	present	past
+eat		etende	(ġe)eten
 eat	infinitive	etan	etenne
 eat	indicative mood	present tense	past tense
 eat	first person singular	ete	ǣt
@@ -516,6 +586,20 @@ endure	singular	æfne	æfne
 endure	plural	æfnaþ	æfnaþ
 endure	participle	present	past
 endure		æfnende	(ġe)æfned
+endure	infinitive	ādrēogan	ādrēogenne
+endure	indicative mood	present tense	past tense
+endure	first person singular	ādrēoge	ādrēag, ādrēah
+endure	second person singular	ādrīeġst	ādruge
+endure	third person singular	ādrīeġþ	ādrēag, ādrēah
+endure	plural	ādrēogaþ	ādrugon
+endure	subjunctive	present tense	past tense
+endure	singular	ādrēoge	ādruge
+endure	plural	ādrēogen	ādrugen
+endure	imperative		
+endure	singular	ādrēog, ādrēoh	ādrēog, ādrēoh
+endure	plural	ādrēogaþ	ādrēogaþ
+endure	participle	present	past
+endure		ādrēogende	ādrogen
 fall	infinitive	drēosan	drēosenne
 fall	indicative mood	present tense	past tense
 fall	first person singular	drēose	drēas
@@ -530,6 +614,20 @@ fall	singular	drēos	drēos
 fall	plural	drēosaþ	drēosaþ
 fall	participle	present	past
 fall		drēosende	(ġe)droren
+fall	infinitive	feallan	feallenne
+fall	indicative mood	present tense	past tense
+fall	first person singular	fealle	fēoll
+fall	second person singular	fielst	fēolle
+fall	third person singular	fielþ	fēoll
+fall	plural	feallaþ	fēollon
+fall	subjunctive	present tense	past tense
+fall	singular	fealle	fēolle
+fall	plural	feallen	fēollen
+fall	imperative		
+fall	singular	feall	feall
+fall	plural	feallaþ	feallaþ
+fall	participle	present	past
+fall		feallende	(ġe)feallen
 fall	infinitive	feallan	feallenne
 fall	indicative mood	present tense	past tense
 fall	first person singular	fealle	fēoll
@@ -586,3 +684,619 @@ fly	singular	flēog, flēoh	flēog, flēoh
 fly	plural	flēogaþ	flēogaþ
 fly	participle	present	past
 fly		flēogende	(ġe)flogen
+fly	infinitive	flēogan	flēogenne
+fly	indicative mood	present tense	past tense
+fly	first person singular	flēoge	flēag, flēah
+fly	second person singular	flīeġst	fluge
+fly	third person singular	flīeġþ	flēag, flēah
+fly	plural	flēogaþ	flugon
+fly	subjunctive	present tense	past tense
+fly	singular	flēoge	fluge
+fly	plural	flēogen	flugen
+fly	imperative		
+fly	singular	flēog, flēoh	flēog, flēoh
+fly	plural	flēogaþ	flēogaþ
+fly	participle	present	past
+fly		flēogende	(ġe)flogen
+arrive	infinitive	ancuman	ancumenne
+arrive	indicative mood	present tense	past tense
+arrive	first person singular	ancume	ancōm, ancwōm
+arrive	second person singular	ancymest, ancymst	ancōme, ancwōme
+arrive	third person singular	ancymeþ, ancymþ	ancōm, ancwōm
+arrive	plural	ancumaþ	ancōmon, ancwōmon
+arrive	subjunctive	present tense	past tense
+arrive	singular	ancume	ancōme, ancwōme
+arrive	plural	ancumen	ancōmen, ancwōmen
+arrive	imperative		
+arrive	singular	ancum	ancum
+arrive	plural	ancumaþ	ancumaþ
+arrive	participle	present	past
+arrive		ancumende	ancumen, ancymen
+come	infinitive	cuman	cumenne
+come	indicative mood	present tense	past tense
+come	first person singular	cume	cōm, cwōm
+come	second person singular	cymest, cymst	cōme, cwōme
+come	third person singular	cymeþ, cymþ	cōm, cwōm
+come	plural	cumaþ	cōmon, cwōmon
+come	subjunctive	present tense	past tense
+come	singular	cume	cōme, cwōme
+come	plural	cumen	cōmen, cwōmen
+come	imperative		
+come	singular	cum	cum
+come	plural	cumaþ	cumaþ
+come	participle	present	past
+come		cumende	(ġe)cumen, (ġe)cymen
+be-inherently	infinitive	wesan	wesenne
+be-inherently	indicative mood	present tense	past tense
+be-inherently	first person singular	eom	wæs
+be-inherently	second person singular	eart	wǣre
+be-inherently	third person singular	is	wæs
+be-inherently	plural	sind, sindon	wǣron
+be-inherently	subjunctive	present tense	past tense
+be-inherently	singular	sīe	wǣre
+be-inherently	plural	sīen	wǣren
+be-inherently	imperative		
+be-inherently	singular	wes	wes
+be-inherently	plural	wesaþ	wesaþ
+be-inherently	participle	present	past
+be-inherently		wesende	—
+be-inherently	infinitive	wesan	wesenne
+be-inherently	indicative mood	present tense	past tense
+be-inherently	first person singular	wese	wæs
+be-inherently	second person singular	wist	wǣre
+be-inherently	third person singular	wist	wæs
+be-inherently	plural	wesaþ	wǣron
+be-inherently	subjunctive	present tense	past tense
+be-inherently	singular	wese	wǣre
+be-inherently	plural	wesen	wǣren
+be-inherently	imperative		
+be-inherently	singular	wes	wes
+be-inherently	plural	wesaþ	wesaþ
+be-inherently	participle	present	past
+be-inherently		wesende	(ġe)weren
+be-inherently	infinitive	wēsan	wēsenne
+be-inherently	indicative mood	present tense	past tense
+be-inherently	first person singular	wēse	wēsde
+be-inherently	second person singular	wēsest, wēst	wēsdest
+be-inherently	third person singular	wēseþ, wēst	wēsde
+be-inherently	plural	wēsaþ	wēsdon
+be-inherently	subjunctive	present tense	past tense
+be-inherently	singular	wēse	wēsde
+be-inherently	plural	wēsen	wēsden
+be-inherently	imperative		
+be-inherently	singular	wēs	wēs
+be-inherently	plural	wēsaþ	wēsaþ
+be-inherently	participle	present	past
+be-inherently		wēsende	(ġe)wēsed
+be-momentarily	infinitive	bēon	bēonne
+be-momentarily	indicative mood	present tense	past tense
+be-momentarily	first person singular	bēo	—
+be-momentarily	second person singular	bist	—
+be-momentarily	third person singular	biþ	—
+be-momentarily	plural	bēoþ	—
+be-momentarily	subjunctive	present tense	past tense
+be-momentarily	singular	bēo	—
+be-momentarily	plural	bēon	—
+be-momentarily	imperative		
+be-momentarily	singular	bēo	bēo
+be-momentarily	plural	bēoþ	bēoþ
+be-momentarily	participle	present	past
+be-momentarily		bēonde	(ġe)bēon
+cool	infinitive	cōlian	cōlienne
+cool	indicative mood	present tense	past tense
+cool	first person singular	cōliġe	cōlode
+cool	second person singular	cōlast	cōlodest
+cool	third person singular	cōlaþ	cōlode
+cool	plural	cōliaþ	cōlodon
+cool	subjunctive	present tense	past tense
+cool	singular	cōliġe	cōlode
+cool	plural	cōliġen	cōloden
+cool	imperative		
+cool	singular	cōla	cōla
+cool	plural	cōliaþ	cōliaþ
+cool	participle	present	past
+cool		cōliende	(ġe)cōlod
+lead	infinitive	lǣdan	lǣdenne
+lead	indicative mood	present tense	past tense
+lead	first person singular	lǣde	lǣdde
+lead	second person singular	lǣdest, lǣtst	lǣddest
+lead	third person singular	lǣdeþ, lǣtt, lǣt	lǣdde
+lead	plural	lǣdaþ	lǣddon
+lead	subjunctive	present tense	past tense
+lead	singular	lǣde	lǣdde
+lead	plural	lǣden	lǣdden
+lead	imperative		
+lead	singular	lǣd	lǣd
+lead	plural	lǣdaþ	lǣdaþ
+lead	participle	present	past
+lead		lǣdende	(ġe)lǣded
+displease	infinitive	drēfan	drēfenne
+displease	indicative mood	present tense	past tense
+displease	first person singular	drēfe	drēfde
+displease	second person singular	drēfest, drēfst	drēfdest
+displease	third person singular	drēfeþ, drēfþ	drēfde
+displease	plural	drēfaþ	drēfdon
+displease	subjunctive	present tense	past tense
+displease	singular	drēfe	drēfde
+displease	plural	drēfen	drēfden
+displease	imperative		
+displease	singular	drēf	drēf
+displease	plural	drēfaþ	drēfaþ
+displease	participle	present	past
+displease		drēfende	(ġe)drēfed
+do	infinitive	dōn	dōnne
+do	indicative mood	present tense	past tense
+do	first person singular	dō	dyde
+do	second person singular	dēst	dydest
+do	third person singular	dēþ	dyde
+do	plural	dōþ	dydon
+do	subjunctive	present tense	past tense
+do	singular	dō	dyde
+do	plural	dōn	dyden
+do	imperative		
+do	singular	dō	dō
+do	plural	dōþ	dōþ
+do	participle	present	past
+do		dōnde	(ġe)dōn
+suffer	infinitive	þrōwian	þrōwienne
+suffer	indicative mood	present tense	past tense
+suffer	first person singular	þrōwiġe	þrōwode
+suffer	second person singular	þrōwast	þrōwodest
+suffer	third person singular	þrōwaþ	þrōwode
+suffer	plural	þrōwiaþ	þrōwodon
+suffer	subjunctive	present tense	past tense
+suffer	singular	þrōwiġe	þrōwode
+suffer	plural	þrōwiġen	þrōwoden
+suffer	imperative		
+suffer	singular	þrōwa	þrōwa
+suffer	plural	þrōwiaþ	þrōwiaþ
+suffer	participle	present	past
+suffer		þrōwiende	(ġe)þrōwod
+fight	infinitive	feohtan	feohtenne
+fight	indicative mood	present tense	past tense
+fight	first person singular	feohte	feaht
+fight	second person singular	fiehst, fiehtst	fuhte
+fight	third person singular	fieht	feaht
+fight	plural	feohtaþ	fuhton
+fight	subjunctive	present tense	past tense
+fight	singular	feohte	fuhte
+fight	plural	feohten	fuhten
+fight	imperative		
+fight	singular	feoht	feoht
+fight	plural	feohtaþ	feohtaþ
+fight	participle	present	past
+fight		feohtende	(ġe)fohten
+flow	infinitive	flōwan	flōwenne
+flow	indicative mood	present tense	past tense
+flow	first person singular	flōwe	flēow
+flow	second person singular	flēwst	flēowe
+flow	third person singular	flēwþ	flēow
+flow	plural	flōwaþ	flēowon
+flow	subjunctive	present tense	past tense
+flow	singular	flōwe	flēowe
+flow	plural	flōwen	flēowen
+flow	imperative		
+flow	singular	flōw	flōw
+flow	plural	flōwaþ	flōwaþ
+flow	participle	present	past
+flow		flōwende	(ġe)flōwen
+go	infinitive	gān	gānne
+go	indicative mood	present tense	past tense
+go	first person singular	gā	ēode
+go	second person singular	gǣst	ēodest
+go	third person singular	gǣþ	ēode
+go	plural	gāþ	ēodon
+go	subjunctive	present tense	past tense
+go	singular	gā	ēode
+go	plural	gān	ēoden
+go	imperative		
+go	singular	gā	gā
+go	plural	gāþ	gāþ
+go	participle	present	past
+go		gānde	(ġe)gān
+greet	infinitive	grētan	grētenne
+greet	indicative mood	present tense	past tense
+greet	first person singular	grēte	grētte
+greet	second person singular	grētest, grētst	grēttest
+greet	third person singular	grēteþ, grētt, grēt	grētte
+greet	plural	grētaþ	grētton
+greet	subjunctive	present tense	past tense
+greet	singular	grēte	grētte
+greet	plural	grēten	grētten
+greet	imperative		
+greet	singular	grēt	grēt
+greet	plural	grētaþ	grētaþ
+greet	participle	present	past
+greet		grētende	(ġe)grēted
+greet	infinitive	grētan¹	grētenne, grētanne
+greet	indicative mood	present tense	past tense
+greet	first person singular	grētu, grēte	grēt
+greet	second person singular	grētes³	grēte³
+greet	third person singular	grēteþ²	grēt
+greet	plural	grētaþ²	grētun, grēton
+greet	subjunctive	present tense	past tense
+greet	singular	grēte	grēte
+greet	plural	grēten¹	grēten¹
+greet	imperative		
+greet	singular	grēt	grēt
+greet	plural	grētaþ²	grētaþ²
+greet	participle	present	past
+greet		grētende	(ġe)grēten
+have	infinitive	habban	hæbbenne
+have	indicative mood	present tense	past tense
+have	first person singular	hæbbe	hæfde
+have	second person singular	hæfst	hæfdest
+have	third person singular	hæfþ	hæfde
+have	plural	habbaþ	hæfdon
+have	subjunctive	present tense	past tense
+have	singular	hæbbe	hæfde
+have	plural	hæbben	hæfden
+have	imperative		
+have	singular	hafa	hafa
+have	plural	habbaþ	habbaþ
+have	participle	present	past
+have		hæbbende	(ġe)hæfd
+heal	infinitive	hǣlan	hǣlenne
+heal	indicative mood	present tense	past tense
+heal	first person singular	hǣle	hǣlde
+heal	second person singular	hǣlest, hǣlst	hǣldest
+heal	third person singular	hǣleþ, hǣlþ	hǣlde
+heal	plural	hǣlaþ	hǣldon
+heal	subjunctive	present tense	past tense
+heal	singular	hǣle	hǣlde
+heal	plural	hǣlen	hǣlden
+heal	imperative		
+heal	singular	hǣl	hǣl
+heal	plural	hǣlaþ	hǣlaþ
+heal	participle	present	past
+heal		hǣlende	(ġe)hǣled
+hear	infinitive	ġehīeran	ġehīerenne
+hear	indicative mood	present tense	past tense
+hear	first person singular	ġehīere	ġehīerde
+hear	second person singular	ġehīerest, ġehīerst	ġehīerdest
+hear	third person singular	ġehīereþ, ġehīerþ	ġehīerde
+hear	plural	ġehīeraþ	ġehīerdon
+hear	subjunctive	present tense	past tense
+hear	singular	ġehīere	ġehīerde
+hear	plural	ġehīeren	ġehīerden
+hear	imperative		
+hear	singular	ġehīer	ġehīer
+hear	plural	ġehīeraþ	ġehīeraþ
+hear	participle	present	past
+hear		ġehīerende	ġehīered
+heat	infinitive	hǣtan	hǣtenne
+heat	indicative mood	present tense	past tense
+heat	first person singular	hǣte	hǣtte
+heat	second person singular	hǣtest, hǣtst	hǣttest
+heat	third person singular	hǣteþ, hǣtt, hǣt	hǣtte
+heat	plural	hǣtaþ	hǣtton
+heat	subjunctive	present tense	past tense
+heat	singular	hǣte	hǣtte
+heat	plural	hǣten	hǣtten
+heat	imperative		
+heat	singular	hǣt	hǣt
+heat	plural	hǣtaþ	hǣtaþ
+heat	participle	present	past
+heat		hǣtende	(ġe)hǣted
+inhabit	infinitive	būan	būenne
+inhabit	indicative mood	present tense	past tense
+inhabit	first person singular	būe	būde
+inhabit	second person singular	bȳst	būdest
+inhabit	third person singular	bȳþ	būde
+inhabit	plural	būaþ	būdon
+inhabit	subjunctive	present tense	past tense
+inhabit	singular	būe	būde
+inhabit	plural	būen	būden
+inhabit	imperative		
+inhabit	singular	bū	bū
+inhabit	plural	būaþ	būaþ
+inhabit	participle	present	past
+inhabit		būende	(ġe)bȳn, (ġe)būn
+live	infinitive	libban	libbenne
+live	indicative mood	present tense	past tense
+live	first person singular	libbe	lifde
+live	second person singular	leofast	lifdest
+live	third person singular	leofaþ	lifde
+live	plural	libbaþ	lifdon
+live	subjunctive	present tense	past tense
+live	singular	libbe	lifde
+live	plural	libben	lifden
+live	imperative		
+live	singular	leofa	leofa
+live	plural	libbaþ	libbaþ
+live	participle	present	past
+live		libbende	(ġe)lifd
+move	infinitive	styrian	styrienne
+move	indicative mood	present tense	past tense
+move	first person singular	styrie	styrede
+move	second person singular	styrest	styredest
+move	third person singular	styreþ	styrede
+move	plural	styriaþ	styredon
+move	subjunctive	present tense	past tense
+move	singular	styrie	styrede
+move	plural	styrien	styreden
+move	imperative		
+move	singular	styre	styre
+move	plural	styriaþ	styriaþ
+move	participle	present	past
+move		styriende	(ġe)styred
+occupy	infinitive	weardian	weardienne
+occupy	indicative mood	present tense	past tense
+occupy	first person singular	weardiġe	weardode
+occupy	second person singular	weardast	weardodest
+occupy	third person singular	weardaþ	weardode
+occupy	plural	weardiaþ	weardodon
+occupy	subjunctive	present tense	past tense
+occupy	singular	weardiġe	weardode
+occupy	plural	weardiġen	weardoden
+occupy	imperative		
+occupy	singular	wearda	wearda
+occupy	plural	weardiaþ	weardiaþ
+occupy	participle	present	past
+occupy		weardiende	(ġe)weardod
+read	infinitive	rǣdan	rǣdenne
+read	indicative mood	present tense	past tense
+read	first person singular	rǣde	rēd, reord
+read	second person singular	rǣtst	rēde, reorde
+read	third person singular	rǣtt, rǣt	rēd, reord
+read	plural	rǣdaþ	rēdon, reordon
+read	subjunctive	present tense	past tense
+read	singular	rǣde	rēde, reorde
+read	plural	rǣden	rēden, reorden
+read	imperative		
+read	singular	rǣd	rǣd
+read	plural	rǣdaþ	rǣdaþ
+read	participle	present	past
+read		rǣdende	(ġe)rǣden
+rest	infinitive	restan	restenne
+rest	indicative mood	present tense	past tense
+rest	first person singular	reste	reste
+rest	second person singular	restest, rest	restest
+rest	third person singular	resteþ, rest	reste
+rest	plural	restaþ	reston
+rest	subjunctive	present tense	past tense
+rest	singular	reste	reste
+rest	plural	resten	resten
+rest	imperative		
+rest	singular	rest	rest
+rest	plural	restaþ	restaþ
+rest	participle	present	past
+rest		restende	(ġe)rested
+rest	infinitive	rēstan	rēstenne
+rest	indicative mood	present tense	past tense
+rest	first person singular	rēste	rēste
+rest	second person singular	rēstest, rēst	rēstest
+rest	third person singular	rēsteþ, rēst	rēste
+rest	plural	rēstaþ	rēston
+rest	subjunctive	present tense	past tense
+rest	singular	rēste	rēste
+rest	plural	rēsten	rēsten
+rest	imperative		
+rest	singular	rēst	rēst
+rest	plural	rēstaþ	rēstaþ
+rest	participle	present	past
+rest		rēstende	(ġe)rēsted
+say	infinitive	seċġan	seċġenne
+say	indicative mood	present tense	past tense
+say	first person singular	seċġe	sæġde, sǣde
+say	second person singular	sæġst	sæġdest, sǣdest
+say	third person singular	sæġþ	sæġde, sǣde
+say	plural	seċġaþ	sæġdon, sǣdon
+say	subjunctive	present tense	past tense
+say	singular	seċġe	sæġde, sǣde
+say	plural	seċġen	sæġden, sǣden
+say	imperative		
+say	singular	saga, sæġe	saga, sæġe
+say	plural	seċġaþ	seċġaþ
+say	participle	present	past
+say		seċġende	(ġe)sæġd, (ġe)sǣd
+see	infinitive	ġesēon	ġesēonne
+see	indicative mood	present tense	past tense
+see	first person singular	ġesēo	ġeseah
+see	second person singular	ġesiehst	ġesāwe
+see	third person singular	ġesiehþ	ġeseah
+see	plural	ġesēoþ	ġesāwon
+see	subjunctive	present tense	past tense
+see	singular	ġesēo	ġesāwe
+see	plural	ġesēon	ġesāwen
+see	imperative		
+see	singular	ġeseoh	ġeseoh
+see	plural	ġesēoþ	ġesēoþ
+see	participle	present	past
+see		ġesēonde	ġesewen
+share	infinitive	dǣlan	dǣlenne
+share	indicative mood	present tense	past tense
+share	first person singular	dǣle	dǣlde
+share	second person singular	dǣlest, dǣlst	dǣldest
+share	third person singular	dǣleþ, dǣlþ	dǣlde
+share	plural	dǣlaþ	dǣldon
+share	subjunctive	present tense	past tense
+share	singular	dǣle	dǣlde
+share	plural	dǣlen	dǣlden
+share	imperative		
+share	singular	dǣl	dǣl
+share	plural	dǣlaþ	dǣlaþ
+share	participle	present	past
+share		dǣlende	(ġe)dǣled
+shout	infinitive	hrīeman	hrīemenne
+shout	indicative mood	present tense	past tense
+shout	first person singular	hrīeme	hrīemde
+shout	second person singular	hrīemest, hrīemst	hrīemdest
+shout	third person singular	hrīemeþ, hrīemþ	hrīemde
+shout	plural	hrīemaþ	hrīemdon
+shout	subjunctive	present tense	past tense
+shout	singular	hrīeme	hrīemde
+shout	plural	hrīemen	hrīemden
+shout	imperative		
+shout	singular	hrīem	hrīem
+shout	plural	hrīemaþ	hrīemaþ
+shout	participle	present	past
+shout		hrīemende	(ġe)hrīemed
+show	infinitive	ætīewan	ætīewenne
+show	indicative mood	present tense	past tense
+show	first person singular	ætīewe	ætīewde
+show	second person singular	ætīewest, ætīewst	ætīewdest
+show	third person singular	ætīeweþ, ætīewþ	ætīewde
+show	plural	ætīewaþ	ætīewdon
+show	subjunctive	present tense	past tense
+show	singular	ætīewe	ætīewde
+show	plural	ætīewen	ætīewden
+show	imperative		
+show	singular	ætīew	ætīew
+show	plural	ætīewaþ	ætīewaþ
+show	participle	present	past
+show		ætīewende	ætīewed
+startle	infinitive	steartlian	steartlienne
+startle	indicative mood	present tense	past tense
+startle	first person singular	steartliġe	steartlode
+startle	second person singular	steartlast	steartlodest
+startle	third person singular	steartlaþ	steartlode
+startle	plural	steartliaþ	steartlodon
+startle	subjunctive	present tense	past tense
+startle	singular	steartliġe	steartlode
+startle	plural	steartliġen	steartloden
+startle	imperative		
+startle	singular	steartla	steartla
+startle	plural	steartliaþ	steartliaþ
+startle	participle	present	past
+startle		steartliende	(ġe)steartlod
+steal	infinitive	stelan	stelenne
+steal	indicative mood	present tense	past tense
+steal	first person singular	stele	stæl
+steal	second person singular	stilest, stilst	stǣle
+steal	third person singular	stileþ, stilþ	stæl
+steal	plural	stelaþ	stǣlon
+steal	subjunctive	present tense	past tense
+steal	singular	stele	stǣle
+steal	plural	stelen	stǣlen
+steal	imperative		
+steal	singular	stel	stel
+steal	plural	stelaþ	stelaþ
+steal	participle	present	past
+steal		stelende	(ġe)stolen
+swim	infinitive	swimman	swimmenne
+swim	indicative mood	present tense	past tense
+swim	first person singular	swimme	swamm
+swim	second person singular	swimst	swumme
+swim	third person singular	swimþ	swamm
+swim	plural	swimmaþ	swummon
+swim	subjunctive	present tense	past tense
+swim	singular	swimme	swumme
+swim	plural	swimmen	swummen
+swim	imperative		
+swim	singular	swimm	swimm
+swim	plural	swimmaþ	swimmaþ
+swim	participle	present	past
+swim		swimmende	(ġe)swummen
+tame	infinitive	tēman	tēmenne
+tame	indicative mood	present tense	past tense
+tame	first person singular	tēme	tēmde
+tame	second person singular	tēmest, tēmst	tēmdest
+tame	third person singular	tēmeþ, tēmþ	tēmde
+tame	plural	tēmaþ	tēmdon
+tame	subjunctive	present tense	past tense
+tame	singular	tēme	tēmde
+tame	plural	tēmen	tēmden
+tame	imperative		
+tame	singular	tēm	tēm
+tame	plural	tēmaþ	tēmaþ
+tame	participle	present	past
+tame		tēmende	(ġe)tēmed
+think	infinitive	hyċġan	hyċġenne
+think	indicative mood	present tense	past tense
+think	first person singular	hyċġe	hogde
+think	second person singular	hyġst	hogdest
+think	third person singular	hyġþ	hogde
+think	plural	hyċġaþ	hogdon
+think	subjunctive	present tense	past tense
+think	singular	hyċġe	hogde
+think	plural	hyċġen	hogden
+think	imperative		
+think	singular	hyġe	hyġe
+think	plural	hyċġaþ	hyċġaþ
+think	participle	present	past
+think		hyċġende	(ġe)hogod
+throw	infinitive	weorpan	weorpenne
+throw	indicative mood	present tense	past tense
+throw	first person singular	weorpe	wearp
+throw	second person singular	wierpst	wurpe
+throw	third person singular	wierpþ	wearp
+throw	plural	weorpaþ	wurpon
+throw	subjunctive	present tense	past tense
+throw	singular	weorpe	wurpe
+throw	plural	weorpen	wurpen
+throw	imperative		
+throw	singular	weorp	weorp
+throw	plural	weorpaþ	weorpaþ
+throw	participle	present	past
+throw		weorpende	(ġe)worpen
+wait	infinitive	bīdan	bīdenne
+wait	indicative mood	present tense	past tense
+wait	first person singular	bīde	bād
+wait	second person singular	bītst	bide
+wait	third person singular	bītt, bīt	bād
+wait	plural	bīdaþ	bidon
+wait	subjunctive	present tense	past tense
+wait	singular	bīde	bide
+wait	plural	bīden	biden
+wait	imperative		
+wait	singular	bīd	bīd
+wait	plural	bīdaþ	bīdaþ
+wait	participle	present	past
+wait		bīdende	(ġe)biden
+walk	infinitive	gān	gānne
+walk	indicative mood	present tense	past tense
+walk	first person singular	gā	ēode
+walk	second person singular	gǣst	ēodest
+walk	third person singular	gǣþ	ēode
+walk	plural	gāþ	ēodon
+walk	subjunctive	present tense	past tense
+walk	singular	gā	ēode
+walk	plural	gān	ēoden
+walk	imperative		
+walk	singular	gā	gā
+walk	plural	gāþ	gāþ
+walk	participle	present	past
+walk		gānde	(ġe)gān
+want	infinitive	willan	willenne
+want	indicative mood	present tense	past tense
+want	first person singular	wille	wolde
+want	second person singular	wilt	woldest
+want	third person singular	wile	wolde
+want	plural	willaþ	woldon
+want	subjunctive	present tense	past tense
+want	singular	wille	wolde
+want	plural	willen	wolden
+want	imperative		
+want	singular	—	—
+want	plural	—	—
+want	participle	present	past
+want		willende	—
+warm	infinitive	wierman	wiermenne
+warm	indicative mood	present tense	past tense
+warm	first person singular	wierme	wiermde
+warm	second person singular	wiermest, wiermst	wiermdest
+warm	third person singular	wiermeþ, wiermþ	wiermde
+warm	plural	wiermaþ	wiermdon
+warm	subjunctive	present tense	past tense
+warm	singular	wierme	wiermde
+warm	plural	wiermen	wiermden
+warm	imperative		
+warm	singular	wierm	wierm
+warm	plural	wiermaþ	wiermaþ
+warm	participle	present	past
+warm		wiermende	(ġe)wiermed
+work	infinitive	wyrċan	wyrċenne
+work	indicative mood	present tense	past tense
+work	first person singular	wyrċe	worhte
+work	second person singular	wyrċest, wyrcst	worhtest
+work	third person singular	wyrċeþ, wyrcþ	worhte
+work	plural	wyrċaþ	worhton
+work	subjunctive	present tense	past tense
+work	singular	wyrċe	worhte
+work	plural	wyrċen	worhten
+work	imperative		
+work	singular	wyrċ	wyrċ
+work	plural	wyrċaþ	wyrċaþ
+work	participle	present	past
+work		wyrċende	(ġe)worht

@@ -1894,3 +1894,627 @@ flow	future	fluir	fluíres	fluir	fluirmos	fluirdes	fluírem
 flow	imperative	imperative	imperative	imperative	imperative	imperative	imperative
 flow	affirmative		flui	flua	fluamos	fluí	fluam
 flow	negative (não)		não fluas	não flua	não fluamos	não fluais	não fluam
+suffer		singular	singular	singular	plural	plural	plural
+suffer		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+suffer	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+suffer	impersonal	sofrer	sofrer	sofrer	sofrer	sofrer	sofrer
+suffer	personal	sofrer	sofreres	sofrer	sofrermos	sofrerdes	sofrerem
+suffer	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+suffer		sofrendo	sofrendo	sofrendo	sofrendo	sofrendo	sofrendo
+suffer	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+suffer	masculine	sofrido	sofrido	sofrido	sofridos	sofridos	sofridos
+suffer	feminine	sofrida	sofrida	sofrida	sofridas	sofridas	sofridas
+suffer	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+suffer	present	sofro	sofres	sofre	sofremos	sofreis	sofrem
+suffer	imperfect	sofria	sofrias	sofria	sofríamos	sofríeis	sofriam
+suffer	preterite	sofri	sofreste	sofreu	sofremos	sofrestes	sofreram
+suffer	pluperfect	sofrera	sofreras	sofrera	sofrêramos	sofrêreis	sofreram
+suffer	future	sofrerei	sofrerás	sofrerá	sofreremos	sofrereis	sofrerão
+suffer	conditional	sofreria	sofrerias	sofreria	sofreríamos	sofreríeis	sofreriam
+suffer	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+suffer	present	sofra	sofras	sofra	soframos	sofrais	sofram
+suffer	imperfect	sofresse	sofresses	sofresse	sofrêssemos	sofrêsseis	sofressem
+suffer	future	sofrer	sofreres	sofrer	sofrermos	sofrerdes	sofrerem
+suffer	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+suffer	affirmative		sofre	sofra	soframos	sofrei	sofram
+suffer	negative (não)		não sofras	não sofra	não soframos	não sofrais	não sofram
+go		singular	singular	singular	plural	plural	plural
+go		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+go	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+go	impersonal	ir	ir	ir	ir	ir	ir
+go	personal	ir	ires	ir	irmos	irdes	irem
+go	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+go		indo	indo	indo	indo	indo	indo
+go	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+go	masculine	ido	ido	ido	idos	idos	idos
+go	feminine	ida	ida	ida	idas	idas	idas
+go	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+go	present	vou	vais	vai	vamos	ides	vão
+go	imperfect	ia	ias	ia	íamos	íeis	iam
+go	preterite	fui	foste	foi	fomos	fostes	foram
+go	pluperfect	fora	foras	fora	fôramos	fôreis	foram
+go	future	irei	irás	irá	iremos	ireis	irão
+go	conditional	iria	irias	iria	iríamos	iríeis	iriam
+go	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+go	present	vá	vás	vá	vamos	vades	vão
+go	imperfect	fosse	fosses	fosse	fôssemos	fôsseis	fossem
+go	future	for	fores	for	formos	fordes	forem
+go	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+go	affirmative		vai	vá	vamos	ide	vão
+go	negative (não)		não vás	não vá	não vamos	não vades	não vão
+greet		singular	singular	singular	plural	plural	plural
+greet		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+greet	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+greet	impersonal	saudar	saudar	saudar	saudar	saudar	saudar
+greet	personal	saudar	saudares	saudar	saudarmos	saudardes	saudarem
+greet	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+greet		saudando	saudando	saudando	saudando	saudando	saudando
+greet	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+greet	masculine	saudado	saudado	saudado	saudados	saudados	saudados
+greet	feminine	saudada	saudada	saudada	saudadas	saudadas	saudadas
+greet	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+greet	present	saúdo	saúdas	saúda	saudamos	saudais	saúdam
+greet	imperfect	saudava	saudavas	saudava	saudávamos	saudáveis	saudavam
+greet	preterite	saudei	saudaste	saudou	saudamos1, saudámos2	saudastes	saudaram
+greet	pluperfect	saudara	saudaras	saudara	saudáramos	saudáreis	saudaram
+greet	future	saudarei	saudarás	saudará	saudaremos	saudareis	saudarão
+greet	conditional	saudaria	saudarias	saudaria	saudaríamos	saudaríeis	saudariam
+greet	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+greet	present	saúde	saúdes	saúde	saudemos	saudeis	saúdem
+greet	imperfect	saudasse	saudasses	saudasse	saudássemos	saudásseis	saudassem
+greet	future	saudar	saudares	saudar	saudarmos	saudardes	saudarem
+greet	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+greet	affirmative		saúda	saúde	saudemos	saudai	saúdem
+greet	negative (não)		não saúdes	não saúde	não saudemos	não saudeis	não saúdem
+have		singular	singular	singular	plural	plural	plural
+have		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+have	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+have	impersonal	haver	haver	haver	haver	haver	haver
+have	personal	haver	haveres	haver	havermos	haverdes	haverem
+have	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+have		havendo	havendo	havendo	havendo	havendo	havendo
+have	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+have	masculine	havido	havido	havido	havidos	havidos	havidos
+have	feminine	havida	havida	havida	havidas	havidas	havidas
+have	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+have	present	hei	hás	há	havemos, hemos	haveis, heis	hão
+have	imperfect	havia	havias	havia	havíamos	havíeis	haviam
+have	preterite	houve	houveste	houve	houvemos	houvestes	houveram
+have	pluperfect	houvera	houveras	houvera	houvéramos	houvéreis	houveram
+have	future	haverei	haverás	haverá	haveremos	havereis	haverão
+have	conditional	haveria	haverias	haveria	haveríamos	haveríeis	haveriam
+have	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+have	present	haja	hajas	haja	hajamos	hajais	hajam
+have	imperfect	houvesse	houvesses	houvesse	houvéssemos	houvésseis	houvessem
+have	future	houver	houveres	houver	houvermos	houverdes	houverem
+have	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+have	affirmative		há	haja	hajamos	havei	hajam
+have	negative (não)		não hajas	não haja	não hajamos	não hajais	não hajam
+heal		singular	singular	singular	plural	plural	plural
+heal		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+heal	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+heal	impersonal	curar	curar	curar	curar	curar	curar
+heal	personal	curar	curares	curar	curarmos	curardes	curarem
+heal	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+heal		curando	curando	curando	curando	curando	curando
+heal	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+heal	masculine	curado	curado	curado	curados	curados	curados
+heal	feminine	curada	curada	curada	curadas	curadas	curadas
+heal	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+heal	present	curo	curas	cura	curamos	curais	curam
+heal	imperfect	curava	curavas	curava	curávamos	curáveis	curavam
+heal	preterite	curei	curaste	curou	curamos1, curámos2	curastes	curaram
+heal	pluperfect	curara	curaras	curara	curáramos	curáreis	curaram
+heal	future	curarei	curarás	curará	curaremos	curareis	curarão
+heal	conditional	curaria	curarias	curaria	curaríamos	curaríeis	curariam
+heal	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+heal	present	cure	cures	cure	curemos	cureis	curem
+heal	imperfect	curasse	curasses	curasse	curássemos	curásseis	curassem
+heal	future	curar	curares	curar	curarmos	curardes	curarem
+heal	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+heal	affirmative		cura	cure	curemos	curai	curem
+heal	negative (não)		não cures	não cure	não curemos	não cureis	não curem
+hear		singular	singular	singular	plural	plural	plural
+hear		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+hear	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+hear	impersonal	ouvir	ouvir	ouvir	ouvir	ouvir	ouvir
+hear	personal	ouvir	ouvires	ouvir	ouvirmos	ouvirdes	ouvirem
+hear	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+hear		ouvindo	ouvindo	ouvindo	ouvindo	ouvindo	ouvindo
+hear	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+hear	masculine	ouvido	ouvido	ouvido	ouvidos	ouvidos	ouvidos
+hear	feminine	ouvida	ouvida	ouvida	ouvidas	ouvidas	ouvidas
+hear	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+hear	present	ouço, oiço	ouves	ouve	ouvimos	ouvis	ouvem
+hear	imperfect	ouvia	ouvias	ouvia	ouvíamos	ouvíeis	ouviam
+hear	preterite	ouvi	ouviste	ouviu	ouvimos	ouvistes	ouviram
+hear	pluperfect	ouvira	ouviras	ouvira	ouvíramos	ouvíreis	ouviram
+hear	future	ouvirei	ouvirás	ouvirá	ouviremos	ouvireis	ouvirão
+hear	conditional	ouviria	ouvirias	ouviria	ouviríamos	ouviríeis	ouviriam
+hear	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+hear	present	ouça, oiça	ouças, oiças	ouça, oiça	ouçamos, oiçamos	ouçais, oiçais	ouçam, oiçam
+hear	imperfect	ouvisse	ouvisses	ouvisse	ouvíssemos	ouvísseis	ouvissem
+hear	future	ouvir	ouvires	ouvir	ouvirmos	ouvirdes	ouvirem
+hear	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+hear	affirmative		ouve	ouça, oiça	ouçamos, oiçamos	ouvi	ouçam, oiçam
+hear	negative (não)		não ouças, não oiças	não ouça, não oiça	não ouçamos, não oiçamos	não ouçais, não oiçais	não ouçam, não oiçam
+heat		singular	singular	singular	plural	plural	plural
+heat		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+heat	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+heat	impersonal	aquecer	aquecer	aquecer	aquecer	aquecer	aquecer
+heat	personal	aquecer	aqueceres	aquecer	aquecermos	aquecerdes	aquecerem
+heat	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+heat		aquecendo	aquecendo	aquecendo	aquecendo	aquecendo	aquecendo
+heat	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+heat	masculine	aquecido	aquecido	aquecido	aquecidos	aquecidos	aquecidos
+heat	feminine	aquecida	aquecida	aquecida	aquecidas	aquecidas	aquecidas
+heat	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+heat	present	aqueço	aqueces	aquece	aquecemos	aqueceis	aquecem
+heat	imperfect	aquecia	aquecias	aquecia	aquecíamos	aquecíeis	aqueciam
+heat	preterite	aqueci	aqueceste	aqueceu	aquecemos	aquecestes	aqueceram
+heat	pluperfect	aquecera	aqueceras	aquecera	aquecêramos	aquecêreis	aqueceram
+heat	future	aquecerei	aquecerás	aquecerá	aqueceremos	aquecereis	aquecerão
+heat	conditional	aqueceria	aquecerias	aqueceria	aqueceríamos	aqueceríeis	aqueceriam
+heat	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+heat	present	aqueça	aqueças	aqueça	aqueçamos	aqueçais	aqueçam
+heat	imperfect	aquecesse	aquecesses	aquecesse	aquecêssemos	aquecêsseis	aquecessem
+heat	future	aquecer	aqueceres	aquecer	aquecermos	aquecerdes	aquecerem
+heat	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+heat	affirmative		aquece	aqueça	aqueçamos	aquecei	aqueçam
+heat	negative (não)		não aqueças	não aqueça	não aqueçamos	não aqueçais	não aqueçam
+inhabit		singular	singular	singular	plural	plural	plural
+inhabit		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+inhabit	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+inhabit	impersonal	habitar	habitar	habitar	habitar	habitar	habitar
+inhabit	personal	habitar	habitares	habitar	habitarmos	habitardes	habitarem
+inhabit	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+inhabit		habitando	habitando	habitando	habitando	habitando	habitando
+inhabit	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+inhabit	masculine	habitado	habitado	habitado	habitados	habitados	habitados
+inhabit	feminine	habitada	habitada	habitada	habitadas	habitadas	habitadas
+inhabit	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+inhabit	present	habito	habitas	habita	habitamos	habitais	habitam
+inhabit	imperfect	habitava	habitavas	habitava	habitávamos	habitáveis	habitavam
+inhabit	preterite	habitei	habitaste	habitou	habitamos1, habitámos2	habitastes	habitaram
+inhabit	pluperfect	habitara	habitaras	habitara	habitáramos	habitáreis	habitaram
+inhabit	future	habitarei	habitarás	habitará	habitaremos	habitareis	habitarão
+inhabit	conditional	habitaria	habitarias	habitaria	habitaríamos	habitaríeis	habitariam
+inhabit	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+inhabit	present	habite	habites	habite	habitemos	habiteis	habitem
+inhabit	imperfect	habitasse	habitasses	habitasse	habitássemos	habitásseis	habitassem
+inhabit	future	habitar	habitares	habitar	habitarmos	habitardes	habitarem
+inhabit	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+inhabit	affirmative		habita	habite	habitemos	habitai	habitem
+inhabit	negative (não)		não habites	não habite	não habitemos	não habiteis	não habitem
+occupy		singular	singular	singular	plural	plural	plural
+occupy		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+occupy	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+occupy	impersonal	ocupar	ocupar	ocupar	ocupar	ocupar	ocupar
+occupy	personal	ocupar	ocupares	ocupar	ocuparmos	ocupardes	ocuparem
+occupy	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+occupy		ocupando	ocupando	ocupando	ocupando	ocupando	ocupando
+occupy	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+occupy	masculine	ocupado	ocupado	ocupado	ocupados	ocupados	ocupados
+occupy	feminine	ocupada	ocupada	ocupada	ocupadas	ocupadas	ocupadas
+occupy	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+occupy	present	ocupo	ocupas	ocupa	ocupamos	ocupais	ocupam
+occupy	imperfect	ocupava	ocupavas	ocupava	ocupávamos	ocupáveis	ocupavam
+occupy	preterite	ocupei	ocupaste	ocupou	ocupamos1, ocupámos2	ocupastes	ocuparam
+occupy	pluperfect	ocupara	ocuparas	ocupara	ocupáramos	ocupáreis	ocuparam
+occupy	future	ocuparei	ocuparás	ocupará	ocuparemos	ocupareis	ocuparão
+occupy	conditional	ocuparia	ocuparias	ocuparia	ocuparíamos	ocuparíeis	ocupariam
+occupy	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+occupy	present	ocupe	ocupes	ocupe	ocupemos	ocupeis	ocupem
+occupy	imperfect	ocupasse	ocupasses	ocupasse	ocupássemos	ocupásseis	ocupassem
+occupy	future	ocupar	ocupares	ocupar	ocuparmos	ocupardes	ocuparem
+occupy	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+occupy	affirmative		ocupa	ocupe	ocupemos	ocupai	ocupem
+occupy	negative (não)		não ocupes	não ocupe	não ocupemos	não ocupeis	não ocupem
+possess		singular	singular	singular	plural	plural	plural
+possess		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+possess	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+possess	impersonal	ter	ter	ter	ter	ter	ter
+possess	personal	ter	teres	ter	termos	terdes	terem
+possess	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+possess		tendo	tendo	tendo	tendo	tendo	tendo
+possess	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+possess	masculine	tido	tido	tido	tidos	tidos	tidos
+possess	feminine	tida	tida	tida	tidas	tidas	tidas
+possess	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+possess	present	tenho	tens	tem	temos	tendes	têm
+possess	imperfect	tinha	tinhas	tinha	tínhamos	tínheis	tinham
+possess	preterite	tive	tiveste	teve	tivemos	tivestes	tiveram
+possess	pluperfect	tivera	tiveras	tivera	tivéramos	tivéreis	tiveram
+possess	future	terei	terás	terá	teremos	tereis	terão
+possess	conditional	teria	terias	teria	teríamos	teríeis	teriam
+possess	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+possess	present	tenha	tenhas	tenha	tenhamos	tenhais	tenham
+possess	imperfect	tivesse	tivesses	tivesse	tivéssemos	tivésseis	tivessem
+possess	future	tiver	tiveres	tiver	tivermos	tiverdes	tiverem
+possess	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+possess	affirmative		tem	tenha	tenhamos	tende	tenham
+possess	negative (não)		não tenhas	não tenha	não tenhamos	não tenhais	não tenham
+put		singular	singular	singular	plural	plural	plural
+put		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+put	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+put	impersonal	pôr	pôr	pôr	pôr	pôr	pôr
+put	personal	pôr	pores	pôr	pormos	pordes	porem
+put	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+put		pondo	pondo	pondo	pondo	pondo	pondo
+put	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+put	masculine	posto	posto	posto	postos	postos	postos
+put	feminine	posta	posta	posta	postas	postas	postas
+put	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+put	present	ponho	pões	põe	pomos	pondes	põem
+put	imperfect	punha	punhas	punha	púnhamos	púnheis	punham
+put	preterite	pus	puseste	pôs	pusemos	pusestes	puseram
+put	pluperfect	pusera	puseras	pusera	puséramos	puséreis	puseram
+put	future	porei	porás	porá	poremos	poreis	porão
+put	conditional	poria	porias	poria	poríamos	poríeis	poriam
+put	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+put	present	ponha	ponhas	ponha	ponhamos	ponhais	ponham
+put	imperfect	pusesse	pusesses	pusesse	puséssemos	pusésseis	pusessem
+put	future	puser	puseres	puser	pusermos	puserdes	puserem
+put	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+put	affirmative		põe	ponha	ponhamos	ponde	ponham
+put	negative (não)		não ponhas	não ponha	não ponhamos	não ponhais	não ponham
+read		singular	singular	singular	plural	plural	plural
+read		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+read	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+read	impersonal	ler	ler	ler	ler	ler	ler
+read	personal	ler	leres	ler	lermos	lerdes	lerem
+read	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+read		lendo	lendo	lendo	lendo	lendo	lendo
+read	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+read	masculine	lido	lido	lido	lidos	lidos	lidos
+read	feminine	lida	lida	lida	lidas	lidas	lidas
+read	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+read	present	leio	lês	lê	lemos	ledes	leem, lêem1
+read	imperfect	lia	lias	lia	líamos	líeis	liam
+read	preterite	li	leste	leu	lemos	lestes	leram
+read	pluperfect	lera	leras	lera	lêramos	lêreis	leram
+read	future	lerei	lerás	lerá	leremos	lereis	lerão
+read	conditional	leria	lerias	leria	leríamos	leríeis	leriam
+read	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+read	present	leia	leias	leia	leiamos	leiais	leiam
+read	imperfect	lesse	lesses	lesse	lêssemos	lêsseis	lessem
+read	future	ler	leres	ler	lermos	lerdes	lerem
+read	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+read	affirmative		lê	leia	leiamos	lede	leiam
+read	negative (não)		não leias	não leia	não leiamos	não leiais	não leiam
+resemble		singular	singular	singular	plural	plural	plural
+resemble		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+resemble	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+resemble	impersonal	assemelhar	assemelhar	assemelhar	assemelhar	assemelhar	assemelhar
+resemble	personal	assemelhar	assemelhares	assemelhar	assemelharmos	assemelhardes	assemelharem
+resemble	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+resemble		assemelhando	assemelhando	assemelhando	assemelhando	assemelhando	assemelhando
+resemble	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+resemble	masculine	assemelhado	assemelhado	assemelhado	assemelhados	assemelhados	assemelhados
+resemble	feminine	assemelhada	assemelhada	assemelhada	assemelhadas	assemelhadas	assemelhadas
+resemble	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+resemble	present	assemelho	assemelhas	assemelha	assemelhamos	assemelhais	assemelham
+resemble	imperfect	assemelhava	assemelhavas	assemelhava	assemelhávamos	assemelháveis	assemelhavam
+resemble	preterite	assemelhei	assemelhaste	assemelhou	assemelhamos1, assemelhámos2	assemelhastes	assemelharam
+resemble	pluperfect	assemelhara	assemelharas	assemelhara	assemelháramos	assemelháreis	assemelharam
+resemble	future	assemelharei	assemelharás	assemelhará	assemelharemos	assemelhareis	assemelharão
+resemble	conditional	assemelharia	assemelharias	assemelharia	assemelharíamos	assemelharíeis	assemelhariam
+resemble	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+resemble	present	assemelhe	assemelhes	assemelhe	assemelhemos	assemelheis	assemelhem
+resemble	imperfect	assemelhasse	assemelhasses	assemelhasse	assemelhássemos	assemelhásseis	assemelhassem
+resemble	future	assemelhar	assemelhares	assemelhar	assemelharmos	assemelhardes	assemelharem
+resemble	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+resemble	affirmative		assemelha	assemelhe	assemelhemos	assemelhai	assemelhem
+resemble	negative (não)		não assemelhes	não assemelhe	não assemelhemos	não assemelheis	não assemelhem
+rest		singular	singular	singular	plural	plural	plural
+rest		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+rest	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+rest	impersonal	descansar	descansar	descansar	descansar	descansar	descansar
+rest	personal	descansar	descansares	descansar	descansarmos	descansardes	descansarem
+rest	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+rest		descansando	descansando	descansando	descansando	descansando	descansando
+rest	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+rest	masculine	descansado	descansado	descansado	descansados	descansados	descansados
+rest	feminine	descansada	descansada	descansada	descansadas	descansadas	descansadas
+rest	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+rest	present	descanso	descansas	descansa	descansamos	descansais	descansam
+rest	imperfect	descansava	descansavas	descansava	descansávamos	descansáveis	descansavam
+rest	preterite	descansei	descansaste	descansou	descansamos1, descansámos2	descansastes	descansaram
+rest	pluperfect	descansara	descansaras	descansara	descansáramos	descansáreis	descansaram
+rest	future	descansarei	descansarás	descansará	descansaremos	descansareis	descansarão
+rest	conditional	descansaria	descansarias	descansaria	descansaríamos	descansaríeis	descansariam
+rest	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+rest	present	descanse	descanses	descanse	descansemos	descanseis	descansem
+rest	imperfect	descansasse	descansasses	descansasse	descansássemos	descansásseis	descansassem
+rest	future	descansar	descansares	descansar	descansarmos	descansardes	descansarem
+rest	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+rest	affirmative		descansa	descanse	descansemos	descansai	descansem
+rest	negative (não)		não descanses	não descanse	não descansemos	não descanseis	não descansem
+see		singular	singular	singular	plural	plural	plural
+see		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+see	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+see	impersonal	ver	ver	ver	ver	ver	ver
+see	personal	ver	veres	ver	vermos	verdes	verem
+see	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+see		vendo	vendo	vendo	vendo	vendo	vendo
+see	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+see	masculine	visto	visto	visto	vistos	vistos	vistos
+see	feminine	vista	vista	vista	vistas	vistas	vistas
+see	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+see	present	vejo	vês	vê	vemos	vedes	veem, vêem1
+see	imperfect	via	vias	via	víamos	víeis	viam
+see	preterite	vi	viste	viu	vimos	vistes	viram
+see	pluperfect	vira	viras	vira	víramos	víreis	viram
+see	future	verei	verás	verá	veremos	vereis	verão
+see	conditional	veria	verias	veria	veríamos	veríeis	veriam
+see	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+see	present	veja	vejas	veja	vejamos	vejais	vejam
+see	imperfect	visse	visses	visse	víssemos	vísseis	vissem
+see	future	vir	vires	vir	virmos	virdes	virem
+see	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+see	affirmative		vê	veja	vejamos	vede	vejam
+see	negative (não)		não vejas	não veja	não vejamos	não vejais	não vejam
+shout		singular	singular	singular	plural	plural	plural
+shout		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+shout	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+shout	impersonal	gritar	gritar	gritar	gritar	gritar	gritar
+shout	personal	gritar	gritares	gritar	gritarmos	gritardes	gritarem
+shout	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+shout		gritando	gritando	gritando	gritando	gritando	gritando
+shout	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+shout	masculine	gritado	gritado	gritado	gritados	gritados	gritados
+shout	feminine	gritada	gritada	gritada	gritadas	gritadas	gritadas
+shout	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+shout	present	grito	gritas	grita	gritamos	gritais	gritam
+shout	imperfect	gritava	gritavas	gritava	gritávamos	gritáveis	gritavam
+shout	preterite	gritei	gritaste	gritou	gritamos1, gritámos2	gritastes	gritaram
+shout	pluperfect	gritara	gritaras	gritara	gritáramos	gritáreis	gritaram
+shout	future	gritarei	gritarás	gritará	gritaremos	gritareis	gritarão
+shout	conditional	gritaria	gritarias	gritaria	gritaríamos	gritaríeis	gritariam
+shout	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+shout	present	grite	grites	grite	gritemos	griteis	gritem
+shout	imperfect	gritasse	gritasses	gritasse	gritássemos	gritásseis	gritassem
+shout	future	gritar	gritares	gritar	gritarmos	gritardes	gritarem
+shout	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+shout	affirmative		grita	grite	gritemos	gritai	gritem
+shout	negative (não)		não grites	não grite	não gritemos	não griteis	não gritem
+show		singular	singular	singular	plural	plural	plural
+show		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+show	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+show	impersonal	mostrar	mostrar	mostrar	mostrar	mostrar	mostrar
+show	personal	mostrar	mostrares	mostrar	mostrarmos	mostrardes	mostrarem
+show	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+show		mostrando	mostrando	mostrando	mostrando	mostrando	mostrando
+show	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+show	masculine	mostrado	mostrado	mostrado	mostrados	mostrados	mostrados
+show	feminine	mostrada	mostrada	mostrada	mostradas	mostradas	mostradas
+show	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+show	present	mostro	mostras	mostra	mostramos	mostrais	mostram
+show	imperfect	mostrava	mostravas	mostrava	mostrávamos	mostráveis	mostravam
+show	preterite	mostrei	mostraste	mostrou	mostramos1, mostrámos2	mostrastes	mostraram
+show	pluperfect	mostrara	mostraras	mostrara	mostráramos	mostráreis	mostraram
+show	future	mostrarei	mostrarás	mostrará	mostraremos	mostrareis	mostrarão
+show	conditional	mostraria	mostrarias	mostraria	mostraríamos	mostraríeis	mostrariam
+show	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+show	present	mostre	mostres	mostre	mostremos	mostreis	mostrem
+show	imperfect	mostrasse	mostrasses	mostrasse	mostrássemos	mostrásseis	mostrassem
+show	future	mostrar	mostrares	mostrar	mostrarmos	mostrardes	mostrarem
+show	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+show	affirmative		mostra	mostre	mostremos	mostrai	mostrem
+show	negative (não)		não mostres	não mostre	não mostremos	não mostreis	não mostrem
+frighten		singular	singular	singular	plural	plural	plural
+frighten		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+frighten	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+frighten	impersonal	intimidar	intimidar	intimidar	intimidar	intimidar	intimidar
+frighten	personal	intimidar	intimidares	intimidar	intimidarmos	intimidardes	intimidarem
+frighten	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+frighten		intimidando	intimidando	intimidando	intimidando	intimidando	intimidando
+frighten	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+frighten	masculine	intimidado	intimidado	intimidado	intimidados	intimidados	intimidados
+frighten	feminine	intimidada	intimidada	intimidada	intimidadas	intimidadas	intimidadas
+frighten	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+frighten	present	intimido	intimidas	intimida	intimidamos	intimidais	intimidam
+frighten	imperfect	intimidava	intimidavas	intimidava	intimidávamos	intimidáveis	intimidavam
+frighten	preterite	intimidei	intimidaste	intimidou	intimidamos1, intimidámos2	intimidastes	intimidaram
+frighten	pluperfect	intimidara	intimidaras	intimidara	intimidáramos	intimidáreis	intimidaram
+frighten	future	intimidarei	intimidarás	intimidará	intimidaremos	intimidareis	intimidarão
+frighten	conditional	intimidaria	intimidarias	intimidaria	intimidaríamos	intimidaríeis	intimidariam
+frighten	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+frighten	present	intimide	intimides	intimide	intimidemos	intimideis	intimidem
+frighten	imperfect	intimidasse	intimidasses	intimidasse	intimidássemos	intimidásseis	intimidassem
+frighten	future	intimidar	intimidares	intimidar	intimidarmos	intimidardes	intimidarem
+frighten	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+frighten	affirmative		intimida	intimide	intimidemos	intimidai	intimidem
+frighten	negative (não)		não intimides	não intimide	não intimidemos	não intimideis	não intimidem
+startle		singular	singular	singular	plural	plural	plural
+startle		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+startle	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+startle	impersonal	assustar	assustar	assustar	assustar	assustar	assustar
+startle	personal	assustar	assustares	assustar	assustarmos	assustardes	assustarem
+startle	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+startle		assustando	assustando	assustando	assustando	assustando	assustando
+startle	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+startle	masculine	assustado	assustado	assustado	assustados	assustados	assustados
+startle	feminine	assustada	assustada	assustada	assustadas	assustadas	assustadas
+startle	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+startle	present	assusto	assustas	assusta	assustamos	assustais	assustam
+startle	imperfect	assustava	assustavas	assustava	assustávamos	assustáveis	assustavam
+startle	preterite	assustei	assustaste	assustou	assustamos1, assustámos2	assustastes	assustaram
+startle	pluperfect	assustara	assustaras	assustara	assustáramos	assustáreis	assustaram
+startle	future	assustarei	assustarás	assustará	assustaremos	assustareis	assustarão
+startle	conditional	assustaria	assustarias	assustaria	assustaríamos	assustaríeis	assustariam
+startle	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+startle	present	assuste	assustes	assuste	assustemos	assusteis	assustem
+startle	imperfect	assustasse	assustasses	assustasse	assustássemos	assustásseis	assustassem
+startle	future	assustar	assustares	assustar	assustarmos	assustardes	assustarem
+startle	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+startle	affirmative		assusta	assuste	assustemos	assustai	assustem
+startle	negative (não)		não assustes	não assuste	não assustemos	não assusteis	não assustem
+swim		singular	singular	singular	plural	plural	plural
+swim		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+swim	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+swim	impersonal	nadar	nadar	nadar	nadar	nadar	nadar
+swim	personal	nadar	nadares	nadar	nadarmos	nadardes	nadarem
+swim	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+swim		nadando	nadando	nadando	nadando	nadando	nadando
+swim	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+swim	masculine	nadado	nadado	nadado	nadados	nadados	nadados
+swim	feminine	nadada	nadada	nadada	nadadas	nadadas	nadadas
+swim	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+swim	present	nado	nadas	nada	nadamos	nadais	nadam
+swim	imperfect	nadava	nadavas	nadava	nadávamos	nadáveis	nadavam
+swim	preterite	nadei	nadaste	nadou	nadamos1, nadámos2	nadastes	nadaram
+swim	pluperfect	nadara	nadaras	nadara	nadáramos	nadáreis	nadaram
+swim	future	nadarei	nadarás	nadará	nadaremos	nadareis	nadarão
+swim	conditional	nadaria	nadarias	nadaria	nadaríamos	nadaríeis	nadariam
+swim	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+swim	present	nade	nades	nade	nademos	nadeis	nadem
+swim	imperfect	nadasse	nadasses	nadasse	nadássemos	nadásseis	nadassem
+swim	future	nadar	nadares	nadar	nadarmos	nadardes	nadarem
+swim	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+swim	affirmative		nada	nade	nademos	nadai	nadem
+swim	negative (não)		não nades	não nade	não nademos	não nadeis	não nadem
+throw		singular	singular	singular	plural	plural	plural
+throw		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+throw	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+throw	impersonal	lançar	lançar	lançar	lançar	lançar	lançar
+throw	personal	lançar	lançares	lançar	lançarmos	lançardes	lançarem
+throw	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+throw		lançando	lançando	lançando	lançando	lançando	lançando
+throw	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+throw	masculine	lançado	lançado	lançado	lançados	lançados	lançados
+throw	feminine	lançada	lançada	lançada	lançadas	lançadas	lançadas
+throw	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+throw	present	lanço	lanças	lança	lançamos	lançais	lançam
+throw	imperfect	lançava	lançavas	lançava	lançávamos	lançáveis	lançavam
+throw	preterite	lancei	lançaste	lançou	lançamos1, lançámos2	lançastes	lançaram
+throw	pluperfect	lançara	lançaras	lançara	lançáramos	lançáreis	lançaram
+throw	future	lançarei	lançarás	lançará	lançaremos	lançareis	lançarão
+throw	conditional	lançaria	lançarias	lançaria	lançaríamos	lançaríeis	lançariam
+throw	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+throw	present	lance	lances	lance	lancemos	lanceis	lancem
+throw	imperfect	lançasse	lançasses	lançasse	lançássemos	lançásseis	lançassem
+throw	future	lançar	lançares	lançar	lançarmos	lançardes	lançarem
+throw	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+throw	affirmative		lança	lance	lancemos	lançai	lancem
+throw	negative (não)		não lances	não lance	não lancemos	não lanceis	não lancem
+wait		singular	singular	singular	plural	plural	plural
+wait		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+wait	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+wait	impersonal	esperar	esperar	esperar	esperar	esperar	esperar
+wait	personal	esperar	esperares	esperar	esperarmos	esperardes	esperarem
+wait	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+wait		esperando	esperando	esperando	esperando	esperando	esperando
+wait	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+wait	masculine	esperado	esperado	esperado	esperados	esperados	esperados
+wait	feminine	esperada	esperada	esperada	esperadas	esperadas	esperadas
+wait	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+wait	present	espero	esperas	espera	esperamos	esperais	esperam
+wait	imperfect	esperava	esperavas	esperava	esperávamos	esperáveis	esperavam
+wait	preterite	esperei	esperaste	esperou	esperamos1, esperámos2	esperastes	esperaram
+wait	pluperfect	esperara	esperaras	esperara	esperáramos	esperáreis	esperaram
+wait	future	esperarei	esperarás	esperará	esperaremos	esperareis	esperarão
+wait	conditional	esperaria	esperarias	esperaria	esperaríamos	esperaríeis	esperariam
+wait	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+wait	present	espere	esperes	espere	esperemos	espereis	esperem
+wait	imperfect	esperasse	esperasses	esperasse	esperássemos	esperásseis	esperassem
+wait	future	esperar	esperares	esperar	esperarmos	esperardes	esperarem
+wait	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+wait	affirmative		espera	espere	esperemos	esperai	esperem
+wait	negative (não)		não esperes	não espere	não esperemos	não espereis	não esperem
+walk		singular	singular	singular	plural	plural	plural
+walk		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+walk	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+walk	impersonal	andar	andar	andar	andar	andar	andar
+walk	personal	andar	andares	andar	andarmos	andardes	andarem
+walk	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+walk		andando	andando	andando	andando	andando	andando
+walk	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+walk	masculine	andado	andado	andado	andados	andados	andados
+walk	feminine	andada	andada	andada	andadas	andadas	andadas
+walk	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+walk	present	ando	andas	anda	andamos	andais	andam
+walk	imperfect	andava	andavas	andava	andávamos	andáveis	andavam
+walk	preterite	andei	andaste	andou	andamos1, andámos2	andastes	andaram
+walk	pluperfect	andara	andaras	andara	andáramos	andáreis	andaram
+walk	future	andarei	andarás	andará	andaremos	andareis	andarão
+walk	conditional	andaria	andarias	andaria	andaríamos	andaríeis	andariam
+walk	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+walk	present	ande	andes	ande	andemos	andeis	andem
+walk	imperfect	andasse	andasses	andasse	andássemos	andásseis	andassem
+walk	future	andar	andares	andar	andarmos	andardes	andarem
+walk	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+walk	affirmative		anda	ande	andemos	andai	andem
+walk	negative (não)		não andes	não ande	não andemos	não andeis	não andem
+warm		singular	singular	singular	plural	plural	plural
+warm		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+warm	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+warm	impersonal	aquecer	aquecer	aquecer	aquecer	aquecer	aquecer
+warm	personal	aquecer	aqueceres	aquecer	aquecermos	aquecerdes	aquecerem
+warm	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+warm		aquecendo	aquecendo	aquecendo	aquecendo	aquecendo	aquecendo
+warm	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+warm	masculine	aquecido	aquecido	aquecido	aquecidos	aquecidos	aquecidos
+warm	feminine	aquecida	aquecida	aquecida	aquecidas	aquecidas	aquecidas
+warm	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+warm	present	aqueço	aqueces	aquece	aquecemos	aqueceis	aquecem
+warm	imperfect	aquecia	aquecias	aquecia	aquecíamos	aquecíeis	aqueciam
+warm	preterite	aqueci	aqueceste	aqueceu	aquecemos	aquecestes	aqueceram
+warm	pluperfect	aquecera	aqueceras	aquecera	aquecêramos	aquecêreis	aqueceram
+warm	future	aquecerei	aquecerás	aquecerá	aqueceremos	aquecereis	aquecerão
+warm	conditional	aqueceria	aquecerias	aqueceria	aqueceríamos	aqueceríeis	aqueceriam
+warm	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+warm	present	aqueça	aqueças	aqueça	aqueçamos	aqueçais	aqueçam
+warm	imperfect	aquecesse	aquecesses	aquecesse	aquecêssemos	aquecêsseis	aquecessem
+warm	future	aquecer	aqueceres	aquecer	aquecermos	aquecerdes	aquecerem
+warm	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+warm	affirmative		aquece	aqueça	aqueçamos	aquecei	aqueçam
+warm	negative (não)		não aqueças	não aqueça	não aqueçamos	não aqueçais	não aqueçam
+watch		singular	singular	singular	plural	plural	plural
+watch		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+watch	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+watch	impersonal	ver	ver	ver	ver	ver	ver
+watch	personal	ver	veres	ver	vermos	verdes	verem
+watch	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+watch		vendo	vendo	vendo	vendo	vendo	vendo
+watch	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+watch	masculine	visto	visto	visto	vistos	vistos	vistos
+watch	feminine	vista	vista	vista	vistas	vistas	vistas
+watch	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+watch	present	vejo	vês	vê	vemos	vedes	veem, vêem1
+watch	imperfect	via	vias	via	víamos	víeis	viam
+watch	preterite	vi	viste	viu	vimos	vistes	viram
+watch	pluperfect	vira	viras	vira	víramos	víreis	viram
+watch	future	verei	verás	verá	veremos	vereis	verão
+watch	conditional	veria	verias	veria	veríamos	veríeis	veriam
+watch	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+watch	present	veja	vejas	veja	vejamos	vejais	vejam
+watch	imperfect	visse	visses	visse	víssemos	vísseis	vissem
+watch	future	vir	vires	vir	virmos	virdes	virem
+watch	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+watch	affirmative		vê	veja	vejamos	vede	vejam
+watch	negative (não)		não vejas	não veja	não vejamos	não vejais	não vejam
+work		singular	singular	singular	plural	plural	plural
+work		first-person(eu)	second-person(tu)	third-person(ele / ela / você)	first-person(nós)	second-person(vós)	third-person(eles / elas / vocês)
+work	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive	infinitive
+work	impersonal	trabalhar	trabalhar	trabalhar	trabalhar	trabalhar	trabalhar
+work	personal	trabalhar	trabalhares	trabalhar	trabalharmos	trabalhardes	trabalharem
+work	gerund	gerund	gerund	gerund	gerund	gerund	gerund
+work		trabalhando	trabalhando	trabalhando	trabalhando	trabalhando	trabalhando
+work	past participle	past participle	past participle	past participle	past participle	past participle	past participle
+work	masculine	trabalhado	trabalhado	trabalhado	trabalhados	trabalhados	trabalhados
+work	feminine	trabalhada	trabalhada	trabalhada	trabalhadas	trabalhadas	trabalhadas
+work	indicative	indicative	indicative	indicative	indicative	indicative	indicative
+work	present	trabalho	trabalhas	trabalha	trabalhamos	trabalhais	trabalham
+work	imperfect	trabalhava	trabalhavas	trabalhava	trabalhávamos	trabalháveis	trabalhavam
+work	preterite	trabalhei	trabalhaste	trabalhou	trabalhamos1, trabalhámos2	trabalhastes	trabalharam
+work	pluperfect	trabalhara	trabalharas	trabalhara	trabalháramos	trabalháreis	trabalharam
+work	future	trabalharei	trabalharás	trabalhará	trabalharemos	trabalhareis	trabalharão
+work	conditional	trabalharia	trabalharias	trabalharia	trabalharíamos	trabalharíeis	trabalhariam
+work	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive	subjunctive
+work	present	trabalhe	trabalhes	trabalhe	trabalhemos	trabalheis	trabalhem
+work	imperfect	trabalhasse	trabalhasses	trabalhasse	trabalhássemos	trabalhásseis	trabalhassem
+work	future	trabalhar	trabalhares	trabalhar	trabalharmos	trabalhardes	trabalharem
+work	imperative	imperative	imperative	imperative	imperative	imperative	imperative
+work	affirmative		trabalha	trabalhe	trabalhemos	trabalhai	trabalhem
+work	negative (não)		não trabalhes	não trabalhe	não trabalhemos	não trabalheis	não trabalhem

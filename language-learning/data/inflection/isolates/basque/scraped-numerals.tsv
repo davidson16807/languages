@@ -1,0 +1,91 @@
+one		indefinite	singular	plural	proximal plural
+one	absolutive	bat	bata	batak	batok
+one	ergative	batek	batak	batek	batok
+one	dative	bati	batari	batei	batoi
+one	genitive	baten	bataren	baten	baton
+one	comitative	batekin	batarekin	batekin	batokin
+one	causative	batengatik	batarengatik	batengatik	batongatik
+one	benefactive	batentzat	batarentzat	batentzat	batontzat
+one	instrumental	batez	bataz	batez	batotaz
+one	inessive	batetan	batean	batetan	batotan
+one	locative	batetako	bateko	batetako	batotako
+one	allative	batetara	batera	batetara	batotara
+one	terminative	batetaraino	bateraino	batetaraino	batotaraino
+one	directive	batetarantz	baterantz	batetarantz	batotarantz
+one	destinative	batetarako	baterako	batetarako	batotarako
+one	ablative	batetatik	batetik	batetatik	batotatik
+one	partitive	batik	—	—	—
+one	prolative	battzat	—	—	—
+one			bat	bat	bat		bakoitz	bakoitz
+one			indefinite	singular	plural		indefinite	singular
+one	absolutive	absolutive	bat	bata	batzuk		bakoitz	bakoitza
+one	ergative	ergative	batek	batak	batzuek		bakoitzek	bakoitzak
+one	dative	dative	bati	batari	batzuei		bakoitzi	bakoitzari
+one	genitive	genitive	baten	bataren	batzuen		bakoitzen	bakoitzaren
+one	comitative	comitative	batekin	batarekin	batzuekin		bakoitzekin	bakoitzarekin
+one	causative	causative	batengatik, bategatik	batarengatik	batzuengatik		bakoitzengatik	bakoitzarengatik
+one	benefactive	benefactive	batentzat	batarentzat	batzuentzat		bakoitzentzat	bakoitzarentzat
+one	instrumental	instrumental	batez	bataz	batzuez		bakoitzez	bakoitzaz
+one	inessive	anim	batengan	batarengan	batzuengan		bakoitzengan	bakoitzarengan
+one	inessive	inan	batean, baten	batean	batzuetan		bakoitzean	bakoitzean
+one	locative	locative	bateko	bateko	batzuetako		bakoitzeko	bakoitzeko
+one	allative	anim	batengana	batarengana	batzuengana		bakoitzengana	bakoitzarengana
+one	allative	inan	batera	batera	batzuetara		bakoitzera	bakoitzera
+one	terminative	anim	batenganaino	batarenganaino	batzuenganaino		bakoitzenganaino	bakoitzarenganaino
+one	terminative	inan	bateraino	bateraino	batzuetaraino		bakoitzeraino	bakoitzeraino
+one	directive	anim	batenganantz	batarenganantz	batzuenganantz		bakoitzenganantz	bakoitzarenganantz
+one	directive	inan	baterantz	baterantz	batzuetarantz		bakoitzerantz	bakoitzerantz
+one	destinative	anim	batenganako	batarenganako	batzuenganako		bakoitzenganako	bakoitzarenganako
+one	destinative	inan	baterako	baterako	batzuetarako		bakoitzerako	bakoitzerako
+one	ablative	anim	batengandik	batarengandik	batzuengandik		bakoitzengandik	bakoitzarengandik
+one	ablative	inan	batetik	batetik	batzuetatik		bakoitzetik	bakoitzetik
+three			indefinite	singular	plural	proximal plural
+three	absolutive	absolutive	hiru	hirua	hiruak, hirurak	hiruok, hirurok
+three	ergative	ergative	hiruk	hiruak	hiruek, hirurek	hiruok, hirurok
+three	dative	dative	hiruri	hiruari	hiruei, hirurei	hiruoi, hiruroi
+three	genitive	genitive	hiruren	hiruaren	hiruen, hiruren	hiruon, hiruron
+three	comitative	comitative	hirurekin	hiruarekin	hiruekin, hirurekin	hiruokin, hirurokin
+three	causative	causative	hirurengatik	hiruarengatik	hiruengatik, hirurengatik	hiruongatik, hirurongatik
+three	benefactive	benefactive	hirurentzat	hiruarentzat	hiruentzat, hirurentzat	hiruontzat, hirurontzat
+three	instrumental	instrumental	hiruz	hiruaz	hiruez, hirurez	hiruotaz, hirurotaz
+three	inessive	anim.	hirurengan	hiruarengan	hiruengan, hirurengan	hiruongan, hirurongan
+three	inessive	inan.	hirutan	hiruan	hiruetan, hiruretan	hiruotan, hirurotan
+three	locative	anim.	—	—	—	—
+three	locative	inan.	hirutako	hiruko	hiruetako, hiruretako	hiruotako, hirurotako
+three	allative	anim.	hirurengana	hiruarengana	hiruengana, hirurengana	hiruongana, hirurongana
+three	allative	inan.	hirutara	hirura	hiruetara, hiruretara	hiruotara, hirurotara
+three	terminative	anim.	hirurenganaino	hiruarenganaino	hiruenganaino, hirurenganaino	hiruonganaino, hiruronganaino
+three	terminative	inan.	hirutaraino	hiruraino	hiruetaraino, hiruretaraino	hiruotaraino, hirurotaraino
+three	directive	anim.	hirurenganantz	hiruarenganantz	hiruenganantz, hirurenganantz	hiruonganantz, hiruronganantz
+three	directive	inan.	hirutarantz	hirurantz	hiruetarantz, hiruretarantz	hiruotarantz, hirurotarantz
+three	destinative	anim.	hirurenganako	hiruarenganako	hiruenganako, hirurenganako	hiruonganako, hiruronganako
+three	destinative	inan.	hirutarako	hirurako	hiruetarako, hiruretarako	hiruotarako, hirurotarako
+three	ablative	anim.	hirurengandik	hiruarengandik	hiruengandik, hirurengandik	hiruongandik, hirurongandik
+three	ablative	inan.	hirutatik	hirutik	hiruetatik, hiruretatik	hiruotatik, hirurotatik
+three	partitive	partitive	hirurik	—	—	—
+three	prolative	prolative	hirutzat	—	—	—
+two			indefinite	singular	plural	proximal plural
+two	absolutive	absolutive	bi	bia	biak	biok
+two	ergative	ergative	bik	biak	biek	biok
+two	dative	dative	biri	biari	biei	bioi
+two	genitive	genitive	biren	biaren	bien	bion
+two	comitative	comitative	birekin	biarekin	biekin	biokin
+two	causative	causative	birengatik	biarengatik	biengatik	biongatik
+two	benefactive	benefactive	birentzat	biarentzat	bientzat	biontzat
+two	instrumental	instrumental	biz	biaz	biez	biotaz
+two	inessive	anim.	birengan	biarengan	biengan	biongan
+two	inessive	inan.	bitan	bian	bietan	biotan
+two	locative	anim.	—	—	—	—
+two	locative	inan.	bitako	biko	bietako	biotako
+two	allative	anim.	birengana	biarengana	biengana	biongana
+two	allative	inan.	bitara	bira	bietara	biotara
+two	terminative	anim.	birenganaino	biarenganaino	bienganaino	bionganaino
+two	terminative	inan.	bitaraino	biraino	bietaraino	biotaraino
+two	directive	anim.	birenganantz	biarenganantz	bienganantz	bionganantz
+two	directive	inan.	bitarantz	birantz	bietarantz	biotarantz
+two	destinative	anim.	birenganako	biarenganako	bienganako	bionganako
+two	destinative	inan.	bitarako	birako	bietarako	biotarako
+two	ablative	anim.	birengandik	biarengandik	biengandik	biongandik
+two	ablative	inan.	bitatik	bitik	bietatik	biotatik
+two	partitive	partitive	birik	—	—	—
+two	prolative	prolative	bitzat	—	—	—

@@ -204,3 +204,9 @@ broken	nominative-accusative	indefinite	frânt	frânt	frântă	frânți	frânte	
 broken	nominative-accusative	definite	frântul	frântul	frânta	frânții	frântele	frântele
 broken	genitive-dative	indefinite	frânt	frânt	frânte	frânți	frânte	frânte
 broken	genitive-dative	definite	frântului	frântului	frântei	frânților	frântelor	frântelor
+red			singular	singular	singular	plural	plural	plural
+red			masculine	neuter	feminine	masculine	neuter	feminine
+red	nominative-accusative	indefinite	roșu	roșu	roșie	roșii	roșii	roșii
+red	nominative-accusative	definite	roșul	roșul	roșia	roșiii	roșiile	roșiile
+red	genitive-dative	indefinite	roșu	roșu	roșii	roșii	roșii	roșii
+red	genitive-dative	definite	roșului	roșului	roșiei	roșiilor	roșiilor	roșiilor

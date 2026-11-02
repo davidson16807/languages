@@ -1174,3 +1174,58 @@ west	singular only	indefinite	definite
 west	nominative-accusative	occident	occidentul
 west	genitive-dative	occident	occidentului
 west	vocative	occidentule	occidentule
+flamingo		singular	singular	plural	plural
+flamingo		indefinite	definite	indefinite	definite
+flamingo	nominative-accusative	flamingo	flamingoul	flamingi	flamingii
+flamingo	genitive-dative	flamingo	flamingoului	flamingi	flamingilor
+flamingo	vocative	flamingoule	flamingoule	flamingilor	flamingilor
+bee		singular	singular	plural	plural
+bee		indefinite	definite	indefinite	definite
+bee	nominative-accusative	albină	albina	albine	albinele
+bee	genitive-dative	albine	albinei	albine	albinelor
+bee	vocative	albină, albino	albină, albino	albinelor	albinelor
+city		singular	singular	plural	plural
+city		indefinite	definite	indefinite	definite
+city	nominative-accusative	oraș	orașul	orașe	orașele
+city	genitive-dative	oraș	orașului	orașe	orașelor
+city	vocative	orașule	orașule	orașelor	orașelor
+shirt		singular	singular	plural	plural
+shirt		indefinite	definite	indefinite	definite
+shirt	nominative-accusative	cămașă	cămașa	cămăși	cămășile
+shirt	genitive-dative	cămăși	cămășii	cămăși	cămășilor
+shirt	vocative	cămașă, cămașo	cămașă, cămașo	cămășilor	cămășilor
+present		singular	singular	plural	plural
+present		indefinite	definite	indefinite	definite
+present	nominative-accusative	cadou	cadoul	cadouri	cadourile
+present	genitive-dative	cadou	cadoului	cadouri	cadourilor
+present	vocative	cadoule	cadoule	cadourilor	cadourilor
+idea		singular	singular	plural	plural
+idea		indefinite	definite	indefinite	definite
+idea	nominative-accusative	idee	ideea	idei	ideile
+idea	genitive-dative	idei	ideii	idei	ideilor
+idea	vocative	idee, ideeo	idee, ideeo	ideilor	ideilor
+idea		singular	singular	plural	plural
+idea		indefinite	definite	indefinite	definite
+idea	nominative-accusative	idee	ideea	idei	ideile
+idea	genitive-dative	idei	ideii	idei	ideilor
+idea	vocative	idee, ideeo	idee, ideeo	ideilor	ideilor
+king		singular	singular	plural	plural
+king		indefinite	definite	indefinite	definite
+king	nominative-accusative	rege	regele	regi	regii
+king	genitive-dative	rege	regelui	regi	regilor
+king	vocative	rege	rege	regilor	regilor
+log		singular	singular	plural	plural
+log		indefinite	definite	indefinite	definite
+log	nominative-accusative	buștean	bușteanul	bușteni	buștenii
+log	genitive-dative	buștean	bușteanului	bușteni	buștenilor
+log	vocative	bușteanule	bușteanule	buștenilor	buștenilor
+metal		singular	singular	plural	plural
+metal		indefinite	definite	indefinite	definite
+metal	nominative-accusative	metal	metalul	metale	metalele
+metal	genitive-dative	metal	metalului	metale	metalelor
+metal	vocative	metalule	metalule	metalelor	metalelor
+night		singular	singular	plural	plural
+night		indefinite	definite	indefinite	definite
+night	nominative-accusative	noapte	noaptea	nopți	nopțile
+night	genitive-dative	nopți	nopții	nopți	nopților
+night	vocative	noapte, noapteo	noapte, noapteo	nopților	nopților

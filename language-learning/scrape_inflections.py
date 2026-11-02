@@ -175,6 +175,7 @@ formatting = RowMajorTableText('\t','\n')
 
 # the wiktionary section headers that are searched for tables, by part of speech
 section_texts_for_part_of_speech = {
+	'numeral':      ('Numeral',      ['Declension','Inflection']),
 	'noun':         ('Noun',         ['Declension','Inflection']),
 	'verb':         ('Verb',         ['Conjugation','Inflection']),
 	'adjective':    ('Adjective',    ['Declension','Inflection']),
@@ -260,7 +261,6 @@ for target_language_code, output_directory in code_directories:
 	if len(count_for_language_id) != 1:
 		print(f'more than one language id found for code "{target_language_code}": ' + 
 			','.join([str(language_id) for language_id in count_for_language_id]))
-		sys.exit(1)
 
 	translations_for_part_of_speech_lemma = collections.defaultdict(list)
 	for translation in language_translations:
@@ -276,7 +276,7 @@ for target_language_code, output_directory in code_directories:
 	os.makedirs(scrape_directory, exist_ok=True)
 
 	def filepath_for_url(url):
-		url = translation.url.split('#')[0]
+		url = url.split('#')[0]
 		filestem = url.split('/')[-1]
 		filepath = os.path.join(cache_directory, f'{filestem}.html')
 		return filepath
@@ -289,7 +289,7 @@ for target_language_code, output_directory in code_directories:
 		part_of_speech_text, table_texts = section_texts_for_part_of_speech[part_of_speech]
 		table_count = table_count_for_language_code.get(target_language_code, {}).get(part_of_speech, 1)
 		table_parsing = (
-			GreekRowMajorWikiTableHtml(ops) if target_language_code == 'grc' else
+			GreekRowMajorWikiTableHtml(ops) if target_language_code == 'grc' and part_of_speech == 'verb' else
 			RowMajorWikiTableHtml(ops, part_of_speech_text, table_texts, language_id, target_language_code, table_count))
 		gender_parsing = GenderWikiHtml(ops, part_of_speech_text, language_id)
 
@@ -298,7 +298,7 @@ for target_language_code, output_directory in code_directories:
 			for lemma in lemmas
 			if (part_of_speech, lemma) in translations_for_part_of_speech_lemma
 			for translation in translations_for_part_of_speech_lemma[(part_of_speech, lemma)]
-			if file.os.exists(filepath:=filepath_for_url(translation.url))
+			if os.path.exists(filepath:=filepath_for_url(translation.url))
 		]
 
 		if lemma_html:

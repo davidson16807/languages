@@ -1862,3 +1862,87 @@ west			singular		plural
 west	direct		अथमना	athamnā	अथमने	athamne
 west	oblique		अथमने	athamne	अथमनों	athamnõ
 west	vocative		अथमने	athamne	अथमनो	athamno
+bee			singular		plural	
+bee	direct		मधुमक्खी	madhumakkhī	मधुमक्खियाँ	madhumakkhiyā̃
+bee	oblique		मधुमक्खी	madhumakkhī	मधुमक्खियों	madhumakkhiyõ
+bee	vocative		मधुमक्खी	madhumakkhī	मधुमक्खियो	madhumakkhiyo
+chick			singular		plural	
+chick	direct		चूज़ा	cūzā	चूज़े	cūze
+chick	oblique		चूज़े	cūze	चूज़ों	cūzõ
+chick	vocative		चूज़े	cūze	चूज़ो	cūzo
+city			singular		plural	
+city	direct		शहर	śahar	शहर	śahar
+city	oblique		शहर	śahar	शहरों	śaharõ
+city	vocative		शहर	śahar	शहरो	śaharo
+shirt			singular		plural	
+shirt	direct		क़मीज़	qamīz	क़मीज़ें	qamīzẽ
+shirt	oblique		क़मीज़	qamīz	क़मीज़ों	qamīzõ
+shirt	vocative		क़मीज़	qamīz	क़मीज़ो	qamīzo
+earth			singular		plural	
+earth	direct		पृथ्वी	pŕthvī	पृथ्वियाँ	pŕthviyā̃
+earth	oblique		पृथ्वी	pŕthvī	पृथ्वियों	pŕthviyõ
+earth	vocative		पृथ्वी	pŕthvī	पृथ्वियो	pŕthviyo
+earth			singular	
+earth	direct		पृथ्वी	pŕthvī
+earth	oblique		पृथ्वी	pŕthvī
+earth	vocative		पृथ्वी	pŕthvī
+present			singular		plural	
+present	direct		उपहार	uphār	उपहार	uphār
+present	oblique		उपहार	uphār	उपहारों	uphārõ
+present	vocative		उपहार	uphār	उपहारो	uphāro
+idea			singular		plural	
+idea	direct		विचार	vicār	विचार	vicār
+idea	oblique		विचार	vicār	विचारों	vicārõ
+idea	vocative		विचार	vicār	विचारो	vicāro
+idea			singular		plural	
+idea	direct		विचार	vicār	विचार	vicār
+idea	oblique		विचार	vicār	विचारों	vicārõ
+idea	vocative		विचार	vicār	विचारो	vicāro
+king			singular		plural	
+king	direct		राजा	rājā	राजा	rājā
+king	oblique		राजा	rājā	राजाओं	rājāõ
+king	vocative		राजा	rājā	राजाओ	rājāo
+king			singular	
+king	direct		राजा	rājā
+king	oblique		राजे	rāje
+king	vocative		राजे	rāje
+mars			singular		plural	
+mars	direct		मंगल	maṅgal	मंगल	maṅgal
+mars	oblique		मंगल	maṅgal	मंगलों	maṅgalõ
+mars	vocative		मंगल	maṅgal	मंगलो	maṅgalo
+mars			singular	
+mars	direct		मंगल	maṅgal
+mars	oblique		मंगल	maṅgal
+mars	vocative		मंगल	maṅgal
+maternal-grandfather			singular		plural	
+maternal-grandfather	direct		नाना	nānā	नाना	nānā
+maternal-grandfather	oblique		नाना	nānā	नानाओं	nānāõ
+maternal-grandfather	vocative		नाना	nānā	नानाओ	nānāo
+maternal-grandmother			singular		plural	
+maternal-grandmother	direct		नानी	nānī	नानियाँ	nāniyā̃
+maternal-grandmother	oblique		नानी	nānī	नानियों	nāniyõ
+maternal-grandmother	vocative		नानी	nānī	नानियो	nāniyo
+night			singular		plural	
+night	direct		रात	rāt	रातें	rātẽ
+night	oblique		रात	rāt	रातों	rātõ
+night	vocative		रात	rāt	रातो	rāto
+paternal-grandfather			singular		plural	
+paternal-grandfather	direct		दादा	dādā	दादा	dādā
+paternal-grandfather	oblique		दादा	dādā	दादाओं	dādāõ
+paternal-grandfather	vocative		दादा	dādā	दादाओ	dādāo
+paternal-grandmother			singular		plural	
+paternal-grandmother	direct		दादी	dādī	दादियाँ	dādiyā̃
+paternal-grandmother	oblique		दादी	dādī	दादियों	dādiyõ
+paternal-grandmother	vocative		दादी	dādī	दादियो	dādiyo
+venus			singular		plural	
+venus	direct		शुक्र	śukra	शुक्र	śukra
+venus	oblique		शुक्र	śukra	शुक्रों	śukrõ
+venus	vocative		शुक्र	śukra	शुक्रो	śukro
+venus			singular	
+venus	direct		शुक्र	śukra
+venus	oblique		शुक्र	śukra
+venus	vocative		शुक्र	śukra
+venus			singular		plural	
+venus	direct		शुक्र	śukr	शुक्र	śukr
+venus	oblique		शुक्र	śukr	शुक्रों	śukrõ
+venus	vocative		शुक्र	śukr	शुक्रो	śukro

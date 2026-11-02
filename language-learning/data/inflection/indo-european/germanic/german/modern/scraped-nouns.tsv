@@ -1782,3 +1782,93 @@ west	nominative	ein	der	Westen
 west	genitive	eines	des	Westens
 west	dative	einem	dem	Westen
 west	accusative	einen	den	Westen
+bee		singular	singular	singular	plural	plural
+bee		indef.	def.	noun	def.	noun
+bee	nominative	eine	die	Biene	die	Bienen
+bee	genitive	einer	der	Biene	der	Bienen
+bee	dative	einer	der	Biene	den	Bienen
+bee	accusative	eine	die	Biene	die	Bienen
+city		singular	singular	singular	plural	plural
+city		indef.	def.	noun	def.	noun
+city	nominative	eine	die	Stadt	die	Städte
+city	genitive	einer	der	Stadt	der	Städte
+city	dative	einer	der	Stadt	den	Städten
+city	accusative	eine	die	Stadt	die	Städte
+shirt		singular	singular	singular	plural	plural
+shirt		indef.	def.	noun	def.	noun
+shirt	nominative	ein	das	Hemd	die	Hemden
+shirt	genitive	eines	des	Hemdes, Hemds	der	Hemden
+shirt	dative	einem	dem	Hemd, Hemde1	den	Hemden
+shirt	accusative	ein	das	Hemd	die	Hemden
+earth		singular	singular	singular	plural	plural
+earth		indef.	def.	noun	def.	noun
+earth	nominative	eine	die	Erde	die	Erden
+earth	genitive	einer	der	Erde	der	Erden
+earth	dative	einer	der	Erde	den	Erden
+earth	accusative	eine	die	Erde	die	Erden
+present		singular	singular	singular	plural	plural
+present		indef.	def.	noun	def.	noun
+present	nominative	ein	das	Geschenk	die	Geschenke
+present	genitive	eines	des	Geschenkes, Geschenks	der	Geschenke
+present	dative	einem	dem	Geschenk, Geschenke1	den	Geschenken
+present	accusative	ein	das	Geschenk	die	Geschenke
+idea		singular	singular	singular	plural	plural
+idea		indef.	def.	noun	def.	noun
+idea	nominative	eine	die	Idee	die	Ideen
+idea	genitive	einer	der	Idee	der	Ideen
+idea	dative	einer	der	Idee	den	Ideen
+idea	accusative	eine	die	Idee	die	Ideen
+idea		singular	singular	singular	plural	plural
+idea		indef.	def.	noun	def.	noun
+idea	nominative	eine	die	Idee	die	Ideen
+idea	genitive	einer	der	Idee	der	Ideen
+idea	dative	einer	der	Idee	den	Ideen
+idea	accusative	eine	die	Idee	die	Ideen
+king		singular	singular	singular	plural	plural
+king		indef.	def.	noun	def.	noun
+king	nominative	ein	der	König	die	Könige
+king	genitive	eines	des	Königs, Königes	der	Könige
+king	dative	einem	dem	König, Könige1	den	Königen
+king	accusative	einen	den	König	die	Könige
+mars		singular	singular	singular	plural	plural
+mars		indef.	def.	noun	def.	noun
+mars	nominative	ein	der	Mars	die	Marse
+mars	genitive	eines	des	Mars	der	Marse
+mars	dative	einem	dem	Mars	den	Marsen
+mars	accusative	einen	den	Mars	die	Marse
+maternal-grandfather		singular	singular	singular	plural	plural
+maternal-grandfather		indef.	def.	noun	def.	noun
+maternal-grandfather	nominative	ein	der	Großvater	die	Großväter
+maternal-grandfather	genitive	eines	des	Großvaters	der	Großväter
+maternal-grandfather	dative	einem	dem	Großvater	den	Großvätern
+maternal-grandfather	accusative	einen	den	Großvater	die	Großväter
+maternal-grandmother		singular	singular	singular	plural	plural
+maternal-grandmother		indef.	def.	noun	def.	noun
+maternal-grandmother	nominative	eine	die	Großmutter	die	Großmütter
+maternal-grandmother	genitive	einer	der	Großmutter	der	Großmütter
+maternal-grandmother	dative	einer	der	Großmutter	den	Großmüttern
+maternal-grandmother	accusative	eine	die	Großmutter	die	Großmütter
+night		singular	singular	singular	plural	plural
+night		indef.	def.	noun	def.	noun
+night	nominative	eine	die	Nacht	die	Nächte
+night	genitive	einer	der	Nacht	der	Nächte
+night	dative	einer	der	Nacht	den	Nächten
+night	accusative	eine	die	Nacht	die	Nächte
+paternal-grandfather		singular	singular	singular	plural	plural
+paternal-grandfather		indef.	def.	noun	def.	noun
+paternal-grandfather	nominative	ein	der	Großvater	die	Großväter
+paternal-grandfather	genitive	eines	des	Großvaters	der	Großväter
+paternal-grandfather	dative	einem	dem	Großvater	den	Großvätern
+paternal-grandfather	accusative	einen	den	Großvater	die	Großväter
+paternal-grandmother		singular	singular	singular	plural	plural
+paternal-grandmother		indef.	def.	noun	def.	noun
+paternal-grandmother	nominative	eine	die	Großmutter	die	Großmütter
+paternal-grandmother	genitive	einer	der	Großmutter	der	Großmütter
+paternal-grandmother	dative	einer	der	Großmutter	den	Großmüttern
+paternal-grandmother	accusative	eine	die	Großmutter	die	Großmütter
+venus		singular	singular	singular
+venus		indef.	def.	noun
+venus	nominative	eine	die	Venus
+venus	genitive	einer	der	Venus
+venus	dative	einer	der	Venus
+venus	accusative	eine	die	Venus

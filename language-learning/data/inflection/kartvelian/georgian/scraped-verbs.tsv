@@ -79,3 +79,145 @@ ask	perfect series		pluperfect		მეკითხა ()	meḳitxa	გეკი�
 ask	perfect series		perfect subjunctive		მეკითხოს ()	meḳitxos	გეკითხოს ()	geḳitxos	ეკითხოს ()	eḳitxos	გვეკითხოს ()	gveḳitxos	გეკითხოთ ()	geḳitxot	ეკითხოთ ()	eḳitxot
 ask	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
 ask	imperative		imperative		—		იკითხე ()	iḳitxe	—		ვიკითხოთ ()	viḳitxot	იკითხეთ ()	iḳitxet		
+heat					imperfective		imperfective		imperfective		perfective		perfective		perfective	
+heat	verbal noun		verbal noun		თბობა ()	tboba	თბობა ()	tboba	თბობა ()	tboba	გათბობა ()	gatboba	გათბობა ()	gatboba	გათბობა ()	gatboba
+heat	person		person		singular		singular		singular		plural		plural		plural	
+heat	person		person		first		second		third		first		second		third	
+heat	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+heat	present subseries		present		ვათბობ ()	vatbob	ათბობ ()	atbob	ათბობს ()	atbobs	ვათბობთ ()	vatbobt	ათბობთ ()	atbobt	ათბობენ ()	atboben
+heat	present subseries		imperfect		ვათბობდი ()	vatbobdi	ათბობდი ()	atbobdi	ათბობდა ()	atbobda	ვათბობდით ()	vatbobdit	ათბობდით ()	atbobdit	ათბობდნენ ()	atbobdnen
+heat	present subseries		present subjunctive		ვათბობდე ()	vatbobde	ათბობდე ()	atbobde	ათბობდეს ()	atbobdes	ვათბობდეთ ()	vatbobdet	ათბობდეთ ()	atbobdet	ათბობდნენ ()	atbobdnen
+heat	future subseries		future		გავათბობ ()	gavatbob	გაათბობ ()	gaatbob	გაათბობს ()	gaatbobs	გავათბობთ ()	gavatbobt	გაათბობთ ()	gaatbobt	გაათბობენ ()	gaatboben
+heat	future subseries		conditional		გავათბობდი ()	gavatbobdi	გაათბობდი ()	gaatbobdi	გაათბობდა ()	gaatbobda	გავათბობდით ()	gavatbobdit	გაათბობდით ()	gaatbobdit	გაათბობდნენ ()	gaatbobdnen
+heat	future subseries		future subjunctive		გავათბობდე ()	gavatbobde	გაათბობდე ()	gaatbobde	გაათბობდეს ()	gaatbobdes	გავათბობდეთ ()	gavatbobdet	გაათბობდეთ ()	gaatbobdet	გაათბობდნენ ()	gaatbobdnen
+heat	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+heat	aorist series		aorist		გავათბე ()	gavatbe	გაათბე ()	gaatbe	გაათბო ()	gaatbo	გავათბეთ ()	gavatbet	გაათბეთ ()	gaatbet	გაათბეს ()	gaatbes
+heat	aorist series		optative		გავათბო ()	gavatbo	გაათბო ()	gaatbo	გაათბოს ()	gaatbos	გავათბოთ ()	gavatbot	გაათბოთ ()	gaatbot	გაათბონ ()	gaatbon
+heat	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+heat	perfect series		perfect		გამითბია ()	gamitbia	გაგითბია ()	gagitbia	გაუთბია ()	gautbia	გაგვითბია ()	gagvitbia	გაგითბიათ ()	gagitbiat	გაუთბიათ ()	gautbiat
+heat	perfect series		pluperfect		გამეთბო ()	gametbo	გაგეთბო ()	gagetbo	გაეთბო ()	gaetbo	გაგვეთბო ()	gagvetbo	გაგეთბოთ ()	gagetbot	გაეთბოთ ()	gaetbot
+heat	perfect series		perfect subjunctive		გამეთბოს ()	gametbos	გაგეთბოს ()	gagetbos	გაეთბოს ()	gaetbos	გაგვეთბოს ()	gagvetbos	გაგეთბოთ ()	gagetbot	გაეთბოთ ()	gaetbot
+heat	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+heat	imperative		imperative		—		გაათბე ()	gaatbe	—		გავათბოთ ()	gavatbot	გაათბეთ ()	gaatbet		
+heat	negative imperative		negative imperative		—		არ გაათბო ()	ar gaatbo	—		ნუ გავათბობთ ()	nu gavatbobt	არ გაათბოთ ()	ar gaatbot	—	
+read					perfective		perfective		perfective		imperfective		imperfective		imperfective	
+read	verbal noun		verbal noun		წაკითხვა ()	c̣aḳitxva	წაკითხვა ()	c̣aḳitxva	წაკითხვა ()	c̣aḳitxva	კითხვა ()	ḳitxva	კითხვა ()	ḳitxva	კითხვა ()	ḳitxva
+read	person		person		singular		singular		singular		plural		plural		plural	
+read	person		person		first		second		third		first		second		third	
+read	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+read	present subseries		present		ვკითხულობ ()	vḳitxulob	კითხულობ ()	ḳitxulob	კითხულობს ()	ḳitxulobs	ვკითხულობთ ()	vḳitxulobt	კითხულობთ ()	ḳitxulobt	კითხულობენ ()	ḳitxuloben
+read	present subseries		imperfect		ვკითხულობდი ()	vḳitxulobdi	კითხულობდი ()	ḳitxulobdi	კითხულობდა ()	ḳitxulobda	ვკითხულობდით ()	vḳitxulobdit	კითხულობდით ()	ḳitxulobdit	კითხულობდნენ ()	ḳitxulobdnen
+read	present subseries		present subjunctive		ვკითხულობდე ()	vḳitxulobde	კითხულობდე ()	ḳitxulobde	კითხულობდეს ()	ḳitxulobdes	ვკითხულობდეთ ()	vḳitxulobdet	კითხულობდეთ ()	ḳitxulobdet	კითხულობდნენ ()	ḳitxulobdnen
+read	future subseries		future		წავიკითხავ ()	c̣aviḳitxav	წაიკითხავ ()	c̣aiḳitxav	წაიკითხავს ()	c̣aiḳitxavs	წავიკითხავთ ()	c̣aviḳitxavt	წაიკითხავთ ()	c̣aiḳitxavt	წაიკითხავენ ()	c̣aiḳitxaven
+read	future subseries		conditional		წავიკითხავდი ()	c̣aviḳitxavdi	წაიკითხავდი ()	c̣aiḳitxavdi	წაიკითხავდა ()	c̣aiḳitxavda	წავიკითხავდით ()	c̣aviḳitxavdit	წაიკითხავდით ()	c̣aiḳitxavdit	წაიკითხავდნენ ()	c̣aiḳitxavdnen
+read	future subseries		future subjunctive		წავიკითხავდე ()	c̣aviḳitxavde	წაიკითხავდე ()	c̣aiḳitxavde	წაიკითხავდეს ()	c̣aiḳitxavdes	წავიკითხავდეთ ()	c̣aviḳitxavdet	წაიკითხავდეთ ()	c̣aiḳitxavdet	წაიკითხავდნენ ()	c̣aiḳitxavdnen
+read	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+read	aorist series		aorist		წავიკითხე ()	c̣aviḳitxe	წაიკითხე ()	c̣aiḳitxe	წაიკითხა ()	c̣aiḳitxa	წავიკითხეთ ()	c̣aviḳitxet	წაიკითხეთ ()	c̣aiḳitxet	წაიკითხეს ()	c̣aiḳitxes
+read	aorist series		optative		წავიკითხო ()	c̣aviḳitxo	წაიკითხო ()	c̣aiḳitxo	წაიკითხოს ()	c̣aiḳitxos	წავიკითხოთ ()	c̣aviḳitxot	წაიკითხოთ ()	c̣aiḳitxot	წაიკითხონ ()	c̣aiḳitxon
+read	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+read	perfect series		perfect		წამიკითხავს ()	c̣amiḳitxavs	წაგიკითხავს ()	c̣agiḳitxavs	წაუკითხავს ()	c̣auḳitxavs	წაგვიკითხავს ()	c̣agviḳitxavs	წაგიკითხავთ ()	c̣agiḳitxavt	წაუკითხავთ ()	c̣auḳitxavt
+read	perfect series		pluperfect		წამეკითხა ()	c̣ameḳitxa	წაგეკითხა ()	c̣ageḳitxa	წაეკითხა ()	c̣aeḳitxa	წაგვეკითხა ()	c̣agveḳitxa	წაგეკითხათ ()	c̣ageḳitxat	წაეკითხათ ()	c̣aeḳitxat
+read	perfect series		perfect subjunctive		წამეკითხოს ()	c̣ameḳitxos	წაგეკითხოს ()	c̣ageḳitxos	წაეკითხოს ()	c̣aeḳitxos	წაგვეკითხოს ()	c̣agveḳitxos	წაგეკითხოთ ()	c̣ageḳitxot	წაეკითხოთ ()	c̣aeḳitxot
+read	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+read	imperative		imperative		—		წაიკითხე ()	c̣aiḳitxe	—		წავიკითხოთ ()	c̣aviḳitxot	წაიკითხეთ ()	c̣aiḳitxet		
+see					perfective		perfective		perfective		imperfective		imperfective		imperfective	
+see	verbal noun		verbal noun		დანახვა ()	danaxva	დანახვა ()	danaxva	დანახვა ()	danaxva	ხედვა ()	xedva	ხედვა ()	xedva	ხედვა ()	xedva
+see	person		person		singular		singular		singular		plural		plural		plural	
+see	person		person		first		second		third		first		second		third	
+see	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+see	present subseries		present		ვხედავ ()	vxedav	ხედავ ()	xedav	ხედავს ()	xedavs	ვხედავთ ()	vxedavt	ხედავთ ()	xedavt	ხედავენ ()	xedaven
+see	present subseries		imperfect		ვხედავდი ()	vxedavdi	ხედავდი ()	xedavdi	ხედავდა ()	xedavda	ვხედავდით ()	vxedavdit	ხედავდით ()	xedavdit	ხედავდნენ ()	xedavdnen
+see	present subseries		present subjunctive		ვხედავდე ()	vxedavde	ხედავდე ()	xedavde	ხედავდეს ()	xedavdes	ვხედავდეთ ()	vxedavdet	ხედავდეთ ()	xedavdet	ხედავდნენ ()	xedavdnen
+see	future subseries		future		დავინახავ ()	davinaxav	დაინახავ ()	dainaxav	დაინახავს ()	dainaxavs	დავინახავთ ()	davinaxavt	დაინახავთ ()	dainaxavt	დაინახავენ ()	dainaxaven
+see	future subseries		conditional		დავინახავდი ()	davinaxavdi	დაინახავდი ()	dainaxavdi	დაინახავდა ()	dainaxavda	დავინახავდით ()	davinaxavdit	დაინახავდით ()	dainaxavdit	დაინახავდნენ ()	dainaxavdnen
+see	future subseries		future subjunctive		დავინახავდე ()	davinaxavde	დაინახავდე ()	dainaxavde	დაინახავდეს ()	dainaxavdes	დავინახავდეთ ()	davinaxavdet	დაინახავდეთ ()	dainaxavdet	დაინახავდნენ ()	dainaxavdnen
+see	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+see	aorist series		aorist		დავინახე ()	davinaxe	დაინახე ()	dainaxe	დაინახა ()	dainaxa	დავინახეთ ()	davinaxet	დაინახეთ ()	dainaxet	დაინახეს ()	dainaxes
+see	aorist series		optative		დავინახო ()	davinaxo	დაინახო ()	dainaxo	დაინახოს ()	dainaxos	დავინახოთ ()	davinaxot	დაინახოთ ()	dainaxot	დაინახონ ()	dainaxon
+see	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+see	perfect series		perfect		დამინახავს ()	daminaxavs	დაგინახავს ()	daginaxavs	დაუნახავს ()	daunaxavs	დაგვინახავს ()	dagvinaxavs	დაგინახავთ ()	daginaxavt	დაუნახავთ ()	daunaxavt
+see	perfect series		pluperfect		დამენახა ()	damenaxa	დაგენახა ()	dagenaxa	დაენახა ()	daenaxa	დაგვენახა ()	dagvenaxa	დაგენახათ ()	dagenaxat	დაენახათ ()	daenaxat
+see	perfect series		perfect subjunctive		დამენახოს ()	damenaxos	დაგენახოს ()	dagenaxos	დაენახოს ()	daenaxos	დაგვენახოს ()	dagvenaxos	დაგენახოთ ()	dagenaxot	დაენახოთ ()	daenaxot
+see	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+see	imperative		imperative		—		დაინახე ()	dainaxe	—		დავინახოთ ()	davinaxot	დაინახეთ ()	dainaxet		
+throw					imperfective		imperfective		imperfective		perfective		perfective		perfective	
+throw	verbal noun		verbal noun		გდება ()	gdeba	გდება ()	gdeba	გდება ()	gdeba	გადაგდება ()	gadagdeba	გადაგდება ()	gadagdeba	გადაგდება ()	gadagdeba
+throw	person		person		singular		singular		singular		plural		plural		plural	
+throw	person		person		first		second		third		first		second		third	
+throw	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+throw	present subseries		present		ვაგდებ ()	vagdeb	აგდებ ()	agdeb	აგდებს ()	agdebs	ვაგდებთ ()	vagdebt	აგდებთ ()	agdebt	აგდებენ ()	agdeben
+throw	present subseries		imperfect		ვაგდებდი ()	vagdebdi	აგდებდი ()	agdebdi	აგდებდა ()	agdebda	ვაგდებდით ()	vagdebdit	აგდებდით ()	agdebdit	აგდებდნენ ()	agdebdnen
+throw	present subseries		present subjunctive		ვაგდებდე ()	vagdebde	აგდებდე ()	agdebde	აგდებდეს ()	agdebdes	ვაგდებდეთ ()	vagdebdet	აგდებდეთ ()	agdebdet	აგდებდნენ ()	agdebdnen
+throw	future subseries		future		გადავაგდებ ()	gadavagdeb	გადააგდებ ()	gadaagdeb	გადააგდებს ()	gadaagdebs	გადავაგდებთ ()	gadavagdebt	გადააგდებთ ()	gadaagdebt	გადააგდებენ ()	gadaagdeben
+throw	future subseries		conditional		გადავაგდებდი ()	gadavagdebdi	გადააგდებდი ()	gadaagdebdi	გადააგდებდა ()	gadaagdebda	გადავაგდებდით ()	gadavagdebdit	გადააგდებდით ()	gadaagdebdit	გადააგდებდნენ ()	gadaagdebdnen
+throw	future subseries		future subjunctive		გადავაგდებდე ()	gadavagdebde	გადააგდებდე ()	gadaagdebde	გადააგდებდეს ()	gadaagdebdes	გადავაგდებდეთ ()	gadavagdebdet	გადააგდებდეთ ()	gadaagdebdet	გადააგდებდნენ ()	gadaagdebdnen
+throw	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+throw	aorist series		aorist		გადავაგდე ()	gadavagde	გადააგდე ()	gadaagde	გადააგდო ()	gadaagdo	გადავაგდეთ ()	gadavagdet	გადააგდეთ ()	gadaagdet	გადააგდეს ()	gadaagdes
+throw	aorist series		optative		გადავაგდო ()	gadavagdo	გადააგდო ()	gadaagdo	გადააგდოს ()	gadaagdos	გადავაგდოთ ()	gadavagdot	გადააგდოთ ()	gadaagdot	გადააგდონ ()	gadaagdon
+throw	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+throw	perfect series		perfect		გადამიგდია ()	gadamigdia	გადაგიგდია ()	gadagigdia	გადაუგდია ()	gadaugdia	გადაგვიგდია ()	gadagvigdia	გადაგიგდიათ ()	gadagigdiat	გადაუგდიათ ()	gadaugdiat
+throw	perfect series		pluperfect		გადამეგდო ()	gadamegdo	გადაგეგდო ()	gadagegdo	გადაეგდო ()	gadaegdo	გადაგვეგდო ()	gadagvegdo	გადაგეგდოთ ()	gadagegdot	გადაეგდოთ ()	gadaegdot
+throw	perfect series		perfect subjunctive		გადამეგდოს ()	gadamegdos	გადაგეგდოს ()	gadagegdos	გადაეგდოს ()	gadaegdos	გადაგვეგდოს ()	gadagvegdos	გადაგეგდოთ ()	gadagegdot	გადაეგდოთ ()	gadaegdot
+throw	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+throw	imperative		imperative		—		გადააგდე ()	gadaagde	—		გადავაგდოთ ()	gadavagdot	გადააგდეთ ()	gadaagdet		
+throw	negative imperative		negative imperative		—		არ გადააგდო ()	ar gadaagdo	—		ნუ გადავაგდებთ ()	nu gadavagdebt	არ გადააგდოთ ()	ar gadaagdot	—	
+walk					imperfective		imperfective		imperfective		perfective		perfective		perfective	
+walk	verbal noun		verbal noun		სვლა ()	svla	სვლა ()	svla	სვლა ()	svla	სიარული ()	siaruli	სიარული ()	siaruli	სიარული ()	siaruli
+walk	person		person		singular		singular		singular		plural		plural		plural	
+walk	person		person		first		second		third		first		second		third	
+walk	screeves		screeves		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+walk	present		present		დავდივარ ()	davdivar	დადიხარ ()	dadixar	დადის ()	dadis	დავდივართ ()	davdivart	დადიხართ ()	dadixart	დადიან ()	dadian
+walk	present		imperfect		დავდიოდი ()	davdiodi	დადიოდი ()	dadiodi	დადიოდა ()	dadioda	დავდიოდით ()	davdiodit	დადიოდით ()	dadiodit	დადიოდნენ ()	dadiodnen
+walk	present		present subjunctive		დავდიოდე ()	davdiode	დადიოდე ()	dadiode	დადიოდეს ()	dadiodes	დავდიოდეთ ()	davdiodet	დადიოდეთ ()	dadiodet	დადიოდნენ ()	dadiodnen
+walk	future		future		—		—		—		—		—		—	
+walk	future		conditional		—		—		—		—		—		—	
+walk	future		future subjunctive		—		—		—		—		—		—	
+walk	aorist		aorist		—		—		—		—		—		—	
+walk	aorist		optative		—		—		—		—		—		—	
+walk	perfect		perfect		—		—		—		—		—		—	
+walk	perfect		pluperfect		—		—		—		—		—		—	
+walk	perfect		perfect subjunctive		—		—		—		—		—		—	
+walk	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+walk	imperative		imperative		—		—		—		—		—			
+walk	negative imperative		negative imperative		—		—		—		—		—		—	
+warm					imperfective		imperfective		imperfective		perfective		perfective		perfective	
+warm	verbal noun		verbal noun		თბობა ()	tboba	თბობა ()	tboba	თბობა ()	tboba	გათბობა ()	gatboba	გათბობა ()	gatboba	გათბობა ()	gatboba
+warm	person		person		singular		singular		singular		plural		plural		plural	
+warm	person		person		first		second		third		first		second		third	
+warm	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+warm	present subseries		present		ვათბობ ()	vatbob	ათბობ ()	atbob	ათბობს ()	atbobs	ვათბობთ ()	vatbobt	ათბობთ ()	atbobt	ათბობენ ()	atboben
+warm	present subseries		imperfect		ვათბობდი ()	vatbobdi	ათბობდი ()	atbobdi	ათბობდა ()	atbobda	ვათბობდით ()	vatbobdit	ათბობდით ()	atbobdit	ათბობდნენ ()	atbobdnen
+warm	present subseries		present subjunctive		ვათბობდე ()	vatbobde	ათბობდე ()	atbobde	ათბობდეს ()	atbobdes	ვათბობდეთ ()	vatbobdet	ათბობდეთ ()	atbobdet	ათბობდნენ ()	atbobdnen
+warm	future subseries		future		გავათბობ ()	gavatbob	გაათბობ ()	gaatbob	გაათბობს ()	gaatbobs	გავათბობთ ()	gavatbobt	გაათბობთ ()	gaatbobt	გაათბობენ ()	gaatboben
+warm	future subseries		conditional		გავათბობდი ()	gavatbobdi	გაათბობდი ()	gaatbobdi	გაათბობდა ()	gaatbobda	გავათბობდით ()	gavatbobdit	გაათბობდით ()	gaatbobdit	გაათბობდნენ ()	gaatbobdnen
+warm	future subseries		future subjunctive		გავათბობდე ()	gavatbobde	გაათბობდე ()	gaatbobde	გაათბობდეს ()	gaatbobdes	გავათბობდეთ ()	gavatbobdet	გაათბობდეთ ()	gaatbobdet	გაათბობდნენ ()	gaatbobdnen
+warm	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+warm	aorist series		aorist		გავათბე ()	gavatbe	გაათბე ()	gaatbe	გაათბო ()	gaatbo	გავათბეთ ()	gavatbet	გაათბეთ ()	gaatbet	გაათბეს ()	gaatbes
+warm	aorist series		optative		გავათბო ()	gavatbo	გაათბო ()	gaatbo	გაათბოს ()	gaatbos	გავათბოთ ()	gavatbot	გაათბოთ ()	gaatbot	გაათბონ ()	gaatbon
+warm	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+warm	perfect series		perfect		გამითბია ()	gamitbia	გაგითბია ()	gagitbia	გაუთბია ()	gautbia	გაგვითბია ()	gagvitbia	გაგითბიათ ()	gagitbiat	გაუთბიათ ()	gautbiat
+warm	perfect series		pluperfect		გამეთბო ()	gametbo	გაგეთბო ()	gagetbo	გაეთბო ()	gaetbo	გაგვეთბო ()	gagvetbo	გაგეთბოთ ()	gagetbot	გაეთბოთ ()	gaetbot
+warm	perfect series		perfect subjunctive		გამეთბოს ()	gametbos	გაგეთბოს ()	gagetbos	გაეთბოს ()	gaetbos	გაგვეთბოს ()	gagvetbos	გაგეთბოთ ()	gagetbot	გაეთბოთ ()	gaetbot
+warm	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+warm	imperative		imperative		—		გაათბე ()	gaatbe	—		გავათბოთ ()	gavatbot	გაათბეთ ()	gaatbet		
+warm	negative imperative		negative imperative		—		არ გაათბო ()	ar gaatbo	—		ნუ გავათბობთ ()	nu gavatbobt	არ გაათბოთ ()	ar gaatbot	—	
+watch					perfective		perfective		perfective		imperfective		imperfective		imperfective	
+watch	verbal noun		verbal noun		[Term?]		[Term?]		[Term?]		ყურება ()	q̇ureba	ყურება ()	q̇ureba	ყურება ()	q̇ureba
+watch	person		person		singular		singular		singular		plural		plural		plural	
+watch	person		person		first		second		third		first		second		third	
+watch	nominative subject		nominative subject		მე (me)		შენ (šen)		ის (is)		ჩვენ (čven)		თქვენ (tkven)		ისინი (isini)	
+watch	present subseries		present		ვუყურებ ()	vuq̇ureb	უყურებ ()	uq̇ureb	უყურებს ()	uq̇urebs	ვუყურებთ ()	vuq̇urebt	უყურებთ ()	uq̇urebt	უყურებენ ()	uq̇ureben
+watch	present subseries		imperfect		ვუყურებდი ()	vuq̇urebdi	უყურებდი ()	uq̇urebdi	უყურებდა ()	uq̇urebda	ვუყურებდით ()	vuq̇urebdit	უყურებდით ()	uq̇urebdit	უყურებდნენ ()	uq̇urebdnen
+watch	present subseries		present subjunctive		ვუყურებდე ()	vuq̇urebde	უყურებდე ()	uq̇urebde	უყურებდეს ()	uq̇urebdes	ვუყურებდეთ ()	vuq̇urebdet	უყურებდეთ ()	uq̇urebdet	უყურებდნენ ()	uq̇urebdnen
+watch	future subseries		future		ვუყურებ ()	vuq̇ureb	უყურებ ()	uq̇ureb	უყურებს ()	uq̇urebs	ვუყურებთ ()	vuq̇urebt	უყურებთ ()	uq̇urebt	უყურებენ ()	uq̇ureben
+watch	future subseries		conditional		ვუყურებდი ()	vuq̇urebdi	უყურებდი ()	uq̇urebdi	უყურებდა ()	uq̇urebda	ვუყურებდით ()	vuq̇urebdit	უყურებდით ()	uq̇urebdit	უყურებდნენ ()	uq̇urebdnen
+watch	future subseries		future subjunctive		ვუყურებდე ()	vuq̇urebde	უყურებდე ()	uq̇urebde	უყურებდეს ()	uq̇urebdes	ვუყურებდეთ ()	vuq̇urebdet	უყურებდეთ ()	uq̇urebdet	უყურებდნენ ()	uq̇urebdnen
+watch	ergative subject		ergative subject		მე (me)		შენ (šen)		მან (man)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+watch	aorist series		aorist		ვუყურე ()	vuq̇ure	უყურე ()	uq̇ure	უყურა ()	uq̇ura	ვუყურეთ ()	vuq̇uret	უყურეთ ()	uq̇uret	უყურეს ()	uq̇ures
+watch	aorist series		optative		ვუყურო ()	vuq̇uro	უყურო ()	uq̇uro	უყუროს ()	uq̇uros	ვუყუროთ ()	vuq̇urot	უყუროთ ()	uq̇urot	უყურონ ()	uq̇uron
+watch	inversion (dative subject)		inversion (dative subject)		მე (me)		შენ (šen)		მას (mas)		ჩვენ (čven)		თქვენ (tkven)		მათ (mat)	
+watch	perfect series		perfect		მიყურებია ()	miq̇urebia	გიყურებია ()	giq̇urebia	უყურებია ()	uq̇urebia	გვიყურებია ()	gviq̇urebia	გიყურებიათ ()	giq̇urebiat	უყურებიათ ()	uq̇urebiat
+watch	perfect series		pluperfect		მეყურებინა ()	meq̇urebina	გეყურებინა ()	geq̇urebina	ეყურებინა ()	eq̇urebina	გვეყურებინა ()	gveq̇urebina	გეყურებინათ ()	geq̇urebinat	ეყურებინათ ()	eq̇urebinat
+watch	perfect series		perfect subjunctive		მეყურებინოს ()	meq̇urebinos	გეყურებინოს ()	geq̇urebinos	ეყურებინოს ()	eq̇urebinos	გვეყურებინოს ()	gveq̇urebinos	გეყურებინოთ ()	geq̇urebinot	ეყურებინოთ ()	eq̇urebinot
+watch	imperative		imperative		–		შენ (šen)		–		ჩვენ (čven)		თქვენ (tkven)		–	
+watch	imperative		imperative		—		უყურე ()	uq̇ure	—		ვუყუროთ ()	vuq̇urot	უყურეთ ()	uq̇uret		

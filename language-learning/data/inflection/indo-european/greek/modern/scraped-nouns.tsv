@@ -963,3 +963,43 @@ west	nominative		δύση ()	dýsi	δύσεις ()	dýseis
 west	genitive		δύσης ()	dýsis	δύσεων ()	dýseon
 west	accusative		δύση ()	dýsi	δύσεις ()	dýseis
 west	vocative		δύση ()	dýsi	δύσεις ()	dýseis
+bee			singular		plural	
+bee	nominative		μέλισσα ()	mélissa	μέλισσες ()	mélisses
+bee	genitive		μέλισσας ()	mélissas	μελισσών ()	melissón
+bee	accusative		μέλισσα ()	mélissa	μέλισσες ()	mélisses
+bee	vocative		μέλισσα ()	mélissa	μέλισσες ()	mélisses
+city			singular		plural	
+city	nominative		πόλη ()	póli	πόλεις ()	póleis
+city	genitive		πόλης ()	pólis	πόλεων ()	póleon
+city	accusative		πόλη ()	póli	πόλεις ()	póleis
+city	vocative		πόλη ()	póli	πόλεις ()	póleis
+shirt				singular			plural		
+shirt	nominative			πουκάμισο ()	poukámiso		πουκάμισα ()	poukámisa	
+shirt	genitive			πουκαμίσου ()πουκάμισου ()	poukamísou	poukámisou	πουκαμίσων ()πουκάμισων ()	poukamíson	poukámison
+shirt	accusative			πουκάμισο ()	poukámiso		πουκάμισα ()	poukámisa	
+shirt	vocative			πουκάμισο ()	poukámiso		πουκάμισα ()	poukámisa	
+present			singular		plural	
+present	nominative		δώρο ()	dóro	δώρα ()	dóra
+present	genitive		δώρου ()	dórou	δώρων ()	dóron
+present	accusative		δώρο ()	dóro	δώρα ()	dóra
+present	vocative		δώρο ()	dóro	δώρα ()	dóra
+idea			singular		plural	
+idea	nominative		ιδέα ()	idéa	ιδέες ()	idées
+idea	genitive		ιδέας ()	idéas	ιδεών ()	ideón
+idea	accusative		ιδέα ()	idéa	ιδέες ()	idées
+idea	vocative		ιδέα ()	idéa	ιδέες ()	idées
+idea			singular		plural	
+idea	nominative		ιδέα ()	idéa	ιδέες ()	idées
+idea	genitive		ιδέας ()	idéas	ιδεών ()	ideón
+idea	accusative		ιδέα ()	idéa	ιδέες ()	idées
+idea	vocative		ιδέα ()	idéa	ιδέες ()	idées
+king			singular		plural	
+king	nominative		βασιλιάς ()	vasiliás	βασιλιάδες ()	vasiliádes
+king	genitive		βασιλιά ()	vasiliá	βασιλιάδων ()	vasiliádon
+king	accusative		βασιλιά ()	vasiliá	βασιλιάδες ()	vasiliádes
+king	vocative		βασιλιά ()	vasiliá	βασιλιάδες ()	vasiliádes
+night			singular		plural	
+night	nominative		νύχτα ()	nýchta	νύχτες ()	nýchtes
+night	genitive		νύχτας ()	nýchtas	νυχτών ()	nychtón
+night	accusative		νύχτα ()	nýchta	νύχτες ()	nýchtes
+night	vocative		νύχτα ()	nýchta	νύχτες ()	nýchtes

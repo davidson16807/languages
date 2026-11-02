@@ -750,3 +750,51 @@ west	accusative		западъ ()	zapadŭ	-		-
 west	instrumental		западомъ ()	zapadomŭ	-		-	
 west	locative		западѣ ()	zapadě	-		-	
 west	vocative		западе ()	zapade	-		-	
+bee			singular		dual		plural	
+bee	nominative		бьчела ()	bĭčela	бьчелѣ ()	bĭčelě	бьчелꙑ ()	bĭčely
+bee	genitive		бьчелꙑ ()	bĭčely	бьчелоу ()	bĭčelu	бьчелъ ()	bĭčelŭ
+bee	dative		бьчелѣ ()	bĭčelě	бьчелама ()	bĭčelama	бьчеламъ ()	bĭčelamŭ
+bee	accusative		бьчелѫ ()	bĭčelǫ	бьчелѣ ()	bĭčelě	бьчелꙑ ()	bĭčely
+bee	instrumental		бьчелоѭ ()	bĭčelojǫ	бьчелама ()	bĭčelama	бьчелами ()	bĭčelami
+bee	locative		бьчелѣ ()	bĭčelě	бьчелоу ()	bĭčelu	бьчелахъ ()	bĭčelaxŭ
+bee	vocative		бьчело ()	bĭčelo	бьчелѣ ()	bĭčelě	бьчелꙑ ()	bĭčely
+city			singular		dual		plural	
+city	nominative		градъ ()	gradŭ	града ()	grada	гради ()	gradi
+city	genitive		града ()	grada	градоу ()	gradu	градъ ()	gradŭ
+city	dative		градоу ()	gradu	градома ()	gradoma	градомъ ()	gradomŭ
+city	accusative		градъ ()	gradŭ	града ()	grada	градꙑ ()	grady
+city	instrumental		градомъ ()	gradomŭ	градома ()	gradoma	градꙑ ()	grady
+city	locative		градѣ ()	gradě	градоу ()	gradu	градѣхъ ()	graděxŭ
+city	vocative		граде ()	grade	града ()	grada	гради ()	gradi
+city			singular		dual		plural	
+city	nominative		градъ ()	gradŭ	-		-	
+city	genitive		града ()	grada	-		-	
+city	dative		градоу ()	gradu	-		-	
+city	accusative		градъ ()	gradŭ	-		-	
+city	instrumental		градомъ ()	gradomŭ	-		-	
+city	locative		градѣ ()	gradě	-		-	
+city	vocative		граде ()	grade	-		-	
+earth			singular		dual		plural	
+earth	nominative		земл҄ꙗ ()	zemlʹja	земл҄и ()	zemlʹi	земл҄ѧ ()	zemlʹę
+earth	genitive		земл҄ѧ ()	zemlʹę	земл҄оу ()	zemlʹu	земл҄ь ()	zemlʹĭ
+earth	dative		земл҄и ()	zemlʹi	земл҄ама ()	zemlʹama	земл҄амъ ()	zemlʹamŭ
+earth	accusative		земл҄ѫ ()	zemlʹǫ	земл҄и ()	zemlʹi	земл҄ѧ ()	zemlʹę
+earth	instrumental		земл҄еѭ ()	zemlʹejǫ	земл҄ама ()	zemlʹama	земл҄ами ()	zemlʹami
+earth	locative		земл҄и ()	zemlʹi	земл҄оу ()	zemlʹu	земл҄ахъ ()	zemlʹaxŭ
+earth	vocative		земл҄е ()	zemlʹe	земл҄и ()	zemlʹi	земл҄ѧ ()	zemlʹę
+king			singular		dual		plural	
+king	nominative		цѣсар҄ь ()	cěsarʹĭ	цѣсар҄а ()	cěsarʹa	цѣсар҄и ()	cěsarʹi
+king	genitive		цѣсар҄а ()	cěsarʹa	цѣсар҄оу ()	cěsarʹu	цѣсар҄ь ()	cěsarʹĭ
+king	dative		цѣсар҄оу, цѣсар҄еви ()	cěsarʹu, cěsarʹevi	цѣсар҄ема ()	cěsarʹema	цѣсар҄емъ ()	cěsarʹemŭ
+king	accusative		цѣсар҄ь, цѣсар҄а ()	cěsarʹĭ, cěsarʹa	цѣсар҄а ()	cěsarʹa	цѣсар҄ѧ ()	cěsarʹę
+king	instrumental		цѣсар҄емь ()	cěsarʹemĭ	цѣсар҄ема ()	cěsarʹema	цѣсар҄и ()	cěsarʹi
+king	locative		цѣсар҄и ()	cěsarʹi	цѣсар҄оу ()	cěsarʹu	цѣсар҄ихъ ()	cěsarʹixŭ
+king	vocative		цѣсар҄оу ()	cěsarʹu	цѣсар҄а ()	cěsarʹa	цѣсар҄и ()	cěsarʹi
+night			singular		dual		plural	
+night	nominative		нощь ()	noštĭ	нощи ()	nošti	нощи ()	nošti
+night	genitive		нощи ()	nošti	нощью, нощию ()	noštĭju, noštiju	нощьи, нощии ()	noštĭi, noštii
+night	dative		нощи ()	nošti	нощьма ()	noštĭma	нощьмъ ()	noštĭmŭ
+night	accusative		нощь ()	noštĭ	нощи ()	nošti	нощи ()	nošti
+night	instrumental		нощьѭ, нощиѭ ()	noštĭjǫ, noštijǫ	нощьма ()	noštĭma	нощьми ()	noštĭmi
+night	locative		нощи ()	nošti	нощью, нощию ()	noštĭju, noštiju	нощьхъ ()	noštĭxŭ
+night	vocative		нощи ()	nošti	нощи ()	nošti	нощьѥ, нощиѥ ()	noštĭje, noštije

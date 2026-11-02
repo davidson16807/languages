@@ -24,6 +24,19 @@ attention	ablative	*ménesos	*?	*ménesmos, *ménesbʰos
 attention	dative	*ménesey	*?	*ménesmos, *ménesbʰos
 attention	locative	*ménes, *ménesi	*?	*ménesu
 attention	instrumental	*ménesh₁	*?	*ménesmis, *ménesbʰis
+swan	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+swan		singular		
+swan	nominative	*ǵʰh₂éns		
+swan	genitive	*ǵʰh₂n̥sés		
+swan		singular	dual	plural
+swan	nominative	*ǵʰh₂éns	*ǵʰh₂énsh₁(e)	*ǵʰh₂énses
+swan	vocative	*ǵʰh₂éns	*ǵʰh₂énsh₁(e)	*ǵʰh₂énses
+swan	accusative	*ǵʰh₂énsm̥	*ǵʰh₂énsh₁(e)	*ǵʰh₂énsm̥s
+swan	genitive	*ǵʰh₂n̥sés	*?	*ǵʰh₂n̥sóHom
+swan	ablative	*ǵʰh₂n̥sés	*?	*ǵʰh₂n̥smós, *ǵʰh₂n̥sbʰós
+swan	dative	*ǵʰh₂n̥séy	*?	*ǵʰh₂n̥smós, *ǵʰh₂n̥sbʰós
+swan	locative	*ǵʰh₂éns, *ǵʰh₂énsi	*?	*ǵʰh₂n̥sú
+swan	instrumental	*ǵʰh₂n̥séh₁	*?	*ǵʰh₂n̥smís, *ǵʰh₂n̥sbʰís
 bird	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
 bird		singular		
 bird	nominative	*h₂éwis		
@@ -50,6 +63,19 @@ brother	ablative	*bʰréh₂tr̥s	*?	*bʰréh₂tr̥mos, *bʰréh₂tr̥bʰos
 brother	dative	*bʰréh₂trey	*?	*bʰréh₂tr̥mos, *bʰréh₂tr̥bʰos
 brother	locative	*bʰréh₂tr̥, *bʰréh₂tri	*?	*bʰréh₂tr̥su
 brother	instrumental	*bʰréh₂tr̥h₁	*?	*bʰréh₂tr̥mis, *bʰréh₂tr̥bʰis
+city	thematic	thematic	thematic	thematic
+city		singular		
+city	nominative	*gʰórdʰos		
+city	genitive	*gʰórdʰosyo		
+city		singular	dual	plural
+city	nominative	*gʰórdʰos	*gʰórdʰoh₁	*gʰórdʰoes
+city	vocative	*gʰórdʰe	*gʰórdʰoh₁	*gʰórdʰoes
+city	accusative	*gʰórdʰom	*gʰórdʰoh₁	*gʰórdʰoms
+city	genitive	*gʰórdʰosyo	*?	*gʰórdʰoHom
+city	ablative	*gʰórdʰead	*?	*gʰórdʰomos, *gʰórdʰobʰos
+city	dative	*gʰórdʰoey	*?	*gʰórdʰomos, *gʰórdʰobʰos
+city	locative	*gʰórdʰey, *gʰórdʰoy	*?	*gʰórdʰoysu
+city	instrumental	*gʰórdʰoh₁	*?	*gʰórdʰōys
 clothing	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
 clothing		singular		
 clothing	nominative	*wéstis		
@@ -63,6 +89,32 @@ clothing	ablative	*ustéys	*?	*ustímos, *ustíbʰos
 clothing	dative	*ustéyey	*?	*ustímos, *ustíbʰos
 clothing	locative	*ustéy, *ustḗy	*?	*ustísu
 clothing	instrumental	*ustíh₁	*?	*ustímis, *ustíbʰis
+cloud	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+cloud		singular		
+cloud	nominative	*nébʰos		
+cloud	genitive	*nébʰesos		
+cloud		singular	dual	plural
+cloud	nominative	*nébʰos	*nébʰesih₁	*nébʰōs
+cloud	vocative	*nébʰos	*nébʰesih₁	*nébʰōs
+cloud	accusative	*nébʰos	*nébʰesih₁	*nébʰōs
+cloud	genitive	*nébʰesos	*?	*nébʰesoHom
+cloud	ablative	*nébʰesos	*?	*nébʰesmos, *nébʰesbʰos
+cloud	dative	*nébʰesey	*?	*nébʰesmos, *nébʰesbʰos
+cloud	locative	*nébʰes, *nébʰesi	*?	*nébʰesu
+cloud	instrumental	*nébʰesh₁	*?	*nébʰesmis, *nébʰesbʰis
+cow	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+cow		singular		
+cow	nominative	*gʷṓws		
+cow	genitive	*gʷéws		
+cow		singular	dual	plural
+cow	nominative	*gʷṓws	*gʷówh₁(e)	*gʷówes
+cow	vocative	*gʷów	*gʷówh₁(e)	*gʷówes
+cow	accusative	*gʷṓm	*gʷówh₁(e)	*gʷówm̥s
+cow	genitive	*gʷéws	*?	*gʷéwoHom
+cow	ablative	*gʷéws	*?	*gʷéwmos, *gʷéwbʰos
+cow	dative	*gʷéwey	*?	*gʷéwmos, *gʷéwbʰos
+cow	locative	*gʷéw, *gʷéwi	*?	*gʷéwsu
+cow	instrumental	*gʷéwh₁	*?	*gʷéwmis, *gʷéwbʰis
 daughter	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic
 daughter		singular		
 daughter	nominative	*dʰugh₂tḗr		
@@ -102,6 +154,32 @@ door	ablative	*dʰurés	*?	*dʰwr̥mós, *dʰwr̥bʰós
 door	dative	*dʰuréy	*?	*dʰwr̥mós, *dʰwr̥bʰós
 door	locative	*dʰwór, *dʰwóri	*?	*dʰwr̥sú
 door	instrumental	*dʰuréh₁	*?	*dʰwr̥mís, *dʰwr̥bʰís
+earth	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+earth		singular		
+earth	nominative	*dʰéǵʰōm		
+earth	genitive	*ǵʰmés		
+earth		singular	dual	plural
+earth	nominative	*dʰéǵʰōm	—	—
+earth	vocative	*dʰéǵʰom	—	—
+earth	accusative	*dʰéǵʰōm	—	—
+earth	genitive	*ǵʰmés	—	—
+earth	ablative	*ǵʰmés	—	—
+earth	dative	*ǵʰméy	—	—
+earth	locative	*ǵʰém, *ǵʰémi	—	—
+earth	instrumental	*ǵʰméh₁	—	—
+egg	thematic	thematic	thematic	thematic
+egg		singular		
+egg	nominative	*h₂ōwyóm		
+egg	genitive	*h₂ōwyósyo		
+egg		singular	dual	plural
+egg	nominative	*h₂ōwyóm	*h₂ōwyóy(h₁)	*h₂ōwyéh₂
+egg	vocative	*h₂ōwyóm	*h₂ōwyóy(h₁)	*h₂ōwyéh₂
+egg	accusative	*h₂ōwyóm	*h₂ōwyóy(h₁)	*h₂ōwyéh₂
+egg	genitive	*h₂ōwyósyo	*?	*h₂ōwyóHom
+egg	ablative	*h₂ōwyéad	*?	*h₂ōwyómos, *h₂ōwyóbʰos
+egg	dative	*h₂ōwyóey	*?	*h₂ōwyómos, *h₂ōwyóbʰos
+egg	locative	*h₂ōwyéy, *h₂ōwyóy	*?	*h₂ōwyóysu
+egg	instrumental	*h₂ōwyóh₁	*?	*h₂ōwyṓys
 enemy	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
 enemy		singular		
 enemy	nominative	*gʰóstis		
@@ -115,6 +193,32 @@ enemy	ablative	*gʰostéys	*?	*gʰostímos, *gʰostíbʰos
 enemy	dative	*gʰostéyey	*?	*gʰostímos, *gʰostíbʰos
 enemy	locative	*gʰostéy, *gʰostḗy	*?	*gʰostísu
 enemy	instrumental	*gʰostíh₁	*?	*gʰostímis, *gʰostíbʰis
+father	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic
+father		singular		
+father	nominative	*ph₂tḗr		
+father	genitive	*ph₂trés		
+father		singular	dual	plural
+father	nominative	*ph₂tḗr	*ph₂térh₁(e)	*ph₂téres
+father	vocative	*ph₂tér	*ph₂térh₁(e)	*ph₂téres
+father	accusative	*ph₂térm̥	*ph₂térh₁(e)	*ph₂térm̥s
+father	genitive	*ph₂trés	*?	*ph₂tróHom
+father	ablative	*ph₂trés	*?	*ph₂tr̥mós, *ph₂tr̥bʰós
+father	dative	*ph₂tréy	*?	*ph₂tr̥mós, *ph₂tr̥bʰós
+father	locative	*ph₂tér, *ph₂téri	*?	*ph₂tr̥sú
+father	instrumental	*ph₂tréh₁	*?	*ph₂tr̥mís, *ph₂tr̥bʰís
+fight	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
+fight		singular		
+fight	nominative	*kéh₃tus		
+fight	genitive	*kh₃téws		
+fight		singular	dual	plural
+fight	nominative	*kéh₃tus	*kéh₃tuh₁(e)	*kéh₃tewes
+fight	vocative	*kéh₃tew	*kéh₃tuh₁(e)	*kéh₃tewes
+fight	accusative	*kéh₃tum	*kéh₃tuh₁(e)	*kéh₃tums
+fight	genitive	*kh₃téws	*?	*kh₃téwoHom
+fight	ablative	*kh₃téws	*?	*kh₃túmos, *kh₃túbʰos
+fight	dative	*kh₃téwey	*?	*kh₃túmos, *kh₃túbʰos
+fight	locative	*kh₃téw, *kh₃téwi	*?	*kh₃túsu
+fight	instrumental	*kh₃túh₁	*?	*kh₃túmis, *kh₃túbʰis
 fire	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
 fire		singular	collective		
 fire	nominative	*péh₂wr̥	*péh₂wōr		
@@ -128,6 +232,19 @@ fire	ablative	*ph₂wéns	—	—	*ph₂unés
 fire	dative	*ph₂wéney	—	—	*ph₂unéy
 fire	locative	*ph₂wén, *ph₂wéni	—	—	*ph₂wén, *ph₂wéni
 fire	instrumental	*ph₂wénh₁	—	—	*ph₂unéh₁
+fish	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+fish		singular		
+fish	nominative	*péysks		
+fish	genitive	*piskés		
+fish		singular	dual	plural
+fish	nominative	*péysks	*péyskh₁(e)	*péyskes
+fish	vocative	*péysk	*péyskh₁(e)	*péyskes
+fish	accusative	*péyskm̥	*péyskh₁(e)	*péyskm̥s
+fish	genitive	*piskés	*?	*piskóHom
+fish	ablative	*piskés	*?	*piskmós, *piskbʰós
+fish	dative	*piskéy	*?	*piskmós, *piskbʰós
+fish	locative	*péysk, *péyski	*?	*pisksú
+fish	instrumental	*piskéh₁	*?	*piskmís, *piskbʰís
 gift	thematic	thematic	thematic	thematic
 gift		singular		
 gift	nominative	*déh₃nom		
@@ -141,6 +258,84 @@ gift	ablative	*déh₃nead	*?	*déh₃nomos, *déh₃nobʰos
 gift	dative	*déh₃noey	*?	*déh₃nomos, *déh₃nobʰos
 gift	locative	*déh₃ney, *déh₃noy	*?	*déh₃noysu
 gift	instrumental	*déh₃noh₁	*?	*déh₃nōys
+present	thematic	thematic	thematic	thematic
+present		singular		
+present	nominative	*déh₃nom		
+present	genitive	*déh₃nosyo		
+present		singular	dual	plural
+present	nominative	*déh₃nom	*déh₃noy(h₁)	*déh₃neh₂
+present	vocative	*déh₃nom	*déh₃noy(h₁)	*déh₃neh₂
+present	accusative	*déh₃nom	*déh₃noy(h₁)	*déh₃neh₂
+present	genitive	*déh₃nosyo	*?	*déh₃noHom
+present	ablative	*déh₃nead	*?	*déh₃nomos, *déh₃nobʰos
+present	dative	*déh₃noey	*?	*déh₃nomos, *déh₃nobʰos
+present	locative	*déh₃ney, *déh₃noy	*?	*déh₃noysu
+present	instrumental	*déh₃noh₁	*?	*déh₃nōys
+grandfather	thematic	thematic	thematic	thematic
+grandfather		singular		
+grandfather	nominative	*h₂éwh₂os		
+grandfather	genitive	*h₂éwh₂osyo		
+grandfather		singular	dual	plural
+grandfather	nominative	*h₂éwh₂os	*h₂éwh₂oh₁	*h₂éwh₂oes
+grandfather	vocative	*h₂éwh₂e	*h₂éwh₂oh₁	*h₂éwh₂oes
+grandfather	accusative	*h₂éwh₂om	*h₂éwh₂oh₁	*h₂éwh₂oms
+grandfather	genitive	*h₂éwh₂osyo	*?	*h₂éwh₂oHom
+grandfather	ablative	*h₂éwh₂ead	*?	*h₂éwh₂omos, *h₂éwh₂obʰos
+grandfather	dative	*h₂éwh₂oey	*?	*h₂éwh₂omos, *h₂éwh₂obʰos
+grandfather	locative	*h₂éwh₂ey, *h₂éwh₂oy	*?	*h₂éwh₂oysu
+grandfather	instrumental	*h₂éwh₂oh₁	*?	*h₂éwh₂ōys
+grandfather	thematic	thematic	thematic	thematic
+grandfather		singular		
+grandfather	nominative	*h₂éwh₂os		
+grandfather	genitive	*h₂éwh₂osyo		
+grandfather		singular	dual	plural
+grandfather	nominative	*h₂éwh₂os	*h₂éwh₂oh₁	*h₂éwh₂oes
+grandfather	vocative	*h₂éwh₂e	*h₂éwh₂oh₁	*h₂éwh₂oes
+grandfather	accusative	*h₂éwh₂om	*h₂éwh₂oh₁	*h₂éwh₂oms
+grandfather	genitive	*h₂éwh₂osyo	*?	*h₂éwh₂oHom
+grandfather	ablative	*h₂éwh₂ead	*?	*h₂éwh₂omos, *h₂éwh₂obʰos
+grandfather	dative	*h₂éwh₂oey	*?	*h₂éwh₂omos, *h₂éwh₂obʰos
+grandfather	locative	*h₂éwh₂ey, *h₂éwh₂oy	*?	*h₂éwh₂oysu
+grandfather	instrumental	*h₂éwh₂oh₁	*?	*h₂éwh₂ōys
+heat	thematic	thematic	thematic	thematic
+heat		singular		
+heat	nominative	*gʷʰr̥nós		
+heat	genitive	*gʷʰr̥nósyo		
+heat		singular	dual	plural
+heat	nominative	*gʷʰr̥nós	*gʷʰr̥nóh₁	*gʷʰr̥nóes
+heat	vocative	*gʷʰr̥né	*gʷʰr̥nóh₁	*gʷʰr̥nóes
+heat	accusative	*gʷʰr̥nóm	*gʷʰr̥nóh₁	*gʷʰr̥nóms
+heat	genitive	*gʷʰr̥nósyo	*?	*gʷʰr̥nóHom
+heat	ablative	*gʷʰr̥néad	*?	*gʷʰr̥nómos, *gʷʰr̥nóbʰos
+heat	dative	*gʷʰr̥nóey	*?	*gʷʰr̥nómos, *gʷʰr̥nóbʰos
+heat	locative	*gʷʰr̥néy, *gʷʰr̥nóy	*?	*gʷʰr̥nóysu
+heat	instrumental	*gʷʰr̥nóh₁	*?	*gʷʰr̥nṓys
+heat	thematic	thematic	thematic	thematic
+heat		singular		
+heat	nominative	*gʷʰr̥nós		
+heat	genitive	*gʷʰr̥nósyo		
+heat		singular	dual	plural
+heat	nominative	*gʷʰr̥nós	*gʷʰr̥nóh₁	*gʷʰr̥nóes
+heat	vocative	*gʷʰr̥né	*gʷʰr̥nóh₁	*gʷʰr̥nóes
+heat	accusative	*gʷʰr̥nóm	*gʷʰr̥nóh₁	*gʷʰr̥nóms
+heat	genitive	*gʷʰr̥nósyo	*?	*gʷʰr̥nóHom
+heat	ablative	*gʷʰr̥néad	*?	*gʷʰr̥nómos, *gʷʰr̥nóbʰos
+heat	dative	*gʷʰr̥nóey	*?	*gʷʰr̥nómos, *gʷʰr̥nóbʰos
+heat	locative	*gʷʰr̥néy, *gʷʰr̥nóy	*?	*gʷʰr̥nóysu
+heat	instrumental	*gʷʰr̥nóh₁	*?	*gʷʰr̥nṓys
+hill	thematic	thematic	thematic	thematic
+hill		singular		
+hill	nominative	*bʰérǵʰos		
+hill	genitive	*bʰérǵʰosyo		
+hill		singular	dual	plural
+hill	nominative	*bʰérǵʰos	*bʰérǵʰoh₁	*bʰérǵʰoes
+hill	vocative	*bʰérǵʰe	*bʰérǵʰoh₁	*bʰérǵʰoes
+hill	accusative	*bʰérǵʰom	*bʰérǵʰoh₁	*bʰérǵʰoms
+hill	genitive	*bʰérǵʰosyo	*?	*bʰérǵʰoHom
+hill	ablative	*bʰérǵʰead	*?	*bʰérǵʰomos, *bʰérǵʰobʰos
+hill	dative	*bʰérǵʰoey	*?	*bʰérǵʰomos, *bʰérǵʰobʰos
+hill	locative	*bʰérǵʰey, *bʰérǵʰoy	*?	*bʰérǵʰoysu
+hill	instrumental	*bʰérǵʰoh₁	*?	*bʰérǵʰōys
 horse	thematic	thematic	thematic	thematic
 horse		singular		
 horse	nominative	*h₁éḱwos		
@@ -167,6 +362,58 @@ house	ablative	*déms	*?	*démmos, *démbʰos
 house	dative	*démey	*?	*démmos, *démbʰos
 house	locative	*dém, *démi	*?	*démsu
 house	instrumental	*démh₁	*?	*démmis, *démbʰis
+human	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+human		singular		
+human	nominative	*ǵʰémō		
+human	genitive	*ǵʰm̥nés		
+human		singular	dual	plural
+human	nominative	*ǵʰémō	*ǵʰémonh₁(e)	*ǵʰémones
+human	vocative	*ǵʰémon	*ǵʰémonh₁(e)	*ǵʰémones
+human	accusative	*ǵʰémonm̥	*ǵʰémonh₁(e)	*ǵʰémonm̥s
+human	genitive	*ǵʰm̥nés	*?	*ǵʰm̥nóHom
+human	ablative	*ǵʰm̥nés	*?	*ǵʰmnmós, *ǵʰmnbʰós
+human	dative	*ǵʰm̥néy	*?	*ǵʰmnmós, *ǵʰmnbʰós
+human	locative	*ǵʰmén, *ǵʰméni	*?	*ǵʰmnsú
+human	instrumental	*ǵʰm̥néh₁	*?	*ǵʰmnmís, *ǵʰmnbʰís
+human	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+human		singular		
+human	nominative	*ǵʰémō		
+human	genitive	*ǵʰm̥nés		
+human		singular	dual	plural
+human	nominative	*ǵʰémō	*ǵʰémonh₁(e)	*ǵʰémones
+human	vocative	*ǵʰémon	*ǵʰémonh₁(e)	*ǵʰémones
+human	accusative	*ǵʰémonm̥	*ǵʰémonh₁(e)	*ǵʰémonm̥s
+human	genitive	*ǵʰm̥nés	*?	*ǵʰm̥nóHom
+human	ablative	*ǵʰm̥nés	*?	*ǵʰmnmós, *ǵʰmnbʰós
+human	dative	*ǵʰm̥néy	*?	*ǵʰmnmós, *ǵʰmnbʰós
+human	locative	*ǵʰmén, *ǵʰméni	*?	*ǵʰmnsú
+human	instrumental	*ǵʰm̥néh₁	*?	*ǵʰmnmís, *ǵʰmnbʰís
+king	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+king		singular		
+king	nominative	*h₃rḗǵs		
+king	genitive	*h₃réǵs		
+king		singular	dual	plural
+king	nominative	*h₃rḗǵs	*h₃réǵh₁(e)	*h₃réǵes
+king	vocative	*h₃réǵ	*h₃réǵh₁(e)	*h₃réǵes
+king	accusative	*h₃réǵm̥	*h₃réǵh₁(e)	*h₃réǵm̥s
+king	genitive	*h₃réǵs	*?	*h₃réǵoHom
+king	ablative	*h₃réǵs	*?	*h₃réǵmos, *h₃réǵbʰos
+king	dative	*h₃réǵey	*?	*h₃réǵmos, *h₃réǵbʰos
+king	locative	*h₃réǵ, *h₃réǵi	*?	*h₃réǵsu
+king	instrumental	*h₃réǵh₁	*?	*h₃réǵmis, *h₃réǵbʰis
+language	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic
+language		singular		
+language	nominative	*dn̥ǵʰwéh₂s		
+language	genitive	*dn̥ǵʰuh₂és		
+language		singular	dual	plural
+language	nominative	*dn̥ǵʰwéh₂s	*dn̥ǵʰwéh₂h₁(e)	*dn̥ǵʰwéh₂es
+language	vocative	*dn̥ǵʰwéh₂	*dn̥ǵʰwéh₂h₁(e)	*dn̥ǵʰwéh₂es
+language	accusative	*dn̥ǵʰwā́m	*dn̥ǵʰwéh₂h₁(e)	*dn̥ǵʰwéh₂m̥s
+language	genitive	*dn̥ǵʰuh₂és	*?	*dn̥ǵʰuh₂óHom
+language	ablative	*dn̥ǵʰuh₂és	*?	*dn̥ǵʰuh₂mós, *dn̥ǵʰuh₂bʰós
+language	dative	*dn̥ǵʰuh₂éy	*?	*dn̥ǵʰuh₂mós, *dn̥ǵʰuh₂bʰós
+language	locative	*dn̥ǵʰwéh₂, *dn̥ǵʰwéh₂i	*?	*dn̥ǵʰuh₂sú
+language	instrumental	*dn̥ǵʰuh₂éh₁	*?	*dn̥ǵʰuh₂mís, *dn̥ǵʰuh₂bʰís
 livestock	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
 livestock		singular		
 livestock	nominative	*péḱu		
@@ -193,6 +440,32 @@ man	ablative	*wiHréad	*?	*wiHrómos, *wiHróbʰos
 man	dative	*wiHróey	*?	*wiHrómos, *wiHróbʰos
 man	locative	*wiHréy, *wiHróy	*?	*wiHróysu
 man	instrumental	*wiHróh₁	*?	*wiHrṓys
+maternal-grandfather	thematic	thematic	thematic	thematic
+maternal-grandfather		singular		
+maternal-grandfather	nominative	*h₂éwh₂os		
+maternal-grandfather	genitive	*h₂éwh₂osyo		
+maternal-grandfather		singular	dual	plural
+maternal-grandfather	nominative	*h₂éwh₂os	*h₂éwh₂oh₁	*h₂éwh₂oes
+maternal-grandfather	vocative	*h₂éwh₂e	*h₂éwh₂oh₁	*h₂éwh₂oes
+maternal-grandfather	accusative	*h₂éwh₂om	*h₂éwh₂oh₁	*h₂éwh₂oms
+maternal-grandfather	genitive	*h₂éwh₂osyo	*?	*h₂éwh₂oHom
+maternal-grandfather	ablative	*h₂éwh₂ead	*?	*h₂éwh₂omos, *h₂éwh₂obʰos
+maternal-grandfather	dative	*h₂éwh₂oey	*?	*h₂éwh₂omos, *h₂éwh₂obʰos
+maternal-grandfather	locative	*h₂éwh₂ey, *h₂éwh₂oy	*?	*h₂éwh₂oysu
+maternal-grandfather	instrumental	*h₂éwh₂oh₁	*?	*h₂éwh₂ōys
+metal	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+metal		singular		
+metal	nominative	*h₂éyos		
+metal	genitive	*h₂éyesos		
+metal		singular	dual	plural
+metal	nominative	*h₂éyos	*h₂éyesih₁	*h₂éyōs
+metal	vocative	*h₂éyos	*h₂éyesih₁	*h₂éyōs
+metal	accusative	*h₂éyos	*h₂éyesih₁	*h₂éyōs
+metal	genitive	*h₂éyesos	*?	*h₂éyesoHom
+metal	ablative	*h₂éyesos	*?	*h₂éyesmos, *h₂éyesbʰos
+metal	dative	*h₂éyesey	*?	*h₂éyesmos, *h₂éyesbʰos
+metal	locative	*h₂éyes, *h₂éyesi	*?	*h₂éyesu
+metal	instrumental	*h₂éyesh₁	*?	*h₂éyesmis, *h₂éyesbʰis
 money	thematic in *-eh₂	thematic in *-eh₂	thematic in *-eh₂	thematic in *-eh₂
 money		singular		
 money	nominative	*kʷoynéh₂		
@@ -219,6 +492,45 @@ monster	ablative	*h₁égʷʰis	*?	*h₁égʷʰimos, *h₁égʷʰibʰos
 monster	dative	*h₁égʷʰyey	*?	*h₁égʷʰimos, *h₁égʷʰibʰos
 monster	locative	*h₁égʷʰi	*?	*h₁égʷʰisu
 monster	instrumental	*h₁égʷʰih₁	*?	*h₁égʷʰimis, *h₁égʷʰibʰis
+moon	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+moon		singular		
+moon	nominative	*mḗh₁n̥s		
+moon	genitive	*méh₁n̥sos		
+moon		singular	dual	plural
+moon	nominative	*mḗh₁n̥s	*mḗh₁n̥sh₁(e)	*mḗh₁n̥ses
+moon	vocative	*mḗh₁n̥s	*mḗh₁n̥sh₁(e)	*mḗh₁n̥ses
+moon	accusative	*mḗh₁n̥sm̥	*mḗh₁n̥sh₁(e)	*mḗh₁n̥sm̥s
+moon	genitive	*méh₁n̥sos	*?	*méh₁n̥soHom
+moon	ablative	*méh₁n̥sos	*?	*méh₁n̥smos, *méh₁n̥sbʰos
+moon	dative	*méh₁n̥sey	*?	*méh₁n̥smos, *méh₁n̥sbʰos
+moon	locative	*méh₁n̥s, *méh₁n̥si	*?	*méh₁n̥su
+moon	instrumental	*méh₁n̥sh₁	*?	*méh₁n̥smis, *méh₁n̥sbʰis
+moon	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+moon		singular		
+moon	nominative	*mḗh₁n̥s		
+moon	genitive	*méh₁n̥sos		
+moon		singular	dual	plural
+moon	nominative	*mḗh₁n̥s	*mḗh₁n̥sh₁(e)	*mḗh₁n̥ses
+moon	vocative	*mḗh₁n̥s	*mḗh₁n̥sh₁(e)	*mḗh₁n̥ses
+moon	accusative	*mḗh₁n̥sm̥	*mḗh₁n̥sh₁(e)	*mḗh₁n̥sm̥s
+moon	genitive	*méh₁n̥sos	*?	*méh₁n̥soHom
+moon	ablative	*méh₁n̥sos	*?	*méh₁n̥smos, *méh₁n̥sbʰos
+moon	dative	*méh₁n̥sey	*?	*méh₁n̥smos, *méh₁n̥sbʰos
+moon	locative	*méh₁n̥s, *méh₁n̥si	*?	*méh₁n̥su
+moon	instrumental	*méh₁n̥sh₁	*?	*méh₁n̥smis, *méh₁n̥sbʰis
+mother	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+mother		singular		
+mother	nominative	*méh₂tēr		
+mother	genitive	*méh₂tr̥s		
+mother		singular	dual	plural
+mother	nominative	*méh₂tēr	*méh₂terh₁(e)	*méh₂teres
+mother	vocative	*méh₂ter	*méh₂terh₁(e)	*méh₂teres
+mother	accusative	*méh₂term̥	*méh₂terh₁(e)	*méh₂term̥s
+mother	genitive	*méh₂tr̥s	*?	*méh₂troHom
+mother	ablative	*méh₂tr̥s	*?	*méh₂tr̥mos, *méh₂tr̥bʰos
+mother	dative	*méh₂trey	*?	*méh₂tr̥mos, *méh₂tr̥bʰos
+mother	locative	*méh₂tr̥, *méh₂tri	*?	*méh₂tr̥su
+mother	instrumental	*méh₂tr̥h₁	*?	*méh₂tr̥mis, *méh₂tr̥bʰis
 name	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
 name		singular	collective		
 name	nominative	*h₁nómn̥	*h₁némō		
@@ -232,6 +544,45 @@ name	ablative	*h₁némn̥s	*?	—	*h₁nm̥nés
 name	dative	*h₁némney	*?	—	*h₁nm̥néy
 name	locative	*h₁némn̥, *h₁némni	*?	—	*h₁n̥mén, *h₁n̥méni
 name	instrumental	*h₁némn̥h₁	*?	—	*h₁nm̥néh₁
+nest	thematic	thematic	thematic	thematic
+nest		singular		
+nest	nominative	*nisdós		
+nest	genitive	*nisdósyo		
+nest		singular	dual	plural
+nest	nominative	*nisdós	*nisdóh₁	*nisdóes
+nest	vocative	*nisdé	*nisdóh₁	*nisdóes
+nest	accusative	*nisdóm	*nisdóh₁	*nisdóms
+nest	genitive	*nisdósyo	*?	*nisdóHom
+nest	ablative	*nisdéad	*?	*nisdómos, *nisdóbʰos
+nest	dative	*nisdóey	*?	*nisdómos, *nisdóbʰos
+nest	locative	*nisdéy, *nisdóy	*?	*nisdóysu
+nest	instrumental	*nisdóh₁	*?	*nisdṓys
+night	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+night		singular		
+night	nominative	*nókʷts		
+night	genitive	*nékʷts		
+night		singular	dual	plural
+night	nominative	*nókʷts	*nókʷth₁(e)	*nókʷtes
+night	vocative	*nókʷt	*nókʷth₁(e)	*nókʷtes
+night	accusative	*nókʷtm̥	*nókʷth₁(e)	*nókʷtm̥s
+night	genitive	*nékʷts	*?	*nékʷtoHom
+night	ablative	*nékʷts	*?	*nékʷtmos, *nékʷtbʰos
+night	dative	*nékʷtey	*?	*nékʷtmos, *nékʷtbʰos
+night	locative	*nékʷt, *nékʷti	*?	*nékʷtsu
+night	instrumental	*nékʷth₁	*?	*nékʷtmis, *nékʷtbʰis
+goose	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+goose		singular		
+goose	nominative	*ǵʰh₂éns		
+goose	genitive	*ǵʰh₂n̥sés		
+goose		singular	dual	plural
+goose	nominative	*ǵʰh₂éns	*ǵʰh₂énsh₁(e)	*ǵʰh₂énses
+goose	vocative	*ǵʰh₂éns	*ǵʰh₂énsh₁(e)	*ǵʰh₂énses
+goose	accusative	*ǵʰh₂énsm̥	*ǵʰh₂énsh₁(e)	*ǵʰh₂énsm̥s
+goose	genitive	*ǵʰh₂n̥sés	*?	*ǵʰh₂n̥sóHom
+goose	ablative	*ǵʰh₂n̥sés	*?	*ǵʰh₂n̥smós, *ǵʰh₂n̥sbʰós
+goose	dative	*ǵʰh₂n̥séy	*?	*ǵʰh₂n̥smós, *ǵʰh₂n̥sbʰós
+goose	locative	*ǵʰh₂éns, *ǵʰh₂énsi	*?	*ǵʰh₂n̥sú
+goose	instrumental	*ǵʰh₂n̥séh₁	*?	*ǵʰh₂n̥smís, *ǵʰh₂n̥sbʰís
 rock	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
 rock		singular		
 rock	nominative	*h₂éḱmō		
@@ -245,6 +596,32 @@ rock	ablative	*h₂ḱnés	*?	*h₂ḱn̥mós, *h₂ḱn̥bʰós
 rock	dative	*h₂ḱnéy	*?	*h₂ḱn̥mós, *h₂ḱn̥bʰós
 rock	locative	*h₂ḱmén, *h₂ḱméni	*?	*h₂ḱn̥sú
 rock	instrumental	*h₂ḱnéh₁	*?	*h₂ḱn̥mís, *h₂ḱn̥bʰís
+sea	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
+sea		singular		
+sea	nominative	*móri		
+sea	genitive	*mréys		
+sea		singular	dual	plural
+sea	nominative	*móri	*móryih₁	*mórih₂
+sea	vocative	*mórey	*móryih₁	*mórih₂
+sea	accusative	*móri	*móryih₁	*mórih₂
+sea	genitive	*mréys	*?	*mréyoHom
+sea	ablative	*mréys	*?	*mrímos, *mríbʰos
+sea	dative	*mréyey	*?	*mrímos, *mríbʰos
+sea	locative	*mréy, *mrḗy	*?	*mrísu
+sea	instrumental	*mríh₁	*?	*mrímis, *mríbʰis
+seed	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
+seed		singular	collective		
+seed	nominative	*ǵénh₁mn̥	*ǵénh₁mō		
+seed	genitive	*ǵn̥h₁méns	*ǵn̥h₁m̥nés		
+seed		singular	dual	plural	collective
+seed	nominative	*ǵénh₁mn̥	*ǵénh₁m̥nih₁	—	*ǵénh₁mō
+seed	vocative	*ǵénh₁mn̥	*ǵénh₁m̥nih₁	—	*ǵénh₁mō
+seed	accusative	*ǵénh₁mn̥	*ǵénh₁m̥nih₁	—	*ǵénh₁mō
+seed	genitive	*ǵn̥h₁méns	*?	—	*ǵn̥h₁m̥nés
+seed	ablative	*ǵn̥h₁méns	*?	—	*ǵn̥h₁m̥nés
+seed	dative	*ǵn̥h₁méney	*?	—	*ǵn̥h₁m̥néy
+seed	locative	*ǵn̥h₁mén, *ǵn̥h₁méni	*?	—	*ǵn̥h₁mén, *ǵn̥h₁méni
+seed	instrumental	*ǵn̥h₁ménh₁	*?	—	*ǵn̥h₁m̥néh₁
 sister	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
 sister		singular		
 sister	nominative	*swésōr		
@@ -271,6 +648,84 @@ son	ablative	*suHyóws	*?	*suHyówmos, *suHyówbʰos
 son	dative	*suHyówey	*?	*suHyówmos, *suHyówbʰos
 son	locative	*suHyów, *suHyówi	*?	*suHyówsu
 son	instrumental	*suHyówh₁	*?	*suHyówmis, *suHyówbʰis
+spring	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
+spring		singular		
+spring	nominative	*wósr̥		
+spring	genitive	*wésn̥s		
+spring		singular	dual	plural
+spring	nominative	*wósr̥	—	—
+spring	vocative	*wósr̥	—	—
+spring	accusative	*wósr̥	—	—
+spring	genitive	*wésn̥s	—	—
+spring	ablative	*wésn̥s	—	—
+spring	dative	*wésney	—	—
+spring	locative	*wésn̥, *wésni	—	—
+spring	instrumental	*wésn̥h₁	—	—
+star	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic
+star		singular		
+star	nominative	*h₂stḗr		
+star	genitive	*h₂strés		
+star		singular	dual	plural
+star	nominative	*h₂stḗr	*h₂stérh₁(e)	*h₂stéres
+star	vocative	*h₂stér	*h₂stérh₁(e)	*h₂stéres
+star	accusative	*h₂stérm̥	*h₂stérh₁(e)	*h₂stérm̥s
+star	genitive	*h₂strés	*?	*h₂stróHom
+star	ablative	*h₂strés	*?	*h₂str̥mós, *h₂str̥bʰós
+star	dative	*h₂stréy	*?	*h₂str̥mós, *h₂str̥bʰós
+star	locative	*h₂stér, *h₂stéri	*?	*h₂str̥sú
+star	instrumental	*h₂stréh₁	*?	*h₂str̥mís, *h₂str̥bʰís
+stone	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+stone		singular		
+stone	nominative	*h₂éḱmō		
+stone	genitive	*h₂ḱnés		
+stone		singular	dual	plural
+stone	nominative	*h₂éḱmō	*h₂éḱmonh₁(e)	*h₂éḱmones
+stone	vocative	*h₂éḱmon	*h₂éḱmonh₁(e)	*h₂éḱmones
+stone	accusative	*h₂éḱmonm̥	*h₂éḱmonh₁(e)	*h₂éḱmonm̥s
+stone	genitive	*h₂ḱnés	*?	*h₂ḱnóHom
+stone	ablative	*h₂ḱnés	*?	*h₂ḱn̥mós, *h₂ḱn̥bʰós
+stone	dative	*h₂ḱnéy	*?	*h₂ḱn̥mós, *h₂ḱn̥bʰós
+stone	locative	*h₂ḱmén, *h₂ḱméni	*?	*h₂ḱn̥sú
+stone	instrumental	*h₂ḱnéh₁	*?	*h₂ḱn̥mís, *h₂ḱn̥bʰís
+sun	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
+sun		singular		
+sun	nominative	*sóh₂wl̥		
+sun	genitive	*sh₂wéns		
+sun		singular	dual	plural
+sun	nominative	*sóh₂wl̥	—	—
+sun	vocative	*sóh₂wl̥	—	—
+sun	accusative	*sóh₂wl̥	—	—
+sun	genitive	*sh₂wéns	—	—
+sun	ablative	*sh₂wéns	—	—
+sun	dative	*sh₂wéney	—	—
+sun	locative	*sh₂wén, *sh₂wéni	—	—
+sun	instrumental	*sh₂wénh₁	—	—
+town	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+town		singular		
+town	nominative	*bʰérǵʰs		
+town	genitive	*bʰr̥ǵʰés		
+town		singular	dual	plural
+town	nominative	*bʰérǵʰs	*bʰérǵʰh₁(e)	*bʰérǵʰes
+town	vocative	*bʰérǵʰ	*bʰérǵʰh₁(e)	*bʰérǵʰes
+town	accusative	*bʰérǵʰm̥	*bʰérǵʰh₁(e)	*bʰérǵʰm̥s
+town	genitive	*bʰr̥ǵʰés	*?	*bʰr̥ǵʰóHom
+town	ablative	*bʰr̥ǵʰés	*?	*bʰr̥ǵʰmós, *bʰr̥ǵʰbʰós
+town	dative	*bʰr̥ǵʰéy	*?	*bʰr̥ǵʰmós, *bʰr̥ǵʰbʰós
+town	locative	*bʰérǵʰ, *bʰérǵʰi	*?	*bʰr̥ǵʰsú
+town	instrumental	*bʰr̥ǵʰéh₁	*?	*bʰr̥ǵʰmís, *bʰr̥ǵʰbʰís
+tree	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
+tree		singular		
+tree	nominative	*dóru		
+tree	genitive	*dréws		
+tree		singular	dual	plural
+tree	nominative	*dóru	*dórwih₁	*dóruh₂
+tree	vocative	*dórew	*dórwih₁	*dóruh₂
+tree	accusative	*dóru	*dórwih₁	*dóruh₂
+tree	genitive	*dréws	*?	*dréwoHom
+tree	ablative	*dréws	*?	*drúmos, *drúbʰos
+tree	dative	*dréwey	*?	*drúmos, *drúbʰos
+tree	locative	*dréw, *dréwi	*?	*drúsu
+tree	instrumental	*drúh₁	*?	*drúmis, *drúbʰis
 warmth	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
 warmth		singular		
 warmth	nominative	*gʷʰéros		
@@ -310,32 +765,19 @@ way	ablative	*h₁iténs	—	—	*h₁itnés
 way	dative	*h₁iténey	—	—	*h₁itnéy
 way	locative	*h₁iténi	—	—	*h₁itén, *h₁iténi
 way	instrumental	*h₁iténh₁	—	—	*h₁itnéh₁
-woman	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
-woman		singular		
-woman	nominative	*gʷénh₂s		
-woman	genitive	*gʷnéh₂s		
-woman		singular	dual	plural
-woman	nominative	*gʷénh₂s	*gʷénh₂h₁(e)	*gʷénh₂es
-woman	vocative	*gʷḗn	*gʷénh₂h₁(e)	*gʷénh₂es
-woman	accusative	*gʷénh₂m̥	*gʷénh₂h₁(e)	*gʷénh₂m̥s
-woman	genitive	*gʷnéh₂s	*?	*gʷnéh₂oHom
-woman	ablative	*gʷnéh₂s	*?	*gʷnéh₂mos, *gʷnéh₂bʰos
-woman	dative	*gʷnéh₂ey	*?	*gʷnéh₂mos, *gʷnéh₂bʰos
-woman	locative	*gʷnéh₂, *gʷnéh₂i	*?	*gʷnéh₂su
-woman	instrumental	*gʷnéh₂h₁	*?	*gʷnéh₂mis, *gʷnéh₂bʰis
-work	thematic	thematic	thematic	thematic
-work		singular		
-work	nominative	*wérǵom		
-work	genitive	*wérǵosyo		
-work		singular	dual	plural
-work	nominative	*wérǵom	*wérǵoy(h₁)	*wérǵeh₂
-work	vocative	*wérǵom	*wérǵoy(h₁)	*wérǵeh₂
-work	accusative	*wérǵom	*wérǵoy(h₁)	*wérǵeh₂
-work	genitive	*wérǵosyo	*?	*wérǵoHom
-work	ablative	*wérǵead	*?	*wérǵomos, *wérǵobʰos
-work	dative	*wérǵoey	*?	*wérǵomos, *wérǵobʰos
-work	locative	*wérǵey, *wérǵoy	*?	*wérǵoysu
-work	instrumental	*wérǵoh₁	*?	*wérǵōys
+winter	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
+winter		singular		
+winter	nominative	*ǵʰéyōm		
+winter	genitive	*ǵʰimés		
+winter		singular	dual	plural
+winter	nominative	*ǵʰéyōm	*ǵʰéyomh₁(e)	*ǵʰéyomes
+winter	vocative	*ǵʰéyom	*ǵʰéyomh₁(e)	*ǵʰéyomes
+winter	accusative	*ǵʰéyōm	*ǵʰéyomh₁(e)	*ǵʰéyomm̥s
+winter	genitive	*ǵʰimés	*?	*ǵʰimóHom
+winter	ablative	*ǵʰimés	*?	*ǵʰimmós, *ǵʰimbʰós
+winter	dative	*ǵʰiméy	*?	*ǵʰimmós, *ǵʰimbʰós
+winter	locative	*ǵʰyém, ǵʰyémi	*?	*ǵʰimsú
+winter	instrumental	*ǵʰiméh₁	*?	*ǵʰimmís, *ǵʰimbʰís
 wolf	thematic	thematic	thematic	thematic
 wolf		singular		
 wolf	nominative	*wĺ̥kʷos		
@@ -349,107 +791,42 @@ wolf	ablative	*wĺ̥kʷead	*?	*wĺ̥kʷomos, *wĺ̥kʷobʰos
 wolf	dative	*wĺ̥kʷoey	*?	*wĺ̥kʷomos, *wĺ̥kʷobʰos
 wolf	locative	*wĺ̥kʷey, *wĺ̥kʷoy	*?	*wĺ̥kʷoysu
 wolf	instrumental	*wĺ̥kʷoh₁	*?	*wĺ̥kʷōys
-egg	thematic	thematic	thematic	thematic
-egg		singular		
-egg	nominative	*h₂ōwyóm		
-egg	genitive	*h₂ōwyósyo		
-egg		singular	dual	plural
-egg	nominative	*h₂ōwyóm	*h₂ōwyóy(h₁)	*h₂ōwyéh₂
-egg	vocative	*h₂ōwyóm	*h₂ōwyóy(h₁)	*h₂ōwyéh₂
-egg	accusative	*h₂ōwyóm	*h₂ōwyóy(h₁)	*h₂ōwyéh₂
-egg	genitive	*h₂ōwyósyo	*?	*h₂ōwyóHom
-egg	ablative	*h₂ōwyéad	*?	*h₂ōwyómos, *h₂ōwyóbʰos
-egg	dative	*h₂ōwyóey	*?	*h₂ōwyómos, *h₂ōwyóbʰos
-egg	locative	*h₂ōwyéy, *h₂ōwyóy	*?	*h₂ōwyóysu
-egg	instrumental	*h₂ōwyóh₁	*?	*h₂ōwyṓys
-seed	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
-seed		singular	collective		
-seed	nominative	*ǵénh₁mn̥	*ǵénh₁mō		
-seed	genitive	*ǵn̥h₁méns	*ǵn̥h₁m̥nés		
-seed		singular	dual	plural	collective
-seed	nominative	*ǵénh₁mn̥	*ǵénh₁m̥nih₁	—	*ǵénh₁mō
-seed	vocative	*ǵénh₁mn̥	*ǵénh₁m̥nih₁	—	*ǵénh₁mō
-seed	accusative	*ǵénh₁mn̥	*ǵénh₁m̥nih₁	—	*ǵénh₁mō
-seed	genitive	*ǵn̥h₁méns	*?	—	*ǵn̥h₁m̥nés
-seed	ablative	*ǵn̥h₁méns	*?	—	*ǵn̥h₁m̥nés
-seed	dative	*ǵn̥h₁méney	*?	—	*ǵn̥h₁m̥néy
-seed	locative	*ǵn̥h₁mén, *ǵn̥h₁méni	*?	—	*ǵn̥h₁mén, *ǵn̥h₁méni
-seed	instrumental	*ǵn̥h₁ménh₁	*?	—	*ǵn̥h₁m̥néh₁
-father	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic	athematic, hysterokinetic
-father		singular		
-father	nominative	*ph₂tḗr		
-father	genitive	*ph₂trés		
-father		singular	dual	plural
-father	nominative	*ph₂tḗr	*ph₂térh₁(e)	*ph₂téres
-father	vocative	*ph₂tér	*ph₂térh₁(e)	*ph₂téres
-father	accusative	*ph₂térm̥	*ph₂térh₁(e)	*ph₂térm̥s
-father	genitive	*ph₂trés	*?	*ph₂tróHom
-father	ablative	*ph₂trés	*?	*ph₂tr̥mós, *ph₂tr̥bʰós
-father	dative	*ph₂tréy	*?	*ph₂tr̥mós, *ph₂tr̥bʰós
-father	locative	*ph₂tér, *ph₂téri	*?	*ph₂tr̥sú
-father	instrumental	*ph₂tréh₁	*?	*ph₂tr̥mís, *ph₂tr̥bʰís
-cow	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
-cow		singular		
-cow	nominative	*gʷṓws		
-cow	genitive	*gʷéws		
-cow		singular	dual	plural
-cow	nominative	*gʷṓws	*gʷówh₁(e)	*gʷówes
-cow	vocative	*gʷów	*gʷówh₁(e)	*gʷówes
-cow	accusative	*gʷṓm	*gʷówh₁(e)	*gʷówm̥s
-cow	genitive	*gʷéws	*?	*gʷéwoHom
-cow	ablative	*gʷéws	*?	*gʷéwmos, *gʷéwbʰos
-cow	dative	*gʷéwey	*?	*gʷéwmos, *gʷéwbʰos
-cow	locative	*gʷéw, *gʷéwi	*?	*gʷéwsu
-cow	instrumental	*gʷéwh₁	*?	*gʷéwmis, *gʷéwbʰis
-sea	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
-sea		singular		
-sea	nominative	*móri		
-sea	genitive	*mréys		
-sea		singular	dual	plural
-sea	nominative	*móri	*móryih₁	*mórih₂
-sea	vocative	*mórey	*móryih₁	*mórih₂
-sea	accusative	*móri	*móryih₁	*mórih₂
-sea	genitive	*mréys	*?	*mréyoHom
-sea	ablative	*mréys	*?	*mrímos, *mríbʰos
-sea	dative	*mréyey	*?	*mrímos, *mríbʰos
-sea	locative	*mréy, *mrḗy	*?	*mrísu
-sea	instrumental	*mríh₁	*?	*mrímis, *mríbʰis
-fight	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
-fight		singular		
-fight	nominative	*kéh₃tus		
-fight	genitive	*kh₃téws		
-fight		singular	dual	plural
-fight	nominative	*kéh₃tus	*kéh₃tuh₁(e)	*kéh₃tewes
-fight	vocative	*kéh₃tew	*kéh₃tuh₁(e)	*kéh₃tewes
-fight	accusative	*kéh₃tum	*kéh₃tuh₁(e)	*kéh₃tums
-fight	genitive	*kh₃téws	*?	*kh₃téwoHom
-fight	ablative	*kh₃téws	*?	*kh₃túmos, *kh₃túbʰos
-fight	dative	*kh₃téwey	*?	*kh₃túmos, *kh₃túbʰos
-fight	locative	*kh₃téw, *kh₃téwi	*?	*kh₃túsu
-fight	instrumental	*kh₃túh₁	*?	*kh₃túmis, *kh₃túbʰis
-cloud	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
-cloud		singular		
-cloud	nominative	*nébʰos		
-cloud	genitive	*nébʰesos		
-cloud		singular	dual	plural
-cloud	nominative	*nébʰos	*nébʰesih₁	*nébʰōs
-cloud	vocative	*nébʰos	*nébʰesih₁	*nébʰōs
-cloud	accusative	*nébʰos	*nébʰesih₁	*nébʰōs
-cloud	genitive	*nébʰesos	*?	*nébʰesoHom
-cloud	ablative	*nébʰesos	*?	*nébʰesmos, *nébʰesbʰos
-cloud	dative	*nébʰesey	*?	*nébʰesmos, *nébʰesbʰos
-cloud	locative	*nébʰes, *nébʰesi	*?	*nébʰesu
-cloud	instrumental	*nébʰesh₁	*?	*nébʰesmis, *nébʰesbʰis
-stone	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic	athematic, amphikinetic
-stone		singular		
-stone	nominative	*h₂éḱmō		
-stone	genitive	*h₂ḱnés		
-stone		singular	dual	plural
-stone	nominative	*h₂éḱmō	*h₂éḱmonh₁(e)	*h₂éḱmones
-stone	vocative	*h₂éḱmon	*h₂éḱmonh₁(e)	*h₂éḱmones
-stone	accusative	*h₂éḱmonm̥	*h₂éḱmonh₁(e)	*h₂éḱmonm̥s
-stone	genitive	*h₂ḱnés	*?	*h₂ḱnóHom
-stone	ablative	*h₂ḱnés	*?	*h₂ḱn̥mós, *h₂ḱn̥bʰós
-stone	dative	*h₂ḱnéy	*?	*h₂ḱn̥mós, *h₂ḱn̥bʰós
-stone	locative	*h₂ḱmén, *h₂ḱméni	*?	*h₂ḱn̥sú
-stone	instrumental	*h₂ḱnéh₁	*?	*h₂ḱn̥mís, *h₂ḱn̥bʰís
+woman	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
+woman		singular		
+woman	nominative	*gʷénh₂s		
+woman	genitive	*gʷnéh₂s		
+woman		singular	dual	plural
+woman	nominative	*gʷénh₂s	*gʷénh₂h₁(e)	*gʷénh₂es
+woman	vocative	*gʷḗn	*gʷénh₂h₁(e)	*gʷénh₂es
+woman	accusative	*gʷénh₂m̥	*gʷénh₂h₁(e)	*gʷénh₂m̥s
+woman	genitive	*gʷnéh₂s	*?	*gʷnéh₂oHom
+woman	ablative	*gʷnéh₂s	*?	*gʷnéh₂mos, *gʷnéh₂bʰos
+woman	dative	*gʷnéh₂ey	*?	*gʷnéh₂mos, *gʷnéh₂bʰos
+woman	locative	*gʷnéh₂, *gʷnéh₂i	*?	*gʷnéh₂su
+woman	instrumental	*gʷnéh₂h₁	*?	*gʷnéh₂mis, *gʷnéh₂bʰis
+wood	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic	athematic, proterokinetic
+wood		singular		
+wood	nominative	*dóru		
+wood	genitive	*dréws		
+wood		singular	dual	plural
+wood	nominative	*dóru	*dórwih₁	*dóruh₂
+wood	vocative	*dórew	*dórwih₁	*dóruh₂
+wood	accusative	*dóru	*dórwih₁	*dóruh₂
+wood	genitive	*dréws	*?	*dréwoHom
+wood	ablative	*dréws	*?	*drúmos, *drúbʰos
+wood	dative	*dréwey	*?	*drúmos, *drúbʰos
+wood	locative	*dréw, *dréwi	*?	*drúsu
+wood	instrumental	*drúh₁	*?	*drúmis, *drúbʰis
+work	thematic	thematic	thematic	thematic
+work		singular		
+work	nominative	*wérǵom		
+work	genitive	*wérǵosyo		
+work		singular	dual	plural
+work	nominative	*wérǵom	*wérǵoy(h₁)	*wérǵeh₂
+work	vocative	*wérǵom	*wérǵoy(h₁)	*wérǵeh₂
+work	accusative	*wérǵom	*wérǵoy(h₁)	*wérǵeh₂
+work	genitive	*wérǵosyo	*?	*wérǵoHom
+work	ablative	*wérǵead	*?	*wérǵomos, *wérǵobʰos
+work	dative	*wérǵoey	*?	*wérǵomos, *wérǵobʰos
+work	locative	*wérǵey, *wérǵoy	*?	*wérǵoysu
+work	instrumental	*wérǵoh₁	*?	*wérǵōys
