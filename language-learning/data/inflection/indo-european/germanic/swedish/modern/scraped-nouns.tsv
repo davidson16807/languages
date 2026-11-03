@@ -1,8 +1,3 @@
-attention			nominative	genitive
-attention	singular	indefinite	uppmärksamhet	uppmärksamhets
-attention	singular	definite	uppmärksamheten	uppmärksamhetens
-attention	plural	indefinite	—	—
-attention	plural	definite	—	—
 focus			nominative	genitive
 focus	singular	indefinite	fokus	fokus
 focus	singular	definite	fokuset	fokusets
@@ -53,11 +48,6 @@ ball	singular	indefinite	kula	kulas
 ball	singular	definite	kulan	kulans
 ball	plural	indefinite	kulor	kulors
 ball	plural	definite	kulorna	kulornas
-bird			nominative	genitive
-bird	singular	indefinite	fågel	fågels
-bird	singular	definite	fågeln	fågelns
-bird	plural	indefinite	fåglar	fåglars
-bird	plural	definite	fåglarna	fåglarnas
 bridge			nominative	genitive
 bridge	singular	indefinite	bro	bros
 bridge	singular	definite	bron	brons
@@ -202,26 +192,6 @@ tree	singular	indefinite	träd	träds
 tree	singular	definite	trädet	trädets
 tree	plural	indefinite	träd	träds
 tree	plural	definite	träden	trädens
-boat			nominative	genitive
-boat	singular	indefinite	båt	båts
-boat	singular	definite	båten	båtens
-boat	plural	indefinite	båtar	båtars
-boat	plural	definite	båtarna	båtarnas
-book			nominative	genitive
-book	singular	indefinite	bok	boks
-book	singular	definite	boken	bokens
-book	plural	indefinite	böcker	böckers
-book	plural	definite	böckerna	böckernas
-book			nominative	genitive
-book	singular	indefinite	bok	boks
-book	singular	definite	boken	bokens
-book	plural	indefinite	bokar	bokars
-book	plural	definite	bokarna	bokarnas
-bug			nominative	genitive
-bug	singular	indefinite	kryp	kryps
-bug	singular	definite	krypet	krypets
-bug	plural	indefinite	kryp	kryps
-bug	plural	definite	krypen	krypens
 insect			nominative	genitive
 insect	singular	indefinite	insekt	insekts
 insect	singular	definite	insekten	insektens
@@ -237,11 +207,6 @@ louse	singular	indefinite	lus	lus
 louse	singular	definite	lusen	lusens
 louse	plural	indefinite	löss	löss
 louse	plural	definite	lössen	lössens
-clothing			nominative	genitive
-clothing	singular	indefinite	-	-
-clothing	singular	definite	-	-
-clothing	plural	indefinite	kläder	kläders
-clothing	plural	definite	kläderna	klädernas
 garment			nominative	genitive
 garment	singular	indefinite	klädesplagg	klädesplaggs
 garment	singular	definite	klädesplagget	klädesplaggets
@@ -257,21 +222,6 @@ garment	singular	indefinite	persedel	persedels
 garment	singular	definite	persedeln	persedelns
 garment	plural	indefinite	persedlar	persedlars
 garment	plural	definite	persedlarna	persedlarnas
-dog			nominative	genitive
-dog	singular	indefinite	hund	hunds
-dog	singular	definite	hunden	hundens
-dog	plural	indefinite	hundar	hundars
-dog	plural	definite	hundarna	hundarnas
-dog			nominative	genitive
-dog	singular	indefinite	hynda	hyndas
-dog	singular	definite	hyndan	hyndans
-dog	plural	indefinite	hyndor	hyndors
-dog	plural	definite	hyndorna	hyndornas
-dog			nominative	genitive
-dog	singular	indefinite	hund	hunds
-dog	singular	definite	hunden	hundens
-dog	plural	indefinite	hundar	hundars
-dog	plural	definite	hundarna	hundarnas
 door			nominative	genitive
 door	singular	indefinite	dörr	dörrs
 door	singular	definite	dörren	dörrens
@@ -287,96 +237,11 @@ door	singular	indefinite	lucka	luckas
 door	singular	definite	luckan	luckans
 door	plural	indefinite	luckor	luckors
 door	plural	definite	luckorna	luckornas
-drum			nominative	genitive
-drum	singular	indefinite	trumma	trummas
-drum	singular	definite	trumman	trummans
-drum	plural	indefinite	trummor	trummors
-drum	plural	definite	trummorna	trummornas
-enemy			nominative	genitive
-enemy	singular	indefinite	fiende	fiendes
-enemy	singular	definite	fienden	fiendens
-enemy	plural	indefinite	fiender	fienders
-enemy	plural	definite	fienderna	fiendernas
 fish			nominative	genitive
 fish	singular	indefinite	fisk	fisks
 fish	singular	definite	fisken	fiskens
 fish	plural	indefinite	fiskar	fiskars
 fish	plural	definite	fiskarna	fiskarnas
-fire			nominative	genitive
-fire	singular	indefinite	eld	elds
-fire	singular	definite	elden	eldens
-fire	plural	indefinite	eldar	eldars
-fire	plural	definite	eldarna	eldarnas
-fire			nominative	genitive
-fire	singular	indefinite	brand	brands
-fire	singular	definite	branden	brandens
-fire	plural	indefinite	bränder	bränders
-fire	plural	definite	bränderna	brändernas
-fire			nominative	genitive
-fire	singular	indefinite	eld	elds
-fire	singular	definite	elden	eldens
-fire	plural	indefinite	eldar	eldars
-fire	plural	definite	eldarna	eldarnas
-fire			nominative	genitive
-fire	singular	indefinite	brasa	brasas
-fire	singular	definite	brasan	brasans
-fire	plural	indefinite	brasor	brasors
-fire	plural	definite	brasorna	brasornas
-fire			nominative	genitive
-fire	singular	indefinite	bål	båls
-fire	singular	definite	bålet	bålets
-fire	plural	indefinite	bål	båls
-fire	plural	definite	bålen	bålens
-fire			nominative	genitive
-fire	singular	indefinite	bål	båls
-fire	singular	definite	bålen	bålens
-fire	plural	indefinite	bålar	bålars
-fire	plural	definite	bålarna	bålarnas
-fire			nominative	genitive
-fire	singular	indefinite	bål	båls
-fire	singular	definite	bålen	bålens
-fire	plural	indefinite	bålar	bålars
-fire	plural	definite	bålarna	bålarnas
-fire			nominative	genitive
-fire	singular	indefinite	brasa	brasas
-fire	singular	definite	brasan	brasans
-fire	plural	indefinite	brasor	brasors
-fire	plural	definite	brasorna	brasornas
-fire			nominative	genitive
-fire	singular	indefinite	brand	brands
-fire	singular	definite	branden	brandens
-fire	plural	indefinite	bränder	bränders
-fire	plural	definite	bränderna	brändernas
-food			nominative	genitive
-food	singular	indefinite	mat	mats
-food	singular	definite	maten	matens
-food	plural	indefinite	—	—
-food	plural	definite	—	—
-food			nominative	genitive
-food	singular	indefinite	föda	födas
-food	singular	definite	födan	födans
-food	plural	indefinite	—	—
-food	plural	definite	—	—
-food			nominative	genitive
-food	singular	indefinite	föda	födas
-food	singular	definite	födan	födans
-food	plural	indefinite	—	—
-food	plural	definite	—	—
-food			nominative	genitive
-food	singular	indefinite	matvara	matvaras
-food	singular	definite	matvaran	matvarans
-food	plural	indefinite	matvaror	matvarors
-food	plural	definite	matvarorna	matvarornas
-food			nominative	genitive
-food	singular	indefinite	födoämne	födoämnes
-food	singular	definite	födoämnet	födoämnets
-food	plural	indefinite	födoämnen	födoämnens
-food	plural	definite	födoämnena	födoämnenas
-food			nominative	genitive
-food	singular	indefinite	livsmedel	livsmedels
-food	singular	definite	livsmedlet	livsmedlets
-food	plural	indefinite	livsmedel	livsmedels
-food	plural	definite	livsmedlen	livsmedlens
 forest			nominative	genitive
 forest	singular	indefinite	skog	skogs
 forest	singular	definite	skogen	skogens
@@ -407,41 +272,11 @@ gate	singular	indefinite	grind	grinds
 gate	singular	definite	grinden	grindens
 gate	plural	indefinite	grindar	grindars
 gate	plural	definite	grindarna	grindarnas
-gift			nominative	genitive
-gift	singular	indefinite	present	presents
-gift	singular	definite	presenten	presentens
-gift	plural	indefinite	presenter	presenters
-gift	plural	definite	presenterna	presenternas
-gift			nominative	genitive
-gift	singular	indefinite	gåva	gåvas
-gift	singular	definite	gåvan	gåvans
-gift	plural	indefinite	gåvor	gåvors
-gift	plural	definite	gåvorna	gåvornas
-gift			nominative	genitive
-gift	singular	indefinite	skänk	skänks
-gift	singular	definite	skänken	skänkens
-gift	plural	indefinite	skänkar	skänkars
-gift	plural	definite	skänkarna	skänkarnas
-gift			nominative	genitive
-gift	singular	indefinite	skänk	skänks
-gift	singular	definite	skänken	skänkens
-gift	plural	indefinite	skänker	skänkers
-gift	plural	definite	skänkerna	skänkernas
 glass			nominative	genitive
 glass	singular	indefinite	glas	glas
 glass	singular	definite	glaset	glasets
 glass	plural	indefinite	glas	glas
 glass	plural	definite	glasen	glasens
-guard			nominative	genitive
-guard	singular	indefinite	väktare	väktares
-guard	singular	definite	väktaren	väktarens
-guard	plural	indefinite	väktare	väktares
-guard	plural	definite	väktarna	väktarnas
-guard			nominative	genitive
-guard	singular	indefinite	vakt	vakts
-guard	singular	definite	vakten	vaktens
-guard	plural	indefinite	vakter	vakters
-guard	plural	definite	vakterna	vakternas
 hill			nominative	genitive
 hill	singular	indefinite	kulle	kulles
 hill	singular	definite	kullen	kullens
@@ -452,81 +287,11 @@ hill	singular	indefinite	höjd	höjds
 hill	singular	definite	höjden	höjdens
 hill	plural	indefinite	höjder	höjders
 hill	plural	definite	höjderna	höjdernas
-horse			nominative	genitive
-horse	singular	indefinite	häst	hästs
-horse	singular	definite	hästen	hästens
-horse	plural	indefinite	hästar	hästars
-horse	plural	definite	hästarna	hästarnas
-horse			nominative	genitive
-horse	singular	indefinite	russ	russ
-horse	singular	definite	russet	russets
-horse	plural	indefinite	russ	russ
-horse	plural	definite	russen	russens
-horse			nominative	genitive
-horse	singular	indefinite	fåle	fåles
-horse	singular	definite	fålen	fålens
-horse	plural	indefinite	fålar	fålars
-horse	plural	definite	fålarna	fålarnas
-house			nominative	genitive
-house	singular	indefinite	hus	hus
-house	singular	definite	huset	husets
-house	plural	indefinite	hus	hus
-house	plural	definite	husen	husens
-house			nominative	genitive
-house	singular	indefinite	hus	hus
-house	singular	definite	husen	husens
-house	plural	indefinite	husar	husars
-house	plural	definite	husarna	husarnas
-house			nominative	genitive
-house	singular	indefinite	hus	hus
-house	singular	definite	huset	husets
-house	plural	indefinite	hus	hus
-house	plural	definite	husen	husens
-house			nominative	genitive
-house	singular	indefinite	hus	hus
-house	singular	definite	husen	husens
-house	plural	indefinite	husar	husars
-house	plural	definite	husarna	husarnas
-house			nominative	genitive
-house	singular	indefinite	hus	hus
-house	singular	definite	huset	husets
-house	plural	indefinite	hus	hus
-house	plural	definite	husen	husens
-house			nominative	genitive
-house	singular	indefinite	hus	hus
-house	singular	definite	husen	husens
-house	plural	indefinite	husar	husars
-house	plural	definite	husarna	husarnas
 log			nominative	genitive
 log	singular	indefinite	stock	stocks
 log	singular	definite	stocken	stockens
 log	plural	indefinite	stockar	stockars
 log	plural	definite	stockarna	stockarnas
-love			nominative	genitive
-love	singular	indefinite	kärlek	kärleks
-love	singular	definite	kärleken	kärlekens
-love	plural	indefinite	kärlekar	kärlekars
-love	plural	definite	kärlekarna	kärlekarnas
-idea			nominative	genitive
-idea	singular	indefinite	idé	idés
-idea	singular	definite	idén	idéns
-idea	plural	indefinite	idéer	idéers
-idea	plural	definite	idéerna	idéernas
-idea			nominative	genitive
-idea	singular	indefinite	koncept	koncepts
-idea	singular	definite	konceptet	konceptets
-idea	plural	indefinite	koncept	koncepts
-idea	plural	definite	koncepten	konceptens
-idea			nominative	genitive
-idea	singular	indefinite	idé	idés
-idea	singular	definite	idén	idéns
-idea	plural	indefinite	idéer	idéers
-idea	plural	definite	idéerna	idéernas
-idea			nominative	genitive
-idea	singular	indefinite	koncept	koncepts
-idea	singular	definite	konceptet	konceptets
-idea	plural	indefinite	koncept	koncepts
-idea	plural	definite	koncepten	konceptens
 metal			nominative	genitive
 metal	singular	indefinite	metall	metalls
 metal	singular	definite	metallen	metallens
@@ -562,31 +327,11 @@ weath	singular	indefinite	välstånd	välstånds
 weath	singular	definite	välståndet	välståndets
 weath	plural	indefinite	—	—
 weath	plural	definite	—	—
-monster			nominative	genitive
-monster	singular	indefinite	odjur	odjurs
-monster	singular	definite	odjuret	odjurets
-monster	plural	indefinite	odjur	odjurs
-monster	plural	definite	odjuren	odjurens
 beast			nominative	genitive
 beast	singular	indefinite	best	bests
 beast	singular	definite	besten	bestens
 beast	plural	indefinite	bestar	bestars
 beast	plural	definite	bestarna	bestarnas
-name			nominative	genitive
-name	singular	indefinite	namn	namns
-name	singular	definite	namnet	namnets
-name	plural	indefinite	namn	namns
-name	plural	definite	namnen	namnens
-rock			nominative	genitive
-rock	singular	indefinite	berg	bergs
-rock	singular	definite	berget	bergets
-rock	plural	indefinite	berg	bergs
-rock	plural	definite	bergen	bergens
-rock			nominative	genitive
-rock	singular	indefinite	sten	stens
-rock	singular	definite	stenen	stenens
-rock	plural	indefinite	stenar	stenars
-rock	plural	definite	stenarna	stenarnas
 stone			nominative	genitive
 stone	singular	indefinite	sten	stens
 stone	singular	definite	stenen	stenens
@@ -597,16 +342,6 @@ stone	singular	indefinite	sten	stens
 stone	singular	definite	stenen	stenens
 stone	plural	indefinite	stenar	stenars
 stone	plural	definite	stenarna	stenarnas
-rope			nominative	genitive
-rope	singular	indefinite	rep	reps
-rope	singular	definite	repet	repets
-rope	plural	indefinite	rep	reps
-rope	plural	definite	repen	repens
-rope			nominative	genitive
-rope	singular	indefinite	rep	reps
-rope	singular	definite	repet	repets
-rope	plural	indefinite	rep	reps
-rope	plural	definite	repen	repens
 tool			nominative	genitive
 tool	singular	indefinite	verktyg	verktygs
 tool	singular	definite	verktyget	verktygets
@@ -627,11 +362,6 @@ treasure	singular	indefinite	rikedom	rikedoms
 treasure	singular	definite	rikedomen	rikedomens
 treasure	plural	indefinite	rikedomar	rikedomars
 treasure	plural	definite	rikedomarna	rikedomarnas
-warmth			nominative	genitive
-warmth	singular	indefinite	värme	värmes
-warmth	singular	definite	värmen	värmens
-warmth	plural	indefinite	—	—
-warmth	plural	definite	—	—
 heat			nominative	genitive
 heat	singular	indefinite	värme	värmes
 heat	singular	definite	värmen	värmens
@@ -662,16 +392,6 @@ heat	singular	indefinite	värme	värmes
 heat	singular	definite	värmen	värmens
 heat	plural	indefinite	—	—
 heat	plural	definite	—	—
-water			nominative	genitive
-water	singular	indefinite	vatten	vattens
-water	singular	definite	vattnet	vattnets
-water	plural	indefinite	vatten	vattens
-water	plural	definite	vattnen	vattnens
-way			nominative	genitive
-way	singular	indefinite	väg	vägs
-way	singular	definite	vägen	vägens
-way	plural	indefinite	vägar	vägars
-way	plural	definite	vägarna	vägarnas
 wind			nominative	genitive
 wind	singular	indefinite	vind	vinds
 wind	singular	definite	vinden	vindens
@@ -702,16 +422,6 @@ wood	singular	indefinite	ved	veds
 wood	singular	definite	veden	vedens
 wood	plural	indefinite	—	—
 wood	plural	definite	—	—
-work			nominative	genitive
-work	singular	indefinite	arbete	arbetes
-work	singular	definite	arbetet	arbetets
-work	plural	indefinite	arbeten	arbetens
-work	plural	definite	arbetena	arbetenas
-work			nominative	genitive
-work	singular	indefinite	jobb	jobbs
-work	singular	definite	jobbet	jobbets
-work	plural	indefinite	jobb	jobbs
-work	plural	definite	jobben	jobbens
 worker			nominative	genitive
 worker	singular	indefinite	arbetare	arbetares
 worker	singular	definite	arbetaren	arbetarens
@@ -872,31 +582,6 @@ star	singular	indefinite	stjärna	stjärnas
 star	singular	definite	stjärnan	stjärnans
 star	plural	indefinite	stjärnor	stjärnors
 star	plural	definite	stjärnorna	stjärnornas
-man			nominative	genitive
-man	singular	indefinite	man	mans
-man	singular	definite	mannen	mannens
-man	plural	indefinite	män	mäns
-man	plural	definite	männen	männens
-man			nominative	genitive
-man	singular	indefinite	man	mans
-man	singular	definite	manen	manens
-man	plural	indefinite	manar	manars
-man	plural	definite	manarna	manarnas
-man			nominative	genitive
-man	singular	indefinite	man	mans
-man	singular	definite	manen	manens
-man	plural	indefinite	manar	manars
-man	plural	definite	manarna	manarnas
-man			nominative	genitive
-man	singular	indefinite	karl	karls
-man	singular	definite	karlen	karlens
-man	plural	indefinite	karlar	karlars
-man	plural	definite	karlarna	karlarnas
-woman			nominative	genitive
-woman	singular	indefinite	kvinna	kvinnas
-woman	singular	definite	kvinnan	kvinnans
-woman	plural	indefinite	kvinnor	kvinnors
-woman	plural	definite	kvinnorna	kvinnornas
 human			nominative	genitive
 human	singular	indefinite	människa	människas
 human	singular	definite	människan	människans
@@ -927,51 +612,6 @@ human	singular	indefinite	mänska	mänskas
 human	singular	definite	mänskan	mänskans
 human	plural	indefinite	mänskor	mänskors
 human	plural	definite	mänskorna	mänskornas
-animal			nominative	genitive
-animal	singular	indefinite	djur	djurs
-animal	singular	definite	djuret	djurets
-animal	plural	indefinite	djur	djurs
-animal	plural	definite	djuren	djurens
-livestock			nominative	genitive
-livestock	singular	indefinite	boskap	boskaps
-livestock	singular	definite	boskapen	boskapens
-livestock	plural	indefinite	—	—
-livestock	plural	definite	—	—
-son			nominative	genitive
-son	singular	indefinite	son	sons
-son	singular	definite	sonen	sonens
-son	plural	indefinite	söner	söners
-son	plural	definite	sönerna	sönernas
-son			nominative	genitive
-son	singular	indefinite	son	sons
-son	singular	definite	sonen	sonens
-son	plural	indefinite	söner	söners
-son	plural	definite	sönerna	sönernas
-daughter			nominative	genitive
-daughter	singular	indefinite	dotter	dotters
-daughter	singular	definite	dottern	dotterns
-daughter	plural	indefinite	döttrar	döttrars
-daughter	plural	definite	döttrarna	döttrarnas
-mother			nominative	genitive
-mother	singular	indefinite	mor	mors
-mother	singular	definite	modern	moderns
-mother	plural	indefinite	mödrar	mödrars
-mother	plural	definite	mödrarna	mödrarnas
-mother			nominative	genitive
-mother	singular	indefinite	mor	mors
-mother	singular	definite	moren	morens
-mother	plural	indefinite	morer	morers
-mother	plural	definite	morerna	morernas
-mother			nominative	genitive
-mother	singular	indefinite	moder	moders
-mother	singular	definite	modern	moderns
-mother	plural	indefinite	mödrar	mödrars
-mother	plural	definite	mödrarna	mödrarnas
-mother			nominative	genitive
-mother	singular	indefinite	mamma	mammas
-mother	singular	definite	mamman	mammans
-mother	plural	indefinite	mammor	mammors
-mother	plural	definite	mammorna	mammornas
 father			nominative	genitive
 father	singular	indefinite	fader	faders
 father	singular	definite	fadern	faderns
@@ -987,31 +627,6 @@ father	singular	indefinite	pappa	pappas
 father	singular	definite	pappan	pappans
 father	plural	indefinite	pappor	pappors
 father	plural	definite	papporna	pappornas
-brother			nominative	genitive
-brother	singular	indefinite	bror	brors
-brother	singular	definite	brodern	broderns
-brother	plural	indefinite	bröder	bröders
-brother	plural	definite	bröderna	brödernas
-brother			nominative	genitive
-brother	singular	indefinite	broder	broders
-brother	singular	definite	brodern	broderns
-brother	plural	indefinite	bröder	bröders
-brother	plural	definite	bröderna	brödernas
-brother			nominative	genitive
-brother	singular	indefinite	brorsa	brorsas
-brother	singular	definite	brorsan	brorsans
-brother	plural	indefinite	brorsor	brorsors
-brother	plural	definite	brorsorna	brorsornas
-brother			nominative	genitive
-brother	singular	indefinite	bror	brors
-brother	singular	definite	brodern	broderns
-brother	plural	indefinite	bröder	bröders
-brother	plural	definite	bröderna	brödernas
-brother			nominative	genitive
-brother	singular	indefinite	broder	broders
-brother	singular	definite	brodern	broderns
-brother	plural	indefinite	bröder	bröders
-brother	plural	definite	bröderna	brödernas
 sister			nominative	genitive
 sister	singular	indefinite	syster	systers
 sister	singular	definite	systern	systerns
@@ -1042,21 +657,6 @@ grandfather	singular	indefinite	förfader	förfaders
 grandfather	singular	definite	förfadern	förfaderns
 grandfather	plural	indefinite	förfäder	förfäders
 grandfather	plural	definite	förfäderna	förfädernas
-sound			nominative	genitive
-sound	singular	indefinite	ljud	ljuds
-sound	singular	definite	ljudet	ljudets
-sound	plural	indefinite	ljud	ljuds
-sound	plural	definite	ljuden	ljudens
-sound			nominative	genitive
-sound	singular	indefinite	ljud	ljuds
-sound	singular	definite	ljudet	ljudets
-sound	plural	indefinite	ljud	ljuds
-sound	plural	definite	ljuden	ljudens
-size			nominative	genitive
-size	singular	indefinite	storlek	storleks
-size	singular	definite	storleken	storlekens
-size	plural	indefinite	storlekar	storlekars
-size	plural	definite	storlekarna	storlekarnas
 west			nominative	genitive
 west	singular	indefinite	väst	västs
 west	singular	definite	västen	västens
@@ -1067,11 +667,6 @@ flamingo	singular	indefinite	flamingo	flamingos
 flamingo	singular	definite	flamingon	flamingons
 flamingo	plural	indefinite	flamingor	flamingors
 flamingo	plural	definite	flamingorna	flamingornas
-bee			nominative	genitive
-bee	singular	indefinite	bi	bis
-bee	singular	definite	biet	biets
-bee	plural	indefinite	bin	bins
-bee	plural	definite	bina	binas
 city			nominative	genitive
 city	singular	indefinite	stad	stads
 city	singular	definite	staden, stan	stadens, stans

@@ -195,33 +195,6 @@ all	accusative	ealle	ealla, ealle	eall
 all	genitive	ealra	ealra	ealra
 all	dative	eallum	eallum	eallum
 all	instrumental	eallum	eallum	eallum
-good	singular	masculine	feminine	neuter
-good	nominative	gōd	gōd	gōd
-good	accusative	gōdne	gōde	gōd
-good	genitive	gōdes	gōdre	gōdes
-good	dative	gōdum	gōdre	gōdum
-good	instrumental	gōde	gōdre	gōde
-good	plural	masculine	feminine	neuter
-good	nominative	gōde	gōda, gōde	gōd
-good	accusative	gōde	gōda, gōde	gōd
-good	genitive	gōdra	gōdra	gōdra
-good	dative	gōdum	gōdum	gōdum
-good	instrumental	gōdum	gōdum	gōdum
-good		singular	plural
-good	nominative	gōd	gōd
-good	accusative	gōd	gōd
-good	genitive	gōdes	gōda
-good	dative	gōde	gōdum
-good		singular	plural
-good	nominative	god	godu
-good	accusative	god	godu
-good	genitive	godes	goda
-good	dative	gode	godum
-good		singular	plural
-good	nominative	God	—
-good	accusative	God	—
-good	genitive	Godes	—
-good	dative	Gode	—
 loud	singular	masculine	feminine	neuter
 loud	nominative	hlūd	hlūd	hlūd
 loud	accusative	hlūdne	hlūde	hlūd
@@ -258,18 +231,6 @@ other	accusative	ōþre	ōþra, ōþre	ōþru, ōþro
 other	genitive	ōþerra	ōþerra	ōþerra
 other	dative	ōþrum	ōþrum	ōþrum
 other	instrumental	ōþrum	ōþrum	ōþrum
-red	singular	masculine	feminine	neuter
-red	nominative	rēad	rēad	rēad
-red	accusative	rēadne	rēade	rēad
-red	genitive	rēades	rēadre	rēades
-red	dative	rēadum	rēadre	rēadum
-red	instrumental	rēade	rēadre	rēade
-red	plural	masculine	feminine	neuter
-red	nominative	rēade	rēada, rēade	rēad
-red	accusative	rēade	rēada, rēade	rēad
-red	genitive	rēadra	rēadra	rēadra
-red	dative	rēadum	rēadum	rēadum
-red	instrumental	rēadum	rēadum	rēadum
 strong	singular	masculine	feminine	neuter
 strong	nominative	strang	strang	strang
 strong	accusative	strangne	strange	strang

@@ -16,12 +16,6 @@ thought	vocative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌴𐌹𐍃mit�
 thought	accusative	𐌼𐌹𐍄𐍉𐌽mitōn	𐌼𐌹𐍄𐍉𐌽𐌹𐌽𐍃mitōnins
 thought	genitive	𐌼𐌹𐍄𐍉𐌽𐌰𐌹𐍃mitōnais	𐌼𐌹𐍄𐍉𐌽𐌴mitōnē
 thought	dative	𐌼𐌹𐍄𐍉𐌽𐌰𐌹mitōnai	𐌼𐌹𐍄𐍉𐌽𐌹𐌼mitōnim
-bird		singular	plural
-bird	nominative	𐍆𐌿𐌲𐌻𐍃fugls	𐍆𐌿𐌲𐌻𐍉𐍃fuglōs
-bird	vocative	𐍆𐌿𐌲𐌻fugl	𐍆𐌿𐌲𐌻𐍉𐍃fuglōs
-bird	accusative	𐍆𐌿𐌲𐌻fugl	𐍆𐌿𐌲𐌻𐌰𐌽𐍃fuglans
-bird	genitive	𐍆𐌿𐌲𐌻𐌹𐍃fuglis	𐍆𐌿𐌲𐌻𐌴fuglē
-bird	dative	𐍆𐌿𐌲𐌻𐌰fugla	𐍆𐌿𐌲𐌻𐌰𐌼fuglam
 sparrow		singular	plural
 sparrow	nominative	𐍃𐍀𐌰𐍂𐍅𐌰sparwa	𐍃𐍀𐌰𐍂𐍅𐌰𐌽𐍃sparwans
 sparrow	vocative	𐍃𐍀𐌰𐍂𐍅𐌰sparwa	𐍃𐍀𐌰𐍂𐍅𐌰𐌽𐍃sparwans
@@ -70,112 +64,18 @@ tree	vocative	𐌱𐌰𐌲𐌼bagm	𐌱𐌰𐌲𐌼𐍉𐍃bagmōs
 tree	accusative	𐌱𐌰𐌲𐌼bagm	𐌱𐌰𐌲𐌼𐌰𐌽𐍃bagmans
 tree	genitive	𐌱𐌰𐌲𐌼𐌹𐍃bagmis	𐌱𐌰𐌲𐌼𐌴bagmē
 tree	dative	𐌱𐌰𐌲𐌼𐌰bagma	𐌱𐌰𐌲𐌼𐌰𐌼bagmam
-boat		singular	plural
-boat	nominative	𐍃𐌺𐌹𐍀skip	𐍃𐌺𐌹𐍀𐌰skipa
-boat	vocative	𐍃𐌺𐌹𐍀skip	𐍃𐌺𐌹𐍀𐌰skipa
-boat	accusative	𐍃𐌺𐌹𐍀skip	𐍃𐌺𐌹𐍀𐌰skipa
-boat	genitive	𐍃𐌺𐌹𐍀𐌹𐍃skipis	𐍃𐌺𐌹𐍀𐌴skipē
-boat	dative	𐍃𐌺𐌹𐍀𐌰skipa	𐍃𐌺𐌹𐍀𐌰𐌼skipam
 garment		singular	plural
 garment	nominative	𐍅𐌰𐍃𐍄𐌹wasti	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
 garment	vocative	𐍅𐌰𐍃𐍄𐌹wasti	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
 garment	accusative	𐍅𐌰𐍃𐍄𐌾𐌰wastja	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs
 garment	genitive	𐍅𐌰𐍃𐍄𐌾𐍉𐍃wastjōs	𐍅𐌰𐍃𐍄𐌾𐍉wastjō
 garment	dative	𐍅𐌰𐍃𐍄𐌾𐌰𐌹wastjai	𐍅𐌰𐍃𐍄𐌾𐍉𐌼wastjōm
-dog		singular	plural
-dog	nominative	𐌷𐌿𐌽𐌳𐍃hunds	𐌷𐌿𐌽𐌳𐍉𐍃hundōs
-dog	vocative	𐌷𐌿𐌽𐌳hund	𐌷𐌿𐌽𐌳𐍉𐍃hundōs
-dog	accusative	𐌷𐌿𐌽𐌳hund	𐌷𐌿𐌽𐌳𐌰𐌽𐍃hundans
-dog	genitive	𐌷𐌿𐌽𐌳𐌹𐍃hundis	𐌷𐌿𐌽𐌳𐌴hundē
-dog	dative	𐌷𐌿𐌽𐌳𐌰hunda	𐌷𐌿𐌽𐌳𐌰𐌼hundam
-door		singular	plural
-door	nominative	𐌳𐌰𐌿𐍂daur	𐌳𐌰𐌿𐍂𐌰daura
-door	vocative	𐌳𐌰𐌿𐍂daur	𐌳𐌰𐌿𐍂𐌰daura
-door	accusative	𐌳𐌰𐌿𐍂daur	𐌳𐌰𐌿𐍂𐌰daura
-door	genitive	𐌳𐌰𐌿𐍂𐌹𐍃dauris	𐌳𐌰𐌿𐍂𐌴daurē
-door	dative	𐌳𐌰𐌿𐍂𐌰daura	𐌳𐌰𐌿𐍂𐌰𐌼dauram
-door		singular	plural
-door	nominative	𐌷𐌰𐌿𐍂𐌳𐍃haurds	𐌷𐌰𐌿𐍂𐌳𐌴𐌹𐍃haurdeis
-door	vocative	𐌷𐌰𐌿𐍂𐌳haurd	𐌷𐌰𐌿𐍂𐌳𐌴𐌹𐍃haurdeis
-door	accusative	𐌷𐌰𐌿𐍂𐌳haurd	𐌷𐌰𐌿𐍂𐌳𐌹𐌽𐍃haurdins
-door	genitive	𐌷𐌰𐌿𐍂𐌳𐌰𐌹𐍃haurdais	𐌷𐌰𐌿𐍂𐌳𐌴haurdē
-door	dative	𐌷𐌰𐌿𐍂𐌳𐌰𐌹haurdai	𐌷𐌰𐌿𐍂𐌳𐌹𐌼haurdim
-enemy		singular	plural
-enemy	nominative	𐍆𐌹𐌾𐌰𐌽𐌳𐍃fijands	𐍆𐌹𐌾𐌰𐌽𐌳𐍃fijands
-enemy	vocative	𐍆𐌹𐌾𐌰𐌽𐌳fijand	𐍆𐌹𐌾𐌰𐌽𐌳𐍃fijands
-enemy	accusative	𐍆𐌹𐌾𐌰𐌽𐌳fijand	𐍆𐌹𐌾𐌰𐌽𐌳𐍃fijands
-enemy	genitive	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐍃fijandis	𐍆𐌹𐌾𐌰𐌽𐌳𐌴fijandē
-enemy	dative	𐍆𐌹𐌾𐌰𐌽𐌳fijand	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌼fijandam
-enemy	singular	masculine	feminine	neuter
-enemy	nominative	𐍆𐌹𐌾𐌰𐌽𐌳𐍃, 𐍆𐌹𐌾𐌰𐌽𐌳𐌰fijānds, fijānda	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹fijāndei	𐍆𐌹𐌾𐌰𐌽𐌳𐍉fijāndō
-enemy	accusative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽fijāndan	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽fijāndein	𐍆𐌹𐌾𐌰𐌽𐌳𐍉fijāndō
-enemy	genitive	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽𐍃fijāndins	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijāndeins	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽𐍃fijāndins
-enemy	dative	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽fijāndin	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽fijāndein	𐍆𐌹𐌾𐌰𐌽𐌳𐌹𐌽fijāndin
-enemy	plural	masculine	feminine	neuter
-enemy	nominative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐍃fijāndans	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijāndeins	𐍆𐌹𐌾𐌰𐌽𐌳𐍉𐌽𐌰fijāndōna
-enemy	accusative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐍃fijāndans	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍃fijāndeins	𐍆𐌹𐌾𐌰𐌽𐌳𐍉𐌽𐌰fijāndōna
-enemy	genitive	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐌴fijāndanē	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌽𐍉fijāndeinō	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌽𐌴fijāndanē
-enemy	dative	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌼fijāndam	𐍆𐌹𐌾𐌰𐌽𐌳𐌴𐌹𐌼fijāndeim	𐍆𐌹𐌾𐌰𐌽𐌳𐌰𐌼fijāndam
 fish		singular	plural
 fish	nominative	𐍆𐌹𐍃𐌺𐍃fisks	𐍆𐌹𐍃𐌺𐍉𐍃fiskōs
 fish	vocative	𐍆𐌹𐍃𐌺fisk	𐍆𐌹𐍃𐌺𐍉𐍃fiskōs
 fish	accusative	𐍆𐌹𐍃𐌺fisk	𐍆𐌹𐍃𐌺𐌰𐌽𐍃fiskans
 fish	genitive	𐍆𐌹𐍃𐌺𐌹𐍃fiskis	𐍆𐌹𐍃𐌺𐌴fiskē
 fish	dative	𐍆𐌹𐍃𐌺𐌰fiska	𐍆𐌹𐍃𐌺𐌰𐌼fiskam
-fire		singular	plural
-fire	nominative	𐍆𐍉𐌽fōn	—
-fire	vocative	𐍆𐍉𐌽fōn	—
-fire	accusative	𐍆𐍉𐌽fōn	—
-fire	genitive	𐍆𐌿𐌽𐌹𐌽𐍃funins	—
-fire	dative	𐍆𐌿𐌽𐌹𐌽funin	—
-food		singular	plural
-food	nominative	𐌼𐌰𐍄𐍃mats	𐌼𐌰𐍄𐌴𐌹𐍃mateis
-food	vocative	𐌼𐌰𐍄mat	𐌼𐌰𐍄𐌴𐌹𐍃mateis
-food	accusative	𐌼𐌰𐍄mat	𐌼𐌰𐍄𐌹𐌽𐍃matins
-food	genitive	𐌼𐌰𐍄𐌹𐍃matis	𐌼𐌰𐍄𐌴matē
-food	dative	𐌼𐌰𐍄𐌰mata	𐌼𐌰𐍄𐌹𐌼matim
-gift		singular	plural
-gift	nominative	𐌼𐌰𐌹𐌸𐌼𐍃maiþms	𐌼𐌰𐌹𐌸𐌼𐍉𐍃maiþmōs
-gift	vocative	𐌼𐌰𐌹𐌸𐌼maiþm	𐌼𐌰𐌹𐌸𐌼𐍉𐍃maiþmōs
-gift	accusative	𐌼𐌰𐌹𐌸𐌼maiþm	𐌼𐌰𐌹𐌸𐌼𐌰𐌽𐍃maiþmans
-gift	genitive	𐌼𐌰𐌹𐌸𐌼𐌹𐍃maiþmis	𐌼𐌰𐌹𐌸𐌼𐌴maiþmē
-gift	dative	𐌼𐌰𐌹𐌸𐌼𐌰maiþma	𐌼𐌰𐌹𐌸𐌼𐌰𐌼maiþmam
-gift		singular	plural
-gift	nominative	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐍃fragifts	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌴𐌹𐍃fragifteis
-gift	vocative	𐍆𐍂𐌰𐌲𐌹𐍆𐍄fragift	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌴𐌹𐍃fragifteis
-gift	accusative	𐍆𐍂𐌰𐌲𐌹𐍆𐍄fragift	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌹𐌽𐍃fragiftins
-gift	genitive	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌰𐌹𐍃fragiftais	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌴fragiftē
-gift	dative	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌰𐌹fragiftai	𐍆𐍂𐌰𐌲𐌹𐍆𐍄𐌹𐌼fragiftim
-gift		singular	plural
-gift	nominative	𐌰𐌹𐌱𐍂aibr	𐌰𐌹𐌱𐍂𐌰aibra
-gift	vocative	𐌰𐌹𐌱𐍂aibr	𐌰𐌹𐌱𐍂𐌰aibra
-gift	accusative	𐌰𐌹𐌱𐍂aibr	𐌰𐌹𐌱𐍂𐌰aibra
-gift	genitive	𐌰𐌹𐌱𐍂𐌹𐍃aibris	𐌰𐌹𐌱𐍂𐌴aibrē
-gift	dative	𐌰𐌹𐌱𐍂𐌰aibra	𐌰𐌹𐌱𐍂𐌰𐌼aibram
-guard		singular	plural
-guard	nominative	𐍅𐌰𐍂𐌳𐌾𐌰wardja	𐍅𐌰𐍂𐌳𐌾𐌰𐌽𐍃wardjans
-guard	vocative	𐍅𐌰𐍂𐌳𐌾𐌰wardja	𐍅𐌰𐍂𐌳𐌾𐌰𐌽𐍃wardjans
-guard	accusative	𐍅𐌰𐍂𐌳𐌾𐌰𐌽wardjan	𐍅𐌰𐍂𐌳𐌾𐌰𐌽𐍃wardjans
-guard	genitive	𐍅𐌰𐍂𐌳𐌾𐌹𐌽𐍃wardjins	𐍅𐌰𐍂𐌳𐌾𐌰𐌽𐌴wardjanē
-guard	dative	𐍅𐌰𐍂𐌳𐌾𐌹𐌽wardjin	𐍅𐌰𐍂𐌳𐌾𐌰𐌼wardjam
-house		singular	plural
-house	nominative	𐍂𐌰𐌶𐌽razn	𐍂𐌰𐌶𐌽𐌰razna
-house	vocative	𐍂𐌰𐌶𐌽razn	𐍂𐌰𐌶𐌽𐌰razna
-house	accusative	𐍂𐌰𐌶𐌽razn	𐍂𐌰𐌶𐌽𐌰razna
-house	genitive	𐍂𐌰𐌶𐌽𐌹𐍃raznis	𐍂𐌰𐌶𐌽𐌴raznē
-house	dative	𐍂𐌰𐌶𐌽𐌰razna	𐍂𐌰𐌶𐌽𐌰𐌼raznam
-love		singular	plural
-love	nominative	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰frijaþwa	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐍃frijaþwōs
-love	vocative	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰frijaþwa	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐍃frijaþwōs
-love	accusative	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰frijaþwa	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐍃frijaþwōs
-love	genitive	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐍃frijaþwōs	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉frijaþwō
-love	dative	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐌰𐌹frijaþwai	𐍆𐍂𐌹𐌾𐌰𐌸𐍅𐍉𐌼frijaþwōm
-money		singular	plural
-money	nominative	𐍃𐌺𐌰𐍄𐍄𐍃skatts	𐍃𐌺𐌰𐍄𐍄𐍉𐍃skattōs
-money	vocative	𐍃𐌺𐌰𐍄𐍄skatt	𐍃𐌺𐌰𐍄𐍄𐍉𐍃skattōs
-money	accusative	𐍃𐌺𐌰𐍄𐍄skatt	𐍃𐌺𐌰𐍄𐍄𐌰𐌽𐍃skattans
-money	genitive	𐍃𐌺𐌰𐍄𐍄𐌹𐍃skattis	𐍃𐌺𐌰𐍄𐍄𐌴skattē
-money	dative	𐍃𐌺𐌰𐍄𐍄𐌰skatta	𐍃𐌺𐌰𐍄𐍄𐌰𐌼skattam
 weath		singular	plural
 weath	nominative	𐍆𐌰𐌹𐌷𐌿faihu	—
 weath	vocative	𐍆𐌰𐌹𐌷𐌿faihu	—
@@ -194,12 +94,6 @@ beast	vocative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
 beast	accusative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
 beast	genitive	𐌳𐌹𐌿𐌶𐌹𐍃diuzis	𐌳𐌹𐌿𐌶𐌴diuzē
 beast	dative	𐌳𐌹𐌿𐌶𐌰diuza	𐌳𐌹𐌿𐌶𐌰𐌼diuzam
-name		singular	plural
-name	nominative	𐌽𐌰𐌼𐍉namō	𐌽𐌰𐌼𐌽𐌰namna
-name	vocative	𐌽𐌰𐌼𐍉namō	𐌽𐌰𐌼𐌽𐌰namna
-name	accusative	𐌽𐌰𐌼𐍉namō	𐌽𐌰𐌼𐌽𐌰namna
-name	genitive	𐌽𐌰𐌼𐌹𐌽𐍃namins	𐌽𐌰𐌼𐌽𐌴namnē
-name	dative	𐌽𐌰𐌼𐌹𐌽namin	𐌽𐌰𐌼𐌽𐌰𐌼namnam
 stone		singular	plural
 stone	nominative	𐍃𐍄𐌰𐌹𐌽𐍃stains	𐍃𐍄𐌰𐌹𐌽𐍉𐍃stainōs
 stone	vocative	𐍃𐍄𐌰𐌹𐌽stain	𐍃𐍄𐌰𐌹𐌽𐍉𐍃stainōs
@@ -212,30 +106,12 @@ treasure	vocative	𐌷𐌿𐌶𐌳huzd	𐌷𐌿𐌶𐌳𐌰huzda
 treasure	accusative	𐌷𐌿𐌶𐌳huzd	𐌷𐌿𐌶𐌳𐌰huzda
 treasure	genitive	𐌷𐌿𐌶𐌳𐌹𐍃huzdis	𐌷𐌿𐌶𐌳𐌴huzdē
 treasure	dative	𐌷𐌿𐌶𐌳𐌰huzda	𐌷𐌿𐌶𐌳𐌰𐌼huzdam
-water		singular	plural
-water	nominative	𐍅𐌰𐍄𐍉watō	*𐍅𐌰𐍄𐌽𐌰*watna
-water	vocative	𐍅𐌰𐍄𐍉watō	*𐍅𐌰𐍄𐌽𐌰*watna
-water	accusative	𐍅𐌰𐍄𐍉watō	*𐍅𐌰𐍄𐌽𐌰*watna
-water	genitive	𐍅𐌰𐍄𐌹𐌽𐍃watins	*𐍅𐌰𐍄𐌽𐌴*watnē
-water	dative	𐍅𐌰𐍄𐌹𐌽watin	𐍅𐌰𐍄𐌽𐌰𐌼watnam
-wind		singular	plural
-wind	nominative	𐍅𐌹𐌽𐌳𐍃winds	𐍅𐌹𐌽𐌳𐍉𐍃windōs
-wind	vocative	𐍅𐌹𐌽𐌳wind	𐍅𐌹𐌽𐌳𐍉𐍃windōs
-wind	accusative	𐍅𐌹𐌽𐌳wind	𐍅𐌹𐌽𐌳𐌰𐌽𐍃windans
-wind	genitive	𐍅𐌹𐌽𐌳𐌹𐍃windis	𐍅𐌹𐌽𐌳𐌴windē
-wind	dative	𐍅𐌹𐌽𐌳𐌰winda	𐍅𐌹𐌽𐌳𐌰𐌼windam
 wolf		singular	plural
 wolf	nominative	𐍅𐌿𐌻𐍆𐍃wulfs	𐍅𐌿𐌻𐍆𐍉𐍃wulfōs
 wolf	vocative	𐍅𐌿𐌻𐍆wulf	𐍅𐌿𐌻𐍆𐍉𐍃wulfōs
 wolf	accusative	𐍅𐌿𐌻𐍆wulf	𐍅𐌿𐌻𐍆𐌰𐌽𐍃wulfans
 wolf	genitive	𐍅𐌿𐌻𐍆𐌹𐍃wulfis	𐍅𐌿𐌻𐍆𐌴wulfē
 wolf	dative	𐍅𐌿𐌻𐍆𐌰wulfa	𐍅𐌿𐌻𐍆𐌰𐌼wulfam
-work		singular	plural
-work	nominative	𐌰𐍂𐌱𐌰𐌹𐌸𐍃arbaiþs	𐌰𐍂𐌱𐌰𐌹𐌳𐌴𐌹𐍃arbaideis
-work	vocative	𐌰𐍂𐌱𐌰𐌹𐌸arbaiþ	𐌰𐍂𐌱𐌰𐌹𐌳𐌴𐌹𐍃arbaideis
-work	accusative	𐌰𐍂𐌱𐌰𐌹𐌸arbaiþ	𐌰𐍂𐌱𐌰𐌹𐌳𐌹𐌽𐍃arbaidins
-work	genitive	𐌰𐍂𐌱𐌰𐌹𐌳𐌰𐌹𐍃arbaidais	𐌰𐍂𐌱𐌰𐌹𐌳𐌴arbaidē
-work	dative	𐌰𐍂𐌱𐌰𐌹𐌳𐌰𐌹arbaidai	𐌰𐍂𐌱𐌰𐌹𐌳𐌹𐌼arbaidim
 worker		singular	plural
 worker	nominative	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰waurstwa	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰𐌽𐍃waurstwans
 worker	vocative	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰waurstwa	𐍅𐌰𐌿𐍂𐍃𐍄𐍅𐌰𐌽𐍃waurstwans
@@ -296,24 +172,6 @@ star	vocative	𐍃𐍄𐌰𐌹𐍂𐌽𐍉stairnō	𐍃𐍄𐌰𐌹𐍂𐌽𐍉�
 star	accusative	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽stairnōn	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽𐍃stairnōns
 star	genitive	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽𐍃stairnōns	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽𐍉stairnōnō
 star	dative	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌽stairnōn	𐍃𐍄𐌰𐌹𐍂𐌽𐍉𐌼stairnōm
-man		singular	plural
-man	nominative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
-man	vocative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
-man	accusative	𐌼𐌰𐌽𐌽𐌰𐌽mannan	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
-man	genitive	𐌼𐌰𐌽𐍃mans	𐌼𐌰𐌽𐌽𐌴mannē
-man	dative	𐌼𐌰𐌽𐌽mann	𐌼𐌰𐌽𐌽𐌰𐌼mannam
-man		singular	plural
-man	nominative	𐌲𐌿𐌼𐌰guma	𐌲𐌿𐌼𐌰𐌽𐍃gumans
-man	vocative	𐌲𐌿𐌼𐌰guma	𐌲𐌿𐌼𐌰𐌽𐍃gumans
-man	accusative	𐌲𐌿𐌼𐌰𐌽guman	𐌲𐌿𐌼𐌰𐌽𐍃gumans
-man	genitive	𐌲𐌿𐌼𐌹𐌽𐍃gumins	𐌲𐌿𐌼𐌰𐌽𐌴gumanē
-man	dative	𐌲𐌿𐌼𐌹𐌽gumin	𐌲𐌿𐌼𐌰𐌼gumam
-woman		singular	plural
-woman	nominative	𐌵𐌹𐌽𐍉qinō	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
-woman	vocative	𐌵𐌹𐌽𐍉qinō	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
-woman	accusative	𐌵𐌹𐌽𐍉𐌽qinōn	𐌵𐌹𐌽𐍉𐌽𐍃qinōns
-woman	genitive	𐌵𐌹𐌽𐍉𐌽𐍃qinōns	𐌵𐌹𐌽𐍉𐌽𐍉qinōnō
-woman	dative	𐌵𐌹𐌽𐍉𐌽qinōn	𐌵𐌹𐌽𐍉𐌼qinōm
 human		singular	plural
 human	nominative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
 human	vocative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
@@ -326,24 +184,6 @@ human	vocative	𐌼𐌰𐌽𐌽𐌰manna	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰�
 human	accusative	𐌼𐌰𐌽𐌽𐌰𐌽mannan	𐌼𐌰𐌽𐍃, 𐌼𐌰𐌽𐌽𐌰𐌽𐍃mans, mannans
 human	genitive	𐌼𐌰𐌽𐍃mans	𐌼𐌰𐌽𐌽𐌴mannē
 human	dative	𐌼𐌰𐌽𐌽mann	𐌼𐌰𐌽𐌽𐌰𐌼mannam
-animal		singular	plural
-animal	nominative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-animal	vocative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-animal	accusative	𐌳𐌹𐌿𐍃dius	𐌳𐌹𐌿𐌶𐌰diuza
-animal	genitive	𐌳𐌹𐌿𐌶𐌹𐍃diuzis	𐌳𐌹𐌿𐌶𐌴diuzē
-animal	dative	𐌳𐌹𐌿𐌶𐌰diuza	𐌳𐌹𐌿𐌶𐌰𐌼diuzam
-son		singular	plural
-son	nominative	𐍃𐌿𐌽𐌿𐍃sunus	𐍃𐌿𐌽𐌾𐌿𐍃sunjus
-son	vocative	𐍃𐌿𐌽𐌰𐌿sunau	𐍃𐌿𐌽𐌾𐌿𐍃sunjus
-son	accusative	𐍃𐌿𐌽𐌿sunu	𐍃𐌿𐌽𐌿𐌽𐍃sununs
-son	genitive	𐍃𐌿𐌽𐌰𐌿𐍃sunaus	𐍃𐌿𐌽𐌹𐍅𐌴suniwē
-son	dative	𐍃𐌿𐌽𐌰𐌿sunau	𐍃𐌿𐌽𐌿𐌼sunum
-daughter		singular	plural
-daughter	nominative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌾𐌿𐍃dauhtrjus
-daughter	vocative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌾𐌿𐍃dauhtrjus
-daughter	accusative	𐌳𐌰𐌿𐌷𐍄𐌰𐍂dauhtar	𐌳𐌰𐌿𐌷𐍄𐍂𐌿𐌽𐍃dauhtruns
-daughter	genitive	𐌳𐌰𐌿𐌷𐍄𐍂𐍃dauhtrs	𐌳𐌰𐌿𐌷𐍄𐍂𐌴dauhtrē
-daughter	dative	𐌳𐌰𐌿𐌷𐍄𐍂dauhtr	𐌳𐌰𐌿𐌷𐍄𐍂𐌿𐌼dauhtrum
 mother		singular	plural
 mother	nominative	𐌰𐌹𐌸𐌴𐌹aiþei	𐌰𐌹𐌸𐌴𐌹𐌽𐍃aiþeins
 mother	vocative	𐌰𐌹𐌸𐌴𐌹aiþei	𐌰𐌹𐌸𐌴𐌹𐌽𐍃aiþeins
@@ -368,12 +208,6 @@ sister	vocative	𐍃𐍅𐌹𐍃𐍄𐌰𐍂swistar	𐍃𐍅𐌹𐍃𐍄𐍂𐌾
 sister	accusative	𐍃𐍅𐌹𐍃𐍄𐌰𐍂swistar	𐍃𐍅𐌹𐍃𐍄𐍂𐌿𐌽𐍃swistruns
 sister	genitive	𐍃𐍅𐌹𐍃𐍄𐍂𐍃swistrs	𐍃𐍅𐌹𐍃𐍄𐍂𐌴swistrē
 sister	dative	𐍃𐍅𐌹𐍃𐍄𐍂swistr	𐍃𐍅𐌹𐍃𐍄𐍂𐌿𐌼swistrum
-sound		singular	plural
-sound	nominative	𐌳𐍂𐌿𐌽𐌾𐌿𐍃drunjus	𐌳𐍂𐌿𐌽𐌾𐌾𐌿𐍃drunjjus
-sound	vocative	𐌳𐍂𐌿𐌽𐌾𐌰𐌿drunjau	𐌳𐍂𐌿𐌽𐌾𐌾𐌿𐍃drunjjus
-sound	accusative	𐌳𐍂𐌿𐌽𐌾𐌿drunju	𐌳𐍂𐌿𐌽𐌾𐌿𐌽𐍃drunjuns
-sound	genitive	𐌳𐍂𐌿𐌽𐌾𐌰𐌿𐍃drunjaus	𐌳𐍂𐌿𐌽𐌾𐌹𐍅𐌴drunjiwē
-sound	dative	𐌳𐍂𐌿𐌽𐌾𐌰𐌿drunjau	𐌳𐍂𐌿𐌽𐌾𐌿𐌼drunjum
 city		singular	plural
 city	nominative	𐌱𐌰𐌿𐍂𐌲𐍃baurgs	𐌱𐌰𐌿𐍂𐌲𐍃baurgs
 city	vocative	𐌱𐌰𐌿𐍂𐌲baurg	𐌱𐌰𐌿𐍂𐌲𐍃baurgs

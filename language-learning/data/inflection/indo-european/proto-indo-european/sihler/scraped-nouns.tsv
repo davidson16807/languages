@@ -1,16 +1,3 @@
-animal	thematic	thematic	thematic	thematic
-animal		singular		
-animal	nominative	*táwros		
-animal	genitive	*táwrosyo		
-animal		singular	dual	plural
-animal	nominative	*táwros	*táwroh₁	*táwroes
-animal	vocative	*táwre	*táwroh₁	*táwroes
-animal	accusative	*táwrom	*táwroh₁	*táwroms
-animal	genitive	*táwrosyo	*?	*táwroHom
-animal	ablative	*táwread	*?	*táwromos, *táwrobʰos
-animal	dative	*táwroey	*?	*táwromos, *táwrobʰos
-animal	locative	*táwrey, *táwroy	*?	*táwroysu
-animal	instrumental	*táwroh₁	*?	*táwrōys
 attention	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
 attention		singular		
 attention	nominative	*ménos		
@@ -635,19 +622,6 @@ sister	ablative	*susrés	*?	*susr̥mós, *susr̥bʰós
 sister	dative	*susréy	*?	*susr̥mós, *susr̥bʰós
 sister	locative	*susér, *suséri	*?	*susr̥sú
 sister	instrumental	*susréh₁	*?	*susr̥mís, *susr̥bʰís
-son	athematic	athematic	athematic	athematic
-son		singular		
-son	nominative	*suHyús		
-son	genitive	*suHyóws		
-son		singular	dual	plural
-son	nominative	*suHyús	*suHyúh₁(e)	*suHyúes
-son	vocative	*suHyú	*suHyúh₁(e)	*suHyúes
-son	accusative	*suHyúm	*suHyúh₁(e)	*suHyúms
-son	genitive	*suHyóws	*?	*suHyówoHom
-son	ablative	*suHyóws	*?	*suHyówmos, *suHyówbʰos
-son	dative	*suHyówey	*?	*suHyówmos, *suHyówbʰos
-son	locative	*suHyów, *suHyówi	*?	*suHyówsu
-son	instrumental	*suHyówh₁	*?	*suHyówmis, *suHyówbʰis
 spring	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic	athematic, acrostatic
 spring		singular		
 spring	nominative	*wósr̥		

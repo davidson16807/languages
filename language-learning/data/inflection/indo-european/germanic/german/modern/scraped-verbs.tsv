@@ -1,33 +1,3 @@
-love	infinitive	infinitive	lieben	lieben	lieben	lieben
-love	present participle	present participle	liebend	liebend	liebend	liebend
-love	past participle	past participle	geliebt	geliebt	geliebt	geliebt
-love	auxiliary	auxiliary	haben	haben	haben	haben
-love		indicative	indicative		subjunctive	subjunctive
-love		singular	plural		singular	plural
-love	present	ich liebe	wir lieben	i	ich liebe	wir lieben
-love	present	du liebst	ihr liebt	i	du liebest	ihr liebet
-love	present	er liebt	sie lieben	i	er liebe	sie lieben
-love						
-love	preterite	ich liebte	wir liebten	ii	ich liebte1	wir liebten1
-love	preterite	du liebtest	ihr liebtet	ii	du liebtest1	ihr liebtet1
-love	preterite	er liebte	sie liebten	ii	er liebte1	sie liebten1
-love						
-love	imperative	lieb (du)liebe (du)	liebt (ihr)			
-love	infinitive	infinitive	ehren	ehren	ehren	ehren
-love	present participle	present participle	ehrend	ehrend	ehrend	ehrend
-love	past participle	past participle	geehrt	geehrt	geehrt	geehrt
-love	auxiliary	auxiliary	haben	haben	haben	haben
-love		indicative	indicative		subjunctive	subjunctive
-love		singular	plural		singular	plural
-love	present	ich ehre	wir ehren	i	ich ehre	wir ehren
-love	present	du ehrst	ihr ehrt	i	du ehrest	ihr ehret
-love	present	er ehrt	sie ehren	i	er ehre	sie ehren
-love						
-love	preterite	ich ehrte	wir ehrten	ii	ich ehrte1	wir ehrten1
-love	preterite	du ehrtest	ihr ehrtet	ii	du ehrtest1	ihr ehrtet1
-love	preterite	er ehrte	sie ehrten	ii	er ehrte1	sie ehrten1
-love						
-love	imperative	ehr (du)ehre (du)	ehrt (ihr)			
 make	infinitive	infinitive	machen	machen	machen	machen
 make	present participle	present participle	machend	machend	machend	machend
 make	past participle	past participle	gemacht	gemacht	gemacht	gemacht
@@ -118,21 +88,6 @@ speak	preterite	du redetest	ihr redetet	ii	du redetest1	ihr redetet1
 speak	preterite	er redete	sie redeten	ii	er redete1	sie redeten1
 speak						
 speak	imperative	red (du)rede (du)	redet (ihr)			
-become	infinitive	infinitive	werden	werden	werden	werden
-become	present participle	present participle	werdend	werdend	werdend	werdend
-become	past participle	past participle	gewordenworden1	gewordenworden1	gewordenworden1	gewordenworden1
-become	auxiliary	auxiliary	sein	sein	sein	sein
-become		indicative	indicative		subjunctive	subjunctive
-become		singular	plural		singular	plural
-become	present	ich werde	wir werden	i	ich werde	wir werden
-become	present	du wirst	ihr werdet	i	du werdest	ihr werdet
-become	present	er wird	sie werden	i	er werde	sie werden
-become						
-become	preterite	ich wurdeich ward2	wir wurden	ii	ich würde3	wir würden3
-become	preterite	du wurdestdu wardst2	ihr wurdet	ii	du würdest3	ihr würdet3
-become	preterite	er wurdeer ward2	sie wurden	ii	er würde3	sie würden3
-become						
-become	imperative	werd (du)werde (du)	werdet (ihr)			
 learn	infinitive	infinitive	lernen	lernen	lernen	lernen
 learn	present participle	present participle	lernend	lernend	lernend	lernend
 learn	past participle	past participle	gelernt	gelernt	gelernt	gelernt
@@ -163,37 +118,6 @@ learn	preterite	du erfuhrst	ihr erfuhrt	ii	du erführest1du erführst1	ihr erfü
 learn	preterite	er erfuhr	sie erfuhren	ii	er erführe1	sie erführen1
 learn						
 learn	imperative	erfahr (du)erfahre (du)	erfahrt (ihr)			
-give	infinitive	infinitive	geben	geben	geben	geben
-give	present participle	present participle	gebend	gebend	gebend	gebend
-give	past participle	past participle	gegeben	gegeben	gegeben	gegeben
-give	auxiliary	auxiliary	haben	haben	haben	haben
-give		indicative	indicative		subjunctive	subjunctive
-give		singular	plural		singular	plural
-give	present	ich gebe	wir geben	i	ich gebe	wir geben
-give	present	du gibst	ihr gebt	i	du gebest	ihr gebet
-give	present	er gibt	sie geben	i	er gebe	sie geben
-give						
-give	preterite	ich gab	wir gaben	ii	ich gäbe1	wir gäben1
-give	preterite	du gabst	ihr gabt	ii	du gäbest1du gäbst1	ihr gäbet1ihr gäbt1
-give	preterite	er gab	sie gaben	ii	er gäbe1	sie gäben1
-give						
-give	imperative	gib (du)	gebt (ihr)			
-give	infinitive	infinitive	abgeben	abgeben	abgeben	abgeben
-give	present participle	present participle	abgebend	abgebend	abgebend	abgebend
-give	past participle	past participle	abgegeben	abgegeben	abgegeben	abgegeben
-give	zu-infinitive	zu-infinitive	abzugeben	abzugeben	abzugeben	abzugeben
-give	auxiliary	auxiliary	haben	haben	haben	haben
-give		indicative	indicative		subjunctive	subjunctive
-give		singular	plural		singular	plural
-give	present	ich gebe ab	wir geben ab	i	ich gebe ab	wir geben ab
-give	present	du gibst ab	ihr gebt ab	i	du gebest ab	ihr gebet ab
-give	present	er gibt ab	sie geben ab	i	er gebe ab	sie geben ab
-give						
-give	preterite	ich gab ab	wir gaben ab	ii	ich gäbe ab1	wir gäben ab1
-give	preterite	du gabst ab	ihr gabt ab	ii	du gäbest ab1du gäbst ab1	ihr gäbet ab1ihr gäbt ab1
-give	preterite	er gab ab	sie gaben ab	ii	er gäbe ab1	sie gäben ab1
-give						
-give	imperative	gib ab (du)	gebt ab (ihr)			
 help	infinitive	infinitive	helfen	helfen	helfen	helfen
 help	present participle	present participle	helfend	helfend	helfend	helfend
 help	past participle	past participle	geholfen	geholfen	geholfen	geholfen
@@ -500,66 +424,6 @@ ask	preterite	du stelltest	ihr stelltet	ii	du stelltest1	ihr stelltet1
 ask	preterite	er stellte	sie stellten	ii	er stellte1	sie stellten1
 ask						
 ask	imperative	stell (du)stelle (du)	stellt (ihr)			
-be	infinitive	infinitive	sein	sein	sein	sein
-be	present participle	present participle	seiend	seiend	seiend	seiend
-be	past participle	past participle	gewesen	gewesen	gewesen	gewesen
-be	auxiliary	auxiliary	sein	sein	sein	sein
-be		indicative	indicative		subjunctive	subjunctive
-be		singular	plural		singular	plural
-be	present	ich bin	wir sind	i	ich sei	wir seien
-be	present	du bist	ihr seid	i	du seistdu seiest	ihr seiet
-be	present	er ist	sie sind	i	er sei	sie seien
-be						
-be	preterite	ich war	wir waren	ii	ich wäre1	wir wären1
-be	preterite	du warst	ihr wart	ii	du wärst1du wärest1	ihr wärt1ihr wäret1
-be	preterite	er war	sie waren	ii	er wäre1	sie wären1
-be						
-be	imperative	sei (du)	seid (ihr)			
-be	infinitive	infinitive	sein	sein	sein	sein
-be	present participle	present participle	seiend	seiend	seiend	seiend
-be	past participle	past participle	gewesen	gewesen	gewesen	gewesen
-be	auxiliary	auxiliary	sein	sein	sein	sein
-be		indicative	indicative		subjunctive	subjunctive
-be		singular	plural		singular	plural
-be	present	ich bin	wir sind	i	ich sei	wir seien
-be	present	du bist	ihr seid	i	du seistdu seiest	ihr seiet
-be	present	er ist	sie sind	i	er sei	sie seien
-be						
-be	preterite	ich war	wir waren	ii	ich wäre1	wir wären1
-be	preterite	du warst	ihr wart	ii	du wärst1du wärest1	ihr wärt1ihr wäret1
-be	preterite	er war	sie waren	ii	er wäre1	sie wären1
-be						
-be	imperative	sei (du)	seid (ihr)			
-be	infinitive	infinitive	sein	sein	sein	sein
-be	present participle	present participle	seiend	seiend	seiend	seiend
-be	past participle	past participle	gewesen	gewesen	gewesen	gewesen
-be	auxiliary	auxiliary	sein	sein	sein	sein
-be		indicative	indicative		subjunctive	subjunctive
-be		singular	plural		singular	plural
-be	present	ich bin	wir sind	i	ich sei	wir seien
-be	present	du bist	ihr seid	i	du seistdu seiest	ihr seiet
-be	present	er ist	sie sind	i	er sei	sie seien
-be						
-be	preterite	ich war	wir waren	ii	ich wäre1	wir wären1
-be	preterite	du warst	ihr wart	ii	du wärst1du wärest1	ihr wärt1ihr wäret1
-be	preterite	er war	sie waren	ii	er wäre1	sie wären1
-be						
-be	imperative	sei (du)	seid (ihr)			
-be	infinitive	infinitive	sein	sein	sein	sein
-be	present participle	present participle	seiend	seiend	seiend	seiend
-be	past participle	past participle	gewesen	gewesen	gewesen	gewesen
-be	auxiliary	auxiliary	sein	sein	sein	sein
-be		indicative	indicative		subjunctive	subjunctive
-be		singular	plural		singular	plural
-be	present	ich bin	wir sind	i	ich sei	wir seien
-be	present	du bist	ihr seid	i	du seistdu seiest	ihr seiet
-be	present	er ist	sie sind	i	er sei	sie seien
-be						
-be	preterite	ich war	wir waren	ii	ich wäre1	wir wären1
-be	preterite	du warst	ihr wart	ii	du wärst1du wärest1	ihr wärt1ihr wäret1
-be	preterite	er war	sie waren	ii	er wäre1	sie wären1
-be						
-be	imperative	sei (du)	seid (ihr)			
 open	infinitive	infinitive	öffnen	öffnen	öffnen	öffnen
 open	present participle	present participle	öffnend	öffnend	öffnend	öffnend
 open	past participle	past participle	geöffnet	geöffnet	geöffnet	geöffnet
@@ -1419,18 +1283,3 @@ watch	preterite	du sahst an	ihr saht an	ii	du sähest an1du sähst an1	ihr sähe
 watch	preterite	er sah an	sie sahen an	ii	er sähe an1	sie sähen an1
 watch						
 watch	imperative	sieh an (du)siehe an (du)	seht an (ihr)			
-work	infinitive	infinitive	arbeiten	arbeiten	arbeiten	arbeiten
-work	present participle	present participle	arbeitend	arbeitend	arbeitend	arbeitend
-work	past participle	past participle	gearbeitet	gearbeitet	gearbeitet	gearbeitet
-work	auxiliary	auxiliary	haben	haben	haben	haben
-work		indicative	indicative		subjunctive	subjunctive
-work		singular	plural		singular	plural
-work	present	ich arbeite	wir arbeiten	i	ich arbeite	wir arbeiten
-work	present	du arbeitest	ihr arbeitet	i	du arbeitest	ihr arbeitet
-work	present	er arbeitet	sie arbeiten	i	er arbeite	sie arbeiten
-work						
-work	preterite	ich arbeitete	wir arbeiteten	ii	ich arbeitete1	wir arbeiteten1
-work	preterite	du arbeitetest	ihr arbeitetet	ii	du arbeitetest1	ihr arbeitetet1
-work	preterite	er arbeitete	sie arbeiteten	ii	er arbeitete1	sie arbeiteten1
-work						
-work	imperative	arbeit (du)arbeite (du)	arbeitet (ihr)			

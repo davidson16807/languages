@@ -173,6 +173,19 @@ formatting = RowMajorTableText('\t','\n')
 
 # HUMAN VETTED
 
+tables_for_part_of_speech = {
+	'numeral':      ''.split(),
+	'noun':         'common-noun-declensions.tsv'.split(),
+	'verb':         'conjugations.tsv finite-conjugations.tsv nonfinite-conjugations.tsv'.split(),
+	'adjective':    'adjective-agreements.tsv'.split(),
+	'determiner':   ''.split(),
+	'article':      ''.split(),
+	'pronoun':      ''.split(),
+	'adverb':       ''.split(),
+	'conjunction':  ''.split(),
+	'interjection': ''.split(),
+}
+
 # the wiktionary section headers that are searched for tables, by part of speech
 section_texts_for_part_of_speech = {
 	'numeral':      ('Numeral',      ['Declension','Inflection']),
@@ -293,10 +306,23 @@ for target_language_code, output_directory in code_directories:
 			RowMajorWikiTableHtml(ops, part_of_speech_text, table_texts, language_id, target_language_code, table_count))
 		gender_parsing = GenderWikiHtml(ops, part_of_speech_text, language_id)
 
+		done = set()
+		for table_filename in tables_for_part_of_speech[part_of_speech]:
+			table_filepath = os.path.join(scrape_directory, table_filename)
+			if os.path.exists(table_filepath):
+				with open(table_filepath,'r') as file:
+					print(table_filepath)
+					done |= {
+						row.strip().split('\t')[0]
+						for row in file.read().split('\n')
+						if row.strip() and not row.startswith('*')
+					}
+
 		lemma_html = [
 			(lemma, html_for_filepath(filepath))
 			for lemma in lemmas
-			if (part_of_speech, lemma) in translations_for_part_of_speech_lemma
+			if lemma not in done
+			and (part_of_speech, lemma) in translations_for_part_of_speech_lemma
 			for translation in translations_for_part_of_speech_lemma[(part_of_speech, lemma)]
 			if os.path.exists(filepath:=filepath_for_url(translation.url))
 		]

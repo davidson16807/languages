@@ -87,45 +87,12 @@ loud	nominative-accusative	indefinite	zgomotos	zgomotos	zgomotoasă	zgomotoși	z
 loud	nominative-accusative	definite	zgomotosul	zgomotosul	zgomotoasa	zgomotoșii	zgomotoasele	zgomotoasele
 loud	genitive-dative	indefinite	zgomotos	zgomotos	zgomotoase	zgomotoși	zgomotoase	zgomotoase
 loud	genitive-dative	definite	zgomotosului	zgomotosului	zgomotoasei	zgomotoșilor	zgomotoaselor	zgomotoaselor
-strong			singular	singular	singular	plural	plural	plural
-strong			masculine	neuter	feminine	masculine	neuter	feminine
-strong	nominative-accusative	indefinite	puternic	puternic	puternică	puternici	puternice	puternice
-strong	nominative-accusative	definite	puternicul	puternicul	puternica	puternicii	puternicele	puternicele
-strong	genitive-dative	indefinite	puternic	puternic	puternice	puternici	puternice	puternice
-strong	genitive-dative	definite	puternicului	puternicului	puternicei	puternicilor	puternicelor	puternicelor
 well			singular	singular	singular	plural	plural	plural
 well			masculine	neuter	feminine	masculine	neuter	feminine
 well	nominative-accusative	indefinite	bine	bine	bine	bine	bine	bine
 well	nominative-accusative	definite	—	—	—	—	—	—
 well	genitive-dative	indefinite	bine	bine	bine	bine	bine	bine
 well	genitive-dative	definite	—	—	—	—	—	—
-good			singular	singular	singular	plural	plural	plural
-good			masculine	neuter	feminine	masculine	neuter	feminine
-good	nominative-accusative	indefinite	bun	bun	bună	buni	bune	bune
-good	nominative-accusative	definite	bunul	bunul	buna	bunii	bunele	bunele
-good	genitive-dative	indefinite	bun	bun	bune	buni	bune	bune
-good	genitive-dative	definite	bunului	bunului	bunei	bunilor	bunelor	bunelor
-good		singular	singular	plural	plural
-good		indefinite	definite	indefinite	definite
-good	nominative-accusative	bun	bunul	bunuri	bunurile
-good	genitive-dative	bun	bunului	bunuri	bunurilor
-good	vocative	bunule	bunule	bunurilor	bunurilor
-good		singular	singular	plural	plural
-good		indefinite	definite	indefinite	definite
-good	nominative-accusative	bun	bunul	buni	bunii
-good	genitive-dative	bun	bunului	buni	bunilor
-good	vocative	bunule	bunule	bunilor	bunilor
-bad			singular	singular	singular	plural	plural	plural
-bad			masculine	neuter	feminine	masculine	neuter	feminine
-bad	nominative-accusative	indefinite	rău	rău	rea	răi	rele	rele
-bad	nominative-accusative	definite	răul	răul	reaua	răii	relele	relele
-bad	genitive-dative	indefinite	rău	rău	rele	răi	rele	rele
-bad	genitive-dative	definite	răului	răului	relei	răilor	relelor	relelor
-bad		singular	singular	plural	plural
-bad		indefinite	definite	indefinite	definite
-bad	nominative-accusative	rău	răuul	rele	relele
-bad	genitive-dative	rău	răuului	rele	relelor
-bad	vocative	răuule	răuule	relelor	relelor
 angry			singular	singular	singular	plural	plural	plural
 angry			masculine	neuter	feminine	masculine	neuter	feminine
 angry	nominative-accusative	indefinite	furios	furios	furioasă	furioși	furioase	furioase

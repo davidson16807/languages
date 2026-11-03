@@ -48,24 +48,6 @@ egg	plural	swḥwt
 tree	singular	šn
 tree	dual	šnwj
 tree	plural	šnw
-boat	singular	dpt
-boat	dual	dptj
-boat	plural	dpwt
-boat	singular	dpt
-boat	dual	dptj
-boat	plural	dpwt
-boat	singular	dpt
-boat	dual	dptj
-boat	plural	dpwt
-boat	singular	dpt
-boat	dual	dptj
-boat	plural	dpwt
-boat	singular	jmw
-boat	dual	jmwwj
-boat	plural	jmww
-boat	singular	jmw
-boat	dual	jmwwj
-boat	plural	jmww
 book	singular	mḏꜣt
 book	dual	mḏꜣtj
 book	plural	mḏꜣwt
@@ -154,30 +136,9 @@ door	plural	rwwt
 door	singular	rwt
 door	dual	rwtj
 door	plural	rwwt
-enemy	singular	ḫftj
-enemy	dual	ḫftjwj
-enemy	plural	ḫftjw
 fish	singular	rm
 fish	dual	rmwj
 fish	plural	rmw
-fire	singular	sḏt
-fire	dual	sḏtj
-fire	plural	sḏwt
-fire	singular	jḫt
-fire	dual	jḫtj
-fire	plural	jḫwt
-fire	singular	ḫt
-fire	dual	ḫtwj
-fire	plural	ḫtw
-fire	singular	ḫt
-fire	dual	ḫtj
-fire	plural	ḫwt
-fire	singular	nsrt
-fire	dual	nsrtj
-fire	plural	nsrwt
-food	singular	šbw
-food	dual	šbwwj
-food	plural	šbww
 hill	singular	qꜣꜣ
 hill	dual	qꜣꜣwj
 hill	plural	qꜣꜣw
@@ -190,12 +151,6 @@ horse	plural	ssmwt
 love	singular	mrwt
 love	dual	mrwtj
 love	plural	mrwwt
-name	singular	rn
-name	dual	rnwj
-name	plural	rnw
-name	singular	rn
-name	dual	rnwj
-name	plural	rnw
 stone	singular	jnr
 stone	dual	jnrwj
 stone	plural	jnrw
@@ -289,9 +244,6 @@ heat	prospective	srf, srftj7	—	srftj4, srft4	srftj4, srft4
 heat	singular	šmmt
 heat	dual	šmmtj
 heat	plural	šmmwt
-water	singular	mw
-water	dual	mwwj
-water	plural	mww
 way	singular	mṯn
 way	dual	mṯnwj
 way	plural	mṯnw
@@ -425,75 +377,12 @@ star	perfect	sbꜣ.n	active + .tj1, .tw2	—	—
 star	perfective	sbꜣ	active + .tj1, .tw2	sbꜣ	sbꜣ, sbꜣw5, sbꜣy5																																																																																																					
 star	imperfective	sbꜣ, sbꜣy, sbꜣw5	active + .tj1, .tw2	sbꜣ, sbꜣj6, sbꜣy6	sbꜣ, sbꜣw5																																																																																																					
 star	prospective	sbꜣ, sbꜣtj7	—	sbꜣtj4, sbꜣt4	sbꜣtj4, sbꜣt4																																																																																																					
-man	singular	z
-man	dual	zwj
-man	plural	zw
-man	singular	z
-man	dual	zwj
-man	plural	zw
-man	singular	z
-man	dual	zwj
-man	plural	zw
-man	singular	z
-man	dual	zwj
-man	plural	zw
-woman	singular	zt
-woman	dual	ztj
-woman	plural	zwt
-woman	singular	zt
-woman	dual	ztj
-woman	plural	zwt
-woman	singular	zt
-woman	dual	ztj
-woman	plural	zwt
-woman	singular	ḥmt
-woman	dual	ḥmtj
-woman	plural	ḥmwt
-woman	singular	ḥmt
-woman	dual	ḥmtj
-woman	plural	ḥmwt
-woman	singular	ḥmt
-woman	dual	ḥmtj
-woman	plural	ḥmwt
-woman	singular	zt-ḥmt
-woman	dual	ztj-ḥmtj
-woman	plural	zwt-ḥmwt
 human	singular	rmṯ
 human	dual	rmṯwj
 human	plural	rmṯw
 human	singular	rmṯ
 human	dual	rmṯwj
 human	plural	rmṯw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
-son	singular	zꜣ
-son	dual	zꜣwj
-son	plural	zꜣw
 daughter	singular	zꜣt
 daughter	dual	zꜣtj
 daughter	plural	zꜣwt
@@ -526,54 +415,6 @@ mother	prospective	mwt, mwttj7	mwttj4, mwtt4	mwttj4, mwtt4
 mother	singular	mwt
 mother	dual	mwtj
 mother	plural	mwwt
-father	singular	jt
-father	dual	jtwj
-father	plural	jtw
-brother	singular	sn
-brother	dual	snwj
-brother	plural	snw
-brother		number	first person	second person	second person	third person	third person																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother		number	first person	masculine	feminine	masculine	feminine																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	suffix pronouns	singular	∅, .j	.k, .kj1	.ṯ, .ṯn	.f, .fj1	.s, .sj1																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	suffix pronouns	dual	.nj	.ṯnj	.ṯnj	.snj	.snj																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	suffix pronouns	plural	.n	.ṯn	.ṯn	.sn	.sn																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							
-brother	enclitic (‘dependent’) pronouns	singular	w, wj, wy	kw, k, ṯw, ṯ	ṯm, ṯn	sw, s	s																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	enclitic (‘dependent’) pronouns	dual	—	ṯnj	ṯnj	snj	snj																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	enclitic (‘dependent’) pronouns	plural	n	ṯn	ṯn	sn	sn																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							
-brother	stressed (‘independent’) pronouns	singular	jnk	ṯwt	ṯmt	swt	stt																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	stressed (‘independent’) pronouns	dual	—	—	—	ntsnj	ntsnj																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	stressed (‘independent’) pronouns	plural	—	ntṯn	ntṯn	ntsn, jntsn	ntsn, jntsn																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							
-brother	stative (‘pseudoparticiple’) endings	singular	.kj, .k	.tj, .t	.tj, .t	∅, .j	.tj, .t																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	stative (‘pseudoparticiple’) endings	dual	—	.tjwn	.tjwn	.wy, .wj	.ty																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	stative (‘pseudoparticiple’) endings	plural	.wn, .nw	.tjwn	.tjwn	∅, .w, .y, .wy	.tj, .t																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
-brother	infinitival formsimperativeinfinitivenegatival complementcomplementary infinitive1singularpluralsnsnw, snsntsn, j.snsn, j.sn‘pseudoverbal’ formsstative stemperiphrastic imperfective2periphrastic prospective2snḥr snm snr snsuffix conjugationaspect / moodactivepassivecontingentaspect / moodactivepassiveperfectsn.nsnw, snconsecutivesn.jnactive + .tj1, .tw2active + .tj1, .tw2terminativesntperfective3snactive + .tj1, .tw2obligative1sn.ḫractive + .tj1, .tw2imperfectivesn, j.sn1active + .tj1, .tw2prospective3snsnnpotentialis1sn.kꜣactive + .tj1, .tw2active + .tj1, .tw2subjunctivesn, j.sn1active + .tj1, .tw2verbal adjectivesaspect / moodrelative (incl. nominal / emphatic) formsparticiplesactivepassiveactivepassiveperfectsn.nactive + .tj1, .tw2——perfectivesnactive + .tj1, .tw2snsnn, snnj6, sn2, snw2 5, sny2 5imperfectivej.sn1, sn, sny, snw5active + .tj1, .tw2j.sn1, j.snw1 5, sn, snj6, sny6sn, snw5prospectivesn, sntj7—sntj4, snt41 Used in Old Egyptian; archaic by Middle Egyptian.2 Used mostly since Middle Egyptian.3 Archaic or greatly restricted in usage by Middle Egyptian. The perfect has mostly taken over the functions of the perfective, and the subjunctive and periphrastic prospective have mostly replaced the prospective.4 Declines using third-person suffix pronouns instead of adjectival endings: masculine .f/.fj, feminine .s/.sj, dual .snj, plural .sn.5 Only in the masculine singular.6 Only in the masculine.7 Only in the feminine.	infinitival forms	infinitival forms	infinitival forms	imperative	imperative	infinitive	negatival complement	complementary infinitive1	singular	plural	sn	snw, sn	snt	sn, j.sn	sn, j.sn	‘pseudoverbal’ forms	‘pseudoverbal’ forms	‘pseudoverbal’ forms	‘pseudoverbal’ forms	stative stem	periphrastic imperfective2	periphrastic imperfective2	periphrastic prospective2	sn	ḥr sn	m sn	r sn	suffix conjugation	suffix conjugation	suffix conjugation	suffix conjugation	suffix conjugation	suffix conjugation	aspect / mood	active	passive	contingent	contingent	contingent	aspect / mood	active	passive	perfect	sn.n	snw, sn	consecutive	sn.jn	active + .tj1, .tw2	active + .tj1, .tw2	terminative	snt	snt	perfective3	sn	active + .tj1, .tw2	obligative1	sn.ḫr	active + .tj1, .tw2	imperfective	sn, j.sn1	active + .tj1, .tw2	prospective3	sn	snn	potentialis1	sn.kꜣ	active + .tj1, .tw2	active + .tj1, .tw2	subjunctive	sn, j.sn1	active + .tj1, .tw2	verbal adjectives	verbal adjectives	verbal adjectives	verbal adjectives	verbal adjectives	aspect / mood	relative (incl. nominal / emphatic) forms	relative (incl. nominal / emphatic) forms	participles	participles	active	passive	active	passive	perfect	sn.n	active + .tj1, .tw2	—	—	perfective	sn	active + .tj1, .tw2	sn	snn, snnj6, sn2, snw2 5, sny2 5	imperfective	j.sn1, sn, sny, snw5	active + .tj1, .tw2	j.sn1, j.snw1 5, sn, snj6, sny6	sn, snw5	prospective	sn, sntj7	—	sntj4, snt4	sntj4, snt4
-brother	infinitival forms	infinitival forms	infinitival forms	imperative	imperative																														aspect / mood	active	passive							perfect	sn.n		consecutive	sn.jn	active + .tj1, .tw2								obligative1	sn.ḫr	active + .tj1, .tw2				prospective3	sn		potentialis1	sn.kꜣ	active + .tj1, .tw2										aspect / mood																												
-brother	infinitive	negatival complement	complementary infinitive1	singular	plural																																										consecutive	sn.jn	active + .tj1, .tw2																	potentialis1	sn.kꜣ	active + .tj1, .tw2																																						
-brother	sn	snw, sn	snt	sn, j.sn	sn, j.sn																																																																																																					
-brother	‘pseudoverbal’ forms	‘pseudoverbal’ forms	‘pseudoverbal’ forms	‘pseudoverbal’ forms																																																																																																						
-brother	stative stem	periphrastic imperfective2	periphrastic imperfective2	periphrastic prospective2																																																																																																						
-brother	sn	ḥr sn	m sn	r sn																																																																																																						
-brother	suffix conjugation	suffix conjugation	suffix conjugation	suffix conjugation	suffix conjugation	suffix conjugation																																																																																																				
-brother	aspect / mood	active	passive	contingent	contingent	contingent																																																																																																				
-brother	aspect / mood	active	passive	aspect / mood	active	passive																																																																																																				
-brother	perfect	sn.n	snw, sn	consecutive	sn.jn	active + .tj1, .tw2																																																																																																				
-brother	perfect	sn.n	active + .tj1, .tw2	consecutive	sn.jn	active + .tj1, .tw2																																																																																																				
-brother	terminative	snt	snt	consecutive	sn.jn	active + .tj1, .tw2																																																																																																				
-brother	perfective3	sn	active + .tj1, .tw2	obligative1	sn.ḫr	active + .tj1, .tw2																																																																																																				
-brother	imperfective	sn, j.sn1	active + .tj1, .tw2	obligative1	sn.ḫr	active + .tj1, .tw2																																																																																																				
-brother	prospective3	sn	snn	potentialis1	sn.kꜣ	active + .tj1, .tw2																																																																																																				
-brother	prospective3	sn	active + .tj1, .tw2	potentialis1	sn.kꜣ	active + .tj1, .tw2																																																																																																				
-brother	subjunctive	sn, j.sn1	active + .tj1, .tw2	potentialis1	sn.kꜣ	active + .tj1, .tw2																																																																																																				
-brother	verbal adjectives	verbal adjectives	verbal adjectives	verbal adjectives	verbal adjectives																																																																																																					
-brother	aspect / mood	relative (incl. nominal / emphatic) forms	relative (incl. nominal / emphatic) forms	participles	participles																																																																																																					
-brother	aspect / mood	active	passive	active	passive																																																																																																					
-brother	perfect	sn.n	active + .tj1, .tw2	—	—																																																																																																					
-brother	perfective	sn	active + .tj1, .tw2	sn	snn, snnj6, sn2, snw2 5, sny2 5																																																																																																					
-brother	imperfective	j.sn1, sn, sny, snw5	active + .tj1, .tw2	j.sn1, j.snw1 5, sn, snj6, sny6	sn, snw5																																																																																																					
-brother	prospective	sn, sntj7	—	sntj4, snt4	sntj4, snt4																																																																																																					
 sister	singular	snt
 sister	dual	sntj
 sister	plural	snwt
