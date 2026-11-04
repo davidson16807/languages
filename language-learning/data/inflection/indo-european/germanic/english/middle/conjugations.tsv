@@ -1,462 +1,633 @@
-*	*	*	*	*	present	past							
-appear	infinitive				(to) aparen	(to) aparen							
-appear	indicative	singular	1		apere	apere							
-appear	indicative	singular	2	informal	aperest	aperest							
-appear	indicative	singular	2	formal	aperen, apere	aperen, apere							
-appear	indicative	singular	3		apereth	apere							
-appear	subjunctive	singular			apere	apere							
-appear	imperative	singular			apere	—							
-appear	indicative	plural			aperen, apere	aperen, apere							
-appear	subjunctive	plural			aperen, apere	aperen, apere							
-appear	imperative	plural			apereth, apere	—							
-appear	participle				aperynge, aperende	aperet, apered							
-be-inherently	infinitive				(to) been, be	(to) been, be							
-be-inherently	indicative	singular	1		am, be	was							
-be-inherently	indicative	singular	2	informal	art, bist	were							
-be-inherently	indicative	singular	2	formal	aren, are, been, be	weren, were							
-be-inherently	indicative	singular	3		is, bith	was							
-be-inherently	subjunctive	singular			be	were							
-be-inherently	imperative	singular			be	—							
-be-inherently	indicative	plural			aren, are, been, be	weren, were							
-be-inherently	subjunctive	plural			been, be	weren, were							
-be-inherently	imperative	plural			beth, be	—							
-be-inherently	participle				beynge, beende	been, be, ybeen, ybe							
-change	infinitive				(to) wenden, wende	(to) wenden, wende							
-change	indicative	singular	1		wende	wente, wende							
-change	indicative	singular	2	informal	wendest	wentest, wendest							
-change	indicative	singular	2	formal	wenden, wende	wenten, wente, wenden, wende							
-change	indicative	singular	3		wendeth, went	wente, wende							
-change	subjunctive	singular			wende	wente, wende							
-change	imperative	singular			wende	—							
-change	indicative	plural			wenden, wende	wenten, wente, wenden, wende							
-change	subjunctive	plural			wenden, wende	wenten, wente, wenden, wende							
-change	imperative	plural			wendeth, wende	—							
-change	participle				wendynge, wendende	went, wend, ywent, ywend							
-climb	infinitive				(to) climben, climbe	(to) climben, climbe							
-climb	indicative	singular	1		climbe	clamb, climbed							
-climb	indicative	singular	2	informal	climbest	clumbe, clamb, climbedest							
-climb	indicative	singular	2	formal	climben, climbe	clumben, clumbe, climbeden, climbede							
-climb	indicative	singular	3		climbeth	clamb, climbed							
-climb	subjunctive	singular			climbe	clumbeᴱ, climbedᴱ							
-climb	imperative	singular			climbe	—							
-climb	indicative	plural			climben, climbe	clumben, clumbe, climbeden, climbede							
-climb	subjunctive	plural			climben, climbe	clumben, clumbe, climbeden, climbede							
-climb	imperative	plural			climbeth, climbe	—							
-climb	participle				climbynge, climbende	clumben, clumbe, climbed, yclumben, yclumbe							
-direct	infinitive				(to) dressen, dresse	(to) dressen, dresse							
-direct	indicative	singular	1		dresse	dressed, dreste							
-direct	indicative	singular	2	informal	dressest	dressedest, drestest							
-direct	indicative	singular	2	formal	dressen, dresse	dresseden, dressede, dresten, dreste							
-direct	indicative	singular	3		dresseth	dressed, dreste							
-direct	subjunctive	singular			dresse	dressed, dreste							
-direct	imperative	singular			dresse	—							
-direct	indicative	plural			dressen, dresse	dresseden, dressede, dresten, dreste							
-direct	subjunctive	plural			dressen, dresse	dresseden, dressede, dresten, dreste							
-direct	imperative	plural			dresseth, dresse	—							
-direct	participle				dressynge, dressende	dressed, drest, ydressed, ydrest							
-eat	infinitive				(to) eten, ete	(to) eten, ete							
-eat	indicative	singular	1		ete	at, et							
-eat	indicative	singular	2	informal	etest, est	ete, ate, at							
-eat	indicative	singular	2	formal	eten, ete	eten, ete, aten, ate							
-eat	indicative	singular	3		eteth, et	at, et							
-eat	subjunctive	singular			ete	eteᴱ, ateᴱ							
-eat	imperative	singular			ete	—							
-eat	indicative	plural			eten, ete	eten, ete, aten, ate							
-eat	subjunctive	plural			eten, ete	eten, ete, aten, ate							
-eat	imperative	plural			eteth, ete	—							
-eat	participle				etynge, etende	eten, ete, yeten, yete							
-fall	infinitive				(to) fallen, falle	(to) fallen, falle							
-fall	indicative	singular	1		falle	fell, falde							
-fall	indicative	singular	2	informal	fallest	felle, fell, faldest							
-fall	indicative	singular	2	formal	fallen, falle	fellen, felle, falden, falde							
-fall	indicative	singular	3		falleth	fell, falde							
-fall	subjunctive	singular			falle	felleᴱ, faldeᴱ							
-fall	imperative	singular			falle	—							
-fall	indicative	plural			fallen, falle	fellen, felle, falden, falde							
-fall	subjunctive	plural			fallen, falle	fellen, felle, falden, falde							
-fall	imperative	plural			falleth, falle	—							
-fall	participle				fallynge, fallende	fallen, falle, fald, yfallen, yfalle							
-fly	infinitive				(to) flien, flie	(to) flien, flie							
-fly	indicative	singular	1		flie	fleigh, flow, flew							
-fly	indicative	singular	2	informal	fliest	flowe, flewe, fleigh, flow, flew							
-fly	indicative	singular	2	formal	flien, flie	flowen, flowe, flewen, flewe							
-fly	indicative	singular	3		flieth	fleigh, flow, flew							
-fly	subjunctive	singular			flie	floweᴱ, fleweᴱ							
-fly	imperative	singular			flie	—							
-fly	indicative	plural			flien, flie	flowen, flowe, flewen, flewe							
-fly	subjunctive	plural			flien, flie	flowen, flowe, flewen, flewe							
-fly	imperative	plural			flieth, flie	—							
-fly	participle				fliynge, fliende	flowen, flowe, yflowen, yflowe							
-flow	infinitive				(to) flowen, flowe	(to) flowen, flowe							
-flow	indicative	singular	1		flowe	flowed, flew							
-flow	indicative	singular	2	informal	flowest	flowedest, flewe, flew							
-flow	indicative	singular	2	formal	flowen, flowe	floweden, flowede, flewen, flewe							
-flow	indicative	singular	3		floweth	flowed, flew							
-flow	subjunctive	singular			flowe	flowedᴱ, fleweᴱ							
-flow	imperative	singular			flowe	—							
-flow	indicative	plural			flowen, flowe	floweden, flowede, flewen, flewe							
-flow	subjunctive	plural			flowen, flowe	floweden, flowede, flewen, flewe							
-flow	imperative	plural			floweth, flowe	—							
-flow	participle				flowynge, flowende	flowed, flowen, yflowed, yflowen							
-see	infinitive				(to) seen, see, sene	(to) seen, see, sene							
-see	indicative	singular	1		see	saugh, seigh, saw, sey							
-see	indicative	singular	2	informal	seest, sixt	sawe, seye, saugh, seigh, saw, sey							
-see	indicative	singular	2	formal	seen, see	sawen, sawe, seyen, seye							
-see	indicative	singular	3		seeth, sikth	saugh, seigh, saw, sey							
-see	subjunctive	singular			see	saweᴱ, seyeᴱ							
-see	imperative	singular			see	—							
-see	indicative	plural			seen, see	sawen, sawe, seyen, seye							
-see	subjunctive	plural			seen, see	sawen, sawe, seyen, seye							
-see	imperative	plural			seeth, see	—							
-see	participle				seynge, seende	(y)seen, (y)see, (y)seyn, (y)sey							
-show	infinitive				(to) schewen, schewe	(to) schewen, schewe							
-show	indicative	singular	1		schewe	schewed							
-show	indicative	singular	2	informal	schewest	schewedest							
-show	indicative	singular	2	formal	schewen, schewe	scheweden, schewede							
-show	indicative	singular	3		scheweth	schewed							
-show	subjunctive	singular			schewe	schewed							
-show	imperative	singular			schewe	—							
-show	indicative	plural			schewen, schewe	scheweden, schewede							
-show	subjunctive	plural			schewen, schewe	scheweden, schewede							
-show	imperative	plural			scheweth, schewe	—							
-show	participle				schewynge, schewende	schewed, yschewed							
-startle	infinitive				(to) fryghten, fryghte	(to) fryghten, fryghte							
-startle	indicative	singular	1		fryghte	fryghted							
-startle	indicative	singular	2	informal	fryghtest	fryghtedest							
-startle	indicative	singular	2	formal	fryghten, fryghte	fryghteden, fryghtede							
-startle	indicative	singular	3		fryghteth	fryghted							
-startle	subjunctive	singular			fryghte	fryghted							
-startle	imperative	singular			fryghte	—							
-startle	indicative	plural			fryghten, fryghte	fryghteden, fryghtede							
-startle	subjunctive	plural			fryghten, fryghte	fryghteden, fryghtede							
-startle	imperative	plural			fryghteth, fryghte	—							
-startle	participle				fryghtynge, fryghtende	fryghted, yfryghted							
-swim	infinitive				(to) swymmen, swymme	(to) swymmen, swymme							
-swim	indicative	singular	1		swymme	swam, swymmed							
-swim	indicative	singular	2	informal	swymmest	swumme, swam, swymmedest							
-swim	indicative	singular	2	formal	swymmen, swymme	swummen, swumme, swymmeden, swymmede							
-swim	indicative	singular	3		swymmeth	swam, swymmed							
-swim	subjunctive	singular			swymme	swummeᴱ, swymmedᴱ							
-swim	imperative	singular			swymme	—							
-swim	indicative	plural			swymmen, swymme	swummen, swumme, swymmeden, swymmede							
-swim	subjunctive	plural			swymmen, swymme	swummen, swumme, swymmeden, swymmede							
-swim	imperative	plural			swymmeth, swymme	—							
-swim	participle				swymmynge, swymmende	swummen, swumme, swymmed							
-walk	infinitive				(to) walken, walke	(to) walken, walke							
-walk	indicative	singular	1		walke	welk, walked							
-walk	indicative	singular	2	informal	walkest	welke, welk, walkedest							
-walk	indicative	singular	2	formal	walken, walke	welken, welke, walkeden, walkede							
-walk	indicative	singular	3		walketh	welk, walked							
-walk	subjunctive	singular			walke	welkeᴱ, walkedᴱ							
-walk	imperative	singular			walke	—							
-walk	indicative	plural			walken, walke	welken, welke, walkeden, walkede							
-walk	subjunctive	plural			walken, walke	welken, welke, walkeden, walkede							
-walk	imperative	plural			walketh, walke	—							
-walk	participle				walkynge, walkende	walken, walke, walked, ywalken, ywalke							
-work	infinitive				(to) werken, werke	(to) werken, werke							
-work	indicative	singular	1		werke	wroghte							
-work	indicative	singular	2	informal	werkest	wroghtest							
-work	indicative	singular	2	formal	werken, werke	wroghten, wroghte							
-work	indicative	singular	3		werketh	wroghte							
-work	subjunctive	singular			werke	wroghte							
-work	imperative	singular			werke	—							
-work	indicative	plural			werken, werke	wroghten, wroghte							
-work	subjunctive	plural			werken, werke	wroghten, wroghte							
-work	imperative	plural			werketh, werke	—							
-work	participle				werkynge, werkende	wroght, ywroght							
-delight	infinitive				(to) gamen, game	(to) gamen, game							
-delight	indicative	singular	1		game	gamed							
-delight	indicative	singular	2	informal	gamest	gamedest							
-delight	indicative	singular	2	formal	gamen, game	gameden, gamede							
-delight	indicative	singular	3		gameth	gamed							
-delight	subjunctive	singular			game	gamed							
-delight	imperative	singular			game	—							
-delight	indicative	plural			gamen, game	gameden, gamede							
-delight	subjunctive	plural			gamen, game	gameden, gamede							
-delight	imperative	plural			gameth, game	—							
-delight	participle				gamynge, gamende	gamed, ygamed							
-pound	infinitive				(to) pounen, poune	(to) pounen, poune							
-pound	indicative	singular	1		poune	pouned							
-pound	indicative	singular	2	informal	pounest	pounedest							
-pound	indicative	singular	2	formal	pounen, poune	pouneden, pounede							
-pound	indicative	singular	3		pouneth	pouned							
-pound	subjunctive	singular			poune	pouned							
-pound	imperative	singular			poune	—							
-pound	indicative	plural			pounen, poune	pouneden, pounede							
-pound	subjunctive	plural			pounen, poune	pouneden, pounede							
-pound	imperative	plural			pouneth, poune	—							
-pound	participle				pounynge, pounende	pouned, ypouned							
-feed	infinitive				(to) feden, fede	(to) feden, fede							
-feed	indicative	singular	1		fede	fedde							
-feed	indicative	singular	2	informal	fedest	feddest							
-feed	indicative	singular	2	formal	feden, fede	fedden, fedde							
-feed	indicative	singular	3		fedeth, fet	fedde							
-feed	subjunctive	singular			fede	fedde							
-feed	imperative	singular			fede	—							
-feed	indicative	plural			feden, fede	fedden, fedde							
-feed	subjunctive	plural			feden, fede	fedden, fedde							
-feed	imperative	plural			fedeth, fede	—							
-feed	participle				fedynge, fedende	fed, yfed							
-send	infinitive				(to) senden, sende	(to) senden, sende							
-send	indicative	singular	1		sende	sente, sende							
-send	indicative	singular	2	informal	sendest	sentest, sendest							
-send	indicative	singular	2	formal	senden, sende	senten, sente, senden, sende							
-send	indicative	singular	3		sendeth	sente, sende							
-send	subjunctive	singular			sende	sente, sende							
-send	imperative	singular			sende	—							
-send	indicative	plural			senden, sende	senten, sente, senden, sende							
-send	subjunctive	plural			senden, sende	senten, sente, senden, sende							
-send	imperative	plural			sendeth, sende	—							
-send	participle				sendynge, sendende	sent, send, ysent, ysend							
-wind	infinitive				(to) wenden, wende	(to) wenden, wende							
-wind	indicative	singular	1		wende	wente, wende							
-wind	indicative	singular	2	informal	wendest	wentest, wendest							
-wind	indicative	singular	2	formal	wenden, wende	wenten, wente, wenden, wende							
-wind	indicative	singular	3		wendeth, went	wente, wende							
-wind	subjunctive	singular			wende	wente, wende							
-wind	imperative	singular			wende	—							
-wind	indicative	plural			wenden, wende	wenten, wente, wenden, wende							
-wind	subjunctive	plural			wenden, wende	wenten, wente, wenden, wende							
-wind	imperative	plural			wendeth, wende	—							
-wind	participle				wendynge, wendende	went, wend, ywent, ywend							
-create	infinitive				(to) createn, create	(to) createn, create							
-create	indicative	singular	1		create	create							
-create	indicative	singular	2	informal	createst	createst							
-create	indicative	singular	2	formal	createn, create	createn, create							
-create	indicative	singular	3		createth	create							
-create	subjunctive	singular			create	create							
-create	imperative	singular			create	—							
-create	indicative	plural			createn, create	createn, create							
-create	subjunctive	plural			createn, create	createn, create							
-create	imperative	plural			createth, create	—							
-create	participle				creatynge, creatende	creat, created							
-deliver	infinitive				(to) bryngen, brynge	(to) bryngen, brynge							
-deliver	indicative	singular	1		brynge	broghte							
-deliver	indicative	singular	2	informal	bryngest	broghtest							
-deliver	indicative	singular	2	formal	bryngen, brynge	broghten, broghte							
-deliver	indicative	singular	3		bryngeth	broghte							
-deliver	subjunctive	singular			brynge	broghte							
-deliver	imperative	singular			brynge	—							
-deliver	indicative	plural			bryngen, brynge	broghten, broghte							
-deliver	subjunctive	plural			bryngen, brynge	broghten, broghte							
-deliver	imperative	plural			bryngeth, brynge	—							
-deliver	participle				bryngynge, bryngende	broght, ybroght							
-shine	infinitive				(to) schinen, schine	(to) schinen, schine							
-shine	indicative	singular	1		schine	schon, schined							
-shine	indicative	singular	2	informal	schinest	schone, schine, schon, schinedest							
-shine	indicative	singular	2	formal	schinen, schine	schonen, schone, schinen, schine, schineden, schinede							
-shine	indicative	singular	3		schineth	schon, schined							
-shine	subjunctive	singular			schine	schone1, schine1, schined1							
-shine	imperative	singular			schine	—							
-shine	indicative	plural			schinen, schine	schonen, schone, schinen, schine, schineden, schinede							
-shine	subjunctive	plural			schinen, schine	schonen, schone, schinen, schine, schineden, schinede							
-shine	imperative	plural			schineth, schine	—							
-shine	participle				schinynge, schinende	schinen, schined, yschinen, yschined							
-write	infinitive				(to) writen, write	(to) writen, write							
-write	indicative	singular	1		write	wrot							
-write	indicative	singular	2	informal	writest	wrote, write, wrot							
-write	indicative	singular	2	formal	writen, write	wroten, wrote, writen, write							
-write	indicative	singular	3		writeth	wrot							
-write	subjunctive	singular			write	wrote1, write1							
-write	imperative	singular			write	—							
-write	indicative	plural			writen, write	wroten, wrote, writen, write							
-write	subjunctive	plural			writen, write	wroten, wrote, writen, write							
-write	imperative	plural			writeth, write	—							
-write	participle				writynge, writende	writen, wreten, ywrite							
-choose	infinitive				(to) chesen, chese	(to) chesen, chese							
-choose	indicative	singular	1		chese	chees, chas							
-choose	indicative	singular	2	informal	chesest	chose, chees, chas							
-choose	indicative	singular	2	formal	chesen, chese	chosen, chose							
-choose	indicative	singular	3		cheseth	chees, chas							
-choose	subjunctive	singular			chese	chose1							
-choose	imperative	singular			chese	—							
-choose	indicative	plural			chesen, chese	chosen, chose							
-choose	subjunctive	plural			chesen, chese	chosen, chose							
-choose	imperative	plural			cheseth, chese	—							
-choose	participle				chesynge, chesende	(y)chosen, (y)chose, (y)coren, (y)core, (y)corn							
-freeze	infinitive				(to) fresen, frese	(to) fresen, frese							
-freeze	indicative	singular	1		frese	frees							
-freeze	indicative	singular	2	informal	fresest	frose, frese, frees							
-freeze	indicative	singular	2	formal	fresen, frese	frosen, frose, fresen, frese							
-freeze	indicative	singular	3		freseth, frest	frees							
-freeze	subjunctive	singular			frese	frose1, frese1							
-freeze	imperative	singular			frese	—							
-freeze	indicative	plural			fresen, frese	frosen, frose, fresen, frese							
-freeze	subjunctive	plural			fresen, frese	frosen, frose, fresen, frese							
-freeze	imperative	plural			freseth, frese	—							
-freeze	participle				fresynge, fresende	frosen, frose, froren, frore							
-bind	infinitive				(to) binden, binde	(to) binden, binde							
-bind	indicative	singular	1		binde	band, bond, bound							
-bind	indicative	singular	2	informal	bindest	bounde, bonde, band							
-bind	indicative	singular	2	formal	binden, binde	bounden, bounde, bonden, bonde							
-bind	indicative	singular	3		bindeth	band, bond, bound							
-bind	subjunctive	singular			binde	bounde1, bonde1							
-bind	imperative	singular			binde	—							
-bind	indicative	plural			binden, binde	bounden, bounde, bonden, bonde							
-bind	subjunctive	plural			binden, binde	bounden, bounde, bonden, bonde							
-bind	imperative	plural			bindeth, binde	—							
-bind	participle				bindynge, bindende	bounden, bounde, ybounden, ybounde							
-help	infinitive				(to) helpen, helpe	(to) helpen, helpe							
-help	indicative	singular	1		helpe	halp							
-help	indicative	singular	2	informal	helpest	holpe, halp							
-help	indicative	singular	2	formal	helpen, helpe	holpen, holpe							
-help	indicative	singular	3		helpeth	halp							
-help	subjunctive	singular			helpe	holpe1							
-help	imperative	singular			helpe	—							
-help	indicative	plural			helpen, helpe	holpen, holpe							
-help	subjunctive	plural			helpen, helpe	holpen, holpe							
-help	imperative	plural			helpeth, helpe	—							
-help	participle				helpynge, helpende	holpen, holpe, yholpen, yholpe							
-carry	infinitive				(to) beren, bere	(to) beren, bere							
-carry	indicative	singular	1		bere	bar, ber							
-carry	indicative	singular	2	informal	berest	bere, bare, bar, ber							
-carry	indicative	singular	2	formal	beren, bere	beren, bere, baren, bare							
-carry	indicative	singular	3		bereth	bar, ber							
-carry	subjunctive	singular			bere	bere1, bare1							
-carry	imperative	singular			bere	—							
-carry	indicative	plural			beren, bere	beren, bere, baren, bare							
-carry	subjunctive	plural			beren, bere	beren, bere, baren, bare							
-carry	imperative	plural			bereth, bere	—							
-carry	participle				berynge, berende	boren, bore, born, yboren, ybore, yborn							
-break	infinitive				(to) breken, breke	(to) breken, breke							
-break	indicative	singular	1		breke	brak, brek							
-break	indicative	singular	2	informal	brekest	breke, brake, brak, brek							
-break	indicative	singular	2	formal	breken, breke	breken, breke, braken, brake							
-break	indicative	singular	3		breketh	brak, brek							
-break	subjunctive	singular			breke	breke1, brake1							
-break	imperative	singular			breke	—							
-break	indicative	plural			breken, breke	breken, breke, braken, brake							
-break	subjunctive	plural			breken, breke	breken, breke, braken, brake							
-break	imperative	plural			breketh, breke	—							
-break	participle				brekynge, brekende	broken, broke, ybroken, ybroke							
-stand	infinitive				(to) standen, stande	(to) standen, stande							
-stand	indicative	singular	1		stande	stod							
-stand	indicative	singular	2	informal	standest	stode, stod							
-stand	indicative	singular	2	formal	standen, stande	stoden, stode							
-stand	indicative	singular	3		standeth, stant	stod							
-stand	subjunctive	singular			stande	stode1							
-stand	imperative	singular			stande	—							
-stand	indicative	plural			standen, stande	stoden, stode							
-stand	subjunctive	plural			standen, stande	stoden, stode							
-stand	imperative	plural			standeth, stande	—							
-stand	participle				standynge, standende	standen, stande, ystanden, ystande							
-take	infinitive				(to) taken, take	(to) taken, take							
-take	indicative	singular	1		take	tok							
-take	indicative	singular	2	informal	takest	toke, tok							
-take	indicative	singular	2	formal	taken, take	token, toke							
-take	indicative	singular	3		taketh	tok							
-take	subjunctive	singular			take	toke1							
-take	imperative	singular			take	—							
-take	indicative	plural			taken, take	token, toke							
-take	subjunctive	plural			taken, take	token, toke							
-take	imperative	plural			taketh, take	—							
-take	participle				takynge, takende	taken, take, ytaken, ytake							
-hold	infinitive				(to) holden, holde	(to) holden, holde							
-hold	indicative	singular	1		holde	held							
-hold	indicative	singular	2	informal	holdest	helde, held							
-hold	indicative	singular	2	formal	holden, holde	helden, helde							
-hold	indicative	singular	3		holdeth, holt	held							
-hold	subjunctive	singular			holde	helde1							
-hold	imperative	singular			holde	—							
-hold	indicative	plural			holden, holde	helden, helde							
-hold	subjunctive	plural			holden, holde	helden, helde							
-hold	imperative	plural			holdeth, holde	—							
-hold	participle				holdynge, holdende	holden, holde, yholden, yholde							
-#know	infinitive				(to) knowen, knowe	(to) knowen, knowe							
-#know	indicative	singular	1		knowe	knew							
-#know	indicative	singular	2	informal	knowest	knewe, knew							
-#know	indicative	singular	2	formal	knowen, knowe	knewen, knewe							
-#know	indicative	singular	3		knoweth	knew							
-#know	subjunctive	singular			knowe	knewe1							
-#know	imperative	singular			knowe	—							
-#know	indicative	plural			knowen, knowe	knewen, knewe							
-#know	subjunctive	plural			knowen, knowe	knewen, knewe							
-#know	imperative	plural			knoweth, knowe	—							
-#know	participle				knowynge, knowende	knowen, knowe, yknowen, yknowe							
-be	infinitive				(to) been, be	(to) been, be							
-be	indicative	singular	1		am, be	was							
-be	indicative	singular	2	informal	art, bist	were							
-be	indicative	singular	2	formal	aren, are, been, be	weren, were							
-be	indicative	singular	3		is, bith	was							
-be	subjunctive	singular			be	were							
-be	imperative	singular			be	—							
-be	indicative	plural			aren, are, been, be	weren, were							
-be	subjunctive	plural			aren, are, been, be	weren, were							
-be	imperative	plural			been, be	weren, were							
-be	participle				beynge, beende	been, be, ybeen, ybe							
-do	infinitive				(to) don, do	(to) don, do							
-do	indicative	singular	1		do	dide							
-do	indicative	singular	2	informal	dost, dest	didest, dide							
-do	indicative	singular	2	formal	don, do	diden, dide							
-do	indicative	singular	3		doth, deth	dide							
-do	subjunctive	singular			do	dide							
-do	imperative	singular			do	—							
-do	indicative	plural			don, do	diden, dide							
-do	subjunctive	plural			don, do	diden, dide							
-do	imperative	plural			doth, do	—							
-do	participle				doynge, donde	don, do, ydon, ydo							
-go	indicative	singular	1		go	yede, wente							
-go	indicative	singular	2	informal	gost, gest	yedest, wentest							
-go	indicative	singular	2	formal	gon, go	yeden, yede, wenten, wente							
-go	indicative	singular	3		goth, geth	yede, wente							
-go	subjunctive	singular			go	yede, wente							
-go	imperative	singular			go	—							
-go	indicative	plural			gon, go	yeden, yede, wenten, wente							
-go	subjunctive	plural			gon, go	yeden, yede, wenten, wente							
-go	imperative	plural			goth, go	—							
-go	participle				goynge, gonde	gon, go, ygon, ygo							
-want	infinitive				(to) willen, wille, wollen, wolle	(to) willen, wille, wollen, wolle							
-want	indicative	singular	1		wille, wolle	wolde							
-want	indicative	singular	2	informal	wilt, wolt	woldest, wolde							
-want	indicative	singular	2	formal	willen, wille, wollen, wolle	wolden, wolde							
-want	indicative	singular	3		wille, wolle	wolde							
-want	subjunctive	singular			wille	wolde							
-want	imperative	singular			—	—							
-want	indicative	plural			willen, wille, wollen, wolle	wolden, wolde							
-want	subjunctive	plural			willen, wille, wollen, wolle	wolden, wolde							
-want	imperative	plural			—	—							
-want	participle				willynge, willende	—							
-know	infinitive				(to) cunnen, cunne	(to) cunnen, cunne							
-know	indicative	singular	1		can	couthe, coude							
-know	indicative	singular	2	informal	canst	couthest, coust							
-know	indicative	singular	2	formal	cunnen, cunne, canne	couthen, couthe, couden, coude							
-know	indicative	singular	3		can	couthe, coude							
-know	subjunctive	singular			cunne, canne	couthe, coude							
-know	imperative	singular			cunne, canne	—							
-know	indicative	plural			cunnen, cunne, canne	couthen, couthe, couden, coude							
-know	subjunctive	plural			cunnen, cunne, canne	couthen, couthe, couden, coude							
-know	imperative	plural			cunneth, cunne, canne	—							
-know	participle				cunnynge, cunnende	cunned, coud							
-dare	infinitive				(to) durren, durre, dare	(to) durren, durre, dare							
-dare	indicative	singular	1		dar	durste							
-dare	indicative	singular	2	informal	darst	durstest, durste							
-dare	indicative	singular	2	formal	durren, durre, daren, dare	dursten, durste							
-dare	indicative	singular	3		dar	durste							
-dare	subjunctive	singular			durre, dare	durste							
-dare	imperative	singular			—	—							
-dare	indicative	plural			durren, durre, daren, dare	dursten, durste							
-dare	subjunctive	plural			durren, durre, daren, dare	dursten, durste							
-dare	imperative	plural			—	—							
-dare	participle				—	durre, dare, durst							
-need	infinitive				—	—							
-need	indicative	singular	1		mot, moste	moste							
-need	indicative	singular	2	informal	most, mostest	mostest							
-need	indicative	singular	2	formal	moten, mote, mosten, moste	mosten, moste							
-need	indicative	singular	3		mot, moste	moste							
-need	subjunctive	singular			mote, moste	moste							
-need	imperative	singular			—	—							
-need	indicative	plural			moten, mote, mosten, moste	mosten, moste							
-need	subjunctive	plural			moten, mote, mosten, moste	mosten, moste							
-need	imperative	plural			—	—							
-need	participle				—	—							
-crawl	infinitive				(to) creulen	(to) creulen							
-crawl	indicative	singular	1		*creule	*creule							
-crawl	indicative	singular	2	informal	*creult	*creuldest, creuld							
-crawl	indicative	singular	2	formal	*creulen	*creulden, creuld							
-crawl	indicative	singular	3		creule	creuld							
-crawl	subjunctive	singular			*creule	*creulde							
-crawl	imperative	singular			*—	*—							
-crawl	indicative	plural			*creulen	*creulden, creulde							
-crawl	subjunctive	plural			*creulen	*creulden, creulde							
-crawl	imperative	plural			*creulen	*creulden, creulde							
-crawl	participle				creulande	*creulen							
+*	*	*	*	*	present	past						
+appear	infinitive				(to) aparen	(to) aparen						
+appear	indicative	singular	1		apere	apere						
+appear	indicative	singular	2	informal	aperest	aperest						
+appear	indicative	singular	2	formal	aperen, apere	aperen, apere						
+appear	indicative	singular	3		apereth	apere						
+appear	subjunctive	singular			apere	apere						
+appear	imperative	singular			apere	—						
+appear	indicative	plural			aperen, apere	aperen, apere						
+appear	subjunctive	plural			aperen, apere	aperen, apere						
+appear	imperative	plural			apereth, apere	—						
+appear	participle				aperynge, aperende	aperet, apered						
+be-inherently	infinitive				(to) been, be	(to) been, be						
+be-inherently	indicative	singular	1		am, be	was						
+be-inherently	indicative	singular	2	informal	art, bist	were						
+be-inherently	indicative	singular	2	formal	aren, are, been, be	weren, were						
+be-inherently	indicative	singular	3		is, bith	was						
+be-inherently	subjunctive	singular			be	were						
+be-inherently	imperative	singular			be	—						
+be-inherently	indicative	plural			aren, are, been, be	weren, were						
+be-inherently	subjunctive	plural			been, be	weren, were						
+be-inherently	imperative	plural			beth, be	—						
+be-inherently	participle				beynge, beende	been, be, ybeen, ybe						
+change	infinitive				(to) wenden, wende	(to) wenden, wende						
+change	indicative	singular	1		wende	wente, wende						
+change	indicative	singular	2	informal	wendest	wentest, wendest						
+change	indicative	singular	2	formal	wenden, wende	wenten, wente, wenden, wende						
+change	indicative	singular	3		wendeth, went	wente, wende						
+change	subjunctive	singular			wende	wente, wende						
+change	imperative	singular			wende	—						
+change	indicative	plural			wenden, wende	wenten, wente, wenden, wende						
+change	subjunctive	plural			wenden, wende	wenten, wente, wenden, wende						
+change	imperative	plural			wendeth, wende	—						
+change	participle				wendynge, wendende	went, wend, ywent, ywend						
+climb	infinitive				(to) climben, climbe	(to) climben, climbe						
+climb	indicative	singular	1		climbe	clamb, climbed						
+climb	indicative	singular	2	informal	climbest	clumbe, clamb, climbedest						
+climb	indicative	singular	2	formal	climben, climbe	clumben, clumbe, climbeden, climbede						
+climb	indicative	singular	3		climbeth	clamb, climbed						
+climb	subjunctive	singular			climbe	clumbeᴱ, climbedᴱ						
+climb	imperative	singular			climbe	—						
+climb	indicative	plural			climben, climbe	clumben, clumbe, climbeden, climbede						
+climb	subjunctive	plural			climben, climbe	clumben, clumbe, climbeden, climbede						
+climb	imperative	plural			climbeth, climbe	—						
+climb	participle				climbynge, climbende	clumben, clumbe, climbed, yclumben, yclumbe						
+direct	infinitive				(to) dressen, dresse	(to) dressen, dresse						
+direct	indicative	singular	1		dresse	dressed, dreste						
+direct	indicative	singular	2	informal	dressest	dressedest, drestest						
+direct	indicative	singular	2	formal	dressen, dresse	dresseden, dressede, dresten, dreste						
+direct	indicative	singular	3		dresseth	dressed, dreste						
+direct	subjunctive	singular			dresse	dressed, dreste						
+direct	imperative	singular			dresse	—						
+direct	indicative	plural			dressen, dresse	dresseden, dressede, dresten, dreste						
+direct	subjunctive	plural			dressen, dresse	dresseden, dressede, dresten, dreste						
+direct	imperative	plural			dresseth, dresse	—						
+direct	participle				dressynge, dressende	dressed, drest, ydressed, ydrest						
+eat	infinitive				(to) eten, ete	(to) eten, ete						
+eat	indicative	singular	1		ete	at, et						
+eat	indicative	singular	2	informal	etest, est	ete, ate, at						
+eat	indicative	singular	2	formal	eten, ete	eten, ete, aten, ate						
+eat	indicative	singular	3		eteth, et	at, et						
+eat	subjunctive	singular			ete	eteᴱ, ateᴱ						
+eat	imperative	singular			ete	—						
+eat	indicative	plural			eten, ete	eten, ete, aten, ate						
+eat	subjunctive	plural			eten, ete	eten, ete, aten, ate						
+eat	imperative	plural			eteth, ete	—						
+eat	participle				etynge, etende	eten, ete, yeten, yete						
+fall	infinitive				(to) fallen, falle	(to) fallen, falle						
+fall	indicative	singular	1		falle	fell, falde						
+fall	indicative	singular	2	informal	fallest	felle, fell, faldest						
+fall	indicative	singular	2	formal	fallen, falle	fellen, felle, falden, falde						
+fall	indicative	singular	3		falleth	fell, falde						
+fall	subjunctive	singular			falle	felleᴱ, faldeᴱ						
+fall	imperative	singular			falle	—						
+fall	indicative	plural			fallen, falle	fellen, felle, falden, falde						
+fall	subjunctive	plural			fallen, falle	fellen, felle, falden, falde						
+fall	imperative	plural			falleth, falle	—						
+fall	participle				fallynge, fallende	fallen, falle, fald, yfallen, yfalle						
+fly	infinitive				(to) flien, flie	(to) flien, flie						
+fly	indicative	singular	1		flie	fleigh, flow, flew						
+fly	indicative	singular	2	informal	fliest	flowe, flewe, fleigh, flow, flew						
+fly	indicative	singular	2	formal	flien, flie	flowen, flowe, flewen, flewe						
+fly	indicative	singular	3		flieth	fleigh, flow, flew						
+fly	subjunctive	singular			flie	floweᴱ, fleweᴱ						
+fly	imperative	singular			flie	—						
+fly	indicative	plural			flien, flie	flowen, flowe, flewen, flewe						
+fly	subjunctive	plural			flien, flie	flowen, flowe, flewen, flewe						
+fly	imperative	plural			flieth, flie	—						
+fly	participle				fliynge, fliende	flowen, flowe, yflowen, yflowe						
+flow	infinitive				(to) flowen, flowe	(to) flowen, flowe						
+flow	indicative	singular	1		flowe	flowed, flew						
+flow	indicative	singular	2	informal	flowest	flowedest, flewe, flew						
+flow	indicative	singular	2	formal	flowen, flowe	floweden, flowede, flewen, flewe						
+flow	indicative	singular	3		floweth	flowed, flew						
+flow	subjunctive	singular			flowe	flowedᴱ, fleweᴱ						
+flow	imperative	singular			flowe	—						
+flow	indicative	plural			flowen, flowe	floweden, flowede, flewen, flewe						
+flow	subjunctive	plural			flowen, flowe	floweden, flowede, flewen, flewe						
+flow	imperative	plural			floweth, flowe	—						
+flow	participle				flowynge, flowende	flowed, flowen, yflowed, yflowen						
+see	infinitive				(to) seen, see, sene	(to) seen, see, sene						
+see	indicative	singular	1		see	saugh, seigh, saw, sey						
+see	indicative	singular	2	informal	seest, sixt	sawe, seye, saugh, seigh, saw, sey						
+see	indicative	singular	2	formal	seen, see	sawen, sawe, seyen, seye						
+see	indicative	singular	3		seeth, sikth	saugh, seigh, saw, sey						
+see	subjunctive	singular			see	saweᴱ, seyeᴱ						
+see	imperative	singular			see	—						
+see	indicative	plural			seen, see	sawen, sawe, seyen, seye						
+see	subjunctive	plural			seen, see	sawen, sawe, seyen, seye						
+see	imperative	plural			seeth, see	—						
+see	participle				seynge, seende	(y)seen, (y)see, (y)seyn, (y)sey						
+show	infinitive				(to) schewen, schewe	(to) schewen, schewe						
+show	indicative	singular	1		schewe	schewed						
+show	indicative	singular	2	informal	schewest	schewedest						
+show	indicative	singular	2	formal	schewen, schewe	scheweden, schewede						
+show	indicative	singular	3		scheweth	schewed						
+show	subjunctive	singular			schewe	schewed						
+show	imperative	singular			schewe	—						
+show	indicative	plural			schewen, schewe	scheweden, schewede						
+show	subjunctive	plural			schewen, schewe	scheweden, schewede						
+show	imperative	plural			scheweth, schewe	—						
+show	participle				schewynge, schewende	schewed, yschewed						
+startle	infinitive				(to) fryghten, fryghte	(to) fryghten, fryghte						
+startle	indicative	singular	1		fryghte	fryghted						
+startle	indicative	singular	2	informal	fryghtest	fryghtedest						
+startle	indicative	singular	2	formal	fryghten, fryghte	fryghteden, fryghtede						
+startle	indicative	singular	3		fryghteth	fryghted						
+startle	subjunctive	singular			fryghte	fryghted						
+startle	imperative	singular			fryghte	—						
+startle	indicative	plural			fryghten, fryghte	fryghteden, fryghtede						
+startle	subjunctive	plural			fryghten, fryghte	fryghteden, fryghtede						
+startle	imperative	plural			fryghteth, fryghte	—						
+startle	participle				fryghtynge, fryghtende	fryghted, yfryghted						
+swim	infinitive				(to) swymmen, swymme	(to) swymmen, swymme						
+swim	indicative	singular	1		swymme	swam, swymmed						
+swim	indicative	singular	2	informal	swymmest	swumme, swam, swymmedest						
+swim	indicative	singular	2	formal	swymmen, swymme	swummen, swumme, swymmeden, swymmede						
+swim	indicative	singular	3		swymmeth	swam, swymmed						
+swim	subjunctive	singular			swymme	swummeᴱ, swymmedᴱ						
+swim	imperative	singular			swymme	—						
+swim	indicative	plural			swymmen, swymme	swummen, swumme, swymmeden, swymmede						
+swim	subjunctive	plural			swymmen, swymme	swummen, swumme, swymmeden, swymmede						
+swim	imperative	plural			swymmeth, swymme	—						
+swim	participle				swymmynge, swymmende	swummen, swumme, swymmed						
+walk	infinitive				(to) walken, walke	(to) walken, walke						
+walk	indicative	singular	1		walke	welk, walked						
+walk	indicative	singular	2	informal	walkest	welke, welk, walkedest						
+walk	indicative	singular	2	formal	walken, walke	welken, welke, walkeden, walkede						
+walk	indicative	singular	3		walketh	welk, walked						
+walk	subjunctive	singular			walke	welkeᴱ, walkedᴱ						
+walk	imperative	singular			walke	—						
+walk	indicative	plural			walken, walke	welken, welke, walkeden, walkede						
+walk	subjunctive	plural			walken, walke	welken, welke, walkeden, walkede						
+walk	imperative	plural			walketh, walke	—						
+walk	participle				walkynge, walkende	walken, walke, walked, ywalken, ywalke						
+work	infinitive				(to) werken, werke	(to) werken, werke						
+work	indicative	singular	1		werke	wroghte						
+work	indicative	singular	2	informal	werkest	wroghtest						
+work	indicative	singular	2	formal	werken, werke	wroghten, wroghte						
+work	indicative	singular	3		werketh	wroghte						
+work	subjunctive	singular			werke	wroghte						
+work	imperative	singular			werke	—						
+work	indicative	plural			werken, werke	wroghten, wroghte						
+work	subjunctive	plural			werken, werke	wroghten, wroghte						
+work	imperative	plural			werketh, werke	—						
+work	participle				werkynge, werkende	wroght, ywroght						
+delight	infinitive				(to) gamen, game	(to) gamen, game						
+delight	indicative	singular	1		game	gamed						
+delight	indicative	singular	2	informal	gamest	gamedest						
+delight	indicative	singular	2	formal	gamen, game	gameden, gamede						
+delight	indicative	singular	3		gameth	gamed						
+delight	subjunctive	singular			game	gamed						
+delight	imperative	singular			game	—						
+delight	indicative	plural			gamen, game	gameden, gamede						
+delight	subjunctive	plural			gamen, game	gameden, gamede						
+delight	imperative	plural			gameth, game	—						
+delight	participle				gamynge, gamende	gamed, ygamed						
+pound	infinitive				(to) pounen, poune	(to) pounen, poune						
+pound	indicative	singular	1		poune	pouned						
+pound	indicative	singular	2	informal	pounest	pounedest						
+pound	indicative	singular	2	formal	pounen, poune	pouneden, pounede						
+pound	indicative	singular	3		pouneth	pouned						
+pound	subjunctive	singular			poune	pouned						
+pound	imperative	singular			poune	—						
+pound	indicative	plural			pounen, poune	pouneden, pounede						
+pound	subjunctive	plural			pounen, poune	pouneden, pounede						
+pound	imperative	plural			pouneth, poune	—						
+pound	participle				pounynge, pounende	pouned, ypouned						
+feed	infinitive				(to) feden, fede	(to) feden, fede						
+feed	indicative	singular	1		fede	fedde						
+feed	indicative	singular	2	informal	fedest	feddest						
+feed	indicative	singular	2	formal	feden, fede	fedden, fedde						
+feed	indicative	singular	3		fedeth, fet	fedde						
+feed	subjunctive	singular			fede	fedde						
+feed	imperative	singular			fede	—						
+feed	indicative	plural			feden, fede	fedden, fedde						
+feed	subjunctive	plural			feden, fede	fedden, fedde						
+feed	imperative	plural			fedeth, fede	—						
+feed	participle				fedynge, fedende	fed, yfed						
+send	infinitive				(to) senden, sende	(to) senden, sende						
+send	indicative	singular	1		sende	sente, sende						
+send	indicative	singular	2	informal	sendest	sentest, sendest						
+send	indicative	singular	2	formal	senden, sende	senten, sente, senden, sende						
+send	indicative	singular	3		sendeth	sente, sende						
+send	subjunctive	singular			sende	sente, sende						
+send	imperative	singular			sende	—						
+send	indicative	plural			senden, sende	senten, sente, senden, sende						
+send	subjunctive	plural			senden, sende	senten, sente, senden, sende						
+send	imperative	plural			sendeth, sende	—						
+send	participle				sendynge, sendende	sent, send, ysent, ysend						
+wind	infinitive				(to) wenden, wende	(to) wenden, wende						
+wind	indicative	singular	1		wende	wente, wende						
+wind	indicative	singular	2	informal	wendest	wentest, wendest						
+wind	indicative	singular	2	formal	wenden, wende	wenten, wente, wenden, wende						
+wind	indicative	singular	3		wendeth, went	wente, wende						
+wind	subjunctive	singular			wende	wente, wende						
+wind	imperative	singular			wende	—						
+wind	indicative	plural			wenden, wende	wenten, wente, wenden, wende						
+wind	subjunctive	plural			wenden, wende	wenten, wente, wenden, wende						
+wind	imperative	plural			wendeth, wende	—						
+wind	participle				wendynge, wendende	went, wend, ywent, ywend						
+create	infinitive				(to) createn, create	(to) createn, create						
+create	indicative	singular	1		create	create						
+create	indicative	singular	2	informal	createst	createst						
+create	indicative	singular	2	formal	createn, create	createn, create						
+create	indicative	singular	3		createth	create						
+create	subjunctive	singular			create	create						
+create	imperative	singular			create	—						
+create	indicative	plural			createn, create	createn, create						
+create	subjunctive	plural			createn, create	createn, create						
+create	imperative	plural			createth, create	—						
+create	participle				creatynge, creatende	creat, created						
+deliver	infinitive				(to) bryngen, brynge	(to) bryngen, brynge						
+deliver	indicative	singular	1		brynge	broghte						
+deliver	indicative	singular	2	informal	bryngest	broghtest						
+deliver	indicative	singular	2	formal	bryngen, brynge	broghten, broghte						
+deliver	indicative	singular	3		bryngeth	broghte						
+deliver	subjunctive	singular			brynge	broghte						
+deliver	imperative	singular			brynge	—						
+deliver	indicative	plural			bryngen, brynge	broghten, broghte						
+deliver	subjunctive	plural			bryngen, brynge	broghten, broghte						
+deliver	imperative	plural			bryngeth, brynge	—						
+deliver	participle				bryngynge, bryngende	broght, ybroght						
+shine	infinitive				(to) schinen, schine	(to) schinen, schine						
+shine	indicative	singular	1		schine	schon, schined						
+shine	indicative	singular	2	informal	schinest	schone, schine, schon, schinedest						
+shine	indicative	singular	2	formal	schinen, schine	schonen, schone, schinen, schine, schineden, schinede						
+shine	indicative	singular	3		schineth	schon, schined						
+shine	subjunctive	singular			schine	schone1, schine1, schined1						
+shine	imperative	singular			schine	—						
+shine	indicative	plural			schinen, schine	schonen, schone, schinen, schine, schineden, schinede						
+shine	subjunctive	plural			schinen, schine	schonen, schone, schinen, schine, schineden, schinede						
+shine	imperative	plural			schineth, schine	—						
+shine	participle				schinynge, schinende	schinen, schined, yschinen, yschined						
+write	infinitive				(to) writen, write	(to) writen, write						
+write	indicative	singular	1		write	wrot						
+write	indicative	singular	2	informal	writest	wrote, write, wrot						
+write	indicative	singular	2	formal	writen, write	wroten, wrote, writen, write						
+write	indicative	singular	3		writeth	wrot						
+write	subjunctive	singular			write	wrote1, write1						
+write	imperative	singular			write	—						
+write	indicative	plural			writen, write	wroten, wrote, writen, write						
+write	subjunctive	plural			writen, write	wroten, wrote, writen, write						
+write	imperative	plural			writeth, write	—						
+write	participle				writynge, writende	writen, wreten, ywrite						
+choose	infinitive				(to) chesen, chese	(to) chesen, chese						
+choose	indicative	singular	1		chese	chees, chas						
+choose	indicative	singular	2	informal	chesest	chose, chees, chas						
+choose	indicative	singular	2	formal	chesen, chese	chosen, chose						
+choose	indicative	singular	3		cheseth	chees, chas						
+choose	subjunctive	singular			chese	chose1						
+choose	imperative	singular			chese	—						
+choose	indicative	plural			chesen, chese	chosen, chose						
+choose	subjunctive	plural			chesen, chese	chosen, chose						
+choose	imperative	plural			cheseth, chese	—						
+choose	participle				chesynge, chesende	(y)chosen, (y)chose, (y)coren, (y)core, (y)corn						
+freeze	infinitive				(to) fresen, frese	(to) fresen, frese						
+freeze	indicative	singular	1		frese	frees						
+freeze	indicative	singular	2	informal	fresest	frose, frese, frees						
+freeze	indicative	singular	2	formal	fresen, frese	frosen, frose, fresen, frese						
+freeze	indicative	singular	3		freseth, frest	frees						
+freeze	subjunctive	singular			frese	frose1, frese1						
+freeze	imperative	singular			frese	—						
+freeze	indicative	plural			fresen, frese	frosen, frose, fresen, frese						
+freeze	subjunctive	plural			fresen, frese	frosen, frose, fresen, frese						
+freeze	imperative	plural			freseth, frese	—						
+freeze	participle				fresynge, fresende	frosen, frose, froren, frore						
+bind	infinitive				(to) binden, binde	(to) binden, binde						
+bind	indicative	singular	1		binde	band, bond, bound						
+bind	indicative	singular	2	informal	bindest	bounde, bonde, band						
+bind	indicative	singular	2	formal	binden, binde	bounden, bounde, bonden, bonde						
+bind	indicative	singular	3		bindeth	band, bond, bound						
+bind	subjunctive	singular			binde	bounde1, bonde1						
+bind	imperative	singular			binde	—						
+bind	indicative	plural			binden, binde	bounden, bounde, bonden, bonde						
+bind	subjunctive	plural			binden, binde	bounden, bounde, bonden, bonde						
+bind	imperative	plural			bindeth, binde	—						
+bind	participle				bindynge, bindende	bounden, bounde, ybounden, ybounde						
+help	infinitive				(to) helpen, helpe	(to) helpen, helpe						
+help	indicative	singular	1		helpe	halp						
+help	indicative	singular	2	informal	helpest	holpe, halp						
+help	indicative	singular	2	formal	helpen, helpe	holpen, holpe						
+help	indicative	singular	3		helpeth	halp						
+help	subjunctive	singular			helpe	holpe1						
+help	imperative	singular			helpe	—						
+help	indicative	plural			helpen, helpe	holpen, holpe						
+help	subjunctive	plural			helpen, helpe	holpen, holpe						
+help	imperative	plural			helpeth, helpe	—						
+help	participle				helpynge, helpende	holpen, holpe, yholpen, yholpe						
+carry	infinitive				(to) beren, bere	(to) beren, bere						
+carry	indicative	singular	1		bere	bar, ber						
+carry	indicative	singular	2	informal	berest	bere, bare, bar, ber						
+carry	indicative	singular	2	formal	beren, bere	beren, bere, baren, bare						
+carry	indicative	singular	3		bereth	bar, ber						
+carry	subjunctive	singular			bere	bere1, bare1						
+carry	imperative	singular			bere	—						
+carry	indicative	plural			beren, bere	beren, bere, baren, bare						
+carry	subjunctive	plural			beren, bere	beren, bere, baren, bare						
+carry	imperative	plural			bereth, bere	—						
+carry	participle				berynge, berende	boren, bore, born, yboren, ybore, yborn						
+break	infinitive				(to) breken, breke	(to) breken, breke						
+break	indicative	singular	1		breke	brak, brek						
+break	indicative	singular	2	informal	brekest	breke, brake, brak, brek						
+break	indicative	singular	2	formal	breken, breke	breken, breke, braken, brake						
+break	indicative	singular	3		breketh	brak, brek						
+break	subjunctive	singular			breke	breke1, brake1						
+break	imperative	singular			breke	—						
+break	indicative	plural			breken, breke	breken, breke, braken, brake						
+break	subjunctive	plural			breken, breke	breken, breke, braken, brake						
+break	imperative	plural			breketh, breke	—						
+break	participle				brekynge, brekende	broken, broke, ybroken, ybroke						
+stand	infinitive				(to) standen, stande	(to) standen, stande						
+stand	indicative	singular	1		stande	stod						
+stand	indicative	singular	2	informal	standest	stode, stod						
+stand	indicative	singular	2	formal	standen, stande	stoden, stode						
+stand	indicative	singular	3		standeth, stant	stod						
+stand	subjunctive	singular			stande	stode1						
+stand	imperative	singular			stande	—						
+stand	indicative	plural			standen, stande	stoden, stode						
+stand	subjunctive	plural			standen, stande	stoden, stode						
+stand	imperative	plural			standeth, stande	—						
+stand	participle				standynge, standende	standen, stande, ystanden, ystande						
+take	infinitive				(to) taken, take	(to) taken, take						
+take	indicative	singular	1		take	tok						
+take	indicative	singular	2	informal	takest	toke, tok						
+take	indicative	singular	2	formal	taken, take	token, toke						
+take	indicative	singular	3		taketh	tok						
+take	subjunctive	singular			take	toke1						
+take	imperative	singular			take	—						
+take	indicative	plural			taken, take	token, toke						
+take	subjunctive	plural			taken, take	token, toke						
+take	imperative	plural			taketh, take	—						
+take	participle				takynge, takende	taken, take, ytaken, ytake						
+hold	infinitive				(to) holden, holde	(to) holden, holde						
+hold	indicative	singular	1		holde	held						
+hold	indicative	singular	2	informal	holdest	helde, held						
+hold	indicative	singular	2	formal	holden, holde	helden, helde						
+hold	indicative	singular	3		holdeth, holt	held						
+hold	subjunctive	singular			holde	helde1						
+hold	imperative	singular			holde	—						
+hold	indicative	plural			holden, holde	helden, helde						
+hold	subjunctive	plural			holden, holde	helden, helde						
+hold	imperative	plural			holdeth, holde	—						
+hold	participle				holdynge, holdende	holden, holde, yholden, yholde						
+#know	infinitive				(to) knowen, knowe	(to) knowen, knowe						
+#know	indicative	singular	1		knowe	knew						
+#know	indicative	singular	2	informal	knowest	knewe, knew						
+#know	indicative	singular	2	formal	knowen, knowe	knewen, knewe						
+#know	indicative	singular	3		knoweth	knew						
+#know	subjunctive	singular			knowe	knewe1						
+#know	imperative	singular			knowe	—						
+#know	indicative	plural			knowen, knowe	knewen, knewe						
+#know	subjunctive	plural			knowen, knowe	knewen, knewe						
+#know	imperative	plural			knoweth, knowe	—						
+#know	participle				knowynge, knowende	knowen, knowe, yknowen, yknowe						
+be	infinitive				(to) been, be	(to) been, be						
+be	indicative	singular	1		am, be	was						
+be	indicative	singular	2	informal	art, bist	were						
+be	indicative	singular	2	formal	aren, are, been, be	weren, were						
+be	indicative	singular	3		is, bith	was						
+be	subjunctive	singular			be	were						
+be	imperative	singular			be	—						
+be	indicative	plural			aren, are, been, be	weren, were						
+be	subjunctive	plural			aren, are, been, be	weren, were						
+be	imperative	plural			been, be	weren, were						
+be	participle				beynge, beende	been, be, ybeen, ybe						
+do	infinitive				(to) don, do	(to) don, do						
+do	indicative	singular	1		do	dide						
+do	indicative	singular	2	informal	dost, dest	didest, dide						
+do	indicative	singular	2	formal	don, do	diden, dide						
+do	indicative	singular	3		doth, deth	dide						
+do	subjunctive	singular			do	dide						
+do	imperative	singular			do	—						
+do	indicative	plural			don, do	diden, dide						
+do	subjunctive	plural			don, do	diden, dide						
+do	imperative	plural			doth, do	—						
+do	participle				doynge, donde	don, do, ydon, ydo						
+go	indicative	singular	1		go	yede, wente						
+go	indicative	singular	2	informal	gost, gest	yedest, wentest						
+go	indicative	singular	2	formal	gon, go	yeden, yede, wenten, wente						
+go	indicative	singular	3		goth, geth	yede, wente						
+go	subjunctive	singular			go	yede, wente						
+go	imperative	singular			go	—						
+go	indicative	plural			gon, go	yeden, yede, wenten, wente						
+go	subjunctive	plural			gon, go	yeden, yede, wenten, wente						
+go	imperative	plural			goth, go	—						
+go	participle				goynge, gonde	gon, go, ygon, ygo						
+want	infinitive				(to) willen, wille, wollen, wolle	(to) willen, wille, wollen, wolle						
+want	indicative	singular	1		wille, wolle	wolde						
+want	indicative	singular	2	informal	wilt, wolt	woldest, wolde						
+want	indicative	singular	2	formal	willen, wille, wollen, wolle	wolden, wolde						
+want	indicative	singular	3		wille, wolle	wolde						
+want	subjunctive	singular			wille	wolde						
+want	imperative	singular			—	—						
+want	indicative	plural			willen, wille, wollen, wolle	wolden, wolde						
+want	subjunctive	plural			willen, wille, wollen, wolle	wolden, wolde						
+want	imperative	plural			—	—						
+want	participle				willynge, willende	—						
+know	infinitive				(to) cunnen, cunne	(to) cunnen, cunne						
+know	indicative	singular	1		can	couthe, coude						
+know	indicative	singular	2	informal	canst	couthest, coust						
+know	indicative	singular	2	formal	cunnen, cunne, canne	couthen, couthe, couden, coude						
+know	indicative	singular	3		can	couthe, coude						
+know	subjunctive	singular			cunne, canne	couthe, coude						
+know	imperative	singular			cunne, canne	—						
+know	indicative	plural			cunnen, cunne, canne	couthen, couthe, couden, coude						
+know	subjunctive	plural			cunnen, cunne, canne	couthen, couthe, couden, coude						
+know	imperative	plural			cunneth, cunne, canne	—						
+know	participle				cunnynge, cunnende	cunned, coud						
+dare	infinitive				(to) durren, durre, dare	(to) durren, durre, dare						
+dare	indicative	singular	1		dar	durste						
+dare	indicative	singular	2	informal	darst	durstest, durste						
+dare	indicative	singular	2	formal	durren, durre, daren, dare	dursten, durste						
+dare	indicative	singular	3		dar	durste						
+dare	subjunctive	singular			durre, dare	durste						
+dare	imperative	singular			—	—						
+dare	indicative	plural			durren, durre, daren, dare	dursten, durste						
+dare	subjunctive	plural			durren, durre, daren, dare	dursten, durste						
+dare	imperative	plural			—	—						
+dare	participle				—	durre, dare, durst						
+need	infinitive				—	—						
+need	indicative	singular	1		mot, moste	moste						
+need	indicative	singular	2	informal	most, mostest	mostest						
+need	indicative	singular	2	formal	moten, mote, mosten, moste	mosten, moste						
+need	indicative	singular	3		mot, moste	moste						
+need	subjunctive	singular			mote, moste	moste						
+need	imperative	singular			—	—						
+need	indicative	plural			moten, mote, mosten, moste	mosten, moste						
+need	subjunctive	plural			moten, mote, mosten, moste	mosten, moste						
+need	imperative	plural			—	—						
+need	participle				—	—						
+crawl	infinitive				(to) creulen	(to) creulen						
+crawl	indicative	singular	1		*creule	*creule						
+crawl	indicative	singular	2	informal	*creult	*creuldest, creuld						
+crawl	indicative	singular	2	formal	*creulen	*creulden, creuld						
+crawl	indicative	singular	3		creule	creuld						
+crawl	subjunctive	singular			*creule	*creulde						
+crawl	imperative	singular			*—	*—						
+crawl	indicative	plural			*creulen	*creulden, creulde						
+crawl	subjunctive	plural			*creulen	*creulden, creulde						
+crawl	imperative	plural			*creulen	*creulden, creulde						
+crawl	participle				creulande	*creulen						
+love	infinitive				(to) loven, love	(to) loven, love						
+love	indicative	singular	1		love	loved(e)						
+love	indicative	singular	2		lovest	lovedest						
+love	indicative	singular	3		loveth	loved(e)						
+love	subjunctive	singular			love	loved(e)						
+love	imperative	singular			love	—						
+love	indicative	plural			loven, love	loveden, loved(e)						
+love	imperative	plural			loveth, love	—						
+love	participle				lovynge, lovende	loved, yloved						
+make	infinitive				(to) maken, make	(to) maken, make						
+make	indicative	singular	1		make	made, maked(e)						
+make	indicative	singular	2		makest	madest, makedest						
+make	indicative	singular	3		maketh, makth	made, maked(e)						
+make	subjunctive	singular			make	made, maked(e)						
+make	imperative	singular			make	—						
+make	indicative	plural			maken, make	maden, made, makeden, maked(e)						
+make	imperative	plural			maketh, make	—						
+make	participle				makynge, makende	mad, maked, ymad, ymaked						
+speak	infinitive				(to) speken, speke	(to) speken, speke						
+speak	indicative	singular	1		speke	spak, spek						
+speak	indicative	singular	2		spekest, spext	speke1, spake1, spoke1						
+speak	indicative	singular	3		speketh, spekth	spak, spek						
+speak	subjunctive	singular			speke	speke2, spake2, spoke2						
+speak	imperative	singular			speke	—						
+speak	indicative	plural			speken, speke	speken, speke, spaken, spake, spoken, spoke						
+speak	imperative	plural			speketh, speke	—						
+speak	participle				spekynge, spekende	(y)speken, (y)speke, (y)spoken, (y)spoke						
+speak	infinitive				(to) worden, worde	(to) worden, worde						
+speak	indicative	singular	1		worde	worded(e)						
+speak	indicative	singular	2		wordest	wordedest						
+speak	indicative	singular	3		wordeth	worded(e)						
+speak	subjunctive	singular			worde	worded(e)						
+speak	imperative	singular			worde	—						
+speak	indicative	plural			worden, worde	wordeden, worded(e)						
+speak	imperative	plural			wordeth, worde	—						
+speak	participle				wordynge, wordende	worded, yworded						
+learn	infinitive				(to) lernen, lerne	(to) lernen, lerne						
+learn	indicative	singular	1		lerne	lerned(e), lernde						
+learn	indicative	singular	2		lernest	lernedest, lerndest						
+learn	indicative	singular	3		lerneth	lerned(e), lernde						
+learn	subjunctive	singular			lerne	lerned(e), lernde						
+learn	imperative	singular			lerne	—						
+learn	indicative	plural			lernen, lerne	lerneden, lerned(e), lernden, lernde						
+learn	imperative	plural			lerneth, lerne	—						
+learn	participle				lernynge, lernende	lerned, lernd, ylerned, ylernd						
+learn	infinitive				(to) lernen, lerne	(to) lernen, lerne						
+learn	indicative	singular	1		lerne	lerned(e), lernde						
+learn	indicative	singular	2		lernest	lernedest, lerndest						
+learn	indicative	singular	3		lerneth	lerned(e), lernde						
+learn	subjunctive	singular			lerne	lerned(e), lernde						
+learn	imperative	singular			lerne	—						
+learn	indicative	plural			lernen, lerne	lerneden, lerned(e), lernden, lernde						
+learn	imperative	plural			lerneth, lerne	—						
+learn	participle				lernynge, lernende	lerned, lernd, ylerned, ylernd						
+protect	infinitive				(to) berwen, berwe	(to) berwen, berwe						
+protect	indicative	singular	1		berwe	bargh						
+protect	indicative	singular	2		berwest	borwe1						
+protect	indicative	singular	3		berweth	bargh						
+protect	subjunctive	singular			berwe	borwe2						
+protect	imperative	singular			berwe	—						
+protect	indicative	plural			berwen, berwe	borwen, borwe						
+protect	imperative	plural			berweth, berwe	—						
+protect	participle				berwynge, berwende	borwen, borwe, yborwen, yborwe						
+come	infinitive				(to) comen, come	(to) comen, come						
+come	indicative	singular	1		come	cam, com						
+come	indicative	singular	2		comest	come1, came1						
+come	indicative	singular	3		cometh	cam, com						
+come	subjunctive	singular			come	come2, came2						
+come	imperative	singular			come	—						
+come	indicative	plural			comen, come	comen, come, camen, came						
+come	imperative	plural			cometh, come	—						
+come	participle				comynge, comende	comen, come, ycome						
+come	infinitive				(to) lenden, lende	(to) lenden, lende						
+come	indicative	singular	1		lende	lente, lende						
+come	indicative	singular	2		lendest	lentest, lendest						
+come	indicative	singular	3		lendeth	lente, lende						
+come	subjunctive	singular			lende	lente, lende						
+come	imperative	singular			lende	—						
+come	indicative	plural			lenden, lende	lenten, lente, lenden, lende						
+come	imperative	plural			lendeth, lende	—						
+come	participle				lendynge, lendende	lent, lend, ylent, ylend						
+ask	infinitive				(to) asken, aske	(to) asken, aske						
+ask	indicative	singular	1		aske	asked(e)						
+ask	indicative	singular	2		askest	askedest						
+ask	indicative	singular	3		asketh	asked(e)						
+ask	subjunctive	singular			aske	asked(e)						
+ask	imperative	singular			aske	—						
+ask	indicative	plural			asken, aske	askeden, asked(e)						
+ask	imperative	plural			asketh, aske	—						
+ask	participle				askynge, askende	asked						
+anger	infinitive				(to) angren, angre	(to) angren, angre						
+anger	indicative	singular	1		angre	angred(e)						
+anger	indicative	singular	2		angrest	angredest						
+anger	indicative	singular	3		angreth	angred(e)						
+anger	subjunctive	singular			angre	angred(e)						
+anger	imperative	singular			angre	—						
+anger	indicative	plural			angren, angre	angreden, angred(e)						
+anger	imperative	plural			angreth, angre	—						
+anger	participle				angrynge, angrende	angred, yangred						
+lead	infinitive				(to) leden, lede	(to) leden, lede						
+lead	indicative	singular	1		lede	ledde						
+lead	indicative	singular	2		ledest	leddest						
+lead	indicative	singular	3		ledeth, let	ledde						
+lead	subjunctive	singular			lede	ledde						
+lead	imperative	singular			lede	—						
+lead	indicative	plural			leden, lede	ledden, ledde						
+lead	imperative	plural			ledeth, lede	—						
+lead	participle				ledynge, ledende	led, yled						
+lead	infinitive				(to) leden, lede	(to) leden, lede						
+lead	indicative	singular	1		lede	leded(e)						
+lead	indicative	singular	2		ledest	lededest						
+lead	indicative	singular	3		ledeth	leded(e)						
+lead	subjunctive	singular			lede	leded(e)						
+lead	imperative	singular			lede	—						
+lead	indicative	plural			leden, lede	lededen, leded(e)						
+lead	imperative	plural			ledeth, lede	—						
+lead	participle				ledynge, ledende	leded, yleded						
+suffer	infinitive				(to) suffren, suffre	(to) suffren, suffre						
+suffer	indicative	singular	1		suffre	suffred(e)						
+suffer	indicative	singular	2		suffrest	suffredest						
+suffer	indicative	singular	3		suffreth	suffred(e)						
+suffer	subjunctive	singular			suffre	suffred(e)						
+suffer	imperative	singular			suffre	—						
+suffer	indicative	plural			suffren, suffre	suffreden, suffred(e)						
+suffer	imperative	plural			suffreth, suffre	—						
+suffer	participle				suffrynge, suffrende	suffred, ysuffred						
+fight	infinitive				(to) fighten, fighte	(to) fighten, fighte						
+fight	indicative	singular	1		fighte	faught						
+fight	indicative	singular	2		fightest	foghte1						
+fight	indicative	singular	3		fighteth, fight	faught						
+fight	subjunctive	singular			fighte	foghte2						
+fight	imperative	singular			fighte	—						
+fight	indicative	plural			fighten, fighte	foghten, foghte						
+fight	imperative	plural			fighteth, fighte	—						
+fight	participle				fightynge, fightende	foghten, foghte, yfoghten, yfoghte						
+heat	infinitive				(to) heten, hete	(to) heten, hete						
+heat	indicative	singular	1		hete	hette						
+heat	indicative	singular	2		hetest	hettest						
+heat	indicative	singular	3		heteth	hette						
+heat	subjunctive	singular			hete	hette						
+heat	imperative	singular			hete	—						
+heat	indicative	plural			heten, hete	hetten, hette						
+heat	imperative	plural			heteth, hete	—						
+heat	participle				hetynge, hetende	het, yhet						
+read	infinitive				(to) reden, rede	(to) reden, rede						
+read	indicative	singular	1		rede	redde, rede						
+read	indicative	singular	2		redest	reddest, redest						
+read	indicative	singular	3		redeth, ret	redde, rede						
+read	subjunctive	singular			rede	redde, rede						
+read	imperative	singular			rede	—						
+read	indicative	plural			reden, rede	redden, redde, reden, rede						
+read	imperative	plural			redeth, rede	—						
+read	participle				redynge, redende	red, rad, yred, yrad						
+shout	infinitive				(to) shouten, shoute	(to) shouten, shoute						
+shout	indicative	singular	1		shoute	shouted(e)						
+shout	indicative	singular	2		shoutest	shoutedest						
+shout	indicative	singular	3		shouteth	shouted(e)						
+shout	subjunctive	singular			shoute	shouted(e)						
+shout	imperative	singular			shoute	—						
+shout	indicative	plural			shouten, shoute	shouteden, shouted(e)						
+shout	imperative	plural			shouteth, shoute	—						
+shout	participle				shoutynge, shoutende	shouted, yshouted						
+throw	infinitive				(to) werpen, werpe	(to) werpen, werpe						
+throw	indicative	singular	1		werpe	warp, werped(e)						
+throw	indicative	singular	2		werpest	worpe1, werpedest						
+throw	indicative	singular	3		werpeth	warp, werped(e)						
+throw	subjunctive	singular			werpe	worpe2, werped(e)						
+throw	imperative	singular			werpe	—						
+throw	indicative	plural			werpen, werpe	worpen, worpe, werpeden, werped(e)						
+throw	imperative	plural			werpeth, werpe	—						
+throw	participle				werpynge, werpende	"worpen, worpe, werped, yworpen, yworpe"""						

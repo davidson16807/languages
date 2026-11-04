@@ -1,65 +1,305 @@
-*	*	*	*	nominative 	accusative 	genitive 	dative 	instrumental 	#						
-good	strong	singular	masculine 	gōd 	gōdne 	gōdes 	gōdum 	gōde 	#	consonant stem					
-good	strong	singular	feminine 	gōd 	gōde 	gōdre 	gōdre 	gōdre 	#	consonant stem					
-good	strong	singular	neuter	gōd	gōd	gōdes	gōdum	gōde	#	consonant stem					
-good	strong	plural	masculine 	gōde 	gōde 	gōdra 	gōdum 	gōdum 	#	consonant stem					
-good	strong	plural	feminine 	gōda, gōde 	gōda, gōde 	gōdra 	gōdum 	gōdum 	#	consonant stem					
-good	strong	plural	neuter	gōd	gōd	gōdra	gōdum	gōdum 	#	consonant stem					
-good	weak	singular	masculine 	gōda 	gōdan 	gōdan 	gōdan 	gōdan 	#	consonant stem					
-good	weak	singular	feminine 	gōde 	gōdan 	gōdan 	gōdan 	gōdan 	#	consonant stem					
-good	weak	singular	neuter	gōde	gōde	gōdan	gōdan	gōdan	#	consonant stem					
-good	weak	plural	masculine 	gōdan 	gōdan 	gōdra, gōdena 	gōdum 	gōdum 	#	consonant stem					
-good	weak	plural	feminine 	gōdan 	gōdan 	gōdra, gōdena 	gōdum 	gōdum 	#	consonant stem					
-good	weak	plural	neuter	gōdan	gōdan	gōdra, gōdena	gōdum	gōdum 	#	consonant stem					
-tall	strong	singular	masculine 	hēah 	hēane, hēanne 	hēas 	hēam, hēaum 	hēa 	#	-h stem					
-tall	strong	singular	feminine 	hēah 	hēa 	hēare, hēarre 	hēare, hēarre 	hēare, hēarre 	#	-h stem					
-tall	strong	singular	neuter	hēah	hēah	hēas	hēam, hēaum	hēa	#	-h stem					
-tall	strong	plural	masculine 	hēa 	hēa 	hēara, hēarra 	hēam, hēaum 	hēam, hēaum 	#	-h stem					
-tall	strong	plural	feminine 	hēa 	hēa 	hēara, hēarra 	hēam, hēaum 	hēam, hēaum 	#	-h stem					
-tall	strong	plural	neuter	hēah	hēah	hēara, hēarra	hēam, hēaum	hēam, hēaum 	#	-h stem					
-tall	weak	singular	masculine 	hēa 	hēan 	hēan 	hēan 	hēan 	#	-h stem					
-tall	weak	singular	feminine 	hēa 	hēan 	hēan 	hēan 	hēan 	#	-h stem					
-tall	weak	singular	neuter	hēa	hēa	hēan	hēan	hēan	#	-h stem					
-tall	weak	plural	masculine 	hēan 	hēan 	hēara, hēarra, hēana 	hēam, hēaum 	hēam, hēaum 	#	-h stem					
-tall	weak	plural	feminine 	hēan 	hēan 	hēara, hēarra, hēana 	hēam, hēaum 	hēam, hēaum 	#	-h stem					
-tall	weak	plural	neuter	hēan	hēan	hēara, hēarra, hēana	hēam, hēaum	hēam, hēaum 	#	-h stem					
-black	strong	singular	masculine 	blæc 	blæcne 	blaces 	blacum 	blace 	#	monosyllabic featuring æ					
-black	strong	singular	feminine 	blacu, blaco 	blace 	blæcre 	blæcre 	blæcre 	#	monosyllabic featuring æ					
-black	strong	singular	neuter	blæc	blæc	blaces	blacum	blace	#	monosyllabic featuring æ					
-black	strong	plural	masculine 	blace 	blace 	blæcra 	blacum 	blacum 	#	monosyllabic featuring æ					
-black	strong	plural	feminine 	blaca, blace 	blaca, blace 	blæcra 	blacum 	blacum 	#	monosyllabic featuring æ					
-black	strong	plural	neuter	blacu, blaco	blacu, blaco	blæcra	blacum	blacum	#	monosyllabic featuring æ					
-black	weak	singular	masculine 	blaca 	blacan 	blacan 	blacan 	blacan 	#	monosyllabic featuring æ					
-black	weak	singular	feminine 	blace 	blacan 	blacan 	blacan 	blacan 	#	monosyllabic featuring æ					
-black	weak	singular	neuter	blace	blace	blacan	blacan	blacan	#	monosyllabic featuring æ					
-black	weak	plural	masculine 	blacan 	blacan 	blæcra, blacena 	blacum 	blacum 	#	monosyllabic featuring æ					
-black	weak	plural	feminine 	blacan 	blacan 	blæcra, blacena 	blacum 	blacum 	#	monosyllabic featuring æ					
-black	weak	plural	neuter	blacan	blacan	blæcra, blacena	blacum	blacum 	#	monosyllabic featuring æ					
-red	strong	singular	masculine 	basu, baso 	basone 	basƿes 	basƿum 	basƿe 	#	-u stem					
-red	strong	singular	feminine 	basu, baso 	basƿe 	basore 	basore 	basore 	#	-u stem					
-red	strong	singular	neuter	basu, baso	basu, baso	basƿes	basƿum	basƿe	#	-u stem					
-red	strong	plural	masculine 	basƿe 	basƿe 	basora 	basƿum 	basƿum 	#	-u stem					
-red	strong	plural	feminine 	basƿa, basƿe 	basƿa, basƿe 	basora 	basƿum 	basƿum 	#	-u stem					
-red	strong	plural	neuter	basu, baso	basu, baso	basora	basƿum	basƿum 	#	-u stem					
-red	weak	singular	masculine 	basƿa 	basƿan 	basƿan 	basƿan 	basƿan 	#	-u stem					
-red	weak	singular	feminine 	basƿe 	basƿan 	basƿan 	basƿan 	basƿan 	#	-u stem					
-red	weak	singular	neuter	basƿe	basƿe	basƿan	basƿan	basƿan	#	-u stem					
-red	weak	plural	masculine 	basƿan 	basƿan 	basora, basƿena 	basƿum 	basƿum 	#	-u stem					
-red	weak	plural	feminine 	basƿan 	basƿan 	basora, basƿena 	basƿum 	basƿum 	#	-u stem					
-red	weak	plural	neuter	basƿan	basƿan	basora, basƿena	basƿum	basƿum 	#	-u stem					
-green	strong	singular	masculine 	grēne 	grēnne 	grēnes 	grēnum 	grēne 	#	-e stem					
-green	strong	singular	feminine 	grēnu, grēno 	grēne 	grēnre 	grēnre 	grēnre 	#	-e stem					
-green	strong	singular	neuter	grēne	grēne	grēnes	grēnum	grēne	#	-e stem					
-green	strong	plural	masculine 	grēne 	grēne 	grēnra 	grēnum 	grēnum 	#	-e stem					
-green	strong	plural	feminine 	grēna, grēne 	grēna, grēne 	grēnra 	grēnum 	grēnum 	#	-e stem					
-green	strong	plural	neuter	grēnu, grēno	grēnu, grēno	grēnra	grēnum	grēnum 	#	-e stem					
-green	weak	singular	masculine 	grēna 	grēnan 	grēnan 	grēnan 	grēnan 	#	-e stem					
-green	weak	singular	feminine 	grēne 	grēnan 	grēnan 	grēnan 	grēnan 	#	-e stem					
-green	weak	singular	neuter	grēne	grēne	grēnan	grēnan	grēnan	#	-e stem					
-green	weak	plural	masculine 	grēnan 	grēnan 	grēnra, grēnena 	grēnum 	grēnum 	#	-e stem					
-green	weak	plural	feminine 	grēnan 	grēnan 	grēnra, grēnena 	grēnum 	grēnum 	#	-e stem					
-green	weak	plural	neuter	grēnan	grēnan	grēnra, grēnena	grēnum	grēnum 	#	-e stem					
-															
-															
-															
-															
+*	*	*	*	masculine 	feminine 	neuter	#						
+good	strong	singular	nominative 	gōd 	gōd 	gōd	#	consonant stem					
+good	strong	singular	accusative 	gōdne 	gōde 	gōd	#	consonant stem					
+good	strong	singular	genitive 	gōdes 	gōdre 	gōdes	#	consonant stem					
+good	strong	singular	dative 	gōdum 	gōdre 	gōdum	#						
+good	strong	singular	instrumental 	gōde 	gōdre 	gōde	#						
+good	strong	plural	nominative 	gōde 	gōda, gōde 	gōd	#	consonant stem					
+good	strong	plural	accusative 	gōde 	gōda, gōde 	gōd	#	consonant stem					
+good	strong	plural	genitive 	gōdra 	gōdra 	gōdra	#						
+good	strong	plural	dative 	gōdum 	gōdum 	gōdum	#						
+good	strong	plural	instrumental 	gōdum 	gōdum 	gōdum 	#						
+good	weak	singular	nominative 	gōda 	gōde 	gōde	#	consonant stem					
+good	weak	singular	accusative 	gōdan 	gōdan 	gōde	#	consonant stem					
+good	weak	singular	genitive 	gōdan 	gōdan 	gōdan	#						
+good	weak	singular	dative 	gōdan 	gōdan 	gōdan	#						
+good	weak	singular	instrumental 	gōdan 	gōdan 	gōdan	#						
+good	weak	plural	nominative 	gōdan 	gōdan 	gōdan	#	consonant stem					
+good	weak	plural	accusative 	gōdan 	gōdan 	gōdan	#	consonant stem					
+good	weak	plural	genitive 	gōdra, gōdena 	gōdra, gōdena 	gōdra, gōdena	#						
+good	weak	plural	dative 	gōdum 	gōdum 	gōdum	#						
+good	weak	plural	instrumental 	gōdum 	gōdum 	gōdum 	#						
+tall	strong	singular	nominative 	hēah 	hēah 	hēah	#	-h stem					
+tall	strong	singular	accusative 	hēane, hēanne 	hēa 	hēah	#	-h stem					
+tall	strong	singular	genitive 	hēas 	hēare, hēarre 	hēas	#						
+tall	strong	singular	dative 	hēam, hēaum 	hēare, hēarre 	hēam, hēaum	#						
+tall	strong	singular	instrumental 	hēa 	hēare, hēarre 	hēa	#						
+tall	strong	plural	nominative 	hēa 	hēa 	hēah	#	-h stem					
+tall	strong	plural	accusative 	hēa 	hēa 	hēah	#	-h stem					
+tall	strong	plural	genitive 	hēara, hēarra 	hēara, hēarra 	hēara, hēarra	#						
+tall	strong	plural	dative 	hēam, hēaum 	hēam, hēaum 	hēam, hēaum	#						
+tall	strong	plural	instrumental 	hēam, hēaum 	hēam, hēaum 	hēam, hēaum 	#						
+tall	weak	singular	nominative 	hēa 	hēa 	hēa	#	-h stem					
+tall	weak	singular	accusative 	hēan 	hēan 	hēa	#	-h stem					
+tall	weak	singular	genitive 	hēan 	hēan 	hēan	#						
+tall	weak	singular	dative 	hēan 	hēan 	hēan	#						
+tall	weak	singular	instrumental 	hēan 	hēan 	hēan	#						
+tall	weak	plural	nominative 	hēan 	hēan 	hēan	#	-h stem					
+tall	weak	plural	accusative 	hēan 	hēan 	hēan	#	-h stem					
+tall	weak	plural	genitive 	hēara, hēarra, hēana 	hēara, hēarra, hēana 	hēara, hēarra, hēana	#						
+tall	weak	plural	dative 	hēam, hēaum 	hēam, hēaum 	hēam, hēaum	#						
+tall	weak	plural	instrumental 	hēam, hēaum 	hēam, hēaum 	hēam, hēaum 	#						
+black	strong	singular	nominative 	blæc 	blacu, blaco 	blæc	#	monosyllabic featuring æ					
+black	strong	singular	accusative 	blæcne 	blace 	blæc	#	monosyllabic featuring æ					
+black	strong	singular	genitive 	blaces 	blæcre 	blaces	#						
+black	strong	singular	dative 	blacum 	blæcre 	blacum	#						
+black	strong	singular	instrumental 	blace 	blæcre 	blace	#						
+black	strong	plural	nominative 	blace 	blaca, blace 	blacu, blaco	#	monosyllabic featuring æ					
+black	strong	plural	accusative 	blace 	blaca, blace 	blacu, blaco	#	monosyllabic featuring æ					
+black	strong	plural	genitive 	blæcra 	blæcra 	blæcra	#						
+black	strong	plural	dative 	blacum 	blacum 	blacum	#						
+black	strong	plural	instrumental 	blacum 	blacum 	blacum	#						
+black	weak	singular	nominative 	blaca 	blace 	blace	#	monosyllabic featuring æ					
+black	weak	singular	accusative 	blacan 	blacan 	blace	#	monosyllabic featuring æ					
+black	weak	singular	genitive 	blacan 	blacan 	blacan	#						
+black	weak	singular	dative 	blacan 	blacan 	blacan	#						
+black	weak	singular	instrumental 	blacan 	blacan 	blacan	#						
+black	weak	plural	nominative 	blacan 	blacan 	blacan	#	monosyllabic featuring æ					
+black	weak	plural	accusative 	blacan 	blacan 	blacan	#	monosyllabic featuring æ					
+black	weak	plural	genitive 	blæcra, blacena 	blæcra, blacena 	blæcra, blacena	#						
+black	weak	plural	dative 	blacum 	blacum 	blacum	#						
+black	weak	plural	instrumental 	blacum 	blacum 	blacum 	#						
+red	strong	singular	nominative 	basu, baso 	basu, baso 	basu, baso	#	-u stem					
+red	strong	singular	accusative 	basone 	basƿe 	basu, baso	#	-u stem					
+red	strong	singular	genitive 	basƿes 	basore 	basƿes	#						
+red	strong	singular	dative 	basƿum 	basore 	basƿum	#						
+red	strong	singular	instrumental 	basƿe 	basore 	basƿe	#						
+red	strong	plural	nominative 	basƿe 	basƿa, basƿe 	basu, baso	#	-u stem					
+red	strong	plural	accusative 	basƿe 	basƿa, basƿe 	basu, baso	#	-u stem					
+red	strong	plural	genitive 	basora 	basora 	basora	#						
+red	strong	plural	dative 	basƿum 	basƿum 	basƿum	#						
+red	strong	plural	instrumental 	basƿum 	basƿum 	basƿum 	#						
+red	weak	singular	nominative 	basƿa 	basƿe 	basƿe	#	-u stem					
+red	weak	singular	accusative 	basƿan 	basƿan 	basƿe	#	-u stem					
+red	weak	singular	genitive 	basƿan 	basƿan 	basƿan	#						
+red	weak	singular	dative 	basƿan 	basƿan 	basƿan	#						
+red	weak	singular	instrumental 	basƿan 	basƿan 	basƿan	#						
+red	weak	plural	nominative 	basƿan 	basƿan 	basƿan	#	-u stem					
+red	weak	plural	accusative 	basƿan 	basƿan 	basƿan	#	-u stem					
+red	weak	plural	genitive 	basora, basƿena 	basora, basƿena 	basora, basƿena	#						
+red	weak	plural	dative 	basƿum 	basƿum 	basƿum	#						
+red	weak	plural	instrumental 	basƿum 	basƿum 	basƿum 	#						
+green	strong	singular	nominative 	grēne 	grēnu, grēno 	grēne	#	-e stem					
+green	strong	singular	accusative 	grēnne 	grēne 	grēne	#	-e stem					
+green	strong	singular	genitive 	grēnes 	grēnre 	grēnes	#						
+green	strong	singular	dative 	grēnum 	grēnre 	grēnum	#						
+green	strong	singular	instrumental 	grēne 	grēnre 	grēne	#						
+green	strong	plural	nominative 	grēne 	grēna, grēne 	grēnu, grēno	#	-e stem					
+green	strong	plural	accusative 	grēne 	grēna, grēne 	grēnu, grēno	#	-e stem					
+green	strong	plural	genitive 	grēnra 	grēnra 	grēnra	#						
+green	strong	plural	dative 	grēnum 	grēnum 	grēnum	#						
+green	strong	plural	instrumental 	grēnum 	grēnum 	grēnum 	#						
+green	weak	singular	nominative 	grēna 	grēne 	grēne	#	-e stem					
+green	weak	singular	accusative 	grēnan 	grēnan 	grēne	#	-e stem					
+green	weak	singular	genitive 	grēnan 	grēnan 	grēnan	#						
+green	weak	singular	dative 	grēnan 	grēnan 	grēnan	#						
+green	weak	singular	instrumental 	grēnan 	grēnan 	grēnan	#						
+green	weak	plural	nominative 	grēnan 	grēnan 	grēnan	#	-e stem					
+green	weak	plural	accusative 	grēnan 	grēnan 	grēnan	#	-e stem					
+green	weak	plural	genitive 	grēnra, grēnena 	grēnra, grēnena 	grēnra, grēnena	#						
+green	weak	plural	dative 	grēnum 	grēnum 	grēnum	#						
+green	weak	plural	instrumental 	grēnum 	grēnum 	grēnum 	#						
+first		singular	nominative	forma	forme	forme	#						
+first		singular	accusative	forman	forman	forme	#						
+first		singular	genitive	forman	forman	forman	#						
+first		singular	dative	forman	forman	forman	#						
+first		singular	instrumental	forman	forman	forman	#						
+first		plural	nominative	forman	forman	forman	#						
+first		plural	accusative	forman	forman	forman	#						
+first		plural	genitive	formra, formena	formra, formena	formra, formena	#						
+first		plural	dative	formum	formum	formum	#						
+first		plural	instrumental	formum	formum	formum	#						
+first		singular	nominative	ǣrest	ǣrest	ǣrest	#						
+first		singular	accusative	ǣrestne	ǣreste	ǣrest	#						
+first		singular	genitive	ǣrestes	ǣrestre	ǣrestes	#						
+first		singular	dative	ǣrestum	ǣrestre	ǣrestum	#						
+first		singular	instrumental	ǣreste	ǣrestre	ǣreste	#						
+first		plural	nominative	ǣreste	ǣresta, ǣreste	ǣrest	#						
+first		plural	accusative	ǣreste	ǣresta, ǣreste	ǣrest	#						
+first		plural	genitive	ǣrestra	ǣrestra	ǣrestra	#						
+first		plural	dative	ǣrestum	ǣrestum	ǣrestum	#						
+first		plural	instrumental	ǣrestum	ǣrestum	ǣrestum	#						
+second		singular	nominative	ōþer	ōþru, ōþro	ōþer	#						
+second		singular	accusative	ōþerne	ōþre	ōþer	#						
+second		singular	genitive	ōþres	ōþerre	ōþres	#						
+second		singular	dative	ōþrum	ōþerre	ōþrum	#						
+second		singular	instrumental	ōþre	ōþerre	ōþre	#						
+second		plural	nominative	ōþre	ōþra, ōþre	ōþru, ōþro	#						
+second		plural	accusative	ōþre	ōþra, ōþre	ōþru, ōþro	#						
+second		plural	genitive	ōþerra	ōþerra	ōþerra	#						
+second		plural	dative	ōþrum	ōþrum	ōþrum	#						
+second		plural	instrumental	ōþrum	ōþrum	ōþrum	#						
+third		singular	nominative	þridda	þridde	þridde	#						
+third		singular	accusative	þriddan	þriddan	þridde	#						
+third		singular	genitive	þriddan	þriddan	þriddan	#						
+third		singular	dative	þriddan	þriddan	þriddan	#						
+third		singular	instrumental	þriddan	þriddan	þriddan	#						
+third		plural	nominative	þriddan	þriddan	þriddan	#						
+third		plural	accusative	þriddan	þriddan	þriddan	#						
+third		plural	genitive	þridra, þriddena	þridra, þriddena	þridra, þriddena	#						
+third		plural	dative	þriddum	þriddum	þriddum	#						
+third		plural	instrumental	þriddum	þriddum	þriddum	#						
+big		singular	nominative	miċel	miċel	miċel	#						
+big		singular	accusative	miċelne	miċele, micle	miċel	#						
+big		singular	genitive	miċeles, micles	miċelre	miċeles, micles	#						
+big		singular	dative	miċelum, miclum	miċelre	miċelum, miclum	#						
+big		singular	instrumental	miċele, micle	miċelre	miċele, micle	#						
+big		plural	nominative	miċele, micle	miċela, micla, miċele, micle	miċel	#						
+big		plural	accusative	miċele, micle	miċela, micla, miċele, micle	miċel	#						
+big		plural	genitive	miċelra	miċelra	miċelra	#						
+big		plural	dative	miċelum, miclum	miċelum, miclum	miċelum, miclum	#						
+big		plural	instrumental	miċelum, miclum	miċelum, miclum	miċelum, miclum	#						
+large		singular	nominative	miċel	miċel	miċel	#						
+large		singular	accusative	miċelne	miċele, micle	miċel	#						
+large		singular	genitive	miċeles, micles	miċelre	miċeles, micles	#						
+large		singular	dative	miċelum, miclum	miċelre	miċelum, miclum	#						
+large		singular	instrumental	miċele, micle	miċelre	miċele, micle	#						
+large		plural	nominative	miċele, micle	miċela, micla, miċele, micle	miċel	#						
+large		plural	accusative	miċele, micle	miċela, micla, miċele, micle	miċel	#						
+large		plural	genitive	miċelra	miċelra	miċelra	#						
+large		plural	dative	miċelum, miclum	miċelum, miclum	miċelum, miclum	#						
+large		plural	instrumental	miċelum, miclum	miċelum, miclum	miċelum, miclum	#						
+small		singular	nominative	lȳtel	lȳtelu, lȳtlu, lȳtelo, lȳtlo	lȳtel	#						
+small		singular	accusative	lȳtelne	lȳtele, lȳtle	lȳtel	#						
+small		singular	genitive	lȳteles, lȳtles	lȳtelre	lȳteles, lȳtles	#						
+small		singular	dative	lȳtelum, lȳtlum	lȳtelre	lȳtelum, lȳtlum	#						
+small		singular	instrumental	lȳtele, lȳtle	lȳtelre	lȳtele, lȳtle	#						
+small		plural	nominative	lȳtele, lȳtle	lȳtela, lȳtla, lȳtele, lȳtle	lȳtelu, lȳtlu, lȳtelo, lȳtlo	#						
+small		plural	accusative	lȳtele, lȳtle	lȳtela, lȳtla, lȳtele, lȳtle	lȳtelu, lȳtlu, lȳtelo, lȳtlo	#						
+small		plural	genitive	lȳtelra	lȳtelra	lȳtelra	#						
+small		plural	dative	lȳtelum, lȳtlum	lȳtelum, lȳtlum	lȳtelum, lȳtlum	#						
+small		plural	instrumental	lȳtelum, lȳtlum	lȳtelum, lȳtlum	lȳtelum, lȳtlum	#						
+little		singular	nominative	lȳtel	lȳtelu, lȳtlu, lȳtelo, lȳtlo	lȳtel	#						
+little		singular	accusative	lȳtelne	lȳtele, lȳtle	lȳtel	#						
+little		singular	genitive	lȳteles, lȳtles	lȳtelre	lȳteles, lȳtles	#						
+little		singular	dative	lȳtelum, lȳtlum	lȳtelre	lȳtelum, lȳtlum	#						
+little		singular	instrumental	lȳtele, lȳtle	lȳtelre	lȳtele, lȳtle	#						
+little		plural	nominative	lȳtele, lȳtle	lȳtela, lȳtla, lȳtele, lȳtle	lȳtelu, lȳtlu, lȳtelo, lȳtlo	#						
+little		plural	accusative	lȳtele, lȳtle	lȳtela, lȳtla, lȳtele, lȳtle	lȳtelu, lȳtlu, lȳtelo, lȳtlo	#						
+little		plural	genitive	lȳtelra	lȳtelra	lȳtelra	#						
+little		plural	dative	lȳtelum, lȳtlum	lȳtelum, lȳtlum	lȳtelum, lȳtlum	#						
+little		plural	instrumental	lȳtelum, lȳtlum	lȳtelum, lȳtlum	lȳtelum, lȳtlum	#						
+well		singular	nominative	ġesund	ġesund	ġesund	#						
+well		singular	accusative	ġesundne	ġesunde	ġesund	#						
+well		singular	genitive	ġesundes	ġesundre	ġesundes	#						
+well		singular	dative	ġesundum	ġesundre	ġesundum	#						
+well		singular	instrumental	ġesunde	ġesundre	ġesunde	#						
+well		plural	nominative	ġesunde	ġesunda, ġesunde	ġesund	#						
+well		plural	accusative	ġesunde	ġesunda, ġesunde	ġesund	#						
+well		plural	genitive	ġesundra	ġesundra	ġesundra	#						
+well		plural	dative	ġesundum	ġesundum	ġesundum	#						
+well		plural	instrumental	ġesundum	ġesundum	ġesundum	#						
+bad		singular	nominative	yfel	yfel	yfel	#						
+bad		singular	accusative	yfelne	yfele	yfel	#						
+bad		singular	genitive	yfeles	yfelre	yfeles	#						
+bad		singular	dative	yfelum	yfelre	yfelum	#						
+bad		singular	instrumental	yfele	yfelre	yfele	#						
+bad		plural	nominative	yfele	yfela, yfele	yfel	#						
+bad		plural	accusative	yfele	yfela, yfele	yfel	#						
+bad		plural	genitive	yfelra	yfelra	yfelra	#						
+bad		plural	dative	yfelum	yfelum	yfelum	#						
+bad		plural	instrumental	yfelum	yfelum	yfelum	#						
+bad			nominative	yfel	yfel		#						
+bad			accusative	yfel	yfel		#						
+bad			genitive	yfeles	yfela		#						
+bad			dative	yfele	yfelum		#						
+angry		singular	nominative	ierre	ierru, ierro	ierre	#						
+angry		singular	accusative	ierne	ierre	ierre	#						
+angry		singular	genitive	ierres	ierre	ierres	#						
+angry		singular	dative	ierrum	ierre	ierrum	#						
+angry		singular	instrumental	ierre	ierre	ierre	#						
+angry		plural	nominative	ierre	ierra, ierre	ierru, ierro	#						
+angry		plural	accusative	ierre	ierra, ierre	ierru, ierro	#						
+angry		plural	genitive	ierra	ierra	ierra	#						
+angry		plural	dative	ierrum	ierrum	ierrum	#						
+angry		plural	instrumental	ierrum	ierrum	ierrum	#						
+happy		singular	nominative	blīþe	blīþu, blīþo	blīþe	#						
+happy		singular	accusative	blīþne	blīþe	blīþe	#						
+happy		singular	genitive	blīþes	blīþre	blīþes	#						
+happy		singular	dative	blīþum	blīþre	blīþum	#						
+happy		singular	instrumental	blīþe	blīþre	blīþe	#						
+happy		plural	nominative	blīþe	blīþa, blīþe	blīþu, blīþo	#						
+happy		plural	accusative	blīþe	blīþa, blīþe	blīþu, blīþo	#						
+happy		plural	genitive	blīþra	blīþra	blīþra	#						
+happy		plural	dative	blīþum	blīþum	blīþum	#						
+happy		plural	instrumental	blīþum	blīþum	blīþum	#						
+sad		singular	nominative	drēoriġ	drēoriġu, drēorġu, drēoriġo, drēorġo	drēoriġ	#						
+sad		singular	accusative	drēoriġne	drēoriġe, drēorġe	drēoriġ	#						
+sad		singular	genitive	drēoriġes, drēorġes	drēoriġre	drēoriġes, drēorġes	#						
+sad		singular	dative	drēoriġum, drēorġum	drēoriġre	drēoriġum, drēorġum	#						
+sad		singular	instrumental	drēoriġe, drēorġe	drēoriġre	drēoriġe, drēorġe	#						
+sad		plural	nominative	drēoriġe, drēorġe	drēoriġa, drēorġa, drēoriġe, drēorġe	drēoriġu, drēorġu, drēoriġo, drēorġo	#						
+sad		plural	accusative	drēoriġe, drēorġe	drēoriġa, drēorġa, drēoriġe, drēorġe	drēoriġu, drēorġu, drēoriġo, drēorġo	#						
+sad		plural	genitive	drēoriġra	drēoriġra	drēoriġra	#						
+sad		plural	dative	drēoriġum, drēorġum	drēoriġum, drēorġum	drēoriġum, drēorġum	#						
+sad		plural	instrumental	drēoriġum, drēorġum	drēoriġum, drēorġum	drēoriġum, drēorġum	#						
+bright		singular	nominative	beorht	beorht	beorht	#						
+bright		singular	accusative	beorhtne	beorhte	beorht	#						
+bright		singular	genitive	beorhtes	beorhtre	beorhtes	#						
+bright		singular	dative	beorhtum	beorhtre	beorhtum	#						
+bright		singular	instrumental	beorhte	beorhtre	beorhte	#						
+bright		plural	nominative	beorhte	beorhta, beorhte	beorht	#						
+bright		plural	accusative	beorhte	beorhta, beorhte	beorht	#						
+bright		plural	genitive	beorhtra	beorhtra	beorhtra	#						
+bright		plural	dative	beorhtum	beorhtum	beorhtum	#						
+bright		plural	instrumental	beorhtum	beorhtum	beorhtum	#						
+broken		singular	nominative	brocen	brocen	brocen	#						
+broken		singular	accusative	brocenne	brocene	brocen	#						
+broken		singular	genitive	brocenes	brocenre	brocenes	#						
+broken		singular	dative	brocenum	brocenre	brocenum	#						
+broken		singular	instrumental	brocene	brocenre	brocene	#						
+broken		plural	nominative	brocene	brocena, brocene	brocen	#						
+broken		plural	accusative	brocene	brocena, brocene	brocen	#						
+broken		plural	genitive	brocenra	brocenra	brocenra	#						
+broken		plural	dative	brocenum	brocenum	brocenum	#						
+broken		plural	instrumental	brocenum	brocenum	brocenum	#						
+all		singular	nominative	eall	eall	eall	#						
+all		singular	accusative	ealne	ealle	eall	#						
+all		singular	genitive	ealles	ealre	ealles	#						
+all		singular	dative	eallum	ealre	eallum	#						
+all		singular	instrumental	ealle	ealre	ealle	#						
+all		plural	nominative	ealle	ealla, ealle	eall	#						
+all		plural	accusative	ealle	ealla, ealle	eall	#						
+all		plural	genitive	ealra	ealra	ealra	#						
+all		plural	dative	eallum	eallum	eallum	#						
+all		plural	instrumental	eallum	eallum	eallum	#						
+loud		singular	nominative	hlūd	hlūd	hlūd	#						
+loud		singular	accusative	hlūdne	hlūde	hlūd	#						
+loud		singular	genitive	hlūdes	hlūdre	hlūdes	#						
+loud		singular	dative	hlūdum	hlūdre	hlūdum	#						
+loud		singular	instrumental	hlūde	hlūdre	hlūde	#						
+loud		plural	nominative	hlūde	hlūda, hlūde	hlūd	#						
+loud		plural	accusative	hlūde	hlūda, hlūde	hlūd	#						
+loud		plural	genitive	hlūdra	hlūdra	hlūdra	#						
+loud		plural	dative	hlūdum	hlūdum	hlūdum	#						
+loud		plural	instrumental	hlūdum	hlūdum	hlūdum	#						
+many		singular	nominative	moniġ	moniġ	moniġ	#						
+many		singular	accusative	moniġne	moniġe	moniġ	#						
+many		singular	genitive	moniġes	moniġre	moniġes	#						
+many		singular	dative	moniġum	moniġre	moniġum	#						
+many		singular	instrumental	moniġe	moniġre	moniġe	#						
+many		plural	nominative	moniġe	moniġa, moniġe	moniġ	#						
+many		plural	accusative	moniġe	moniġa, moniġe	moniġ	#						
+many		plural	genitive	moniġra	moniġra	moniġra	#						
+many		plural	dative	moniġum	moniġum	moniġum	#						
+many		plural	instrumental	moniġum	moniġum	moniġum	#						
+other		singular	nominative	ōþer	ōþru, ōþro	ōþer	#						
+other		singular	accusative	ōþerne	ōþre	ōþer	#						
+other		singular	genitive	ōþres	ōþerre	ōþres	#						
+other		singular	dative	ōþrum	ōþerre	ōþrum	#						
+other		singular	instrumental	ōþre	ōþerre	ōþre	#						
+other		plural	nominative	ōþre	ōþra, ōþre	ōþru, ōþro	#						
+other		plural	accusative	ōþre	ōþra, ōþre	ōþru, ōþro	#						
+other		plural	genitive	ōþerra	ōþerra	ōþerra	#						
+other		plural	dative	ōþrum	ōþrum	ōþrum	#						
+other		plural	instrumental	ōþrum	ōþrum	ōþrum	#						
+strong		singular	nominative	strang	strang	strang	#						
+strong		singular	accusative	strangne	strange	strang	#						
+strong		singular	genitive	stranges	strangre	stranges	#						
+strong		singular	dative	strangum	strangre	strangum	#						
+strong		singular	instrumental	strange	strangre	strange	#						
+strong		plural	nominative	strange	stranga, strange	strang	#						
+strong		plural	accusative	strange	stranga, strange	strang	#						
+strong		plural	genitive	strangra	strangra	strangra	#						
+strong		plural	dative	strangum	strangum	strangum	#						
+strong		plural	instrumental	strangum	strangum	strangum	#						

@@ -1,23 +1,184 @@
-*	*	*	*	*	positive	comparative	superlative								
-the	definite	masculine		singular	den	den	den								
-the	definite	feminine		singular	den	den	den								
-the	definite	neuter		singular	det	det	det								
-the	definite			plural	de	de	de								
-a	indefinite	masculine		singular	en	en	en								
-a	indefinite	feminine		singular	en	en	en								
-a	indefinite	neuter		singular	ett	ett	ett								
-a	indefinite			plural	∅	∅	∅								
-green	indefinite	masculine		singular	grön 	grönare 	grönast								
-green	indefinite	feminine		singular	grön 	grönare 	grönast								
-green	indefinite	neuter		singular	grönt 	grönare 	grönast								
-green	indefinite			plural	gröna 	grönare 	grönast								
-#green	indefinite		virile	plural	gröne 	grönare 	grönast								
-green	definite				gröna 	grönare 	grönaste 								
-#green	definite		virile	singular	gröne 	grönare 	grönaste								
-strong	indefinite	masculine		singular	stark 	starkare 	starkast								
-strong	indefinite	feminine		singular	stark 	starkare 	starkast								
-strong	indefinite	neuter		singular	starkt 	starkare 	starkast								
-strong	indefinite			plural	starka 	starkare 	starkast								
-#strong	indefinite		virile	plural	starke 	starkare 	starkast 								
-strong	definite				starka 	starkare 	starkaste 								
-#strong	definite		virile	singular	starke 	starkare 	starkaste								
+*	*	*	*	*	positive	comparative	superlative
+the	definite	masculine		singular	den	den	den
+the	definite	feminine		singular	den	den	den
+the	definite	neuter		singular	det	det	det
+the	definite			plural	de	de	de
+a	indefinite	masculine		singular	en	en	en
+a	indefinite	feminine		singular	en	en	en
+a	indefinite	neuter		singular	ett	ett	ett
+a	indefinite			plural	∅	∅	∅
+green	indefinite	masculine		singular	grön 	grönare 	grönast
+green	indefinite	feminine		singular	grön 	grönare 	grönast
+green	indefinite	neuter		singular	grönt 	grönare 	grönast
+green	indefinite			plural	gröna 	grönare 	grönast
+#green	indefinite		virile	plural	gröne 	grönare 	grönast
+green	definite				gröna 	grönare 	grönaste 
+#green	definite		virile	singular	gröne 	grönare 	grönaste
+strong	indefinite	masculine		singular	stark 	starkare 	starkast
+strong	indefinite	feminine		singular	stark 	starkare 	starkast
+strong	indefinite	neuter		singular	starkt 	starkare 	starkast
+strong	indefinite			plural	starka 	starkare 	starkast
+#strong	indefinite		virile	plural	starke 	starkare 	starkast 
+strong	definite				starka 	starkare 	starkaste 
+#strong	definite		virile	singular	starke 	starkare 	starkaste
+big	indefinite	masculine		singular	stor	större	störst
+big	indefinite	feminine		singular	stor	större	störst
+big	indefinite	neuter		singular	stort	större	störst
+big	indefinite			plural	stora	större	störst
+big	indefinite		virile	plural	stora	större	störst
+big	definite		virile	singular	store	större	störste
+big	definite	all			stora	större	största
+large	indefinite	masculine		singular	stor	större	störst
+large	indefinite	feminine		singular	stor	större	störst
+large	indefinite	neuter		singular	stort	större	störst
+large	indefinite			plural	stora	större	störst
+large	indefinite		virile	plural	stora	större	störst
+large	definite		virile	singular	store	större	störste
+large	definite	all			stora	större	största
+small	indefinite	masculine		singular	liten	mindre	minst
+small	indefinite	feminine		singular	liten	mindre	minst
+small	indefinite	neuter		singular	litet	mindre	minst
+small	indefinite			plural	små	mindre	minst
+small	indefinite		virile	plural	små	mindre	minst
+small	definite		virile	singular	lille	mindre	minste
+small	definite	all			lilla	mindre	minsta
+little	indefinite	masculine		singular	liten	mindre	minst
+little	indefinite	feminine		singular	liten	mindre	minst
+little	indefinite	neuter		singular	litet	mindre	minst
+little	indefinite			plural	små	mindre	minst
+little	indefinite		virile	plural	små	mindre	minst
+little	definite		virile	singular	lille	mindre	minste
+little	definite	all			lilla	mindre	minsta
+loud	indefinite	masculine		singular	hög	högre	högst
+loud	indefinite	feminine		singular	hög	högre	högst
+loud	indefinite	neuter		singular	högt	högre	högst
+loud	indefinite			plural	höga	högre	högst
+loud	indefinite		virile	plural	höga	högre	högst
+loud	definite		virile	singular	höge	högre	högste
+loud	definite	all			höga	högre	högsta
+loud	indefinite	masculine		singular	ljudlig	ljudligare	ljudligast
+loud	indefinite	feminine		singular	ljudlig	ljudligare	ljudligast
+loud	indefinite	neuter		singular	ljudligt	ljudligare	ljudligast
+loud	indefinite			plural	ljudliga	ljudligare	ljudligast
+loud	indefinite		virile	plural	ljudlige	ljudligare	ljudligast
+loud	definite		virile	singular	ljudlige	ljudligare	ljudligaste
+loud	definite	all			ljudliga	ljudligare	ljudligaste
+loud	indefinite	masculine		singular	högljudd	högljuddare	högljuddast
+loud	indefinite	feminine		singular	högljudd	högljuddare	högljuddast
+loud	indefinite	neuter		singular	högljutt	högljuddare	högljuddast
+loud	indefinite			plural	högljudda	högljuddare	högljuddast
+loud	indefinite		virile	plural	högljudde	högljuddare	högljuddast
+loud	definite		virile	singular	högljudde	högljuddare	högljuddaste
+loud	definite	all			högljudda	högljuddare	högljuddaste
+well	indefinite	masculine		singular	frisk	friskare	friskast
+well	indefinite	feminine		singular	frisk	friskare	friskast
+well	indefinite	neuter		singular	friskt	friskare	friskast
+well	indefinite			plural	friska	friskare	friskast
+well	indefinite		virile	plural	friske	friskare	friskast
+well	definite		virile	singular	friske	friskare	friskaste
+well	definite	all			friska	friskare	friskaste
+good	indefinite	masculine		singular	god	godare	godast
+good	indefinite	feminine		singular	god	godare	godast
+good	indefinite	neuter		singular	gott	godare	godast
+good	indefinite			plural	goda	godare	godast
+good	indefinite		virile	plural	gode	godare	godast
+good	definite		virile	singular	gode	godare	godaste
+good	definite	all			goda	godare	godaste
+good	indefinite	masculine		singular	bra	bättre	bäst
+good	indefinite	feminine		singular	bra	bättre	bäst
+good	indefinite	neuter		singular	bra	bättre	bäst
+good	indefinite			plural	bra	bättre	bäst
+good	indefinite		virile	plural	bra	bättre	bäst
+good	definite		virile	singular	bra	bättre	bäste
+good	definite	all			bra	bättre	bästa
+bad	indefinite	masculine		singular	dålig	sämre	sämst
+bad	indefinite	feminine		singular	dålig	sämre	sämst
+bad	indefinite	neuter		singular	dåligt	sämre	sämst
+bad	indefinite			plural	dåliga	sämre	sämst
+bad	indefinite		virile	plural	dåliga	sämre	sämst
+bad	definite		virile	singular	dålige	sämre	sämste
+bad	definite	all			dåliga	sämre	sämsta
+angry	indefinite	masculine		singular	arg	argare	argast
+angry	indefinite	feminine		singular	arg	argare	argast
+angry	indefinite	neuter		singular	argt	argare	argast
+angry	indefinite			plural	arga	argare	argast
+angry	indefinite		virile	plural	arge	argare	argast
+angry	definite		virile	singular	arge	argare	argaste
+angry	definite	all			arga	argare	argaste
+angry	indefinite	masculine		singular	ilsken	ilsknare	ilsknast
+angry	indefinite	feminine		singular	ilsken	ilsknare	ilsknast
+angry	indefinite	neuter		singular	ilsket	ilsknare	ilsknast
+angry	indefinite			plural	ilskna	ilsknare	ilsknast
+angry	indefinite		virile	plural	ilskne	ilsknare	ilsknast
+angry	definite		virile	singular	ilskne	ilsknare	ilsknaste
+angry	definite	all			ilskna	ilsknare	ilsknaste
+happy	indefinite	masculine		singular	glad	gladare	gladast
+happy	indefinite	feminine		singular	glad	gladare	gladast
+happy	indefinite	neuter		singular	glatt	gladare	gladast
+happy	indefinite			plural	glada	gladare	gladast
+happy	indefinite		virile	plural	glade	gladare	gladast
+happy	definite		virile	singular	glade	gladare	gladaste
+happy	definite	all			glada	gladare	gladaste
+happy	indefinite	masculine		singular	lycklig	lyckligare	lyckligast
+happy	indefinite	feminine		singular	lycklig	lyckligare	lyckligast
+happy	indefinite	neuter		singular	lyckligt	lyckligare	lyckligast
+happy	indefinite			plural	lyckliga	lyckligare	lyckligast
+happy	indefinite		virile	plural	lycklige	lyckligare	lyckligast
+happy	definite		virile	singular	lycklige	lyckligare	lyckligaste
+happy	definite	all			lyckliga	lyckligare	lyckligaste
+sad	indefinite	masculine		singular	ledsen	ledsnare	ledsnast
+sad	indefinite	feminine		singular	ledsen	ledsnare	ledsnast
+sad	indefinite	neuter		singular	ledset	ledsnare	ledsnast
+sad	indefinite			plural	ledsna	ledsnare	ledsnast
+sad	indefinite		virile	plural	ledsne	ledsnare	ledsnast
+sad	definite		virile	singular	ledsne	ledsnare	ledsnaste
+sad	definite	all			ledsna	ledsnare	ledsnaste
+sad	indefinite	masculine		singular	sorgsen	sorgsnare	sorgsnast
+sad	indefinite	feminine		singular	sorgsen	sorgsnare	sorgsnast
+sad	indefinite	neuter		singular	sorgset	sorgsnare	sorgsnast
+sad	indefinite			plural	sorgsna	sorgsnare	sorgsnast
+sad	indefinite		virile	plural	sorgsne	sorgsnare	sorgsnast
+sad	definite		virile	singular	sorgsne	sorgsnare	sorgsnaste
+sad	definite	all			sorgsna	sorgsnare	sorgsnaste
+sad	indefinite	masculine		singular	olycklig	olyckligare	olyckligast
+sad	indefinite	feminine		singular	olycklig	olyckligare	olyckligast
+sad	indefinite	neuter		singular	olyckligt	olyckligare	olyckligast
+sad	indefinite			plural	olyckliga	olyckligare	olyckligast
+sad	indefinite		virile	plural	olycklige	olyckligare	olyckligast
+sad	definite		virile	singular	olycklige	olyckligare	olyckligaste
+sad	definite	all			olyckliga	olyckligare	olyckligaste
+bright	indefinite	masculine		singular	ljus	ljusare	ljusast
+bright	indefinite	feminine		singular	ljus	ljusare	ljusast
+bright	indefinite	neuter		singular	ljust	ljusare	ljusast
+bright	indefinite			plural	ljusa	ljusare	ljusast
+bright	indefinite		virile	plural	ljuse	ljusare	ljusast
+bright	definite		virile	singular	ljuse	ljusare	ljusaste
+bright	definite	all			ljusa	ljusare	ljusaste
+broken	indefinite	masculine		singular	trasig	trasigare	trasigast
+broken	indefinite	feminine		singular	trasig	trasigare	trasigast
+broken	indefinite	neuter		singular	trasigt	trasigare	trasigast
+broken	indefinite			plural	trasiga	trasigare	trasigast
+broken	indefinite		virile	plural	trasige	trasigare	trasigast
+broken	definite		virile	singular	trasige	trasigare	trasigaste
+broken	definite	all			trasiga	trasigare	trasigaste
+broken	indefinite	masculine		singular	bruten	—	—
+broken	indefinite	feminine		singular	bruten	—	—
+broken	indefinite	neuter		singular	brutet	—	—
+broken	indefinite			plural	brutna	—	—
+broken	indefinite		virile	plural	brutne	—	—
+broken	definite		virile	singular	brutne	—	—
+broken	definite	all			brutna	—	—
+hurt	indefinite	masculine		singular	skadad	—	—
+hurt	indefinite	feminine		singular	skadad	—	—
+hurt	indefinite	neuter		singular	skadat	—	—
+hurt	indefinite			plural	skadade	—	—
+hurt	indefinite		virile	plural	skadade	—	—
+hurt	definite		virile	singular	skadade	—	—
+hurt	definite	all			skadade	—	—
+red	indefinite	masculine		singular	röd	rödare	rödast
+red	indefinite	feminine		singular	röd	rödare	rödast
+red	indefinite	neuter		singular	rött	rödare	rödast
+red	indefinite			plural	röda	rödare	rödast
+red	indefinite		virile	plural	röde	rödare	rödast
+red	definite		virile	singular	röde	rödare	rödaste
+red	definite	all			röda	rödare	rödaste

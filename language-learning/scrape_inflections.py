@@ -336,6 +336,8 @@ for target_language_code, output_directory in code_directories:
 					)
 				)
 
+			# TODO for gothic: ([^a-zA-Z ōēāƕþ,])(?=[a-zA-Z ōēāƕþ]) → \1\t
+
 			write(os.path.join(scrape_directory, f'scraped-{part_of_speech}s.tsv'),
 				formatting.format(
 					scraping.scrape(table_parsing, lemma_html)
