@@ -1,55 +1,334 @@
-*	*	*	*	nominative  	vocative    	accusative  	genitive    	ablative    	dative      	locative    	instrumental	#	declension
-young	positive	masculine	singular	h₂yuHn̥ḱós    	h₂yuHn̥ḱé     	h₂yuHn̥ḱóm    	h₂yuHn̥ḱósyo  	h₂yuHn̥ḱéad   	h₂yuHn̥ḱóey   	h₂yuHn̥ḱóy    	h₂yuHn̥ḱóh₁   	#	thematic      
-young	positive	masculine	dual	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóh₁     	❔	❔	❔	❔	❔	#	thematic      
-young	positive	masculine	plural	h₂yuHn̥ḱóes     	h₂yuHn̥ḱóes     	h₂yuHn̥ḱóms     	h₂yuHn̥ḱóHom    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱóysu    	h₂yuHn̥ḱṓys     	#	thematic      
-young	positive	feminine	singular	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱā́m   	h₂yuHn̥ḱéh₂s  	h₂yuHn̥ḱéh₂s  	h₂yuHn̥ḱéh₂ey 	h₂yuHn̥ḱéh₂i  	h₂yuHn̥ḱéh₂h₁ 	#	thematic      
-young	positive	feminine	dual	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂h₁(e)	❔	❔	❔	❔	❔	#	thematic      
-young	positive	feminine	plural	h₂yuHn̥ḱéh₂es   	h₂yuHn̥ḱéh₂es   	h₂yuHn̥ḱéh₂m̥s  	h₂yuHn̥ḱéh₂oHom 	h₂yuHn̥ḱéh₂mos  	h₂yuHn̥ḱéh₂mos  	h₂yuHn̥ḱéh₂su   	h₂yuHn̥ḱéh₂bʰi  	#	thematic      
-young	positive	neuter	singular	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóm    	h₂yuHn̥ḱósyo  	h₂yuHn̥ḱéad   	h₂yuHn̥ḱóey   	h₂yuHn̥ḱóy    	h₂yuHn̥ḱóh₁   	#	thematic      
-young	positive	neuter	dual	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱóy(h₁)  	❔	❔	❔	❔	❔	#	thematic      
-young	positive	neuter	plural	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱéh₂     	h₂yuHn̥ḱóHom    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱómos    	h₂yuHn̥ḱóysu    	h₂yuHn̥ḱṓys     	#	thematic      
-young	comparative	masculine	singular	h₂yuHn̥ḱ(é)yōs 	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yosm̥ 	h₂yuHn̥ḱisés 	h₂yuHn̥ḱisés 	h₂yuHn̥ḱiséy 	h₂yuHn̥ḱyés, h₂yuHn̥ḱyési 	h₂yuHn̥ḱiséh₁ 	#	
-young	comparative	masculine	dual	h₂yuHn̥ḱ(é)yosh₁(e) 	h₂yuHn̥ḱ(é)yosh₁(e) 	h₂yuHn̥ḱ(é)yosh₁(e) 	❔	❔	❔	❔	❔	#	
-young	comparative	masculine	plural	h₂yuHn̥ḱ(é)yoses	h₂yuHn̥ḱ(é)yoses	h₂yuHn̥ḱ(é)yosm̥s	h₂yuHn̥ḱisóHom	h₂yuHn̥ḱismós	h₂yuHn̥ḱismós	h₂yuHn̥ḱisú	h₂yuHn̥ḱismís 	#	
-young	comparative	feminine	singular	h₂yuHn̥ḱyésih₂ 	h₂yuHn̥ḱyésih₂ 	h₂yuHn̥ḱyésih₂m̥ 	h₂yuHn̥ḱisyéh₂s 	h₂yuHn̥ḱisyéh₂s 	h₂yuHn̥ḱisyéh₂ey 	h₂yuHn̥ḱisyéh₂, h₂yuHn̥ḱisyéh₂i 	h₂yuHn̥ḱisyéh₂h₁ 	#	
-young	comparative	feminine	dual	h₂yuHn̥ḱyésih₂h₁(e) 	h₂yuHn̥ḱyésih₂h₁(e) 	h₂yuHn̥ḱyésih₂h₁(e) 	❔	❔	❔	❔	❔	#	
-young	comparative	feminine	plural	h₂yuHn̥ḱyésih₂es	h₂yuHn̥ḱyésih₂es	h₂yuHn̥ḱyésih₂m̥s	h₂yuHn̥ḱisyéh₂oHom	h₂yuHn̥ḱisyéh₂mos	h₂yuHn̥ḱisyéh₂mos	h₂yuHn̥ḱisyéh₂su	h₂yuHn̥ḱisyéh₂mis 	#	
-young	comparative	neuter	singular	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱisés 	h₂yuHn̥ḱisés 	h₂yuHn̥ḱiséy 	h₂yuHn̥ḱyés, h₂yuHn̥ḱyési 	h₂yuHn̥ḱiséh₁ 	#	
-young	comparative	neuter	dual	h₂yuHn̥ḱ(é)yosih₁ 	h₂yuHn̥ḱ(é)yosih₁ 	h₂yuHn̥ḱ(é)yosih₁ 	❔	❔	❔	❔	❔	#	
-young	comparative	neuter	plural	h₂yuHn̥ḱ(é)yōs	h₂yuHn̥ḱ(é)yōs	h₂yuHn̥ḱ(é)yōs	h₂yuHn̥ḱisóHom	h₂yuHn̥ḱismós	h₂yuHn̥ḱismós	h₂yuHn̥ḱisú	h₂yuHn̥ḱismís 	#	
-old  	positive	masculine	singular	ǵérh₂onts     	ǵérh₂ont      	ǵérh₂ontm̥    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥téy    	ǵr̥h₂énti     	ǵr̥h₂n̥téh₁   	#	amphikinetic  
-old  	positive	masculine	dual	ǵérh₂onth₁(e)   	ǵérh₂onth₁(e)   	ǵérh₂onth₁(e)   	❔	❔	❔	❔	❔	#	amphikinetic  
-old  	positive	masculine	plural	ǵérh₂ontes      	ǵérh₂ontes      	ǵérh₂ontm̥s     	ǵr̥h₂n̥tóHom    	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tsú      	ǵr̥h₂n̥tbʰí     	#	amphikinetic  
-old  	positive	feminine	singular	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂m̥ 	ǵr̥h₂n̥tyéh₂s 	ǵr̥h₂n̥tyéh₂s 	ǵr̥h₂n̥tyéh₂ey	ǵr̥h₂n̥tyéh₂i 	ǵr̥h₂n̥tyéh₂h₁	#	amphikinetic  
-old  	positive	feminine	dual	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂h₁(e)	❔	❔	❔	❔	❔	#	amphikinetic  
-old  	positive	feminine	plural	ǵr̥h₂éntih₂es   	ǵr̥h₂éntih₂es   	ǵr̥h₂éntih₂m̥s  	ǵr̥h₂n̥tyéh₂oHom	ǵr̥h₂n̥tyéh₂mos 	ǵr̥h₂n̥tyéh₂mos 	ǵr̥h₂n̥tyéh₂su  	ǵr̥h₂n̥tyéh₂bʰi 	#	amphikinetic  
-old  	positive	neuter	singular	ǵérh₂ont      	ǵérh₂ont      	ǵérh₂ont      	ǵr̥h₂n̥tés    	ǵr̥h₂n̥tés    	ǵr̥h₂n̥téy    	ǵr̥h₂énti     	ǵr̥h₂n̥téh₁   	#	amphikinetic  
-old  	positive	neuter	dual	ǵérh₂ontih₁     	ǵérh₂ontih₁     	ǵérh₂ontih₁     	❔	❔	❔	❔	❔	#	amphikinetic  
-old  	positive	neuter	plural	ǵérh₂onth₂      	ǵérh₂onth₂      	ǵérh₂onth₂      	ǵr̥h₂n̥tóHom    	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tmós     	ǵr̥h₂n̥tsú      	ǵr̥h₂n̥tbʰí     	#	amphikinetic  
-old	comparative	masculine	singular	ǵérh₂ont(é)yōs 	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yosm̥ 	ǵérh₂ontisés 	ǵérh₂ontisés 	ǵérh₂ontiséy 	ǵérh₂ontyés, ǵérh₂ontyési 	ǵérh₂ontiséh₁ 	#	
-old	comparative	masculine	dual	ǵérh₂ont(é)yosh₁(e) 	ǵérh₂ont(é)yosh₁(e) 	ǵérh₂ont(é)yosh₁(e) 	❔	❔	❔	❔	❔	#	
-old	comparative	masculine	plural	ǵérh₂ont(é)yoses	ǵérh₂ont(é)yoses	ǵérh₂ont(é)yosm̥s	ǵérh₂ontisóHom	ǵérh₂ontismós	ǵérh₂ontismós	ǵérh₂ontisú	ǵérh₂ontismís 	#	
-old	comparative	feminine	singular	ǵérh₂ontyésih₂ 	ǵérh₂ontyésih₂ 	ǵérh₂ontyésih₂m̥ 	ǵérh₂ontisyéh₂s 	ǵérh₂ontisyéh₂s 	ǵérh₂ontisyéh₂ey 	ǵérh₂ontisyéh₂, ǵérh₂ontisyéh₂i 	ǵérh₂ontisyéh₂h₁ 	#	
-old	comparative	feminine	dual	ǵérh₂ontyésih₂h₁(e) 	ǵérh₂ontyésih₂h₁(e) 	ǵérh₂ontyésih₂h₁(e) 	❔	❔	❔	❔	❔	#	
-old	comparative	feminine	plural	ǵérh₂ontyésih₂es	ǵérh₂ontyésih₂es	ǵérh₂ontyésih₂m̥s	ǵérh₂ontisyéh₂oHom	ǵérh₂ontisyéh₂mos	ǵérh₂ontisyéh₂mos	ǵérh₂ontisyéh₂su	ǵérh₂ontisyéh₂mis 	#	
-old	comparative	neuter	singular	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yos 	ǵérh₂ontisés 	ǵérh₂ontisés 	ǵérh₂ontiséy 	ǵérh₂ontyés, ǵérh₂ontyési 	ǵérh₂ontiséh₁ 	#	
-old	comparative	neuter	dual	ǵérh₂ont(é)yosih₁ 	ǵérh₂ont(é)yosih₁ 	ǵérh₂ont(é)yosih₁ 	❔	❔	❔	❔	❔	#	
-old	comparative	neuter	plural	ǵérh₂ont(é)yōs	ǵérh₂ont(é)yōs	ǵérh₂ont(é)yōs	ǵérh₂ontisóHom	ǵérh₂ontismós	ǵérh₂ontismós	ǵérh₂ontisú	ǵérh₂ontismís 	#	
-upset	positive	masculine	singular	tréystis      	tréysti       	tréystim      	tristéys      	tristéys      	tristéyey     	tristḗy       	tristíh₁      	#	proterokinetic
-upset	positive	masculine	dual	tréystih₁(e)    	tréystih₁(e)    	tréystih₁(e)    	❔	❔	❔	❔	❔	#	proterokinetic
-upset	positive	masculine	plural	tréysteyes      	tréysteyes      	tréystims       	tristéyoHom     	tristímos       	tristímos       	tristísu        	tristíbʰi       	#	proterokinetic
-upset	positive	feminine	singular	tristéyih₂    	tristéyih₂    	tristéyih₂m̥  	tristiyéh₂s   	tristiyéh₂s   	tristiyéh₂ey  	tristiyéh₂i   	tristiyéh₂h₁  	#	proterokinetic
-upset	positive	feminine	dual	tristéyih₂h₁(e) 	tristéyih₂h₁(e) 	tristéyih₂h₁(e) 	❔	❔	❔	❔	❔	#	proterokinetic
-upset	positive	feminine	plural	tristéyih₂es    	tristéyih₂es    	tristéyih₂m̥s   	tristiyéh₂oHom  	tristiyéh₂mos   	tristiyéh₂mos   	tristiyéh₂su    	tristiyéh₂bʰi   	#	proterokinetic
-upset	positive	neuter	singular	tréysti       	tréysti       	tréysti       	tristéys      	tristéys      	tristéyey     	tristḗy       	tristíh₁      	#	proterokinetic
-upset	positive	neuter	dual	tréystyih₁      	tréystyih₁      	tréystyih₁      	❔	❔	❔	❔	❔	#	proterokinetic
-upset	positive	neuter	plural	tréystih₂       	tréystih₂       	tréystih₂       	tristéyoHom     	tristímos       	tristímos       	tristísu        	tristíbʰi       	#	proterokinetic
-upset	comparative	masculine	singular	tréyst(é)yōs 	tréyst(é)yos 	tréyst(é)yosm̥ 	tréystisés 	tréystisés 	tréystiséy 	tréystyés, tréystyési 	tréystiséh₁ 	#	
-upset	comparative	masculine	dual	tréyst(é)yosh₁(e) 	tréyst(é)yosh₁(e) 	tréyst(é)yosh₁(e) 	❔	❔	❔	❔	❔	#	
-upset	comparative	masculine	plural	tréyst(é)yoses	tréyst(é)yoses	tréyst(é)yosm̥s	tréystisóHom	tréystismós	tréystismós	tréystisú	tréystismís 	#	
-upset	comparative	feminine	singular	tréystyésih₂ 	tréystyésih₂ 	tréystyésih₂m̥ 	tréystisyéh₂s 	tréystisyéh₂s 	tréystisyéh₂ey 	tréystisyéh₂, tréystisyéh₂i 	tréystisyéh₂h₁ 	#	
-upset	comparative	feminine	dual	tréystyésih₂h₁(e) 	tréystyésih₂h₁(e) 	tréystyésih₂h₁(e) 	❔	❔	❔	❔	❔	#	
-upset	comparative	feminine	plural	tréystyésih₂es	tréystyésih₂es	tréystyésih₂m̥s	tréystisyéh₂oHom	tréystisyéh₂mos	tréystisyéh₂mos	tréystisyéh₂su	tréystisyéh₂mis 	#	
-upset	comparative	neuter	singular	tréyst(é)yos 	tréyst(é)yos 	tréyst(é)yos 	tréystisés 	tréystisés 	tréystiséy 	tréystyés, tréystyési 	tréystiséh₁ 	#	
-upset	comparative	neuter	dual	tréyst(é)yosih₁ 	tréyst(é)yosih₁ 	tréyst(é)yosih₁ 	❔	❔	❔	❔	❔	#	
-upset	comparative	neuter	plural	tréyst(é)yōs	tréyst(é)yōs	tréyst(é)yōs	tréystisóHom	tréystismós	tréystismós	tréystisú	tréystismís 	#	
+*	*	*	*	singular	dual	plural	#	declension
+young	positive	masculine	nominative	h₂yuHn̥ḱós    	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóes     	#	thematic      
+young	positive	masculine	vocative	h₂yuHn̥ḱé     	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóes     	#	thematic      
+young	positive	masculine	accusative	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóh₁     	h₂yuHn̥ḱóms     		
+young	positive	masculine	genitive	h₂yuHn̥ḱósyo  	❔	h₂yuHn̥ḱóHom    		
+young	positive	masculine	ablative	h₂yuHn̥ḱéad   	❔	h₂yuHn̥ḱómos    		
+young	positive	masculine	dative	h₂yuHn̥ḱóey   	❔	h₂yuHn̥ḱómos    		
+young	positive	masculine	locative	h₂yuHn̥ḱóy    	❔	h₂yuHn̥ḱóysu    		
+young	positive	masculine	instrumental	h₂yuHn̥ḱóh₁   	❔	h₂yuHn̥ḱṓys     		
+young	positive	feminine	nominative	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂es   	#	thematic      
+young	positive	feminine	vocative	h₂yuHn̥ḱéh₂   	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂es   	#	thematic      
+young	positive	feminine	accusative	h₂yuHn̥ḱā́m   	h₂yuHn̥ḱéh₂h₁(e)	h₂yuHn̥ḱéh₂m̥s  		
+young	positive	feminine	genitive	h₂yuHn̥ḱéh₂s  	❔	h₂yuHn̥ḱéh₂oHom 		
+young	positive	feminine	ablative	h₂yuHn̥ḱéh₂s  	❔	h₂yuHn̥ḱéh₂mos  		
+young	positive	feminine	dative	h₂yuHn̥ḱéh₂ey 	❔	h₂yuHn̥ḱéh₂mos  		
+young	positive	feminine	locative	h₂yuHn̥ḱéh₂i  	❔	h₂yuHn̥ḱéh₂su   		
+young	positive	feminine	instrumental	h₂yuHn̥ḱéh₂h₁ 	❔	h₂yuHn̥ḱéh₂bʰi  		
+young	positive	neuter	nominative	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱéh₂     	#	thematic      
+young	positive	neuter	vocative	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱéh₂     	#	thematic      
+young	positive	neuter	accusative	h₂yuHn̥ḱóm    	h₂yuHn̥ḱóy(h₁)  	h₂yuHn̥ḱéh₂     		
+young	positive	neuter	genitive	h₂yuHn̥ḱósyo  	❔	h₂yuHn̥ḱóHom    		
+young	positive	neuter	ablative	h₂yuHn̥ḱéad   	❔	h₂yuHn̥ḱómos    		
+young	positive	neuter	dative	h₂yuHn̥ḱóey   	❔	h₂yuHn̥ḱómos    		
+young	positive	neuter	locative	h₂yuHn̥ḱóy    	❔	h₂yuHn̥ḱóysu    		
+young	positive	neuter	instrumental	h₂yuHn̥ḱóh₁   	❔	h₂yuHn̥ḱṓys     		
+young	comparative	masculine	nominative	h₂yuHn̥ḱ(é)yōs 	h₂yuHn̥ḱ(é)yosh₁(e) 	h₂yuHn̥ḱ(é)yoses	#	
+young	comparative	masculine	vocative	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yosh₁(e) 	h₂yuHn̥ḱ(é)yoses	#	
+young	comparative	masculine	accusative	h₂yuHn̥ḱ(é)yosm̥ 	h₂yuHn̥ḱ(é)yosh₁(e) 	h₂yuHn̥ḱ(é)yosm̥s		
+young	comparative	masculine	genitive	h₂yuHn̥ḱisés 	❔	h₂yuHn̥ḱisóHom		
+young	comparative	masculine	ablative	h₂yuHn̥ḱisés 	❔	h₂yuHn̥ḱismós		
+young	comparative	masculine	dative	h₂yuHn̥ḱiséy 	❔	h₂yuHn̥ḱismós		
+young	comparative	masculine	locative	h₂yuHn̥ḱyés, h₂yuHn̥ḱyési 	❔	h₂yuHn̥ḱisú		
+young	comparative	masculine	instrumental	h₂yuHn̥ḱiséh₁ 	❔	h₂yuHn̥ḱismís 		
+young	comparative	feminine	nominative	h₂yuHn̥ḱyésih₂ 	h₂yuHn̥ḱyésih₂h₁(e) 	h₂yuHn̥ḱyésih₂es	#	
+young	comparative	feminine	vocative	h₂yuHn̥ḱyésih₂ 	h₂yuHn̥ḱyésih₂h₁(e) 	h₂yuHn̥ḱyésih₂es	#	
+young	comparative	feminine	accusative	h₂yuHn̥ḱyésih₂m̥ 	h₂yuHn̥ḱyésih₂h₁(e) 	h₂yuHn̥ḱyésih₂m̥s		
+young	comparative	feminine	genitive	h₂yuHn̥ḱisyéh₂s 	❔	h₂yuHn̥ḱisyéh₂oHom		
+young	comparative	feminine	ablative	h₂yuHn̥ḱisyéh₂s 	❔	h₂yuHn̥ḱisyéh₂mos		
+young	comparative	feminine	dative	h₂yuHn̥ḱisyéh₂ey 	❔	h₂yuHn̥ḱisyéh₂mos		
+young	comparative	feminine	locative	h₂yuHn̥ḱisyéh₂, h₂yuHn̥ḱisyéh₂i 	❔	h₂yuHn̥ḱisyéh₂su		
+young	comparative	feminine	instrumental	h₂yuHn̥ḱisyéh₂h₁ 	❔	h₂yuHn̥ḱisyéh₂mis 		
+young	comparative	neuter	nominative	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yosih₁ 	h₂yuHn̥ḱ(é)yōs	#	
+young	comparative	neuter	vocative	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yosih₁ 	h₂yuHn̥ḱ(é)yōs	#	
+young	comparative	neuter	accusative	h₂yuHn̥ḱ(é)yos 	h₂yuHn̥ḱ(é)yosih₁ 	h₂yuHn̥ḱ(é)yōs		
+young	comparative	neuter	genitive	h₂yuHn̥ḱisés 	❔	h₂yuHn̥ḱisóHom		
+young	comparative	neuter	ablative	h₂yuHn̥ḱisés 	❔	h₂yuHn̥ḱismós		
+young	comparative	neuter	dative	h₂yuHn̥ḱiséy 	❔	h₂yuHn̥ḱismós		
+young	comparative	neuter	locative	h₂yuHn̥ḱyés, h₂yuHn̥ḱyési 	❔	h₂yuHn̥ḱisú		
+young	comparative	neuter	instrumental	h₂yuHn̥ḱiséh₁ 	❔	h₂yuHn̥ḱismís 		
+old	positive	masculine	nominative	ǵérh₂onts     	ǵérh₂onth₁(e)   	ǵérh₂ontes      	#	amphikinetic  
+old	positive	masculine	vocative	ǵérh₂ont      	ǵérh₂onth₁(e)   	ǵérh₂ontes      	#	amphikinetic  
+old	positive	masculine	accusative	ǵérh₂ontm̥    	ǵérh₂onth₁(e)   	ǵérh₂ontm̥s     		
+old	positive	masculine	genitive	ǵr̥h₂n̥tés    	❔	ǵr̥h₂n̥tóHom    		
+old	positive	masculine	ablative	ǵr̥h₂n̥tés    	❔	ǵr̥h₂n̥tmós     		
+old	positive	masculine	dative	ǵr̥h₂n̥téy    	❔	ǵr̥h₂n̥tmós     		
+old	positive	masculine	locative	ǵr̥h₂énti     	❔	ǵr̥h₂n̥tsú      		
+old	positive	masculine	instrumental	ǵr̥h₂n̥téh₁   	❔	ǵr̥h₂n̥tbʰí     		
+old	positive	feminine	nominative	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂es   	#	amphikinetic  
+old	positive	feminine	vocative	ǵr̥h₂éntih₂   	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂es   	#	amphikinetic  
+old	positive	feminine	accusative	ǵr̥h₂éntih₂m̥ 	ǵr̥h₂éntih₂h₁(e)	ǵr̥h₂éntih₂m̥s  		
+old	positive	feminine	genitive	ǵr̥h₂n̥tyéh₂s 	❔	ǵr̥h₂n̥tyéh₂oHom		
+old	positive	feminine	ablative	ǵr̥h₂n̥tyéh₂s 	❔	ǵr̥h₂n̥tyéh₂mos 		
+old	positive	feminine	dative	ǵr̥h₂n̥tyéh₂ey	❔	ǵr̥h₂n̥tyéh₂mos 		
+old	positive	feminine	locative	ǵr̥h₂n̥tyéh₂i 	❔	ǵr̥h₂n̥tyéh₂su  		
+old	positive	feminine	instrumental	ǵr̥h₂n̥tyéh₂h₁	❔	ǵr̥h₂n̥tyéh₂bʰi 		
+old	positive	neuter	nominative	ǵérh₂ont      	ǵérh₂ontih₁     	ǵérh₂onth₂      	#	amphikinetic  
+old	positive	neuter	vocative	ǵérh₂ont      	ǵérh₂ontih₁     	ǵérh₂onth₂      	#	amphikinetic  
+old	positive	neuter	accusative	ǵérh₂ont      	ǵérh₂ontih₁     	ǵérh₂onth₂      		
+old	positive	neuter	genitive	ǵr̥h₂n̥tés    	❔	ǵr̥h₂n̥tóHom    		
+old	positive	neuter	ablative	ǵr̥h₂n̥tés    	❔	ǵr̥h₂n̥tmós     		
+old	positive	neuter	dative	ǵr̥h₂n̥téy    	❔	ǵr̥h₂n̥tmós     		
+old	positive	neuter	locative	ǵr̥h₂énti     	❔	ǵr̥h₂n̥tsú      		
+old	positive	neuter	instrumental	ǵr̥h₂n̥téh₁   	❔	ǵr̥h₂n̥tbʰí     		
+old	comparative	masculine	nominative	ǵérh₂ont(é)yōs 	ǵérh₂ont(é)yosh₁(e) 	ǵérh₂ont(é)yoses	#	
+old	comparative	masculine	vocative	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yosh₁(e) 	ǵérh₂ont(é)yoses	#	
+old	comparative	masculine	accusative	ǵérh₂ont(é)yosm̥ 	ǵérh₂ont(é)yosh₁(e) 	ǵérh₂ont(é)yosm̥s		
+old	comparative	masculine	genitive	ǵérh₂ontisés 	❔	ǵérh₂ontisóHom		
+old	comparative	masculine	ablative	ǵérh₂ontisés 	❔	ǵérh₂ontismós		
+old	comparative	masculine	dative	ǵérh₂ontiséy 	❔	ǵérh₂ontismós		
+old	comparative	masculine	locative	ǵérh₂ontyés, ǵérh₂ontyési 	❔	ǵérh₂ontisú		
+old	comparative	masculine	instrumental	ǵérh₂ontiséh₁ 	❔	ǵérh₂ontismís 		
+old	comparative	feminine	nominative	ǵérh₂ontyésih₂ 	ǵérh₂ontyésih₂h₁(e) 	ǵérh₂ontyésih₂es	#	
+old	comparative	feminine	vocative	ǵérh₂ontyésih₂ 	ǵérh₂ontyésih₂h₁(e) 	ǵérh₂ontyésih₂es	#	
+old	comparative	feminine	accusative	ǵérh₂ontyésih₂m̥ 	ǵérh₂ontyésih₂h₁(e) 	ǵérh₂ontyésih₂m̥s		
+old	comparative	feminine	genitive	ǵérh₂ontisyéh₂s 	❔	ǵérh₂ontisyéh₂oHom		
+old	comparative	feminine	ablative	ǵérh₂ontisyéh₂s 	❔	ǵérh₂ontisyéh₂mos		
+old	comparative	feminine	dative	ǵérh₂ontisyéh₂ey 	❔	ǵérh₂ontisyéh₂mos		
+old	comparative	feminine	locative	ǵérh₂ontisyéh₂, ǵérh₂ontisyéh₂i 	❔	ǵérh₂ontisyéh₂su		
+old	comparative	feminine	instrumental	ǵérh₂ontisyéh₂h₁ 	❔	ǵérh₂ontisyéh₂mis 		
+old	comparative	neuter	nominative	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yosih₁ 	ǵérh₂ont(é)yōs	#	
+old	comparative	neuter	vocative	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yosih₁ 	ǵérh₂ont(é)yōs	#	
+old	comparative	neuter	accusative	ǵérh₂ont(é)yos 	ǵérh₂ont(é)yosih₁ 	ǵérh₂ont(é)yōs		
+old	comparative	neuter	genitive	ǵérh₂ontisés 	❔	ǵérh₂ontisóHom		
+old	comparative	neuter	ablative	ǵérh₂ontisés 	❔	ǵérh₂ontismós		
+old	comparative	neuter	dative	ǵérh₂ontiséy 	❔	ǵérh₂ontismós		
+old	comparative	neuter	locative	ǵérh₂ontyés, ǵérh₂ontyési 	❔	ǵérh₂ontisú		
+old	comparative	neuter	instrumental	ǵérh₂ontiséh₁ 	❔	ǵérh₂ontismís 		
+upset	positive	masculine	nominative	tréystis      	tréystih₁(e)    	tréysteyes      	#	proterokinetic
+upset	positive	masculine	vocative	tréysti       	tréystih₁(e)    	tréysteyes      	#	proterokinetic
+upset	positive	masculine	accusative	tréystim      	tréystih₁(e)    	tréystims       		
+upset	positive	masculine	genitive	tristéys      	❔	tristéyoHom     		
+upset	positive	masculine	ablative	tristéys      	❔	tristímos       		
+upset	positive	masculine	dative	tristéyey     	❔	tristímos       		
+upset	positive	masculine	locative	tristḗy       	❔	tristísu        		
+upset	positive	masculine	instrumental	tristíh₁      	❔	tristíbʰi       		
+upset	positive	feminine	nominative	tristéyih₂    	tristéyih₂h₁(e) 	tristéyih₂es    	#	proterokinetic
+upset	positive	feminine	vocative	tristéyih₂    	tristéyih₂h₁(e) 	tristéyih₂es    	#	proterokinetic
+upset	positive	feminine	accusative	tristéyih₂m̥  	tristéyih₂h₁(e) 	tristéyih₂m̥s   		
+upset	positive	feminine	genitive	tristiyéh₂s   	❔	tristiyéh₂oHom  		
+upset	positive	feminine	ablative	tristiyéh₂s   	❔	tristiyéh₂mos   		
+upset	positive	feminine	dative	tristiyéh₂ey  	❔	tristiyéh₂mos   		
+upset	positive	feminine	locative	tristiyéh₂i   	❔	tristiyéh₂su    		
+upset	positive	feminine	instrumental	tristiyéh₂h₁  	❔	tristiyéh₂bʰi   		
+upset	positive	neuter	nominative	tréysti       	tréystyih₁      	tréystih₂       	#	proterokinetic
+upset	positive	neuter	vocative	tréysti       	tréystyih₁      	tréystih₂       	#	proterokinetic
+upset	positive	neuter	accusative	tréysti       	tréystyih₁      	tréystih₂       		
+upset	positive	neuter	genitive	tristéys      	❔	tristéyoHom     		
+upset	positive	neuter	ablative	tristéys      	❔	tristímos       		
+upset	positive	neuter	dative	tristéyey     	❔	tristímos       		
+upset	positive	neuter	locative	tristḗy       	❔	tristísu        		
+upset	positive	neuter	instrumental	tristíh₁      	❔	tristíbʰi       		
+upset	comparative	masculine	nominative	tréyst(é)yōs 	tréyst(é)yosh₁(e) 	tréyst(é)yoses	#	
+upset	comparative	masculine	vocative	tréyst(é)yos 	tréyst(é)yosh₁(e) 	tréyst(é)yoses	#	
+upset	comparative	masculine	accusative	tréyst(é)yosm̥ 	tréyst(é)yosh₁(e) 	tréyst(é)yosm̥s		
+upset	comparative	masculine	genitive	tréystisés 	❔	tréystisóHom		
+upset	comparative	masculine	ablative	tréystisés 	❔	tréystismós		
+upset	comparative	masculine	dative	tréystiséy 	❔	tréystismós		
+upset	comparative	masculine	locative	tréystyés, tréystyési 	❔	tréystisú		
+upset	comparative	masculine	instrumental	tréystiséh₁ 	❔	tréystismís 		
+upset	comparative	feminine	nominative	tréystyésih₂ 	tréystyésih₂h₁(e) 	tréystyésih₂es	#	
+upset	comparative	feminine	vocative	tréystyésih₂ 	tréystyésih₂h₁(e) 	tréystyésih₂es	#	
+upset	comparative	feminine	accusative	tréystyésih₂m̥ 	tréystyésih₂h₁(e) 	tréystyésih₂m̥s		
+upset	comparative	feminine	genitive	tréystisyéh₂s 	❔	tréystisyéh₂oHom		
+upset	comparative	feminine	ablative	tréystisyéh₂s 	❔	tréystisyéh₂mos		
+upset	comparative	feminine	dative	tréystisyéh₂ey 	❔	tréystisyéh₂mos		
+upset	comparative	feminine	locative	tréystisyéh₂, tréystisyéh₂i 	❔	tréystisyéh₂su		
+upset	comparative	feminine	instrumental	tréystisyéh₂h₁ 	❔	tréystisyéh₂mis 		
+upset	comparative	neuter	nominative	tréyst(é)yos 	tréyst(é)yosih₁ 	tréyst(é)yōs	#	
+upset	comparative	neuter	vocative	tréyst(é)yos 	tréyst(é)yosih₁ 	tréyst(é)yōs	#	
+upset	comparative	neuter	accusative	tréyst(é)yos 	tréyst(é)yosih₁ 	tréyst(é)yōs		
+upset	comparative	neuter	genitive	tréystisés 	❔	tréystisóHom		
+upset	comparative	neuter	ablative	tréystisés 	❔	tréystismós		
+upset	comparative	neuter	dative	tréystiséy 	❔	tréystismós		
+upset	comparative	neuter	locative	tréystyés, tréystyési 	❔	tréystisú		
+upset	comparative	neuter	instrumental	tréystiséh₁ 	❔	tréystismís 		
+big	positive	masculine	nominative	méǵh₂s	méǵh₂h₁(e)	méǵh₂es		
+big	positive	masculine	vocative	méǵh₂	méǵh₂h₁(e)	méǵh₂es		
+big	positive	masculine	accusative	méǵh₂m̥	méǵh₂h₁(e)	méǵh₂m̥s		
+big	positive	masculine	genitive	m̥ǵh₂és	❔	m̥ǵh₂óHom		
+big	positive	masculine	ablative	m̥ǵh₂és	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+big	positive	masculine	dative	m̥ǵh₂éy	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+big	positive	masculine	locative	méǵh₂, méǵh₂i	❔	m̥ǵh₂sú		
+big	positive	masculine	instrumental	m̥ǵh₂éh₁	❔	m̥ǵh₂mís, m̥ǵh₂bʰís		
+big	positive	feminine	nominative	méǵh₂ih₂	méǵh₂ih₂h₁(e)	méǵh₂ih₂es		
+big	positive	feminine	vocative	méǵh₂ih₂	méǵh₂ih₂h₁(e)	méǵh₂ih₂es		
+big	positive	feminine	accusative	méǵh₂ih₂m̥	méǵh₂ih₂h₁(e)	méǵh₂ih₂m̥s		
+big	positive	feminine	genitive	m̥ǵyéh₂s	❔	m̥ǵyéh₂oHom		
+big	positive	feminine	ablative	m̥ǵyéh₂s	❔	m̥ǵyéh₂mos, m̥ǵyéh₂bʰos		
+big	positive	feminine	dative	m̥ǵyéh₂ey	❔	m̥ǵyéh₂mos, m̥ǵyéh₂bʰos		
+big	positive	feminine	locative	m̥ǵyéh₂, m̥ǵyéh₂i	❔	m̥ǵyéh₂su		
+big	positive	feminine	instrumental	m̥ǵyéh₂h₁	❔	m̥ǵyéh₂mis, m̥ǵyéh₂bʰis		
+big	positive	neuter	nominative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+big	positive	neuter	vocative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+big	positive	neuter	accusative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+big	positive	neuter	genitive	m̥ǵh₂és	❔	m̥ǵh₂óHom		
+big	positive	neuter	ablative	m̥ǵh₂és	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+big	positive	neuter	dative	m̥ǵh₂éy	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+big	positive	neuter	locative	méǵh₂, méǵh₂i	❔	m̥ǵh₂sú		
+big	positive	neuter	instrumental	m̥ǵh₂éh₁	❔	m̥ǵh₂mís, m̥ǵh₂bʰís		
+large	positive	masculine	nominative	méǵh₂s	méǵh₂h₁(e)	méǵh₂es		
+large	positive	masculine	vocative	méǵh₂	méǵh₂h₁(e)	méǵh₂es		
+large	positive	masculine	accusative	méǵh₂m̥	méǵh₂h₁(e)	méǵh₂m̥s		
+large	positive	masculine	genitive	m̥ǵh₂és	❔	m̥ǵh₂óHom		
+large	positive	masculine	ablative	m̥ǵh₂és	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+large	positive	masculine	dative	m̥ǵh₂éy	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+large	positive	masculine	locative	méǵh₂, méǵh₂i	❔	m̥ǵh₂sú		
+large	positive	masculine	instrumental	m̥ǵh₂éh₁	❔	m̥ǵh₂mís, m̥ǵh₂bʰís		
+large	positive	feminine	nominative	méǵh₂ih₂	méǵh₂ih₂h₁(e)	méǵh₂ih₂es		
+large	positive	feminine	vocative	méǵh₂ih₂	méǵh₂ih₂h₁(e)	méǵh₂ih₂es		
+large	positive	feminine	accusative	méǵh₂ih₂m̥	méǵh₂ih₂h₁(e)	méǵh₂ih₂m̥s		
+large	positive	feminine	genitive	m̥ǵyéh₂s	❔	m̥ǵyéh₂oHom		
+large	positive	feminine	ablative	m̥ǵyéh₂s	❔	m̥ǵyéh₂mos, m̥ǵyéh₂bʰos		
+large	positive	feminine	dative	m̥ǵyéh₂ey	❔	m̥ǵyéh₂mos, m̥ǵyéh₂bʰos		
+large	positive	feminine	locative	m̥ǵyéh₂, m̥ǵyéh₂i	❔	m̥ǵyéh₂su		
+large	positive	feminine	instrumental	m̥ǵyéh₂h₁	❔	m̥ǵyéh₂mis, m̥ǵyéh₂bʰis		
+large	positive	neuter	nominative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+large	positive	neuter	vocative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+large	positive	neuter	accusative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+large	positive	neuter	genitive	m̥ǵh₂és	❔	m̥ǵh₂óHom		
+large	positive	neuter	ablative	m̥ǵh₂és	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+large	positive	neuter	dative	m̥ǵh₂éy	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+large	positive	neuter	locative	méǵh₂, méǵh₂i	❔	m̥ǵh₂sú		
+large	positive	neuter	instrumental	m̥ǵh₂éh₁	❔	m̥ǵh₂mís, m̥ǵh₂bʰís		
+first	positive	masculine	nominative	pr̥h₂wós	pr̥h₂wóh₁	pr̥h₂wóes		
+first	positive	masculine	vocative	pr̥h₂wé	pr̥h₂wóh₁	pr̥h₂wóes		
+first	positive	masculine	accusative	pr̥h₂wóm	pr̥h₂wóh₁	pr̥h₂wóms		
+first	positive	masculine	genitive	pr̥h₂wósyo	❔	pr̥h₂wóHom		
+first	positive	masculine	ablative	pr̥h₂wéad	❔	pr̥h₂wómos, pr̥h₂wóbʰos		
+first	positive	masculine	dative	pr̥h₂wóey	❔	pr̥h₂wómos, pr̥h₂wóbʰos		
+first	positive	masculine	locative	pr̥h₂wéy, pr̥h₂wóy	❔	pr̥h₂wóysu		
+first	positive	masculine	instrumental	pr̥h₂wóh₁	❔	pr̥h₂wṓys		
+first	positive	feminine	nominative	pr̥h₂wéh₂	pr̥h₂wéh₂h₁(e)	pr̥h₂wéh₂es		
+first	positive	feminine	vocative	pr̥h₂wéh₂	pr̥h₂wéh₂h₁(e)	pr̥h₂wéh₂es		
+first	positive	feminine	accusative	pr̥h₂wā́m	pr̥h₂wéh₂h₁(e)	pr̥h₂wéh₂m̥s		
+first	positive	feminine	genitive	pr̥h₂wéh₂s	❔	pr̥h₂wéh₂oHom		
+first	positive	feminine	ablative	pr̥h₂wéh₂s	❔	pr̥h₂wéh₂mos, pr̥h₂wéh₂bʰos		
+first	positive	feminine	dative	pr̥h₂wéh₂ey	❔	pr̥h₂wéh₂mos, pr̥h₂wéh₂bʰos		
+first	positive	feminine	locative	pr̥h₂wéh₂, pr̥h₂wéh₂i	❔	pr̥h₂wéh₂su		
+first	positive	feminine	instrumental	pr̥h₂wéh₂h₁	❔	pr̥h₂wéh₂mis, pr̥h₂wéh₂bʰis		
+first	positive	neuter	nominative	pr̥h₂wóm	pr̥h₂wóy(h₁)	pr̥h₂wéh₂		
+first	positive	neuter	vocative	pr̥h₂wóm	pr̥h₂wóy(h₁)	pr̥h₂wéh₂		
+first	positive	neuter	accusative	pr̥h₂wóm	pr̥h₂wóy(h₁)	pr̥h₂wéh₂		
+first	positive	neuter	genitive	pr̥h₂wósyo	❔	pr̥h₂wóHom		
+first	positive	neuter	ablative	pr̥h₂wéad	❔	pr̥h₂wómos, pr̥h₂wóbʰos		
+first	positive	neuter	dative	pr̥h₂wóey	❔	pr̥h₂wómos, pr̥h₂wóbʰos		
+first	positive	neuter	locative	pr̥h₂wéy, pr̥h₂wóy	❔	pr̥h₂wóysu		
+first	positive	neuter	instrumental	pr̥h₂wóh₁	❔	pr̥h₂wṓys		
+loud	positive	masculine	nominative	méǵh₂s	méǵh₂h₁(e)	méǵh₂es		
+loud	positive	masculine	vocative	méǵh₂	méǵh₂h₁(e)	méǵh₂es		
+loud	positive	masculine	accusative	méǵh₂m̥	méǵh₂h₁(e)	méǵh₂m̥s		
+loud	positive	masculine	genitive	m̥ǵh₂és	❔	m̥ǵh₂óHom		
+loud	positive	masculine	ablative	m̥ǵh₂és	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+loud	positive	masculine	dative	m̥ǵh₂éy	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+loud	positive	masculine	locative	méǵh₂, méǵh₂i	❔	m̥ǵh₂sú		
+loud	positive	masculine	instrumental	m̥ǵh₂éh₁	❔	m̥ǵh₂mís, m̥ǵh₂bʰís		
+loud	positive	feminine	nominative	méǵh₂ih₂	méǵh₂ih₂h₁(e)	méǵh₂ih₂es		
+loud	positive	feminine	vocative	méǵh₂ih₂	méǵh₂ih₂h₁(e)	méǵh₂ih₂es		
+loud	positive	feminine	accusative	méǵh₂ih₂m̥	méǵh₂ih₂h₁(e)	méǵh₂ih₂m̥s		
+loud	positive	feminine	genitive	m̥ǵyéh₂s	❔	m̥ǵyéh₂oHom		
+loud	positive	feminine	ablative	m̥ǵyéh₂s	❔	m̥ǵyéh₂mos, m̥ǵyéh₂bʰos		
+loud	positive	feminine	dative	m̥ǵyéh₂ey	❔	m̥ǵyéh₂mos, m̥ǵyéh₂bʰos		
+loud	positive	feminine	locative	m̥ǵyéh₂, m̥ǵyéh₂i	❔	m̥ǵyéh₂su		
+loud	positive	feminine	instrumental	m̥ǵyéh₂h₁	❔	m̥ǵyéh₂mis, m̥ǵyéh₂bʰis		
+loud	positive	neuter	nominative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+loud	positive	neuter	vocative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+loud	positive	neuter	accusative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+loud	positive	neuter	genitive	m̥ǵh₂és	❔	m̥ǵh₂óHom		
+loud	positive	neuter	ablative	m̥ǵh₂és	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+loud	positive	neuter	dative	m̥ǵh₂éy	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+loud	positive	neuter	locative	méǵh₂, méǵh₂i	❔	m̥ǵh₂sú		
+loud	positive	neuter	instrumental	m̥ǵh₂éh₁	❔	m̥ǵh₂mís, m̥ǵh₂bʰís		
+many	positive	masculine	nominative	méǵh₂s	méǵh₂h₁(e)	méǵh₂es		
+many	positive	masculine	vocative	méǵh₂	méǵh₂h₁(e)	méǵh₂es		
+many	positive	masculine	accusative	méǵh₂m̥	méǵh₂h₁(e)	méǵh₂m̥s		
+many	positive	masculine	genitive	m̥ǵh₂és	❔	m̥ǵh₂óHom		
+many	positive	masculine	ablative	m̥ǵh₂és	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+many	positive	masculine	dative	m̥ǵh₂éy	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+many	positive	masculine	locative	méǵh₂, méǵh₂i	❔	m̥ǵh₂sú		
+many	positive	masculine	instrumental	m̥ǵh₂éh₁	❔	m̥ǵh₂mís, m̥ǵh₂bʰís		
+many	positive	feminine	nominative	méǵh₂ih₂	méǵh₂ih₂h₁(e)	méǵh₂ih₂es		
+many	positive	feminine	vocative	méǵh₂ih₂	méǵh₂ih₂h₁(e)	méǵh₂ih₂es		
+many	positive	feminine	accusative	méǵh₂ih₂m̥	méǵh₂ih₂h₁(e)	méǵh₂ih₂m̥s		
+many	positive	feminine	genitive	m̥ǵyéh₂s	❔	m̥ǵyéh₂oHom		
+many	positive	feminine	ablative	m̥ǵyéh₂s	❔	m̥ǵyéh₂mos, m̥ǵyéh₂bʰos		
+many	positive	feminine	dative	m̥ǵyéh₂ey	❔	m̥ǵyéh₂mos, m̥ǵyéh₂bʰos		
+many	positive	feminine	locative	m̥ǵyéh₂, m̥ǵyéh₂i	❔	m̥ǵyéh₂su		
+many	positive	feminine	instrumental	m̥ǵyéh₂h₁	❔	m̥ǵyéh₂mis, m̥ǵyéh₂bʰis		
+many	positive	neuter	nominative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+many	positive	neuter	vocative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+many	positive	neuter	accusative	méǵh₂	méǵh₂ih₁	méǵh₂h₂		
+many	positive	neuter	genitive	m̥ǵh₂és	❔	m̥ǵh₂óHom		
+many	positive	neuter	ablative	m̥ǵh₂és	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+many	positive	neuter	dative	m̥ǵh₂éy	❔	m̥ǵh₂mós, m̥ǵh₂bʰós		
+many	positive	neuter	locative	méǵh₂, méǵh₂i	❔	m̥ǵh₂sú		
+many	positive	neuter	instrumental	m̥ǵh₂éh₁	❔	m̥ǵh₂mís, m̥ǵh₂bʰís		
+red	positive	masculine	nominative	h₁rudʰrós	h₁rudʰróh₁	h₁rudʰróes		
+red	positive	masculine	vocative	h₁rudʰré	h₁rudʰróh₁	h₁rudʰróes		
+red	positive	masculine	accusative	h₁rudʰróm	h₁rudʰróh₁	h₁rudʰróms		
+red	positive	masculine	genitive	h₁rudʰrósyo	❔	h₁rudʰróHom		
+red	positive	masculine	ablative	h₁rudʰréad	❔	h₁rudʰrómos, h₁rudʰróbʰos		
+red	positive	masculine	dative	h₁rudʰróey	❔	h₁rudʰrómos, h₁rudʰróbʰos		
+red	positive	masculine	locative	h₁rudʰréy, h₁rudʰróy	❔	h₁rudʰróysu		
+red	positive	masculine	instrumental	h₁rudʰróh₁	❔	h₁rudʰrṓys		
+red	positive	feminine	nominative	h₁rudʰréh₂	h₁rudʰréh₂h₁(e)	h₁rudʰréh₂es		
+red	positive	feminine	vocative	h₁rudʰréh₂	h₁rudʰréh₂h₁(e)	h₁rudʰréh₂es		
+red	positive	feminine	accusative	h₁rudʰrā́m	h₁rudʰréh₂h₁(e)	h₁rudʰréh₂m̥s		
+red	positive	feminine	genitive	h₁rudʰréh₂s	❔	h₁rudʰréh₂oHom		
+red	positive	feminine	ablative	h₁rudʰréh₂s	❔	h₁rudʰréh₂mos, h₁rudʰréh₂bʰos		
+red	positive	feminine	dative	h₁rudʰréh₂ey	❔	h₁rudʰréh₂mos, h₁rudʰréh₂bʰos		
+red	positive	feminine	locative	h₁rudʰréh₂, h₁rudʰréh₂i	❔	h₁rudʰréh₂su		
+red	positive	feminine	instrumental	h₁rudʰréh₂h₁	❔	h₁rudʰréh₂mis, h₁rudʰréh₂bʰis		
+red	positive	neuter	nominative	h₁rudʰróm	h₁rudʰróy(h₁)	h₁rudʰréh₂		
+red	positive	neuter	vocative	h₁rudʰróm	h₁rudʰróy(h₁)	h₁rudʰréh₂		
+red	positive	neuter	accusative	h₁rudʰróm	h₁rudʰróy(h₁)	h₁rudʰréh₂		
+red	positive	neuter	genitive	h₁rudʰrósyo	❔	h₁rudʰróHom		
+red	positive	neuter	ablative	h₁rudʰréad	❔	h₁rudʰrómos, h₁rudʰróbʰos		
+red	positive	neuter	dative	h₁rudʰróey	❔	h₁rudʰrómos, h₁rudʰróbʰos		
+red	positive	neuter	locative	h₁rudʰréy, h₁rudʰróy	❔	h₁rudʰróysu		
+red	positive	neuter	instrumental	h₁rudʰróh₁	❔	h₁rudʰrṓys		
+well	positive	masculine	nominative	keh₂ilos	keh₂iloh₁	keh₂iloes		
+well	positive	masculine	vocative	keh₂ile	keh₂iloh₁	keh₂iloes		
+well	positive	masculine	accusative	keh₂ilom	keh₂iloh₁	keh₂iloms		
+well	positive	masculine	genitive	keh₂ilosyo	❔	keh₂iloHom		
+well	positive	masculine	ablative	keh₂ilead	❔	keh₂ilomos, keh₂ilobʰos		
+well	positive	masculine	dative	keh₂iloey	❔	keh₂ilomos, keh₂ilobʰos		
+well	positive	masculine	locative	keh₂iley, keh₂iloy	❔	keh₂iloysu		
+well	positive	masculine	instrumental	keh₂iloh₁	❔	keh₂ilōys		
+well	positive	feminine	nominative	keh₂ileh₂	keh₂ileh₂h₁(e)	keh₂ileh₂es		
+well	positive	feminine	vocative	keh₂ileh₂	keh₂ileh₂h₁(e)	keh₂ileh₂es		
+well	positive	feminine	accusative	keh₂ilām	keh₂ileh₂h₁(e)	keh₂ileh₂m̥s		
+well	positive	feminine	genitive	keh₂ileh₂s	❔	keh₂ileh₂oHom		
+well	positive	feminine	ablative	keh₂ileh₂s	❔	keh₂ileh₂mos, keh₂ileh₂bʰos		
+well	positive	feminine	dative	keh₂ileh₂ey	❔	keh₂ileh₂mos, keh₂ileh₂bʰos		
+well	positive	feminine	locative	keh₂ileh₂, keh₂ileh₂i	❔	keh₂ileh₂su		
+well	positive	feminine	instrumental	keh₂ileh₂h₁	❔	keh₂ileh₂mis, keh₂ileh₂bʰis		
+well	positive	neuter	nominative	keh₂ilom	keh₂iloy(h₁)	keh₂ileh₂		
+well	positive	neuter	vocative	keh₂ilom	keh₂iloy(h₁)	keh₂ileh₂		
+well	positive	neuter	accusative	keh₂ilom	keh₂iloy(h₁)	keh₂ileh₂		
+well	positive	neuter	genitive	keh₂ilosyo	❔	keh₂iloHom		
+well	positive	neuter	ablative	keh₂ilead	❔	keh₂ilomos, keh₂ilobʰos		
+well	positive	neuter	dative	keh₂iloey	❔	keh₂ilomos, keh₂ilobʰos		
+well	positive	neuter	locative	keh₂iley, keh₂iloy	❔	keh₂iloysu		
+well	positive	neuter	instrumental	keh₂iloh₁	❔	keh₂ilōys		
+other		masculine	nominative	h₂élyos	h₂élyoh₁	h₂élyoy		
+other		masculine	accusative	h₂élyom	h₂élyoh₁	h₂élyoms		
+other		masculine	genitive	h₂élyosyo	❔	h₂élyoysoHom		
+other		masculine	ablative	h₂élyosmead	❔	h₂élyoymos, h₂élyoybʰos		
+other		masculine	dative	h₂élyosmey	❔	h₂élyoymos, h₂élyoybʰos		
+other		masculine	locative	h₂élyosmi	❔	h₂élyoysu		
+other		masculine	instrumental	h₂élyonoh₁	❔	h₂élyōys		
+other		feminine	nominative	h₂élyeh₂	❔	h₂élyeh₂es		
+other		feminine	accusative	h₂élyām	❔	h₂élyeh₂m̥s		
+other		feminine	genitive	h₂élyosyeh₂s	❔	h₂élyeh₂soHom		
+other		feminine	ablative	h₂élyosyeh₂s	❔	h₂élyeh₂mos, h₂élyeh₂bʰos		
+other		feminine	dative	h₂élyosyeh₂ey	❔	h₂élyeh₂mos, h₂élyeh₂bʰos		
+other		feminine	locative	h₂élyosyeh₂	❔	h₂élyeh₂su		
+other		feminine	instrumental	h₂élyeh₂(e)h₁	❔	h₂élyeh₂mis, h₂élyeh₂bʰis		
+other		neuter	nominative	h₂élyod	h₂élyoy	h₂élyeh₂		
+other		neuter	accusative	h₂élyod	h₂élyoy	h₂élyeh₂		
+other		neuter	genitive	h₂élyosyo	❔	h₂élyoysoHom		
+other		neuter	ablative	h₂élyosmead	❔	h₂élyoymos, h₂élyoybʰos		
+other		neuter	dative	h₂élyosmey	❔	h₂élyoymos, h₂élyoybʰos		
+other		neuter	locative	h₂élyosmi	❔	h₂élyoysu		
+other		neuter	instrumental	h₂élyonoh₁	❔	h₂élyōys		

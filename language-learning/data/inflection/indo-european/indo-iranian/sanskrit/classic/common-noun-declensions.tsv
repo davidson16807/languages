@@ -1,99 +1,866 @@
-		transcribed	transcribed	translated	transcribed	translated	transcribed	translated	transcribed	translated	translated	translated	transcribed	translated	transcribed	translated	transcribed		
-		nominative	vocative	nominative	accusative	vocative	instrumental	accusative	dative	instrumental	ablative	dative	ablative	genitive	genitive	locative	locative		
-god	singular	देवः	देव	deváḥ	देवम्	déva	देवेन	devám	देवाय	devéna	devā́t	devā́ya	देवात्	devásya	देवस्य	devé	देवे	a-stem	masculine
-god	dual	देवौ	देवौ	devaú	देवौ	dévau	देवाभ्याम्	devaú	देवाभ्याम्	devā́bhyām	devā́bhyām	devā́bhyām	देवाभ्याम्	deváyoḥ	देवयोः	deváyoḥ	देवयोः	a-stem	masculine
-god	plural	देवाः / देवासः¹	देवाः / देवासः¹	devā́ḥ / devā́saḥ¹	देवान्	dévāḥ / dévāsaḥ¹	देवैः / देवेभिः¹	devā́n	देवेभ्यः	devaíḥ / devébhiḥ¹	devébhyaḥ	devébhyaḥ	देवेभ्यः	devā́nām	देवानाम्	devéṣu	देवेषु	a-stem	masculine
-desire	singular	कामः	काम	kā́maḥ	कामम्	kā́ma	कामेन	kā́mam	कामाय	kā́mena	kā́māt	kā́māya	कामात्	kā́masya	कामस्य	kā́me	कामे	a-stem	masculine
-desire	dual	कामौ	कामौ	kā́mau	कामौ	kā́mau	कामाभ्याम्	kā́mau	कामाभ्याम्	kā́mābhyām	kā́mābhyām	kā́mābhyām	कामाभ्याम्	kā́mayoḥ	कामयोः	kā́mayoḥ	कामयोः	a-stem	masculine
-desire	plural	कामाः / कामासः¹	कामाः / कामासः¹	kā́māḥ / kā́māsaḥ¹	कामान्	kā́māḥ / kā́māsaḥ¹	कामैः / कामेभिः¹	kā́mān	कामेभ्यः	kā́maiḥ / kā́mebhiḥ¹	kā́mebhyaḥ	kā́mebhyaḥ	कामेभ्यः	kā́mānām	कामानाम्	kā́meṣu	कामेषु	a-stem	masculine
-yoke	singular	युगम्	युग	yugám	युगम्	yúga	युगेन	yugám	युगाय	yugéna	yugā́t	yugā́ya	युगात्	yugásya	युगस्य	yugé	युगे	a-stem	neuter
-yoke	dual	युगे	युगे	yugé	युगे	yúge	युगाभ्याम्	yugé	युगाभ्याम्	yugā́bhyām	yugā́bhyām	yugā́bhyām	युगाभ्याम्	yugáyoḥ	युगयोः	yugáyoḥ	युगयोः	a-stem	neuter
-yoke	plural	युगानि / युगा¹	युगानि / युगा¹	yugā́ni / yugā́¹	युगानि / युगा¹	yúgāni / yúgā¹	युगैः / युगेभिः¹	yugā́ni / yugā́¹	युगेभ्यः	yugaíḥ / yugébhiḥ¹	yugébhyaḥ	yugébhyaḥ	युगेभ्यः	yugā́nām	युगानाम्	yugéṣu	युगेषु	a-stem	neuter
-fruit	singular	फलम्	फल	phálam	फलम्	phála	फलेन	phálam	फलाय	phálena	phálāt	phálāya	फलात्	phálasya	फलस्य	phále	फले	a-stem	neuter
-fruit	dual	फले	फले	phále	फले	phále	फलाभ्याम्	phále	फलाभ्याम्	phálābhyām	phálābhyām	phálābhyām	फलाभ्याम्	phálayoḥ	फलयोः	phálayoḥ	फलयोः	a-stem	neuter
-fruit	plural	फलानि / फला¹	फलानि / फला¹	phálāni / phálā¹	फलानि / फला¹	phálāni / phálā¹	फलैः / फलेभिः¹	phálāni / phálā¹	फलेभ्यः	phálaiḥ / phálebhiḥ¹	phálebhyaḥ	phálebhyaḥ	फलेभ्यः	phálānām	फलानाम्	pháleṣu	फलेषु	a-stem	neuter
-Agni	singular	अग्निः	अग्ने	agníḥ	अग्निम्	ágne	अग्निना / अग्न्या¹	agním	अग्नये / अग्न्ये²	agnínā / agnyā̀¹	agnéḥ / agnyàḥ²	agnáye / agnyè²	अग्नेः / अग्न्यः²	agnéḥ / agnyàḥ²	अग्नेः / अग्न्यः²	agnaú	अग्नौ	i-stem	masculine
-Agni	dual	अग्नी	अग्नी	agnī́	अग्नी	ágnī	अग्निभ्याम्	agnī́	अग्निभ्याम्	agníbhyām	agníbhyām	agníbhyām	अग्निभ्याम्	agnyóḥ	अग्न्योः	agnyóḥ	अग्न्योः	i-stem	masculine
-Agni	plural	अग्नयः	अग्नयः	agnáyaḥ	अग्नीन्	ágnayaḥ	अग्निभिः	agnī́n	अग्निभ्यः	agníbhiḥ	agníbhyaḥ	agníbhyaḥ	अग्निभ्यः	agnīnā́m	अग्नीनाम्	agníṣu	अग्निषु	i-stem	masculine
-motion	singular	गतिः	गते	gátiḥ	गतिम्	gáte	गत्या	gátim	गतये / गत्ये¹ / गत्यै²	gátyā	gáteḥ / gátyāḥ²	gátaye / gátye¹ / gátyai²	गतेः / गत्याः²	gáteḥ / gátyāḥ²	गतेः / गत्याः²	gátau / gátyām²	गतौ / गत्याम्²	i-stem	feminine
-motion	dual	गती	गती	gátī	गती	gátī	गतिभ्याम्	gátī	गतिभ्याम्	gátibhyām	gátibhyām	gátibhyām	गतिभ्याम्	gátyoḥ	गत्योः	gátyoḥ	गत्योः	i-stem	feminine
-motion	plural	गतयः	गतयः	gátayaḥ	गतीः	gátayaḥ	गतिभिः	gátīḥ	गतिभ्यः	gátibhiḥ	gátibhyaḥ	gátibhyaḥ	गतिभ्यः	gátīnām	गतीनाम्	gátiṣu	गतिषु	i-stem	feminine
-water	singular	वारि	वारि / वारे	vā́ri	वारि	vā́ri / vā́re	वारिणा / वार्या²	vā́ri	वारये / वार्ये³	vā́riṇā / vā́ryā²	vā́reḥ / vā́riṇaḥ¹ / vā́ryaḥ³	vā́raye / vā́rye³	वारेः / वारिणः¹ / वार्यः³	vā́reḥ / vā́riṇaḥ¹ / vā́ryaḥ³	वारेः / वारिणः¹ / वार्यः³	vā́riṇi	वारिणि	i-stem	neuter
-water	dual	वारिणी	वारिणी	vā́riṇī	वारिणी	vā́riṇī	वारिभ्याम्	vā́riṇī	वारिभ्याम्	vā́ribhyām	vā́ribhyām	vā́ribhyām	वारिभ्याम्	vā́riṇoḥ	वारिणोः	vā́riṇoḥ	वारिणोः	i-stem	neuter
-water	plural	वारी / वारि / वारीणि¹	वारी / वारि / वारीणि¹	vā́rī / vā́ri / vā́rīṇi¹	वारी / वारि / वारीणि¹	vā́rī / vā́ri / vā́rīṇi¹	वारिभिः	vā́rī / vā́ri / vā́rīṇi¹	वारिभ्यः	vā́ribhiḥ	vā́ribhyaḥ	vā́ribhyaḥ	वारिभ्यः	vā́rīṇām	वारीणाम्	vā́riṣu	वारिषु	i-stem	neuter
-enemy	singular	शत्रुः	शत्रो	śátruḥ	शत्रुम्	śátro	शत्रुणा / शत्र्वा¹	śátrum	शत्रवे / शत्र्वे²	śátruṇā / śátrvā¹	śátroḥ / śátrvaḥ²	śátrave / śátrve²	शत्रोः / शत्र्वः²	śátroḥ / śátrvaḥ²	शत्रोः / शत्र्वः²	śátrau	शत्रौ	u-stem	masculine
-enemy	dual	शत्रू	शत्रू	śátrū	शत्रू	śátrū	शत्रुभ्याम्	śátrū	शत्रुभ्याम्	śátrubhyām	śátrubhyām	śátrubhyām	शत्रुभ्याम्	śátrvoḥ	शत्र्वोः	śátrvoḥ	शत्र्वोः	u-stem	masculine
-enemy	plural	शत्रवः	शत्रवः	śátravaḥ	शत्रून्	śátravaḥ	शत्रुभिः	śátrūn	शत्रुभ्यः	śátrubhiḥ	śátrubhyaḥ	śátrubhyaḥ	शत्रुभ्यः	śátrūṇām	शत्रूणाम्	śátruṣu	शत्रुषु	u-stem	masculine
-cow	singular	धेनुः	धेनो	dhenúḥ	धेनुम्	dhéno	धेन्वा	dhenúm	धेनवे / धेन्वे¹ / धेन्वै²	dhenvā̀	dhenóḥ / dhenvā̀ḥ²	dhenáve / dhenvè¹ / dhenvaì²	धेनोः / धेन्वाः²	dhenóḥ / dhenvā̀ḥ²	धेनोः / धेन्वाः²	dhenaú / dhenvā̀m²	धेनौ / धेन्वाम्²	u-stem	feminine
-cow	dual	धेनू	धेनू	dhenū́	धेनू	dhénū	धेनुभ्याम्	dhenū́	धेनुभ्याम्	dhenúbhyām	dhenúbhyām	dhenúbhyām	धेनुभ्याम्	dhenvóḥ	धेन्वोः	dhenvóḥ	धेन्वोः	u-stem	feminine
-cow	plural	धेनवः	धेनवः	dhenávaḥ	धेनूः	dhénavaḥ	धेनुभिः	dhenū́ḥ	धेनुभ्यः	dhenúbhiḥ	dhenúbhyaḥ	dhenúbhyaḥ	धेनुभ्यः	dhenūnā́m	धेनूनाम्	dhenúṣu	धेनुषु	u-stem	feminine
-honey	singular	मधु	मधु / मधो	mádhu	मधु	mádhu / mádho	मधुना / मध्वा²	mádhu	मधवे / मध्वे³ / मधुने²	mádhunā / mádhvā²	mádhoḥ / mádhunaḥ¹ / mádhvaḥ³	mádhave / mádhve³ / mádhune²	मधोः / मधुनः¹ / मध्वः³	mádhoḥ / mádhunaḥ¹ / mádhvaḥ³	मधोः / मधुनः¹ / मध्वः³	mádhuni / mádhau²	मधुनि / मधौ²	u-stem	neuter
-honey	dual	मधुनी	मधुनी	mádhunī	मधुनी	mádhunī	मधुभ्याम्	mádhunī	मधुभ्याम्	mádhubhyām	mádhubhyām	mádhubhyām	मधुभ्याम्	mádhunoḥ	मधुनोः	mádhunoḥ	मधुनोः	u-stem	neuter
-honey	plural	मधू / मधु / मधूनि¹	मधू / मधु / मधूनि¹	mádhū / mádhu / mádhūni¹	मधू / मधु / मधूनि¹	mádhū / mádhu / mádhūni¹	मधुभिः	mádhū / mádhu / mádhūni¹	मधुभ्यः	mádhubhiḥ	mádhubhyaḥ	mádhubhyaḥ	मधुभ्यः	mádhūnām	मधूनाम्	mádhuṣu	मधुषु	u-stem	neuter
-father	singular	पिता	पितः	pitā́	पितरम्	pítaḥ	पित्रा	pitáram	पित्रे	pitrā́	pitúḥ	pitré	पितुः	pitúḥ	पितुः	pitári	पितरि	r-stem	masculine
-father	dual	पितरौ / पितरा¹	पितरौ / पितरा¹	pitárau / pitárā¹	पितरौ / पितरा¹	pítarau / pítarā¹	पितृभ्याम्	pitárau / pitárā¹	पितृभ्याम्	pitṛ́bhyām	pitṛ́bhyām	pitṛ́bhyām	पितृभ्याम्	pitróḥ	पित्रोः	pitróḥ	पित्रोः	r-stem	masculine
-father	plural	पितरः	पितरः	pitáraḥ	पितॄन् / पितरः	pítaraḥ	पितृभिः	pitṝ́n / pitaraḥ	पितृभ्यः	pitṛ́bhiḥ	pitṛ́bhyaḥ	pitṛ́bhyaḥ	पितृभ्यः	pitṝṇā́m	पितॄणाम्	pitṛ́ṣu	पितृषु	r-stem	masculine
-brother	singular	भ्राता	भ्रातः	bhrā́tā	भ्रातरम्	bhrā́taḥ	भ्रात्रा	bhrā́taram	भ्रात्रे	bhrā́trā	bhrā́tuḥ	bhrā́tre	भ्रातुः	bhrā́tuḥ	भ्रातुः	bhrā́tari	भ्रातरि	r-stem	masculine
-brother	dual	भ्रातरौ / भ्रातरा¹	भ्रातरौ / भ्रातरा¹	bhrā́tarau / bhrā́tarā¹	भ्रातरौ / भ्रातरा¹	bhrā́tarau / bhrā́tarā¹	भ्रातृभ्याम्	bhrā́tarau / bhrā́tarā¹	भ्रातृभ्याम्	bhrā́tṛbhyām	bhrā́tṛbhyām	bhrā́tṛbhyām	भ्रातृभ्याम्	bhrā́troḥ	भ्रात्रोः	bhrā́troḥ	भ्रात्रोः	r-stem	masculine
-brother	plural	भ्रातरः	भ्रातरः	bhrā́taraḥ	भ्रातॄन्	bhrā́taraḥ	भ्रातृभिः	bhrā́tṝn	भ्रातृभ्यः	bhrā́tṛbhiḥ	bhrā́tṛbhyaḥ	bhrā́tṛbhyaḥ	भ्रातृभ्यः	bhrā́tṝṇām	भ्रातॄणाम्	bhrā́tṛṣu	भ्रातृषु	r-stem	masculine
-sister	singular	स्वसा	स्वसः	svásā	स्वसरम्	svásaḥ	स्वोरा	svásaram	स्वोरे	svórā	svásuḥ	svóre	स्वसुः	svásuḥ	स्वसुः	svásari	स्वसरि	r-stem	feminine
-sister	dual	स्वसरौ / स्वसरा¹	स्वसरौ / स्वसरा¹	svásarau / svásarā¹	स्वसरौ / स्वसरा¹	svásarau / svásarā¹	स्वसृभ्याम्	svásarau / svásarā¹	स्वसृभ्याम्	svásṛbhyām	svásṛbhyām	svásṛbhyām	स्वसृभ्याम्	svóroḥ	स्वोरोः	svóroḥ	स्वोरोः	r-stem	feminine
-sister	plural	स्वसरः	स्वसरः	svásaraḥ	स्वसॄः	svásaraḥ	स्वसृभिः	svásṝḥ	स्वसृभ्यः	svásṛbhiḥ	svásṛbhyaḥ	svásṛbhyaḥ	स्वसृभ्यः	svásṝṇām	स्वसॄणाम्	svásṛṣu	स्वसृषु	r-stem	feminine
-army	singular	सेना	सेने	sénā	सेनाम्	séne	सेनया / सेना¹	sénām	सेनायै	sénayā / sénā¹	sénāyāḥ	sénāyai	सेनायाः	sénāyāḥ	सेनायाः	sénāyām	सेनायाम्	ā-stem	feminine
-army	dual	सेने	सेने	séne	सेने	séne	सेनाभ्याम्	séne	सेनाभ्याम्	sénābhyām	sénābhyām	sénābhyām	सेनाभ्याम्	sénayoḥ	सेनयोः	sénayoḥ	सेनयोः	ā-stem	feminine
-army	plural	सेनाः	सेनाः	sénāḥ	सेनाः	sénāḥ	सेनाभिः	sénāḥ	सेनाभ्यः	sénābhiḥ	sénābhyaḥ	sénābhyaḥ	सेनाभ्यः	sénānām	सेनानाम्	sénāsu	सेनासु	ā-stem	feminine
-maiden	singular	कन्या	कन्ये	kanyā̀	कन्याम्	kánye	कन्यया / कन्या¹	kanyā̀m	कन्यायै	kanyàyā / kanyā̀¹	kanyā̀yāḥ	kanyā̀yai	कन्यायाः	kanyā̀yāḥ	कन्यायाः	kanyā̀yām	कन्यायाम्	ā-stem	feminine
-maiden	dual	कन्ये	कन्ये	kanyè	कन्ये	kánye	कन्याभ्याम्	kanyè	कन्याभ्याम्	kanyā̀bhyām	kanyā̀bhyām	kanyā̀bhyām	कन्याभ्याम्	kanyàyoḥ	कन्ययोः	kanyàyoḥ	कन्ययोः	ā-stem	feminine
-maiden	plural	कन्याः	कन्याः	kanyā̀ḥ	कन्याः	kányāḥ	कन्याभिः	kanyā̀ḥ	कन्याभ्यः	kanyā̀bhiḥ	kanyā̀bhyaḥ	kanyā̀bhyaḥ	कन्याभ्यः	kanyā̀nām	कन्यानाम्	kanyā̀su	कन्यासु	ā-stem	feminine
-goddess	singular	देवी	देवि	dévī	देवीम्	dévi	देव्या	dévīm	देव्यै	dévyā	dévyāḥ	dévyai	देव्याः	dévyāḥ	देव्याः	dévyām	देव्याम्	ī-stem	feminine
-goddess	dual	देव्यौ / देवी¹	देव्यौ / देवी¹	dévyau / dévī¹	देव्यौ / देवी¹	dévyau / dévī¹	देवीभ्याम्	dévyau / dévī¹	देवीभ्याम्	dévībhyām	dévībhyām	dévībhyām	देवीभ्याम्	dévyoḥ	देव्योः	dévyoḥ	देव्योः	ī-stem	feminine
-goddess	plural	देव्यः / देवीः¹	देव्यः / देवीः¹	dévyaḥ / dévīḥ¹	देवीः	dévyaḥ / dévīḥ¹	देवीभिः	dévīḥ	देवीभ्यः	dévībhiḥ	dévībhyaḥ	dévībhyaḥ	देवीभ्यः	dévīnām	देवीनाम्	dévīṣu	देवीषु	ī-stem	feminine
-wife	singular	वधूः	वधु	vadhū́ḥ	वधूम्	vádhu	वध्वा	vadhū́m	वध्वै	vadhvā̀	vadhvā̀ḥ	vadhvaì	वध्वाः	vadhvā̀ḥ	वध्वाः	vadhvā̀m	वध्वाम्	ū-stem	feminine
-wife	dual	वध्वौ / वधू¹	वध्वौ / वधू¹	vadhvaù / vadhū́¹	वध्वौ / वधू¹	vádhvau / vadhū́¹	वधूभ्याम्	vadhvaù / vadhū́¹	वधूभ्याम्	vadhū́bhyām	vadhū́bhyām	vadhū́bhyām	वधूभ्याम्	vadhvòḥ	वध्वोः	vadhvòḥ	वध्वोः	ū-stem	feminine
-wife	plural	वध्वः / वधूः¹	वध्वः / वधूः¹	vadhvàḥ / vadhū́ḥ¹	वधूः	vádhvaḥ / vádhūḥ¹	वधूभिः	vadhū́ḥ	वधूभ्यः	vadhū́bhiḥ	vadhū́bhyaḥ	vadhū́bhyaḥ	वधूभ्यः	vadhū́nām	वधूनाम्	vadhū́ṣu	वधूषु	ū-stem	feminine
-mind	singular	मनः	मनः	mánaḥ	मनः	mánaḥ	मनसा	mánaḥ	मनसे	mánasā	mánasaḥ	mánase	मनसः	mánasaḥ	मनसः	mánasi	मनसि	as-stem	neuter
-mind	dual	मनसी	मनसी	mánasī	मनसी	mánasī	मनोभ्याम्	mánasī	मनोभ्याम्	mánobhyām	mánobhyām	mánobhyām	मनोभ्याम्	mánasoḥ	मनसोः	mánasoḥ	मनसोः	as-stem	neuter
-mind	plural	मनांसि	मनांसि	mánāṃsi	मनांसि	mánāṃsi	मनोभिः	mánāṃsi	मनोभ्यः	mánobhiḥ	mánobhyaḥ	mánobhyaḥ	मनोभ्यः	mánasām	मनसाम्	mánaḥsu	मनःसु	as-stem	neuter
-name	singular	नाम	नामन् / नाम	nā́ma	नाम	nā́man / nā́ma	नाम्ना	nā́ma	नाम्ने	nā́mnā	nā́mnaḥ	nā́mne	नाम्नः	nā́mnaḥ	नाम्नः	nā́mni / nā́mani	नाम्नि / नामनि	an-stem	neuter
-name	dual	नाम्नी / नामनी	नाम्नी / नामनी	nā́mnī / nā́manī	नाम्नी / नामनी	nā́mnī / nā́manī	नामभ्याम्	nā́mnī / nā́manī	नामभ्याम्	nā́mabhyām	nā́mabhyām	nā́mabhyām	नामभ्याम्	nā́mnoḥ	नाम्नोः	nā́mnoḥ	नाम्नोः	an-stem	neuter
-name	plural	नामानि	नामानि	nā́māni	नामानि	nā́māni	नामभिः	nā́māni	नामभ्यः	nā́mabhiḥ	nā́mabhyaḥ	nā́mabhyaḥ	नामभ्यः	nā́mnām	नाम्नाम्	nā́masu	नामसु	an-stem	neuter
-king	singular	राजा	राजन्	rā́jā	राजानम्	rā́jan	राज्ञा	rā́jānam	राज्ञे	rā́jñā	rā́jñaḥ	rā́jñe	राज्ञः	rā́jñaḥ	राज्ञः	rā́jñi / rā́jani	राज्ञि / राजनि	an-stem	masculine
-king	dual	राजानौ / राजाना¹	राजानौ / राजाना¹	rā́jānau / rā́jānā¹	राजानौ / राजाना¹	rā́jānau / rā́jānā¹	राजभ्याम्	rā́jānau / rā́jānā¹	राजभ्याम्	rā́jabhyām	rā́jabhyām	rā́jabhyām	राजभ्याम्	rā́jñoḥ	राज्ञोः	rā́jñoḥ	राज्ञोः	an-stem	masculine
-king	plural	राजानः	राजानः	rā́jānaḥ	राज्ञः	rā́jānaḥ	राजभिः	rā́jñaḥ	राजभ्यः	rā́jabhiḥ	rā́jabhyaḥ	rā́jabhyaḥ	राजभ्यः	rā́jñām	राज्ञाम्	rā́jasu	राजसु	an-stem	masculine
-yogi	singular	योगी	योगिन्	yogī	योगिनम्	yogin	योगिना	yoginam	योगिने	yoginā	yoginaḥ	yogine	योगिनः	yoginaḥ	योगिनः	yogini	योगिनि	in-stem	masculine
-yogi	dual	योगिनौ / योगिना¹	योगिनौ / योगिना¹	yoginau / yoginā¹	योगिनौ / योगिना¹	yoginau / yoginā¹	योगिभ्याम्	yoginau / yoginā¹	योगिभ्याम्	yogibhyām	yogibhyām	yogibhyām	योगिभ्याम्	yoginoḥ	योगिनोः	yoginoḥ	योगिनोः	in-stem	masculine
-yogi	plural	योगिनः	योगिनः	yoginaḥ	योगिनः	yoginaḥ	योगिभिः	yoginaḥ	योगिभ्यः	yogibhiḥ	yogibhyaḥ	yogibhyaḥ	योगिभ्यः	yoginām	योगिनाम्	yogiṣu	योगिषु	in-stem	masculine
-wind	singular	जगन्	जगन्	jagan	जगन्तम्	jagan	जगता	jagantam	जगते	jagatā	jagataḥ	jagate	जगतः	jagataḥ	जगतः	jagati	जगति	at-stem	masculine
-wind	dual	जगन्तौ	जगन्तौ	jagantau	जगन्तौ	jagantau	जगद्भ्याम्	jagantau	जगद्भ्याम्	jagadbhyām	jagadbhyām	jagadbhyām	जगद्भ्याम्	jagatoḥ	जगतोः	jagatoḥ	जगतोः	at-stem	masculine
-wind	plural	जगन्तः	जगन्तः	jagantaḥ	जगतः	jagantaḥ	जगद्भिः	jagataḥ	जगद्भ्यः	jagadbhiḥ	jagadbhyaḥ	jagadbhyaḥ	जगद्भ्यः	jagatām	जगताम्	jagatsu	जगत्सु	at-stem	masculine
-world	singular	जक्	जक्	jak	जक्	jak	जगता	jak	जगते	jagatā	jagataḥ	jagate	जगतः	jagataḥ	जगतः	jagati	जगति	at-stem	neuter
-world	dual	जगती	जगती	jagatī	जगती	jagatī	जगद्भ्याम्	jagatī	जगद्भ्याम्	jagadbhyām	jagadbhyām	jagadbhyām	जगद्भ्याम्	jagatoḥ	जगतोः	jagatoḥ	जगतोः	at-stem	neuter
-world	plural	जग्न्ति	जग्न्ति	jagnti	जग्न्ति	jagnti	जगद्भिः	jagnti	जगद्भ्यः	jagadbhiḥ	jagadbhyaḥ	jagadbhyaḥ	जगद्भ्यः	jagatām	जगताम्	jagatsu	जगत्सु	at-stem	neuter
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
-																			
+*	*	singular	singular	dual	dual	plural	plural	#							
+*	*	devanagari	latin	devanagari	latin	devanagari	latin	#							
+god	nominative	दे॒वः	deváḥ	दे॒वौ, दे॒वा1, 1	deváu / devā́	दे॒वाः, दे॒वासः॑1, 1	devā́ḥ / devā́saḥ	#	a-stem	masculine					
+god	accusative	दे॒वम्	devám	दे॒वौ, दे॒वा1, 1	deváu / devā́	दे॒वान्	devā́n	#							
+god	instrumental	दे॒वेन॑	devéna	दे॒वाभ्या॑म्	devā́bhyām	दे॒वैः, दे॒वेभिः॑1, 1	deváiḥ / devébhiḥ	#							
+god	dative	दे॒वाय॑	devā́ya	दे॒वाभ्या॑म्	devā́bhyām	दे॒वेभ्यः॑	devébhyaḥ	#							
+god	ablative	दे॒वात्	devā́t	दे॒वाभ्या॑म्	devā́bhyām	दे॒वेभ्यः॑	devébhyaḥ	#							
+god	genitive	दे॒वस्य॑	devásya	दे॒वयोः॑	deváyoḥ	दे॒वाना॑म्, दे॒वान्2, 2	devā́nām / devā́n	#							
+god	locative	दे॒वे	devé	दे॒वयोः॑	deváyoḥ	दे॒वेषु॑	devéṣu	#							
+god	vocative	देव॑	déva	देवौ॑, देवा॑1, 1	dévau / dévā	देवाः॑, देवा॑सः1, 1	dévāḥ / dévāsaḥ	#							
+desire	nominative	कामः	kā́maḥ	कामौ	kā́mau	कामाः / कामासः¹	kā́māḥ / kā́māsaḥ¹	#	a-stem	masculine					
+desire	accusative	कामम्	kā́mam	कामौ	kā́mau	कामान्	kā́mān	#							
+desire	instrumental	कामेन	kā́mena	कामाभ्याम्	kā́mābhyām	कामैः / कामेभिः¹	kā́maiḥ / kā́mebhiḥ¹	#							
+desire	dative	कामाय	kā́māya	कामाभ्याम्	kā́mābhyām	कामेभ्यः	kā́mebhyaḥ	#							
+desire	ablative	कामात्	kā́māt	कामाभ्याम्	kā́mābhyām	कामेभ्यः	kā́mebhyaḥ	#							
+desire	genitive	कामस्य	kā́masya	कामयोः	kā́mayoḥ	कामानाम्	kā́mānām	#							
+desire	locative	कामे	kā́me	कामयोः	kā́mayoḥ	कामेषु	kā́meṣu	#							
+desire	vocative	काम	kā́ma	कामौ	kā́mau	कामाः / कामासः¹	kā́māḥ / kā́māsaḥ¹	#							
+yoke	nominative	युगम्	yugám	युगे	yugé	युगानि / युगा¹	yugā́ni / yugā́¹	#	a-stem	neuter					
+yoke	accusative	युगम्	yugám	युगे	yugé	युगानि / युगा¹	yugā́ni / yugā́¹	#							
+yoke	instrumental	युगेन	yugéna	युगाभ्याम्	yugā́bhyām	युगैः / युगेभिः¹	yugaíḥ / yugébhiḥ¹	#							
+yoke	dative	युगाय	yugā́ya	युगाभ्याम्	yugā́bhyām	युगेभ्यः	yugébhyaḥ	#							
+yoke	ablative	युगात्	yugā́t	युगाभ्याम्	yugā́bhyām	युगेभ्यः	yugébhyaḥ	#							
+yoke	genitive	युगस्य	yugásya	युगयोः	yugáyoḥ	युगानाम्	yugā́nām	#							
+yoke	locative	युगे	yugé	युगयोः	yugáyoḥ	युगेषु	yugéṣu	#							
+yoke	vocative	युग	yúga	युगे	yúge	युगानि / युगा¹	yúgāni / yúgā¹	#							
+fruit	nominative	फलम्	phálam	फले	phále	फलानि / फला¹	phálāni / phálā¹	#	a-stem	neuter					
+fruit	accusative	फलम्	phálam	फले	phále	फलानि / फला¹	phálāni / phálā¹	#							
+fruit	instrumental	फलेन	phálena	फलाभ्याम्	phálābhyām	फलैः / फलेभिः¹	phálaiḥ / phálebhiḥ¹	#							
+fruit	dative	फलाय	phálāya	फलाभ्याम्	phálābhyām	फलेभ्यः	phálebhyaḥ	#							
+fruit	ablative	फलात्	phálāt	फलाभ्याम्	phálābhyām	फलेभ्यः	phálebhyaḥ	#							
+fruit	genitive	फलस्य	phálasya	फलयोः	phálayoḥ	फलानाम्	phálānām	#							
+fruit	locative	फले	phále	फलयोः	phálayoḥ	फलेषु	pháleṣu	#							
+fruit	vocative	फल	phála	फले	phále	फलानि / फला¹	phálāni / phálā¹	#							
+Agni	nominative	अ॒ग्निः	agníḥ	अ॒ग्नी	agnī́	अ॒ग्नयः॑	agnáyaḥ	#	i-stem	masculine					
+Agni	accusative	अ॒ग्निम्	agním	अ॒ग्नी	agnī́	अ॒ग्नीन्	agnī́n	#							
+Agni	instrumental	अ॒ग्निना॑	agnínā	अ॒ग्निभ्या॑म्	agníbhyām	अ॒ग्निभिः॑	agníbhiḥ	#							
+Agni	dative	अ॒ग्नये॑	agnáye	अ॒ग्निभ्या॑म्	agníbhyām	अ॒ग्निभ्यः॑	agníbhyaḥ	#							
+Agni	ablative	अ॒ग्नेः	agnéḥ	अ॒ग्निभ्या॑म्	agníbhyām	अ॒ग्निभ्यः॑	agníbhyaḥ	#							
+Agni	genitive	अ॒ग्नेः	agnéḥ	अ॒ग्न्योः	agnyóḥ	अ॒ग्नी॒नाम्	agnīnā́m	#							
+Agni	locative	अ॒ग्नौ, अ॒ग्ना1, 1	agnáu / agnā́	अ॒ग्न्योः	agnyóḥ	अ॒ग्निषु॑	agníṣu	#							
+Agni	vocative	अग्ने॑	ágne	अग्नी॑	ágnī	अग्न॑यः	ágnayaḥ	#							
+motion	nominative	गतिः॑	gátiḥ	गती॑	gátī	गत॑यः	gátayaḥ	#	i-stem	feminine					
+motion	accusative	गति॑म्	gátim	गती॑	gátī	गतीः॑	gátīḥ	#							
+motion	instrumental	गत्या॑, गती॑1, 1	gátyā / gátī	गति॑भ्याम्	gátibhyām	गति॑भिः	gátibhiḥ	#							
+motion	dative	गत॑ये, गत्यै॑, 	gátaye / gátyai	गति॑भ्याम्	gátibhyām	गति॑भ्यः	gátibhyaḥ	#							
+motion	ablative	गतेः॑, गत्याः॑, गत्यै॑2, , 2	gáteḥ / gátyāḥ	गति॑भ्याम्	gátibhyām	गति॑भ्यः	gátibhyaḥ	#							
+motion	genitive	गतेः॑, गत्याः॑, गत्यै॑2, , 2	gáteḥ / gátyāḥ	गत्योः॑	gátyoḥ	गती॑नाम्	gátīnām	#							
+motion	locative	गतौ॑, गत्या॑म्, गता॑1, , 1	gátau / gátyām	गत्योः॑	gátyoḥ	गति॑षु	gátiṣu	#							
+motion	vocative	गते॑	gáte	गती॑	gátī	गत॑यः	gátayaḥ	#							
+water	nominative	वारि	vā́ri	वारिणी	vā́riṇī	वारी / वारि / वारीणि¹	vā́rī / vā́ri / vā́rīṇi¹	#	i-stem	neuter					
+water	accusative	वारि	vā́ri	वारिणी	vā́riṇī	वारी / वारि / वारीणि¹	vā́rī / vā́ri / vā́rīṇi¹	#							
+water	instrumental	वारिणा / वार्या²	vā́riṇā / vā́ryā²	वारिभ्याम्	vā́ribhyām	वारिभिः	vā́ribhiḥ	#							
+water	dative	वारये / वार्ये³	vā́raye / vā́rye³	वारिभ्याम्	vā́ribhyām	वारिभ्यः	vā́ribhyaḥ	#							
+water	ablative	वारेः / वारिणः¹ / वार्यः³	vā́reḥ / vā́riṇaḥ¹ / vā́ryaḥ³	वारिभ्याम्	vā́ribhyām	वारिभ्यः	vā́ribhyaḥ	#							
+water	genitive	वारेः / वारिणः¹ / वार्यः³	vā́reḥ / vā́riṇaḥ¹ / vā́ryaḥ³	वारिणोः	vā́riṇoḥ	वारीणाम्	vā́rīṇām	#							
+water	locative	वारिणि	vā́riṇi	वारिणोः	vā́riṇoḥ	वारिषु	vā́riṣu	#							
+water	vocative	वारि / वारे	vā́ri / vā́re	वारिणी	vā́riṇī	वारी / वारि / वारीणि¹	vā́rī / vā́ri / vā́rīṇi¹	#							
+enemy	nominative	शत्रुः॑	śátruḥ	शत्रू॑	śátrū	शत्र॑वः	śátravaḥ	#	u-stem	masculine					
+enemy	accusative	शत्रु॑म्	śátrum	शत्रू॑	śátrū	शत्रू॑न्	śátrūn	#							
+enemy	instrumental	शत्रु॑णा	śátruṇā	शत्रु॑भ्याम्	śátrubhyām	शत्रु॑भिः	śátrubhiḥ	#							
+enemy	dative	शत्र॑वे	śátrave	शत्रु॑भ्याम्	śátrubhyām	शत्रु॑भ्यः	śátrubhyaḥ	#							
+enemy	ablative	शत्रोः॑	śátroḥ	शत्रु॑भ्याम्	śátrubhyām	शत्रु॑भ्यः	śátrubhyaḥ	#							
+enemy	genitive	शत्रोः॑	śátroḥ	शत्र्वोः॑	śátrvoḥ	शत्रू॑णाम्	śátrūṇām	#							
+enemy	locative	शत्रौ॑	śátrau	शत्र्वोः॑	śátrvoḥ	शत्रु॑षु	śátruṣu	#							
+enemy	vocative	शत्रो॑	śátro	शत्रू॑	śátrū	शत्र॑वः	śátravaḥ	#							
+cow	nominative	धेनुः	dhenúḥ	धेनू	dhenū́	धेनवः	dhenávaḥ	#	u-stem	feminine					
+cow	accusative	धेनुम्	dhenúm	धेनू	dhenū́	धेनूः	dhenū́ḥ	#							
+cow	instrumental	धेन्वा	dhenvā̀	धेनुभ्याम्	dhenúbhyām	धेनुभिः	dhenúbhiḥ	#							
+cow	dative	धेनवे / धेन्वे¹ / धेन्वै²	dhenáve / dhenvè¹ / dhenvaì²	धेनुभ्याम्	dhenúbhyām	धेनुभ्यः	dhenúbhyaḥ	#							
+cow	ablative	धेनोः / धेन्वाः²	dhenóḥ / dhenvā̀ḥ²	धेनुभ्याम्	dhenúbhyām	धेनुभ्यः	dhenúbhyaḥ	#							
+cow	genitive	धेनोः / धेन्वाः²	dhenóḥ / dhenvā̀ḥ²	धेन्वोः	dhenvóḥ	धेनूनाम्	dhenūnā́m	#							
+cow	locative	धेनौ / धेन्वाम्²	dhenaú / dhenvā̀m²	धेन्वोः	dhenvóḥ	धेनुषु	dhenúṣu	#							
+cow	vocative	धेनो	dhéno	धेनू	dhénū	धेनवः	dhénavaḥ	#							
+honey	nominative	मधु॑	mádhu	मधु॑नी, मध्वी॑1, 1	mádhunī / mádhvī	मधू॑नि, मधु॑1, मधू॑1, 1, 1	mádhūni / mádhu / mádhū	#	u-stem	neuter					
+honey	accusative	मधु॑	mádhu	मधु॑नी, मध्वी॑1, 1	mádhunī / mádhvī	मधू॑नि, मधु॑1, मधू॑1, 1, 1	mádhūni / mádhu / mádhū	#							
+honey	instrumental	मधु॑ना, मध्वा॑1, 1	mádhunā / mádhvā	मधु॑भ्याम्	mádhubhyām	मधु॑भिः	mádhubhiḥ	#							
+honey	dative	मधु॑ने, मध॑वे1, मध्वे॑1, 1, 1	mádhune / mádhave	मधु॑भ्याम्	mádhubhyām	मधु॑भ्यः	mádhubhyaḥ	#							
+honey	ablative	मधु॑नः, मधोः॑1, मध्वः॑1, 1, 1	mádhunaḥ / mádhoḥ	मधु॑भ्याम्	mádhubhyām	मधु॑भ्यः	mádhubhyaḥ	#							
+honey	genitive	मधु॑नः, मधोः॑1, मध्वः॑1, 1, 1	mádhunaḥ / mádhoḥ	मधु॑नोः, मध्वोः॑1, 1	mádhunoḥ / mádhvoḥ	मधू॑नाम्	mádhūnām	#							
+honey	locative	मधु॑नि, मधौ॑1, 1	mádhuni / mádhau	मधु॑नोः, मध्वोः॑1, 1	mádhunoḥ / mádhvoḥ	मधु॑षु	mádhuṣu	#							
+honey	vocative	मधु॑, मधो॑, 	mádhu / mádho	मधु॑नी, मध्वी॑1, 1	mádhunī / mádhvī	मधू॑नि, मधु॑1, मधू॑1, 1, 1	mádhūni / mádhu / mádhū	#							
+father	nominative	पिता	pitā́	पितरौ / पितरा¹	pitárau / pitárā¹	पितरः	pitáraḥ	#	r-stem	masculine					
+father	accusative	पितरम्	pitáram	पितरौ / पितरा¹	pitárau / pitárā¹	पितॄन् / पितरः	pitṝ́n / pitaraḥ	#							
+father	instrumental	पित्रा	pitrā́	पितृभ्याम्	pitṛ́bhyām	पितृभिः	pitṛ́bhiḥ	#							
+father	dative	पित्रे	pitré	पितृभ्याम्	pitṛ́bhyām	पितृभ्यः	pitṛ́bhyaḥ	#							
+father	ablative	पितुः	pitúḥ	पितृभ्याम्	pitṛ́bhyām	पितृभ्यः	pitṛ́bhyaḥ	#							
+father	genitive	पितुः	pitúḥ	पित्रोः	pitróḥ	पितॄणाम्	pitṝṇā́m	#							
+father	locative	पितरि	pitári	पित्रोः	pitróḥ	पितृषु	pitṛ́ṣu	#							
+father	vocative	पितः	pítaḥ	पितरौ / पितरा¹	pítarau / pítarā¹	पितरः	pítaraḥ	#							
+brother	nominative	भ्राता॑	bhrā́tā	भ्रात॑रौ, भ्रात॑रा1, 1	bhrā́tarau / bhrā́tarā	भ्रात॑रः	bhrā́taraḥ	#	r-stem	masculine					
+brother	accusative	भ्रात॑रम्	bhrā́taram	भ्रात॑रौ, भ्रात॑रा1, 1	bhrā́tarau / bhrā́tarā	भ्रातॄ॑न्	bhrā́tṝn	#							
+brother	instrumental	भ्रात्रा॑	bhrā́trā	भ्रातृ॑भ्याम्	bhrā́tṛbhyām	भ्रातृ॑भिः	bhrā́tṛbhiḥ	#							
+brother	dative	भ्रात्रे॑	bhrā́tre	भ्रातृ॑भ्याम्	bhrā́tṛbhyām	भ्रातृ॑भ्यः	bhrā́tṛbhyaḥ	#							
+brother	ablative	भ्रातुः॑	bhrā́tuḥ	भ्रातृ॑भ्याम्	bhrā́tṛbhyām	भ्रातृ॑भ्यः	bhrā́tṛbhyaḥ	#							
+brother	genitive	भ्रातुः॑	bhrā́tuḥ	भ्रात्रोः॑	bhrā́troḥ	भ्रातॄ॑णाम्, भ्रातृ॑णाम्2, 2	bhrā́tṝṇām / bhrā́tṛṇām	#							
+brother	locative	भ्रात॑रि	bhrā́tari	भ्रात्रोः॑	bhrā́troḥ	भ्रातृ॑षु	bhrā́tṛṣu	#							
+brother	vocative	भ्रातः॑	bhrā́taḥ	भ्रात॑रौ, भ्रात॑रा1, 1	bhrā́tarau / bhrā́tarā	भ्रात॑रः	bhrā́taraḥ	#							
+sister	nominative	स्वसा॑	svásā	स्वसा॑रौ, स्वसा॑रा1, 1	svásārau / svásārā	स्वसा॑रः	svásāraḥ	#	r-stem	feminine					
+sister	accusative	स्वसा॑रम्	svásāram	स्वसा॑रौ, स्वसा॑रा1, 1	svásārau / svásārā	स्वसॄः॑	svásṝḥ	#							
+sister	instrumental	स्वस्रा॑	svásrā	स्वसृ॑भ्याम्	svásṛbhyām	स्वसृ॑भिः	svásṛbhiḥ	#							
+sister	dative	स्वस्रे॑	svásre	स्वसृ॑भ्याम्	svásṛbhyām	स्वसृ॑भ्यः	svásṛbhyaḥ	#							
+sister	ablative	स्वसुः॑	svásuḥ	स्वसृ॑भ्याम्	svásṛbhyām	स्वसृ॑भ्यः	svásṛbhyaḥ	#							
+sister	genitive	स्वसुः॑	svásuḥ	स्वस्रोः॑	svásroḥ	स्वसॄ॑णाम्, स्वस्रा॑म्2, 2	svásṝṇām / svásrām	#							
+sister	locative	स्वस॑रि	svásari	स्वस्रोः॑	svásroḥ	स्वसृ॑षु	svásṛṣu	#							
+sister	vocative	स्वसः॑	svásaḥ	स्वसा॑रौ, स्वसा॑रा1, 1	svásārau / svásārā	स्वसा॑रः	svásāraḥ	#							
+army	nominative	सेना॑	sénā	सेने॑	séne	सेनाः॑	sénāḥ	#	ā-stem	feminine					
+army	accusative	सेना॑म्	sénām	सेने॑	séne	सेनाः॑	sénāḥ	#							
+army	instrumental	सेन॑या, सेना॑1, 1	sénayā / sénā	सेना॑भ्याम्	sénābhyām	सेना॑भिः	sénābhiḥ	#							
+army	dative	सेना॑यै	sénāyai	सेना॑भ्याम्	sénābhyām	सेना॑भ्यः	sénābhyaḥ	#							
+army	ablative	सेना॑याः, सेना॑यै2, 2	sénāyāḥ / sénāyai	सेना॑भ्याम्	sénābhyām	सेना॑भ्यः	sénābhyaḥ	#							
+army	genitive	सेना॑याः, सेना॑यै2, 2	sénāyāḥ / sénāyai	सेन॑योः	sénayoḥ	सेना॑नाम्	sénānām	#							
+army	locative	सेना॑याम्	sénāyām	सेन॑योः	sénayoḥ	सेना॑सु	sénāsu	#							
+army	vocative	सेने॑	séne	सेने॑	séne	सेनाः॑	sénāḥ	#							
+maiden	nominative	क॒न्या॑	kanyā̀	क॒न्ये॑	kanyè	क॒न्याः॑	kanyā̀ḥ	#	ā-stem	feminine					
+maiden	accusative	क॒न्या॑म्	kanyā̀m	क॒न्ये॑	kanyè	क॒न्याः॑	kanyā̀ḥ	#							
+maiden	instrumental	क॒न्य॑या, क॒न्या॑1, 1	kanyàyā / kanyā̀	क॒न्या॑भ्याम्	kanyā̀bhyām	क॒न्या॑भिः	kanyā̀bhiḥ	#							
+maiden	dative	क॒न्या॑यै	kanyā̀yai	क॒न्या॑भ्याम्	kanyā̀bhyām	क॒न्या॑भ्यः	kanyā̀bhyaḥ	#							
+maiden	ablative	क॒न्या॑याः, क॒न्या॑यै2, 2	kanyā̀yāḥ / kanyā̀yai	क॒न्या॑भ्याम्	kanyā̀bhyām	क॒न्या॑भ्यः	kanyā̀bhyaḥ	#							
+maiden	genitive	क॒न्या॑याः, क॒न्या॑यै2, 2	kanyā̀yāḥ / kanyā̀yai	क॒न्य॑योः, क॒न्योः॑1, 1	kanyàyoḥ / kanyòḥ	क॒न्या॑नाम्	kanyā̀nām	#							
+maiden	locative	क॒न्या॑याम्	kanyā̀yām	क॒न्य॑योः, क॒न्योः॑1, 1	kanyàyoḥ / kanyòḥ	क॒न्या॑सु	kanyā̀su	#							
+maiden	vocative	कन्ये॑	kánye	कन्ये॑	kánye	कन्याः॑	kányāḥ	#							
+goddess	nominative	दे॒वी	devī́	दे॒व्यौ॑, दे॒वी1, 1	devyàu / devī́	दे॒व्यः॑, दे॒वीः1, 1	devyàḥ / devī́ḥ	#	ī-stem	feminine					
+goddess	accusative	दे॒वीम्	devī́m	दे॒व्यौ॑, दे॒वी1, 1	devyàu / devī́	दे॒वीः	devī́ḥ	#							
+goddess	instrumental	दे॒व्या	devyā́	दे॒वीभ्या॑म्	devī́bhyām	दे॒वीभिः॑	devī́bhiḥ	#							
+goddess	dative	दे॒व्यै	devyái	दे॒वीभ्या॑म्	devī́bhyām	दे॒वीभ्यः॑	devī́bhyaḥ	#							
+goddess	ablative	दे॒व्याः, दे॒व्यै2, 2	devyā́ḥ / devyái	दे॒वीभ्या॑म्	devī́bhyām	दे॒वीभ्यः॑	devī́bhyaḥ	#							
+goddess	genitive	दे॒व्याः, दे॒व्यै2, 2	devyā́ḥ / devyái	दे॒व्योः	devyóḥ	दे॒वीना॑म्, दे॒वी॒नाम्3, 3	devī́nām / devīnā́m	#							
+goddess	locative	दे॒व्याम्	devyā́m	दे॒व्योः	devyóḥ	दे॒वीषु॑	devī́ṣu	#							
+goddess	vocative	देवि॑	dévi	देव्यौ॑, देवी॑1, 1	dévyau / dévī	देव्यः॑, देवीः॑1, 1	dévyaḥ / dévīḥ	#							
+wife	nominative	वधूः	vadhū́ḥ	वध्वौ / वधू¹	vadhvaù / vadhū́¹	वध्वः / वधूः¹	vadhvàḥ / vadhū́ḥ¹	#	ū-stem	feminine					
+wife	accusative	वधूम्	vadhū́m	वध्वौ / वधू¹	vadhvaù / vadhū́¹	वधूः	vadhū́ḥ	#							
+wife	instrumental	वध्वा	vadhvā̀	वधूभ्याम्	vadhū́bhyām	वधूभिः	vadhū́bhiḥ	#							
+wife	dative	वध्वै	vadhvaì	वधूभ्याम्	vadhū́bhyām	वधूभ्यः	vadhū́bhyaḥ	#							
+wife	ablative	वध्वाः	vadhvā̀ḥ	वधूभ्याम्	vadhū́bhyām	वधूभ्यः	vadhū́bhyaḥ	#							
+wife	genitive	वध्वाः	vadhvā̀ḥ	वध्वोः	vadhvòḥ	वधूनाम्	vadhū́nām	#							
+wife	locative	वध्वाम्	vadhvā̀m	वध्वोः	vadhvòḥ	वधूषु	vadhū́ṣu	#							
+wife	vocative	वधु	vádhu	वध्वौ / वधू¹	vádhvau / vadhū́¹	वध्वः / वधूः¹	vádhvaḥ / vádhūḥ¹	#							
+mind	nominative	मनः	mánaḥ	मनसी	mánasī	मनांसि	mánāṃsi	#	as-stem	neuter					
+mind	accusative	मनः	mánaḥ	मनसी	mánasī	मनांसि	mánāṃsi	#							
+mind	instrumental	मनसा	mánasā	मनोभ्याम्	mánobhyām	मनोभिः	mánobhiḥ	#							
+mind	dative	मनसे	mánase	मनोभ्याम्	mánobhyām	मनोभ्यः	mánobhyaḥ	#							
+mind	ablative	मनसः	mánasaḥ	मनोभ्याम्	mánobhyām	मनोभ्यः	mánobhyaḥ	#							
+mind	genitive	मनसः	mánasaḥ	मनसोः	mánasoḥ	मनसाम्	mánasām	#							
+mind	locative	मनसि	mánasi	मनसोः	mánasoḥ	मनःसु	mánaḥsu	#							
+mind	vocative	मनः	mánaḥ	मनसी	mánasī	मनांसि	mánāṃsi	#							
+wind	nominative	जगन्	jagan	जगन्तौ	jagantau	जगन्तः	jagantaḥ	#	at-stem	masculine					
+wind	accusative	जगन्तम्	jagantam	जगन्तौ	jagantau	जगतः	jagataḥ	#							
+wind	instrumental	जगता	jagatā	जगद्भ्याम्	jagadbhyām	जगद्भिः	jagadbhiḥ	#							
+wind	dative	जगते	jagate	जगद्भ्याम्	jagadbhyām	जगद्भ्यः	jagadbhyaḥ	#							
+wind	ablative	जगतः	jagataḥ	जगद्भ्याम्	jagadbhyām	जगद्भ्यः	jagadbhyaḥ	#							
+wind	genitive	जगतः	jagataḥ	जगतोः	jagatoḥ	जगताम्	jagatām	#							
+wind	locative	जगति	jagati	जगतोः	jagatoḥ	जगत्सु	jagatsu	#							
+wind	vocative	जगन्	jagan	जगन्तौ	jagantau	जगन्तः	jagantaḥ	#							
+world	nominative	जक्	jak	जगती	jagatī	जग्न्ति	jagnti	#	at-stem	neuter					
+world	accusative	जक्	jak	जगती	jagatī	जग्न्ति	jagnti	#							
+world	instrumental	जगता	jagatā	जगद्भ्याम्	jagadbhyām	जगद्भिः	jagadbhiḥ	#							
+world	dative	जगते	jagate	जगद्भ्याम्	jagadbhyām	जगद्भ्यः	jagadbhyaḥ	#							
+world	ablative	जगतः	jagataḥ	जगद्भ्याम्	jagadbhyām	जगद्भ्यः	jagadbhyaḥ	#							
+world	genitive	जगतः	jagataḥ	जगतोः	jagatoḥ	जगताम्	jagatām	#							
+world	locative	जगति	jagati	जगतोः	jagatoḥ	जगत्सु	jagatsu	#							
+world	vocative	जक्	jak	जगती	jagatī	जग्न्ति	jagnti	#							
+yogi	nominative	योगी	yogī	योगिनौ / योगिना¹	yoginau / yoginā¹	योगिनः	yoginaḥ	#	in-stem	masculine					
+yogi	accusative	योगिनम्	yoginam	योगिनौ / योगिना¹	yoginau / yoginā¹	योगिनः	yoginaḥ	#							
+yogi	instrumental	योगिना	yoginā	योगिभ्याम्	yogibhyām	योगिभिः	yogibhiḥ	#							
+yogi	dative	योगिने	yogine	योगिभ्याम्	yogibhyām	योगिभ्यः	yogibhyaḥ	#							
+yogi	ablative	योगिनः	yoginaḥ	योगिभ्याम्	yogibhyām	योगिभ्यः	yogibhyaḥ	#							
+yogi	genitive	योगिनः	yoginaḥ	योगिनोः	yoginoḥ	योगिनाम्	yoginām	#							
+yogi	locative	योगिनि	yogini	योगिनोः	yoginoḥ	योगिषु	yogiṣu	#							
+yogi	vocative	योगिन्	yogin	योगिनौ / योगिना¹	yoginau / yoginā¹	योगिनः	yoginaḥ	#							
+king	nominative	राजा	rā́jā	राजानौ / राजाना¹	rā́jānau / rā́jānā¹	राजानः	rā́jānaḥ	#	an-stem	masculine					
+king	accusative	राजानम्	rā́jānam	राजानौ / राजाना¹	rā́jānau / rā́jānā¹	राज्ञः	rā́jñaḥ	#							
+king	instrumental	राज्ञा	rā́jñā	राजभ्याम्	rā́jabhyām	राजभिः	rā́jabhiḥ	#							
+king	dative	राज्ञे	rā́jñe	राजभ्याम्	rā́jabhyām	राजभ्यः	rā́jabhyaḥ	#							
+king	ablative	राज्ञः	rā́jñaḥ	राजभ्याम्	rā́jabhyām	राजभ्यः	rā́jabhyaḥ	#							
+king	genitive	राज्ञः	rā́jñaḥ	राज्ञोः	rā́jñoḥ	राज्ञाम्	rā́jñām	#							
+king	locative	राज्ञि / राजनि	rā́jñi / rā́jani	राज्ञोः	rā́jñoḥ	राजसु	rā́jasu	#							
+king	vocative	राजन्	rā́jan	राजानौ / राजाना¹	rā́jānau / rā́jānā¹	राजानः	rā́jānaḥ	#							
+name	nominative	नाम	nā́ma	नाम्नी / नामनी	nā́mnī / nā́manī	नामानि	nā́māni / nā́mā	#	an-stem	neuter					
+name	accusative	नाम	nā́ma	नाम्नी / नामनी	nā́mnī / nā́manī	नामानि	nā́māni / nā́mā	#							
+name	instrumental	नाम्ना	nā́mnā	नामभ्याम्	nā́mabhyām	नामभिः	nā́mabhiḥ	#							
+name	dative	नाम्ने	nā́mne	नामभ्याम्	nā́mabhyām	नामभ्यः	nā́mabhyaḥ	#							
+name	ablative	नाम्नः	nā́mnaḥ	नामभ्याम्	nā́mabhyām	नामभ्यः	nā́mabhyaḥ	#							
+name	genitive	नाम्नः	nā́mnaḥ	नाम्नोः	nā́mnoḥ	नाम्नाम्	nā́mnām	#							
+name	locative	नाम्नि / नामनि	nā́mni / nā́mani	नाम्नोः	nā́mnoḥ	नामसु	nā́masu / nā́mā	#							
+name	vocative	नामन् / नाम	nā́man / nā́ma	नाम्नी / नामनी	nā́mnī / nā́manī	नामानि	nā́māni / nā́mā	#							
+ball	nominative	कन्दुकम्	kandukam	कन्दुके	kanduke	कन्दुकानि, कन्दुका1, 1	kandukāni / kandukā								
+ball	accusative	कन्दुकम्	kandukam	कन्दुके	kanduke	कन्दुकानि, कन्दुका1, 1	kandukāni / kandukā								
+ball	instrumental	कन्दुकेन	kandukena	कन्दुकाभ्याम्	kandukābhyām	कन्दुकैः, कन्दुकेभिः1, 1	kandukaiḥ / kandukebhiḥ								
+ball	dative	कन्दुकाय	kandukāya	कन्दुकाभ्याम्	kandukābhyām	कन्दुकेभ्यः	kandukebhyaḥ								
+ball	ablative	कन्दुकात्	kandukāt	कन्दुकाभ्याम्	kandukābhyām	कन्दुकेभ्यः	kandukebhyaḥ								
+ball	genitive	कन्दुकस्य	kandukasya	कन्दुकयोः	kandukayoḥ	कन्दुकानाम्	kandukānām								
+ball	locative	कन्दुके	kanduke	कन्दुकयोः	kandukayoḥ	कन्दुकेषु	kandukeṣu								
+ball	vocative	कन्दुक	kanduka	कन्दुके	kanduke	कन्दुकानि, कन्दुका1, 1	kandukāni / kandukā								
+bird	nominative	प॒क्षी	pakṣī́	प॒क्षिणौ॑, प॒क्षिणा॑1, 1	pakṣíṇau / pakṣíṇā	प॒क्षिणः॑	pakṣíṇaḥ								
+bird	accusative	प॒क्षिण॑म्	pakṣíṇam	प॒क्षिणौ॑, प॒क्षिणा॑1, 1	pakṣíṇau / pakṣíṇā	प॒क्षिणः॑	pakṣíṇaḥ								
+bird	instrumental	प॒क्षिणा॑	pakṣíṇā	प॒क्षिभ्या॑म्	pakṣíbhyām	प॒क्षिभिः॑	pakṣíbhiḥ								
+bird	dative	प॒क्षिणे॑	pakṣíṇe	प॒क्षिभ्या॑म्	pakṣíbhyām	प॒क्षिभ्यः॑	pakṣíbhyaḥ								
+bird	ablative	प॒क्षिणः॑	pakṣíṇaḥ	प॒क्षिभ्या॑म्	pakṣíbhyām	प॒क्षिभ्यः॑	pakṣíbhyaḥ								
+bird	genitive	प॒क्षिणः॑	pakṣíṇaḥ	प॒क्षिणोः॑	pakṣíṇoḥ	प॒क्षिणा॑म्	pakṣíṇām								
+bird	locative	प॒क्षिणि॑	pakṣíṇi	प॒क्षिणोः॑	pakṣíṇoḥ	प॒क्षिषु॑	pakṣíṣu								
+bird	vocative	पक्षि॑न्	pákṣin	पक्षि॑णौ, पक्षि॑णा1, 1	pákṣiṇau / pákṣiṇā	पक्षि॑णः	pákṣiṇaḥ								
+bridge	nominative	सेतुः॑	sétuḥ	सेतू॑	sétū	सेत॑वः	sétavaḥ								
+bridge	accusative	सेतु॑म्	sétum	सेतू॑	sétū	सेतू॑न्	sétūn								
+bridge	instrumental	सेतु॑ना	sétunā	सेतु॑भ्याम्	sétubhyām	सेतु॑भिः	sétubhiḥ								
+bridge	dative	सेत॑वे	sétave	सेतु॑भ्याम्	sétubhyām	सेतु॑भ्यः	sétubhyaḥ								
+bridge	ablative	सेतोः॑	sétoḥ	सेतु॑भ्याम्	sétubhyām	सेतु॑भ्यः	sétubhyaḥ								
+bridge	genitive	सेतोः॑	sétoḥ	सेत्वोः॑	sétvoḥ	सेतू॑नाम्	sétūnām								
+bridge	locative	सेतौ॑	sétau	सेत्वोः॑	sétvoḥ	सेतु॑षु	sétuṣu								
+bridge	vocative	सेतो॑	séto	सेतू॑	sétū	सेत॑वः	sétavaḥ								
+sparrow	nominative	चटकः	caṭakaḥ	चटकौ	caṭakau	चटकाः	caṭakāḥ								
+sparrow	accusative	चटकम्	caṭakam	चटकौ	caṭakau	चटकान्	caṭakān								
+sparrow	instrumental	चटकेन	caṭakena	चटकाभ्याम्	caṭakābhyām	चटकैः	caṭakaiḥ								
+sparrow	dative	चटकाय	caṭakāya	चटकाभ्याम्	caṭakābhyām	चटकेभ्यः	caṭakebhyaḥ								
+sparrow	ablative	चटकात्	caṭakāt	चटकाभ्याम्	caṭakābhyām	चटकेभ्यः	caṭakebhyaḥ								
+sparrow	genitive	चटकस्य	caṭakasya	चटकयोः	caṭakayoḥ	चटकानाम्	caṭakānām								
+sparrow	locative	चटके	caṭake	चटकयोः	caṭakayoḥ	चटकेषु	caṭakeṣu								
+sparrow	vocative	चटक	caṭaka	चटकौ	caṭakau	चटकाः	caṭakāḥ								
+eagle	nominative	श्ये॒नः	śyenáḥ	श्ये॒नौ, श्ये॒ना1, 1	śyenáu / śyenā́	श्ये॒नाः, श्ये॒नासः॑1, 1	śyenā́ḥ / śyenā́saḥ								
+eagle	accusative	श्ये॒नम्	śyenám	श्ये॒नौ, श्ये॒ना1, 1	śyenáu / śyenā́	श्ये॒नान्	śyenā́n								
+eagle	instrumental	श्ये॒नेन॑	śyenéna	श्ये॒नाभ्या॑म्	śyenā́bhyām	श्ये॒नैः, श्ये॒नेभिः॑1, 1	śyenáiḥ / śyenébhiḥ								
+eagle	dative	श्ये॒नाय॑	śyenā́ya	श्ये॒नाभ्या॑म्	śyenā́bhyām	श्ये॒नेभ्यः॑	śyenébhyaḥ								
+eagle	ablative	श्ये॒नात्	śyenā́t	श्ये॒नाभ्या॑म्	śyenā́bhyām	श्ये॒नेभ्यः॑	śyenébhyaḥ								
+eagle	genitive	श्ये॒नस्य॑	śyenásya	श्ये॒नयोः॑	śyenáyoḥ	श्ये॒नाना॑म्	śyenā́nām								
+eagle	locative	श्ये॒ने	śyené	श्ये॒नयोः॑	śyenáyoḥ	श्ये॒नेषु॑	śyenéṣu								
+eagle	vocative	श्येन॑	śyéna	श्येनौ॑, श्येना॑1, 1	śyénau / śyénā	श्येनाः॑, श्येना॑सः1, 1	śyénāḥ / śyénāsaḥ								
+swan	nominative	हं॒सः	haṃsáḥ	हं॒सौ, हं॒सा1, 1	haṃsáu / haṃsā́	हं॒साः, हं॒सासः॑1, 1	haṃsā́ḥ / haṃsā́saḥ								
+swan	accusative	हं॒सम्	haṃsám	हं॒सौ, हं॒सा1, 1	haṃsáu / haṃsā́	हं॒सान्	haṃsā́n								
+swan	instrumental	हं॒सेन॑	haṃséna	हं॒साभ्या॑म्	haṃsā́bhyām	हं॒सैः, हं॒सेभिः॑1, 1	haṃsáiḥ / haṃsébhiḥ								
+swan	dative	हं॒साय॑	haṃsā́ya	हं॒साभ्या॑म्	haṃsā́bhyām	हं॒सेभ्यः॑	haṃsébhyaḥ								
+swan	ablative	हं॒सात्	haṃsā́t	हं॒साभ्या॑म्	haṃsā́bhyām	हं॒सेभ्यः॑	haṃsébhyaḥ								
+swan	genitive	हं॒सस्य॑	haṃsásya	हं॒सयोः॑	haṃsáyoḥ	हं॒साना॑म्	haṃsā́nām								
+swan	locative	हं॒से	haṃsé	हं॒सयोः॑	haṃsáyoḥ	हं॒सेषु॑	haṃséṣu								
+swan	vocative	हंस॑	háṃsa	हंसौ॑, हंसा॑1, 1	háṃsau / háṃsā	हंसाः॑, हंसा॑सः1, 1	háṃsāḥ / háṃsāsaḥ								
+goose	nominative	कु॒क्कु॒टः	kukkuṭáḥ	कु॒क्कु॒टौ, कु॒क्कु॒टा1, 1	kukkuṭáu / kukkuṭā́	कु॒क्कु॒टाः, कु॒क्कु॒टासः॑1, 1	kukkuṭā́ḥ / kukkuṭā́saḥ								
+goose	accusative	कु॒क्कु॒टम्	kukkuṭám	कु॒क्कु॒टौ, कु॒क्कु॒टा1, 1	kukkuṭáu / kukkuṭā́	कु॒क्कु॒टान्	kukkuṭā́n								
+goose	instrumental	कु॒क्कु॒टेन॑	kukkuṭéna	कु॒क्कु॒टाभ्या॑म्	kukkuṭā́bhyām	कु॒क्कु॒टैः, कु॒क्कु॒टेभिः॑1, 1	kukkuṭáiḥ / kukkuṭébhiḥ								
+goose	dative	कु॒क्कु॒टाय॑	kukkuṭā́ya	कु॒क्कु॒टाभ्या॑म्	kukkuṭā́bhyām	कु॒क्कु॒टेभ्यः॑	kukkuṭébhyaḥ								
+goose	ablative	कु॒क्कु॒टात्	kukkuṭā́t	कु॒क्कु॒टाभ्या॑म्	kukkuṭā́bhyām	कु॒क्कु॒टेभ्यः॑	kukkuṭébhyaḥ								
+goose	genitive	कु॒क्कु॒टस्य॑	kukkuṭásya	कु॒क्कु॒टयोः॑	kukkuṭáyoḥ	कु॒क्कु॒टाना॑म्	kukkuṭā́nām								
+goose	locative	कु॒क्कु॒टे	kukkuṭé	कु॒क्कु॒टयोः॑	kukkuṭáyoḥ	कु॒क्कु॒टेषु॑	kukkuṭéṣu								
+goose	vocative	कुक्कु॑ट	kúkkuṭa	कुक्कु॑टौ, कुक्कु॑टा1, 1	kúkkuṭau / kúkkuṭā	कुक्कु॑टाः, कुक्कु॑टासः1, 1	kúkkuṭāḥ / kúkkuṭāsaḥ								
+chicken	nominative	कु॒क्कु॒टः	kukkuṭáḥ	कु॒क्कु॒टौ, कु॒क्कु॒टा1, 1	kukkuṭáu / kukkuṭā́	कु॒क्कु॒टाः, कु॒क्कु॒टासः॑1, 1	kukkuṭā́ḥ / kukkuṭā́saḥ								
+chicken	accusative	कु॒क्कु॒टम्	kukkuṭám	कु॒क्कु॒टौ, कु॒क्कु॒टा1, 1	kukkuṭáu / kukkuṭā́	कु॒क्कु॒टान्	kukkuṭā́n								
+chicken	instrumental	कु॒क्कु॒टेन॑	kukkuṭéna	कु॒क्कु॒टाभ्या॑म्	kukkuṭā́bhyām	कु॒क्कु॒टैः, कु॒क्कु॒टेभिः॑1, 1	kukkuṭáiḥ / kukkuṭébhiḥ								
+chicken	dative	कु॒क्कु॒टाय॑	kukkuṭā́ya	कु॒क्कु॒टाभ्या॑म्	kukkuṭā́bhyām	कु॒क्कु॒टेभ्यः॑	kukkuṭébhyaḥ								
+chicken	ablative	कु॒क्कु॒टात्	kukkuṭā́t	कु॒क्कु॒टाभ्या॑म्	kukkuṭā́bhyām	कु॒क्कु॒टेभ्यः॑	kukkuṭébhyaḥ								
+chicken	genitive	कु॒क्कु॒टस्य॑	kukkuṭásya	कु॒क्कु॒टयोः॑	kukkuṭáyoḥ	कु॒क्कु॒टाना॑म्	kukkuṭā́nām								
+chicken	locative	कु॒क्कु॒टे	kukkuṭé	कु॒क्कु॒टयोः॑	kukkuṭáyoḥ	कु॒क्कु॒टेषु॑	kukkuṭéṣu								
+chicken	vocative	कुक्कु॑ट	kúkkuṭa	कुक्कु॑टौ, कुक्कु॑टा1, 1	kúkkuṭau / kúkkuṭā	कुक्कु॑टाः, कुक्कु॑टासः1, 1	kúkkuṭāḥ / kúkkuṭāsaḥ								
+dove	nominative	क॒पोतः॑	kapótaḥ	क॒पोतौ॑, क॒पोता॑1, 1	kapótau / kapótā	क॒पोताः॑, क॒पोता॑सः1, 1	kapótāḥ / kapótāsaḥ								
+dove	accusative	क॒पोत॑म्	kapótam	क॒पोतौ॑, क॒पोता॑1, 1	kapótau / kapótā	क॒पोता॑न्	kapótān								
+dove	instrumental	क॒पोते॑न	kapótena	क॒पोता॑भ्याम्	kapótābhyām	क॒पोतैः॑, क॒पोते॑भिः1, 1	kapótaiḥ / kapótebhiḥ								
+dove	dative	क॒पोता॑य	kapótāya	क॒पोता॑भ्याम्	kapótābhyām	क॒पोते॑भ्यः	kapótebhyaḥ								
+dove	ablative	क॒पोता॑त्	kapótāt	क॒पोता॑भ्याम्	kapótābhyām	क॒पोते॑भ्यः	kapótebhyaḥ								
+dove	genitive	क॒पोत॑स्य	kapótasya	क॒पोत॑योः	kapótayoḥ	क॒पोता॑नाम्	kapótānām								
+dove	locative	क॒पोते॑	kapóte	क॒पोत॑योः	kapótayoḥ	क॒पोते॑षु	kapóteṣu								
+dove	vocative	कपो॑त	kápota	कपो॑तौ, कपो॑ता1, 1	kápotau / kápotā	कपो॑ताः, कपो॑तासः1, 1	kápotāḥ / kápotāsaḥ								
+pigeon	nominative	क॒पोतः॑	kapótaḥ	क॒पोतौ॑, क॒पोता॑1, 1	kapótau / kapótā	क॒पोताः॑, क॒पोता॑सः1, 1	kapótāḥ / kapótāsaḥ								
+pigeon	accusative	क॒पोत॑म्	kapótam	क॒पोतौ॑, क॒पोता॑1, 1	kapótau / kapótā	क॒पोता॑न्	kapótān								
+pigeon	instrumental	क॒पोते॑न	kapótena	क॒पोता॑भ्याम्	kapótābhyām	क॒पोतैः॑, क॒पोते॑भिः1, 1	kapótaiḥ / kapótebhiḥ								
+pigeon	dative	क॒पोता॑य	kapótāya	क॒पोता॑भ्याम्	kapótābhyām	क॒पोते॑भ्यः	kapótebhyaḥ								
+pigeon	ablative	क॒पोता॑त्	kapótāt	क॒पोता॑भ्याम्	kapótābhyām	क॒पोते॑भ्यः	kapótebhyaḥ								
+pigeon	genitive	क॒पोत॑स्य	kapótasya	क॒पोत॑योः	kapótayoḥ	क॒पोता॑नाम्	kapótānām								
+pigeon	locative	क॒पोते॑	kapóte	क॒पोत॑योः	kapótayoḥ	क॒पोते॑षु	kapóteṣu								
+pigeon	vocative	कपो॑त	kápota	कपो॑तौ, कपो॑ता1, 1	kápotau / kápotā	कपो॑ताः, कपो॑तासः1, 1	kápotāḥ / kápotāsaḥ								
+crow	nominative	काकः	kākaḥ	काकौ, काका1, 1	kākau / kākā	काकाः, काकासः1, 1	kākāḥ / kākāsaḥ								
+crow	accusative	काकम्	kākam	काकौ, काका1, 1	kākau / kākā	काकान्	kākān								
+crow	instrumental	काकेन	kākena	काकाभ्याम्	kākābhyām	काकैः, काकेभिः1, 1	kākaiḥ / kākebhiḥ								
+crow	dative	काकाय	kākāya	काकाभ्याम्	kākābhyām	काकेभ्यः	kākebhyaḥ								
+crow	ablative	काकात्	kākāt	काकाभ्याम्	kākābhyām	काकेभ्यः	kākebhyaḥ								
+crow	genitive	काकस्य	kākasya	काकयोः	kākayoḥ	काकानाम्	kākānām								
+crow	locative	काके	kāke	काकयोः	kākayoḥ	काकेषु	kākeṣu								
+crow	vocative	काक	kāka	काकौ, काका1, 1	kākau / kākā	काकाः, काकासः1, 1	kākāḥ / kākāsaḥ								
+baby	nominative	शिशुः॑	śíśuḥ	शिशू॑	śíśū	शिश॑वः, शिश्वः॑1, 1	śíśavaḥ / śíśvaḥ								
+baby	accusative	शिशु॑म्	śíśum	शिशू॑	śíśū	शिशू॑न्	śíśūn								
+baby	instrumental	शिशु॑ना, शिश्वा॑2, 2	śíśunā / śíśvā	शिशु॑भ्याम्	śíśubhyām	शिशु॑भिः	śíśubhiḥ								
+baby	dative	शिश॑वे, शिश्वे॑2, 2	śíśave / śíśve	शिशु॑भ्याम्	śíśubhyām	शिशु॑भ्यः	śíśubhyaḥ								
+baby	ablative	शिशोः॑, शिश्वः॑2, 2	śíśoḥ / śíśvaḥ	शिशु॑भ्याम्	śíśubhyām	शिशु॑भ्यः	śíśubhyaḥ								
+baby	genitive	शिशोः॑, शिश्वः॑2, 2	śíśoḥ / śíśvaḥ	शिश्वोः॑	śíśvoḥ	शिशू॑नाम्	śíśūnām								
+baby	locative	शिशौ॑	śíśau	शिश्वोः॑	śíśvoḥ	शिशु॑षु	śíśuṣu								
+baby	vocative	शिशो॑	śíśo	शिशू॑	śíśū	शिश॑वः	śíśavaḥ								
+child	nominative	बालकः	bālakaḥ	बालकौ, बालका1, 1	bālakau / bālakā	बालकाः, बालकासः1, 1	bālakāḥ / bālakāsaḥ								
+child	accusative	बालकम्	bālakam	बालकौ, बालका1, 1	bālakau / bālakā	बालकान्	bālakān								
+child	instrumental	बालकेन	bālakena	बालकाभ्याम्	bālakābhyām	बालकैः, बालकेभिः1, 1	bālakaiḥ / bālakebhiḥ								
+child	dative	बालकाय	bālakāya	बालकाभ्याम्	bālakābhyām	बालकेभ्यः	bālakebhyaḥ								
+child	ablative	बालकात्	bālakāt	बालकाभ्याम्	bālakābhyām	बालकेभ्यः	bālakebhyaḥ								
+child	genitive	बालकस्य	bālakasya	बालकयोः	bālakayoḥ	बालकानाम्	bālakānām								
+child	locative	बालके	bālake	बालकयोः	bālakayoḥ	बालकेषु	bālakeṣu								
+child	vocative	बालक	bālaka	बालकौ, बालका1, 1	bālakau / bālakā	बालकाः, बालकासः1, 1	bālakāḥ / bālakāsaḥ								
+egg	nominative	अ॒ण्डः	aṇḍáḥ	अ॒ण्डौ, अ॒ण्डा1, 1	aṇḍáu / aṇḍā́	अ॒ण्डाः, अ॒ण्डासः॑1, 1	aṇḍā́ḥ / aṇḍā́saḥ								
+egg	accusative	अ॒ण्डम्	aṇḍám	अ॒ण्डौ, अ॒ण्डा1, 1	aṇḍáu / aṇḍā́	अ॒ण्डान्	aṇḍā́n								
+egg	instrumental	अ॒ण्डेन॑	aṇḍéna	अ॒ण्डाभ्या॑म्	aṇḍā́bhyām	अ॒ण्डैः, अ॒ण्डेभिः॑1, 1	aṇḍáiḥ / aṇḍébhiḥ								
+egg	dative	अ॒ण्डाय॑	aṇḍā́ya	अ॒ण्डाभ्या॑म्	aṇḍā́bhyām	अ॒ण्डेभ्यः॑	aṇḍébhyaḥ								
+egg	ablative	अ॒ण्डात्	aṇḍā́t	अ॒ण्डाभ्या॑म्	aṇḍā́bhyām	अ॒ण्डेभ्यः॑	aṇḍébhyaḥ								
+egg	genitive	अ॒ण्डस्य॑	aṇḍásya	अ॒ण्डयोः॑	aṇḍáyoḥ	अ॒ण्डाना॑म्	aṇḍā́nām								
+egg	locative	अ॒ण्डे	aṇḍé	अ॒ण्डयोः॑	aṇḍáyoḥ	अ॒ण्डेषु॑	aṇḍéṣu								
+egg	vocative	अण्ड॑	áṇḍa	अण्डौ॑, अण्डा॑1, 1	áṇḍau / áṇḍā	अण्डाः॑, अण्डा॑सः1, 1	áṇḍāḥ / áṇḍāsaḥ								
+nest	nominative	स्वस॑रम्	svásaram	स्वस॑रे	svásare	स्वस॑राणि, स्वस॑रा1, 1	svásarāṇi / svásarā								
+nest	accusative	स्वस॑रम्	svásaram	स्वस॑रे	svásare	स्वस॑राणि, स्वस॑रा1, 1	svásarāṇi / svásarā								
+nest	instrumental	स्वस॑रेण	svásareṇa	स्वस॑राभ्याम्	svásarābhyām	स्वस॑रैः, स्वस॑रेभिः1, 1	svásaraiḥ / svásarebhiḥ								
+nest	dative	स्वस॑राय	svásarāya	स्वस॑राभ्याम्	svásarābhyām	स्वस॑रेभ्यः	svásarebhyaḥ								
+nest	ablative	स्वस॑रात्	svásarāt	स्वस॑राभ्याम्	svásarābhyām	स्वस॑रेभ्यः	svásarebhyaḥ								
+nest	genitive	स्वस॑रस्य	svásarasya	स्वस॑रयोः	svásarayoḥ	स्वस॑राणाम्	svásarāṇām								
+nest	locative	स्वस॑रे	svásare	स्वस॑रयोः	svásarayoḥ	स्वस॑रेषु	svásareṣu								
+nest	vocative	स्वस॑र	svásara	स्वस॑रे	svásare	स्वस॑राणि, स्वस॑रा1, 1	svásarāṇi / svásarā								
+tree	nominative	तरुः	taruḥ	तरू	tarū	तरवः	taravaḥ								
+tree	accusative	तरुम्	tarum	तरू	tarū	तरून्	tarūn								
+tree	instrumental	तरुणा	taruṇā	तरुभ्याम्	tarubhyām	तरुभिः	tarubhiḥ								
+tree	dative	तरवे	tarave	तरुभ्याम्	tarubhyām	तरुभ्यः	tarubhyaḥ								
+tree	ablative	तरोः	taroḥ	तरुभ्याम्	tarubhyām	तरुभ्यः	tarubhyaḥ								
+tree	genitive	तरोः	taroḥ	तर्वोः	tarvoḥ	तरूणाम्	tarūṇām								
+tree	locative	तरौ	tarau	तर्वोः	tarvoḥ	तरुषु	taruṣu								
+tree	vocative	तरो	taro	तरू	tarū	तरवः	taravaḥ								
+boat	nominative	नौः	náuḥ	नावौ॑, नावा॑1, 1	nā́vau / nā́vā	नावः॑	nā́vaḥ								
+boat	accusative	नाव॑म्	nā́vam	नावौ॑, नावा॑1, 1	nā́vau / nā́vā	नावः॑	nā́vaḥ								
+boat	instrumental	ना॒वा	nāvā́	नौ॒भ्याम्	naubhyā́m	नौ॒भिः	naubhíḥ								
+boat	dative	ना॒वे	nāvé	नौ॒भ्याम्	naubhyā́m	नौ॒भ्यः	naubhyáḥ								
+boat	ablative	ना॒वः	nāváḥ	नौ॒भ्याम्	naubhyā́m	नौ॒भ्यः	naubhyáḥ								
+boat	genitive	ना॒वः	nāváḥ	ना॒वोः	nāvóḥ	ना॒वाम्	nāvā́m								
+boat	locative	ना॒वि	nāví	ना॒वोः	nāvóḥ	नौ॒षु	nauṣú								
+boat	vocative	नौः	náuḥ	नावौ॑, नावा॑1, 1	nā́vau / nā́vā	नावः॑	nā́vaḥ								
+book	nominative	पुस्तकम्	pustakam	पुस्तके	pustake	पुस्तकानि, पुस्तका1, 1	pustakāni / pustakā								
+book	accusative	पुस्तकम्	pustakam	पुस्तके	pustake	पुस्तकानि, पुस्तका1, 1	pustakāni / pustakā								
+book	instrumental	पुस्तकेन	pustakena	पुस्तकाभ्याम्	pustakābhyām	पुस्तकैः, पुस्तकेभिः1, 1	pustakaiḥ / pustakebhiḥ								
+book	dative	पुस्तकाय	pustakāya	पुस्तकाभ्याम्	pustakābhyām	पुस्तकेभ्यः	pustakebhyaḥ								
+book	ablative	पुस्तकात्	pustakāt	पुस्तकाभ्याम्	pustakābhyām	पुस्तकेभ्यः	pustakebhyaḥ								
+book	genitive	पुस्तकस्य	pustakasya	पुस्तकयोः	pustakayoḥ	पुस्तकानाम्	pustakānām								
+book	locative	पुस्तके	pustake	पुस्तकयोः	pustakayoḥ	पुस्तकेषु	pustakeṣu								
+book	vocative	पुस्तक	pustaka	पुस्तके	pustake	पुस्तकानि, पुस्तका1, 1	pustakāni / pustakā								
+insect	nominative	ज॒न्तुः	jantúḥ	ज॒न्तू	jantū́	ज॒न्तवः॑	jantávaḥ								
+insect	accusative	ज॒न्तुम्	jantúm	ज॒न्तू	jantū́	ज॒न्तून्	jantū́n								
+insect	instrumental	ज॒न्तुना॑	jantúnā	ज॒न्तुभ्या॑म्	jantúbhyām	ज॒न्तुभिः॑	jantúbhiḥ								
+insect	dative	ज॒न्तवे॑	jantáve	ज॒न्तुभ्या॑म्	jantúbhyām	ज॒न्तुभ्यः॑	jantúbhyaḥ								
+insect	ablative	ज॒न्तोः	jantóḥ	ज॒न्तुभ्या॑म्	jantúbhyām	ज॒न्तुभ्यः॑	jantúbhyaḥ								
+insect	genitive	ज॒न्तोः	jantóḥ	ज॒न्त्वोः	jantvóḥ	ज॒न्तू॒नाम्	jantūnā́m								
+insect	locative	ज॒न्तौ	jantáu	ज॒न्त्वोः	jantvóḥ	ज॒न्तुषु॑	jantúṣu								
+insect	vocative	जन्तो॑	jánto	जन्तू॑	jántū	जन्त॑वः	jántavaḥ								
+beetle	nominative	भ्रमरः	bhramaraḥ	भ्रमरौ, भ्रमरा1, 1	bhramarau / bhramarā	भ्रमराः, भ्रमरासः1, 1	bhramarāḥ / bhramarāsaḥ								
+beetle	accusative	भ्रमरम्	bhramaram	भ्रमरौ, भ्रमरा1, 1	bhramarau / bhramarā	भ्रमरान्	bhramarān								
+beetle	instrumental	भ्रमरेण	bhramareṇa	भ्रमराभ्याम्	bhramarābhyām	भ्रमरैः, भ्रमरेभिः1, 1	bhramaraiḥ / bhramarebhiḥ								
+beetle	dative	भ्रमराय	bhramarāya	भ्रमराभ्याम्	bhramarābhyām	भ्रमरेभ्यः	bhramarebhyaḥ								
+beetle	ablative	भ्रमरात्	bhramarāt	भ्रमराभ्याम्	bhramarābhyām	भ्रमरेभ्यः	bhramarebhyaḥ								
+beetle	genitive	भ्रमरस्य	bhramarasya	भ्रमरयोः	bhramarayoḥ	भ्रमराणाम्	bhramarāṇām								
+beetle	locative	भ्रमरे	bhramare	भ्रमरयोः	bhramarayoḥ	भ्रमरेषु	bhramareṣu								
+beetle	vocative	भ्रमर	bhramara	भ्रमरौ, भ्रमरा1, 1	bhramarau / bhramarā	भ्रमराः, भ्रमरासः1, 1	bhramarāḥ / bhramarāsaḥ								
+louse	nominative	यूका	yūkā	यूके	yūke	यूकाः	yūkāḥ								
+louse	accusative	यूकाम्	yūkām	यूके	yūke	यूकाः	yūkāḥ								
+louse	instrumental	यूकया, यूका1, 1	yūkayā / yūkā	यूकाभ्याम्	yūkābhyām	यूकाभिः	yūkābhiḥ								
+louse	dative	यूकायै	yūkāyai	यूकाभ्याम्	yūkābhyām	यूकाभ्यः	yūkābhyaḥ								
+louse	ablative	यूकायाः, यूकायै2, 2	yūkāyāḥ / yūkāyai	यूकाभ्याम्	yūkābhyām	यूकाभ्यः	yūkābhyaḥ								
+louse	genitive	यूकायाः, यूकायै2, 2	yūkāyāḥ / yūkāyai	यूकयोः	yūkayoḥ	यूकानाम्	yūkānām								
+louse	locative	यूकायाम्	yūkāyām	यूकयोः	yūkayoḥ	यूकासु	yūkāsu								
+louse	vocative	यूके	yūke	यूके	yūke	यूकाः	yūkāḥ								
+clothing	nominative	वस्त्र॑म्	vástram	वस्त्रे॑	vástre	वस्त्रा॑णि, वस्त्रा॑1, 1	vástrāṇi / vástrā								
+clothing	accusative	वस्त्र॑म्	vástram	वस्त्रे॑	vástre	वस्त्रा॑णि, वस्त्रा॑1, 1	vástrāṇi / vástrā								
+clothing	instrumental	वस्त्रे॑ण	vástreṇa	वस्त्रा॑भ्याम्	vástrābhyām	वस्त्रैः॑, वस्त्रे॑भिः1, 1	vástraiḥ / vástrebhiḥ								
+clothing	dative	वस्त्रा॑य	vástrāya	वस्त्रा॑भ्याम्	vástrābhyām	वस्त्रे॑भ्यः	vástrebhyaḥ								
+clothing	ablative	वस्त्रा॑त्	vástrāt	वस्त्रा॑भ्याम्	vástrābhyām	वस्त्रे॑भ्यः	vástrebhyaḥ								
+clothing	genitive	वस्त्र॑स्य	vástrasya	वस्त्र॑योः	vástrayoḥ	वस्त्रा॑णाम्	vástrāṇām								
+clothing	locative	वस्त्रे॑	vástre	वस्त्र॑योः	vástrayoḥ	वस्त्रे॑षु	vástreṣu								
+clothing	vocative	वस्त्र॑	vástra	वस्त्रे॑	vástre	वस्त्रा॑णि, वस्त्रा॑1, 1	vástrāṇi / vástrā								
+garment	nominative	वस्त्र॑म्	vástram	वस्त्रे॑	vástre	वस्त्रा॑णि, वस्त्रा॑1, 1	vástrāṇi / vástrā								
+garment	accusative	वस्त्र॑म्	vástram	वस्त्रे॑	vástre	वस्त्रा॑णि, वस्त्रा॑1, 1	vástrāṇi / vástrā								
+garment	instrumental	वस्त्रे॑ण	vástreṇa	वस्त्रा॑भ्याम्	vástrābhyām	वस्त्रैः॑, वस्त्रे॑भिः1, 1	vástraiḥ / vástrebhiḥ								
+garment	dative	वस्त्रा॑य	vástrāya	वस्त्रा॑भ्याम्	vástrābhyām	वस्त्रे॑भ्यः	vástrebhyaḥ								
+garment	ablative	वस्त्रा॑त्	vástrāt	वस्त्रा॑भ्याम्	vástrābhyām	वस्त्रे॑भ्यः	vástrebhyaḥ								
+garment	genitive	वस्त्र॑स्य	vástrasya	वस्त्र॑योः	vástrayoḥ	वस्त्रा॑णाम्	vástrāṇām								
+garment	locative	वस्त्रे॑	vástre	वस्त्र॑योः	vástrayoḥ	वस्त्रे॑षु	vástreṣu								
+garment	vocative	वस्त्र॑	vástra	वस्त्रे॑	vástre	वस्त्रा॑णि, वस्त्रा॑1, 1	vástrāṇi / vástrā								
+dog	nominative	श्वा	śvā́	श्वानौ॑, श्वाना॑1, 1	śvā́nau / śvā́nā	श्वानः॑	śvā́naḥ								
+dog	accusative	श्वान॑म्	śvā́nam	श्वानौ॑, श्वाना॑1, 1	śvā́nau / śvā́nā	शुनः॑	śúnaḥ								
+dog	instrumental	शुना॑	śúnā	श्वभ्या॑म्	śvábhyām	श्वभिः॑	śvábhiḥ								
+dog	dative	शुने॑	śúne	श्वभ्या॑म्	śvábhyām	श्वभ्यः॑	śvábhyaḥ								
+dog	ablative	शुनः॑	śúnaḥ	श्वभ्या॑म्	śvábhyām	श्वभ्यः॑	śvábhyaḥ								
+dog	genitive	शुनः॑	śúnaḥ	शुनोः॑	śúnoḥ	शुना॑म्	śúnām								
+dog	locative	शुनि॑	śúni	शुनोः॑	śúnoḥ	श्वसु॑	śvásu								
+dog	vocative	श्वन्	śván	श्वानौ॑, श्वाना॑1, 1	śvā́nau / śvā́nā	श्वानः॑	śvā́naḥ								
+door	nominative	द्वाः	dvā́ḥ	द्वारौ॑, द्वारा॑1, 1	dvā́rau / dvā́rā	द्वारः॑, दुरः॑1, 1	dvā́raḥ / dúraḥ								
+door	accusative	द्वार॑म्	dvā́ram	द्वारौ॑, द्वारा॑1, 1	dvā́rau / dvā́rā	द्वारः॑, दुरः॑1, दु॒रः1, 1, 1	dvā́raḥ / dúraḥ / duráḥ								
+door	instrumental	द्वा॒रा, दु॒रा1, 1	dvārā́ / durā́	द्वा॒र्भ्याम्, दू॒र्भ्याम्1, 1	dvārbhyā́m / dūrbhyā́m	द्वा॒र्भिः, दू॒र्भिः1, 1	dvārbhíḥ / dūrbhíḥ								
+door	dative	द्वा॒रे, दु॒रे1, 1	dvāré / duré	द्वा॒र्भ्याम्, दू॒र्भ्याम्1, 1	dvārbhyā́m / dūrbhyā́m	द्वा॒र्भ्यः, दू॒र्भ्यः1, 1	dvārbhyáḥ / dūrbhyáḥ								
+door	ablative	द्वा॒रः, दु॒रः1, 1	dvāráḥ / duráḥ	द्वा॒र्भ्याम्, दू॒र्भ्याम्1, 1	dvārbhyā́m / dūrbhyā́m	द्वा॒र्भ्यः, दू॒र्भ्यः1, 1	dvārbhyáḥ / dūrbhyáḥ								
+door	genitive	द्वा॒रः, दु॒रः1, 1	dvāráḥ / duráḥ	द्वा॒रोः, दु॒रोः1, 1	dvāróḥ / duróḥ	द्वा॒राम्, दु॒राम्1, 1	dvārā́m / durā́m								
+door	locative	द्वा॒रि, दु॒रि1, 1	dvārí / durí	द्वा॒रोः, दु॒रोः1, 1	dvāróḥ / duróḥ	द्वा॒र्षु, दू॒र्षु1, 1	dvārṣú / dūrṣú								
+door	vocative	द्वाः	dvā́ḥ	द्वारौ॑, द्वारा॑1, 1	dvā́rau / dvā́rā	द्वारः॑	dvā́raḥ								
+drum	nominative	ढोलः	ḍholaḥ 	ढोलौ	ḍholau 	ढोलाः	ḍholāḥ								
+drum	accusative	ढोलम्	ḍholam 	ढोलौ	ḍholau 	ढोलान्	ḍholān								
+drum	instrumental	ढोलेन	ḍholena 	ढोलाभ्याम्	ḍholābhyām 	ढोलैः	ḍholaiḥ								
+drum	dative	ढोलाय	ḍholāya 	ढोलाभ्याम्	ḍholābhyām 	ढोलेभ्यः	ḍholebhyaḥ								
+drum	ablative	ढोलात्	ḍholāt 	ढोलाभ्याम्	ḍholābhyām 	ढोलेभ्यः	ḍholebhyaḥ								
+drum	genitive	ढोलस्य	ḍholasya 	ढोलयोः	ḍholayoḥ 	ढोलानाम्	ḍholānām								
+drum	locative	ढोले	ḍhole 	ढोलयोः	ḍholayoḥ 	ढोलेषु	ḍholeṣu								
+drum	vocative	ढोल	ḍhola 	ढोलौ	ḍholau 	ढोलाः	ḍholāḥ 								
+fish	nominative	मत्स्यः॑	mátsyaḥ	मत्स्यौ॑, मत्स्या॑1, 1	mátsyau / mátsyā	मत्स्याः॑, मत्स्या॑सः1, 1	mátsyāḥ / mátsyāsaḥ								
+fish	accusative	मत्स्य॑म्	mátsyam	मत्स्यौ॑, मत्स्या॑1, 1	mátsyau / mátsyā	मत्स्या॑न्	mátsyān								
+fish	instrumental	मत्स्ये॑न	mátsyena	मत्स्या॑भ्याम्	mátsyābhyām	मत्स्यैः॑, मत्स्ये॑भिः1, 1	mátsyaiḥ / mátsyebhiḥ								
+fish	dative	मत्स्या॑य	mátsyāya	मत्स्या॑भ्याम्	mátsyābhyām	मत्स्ये॑भ्यः	mátsyebhyaḥ								
+fish	ablative	मत्स्या॑त्	mátsyāt	मत्स्या॑भ्याम्	mátsyābhyām	मत्स्ये॑भ्यः	mátsyebhyaḥ								
+fish	genitive	मत्स्य॑स्य	mátsyasya	मत्स्य॑योः, मत्स्योः॑1, 1	mátsyayoḥ / mátsyoḥ	मत्स्या॑नाम्	mátsyānām								
+fish	locative	मत्स्ये॑	mátsye	मत्स्य॑योः, मत्स्योः॑1, 1	mátsyayoḥ / mátsyoḥ	मत्स्ये॑षु	mátsyeṣu								
+fish	vocative	मत्स्य॑	mátsya	मत्स्यौ॑, मत्स्या॑1, 1	mátsyau / mátsyā	मत्स्याः॑, मत्स्या॑सः1, 1	mátsyāḥ / mátsyāsaḥ								
+fire	nominative	अ॒ग्निः	agníḥ	अ॒ग्नी	agnī́	अ॒ग्नयः॑	agnáyaḥ								
+fire	accusative	अ॒ग्निम्	agním	अ॒ग्नी	agnī́	अ॒ग्नीन्	agnī́n								
+fire	instrumental	अ॒ग्निना॑	agnínā	अ॒ग्निभ्या॑म्	agníbhyām	अ॒ग्निभिः॑	agníbhiḥ								
+fire	dative	अ॒ग्नये॑	agnáye	अ॒ग्निभ्या॑म्	agníbhyām	अ॒ग्निभ्यः॑	agníbhyaḥ								
+fire	ablative	अ॒ग्नेः	agnéḥ	अ॒ग्निभ्या॑म्	agníbhyām	अ॒ग्निभ्यः॑	agníbhyaḥ								
+fire	genitive	अ॒ग्नेः	agnéḥ	अ॒ग्न्योः	agnyóḥ	अ॒ग्नी॒नाम्	agnīnā́m								
+fire	locative	अ॒ग्नौ, अ॒ग्ना1, 1	agnáu / agnā́	अ॒ग्न्योः	agnyóḥ	अ॒ग्निषु॑	agníṣu								
+fire	vocative	अग्ने॑	ágne	अग्नी॑	ágnī	अग्न॑यः	ágnayaḥ								
+food	nominative	खाद्यम्	khādyam	खाद्ये	khādye	खाद्यानि, खाद्या1, 1	khādyāni / khādyā								
+food	accusative	खाद्यम्	khādyam	खाद्ये	khādye	खाद्यानि, खाद्या1, 1	khādyāni / khādyā								
+food	instrumental	खाद्येन	khādyena	खाद्याभ्याम्	khādyābhyām	खाद्यैः, खाद्येभिः1, 1	khādyaiḥ / khādyebhiḥ								
+food	dative	खाद्याय	khādyāya	खाद्याभ्याम्	khādyābhyām	खाद्येभ्यः	khādyebhyaḥ								
+food	ablative	खाद्यात्	khādyāt	खाद्याभ्याम्	khādyābhyām	खाद्येभ्यः	khādyebhyaḥ								
+food	genitive	खाद्यस्य	khādyasya	खाद्ययोः, खाद्योः1, 1	khādyayoḥ / khādyoḥ	खाद्यानाम्	khādyānām								
+food	locative	खाद्ये	khādye	खाद्ययोः, खाद्योः1, 1	khādyayoḥ / khādyoḥ	खाद्येषु	khādyeṣu								
+food	vocative	खाद्य	khādya	खाद्ये	khādye	खाद्यानि, खाद्या1, 1	khādyāni / khādyā								
+forest	nominative	जङ्गलम्	jaṅgalam 	जङ्गले	jaṅgale 	जङ्गलानि, जङ्गला1	jaṅgalāni, jaṅgalā1								
+forest	accusative	जङ्गलम्	jaṅgalam 	जङ्गले	jaṅgale 	जङ्गलानि, जङ्गला1	jaṅgalāni, jaṅgalā1								
+forest	instrumental	जङ्गलेन	jaṅgalena 	जङ्गलाभ्याम्	jaṅgalābhyām 	जङ्गलैः, जङ्गलेभिः1	jaṅgalaiḥ, jaṅgalebhiḥ1								
+forest	dative	जङ्गलाय	jaṅgalāya 	जङ्गलाभ्याम्	jaṅgalābhyām 	जङ्गलेभ्यः	jaṅgalebhyaḥ								
+forest	ablative	जङ्गलात्	jaṅgalāt 	जङ्गलाभ्याम्	jaṅgalābhyām 	जङ्गलेभ्यः	jaṅgalebhyaḥ								
+forest	genitive	जङ्गलस्य	jaṅgalasya 	जङ्गलयोः	jaṅgalayoḥ 	जङ्गलानाम्	jaṅgalānām								
+forest	locative	जङ्गले	jaṅgale 	जङ्गलयोः	jaṅgalayoḥ 	जङ्गलेषु	jaṅgaleṣu								
+forest	vocative	जङ्गल	jaṅgala 	जङ्गले	jaṅgale 	जङ्गलानि, जङ्गला1	jaṅgalāni, jaṅgalā1 								
+gift	nominative	दान॑म्	dā́nam	दाने॑	dā́ne	दाना॑नि, दाना॑1, 1	dā́nāni / dā́nā								
+gift	accusative	दान॑म्	dā́nam	दाने॑	dā́ne	दाना॑नि, दाना॑1, 1	dā́nāni / dā́nā								
+gift	instrumental	दाने॑न	dā́nena	दाना॑भ्याम्	dā́nābhyām	दानैः॑, दाने॑भिः1, 1	dā́naiḥ / dā́nebhiḥ								
+gift	dative	दाना॑य	dā́nāya	दाना॑भ्याम्	dā́nābhyām	दाने॑भ्यः	dā́nebhyaḥ								
+gift	ablative	दाना॑त्	dā́nāt	दाना॑भ्याम्	dā́nābhyām	दाने॑भ्यः	dā́nebhyaḥ								
+gift	genitive	दान॑स्य	dā́nasya	दान॑योः	dā́nayoḥ	दाना॑नाम्	dā́nānām								
+gift	locative	दाने॑	dā́ne	दान॑योः	dā́nayoḥ	दाने॑षु	dā́neṣu								
+gift	vocative	दान॑	dā́na	दाने॑	dā́ne	दाना॑नि, दाना॑1, 1	dā́nāni / dā́nā								
+glass	nominative	का॒चः	kācáḥ	का॒चौ, का॒चा1, 1	kācáu / kācā́	का॒चाः, का॒चासः॑1, 1	kācā́ḥ / kācā́saḥ								
+glass	accusative	का॒चम्	kācám	का॒चौ, का॒चा1, 1	kācáu / kācā́	का॒चान्	kācā́n								
+glass	instrumental	का॒चेन॑	kācéna	का॒चाभ्या॑म्	kācā́bhyām	का॒चैः, का॒चेभिः॑1, 1	kācáiḥ / kācébhiḥ								
+glass	dative	का॒चाय॑	kācā́ya	का॒चाभ्या॑म्	kācā́bhyām	का॒चेभ्यः॑	kācébhyaḥ								
+glass	ablative	का॒चात्	kācā́t	का॒चाभ्या॑म्	kācā́bhyām	का॒चेभ्यः॑	kācébhyaḥ								
+glass	genitive	का॒चस्य॑	kācásya	का॒चयोः॑	kācáyoḥ	का॒चाना॑म्	kācā́nām								
+glass	locative	का॒चे	kācé	का॒चयोः॑	kācáyoḥ	का॒चेषु॑	kācéṣu								
+glass	vocative	काच॑	kā́ca	काचौ॑, काचा॑1, 1	kā́cau / kā́cā	काचाः॑, काचा॑सः1, 1	kā́cāḥ / kā́cāsaḥ								
+hill	nominative	गि॒रिः	giríḥ	गि॒री	girī́	गि॒रयः॑	giráyaḥ								
+hill	accusative	गि॒रिम्	girím	गि॒री	girī́	गि॒रीन्	girī́n								
+hill	instrumental	गि॒रिणा॑	giríṇā	गि॒रिभ्या॑म्	giríbhyām	गि॒रिभिः॑	giríbhiḥ								
+hill	dative	गि॒रये॑	giráye	गि॒रिभ्या॑म्	giríbhyām	गि॒रिभ्यः॑	giríbhyaḥ								
+hill	ablative	गि॒रेः	giréḥ	गि॒रिभ्या॑म्	giríbhyām	गि॒रिभ्यः॑	giríbhyaḥ								
+hill	genitive	गि॒रेः	giréḥ	गि॒र्योः	giryóḥ	गि॒री॒णाम्	girīṇā́m								
+hill	locative	गि॒रौ, गि॒रा1, 1	giráu	गि॒र्योः	giryóḥ	गि॒रिषु॑	giríṣu								
+hill	vocative	गिरे॑	gíre	गिरी॑	gírī	गिर॑यः	gírayaḥ								
+horse	nominative	अश्वः॑	áśvaḥ	अश्वौ॑, अश्वा॑1, 1	áśvau / áśvā	अश्वाः॑, अश्वा॑सः1, 1	áśvāḥ / áśvāsaḥ								
+horse	accusative	अश्व॑म्	áśvam	अश्वौ॑, अश्वा॑1, 1	áśvau / áśvā	अश्वा॑न्	áśvān								
+horse	instrumental	अश्वे॑न	áśvena	अश्वा॑भ्याम्	áśvābhyām	अश्वैः॑, अश्वे॑भिः1, 1	áśvaiḥ / áśvebhiḥ								
+horse	dative	अश्वा॑य	áśvāya	अश्वा॑भ्याम्	áśvābhyām	अश्वे॑भ्यः	áśvebhyaḥ								
+horse	ablative	अश्वा॑त्	áśvāt	अश्वा॑भ्याम्	áśvābhyām	अश्वे॑भ्यः	áśvebhyaḥ								
+horse	genitive	अश्व॑स्य	áśvasya	अश्व॑योः	áśvayoḥ	अश्वा॑नाम्	áśvānām								
+horse	locative	अश्वे॑	áśve	अश्व॑योः	áśvayoḥ	अश्वे॑षु	áśveṣu								
+horse	vocative	अश्व॑	áśva	अश्वौ॑, अश्वा॑1, 1	áśvau / áśvā	अश्वाः॑, अश्वा॑सः1, 1	áśvāḥ / áśvāsaḥ								
+house	nominative	गृ॒हः	gṛháḥ	गृ॒हौ, गृ॒हा1, 1	gṛháu / gṛhā́	गृ॒हाः, गृ॒हासः॑1, 1	gṛhā́ḥ / gṛhā́saḥ								
+house	accusative	गृ॒हम्	gṛhám	गृ॒हौ, गृ॒हा1, 1	gṛháu / gṛhā́	गृ॒हान्	gṛhā́n								
+house	instrumental	गृ॒हेण॑	gṛhéṇa	गृ॒हाभ्या॑म्	gṛhā́bhyām	गृ॒हैः, गृ॒हेभिः॑1, 1	gṛháiḥ / gṛhébhiḥ								
+house	dative	गृ॒हाय॑	gṛhā́ya	गृ॒हाभ्या॑म्	gṛhā́bhyām	गृ॒हेभ्यः॑	gṛhébhyaḥ								
+house	ablative	गृ॒हात्	gṛhā́t	गृ॒हाभ्या॑म्	gṛhā́bhyām	गृ॒हेभ्यः॑	gṛhébhyaḥ								
+house	genitive	गृ॒हस्य॑	gṛhásya	गृ॒हयोः॑	gṛháyoḥ	गृ॒हाणा॑म्	gṛhā́ṇām								
+house	locative	गृ॒हे	gṛhé	गृ॒हयोः॑	gṛháyoḥ	गृ॒हेषु॑	gṛhéṣu								
+house	vocative	गृह॑	gṛ́ha	गृहौ॑, गृहा॑1, 1	gṛ́hau / gṛ́hā	गृहाः॑, गृहा॑सः1, 1	gṛ́hāḥ / gṛ́hāsaḥ								
+love	nominative	प्रे॒मा	premā́	प्रे॒माणौ॑, प्रे॒माणा॑1, 1	premā́ṇau / premā́ṇā	प्रे॒माणः॑	premā́ṇaḥ								
+love	accusative	प्रे॒माण॑म्	premā́ṇam	प्रे॒माणौ॑, प्रे॒माणा॑1, 1	premā́ṇau / premā́ṇā	प्रे॒म्णः	premṇáḥ								
+love	instrumental	प्रे॒म्णा, प्रे॒णा1, 1	premṇā́ / preṇā́	प्रे॒मभ्या॑म्	premábhyām	प्रे॒मभिः॑	premábhiḥ								
+love	dative	प्रे॒म्णे	premṇé	प्रे॒मभ्या॑म्	premábhyām	प्रे॒मभ्यः॑	premábhyaḥ								
+love	ablative	प्रे॒म्णः	premṇáḥ	प्रे॒मभ्या॑म्	premábhyām	प्रे॒मभ्यः॑	premábhyaḥ								
+love	genitive	प्रे॒म्णः	premṇáḥ	प्रे॒म्णोः	premṇóḥ	प्रे॒म्णाम्	premṇā́m								
+love	locative	प्रे॒म्णि, प्रे॒मणि॑, प्रे॒मन्1, , 1	premṇí / premáṇi	प्रे॒म्णोः	premṇóḥ	प्रे॒मसु॑	premásu								
+love	vocative	प्रेम॑न्	préman	प्रेमा॑णौ, प्रेमा॑णा1, 1	prémāṇau / prémāṇā	प्रेमा॑णः	prémāṇaḥ								
+metal	nominative	धातुः॑	dhā́tuḥ	धातू॑	dhā́tū	धात॑वः	dhā́tavaḥ								
+metal	accusative	धातु॑म्	dhā́tum	धातू॑	dhā́tū	धातू॑न्	dhā́tūn								
+metal	instrumental	धातु॑ना	dhā́tunā	धातु॑भ्याम्	dhā́tubhyām	धातु॑भिः	dhā́tubhiḥ								
+metal	dative	धात॑वे	dhā́tave	धातु॑भ्याम्	dhā́tubhyām	धातु॑भ्यः	dhā́tubhyaḥ								
+metal	ablative	धातोः॑	dhā́toḥ	धातु॑भ्याम्	dhā́tubhyām	धातु॑भ्यः	dhā́tubhyaḥ								
+metal	genitive	धातोः॑	dhā́toḥ	धात्वोः॑	dhā́tvoḥ	धातू॑नाम्	dhā́tūnām								
+metal	locative	धातौ॑	dhā́tau	धात्वोः॑	dhā́tvoḥ	धातु॑षु	dhā́tuṣu								
+metal	vocative	धातो॑	dhā́to	धातू॑	dhā́tū	धात॑वः	dhā́tavaḥ								
+money	nominative	धन॑म्	dhánam	धने॑	dháne	धना॑नि, धना॑1, 1	dhánāni / dhánā								
+money	accusative	धन॑म्	dhánam	धने॑	dháne	धना॑नि, धना॑1, 1	dhánāni / dhánā								
+money	instrumental	धने॑न	dhánena	धना॑भ्याम्	dhánābhyām	धनैः॑, धने॑भिः1, 1	dhánaiḥ / dhánebhiḥ								
+money	dative	धना॑य	dhánāya	धना॑भ्याम्	dhánābhyām	धने॑भ्यः	dhánebhyaḥ								
+money	ablative	धना॑त्	dhánāt	धना॑भ्याम्	dhánābhyām	धने॑भ्यः	dhánebhyaḥ								
+money	genitive	धन॑स्य	dhánasya	धन॑योः	dhánayoḥ	धना॑नाम्	dhánānām								
+money	locative	धने॑	dháne	धन॑योः	dhánayoḥ	धने॑षु	dháneṣu								
+money	vocative	धन॑	dhána	धने॑	dháne	धना॑नि, धना॑1, 1	dhánāni / dhánā								
+coin	nominative	टङ्कः	ṭaṅkaḥ 	टङ्कौ, टङ्का1	ṭaṅkau, ṭaṅkā1 	टङ्काः, टङ्कासः1	ṭaṅkāḥ, ṭaṅkāsaḥ1								
+coin	accusative	टङ्कम्	ṭaṅkam 	टङ्कौ, टङ्का1	ṭaṅkau, ṭaṅkā1 	टङ्कान्	ṭaṅkān								
+coin	instrumental	टङ्केन	ṭaṅkena 	टङ्काभ्याम्	ṭaṅkābhyām 	टङ्कैः, टङ्केभिः1	ṭaṅkaiḥ, ṭaṅkebhiḥ1								
+coin	dative	टङ्काय	ṭaṅkāya 	टङ्काभ्याम्	ṭaṅkābhyām 	टङ्केभ्यः	ṭaṅkebhyaḥ								
+coin	ablative	टङ्कात्	ṭaṅkāt 	टङ्काभ्याम्	ṭaṅkābhyām 	टङ्केभ्यः	ṭaṅkebhyaḥ								
+coin	genitive	टङ्कस्य	ṭaṅkasya 	टङ्कयोः	ṭaṅkayoḥ 	टङ्कानाम्	ṭaṅkānām								
+coin	locative	टङ्के	ṭaṅke 	टङ्कयोः	ṭaṅkayoḥ 	टङ्केषु	ṭaṅkeṣu								
+coin	vocative	टङ्क	ṭaṅka 	टङ्कौ, टङ्का1	ṭaṅkau, ṭaṅkā1 	टङ्काः, टङ्कासः1	ṭaṅkāḥ, ṭaṅkāsaḥ1 								
+weath	nominative	धन्यः॑	dhányaḥ	धन्यौ॑, धन्या॑1, 1	dhányau / dhányā	धन्याः॑, धन्या॑सः1, 1	dhányāḥ / dhányāsaḥ								
+weath	accusative	धन्य॑म्	dhányam	धन्यौ॑, धन्या॑1, 1	dhányau / dhányā	धन्या॑न्	dhányān								
+weath	instrumental	धन्ये॑न	dhányena	धन्या॑भ्याम्	dhányābhyām	धन्यैः॑, धन्ये॑भिः1, 1	dhányaiḥ / dhányebhiḥ								
+weath	dative	धन्या॑य	dhányāya	धन्या॑भ्याम्	dhányābhyām	धन्ये॑भ्यः	dhányebhyaḥ								
+weath	ablative	धन्या॑त्	dhányāt	धन्या॑भ्याम्	dhányābhyām	धन्ये॑भ्यः	dhányebhyaḥ								
+weath	genitive	धन्य॑स्य	dhányasya	धन्य॑योः, धन्योः॑1, 1	dhányayoḥ / dhányoḥ	धन्या॑नाम्	dhányānām								
+weath	locative	धन्ये॑	dhánye	धन्य॑योः, धन्योः॑1, 1	dhányayoḥ / dhányoḥ	धन्ये॑षु	dhányeṣu								
+weath	vocative	धन्य॑	dhánya	धन्यौ॑, धन्या॑1, 1	dhányau / dhányā	धन्याः॑, धन्या॑सः1, 1	dhányāḥ / dhányāsaḥ								
+stone	nominative	पाषी	pāṣī	पाष्यौ, पाषी1, 1	pāṣyau / pāṣī	पाष्यः, पाषीः1, 1	pāṣyaḥ / pāṣīḥ								
+stone	accusative	पाषीम्	pāṣīm	पाष्यौ, पाषी1, 1	pāṣyau / pāṣī	पाषीः	pāṣīḥ								
+stone	instrumental	पाष्या	pāṣyā	पाषीभ्याम्	pāṣībhyām	पाषीभिः	pāṣībhiḥ								
+stone	dative	पाष्यै	pāṣyai	पाषीभ्याम्	pāṣībhyām	पाषीभ्यः	pāṣībhyaḥ								
+stone	ablative	पाष्याः, पाष्यै2, 2	pāṣyāḥ / pāṣyai	पाषीभ्याम्	pāṣībhyām	पाषीभ्यः	pāṣībhyaḥ								
+stone	genitive	पाष्याः, पाष्यै2, 2	pāṣyāḥ / pāṣyai	पाष्योः	pāṣyoḥ	पाषीणाम्	pāṣīṇām								
+stone	locative	पाष्याम्	pāṣyām	पाष्योः	pāṣyoḥ	पाषीषु	pāṣīṣu								
+stone	vocative	पाषि	pāṣi	पाष्यौ, पाषी1, 1	pāṣyau / pāṣī	पाष्यः, पाषीः1, 1	pāṣyaḥ / pāṣīḥ								
+rope	nominative	रज्जुः॑	rájjuḥ	रज्जू॑	rájjū	रज्ज॑वः	rájjavaḥ								
+rope	accusative	रज्जु॑म्, रज्ज्व॑म्, 	rájjum / rájjvam	रज्जू॑	rájjū	रज्जूः॑	rájjūḥ								
+rope	instrumental	रज्ज्वा॑	rájjvā	रज्जु॑भ्याम्	rájjubhyām	रज्जु॑भिः	rájjubhiḥ								
+rope	dative	रज्ज॑वे, रज्ज्वै॑, 	rájjave / rájjvai	रज्जु॑भ्याम्	rájjubhyām	रज्जु॑भ्यः	rájjubhyaḥ								
+rope	ablative	रज्जोः॑, रज्ज्वाः॑, रज्ज्वै॑1, , 1	rájjoḥ / rájjvāḥ	रज्जु॑भ्याम्	rájjubhyām	रज्जु॑भ्यः	rájjubhyaḥ								
+rope	genitive	रज्जोः॑, रज्ज्वाः॑, रज्ज्वै॑1, , 1	rájjoḥ / rájjvāḥ	रज्ज्वोः॑	rájjvoḥ	रज्जू॑नाम्	rájjūnām								
+rope	locative	रज्जौ॑, रज्ज्वा॑म्, 	rájjau / rájjvām	रज्ज्वोः॑	rájjvoḥ	रज्जु॑षु	rájjuṣu								
+rope	vocative	रज्जो॑	rájjo	रज्जू॑	rájjū	रज्ज॑वः	rájjavaḥ								
+tool	nominative	उपकरणम्	upakaraṇam	उपकरणे	upakaraṇe	उपकरणानि, उपकरणा1, 1	upakaraṇāni / upakaraṇā								
+tool	accusative	उपकरणम्	upakaraṇam	उपकरणे	upakaraṇe	उपकरणानि, उपकरणा1, 1	upakaraṇāni / upakaraṇā								
+tool	instrumental	उपकरणेन	upakaraṇena	उपकरणाभ्याम्	upakaraṇābhyām	उपकरणैः, उपकरणेभिः1, 1	upakaraṇaiḥ / upakaraṇebhiḥ								
+tool	dative	उपकरणाय	upakaraṇāya	उपकरणाभ्याम्	upakaraṇābhyām	उपकरणेभ्यः	upakaraṇebhyaḥ								
+tool	ablative	उपकरणात्	upakaraṇāt	उपकरणाभ्याम्	upakaraṇābhyām	उपकरणेभ्यः	upakaraṇebhyaḥ								
+tool	genitive	उपकरणस्य	upakaraṇasya	उपकरणयोः	upakaraṇayoḥ	उपकरणानाम्	upakaraṇānām								
+tool	locative	उपकरणे	upakaraṇe	उपकरणयोः	upakaraṇayoḥ	उपकरणेषु	upakaraṇeṣu								
+tool	vocative	उपकरण	upakaraṇa	उपकरणे	upakaraṇe	उपकरणानि, उपकरणा1, 1	upakaraṇāni / upakaraṇā								
+treasure	nominative	कोशः॑	kóśaḥ	कोशौ॑, कोशा॑1, 1	kóśau / kóśā	कोशाः॑, कोशा॑सः1, 1	kóśāḥ / kóśāsaḥ								
+treasure	accusative	कोश॑म्	kóśam	कोशौ॑, कोशा॑1, 1	kóśau / kóśā	कोशा॑न्	kóśān								
+treasure	instrumental	कोशे॑न	kóśena	कोशा॑भ्याम्	kóśābhyām	कोशैः॑, कोशे॑भिः1, 1	kóśaiḥ / kóśebhiḥ								
+treasure	dative	कोशा॑य	kóśāya	कोशा॑भ्याम्	kóśābhyām	कोशे॑भ्यः	kóśebhyaḥ								
+treasure	ablative	कोशा॑त्	kóśāt	कोशा॑भ्याम्	kóśābhyām	कोशे॑भ्यः	kóśebhyaḥ								
+treasure	genitive	कोश॑स्य	kóśasya	कोश॑योः	kóśayoḥ	कोशा॑नाम्	kóśānām								
+treasure	locative	कोशे॑	kóśe	कोश॑योः	kóśayoḥ	कोशे॑षु	kóśeṣu								
+treasure	vocative	कोश॑	kóśa	कोशौ॑, कोशा॑1, 1	kóśau / kóśā	कोशाः॑, कोशा॑सः1, 1	kóśāḥ / kóśāsaḥ								
+warmth	nominative	घ॒र्मः	gharmáḥ	घ॒र्मौ, घ॒र्मा1, 1	gharmáu / gharmā́	घ॒र्माः, घ॒र्मासः॑1, 1	gharmā́ḥ / gharmā́saḥ								
+warmth	accusative	घ॒र्मम्	gharmám	घ॒र्मौ, घ॒र्मा1, 1	gharmáu / gharmā́	घ॒र्मान्	gharmā́n								
+warmth	instrumental	घ॒र्मेण॑	gharméṇa	घ॒र्माभ्या॑म्	gharmā́bhyām	घ॒र्मैः, घ॒र्मेभिः॑1, 1	gharmáiḥ / gharmébhiḥ								
+warmth	dative	घ॒र्माय॑	gharmā́ya	घ॒र्माभ्या॑म्	gharmā́bhyām	घ॒र्मेभ्यः॑	gharmébhyaḥ								
+warmth	ablative	घ॒र्मात्	gharmā́t	घ॒र्माभ्या॑म्	gharmā́bhyām	घ॒र्मेभ्यः॑	gharmébhyaḥ								
+warmth	genitive	घ॒र्मस्य॑	gharmásya	घ॒र्मयोः॑	gharmáyoḥ	घ॒र्माणा॑म्	gharmā́ṇām								
+warmth	locative	घ॒र्मे	gharmé	घ॒र्मयोः॑	gharmáyoḥ	घ॒र्मेषु॑	gharméṣu								
+warmth	vocative	घर्म॑	ghárma	घर्मौ॑, घर्मा॑1, 1	ghármau / ghármā	घर्माः॑, घर्मा॑सः1, 1	ghármāḥ / ghármāsaḥ								
+heat	nominative	घ॒र्मः	gharmáḥ	घ॒र्मौ, घ॒र्मा1, 1	gharmáu / gharmā́	घ॒र्माः, घ॒र्मासः॑1, 1	gharmā́ḥ / gharmā́saḥ								
+heat	accusative	घ॒र्मम्	gharmám	घ॒र्मौ, घ॒र्मा1, 1	gharmáu / gharmā́	घ॒र्मान्	gharmā́n								
+heat	instrumental	घ॒र्मेण॑	gharméṇa	घ॒र्माभ्या॑म्	gharmā́bhyām	घ॒र्मैः, घ॒र्मेभिः॑1, 1	gharmáiḥ / gharmébhiḥ								
+heat	dative	घ॒र्माय॑	gharmā́ya	घ॒र्माभ्या॑म्	gharmā́bhyām	घ॒र्मेभ्यः॑	gharmébhyaḥ								
+heat	ablative	घ॒र्मात्	gharmā́t	घ॒र्माभ्या॑म्	gharmā́bhyām	घ॒र्मेभ्यः॑	gharmébhyaḥ								
+heat	genitive	घ॒र्मस्य॑	gharmásya	घ॒र्मयोः॑	gharmáyoḥ	घ॒र्माणा॑म्	gharmā́ṇām								
+heat	locative	घ॒र्मे	gharmé	घ॒र्मयोः॑	gharmáyoḥ	घ॒र्मेषु॑	gharméṣu								
+heat	vocative	घर्म॑	ghárma	घर्मौ॑, घर्मा॑1, 1	ghármau / ghármā	घर्माः॑, घर्मा॑सः1, 1	ghármāḥ / ghármāsaḥ								
+way	nominative	पथः	pathaḥ	पथौ, पथा1, 1	pathau / pathā	पथाः, पथासः1, 1	pathāḥ / pathāsaḥ								
+way	accusative	पथम्	patham	पथौ, पथा1, 1	pathau / pathā	पथान्	pathān								
+way	instrumental	पथेन	pathena	पथाभ्याम्	pathābhyām	पथैः, पथेभिः1, 1	pathaiḥ / pathebhiḥ								
+way	dative	पथाय	pathāya	पथाभ्याम्	pathābhyām	पथेभ्यः	pathebhyaḥ								
+way	ablative	पथात्	pathāt	पथाभ्याम्	pathābhyām	पथेभ्यः	pathebhyaḥ								
+way	genitive	पथस्य	pathasya	पथयोः	pathayoḥ	पथानाम्	pathānām								
+way	locative	पथे	pathe	पथयोः	pathayoḥ	पथेषु	patheṣu								
+way	vocative	पथ	patha	पथौ, पथा1, 1	pathau / pathā	पथाः, पथासः1, 1	pathāḥ / pathāsaḥ								
+wolf	nominative	वृकः॑	vṛ́kaḥ	वृकौ॑, वृका॑1, 1	vṛ́kau / vṛ́kā	वृकाः॑, वृका॑सः1, 1	vṛ́kāḥ / vṛ́kāsaḥ								
+wolf	accusative	वृक॑म्	vṛ́kam	वृकौ॑, वृका॑1, 1	vṛ́kau / vṛ́kā	वृका॑न्	vṛ́kān								
+wolf	instrumental	वृके॑ण	vṛ́keṇa	वृका॑भ्याम्	vṛ́kābhyām	वृकैः॑, वृके॑भिः1, 1	vṛ́kaiḥ / vṛ́kebhiḥ								
+wolf	dative	वृका॑य	vṛ́kāya	वृका॑भ्याम्	vṛ́kābhyām	वृके॑भ्यः	vṛ́kebhyaḥ								
+wolf	ablative	वृका॑त्	vṛ́kāt	वृका॑भ्याम्	vṛ́kābhyām	वृके॑भ्यः	vṛ́kebhyaḥ								
+wolf	genitive	वृक॑स्य	vṛ́kasya	वृक॑योः	vṛ́kayoḥ	वृका॑णाम्	vṛ́kāṇām								
+wolf	locative	वृके॑	vṛ́ke	वृक॑योः	vṛ́kayoḥ	वृके॑षु	vṛ́keṣu								
+wolf	vocative	वृक॑	vṛ́ka	वृकौ॑, वृका॑1, 1	vṛ́kau / vṛ́kā	वृकाः॑, वृका॑सः1, 1	vṛ́kāḥ / vṛ́kāsaḥ								
+wood	nominative	दारु॑	dā́ru	दारु॑णी, दार्वी॑1, 1	dā́ruṇī / dā́rvī	दारू॑णि, दारु॑1, दारू॑1, 1, 1	dā́rūṇi / dā́ru / dā́rū								
+wood	accusative	दारु॑	dā́ru	दारु॑णी, दार्वी॑1, 1	dā́ruṇī / dā́rvī	दारू॑णि, दारु॑1, दारू॑1, 1, 1	dā́rūṇi / dā́ru / dā́rū								
+wood	instrumental	दारु॑णा	dā́ruṇā	दारु॑भ्याम्	dā́rubhyām	दारु॑भिः	dā́rubhiḥ								
+wood	dative	दारु॑णे, दार॑वे1, 1	dā́ruṇe / dā́rave	दारु॑भ्याम्	dā́rubhyām	दारु॑भ्यः	dā́rubhyaḥ								
+wood	ablative	दारु॑णः, दारोः॑1, 1	dā́ruṇaḥ / dā́roḥ	दारु॑भ्याम्	dā́rubhyām	दारु॑भ्यः	dā́rubhyaḥ								
+wood	genitive	दारु॑णः, दारोः॑1, 1	dā́ruṇaḥ / dā́roḥ	दारु॑णोः, दार्वोः॑1, 1	dā́ruṇoḥ / dā́rvoḥ	दारू॑णाम्	dā́rūṇām								
+wood	locative	दारु॑णि, दारौ॑1, 1	dā́ruṇi / dā́rau	दारु॑णोः, दार्वोः॑1, 1	dā́ruṇoḥ / dā́rvoḥ	दारु॑षु	dā́ruṣu								
+wood	vocative	दारु॑, दारो॑, 	dā́ru / dā́ro	दारु॑णी, दार्वी॑1, 1	dā́ruṇī / dā́rvī	दारू॑णि, दारु॑1, दारू॑1, 1, 1	dā́rūṇi / dā́ru / dā́rū								
+work	nominative	कर्म॑	kárma	कर्म॑णी	kármaṇī	कर्मा॑णि, कर्म॑1, कर्मा॑1, 1, 1	kármāṇi / kárma / kármā								
+work	accusative	कर्म॑	kárma	कर्म॑णी	kármaṇī	कर्मा॑णि, कर्म॑1, कर्मा॑1, 1, 1	kármāṇi / kárma / kármā								
+work	instrumental	कर्म॑णा	kármaṇā	कर्म॑भ्याम्	kármabhyām	कर्म॑भिः	kármabhiḥ								
+work	dative	कर्म॑णे	kármaṇe	कर्म॑भ्याम्	kármabhyām	कर्म॑भ्यः	kármabhyaḥ								
+work	ablative	कर्म॑णः	kármaṇaḥ	कर्म॑भ्याम्	kármabhyām	कर्म॑भ्यः	kármabhyaḥ								
+work	genitive	कर्म॑णः	kármaṇaḥ	कर्म॑णोः	kármaṇoḥ	कर्म॑णाम्	kármaṇām								
+work	locative	कर्म॑णि, कर्म॑न्1, 1	kármaṇi / kárman	कर्म॑णोः	kármaṇoḥ	कर्म॑सु	kármasu								
+work	vocative	कर्म॑न्, कर्म॑, 	kárman / kárma	कर्म॑णी	kármaṇī	कर्मा॑णि, कर्म॑1, कर्मा॑1, 1, 1	kármāṇi / kárma / kármā								
+worm	nominative	कृमिः॑	kṛ́miḥ	कृमी॑	kṛ́mī	कृम॑यः	kṛ́mayaḥ								
+worm	accusative	कृमि॑म्	kṛ́mim	कृमी॑	kṛ́mī	कृमी॑न्	kṛ́mīn								
+worm	instrumental	कृमि॑णा	kṛ́miṇā	कृमि॑भ्याम्	kṛ́mibhyām	कृमि॑भिः	kṛ́mibhiḥ								
+worm	dative	कृम॑ये	kṛ́maye	कृमि॑भ्याम्	kṛ́mibhyām	कृमि॑भ्यः	kṛ́mibhyaḥ								
+worm	ablative	कृमेः॑	kṛ́meḥ	कृमि॑भ्याम्	kṛ́mibhyām	कृमि॑भ्यः	kṛ́mibhyaḥ								
+worm	genitive	कृमेः॑	kṛ́meḥ	कृम्योः॑	kṛ́myoḥ	कृमी॑णाम्	kṛ́mīṇām								
+worm	locative	कृमौ॑, कृमा॑1, 1	kṛ́mau	कृम्योः॑	kṛ́myoḥ	कृमि॑षु	kṛ́miṣu								
+worm	vocative	कृमे॑	kṛ́me	कृमी॑	kṛ́mī	कृम॑यः	kṛ́mayaḥ								
+language	nominative	भाषा	bhāṣā	भाषे	bhāṣe	भाषाः	bhāṣāḥ								
+language	accusative	भाषाम्	bhāṣām	भाषे	bhāṣe	भाषाः	bhāṣāḥ								
+language	instrumental	भाषया, भाषा1, 1	bhāṣayā / bhāṣā	भाषाभ्याम्	bhāṣābhyām	भाषाभिः	bhāṣābhiḥ								
+language	dative	भाषायै	bhāṣāyai	भाषाभ्याम्	bhāṣābhyām	भाषाभ्यः	bhāṣābhyaḥ								
+language	ablative	भाषायाः, भाषायै2, 2	bhāṣāyāḥ / bhāṣāyai	भाषाभ्याम्	bhāṣābhyām	भाषाभ्यः	bhāṣābhyaḥ								
+language	genitive	भाषायाः, भाषायै2, 2	bhāṣāyāḥ / bhāṣāyai	भाषयोः	bhāṣayoḥ	भाषाणाम्	bhāṣāṇām								
+language	locative	भाषायाम्	bhāṣāyām	भाषयोः	bhāṣayoḥ	भाषासु	bhāṣāsu								
+language	vocative	भाषे	bhāṣe	भाषे	bhāṣe	भाषाः	bhāṣāḥ								
+town	nominative	नग॑रम्	nágaram	नग॑रे	nágare	नग॑राणि, नग॑रा1, 1	nágarāṇi / nágarā								
+town	accusative	नग॑रम्	nágaram	नग॑रे	nágare	नग॑राणि, नग॑रा1, 1	nágarāṇi / nágarā								
+town	instrumental	नग॑रेण	nágareṇa	नग॑राभ्याम्	nágarābhyām	नग॑रैः, नग॑रेभिः1, 1	nágaraiḥ / nágarebhiḥ								
+town	dative	नग॑राय	nágarāya	नग॑राभ्याम्	nágarābhyām	नग॑रेभ्यः	nágarebhyaḥ								
+town	ablative	नग॑रात्	nágarāt	नग॑राभ्याम्	nágarābhyām	नग॑रेभ्यः	nágarebhyaḥ								
+town	genitive	नग॑रस्य	nágarasya	नग॑रयोः	nágarayoḥ	नग॑राणाम्	nágarāṇām								
+town	locative	नग॑रे	nágare	नग॑रयोः	nágarayoḥ	नग॑रेषु	nágareṣu								
+town	vocative	नग॑र	nágara	नग॑रे	nágare	नग॑राणि, नग॑रा1, 1	nágarāṇi / nágarā								
+river	nominative	न॒दी, न॒दीः1, ḥ1	nadī́ / nadī́ḥ	न॒द्यौ॑, न॒द्या॑1, 1	nadyàu / nadyā̀	न॒द्यः॑	nadyàḥ								
+river	accusative	न॒दीम्, न॒द्य॑म्1, 1	nadī́m / nadyàm	न॒द्यौ॑, न॒द्या॑1, 1	nadyàu / nadyā̀	न॒दीः, न॒द्यः॑1, 1	nadī́ḥ / nadyàḥ								
+river	instrumental	न॒द्या, न॒द्या॑1, 1	nadyā́ / nadyā̀	न॒दीभ्या॑म्	nadī́bhyām	न॒दीभिः॑	nadī́bhiḥ								
+river	dative	न॒द्यै, न॒द्ये॑1, 1	nadyái / nadyè	न॒दीभ्या॑म्	nadī́bhyām	न॒दीभ्यः॑	nadī́bhyaḥ								
+river	ablative	न॒द्याः, न॒द्यः॑1, न॒द्यै2, 1, 2	nadyā́ḥ / nadyàḥ	न॒दीभ्या॑म्	nadī́bhyām	न॒दीभ्यः॑	nadī́bhyaḥ								
+river	genitive	न॒द्याः, न॒द्यः॑1, न॒द्यै2, 1, 2	nadyā́ḥ / nadyàḥ	न॒द्योः, न॒द्योः॑1, 1	nadyóḥ / nadyòḥ	न॒दीना॑म्	nadī́nām								
+river	locative	न॒द्याम्, न॒दी1, 1	nadyā́m / nadī́	न॒द्योः, न॒द्योः॑1, 1	nadyóḥ / nadyòḥ	न॒दीषु॑	nadī́ṣu								
+river	vocative	नदि॑	nádi	नद्यौ॑, नद्या॑1, 1	nádyau / nádyā	नद्यः॑	nádyaḥ								
+summer	nominative	ग्री॒ष्मः	grīṣmáḥ	ग्री॒ष्मौ, ग्री॒ष्मा1, 1	grīṣmáu / grīṣmā́	ग्री॒ष्माः, ग्री॒ष्मासः॑1, 1	grīṣmā́ḥ / grīṣmā́saḥ								
+summer	accusative	ग्री॒ष्मम्	grīṣmám	ग्री॒ष्मौ, ग्री॒ष्मा1, 1	grīṣmáu / grīṣmā́	ग्री॒ष्मान्	grīṣmā́n								
+summer	instrumental	ग्री॒ष्मेण॑	grīṣméṇa	ग्री॒ष्माभ्या॑म्	grīṣmā́bhyām	ग्री॒ष्मैः, ग्री॒ष्मेभिः॑1, 1	grīṣmáiḥ / grīṣmébhiḥ								
+summer	dative	ग्री॒ष्माय॑	grīṣmā́ya	ग्री॒ष्माभ्या॑म्	grīṣmā́bhyām	ग्री॒ष्मेभ्यः॑	grīṣmébhyaḥ								
+summer	ablative	ग्री॒ष्मात्	grīṣmā́t	ग्री॒ष्माभ्या॑म्	grīṣmā́bhyām	ग्री॒ष्मेभ्यः॑	grīṣmébhyaḥ								
+summer	genitive	ग्री॒ष्मस्य॑	grīṣmásya	ग्री॒ष्मयोः॑	grīṣmáyoḥ	ग्री॒ष्माणा॑म्	grīṣmā́ṇām								
+summer	locative	ग्री॒ष्मे	grīṣmé	ग्री॒ष्मयोः॑	grīṣmáyoḥ	ग्री॒ष्मेषु॑	grīṣméṣu								
+summer	vocative	ग्रीष्म॑	grī́ṣma	ग्रीष्मौ॑, ग्रीष्मा॑1, 1	grī́ṣmau / grī́ṣmā	ग्रीष्माः॑, ग्रीष्मा॑सः1, 1	grī́ṣmāḥ / grī́ṣmāsaḥ								
+spring	nominative	व॒स॒न्तः	vasantáḥ	व॒स॒न्तौ, व॒स॒न्ता1, 1	vasantáu / vasantā́	व॒स॒न्ताः, व॒स॒न्तासः॑1, 1	vasantā́ḥ / vasantā́saḥ								
+spring	accusative	व॒स॒न्तम्	vasantám	व॒स॒न्तौ, व॒स॒न्ता1, 1	vasantáu / vasantā́	व॒स॒न्तान्	vasantā́n								
+spring	instrumental	व॒स॒न्तेन॑	vasanténa	व॒स॒न्ताभ्या॑म्	vasantā́bhyām	व॒स॒न्तैः, व॒स॒न्तेभिः॑1, 1	vasantáiḥ / vasantébhiḥ								
+spring	dative	व॒स॒न्ताय॑	vasantā́ya	व॒स॒न्ताभ्या॑म्	vasantā́bhyām	व॒स॒न्तेभ्यः॑	vasantébhyaḥ								
+spring	ablative	व॒स॒न्तात्	vasantā́t	व॒स॒न्ताभ्या॑म्	vasantā́bhyām	व॒स॒न्तेभ्यः॑	vasantébhyaḥ								
+spring	genitive	व॒स॒न्तस्य॑	vasantásya	व॒स॒न्तयोः॑	vasantáyoḥ	व॒स॒न्ताना॑म्	vasantā́nām								
+spring	locative	व॒स॒न्ते	vasanté	व॒स॒न्तयोः॑	vasantáyoḥ	व॒स॒न्तेषु॑	vasantéṣu								
+spring	vocative	वस॑न्त	vásanta	वस॑न्तौ, वस॑न्ता1, 1	vásantau / vásantā	वस॑न्ताः, वस॑न्तासः1, 1	vásantāḥ / vásantāsaḥ								
+winter	nominative	हे॒म॒न्तः	hemantáḥ	हे॒म॒न्तौ, हे॒म॒न्ता1, 1	hemantáu / hemantā́	हे॒म॒न्ताः, हे॒म॒न्तासः॑1, 1	hemantā́ḥ / hemantā́saḥ								
+winter	accusative	हे॒म॒न्तम्	hemantám	हे॒म॒न्तौ, हे॒म॒न्ता1, 1	hemantáu / hemantā́	हे॒म॒न्तान्	hemantā́n								
+winter	instrumental	हे॒म॒न्तेन॑	hemanténa	हे॒म॒न्ताभ्या॑म्	hemantā́bhyām	हे॒म॒न्तैः, हे॒म॒न्तेभिः॑1, 1	hemantáiḥ / hemantébhiḥ								
+winter	dative	हे॒म॒न्ताय॑	hemantā́ya	हे॒म॒न्ताभ्या॑म्	hemantā́bhyām	हे॒म॒न्तेभ्यः॑	hemantébhyaḥ								
+winter	ablative	हे॒म॒न्तात्	hemantā́t	हे॒म॒न्ताभ्या॑म्	hemantā́bhyām	हे॒म॒न्तेभ्यः॑	hemantébhyaḥ								
+winter	genitive	हे॒म॒न्तस्य॑	hemantásya	हे॒म॒न्तयोः॑	hemantáyoḥ	हे॒म॒न्ताना॑म्	hemantā́nām								
+winter	locative	हे॒म॒न्ते	hemanté	हे॒म॒न्तयोः॑	hemantáyoḥ	हे॒म॒न्तेषु॑	hemantéṣu								
+winter	vocative	हेम॑न्त	hémanta	हेम॑न्तौ, हेम॑न्ता1, 1	hémantau / hémantā	हेम॑न्ताः, हेम॑न्तासः1, 1	hémantāḥ / hémantāsaḥ								
+year	nominative	व॒र्षम्	varṣám	व॒र्षे	varṣé	व॒र्षाणि॑, व॒र्षा1, 1	varṣā́ṇi / varṣā́								
+year	accusative	व॒र्षम्	varṣám	व॒र्षे	varṣé	व॒र्षाणि॑, व॒र्षा1, 1	varṣā́ṇi / varṣā́								
+year	instrumental	व॒र्षेण॑	varṣéṇa	व॒र्षाभ्या॑म्	varṣā́bhyām	व॒र्षैः, व॒र्षेभिः॑1, 1	varṣáiḥ / varṣébhiḥ								
+year	dative	व॒र्षाय॑	varṣā́ya	व॒र्षाभ्या॑म्	varṣā́bhyām	व॒र्षेभ्यः॑	varṣébhyaḥ								
+year	ablative	व॒र्षात्	varṣā́t	व॒र्षाभ्या॑म्	varṣā́bhyām	व॒र्षेभ्यः॑	varṣébhyaḥ								
+year	genitive	व॒र्षस्य॑	varṣásya	व॒र्षयोः॑	varṣáyoḥ	व॒र्षाणा॑म्	varṣā́ṇām								
+year	locative	व॒र्षे	varṣé	व॒र्षयोः॑	varṣáyoḥ	व॒र्षेषु॑	varṣéṣu								
+year	vocative	वर्ष॑	várṣa	वर्षे॑	várṣe	वर्षा॑णि, वर्षा॑1, 1	várṣāṇi / várṣā								
+day	nominative	दिनः॑	dínaḥ	दिनौ॑, दिना॑1, 1	dínau / dínā	दिनाः॑, दिना॑सः1, 1	dínāḥ / dínāsaḥ								
+day	accusative	दिन॑म्	dínam	दिनौ॑, दिना॑1, 1	dínau / dínā	दिना॑न्	dínān								
+day	instrumental	दिने॑न	dínena	दिना॑भ्याम्	dínābhyām	दिनैः॑, दिने॑भिः1, 1	dínaiḥ / dínebhiḥ								
+day	dative	दिना॑य	dínāya	दिना॑भ्याम्	dínābhyām	दिने॑भ्यः	dínebhyaḥ								
+day	ablative	दिना॑त्	dínāt	दिना॑भ्याम्	dínābhyām	दिने॑भ्यः	dínebhyaḥ								
+day	genitive	दिन॑स्य	dínasya	दिन॑योः	dínayoḥ	दिना॑नाम्	dínānām								
+day	locative	दिने॑	díne	दिन॑योः	dínayoḥ	दिने॑षु	díneṣu								
+day	vocative	दिन॑	dína	दिनौ॑, दिना॑1, 1	dínau / dínā	दिनाः॑, दिना॑सः1, 1	dínāḥ / dínāsaḥ								
+moon	nominative	च॒न्द्रः	candráḥ	च॒न्द्रौ, च॒न्द्रा1, 1	candráu / candrā́	च॒न्द्राः, च॒न्द्रासः॑1, 1	candrā́ḥ / candrā́saḥ								
+moon	accusative	च॒न्द्रम्	candrám	च॒न्द्रौ, च॒न्द्रा1, 1	candráu / candrā́	च॒न्द्रान्	candrā́n								
+moon	instrumental	च॒न्द्रेण॑	candréṇa	च॒न्द्राभ्या॑म्	candrā́bhyām	च॒न्द्रैः, च॒न्द्रेभिः॑1, 1	candráiḥ / candrébhiḥ								
+moon	dative	च॒न्द्राय॑	candrā́ya	च॒न्द्राभ्या॑म्	candrā́bhyām	च॒न्द्रेभ्यः॑	candrébhyaḥ								
+moon	ablative	च॒न्द्रात्	candrā́t	च॒न्द्राभ्या॑म्	candrā́bhyām	च॒न्द्रेभ्यः॑	candrébhyaḥ								
+moon	genitive	च॒न्द्रस्य॑	candrásya	च॒न्द्रयोः॑	candráyoḥ	च॒न्द्राणा॑म्	candrā́ṇām								
+moon	locative	च॒न्द्रे	candré	च॒न्द्रयोः॑	candráyoḥ	च॒न्द्रेषु॑	candréṣu								
+moon	vocative	चन्द्र॑	cándra	चन्द्रौ॑, चन्द्रा॑1, 1	cándrau / cándrā	चन्द्राः॑, चन्द्रा॑सः1, 1	cándrāḥ / cándrāsaḥ								
+sun	nominative	सूर्यः॑	sū́ryaḥ	सूर्यौ॑, सूर्या॑1, 1	sū́ryau / sū́ryā	सूर्याः॑, सूर्या॑सः1, 1	sū́ryāḥ / sū́ryāsaḥ								
+sun	accusative	सूर्य॑म्	sū́ryam	सूर्यौ॑, सूर्या॑1, 1	sū́ryau / sū́ryā	सूर्या॑न्	sū́ryān								
+sun	instrumental	सूर्ये॑ण	sū́ryeṇa	सूर्या॑भ्याम्	sū́ryābhyām	सूर्यैः॑, सूर्ये॑भिः1, 1	sū́ryaiḥ / sū́ryebhiḥ								
+sun	dative	सूर्या॑य	sū́ryāya	सूर्या॑भ्याम्	sū́ryābhyām	सूर्ये॑भ्यः	sū́ryebhyaḥ								
+sun	ablative	सूर्या॑त्	sū́ryāt	सूर्या॑भ्याम्	sū́ryābhyām	सूर्ये॑भ्यः	sū́ryebhyaḥ								
+sun	genitive	सूर्य॑स्य	sū́ryasya	सूर्य॑योः, सूर्योः॑1, 1	sū́ryayoḥ / sū́ryoḥ	सूर्या॑णाम्	sū́ryāṇām								
+sun	locative	सूर्ये॑	sū́rye	सूर्य॑योः, सूर्योः॑1, 1	sū́ryayoḥ / sū́ryoḥ	सूर्ये॑षु	sū́ryeṣu								
+sun	vocative	सूर्य॑	sū́rya	सूर्यौ॑, सूर्या॑1, 1	sū́ryau / sū́ryā	सूर्याः॑, सूर्या॑सः1, 1	sū́ryāḥ / sū́ryāsaḥ								
+planet	nominative	ग्रहः॑	gráhaḥ	ग्रहौ॑, ग्रहा॑1, 1	gráhau / gráhā	ग्रहाः॑, ग्रहा॑सः1, 1	gráhāḥ / gráhāsaḥ								
+planet	accusative	ग्रह॑म्	gráham	ग्रहौ॑, ग्रहा॑1, 1	gráhau / gráhā	ग्रहा॑न्	gráhān								
+planet	instrumental	ग्रहे॑ण	gráheṇa	ग्रहा॑भ्याम्	gráhābhyām	ग्रहैः॑, ग्रहे॑भिः1, 1	gráhaiḥ / gráhebhiḥ								
+planet	dative	ग्रहा॑य	gráhāya	ग्रहा॑भ्याम्	gráhābhyām	ग्रहे॑भ्यः	gráhebhyaḥ								
+planet	ablative	ग्रहा॑त्	gráhāt	ग्रहा॑भ्याम्	gráhābhyām	ग्रहे॑भ्यः	gráhebhyaḥ								
+planet	genitive	ग्रह॑स्य	gráhasya	ग्रह॑योः	gráhayoḥ	ग्रहा॑णाम्	gráhāṇām								
+planet	locative	ग्रहे॑	gráhe	ग्रह॑योः	gráhayoḥ	ग्रहे॑षु	gráheṣu								
+planet	vocative	ग्रह॑	gráha	ग्रहौ॑, ग्रहा॑1, 1	gráhau / gráhā	ग्रहाः॑, ग्रहा॑सः1, 1	gráhāḥ / gráhāsaḥ								
+star	nominative	तारा॑	tā́rā	तारे॑	tā́re	ताराः॑	tā́rāḥ								
+star	accusative	तारा॑म्	tā́rām	तारे॑	tā́re	ताराः॑	tā́rāḥ								
+star	instrumental	तार॑या, तारा॑1, 1	tā́rayā / tā́rā	तारा॑भ्याम्	tā́rābhyām	तारा॑भिः	tā́rābhiḥ								
+star	dative	तारा॑यै	tā́rāyai	तारा॑भ्याम्	tā́rābhyām	तारा॑भ्यः	tā́rābhyaḥ								
+star	ablative	तारा॑याः, तारा॑यै2, 2	tā́rāyāḥ / tā́rāyai	तारा॑भ्याम्	tā́rābhyām	तारा॑भ्यः	tā́rābhyaḥ								
+star	genitive	तारा॑याः, तारा॑यै2, 2	tā́rāyāḥ / tā́rāyai	तार॑योः	tā́rayoḥ	तारा॑णाम्	tā́rāṇām								
+star	locative	तारा॑याम्	tā́rāyām	तार॑योः	tā́rayoḥ	तारा॑सु	tā́rāsu								
+star	vocative	तारे॑	tā́re	तारे॑	tā́re	ताराः॑	tā́rāḥ								
+man	nominative	वृषा॑	vṛ́ṣā	वृषा॑णौ, वृष॑णौ1, वृष॑णा1, 1, 1	vṛ́ṣāṇau / vṛ́ṣaṇau / vṛ́ṣaṇā	वृषा॑णः, वृष॑णः1, 1	vṛ́ṣāṇaḥ / vṛ́ṣaṇaḥ								
+man	accusative	वृषा॑णम्, वृष॑णम्1, 1	vṛ́ṣāṇam / vṛ́ṣaṇam	वृषा॑णौ, वृष॑णौ1, वृष॑णा1, 1, 1	vṛ́ṣāṇau / vṛ́ṣaṇau / vṛ́ṣaṇā	वृष्णः॑	vṛ́ṣṇaḥ								
+man	instrumental	वृष्णा॑	vṛ́ṣṇā	वृष॑भ्याम्	vṛ́ṣabhyām	वृष॑भिः	vṛ́ṣabhiḥ								
+man	dative	वृष्णे॑	vṛ́ṣṇe	वृष॑भ्याम्	vṛ́ṣabhyām	वृष॑भ्यः	vṛ́ṣabhyaḥ								
+man	ablative	वृष्णः॑	vṛ́ṣṇaḥ	वृष॑भ्याम्	vṛ́ṣabhyām	वृष॑भ्यः	vṛ́ṣabhyaḥ								
+man	genitive	वृष्णः॑	vṛ́ṣṇaḥ	वृष्णोः॑	vṛ́ṣṇoḥ	वृष्णा॑म्	vṛ́ṣṇām								
+man	locative	वृष्णि॑, वृष॑णि, वृष॑न्1, , 1	vṛ́ṣṇi / vṛ́ṣaṇi	वृष्णोः॑	vṛ́ṣṇoḥ	वृष॑सु	vṛ́ṣasu								
+man	vocative	वृष॑न्	vṛ́ṣan	वृषा॑णौ, वृष॑णौ1, वृष॑णा1, 1, 1	vṛ́ṣāṇau / vṛ́ṣaṇau / vṛ́ṣaṇā	वृषा॑णः, वृष॑णः1, 1	vṛ́ṣāṇaḥ / vṛ́ṣaṇaḥ								
+woman	nominative	म॒हि॒ला	mahilā́	म॒हि॒ले	mahilé	म॒हि॒लाः	mahilā́ḥ								
+woman	accusative	म॒हि॒लाम्	mahilā́m	म॒हि॒ले	mahilé	म॒हि॒लाः	mahilā́ḥ								
+woman	instrumental	म॒हि॒लया॑, म॒हि॒ला1, 1	mahiláyā / mahilā́	म॒हि॒लाभ्या॑म्	mahilā́bhyām	म॒हि॒लाभिः॑	mahilā́bhiḥ								
+woman	dative	म॒हि॒लायै॑	mahilā́yai	म॒हि॒लाभ्या॑म्	mahilā́bhyām	म॒हि॒लाभ्यः॑	mahilā́bhyaḥ								
+woman	ablative	म॒हि॒लायाः॑, म॒हि॒लायै॑2, 2	mahilā́yāḥ / mahilā́yai	म॒हि॒लाभ्या॑म्	mahilā́bhyām	म॒हि॒लाभ्यः॑	mahilā́bhyaḥ								
+woman	genitive	म॒हि॒लायाः॑, म॒हि॒लायै॑2, 2	mahilā́yāḥ / mahilā́yai	म॒हि॒लयोः॑	mahiláyoḥ	म॒हि॒लाना॑म्	mahilā́nām								
+woman	locative	म॒हि॒लाया॑म्	mahilā́yām	म॒हि॒लयोः॑	mahiláyoḥ	म॒हि॒लासु॑	mahilā́su								
+woman	vocative	महि॑ले	máhile	महि॑ले	máhile	महि॑लाः	máhilāḥ								
+human	nominative	म॒नु॒ष्यः॑	manuṣyàḥ	म॒नु॒ष्यौ॑, म॒नु॒ष्या॑1, 1	manuṣyàu / manuṣyā̀	म॒नु॒ष्याः॑, म॒नु॒ष्या॑सः1, 1	manuṣyā̀ḥ / manuṣyā̀saḥ								
+human	accusative	म॒नु॒ष्य॑म्	manuṣyàm	म॒नु॒ष्यौ॑, म॒नु॒ष्या॑1, 1	manuṣyàu / manuṣyā̀	म॒नु॒ष्या॑न्	manuṣyā̀n								
+human	instrumental	म॒नु॒ष्ये॑ण	manuṣyèṇa	म॒नु॒ष्या॑भ्याम्	manuṣyā̀bhyām	म॒नु॒ष्यैः॑, म॒नु॒ष्ये॑भिः1, 1	manuṣyàiḥ / manuṣyèbhiḥ								
+human	dative	म॒नु॒ष्या॑य	manuṣyā̀ya	म॒नु॒ष्या॑भ्याम्	manuṣyā̀bhyām	म॒नु॒ष्ये॑भ्यः	manuṣyèbhyaḥ								
+human	ablative	म॒नु॒ष्या॑त्	manuṣyā̀t	म॒नु॒ष्या॑भ्याम्	manuṣyā̀bhyām	म॒नु॒ष्ये॑भ्यः	manuṣyèbhyaḥ								
+human	genitive	म॒नु॒ष्य॑स्य	manuṣyàsya	म॒नु॒ष्य॑योः, म॒नु॒ष्योः॑1, 1	manuṣyàyoḥ / manuṣyòḥ	म॒नु॒ष्या॑णाम्	manuṣyā̀ṇām								
+human	locative	म॒नु॒ष्ये॑	manuṣyè	म॒नु॒ष्य॑योः, म॒नु॒ष्योः॑1, 1	manuṣyàyoḥ / manuṣyòḥ	म॒नु॒ष्ये॑षु	manuṣyèṣu								
+human	vocative	मनु॑ष्य	mánuṣya	मनु॑ष्यौ, मनु॑ष्या1, 1	mánuṣyau / mánuṣyā	मनु॑ष्याः, मनु॑ष्यासः1, 1	mánuṣyāḥ / mánuṣyāsaḥ								
+animal	nominative	प॒शुः	paśúḥ	प॒शू, प॒श्वा1, 1	paśū́ / paśvā́	प॒शवः॑	paśávaḥ								
+animal	accusative	प॒शुम्	paśúm	प॒शू	paśū́	प॒शून्, प॒श्वः2, 2	paśū́n / paśváḥ								
+animal	instrumental	प॒शुना॑, प॒श्वा2, 2	paśúnā / paśvā́	प॒शुभ्या॑म्	paśúbhyām	प॒शुभिः॑	paśúbhiḥ								
+animal	dative	प॒शवे॑, प॒श्वे2, 2	paśáve / paśvé	प॒शुभ्या॑म्	paśúbhyām	प॒शुभ्यः॑	paśúbhyaḥ								
+animal	ablative	प॒शोः, प॒श्वः2, 2	paśóḥ / paśváḥ	प॒शुभ्या॑म्	paśúbhyām	प॒शुभ्यः॑	paśúbhyaḥ								
+animal	genitive	प॒शोः, प॒श्वः2, 2	paśóḥ / paśváḥ	प॒श्वोः	paśvóḥ	प॒शू॒नाम्	paśūnā́m								
+animal	locative	प॒शौ	paśáu	प॒श्वोः	paśvóḥ	प॒शुषु॑	paśúṣu								
+animal	vocative	पशो॑	páśo	पशू॑	páśū	पश॑वः	páśavaḥ								
+son	nominative	सू॒नुः	sūnúḥ	सू॒नू	sūnū́	सू॒नवः॑	sūnávaḥ								
+son	accusative	सू॒नुम्	sūnúm	सू॒नू	sūnū́	सू॒नून्	sūnū́n								
+son	instrumental	सू॒नुना॑	sūnúnā	सू॒नुभ्या॑म्	sūnúbhyām	सू॒नुभिः॑	sūnúbhiḥ								
+son	dative	सू॒नवे॑	sūnáve	सू॒नुभ्या॑म्	sūnúbhyām	सू॒नुभ्यः॑	sūnúbhyaḥ								
+son	ablative	सू॒नोः	sūnóḥ	सू॒नुभ्या॑म्	sūnúbhyām	सू॒नुभ्यः॑	sūnúbhyaḥ								
+son	genitive	सू॒नोः	sūnóḥ	सू॒न्वोः	sūnvóḥ	सू॒नू॒नाम्	sūnūnā́m								
+son	locative	सू॒नौ, सू॒नवि॑1, 1	sūnáu / sūnávi	सू॒न्वोः	sūnvóḥ	सू॒नुषु॑	sūnúṣu								
+son	vocative	सूनो॑	sū́no	सूनू॑	sū́nū	सून॑वः	sū́navaḥ								
+daughter	nominative	दु॒हि॒ता	duhitā́	दु॒हि॒तरौ॑, दु॒हि॒तरा॑1, 1	duhitárau / duhitárā	दु॒हि॒तरः॑	duhitáraḥ								
+daughter	accusative	दु॒हि॒तर॑म्	duhitáram	दु॒हि॒तरौ॑, दु॒हि॒तरा॑1, 1	duhitárau / duhitárā	दु॒हि॒तॄः	duhitṝ́ḥ								
+daughter	instrumental	दु॒हि॒त्रा	duhitrā́	दु॒हि॒तृभ्या॑म्	duhitṛ́bhyām	दु॒हि॒तृभिः॑	duhitṛ́bhiḥ								
+daughter	dative	दु॒हि॒त्रे	duhitré	दु॒हि॒तृभ्या॑म्	duhitṛ́bhyām	दु॒हि॒तृभ्यः॑	duhitṛ́bhyaḥ								
+daughter	ablative	दु॒हि॒तुः	duhitúḥ	दु॒हि॒तृभ्या॑म्	duhitṛ́bhyām	दु॒हि॒तृभ्यः॑	duhitṛ́bhyaḥ								
+daughter	genitive	दु॒हि॒तुः	duhitúḥ	दु॒हि॒त्रोः	duhitróḥ	दु॒हि॒तॄ॒णाम्	duhitṝṇā́m								
+daughter	locative	दु॒हि॒तरि॑	duhitári	दु॒हि॒त्रोः	duhitróḥ	दु॒हि॒तृषु॑	duhitṛ́ṣu								
+daughter	vocative	दुहि॑तः	dúhitaḥ	दुहि॑तरौ, दुहि॑तरा1, 1	dúhitarau / dúhitarā	दुहि॑तरः	dúhitaraḥ								
+mother	nominative	मा॒ता	mātā́	मा॒तरौ॑, मा॒तरा॑1, 1	mātárau / mātárā	मा॒तरः॑	mātáraḥ								
+mother	accusative	मा॒तर॑म्	mātáram	मा॒तरौ॑, मा॒तरा॑1, 1	mātárau / mātárā	मा॒तॄः, मा॒तॄन्1, मा॒तरः॑2, 1, 2	mātṝ́ḥ / mātṝ́n / mātáraḥ								
+mother	instrumental	मा॒त्रा	mātrā́	मा॒तृभ्या॑म्	mātṛ́bhyām	मा॒तृभिः॑	mātṛ́bhiḥ								
+mother	dative	मा॒त्रे	mātré	मा॒तृभ्या॑म्	mātṛ́bhyām	मा॒तृभ्यः॑	mātṛ́bhyaḥ								
+mother	ablative	मा॒तुः	mātúḥ	मा॒तृभ्या॑म्	mātṛ́bhyām	मा॒तृभ्यः॑	mātṛ́bhyaḥ								
+mother	genitive	मा॒तुः	mātúḥ	मा॒त्रोः	mātróḥ	मा॒तॄ॒णाम्	mātṝṇā́m								
+mother	locative	मा॒तरि॑	mātári	मा॒त्रोः	mātróḥ	मा॒तृषु॑	mātṛ́ṣu								
+mother	vocative	मातः॑	mā́taḥ	मात॑रौ, मात॑रा1, 1	mā́tarau / mā́tarā	मात॑रः	mā́taraḥ								
+grandmother	nominative	पितामही	pitāmahī	पितामह्यौ, पितामही1, 1	pitāmahyau / pitāmahī	पितामह्यः, पितामहीः1, 1	pitāmahyaḥ / pitāmahīḥ								
+grandmother	accusative	पितामहीम्	pitāmahīm	पितामह्यौ, पितामही1, 1	pitāmahyau / pitāmahī	पितामहीः	pitāmahīḥ								
+grandmother	instrumental	पितामह्या	pitāmahyā	पितामहीभ्याम्	pitāmahībhyām	पितामहीभिः	pitāmahībhiḥ								
+grandmother	dative	पितामह्यै	pitāmahyai	पितामहीभ्याम्	pitāmahībhyām	पितामहीभ्यः	pitāmahībhyaḥ								
+grandmother	ablative	पितामह्याः, पितामह्यै2, 2	pitāmahyāḥ / pitāmahyai	पितामहीभ्याम्	pitāmahībhyām	पितामहीभ्यः	pitāmahībhyaḥ								
+grandmother	genitive	पितामह्याः, पितामह्यै2, 2	pitāmahyāḥ / pitāmahyai	पितामह्योः	pitāmahyoḥ	पितामहीनाम्	pitāmahīnām								
+grandmother	locative	पितामह्याम्	pitāmahyām	पितामह्योः	pitāmahyoḥ	पितामहीषु	pitāmahīṣu								
+grandmother	vocative	पितामहि	pitāmahi	पितामह्यौ, पितामही1, 1	pitāmahyau / pitāmahī	पितामह्यः, पितामहीः1, 1	pitāmahyaḥ / pitāmahīḥ								
+grandfather	nominative	मातामहः	mātāmahaḥ	मातामहौ, मातामहा1, 1	mātāmahau / mātāmahā	मातामहाः, मातामहासः1, 1	mātāmahāḥ / mātāmahāsaḥ								
+grandfather	accusative	मातामहम्	mātāmaham	मातामहौ, मातामहा1, 1	mātāmahau / mātāmahā	मातामहान्	mātāmahān								
+grandfather	instrumental	मातामहेन	mātāmahena	मातामहाभ्याम्	mātāmahābhyām	मातामहैः, मातामहेभिः1, 1	mātāmahaiḥ / mātāmahebhiḥ								
+grandfather	dative	मातामहाय	mātāmahāya	मातामहाभ्याम्	mātāmahābhyām	मातामहेभ्यः	mātāmahebhyaḥ								
+grandfather	ablative	मातामहात्	mātāmahāt	मातामहाभ्याम्	mātāmahābhyām	मातामहेभ्यः	mātāmahebhyaḥ								
+grandfather	genitive	मातामहस्य	mātāmahasya	मातामहयोः	mātāmahayoḥ	मातामहानाम्	mātāmahānām								
+grandfather	locative	मातामहे	mātāmahe	मातामहयोः	mātāmahayoḥ	मातामहेषु	mātāmaheṣu								
+grandfather	vocative	मातामह	mātāmaha	मातामहौ, मातामहा1, 1	mātāmahau / mātāmahā	मातामहाः, मातामहासः1, 1	mātāmahāḥ / mātāmahāsaḥ								
+sound	nominative	स्वरः॑	sváraḥ	स्वरौ॑, स्वरा॑1, 1	svárau / svárā	स्वराः॑, स्वरा॑सः1, 1	svárāḥ / svárāsaḥ								
+sound	accusative	स्वर॑म्	sváram	स्वरौ॑, स्वरा॑1, 1	svárau / svárā	स्वरा॑न्	svárān								
+sound	instrumental	स्वरे॑ण	sváreṇa	स्वरा॑भ्याम्	svárābhyām	स्वरैः॑, स्वरे॑भिः1, 1	sváraiḥ / svárebhiḥ								
+sound	dative	स्वरा॑य	svárāya	स्वरा॑भ्याम्	svárābhyām	स्वरे॑भ्यः	svárebhyaḥ								
+sound	ablative	स्वरा॑त्	svárāt	स्वरा॑भ्याम्	svárābhyām	स्वरे॑भ्यः	svárebhyaḥ								
+sound	genitive	स्वर॑स्य	svárasya	स्वर॑योः	svárayoḥ	स्वरा॑णाम्	svárāṇām								
+sound	locative	स्वरे॑	sváre	स्वर॑योः	svárayoḥ	स्वरे॑षु	sváreṣu								
+sound	vocative	स्वर॑	svára	स्वरौ॑, स्वरा॑1, 1	svárau / svárā	स्वराः॑, स्वरा॑सः1, 1	svárāḥ / svárāsaḥ								
+north	nominative	उत्त॑रम्	úttaram	उत्त॑रे	úttare	उत्त॑राणि, उत्त॑रा1, 1	úttarāṇi / úttarā								
+north	accusative	उत्त॑रम्	úttaram	उत्त॑रे	úttare	उत्त॑राणि, उत्त॑रा1, 1	úttarāṇi / úttarā								
+north	instrumental	उत्त॑रेण	úttareṇa	उत्त॑राभ्याम्	úttarābhyām	उत्त॑रैः, उत्त॑रेभिः1, 1	úttaraiḥ / úttarebhiḥ								
+north	dative	उत्त॑राय	úttarāya	उत्त॑राभ्याम्	úttarābhyām	उत्त॑रेभ्यः	úttarebhyaḥ								
+north	ablative	उत्त॑रात्	úttarāt	उत्त॑राभ्याम्	úttarābhyām	उत्त॑रेभ्यः	úttarebhyaḥ								
+north	genitive	उत्त॑रस्य	úttarasya	उत्त॑रयोः	úttarayoḥ	उत्त॑राणाम्	úttarāṇām								
+north	locative	उत्त॑रे	úttare	उत्त॑रयोः	úttarayoḥ	उत्त॑रेषु	úttareṣu								
+north	vocative	उत्त॑र	úttara	उत्त॑रे	úttare	उत्त॑राणि, उत्त॑रा1, 1	úttarāṇi / úttarā								
+south	nominative	दक्षि॑णः	dákṣiṇaḥ	दक्षि॑णौ, दक्षि॑णा1, 1	dákṣiṇau / dákṣiṇā	दक्षि॑णाः, दक्षि॑णासः1, 1	dákṣiṇāḥ / dákṣiṇāsaḥ								
+south	accusative	दक्षि॑णम्	dákṣiṇam	दक्षि॑णौ, दक्षि॑णा1, 1	dákṣiṇau / dákṣiṇā	दक्षि॑णान्	dákṣiṇān								
+south	instrumental	दक्षि॑णेन	dákṣiṇena	दक्षि॑णाभ्याम्	dákṣiṇābhyām	दक्षि॑णैः, दक्षि॑णेभिः1, 1	dákṣiṇaiḥ / dákṣiṇebhiḥ								
+south	dative	दक्षि॑णाय	dákṣiṇāya	दक्षि॑णाभ्याम्	dákṣiṇābhyām	दक्षि॑णेभ्यः	dákṣiṇebhyaḥ								
+south	ablative	दक्षि॑णात्	dákṣiṇāt	दक्षि॑णाभ्याम्	dákṣiṇābhyām	दक्षि॑णेभ्यः	dákṣiṇebhyaḥ								
+south	genitive	दक्षि॑णस्य	dákṣiṇasya	दक्षि॑णयोः	dákṣiṇayoḥ	दक्षि॑णानाम्	dákṣiṇānām								
+south	locative	दक्षि॑णे	dákṣiṇe	दक्षि॑णयोः	dákṣiṇayoḥ	दक्षि॑णेषु	dákṣiṇeṣu								
+south	vocative	दक्षि॑ण	dákṣiṇa	दक्षि॑णौ, दक्षि॑णा1, 1	dákṣiṇau / dákṣiṇā	दक्षि॑णाः, दक्षि॑णासः1, 1	dákṣiṇāḥ / dákṣiṇāsaḥ								
+west	nominative	अपरा	aparā	अपरे	apare	अपराः	aparāḥ								
+west	accusative	अपराम्	aparām	अपरे	apare	अपराः	aparāḥ								
+west	instrumental	अपरया	aparayā	अपराभ्याम्	aparābhyām	अपराभिः	aparābhiḥ								
+west	dative	अपरायै	aparāyai	अपराभ्याम्	aparābhyām	अपराभ्यः	aparābhyaḥ								
+west	ablative	अपरायाः	aparāyāḥ	अपराभ्याम्	aparābhyām	अपराभ्यः	aparābhyaḥ								
+west	genitive	अपरायाः	aparāyāḥ	अपरयोः	aparayoḥ	अपराणाम्	aparāṇām								
+west	locative	अपरायाम्	aparāyām	अपरयोः	aparayoḥ	अपरासु	aparāsu								
+west	vocative	अपरे	apare	अपरे	apare	अपराः	aparāḥ								
+bee	nominative	भ्रमरः	bhramaraḥ	भ्रमरौ, भ्रमरा1, 1	bhramarau / bhramarā	भ्रमराः, भ्रमरासः1, 1	bhramarāḥ / bhramarāsaḥ								
+bee	accusative	भ्रमरम्	bhramaram	भ्रमरौ, भ्रमरा1, 1	bhramarau / bhramarā	भ्रमरान्	bhramarān								
+bee	instrumental	भ्रमरेण	bhramareṇa	भ्रमराभ्याम्	bhramarābhyām	भ्रमरैः, भ्रमरेभिः1, 1	bhramaraiḥ / bhramarebhiḥ								
+bee	dative	भ्रमराय	bhramarāya	भ्रमराभ्याम्	bhramarābhyām	भ्रमरेभ्यः	bhramarebhyaḥ								
+bee	ablative	भ्रमरात्	bhramarāt	भ्रमराभ्याम्	bhramarābhyām	भ्रमरेभ्यः	bhramarebhyaḥ								
+bee	genitive	भ्रमरस्य	bhramarasya	भ्रमरयोः	bhramarayoḥ	भ्रमराणाम्	bhramarāṇām								
+bee	locative	भ्रमरे	bhramare	भ्रमरयोः	bhramarayoḥ	भ्रमरेषु	bhramareṣu								
+bee	vocative	भ्रमर	bhramara	भ्रमरौ, भ्रमरा1, 1	bhramarau / bhramarā	भ्रमराः, भ्रमरासः1, 1	bhramarāḥ / bhramarāsaḥ								
+city	nominative	नग॑रम्	nágaram	नग॑रे	nágare	नग॑राणि, नग॑रा1, 1	nágarāṇi / nágarā								
+city	accusative	नग॑रम्	nágaram	नग॑रे	nágare	नग॑राणि, नग॑रा1, 1	nágarāṇi / nágarā								
+city	instrumental	नग॑रेण	nágareṇa	नग॑राभ्याम्	nágarābhyām	नग॑रैः, नग॑रेभिः1, 1	nágaraiḥ / nágarebhiḥ								
+city	dative	नग॑राय	nágarāya	नग॑राभ्याम्	nágarābhyām	नग॑रेभ्यः	nágarebhyaḥ								
+city	ablative	नग॑रात्	nágarāt	नग॑राभ्याम्	nágarābhyām	नग॑रेभ्यः	nágarebhyaḥ								
+city	genitive	नग॑रस्य	nágarasya	नग॑रयोः	nágarayoḥ	नग॑राणाम्	nágarāṇām								
+city	locative	नग॑रे	nágare	नग॑रयोः	nágarayoḥ	नग॑रेषु	nágareṣu								
+city	vocative	नग॑र	nágara	नग॑रे	nágare	नग॑राणि, नग॑रा1, 1	nágarāṇi / nágarā								
+earth	nominative	भूमिः॑	bhū́miḥ	भूमी॑	bhū́mī	भूम॑यः	bhū́mayaḥ								
+earth	accusative	भूमि॑म्	bhū́mim	भूमी॑	bhū́mī	भूमीः॑	bhū́mīḥ								
+earth	instrumental	भूम्या॑, भूमी॑1, 1	bhū́myā / bhū́mī	भूमि॑भ्याम्	bhū́mibhyām	भूमि॑भिः	bhū́mibhiḥ								
+earth	dative	भूम॑ये, भूम्यै॑, 	bhū́maye / bhū́myai	भूमि॑भ्याम्	bhū́mibhyām	भूमि॑भ्यः	bhū́mibhyaḥ								
+earth	ablative	भूमेः॑, भूम्याः॑, भूम्यै॑2, , 2	bhū́meḥ / bhū́myāḥ	भूमि॑भ्याम्	bhū́mibhyām	भूमि॑भ्यः	bhū́mibhyaḥ								
+earth	genitive	भूमेः॑, भूम्याः॑, भूम्यै॑2, , 2	bhū́meḥ / bhū́myāḥ	भूम्योः॑	bhū́myoḥ	भूमी॑नाम्	bhū́mīnām								
+earth	locative	भूमौ॑, भूम्या॑म्, भूमा॑1, , 1	bhū́mau / bhū́myām	भूम्योः॑	bhū́myoḥ	भूमि॑षु	bhū́miṣu								
+earth	vocative	भूमे॑	bhū́me	भूमी॑	bhū́mī	भूम॑यः	bhū́mayaḥ								
+present	nominative	म॒घम्	maghám	म॒घे	maghé	म॒घानि॑, म॒घा1, 1	maghā́ni / maghā́								
+present	accusative	म॒घम्	maghám	म॒घे	maghé	म॒घानि॑, म॒घा1, 1	maghā́ni / maghā́								
+present	instrumental	म॒घेन॑	maghéna	म॒घाभ्या॑म्	maghā́bhyām	म॒घैः, म॒घेभिः॑1, 1	magháiḥ / maghébhiḥ								
+present	dative	म॒घाय॑	maghā́ya	म॒घाभ्या॑म्	maghā́bhyām	म॒घेभ्यः॑	maghébhyaḥ								
+present	ablative	म॒घात्	maghā́t	म॒घाभ्या॑म्	maghā́bhyām	म॒घेभ्यः॑	maghébhyaḥ								
+present	genitive	म॒घस्य॑	maghásya	म॒घयोः॑	magháyoḥ	म॒घाना॑म्	maghā́nām								
+present	locative	म॒घे	maghé	म॒घयोः॑	magháyoḥ	म॒घेषु॑	maghéṣu								
+present	vocative	मघ॑	mágha	मघे॑	mághe	मघा॑नि, मघा॑1, 1	mághāni / mághā								
+mars	nominative	म॒ङ्ग॒लम्	maṅgalám	म॒ङ्ग॒ले	maṅgalé	म॒ङ्ग॒लानि॑, म॒ङ्ग॒ला1, 1	maṅgalā́ni / maṅgalā́								
+mars	accusative	म॒ङ्ग॒लम्	maṅgalám	म॒ङ्ग॒ले	maṅgalé	म॒ङ्ग॒लानि॑, म॒ङ्ग॒ला1, 1	maṅgalā́ni / maṅgalā́								
+mars	instrumental	म॒ङ्ग॒लेन॑	maṅgaléna	म॒ङ्ग॒लाभ्या॑म्	maṅgalā́bhyām	म॒ङ्ग॒लैः, म॒ङ्ग॒लेभिः॑1, 1	maṅgaláiḥ / maṅgalébhiḥ								
+mars	dative	म॒ङ्ग॒लाय॑	maṅgalā́ya	म॒ङ्ग॒लाभ्या॑म्	maṅgalā́bhyām	म॒ङ्ग॒लेभ्यः॑	maṅgalébhyaḥ								
+mars	ablative	म॒ङ्ग॒लात्	maṅgalā́t	म॒ङ्ग॒लाभ्या॑म्	maṅgalā́bhyām	म॒ङ्ग॒लेभ्यः॑	maṅgalébhyaḥ								
+mars	genitive	म॒ङ्ग॒लस्य॑	maṅgalásya	म॒ङ्ग॒लयोः॑	maṅgaláyoḥ	म॒ङ्ग॒लाना॑म्	maṅgalā́nām								
+mars	locative	म॒ङ्ग॒ले	maṅgalé	म॒ङ्ग॒लयोः॑	maṅgaláyoḥ	म॒ङ्ग॒लेषु॑	maṅgaléṣu								
+mars	vocative	मङ्ग॑ल	máṅgala	मङ्ग॑ले	máṅgale	मङ्ग॑लानि, मङ्ग॑ला1, 1	máṅgalāni / máṅgalā								
+maternal-grandfather	nominative	मातामहः	mātāmahaḥ	मातामहौ, मातामहा1, 1	mātāmahau / mātāmahā	मातामहाः, मातामहासः1, 1	mātāmahāḥ / mātāmahāsaḥ								
+maternal-grandfather	accusative	मातामहम्	mātāmaham	मातामहौ, मातामहा1, 1	mātāmahau / mātāmahā	मातामहान्	mātāmahān								
+maternal-grandfather	instrumental	मातामहेन	mātāmahena	मातामहाभ्याम्	mātāmahābhyām	मातामहैः, मातामहेभिः1, 1	mātāmahaiḥ / mātāmahebhiḥ								
+maternal-grandfather	dative	मातामहाय	mātāmahāya	मातामहाभ्याम्	mātāmahābhyām	मातामहेभ्यः	mātāmahebhyaḥ								
+maternal-grandfather	ablative	मातामहात्	mātāmahāt	मातामहाभ्याम्	mātāmahābhyām	मातामहेभ्यः	mātāmahebhyaḥ								
+maternal-grandfather	genitive	मातामहस्य	mātāmahasya	मातामहयोः	mātāmahayoḥ	मातामहानाम्	mātāmahānām								
+maternal-grandfather	locative	मातामहे	mātāmahe	मातामहयोः	mātāmahayoḥ	मातामहेषु	mātāmaheṣu								
+maternal-grandfather	vocative	मातामह	mātāmaha	मातामहौ, मातामहा1, 1	mātāmahau / mātāmahā	मातामहाः, मातामहासः1, 1	mātāmahāḥ / mātāmahāsaḥ								
+night	nominative	रात्रिः॑	rā́triḥ	रात्री॑	rā́trī	रात्र॑यः	rā́trayaḥ								
+night	accusative	रात्रि॑म्	rā́trim	रात्री॑	rā́trī	रात्रीः॑	rā́trīḥ								
+night	instrumental	रात्र्या॑, रात्री॑1, 1	rā́tryā / rā́trī	रात्रि॑भ्याम्	rā́tribhyām	रात्रि॑भिः	rā́tribhiḥ								
+night	dative	रात्र॑ये, रात्र्यै॑, 	rā́traye / rā́tryai	रात्रि॑भ्याम्	rā́tribhyām	रात्रि॑भ्यः	rā́tribhyaḥ								
+night	ablative	रात्रेः॑, रात्र्याः॑, रात्र्यै॑2, , 2	rā́treḥ / rā́tryāḥ	रात्रि॑भ्याम्	rā́tribhyām	रात्रि॑भ्यः	rā́tribhyaḥ								
+night	genitive	रात्रेः॑, रात्र्याः॑, रात्र्यै॑2, , 2	rā́treḥ / rā́tryāḥ	रात्र्योः॑	rā́tryoḥ	रात्री॑णाम्	rā́trīṇām								
+night	locative	रात्रौ॑, रात्र्या॑म्, रात्रा॑1, , 1	rā́trau / rā́tryām	रात्र्योः॑	rā́tryoḥ	रात्रि॑षु	rā́triṣu								
+night	vocative	रात्रे॑	rā́tre	रात्री॑	rā́trī	रात्र॑यः	rā́trayaḥ								
+paternal-grandmother	nominative	पितामही	pitāmahī	पितामह्यौ, पितामही1, 1	pitāmahyau / pitāmahī	पितामह्यः, पितामहीः1, 1	pitāmahyaḥ / pitāmahīḥ								
+paternal-grandmother	accusative	पितामहीम्	pitāmahīm	पितामह्यौ, पितामही1, 1	pitāmahyau / pitāmahī	पितामहीः	pitāmahīḥ								
+paternal-grandmother	instrumental	पितामह्या	pitāmahyā	पितामहीभ्याम्	pitāmahībhyām	पितामहीभिः	pitāmahībhiḥ								
+paternal-grandmother	dative	पितामह्यै	pitāmahyai	पितामहीभ्याम्	pitāmahībhyām	पितामहीभ्यः	pitāmahībhyaḥ								
+paternal-grandmother	ablative	पितामह्याः, पितामह्यै2, 2	pitāmahyāḥ / pitāmahyai	पितामहीभ्याम्	pitāmahībhyām	पितामहीभ्यः	pitāmahībhyaḥ								
+paternal-grandmother	genitive	पितामह्याः, पितामह्यै2, 2	pitāmahyāḥ / pitāmahyai	पितामह्योः	pitāmahyoḥ	पितामहीनाम्	pitāmahīnām								
+paternal-grandmother	locative	पितामह्याम्	pitāmahyām	पितामह्योः	pitāmahyoḥ	पितामहीषु	pitāmahīṣu								
+paternal-grandmother	vocative	पितामहि	pitāmahi	पितामह्यौ, पितामही1, 1	pitāmahyau / pitāmahī	पितामह्यः, पितामहीः1, 1	pitāmahyaḥ / pitāmahīḥ								
+venus	nominative	शु॒क्रः	śukráḥ	शु॒क्रौ, शु॒क्रा1, 1	śukráu / śukrā́	शु॒क्राः, शु॒क्रासः॑1, 1	śukrā́ḥ / śukrā́saḥ								
+venus	accusative	शु॒क्रम्	śukrám	शु॒क्रौ, शु॒क्रा1, 1	śukráu / śukrā́	शु॒क्रान्	śukrā́n								
+venus	instrumental	शु॒क्रेण॑	śukréṇa	शु॒क्राभ्या॑म्	śukrā́bhyām	शु॒क्रैः, शु॒क्रेभिः॑1, 1	śukráiḥ / śukrébhiḥ								
+venus	dative	शु॒क्राय॑	śukrā́ya	शु॒क्राभ्या॑म्	śukrā́bhyām	शु॒क्रेभ्यः॑	śukrébhyaḥ								
+venus	ablative	शु॒क्रात्	śukrā́t	शु॒क्राभ्या॑म्	śukrā́bhyām	शु॒क्रेभ्यः॑	śukrébhyaḥ								
+venus	genitive	शु॒क्रस्य॑	śukrásya	शु॒क्रयोः॑	śukráyoḥ	शु॒क्राणा॑म्	śukrā́ṇām								
+venus	locative	शु॒क्रे	śukré	शु॒क्रयोः॑	śukráyoḥ	शु॒क्रेषु॑	śukréṣu								
+venus	vocative	शुक्र॑	śúkra	शुक्रौ॑, शुक्रा॑1, 1	śúkrau / śúkrā	शुक्राः॑, शुक्रा॑सः1, 1	śúkrāḥ / śúkrāsaḥ								

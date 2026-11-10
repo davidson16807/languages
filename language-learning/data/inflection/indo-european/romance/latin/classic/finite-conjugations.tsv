@@ -570,5 +570,512 @@ crawl	subjunctive	passive	present	simple	— 	— 	— 	— 	— 	—
 crawl	subjunctive	passive	past	imperfective	— 	— 	— 	— 	— 	— 									
 crawl	imperative	active	present	simple	— 	rēpe 	— 	— 	rēpite 	—									
 crawl	imperative	active	future	simple	— 	rēpitō 	rēpitō 	— 	rēpitōte 	rēpuntō 									
-crawl	imperative	passive	present	simple	— 	— 	— 	— 	— 	— 									
-crawl	imperative	passive	future	simple	— 	— 	— 	— 	— 	— 									
+crawl	imperative	passive	present	simple	— 	— 	— 	— 	— 	— 	#	*							
+crawl	imperative	passive	future	simple	— 	— 	— 	— 	— 	— 	#	*							
+make	indicative	active	present	simple	faciō	facis	facit	facimus	facitis	faciunt	#	present							
+make	indicative	active	past	imperfective	faciēbam	faciēbās	faciēbat	faciēbāmus	faciēbātis	faciēbant	#	imperfect							
+make	indicative	active	future	simple	faciam	faciēs	faciet	faciēmus	faciētis	facient	#	future							
+make	indicative	active	present	perfective	fēcī	fēcistī	fēcit	fēcimus	fēcistis	fēcērunt, fēcēre	#	perfect							
+make	indicative	active	past	perfective	fēceram	fēcerās	fēcerat	fēcerāmus	fēcerātis	fēcerant	#	pluperfect							
+make	indicative	active	future	perfective	fēcerō	fēceris	fēcerit	fēcerimus	fēceritis	fēcerint	#	future perfect							
+make	indicative	passive	present	simple	fīō	fīs	fit	fīmus	fītis	fīunt	#	present							
+make	indicative	passive	past	imperfective	fīēbam	fīēbās	fīēbat	fīēbāmus	fīēbātis	fīēbant	#	imperfect							
+make	indicative	passive	future	simple	fīam	fīēs	fīet	fīēmus	fīētis	fīent	#	future							
+make	subjunctive	active	present	simple	faciam	faciās	faciat	faciāmus	faciātis	faciant	#	present							
+make	subjunctive	active	past	imperfective	facerem	facerēs	faceret	facerēmus	facerētis	facerent	#	imperfect							
+make	subjunctive	active	present	perfective	fēcerim	fēcerīs	fēcerit	fēcerīmus	fēcerītis	fēcerint	#	perfect							
+make	subjunctive	active	past	perfective	fēcissem	fēcissēs	fēcisset	fēcissēmus	fēcissētis	fēcissent	#	pluperfect							
+make	subjunctive	passive	present	simple	fīam	fīās	fīat	fīāmus	fīātis	fīant	#	present							
+make	subjunctive	passive	past	imperfective	fierem	fierēs	fieret	fierēmus	fierētis	fierent	#	imperfect							
+make	imperative	active	present	simple	—	fac, face	—	—	facite	—	#	present							
+make	imperative	active	future	simple	—	facitō	facitō	—	facitōte	faciuntō	#	future							
+make	imperative	passive	present	simple	—	fī	—	—	fīte	—	#	present							
+make	imperative	passive	future	simple	—	fītō	fītō	—	fītōte	fīuntō	#	future							
+speak	indicative	active	present	simple	loquor	loqueris, loquere	loquitur	loquimur	loquiminī	loquuntur	#	present							
+speak	indicative	active	past	imperfective	loquēbar	loquēbāris, loquēbāre	loquēbātur	loquēbāmur	loquēbāminī	loquēbantur	#	imperfect							
+speak	indicative	active	future	simple	loquar	loquēris, loquēre	loquētur	loquēmur	loquēminī	loquentur	#	future							
+speak	subjunctive	active	present	simple	loquar	loquāris, loquāre	loquātur	loquāmur	loquāminī	loquantur	#	present							
+speak	subjunctive	active	past	imperfective	loquerer	loquerēris, loquerēre	loquerētur	loquerēmur	loquerēminī	loquerentur	#	imperfect							
+speak	imperative	active	present	simple	—	loquere	—	—	loquiminī	—	#	present							
+speak	imperative	active	future	simple	—	loquitor	loquitor	—	—	loquuntor	#	future							
+say	indicative	active	present	simple	dīcō	dīcis	dīcit	dīcimus	dīcitis	dīcunt	#	present							
+say	indicative	active	past	imperfective	dīcēbam	dīcēbās	dīcēbat	dīcēbāmus	dīcēbātis	dīcēbant	#	imperfect							
+say	indicative	active	future	simple	dīcam, dīcēbō1	dīcēs, dīcēbis1	dīcet, dīcēbit1	dīcēmus, dīcēbimus1	dīcētis, dīcēbitis1	dīcent, dīcēbunt1	#	future							
+say	indicative	active	present	perfective	dīxī	dīxistī, dīxtī	dīxit	dīximus	dīxistis	dīxērunt, dīxēre	#	perfect							
+say	indicative	active	past	perfective	dīxeram	dīxerās	dīxerat	dīxerāmus	dīxerātis	dīxerant	#	pluperfect							
+say	indicative	active	future	perfective	dīxerō	dīxeris	dīxerit	dīxerimus	dīxeritis	dīxerint	#	future perfect							
+say	indicative	passive	present	simple	dīcor	dīceris, dīcere	dīcitur	dīcimur	dīciminī	dīcuntur	#	present							
+say	indicative	passive	past	imperfective	dīcēbar	dīcēbāris, dīcēbāre	dīcēbātur	dīcēbāmur	dīcēbāminī	dīcēbantur	#	imperfect							
+say	indicative	passive	future	simple	dīcar, dīcēbor1	dīcēris, dīcēre, dīcēberis, dīcēbere1	dīcētur, dīcēbitur1	dīcēmur, dīcēbimur1	dīcēminī, dīcēbiminī1	dīcentur, dīcēbuntur1	#	future							
+say	subjunctive	active	present	simple	dīcam	dīcās	dīcat	dīcāmus	dīcātis	dīcant	#	present							
+say	subjunctive	active	past	imperfective	dīcerem	dīcerēs	dīceret	dīcerēmus	dīcerētis	dīcerent	#	imperfect							
+say	subjunctive	active	present	perfective	dīxerim	dīxerīs	dīxerit	dīxerīmus	dīxerītis	dīxerint	#	perfect							
+say	subjunctive	active	past	perfective	dīxissem	dīxissēs	dīxisset	dīxissēmus	dīxissētis	dīxissent	#	pluperfect							
+say	subjunctive	passive	present	simple	dīcar	dīcāris, dīcāre	dīcātur	dīcāmur	dīcāminī	dīcantur	#	present							
+say	subjunctive	passive	past	imperfective	dīcerer	dīcerēris, dīcerēre	dīcerētur	dīcerēmur	dīcerēminī	dīcerentur	#	imperfect							
+say	imperative	active	present	simple	—	dīc, dīce	—	—	dīcite	—	#	present							
+say	imperative	active	future	simple	—	dīcitō	dīcitō	—	dīcitōte	dīcuntō	#	future							
+say	imperative	passive	present	simple	—	dīcere	—	—	dīciminī	—	#	present							
+learn	indicative	active	present	simple	scīscō	scīscis	scīscit	scīscimus	scīscitis	scīscunt	#	present							
+learn	indicative	active	past	imperfective	scīscēbam	scīscēbās	scīscēbat	scīscēbāmus	scīscēbātis	scīscēbant	#	imperfect							
+learn	indicative	active	future	simple	scīscam	scīscēs	scīscet	scīscēmus	scīscētis	scīscent	#	future							
+learn	indicative	active	present	perfective	scīvī	scīvistī	scīvit	scīvimus	scīvistis	scīvērunt, scīvēre	#	perfect							
+learn	indicative	active	past	perfective	scīveram	scīverās	scīverat	scīverāmus	scīverātis	scīverant	#	pluperfect							
+learn	indicative	active	future	perfective	scīverō	scīveris	scīverit	scīverimus	scīveritis	scīverint	#	future perfect							
+learn	indicative	passive	present	simple	scīscor	scīsceris, scīscere	scīscitur	scīscimur	scīsciminī	scīscuntur	#	present							
+learn	indicative	passive	past	imperfective	scīscēbar	scīscēbāris, scīscēbāre	scīscēbātur	scīscēbāmur	scīscēbāminī	scīscēbantur	#	imperfect							
+learn	indicative	passive	future	simple	scīscar	scīscēris, scīscēre	scīscētur	scīscēmur	scīscēminī	scīscentur	#	future							
+learn	subjunctive	active	present	simple	scīscam	scīscās	scīscat	scīscāmus	scīscātis	scīscant	#	present							
+learn	subjunctive	active	past	imperfective	scīscerem	scīscerēs	scīsceret	scīscerēmus	scīscerētis	scīscerent	#	imperfect							
+learn	subjunctive	active	present	perfective	scīverim	scīverīs	scīverit	scīverīmus	scīverītis	scīverint	#	perfect							
+learn	subjunctive	active	past	perfective	scīvissem	scīvissēs	scīvisset	scīvissēmus	scīvissētis	scīvissent	#	pluperfect							
+learn	subjunctive	passive	present	simple	scīscar	scīscāris, scīscāre	scīscātur	scīscāmur	scīscāminī	scīscantur	#	present							
+learn	subjunctive	passive	past	imperfective	scīscerer	scīscerēris, scīscerēre	scīscerētur	scīscerēmur	scīscerēminī	scīscerentur	#	imperfect							
+learn	imperative	active	present	simple	—	scīsce	—	—	scīscite	—	#	present							
+learn	imperative	active	future	simple	—	scīscitō	scīscitō	—	scīscitōte	scīscuntō	#	future							
+learn	imperative	passive	present	simple	—	scīscere	—	—	scīsciminī	—	#	present							
+learn	imperative	passive	future	simple	—	scīscitor	scīscitor	—	—	scīscuntor	#	future							
+give	indicative	active	present	simple	dō	dās	dat	damus	datis	dant, danunt	#	present							
+give	indicative	active	past	imperfective	dabam	dabās	dabat	dabāmus	dabātis	dabant	#	imperfect							
+give	indicative	active	future	simple	dabō	dabis	dabit	dabimus	dabitis	dabunt	#	future							
+give	indicative	active	present	perfective	dedī	dedistī	dedit	dedimus	dedistis	dedērunt, dedēre	#	perfect							
+give	indicative	active	past	perfective	dederam	dederās	dederat	dederāmus	dederātis	dederant	#	pluperfect							
+give	indicative	active	future	perfective	dederō	dederis	dederit	dederimus	dederitis	dederint	#	future perfect							
+give	indicative	passive	present	simple	dor	daris, dare	datur	damur	daminī	dantur	#	present							
+give	indicative	passive	past	imperfective	dabar	dabāris, dabāre	dabātur	dabāmur	dabāminī	dabantur	#	imperfect							
+give	indicative	passive	future	simple	dabor	daberis, dabere	dabitur	dabimur	dabiminī	dabuntur	#	future							
+give	subjunctive	active	present	simple	dem, duim	dēs, duās, duīs	det, duit	dēmus	dētis	dent, duint	#	present							
+give	subjunctive	active	past	imperfective	darem	darēs	daret	darēmus	darētis	darent	#	imperfect							
+give	subjunctive	active	present	perfective	dederim	dederīs	dederit	dederīmus	dederītis	dederint	#	perfect							
+give	subjunctive	active	past	perfective	dedissem	dedissēs	dedisset	dedissēmus	dedissētis	dedissent	#	pluperfect							
+give	subjunctive	passive	present	simple	der	dēris, dēre	dētur	dēmur	dēminī	dentur	#	present							
+give	subjunctive	passive	past	imperfective	darer	darēris, darēre	darētur	darēmur	darēminī	darentur	#	imperfect							
+give	imperative	active	present	simple	—	dā	—	—	date	—	#	present							
+give	imperative	active	future	simple	—	datō	datō	—	datōte	dantō	#	future							
+give	imperative	passive	present	simple	—	dare	—	—	daminī	—	#	present							
+give	imperative	passive	future	simple	—	dator	dator	—	—	dantor	#	future							
+help	indicative	active	present	simple	adiuvō	adiuvās	adiuvat	adiuvāmus	adiuvātis	adiuvant	#	present							
+help	indicative	active	past	imperfective	adiuvābam	adiuvābās	adiuvābat	adiuvābāmus	adiuvābātis	adiuvābant	#	imperfect							
+help	indicative	active	future	simple	adiuvābō	adiuvābis	adiuvābit	adiuvābimus	adiuvābitis	adiuvābunt	#	future							
+help	indicative	active	present	perfective	adiūvī, adiuvāvī	adiūvistī, adiuvāvistī	adiūvit, adiuvāvit	adiūvimus, adiuvāvimus	adiūvistis, adiuvāvistis	adiūvērunt, adiūvēre, adiuvāvērunt, adiuvāvēre	#	perfect							
+help	indicative	active	past	perfective	adiūveram, adiuvāveram	adiūverās, adiuvāverās	adiūverat, adiuvāverat	adiūverāmus, adiuvāverāmus	adiūverātis, adiuvāverātis	adiūverant, adiuvāverant	#	pluperfect							
+help	indicative	active	future	perfective	adiūverō, adiuvāverō	adiūveris, adiuvāveris	adiūverit, adiuvāverit	adiūverimus, adiuvāverimus	adiūveritis, adiuvāveritis	adiūverint, adiuvāverint	#	future perfect							
+help	indicative	passive	present	simple	adiuvor	adiuvāris, adiuvāre	adiuvātur	adiuvāmur	adiuvāminī	adiuvantur	#	present							
+help	indicative	passive	past	imperfective	adiuvābar	adiuvābāris, adiuvābāre	adiuvābātur	adiuvābāmur	adiuvābāminī	adiuvābantur	#	imperfect							
+help	indicative	passive	future	simple	adiuvābor	adiuvāberis, adiuvābere	adiuvābitur	adiuvābimur	adiuvābiminī	adiuvābuntur	#	future							
+help	subjunctive	active	present	simple	adiuvem	adiuvēs	adiuvet	adiuvēmus	adiuvētis	adiuvent	#	present							
+help	subjunctive	active	past	imperfective	adiuvārem	adiuvārēs	adiuvāret	adiuvārēmus	adiuvārētis	adiuvārent	#	imperfect							
+help	subjunctive	active	present	perfective	adiūverim, adiuvāverim	adiūverīs, adiuvāverīs	adiūverit, adiuvāverit	adiūverīmus, adiuvāverīmus	adiūverītis, adiuvāverītis	adiūverint, adiuvāverint	#	perfect							
+help	subjunctive	active	past	perfective	adiūvissem, adiuvāvissem	adiūvissēs, adiuvāvissēs	adiūvisset, adiuvāvisset	adiūvissēmus, adiuvāvissēmus	adiūvissētis, adiuvāvissētis	adiūvissent, adiuvāvissent	#	pluperfect							
+help	subjunctive	passive	present	simple	adiuver	adiuvēris, adiuvēre	adiuvētur	adiuvēmur	adiuvēminī	adiuventur	#	present							
+help	subjunctive	passive	past	imperfective	adiuvārer	adiuvārēris, adiuvārēre	adiuvārētur	adiuvārēmur	adiuvārēminī	adiuvārentur	#	imperfect							
+help	imperative	active	present	simple	—	adiuvā	—	—	adiuvāte	—	#	present							
+help	imperative	active	future	simple	—	adiuvātō	adiuvātō	—	adiuvātōte	adiuvantō	#	future							
+help	imperative	passive	present	simple	—	adiuvāre	—	—	adiuvāminī	—	#	present							
+help	imperative	passive	future	simple	—	adiuvātor	adiuvātor	—	—	adiuvantor	#	future							
+protect	indicative	active	present	simple	prōtegō	prōtegis	prōtegit	prōtegimus	prōtegitis	prōtegunt	#	present							
+protect	indicative	active	past	imperfective	prōtegēbam	prōtegēbās	prōtegēbat	prōtegēbāmus	prōtegēbātis	prōtegēbant	#	imperfect							
+protect	indicative	active	future	simple	prōtegam	prōtegēs	prōteget	prōtegēmus	prōtegētis	prōtegent	#	future							
+protect	indicative	active	present	perfective	prōtēxī	prōtēxistī	prōtēxit	prōtēximus	prōtēxistis	prōtēxērunt, prōtēxēre	#	perfect							
+protect	indicative	active	past	perfective	prōtēxeram	prōtēxerās	prōtēxerat	prōtēxerāmus	prōtēxerātis	prōtēxerant	#	pluperfect							
+protect	indicative	active	future	perfective	prōtēxerō	prōtēxeris	prōtēxerit	prōtēxerimus	prōtēxeritis	prōtēxerint	#	future perfect							
+protect	indicative	passive	present	simple	prōtegor	prōtegeris, prōtegere	prōtegitur	prōtegimur	prōtegiminī	prōteguntur	#	present							
+protect	indicative	passive	past	imperfective	prōtegēbar	prōtegēbāris, prōtegēbāre	prōtegēbātur	prōtegēbāmur	prōtegēbāminī	prōtegēbantur	#	imperfect							
+protect	indicative	passive	future	simple	prōtegar	prōtegēris, prōtegēre	prōtegētur	prōtegēmur	prōtegēminī	prōtegentur	#	future							
+protect	subjunctive	active	present	simple	prōtegam	prōtegās	prōtegat	prōtegāmus	prōtegātis	prōtegant	#	present							
+protect	subjunctive	active	past	imperfective	prōtegerem	prōtegerēs	prōtegeret	prōtegerēmus	prōtegerētis	prōtegerent	#	imperfect							
+protect	subjunctive	active	present	perfective	prōtēxerim	prōtēxerīs	prōtēxerit	prōtēxerīmus	prōtēxerītis	prōtēxerint	#	perfect							
+protect	subjunctive	active	past	perfective	prōtēxissem	prōtēxissēs	prōtēxisset	prōtēxissēmus	prōtēxissētis	prōtēxissent	#	pluperfect							
+protect	subjunctive	passive	present	simple	prōtegar	prōtegāris, prōtegāre	prōtegātur	prōtegāmur	prōtegāminī	prōtegantur	#	present							
+protect	subjunctive	passive	past	imperfective	prōtegerer	prōtegerēris, prōtegerēre	prōtegerētur	prōtegerēmur	prōtegerēminī	prōtegerentur	#	imperfect							
+protect	imperative	active	present	simple	—	prōtege	—	—	prōtegite	—	#	present							
+protect	imperative	active	future	simple	—	prōtegitō	prōtegitō	—	prōtegitōte	prōteguntō	#	future							
+protect	imperative	passive	present	simple	—	prōtegere	—	—	prōtegiminī	—	#	present							
+protect	imperative	passive	future	simple	—	prōtegitor	prōtegitor	—	—	prōteguntor	#	future							
+hide	indicative	active	present	simple	occulō	occulis	occulit	occulimus	occulitis	occulunt	#	present							
+hide	indicative	active	past	imperfective	occulēbam	occulēbās	occulēbat	occulēbāmus	occulēbātis	occulēbant	#	imperfect							
+hide	indicative	active	future	simple	occulam	occulēs	occulet	occulēmus	occulētis	occulent	#	future							
+hide	indicative	active	present	perfective	occuluī	occuluistī	occuluit	occuluimus	occuluistis	occuluērunt, occuluēre	#	perfect							
+hide	indicative	active	past	perfective	occulueram	occuluerās	occuluerat	occuluerāmus	occuluerātis	occuluerant	#	pluperfect							
+hide	indicative	active	future	perfective	occuluerō	occulueris	occuluerit	occuluerimus	occulueritis	occuluerint	#	future perfect							
+hide	indicative	passive	present	simple	occulor	occuleris, occulere	occulitur	occulimur	occuliminī	occuluntur	#	present							
+hide	indicative	passive	past	imperfective	occulēbar	occulēbāris, occulēbāre	occulēbātur	occulēbāmur	occulēbāminī	occulēbantur	#	imperfect							
+hide	indicative	passive	future	simple	occular	occulēris, occulēre	occulētur	occulēmur	occulēminī	occulentur	#	future							
+hide	subjunctive	active	present	simple	occulam	occulās	occulat	occulāmus	occulātis	occulant	#	present							
+hide	subjunctive	active	past	imperfective	occulerem	occulerēs	occuleret	occulerēmus	occulerētis	occulerent	#	imperfect							
+hide	subjunctive	active	present	perfective	occuluerim	occuluerīs	occuluerit	occuluerīmus	occuluerītis	occuluerint	#	perfect							
+hide	subjunctive	active	past	perfective	occuluissem	occuluissēs	occuluisset	occuluissēmus	occuluissētis	occuluissent	#	pluperfect							
+hide	subjunctive	passive	present	simple	occular	occulāris, occulāre	occulātur	occulāmur	occulāminī	occulantur	#	present							
+hide	subjunctive	passive	past	imperfective	occulerer	occulerēris, occulerēre	occulerētur	occulerēmur	occulerēminī	occulerentur	#	imperfect							
+hide	imperative	active	present	simple	—	occule	—	—	occulite	—	#	present							
+hide	imperative	active	future	simple	—	occulitō	occulitō	—	occulitōte	occuluntō	#	future							
+hide	imperative	passive	present	simple	—	occulere	—	—	occuliminī	—	#	present							
+hide	imperative	passive	future	simple	—	occulitor	occulitor	—	—	occuluntor	#	future							
+arrive	indicative	active	present	simple	adveniō	advenīs	advenit	advenīmus	advenītis	adveniunt	#	present							
+arrive	indicative	active	past	imperfective	adveniēbam	adveniēbās	adveniēbat	adveniēbāmus	adveniēbātis	adveniēbant	#	imperfect							
+arrive	indicative	active	future	simple	adveniam	adveniēs	adveniet	adveniēmus	adveniētis	advenient	#	future							
+arrive	indicative	active	present	perfective	advēnī	advēnistī	advēnit	advēnimus	advēnistis	advēnērunt, advēnēre	#	perfect							
+arrive	indicative	active	past	perfective	advēneram	advēnerās	advēnerat	advēnerāmus	advēnerātis	advēnerant	#	pluperfect							
+arrive	indicative	active	future	perfective	advēnerō	advēneris	advēnerit	advēnerimus	advēneritis	advēnerint	#	future perfect							
+arrive	indicative	passive	present	simple	—	—	advenītur	—	—	—	#	present							
+arrive	indicative	passive	past	imperfective	—	—	adveniēbātur	—	—	—	#	imperfect							
+arrive	indicative	passive	future	simple	—	—	adveniētur	—	—	—	#	future							
+arrive	indicative	passive	present	perfective	—	—	adventum est	—	—	—	#	perfect							
+arrive	indicative	passive	past	perfective	—	—	adventum erat	—	—	—	#	pluperfect							
+arrive	indicative	passive	future	perfective	—	—	adventum erit	—	—	—	#	future perfect							
+arrive	subjunctive	active	present	simple	adveniam	adveniās	adveniat	adveniāmus	adveniātis	adveniant	#	present							
+arrive	subjunctive	active	past	imperfective	advenīrem	advenīrēs	advenīret	advenīrēmus	advenīrētis	advenīrent	#	imperfect							
+arrive	subjunctive	active	present	perfective	advēnerim	advēnerīs	advēnerit	advēnerīmus	advēnerītis	advēnerint	#	perfect							
+arrive	subjunctive	active	past	perfective	advēnissem	advēnissēs	advēnisset	advēnissēmus	advēnissētis	advēnissent	#	pluperfect							
+arrive	subjunctive	passive	present	simple	—	—	adveniātur	—	—	—	#	present							
+arrive	subjunctive	passive	past	imperfective	—	—	advenīrētur	—	—	—	#	imperfect							
+arrive	subjunctive	passive	present	perfective	—	—	adventum sit	—	—	—	#	perfect							
+arrive	subjunctive	passive	past	perfective	—	—	adventum esset	—	—	—	#	pluperfect							
+arrive	imperative	active	present	simple	—	advenī	—	—	advenīte	—	#	present							
+arrive	imperative	active	future	simple	—	advenītō	advenītō	—	advenītōte	adveniuntō	#	future							
+arrive	imperative	passive	future	simple	—	—	advenītor	—	—	—	#	future							
+ask	indicative	active	present	simple	rogō	rogās	rogat	rogāmus	rogātis	rogant	#	present							
+ask	indicative	active	past	imperfective	rogābam	rogābās	rogābat	rogābāmus	rogābātis	rogābant	#	imperfect							
+ask	indicative	active	future	simple	rogābō	rogābis	rogābit	rogābimus	rogābitis	rogābunt	#	future							
+ask	indicative	active	present	perfective	rogāvī	rogāvistī, rogāstī3	rogāvit, rogāt3	rogāvimus, rogāmus3	rogāvistis, rogāstis3	rogāvērunt, rogārunt, rogāvēre3	#	perfect							
+ask	indicative	active	past	perfective	rogāveram, rogāram3	rogāverās, rogārās3	rogāverat, rogārat3	rogāverāmus, rogārāmus3	rogāverātis, rogārātis3	rogāverant, rogārant3	#	pluperfect							
+ask	indicative	active	future	perfective	rogāverō, rogārō3	rogāveris, rogāris3	rogāverit, rogārit3	rogāverimus, rogārimus3	rogāveritis, rogāritis3	rogāverint, rogārint3	#	future perfect							
+ask	indicative	passive	present	simple	rogor	rogāris, rogāre	rogātur	rogāmur	rogāminī	rogantur	#	present							
+ask	indicative	passive	past	imperfective	rogābar	rogābāris, rogābāre	rogābātur	rogābāmur	rogābāminī	rogābantur	#	imperfect							
+ask	indicative	passive	future	simple	rogābor	rogāberis, rogābere	rogābitur	rogābimur	rogābiminī	rogābuntur	#	future							
+ask	subjunctive	active	present	simple	rogem	rogēs	roget	rogēmus	rogētis	rogent	#	present							
+ask	subjunctive	active	past	imperfective	rogārem	rogārēs	rogāret	rogārēmus	rogārētis	rogārent	#	imperfect							
+ask	subjunctive	active	present	perfective	rogāverim, rogārim3	rogāverīs, rogārīs3	rogāverit, rogārit3	rogāverīmus, rogārīmus3	rogāverītis, rogārītis3	rogāverint, rogārint3	#	perfect							
+ask	subjunctive	active	past	perfective	rogāvissem, rogāssem3	rogāvissēs, rogāssēs3	rogāvisset, rogāsset3	rogāvissēmus, rogāssēmus3	rogāvissētis, rogāssētis3	rogāvissent, rogāssent3	#	pluperfect							
+ask	subjunctive	passive	present	simple	roger	rogēris, rogēre	rogētur	rogēmur	rogēminī	rogentur	#	present							
+ask	subjunctive	passive	past	imperfective	rogārer	rogārēris, rogārēre	rogārētur	rogārēmur	rogārēminī	rogārentur	#	imperfect							
+ask	imperative	active	present	simple	—	rogā	—	—	rogāte	—	#	present							
+ask	imperative	active	future	simple	—	rogātō	rogātō	—	rogātōte	rogantō	#	future							
+ask	imperative	passive	present	simple	—	rogāre	—	—	rogāminī	—	#	present							
+ask	imperative	passive	future	simple	—	rogātor	rogātor	—	—	rogantor	#	future							
+open	indicative	active	present	simple	aperiō	aperīs	aperit	aperīmus	aperītis	aperiunt	#	present							
+open	indicative	active	past	imperfective	aperiēbam	aperiēbās	aperiēbat	aperiēbāmus	aperiēbātis	aperiēbant	#	imperfect							
+open	indicative	active	future	simple	aperiam	aperiēs	aperiet	aperiēmus	aperiētis	aperient	#	future							
+open	indicative	active	present	perfective	aperuī	aperuistī	aperuit	aperuimus	aperuistis	aperuērunt, aperuēre	#	perfect							
+open	indicative	active	past	perfective	aperueram	aperuerās	aperuerat	aperuerāmus	aperuerātis	aperuerant	#	pluperfect							
+open	indicative	active	future	perfective	aperuerō	aperueris	aperuerit	aperuerimus	aperueritis	aperuerint	#	future perfect							
+open	indicative	passive	present	simple	aperior	aperīris, aperīre	aperītur	aperīmur	aperīminī	aperiuntur	#	present							
+open	indicative	passive	past	imperfective	aperiēbar	aperiēbāris, aperiēbāre	aperiēbātur	aperiēbāmur	aperiēbāminī	aperiēbantur	#	imperfect							
+open	indicative	passive	future	simple	aperiar	aperiēris, aperiēre	aperiētur	aperiēmur	aperiēminī	aperientur	#	future							
+open	subjunctive	active	present	simple	aperiam	aperiās	aperiat	aperiāmus	aperiātis	aperiant	#	present							
+open	subjunctive	active	past	imperfective	aperīrem	aperīrēs	aperīret	aperīrēmus	aperīrētis	aperīrent	#	imperfect							
+open	subjunctive	active	present	perfective	aperuerim	aperuerīs	aperuerit	aperuerīmus	aperuerītis	aperuerint	#	perfect							
+open	subjunctive	active	past	perfective	aperuissem	aperuissēs	aperuisset	aperuissēmus	aperuissētis	aperuissent	#	pluperfect							
+open	subjunctive	passive	present	simple	aperiar	aperiāris, aperiāre	aperiātur	aperiāmur	aperiāminī	aperiantur	#	present							
+open	subjunctive	passive	past	imperfective	aperīrer	aperīrēris, aperīrēre	aperīrētur	aperīrēmur	aperīrēminī	aperīrentur	#	imperfect							
+open	imperative	active	present	simple	—	aperī	—	—	aperīte	—	#	present							
+open	imperative	active	future	simple	—	aperītō	aperītō	—	aperītōte	aperiuntō	#	future							
+open	imperative	passive	present	simple	—	aperīre	—	—	aperīminī	—	#	present							
+open	imperative	passive	future	simple	—	aperītor	aperītor	—	—	aperiuntor	#	future							
+lead	indicative	active	present	simple	dūcō	dūcis	dūcit	dūcimus	dūcitis	dūcunt	#	present							
+lead	indicative	active	past	imperfective	dūcēbam	dūcēbās	dūcēbat	dūcēbāmus	dūcēbātis	dūcēbant	#	imperfect							
+lead	indicative	active	future	simple	dūcam	dūcēs	dūcet	dūcēmus	dūcētis	dūcent	#	future							
+lead	indicative	active	present	perfective	dūxī	dūxistī	dūxit	dūximus	dūxistis	dūxērunt, dūxēre	#	perfect							
+lead	indicative	active	past	perfective	dūxeram	dūxerās	dūxerat	dūxerāmus	dūxerātis	dūxerant	#	pluperfect							
+lead	indicative	active	future	perfective	dūxerō	dūxeris	dūxerit	dūxerimus	dūxeritis	dūxerint	#	future perfect							
+lead	indicative	passive	present	simple	dūcor	dūceris, dūcere	dūcitur	dūcimur	dūciminī	dūcuntur	#	present							
+lead	indicative	passive	past	imperfective	dūcēbar	dūcēbāris, dūcēbāre	dūcēbātur	dūcēbāmur	dūcēbāminī	dūcēbantur	#	imperfect							
+lead	indicative	passive	future	simple	dūcar	dūcēris, dūcēre	dūcētur	dūcēmur	dūcēminī	dūcentur	#	future							
+lead	subjunctive	active	present	simple	dūcam	dūcās	dūcat	dūcāmus	dūcātis	dūcant	#	present							
+lead	subjunctive	active	past	imperfective	dūcerem	dūcerēs	dūceret	dūcerēmus	dūcerētis	dūcerent	#	imperfect							
+lead	subjunctive	active	present	perfective	dūxerim	dūxerīs	dūxerit	dūxerīmus	dūxerītis	dūxerint	#	perfect							
+lead	subjunctive	active	past	perfective	dūxissem	dūxissēs	dūxisset	dūxissēmus	dūxissētis	dūxissent	#	pluperfect							
+lead	subjunctive	passive	present	simple	dūcar	dūcāris, dūcāre	dūcātur	dūcāmur	dūcāminī	dūcantur	#	present							
+lead	subjunctive	passive	past	imperfective	dūcerer	dūcerēris, dūcerēre	dūcerētur	dūcerēmur	dūcerēminī	dūcerentur	#	imperfect							
+lead	imperative	active	present	simple	—	dūc, dūce	—	—	dūcite	—	#	present							
+lead	imperative	active	future	simple	—	dūcitō	dūcitō	—	dūcitōte	dūcuntō	#	future							
+lead	imperative	passive	present	simple	—	dūcere	—	—	dūciminī	—	#	present							
+lead	imperative	passive	future	simple	—	dūcitor	dūcitor	—	—	dūcuntor	#	future							
+anger	indicative	active	present	simple	irrītō	irrītās	irrītat	irrītāmus	irrītātis	irrītant	#	present							
+anger	indicative	active	past	imperfective	irrītābam	irrītābās	irrītābat	irrītābāmus	irrītābātis	irrītābant	#	imperfect							
+anger	indicative	active	future	simple	irrītābō	irrītābis	irrītābit	irrītābimus	irrītābitis	irrītābunt	#	future							
+anger	indicative	active	present	perfective	irrītāvī	irrītāvistī	irrītāvit	irrītāvimus	irrītāvistis	irrītāvērunt, irrītāvēre	#	perfect							
+anger	indicative	active	past	perfective	irrītāveram	irrītāverās	irrītāverat	irrītāverāmus	irrītāverātis	irrītāverant	#	pluperfect							
+anger	indicative	active	future	perfective	irrītāverō	irrītāveris	irrītāverit	irrītāverimus	irrītāveritis	irrītāverint	#	future perfect							
+anger	indicative	passive	present	simple	irrītor	irrītāris, irrītāre	irrītātur	irrītāmur	irrītāminī	irrītantur	#	present							
+anger	indicative	passive	past	imperfective	irrītābar	irrītābāris, irrītābāre	irrītābātur	irrītābāmur	irrītābāminī	irrītābantur	#	imperfect							
+anger	indicative	passive	future	simple	irrītābor	irrītāberis, irrītābere	irrītābitur	irrītābimur	irrītābiminī	irrītābuntur	#	future							
+anger	subjunctive	active	present	simple	irrītem	irrītēs	irrītet	irrītēmus	irrītētis	irrītent	#	present							
+anger	subjunctive	active	past	imperfective	irrītārem	irrītārēs	irrītāret	irrītārēmus	irrītārētis	irrītārent	#	imperfect							
+anger	subjunctive	active	present	perfective	irrītāverim	irrītāverīs	irrītāverit	irrītāverīmus	irrītāverītis	irrītāverint	#	perfect							
+anger	subjunctive	active	past	perfective	irrītāvissem	irrītāvissēs	irrītāvisset	irrītāvissēmus	irrītāvissētis	irrītāvissent	#	pluperfect							
+anger	subjunctive	passive	present	simple	irrīter	irrītēris, irrītēre	irrītētur	irrītēmur	irrītēminī	irrītentur	#	present							
+anger	subjunctive	passive	past	imperfective	irrītārer	irrītārēris, irrītārēre	irrītārētur	irrītārēmur	irrītārēminī	irrītārentur	#	imperfect							
+anger	imperative	active	present	simple	—	irrītā	—	—	irrītāte	—	#	present							
+anger	imperative	active	future	simple	—	irrītātō	irrītātō	—	irrītātōte	irrītantō	#	future							
+anger	imperative	passive	present	simple	—	irrītāre	—	—	irrītāminī	—	#	present							
+anger	imperative	passive	future	simple	—	irrītātor	irrītātor	—	—	irrītantor	#	future							
+fix	indicative	active	present	simple	sarciō	sarcīs	sarcit	sarcīmus	sarcītis	sarciunt	#	present							
+fix	indicative	active	past	imperfective	sarciēbam	sarciēbās	sarciēbat	sarciēbāmus	sarciēbātis	sarciēbant	#	imperfect							
+fix	indicative	active	future	simple	sarciam	sarciēs	sarciet	sarciēmus	sarciētis	sarcient	#	future							
+fix	indicative	active	present	perfective	sarsī	sarsistī	sarsit	sarsimus	sarsistis	sarsērunt, sarsēre	#	perfect							
+fix	indicative	active	past	perfective	sarseram	sarserās	sarserat	sarserāmus	sarserātis	sarserant	#	pluperfect							
+fix	indicative	active	future	perfective	sarserō	sarseris	sarserit	sarserimus	sarseritis	sarserint	#	future perfect							
+fix	indicative	passive	present	simple	sarcior	sarcīris, sarcīre	sarcītur	sarcīmur	sarcīminī	sarciuntur	#	present							
+fix	indicative	passive	past	imperfective	sarciēbar	sarciēbāris, sarciēbāre	sarciēbātur	sarciēbāmur	sarciēbāminī	sarciēbantur	#	imperfect							
+fix	indicative	passive	future	simple	sarciar	sarciēris, sarciēre	sarciētur	sarciēmur	sarciēminī	sarcientur	#	future							
+fix	subjunctive	active	present	simple	sarciam	sarciās	sarciat	sarciāmus	sarciātis	sarciant	#	present							
+fix	subjunctive	active	past	imperfective	sarcīrem	sarcīrēs	sarcīret	sarcīrēmus	sarcīrētis	sarcīrent	#	imperfect							
+fix	subjunctive	active	present	perfective	sarserim	sarserīs	sarserit	sarserīmus	sarserītis	sarserint	#	perfect							
+fix	subjunctive	active	past	perfective	sarsissem	sarsissēs	sarsisset	sarsissēmus	sarsissētis	sarsissent	#	pluperfect							
+fix	subjunctive	passive	present	simple	sarciar	sarciāris, sarciāre	sarciātur	sarciāmur	sarciāminī	sarciantur	#	present							
+fix	subjunctive	passive	past	imperfective	sarcīrer	sarcīrēris, sarcīrēre	sarcīrētur	sarcīrēmur	sarcīrēminī	sarcīrentur	#	imperfect							
+fix	imperative	active	present	simple	—	sarcī	—	—	sarcīte	—	#	present							
+fix	imperative	active	future	simple	—	sarcītō	sarcītō	—	sarcītōte	sarciuntō	#	future							
+fix	imperative	passive	present	simple	—	sarcīre	—	—	sarcīminī	—	#	present							
+fix	imperative	passive	future	simple	—	sarcītor	sarcītor	—	—	sarciuntor	#	future							
+flow	indicative	active	present	simple	fluō	fluis	fluit	fluimus	fluitis	fluunt	#	present							
+flow	indicative	active	past	imperfective	fluēbam	fluēbās	fluēbat	fluēbāmus	fluēbātis	fluēbant	#	imperfect							
+flow	indicative	active	future	simple	fluam	fluēs	fluet	fluēmus	fluētis	fluent	#	future							
+flow	indicative	active	past	perfective	flū̆xī	flū̆xistī	flū̆xit	flū̆ximus	flū̆xistis	flū̆xērunt, flū̆xēre	#	perfect							
+flow	indicative	active	past	perfective	flū̆xeram	flū̆xerās	flū̆xerat	flū̆xerāmus	flū̆xerātis	flū̆xerant	#	pluperfect							
+flow	indicative	active	future	perfective	flū̆xerō	flū̆xeris	flū̆xerit	flū̆xerimus	flū̆xeritis	flū̆xerint	#	future perfect							
+flow	subjunctive	active	present	simple	fluam	fluās	fluat	fluāmus	fluātis	fluant	#	present							
+flow	subjunctive	active	past	imperfective	fluerem	fluerēs	flueret	fluerēmus	fluerētis	fluerent	#	imperfect							
+flow	subjunctive	active	past	perfective	flū̆xerim	flū̆xerīs	flū̆xerit	flū̆xerīmus	flū̆xerītis	flū̆xerint	#	perfect							
+flow	subjunctive	active	past	perfective	flū̆xissem	flū̆xissēs	flū̆xisset	flū̆xissēmus	flū̆xissētis	flū̆xissent	#	pluperfect							
+flow	imperative	active	present	simple	—	flue	—	—	fluite	—	#	present							
+come	indicative	active	present	simple	veniō	venīs	venit	venīmus	venītis	veniunt	#	present							
+come	indicative	active	past	imperfective	veniēbam	veniēbās	veniēbat	veniēbāmus	veniēbātis	veniēbant	#	imperfect							
+come	indicative	active	future	simple	veniam	veniēs	veniet	veniēmus	veniētis	venient	#	future							
+come	indicative	active	present	perfective	vēnī	vēnistī	vēnit	vēnimus	vēnistis	vēnērunt, vēnēre	#	perfect							
+come	indicative	active	past	perfective	vēneram	vēnerās	vēnerat	vēnerāmus	vēnerātis	vēnerant	#	pluperfect							
+come	indicative	active	future	perfective	vēnerō	vēneris	vēnerit	vēnerimus	vēneritis	vēnerint	#	future perfect							
+come	indicative	passive	present	simple	—	—	venītur	—	—	—	#	present							
+come	indicative	passive	past	imperfective	—	—	veniēbātur	—	—	—	#	imperfect							
+come	indicative	passive	future	simple	—	—	veniētur	—	—	—	#	future							
+come	indicative	passive	past	perfective	—	—	ventum est	—	—	—	#	perfect							
+come	indicative	passive	past	perfective	—	—	ventum erat	—	—	—	#	pluperfect							
+come	indicative	passive	future	perfective	—	—	ventum erit	—	—	—	#	future perfect							
+come	subjunctive	active	present	simple	veniam	veniās	veniat	veniāmus	veniātis	veniant	#	present							
+come	subjunctive	active	past	imperfective	venīrem	venīrēs	venīret	venīrēmus	venīrētis	venīrent	#	imperfect							
+come	subjunctive	active	present	perfective	vēnerim	vēnerīs	vēnerit	vēnerīmus	vēnerītis	vēnerint	#	perfect							
+come	subjunctive	active	past	perfective	vēnissem	vēnissēs	vēnisset	vēnissēmus	vēnissētis	vēnissent	#	pluperfect							
+come	subjunctive	passive	present	simple	—	—	veniātur	—	—	—	#	present							
+come	subjunctive	passive	past	imperfective	—	—	venīrētur	—	—	—	#	imperfect							
+come	subjunctive	passive	present	perfective	—	—	ventum sit	—	—	—	#	perfect							
+come	subjunctive	passive	past	perfective	—	—	ventum esset	—	—	—	#	pluperfect							
+come	imperative	active	future	perfective	—	venī	—	—	venīte	—	#	present							
+come	imperative	active	future	simple	—	venītō	venītō	—	venītōte	veniuntō	#	future							
+come	imperative	passive	future	simple	—	—	venītor	—	—	—	#	future							
+become-open	indicative	active	present	simple	aperiō	aperīs	aperit	aperīmus	aperītis	aperiunt	#	present							
+become-open	indicative	active	past	imperfective	aperiēbam	aperiēbās	aperiēbat	aperiēbāmus	aperiēbātis	aperiēbant	#	imperfect							
+become-open	indicative	active	future	simple	aperiam	aperiēs	aperiet	aperiēmus	aperiētis	aperient	#	future							
+become-open	indicative	active	present	perfective	aperuī	aperuistī	aperuit	aperuimus	aperuistis	aperuērunt, aperuēre	#	perfect							
+become-open	indicative	active	past	perfective	aperueram	aperuerās	aperuerat	aperuerāmus	aperuerātis	aperuerant	#	pluperfect							
+become-open	indicative	active	future	perfective	aperuerō	aperueris	aperuerit	aperuerimus	aperueritis	aperuerint	#	future perfect							
+become-open	indicative	passive	present	simple	aperior	aperīris, aperīre	aperītur	aperīmur	aperīminī	aperiuntur	#	present							
+become-open	indicative	passive	past	imperfective	aperiēbar	aperiēbāris, aperiēbāre	aperiēbātur	aperiēbāmur	aperiēbāminī	aperiēbantur	#	imperfect							
+become-open	indicative	passive	future	simple	aperiar	aperiēris, aperiēre	aperiētur	aperiēmur	aperiēminī	aperientur	#	future							
+become-open	subjunctive	active	present	simple	aperiam	aperiās	aperiat	aperiāmus	aperiātis	aperiant	#	present							
+become-open	subjunctive	active	past	imperfective	aperīrem	aperīrēs	aperīret	aperīrēmus	aperīrētis	aperīrent	#	imperfect							
+become-open	subjunctive	active	present	perfective	aperuerim	aperuerīs	aperuerit	aperuerīmus	aperuerītis	aperuerint	#	perfect							
+become-open	subjunctive	active	past	perfective	aperuissem	aperuissēs	aperuisset	aperuissēmus	aperuissētis	aperuissent	#	pluperfect							
+become-open	subjunctive	passive	present	simple	aperiar	aperiāris, aperiāre	aperiātur	aperiāmur	aperiāminī	aperiantur	#	present							
+become-open	subjunctive	passive	past	imperfective	aperīrer	aperīrēris, aperīrēre	aperīrētur	aperīrēmur	aperīrēminī	aperīrentur	#	imperfect							
+become-open	imperative	active	present	simple	—	aperī	—	—	aperīte	—	#	present							
+become-open	imperative	active	future	simple	—	aperītō	aperītō	—	aperītōte	aperiuntō	#	future							
+become-open	imperative	passive	present	simple	—	aperīre	—	—	aperīminī	—	#	present							
+become-open	imperative	passive	future	simple	—	aperītor	aperītor	—	—	aperiuntor	#	future							
+suffer	indicative	active	present	simple	patior	pateris, patere	patitur	patimur	patiminī	patiuntur	#	present							
+suffer	indicative	active	past	imperfective	patiēbar	patiēbāris, patiēbāre	patiēbātur	patiēbāmur	patiēbāminī	patiēbantur	#	imperfect							
+suffer	indicative	active	future	simple	patiar	patiēris, patiēre	patiētur	patiēmur	patiēminī	patientur	#	future							
+suffer	subjunctive	active	present	simple	patiar	patiāris, patiāre	patiātur	patiāmur	patiāminī	patiantur	#	present							
+suffer	subjunctive	active	past	imperfective	paterer	paterēris, paterēre	paterētur	paterēmur	paterēminī	paterentur	#	imperfect							
+suffer	imperative	active	present	simple	—	patere	—	—	patiminī	—	#	present							
+suffer	imperative	active	future	simple	—	patitor	patitor	—	—	patiuntor	#	future							
+fight	indicative	active	present	simple	pugnō	pugnās	pugnat	pugnāmus	pugnātis	pugnant	#	present							
+fight	indicative	active	past	imperfective	pugnābam	pugnābās	pugnābat	pugnābāmus	pugnābātis	pugnābant	#	imperfect							
+fight	indicative	active	future	simple	pugnābō	pugnābis	pugnābit	pugnābimus	pugnābitis	pugnābunt	#	future							
+fight	indicative	active	present	perfective	pugnāvī	pugnāvistī, pugnāstī1	pugnāvit, pugnāt1	pugnāvimus, pugnāmus1	pugnāvistis, pugnāstis1	pugnāvērunt, pugnārunt, pugnāvēre1	#	perfect							
+fight	indicative	active	past	perfective	pugnāveram, pugnāram1	pugnāverās, pugnārās1	pugnāverat, pugnārat1	pugnāverāmus, pugnārāmus1	pugnāverātis, pugnārātis1	pugnāverant, pugnārant1	#	pluperfect							
+fight	indicative	active	future	perfective	pugnāverō, pugnārō1	pugnāveris, pugnāris1	pugnāverit, pugnārit1	pugnāverimus, pugnārimus1	pugnāveritis, pugnāritis1	pugnāverint, pugnārint1	#	future perfect							
+fight	indicative	passive	present	simple	pugnor	pugnāris, pugnāre	pugnātur	pugnāmur	pugnāminī	pugnantur	#	present							
+fight	indicative	passive	past	imperfective	pugnābar	pugnābāris, pugnābāre	pugnābātur	pugnābāmur	pugnābāminī	pugnābantur	#	imperfect							
+fight	indicative	passive	future	simple	pugnābor	pugnāberis, pugnābere	pugnābitur	pugnābimur	pugnābiminī	pugnābuntur	#	future							
+fight	subjunctive	active	present	simple	pugnem	pugnēs	pugnet	pugnēmus	pugnētis	pugnent	#	present							
+fight	subjunctive	active	past	imperfective	pugnārem	pugnārēs	pugnāret	pugnārēmus	pugnārētis	pugnārent	#	imperfect							
+fight	subjunctive	active	present	perfective	pugnāverim, pugnārim1	pugnāverīs, pugnārīs1	pugnāverit, pugnārit1	pugnāverīmus, pugnārīmus1	pugnāverītis, pugnārītis1	pugnāverint, pugnārint1	#	perfect							
+fight	subjunctive	active	past	perfective	pugnāvissem, pugnāssem1	pugnāvissēs, pugnāssēs1	pugnāvisset, pugnāsset1	pugnāvissēmus, pugnāssēmus1	pugnāvissētis, pugnāssētis1	pugnāvissent, pugnāssent1	#	pluperfect							
+fight	subjunctive	passive	present	simple	pugner	pugnēris, pugnēre	pugnētur	pugnēmur	pugnēminī	pugnentur	#	present							
+fight	subjunctive	passive	past	imperfective	pugnārer	pugnārēris, pugnārēre	pugnārētur	pugnārēmur	pugnārēminī	pugnārentur	#	imperfect							
+fight	imperative	active	present	simple	—	pugnā	—	—	pugnāte	—	#	present							
+fight	imperative	active	future	simple	—	pugnātō	pugnātō	—	pugnātōte	pugnantō	#	future							
+fight	imperative	passive	present	simple	—	pugnāre	—	—	pugnāminī	—	#	present							
+fight	imperative	passive	future	simple	—	pugnātor	pugnātor	—	—	pugnantor	#	future							
+greet	indicative	active	present	simple	salūtō	salūtās	salūtat	salūtāmus	salūtātis	salūtant	#	present							
+greet	indicative	active	past	imperfective	salūtābam	salūtābās	salūtābat	salūtābāmus	salūtābātis	salūtābant	#	imperfect							
+greet	indicative	active	future	simple	salūtābō	salūtābis	salūtābit	salūtābimus	salūtābitis	salūtābunt	#	future							
+greet	indicative	active	present	perfective	salūtāvī	salūtāvistī, salūtāstī1	salūtāvit, salūtāt1	salūtāvimus, salūtāmus1	salūtāvistis, salūtāstis1	salūtāvērunt, salūtārunt, salūtāvēre1	#	perfect							
+greet	indicative	active	past	perfective	salūtāveram, salūtāram1	salūtāverās, salūtārās1	salūtāverat, salūtārat1	salūtāverāmus, salūtārāmus1	salūtāverātis, salūtārātis1	salūtāverant, salūtārant1	#	pluperfect							
+greet	indicative	active	future	perfective	salūtāverō, salūtārō1	salūtāveris, salūtāris1	salūtāverit, salūtārit1	salūtāverimus, salūtārimus1	salūtāveritis, salūtāritis1	salūtāverint, salūtārint1	#	future perfect							
+greet	indicative	passive	present	simple	salūtor	salūtāris, salūtāre	salūtātur	salūtāmur	salūtāminī	salūtantur	#	present							
+greet	indicative	passive	past	imperfective	salūtābar	salūtābāris, salūtābāre	salūtābātur	salūtābāmur	salūtābāminī	salūtābantur	#	imperfect							
+greet	indicative	passive	future	simple	salūtābor	salūtāberis, salūtābere	salūtābitur	salūtābimur	salūtābiminī	salūtābuntur	#	future							
+greet	subjunctive	active	present	simple	salūtem	salūtēs	salūtet	salūtēmus	salūtētis	salūtent	#	present							
+greet	subjunctive	active	past	imperfective	salūtārem	salūtārēs	salūtāret	salūtārēmus	salūtārētis	salūtārent	#	imperfect							
+greet	subjunctive	active	present	perfective	salūtāverim, salūtārim1	salūtāverīs, salūtārīs1	salūtāverit, salūtārit1	salūtāverīmus, salūtārīmus1	salūtāverītis, salūtārītis1	salūtāverint, salūtārint1	#	perfect							
+greet	subjunctive	active	past	perfective	salūtāvissem, salūtāssem1	salūtāvissēs, salūtāssēs1	salūtāvisset, salūtāsset1	salūtāvissēmus, salūtāssēmus1	salūtāvissētis, salūtāssētis1	salūtāvissent, salūtāssent1	#	pluperfect							
+greet	subjunctive	passive	present	simple	salūter	salūtēris, salūtēre	salūtētur	salūtēmur	salūtēminī	salūtentur	#	present							
+greet	subjunctive	passive	past	imperfective	salūtārer	salūtārēris, salūtārēre	salūtārētur	salūtārēmur	salūtārēminī	salūtārentur	#	imperfect							
+greet	imperative	active	present	simple	—	salūtā	—	—	salūtāte	—	#	present							
+greet	imperative	active	future	simple	—	salūtātō	salūtātō	—	salūtātōte	salūtantō	#	future							
+greet	imperative	passive	present	simple	—	salūtāre	—	—	salūtāminī	—	#	present							
+greet	imperative	passive	future	simple	—	salūtātor	salūtātor	—	—	salūtantor	#	future							
+heal	indicative	active	present	simple	sānō	sānās	sānat	sānāmus	sānātis	sānant	#	present							
+heal	indicative	active	past	imperfective	sānābam	sānābās	sānābat	sānābāmus	sānābātis	sānābant	#	imperfect							
+heal	indicative	active	future	simple	sānābō	sānābis	sānābit	sānābimus	sānābitis	sānābunt	#	future							
+heal	indicative	active	present	perfective	sānāvī	sānāvistī	sānāvit	sānāvimus	sānāvistis	sānāvērunt, sānāvēre	#	perfect							
+heal	indicative	active	past	perfective	sānāveram	sānāverās	sānāverat	sānāverāmus	sānāverātis	sānāverant	#	pluperfect							
+heal	indicative	active	future	perfective	sānāverō	sānāveris	sānāverit	sānāverimus	sānāveritis	sānāverint	#	future perfect							
+heal	indicative	passive	present	simple	sānor	sānāris, sānāre	sānātur	sānāmur	sānāminī	sānantur	#	present							
+heal	indicative	passive	past	imperfective	sānābar	sānābāris, sānābāre	sānābātur	sānābāmur	sānābāminī	sānābantur	#	imperfect							
+heal	indicative	passive	future	simple	sānābor	sānāberis, sānābere	sānābitur	sānābimur	sānābiminī	sānābuntur	#	future							
+heal	subjunctive	active	present	simple	sānem	sānēs	sānet	sānēmus	sānētis	sānent	#	present							
+heal	subjunctive	active	past	imperfective	sānārem	sānārēs	sānāret	sānārēmus	sānārētis	sānārent	#	imperfect							
+heal	subjunctive	active	present	perfective	sānāverim	sānāverīs	sānāverit	sānāverīmus	sānāverītis	sānāverint	#	perfect							
+heal	subjunctive	active	past	perfective	sānāvissem	sānāvissēs	sānāvisset	sānāvissēmus	sānāvissētis	sānāvissent	#	pluperfect							
+heal	subjunctive	passive	present	simple	sāner	sānēris, sānēre	sānētur	sānēmur	sānēminī	sānentur	#	present							
+heal	subjunctive	passive	past	imperfective	sānārer	sānārēris, sānārēre	sānārētur	sānārēmur	sānārēminī	sānārentur	#	imperfect							
+heal	imperative	active	present	simple	—	sānā	—	—	sānāte	—	#	present							
+heal	imperative	active	future	simple	—	sānātō	sānātō	—	sānātōte	sānantō	#	future							
+heal	imperative	passive	present	simple	—	sānāre	—	—	sānāminī	—	#	present							
+heal	imperative	passive	future	simple	—	sānātor	sānātor	—	—	sānantor	#	future							
+heat	indicative	active	present	simple	calefaciō	calefacis	calefacit	calefacimus	calefacitis	calefaciunt	#	present							
+heat	indicative	active	past	imperfective	calefaciēbam	calefaciēbās	calefaciēbat	calefaciēbāmus	calefaciēbātis	calefaciēbant	#	imperfect							
+heat	indicative	active	future	simple	calefaciam	calefaciēs	calefaciet	calefaciēmus	calefaciētis	calefacient	#	future							
+heat	indicative	active	present	perfective	calefēcī	calefēcistī	calefēcit	calefēcimus	calefēcistis	calefēcērunt, calefēcēre	#	perfect							
+heat	indicative	active	past	perfective	calefēceram	calefēcerās	calefēcerat	calefēcerāmus	calefēcerātis	calefēcerant	#	pluperfect							
+heat	indicative	active	future	perfective	calefēcerō	calefēceris	calefēcerit	calefēcerimus	calefēceritis	calefēcerint	#	future perfect							
+heat	indicative	passive	present	simple	calefīō	calefīs	calefit	calefīmus	calefītis	calefīunt	#	present							
+heat	indicative	passive	past	imperfective	calefīēbam	calefīēbās	calefīēbat	calefīēbāmus	calefīēbātis	calefīēbant	#	imperfect							
+heat	indicative	passive	future	simple	calefīam	calefīēs	calefīet	calefīēmus	calefīētis	calefīent	#	future							
+heat	subjunctive	active	present	simple	calefaciam	calefaciās	calefaciat	calefaciāmus	calefaciātis	calefaciant	#	present							
+heat	subjunctive	active	past	imperfective	calefacerem	calefacerēs	calefaceret	calefacerēmus	calefacerētis	calefacerent	#	imperfect							
+heat	subjunctive	active	present	perfective	calefēcerim	calefēcerīs	calefēcerit	calefēcerīmus	calefēcerītis	calefēcerint	#	perfect							
+heat	subjunctive	active	past	perfective	calefēcissem	calefēcissēs	calefēcisset	calefēcissēmus	calefēcissētis	calefēcissent	#	pluperfect							
+heat	subjunctive	passive	present	simple	calefīam	calefīās	calefīat	calefīāmus	calefīātis	calefīant	#	present							
+heat	subjunctive	passive	past	imperfective	calefierem	calefierēs	calefieret	calefierēmus	calefierētis	calefierent	#	imperfect							
+heat	imperative	active	present	simple	—	caleface	—	—	calefacite	—	#	present							
+heat	imperative	active	future	simple	—	calefacitō	calefacitō	—	calefacitōte	calefaciuntō	#	future							
+heat	imperative	passive	present	simple	—	calefī	—	—	calefīte	—	#	present							
+heat	imperative	passive	future	simple	—	calefītō	calefītō	—	calefītōte	calefīuntō	#	future							
+inhabit	indicative	active	present	simple	possideō	possidēs	possidet	possidēmus	possidētis	possident	#	present							
+inhabit	indicative	active	past	imperfective	possidēbam	possidēbās	possidēbat	possidēbāmus	possidēbātis	possidēbant	#	imperfect							
+inhabit	indicative	active	future	simple	possidēbō	possidēbis	possidēbit	possidēbimus	possidēbitis	possidēbunt	#	future							
+inhabit	indicative	active	present	perfective	possēdī	possēdistī	possēdit	possēdimus	possēdistis	possēdērunt, possēdēre	#	perfect							
+inhabit	indicative	active	past	perfective	possēderam	possēderās	possēderat	possēderāmus	possēderātis	possēderant	#	pluperfect							
+inhabit	indicative	active	future	perfective	possēderō	possēderis	possēderit	possēderimus	possēderitis	possēderint	#	future perfect							
+inhabit	indicative	passive	present	simple	possideor	possidēris, possidēre	possidētur	possidēmur	possidēminī	possidentur	#	present							
+inhabit	indicative	passive	past	imperfective	possidēbar	possidēbāris, possidēbāre	possidēbātur	possidēbāmur	possidēbāminī	possidēbantur	#	imperfect							
+inhabit	indicative	passive	future	simple	possidēbor	possidēberis, possidēbere	possidēbitur	possidēbimur	possidēbiminī	possidēbuntur	#	future							
+inhabit	subjunctive	active	present	simple	possideam	possideās	possideat	possideāmus	possideātis	possideant	#	present							
+inhabit	subjunctive	active	past	imperfective	possidērem	possidērēs	possidēret	possidērēmus	possidērētis	possidērent	#	imperfect							
+inhabit	subjunctive	active	present	perfective	possēderim	possēderīs	possēderit	possēderīmus	possēderītis	possēderint	#	perfect							
+inhabit	subjunctive	active	past	perfective	possēdissem	possēdissēs	possēdisset	possēdissēmus	possēdissētis	possēdissent	#	pluperfect							
+inhabit	subjunctive	passive	present	simple	possidear	possideāris, possideāre	possideātur	possideāmur	possideāminī	possideantur	#	present							
+inhabit	subjunctive	passive	past	imperfective	possidērer	possidērēris, possidērēre	possidērētur	possidērēmur	possidērēminī	possidērentur	#	imperfect							
+inhabit	imperative	active	present	simple	—	possidē	—	—	possidēte	—	#	present							
+inhabit	imperative	active	future	simple	—	possidētō	possidētō	—	possidētōte	possidentō	#	future							
+inhabit	imperative	passive	present	simple	—	possidēre	—	—	possidēminī	—	#	present							
+inhabit	imperative	passive	future	simple	—	possidētor	possidētor	—	—	possidentor	#	future							
+read	indicative	active	present	simple	legō	legis	legit	legimus	legitis	legunt	#	present							
+read	indicative	active	past	imperfective	legēbam	legēbās	legēbat	legēbāmus	legēbātis	legēbant	#	imperfect							
+read	indicative	active	future	simple	legam	legēs	leget	legēmus	legētis	legent	#	future							
+read	indicative	active	present	perfective	lēgī	lēgistī	lēgit	lēgimus	lēgistis	lēgērunt, lēgēre	#	perfect							
+read	indicative	active	past	perfective	lēgeram	lēgerās	lēgerat	lēgerāmus	lēgerātis	lēgerant	#	pluperfect							
+read	indicative	active	future	perfective	lēgerō	lēgeris	lēgerit	lēgerimus	lēgeritis	lēgerint	#	future perfect							
+read	indicative	passive	present	simple	legor	legeris, legere	legitur	legimur	legiminī	leguntur	#	present							
+read	indicative	passive	past	imperfective	legēbar	legēbāris, legēbāre	legēbātur	legēbāmur	legēbāminī	legēbantur	#	imperfect							
+read	indicative	passive	future	simple	legar	legēris, legēre	legētur	legēmur	legēminī	legentur	#	future							
+read	subjunctive	active	present	simple	legam	legās	legat	legāmus	legātis	legant	#	present							
+read	subjunctive	active	past	imperfective	legerem	legerēs	legeret	legerēmus	legerētis	legerent	#	imperfect							
+read	subjunctive	active	present	perfective	lēgerim	lēgerīs	lēgerit	lēgerīmus	lēgerītis	lēgerint	#	perfect							
+read	subjunctive	active	past	perfective	lēgissem	lēgissēs	lēgisset	lēgissēmus	lēgissētis	lēgissent	#	pluperfect							
+read	subjunctive	passive	present	simple	legar	legāris, legāre	legātur	legāmur	legāminī	legantur	#	present							
+read	subjunctive	passive	past	imperfective	legerer	legerēris, legerēre	legerētur	legerēmur	legerēminī	legerentur	#	imperfect							
+read	imperative	active	present	simple	—	lege	—	—	legite	—	#	present							
+read	imperative	active	future	simple	—	legitō	legitō	—	legitōte	leguntō	#	future							
+read	imperative	passive	present	simple	—	legere	—	—	legiminī	—	#	present							
+read	imperative	passive	future	simple	—	legitor	legitor	—	—	leguntor	#	future							
+shout	indicative	active	present	simple	clāmō	clāmās	clāmat	clāmāmus	clāmātis	clāmant	#	present							
+shout	indicative	active	past	imperfective	clāmābam	clāmābās	clāmābat	clāmābāmus	clāmābātis	clāmābant	#	imperfect							
+shout	indicative	active	future	simple	clāmābō	clāmābis	clāmābit	clāmābimus	clāmābitis	clāmābunt	#	future							
+shout	indicative	active	present	perfective	clāmāvī	clāmāvistī	clāmāvit	clāmāvimus	clāmāvistis	clāmāvērunt, clāmāvēre	#	perfect							
+shout	indicative	active	past	perfective	clāmāveram	clāmāverās	clāmāverat	clāmāverāmus	clāmāverātis	clāmāverant	#	pluperfect							
+shout	indicative	active	future	perfective	clāmāverō	clāmāveris	clāmāverit	clāmāverimus	clāmāveritis	clāmāverint	#	future perfect							
+shout	indicative	passive	present	simple	clāmor	clāmāris, clāmāre	clāmātur	clāmāmur	clāmāminī	clāmantur	#	present							
+shout	indicative	passive	past	imperfective	clāmābar	clāmābāris, clāmābāre	clāmābātur	clāmābāmur	clāmābāminī	clāmābantur	#	imperfect							
+shout	indicative	passive	future	simple	clāmābor	clāmāberis, clāmābere	clāmābitur	clāmābimur	clāmābiminī	clāmābuntur	#	future							
+shout	subjunctive	active	present	simple	clāmem	clāmēs	clāmet	clāmēmus	clāmētis	clāment	#	present							
+shout	subjunctive	active	past	imperfective	clāmārem	clāmārēs	clāmāret	clāmārēmus	clāmārētis	clāmārent	#	imperfect							
+shout	subjunctive	active	present	perfective	clāmāverim	clāmāverīs	clāmāverit	clāmāverīmus	clāmāverītis	clāmāverint	#	perfect							
+shout	subjunctive	active	past	perfective	clāmāvissem	clāmāvissēs	clāmāvisset	clāmāvissēmus	clāmāvissētis	clāmāvissent	#	pluperfect							
+shout	subjunctive	passive	present	simple	clāmer	clāmēris, clāmēre	clāmētur	clāmēmur	clāmēminī	clāmentur	#	present							
+shout	subjunctive	passive	past	imperfective	clāmārer	clāmārēris, clāmārēre	clāmārētur	clāmārēmur	clāmārēminī	clāmārentur	#	imperfect							
+shout	imperative	active	present	simple	—	clāmā	—	—	clāmāte	—	#	present							
+shout	imperative	active	future	simple	—	clāmātō	clāmātō	—	clāmātōte	clāmantō	#	future							
+shout	imperative	passive	present	simple	—	clāmāre	—	—	clāmāminī	—	#	present							
+shout	imperative	passive	future	simple	—	clāmātor	clāmātor	—	—	clāmantor	#	future							
+frighten	indicative	active	present	simple	terreō	terrēs	terret	terrēmus	terrētis	terrent	#	present							
+frighten	indicative	active	past	imperfective	terrēbam	terrēbās	terrēbat	terrēbāmus	terrēbātis	terrēbant	#	imperfect							
+frighten	indicative	active	future	simple	terrēbō	terrēbis	terrēbit	terrēbimus	terrēbitis	terrēbunt	#	future							
+frighten	indicative	active	present	perfective	terruī	terruistī	terruit	terruimus	terruistis	terruērunt, terruēre	#	perfect							
+frighten	indicative	active	past	perfective	terrueram	terruerās	terruerat	terruerāmus	terruerātis	terruerant	#	pluperfect							
+frighten	indicative	active	future	perfective	terruerō	terrueris	terruerit	terruerimus	terrueritis	terruerint	#	future perfect							
+frighten	indicative	passive	present	simple	terreor	terrēris, terrēre	terrētur	terrēmur	terrēminī	terrentur	#	present							
+frighten	indicative	passive	past	imperfective	terrēbar	terrēbāris, terrēbāre	terrēbātur	terrēbāmur	terrēbāminī	terrēbantur	#	imperfect							
+frighten	indicative	passive	future	simple	terrēbor	terrēberis, terrēbere	terrēbitur	terrēbimur	terrēbiminī	terrēbuntur	#	future							
+frighten	subjunctive	active	present	simple	terream	terreās	terreat	terreāmus	terreātis	terreant	#	present							
+frighten	subjunctive	active	past	imperfective	terrērem	terrērēs	terrēret	terrērēmus	terrērētis	terrērent	#	imperfect							
+frighten	subjunctive	active	present	perfective	terruerim	terruerīs	terruerit	terruerīmus	terruerītis	terruerint	#	perfect							
+frighten	subjunctive	active	past	perfective	terruissem	terruissēs	terruisset	terruissēmus	terruissētis	terruissent	#	pluperfect							
+frighten	subjunctive	passive	present	simple	terrear	terreāris, terreāre	terreātur	terreāmur	terreāminī	terreantur	#	present							
+frighten	subjunctive	passive	past	imperfective	terrērer	terrērēris, terrērēre	terrērētur	terrērēmur	terrērēminī	terrērentur	#	imperfect							
+frighten	imperative	active	present	simple	—	terrē	—	—	terrēte	—	#	present							
+frighten	imperative	active	future	simple	—	terrētō	terrētō	—	terrētōte	terrentō	#	future							
+frighten	imperative	passive	present	simple	—	terrēre	—	—	terrēminī	—	#	present							
+frighten	imperative	passive	future	simple	—	terrētor	terrētor	—	—	terrentor	#	future							
+throw	indicative	active	present	simple	iactō	iactās	iactat	iactāmus	iactātis	iactant	#	present							
+throw	indicative	active	past	imperfective	iactābam	iactābās	iactābat	iactābāmus	iactābātis	iactābant	#	imperfect							
+throw	indicative	active	future	simple	iactābō	iactābis	iactābit	iactābimus	iactābitis	iactābunt	#	future							
+throw	indicative	active	present	perfective	iactāvī	iactāvistī	iactāvit	iactāvimus	iactāvistis	iactāvērunt, iactāvēre	#	perfect							
+throw	indicative	active	past	perfective	iactāveram	iactāverās	iactāverat	iactāverāmus	iactāverātis	iactāverant	#	pluperfect							
+throw	indicative	active	future	perfective	iactāverō	iactāveris	iactāverit	iactāverimus	iactāveritis	iactāverint	#	future perfect							
+throw	indicative	passive	present	simple	iactor	iactāris, iactāre	iactātur	iactāmur	iactāminī	iactantur	#	present							
+throw	indicative	passive	past	imperfective	iactābar	iactābāris, iactābāre	iactābātur	iactābāmur	iactābāminī	iactābantur	#	imperfect							
+throw	indicative	passive	future	simple	iactābor	iactāberis, iactābere	iactābitur	iactābimur	iactābiminī	iactābuntur	#	future							
+throw	subjunctive	active	present	simple	iactem	iactēs	iactet	iactēmus	iactētis	iactent	#	present							
+throw	subjunctive	active	past	imperfective	iactārem	iactārēs	iactāret	iactārēmus	iactārētis	iactārent	#	imperfect							
+throw	subjunctive	active	present	perfective	iactāverim	iactāverīs	iactāverit	iactāverīmus	iactāverītis	iactāverint	#	perfect							
+throw	subjunctive	active	past	perfective	iactāvissem	iactāvissēs	iactāvisset	iactāvissēmus	iactāvissētis	iactāvissent	#	pluperfect							
+throw	subjunctive	passive	present	simple	iacter	iactēris, iactēre	iactētur	iactēmur	iactēminī	iactentur	#	present							
+throw	subjunctive	passive	past	imperfective	iactārer	iactārēris, iactārēre	iactārētur	iactārēmur	iactārēminī	iactārentur	#	imperfect							
+throw	imperative	active	present	simple	—	iactā	—	—	iactāte	—	#	present							
+throw	imperative	active	future	simple	—	iactātō	iactātō	—	iactātōte	iactantō	#	future							
+throw	imperative	passive	present	simple	—	iactāre	—	—	iactāminī	—	#	present							
+throw	imperative	passive	future	simple	—	iactātor	iactātor	—	—	iactantor	#	future							
+wait	indicative	active	present	simple	exspectō	exspectās	exspectat	exspectāmus	exspectātis	exspectant	#	present							
+wait	indicative	active	past	imperfective	exspectābam	exspectābās	exspectābat	exspectābāmus	exspectābātis	exspectābant	#	imperfect							
+wait	indicative	active	future	simple	exspectābō	exspectābis	exspectābit	exspectābimus	exspectābitis	exspectābunt	#	future							
+wait	indicative	active	present	perfective	exspectāvī	exspectāvistī, exspectāstī1	exspectāvit, exspectāt1	exspectāvimus, exspectāmus1	exspectāvistis, exspectāstis1	exspectāvērunt, exspectārunt, exspectāvēre1	#	perfect							
+wait	indicative	active	past	perfective	exspectāveram, exspectāram1	exspectāverās, exspectārās1	exspectāverat, exspectārat1	exspectāverāmus, exspectārāmus1	exspectāverātis, exspectārātis1	exspectāverant, exspectārant1	#	pluperfect							
+wait	indicative	active	future	perfective	exspectāverō, exspectārō1	exspectāveris, exspectāris1	exspectāverit, exspectārit1	exspectāverimus, exspectārimus1	exspectāveritis, exspectāritis1	exspectāverint, exspectārint1	#	future perfect							
+wait	indicative	passive	present	simple	exspector	exspectāris, exspectāre	exspectātur	exspectāmur	exspectāminī	exspectantur	#	present							
+wait	indicative	passive	past	imperfective	exspectābar	exspectābāris, exspectābāre	exspectābātur	exspectābāmur	exspectābāminī	exspectābantur	#	imperfect							
+wait	indicative	passive	future	simple	exspectābor	exspectāberis, exspectābere	exspectābitur	exspectābimur	exspectābiminī	exspectābuntur	#	future							
+wait	subjunctive	active	present	simple	exspectem	exspectēs	exspectet	exspectēmus	exspectētis	exspectent	#	present							
+wait	subjunctive	active	past	imperfective	exspectārem	exspectārēs	exspectāret	exspectārēmus	exspectārētis	exspectārent	#	imperfect							
+wait	subjunctive	active	present	perfective	exspectāverim, exspectārim1	exspectāverīs, exspectārīs1	exspectāverit, exspectārit1	exspectāverīmus, exspectārīmus1	exspectāverītis, exspectārītis1	exspectāverint, exspectārint1	#	perfect							
+wait	subjunctive	active	past	perfective	exspectāvissem, exspectāssem1	exspectāvissēs, exspectāssēs1	exspectāvisset, exspectāsset1	exspectāvissēmus, exspectāssēmus1	exspectāvissētis, exspectāssētis1	exspectāvissent, exspectāssent1	#	pluperfect							
+wait	subjunctive	passive	present	simple	exspecter	exspectēris, exspectēre	exspectētur	exspectēmur	exspectēminī	exspectentur	#	present							
+wait	subjunctive	passive	past	imperfective	exspectārer	exspectārēris, exspectārēre	exspectārētur	exspectārēmur	exspectārēminī	exspectārentur	#	imperfect							
+wait	imperative	active	present	simple	—	exspectā	—	—	exspectāte	—	#	present							
+wait	imperative	active	future	simple	—	exspectātō	exspectātō	—	exspectātōte	exspectantō	#	future							
+wait	imperative	passive	present	simple	—	exspectāre	—	—	exspectāminī	—	#	present							
+wait	imperative	passive	future	simple	—	exspectātor	exspectātor	—	—	exspectantor	#	future							

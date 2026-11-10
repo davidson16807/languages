@@ -1,145 +1,313 @@
-*	*	*	*	nominative	genitive  	dative    	accusative	ablative  	vocative  	#	declension					
-tall	masculine	positive	singular	altus 	altī 	altō 	altum 	altō 	alte 	#	1/2, -us					
-tall	feminine	positive	singular	alta 	altae 	altae 	altam 	altā 	alta 	#	1/2, -us					
-tall	neuter	positive	singular	altum 	altī 	altō 	altum 	altō 	altum 	#	1/2, -us					
-tall	masculine	positive	plural	altī 	altōrum 	altīs	altōs 	altīs	altī 	#	1/2, -us					
-tall	feminine	positive	plural	altae 	altārum 	altīs	altās 	altīs	altae 	#	1/2, -us					
-tall	neuter	positive	plural	alta	altōrum	altīs	alta	altīs	alta	#	1/2, -us					
-tall	masculine	comparative	singular	altior	altiōris	altiōrī	altiōrem	altiōre	altior 	#						
-tall	feminine	comparative	singular	altior	altiōris	altiōrī	altiōrem	altiōre	altior 	#						
-tall	neuter	comparative	singular	altius	altiōris	altiōrī	altius	altiōre	altius	#						
-tall	masculine	comparative	plural	altiōrēs	altiōrum	altiōribus	altiōrēs	altiōribus	altiōrēs 	#						
-tall	feminine	comparative	plural	altiōrēs	altiōrum	altiōribus	altiōrēs	altiōribus	altiōrēs 	#						
-tall	neuter	comparative	plural	altiōra	altiōrum	altiōribus	altiōra	altiōribus	altiōra	#						
-tall	masculine	superlative	singular	altissimus	altissimī	altissimō	altissimum	altissimō	altissime 	#						
-tall	feminine	superlative	singular	altissima	altissimae	altissimae	altissimam	altissimā	altissima 	#						
-tall	neuter	superlative	singular	altissimum	altissimī	altissimō	altissimum	altissimō	altissimum 	#						
-tall	masculine	superlative	plural	altissimī	altissimōrum	altissimīs	altissimōs	altissimīs	altissimī 	#						
-tall	feminine	superlative	plural	altissimae	altissimārum 	altissimārum 	altissimās	altissimīs	altissimae	#						
-tall	neuter	superlative	plural	altissima	altissimōrum 	altissimōrum 	altissima	altissimīs	altissima	#						
-holy	masculine	positive	singular	sacer 	sacrī 	sacrō 	sacrum 	sacrō 	sacer 	#	1/2, -er					
-holy	feminine	positive	singular	sacra 	sacrae 	sacrae 	sacram 	sacrā 	sacra 	#	1/2, -er					
-holy	neuter	positive	singular	sacrum 	sacrī 	sacrō 	sacrum 	sacrō 	sacrum 	#	1/2, -er					
-holy	masculine	positive	plural	sacrī 	sacrōrum 	sacrīs	sacrōs 	sacrīs	sacrī 	#	1/2, -er					
-holy	feminine	positive	plural	sacrae 	sacrārum 	sacrīs	sacrās 	sacrīs	sacrae 	#	1/2, -er					
-holy	neuter	positive	plural	sacra	sacrōrum	sacrīs	sacra	sacrīs	sacra	#	1/2, -er					
-holy	masculine	comparative	singular	sacrior	❔	❔	❔	❔	❔	#						
-holy	feminine	comparative	singular	❔	❔	❔	❔	❔	❔	#						
-holy	neuter	comparative	singular	❔	❔	❔	❔	❔	❔	#						
-holy	masculine	comparative	plural	❔	❔	❔	❔	❔	❔	#						
-holy	feminine	comparative	plural	❔	❔	❔	❔	❔	❔	#						
-holy	neuter	comparative	plural	❔	❔	❔	❔	❔	❔	#						
-holy	masculine	superlative	singular	sacerrimus	sacerrimī	sacerrimō	sacerrimum	sacerrimō	sacerrime 	#						
-holy	feminine	superlative	singular	sacerrima	sacerrimae	sacerrimae	sacerrimam	sacerrimā	sacerrima 	#						
-holy	neuter	superlative	singular	sacerrimum	sacerrimī	sacerrimō	sacerrimum	sacerrimō	sacerrimum 	#						
-holy	masculine	superlative	plural	sacerrimī	sacerrimōrum	sacerrimīs	sacerrimōs 	sacerrimīs	sacerrimī 	#						
-holy	feminine	superlative	plural	sacerrimae	sacerrimārum 	sacerrimīs	sacerrimās 	sacerrimīs	sacerrimae 	#						
-holy	neuter	superlative	plural	sacerrima	sacerrimōrum 	sacerrimīs	sacerrima 	sacerrimīs	sacerrima 	#						
-poor	masculine	positive	singular	miser 	miserī 	miserō 	miserum 	miserō 	miser 	#	1/2, -er					
-poor	feminine	positive	singular	misera 	miserae 	miserae 	miseram 	miserā 	misera 	#	1/2, -er					
-poor	neuter	positive	singular	miserum 	miserī 	miserō 	miserum 	miserō 	miserum 	#	1/2, -er					
-poor	masculine	positive	plural	miserī 	miserōrum 	miserīs	miserōs 	miserīs	miserī 	#	1/2, -er					
-poor	feminine	positive	plural	miserae 	miserārum 	miserīs	miserās 	miserīs	miserae 	#	1/2, -er					
-poor	neuter	positive	plural	misera	miserōrum	miserīs	misera	miserīs	misera	#	1/2, -er					
-poor	masculine	comparative	singular	miserior	miseriōris	miseriōrī	miseriōrem	miseriōre	miserior 	#						
-poor	feminine	comparative	singular	miserior	miseriōris	miseriōrī	miseriōrem	miseriōre	miserior 	#						
-poor	neuter	comparative	singular	miserius	miseriōris	miseriōrī	miserius	miseriōre	miserius	#						
-poor	masculine	comparative	plural	miseriōrēs	miseriōrum	miseriōribus	miseriōrēs	miseriōribus	miseriōrēs 	#						
-poor	feminine	comparative	plural	miseriōrēs	miseriōrum	miseriōribus	miseriōrēs	miseriōribus	miseriōrēs 	#						
-poor	neuter	comparative	plural	miseriōra	miseriōrum	miseriōribus	miseriōra	miseriōribus	miseriōra	#						
-poor	masculine	superlative	singular	miserrimus 	miserrimī 	miserrimō 	miserrimum 	miserrimō 	miserrime 	#						
-poor	feminine	superlative	singular	miserrima 	miserrimae 	miserrimae 	miserrimam 	miserrimā 	miserrima 	#						
-poor	neuter	superlative	singular	miserrimum	miserrimī	miserrimō	miserrimum	miserrimō	miserrimum 	#						
-poor	masculine	superlative	plural	miserrimī 	miserrimōrum 	miserrimīs	miserrimōs 	miserrimīs	miserrimī 	#						
-poor	feminine	superlative	plural	miserrimae 	miserrimārum 	miserrimīs	miserrimās 	miserrimīs	miserrimae 	#						
-poor	neuter	superlative	plural	miserrima	miserrimōrum	miserrimīs	miserrima	miserrimīs	miserrima 	#						
-mean	masculine	positive	singular	atrōx	atrōcis	atrōcī	atrōcem	atrōcī	atrōx 	#	3, one ending					
-mean	feminine	positive	singular	atrōx	atrōcis	atrōcī	atrōcem	atrōcī	atrōx 	#	3, one ending					
-mean	neuter	positive	singular	atrōx	atrōcis	atrōcī	atrōx	atrōcī	atrōx 	#	3, one ending					
-mean	masculine	positive	plural	atrōcēs	atrōcium	atrōcibus	atrōcēs	atrōcibus	atrōcēs 	#	3, one ending					
-mean	feminine	positive	plural	atrōcēs	atrōcium	atrōcibus	atrōcēs	atrōcibus	atrōcēs 	#	3, one ending					
-mean	neuter	positive	plural	atrōcia	atrōcium	atrōcibus	atrōcia	atrōcibus	atrōcia	#	3, one ending					
-mean	masculine	comparative	singular	atrōcior	atrōciōris	atrōciōrī	atrōciōrem	atrōciōre	atrōcior 	#						
-mean	feminine	comparative	singular	atrōcior	atrōciōris	atrōciōrī	atrōciōrem	atrōciōre	atrōcior 	#						
-mean	neuter	comparative	singular	atrōcius	atrōciōris	atrōciōrī	atrōcius	atrōciōre	atrōcius	#						
-mean	masculine	comparative	plural	atrōciōrēs	atrōciōrum	atrōciōribus	atrōciōrēs	atrōciōribus	atrōciōrēs 	#						
-mean	feminine	comparative	plural	atrōciōrēs	atrōciōrum	atrōciōribus	atrōciōrēs	atrōciōribus	atrōciōrēs 	#						
-mean	neuter	comparative	plural	atrōciōra	atrōciōrum	atrōciōribus	atrōciōra	atrōciōribus	atrōciōra	#						
-mean	masculine	superlative	singular	atrōcissimus	atrōcissimī	atrōcissimō	atrōcissimum	atrōcissimō	atrōcissime 	#						
-mean	feminine	superlative	singular	atrōcissima	atrōcissimae	atrōcissimae	atrōcissimam	atrōcissimā	atrōcissima 	#						
-mean	neuter	superlative	singular	atrōcissimum	atrōcissimī	atrōcissimō	atrōcissimum	atrōcissimō	atrōcissimum 	#						
-mean	masculine	superlative	plural	atrōcissimī	atrōcissimōrum	atrōcissimīs	atrōcissimōs 	atrōcissimīs	atrōcissimī 	#						
-mean	feminine	superlative	plural	atrōcissimae	atrōcissimārum 	atrōcissimīs	atrōcissimās 	atrōcissimīs	atrōcissimae 	#						
-mean	neuter	superlative	plural	atrōcissima	atrōcissimōrum 	atrōcissimīs	atrōcissima 	atrōcissimīs	atrōcissima 	#						
-old	masculine	positive	singular	vetus	veteris	veterī	veterem	vetere	vetus 	#	3, one ending, non-i-stem					
-old	feminine	positive	singular	vetus	veteris	veterī	veterem	vetere	vetus 	#	3, one ending, non-i-stem					
-old	neuter	positive	singular	vetus	veteris	veterī	vetus	vetere	vetus 	#	3, one ending, non-i-stem					
-old	masculine	positive	plural	veterēs	veterum	veteribus	veterēs	veteribus	veterēs 	#	3, one ending, non-i-stem					
-old	feminine	positive	plural	veterēs	veterum	veteribus	veterēs	veteribus	veterēs 	#	3, one ending, non-i-stem					
-old	neuter	positive	plural	vetera	veterum	veteribus	vetera	veteribus	vetera	#	3, one ending, non-i-stem					
-old	masculine	comparative	singular	vetustior	vetustiōris	vetustiōrī	vetustiōrem	vetustiōre	vetustior 	#						
-old	feminine	comparative	singular	vetustior	vetustiōris	vetustiōrī	vetustiōrem	vetustiōre	vetustior 	#						
-old	neuter	comparative	singular	vetustius	vetustiōris	vetustiōrī	vetustius	vetustiōre	vetustius	#						
-old	masculine	comparative	plural	vetustiōrēs	vetustiōrum	vetustiōribus	vetustiōrēs	vetustiōribus	vetustiōrēs 	#						
-old	feminine	comparative	plural	vetustiōrēs	vetustiōrum	vetustiōribus	vetustiōrēs	vetustiōribus	vetustiōrēs 	#						
-old	neuter	comparative	plural	vetustiōra	vetustiōrum	vetustiōribus	vetustiōra	vetustiōribus	vetustiōra	#						
-old	masculine	superlative	singular	vetustissimus 	vetustissimī 	vetustissimō 	vetustissimum 	vetustissimō 	vetustissime 	#						
-old	feminine	superlative	singular	vetustissima 	vetustissimae 	vetustissimae 	vetustissimam 	vetustissimā 	vetustissima 	#						
-old	neuter	superlative	singular	vetustissimum	vetustissimī	vetustissimō	vetustissimum	vetustissimō	vetustissimum 	#						
-old	masculine	superlative	plural	vetustissimī 	vetustissimōrum 	vetustissimīs	vetustissimōs 	vetustissimīs	vetustissimī 	#						
-old	feminine	superlative	plural	vetustissimae 	vetustissimārum 	vetustissimīs	vetustissimās 	vetustissimīs	vetustissimae 	#						
-old	neuter	superlative	plural	vetustissima	vetustissimōrum	vetustissimīs	vetustissima	vetustissimīs	vetustissima 	#						
-nimble	masculine	positive	singular	agilis	agilis	agilī	agilem	agilī	agilis 	#	3, two endings					
-nimble	feminine	positive	singular	agilis	agilis	agilī	agilem	agilī	agilis 	#	3, two endings					
-nimble	neuter	positive	singular	agile	agilis	agilī	agile	agilī	agile	#	3, two endings					
-nimble	masculine	positive	plural	agilēs	agilium	agilibus	agilēs|agilīs	agilibus	agilēs 	#	3, two endings					
-nimble	feminine	positive	plural	agilēs	agilium	agilibus	agilēs|agilīs	agilibus	agilēs 	#	3, two endings					
-nimble	neuter	positive	plural	agilia	agilium	agilibus	agilia	agilibus	agilia	#	3, two endings					
-nimble	masculine	comparative	singular	❕	❕	❕	❕	❕	❕	#						
-nimble	feminine	comparative	singular	❕	❕	❕	❕	❕	❕	#						
-nimble	neuter	comparative	singular	❕	❕	❕	❕	❕	❕	#						
-nimble	masculine	comparative	plural	❕	❕	❕	❕	❕	❕	#						
-nimble	feminine	comparative	plural	❕	❕	❕	❕	❕	❕	#						
-nimble	neuter	comparative	plural	❕	❕	❕	❕	❕	❕	#						
-nimble	masculine	superlative	singular	❕	❕	❕	❕	❕	❕	#						
-nimble	feminine	superlative	singular	❕	❕	❕	❕	❕	❕	#						
-nimble	neuter	superlative	singular	❕	❕	❕	❕	❕	❕	#						
-nimble	masculine	superlative	plural	❕	❕	❕	❕	❕	❕	#						
-nimble	feminine	superlative	plural	❕	❕	❕	❕	❕	❕	#						
-nimble	neuter	superlative	plural	❕	❕	❕	❕	❕	❕	#						
-swift	masculine	positive	singular	celer	celeris	celerī	celerem	celerī	celer 	#	3, three endings					
-swift	feminine	positive	singular	celeris	celeris	celerī	celerem	celerī	celeris	#	3, three endings					
-swift	neuter	positive	singular	celere	celeris	celerī	celere	celerī	celere	#	3, three endings					
-swift	masculine	positive	plural	celerēs	celerium	celeribus	celerēs	celeribus	celerēs 	#	3, three endings					
-swift	feminine	positive	plural	celerēs	celerium	celeribus	celerēs	celeribus	celerēs 	#	3, three endings					
-swift	neuter	positive	plural	celeria	celerium	celeribus	celeria	celeribus	celeria	#	3, three endings					
-swift	masculine	comparative	singular	❕	❕	❕	❕	❕	❕	#						
-swift	feminine	comparative	singular	❕	❕	❕	❕	❕	❕	#						
-swift	neuter	comparative	singular	❕	❕	❕	❕	❕	❕	#						
-swift	masculine	comparative	plural	❕	❕	❕	❕	❕	❕	#						
-swift	feminine	comparative	plural	❕	❕	❕	❕	❕	❕	#						
-swift	neuter	comparative	plural	❕	❕	❕	❕	❕	❕	#						
-swift	masculine	superlative	singular	❕	❕	❕	❕	❕	❕	#						
-swift	feminine	superlative	singular	❕	❕	❕	❕	❕	❕	#						
-swift	neuter	superlative	singular	❕	❕	❕	❕	❕	❕	#						
-swift	masculine	superlative	plural	❕	❕	❕	❕	❕	❕	#						
-swift	feminine	superlative	plural	❕	❕	❕	❕	❕	❕	#						
-swift	neuter	superlative	plural	❕	❕	❕	❕	❕	❕	#						
-jovial	masculine	positive	singular	alacer	alacris	alacrī	alacrem	alacrī	alacer 	#	3, three endings					
-jovial	feminine	positive	singular	alacris	alacris	alacrī	alacrem	alacrī	alacris	#	3, three endings					
-jovial	neuter	positive	singular	alacre	alacris	alacrī	alacre	alacrī	alacre	#	3, three endings					
-jovial	masculine	positive	plural	alacrēs	alacrium	alacribus	alacrēs	alacribus	alacrēs 	#	3, three endings					
-jovial	feminine	positive	plural	alacrēs	alacrium	alacribus	alacrēs	alacribus	alacrēs 	#	3, three endings					
-jovial	neuter	positive	plural	alacria	alacrium	alacribus	alacria	alacribus	alacria	#	3, three endings					
-jovial	masculine	comparative	singular	alacrior	alacriōris	alacriōrī	alacriōrem	alacriōre	alacrior 	#						
-jovial	feminine	comparative	singular	alacrior	alacriōris	alacriōrī	alacriōrem	alacriōre	alacrior 	#						
-jovial	neuter	comparative	singular	alacrior	alacriōris	alacriōrī	alacrius	alacriōre	alacrius	#						
-jovial	masculine	comparative	plural	alacriōrēs	alacriōrum	alacriōribus	alacriōrēs	alacriōribus	alacriōrēs 	#						
-jovial	feminine	comparative	plural	alacriōrēs	alacriōrum	alacriōribus	alacriōrēs	alacriōribus	alacriōrēs 	#						
-jovial	neuter	comparative	plural	alacriōrēs	alacriōrum	alacriōribus	alacriōra	alacriōribus	alacriōra	#						
-jovial	masculine	superlative	singular	alacerrimus	❔	❔	❔	❔	❔	#						
-jovial	feminine	superlative	singular	❔	❔	❔	❔	❔	❔	#						
-jovial	neuter	superlative	singular	❔	❔	❔	❔	❔	❔	#						
-jovial	masculine	superlative	plural	❔	❔	❔	❔	❔	❔	#						
-jovial	feminine	superlative	plural	❔	❔	❔	❔	❔	❔	#						
-jovial	neuter	superlative	plural	❔	❔	❔	❔	❔	❔	#						
+*	*	*	masculine	feminine	neuter	masculine	feminine	neuter
+*	*	*	positive	positive	positive	positive	positive	positive
+*	*	*	singular	singular	singular	plural	plural	plural
+tall	positive	nominative	altus 	alta 	altum 	altī 	altae 	alta
+tall	positive	genitive  	altī 	altae 	altī 	altōrum 	altārum 	altōrum
+tall	positive	dative    	altō 	altae 	altō 	altīs	altīs	altīs
+tall	positive	accusative	altum 	altam 	altum 	altōs 	altās 	alta
+tall	positive	ablative  	altō 	altā 	altō 	altīs	altīs	altīs
+tall	positive	vocative  	alte 	alta 	altum 	altī 	altae 	alta
+tall	positive	locative	—	—	—	—	—	—
+tall	comparative	nominative	altior	altior	altius	altiōrēs	altiōrēs	altiōra
+tall	comparative	genitive  	altiōris	altiōris	altiōris	altiōrum	altiōrum	altiōrum
+tall	comparative	dative    	altiōrī	altiōrī	altiōrī	altiōribus	altiōribus	altiōribus
+tall	comparative	accusative	altiōrem	altiōrem	altius	altiōrēs	altiōrēs	altiōra
+tall	comparative	ablative  	altiōre	altiōre	altiōre	altiōribus	altiōribus	altiōribus
+tall	comparative	vocative  	altior 	altior 	altius	altiōrēs 	altiōrēs 	altiōra
+tall	comparative	locative	—	—	—	—	—	—
+tall	superlative	nominative	altissimus	altissima	altissimum	altissimī	altissimae	altissima
+tall	superlative	genitive  	altissimī	altissimae	altissimī	altissimōrum	altissimārum 	altissimōrum 
+tall	superlative	dative    	altissimō	altissimae	altissimō	altissimīs	altissimārum 	altissimōrum 
+tall	superlative	accusative	altissimum	altissimam	altissimum	altissimōs	altissimās	altissima
+tall	superlative	ablative  	altissimō	altissimā	altissimō	altissimīs	altissimīs	altissimīs
+tall	superlative	vocative  	altissime 	altissima 	altissimum 	altissimī 	altissimae	altissima
+tall	superlative	locative	—	—	—	—	—	—
+holy	positive	nominative	sacer 	sacra 	sacrum 	sacrī 	sacrae 	sacra
+holy	positive	genitive  	sacrī 	sacrae 	sacrī 	sacrōrum 	sacrārum 	sacrōrum
+holy	positive	dative    	sacrō 	sacrae 	sacrō 	sacrīs	sacrīs	sacrīs
+holy	positive	accusative	sacrum 	sacram 	sacrum 	sacrōs 	sacrās 	sacra
+holy	positive	ablative  	sacrō 	sacrā 	sacrō 	sacrīs	sacrīs	sacrīs
+holy	positive	vocative  	sacer 	sacra 	sacrum 	sacrī 	sacrae 	sacra
+holy	positive	locative	—	—	—	—	—	—
+holy	comparative	nominative	sacrior	❔	❔	❔	❔	❔
+holy	comparative	genitive  	❔	❔	❔	❔	❔	❔
+holy	comparative	dative    	❔	❔	❔	❔	❔	❔
+holy	comparative	accusative	❔	❔	❔	❔	❔	❔
+holy	comparative	ablative  	❔	❔	❔	❔	❔	❔
+holy	comparative	vocative  	❔	❔	❔	❔	❔	❔
+holy	comparative	locative	—	—	—	—	—	—
+holy	superlative	nominative	sacerrimus	sacerrima	sacerrimum	sacerrimī	sacerrimae	sacerrima
+holy	superlative	genitive  	sacerrimī	sacerrimae	sacerrimī	sacerrimōrum	sacerrimārum 	sacerrimōrum 
+holy	superlative	dative    	sacerrimō	sacerrimae	sacerrimō	sacerrimīs	sacerrimīs	sacerrimīs
+holy	superlative	accusative	sacerrimum	sacerrimam	sacerrimum	sacerrimōs 	sacerrimās 	sacerrima 
+holy	superlative	ablative  	sacerrimō	sacerrimā	sacerrimō	sacerrimīs	sacerrimīs	sacerrimīs
+holy	superlative	vocative  	sacerrime 	sacerrima 	sacerrimum 	sacerrimī 	sacerrimae 	sacerrima 
+holy	superlative	locative	—	—	—	—	—	—
+poor	positive	nominative	miser 	misera 	miserum 	miserī 	miserae 	misera
+poor	positive	genitive  	miserī 	miserae 	miserī 	miserōrum 	miserārum 	miserōrum
+poor	positive	dative    	miserō 	miserae 	miserō 	miserīs	miserīs	miserīs
+poor	positive	accusative	miserum 	miseram 	miserum 	miserōs 	miserās 	misera
+poor	positive	ablative  	miserō 	miserā 	miserō 	miserīs	miserīs	miserīs
+poor	positive	vocative  	miser 	misera 	miserum 	miserī 	miserae 	misera
+poor	positive	locative	—	—	—	—	—	—
+poor	comparative	nominative	miserior	miserior	miserius	miseriōrēs	miseriōrēs	miseriōra
+poor	comparative	genitive  	miseriōris	miseriōris	miseriōris	miseriōrum	miseriōrum	miseriōrum
+poor	comparative	dative    	miseriōrī	miseriōrī	miseriōrī	miseriōribus	miseriōribus	miseriōribus
+poor	comparative	accusative	miseriōrem	miseriōrem	miserius	miseriōrēs	miseriōrēs	miseriōra
+poor	comparative	ablative  	miseriōre	miseriōre	miseriōre	miseriōribus	miseriōribus	miseriōribus
+poor	comparative	vocative  	miserior 	miserior 	miserius	miseriōrēs 	miseriōrēs 	miseriōra
+poor	comparative	locative	—	—	—	—	—	—
+poor	superlative	nominative	miserrimus 	miserrima 	miserrimum	miserrimī 	miserrimae 	miserrima
+poor	superlative	genitive  	miserrimī 	miserrimae 	miserrimī	miserrimōrum 	miserrimārum 	miserrimōrum
+poor	superlative	dative    	miserrimō 	miserrimae 	miserrimō	miserrimīs	miserrimīs	miserrimīs
+poor	superlative	accusative	miserrimum 	miserrimam 	miserrimum	miserrimōs 	miserrimās 	miserrima
+poor	superlative	ablative  	miserrimō 	miserrimā 	miserrimō	miserrimīs	miserrimīs	miserrimīs
+poor	superlative	vocative  	miserrime 	miserrima 	miserrimum 	miserrimī 	miserrimae 	miserrima 
+poor	superlative	locative	—	—	—	—	—	—
+mean	positive	nominative	atrōx	atrōx	atrōx	atrōcēs	atrōcēs	atrōcia
+mean	positive	genitive  	atrōcis	atrōcis	atrōcis	atrōcium	atrōcium	atrōcium
+mean	positive	dative    	atrōcī	atrōcī	atrōcī	atrōcibus	atrōcibus	atrōcibus
+mean	positive	accusative	atrōcem	atrōcem	atrōx	atrōcēs	atrōcēs	atrōcia
+mean	positive	ablative  	atrōcī	atrōcī	atrōcī	atrōcibus	atrōcibus	atrōcibus
+mean	positive	vocative  	atrōx 	atrōx 	atrōx 	atrōcēs 	atrōcēs 	atrōcia
+mean	positive	locative	—	—	—	—	—	—
+mean	comparative	nominative	atrōcior	atrōcior	atrōcius	atrōciōrēs	atrōciōrēs	atrōciōra
+mean	comparative	genitive  	atrōciōris	atrōciōris	atrōciōris	atrōciōrum	atrōciōrum	atrōciōrum
+mean	comparative	dative    	atrōciōrī	atrōciōrī	atrōciōrī	atrōciōribus	atrōciōribus	atrōciōribus
+mean	comparative	accusative	atrōciōrem	atrōciōrem	atrōcius	atrōciōrēs	atrōciōrēs	atrōciōra
+mean	comparative	ablative  	atrōciōre	atrōciōre	atrōciōre	atrōciōribus	atrōciōribus	atrōciōribus
+mean	comparative	vocative  	atrōcior 	atrōcior 	atrōcius	atrōciōrēs 	atrōciōrēs 	atrōciōra
+mean	comparative	locative	—	—	—	—	—	—
+mean	superlative	nominative	atrōcissimus	atrōcissima	atrōcissimum	atrōcissimī	atrōcissimae	atrōcissima
+mean	superlative	genitive  	atrōcissimī	atrōcissimae	atrōcissimī	atrōcissimōrum	atrōcissimārum 	atrōcissimōrum 
+mean	superlative	dative    	atrōcissimō	atrōcissimae	atrōcissimō	atrōcissimīs	atrōcissimīs	atrōcissimīs
+mean	superlative	accusative	atrōcissimum	atrōcissimam	atrōcissimum	atrōcissimōs 	atrōcissimās 	atrōcissima 
+mean	superlative	ablative  	atrōcissimō	atrōcissimā	atrōcissimō	atrōcissimīs	atrōcissimīs	atrōcissimīs
+mean	superlative	vocative  	atrōcissime 	atrōcissima 	atrōcissimum 	atrōcissimī 	atrōcissimae 	atrōcissima 
+mean	superlative	locative	—	—	—	—	—	—
+old	positive	nominative	vetus	vetus	vetus	veterēs	veterēs	vetera
+old	positive	genitive  	veteris	veteris	veteris	veterum	veterum	veterum
+old	positive	dative    	veterī	veterī	veterī	veteribus	veteribus	veteribus
+old	positive	accusative	veterem	veterem	vetus	veterēs	veterēs	vetera
+old	positive	ablative  	vetere	vetere	vetere	veteribus	veteribus	veteribus
+old	positive	vocative  	vetus 	vetus 	vetus 	veterēs 	veterēs 	vetera
+old	positive	locative	—	—	—	—	—	—
+old	comparative	nominative	vetustior	vetustior	vetustius	vetustiōrēs	vetustiōrēs	vetustiōra
+old	comparative	genitive  	vetustiōris	vetustiōris	vetustiōris	vetustiōrum	vetustiōrum	vetustiōrum
+old	comparative	dative    	vetustiōrī	vetustiōrī	vetustiōrī	vetustiōribus	vetustiōribus	vetustiōribus
+old	comparative	accusative	vetustiōrem	vetustiōrem	vetustius	vetustiōrēs	vetustiōrēs	vetustiōra
+old	comparative	ablative  	vetustiōre	vetustiōre	vetustiōre	vetustiōribus	vetustiōribus	vetustiōribus
+old	comparative	vocative  	vetustior 	vetustior 	vetustius	vetustiōrēs 	vetustiōrēs 	vetustiōra
+old	comparative	locative	—	—	—	—	—	—
+old	superlative	nominative	vetustissimus 	vetustissima 	vetustissimum	vetustissimī 	vetustissimae 	vetustissima
+old	superlative	genitive  	vetustissimī 	vetustissimae 	vetustissimī	vetustissimōrum 	vetustissimārum 	vetustissimōrum
+old	superlative	dative    	vetustissimō 	vetustissimae 	vetustissimō	vetustissimīs	vetustissimīs	vetustissimīs
+old	superlative	accusative	vetustissimum 	vetustissimam 	vetustissimum	vetustissimōs 	vetustissimās 	vetustissima
+old	superlative	ablative  	vetustissimō 	vetustissimā 	vetustissimō	vetustissimīs	vetustissimīs	vetustissimīs
+old	superlative	vocative  	vetustissime 	vetustissima 	vetustissimum 	vetustissimī 	vetustissimae 	vetustissima 
+old	superlative	locative	—	—	—	—	—	—
+nimble	positive	nominative	agilis	agilis	agile	agilēs	agilēs	agilia
+nimble	positive	genitive  	agilis	agilis	agilis	agilium	agilium	agilium
+nimble	positive	dative    	agilī	agilī	agilī	agilibus	agilibus	agilibus
+nimble	positive	accusative	agilem	agilem	agile	agilēs|agilīs	agilēs|agilīs	agilia
+nimble	positive	ablative  	agilī	agilī	agilī	agilibus	agilibus	agilibus
+nimble	positive	vocative  	agilis 	agilis 	agile	agilēs 	agilēs 	agilia
+nimble	positive	locative	—	—	—	—	—	—
+nimble	comparative	nominative	❕	❕	❕	❕	❕	❕
+nimble	comparative	genitive  	❕	❕	❕	❕	❕	❕
+nimble	comparative	dative    	❕	❕	❕	❕	❕	❕
+nimble	comparative	accusative	❕	❕	❕	❕	❕	❕
+nimble	comparative	ablative  	❕	❕	❕	❕	❕	❕
+nimble	comparative	vocative  	❕	❕	❕	❕	❕	❕
+nimble	comparative	locative	—	—	—	—	—	—
+nimble	superlative	nominative	❕	❕	❕	❕	❕	❕
+nimble	superlative	genitive  	❕	❕	❕	❕	❕	❕
+nimble	superlative	dative    	❕	❕	❕	❕	❕	❕
+nimble	superlative	accusative	❕	❕	❕	❕	❕	❕
+nimble	superlative	ablative  	❕	❕	❕	❕	❕	❕
+nimble	superlative	vocative  	❕	❕	❕	❕	❕	❕
+nimble	superlative	locative	—	—	—	—	—	—
+swift	positive	nominative	celer	celeris	celere	celerēs	celerēs	celeria
+swift	positive	genitive  	celeris	celeris	celeris	celerium	celerium	celerium
+swift	positive	dative    	celerī	celerī	celerī	celeribus	celeribus	celeribus
+swift	positive	accusative	celerem	celerem	celere	celerēs	celerēs	celeria
+swift	positive	ablative  	celerī	celerī	celerī	celeribus	celeribus	celeribus
+swift	positive	vocative  	celer 	celeris	celere	celerēs 	celerēs 	celeria
+swift	positive	locative	—	—	—	—	—	—
+swift	comparative	nominative	❕	❕	❕	❕	❕	❕
+swift	comparative	genitive  	❕	❕	❕	❕	❕	❕
+swift	comparative	dative    	❕	❕	❕	❕	❕	❕
+swift	comparative	accusative	❕	❕	❕	❕	❕	❕
+swift	comparative	ablative  	❕	❕	❕	❕	❕	❕
+swift	comparative	vocative  	❕	❕	❕	❕	❕	❕
+swift	comparative	locative	—	—	—	—	—	—
+swift	superlative	nominative	❕	❕	❕	❕	❕	❕
+swift	superlative	genitive  	❕	❕	❕	❕	❕	❕
+swift	superlative	dative    	❕	❕	❕	❕	❕	❕
+swift	superlative	accusative	❕	❕	❕	❕	❕	❕
+swift	superlative	ablative  	❕	❕	❕	❕	❕	❕
+swift	superlative	vocative  	❕	❕	❕	❕	❕	❕
+swift	superlative	locative	—	—	—	—	—	—
+jovial	positive	nominative	alacer	alacris	alacre	alacrēs	alacrēs	alacria
+jovial	positive	genitive  	alacris	alacris	alacris	alacrium	alacrium	alacrium
+jovial	positive	dative    	alacrī	alacrī	alacrī	alacribus	alacribus	alacribus
+jovial	positive	accusative	alacrem	alacrem	alacre	alacrēs	alacrēs	alacria
+jovial	positive	ablative  	alacrī	alacrī	alacrī	alacribus	alacribus	alacribus
+jovial	positive	vocative  	alacer 	alacris	alacre	alacrēs 	alacrēs 	alacria
+jovial	positive	locative	—	—	—	—	—	—
+jovial	comparative	nominative	alacrior	alacrior	alacrior	alacriōrēs	alacriōrēs	alacriōrēs
+jovial	comparative	genitive  	alacriōris	alacriōris	alacriōris	alacriōrum	alacriōrum	alacriōrum
+jovial	comparative	dative    	alacriōrī	alacriōrī	alacriōrī	alacriōribus	alacriōribus	alacriōribus
+jovial	comparative	accusative	alacriōrem	alacriōrem	alacrius	alacriōrēs	alacriōrēs	alacriōra
+jovial	comparative	ablative  	alacriōre	alacriōre	alacriōre	alacriōribus	alacriōribus	alacriōribus
+jovial	comparative	vocative  	alacrior 	alacrior 	alacrius	alacriōrēs 	alacriōrēs 	alacriōra
+jovial	comparative	locative	—	—	—	—	—	—
+jovial	superlative	nominative	alacerrimus	❔	❔	❔	❔	❔
+jovial	superlative	genitive  	❔	❔	❔	❔	❔	❔
+jovial	superlative	dative    	❔	❔	❔	❔	❔	❔
+jovial	superlative	accusative	❔	❔	❔	❔	❔	❔
+jovial	superlative	ablative  	❔	❔	❔	❔	❔	❔
+jovial	superlative	vocative  	❔	❔	❔	❔	❔	❔
+jovial	superlative	locative	—	—	—	—	—	—
+strong	positive	nominative	firmus 	firma 	firmum	firmī 	firmae 	firma
+strong	positive	genitive  	firmī 	firmae 	firmī	firmōrum 	firmārum 	firmōrum
+strong	positive	dative    	firmō 	firmae 	firmō	firmīs	firmīs	firmīs
+strong	positive	accusative	firmum 	firmam 	firmum	firmōs 	firmās 	firma
+strong	positive	ablative  	firmō 	firmā 	firmō	firmīs	firmīs	firmīs
+strong	positive	vocative  	firme 	firma 	firmum 	firmī 	firmae 	firma 
+strong	positive	locative	—	—	—	—	—	—
+angry	positive	nominative						
+angry	positive	genitive  						
+angry	positive	dative    						
+angry	positive	accusative	īrātum 	īrātam 	īrātum 	īrātōs 	īrātās 	īrāta 
+angry	positive	ablative  						
+angry	positive	vocative  	—	—	—	—	—	—
+angry	positive	locative	—	—	—	—	—	—
+falling	positive	nominative						
+falling	positive	genitive  						
+falling	positive	dative    						
+falling	positive	accusative	cadentem 	cadentem 	cadēns	cadentēs,cadentīs 	cadentēs,cadentīs 	cadentia
+falling	positive	ablative  						
+falling	positive	vocative  	—	—	—	—	—	—
+falling	positive	locative	—	—	—	—	—	—
+big	positive	nominative	magnus 	magna 	magnum	magnī 	magnae 	magna
+big	positive	genitive  	magnī 	magnae 	magnī	magnōrum 	magnārum 	magnōrum 
+big	positive	dative    	magnō 	magnae 	magnō	magnīs	magnīs	magnīs
+big	positive	accusative	magnum 	magnam 	magnum	magnōs 	magnās 	magna 
+big	positive	ablative  	magnō 	magnā 	magnō	magnīs	magnīs	magnīs
+big	positive	vocative  	magne 	magna 	magnum	magnī 	magnae 	magna 
+big	positive	locative	magnī 	magnae 	magnī 	magnīs	magnīs	magnīs
+well	positive	nominative						
+well	positive	genitive  						
+well	positive	dative    						
+well	positive	accusative	bonum 	bonam 	bonum	bonōs 	bonās 	bona
+well	positive	ablative  						
+well	positive	vocative  						
+well	positive	locative						
+good	positive	nominative						
+good	positive	genitive  						
+good	positive	dative    						
+good	positive	accusative	bonum 	bonam 	bonum	bonōs 	bonās 	bona
+good	positive	ablative  						
+good	positive	vocative  						
+good	positive	locative						
+bad	positive	nominative						
+bad	positive	genitive  						
+bad	positive	dative    						
+bad	positive	accusative	malum 	malam 	malum 	malōs 	malās 	mala
+bad	positive	ablative  						
+bad	positive	vocative  						
+bad	positive	locative						
+loud	positive	nominative	magnus 	magnum	magnae 	magna 	magnī 	magna
+loud	positive	genitive  	magnī 	magnī	magnārum 	magnae 	magnōrum 	magnōrum 
+loud	positive	dative    	magnō 	magnō	magnīs	magnae 	magnīs	magnīs
+loud	positive	accusative	magnum 	magnum	magnās 	magnam 	magnōs 	magna 
+loud	positive	ablative  	magnō 	magnō	magnīs	magnā 	magnīs	magnīs
+loud	positive	vocative  	magne 	magnum	magnae 	magna 	magnī 	magna 
+loud	positive	locative	magnī 	magnī 	magnīs	magnae 	magnīs	magnīs
+first	positive	nominative	prīmus	prīma	prīmum	prīmī	prīmae	prīma
+first	positive	genitive	prīmī	prīmae	prīmī	prīmōrum	prīmārum	prīmōrum
+first	positive	dative	prīmō	prīmae	prīmō	prīmīs	prīmīs	prīmīs
+first	positive	accusative	prīmum	prīmam	prīmum	prīmōs	prīmās	prīma
+first	positive	ablative	prīmō	prīmā	prīmō	prīmīs	prīmīs	prīmīs
+first	positive	vocative	prīme	prīma	prīmum	prīmī	prīmae	prīma
+second	positive	nominative	secundus	secunda	secundum	secundī	secundae	secunda
+second	positive	genitive	secundī	secundae	secundī	secundōrum	secundārum	secundōrum
+second	positive	dative	secundō	secundae	secundō	secundīs	secundīs	secundīs
+second	positive	accusative	secundum	secundam	secundum	secundōs	secundās	secunda
+second	positive	ablative	secundō	secundā	secundō	secundīs	secundīs	secundīs
+second	positive	vocative	secunde	secunda	secundum	secundī	secundae	secunda
+big	positive	nominative	magnus	magna	magnum	magnī	magnae	magna
+big	positive	genitive	magnī	magnae	magnī	magnōrum	magnārum	magnōrum
+big	positive	dative	magnō	magnae	magnō	magnīs	magnīs	magnīs
+big	positive	accusative	magnum	magnam	magnum	magnōs	magnās	magna
+big	positive	ablative	magnō	magnā	magnō	magnīs	magnīs	magnīs
+big	positive	vocative	magne	magna	magnum	magnī	magnae	magna
+big	positive	locative	magnī	magnae	magnī	magnīs	magnīs	magnīs
+small	positive	nominative	parvus	parva	parvum	parvī	parvae	parva
+small	positive	genitive	parvī	parvae	parvī	parvōrum	parvārum	parvōrum
+small	positive	dative	parvō	parvae	parvō	parvīs	parvīs	parvīs
+small	positive	accusative	parvum	parvam	parvum	parvōs	parvās	parva
+small	positive	ablative	parvō	parvā	parvō	parvīs	parvīs	parvīs
+small	positive	vocative	parve	parva	parvum	parvī	parvae	parva
+little	positive	nominative	parvus	parva	parvum	parvī	parvae	parva
+little	positive	genitive	parvī	parvae	parvī	parvōrum	parvārum	parvōrum
+little	positive	dative	parvō	parvae	parvō	parvīs	parvīs	parvīs
+little	positive	accusative	parvum	parvam	parvum	parvōs	parvās	parva
+little	positive	ablative	parvō	parvā	parvō	parvīs	parvīs	parvīs
+little	positive	vocative	parve	parva	parvum	parvī	parvae	parva
+loud	positive	nominative	magnus	magna	magnum	magnī	magnae	magna
+loud	positive	genitive	magnī	magnae	magnī	magnōrum	magnārum	magnōrum
+loud	positive	dative	magnō	magnae	magnō	magnīs	magnīs	magnīs
+loud	positive	accusative	magnum	magnam	magnum	magnōs	magnās	magna
+loud	positive	ablative	magnō	magnā	magnō	magnīs	magnīs	magnīs
+loud	positive	vocative	magne	magna	magnum	magnī	magnae	magna
+loud	positive	locative	magnī	magnae	magnī	magnīs	magnīs	magnīs
+strong	positive	nominative	firmus	firma	firmum	firmī	firmae	firma
+strong	positive	genitive	firmī	firmae	firmī	firmōrum	firmārum	firmōrum
+strong	positive	dative	firmō	firmae	firmō	firmīs	firmīs	firmīs
+strong	positive	accusative	firmum	firmam	firmum	firmōs	firmās	firma
+strong	positive	ablative	firmō	firmā	firmō	firmīs	firmīs	firmīs
+strong	positive	vocative	firme	firma	firmum	firmī	firmae	firma
+good	positive	nominative	bonus	bona	bonum	bonī	bonae	bona
+good	positive	genitive	bonī	bonae	bonī	bonōrum	bonārum	bonōrum
+good	positive	dative	bonō	bonae	bonō	bonīs	bonīs	bonīs
+good	positive	accusative	bonum	bonam	bonum	bonōs	bonās	bona
+good	positive	ablative	bonō	bonā	bonō	bonīs	bonīs	bonīs
+good	positive	vocative	bone	bona	bonum	bonī	bonae	bona
+bad	positive	nominative	malus	mala	malum	malī	malae	mala
+bad	positive	genitive	malī	malae	malī	malōrum	malārum	malōrum
+bad	positive	dative	malō	malae	malō	malīs	malīs	malīs
+bad	positive	accusative	malum	malam	malum	malōs	malās	mala
+bad	positive	ablative	malō	malā	malō	malīs	malīs	malīs
+bad	positive	vocative	male	mala	malum	malī	malae	mala
+happy	positive	nominative	laetus	laeta	laetum	laetī	laetae	laeta
+happy	positive	genitive	laetī	laetae	laetī	laetōrum	laetārum	laetōrum
+happy	positive	dative	laetō	laetae	laetō	laetīs	laetīs	laetīs
+happy	positive	accusative	laetum	laetam	laetum	laetōs	laetās	laeta
+happy	positive	ablative	laetō	laetā	laetō	laetīs	laetīs	laetīs
+happy	positive	vocative	laete	laeta	laetum	laetī	laetae	laeta
+sad	positive	nominative	trīstis	trīstis	trīste	trīstēs	trīstēs	trīstia
+sad	positive	genitive	trīstis	trīstis	trīstis	trīstium	trīstium	trīstium
+sad	positive	dative	trīstī	trīstī	trīstī	trīstibus	trīstibus	trīstibus
+sad	positive	accusative	trīstem	trīstem	trīste	trīstīstrīstēs	trīstīstrīstēs	trīstia
+sad	positive	ablative	trīstī	trīstī	trīstī	trīstibus	trīstibus	trīstibus
+sad	positive	vocative	trīstis	trīstis	trīste	trīstēs	trīstēs	trīstia
+bright	positive	nominative	lūcidus	lūcida	lūcidum	lūcidī	lūcidae	lūcida
+bright	positive	genitive	lūcidī	lūcidae	lūcidī	lūcidōrum	lūcidārum	lūcidōrum
+bright	positive	dative	lūcidō	lūcidae	lūcidō	lūcidīs	lūcidīs	lūcidīs
+bright	positive	accusative	lūcidum	lūcidam	lūcidum	lūcidōs	lūcidās	lūcida
+bright	positive	ablative	lūcidō	lūcidā	lūcidō	lūcidīs	lūcidīs	lūcidīs
+bright	positive	vocative	lūcide	lūcida	lūcidum	lūcidī	lūcidae	lūcida
+broken	positive	nominative	frāctus	frācta	frāctum	frāctī	frāctae	frācta
+broken	positive	genitive	frāctī	frāctae	frāctī	frāctōrum	frāctārum	frāctōrum
+broken	positive	dative	frāctō	frāctae	frāctō	frāctīs	frāctīs	frāctīs
+broken	positive	accusative	frāctum	frāctam	frāctum	frāctōs	frāctās	frācta
+broken	positive	ablative	frāctō	frāctā	frāctō	frāctīs	frāctīs	frāctīs
+broken	positive	vocative	frācte	frācta	frāctum	frāctī	frāctae	frācta
+red	positive	nominative	rubeus	rubea	rubeum	rubeī	rubeae	rubea
+red	positive	genitive	rubeī	rubeae	rubeī	rubeōrum	rubeārum	rubeōrum
+red	positive	dative	rubeō	rubeae	rubeō	rubeīs	rubeīs	rubeīs
+red	positive	accusative	rubeum	rubeam	rubeum	rubeōs	rubeās	rubea
+red	positive	ablative	rubeō	rubeā	rubeō	rubeīs	rubeīs	rubeīs
+red	positive	vocative	rubee	rubea	rubeum	rubeī	rubeae	rubea

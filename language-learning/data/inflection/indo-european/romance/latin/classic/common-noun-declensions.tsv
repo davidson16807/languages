@@ -1,191 +1,866 @@
-*	*	*	nominative	genitive	dative	accusative	ablative	vocative	locative	#	*	declension	ending	etymology	
-man	singular		homō       	hominis    	hominī     	hominem    	homine	homō	homine     	#	masculine	3	consonant	latin	# note: words with latin etymology come before those with greek etymology 
-man	plural		hominēs      	hominum      	hominibus    	hominēs      	hominibus    	hominēs      	hominibus    	#	masculine	3	consonant	latin	# since they are more common and easier to learn on average.
-day	singular		diēs       	diēī       	diēī       	diem       	diē        	diēs       	—	#		5         	-iēs        	latin    	# declensions are ordered by frequency, so the most useful declensions can be prioritized in case the user quits early          
-day	plural		diēs	diērum	diēbus       	diēs         	diēbus       	diēs	—	#		5         	-iēs        	latin    	
-hand       	singular		manus      	manūs      	manuī      	manum      	manū       	manus      	—	#	masculine	4         	-us         	latin    	
-hand       	plural		manūs        	manuum       	manibus      	manūs        	manibus      	manūs	—	#	masculine	4         	-us         	latin    	
-night	singular		nox        	noctis     	noctī      	noctem     	nocte      	nox        	noctī      	#	feminine	3         	mixed -i    	latin    	
-night	plural		noctēs       	noctium      	noctibus     	noctēs       	noctibus     	noctēs       	noctibus     	#	feminine	3         	mixed -i    	latin    	
-thing      	singular		rēs        	reī        	reī        	rem        	rē         	rēs        	—	#	feminine	5         	-ēs         	latin    	
-thing      	plural		rēs          	rērum        	rēbus        	rēs          	rēbus        	rēs	—	#	feminine	5         	-ēs         	latin    	
-name       	singular		nōmen      	nōminis    	nōminī     	nōmen      	nōmine     	nōmen      	nōminī     	#	neuter	3         	consonant   	latin    	
-name       	plural		nōmina       	nōminum      	nōminibus    	nōmina       	nōminibus    	nōmina       	nōminibus    	#	neuter	3         	consonant   	latin    	
-son        	singular		fīlius     	fīliī      	fīliō      	fīlium     	fīliō      	fīlī       	—	#	masculine	2         	-us         	latin    	
-son        	plural		fīliī        	fīliōrum     	fīliīs       	fīliōs       	fīliīs       	fīliī	—	#	masculine	2         	-us         	latin    	
-war        	singular		bellum     	bellī      	bellō      	bellum     	bellō      	bellum     	bellī      	#	masculine	2         	-um         	latin    	
-war        	plural		bella        	bellōrum     	bellīs       	bella        	bellīs       	bella        	bellīs       	#	masculine	2         	-um         	latin    	
-air        	singular		āēr        	āeris      	āerī       	āera       	āere       	āēr        	āerī       	#	masculine	3         	-i          	greek    	
-air        	plural		āerēs        	āerum        	āeribus      	āerēs        	āeribus      	āerēs        	āēr        	#	masculine	3         	-i          	greek    	
-boy        	singular		puer       	puerī      	puerō      	puerum     	puerō      	puer       	—	#	masculine	2         	-er         	latin    	
-boy        	plural		puerī	puerōrum	puerīs	puerōs	puerīs	puerī	—	#	masculine	2         	-er         	latin    	
-animal     	singular		animal     	animālis   	animālī    	animal     	animālī    	animal     	animālī    	#	neuter	3         	pure -i     	latin    	
-animal     	plural		animālia     	animālium    	animālibus   	animālia     	animālibus   	animālia     	animālibus   	#	neuter	3         	pure -i     	latin    	
-star       	singular		stēlla     	stēllae    	stēllae    	stēllam    	stēllā     	stēlla     	—	#	feminine	1         	-a          	latin    	
-star       	plural		stēllae      	stēllārum    	stēllīs      	stēllās      	stēllīs      	stēllae	—	#	feminine	1         	-a          	latin    	
-tower      	singular		turris     	turris     	turrī      	turrem     	turre      	turris     	turrī      	#	feminine	3         	-i          	latin    	
-tower      	plural		turrēs       	turrium      	turribus     	turrēs|turrīs	turribus     	turrēs       	turribus     	#	feminine	3         	-i          	latin    	
-horn       	singular		cornū      	cornūs     	cornū      	cornū      	cornū      	cornū      	—	#	neuter	4         	-ū          	latin    	
-horn       	plural		cornua       	cornuum      	cornibus     	cornua       	cornibus     	cornua	—	#	neuter	4         	-ū          	latin    	
-sailor     	singular		nauta      	nautae     	nautae     	nautam     	nautā      	nauta      	—	#	masculine	1         	-a          	latin    	
-sailor     	plural		nautae       	nautārum     	nautīs       	nautās       	nautīs       	nautae	—	#	masculine	1         	-a          	latin    	
-foundation 	singular		basis      	basis      	basī       	basim      	basī       	basis      	—	#	feminine	3         	alternate -i	greek    	
-foundation 	plural		basēs        	basium       	basibus      	basēs        	basibus      	basēs	—	#	feminine	3         	alternate -i	greek    	
-echo       	singular		ēchō       	ēchūs      	ēchō       	ēchō       	ēchō       	ēchō       	—	#	neuter	4         	-ū          	greek    	
-echo       	plural		ēchūs	ēchuum	ēchibus	ēchūs	ēchibus	ēchūs	—	#	neuter	4         	-ū          	greek    	
-phenomenon 	singular		phaenomenon	phaenomenī 	phaenomenō 	phaenomenon	phaenomenō 	phaenomenon	—	#	neuter	2         	-on         	greek    	
-phenomenon 	plural		phaenomena   	phaenomenōrum	phaenomenīs  	phaenomena   	phaenomenīs  	phaenomena  	—	#	neuter	2         	-on         	greek    	
-vine       	singular		ampelos    	ampelī     	ampelō     	ampelon    	ampelō     	ampele     	—	#	feminine	2         	-os         	greek    	
-vine       	plural		ampelī       	ampelōrum    	ampelīs      	ampelōs      	ampelīs      	ampelī	—	#	feminine	2         	-os         	greek    	
-myth       	singular		mȳthos     	mȳthī      	mȳthō      	mȳthon     	mȳthō      	mȳthe      	—	#	masculine	2         	-os         	greek    	
-myth       	plural		mȳthī        	mȳthōrum     	mȳthīs       	mȳthōs       	mȳthīs       	mȳthī	—	#	masculine	2         	-os         	greek    	
-atom       	singular		atomus     	atomī      	atomō      	atomum     	atomō      	atome      	—	#	feminine	2         	-us         	greek    	
-atom       	plural		atomī        	atomōrum     	atomīs       	atomōs       	atomīs       	atomī	—	#	feminine	2         	-us         	greek    	
-nymph      	singular		nymphē     	nymphēs    	nymphae    	nymphēn    	nymphē     	nymphē     	—	#	feminine	1         	-ē          	greek    	
-nymph      	plural		nymphae      	nymphārum    	nymphīs      	nymphās      	nymphīs      	nymphae	—	#	feminine	1         	-ē          	greek    	
-comet      	singular		comētēs    	comētae    	comētae    	comētēn    	comētās    	comētē     	—	#	masculine	1         	-ēs         	greek    	
-comet      	plural		comētae      	comētārum    	comētīs      	comētās	comētīs      	comētae	—	#	masculine	1         	-ēs         	greek    	
-the			∅	∅	∅	∅	∅	∅	∅	#					
-woman	singular		fēmina 	fēminae 	fēminae 	fēminam 	fēminā 	fēmina 	—	#	feminine				
-woman	plural		fēminae	fēminārum	fēminīs	fēminās	fēminīs	fēminae	—	#	feminine				
-son	singular		fīlius 	fīliī	fīliō 	fīlium 	fīliō 	fīlī 	—	#	masculine				
-son	plural		fīliī	fīliōrum	fīliīs	fīliōs	fīliīs	fīliī	—	#	masculine				
-daughter	singular		fīlia 	fīliae 	fīliae 	fīliam 	fīliā 	fīlia 	—	#	feminine				
-daughter	plural		fīliae	fīliārum	fīliīs|fīliābus	fīliās	fīliīs|fīliābus	fīliae	—	#	feminine				
-livestock	singular		pecus 	pecoris 	pecorī 	pecus 	pecore 	pecus 	—	#	neuter				
-livestock	plural		pecora	pecorum	pecoribus	pecora	pecoribus	pecora	—	#	neuter				
-well	singular	masculine				bonum 			—	#	masculine				
-well	plural	masculine				bonōs 			—	#	masculine				
-well	singular	feminine				bonam 			—	#	feminine				
-well	plural	feminine				bonās 			—	#	feminine				
-well	singular	neuter				bonum			—	#	neuter				
-well	plural	neuter				bona			—	#	neuter				
-good	singular	masculine				bonum 			—	#	masculine				
-good	plural	masculine				bonōs 			—	#	masculine				
-good	singular	feminine				bonam 			—	#	feminine				
-good	plural	feminine				bonās 			—	#	feminine				
-good	singular	neuter				bonum			—	#	neuter				
-good	plural	neuter				bona			—	#	neuter				
-bad	singular	masculine				malum 			—	#	masculine				
-bad	plural	masculine				malōs 			—	#	masculine				
-bad	singular	feminine				malam 			—	#	feminine				
-bad	plural	feminine				malās 			—	#	feminine				
-bad	singular	neuter				malum 			—	#	neuter				
-bad	plural	neuter				mala			—	#	neuter				
-big	singular	masculine	magnus 	magnī 	magnō 	magnum 	magnō 	magne 	magnī 	#	masculine				
-big	singular	feminine	magna 	magnae 	magnae 	magnam 	magnā 	magna 	magnae 	#	feminine				
-big	singular	neuter	magnum	magnī	magnō	magnum	magnō	magnum	magnī 	#	neuter				
-big	plural	masculine	magnī 	magnōrum 	magnīs	magnōs 	magnīs	magnī 	magnīs	#	masculine				
-big	plural	feminine	magnae 	magnārum 	magnīs	magnās 	magnīs	magnae 	magnīs	#	feminine				
-big	plural	neuter	magna	magnōrum 	magnīs	magna 	magnīs	magna 	magnīs	#	neuter				
-loud	singular	masculine	magnus 	magnī 	magnō 	magnum 	magnō 	magne 	magnī 	#	masculine				
-loud	plural	masculine	magna 	magnae 	magnae 	magnam 	magnā 	magna 	magnae 	#	masculine				
-loud	singular	feminine	magnum	magnī	magnō	magnum	magnō	magnum	magnī 	#	feminine				
-loud	plural	feminine	magnī 	magnōrum 	magnīs	magnōs 	magnīs	magnī 	magnīs	#	feminine				
-loud	singular	neuter	magnae 	magnārum 	magnīs	magnās 	magnīs	magnae 	magnīs	#	neuter				
-loud	plural	neuter	magna	magnōrum 	magnīs	magna 	magnīs	magna 	magnīs	#	neuter				
-sound	singular		sonus						—	#					
-size	singular		magnitūdō						—	#					
-place	singular					locum 			—	#					
-attention	singular		attentiō 	attentiōnis 	attentiōnī 	attentiōnem 	attentiōne 	attentiō 	—	#					
-attention	plural		attentiōnēs	attentiōnum	attentiōnibus	attentiōnēs	attentiōnibus	attentiōnēs 	—						
-hello	singular							salvē	—	#					
-hello	plural							salvēte	—	#					
-thing	singular		rēs 						—	#					
-thing	plural		rēs 						—	#					
-angry	singular	masculine				īrātum 			—	#	masculine				
-angry	plural	masculine				īrātōs 			—	#	masculine				
-angry	singular	feminine 				īrātam 			—	#	feminine 				
-angry	plural	feminine 				īrātās 			—	#	feminine 				
-angry	singular	neuter 				īrātum 			—	#	neuter 				
-angry	plural	neuter 				īrāta 			—	#	neuter 				
-falling	singular	masculine				cadentem 			—	#	masculine				
-falling	plural	masculine				cadentēs,cadentīs 			—	#	masculine				
-falling	singular	feminine 				cadentem 			—	#	feminine 				
-falling	plural	feminine 				cadentēs,cadentīs 			—	#	feminine 				
-falling	singular	neuter 				cadēns			—	#	neuter 				
-falling	plural	neuter 				cadentia			—	#	neuter 				
-wind	singular		ventus 	ventī 	ventō 	ventum 	ventō 	vente 	—	#	masculine	2			
-wind	plural		ventī	ventōrum	ventīs	ventōs	ventīs	ventī 	—	#	masculine	2			
-enemy	singular		inimīcus 	inimīcī 	inimīcō 	inimīcum 	inimīcō 	inimīce 	—	#	masculine				
-enemy	plural		inimīcī	inimīcōrum	inimīcīs	inimīcōs	inimīcīs	inimīcī 	—	#	masculine				
-monster	singular		bēlua 	bēluae 	bēluae 	bēluam 	bēluā 	bēlua 	—	#	feminine				
-monster	plural		bēluae	bēluārum	bēluīs	bēluās	bēluīs	bēluae 	—	#	feminine				
-rock	singular		saxum 	saxī 	saxō 	saxum 	saxō 	saxum 	—	#	neuter				
-rock	plural		saxa	saxōrum	saxīs	saxa	saxīs	saxa 	—	#	neuter				
-book	singular		liber 	librī 	librō 	librum 	librō 	liber 	—	#	masculine	2			
-book	plural		librī	librōrum	librīs	librōs	librīs	librī 	—	#	masculine	2			
-water	singular		aqua 	aquae 	aquae 	aquam 	aquā 	aqua 	—	#	feminine				
-water	plural		aquae	aquārum	aquīs	aquās	aquīs	aquae 	—	#	feminine				
-horse	singular		equus 	equī 	equō 	equum 	equō 	eque 	—	#	masculine				
-horse	plural		equī	equōrum	equīs	equōs	equīs	equī 	—	#	masculine				
-food	singular		cibus 	cibī 	cibō 	cibum 	cibō 	cibe 	—	#	masculine				
-food	plural		cibī	cibōrum	cibīs	cibōs	cibīs	cibī 	—	#	masculine				
-work	singular		labor 	labōris 	labōrī 	labōrem 	labōre 	labor 	—	#	masculine	3			
-work	plural		labōrēs	labōrum	labōribus	labōrēs	labōribus	labōrēs 	—	#	masculine				
-gift	singular		dōnum 	dōnī 	dōnō 	dōnum 	dōnō 	dōnum 	—	#	neuter				
-gift	plural		dōna	dōnōrum	dōnīs	dōna	dōnīs	dōna 	—	#	neuter				
-house	singular		domus 	domūs|domī 	domuī|domō|domū 	domum 	domū|domō 	domus 	domī 	#	feminine				
-house	plural		domūs	domuum|domōrum	domibus	domūs|domōs	domibus	domūs	domibus 	#	feminine				
-ghost	singular		phasma 	phasmatis 	phasmatī 	phasma 	phasmate 	phasma 	—	#	neuter	3			
-ghost	plural		phasmata	phasmatum	phasmatibus	phasmata	phasmatibus	phasmata 	—	#	neuter	3			
-guard	singular		custōs 	custōdis 	custōdī 	custōdem 	custōde 	custōs 	—	#	masculine	3			
-guard	plural		custōdēs	custōdum	custōdibus	custōdēs	custōdibus	custōdēs 	—	#	masculine	3			
-dog	singular		canis 	canis 	canī 	canem 	cane 	canis 	—	#	masculine				
-dog	plural		canēs	canum	canibus	canēs	canibus	canēs 	—	#	masculine				
-dog	singular		canis 	canis 	canī 	canem 	cane 	canis 	—	#	feminine				
-dog	plural		canēs	canum	canibus	canēs	canibus	canēs 	—	#	feminine				
-boat	singular		nāvis 	nāvis 	nāvī 	nāvem|nāvim 	nāve|nāvī 	nāvis 	—	#	feminine				
-boat	plural		nāvēs	nāvium	nāvibus	nāvēs|nāvīs	nāvibus	nāvēs 	—	#	feminine				
-shirt	singular		camisia 	camisiae 	camisiae 	camisiam 	camisiā 	camisia 	—	#	feminine				
-shirt	plural		camisiae	camisiārum	camisiīs	camisiās	camisiīs	camisiae 	—	#	feminine				
-rope	singular		fūnis 	fūnis 	fūnī 	fūnem 	fūne 	fūnis 	—	#	masculine	3	i-stem		
-rope	plural		fūnēs	fūnium	fūnibus	fūnēs|fūnīs	fūnibus	fūnēs 	—	#	masculine	3	i-stem		
-window	singular		fenestra 	fenestrae 	fenestrae 	fenestram 	fenestrā 	fenestra 	—	#	feminine	1			
-window	plural		fenestrae	fenestrārum	fenestrīs	fenestrās	fenestrīs	fenestrae 	—	#	feminine	1			
-drum	singular		tympanum 	tympanī 	tympanō 	tympanum 	tympanō 	tympanum 	—	#	neuter	2			
-drum	plural		tympana	tympanōrum	tympanīs	tympana	tympanīs	tympana 	—	#	neuter	2			
-picture	singular		pictūra 	pictūrae 	pictūrae 	pictūram 	pictūrā 	pictūra 	—	#	feminine	1			
-picture	plural		pictūrae	pictūrārum	pictūrīs	pictūrās	pictūrīs	pictūrae 	—	#	feminine	1			
-car	singular		carrus 	carrī 	carrō 	carrum 	carrō 	carre 	—	#	masculine	2			
-car	plural		carrī	carrōrum	carrīs	carrōs	carrīs	carrī 	—	#	masculine	2			
-cart	singular		carrus 	carrī 	carrō 	carrum 	carrō 	carre 	—	#	masculine	2			
-cart	plural		carrī	carrōrum	carrīs	carrōs	carrīs	carrī 	—	#	masculine	2			
-oath	singular		iūrāmentum 	iūrāmentī 	iūrāmentō 	iūrāmentum 	iūrāmentō 	iūrāmentum 	—	#	neuter	2			
-oath	plural		iūrāmenta	iūrāmentōrum	iūrāmentīs	iūrāmenta	iūrāmentīs	iūrāmenta 	—	#	neuter	2			
-strong	singular	masculine 	firmus 	firmī 	firmō 	firmum 	firmō 	firme 	—	#	masculine 	2			
-strong	singular	feminine 	firma 	firmae 	firmae 	firmam 	firmā 	firma 	—	#	feminine 	1			
-strong	singular	neuter 	firmum	firmī	firmō	firmum	firmō	firmum 	—	#	neuter 	2			
-strong	plural	masculine 	firmī 	firmōrum 	firmīs	firmōs 	firmīs	firmī 	—	#	masculine 	2			
-strong	plural	feminine 	firmae 	firmārum 	firmīs	firmās 	firmīs	firmae 	—	#	feminine 	1			
-strong	plural	neuter 	firma	firmōrum	firmīs	firma	firmīs	firma 	—	#	neuter 	2			
-bug	singular		cīmex	cīmicis	cīmicī	cīmicem	cīmice	cīmex	—	#	masculine 	3			
-bug	plural		cīmicēs	cīmicum	cīmicibus	cīmicēs	cīmicibus	cīmicēs	—	#	masculine 	3			
-warmth	singular		calor	calōris	calōrī	calōrem	calōre	calor	—	#	masculine 	3			
-warmth	plural		calōrēs	calōrum	calōribus	calōrēs	calōribus	calōrēs	—	#	masculine 	3			
-bird	singular		avis	avis	avī	avem	ave|avī	avis	—	#	feminine	3			
-bird	plural		avēs	avium	avibus	avēs|avīs	avibus	avēs	—	#	feminine	3			
-fire	singular		ignis 	ignis 	ignī 	ignem	igne|ignī	ignis 	—	#	masculine	3			
-fire	plural		ignēs	ignium	ignibus 	ignēs|ignīs 	ignibus	ignēs 	—	#	masculine	3			
-money	singular		pecūnia 	pecūniae 	pecūniae 	pecūniam 	pecūniā 	pecūnia 	—	#	feminine	1			
-money	plural		pecūniae	pecūniārum	pecūniīs	pecūniās	pecūniīs	pecūniae 	—	#	feminine	1			
-monster	singular		bēlua 	bēluae 	bēluae 	bēluam 	bēluā 	bēlua 	—	#	feminine	1			
-monster	plural		bēluae	bēluārum	bēluīs	bēluās	bēluīs	bēluae 	—	#	feminine	1			
-way	singular		via 	viae 	viae 	viam 	viā 	via 	—	#	feminine				
-way	plural		viae	viārum	viīs	viās	viīs	viae 	—	#	feminine				
-love	singular		amor 	amōris 	amōrī 	amōrem 	amōre 	amor 	—	#	masculine	3			
-love	plural		amōrēs	amōrum	amōribus	amōrēs	amōribus	amōrēs 	—	#	masculine	3			
-idea	singular		idea 	ideae 	ideae 	ideam 	ideā 	idea 	—	#	feminine				
-idea	plural		ideae	ideārum	ideīs	ideās	ideīs	ideae 	—	#	feminine				
-size	singular		magnitūdō	magnitūdinis	magnitūdinī	magnitūdinem	magnitūdine	magnitūdō	—	#					
-size	plural		magnitūdinēs	magnitūdinum	magnitūdinibus	magnitūdinēs	magnitūdinibus	magnitūdinēs	—	#					
-sound	singular		sonus	sonī	sonō	sonum	sonō	sone	—	#					
-sound	plural		sonī	sonōrum	sonīs	sonōs	sonīs	sonī	—	#					
-brother	singular		frāter 	frātris 	frātrī 	frātrem 	frātre 	frāter 	—	#					
-brother	plural		frātrēs	frātrum	frātribus	frātrēs	frātribus	frātrēs 	—	#					
-sister	singular		soror 	sorōris 	sorōrī 	sorōrem 	sorōre 	soror 	—	#					
-sister	plural		sorōrēs	sorōrum	sorōribus	sorōrēs	sorōribus	sorōrēs 	—	#					
-															
-															
-															
-															
+*	*	singular	plural				
+air	nominative	āēr	āerēs				
+air	genitive	āeris	āerum				
+air	dative	āerī	āeribus				
+air	accusative	āera	āerēs				
+air	ablative	āere	āeribus				
+air	vocative	āēr	āerēs				
+air	locative	āerī	āēr				
+animal	nominative	animal	animālia				
+animal	genitive	animālis	animālium				
+animal	dative	animālī	animālibus				
+animal	accusative	animal	animālia				
+animal	ablative	animālī	animālibus				
+animal	vocative	animal	animālia				
+animal	locative	animālī	animālibus				
+atom	nominative	atomus	atomī				
+atom	genitive	atomī	atomōrum				
+atom	dative	atomō	atomīs				
+atom	accusative	atomum	atomōs				
+atom	ablative	atomō	atomīs				
+atom	vocative	atome	atomī				
+atom	locative	—	—				
+attention	nominative	attentiō	attentiōnēs				
+attention	genitive	attentiōnis	attentiōnum				
+attention	dative	attentiōnī	attentiōnibus				
+attention	accusative	attentiōnem	attentiōnēs				
+attention	ablative	attentiōne	attentiōnibus				
+attention	vocative	attentiō	attentiōnēs				
+attention	locative	—	—				
+autumn	nominative	autumnus	autumnī				
+autumn	genitive	autumnī	autumnōrum				
+autumn	dative	autumnō	autumnīs				
+autumn	accusative	autumnum	autumnōs				
+autumn	ablative	autumnō	autumnīs				
+autumn	vocative	autumne	autumnī				
+ball	nominative	globus	globī				
+ball	genitive	globī	globōrum				
+ball	dative	globō	globīs				
+ball	accusative	globum	globōs				
+ball	ablative	globō	globīs				
+ball	vocative	globe	globī				
+beast	nominative	bēstia	bēstiae				
+beast	genitive	bēstiae	bēstiārum				
+beast	dative	bēstiae	bēstiīs				
+beast	accusative	bēstiam	bēstiās				
+beast	ablative	bēstiā	bēstiīs				
+beast	vocative	bēstia	bēstiae				
+bee	nominative	apis	apēs				
+bee	genitive	apis	apumapium				
+bee	dative	apī	apibus				
+bee	accusative	apem	apēsapīs				
+bee	ablative	ape	apibus				
+bee	vocative	apis	apēs				
+beetle	nominative	coleopteron	coleoptera				
+beetle	genitive	coleopterī	coleopterōrum				
+beetle	dative	coleopterō	coleopterīs				
+beetle	accusative	coleopteron	coleoptera				
+beetle	ablative	coleopterō	coleopterīs				
+beetle	vocative	coleopteron	coleoptera				
+bird	nominative	avis	avēs				
+bird	genitive	avis	avium				
+bird	dative	avī	avibus				
+bird	accusative	avem	avēs|avīs				
+bird	ablative	ave|avī	avibus				
+bird	vocative	avis	avēs				
+bird	locative	—	—				
+boat	nominative	nāvis	nāvēs				
+boat	genitive	nāvis	nāvium				
+boat	dative	nāvī	nāvibus				
+boat	accusative	nāvem|nāvim	nāvēs|nāvīs				
+boat	ablative	nāve|nāvī	nāvibus				
+boat	vocative	nāvis	nāvēs				
+boat	locative	—	—				
+book	nominative	liber	librī				
+book	genitive	librī	librōrum				
+book	dative	librō	librīs				
+book	accusative	librum	librōs				
+book	ablative	librō	librīs				
+book	vocative	liber	librī				
+book	locative	—	—				
+boy	nominative	puer	puerī				
+boy	genitive	puerī	puerōrum				
+boy	dative	puerō	puerīs				
+boy	accusative	puerum	puerōs				
+boy	ablative	puerō	puerīs				
+boy	vocative	puer	puerī				
+boy	locative	—	—				
+bridge	nominative	pōns	pontēs				
+bridge	genitive	pontis	pontium				
+bridge	dative	pontī	pontibus				
+bridge	accusative	pontem	pontēspontīs				
+bridge	ablative	ponte	pontibus				
+bridge	vocative	pōns	pontēs				
+brother	nominative	frāter	frātrēs				
+brother	genitive	frātris	frātrum				
+brother	dative	frātrī	frātribus				
+brother	accusative	frātrem	frātrēs				
+brother	ablative	frātre	frātribus				
+brother	vocative	frāter	frātrēs				
+brother	locative	—	—				
+bug	nominative	cīmex	cīmicēs				
+bug	genitive	cīmicis	cīmicum				
+bug	dative	cīmicī	cīmicibus				
+bug	accusative	cīmicem	cīmicēs				
+bug	ablative	cīmice	cīmicibus				
+bug	vocative	cīmex	cīmicēs				
+bug	locative	—	—				
+car	nominative	carrus	carrī				
+car	genitive	carrī	carrōrum				
+car	dative	carrō	carrīs				
+car	accusative	carrum	carrōs				
+car	ablative	carrō	carrīs				
+car	vocative	carre	carrī				
+car	locative	—	—				
+cart	nominative	carrus	carrī				
+cart	genitive	carrī	carrōrum				
+cart	dative	carrō	carrīs				
+cart	accusative	carrum	carrōs				
+cart	ablative	carrō	carrīs				
+cart	vocative	carre	carrī				
+cart	locative	—	—				
+chick	nominative	pullus	pullī				
+chick	genitive	pullī	pullōrum				
+chick	dative	pullō	pullīs				
+chick	accusative	pullum	pullōs				
+chick	ablative	pullō	pullīs				
+chick	vocative	pulle	pullī				
+chicken	nominative	gallus	gallī				
+chicken	genitive	gallī	gallōrum				
+chicken	dative	gallō	gallīs				
+chicken	accusative	gallum	gallōs				
+chicken	ablative	gallō	gallīs				
+chicken	vocative	galle	gallī				
+city	nominative	urbs	urbēsurbīs				
+city	genitive	urbis	urbium				
+city	dative	urbī	urbibus				
+city	accusative	urbem	urbēsurbīs				
+city	ablative	urbe	urbibus				
+city	vocative	urbs	urbēsurbīs				
+clothing	nominative	vestis	vestēs				
+clothing	genitive	vestis	vestium				
+clothing	dative	vestī	vestibus				
+clothing	accusative	vestem	vestēsvestīs				
+clothing	ablative	veste	vestibus				
+clothing	vocative	vestis	vestēs				
+coin	nominative	nummus	nummī				
+coin	genitive	nummī	nummōrumnummum				
+coin	dative	nummō	nummīs				
+coin	accusative	nummum	nummōs				
+coin	ablative	nummō	nummīs				
+coin	vocative	numme	nummī				
+comet	nominative	comētēs	comētae				
+comet	genitive	comētae	comētārum				
+comet	dative	comētae	comētīs				
+comet	accusative	comētēn	comētās				
+comet	ablative	comētās	comētīs				
+comet	vocative	comētē	comētae				
+comet	locative	—	—				
+crow	nominative	cornīx	cornīcēs				
+crow	genitive	cornīcis	cornīcum				
+crow	dative	cornīcī	cornīcibus				
+crow	accusative	cornīcem	cornīcēs				
+crow	ablative	cornīce	cornīcibus				
+crow	vocative	cornīx	cornīcēs				
+daughter	nominative	fīlia	fīliae				
+daughter	genitive	fīliae	fīliārum				
+daughter	dative	fīliae	fīliīs|fīliābus				
+daughter	accusative	fīliam	fīliās				
+daughter	ablative	fīliā	fīliīs|fīliābus				
+daughter	vocative	fīlia	fīliae				
+daughter	locative	—	—				
+day	nominative	diēs	diēs				
+day	genitive	diēī	diērum				
+day	dative	diēī	diēbus				
+day	accusative	diem	diēs				
+day	ablative	diē	diēbus				
+day	vocative	diēs	diēs				
+day	locative	—	—				
+dog	nominative	canis	canēs				
+dog	genitive	canis	canum				
+dog	dative	canī	canibus				
+dog	accusative	canem	canēs				
+dog	ablative	cane	canibus				
+dog	vocative	canis	canēs				
+dog	locative	—	—				
+door	nominative	foris	forēs				
+door	genitive	foris	forium				
+door	dative	forī	foribus				
+door	accusative	forem	forēsforīs				
+door	ablative	fore	foribus				
+door	vocative	foris	forēs				
+dove	nominative	columbus	columbī				
+dove	genitive	columbī	columbōrum				
+dove	dative	columbō	columbīs				
+dove	accusative	columbum	columbōs				
+dove	ablative	columbō	columbīs				
+dove	vocative	columbe	columbī				
+drum	nominative	tympanum	tympana				
+drum	genitive	tympanī	tympanōrum				
+drum	dative	tympanō	tympanīs				
+drum	accusative	tympanum	tympana				
+drum	ablative	tympanō	tympanīs				
+drum	vocative	tympanum	tympana				
+drum	locative	—	—				
+eagle	nominative	aquila	aquilae				
+eagle	genitive	aquilae	aquilārum				
+eagle	dative	aquilae	aquilīs				
+eagle	accusative	aquilam	aquilās				
+eagle	ablative	aquilā	aquilīs				
+eagle	vocative	aquila	aquilae				
+earth	nominative	terra	terrae				
+earth	genitive	terrae	terrārum				
+earth	dative	terrae	terrīs				
+earth	accusative	terram	terrās				
+earth	ablative	terrā	terrīs				
+earth	vocative	terra	terrae				
+east	nominative	oriēns	orientēs				
+east	genitive	orientis	orientum,orientium				
+east	dative	orientī	orientibus				
+east	accusative	orientem	orientēs				
+east	ablative	oriente	orientibus				
+east	vocative	oriēns	orientēs				
+echo	nominative	ēchō	ēchūs				
+echo	genitive	ēchūs	ēchuum				
+echo	dative	ēchō	ēchibus				
+echo	accusative	ēchō	ēchūs				
+echo	ablative	ēchō	ēchibus				
+echo	vocative	ēchō	ēchūs				
+echo	locative	—	—				
+egg	nominative	ōvum	ōva				
+egg	genitive	ōvī	ōvōrum				
+egg	dative	ōvō	ōvīs				
+egg	accusative	ōvum	ōva				
+egg	ablative	ōvō	ōvīs				
+egg	vocative	ōvum	ōva				
+enemy	nominative	inimīcus	inimīcī				
+enemy	genitive	inimīcī	inimīcōrum				
+enemy	dative	inimīcō	inimīcīs				
+enemy	accusative	inimīcum	inimīcōs				
+enemy	ablative	inimīcō	inimīcīs				
+enemy	vocative	inimīce	inimīcī				
+enemy	locative	—	—				
+father	nominative	pater	patrēs				
+father	genitive	patris	patrum				
+father	dative	patrī	patribus				
+father	accusative	patrem	patrēs				
+father	ablative	patre	patribus				
+father	vocative	pater	patrēs				
+finch	nominative	fringilla	fringillae				
+finch	genitive	fringillae	fringillārum				
+finch	dative	fringillae	fringillīs				
+finch	accusative	fringillam	fringillās				
+finch	ablative	fringillā	fringillīs				
+finch	vocative	fringilla	fringillae				
+fire	nominative	ignis	ignēs				
+fire	genitive	ignis	ignium				
+fire	dative	ignī	ignibus				
+fire	accusative	ignem	ignēs|ignīs				
+fire	ablative	igne|ignī	ignibus				
+fire	vocative	ignis	ignēs				
+fire	locative	—	—				
+fish	nominative	piscis	piscēs				
+fish	genitive	piscis	piscium				
+fish	dative	piscī	piscibus				
+fish	accusative	piscem	piscēspiscīs				
+fish	ablative	pisce	piscibus				
+fish	vocative	piscis	piscēs				
+flamingo	nominative	phoenīcopterus	phoenīcopterī				
+flamingo	genitive	phoenīcopterī	phoenīcopterōrum				
+flamingo	dative	phoenīcopterō	phoenīcopterīs				
+flamingo	accusative	phoenīcopterum	phoenīcopterōs				
+flamingo	ablative	phoenīcopterō	phoenīcopterīs				
+flamingo	vocative	phoenīcoptere	phoenīcopterī				
+food	nominative	cibus	cibī				
+food	genitive	cibī	cibōrum				
+food	dative	cibō	cibīs				
+food	accusative	cibum	cibōs				
+food	ablative	cibō	cibīs				
+food	vocative	cibe	cibī				
+food	locative	—	—				
+forest	nominative	silva	silvae				
+forest	genitive	silvae	silvārum				
+forest	dative	silvae	silvīs				
+forest	accusative	silvam	silvās				
+forest	ablative	silvā	silvīs				
+forest	vocative	silva	silvae				
+foundation	nominative	basis	basēs				
+foundation	genitive	basis	basium				
+foundation	dative	basī	basibus				
+foundation	accusative	basim	basēs				
+foundation	ablative	basī	basibus				
+foundation	vocative	basis	basēs				
+foundation	locative	—	—				
+gate	nominative	porta	portae				
+gate	genitive	portae	portārum				
+gate	dative	portae	portīs				
+gate	accusative	portam	portās				
+gate	ablative	portā	portīs				
+gate	vocative	porta	portae				
+ghost	nominative	phasma	phasmata				
+ghost	genitive	phasmatis	phasmatum				
+ghost	dative	phasmatī	phasmatibus				
+ghost	accusative	phasma	phasmata				
+ghost	ablative	phasmate	phasmatibus				
+ghost	vocative	phasma	phasmata				
+ghost	locative	—	—				
+gift	nominative	dōnum	dōna				
+gift	genitive	dōnī	dōnōrum				
+gift	dative	dōnō	dōnīs				
+gift	accusative	dōnum	dōna				
+gift	ablative	dōnō	dōnīs				
+gift	vocative	dōnum	dōna				
+gift	locative	—	—				
+glass	nominative	vitrum	vitra				
+glass	genitive	vitrī	vitrōrum				
+glass	dative	vitrō	vitrīs				
+glass	accusative	vitrum	vitra				
+glass	ablative	vitrō	vitrīs				
+glass	vocative	vitrum	vitra				
+grandfather	nominative	avus	avī				
+grandfather	genitive	avī	avōrumavum				
+grandfather	dative	avō	avīs				
+grandfather	accusative	avum	avōs				
+grandfather	ablative	avō	avīs				
+grandfather	vocative	ave	avī				
+grandmother	nominative	avia	aviae				
+grandmother	genitive	aviae	aviārum				
+grandmother	dative	aviae	aviīs				
+grandmother	accusative	aviam	aviās				
+grandmother	ablative	aviā	aviīs				
+grandmother	vocative	avia	aviae				
+guard	nominative	custōs	custōdēs				
+guard	genitive	custōdis	custōdum				
+guard	dative	custōdī	custōdibus				
+guard	accusative	custōdem	custōdēs				
+guard	ablative	custōde	custōdibus				
+guard	vocative	custōs	custōdēs				
+guard	locative	—	—				
+hand	nominative	manus	manūs				
+hand	genitive	manūs	manuum				
+hand	dative	manuī	manibus				
+hand	accusative	manum	manūs				
+hand	ablative	manū	manibus				
+hand	vocative	manus	manūs				
+hand	locative	—	—				
+heat	nominative	calor	calōrēs				
+heat	genitive	calōris	calōrum				
+heat	dative	calōrī	calōribus				
+heat	accusative	calōrem	calōrēs				
+heat	ablative	calōre	calōribus				
+heat	vocative	calor	calōrēs				
+hello	nominative						
+hello	genitive						
+hello	dative						
+hello	accusative						
+hello	ablative						
+hello	vocative	salvē	salvēte				
+hello	locative	—	—				
+hill	nominative	collis	collēs				
+hill	genitive	collis	collium				
+hill	dative	collī	collibus				
+hill	accusative	collem	collēscollīs				
+hill	ablative	collecollī	collibus				
+hill	vocative	collis	collēs				
+horn	nominative	cornū	cornua				
+horn	genitive	cornūs	cornuum				
+horn	dative	cornū	cornibus				
+horn	accusative	cornū	cornua				
+horn	ablative	cornū	cornibus				
+horn	vocative	cornū	cornua				
+horn	locative	—	—				
+horse	nominative	equus	equī				
+horse	genitive	equī	equōrum				
+horse	dative	equō	equīs				
+horse	accusative	equum	equōs				
+horse	ablative	equō	equīs				
+horse	vocative	eque	equī				
+horse	locative	—	—				
+house	nominative	domus	domūs				
+house	genitive	domūs|domī	domuum|domōrum				
+house	dative	domuī|domō|domū	domibus				
+house	accusative	domum	domūs|domōs				
+house	ablative	domū|domō	domibus				
+house	vocative	domus	domūs				
+house	locative	domī	domibus				
+human	nominative	homō̆	hominēs				
+human	genitive	hominis	hominum				
+human	dative	hominī	hominibus				
+human	accusative	hominem	hominēs				
+human	ablative	homine	hominibus				
+human	vocative	homō̆	hominēs				
+idea	nominative	idea	ideae				
+idea	genitive	ideae	ideārum				
+idea	dative	ideae	ideīs				
+idea	accusative	ideam	ideās				
+idea	ablative	ideā	ideīs				
+idea	vocative	idea	ideae				
+idea	locative	—	—				
+insect	nominative	īnsectum	īnsecta				
+insect	genitive	īnsectī	īnsectōrum				
+insect	dative	īnsectō	īnsectīs				
+insect	accusative	īnsectum	īnsecta				
+insect	ablative	īnsectō	īnsectīs				
+insect	vocative	īnsectum	īnsecta				
+king	nominative	rēx	rēgēs				
+king	genitive	rēgis	rēgum				
+king	dative	rēgī	rēgibus				
+king	accusative	rēgem	rēgēs				
+king	ablative	rēge	rēgibus				
+king	vocative	rēx	rēgēs				
+language	nominative	lingua	linguae				
+language	genitive	linguae	linguārum				
+language	dative	linguae	linguīs				
+language	accusative	linguam	linguās				
+language	ablative	linguā	linguīs				
+language	vocative	lingua	linguae				
+livestock	nominative	pecus	pecora				
+livestock	genitive	pecoris	pecorum				
+livestock	dative	pecorī	pecoribus				
+livestock	accusative	pecus	pecora				
+livestock	ablative	pecore	pecoribus				
+livestock	vocative	pecus	pecora				
+livestock	locative	—	—				
+log	nominative	cāla	cālae				
+log	genitive	cālae	cālārum				
+log	dative	cālae	cālīs				
+log	accusative	cālam	cālās				
+log	ablative	cālā	cālīs				
+log	vocative	cāla	cālae				
+louse	nominative	pēdis	pēdēs				
+louse	genitive	pēdis	pēdium				
+louse	dative	pēdī	pēdibus				
+louse	accusative	pēdem	pēdēspēdīs				
+louse	ablative	pēde	pēdibus				
+louse	vocative	pēdis	pēdēs				
+love	nominative	amor	amōrēs				
+love	genitive	amōris	amōrum				
+love	dative	amōrī	amōribus				
+love	accusative	amōrem	amōrēs				
+love	ablative	amōre	amōribus				
+love	vocative	amor	amōrēs				
+love	locative	—	—				
+man	nominative	homō	hominēs				
+man	genitive	hominis	hominum				
+man	dative	hominī	hominibus				
+man	accusative	hominem	hominēs				
+man	ablative	homine	hominibus				
+man	vocative	homō	hominēs				
+man	locative	homine	hominibus				
+mars	nominative	Mārs	Mārtēs				
+mars	genitive	Mārtis	Mārtum				
+mars	dative	Mārtī	Mārtibus				
+mars	accusative	Mārtem	Mārtēs				
+mars	ablative	Mārte	Mārtibus				
+mars	vocative	Mārs	Mārtēs				
+metal	nominative	metallum	metalla				
+metal	genitive	metallī	metallōrum				
+metal	dative	metallō	metallīs				
+metal	accusative	metallum	metalla				
+metal	ablative	metallō	metallīs				
+metal	vocative	metallum	metalla				
+money	nominative	pecūnia	pecūniae				
+money	genitive	pecūniae	pecūniārum				
+money	dative	pecūniae	pecūniīs				
+money	accusative	pecūniam	pecūniās				
+money	ablative	pecūniā	pecūniīs				
+money	vocative	pecūnia	pecūniae				
+money	locative	—	—				
+monster	nominative	bēlua	bēluae				
+monster	genitive	bēluae	bēluārum				
+monster	dative	bēluae	bēluīs				
+monster	accusative	bēluam	bēluās				
+monster	ablative	bēluā	bēluīs				
+monster	vocative	bēlua	bēluae				
+monster	locative	—	—				
+moon	nominative	lūna	lūnae				
+moon	genitive	lūnae	lūnārum				
+moon	dative	lūnae	lūnīs				
+moon	accusative	lūnam	lūnās				
+moon	ablative	lūnā	lūnīs				
+moon	vocative	lūna	lūnae				
+mother	nominative	māter	mātrēs				
+mother	genitive	mātris	mātrum				
+mother	dative	mātrī	mātribus				
+mother	accusative	mātrem	mātrēs				
+mother	ablative	mātre	mātribus				
+mother	vocative	māter	mātrēs				
+myth	nominative	mȳthos	mȳthī				
+myth	genitive	mȳthī	mȳthōrum				
+myth	dative	mȳthō	mȳthīs				
+myth	accusative	mȳthon	mȳthōs				
+myth	ablative	mȳthō	mȳthīs				
+myth	vocative	mȳthe	mȳthī				
+myth	locative	—	—				
+name	nominative	nōmen	nōmina				
+name	genitive	nōminis	nōminum				
+name	dative	nōminī	nōminibus				
+name	accusative	nōmen	nōmina				
+name	ablative	nōmine	nōminibus				
+name	vocative	nōmen	nōmina				
+name	locative	nōminī	nōminibus				
+nest	nominative	nīdus	nīdī				
+nest	genitive	nīdī	nīdōrum				
+nest	dative	nīdō	nīdīs				
+nest	accusative	nīdum	nīdōs				
+nest	ablative	nīdō	nīdīs				
+nest	vocative	nīde	nīdī				
+night	nominative	nox	noctēs				
+night	genitive	noctis	noctium				
+night	dative	noctī	noctibus				
+night	accusative	noctem	noctēs				
+night	ablative	nocte	noctibus				
+night	vocative	nox	noctēs				
+night	locative	noctī	noctibus				
+north	nominative	boreās	boreae				
+north	genitive	boreae	boreārum				
+north	dative	boreae	boreīs				
+north	accusative	boreānboream	boreās				
+north	ablative	boreā	boreīs				
+north	vocative	boreā	boreae				
+nymph	nominative	nymphē	nymphae				
+nymph	genitive	nymphēs	nymphārum				
+nymph	dative	nymphae	nymphīs				
+nymph	accusative	nymphēn	nymphās				
+nymph	ablative	nymphē	nymphīs				
+nymph	vocative	nymphē	nymphae				
+nymph	locative	—	—				
+oath	nominative	iūrāmentum	iūrāmenta				
+oath	genitive	iūrāmentī	iūrāmentōrum				
+oath	dative	iūrāmentō	iūrāmentīs				
+oath	accusative	iūrāmentum	iūrāmenta				
+oath	ablative	iūrāmentō	iūrāmentīs				
+oath	vocative	iūrāmentum	iūrāmenta				
+oath	locative	—	—				
+paternal-grandmother	ablative	aviā	aviīs				
+paternal-grandmother	accusative	aviam	aviās				
+paternal-grandmother	dative	aviae	aviīs				
+paternal-grandmother	genitive	aviae	aviārum				
+paternal-grandmother	nominative	avia	aviae				
+paternal-grandmother	vocative	avia	aviae				
+phenomenon	nominative	phaenomenon	phaenomena				
+phenomenon	genitive	phaenomenī	phaenomenōrum				
+phenomenon	dative	phaenomenō	phaenomenīs				
+phenomenon	accusative	phaenomenon	phaenomena				
+phenomenon	ablative	phaenomenō	phaenomenīs				
+phenomenon	vocative	phaenomenon	phaenomena				
+phenomenon	locative	—	—				
+picture	nominative	pictūra	pictūrae				
+picture	genitive	pictūrae	pictūrārum				
+picture	dative	pictūrae	pictūrīs				
+picture	accusative	pictūram	pictūrās				
+picture	ablative	pictūrā	pictūrīs				
+picture	vocative	pictūra	pictūrae				
+picture	locative	—	—				
+pigeon	nominative	columbus	columbī				
+pigeon	genitive	columbī	columbōrum				
+pigeon	dative	columbō	columbīs				
+pigeon	accusative	columbum	columbōs				
+pigeon	ablative	columbō	columbīs				
+pigeon	vocative	columbe	columbī				
+place	nominative						
+place	genitive						
+place	dative						
+place	accusative	locum					
+place	ablative						
+place	vocative						
+place	locative	—					
+planet	nominative	planēta	planētae				
+planet	genitive	planētae	planētārum				
+planet	dative	planētae	planētīs				
+planet	accusative	planētam	planētās				
+planet	ablative	planētā	planētīs				
+planet	vocative	planēta	planētae				
+present	nominative	dōnum	dōna				
+present	genitive	dōnī	dōnōrum				
+present	dative	dōnō	dōnīs				
+present	accusative	dōnum	dōna				
+present	ablative	dōnō	dōnīs				
+present	vocative	dōnum	dōna				
+river	nominative	flūmen	flūmina				
+river	genitive	flūminis	flūminum				
+river	dative	flūminī	flūminibus				
+river	accusative	flūmen	flūmina				
+river	ablative	flūmine	flūminibus				
+river	vocative	flūmen	flūmina				
+rock	nominative	saxum	saxa				
+rock	genitive	saxī	saxōrum				
+rock	dative	saxō	saxīs				
+rock	accusative	saxum	saxa				
+rock	ablative	saxō	saxīs				
+rock	vocative	saxum	saxa				
+rock	locative	—	—				
+rope	nominative	fūnis	fūnēs				
+rope	genitive	fūnis	fūnium				
+rope	dative	fūnī	fūnibus				
+rope	accusative	fūnem	fūnēs|fūnīs				
+rope	ablative	fūne	fūnibus				
+rope	vocative	fūnis	fūnēs				
+rope	locative	—	—				
+sailor	nominative	nauta	nautae				
+sailor	genitive	nautae	nautārum				
+sailor	dative	nautae	nautīs				
+sailor	accusative	nautam	nautās				
+sailor	ablative	nautā	nautīs				
+sailor	vocative	nauta	nautae				
+sailor	locative	—	—				
+shirt	nominative	camisia	camisiae				
+shirt	genitive	camisiae	camisiārum				
+shirt	dative	camisiae	camisiīs				
+shirt	accusative	camisiam	camisiās				
+shirt	ablative	camisiā	camisiīs				
+shirt	vocative	camisia	camisiae				
+shirt	locative	—	—				
+sister	nominative	soror	sorōrēs				
+sister	genitive	sorōris	sorōrum				
+sister	dative	sorōrī	sorōribus				
+sister	accusative	sorōrem	sorōrēs				
+sister	ablative	sorōre	sorōribus				
+sister	vocative	soror	sorōrēs				
+sister	locative	—	—				
+size	nominative	magnitūdō	magnitūdinēs				
+size	genitive	magnitūdinis	magnitūdinum				
+size	dative	magnitūdinī	magnitūdinibus				
+size	accusative	magnitūdinem	magnitūdinēs				
+size	ablative	magnitūdine	magnitūdinibus				
+size	vocative	magnitūdō	magnitūdinēs				
+size	locative	—	—				
+son	nominative	fīlius	fīliī				
+son	genitive	fīliī	fīliōrum				
+son	dative	fīliō	fīliīs				
+son	accusative	fīlium	fīliōs				
+son	accusative	fīlium	fīliōs				
+son	ablative	fīliō	fīliīs				
+son	vocative	fīlī	fīliī				
+son	locative	—	—				
+sound	nominative	sonus	sonī				
+sound	genitive	sonī	sonōrum				
+sound	dative	sonō	sonīs				
+sound	accusative	sonum	sonōs				
+sound	ablative	sonō	sonīs				
+sound	vocative	sone	sonī				
+sound	locative	—	—				
+south	nominative	auster	austrī				
+south	genitive	austrī	austrōrum				
+south	dative	austrō	austrīs				
+south	accusative	austrum	austrōs				
+south	ablative	austrō	austrīs				
+south	vocative	auster	austrī				
+sparrow	nominative	passer	passerēs				
+sparrow	genitive	passeris	passerum				
+sparrow	dative	passerī	passeribus				
+sparrow	accusative	passerem	passerēs				
+sparrow	ablative	passere	passeribus				
+sparrow	vocative	passer	passerēs				
+spring	nominative	vēr	vēra				
+spring	genitive	vēris	vērum				
+spring	dative	vērī	vēribus				
+spring	accusative	vēr	vēra				
+spring	ablative	vēre	vēribus				
+spring	vocative	vēr	vēra				
+star	nominative	stēlla	stēllae				
+star	genitive	stēllae	stēllārum				
+star	dative	stēllae	stēllīs				
+star	accusative	stēllam	stēllās				
+star	ablative	stēllā	stēllīs				
+star	vocative	stēlla	stēllae				
+star	locative	—	—				
+stone	nominative	lapis	lapidēs				
+stone	genitive	lapidis	lapidum				
+stone	dative	lapidī	lapidibus				
+stone	accusative	lapidem	lapidēs				
+stone	ablative	lapide	lapidibus				
+stone	vocative	lapis	lapidēs				
+summer	nominative	aestās	aestātēs				
+summer	genitive	aestātis	aestātum				
+summer	dative	aestātī	aestātibus				
+summer	accusative	aestātem	aestātēs				
+summer	ablative	aestāte	aestātibus				
+summer	vocative	aestās	aestātēs				
+sun	nominative	sōl	sōlēs				
+sun	genitive	sōlis	sōlum				
+sun	dative	sōlī	sōlibus				
+sun	accusative	sōlem	sōlēs				
+sun	ablative	sōle	sōlibus				
+sun	vocative	sōl	sōlēs				
+swallow	nominative	hirundō	hirundinēs				
+swallow	genitive	hirundinis	hirundinum				
+swallow	dative	hirundinī	hirundinibus				
+swallow	accusative	hirundinem	hirundinēs				
+swallow	ablative	hirundine	hirundinibus				
+swallow	vocative	hirundō	hirundinēs				
+swan	nominative	cygnus	cygnī				
+swan	genitive	cygnī	cygnōrum				
+swan	dative	cygnō	cygnīs				
+swan	accusative	cygnum	cygnōs				
+swan	ablative	cygnō	cygnīs				
+swan	vocative	cygne	cygnī				
+the	nominative	∅	∅				
+the	genitive	∅	∅				
+the	dative	∅	∅				
+the	accusative	∅	∅				
+the	ablative	∅	∅				
+the	vocative	∅	∅				
+the	locative	∅	∅				
+thing	nominative	rēs	rēs				
+thing	genitive	reī	rērum				
+thing	dative	reī	rēbus				
+thing	accusative	rem	rēs				
+thing	ablative	rē	rēbus				
+thing	vocative	rēs	rēs				
+thing	locative	—	—				
+thought	nominative	cōgitātiō	cōgitātiōnēs				
+thought	genitive	cōgitātiōnis	cōgitātiōnum				
+thought	dative	cōgitātiōnī	cōgitātiōnibus				
+thought	accusative	cōgitātiōnem	cōgitātiōnēs				
+thought	ablative	cōgitātiōne	cōgitātiōnibus				
+thought	vocative	cōgitātiō	cōgitātiōnēs				
+tool	nominative	īnstrūmentum	īnstrūmenta				
+tool	genitive	īnstrūmentī	īnstrūmentōrum				
+tool	dative	īnstrūmentō	īnstrūmentīs				
+tool	accusative	īnstrūmentum	īnstrūmenta				
+tool	ablative	īnstrūmentō	īnstrūmentīs				
+tool	vocative	īnstrūmentum	īnstrūmenta				
+tower	nominative	turris	turrēs				
+tower	genitive	turris	turrium				
+tower	dative	turrī	turribus				
+tower	accusative	turrem	turrēs|turrīs				
+tower	ablative	turre	turribus				
+tower	vocative	turris	turrēs				
+tower	locative	turrī	turribus				
+town	nominative	oppidum	oppida				
+town	genitive	oppidī	oppidōrum				
+town	dative	oppidō	oppidīs				
+town	accusative	oppidum	oppida				
+town	ablative	oppidō	oppidīs				
+town	vocative	oppidum	oppida				
+treasure	nominative	thēsaurus	thēsaurī				
+treasure	genitive	thēsaurī	thēsaurōrum				
+treasure	dative	thēsaurō	thēsaurīs				
+treasure	accusative	thēsaurum	thēsaurōs				
+treasure	ablative	thēsaurō	thēsaurīs				
+treasure	vocative	thēsaure	thēsaurī				
+tree	nominative	arbor	arborēs				
+tree	genitive	arboris	arborum				
+tree	dative	arborī	arboribus				
+tree	accusative	arborem	arborēs				
+tree	ablative	arbore	arboribus				
+tree	vocative	arbor	arborēs				
+vine	nominative	ampelos	ampelī				
+vine	genitive	ampelī	ampelōrum				
+vine	dative	ampelō	ampelīs				
+vine	accusative	ampelon	ampelōs				
+vine	ablative	ampelō	ampelīs				
+vine	vocative	ampele	ampelī				
+vine	locative	—	—				
+war	nominative	bellum	bella				
+war	genitive	bellī	bellōrum				
+war	dative	bellō	bellīs				
+war	accusative	bellum	bella				
+war	ablative	bellō	bellīs				
+war	vocative	bellum	bella				
+war	locative	bellī	—				
+war	nominative	bellum	bella				
+war	genitive	bellī	bellōrum				
+war	dative	bellō	bellīs				
+war	accusative	bellum	bella				
+war	ablative	bellō	bellīs				
+war	vocative	bellum	bella				
+war	locative	bellī	bellīs				
+warmth	nominative	calor	calōrēs				
+warmth	genitive	calōris	calōrum				
+warmth	dative	calōrī	calōribus				
+warmth	accusative	calōrem	calōrēs				
+warmth	ablative	calōre	calōribus				
+warmth	vocative	calor	calōrēs				
+warmth	locative	—	—				
+water	nominative	aqua	aquae				
+water	genitive	aquae	aquārum				
+water	dative	aquae	aquīs				
+water	accusative	aquam	aquās				
+water	ablative	aquā	aquīs				
+water	vocative	aqua	aquae				
+water	locative	—	—				
+way	nominative	via	viae				
+way	genitive	viae	viārum				
+way	dative	viae	viīs				
+way	accusative	viam	viās				
+way	ablative	viā	viīs				
+way	vocative	via	viae				
+way	locative	—	—				
+weath	nominative	ops	opēs				
+weath	genitive	opis	opum				
+weath	dative	opī	opibus				
+weath	accusative	opem	opēs				
+weath	ablative	ope	opibus				
+weath	vocative	ops	opēs				
+west	ablative	occidente	occidentibus				
+west	accusative	occidentem	occidentēs				
+west	dative	occidentī	occidentibus				
+west	genitive	occidentis	occidentum				
+west	nominative	occidēns	occidentēs				
+west	vocative	occidēns	occidentēs				
+wind	nominative	ventus	ventī				
+wind	genitive	ventī	ventōrum				
+wind	dative	ventō	ventīs				
+wind	accusative	ventum	ventōs				
+wind	ablative	ventō	ventīs				
+wind	vocative	vente	ventī				
+wind	locative	—	—				
+window	nominative	fenestra	fenestrae				
+window	genitive	fenestrae	fenestrārum				
+window	dative	fenestrae	fenestrīs				
+window	accusative	fenestram	fenestrās				
+window	ablative	fenestrā	fenestrīs				
+window	vocative	fenestra	fenestrae				
+window	locative	—	—				
+winter	nominative	hiems	hiemēs				
+winter	genitive	hiemis	hiemum				
+winter	dative	hiemī	hiemibus				
+winter	accusative	hiemem	hiemēs				
+winter	ablative	hieme	hiemibus				
+winter	vocative	hiems	hiemēs				
+wolf	nominative	lupus	lupī				
+wolf	genitive	lupī	lupōrum				
+wolf	dative	lupō	lupīs				
+wolf	accusative	lupum	lupōs				
+wolf	ablative	lupō	lupīs				
+wolf	vocative	lupe	lupī				
+woman	nominative	fēmina	fēminae				
+woman	genitive	fēminae	fēminārum				
+woman	dative	fēminae	fēminīs				
+woman	accusative	fēminam	fēminās				
+woman	ablative	fēminā	fēminīs				
+woman	vocative	fēmina	fēminae				
+woman	locative	—	—				
+wood	nominative	lignum	ligna				
+wood	genitive	lignī	lignōrum				
+wood	dative	lignō	lignīs				
+wood	accusative	lignum	ligna				
+wood	ablative	lignō	lignīs				
+wood	vocative	lignum	ligna				
+work	nominative	labor	labōrēs				
+work	genitive	labōris	labōrum				
+work	dative	labōrī	labōribus				
+work	accusative	labōrem	labōrēs				
+work	ablative	labōre	labōribus				
+work	vocative	labor	labōrēs				
+work	locative	—	—				
+worker	nominative	operārius	operāriī				
+worker	genitive	operāriīoperārī1	operāriōrum				
+worker	dative	operāriō	operāriīs				
+worker	accusative	operārium	operāriōs				
+worker	ablative	operāriō	operāriīs				
+worker	vocative	operārie	operāriī				
+worm	nominative	vermis	vermēs				
+worm	genitive	vermis	vermium				
+worm	dative	vermī	vermibus				
+worm	accusative	vermem	vermēsvermīs				
+worm	ablative	verme	vermibus				
+worm	vocative	vermis	vermēs				
+year	nominative	annus	annī				
+year	genitive	annī	annōrum				
+year	dative	annō	annīs				
+year	accusative	annum	annōs				
+year	ablative	annō	annīs				
+year	vocative	anne	annī				

@@ -138,9 +138,10 @@ class GreekRowMajorWikiTableHtml(RowMajorWikiTableHtml):
 		# 	return dialect.text.lower()
 		return head.text or ''
 	def parse(self, soup):
+		lemma = soup.select_one('h1').text
 		for frame in soup.select('.NavFrame'):
 			for row in self.ops.bunch(
-					Uniform([self.dialect(frame.select_one('.NavHead'))]), 
+					Uniform([lemma, self.dialect(frame.select_one('.NavHead'))]), 
 					self.body(frame.select_one('.NavContent'))):
 				yield row
 
@@ -203,11 +204,13 @@ section_texts_for_part_of_speech = {
 # language specific settings, reproduced from the calls in scrape_special_inflections.py
 table_count_for_language_code = {
 	# Finnish, Georgian, Hungarian, and Quechua spread noun declensions across 2 tables
+	'hi':  {'verb':3},
 	'fi':  {'noun':2},
 	'ka':  {'noun':2},
 	'hu':  {'noun':2},
 	'qu':  {'noun':2},
 	'hit': {'noun':2, 'verb':2},
+	'sa': {'adjective':3},
 }
 # languages whose tables do not mark their cells with a "lang" attribute
 unmarked_language_codes = {'xtg', 'kw', 'ta', 'hit'}

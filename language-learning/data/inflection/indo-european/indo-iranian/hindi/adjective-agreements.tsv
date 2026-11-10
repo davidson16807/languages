@@ -1,0 +1,47 @@
+*	*	masculine	masculine	masculine	masculine	feminine	feminine	feminine	feminine
+*	*	singular	singular	plural	plural	singular	singular	plural	plural
+other	direct	दूसरा	dūsrā	दूसरे	dūsre	दूसरी	dūsrī	दूसरी	dūsrī
+other	oblique	दूसरे	dūsre	दूसरे	dūsre	दूसरी	dūsrī	दूसरी	dūsrī
+other	vocative	दूसरे	dūsre	दूसरे	dūsre	दूसरी	dūsrī	दूसरी	dūsrī
+first	direct	पहला	pahlā	पहले	pahle	पहली	pahlī	पहली	pahlī
+first	oblique	पहले	pahle	पहले	pahle	पहली	pahlī	पहली	pahlī
+first	vocative	पहले	pahle	पहले	pahle	पहली	pahlī	पहली	pahlī
+second	direct	दूसरा	dūsrā	दूसरे	dūsre	दूसरी	dūsrī	दूसरी	dūsrī
+second	oblique	दूसरे	dūsre	दूसरे	dūsre	दूसरी	dūsrī	दूसरी	dūsrī
+second	vocative	दूसरे	dūsre	दूसरे	dūsre	दूसरी	dūsrī	दूसरी	dūsrī
+third	direct	तीसरा	tīsrā	तीसरे	tīsre	तीसरी	tīsrī	तीसरी	tīsrī
+third	oblique	तीसरे	tīsre	तीसरे	tīsre	तीसरी	tīsrī	तीसरी	tīsrī
+third	vocative	तीसरे	tīsre	तीसरे	tīsre	तीसरी	tīsrī	तीसरी	tīsrī
+big	direct	बड़ा	baṛā	बड़े	baṛe	बड़ी	baṛī	बड़ी	baṛī
+big	oblique	बड़े	baṛe	बड़े	baṛe	बड़ी	baṛī	बड़ी	baṛī
+big	vocative	बड़े	baṛe	बड़े	baṛe	बड़ी	baṛī	बड़ी	baṛī
+large	direct	बड़ा	baṛā	बड़े	baṛe	बड़ी	baṛī	बड़ी	baṛī
+large	oblique	बड़े	baṛe	बड़े	baṛe	बड़ी	baṛī	बड़ी	baṛī
+large	vocative	बड़े	baṛe	बड़े	baṛe	बड़ी	baṛī	बड़ी	baṛī
+small	direct	छोटा	choṭā	छोटे	choṭe	छोटी	choṭī	छोटी	choṭī
+small	oblique	छोटे	choṭe	छोटे	choṭe	छोटी	choṭī	छोटी	choṭī
+small	vocative	छोटे	choṭe	छोटे	choṭe	छोटी	choṭī	छोटी	choṭī
+little	direct	छोटा	choṭā	छोटे	choṭe	छोटी	choṭī	छोटी	choṭī
+little	oblique	छोटे	choṭe	छोटे	choṭe	छोटी	choṭī	छोटी	choṭī
+little	vocative	छोटे	choṭe	छोटे	choṭe	छोटी	choṭī	छोटी	choṭī
+strong	direct	ताक़तवर	tāqatvar	ताक़तवर	tāqatvar	ताक़तवर	tāqatvar	ताक़तवर	tāqatvar
+strong	oblique	ताक़तवर	tāqatvar	ताक़तवरों	tāqatvarõ	ताक़तवर	tāqatvar	ताक़तवरों	tāqatvarõ
+strong	vocative	ताक़तवर	tāqatvar	ताक़तवरो	tāqatvaro	ताक़तवर	tāqatvar	ताक़तवरो	tāqatvaro
+good	direct	भला	bhalā	भले	bhale	भली	bhalī	भली	bhalī
+good	oblique	भले	bhale	भले	bhale	भली	bhalī	भली	bhalī
+good	vocative	भले	bhale	भले	bhale	भली	bhalī	भली	bhalī
+bad	direct	बुरा	burā	बुरे	bure	बुरी	burī	बुरी	burī
+bad	oblique	बुरे	bure	बुरे	bure	बुरी	burī	बुरी	burī
+bad	vocative	बुरे	bure	बुरे	bure	बुरी	burī	बुरी	burī
+angry	direct	ग़ुस्सा	ġussā	ग़ुस्से	ġusse	ग़ुस्सा	ġussā	ग़ुस्से	ġusse
+angry	oblique	ग़ुस्से	ġusse	ग़ुस्सों	ġussõ	ग़ुस्से	ġusse	ग़ुस्सों	ġussõ
+angry	vocative	ग़ुस्से	ġusse	ग़ुस्सो	ġusso	ग़ुस्से	ġusse	ग़ुस्सो	ġusso
+happy	direct	प्रसन्न	prasann			प्रसन्न	prasann		
+happy	oblique	प्रसन्न	prasann			प्रसन्न	prasann		
+happy	vocative	प्रसन्न	prasann			प्रसन्न	prasann		
+bright	direct	चमकीला	camkīlā	चमकीले	camkīle	चमकीली	camkīlī	चमकीली	camkīlī
+bright	oblique	चमकीले	camkīle	चमकीले	camkīle	चमकीली	camkīlī	चमकीली	camkīlī
+bright	vocative	चमकीले	camkīle	चमकीले	camkīle	चमकीली	camkīlī	चमकीली	camkīlī
+red	direct	लाल	lāl	लाल	lāl	लाल	lāl	लाल	lāl
+red	oblique	लाल	lāl	लालों	lālõ	लाल	lāl	लालों	lālõ
+red	vocative	लाल	lāl	लालो	lālo	लाल	lāl	लालो	lālo
