@@ -98,13 +98,6 @@ resemble	indicative	past	perfective	semănasem	semănaseși	semănase	semănaser
 resemble	subjunctive	present		să semănsă seamăn	să semeni	să semene	să semănăm	să semănați	să semene
 resemble	imperative	affirmative		—	seamănă	—	—	semănați	—
 resemble	imperative	negative		—	nu semăna	—	—	nu semănați	—
-resemble	indicative	present	simple	semănseamăn	semeni	seamănă	semănăm	semănați	seamănă
-resemble	indicative	past	imperfective	semănam	semănai	semăna	semănam	semănați	semănau
-resemble	indicative	present	perfective	semănai	semănași	semănă	semănarăm	semănarăți	semănară
-resemble	indicative	past	perfective	semănasem	semănaseși	semănase	semănaserăm	semănaserăți	semănaseră
-resemble	subjunctive	present		să semănsă seamăn	să semeni	să semene	să semănăm	să semănați	să semene
-resemble	imperative	affirmative		—	seamănă	—	—	semănați	—
-resemble	imperative	negative		—	nu semăna	—	—	nu semănați	—
 see	indicative	present	simple	văd	vezi	vede	vedem	vedeți	văd
 see	indicative	past	imperfective	vedeam	vedeai	vedea	vedeam	vedeați	vedeau
 see	indicative	present	perfective	văzui	văzuși	văzu	văzurăm	văzurăți	văzură
@@ -237,32 +230,199 @@ sleep	indicative	present	perfective	dormii	dormiși	dormi	dormirăm	dormirăți	
 sleep	indicative	past	perfective	dormisem	dormiseși	dormise	dormiserăm	dormiserăți	dormiseră
 sleep	subjunctive	present		să dorm	să dormi	să doarmă	să dormim	să dormiți	să doarmă
 sleep	imperative	affirmative		—	dorme	—	—	dormiți	—
-sleep	imperative	negative		—	nu dormi	—	—	nu dormiți	—
-offer	indicative	present	simple	ofer	oferi	oferă	oferim	oferiți	oferă
-offer	indicative	past	imperfective	ofeream	ofereai	oferea	ofeream	ofereați	ofereau
-offer	indicative	present	perfective	oferii	oferiși	oferi	oferirăm	oferirăți	oferiră
-offer	indicative	past	perfective	oferisem	oferiseși	oferise	oferiserăm	oferiserăți	oferiseră
-offer	subjunctive	present		să ofer	să oferi	să ofere	să oferim	să oferiți	să ofere
-offer	imperative	affirmative		—	ofere	—	—	oferiți	—
-offer	imperative	negative		—	nu oferi	—	—	nu oferiți	—
-choose	indicative	present	simple	aleg	alegi	alege	alegem	alegeți	aleg
-choose	indicative	past	imperfective	alegeam	alegeai	alegea	alegeam	alegeați	alegeau
-choose	indicative	present	perfective	alesei	aleseși	alese	aleserăm	aleserăți	aleseră
-choose	indicative	past	perfective	alesesem	aleseseși	alesese	aleseserăm	aleseserăți	aleseseră
-choose	subjunctive	present		să aleg	să alegi	să aleagă	să alegem	să alegeți	să aleagă
-choose	imperative	affirmative		—	alege	—	—	alegeți	—
-choose	imperative	negative		—	nu alege	—	—	nu alegeți	—
-know	indicative	present	simple	știu	știi	știe	știm	știți	știu
-know	indicative	past	imperfective	știam	știai	știa	știam	știați	știau
-know	indicative	present	perfective	știui	știuși	știu	știurăm	știurăți	știură
-know	indicative	past	perfective	știusem	știuseși	știuse	știuserăm	știuserăți	știuseră
-know	subjunctive	present		să știu	să știi	să știe	să știm	să știți	să știe
-know	imperative	affirmative		—	știe	—	—	știți	—
-know	imperative	negative		—	nu ști	—	—	nu știți	—
-be	indicative	present	simple	sunt 	ești 	este, e 	suntem 	sunteți 	sunt
-be	indicative	past	imperfective	eram 	erai 	era 	eram 	erați 	erau
-be	indicative	present	perfective	fusei, fui 	fuseși, fuși 	fuse, fu 	fuserăm, furăm 	fuserăți, furăți 	fuseră, fură
-be	indicative	past	perfective	fusesem 	fuseseși 	fusese 	fuseserăm 	fuseserăți 	fuseseră 
-be	subjunctive	present		să fiu 	să fii 	să fie 	să fim 	să fiți 	să fie 
-be	imperative	affirmative		—	fii 	—	—	fiți 	—
-be	imperative	negative		—	nu fi 	—	—	nu fiți 	—
+love	indicative	present	simple	admir	admiri	admiră	admirăm	admirați	admiră
+love	indicative	past	imperfective	admiram	admirai	admira	admiram	admirați	admirau
+love	indicative	present	perfective	admirai	admirași	admiră	admirarăm	admirarăți	admirară
+love	indicative	past	perfective	admirasem	admiraseși	admirase	admiraserăm	admiraserăți	admiraseră
+love	subjunctive	present		să admir	să admiri	să admire	să admirăm	să admirați	să admire
+love	imperative	affirmative		—	admiră	—	—	admirați	—
+love	imperative	negative		—	nu admira	—	—	nu admirați	—
+make	indicative	present	simple	fac	faci	face	facem	faceți	fac
+make	indicative	past	imperfective	făceam	făceai	făcea	făceam	făceați	făceau
+make	indicative	present	perfective	făcui	făcuși	făcu	făcurăm	făcurăți	făcură
+make	indicative	past	perfective	făcusem	făcuseși	făcuse	făcuserăm	făcuserăți	făcuseră
+make	subjunctive	present		să fac	să faci	să facă	să facem	să faceți	să facă
+make	imperative	affirmative		—	fă	—	—	faceți	—
+make	imperative	negative		—	nu face	—	—	nu faceți	—
+speak	indicative	present	simple	vorbesc	vorbești	vorbește	vorbim	vorbiți	vorbesc
+speak	indicative	past	imperfective	vorbeam	vorbeai	vorbea	vorbeam	vorbeați	vorbeau
+speak	indicative	present	perfective	vorbii	vorbiși	vorbi	vorbirăm	vorbirăți	vorbiră
+speak	indicative	past	perfective	vorbisem	vorbiseși	vorbise	vorbiserăm	vorbiserăți	vorbiseră
+speak	subjunctive	present		să vorbesc	să vorbești	să vorbească	să vorbim	să vorbiți	să vorbească
+speak	imperative	affirmative		—	vorbește	—	—	vorbiți	—
+speak	imperative	negative		—	nu vorbi	—	—	nu vorbiți	—
+speak	indicative	present	simple	discut	discuți	discută	discutăm	discutați	discută
+speak	indicative	past	imperfective	discutam	discutai	discuta	discutam	discutați	discutau
+speak	indicative	present	perfective	discutai	discutași	discută	discutarăm	discutarăți	discutară
+speak	indicative	past	perfective	discutasem	discutaseși	discutase	discutaserăm	discutaserăți	discutaseră
+speak	subjunctive	present		să discut	să discuți	să discute	să discutăm	să discutați	să discute
+speak	imperative	affirmative		—	discută	—	—	discutați	—
+speak	imperative	negative		—	nu discuta	—	—	nu discutați	—
+become	indicative	present	simple	devin	devii	devine	devenim	deveniți	devin
+become	indicative	past	imperfective	deveneam	deveneai	devenea	deveneam	deveneați	deveneau
+become	indicative	present	perfective	devenii	deveniși	deveni	devenirăm	devenirăți	deveniră
+become	indicative	past	perfective	devenisem	deveniseși	devenise	deveniserăm	deveniserăți	deveniseră
+become	subjunctive	present		să devin	să devii	să devină	să devenim	să deveniți	să devină
+become	imperative	affirmative		—	devino	—	—	deveniți	—
+become	imperative	negative		—	nu deveni	—	—	nu deveniți	—
+learn	indicative	present	simple	învăț	înveți	învață	învățăm	învățați	învață
+learn	indicative	past	imperfective	învățam	învățai	învăța	învățam	învățați	învățau
+learn	indicative	present	perfective	învățai	învățași	învăță	învățarăm	învățarăți	învățară
+learn	indicative	past	perfective	învățasem	învățaseși	învățase	învățaserăm	învățaserăți	învățaseră
+learn	subjunctive	present		să învăț	să înveți	să învețe	să învățăm	să învățați	să învețe
+learn	imperative	affirmative		—	învață	—	—	învățați	—
+learn	imperative	negative		—	nu învăța	—	—	nu învățați	—
+learn	indicative	present	simple	aflu	afli	află	aflăm	aflați	află
+learn	indicative	past	imperfective	aflam	aflai	afla	aflam	aflați	aflau
+learn	indicative	present	perfective	aflai	aflași	află	aflarăm	aflarăți	aflară
+learn	indicative	past	perfective	aflasem	aflaseși	aflase	aflaserăm	aflaserăți	aflaseră
+learn	subjunctive	present		să aflu	să afli	să afle	să aflăm	să aflați	să afle
+learn	imperative	affirmative		—	află	—	—	aflați	—
+learn	imperative	negative		—	nu afla	—	—	nu aflați	—
+help	indicative	present	simple	ajut	ajuți	ajută	ajutăm	ajutați	ajută
+help	indicative	past	imperfective	ajutam	ajutai	ajuta	ajutam	ajutați	ajutau
+help	indicative	present	perfective	ajutai	ajutași	ajută	ajutarăm	ajutarăți	ajutară
+help	indicative	past	perfective	ajutasem	ajutaseși	ajutase	ajutaserăm	ajutaserăți	ajutaseră
+help	subjunctive	present		să ajut	să ajuți	să ajute	să ajutăm	să ajutați	să ajute
+help	imperative	affirmative		—	ajută	—	—	ajutați	—
+help	imperative	negative		—	nu ajuta	—	—	nu ajutați	—
+help	indicative	present	simple	asist	asiști	asistă	asistăm	asistați	asistă
+help	indicative	past	imperfective	asistam	asistai	asista	asistam	asistați	asistau
+help	indicative	present	perfective	asistai	asistași	asistă	asistarăm	asistarăți	asistară
+help	indicative	past	perfective	asistasem	asistaseși	asistase	asistaserăm	asistaserăți	asistaseră
+help	subjunctive	present		să asist	să asiști	să asiste	să asistăm	să asistați	să asiste
+help	imperative	affirmative		—	asistă	—	—	asistați	—
+help	imperative	negative		—	nu asista	—	—	nu asistați	—
+protect	indicative	present	simple	protejez	protejezi	protejează	protejăm	protejați	protejează
+protect	indicative	past	imperfective	protejam	protejai	proteja	protejam	protejați	protejau
+protect	indicative	present	perfective	protejai	protejași	protejă	protejarăm	protejarăți	protejară
+protect	indicative	past	perfective	protejasem	protejaseși	protejase	protejaserăm	protejaserăți	protejaseră
+protect	subjunctive	present		să protejez	să protejezi	să protejeze	să protejăm	să protejați	să protejeze
+protect	imperative	affirmative		—	protejează	—	—	protejați	—
+protect	imperative	negative		—	nu proteja	—	—	nu protejați	—
+hide	indicative	present	simple	ascund	ascunzi	ascunde	ascundem	ascundeți	ascund
+hide	indicative	past	imperfective	ascundeam	ascundeai	ascundea	ascundeam	ascundeați	ascundeau
+hide	indicative	present	perfective	ascunsei	ascunseși	ascunse	ascunserăm	ascunserăți	ascunseră
+hide	indicative	past	perfective	ascunsesem	ascunseseși	ascunsese	ascunseserăm	ascunseserăți	ascunseseră
+hide	subjunctive	present		să ascund	să ascunzi	să ascundă	să ascundem	să ascundeți	să ascundă
+hide	imperative	affirmative		—	ascunde	—	—	ascundeți	—
+hide	imperative	negative		—	nu ascunde	—	—	nu ascundeți	—
+be-able	indicative	present	simple	pot	poți	poate	putem	puteți	pot
+be-able	indicative	past	imperfective	puteam	puteai	putea	puteam	puteați	puteau
+be-able	indicative	present	perfective	putui	putuși	putu	puturăm	puturăți	putură
+be-able	indicative	past	perfective	putusem	putuseși	putuse	putuserăm	putuserăți	putuseră
+be-able	subjunctive	present		să pot	să poți	să poată	să putem	să puteți	să poată
+be-able	imperative	affirmative		—	poate	—	—	puteți	—
+be-able	imperative	negative		—	nu putea	—	—	nu puteți	—
+arrive	indicative	present	simple	ajung	ajungi	ajunge	ajungem	ajungeți	ajung
+arrive	indicative	past	imperfective	ajungeam	ajungeai	ajungea	ajungeam	ajungeați	ajungeau
+arrive	indicative	present	perfective	ajunsei	ajunseși	ajunse	ajunserăm	ajunserăți	ajunseră
+arrive	indicative	past	perfective	ajunsesem	ajunseseși	ajunsese	ajunseserăm	ajunseserăți	ajunseseră
+arrive	subjunctive	present		să ajung	să ajungi	să ajungă	să ajungem	să ajungeți	să ajungă
+arrive	imperative	affirmative		—	ajunge	—	—	ajungeți	—
+arrive	imperative	negative		—	nu ajunge	—	—	nu ajungeți	—
+ask	indicative	present	simple	întreb	întrebi	întreabă	întrebăm	întrebați	întreabă
+ask	indicative	past	imperfective	întrebam	întrebai	întreba	întrebam	întrebați	întrebau
+ask	indicative	present	perfective	întrebai	întrebași	întrebă	întrebarăm	întrebarăți	întrebară
+ask	indicative	past	perfective	întrebasem	întrebaseși	întrebase	întrebaserăm	întrebaserăți	întrebaseră
+ask	subjunctive	present		să întreb	să întrebi	să întrebe	să întrebăm	să întrebați	să întrebe
+ask	imperative	affirmative		—	întreabă	—	—	întrebați	—
+ask	imperative	negative		—	nu întreba	—	—	nu întrebați	—
+lead	indicative	present	simple	duc	duci	duce	ducem	duceți	duc
+lead	indicative	past	imperfective	duceam	duceai	ducea	duceam	duceați	duceau
+lead	indicative	present	perfective	dusei	duseși	duse	duserăm	duserăți	duseră
+lead	indicative	past	perfective	dusesem	duseseși	dusese	duseserăm	duseserăți	duseseră
+lead	subjunctive	present		să duc	să duci	să ducă	să ducem	să duceți	să ducă
+lead	imperative	affirmative		—	du	—	—	duceți	—
+lead	imperative	negative		—	nu duce	—	—	nu duceți	—
+upset	indicative	present	simple	tulbur	tulburi	tulbură	tulburăm	tulburați	tulbură
+upset	indicative	past	imperfective	tulburam	tulburai	tulbura	tulburam	tulburați	tulburau
+upset	indicative	present	perfective	tulburai	tulburași	tulbură	tulburarăm	tulburarăți	tulburară
+upset	indicative	past	perfective	tulburasem	tulburaseși	tulburase	tulburaserăm	tulburaserăți	tulburaseră
+upset	subjunctive	present		să tulbur	să tulburi	să tulbure	să tulburăm	să tulburați	să tulbure
+upset	imperative	affirmative		—	tulbură	—	—	tulburați	—
+upset	imperative	negative		—	nu tulbura	—	—	nu tulburați	—
+come	indicative	present	simple	vin	vii	vine	venim	veniți	vin
+come	indicative	past	imperfective	veneam	veneai	venea	veneam	veneați	veneau
+come	indicative	present	perfective	venii	veniși	veni	venirăm	venirăți	veniră
+come	indicative	past	perfective	venisem	veniseși	venise	veniserăm	veniserăți	veniseră
+come	subjunctive	present		să vin	să vii	să vină	să venim	să veniți	să vină
+come	imperative	affirmative		—	vino	—	—	veniți	—
+come	imperative	negative		—	nu veni	—	—	nu veniți	—
+come-late	indicative	present	simple	întârzii	întârzii	întârzie	întârziem	întârziați	întârzie
+come-late	indicative	past	imperfective	întârziam	întârziai	întârzia	întârziam	întârziați	întârziau
+come-late	indicative	present	perfective	întârziai	întârziași	întârzie	întârziarăm	întârziarăți	întârziară
+come-late	indicative	past	perfective	întârziasem	întârziaseși	întârziase	întârziaserăm	întârziaserăți	întârziaseră
+come-late	subjunctive	present		să întârzii	să întârzii	să întârzie	să întârziem	să întârziați	să întârzie
+come-late	imperative	affirmative		—	întârzie	—	—	întârziați	—
+come-late	imperative	negative		—	nu întârzia	—	—	nu întârziați	—
+suffer	indicative	present	simple	sufăr	suferi	suferă	suferim	suferiți	suferă
+suffer	indicative	past	imperfective	sufeream	sufereai	suferea	sufeream	sufereați	sufereau
+suffer	indicative	present	perfective	suferii	suferiși	suferi	suferirăm	suferirăți	suferiră
+suffer	indicative	past	perfective	suferisem	suferiseși	suferise	suferiserăm	suferiserăți	suferiseră
+suffer	subjunctive	present		să sufăr	să suferi	să sufere	să suferim	să suferiți	să sufere
+suffer	imperative	affirmative		—	suferă	—	—	suferiți	—
+suffer	imperative	negative		—	nu suferi	—	—	nu suferiți	—
+fight	indicative	present	simple	lupt	lupți	luptă	luptăm	luptați	luptă
+fight	indicative	past	imperfective	luptam	luptai	lupta	luptam	luptați	luptau
+fight	indicative	present	perfective	luptai	luptași	luptă	luptarăm	luptarăți	luptară
+fight	indicative	past	perfective	luptasem	luptaseși	luptase	luptaserăm	luptaserăți	luptaseră
+fight	subjunctive	present		să lupt	să lupți	să lupte	să luptăm	să luptați	să lupte
+fight	imperative	affirmative		—	luptă	—	—	luptați	—
+fight	imperative	negative		—	nu lupta	—	—	nu luptați	—
+greet	indicative	present	simple	salut	saluți	salută	salutăm	salutați	salută
+greet	indicative	past	imperfective	salutam	salutai	saluta	salutam	salutați	salutau
+greet	indicative	present	perfective	salutai	salutași	salută	salutarăm	salutarăți	salutară
+greet	indicative	past	perfective	salutasem	salutaseși	salutase	salutaserăm	salutaserăți	salutaseră
+greet	subjunctive	present		să salut	să saluți	să salute	să salutăm	să salutați	să salute
+greet	imperative	affirmative		—	salută	—	—	salutați	—
+greet	imperative	negative		—	nu saluta	—	—	nu salutați	—
+heal	indicative	present	simple	vindec	vindeci	vindecă	vindecăm	vindecați	vindecă
+heal	indicative	past	imperfective	vindecam	vindecai	vindeca	vindecam	vindecați	vindecau
+heal	indicative	present	perfective	vindecai	vindecași	vindecă	vindecarăm	vindecarăți	vindecară
+heal	indicative	past	perfective	vindecasem	vindecaseși	vindecase	vindecaserăm	vindecaserăți	vindecaseră
+heal	subjunctive	present		să vindec	să vindeci	să vindece	să vindecăm	să vindecați	să vindece
+heal	imperative	affirmative		—	vindecă	—	—	vindecați	—
+heal	imperative	negative		—	nu vindeca	—	—	nu vindecați	—
+heat	indicative	present	simple	încălzesc	încălzești	încălzește	încălzim	încălziți	încălzesc
+heat	indicative	past	imperfective	încălzeam	încălzeai	încălzea	încălzeam	încălzeați	încălzeau
+heat	indicative	present	perfective	încălzii	încălziși	încălzi	încălzirăm	încălzirăți	încălziră
+heat	indicative	past	perfective	încălzisem	încălziseși	încălzise	încălziserăm	încălziserăți	încălziseră
+heat	subjunctive	present		să încălzesc	să încălzești	să încălzească	să încălzim	să încălziți	să încălzească
+heat	imperative	affirmative		—	încălzește	—	—	încălziți	—
+heat	imperative	negative		—	nu încălzi	—	—	nu încălziți	—
+read	indicative	present	simple	citesc	citești	citește	citim	citiți	citesc
+read	indicative	past	imperfective	citeam	citeai	citea	citeam	citeați	citeau
+read	indicative	present	perfective	citii	citiși	citi	citirăm	citirăți	citiră
+read	indicative	past	perfective	citisem	citiseși	citise	citiserăm	citiserăți	citiseră
+read	subjunctive	present		să citesc	să citești	să citească	să citim	să citiți	să citească
+read	imperative	affirmative		—	citește	—	—	citiți	—
+read	imperative	negative		—	nu citi	—	—	nu citiți	—
+shout	indicative	present	simple	strig	strigi	strigă	strigăm	strigați	strigă
+shout	indicative	past	imperfective	strigam	strigai	striga	strigam	strigați	strigau
+shout	indicative	present	perfective	strigai	strigași	strigă	strigarăm	strigarăți	strigară
+shout	indicative	past	perfective	strigasem	strigaseși	strigase	strigaserăm	strigaserăți	strigaseră
+shout	subjunctive	present		să strig	să strigi	să strige	să strigăm	să strigați	să strige
+shout	imperative	affirmative		—	strigă	—	—	strigați	—
+shout	imperative	negative		—	nu striga	—	—	nu strigați	—
+frighten	indicative	present	simple	sperii	sperii	sperie	speriem	speriați	sperie
+frighten	indicative	past	imperfective	speriam	speriai	speria	speriam	speriați	speriau
+frighten	indicative	present	perfective	speriai	speriași	sperie	speriarăm	speriarăți	speriară
+frighten	indicative	past	perfective	speriasem	speriaseși	speriase	speriaserăm	speriaserăți	speriaseră
+frighten	subjunctive	present		să sperii	să sperii	să sperie	să speriem	să speriați	să sperie
+frighten	imperative	affirmative		—	sperie	—	—	speriați	—
+frighten	imperative	negative		—	nu speria	—	—	nu speriați	—
+surprise	indicative	present	simple	surprind	surprinzi	surprinde	surprindem	surprindeți	surprind
+surprise	indicative	past	imperfective	surprindeam	surprindeai	surprindea	surprindeam	surprindeați	surprindeau
+surprise	indicative	present	perfective	surprinsei	surprinseși	surprinse	surprinserăm	surprinserăți	surprinseră
+surprise	indicative	past	perfective	surprinsesem	surprinseseși	surprinsese	surprinseserăm	surprinseserăți	surprinseseră
+surprise	subjunctive	present		să surprind	să surprinzi	să surprindă	să surprindem	să surprindeți	să surprindă
+surprise	imperative	affirmative		—	surprinde	—	—	surprindeți	—
+surprise	imperative	negative		—	nu surprinde	—	—	nu surprindeți	—
+wait	indicative	present	simple	aștept	aștepți	așteaptă	așteptăm	așteptați	așteaptă
+wait	indicative	past	imperfective	așteptam	așteptai	aștepta	așteptam	așteptați	așteptau
+wait	indicative	present	perfective	așteptai	așteptași	așteptă	așteptarăm	așteptarăți	așteptară
+wait	indicative	past	perfective	așteptasem	așteptaseși	așteptase	așteptaserăm	așteptaserăți	așteptaseră
+wait	subjunctive	present		să aștept	să aștepți	să aștepte	să așteptăm	să așteptați	să aștepte
+wait	imperative	affirmative		—	așteaptă	—	—	așteptați	—
+wait	imperative	negative		—	nu aștepta	—	—	nu așteptați	—

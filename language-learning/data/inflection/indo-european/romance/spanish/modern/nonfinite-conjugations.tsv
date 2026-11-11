@@ -1,38 +1,72 @@
-*	*	*	*	infinitive	participle	participle	participle	participle	participle
-*	*	*	*		present	past	past	past	past
-*	*	*	*			masculine	feminine	masculine	feminine
-*	*	*	*			singular	singular	plural	plural
-appear	participle	past	singular	aparecer	apareciendo	aparecido	aparecida	aparecidos	aparecidas
-be-inherently	participle	past	singular	ser	siendo	sido	sida	sidos	sidas
-be-momentarily	participle	past	singular	estar	estando	estado	estada	estados	estadas
-change	participle	past	singular	cambiar	cambiando	cambiado	cambiada	cambiados	cambiadas
-climb	participle	past	singular	escalar	escalando	escalado	escalada	escalados	escaladas
-crawl	participle	past	singular	arrastrar	arrastrando	arrastrado	arrastrada	arrastrados	arrastradas
-cool	participle	past	singular	enfriar	enfriando	enfriado	enfriada	enfriados	enfriadas
-direct	participle	past	singular	guiar	guiando	guiado	guiada	guiados	guiadas
-displease	participle	past	singular	desazonar	desazonando	desazonado	desazonada	desazonados	desazonadas
-eat	participle	past	singular	comer	comiendo	comido	comida	comidos	comidas
-endure	participle	past	singular	tolerar	tolerando	tolerado	tolerada	tolerados	toleradas
-fall	participle	past	singular	caer	cayendo	caído	caída	caídos	caídas
-fly	participle	past	singular	volar	volando	volado	volada	volados	voladas
-flow	participle	past	singular	fluir	fluyendo	fluido	fluida	fluidos	fluidas
-hear	participle	past	singular	oír	oyendo	oído	oída	oídos	oídas
-occupy	participle	past	singular	ocupar	ocupando	ocupado	ocupada	ocupados	ocupadas
-resemble	participle	past	singular	semejar	semejando	semejado	semejada	semejados	semejadas
-rest	participle	past	singular	reposar	reposando	reposado	reposada	reposados	reposadas
-see	participle	past	singular	ver	viendo	visto	vista	vistos	vistas
-show	participle	past	singular	mostrar	mostrando	mostrado	mostrada	mostrados	mostradas
-startle	participle	past	singular	atemorizar	atemorizando	atemorizado	atemorizada	atemorizados	atemorizadas
-swim	participle	past	singular	nadar	nadando	nadado	nadada	nadados	nadadas
-walk	participle	past	singular	caminar	caminando	caminado	caminada	caminados	caminadas
-warm	participle	past	singular	calentar	calentando	calentado	calentada	calentados	calentadas
-watch	participle	past	singular	mirar	mirando	mirado	mirada	mirados	miradas
-work	participle	past	singular	trabajar	trabajando	trabajado	trabajada	trabajados	trabajadas
-have	participle	past	singular	haber	habiendo	habido	habida	habidos	habidas
-have-in-possession	participle	past	singular	tener	teniendo	tenido	tenida	tenidos	tenidas
-go	participle	past	singular	ir	yendo	ido	ida	idos	idas
-love	participle	past	singular	amar	amando	amado	amada	amados	amadas
-fear	participle	past	singular	temer	temiendo	temido	temida	temidos	temidas
-part	participle	past	singular	partir	partiendo	partido	partida	partidos	partidas
-know	participle	past	singular	conocer	conociendo	conocido	conocida	conocidos	conocidas
-drive	participle	past	singular	conducir	conduciendo	conducido	conducida	conducidos	conducidas
+*	infinitive	participle	participle	participle	participle	participle
+*		present	past	past	past	past
+*			masculine	feminine	masculine	feminine
+*			singular	singular	plural	plural
+appear	aparecer	aparecido	aparecida	aparecidas	apareciendo	aparecidos
+be-inherently	ser	sido	sida	sidos	siendo	sidas
+be-momentarily	estar	estado	estada	estados	estando	estadas
+change	cambiar	cambiado	cambiada	cambiados	cambiando	cambiadas
+climb	escalar	escalado	escalada	escalados	escalando	escaladas
+crawl	arrastrar	arrastrado	arrastrada	arrastrados	arrastrando	arrastradas
+cool	enfriar	enfriado	enfriada	enfriados	enfriando	enfriadas
+direct	guiar	guiado	guiada	guiados	guiando	guiadas
+displease	desazonar	desazonado	desazonada	desazonados	desazonando	desazonadas
+eat	comer	comido	comida	comidos	comiendo	comidas
+endure	tolerar	tolerado	tolerada	tolerados	tolerando	toleradas
+fall	caer	caído	caída	caídos	cayendo	caídas
+fly	volar	volado	volada	volados	volando	voladas
+flow	fluir	fluido	fluida	fluidos	fluyendo	fluidas
+hear	oír	oído	oída	oídos	oyendo	oídas
+occupy	ocupar	ocupado	ocupada	ocupados	ocupando	ocupadas
+resemble	semejar	semejado	semejada	semejados	semejando	semejadas
+rest	reposar	reposado	reposada	reposados	reposando	reposadas
+see	ver	visto	vista	vistos	viendo	vistas
+show	mostrar	mostrado	mostrada	mostrados	mostrando	mostradas
+startle	atemorizar	atemorizado	atemorizada	atemorizados	atemorizando	atemorizadas
+swim	nadar	nadado	nadada	nadados	nadando	nadadas
+walk	caminar	caminado	caminada	caminados	caminando	caminadas
+warm	calentar	calentado	calentada	calentados	calentando	calentadas
+watch	mirar	mirado	mirada	mirados	mirando	miradas
+work	trabajar	trabajado	trabajada	trabajados	trabajando	trabajadas
+have	haber	habido	habida	habidos	habiendo	habidas
+have-in-possession	tener	tenido	tenida	tenidos	teniendo	tenidas
+go	ir	ido	ida	idos	yendo	idas
+love	amar	amado	amada	amados	amando	amadas
+fear	temer	temido	temida	temidos	temiendo	temidas
+part	partir	partido	partida	partidos	partiendo	partidas
+know	conocer	conocido	conocida	conocidos	conociendo	conocidas
+drive	conducir	conducido	conducida	conducidos	conduciendo	conducidas
+make	hacer	haciendo	hecho	hecha	hechos	hechas
+speak	hablar	hablando	hablado	hablada	hablados	habladas
+become	llegar	llegando	llegar	llegada	llegados	llegadas
+learn	aprender	aprendiendo	aprendido	aprendida	aprendidos	aprendidas
+give	dar	dando	dado	dada	dados	dadas
+help	ayudar	ayudando	ayudado	ayudada	ayudados	ayudadas
+protect	proteger	protegiendo	protegido	protegida	protegidos	protegidas
+hide	ocultar	ocultando	ocultado	ocultada	ocultados	ocultadas
+be-able	poder	pudiendo	podido	podida	podidos	podidas
+arrive	llegar	llegando	llegado	llegada	llegados	llegadas
+come	conllevar	conllevando	conllevado	conllevada	conllevados	conllevadas
+ask	preguntar	preguntando	preguntado	preguntada	preguntados	preguntadas
+be-inherently	ser	siendo	sido	sida	sidos	sidas
+be-momentarily	estar	estando	estado	estada	estados	estadas
+open	abrir	abriendo	abierto	abierta	abiertos	abiertas
+chill	enfriar	enfriando	enfriado	enfriada	enfriados	enfriadas
+lead	llevar	llevando	llevado	llevada	llevados	llevadas
+lead	llevar	llevando	llevado	llevada	llevados	llevadas
+upset	desazonar	desazonando	desazonado	desazonada	desazonados	desazonadas
+anger	enojar	enojando	enojado	enojada	enojados	enojadas
+fix	arreglar	arreglando	arreglado	arreglada	arreglados	arregladas
+become-open	abrir	abriendo	abierto	abierta	abiertos	abiertas
+suffer	sufrir	sufriendo	sufrido	sufrida	sufridos	sufridas
+fight	pelear	peleando	peleado	peleada	peleados	peleadas
+greet	saludar	saludando	saludado	saludada	saludados	saludadas
+heal	curar	curando	curado	curada	curados	curadas
+heat	calentar	calentando	calentado	calentada	calentados	calentadas
+inhabit	habitar	habitando	habitado	habitada	habitados	habitadas
+read	leer	leyendo	leído	leída	leídos	leídas
+shout	gritar	gritando	gritado	gritada	gritados	gritadas
+frighten	atemorizar	atemorizando	atemorizado	atemorizada	atemorizados	atemorizadas
+surprise	sorprender	sorprendiendo	sorprendido	sorprendida	sorprendidos	sorprendidas
+throw	lanzar	lanzando	lanzado	lanzada	lanzados	lanzadas
+wait	esperar	esperando	esperado	esperada	esperados	esperadas

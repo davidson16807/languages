@@ -2,162 +2,546 @@
 *	*	indefinite	definite	indefinite	definite						
 animal	nominative	(un) animal	animalul	(niște) animale	animalele						
 animal	accusative	(un) animal	animalul	(niște) animale	animalele						
+animal	genitive	(unui) animal	animalului	(unor) animale	animalelor						
 animal	dative	(unui) animal	animalului	(unor) animale	animalelor						
 animal	vocative	animalule	animalule	animalelor	animalelor						
 attention	nominative	(o) atenție	atenția	(niște) atenții	atențiile						
 attention	accusative	(o) atenție	atenția	(niște) atenții	atențiile						
+attention	genitive	(unei) atenții	atenției	(unor) atenții	atențiilor						
 attention	dative	(unei) atenții	atenției	(unor) atenții	atențiilor						
 attention	vocative	atenție, atențio	atenție, atențio	atențiilor	atențiilor						
 bird	nominative	(o) pasăre	pasărea	(niște) păsări	păsările						
 bird	accusative	(o) pasăre	pasărea	(niște) păsări	păsările						
+bird	genitive	(unei) păsări	păsării	(unor) păsări	păsărilor						
 bird	dative	(unei) păsări	păsării	(unor) păsări	păsărilor						
 bird	vocative	pasăre, pasăreo	pasăre, pasăreo	păsărilor	păsărilor						
 boat	nominative	(o) barcă	barca	(niște) bărci	bărcile						
 boat	accusative	(o) barcă	barca	(niște) bărci	bărcile						
+boat	genitive	(unei) bărci	bărcii	(unor) bărci	bărcilor						
 boat	dative	(unei) bărci	bărcii	(unor) bărci	bărcilor						
 boat	vocative	barcă, barco	barcă, barco	bărcilor	bărcilor						
 book	nominative	(o) carte	cartea	(niște) cărți	cărțile						
 book	accusative	(o) carte	cartea	(niște) cărți	cărțile						
+book	genitive	(unei) cărți	cărții	(unor) cărți	cărților						
 book	dative	(unei) cărți	cărții	(unor) cărți	cărților						
 book	vocative	carte, carteo	carte, carteo	cărților	cărților						
 brother	nominative	(un) frate	fratele	(niște) frați	frații						
 brother	accusative	(un) frate	fratele	(niște) frați	frații						
+brother	genitive	(unui) frate	fratelui	(unor) frați	fraților						
 brother	dative	(unui) frate	fratelui	(unor) frați	fraților						
 brother	vocative	frate	frate	fraților	fraților						
 bug	nominative	(o) insectă	insecta	(niște) insecte	insectele						
 bug	accusative	(o) insectă	insecta	(niște) insecte	insectele						
+bug	genitive	(unei) insecte	insectei	(unor) insecte	insectelor						
 bug	dative	(unei) insecte	insectei	(unor) insecte	insectelor						
 bug	vocative	insectă, insecto	insectă, insecto	insectelor	insectelor						
 clothing	nominative	(o) îmbrăcăminte	îmbrăcămintea	(niște) îmbrăcăminți	îmbrăcămințile						
 clothing	accusative	(o) îmbrăcăminte	îmbrăcămintea	(niște) îmbrăcăminți	îmbrăcămințile						
+clothing	genitive	(unei) îmbrăcăminți	îmbrăcăminții	(unor) îmbrăcăminți	îmbrăcăminților						
 clothing	dative	(unei) îmbrăcăminți	îmbrăcăminții	(unor) îmbrăcăminți	îmbrăcăminților						
 clothing	vocative	—	—	—	—						
 daughter	nominative	(o) fiică	fiica	(niște) fiice	fiicele						
 daughter	accusative	(o) fiică	fiica	(niște) fiice	fiicele						
+daughter	genitive	(unei) fiice	fiicei	(unor) fiice	fiicelor						
 daughter	dative	(unei) fiice	fiicei	(unor) fiice	fiicelor						
 daughter	vocative	fiică, fiico	fiică, fiico	fiicelor	fiicelor						
 dog	nominative	(un) câine	câinele	(niște) câini	câinii						
 dog	accusative	(un) câine	câinele	(niște) câini	câinii						
+dog	genitive	(unui) câine	câinelui	(unor) câini	câinilor						
 dog	dative	(unui) câine	câinelui	(unor) câini	câinilor						
 dog	vocative	câine	câine	câinilor	câinilor						
 door	nominative	(o) ușă	ușa	(niște) uși	ușile						
 door	accusative	(o) ușă	ușa	(niște) uși	ușile						
+door	genitive	(unei) uși	ușii	(unor) uși	ușilor						
 door	dative	(unei) uși	ușii	(unor) uși	ușilor						
 door	vocative	ușă, ușo	ușă, ușo	ușilor	ușilor						
 drum	nominative	(o) tobă	toba	(niște) tobe	tobele						
 drum	accusative	(o) tobă	toba	(niște) tobe	tobele						
+drum	genitive	(unei) tobe	tobei	(unor) tobe	tobelor						
 drum	dative	(unei) tobe	tobei	(unor) tobe	tobelor						
 drum	vocative	—	—	—	—						
 enemy	nominative	(un) dușman	dușmanul	(niște) dușmani	dușmanii						
 enemy	accusative	(un) dușman	dușmanul	(niște) dușmani	dușmanii						
+enemy	genitive	(unui) dușman	dușmanului	(unor) dușmani	dușmanilor						
 enemy	dative	(unui) dușman	dușmanului	(unor) dușmani	dușmanilor						
 enemy	vocative	dușmanule	dușmanule	dușmanilor	dușmanilor						
 fire	nominative	(un) foc	focul	(niște) focuri	focurile						
 fire	accusative	(un) foc	focul	(niște) focuri	focurile						
+fire	genitive	(unui) foc	focului	(unor) focuri	focurilor						
 fire	dative	(unui) foc	focului	(unor) focuri	focurilor						
 fire	vocative	focule	focule	focurilor	focurilor						
 food	nominative	(un) aliment	alimentul	(niște) alimente	alimentele						
 food	accusative	(un) aliment	alimentul	(niște) alimente	alimentele						
+food	genitive	(unui) aliment	alimentului	(unor) alimente	alimentelor						
 food	dative	(unui) aliment	alimentului	(unor) alimente	alimentelor						
 food	vocative	alimentule	alimentule	alimentelor	alimentelor						
 gift	nominative	(un) cadou	cadoul	(niște) cadouri	cadourile						
 gift	accusative	(un) cadou	cadoul	(niște) cadouri	cadourile						
+gift	genitive	(unui) cadou	cadoului	(unor) cadouri	cadourilor						
 gift	dative	(unui) cadou	cadoului	(unor) cadouri	cadourilor						
 gift	vocative	cadoule	cadoule	cadourilor	cadourilor						
 glass	nominative	(o) sticlă	sticla	(niște) sticle	sticlele						
 glass	accusative	(o) sticlă	sticla	(niște) sticle	sticlele						
+glass	genitive	(unei) sticle	sticlei	(unor) sticle	sticlelor						
 glass	dative	(unei) sticle	sticlei	(unor) sticle	sticlelor						
 glass	vocative	sticlă, sticlo	sticlă, sticlo	sticlelor	sticlelor						
 guard	nominative	(o) gardă	garda	(niște) gărzi	gărzile						
 guard	accusative	(o) gardă	garda	(niște) gărzi	gărzile						
+guard	genitive	(unei) gărzi	gărzii	(unor) gărzi	gărzilor						
 guard	dative	(unei) gărzi	gărzii	(unor) gărzi	gărzilor						
 guard	vocative	gardă, gardo	gardă, gardo	gărzilor	gărzilor						
 horse	nominative	(un) cal	calul	(niște) cai	caii						
 horse	accusative	(un) cal	calul	(niște) cai	caii						
+horse	genitive	(unui) cal	calului	(unor) cai	cailor						
 horse	dative	(unui) cal	calului	(unor) cai	cailor						
 horse	vocative	calule	calule	cailor	cailor						
 house	nominative	(o) casă	casa	(niște) case	casele						
 house	accusative	(o) casă	casa	(niște) case	casele						
+house	genitive	(unei) case	casei	(unor) case	caselor						
 house	dative	(unei) case	casei	(unor) case	caselor						
 house	vocative	casă, caso	casă, caso	caselor	caselor						
 livestock	nominative	(un) șeptel	șeptelul	(niște) șepteluri	șeptelurile						
 livestock	accusative	(un) șeptel	șeptelul	(niște) șepteluri	șeptelurile						
+livestock	genitive	(unui) șeptel	șeptelului	(unor) șepteluri	șeptelurilor						
 livestock	dative	(unui) șeptel	șeptelului	(unor) șepteluri	șeptelurilor						
 livestock	vocative	șeptelule	șeptelule	șeptelurilor	șeptelurilor						
 love	nominative	(o) iubire	iubirea	(niște) iubiri	iubirile						
 love	accusative	(o) iubire	iubirea	(niște) iubiri	iubirile						
+love	genitive	(unei) iubiri	iubirii	(unor) iubiri	iubirilor						
 love	dative	(unei) iubiri	iubirii	(unor) iubiri	iubirilor						
 love	vocative	iubire, iubireo	iubire, iubireo	iubirilor	iubirilor						
 idea	nominative	(o) idee	ideea	(niște) idei	ideile						
 idea	accusative	(o) idee	ideea	(niște) idei	ideile						
+idea	genitive	(unei) idei	ideii	(unor) idei	ideilor						
 idea	dative	(unei) idei	ideii	(unor) idei	ideilor						
 idea	vocative	idee, ideeo	idee, ideeo	ideilor	ideilor						
 man	nominative	(un) bărbat	bărbatul	(niște) bărbați	bărbații						
 man	accusative	(un) bărbat	bărbatul	(niște) bărbați	bărbații						
+man	genitive	(unui) bărbat	bărbatului	(unor) bărbați	bărbaților						
 man	dative	(unui) bărbat	bărbatului	(unor) bărbați	bărbaților						
 man	vocative	bărbatule, bărbate	bărbatule, bărbate	bărbaților	bărbaților						
 money	nominative	(un) ban	banul	(niște) bani	banii						
 money	accusative	(un) ban	banul	(niște) bani	banii						
+money	genitive	(unui) ban	banului	(unor) bani	banilor						
 money	dative	(unui) ban	banului	(unor) bani	banilor						
 money	vocative	banule	banule	banilor	banilor						
 monster	nominative	(un) monstru	monstrul	(niște) monștri	monștrii						
 monster	accusative	(un) monstru	monstrul	(niște) monștri	monștrii						
+monster	genitive	(unui) monstru	monstrului	(unor) monștri	monștrilor						
 monster	dative	(unui) monstru	monstrului	(unor) monștri	monștrilor						
 monster	vocative	monstrule	monstrule	monștrilor	monștrilor						
 name	nominative	(un) nume	numele	(niște) nume	numele						
 name	accusative	(un) nume	numele	(niște) nume	numele						
+name	genitive	(unui) nume	numelui	(unor) nume	numelor						
 name	dative	(unui) nume	numelui	(unor) nume	numelor						
 name	vocative	nume	nume	numelor	numelor						
 rock	nominative	(o) stană	stana	(niște) stane	stanele						
 rock	accusative	(o) stană	stana	(niște) stane	stanele						
+rock	genitive	(unei) stane	stanei	(unor) stane	stanelor						
 rock	dative	(unei) stane	stanei	(unor) stane	stanelor						
 rock	vocative	stană, stano	stană, stano	stanelor	stanelor						
 rope	nominative	(o) frânghie	frânghia	(niște) frânghii	frânghiile						
 rope	accusative	(o) frânghie	frânghia	(niște) frânghii	frânghiile						
+rope	genitive	(unei) frânghii	frânghiei	(unor) frânghii	frânghiilor						
 rope	dative	(unei) frânghii	frânghiei	(unor) frânghii	frânghiilor						
 rope	vocative	frânghie, frânghio	frânghie, frânghio	frânghiilor	frânghiilor						
 size	nominative	(o) mărime	mărimea	(niște) mărimi	mărimile						
 size	accusative	(o) mărime	mărimea	(niște) mărimi	mărimile						
+size	genitive	(unei) mărimi	mărimii	(unor) mărimi	mărimilor						
 size	dative	(unei) mărimi	mărimii	(unor) mărimi	mărimilor						
 size	vocative	mărime, mărimeo	mărime, mărimeo	mărimilor	mărimilor						
 sister	nominative	(o) soră	sora	(niște) surori	surorile						
 sister	accusative	(o) soră	sora	(niște) surori	surorile						
+sister	genitive	(unei) surori	surorii	(unor) surori	surorilor						
 sister	dative	(unei) surori	surorii	(unor) surori	surorilor						
 sister	vocative	—	—	—	—						
 son	nominative	(un) fiu	fiul	(niște) fii	fiii						
 son	accusative	(un) fiu	fiul	(niște) fii	fiii						
+son	genitive	(unui) fiu	fiului	(unor) fii	fiilor						
 son	dative	(unui) fiu	fiului	(unor) fii	fiilor						
 son	vocative	fiule	fiule	fiilor	fiilor						
 sound	nominative	(un) sunet	sunetul	(niște) sunete	sunetele						
 sound	accusative	(un) sunet	sunetul	(niște) sunete	sunetele						
+sound	genitive	(unui) sunet	sunetului	(unor) sunete	sunetelor						
 sound	dative	(unui) sunet	sunetului	(unor) sunete	sunetelor						
 sound	vocative	sunetule	sunetule	sunetelor	sunetelor						
 warmth	nominative	(o) căldură	căldura	(niște) călduri	căldurile						
 warmth	accusative	(o) căldură	căldura	(niște) călduri	căldurile						
+warmth	genitive	(unei) călduri	căldurii	(unor) călduri	căldurilor						
 warmth	dative	(unei) călduri	căldurii	(unor) călduri	căldurilor						
 warmth	vocative	căldură, călduro	căldură, călduro	căldurilor	căldurilor						
 water	nominative	(o) apă	apa	(niște) ape	apele						
 water	accusative	(o) apă	apa	(niște) ape	apele						
+water	genitive	(unei) ape	apei	(unor) ape	apelor						
 water	dative	(unei) ape	apei	(unor) ape	apelor						
 water	vocative	apă, apo	apă, apo	apelor	apelor						
 way	nominative	(o) cale	calea	(niște) căi	căile						
 way	accusative	(o) cale	calea	(niște) căi	căile						
+way	genitive	(unei) căi	căii	(unor) căi	căilor						
 way	dative	(unei) căi	căii	(unor) căi	căilor						
 way	vocative	cale, caleo	cale, caleo	căilor	căilor						
 wind	nominative	(un) vânt	vântul	(niște) vânturi	vânturile						
 wind	accusative	(un) vânt	vântul	(niște) vânturi	vânturile						
+wind	genitive	(unui) vânt	vântului	(unor) vânturi	vânturilor						
 wind	dative	(unui) vânt	vântului	(unor) vânturi	vânturilor						
 wind	vocative	vântule	vântule	vânturilor	vânturilor						
 window	nominative	(o) fereastră	fereastra	(niște) ferestre	ferestrele						
 window	accusative	(o) fereastră	fereastra	(niște) ferestre	ferestrele						
+window	genitive	(unei) ferestre	ferestrei	(unor) ferestre	ferestrelor						
 window	dative	(unei) ferestre	ferestrei	(unor) ferestre	ferestrelor						
 window	vocative	fereastră, fereastro	fereastră, fereastro	ferestrelor	ferestrelor						
 woman	nominative	(o) femeie	femeia	(niște) femei	femeile						
 woman	accusative	(o) femeie	femeia	(niște) femei	femeile						
+woman	genitive	(unei) femei	femeii	(unor) femei	femeilor						
 woman	dative	(unei) femei	femeii	(unor) femei	femeilor						
 woman	vocative	femeie, femeio	femeie, femeio	femeilor	femeilor						
 work	nominative	(o) muncă	munca	(niște) munci	muncile						
 work	accusative	(o) muncă	munca	(niște) munci	muncile						
+work	genitive	(unei) munci	muncii	(unor) munci	muncilor						
 work	dative	(unei) munci	muncii	(unor) munci	muncilor						
 work	vocative	muncă, munco	muncă, munco	muncilor	muncilor						
 hello		salut	salut	salut	salut						
+focus	nominative	concentrare	concentrarea	concentrări	concentrările						
+focus	accusative	concentrare	concentrarea	concentrări	concentrările						
+focus	genitive	concentrări	concentrării	concentrări	concentrărilor						
+focus	dative	concentrări	concentrării	concentrări	concentrărilor						
+focus	vocative	concentrare, concentrareo	concentrare, concentrareo	concentrărilor	concentrărilor						
+thought	nominative	cuget	cugetul	cugete	cugetele						
+thought	accusative	cuget	cugetul	cugete	cugetele						
+thought	genitive	cuget	cugetului	cugete	cugetelor						
+thought	dative	cuget	cugetului	cugete	cugetelor						
+thought	vocative	cugetule	cugetule	cugetelor	cugetelor						
+ball	nominative	minge	mingea	mingi	mingile						
+ball	accusative	minge	mingea	mingi	mingile						
+ball	genitive	mingi	mingii	mingi	mingilor						
+ball	dative	mingi	mingii	mingi	mingilor						
+bridge	nominative	pod	podul	poduri	podurile						
+bridge	accusative	pod	podul	poduri	podurile						
+bridge	genitive	pod	podului	poduri	podurilor						
+bridge	dative	pod	podului	poduri	podurilor						
+bridge	vocative	podule	podule	podurilor	podurilor						
+sparrow	nominative	vrabie	vrabia	vrăbii	vrăbiile						
+sparrow	accusative	vrabie	vrabia	vrăbii	vrăbiile						
+sparrow	genitive	vrăbii	vrabiei	vrăbii	vrăbiilor						
+sparrow	dative	vrăbii	vrabiei	vrăbii	vrăbiilor						
+sparrow	vocative	vrabie, vrabio	vrabie, vrabio	vrăbiilor	vrăbiilor						
+swallow	nominative	lăstun	lăstunul	lăstuni	lăstunii						
+swallow	accusative	lăstun	lăstunul	lăstuni	lăstunii						
+swallow	genitive	lăstun	lăstunului	lăstuni	lăstunilor						
+swallow	dative	lăstun	lăstunului	lăstuni	lăstunilor						
+swallow	vocative	lăstunule	lăstunule	lăstunilor	lăstunilor						
+finch	nominative	fringilid	fringilidul	fringilide	fringilidele						
+finch	accusative	fringilid	fringilidul	fringilide	fringilidele						
+finch	genitive	fringilid	fringilidului	fringilide	fringilidelor						
+finch	dative	fringilid	fringilidului	fringilide	fringilidelor						
+finch	vocative	fringilidule	fringilidule	fringilidelor	fringilidelor						
+eagle	nominative	acvilă	acvila	acvile	acvilele						
+eagle	accusative	acvilă	acvila	acvile	acvilele						
+eagle	genitive	acvile	acvilei	acvile	acvilelor						
+eagle	dative	acvile	acvilei	acvile	acvilelor						
+eagle	vocative	acvilă, acvilo	acvilă, acvilo	acvilelor	acvilelor						
+swan	nominative	lebădă	lebăda	lebede	lebedele						
+swan	accusative	lebădă	lebăda	lebede	lebedele						
+swan	genitive	lebede	lebedei	lebede	lebedelor						
+swan	dative	lebede	lebedei	lebede	lebedelor						
+swan	vocative	lebădă, lebădo	lebădă, lebădo	lebedelor	lebedelor						
+chicken	nominative	găină	găina	găini	găinile						
+chicken	accusative	găină	găina	găini	găinile						
+chicken	genitive	găini	găinii	găini	găinilor						
+chicken	dative	găini	găinii	găini	găinilor						
+chicken	vocative	găină, găino	găină, găino	găinilor	găinilor						
+dove	nominative	porumbel	porumbelul	porumbei	porumbeii						
+dove	accusative	porumbel	porumbelul	porumbei	porumbeii						
+dove	genitive	porumbel	porumbelului	porumbei	porumbeilor						
+dove	dative	porumbel	porumbelului	porumbei	porumbeilor						
+dove	vocative	porumbelule	porumbelule	porumbeilor	porumbeilor						
+pigeon	nominative	porumbel	porumbelul	porumbei	porumbeii						
+pigeon	accusative	porumbel	porumbelul	porumbei	porumbeii						
+pigeon	genitive	porumbel	porumbelului	porumbei	porumbeilor						
+pigeon	dative	porumbel	porumbelului	porumbei	porumbeilor						
+pigeon	vocative	porumbelule	porumbelule	porumbeilor	porumbeilor						
+crow	nominative	cioară	cioara	ciori	ciorile						
+crow	accusative	cioară	cioara	ciori	ciorile						
+crow	genitive	ciori	ciorii	ciori	ciorilor						
+crow	dative	ciori	ciorii	ciori	ciorilor						
+crow	vocative	cioară, cioaro	cioară, cioaro	ciorilor	ciorilor						
+chick	nominative	pui	puiul	pui	puii						
+chick	accusative	pui	puiul	pui	puii						
+chick	genitive	pui	puiului	pui	puilor						
+chick	dative	pui	puiului	pui	puilor						
+chick	vocative	puiule	puiule	puilor	puilor						
+child	nominative	fiu	fiul	fii	fiii						
+child	accusative	fiu	fiul	fii	fiii						
+child	genitive	fiu	fiului	fii	fiilor						
+child	dative	fiu	fiului	fii	fiilor						
+egg	nominative	ou	oul	ouă	ouăle						
+egg	accusative	ou	oul	ouă	ouăle						
+egg	genitive	ou	oului	ouă	ouălor						
+egg	dative	ou	oului	ouă	ouălor						
+egg	vocative	oule	oule	ouălor	ouălor						
+nest	nominative	cuib	cuibul	cuiburi	cuiburile						
+nest	accusative	cuib	cuibul	cuiburi	cuiburile						
+nest	genitive	cuib	cuibului	cuiburi	cuiburilor						
+nest	dative	cuib	cuibului	cuiburi	cuiburilor						
+nest	vocative	cuibule	cuibule	cuiburilor	cuiburilor						
+tree	nominative	arbore	arborele	arbori	arborii						
+tree	accusative	arbore	arborele	arbori	arborii						
+tree	genitive	arbore	arborelui	arbori	arborilor						
+tree	dative	arbore	arborelui	arbori	arborilor						
+tree	vocative	arbore	arbore	arborilor	arborilor						
+insect	nominative	insectă	insecta	insecte	insectele						
+insect	accusative	insectă	insecta	insecte	insectele						
+insect	genitive	insecte	insectei	insecte	insectelor						
+insect	dative	insecte	insectei	insecte	insectelor						
+insect	vocative	insectă, insecto	insectă, insecto	insectelor	insectelor						
+beetle	nominative	gândac	gândacul	gândaci	gândacii						
+beetle	accusative	gândac	gândacul	gândaci	gândacii						
+beetle	genitive	gândac	gândacului	gândaci	gândacilor						
+beetle	dative	gândac	gândacului	gândaci	gândacilor						
+beetle	vocative	gândacule	gândacule	gândacilor	gândacilor						
+louse	nominative	păduche	păduchele	păduchi	păduchii						
+louse	accusative	păduche	păduchele	păduchi	păduchii						
+louse	genitive	păduche	păduchelui	păduchi	păduchilor						
+louse	dative	păduche	păduchelui	păduchi	păduchilor						
+louse	vocative	păduche	păduche	păduchilor	păduchilor						
+garment	nominative	haină	haina	haine	hainele						
+garment	accusative	haină	haina	haine	hainele						
+garment	genitive	haine	hainei	haine	hainelor						
+garment	dative	haine	hainei	haine	hainelor						
+garment	vocative	haină, haino	haină, haino	hainelor	hainelor						
+garment	nominative	haină	haina	haine	hainele						
+garment	accusative	haină	haina	haine	hainele						
+garment	genitive	haine	hainei	haine	hainelor						
+garment	dative	haine	hainei	haine	hainelor						
+garment	vocative	haină, haino	haină, haino	hainelor	hainelor						
+fish	nominative	pește	peștele	pești	peștii						
+fish	accusative	pește	peștele	pești	peștii						
+fish	genitive	pește	peștelui	pești	peștilor						
+fish	dative	pește	peștelui	pești	peștilor						
+fish	vocative	pește	pește	peștilor	peștilor						
+forest	nominative	pădure	pădurea	păduri	pădurile						
+forest	accusative	pădure	pădurea	păduri	pădurile						
+forest	genitive	păduri	pădurii	păduri	pădurilor						
+forest	dative	păduri	pădurii	păduri	pădurilor						
+forest	vocative	pădure, pădureo	pădure, pădureo	pădurilor	pădurilor						
+gate	nominative	poartă	poarta	porți	porțile						
+gate	accusative	poartă	poarta	porți	porțile						
+gate	genitive	porți	porții	porți	porților						
+gate	dative	porți	porții	porți	porților						
+gate	vocative	poartă, poarto	poartă, poarto	porților	porților						
+hill	nominative	deal	dealul	dealuri	dealurile						
+hill	accusative	deal	dealul	dealuri	dealurile						
+hill	genitive	deal	dealului	dealuri	dealurilor						
+hill	dative	deal	dealului	dealuri	dealurilor						
+hill	vocative	dealule	dealule	dealurilor	dealurilor						
+hill	nominative	colină	colina	coline	colinele						
+coin	nominative	monedă	moneda	monede	monedele						
+coin	accusative	monedă	moneda	monede	monedele						
+coin	genitive	monede	monedei	monede	monedelor						
+coin	dative	monede	monedei	monede	monedelor						
+coin	vocative	monedă, monedo	monedă, monedo	monedelor	monedelor						
+weath	nominative	bogăție	bogăția	bogății	bogățiile						
+weath	accusative	bogăție	bogăția	bogății	bogățiile						
+weath	genitive	bogății	bogăției	bogății	bogățiilor						
+weath	dative	bogății	bogăției	bogății	bogățiilor						
+weath	vocative	bogăție, bogățio	bogăție, bogățio	bogățiilor	bogățiilor						
+beast	nominative	fiară	fiara	fiare	fiarele						
+beast	accusative	fiară	fiara	fiare	fiarele						
+beast	genitive	fiare	fiarei	fiare	fiarelor						
+beast	dative	fiare	fiarei	fiare	fiarelor						
+beast	vocative	—	—	—	—						
+stone	nominative	piatră	piatra	pietre	pietrele						
+stone	accusative	piatră	piatra	pietre	pietrele						
+stone	genitive	pietre	pietrei	pietre	pietrelor						
+stone	dative	pietre	pietrei	pietre	pietrelor						
+stone	vocative	piatră, piatro	piatră, piatro	pietrelor	pietrelor						
+tool	nominative	sculă	scula	scule	sculele						
+tool	accusative	sculă	scula	scule	sculele						
+tool	genitive	scule	sculei	scule	sculelor						
+tool	dative	scule	sculei	scule	sculelor						
+tool	vocative	sculă, sculo	sculă, sculo	sculelor	sculelor						
+treasure	nominative	comoară	comoara	comori	comorile						
+treasure	accusative	comoară	comoara	comori	comorile						
+treasure	genitive	comori	comorii	comori	comorilor						
+treasure	dative	comori	comorii	comori	comorilor						
+treasure	vocative	comoară, comoaro	comoară, comoaro	comorilor	comorilor						
+heat	nominative	căldură	căldura	călduri	căldurile						
+heat	accusative	căldură	căldura	călduri	căldurile						
+heat	genitive	călduri	căldurii	călduri	căldurilor						
+heat	dative	călduri	căldurii	călduri	căldurilor						
+heat	vocative	căldură, călduro	căldură, călduro	căldurilor	căldurilor						
+wolf	nominative	lup	lupul	lupi	lupii						
+wolf	accusative	lup	lupul	lupi	lupii						
+wolf	genitive	lup	lupului	lupi	lupilor						
+wolf	dative	lup	lupului	lupi	lupilor						
+wolf	vocative	lupule	lupule	lupilor	lupilor						
+wood	nominative	lemn	lemnul	lemne	lemnele						
+wood	accusative	lemn	lemnul	lemne	lemnele						
+wood	genitive	lemn	lemnului	lemne	lemnelor						
+wood	dative	lemn	lemnului	lemne	lemnelor						
+wood	vocative	lemnule	lemnule	lemnelor	lemnelor						
+worker	nominative	lucrător	lucrătorul	lucrători	lucrătorii						
+worker	accusative	lucrător	lucrătorul	lucrători	lucrătorii						
+worker	genitive	lucrător	lucrătorului	lucrători	lucrătorilor						
+worker	dative	lucrător	lucrătorului	lucrători	lucrătorilor						
+worker	vocative	lucrătorule	lucrătorule	lucrătorilor	lucrătorilor						
+worm	nominative	vierme	viermele	viermi	viermii						
+worm	accusative	vierme	viermele	viermi	viermii						
+worm	genitive	vierme	viermelui	viermi	viermilor						
+worm	dative	vierme	viermelui	viermi	viermilor						
+worm	vocative	vierme	vierme	viermilor	viermilor						
+language	nominative	limbă	limba	limbi	limbile						
+language	accusative	limbă	limba	limbi	limbile						
+language	genitive	limbi	limbii	limbi	limbilor						
+language	dative	limbi	limbii	limbi	limbilor						
+language	vocative	limbă, limbo	limbă, limbo	limbilor	limbilor						
+town	nominative	oraș	orașul	orașe	orașele						
+town	accusative	oraș	orașul	orașe	orașele						
+town	genitive	oraș	orașului	orașe	orașelor						
+town	dative	oraș	orașului	orașe	orașelor						
+town	vocative	orașule	orașule	orașelor	orașelor						
+river	nominative	râu	râul	râuri	râurile						
+river	accusative	râu	râul	râuri	râurile						
+river	genitive	râu	râului	râuri	râurilor						
+river	dative	râu	râului	râuri	râurilor						
+river	vocative	râule	râule	râurilor	râurilor						
+summer	nominative	vară	vara	veri	verile						
+summer	accusative	vară	vara	veri	verile						
+summer	genitive	veri	verii	veri	verilor						
+summer	dative	veri	verii	veri	verilor						
+summer	vocative	vară, varo	vară, varo	verilor	verilor						
+spring	nominative	primăvară	primăvara	primăveri	primăverile						
+spring	accusative	primăvară	primăvara	primăveri	primăverile						
+spring	genitive	primăveri	primăverii	primăveri	primăverilor						
+spring	dative	primăveri	primăverii	primăveri	primăverilor						
+spring	vocative	primăvară, primăvaro	primăvară, primăvaro	primăverilor	primăverilor						
+autumn	nominative	toamnă	toamna	toamne	toamnele						
+autumn	accusative	toamnă	toamna	toamne	toamnele						
+autumn	genitive	toamne	toamnei	toamne	toamnelor						
+autumn	dative	toamne	toamnei	toamne	toamnelor						
+autumn	vocative	toamnă, toamno	toamnă, toamno	toamnelor	toamnelor						
+winter	nominative	iarnă	iarna	ierni	iernile						
+winter	accusative	iarnă	iarna	ierni	iernile						
+winter	genitive	ierni	iernii	ierni	iernilor						
+winter	dative	ierni	iernii	ierni	iernilor						
+winter	vocative	iarnă, iarno	iarnă, iarno	iernilor	iernilor						
+year	nominative	an	anul	ani	anii						
+year	accusative	an	anul	ani	anii						
+year	genitive	an	anului	ani	anilor						
+year	dative	an	anului	ani	anilor						
+year	vocative	anule	anule	anilor	anilor						
+day	nominative	zi	ziua	zile	zilele						
+day	accusative	zi	ziua	zile	zilele						
+day	genitive	zile	zilei	zile	zilelor						
+day	dative	zile	zilei	zile	zilelor						
+day	vocative	ziuo	ziuo	zilelor	zilelor						
+moon	nominative	lună	luna	luni	lunile						
+moon	accusative	lună	luna	luni	lunile						
+moon	genitive	luni	lunii	luni	lunilor						
+moon	dative	luni	lunii	luni	lunilor						
+moon	vocative	lună, luno	lună, luno	lunilor	lunilor						
+sun	nominative	soare	soarele	sori	sorii						
+sun	accusative	soare	soarele	sori	sorii						
+sun	genitive	soare	soarelui	sori	sorilor						
+sun	dative	soare	soarelui	sori	sorilor						
+sun	vocative	soare	soare	sorilor	sorilor						
+planet	nominative	planetă	planeta	planete	planetele						
+planet	accusative	planetă	planeta	planete	planetele						
+planet	genitive	planete	planetei	planete	planetelor						
+planet	dative	planete	planetei	planete	planetelor						
+planet	vocative	—	—	—	—						
+star	nominative	stea	steaua	stele	stelele						
+star	accusative	stea	steaua	stele	stelele						
+star	genitive	stele	stelei	stele	stelelor						
+star	dative	stele	stelei	stele	stelelor						
+star	vocative	stea	stea	stelelor	stelelor						
+human	nominative	om	omul	oameni	oamenii						
+human	accusative	om	omul	oameni	oamenii						
+human	genitive	om	omului	oameni	oamenilor						
+human	dative	om	omului	oameni	oamenilor						
+human	vocative	omule	omule	oamenilor	oamenilor						
+mother	nominative	mamă	mama	mame	mamele						
+mother	accusative	mamă	mama	mame	mamele						
+mother	genitive	mame	mamei	mame	mamelor						
+mother	dative	mame	mamei	mame	mamelor						
+mother	vocative	mamă, mamo	mamă, mamo	mamelor	mamelor						
+father	nominative	tată	tatăl	tați	tații						
+father	accusative	tată	tatăl	tați	tații						
+father	genitive	tată	tatălui	tați	taților						
+father	dative	tată	tatălui	tați	taților						
+father	vocative	tată	tată	taților	taților						
+grandmother	nominative	bunică	bunica	bunici	bunicile						
+grandmother	accusative	bunică	bunica	bunici	bunicile						
+grandmother	genitive	bunici	bunicii	bunici	bunicilor						
+grandmother	dative	bunici	bunicii	bunici	bunicilor						
+grandmother	vocative	bunică, bunico	bunică, bunico	bunicilor	bunicilor						
+grandfather	nominative-accusative	bunic	bunicul	bunici	bunicii						
+grandfather	nominative-accusative	bunic	bunicul	bunici	bunicii						
+grandfather	genitive-dative	bunic	bunicului	bunici	bunicilor						
+grandfather	genitive-dative	bunic	bunicului	bunici	bunicilor						
+grandfather	vocative	—	—	—	—						
+north	nominative	nord	nordul	—	—						
+north	accusative	nord	nordul	—	—						
+north	genitive	nord	nordului	—	—						
+north	dative	nord	nordului	—	—						
+north	vocative	—	—	—	—						
+south	nominative	sud	sudul	—	—						
+south	accusative	sud	sudul	—	—						
+south	genitive	sud	sudului	—	—						
+south	dative	sud	sudului	—	—						
+south	vocative	—	—	—	—						
+east	nominative	est	estul	—	—						
+east	accusative	est	estul	—	—						
+east	genitive	est	estului	—	—						
+east	dative	est	estului	—	—						
+east	vocative	—	—	—	—						
+west	nominative	vest	vestul	—	—						
+west	accusative	vest	vestul	—	—						
+west	genitive	vest	vestului	—	—						
+west	dative	vest	vestului	—	—						
+west	vocative	vestule	vestule	—	—						
+flamingo	nominative	flamingo	flamingoul	flamingi	flamingii						
+flamingo	accusative	flamingo	flamingoul	flamingi	flamingii						
+flamingo	genitive	flamingo	flamingoului	flamingi	flamingilor						
+flamingo	dative	flamingo	flamingoului	flamingi	flamingilor						
+flamingo	vocative	flamingoule	flamingoule	flamingilor	flamingilor						
+bee	nominative	albină	albina	albine	albinele						
+bee	accusative	albină	albina	albine	albinele						
+bee	genitive	albine	albinei	albine	albinelor						
+bee	dative	albine	albinei	albine	albinelor						
+bee	vocative	albină, albino	albină, albino	albinelor	albinelor						
+city	nominative	oraș	orașul	orașe	orașele						
+city	accusative	oraș	orașul	orașe	orașele						
+city	genitive	oraș	orașului	orașe	orașelor						
+city	dative	oraș	orașului	orașe	orașelor						
+city	vocative	orașule	orașule	orașelor	orașelor						
+shirt	nominative	cămașă	cămașa	cămăși	cămășile						
+shirt	accusative	cămașă	cămașa	cămăși	cămășile						
+shirt	genitive	cămăși	cămășii	cămăși	cămășilor						
+shirt	dative	cămăși	cămășii	cămăși	cămășilor						
+shirt	vocative	cămașă, cămașo	cămașă, cămașo	cămășilor	cămășilor						
+present	nominative	cadou	cadoul	cadouri	cadourile						
+present	accusative	cadou	cadoul	cadouri	cadourile						
+present	genitive	cadou	cadoului	cadouri	cadourilor						
+present	dative	cadou	cadoului	cadouri	cadourilor						
+present	vocative	cadoule	cadoule	cadourilor	cadourilor						
+king	nominative	rege	regele	regi	regii						
+king	accusative	rege	regele	regi	regii						
+king	genitive	rege	regelui	regi	regilor						
+king	dative	rege	regelui	regi	regilor						
+king	vocative	rege	rege	regilor	regilor						
+log	nominative	buștean	bușteanul	bușteni	buștenii						
+log	accusative	buștean	bușteanul	bușteni	buștenii						
+log	genitive	buștean	bușteanului	bușteni	buștenilor						
+log	dative	buștean	bușteanului	bușteni	buștenilor						
+log	vocative	bușteanule	bușteanule	buștenilor	buștenilor						
+metal	nominative	metal	metalul	metale	metalele						
+metal	accusative	metal	metalul	metale	metalele						
+metal	genitive	metal	metalului	metale	metalelor						
+metal	dative	metal	metalului	metale	metalelor						
+metal	vocative	metalule	metalule	metalelor	metalelor						
+night	nominative	noapte	noaptea	nopți	nopțile						
+night	accusative	noapte	noaptea	nopți	nopțile						
+night	genitive	nopți	nopții	nopți	nopților						
+night	dative	nopți	nopții	nopți	nopților						
+night	vocative	noapte, noapteo	noapte, noapteo	nopților	nopților						

@@ -330,3 +330,366 @@ put	subjunctive	imperfective	past	pusesse	pusesses	pusesse	puséssemos	puséssei
 put	subjunctive	simple	future	puser	puseres	puser	pusermos	puserdes	puserem
 put	imperative	affirmative			põe	ponha	ponhamos	ponde	ponham
 put	imperative	negative			não ponhas	não ponha	não ponhamos	não ponhais	não ponham
+love	indicative	simple	present	amo	amas	ama	amamos	amais	amam
+love	indicative	imperfective	past	amava	amavas	amava	amávamos	amáveis	amavam
+love	indicative	perfective	present	amei	amaste	amou	amamos1, amámos2	amastes	amaram
+love	indicative	perfective	past	amara	amaras	amara	amáramos	amáreis	amaram
+love	indicative		future	amarei	amarás	amará	amaremos	amareis	amarão
+love	conditional			amaria	amarias	amaria	amaríamos	amaríeis	amariam
+love	subjunctive	simple	present	ame	ames	ame	amemos	ameis	amem
+love	subjunctive	imperfective	past	amasse	amasses	amasse	amássemos	amásseis	amassem
+love	subjunctive	simple	future	amar	amares	amar	amarmos	amardes	amarem
+love	imperative	affirmative			ama	ame	amemos	amai	amem
+love	imperative	negative			não ames	não ame	não amemos	não ameis	não amem
+make	indicative	simple	present	faço	fazes	faz	fazemos	fazeis	fazem
+make	indicative	imperfective	past	fazia	fazias	fazia	fazíamos	fazíeis	faziam
+make	indicative	perfective	present	fiz	fizeste	fez	fizemos	fizestes	fizeram
+make	indicative	perfective	past	fizera	fizeras	fizera	fizéramos	fizéreis	fizeram
+make	indicative		future	farei	farás	fará	faremos	fareis	farão
+make	conditional			faria	farias	faria	faríamos	faríeis	fariam
+make	subjunctive	simple	present	faça	faças	faça	façamos	façais	façam
+make	subjunctive	imperfective	past	fizesse	fizesses	fizesse	fizéssemos	fizésseis	fizessem
+make	subjunctive	simple	future	fizer	fizeres	fizer	fizermos	fizerdes	fizerem
+make	imperative	affirmative			faz, faze1	faça	façamos	fazei	façam
+make	imperative	negative			não faças	não faça	não façamos	não façais	não façam
+speak	indicative	simple	present	falo	falas	fala	falamos	falais	falam
+speak	indicative	imperfective	past	falava	falavas	falava	falávamos	faláveis	falavam
+speak	indicative	perfective	present	falei	falaste	falou	falamos1, falámos2	falastes	falaram
+speak	indicative	perfective	past	falara	falaras	falara	faláramos	faláreis	falaram
+speak	indicative		future	falarei	falarás	falará	falaremos	falareis	falarão
+speak	conditional			falaria	falarias	falaria	falaríamos	falaríeis	falariam
+speak	subjunctive	simple	present	fale	fales	fale	falemos	faleis	falem
+speak	subjunctive	imperfective	past	falasse	falasses	falasse	falássemos	falásseis	falassem
+speak	subjunctive	simple	future	falar	falares	falar	falarmos	falardes	falarem
+speak	imperative	affirmative			fala	fale	falemos	falai	falem
+speak	imperative	negative			não fales	não fale	não falemos	não faleis	não falem
+become	indicative	simple	present	torno	tornas	torna	tornamos	tornais	tornam
+become	indicative	imperfective	past	tornava	tornavas	tornava	tornávamos	tornáveis	tornavam
+become	indicative	perfective	present	tornei	tornaste	tornou	tornamos1, tornámos2	tornastes	tornaram
+become	indicative	perfective	past	tornara	tornaras	tornara	tornáramos	tornáreis	tornaram
+become	indicative		future	tornarei	tornarás	tornará	tornaremos	tornareis	tornarão
+become	conditional			tornaria	tornarias	tornaria	tornaríamos	tornaríeis	tornariam
+become	subjunctive	simple	present	torne	tornes	torne	tornemos	torneis	tornem
+become	subjunctive	imperfective	past	tornasse	tornasses	tornasse	tornássemos	tornásseis	tornassem
+become	subjunctive	simple	future	tornar	tornares	tornar	tornarmos	tornardes	tornarem
+become	imperative	affirmative			torna	torne	tornemos	tornai	tornem
+become	imperative	negative			não tornes	não torne	não tornemos	não torneis	não tornem
+learn	indicative	simple	present	aprendo	aprendes	aprende	aprendemos	aprendeis	aprendem
+learn	indicative	imperfective	past	aprendia	aprendias	aprendia	aprendíamos	aprendíeis	aprendiam
+learn	indicative	perfective	present	aprendi	aprendeste	aprendeu	aprendemos	aprendestes	aprenderam
+learn	indicative	perfective	past	aprendera	aprenderas	aprendera	aprendêramos	aprendêreis	aprenderam
+learn	indicative		future	aprenderei	aprenderás	aprenderá	aprenderemos	aprendereis	aprenderão
+learn	conditional			aprenderia	aprenderias	aprenderia	aprenderíamos	aprenderíeis	aprenderiam
+learn	subjunctive	simple	present	aprenda	aprendas	aprenda	aprendamos	aprendais	aprendam
+learn	subjunctive	imperfective	past	aprendesse	aprendesses	aprendesse	aprendêssemos	aprendêsseis	aprendessem
+learn	subjunctive	simple	future	aprender	aprenderes	aprender	aprendermos	aprenderdes	aprenderem
+learn	imperative	affirmative			aprende	aprenda	aprendamos	aprendei	aprendam
+learn	imperative	negative			não aprendas	não aprenda	não aprendamos	não aprendais	não aprendam
+give	indicative	simple	present	dou	dás	dá	damos	dais	dão
+give	indicative	imperfective	past	dava	davas	dava	dávamos	dáveis	davam
+give	indicative	perfective	present	dei	deste	deu	demos	destes	deram
+give	indicative	perfective	past	dera	deras	dera	déramos	déreis	deram
+give	indicative		future	darei	darás	dará	daremos	dareis	darão
+give	conditional			daria	darias	daria	daríamos	daríeis	dariam
+give	subjunctive	simple	present	dê	dês	dê	demos, dêmos	deis	deem, dêem1
+give	subjunctive	imperfective	past	desse	desses	desse	déssemos	désseis	dessem
+give	subjunctive	simple	future	der	deres	der	dermos	derdes	derem
+give	imperative	affirmative			dá	dê	demos, dêmos	dai	deem, dêem1
+give	imperative	negative			não dês	não dê	não demos, não dêmos	não deis	não deem, não dêem1
+help	indicative	simple	present	ajudo	ajudas	ajuda	ajudamos	ajudais	ajudam
+help	indicative	imperfective	past	ajudava	ajudavas	ajudava	ajudávamos	ajudáveis	ajudavam
+help	indicative	perfective	present	ajudei	ajudaste	ajudou	ajudamos1, ajudámos2	ajudastes	ajudaram
+help	indicative	perfective	past	ajudara	ajudaras	ajudara	ajudáramos	ajudáreis	ajudaram
+help	indicative		future	ajudarei	ajudarás	ajudará	ajudaremos	ajudareis	ajudarão
+help	conditional			ajudaria	ajudarias	ajudaria	ajudaríamos	ajudaríeis	ajudariam
+help	subjunctive	simple	present	ajude	ajudes	ajude	ajudemos	ajudeis	ajudem
+help	subjunctive	imperfective	past	ajudasse	ajudasses	ajudasse	ajudássemos	ajudásseis	ajudassem
+help	subjunctive	simple	future	ajudar	ajudares	ajudar	ajudarmos	ajudardes	ajudarem
+help	imperative	affirmative			ajuda	ajude	ajudemos	ajudai	ajudem
+help	imperative	negative			não ajudes	não ajude	não ajudemos	não ajudeis	não ajudem
+protect	indicative	simple	present	protejo	proteges	protege	protegemos	protegeis	protegem
+protect	indicative	imperfective	past	protegia	protegias	protegia	protegíamos	protegíeis	protegiam
+protect	indicative	perfective	present	protegi	protegeste	protegeu	protegemos	protegestes	protegeram
+protect	indicative	perfective	past	protegera	protegeras	protegera	protegêramos	protegêreis	protegeram
+protect	indicative		future	protegerei	protegerás	protegerá	protegeremos	protegereis	protegerão
+protect	conditional			protegeria	protegerias	protegeria	protegeríamos	protegeríeis	protegeriam
+protect	subjunctive	simple	present	proteja	protejas	proteja	protejamos	protejais	protejam
+protect	subjunctive	imperfective	past	protegesse	protegesses	protegesse	protegêssemos	protegêsseis	protegessem
+protect	subjunctive	simple	future	proteger	protegeres	proteger	protegermos	protegerdes	protegerem
+protect	imperative	affirmative			protege	proteja	protejamos	protegei	protejam
+protect	imperative	negative			não protejas	não proteja	não protejamos	não protejais	não protejam
+hide	indicative	simple	present	escondo	escondes	esconde	escondemos	escondeis	escondem
+hide	indicative	imperfective	past	escondia	escondias	escondia	escondíamos	escondíeis	escondiam
+hide	indicative	perfective	present	escondi	escondeste	escondeu	escondemos	escondestes	esconderam
+hide	indicative	perfective	past	escondera	esconderas	escondera	escondêramos	escondêreis	esconderam
+hide	indicative		future	esconderei	esconderás	esconderá	esconderemos	escondereis	esconderão
+hide	conditional			esconderia	esconderias	esconderia	esconderíamos	esconderíeis	esconderiam
+hide	subjunctive	simple	present	esconda	escondas	esconda	escondamos	escondais	escondam
+hide	subjunctive	imperfective	past	escondesse	escondesses	escondesse	escondêssemos	escondêsseis	escondessem
+hide	subjunctive	simple	future	esconder	esconderes	esconder	escondermos	esconderdes	esconderem
+hide	imperative	affirmative			esconde	esconda	escondamos	escondei	escondam
+hide	imperative	negative			não escondas	não esconda	não escondamos	não escondais	não escondam
+be-able	indicative	simple	present	posso	podes	pode	podemos	podeis	podem
+be-able	indicative	imperfective	past	podia	podias	podia	podíamos	podíeis	podiam
+be-able	indicative	perfective	present	pude	pudeste	pôde	pudemos	pudestes	puderam
+be-able	indicative	perfective	past	pudera	puderas	pudera	pudéramos	pudéreis	puderam
+be-able	indicative		future	poderei	poderás	poderá	poderemos	podereis	poderão
+be-able	conditional			poderia	poderias	poderia	poderíamos	poderíeis	poderiam
+be-able	subjunctive	simple	present	possa	possas	possa	possamos	possais	possam
+be-able	subjunctive	imperfective	past	pudesse	pudesses	pudesse	pudéssemos	pudésseis	pudessem
+be-able	subjunctive	simple	future	puder	puderes	puder	pudermos	puderdes	puderem
+be-able	imperative	affirmative			pode	possa	possamos	podei	possam
+be-able	imperative	negative			não possas	não possa	não possamos	não possais	não possam
+arrive	indicative	simple	present	chego	chegas	chega	chegamos	chegais	chegam
+arrive	indicative	imperfective	past	chegava	chegavas	chegava	chegávamos	chegáveis	chegavam
+arrive	indicative	perfective	present	cheguei	chegaste	chegou	chegamos1, chegámos2	chegastes	chegaram
+arrive	indicative	perfective	past	chegara	chegaras	chegara	chegáramos	chegáreis	chegaram
+arrive	indicative		future	chegarei	chegarás	chegará	chegaremos	chegareis	chegarão
+arrive	conditional			chegaria	chegarias	chegaria	chegaríamos	chegaríeis	chegariam
+arrive	subjunctive	simple	present	chegue	chegues	chegue	cheguemos	chegueis	cheguem
+arrive	subjunctive	imperfective	past	chegasse	chegasses	chegasse	chegássemos	chegásseis	chegassem
+arrive	subjunctive	simple	future	chegar	chegares	chegar	chegarmos	chegardes	chegarem
+arrive	imperative	affirmative			chega	chegue	cheguemos	chegai	cheguem
+arrive	imperative	negative			não chegues	não chegue	não cheguemos	não chegueis	não cheguem
+come	indicative	simple	present	chego	chegas	chega	chegamos	chegais	chegam
+come	indicative	imperfective	past	chegava	chegavas	chegava	chegávamos	chegáveis	chegavam
+come	indicative	perfective	present	cheguei	chegaste	chegou	chegamos1, chegámos2	chegastes	chegaram
+come	indicative	perfective	past	chegara	chegaras	chegara	chegáramos	chegáreis	chegaram
+come	indicative		future	chegarei	chegarás	chegará	chegaremos	chegareis	chegarão
+come	conditional			chegaria	chegarias	chegaria	chegaríamos	chegaríeis	chegariam
+come	subjunctive	simple	present	chegue	chegues	chegue	cheguemos	chegueis	cheguem
+come	subjunctive	imperfective	past	chegasse	chegasses	chegasse	chegássemos	chegásseis	chegassem
+come	subjunctive	simple	future	chegar	chegares	chegar	chegarmos	chegardes	chegarem
+come	imperative	affirmative			chega	chegue	cheguemos	chegai	cheguem
+come	imperative	negative			não chegues	não chegue	não cheguemos	não chegueis	não cheguem
+ask	indicative	simple	present	pergunto	perguntas	pergunta	perguntamos	perguntais	perguntam
+ask	indicative	imperfective	past	perguntava	perguntavas	perguntava	perguntávamos	perguntáveis	perguntavam
+ask	indicative	perfective	present	perguntei	perguntaste	perguntou	perguntamos1, perguntámos2	perguntastes	perguntaram
+ask	indicative	perfective	past	perguntara	perguntaras	perguntara	perguntáramos	perguntáreis	perguntaram
+ask	indicative		future	perguntarei	perguntarás	perguntará	perguntaremos	perguntareis	perguntarão
+ask	conditional			perguntaria	perguntarias	perguntaria	perguntaríamos	perguntaríeis	perguntariam
+ask	subjunctive	simple	present	pergunte	perguntes	pergunte	perguntemos	pergunteis	perguntem
+ask	subjunctive	imperfective	past	perguntasse	perguntasses	perguntasse	perguntássemos	perguntásseis	perguntassem
+ask	subjunctive	simple	future	perguntar	perguntares	perguntar	perguntarmos	perguntardes	perguntarem
+ask	imperative	affirmative			pergunta	pergunte	perguntemos	perguntai	perguntem
+ask	imperative	negative			não perguntes	não pergunte	não perguntemos	não pergunteis	não perguntem
+be-inherently	indicative	simple	present	sou	és	é	somos	sois	são
+be-inherently	indicative	imperfective	past	era	eras	era	éramos	éreis	eram
+be-inherently	indicative	perfective	present	fui	foste	foi	fomos	fostes	foram
+be-inherently	indicative	perfective	past	fora	foras	fora	fôramos	fôreis	foram
+be-inherently	indicative		future	serei	serás	será	seremos	sereis	serão
+be-inherently	conditional			seria	serias	seria	seríamos	seríeis	seriam
+be-inherently	subjunctive	simple	present	seja	sejas	seja	sejamos	sejais	sejam
+be-inherently	subjunctive	imperfective	past	fosse	fosses	fosse	fôssemos	fôsseis	fossem
+be-inherently	subjunctive	simple	future	for	fores	for	formos	fordes	forem
+be-inherently	imperative	affirmative			sê	seja	sejamos	sede	sejam
+be-inherently	imperative	negative			não sejas	não seja	não sejamos	não sejais	não sejam
+be-momentarily	indicative	simple	present	estou	estás	está	estamos	estais	estão
+be-momentarily	indicative	imperfective	past	estava	estavas	estava	estávamos	estáveis	estavam
+be-momentarily	indicative	perfective	present	estive	estiveste	esteve	estivemos	estivestes	estiveram
+be-momentarily	indicative	perfective	past	estivera	estiveras	estivera	estivéramos	estivéreis	estiveram
+be-momentarily	indicative		future	estarei	estarás	estará	estaremos	estareis	estarão
+be-momentarily	conditional			estaria	estarias	estaria	estaríamos	estaríeis	estariam
+be-momentarily	subjunctive	simple	present	esteja	estejas	esteja	estejamos	estejais	estejam
+be-momentarily	subjunctive	imperfective	past	estivesse	estivesses	estivesse	estivéssemos	estivésseis	estivessem
+be-momentarily	subjunctive	simple	future	estiver	estiveres	estiver	estivermos	estiverdes	estiverem
+be-momentarily	imperative	affirmative			está	esteja	estejamos	estai	estejam
+be-momentarily	imperative	negative			não estejas	não esteja	não estejamos	não estejais	não estejam
+open	indicative	simple	present	abro	abres	abre	abrimos	abris	abrem
+open	indicative	imperfective	past	abria	abrias	abria	abríamos	abríeis	abriam
+open	indicative	perfective	present	abri	abriste	abriu	abrimos	abristes	abriram
+open	indicative	perfective	past	abrira	abriras	abrira	abríramos	abríreis	abriram
+open	indicative		future	abrirei	abrirás	abrirá	abriremos	abrireis	abrirão
+open	conditional			abriria	abririas	abriria	abriríamos	abriríeis	abririam
+open	subjunctive	simple	present	abra	abras	abra	abramos	abrais	abram
+open	subjunctive	imperfective	past	abrisse	abrisses	abrisse	abríssemos	abrísseis	abrissem
+open	subjunctive	simple	future	abrir	abrires	abrir	abrirmos	abrirdes	abrirem
+open	imperative	affirmative			abre	abra	abramos	abri	abram
+open	imperative	negative			não abras	não abra	não abramos	não abrais	não abram
+chill	indicative	simple	present	esfrio	esfrias	esfria	esfriamos	esfriais	esfriam
+chill	indicative	imperfective	past	esfriava	esfriavas	esfriava	esfriávamos	esfriáveis	esfriavam
+chill	indicative	perfective	present	esfriei	esfriaste	esfriou	esfriamos1, esfriámos2	esfriastes	esfriaram
+chill	indicative	perfective	past	esfriara	esfriaras	esfriara	esfriáramos	esfriáreis	esfriaram
+chill	indicative		future	esfriarei	esfriarás	esfriará	esfriaremos	esfriareis	esfriarão
+chill	conditional			esfriaria	esfriarias	esfriaria	esfriaríamos	esfriaríeis	esfriariam
+chill	subjunctive	simple	present	esfrie	esfries	esfrie	esfriemos	esfrieis	esfriem
+chill	subjunctive	imperfective	past	esfriasse	esfriasses	esfriasse	esfriássemos	esfriásseis	esfriassem
+chill	subjunctive	simple	future	esfriar	esfriares	esfriar	esfriarmos	esfriardes	esfriarem
+chill	imperative	affirmative			esfria	esfrie	esfriemos	esfriai	esfriem
+chill	imperative	negative			não esfries	não esfrie	não esfriemos	não esfrieis	não esfriem
+lead	indicative	simple	present	guio	guias	guia	guiamos	guiais	guiam
+lead	indicative	imperfective	past	guiava	guiavas	guiava	guiávamos	guiáveis	guiavam
+lead	indicative	perfective	present	guiei	guiaste	guiou	guiamos1, guiámos2	guiastes	guiaram
+lead	indicative	perfective	past	guiara	guiaras	guiara	guiáramos	guiáreis	guiaram
+lead	indicative		future	guiarei	guiarás	guiará	guiaremos	guiareis	guiarão
+lead	conditional			guiaria	guiarias	guiaria	guiaríamos	guiaríeis	guiariam
+lead	subjunctive	simple	present	guie	guies	guie	guiemos	guieis	guiem
+lead	subjunctive	imperfective	past	guiasse	guiasses	guiasse	guiássemos	guiásseis	guiassem
+lead	subjunctive	simple	future	guiar	guiares	guiar	guiarmos	guiardes	guiarem
+lead	imperative	affirmative			guia	guie	guiemos	guiai	guiem
+lead	imperative	negative			não guies	não guie	não guiemos	não guieis	não guiem
+lead	indicative	simple	present	conduzo	conduzes	conduz	conduzimos	conduzis	conduzem
+lead	indicative	imperfective	past	conduzia	conduzias	conduzia	conduzíamos	conduzíeis	conduziam
+lead	indicative	perfective	present	conduzi	conduziste	conduziu	conduzimos	conduzistes	conduziram
+lead	indicative	perfective	past	conduzira	conduziras	conduzira	conduzíramos	conduzíreis	conduziram
+lead	indicative		future	conduzirei	conduzirás	conduzirá	conduziremos	conduzireis	conduzirão
+lead	conditional			conduziria	conduzirias	conduziria	conduziríamos	conduziríeis	conduziriam
+lead	subjunctive	simple	present	conduza	conduzas	conduza	conduzamos	conduzais	conduzam
+lead	subjunctive	imperfective	past	conduzisse	conduzisses	conduzisse	conduzíssemos	conduzísseis	conduzissem
+lead	subjunctive	simple	future	conduzir	conduzires	conduzir	conduzirmos	conduzirdes	conduzirem
+lead	imperative	affirmative			conduz, conduze	conduza	conduzamos	conduzi	conduzam
+lead	imperative	negative			não conduzas	não conduza	não conduzamos	não conduzais	não conduzam
+upset	indicative	simple	present	perturbo	perturbas	perturba	perturbamos	perturbais	perturbam
+upset	indicative	imperfective	past	perturbava	perturbavas	perturbava	perturbávamos	perturbáveis	perturbavam
+upset	indicative	perfective	present	perturbei	perturbaste	perturbou	perturbamos1, perturbámos2	perturbastes	perturbaram
+upset	indicative	perfective	past	perturbara	perturbaras	perturbara	perturbáramos	perturbáreis	perturbaram
+upset	indicative		future	perturbarei	perturbarás	perturbará	perturbaremos	perturbareis	perturbarão
+upset	conditional			perturbaria	perturbarias	perturbaria	perturbaríamos	perturbaríeis	perturbariam
+upset	subjunctive	simple	present	perturbe	perturbes	perturbe	perturbemos	perturbeis	perturbem
+upset	subjunctive	imperfective	past	perturbasse	perturbasses	perturbasse	perturbássemos	perturbásseis	perturbassem
+upset	subjunctive	simple	future	perturbar	perturbares	perturbar	perturbarmos	perturbardes	perturbarem
+upset	imperative	affirmative			perturba	perturbe	perturbemos	perturbai	perturbem
+upset	imperative	negative			não perturbes	não perturbe	não perturbemos	não perturbeis	não perturbem
+anger	indicative	simple	present	iro	iras	ira	iramos	irais	iram
+anger	indicative	imperfective	past	irava	iravas	irava	irávamos	iráveis	iravam
+anger	indicative	perfective	present	irei	iraste	irou	iramos1, irámos2	irastes	iraram
+anger	indicative	perfective	past	irara	iraras	irara	iráramos	iráreis	iraram
+anger	indicative		future	irarei	irarás	irará	iraremos	irareis	irarão
+anger	conditional			iraria	irarias	iraria	iraríamos	iraríeis	irariam
+anger	subjunctive	simple	present	ire	ires	ire	iremos	ireis	irem
+anger	subjunctive	imperfective	past	irasse	irasses	irasse	irássemos	irásseis	irassem
+anger	subjunctive	simple	future	irar	irares	irar	irarmos	irardes	irarem
+anger	imperative	affirmative			ira	ire	iremos	irai	irem
+anger	imperative	negative			não ires	não ire	não iremos	não ireis	não irem
+fix	indicative	simple	present	reparo	reparas	repara	reparamos	reparais	reparam
+fix	indicative	imperfective	past	reparava	reparavas	reparava	reparávamos	reparáveis	reparavam
+fix	indicative	perfective	present	reparei	reparaste	reparou	reparamos1, reparámos2	reparastes	repararam
+fix	indicative	perfective	past	reparara	repararas	reparara	reparáramos	reparáreis	repararam
+fix	indicative		future	repararei	repararás	reparará	repararemos	reparareis	repararão
+fix	conditional			repararia	repararias	repararia	repararíamos	repararíeis	reparariam
+fix	subjunctive	simple	present	repare	repares	repare	reparemos	repareis	reparem
+fix	subjunctive	imperfective	past	reparasse	reparasses	reparasse	reparássemos	reparásseis	reparassem
+fix	subjunctive	simple	future	reparar	reparares	reparar	repararmos	reparardes	repararem
+fix	imperative	affirmative			repara	repare	reparemos	reparai	reparem
+fix	imperative	negative			não repares	não repare	não reparemos	não repareis	não reparem
+fight	indicative	simple	present	luto	lutas	luta	lutamos	lutais	lutam
+fight	indicative	imperfective	past	lutava	lutavas	lutava	lutávamos	lutáveis	lutavam
+fight	indicative	perfective	present	lutei	lutaste	lutou	lutamos1, lutámos2	lutastes	lutaram
+fight	indicative	perfective	past	lutara	lutaras	lutara	lutáramos	lutáreis	lutaram
+fight	indicative		future	lutarei	lutarás	lutará	lutaremos	lutareis	lutarão
+fight	conditional			lutaria	lutarias	lutaria	lutaríamos	lutaríeis	lutariam
+fight	subjunctive	simple	present	lute	lutes	lute	lutemos	luteis	lutem
+fight	subjunctive	imperfective	past	lutasse	lutasses	lutasse	lutássemos	lutásseis	lutassem
+fight	subjunctive	simple	future	lutar	lutares	lutar	lutarmos	lutardes	lutarem
+fight	imperative	affirmative			luta	lute	lutemos	lutai	lutem
+fight	imperative	negative			não lutes	não lute	não lutemos	não luteis	não lutem
+suffer	indicative	simple	present	sofro	sofres	sofre	sofremos	sofreis	sofrem
+suffer	indicative	imperfective	past	sofria	sofrias	sofria	sofríamos	sofríeis	sofriam
+suffer	indicative	perfective	present	sofri	sofreste	sofreu	sofremos	sofrestes	sofreram
+suffer	indicative	perfective	past	sofrera	sofreras	sofrera	sofrêramos	sofrêreis	sofreram
+suffer	indicative		future	sofrerei	sofrerás	sofrerá	sofreremos	sofrereis	sofrerão
+suffer	conditional			sofreria	sofrerias	sofreria	sofreríamos	sofreríeis	sofreriam
+suffer	subjunctive	simple	present	sofra	sofras	sofra	soframos	sofrais	sofram
+suffer	subjunctive	imperfective	past	sofresse	sofresses	sofresse	sofrêssemos	sofrêsseis	sofressem
+suffer	subjunctive	simple	future	sofrer	sofreres	sofrer	sofrermos	sofrerdes	sofrerem
+suffer	imperative	affirmative			sofre	sofra	soframos	sofrei	sofram
+suffer	imperative	negative			não sofras	não sofra	não soframos	não sofrais	não sofram
+greet	indicative	simple	present	saúdo	saúdas	saúda	saudamos	saudais	saúdam
+greet	indicative	imperfective	past	saudava	saudavas	saudava	saudávamos	saudáveis	saudavam
+greet	indicative	perfective	present	saudei	saudaste	saudou	saudamos1, saudámos2	saudastes	saudaram
+greet	indicative	perfective	past	saudara	saudaras	saudara	saudáramos	saudáreis	saudaram
+greet	indicative		future	saudarei	saudarás	saudará	saudaremos	saudareis	saudarão
+greet	conditional			saudaria	saudarias	saudaria	saudaríamos	saudaríeis	saudariam
+greet	subjunctive	simple	present	saúde	saúdes	saúde	saudemos	saudeis	saúdem
+greet	subjunctive	imperfective	past	saudasse	saudasses	saudasse	saudássemos	saudásseis	saudassem
+greet	subjunctive	simple	future	saudar	saudares	saudar	saudarmos	saudardes	saudarem
+greet	imperative	affirmative			saúda	saúde	saudemos	saudai	saúdem
+greet	imperative	negative			não saúdes	não saúde	não saudemos	não saudeis	não saúdem
+heal	indicative	simple	present	curo	curas	cura	curamos	curais	curam
+heal	indicative	imperfective	past	curava	curavas	curava	curávamos	curáveis	curavam
+heal	indicative	perfective	present	curei	curaste	curou	curamos1, curámos2	curastes	curaram
+heal	indicative	perfective	past	curara	curaras	curara	curáramos	curáreis	curaram
+heal	indicative		future	curarei	curarás	curará	curaremos	curareis	curarão
+heal	conditional			curaria	curarias	curaria	curaríamos	curaríeis	curariam
+heal	subjunctive	simple	present	cure	cures	cure	curemos	cureis	curem
+heal	subjunctive	imperfective	past	curasse	curasses	curasse	curássemos	curásseis	curassem
+heal	subjunctive	simple	future	curar	curares	curar	curarmos	curardes	curarem
+heal	imperative	affirmative			cura	cure	curemos	curai	curem
+heal	imperative	negative			não cures	não cure	não curemos	não cureis	não curem
+heat	indicative	simple	present	aqueço	aqueces	aquece	aquecemos	aqueceis	aquecem
+heat	indicative	imperfective	past	aquecia	aquecias	aquecia	aquecíamos	aquecíeis	aqueciam
+heat	indicative	perfective	present	aqueci	aqueceste	aqueceu	aquecemos	aquecestes	aqueceram
+heat	indicative	perfective	past	aquecera	aqueceras	aquecera	aquecêramos	aquecêreis	aqueceram
+heat	indicative		future	aquecerei	aquecerás	aquecerá	aqueceremos	aquecereis	aquecerão
+heat	conditional			aqueceria	aquecerias	aqueceria	aqueceríamos	aqueceríeis	aqueceriam
+heat	subjunctive	simple	present	aqueça	aqueças	aqueça	aqueçamos	aqueçais	aqueçam
+heat	subjunctive	imperfective	past	aquecesse	aquecesses	aquecesse	aquecêssemos	aquecêsseis	aquecessem
+heat	subjunctive	simple	future	aquecer	aqueceres	aquecer	aquecermos	aquecerdes	aquecerem
+heat	imperative	affirmative			aquece	aqueça	aqueçamos	aquecei	aqueçam
+heat	imperative	negative			não aqueças	não aqueça	não aqueçamos	não aqueçais	não aqueçam
+inhabit	indicative	simple	present	habito	habitas	habita	habitamos	habitais	habitam
+inhabit	indicative	imperfective	past	habitava	habitavas	habitava	habitávamos	habitáveis	habitavam
+inhabit	indicative	perfective	present	habitei	habitaste	habitou	habitamos1, habitámos2	habitastes	habitaram
+inhabit	indicative	perfective	past	habitara	habitaras	habitara	habitáramos	habitáreis	habitaram
+inhabit	indicative		future	habitarei	habitarás	habitará	habitaremos	habitareis	habitarão
+inhabit	conditional			habitaria	habitarias	habitaria	habitaríamos	habitaríeis	habitariam
+inhabit	subjunctive	simple	present	habite	habites	habite	habitemos	habiteis	habitem
+inhabit	subjunctive	imperfective	past	habitasse	habitasses	habitasse	habitássemos	habitásseis	habitassem
+inhabit	subjunctive	simple	future	habitar	habitares	habitar	habitarmos	habitardes	habitarem
+inhabit	imperative	affirmative			habita	habite	habitemos	habitai	habitem
+inhabit	imperative	negative			não habites	não habite	não habitemos	não habiteis	não habitem
+read	indicative	simple	present	leio	lês	lê	lemos	ledes	leem, lêem1
+read	indicative	imperfective	past	lia	lias	lia	líamos	líeis	liam
+read	indicative	perfective	present	li	leste	leu	lemos	lestes	leram
+read	indicative	perfective	past	lera	leras	lera	lêramos	lêreis	leram
+read	indicative		future	lerei	lerás	lerá	leremos	lereis	lerão
+read	conditional			leria	lerias	leria	leríamos	leríeis	leriam
+read	subjunctive	simple	present	leia	leias	leia	leiamos	leiais	leiam
+read	subjunctive	imperfective	past	lesse	lesses	lesse	lêssemos	lêsseis	lessem
+read	subjunctive	simple	future	ler	leres	ler	lermos	lerdes	lerem
+read	imperative	affirmative			lê	leia	leiamos	lede	leiam
+read	imperative	negative			não leias	não leia	não leiamos	não leiais	não leiam
+shout	indicative	simple	present	grito	gritas	grita	gritamos	gritais	gritam
+shout	indicative	imperfective	past	gritava	gritavas	gritava	gritávamos	gritáveis	gritavam
+shout	indicative	perfective	present	gritei	gritaste	gritou	gritamos1, gritámos2	gritastes	gritaram
+shout	indicative	perfective	past	gritara	gritaras	gritara	gritáramos	gritáreis	gritaram
+shout	indicative		future	gritarei	gritarás	gritará	gritaremos	gritareis	gritarão
+shout	conditional			gritaria	gritarias	gritaria	gritaríamos	gritaríeis	gritariam
+shout	subjunctive	simple	present	grite	grites	grite	gritemos	griteis	gritem
+shout	subjunctive	imperfective	past	gritasse	gritasses	gritasse	gritássemos	gritásseis	gritassem
+shout	subjunctive	simple	future	gritar	gritares	gritar	gritarmos	gritardes	gritarem
+shout	imperative	affirmative			grita	grite	gritemos	gritai	gritem
+shout	imperative	negative			não grites	não grite	não gritemos	não griteis	não gritem
+frighten	indicative	simple	present	intimido	intimidas	intimida	intimidamos	intimidais	intimidam
+frighten	indicative	imperfective	past	intimidava	intimidavas	intimidava	intimidávamos	intimidáveis	intimidavam
+frighten	indicative	perfective	present	intimidei	intimidaste	intimidou	intimidamos1, intimidámos2	intimidastes	intimidaram
+frighten	indicative	perfective	past	intimidara	intimidaras	intimidara	intimidáramos	intimidáreis	intimidaram
+frighten	indicative		future	intimidarei	intimidarás	intimidará	intimidaremos	intimidareis	intimidarão
+frighten	conditional			intimidaria	intimidarias	intimidaria	intimidaríamos	intimidaríeis	intimidariam
+frighten	subjunctive	simple	present	intimide	intimides	intimide	intimidemos	intimideis	intimidem
+frighten	subjunctive	imperfective	past	intimidasse	intimidasses	intimidasse	intimidássemos	intimidásseis	intimidassem
+frighten	subjunctive	simple	future	intimidar	intimidares	intimidar	intimidarmos	intimidardes	intimidarem
+frighten	imperative	affirmative			intimida	intimide	intimidemos	intimidai	intimidem
+frighten	imperative	negative			não intimides	não intimide	não intimidemos	não intimideis	não intimidem
+throw	indicative	simple	present	lanço	lanças	lança	lançamos	lançais	lançam
+throw	indicative	imperfective	past	lançava	lançavas	lançava	lançávamos	lançáveis	lançavam
+throw	indicative	perfective	present	lancei	lançaste	lançou	lançamos1, lançámos2	lançastes	lançaram
+throw	indicative	perfective	past	lançara	lançaras	lançara	lançáramos	lançáreis	lançaram
+throw	indicative		future	lançarei	lançarás	lançará	lançaremos	lançareis	lançarão
+throw	conditional			lançaria	lançarias	lançaria	lançaríamos	lançaríeis	lançariam
+throw	subjunctive	simple	present	lance	lances	lance	lancemos	lanceis	lancem
+throw	subjunctive	imperfective	past	lançasse	lançasses	lançasse	lançássemos	lançásseis	lançassem
+throw	subjunctive	simple	future	lançar	lançares	lançar	lançarmos	lançardes	lançarem
+throw	imperative	affirmative			lança	lance	lancemos	lançai	lancem
+throw	imperative	negative			não lances	não lance	não lancemos	não lanceis	não lancem
+wait	indicative	simple	present	espero	esperas	espera	esperamos	esperais	esperam
+wait	indicative	imperfective	past	esperava	esperavas	esperava	esperávamos	esperáveis	esperavam
+wait	indicative	perfective	present	esperei	esperaste	esperou	esperamos1, esperámos2	esperastes	esperaram
+wait	indicative	perfective	past	esperara	esperaras	esperara	esperáramos	esperáreis	esperaram
+wait	indicative		future	esperarei	esperarás	esperará	esperaremos	esperareis	esperarão
+wait	conditional			esperaria	esperarias	esperaria	esperaríamos	esperaríeis	esperariam
+wait	subjunctive	simple	present	espere	esperes	espere	esperemos	espereis	esperem
+wait	subjunctive	imperfective	past	esperasse	esperasses	esperasse	esperássemos	esperásseis	esperassem
+wait	subjunctive	simple	future	esperar	esperares	esperar	esperarmos	esperardes	esperarem
+wait	imperative	affirmative			espera	espere	esperemos	esperai	esperem
+wait	imperative	negative			não esperes	não espere	não esperemos	não espereis	não esperem
