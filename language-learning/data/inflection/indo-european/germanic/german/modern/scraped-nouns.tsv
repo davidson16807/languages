@@ -896,18 +896,18 @@ coin	nominative	ein	das	Geldstück	die	Geldstücke
 coin	genitive	eines	des	Geldstückes, Geldstücks	der	Geldstücke
 coin	dative	einem	dem	Geldstück, Geldstücke1	den	Geldstücken
 coin	accusative	ein	das	Geldstück	die	Geldstücke
-weath		singular	singular	singular	plural	plural
-weath		indef.	def.	noun	def.	noun
-weath	nominative	ein	der	Reichtum	die	Reichtümer
-weath	genitive	eines	des	Reichtums, Reichtumes1	der	Reichtümer
-weath	dative	einem	dem	Reichtum, Reichtume1,2	den	Reichtümern
-weath	accusative	einen	den	Reichtum	die	Reichtümer
-weath		singular	singular	singular	plural	plural
-weath		indef.	def.	noun	def.	noun
-weath	nominative	ein	das	Vermögen	die	Vermögen
-weath	genitive	eines	des	Vermögens	der	Vermögen
-weath	dative	einem	dem	Vermögen	den	Vermögen
-weath	accusative	ein	das	Vermögen	die	Vermögen
+wealth		singular	singular	singular	plural	plural
+wealth		indef.	def.	noun	def.	noun
+wealth	nominative	ein	der	Reichtum	die	Reichtümer
+wealth	genitive	eines	des	Reichtums, Reichtumes1	der	Reichtümer
+wealth	dative	einem	dem	Reichtum, Reichtume1,2	den	Reichtümern
+wealth	accusative	einen	den	Reichtum	die	Reichtümer
+wealth		singular	singular	singular	plural	plural
+wealth		indef.	def.	noun	def.	noun
+wealth	nominative	ein	das	Vermögen	die	Vermögen
+wealth	genitive	eines	des	Vermögens	der	Vermögen
+wealth	dative	einem	dem	Vermögen	den	Vermögen
+wealth	accusative	ein	das	Vermögen	die	Vermögen
 monster		singular	singular	singular	plural	plural
 monster		indef.	def.	noun	def.	noun
 monster	nominative	ein	das	Monster	die	Monster
