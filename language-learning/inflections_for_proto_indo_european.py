@@ -58,8 +58,6 @@ foreign_language = Language(
             conjugation_population.index([
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/finite-conjugations.tsv')),
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/finite-conjugations-scraped.tsv')),
                 *nonfinite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
             ])),
@@ -69,8 +67,6 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-declensions.tsv')),
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions-scraped.tsv')),
             ])),
         NestedDictLookup(
             declension_population.index([

@@ -590,7 +590,7 @@ verb_voice_blacklist = parse.termmask(
     'verb  voice',
     '''
     be       middle
-    gone     middle
+    go       middle
     ''')
 
 #useful for debugging
