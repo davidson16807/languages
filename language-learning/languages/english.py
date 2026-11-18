@@ -12,7 +12,7 @@ from tools.nodemaps import (
 from tools.dictstores import DictLookup, NestedDictLookup, FallbackDictLookup, ProceduralLookup
 from tools.indexing import DictKeyIndexing
 from tools.cards import CardFormatting
-from tools.inflections import (
+from tools.terms import (
     case_usage_population, mood_usage_population, aspect_usage_population, 
     declension_population, mood_population,
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation, 

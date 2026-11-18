@@ -11,7 +11,7 @@ import time
 from bs4 import BeautifulSoup
 
 # in-house libraries
-from tools.inflections import write
+from tools.terms import write
 from tools.parsing import TokenParsing
 
 '''

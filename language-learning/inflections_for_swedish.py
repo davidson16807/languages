@@ -14,7 +14,7 @@ from tools.nodemaps import (
     RuleTools, RuleFormatting, RuleSyntax, 
 )
 from tools.cards import DeckGeneration
-from tools.inflections import (
+from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
