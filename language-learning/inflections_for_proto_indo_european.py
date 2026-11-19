@@ -5,6 +5,7 @@ start_time = time.time()
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
 from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -18,6 +19,8 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
+    verb_lexeme_annotation, noun_lexeme_annotation,
+    verb_lexeme_population, noun_lexeme_population,
     finite_annotation, nonfinite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -54,27 +57,60 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/finite-conjugations.tsv')),
-                *nonfinite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-declensions.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-agreements.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/finite-conjugations.tsv')),
+                    *nonfinite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
+                ])),
+            [
+                (r'(.*)eti', 'carry', 'bʰér'), # sérpeti → sérpoh₂
+                # (r'(.*)ti',  'eat',   'h₁éd'), # h₁édti  → h₁édmi
+            ]),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-declensions.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions.tsv')),
+                ])),
+            [
+                (r'(.*)os',  'wolf',   'wĺ̥kʷ'),   # wĺ̥kʷos    → wĺ̥kʷosyo
+                (r'(.*)ós',  'nest',   'nisd'),   # h₁rudʰrós → h₁rudʰrósyo
+                (r'(.*)éh₂', 'nest',   'h₁éḱw'),  # h₁éḱwéh₂  → h₁éḱwéh₂s
+                (r'(.*)om',  'gift',   'déh₃n'),  # déh₃nom   → déh₃nosyo
+                (r'(.*)óm',  'egg',    'h₂ōwy'),  # h₂ōwyóm   → h₂ōwyósyo
+                (r'(.*)r',   'star',   'h₂stḗ'),  # h₂stḗr    → h₂strés
+                (r'(.*)us',  'boat',   'néh₂'),   # néh₂us    → neh₂wéh₁ 
+                (r'(.*)us',  'tree',   'dór'),    # dóru      → dréws 
+                # (r'(.*)n̥', 'seed',   'ǵénh₁m'), # ǵénh₁mn̥   → ǵn̥h₁méns
+                # (r'(.*)is','thought','mént'),   # h₂éwis    → mn̥téys 
+            ]),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-agreements.tsv')),
+                ])),
+            [
+                (r'(.*)ós',  'young', 'h₂yuHn̥ḱ'), # h₂yuHn̥ḱós → h₂yuHn̥ḱéh₂
+                # (r'(.*)nts', 'old',   'ǵérh₂o' ), # ǵérh₂onts → ǵr̥h₂éntih₂
+                # (r'(.*)is',  'upset', 'tréyst' ), # tréystis  → tristéys
+            ]),
     ),
     RuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
