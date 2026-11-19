@@ -5,6 +5,7 @@ start_time = time.time()
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
 from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -18,6 +19,8 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
+    verb_lexeme_annotation, noun_lexeme_annotation,
+    verb_lexeme_population, noun_lexeme_population,
     finite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -55,27 +58,58 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/finite-conjugations.tsv')),
-                # *nonfinite_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/nonfinite-conjugations.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/pronoun-declensions.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/adjective-agreements.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/finite-conjugations.tsv')),
+                    # *nonfinite_annotation.annotate(
+                    #     tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/nonfinite-conjugations.tsv')),
+                ])),
+            [
+                (r'(.+)gar',        'arrive',  'lle'),     # llegar → llegué
+                (r'(.+)zar',        'throw',   'lan'),     # lanzar → lancé
+                (r'(.+)zar',        'startle', 'atemori'),
+                (r'(.*[^cgziu])ar', 'speak',   'habl'),    # hablar → hablé
+                (r'(.+)ger',        'protect', 'prote'),   # proteger → protejo
+                (r'(.*[^cgaeon])er', 'eat',     'com'),    # comer → como
+                (r'(.*[^cgu])ir',   'part',    'part'),    # partir → parto
+            ]),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/pronoun-declensions.tsv')),
+                ])),
+            [
+                (r'(\w+)o',      'book',  'libr'),  # libro  → libros
+                (r'(\w+)a',      'house', 'cas'),   # casa   → casas
+                (r'(\w+)e',      'name',  'nombr'), # nombre → nombres
+                (r'(\w+[dlnr])', 'love',  'amor'),  # amor   → amores
+            ]),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/adjective-agreements.tsv')),
+                ])),
+            [
+                (r'(\w+)o', 'good',   'buen'),  # bueno → buena
+                (r'(\w+)e', 'strong', 'fuert'), # fuerte → fuertes
+            ]),
     ),
     ModernRomanceRuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
