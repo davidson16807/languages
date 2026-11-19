@@ -16,12 +16,15 @@ class RegularInflectionFallbackLookup:
     * `replaced` is the portion of the representative's inflection that is replaced.
     Patterns are attempted in order until an inflection is found.
     '''
-    def __init__(self, part_of_speech, lexeme_for_tags, inflection_for_tags, patterns, missing=''):
+    def __init__(self, part_of_speech, lexeme_for_tags, inflection_for_tags, patterns, 
+            missing='', unmatched='ꜝ', inferred='\u200b'):
         self.part_of_speech = part_of_speech
         self.lexeme_for_tags = lexeme_for_tags
         self.inflection_for_tags = inflection_for_tags
         self.patterns = patterns
         self.missing = missing
+        self.unmatched = unmatched
+        self.inferred = inferred
     def __getitem__(self, tags):
         if tags in self.inflection_for_tags:
             return self.inflection_for_tags[tags]
@@ -33,13 +36,8 @@ class RegularInflectionFallbackLookup:
                     representative_tags = {**tags, self.part_of_speech: representative}
                     if representative_tags in self.inflection_for_tags:
                         representative_inflection = self.inflection_for_tags[representative_tags]
-                        inflection, count = re.subn(
-                            replaced,
-                            lambda _: match.group(1),
-                            representative_inflection
-                        )
-                        if count > 0:
-                            return inflection
+                        return self.inferred + re.sub(replaced, match.group(1), representative_inflection)
+            return self.unmatched + lexeme
         return self.missing
     def __contains__(self, tags):
         return self[tags] != self.missing

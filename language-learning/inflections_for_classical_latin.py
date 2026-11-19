@@ -5,6 +5,7 @@ start_time = time.time()
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
 from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -18,6 +19,8 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
+    verb_lexeme_annotation, noun_lexeme_annotation,
+    verb_lexeme_population, noun_lexeme_population,
     finite_annotation, nonfinite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -55,27 +58,53 @@ foreign_language = Language(
         debug=True,
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/finite-conjugations.tsv')),
-                *nonfinite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/nonfinite-conjugations.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/pronoun-declensions.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/adjective-agreements.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/finite-conjugations.tsv')),
+                    *nonfinite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/nonfinite-conjugations.tsv')),
+                ])),
+            [
+                (r'(.+)[ōo]', 'love', 'am'), # amō → amābam
+            ]),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/pronoun-declensions.tsv')),
+                ])),
+            [
+                (r'(\w+)a',  'sailor', 'naut'), # nauta  → nautae
+                (r'(\w+)um', 'war',    'bell'), # bellum → bella
+                (r'(\w+)us', 'horse',  'equ'),  # equus  → equī
+                (r'(\w+)ius','son',    'fil'),  # filius → filī
+                (r'(\w+)r',  'boy',    'pue'),  # puer   → puerī
+                (r'(\w+)is', 'tower',  'turr'), # turris → turrēs
+            ]),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/adjective-agreements.tsv')),
+                ])),
+            [
+                (r'(\w+)us', 'happy', 'laet'), # laetus → laeta
+            ]),
         debug=True,
     ),
     RuleSyntax(
