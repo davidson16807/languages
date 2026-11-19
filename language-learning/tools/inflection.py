@@ -17,7 +17,7 @@ class RegularInflectionFallbackLookup:
     Patterns are attempted in order until an inflection is found.
     '''
     def __init__(self, part_of_speech, lexeme_for_tags, inflection_for_tags, patterns, 
-            missing='', unmatched='ꜝ', inferred='\u200b'):
+            missing='...', unmatched='ꜝ', inferred='\u200b'):
         self.part_of_speech = part_of_speech
         self.lexeme_for_tags = lexeme_for_tags
         self.inflection_for_tags = inflection_for_tags

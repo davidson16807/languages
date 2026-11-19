@@ -7,8 +7,10 @@ tabular form	rendered as	behavior
 """—"""	N/A	does not exist, statements that would use this inflection are unlikely or would be rephrased, any card that includes this character will be omitted	
 ❕	N/A	deliberately omitted for pragmatic reasons, any card that includes this character will be omitted	
 ❔	N/A	unattested, unreliable, or unknown to exist, any card that includes this character will be omitted	
-"""…"""	"""…"""	unknown but likely to have existed and necessary to demonstrate other known inflections, cards that include this character will only be omitted if the character is enclosed in a clozure	
-""""""	"""..."""	unintentionally omitted since it allows us to easily spot errors in deck specification	
+…	…	unknown but likely to have existed and necessary to demonstrate other known inflections, cards that include this character will only be omitted if the character is enclosed in a clozure	
+	...	unintentionally omitted, used to easily spot errors in deck specification
+ꜝ	ꜝ	unintentionally uninflected, used to easily spot errors in deck specification
+ˀ	ˀ	speculative	
 *	*	reconstructed	omitted if implied by the deck (e.g. proto-indo-european)
 ᴬ	ᴬ	archaic	omitted if implied by the deck (e.g. old-latin)
 ᴰ	ᴰ	dated	omitted if implied by the deck
@@ -16,4 +18,3 @@ tabular form	rendered as	behavior
 ᴹ	ᴹ	middle	omitted if implied by the deck (e.g. middle egyptian)
 ᴸ	ᴸ	late	omitted if implied by the deck (e.g. quenya)
 ᴺ	ᴺ	neologism	omitted if implied by the deck (e.g. modern hebrew)
-ˀ	ˀ	speculative	
