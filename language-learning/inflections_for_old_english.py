@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -18,6 +19,7 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
+    noun_lexeme_annotation, noun_lexeme_population,
     finite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -59,13 +61,34 @@ foreign_language = Language(
                 *finite_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/conjugations.tsv')),
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/pronoun-declensions.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/pronoun-declensions.tsv')),
+                ])),
+            DictLookup('noun patterns', DictTupleIndexing(['gender']), {
+                ('masculine',): [
+                    (r'(\w+)u',                                                   'son',  'sun'),    # u-stem, light
+                    (r'(\w+)a',                                                   'moon',  'mōn'),   # n-stem
+                    (r'(\w*[^aeiouyæāēīōūȳǣ])',                                   'dog',   'hund'),  # a-stem
+                ],
+                ('neuter',): [
+                    (r'(\w+)e',                                                   'eye',   'ēag'),   # n-stem
+                    (r'(\w*[āēīōūȳǣ][^aeiouyæāēīōūȳǣ]+|\w*[^aeiouyæāēīōūȳǣ]{2})', 'house', 'hūs'),   # a-stem, light
+                    (r'(\w*[aeiouyæ][^aeiouyæāēīōūȳǣ])',                          'light', 'sċip'),  # a-stem, heavy
+                ],
+                ('feminine',): [
+                    (r'(\w+)u',                                                  'gift',  'ġief'),  # ō-stem, light
+                    (r'(\w+)e',                                                  'sun',   'sunn'),  # n-stem
+                    (r'(\w*[^aeiouyæāēīōūȳǣ])',                                  'raid',  'rād'),   # ō-stem, heavy
+                ],
+            })),
         NestedDictLookup(
             declension_population.index([
                 *possessive_pronoun_annotation.annotate(

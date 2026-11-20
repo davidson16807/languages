@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -18,6 +19,7 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
+    noun_lexeme_annotation, noun_lexeme_population,
     finite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -62,13 +64,38 @@ foreign_language = Language(
                 # *nonfinite_annotation.annotate(
                 #     tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/nonfinite-conjugations.tsv')),
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/pronoun-declensions.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('noun',
+            NestedDictLookup(
+                DictLookup('noun lexemes', DictTupleIndexing(['script']), {
+                    ('latin',): noun_lexeme_population.index(
+                        noun_lexeme_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/noun-lexemes.tsv'))),
+                    ('ipa',): noun_lexeme_population.index(
+                        noun_lexeme_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/noun-ipa-lexemes.tsv'))),
+                })),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/pronoun-declensions.tsv')),
+                ])),
+            DictLookup('noun patterns', DictTupleIndexing(['script']), {
+                ('latin',): [
+                    (r'(.+)al',  'horse', 'chev'),  # cheval → chevaux
+                    (r'(.+)ail', 'work',  'trav'),  # travail→ travaux
+                    (r'(.+)au',  'bird',  'oise'),  # oiseau → oiseaux
+                    (r'(.+)eu',  'fire',  'f'),     # feu    → feaux
+                    (r'(.+)',    'book',  'livre'), # livre  → livres
+                ],
+                ('ipa',): [
+                    (r'(.*)al',  'horse', 'ʃə.v'),   # ʃə.val  → ʃə.vo
+                    (r'(.*)aj',  'work',  'tʁa.v'),  # tʁa.vaj → tʁa.vo
+                    (r'(.*)œf',  'cattle','b'),      # bœf     → bø
+                    (r'(.+)',    'book',  'livʁ'),   # livʁ    → livʁ
+                ],
+            })),
         NestedDictLookup(
             declension_population.index([
                 *possessive_pronoun_annotation.annotate(

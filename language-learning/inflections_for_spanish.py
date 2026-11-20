@@ -69,7 +69,7 @@ foreign_language = Language(
                     # *nonfinite_annotation.annotate(
                     #     tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/nonfinite-conjugations.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(.+)gar',        'arrive',  'lle'),     # llegar → llegué
                 (r'(.+)zar',        'throw',   'lan'),     # lanzar → lancé
                 (r'(.+)zar',        'startle', 'atemori'),
@@ -77,7 +77,7 @@ foreign_language = Language(
                 (r'(.+)ger',        'protect', 'prote'),   # proteger → protejo
                 (r'(.*[^cgaeon])er', 'eat',     'com'),    # comer → como
                 (r'(.*[^cgu])ir',   'part',    'part'),    # partir → parto
-            ]),
+            ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
                 noun_lexeme_annotation.annotate(
@@ -89,12 +89,12 @@ foreign_language = Language(
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/pronoun-declensions.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(\w+)o',      'book',  'libr'),  # libro  → libros
                 (r'(\w+)a',      'house', 'cas'),   # casa   → casas
                 (r'(\w+)e',      'name',  'nombr'), # nombre → nombres
                 (r'(\w+[dlnr])', 'love',  'amor'),  # amor   → amores
-            ]),
+            ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
                 noun_lexeme_annotation.annotate(
@@ -106,10 +106,10 @@ foreign_language = Language(
                     *common_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/adjective-agreements.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(\w+)o', 'good',   'buen'),  # bueno → buena
                 (r'(\w+)e', 'strong', 'fuert'), # fuerte → fuertes
-            ]),
+            ])),
     ),
     ModernRomanceRuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),

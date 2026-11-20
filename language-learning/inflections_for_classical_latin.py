@@ -69,9 +69,9 @@ foreign_language = Language(
                     *nonfinite_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/nonfinite-conjugations.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(.+)[ōo]', 'love', 'am'), # amō → amābam
-            ]),
+            ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
                 noun_lexeme_annotation.annotate(
@@ -83,14 +83,14 @@ foreign_language = Language(
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/pronoun-declensions.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(\w+)a',  'sailor', 'naut'), # nauta  → nautae
                 (r'(\w+)um', 'war',    'bell'), # bellum → bella
                 (r'(\w+)us', 'horse',  'equ'),  # equus  → equī
                 (r'(\w+)ius','son',    'fil'),  # filius → filī
                 (r'(\w+)r',  'boy',    'pue'),  # puer   → puerī
                 (r'(\w+)is', 'tower',  'turr'), # turris → turrēs
-            ]),
+            ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
                 noun_lexeme_annotation.annotate(
@@ -102,9 +102,9 @@ foreign_language = Language(
                     *common_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/adjective-agreements.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(\w+)us', 'happy', 'laet'), # laetus → laeta
-            ]),
+            ])),
         debug=True,
     ),
     RuleSyntax(

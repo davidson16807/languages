@@ -68,10 +68,10 @@ foreign_language = Language(
                     *nonfinite_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(.*)eti', 'carry', 'bʰér'), # sérpeti → sérpoh₂
                 # (r'(.*)ti',  'eat',   'h₁éd'), # h₁édti  → h₁édmi
-            ]),
+            ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
                 noun_lexeme_annotation.annotate(
@@ -83,7 +83,7 @@ foreign_language = Language(
                     *common_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(.*)os',  'wolf',   'wĺ̥kʷ'),   # wĺ̥kʷos    → wĺ̥kʷosyo
                 (r'(.*)ós',  'nest',   'nisd'),   # h₁rudʰrós → h₁rudʰrósyo
                 (r'(.*)éh₂', 'nest',   'h₁éḱw'),  # h₁éḱwéh₂  → h₁éḱwéh₂s
@@ -94,7 +94,7 @@ foreign_language = Language(
                 (r'(.*)us',  'tree',   'dór'),    # dóru      → dréws 
                 # (r'(.*)n̥', 'seed',   'ǵénh₁m'), # ǵénh₁mn̥   → ǵn̥h₁méns
                 # (r'(.*)is','thought','mént'),   # h₂éwis    → mn̥téys 
-            ]),
+            ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
                 noun_lexeme_annotation.annotate(
@@ -106,11 +106,11 @@ foreign_language = Language(
                     *common_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-agreements.tsv')),
                 ])),
-            [
+            UniformDictLookup([
                 (r'(.*)ós',  'young', 'h₂yuHn̥ḱ'), # h₂yuHn̥ḱós → h₂yuHn̥ḱéh₂
                 # (r'(.*)nts', 'old',   'ǵérh₂o' ), # ǵérh₂onts → ǵr̥h₂éntih₂
                 # (r'(.*)is',  'upset', 'tréyst' ), # tréystis  → tristéys
-            ]),
+            ])),
     ),
     RuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
