@@ -57,13 +57,28 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/finite-conjugations.tsv')),
-                # *nonfinite_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/nonfinite-conjugations.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('verb',
+            NestedDictLookup(
+                DictLookup('verb lexemes', DictTupleIndexing(['script']), {
+                    ('latin',): verb_lexeme_population.index(
+                        verb_lexeme_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/verb-lexemes.tsv'))),
+                })),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/finite-conjugations.tsv')),
+                    # *nonfinite_annotation.annotate(
+                    #     tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/nonfinite-conjugations.tsv')),
+                ])),
+            DictLookup('verb patterns', DictTupleIndexing(['script']), {
+                ('latin',): [
+                    (r'(.+)ger',  'eat',    'man'),    # manger → mangeons
+                    (r'(.+)er',   'speak',  'parl'),   # parler → parlons, but not jeter, lever, or préférer
+                    (r'(.+)ir',   'heal',   'guér'),   # guérir → guérirons
+                    (r'(.+re)',   'loose',  'perd'),   # perdre → perdons, but not prendre
+                ],
+            })),
         RegularInflectionFallbackLookup('noun',
             NestedDictLookup(
                 DictLookup('noun lexemes', DictTupleIndexing(['script']), {
@@ -87,6 +102,7 @@ foreign_language = Language(
                     (r'(.+)ail', 'work',  'trav'),  # travail→ travaux
                     (r'(.+)au',  'bird',  'oise'),  # oiseau → oiseaux
                     (r'(.+)eu',  'fire',  'f'),     # feu    → feaux
+                    (r'(.+)ou',  'knee',  'gen'),   # genou  → genoux
                     (r'(.+)',    'book',  'livre'), # livre  → livres
                 ],
                 ('ipa',): [
@@ -103,6 +119,7 @@ foreign_language = Language(
                 *common_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/adjective-agreements.tsv')),
             ])),
+
     ),
     ModernRomanceRuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
