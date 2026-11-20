@@ -56,10 +56,20 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/conjugations.tsv')),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/conjugations.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.*rian', 'move',  'sty'),   # weak, class 1
+                (r'(.*ian',  'love',  'luf'),   # weak, class 2
+                (r'(.*)an',  'share', 'dǣl'),   # weak, class 1
+                (r'(.*[aeiouyæāēīōūȳǣ]{2})an',  'tame',  'temm?'), # weak, class 1, double consonant
             ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
@@ -89,13 +99,21 @@ foreign_language = Language(
                     (r'(\w*[^aeiouyæāēīōūȳǣ])',                                  'raid',  'rād'),   # ō-stem, heavy
                 ],
             })),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/adjective-agreements.tsv')),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/adjective-agreements.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(\w+[^aeiouyæ])', 'loud',  'hlūd'),   # hlūd → hlūdne
             ])),
+
     ),
     RuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
