@@ -22,12 +22,12 @@ be	infinitive				бы́ть	býtʹ	—	—
 be	participle		active		су́щий	súščij	—	—	бы́вший	bývšij
 be	participle		passive		—		—	—	—	
 be	participle		adverbial		бу́дучи	búduči	—	—	бы́в,бы́вшиši	býv, bývši
-be	finite	indicative	1	singular	есть,е́смь	jestʹ, jésmʹ	бу́ду	búdu		
-be	finite	indicative	2	singular	есть	jestʹ	бу́дешь	búdešʹ		
-be	finite	indicative	3	singular	есть	jestʹ	бу́дет	búdet		
-be	finite	indicative	1	plural	есть	jestʹ	бу́дем	búdem		
-be	finite	indicative	2	plural	есть	jestʹ	бу́дете	búdete		
-be	finite	indicative	3	plural	есть,су́ть	jestʹ, sútʹ	бу́дут	búdut		
+be	finite	indicative	1	singular	∅	∅	бу́ду	búdu		
+be	finite	indicative	2	singular	∅	∅	бу́дешь	búdešʹ		
+be	finite	indicative	3	singular	∅	∅	бу́дет	búdet		
+be	finite	indicative	1	plural	∅	∅	бу́дем	búdem		
+be	finite	indicative	2	plural	∅	∅	бу́дете	búdete		
+be	finite	indicative	3	plural	∅	∅	бу́дут	búdut		
 be	finite	indicative	masculine	singular					бы́л	býl
 be	finite	indicative	masculine	plural					бы́ли	býli
 be	finite	indicative	feminine	singular					была́	bylá
@@ -36,16 +36,34 @@ be	finite	indicative	neuter	singular					бы́ло	býlo
 be	finite	indicative	neuter	plural					бы́ли	býli
 be	finite	imperative	2	singular	бу́дь	búdʹ				
 be	finite	imperative	2	plural	бу́дьте	búdʹte				
+be-momentarily	infinitive				бы́ть	býtʹ	—	—		
+be-momentarily	participle		active		су́щий	súščij	—	—	бы́вший	bývšij
+be-momentarily	participle		passive		—		—	—	—	
+be-momentarily	participle		adverbial		бу́дучи	búduči	—	—	бы́в,бы́вшиši	býv, bývši
+be-momentarily	finite	indicative	1	singular	∅	∅	бу́ду	búdu		
+be-momentarily	finite	indicative	2	singular	∅	∅	бу́дешь	búdešʹ		
+be-momentarily	finite	indicative	3	singular	∅	∅	бу́дет	búdet		
+be-momentarily	finite	indicative	1	plural	∅	∅	бу́дем	búdem		
+be-momentarily	finite	indicative	2	plural	∅	∅	бу́дете	búdete		
+be-momentarily	finite	indicative	3	plural	∅	∅	бу́дут	búdut		
+be-momentarily	finite	indicative	masculine	singular					бы́л	býl
+be-momentarily	finite	indicative	masculine	plural					бы́ли	býli
+be-momentarily	finite	indicative	feminine	singular					была́	bylá
+be-momentarily	finite	indicative	feminine	plural					бы́ли	býli
+be-momentarily	finite	indicative	neuter	singular					бы́ло	býlo
+be-momentarily	finite	indicative	neuter	plural					бы́ли	býli
+be-momentarily	finite	imperative	2	singular	бу́дь	búdʹ				
+be-momentarily	finite	imperative	2	plural	бу́дьте	búdʹte				
 be-inherently	infinitive				бы́ть	býtʹ	—	—		
 be-inherently	participle		active		су́щий	súščij	—	—	бы́вший	bývšij
 be-inherently	participle		passive		—		—	—	—	
 be-inherently	participle		adverbial		бу́дучи	búduči	—	—	бы́в,бы́вшиši	býv, bývši
-be-inherently	finite	indicative	1	singular	есть,е́смь	jestʹ, jésmʹ	бу́ду	búdu		
-be-inherently	finite	indicative	2	singular	есть	jestʹ	бу́дешь	búdešʹ		
-be-inherently	finite	indicative	3	singular	есть	jestʹ	бу́дет	búdet		
-be-inherently	finite	indicative	1	plural	есть	jestʹ	бу́дем	búdem		
-be-inherently	finite	indicative	2	plural	есть	jestʹ	бу́дете	búdete		
-be-inherently	finite	indicative	3	plural	есть,су́ть	jestʹ, sútʹ	бу́дут	búdut		
+be-inherently	finite	indicative	1	singular	∅	∅	бу́ду	búdu		
+be-inherently	finite	indicative	2	singular	∅	∅	бу́дешь	búdešʹ		
+be-inherently	finite	indicative	3	singular	∅	∅	бу́дет	búdet		
+be-inherently	finite	indicative	1	plural	∅	∅	бу́дем	búdem		
+be-inherently	finite	indicative	2	plural	∅	∅	бу́дете	búdete		
+be-inherently	finite	indicative	3	plural	∅	∅	бу́дут	búdut		
 be-inherently	finite	indicative	masculine	singular					бы́л	býl
 be-inherently	finite	indicative	masculine	plural					бы́ли	býli
 be-inherently	finite	indicative	feminine	singular					была́	bylá
@@ -54,6 +72,24 @@ be-inherently	finite	indicative	neuter	singular					бы́ло	býlo
 be-inherently	finite	indicative	neuter	plural					бы́ли	býli
 be-inherently	finite	imperative	2	singular	бу́дь	búdʹ				
 be-inherently	finite	imperative	2	plural	бу́дьте	búdʹte				
+be-intransitive	infinitive				бы́ть	býtʹ	—	—		
+be-intransitive	participle		active		су́щий	súščij	—	—	бы́вший	bývšij
+be-intransitive	participle		passive		—		—	—	—	
+be-intransitive	participle		adverbial		бу́дучи	búduči	—	—	бы́в,бы́вшиši	býv, bývši
+be-intransitive	finite	indicative	1	singular	есть,е́смь	jestʹ, jésmʹ	бу́ду	búdu		
+be-intransitive	finite	indicative	2	singular	есть	jestʹ	бу́дешь	búdešʹ		
+be-intransitive	finite	indicative	3	singular	есть	jestʹ	бу́дет	búdet		
+be-intransitive	finite	indicative	1	plural	есть	jestʹ	бу́дем	búdem		
+be-intransitive	finite	indicative	2	plural	есть	jestʹ	бу́дете	búdete		
+be-intransitive	finite	indicative	3	plural	есть,су́ть	jestʹ, sútʹ	бу́дут	búdut		
+be-intransitive	finite	indicative	masculine	singular					бы́л	býl
+be-intransitive	finite	indicative	masculine	plural					бы́ли	býli
+be-intransitive	finite	indicative	feminine	singular					была́	bylá
+be-intransitive	finite	indicative	feminine	plural					бы́ли	býli
+be-intransitive	finite	indicative	neuter	singular					бы́ло	býlo
+be-intransitive	finite	indicative	neuter	plural					бы́ли	býli
+be-intransitive	finite	imperative	2	singular	бу́дь	búdʹ				
+be-intransitive	finite	imperative	2	plural	бу́дьте	búdʹte				
 change	infinitive				изменя́ть	izmenjátʹ	—	—		
 change	participle		active		изменя́ющий	izmenjájuščij	—	—	изменя́вший	izmenjávšij
 change	participle		passive		изменя́емый	izmenjájemyj	—	—	—	

@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -54,25 +55,87 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/slavic/russian/conjugations.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/slavic/russian/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-declensions.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/slavic/russian/adjective-agreements.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('verb',
+            NestedDictLookup(
+                DictLookup('verb lexemes', DictTupleIndexing(['script']), {
+                    ('cyrillic',): verb_lexeme_population.index(
+                        verb_lexeme_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/verb-lexemes.tsv'))),
+                })),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/slavic/russian/conjugations.tsv')),
+                ])),
+            DictLookup('verb patterns', DictTupleIndexing(['script']), {
+                ('cyrillic',): [
+                    (r'(.*)а́ть',   'read',    'чит'), # 1st conjugation
+                    (r'(.*)ну́ть',  'return',  'вер'), # 1st conjugation
+                    (r'(.*)ова́ть', 'draw',    'рис'), # 1st conjugation
+                    (r'(.*)ева́ть', 'spit',    'пл'),  # 1st conjugation
+                    (r'(.*)очь',   'spit',    'м'),   # 1st conjugation
+                    (r'(.*)ечь',   'bake',    'п'),   # 1st conjugation
+                    (r'(.*)сти́',   'carry',   'не'),  # 1st conjugation
+                    (r'(.*)асть',  'steal',   'кр'),  # 1st conjugation
+                    (r'(.*)зти́',   'convey',  'ве'),  # 1st conjugation
+                    (r'(.*)зть',   'climb',   'ле'),  # 1st conjugation
+                    (r'(.*)ыть',   'wash',    'м'),   # 1st conjugation
+                    (r'(.*)ить',   'beat',    'б'),   # 1st conjugation
+                    (r'(.*)лыть',  'swim',    'п'),   # 1st conjugation
+                    (r'(.*)оси́ть', 'ask',     'пр'),  # 2nd conjugation
+                    (r'(.*)зи́ть',  'convey',  'во'),  # 2nd conjugation
+                    (r'(.*)ти́ть',  'pay',     'пла'), # 2nd conjugation
+                    (r'(.*)ди́ть',  'walk',    'хо'),  # 2nd conjugation
+                    (r'(.*)сти́ть', 'forgive', 'про'), # 2nd conjugation
+                ],
+            })),
+        RegularInflectionFallbackLookup('noun',
+            NestedDictLookup(
+                DictLookup('noun lexemes', DictTupleIndexing(['script']), {
+                    ('cyrillic',): noun_lexeme_population.index(
+                        noun_lexeme_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/noun-lexemes.tsv'))),
+                })),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/slavic/russian/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-declensions.tsv')),
+                ])),
+            DictLookup('noun patterns', DictTupleIndexing(['script']), {
+                ('cyrillic',): [
+                    (r'(.*])а', 'work',      'рабо́т'), # 1st declension
+                    (r'(.*])я', 'bathhouse', 'ба́н'),   # 1st declension
+                    (r'(.*])я', 'bathhouse', 'ба́н'),   # 1st declension
+                    (r'(.*])о', 'place',     'ме́ст'),  # 2nd declension, neuter
+                    (r'(.*])е', 'sea',       'мо́р'),   # 2nd declension, neuter
+                    (r'(.*])ь', 'path',      'пут'),   # 3rd declension
+                    (r'(.*[бвдзлмнпрстф])', 'movie', 'фи́льм'), # 2nd declension, masculine
+                ],
+            })),
+        RegularInflectionFallbackLookup('noun',
+            NestedDictLookup(
+                DictLookup('adjective lexemes', DictTupleIndexing(['script']), {
+                    ('cyrillic',): noun_lexeme_population.index(
+                        noun_lexeme_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/adjective-lexemes.tsv'))),
+                })),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/slavic/russian/adjective-agreements.tsv')),
+                ])),
+            DictLookup('adjective patterns', DictTupleIndexing(['script']), {
+                ('cyrillic',): [
+                    (r'(.*)ый', 'new',  'но́в'),   
+                    (r'(.*)ий', 'blue', 'си́н'),   
+                    (r'(.*)о́й', 'big',  'больш'), 
+                ],
+            })),
+
     ),
     RuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
