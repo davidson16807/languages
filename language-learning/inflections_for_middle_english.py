@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -66,25 +67,52 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/conjugations.tsv')),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/conjugations.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(\w+)nde',  'send',   'se'),    # weak, -te
+                (r'(\w+)de',   'feed',   'fe'),    # weak, -de
+                (r'(\w+)e',    'joke',   'gam'),   # weak, -ed
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/pronoun-declensions.tsv')),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/pronoun-declensions.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(\w+)e',    'son',   'son'),   # sone → sones
+                (r'(\w+[^e])', 'book',  'bok'),   # bok → bokes
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                # *possessive_pronoun_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/adjective-agreements.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    # *possessive_pronoun_annotation.annotate(
+                    #     tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/adjective-agreements.tsv')),
+                ])),
+            DictLookup('adjective patterns', DictTupleIndexing(['degree']), {
+                ('positive',): [
+                    (r'(\w+[^ey])', 'strong',  'strong'),   # strong → stronge
+                ],
+            })),
+
     ),
     EnglishRuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
