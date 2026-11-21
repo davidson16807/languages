@@ -214,7 +214,7 @@ speak	indicative	past	nonrecent	parlài	parlàsti	parlò	parlàmmo	parlàste	par
 speak	indicative	future		parlerò	parlerài	parlerà	parlerémo	parleréte	parlerànno
 speak	conditional	present		parlerèi	parlerésti	parlerèbbe, parlerébbe	parlerémmo	parleréste	parlerèbbero, parlerébbero
 speak	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-speak	indicative	present		pàrli	pàrli	pàrli	parliàmo	parliàte	pàrlino
+speak	subjunctive	past		pàrli	pàrli	pàrli	parliàmo	parliàte	pàrlino
 speak	indicative	past	recent	parlàssi	parlàssi	parlàsse	parlàssimo	parlàste	parlàssero
 speak	imperative	past	nonrecent		pàrla	pàrli	parliàmo	parlàte	pàrlino
 speak	imperative	negative			non parlàre	non pàrli	non parliàmo	non parlàte	non pàrlino
@@ -224,7 +224,7 @@ become	indicative	past	nonrecent	diventài	diventàsti	diventò	diventàmmo	dive
 become	indicative	future		diventerò	diventerài	diventerà	diventerémo	diventeréte	diventerànno
 become	conditional	present		diventerèi	diventerésti	diventerèbbe, diventerébbe	diventerémmo	diventeréste	diventerèbbero, diventerébbero
 become	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-become	indicative	present		divènti, divénti	divènti, divénti	divènti, divénti	diventiàmo	diventiàte	divèntino, divéntino
+become	subjunctive	past		divènti, divénti	divènti, divénti	divènti, divénti	diventiàmo	diventiàte	divèntino, divéntino
 become	indicative	past	recent	diventàssi	diventàssi	diventàsse	diventàssimo	diventàste	diventàssero
 become	imperative	past	nonrecent		divènta, divénta	divènti, divénti	diventiàmo	diventàte	divèntino, divéntino
 become	imperative	negative			non diventàre	non divènti, non divénti	non diventiàmo	non diventàte	non divèntino, non divéntino
@@ -234,7 +234,7 @@ learn	indicative	past	nonrecent	imparài	imparàsti	imparò	imparàmmo	imparàst
 learn	indicative	future		imparerò	imparerài	imparerà	imparerémo	impareréte	imparerànno
 learn	conditional	present		imparerèi	imparerésti	imparerèbbe, imparerébbe	imparerémmo	impareréste	imparerèbbero, imparerébbero
 learn	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-learn	indicative	present		impàri	impàri	impàri	impariàmo	impariàte	impàrino
+learn	subjunctive	past		impàri	impàri	impàri	impariàmo	impariàte	impàrino
 learn	indicative	past	recent	imparàssi	imparàssi	imparàsse	imparàssimo	imparàste	imparàssero
 learn	imperative	past	nonrecent		impàra	impàri	impariàmo	imparàte	impàrino
 learn	imperative	negative			non imparàre	non impàri	non impariàmo	non imparàte	non impàrino
@@ -244,7 +244,7 @@ give	indicative	past	nonrecent	dièdi, diédi, détti, dètti3	désti	diède, di
 give	indicative	future		darò	darài	darà	darémo	daréte	darànno
 give	conditional	present		darèi	darésti	darèbbe, darébbe	darémmo	daréste	darèbbero, darébbero
 give	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-give	indicative	present		dìa	dìa	dìa	diàmo	diàte	dìano
+give	subjunctive	past		dìa	dìa	dìa	diàmo	diàte	dìano
 give	indicative	past	recent	déssi	déssi	désse	déssimo	déste	déssero
 give	imperative	past	nonrecent		dài, dà'	dìa	diàmo	dàte	dìano
 give	imperative	negative			non dàre	non dìa	non diàmo	non dàte	non dìano
@@ -254,7 +254,7 @@ help	indicative	past	nonrecent	aiutài	aiutàsti	aiutò	aiutàmmo	aiutàste	aiut
 help	indicative	future		aiuterò	aiuterài	aiuterà	aiuterémo	aiuteréte	aiuterànno
 help	conditional	present		aiuterèi	aiuterésti	aiuterèbbe, aiuterébbe	aiuterémmo	aiuteréste	aiuterèbbero, aiuterébbero
 help	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-help	indicative	present		aiùti	aiùti	aiùti	aiutiàmo	aiutiàte	aiùtino
+help	subjunctive	past		aiùti	aiùti	aiùti	aiutiàmo	aiutiàte	aiùtino
 help	indicative	past	recent	aiutàssi	aiutàssi	aiutàsse	aiutàssimo	aiutàste	aiutàssero
 help	imperative	past	nonrecent		aiùta	aiùti	aiutiàmo	aiutàte	aiùtino
 help	imperative	negative			non aiutàre	non aiùti	non aiutiàmo	non aiutàte	non aiùtino
@@ -264,7 +264,7 @@ protect	indicative	past	nonrecent	protèssi	proteggésti	protèsse	proteggémmo	
 protect	indicative	future		proteggerò	proteggerài	proteggerà	proteggerémo	proteggeréte	proteggerànno
 protect	conditional	present		proteggerèi	proteggerésti	proteggerèbbe, proteggerébbe	proteggerémmo	proteggeréste	proteggerèbbero, proteggerébbero
 protect	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-protect	indicative	present		protègga	protègga	protègga	proteggiàmo	proteggiàte	protèggano
+protect	subjunctive	past		protègga	protègga	protègga	proteggiàmo	proteggiàte	protèggano
 protect	indicative	past	recent	proteggéssi	proteggéssi	proteggésse	proteggéssimo	proteggéste	proteggéssero
 protect	imperative	past	nonrecent		protèggi	protègga	proteggiàmo	proteggéte	protèggano
 protect	imperative	negative			non protèggere	non protègga	non proteggiàmo	non proteggéte	non protèggano
@@ -274,7 +274,7 @@ hide	indicative	past	nonrecent	nascósi	nascondésti	nascóse	nascondémmo	nasco
 hide	indicative	future		nasconderò	nasconderài	nasconderà	nasconderémo	nasconderéte	nasconderànno
 hide	conditional	present		nasconderèi	nasconderésti	nasconderèbbe, nasconderébbe	nasconderémmo	nasconderéste	nasconderèbbero, nasconderébbero
 hide	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-hide	indicative	present		nascónda	nascónda	nascónda	nascondiàmo	nascondiàte	nascóndano
+hide	subjunctive	past		nascónda	nascónda	nascónda	nascondiàmo	nascondiàte	nascóndano
 hide	indicative	past	recent	nascondéssi	nascondéssi	nascondésse	nascondéssimo	nascondéste	nascondéssero
 hide	imperative	past	nonrecent		nascóndi	nascónda	nascondiàmo	nascondéte	nascóndano
 hide	imperative	negative			non nascóndere	non nascónda	non nascondiàmo	non nascondéte	non nascóndano
@@ -284,7 +284,7 @@ be-able	indicative	past	nonrecent	potéi, potétti3, potètti3,4	potésti	poté,
 be-able	indicative	future		potrò	potrài	potrà	potrémo	potréte	potrànno
 be-able	conditional	present		potrèi	potrésti	potrèbbe, potrébbe	potrémmo	potréste	potrèbbero, potrébbero
 be-able	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-be-able	indicative	present		pòssa	pòssa	pòssa	possiàmo	possiàte	pòssano
+be-able	subjunctive	past		pòssa	pòssa	pòssa	possiàmo	possiàte	pòssano
 be-able	indicative	past	recent	potéssi	potéssi	potésse	potéssimo	potéste	potéssero
 be-able	imperative	past	nonrecent		—	—	—	—	—
 be-able	imperative	negative			—	—	—	—	—
@@ -294,7 +294,7 @@ arrive	indicative	past	nonrecent	arrivài	arrivàsti	arrivò	arrivàmmo	arrivàs
 arrive	indicative	future		arriverò	arriverài	arriverà	arriverémo	arriveréte	arriverànno
 arrive	conditional	present		arriverèi	arriverésti	arriverèbbe, arriverébbe	arriverémmo	arriveréste	arriverèbbero, arriverébbero
 arrive	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-arrive	indicative	present		arrìvi	arrìvi	arrìvi	arriviàmo	arriviàte	arrìvino
+arrive	subjunctive	past		arrìvi	arrìvi	arrìvi	arriviàmo	arriviàte	arrìvino
 arrive	indicative	past	recent	arrivàssi	arrivàssi	arrivàsse	arrivàssimo	arrivàste	arrivàssero
 arrive	imperative	past	nonrecent		arrìva	arrìvi	arriviàmo	arrivàte	arrìvino
 arrive	imperative	negative			non arrivàre	non arrìvi	non arriviàmo	non arrivàte	non arrìvino
@@ -304,7 +304,7 @@ come	indicative	past	nonrecent	arrivài	arrivàsti	arrivò	arrivàmmo	arrivàste
 come	indicative	future		arriverò	arriverài	arriverà	arriverémo	arriveréte	arriverànno
 come	conditional	present		arriverèi	arriverésti	arriverèbbe, arriverébbe	arriverémmo	arriveréste	arriverèbbero, arriverébbero
 come	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-come	indicative	present		arrìvi	arrìvi	arrìvi	arriviàmo	arriviàte	arrìvino
+come	subjunctive	past		arrìvi	arrìvi	arrìvi	arriviàmo	arriviàte	arrìvino
 come	indicative	past	recent	arrivàssi	arrivàssi	arrivàsse	arrivàssimo	arrivàste	arrivàssero
 come	imperative	past	nonrecent		arrìva	arrìvi	arriviàmo	arrivàte	arrìvino
 come	imperative	negative			non arrivàre	non arrìvi	non arriviàmo	non arrivàte	non arrìvino
@@ -314,7 +314,7 @@ ask	indicative	past	nonrecent	chièsi, chiési	chiedésti	chièse, chiése	chied
 ask	indicative	future		chiederò	chiederài	chiederà	chiederémo	chiederéte	chiederànno
 ask	conditional	present		chiederèi	chiederésti	chiederèbbe, chiederébbe	chiederémmo	chiederéste	chiederèbbero, chiederébbero
 ask	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-ask	indicative	present		chièda, chiéda	chièda, chiéda	chièda, chiéda	chiediàmo	chiediàte	chièdano, chiédano
+ask	subjunctive	past		chièda, chiéda	chièda, chiéda	chièda, chiéda	chiediàmo	chiediàte	chièdano, chiédano
 ask	indicative	past	recent	chiedéssi	chiedéssi	chiedésse	chiedéssimo	chiedéste	chiedéssero
 ask	imperative	past	nonrecent		chièdi, chiédi	chièda, chiéda	chiediàmo	chiedéte	chièdano, chiédano
 ask	imperative	negative			non chièdere, non chiédere	non chièda, non chiéda	non chiediàmo	non chiedéte	non chièdano, non chiédano
@@ -324,7 +324,7 @@ be	indicative	past	nonrecent	fùi	fósti	fù3	fùmmo	fóste	fùrono
 be	indicative	future		sarò	sarài	sarà	sarémo	saréte	sarànno
 be	conditional	present		sarèi	sarésti	sarèbbe, sarébbe	sarémmo	saréste	sarèbbero, sarébbero
 be	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-be	indicative	present		sìa	sìa	sìa	siàmo	siàte	sìano
+be	subjunctive	past		sìa	sìa	sìa	siàmo	siàte	sìano
 be	indicative	past	recent	fóssi	fóssi	fósse	fóssimo	fóste	fóssero
 be	imperative	past	nonrecent		sìi	sìa	siàmo	siàte	sìano
 be	imperative	negative			non èssere	non sìa	non siàmo	non siàte	non sìano
@@ -334,7 +334,7 @@ crawl	indicative	past	nonrecent	gattonài	gattonàsti	gattonò	gattonàmmo	gatto
 crawl	indicative	future		gattonerò	gattonerài	gattonerà	gattonerémo	gattoneréte	gattonerànno
 crawl	conditional	present		gattonerèi	gattonerésti	gattonerèbbe, gattonerébbe	gattonerémmo	gattoneréste	gattonerèbbero, gattonerébbero
 crawl	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-crawl	indicative	present		gattóni	gattóni	gattóni	gattoniàmo	gattoniàte	gattónino
+crawl	subjunctive	past		gattóni	gattóni	gattóni	gattoniàmo	gattoniàte	gattónino
 crawl	indicative	past	recent	gattonàssi	gattonàssi	gattonàsse	gattonàssimo	gattonàste	gattonàssero
 crawl	imperative	past	nonrecent		gattóna	gattóni	gattoniàmo	gattonàte	gattónino
 crawl	imperative	negative			non gattonàre	non gattóni	non gattoniàmo	non gattonàte	non gattónino
@@ -344,7 +344,7 @@ chill	indicative	past	nonrecent	raffreddài	raffreddàsti	raffreddò	raffreddàm
 chill	indicative	future		raffredderò	raffredderài	raffredderà	raffredderémo	raffredderéte	raffredderànno
 chill	conditional	present		raffredderèi	raffredderésti	raffredderèbbe, raffredderébbe	raffredderémmo	raffredderéste	raffredderèbbero, raffredderébbero
 chill	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-chill	indicative	present		raffréddi	raffréddi	raffréddi	raffreddiàmo	raffreddiàte	raffréddino
+chill	subjunctive	past		raffréddi	raffréddi	raffréddi	raffreddiàmo	raffreddiàte	raffréddino
 chill	indicative	past	recent	raffreddàssi	raffreddàssi	raffreddàsse	raffreddàssimo	raffreddàste	raffreddàssero
 chill	imperative	past	nonrecent		raffrédda	raffréddi	raffreddiàmo	raffreddàte	raffréddino
 chill	imperative	negative			non raffreddàre	non raffréddi	non raffreddiàmo	non raffreddàte	non raffréddino
@@ -354,7 +354,7 @@ lead	indicative	past	nonrecent	condùssi	conducésti	condùsse	conducémmo	condu
 lead	indicative	future		condurrò	condurrài	condurrà	condurrémo	condurréte	condurrànno
 lead	conditional	present		condurrèi	condurrésti	condurrèbbe, condurrébbe	condurrémmo	condurréste	condurrèbbero, condurrébbero
 lead	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-lead	indicative	present		condùca	condùca	condùca	conduciàmo	conduciàte	condùcano
+lead	subjunctive	past		condùca	condùca	condùca	conduciàmo	conduciàte	condùcano
 lead	indicative	past	recent	conducéssi	conducéssi	conducésse	conducéssimo	conducéste	conducéssero
 lead	imperative	past	nonrecent		condùci	condùca	conduciàmo	conducéte	condùcano
 lead	imperative	negative			non condùrre	non condùca	non conduciàmo	non conducéte	non condùcano
@@ -364,7 +364,7 @@ upset	indicative	past	nonrecent	innervosìi	innervosìsti	innervosì	innervosìm
 upset	indicative	future		innervosirò	innervosirài	innervosirà	innervosirémo	innervosiréte	innervosirànno
 upset	conditional	present		innervosirèi	innervosirésti	innervosirèbbe, innervosirébbe	innervosirémmo	innervosiréste	innervosirèbbero, innervosirébbero
 upset	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-upset	indicative	present		innervosìsca	innervosìsca	innervosìsca	innervosiàmo	innervosiàte	innervosìscano
+upset	subjunctive	past		innervosìsca	innervosìsca	innervosìsca	innervosiàmo	innervosiàte	innervosìscano
 upset	indicative	past	recent	innervosìssi	innervosìssi	innervosìsse	innervosìssimo	innervosìste	innervosìssero
 upset	imperative	past	nonrecent		innervosìsci	innervosìsca	innervosiàmo	innervosìte	innervosìscano
 upset	imperative	negative			non innervosìre	non innervosìsca	non innervosiàmo	non innervosìte	non innervosìscano
@@ -374,7 +374,7 @@ fix	indicative	past	nonrecent	riparài	riparàsti	riparò	riparàmmo	riparàste	
 fix	indicative	future		riparerò	riparerài	riparerà	riparerémo	ripareréte	riparerànno
 fix	conditional	present		riparerèi	riparerésti	riparerèbbe, riparerébbe	riparerémmo	ripareréste	riparerèbbero, riparerébbero
 fix	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-fix	indicative	present		ripàri	ripàri	ripàri	ripariàmo	ripariàte	ripàrino
+fix	subjunctive	past		ripàri	ripàri	ripàri	ripariàmo	ripariàte	ripàrino
 fix	indicative	past	recent	riparàssi	riparàssi	riparàsse	riparàssimo	riparàste	riparàssero
 fix	imperative	past	nonrecent		ripàra	ripàri	ripariàmo	riparàte	ripàrino
 fix	imperative	negative			non riparàre	non ripàri	non ripariàmo	non riparàte	non ripàrino
@@ -384,7 +384,7 @@ flow	indicative	past	nonrecent	fluìi	fluìsti	fluì	fluìmmo	fluìste	fluìrono
 flow	indicative	future		fluirò	fluirài	fluirà	fluirémo	fluiréte	fluirànno
 flow	conditional	present		fluirèi	fluirésti	fluirèbbe, fluirébbe	fluirémmo	fluiréste	fluirèbbero, fluirébbero
 flow	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-flow	indicative	present		fluìsca	fluìsca	fluìsca	fluiàmo	fluiàte	fluìscano
+flow	subjunctive	past		fluìsca	fluìsca	fluìsca	fluiàmo	fluiàte	fluìscano
 flow	indicative	past	recent	fluìssi	fluìssi	fluìsse	fluìssimo	fluìste	fluìssero
 flow	imperative	past	nonrecent		fluìsci	fluìsca	fluiàmo	fluìte	fluìscano
 flow	imperative	negative			non fluìre	non fluìsca	non fluiàmo	non fluìte	non fluìscano
@@ -394,7 +394,7 @@ suffer	indicative	past	nonrecent	soffrìi, soffèrsi1	soffrìsti	soffrì, soffè
 suffer	indicative	future		soffrirò	soffrirài	soffrirà	soffrirémo	soffriréte	soffrirànno
 suffer	conditional	present		soffrirèi	soffrirésti	soffrirèbbe, soffrirébbe	soffrirémmo	soffriréste	soffrirèbbero, soffrirébbero
 suffer	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-suffer	indicative	present		sòffra	sòffra	sòffra	soffriàmo	soffriàte	sòffrano
+suffer	subjunctive	past		sòffra	sòffra	sòffra	soffriàmo	soffriàte	sòffrano
 suffer	indicative	past	recent	soffrìssi	soffrìssi	soffrìsse	soffrìssimo	soffrìste	soffrìssero
 suffer	imperative	past	nonrecent		sòffri	sòffra	soffriàmo	soffrìte	sòffrano
 suffer	imperative	negative			non soffrìre	non sòffra	non soffriàmo	non soffrìte	non sòffrano
@@ -404,7 +404,7 @@ fight	indicative	past	nonrecent	lottài	lottàsti	lottò	lottàmmo	lottàste	lot
 fight	indicative	future		lotterò	lotterài	lotterà	lotterémo	lotteréte	lotterànno
 fight	conditional	present		lotterèi	lotterésti	lotterèbbe, lotterébbe	lotterémmo	lotteréste	lotterèbbero, lotterébbero
 fight	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-fight	indicative	present		lòtti	lòtti	lòtti	lottiàmo	lottiàte	lòttino
+fight	subjunctive	past		lòtti	lòtti	lòtti	lottiàmo	lottiàte	lòttino
 fight	indicative	past	recent	lottàssi	lottàssi	lottàsse	lottàssimo	lottàste	lottàssero
 fight	imperative	past	nonrecent		lòtta	lòtti	lottiàmo	lottàte	lòttino
 fight	imperative	negative			non lottàre	non lòtti	non lottiàmo	non lottàte	non lòttino
@@ -414,7 +414,7 @@ greet	indicative	past	nonrecent	salutài	salutàsti	salutò	salutàmmo	salutàst
 greet	indicative	future		saluterò	saluterài	saluterà	saluterémo	saluteréte	saluterànno
 greet	conditional	present		saluterèi	saluterésti	saluterèbbe, saluterébbe	saluterémmo	saluteréste	saluterèbbero, saluterébbero
 greet	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-greet	indicative	present		salùti	salùti	salùti	salutiàmo	salutiàte	salùtino
+greet	subjunctive	past		salùti	salùti	salùti	salutiàmo	salutiàte	salùtino
 greet	indicative	past	recent	salutàssi	salutàssi	salutàsse	salutàssimo	salutàste	salutàssero
 greet	imperative	past	nonrecent		salùta	salùti	salutiàmo	salutàte	salùtino
 greet	imperative	negative			non salutàre	non salùti	non salutiàmo	non salutàte	non salùtino
@@ -424,7 +424,7 @@ heal	indicative	past	nonrecent	guarìi	guarìsti	guarì	guarìmmo	guarìste	guar
 heal	indicative	future		guarirò	guarirài	guarirà	guarirémo	guariréte	guarirànno
 heal	conditional	present		guarirèi	guarirésti	guarirèbbe, guarirébbe	guarirémmo	guariréste	guarirèbbero, guarirébbero
 heal	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-heal	indicative	present		guarìsca	guarìsca	guarìsca	guariàmo	guariàte	guarìscano
+heal	subjunctive	past		guarìsca	guarìsca	guarìsca	guariàmo	guariàte	guarìscano
 heal	indicative	past	recent	guarìssi	guarìssi	guarìsse	guarìssimo	guarìste	guarìssero
 heal	imperative	past	nonrecent		guarìsci	guarìsca	guariàmo	guarìte	guarìscano
 heal	imperative	negative			non guarìre	non guarìsca	non guariàmo	non guarìte	non guarìscano
@@ -434,7 +434,7 @@ heat	indicative	past	nonrecent	scaldài	scaldàsti	scaldò	scaldàmmo	scaldàste
 heat	indicative	future		scalderò	scalderài	scalderà	scalderémo	scalderéte	scalderànno
 heat	conditional	present		scalderèi	scalderésti	scalderèbbe, scalderébbe	scalderémmo	scalderéste	scalderèbbero, scalderébbero
 heat	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-heat	indicative	present		scàldi	scàldi	scàldi	scaldiàmo	scaldiàte	scàldino
+heat	subjunctive	past		scàldi	scàldi	scàldi	scaldiàmo	scaldiàte	scàldino
 heat	indicative	past	recent	scaldàssi	scaldàssi	scaldàsse	scaldàssimo	scaldàste	scaldàssero
 heat	imperative	past	nonrecent		scàlda	scàldi	scaldiàmo	scaldàte	scàldino
 heat	imperative	negative			non scaldàre	non scàldi	non scaldiàmo	non scaldàte	non scàldino
@@ -444,7 +444,7 @@ inhabit	indicative	past	nonrecent	abitài	abitàsti	abitò	abitàmmo	abitàste	a
 inhabit	indicative	future		abiterò	abiterài	abiterà	abiterémo	abiteréte	abiterànno
 inhabit	conditional	present		abiterèi	abiterésti	abiterèbbe, abiterébbe	abiterémmo	abiteréste	abiterèbbero, abiterébbero
 inhabit	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-inhabit	indicative	present		àbiti	àbiti	àbiti	abitiàmo	abitiàte	àbitino
+inhabit	subjunctive	past		àbiti	àbiti	àbiti	abitiàmo	abitiàte	àbitino
 inhabit	indicative	past	recent	abitàssi	abitàssi	abitàsse	abitàssimo	abitàste	abitàssero
 inhabit	imperative	past	nonrecent		àbita	àbiti	abitiàmo	abitàte	àbitino
 inhabit	imperative	negative			non abitàre	non àbiti	non abitiàmo	non abitàte	non àbitino
@@ -454,7 +454,7 @@ love	indicative	past	nonrecent	amài	amàsti	amò	amàmmo	amàste	amàrono
 love	indicative	future		amerò	amerài	amerà	amerémo	ameréte	amerànno
 love	conditional	present		amerèi	amerésti	amerèbbe, amerébbe	amerémmo	ameréste	amerèbbero, amerébbero
 love	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-love	indicative	present		àmi	àmi	àmi	amiàmo	amiàte	àmino
+love	subjunctive	past		àmi	àmi	àmi	amiàmo	amiàte	àmino
 love	indicative	past	recent	amàssi	amàssi	amàsse	amàssimo	amàste	amàssero
 love	imperative	past	nonrecent		àma	àmi	amiàmo	amàte	àmino
 love	imperative	negative			non amàre	non àmi	non amiàmo	non amàte	non àmino
@@ -464,7 +464,7 @@ read	indicative	past	nonrecent	lèssi	leggésti	lèsse	leggémmo	leggéste	lèss
 read	indicative	future		leggerò	leggerài	leggerà	leggerémo	leggeréte	leggerànno
 read	conditional	present		leggerèi	leggerésti	leggerèbbe, leggerébbe	leggerémmo	leggeréste	leggerèbbero, leggerébbero
 read	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-read	indicative	present		lègga	lègga	lègga	leggiàmo	leggiàte	lèggano
+read	subjunctive	past		lègga	lègga	lègga	leggiàmo	leggiàte	lèggano
 read	indicative	past	recent	leggéssi	leggéssi	leggésse	leggéssimo	leggéste	leggéssero
 read	imperative	past	nonrecent		lèggi	lègga	leggiàmo	leggéte	lèggano
 read	imperative	negative			non lèggere	non lègga	non leggiàmo	non leggéte	non lèggano
@@ -474,7 +474,7 @@ shout	indicative	past	nonrecent	gridài	gridàsti	gridò	gridàmmo	gridàste	gri
 shout	indicative	future		griderò	griderài	griderà	griderémo	grideréte	griderànno
 shout	conditional	present		griderèi	griderésti	griderèbbe, griderébbe	griderémmo	grideréste	griderèbbero, griderébbero
 shout	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-shout	indicative	present		grìdi	grìdi	grìdi	gridiàmo	gridiàte	grìdino
+shout	subjunctive	past		grìdi	grìdi	grìdi	gridiàmo	gridiàte	grìdino
 shout	indicative	past	recent	gridàssi	gridàssi	gridàsse	gridàssimo	gridàste	gridàssero
 shout	imperative	past	nonrecent		grìda	grìdi	gridiàmo	gridàte	grìdino
 shout	imperative	negative			non gridàre	non grìdi	non gridiàmo	non gridàte	non grìdino
@@ -484,7 +484,7 @@ frighten	indicative	past	nonrecent	spaurìi	spaurìsti	spaurì	spaurìmmo	spaur�
 frighten	indicative	future		spaurirò	spaurirài	spaurirà	spaurirémo	spauriréte	spaurirànno
 frighten	conditional	present		spaurirèi	spaurirésti	spaurirèbbe, spaurirébbe	spaurirémmo	spauriréste	spaurirèbbero, spaurirébbero
 frighten	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-frighten	indicative	present		spaurìsca	spaurìsca	spaurìsca	spauriàmo	spauriàte	spaurìscano
+frighten	subjunctive	past		spaurìsca	spaurìsca	spaurìsca	spauriàmo	spauriàte	spaurìscano
 frighten	indicative	past	recent	spaurìssi	spaurìssi	spaurìsse	spaurìssimo	spaurìste	spaurìssero
 frighten	imperative	past	nonrecent		spaurìsci	spaurìsca	spauriàmo	spaurìte	spaurìscano
 frighten	imperative	negative			non spaurìre	non spaurìsca	non spauriàmo	non spaurìte	non spaurìscano
@@ -494,7 +494,7 @@ throw	indicative	past	nonrecent	gettài	gettàsti	gettò	gettàmmo	gettàste	get
 throw	indicative	future		getterò	getterài	getterà	getterémo	getteréte	getterànno
 throw	conditional	present		getterèi	getterésti	getterèbbe, getterébbe	getterémmo	getteréste	getterèbbero, getterébbero
 throw	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-throw	indicative	present		gètti	gètti	gètti	gettiàmo	gettiàte	gèttino
+throw	subjunctive	past		gètti	gètti	gètti	gettiàmo	gettiàte	gèttino
 throw	indicative	past	recent	gettàssi	gettàssi	gettàsse	gettàssimo	gettàste	gettàssero
 throw	imperative	past	nonrecent		gètta	gètti	gettiàmo	gettàte	gèttino
 throw	imperative	negative			non gettàre	non gètti	non gettiàmo	non gettàte	non gèttino
@@ -504,7 +504,16 @@ wait	indicative	past	nonrecent	aspettài	aspettàsti	aspettò	aspettàmmo	aspett
 wait	indicative	future		aspetterò	aspetterài	aspetterà	aspetterémo	aspetteréte	aspetterànno
 wait	conditional	present		aspetterèi	aspetterésti	aspetterèbbe, aspetterébbe	aspetterémmo	aspetteréste	aspetterèbbero, aspetterébbero
 wait	subjunctive	present		che io	che tu	che lui/che lei, che esso/che essa	che noi	che voi	che loro, che essi/che esse
-wait	indicative	present		aspètti	aspètti	aspètti	aspettiàmo	aspettiàte	aspèttino
+wait	subjunctive	past		aspètti	aspètti	aspètti	aspettiàmo	aspettiàte	aspèttino
 wait	indicative	past	recent	aspettàssi	aspettàssi	aspettàsse	aspettàssimo	aspettàste	aspettàssero
 wait	imperative	past	nonrecent		aspètta	aspètti	aspettiàmo	aspettàte	aspèttino
 wait	imperative	negative			non aspettàre	non aspètti	non aspettiàmo	non aspettàte	non aspèttino
+sleep	indicative	present		dòrmo 	dòrmi 	dòrme 	dormiàmo 	dormìte 	dòrmono
+sleep	indicative	past	recent	dormìvo 	dormìvi 	dormìva 	dormivàmo 	dormivàte 	dormìvano
+sleep	indicative	past	nonrecent	dormìi 	dormìsti 	dormì 	dormìmmo 	dormìste 	dormìrono
+sleep	indicative	future		dormirò 	dormirài 	dormirà 	dormirémo 	dormiréte 	dormirànno
+sleep	conditional	present		dormirèi 	dormirésti 	dormirèbbe, dormirébbe 	dormirémmo 	dormiréste 	dormirèbbero, dormirébbero 
+sleep	subjunctive	present		dòrma 	dòrma 	dòrma 	dormiàmo 	dormiàte 	dòrmano
+sleep	subjunctive	past		dormìssi 	dormìssi 	dormìsse 	dormìssimo 	dormìste 	dormìssero 
+sleep	imperative	past	nonrecent	 	dòrmi 	dòrma 	dormiàmo 	dormìte 	dòrmano
+sleep	imperative	negative			non dormìre 	non dòrma 	non dormiàmo 	non dormìte 	non dòrmano 

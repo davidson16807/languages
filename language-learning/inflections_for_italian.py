@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -55,27 +56,54 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/finite-conjugations.tsv')),
-                # *nonfinite_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/nonfinite-conjugations.tsv')),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/finite-conjugations.tsv')),
+                    # *nonfinite_annotation.annotate(
+                    #     tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/nonfinite-conjugations.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.+)iare', 'change', 'c[àa]mb'),
+                (r'(.*)are',  'love',   '[aà]m'),
+                (r'(.+)ere',  'see',    'v[eé]d'),
+                (r'(.+)ire',  'sleep',  'd[oò]rm'),
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/pronoun-declensions.tsv')),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/pronoun-declensions.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(\w+[^cg])o', 'book',  'libr'),   # libro → libri, but not mano
+                (r'(\w+[^cgi])a', 'house',  'cas'),   # casa → case, but not problema
+                (r'(\w\w+)e',    'name',  'nom'),    # nome → nomi
+            ]),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/adjective-agreements.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(\w+[^cgi])o', 'clever',  'brav'),   # bravo → brava, bravissimo
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/italian/modern/adjective-agreements.tsv')),
-            ])),
+
     ),
     ModernRomanceRuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
