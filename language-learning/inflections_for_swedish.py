@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -70,25 +71,73 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/conjugations.tsv')),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/conjugations.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.+er)a', 'call',   'kall'),   # 1
+                (r'(.+k)a',  'read',   'läs'),   # 2b
+                (r'(.+d)a',  'close',  'stang'), # 2a
+                (r'(.+v)a',  'close',  'stang'), # 2a
+                (r'(.+m)a',  'strike', 'stryk'), # 4
+                (r'(.+nn)a', 'strike', 'stryk'), # 4
+                (r'(.+)a',   'call',   'kall'),  # 1
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/pronoun-declensions.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/adjective-agreements.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/pronoun-declensions.tsv')),
+                ])),
+            DictLookup('noun patterns', DictTupleIndexing(['gender']), {
+                ('masculine',): [
+                    (r'(.+)a',             'bottle',  'flask'), # 1st declension, common
+                    (r'(.+)e',             'baker',   'bagar'), # 5th declension, common
+                    (r'(.+)(ing|dom|lek|el|en|er)', 'chair', 'stol'), # 2nd declension, common
+                    (r'(.+)(het|nad|tion|else|ie|je)',    'thing', 'sak'),  # 3rd declension, common
+                    (r'(.+[^aeiouyåäö])',  'thing', 'sak'),   # 3rd declension, common
+                ],
+                ('feminine',): [
+                    (r'(.+)a',             'bottle',  'flask'), # 1st declension, common
+                    (r'(.+)e',             'baker',   'bagar'), # 5th declension, common
+                    (r'(.+)(ing|dom|lek|el|en|er)', 'chair', 'stol'), # 2nd declension, common
+                    (r'(.+)(het|nad|tion|else|ie|je)',    'thing', 'sak'),  # 3rd declension, common
+                    (r'(.+[^aeiouyåäö])',  'thing', 'sak'),   # 3rd declension, common
+                ],
+                ('neuter',): [
+                    (r'(.+)(i|eum|ium)',   'political-party', 'part'),   # 3rd declension, common
+                    (r'(.+[aeiouyåäö])',   'heart', 'hjärt'),  # 4th declension, neuter
+                    (r'(.+[^aeiouyåäö])',  'horn',  'horn'),   # 5th declension, neuter
+                ],
+            })),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/adjective-agreements.tsv')),
+                ])),
+            DictLookup('adjective patterns', DictTupleIndexing(['degree']), {
+                ('positive',): [
+                    (r'(.+[^aeiouyåäötd])', 'strong',  'stark'), # stark → starkt, starka
+                ],
+            })),
+
     ),
     RuleSyntax(
         parse_any.tokens('adposition det adj np n clause'),
