@@ -83,8 +83,8 @@ foreign_language = Language(
             UniformDictLookup([
                 (r'(.+er)a', 'call',   'kall'),   # 1
                 (r'(.+k)a',  'read',   'läs'),   # 2b
-                (r'(.+d)a',  'close',  'stang'), # 2a
-                (r'(.+v)a',  'close',  'stang'), # 2a
+                (r'(.+d)a',  'close',  'stäng'), # 2a
+                (r'(.+v)a',  'close',  'stäng'), # 2a
                 (r'(.+m)a',  'strike', 'stryk'), # 4
                 (r'(.+nn)a', 'strike', 'stryk'), # 4
                 (r'(.+)a',   'call',   'kall'),  # 1

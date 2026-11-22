@@ -105,12 +105,11 @@ foreign_language = Language(
                 ])),
             DictLookup('noun patterns', DictTupleIndexing(['script']), {
                 ('cyrillic',): [
-                    (r'(.*])а', 'work',      'рабо́т'), # 1st declension
-                    (r'(.*])я', 'bathhouse', 'ба́н'),   # 1st declension
-                    (r'(.*])я', 'bathhouse', 'ба́н'),   # 1st declension
-                    (r'(.*])о', 'place',     'ме́ст'),  # 2nd declension, neuter
-                    (r'(.*])е', 'sea',       'мо́р'),   # 2nd declension, neuter
-                    (r'(.*])ь', 'path',      'пут'),   # 3rd declension
+                    (r'(.*)а', 'work',      'рабо́т'), # 1st declension
+                    (r'(.*)я', 'bathhouse', 'ба́н'),   # 1st declension
+                    (r'(.*)о', 'place',     'ме́ст'),  # 2nd declension, neuter
+                    (r'(.*)е', 'sea',       'мо́р'),   # 2nd declension, neuter
+                    (r'(.*)ь', 'path',      'пут'),   # 3rd declension
                     (r'(.*[бвдзлмнпрстф])', 'movie', 'фи́льм'), # 2nd declension, masculine
                 ],
             })),

@@ -88,7 +88,7 @@ foreign_language = Language(
                 (r'(\w+[^cg])o', 'book',  'libr'),   # libro → libri, but not mano
                 (r'(\w+[^cgi])a', 'house',  'cas'),   # casa → case, but not problema
                 (r'(\w\w+)e',    'name',  'nom'),    # nome → nomi
-            ]),
+            ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
                 noun_lexeme_annotation.annotate(

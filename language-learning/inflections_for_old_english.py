@@ -66,10 +66,10 @@ foreign_language = Language(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/conjugations.tsv')),
                 ])),
             UniformDictLookup([
-                (r'(.*rian', 'move',  'sty'),   # weak, class 1
-                (r'(.*ian',  'love',  'luf'),   # weak, class 2
+                (r'(.*)rian', 'move',  'sty'),   # weak, class 1
+                (r'(.*)ian',  'love',  'luf'),   # weak, class 2
                 (r'(.*)an',  'share', 'dǣl'),   # weak, class 1
-                (r'(.*[aeiouyæāēīōūȳǣ]{2})an',  'tame',  'temm?'), # weak, class 1, double consonant
+                (r'(.*[^aeiouyæāēīōūȳǣ]{2})an',  'tame',  'temm?'), # weak, class 1, double consonant
             ])),
         RegularInflectionFallbackLookup('noun',
             noun_lexeme_population.index(
