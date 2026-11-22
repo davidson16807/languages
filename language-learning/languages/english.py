@@ -262,9 +262,9 @@ class EnglishListSubstitution:
         definiteness = memory['definiteness'] if 'definiteness' in memory else 'indefinite'
         subjectivity = memory['subjectivity']
         nounform = memory['noun-form']
-        if definiteness == 'definite' and subjectivity != 'addressee' and nounform in {'common'}: 
+        if definiteness == 'definite' and subjectivity != 'addressee' and nounform in {'lexical'}: 
             return [['det','the'], tree]
-        if definiteness == 'indefinite' and subjectivity != 'addressee' and nounform in {'common'}: 
+        if definiteness == 'indefinite' and subjectivity != 'addressee' and nounform in {'lexical'}: 
             return [['det','a'], tree]
         else:
             return tree

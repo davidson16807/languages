@@ -201,7 +201,7 @@ tagaxis_to_tags = {
     'degree':     'positive equative comparative superlative'.split(), # 
 
     # needed for gerunds, supines, participles, and gerundives
-    'gender':     'masculine feminine gendered neuter'.split(), # language specific concept where something takes on grammatical forms associated with a sex, "gendered" is used instead of "common" to disambiguate it from the "common" noun-forms
+    'gender':     'masculine feminine gendered neuter'.split(), # language specific concept where something takes on grammatical forms associated with a sex, "gendered" is used instead of "common" to disambiguate it from common nouns, which are the "lexical" noun-form
     'virility':   'virile muliebrile avirile'.split(), # language specific where something takes on physical attributes associated with a sex
     'sex':        'male female sexless'.split(), # biological concept assigned at birth
     'animacy':    'animate inanimate'.split(), # language specific concept where something takes on grammatical forms associated with something that moves
@@ -273,12 +273,12 @@ tagaxis_to_tags = {
     # needed for quantifiers/correlatives
     'quantity':    'universal nonexistential assertive elective'.split(),
 
-    # needed to distinguish pronouns from common nouns and to further distinguish types of pronouns
+    # needed to distinguish pronouns from lexical nouns and to further distinguish types of pronouns
     'noun-form':  
-        '''common personal 
+        '''lexical personal 
            demonstrative interrogative quantifier numeral
            reciprocal relative reflexive emphatic-reflexive
-           common-possessive personal-possessive reflexive-possessive'''.split(),
+           lexical-possessive personal-possessive reflexive-possessive'''.split(),
 
     # needed to distinguish forms of verb that require different kinds of lookups with different primary keys
     'verb-form':  'finite infinitive participle gerundive gerund adverbial supine group'.split(),
@@ -373,11 +373,11 @@ declension_template_lookups = DictLookup(
     'declension',
     DictKeyIndexing('noun-form'), 
     {
-        'common': parse_any.tokenfield('common', 
+        'lexical': parse_any.tokenfield('lexical', 
             'noun number gender animacy definiteness partitivity degree strength case script', ''),
         'personal': parse_any.termfield('personal', 
             'person number gender clusivity formality case clitic script', ''),
-        'common-possessive': parse_any.tokenfield('common-possessive', 
+        'lexical-possessive': parse_any.tokenfield('lexical-possessive', 
             'possessor-noun possessor-number number gender case clitic script', ''),
         'personal-possessive': parse_any.termfield('personal-possessive', 
             'possessor-person possessor-number possessor-gender possessor-clusivity possessor-formality number animacy gender case clitic script', ''),
@@ -413,10 +413,10 @@ possessive_pronoun_annotation  = CellAnnotation(
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal-possessive'})
 common_noun_annotation  = CellAnnotation(
     'inflection', tag_to_tagaxis, {}, {0:'noun'},
-    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
+    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'lexical', 'person':'3'})
 emoji_noun_adjective_annotation  = CellAnnotation(
     'inflection', tag_to_tagaxis, {}, {0:'adjective',1:'noun'},
-    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'common', 'person':'3'})
+    {**tagaxis_to_tags, 'script':'latin', 'noun-form':'lexical', 'person':'3'})
 emoji_noun_verb_annotation = RowAnnotation('flag noun verb emoji'.split())
 emoji_verb_annotation = RowAnnotation('flag template verb emoji'.split())
 emoji_noun_declensions_annotation = CellAnnotation(
@@ -751,7 +751,7 @@ tag_defaults = parse_any.termaxis_to_term('''
     vitality:     living
     physicality:  physical
     #noun:        man
-    noun-form:    common
+    noun-form:    lexical
     number:       singular
     partitivity:  nonpartitive
     person:       3

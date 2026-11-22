@@ -457,7 +457,7 @@ write(f'{deck_path}/finite-conjugation.{deck_format}',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'   : parse.termaxis_to_term('lexical 3 singular masculine'),
         },
     ))
 
@@ -477,9 +477,9 @@ write(f'{deck_path}/participle-declension.{deck_format}',
               & constant['atelic'])
         ),
         tag_templates ={
-            'test'    : parse.termaxis_to_term('common definite associated agent subject'),
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'participle' : parse.termaxis_to_term('common definite participle subject'),
+            'test'    : parse.termaxis_to_term('lexical definite associated agent subject'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
+            'participle' : parse.termaxis_to_term('lexical definite participle subject'),
         },
     ))
 """
@@ -499,7 +499,7 @@ write(f'{deck_path}/adpositions.{deck_format}',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal definite'),
         },
     ))
@@ -515,8 +515,8 @@ write(f'{deck_path}/common-noun-{deck_format}.tsv',
                 & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('common'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('lexical'),
         },
     ))
 
@@ -531,7 +531,7 @@ write(f'{deck_path}/pronoun-declension.{deck_format}',
             & noun_template_whitelist)
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
             'test'       : parse.termaxis_to_term(''),
         },
     ))
@@ -550,8 +550,8 @@ write(f'{deck_path}/adjective-agreement.{deck_format}',
             & noun_template_whitelist) 
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('common definite'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('lexical definite'),
         },
     ))
 
@@ -559,7 +559,7 @@ write(f'{deck_path}/pronoun-possessives.{deck_format}',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace([['cloze','det'], ['common', 'n']])}],
+            substitutions = [{'declined': list_tools.replace([['cloze','det'], ['lexical', 'n']])}],
         ) for demonstration in demonstrations],
         defaults.override(
             (((  axis['number'] 
@@ -573,7 +573,7 @@ write(f'{deck_path}/pronoun-possessives.{deck_format}',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal-possessive masculine'),
         },
     ))

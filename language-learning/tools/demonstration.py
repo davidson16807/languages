@@ -84,7 +84,7 @@ def EmojiDemonstration(
         def generator(self, **junk):
             def noun(tags, tag_templates):
                 if tags['noun-form'] == 'personal-possessive':
-                    possessed = noun({**tags, 'noun-form':'common'}, tag_templates)
+                    possessed = noun({**tags, 'noun-form':'lexical'}, tag_templates)
                     possessor = noun({
                             'noun-form': 'personal',
                             **label_editing.termaxis_to_term(
@@ -95,10 +95,10 @@ def EmojiDemonstration(
                     return self.decode(tags, '\\flex{'+possessed+'\\r{'+possessor+'}}')
                 elif tags['noun-form'] == 'demonstrative':
                     return htmlNounFormTransform.demonstrative(
-                        noun({**tags, 'noun-form':'common'}, tag_templates))
+                        noun({**tags, 'noun-form':'lexical'}, tag_templates))
                 elif tags['noun-form'] == 'interrogative':
                     return htmlNounFormTransform.interrogative(
-                        noun({**tags, 'noun-form':'common'}, tag_templates))
+                        noun({**tags, 'noun-form':'lexical'}, tag_templates))
                 else:
                     depiction = ('missing' if 'noun' not in tags 
                         else tags['noun'] if tags['noun'] not in nouns_to_depictions 

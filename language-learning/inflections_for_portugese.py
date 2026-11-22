@@ -455,7 +455,7 @@ write('flashcards/romance/portugese/finite-conjugation.html',
         ),
         tag_templates ={
             'test'    : parse.termaxis_to_term('personal associated agent subject'),
-            'dummy'   : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'   : parse.termaxis_to_term('lexical 3 singular masculine'),
         },
     ))
 
@@ -474,7 +474,7 @@ write('flashcards/romance/portugese/adpositions.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal definite'),
         },
     ))
@@ -491,7 +491,7 @@ write('flashcards/romance/portugese/pronoun-declension.html',
             - subjectivity_nounform_blacklist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
             'test'       : parse.termaxis_to_term(''),
         },
     ))
@@ -512,8 +512,8 @@ write('flashcards/romance/portugese/adjective-agreement.html',
             & agreement_roles) 
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
-            'test'       : parse.termaxis_to_term('common definite'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
+            'test'       : parse.termaxis_to_term('lexical definite'),
         },
     ))
 
@@ -521,7 +521,7 @@ write('flashcards/romance/portugese/pronoun-possessives.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,
-            substitutions = [{'declined': list_tools.replace([['cloze','det'], ['common', 'n']])}],
+            substitutions = [{'declined': list_tools.replace([['cloze','det'], ['lexical', 'n']])}],
         ) for demonstration in demonstrations],
         defaults.override(
             (((  axis['number'] 
@@ -534,7 +534,7 @@ write('flashcards/romance/portugese/pronoun-possessives.html',
             & noun_template_whitelist
         ),
         tag_templates ={
-            'dummy'      : parse.termaxis_to_term('common 3 singular masculine'),
+            'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
             'test'       : parse.termaxis_to_term('personal-possessive adefinite'),
         },
     ))
