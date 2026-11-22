@@ -270,24 +270,24 @@ occupy	finite	indicative	neuter	singular					занима́ло	zanimálo
 occupy	finite	indicative	neuter	plural					занима́ли	zanimáli
 occupy	finite	imperative	2	singular	занима́й	zanimáj				
 occupy	finite	imperative	2	plural	занима́йте	zanimájte				
-resemble	infinitive				походи́ть	poxodítʹ	—	—		
-resemble	participle		active		походя́щий	poxodjáščij	—	—	походи́вший	poxodívšij
-resemble	participle		passive		—		—	—	—	
-resemble	participle		adverbial		походя́	poxodjá	—	—	походи́в,походи́вшиši	poxodív, poxodívši
-resemble	finite	indicative	1	singular	похожу́	poxožú	бу́ду походи́ть	búdu poxodítʹ		
-resemble	finite	indicative	2	singular	похо́дишь	poxódišʹ	бу́дешь походи́ть	búdešʹ poxodítʹ		
-resemble	finite	indicative	3	singular	похо́дит	poxódit	бу́дет походи́ть	búdet poxodítʹ		
-resemble	finite	indicative	1	plural	похо́дим	poxódim	бу́дем походи́ть	búdem poxodítʹ		
-resemble	finite	indicative	2	plural	похо́дите	poxódite	бу́дете походи́ть	búdete poxodítʹ		
-resemble	finite	indicative	3	plural	похо́дят	poxódjat	бу́дут походи́ть	búdut poxodítʹ		
-resemble	finite	indicative	masculine	singular					походи́л	poxodíl
-resemble	finite	indicative	masculine	plural					походи́ли	poxodíli
-resemble	finite	indicative	feminine	singular					походи́ла	poxodíla
-resemble	finite	indicative	feminine	plural					походи́ли	poxodíli
-resemble	finite	indicative	neuter	singular					походи́ло	poxodílo
-resemble	finite	indicative	neuter	plural					походи́ли	poxodíli
-resemble	finite	imperative	2	singular	походи́	poxodí				
-resemble	finite	imperative	2	plural	походи́те	poxodíte				
+walk	infinitive				походи́ть	poxodítʹ	—	—		
+walk	participle		active		походя́щий	poxodjáščij	—	—	походи́вший	poxodívšij
+walk	participle		passive		—		—	—	—	
+walk	participle		adverbial		походя́	poxodjá	—	—	походи́в,походи́вшиši	poxodív, poxodívši
+walk	finite	indicative	1	singular	похожу́	poxožú	бу́ду походи́ть	búdu poxodítʹ		
+walk	finite	indicative	2	singular	похо́дишь	poxódišʹ	бу́дешь походи́ть	búdešʹ poxodítʹ		
+walk	finite	indicative	3	singular	похо́дит	poxódit	бу́дет походи́ть	búdet poxodítʹ		
+walk	finite	indicative	1	plural	похо́дим	poxódim	бу́дем походи́ть	búdem poxodítʹ		
+walk	finite	indicative	2	plural	похо́дите	poxódite	бу́дете походи́ть	búdete poxodítʹ		
+walk	finite	indicative	3	plural	похо́дят	poxódjat	бу́дут походи́ть	búdut poxodítʹ		
+walk	finite	indicative	masculine	singular					походи́л	poxodíl
+walk	finite	indicative	masculine	plural					походи́ли	poxodíli
+walk	finite	indicative	feminine	singular					походи́ла	poxodíla
+walk	finite	indicative	feminine	plural					походи́ли	poxodíli
+walk	finite	indicative	neuter	singular					походи́ло	poxodílo
+walk	finite	indicative	neuter	plural					походи́ли	poxodíli
+walk	finite	imperative	2	singular	походи́	poxodí				
+walk	finite	imperative	2	plural	походи́те	poxodíte				
 see	infinitive				ви́деть	vídetʹ	—	—		
 see	participle		active		ви́дящий	vídjaščij	—	—	ви́девший	vídevšij
 see	participle		passive		ви́димый	vídimyj	—	—	ви́денный	vídennyj
@@ -360,24 +360,6 @@ swim	finite	indicative	neuter	singular					плы́ло,плыло́	plýlo, ply
 swim	finite	indicative	neuter	plural					плы́ли	plýli
 swim	finite	imperative	2	singular	плыви́	plyví				
 swim	finite	imperative	2	plural	плыви́те	plyvíte				
-walk	infinitive				шага́ть	šagátʹ	—	—		
-walk	participle		active		шага́ющий	šagájuščij	—	—	шага́вший	šagávšij
-walk	participle		passive		—		—	—	—	
-walk	participle		adverbial		шага́я	šagája	—	—	шага́в,шага́вшиši	šagáv, šagávši
-walk	finite	indicative	1	singular	шага́ю	šagáju	бу́ду шага́ть	búdu šagátʹ		
-walk	finite	indicative	2	singular	шага́ешь	šagáješʹ	бу́дешь шага́ть	búdešʹ šagátʹ		
-walk	finite	indicative	3	singular	шага́ет	šagájet	бу́дет шага́ть	búdet šagátʹ		
-walk	finite	indicative	1	plural	шага́ем	šagájem	бу́дем шага́ть	búdem šagátʹ		
-walk	finite	indicative	2	plural	шага́ете	šagájete	бу́дете шага́ть	búdete šagátʹ		
-walk	finite	indicative	3	plural	шага́ют	šagájut	бу́дут шага́ть	búdut šagátʹ		
-walk	finite	indicative	masculine	singular					шага́л	šagál
-walk	finite	indicative	masculine	plural					шага́ли	šagáli
-walk	finite	indicative	feminine	singular					шага́ла	šagála
-walk	finite	indicative	feminine	plural					шага́ли	šagáli
-walk	finite	indicative	neuter	singular					шага́ло	šagálo
-walk	finite	indicative	neuter	plural					шага́ли	šagáli
-walk	finite	imperative	2	singular	шага́й	šagáj				
-walk	finite	imperative	2	plural	шага́йте	šagájte				
 warm	infinitive				гре́ть	grétʹ	—	—		
 warm	participle		active		гре́ющий	gréjuščij	—	—	гре́вший	grévšij
 warm	participle		passive		гре́емый	gréjemyj	—	—	гре́тый	grétyj
@@ -756,24 +738,6 @@ steal	finite	indicative	neuter	singular					кра́ло	králo
 steal	finite	indicative	neuter	plural					кра́ли	králi
 steal	finite	imperative	2	singular	кради́	kradí				
 steal	finite	imperative	2	plural	кради́те	kradíte				
-convey	infinitive				везти́	veztí	—	—		
-convey	participle		active		везу́щий	vezúščij	—	—	вёзший	vjózšij
-convey	participle		passive		везо́мый*	vezómyj*	—	—	везённый	vezjónnyj
-convey	participle		adverbial		везя́	vezjá	—	—	вёзши	vjózši
-convey	finite	indicative	1	singular	везу́	vezú	бу́ду везти́	búdu veztí		
-convey	finite	indicative	2	singular	везёшь	vezjóšʹ	бу́дешь везти́	búdešʹ veztí		
-convey	finite	indicative	3	singular	везёт	vezjót	бу́дет везти́	búdet veztí		
-convey	finite	indicative	1	plural	везём	vezjóm	бу́дем везти́	búdem veztí		
-convey	finite	indicative	2	plural	везёте	vezjóte	бу́дете везти́	búdete veztí		
-convey	finite	indicative	3	plural	везу́т	vezút	бу́дут везти́	búdut veztí		
-convey	finite	indicative	masculine	singular					вёз	vjóz
-convey	finite	indicative	masculine	plural					везли́	vezlí
-convey	finite	indicative	feminine	singular					везла́	vezlá
-convey	finite	indicative	feminine	plural					везли́	vezlí
-convey	finite	indicative	neuter	singular					везло́	vezló
-convey	finite	indicative	neuter	plural					везли́	vezlí
-convey	finite	imperative	2	singular	вези́	vezí				
-convey	finite	imperative	2	plural	вези́те	vezíte				
 climb	infinitive				ле́зть	léztʹ	—	—		
 climb	participle		active		ле́зущий	lézuščij	—	—	ле́зший	lézšij
 climb	participle		passive		—		—	—	—	
@@ -1098,24 +1062,6 @@ pay	finite	indicative	neuter	singular					пла́кало	plákalo
 pay	finite	indicative	neuter	plural					пла́кали	plákali
 pay	finite	imperative	2	singular	пла́чь	pláčʹ				
 pay	finite	imperative	2	plural	пла́чьте	pláčʹte				
-forgive	infinitive				ходи́ть	xodítʹ	—	—		
-forgive	participle		active		ходя́щий	xodjáščij	—	—	ходи́вший	xodívšij
-forgive	participle		passive		—		—	—	—	
-forgive	participle		adverbial		ходя́	xodjá	—	—	ходи́в,ходи́вшиši	xodív, xodívši
-forgive	finite	indicative	1	singular	хожу́	xožú	бу́ду ходи́ть	búdu xodítʹ		
-forgive	finite	indicative	2	singular	хо́дишь	xódišʹ	бу́дешь ходи́ть	búdešʹ xodítʹ		
-forgive	finite	indicative	3	singular	хо́дит	xódit	бу́дет ходи́ть	búdet xodítʹ		
-forgive	finite	indicative	1	plural	хо́дим	xódim	бу́дем ходи́ть	búdem xodítʹ		
-forgive	finite	indicative	2	plural	хо́дите	xódite	бу́дете ходи́ть	búdete xodítʹ		
-forgive	finite	indicative	3	plural	хо́дят	xódjat	бу́дут ходи́ть	búdut xodítʹ		
-forgive	finite	indicative	masculine	singular					ходи́л	xodíl
-forgive	finite	indicative	masculine	plural					ходи́ли	xodíli
-forgive	finite	indicative	feminine	singular					ходи́ла	xodíla
-forgive	finite	indicative	feminine	plural					ходи́ли	xodíli
-forgive	finite	indicative	neuter	singular					ходи́ло	xodílo
-forgive	finite	indicative	neuter	plural					ходи́ли	xodíli
-forgive	finite	imperative	2	singular	ходи́	xodí				
-forgive	finite	imperative	2	plural	ходи́те	xodíte				
 flow	infinitive				те́чь	téčʹ	—	—		
 flow	participle		active		теку́щий	tekúščij	—	—	тёкший	tjókšij 
 flow	participle		passive		—	—	—	—	—	—

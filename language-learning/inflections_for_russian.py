@@ -83,10 +83,10 @@ foreign_language = Language(
                     (r'(.*)ить',   'beat',    'б'),   # 1st conjugation
                     (r'(.*)лыть',  'swim',    'п'),   # 1st conjugation
                     (r'(.*)оси́ть', 'ask',     'пр'),  # 2nd conjugation
-                    (r'(.*)зи́ть',  'convey',  'во'),  # 2nd conjugation
+                    # (r'(.*)зи́ть',  'convey',  'во'),  # 2nd conjugation, inflections are not loaded yet
                     (r'(.*)ти́ть',  'pay',     'пла'), # 2nd conjugation
-                    (r'(.*)ди́ть',  'walk',    'хо'),  # 2nd conjugation
-                    (r'(.*)сти́ть', 'forgive', 'про'), # 2nd conjugation
+                    (r'(.*)ди́ть',  'go',      'хо'),  # 2nd conjugation
+                    # (r'(.*)сти́ть', 'forgive', 'про'), # 2nd conjugation, inflections are not loaded yet
                 ],
             })),
         RegularInflectionFallbackLookup('noun',

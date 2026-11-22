@@ -110,7 +110,7 @@ foreign_language = Language(
                 (r'(.+)ês', 'french',  'franc'),   
                 (r'(.+)tor','motorized','mo'),   
                 (r'(.+)ior','superior','super'),   
-                (r'(.+)or', 'motorized','conservad'),   
+                (r'(.+)or', 'motorized','mot'),   
                 (r'(.+)ão', 'big',     'grand'),   
                 (r'(.+)eu', 'european','europ'),   
                 (r'(.+a)l', 'animal',  'anima'), 
