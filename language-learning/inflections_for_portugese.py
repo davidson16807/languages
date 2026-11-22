@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -55,27 +56,72 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/finite-conjugations.tsv')),
-                # *nonfinite_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/nonfinite-conjugations.tsv')),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/finite-conjugations.tsv')),
+                    # *nonfinite_annotation.annotate(
+                    #     tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/nonfinite-conjugations.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.+)gar',      'arrive',   'che'),       # chegar → cheguei
+                (r'(.+)çar',      'throw',    'lan'),       # lançar → lancei
+                (r'(.*[^cgç])ar', 'speak',    'fal'),       # falar → falei
+                (r'(.*[^cgç])ar', 'work',     'trabalh'),
+                (r'(.+)ger',      'protect',  'prote'),     # proteger → protejo
+                (r'(.+[^cg])er',  'eat',      'com'),       # comer → como
+                (r'(.*[^cgu])ir', 'open',     'abr'),       # abrir → abro
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/pronoun-declensions.tsv')),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/pronoun-declensions.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.+)o',  'book',    'livr'),    # livro → livros
+                (r'(.+)a',  'house',   'cas'),     # casa → casas
+                (r'(.+)e',  'name',    'nom'),     # nome → nomes
+                (r'(.+)r',  'love',    'amo'),     # amor → amores
+                (r'(.+a)l', 'animal',  'anima'),   # animal → animais
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/adjective-agreements.tsv')),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/portugese/modern/adjective-agreements.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.+)o',  'white',   'branc'), 
+                (r'(.+)ês', 'french',  'franc'),   
+                (r'(.+)tor','motorized','mo'),   
+                (r'(.+)ior','superior','super'),   
+                (r'(.+)or', 'motorized','conservad'),   
+                (r'(.+)ão', 'big',     'grand'),   
+                (r'(.+)eu', 'european','europ'),   
+                (r'(.+a)l', 'animal',  'anima'), 
+                (r'(.+)e',  'green',   'verd'),   
+                (r'(.+)iz', 'happy',   'fel'),   
+                (r'(.+)al', 'central', 'centr'),   
+                (r'(.+)vil','civil',   'ci'),   
+                (r'(.+)cil','easy',    'fa'),   
+                (r'(.+)ul', 'blue',    'az'),   
             ])),
+
     ),
     ModernRomanceRuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
