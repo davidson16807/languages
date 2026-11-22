@@ -54,27 +54,71 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/finite-conjugations.tsv')),
-                # *nonfinite_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/nonfinite-conjugations.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-declensions.tsv')),
-            ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/adjective-agreements.tsv')),
-            ])),
+        RegularInflectionFallbackLookup('verb',
+            NestedDictLookup(
+                DictLookup('verb lemmas', DictTupleIndexing(['script']), {
+                    ('latin',): verb_lemma_population.index(
+                        verb_lemma_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/romance/gaulish/modern/verb-lemmas.tsv'))),
+                })),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/finite-conjugations.tsv')),
+                    # *nonfinite_annotation.annotate(
+                    #     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/nonfinite-conjugations.tsv')),
+                ])),
+            UniformDictLookup([
+                    (r'(.+)et',   'provide',   'rosmer'),   # B1
+                    (r'(.+)iet',  'heal',      'slānosag'), # B2
+                    (r'(.+)[âā]t','inhabit',   'atreb'),   # A1
+                    (r'(.+)[îī]t','exchange',  'camb'),    # A2
+                    (r'(.+)at',   'buy',       'prin'),    # B4
+                    (r'(.+)ut',   'create',    'prin'),    # B5
+                    (r'(.+)ieti', 'heal',      'slānosag'), # B2
+                    (r'(.+)ǎt[\(i\)]+','strike','binǎ'),     # A3
+                    # (r'(.+)et',  'agree',    'tang'),     # B3
+                    # (r'(.+)īt',  'lay-down',  'log'),      # C1
+                    # (r'(.+)et[\(i\)]+','load','lung'),     # C2
+                ])),
+
+        RegularInflectionFallbackLookup('noun',
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/gaulish/modern/noun-lemmas.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-declensions.tsv')),
+                ])),
+            UniformDictLookup([
+                    (r'(.+)ā',    'tribe',   'toṷt'),  # a-stem, regular
+                    (r'(.+)os',   'boy',     'map' ),  # o-stem, animate?
+                    (r'(.+)is',   'seer',    'ṷāt' ),  # i-stem, animate
+                    (r'(.+)us',   'voice',   'gut' ),  # u-stem, animate
+                    (r'(.+)īr',   'brother', 'brāt'),  # r-stem
+                ])),
+
+        RegularInflectionFallbackLookup('noun',
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/gaulish/modern/adjective-lemmas.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/adjective-agreements.tsv')),
+                ])),
+            UniformDictLookup([
+                    (r'(.+)ā',    'old',   'sen'),   # a-stem
+                    (r'(.+)is',   'good',  'mat'),   # i-stem
+                    (r'(.+)us',   'big',   'uer'),   # u-stem
+                    (r'(.+)s',    'blind', 'exop'),  # constant stem
+                ])),
+
     ),
     RuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
