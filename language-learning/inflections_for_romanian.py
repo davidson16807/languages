@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -55,27 +56,64 @@ foreign_language = Language(
                 tsv_parsing.rows('data/inflection/indo-european/aspect-usage.tsv'))),
     ),
     ListGrammar(
-        NestedDictLookup(
-            conjugation_population.index([
-                *finite_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/finite-conjugations.tsv')),
-                # *nonfinite_annotation.annotate(
-                #     tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/nonfinite-conjugations.tsv')),
+        RegularInflectionFallbackLookup('verb',
+            verb_lexeme_population.index(
+                verb_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/verb-lexemes.tsv'))),
+            NestedDictLookup(
+                conjugation_population.index([
+                    *finite_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/finite-conjugations.tsv')),
+                    # *nonfinite_annotation.annotate(
+                    #     tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/nonfinite-conjugations.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.+)ea','see',    'ved'),   # 2, -ea
+                (r'(.+)a', 'ward',   'veghe'), # 1, -a
+                (r'(.+)e', 'choose', 'aleg'),  # 3, -e
+                (r'(.+)i', 'watch',  'priv'),  # 4, -i
+                (r'(.+)î', 'crawl',  'târ'),   # 4, -î
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/common-noun-declensions.tsv')),
-                *pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/pronoun-declensions.tsv')),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/noun-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/common-noun-declensions.tsv')),
+                    *pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/pronoun-declensions.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.+)ă',         'house',  'cas'),    # Latin 1st declension
+                (r'(.+)a',         'star',   'ste'),    # Latin 1st declension
+                (r'(.+)ie',        'woman',  'feme'),   # Latin 3rd declension
+                (r'(.+)e',         'fox',    'vulp'),   # Latin 3rd declension
+                (r'(.+)i',         'linden', 'te'),     # Latin 2nd declension
+                (r'(.+)u',         'theater','teatr'),  # Latin 2nd declension, -u
+                (r'(.+)o',         'radio',  'radi'),   # Latin 2nd declension, -o
+                (r'(.+[^aăeiou])', 'wolf',   'lup'),    # Latin 2nd declension, consonant ending
             ])),
-        NestedDictLookup(
-            declension_population.index([
-                *possessive_pronoun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/adjective-agreements.tsv')),
+        RegularInflectionFallbackLookup('noun',
+            noun_lexeme_population.index(
+                noun_lexeme_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/adjective-lexemes.tsv'))),
+            NestedDictLookup(
+                declension_population.index([
+                    *possessive_pronoun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/pronoun-possessives.tsv')),
+                    *common_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/adjective-agreements.tsv')),
+                ])),
+            UniformDictLookup([
+                (r'(.+)esc', 'romanian',    'român'),   # -esc
+                (r'(.+)iu',  'golden',      'aur'),     # -iu
+                (r'(.+)tor', 'charming',    'fermecă'), # -tor
+                (r'(.+)c',   'industrious', 'harni'),   # -c
+                (r'(.+[^ieu])','brown',     'maro'),    # other vowels, uninflected
             ])),
+
     ),
     ModernRomanceRuleSyntax(
         parse_any.tokens('adposition det adj n np clause'),
