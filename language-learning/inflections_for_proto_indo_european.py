@@ -19,8 +19,8 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
-    verb_lexeme_annotation, noun_lexeme_annotation,
-    verb_lexeme_population, noun_lexeme_population,
+    verb_lemma_annotation, noun_lemma_annotation,
+    verb_lemma_population, noun_lemma_population,
     finite_annotation, nonfinite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -58,9 +58,9 @@ foreign_language = Language(
     ),
     ListGrammar(
         RegularInflectionFallbackLookup('verb',
-            verb_lexeme_population.index(
-                verb_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/verb-lexemes.tsv'))),
+            verb_lemma_population.index(
+                verb_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/verb-lemmas.tsv'))),
             NestedDictLookup(
                 conjugation_population.index([
                     *finite_annotation.annotate(
@@ -73,9 +73,9 @@ foreign_language = Language(
                 # (r'(.*)ti',  'eat',   'h₁éd'), # h₁édti  → h₁édmi
             ])),
         RegularInflectionFallbackLookup('noun',
-            noun_lexeme_population.index(
-                noun_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/noun-lexemes.tsv'))),
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/noun-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *pronoun_annotation.annotate(
@@ -96,9 +96,9 @@ foreign_language = Language(
                 # (r'(.*)is','thought','mént'),   # h₂éwis    → mn̥téys 
             ])),
         RegularInflectionFallbackLookup('noun',
-            noun_lexeme_population.index(
-                noun_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-lexemes.tsv'))),
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(

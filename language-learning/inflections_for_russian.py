@@ -57,10 +57,10 @@ foreign_language = Language(
     ListGrammar(
         RegularInflectionFallbackLookup('verb',
             NestedDictLookup(
-                DictLookup('verb lexemes', DictTupleIndexing(['script']), {
-                    ('cyrillic',): verb_lexeme_population.index(
-                        verb_lexeme_annotation.annotate(
-                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/verb-lexemes.tsv'))),
+                DictLookup('verb lemmas', DictTupleIndexing(['script']), {
+                    ('cyrillic',): verb_lemma_population.index(
+                        verb_lemma_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/verb-lemmas.tsv'))),
                 })),
             NestedDictLookup(
                 conjugation_population.index([
@@ -91,10 +91,10 @@ foreign_language = Language(
             })),
         RegularInflectionFallbackLookup('noun',
             NestedDictLookup(
-                DictLookup('noun lexemes', DictTupleIndexing(['script']), {
-                    ('cyrillic',): noun_lexeme_population.index(
-                        noun_lexeme_annotation.annotate(
-                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/noun-lexemes.tsv'))),
+                DictLookup('noun lemmas', DictTupleIndexing(['script']), {
+                    ('cyrillic',): noun_lemma_population.index(
+                        noun_lemma_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/noun-lemmas.tsv'))),
                 })),
             NestedDictLookup(
                 declension_population.index([
@@ -115,10 +115,10 @@ foreign_language = Language(
             })),
         RegularInflectionFallbackLookup('noun',
             NestedDictLookup(
-                DictLookup('adjective lexemes', DictTupleIndexing(['script']), {
-                    ('cyrillic',): noun_lexeme_population.index(
-                        noun_lexeme_annotation.annotate(
-                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/adjective-lexemes.tsv'))),
+                DictLookup('adjective lemmas', DictTupleIndexing(['script']), {
+                    ('cyrillic',): noun_lemma_population.index(
+                        noun_lemma_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/slavic/russian/adjective-lemmas.tsv'))),
                 })),
             NestedDictLookup(
                 declension_population.index([

@@ -19,7 +19,7 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
-    noun_lexeme_annotation, noun_lexeme_population,
+    noun_lemma_annotation, noun_lemma_population,
     finite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -57,9 +57,9 @@ foreign_language = Language(
     ),
     ListGrammar(
         RegularInflectionFallbackLookup('verb',
-            verb_lexeme_population.index(
-                verb_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/verb-lexemes.tsv'))),
+            verb_lemma_population.index(
+                verb_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/verb-lemmas.tsv'))),
             NestedDictLookup(
                 conjugation_population.index([
                     *finite_annotation.annotate(
@@ -72,9 +72,9 @@ foreign_language = Language(
                 (r'(.*[^aeiouyæāēīōūȳǣ]{2})an',  'tame',  'temm?'), # weak, class 1, double consonant
             ])),
         RegularInflectionFallbackLookup('noun',
-            noun_lexeme_population.index(
-                noun_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/noun-lexemes.tsv'))),
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/noun-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *common_noun_annotation.annotate(
@@ -100,9 +100,9 @@ foreign_language = Language(
                 ],
             })),
         RegularInflectionFallbackLookup('noun',
-            noun_lexeme_population.index(
-                noun_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/adjective-lexemes.tsv'))),
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/english/old/adjective-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(

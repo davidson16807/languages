@@ -72,9 +72,9 @@ foreign_language = Language(
     ),
     ListGrammar(
         RegularInflectionFallbackLookup('verb',
-            verb_lexeme_population.index(
-                verb_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/verb-lexemes.tsv'))),
+            verb_lemma_population.index(
+                verb_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/verb-lemmas.tsv'))),
             NestedDictLookup(
                 conjugation_population.index([
                     *finite_annotation.annotate(
@@ -90,9 +90,9 @@ foreign_language = Language(
                 (r'(.+)a',   'call',   'kall'),  # 1
             ])),
         RegularInflectionFallbackLookup('noun',
-            noun_lexeme_population.index(
-                noun_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/noun-lexemes.tsv'))),
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/noun-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *common_noun_annotation.annotate(
@@ -122,9 +122,9 @@ foreign_language = Language(
                 ],
             })),
         RegularInflectionFallbackLookup('noun',
-            noun_lexeme_population.index(
-                noun_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/adjective-lexemes.tsv'))),
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/germanic/swedish/modern/adjective-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(

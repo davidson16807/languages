@@ -19,7 +19,7 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
-    noun_lexeme_annotation, noun_lexeme_population,
+    noun_lemma_annotation, noun_lemma_population,
     finite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -59,10 +59,10 @@ foreign_language = Language(
     ListGrammar(
         RegularInflectionFallbackLookup('verb',
             NestedDictLookup(
-                DictLookup('verb lexemes', DictTupleIndexing(['script']), {
-                    ('latin',): verb_lexeme_population.index(
-                        verb_lexeme_annotation.annotate(
-                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/verb-lexemes.tsv'))),
+                DictLookup('verb lemmas', DictTupleIndexing(['script']), {
+                    ('latin',): verb_lemma_population.index(
+                        verb_lemma_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/verb-lemmas.tsv'))),
                 })),
             NestedDictLookup(
                 conjugation_population.index([
@@ -81,13 +81,13 @@ foreign_language = Language(
             })),
         RegularInflectionFallbackLookup('noun',
             NestedDictLookup(
-                DictLookup('noun lexemes', DictTupleIndexing(['script']), {
-                    ('latin',): noun_lexeme_population.index(
-                        noun_lexeme_annotation.annotate(
-                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/noun-lexemes.tsv'))),
-                    ('ipa',): noun_lexeme_population.index(
-                        noun_lexeme_annotation.annotate(
-                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/noun-ipa-lexemes.tsv'))),
+                DictLookup('noun lemmas', DictTupleIndexing(['script']), {
+                    ('latin',): noun_lemma_population.index(
+                        noun_lemma_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/noun-lemmas.tsv'))),
+                    ('ipa',): noun_lemma_population.index(
+                        noun_lemma_annotation.annotate(
+                            tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/noun-ipa-lemmas.tsv'))),
                 })),
             NestedDictLookup(
                 declension_population.index([

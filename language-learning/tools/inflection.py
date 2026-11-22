@@ -7,21 +7,21 @@ that are sensitive to concepts in language.
 
 class RegularInflectionFallbackLookup:
     '''
-    `RegularInflection` is a lookup for inflections that falls back to inflecting a lexeme
+    `RegularInflection` is a lookup for inflections that falls back to inflecting the lemma of a lexeme
     using inflection of a representative word that shares the same inflection pattern.
     `patterns_for_tags` is a lookup that maps tags to a list of (pattern, representative, replaced) tuples where:
-    * `pattern` is a regular expression that must fully match the lexeme,
-       whose first group captures the portion of the lexeme that replaces `replaced`,
+    * `pattern` is a regular expression that must fully match the lemma,
+       whose first group captures the portion of the lemma that replaces `replaced`,
     * `representative` is a word with an inflection in `inflection_for_tags`, and
     * `replaced` is the portion of the representative's inflection that is replaced.
     Patterns are attempted in order until an inflection is found.
     `patterns_for_tags` may be a `UniformDictLookup` if the same patterns apply to all tags,
     or a `DictLookup` if patterns only apply to certain tags, such as a script or the gender of a noun.
     '''
-    def __init__(self, part_of_speech, lexeme_for_tags, inflection_for_tags, patterns_for_tags, 
+    def __init__(self, part_of_speech, lemma_for_tags, inflection_for_tags, patterns_for_tags, 
             missing='...', unmatched='ꜝ', inferred='\u200b'):
         self.part_of_speech = part_of_speech
-        self.lexeme_for_tags = lexeme_for_tags
+        self.lemma_for_tags = lemma_for_tags
         self.inflection_for_tags = inflection_for_tags
         self.patterns_for_tags = patterns_for_tags
         self.missing = missing
@@ -30,17 +30,17 @@ class RegularInflectionFallbackLookup:
     def __getitem__(self, tags):
         if tags in self.inflection_for_tags:
             return self.inflection_for_tags[tags]
-        elif tags in self.lexeme_for_tags:
-            lexeme = self.lexeme_for_tags[tags]
+        elif tags in self.lemma_for_tags:
+            lemma = self.lemma_for_tags[tags]
             patterns = self.patterns_for_tags[tags] if tags in self.patterns_for_tags else []
             for pattern, representative, replaced in patterns:
-                match = re.fullmatch(pattern, lexeme)
+                match = re.fullmatch(pattern, lemma)
                 if match:
                     representative_tags = {**tags, self.part_of_speech: representative}
                     if representative_tags in self.inflection_for_tags:
                         representative_inflection = self.inflection_for_tags[representative_tags]
                         return self.inferred + re.sub(replaced, match.group(1), representative_inflection)
-            return self.unmatched + lexeme
+            return self.unmatched + lemma
         return self.missing
     def __contains__(self, tags):
         return self[tags] != self.missing

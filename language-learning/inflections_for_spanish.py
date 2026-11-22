@@ -19,8 +19,8 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
-    verb_lexeme_annotation, noun_lexeme_annotation,
-    verb_lexeme_population, noun_lexeme_population,
+    verb_lemma_annotation, noun_lemma_annotation,
+    verb_lemma_population, noun_lemma_population,
     finite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -59,9 +59,9 @@ foreign_language = Language(
     ),
     ListGrammar(
         RegularInflectionFallbackLookup('verb',
-            verb_lexeme_population.index(
-                verb_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/verb-lexemes.tsv'))),
+            verb_lemma_population.index(
+                verb_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/verb-lemmas.tsv'))),
             NestedDictLookup(
                 conjugation_population.index([
                     *finite_annotation.annotate(
@@ -79,9 +79,9 @@ foreign_language = Language(
                 (r'(.*[^cgu])ir',   'part',    'part'),    # partir → parto
             ])),
         RegularInflectionFallbackLookup('noun',
-            noun_lexeme_population.index(
-                noun_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/noun-lexemes.tsv'))),
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/noun-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *common_noun_annotation.annotate(
@@ -96,9 +96,9 @@ foreign_language = Language(
                 (r'(\w+[dlnr])', 'love',  'amor'),  # amor   → amores
             ])),
         RegularInflectionFallbackLookup('noun',
-            noun_lexeme_population.index(
-                noun_lexeme_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/adjective-lexemes.tsv'))),
+            noun_lemma_population.index(
+                noun_lemma_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/romance/spanish/modern/adjective-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(

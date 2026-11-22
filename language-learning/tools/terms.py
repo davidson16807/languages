@@ -431,9 +431,9 @@ template_verb_annotation = CellAnnotation(
 template_dummy_annotation = RowAnnotation('flag subjectivity verb voice valency dummy-motion dummy-role dummy-subjectivity dummy-definiteness dummy-noun'.split())
 template_tree_annotation = RowAnnotation('flag valency subjectivity tree'.split())
 noun_template_annotation = RowAnnotation('noun template'.split())
-# adjectives are indexed by 'noun' within tables of agreements, so they use the `noun_lexeme_*` annotation and population
-verb_lexeme_annotation = RowAnnotation('verb lexeme'.split())
-noun_lexeme_annotation = RowAnnotation('noun lexeme'.split())
+# adjectives are indexed by 'noun' within tables of agreements, so they use the `noun_lemma_*` annotation and population
+verb_lemma_annotation = RowAnnotation('verb lemma'.split())
+noun_lemma_annotation = RowAnnotation('noun lemma'.split())
 
 conjugation_population = NestedLookupPopulation(conjugation_template_lookups, KeyEvaluation('inflection'))
 declension_population  = NestedLookupPopulation(declension_template_lookups, KeyEvaluation('inflection'))
@@ -441,8 +441,8 @@ emoji_noun_population = FlatLookupPopulation(DictLookup('emoji noun', DictTupleI
 emoji_noun_adjective_population = FlatLookupPopulation(DictLookup('emoji noun adjective', DictTupleIndexing(['adjective','noun'])), KeyEvaluation('inflection'))
 emoji_noun_verb_population = FlatLookupPopulation(DictLookup('emoji noun verb', DictTupleIndexing('noun verb'.split())), KeyEvaluation('emoji'))
 emoji_verb_population = FlatLookupPopulation(DictLookup('emoji verb', DictTupleIndexing('template verb'.split())), KeyEvaluation('emoji'))
-verb_lexeme_population = FlatLookupPopulation(DictLookup('verb lexemes', DictTupleIndexing(['verb'])), KeyEvaluation('lexeme'))
-noun_lexeme_population = FlatLookupPopulation(DictLookup('noun lexemes', DictTupleIndexing(['noun'])), KeyEvaluation('lexeme'))
+verb_lemma_population = FlatLookupPopulation(DictLookup('verb lemmas', DictTupleIndexing(['verb'])), KeyEvaluation('lemma'))
+noun_lemma_population = FlatLookupPopulation(DictLookup('noun lemmas', DictTupleIndexing(['noun'])), KeyEvaluation('lemma'))
 emoji_noun_declensions_population = FlatLookupPopulation(DictLookup('declension-templates', DictTupleIndexing('valency subjectivity motion role'.split())), KeyEvaluation('inflection'))
 mood_population = FlatLookupPopulation(DictLookup('mood', DictTupleIndexing('mood column'.split())), KeyEvaluation('inflection'))
 noun_template_population = DictSetPopulation(DictSet('noun-template', DictTupleIndexing('noun template'.split()), set()))

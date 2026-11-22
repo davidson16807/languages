@@ -4,10 +4,10 @@ import requests
 from bs4 import BeautifulSoup
 
 class Gloss:
-	def __init__(self, part_of_speech, intent, lexeme, url, gloss):
+	def __init__(self, part_of_speech, intent, lemma, url, gloss):
 		self.part_of_speech = part_of_speech
 		self.intent = intent
-		self.lexeme = lexeme
+		self.lemma = lemma
 		self.url = url
 		self.gloss = gloss
 
@@ -18,8 +18,8 @@ def parse_glosses(text):
 		if not row.startswith('#'):
 			parameters = row.split('\t')
 			if len(parameters) == 6:
-				_, part_of_speech, intent, lexeme, url, gloss = parameters
-				glosses.append(Gloss(part_of_speech, intent, lexeme, url, gloss))
+				_, part_of_speech, intent, lemma, url, gloss = parameters
+				glosses.append(Gloss(part_of_speech, intent, lemma, url, gloss))
 	return glosses
 
 glosses = []
