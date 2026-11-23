@@ -176,7 +176,7 @@ formatting = RowMajorTableText('\t','\n')
 
 tables_for_part_of_speech = {
 	'numeral':      ''.split(),
-	'noun':         'common-noun-declensions.tsv'.split(),
+	'noun':         'lexical-noun-declensions.tsv'.split(),
 	'verb':         'conjugations.tsv finite-conjugations.tsv nonfinite-conjugations.tsv'.split(),
 	'adjective':    'adjective-agreements.tsv'.split(),
 	'determiner':   ''.split(),

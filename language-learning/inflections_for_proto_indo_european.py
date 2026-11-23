@@ -22,7 +22,7 @@ from tools.terms import (
     verb_lemma_annotation, noun_lemma_annotation,
     verb_lemma_population, noun_lemma_population,
     finite_annotation, nonfinite_annotation,
-    pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
+    pronoun_annotation, lexical_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
@@ -82,8 +82,8 @@ foreign_language = Language(
                 declension_population.index([
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-declensions.tsv')),
-                    *common_noun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/common-noun-declensions.tsv')),
+                    *lexical_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/lexical-noun-declensions.tsv')),
                 ])),
             UniformDictLookup([
                 (r'(.*)os',  'wolf',   'wĺ̥kʷ'),   # wĺ̥kʷos    → wĺ̥kʷosyo
@@ -105,7 +105,7 @@ foreign_language = Language(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/pronoun-possessives.tsv')),
-                    *common_noun_annotation.annotate(
+                    *lexical_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-agreements.tsv')),
                 ])),
             UniformDictLookup([
@@ -470,7 +470,7 @@ write('flashcards/proto-indo-european/adpositions.html',
         },
     ))
 
-write('flashcards/proto-indo-european/common-noun-declension.html',
+write('flashcards/proto-indo-european/lexical-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

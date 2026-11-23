@@ -20,7 +20,7 @@ from tools.terms import (
     card_formatting,
     tsv_parsing,
     finite_annotation,
-    pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
+    pronoun_annotation, lexical_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
@@ -100,8 +100,8 @@ foreign_language = Language(
                 })),
             NestedDictLookup(
                 declension_population.index([
-                    *common_noun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/slavic/russian/common-noun-declensions.tsv')),
+                    *lexical_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/slavic/russian/lexical-noun-declensions.tsv')),
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-declensions.tsv')),
                 ])),
@@ -126,7 +126,7 @@ foreign_language = Language(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/slavic/russian/pronoun-possessives.tsv')),
-                    *common_noun_annotation.annotate(
+                    *lexical_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/slavic/russian/adjective-agreements.tsv')),
                 ])),
             DictLookup('adjective patterns', DictTupleIndexing(['script']), {
@@ -646,7 +646,7 @@ write('flashcards/slavic/russian/adpositions.html',
         },
     ))
 
-write('flashcards/slavic/russian/common-noun-declension.html',
+write('flashcards/slavic/russian/lexical-noun-declension.html',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

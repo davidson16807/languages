@@ -16,7 +16,7 @@ from tools.terms import (
     case_usage_population, mood_usage_population, aspect_usage_population, 
     declension_population, mood_population,
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation, 
-    pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
+    pronoun_annotation, lexical_noun_annotation, possessive_pronoun_annotation, 
     finite_annotation, mood_annotation,
     tsv_parsing,
     parse_any,
@@ -420,8 +420,8 @@ english_language = Language(
                 declension_population.index([
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/pronoun-declensions.tsv')),
-                    *common_noun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/common-noun-declensions.tsv')),
+                    *lexical_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/lexical-noun-declensions.tsv')),
                 ])),
             ProceduralLookup(regular_english_grammar.decline),
         ),
@@ -430,7 +430,7 @@ english_language = Language(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/pronoun-possessives.tsv')),
-                    *common_noun_annotation.annotate(
+                    *lexical_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/modern/adjective-agreements.tsv')),
                 ])
             ),

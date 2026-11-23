@@ -21,7 +21,7 @@ from tools.terms import (
     tsv_parsing,
     noun_lemma_annotation, noun_lemma_population,
     finite_annotation,
-    pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
+    pronoun_annotation, lexical_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
@@ -93,8 +93,8 @@ foreign_language = Language(
                 })),
             NestedDictLookup(
                 declension_population.index([
-                    *common_noun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/common-noun-declensions.tsv')),
+                    *lexical_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/lexical-noun-declensions.tsv')),
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/pronoun-declensions.tsv')),
                 ])),
@@ -118,7 +118,7 @@ foreign_language = Language(
             declension_population.index([
                 *possessive_pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/pronoun-possessives.tsv')),
-                *common_noun_annotation.annotate(
+                *lexical_noun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/romance/french/modern/adjective-agreements.tsv')),
             ])),
 

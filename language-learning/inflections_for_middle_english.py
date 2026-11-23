@@ -20,7 +20,7 @@ from tools.terms import (
     card_formatting,
     tsv_parsing,
     finite_annotation,
-    pronoun_annotation, common_noun_annotation, 
+    pronoun_annotation, lexical_noun_annotation, 
     conjugation_population, declension_population, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
@@ -89,8 +89,8 @@ foreign_language = Language(
                     tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/noun-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
-                    *common_noun_annotation.annotate(
-                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/common-noun-declensions.tsv')),
+                    *lexical_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/lexical-noun-declensions.tsv')),
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/pronoun-declensions.tsv')),
                 ])),
@@ -106,7 +106,7 @@ foreign_language = Language(
                 declension_population.index([
                     # *possessive_pronoun_annotation.annotate(
                     #     tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/pronoun-possessives.tsv')),
-                    *common_noun_annotation.annotate(
+                    *lexical_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/germanic/english/middle/adjective-agreements.tsv')),
                 ])),
             DictLookup('adjective patterns', DictTupleIndexing(['degree']), {
@@ -501,7 +501,7 @@ write(f'{deck_path}/adpositions.{deck_format}',
         },
     ))
 
-write(f'{deck_path}/common-noun-declension.{deck_format}',
+write(f'{deck_path}/lexical-noun-declension.{deck_format}',
     deck_generation.generate(
         [demonstration.generator(
             tree_lookup = template_tree_lookup,

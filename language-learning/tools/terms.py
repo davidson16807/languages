@@ -201,7 +201,7 @@ tagaxis_to_tags = {
     'degree':     'positive equative comparative superlative'.split(), # 
 
     # needed for gerunds, supines, participles, and gerundives
-    'gender':     'masculine feminine gendered neuter'.split(), # language specific concept where something takes on grammatical forms associated with a sex, "gendered" is used instead of "common" to disambiguate it from common nouns, which are the "lexical" noun-form
+    'gender':     'masculine feminine gendered neuter'.split(), # language specific concept where something takes on grammatical forms associated with a sex, "gendered" is used instead of "common" to disambiguate it from common nouns, like the "common" or "lexical" noun-form
     'virility':   'virile muliebrile avirile'.split(), # language specific where something takes on physical attributes associated with a sex
     'sex':        'male female sexless'.split(), # biological concept assigned at birth
     'animacy':    'animate inanimate'.split(), # language specific concept where something takes on grammatical forms associated with something that moves
@@ -411,7 +411,7 @@ pronoun_annotation  = CellAnnotation(
 possessive_pronoun_annotation  = CellAnnotation(
     'inflection', tag_to_tagaxis, {}, {},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'personal-possessive'})
-common_noun_annotation  = CellAnnotation(
+lexical_noun_annotation  = CellAnnotation(
     'inflection', tag_to_tagaxis, {}, {0:'noun'},
     {**tagaxis_to_tags, 'script':'latin', 'noun-form':'lexical', 'person':'3'})
 emoji_noun_adjective_annotation  = CellAnnotation(
@@ -552,7 +552,7 @@ LanguageSpecificEmojiDemonstration = EmojiDemonstration(
         emoji_noun_declensions_annotation.annotate(
             tsv_parsing.rows('data/inflection/emoji/noun-declensions.tsv'))),
     emoji_noun_population.index(
-        common_noun_annotation.annotate(
+        lexical_noun_annotation.annotate(
             tsv_parsing.rows('data/inflection/emoji/nouns.tsv'))),
     emoji_verb_population.index(
         emoji_verb_annotation.annotate(
