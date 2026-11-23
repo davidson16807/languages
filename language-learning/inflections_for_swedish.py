@@ -43,6 +43,8 @@ list_tools = ListTools()
 rule_tools = RuleTools()
 
 
+# LANGUAGES #
+
 def definiteness(machine, tree, memory):
     '''creates articles when necessary to express definiteness'''
     definiteness = memory['definiteness'] if 'definiteness' in memory else 'indefinite'
@@ -153,6 +155,8 @@ foreign_language = Language(
     ]
 )
 
+# TERMS #
+
 foreign_termaxis_to_terms = {
     **termaxis_to_terms,
     **parse_any.termaxis_to_terms('''
@@ -178,6 +182,8 @@ foreign_term_to_termaxis = dict_bundles.bundle_to_map(foreign_termaxis_to_terms)
 
 parse = TermParsing(foreign_term_to_termaxis)
 
+# DEMONSTRATIONS #
+
 foreign_demonstration = LanguageSpecificTextDemonstration(
     Orthography('latin', foreign_language),
     lambda tags, text: text,
@@ -195,6 +201,8 @@ demonstrations = [
     foreign_demonstration,
     native_english_demonstration,
 ]
+
+# TRAVERSALS #
 
 axis = {
     axis: DictSpace(axis, DictTupleIndexing([axis]), {axis: tags})
@@ -441,6 +449,8 @@ declension_noun_traversal = (
         'subjectivity: subject direct-object')
 )
 
+
+# DECK #
 
 deck_path = 'flashcards/germanic/swedish'
 deck_format = 'tsv'

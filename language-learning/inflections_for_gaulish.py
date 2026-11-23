@@ -44,6 +44,8 @@ deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
 
+# LANGUAGES #
+
 foreign_language = Language(
     ListSemantics(
         case_usage_population.index(
@@ -136,6 +138,8 @@ foreign_language = Language(
     substitutions = []
 )
 
+# TERMS #
+
 foreign_termaxis_to_terms = {
     **termaxis_to_terms,
     **parse_any.termaxis_to_terms('''
@@ -161,6 +165,8 @@ foreign_term_to_termaxis = dict_bundles.bundle_to_map(foreign_termaxis_to_terms)
 
 parse = TermParsing(foreign_term_to_termaxis)
 
+# DEMONSTRATIONS #
+
 foreign_demonstration = LanguageSpecificTextDemonstration(
     Orthography('latin', foreign_language),
     lambda tags, text: text,
@@ -179,24 +185,7 @@ demonstrations = [
     native_english_demonstration,
 ]
 
-axis = {
-    axis: DictSpace(axis, DictTupleIndexing([axis]), {axis: tags})
-    for (axis, tags) in foreign_termaxis_to_terms.items()
-}
-
-constant = {
-    tag: DictSpace(tag, DictTupleIndexing([axis]), {axis: tag})
-    for (tag, axis) in foreign_term_to_termaxis.items()
-}
-
-defaults = DictSpace(
-    'defaults',
-    DictTupleIndexing([]),
-    {
-        **tag_defaults,
-        'noun':'man',
-    }
-)
+# TRAVERSALS #
 
 # stimuli are typically only subjects or direct-objects
 subjectivity_role_blacklist = parse.termmask(
@@ -404,6 +393,16 @@ possessor_pronoun_traversal = label_editing.termpath(
 def head(store):
     print(str(store)[:3000])
 
+axis = {
+    axis: DictSpace(axis, DictTupleIndexing([axis]), {axis: tags})
+    for (axis, tags) in foreign_termaxis_to_terms.items()
+}
+
+constant = {
+    tag: DictSpace(tag, DictTupleIndexing([axis]), {axis: tag})
+    for (tag, axis) in foreign_term_to_termaxis.items()
+}
+
 tense_progress_mood_voice_verb_traversal = (
     (((
           axis['valency']
@@ -443,6 +442,16 @@ declension_noun_traversal = (
         & template_verb_whitelist)
 )
 
+defaults = DictSpace(
+    'defaults',
+    DictTupleIndexing([]),
+    {
+        **tag_defaults,
+        'noun':'man',
+    }
+)
+
+# DECK #
 
 write('flashcards/gaulish/finite-conjugation.html', 
     deck_generation.generate(

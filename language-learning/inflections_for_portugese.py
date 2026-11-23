@@ -43,6 +43,8 @@ deck_generation = DeckGeneration()
 list_tools = ListTools()
 rule_tools = RuleTools()
 
+# LANGUAGES #
+
 foreign_language = Language(
     ListSemantics(
         case_usage_population.index(
@@ -136,6 +138,8 @@ foreign_language = Language(
     ]
 )
 
+# TERMS #
+
 foreign_termaxis_to_terms = {
     **termaxis_to_terms,
     **parse_any.termaxis_to_terms('''
@@ -164,6 +168,8 @@ foreign_term_to_termaxis = dict_bundles.bundle_to_map(foreign_termaxis_to_terms)
 
 parse = TermParsing(foreign_term_to_termaxis)
 
+# DEMONSTRATIONS #
+
 foreign_demonstration = LanguageSpecificTextDemonstration(
     Orthography('latin', foreign_language),
     lambda tags, text: text,
@@ -182,6 +188,8 @@ demonstrations = [
     foreign_demonstration,
     native_english_demonstration,
 ]
+
+# TRAVERSALS #
 
 axis = {
     axis: DictSpace(axis, DictTupleIndexing([axis]), {axis: tags})
@@ -442,6 +450,8 @@ declension_noun_traversal = (
         * valency_subjectivity_motion_role_traversal)
         & template_verb_whitelist)
 )
+
+# DECK #
 
 write('flashcards/romance/portugese/finite-conjugation.html', 
     deck_generation.generate(
