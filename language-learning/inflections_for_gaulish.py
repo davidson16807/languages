@@ -4,7 +4,8 @@ start_time = time.time()
 
 from tools.labels import TermLabelEditing
 from tools.parsing import TermParsing
-from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup
+from tools.dictstores import DictSpace, UniformDictLookup, NestedDictLookup, DictLookup
+from tools.inflection import RegularInflectionFallbackLookup
 from tools.dictbundles import DictBundles
 from tools.indexing import DictTupleIndexing
 from tools.languages import Language
@@ -18,6 +19,8 @@ from tools.terms import (
     LanguageSpecificTextDemonstration, LanguageSpecificEmojiDemonstration, 
     card_formatting,
     tsv_parsing,
+    verb_lemma_annotation, verb_lemma_population,
+    noun_lemma_annotation, noun_lemma_population,
     finite_annotation,
     pronoun_annotation, common_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 
@@ -59,7 +62,7 @@ foreign_language = Language(
                 DictLookup('verb lemmas', DictTupleIndexing(['script']), {
                     ('latin',): verb_lemma_population.index(
                         verb_lemma_annotation.annotate(
-                            tsv_parsing.rows('data/inflection/indo-european/romance/gaulish/modern/verb-lemmas.tsv'))),
+                            tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/verb-lemmas.tsv'))),
                 })),
             NestedDictLookup(
                 conjugation_population.index([
@@ -69,8 +72,8 @@ foreign_language = Language(
                     #     tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/nonfinite-conjugations.tsv')),
                 ])),
             UniformDictLookup([
-                    (r'(.+)et',   'provide',   'rosmer'),   # B1
                     (r'(.+)iet',  'heal',      'slānosag'), # B2
+                    (r'(.+)et',   'provide',   'rosmer'),   # B1
                     (r'(.+)[âā]t','inhabit',   'atreb'),   # A1
                     (r'(.+)[îī]t','exchange',  'camb'),    # A2
                     (r'(.+)at',   'buy',       'prin'),    # B4
@@ -85,7 +88,7 @@ foreign_language = Language(
         RegularInflectionFallbackLookup('noun',
             noun_lemma_population.index(
                 noun_lemma_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/gaulish/modern/noun-lemmas.tsv'))),
+                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/noun-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *common_noun_annotation.annotate(
@@ -96,6 +99,7 @@ foreign_language = Language(
             UniformDictLookup([
                     (r'(.+)ā',    'tribe',   'toṷt'),  # a-stem, regular
                     (r'(.+)os',   'boy',     'map' ),  # o-stem, animate?
+                    (r'(.+)on',   'tree',    'prenn'), # o-stem, neuter
                     (r'(.+)is',   'seer',    'ṷāt' ),  # i-stem, animate
                     (r'(.+)us',   'voice',   'gut' ),  # u-stem, animate
                     (r'(.+)īr',   'brother', 'brāt'),  # r-stem
@@ -104,7 +108,7 @@ foreign_language = Language(
         RegularInflectionFallbackLookup('noun',
             noun_lemma_population.index(
                 noun_lemma_annotation.annotate(
-                    tsv_parsing.rows('data/inflection/indo-european/romance/gaulish/modern/adjective-lemmas.tsv'))),
+                    tsv_parsing.rows('data/inflection/indo-european/celtic/gaulish/adjective-lemmas.tsv'))),
             NestedDictLookup(
                 declension_population.index([
                     *possessive_pronoun_annotation.annotate(
@@ -114,6 +118,7 @@ foreign_language = Language(
                 ])),
             UniformDictLookup([
                     (r'(.+)ā',    'old',   'sen'),   # a-stem
+                    (r'(.+)os',   'old',   'sen'),   # o/a-stem, masculine lemma
                     (r'(.+)is',   'good',  'mat'),   # i-stem
                     (r'(.+)us',   'big',   'uer'),   # u-stem
                     (r'(.+)s',    'blind', 'exop'),  # constant stem
