@@ -33,7 +33,7 @@ Id	English	Part
 1-370	spring|well	noun
 1-380	swamp	noun
 1-390	waterfall	noun
-1-410	woods|forest	noun
+1-410	forest|woods	noun
 1-420	tree	noun
 1-430	wood	noun
 1-440	stone|rock	noun
@@ -62,7 +62,7 @@ Id	English	Part
 1-810	fire	noun
 1-820	flame	noun
 1-830	smoke	noun
-1-840	ashes	noun
+1-840	ash|ashes	noun
 1-841	embers	noun
 1-851	burn	verb
 1-852	burn	verb
@@ -72,7 +72,7 @@ Id	English	Part
 1-880	firewood	noun
 1-890	charcoal	noun
 10-110	move	verb
-10-120	turn over	verb
+10-120	turn|turn over	verb
 10-130	turn around	verb
 10-140	wind|wrap	verb
 10-150	roll	verb
@@ -236,11 +236,11 @@ Id	English	Part
 12-460	west	adjective
 12-470	north	adjective
 12-480	south	adjective
-12-50	inside|in	adposition
+12-50	in|inside	adposition
 12-530	grow	verb
 12-540	measure	verb
 12-541	span|fathom	noun
-12-550	large|big	adjective
+12-550	big|large	adjective
 12-560	small|little	adjective
 12-570	long	adjective
 12-580	tall	adjective
@@ -278,8 +278,8 @@ Id	English	Part
 13-105	hundred	numeral
 13-106	thousand	numeral
 13-107	count	noun
-13-140	every|all	adjective
-13-150	much|many	adjective
+13-140	all|every	adjective
+13-150	many|much	adjective
 13-160	more	adjective
 13-170	little|few	adjective
 13-180	enough	adjective
@@ -398,7 +398,7 @@ Id	English	Part
 15-760	rough	adjective
 15-770	smooth	adjective
 15-780	sharp	adjective
-15-790	blunt|dull	adjective
+15-790	dull|blunt	adjective
 15-810	heavy	adjective
 15-820	light-weight	adjective
 15-830	wet|damp	adjective
@@ -447,7 +447,7 @@ Id	English	Part
 16-690	forgive	verb
 16-710	good	adjective
 16-720	bad	adjective
-16-730	right|correct	adjective
+16-730	correct|right	adjective
 16-740	wrong	adjective
 16-760	fault	noun
 16-770	mistake|error	noun
@@ -655,7 +655,7 @@ Id	English	Part
 2-940	we	noun
 2-941	we	noun
 2-942	we	noun
-2-950	you	noun
+2-950	you all	noun
 2-960	they	noun
 20-110	fight	verb
 20-130	war|battle	noun
@@ -922,7 +922,7 @@ Id	English	Part
 4-451	kidney	noun
 4-452	spleen	noun
 4-460	stomach	noun
-4-461	intestines|guts	noun
+4-461	guts|intestines	noun
 4-462	waist	noun
 4-463	hip	noun
 4-464	buttocks	noun
@@ -954,8 +954,8 @@ Id	English	Part
 4-720	born	verb
 4-730	pregnant	adjective
 4-732	conceive	verb
-4-740	live|living|life	verb
-4-750	die|dead	verb
+4-740	live	verb
+4-750	die	verb
 4-751	drowned	adjective
 4-760	kill	verb
 4-770	corpse	noun
@@ -1053,7 +1053,7 @@ Id	English	Part
 5-770	nut	noun
 5-780	olive	noun
 5-790	oil	noun
-5-791	grease|fat	noun
+5-791	fat|grease	noun
 5-810	salt	noun
 5-820	pepper	noun
 5-821	chili pepper	noun
@@ -1247,7 +1247,7 @@ Id	English	Part
 9-180	chain	noun
 9-190	rope|cord	noun
 9-192	knot	noun
-9-210	strike|hit|beat	verb
+9-210	hit|strike|beat	verb
 9-211	pound with fist	verb
 9-220	cut	verb
 9-221	cut down	verb
