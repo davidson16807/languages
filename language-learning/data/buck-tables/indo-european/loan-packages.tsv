@@ -632,19 +632,19 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 2-550	cousin	noun	distant-kinship	french	|||chinese|	latin	pali
 2-560	ancestors	noun	distant-kinship	french	chinese|chinese		
 2-570	descendants	noun	distant-kinship	french	chinese||		middle chinese
-2-610	father-in-law	noun	distant-kinship		chinese		
-2-611	father-in-law	noun	distant-kinship		chinese		
-2-620	mother-in-law	noun	distant-kinship				
-2-621	mother-in-law	noun	distant-kinship				
-2-630	son-in-law	noun	distant-kinship		chinese		
-2-631	son-in-law	noun	distant-kinship		chinese||		
-2-640	daughter-in-law	noun	distant-kinship				
-2-641	daughter-in-law	noun	distant-kinship		|chinese		
+2-610	father-in-law	noun			chinese		
+2-611	father-in-law	noun			chinese		
+2-620	mother-in-law	noun					
+2-621	mother-in-law	noun					
+2-630	son-in-law	noun			chinese		
+2-631	son-in-law	noun			chinese||		
+2-640	daughter-in-law	noun					
+2-641	daughter-in-law	noun			|chinese		
 2-710	stepfather	noun	distant-kinship		chinese|chinese	||latin	
 2-720	stepmother	noun	distant-kinship			latin|	
 2-730	stepson	noun	distant-kinship			latin|||	
 2-740	stepdaughter	noun	distant-kinship				
-2-750	orphan	noun		latin		||turkish	
+2-750	orphan	noun	social	latin		||turkish	
 2-760	widow	noun					
 2-770	widower	noun					
 2-810	relatives|kinsmen	noun	distant-kinship	french|	chinese		pali|
@@ -986,8 +986,8 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 4-930	bald	adjective				greek|	
 4-940	lame	adjective					
 4-950	deaf	adjective				|latin	
-4-960	mute	adjective		french		slavic||	
-4-970	blind	adjective			chinese||	latin|turkish	
+4-960	mute	adjective	medical	french		slavic||	
+4-970	blind	adjective	medical		chinese||	latin|turkish	
 4-980	intoxicated	adjective	fermentation	latin			
 4-990	naked|bare	adjective					
 5-110	eat	verb					
@@ -1012,7 +1012,7 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 5-250	oven	verb	cuisine		chinese|chinese	latin|turkish	middle chinese|middle chinese
 5-260	pot|cooking vessel	noun	cuisine	|french		turkish||	
 5-270	kettle	noun	cuisine	norse		turkish|	
-5-280	pan	noun				byzantine greek	old khmer
+5-280	pan	noun	cuisine			byzantine greek	old khmer
 5-310	dish	noun	cuisine	latin	chinese	italian|	
 5-320	plate	noun	cuisine	french	chinese		
 5-330	bowl	noun	cuisine		chinese|chinese|	turkish|latin|	austroasiatic|middle chinese
@@ -1047,7 +1047,7 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 5-660	bean	noun	cuisine		chinese	|greek|slavic	middle chinese
 5-700	potato	noun	potato	spanish		italian|	
 5-710	fruit	noun	cuisine	french	chinese||	latin|latin	pali
-5-712	bunch	noun				latin||slavic	|old khmer
+5-712	bunch	noun	cuisine			latin||slavic	|old khmer
 5-750	fig	noun	fig	french		latin	
 5-760	grape	noun	grape	french			bengali
 5-770	nut	noun			chinese|		middle chinese
@@ -1067,7 +1067,7 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 5-910	mead	noun	beekeeping & fermentation				
 5-920	wine	noun	grape & fermentation	latin	french|		
 5-930	beer	noun	agriculture & fermentation		french	italian	english
-5-940	fermented drink	noun	agriculture				
+5-940	fermented drink	noun	fermentation				
 5-970	egg	noun		norse			
 5-971	egg yolk	noun					
 6-110	put on clothes	noun					
@@ -1137,20 +1137,20 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 7-160	men's house	noun					
 7-170	cookhouse	noun					malay|
 7-180	meeting house	noun	social		chinese|		sanskrit
-7-210	room	noun			chinese	|turkish	
+7-210	room	noun	domestic		chinese	|turkish	
 7-220	door|gate	noun				|latin	
 7-221	doorpost|jamb	noun	architecture	latin|french	chinese	|turkish	
 7-230	lock	noun	locksmithing			slavic	
 7-231	latch|door-bolt	noun	locksmithing		|chinese		
-7-240	key	noun			||chinese		malay
+7-240	key	noun	locksmithing		||chinese		malay
 7-250	window	noun	glass	norse		|turkish	
-7-260	floor	noun				turkish	middle chinese
+7-260	floor	noun	domestic			turkish	middle chinese
 7-270	wall	noun	domestic	latin	chinese|chinese	latin	
 7-310	fireplace	noun	domestic	french	chinese		middle chinese|middle chinese
 7-320	stove	noun	domestic	dutch		hungarian|italian	middle chinese|middle chinese
 7-330	chimney	noun	domestic	french		turkish	
 7-370	ladder	noun					
-7-420	bed	noun			chinese	greek|latin	
+7-420	bed	noun	domestic		chinese	greek|latin	
 7-421	pillow	noun	domestic	latin		turkish	
 7-422	blanket	noun	domestic	french	chinese|chinese	turkish|	old chinese
 7-430	chair	noun	domestic	french	chinese	venetian	teochew
