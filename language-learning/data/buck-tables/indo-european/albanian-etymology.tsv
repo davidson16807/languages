@@ -1,0 +1,1311 @@
+Id	English	Part	Albanian	Etymology
+1-100	world	noun	botë|dhe|rrokuli alem|dynja	||turkish|turkish
+1-210	earth|land	noun	tokë|dhe	
+1-212	ground|soil	noun	tokë|trual	
+1-213	dust	noun	pluhur	latin
+1-214	mud	noun	baltë	
+1-215	sand	noun	rërë	latin
+1-220	mountain|hill	noun	mal	
+1-222	cliff|precipice	noun	humnerë|greminë	
+1-230	plain|field	noun	fushë	latin
+1-240	valley	noun	luginë	
+1-250	island	noun	ishull	latin
+1-260	mainland	noun	kontinent	
+1-270	shore	noun	plazh|bregdet|breg	french|slavic|slavic
+1-280	cave	noun	shpellë|guvë|uxhë	ancient greek||
+1-310	water	noun	ujë	
+1-320	sea	noun	det	
+1-322	calm	adjective	bunacë	venetian
+1-323	rough	adjective		
+1-324	foam	noun	shkumë	gothic
+1-329	ocean	noun	oqean	
+1-330	lake	noun	liqen	ancient greek
+1-340	gulf|bay	noun	gji|liman	|turkish
+1-341	lagoon	noun	pellg|pishinë	ancient greek|
+1-342	reef	noun	gumë	
+1-343	headland|point	noun	hundë toke	
+1-350	wave	noun	dallgë	turkish
+1-352	tide	noun	zbaticë|rrymë	venetian|
+1-353	lowtide	noun		
+1-354	hightide	noun	batica	
+1-360	river|stream|brook	noun	lumë	
+1-362	whirlpool	noun	vorbull|gjir|rrufull	
+1-370	spring|well	noun	pus|gufë|krua|burim|buromë	latin||||
+1-380	swamp	noun	kënetë|moçal	latin|slavic
+1-390	waterfall	noun	ujëvarë	
+1-410	forest|woods	noun	pyll	latin
+1-420	tree	noun	pemë	latin
+1-430	wood	noun	dru	
+1-440	stone|rock	noun	gur|shkëmb	|latin
+1-450	earthquake	noun	tërmet	latin
+1-510	sky	noun	qell|hava	|turkish
+1-520	sun	noun	diell	
+1-530	moon	noun	hënë	
+1-540	star	noun	yll|syz	
+1-550	lightning flash|lightning	noun	vetëtimë	
+1-560	thunder	noun	bubullimë|gjëmim	
+1-570	lightning bolt|lightning	noun	rrufe	
+1-580	storm	noun	stuhi|furtunë|tufan|duhaç	|latin|turkish|
+1-590	rainbow	noun	ylber	
+1-610	light	noun	dritë|ndriçim	
+1-620	darkness	noun	errët|errësirë|zymtë	
+1-630	shade|shadow	noun	hije	
+1-640	dew	noun	vesë	latin
+1-710	air	noun	ajër	
+1-720	wind	noun	erë	
+1-730	cloud	noun	re	
+1-740	fog	noun	mjegull	
+1-750	rain	noun	shi	
+1-760	snow	noun	borë	
+1-770	ice	noun	akull	
+1-780	weather	noun	mot	
+1-810	fire	noun	zjarr	
+1-820	flame	noun	flakë	
+1-830	smoke	noun	tym	
+1-840	ash|ashes	noun	hi	
+1-841	embers	noun	prush	
+1-851	burn	verb	djeg	
+1-852	burn	verb	cuks	
+1-860	light|kindle|ignite	verb	merr flakë|vë zjarrin	
+1-861	extinguish	verb	shuaj	latin
+1-870	match	noun	shkrepase	
+1-880	firewood	noun	dru zjarri	
+1-890	charcoal	noun	qymyr	turkish
+10-110	move	verb	lëviz|eci	
+10-120	turn|turn over	verb	përmbys	
+10-130	turn around	verb	rrotullon|kthehem	
+10-140	wind|wrap	verb	mbështjell	
+10-150	roll	verb	rrotullon	
+10-160	drop	verb	rrëzoj|lëshoj	|latin
+10-170	twist	verb	dredh	
+10-210	rise	verb	ngrihem	
+10-220	raise|lift	verb	ngreh	
+10-230	fall	verb	bie|ra|rrëzoj	
+10-240	drip	verb	pikoj	
+10-250	throw	verb	hedh|flak	
+10-252	catch ball	verb	kap|zë	
+10-260	shake	verb	shkund|shuk|tund	
+10-320	flow	verb	rrjedh|zbraz	|slavic
+10-330	sink	verb	fundos|mbyt|zdryp	
+10-340	float	verb	pluskoj|flluskon	
+10-350	swim	verb	notoj	latin
+10-351	dive	verb	zhyt|kridhem	
+10-352	splash	verb	llapashit	
+10-360	sail	verb		
+10-370	fly	verb	fluturoj	latin
+10-380	blow	verb	fryj	
+10-410	creep|crawl	verb	zvarritem|zhargohet	
+10-412	kneel	verb	gjunjëzoj	
+10-413	crouch	verb	shuk|mblidhet	
+10-420	slide|slip	verb	shket|rrëshqet	
+10-430	jump|leap	verb	hidhet|kërcej	
+10-431	kick	verb	shkelmoj	
+10-440	dance	verb	kërcej|vallon	
+10-450	walk	verb	eci|mëkëmb	
+10-451	limp	verb	çaloj	
+10-460	run	verb	bredh|vrapoj|rend	
+10-470	go	verb	shkon|vete	
+10-471	go up	verb		
+10-472	climb	verb	ngjitem|hipi	
+10-473	go down	verb	zbres	
+10-474	go out	verb	del	
+10-480	come	verb	vjen	
+10-481	come back	verb	kthehem	
+10-490	go away|depart	verb	iki	
+10-491	disappear	verb	shembem|zhdukem	
+10-510	flee	verb	arratisem	greek
+10-520	follow	verb	ndjek	
+10-530	pursue	verb	ndjek|pilohet	
+10-550	reach|arrive	verb	arrij	
+10-560	approach	verb	afrohet	
+10-570	enter	verb	hyj|futem	
+10-610	carry	verb	mbaj|mbart	
+10-612	carry-in-hand	verb		
+10-613	carry-on-shoulder	verb		
+10-614	carry-on-head	verb		
+10-615	carry-underarm	verb		
+10-620	bring	verb	sjell|bie	
+10-630	send	verb	dërgoj|çoj	latin|
+10-640	lead	verb	prij|udhëheq	latin|
+10-650	drive	verb	çoj|nget	
+10-660	ride	verb	kaloj	
+10-670	push|shove	verb	shtyj	
+10-710	road	noun	rrugë|udhë	venetian|
+10-720	path	noun	shteg|udhë|rravë	
+10-740	bridge	noun	urë	
+10-750	carriage|wagon|cart	noun	karrocë|qerre|karro	italian|latin|italian
+10-760	wheel	noun	rrotë	latin
+10-770	axle	noun	aks|bosht	
+10-780	yoke	noun	zgjedhë	
+10-810	ship	noun	anije	
+10-830	boat	noun	varkë|barkë|lundër	|italian|latin
+10-831	canoe	noun		
+10-832	outrigger	noun		
+10-840	raft	noun	trap|argsh|parom	||slavic
+10-850	oar	noun	lugatë|rrem|pallamar	|latin|greek
+10-851	paddle	noun	lopatë	slavic
+10-852	row	noun	vozit	slavic
+10-860	rudder	noun	timon	italian
+10-870	mast	noun	shulicë|direk|alburë	|turkish|
+10-880	sail	noun	vel|pëlhurë	
+10-890	anchor	noun	spirancë|kanxhë	venetian|turkish
+10-910	harbor|port	noun	liman|port|skelë	turkish||
+10-920	land	verb	zbarkon	
+11-110	have	verb	ka	
+11-120	own|possess	verb	zotaron	
+11-130	take	verb	merr|zë	
+11-140	seize|grasp	verb	kap|rrok|përfshij	
+11-150	hold	verb	mbaj	
+11-160	get|obtain	verb	merr|fitoj	
+11-170	keep|retain	verb	mbaj|ruaj	
+11-180	thing	noun	gjë|send|punë	
+11-210	give	verb	jep	
+11-220	give back	verb	kthej	
+11-240	preserve|look after	verb	ruaj	
+11-250	save|rescue	verb	shpëtoj	latin
+11-270	destroy	verb	prish	
+11-280	harm|injure|damage	verb	dëmtoj|vret	latin|
+11-310	seek|look for	verb	kërkon	
+11-320	find	verb	gjej	
+11-330	lose	verb	humb	
+11-340	release|let go	verb	lëshoj	latin
+11-430	money	noun	para	turkish
+11-440	coin	noun	monedhë	
+11-510	rich	noun	i begatshëm|i pasur|zengjin	||turkish
+11-520	poor	noun	fukara	turkish
+11-530	beggar	noun	lypës	
+11-540	avaricious|stingy	adjective	koprrac|saraf|cinguj	|turkish|
+11-610	lend	verb	jep hua|jep borxh|huaj	
+11-620	borrow	verb	merr hua|huazoj	
+11-630	owe	verb	detyroj	
+11-640	debt	noun	borxh|detyrim	turkish|
+11-650	pay	verb	paguaj	latin
+11-660	account|reckoning	noun	llogari	greek
+11-690	tax|tribute	noun	tagër|haraç	turkish|turkish
+11-770	hire	verb	pajtoj|angazhon	|french
+11-780	wages	noun	pagë	italian
+11-790	earn	verb	fitoj|zë|qit	
+11-810	buy	verb	blej	
+11-820	sell	verb	shes	
+11-830	trade|barter	verb	këmbej|tregtoj|treg	latin||
+11-840	merchant	noun	tregtar	
+11-850	market place	noun	treg|pazar	|turkish
+11-860	store|shop	noun	dyqan	turkish
+11-870	price	noun	çmim|pjacë	latin|venetian
+11-880	dear|costly|expensive	adjective	i shtrenjtë	latin
+11-890	cheap	noun	i lirë|badihava	|turkish
+11-910	share|distribute	verb	ndaj|pjesëtoj	|latin
+11-920	weigh	verb	peshoj	latin
+12-10	after	adposition	pas|mbas	
+12-11	behind	adposition	prapa|pas	
+12-110	place	verb	vend	
+12-120	put	verb	vë|vendos	
+12-130	sit	verb	ulem	
+12-140	lie down	verb	shtroj	
+12-150	stand	verb	qëndroj|ngrihem	latin|
+12-160	remain|stay	verb	rri|mbetem	
+12-170	remains|left overs	noun	fundra|mbetëz	
+12-20	beside	adposition	pranë|bri|anës	
+12-210	collect|gather	verb	mbledh	
+12-212	pick up	verb	qëmton	
+12-213	pile up	verb		
+12-220	join|unite	verb	bashkoj	
+12-230	separate	verb	ndaj|veçoj	
+12-232	divide	verb	pjesëtoj	latin
+12-240	open	verb	hap	
+12-250	shut|close	verb	mbyll	
+12-260	cover	verb	mbulon	
+12-270	hide|conceal	verb	fsheh	
+12-30	down|below	adposition	poshtë|përposh	
+12-310	high	adjective	lartë	
+12-320	low	adjective	i ulët	
+12-330	top	adjective	kulm|majë	latin|
+12-340	bottom	adjective	fund|shtrat|bazë	latin|latin|
+12-350	end	noun	fund|mbarim|sosë	latin||
+12-352	pointed	noun	i thepisur|i thepët	
+12-353	edge	noun	kufi|buzë|skaj|anë	latin|||
+12-360	side	noun	anë	
+12-370	middle|center	noun	mes|kërthizë|qendër	||latin
+12-40	before	adposition	para	
+12-41	front	noun	përpara	
+12-410	right	adjective	ana e drejtë	
+12-420	left	adjective	ana e majtë	
+12-430	near	adjective	afër	
+12-440	far	adjective	larg	latin
+12-450	east	adjective	lindje	
+12-460	west	adjective	perëndi	
+12-470	north	adjective	veri	
+12-480	south	adjective	jug	slavic
+12-50	in|inside	adposition	brenda	
+12-530	grow	verb	rritem	
+12-540	measure	verb	mat	
+12-541	span|fathom	noun	pash	
+12-550	big|large	adjective	i madh	
+12-560	small|little	adjective	i vogël	
+12-570	long	adjective	i gjatë	
+12-580	tall	adjective	i gjatë	
+12-590	short	adjective	i shkurtër	
+12-60	outside	adjective	jashtë	
+12-610	wide|broad	adjective	i gjerë	
+12-620	narrow	adjective	i ngushtë	latin
+12-630	thick	adjective	i trashë	
+12-650	thin	adjective	i thatë|i hollë	
+12-670	deep	adjective	i thellë	
+12-680	shallow	adjective	i cekët	
+12-70	under	adposition	përposh|nën	
+12-710	flat	adjective	i sheshtë|i rrafshët|i shtruar	latin||
+12-730	straight	adjective	i drejtë	latin
+12-740	crooked	adjective	i shtrembër	
+12-750	hook	noun	kanxhë|grep	turkish|
+12-760	corner	verb	cep|qoshe	|turkish
+12-770	cross	noun	kryq	latin
+12-780	square	noun	katror	
+12-80	up|above	adposition	mbi|përmbi|sipër|lart	
+12-810	round	adjective	rrotullak|rrumbullak|i rrotulltë	
+12-820	circle	noun	rreth|qark	|latin
+12-830	sphere|ball	noun	rruzull|sferë	
+12-840	line	noun	vijë|vizë|linjë	latin||latin
+12-850	hole	noun	vrimë|gropë|birëz	
+12-920	like|similar	adposition	i ngjashëm	
+12-930	change	verb	ndërron	
+13-0	zero|nothing	numeral	zero|asgjë	
+13-10	one	numeral	një	
+13-100	ten	numeral	dhjetë	
+13-101	eleven	numeral	njëmbëdhjetë	
+13-102	twelve	numeral	dymbëdhjetë	
+13-103	fifteen	numeral	pesëmbëdhjetë	
+13-104	twenty	numeral	njëzet	
+13-105	hundred	numeral	njëqind	
+13-106	thousand	numeral	mijë	latin
+13-107	count	noun	numëroj	latin
+13-140	all|every	adjective	çdo	
+13-150	many|much	adjective	shumë	latin
+13-160	more	adjective	më	
+13-170	little|few	adjective	pak	latin
+13-180	enough	adjective	mjaft	
+13-181	some	adjective	ca|disa	
+13-190	multitude|crowd	noun	shumicë	latin
+13-20	two	numeral	dy	
+13-210	full	adjective	plotë	
+13-220	empty	adjective	bosh	turkish
+13-230	part|piece	noun	pjesë	latin
+13-240	half	adjective	gjysmë	
+13-30	three	numeral	tri|tre	
+13-330	alone|only	adjective	i vetëm|vetëm	
+13-340	first	ordinal	i parë	
+13-350	last	adjective	i fundit	
+13-360	second	ordinal	i dytë	
+13-370	pair	noun	çift|parë|dyshe	turkish||
+13-380	twice	adverbial	dy herë	
+13-40	four	numeral	katër	
+13-420	third	ordinal	i tretë	
+13-440	thrice	adverbial	tri herë	
+13-50	five	numeral	pesë	
+13-60	six	numeral	gjashtë	
+13-70	seven	numeral	shtatë	
+13-80	eight	numeral	tetë	
+13-90	nine	numeral	nëntë	
+14-110	time	noun	kohë	
+14-120	age	noun	moshë	
+14-130	new	adjective	i ri	
+14-140	young	adjective	i ri	
+14-150	old	adjective	i moçëm|i lashtë|plak	
+14-160	early	adjective	herët	latin
+14-170	late	adjective	vonë	
+14-180	now	noun	tani|tashti	
+14-190	immediately	adverb		
+14-210	swift|fast|quick	adjective	i shpejtë	
+14-220	slow	adjective	ngadalë	
+14-230	hasten|hurry	verb	nxitoj|vrapoj|shpejton	
+14-240	retard|delay	verb	vonoj	
+14-250	begin|beginning	verb	filloj	latin
+14-252	last|endure	verb	duroj	latin
+14-260	end	noun	fund	latin
+14-270	finish	verb	mbarim|sosë	
+14-280	cease|stop	verb	ndal|resht|pushoj	||latin
+14-290	ready	adjective	gati	
+14-310	always	adverb	gjithnjë|përherë|kurdo	
+14-320	often	adverb	shpesh	latin
+14-330	sometimes	adverb	ndonjëherë	
+14-331	soon	adverb	shpejt	
+14-332	long-time	adverb	gjatë	
+14-340	never	adverb	kurrë	
+14-350	again	adverb	përsëri|edhe një herë|ende	
+14-410	day	noun	ditë	
+14-420	night	noun	natë	
+14-430	dawn	noun	agim	
+14-440	morning	noun	mëngjes	
+14-450	noon|midday	noun	mesditë	
+14-451	afternoon	noun	pasdreke|pasdite	
+14-460	evening	noun	mbrëmje	
+14-470	today	noun	sot	
+14-480	tomorrow	noun	nesër	
+14-481	day-after-tomorrow	noun	pasnesër	
+14-490	yesterday	noun	dje	
+14-491	day-before-yesterday	noun	pardje	
+14-510	hour	noun	orë	latin
+14-530	clock|timepiece	noun	orë	latin
+14-610	week	noun	javë	ancient greek
+14-620	Sunday	noun	e diel	
+14-630	Monday	noun	e hënë	
+14-640	Tuesday	noun	e martë	latin
+14-650	Wednesday	noun	e mërkurë	latin
+14-660	Thursday	noun	e enjte	
+14-670	Friday	noun	e premte	
+14-680	Saturday	noun	e shtunë	latin
+14-710	month	noun	muaj	
+14-730	year	noun	vit	
+14-740	winter	noun	dimër	
+14-750	spring	noun	pranverë	latin
+14-760	summer	noun	verë	latin
+14-770	autumn	noun	vjeshtë	
+14-780	season	noun	shtinë	
+15-210	smell	verb	kundërmon	
+15-212	sniff	verb	nuhat	slavic
+15-220	smell	verb	nuhat	slavic
+15-250	fragrant|good smelling	adjective	i merëm|myshk	|latin
+15-260	stinking|bad smelling	adjective	i zhezhitur	
+15-310	taste	verb		
+15-350	sweet	adjective	i ëmbël	
+15-360	salty	adjective	i kripur|i njellmë	
+15-370	bitter	adjective	i hidhur	
+15-380	acid|sour	adjective	i thartor	
+15-390	brackish	adjective		
+15-410	hear	verb	dëgjon|ndiej	
+15-420	listen	verb	veshton|dëgjon	
+15-440	sound|noise	noun	tingull	
+15-450	loud	adjective	zëmadh|i lartë	
+15-460	quiet|silence	adjective	qetësi|heshtje	
+15-510	see	verb	shoh|shikon	
+15-520	look|look at	verb	vështroj|shoh|shikon	
+15-550	show	verb	tregoj|dëften|kallëzoj	
+15-560	shine	verb	ndrin|laps|feks|shkëlqej	|latin||latin
+15-570	bright	adjective	i shkëllqyshëm|i shkëllqjer	
+15-610	color	noun	ngjyrë|bojë	|turkish
+15-620	light	adjective	i hapët	
+15-630	dark	adjective	i errët	
+15-640	white	adjective	i bardhë	
+15-650	black	adjective	i zi|sterrë	
+15-660	red	adjective	i kuq	latin
+15-670	blue	adjective	i kaltër|i bruztë	latin|
+15-680	green	adjective	i gjelbër|i bllertë	latin|
+15-690	yellow	adjective		
+15-710	touch	verb	prek	
+15-712	pinch	verb	nduk	
+15-720	feel	verb	ndiej	
+15-740	hard	adjective	shtëng|i gurtë	
+15-750	soft	adjective	i butë	
+15-760	rough	adjective		
+15-770	smooth	adjective		
+15-780	sharp	adjective	i mprehtë|prerës	
+15-790	dull|blunt	adjective		
+15-810	heavy	adjective	i rëndë	
+15-820	light-weight	adjective	i lehtë	
+15-830	wet|damp	adjective	i lagët|i njomë|i amët	
+15-840	dry	adjective	i thatë	
+15-850	hot	adjective	i nxehtë	
+15-851	warm	adjective	i vakët|i ngrohtë	
+15-860	cold	adjective	i ftohtë	
+15-870	clean	adjective	i pastër	ancient greek
+15-880	dirty|soiled	adjective	i ndyrë|i fëlliqët	
+15-890	wrinkled	adjective	i rrudhur	
+16-110	soul|spirit	noun	frymë	
+16-150	surprised|astonished	adjective	i çuditur|i habitur|i befësuar	
+16-180	good fortune|luck	noun	zar|fat|kësmet	turkish|latin|turkish
+16-190	misfortune|bad luck	noun	prapësi|gullmë	
+16-230	joyful|glad|happy	adjective	gazmor|i gëzueshëm	
+16-250	laugh	verb	qesh	
+16-251	smile	verb	qesh	
+16-260	play	verb	luan|lodron	latin|
+16-270	love	verb	dashuroj	
+16-290	kiss	verb	puth	
+16-300	embrace	verb	qafos	
+16-310	pain	noun	dhembje	
+16-320	grief|sorrow|sadness	noun	gulç	
+16-330	anxiety|worry	noun	ankth	
+16-340	regret|be sorry	verb	pendohem	latin
+16-350	pity	noun	mëshirë|dhembshuri|gjynah	latin||turkish
+16-370	cry|weep	verb	qaj	
+16-380	tear	noun	lot	
+16-390	groan	verb	rënkoj|gjëmoj	|latin
+16-410	hate	verb	urrej	latin
+16-420	anger	noun	inat|zemëratë	turkish|
+16-440	envy|jealousy	noun	smirë|resë|nakar|maraz	|||turkish
+16-450	shame	noun	turp|kori	latin|
+16-480	proud	adjective	krenar	
+16-510	dare	verb	guxoj|kuturis	latin|
+16-520	brave	adjective	trim	
+16-530	fear|fright	noun	frikë|tmerr|tutë	ancient greek||
+16-540	danger	noun	rrezik	
+16-620	desire|want	verb	dëshiroj	latin
+16-622	choose	verb	zgjedh	
+16-630	hope	noun	shpresë	latin
+16-650	faithful	adjective	besnik	
+16-660	TRUE	adjective	vërtet	
+16-670	lie|tell lies	verb	gënjej|shpif|sendërgjon	latin||
+16-680	deceit	noun	dredhi|mashtrim	
+16-690	forgive	verb	fal	
+16-710	good	adjective	i mirë	
+16-720	bad	adjective	i keq|i lig	
+16-730	correct|right	adjective	drejt	latin
+16-740	wrong	adjective	ters|keq	turkish|
+16-760	fault	noun	faj	latin
+16-770	mistake|error	noun	gabim|lajthim	
+16-780	blame	noun	faj	latin
+16-790	praise	verb	lavdi|lëvdatë	
+16-810	beautiful	adjective	i bukur	
+16-820	ugly	adjective	i shëmtuar	
+16-830	greedy	adjective	lemarak|fytës|grykës	
+16-840	clever	adjective	i shkathët|i zgjuar	
+17-110	mind	noun	mendje	
+17-130	think|reflect	verb	mendoj	
+17-140	think	verb	mendoj|pandeh	
+17-150	believe	verb	besoj	
+17-160	understand	verb	kuptoj	latin
+17-170	know	verb	di	
+17-171	guess	verb	ha mend	
+17-172	imitate	verb	çinon|shkërbon	
+17-180	seem	verb	duket	
+17-190	idea|notion	noun	shllim|ide	
+17-210	wise	adjective	i mençur	
+17-220	foolish|stupid	adjective	kokëthatë|mendjelehtë	
+17-230	insane|crazy	adjective	i çmendur|budalla	|turkish
+17-240	learn	verb	mësoj|nxë|arsehet	latin||
+17-242	study	verb	studion	
+17-250	teach	verb	mësoj	latin
+17-260	pupil	noun	nxënës|shkollar	
+17-270	teacher	noun	mësues|dhaskal	latin|greek
+17-280	school	noun	shkollë	latin
+17-310	remember	verb	kujtoj|mban mend	latin|
+17-320	forget	verb	harron	
+17-340	clear|plain	adjective	i qartë|i thjeshtë	italian|
+17-350	obscure	adjective	i errët|i turbullt	
+17-360	secret	adjective	fshehtësi|sekret	
+17-370	sure|certain	adjective	i sigurt	
+17-380	explain	verb	shpjegoj|shtjellon	latin|
+17-410	intention|purpose	noun	qëllim|synim	
+17-420	cause	verb	shkaktoj|bëj	
+17-430	doubt	verb	djshim|shil	
+17-440	suspect	verb	dyshoj|pandeh	
+17-441	betray	verb	tradhtoj	latin
+17-450	need|necessity	noun	nevojë	slavic
+17-460	easy	adjective	i lehtë|kollaj	|turkish
+17-470	difficult	adjective	zor|vështirë	turkish|
+17-480	try|attempt	verb	provoj|tentoj	italian|italian
+17-490	way|manner	noun	mënyrë	latin
+17-510	and	conjunction	e|dhe|edhe	
+17-520	because	conjunction	sepse	
+17-530	if	conjunction	po|në	
+17-540	or	conjunction	o|ose|a	italian||
+17-550	yes|affirmative	particle	po	
+17-560	no|negative	particle	jo	
+17-610	how	adverb	si	
+17-620	how many	adjective	sa	
+17-630	how much	adjective	sa	
+17-640	what	noun	çfarë|çʼ	
+17-650	when	adverb	kur	
+17-660	where	adverb	ku	
+17-670	which	adjective	cili	
+17-680	who	noun	kush|cili	
+17-690	why	adverb	pse	
+18-110	voice	noun	zë	
+18-120	sing	verb	këndoj	latin
+18-130	shout|cry out	verb	bërtet|gërthet|këlthet|klith	
+18-150	whisper	verb	çuçurit|shkill|pishllon|pëshpërit	
+18-160	mumble	verb	bllamurit	
+18-170	whistle	verb	fishkëllej|vërshëllen	latin|
+18-180	shriek|screech	verb	piskat|shqiret|gërthet	
+18-190	howl	verb	ulërij	
+18-210	speak|talk	verb	flet|fjalos	
+18-211	stutter|stammer	verb	bëllbet	
+18-220	say	verb	thot|flet	
+18-221	tell story	verb	rrëfej|tregoj	
+18-222	speech	verb	ligjëroj	latin
+18-230	silent	adjective	hesht|shuj	
+18-240	language	noun	gjuhë	
+18-260	word	noun	fjalë	
+18-280	name	noun	emër	
+18-310	ask question|inquire	verb	pyes	
+18-320	answer	verb	përgjigjem|gjegj	
+18-330	admit|confess	verb	fajësohem|pranoj	
+18-340	deny	verb	mohoj	
+18-350	ask|request	verb	kërkon	
+18-360	promise	verb	premtoj	italian
+18-370	refuse	verb	kundërshtoj|mohoj	
+18-380	forbid	verb	ndaloj	
+18-390	rebuke|scold	verb	qortoj	latin
+18-410	call|summon	verb	thërret	
+18-420	call by name	verb	quhem|quaj	
+18-430	announce	verb	njoftoj	
+18-440	threaten	verb	kanos|gërmoj|kërcënoj	
+18-450	boast	verb	mburrem|krenohem|kapardisem	||turkish
+18-510	write	verb	shkruaj	
+18-520	read	verb	lexon|këndoj	|latin
+18-560	paper	noun	letër	italian
+18-570	pen	noun	penë|stilograf	italian|french
+18-610	book	noun	libër	latin
+18-670	poet	noun	vjershëtar	
+18-710	flute	noun	fjell|flauto	|italian
+18-720	drum	noun	tambur|lodër|daulle	turkish||turkish
+18-730	horn|trumpet	noun	bori|trumbetë|korno	turkish||italian
+18-740	rattle	noun	rrake	
+19-110	country	noun	vend	
+19-120	one's native country	noun	atdhe	
+19-150	city|town	noun	qytet	latin
+19-160	village	noun	fshat|katund	|byzantine greek
+19-170	boundary	noun	kufi	latin
+19-210	people|populace	noun	popull|njerëzi	latin|
+19-230	tribe|clan	noun	fis	ancient greek
+19-240	chief|chieftain	noun	krye|shef|bajraktar	|french|turkish
+19-250	staff|walking stick	noun	shtagë|mastap|bastun|shkop	||turkish|
+19-310	rule|govern	verb	qeveris	greek
+19-320	king|ruler	noun	mbret	latin
+19-330	queen	noun	mbretëreshë	latin
+19-360	noble|nobleman	noun	fisnik|bujar	ancient greek|slavic
+19-370	citizen|subject	noun	shtetas|nënshtetas	latin|
+19-410	master	noun	zot	
+19-420	slave	noun	skllav|rob	latin|slavic
+19-430	servant	noun	shërbëtor	
+19-440	freeman	noun		
+19-450	command|order	verb	urdhëroj	
+19-460	obey	verb	bindet|gjegj	
+19-470	let|permit	verb	lejon	
+19-510	friend|companion	noun	mik|shok	latin|latin
+19-520	enemy	noun	armik|anmik	latin|
+19-540	neighbor	noun	fqi	
+19-550	stranger	noun	huaji|jabanxhi	|turkish
+19-560	guest	noun	mysafir	turkish
+19-570	host	noun	bujtar	
+19-580	help|aid	verb	ndihmoj	
+19-590	hinder|prevent	verb	pengoj	latin
+19-610	custom	noun	zakon|adet|zanat	slavic|turkish|turkish
+19-620	strife|quarrel	noun	zënie|rragatë	
+19-630	conspiracy|plot	noun	komplot	french
+19-650	meet	verb	takoj	latin
+19-720	prostitute	noun	kurvë|bushtër|rruspi	slavic||turkish
+2-100	person|human being	noun	njeri	
+2-210	man	noun	burrë	
+2-220	woman	noun	grua	
+2-230	male	noun	mashkull	latin
+2-240	female	noun	femër	latin
+2-250	boy	noun	djalë|bir|çun	
+2-251	young man	noun	djalë	
+2-260	girl	noun	vajzë	
+2-261	young woman	noun	nuse	
+2-270	child	noun	fëmijë	latin
+2-280	infant|baby	noun	foshnjë	latin
+2-310	husband	noun	burrë	
+2-320	wife	noun	grua	
+2-330	marry	verb	martoj	latin
+2-340	marriage|wedding	noun	martesë|dasmë	latin|
+2-341	divorce	noun	shkurorëzon	
+2-350	father	noun	baba|at	turkish|
+2-360	mother	noun	nënë	
+2-370	parents	noun	prindër	
+2-380	married man	noun		
+2-390	married woman	noun		
+2-410	son	noun	bir|djalë	
+2-420	daughter	noun	bijë	
+2-430	offspring	noun		
+2-440	brother	noun	vëlla	
+2-444	older brother	noun	apë|lalë	
+2-445	younger brother	noun		
+2-450	sister	noun	motër	
+2-454	older sister	noun		
+2-455	younger sister	noun	loçe	
+2-456	sibling	noun		
+2-458	twins	noun	binjakë	
+2-460	grandfather	noun	gjysh	
+2-461	old man	noun	plak	
+2-470	grandmother	noun	gjyshe	
+2-471	old woman	noun	plakë	
+2-480	grandson	noun	nip	
+2-490	granddaughter	noun	mbesë	
+2-510	uncle	noun	xhaxha|dajë	|turkish
+2-511	mother's brother	noun	dajë	turkish
+2-512	father's brother	noun	xhaxha	
+2-520	aunt	noun	teze|hallë	turkish|turkish
+2-521	mother's sister	noun	teze	turkish
+2-522	father's sister	noun	hallë	turkish
+2-530	nephew	noun	nip	
+2-540	niece	noun	mbesë	
+2-550	cousin	noun	kushëri	latin
+2-560	ancestors	noun	përënikë|gjyshër	
+2-570	descendants	noun	trëshëgimtërë|pasardhës	
+2-610	father-in-law	noun	vjehërr	
+2-611	father-in-law	noun		
+2-620	mother-in-law	noun	vjehërr	
+2-621	mother-in-law	noun		
+2-630	son-in-law	noun	dhëndër	
+2-631	son-in-law	noun		
+2-640	daughter-in-law	noun	nuse	
+2-641	daughter-in-law	noun		
+2-710	stepfather	noun	njerk|qafllor|vitërk	||latin
+2-720	stepmother	noun	njerkë|vitërkeshë	latin|
+2-730	stepson	noun	thjeshtër|postërk|bir i gjetur|djëlë i gjetur	latin|||
+2-740	stepdaughter	noun	bijë e gjetur|vajzë e gjetur	
+2-750	orphan	noun	bonjak|bonjar|jetim	||turkish
+2-760	widow	noun	ve	
+2-770	widower	noun	vejan|ve	
+2-810	relatives|kinsmen	noun	njerëzi	
+2-820	family	noun	familje	latin
+2-910	I	noun	unë	
+2-920	you	noun	ti	
+2-930	he|she|it	noun	ai	
+2-940	we	noun	ne	
+2-941	we	noun		
+2-942	we	noun		
+2-950	you all	noun	ju	
+2-960	they	noun	ata|ato	
+20-110	fight	verb	luftoj|zi|rri	latin||
+20-130	war|battle	noun	luftë	latin
+20-140	peace	noun	paqe	latin
+20-150	army	noun	ushtri	
+20-170	soldier	noun	ushtar	
+20-210	weapons|arms	noun	armë	latin
+20-220	club	noun	gëzhdap|stap|kërbaç	||turkish
+20-222	battle-ax	noun	satër|sëpatë	turkish|slavic
+20-230	sling	noun	hobe|tizgë	
+20-240	bow	noun	hark	
+20-250	arrow	noun	shigjetë	latin
+20-260	spear	noun	shtizë|heshtë	
+20-270	sword	noun	shpatë|kordhë	latin|slavic
+20-280	gun|cannon	noun	top	turkish
+20-310	armor	noun	blindë|armor	
+20-330	helmet	noun	kaskë	italian
+20-340	shield	noun	shqyt|mburojë|kallkan	latin||turkish
+20-350	fortress	noun	kala|fortesë|kështjellë	turkish||latin
+20-360	tower	noun	kullë	turkish
+20-410	victory	noun	fitore	latin
+20-420	defeat	noun	mundje|humbje|shpartallim	
+20-430	attack	verb	sulmoj|turrem	
+20-440	defend	verb	mbroj	
+20-450	retreat	verb	tërhiqet	
+20-460	surrender	verb	dorëzohem	
+20-470	captive|prisoner	noun	rob|haps	slavic|turkish
+20-471	guard|sentinel	noun	përgjues|karakoll	|turkish
+20-480	booty|spoils	noun	projë	
+20-490	ambush	verb	kurth|pritë|pusi	
+20-510	fisherman	noun	peshkatar	
+20-520	fishhook	noun	grep|angjistër	
+20-530	fishing line	noun	tojë	
+20-540	fishnet	noun	avarde|mrezhë|vallkua|kariq	|slavic|slavic|
+20-550	fish trap	noun	dajlan|sfrat|ushezë	
+20-560	bait	noun	kojë|karrem	
+20-610	hunt	verb	gjuaj	
+20-620	shoot	verb	qit|shkrep|shtie	
+20-630	miss target	verb	humb shenjë	
+20-640	trap	noun	grackë|kurth|krefëz	
+20-650	trap	verb	kurthon|kllapos	
+21-110	law	noun	ligj	latin
+21-150	court	noun	gjykatë|gjyq	latin|latin
+21-160	judge	verb	gjykon	
+21-170	judgment	noun	gjykim	
+21-180	judge	noun	gjykatës|gjykues	latin|
+21-210	plaintiff	noun	paditës|ankues	
+21-220	defendant	noun	i padituri|i akuzuari	
+21-230	witness	noun	dëshmitar|shahit	|turkish
+21-240	swear	verb	betohem|përgjëroj	|latin
+21-250	oath	noun	be|betim|besë	
+21-310	accuse	verb	padit|akuzon	slavic|italian
+21-320	condemn	verb	dënon	
+21-330	convict	verb	dënon	
+21-340	acquit	verb	shfajëson	
+21-350	guilty	adjective	i fajshëm	
+21-360	innocent	adjective	i pafajshëm	
+21-370	penalty|punishment	noun	ndëshkim	
+21-380	fine	noun	gjobë|xherime	slavic|turkish
+21-390	prison|jail	noun	burg	latin
+21-420	murder	verb		
+21-430	adultery	noun		
+21-440	rape	noun	dhunim	
+21-460	arson	noun	zjarrvënie	
+21-470	perjury	noun		
+21-510	steal	verb	vjedh	
+21-520	thief	noun	kusar|vjedhës|lanok|zhvatarak	
+22-110	religion	noun	fe	latin
+22-120	God	noun	perëndi|zot	
+22-130	temple|church	noun	faltore|kishë|tempull	|latin|latin
+22-140	altar	noun	altar	
+22-150	sacrifice|offering	noun	fli|theror	
+22-160	worship	verb	adhuroj	latin
+22-170	pray	verb	fal|fal|lutem	
+22-180	priest	noun	prift	latin
+22-190	holy|sacred	adjective	i shenjtë	latin
+22-220	preach	verb	predikon	
+22-230	bless	verb	bekoj|uraton	latin|
+22-240	curse	verb	mallkoj|katron	latin|
+22-260	fast	verb	agjëroj|kreshmon	
+22-310	heaven	noun	parajsë|xhenet	latin|turkish
+22-320	hell	noun	xhenem	arabic
+22-350	demon|evil spirit	noun	dreq|lanet	latin|turkish
+22-370	idol	noun	idhull	latin
+22-420	magic|witchcraft|sorcery	noun	yshtari|sihir|shtrigëri|magjistari	|turkish||
+22-430	sorcerer|witch	noun	magjistar|yshtës	
+22-440	fairy|elf	noun	orë|shtojzovalle	latin|
+22-450	ghost|phantom	noun	lugat|qipull|kukuvriq	latin||
+22-470	omen|portent	noun	ogur|vëng	turkish|
+3-110	animal	noun	kafshë|bishë	dalmatian|latin
+3-120	male	adjective	mashkull	latin
+3-130	female	adjective	femër	latin
+3-150	livestock	noun	bagëti|blegtori	slavic|
+3-160	pasture	noun	kullotë|mera	|turkish
+3-180	herdsman	noun	bari	
+3-190	stable|stall	noun	grazhd|hajat	slavic|turkish
+3-200	cattle	noun	gjedh|bagëti e trashë	|slavic
+3-210	bull	noun	meshk|terak	
+3-220	ox	noun	ka	
+3-230	cow	noun	lopë	
+3-240	calf	noun	viç	
+3-250	sheep	noun	dele|dhen	
+3-260	ram	noun	dash	
+3-280	ewe	noun	dele	
+3-290	lamb	noun	qengj	latin
+3-320	boar	noun	thi	
+3-340	sow	noun	dosë|thineshë	
+3-350	pig	noun	derr	
+3-360	goat	noun	dhi	
+3-370	he-goat	noun	cjap	
+3-380	kid	noun	kec	turkish
+3-410	horse	noun	kalë	
+3-420	stallion	noun	hamshor|at	latin|turkish
+3-440	mare	noun	pelë	
+3-450	foal|colt	noun	mëz	
+3-460	ass|donkey	noun	gomar|magar	greek|
+3-470	mule	noun	mushk	
+3-500	fowl	noun	shpend	
+3-520	cock|rooster	noun	gjel	
+3-540	hen	noun	pulë	latin
+3-550	chicken	noun	pulë|kllukë	latin|
+3-560	goose	noun	patë	
+3-570	duck	noun	rosë	
+3-580	nest	noun	çerdhe	
+3-581	bird	noun	zog	
+3-582	seagull	noun	peshkar|skllop|pulbardha	
+3-583	heron	noun	çafkë|gatë	
+3-584	eagle	noun	shqipe|shkabë|shqiponjë	
+3-585	hawk	noun	shahin|gjirak	turkish|
+3-586	vulture	noun	hutërrojë|grifë	
+3-591	bat	noun	lakuriq|gollomesh|fletrac	
+3-592	parrot	noun	papagall	italian
+3-593	crow	noun	sorrë|gallof	
+3-594	dove	noun	kumri|pëllumb|vidë	turkish|latin|
+3-596	owl	noun	buf|hutë|qokth	latin|ancient greek|
+3-610	dog	noun	qen	latin
+3-614	rabbit	noun	lepur	latin
+3-620	cat	noun	mace	slavic
+3-622	opossum	noun		
+3-630	mouse|rat	noun	mi	
+3-650	fish	noun	peshk	latin
+3-652	fin	noun	pendë	latin
+3-653	fishscale	noun	lëvore|kreshkë|lëpiskë|griskë	
+3-654	gill	noun	velëz	
+3-655	shell	noun	guaskë	
+3-661	shark	noun	peshkaqen|skadhinë|yllzak	latin||
+3-662	porpoise|dolphin	noun	delfin	
+3-663	whale	noun	balenë	italian
+3-664	stingray	noun	bishtmi|bishtanjake	
+3-665	freshwater eel	noun	ngjalë	
+3-710	wolf	noun	ujk|ulk	
+3-720	lion	noun	luan	latin
+3-730	bear	noun	ari	
+3-740	fox	noun	dhelpër	
+3-750	deer	noun	dre	
+3-760	monkey	noun	majmun	turkish
+3-770	elephant	noun	elefant	
+3-780	camel	noun	deve|gamille	turkish|
+3-810	insect	noun	kandërr|insekt	ancient greek|
+3-811	louse	noun	morr	
+3-812	nit	noun	ënjëz|argull	
+3-813	flea	noun	plesht	
+3-814	centipede	noun	laravidhe|miriapodë	
+3-815	scorpion	noun	akrep|sfurkth|përçollak|çatall|grepç|shkrap	turkish|||turkish||
+3-816	cockroach	noun	buburrec|abrash	
+3-817	ant	noun	milingonë|mizë dheu|mrragë	greek||
+3-818	spider	noun	merimangë	greek
+3-819	spider web	noun	cergë|makë|cerimangë|shtrap|pezhishkë|endëz|pajazhinë	turkish||||||
+3-820	bee	noun	bletë	
+3-821	beeswax	noun	dylë	
+3-822	beehive	noun	zgjua|korube|qengjë	latin||
+3-823	wasp	noun	grerëz|arëz	
+3-830	fly	noun	mizë	
+3-831	sandfly|midge|gnat	noun	pickatë	
+3-832	mosquito	noun	mushkonjë|pickatë	latin|
+3-840	worm	noun	krimb	
+3-850	snake	noun	gjarpër|bollë|suval|shigjetull	|||latin
+3-910	firefly	noun	xixëllojë	
+3-920	butterfly	noun	flutur	latin
+3-930	grasshopper	noun	karkëlec	
+3-940	snail	noun	kërmill|ligavec	
+3-950	frog	noun	bretkocë|bretk|zhabë	|latin|slavic
+3-960	lizard	noun	hardhje|zhapi|gushter	|slavic|
+3-970	crocodile|alligator	noun	krokodil	
+3-980	turtle	noun	breshkë	latin
+4-110	body	noun	trup|shtat	
+4-120	skin|hide	noun	lëkurë	
+4-130	flesh	noun	mish	
+4-140	hair	noun	flokë|lesh	
+4-142	beard	noun	mjekër	
+4-144	body hair	noun	lesh|qime	
+4-145	pubic hair	noun	lesh|pubis	
+4-146	dandruff	noun	zbokth|pah|pall|vrokth|rrjepë	
+4-150	blood	noun	gjak	
+4-151	vein|artery	noun	damar	turkish
+4-160	bone	noun	kockë	slavic
+4-162	rib	noun	brinjë	
+4-170	horn	noun	bri	
+4-180	tail	noun	bisht	
+4-190	back	noun	shpinë|kurriz	latin|
+4-191	spine	noun	poshti i kurriz	
+4-200	head	noun	kokë|krye	latin|
+4-201	side of head|temple	noun	tëmth|tëmblë	
+4-202	skull	noun	kafkë|rradake|sutak|porcek	byzantine greek|latin||
+4-203	brain	noun	tru	
+4-204	face	noun	fytyrë	
+4-205	forehead	noun	ballë	
+4-207	jaw	noun	nofull|çëul	latin|
+4-208	cheek	noun	faqe	
+4-209	chin	noun	mjekër	
+4-210	eye	noun	sy	
+4-212	eyebrow	noun	vetull	latin
+4-213	eyelid	noun	qepallë|ashkë	
+4-214	eyelash	noun	qerpik	turkish
+4-215	blink	verb		
+4-220	ear	noun	vesh	
+4-221	earlobe	noun	palëz|lëputë	
+4-222	earwax	noun	makrosë	
+4-230	nose	noun	hundë	
+4-231	nostril	noun	flegër|hojëz	
+4-232	mucus	noun	qurra	
+4-240	mouth	noun	gojë	
+4-241	beak	noun	sqep	
+4-250	lip	noun	buzë	
+4-260	tongue	noun	gjuhë	
+4-270	tooth	noun	dhëmb	
+4-271	gums	noun	trysa|mishi i dhëmbëve	
+4-272	molartooth	noun	dhëmballë	
+4-280	neck	noun	qafë	turkish
+4-281	nape of neck	noun	qëfë|zverk	
+4-290	throat	noun	fyt|grykë	
+4-300	shoulder	noun	sup	
+4-301	shoulderblade	noun	shpatull	latin
+4-302	collarbone	noun	krapje	
+4-310	arm	noun	krah	
+4-312	armpit	noun	sqetull	latin
+4-320	elbow	noun	bërryl	
+4-321	wrist	noun	byzylyk|kyç i dorës	turkish|
+4-330	hand	noun	dorë	
+4-331	palm of hand	noun	pëllëmbë|shpullë	
+4-340	finger	noun	gisht	
+4-342	thumb	noun	pulqer	latin
+4-344	fingernail	noun	thua	
+4-345	claw	noun	kthetër	
+4-350	leg	noun	këmbë	
+4-351	thigh	noun	shalë|vegë	
+4-352	calf of leg	noun	pulpë	latin
+4-360	knee	noun	gju	
+4-370	foot	noun	këmbë	
+4-371	ankle	noun	tërs|nen|byz lyk|kyç i këmbës	
+4-372	heel	noun	thembër	
+4-374	footprint	noun	torua	
+4-380	toe	noun	gisht i këmbës	
+4-392	wing	noun	krah	
+4-393	feather	noun	pendë	latin
+4-400	chest	noun	gjoks	turkish
+4-410	breast	noun	gji	
+4-412	nipple|teat	noun	mjelm|sisë|thimth|thith|thumb	|slavic|||
+4-420	udder	noun	zhengë|zhangël	
+4-430	navel	noun	kërthizë	
+4-440	heart	noun	zemër	
+4-441	lung	noun	mushkëri|shpirë	
+4-450	liver	noun	mëlçi	italian
+4-451	kidney	noun	veshkë|eshkë|bubrek	|latin|turkish
+4-452	spleen	noun	shpretkë	latin
+4-460	stomach	noun	bark|stomak|shqilë|cullë|mullë	||||byzantine greek
+4-461	guts|intestines	noun	zorrë	
+4-462	waist	noun	bel|brez	turkish|
+4-463	hip	noun	këlk	
+4-464	buttocks	noun	molaqe|të ndenjurat|bythë	
+4-470	womb	noun	an|mitër	|greek
+4-490	testicle	noun	koqe	
+4-492	penis	noun	kar	romani
+4-510	breathe|breath	verb	frymos	
+4-520	yawn|gape	verb	guhat|gogësij	
+4-521	hiccough	verb	lemzon	
+4-530	cough	verb	koll	turkish
+4-540	sneeze	verb	teshtij	
+4-550	perspire	verb	djersit	
+4-560	spit	verb	pështymë|jargë	
+4-570	vomit	verb	gukson|vjell	
+4-580	bite	verb	kafshoj	latin
+4-590	lick	verb	llap|lëpij	
+4-591	dribble	verb	jargos	
+4-610	sleep	verb	fle|gjumon	
+4-612	snore	verb	gërhet|gërhin	
+4-620	dream	verb	ëndërroj	
+4-630	wake up	verb	zguan	
+4-640	break wind	verb	pjerdh	
+4-650	urinate	verb	pshurr	
+4-660	defecate	verb	dhjes	
+4-670	have sexual intercourse	verb	qij|qep	
+4-680	shiver	verb	fërgëlloj|rrëqethet|dridhem	latin||
+4-690	bathe	verb	lahem|laj|banjëzon	
+4-710	beget	verb	bijon	
+4-720	born	verb	lind|lind	
+4-730	pregnant	adjective	shtatzënë|mbarsë	
+4-732	conceive	verb	mbars	
+4-740	live	verb	i gjallë|jetoj|jetë	
+4-750	die	verb	vdes|vdekje|i vdekur	
+4-751	drowned	adjective	mbytur	
+4-760	kill	verb	vret	
+4-770	corpse	noun	kufomë|lipsan|meit	ancient greek|byzantine greek|turkish
+4-780	bury	verb	varros	
+4-790	grave|tomb	noun	varr|qivur	|greek
+4-810	strong|mighty|powerful	adjective	i fuqishëm|i fortë	|latin
+4-820	weak	adjective	i dobët	slavic
+4-830	well|health	adjective|noun	mirë me shëndet|shëndet	|latin
+4-840	sick|sickness	adjective|noun	i sëmurë|sëmundje	
+4-841	fever	noun	ethe	
+4-842	goiter	noun	strumë	
+4-843	cold	noun	e ftohtë|katarr	
+4-850	wound|sore	noun	plagë	latin
+4-852	bruise	noun	shembje	
+4-853	swelling	noun	bullungë|cakule|gufim|ënjtje|bymesë	
+4-854	itch	noun	kruarje	
+4-855	blister	noun	flluskë	
+4-856	boil	noun	çiban|rrëcok	turkish|
+4-857	pus	noun	ujth|ujerk	
+4-858	scar	noun	brengë|mbresë|vurratë|prekë|damkë|shenjë	|||||latin
+4-860	cure|heal	verb	shëroj|shëndosh	latin|
+4-870	physician	noun	mjek|doktor	latin|
+4-880	medicine|drug	noun	ilaç|bar	turkish|
+4-890	poison	noun	helm	
+4-910	tired|weary	adjective	i lodhur	
+4-912	rest	verb	pushoj|çlodhem	latin|
+4-920	lazy	adjective	përtac|dembel	|turkish
+4-930	bald	adjective	tullë|i shogët	greek|
+4-940	lame	adjective	i çalë	
+4-950	deaf	adjective	i shurdhët|shurdh	|latin
+4-960	mute	adjective	memec|i nemitur|vuv	slavic||
+4-970	blind	adjective	i verbër|qorr	latin|turkish
+4-980	intoxicated	adjective	i dehur	
+4-990	naked|bare	adjective	lakuriq	
+5-110	eat	verb	ha	
+5-120	food	noun	bukë|gjellë	
+5-121	cooked	adjective	i pjekur	
+5-122	raw	adjective	i papjekur	
+5-123	ripe	adjective	i pjekur	
+5-124	green|unripe	adjective	rrok|aguridh	
+5-125	rotten	adjective	i kalbur	
+5-130	drink	verb	pi	
+5-140	hunger	noun	uri	
+5-141	famine	noun	uri	
+5-150	thirst	noun	etje	
+5-160	suck	verb	thith	
+5-180	chew	verb	përtyp	
+5-181	swallow	verb	gëlltit|kapërdij|llap	slavic||
+5-190	choke	verb	mbyt	
+5-210	cook	verb	gatuaj	
+5-220	boil	verb	ziej|valon	
+5-230	roast|fry	verb	pjek|tiganis	|byzantine greek
+5-240	bake	verb	pjek|piq	
+5-250	oven	verb	furrë|tavë	latin|turkish
+5-260	pot|cooking vessel	noun	tenxhere|vegsh|enë	turkish||
+5-270	kettle	noun	xhygym|kusi	turkish|
+5-280	pan	noun	tigan	byzantine greek
+5-310	dish	noun	pjatë|limbë	italian|
+5-320	plate	noun		
+5-330	bowl	noun	tas|kupë|bludë	turkish|latin|
+5-340	pitcher|jug	noun	brokë|korrovesh|kënaçe	
+5-350	cup|drinking vessel	noun	kupë|gotë	latin|venetian
+5-360	saucer	noun	pjatëz	
+5-370	spoon	noun	lugë	
+5-380	knife	noun	thikë	
+5-390	fork	noun	pirun	greek
+5-391	tongs	noun	mashë|bigël|darë	turkish||
+5-410	meal	noun	gjellë	
+5-420	breakfast	noun	mëngjes	
+5-430	lunch	noun	drekë	
+5-440	dinner	noun	darkë|drekë|mësallë	
+5-450	supper	noun	darkë	
+5-460	peel	verb	rrjep|ceflis|zhvesh|lëvozhg	
+5-470	sieve|strain	noun	shoshare|sitë	
+5-480	scrape	verb	zgërbit|gërryej|trazoj	
+5-490	stir|mix	verb	përzien|karashtis	
+5-510	bread	noun	bukë	
+5-530	dough	noun	brumë	
+5-540	knead	verb	ngjesh|brumos	
+5-550	meal|flour	noun	miell	
+5-560	crush|grind	verb	bluaj	
+5-570	mill	noun	mulli	latin
+5-580	mortar	noun	dumb|havan|shtypëse	|turkish|
+5-590	pestle	noun	qysqi|dybek|shtypec|dygeç	|turkish||
+5-610	meat	noun	mish	
+5-630	sausage	noun	kolloface|suxhuk	|turkish
+5-640	soup|broth	noun	supë|çorbë	italian|turkish
+5-650	vegetables	noun	lakra|zarzavate	|turkish
+5-660	bean	noun	bathë|fasule|groshë	|greek|slavic
+5-700	potato	noun	patate|kartollë	italian|
+5-710	fruit	noun	fryt|pemë	latin|latin
+5-712	bunch	noun	tufë|vile|verigë	latin||slavic
+5-750	fig	noun	fik	latin
+5-760	grape	noun	rrush	
+5-770	nut	noun		
+5-780	olive	noun	ulli	latin
+5-790	oil	noun	vaj	
+5-791	fat|grease	noun	yndyrë|lyrë	latin|
+5-810	salt	noun	kripë	
+5-820	pepper	noun	piper	
+5-821	chili pepper	noun	kokoshare|spec	|italian
+5-840	honey	noun	mjaltë	
+5-850	sugar	noun	sheqer	turkish
+5-860	milk	noun	qumësht	latin
+5-870	milk	noun	mjel	
+5-880	cheese	noun	djath	
+5-890	butter	noun	gjalpë	
+5-900	beverage|drink	noun	pije	
+5-910	mead	noun		
+5-920	wine	noun	verë	
+5-930	beer	noun	birrë	italian
+5-940	fermented drink	noun		
+5-970	egg	noun	vezë	
+5-971	egg yolk	noun	boçe	
+6-110	put on clothes	noun	vis	
+6-120	clothing|clothes	noun	rroba|tesha	
+6-130	tailor	noun	rrobakepës|prestar|terzi	||turkish
+6-210	cloth	noun	plaçkë|stof	slavic|
+6-220	wool	noun	lesh|stof	|german
+6-230	linen|flax	noun	lino|li	
+6-240	cotton	noun	pambuk	turkish
+6-250	silk	noun	mëndafsh	latin
+6-270	felt	noun	tirk|dërstilë	
+6-280	fur	noun	gëzof	ancient greek
+6-290	leather	noun	lëkurë	
+6-310	spin	verb	tjerr|penjëzon	
+6-320	spindle	noun	kallam|bosht	greek|
+6-330	weave	verb	end|vegjon	
+6-340	loom	noun	vegjë|tezgjah|vegël	|turkish|
+6-350	sew	verb	qep	
+6-360	needle	noun	gjilpërë	
+6-370	awl	noun	biz|feme|cimbil	
+6-380	thread	noun	fill	latin
+6-390	dye	noun	bojë	turkish
+6-410	cloak	noun	gunë	slavic
+6-411	poncho	noun		
+6-420	woman's dress	noun	fustan|kotull	byzantine greek|
+6-430	coat	noun	sako|pallto	|italian
+6-440	shirt	noun	këmishë|mitan	latin|
+6-450	collar	noun	jakë	turkish
+6-460	skirt	noun	fund|fustan|fustë|hëvër	latin|byzantine greek|greek|
+6-461	grass-skirt	noun		
+6-480	trousers	noun	pantallona	italian
+6-490	stocking|sock	noun	çorap	turkish
+6-510	shoe	noun	këpucë	
+6-520	boot	noun	këpucë me qafa|shoshone|çizme	||turkish
+6-540	shoemaker|cobbler	noun	këpucar	
+6-550	hat|cap	noun	kapelë	latin
+6-570	belt|girdle	noun	brez|rrip	
+6-580	glove	noun	dorezë	
+6-590	veil	noun	vel|tis|harkat	latin||
+6-610	pocket	noun	xhep	turkish
+6-620	button	noun	kopsë|paftë|pulë|komçë	||latin|
+6-630	pin	noun	gjilpërë	
+6-710	ornament|adornment	noun	stoli|zbukurim	
+6-720	jewel	noun	xhevahir	turkish
+6-730	ring	noun	unazë	
+6-740	bracelet	noun	bylyzyk|belexhik	turkish|
+6-750	necklace	noun	gjerdan|gushore|qafore	turkish||
+6-760	bead	noun	rruazë	
+6-770	earring	noun	vath	
+6-780	headband|headdress	noun	kezë	
+6-790	tattoo	noun	tatuazh	french
+6-810	handkerchief|rag	noun	shami	turkish
+6-820	towel	noun	peshqir|pashnik|havlli	turkish||turkish
+6-910	comb	noun	krehër	
+6-920	brush	noun	furçë	turkish
+6-921	braid	verb	gërshet	
+6-930	razor	noun	brisk	
+6-940	ointment	noun	pomadë	french
+6-950	soap	noun	sapun	turkish
+6-960	mirror	noun	pasqyr	
+7-110	dwell|live	verb	banoj	
+7-120	house	noun	shtëpi|shpi	latin|
+7-130	hut	noun	kolibe|kasolle	slavic|italian
+7-131	garden-house	noun		
+7-140	tent	noun	çadër	turkish
+7-150	yard|court	noun	oborr	slavic
+7-160	men's house	noun		
+7-170	cookhouse	noun		
+7-180	meeting house	noun		
+7-210	room	noun	dhomë|odë	|turkish
+7-220	door|gate	noun	derë|portë	|latin
+7-221	doorpost|jamb	noun	shtalkë|direk	|turkish
+7-230	lock	noun	bravë	slavic
+7-231	latch|door-bolt	noun	gëthep|shul	
+7-240	key	noun	kyç|çelës	
+7-250	window	noun	dritare|penxhere	|turkish
+7-260	floor	noun	dysheme	turkish
+7-270	wall	noun	mur	latin
+7-310	fireplace	noun	vatër	
+7-320	stove	noun	sobë|stufë	hungarian|italian
+7-330	chimney	noun	oxhak	turkish
+7-370	ladder	noun	shkallë	
+7-420	bed	noun	krevat|shtrat	greek|latin
+7-421	pillow	noun	jastëk	turkish
+7-422	blanket	noun	batanije|mbulojë	turkish|
+7-430	chair	noun	karrige	venetian
+7-440	table	noun	tryezë|trapezë|tavolinë	byzantine greek||italian
+7-450	lamp|torch	noun	llambë|flug	
+7-460	candle	noun	qiri|çirak	|turkish
+7-470	shelf	noun	raft|shtreth|sergjen	turkish||
+7-480	trough	noun	govatë|lug	
+7-510	roof	noun	çati	turkish
+7-520	thatch	noun	kashtë	
+7-530	ridgepole	noun	kulmar	
+7-540	rafter	noun	kungar|binar|agror	
+7-550	beam	noun	tra	latin
+7-560	post|pole	noun	hu	
+7-570	board	noun	dërrasë	
+7-580	arch	noun	hark|qemer	|turkish
+7-610	mason	noun	dibran|ustë	
+7-620	brick	noun	tullë	greek
+7-630	mortar	noun	llaç|lloç	
+7-640	adobe	noun	qerpiç|plithar	turkish|slavic
+8-110	farmer	noun	bujk	
+8-120	field	noun	arë	
+8-130	garden	noun	bashtinë|kopsht|bahçe	slavic||
+8-150	cultivate|till	verb	lëvron|lëroj	|latin
+8-160	fence	noun	gardh	
+8-170	ditch	noun	hendek|kapt	turkish|
+8-210	plow	verb	punoj|lëroj	|latin
+8-212	furrow	noun	brazdë|trap|hulli	
+8-220	dig	verb	gërmih|gërmoj	
+8-230	spade	noun	bel|lopatë	turkish|slavic
+8-240	shovel	noun	lopatë|qyrek	slavic|turkish
+8-250	hoe	noun	shat|kep	
+8-260	fork	noun	sfurk|tërfurk	|latin
+8-270	rake	noun	grabujë|branë|rashqel	
+8-310	sow	verb	mbjell	
+8-311	seed	noun	farë	
+8-320	mow|reap	verb	korr|kosit	
+8-330	sickle|scythe	noun	drapër|kosë|harkore	ancient greek||
+8-340	thresh	verb	shin	
+8-350	threshing-floor	noun	lëmë	
+8-410	crop|harvest	noun	bereqet|bimë	turkish|
+8-420	grain	noun	drithë	
+8-430	wheat	noun	grurë	
+8-440	barley	noun	elb	
+8-450	rye	noun	thekër	
+8-460	oats	noun	tërshërë	latin
+8-470	maize|corn	noun	misër	turkish
+8-480	rice	noun	oriz	ancient greek
+8-510	grass	noun	bar	
+8-520	hay	noun	sanë	slavic
+8-530	plant	noun	bimë	
+8-531	plant	verb	mbjell	
+8-540	root	noun	rrënjë	
+8-550	branch	noun	degë	
+8-560	leaf	noun	fletë|gjeth	
+8-570	flower	noun	lule	
+8-600	tree	noun	pemë|dru	latin|
+8-610	oak	noun	dushk|lis	
+8-620	beech	noun	ah	
+8-630	birch	noun	mështekën	
+8-640	pine	noun	pishë	
+8-650	fir	noun	bredh	
+8-660	acorn	noun	ehull|lende	
+8-670	vine	noun	gjashore|dredhe|loze|dhri	
+8-680	tobacco	noun	duhan	turkish
+8-690	smoke	verb	pi duhan	
+8-691	pipe	noun	fyt	
+8-720	tree stump	noun	kërcu|cung	
+8-730	tree trunk	noun	trung|kurm|qytyk	latin||
+8-740	forked branch	noun	çatallë|gathep|binjore	
+8-750	bark	noun	zharg|kore|bllore|cire	
+8-760	sap	noun	limfë|ujth	
+8-810	palm tree	noun	hurmë|finik|palmë	turkish|greek|
+8-820	coconut	noun	kokos	
+8-830	citrus fruit	noun	agrume	italian
+8-840	banana tree	noun	bananë	
+8-850	banyan	noun		
+8-910	sweet potato	noun	patate e ëmbël|batate	
+8-912	yam	noun		
+8-920	tapioca|manioc|cassava	noun		
+8-930	gourd	noun	susak|kungull	
+8-931	pumpkin|squash	noun	kungull	
+8-940	bamboo	noun	bambu	english
+8-941	sugar cane	noun	kallamsheqer	
+8-960	fish poison	noun		
+8-970	nettle	noun	hithër	
+8-980	mushroom	noun	kërpudhë	
+9-110	do|make	verb	bëj	
+9-120	work	verb	punoj	
+9-140	bend	verb	ep|lakoj	
+9-150	fold	verb	thyej|palos	
+9-160	tie|bind	verb	lidh	
+9-161	untie	verb	zgjidh|çlidh	
+9-180	chain	noun	varg|vëng|zinxhir	||turkish
+9-190	rope|cord	noun	litar|konop	greek|
+9-192	knot	noun	nyjë|xhungë|kotkë	latin||
+9-210	hit|strike|beat	verb	rreh|godet	
+9-211	pound with fist	verb		
+9-220	cut	verb	pret	
+9-221	cut down	verb	rrëzoj	
+9-222	chop|hew	verb		
+9-223	stab	verb	ther	
+9-230	knife	noun	thikë	
+9-240	scissors|shears	noun	gërsherë	
+9-250	ax	noun	sëpatë	slavic
+9-251	adze	noun	thadër|sqepër|teskë	
+9-260	break	verb	prish	
+9-261	broken	adjective	i prishur	
+9-270	split	verb	ça	
+9-280	tear	verb	shqyej|çjerr|shqerr	
+9-290	flay|skin	verb	zhvesh	
+9-310	rub|wipe	verb	fërkoj	latin
+9-320	stretch	verb	tendos|ngreh|ndej	
+9-330	pull	verb	heq	
+9-340	spread out	verb	ndej|shtrij|çakërrit	
+9-341	hang up	verb	var|lëvarr	
+9-342	press	verb	shkel	
+9-343	squeeze|wring	verb	shtrydh|shtrëngoj|ndryp|ngjesh	|latin||
+9-350	pour	verb	derdh	
+9-360	wash	verb	laj	
+9-370	sweep	verb	fshij	
+9-380	broom	noun	fshesë	
+9-422	tool	noun	vegël	
+9-430	carpenter	noun	marangoz|zdrukthëtar	turkish|
+9-440	build	verb	ndërton|godit	
+9-460	bore	verb	biron|brimon|shpoj	
+9-461	hollow out	verb	zgavron|zgorkon|lugon	
+9-480	saw	noun	sharë	
+9-490	hammer	noun	çekiç|çekan	turkish|slavic
+9-500	nail	noun	gozhdë	slavic
+9-560	glue	noun	qiriç|ngjitëse	
+9-600	smith|blacksmith	noun	farkëtar|kovaç	latin|slavic
+9-610	forge	noun	farkë	latin
+9-620	anvil	noun	kudhër|kudh	latin|latin
+9-630	cast [metals]	verb	derdh	
+9-640	gold	noun	ar	latin
+9-650	silver	noun	argjend|serm	latin|
+9-660	copper|bronze	noun	bakër|bronz	
+9-670	iron	noun	hekur	
+9-680	lead	noun	plumb	latin
+9-690	tin|tinplate	noun	kallaj|teneqe	turkish|turkish
+9-710	potter	noun	vegçar|poçar|shtambar|vorbar	
+9-720	mold	verb		
+9-730	clay	noun	glinë|kaishtë|deltinë|argjilë	|||greek
+9-740	glass	noun	qelq|xham	latin|turkish
+9-750	weave|plait	verb	përllidh|indon|end	
+9-760	basket	noun	shportë|kosh	latin|slavic
+9-770	mat	noun	rrogoz|hasër	|turkish
+9-771	rug	noun	sixhade	turkish
+9-780	netbag	noun		
+9-790	fan	noun	erashkë|erore	
+9-791	fan	verb	halladit|pahit	
+9-810	carve	verb	gdhend|skalit	
+9-820	sculptor	noun	gdhendës|skullptor|daltues	
+9-830	statue	noun	shtatore|statujë	|italian
+9-840	chisel	noun	daltë	
+9-880	paint	noun	bojë ngjyrë	turkish
+9-890	paint	verb	bojatis	
