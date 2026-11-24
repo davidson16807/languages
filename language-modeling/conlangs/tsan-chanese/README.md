@@ -103,7 +103,7 @@ Their language is descended from that of the thralls,
 but with many borrowings from the Deathless, again for semantic fields associated with military conquest:
 social strata, law, warfare, but also fashion, cuisine, literature, philosophy,
 and terminology for concepts that are specific to the game expansion, such as the Inderdiction or the Judgement.
-We will refer to this language as the "Serf" language.
+We will refer to this language as the "Serf" or "Vulgar" language.
 
 The resulting language is agglutinative with an SVO sentence structure.
 The most conserved words in the language are derived from Mandarin and retain tonality, 
@@ -125,7 +125,8 @@ undergoing many of the same sound laws that were experienced by underclass langu
 eventually becoming the court language spoken amongst servants of the Empress, the "Eunuchs".
 Unlike many court languages in history, the court language of the Tsan Chanese 
 uses vocabulary borrowed from radically different languages,
-and if not for some highly conserved words it would be considered a separate language family.
+and if not for some highly conserved words it would be mistaken for a separate language family.
+We will refer to this language as the "Court" language.
 
 # 4000-5000?
 Projects are undertaken to mix the blood lines of humans with cosmic entities, 
@@ -135,3 +136,4 @@ Neologisms are created to describe rediscovered concepts,
 and many of these words are derived from existing words within Court language. 
 Both court and vulgar languages now show signs of becoming inflectional,
 with standardized morpheme combinations that are on their way to becoming conjugation and declension systems.
+

@@ -20,6 +20,7 @@ from tools.terms import (
     card_formatting,
     tsv_parsing,
     noun_lemma_annotation, noun_lemma_population,
+    verb_lemma_annotation, verb_lemma_population,
     finite_annotation,
     pronoun_annotation, lexical_noun_annotation, possessive_pronoun_annotation, 
     conjugation_population, declension_population, 

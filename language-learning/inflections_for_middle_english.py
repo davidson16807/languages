@@ -22,6 +22,8 @@ from tools.terms import (
     finite_annotation,
     pronoun_annotation, lexical_noun_annotation, 
     conjugation_population, declension_population, 
+    noun_lemma_population, noun_lemma_annotation, 
+    verb_lemma_population, verb_lemma_annotation, 
     case_usage_annotation, mood_usage_annotation, aspect_usage_annotation,
     case_usage_population, mood_usage_population, aspect_usage_population,
     termaxis_to_terms,
