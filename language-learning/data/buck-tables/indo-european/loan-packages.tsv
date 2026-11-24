@@ -1,4 +1,4 @@
-Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymology	Albanian Etymology	Thai Etymology
+Id	English	Part	Loan Package	English Etymology	Vietnamese Etymology	Albanian Etymology	Thai Etymology
 1-100	world	noun	geography		chinese|chinese	||turkish|turkish	sanskrit
 1-210	earth|land	noun					middle chinese|
 1-212	ground|soil	noun		|french			
@@ -664,18 +664,18 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 20-170	soldier	noun	warfare	french			ahom
 20-210	weapons|arms	noun	warfare	|french	chinese	latin	pali
 20-220	club	noun	warfare	norse	chinese|	||turkish	old khmer
-20-222	battle-ax	noun	warfare			turkish|slavic	
+20-222	battle-ax	noun	warfare & metallurgy			turkish|slavic	
 20-230	sling	noun	warfare				
-20-240	bow	noun	warfare		chinese		
-20-250	arrow	noun	warfare		|chinese	latin	pali
+20-240	bow	noun	warfare & bow		chinese		
+20-250	arrow	noun	warfare & bow		|chinese	latin	pali
 20-260	spear	noun	warfare		|chinese		
-20-270	sword	noun	warfare		chinese|chinese	latin|slavic	
-20-280	gun|cannon	noun	warfare	|french	chinese|chinese	turkish	
-20-310	armor	noun	warfare	french	chinese|chinese		old khmer
-20-330	helmet	noun	warfare	french	chinese|	italian	old chinese
+20-270	sword	noun	warfare & metallurgy		chinese|chinese	latin|slavic	
+20-280	gun|cannon	noun	warfare & gun	|french	chinese|chinese	turkish	
+20-310	armor	noun	warfare & metallurgy	french	chinese|chinese		old khmer
+20-330	helmet	noun	warfare & metallurgy	french	chinese|	italian	old chinese
 20-340	shield	noun	warfare			latin||turkish	
-20-350	fortress	noun	warfare	french	chinese	turkish||latin	
-20-360	tower	noun	warfare	french	chinese	turkish	
+20-350	fortress	noun	warfare & masonry	french	chinese	turkish||latin	
+20-360	tower	noun	warfare & masonry	french	chinese	turkish	
 20-410	victory	noun	warfare	french	chinese|chinese	latin	
 20-420	defeat	noun	warfare	french	chinese|chinese		middle chinese
 20-430	attack	verb	warfare	french	chinese		old khmer
@@ -1214,7 +1214,7 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 8-640	pine	noun	pine	latin	chinese|chinese		
 8-650	fir	noun	fir	norse	chinese		
 8-660	acorn	noun	oak		chinese		pali
-8-670	vine	noun	vine	french			
+8-670	vine	noun		french			
 8-680	tobacco	noun	tobacco	spanish	chinese	turkish	
 8-690	smoke	verb	smoking				
 8-691	pipe	noun	smoking	latin			
@@ -1234,7 +1234,7 @@ Id	English	Part	Loan Package & Loan Package	English Etymology	Vietnamese Etymolo
 8-930	gourd	noun	gourd	french			
 8-931	pumpkin|squash	noun	gourd	french|narragansett			
 8-940	bamboo	noun	bamboo	dutch	|chinese||	english	
-8-941	sugar cane	noun	sugar cane	french			
+8-941	sugar cane	noun	sugar	french			
 8-960	fish poison	noun		french	chinese		
 8-970	nettle	noun	nettle		chinese		
 8-980	mushroom	noun		french			
