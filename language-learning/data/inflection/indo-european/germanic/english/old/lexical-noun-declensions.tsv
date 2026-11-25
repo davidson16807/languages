@@ -246,14 +246,6 @@ ball	nominative	þōþor	þōþoras
 ball	accusative	þōþor	þōþoras									
 ball	genitive	þōþores	þōþora									
 ball	dative	þōþore	þōþorum									
-ball	nominative	clīewen	clīewenu									
-ball	accusative	clīewen	clīewenu									
-ball	genitive	clīewenes	clīewena									
-ball	dative	clīewene	clīewenum									
-ball	nominative	þōþor	þōþoras									
-ball	accusative	þōþor	þōþoras									
-ball	genitive	þōþores	þōþora									
-ball	dative	þōþore	þōþorum									
 bridge	nominative	bryċġ	bryċġa, bryċġe									
 bridge	accusative	bryċġe	bryċġa, bryċġe									
 bridge	genitive	bryċġe	bryċġa									
@@ -282,26 +274,10 @@ chicken	nominative	ċicen	ċicenu
 chicken	accusative	ċicen	ċicenu									
 chicken	genitive	ċicenes	ċicena									
 chicken	dative	ċicene	ċicenum									
-chicken	nominative	ciċen	ciċena, ciċene									
-chicken	accusative	ciċene	ciċena, ciċene									
-chicken	genitive	ciċene	ciċena									
-chicken	dative	ciċene	ciċenum									
-dove	nominative	culfre	culfran									
-dove	accusative	culfran	culfran									
-dove	genitive	culfran	culfrena									
-dove	dative	culfran	culfrum									
-dove	nominative	*dūfe	*dūfan									
-dove	accusative	*dūfan	*dūfan									
-dove	genitive	*dūfan	*dūfena									
-dove	dative	*dūfan	*dūfum									
 pigeon	nominative	culfre	culfran									
 pigeon	accusative	culfran	culfran									
 pigeon	genitive	culfran	culfrena									
 pigeon	dative	culfran	culfrum									
-pigeon	nominative	*dūfe	*dūfan									
-pigeon	accusative	*dūfan	*dūfan									
-pigeon	genitive	*dūfan	*dūfena									
-pigeon	dative	*dūfan	*dūfum									
 crow	nominative	crāwe	crāwan									
 crow	accusative	crāwan	crāwan									
 crow	genitive	crāwan	crāwena									
@@ -314,26 +290,6 @@ child	nominative	ċild	ċildru
 child	accusative	ċild	ċildru									
 child	genitive	ċildes	ċildra									
 child	dative	ċilde	ċildrum									
-child	nominative	bearn	bearn									
-child	accusative	bearn	bearn									
-child	genitive	bearnes	bearna									
-child	dative	bearne	bearnum									
-child	nominative	bearn	bearn									
-child	accusative	bearn	bearn									
-child	genitive	bearnes	bearna									
-child	dative	bearne	bearnum									
-child	nominative	umbor	umbor									
-child	accusative	umbor	umbor									
-child	genitive	umbores	umbora									
-child	dative	umbore	umborum									
-child	nominative	ċild	ċildru									
-child	accusative	ċild	ċildru									
-child	genitive	ċildes	ċildra									
-child	dative	ċilde	ċildrum									
-egg	nominative	ǣġ	ǣġru									
-egg	accusative	ǣġ	ǣġru									
-egg	genitive	ǣġes	ǣġra									
-egg	dative	ǣġe	ǣġrum									
 egg	nominative	ǣġ	ǣġru									
 egg	accusative	ǣġ	ǣġru									
 egg	genitive	ǣġes	ǣġra									
@@ -341,10 +297,6 @@ egg	dative	ǣġe	ǣġrum
 tree	nominative	trēow	trēowu									
 tree	accusative	trēow	trēowu									
 tree	genitive	trēowes	trēowa									
-tree	dative	trēowe	trēowum									
-tree	nominative	trēow	trēowa, trēowe									
-tree	accusative	trēowe	trēowa, trēowe									
-tree	genitive	trēowe	trēowa									
 tree	dative	trēowe	trēowum									
 insect	nominative	pēo	pēon									
 insect	accusative	pēon	pēon									
@@ -362,14 +314,6 @@ garment	nominative	hræġl	hræġl
 garment	accusative	hræġl	hræġl									
 garment	genitive	hræġles	hræġla									
 garment	dative	hræġle	hræġlum									
-garment	nominative	wǣd	wǣde, wǣda									
-garment	accusative	wǣd, wǣde	wǣde, wǣda									
-garment	genitive	wǣde	wǣda									
-garment	dative	wǣde	wǣdum									
-garment	nominative	wæd	wadu									
-garment	accusative	wæd	wadu									
-garment	genitive	wædes	wada									
-garment	dative	wæde	wadum									
 door	nominative	duru	dura									
 door	accusative	duru	dura									
 door	genitive	dura	dura									
@@ -410,10 +354,6 @@ coin	nominative	mynet	mynet
 coin	accusative	mynet	mynet									
 coin	genitive	mynetes	myneta									
 coin	dative	mynete	mynetum									
-coin	nominative	sċeatt	sċeattas									
-coin	accusative	sċeatt	sċeattas									
-coin	genitive	sċeattes	sċeatta									
-coin	dative	sċeatte	sċeattum									
 wealth	nominative	wela	welan									
 wealth	accusative	welan	welan									
 wealth	genitive	welan	welena									
@@ -430,10 +370,6 @@ stone	nominative	stān	stānas
 stone	accusative	stān	stānas									
 stone	genitive	stānes	stāna									
 stone	dative	stāne	stānum									
-treasure	nominative	goldhord	goldhord									
-treasure	accusative	goldhord	goldhord									
-treasure	genitive	goldhordes	goldhorda									
-treasure	dative	goldhorde	goldhordum									
 treasure	nominative	māþm	māþmas									
 treasure	accusative	māþm	māþmas									
 treasure	genitive	māþmes	māþma									
@@ -470,10 +406,6 @@ town	nominative	burg	byrġ
 town	accusative	burg	byrġ									
 town	genitive	byrġ	burga									
 town	dative	byrġ	burgum									
-town	nominative	tūn	tūnas									
-town	accusative	tūn	tūnas									
-town	genitive	tūnes	tūna									
-town	dative	tūne	tūnum									
 river	nominative	ēa	ēa, ēan									
 river	accusative	ēa	ēa, ēan									
 river	genitive	ēa, īe	ēa									
@@ -498,42 +430,14 @@ day	nominative	dæġ	dagas
 day	accusative	dæġ	dagas									
 day	genitive	dæġes	daga									
 day	dative	dæġe	dagum									
-day	nominative	dæġ	dagas									
-day	accusative	dæġ	dagas									
-day	genitive	dæġes	daga									
-day	dative	dæġe	dagum									
-day	nominative	dæġ	dagas									
-day	accusative	dæġ	dagas									
-day	genitive	dæġes	daga									
-day	dative	dæġe	dagum									
-day	nominative	dōgor	dōgoras									
-day	accusative	dōgor	dōgoras									
-day	genitive	dōgores	dōgora									
-day	dative	dōgore	dōgorum									
 planet	nominative	tungol	tunglu									
 planet	accusative	tungol	tunglu									
 planet	genitive	tungles	tungla									
 planet	dative	tungle	tunglum									
-planet	nominative	planēta	planētan									
-planet	accusative	planētan	planētan									
-planet	genitive	planētan	planētena									
-planet	dative	planētan	planētum									
 star	nominative	steorra	steorran									
 star	accusative	steorran	steorran									
 star	genitive	steorran	steorrena									
 star	dative	steorran	steorrum									
-star	nominative	tungol	tunglu									
-star	accusative	tungol	tunglu									
-star	genitive	tungles	tungla									
-star	dative	tungle	tunglum									
-human	nominative	mann	menn									
-human	accusative	mann	menn									
-human	genitive	mannes	manna									
-human	dative	menn	mannum									
-human	nominative	mennisċ	—									
-human	accusative	mennisċ	—									
-human	genitive	mennisċes	—									
-human	dative	mennisċe	—									
 human	nominative	mann	menn									
 human	accusative	mann	menn									
 human	genitive	mannes	manna									
@@ -542,10 +446,6 @@ bee	nominative	bēo	bēon
 bee	accusative	bēon	bēon									
 bee	genitive	bēon	bēona									
 bee	dative	bēon	bēom, bēoum									
-bee	nominative	lūs	lȳs									
-bee	accusative	lūs	lȳs									
-bee	genitive	lȳs, lūse	lūsa									
-bee	dative	lȳs	lūsum									
 city	nominative	burg	byrġ									
 city	accusative	burg	byrġ									
 city	genitive	byrġ	burga									
