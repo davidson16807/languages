@@ -832,12 +832,12 @@ fix	imperative	passive	future	simple	—	sarcītor	sarcītor	—	—	sarciuntor	
 flow	indicative	active	present	simple	fluō	fluis	fluit	fluimus	fluitis	fluunt	#	present							
 flow	indicative	active	past	imperfective	fluēbam	fluēbās	fluēbat	fluēbāmus	fluēbātis	fluēbant	#	imperfect							
 flow	indicative	active	future	simple	fluam	fluēs	fluet	fluēmus	fluētis	fluent	#	future							
-flow	indicative	active	past	perfective	flū̆xī	flū̆xistī	flū̆xit	flū̆ximus	flū̆xistis	flū̆xērunt, flū̆xēre	#	perfect							
+flow	indicative	active	present	perfective	flū̆xī	flū̆xistī	flū̆xit	flū̆ximus	flū̆xistis	flū̆xērunt, flū̆xēre	#	perfect							
 flow	indicative	active	past	perfective	flū̆xeram	flū̆xerās	flū̆xerat	flū̆xerāmus	flū̆xerātis	flū̆xerant	#	pluperfect							
 flow	indicative	active	future	perfective	flū̆xerō	flū̆xeris	flū̆xerit	flū̆xerimus	flū̆xeritis	flū̆xerint	#	future perfect							
 flow	subjunctive	active	present	simple	fluam	fluās	fluat	fluāmus	fluātis	fluant	#	present							
 flow	subjunctive	active	past	imperfective	fluerem	fluerēs	flueret	fluerēmus	fluerētis	fluerent	#	imperfect							
-flow	subjunctive	active	past	perfective	flū̆xerim	flū̆xerīs	flū̆xerit	flū̆xerīmus	flū̆xerītis	flū̆xerint	#	perfect							
+flow	subjunctive	active	present	perfective	flū̆xerim	flū̆xerīs	flū̆xerit	flū̆xerīmus	flū̆xerītis	flū̆xerint	#	perfect							
 flow	subjunctive	active	past	perfective	flū̆xissem	flū̆xissēs	flū̆xisset	flū̆xissēmus	flū̆xissētis	flū̆xissent	#	pluperfect							
 flow	imperative	active	present	simple	—	flue	—	—	fluite	—	#	present							
 come	indicative	active	present	simple	veniō	venīs	venit	venīmus	venītis	veniunt	#	present							
@@ -849,7 +849,7 @@ come	indicative	active	future	perfective	vēnerō	vēneris	vēnerit	vēnerimus	v
 come	indicative	passive	present	simple	—	—	venītur	—	—	—	#	present							
 come	indicative	passive	past	imperfective	—	—	veniēbātur	—	—	—	#	imperfect							
 come	indicative	passive	future	simple	—	—	veniētur	—	—	—	#	future							
-come	indicative	passive	past	perfective	—	—	ventum est	—	—	—	#	perfect							
+come	indicative	passive	present	perfective	—	—	ventum est	—	—	—	#	perfect							
 come	indicative	passive	past	perfective	—	—	ventum erat	—	—	—	#	pluperfect							
 come	indicative	passive	future	perfective	—	—	ventum erit	—	—	—	#	future perfect							
 come	subjunctive	active	present	simple	veniam	veniās	veniat	veniāmus	veniātis	veniant	#	present							

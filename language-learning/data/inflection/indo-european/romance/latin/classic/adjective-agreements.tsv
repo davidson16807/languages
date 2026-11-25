@@ -1,5 +1,4 @@
 *	*	*	masculine	feminine	neuter	masculine	feminine	neuter
-*	*	*	positive	positive	positive	positive	positive	positive
 *	*	*	singular	singular	singular	plural	plural	plural
 tall	positive	nominative	altus 	alta 	altum 	altī 	altae 	alta
 tall	positive	genitive  	altī 	altae 	altī 	altōrum 	altārum 	altōrum
@@ -218,13 +217,6 @@ bad	positive	accusative	malum 	malam 	malum 	malōs 	malās 	mala
 bad	positive	ablative  						
 bad	positive	vocative  						
 bad	positive	locative						
-loud	positive	nominative	magnus 	magnum	magnae 	magna 	magnī 	magna
-loud	positive	genitive  	magnī 	magnī	magnārum 	magnae 	magnōrum 	magnōrum 
-loud	positive	dative    	magnō 	magnō	magnīs	magnae 	magnīs	magnīs
-loud	positive	accusative	magnum 	magnum	magnās 	magnam 	magnōs 	magna 
-loud	positive	ablative  	magnō 	magnō	magnīs	magnā 	magnīs	magnīs
-loud	positive	vocative  	magne 	magnum	magnae 	magna 	magnī 	magna 
-loud	positive	locative	magnī 	magnī 	magnīs	magnae 	magnīs	magnīs
 first	positive	nominative	prīmus	prīma	prīmum	prīmī	prīmae	prīma
 first	positive	genitive	prīmī	prīmae	prīmī	prīmōrum	prīmārum	prīmōrum
 first	positive	dative	prīmō	prīmae	prīmō	prīmīs	prīmīs	prīmīs
