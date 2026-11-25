@@ -240,6 +240,17 @@ conjugation_subject_traversal = parse.termpath(
     3  plural   masculine
     ''')
 
+mood_tense_whitelist = parse.termmask(
+    'mood_tense_whitelist',
+    'mood tense',
+    '''
+    indicative   present
+    indicative   past
+    subjunctive  present
+    imperative   present
+    optative     present
+    ''')
+
 finite_tense_progress_traversal = parse.termpath(
     'finite_tense_progress_traversal', 
     'tense progress',
@@ -372,10 +383,11 @@ def head(store, n=3000):
     print(str(store)[:n])
 
 tense_progress_mood_voice_verb_traversal = (
-    (((
+    ((((
           axis['valency']
         * finite_tense_progress_traversal
         * axis['mood'])
+        & mood_tense_whitelist)
         * axis['voice'])
         * axis['verb'])
 ) * constant['subject'] 

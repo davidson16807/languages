@@ -227,7 +227,7 @@ asterism	consseron
 astral-priest	siragū
 atmosphere	albios
 attachments	noibianton
-attack	routron
+#attack	routron
 attacker	adgonnos
 attacking	bogios
 attainder	adsagsonā
@@ -396,7 +396,7 @@ birth	geniā
 birthday	pennoblēdnī
 birthpangs	edū
 birthwort	ðeximon
-bit	pettiā
+#bit	pettiā
 bite	tamman
 bitter-food	garuobeton
 bittern	bunnos
@@ -581,7 +581,7 @@ calendar	uelerion
 calendar-notation-of-religious-or-judicial-significance	īuos
 calendrical-concept	atenouxtyon
 calf	lāigos
-call	gāri
+#call	gāri
 call-girl	aricanī
 call-to-advance	andecingā
 called-together	congaltios
@@ -685,7 +685,7 @@ characteristic	nition
 charcoal	samouidus
 charge	routron
 charger	uerēdos
-chariot	carpenton
+#chariot	carpenton
 chariot-of-war	essedon
 chariot-with-four-wheels	petruroton
 charioteer	aresets
@@ -923,7 +923,7 @@ cove	morinantus
 covenant	collugion
 cover	togiā
 cover-up	stlatus
-covering	clāros
+#covering	clāros
 cow	bous
 cowherd	bouiātis
 cowl	cucullos
@@ -967,7 +967,7 @@ crossing	moritixtā
 crossroads	petrumantalon
 crow	branos
 crowbar	bledinos
-crowd	bruuon
+#crowd	bruuon
 crown	bannā
 crown-prince	remos
 crucible	souxtu
@@ -1179,7 +1179,7 @@ dream	toletus
 dregs	ligā
 dressing	inti
 drill	taratron
-drink	lindon
+#drink	lindon
 drinking	oclon
 drinking-vessel	annā
 drinks	lindon
@@ -1434,7 +1434,7 @@ favor	liuon
 favour	auiion
 fawn	alanī
 fear	obnon
-feast	comedācon
+#feast	comedācon
 feast-of-ten-nights	decamnoxtiācā
 feather	etamā
 feces	caccā
@@ -1713,7 +1713,7 @@ giver	danus
 giving	datus
 glade	ialon
 gladiator	cladimouiros
-glass	iagos
+#glass	iagos
 glitter	liuon
 glory	klutā
 glossary	uoxtlosernis
@@ -1727,7 +1727,7 @@ goat	gabros
 goat-kid	minnos
 goblet	annā
 god	dēuos
-goddess	dēuā
+#goddess	dēuā
 goddess-of-fosterage	Bononiā
 goddess-of-heather-and-bees	uroicā
 gold	canecon
@@ -1977,7 +1977,7 @@ hem	lasson
 hemp	canabis
 hen	cercā
 henbane	belenion
-herb	lussus
+#herb	lussus
 herb-garden	lubigortos
 herd	alamon
 herd-of-deer	ellā
@@ -2869,7 +2869,7 @@ partition	ualiā
 partition-of-land	randā
 partner	sentiios
 partner-in-life	citbios
-party	lītus
+#party	lītus
 pass	treueros
 passage	iatus
 passerby	itosepos
@@ -3321,7 +3321,7 @@ rich	iuan
 rich-person	dannos
 riches	agesilon
 richness	anauos
-ride	remman
+#ride	remman
 rider	eporēdos
 riders	trimarcisiā
 ridge	ricā
@@ -3339,7 +3339,7 @@ rigid	reginos
 rim	cambitā
 rim-of-a-wheel	cantos
 rind	crogenos
-ring	anniiā
+#ring	anniiā
 ringlet	ambilation
 rinsing	aulauon
 rise	berus
@@ -3359,7 +3359,7 @@ river-valley	dubrosentus
 rivlet	uobera
 roach	caballos
 road	cammanos
-roaring	garman
+#roaring	garman
 roasting	tuððos
 robbery	bergā
 rock	barenā
@@ -3604,7 +3604,7 @@ shot	ericution
 shoulder	sceidā
 shoulderblade	sceidā
 shoulders	axis
-shout	uaidā
+#shout	uaidā
 show	toxuinnatus
 shower	uolcon
 shrine	nemeton
@@ -4156,7 +4156,7 @@ trench	cladion
 trepidation	ecritus
 triad	trimarcisiā
 triangle	trigenion
-tribe	slextus
+#tribe	slextus
 tribesperson	toutios
 tributary	adboros
 tribute	geldon
@@ -4320,7 +4320,7 @@ wagon	uegnos
 wailing	aglātos
 wait	uessis
 wales	Cambriā
-walk	brogǐ
+#walk	brogǐ
 wall	cagrā
 wall-germander	erinon
 walled-settlement	uarrennā
@@ -4513,7 +4513,7 @@ wrath	uergiā
 wren	driuos
 wrestler	lucterios
 writer	crabatis
-writing	scrībbā
+#writing	scrībbā
 wrong	cambon
 wrought	dugiet
 yard	gortos

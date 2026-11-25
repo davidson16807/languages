@@ -288,15 +288,15 @@ be	active	3	dual	h₁stés	h₁stā́m	h₁stā́m	h₁ésetes	h₁sih₁tā́m
 be	active	1	plural	h₁smós	h₁smé	—	h₁ésomos	h₁sih₁mé		
 be	active	2	plural	h₁sté	h₁sté	h₁sté	h₁ésete	h₁sih₁té		
 be	active	3	plural	h₁sénti	h₁sént	h₁séntu	h₁ésonti	h₁sih₁ént		
-become	active	1	singular	bʰúHm̥	❔	—	bʰúHoh₂	❔yéh₁m̥		
-become	active	2	singular	bʰúHs	❔	bʰúH, ❔dʰí	bʰúHesi	❔yéh₁s		
-become	active	3	singular	bʰúHt	❔	bʰúHtu	bʰúHeti	❔yéh₁t		
-become	active	1	dual	❔wé	❔	—	bʰúHowos	❔ih₁wé		
-become	active	2	dual	❔tóm	❔	❔tóm	bʰúHetes	❔ih₁tóm		
-become	active	3	dual	❔tā́m	❔	❔tā́m	bʰúHetes	❔ih₁tā́m		
-become	active	1	plural	❔mé	❔	—	bʰúHomos	❔ih₁mé		
-become	active	2	plural	❔té	❔	❔té	bʰúHete	❔ih₁té		
-become	active	3	plural	❔ént	❔	❔éntu	bʰúHonti	❔ih₁ént		
+become	active	1	singular	*bʰúHm̥ 	—	— 	*bʰúHoh₂ 	*bʰúHyeh₁m̥		
+become	active	2	singular	*bʰúHs 	—	*bʰúH, *bʰúHdʰi 	*bʰúHesi 	*bʰúHyeh₁s		
+become	active	3	singular	*bʰúHt 	—	*bʰúHtu 	*bʰúHeti 	*bʰúHyeh₁t		
+become	active	1	dual	*bʰúHwe 	—	— 	*bʰúHowos 	*bʰúHih₁we		
+become	active	2	dual	*bʰúHtom 	—	*bʰúHtom 	*bʰúHetes 	*bʰúHih₁tom		
+become	active	3	dual	*bʰúHtām 	—	*bʰúHtām 	*bʰúHetes 	*bʰúHih₁tām		
+become	active	1	plural	*bʰúHme 	—	— 	*bʰúHomos 	*bʰúHih₁me		
+become	active	2	plural	*bʰúHte 	—	*bʰúHte 	*bʰúHete 	*bʰúHih₁te		
+become	active	3	plural	*bʰúHn̥t 	—	*bʰúHn̥tu 	*bʰúHonti 	*bʰúHih₁n̥t 		
 leave	active	1	singular	léykʷm̥	❔	—	léykʷoh₂	likʷyéh₁m̥		
 leave	active	2	singular	léykʷs	❔	léykʷ, likʷdʰí	léykʷesi	likʷyéh₁s		
 leave	active	3	singular	léykʷt	❔	léykʷtu	léykʷeti	likʷyéh₁t		
@@ -486,60 +486,60 @@ renew	middle	3	dual	❔	❔	❔	❔	❔
 renew	middle	1	plural	néweh₂mosdʰh₂	néweh₂medʰh₂	—	néweh₂omosdʰh₂	néweh₂ih₁medʰh₂		
 renew	middle	2	plural	néweh₂dʰh₂we	néweh₂dʰh₂we	néweh₂dʰh₂we	néweh₂edʰh₂we	néweh₂ih₁dʰh₂we		
 renew	middle	3	plural	néweh₂ror, néweh₂n̥tor	néweh₂ro, néweh₂n̥to	❔	néweh₂oror, néweh₂ontor	néweh₂ih₁ro, néweh₂ih₁n̥to		
-arrive	active	1	singular	h₁ludʰóm	❔	—	h₁ludʰṓh₂	h₁ludʰóyh₁m̥		
-arrive	active	2	singular	h₁ludʰés	❔	h₁ludʰé	h₁ludʰḗsi	h₁ludʰóys		
-arrive	active	3	singular	h₁ludʰét	❔	h₁ludʰétu	h₁ludʰḗti	h₁ludʰóyt		
-arrive	active	1	dual	h₁ludʰówe	❔	—	h₁ludʰṓwos	h₁ludʰóywe		
-arrive	active	2	dual	h₁ludʰétom	❔	h₁ludʰétom	h₁ludʰḗtes	h₁ludʰóytom		
-arrive	active	3	dual	h₁ludʰétām	❔	h₁ludʰétām	h₁ludʰḗtes	h₁ludʰóytām		
-arrive	active	1	plural	h₁ludʰóme	❔	—	h₁ludʰṓmos	h₁ludʰóyme		
-arrive	active	2	plural	h₁ludʰéte	❔	h₁ludʰéte	h₁ludʰḗte	h₁ludʰóyte		
-arrive	active	3	plural	h₁ludʰónt	❔	h₁ludʰóntu	h₁ludʰṓnti	h₁ludʰóyh₁n̥t		
-say	active	1	singular	wéwkom	❔	—	wéwkōh₂	wéwkoyh₁m̥		
-say	active	2	singular	wéwkes	❔	wéwke	wéwkēsi	wéwkoys		
-say	active	3	singular	wéwket	❔	wéwketu	wéwkēti	wéwkoyt		
-say	active	1	dual	wéwkowe	❔	—	wéwkōwos	wéwkoywe		
-say	active	2	dual	wéwketom	❔	wéwketom	wéwkētes	wéwkoytom		
-say	active	3	dual	wéwketām	❔	wéwketām	wéwkētes	wéwkoytām		
-say	active	1	plural	wéwkome	❔	—	wéwkōmos	wéwkoyme		
-say	active	2	plural	wéwkete	❔	wéwkete	wéwkēte	wéwkoyte		
-say	active	3	plural	wéwkont	❔	wéwkontu	wéwkōnti	wéwkoyh₁n̥t		
-say	middle	1	singular	wéwkoh₂e	❔	—	wéwkōh₂er	wéwkoyh₂e		
-say	middle	2	singular	wéwketh₂e	❔	wéwkeso	wéwkēth₂er	wéwkoyth₂e		
-say	middle	3	singular	wéwketo	❔	❔	wéwkētor	wéwkoyto, wéwkoyh₁o		
-say	middle	1	dual	wéwkowedʰh₂	❔	—	wéwkōwosdʰh₂	wéwkoywedʰh₂		
-say	middle	2	dual	❔	❔	❔	❔	❔		
-say	middle	3	dual	❔	❔	❔	❔	❔		
-say	middle	1	plural	wéwkomedʰh₂	❔	—	wéwkōmosdʰh₂	wéwkoymedʰh₂		
-say	middle	2	plural	wéwkedʰh₂we	❔	wéwkedʰh₂we	wéwkēdʰh₂we	wéwkoydʰh₂we		
-say	middle	3	plural	wéwkoro, wéwkonto	❔	❔	wéwkōror, wéwkōntor	wéwkoyro, wéwkoyh₁n̥to		
-point-out	active	1	singular	dḗyḱsm̥	❔	—	dḗyḱsoh₂	déyḱsyeh₁m̥		
-point-out	active	2	singular	dḗyḱs	❔	dḗyḱs, déyḱsdʰi	dḗyḱsesi	déyḱsyeh₁s		
-point-out	active	3	singular	dḗyḱst	❔	dḗyḱstu	dḗyḱseti	déyḱsyeh₁t		
-point-out	active	1	dual	déyḱswe	❔	—	dḗyḱsowos	déyḱsih₁we		
-point-out	active	2	dual	déyḱstom	❔	déyḱstom	dḗyḱsetes	déyḱsih₁tom		
-point-out	active	3	dual	déyḱstām	❔	déyḱstām	dḗyḱsetes	déyḱsih₁tām		
-point-out	active	1	plural	déyḱsme	❔	—	dḗyḱsomos	déyḱsih₁me		
-point-out	active	2	plural	déyḱste	❔	déyḱste	dḗyḱsete	déyḱsih₁te		
-point-out	active	3	plural	déyḱsn̥t	❔	déyḱsn̥tu	dḗyḱsonti	déyḱsih₁n̥t		
-point-out	middle	1	singular	déyḱsh₂e	❔	—	dḗyḱsoh₂er	déyḱsih₁h₂e		
-point-out	middle	2	singular	déyḱsth₂e	❔	déyḱso	dḗyḱseth₂er	déyḱsih₁th₂e		
-point-out	middle	3	singular	déyḱsto, déyḱso	❔	❔	dḗyḱsetor	déyḱsih₁to, déyḱsih₁o		
-point-out	middle	1	dual	déyḱswedʰh₂	❔	—	dḗyḱsowosdʰh₂	déyḱsih₁wedʰh₂		
-point-out	middle	2	dual	❔	❔	❔	❔	❔		
-point-out	middle	3	dual	❔	❔	❔	❔	❔		
-point-out	middle	1	plural	déyḱsmedʰh₂	❔	—	dḗyḱsomosdʰh₂	déyḱsih₁medʰh₂		
-point-out	middle	2	plural	déyḱsdʰh₂we	❔	déyḱsdʰh₂we	dḗyḱsedʰh₂we	déyḱsih₁dʰh₂we		
-point-out	middle	3	plural	déyḱsro, déyḱsn̥to	❔	❔	dḗyḱsoror, dḗyḱsontor	déyḱsih₁ro, déyḱsih₁n̥to		
-think	active	1	singular	memónh₂e	❔	—	meménoh₂	memn̥yéh₁m̥		
-think	active	2	singular	memónth₂e	❔	memón, memn̥dʰí	meménesi	memn̥yéh₁s		
-think	active	3	singular	memóne	❔	memóntu	meméneti	memn̥yéh₁t		
-think	active	1	dual	memn̥wé	❔	—	meménowos	memnih₁wé		
-think	active	2	dual	❔	❔	memn̥tóm	meménetes	memnih₁tóm		
-think	active	3	dual	❔	❔	memn̥tā́m	meménetes	memnih₁tā́m		
-think	active	1	plural	memn̥mé	❔	—	meménomos	memnih₁mé		
-think	active	2	plural	memné	❔	memn̥té	meménete	memnih₁té		
-think	active	3	plural	memnḗr	❔	memnéntu	meménonti	memnih₁ént		
+arrive	active	1	singular	h₁ludʰóm	—	—	h₁ludʰṓh₂	h₁ludʰóyh₁m̥		
+arrive	active	2	singular	h₁ludʰés	—	h₁ludʰé	h₁ludʰḗsi	h₁ludʰóys		
+arrive	active	3	singular	h₁ludʰét	—	h₁ludʰétu	h₁ludʰḗti	h₁ludʰóyt		
+arrive	active	1	dual	h₁ludʰówe	—	—	h₁ludʰṓwos	h₁ludʰóywe		
+arrive	active	2	dual	h₁ludʰétom	—	h₁ludʰétom	h₁ludʰḗtes	h₁ludʰóytom		
+arrive	active	3	dual	h₁ludʰétām	—	h₁ludʰétām	h₁ludʰḗtes	h₁ludʰóytām		
+arrive	active	1	plural	h₁ludʰóme	—	—	h₁ludʰṓmos	h₁ludʰóyme		
+arrive	active	2	plural	h₁ludʰéte	—	h₁ludʰéte	h₁ludʰḗte	h₁ludʰóyte		
+arrive	active	3	plural	h₁ludʰónt	—	h₁ludʰóntu	h₁ludʰṓnti	h₁ludʰóyh₁n̥t		
+say	active	1	singular	wéwkom	—	—	wéwkōh₂	wéwkoyh₁m̥		
+say	active	2	singular	wéwkes	—	wéwke	wéwkēsi	wéwkoys		
+say	active	3	singular	wéwket	—	wéwketu	wéwkēti	wéwkoyt		
+say	active	1	dual	wéwkowe	—	—	wéwkōwos	wéwkoywe		
+say	active	2	dual	wéwketom	—	wéwketom	wéwkētes	wéwkoytom		
+say	active	3	dual	wéwketām	—	wéwketām	wéwkētes	wéwkoytām		
+say	active	1	plural	wéwkome	—	—	wéwkōmos	wéwkoyme		
+say	active	2	plural	wéwkete	—	wéwkete	wéwkēte	wéwkoyte		
+say	active	3	plural	wéwkont	—	wéwkontu	wéwkōnti	wéwkoyh₁n̥t		
+say	middle	1	singular	wéwkoh₂e	—	—	wéwkōh₂er	wéwkoyh₂e		
+say	middle	2	singular	wéwketh₂e	—	wéwkeso	wéwkēth₂er	wéwkoyth₂e		
+say	middle	3	singular	wéwketo	—	❔	wéwkētor	wéwkoyto, wéwkoyh₁o		
+say	middle	1	dual	wéwkowedʰh₂	—	—	wéwkōwosdʰh₂	wéwkoywedʰh₂		
+say	middle	2	dual	❔	—	❔	❔	❔		
+say	middle	3	dual	❔	—	❔	❔	❔		
+say	middle	1	plural	wéwkomedʰh₂	—	—	wéwkōmosdʰh₂	wéwkoymedʰh₂		
+say	middle	2	plural	wéwkedʰh₂we	—	wéwkedʰh₂we	wéwkēdʰh₂we	wéwkoydʰh₂we		
+say	middle	3	plural	wéwkoro, wéwkonto	—	❔	wéwkōror, wéwkōntor	wéwkoyro, wéwkoyh₁n̥to		
+point-out	active	1	singular	dḗyḱsm̥	—	—	dḗyḱsoh₂	déyḱsyeh₁m̥		
+point-out	active	2	singular	dḗyḱs	—	dḗyḱs, déyḱsdʰi	dḗyḱsesi	déyḱsyeh₁s		
+point-out	active	3	singular	dḗyḱst	—	dḗyḱstu	dḗyḱseti	déyḱsyeh₁t		
+point-out	active	1	dual	déyḱswe	—	—	dḗyḱsowos	déyḱsih₁we		
+point-out	active	2	dual	déyḱstom	—	déyḱstom	dḗyḱsetes	déyḱsih₁tom		
+point-out	active	3	dual	déyḱstām	—	déyḱstām	dḗyḱsetes	déyḱsih₁tām		
+point-out	active	1	plural	déyḱsme	—	—	dḗyḱsomos	déyḱsih₁me		
+point-out	active	2	plural	déyḱste	—	déyḱste	dḗyḱsete	déyḱsih₁te		
+point-out	active	3	plural	déyḱsn̥t	—	déyḱsn̥tu	dḗyḱsonti	déyḱsih₁n̥t		
+point-out	middle	1	singular	déyḱsh₂e	—	—	dḗyḱsoh₂er	déyḱsih₁h₂e		
+point-out	middle	2	singular	déyḱsth₂e	—	déyḱso	dḗyḱseth₂er	déyḱsih₁th₂e		
+point-out	middle	3	singular	déyḱsto, déyḱso	—	❔	dḗyḱsetor	déyḱsih₁to, déyḱsih₁o		
+point-out	middle	1	dual	déyḱswedʰh₂	—	—	dḗyḱsowosdʰh₂	déyḱsih₁wedʰh₂		
+point-out	middle	2	dual	❔	—	❔	❔	❔		
+point-out	middle	3	dual	❔	—	❔	❔	❔		
+point-out	middle	1	plural	déyḱsmedʰh₂	—	—	dḗyḱsomosdʰh₂	déyḱsih₁medʰh₂		
+point-out	middle	2	plural	déyḱsdʰh₂we	—	déyḱsdʰh₂we	dḗyḱsedʰh₂we	déyḱsih₁dʰh₂we		
+point-out	middle	3	plural	déyḱsro, déyḱsn̥to	—	❔	dḗyḱsoror, dḗyḱsontor	déyḱsih₁ro, déyḱsih₁n̥to		
+think	active	1	singular	memónh₂e	—	—	meménoh₂	memn̥yéh₁m̥		
+think	active	2	singular	memónth₂e	—	memón, memn̥dʰí	meménesi	memn̥yéh₁s		
+think	active	3	singular	memóne	—	memóntu	meméneti	memn̥yéh₁t		
+think	active	1	dual	memn̥wé	—	—	meménowos	memnih₁wé		
+think	active	2	dual	❔	—	memn̥tóm	meménetes	memnih₁tóm		
+think	active	3	dual	❔	—	memn̥tā́m	meménetes	memnih₁tā́m		
+think	active	1	plural	memn̥mé	—	—	meménomos	memnih₁mé		
+think	active	2	plural	memné	—	memn̥té	meménete	memnih₁té		
+think	active	3	plural	memnḗr	—	memnéntu	meménonti	memnih₁ént		
 come	active	1	singular	gʷḗm	—	—	gʷémoh₂	gʷm̥yéh₁m̥		
 come	active	2	singular	gʷéms	—	gʷém, gʷm̥dʰí	gʷémesi	gʷm̥yéh₁s		
 come	active	3	singular	gʷémt	—	gʷémtu	gʷémeti	gʷm̥yéh₁t		

@@ -415,24 +415,6 @@ ask	subjunctive	present		pregunte	preguntes	preguntés	pregunte	pregunte	pregunt
 ask	subjunctive	past	imperfective	preguntara | preguntase	preguntaras | preguntases	preguntaras | preguntases	preguntara | preguntase	preguntara | preguntase	preguntáramos | preguntásemos	preguntarais | preguntaseis	preguntarais | preguntaseis	preguntaran | preguntasen	preguntaran | preguntasen
 ask	imperative	affirmative			pregunta	preguntá	pregunte	pregunte	preguntemos	preguntad	preguntad	pregunten	pregunten
 ask	imperative	negative			no preguntes	no preguntes	no pregunte	no pregunte	no preguntemos	no preguntéis	no preguntéis	no pregunten	no pregunten
-be-inherently	indicative	present		soy	eres	sos	es	es	somos	sois	sois	son	son
-be-inherently	indicative	past	imperfective	era	eras	eras	era	era	éramos	erais	erais	eran	eran
-be-inherently	indicative	past	perfective	fui	fuiste	fuiste	fue	fue	fuimos	fuisteis	fuisteis	fueron	fueron
-be-inherently	indicative	future		seré	serás	serás	será	será	seremos	seréis	seréis	serán	serán
-be-inherently	indicative	conditional		sería	serías	serías	sería	sería	seríamos	seríais	seríais	serían	serían
-be-inherently	subjunctive	present		sea	seas	seás	sea	sea	seamos	seáis	seáis	sean	sean
-be-inherently	subjunctive	past	imperfective	fuera | fuese	fueras | fueses	fueras | fueses	fuera | fuese	fuera | fuese	fuéramos | fuésemos	fuerais | fueseis	fuerais | fueseis	fueran | fuesen	fueran | fuesen
-be-inherently	imperative	affirmative			sé	sé	sea	sea	seamos	sed	sed	sean	sean
-be-inherently	imperative	negative			no seas	no seas	no sea	no sea	no seamos	no seáis	no seáis	no sean	no sean
-be-momentarily	indicative	present		soy	eres	sos	es	es	somos	sois	sois	son	son
-be-momentarily	indicative	past	imperfective	era	eras	eras	era	era	éramos	erais	erais	eran	eran
-be-momentarily	indicative	past	perfective	fui	fuiste	fuiste	fue	fue	fuimos	fuisteis	fuisteis	fueron	fueron
-be-momentarily	indicative	future		seré	serás	serás	será	será	seremos	seréis	seréis	serán	serán
-be-momentarily	indicative	conditional		sería	serías	serías	sería	sería	seríamos	seríais	seríais	serían	serían
-be-momentarily	subjunctive	present		sea	seas	seás	sea	sea	seamos	seáis	seáis	sean	sean
-be-momentarily	subjunctive	past	imperfective	fuera | fuese	fueras | fueses	fueras | fueses	fuera | fuese	fuera | fuese	fuéramos | fuésemos	fuerais | fueseis	fuerais | fueseis	fueran | fuesen	fueran | fuesen
-be-momentarily	imperative	affirmative			sé	sé	sea	sea	seamos	sed	sed	sean	sean
-be-momentarily	imperative	negative			no seas	no seas	no sea	no sea	no seamos	no seáis	no seáis	no sean	no sean
 open	indicative	present		abro	abres	abrís	abre	abre	abrimos	abrís	abrís	abren	abren
 open	indicative	past	imperfective	abría	abrías	abrías	abría	abría	abríamos	abríais	abríais	abrían	abrían
 open	indicative	past	perfective	abrí	abriste	abriste	abrió	abrió	abrimos	abristeis	abristeis	abrieron	abrieron
