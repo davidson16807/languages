@@ -967,7 +967,7 @@ give		past	simple	passive	subjunctive	δοθῶ	δοθῇς	δοθῇ	δοθῆ�
 give		past	simple	passive	optative	δοθείην	δοθείης	δοθείη	δοθεῖτον,δοθείητον	δοθείτην,δοθειήτην	δοθεῖμεν,δοθείημεν	δοθεῖτε,δοθείητε	δοθεῖεν,δοθείησᾰν	#	δίδωμι	   Aorist: ἔδοτον, ἐδόμην, ἐδόθην 	
 give		past	simple	passive	imperative	 	δόθηθῐ	δοθήτω	δόθητον	δοθήτων	 	δόθητε	δοθέντων	#	δίδωμι	   Aorist: ἔδοτον, ἐδόμην, ἐδόθην 	
 give		past	simple	active	indicative	ἔδωκᾰ	ἔδωκᾰς	ἔδωκε(ν)	ἐδώκᾰτον	ἐδωκᾰ́την	ἐδώκᾰμεν	ἐδώκᾰτε	ἔδωκᾰν	#	δίδωμι	   Aorist: ἔδωκᾰ, ἐδωκᾰ́μην 	Usage: the singular ἔδωκα... is Attic, but the plural ἐδώκαμεν... is Homeric or later (LSJ s.v. δίδωμι; Cambridge Greek Lexicon). The Attic plural is ἔδομεν, ἔδοτε, ἔδοσαν.
-give		past	simple	middle	indicative	ἐδωκᾰ́μην	ἐδώκω	ἐδώκᾰτο	ἐδώκᾰσθον	ἐδωκᾰ́σθην	ἐδωκᾰ́μεθᾰ	ἐδώκᾰσθε	ἐδώκᾰντο	#	δίδωμι	   Aorist: ἔδωκᾰ, ἐδωκᾰ́μην 	Usage: ἐδωκάμην is not given in LSJ, the Cambridge Greek Lexicon or Smyth; possibly reconstructed. ἐδόμην is preferred.
+give	#	past	simple	middle	indicative	ἐδωκᾰ́μην	ἐδώκω	ἐδώκᾰτο	ἐδώκᾰσθον	ἐδωκᾰ́σθην	ἐδωκᾰ́μεθᾰ	ἐδώκᾰσθε	ἐδώκᾰντο	#	δίδωμι	   Aorist: ἔδωκᾰ, ἐδωκᾰ́μην 	Usage: ἐδωκάμην is not given in LSJ, the Cambridge Greek Lexicon or Smyth; possibly reconstructed. ἐδόμην is preferred.
 give		present	perfective	active	indicative	δέδωκᾰ	δέδωκᾰς	δέδωκε(ν)	δεδώκᾰτον	δεδώκᾰτον	δεδώκᾰμεν	δεδώκᾰτε	δεδώκᾱσῐ(ν)	#	δίδωμι	   Perfect: δέδωκᾰ, δέδομαι 	
 give		present	perfective	active	subjunctive	δεδώκω	δεδώκῃς	δεδώκῃ	δεδώκητον	δεδώκητον	δεδώκωμεν	δεδώκητε	δεδώκωσῐ(ν)	#	δίδωμι	   Perfect: δέδωκᾰ, δέδομαι 	
 give		present	perfective	active	optative	δεδώκοιμῐ,δεδωκοίην	δεδώκοις,δεδωκοίης	δεδώκοι,δεδωκοίη	δεδώκοιτον	δεδωκοίτην	δεδώκοιμεν	δεδώκοιτε	δεδώκοιεν	#	δίδωμι	   Perfect: δέδωκᾰ, δέδομαι 	
@@ -1117,42 +1117,6 @@ be-able		present	perfective	middle	imperative	 	δεδῠ́νησο	δεδῠν
 be-able		present	perfective	passive	imperative	 	δεδῠ́νησο	δεδῠνήσθω	δεδῠ́νησθον	δεδῠνήσθων	 	δεδῠ́νησθε	δεδῠνήσθων	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
 be-able		past	perfective	middle	indicative	ἐδεδῠνήμην	ἐδεδῠ́νησο	ἐδεδῠ́νητο	ἐδεδῠ́νησθον	ἐδεδῠνήσθην	ἐδεδῠνήμεθᾰ	ἐδεδῠ́νησθε	ἐδεδῠ́νηντο	#	δύναμαι	   Pluperfect: ἐδεδῠνήμην 	
 be-able		past	perfective	passive	indicative	ἐδεδῠνήμην	ἐδεδῠ́νησο	ἐδεδῠ́νητο	ἐδεδῠ́νησθον	ἐδεδῠνήσθην	ἐδεδῠνήμεθᾰ	ἐδεδῠ́νησθε	ἐδεδῠ́νηντο	#	δύναμαι	   Pluperfect: ἐδεδῠνήμην 	
-be-able		present	simple	middle	indicative	δῠ́νᾰμαι	δῠ́νᾰσαι	δῠ́νᾰται	δῠ́νᾰσθον	δῠ́νᾰσθον	δῠνᾰ́μεθᾰ	δῠ́νᾰσθε	δῠ́νᾰνται	#	δύναμαι	   Present: δῠ́νᾰμαι 	
-be-able		present	simple	passive	indicative	δῠ́νᾰμαι	δῠ́νᾰσαι	δῠ́νᾰται	δῠ́νᾰσθον	δῠ́νᾰσθον	δῠνᾰ́μεθᾰ	δῠ́νᾰσθε	δῠ́νᾰνται	#	δύναμαι	   Present: δῠ́νᾰμαι 	
-be-able		present	simple	middle	subjunctive	δῠ́νωμαι	δῠ́νῃ	δῠ́νηται	δῠ́νησθον	δῠ́νησθον	δῠνώμεθᾰ	δῠ́νησθε	δῠ́νωνται	#	δύναμαι	   Present: δῠ́νᾰμαι 	
-be-able		present	simple	passive	subjunctive	δῠ́νωμαι	δῠ́νῃ	δῠ́νηται	δῠ́νησθον	δῠ́νησθον	δῠνώμεθᾰ	δῠ́νησθε	δῠ́νωνται	#	δύναμαι	   Present: δῠ́νᾰμαι 	
-be-able		present	simple	middle	optative	δῠναίμην	δῠ́ναιο	δῠ́ναιτο	δῠ́ναισθον	δῠναίσθην	δῠναίμεθᾰ	δῠ́ναισθε	δῠ́ναιντο	#	δύναμαι	   Present: δῠ́νᾰμαι 	
-be-able		present	simple	passive	optative	δῠναίμην	δῠ́ναιο	δῠ́ναιτο	δῠ́ναισθον	δῠναίσθην	δῠναίμεθᾰ	δῠ́ναισθε	δῠ́ναιντο	#	δύναμαι	   Present: δῠ́νᾰμαι 	
-be-able		present	simple	middle	imperative	 	δῠ́νᾰσο,δῠ́νω	δῠνᾰ́σθω	δῠ́νᾰσθον	δῠνᾰ́σθων	 	δῠ́νᾰσθε	δῠνᾰ́σθων	#	δύναμαι	   Present: δῠ́νᾰμαι 	
-be-able		present	simple	passive	imperative	 	δῠ́νᾰσο,δῠ́νω	δῠνᾰ́σθω	δῠ́νᾰσθον	δῠνᾰ́σθων	 	δῠ́νᾰσθε	δῠνᾰ́σθων	#	δύναμαι	   Present: δῠ́νᾰμαι 	
-be-able		past	imperfective	middle	indicative	ἐδῠνᾰ́μην	ἐδῠ́νω,ἐδῠ́νασο	ἐδῠ́νᾰτο	ἐδῠ́νᾰσθον	ἐδῠνᾰ́σθην	ἐδῠνᾰ́μεθᾰ	ἐδῠ́νᾰσθε	ἐδῠ́νᾰντο	#	δύναμαι	   Imperfect: ἐδῠνᾰ́μην 	Usage: ἠδ- is not found in Attic inscriptions before 300 BC, and both forms occur in later writers (LSJ s.v. δύναμαι). Preferred for classical Attic.
-be-able		past	imperfective	passive	indicative	ἐδῠνᾰ́μην	ἐδῠ́νω,ἐδῠ́νασο	ἐδῠ́νᾰτο	ἐδῠ́νᾰσθον	ἐδῠνᾰ́σθην	ἐδῠνᾰ́μεθᾰ	ἐδῠ́νᾰσθε	ἐδῠ́νᾰντο	#	δύναμαι	   Imperfect: ἐδῠνᾰ́μην 	Usage: ἠδ- is not found in Attic inscriptions before 300 BC, and both forms occur in later writers (LSJ s.v. δύναμαι). Preferred for classical Attic.
-be-able		past	imperfective	middle	indicative	ἠδῠνᾰ́μην	ἠδῠ́νω,ἠδῠ́νασο	ἠδῠ́νᾰτο	ἠδῠ́νᾰσθον	ἠδῠνᾰ́σθην	ἠδῠνᾰ́μεθᾰ	ἠδῠ́νᾰσθε	ἠδῠ́νᾰντο	#	δύναμαι	   Imperfect: ἠδῠνᾰ́μην 	Usage: not found in Attic inscriptions before 300 BC; both forms occur in later writers (LSJ s.v. δύναμαι). ἐδυνάμην is preferred for classical Attic.
-be-able		past	imperfective	passive	indicative	ἠδῠνᾰ́μην	ἠδῠ́νω,ἠδῠ́νασο	ἠδῠ́νᾰτο	ἠδῠ́νᾰσθον	ἠδῠνᾰ́σθην	ἠδῠνᾰ́μεθᾰ	ἠδῠ́νᾰσθε	ἠδῠ́νᾰντο	#	δύναμαι	   Imperfect: ἠδῠνᾰ́μην 	Usage: not found in Attic inscriptions before 300 BC; both forms occur in later writers (LSJ s.v. δύναμαι). ἐδυνάμην is preferred for classical Attic.
-be-able		future	simple	passive	indicative	δῠνήσομαι	δῠνήσῃ,δῠνήσει	δῠνήσεται	δῠνήσεσθον	δῠνήσεσθον	δῠνησόμεθᾰ	δῠνήσεσθε	δῠνήσονται	#	δύναμαι	   Future: δῠνήσομαι 	Usage: the classical future, from Od. 16.238 on (LSJ s.v. δύναμαι). Preferred.
-be-able		future	simple	passive	optative	δῠνησοίμην	δῠνήσοιο	δῠνήσοιτο	δῠνήσοισθον	δῠνησοίσθην	δῠνησοίμεθᾰ	δῠνήσοισθε	δῠνήσοιντο	#	δύναμαι	   Future: δῠνήσομαι 	Usage: the classical future, from Od. 16.238 on (LSJ s.v. δύναμαι). Preferred.
-be-able		past	simple	middle	indicative	ἐδῠνησᾰ́μην	ἐδῠνήσω	ἐδῠνήσᾰτο	ἐδῠνήσᾰσθον	ἐδῠνησᾰ́σθην	ἐδῠνησᾰ́μεθᾰ	ἐδῠνήσᾰσθε	ἐδῠνήσᾰντο	#	δύναμαι	   Aorist: ἐδῠνησᾰ́μην, ἐδῠνάσθην 	
-be-able		past	simple	middle	subjunctive	δῠνήσωμαι	δῠνήσῃ	δῠνήσηται	δῠνήσησθον	δῠνήσησθον	δῠνησώμεθᾰ	δῠνήσησθε	δῠνήσωνται	#	δύναμαι	   Aorist: ἐδῠνησᾰ́μην, ἐδῠνάσθην 	
-be-able		past	simple	middle	optative	δῠνησαίμην	δῠνήσαιο	δῠνήσαιτο	δῠνήσαισθον	δῠνησαίσθην	δῠνησαίμεθᾰ	δῠνήσαισθε	δῠνήσαιντο	#	δύναμαι	   Aorist: ἐδῠνησᾰ́μην, ἐδῠνάσθην 	
-be-able		past	simple	middle	imperative	 	δῠ́νησαι	δῠνησᾰ́σθω	δῠνήσᾰσθον	δῠνησᾰ́σθων	 	δῠνήσᾰσθε	δῠνησᾰ́σθων	#	δύναμαι	   Aorist: ἐδῠνησᾰ́μην, ἐδῠνάσθην 	
-be-able		past	simple	passive	indicative	ἐδῠνάσθην	ἐδῠνάσθης	ἐδῠνάσθη	ἐδῠνάσθητον	ἐδῠνασθήτην	ἐδῠνάσθημεν	ἐδῠνάσθητε	ἐδῠνάσθησᾰν	#	δύναμαι	   Aorist: ἐδῠνησᾰ́μην, ἐδῠνάσθην 	Usage: Pindar, Herodotus and Xenophon (Cambridge Greek Lexicon s.v. δύναμαι), i.e. poetic or Ionic. ἐδυνήθην is the usual Attic form.
-be-able		past	simple	passive	subjunctive	δῠνασθῶ	δῠνασθῇς	δῠνασθῇ	δῠνασθῆτον	δῠνασθῆτον	δῠνασθῶμεν	δῠνασθῆτε	δῠνασθῶσῐ(ν)	#	δύναμαι	   Aorist: ἐδῠνησᾰ́μην, ἐδῠνάσθην 	Usage: Pindar, Herodotus and Xenophon (Cambridge Greek Lexicon s.v. δύναμαι), i.e. poetic or Ionic. ἐδυνήθην is the usual Attic form.
-be-able		past	simple	passive	optative	δῠνασθείην	δῠνασθείης	δῠνασθείη	δῠνασθεῖτον,δῠνασθείητον	δῠνασθείτην,δῠνασθειήτην	δῠνασθεῖμεν,δῠνασθείημεν	δῠνασθεῖτε,δῠνασθείητε	δῠνασθεῖεν,δῠνασθείησᾰν	#	δύναμαι	   Aorist: ἐδῠνησᾰ́μην, ἐδῠνάσθην 	Usage: Pindar, Herodotus and Xenophon (Cambridge Greek Lexicon s.v. δύναμαι), i.e. poetic or Ionic. ἐδυνήθην is the usual Attic form.
-be-able		past	simple	passive	imperative	 	δῠνάσθητῐ	δῠνασθήτω	δῠνάσθητον	δῠνασθήτων	 	δῠνάσθητε	δῠνασθέντων	#	δύναμαι	   Aorist: ἐδῠνησᾰ́μην, ἐδῠνάσθην 	Usage: Pindar, Herodotus and Xenophon (Cambridge Greek Lexicon s.v. δύναμαι), i.e. poetic or Ionic. ἐδυνήθην is the usual Attic form.
-be-able		past	simple	passive	indicative	ἐδῠνήθην	ἐδῠνήθης	ἐδῠνήθη	ἐδῠνήθητον	ἐδῠνηθήτην	ἐδῠνήθημεν	ἐδῠνήθητε	ἐδῠνήθησᾰν	#	δύναμαι	   Aorist: ἐδῠνήθην 	Usage: the usual Attic aorist (Cambridge Greek Lexicon s.v. δύναμαι). Preferred.
-be-able		past	simple	passive	subjunctive	δῠνηθῶ	δῠνηθῇς	δῠνηθῇ	δῠνηθῆτον	δῠνηθῆτον	δῠνηθῶμεν	δῠνηθῆτε	δῠνηθῶσῐ(ν)	#	δύναμαι	   Aorist: ἐδῠνήθην 	Usage: the usual Attic aorist (Cambridge Greek Lexicon s.v. δύναμαι). Preferred.
-be-able		past	simple	passive	optative	δῠνηθείην	δῠνηθείης	δῠνηθείη	δῠνηθεῖτον,δῠνηθείητον	δῠνηθείτην,δῠνηθειήτην	δῠνηθεῖμεν,δῠνηθείημεν	δῠνηθεῖτε,δῠνηθείητε	δῠνηθεῖεν,δῠνηθείησᾰν	#	δύναμαι	   Aorist: ἐδῠνήθην 	Usage: the usual Attic aorist (Cambridge Greek Lexicon s.v. δύναμαι). Preferred.
-be-able		past	simple	passive	imperative	 	δῠνήθητῐ	δῠνηθήτω	δῠνήθητον	δῠνηθήτων	 	δῠνήθητε	δῠνηθέντων	#	δύναμαι	   Aorist: ἐδῠνήθην 	Usage: the usual Attic aorist (Cambridge Greek Lexicon s.v. δύναμαι). Preferred.
-be-able		present	perfective	middle	indicative	δεδῠ́νημαι	δεδῠ́νησαι	δεδῠ́νηται	δεδῠ́νησθον	δεδῠ́νησθον	δεδῠνήμεθᾰ	δεδῠ́νησθε	δεδῠ́νηνται	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
-be-able		present	perfective	passive	indicative	δεδῠ́νημαι	δεδῠ́νησαι	δεδῠ́νηται	δεδῠ́νησθον	δεδῠ́νησθον	δεδῠνήμεθᾰ	δεδῠ́νησθε	δεδῠ́νηνται	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
-be-able		present	perfective	middle	subjunctive	δεδῠνημένος ὦ	δεδῠνημένος ᾖς	δεδῠνημένος ᾖ	δεδῠνημένω ἦτον	δεδῠνημένω ἦτον	δεδῠνημένοι ὦμεν	δεδῠνημένοι ἦτε	δεδῠνημένοι ὦσῐ(ν)	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
-be-able		present	perfective	passive	subjunctive	δεδῠνημένος ὦ	δεδῠνημένος ᾖς	δεδῠνημένος ᾖ	δεδῠνημένω ἦτον	δεδῠνημένω ἦτον	δεδῠνημένοι ὦμεν	δεδῠνημένοι ἦτε	δεδῠνημένοι ὦσῐ(ν)	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
-be-able		present	perfective	middle	optative	δεδῠνημένος εἴην	δεδῠνημένος εἴης	δεδῠνημένος εἴη	δεδῠνημένω εἴητον,εἶτον	δεδῠνημένω εἰήτην,εἴτην	δεδῠνημένοι εἴημεν,εἶμεν	δεδῠνημένοι εἴητε,εἶτε	δεδῠνημένοι εἴησᾰν,εἶεν	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
-be-able		present	perfective	passive	optative	δεδῠνημένος εἴην	δεδῠνημένος εἴης	δεδῠνημένος εἴη	δεδῠνημένω εἴητον,εἶτον	δεδῠνημένω εἰήτην,εἴτην	δεδῠνημένοι εἴημεν,εἶμεν	δεδῠνημένοι εἴητε,εἶτε	δεδῠνημένοι εἴησᾰν,εἶεν	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
-be-able		present	perfective	middle	imperative	 	δεδῠ́νησο	δεδῠνήσθω	δεδῠ́νησθον	δεδῠνήσθων	 	δεδῠ́νησθε	δεδῠνήσθων	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
-be-able		present	perfective	passive	imperative	 	δεδῠ́νησο	δεδῠνήσθω	δεδῠ́νησθον	δεδῠνήσθων	 	δεδῠ́νησθε	δεδῠνήσθων	#	δύναμαι	   Perfect: δεδῠ́νημαι 	
-be-able		past	perfective	middle	indicative	ἐδεδῠνήμην	ἐδεδῠ́νησο	ἐδεδῠ́νητο	ἐδεδῠ́νησθον	ἐδεδῠνήσθην	ἐδεδῠνήμεθᾰ	ἐδεδῠ́νησθε	ἐδεδῠ́νηντο	#	δύναμαι	   Pluperfect: ἐδεδῠνήμην 	
-be-able		past	perfective	passive	indicative	ἐδεδῠνήμην	ἐδεδῠ́νησο	ἐδεδῠ́νητο	ἐδεδῠ́νησθον	ἐδεδῠνήσθην	ἐδεδῠνήμεθᾰ	ἐδεδῠ́νησθε	ἐδεδῠ́νηντο	#	δύναμαι	   Pluperfect: ἐδεδῠνήμην 	
 arrive		present	simple	middle	indicative	ᾰ̓φῐκνέομαι	ᾰ̓φῐκνέῃ,ᾰ̓φῐκνέει	ᾰ̓φῐκνέεται	ᾰ̓φῐκνέεσθον	ᾰ̓φῐκνέεσθον	ᾰ̓φῐκνεόμεθᾰ	ᾰ̓φῐκνέεσθε	ᾰ̓φῐκνέονται	#	ἀφικνέομαι	   Present: ᾰ̓φῐκνέομαι (Uncontracted)	
 arrive		present	simple	passive	indicative	ᾰ̓φῐκνέομαι	ᾰ̓φῐκνέῃ,ᾰ̓φῐκνέει	ᾰ̓φῐκνέεται	ᾰ̓φῐκνέεσθον	ᾰ̓φῐκνέεσθον	ᾰ̓φῐκνεόμεθᾰ	ᾰ̓φῐκνέεσθε	ᾰ̓φῐκνέονται	#	ἀφικνέομαι	   Present: ᾰ̓φῐκνέομαι (Uncontracted)	
 arrive		present	simple	middle	subjunctive	ᾰ̓φῐκνέωμαι	ᾰ̓φῐκνέῃ	ᾰ̓φῐκνέηται	ᾰ̓φῐκνέησθον	ᾰ̓φῐκνέησθον	ᾰ̓φῐκνεώμεθᾰ	ᾰ̓φῐκνέησθε	ᾰ̓φῐκνέωνται	#	ἀφικνέομαι	   Present: ᾰ̓φῐκνέομαι (Uncontracted)	
@@ -1239,7 +1203,7 @@ crawl		present	simple	active	subjunctive	ἕρπω	ἕρπῃς	ἕρπῃ	ἕρ
 crawl		present	simple	active	optative	ἕρποιμῐ	ἕρποις	ἕρποι	ἕρποιτον	ἑρποίτην	ἕρποιμεν	ἕρποιτε	ἕρποιεν	#	ἕρπω	   Present: ἕρπω 	
 crawl		present	simple	active	imperative	 	ἕρπε	ἑρπέτω	ἕρπετον	ἑρπέτων	 	ἕρπετε	ἑρπόντων	#	ἕρπω	   Present: ἕρπω 	
 crawl		past	imperfective	active	indicative	εἷρπον	εἷρπες	εἷρπε(ν)	εἵρπετον	εἱρπέτην	εἵρπομεν	εἵρπετε	εἷρπον	#	ἕρπω	   Imperfect: εἷρπον 	Usage: the standard imperfect (Cambridge Greek Lexicon s.v. ἕρπω); εἷρπε occurs 14 times against ἧρπε once in the Perseus corpus. Preferred.
-crawl		past	imperfective	active	indicative	ἧρπον	ἧρπες	ἧρπε(ν)	ἥρπετον	ἡρπέτην	ἥρπομεν	ἥρπετε	ἧρπον	#	ἕρπω	   Imperfect: ἧρπον 	Usage: a rare variant: ἧρπε occurs once against εἷρπε 14 times in the Perseus corpus. εἷρπον is preferred.
+crawl	#	past	imperfective	active	indicative	ἧρπον	ἧρπες	ἧρπε(ν)	ἥρπετον	ἡρπέτην	ἥρπομεν	ἥρπετε	ἧρπον	#	ἕρπω	   Imperfect: ἧρπον 	Usage: a rare variant: ἧρπε occurs once against εἷρπε 14 times in the Perseus corpus. εἷρπον is preferred.
 crawl		past	simple	active	indicative	εἵρπῠσᾰ	εἵρπῠσᾰς	εἵρπῠσε(ν)	εἱρπῠ́σᾰτον	εἱρπῠσᾰ́την	εἱρπῠ́σᾰμεν	εἱρπῠ́σᾰτε	εἵρπῠσᾰν	#	ἕρπω	   Aorist: εἵρπῠσᾰ 	Usage: the Attic aorist, supplied by ἑρπύζω; used by Aristophanes (Middle Liddell and Cambridge Greek Lexicon s.v. ἕρπω). Preferred.
 crawl		past	simple	active	subjunctive	ἑρπῠ́σω	ἑρπῠ́σῃς	ἑρπῠ́σῃ	ἑρπῠ́σητον	ἑρπῠ́σητον	ἑρπῠ́σωμεν	ἑρπῠ́σητε	ἑρπῠ́σωσῐ(ν)	#	ἕρπω	   Aorist: εἵρπῠσᾰ 	Usage: the Attic aorist, supplied by ἑρπύζω; used by Aristophanes (Middle Liddell and Cambridge Greek Lexicon s.v. ἕρπω). Preferred.
 crawl		past	simple	active	optative	ἑρπῠ́σαιμῐ	ἑρπῠ́σειᾰς,ἑρπῠ́σαις	ἑρπῠ́σειε(ν),ἑρπῠ́σαι	ἑρπῠ́σαιτον	ἑρπῠσαίτην	ἑρπῠ́σαιμεν	ἑρπῠ́σαιτε	ἑρπῠ́σειᾰν,ἑρπῠ́σαιεν	#	ἕρπω	   Aorist: εἵρπῠσᾰ 	Usage: the Attic aorist, supplied by ἑρπύζω; used by Aristophanes (Middle Liddell and Cambridge Greek Lexicon s.v. ἕρπω). Preferred.
@@ -1613,18 +1577,18 @@ love		past	simple	passive	indicative	ἠγᾰπήθην	ἠγᾰπήθης	ἠγ
 love		past	simple	passive	subjunctive	ᾰ̓γᾰπηθῶ	ᾰ̓γᾰπηθῇς	ᾰ̓γᾰπηθῇ	ᾰ̓γᾰπηθῆτον	ᾰ̓γᾰπηθῆτον	ᾰ̓γᾰπηθῶμεν	ᾰ̓γᾰπηθῆτε	ᾰ̓γᾰπηθῶσῐ(ν)	#	ἀγαπάω	   Aorist: ἠγᾰ́πησᾰ, ἠγᾰπησᾰ́μην, ἠγᾰπήθην 	
 love		past	simple	passive	optative	ᾰ̓γᾰπηθείην	ᾰ̓γᾰπηθείης	ᾰ̓γᾰπηθείη	ᾰ̓γᾰπηθεῖτον,ᾰ̓γᾰπηθείητον	ᾰ̓γᾰπηθείτην,ᾰ̓γᾰπηθειήτην	ᾰ̓γᾰπηθεῖμεν,ᾰ̓γᾰπηθείημεν	ᾰ̓γᾰπηθεῖτε,ᾰ̓γᾰπηθείητε	ᾰ̓γᾰπηθεῖεν,ᾰ̓γᾰπηθείησᾰν	#	ἀγαπάω	   Aorist: ἠγᾰ́πησᾰ, ἠγᾰπησᾰ́μην, ἠγᾰπήθην 	
 love		past	simple	passive	imperative	 	ᾰ̓γᾰπήθητῐ	ᾰ̓γᾰπηθήτω	ᾰ̓γᾰπήθητον	ᾰ̓γᾰπηθήτων	 	ᾰ̓γᾰπήθητε	ᾰ̓γᾰπηθέντων	#	ἀγαπάω	   Aorist: ἠγᾰ́πησᾰ, ἠγᾰπησᾰ́μην, ἠγᾰπήθην 	
-love			perfective	active	indicative	ἠγᾰ́πηκᾰ	ἠγᾰ́πηκᾰς	ἠγᾰ́πηκε(ν)	ἠγᾰπήκᾰτον	ἠγᾰπήκᾰτον	ἠγᾰπήκᾰμεν	ἠγᾰπήκᾰτε	ἠγᾰπήκᾱσῐ(ν)	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	active	subjunctive	ἠγᾰπήκω	ἠγᾰπήκῃς	ἠγᾰπήκῃ	ἠγᾰπήκητον	ἠγᾰπήκητον	ἠγᾰπήκωμεν	ἠγᾰπήκητε	ἠγᾰπήκωσῐ(ν)	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	active	optative	ἠγᾰπήκοιμῐ,ἠγᾰπηκοίην	ἠγᾰπήκοις,ἠγᾰπηκοίης	ἠγᾰπήκοι,ἠγᾰπηκοίη	ἠγᾰπήκοιτον	ἠγᾰπηκοίτην	ἠγᾰπήκοιμεν	ἠγᾰπήκοιτε	ἠγᾰπήκοιεν	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	active	imperative	 	ἠγᾰ́πηκε	ἠγᾰπηκέτω	ἠγᾰπήκετον	ἠγᾰπηκέτων	 	ἠγᾰπήκετε	ἠγᾰπηκόντων	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	middle	indicative	ἠγᾰ́πημαι	ἠγᾰ́πησαι	ἠγᾰ́πηται	ἠγᾰ́πησθον	ἠγᾰ́πησθον	ἠγᾰπήμεθᾰ	ἠγᾰ́πησθε	ἠγᾰ́πηνται	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	passive	indicative	ἠγᾰ́πημαι	ἠγᾰ́πησαι	ἠγᾰ́πηται	ἠγᾰ́πησθον	ἠγᾰ́πησθον	ἠγᾰπήμεθᾰ	ἠγᾰ́πησθε	ἠγᾰ́πηνται	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	middle	subjunctive	ἠγᾰπημένος ὦ	ἠγᾰπημένος ᾖς	ἠγᾰπημένος ᾖ	ἠγᾰπημένω ἦτον	ἠγᾰπημένω ἦτον	ἠγᾰπημένοι ὦμεν	ἠγᾰπημένοι ἦτε	ἠγᾰπημένοι ὦσῐ(ν)	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	passive	subjunctive	ἠγᾰπημένος ὦ	ἠγᾰπημένος ᾖς	ἠγᾰπημένος ᾖ	ἠγᾰπημένω ἦτον	ἠγᾰπημένω ἦτον	ἠγᾰπημένοι ὦμεν	ἠγᾰπημένοι ἦτε	ἠγᾰπημένοι ὦσῐ(ν)	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	middle	optative	ἠγᾰπημένος εἴην	ἠγᾰπημένος εἴης	ἠγᾰπημένος εἴη	ἠγᾰπημένω εἴητον,εἶτον	ἠγᾰπημένω εἰήτην,εἴτην	ἠγᾰπημένοι εἴημεν,εἶμεν	ἠγᾰπημένοι εἴητε,εἶτε	ἠγᾰπημένοι εἴησᾰν,εἶεν	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	passive	optative	ἠγᾰπημένος εἴην	ἠγᾰπημένος εἴης	ἠγᾰπημένος εἴη	ἠγᾰπημένω εἴητον,εἶτον	ἠγᾰπημένω εἰήτην,εἴτην	ἠγᾰπημένοι εἴημεν,εἶμεν	ἠγᾰπημένοι εἴητε,εἶτε	ἠγᾰπημένοι εἴησᾰν,εἶεν	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	middle	imperative	 	ἠγᾰ́πησο	ἠγᾰπήσθω	ἠγᾰ́πησθον	ἠγᾰπήσθων	 	ἠγᾰ́πησθε	ἠγᾰπήσθων	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
-love			perfective	passive	imperative	 	ἠγᾰ́πησο	ἠγᾰπήσθω	ἠγᾰ́πησθον	ἠγᾰπήσθων	 	ἠγᾰ́πησθε	ἠγᾰπήσθων	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	active	indicative	ἠγᾰ́πηκᾰ	ἠγᾰ́πηκᾰς	ἠγᾰ́πηκε(ν)	ἠγᾰπήκᾰτον	ἠγᾰπήκᾰτον	ἠγᾰπήκᾰμεν	ἠγᾰπήκᾰτε	ἠγᾰπήκᾱσῐ(ν)	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	active	subjunctive	ἠγᾰπήκω	ἠγᾰπήκῃς	ἠγᾰπήκῃ	ἠγᾰπήκητον	ἠγᾰπήκητον	ἠγᾰπήκωμεν	ἠγᾰπήκητε	ἠγᾰπήκωσῐ(ν)	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	active	optative	ἠγᾰπήκοιμῐ,ἠγᾰπηκοίην	ἠγᾰπήκοις,ἠγᾰπηκοίης	ἠγᾰπήκοι,ἠγᾰπηκοίη	ἠγᾰπήκοιτον	ἠγᾰπηκοίτην	ἠγᾰπήκοιμεν	ἠγᾰπήκοιτε	ἠγᾰπήκοιεν	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	active	imperative	 	ἠγᾰ́πηκε	ἠγᾰπηκέτω	ἠγᾰπήκετον	ἠγᾰπηκέτων	 	ἠγᾰπήκετε	ἠγᾰπηκόντων	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	middle	indicative	ἠγᾰ́πημαι	ἠγᾰ́πησαι	ἠγᾰ́πηται	ἠγᾰ́πησθον	ἠγᾰ́πησθον	ἠγᾰπήμεθᾰ	ἠγᾰ́πησθε	ἠγᾰ́πηνται	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	passive	indicative	ἠγᾰ́πημαι	ἠγᾰ́πησαι	ἠγᾰ́πηται	ἠγᾰ́πησθον	ἠγᾰ́πησθον	ἠγᾰπήμεθᾰ	ἠγᾰ́πησθε	ἠγᾰ́πηνται	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	middle	subjunctive	ἠγᾰπημένος ὦ	ἠγᾰπημένος ᾖς	ἠγᾰπημένος ᾖ	ἠγᾰπημένω ἦτον	ἠγᾰπημένω ἦτον	ἠγᾰπημένοι ὦμεν	ἠγᾰπημένοι ἦτε	ἠγᾰπημένοι ὦσῐ(ν)	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	passive	subjunctive	ἠγᾰπημένος ὦ	ἠγᾰπημένος ᾖς	ἠγᾰπημένος ᾖ	ἠγᾰπημένω ἦτον	ἠγᾰπημένω ἦτον	ἠγᾰπημένοι ὦμεν	ἠγᾰπημένοι ἦτε	ἠγᾰπημένοι ὦσῐ(ν)	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	middle	optative	ἠγᾰπημένος εἴην	ἠγᾰπημένος εἴης	ἠγᾰπημένος εἴη	ἠγᾰπημένω εἴητον,εἶτον	ἠγᾰπημένω εἰήτην,εἴτην	ἠγᾰπημένοι εἴημεν,εἶμεν	ἠγᾰπημένοι εἴητε,εἶτε	ἠγᾰπημένοι εἴησᾰν,εἶεν	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	passive	optative	ἠγᾰπημένος εἴην	ἠγᾰπημένος εἴης	ἠγᾰπημένος εἴη	ἠγᾰπημένω εἴητον,εἶτον	ἠγᾰπημένω εἰήτην,εἴτην	ἠγᾰπημένοι εἴημεν,εἶμεν	ἠγᾰπημένοι εἴητε,εἶτε	ἠγᾰπημένοι εἴησᾰν,εἶεν	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	middle	imperative	 	ἠγᾰ́πησο	ἠγᾰπήσθω	ἠγᾰ́πησθον	ἠγᾰπήσθων	 	ἠγᾰ́πησθε	ἠγᾰπήσθων	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
+love		present	perfective	passive	imperative	 	ἠγᾰ́πησο	ἠγᾰπήσθω	ἠγᾰ́πησθον	ἠγᾰπήσθων	 	ἠγᾰ́πησθε	ἠγᾰπήσθων	#	ἀγαπάω	   Perfect: ἠγᾰ́πηκᾰ, ἠγᾰ́πημαι 	
 love		past	perfective	active	indicative	ἠγᾰπήκειν,ἠγᾰπήκη	ἠγᾰπήκεις,ἠγᾰπήκης	ἠγᾰπήκει(ν)	ἠγᾰπήκετον	ἠγᾰπηκέτην	ἠγᾰπήκεμεν	ἠγᾰπήκετε	ἠγᾰπήκεσᾰν	#	ἀγαπάω	   Pluperfect: ἠγᾰπήκειν, ἠγαπήμην 	
 love		past	perfective	middle	indicative	ἠγαπήμην	ἠγάπησο	ἠγάπητο	ἠγάπησθον	ἠγαπήσθην	ἠγαπήμεθᾰ	ἠγάπησθε	ἠγάπηντο	#	ἀγαπάω	   Pluperfect: ἠγᾰπήκειν, ἠγαπήμην 	
 love		past	perfective	passive	indicative	ἠγαπήμην	ἠγάπησο	ἠγάπητο	ἠγάπησθον	ἠγαπήσθην	ἠγαπήμεθᾰ	ἠγάπησθε	ἠγάπηντο	#	ἀγαπάω	   Pluperfect: ἠγᾰπήκειν, ἠγαπήμην 	
