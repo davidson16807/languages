@@ -334,7 +334,6 @@ hill	accusative	deal	dealul	dealuri	dealurile
 hill	genitive	deal	dealului	dealuri	dealurilor						
 hill	dative	deal	dealului	dealuri	dealurilor						
 hill	vocative	dealule	dealule	dealurilor	dealurilor						
-hill	nominative	colină	colina	coline	colinele						
 coin	nominative	monedă	moneda	monede	monedele						
 coin	accusative	monedă	moneda	monede	monedele						
 coin	genitive	monede	monedei	monede	monedelor						
@@ -475,10 +474,10 @@ grandmother	accusative	bunică	bunica	bunici	bunicile
 grandmother	genitive	bunici	bunicii	bunici	bunicilor						
 grandmother	dative	bunici	bunicii	bunici	bunicilor						
 grandmother	vocative	bunică, bunico	bunică, bunico	bunicilor	bunicilor						
-grandfather	nominative-accusative	bunic	bunicul	bunici	bunicii						
-grandfather	nominative-accusative	bunic	bunicul	bunici	bunicii						
-grandfather	genitive-dative	bunic	bunicului	bunici	bunicilor						
-grandfather	genitive-dative	bunic	bunicului	bunici	bunicilor						
+grandfather	nominative	bunic	bunicul	bunici	bunicii						
+grandfather	accusative	bunic	bunicul	bunici	bunicii						
+grandfather	genitive	bunic	bunicului	bunici	bunicilor						
+grandfather	dative	bunic	bunicului	bunici	bunicilor						
 grandfather	vocative	—	—	—	—						
 north	nominative	nord	nordul	—	—						
 north	accusative	nord	nordul	—	—						
