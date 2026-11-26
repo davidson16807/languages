@@ -299,6 +299,14 @@ verb_mood_blacklist = parse.termmask(
     'verb mood',
     '''
     be-able  imperative
+    want     imperative
+    ''')
+
+mood_progress_blacklist = parse.termmask(
+    'mood_progress_blacklist', 
+    'mood progress',
+    '''
+    imperative  finished
     ''')
 
 verb_voice_blacklist = parse.termmask(
@@ -494,6 +502,7 @@ tense_progress_mood_voice_verb_traversal = (
     - verb_progress_blacklist
     - verb_mood_blacklist
     - verb_voice_blacklist
+    - mood_progress_blacklist
 ) * constant['subject'] 
 
 conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)

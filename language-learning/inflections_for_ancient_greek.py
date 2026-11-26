@@ -411,6 +411,30 @@ finite_tense_progress_traversal = parse.termpath(
     past     finished
     ''')
 
+mood_aspect_tense_whitelist = parse.termmask(
+    'mood_aspect_tense_whitelist', 
+    'tense   progress        mood',
+    '''
+     present  atelic      indicative
+     present  atelic      subjunctive
+     present  atelic      optative
+     present  atelic      imperative
+     past     unfinished  indicative
+     past     atelic      indicative
+     past     atelic      subjunctive
+     past     atelic      optative
+     past     atelic      imperative
+     present  finished    indicative
+     present  finished    subjunctive
+     present  finished    optative
+     present  finished    imperative
+     past     finished    indicative
+     future   atelic      indicative
+     future   atelic      optative
+     future   finished    indicative
+     future   finished    optative
+    ''')
+
 pronoun_traversal = parse.tokenpath(
     'pronoun_traversal', 
     'noun person number gender',
@@ -599,6 +623,14 @@ verb_voice_blacklist = parse.termmask(
     '''
     be       middle
     go       middle
+    go       passive
+    ''')
+
+verb_progress_blacklist = parse.termmask(
+    'verb_progress_blacklist', 
+    'verb progress',
+    '''
+    be       finished
     ''')
 
 #useful for debugging
@@ -606,13 +638,15 @@ def head(store):
     print(str(store)[:3000])
 
 tense_progress_mood_voice_verb_traversal = (
-    (((
+    ((((
           axis['valency']
         * finite_tense_progress_traversal
         * axis['mood'])
+        & mood_aspect_tense_whitelist)
         * axis['voice'])
         * axis['verb'])
     - verb_voice_blacklist
+    - verb_progress_blacklist
 ) * constant['subject'] 
 
 conjugation_traversal = template_dummy_lookup(tense_progress_mood_voice_verb_traversal)

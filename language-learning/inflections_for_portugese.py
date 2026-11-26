@@ -153,7 +153,7 @@ foreign_termaxis_to_terms = {
         polarity: affirmative negative
         tense  :  present past future
         voice  :  active
-        mood   :  indicative subjunctive imperative
+        mood   :  indicative subjunctive imperative conditional
         role   :  agent patient stimulus location possessor interior surface presence aid lack interest time company
         subjectivity: subject addressee direct-object adnominal indirect-object adverbial adnominal
         degree :  positive superlative
@@ -268,17 +268,21 @@ conjugation_subject_traversal = parse.termpath(
     3  plural   masculine informal
     ''')
 
-mood_tense_polarity_whitelist = parse.termmask(
-    'mood_tense_whitelist', 
-    'mood tense polarity',
+mood_tense_polarity_progress_whitelist = parse.termmask(
+    'mood_tense_polarity_progress_whitelist', 
+    'mood tense polarity progress',
     '''
-    indicative   present affirmative
-    indicative   past    affirmative
-    indicative   future  affirmative
-    subjunctive  present affirmative
-    subjunctive  past    affirmative
-    imperative   present affirmative
-    imperative   present negative
+    indicative   present  affirmative  atelic
+    indicative   past     affirmative  unfinished
+    indicative   present  affirmative  finished
+    indicative   past     affirmative  finished
+    indicative   future   affirmative  atelic
+    conditional  present  affirmative  atelic
+    subjunctive  present  affirmative  atelic
+    subjunctive  past     affirmative  unfinished
+    subjunctive  future   affirmative  atelic
+    imperative   present  affirmative  atelic
+    imperative   present  negative     atelic
     ''')
 
 finite_tense_progress_traversal = parse.termpath(
@@ -418,7 +422,7 @@ tense_progress_mood_voice_verb_traversal = ((
         * finite_tense_progress_traversal
         * axis['mood']
         * axis['polarity'])
-        & mood_tense_polarity_whitelist)
+        & mood_tense_polarity_progress_whitelist)
         * axis['voice'])
         * axis['verb'])
 ) * constant['subject'])

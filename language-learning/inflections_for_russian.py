@@ -676,6 +676,7 @@ write('flashcards/slavic/russian/pronoun-declension.html',
         defaults.override(
             ((pronoun_traversal * declension_noun_traversal * constant['personal'])
             & noun_template_whitelist)
+            - constant['addressee']
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),

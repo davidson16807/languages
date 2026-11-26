@@ -71,6 +71,7 @@ foreign_language = Language(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/nonfinite-conjugations.tsv')),
                 ])),
             UniformDictLookup([
+                (r'(.*)-',   'carry', 'bʰér'), # sérpeti → sérpoh₂
                 (r'(.*)eti', 'carry', 'bʰér'), # sérpeti → sérpoh₂
                 # (r'(.*)ti',  'eat',   'h₁éd'), # h₁édti  → h₁édmi
             ])),
@@ -86,6 +87,7 @@ foreign_language = Language(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/lexical-noun-declensions.tsv')),
                 ])),
             UniformDictLookup([
+                (r'(.*)-',   'wolf',   'wĺ̥kʷ'),   # wĺ̥kʷos    → wĺ̥kʷosyo
                 (r'(.*)os',  'wolf',   'wĺ̥kʷ'),   # wĺ̥kʷos    → wĺ̥kʷosyo
                 (r'(.*)ós',  'nest',   'nisd'),   # h₁rudʰrós → h₁rudʰrósyo
                 (r'(.*)éh₂', 'nest',   'h₁éḱw'),  # h₁éḱwéh₂  → h₁éḱwéh₂s
@@ -109,6 +111,7 @@ foreign_language = Language(
                         tsv_parsing.rows('data/inflection/indo-european/proto-indo-european/sihler/adjective-agreements.tsv')),
                 ])),
             UniformDictLookup([
+                (r'(.*)-',   'young', 'h₂yuHn̥ḱ'), # h₂yuHn̥ḱós → h₂yuHn̥ḱéh₂
                 (r'(.*)ós',  'young', 'h₂yuHn̥ḱ'), # h₂yuHn̥ḱós → h₂yuHn̥ḱéh₂
                 # (r'(.*)nts', 'old',   'ǵérh₂o' ), # ǵérh₂onts → ǵr̥h₂éntih₂
                 # (r'(.*)is',  'upset', 'tréyst' ), # tréystis  → tristéys
