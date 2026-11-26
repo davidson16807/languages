@@ -1110,12 +1110,12 @@ make	finite	indicative	2	plural	де́лаете	délajete	бу́дете де́
 make	finite	indicative	3	plural	де́лают	délajut	бу́дут де́лать	búdut délatʹ		
 make	finite	imperative	2	singular	де́лай	délaj				
 make	finite	imperative	2	plural	де́лайте	délajte				
-make	finite	indicative	masculine (я/ты/он)	singular					де́лал	délal
-make	finite	indicative	feminine (я/ты/она́)	singular					де́лала	délala
-make	finite	indicative	neuter (оно́)	singular					де́лало	délalo
-make	finite	indicative	masculine (я/ты/он)	plural					де́лали	délali
-make	finite	indicative	feminine (я/ты/она́)	plural					де́лали	délali
-make	finite	indicative	neuter (оно́)	plural					де́лали	délali
+make	finite	indicative	masculine	singular					де́лал	délal
+make	finite	indicative	feminine	singular					де́лала	délala
+make	finite	indicative	neuter	singular					де́лало	délalo
+make	finite	indicative	masculine	plural					де́лали	délali
+make	finite	indicative	feminine	plural					де́лали	délali
+make	finite	indicative	neuter	plural					де́лали	délali
 become	infinitive				станови́ться	stanovítʹsja				
 become	participle		active		становя́щийся	stanovjáščijsja			станови́вшийся	stanovívšijsja
 become	participle		passive		—				—	
@@ -1128,12 +1128,12 @@ become	finite	indicative	2	plural	стано́витесь	stanóvitesʹ	бу́�
 become	finite	indicative	3	plural	стано́вятся	stanóvjatsja	бу́дут станови́ться	búdut stanovítʹsja		
 become	finite	imperative	2	singular	станови́сь	stanovísʹ				
 become	finite	imperative	2	plural	станови́тесь	stanovítesʹ				
-become	finite	indicative	masculine (я/ты/он)	singular					станови́лся	stanovílsja
-become	finite	indicative	feminine (я/ты/она́)	singular					станови́лась	stanovílasʹ
-become	finite	indicative	neuter (оно́)	singular					станови́лось	stanovílosʹ
-become	finite	indicative	masculine (я/ты/он)	plural					станови́лись	stanovílisʹ
-become	finite	indicative	feminine (я/ты/она́)	plural					станови́лись	stanovílisʹ
-become	finite	indicative	neuter (оно́)	plural					станови́лись	stanovílisʹ
+become	finite	indicative	masculine	singular					станови́лся	stanovílsja
+become	finite	indicative	feminine	singular					станови́лась	stanovílasʹ
+become	finite	indicative	neuter	singular					станови́лось	stanovílosʹ
+become	finite	indicative	masculine	plural					станови́лись	stanovílisʹ
+become	finite	indicative	feminine	plural					станови́лись	stanovílisʹ
+become	finite	indicative	neuter	plural					станови́лись	stanovílisʹ
 learn	infinitive				учи́ться	učítʹsja				
 learn	participle		active		уча́щийся	učáščijsja			учи́вшийся	učívšijsja
 learn	participle		passive		—				—	
@@ -1146,12 +1146,12 @@ learn	finite	indicative	2	plural	у́читесь	účitesʹ	бу́дете уч
 learn	finite	indicative	3	plural	у́чатся	účatsja	бу́дут учи́ться	búdut učítʹsja		
 learn	finite	imperative	2	singular	учи́сь	učísʹ				
 learn	finite	imperative	2	plural	учи́тесь	učítesʹ				
-learn	finite	indicative	masculine (я/ты/он)	singular					учи́лся	učílsja
-learn	finite	indicative	feminine (я/ты/она́)	singular					учи́лась	učílasʹ
-learn	finite	indicative	neuter (оно́)	singular					учи́лось	učílosʹ
-learn	finite	indicative	masculine (я/ты/он)	plural					учи́лись	učílisʹ
-learn	finite	indicative	feminine (я/ты/она́)	plural					учи́лись	učílisʹ
-learn	finite	indicative	neuter (оно́)	plural					учи́лись	učílisʹ
+learn	finite	indicative	masculine	singular					учи́лся	učílsja
+learn	finite	indicative	feminine	singular					учи́лась	učílasʹ
+learn	finite	indicative	neuter	singular					учи́лось	učílosʹ
+learn	finite	indicative	masculine	plural					учи́лись	učílisʹ
+learn	finite	indicative	feminine	plural					учи́лись	učílisʹ
+learn	finite	indicative	neuter	plural					учи́лись	učílisʹ
 help	infinitive				помога́ть	pomogátʹ				
 help	participle		active		помога́ющий	pomogájuščij			помога́вший	pomogávšij
 help	participle		passive		—				—	
@@ -1164,12 +1164,12 @@ help	finite	indicative	2	plural	помога́ете	pomogájete	бу́дете 
 help	finite	indicative	3	plural	помога́ют	pomogájut	бу́дут помога́ть	búdut pomogátʹ		
 help	finite	imperative	2	singular	помога́й	pomogáj				
 help	finite	imperative	2	plural	помога́йте	pomogájte				
-help	finite	indicative	masculine (я/ты/он)	singular					помога́л	pomogál
-help	finite	indicative	feminine (я/ты/она́)	singular					помога́ла	pomogála
-help	finite	indicative	neuter (оно́)	singular					помога́ло	pomogálo
-help	finite	indicative	masculine (я/ты/он)	plural					помога́ли	pomogáli
-help	finite	indicative	feminine (я/ты/она́)	plural					помога́ли	pomogáli
-help	finite	indicative	neuter (оно́)	plural					помога́ли	pomogáli
+help	finite	indicative	masculine	singular					помога́л	pomogál
+help	finite	indicative	feminine	singular					помога́ла	pomogála
+help	finite	indicative	neuter	singular					помога́ло	pomogálo
+help	finite	indicative	masculine	plural					помога́ли	pomogáli
+help	finite	indicative	feminine	plural					помога́ли	pomogáli
+help	finite	indicative	neuter	plural					помога́ли	pomogáli
 protect	infinitive				защища́ть	zaščiščátʹ				
 protect	participle		active		защища́ющий	zaščiščájuščij			защища́вший	zaščiščávšij
 protect	participle		passive		защища́емый	zaščiščájemyj			—	
@@ -1182,12 +1182,12 @@ protect	finite	indicative	2	plural	защища́ете	zaščiščájete	бу́
 protect	finite	indicative	3	plural	защища́ют	zaščiščájut	бу́дут защища́ть	búdut zaščiščátʹ		
 protect	finite	imperative	2	singular	защища́й	zaščiščáj				
 protect	finite	imperative	2	plural	защища́йте	zaščiščájte				
-protect	finite	indicative	masculine (я/ты/он)	singular					защища́л	zaščiščál
-protect	finite	indicative	feminine (я/ты/она́)	singular					защища́ла	zaščiščála
-protect	finite	indicative	neuter (оно́)	singular					защища́ло	zaščiščálo
-protect	finite	indicative	masculine (я/ты/он)	plural					защища́ли	zaščiščáli
-protect	finite	indicative	feminine (я/ты/она́)	plural					защища́ли	zaščiščáli
-protect	finite	indicative	neuter (оно́)	plural					защища́ли	zaščiščáli
+protect	finite	indicative	masculine	singular					защища́л	zaščiščál
+protect	finite	indicative	feminine	singular					защища́ла	zaščiščála
+protect	finite	indicative	neuter	singular					защища́ло	zaščiščálo
+protect	finite	indicative	masculine	plural					защища́ли	zaščiščáli
+protect	finite	indicative	feminine	plural					защища́ли	zaščiščáli
+protect	finite	indicative	neuter	plural					защища́ли	zaščiščáli
 hide	infinitive				пря́тать	prjátatʹ				
 hide	participle		active		пря́чущий	prjáčuščij			пря́тавший	prjátavšij
 hide	participle		passive		—				пря́танный	prjátannyj
@@ -1200,12 +1200,12 @@ hide	finite	indicative	2	plural	пря́чете	prjáčete	бу́дете пр�
 hide	finite	indicative	3	plural	пря́чут	prjáčut	бу́дут пря́тать	búdut prjátatʹ		
 hide	finite	imperative	2	singular	пря́чь	prjáčʹ				
 hide	finite	imperative	2	plural	пря́чьте	prjáčʹte				
-hide	finite	indicative	masculine (я/ты/он)	singular					пря́тал	prjátal
-hide	finite	indicative	feminine (я/ты/она́)	singular					пря́тала	prjátala
-hide	finite	indicative	neuter (оно́)	singular					пря́тало	prjátalo
-hide	finite	indicative	masculine (я/ты/он)	plural					пря́тали	prjátali
-hide	finite	indicative	feminine (я/ты/она́)	plural					пря́тали	prjátali
-hide	finite	indicative	neuter (оно́)	plural					пря́тали	prjátali
+hide	finite	indicative	masculine	singular					пря́тал	prjátal
+hide	finite	indicative	feminine	singular					пря́тала	prjátala
+hide	finite	indicative	neuter	singular					пря́тало	prjátalo
+hide	finite	indicative	masculine	plural					пря́тали	prjátali
+hide	finite	indicative	feminine	plural					пря́тали	prjátali
+hide	finite	indicative	neuter	plural					пря́тали	prjátali
 arrive	infinitive				прибыва́ть	pribyvátʹ				
 arrive	participle		active		прибыва́ющий	pribyvájuščij			прибыва́вший	pribyvávšij
 arrive	participle		passive		—				—	
@@ -1218,12 +1218,12 @@ arrive	finite	indicative	2	plural	прибыва́ете	pribyvájete	бу́де
 arrive	finite	indicative	3	plural	прибыва́ют	pribyvájut	бу́дут прибыва́ть	búdut pribyvátʹ		
 arrive	finite	imperative	2	singular	прибыва́й	pribyváj				
 arrive	finite	imperative	2	plural	прибыва́йте	pribyvájte				
-arrive	finite	indicative	masculine (я/ты/он)	singular					прибыва́л	pribyvál
-arrive	finite	indicative	feminine (я/ты/она́)	singular					прибыва́ла	pribyvála
-arrive	finite	indicative	neuter (оно́)	singular					прибыва́ло	pribyválo
-arrive	finite	indicative	masculine (я/ты/он)	plural					прибыва́ли	pribyváli
-arrive	finite	indicative	feminine (я/ты/она́)	plural					прибыва́ли	pribyváli
-arrive	finite	indicative	neuter (оно́)	plural					прибыва́ли	pribyváli
+arrive	finite	indicative	masculine	singular					прибыва́л	pribyvál
+arrive	finite	indicative	feminine	singular					прибыва́ла	pribyvála
+arrive	finite	indicative	neuter	singular					прибыва́ло	pribyválo
+arrive	finite	indicative	masculine	plural					прибыва́ли	pribyváli
+arrive	finite	indicative	feminine	plural					прибыва́ли	pribyváli
+arrive	finite	indicative	neuter	plural					прибыва́ли	pribyváli
 open	infinitive				открыва́ться	otkryvátʹsja				
 open	participle		active		открыва́ющийся	otkryvájuščijsja			открыва́вшийся	otkryvávšijsja
 open	participle		passive		—				—	
@@ -1236,12 +1236,12 @@ open	finite	indicative	2	plural	открыва́етесь	otkryvájetesʹ	бу�
 open	finite	indicative	3	plural	открыва́ются	otkryvájutsja	бу́дут открыва́ться	búdut otkryvátʹsja		
 open	finite	imperative	2	singular	открыва́йся	otkryvájsja				
 open	finite	imperative	2	plural	открыва́йтесь	otkryvájtesʹ				
-open	finite	indicative	masculine (я/ты/он)	singular					открыва́лся	otkryválsja
-open	finite	indicative	feminine (я/ты/она́)	singular					открыва́лась	otkryválasʹ
-open	finite	indicative	neuter (оно́)	singular					открыва́лось	otkryválosʹ
-open	finite	indicative	masculine (я/ты/он)	plural					открыва́лись	otkryválisʹ
-open	finite	indicative	feminine (я/ты/она́)	plural					открыва́лись	otkryválisʹ
-open	finite	indicative	neuter (оно́)	plural					открыва́лись	otkryválisʹ
+open	finite	indicative	masculine	singular					открыва́лся	otkryválsja
+open	finite	indicative	feminine	singular					открыва́лась	otkryválasʹ
+open	finite	indicative	neuter	singular					открыва́лось	otkryválosʹ
+open	finite	indicative	masculine	plural					открыва́лись	otkryválisʹ
+open	finite	indicative	feminine	plural					открыва́лись	otkryválisʹ
+open	finite	indicative	neuter	plural					открыва́лись	otkryválisʹ
 upset	infinitive				огорча́ть	ogorčátʹ				
 upset	participle		active		огорча́ющий	ogorčájuščij			огорча́вший	ogorčávšij
 upset	participle		passive		огорча́емый	ogorčájemyj			—	
@@ -1254,12 +1254,12 @@ upset	finite	indicative	2	plural	огорча́ете	ogorčájete	бу́дет�
 upset	finite	indicative	3	plural	огорча́ют	ogorčájut	бу́дут огорча́ть	búdut ogorčátʹ		
 upset	finite	imperative	2	singular	огорча́й	ogorčáj				
 upset	finite	imperative	2	plural	огорча́йте	ogorčájte				
-upset	finite	indicative	masculine (я/ты/он)	singular					огорча́л	ogorčál
-upset	finite	indicative	feminine (я/ты/она́)	singular					огорча́ла	ogorčála
-upset	finite	indicative	neuter (оно́)	singular					огорча́ло	ogorčálo
-upset	finite	indicative	masculine (я/ты/он)	plural					огорча́ли	ogorčáli
-upset	finite	indicative	feminine (я/ты/она́)	plural					огорча́ли	ogorčáli
-upset	finite	indicative	neuter (оно́)	plural					огорча́ли	ogorčáli
+upset	finite	indicative	masculine	singular					огорча́л	ogorčál
+upset	finite	indicative	feminine	singular					огорча́ла	ogorčála
+upset	finite	indicative	neuter	singular					огорча́ло	ogorčálo
+upset	finite	indicative	masculine	plural					огорча́ли	ogorčáli
+upset	finite	indicative	feminine	plural					огорча́ли	ogorčáli
+upset	finite	indicative	neuter	plural					огорча́ли	ogorčáli
 anger	infinitive				зли́ть	zlítʹ				
 anger	participle		active		зля́щий	zljáščij			зли́вший	zlívšij
 anger	participle		passive		зли́мый1	zlímyj1			—	
@@ -1272,12 +1272,12 @@ anger	finite	indicative	2	plural	зли́те	zlíte	бу́дете зли́ть
 anger	finite	indicative	3	plural	зля́т	zlját	бу́дут зли́ть	búdut zlítʹ		
 anger	finite	imperative	2	singular	зли́	zlí				
 anger	finite	imperative	2	plural	зли́те	zlíte				
-anger	finite	indicative	masculine (я/ты/он)	singular					зли́л	zlíl
-anger	finite	indicative	feminine (я/ты/она́)	singular					зли́ла	zlíla
-anger	finite	indicative	neuter (оно́)	singular					зли́ло	zlílo
-anger	finite	indicative	masculine (я/ты/он)	plural					зли́ли	zlíli
-anger	finite	indicative	feminine (я/ты/она́)	plural					зли́ли	zlíli
-anger	finite	indicative	neuter (оно́)	plural					зли́ли	zlíli
+anger	finite	indicative	masculine	singular					зли́л	zlíl
+anger	finite	indicative	feminine	singular					зли́ла	zlíla
+anger	finite	indicative	neuter	singular					зли́ло	zlílo
+anger	finite	indicative	masculine	plural					зли́ли	zlíli
+anger	finite	indicative	feminine	plural					зли́ли	zlíli
+anger	finite	indicative	neuter	plural					зли́ли	zlíli
 fix	infinitive				чини́ть	činítʹ				
 fix	participle		active		чи́нящий	čínjaščij			чини́вший	činívšij
 fix	participle		passive		чини́мый1	činímyj1			чи́ненный	čínennyj
@@ -1290,12 +1290,12 @@ fix	finite	indicative	2	plural	чи́ните	čínite	бу́дете чини́
 fix	finite	indicative	3	plural	чи́нят	čínjat	бу́дут чини́ть	búdut činítʹ		
 fix	finite	imperative	2	singular	чини́	činí				
 fix	finite	imperative	2	plural	чини́те	činíte				
-fix	finite	indicative	masculine (я/ты/он)	singular					чини́л	činíl
-fix	finite	indicative	feminine (я/ты/она́)	singular					чини́ла	činíla
-fix	finite	indicative	neuter (оно́)	singular					чини́ло	činílo
-fix	finite	indicative	masculine (я/ты/он)	plural					чини́ли	činíli
-fix	finite	indicative	feminine (я/ты/она́)	plural					чини́ли	činíli
-fix	finite	indicative	neuter (оно́)	plural					чини́ли	činíli
+fix	finite	indicative	masculine	singular					чини́л	činíl
+fix	finite	indicative	feminine	singular					чини́ла	činíla
+fix	finite	indicative	neuter	singular					чини́ло	činílo
+fix	finite	indicative	masculine	plural					чини́ли	činíli
+fix	finite	indicative	feminine	plural					чини́ли	činíli
+fix	finite	indicative	neuter	plural					чини́ли	činíli
 fight	infinitive				би́ться	bítʹsja				
 fight	participle		active		бью́щийся	bʹjúščijsja			би́вшийся	bívšijsja
 fight	participle		passive		—				—	
@@ -1308,12 +1308,12 @@ fight	finite	indicative	2	plural	бьётесь	bʹjótesʹ	бу́дете би�
 fight	finite	indicative	3	plural	бью́тся	bʹjútsja	бу́дут би́ться	búdut bítʹsja		
 fight	finite	imperative	2	singular	бе́йся	béjsja				
 fight	finite	imperative	2	plural	бе́йтесь	béjtesʹ				
-fight	finite	indicative	masculine (я/ты/он)	singular					би́лся	bílsja
-fight	finite	indicative	feminine (я/ты/она́)	singular					би́лась	bílasʹ
-fight	finite	indicative	neuter (оно́)	singular					би́лось	bílosʹ
-fight	finite	indicative	masculine (я/ты/он)	plural					би́лись	bílisʹ
-fight	finite	indicative	feminine (я/ты/она́)	plural					би́лись	bílisʹ
-fight	finite	indicative	neuter (оно́)	plural					би́лись	bílisʹ
+fight	finite	indicative	masculine	singular					би́лся	bílsja
+fight	finite	indicative	feminine	singular					би́лась	bílasʹ
+fight	finite	indicative	neuter	singular					би́лось	bílosʹ
+fight	finite	indicative	masculine	plural					би́лись	bílisʹ
+fight	finite	indicative	feminine	plural					би́лись	bílisʹ
+fight	finite	indicative	neuter	plural					би́лись	bílisʹ
 become-open	infinitive				открыва́ться	otkryvátʹsja				
 become-open	participle		active		открыва́ющийся	otkryvájuščijsja			открыва́вшийся	otkryvávšijsja
 become-open	participle		passive		—				—	
@@ -1326,12 +1326,12 @@ become-open	finite	indicative	2	plural	открыва́етесь	otkryvájetes�
 become-open	finite	indicative	3	plural	открыва́ются	otkryvájutsja	бу́дут открыва́ться	búdut otkryvátʹsja		
 become-open	finite	imperative	2	singular	открыва́йся	otkryvájsja				
 become-open	finite	imperative	2	plural	открыва́йтесь	otkryvájtesʹ				
-become-open	finite	indicative	masculine (я/ты/он)	singular					открыва́лся	otkryválsja
-become-open	finite	indicative	feminine (я/ты/она́)	singular					открыва́лась	otkryválasʹ
-become-open	finite	indicative	neuter (оно́)	singular					открыва́лось	otkryválosʹ
-become-open	finite	indicative	masculine (я/ты/он)	plural					открыва́лись	otkryválisʹ
-become-open	finite	indicative	feminine (я/ты/она́)	plural					открыва́лись	otkryválisʹ
-become-open	finite	indicative	neuter (оно́)	plural					открыва́лись	otkryválisʹ
+become-open	finite	indicative	masculine	singular					открыва́лся	otkryválsja
+become-open	finite	indicative	feminine	singular					открыва́лась	otkryválasʹ
+become-open	finite	indicative	neuter	singular					открыва́лось	otkryválosʹ
+become-open	finite	indicative	masculine	plural					открыва́лись	otkryválisʹ
+become-open	finite	indicative	feminine	plural					открыва́лись	otkryválisʹ
+become-open	finite	indicative	neuter	plural					открыва́лись	otkryválisʹ
 suffer	infinitive				страда́ть	stradátʹ				
 suffer	participle		active		страда́ющий	stradájuščij			страда́вший	stradávšij
 suffer	participle		passive		—				—	
@@ -1344,12 +1344,12 @@ suffer	finite	indicative	2	plural	страда́ете	stradájete	бу́дет�
 suffer	finite	indicative	3	plural	страда́ют	stradájut	бу́дут страда́ть	búdut stradátʹ		
 suffer	finite	imperative	2	singular	страда́й	stradáj				
 suffer	finite	imperative	2	plural	страда́йте	stradájte				
-suffer	finite	indicative	masculine (я/ты/он)	singular					страда́л	stradál
-suffer	finite	indicative	feminine (я/ты/она́)	singular					страда́ла	stradála
-suffer	finite	indicative	neuter (оно́)	singular					страда́ло	stradálo
-suffer	finite	indicative	masculine (я/ты/он)	plural					страда́ли	stradáli
-suffer	finite	indicative	feminine (я/ты/она́)	plural					страда́ли	stradáli
-suffer	finite	indicative	neuter (оно́)	plural					страда́ли	stradáli
+suffer	finite	indicative	masculine	singular					страда́л	stradál
+suffer	finite	indicative	feminine	singular					страда́ла	stradála
+suffer	finite	indicative	neuter	singular					страда́ло	stradálo
+suffer	finite	indicative	masculine	plural					страда́ли	stradáli
+suffer	finite	indicative	feminine	plural					страда́ли	stradáli
+suffer	finite	indicative	neuter	plural					страда́ли	stradáli
 greet	infinitive				приве́тствовать	privétstvovatʹ				
 greet	participle		active		приве́тствующий	privétstvujuščij			приве́тствовавший	privétstvovavšij
 greet	participle		passive		приве́тствуемый	privétstvujemyj			приве́тствованный	privétstvovannyj
@@ -1362,12 +1362,12 @@ greet	finite	indicative	2	plural	приве́тствуете	privétstvujete	б
 greet	finite	indicative	3	plural	приве́тствуют	privétstvujut	бу́дут приве́тствовать	búdut privétstvovatʹ		
 greet	finite	imperative	2	singular	приве́тствуй	privétstvuj				
 greet	finite	imperative	2	plural	приве́тствуйте	privétstvujte				
-greet	finite	indicative	masculine (я/ты/он)	singular					приве́тствовал	privétstvoval
-greet	finite	indicative	feminine (я/ты/она́)	singular					приве́тствовала	privétstvovala
-greet	finite	indicative	neuter (оно́)	singular					приве́тствовало	privétstvovalo
-greet	finite	indicative	masculine (я/ты/он)	plural					приве́тствовали	privétstvovali
-greet	finite	indicative	feminine (я/ты/она́)	plural					приве́тствовали	privétstvovali
-greet	finite	indicative	neuter (оно́)	plural					приве́тствовали	privétstvovali
+greet	finite	indicative	masculine	singular					приве́тствовал	privétstvoval
+greet	finite	indicative	feminine	singular					приве́тствовала	privétstvovala
+greet	finite	indicative	neuter	singular					приве́тствовало	privétstvovalo
+greet	finite	indicative	masculine	plural					приве́тствовали	privétstvovali
+greet	finite	indicative	feminine	plural					приве́тствовали	privétstvovali
+greet	finite	indicative	neuter	plural					приве́тствовали	privétstvovali
 heal	infinitive				лечи́ть	lečítʹ				
 heal	participle		active		ле́чащий	léčaščij			лечи́вший	lečívšij
 heal	participle		passive		лечи́мый1	lečímyj1			ле́ченный	léčennyj
@@ -1380,12 +1380,12 @@ heal	finite	indicative	2	plural	ле́чите	léčite	бу́дете лечи�
 heal	finite	indicative	3	plural	ле́чат	léčat	бу́дут лечи́ть	búdut lečítʹ		
 heal	finite	imperative	2	singular	лечи́	lečí				
 heal	finite	imperative	2	plural	лечи́те	lečíte				
-heal	finite	indicative	masculine (я/ты/он)	singular					лечи́л	lečíl
-heal	finite	indicative	feminine (я/ты/она́)	singular					лечи́ла	lečíla
-heal	finite	indicative	neuter (оно́)	singular					лечи́ло	lečílo
-heal	finite	indicative	masculine (я/ты/он)	plural					лечи́ли	lečíli
-heal	finite	indicative	feminine (я/ты/она́)	plural					лечи́ли	lečíli
-heal	finite	indicative	neuter (оно́)	plural					лечи́ли	lečíli
+heal	finite	indicative	masculine	singular					лечи́л	lečíl
+heal	finite	indicative	feminine	singular					лечи́ла	lečíla
+heal	finite	indicative	neuter	singular					лечи́ло	lečílo
+heal	finite	indicative	masculine	plural					лечи́ли	lečíli
+heal	finite	indicative	feminine	plural					лечи́ли	lečíli
+heal	finite	indicative	neuter	plural					лечи́ли	lečíli
 heat	infinitive				гре́ть	grétʹ				
 heat	participle		active		гре́ющий	gréjuščij			гре́вший	grévšij
 heat	participle		passive		гре́емый	gréjemyj			гре́тый	grétyj
@@ -1398,12 +1398,12 @@ heat	finite	indicative	2	plural	гре́ете	gréjete	бу́дете гре́�
 heat	finite	indicative	3	plural	гре́ют	gréjut	бу́дут гре́ть	búdut grétʹ		
 heat	finite	imperative	2	singular	гре́й	gréj				
 heat	finite	imperative	2	plural	гре́йте	gréjte				
-heat	finite	indicative	masculine (я/ты/он)	singular					гре́л	grél
-heat	finite	indicative	feminine (я/ты/она́)	singular					гре́ла	gréla
-heat	finite	indicative	neuter (оно́)	singular					гре́ло	grélo
-heat	finite	indicative	masculine (я/ты/он)	plural					гре́ли	gréli
-heat	finite	indicative	feminine (я/ты/она́)	plural					гре́ли	gréli
-heat	finite	indicative	neuter (оно́)	plural					гре́ли	gréli
+heat	finite	indicative	masculine	singular					гре́л	grél
+heat	finite	indicative	feminine	singular					гре́ла	gréla
+heat	finite	indicative	neuter	singular					гре́ло	grélo
+heat	finite	indicative	masculine	plural					гре́ли	gréli
+heat	finite	indicative	feminine	plural					гре́ли	gréli
+heat	finite	indicative	neuter	plural					гре́ли	gréli
 inhabit	infinitive				населя́ть	naseljátʹ				
 inhabit	participle		active		населя́ющий	naseljájuščij			населя́вший	naseljávšij
 inhabit	participle		passive		населя́емый	naseljájemyj			—	
@@ -1416,12 +1416,12 @@ inhabit	finite	indicative	2	plural	населя́ете	naseljájete	бу́де�
 inhabit	finite	indicative	3	plural	населя́ют	naseljájut	бу́дут населя́ть	búdut naseljátʹ		
 inhabit	finite	imperative	2	singular	населя́й	naseljáj				
 inhabit	finite	imperative	2	plural	населя́йте	naseljájte				
-inhabit	finite	indicative	masculine (я/ты/он)	singular					населя́л	naseljál
-inhabit	finite	indicative	feminine (я/ты/она́)	singular					населя́ла	naseljála
-inhabit	finite	indicative	neuter (оно́)	singular					населя́ло	naseljálo
-inhabit	finite	indicative	masculine (я/ты/он)	plural					населя́ли	naseljáli
-inhabit	finite	indicative	feminine (я/ты/она́)	plural					населя́ли	naseljáli
-inhabit	finite	indicative	neuter (оно́)	plural					населя́ли	naseljáli
+inhabit	finite	indicative	masculine	singular					населя́л	naseljál
+inhabit	finite	indicative	feminine	singular					населя́ла	naseljála
+inhabit	finite	indicative	neuter	singular					населя́ло	naseljálo
+inhabit	finite	indicative	masculine	plural					населя́ли	naseljáli
+inhabit	finite	indicative	feminine	plural					населя́ли	naseljáli
+inhabit	finite	indicative	neuter	plural					населя́ли	naseljáli
 rest	infinitive				отдыха́ть	otdyxátʹ				
 rest	participle		active		отдыха́ющий	otdyxájuščij			отдыха́вший	otdyxávšij
 rest	participle		passive		—				—	
@@ -1434,12 +1434,12 @@ rest	finite	indicative	2	plural	отдыха́ете	otdyxájete	бу́дете 
 rest	finite	indicative	3	plural	отдыха́ют	otdyxájut	бу́дут отдыха́ть	búdut otdyxátʹ		
 rest	finite	imperative	2	singular	отдыха́й	otdyxáj				
 rest	finite	imperative	2	plural	отдыха́йте	otdyxájte				
-rest	finite	indicative	masculine (я/ты/он)	singular					отдыха́л	otdyxál
-rest	finite	indicative	feminine (я/ты/она́)	singular					отдыха́ла	otdyxála
-rest	finite	indicative	neuter (оно́)	singular					отдыха́ло	otdyxálo
-rest	finite	indicative	masculine (я/ты/он)	plural					отдыха́ли	otdyxáli
-rest	finite	indicative	feminine (я/ты/она́)	plural					отдыха́ли	otdyxáli
-rest	finite	indicative	neuter (оно́)	plural					отдыха́ли	otdyxáli
+rest	finite	indicative	masculine	singular					отдыха́л	otdyxál
+rest	finite	indicative	feminine	singular					отдыха́ла	otdyxála
+rest	finite	indicative	neuter	singular					отдыха́ло	otdyxálo
+rest	finite	indicative	masculine	plural					отдыха́ли	otdyxáli
+rest	finite	indicative	feminine	plural					отдыха́ли	otdyxáli
+rest	finite	indicative	neuter	plural					отдыха́ли	otdyxáli
 shout	infinitive				крича́ть	kričátʹ				
 shout	participle		active		крича́щий	kričáščij			крича́вший	kričávšij
 shout	participle		passive		—				—	
@@ -1452,12 +1452,12 @@ shout	finite	indicative	2	plural	кричи́те	kričíte	бу́дете кр�
 shout	finite	indicative	3	plural	крича́т	kričát	бу́дут крича́ть	búdut kričátʹ		
 shout	finite	imperative	2	singular	кричи́	kričí				
 shout	finite	imperative	2	plural	кричи́те	kričíte				
-shout	finite	indicative	masculine (я/ты/он)	singular					крича́л	kričál
-shout	finite	indicative	feminine (я/ты/она́)	singular					крича́ла	kričála
-shout	finite	indicative	neuter (оно́)	singular					крича́ло	kričálo
-shout	finite	indicative	masculine (я/ты/он)	plural					крича́ли	kričáli
-shout	finite	indicative	feminine (я/ты/она́)	plural					крича́ли	kričáli
-shout	finite	indicative	neuter (оно́)	plural					крича́ли	kričáli
+shout	finite	indicative	masculine	singular					крича́л	kričál
+shout	finite	indicative	feminine	singular					крича́ла	kričála
+shout	finite	indicative	neuter	singular					крича́ло	kričálo
+shout	finite	indicative	masculine	plural					крича́ли	kričáli
+shout	finite	indicative	feminine	plural					крича́ли	kričáli
+shout	finite	indicative	neuter	plural					крича́ли	kričáli
 frighten	infinitive				пуга́ть	pugátʹ				
 frighten	participle		active		пуга́ющий	pugájuščij			пуга́вший	pugávšij
 frighten	participle		passive		пуга́емый	pugájemyj			пу́ганный	púgannyj
@@ -1470,12 +1470,12 @@ frighten	finite	indicative	2	plural	пуга́ете	pugájete	бу́дете п
 frighten	finite	indicative	3	plural	пуга́ют	pugájut	бу́дут пуга́ть	búdut pugátʹ		
 frighten	finite	imperative	2	singular	пуга́й	pugáj				
 frighten	finite	imperative	2	plural	пуга́йте	pugájte				
-frighten	finite	indicative	masculine (я/ты/он)	singular					пуга́л	pugál
-frighten	finite	indicative	feminine (я/ты/она́)	singular					пуга́ла	pugála
-frighten	finite	indicative	neuter (оно́)	singular					пуга́ло	pugálo
-frighten	finite	indicative	masculine (я/ты/он)	plural					пуга́ли	pugáli
-frighten	finite	indicative	feminine (я/ты/она́)	plural					пуга́ли	pugáli
-frighten	finite	indicative	neuter (оно́)	plural					пуга́ли	pugáli
+frighten	finite	indicative	masculine	singular					пуга́л	pugál
+frighten	finite	indicative	feminine	singular					пуга́ла	pugála
+frighten	finite	indicative	neuter	singular					пуга́ло	pugálo
+frighten	finite	indicative	masculine	plural					пуга́ли	pugáli
+frighten	finite	indicative	feminine	plural					пуга́ли	pugáli
+frighten	finite	indicative	neuter	plural					пуга́ли	pugáli
 surprise	infinitive				удивля́ть	udivljátʹ				
 surprise	participle		active		удивля́ющий	udivljájuščij			удивля́вший	udivljávšij
 surprise	participle		passive		удивля́емый	udivljájemyj			—	
@@ -1488,12 +1488,12 @@ surprise	finite	indicative	2	plural	удивля́ете	udivljájete	бу́де
 surprise	finite	indicative	3	plural	удивля́ют	udivljájut	бу́дут удивля́ть	búdut udivljátʹ		
 surprise	finite	imperative	2	singular	удивля́й	udivljáj				
 surprise	finite	imperative	2	plural	удивля́йте	udivljájte				
-surprise	finite	indicative	masculine (я/ты/он)	singular					удивля́л	udivljál
-surprise	finite	indicative	feminine (я/ты/она́)	singular					удивля́ла	udivljála
-surprise	finite	indicative	neuter (оно́)	singular					удивля́ло	udivljálo
-surprise	finite	indicative	masculine (я/ты/он)	plural					удивля́ли	udivljáli
-surprise	finite	indicative	feminine (я/ты/она́)	plural					удивля́ли	udivljáli
-surprise	finite	indicative	neuter (оно́)	plural					удивля́ли	udivljáli
+surprise	finite	indicative	masculine	singular					удивля́л	udivljál
+surprise	finite	indicative	feminine	singular					удивля́ла	udivljála
+surprise	finite	indicative	neuter	singular					удивля́ло	udivljálo
+surprise	finite	indicative	masculine	plural					удивля́ли	udivljáli
+surprise	finite	indicative	feminine	plural					удивля́ли	udivljáli
+surprise	finite	indicative	neuter	plural					удивля́ли	udivljáli
 throw	infinitive				броса́ть	brosátʹ				
 throw	participle		active		броса́ющий	brosájuščij			броса́вший	brosávšij
 throw	participle		passive		броса́емый	brosájemyj			—	
@@ -1506,12 +1506,12 @@ throw	finite	indicative	2	plural	броса́ете	brosájete	бу́дете б
 throw	finite	indicative	3	plural	броса́ют	brosájut	бу́дут броса́ть	búdut brosátʹ		
 throw	finite	imperative	2	singular	броса́й	brosáj				
 throw	finite	imperative	2	plural	броса́йте	brosájte				
-throw	finite	indicative	masculine (я/ты/он)	singular					броса́л	brosál
-throw	finite	indicative	feminine (я/ты/она́)	singular					броса́ла	brosála
-throw	finite	indicative	neuter (оно́)	singular					броса́ло	brosálo
-throw	finite	indicative	masculine (я/ты/он)	plural					броса́ли	brosáli
-throw	finite	indicative	feminine (я/ты/она́)	plural					броса́ли	brosáli
-throw	finite	indicative	neuter (оно́)	plural					броса́ли	brosáli
+throw	finite	indicative	masculine	singular					броса́л	brosál
+throw	finite	indicative	feminine	singular					броса́ла	brosála
+throw	finite	indicative	neuter	singular					броса́ло	brosálo
+throw	finite	indicative	masculine	plural					броса́ли	brosáli
+throw	finite	indicative	feminine	plural					броса́ли	brosáli
+throw	finite	indicative	neuter	plural					броса́ли	brosáli
 wait	infinitive				жда́ть	ždátʹ				
 wait	participle		active		жду́щий	ždúščij			жда́вший	ždávšij
 wait	participle		passive		—				—	
@@ -1524,9 +1524,9 @@ wait	finite	indicative	2	plural	ждёте	ždjóte	бу́дете жда́ть	
 wait	finite	indicative	3	plural	жду́т	ždút	бу́дут жда́ть	búdut ždátʹ		
 wait	finite	imperative	2	singular	жди́	ždí				
 wait	finite	imperative	2	plural	жди́те	ždíte				
-wait	finite	indicative	masculine (я/ты/он)	singular					жда́л	ždál
-wait	finite	indicative	feminine (я/ты/она́)	singular					ждала́	ždalá
-wait	finite	indicative	neuter (оно́)	singular					жда́ло	ždálo
-wait	finite	indicative	masculine (я/ты/он)	plural					жда́ли	ždáli
-wait	finite	indicative	feminine (я/ты/она́)	plural					жда́ли	ždáli
-wait	finite	indicative	neuter (оно́)	plural					жда́ли	ždáli
+wait	finite	indicative	masculine	singular					жда́л	ždál
+wait	finite	indicative	feminine	singular					ждала́	ždalá
+wait	finite	indicative	neuter	singular					жда́ло	ždálo
+wait	finite	indicative	masculine	plural					жда́ли	ždáli
+wait	finite	indicative	feminine	plural					жда́ли	ždáli
+wait	finite	indicative	neuter	plural					жда́ли	ždáli
