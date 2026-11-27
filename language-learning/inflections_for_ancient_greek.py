@@ -86,6 +86,8 @@ foreign_language = Language(
             declension_population.index([
                 *possessive_pronoun_annotation.annotate(
                     tsv_parsing.rows('data/inflection/indo-european/greek/attic/pronoun-possessives.tsv')),
+                *lexical_noun_annotation.annotate(
+                    tsv_parsing.rows('data/inflection/indo-european/greek/attic/adjective-agreements.tsv')),
             ])),
     ),
     RuleSyntax(
