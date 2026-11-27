@@ -273,15 +273,16 @@ conjugation_subject_traversal = parse.termpath(
 
 mood_tense_polarity_whitelist = parse.termmask(
     'mood_tense_whitelist', 
-    'mood tense',
+    'mood tense progress',
     '''
-    indicative   present 
-    indicative   past    
-    indicative   future  
-    #conditional  present  
-    subjunctive  present 
-    subjunctive  past    
-    imperative   present 
+    indicative   present  atelic
+    indicative   past     unfinished
+    indicative   past     finished
+    indicative   future   atelic
+    #conditional  present  atelic
+    subjunctive  present  atelic
+    subjunctive  past     unfinished
+    imperative   present  atelic
     ''')
 
 finite_tense_progress_traversal = parse.termpath(
