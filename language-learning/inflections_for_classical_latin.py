@@ -276,6 +276,13 @@ nonfinite_tense_progress_whitelist = parse.termmask(
     future   atelic
     ''')
 
+nonfinite_tense_progress_blacklist = parse.termmask(
+    'nonfinite_tense_progress_blacklist', 
+    'tense progress',
+    '''
+    past  finished
+    ''')
+
 voice_progress_whitelist = parse.termmask(
     'voice_progress_whitelist', 
     'voice progress',
@@ -553,6 +560,7 @@ write('flashcards/romance/latin/nonfinite-conjugation.html',
         defaults.override(
             ((  conjugation_traversal 
               & nonfinite_tense_progress_whitelist) 
+              - nonfinite_tense_progress_blacklist
               - constant['imperative'])
         ),
         tag_templates ={
