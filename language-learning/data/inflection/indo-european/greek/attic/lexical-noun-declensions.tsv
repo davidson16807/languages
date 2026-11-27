@@ -1,763 +1,763 @@
 *	*	singular	singular	dual	dual	plural	plural	#		
 *	*	greek	latin	greek	latin	greek	latin	#		
-animal	nominative	τὸ ζῷον	tò zôion	τὼ ζῴω	tṑ zṓiō	τᾰ̀ ζῷᾰ	tà zôia	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
-animal	genitive	τοῦ ζῴου	toû zṓiou	τοῖν ζῴοιν	toîn zṓioin	τῶν ζῴων	tôn zṓiōn	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
-animal	dative	τῷ ζῴῳ	tôi zṓiōi	τοῖν ζῴοιν	toîn zṓioin	τοῖς ζῴοις	toîs zṓiois	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
-animal	accusative	τὸ ζῷον	tò zôion	τὼ ζῴω	tṑ zṓiō	τᾰ̀ ζῷᾰ	tà zôia	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
+animal	nominative	ζῷον	zôion	ζῴω	zṓiō	ζῷᾰ	zôia	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
+animal	genitive	ζῴου	zṓiou	ζῴοιν	zṓioin	ζῴων	zṓiōn	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
+animal	dative	ζῴῳ	zṓiōi	ζῴοιν	zṓioin	ζῴοις	toîs zṓiois	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
+animal	accusative	ζῷον	zôion	ζῴω	zṓiō	ζῷᾰ	zôia	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
 animal	vocative	ζῷον	zôion	ζῴω	zṓiō	ζῷᾰ	zôia	#	Second declension of τὸ ζῷον; τοῦ ζῴου (Attic)	
-attention	nominative	ἡ φροντῐ́ς	hē phrontís	τὼ φροντῐ́δε	tṑ phrontíde	αἱ φροντῐ́δες	hai phrontídes	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
-attention	genitive	τῆς φροντῐ́δος	tês phrontídos	τοῖν φροντῐ́δοιν	toîn phrontídoin	τῶν φροντῐ́δων	tôn phrontídōn	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
-attention	dative	τῇ φροντῐ́δῐ	têi phrontídi	τοῖν φροντῐ́δοιν	toîn phrontídoin	ταῖς φροντῐ́σῐ / φροντῐ́σῐν	taîs phrontísi(n)	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
-attention	accusative	τὴν φροντῐ́δᾰ	tḕn phrontída	τὼ φροντῐ́δε	tṑ phrontíde	τᾱ̀ς φροντῐ́δᾰς	tā̀s phrontídas	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
-attention	vocative	φροντῐ́ς	phrontís	φροντῐ́δε	phrontíde	φροντῐ́δες	phrontídes	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
-bird	nominative	ὁ, ἡ ὄρνῑς	ho, hē órnīs	τὼ ὄρνῑθε	tṑ órnīthe	οἱ, αἱ ὄρνῑθες	hoi, hai órnīthes	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
-bird	genitive	τοῦ, τῆς ὄρνῑθος	toû, tês órnīthos	τοῖν ὀρνῑ́θοιν	toîn ornī́thoin	τῶν ὀρνῑ́θων	tôn ornī́thōn	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
-bird	dative	τῷ, τῇ ὄρνῑθῐ	tôi, têi órnīthi	τοῖν ὀρνῑ́θοιν	toîn ornī́thoin	τοῖς, ταῖς ὄρνῑσῐ / ὄρνῑσῐν	toîs, taîs órnīsi(n)	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
-bird	accusative	τὸν, τὴν ὄρνῑν / ὄρνῑθα	tòn, tḕn órnīn / órnītha	τὼ ὄρνῑθε	tṑ órnīthe	τοὺς, τᾱ̀ς ὄρνῑθᾰς	toùs, tā̀s órnīthas	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
-bird	vocative	ὄρνῑ	órnī	ὄρνῑθε	órnīthe	ὄρνῑθες	órnīthes	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
-boat	nominative	ἡ ναῦς	hē naûs	τὼ νῆε	tṑ nêe	αἱ νῆες	hai nêes	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-boat	genitive	τῆς νεώς	tês neṓs	τοῖν νεοῖν	toîn neoîn	τῶν νεῶν	tôn neôn	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-boat	dative	τῇ νηΐ	têi nēḯ	τοῖν νεοῖν	toîn neoîn	ταῖς ναυσί / ναυσίν	taîs nausí(n)	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-boat	accusative	τὴν ναῦν	tḕn naûn	τὼ νῆε	tṑ nêe	τᾱ̀ς ναῦς	tā̀s naûs	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-boat	vocative	ναῦ	naû	νῆε	nêe	νῆες	nêes	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-book	nominative	τὸ βῐβλῐ́ον	tò biblíon	τὼ βῐβλῐ́ω	tṑ biblíō	τᾰ̀ βῐβλῐ́ᾰ	tà biblía	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
-book	genitive	τοῦ βῐβλῐ́ου	toû biblíou	τοῖν βῐβλῐ́οιν	toîn biblíoin	τῶν βῐβλῐ́ων	tôn biblíōn	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
-book	dative	τῷ βῐβλῐ́ῳ	tôi biblíōi	τοῖν βῐβλῐ́οιν	toîn biblíoin	τοῖς βῐβλῐ́οις	toîs biblíois	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
-book	accusative	τὸ βῐβλῐ́ον	tò biblíon	τὼ βῐβλῐ́ω	tṑ biblíō	τᾰ̀ βῐβλῐ́ᾰ	tà biblía	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
-book	vocative	βῐβλῐ́ον	biblíon	βῐβλῐ́ω	biblíō	βῐβλῐ́ᾰ	biblía	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
-brother	nominative	ὁ ᾰ̓δελφός	ho adelphós	τὼ ᾰ̓δελφώ	tṑ adelphṓ	οἱ ᾰ̓δελφοί	hoi adelphoí	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
-brother	genitive	τοῦ ᾰ̓δελφοῦ	toû adelphoû	τοῖν ᾰ̓δελφοῖν	toîn adelphoîn	τῶν ᾰ̓δελφῶν	tôn adelphôn	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
-brother	dative	τῷ ᾰ̓δελφῷ	tôi adelphôi	τοῖν ᾰ̓δελφοῖν	toîn adelphoîn	τοῖς ᾰ̓δελφοῖς	toîs adelphoîs	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
-brother	accusative	τὸν ᾰ̓δελφόν	tòn adelphón	τὼ ᾰ̓δελφώ	tṑ adelphṓ	τοὺς ᾰ̓δελφούς	toùs adelphoús	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
-brother	vocative	ᾰ̓δελφέ / ᾰ̓́δελφε	adelphé / ádelphe	ᾰ̓δελφώ	adelphṓ	ᾰ̓δελφοί	adelphoí	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
-bug	nominative	τὸ ἔντομον	tò éntomon	τὼ ἐντόμω	tṑ entómō	τᾰ̀ ἔντομᾰ	tà éntoma	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
-bug	genitive	τοῦ ἐντόμου	toû entómou	τοῖν ἐντόμοιν	toîn entómoin	τῶν ἐντόμων	tôn entómōn	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
-bug	dative	τῷ ἐντόμῳ	tôi entómōi	τοῖν ἐντόμοιν	toîn entómoin	τοῖς ἐντόμοις	toîs entómois	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
-bug	accusative	τὸ ἔντομον	tò éntomon	τὼ ἐντόμω	tṑ entómō	τᾰ̀ ἔντομᾰ	tà éntoma	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
-bug	vocative	ἔντομον	éntomon	ἐντόμω	entómō	ἔντομᾰ	éntoma	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
-dog	nominative	ὁ, ἡ κῠ́ων	ho, hē kúōn	τὼ κῠ́νε	tṑ kúne	οἱ, αἱ κῠ́νες	hoi, hai kúnes	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
-dog	genitive	τοῦ, τῆς κῠνός	toû, tês kunós	τοῖν κῠνοῖν	toîn kunoîn	τῶν κῠνῶν	tôn kunôn	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
-dog	dative	τῷ, τῇ κῠνῐ́	tôi, têi kuní	τοῖν κῠνοῖν	toîn kunoîn	τοῖς, ταῖς κῠσῐ́ / κῠσῐ́ν / κῠ́νεσσῐ	toîs, taîs kusí / kusín / kúnessi	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
-dog	accusative	τὸν, τὴν κῠ́νᾰ	tòn, tḕn kúna	τὼ κῠ́νε	tṑ kúne	τοὺς, τᾱ̀ς κῠ́νᾰς	toùs, tā̀s kúnas	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
-dog	vocative	κῠ́ον / κῠ́ων	kúon / kúōn	κῠ́νε	kúne	κῠ́νες	kúnes	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
-door	nominative	ἡ θῠ́ρᾱ	hē thúrā	τὼ θῠ́ρᾱ	tṑ thúrā	αἱ θῠ́ραι	hai thúrai	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
-door	genitive	τῆς θῠ́ρᾱς	tês thúrās	τοῖν θῠ́ραιν	toîn thúrain	τῶν θῠρῶν	tôn thurôn	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
-door	dative	τῇ θῠ́ρᾳ	têi thúrāi	τοῖν θῠ́ραιν	toîn thúrain	ταῖς θῠ́ραις	taîs thúrais	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
-door	accusative	τὴν θῠ́ρᾱν	tḕn thúrān	τὼ θῠ́ρᾱ	tṑ thúrā	τᾱ̀ς θῠ́ρᾱς	tā̀s thúrās	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
-door	vocative	θῠ́ρᾱ	thúrā	θῠ́ρᾱ	thúrā	θῠ́ραι	thúrai	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
-clothing	nominative	ἡ ἐσθής	hē esthḗs	τὼ ἐσθῆτε	tṑ esthête	αἱ ἐσθῆτες	hai esthêtes	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
-clothing	genitive	τῆς ἐσθῆτος	tês esthêtos	τοῖν ἐσθήτοιν	toîn esthḗtoin	τῶν ἐσθήτων	tôn esthḗtōn	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
-clothing	dative	τῇ ἐσθῆτῐ	têi esthêti	τοῖν ἐσθήτοιν	toîn esthḗtoin	ταῖς ἐσθῆσῐ / ἐσθῆσῐν	taîs esthêsi(n)	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
-clothing	accusative	τὴν ἐσθῆτᾰ	tḕn esthêta	τὼ ἐσθῆτε	tṑ esthête	τᾱ̀ς ἐσθῆτᾰς	tā̀s esthêtas	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
-clothing	vocative	ἐσθής	esthḗs	ἐσθῆτε	esthête	ἐσθῆτες	esthêtes	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
-daughter	nominative	ἡ θῠγᾰ́τηρ	hē thugátēr	τὼ θῠγᾰ́τερε	tṑ thugátere	αἱ θῠγᾰτέρες / θῠ́γᾰτρες	hai thugatéres / thúgatres	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
-daughter	genitive	τῆς θῠγᾰτέρος / θῠγᾰτρός	tês thugatéros / thugatrós	τοῖν θῠγᾰτέροιν	toîn thugatéroin	τῶν θῠγᾰτέρων / θῠγᾰτρῶν	tôn thugatérōn / thugatrôn	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
-daughter	dative	τῇ θῠγᾰτέρῐ / θῠγᾰτρί	têi thugatéri / thugatrí	τοῖν θῠγᾰτέροιν	toîn thugatéroin	ταῖς θῠγᾰτέρσῐ / θῠγᾰτέρσῐν / θῠγᾰτρᾰ́σῐ / θῠγᾰτρᾰ́σῐν	taîs thugatérsi(n) / thugatrási(n)	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
-daughter	accusative	τὴν θῠγᾰ́τερᾰ / θῠγᾰτέρᾰ / θῠ́γᾰτρᾰ	tḕn thugátera / thugatéra / thúgatra	τὼ θῠγᾰ́τερε	tṑ thugátere	τᾱ̀ς θῠγᾰτέρᾰς	tā̀s thugatéras	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
-daughter	vocative	θῠγᾰ́τερ / θῠ́γᾰτερ	thugáter / thúgater	θῠγᾰ́τερε	thugátere	θῠγᾰτέρες / θῠ́γᾰτρες	thugatéres / thúgatres	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
-drum	nominative	τὸ τῠ́μπᾰνον	tò túmpanon	τὼ τῠμπᾰ́νω	tṑ tumpánō	τᾰ̀ τῠ́μπᾰνᾰ	tà túmpana	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
-drum	genitive	τοῦ τῠμπᾰ́νου	toû tumpánou	τοῖν τῠμπᾰ́νοιν	toîn tumpánoin	τῶν τῠμπᾰ́νων	tôn tumpánōn	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
-drum	dative	τῷ τῠμπᾰ́νῳ	tôi tumpánōi	τοῖν τῠμπᾰ́νοιν	toîn tumpánoin	τοῖς τῠμπᾰ́νοις	toîs tumpánois	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
-drum	accusative	τὸ τῠ́μπᾰνον	tò túmpanon	τὼ τῠμπᾰ́νω	tṑ tumpánō	τᾰ̀ τῠ́μπᾰνᾰ	tà túmpana	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
-drum	vocative	τῠ́μπᾰνον	túmpanon	τῠμπᾰ́νω	tumpánō	τῠ́μπᾰνᾰ	túmpana	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
-fire	nominative	τὸ πῦρ	tò pûr	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
-fire	genitive	τοῦ πῠρός	toû purós	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
-fire	dative	τῷ πῠρῐ́	tôi purí	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
-fire	accusative	τὸ πῦρ	tò pûr	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
-fire	vocative	πῦρ	pûr	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
-food	nominative	τὸ βρῶμᾰ	tò brôma	τὼ βρώμᾰτε	tṑ brṓmate	τᾰ̀ βρώμᾰτᾰ	tà brṓmata	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
-food	genitive	τοῦ βρώμᾰτος	toû brṓmatos	τοῖν βρωμᾰ́τοιν	toîn brōmátoin	τῶν βρωμᾰ́των	tôn brōmátōn	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
-food	dative	τῷ βρώμᾰτῐ	tôi brṓmati	τοῖν βρωμᾰ́τοιν	toîn brōmátoin	τοῖς βρώμᾰσῐ / βρώμᾰσῐν	toîs brṓmasi(n)	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
-food	accusative	τὸ βρῶμᾰ	tò brôma	τὼ βρώμᾰτε	tṑ brṓmate	τᾰ̀ βρώμᾰτᾰ	tà brṓmata	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
-food	vocative	βρῶμᾰ	brôma	βρώμᾰτε	brṓmate	βρώμᾰτᾰ	brṓmata	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
-gift	nominative	τὸ δῶρον	tò dôron	τὼ δώρω	tṑ dṓrō	τᾰ̀ δῶρᾰ	tà dôra	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
-gift	genitive	τοῦ δώρου	toû dṓrou	τοῖν δώροιν	toîn dṓroin	τῶν δώρων	tôn dṓrōn	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
-gift	dative	τῷ δώρῳ	tôi dṓrōi	τοῖν δώροιν	toîn dṓroin	τοῖς δώροις	toîs dṓrois	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
-gift	accusative	τὸ δῶρον	tò dôron	τὼ δώρω	tṑ dṓrō	τᾰ̀ δῶρᾰ	tà dôra	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
-gift	vocative	δῶρον	dôron	δώρω	dṓrō	δῶρᾰ	dôra	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
-glass	nominative	ἡ ὕᾰλος	hē húalos	τὼ ὑᾰ́λω	tṑ huálō	αἱ ὕᾰλοι	hai húaloi	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
-glass	genitive	τῆς ὑᾰ́λου	tês huálou	τοῖν ὑᾰ́λοιν	toîn huáloin	τῶν ὑᾰ́λων	tôn huálōn	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
-glass	dative	τῇ ὑᾰ́λῳ	têi huálōi	τοῖν ὑᾰ́λοιν	toîn huáloin	ταῖς ὑᾰ́λοις	taîs huálois	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
-glass	accusative	τὴν ὕᾰλον	tḕn húalon	τὼ ὑᾰ́λω	tṑ huálō	τᾱ̀ς ὑᾰ́λους	tā̀s huálous	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
-glass	vocative	ὕᾰλε	húale	ὑᾰ́λω	huálō	ὕᾰλοι	húaloi	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
-guard	nominative	ὁ τηρός	ho tērós	τὼ τηρώ	tṑ tērṓ	οἱ τηροί	hoi tēroí	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
-guard	genitive	τοῦ τηροῦ	toû tēroû	τοῖν τηροῖν	toîn tēroîn	τῶν τηρῶν	tôn tērôn	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
-guard	dative	τῷ τηρῷ	tôi tērôi	τοῖν τηροῖν	toîn tēroîn	τοῖς τηροῖς	toîs tēroîs	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
-guard	accusative	τὸν τηρόν	tòn tērón	τὼ τηρώ	tṑ tērṓ	τοὺς τηρούς	toùs tēroús	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
-guard	vocative	τηρέ	tēré	τηρώ	tērṓ	τηροί	tēroí	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
-horse	nominative	ὁ, ἡ ῐ̔́ππος	ho, hē híppos	τὼ ῐ̔́ππω	tṑ híppō	οἱ, αἱ ῐ̔́πποι	hoi, hai híppoi	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
-horse	genitive	τοῦ, τῆς ῐ̔́ππου	toû, tês híppou	τοῖν ῐ̔́πποιν	toîn híppoin	τῶν ῐ̔́ππων	tôn híppōn	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
-horse	dative	τῷ, τῇ ῐ̔́ππῳ	tôi, têi híppōi	τοῖν ῐ̔́πποιν	toîn híppoin	τοῖς, ταῖς ῐ̔́πποις	toîs, taîs híppois	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
-horse	accusative	τὸν, τὴν ῐ̔́ππον	tòn, tḕn híppon	τὼ ῐ̔́ππω	tṑ híppō	τοὺς, τᾱ̀ς ῐ̔́ππους	toùs, tā̀s híppous	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
-horse	vocative	ῐ̔́ππε	híppe	ῐ̔́ππω	híppō	ῐ̔́πποι	híppoi	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
-house	nominative	ὁ οἶκος	ho oîkos	τὼ οἴκω	tṑ oíkō	οἱ οἶκοι	hoi oîkoi	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
-house	genitive	τοῦ οἴκου	toû oíkou	τοῖν οἴκοιν	toîn oíkoin	τῶν οἴκων	tôn oíkōn	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
-house	dative	τῷ οἴκῳ	tôi oíkōi	τοῖν οἴκοιν	toîn oíkoin	τοῖς οἴκοις	toîs oíkois	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
-house	accusative	τὸν οἶκον	tòn oîkon	τὼ οἴκω	tṑ oíkō	τοὺς οἴκους	toùs oíkous	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
-house	vocative	οἶκε	oîke	οἴκω	oíkō	οἶκοι	oîkoi	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
-livestock	nominative	τὸ κτῆνος	tò ktênos	τὼ κτήνει	tṑ ktḗnei	τᾰ̀ κτήνη	tà ktḗnē	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
-livestock	genitive	τοῦ κτήνους	toû ktḗnous	τοῖν κτηνοῖν	toîn ktēnoîn	τῶν κτηνῶν	tôn ktēnôn	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
-livestock	dative	τῷ κτήνει	tôi ktḗnei	τοῖν κτηνοῖν	toîn ktēnoîn	τοῖς κτήνεσῐ / κτήνεσῐν	toîs ktḗnesi(n)	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
-livestock	accusative	τὸ κτῆνος	tò ktênos	τὼ κτήνει	tṑ ktḗnei	τᾰ̀ κτήνη	tà ktḗnē	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
-livestock	vocative	κτῆνος	ktênos	κτήνει	ktḗnei	κτήνη	ktḗnē	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
-love	nominative	ἡ φῐλῐ́ᾱ	hē philíā	τὼ φῐλῐ́ᾱ	tṑ philíā	αἱ φῐλῐ́αι	hai philíai	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
-love	genitive	τῆς φῐλῐ́ᾱς	tês philíās	τοῖν φῐλῐ́αιν	toîn philíain	τῶν φῐλῐῶν	tôn philiôn	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
-love	dative	τῇ φῐλῐ́ᾳ	têi philíāi	τοῖν φῐλῐ́αιν	toîn philíain	ταῖς φῐλῐ́αις	taîs philíais	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
-love	accusative	τὴν φῐλῐ́ᾱν	tḕn philíān	τὼ φῐλῐ́ᾱ	tṑ philíā	τᾱ̀ς φῐλῐ́ᾱς	tā̀s philíās	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
-love	vocative	φῐλῐ́ᾱ	philíā	φῐλῐ́ᾱ	philíā	φῐλῐ́αι	philíai	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
-idea	nominative	ἡ ἰδέᾱ	hē idéā	τὼ ἰδέᾱ	tṑ idéā	αἱ ἰδέαι	hai idéai	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
-idea	genitive	τῆς ἰδέᾱς	tês idéās	τοῖν ἰδέαιν	toîn idéain	τῶν ἰδεῶν	tôn ideôn	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
-idea	dative	τῇ ἰδέᾳ	têi idéāi	τοῖν ἰδέαιν	toîn idéain	ταῖς ἰδέαις	taîs idéais	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
-idea	accusative	τὴν ἰδέᾱν	tḕn idéān	τὼ ἰδέᾱ	tṑ idéā	τᾱ̀ς ἰδέᾱς	tā̀s idéās	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
-idea	vocative	ἰδέᾱ	idéā	ἰδέᾱ	idéā	ἰδέαι	idéai	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
-man	nominative	ὁ ᾰ̓νήρ	ho anḗr	τὼ ᾰ̓́νδρε	tṑ ándre	οἱ ᾰ̓́νδρες	hoi ándres	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
-man	genitive	τοῦ ᾰ̓νδρός	toû andrós	τοῖν ᾰ̓νδροῖν	toîn androîn	τῶν ᾰ̓νδρῶν	tôn andrôn	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
-man	dative	τῷ ᾰ̓νδρῐ́	tôi andrí	τοῖν ᾰ̓νδροῖν	toîn androîn	τοῖς ᾰ̓νδρᾰ́σῐ / ᾰ̓νδρᾰ́σῐν	toîs andrási(n)	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
-man	accusative	τὸν ᾰ̓́νδρᾰ	tòn ándra	τὼ ᾰ̓́νδρε	tṑ ándre	τοὺς ᾰ̓́νδρᾰς	toùs ándras	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
-man	vocative	ᾰ̓́νερ	áner	ᾰ̓́νδρε	ándre	ᾰ̓́νδρες	ándres	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
-money	nominative	τὸ κέρμᾰ	tò kérma	τὼ κέρμᾰτε	tṑ kérmate	τᾰ̀ κέρμᾰτᾰ	tà kérmata	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
-money	genitive	τοῦ κέρμᾰτος	toû kérmatos	τοῖν κερμᾰ́τοιν	toîn kermátoin	τῶν κερμᾰ́των	tôn kermátōn	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
-money	dative	τῷ κέρμᾰτῐ	tôi kérmati	τοῖν κερμᾰ́τοιν	toîn kermátoin	τοῖς κέρμᾰσῐ / κέρμᾰσῐν	toîs kérmasi(n)	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
-money	accusative	τὸ κέρμᾰ	tò kérma	τὼ κέρμᾰτε	tṑ kérmate	τᾰ̀ κέρμᾰτᾰ	tà kérmata	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
-money	vocative	κέρμᾰ	kérma	κέρμᾰτε	kérmate	κέρμᾰτᾰ	kérmata	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
-monster	nominative	τὸ τέρᾰς	tò téras	τὼ τέρᾰτε	tṑ térate	τᾰ̀ τέρᾰτᾰ / τεράᾰτᾰ	tà térata / teráata	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
-monster	genitive	τοῦ τέρᾰτος	toû tératos	τοῖν τερᾰ́τοιν	toîn terátoin	τῶν τερᾰ́των	tôn terátōn	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
-monster	dative	τῷ τέρᾰτῐ	tôi térati	τοῖν τερᾰ́τοιν	toîn terátoin	τοῖς τέρᾰσῐ / τέρᾰσῐν	toîs térasi(n)	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
-monster	accusative	τὸ τέρᾰς	tò téras	τὼ τέρᾰτε	tṑ térate	τᾰ̀ τέρᾰτᾰ / τεράᾰτᾰ	tà térata / teráata	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
-monster	vocative	τέρᾰς	téras	τέρᾰτε	térate	τέρᾰτᾰ / τεράᾰτᾰ	térata / teráata	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
-name	nominative	τὸ ὄνομᾰ	tò ónoma	τὼ ὀνόμᾰτε	tṑ onómate	τᾰ̀ ὀνόμᾰτᾰ	tà onómata	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
-name	genitive	τοῦ ὀνόμᾰτος	toû onómatos	τοῖν ὀνομᾰ́τοιν	toîn onomátoin	τῶν ὀνομᾰ́των	tôn onomátōn	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
-name	dative	τῷ ὀνόμᾰτῐ	tôi onómati	τοῖν ὀνομᾰ́τοιν	toîn onomátoin	τοῖς ὀνόμᾰσῐ / ὀνόμᾰσῐν	toîs onómasi(n)	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
-name	accusative	τὸ ὄνομᾰ	tò ónoma	τὼ ὀνόμᾰτε	tṑ onómate	τᾰ̀ ὀνόμᾰτᾰ	tà onómata	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
-name	vocative	ὄνομᾰ	ónoma	ὀνόμᾰτε	onómate	ὀνόμᾰτᾰ	onómata	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
-rock	nominative	ὁ, ἡ λῐ́θος	ho, hē líthos	τὼ λῐ́θω	tṑ líthō	οἱ, αἱ λῐ́θοι	hoi, hai líthoi	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
-rock	genitive	τοῦ, τῆς λῐ́θου	toû, tês líthou	τοῖν λῐ́θοιν	toîn líthoin	τῶν λῐ́θων	tôn líthōn	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
-rock	dative	τῷ, τῇ λῐ́θῳ	tôi, têi líthōi	τοῖν λῐ́θοιν	toîn líthoin	τοῖς, ταῖς λῐ́θοις	toîs, taîs líthois	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
-rock	accusative	τὸν, τὴν λῐ́θον	tòn, tḕn líthon	τὼ λῐ́θω	tṑ líthō	τοὺς, τᾱ̀ς λῐ́θους	toùs, tā̀s líthous	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
-rock	vocative	λῐ́θε	líthe	λῐ́θω	líthō	λῐ́θοι	líthoi	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
-rope	nominative	ἡ σειρᾱ́	hē seirā́	τὼ σειρᾱ́	tṑ seirā́	αἱ σειραί	hai seiraí	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
-rope	genitive	τῆς σειρᾶς	tês seirâs	τοῖν σειραῖν	toîn seiraîn	τῶν σειρῶν	tôn seirôn	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
-rope	dative	τῇ σειρᾷ	têi seirâi	τοῖν σειραῖν	toîn seiraîn	ταῖς σειραῖς	taîs seiraîs	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
-rope	accusative	τὴν σειρᾱ́ν	tḕn seirā́n	τὼ σειρᾱ́	tṑ seirā́	τᾱ̀ς σειρᾱ́ς	tā̀s seirā́s	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
-rope	vocative	σειρᾱ́	seirā́	σειρᾱ́	seirā́	σειραί	seiraí	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
-size	nominative	τὸ μέγεθος	tò mégethos	τὼ μεγέθει	tṑ megéthei	τᾰ̀ μεγέθη	tà megéthē	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
-size	genitive	τοῦ μεγέθους	toû megéthous	τοῖν μεγεθοῖν	toîn megethoîn	τῶν μεγεθῶν	tôn megethôn	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
-size	dative	τῷ μεγέθει	tôi megéthei	τοῖν μεγεθοῖν	toîn megethoîn	τοῖς μεγέθεσῐ / μεγέθεσῐν	toîs megéthesi(n)	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
-size	accusative	τὸ μέγεθος	tò mégethos	τὼ μεγέθει	tṑ megéthei	τᾰ̀ μεγέθη	tà megéthē	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
-size	vocative	μέγεθος	mégethos	μεγέθει	megéthei	μεγέθη	megéthē	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
-sister	nominative	ἡ ἀδελφή	hē adelphḗ	τὼ ἀδελφᾱ́	tṑ adelphā́	αἱ ἀδελφαί	hai adelphaí	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
-sister	genitive	τῆς ἀδελφῆς	tês adelphês	τοῖν ἀδελφαῖν	toîn adelphaîn	τῶν ἀδελφῶν	tôn adelphôn	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
-sister	dative	τῇ ἀδελφῇ	têi adelphêi	τοῖν ἀδελφαῖν	toîn adelphaîn	ταῖς ἀδελφαῖς	taîs adelphaîs	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
-sister	accusative	τὴν ἀδελφήν	tḕn adelphḗn	τὼ ἀδελφᾱ́	tṑ adelphā́	τᾱ̀ς ἀδελφᾱ́ς	tā̀s adelphā́s	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
-sister	vocative	ἀδελφή	adelphḗ	ἀδελφᾱ́	adelphā́	ἀδελφαί	adelphaí	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
-son	nominative	ὁ υἱός	ho huiós	τὼ υἱώ	tṑ huiṓ	οἱ υἱοί	hoi huioí	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
-son	genitive	τοῦ υἱοῦ	toû huioû	τοῖν υἱοῖν	toîn huioîn	τῶν υἱῶν	tôn huiôn	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
-son	dative	τῷ υἱῷ	tôi huiôi	τοῖν υἱοῖν	toîn huioîn	τοῖς υἱοῖς	toîs huioîs	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
-son	accusative	τὸν υἱόν	tòn huión	τὼ υἱώ	tṑ huiṓ	τοὺς υἱούς	toùs huioús	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
-son	vocative	υἱέ	huié	υἱώ	huiṓ	υἱοί	huioí	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
-sound	nominative	ὁ ἦχος	ho êkhos	τὼ ἤχω	tṑ ḗkhō	οἱ ἦχοι	hoi êkhoi	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
-sound	genitive	τοῦ ἤχου	toû ḗkhou	τοῖν ἤχοιν	toîn ḗkhoin	τῶν ἤχων	tôn ḗkhōn	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
-sound	dative	τῷ ἤχῳ	tôi ḗkhōi	τοῖν ἤχοιν	toîn ḗkhoin	τοῖς ἤχοις	toîs ḗkhois	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
-sound	accusative	τὸν ἦχον	tòn êkhon	τὼ ἤχω	tṑ ḗkhō	τοὺς ἤχους	toùs ḗkhous	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
-sound	vocative	ἦχε	êkhe	ἤχω	ḗkhō	ἦχοι	êkhoi	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
-warmth	nominative	ἡ θέρμη	hē thérmē	τὼ θέρμᾱ	tṑ thérmā	αἱ θέρμαι	hai thérmai	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
-warmth	genitive	τῆς θέρμης	tês thérmēs	τοῖν θέρμαιν	toîn thérmain	τῶν θερμῶν	tôn thermôn	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
-warmth	dative	τῇ θέρμῃ	têi thérmēi	τοῖν θέρμαιν	toîn thérmain	ταῖς θέρμαις	taîs thérmais	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
-warmth	accusative	τὴν θέρμην	tḕn thérmēn	τὼ θέρμᾱ	tṑ thérmā	τᾱ̀ς θέρμᾱς	tā̀s thérmās	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
-warmth	vocative	θέρμη	thérmē	θέρμᾱ	thérmā	θέρμαι	thérmai	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
-water	nominative	τὸ ῠ̔́δωρ	tò húdōr	τὼ ῠ̔́δᾰτε	tṑ húdate	τᾰ̀ ῠ̔́δᾰτᾰ	tà húdata	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
-water	genitive	τοῦ ῠ̔́δᾰτος	toû húdatos	τοῖν ῠ̔δᾰ́τοιν	toîn hudátoin	τῶν ῠ̔δᾰ́των	tôn hudátōn	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
-water	dative	τῷ ῠ̔́δᾰτῐ	tôi húdati	τοῖν ῠ̔δᾰ́τοιν	toîn hudátoin	τοῖς ῠ̔́δᾰσῐ / ῠ̔́δᾰσῐν	toîs húdasi(n)	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
-water	accusative	τὸ ῠ̔́δωρ	tò húdōr	τὼ ῠ̔́δᾰτε	tṑ húdate	τᾰ̀ ῠ̔́δᾰτᾰ	tà húdata	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
-water	vocative	ῠ̔́δωρ	húdōr	ῠ̔́δᾰτε	húdate	ῠ̔́δᾰτᾰ	húdata	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
-way	nominative	ἡ κέλευθος	hē kéleuthos	τὼ κελεύθω	tṑ keleúthō	αἱ κέλευθοι	hai kéleuthoi	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
-way	genitive	τῆς κελεύθου	tês keleúthou	τοῖν κελεύθοιν	toîn keleúthoin	τῶν κελεύθων	tôn keleúthōn	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
-way	dative	τῇ κελεύθῳ	têi keleúthōi	τοῖν κελεύθοιν	toîn keleúthoin	ταῖς κελεύθοις	taîs keleúthois	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
-way	accusative	τὴν κέλευθον	tḕn kéleuthon	τὼ κελεύθω	tṑ keleúthō	τᾱ̀ς κελεύθους	tā̀s keleúthous	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
-way	vocative	κέλευθε	kéleuthe	κελεύθω	keleúthō	κέλευθοι	kéleuthoi	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
-wind	nominative	ὁ ᾰ̓́νεμος	ho ánemos	τὼ ᾰ̓νέμω	tṑ anémō	οἱ ᾰ̓́νεμοι	hoi ánemoi	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
-wind	genitive	τοῦ ᾰ̓νέμου	toû anémou	τοῖν ᾰ̓νέμοιν	toîn anémoin	τῶν ᾰ̓νέμων	tôn anémōn	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
-wind	dative	τῷ ᾰ̓νέμῳ	tôi anémōi	τοῖν ᾰ̓νέμοιν	toîn anémoin	τοῖς ᾰ̓νέμοις	toîs anémois	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
-wind	accusative	τὸν ᾰ̓́νεμον	tòn ánemon	τὼ ᾰ̓νέμω	tṑ anémō	τοὺς ᾰ̓νέμους	toùs anémous	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
-wind	vocative	ᾰ̓́νεμε	áneme	ᾰ̓νέμω	anémō	ᾰ̓́νεμοι	ánemoi	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
-window	nominative	ἡ θῠρῐ́ς	hē thurís	τὼ θῠρῐ́δε	tṑ thuríde	αἱ θῠρῐ́δες	hai thurídes	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
-window	genitive	τῆς θῠρῐ́δος	tês thurídos	τοῖν θῠρῐ́δοιν	toîn thurídoin	τῶν θῠρῐ́δων	tôn thurídōn	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
-window	dative	τῇ θῠρῐ́δῐ	têi thurídi	τοῖν θῠρῐ́δοιν	toîn thurídoin	ταῖς θῠρῐ́σῐ / θῠρῐ́σῐν	taîs thurísi(n)	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
-window	accusative	τὴν θῠρῐ́δᾰ	tḕn thurída	τὼ θῠρῐ́δε	tṑ thuríde	τᾱ̀ς θῠρῐ́δᾰς	tā̀s thurídas	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
-window	vocative	θῠρῐ́ς	thurís	θῠρῐ́δε	thuríde	θῠρῐ́δες	thurídes	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
-woman	nominative	ἡ γῠνή	hē gunḗ	τὼ γῠναῖκε	tṑ gunaîke	αἱ γῠναῖκες	hai gunaîkes	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
-woman	genitive	τῆς γῠναικός	tês gunaikós	τοῖν γῠναικοῖν	toîn gunaikoîn	τῶν γῠναικῶν	tôn gunaikôn	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
-woman	dative	τῇ γῠναικί	têi gunaikí	τοῖν γῠναικοῖν	toîn gunaikoîn	ταῖς γῠναιξί / γῠναιξίν	taîs gunaixí(n)	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
-woman	accusative	τὴν γῠναῖκᾰ	tḕn gunaîka	τὼ γῠναῖκε	tṑ gunaîke	τᾱ̀ς γῠναῖκᾰς	tā̀s gunaîkas	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
-woman	vocative	γύναι	gúnai	γῠναῖκε	gunaîke	γῠναῖκες	gunaîkes	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
-work	nominative	τὸ ἔργον	tò érgon	τὼ ἔργω	tṑ érgō	τᾰ̀ ἔργᾰ	tà érga	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
-work	genitive	τοῦ ἔργου	toû érgou	τοῖν ἔργοιν	toîn érgoin	τῶν ἔργων	tôn érgōn	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
-work	dative	τῷ ἔργῳ	tôi érgōi	τοῖν ἔργοιν	toîn érgoin	τοῖς ἔργοις	toîs érgois	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
-work	accusative	τὸ ἔργον	tò érgon	τὼ ἔργω	tṑ érgō	τᾰ̀ ἔργᾰ	tà érga	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
-work	vocative	ἔργον	érgon	ἔργω	érgō	ἔργᾰ	érga	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
-young-man	nominative	ὁ νεᾱνῐ́ᾱς	ho neāníās	τὼ νεᾱνῐ́ᾱ	tṑ neāníā	οἱ νεᾱνῐ́αι	hoi neāníai	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
-young-man	genitive	τοῦ νεᾱνῐ́ου	toû neāníou	τοῖν νεᾱνῐ́αιν	toîn neāníain	τῶν νεᾱνῐῶν	tôn neāniôn	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
-young-man	dative	τῷ νεᾱνῐ́ᾳ	tôi neāníāi	τοῖν νεᾱνῐ́αιν	toîn neāníain	τοῖς νεᾱνῐ́αις	toîs neāníais	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
-young-man	accusative	τὸν νεᾱνῐ́ᾱν	tòn neāníān	τὼ νεᾱνῐ́ᾱ	tṑ neāníā	τοὺς νεᾱνῐ́ᾱς	toùs neāníās	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
-young-man	vocative	νεᾱνῐ́ᾱ	neāníā	νεᾱνῐ́ᾱ	neāníā	νεᾱνῐ́αι	neāníai	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
-soldier	nominative	ὁ στρᾰτῐώτης	ho stratiṓtēs	τὼ στρᾰτῐώτᾱ	tṑ stratiṓtā	οἱ στρᾰτῐῶται	hoi stratiôtai	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
-soldier	genitive	τοῦ στρᾰτῐώτου	toû stratiṓtou	τοῖν στρᾰτῐώταιν	toîn stratiṓtain	τῶν στρᾰτῐωτῶν	tôn stratiōtôn	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
-soldier	dative	τῷ στρᾰτῐώτῃ	tôi stratiṓtēi	τοῖν στρᾰτῐώταιν	toîn stratiṓtain	τοῖς στρᾰτῐώταις	toîs stratiṓtais	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
-soldier	accusative	τὸν στρᾰτῐώτην	tòn stratiṓtēn	τὼ στρᾰτῐώτᾱ	tṑ stratiṓtā	τοὺς στρᾰτῐώτᾱς	toùs stratiṓtās	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
-soldier	vocative	στρᾰτῐῶτᾰ	stratiôta	στρᾰτῐώτᾱ	stratiṓtā	στρᾰτῐῶται	stratiôtai	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
-polity	nominative	ἡ πολῑτείᾱ	hē polīteíā	τὼ πολῑτείᾱ	tṑ polīteíā	αἱ πολῑτεῖαι	hai polīteîai	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
-polity	genitive	τῆς πολῑτείᾱς	tês polīteíās	τοῖν πολῑτείαιν	toîn polīteíain	τῶν πολῑτειῶν	tôn polīteiôn	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
-polity	dative	τῇ πολῑτείᾳ	têi polīteíāi	τοῖν πολῑτείαιν	toîn polīteíain	ταῖς πολῑτείαις	taîs polīteíais	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
-polity	accusative	τὴν πολῑτείᾱν	tḕn polīteíān	τὼ πολῑτείᾱ	tṑ polīteíā	τᾱ̀ς πολῑτείᾱς	tā̀s polīteíās	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
-polity	vocative	πολῑτείᾱ	polīteíā	πολῑτείᾱ	polīteíā	πολῑτεῖαι	polīteîai	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
-village	nominative	ἡ κώμη	hē kṓmē	τὼ κώμᾱ	tṑ kṓmā	αἱ κῶμαι	hai kômai	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
-village	genitive	τῆς κώμης	tês kṓmēs	τοῖν κώμαιν	toîn kṓmain	τῶν κωμῶν	tôn kōmôn	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
-village	dative	τῇ κώμῃ	têi kṓmēi	τοῖν κώμαιν	toîn kṓmain	ταῖς κώμαις	taîs kṓmais	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
-village	accusative	τὴν κώμην	tḕn kṓmēn	τὼ κώμᾱ	tṑ kṓmā	τᾱ̀ς κώμᾱς	tā̀s kṓmās	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
-village	vocative	κώμη	kṓmē	κώμᾱ	kṓmā	κῶμαι	kômai	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
-person	nominative	ὁ, ἡ ἄνθρωπος	ho, hē ánthrōpos	τὼ ἀνθρώπω	tṑ anthrṓpō	οἱ, αἱ ἄνθρωποι	hoi, hai ánthrōpoi	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
-person	genitive	τοῦ, τῆς ἀνθρώπου	toû, tês anthrṓpou	τοῖν ἀνθρώποιν	toîn anthrṓpoin	τῶν ἀνθρώπων	tôn anthrṓpōn	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
-person	dative	τῷ, τῇ ἀνθρώπῳ	tôi, têi anthrṓpōi	τοῖν ἀνθρώποιν	toîn anthrṓpoin	τοῖς, ταῖς ἀνθρώποις	toîs, taîs anthrṓpois	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
-person	accusative	τὸν, τὴν ἄνθρωπον	tòn, tḕn ánthrōpon	τὼ ἀνθρώπω	tṑ anthrṓpō	τοὺς, τᾱ̀ς ἀνθρώπους	toùs, tā̀s anthrṓpous	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
-person	vocative	ἄνθρωπε	ánthrōpe	ἀνθρώπω	anthrṓpō	ἄνθρωποι	ánthrōpoi	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
-street	nominative	ἡ ὁδός	hē hodós	τὼ ὁδώ	tṑ hodṓ	αἱ ὁδοί	hai hodoí	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
-street	genitive	τῆς ὁδοῦ	tês hodoû	τοῖν ὁδοῖν	toîn hodoîn	τῶν ὁδῶν	tôn hodôn	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
-street	dative	τῇ ὁδῷ	têi hodôi	τοῖν ὁδοῖν	toîn hodoîn	ταῖς ὁδοῖς	taîs hodoîs	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
-street	accusative	τὴν ὁδόν	tḕn hodón	τὼ ὁδώ	tṑ hodṓ	τᾱ̀ς ὁδούς	tā̀s hodoús	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
-street	vocative	ὁδέ	hodé	ὁδώ	hodṓ	ὁδοί	hodoí	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
-circumnavigation	nominative	ὁ περίπλους		τὼ περίπλω		οἱ περίπλοι		#	ὁ περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
-circumnavigation	genitive	τοῦ περίπλου		τοῖν περίπλοιν		τῶν περίπλων		#	ὁ περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
-circumnavigation	dative	τῷ περίπλῳ		τοῖν περίπλοιν		τοῖς περίπλοις		#	ὁ περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
-circumnavigation	accusative	τὸν περίπλουν		τὼ περίπλω		τοὺς περίπλους		#	ὁ περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
-circumnavigation	vocative	περίπλου		περίπλω		περίπλοι		#	ὁ περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
-bone	nominative	τὸ ὀστοῦν	tò ostoûn	τὼ ὀστώ	tṑ ostṓ	τᾰ̀ ὀστᾶ	tà ostâ	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
-bone	genitive	τοῦ ὀστοῦ	toû ostoû	τοῖν ὀστοῖν	toîn ostoîn	τῶν ὀστῶν	tôn ostôn	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
-bone	dative	τῷ ὀστῷ	tôi ostôi	τοῖν ὀστοῖν	toîn ostoîn	τοῖς ὀστοῖς	toîs ostoîs	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
-bone	accusative	τὸ ὀστοῦν	tò ostoûn	τὼ ὀστώ	tṑ ostṓ	τᾰ̀ ὀστᾶ	tà ostâ	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
-bone	vocative	ὀστοῦν	ostoûn	ὀστώ	ostṓ	ὀστᾶ	ostâ	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
-hero	nominative	ὁ ἥρως	ho hḗrōs	τὼ ἥρωε	tṑ hḗrōe	οἱ ἥρωες	hoi hḗrōes	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
-hero	genitive	τοῦ ἥρωος	toû hḗrōos	τοῖν ἡρώοιν	toîn hērṓoin	τῶν ἡρώων	tôn hērṓōn	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
-hero	dative	τῷ ἥρῳ / ἥρωῐ̈	tôi hḗrōi / hḗrōï	τοῖν ἡρώοιν	toîn hērṓoin	τοῖς ἥρωσῐ / ἥρωσῐν	toîs hḗrōsi(n)	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
-hero	accusative	τὸν ἥρω / ἥρωᾰ	tòn hḗrō / hḗrōa	τὼ ἥρωε	tṑ hḗrōe	τοὺς ἥρωᾰς	toùs hḗrōas	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
-hero	vocative	ἥρως	hḗrōs	ἥρωε	hḗrōe	ἥρωες	hḗrōes	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
-fish	nominative	ὁ ἰχθῡ́ς	ho ikhthū́s	τὼ ἰχθῠ́ε	tṑ ikhthúe	οἱ ἰχθῠ́ες	hoi ikhthúes	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
-fish	genitive	τοῦ ἰχθῠ́ος	toû ikhthúos	τοῖν ἰχθῠ́οιν	toîn ikhthúoin	τῶν ἰχθῠ́ων	tôn ikhthúōn	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
-fish	dative	τῷ ἰχθῠ́ῐ̈	tôi ikhthúï	τοῖν ἰχθῠ́οιν	toîn ikhthúoin	τοῖς ἰχθῠ́σῐ / ἰχθῠ́σῐν	toîs ikhthúsi(n)	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
-fish	accusative	τὸν ἰχθῡ́ν / ἰχθῠ́ᾰ	tòn ikhthū́n / ikhthúa	τὼ ἰχθῠ́ε	tṑ ikhthúe	τοὺς ἰχθῦς / ἰχθῠ́ᾰς	toùs ikhthûs / ikhthúas	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
-fish	vocative	ἰχθῡ́	ikhthū́	ἰχθῠ́ε	ikhthúe	ἰχθῠ́ες	ikhthúes	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
-oak	nominative	ἡ δρῦς	hē drûs	τὼ δρῠ́ε	tṑ drúe	αἱ δρῠ́ες	hai drúes	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
-oak	genitive	τῆς δρῠός	tês druós	τοῖν δρῠοῖν	toîn druoîn	τῶν δρῠῶν	tôn druôn	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
-oak	dative	τῇ δρῠῐ̈́	têi druḯ	τοῖν δρῠοῖν	toîn druoîn	ταῖς δρῠσῐ́ / δρῠσῐ́ν	taîs drusí(n)	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
-oak	accusative	τὴν δρῦν	tḕn drûn	τὼ δρῠ́ε	tṑ drúe	τᾱ̀ς δρῦς / δρῠ́ᾰς	tā̀s drûs / drúas	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
-oak	vocative	δρῦ	drû	δρῠ́ε	drúe	δρῠ́ες	drúes	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
-city	nominative	ἡ πόλῐς	hē pólis	τὼ πόλει	tṑ pólei	αἱ πόλεις	hai póleis	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
-city	genitive	τῆς πόλεως	tês póleōs	τοῖν πολέοιν	toîn poléoin	τῶν πόλεων	tôn póleōn	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
-city	dative	τῇ πόλει	têi pólei	τοῖν πολέοιν	toîn poléoin	ταῖς πόλεσῐ / πόλεσῐν	taîs pólesi(n)	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
-city	accusative	τὴν πόλῐν	tḕn pólin	τὼ πόλει	tṑ pólei	τᾱ̀ς πόλεις	tā̀s póleis	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
-city	vocative	πόλῐ	póli	πόλει	pólei	πόλεις	póleis	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
-axe	nominative	ὁ πέλεκῠς	ho pélekus	τὼ πελέκει	tṑ pelékei	οἱ πελέκεις	hoi pelékeis	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
-axe	genitive	τοῦ πελέκεως	toû pelékeōs	τοῖν πελεκέοιν	toîn pelekéoin	τῶν πελέκεων	tôn pelékeōn	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
-axe	dative	τῷ πελέκει	tôi pelékei	τοῖν πελεκέοιν	toîn pelekéoin	τοῖς πελέκεσῐ / πελέκεσῐν	toîs pelékesi(n)	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
-axe	accusative	τὸν πέλεκῠν	tòn pélekun	τὼ πελέκει	tṑ pelékei	τοὺς πελέκεις	toùs pelékeis	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
-axe	vocative	πέλεκῠ	péleku	πελέκει	pelékei	πελέκεις	pelékeis	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
-town	nominative	τὸ ᾰ̓́στῠ	tò ástu	τὼ ᾰ̓́στει	tṑ ástei	τᾰ̀ ᾰ̓́στη / ᾰ̓́στεᾰ	tà ástē / ástea	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
-town	genitive	τοῦ ᾰ̓́στεως	toû ásteōs	τοῖν ᾰ̓στέοιν	toîn astéoin	τῶν ᾰ̓́στεων	tôn ásteōn	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
-town	dative	τῷ ᾰ̓́στει	tôi ástei	τοῖν ᾰ̓στέοιν	toîn astéoin	τοῖς ᾰ̓́στεσῐ / ᾰ̓́στεσῐν	toîs ástesi(n)	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
-town	accusative	τὸ ᾰ̓́στῠ	tò ástu	τὼ ᾰ̓́στει	tṑ ástei	τᾰ̀ ᾰ̓́στη / ᾰ̓́στεᾰ	tà ástē / ástea	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
-town	vocative	ᾰ̓́στῠ	ástu	ᾰ̓́στει	ástei	ᾰ̓́στη / ᾰ̓́στεᾰ	ástē / ástea	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
-master	nominative	ὁ βᾰσῐλεύς	ho basileús	τὼ βᾰσῐλῆ	tṑ basilê	οἱ βᾰσῐλῆς / βᾰσῐλεῖς	hoi basilês / basileîs	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
-master	genitive	τοῦ βᾰσῐλέως	toû basiléōs	τοῖν βᾰσῐλέοιν	toîn basiléoin	τῶν βᾰσῐλέων	tôn basiléōn	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
-master	dative	τῷ βᾰσῐλεῖ	tôi basileî	τοῖν βᾰσῐλέοιν	toîn basiléoin	τοῖς βᾰσῐλεῦσῐ / βᾰσῐλεῦσῐν	toîs basileûsi(n)	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
-master	accusative	τὸν βᾰσῐλέᾱ	tòn basiléā	τὼ βᾰσῐλῆ	tṑ basilê	τοὺς βᾰσῐλέᾱς	toùs basiléās	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
-master	vocative	βᾰσῐλεῦ	basileû	βᾰσῐλῆ	basilê	βᾰσῐλῆς / βᾰσῐλεῖς	basilês / basileîs	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
-old-woman	nominative	ἡ γραῦς	hē graûs	τὼ γρᾶε	tṑ grâe	αἱ γρᾶες	hai grâes	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
-old-woman	genitive	τῆς γρᾱός	tês grāós	τοῖν γρᾱοῖν	toîn grāoîn	τῶν γρᾱῶν	tôn grāôn	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
-old-woman	dative	τῇ γρᾱΐ	têi grāḯ	τοῖν γρᾱοῖν	toîn grāoîn	ταῖς γραυσῐ́ / γραυσῐ́ν	taîs grausí(n)	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
-old-woman	accusative	τὴν γραῦν	tḕn graûn	τὼ γρᾶε	tṑ grâe	τᾱ̀ς γραῦς	tā̀s graûs	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
-old-woman	vocative	γραῦ	graû	γρᾶε	grâe	γρᾶες	grâes	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
-cow	nominative	ὁ, ἡ βοῦς	ho, hē boûs	τὼ βόε	tṑ bóe	οἱ, αἱ βόες	hoi, hai bóes	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
-cow	genitive	τοῦ, τῆς βοός	toû, tês boós	τοῖν βοοῖν	toîn booîn	τῶν βοῶν	tôn boôn	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
-cow	dative	τῷ, τῇ βοΐ	tôi, têi boḯ	τοῖν βοοῖν	toîn booîn	τοῖς, ταῖς βουσί / βουσίν	toîs, taîs bousí(n)	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
-cow	accusative	τὸν, τὴν βοῦν	tòn, tḕn boûn	τὼ βόε	tṑ bóe	τοὺς, τᾱ̀ς βοῦς	toùs, tā̀s boûs	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
-cow	vocative	βοῦ	boû	βόε	bóe	βόες	bóes	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
-echo	nominative	ἡ ἠχώ	hē ēkhṓ	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
-echo	genitive	τῆς ἠχοῦς	tês ēkhoûs	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
-echo	dative	τῇ ἠχοῖ	têi ēkhoî	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
-echo	accusative	τὴν ἠχώ	tḕn ēkhṓ	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
-echo	vocative	ἠχοῖ	ēkhoî	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
-Clio	nominative	ἡ Κλειώ	hē Kleiṓ	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
-Clio	genitive	τῆς Κλειοῦς	tês Kleioûs	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
-Clio	dative	τῇ Κλειοῖ	têi Kleioî	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
-Clio	accusative	τὴν Κλειώ	tḕn Kleiṓ	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
-Clio	vocative	Κλειοῖ	Kleioî	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
-crow	nominative	ὁ κόρᾰξ	ho kórax	τὼ κόρᾰκε	tṑ kórake	οἱ κόρᾰκες	hoi kórakes	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
-crow	genitive	τοῦ κόρᾰκος	toû kórakos	τοῖν κορᾰ́κοιν	toîn korákoin	τῶν κορᾰ́κων	tôn korákōn	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
-crow	dative	τῷ κόρᾰκῐ	tôi kóraki	τοῖν κορᾰ́κοιν	toîn korákoin	τοῖς κόρᾰξῐ / κόρᾰξῐν	toîs kóraxi(n)	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
-crow	accusative	τὸν κόρᾰκᾰ	tòn kóraka	τὼ κόρᾰκε	tṑ kórake	τοὺς κόρᾰκᾰς	toùs kórakas	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
-crow	vocative	κόρᾰξ	kórax	κόρᾰκε	kórake	κόρᾰκες	kórakes	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
-vulture	nominative	ὁ γῡ́ψ	ho gū́ps	τὼ γῦπε	tṑ gûpe	οἱ γῦπες	hoi gûpes	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
-vulture	genitive	τοῦ γῡπός	toû gūpós	τοῖν γῡποῖν	toîn gūpoîn	τῶν γῡπῶν	tôn gūpôn	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
-vulture	dative	τῷ γῡπῐ́	tôi gūpí	τοῖν γῡποῖν	toîn gūpoîn	τοῖς γῡψῐ́ / γῡψῐ́ν	toîs gūpsí(n)	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
-vulture	accusative	τὸν γῦπᾰ	tòn gûpa	τὼ γῦπε	tṑ gûpe	τοὺς γῦπᾰς	toùs gûpas	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
-vulture	vocative	γῡ́ψ	gū́ps	γῦπε	gûpe	γῦπες	gûpes	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
-rug	nominative	ὁ τᾰ́πης	ho tápēs	τὼ τᾰ́πητε	tṑ tápēte	οἱ τᾰ́πητες	hoi tápētes	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
-rug	genitive	τοῦ τᾰ́πητος	toû tápētos	τοῖν τᾰπήτοιν	toîn tapḗtoin	τῶν τᾰπήτων	tôn tapḗtōn	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
-rug	dative	τῷ τᾰ́πητῐ	tôi tápēti	τοῖν τᾰπήτοιν	toîn tapḗtoin	τοῖς τᾰ́πησῐ / τᾰ́πησῐν	toîs tápēsi(n)	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
-rug	accusative	τὸν τᾰ́πητᾰ	tòn tápēta	τὼ τᾰ́πητε	tṑ tápēte	τοὺς τᾰ́πητᾰς	toùs tápētas	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
-rug	vocative	τᾰ́πης	tápēs	τᾰ́πητε	tápēte	τᾰ́πητες	tápētes	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
-giant	nominative	ὁ γί̆γᾱς	ho gígās	τὼ γῐ́γᾰντε	tṑ gígante	οἱ γῐ́γᾰντες	hoi gígantes	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
-giant	genitive	τοῦ γῐ́γᾰντος	toû gígantos	τοῖν γῐγᾰ́ντοιν	toîn gigántoin	τῶν γῐγᾰ́ντων	tôn gigántōn	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
-giant	dative	τῷ γῐ́γᾰντῐ	tôi gíganti	τοῖν γῐγᾰ́ντοιν	toîn gigántoin	τοῖς γῐ́γᾱσῐ / γῐ́γᾱσῐν	toîs gígāsi(n)	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
-giant	accusative	τὸν γῐ́γᾰντᾰ	tòn gíganta	τὼ γῐ́γᾰντε	tṑ gígante	τοὺς γῐ́γᾰντᾰς	toùs gígantas	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
-giant	vocative	γῐ́γᾰν	gígan	γῐ́γᾰντε	gígante	γῐ́γᾰντες	gígantes	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
-tooth	nominative	ὁ ὀδούς	ho odoús	τὼ ὀδόντε	tṑ odónte	οἱ ὀδόντες	hoi odóntes	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
-tooth	genitive	τοῦ ὀδόντος	toû odóntos	τοῖν ὀδόντοιν	toîn odóntoin	τῶν ὀδόντων	tôn odóntōn	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
-tooth	dative	τῷ ὀδόντῐ	tôi odónti	τοῖν ὀδόντοιν	toîn odóntoin	τοῖς ὀδοῦσῐ / ὀδοῦσῐν	toîs odoûsi(n)	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
-tooth	accusative	τὸν ὀδόντᾰ	tòn odónta	τὼ ὀδόντε	tṑ odónte	τοὺς ὀδόντᾰς	toùs odóntas	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
-tooth	vocative	ὀδόν	odón	ὀδόντε	odónte	ὀδόντες	odóntes	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
-old-man	nominative	ὁ γέρων	ho gérōn	τὼ γέροντε	tṑ géronte	οἱ γέροντες	hoi gérontes	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
-old-man	genitive	τοῦ γέροντος	toû gérontos	τοῖν γερόντοιν	toîn geróntoin	τῶν γερόντων	tôn geróntōn	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
-old-man	dative	τῷ γέροντῐ	tôi géronti	τοῖν γερόντοιν	toîn geróntoin	τοῖς γέρουσῐ / γέρουσῐν	toîs gérousi(n)	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
-old-man	accusative	τὸν γέροντᾰ	tòn géronta	τὼ γέροντε	tṑ géronte	τοὺς γέροντᾰς	toùs gérontas	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
-old-man	vocative	γέρον	géron	γέροντε	géronte	γέροντες	gérontes	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
-property	nominative	τὸ κτῆμᾰ	tò ktêma	τὼ κτήμᾰτε	tṑ ktḗmate	τᾰ̀ κτήμᾰτᾰ	tà ktḗmata	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
-property	genitive	τοῦ κτήμᾰτος	toû ktḗmatos	τοῖν κτημᾰ́τοιν	toîn ktēmátoin	τῶν κτημᾰ́των	tôn ktēmátōn	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
-property	dative	τῷ κτήμᾰτῐ	tôi ktḗmati	τοῖν κτημᾰ́τοιν	toîn ktēmátoin	τοῖς κτήμᾰσῐ / κτήμᾰσῐν	toîs ktḗmasi(n)	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
-property	accusative	τὸ κτῆμᾰ	tò ktêma	τὼ κτήμᾰτε	tṑ ktḗmate	τᾰ̀ κτήμᾰτᾰ	tà ktḗmata	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
-property	vocative	κτῆμᾰ	ktêma	κτήμᾰτε	ktḗmate	κτήμᾰτᾰ	ktḗmata	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
-Greek	nominative	ὁ Ἕλλην	ho Héllēn	τὼ Ἕλληνε	tṑ Héllēne	οἱ Ἕλληνες	hoi Héllēnes	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
-Greek	genitive	τοῦ Ἕλληνος	toû Héllēnos	τοῖν Ἑλλήνοιν	toîn Hellḗnoin	τῶν Ἑλλήνων	tôn Hellḗnōn	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
-Greek	dative	τῷ Ἕλληνῐ	tôi Héllēni	τοῖν Ἑλλήνοιν	toîn Hellḗnoin	τοῖς Ἕλλησῐ / Ἕλλησῐν	toîs Héllēsi(n)	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
-Greek	accusative	τὸν Ἕλληνᾰ	tòn Héllēna	τὼ Ἕλληνε	tṑ Héllēne	τοὺς Ἕλληνᾰς	toùs Héllēnas	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
-Greek	vocative	Ἕλλην	Héllēn	Ἕλληνε	Héllēne	Ἕλληνες	Héllēnes	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
-winter	nominative	ὁ χειμών	ho kheimṓn	τὼ χειμῶνε	tṑ kheimône	οἱ χειμῶνες	hoi kheimônes	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
-winter	genitive	τοῦ χειμῶνος	toû kheimônos	τοῖν χειμώνοιν	toîn kheimṓnoin	τῶν χειμώνων	tôn kheimṓnōn	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
-winter	dative	τῷ χειμῶνῐ	tôi kheimôni	τοῖν χειμώνοιν	toîn kheimṓnoin	τοῖς χειμῶσῐ / χειμῶσῐν	toîs kheimôsi(n)	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
-winter	accusative	τὸν χειμῶνᾰ	tòn kheimôna	τὼ χειμῶνε	tṑ kheimône	τοὺς χειμῶνᾰς	toùs kheimônas	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
-winter	vocative	χειμών	kheimṓn	χειμῶνε	kheimône	χειμῶνες	kheimônes	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
-Titan	nominative	ὁ Τῑτᾱ́ν	ho Tītā́n	τὼ Τῑτᾶνε	tṑ Tītâne	οἱ Τῑτᾶνες	hoi Tītânes	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
-Titan	genitive	τοῦ Τῑτᾶνος	toû Tītânos	τοῖν Τῑτᾱ́νοιν	toîn Tītā́noin	τῶν Τῑτᾱ́νων	tôn Tītā́nōn	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
-Titan	dative	τῷ Τῑτᾶνῐ	tôi Tītâni	τοῖν Τῑτᾱ́νοιν	toîn Tītā́noin	τοῖς Τῑτᾶσῐ / Τῑτᾶσῐν	toîs Tītâsi(n)	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
-Titan	accusative	τὸν Τῑτᾶνᾰ	tòn Tītâna	τὼ Τῑτᾶνε	tṑ Tītâne	τοὺς Τῑτᾶνᾰς	toùs Tītânas	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
-Titan	vocative	Τῑτᾱ́ν	Tītā́n	Τῑτᾶνε	Tītâne	Τῑτᾶνες	Tītânes	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
-light-ray	nominative	ἡ ἀκτῑ́ς	hē aktī́s	τὼ ἀκτῖνε	tṑ aktîne	αἱ ἀκτῖνες	hai aktînes	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
-light-ray	genitive	τῆς ἀκτῖνος	tês aktînos	τοῖν ἀκτῑ́νοιν	toîn aktī́noin	τῶν ἀκτῑ́νων	tôn aktī́nōn	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
-light-ray	dative	τῇ ἀκτῖνῐ	têi aktîni	τοῖν ἀκτῑ́νοιν	toîn aktī́noin	ταῖς ἀκτῖσῐ / ἀκτῖσῐν	taîs aktîsi(n)	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
-light-ray	accusative	τὴν ἀκτῖνᾰ	tḕn aktîna	τὼ ἀκτῖνε	tṑ aktîne	τᾱ̀ς ἀκτῖνᾰς	tā̀s aktînas	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
-light-ray	vocative	ἀκτῑ́ς	aktī́s	ἀκτῖνε	aktîne	ἀκτῖνες	aktînes	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
-shepherd	nominative	ὁ ποιμήν	ho poimḗn	τὼ ποιμένε	tṑ poiméne	οἱ ποιμένες	hoi poiménes	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
-shepherd	genitive	τοῦ ποιμένος	toû poiménos	τοῖν ποιμένοιν	toîn poiménoin	τῶν ποιμένων	tôn poiménōn	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
-shepherd	dative	τῷ ποιμένῐ	tôi poiméni	τοῖν ποιμένοιν	toîn poiménoin	τοῖς ποιμέσῐ / ποιμέσῐν	toîs poimési(n)	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
-shepherd	accusative	τὸν ποιμένᾰ	tòn poiména	τὼ ποιμένε	tṑ poiméne	τοὺς ποιμένᾰς	toùs poiménas	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
-shepherd	vocative	ποιμήν	poimḗn	ποιμένε	poiméne	ποιμένες	poiménes	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
-guide	nominative	ὁ, ἡ ἡγεμών	ho, hē hēgemṓn	τὼ ἡγεμόνε	tṑ hēgemóne	οἱ, αἱ ἡγεμόνες	hoi, hai hēgemónes	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
-guide	genitive	τοῦ, τῆς ἡγεμόνος	toû, tês hēgemónos	τοῖν ἡγεμόνοιν	toîn hēgemónoin	τῶν ἡγεμόνων	tôn hēgemónōn	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
-guide	dative	τῷ, τῇ ἡγεμόνῐ	tôi, têi hēgemóni	τοῖν ἡγεμόνοιν	toîn hēgemónoin	τοῖς, ταῖς ἡγεμόσῐ / ἡγεμόσῐν	toîs, taîs hēgemósi(n)	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
-guide	accusative	τὸν, τὴν ἡγεμόνᾰ	tòn, tḕn hēgemóna	τὼ ἡγεμόνε	tṑ hēgemóne	τοὺς, τᾱ̀ς ἡγεμόνᾰς	toùs, tā̀s hēgemónas	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
-guide	vocative	ἡγεμών	hēgemṓn	ἡγεμόνε	hēgemóne	ἡγεμόνες	hēgemónes	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
-neighbor	nominative	ὁ, ἡ γείτων	ho, hē geítōn	τὼ γείτονε	tṑ geítone	οἱ, αἱ γείτονες	hoi, hai geítones	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
-neighbor	genitive	τοῦ, τῆς γείτονος	toû, tês geítonos	τοῖν γειτόνοιν	toîn geitónoin	τῶν γειτόνων	tôn geitónōn	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
-neighbor	dative	τῷ, τῇ γείτονῐ	tôi, têi geítoni	τοῖν γειτόνοιν	toîn geitónoin	τοῖς, ταῖς γείτοσῐ / γείτοσῐν	toîs, taîs geítosi(n)	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
-neighbor	accusative	τὸν, τὴν γείτονᾰ	tòn, tḕn geítona	τὼ γείτονε	tṑ geítone	τοὺς, τᾱ̀ς γείτονᾰς	toùs, tā̀s geítonas	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
-neighbor	vocative	γεῖτον	geîton	γείτονε	geítone	γείτονες	geítones	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
-ichor	nominative	ὁ ῑ̓χώρ	ho īkhṓr	τὼ ῑ̓χῶρε	tṑ īkhôre	οἱ ῑ̓χῶρες	hoi īkhôres	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
-ichor	genitive	τοῦ ῑ̓χῶρος	toû īkhôros	τοῖν ῑ̓χώροιν	toîn īkhṓroin	τῶν ῑ̓χώρων	tôn īkhṓrōn	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
-ichor	dative	τῷ ῑ̓χῶρῐ	tôi īkhôri	τοῖν ῑ̓χώροιν	toîn īkhṓroin	τοῖς ῑ̓χῶρσῐ / ῑ̓χῶρσῐν	toîs īkhôrsi(n)	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
-ichor	accusative	τὸν ῑ̓χῶρᾰ	tòn īkhôra	τὼ ῑ̓χῶρε	tṑ īkhôre	τοὺς ῑ̓χῶρᾰς	toùs īkhôras	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
-ichor	vocative	ῑ̓χώρ	īkhṓr	ῑ̓χῶρε	īkhôre	ῑ̓χῶρες	īkhôres	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
-chaff	nominative	ὁ ἀθήρ	ho athḗr	τὼ ἀθέρε	tṑ athére	οἱ ἀθέρες	hoi athéres	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
-chaff	genitive	τοῦ ἀθέρος	toû athéros	τοῖν ἀθέροιν	toîn athéroin	τῶν ἀθέρων	tôn athérōn	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
-chaff	dative	τῷ ἀθέρῐ	tôi athéri	τοῖν ἀθέροιν	toîn athéroin	τοῖς ἀθέρσῐ / ἀθέρσῐν	toîs athérsi(n)	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
-chaff	accusative	τὸν ἀθέρᾰ	tòn athéra	τὼ ἀθέρε	tṑ athére	τοὺς ἀθέρᾰς	toùs athéras	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
-chaff	vocative	ἀθήρ	athḗr	ἀθέρε	athére	ἀθέρες	athéres	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
-orator	nominative	ὁ ῥήτωρ	ho rhḗtōr	τὼ ῥήτορε	tṑ rhḗtore	οἱ ῥήτορες	hoi rhḗtores	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
-orator	genitive	τοῦ ῥήτορος	toû rhḗtoros	τοῖν ῥητόροιν	toîn rhētóroin	τῶν ῥητόρων	tôn rhētórōn	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
-orator	dative	τῷ ῥήτορῐ	tôi rhḗtori	τοῖν ῥητόροιν	toîn rhētóroin	τοῖς ῥήτορσῐ / ῥήτορσῐν	toîs rhḗtorsi(n)	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
-orator	accusative	τὸν ῥήτορᾰ	tòn rhḗtora	τὼ ῥήτορε	tṑ rhḗtore	τοὺς ῥήτορᾰς	toùs rhḗtoras	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
-orator	vocative	ῥῆτορ	rhêtor	ῥήτορε	rhḗtore	ῥήτορες	rhḗtores	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
-father	nominative	ὁ πᾰτήρ	ho patḗr	τὼ πᾰτέρε	tṑ patére	οἱ πᾰτέρες	hoi patéres	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
-father	genitive	τοῦ πᾰτρός / πᾰτέρος	toû patrós / patéros	τοῖν πᾰτέροιν	toîn patéroin	τῶν πᾰτέρων / πᾰτρῶν	tôn patérōn / patrôn	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
-father	dative	τῷ πᾰτρῐ́ / πᾰτέρῐ	tôi patrí / patéri	τοῖν πᾰτέροιν	toîn patéroin	τοῖς πᾰτρᾰ́σῐ	toîs patrási	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
-father	accusative	τὸν πᾰτέρᾰ	tòn patéra	τὼ πᾰτέρε	tṑ patére	τοὺς πᾰτέρᾰς	toùs patéras	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
-father	vocative	πάτερ	páter	πᾰτέρε	patére	πᾰτέρες	patéres	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
-Demeter	nominative	ἡ Δημήτηρ	hē Dēmḗtēr	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
-Demeter	genitive	τῆς Δήμητρος	tês Dḗmētros	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
-Demeter	dative	τῇ Δήμητρῐ	têi Dḗmētri	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
-Demeter	accusative	τὴν Δήμητρᾰ	tḕn Dḗmētra	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
-Demeter	vocative	Δήμητερ	Dḗmēter	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
-Socrates	nominative	ὁ Σωκρᾰ́της	ho Sōkrátēs	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
-Socrates	genitive	τοῦ Σωκρᾰ́τους	toû Sōkrátous	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
-Socrates	dative	τῷ Σωκρᾰ́τει	tôi Sōkrátei	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
-Socrates	accusative	τὸν Σωκρᾰ́τη / Σωκρᾰ́την	tòn Sōkrátē / Sōkrátēn	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
-Socrates	vocative	Σώκρᾰτες	Sṓkrates	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
-Pericles	nominative	ὁ Περῐκλῆς	ho Periklês	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
-Pericles	genitive	τοῦ Περῐκλέους	toû Perikléous	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
-Pericles	dative	τῷ Περῐκλεῖ	tôi Perikleî	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
-Pericles	accusative	τὸν Περῐκλέᾱ	tòn Perikléā	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
-Pericles	vocative	Περῐ́κλεις	Períkleis	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
-arrow	nominative	τὸ ἔδᾰφος	tò édaphos	τὼ ἐδᾰ́φει	tṑ edáphei	τᾰ̀ ἐδᾰ́φη	tà edáphē	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
-arrow	genitive	τοῦ ἐδᾰ́φους	toû edáphous	τοῖν ἐδᾰφοῖν	toîn edaphoîn	τῶν ἐδᾰφῶν	tôn edaphôn	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
-arrow	dative	τῷ ἐδᾰ́φει	tôi edáphei	τοῖν ἐδᾰφοῖν	toîn edaphoîn	τοῖς ἐδᾰ́φεσῐ / ἐδᾰ́φεσῐν	toîs edáphesi(n)	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
-arrow	accusative	τὸ ἔδᾰφος	tò édaphos	τὼ ἐδᾰ́φει	tṑ edáphei	τᾰ̀ ἐδᾰ́φη	tà edáphē	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
-arrow	vocative	ἔδᾰφος	édaphos	ἐδᾰ́φει	edáphei	ἐδᾰ́φη	edáphē	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
-shame	nominative	ἡ αἰδώς / αἰδώ	hē aidṓs / aidṓ	τὼ αἰδῶε	tṑ aidôe	αἱ αἰδῶες / αἰδοί	hai aidôes / aidoí	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
-shame	genitive	τῆς αἰδοῦς	tês aidoûs	τοῖν αἰδώοιν	toîn aidṓoin	τῶν αἰδώων	tôn aidṓōn	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
-shame	dative	τῇ αἰδοῖ	têi aidoî	τοῖν αἰδώοιν	toîn aidṓoin	ταῖς αἰδῶσι	taîs aidôsi	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
-shame	accusative	τὴν αἰδῶ	tḕn aidô	τὼ αἰδῶε	tṑ aidôe	τᾱ̀ς αἰδῶας	tā̀s aidôas	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
-shame	vocative	αἰδώς / αἰδώ	aidṓs / aidṓ	αἰδῶε	aidôe	αἰδῶες / αἰδοί	aidôes / aidoí	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
-Ares	nominative	ὁ Ἄρης	ho Árēs	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
-Ares	genitive	τοῦ Ἄρεως	toû Áreōs	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
-Ares	dative	τῷ Ἄρει	tôi Árei	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
-Ares	accusative	τὸν Ἄρη	tòn Árē	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
-Ares	vocative	Ἄρες	Áres	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
-Thales	nominative	ὁ Θᾰλῆς	ho Thalês	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
-Thales	genitive	τοῦ Θᾰλέω / Θᾰλοῦ	toû Thaléō / Thaloû	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
-Thales	dative	τῷ Θᾰλῇ	tôi Thalêi	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
-Thales	accusative	τὸν Θᾰλῆν	tòn Thalên	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
-Thales	vocative	Θᾰλῆ	Thalê	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
-Oedipus	nominative	ὁ Οἰδῐ́πους	ho Oidípous	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
-Oedipus	genitive	τοῦ Οἰδῐ́ποδος	toû Oidípodos	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
-Oedipus	dative	τῷ Οἰδῐ́ποδῐ	tôi Oidípodi	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
-Oedipus	accusative	τὸν Οἰδῐ́πουν / Οἰδῐ́ποδᾰ	tòn Oidípoun / Oidípoda	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
-Oedipus	vocative	Οἰδῐ́που	Oidípou	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
-Apollo	nominative	ὁ Ἀπόλλων	ho Apóllōn	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
-Apollo	genitive	τοῦ Ἀπόλλωνος	toû Apóllōnos	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
-Apollo	dative	τῷ Ἀπόλλωνῐ	tôi Apóllōni	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
-Apollo	accusative	τὸν Ἀπόλλω / Ἀπόλλωνᾰ	tòn Apóllō / Apóllōna	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
+Apollo	nominative	Ἀπόλλων	Apóllōn	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
+Apollo	genitive	Ἀπόλλωνος	Apóllōnos	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
+Apollo	dative	Ἀπόλλωνῐ	Apóllōni	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
+Apollo	accusative	Ἀπόλλω / Ἀπόλλωνᾰ	Apóllō / Apóllōna	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
 Apollo	vocative	Ἄπολλον	Ápollon	—	—	—	—	#	Third declension of ὁ Ἀπόλλων; τοῦ Ἀπόλλωνος (Attic)	
-knee	nominative	τὸ γόνῠ	tò gónu	τὼ γόνᾰτε	tṑ gónate	τᾰ̀ γόνᾰτᾰ	tà gónata	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
-knee	genitive	τοῦ γόνᾰτος	toû gónatos	τοῖν γονᾰ́τοιν	toîn gonátoin	τῶν γονᾰ́των	tôn gonátōn	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
-knee	dative	τῷ γόνᾰτῐ	tôi gónati	τοῖν γονᾰ́τοιν	toîn gonátoin	τοῖς γόνᾰσῐ / γόνᾰσῐν	toîs gónasi(n)	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
-knee	accusative	τὸ γόνῠ	tò gónu	τὼ γόνᾰτε	tṑ gónate	τᾰ̀ γόνᾰτᾰ	tà gónata	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
-knee	vocative	γόνῠ	gónu	γόνᾰτε	gónate	γόνᾰτᾰ	gónata	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
-wood	nominative	τὸ δόρῠ	tò dóru	τὼ δόρᾰτε	tṑ dórate	τᾰ̀ δόρᾰτᾰ	tà dórata	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
-wood	genitive	τοῦ δόρᾰτος	toû dóratos	τοῖν δορᾰ́τοιν	toîn dorátoin	τῶν δορᾰ́των	tôn dorátōn	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
-wood	dative	τῷ δόρᾰτῐ	tôi dórati	τοῖν δορᾰ́τοιν	toîn dorátoin	τοῖς δόρᾰσῐ / δόρᾰσῐν	toîs dórasi(n)	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
-wood	accusative	τὸ δόρῠ	tò dóru	τὼ δόρᾰτε	tṑ dórate	τᾰ̀ δόρᾰτᾰ	tà dórata	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
-wood	vocative	δόρῠ	dóru	δόρᾰτε	dórate	δόρᾰτᾰ	dórata	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
-Zeus	nominative	ὁ Ζεύς	ho Zeús	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
-Zeus	genitive	τοῦ Δῐός / Ζηνός	toû Diós / Zēnós	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
-Zeus	dative	τῷ Δῐῐ́ / Ζηνῐ́	tôi Dií / Zēní	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
-Zeus	accusative	τὸν Δῐ́ᾰ / Ζῆνᾰ	tòn Día / Zêna	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
-Zeus	vocative	Ζεῦ	Zeû	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
-liver	nominative	τὸ ἧπᾰρ	tò hêpar	τὼ ἥπᾰτε	tṑ hḗpate	τᾰ̀ ἥπᾰτᾰ	tà hḗpata	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
-liver	genitive	τοῦ ἥπᾰτος	toû hḗpatos	τοῖν ἡπᾰ́τοιν	toîn hēpátoin	τῶν ἡπᾰ́των	tôn hēpátōn	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
-liver	dative	τῷ ἥπᾰτῐ	tôi hḗpati	τοῖν ἡπᾰ́τοιν	toîn hēpátoin	τοῖς ἥπᾰσῐ / ἥπᾰσῐν	toîs hḗpasi(n)	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
-liver	accusative	τὸ ἧπᾰρ	tò hêpar	τὼ ἥπᾰτε	tṑ hḗpate	τᾰ̀ ἥπᾰτᾰ	tà hḗpata	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
-liver	vocative	ἧπᾰρ	hêpar	ἥπᾰτε	hḗpate	ἥπᾰτᾰ	hḗpata	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
-ship	nominative	ἡ ναῦς	hē naûs	τὼ νῆε	tṑ nêe	αἱ νῆες	hai nêes	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-ship	genitive	τῆς νεώς	tês neṓs	τοῖν νεοῖν	toîn neoîn	τῶν νεῶν	tôn neôn	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-ship	dative	τῇ νηΐ	têi nēḯ	τοῖν νεοῖν	toîn neoîn	ταῖς ναυσί / ναυσίν	taîs nausí(n)	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-ship	accusative	τὴν ναῦν	tḕn naûn	τὼ νῆε	tṑ nêe	τᾱ̀ς ναῦς	tā̀s naûs	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-ship	vocative	ναῦ	naû	νῆε	nêe	νῆες	nêes	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
-ear	nominative	τὸ οὖς	tò oûs	τὼ ὦτε	tṑ ôte	τᾰ̀ ὦτᾰ	tà ôta	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
-ear	genitive	τοῦ ὠτός	toû ōtós	τοῖν ὤτοιν	toîn ṓtoin	τῶν ὤτων	tôn ṓtōn	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
-ear	dative	τῷ ὠτῐ́	tôi ōtí	τοῖν ὤτοιν	toîn ṓtoin	τοῖς ὠσῐ́ / ὠσῐ́ν	toîs ōsí(n)	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
-ear	accusative	τὸ οὖς	tò oûs	τὼ ὦτε	tṑ ôte	τᾰ̀ ὦτᾰ	tà ôta	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
-ear	vocative	οὖς	oûs	ὦτε	ôte	ὦτᾰ	ôta	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
-hand	nominative	ἡ χείρ	hē kheír	τὼ χεῖρε	tṑ kheîre	αἱ χεῖρες	hai kheîres	#		
-hand	genitive	τῆς χειρός	tês kheirós	τοῖν χεροῖν	toîn kheroîn	τῶν χερῶν / χειρῶν	tôn kherôn / kheirôn	#		
-hand	dative	τῇ χειρῐ́	têi kheirí	τοῖν χεροῖν	toîn kheroîn	ταῖς χερσί / χερσίν / χείρεσσι / χείρεσσιν	taîs khersí(n) / kheíressi(n)	#		
-hand	accusative	τὴν χεῖρᾰ	tḕn kheîra	τὼ χεῖρε	tṑ kheîre	τᾱ̀ς χεῖρᾰς	tā̀s kheîras	#		
-hand	vocative	χείρ	kheír 	χεῖρε	kheîre 	χεῖρες	kheîres 	#		
-hello	vocative	χαῖρε	χαῖρε	χαίρετε	χαίρετε	χαίρετε	χαίρετε	#		
-thought	nominative	ἡ φροντῐ́ς	hē phrontĭ́s	τὼ φροντῐ́δε	tṑ phrontĭ́de	αἱ φροντῐ́δες	hai phrontĭ́des			
-thought	genitive	τῆς φροντῐ́δος	tês phrontĭ́dos	τοῖν φροντῐ́δοιν	toîn phrontĭ́doin	τῶν φροντῐ́δων	tôn phrontĭ́dōn			
-thought	dative	τῇ φροντῐ́δῐ	tēî phrontĭ́dĭ	τοῖν φροντῐ́δοιν	toîn phrontĭ́doin	ταῖς φροντῐ́σῐ / φροντῐ́σῐν	taîs phrontĭ́sĭ(n)			
-thought	accusative	τὴν φροντῐ́δᾰ	tḕn phrontĭ́dă	τὼ φροντῐ́δε	tṑ phrontĭ́de	τᾱ̀ς φροντῐ́δᾰς	tā̀s phrontĭ́dăs			
-thought	vocative	φροντῐ́	phrontĭ́	φροντῐ́δε	phrontĭ́de	φροντῐ́δες	phrontĭ́des			
-ball	nominative	ἡ σφαῖρᾰ	hē sphaîră	τὼ σφαίρᾱ	tṑ sphaírā	αἱ σφαῖραι	hai sphaîrai			
-ball	genitive	τῆς σφαίρᾱς	tês sphaírās	τοῖν σφαίραιν	toîn sphaírain	τῶν σφαιρῶν	tôn sphairôn			
-ball	dative	τῇ σφαίρᾳ	tēî sphaírāi	τοῖν σφαίραιν	toîn sphaírain	ταῖς σφαίραις	taîs sphaírais			
-ball	accusative	τὴν σφαῖρᾰν	tḕn sphaîrăn	τὼ σφαίρᾱ	tṑ sphaírā	τᾱ̀ς σφαίρᾱς	tā̀s sphaírās			
-ball	vocative	σφαῖρᾰ	sphaîră	σφαίρᾱ	sphaírā	σφαῖραι	sphaîrai			
-bridge	nominative	ἡ γέφῡρᾰ	hē géphūră	τὼ γεφῡ́ρᾱ	tṑ gephū́rā	αἱ γέφῡραι	hai géphūrai			
-bridge	genitive	τῆς γεφῡ́ρᾱς	tês gephū́rās	τοῖν γεφῡ́ραιν	toîn gephū́rain	τῶν γεφῡρῶν	tôn gephūrôn			
-bridge	dative	τῇ γεφῡ́ρᾳ	tēî gephū́rāi	τοῖν γεφῡ́ραιν	toîn gephū́rain	ταῖς γεφῡ́ραις	taîs gephū́rais			
-bridge	accusative	τὴν γέφῡρᾰν	tḕn géphūrăn	τὼ γεφῡ́ρᾱ	tṑ gephū́rā	τᾱ̀ς γεφῡ́ρᾱς	tā̀s gephū́rās			
-bridge	vocative	γέφῡρᾰ	géphūră	γεφῡ́ρᾱ	gephū́rā	γέφῡραι	géphūrai			
-sparrow	nominative	ὁ στρουθός	ho strouthós	τὼ στρουθώ	tṑ strouthṓ	οἱ στρουθοί	hoi strouthoí			
-sparrow	genitive	τοῦ στρουθοῦ	toû strouthoû	τοῖν στρουθοῖν	toîn strouthoîn	τῶν στρουθῶν	tôn strouthôn			
-sparrow	dative	τῷ στρουθῷ	tōî strouthōî	τοῖν στρουθοῖν	toîn strouthoîn	τοῖς στρουθοῖς	toîs strouthoîs			
-sparrow	accusative	τὸν στρουθόν	tòn strouthón	τὼ στρουθώ	tṑ strouthṓ	τοὺς στρουθούς	toùs strouthoús			
-sparrow	vocative	στρουθέ	strouthé	στρουθώ	strouthṓ	στρουθοί	strouthoí			
-swallow	nominative	ἡ χελῑδών	hē khelīdṓn	τὼ χελῑδόνε	tṑ khelīdóne	αἱ χελῑδόνες	hai khelīdónes			
-swallow	genitive	τῆς χελῑδόνος	tês khelīdónos	τοῖν χελῑδόνοιν	toîn khelīdónoin	τῶν χελῑδόνων	tôn khelīdónōn			
-swallow	dative	τῇ χελῑδόνῐ	tēî khelīdónĭ	τοῖν χελῑδόνοιν	toîn khelīdónoin	ταῖς χελῑδόσῐ / χελῑδόσῐν	taîs khelīdósĭ(n)			
-swallow	accusative	τὴν χελῑδόνᾰ	tḕn khelīdónă	τὼ χελῑδόνε	tṑ khelīdóne	τᾱ̀ς χελῑδόνᾰς	tā̀s khelīdónăs			
-swallow	vocative	χελῑδοῖ	khelīdoî	χελῑδόνε	khelīdóne	χελῑδόνες	khelīdónes			
-finch	nominative	ἡ σπῐ́ζᾰ	hē spĭ́ză	τὼ σπῐ́ζᾱ	tṑ spĭ́zā	αἱ σπῐ́ζαι	hai spĭ́zai			
-finch	genitive	τῆς σπῐ́ζης	tês spĭ́zēs	τοῖν σπῐ́ζαιν	toîn spĭ́zain	τῶν σπῐζῶν	tôn spĭzôn			
-finch	dative	τῇ σπῐ́ζῃ	tēî spĭ́zēi	τοῖν σπῐ́ζαιν	toîn spĭ́zain	ταῖς σπῐ́ζαις	taîs spĭ́zais			
-finch	accusative	τὴν σπῐ́ζᾰν	tḕn spĭ́zăn	τὼ σπῐ́ζᾱ	tṑ spĭ́zā	τᾱ̀ς σπῐ́ζᾱς	tā̀s spĭ́zās			
-finch	vocative	σπῐ́ζᾰ	spĭ́ză	σπῐ́ζᾱ	spĭ́zā	σπῐ́ζαι	spĭ́zai			
-eagle	nominative	ὁ ᾱ̓ετός	ho āetós	τὼ ᾱ̓ετώ	tṑ āetṓ	οἱ ᾱ̓ετοί	hoi āetoí			
-eagle	genitive	τοῦ ᾱ̓ετοῦ	toû āetoû	τοῖν ᾱ̓ετοῖν	toîn āetoîn	τῶν ᾱ̓ετῶν	tôn āetôn			
-eagle	dative	τῷ ᾱ̓ετῷ	tōî āetōî	τοῖν ᾱ̓ετοῖν	toîn āetoîn	τοῖς ᾱ̓ετοῖς	toîs āetoîs			
-eagle	accusative	τὸν ᾱ̓ετόν	tòn āetón	τὼ ᾱ̓ετώ	tṑ āetṓ	τοὺς ᾱ̓ετούς	toùs āetoús			
-eagle	vocative	ᾱ̓ετέ	āeté	ᾱ̓ετώ	āetṓ	ᾱ̓ετοί	āetoí			
-swan	nominative	ὁ κῠ́κνος	ho kŭ́knos	τὼ κῠ́κνω	tṑ kŭ́knō	οἱ κῠ́κνοι	hoi kŭ́knoi			
-swan	genitive	τοῦ κῠ́κνου	toû kŭ́knou	τοῖν κῠ́κνοιν	toîn kŭ́knoin	τῶν κῠ́κνων	tôn kŭ́knōn			
-swan	dative	τῷ κῠ́κνῳ	tōî kŭ́knōi	τοῖν κῠ́κνοιν	toîn kŭ́knoin	τοῖς κῠ́κνοις	toîs kŭ́knois			
-swan	accusative	τὸν κῠ́κνον	tòn kŭ́knon	τὼ κῠ́κνω	tṑ kŭ́knō	τοὺς κῠ́κνους	toùs kŭ́knous			
-swan	vocative	κῠ́κνε	kŭ́kne	κῠ́κνω	kŭ́knō	κῠ́κνοι	kŭ́knoi			
-flamingo	nominative	ὁ φοινῑκόπτερος	ho phoinīkópteros	τὼ φοινῑκοπτέρω	tṑ phoinīkoptérō	οἱ φοινῑκόπτεροι	hoi phoinīkópteroi			
-flamingo	genitive	τοῦ φοινῑκοπτέρου	toû phoinīkoptérou	τοῖν φοινῑκοπτέροιν	toîn phoinīkoptéroin	τῶν φοινῑκοπτέρων	tôn phoinīkoptérōn			
-flamingo	dative	τῷ φοινῑκοπτέρῳ	tōî phoinīkoptérōi	τοῖν φοινῑκοπτέροιν	toîn phoinīkoptéroin	τοῖς φοινῑκοπτέροις	toîs phoinīkoptérois			
-flamingo	accusative	τὸν φοινῑκόπτερον	tòn phoinīkópteron	τὼ φοινῑκοπτέρω	tṑ phoinīkoptérō	τοὺς φοινῑκοπτέρους	toùs phoinīkoptérous			
-flamingo	vocative	φοινῑκόπτερε	phoinīkóptere	φοινῑκοπτέρω	phoinīkoptérō	φοινῑκόπτεροι	phoinīkópteroi			
-dove	nominative	ἡ περῐστερᾱ́	hē perĭsterā́	τὼ περῐστερᾱ́	tṑ perĭsterā́	αἱ περῐστεραί	hai perĭsteraí			
-dove	genitive	τῆς περῐστερᾶς	tês perĭsterâs	τοῖν περῐστεραῖν	toîn perĭsteraîn	τῶν περῐστερῶν	tôn perĭsterôn			
-dove	dative	τῇ περῐστερᾷ	tēî perĭsterāî	τοῖν περῐστεραῖν	toîn perĭsteraîn	ταῖς περῐστεραῖς	taîs perĭsteraîs			
-dove	accusative	τὴν περῐστερᾱ́ν	tḕn perĭsterā́n	τὼ περῐστερᾱ́	tṑ perĭsterā́	τᾱ̀ς περῐστερᾱ́ς	tā̀s perĭsterā́s			
-dove	vocative	περῐστερᾱ́	perĭsterā́	περῐστερᾱ́	perĭsterā́	περῐστεραί	perĭsteraí			
-pigeon	nominative	ἡ περῐστερᾱ́	hē perĭsterā́	τὼ περῐστερᾱ́	tṑ perĭsterā́	αἱ περῐστεραί	hai perĭsteraí			
-pigeon	genitive	τῆς περῐστερᾶς	tês perĭsterâs	τοῖν περῐστεραῖν	toîn perĭsteraîn	τῶν περῐστερῶν	tôn perĭsterôn			
-pigeon	dative	τῇ περῐστερᾷ	tēî perĭsterāî	τοῖν περῐστεραῖν	toîn perĭsteraîn	ταῖς περῐστεραῖς	taîs perĭsteraîs			
-pigeon	accusative	τὴν περῐστερᾱ́ν	tḕn perĭsterā́n	τὼ περῐστερᾱ́	tṑ perĭsterā́	τᾱ̀ς περῐστερᾱ́ς	tā̀s perĭsterā́s			
-pigeon	vocative	περῐστερᾱ́	perĭsterā́	περῐστερᾱ́	perĭsterā́	περῐστεραί	perĭsteraí			
-chick	nominative	ὁ νεοσσός	ho neossós	τὼ νεοσσώ	tṑ neossṓ	οἱ νεοσσοί	hoi neossoí			
-chick	genitive	τοῦ νεοσσοῦ	toû neossoû	τοῖν νεοσσοῖν	toîn neossoîn	τῶν νεοσσῶν	tôn neossôn			
-chick	dative	τῷ νεοσσῷ	tōî neossōî	τοῖν νεοσσοῖν	toîn neossoîn	τοῖς νεοσσοῖς	toîs neossoîs			
-chick	accusative	τὸν νεοσσόν	tòn neossón	τὼ νεοσσώ	tṑ neossṓ	τοὺς νεοσσούς	toùs neossoús			
-chick	vocative	νεοσσέ	neossé	νεοσσώ	neossṓ	νεοσσοί	neossoí			
-child	nominative	τὸ τέκνον	tò téknon	τὼ τέκνω	tṑ téknō	τᾰ̀ τέκνᾰ	tằ téknă			
-child	genitive	τοῦ τέκνου	toû téknou	τοῖν τέκνοιν	toîn téknoin	τῶν τέκνων	tôn téknōn			
-child	dative	τῷ τέκνῳ	tōî téknōi	τοῖν τέκνοιν	toîn téknoin	τοῖς τέκνοις	toîs téknois			
-child	accusative	τὸ τέκνον	tò téknon	τὼ τέκνω	tṑ téknō	τᾰ̀ τέκνᾰ	tằ téknă			
-child	vocative	τέκνον	téknon	τέκνω	téknō	τέκνᾰ	téknă			
-egg	nominative	τὸ ᾠόν	tò ōión	τὼ ᾠώ	tṑ ōiṓ	τᾰ̀ ᾠᾰ́	tằ ōiắ			
-egg	genitive	τοῦ ᾠοῦ	toû ōioû	τοῖν ᾠοῖν	toîn ōioîn	τῶν ᾠῶν	tôn ōiôn			
-egg	dative	τῷ ᾠῷ	tōî ōiōî	τοῖν ᾠοῖν	toîn ōioîn	τοῖς ᾠοῖς	toîs ōioîs			
-egg	accusative	τὸ ᾠόν	tò ōión	τὼ ᾠώ	tṑ ōiṓ	τᾰ̀ ᾠᾰ́	tằ ōiắ			
-egg	vocative	ᾠόν	ōión	ᾠώ	ōiṓ	ᾠᾰ́	ōiắ			
-tree	nominative	τὸ δένδρον	tò déndron	τὼ δένδρω	tṑ déndrō	τᾰ̀ δένδρᾰ	tằ déndră			
-tree	genitive	τοῦ δένδρου	toû déndrou	τοῖν δένδροιν	toîn déndroin	τῶν δένδρων	tôn déndrōn			
-tree	dative	τῷ δένδρῳ	tōî déndrōi	τοῖν δένδροιν	toîn déndroin	τοῖς δένδροις	toîs déndrois			
-tree	accusative	τὸ δένδρον	tò déndron	τὼ δένδρω	tṑ déndrō	τᾰ̀ δένδρᾰ	tằ déndră			
-tree	vocative	δένδρον	déndron	δένδρω	déndrō	δένδρᾰ	déndră			
-insect	nominative	τὸ ἔντομον	tò éntomon	τὼ ἐντόμω	tṑ entómō	τᾰ̀ ἔντομᾰ	tằ éntomă			
-insect	genitive	τοῦ ἐντόμου	toû entómou	τοῖν ἐντόμοιν	toîn entómoin	τῶν ἐντόμων	tôn entómōn			
-insect	dative	τῷ ἐντόμῳ	tōî entómōi	τοῖν ἐντόμοιν	toîn entómoin	τοῖς ἐντόμοις	toîs entómois			
-insect	accusative	τὸ ἔντομον	tò éntomon	τὼ ἐντόμω	tṑ entómō	τᾰ̀ ἔντομᾰ	tằ éntomă			
-insect	vocative	ἔντομον	éntomon	ἐντόμω	entómō	ἔντομᾰ	éntomă			
-beetle	nominative	ὁ κάνθᾰρος	ho kánthăros	τὼ κανθᾰ́ρω	tṑ kanthắrō	οἱ κάνθᾰροι	hoi kánthăroi			
-beetle	genitive	τοῦ κανθᾰ́ρου	toû kanthắrou	τοῖν κανθᾰ́ροιν	toîn kanthắroin	τῶν κανθᾰ́ρων	tôn kanthắrōn			
-beetle	dative	τῷ κανθᾰ́ρῳ	tōî kanthắrōi	τοῖν κανθᾰ́ροιν	toîn kanthắroin	τοῖς κανθᾰ́ροις	toîs kanthắrois			
-beetle	accusative	τὸν κάνθᾰρον	tòn kánthăron	τὼ κανθᾰ́ρω	tṑ kanthắrō	τοὺς κανθᾰ́ρους	toùs kanthắrous			
-beetle	vocative	κάνθᾰρε	kánthăre	κανθᾰ́ρω	kanthắrō	κάνθᾰροι	kánthăroi			
-louse	nominative	ὁ φθείρ	ho phtheír	τὼ φθεῖρε	tṑ phtheîre	οἱ φθεῖρες	hoi phtheîres			
-louse	genitive	τοῦ φθειρός	toû phtheirós	τοῖν φθειροῖν	toîn phtheiroîn	τῶν φθειρῶν	tôn phtheirôn			
-louse	dative	τῷ φθειρῐ́	tōî phtheirĭ́	τοῖν φθειροῖν	toîn phtheiroîn	τοῖς φθειρσῐ́ / φθειρσῐ́ν	toîs phtheirsĭ́(n)			
-louse	accusative	τὸν φθεῖρᾰ	tòn phtheîră	τὼ φθεῖρε	tṑ phtheîre	τοὺς φθεῖρᾰς	toùs phtheîrăs			
-louse	vocative	φθείρ	phtheír	φθεῖρε	phtheîre	φθεῖρες	phtheîres			
-garment	nominative	τὸ ῑ̔μᾰ́τῐον	tò hīmắtĭon	τὼ ῑ̔μᾰτῐ́ω	tṑ hīmătĭ́ō	τᾰ̀ ῑ̔μᾰ́τῐᾰ	tằ hīmắtĭă			
-garment	genitive	τοῦ ῑ̔μᾰτῐ́ου	toû hīmătĭ́ou	τοῖν ῑ̔μᾰτῐ́οιν	toîn hīmătĭ́oin	τῶν ῑ̔μᾰτῐ́ων	tôn hīmătĭ́ōn			
-garment	dative	τῷ ῑ̔μᾰτῐ́ῳ	tōî hīmătĭ́ōi	τοῖν ῑ̔μᾰτῐ́οιν	toîn hīmătĭ́oin	τοῖς ῑ̔μᾰτῐ́οις	toîs hīmătĭ́ois			
-garment	accusative	τὸ ῑ̔μᾰ́τῐον	tò hīmắtĭon	τὼ ῑ̔μᾰτῐ́ω	tṑ hīmătĭ́ō	τᾰ̀ ῑ̔μᾰ́τῐᾰ	tằ hīmắtĭă			
-garment	vocative	ῑ̔μᾰ́τῐον	hīmắtĭon	ῑ̔μᾰτῐ́ω	hīmătĭ́ō	ῑ̔μᾰ́τῐᾰ	hīmắtĭă			
-enemy	nominative	ὁ ἐχθρός	ho ekhthrós	τὼ ἐχθρώ	tṑ ekhthrṓ	οἱ ἐχθροί	hoi ekhthroí			
-enemy	genitive	τοῦ ἐχθροῦ	toû ekhthroû	τοῖν ἐχθροῖν	toîn ekhthroîn	τῶν ἐχθρῶν	tôn ekhthrôn			
-enemy	dative	τῷ ἐχθρῷ	tōî ekhthrōî	τοῖν ἐχθροῖν	toîn ekhthroîn	τοῖς ἐχθροῖς	toîs ekhthroîs			
-enemy	accusative	τὸν ἐχθρόν	tòn ekhthrón	τὼ ἐχθρώ	tṑ ekhthrṓ	τοὺς ἐχθρούς	toùs ekhthroús			
-enemy	vocative	ἐχθρέ	ekhthré	ἐχθρώ	ekhthrṓ	ἐχθροί	ekhthroí			
-forest	nominative	τὸ δᾰ́σος	tò dắsos	τὼ δᾰ́σεε	tṑ dắsee	τᾰ̀ δᾰ́σεᾰ	tằ dắseă			
-forest	genitive	τοῦ δᾰ́σεος	toû dắseos	τοῖν δᾰσέοιν	toîn dăséoin	τῶν δᾰσέων	tôn dăséōn			
-forest	dative	τῷ δᾰ́σεῐ̈	tōî dắseĭ̈	τοῖν δᾰσέοιν	toîn dăséoin	τοῖς δᾰ́σεσῐ / δᾰ́σεσῐν	toîs dắsesĭ(n)			
-forest	accusative	τὸ δᾰ́σος	tò dắsos	τὼ δᾰ́σεε	tṑ dắsee	τᾰ̀ δᾰ́σεᾰ	tằ dắseă			
-forest	vocative	δᾰ́σος	dắsos	δᾰ́σεε	dắsee	δᾰ́σεᾰ	dắseă			
-gate	nominative	ἡ πῠ́λη	hē pŭ́lē	τὼ πῠ́λᾱ	tṑ pŭ́lā	αἱ πῠ́λαι	hai pŭ́lai			
-gate	genitive	τῆς πῠ́λης	tês pŭ́lēs	τοῖν πῠ́λαιν	toîn pŭ́lain	τῶν πῠλῶν	tôn pŭlôn			
-gate	dative	τῇ πῠ́λῃ	tēî pŭ́lēi	τοῖν πῠ́λαιν	toîn pŭ́lain	ταῖς πῠ́λαις	taîs pŭ́lais			
-gate	accusative	τὴν πῠ́λην	tḕn pŭ́lēn	τὼ πῠ́λᾱ	tṑ pŭ́lā	τᾱ̀ς πῠ́λᾱς	tā̀s pŭ́lās			
-gate	vocative	πῠ́λη	pŭ́lē	πῠ́λᾱ	pŭ́lā	πῠ́λαι	pŭ́lai			
-hill	nominative	ὁ βουνός	ho bounós	τὼ βουνώ	tṑ bounṓ	οἱ βουνοί	hoi bounoí			
-hill	genitive	τοῦ βουνοῦ	toû bounoû	τοῖν βουνοῖν	toîn bounoîn	τῶν βουνῶν	tôn bounôn			
-hill	dative	τῷ βουνῷ	tōî bounōî	τοῖν βουνοῖν	toîn bounoîn	τοῖς βουνοῖς	toîs bounoîs			
-hill	accusative	τὸν βουνόν	tòn bounón	τὼ βουνώ	tṑ bounṓ	τοὺς βουνούς	toùs bounoús			
-hill	vocative	βουνέ	bouné	βουνώ	bounṓ	βουνοί	bounoí			
-metal	nominative	τὸ μέτᾰλλον	tò métăllon	τὼ μετᾰ́λλω	tṑ metắllō	τᾰ̀ μέτᾰλλᾰ	tằ métăllă			
-metal	genitive	τοῦ μετᾰ́λλου	toû metắllou	τοῖν μετᾰ́λλοιν	toîn metắlloin	τῶν μετᾰ́λλων	tôn metắllōn			
-metal	dative	τῷ μετᾰ́λλῳ	tōî metắllōi	τοῖν μετᾰ́λλοιν	toîn metắlloin	τοῖς μετᾰ́λλοις	toîs metắllois			
-metal	accusative	τὸ μέτᾰλλον	tò métăllon	τὼ μετᾰ́λλω	tṑ metắllō	τᾰ̀ μέτᾰλλᾰ	tằ métăllă			
-metal	vocative	μέτᾰλλον	métăllon	μετᾰ́λλω	metắllō	μέτᾰλλᾰ	métăllă			
-coin	nominative	τὸ κέρμᾰ	tò kérmă	τὼ κέρμᾰτε	tṑ kérmăte	τᾰ̀ κέρμᾰτᾰ	tằ kérmătă			
-coin	genitive	τοῦ κέρμᾰτος	toû kérmătos	τοῖν κερμᾰ́τοιν	toîn kermắtoin	τῶν κερμᾰ́των	tôn kermắtōn			
-coin	dative	τῷ κέρμᾰτῐ	tōî kérmătĭ	τοῖν κερμᾰ́τοιν	toîn kermắtoin	τοῖς κέρμᾰσῐ / κέρμᾰσῐν	toîs kérmăsĭ(n)			
-coin	accusative	τὸ κέρμᾰ	tò kérmă	τὼ κέρμᾰτε	tṑ kérmăte	τᾰ̀ κέρμᾰτᾰ	tằ kérmătă			
-coin	vocative	κέρμᾰ	kérmă	κέρμᾰτε	kérmăte	κέρμᾰτᾰ	kérmătă			
-wealth	nominative	ὁ πλοῦτος	ho ploûtos	τὼ πλούτω	tṑ ploútō	οἱ πλοῦτοι	hoi ploûtoi			
-wealth	genitive	τοῦ πλούτου	toû ploútou	τοῖν πλούτοιν	toîn ploútoin	τῶν πλούτων	tôn ploútōn			
-wealth	dative	τῷ πλούτῳ	tōî ploútōi	τοῖν πλούτοιν	toîn ploútoin	τοῖς πλούτοις	toîs ploútois			
-wealth	accusative	τὸν πλοῦτον	tòn ploûton	τὼ πλούτω	tṑ ploútō	τοὺς πλούτους	toùs ploútous			
-wealth	vocative	πλοῦτε	ploûte	πλούτω	ploútō	πλοῦτοι	ploûtoi			
-beast	nominative	τὸ θηρῐ́ον	tò thērĭ́on	τὼ θηρῐ́ω	tṑ thērĭ́ō	τᾰ̀ θηρῐ́ᾰ	tằ thērĭ́ă			
-beast	genitive	τοῦ θηρῐ́ου	toû thērĭ́ou	τοῖν θηρῐ́οιν	toîn thērĭ́oin	τῶν θηρῐ́ων	tôn thērĭ́ōn			
-beast	dative	τῷ θηρῐ́ῳ	tōî thērĭ́ōi	τοῖν θηρῐ́οιν	toîn thērĭ́oin	τοῖς θηρῐ́οις	toîs thērĭ́ois			
-beast	accusative	τὸ θηρῐ́ον	tò thērĭ́on	τὼ θηρῐ́ω	tṑ thērĭ́ō	τᾰ̀ θηρῐ́ᾰ	tằ thērĭ́ă			
-beast	vocative	θηρῐ́ον	thērĭ́on	θηρῐ́ω	thērĭ́ō	θηρῐ́ᾰ	thērĭ́ă			
-stone	nominative	ὁ / ἡ λῐ́θος	ho / hē lĭ́thos	τὼ λῐ́θω	tṑ lĭ́thō	οἱ / αἱ λῐ́θοι	hoi / hai lĭ́thoi			
-stone	genitive	τοῦ / τῆς λῐ́θου	toû / tês lĭ́thou	τοῖν λῐ́θοιν	toîn lĭ́thoin	τῶν λῐ́θων	tôn lĭ́thōn			
-stone	dative	τῷ / τῇ λῐ́θῳ	tōî / tēî lĭ́thōi	τοῖν λῐ́θοιν	toîn lĭ́thoin	τοῖς / ταῖς λῐ́θοις	toîs / taîs lĭ́thois			
-stone	accusative	τὸν / τὴν λῐ́θον	tòn / tḕn lĭ́thon	τὼ λῐ́θω	tṑ lĭ́thō	τοὺς / τᾱ̀ς λῐ́θους	toùs / tā̀s lĭ́thous			
-stone	vocative	λῐ́θε	lĭ́the	λῐ́θω	lĭ́thō	λῐ́θοι	lĭ́thoi			
-tool	nominative	τὸ ἐργᾰλεῖον	tò ergăleîon	τὼ ἐργᾰλείω	tṑ ergăleíō	τᾰ̀ ἐργᾰλεῖᾰ	tằ ergăleîă			
-tool	genitive	τοῦ ἐργᾰλείου	toû ergăleíou	τοῖν ἐργᾰλείοιν	toîn ergăleíoin	τῶν ἐργᾰλείων	tôn ergăleíōn			
-tool	dative	τῷ ἐργᾰλείῳ	tōî ergăleíōi	τοῖν ἐργᾰλείοιν	toîn ergăleíoin	τοῖς ἐργᾰλείοις	toîs ergăleíois			
-tool	accusative	τὸ ἐργᾰλεῖον	tò ergăleîon	τὼ ἐργᾰλείω	tṑ ergăleíō	τᾰ̀ ἐργᾰλεῖᾰ	tằ ergăleîă			
-tool	vocative	ἐργᾰλεῖον	ergăleîon	ἐργᾰλείω	ergăleíō	ἐργᾰλεῖᾰ	ergăleîă			
-treasure	nominative	ὁ θησαυρός	ho thēsaurós	τὼ θησαυρώ	tṑ thēsaurṓ	οἱ θησαυροί	hoi thēsauroí			
-treasure	genitive	τοῦ θησαυροῦ	toû thēsauroû	τοῖν θησαυροῖν	toîn thēsauroîn	τῶν θησαυρῶν	tôn thēsaurôn			
-treasure	dative	τῷ θησαυρῷ	tōî thēsaurōî	τοῖν θησαυροῖν	toîn thēsauroîn	τοῖς θησαυροῖς	toîs thēsauroîs			
-treasure	accusative	τὸν θησαυρόν	tòn thēsaurón	τὼ θησαυρώ	tṑ thēsaurṓ	τοὺς θησαυρούς	toùs thēsauroús			
-treasure	vocative	θησαυρέ	thēsauré	θησαυρώ	thēsaurṓ	θησαυροί	thēsauroí			
-heat	nominative	ἡ θέρμη	hē thérmē	τὼ θέρμᾱ	tṑ thérmā	αἱ θέρμαι	hai thérmai			
-heat	genitive	τῆς θέρμης	tês thérmēs	τοῖν θέρμαιν	toîn thérmain	τῶν θερμῶν	tôn thermôn			
-heat	dative	τῇ θέρμῃ	tēî thérmēi	τοῖν θέρμαιν	toîn thérmain	ταῖς θέρμαις	taîs thérmais			
-heat	accusative	τὴν θέρμην	tḕn thérmēn	τὼ θέρμᾱ	tṑ thérmā	τᾱ̀ς θέρμᾱς	tā̀s thérmās			
-heat	vocative	θέρμη	thérmē	θέρμᾱ	thérmā	θέρμαι	thérmai			
-wolf	nominative	ὁ λῠ́κος	ho lŭ́kos	τὼ λῠ́κω	tṑ lŭ́kō	οἱ λῠ́κοι	hoi lŭ́koi			
-wolf	genitive	τοῦ λῠ́κου	toû lŭ́kou	τοῖν λῠ́κοιν	toîn lŭ́koin	τῶν λῠ́κων	tôn lŭ́kōn			
-wolf	dative	τῷ λῠ́κῳ	tōî lŭ́kōi	τοῖν λῠ́κοιν	toîn lŭ́koin	τοῖς λῠ́κοις	toîs lŭ́kois			
-wolf	accusative	τὸν λῠ́κον	tòn lŭ́kon	τὼ λῠ́κω	tṑ lŭ́kō	τοὺς λῠ́κους	toùs lŭ́kous			
-wolf	vocative	λῠ́κε	lŭ́ke	λῠ́κω	lŭ́kō	λῠ́κοι	lŭ́koi			
-worker	nominative	ὁ ἐργᾰ́της	ho ergắtēs	τὼ ἐργᾰ́τᾱ	tṑ ergắtā	οἱ ἐργᾰ́ται	hoi ergắtai			
-worker	genitive	τοῦ ἐργᾰ́του	toû ergắtou	τοῖν ἐργᾰ́ταιν	toîn ergắtain	τῶν ἐργᾰτῶν	tôn ergătôn			
-worker	dative	τῷ ἐργᾰ́τῃ	tōî ergắtēi	τοῖν ἐργᾰ́ταιν	toîn ergắtain	τοῖς ἐργᾰ́ταις	toîs ergắtais			
-worker	accusative	τὸν ἐργᾰ́την	tòn ergắtēn	τὼ ἐργᾰ́τᾱ	tṑ ergắtā	τοὺς ἐργᾰ́τᾱς	toùs ergắtās			
-worker	vocative	ἐργᾰ́τᾰ	ergắtă	ἐργᾰ́τᾱ	ergắtā	ἐργᾰ́ται	ergắtai			
-worm	nominative	ὁ σκώληξ	ho skṓlēx	τὼ σκώληκε	tṑ skṓlēke	οἱ σκώληκες	hoi skṓlēkes			
-worm	genitive	τοῦ σκώληκος	toû skṓlēkos	τοῖν σκωλήκοιν	toîn skōlḗkoin	τῶν σκωλήκων	tôn skōlḗkōn			
-worm	dative	τῷ σκώληκῐ	tōî skṓlēkĭ	τοῖν σκωλήκοιν	toîn skōlḗkoin	τοῖς σκώληξῐ / σκώληξῐν	toîs skṓlēxĭ(n)			
-worm	accusative	τὸν σκώληκᾰ	tòn skṓlēkă	τὼ σκώληκε	tṑ skṓlēke	τοὺς σκώληκᾰς	toùs skṓlēkăs			
-worm	vocative	σκώληξ	skṓlēx	σκώληκε	skṓlēke	σκώληκες	skṓlēkes			
-language	nominative	ἡ γλῶττᾰ	hē glôttă	τὼ γλώττᾱ	tṑ glṓttā	αἱ γλῶτται	hai glôttai			
-language	genitive	τῆς γλώττης	tês glṓttēs	τοῖν γλώτταιν	toîn glṓttain	τῶν γλωττῶν	tôn glōttôn			
-language	dative	τῇ γλώττῃ	tēî glṓttēi	τοῖν γλώτταιν	toîn glṓttain	ταῖς γλώτταις	taîs glṓttais			
-language	accusative	τὴν γλῶττᾰν	tḕn glôttăn	τὼ γλώττᾱ	tṑ glṓttā	τᾱ̀ς γλώττᾱς	tā̀s glṓttās			
-language	vocative	γλῶττᾰ	glôttă	γλώττᾱ	glṓttā	γλῶτται	glôttai			
-river	nominative	ὁ ποτᾰμός	ho potămós	τὼ ποτᾰμώ	tṑ potămṓ	οἱ ποτᾰμοί	hoi potămoí			
-river	genitive	τοῦ ποτᾰμοῦ	toû potămoû	τοῖν ποτᾰμοῖν	toîn potămoîn	τῶν ποτᾰμῶν	tôn potămôn			
-river	dative	τῷ ποτᾰμῷ	tōî potămōî	τοῖν ποτᾰμοῖν	toîn potămoîn	τοῖς ποτᾰμοῖς	toîs potămoîs			
-river	accusative	τὸν ποτᾰμόν	tòn potămón	τὼ ποτᾰμώ	tṑ potămṓ	τοὺς ποτᾰμούς	toùs potămoús			
-river	vocative	ποτᾰμέ	potămé	ποτᾰμώ	potămṓ	ποτᾰμοί	potămoí			
-summer	nominative	τὸ θέρος	tò théros	τὼ θέρει	tṑ thérei	τᾰ̀ θέρη	tằ thérē			
-summer	genitive	τοῦ θέρους	toû thérous	τοῖν θεροῖν	toîn theroîn	τῶν θερῶν	tôn therôn			
-summer	dative	τῷ θέρει	tōî thérei	τοῖν θεροῖν	toîn theroîn	τοῖς θέρεσῐ / θέρεσῐν	toîs théresĭ(n)			
-summer	accusative	τὸ θέρος	tò théros	τὼ θέρει	tṑ thérei	τᾰ̀ θέρη	tằ thérē			
-summer	vocative	θέρος	théros	θέρει	thérei	θέρη	thérē			
-spring	nominative	τὸ ἔᾰρ	tò éăr	τὼ ἔᾰρε	tṑ éăre	τᾰ̀ ἔᾰρᾰ	tằ éără			
-spring	genitive	τοῦ ἔᾰρος	toû éăros	τοῖν ἐᾰ́ροιν	toîn eắroin	τῶν ἐᾰ́ρων	tôn eắrōn			
-spring	dative	τῷ ἔᾰρῐ	tōî éărĭ	τοῖν ἐᾰ́ροιν	toîn eắroin	τοῖς ἔᾰρσῐ / ἔᾰρσῐν	toîs éărsĭ(n)			
-spring	accusative	τὸ ἔᾰρ	tò éăr	τὼ ἔᾰρε	tṑ éăre	τᾰ̀ ἔᾰρᾰ	tằ éără			
-spring	vocative	ἔᾰρ	éăr	ἔᾰρε	éăre	ἔᾰρᾰ	éără			
-autumn	nominative	ἡ ὀπώρᾱ	hē opṓrā	τὼ ὀπώρᾱ	tṑ opṓrā	αἱ ὀπῶραι	hai opôrai			
-autumn	genitive	τῆς ὀπώρᾱς	tês opṓrās	τοῖν ὀπώραιν	toîn opṓrain	τῶν ὀπωρῶν	tôn opōrôn			
-autumn	dative	τῇ ὀπώρᾳ	tēî opṓrāi	τοῖν ὀπώραιν	toîn opṓrain	ταῖς ὀπώραις	taîs opṓrais			
-autumn	accusative	τὴν ὀπώρᾱν	tḕn opṓrān	τὼ ὀπώρᾱ	tṑ opṓrā	τᾱ̀ς ὀπώρᾱς	tā̀s opṓrās			
+Ares	nominative	Ἄρης	Árēs	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
+Ares	genitive	Ἄρεως	Áreōs	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
+Ares	dative	Ἄρει	Árei	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
+Ares	accusative	Ἄρη	Árē	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
+Ares	vocative	Ἄρες	Áres	—	—	—	—	#	Irregular declension of ὁ Ἄρης; τοῦ Ἄρεως (Attic)	
+arrow	nominative	ἔδᾰφος	édaphos	ἐδᾰ́φει	edáphei	ἐδᾰ́φη	edáphē	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
+arrow	genitive	ἐδᾰ́φους	edáphous	ἐδᾰφοῖν	edaphoîn	ἐδᾰφῶν	edaphôn	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
+arrow	dative	ἐδᾰ́φει	edáphei	ἐδᾰφοῖν	edaphoîn	ἐδᾰ́φεσῐ / ἐδᾰ́φεσῐν	toîs edáphesi(n)	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
+arrow	accusative	ἔδᾰφος	édaphos	ἐδᾰ́φει	edáphei	ἐδᾰ́φη	edáphē	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
+arrow	vocative	ἔδᾰφος	édaphos	ἐδᾰ́φει	edáphei	ἐδᾰ́φη	edáphē	#	Third declension of τὸ ἔδᾰφος; τοῦ ἐδᾰ́φους (Attic)	
+attention	nominative	φροντῐ́ς	phrontís	φροντῐ́δε	phrontíde	φροντῐ́δες	phrontídes	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
+attention	genitive	φροντῐ́δος	phrontídos	φροντῐ́δοιν	phrontídoin	φροντῐ́δων	phrontídōn	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
+attention	dative	φροντῐ́δῐ	phrontídi	φροντῐ́δοιν	phrontídoin	φροντῐ́σῐ / φροντῐ́σῐν	phrontísi(n)	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
+attention	accusative	φροντῐ́δᾰ	phrontída	φροντῐ́δε	phrontíde	φροντῐ́δᾰς	phrontídas	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
+attention	vocative	φροντῐ́ς	phrontís	φροντῐ́δε	phrontíde	φροντῐ́δες	phrontídes	#	Third declension of ἡ φροντῐ́ς; τῆς φροντῐ́δος (Attic)	
+autumn	nominative	ὀπώρᾱ	opṓrā	ὀπώρᾱ	opṓrā	ὀπῶραι	opôrai			
+autumn	genitive	ὀπώρᾱς	opṓrās	ὀπώραιν	opṓrain	ὀπωρῶν	opōrôn			
+autumn	dative	ὀπώρᾳ	opṓrāi	ὀπώραιν	opṓrain	ὀπώραις	opṓrais			
+autumn	accusative	ὀπώρᾱν	opṓrān	ὀπώρᾱ	opṓrā	ὀπώρᾱς	opṓrās			
 autumn	vocative	ὀπώρᾱ	opṓrā	ὀπώρᾱ	opṓrā	ὀπῶραι	opôrai			
-year	nominative	τὸ ἔτος	tò étos	τὼ ἔτει	tṑ étei	τᾰ̀ ἔτη	tằ étē			
-year	genitive	τοῦ ἔτους	toû étous	τοῖν ἐτοῖν	toîn etoîn	τῶν ἐτῶν	tôn etôn			
-year	dative	τῷ ἔτει / ἔτῃ†	tōî étei / étēi†	τοῖν ἐτοῖν	toîn etoîn	τοῖς ἔτεσῐ / ἔτεσῐν	toîs étesĭ(n)			
-year	accusative	τὸ ἔτος	tò étos	τὼ ἔτει	tṑ étei	τᾰ̀ ἔτη	tằ étē			
-year	vocative	ἔτος	étos	ἔτει	étei	ἔτη	étē			
-day	nominative	ἡ ἡμέρᾱ	hē hēmérā	τὼ ἡμέρᾱ	tṑ hēmérā	αἱ ἡμέραι	hai hēmérai			
-day	genitive	τῆς ἡμέρᾱς	tês hēmérās	τοῖν ἡμέραιν	toîn hēmérain	τῶν ἡμερῶν	tôn hēmerôn			
-day	dative	τῇ ἡμέρᾳ	tēî hēmérāi	τοῖν ἡμέραιν	toîn hēmérain	ταῖς ἡμέραις	taîs hēmérais			
-day	accusative	τὴν ἡμέρᾱν	tḕn hēmérān	τὼ ἡμέρᾱ	tṑ hēmérā	τᾱ̀ς ἡμέρᾱς	tā̀s hēmérās			
-day	vocative	ἡμέρᾱ	hēmérā	ἡμέρᾱ	hēmérā	ἡμέραι	hēmérai			
-moon	nominative	ἡ σελήνη	hē selḗnē	τὼ σελήνᾱ	tṑ selḗnā	αἱ σελῆναι	hai selênai			
-moon	genitive	τῆς σελήνης	tês selḗnēs	τοῖν σελήναιν	toîn selḗnain	τῶν σεληνῶν	tôn selēnôn			
-moon	dative	τῇ σελήνῃ	tēî selḗnēi	τοῖν σελήναιν	toîn selḗnain	ταῖς σελήναις	taîs selḗnais			
-moon	accusative	τὴν σελήνην	tḕn selḗnēn	τὼ σελήνᾱ	tṑ selḗnā	τᾱ̀ς σελήνᾱς	tā̀s selḗnās			
-moon	vocative	σελήνη	selḗnē	σελήνᾱ	selḗnā	σελῆναι	selênai			
-sun	nominative	ὁ ἥλῐος	ho hḗlĭos	τὼ ἡλῐ́ω	tṑ hēlĭ́ō	οἱ ἥλῐοι	hoi hḗlĭoi			
-sun	genitive	τοῦ ἡλῐ́ου	toû hēlĭ́ou	τοῖν ἡλῐ́οιν	toîn hēlĭ́oin	τῶν ἡλῐ́ων	tôn hēlĭ́ōn			
-sun	dative	τῷ ἡλῐ́ῳ	tōî hēlĭ́ōi	τοῖν ἡλῐ́οιν	toîn hēlĭ́oin	τοῖς ἡλῐ́οις	toîs hēlĭ́ois			
-sun	accusative	τὸν ἥλῐον	tòn hḗlĭon	τὼ ἡλῐ́ω	tṑ hēlĭ́ō	τοὺς ἡλῐ́ους	toùs hēlĭ́ous			
-sun	vocative	ἥλῐε	hḗlĭe	ἡλῐ́ω	hēlĭ́ō	ἥλῐοι	hḗlĭoi			
-planet	nominative	ὁ πλᾰνήτης	ho plănḗtēs	τὼ πλᾰνήτᾱ	tṑ plănḗtā	οἱ πλᾰνῆται	hoi plănêtai			
-planet	genitive	τοῦ πλᾰνήτου	toû plănḗtou	τοῖν πλᾰνήταιν	toîn plănḗtain	τῶν πλᾰνητῶν	tôn plănētôn			
-planet	dative	τῷ πλᾰνήτῃ	tōî plănḗtēi	τοῖν πλᾰνήταιν	toîn plănḗtain	τοῖς πλᾰνήταις	toîs plănḗtais			
-planet	accusative	τὸν πλᾰνήτην	tòn plănḗtēn	τὼ πλᾰνήτᾱ	tṑ plănḗtā	τοὺς πλᾰνήτᾱς	toùs plănḗtās			
-planet	vocative	πλᾰνῆτᾰ	plănêtă	πλᾰνήτᾱ	plănḗtā	πλᾰνῆται	plănêtai			
-star	nominative	ὁ ᾰ̓στήρ	ho ăstḗr	τὼ ᾰ̓στέρε	tṑ ăstére	οἱ ᾰ̓στέρες	hoi ăstéres			
-star	genitive	τοῦ ᾰ̓στέρος	toû ăstéros	τοῖν ᾰ̓στέροιν	toîn ăstéroin	τῶν ᾰ̓στέρων	tôn ăstérōn			
-star	dative	τῷ ᾰ̓στέρῐ	tōî ăstérĭ	τοῖν ᾰ̓στέροιν	toîn ăstéroin	τοῖς ᾰ̓στρᾰ́σῐ / ᾰ̓στρᾰ́σῐν	toîs ăstrắsĭ(n)			
-star	accusative	τὸν ᾰ̓στέρᾰ	tòn ăstéră	τὼ ᾰ̓στέρε	tṑ ăstére	τοὺς ᾰ̓στέρᾰς	toùs ăstérăs			
-star	vocative	ᾰ̓́στερ	ắster	ᾰ̓στέρε	ăstére	ᾰ̓στέρες	ăstéres			
-human	nominative	ὁ / ἡ ᾰ̓́νθρωπος	ho / hē ắnthrōpos	τὼ ᾰ̓νθρώπω	tṑ ănthrṓpō	οἱ / αἱ ᾰ̓́νθρωποι	hoi / hai ắnthrōpoi			
-human	genitive	τοῦ / τῆς ᾰ̓νθρώπου	toû / tês ănthrṓpou	τοῖν ᾰ̓νθρώποιν	toîn ănthrṓpoin	τῶν ᾰ̓νθρώπων	tôn ănthrṓpōn			
-human	dative	τῷ / τῇ ᾰ̓νθρώπῳ	tōî / tēî ănthrṓpōi	τοῖν ᾰ̓νθρώποιν	toîn ănthrṓpoin	τοῖς / ταῖς ᾰ̓νθρώποις	toîs / taîs ănthrṓpois			
-human	accusative	τὸν / τὴν ᾰ̓́νθρωπον	tòn / tḕn ắnthrōpon	τὼ ᾰ̓νθρώπω	tṑ ănthrṓpō	τοὺς / τᾱ̀ς ᾰ̓νθρώπους	toùs / tā̀s ănthrṓpous			
-human	vocative	ᾰ̓́νθρωπε / ὦνθρωπε / ὤνθρωπε	ắnthrōpe / ônthrōpe / ṓnthrōpe	ᾰ̓νθρώπω	ănthrṓpō	ᾰ̓́νθρωποι	ắnthrōpoi			
-mother	nominative	ἡ μήτηρ	hē mḗtēr	τὼ μητέρε	tṑ mētére	αἱ μητέρες	hai mētéres			
-mother	genitive	τῆς μητρός	tês mētrós	τοῖν μητέροιν	toîn mētéroin	τῶν μητέρων	tôn mētérōn			
-mother	dative	τῇ μητρῐ́	tēî mētrĭ́	τοῖν μητέροιν	toîn mētéroin	ταῖς μητρᾰ́σῐ / μητρᾰ́σῐν	taîs mētrắsĭ(n)			
-mother	accusative	τὴν μητέρᾰ	tḕn mētéră	τὼ μητέρε	tṑ mētére	τᾱ̀ς μητέρᾰς	tā̀s mētérăs			
-mother	vocative	μῆτερ	mêter	μητέρε	mētére	μητέρες	mētéres			
-grandmother	nominative	ἡ τήθη	hē tḗthē	τὼ τήθᾱ	tṑ tḗthā	αἱ τῆθαι	hai têthai			
-grandmother	genitive	τῆς τήθης	tês tḗthēs	τοῖν τήθαιν	toîn tḗthain	τῶν τηθῶν	tôn tēthôn			
-grandmother	dative	τῇ τήθῃ	tēî tḗthēi	τοῖν τήθαιν	toîn tḗthain	ταῖς τήθαις	taîs tḗthais			
-grandmother	accusative	τὴν τήθην	tḕn tḗthēn	τὼ τήθᾱ	tṑ tḗthā	τᾱ̀ς τήθᾱς	tā̀s tḗthās			
-grandmother	vocative	τήθη	tḗthē	τήθᾱ	tḗthā	τῆθαι	têthai			
-grandfather	nominative	ὁ πᾰ́ππος	ho pắppos	τὼ πᾰ́ππω	tṑ pắppō	οἱ πᾰ́πποι	hoi pắppoi			
-grandfather	genitive	τοῦ πᾰ́ππου	toû pắppou	τοῖν πᾰ́πποιν	toîn pắppoin	τῶν πᾰ́ππων	tôn pắppōn			
-grandfather	dative	τῷ πᾰ́ππῳ	tōî pắppōi	τοῖν πᾰ́πποιν	toîn pắppoin	τοῖς πᾰ́πποις	toîs pắppois			
-grandfather	accusative	τὸν πᾰ́ππον	tòn pắppon	τὼ πᾰ́ππω	tṑ pắppō	τοὺς πᾰ́ππους	toùs pắppous			
-grandfather	vocative	πᾰ́ππε	pắppe	πᾰ́ππω	pắppō	πᾰ́πποι	pắppoi			
-south	nominative	ὁ νότος	ho nótos	τὼ νότω	tṑ nótō	οἱ νότοι	hoi nótoi			
-south	genitive	τοῦ νότου	toû nótou	τοῖν νότοιν	toîn nótoin	τῶν νότων	tôn nótōn			
-south	dative	τῷ νότῳ	tōî nótōi	τοῖν νότοιν	toîn nótoin	τοῖς νότοις	toîs nótois			
-south	accusative	τὸν νότον	tòn nóton	τὼ νότω	tṑ nótō	τοὺς νότους	toùs nótous			
-south	vocative	νότε	nóte	νότω	nótō	νότοι	nótoi			
-east	nominative	ἡ ἀνατολή	hē anatolḗ	τὼ ἀνατολᾱ́	tṑ anatolā́	αἱ ἀνατολαί	hai anatolaí			
-east	genitive	τῆς ἀνατολῆς	tês anatolês	τοῖν ἀνατολαῖν	toîn anatolaîn	τῶν ἀνατολῶν	tôn anatolôn			
-east	dative	τῇ ἀνατολῇ	tēî anatolēî	τοῖν ἀνατολαῖν	toîn anatolaîn	ταῖς ἀνατολαῖς	taîs anatolaîs			
-east	accusative	τὴν ἀνατολήν	tḕn anatolḗn	τὼ ἀνατολᾱ́	tṑ anatolā́	τᾱ̀ς ἀνατολᾱ́ς	tā̀s anatolā́s			
-east	vocative	ἀνατολή	anatolḗ	ἀνατολᾱ́	anatolā́	ἀνατολαί	anatolaí			
-west	nominative	ἡ δῠ́σῐς	hē dŭ́sĭs	τὼ δῠ́σει	tṑ dŭ́sei	αἱ δῠ́σεις	hai dŭ́seis			
-west	genitive	τῆς δῠ́σεως	tês dŭ́seōs	τοῖν δῠσέοιν	toîn dŭséoin	τῶν δῠ́σεων	tôn dŭ́seōn			
-west	dative	τῇ δῠ́σει	tēî dŭ́sei	τοῖν δῠσέοιν	toîn dŭséoin	ταῖς δῠ́σεσῐ / δῠ́σεσῐν	taîs dŭ́sesĭ(n)			
-west	accusative	τὴν δῠ́σῐν	tḕn dŭ́sĭn	τὼ δῠ́σει	tṑ dŭ́sei	τᾱ̀ς δῠ́σεις	tā̀s dŭ́seis			
-west	vocative	δῠ́σῐ	dŭ́sĭ	δῠ́σει	dŭ́sei	δῠ́σεις	dŭ́seis			
+axe	nominative	πέλεκῠς	pélekus	πελέκει	pelékei	πελέκεις	pelékeis	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
+axe	genitive	πελέκεως	pelékeōs	πελεκέοιν	pelekéoin	πελέκεων	pelékeōn	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
+axe	dative	πελέκει	pelékei	πελεκέοιν	pelekéoin	πελέκεσῐ / πελέκεσῐν	toîs pelékesi(n)	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
+axe	accusative	πέλεκῠν	pélekun	πελέκει	pelékei	πελέκεις	pelékeis	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
+axe	vocative	πέλεκῠ	péleku	πελέκει	pelékei	πελέκεις	pelékeis	#	Third declension of ὁ πέλεκῠς; τοῦ πελέκεως (Attic)	
+ball	nominative	σφαῖρᾰ	sphaîră	σφαίρᾱ	sphaírā	σφαῖραι	sphaîrai			
+ball	genitive	σφαίρᾱς	sphaírās	σφαίραιν	sphaírain	σφαιρῶν	sphairôn			
+ball	dative	σφαίρᾳ	sphaírāi	σφαίραιν	sphaírain	σφαίραις	sphaírais			
+ball	accusative	σφαῖρᾰν	sphaîrăn	σφαίρᾱ	sphaírā	σφαίρᾱς	sphaírās			
+ball	vocative	σφαῖρᾰ	sphaîră	σφαίρᾱ	sphaírā	σφαῖραι	sphaîrai			
+beast	nominative	θηρῐ́ον	thērĭ́on	θηρῐ́ω	thērĭ́ō	θηρῐ́ᾰ	thērĭ́ă			
+beast	genitive	θηρῐ́ου	thērĭ́ou	θηρῐ́οιν	thērĭ́oin	θηρῐ́ων	thērĭ́ōn			
+beast	dative	θηρῐ́ῳ	thērĭ́ōi	θηρῐ́οιν	thērĭ́oin	θηρῐ́οις	toîs thērĭ́ois			
+beast	accusative	θηρῐ́ον	thērĭ́on	θηρῐ́ω	thērĭ́ō	θηρῐ́ᾰ	thērĭ́ă			
+beast	vocative	θηρῐ́ον	thērĭ́on	θηρῐ́ω	thērĭ́ō	θηρῐ́ᾰ	thērĭ́ă			
 bee	nominative	μέλῐσσᾰ	mélĭssă	μελῐ́σσᾱ	melĭ́ssā	μέλῐσσαι	mélĭssai			
 bee	genitive	μελῐ́σσης	melĭ́ssēs	μελῐ́σσαιῐ̈ν	melĭ́ssaiĭ̈n	μελῐσσᾱ́ων / μελῐσσέων / μελῐσσῶν	melĭssā́ōn / melĭsséōn / melĭssôn			
 bee	dative	μελῐ́σσῃ	melĭ́ssēi	μελῐ́σσαιῐ̈ν	melĭ́ssaiĭ̈n	μελῐ́σσῃσῐ / μελῐ́σσῃσῐν / μελῐ́σσῃς / μελῐ́σσαις	melĭ́ssēisĭ(n) / melĭ́ssēis / melĭ́ssais			
 bee	accusative	μέλῐσσᾰν	mélĭssăn	μελῐ́σσᾱ	melĭ́ssā	μελῐ́σσᾱς	melĭ́ssās			
 bee	vocative	μέλῐσσᾰ	mélĭssă	μελῐ́σσᾱ	melĭ́ssā	μέλῐσσαι	mélĭssai			
-earth	nominative	ἡ γῆ	hē gê	τὼ γᾶ	tṑ gâ	αἱ γαῖ	hai gaî			
-earth	genitive	τῆς γῆς	tês gês	τοῖν γαῖν	toîn gaîn	τῶν γῶν	tôn gôn			
-earth	dative	τῇ γῇ	tēî gēî	τοῖν γαῖν	toîn gaîn	ταῖς γαῖς	taîs gaîs			
-earth	accusative	τὴν γῆν	tḕn gên	τὼ γᾶ	tṑ gâ	τᾱ̀ς γᾶς	tā̀s gâs			
+beetle	nominative	κάνθᾰρος	kánthăros	κανθᾰ́ρω	kanthắrō	κάνθᾰροι	kánthăroi			
+beetle	genitive	κανθᾰ́ρου	kanthắrou	κανθᾰ́ροιν	kanthắroin	κανθᾰ́ρων	kanthắrōn			
+beetle	dative	κανθᾰ́ρῳ	kanthắrōi	κανθᾰ́ροιν	kanthắroin	κανθᾰ́ροις	toîs kanthắrois			
+beetle	accusative	κάνθᾰρον	kánthăron	κανθᾰ́ρω	kanthắrō	κανθᾰ́ρους	kanthắrous			
+beetle	vocative	κάνθᾰρε	kánthăre	κανθᾰ́ρω	kanthắrō	κάνθᾰροι	kánthăroi			
+bird	nominative	ὄρνῑς	órnīs	ὄρνῑθε	órnīthe	ὄρνῑθες	órnīthes	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
+bird	genitive	ὄρνῑθος	órnīthos	ὀρνῑ́θοιν	ornī́thoin	ὀρνῑ́θων	ornī́thōn	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
+bird	dative	ὄρνῑθῐ	órnīthi	ὀρνῑ́θοιν	ornī́thoin	ὄρνῑσῐ / ὄρνῑσῐν	toîs, taîs órnīsi(n)	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
+bird	accusative	ὄρνῑν / ὄρνῑθα	órnīn / órnītha	ὄρνῑθε	órnīthe	ὄρνῑθᾰς	órnīthas	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
+bird	vocative	ὄρνῑ	órnī	ὄρνῑθε	órnīthe	ὄρνῑθες	órnīthes	#	Third declension of ὁ, ἡ ὄρνῑς; τοῦ, τῆς ὄρνῑθος (Attic)	
+boat	nominative	ναῦς	naûs	νῆε	nêe	νῆες	nêes	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+boat	genitive	νεώς	neṓs	νεοῖν	neoîn	νεῶν	neôn	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+boat	dative	νηΐ	nēḯ	νεοῖν	neoîn	ναυσί / ναυσίν	nausí(n)	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+boat	accusative	ναῦν	naûn	νῆε	nêe	ναῦς	naûs	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+boat	vocative	ναῦ	naû	νῆε	nêe	νῆες	nêes	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+bone	nominative	ὀστοῦν	ostoûn	ὀστώ	ostṓ	ὀστᾶ	ostâ	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
+bone	genitive	ὀστοῦ	ostoû	ὀστοῖν	ostoîn	ὀστῶν	ostôn	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
+bone	dative	ὀστῷ	ostôi	ὀστοῖν	ostoîn	ὀστοῖς	toîs ostoîs	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
+bone	accusative	ὀστοῦν	ostoûn	ὀστώ	ostṓ	ὀστᾶ	ostâ	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
+bone	vocative	ὀστοῦν	ostoûn	ὀστώ	ostṓ	ὀστᾶ	ostâ	#	Second declension of τὸ ὀστοῦν; τοῦ ὀστοῦ (Attic)	
+book	nominative	βῐβλῐ́ον	biblíon	βῐβλῐ́ω	biblíō	βῐβλῐ́ᾰ	biblía	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
+book	genitive	βῐβλῐ́ου	biblíou	βῐβλῐ́οιν	biblíoin	βῐβλῐ́ων	biblíōn	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
+book	dative	βῐβλῐ́ῳ	biblíōi	βῐβλῐ́οιν	biblíoin	βῐβλῐ́οις	toîs biblíois	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
+book	accusative	βῐβλῐ́ον	biblíon	βῐβλῐ́ω	biblíō	βῐβλῐ́ᾰ	biblía	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
+book	vocative	βῐβλῐ́ον	biblíon	βῐβλῐ́ω	biblíō	βῐβλῐ́ᾰ	biblía	#	Second declension of τὸ βῐβλῐ́ον; τοῦ βῐβλῐ́ου (Attic)	
+bridge	nominative	γέφῡρᾰ	géphūră	γεφῡ́ρᾱ	gephū́rā	γέφῡραι	géphūrai			
+bridge	genitive	γεφῡ́ρᾱς	gephū́rās	γεφῡ́ραιν	gephū́rain	γεφῡρῶν	gephūrôn			
+bridge	dative	γεφῡ́ρᾳ	gephū́rāi	γεφῡ́ραιν	gephū́rain	γεφῡ́ραις	gephū́rais			
+bridge	accusative	γέφῡρᾰν	géphūrăn	γεφῡ́ρᾱ	gephū́rā	γεφῡ́ρᾱς	gephū́rās			
+bridge	vocative	γέφῡρᾰ	géphūră	γεφῡ́ρᾱ	gephū́rā	γέφῡραι	géphūrai			
+brother	nominative	ᾰ̓δελφός	adelphós	ᾰ̓δελφώ	adelphṓ	ᾰ̓δελφοί	adelphoí	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
+brother	genitive	ᾰ̓δελφοῦ	adelphoû	ᾰ̓δελφοῖν	adelphoîn	ᾰ̓δελφῶν	adelphôn	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
+brother	dative	ᾰ̓δελφῷ	adelphôi	ᾰ̓δελφοῖν	adelphoîn	ᾰ̓δελφοῖς	toîs adelphoîs	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
+brother	accusative	ᾰ̓δελφόν	adelphón	ᾰ̓δελφώ	adelphṓ	ᾰ̓δελφούς	adelphoús	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
+brother	vocative	ᾰ̓δελφέ / ᾰ̓́δελφε	adelphé / ádelphe	ᾰ̓δελφώ	adelphṓ	ᾰ̓δελφοί	adelphoí	#	Second declension of ὁ ᾰ̓δελφός; τοῦ ᾰ̓δελφοῦ (Attic)	
+bug	nominative	ἔντομον	éntomon	ἐντόμω	entómō	ἔντομᾰ	éntoma	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
+bug	genitive	ἐντόμου	entómou	ἐντόμοιν	entómoin	ἐντόμων	entómōn	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
+bug	dative	ἐντόμῳ	entómōi	ἐντόμοιν	entómoin	ἐντόμοις	toîs entómois	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
+bug	accusative	ἔντομον	éntomon	ἐντόμω	entómō	ἔντομᾰ	éntoma	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
+bug	vocative	ἔντομον	éntomon	ἐντόμω	entómō	ἔντομᾰ	éntoma	#	Second declension of τὸ ἔντομον; τοῦ ἐντόμου (Attic)	
+chaff	nominative	ἀθήρ	athḗr	ἀθέρε	athére	ἀθέρες	athéres	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
+chaff	genitive	ἀθέρος	athéros	ἀθέροιν	athéroin	ἀθέρων	athérōn	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
+chaff	dative	ἀθέρῐ	athéri	ἀθέροιν	athéroin	ἀθέρσῐ / ἀθέρσῐν	toîs athérsi(n)	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
+chaff	accusative	ἀθέρᾰ	athéra	ἀθέρε	athére	ἀθέρᾰς	athéras	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
+chaff	vocative	ἀθήρ	athḗr	ἀθέρε	athére	ἀθέρες	athéres	#	Third declension of ὁ ἀθήρ; τοῦ ἀθέρος (Attic)	
+chick	nominative	νεοσσός	neossós	νεοσσώ	neossṓ	νεοσσοί	neossoí			
+chick	genitive	νεοσσοῦ	neossoû	νεοσσοῖν	neossoîn	νεοσσῶν	neossôn			
+chick	dative	νεοσσῷ	neossōî	νεοσσοῖν	neossoîn	νεοσσοῖς	toîs neossoîs			
+chick	accusative	νεοσσόν	neossón	νεοσσώ	neossṓ	νεοσσούς	neossoús			
+chick	vocative	νεοσσέ	neossé	νεοσσώ	neossṓ	νεοσσοί	neossoí			
+child	nominative	τέκνον	téknon	τέκνω	téknō	τέκνᾰ	téknă			
+child	genitive	τέκνου	téknou	τέκνοιν	téknoin	τέκνων	téknōn			
+child	dative	τέκνῳ	téknōi	τέκνοιν	téknoin	τέκνοις	toîs téknois			
+child	accusative	τέκνον	téknon	τέκνω	téknō	τέκνᾰ	téknă			
+child	vocative	τέκνον	téknon	τέκνω	téknō	τέκνᾰ	téknă			
+circumnavigation	nominative	περίπλους		περίπλω		περίπλοι		#	περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
+circumnavigation	genitive	περίπλου		περίπλοιν		περίπλων		#	περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
+circumnavigation	dative	περίπλῳ		περίπλοιν		περίπλοις		#	περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
+circumnavigation	accusative	περίπλουν		περίπλω		περίπλους		#	περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
+circumnavigation	vocative	περίπλου		περίπλω		περίπλοι		#	περίπλους, τοῦ περίπλου - 2nd Declension, contracted (of περίπλοος)	
+city	nominative	πόλῐς	pólis	πόλει	pólei	πόλεις	póleis	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
+city	genitive	πόλεως	póleōs	πολέοιν	poléoin	πόλεων	póleōn	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
+city	dative	πόλει	pólei	πολέοιν	poléoin	πόλεσῐ / πόλεσῐν	pólesi(n)	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
+city	accusative	πόλῐν	pólin	πόλει	pólei	πόλεις	póleis	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
+city	vocative	πόλῐ	póli	πόλει	pólei	πόλεις	póleis	#	Third declension of ἡ πόλῐς; τῆς πόλεως (Attic)	
+Clio	nominative	Κλειώ	Kleiṓ	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
+Clio	genitive	Κλειοῦς	Kleioûs	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
+Clio	dative	Κλειοῖ	Kleioî	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
+Clio	accusative	Κλειώ	Kleiṓ	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
+Clio	vocative	Κλειοῖ	Kleioî	—	—	—	—	#	Third declension of ἡ Κλειώ; τῆς Κλειοῦς (Attic)	
+clothing	nominative	ἐσθής	esthḗs	ἐσθῆτε	esthête	ἐσθῆτες	esthêtes	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
+clothing	genitive	ἐσθῆτος	esthêtos	ἐσθήτοιν	esthḗtoin	ἐσθήτων	esthḗtōn	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
+clothing	dative	ἐσθῆτῐ	esthêti	ἐσθήτοιν	esthḗtoin	ἐσθῆσῐ / ἐσθῆσῐν	esthêsi(n)	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
+clothing	accusative	ἐσθῆτᾰ	esthêta	ἐσθῆτε	esthête	ἐσθῆτᾰς	esthêtas	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
+clothing	vocative	ἐσθής	esthḗs	ἐσθῆτε	esthête	ἐσθῆτες	esthêtes	#	Third declension of ἡ ἐσθής; τῆς ἐσθῆτος (Attic)	
+coin	nominative	κέρμᾰ	kérmă	κέρμᾰτε	kérmăte	κέρμᾰτᾰ	kérmătă			
+coin	genitive	κέρμᾰτος	kérmătos	κερμᾰ́τοιν	kermắtoin	κερμᾰ́των	kermắtōn			
+coin	dative	κέρμᾰτῐ	kérmătĭ	κερμᾰ́τοιν	kermắtoin	κέρμᾰσῐ / κέρμᾰσῐν	toîs kérmăsĭ(n)			
+coin	accusative	κέρμᾰ	kérmă	κέρμᾰτε	kérmăte	κέρμᾰτᾰ	kérmătă			
+coin	vocative	κέρμᾰ	kérmă	κέρμᾰτε	kérmăte	κέρμᾰτᾰ	kérmătă			
+cow	nominative	βοῦς	boûs	βόε	bóe	βόες	bóes	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
+cow	genitive	βοός	boós	βοοῖν	booîn	βοῶν	boôn	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
+cow	dative	βοΐ	boḯ	βοοῖν	booîn	βουσί / βουσίν	toîs, taîs bousí(n)	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
+cow	accusative	βοῦν	boûn	βόε	bóe	βοῦς	boûs	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
+cow	vocative	βοῦ	boû	βόε	bóe	βόες	bóes	#	Irregular declension of ὁ, ἡ βοῦς; τοῦ, τῆς βοός (Attic)	
+crow	nominative	κόρᾰξ	kórax	κόρᾰκε	kórake	κόρᾰκες	kórakes	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
+crow	genitive	κόρᾰκος	kórakos	κορᾰ́κοιν	korákoin	κορᾰ́κων	korákōn	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
+crow	dative	κόρᾰκῐ	kóraki	κορᾰ́κοιν	korákoin	κόρᾰξῐ / κόρᾰξῐν	toîs kóraxi(n)	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
+crow	accusative	κόρᾰκᾰ	kóraka	κόρᾰκε	kórake	κόρᾰκᾰς	kórakas	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
+crow	vocative	κόρᾰξ	kórax	κόρᾰκε	kórake	κόρᾰκες	kórakes	#	Third declension of ὁ κόρᾰξ; τοῦ κόρᾰκος (Attic)	
+daughter	nominative	θῠγᾰ́τηρ	thugátēr	θῠγᾰ́τερε	thugátere	θῠγᾰτέρες / θῠ́γᾰτρες	thugatéres / thúgatres	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
+daughter	genitive	θῠγᾰτέρος / θῠγᾰτρός	thugatéros / thugatrós	θῠγᾰτέροιν	thugatéroin	θῠγᾰτέρων / θῠγᾰτρῶν	thugatérōn / thugatrôn	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
+daughter	dative	θῠγᾰτέρῐ / θῠγᾰτρί	thugatéri / thugatrí	θῠγᾰτέροιν	thugatéroin	θῠγᾰτέρσῐ / θῠγᾰτέρσῐν / θῠγᾰτρᾰ́σῐ / θῠγᾰτρᾰ́σῐν	thugatérsi(n) / thugatrási(n)	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
+daughter	accusative	θῠγᾰ́τερᾰ / θῠγᾰτέρᾰ / θῠ́γᾰτρᾰ	thugátera / thugatéra / thúgatra	θῠγᾰ́τερε	thugátere	θῠγᾰτέρᾰς	thugatéras	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
+daughter	vocative	θῠγᾰ́τερ / θῠ́γᾰτερ	thugáter / thúgater	θῠγᾰ́τερε	thugátere	θῠγᾰτέρες / θῠ́γᾰτρες	thugatéres / thúgatres	#	Third declension of ἡ θῠγᾰ́τηρ; τῆς θῠγᾰτέρος (Attic)	
+day	nominative	ἡμέρᾱ	hēmérā	ἡμέρᾱ	hēmérā	ἡμέραι	hēmérai			
+day	genitive	ἡμέρᾱς	hēmérās	ἡμέραιν	hēmérain	ἡμερῶν	hēmerôn			
+day	dative	ἡμέρᾳ	hēmérāi	ἡμέραιν	hēmérain	ἡμέραις	hēmérais			
+day	accusative	ἡμέρᾱν	hēmérān	ἡμέρᾱ	hēmérā	ἡμέρᾱς	hēmérās			
+day	vocative	ἡμέρᾱ	hēmérā	ἡμέρᾱ	hēmérā	ἡμέραι	hēmérai			
+Demeter	nominative	Δημήτηρ	Dēmḗtēr	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
+Demeter	genitive	Δήμητρος	Dḗmētros	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
+Demeter	dative	Δήμητρῐ	Dḗmētri	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
+Demeter	accusative	Δήμητρᾰ	Dḗmētra	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
+Demeter	vocative	Δήμητερ	Dḗmēter	—	—	—	—	#	Third declension of ἡ Δημήτηρ; τῆς Δήμητρος (Attic)	
+dog	nominative	κῠ́ων	kúōn	κῠ́νε	kúne	κῠ́νες	kúnes	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
+dog	genitive	κῠνός	kunós	κῠνοῖν	kunoîn	κῠνῶν	kunôn	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
+dog	dative	κῠνῐ́	kuní	κῠνοῖν	kunoîn	κῠσῐ́ / κῠσῐ́ν / κῠ́νεσσῐ	toîs, taîs kusí / kusín / kúnessi	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
+dog	accusative	κῠ́νᾰ	kúna	κῠ́νε	kúne	κῠ́νᾰς	kúnas	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
+dog	vocative	κῠ́ον / κῠ́ων	kúon / kúōn	κῠ́νε	kúne	κῠ́νες	kúnes	#	Third declension of ὁ, ἡ κῠ́ων; τοῦ, τῆς κῠνός (Attic)	
+door	nominative	θῠ́ρᾱ	thúrā	θῠ́ρᾱ	thúrā	θῠ́ραι	thúrai	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
+door	genitive	θῠ́ρᾱς	thúrās	θῠ́ραιν	thúrain	θῠρῶν	thurôn	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
+door	dative	θῠ́ρᾳ	thúrāi	θῠ́ραιν	thúrain	θῠ́ραις	thúrais	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
+door	accusative	θῠ́ρᾱν	thúrān	θῠ́ρᾱ	thúrā	θῠ́ρᾱς	thúrās	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
+door	vocative	θῠ́ρᾱ	thúrā	θῠ́ρᾱ	thúrā	θῠ́ραι	thúrai	#	First declension of ἡ θῠ́ρᾱ; τῆς θῠ́ρᾱς (Attic)	
+dove	nominative	περῐστερᾱ́	perĭsterā́	περῐστερᾱ́	perĭsterā́	περῐστεραί	perĭsteraí			
+dove	genitive	περῐστερᾶς	perĭsterâs	περῐστεραῖν	perĭsteraîn	περῐστερῶν	perĭsterôn			
+dove	dative	περῐστερᾷ	perĭsterāî	περῐστεραῖν	perĭsteraîn	περῐστεραῖς	perĭsteraîs			
+dove	accusative	περῐστερᾱ́ν	perĭsterā́n	περῐστερᾱ́	perĭsterā́	περῐστερᾱ́ς	perĭsterā́s			
+dove	vocative	περῐστερᾱ́	perĭsterā́	περῐστερᾱ́	perĭsterā́	περῐστεραί	perĭsteraí			
+drum	nominative	τῠ́μπᾰνον	túmpanon	τῠμπᾰ́νω	tumpánō	τῠ́μπᾰνᾰ	túmpana	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
+drum	genitive	τῠμπᾰ́νου	tumpánou	τῠμπᾰ́νοιν	tumpánoin	τῠμπᾰ́νων	tumpánōn	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
+drum	dative	τῠμπᾰ́νῳ	tumpánōi	τῠμπᾰ́νοιν	tumpánoin	τῠμπᾰ́νοις	toîs tumpánois	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
+drum	accusative	τῠ́μπᾰνον	túmpanon	τῠμπᾰ́νω	tumpánō	τῠ́μπᾰνᾰ	túmpana	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
+drum	vocative	τῠ́μπᾰνον	túmpanon	τῠμπᾰ́νω	tumpánō	τῠ́μπᾰνᾰ	túmpana	#	Second declension of τὸ τῠ́μπᾰνον; τοῦ τῠμπᾰ́νου (Attic)	
+eagle	nominative	ᾱ̓ετός	āetós	ᾱ̓ετώ	āetṓ	ᾱ̓ετοί	āetoí			
+eagle	genitive	ᾱ̓ετοῦ	āetoû	ᾱ̓ετοῖν	āetoîn	ᾱ̓ετῶν	āetôn			
+eagle	dative	ᾱ̓ετῷ	āetōî	ᾱ̓ετοῖν	āetoîn	ᾱ̓ετοῖς	toîs āetoîs			
+eagle	accusative	ᾱ̓ετόν	āetón	ᾱ̓ετώ	āetṓ	ᾱ̓ετούς	āetoús			
+eagle	vocative	ᾱ̓ετέ	āeté	ᾱ̓ετώ	āetṓ	ᾱ̓ετοί	āetoí			
+ear	nominative	οὖς	oûs	ὦτε	ôte	ὦτᾰ	ôta	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
+ear	genitive	ὠτός	ōtós	ὤτοιν	ṓtoin	ὤτων	ṓtōn	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
+ear	dative	ὠτῐ́	ōtí	ὤτοιν	ṓtoin	ὠσῐ́ / ὠσῐ́ν	toîs ōsí(n)	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
+ear	accusative	οὖς	oûs	ὦτε	ôte	ὦτᾰ	ôta	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
+ear	vocative	οὖς	oûs	ὦτε	ôte	ὦτᾰ	ôta	#	Third declension of τὸ οὖς; τοῦ ὠτός (Attic)	
+earth	nominative	γῆ	gê	γᾶ	gâ	γαῖ	gaî			
+earth	genitive	γῆς	gês	γαῖν	gaîn	γῶν	gôn			
+earth	dative	γῇ	gēî	γαῖν	gaîn	γαῖς	gaîs			
+earth	accusative	γῆν	gên	γᾶ	gâ	γᾶς	gâs			
 earth	vocative	γῆ	gê	γᾶ	gâ	γαῖ	gaî			
-foundation	nominative	τὸ ἔδᾰφος	tò édăphos	τὼ ἐδᾰ́φει	tṑ edắphei	τᾰ̀ ἐδᾰ́φη	tằ edắphē			
-foundation	genitive	τοῦ ἐδᾰ́φους	toû edắphous	τοῖν ἐδᾰφοῖν	toîn edăphoîn	τῶν ἐδᾰφῶν	tôn edăphôn			
-foundation	dative	τῷ ἐδᾰ́φει	tōî edắphei	τοῖν ἐδᾰφοῖν	toîn edăphoîn	τοῖς ἐδᾰ́φεσῐ / ἐδᾰ́φεσῐν	toîs edắphesĭ(n)			
-foundation	accusative	τὸ ἔδᾰφος	tò édăphos	τὼ ἐδᾰ́φει	tṑ edắphei	τᾰ̀ ἐδᾰ́φη	tằ edắphē			
+east	nominative	ἀνατολή	anatolḗ	ἀνατολᾱ́	anatolā́	ἀνατολαί	anatolaí			
+east	genitive	ἀνατολῆς	anatolês	ἀνατολαῖν	anatolaîn	ἀνατολῶν	anatolôn			
+east	dative	ἀνατολῇ	anatolēî	ἀνατολαῖν	anatolaîn	ἀνατολαῖς	anatolaîs			
+east	accusative	ἀνατολήν	anatolḗn	ἀνατολᾱ́	anatolā́	ἀνατολᾱ́ς	anatolā́s			
+east	vocative	ἀνατολή	anatolḗ	ἀνατολᾱ́	anatolā́	ἀνατολαί	anatolaí			
+echo	nominative	ἠχώ	ēkhṓ	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
+echo	genitive	ἠχοῦς	ēkhoûs	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
+echo	dative	ἠχοῖ	ēkhoî	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
+echo	accusative	ἠχώ	ēkhṓ	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
+echo	vocative	ἠχοῖ	ēkhoî	—	—	—	—	#	Third declension of ἡ ἠχώ; τῆς ἠχοῦς (Attic)	
+egg	nominative	ᾠόν	ōión	ᾠώ	ōiṓ	ᾠᾰ́	ōiắ			
+egg	genitive	ᾠοῦ	ōioû	ᾠοῖν	ōioîn	ᾠῶν	ōiôn			
+egg	dative	ᾠῷ	ōiōî	ᾠοῖν	ōioîn	ᾠοῖς	toîs ōioîs			
+egg	accusative	ᾠόν	ōión	ᾠώ	ōiṓ	ᾠᾰ́	ōiắ			
+egg	vocative	ᾠόν	ōión	ᾠώ	ōiṓ	ᾠᾰ́	ōiắ			
+enemy	nominative	ἐχθρός	ekhthrós	ἐχθρώ	ekhthrṓ	ἐχθροί	ekhthroí			
+enemy	genitive	ἐχθροῦ	ekhthroû	ἐχθροῖν	ekhthroîn	ἐχθρῶν	ekhthrôn			
+enemy	dative	ἐχθρῷ	ekhthrōî	ἐχθροῖν	ekhthroîn	ἐχθροῖς	toîs ekhthroîs			
+enemy	accusative	ἐχθρόν	ekhthrón	ἐχθρώ	ekhthrṓ	ἐχθρούς	ekhthroús			
+enemy	vocative	ἐχθρέ	ekhthré	ἐχθρώ	ekhthrṓ	ἐχθροί	ekhthroí			
+father	nominative	πᾰτήρ	patḗr	πᾰτέρε	patére	πᾰτέρες	patéres	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
+father	genitive	πᾰτρός / πᾰτέρος	patrós / patéros	πᾰτέροιν	patéroin	πᾰτέρων / πᾰτρῶν	patérōn / patrôn	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
+father	dative	πᾰτρῐ́ / πᾰτέρῐ	patrí / patéri	πᾰτέροιν	patéroin	πᾰτρᾰ́σῐ	toîs patrási	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
+father	accusative	πᾰτέρᾰ	patéra	πᾰτέρε	patére	πᾰτέρᾰς	patéras	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
+father	vocative	πάτερ	páter	πᾰτέρε	patére	πᾰτέρες	patéres	#	Third declension of ὁ πᾰτήρ; τοῦ πᾰτρός (Attic)	
+finch	nominative	σπῐ́ζᾰ	spĭ́ză	σπῐ́ζᾱ	spĭ́zā	σπῐ́ζαι	spĭ́zai			
+finch	genitive	σπῐ́ζης	spĭ́zēs	σπῐ́ζαιν	spĭ́zain	σπῐζῶν	spĭzôn			
+finch	dative	σπῐ́ζῃ	spĭ́zēi	σπῐ́ζαιν	spĭ́zain	σπῐ́ζαις	spĭ́zais			
+finch	accusative	σπῐ́ζᾰν	spĭ́zăn	σπῐ́ζᾱ	spĭ́zā	σπῐ́ζᾱς	spĭ́zās			
+finch	vocative	σπῐ́ζᾰ	spĭ́ză	σπῐ́ζᾱ	spĭ́zā	σπῐ́ζαι	spĭ́zai			
+fire	nominative	πῦρ	pûr	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
+fire	genitive	πῠρός	purós	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
+fire	dative	πῠρῐ́	purí	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
+fire	accusative	πῦρ	pûr	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
+fire	vocative	πῦρ	pûr	—	—	—	—	#	Third declension of τὸ πῦρ; τοῦ πῠρός (Attic)	
+fish	nominative	ἰχθῡ́ς	ikhthū́s	ἰχθῠ́ε	ikhthúe	ἰχθῠ́ες	ikhthúes	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
+fish	genitive	ἰχθῠ́ος	ikhthúos	ἰχθῠ́οιν	ikhthúoin	ἰχθῠ́ων	ikhthúōn	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
+fish	dative	ἰχθῠ́ῐ̈	ikhthúï	ἰχθῠ́οιν	ikhthúoin	ἰχθῠ́σῐ / ἰχθῠ́σῐν	toîs ikhthúsi(n)	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
+fish	accusative	ἰχθῡ́ν / ἰχθῠ́ᾰ	ikhthū́n / ikhthúa	ἰχθῠ́ε	ikhthúe	ἰχθῦς / ἰχθῠ́ᾰς	ikhthûs / ikhthúas	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
+fish	vocative	ἰχθῡ́	ikhthū́	ἰχθῠ́ε	ikhthúe	ἰχθῠ́ες	ikhthúes	#	Third declension of ὁ ἰχθῡ́ς; τοῦ ἰχθῠ́ος (Attic)	
+flamingo	nominative	φοινῑκόπτερος	phoinīkópteros	φοινῑκοπτέρω	phoinīkoptérō	φοινῑκόπτεροι	phoinīkópteroi			
+flamingo	genitive	φοινῑκοπτέρου	phoinīkoptérou	φοινῑκοπτέροιν	phoinīkoptéroin	φοινῑκοπτέρων	phoinīkoptérōn			
+flamingo	dative	φοινῑκοπτέρῳ	phoinīkoptérōi	φοινῑκοπτέροιν	phoinīkoptéroin	φοινῑκοπτέροις	toîs phoinīkoptérois			
+flamingo	accusative	φοινῑκόπτερον	phoinīkópteron	φοινῑκοπτέρω	phoinīkoptérō	φοινῑκοπτέρους	phoinīkoptérous			
+flamingo	vocative	φοινῑκόπτερε	phoinīkóptere	φοινῑκοπτέρω	phoinīkoptérō	φοινῑκόπτεροι	phoinīkópteroi			
+food	nominative	βρῶμᾰ	brôma	βρώμᾰτε	brṓmate	βρώμᾰτᾰ	brṓmata	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
+food	genitive	βρώμᾰτος	brṓmatos	βρωμᾰ́τοιν	brōmátoin	βρωμᾰ́των	brōmátōn	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
+food	dative	βρώμᾰτῐ	brṓmati	βρωμᾰ́τοιν	brōmátoin	βρώμᾰσῐ / βρώμᾰσῐν	toîs brṓmasi(n)	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
+food	accusative	βρῶμᾰ	brôma	βρώμᾰτε	brṓmate	βρώμᾰτᾰ	brṓmata	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
+food	vocative	βρῶμᾰ	brôma	βρώμᾰτε	brṓmate	βρώμᾰτᾰ	brṓmata	#	Third declension of τὸ βρῶμᾰ; τοῦ βρώμᾰτος (Attic)	
+forest	nominative	δᾰ́σος	dắsos	δᾰ́σεε	dắsee	δᾰ́σεᾰ	dắseă			
+forest	genitive	δᾰ́σεος	dắseos	δᾰσέοιν	dăséoin	δᾰσέων	dăséōn			
+forest	dative	δᾰ́σεῐ̈	dắseĭ̈	δᾰσέοιν	dăséoin	δᾰ́σεσῐ / δᾰ́σεσῐν	toîs dắsesĭ(n)			
+forest	accusative	δᾰ́σος	dắsos	δᾰ́σεε	dắsee	δᾰ́σεᾰ	dắseă			
+forest	vocative	δᾰ́σος	dắsos	δᾰ́σεε	dắsee	δᾰ́σεᾰ	dắseă			
+foundation	nominative	ἔδᾰφος	édăphos	ἐδᾰ́φει	edắphei	ἐδᾰ́φη	edắphē			
+foundation	genitive	ἐδᾰ́φους	edắphous	ἐδᾰφοῖν	edăphoîn	ἐδᾰφῶν	edăphôn			
+foundation	dative	ἐδᾰ́φει	edắphei	ἐδᾰφοῖν	edăphoîn	ἐδᾰ́φεσῐ / ἐδᾰ́φεσῐν	toîs edắphesĭ(n)			
+foundation	accusative	ἔδᾰφος	édăphos	ἐδᾰ́φει	edắphei	ἐδᾰ́φη	edắphē			
 foundation	vocative	ἔδᾰφος	édăphos	ἐδᾰ́φει	edắphei	ἐδᾰ́φη	edắphē			
-present	nominative	τὸ δῶρον	tò dôron	τὼ δώρω	tṑ dṓrō	τᾰ̀ δῶρᾰ	tằ dôră			
-present	genitive	τοῦ δώρου	toû dṓrou	τοῖν δώροιν	toîn dṓroin	τῶν δώρων	tôn dṓrōn			
-present	dative	τῷ δώρῳ	tōî dṓrōi	τοῖν δώροιν	toîn dṓroin	τοῖς δώροις	toîs dṓrois			
-present	accusative	τὸ δῶρον	tò dôron	τὼ δώρω	tṑ dṓrō	τᾰ̀ δῶρᾰ	tằ dôră			
-present	vocative	δῶρον	dôron	δώρω	dṓrō	δῶρᾰ	dôră			
-king	nominative	ὁ βᾰσῐλεύς	ho băsĭleús	τὼ βᾰσῐλῆ	tṑ băsĭlê	οἱ βᾰσῐλῆς / βᾰσῐλεῖς	hoi băsĭlês / băsĭleîs			
-king	genitive	τοῦ βᾰσῐλέως	toû băsĭléōs	τοῖν βᾰσῐλέοιν	toîn băsĭléoin	τῶν βᾰσῐλέων	tôn băsĭléōn			
-king	dative	τῷ βᾰσῐλεῖ	tōî băsĭleî	τοῖν βᾰσῐλέοιν	toîn băsĭléoin	τοῖς βᾰσῐλεῦσῐ / βᾰσῐλεῦσῐν	toîs băsĭleûsĭ(n)			
-king	accusative	τὸν βᾰσῐλέᾱ	tòn băsĭléā	τὼ βᾰσῐλῆ	tṑ băsĭlê	τοὺς βᾰσῐλέᾱς	toùs băsĭléās			
-king	vocative	βᾰσῐλεῦ	băsĭleû	βᾰσῐλῆ	băsĭlê	βᾰσῐλῆς / βᾰσῐλεῖς	băsĭlês / băsĭleîs			
-log	nominative	τὸ στέλεχος	tò stélekhos	τὼ στελέχει	tṑ stelékhei	τᾰ̀ στελέχη	tằ stelékhē			
-log	genitive	τοῦ στελέχους	toû stelékhous	τοῖν στελεχοῖν	toîn stelekhoîn	τῶν στελεχῶν	tôn stelekhôn			
-log	dative	τῷ στελέχει	tōî stelékhei	τοῖν στελεχοῖν	toîn stelekhoîn	τοῖς στελέχεσῐ / στελέχεσῐν	toîs stelékhesĭ(n)			
-log	accusative	τὸ στέλεχος	tò stélekhos	τὼ στελέχει	tṑ stelékhei	τᾰ̀ στελέχη	tằ stelékhē			
-log	vocative	στέλεχος	stélekhos	στελέχει	stelékhei	στελέχη	stelékhē			
-night	nominative	ἡ νῠ́ξ	hē nŭ́x	τὼ νῠ́κτε	tṑ nŭ́kte	αἱ νῠ́κτες	hai nŭ́ktes			
-night	genitive	τῆς νῠκτός	tês nŭktós	τοῖν νῠκτοῖν	toîn nŭktoîn	τῶν νῠκτῶν	tôn nŭktôn			
-night	dative	τῇ νῠκτῐ́	tēî nŭktĭ́	τοῖν νῠκτοῖν	toîn nŭktoîn	ταῖς νῠξῐ́ / νῠξῐ́ν	taîs nŭxĭ́(n)			
-night	accusative	τὴν νῠ́κτᾰ	tḕn nŭ́ktă	τὼ νῠ́κτε	tṑ nŭ́kte	τᾱ̀ς νῠ́κτᾰς	tā̀s nŭ́ktăs			
-night	vocative	νῠ́ξ	nŭ́x	νῠ́κτε	nŭ́kte	νῠ́κτες	nŭ́ktes			
-goose	nominative	ὁ / ἡ χήν	ho / hē khḗn	τὼ χῆνε	tṑ khêne	οἱ / αἱ χῆνες	hoi / hai khênes			
-goose	genitive	τοῦ / τῆς χηνός	toû / tês khēnós	τοῖν χηνοῖν	toîn khēnoîn	τῶν χηνῶν	tôn khēnôn			
-goose	dative	τῷ / τῇ χηνῐ́	tōî / tēî khēnĭ́	τοῖν χηνοῖν	toîn khēnoîn	τοῖς / ταῖς χησῐ́ / χησῐ́ν	toîs / taîs khēsĭ́(n)			
-goose	accusative	τὸν / τὴν χῆνᾰ	tòn / tḕn khênă	τὼ χῆνε	tṑ khêne	τοὺς / τᾱ̀ς χῆνᾰς	toùs / tā̀s khênăs			
+garment	nominative	ῑ̔μᾰ́τῐον	hīmắtĭon	ῑ̔μᾰτῐ́ω	hīmătĭ́ō	ῑ̔μᾰ́τῐᾰ	hīmắtĭă			
+garment	genitive	ῑ̔μᾰτῐ́ου	hīmătĭ́ou	ῑ̔μᾰτῐ́οιν	hīmătĭ́oin	ῑ̔μᾰτῐ́ων	hīmătĭ́ōn			
+garment	dative	ῑ̔μᾰτῐ́ῳ	hīmătĭ́ōi	ῑ̔μᾰτῐ́οιν	hīmătĭ́oin	ῑ̔μᾰτῐ́οις	toîs hīmătĭ́ois			
+garment	accusative	ῑ̔μᾰ́τῐον	hīmắtĭon	ῑ̔μᾰτῐ́ω	hīmătĭ́ō	ῑ̔μᾰ́τῐᾰ	hīmắtĭă			
+garment	vocative	ῑ̔μᾰ́τῐον	hīmắtĭon	ῑ̔μᾰτῐ́ω	hīmătĭ́ō	ῑ̔μᾰ́τῐᾰ	hīmắtĭă			
+gate	nominative	πῠ́λη	pŭ́lē	πῠ́λᾱ	pŭ́lā	πῠ́λαι	pŭ́lai			
+gate	genitive	πῠ́λης	pŭ́lēs	πῠ́λαιν	pŭ́lain	πῠλῶν	pŭlôn			
+gate	dative	πῠ́λῃ	pŭ́lēi	πῠ́λαιν	pŭ́lain	πῠ́λαις	pŭ́lais			
+gate	accusative	πῠ́λην	pŭ́lēn	πῠ́λᾱ	pŭ́lā	πῠ́λᾱς	pŭ́lās			
+gate	vocative	πῠ́λη	pŭ́lē	πῠ́λᾱ	pŭ́lā	πῠ́λαι	pŭ́lai			
+giant	nominative	γί̆γᾱς	gígās	γῐ́γᾰντε	gígante	γῐ́γᾰντες	gígantes	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
+giant	genitive	γῐ́γᾰντος	gígantos	γῐγᾰ́ντοιν	gigántoin	γῐγᾰ́ντων	gigántōn	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
+giant	dative	γῐ́γᾰντῐ	gíganti	γῐγᾰ́ντοιν	gigántoin	γῐ́γᾱσῐ / γῐ́γᾱσῐν	toîs gígāsi(n)	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
+giant	accusative	γῐ́γᾰντᾰ	gíganta	γῐ́γᾰντε	gígante	γῐ́γᾰντᾰς	gígantas	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
+giant	vocative	γῐ́γᾰν	gígan	γῐ́γᾰντε	gígante	γῐ́γᾰντες	gígantes	#	Third declension of ὁ γί̆γᾱς; τοῦ γῐ́γᾰντος (Attic)	
+gift	nominative	δῶρον	dôron	δώρω	dṓrō	δῶρᾰ	dôra	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
+gift	genitive	δώρου	dṓrou	δώροιν	dṓroin	δώρων	dṓrōn	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
+gift	dative	δώρῳ	dṓrōi	δώροιν	dṓroin	δώροις	toîs dṓrois	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
+gift	accusative	δῶρον	dôron	δώρω	dṓrō	δῶρᾰ	dôra	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
+gift	vocative	δῶρον	dôron	δώρω	dṓrō	δῶρᾰ	dôra	#	Second declension of τὸ δῶρον; τοῦ δώρου (Attic)	
+glass	nominative	ὕᾰλος	húalos	ὑᾰ́λω	huálō	ὕᾰλοι	húaloi	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
+glass	genitive	ὑᾰ́λου	huálou	ὑᾰ́λοιν	huáloin	ὑᾰ́λων	huálōn	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
+glass	dative	ὑᾰ́λῳ	huálōi	ὑᾰ́λοιν	huáloin	ὑᾰ́λοις	huálois	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
+glass	accusative	ὕᾰλον	húalon	ὑᾰ́λω	huálō	ὑᾰ́λους	huálous	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
+glass	vocative	ὕᾰλε	húale	ὑᾰ́λω	huálō	ὕᾰλοι	húaloi	#	Second declension of ἡ ὕᾰλος; τῆς ὑᾰ́λου (Attic)	
+goose	nominative	χήν	khḗn	χῆνε	khêne	χῆνες	/ hai khênes			
+goose	genitive	χηνός	khēnós	χηνοῖν	khēnoîn	χηνῶν	khēnôn			
+goose	dative	χηνῐ́	khēnĭ́	χηνοῖν	khēnoîn	χησῐ́ / χησῐ́ν	khēsĭ́(n)			
+goose	accusative	χῆνᾰ	khênă	χῆνε	khêne	χῆνᾰς	khênăs			
 goose	vocative	χήν	khḗn	χῆνε	khêne	χῆνες	khênes			
+grandfather	nominative	πᾰ́ππος	pắppos	πᾰ́ππω	pắppō	πᾰ́πποι	pắppoi			
+grandfather	genitive	πᾰ́ππου	pắppou	πᾰ́πποιν	pắppoin	πᾰ́ππων	pắppōn			
+grandfather	dative	πᾰ́ππῳ	pắppōi	πᾰ́πποιν	pắppoin	πᾰ́πποις	toîs pắppois			
+grandfather	accusative	πᾰ́ππον	pắppon	πᾰ́ππω	pắppō	πᾰ́ππους	pắppous			
+grandfather	vocative	πᾰ́ππε	pắppe	πᾰ́ππω	pắppō	πᾰ́πποι	pắppoi			
+grandmother	nominative	τήθη	tḗthē	τήθᾱ	tḗthā	τῆθαι	têthai			
+grandmother	genitive	τήθης	tḗthēs	τήθαιν	tḗthain	τηθῶν	tēthôn			
+grandmother	dative	τήθῃ	tḗthēi	τήθαιν	tḗthain	τήθαις	tḗthais			
+grandmother	accusative	τήθην	tḗthēn	τήθᾱ	tḗthā	τήθᾱς	tḗthās			
+grandmother	vocative	τήθη	tḗthē	τήθᾱ	tḗthā	τῆθαι	têthai			
+Greek	nominative	Ἕλλην	Héllēn	Ἕλληνε	Héllēne	Ἕλληνες	Héllēnes	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
+Greek	genitive	Ἕλληνος	Héllēnos	Ἑλλήνοιν	Hellḗnoin	Ἑλλήνων	Hellḗnōn	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
+Greek	dative	Ἕλληνῐ	Héllēni	Ἑλλήνοιν	Hellḗnoin	Ἕλλησῐ / Ἕλλησῐν	toîs Héllēsi(n)	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
+Greek	accusative	Ἕλληνᾰ	Héllēna	Ἕλληνε	Héllēne	Ἕλληνᾰς	Héllēnas	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
+Greek	vocative	Ἕλλην	Héllēn	Ἕλληνε	Héllēne	Ἕλληνες	Héllēnes	#	Third declension of ὁ Ἕλλην; τοῦ Ἕλληνος (Attic)	
+guard	nominative	τηρός	tērós	τηρώ	tērṓ	τηροί	tēroí	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
+guard	genitive	τηροῦ	tēroû	τηροῖν	tēroîn	τηρῶν	tērôn	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
+guard	dative	τηρῷ	tērôi	τηροῖν	tēroîn	τηροῖς	toîs tēroîs	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
+guard	accusative	τηρόν	tērón	τηρώ	tērṓ	τηρούς	tēroús	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
+guard	vocative	τηρέ	tēré	τηρώ	tērṓ	τηροί	tēroí	#	Second declension of ὁ τηρός; τοῦ τηροῦ (Attic)	
+guide	nominative	ἡγεμών	hēgemṓn	ἡγεμόνε	hēgemóne	ἡγεμόνες	hēgemónes	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
+guide	genitive	ἡγεμόνος	hēgemónos	ἡγεμόνοιν	hēgemónoin	ἡγεμόνων	hēgemónōn	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
+guide	dative	ἡγεμόνῐ	hēgemóni	ἡγεμόνοιν	hēgemónoin	ἡγεμόσῐ / ἡγεμόσῐν	toîs, taîs hēgemósi(n)	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
+guide	accusative	ἡγεμόνᾰ	hēgemóna	ἡγεμόνε	hēgemóne	ἡγεμόνᾰς	hēgemónas	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
+guide	vocative	ἡγεμών	hēgemṓn	ἡγεμόνε	hēgemóne	ἡγεμόνες	hēgemónes	#	Third declension of ὁ, ἡ ἡγεμών; τοῦ, τῆς ἡγεμόνος (Attic)	
+hand	nominative	χείρ	kheír	χεῖρε	kheîre	χεῖρες	kheîres	#		
+hand	genitive	χειρός	kheirós	χεροῖν	kheroîn	χερῶν / χειρῶν	kherôn / kheirôn	#		
+hand	dative	χειρῐ́	kheirí	χεροῖν	kheroîn	χερσί / χερσίν / χείρεσσι / χείρεσσιν	khersí(n) / kheíressi(n)	#		
+hand	accusative	χεῖρᾰ	kheîra	χεῖρε	kheîre	χεῖρᾰς	kheîras	#		
+hand	vocative	χείρ	kheír 	χεῖρε	kheîre 	χεῖρες	kheîres 	#		
+heat	nominative	θέρμη	thérmē	θέρμᾱ	thérmā	θέρμαι	thérmai			
+heat	genitive	θέρμης	thérmēs	θέρμαιν	thérmain	θερμῶν	thermôn			
+heat	dative	θέρμῃ	thérmēi	θέρμαιν	thérmain	θέρμαις	thérmais			
+heat	accusative	θέρμην	thérmēn	θέρμᾱ	thérmā	θέρμᾱς	thérmās			
+heat	vocative	θέρμη	thérmē	θέρμᾱ	thérmā	θέρμαι	thérmai			
+hello	vocative	χαῖρε	χαῖρε	χαίρετε	χαίρετε	χαίρετε	χαίρετε	#		
+hero	nominative	ἥρως	hḗrōs	ἥρωε	hḗrōe	ἥρωες	hḗrōes	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
+hero	genitive	ἥρωος	hḗrōos	ἡρώοιν	hērṓoin	ἡρώων	hērṓōn	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
+hero	dative	ἥρῳ / ἥρωῐ̈	hḗrōi / hḗrōï	ἡρώοιν	hērṓoin	ἥρωσῐ / ἥρωσῐν	toîs hḗrōsi(n)	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
+hero	accusative	ἥρω / ἥρωᾰ	hḗrō / hḗrōa	ἥρωε	hḗrōe	ἥρωᾰς	hḗrōas	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
+hero	vocative	ἥρως	hḗrōs	ἥρωε	hḗrōe	ἥρωες	hḗrōes	#	Third declension of ὁ ἥρως; τοῦ ἥρωος (Attic)	
+hill	nominative	βουνός	bounós	βουνώ	bounṓ	βουνοί	bounoí			
+hill	genitive	βουνοῦ	bounoû	βουνοῖν	bounoîn	βουνῶν	bounôn			
+hill	dative	βουνῷ	bounōî	βουνοῖν	bounoîn	βουνοῖς	toîs bounoîs			
+hill	accusative	βουνόν	bounón	βουνώ	bounṓ	βουνούς	bounoús			
+hill	vocative	βουνέ	bouné	βουνώ	bounṓ	βουνοί	bounoí			
+horse	nominative	ῐ̔́ππος	híppos	ῐ̔́ππω	híppō	ῐ̔́πποι	híppoi	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
+horse	genitive	ῐ̔́ππου	híppou	ῐ̔́πποιν	híppoin	ῐ̔́ππων	híppōn	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
+horse	dative	ῐ̔́ππῳ	híppōi	ῐ̔́πποιν	híppoin	ῐ̔́πποις	toîs, taîs híppois	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
+horse	accusative	ῐ̔́ππον	híppon	ῐ̔́ππω	híppō	ῐ̔́ππους	híppous	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
+horse	vocative	ῐ̔́ππε	híppe	ῐ̔́ππω	híppō	ῐ̔́πποι	híppoi	#	Second declension of ὁ, ἡ ῐ̔́ππος; τοῦ, τῆς ῐ̔́ππου (Attic)	
+house	nominative	οἶκος	oîkos	οἴκω	oíkō	οἶκοι	oîkoi	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
+house	genitive	οἴκου	oíkou	οἴκοιν	oíkoin	οἴκων	oíkōn	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
+house	dative	οἴκῳ	oíkōi	οἴκοιν	oíkoin	οἴκοις	toîs oíkois	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
+house	accusative	οἶκον	oîkon	οἴκω	oíkō	οἴκους	oíkous	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
+house	vocative	οἶκε	oîke	οἴκω	oíkō	οἶκοι	oîkoi	#	Second declension of ὁ οἶκος; τοῦ οἴκου (Attic)	
+human	nominative	ᾰ̓́νθρωπος	ắnthrōpos	ᾰ̓νθρώπω	ănthrṓpō	ᾰ̓́νθρωποι	/ hai ắnthrōpoi			
+human	genitive	ᾰ̓νθρώπου	ănthrṓpou	ᾰ̓νθρώποιν	ănthrṓpoin	ᾰ̓νθρώπων	ănthrṓpōn			
+human	dative	ᾰ̓νθρώπῳ	ănthrṓpōi	ᾰ̓νθρώποιν	ănthrṓpoin	ᾰ̓νθρώποις	ănthrṓpois			
+human	accusative	ᾰ̓́νθρωπον	ắnthrōpon	ᾰ̓νθρώπω	ănthrṓpō	ᾰ̓νθρώπους	ănthrṓpous			
+human	vocative	ᾰ̓́νθρωπε / ὦνθρωπε / ὤνθρωπε	ắnthrōpe / ônthrōpe / ṓnthrōpe	ᾰ̓νθρώπω	ănthrṓpō	ᾰ̓́νθρωποι	ắnthrōpoi			
+ichor	nominative	ῑ̓χώρ	īkhṓr	ῑ̓χῶρε	īkhôre	ῑ̓χῶρες	īkhôres	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
+ichor	genitive	ῑ̓χῶρος	īkhôros	ῑ̓χώροιν	īkhṓroin	ῑ̓χώρων	īkhṓrōn	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
+ichor	dative	ῑ̓χῶρῐ	īkhôri	ῑ̓χώροιν	īkhṓroin	ῑ̓χῶρσῐ / ῑ̓χῶρσῐν	toîs īkhôrsi(n)	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
+ichor	accusative	ῑ̓χῶρᾰ	īkhôra	ῑ̓χῶρε	īkhôre	ῑ̓χῶρᾰς	īkhôras	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
+ichor	vocative	ῑ̓χώρ	īkhṓr	ῑ̓χῶρε	īkhôre	ῑ̓χῶρες	īkhôres	#	Third declension of ὁ ῑ̓χώρ; τοῦ ῑ̓χῶρος (Attic)	
+idea	nominative	ἰδέᾱ	idéā	ἰδέᾱ	idéā	ἰδέαι	idéai	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
+idea	genitive	ἰδέᾱς	idéās	ἰδέαιν	idéain	ἰδεῶν	ideôn	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
+idea	dative	ἰδέᾳ	idéāi	ἰδέαιν	idéain	ἰδέαις	idéais	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
+idea	accusative	ἰδέᾱν	idéān	ἰδέᾱ	idéā	ἰδέᾱς	idéās	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
+idea	vocative	ἰδέᾱ	idéā	ἰδέᾱ	idéā	ἰδέαι	idéai	#	First declension of ἡ ἰδέᾱ; τῆς ἰδέᾱς (Attic)	
+insect	nominative	ἔντομον	éntomon	ἐντόμω	entómō	ἔντομᾰ	éntomă			
+insect	genitive	ἐντόμου	entómou	ἐντόμοιν	entómoin	ἐντόμων	entómōn			
+insect	dative	ἐντόμῳ	entómōi	ἐντόμοιν	entómoin	ἐντόμοις	toîs entómois			
+insect	accusative	ἔντομον	éntomon	ἐντόμω	entómō	ἔντομᾰ	éntomă			
+insect	vocative	ἔντομον	éntomon	ἐντόμω	entómō	ἔντομᾰ	éntomă			
+king	nominative	βᾰσῐλεύς	băsĭleús	βᾰσῐλῆ	băsĭlê	βᾰσῐλῆς / βᾰσῐλεῖς	băsĭlês / băsĭleîs			
+king	genitive	βᾰσῐλέως	băsĭléōs	βᾰσῐλέοιν	băsĭléoin	βᾰσῐλέων	băsĭléōn			
+king	dative	βᾰσῐλεῖ	băsĭleî	βᾰσῐλέοιν	băsĭléoin	βᾰσῐλεῦσῐ / βᾰσῐλεῦσῐν	toîs băsĭleûsĭ(n)			
+king	accusative	βᾰσῐλέᾱ	băsĭléā	βᾰσῐλῆ	băsĭlê	βᾰσῐλέᾱς	băsĭléās			
+king	vocative	βᾰσῐλεῦ	băsĭleû	βᾰσῐλῆ	băsĭlê	βᾰσῐλῆς / βᾰσῐλεῖς	băsĭlês / băsĭleîs			
+knee	nominative	γόνῠ	gónu	γόνᾰτε	gónate	γόνᾰτᾰ	gónata	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
+knee	genitive	γόνᾰτος	gónatos	γονᾰ́τοιν	gonátoin	γονᾰ́των	gonátōn	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
+knee	dative	γόνᾰτῐ	gónati	γονᾰ́τοιν	gonátoin	γόνᾰσῐ / γόνᾰσῐν	toîs gónasi(n)	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
+knee	accusative	γόνῠ	gónu	γόνᾰτε	gónate	γόνᾰτᾰ	gónata	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
+knee	vocative	γόνῠ	gónu	γόνᾰτε	gónate	γόνᾰτᾰ	gónata	#	Third declension of τὸ γόνῠ; τοῦ γόνᾰτος (Attic)	
+language	nominative	γλῶττᾰ	glôttă	γλώττᾱ	glṓttā	γλῶτται	glôttai			
+language	genitive	γλώττης	glṓttēs	γλώτταιν	glṓttain	γλωττῶν	glōttôn			
+language	dative	γλώττῃ	glṓttēi	γλώτταιν	glṓttain	γλώτταις	glṓttais			
+language	accusative	γλῶττᾰν	glôttăn	γλώττᾱ	glṓttā	γλώττᾱς	glṓttās			
+language	vocative	γλῶττᾰ	glôttă	γλώττᾱ	glṓttā	γλῶτται	glôttai			
+light-ray	nominative	ἀκτῑ́ς	aktī́s	ἀκτῖνε	aktîne	ἀκτῖνες	aktînes	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
+light-ray	genitive	ἀκτῖνος	aktînos	ἀκτῑ́νοιν	aktī́noin	ἀκτῑ́νων	aktī́nōn	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
+light-ray	dative	ἀκτῖνῐ	aktîni	ἀκτῑ́νοιν	aktī́noin	ἀκτῖσῐ / ἀκτῖσῐν	aktîsi(n)	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
+light-ray	accusative	ἀκτῖνᾰ	aktîna	ἀκτῖνε	aktîne	ἀκτῖνᾰς	aktînas	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
+light-ray	vocative	ἀκτῑ́ς	aktī́s	ἀκτῖνε	aktîne	ἀκτῖνες	aktînes	#	Third declension of ἡ ἀκτῑ́ς; τῆς ἀκτῖνος (Attic)	
+liver	nominative	ἧπᾰρ	hêpar	ἥπᾰτε	hḗpate	ἥπᾰτᾰ	hḗpata	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
+liver	genitive	ἥπᾰτος	hḗpatos	ἡπᾰ́τοιν	hēpátoin	ἡπᾰ́των	hēpátōn	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
+liver	dative	ἥπᾰτῐ	hḗpati	ἡπᾰ́τοιν	hēpátoin	ἥπᾰσῐ / ἥπᾰσῐν	toîs hḗpasi(n)	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
+liver	accusative	ἧπᾰρ	hêpar	ἥπᾰτε	hḗpate	ἥπᾰτᾰ	hḗpata	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
+liver	vocative	ἧπᾰρ	hêpar	ἥπᾰτε	hḗpate	ἥπᾰτᾰ	hḗpata	#	Third declension of τὸ ἧπᾰρ; τοῦ ἥπᾰτος (Attic)	
+livestock	nominative	κτῆνος	ktênos	κτήνει	ktḗnei	κτήνη	ktḗnē	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
+livestock	genitive	κτήνους	ktḗnous	κτηνοῖν	ktēnoîn	κτηνῶν	ktēnôn	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
+livestock	dative	κτήνει	ktḗnei	κτηνοῖν	ktēnoîn	κτήνεσῐ / κτήνεσῐν	toîs ktḗnesi(n)	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
+livestock	accusative	κτῆνος	ktênos	κτήνει	ktḗnei	κτήνη	ktḗnē	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
+livestock	vocative	κτῆνος	ktênos	κτήνει	ktḗnei	κτήνη	ktḗnē	#	Third declension of τὸ κτῆνος; τοῦ κτήνους (Attic)	
+log	nominative	στέλεχος	stélekhos	στελέχει	stelékhei	στελέχη	stelékhē			
+log	genitive	στελέχους	stelékhous	στελεχοῖν	stelekhoîn	στελεχῶν	stelekhôn			
+log	dative	στελέχει	stelékhei	στελεχοῖν	stelekhoîn	στελέχεσῐ / στελέχεσῐν	toîs stelékhesĭ(n)			
+log	accusative	στέλεχος	stélekhos	στελέχει	stelékhei	στελέχη	stelékhē			
+log	vocative	στέλεχος	stélekhos	στελέχει	stelékhei	στελέχη	stelékhē			
+louse	nominative	φθείρ	phtheír	φθεῖρε	phtheîre	φθεῖρες	phtheîres			
+louse	genitive	φθειρός	phtheirós	φθειροῖν	phtheiroîn	φθειρῶν	phtheirôn			
+louse	dative	φθειρῐ́	phtheirĭ́	φθειροῖν	phtheiroîn	φθειρσῐ́ / φθειρσῐ́ν	toîs phtheirsĭ́(n)			
+louse	accusative	φθεῖρᾰ	phtheîră	φθεῖρε	phtheîre	φθεῖρᾰς	phtheîrăs			
+louse	vocative	φθείρ	phtheír	φθεῖρε	phtheîre	φθεῖρες	phtheîres			
+love	nominative	φῐλῐ́ᾱ	philíā	φῐλῐ́ᾱ	philíā	φῐλῐ́αι	philíai	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
+love	genitive	φῐλῐ́ᾱς	philíās	φῐλῐ́αιν	philíain	φῐλῐῶν	philiôn	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
+love	dative	φῐλῐ́ᾳ	philíāi	φῐλῐ́αιν	philíain	φῐλῐ́αις	philíais	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
+love	accusative	φῐλῐ́ᾱν	philíān	φῐλῐ́ᾱ	philíā	φῐλῐ́ᾱς	philíās	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
+love	vocative	φῐλῐ́ᾱ	philíā	φῐλῐ́ᾱ	philíā	φῐλῐ́αι	philíai	#	First declension of ἡ φῐλῐ́ᾱ; τῆς φῐλῐ́ᾱς (Attic)	
+man	nominative	ᾰ̓νήρ	anḗr	ᾰ̓́νδρε	ándre	ᾰ̓́νδρες	ándres	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
+man	genitive	ᾰ̓νδρός	andrós	ᾰ̓νδροῖν	androîn	ᾰ̓νδρῶν	andrôn	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
+man	dative	ᾰ̓νδρῐ́	andrí	ᾰ̓νδροῖν	androîn	ᾰ̓νδρᾰ́σῐ / ᾰ̓νδρᾰ́σῐν	toîs andrási(n)	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
+man	accusative	ᾰ̓́νδρᾰ	ándra	ᾰ̓́νδρε	ándre	ᾰ̓́νδρᾰς	ándras	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
+man	vocative	ᾰ̓́νερ	áner	ᾰ̓́νδρε	ándre	ᾰ̓́νδρες	ándres	#	Third declension of ὁ ᾰ̓νήρ; τοῦ ᾰ̓νδρός (Attic)	
+master	nominative	βᾰσῐλεύς	basileús	βᾰσῐλῆ	basilê	βᾰσῐλῆς / βᾰσῐλεῖς	basilês / basileîs	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
+master	genitive	βᾰσῐλέως	basiléōs	βᾰσῐλέοιν	basiléoin	βᾰσῐλέων	basiléōn	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
+master	dative	βᾰσῐλεῖ	basileî	βᾰσῐλέοιν	basiléoin	βᾰσῐλεῦσῐ / βᾰσῐλεῦσῐν	toîs basileûsi(n)	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
+master	accusative	βᾰσῐλέᾱ	basiléā	βᾰσῐλῆ	basilê	βᾰσῐλέᾱς	basiléās	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
+master	vocative	βᾰσῐλεῦ	basileû	βᾰσῐλῆ	basilê	βᾰσῐλῆς / βᾰσῐλεῖς	basilês / basileîs	#	Third declension of ὁ βᾰσῐλεύς; τοῦ βᾰσῐλέως (Attic)	
+metal	nominative	μέτᾰλλον	métăllon	μετᾰ́λλω	metắllō	μέτᾰλλᾰ	métăllă			
+metal	genitive	μετᾰ́λλου	metắllou	μετᾰ́λλοιν	metắlloin	μετᾰ́λλων	metắllōn			
+metal	dative	μετᾰ́λλῳ	metắllōi	μετᾰ́λλοιν	metắlloin	μετᾰ́λλοις	toîs metắllois			
+metal	accusative	μέτᾰλλον	métăllon	μετᾰ́λλω	metắllō	μέτᾰλλᾰ	métăllă			
+metal	vocative	μέτᾰλλον	métăllon	μετᾰ́λλω	metắllō	μέτᾰλλᾰ	métăllă			
+money	nominative	κέρμᾰ	kérma	κέρμᾰτε	kérmate	κέρμᾰτᾰ	kérmata	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
+money	genitive	κέρμᾰτος	kérmatos	κερμᾰ́τοιν	kermátoin	κερμᾰ́των	kermátōn	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
+money	dative	κέρμᾰτῐ	kérmati	κερμᾰ́τοιν	kermátoin	κέρμᾰσῐ / κέρμᾰσῐν	toîs kérmasi(n)	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
+money	accusative	κέρμᾰ	kérma	κέρμᾰτε	kérmate	κέρμᾰτᾰ	kérmata	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
+money	vocative	κέρμᾰ	kérma	κέρμᾰτε	kérmate	κέρμᾰτᾰ	kérmata	#	Third declension of τὸ κέρμᾰ; τοῦ κέρμᾰτος (Attic)	
+monster	nominative	τέρᾰς	téras	τέρᾰτε	térate	τέρᾰτᾰ / τεράᾰτᾰ	térata / teráata	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
+monster	genitive	τέρᾰτος	tératos	τερᾰ́τοιν	terátoin	τερᾰ́των	terátōn	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
+monster	dative	τέρᾰτῐ	térati	τερᾰ́τοιν	terátoin	τέρᾰσῐ / τέρᾰσῐν	toîs térasi(n)	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
+monster	accusative	τέρᾰς	téras	τέρᾰτε	térate	τέρᾰτᾰ / τεράᾰτᾰ	térata / teráata	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
+monster	vocative	τέρᾰς	téras	τέρᾰτε	térate	τέρᾰτᾰ / τεράᾰτᾰ	térata / teráata	#	Third declension of τὸ τέρᾰς; τοῦ τέρᾰτος (Attic)	
+moon	nominative	σελήνη	selḗnē	σελήνᾱ	selḗnā	σελῆναι	selênai			
+moon	genitive	σελήνης	selḗnēs	σελήναιν	selḗnain	σεληνῶν	selēnôn			
+moon	dative	σελήνῃ	selḗnēi	σελήναιν	selḗnain	σελήναις	selḗnais			
+moon	accusative	σελήνην	selḗnēn	σελήνᾱ	selḗnā	σελήνᾱς	selḗnās			
+moon	vocative	σελήνη	selḗnē	σελήνᾱ	selḗnā	σελῆναι	selênai			
+mother	nominative	μήτηρ	mḗtēr	μητέρε	mētére	μητέρες	mētéres			
+mother	genitive	μητρός	mētrós	μητέροιν	mētéroin	μητέρων	mētérōn			
+mother	dative	μητρῐ́	mētrĭ́	μητέροιν	mētéroin	μητρᾰ́σῐ / μητρᾰ́σῐν	mētrắsĭ(n)			
+mother	accusative	μητέρᾰ	mētéră	μητέρε	mētére	μητέρᾰς	mētérăs			
+mother	vocative	μῆτερ	mêter	μητέρε	mētére	μητέρες	mētéres			
+name	nominative	ὄνομᾰ	ónoma	ὀνόμᾰτε	onómate	ὀνόμᾰτᾰ	onómata	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
+name	genitive	ὀνόμᾰτος	onómatos	ὀνομᾰ́τοιν	onomátoin	ὀνομᾰ́των	onomátōn	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
+name	dative	ὀνόμᾰτῐ	onómati	ὀνομᾰ́τοιν	onomátoin	ὀνόμᾰσῐ / ὀνόμᾰσῐν	toîs onómasi(n)	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
+name	accusative	ὄνομᾰ	ónoma	ὀνόμᾰτε	onómate	ὀνόμᾰτᾰ	onómata	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
+name	vocative	ὄνομᾰ	ónoma	ὀνόμᾰτε	onómate	ὀνόμᾰτᾰ	onómata	#	Third declension of τὸ ὄνομᾰ; τοῦ ὀνόμᾰτος (Attic)	
+neighbor	nominative	γείτων	geítōn	γείτονε	geítone	γείτονες	geítones	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
+neighbor	genitive	γείτονος	geítonos	γειτόνοιν	geitónoin	γειτόνων	geitónōn	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
+neighbor	dative	γείτονῐ	geítoni	γειτόνοιν	geitónoin	γείτοσῐ / γείτοσῐν	toîs, taîs geítosi(n)	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
+neighbor	accusative	γείτονᾰ	geítona	γείτονε	geítone	γείτονᾰς	geítonas	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
+neighbor	vocative	γεῖτον	geîton	γείτονε	geítone	γείτονες	geítones	#	Third declension of ὁ, ἡ γείτων; τοῦ, τῆς γείτονος (Attic)	
+night	nominative	νῠ́ξ	nŭ́x	νῠ́κτε	nŭ́kte	νῠ́κτες	nŭ́ktes			
+night	genitive	νῠκτός	nŭktós	νῠκτοῖν	nŭktoîn	νῠκτῶν	nŭktôn			
+night	dative	νῠκτῐ́	nŭktĭ́	νῠκτοῖν	nŭktoîn	νῠξῐ́ / νῠξῐ́ν	nŭxĭ́(n)			
+night	accusative	νῠ́κτᾰ	nŭ́ktă	νῠ́κτε	nŭ́kte	νῠ́κτᾰς	nŭ́ktăs			
+night	vocative	νῠ́ξ	nŭ́x	νῠ́κτε	nŭ́kte	νῠ́κτες	nŭ́ktes			
+oak	nominative	δρῦς	drûs	δρῠ́ε	drúe	δρῠ́ες	drúes	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
+oak	genitive	δρῠός	druós	δρῠοῖν	druoîn	δρῠῶν	druôn	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
+oak	dative	δρῠῐ̈́	druḯ	δρῠοῖν	druoîn	δρῠσῐ́ / δρῠσῐ́ν	drusí(n)	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
+oak	accusative	δρῦν	drûn	δρῠ́ε	drúe	δρῦς / δρῠ́ᾰς	drûs / drúas	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
+oak	vocative	δρῦ	drû	δρῠ́ε	drúe	δρῠ́ες	drúes	#	Irregular declension of ἡ δρῦς; τῆς δρῠός (Attic)	
+Oedipus	nominative	Οἰδῐ́πους	Oidípous	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
+Oedipus	genitive	Οἰδῐ́ποδος	Oidípodos	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
+Oedipus	dative	Οἰδῐ́ποδῐ	Oidípodi	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
+Oedipus	accusative	Οἰδῐ́πουν / Οἰδῐ́ποδᾰ	Oidípoun / Oidípoda	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
+Oedipus	vocative	Οἰδῐ́που	Oidípou	—	—	—	—	#	Third declension of ὁ Οἰδῐ́πους; τοῦ Οἰδῐ́ποδος (Attic)	
+old-man	nominative	γέρων	gérōn	γέροντε	géronte	γέροντες	gérontes	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
+old-man	genitive	γέροντος	gérontos	γερόντοιν	geróntoin	γερόντων	geróntōn	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
+old-man	dative	γέροντῐ	géronti	γερόντοιν	geróntoin	γέρουσῐ / γέρουσῐν	toîs gérousi(n)	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
+old-man	accusative	γέροντᾰ	géronta	γέροντε	géronte	γέροντᾰς	gérontas	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
+old-man	vocative	γέρον	géron	γέροντε	géronte	γέροντες	gérontes	#	Third declension of ὁ γέρων; τοῦ γέροντος (Attic)	
+old-woman	nominative	γραῦς	graûs	γρᾶε	grâe	γρᾶες	grâes	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
+old-woman	genitive	γρᾱός	grāós	γρᾱοῖν	grāoîn	γρᾱῶν	grāôn	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
+old-woman	dative	γρᾱΐ	grāḯ	γρᾱοῖν	grāoîn	γραυσῐ́ / γραυσῐ́ν	grausí(n)	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
+old-woman	accusative	γραῦν	graûn	γρᾶε	grâe	γραῦς	graûs	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
+old-woman	vocative	γραῦ	graû	γρᾶε	grâe	γρᾶες	grâes	#	Irregular declension of ἡ γραῦς; τῆς γρᾱός (Attic)	
+orator	nominative	ῥήτωρ	rhḗtōr	ῥήτορε	rhḗtore	ῥήτορες	rhḗtores	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
+orator	genitive	ῥήτορος	rhḗtoros	ῥητόροιν	rhētóroin	ῥητόρων	rhētórōn	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
+orator	dative	ῥήτορῐ	rhḗtori	ῥητόροιν	rhētóroin	ῥήτορσῐ / ῥήτορσῐν	toîs rhḗtorsi(n)	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
+orator	accusative	ῥήτορᾰ	rhḗtora	ῥήτορε	rhḗtore	ῥήτορᾰς	rhḗtoras	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
+orator	vocative	ῥῆτορ	rhêtor	ῥήτορε	rhḗtore	ῥήτορες	rhḗtores	#	Third declension of ὁ ῥήτωρ; τοῦ ῥήτορος (Attic)	
+Pericles	nominative	Περῐκλῆς	Periklês	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
+Pericles	genitive	Περῐκλέους	Perikléous	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
+Pericles	dative	Περῐκλεῖ	Perikleî	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
+Pericles	accusative	Περῐκλέᾱ	Perikléā	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
+Pericles	vocative	Περῐ́κλεις	Períkleis	—	—	—	—	#	Third declension of ὁ Περῐκλῆς; τοῦ Περῐκλέους (contracted, Attic)	
+person	nominative	ἄνθρωπος	ánthrōpos	ἀνθρώπω	anthrṓpō	ἄνθρωποι	ánthrōpoi	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
+person	genitive	ἀνθρώπου	anthrṓpou	ἀνθρώποιν	anthrṓpoin	ἀνθρώπων	anthrṓpōn	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
+person	dative	ἀνθρώπῳ	anthrṓpōi	ἀνθρώποιν	anthrṓpoin	ἀνθρώποις	toîs, taîs anthrṓpois	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
+person	accusative	ἄνθρωπον	ánthrōpon	ἀνθρώπω	anthrṓpō	ἀνθρώπους	anthrṓpous	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
+person	vocative	ἄνθρωπε	ánthrōpe	ἀνθρώπω	anthrṓpō	ἄνθρωποι	ánthrōpoi	#	Second declension of ὁ, ἡ ἄνθρωπος; τοῦ, τῆς ἀνθρώπου (Attic)	
+pigeon	nominative	περῐστερᾱ́	perĭsterā́	περῐστερᾱ́	perĭsterā́	περῐστεραί	perĭsteraí			
+pigeon	genitive	περῐστερᾶς	perĭsterâs	περῐστεραῖν	perĭsteraîn	περῐστερῶν	perĭsterôn			
+pigeon	dative	περῐστερᾷ	perĭsterāî	περῐστεραῖν	perĭsteraîn	περῐστεραῖς	perĭsteraîs			
+pigeon	accusative	περῐστερᾱ́ν	perĭsterā́n	περῐστερᾱ́	perĭsterā́	περῐστερᾱ́ς	perĭsterā́s			
+pigeon	vocative	περῐστερᾱ́	perĭsterā́	περῐστερᾱ́	perĭsterā́	περῐστεραί	perĭsteraí			
+planet	nominative	πλᾰνήτης	plănḗtēs	πλᾰνήτᾱ	plănḗtā	πλᾰνῆται	plănêtai			
+planet	genitive	πλᾰνήτου	plănḗtou	πλᾰνήταιν	plănḗtain	πλᾰνητῶν	plănētôn			
+planet	dative	πλᾰνήτῃ	plănḗtēi	πλᾰνήταιν	plănḗtain	πλᾰνήταις	toîs plănḗtais			
+planet	accusative	πλᾰνήτην	plănḗtēn	πλᾰνήτᾱ	plănḗtā	πλᾰνήτᾱς	plănḗtās			
+planet	vocative	πλᾰνῆτᾰ	plănêtă	πλᾰνήτᾱ	plănḗtā	πλᾰνῆται	plănêtai			
+polity	nominative	πολῑτείᾱ	polīteíā	πολῑτείᾱ	polīteíā	πολῑτεῖαι	polīteîai	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
+polity	genitive	πολῑτείᾱς	polīteíās	πολῑτείαιν	polīteíain	πολῑτειῶν	polīteiôn	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
+polity	dative	πολῑτείᾳ	polīteíāi	πολῑτείαιν	polīteíain	πολῑτείαις	polīteíais	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
+polity	accusative	πολῑτείᾱν	polīteíān	πολῑτείᾱ	polīteíā	πολῑτείᾱς	polīteíās	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
+polity	vocative	πολῑτείᾱ	polīteíā	πολῑτείᾱ	polīteíā	πολῑτεῖαι	polīteîai	#	First declension of ἡ πολῑτείᾱ; τῆς πολῑτείᾱς (Attic)	
+present	nominative	δῶρον	dôron	δώρω	dṓrō	δῶρᾰ	dôră			
+present	genitive	δώρου	dṓrou	δώροιν	dṓroin	δώρων	dṓrōn			
+present	dative	δώρῳ	dṓrōi	δώροιν	dṓroin	δώροις	toîs dṓrois			
+present	accusative	δῶρον	dôron	δώρω	dṓrō	δῶρᾰ	dôră			
+present	vocative	δῶρον	dôron	δώρω	dṓrō	δῶρᾰ	dôră			
+property	nominative	κτῆμᾰ	ktêma	κτήμᾰτε	ktḗmate	κτήμᾰτᾰ	ktḗmata	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
+property	genitive	κτήμᾰτος	ktḗmatos	κτημᾰ́τοιν	ktēmátoin	κτημᾰ́των	ktēmátōn	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
+property	dative	κτήμᾰτῐ	ktḗmati	κτημᾰ́τοιν	ktēmátoin	κτήμᾰσῐ / κτήμᾰσῐν	toîs ktḗmasi(n)	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
+property	accusative	κτῆμᾰ	ktêma	κτήμᾰτε	ktḗmate	κτήμᾰτᾰ	ktḗmata	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
+property	vocative	κτῆμᾰ	ktêma	κτήμᾰτε	ktḗmate	κτήμᾰτᾰ	ktḗmata	#	Third declension of τὸ κτῆμᾰ; τοῦ κτήμᾰτος (Attic)	
+river	nominative	ποτᾰμός	potămós	ποτᾰμώ	potămṓ	ποτᾰμοί	potămoí			
+river	genitive	ποτᾰμοῦ	potămoû	ποτᾰμοῖν	potămoîn	ποτᾰμῶν	potămôn			
+river	dative	ποτᾰμῷ	potămōî	ποτᾰμοῖν	potămoîn	ποτᾰμοῖς	toîs potămoîs			
+river	accusative	ποτᾰμόν	potămón	ποτᾰμώ	potămṓ	ποτᾰμούς	potămoús			
+river	vocative	ποτᾰμέ	potămé	ποτᾰμώ	potămṓ	ποτᾰμοί	potămoí			
+rock	nominative	λῐ́θος	líthos	λῐ́θω	líthō	λῐ́θοι	líthoi	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
+rock	genitive	λῐ́θου	líthou	λῐ́θοιν	líthoin	λῐ́θων	líthōn	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
+rock	dative	λῐ́θῳ	líthōi	λῐ́θοιν	líthoin	λῐ́θοις	toîs, taîs líthois	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
+rock	accusative	λῐ́θον	líthon	λῐ́θω	líthō	λῐ́θους	líthous	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
+rock	vocative	λῐ́θε	líthe	λῐ́θω	líthō	λῐ́θοι	líthoi	#	Second declension of ὁ, ἡ λῐ́θος; τοῦ, τῆς λῐ́θου (Attic)	
+rope	nominative	σειρᾱ́	seirā́	σειρᾱ́	seirā́	σειραί	seiraí	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
+rope	genitive	σειρᾶς	seirâs	σειραῖν	seiraîn	σειρῶν	seirôn	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
+rope	dative	σειρᾷ	seirâi	σειραῖν	seiraîn	σειραῖς	seiraîs	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
+rope	accusative	σειρᾱ́ν	seirā́n	σειρᾱ́	seirā́	σειρᾱ́ς	seirā́s	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
+rope	vocative	σειρᾱ́	seirā́	σειρᾱ́	seirā́	σειραί	seiraí	#	First declension of ἡ σειρᾱ́; τῆς σειρᾶς (Attic)	
+rug	nominative	τᾰ́πης	tápēs	τᾰ́πητε	tápēte	τᾰ́πητες	tápētes	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
+rug	genitive	τᾰ́πητος	tápētos	τᾰπήτοιν	tapḗtoin	τᾰπήτων	tapḗtōn	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
+rug	dative	τᾰ́πητῐ	tápēti	τᾰπήτοιν	tapḗtoin	τᾰ́πησῐ / τᾰ́πησῐν	toîs tápēsi(n)	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
+rug	accusative	τᾰ́πητᾰ	tápēta	τᾰ́πητε	tápēte	τᾰ́πητᾰς	tápētas	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
+rug	vocative	τᾰ́πης	tápēs	τᾰ́πητε	tápēte	τᾰ́πητες	tápētes	#	Third declension of ὁ τᾰ́πης; τοῦ τᾰ́πητος (Attic)	
+shame	nominative	αἰδώς / αἰδώ	aidṓs / aidṓ	αἰδῶε	aidôe	αἰδῶες / αἰδοί	aidôes / aidoí	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
+shame	genitive	αἰδοῦς	aidoûs	αἰδώοιν	aidṓoin	αἰδώων	aidṓōn	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
+shame	dative	αἰδοῖ	aidoî	αἰδώοιν	aidṓoin	αἰδῶσι	aidôsi	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
+shame	accusative	αἰδῶ	aidô	αἰδῶε	aidôe	αἰδῶας	aidôas	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
+shame	vocative	αἰδώς / αἰδώ	aidṓs / aidṓ	αἰδῶε	aidôe	αἰδῶες / αἰδοί	aidôes / aidoí	#	Irregular declension of ἡ αἰδώς; τῆς αἰδοῦς (Attic)	
+shepherd	nominative	ποιμήν	poimḗn	ποιμένε	poiméne	ποιμένες	poiménes	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
+shepherd	genitive	ποιμένος	poiménos	ποιμένοιν	poiménoin	ποιμένων	poiménōn	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
+shepherd	dative	ποιμένῐ	poiméni	ποιμένοιν	poiménoin	ποιμέσῐ / ποιμέσῐν	toîs poimési(n)	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
+shepherd	accusative	ποιμένᾰ	poiména	ποιμένε	poiméne	ποιμένᾰς	poiménas	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
+shepherd	vocative	ποιμήν	poimḗn	ποιμένε	poiméne	ποιμένες	poiménes	#	Third declension of ὁ ποιμήν; τοῦ ποιμένος (Attic)	
+ship	nominative	ναῦς	naûs	νῆε	nêe	νῆες	nêes	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+ship	genitive	νεώς	neṓs	νεοῖν	neoîn	νεῶν	neôn	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+ship	dative	νηΐ	nēḯ	νεοῖν	neoîn	ναυσί / ναυσίν	nausí(n)	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+ship	accusative	ναῦν	naûn	νῆε	nêe	ναῦς	naûs	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+ship	vocative	ναῦ	naû	νῆε	nêe	νῆες	nêes	#	Irregular declension of ἡ ναῦς; τῆς νεώς (Attic)	
+sister	nominative	ἀδελφή	adelphḗ	ἀδελφᾱ́	adelphā́	ἀδελφαί	adelphaí	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
+sister	genitive	ἀδελφῆς	adelphês	ἀδελφαῖν	adelphaîn	ἀδελφῶν	adelphôn	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
+sister	dative	ἀδελφῇ	adelphêi	ἀδελφαῖν	adelphaîn	ἀδελφαῖς	adelphaîs	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
+sister	accusative	ἀδελφήν	adelphḗn	ἀδελφᾱ́	adelphā́	ἀδελφᾱ́ς	adelphā́s	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
+sister	vocative	ἀδελφή	adelphḗ	ἀδελφᾱ́	adelphā́	ἀδελφαί	adelphaí	#	First declension of ἡ ἀδελφή; τῆς ἀδελφῆς (Attic)	
+size	nominative	μέγεθος	mégethos	μεγέθει	megéthei	μεγέθη	megéthē	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
+size	genitive	μεγέθους	megéthous	μεγεθοῖν	megethoîn	μεγεθῶν	megethôn	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
+size	dative	μεγέθει	megéthei	μεγεθοῖν	megethoîn	μεγέθεσῐ / μεγέθεσῐν	toîs megéthesi(n)	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
+size	accusative	μέγεθος	mégethos	μεγέθει	megéthei	μεγέθη	megéthē	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
+size	vocative	μέγεθος	mégethos	μεγέθει	megéthei	μεγέθη	megéthē	#	Third declension of τὸ μέγεθος; τοῦ μεγέθους (Attic)	
+Socrates	nominative	Σωκρᾰ́της	Sōkrátēs	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
+Socrates	genitive	Σωκρᾰ́τους	Sōkrátous	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
+Socrates	dative	Σωκρᾰ́τει	Sōkrátei	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
+Socrates	accusative	Σωκρᾰ́τη / Σωκρᾰ́την	Sōkrátē / Sōkrátēn	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
+Socrates	vocative	Σώκρᾰτες	Sṓkrates	—	—	—	—	#	Third declension of ὁ Σωκρᾰ́της; τοῦ Σωκρᾰ́τους (contracted, Attic)	
+soldier	nominative	στρᾰτῐώτης	stratiṓtēs	στρᾰτῐώτᾱ	stratiṓtā	στρᾰτῐῶται	stratiôtai	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
+soldier	genitive	στρᾰτῐώτου	stratiṓtou	στρᾰτῐώταιν	stratiṓtain	στρᾰτῐωτῶν	stratiōtôn	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
+soldier	dative	στρᾰτῐώτῃ	stratiṓtēi	στρᾰτῐώταιν	stratiṓtain	στρᾰτῐώταις	toîs stratiṓtais	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
+soldier	accusative	στρᾰτῐώτην	stratiṓtēn	στρᾰτῐώτᾱ	stratiṓtā	στρᾰτῐώτᾱς	stratiṓtās	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
+soldier	vocative	στρᾰτῐῶτᾰ	stratiôta	στρᾰτῐώτᾱ	stratiṓtā	στρᾰτῐῶται	stratiôtai	#	First declension of ὁ στρᾰτῐώτης; τοῦ στρᾰτῐώτου (Attic)	
+son	nominative	υἱός	huiós	υἱώ	huiṓ	υἱοί	huioí	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
+son	genitive	υἱοῦ	huioû	υἱοῖν	huioîn	υἱῶν	huiôn	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
+son	dative	υἱῷ	huiôi	υἱοῖν	huioîn	υἱοῖς	toîs huioîs	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
+son	accusative	υἱόν	huión	υἱώ	huiṓ	υἱούς	huioús	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
+son	vocative	υἱέ	huié	υἱώ	huiṓ	υἱοί	huioí	#	Second declension of ὁ υἱός; τοῦ υἱοῦ (Attic)	
+sound	nominative	ἦχος	êkhos	ἤχω	ḗkhō	ἦχοι	êkhoi	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
+sound	genitive	ἤχου	ḗkhou	ἤχοιν	ḗkhoin	ἤχων	ḗkhōn	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
+sound	dative	ἤχῳ	ḗkhōi	ἤχοιν	ḗkhoin	ἤχοις	toîs ḗkhois	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
+sound	accusative	ἦχον	êkhon	ἤχω	ḗkhō	ἤχους	ḗkhous	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
+sound	vocative	ἦχε	êkhe	ἤχω	ḗkhō	ἦχοι	êkhoi	#	Second declension of ὁ ἦχος; τοῦ ἤχου (Attic)	
+south	nominative	νότος	nótos	νότω	nótō	νότοι	nótoi			
+south	genitive	νότου	nótou	νότοιν	nótoin	νότων	nótōn			
+south	dative	νότῳ	nótōi	νότοιν	nótoin	νότοις	toîs nótois			
+south	accusative	νότον	nóton	νότω	nótō	νότους	nótous			
+south	vocative	νότε	nóte	νότω	nótō	νότοι	nótoi			
+sparrow	nominative	στρουθός	strouthós	στρουθώ	strouthṓ	στρουθοί	strouthoí			
+sparrow	genitive	στρουθοῦ	strouthoû	στρουθοῖν	strouthoîn	στρουθῶν	strouthôn			
+sparrow	dative	στρουθῷ	strouthōî	στρουθοῖν	strouthoîn	στρουθοῖς	toîs strouthoîs			
+sparrow	accusative	στρουθόν	strouthón	στρουθώ	strouthṓ	στρουθούς	strouthoús			
+sparrow	vocative	στρουθέ	strouthé	στρουθώ	strouthṓ	στρουθοί	strouthoí			
+spring	nominative	ἔᾰρ	éăr	ἔᾰρε	éăre	ἔᾰρᾰ	éără			
+spring	genitive	ἔᾰρος	éăros	ἐᾰ́ροιν	eắroin	ἐᾰ́ρων	eắrōn			
+spring	dative	ἔᾰρῐ	éărĭ	ἐᾰ́ροιν	eắroin	ἔᾰρσῐ / ἔᾰρσῐν	toîs éărsĭ(n)			
+spring	accusative	ἔᾰρ	éăr	ἔᾰρε	éăre	ἔᾰρᾰ	éără			
+spring	vocative	ἔᾰρ	éăr	ἔᾰρε	éăre	ἔᾰρᾰ	éără			
+star	nominative	ᾰ̓στήρ	ăstḗr	ᾰ̓στέρε	ăstére	ᾰ̓στέρες	ăstéres			
+star	genitive	ᾰ̓στέρος	ăstéros	ᾰ̓στέροιν	ăstéroin	ᾰ̓στέρων	ăstérōn			
+star	dative	ᾰ̓στέρῐ	ăstérĭ	ᾰ̓στέροιν	ăstéroin	ᾰ̓στρᾰ́σῐ / ᾰ̓στρᾰ́σῐν	toîs ăstrắsĭ(n)			
+star	accusative	ᾰ̓στέρᾰ	ăstéră	ᾰ̓στέρε	ăstére	ᾰ̓στέρᾰς	ăstérăs			
+star	vocative	ᾰ̓́στερ	ắster	ᾰ̓στέρε	ăstére	ᾰ̓στέρες	ăstéres			
+stone	nominative	λῐ́θος	lĭ́thos	λῐ́θω	lĭ́thō	λῐ́θοι	/ hai lĭ́thoi			
+stone	genitive	λῐ́θου	lĭ́thou	λῐ́θοιν	lĭ́thoin	λῐ́θων	lĭ́thōn			
+stone	dative	λῐ́θῳ	lĭ́thōi	λῐ́θοιν	lĭ́thoin	λῐ́θοις	lĭ́thois			
+stone	accusative	λῐ́θον	lĭ́thon	λῐ́θω	lĭ́thō	λῐ́θους	lĭ́thous			
+stone	vocative	λῐ́θε	lĭ́the	λῐ́θω	lĭ́thō	λῐ́θοι	lĭ́thoi			
+street	nominative	ὁδός	hodós	ὁδώ	hodṓ	ὁδοί	hodoí	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
+street	genitive	ὁδοῦ	hodoû	ὁδοῖν	hodoîn	ὁδῶν	hodôn	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
+street	dative	ὁδῷ	hodôi	ὁδοῖν	hodoîn	ὁδοῖς	hodoîs	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
+street	accusative	ὁδόν	hodón	ὁδώ	hodṓ	ὁδούς	hodoús	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
+street	vocative	ὁδέ	hodé	ὁδώ	hodṓ	ὁδοί	hodoí	#	Second declension of ἡ ὁδός; τῆς ὁδοῦ (Attic)	
+summer	nominative	θέρος	théros	θέρει	thérei	θέρη	thérē			
+summer	genitive	θέρους	thérous	θεροῖν	theroîn	θερῶν	therôn			
+summer	dative	θέρει	thérei	θεροῖν	theroîn	θέρεσῐ / θέρεσῐν	toîs théresĭ(n)			
+summer	accusative	θέρος	théros	θέρει	thérei	θέρη	thérē			
+summer	vocative	θέρος	théros	θέρει	thérei	θέρη	thérē			
+sun	nominative	ἥλῐος	hḗlĭos	ἡλῐ́ω	hēlĭ́ō	ἥλῐοι	hḗlĭoi			
+sun	genitive	ἡλῐ́ου	hēlĭ́ou	ἡλῐ́οιν	hēlĭ́oin	ἡλῐ́ων	hēlĭ́ōn			
+sun	dative	ἡλῐ́ῳ	hēlĭ́ōi	ἡλῐ́οιν	hēlĭ́oin	ἡλῐ́οις	toîs hēlĭ́ois			
+sun	accusative	ἥλῐον	hḗlĭon	ἡλῐ́ω	hēlĭ́ō	ἡλῐ́ους	hēlĭ́ous			
+sun	vocative	ἥλῐε	hḗlĭe	ἡλῐ́ω	hēlĭ́ō	ἥλῐοι	hḗlĭoi			
+swallow	nominative	χελῑδών	khelīdṓn	χελῑδόνε	khelīdóne	χελῑδόνες	khelīdónes			
+swallow	genitive	χελῑδόνος	khelīdónos	χελῑδόνοιν	khelīdónoin	χελῑδόνων	khelīdónōn			
+swallow	dative	χελῑδόνῐ	khelīdónĭ	χελῑδόνοιν	khelīdónoin	χελῑδόσῐ / χελῑδόσῐν	khelīdósĭ(n)			
+swallow	accusative	χελῑδόνᾰ	khelīdónă	χελῑδόνε	khelīdóne	χελῑδόνᾰς	khelīdónăs			
+swallow	vocative	χελῑδοῖ	khelīdoî	χελῑδόνε	khelīdóne	χελῑδόνες	khelīdónes			
+swan	nominative	κῠ́κνος	kŭ́knos	κῠ́κνω	kŭ́knō	κῠ́κνοι	kŭ́knoi			
+swan	genitive	κῠ́κνου	kŭ́knou	κῠ́κνοιν	kŭ́knoin	κῠ́κνων	kŭ́knōn			
+swan	dative	κῠ́κνῳ	kŭ́knōi	κῠ́κνοιν	kŭ́knoin	κῠ́κνοις	toîs kŭ́knois			
+swan	accusative	κῠ́κνον	kŭ́knon	κῠ́κνω	kŭ́knō	κῠ́κνους	kŭ́knous			
+swan	vocative	κῠ́κνε	kŭ́kne	κῠ́κνω	kŭ́knō	κῠ́κνοι	kŭ́knoi			
+Thales	nominative	Θᾰλῆς	Thalês	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
+Thales	genitive	Θᾰλέω / Θᾰλοῦ	Thaléō / Thaloû	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
+Thales	dative	Θᾰλῇ	Thalêi	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
+Thales	accusative	Θᾰλῆν	Thalên	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
+Thales	vocative	Θᾰλῆ	Thalê	—	—	—	—	#	First declension of ὁ Θᾰλῆς; τοῦ Θᾰλέω (Attic)	
+thought	nominative	φροντῐ́ς	phrontĭ́s	φροντῐ́δε	phrontĭ́de	φροντῐ́δες	phrontĭ́des			
+thought	genitive	φροντῐ́δος	phrontĭ́dos	φροντῐ́δοιν	phrontĭ́doin	φροντῐ́δων	phrontĭ́dōn			
+thought	dative	φροντῐ́δῐ	phrontĭ́dĭ	φροντῐ́δοιν	phrontĭ́doin	φροντῐ́σῐ / φροντῐ́σῐν	phrontĭ́sĭ(n)			
+thought	accusative	φροντῐ́δᾰ	phrontĭ́dă	φροντῐ́δε	phrontĭ́de	φροντῐ́δᾰς	phrontĭ́dăs			
+thought	vocative	φροντῐ́	phrontĭ́	φροντῐ́δε	phrontĭ́de	φροντῐ́δες	phrontĭ́des			
+Titan	nominative	Τῑτᾱ́ν	Tītā́n	Τῑτᾶνε	Tītâne	Τῑτᾶνες	Tītânes	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
+Titan	genitive	Τῑτᾶνος	Tītânos	Τῑτᾱ́νοιν	Tītā́noin	Τῑτᾱ́νων	Tītā́nōn	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
+Titan	dative	Τῑτᾶνῐ	Tītâni	Τῑτᾱ́νοιν	Tītā́noin	Τῑτᾶσῐ / Τῑτᾶσῐν	toîs Tītâsi(n)	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
+Titan	accusative	Τῑτᾶνᾰ	Tītâna	Τῑτᾶνε	Tītâne	Τῑτᾶνᾰς	Tītânas	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
+Titan	vocative	Τῑτᾱ́ν	Tītā́n	Τῑτᾶνε	Tītâne	Τῑτᾶνες	Tītânes	#	Third declension of ὁ Τῑτᾱ́ν; τοῦ Τῑτᾶνος (Attic)	
+tool	nominative	ἐργᾰλεῖον	ergăleîon	ἐργᾰλείω	ergăleíō	ἐργᾰλεῖᾰ	ergăleîă			
+tool	genitive	ἐργᾰλείου	ergăleíou	ἐργᾰλείοιν	ergăleíoin	ἐργᾰλείων	ergăleíōn			
+tool	dative	ἐργᾰλείῳ	ergăleíōi	ἐργᾰλείοιν	ergăleíoin	ἐργᾰλείοις	toîs ergăleíois			
+tool	accusative	ἐργᾰλεῖον	ergăleîon	ἐργᾰλείω	ergăleíō	ἐργᾰλεῖᾰ	ergăleîă			
+tool	vocative	ἐργᾰλεῖον	ergăleîon	ἐργᾰλείω	ergăleíō	ἐργᾰλεῖᾰ	ergăleîă			
+tooth	nominative	ὀδούς	odoús	ὀδόντε	odónte	ὀδόντες	odóntes	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
+tooth	genitive	ὀδόντος	odóntos	ὀδόντοιν	odóntoin	ὀδόντων	odóntōn	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
+tooth	dative	ὀδόντῐ	odónti	ὀδόντοιν	odóntoin	ὀδοῦσῐ / ὀδοῦσῐν	toîs odoûsi(n)	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
+tooth	accusative	ὀδόντᾰ	odónta	ὀδόντε	odónte	ὀδόντᾰς	odóntas	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
+tooth	vocative	ὀδόν	odón	ὀδόντε	odónte	ὀδόντες	odóntes	#	Third declension of ὁ ὀδούς; τοῦ ὀδόντος (Attic)	
+town	nominative	ᾰ̓́στῠ	ástu	ᾰ̓́στει	ástei	ᾰ̓́στη / ᾰ̓́στεᾰ	ástē / ástea	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
+town	genitive	ᾰ̓́στεως	ásteōs	ᾰ̓στέοιν	astéoin	ᾰ̓́στεων	ásteōn	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
+town	dative	ᾰ̓́στει	ástei	ᾰ̓στέοιν	astéoin	ᾰ̓́στεσῐ / ᾰ̓́στεσῐν	toîs ástesi(n)	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
+town	accusative	ᾰ̓́στῠ	ástu	ᾰ̓́στει	ástei	ᾰ̓́στη / ᾰ̓́στεᾰ	ástē / ástea	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
+town	vocative	ᾰ̓́στῠ	ástu	ᾰ̓́στει	ástei	ᾰ̓́στη / ᾰ̓́στεᾰ	ástē / ástea	#	Third declension of τὸ ᾰ̓́στῠ; τοῦ ᾰ̓́στεως (Attic)	
+treasure	nominative	θησαυρός	thēsaurós	θησαυρώ	thēsaurṓ	θησαυροί	thēsauroí			
+treasure	genitive	θησαυροῦ	thēsauroû	θησαυροῖν	thēsauroîn	θησαυρῶν	thēsaurôn			
+treasure	dative	θησαυρῷ	thēsaurōî	θησαυροῖν	thēsauroîn	θησαυροῖς	toîs thēsauroîs			
+treasure	accusative	θησαυρόν	thēsaurón	θησαυρώ	thēsaurṓ	θησαυρούς	thēsauroús			
+treasure	vocative	θησαυρέ	thēsauré	θησαυρώ	thēsaurṓ	θησαυροί	thēsauroí			
+tree	nominative	δένδρον	déndron	δένδρω	déndrō	δένδρᾰ	déndră			
+tree	genitive	δένδρου	déndrou	δένδροιν	déndroin	δένδρων	déndrōn			
+tree	dative	δένδρῳ	déndrōi	δένδροιν	déndroin	δένδροις	toîs déndrois			
+tree	accusative	δένδρον	déndron	δένδρω	déndrō	δένδρᾰ	déndră			
+tree	vocative	δένδρον	déndron	δένδρω	déndrō	δένδρᾰ	déndră			
+village	nominative	κώμη	kṓmē	κώμᾱ	kṓmā	κῶμαι	kômai	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
+village	genitive	κώμης	kṓmēs	κώμαιν	kṓmain	κωμῶν	kōmôn	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
+village	dative	κώμῃ	kṓmēi	κώμαιν	kṓmain	κώμαις	kṓmais	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
+village	accusative	κώμην	kṓmēn	κώμᾱ	kṓmā	κώμᾱς	kṓmās	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
+village	vocative	κώμη	kṓmē	κώμᾱ	kṓmā	κῶμαι	kômai	#	First declension of ἡ κώμη; τῆς κώμης (Attic)	
+vulture	nominative	γῡ́ψ	gū́ps	γῦπε	gûpe	γῦπες	gûpes	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
+vulture	genitive	γῡπός	gūpós	γῡποῖν	gūpoîn	γῡπῶν	gūpôn	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
+vulture	dative	γῡπῐ́	gūpí	γῡποῖν	gūpoîn	γῡψῐ́ / γῡψῐ́ν	toîs gūpsí(n)	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
+vulture	accusative	γῦπᾰ	gûpa	γῦπε	gûpe	γῦπᾰς	gûpas	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
+vulture	vocative	γῡ́ψ	gū́ps	γῦπε	gûpe	γῦπες	gûpes	#	Third declension of ὁ γῡ́ψ; τοῦ γῡπός (Attic)	
+warmth	nominative	θέρμη	thérmē	θέρμᾱ	thérmā	θέρμαι	thérmai	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
+warmth	genitive	θέρμης	thérmēs	θέρμαιν	thérmain	θερμῶν	thermôn	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
+warmth	dative	θέρμῃ	thérmēi	θέρμαιν	thérmain	θέρμαις	thérmais	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
+warmth	accusative	θέρμην	thérmēn	θέρμᾱ	thérmā	θέρμᾱς	thérmās	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
+warmth	vocative	θέρμη	thérmē	θέρμᾱ	thérmā	θέρμαι	thérmai	#	First declension of ἡ θέρμη; τῆς θέρμης (Attic)	
+water	nominative	ῠ̔́δωρ	húdōr	ῠ̔́δᾰτε	húdate	ῠ̔́δᾰτᾰ	húdata	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
+water	genitive	ῠ̔́δᾰτος	húdatos	ῠ̔δᾰ́τοιν	hudátoin	ῠ̔δᾰ́των	hudátōn	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
+water	dative	ῠ̔́δᾰτῐ	húdati	ῠ̔δᾰ́τοιν	hudátoin	ῠ̔́δᾰσῐ / ῠ̔́δᾰσῐν	toîs húdasi(n)	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
+water	accusative	ῠ̔́δωρ	húdōr	ῠ̔́δᾰτε	húdate	ῠ̔́δᾰτᾰ	húdata	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
+water	vocative	ῠ̔́δωρ	húdōr	ῠ̔́δᾰτε	húdate	ῠ̔́δᾰτᾰ	húdata	#	Third declension of τὸ ῠ̔́δωρ; τοῦ ῠ̔́δᾰτος (Attic)	
+way	nominative	κέλευθος	kéleuthos	κελεύθω	keleúthō	κέλευθοι	kéleuthoi	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
+way	genitive	κελεύθου	keleúthou	κελεύθοιν	keleúthoin	κελεύθων	keleúthōn	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
+way	dative	κελεύθῳ	keleúthōi	κελεύθοιν	keleúthoin	κελεύθοις	keleúthois	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
+way	accusative	κέλευθον	kéleuthon	κελεύθω	keleúthō	κελεύθους	keleúthous	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
+way	vocative	κέλευθε	kéleuthe	κελεύθω	keleúthō	κέλευθοι	kéleuthoi	#	Second declension of ἡ κέλευθος; τῆς κελεύθου (Attic)	
+wealth	nominative	πλοῦτος	ploûtos	πλούτω	ploútō	πλοῦτοι	ploûtoi			
+wealth	genitive	πλούτου	ploútou	πλούτοιν	ploútoin	πλούτων	ploútōn			
+wealth	dative	πλούτῳ	ploútōi	πλούτοιν	ploútoin	πλούτοις	toîs ploútois			
+wealth	accusative	πλοῦτον	ploûton	πλούτω	ploútō	πλούτους	ploútous			
+wealth	vocative	πλοῦτε	ploûte	πλούτω	ploútō	πλοῦτοι	ploûtoi			
+west	nominative	δῠ́σῐς	dŭ́sĭs	δῠ́σει	dŭ́sei	δῠ́σεις	dŭ́seis			
+west	genitive	δῠ́σεως	dŭ́seōs	δῠσέοιν	dŭséoin	δῠ́σεων	dŭ́seōn			
+west	dative	δῠ́σει	dŭ́sei	δῠσέοιν	dŭséoin	δῠ́σεσῐ / δῠ́σεσῐν	dŭ́sesĭ(n)			
+west	accusative	δῠ́σῐν	dŭ́sĭn	δῠ́σει	dŭ́sei	δῠ́σεις	dŭ́seis			
+west	vocative	δῠ́σῐ	dŭ́sĭ	δῠ́σει	dŭ́sei	δῠ́σεις	dŭ́seis			
+wind	nominative	ᾰ̓́νεμος	ánemos	ᾰ̓νέμω	anémō	ᾰ̓́νεμοι	ánemoi	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
+wind	genitive	ᾰ̓νέμου	anémou	ᾰ̓νέμοιν	anémoin	ᾰ̓νέμων	anémōn	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
+wind	dative	ᾰ̓νέμῳ	anémōi	ᾰ̓νέμοιν	anémoin	ᾰ̓νέμοις	toîs anémois	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
+wind	accusative	ᾰ̓́νεμον	ánemon	ᾰ̓νέμω	anémō	ᾰ̓νέμους	anémous	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
+wind	vocative	ᾰ̓́νεμε	áneme	ᾰ̓νέμω	anémō	ᾰ̓́νεμοι	ánemoi	#	Second declension of ὁ ᾰ̓́νεμος; τοῦ ᾰ̓νέμου (Attic)	
+window	nominative	θῠρῐ́ς	thurís	θῠρῐ́δε	thuríde	θῠρῐ́δες	thurídes	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
+window	genitive	θῠρῐ́δος	thurídos	θῠρῐ́δοιν	thurídoin	θῠρῐ́δων	thurídōn	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
+window	dative	θῠρῐ́δῐ	thurídi	θῠρῐ́δοιν	thurídoin	θῠρῐ́σῐ / θῠρῐ́σῐν	thurísi(n)	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
+window	accusative	θῠρῐ́δᾰ	thurída	θῠρῐ́δε	thuríde	θῠρῐ́δᾰς	thurídas	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
+window	vocative	θῠρῐ́ς	thurís	θῠρῐ́δε	thuríde	θῠρῐ́δες	thurídes	#	Third declension of ἡ θῠρῐ́ς; τῆς θῠρῐ́δος (Attic)	
+winter	nominative	χειμών	kheimṓn	χειμῶνε	kheimône	χειμῶνες	kheimônes	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
+winter	genitive	χειμῶνος	kheimônos	χειμώνοιν	kheimṓnoin	χειμώνων	kheimṓnōn	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
+winter	dative	χειμῶνῐ	kheimôni	χειμώνοιν	kheimṓnoin	χειμῶσῐ / χειμῶσῐν	toîs kheimôsi(n)	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
+winter	accusative	χειμῶνᾰ	kheimôna	χειμῶνε	kheimône	χειμῶνᾰς	kheimônas	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
+winter	vocative	χειμών	kheimṓn	χειμῶνε	kheimône	χειμῶνες	kheimônes	#	Third declension of ὁ χειμών; τοῦ χειμῶνος (Attic)	
+wolf	nominative	λῠ́κος	lŭ́kos	λῠ́κω	lŭ́kō	λῠ́κοι	lŭ́koi			
+wolf	genitive	λῠ́κου	lŭ́kou	λῠ́κοιν	lŭ́koin	λῠ́κων	lŭ́kōn			
+wolf	dative	λῠ́κῳ	lŭ́kōi	λῠ́κοιν	lŭ́koin	λῠ́κοις	toîs lŭ́kois			
+wolf	accusative	λῠ́κον	lŭ́kon	λῠ́κω	lŭ́kō	λῠ́κους	lŭ́kous			
+wolf	vocative	λῠ́κε	lŭ́ke	λῠ́κω	lŭ́kō	λῠ́κοι	lŭ́koi			
+woman	nominative	γῠνή	gunḗ	γῠναῖκε	gunaîke	γῠναῖκες	gunaîkes	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
+woman	genitive	γῠναικός	gunaikós	γῠναικοῖν	gunaikoîn	γῠναικῶν	gunaikôn	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
+woman	dative	γῠναικί	gunaikí	γῠναικοῖν	gunaikoîn	γῠναιξί / γῠναιξίν	gunaixí(n)	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
+woman	accusative	γῠναῖκᾰ	gunaîka	γῠναῖκε	gunaîke	γῠναῖκᾰς	gunaîkas	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
+woman	vocative	γύναι	gúnai	γῠναῖκε	gunaîke	γῠναῖκες	gunaîkes	#	Irregular declension of ἡ γῠνή; τῆς γῠναικός (Attic)	
+wood	nominative	δόρῠ	dóru	δόρᾰτε	dórate	δόρᾰτᾰ	dórata	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
+wood	genitive	δόρᾰτος	dóratos	δορᾰ́τοιν	dorátoin	δορᾰ́των	dorátōn	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
+wood	dative	δόρᾰτῐ	dórati	δορᾰ́τοιν	dorátoin	δόρᾰσῐ / δόρᾰσῐν	toîs dórasi(n)	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
+wood	accusative	δόρῠ	dóru	δόρᾰτε	dórate	δόρᾰτᾰ	dórata	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
+wood	vocative	δόρῠ	dóru	δόρᾰτε	dórate	δόρᾰτᾰ	dórata	#	Third declension of τὸ δόρῠ; τοῦ δόρᾰτος (Attic)	
+work	nominative	ἔργον	érgon	ἔργω	érgō	ἔργᾰ	érga	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
+work	genitive	ἔργου	érgou	ἔργοιν	érgoin	ἔργων	érgōn	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
+work	dative	ἔργῳ	érgōi	ἔργοιν	érgoin	ἔργοις	toîs érgois	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
+work	accusative	ἔργον	érgon	ἔργω	érgō	ἔργᾰ	érga	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
+work	vocative	ἔργον	érgon	ἔργω	érgō	ἔργᾰ	érga	#	Second declension of τὸ ἔργον; τοῦ ἔργου (Attic)	
+worker	nominative	ἐργᾰ́της	ergắtēs	ἐργᾰ́τᾱ	ergắtā	ἐργᾰ́ται	ergắtai			
+worker	genitive	ἐργᾰ́του	ergắtou	ἐργᾰ́ταιν	ergắtain	ἐργᾰτῶν	ergătôn			
+worker	dative	ἐργᾰ́τῃ	ergắtēi	ἐργᾰ́ταιν	ergắtain	ἐργᾰ́ταις	toîs ergắtais			
+worker	accusative	ἐργᾰ́την	ergắtēn	ἐργᾰ́τᾱ	ergắtā	ἐργᾰ́τᾱς	ergắtās			
+worker	vocative	ἐργᾰ́τᾰ	ergắtă	ἐργᾰ́τᾱ	ergắtā	ἐργᾰ́ται	ergắtai			
+worm	nominative	σκώληξ	skṓlēx	σκώληκε	skṓlēke	σκώληκες	skṓlēkes			
+worm	genitive	σκώληκος	skṓlēkos	σκωλήκοιν	skōlḗkoin	σκωλήκων	skōlḗkōn			
+worm	dative	σκώληκῐ	skṓlēkĭ	σκωλήκοιν	skōlḗkoin	σκώληξῐ / σκώληξῐν	toîs skṓlēxĭ(n)			
+worm	accusative	σκώληκᾰ	skṓlēkă	σκώληκε	skṓlēke	σκώληκᾰς	skṓlēkăs			
+worm	vocative	σκώληξ	skṓlēx	σκώληκε	skṓlēke	σκώληκες	skṓlēkes			
+year	nominative	ἔτος	étos	ἔτει	étei	ἔτη	étē			
+year	genitive	ἔτους	étous	ἐτοῖν	etoîn	ἐτῶν	etôn			
+year	dative	ἔτει / ἔτῃ†	étei / étēi†	ἐτοῖν	etoîn	ἔτεσῐ / ἔτεσῐν	toîs étesĭ(n)			
+year	accusative	ἔτος	étos	ἔτει	étei	ἔτη	étē			
+year	vocative	ἔτος	étos	ἔτει	étei	ἔτη	étē			
+young-man	nominative	νεᾱνῐ́ᾱς	neāníās	νεᾱνῐ́ᾱ	neāníā	νεᾱνῐ́αι	neāníai	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
+young-man	genitive	νεᾱνῐ́ου	neāníou	νεᾱνῐ́αιν	neāníain	νεᾱνῐῶν	neāniôn	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
+young-man	dative	νεᾱνῐ́ᾳ	neāníāi	νεᾱνῐ́αιν	neāníain	νεᾱνῐ́αις	toîs neāníais	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
+young-man	accusative	νεᾱνῐ́ᾱν	neāníān	νεᾱνῐ́ᾱ	neāníā	νεᾱνῐ́ᾱς	neāníās	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
+young-man	vocative	νεᾱνῐ́ᾱ	neāníā	νεᾱνῐ́ᾱ	neāníā	νεᾱνῐ́αι	neāníai	#	First declension of ὁ νεᾱνῐ́ᾱς; τοῦ νεᾱνῐ́ου (Attic)	
+Zeus	nominative	Ζεύς	Zeús	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
+Zeus	genitive	Δῐός / Ζηνός	Diós / Zēnós	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
+Zeus	dative	Δῐῐ́ / Ζηνῐ́	Dií / Zēní	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
+Zeus	accusative	Δῐ́ᾰ / Ζῆνᾰ	Día / Zêna	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
+Zeus	vocative	Ζεῦ	Zeû	—	—	—	—	#	Irregular declension of ὁ Ζεύς; τοῦ Δῐός (Attic)	
