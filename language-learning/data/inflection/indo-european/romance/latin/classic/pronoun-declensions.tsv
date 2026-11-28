@@ -20,17 +20,17 @@ demonstrative	distal	plural	masculine	illī	illōrum	illīs	illōs	illīs	illī
 demonstrative	distal	plural	feminine	illae	illārum	illīs	illās	illīs	illae 
 demonstrative	distal	plural	neuter	illa	illōrum	illīs	illa	illīs	illa 
 demonstrative	proximal	singular	masculine	hic	huius	huic	hunc	hōc	he 
-demonstrative	proximal	singular	feminine	haec			hanc	hāc	ha 
-demonstrative	proximal	singular	neuter	hoc			hoc	hōc	hum 
-demonstrative	proximal	plural	masculine	hī	hōrum	hīs	hōs	hīs	hī 
-demonstrative	proximal	plural	feminine	hae	hārum		hās		hae 
-demonstrative	proximal	plural	neuter	haec	hōrum		haec		ha 
+demonstrative	proximal	singular	feminine	haec	huius	huic	hanc	hāc	ha 
+demonstrative	proximal	singular	neuter	hoc	huius	huic	hoc	hōc	hum 
+demonstrative	proximal	plural	masculine	hī	hōrum	hīs|hibus	hōs	hīs	hī 
+demonstrative	proximal	plural	feminine	hae	hārum	hīs|hibus	hās	hīs	hae 
+demonstrative	proximal	plural	neuter	haec	hōrum	hīs|hibus	haec	hīs	ha 
 demonstrative	medial	singular	masculine	iste	istī̆us	istī	istum	istō	iste 
-demonstrative	medial	singular	feminine	ista			istam	istā	ista 
-demonstrative	medial	singular	neuter	istud			istud	istō	istum 
+demonstrative	medial	singular	feminine	ista	istī̆us	istī	istam	istā	ista 
+demonstrative	medial	singular	neuter	istud	istī̆us	istī	istud	istō	istum 
 demonstrative	medial	plural	masculine	istī	istōrum	istīs	istōs	istīs	istī 
-demonstrative	medial	plural	feminine	istae	istārum		istās		istae 
-demonstrative	medial	plural	neuter	ista	istōrum		ista		ista 
+demonstrative	medial	plural	feminine	istae	istārum	istīs	istās	istīs	istae 
+demonstrative	medial	plural	neuter	ista	istōrum	istīs	ista	istīs	ista 
 interrogative		singular	masculine	quis	cuius	cui	quem	quō	—
 interrogative		singular	feminine	quae	cuius	cui	quam	quā	—
 interrogative		singular	neuter	quid	cuius	cui	quid	quō	—
