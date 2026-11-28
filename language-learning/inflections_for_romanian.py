@@ -88,6 +88,8 @@ foreign_language = Language(
                         tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/lexical-noun-declensions.tsv')),
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/pronoun-declensions.tsv')),
+                    *lexical_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/romanian/modern/adjective-agreements.tsv')),
                 ])),
             UniformDictLookup([
                 (r'(.+)ă',         'house',  'cas'),    # Latin 1st declension
