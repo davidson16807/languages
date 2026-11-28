@@ -1,195 +1,195 @@
-*	*	singular	plural	#			
-bird	nominative	brid	briddes	#			
-bird	accusative	brid	briddes	#			
-bird	genitive	briddes	briddes	#			
-bird	dative	bridde	bridde	#			
-dog	nominative	hound	hounds or houndes	#			
-dog	accusative	hound	hounds or houndes	#			
-dog	genitive	houndes	hounde	#			
-dog	dative	hounde	hounden	#			
-stone	nominative	ston 	stones	#			
-stone	accusative	ston 	stones	#			
-stone	genitive	stones 	stone	#			
-stone	dative	stone 	stonen 	#			
-rock	nominative	ston 	stones	#			
-rock	accusative	ston 	stones	#			
-rock	genitive	stones 	stone	#			
-rock	dative	stone 	stonen 	#			
-name	nominative	name 	namen	#			
-name	accusative	name 	namen	#			
-name	genitive	namen 	namene	#			
-name	dative	name(n) 	namen 	#			
-angel	nominative	engel  	engles  	#			
-angel	accusative	engel  	engles  	#			
-angel	genitive	engles 	engle   	#			
-angel	dative	engle  	engle(n)	#			
-foot	nominative	foot	feet	#			
-foot	accusative	foot	feet	#			
-foot	genitive	foote, foot 	footen, feet	#			
-foot	dative	footes 	foote, feet 	#			
-house	nominative	hous(e)	houses	#			
-house	accusative	hous(e)	houses	#			
-house	genitive	houses	houses	#			
-house	dative	hous(e)	houses	#			
-animal	nominative	der	deres	#			
-animal	accusative	der	deres	#			
-animal	genitive	deres	dere(ne)	#			
-animal	dative	dere	dere(s)	#			
-attention	nominative	advertence	advertences	#			
-attention	accusative	advertence	advertences	#			
-attention	genitive	advertences	advertence(ne)	#			
-attention	dative	advertence	advertence(s)	#			
-boat	nominative	boot	bootes	#			
-boat	accusative	boot	bootes	#			
-boat	genitive	bootes	boote(ne)	#			
-boat	dative	boote	boote(s)	#			
-book	nominative	bok	bokes	#			
-book	accusative	bok	bokes	#			
-book	genitive	bokes	boke(ne)	#			
-book	dative	boke	boke(s)	#			
-brother	nominative	brethir	brethires	#			
-brother	accusative	brethir	brethires	#			
-brother	genitive	brethires	brethire(ne)	#			
-brother	dative	brethire	brethire(s)	#			
-bug	nominative	wirm	wirmes	#			
-bug	accusative	wirm	wirmes	#			
-bug	genitive	wirmes	wirme(ne)	#			
-bug	dative	wirme	wirme(s)	#			
-clothing	nominative	cloth	clothes	#			
-clothing	accusative	cloth	clothes	#			
-clothing	genitive	clothes	clothe(ne)	#			
-clothing	dative	clothe	clothe(s)	#			
-daughter	nominative	dohter	dohteres	#			
-daughter	accusative	dohter	dohteres	#			
-daughter	genitive	dohteres	dohtere(ne)	#			
-daughter	dative	dohtere	dohtere(s)	#			
-#dog	nominative	dogge	dogges	#			
-#dog	accusative	dogge	dogges	#			
-#dog	genitive	dogges	dogge(ne)	#			
-#dog	dative	dogge	dogge(s)	#			
-door	nominative	dore	dores	#			
-door	accusative	dore	dores	#			
-door	genitive	dores	dore(ne)	#			
-door	dative	dore	dore(s)	#			
-drum	nominative	tabour	taboures	#			
-drum	accusative	tabour	taboures	#			
-drum	genitive	taboures	taboure(ne)	#			
-drum	dative	taboure	taboure(s)	#			
-enemy	nominative	feond	feondes	#			
-enemy	accusative	feond	feondes	#			
-enemy	genitive	feondes	feonde(ne)	#			
-enemy	dative	feonde	feonde(s)	#			
-fire	nominative	fyr	fyres	#			
-fire	accusative	fyr	fyres	#			
-fire	genitive	fyres	fyre(ne)	#			
-fire	dative	fyre	fyre(s)	#			
-food	nominative	fode	fodes	#			
-food	accusative	fode	fodes	#			
-food	genitive	fodes	fode(ne)	#			
-food	dative	fode	fode(s)	#			
-gift	nominative	ȝeft	ȝeftes	#			
-gift	accusative	ȝeft	ȝeftes	#			
-gift	genitive	ȝeftes	ȝefte(ne)	#			
-gift	dative	ȝefte	ȝefte(s)	#			
-glass	nominative	glas	glases	#			
-glass	accusative	glas	glases	#			
-glass	genitive	glases	glase(ne)	#			
-glass	dative	glase	glase(s)	#			
-guard	nominative	ward	wardes	#			
-guard	accusative	ward	wardes	#			
-guard	genitive	wardes	warde(ne)	#			
-guard	dative	warde	warde(s)	#			
-horse	nominative	hors	horses	#			
-horse	accusative	hors	horses	#			
-horse	genitive	horses	horse(ne)	#			
-horse	dative	horse	horse(s)	#			
-livestock	nominative	fe	fes	#			
-livestock	accusative	fe	fes	#			
-livestock	genitive	fees	fee(ne)	#			
-livestock	dative	fee	fee(s)	#			
-love	nominative	loue	loues	#			
-love	accusative	loue	loues	#			
-love	genitive	loues	loue(ne)	#			
-love	dative	loue	loue(s)	#			
-idea	nominative	conceipt	conceiptes	#			
-idea	accusative	conceipt	conceiptes	#			
-idea	genitive	conceiptes	conceipte(ne)	#			
-idea	dative	conceipte	conceipte(s)	#			
-man	nominative	man	manes	#			
-man	accusative	man	manes	#			
-man	genitive	manes	mane(ne)	#			
-man	dative	mane	mane(s)	#			
-money	nominative	moneye	moneyes	#			
-money	accusative	moneye	moneyes	#			
-money	genitive	moneyes	moneye(ne)	#			
-money	dative	moneye	moneye(s)	#			
-monster	nominative	unwiȝt	unwiȝtes	#			
-monster	accusative	unwiȝt	unwiȝtes	#			
-monster	genitive	unwiȝtes	unwiȝte(ne)	#			
-monster	dative	unwiȝte	unwiȝte(s)	#			
-rope	nominative	rap	rapes	#			
-rope	accusative	rap	rapes	#			
-rope	genitive	rapes	rape(ne)	#			
-rope	dative	rape	rape(s)	#			
-size	nominative	mychelnesse	mychelnesses	#			
-size	accusative	mychelnesse	mychelnesses	#			
-size	genitive	mychelnesses	mychelnesse(ne)	#			
-size	dative	mychelnesse	mychelnesse(s)	#			
-son	nominative	sone	sones	#			
-son	accusative	sone	sones	#			
-son	genitive	sones	sone(ne)	#			
-son	dative	sone	sone(s)	#			
-sound	nominative	soun	sounes	#			
-sound	accusative	soun	sounes	#			
-sound	genitive	sounes	soune(ne)	#			
-sound	dative	soune	soune(s)	#			
-warmth	nominative	warmeth	warmethes	#			
-warmth	accusative	warmeth	warmethes	#			
-warmth	genitive	warmethes	warmethe(ne)	#			
-warmth	dative	warmethe	warmethe(s)	#			
-water	nominative	water	wateres	#			
-water	accusative	water	wateres	#			
-water	genitive	wateres	watere(ne)	#			
-water	dative	watere	watere(s)	#			
-way	nominative	we	wes	#			
-way	accusative	we	wes	#			
-way	genitive	wes	we(ne)	#			
-way	dative	we	we(s)	#			
-wind	nominative	winden	windenes	#			
-wind	accusative	winden	windenes	#			
-wind	genitive	windenes	windene(ne)	#			
-wind	dative	windene	windene(s)	#			
-window	nominative	fenestre	fenestres	#			
-window	accusative	fenestre	fenestres	#			
-window	genitive	fenestres	fenestre(ne)	#			
-window	dative	fenestre	fenestre(s)	#			
-woman	nominative	wyf	wyfes	#			
-woman	accusative	wyf	wyfes	#			
-woman	genitive	wyfes	wyfe(ne)	#			
-woman	dative	wyfe	wyfe(s)	#			
-work	nominative	werk	werkes	#			
-work	accusative	werk	werkes	#			
-work	genitive	werkes	werke(ne)	#			
-work	dative	werke	werke(s)	#			
-strong		strong	stronge	#			
-hello		hail	hail	#			
-day	nominative	day	dayes, dawes	#			
-day	accusative	day	dayes, dawes	#			
-day	genitive	dayes	dayes, dawes, dawene	#			
-day	dative	daye1	dawen2	#			
-day	nominative	day	dayes, dawes	#			
-day	accusative	day	dayes, dawes	#			
-day	genitive	dayes	dayes, dawes, dawene	#			
-day	dative	daye1	dawen2	#			
-day	nominative	day	dayes, dawes	#			
-day	accusative	day	dayes, dawes	#			
-day	genitive	dayes	dayes, dawes, dawene	#			
-day	dative	daye1	dawen2	#			
-king	nominative	king	kinges	#			
-king	accusative	king	kinges	#			
-king	genitive	kinges	kinge(ne)	#			
-king	dative	kinge1	kingen2	#			
-worm	nominative	worm	wormes, wormen	#			
-worm	accusative	worm	wormes, wormen	#			
-worm	genitive	wormes	wormes, wormene	#			
-worm	dative	—	—	#			
+*	*	singular	dual	plural	#			
+bird	nominative	brid	briddes	briddes	#			
+bird	accusative	brid	briddes	briddes	#			
+bird	genitive	briddes	briddes	briddes	#			
+bird	dative	bridde	bridde	bridde	#			
+dog	nominative	hound	hounds or houndes	hounds or houndes	#			
+dog	accusative	hound	hounds or houndes	hounds or houndes	#			
+dog	genitive	houndes	hounde	hounde	#			
+dog	dative	hounde	hounden	hounden	#			
+stone	nominative	ston 	stones	stones	#			
+stone	accusative	ston 	stones	stones	#			
+stone	genitive	stones 	stone	stone	#			
+stone	dative	stone 	stonen 	stonen 	#			
+rock	nominative	ston 	stones	stones	#			
+rock	accusative	ston 	stones	stones	#			
+rock	genitive	stones 	stone	stone	#			
+rock	dative	stone 	stonen 	stonen 	#			
+name	nominative	name 	namen	namen	#			
+name	accusative	name 	namen	namen	#			
+name	genitive	namen 	namene	namene	#			
+name	dative	name(n) 	namen 	namen 	#			
+angel	nominative	engel  	engles  	engles  	#			
+angel	accusative	engel  	engles  	engles  	#			
+angel	genitive	engles 	engle   	engle   	#			
+angel	dative	engle  	engle(n)	engle(n)	#			
+foot	nominative	foot	feet	feet	#			
+foot	accusative	foot	feet	feet	#			
+foot	genitive	foote, foot 	footen, feet	footen, feet	#			
+foot	dative	footes 	foote, feet 	foote, feet 	#			
+house	nominative	hous(e)	houses	houses	#			
+house	accusative	hous(e)	houses	houses	#			
+house	genitive	houses	houses	houses	#			
+house	dative	hous(e)	houses	houses	#			
+animal	nominative	der	deres	deres	#			
+animal	accusative	der	deres	deres	#			
+animal	genitive	deres	dere(ne)	dere(ne)	#			
+animal	dative	dere	dere(s)	dere(s)	#			
+attention	nominative	advertence	advertences	advertences	#			
+attention	accusative	advertence	advertences	advertences	#			
+attention	genitive	advertences	advertence(ne)	advertence(ne)	#			
+attention	dative	advertence	advertence(s)	advertence(s)	#			
+boat	nominative	boot	bootes	bootes	#			
+boat	accusative	boot	bootes	bootes	#			
+boat	genitive	bootes	boote(ne)	boote(ne)	#			
+boat	dative	boote	boote(s)	boote(s)	#			
+book	nominative	bok	bokes	bokes	#			
+book	accusative	bok	bokes	bokes	#			
+book	genitive	bokes	boke(ne)	boke(ne)	#			
+book	dative	boke	boke(s)	boke(s)	#			
+brother	nominative	brethir	brethires	brethires	#			
+brother	accusative	brethir	brethires	brethires	#			
+brother	genitive	brethires	brethire(ne)	brethire(ne)	#			
+brother	dative	brethire	brethire(s)	brethire(s)	#			
+bug	nominative	wirm	wirmes	wirmes	#			
+bug	accusative	wirm	wirmes	wirmes	#			
+bug	genitive	wirmes	wirme(ne)	wirme(ne)	#			
+bug	dative	wirme	wirme(s)	wirme(s)	#			
+clothing	nominative	cloth	clothes	clothes	#			
+clothing	accusative	cloth	clothes	clothes	#			
+clothing	genitive	clothes	clothe(ne)	clothe(ne)	#			
+clothing	dative	clothe	clothe(s)	clothe(s)	#			
+daughter	nominative	dohter	dohteres	dohteres	#			
+daughter	accusative	dohter	dohteres	dohteres	#			
+daughter	genitive	dohteres	dohtere(ne)	dohtere(ne)	#			
+daughter	dative	dohtere	dohtere(s)	dohtere(s)	#			
+#dog	nominative	dogge	dogges	dogges	#			
+#dog	accusative	dogge	dogges	dogges	#			
+#dog	genitive	dogges	dogge(ne)	dogge(ne)	#			
+#dog	dative	dogge	dogge(s)	dogge(s)	#			
+door	nominative	dore	dores	dores	#			
+door	accusative	dore	dores	dores	#			
+door	genitive	dores	dore(ne)	dore(ne)	#			
+door	dative	dore	dore(s)	dore(s)	#			
+drum	nominative	tabour	taboures	taboures	#			
+drum	accusative	tabour	taboures	taboures	#			
+drum	genitive	taboures	taboure(ne)	taboure(ne)	#			
+drum	dative	taboure	taboure(s)	taboure(s)	#			
+enemy	nominative	feond	feondes	feondes	#			
+enemy	accusative	feond	feondes	feondes	#			
+enemy	genitive	feondes	feonde(ne)	feonde(ne)	#			
+enemy	dative	feonde	feonde(s)	feonde(s)	#			
+fire	nominative	fyr	fyres	fyres	#			
+fire	accusative	fyr	fyres	fyres	#			
+fire	genitive	fyres	fyre(ne)	fyre(ne)	#			
+fire	dative	fyre	fyre(s)	fyre(s)	#			
+food	nominative	fode	fodes	fodes	#			
+food	accusative	fode	fodes	fodes	#			
+food	genitive	fodes	fode(ne)	fode(ne)	#			
+food	dative	fode	fode(s)	fode(s)	#			
+gift	nominative	ȝeft	ȝeftes	ȝeftes	#			
+gift	accusative	ȝeft	ȝeftes	ȝeftes	#			
+gift	genitive	ȝeftes	ȝefte(ne)	ȝefte(ne)	#			
+gift	dative	ȝefte	ȝefte(s)	ȝefte(s)	#			
+glass	nominative	glas	glases	glases	#			
+glass	accusative	glas	glases	glases	#			
+glass	genitive	glases	glase(ne)	glase(ne)	#			
+glass	dative	glase	glase(s)	glase(s)	#			
+guard	nominative	ward	wardes	wardes	#			
+guard	accusative	ward	wardes	wardes	#			
+guard	genitive	wardes	warde(ne)	warde(ne)	#			
+guard	dative	warde	warde(s)	warde(s)	#			
+horse	nominative	hors	horses	horses	#			
+horse	accusative	hors	horses	horses	#			
+horse	genitive	horses	horse(ne)	horse(ne)	#			
+horse	dative	horse	horse(s)	horse(s)	#			
+livestock	nominative	fe	fes	fes	#			
+livestock	accusative	fe	fes	fes	#			
+livestock	genitive	fees	fee(ne)	fee(ne)	#			
+livestock	dative	fee	fee(s)	fee(s)	#			
+love	nominative	loue	loues	loues	#			
+love	accusative	loue	loues	loues	#			
+love	genitive	loues	loue(ne)	loue(ne)	#			
+love	dative	loue	loue(s)	loue(s)	#			
+idea	nominative	conceipt	conceiptes	conceiptes	#			
+idea	accusative	conceipt	conceiptes	conceiptes	#			
+idea	genitive	conceiptes	conceipte(ne)	conceipte(ne)	#			
+idea	dative	conceipte	conceipte(s)	conceipte(s)	#			
+man	nominative	man	manes	manes	#			
+man	accusative	man	manes	manes	#			
+man	genitive	manes	mane(ne)	mane(ne)	#			
+man	dative	mane	mane(s)	mane(s)	#			
+money	nominative	moneye	moneyes	moneyes	#			
+money	accusative	moneye	moneyes	moneyes	#			
+money	genitive	moneyes	moneye(ne)	moneye(ne)	#			
+money	dative	moneye	moneye(s)	moneye(s)	#			
+monster	nominative	unwiȝt	unwiȝtes	unwiȝtes	#			
+monster	accusative	unwiȝt	unwiȝtes	unwiȝtes	#			
+monster	genitive	unwiȝtes	unwiȝte(ne)	unwiȝte(ne)	#			
+monster	dative	unwiȝte	unwiȝte(s)	unwiȝte(s)	#			
+rope	nominative	rap	rapes	rapes	#			
+rope	accusative	rap	rapes	rapes	#			
+rope	genitive	rapes	rape(ne)	rape(ne)	#			
+rope	dative	rape	rape(s)	rape(s)	#			
+size	nominative	mychelnesse	mychelnesses	mychelnesses	#			
+size	accusative	mychelnesse	mychelnesses	mychelnesses	#			
+size	genitive	mychelnesses	mychelnesse(ne)	mychelnesse(ne)	#			
+size	dative	mychelnesse	mychelnesse(s)	mychelnesse(s)	#			
+son	nominative	sone	sones	sones	#			
+son	accusative	sone	sones	sones	#			
+son	genitive	sones	sone(ne)	sone(ne)	#			
+son	dative	sone	sone(s)	sone(s)	#			
+sound	nominative	soun	sounes	sounes	#			
+sound	accusative	soun	sounes	sounes	#			
+sound	genitive	sounes	soune(ne)	soune(ne)	#			
+sound	dative	soune	soune(s)	soune(s)	#			
+warmth	nominative	warmeth	warmethes	warmethes	#			
+warmth	accusative	warmeth	warmethes	warmethes	#			
+warmth	genitive	warmethes	warmethe(ne)	warmethe(ne)	#			
+warmth	dative	warmethe	warmethe(s)	warmethe(s)	#			
+water	nominative	water	wateres	wateres	#			
+water	accusative	water	wateres	wateres	#			
+water	genitive	wateres	watere(ne)	watere(ne)	#			
+water	dative	watere	watere(s)	watere(s)	#			
+way	nominative	we	wes	wes	#			
+way	accusative	we	wes	wes	#			
+way	genitive	wes	we(ne)	we(ne)	#			
+way	dative	we	we(s)	we(s)	#			
+wind	nominative	winden	windenes	windenes	#			
+wind	accusative	winden	windenes	windenes	#			
+wind	genitive	windenes	windene(ne)	windene(ne)	#			
+wind	dative	windene	windene(s)	windene(s)	#			
+window	nominative	fenestre	fenestres	fenestres	#			
+window	accusative	fenestre	fenestres	fenestres	#			
+window	genitive	fenestres	fenestre(ne)	fenestre(ne)	#			
+window	dative	fenestre	fenestre(s)	fenestre(s)	#			
+woman	nominative	wyf	wyfes	wyfes	#			
+woman	accusative	wyf	wyfes	wyfes	#			
+woman	genitive	wyfes	wyfe(ne)	wyfe(ne)	#			
+woman	dative	wyfe	wyfe(s)	wyfe(s)	#			
+work	nominative	werk	werkes	werkes	#			
+work	accusative	werk	werkes	werkes	#			
+work	genitive	werkes	werke(ne)	werke(ne)	#			
+work	dative	werke	werke(s)	werke(s)	#			
+strong		strong	stronge	stronge	#			
+hello		hail	hail	hail	#			
+day	nominative	day	dayes, dawes	dayes, dawes	#			
+day	accusative	day	dayes, dawes	dayes, dawes	#			
+day	genitive	dayes	dayes, dawes, dawene	dayes, dawes, dawene	#			
+day	dative	daye1	dawen2	dawen2	#			
+day	nominative	day	dayes, dawes	dayes, dawes	#			
+day	accusative	day	dayes, dawes	dayes, dawes	#			
+day	genitive	dayes	dayes, dawes, dawene	dayes, dawes, dawene	#			
+day	dative	daye1	dawen2	dawen2	#			
+day	nominative	day	dayes, dawes	dayes, dawes	#			
+day	accusative	day	dayes, dawes	dayes, dawes	#			
+day	genitive	dayes	dayes, dawes, dawene	dayes, dawes, dawene	#			
+day	dative	daye1	dawen2	dawen2	#			
+king	nominative	king	kinges	kinges	#			
+king	accusative	king	kinges	kinges	#			
+king	genitive	kinges	kinge(ne)	kinge(ne)	#			
+king	dative	kinge1	kingen2	kingen2	#			
+worm	nominative	worm	wormes, wormen	wormes, wormen	#			
+worm	accusative	worm	wormes, wormen	wormes, wormen	#			
+worm	genitive	wormes	wormes, wormene	wormes, wormene	#			
+worm	dative	—	—	—	#			

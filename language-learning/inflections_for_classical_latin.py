@@ -230,6 +230,7 @@ subjectivity_person_blacklist = parse.termmask(
     'subjectivity person',
     '''
     addressee  3
+    addressee  1
     ''')
 
 conjugation_subject_traversal = parse.termpath(
