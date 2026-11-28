@@ -1,115 +1,171 @@
-*	*	*	masculine	masculine	neuter	neuter	feminine	feminine				
-*	*	*	singular	singular	singular	singular	singular	singular	plural	plural		
-*	*	*	cyrillic	latin	cyrillic	latin	cyrillic	latin	cyrillic	latin		
-first	nominative		пе́рвый	pérvyj	пе́рвое	pérvoje	пе́рвая	pérvaja	пе́рвые	pérvyje		
-first	genitive		пе́рвого	pérvovo	пе́рвого	pérvovo	пе́рвой	pérvoj	пе́рвых	pérvyx		
-first	dative		пе́рвому	pérvomu	пе́рвому	pérvomu	пе́рвой	pérvoj	пе́рвым	pérvym		
-first	accusative	animate	пе́рвого	pérvovo	пе́рвое	pérvoje	пе́рвую	pérvuju	пе́рвых	pérvyx		
-first	accusative	inanimate	пе́рвый	pérvyj	пе́рвое	pérvoje	пе́рвую	pérvuju	пе́рвые	pérvyje		
-first	instrumental		пе́рвым	pérvym	пе́рвым	pérvym	пе́рвой, пе́рвою, u	pérvoj, pérvoju	пе́рвыми	pérvymi		
-first	prepositional		пе́рвом	pérvom	пе́рвом	pérvom	пе́рвой	pérvoj	пе́рвых	pérvyx		
-second	nominative		второ́й	vtorój	второ́е	vtoróje	втора́я	vtorája	вторы́е	vtorýje		
-second	genitive		второ́го	vtoróvo	второ́го	vtoróvo	второ́й	vtorój	вторы́х	vtorýx		
-second	dative		второ́му	vtorómu	второ́му	vtorómu	второ́й	vtorój	вторы́м	vtorým		
-second	accusative	animate	второ́го	vtoróvo	второ́е	vtoróje	втору́ю	vtorúju	вторы́х	vtorýx		
-second	accusative	inanimate	второ́й	vtorój	второ́е	vtoróje	втору́ю	vtorúju	вторы́е	vtorýje		
-second	instrumental		вторы́м	vtorým	вторы́м	vtorým	второ́й, второ́ю, u	vtorój, vtoróju	вторы́ми	vtorými		
-second	prepositional		второ́м	vtoróm	второ́м	vtoróm	второ́й	vtorój	вторы́х	vtorýx		
-third	nominative		тре́тий	trétij	тре́тье	trétʹje	тре́тья	trétʹja	тре́тьи	trétʹi		
-third	genitive		тре́тьего	trétʹjevo	тре́тьего	trétʹjevo	тре́тьей	trétʹjej	тре́тьих	trétʹix		
-third	dative		тре́тьему	trétʹjemu	тре́тьему	trétʹjemu	тре́тьей	trétʹjej	тре́тьим	trétʹim		
-third	accusative	animate	тре́тьего	trétʹjevo	тре́тье	trétʹje	тре́тью	trétʹju	тре́тьих	trétʹix		
-third	accusative	inanimate	тре́тий	trétij	тре́тье	trétʹje	тре́тью	trétʹju	тре́тьи	trétʹi		
-third	instrumental		тре́тьим	trétʹim	тре́тьим	trétʹim	тре́тьей, тре́тьею, u	trétʹjej, trétʹjeju	тре́тьими	trétʹimi		
-third	prepositional		тре́тьем	trétʹjem	тре́тьем	trétʹjem	тре́тьей	trétʹjej	тре́тьих	trétʹix		
-large	nominative		большо́й	bolʹšój	большо́е	bolʹšóje	больша́я	bolʹšája	больши́е	bolʹšíje		
-large	genitive		большо́го	bolʹšóvo	большо́го	bolʹšóvo	большо́й	bolʹšój	больши́х	bolʹšíx		
-large	dative		большо́му	bolʹšómu	большо́му	bolʹšómu	большо́й	bolʹšój	больши́м	bolʹším		
-large	accusative	animate	большо́го	bolʹšóvo	большо́е	bolʹšóje	большу́ю	bolʹšúju	больши́х	bolʹšíx		
-large	accusative	inanimate	большо́й	bolʹšój	большо́е	bolʹšóje	большу́ю	bolʹšúju	больши́е	bolʹšíje		
-large	instrumental		больши́м	bolʹším	больши́м	bolʹším	большо́й, большо́ю, u	bolʹšój, bolʹšóju	больши́ми	bolʹšími		
-large	prepositional		большо́м	bolʹšóm	большо́м	bolʹšóm	большо́й	bolʹšój	больши́х	bolʹšíx		
-small	nominative		ма́лый	mályj	ма́лое	máloje	ма́лая	málaja	ма́лые	mályje		
-small	genitive		ма́лого	málovo	ма́лого	málovo	ма́лой	máloj	ма́лых	mályx		
-small	dative		ма́лому	málomu	ма́лому	málomu	ма́лой	máloj	ма́лым	málym		
-small	accusative	animate	ма́лого	málovo	ма́лое	máloje	ма́лую	máluju	ма́лых	mályx		
-small	accusative	inanimate	ма́лый	mályj	ма́лое	máloje	ма́лую	máluju	ма́лые	mályje		
-small	instrumental		ма́лым	málym	ма́лым	málym	ма́лой, ма́лою, u	máloj, máloju	ма́лыми	málymi		
-small	prepositional		ма́лом	málom	ма́лом	málom	ма́лой	máloj	ма́лых	mályx		
-little	nominative		ма́лый	mályj	ма́лое	máloje	ма́лая	málaja	ма́лые	mályje		
-little	genitive		ма́лого	málovo	ма́лого	málovo	ма́лой	máloj	ма́лых	mályx		
-little	dative		ма́лому	málomu	ма́лому	málomu	ма́лой	máloj	ма́лым	málym		
-little	accusative	animate	ма́лого	málovo	ма́лое	máloje	ма́лую	máluju	ма́лых	mályx		
-little	accusative	inanimate	ма́лый	mályj	ма́лое	máloje	ма́лую	máluju	ма́лые	mályje		
-little	instrumental		ма́лым	málym	ма́лым	málym	ма́лой, ма́лою, u	máloj, máloju	ма́лыми	málymi		
-little	prepositional		ма́лом	málom	ма́лом	málom	ма́лой	máloj	ма́лых	mályx		
-loud	nominative		шу́мный	šúmnyj	шу́мное	šúmnoje	шу́мная	šúmnaja	шу́мные	šúmnyje		
-loud	genitive		шу́много	šúmnovo	шу́много	šúmnovo	шу́мной	šúmnoj	шу́мных	šúmnyx		
-loud	dative		шу́мному	šúmnomu	шу́мному	šúmnomu	шу́мной	šúmnoj	шу́мным	šúmnym		
-loud	accusative	animate	шу́много	šúmnovo	шу́мное	šúmnoje	шу́мную	šúmnuju	шу́мных	šúmnyx		
-loud	accusative	inanimate	шу́мный	šúmnyj	шу́мное	šúmnoje	шу́мную	šúmnuju	шу́мные	šúmnyje		
-loud	instrumental		шу́мным	šúmnym	шу́мным	šúmnym	шу́мной, шу́мною, u	šúmnoj, šúmnoju	шу́мными	šúmnymi		
-loud	prepositional		шу́мном	šúmnom	шу́мном	šúmnom	шу́мной	šúmnoj	шу́мных	šúmnyx		
-strong	nominative		си́льный	sílʹnyj	си́льное	sílʹnoje	си́льная	sílʹnaja	си́льные	sílʹnyje		
-strong	genitive		си́льного	sílʹnovo	си́льного	sílʹnovo	си́льной	sílʹnoj	си́льных	sílʹnyx		
-strong	dative		си́льному	sílʹnomu	си́льному	sílʹnomu	си́льной	sílʹnoj	си́льным	sílʹnym		
-strong	accusative	animate	си́льного	sílʹnovo	си́льное	sílʹnoje	си́льную	sílʹnuju	си́льных	sílʹnyx		
-strong	accusative	inanimate	си́льный	sílʹnyj	си́льное	sílʹnoje	си́льную	sílʹnuju	си́льные	sílʹnyje		
-strong	instrumental		си́льным	sílʹnym	си́льным	sílʹnym	си́льной, си́льною, u	sílʹnoj, sílʹnoju	си́льными	sílʹnymi		
-strong	prepositional		си́льном	sílʹnom	си́льном	sílʹnom	си́льной	sílʹnoj	си́льных	sílʹnyx		
-well	nominative		здоро́вый	zdoróvyj	здоро́вое	zdoróvoje	здоро́вая	zdoróvaja	здоро́вые	zdoróvyje		
-well	genitive		здоро́вого	zdoróvovo	здоро́вого	zdoróvovo	здоро́вой	zdoróvoj	здоро́вых	zdoróvyx		
-well	dative		здоро́вому	zdoróvomu	здоро́вому	zdoróvomu	здоро́вой	zdoróvoj	здоро́вым	zdoróvym		
-well	accusative	animate	здоро́вого	zdoróvovo	здоро́вое	zdoróvoje	здоро́вую	zdoróvuju	здоро́вых	zdoróvyx		
-well	accusative	inanimate	здоро́вый	zdoróvyj	здоро́вое	zdoróvoje	здоро́вую	zdoróvuju	здоро́вые	zdoróvyje		
-well	instrumental		здоро́вым	zdoróvym	здоро́вым	zdoróvym	здоро́вой, здоро́вою, u	zdoróvoj, zdoróvoju	здоро́выми	zdoróvymi		
-well	prepositional		здоро́вом	zdoróvom	здоро́вом	zdoróvom	здоро́вой	zdoróvoj	здоро́вых	zdoróvyx		
-bad	nominative		плохо́й	ploxój	плохо́е	ploxóje	плоха́я	ploxája	плохи́е	ploxíje		
-bad	genitive		плохо́го	ploxóvo	плохо́го	ploxóvo	плохо́й	ploxój	плохи́х	ploxíx		
-bad	dative		плохо́му	ploxómu	плохо́му	ploxómu	плохо́й	ploxój	плохи́м	ploxím		
-bad	accusative	animate	плохо́го	ploxóvo	плохо́е	ploxóje	плоху́ю	ploxúju	плохи́х	ploxíx		
-bad	accusative	inanimate	плохо́й	ploxój	плохо́е	ploxóje	плоху́ю	ploxúju	плохи́е	ploxíje		
-bad	instrumental		плохи́м	ploxím	плохи́м	ploxím	плохо́й, плохо́ю, u	ploxój, ploxóju	плохи́ми	ploxími		
-bad	prepositional		плохо́м	ploxóm	плохо́м	ploxóm	плохо́й	ploxój	плохи́х	ploxíx		
-angry	nominative		серди́тый	serdítyj	серди́тое	serdítoje	серди́тая	serdítaja	серди́тые	serdítyje		
-angry	genitive		серди́того	serdítovo	серди́того	serdítovo	серди́той	serdítoj	серди́тых	serdítyx		
-angry	dative		серди́тому	serdítomu	серди́тому	serdítomu	серди́той	serdítoj	серди́тым	serdítym		
-angry	accusative	animate	серди́того	serdítovo	серди́тое	serdítoje	серди́тую	serdítuju	серди́тых	serdítyx		
-angry	accusative	inanimate	серди́тый	serdítyj	серди́тое	serdítoje	серди́тую	serdítuju	серди́тые	serdítyje		
-angry	instrumental		серди́тым	serdítym	серди́тым	serdítym	серди́той, серди́тою, u	serdítoj, serdítoju	серди́тыми	serdítymi		
-angry	prepositional		серди́том	serdítom	серди́том	serdítom	серди́той	serdítoj	серди́тых	serdítyx		
-happy	nominative		счастли́вый	sčastlívyj	счастли́вое	sčastlívoje	счастли́вая	sčastlívaja	счастли́вые	sčastlívyje		
-happy	genitive		счастли́вого	sčastlívovo	счастли́вого	sčastlívovo	счастли́вой	sčastlívoj	счастли́вых	sčastlívyx		
-happy	dative		счастли́вому	sčastlívomu	счастли́вому	sčastlívomu	счастли́вой	sčastlívoj	счастли́вым	sčastlívym		
-happy	accusative	animate	счастли́вого	sčastlívovo	счастли́вое	sčastlívoje	счастли́вую	sčastlívuju	счастли́вых	sčastlívyx		
-happy	accusative	inanimate	счастли́вый	sčastlívyj	счастли́вое	sčastlívoje	счастли́вую	sčastlívuju	счастли́вые	sčastlívyje		
-happy	instrumental		счастли́вым	sčastlívym	счастли́вым	sčastlívym	счастли́вой, счастли́вою, u	sčastlívoj, sčastlívoju	счастли́выми	sčastlívymi		
-happy	prepositional		счастли́вом	sčastlívom	счастли́вом	sčastlívom	счастли́вой	sčastlívoj	счастли́вых	sčastlívyx		
-sad	nominative		гру́стный	grústnyj	гру́стное	grústnoje	гру́стная	grústnaja	гру́стные	grústnyje		
-sad	genitive		гру́стного	grústnovo	гру́стного	grústnovo	гру́стной	grústnoj	гру́стных	grústnyx		
-sad	dative		гру́стному	grústnomu	гру́стному	grústnomu	гру́стной	grústnoj	гру́стным	grústnym		
-sad	accusative	animate	гру́стного	grústnovo	гру́стное	grústnoje	гру́стную	grústnuju	гру́стных	grústnyx		
-sad	accusative	inanimate	гру́стный	grústnyj	гру́стное	grústnoje	гру́стную	grústnuju	гру́стные	grústnyje		
-sad	instrumental		гру́стным	grústnym	гру́стным	grústnym	гру́стной, гру́стною, u	grústnoj, grústnoju	гру́стными	grústnymi		
-sad	prepositional		гру́стном	grústnom	гру́стном	grústnom	гру́стной	grústnoj	гру́стных	grústnyx		
-bright	nominative		я́ркий	járkij	я́ркое	járkoje	я́ркая	járkaja	я́ркие	járkije		
-bright	genitive		я́ркого	járkovo	я́ркого	járkovo	я́ркой	járkoj	я́рких	járkix		
-bright	dative		я́ркому	járkomu	я́ркому	járkomu	я́ркой	járkoj	я́рким	járkim		
-bright	accusative	animate	я́ркого	járkovo	я́ркое	járkoje	я́ркую	járkuju	я́рких	járkix		
-bright	accusative	inanimate	я́ркий	járkij	я́ркое	járkoje	я́ркую	járkuju	я́ркие	járkije		
-bright	instrumental		я́рким	járkim	я́рким	járkim	я́ркой, я́ркою, u	járkoj, járkoju	я́ркими	járkimi		
-bright	prepositional		я́рком	járkom	я́рком	járkom	я́ркой	járkoj	я́рких	járkix		
-hurt	nominative		ра́неный	ránenyj	ра́неное	ránenoje	ра́неная	ránenaja	ра́неные	ránenyje		
-hurt	genitive		ра́неного	ránenovo	ра́неного	ránenovo	ра́неной	ránenoj	ра́неных	ránenyx		
-hurt	dative		ра́неному	ránenomu	ра́неному	ránenomu	ра́неной	ránenoj	ра́неным	ránenym		
-hurt	accusative	animate	ра́неного	ránenovo	ра́неное	ránenoje	ра́неную	ránenuju	ра́неных	ránenyx		
-hurt	accusative	inanimate	ра́неный	ránenyj	ра́неное	ránenoje	ра́неную	ránenuju	ра́неные	ránenyje		
-hurt	instrumental		ра́неным	ránenym	ра́неным	ránenym	ра́неной, ра́неною, u	ránenoj, ránenoju	ра́неными	ránenymi		
-hurt	prepositional		ра́неном	ránenom	ра́неном	ránenom	ра́неной	ránenoj	ра́неных	ránenyx		
-red	nominative		кра́сный	krásnyj	кра́сное	krásnoje	кра́сная	krásnaja	кра́сные	krásnyje		
-red	genitive		кра́сного	krásnovo	кра́сного	krásnovo	кра́сной	krásnoj	кра́сных	krásnyx		
-red	dative		кра́сному	krásnomu	кра́сному	krásnomu	кра́сной	krásnoj	кра́сным	krásnym		
-red	accusative	animate	кра́сного	krásnovo	кра́сное	krásnoje	кра́сную	krásnuju	кра́сных	krásnyx		
-red	accusative	inanimate	кра́сный	krásnyj	кра́сное	krásnoje	кра́сную	krásnuju	кра́сные	krásnyje		
-red	instrumental		кра́сным	krásnym	кра́сным	krásnym	кра́сной, кра́сною, u	krásnoj, krásnoju	кра́сными	krásnymi		
-red	prepositional		кра́сном	krásnom	кра́сном	krásnom	кра́сной	krásnoj	кра́сных	krásnyx		
+*	*	*	masculine	masculine	neuter	neuter	feminine	feminine													
+*	*	*	singular	singular	singular	singular	singular	singular	plural	plural											
+*	*	*	cyrillic	latin	cyrillic	latin	cyrillic	latin	cyrillic	latin											
+first	nominative		пе́рвый	pérvyj	пе́рвое	pérvoje	пе́рвая	pérvaja	пе́рвые	pérvyje											
+first	vocative		пе́рвый	pérvyj	пе́рвое	pérvoje	пе́рвая	pérvaja	пе́рвые	pérvyje											
+first	genitive		пе́рвого	pérvovo	пе́рвого	pérvovo	пе́рвой	pérvoj	пе́рвых	pérvyx											
+first	dative		пе́рвому	pérvomu	пе́рвому	pérvomu	пе́рвой	pérvoj	пе́рвым	pérvym											
+first	accusative	animate	пе́рвого	pérvovo	пе́рвое	pérvoje	пе́рвую	pérvuju	пе́рвых	pérvyx											
+first	accusative	inanimate	пе́рвый	pérvyj	пе́рвое	pérvoje	пе́рвую	pérvuju	пе́рвые	pérvyje											
+first	instrumental		пе́рвым	pérvym	пе́рвым	pérvym	пе́рвой, пе́рвою, u	pérvoj, pérvoju	пе́рвыми	pérvymi											
+first	prepositional		пе́рвом	pérvom	пе́рвом	pérvom	пе́рвой	pérvoj	пе́рвых	pérvyx											
+second	nominative		второ́й	vtorój	второ́е	vtoróje	втора́я	vtorája	вторы́е	vtorýje											
+second	vocative		второ́й	vtorój	второ́е	vtoróje	втора́я	vtorája	вторы́е	vtorýje											
+second	genitive		второ́го	vtoróvo	второ́го	vtoróvo	второ́й	vtorój	вторы́х	vtorýx											
+second	dative		второ́му	vtorómu	второ́му	vtorómu	второ́й	vtorój	вторы́м	vtorým											
+second	accusative	animate	второ́го	vtoróvo	второ́е	vtoróje	втору́ю	vtorúju	вторы́х	vtorýx											
+second	accusative	inanimate	второ́й	vtorój	второ́е	vtoróje	втору́ю	vtorúju	вторы́е	vtorýje											
+second	instrumental		вторы́м	vtorým	вторы́м	vtorým	второ́й, второ́ю, u	vtorój, vtoróju	вторы́ми	vtorými											
+second	prepositional		второ́м	vtoróm	второ́м	vtoróm	второ́й	vtorój	вторы́х	vtorýx											
+third	nominative		тре́тий	trétij	тре́тье	trétʹje	тре́тья	trétʹja	тре́тьи	trétʹi											
+third	vocative		тре́тий	trétij	тре́тье	trétʹje	тре́тья	trétʹja	тре́тьи	trétʹi											
+third	genitive		тре́тьего	trétʹjevo	тре́тьего	trétʹjevo	тре́тьей	trétʹjej	тре́тьих	trétʹix											
+third	dative		тре́тьему	trétʹjemu	тре́тьему	trétʹjemu	тре́тьей	trétʹjej	тре́тьим	trétʹim											
+third	accusative	animate	тре́тьего	trétʹjevo	тре́тье	trétʹje	тре́тью	trétʹju	тре́тьих	trétʹix											
+third	accusative	inanimate	тре́тий	trétij	тре́тье	trétʹje	тре́тью	trétʹju	тре́тьи	trétʹi											
+third	instrumental		тре́тьим	trétʹim	тре́тьим	trétʹim	тре́тьей, тре́тьею, u	trétʹjej, trétʹjeju	тре́тьими	trétʹimi											
+third	prepositional		тре́тьем	trétʹjem	тре́тьем	trétʹjem	тре́тьей	trétʹjej	тре́тьих	trétʹix											
+large	nominative		большо́й	bolʹšój	большо́е	bolʹšóje	больша́я	bolʹšája	больши́е	bolʹšíje											
+large	vocative		большо́й	bolʹšój	большо́е	bolʹšóje	больша́я	bolʹšája	больши́е	bolʹšíje											
+large	genitive		большо́го	bolʹšóvo	большо́го	bolʹšóvo	большо́й	bolʹšój	больши́х	bolʹšíx											
+large	dative		большо́му	bolʹšómu	большо́му	bolʹšómu	большо́й	bolʹšój	больши́м	bolʹším											
+large	accusative	animate	большо́го	bolʹšóvo	большо́е	bolʹšóje	большу́ю	bolʹšúju	больши́х	bolʹšíx											
+large	accusative	inanimate	большо́й	bolʹšój	большо́е	bolʹšóje	большу́ю	bolʹšúju	больши́е	bolʹšíje											
+large	instrumental		больши́м	bolʹším	больши́м	bolʹším	большо́й, большо́ю, u	bolʹšój, bolʹšóju	больши́ми	bolʹšími											
+large	prepositional		большо́м	bolʹšóm	большо́м	bolʹšóm	большо́й	bolʹšój	больши́х	bolʹšíx											
+small	nominative		ма́лый	mályj	ма́лое	máloje	ма́лая	málaja	ма́лые	mályje											
+small	vocative		ма́лый	mályj	ма́лое	máloje	ма́лая	málaja	ма́лые	mályje											
+small	genitive		ма́лого	málovo	ма́лого	málovo	ма́лой	máloj	ма́лых	mályx											
+small	dative		ма́лому	málomu	ма́лому	málomu	ма́лой	máloj	ма́лым	málym											
+small	accusative	animate	ма́лого	málovo	ма́лое	máloje	ма́лую	máluju	ма́лых	mályx											
+small	accusative	inanimate	ма́лый	mályj	ма́лое	máloje	ма́лую	máluju	ма́лые	mályje											
+small	instrumental		ма́лым	málym	ма́лым	málym	ма́лой, ма́лою, u	máloj, máloju	ма́лыми	málymi											
+small	prepositional		ма́лом	málom	ма́лом	málom	ма́лой	máloj	ма́лых	mályx											
+little	nominative		ма́лый	mályj	ма́лое	máloje	ма́лая	málaja	ма́лые	mályje											
+little	vocative		ма́лый	mályj	ма́лое	máloje	ма́лая	málaja	ма́лые	mályje											
+little	genitive		ма́лого	málovo	ма́лого	málovo	ма́лой	máloj	ма́лых	mályx											
+little	dative		ма́лому	málomu	ма́лому	málomu	ма́лой	máloj	ма́лым	málym											
+little	accusative	animate	ма́лого	málovo	ма́лое	máloje	ма́лую	máluju	ма́лых	mályx											
+little	accusative	inanimate	ма́лый	mályj	ма́лое	máloje	ма́лую	máluju	ма́лые	mályje											
+little	instrumental		ма́лым	málym	ма́лым	málym	ма́лой, ма́лою, u	máloj, máloju	ма́лыми	málymi											
+little	prepositional		ма́лом	málom	ма́лом	málom	ма́лой	máloj	ма́лых	mályx											
+loud	nominative		шу́мный	šúmnyj	шу́мное	šúmnoje	шу́мная	šúmnaja	шу́мные	šúmnyje											
+loud	vocative		шу́мный	šúmnyj	шу́мное	šúmnoje	шу́мная	šúmnaja	шу́мные	šúmnyje											
+loud	genitive		шу́много	šúmnovo	шу́много	šúmnovo	шу́мной	šúmnoj	шу́мных	šúmnyx											
+loud	dative		шу́мному	šúmnomu	шу́мному	šúmnomu	шу́мной	šúmnoj	шу́мным	šúmnym											
+loud	accusative	animate	шу́много	šúmnovo	шу́мное	šúmnoje	шу́мную	šúmnuju	шу́мных	šúmnyx											
+loud	accusative	inanimate	шу́мный	šúmnyj	шу́мное	šúmnoje	шу́мную	šúmnuju	шу́мные	šúmnyje											
+loud	instrumental		шу́мным	šúmnym	шу́мным	šúmnym	шу́мной, шу́мною, u	šúmnoj, šúmnoju	шу́мными	šúmnymi											
+loud	prepositional		шу́мном	šúmnom	шу́мном	šúmnom	шу́мной	šúmnoj	шу́мных	šúmnyx											
+strong	nominative		си́льный	sílʹnyj	си́льное	sílʹnoje	си́льная	sílʹnaja	си́льные	sílʹnyje											
+strong	vocative		си́льный	sílʹnyj	си́льное	sílʹnoje	си́льная	sílʹnaja	си́льные	sílʹnyje											
+strong	genitive		си́льного	sílʹnovo	си́льного	sílʹnovo	си́льной	sílʹnoj	си́льных	sílʹnyx											
+strong	dative		си́льному	sílʹnomu	си́льному	sílʹnomu	си́льной	sílʹnoj	си́льным	sílʹnym											
+strong	accusative	animate	си́льного	sílʹnovo	си́льное	sílʹnoje	си́льную	sílʹnuju	си́льных	sílʹnyx											
+strong	accusative	inanimate	си́льный	sílʹnyj	си́льное	sílʹnoje	си́льную	sílʹnuju	си́льные	sílʹnyje											
+strong	instrumental		си́льным	sílʹnym	си́льным	sílʹnym	си́льной, си́льною, u	sílʹnoj, sílʹnoju	си́льными	sílʹnymi											
+strong	prepositional		си́льном	sílʹnom	си́льном	sílʹnom	си́льной	sílʹnoj	си́льных	sílʹnyx											
+well	nominative		здоро́вый	zdoróvyj	здоро́вое	zdoróvoje	здоро́вая	zdoróvaja	здоро́вые	zdoróvyje											
+well	vocative		здоро́вый	zdoróvyj	здоро́вое	zdoróvoje	здоро́вая	zdoróvaja	здоро́вые	zdoróvyje											
+well	genitive		здоро́вого	zdoróvovo	здоро́вого	zdoróvovo	здоро́вой	zdoróvoj	здоро́вых	zdoróvyx											
+well	dative		здоро́вому	zdoróvomu	здоро́вому	zdoróvomu	здоро́вой	zdoróvoj	здоро́вым	zdoróvym											
+well	accusative	animate	здоро́вого	zdoróvovo	здоро́вое	zdoróvoje	здоро́вую	zdoróvuju	здоро́вых	zdoróvyx											
+well	accusative	inanimate	здоро́вый	zdoróvyj	здоро́вое	zdoróvoje	здоро́вую	zdoróvuju	здоро́вые	zdoróvyje											
+well	instrumental		здоро́вым	zdoróvym	здоро́вым	zdoróvym	здоро́вой, здоро́вою, u	zdoróvoj, zdoróvoju	здоро́выми	zdoróvymi											
+well	prepositional		здоро́вом	zdoróvom	здоро́вом	zdoróvom	здоро́вой	zdoróvoj	здоро́вых	zdoróvyx											
+bad	nominative		плохо́й	ploxój	плохо́е	ploxóje	плоха́я	ploxája	плохи́е	ploxíje											
+bad	vocative		плохо́й	ploxój	плохо́е	ploxóje	плоха́я	ploxája	плохи́е	ploxíje											
+bad	genitive		плохо́го	ploxóvo	плохо́го	ploxóvo	плохо́й	ploxój	плохи́х	ploxíx											
+bad	dative		плохо́му	ploxómu	плохо́му	ploxómu	плохо́й	ploxój	плохи́м	ploxím											
+bad	accusative	animate	плохо́го	ploxóvo	плохо́е	ploxóje	плоху́ю	ploxúju	плохи́х	ploxíx											
+bad	accusative	inanimate	плохо́й	ploxój	плохо́е	ploxóje	плоху́ю	ploxúju	плохи́е	ploxíje											
+bad	instrumental		плохи́м	ploxím	плохи́м	ploxím	плохо́й, плохо́ю, u	ploxój, ploxóju	плохи́ми	ploxími											
+bad	prepositional		плохо́м	ploxóm	плохо́м	ploxóm	плохо́й	ploxój	плохи́х	ploxíx											
+angry	nominative		серди́тый	serdítyj	серди́тое	serdítoje	серди́тая	serdítaja	серди́тые	serdítyje											
+angry	vocative		серди́тый	serdítyj	серди́тое	serdítoje	серди́тая	serdítaja	серди́тые	serdítyje											
+angry	genitive		серди́того	serdítovo	серди́того	serdítovo	серди́той	serdítoj	серди́тых	serdítyx											
+angry	dative		серди́тому	serdítomu	серди́тому	serdítomu	серди́той	serdítoj	серди́тым	serdítym											
+angry	accusative	animate	серди́того	serdítovo	серди́тое	serdítoje	серди́тую	serdítuju	серди́тых	serdítyx											
+angry	accusative	inanimate	серди́тый	serdítyj	серди́тое	serdítoje	серди́тую	serdítuju	серди́тые	serdítyje											
+angry	instrumental		серди́тым	serdítym	серди́тым	serdítym	серди́той, серди́тою, u	serdítoj, serdítoju	серди́тыми	serdítymi											
+angry	prepositional		серди́том	serdítom	серди́том	serdítom	серди́той	serdítoj	серди́тых	serdítyx											
+happy	nominative		счастли́вый	sčastlívyj	счастли́вое	sčastlívoje	счастли́вая	sčastlívaja	счастли́вые	sčastlívyje											
+happy	vocative		счастли́вый	sčastlívyj	счастли́вое	sčastlívoje	счастли́вая	sčastlívaja	счастли́вые	sčastlívyje											
+happy	genitive		счастли́вого	sčastlívovo	счастли́вого	sčastlívovo	счастли́вой	sčastlívoj	счастли́вых	sčastlívyx											
+happy	dative		счастли́вому	sčastlívomu	счастли́вому	sčastlívomu	счастли́вой	sčastlívoj	счастли́вым	sčastlívym											
+happy	accusative	animate	счастли́вого	sčastlívovo	счастли́вое	sčastlívoje	счастли́вую	sčastlívuju	счастли́вых	sčastlívyx											
+happy	accusative	inanimate	счастли́вый	sčastlívyj	счастли́вое	sčastlívoje	счастли́вую	sčastlívuju	счастли́вые	sčastlívyje											
+happy	instrumental		счастли́вым	sčastlívym	счастли́вым	sčastlívym	счастли́вой, счастли́вою, u	sčastlívoj, sčastlívoju	счастли́выми	sčastlívymi											
+happy	prepositional		счастли́вом	sčastlívom	счастли́вом	sčastlívom	счастли́вой	sčastlívoj	счастли́вых	sčastlívyx											
+sad	nominative		гру́стный	grústnyj	гру́стное	grústnoje	гру́стная	grústnaja	гру́стные	grústnyje											
+sad	vocative		гру́стный	grústnyj	гру́стное	grústnoje	гру́стная	grústnaja	гру́стные	grústnyje											
+sad	genitive		гру́стного	grústnovo	гру́стного	grústnovo	гру́стной	grústnoj	гру́стных	grústnyx											
+sad	dative		гру́стному	grústnomu	гру́стному	grústnomu	гру́стной	grústnoj	гру́стным	grústnym											
+sad	accusative	animate	гру́стного	grústnovo	гру́стное	grústnoje	гру́стную	grústnuju	гру́стных	grústnyx											
+sad	accusative	inanimate	гру́стный	grústnyj	гру́стное	grústnoje	гру́стную	grústnuju	гру́стные	grústnyje											
+sad	instrumental		гру́стным	grústnym	гру́стным	grústnym	гру́стной, гру́стною, u	grústnoj, grústnoju	гру́стными	grústnymi											
+sad	prepositional		гру́стном	grústnom	гру́стном	grústnom	гру́стной	grústnoj	гру́стных	grústnyx											
+bright	nominative		я́ркий	járkij	я́ркое	járkoje	я́ркая	járkaja	я́ркие	járkije											
+bright	vocative		я́ркий	járkij	я́ркое	járkoje	я́ркая	járkaja	я́ркие	járkije											
+bright	genitive		я́ркого	járkovo	я́ркого	járkovo	я́ркой	járkoj	я́рких	járkix											
+bright	dative		я́ркому	járkomu	я́ркому	járkomu	я́ркой	járkoj	я́рким	járkim											
+bright	accusative	animate	я́ркого	járkovo	я́ркое	járkoje	я́ркую	járkuju	я́рких	járkix											
+bright	accusative	inanimate	я́ркий	járkij	я́ркое	járkoje	я́ркую	járkuju	я́ркие	járkije											
+bright	instrumental		я́рким	járkim	я́рким	járkim	я́ркой, я́ркою, u	járkoj, járkoju	я́ркими	járkimi											
+bright	prepositional		я́рком	járkom	я́рком	járkom	я́ркой	járkoj	я́рких	járkix											
+hurt	nominative		ра́неный	ránenyj	ра́неное	ránenoje	ра́неная	ránenaja	ра́неные	ránenyje											
+hurt	vocative		ра́неный	ránenyj	ра́неное	ránenoje	ра́неная	ránenaja	ра́неные	ránenyje											
+hurt	genitive		ра́неного	ránenovo	ра́неного	ránenovo	ра́неной	ránenoj	ра́неных	ránenyx											
+hurt	dative		ра́неному	ránenomu	ра́неному	ránenomu	ра́неной	ránenoj	ра́неным	ránenym											
+hurt	accusative	animate	ра́неного	ránenovo	ра́неное	ránenoje	ра́неную	ránenuju	ра́неных	ránenyx											
+hurt	accusative	inanimate	ра́неный	ránenyj	ра́неное	ránenoje	ра́неную	ránenuju	ра́неные	ránenyje											
+hurt	instrumental		ра́неным	ránenym	ра́неным	ránenym	ра́неной, ра́неною, u	ránenoj, ránenoju	ра́неными	ránenymi											
+hurt	prepositional		ра́неном	ránenom	ра́неном	ránenom	ра́неной	ránenoj	ра́неных	ránenyx											
+red	nominative		кра́сный	krásnyj	кра́сное	krásnoje	кра́сная	krásnaja	кра́сные	krásnyje											
+red	vocative		кра́сный	krásnyj	кра́сное	krásnoje	кра́сная	krásnaja	кра́сные	krásnyje											
+red	genitive		кра́сного	krásnovo	кра́сного	krásnovo	кра́сной	krásnoj	кра́сных	krásnyx											
+red	dative		кра́сному	krásnomu	кра́сному	krásnomu	кра́сной	krásnoj	кра́сным	krásnym											
+red	accusative	animate	кра́сного	krásnovo	кра́сное	krásnoje	кра́сную	krásnuju	кра́сных	krásnyx											
+red	accusative	inanimate	кра́сный	krásnyj	кра́сное	krásnoje	кра́сную	krásnuju	кра́сные	krásnyje											
+red	instrumental		кра́сным	krásnym	кра́сным	krásnym	кра́сной, кра́сною, u	krásnoj, krásnoju	кра́сными	krásnymi											
+red	prepositional		кра́сном	krásnom	кра́сном	krásnom	кра́сной	krásnoj	кра́сных	krásnyx											
+new	nominative		но́вый	nóvyj 	но́вое	nóvoje 	но́вая	nóvaja 	но́вые	nóvyje 											
+new	vocative		но́вый	nóvyj 	но́вое	nóvoje 	но́вая	nóvaja 	но́вые	nóvyje 											
+new	genitive		но́вого	nóvovo	но́вого	nóvovo	но́вой	nóvoj	но́вых	nóvyx											
+new	dative		но́вому	nóvomu	но́вому	nóvomu	но́вой	nóvoj	но́вым	nóvym											
+new	accusative	animate	но́вого	nóvovo 	но́вое	nóvoje	но́вую	nóvuju	но́вые	nóvyx											
+new	accusative	inanimate	но́вый	nóvyj	но́вое	nóvoje	но́вую	nóvuju	но́вые	nóvyx											
+new	instrumental		но́вым	nóvym 	но́вым	nóvym 	но́вой, но́вою	nóvoj, nóvoju 	но́выми	nóvymi											
+new	prepositional		но́вом	nóvom	но́вом	nóvom	но́вой	nóvoj	но́вых	nóvyx											
+blue	nominative		си́ний	sínij	си́нее	síneje	си́няя	sínjaja	си́ние	sínije											
+blue	vocative		си́ний	sínij	си́нее	síneje	си́няя	sínjaja	си́ние	sínije											
+blue	genitive		си́него	sínevo	си́него	sínevo	си́ней	sínej	си́них 	sínix											
+blue	dative		си́нему	sínemu	си́нему	sínemu	си́ней	sínej	си́ним	sínim											
+blue	accusative	animate	си́него	sínevo	си́нее	síneje	си́нюю	sínjuju	си́ние	sínix											
+blue	accusative	inanimate	си́ний	sínij	си́нее	síneje	си́нюю	sínjuju	си́ние	sínix											
+blue	instrumental		си́ним	sínim	си́ним	sínim	си́ней, си́нею	sínej, síneju	си́ними 	sínimi											
+blue	prepositional		си́нем	sínem	си́нем	sínem	си́ней	sínej	си́них 	sínix											
+tall	nominative		высо́кий	vysókij	высо́кое	vysókoje 	высо́кая	vysókaja	высо́кие	vysókije											
+tall	vocative		высо́кий	vysókij	высо́кое	vysókoje 	высо́кая	vysókaja	высо́кие	vysókije											
+tall	genitive		высо́кого	vysókovo	высо́кого	vysókovo	высо́кой	vysókoj	высо́ких 	vysókix											
+tall	dative		высо́кому	vysókomu	высо́кому	vysókomu	высо́кой	vysókoj	высо́ким	vysókim											
+tall	accusative	animate	высо́кого	vysókovo	высо́кое	vysókoje	высо́кую	vysókuju	высо́кие	vysókix											
+tall	accusative	inanimate	высо́кий	vysókij	высо́кое	vysókoje	высо́кую	vysókuju	высо́кие	vysókije											
+tall	instrumental		высо́ким	vysókim	высо́ким	vysókim	высо́кой, высо́кою	vysókoj, vysókoju	высо́кими 	vysókimi											
+tall	prepositional		высо́ком	vysókom	высо́ком	vysókom	высо́кой	vysókoj	высо́ких 	vysókix											
+good	nominative		хоро́ший	xoróšij	хоро́шее	xoróšeje	хоро́шая	xoróšaja	хоро́шие	xoróšije											
+good	vocative		хоро́ший	xoróšij	хоро́шее	xoróšeje	хоро́шая	xoróšaja	хоро́шие	xoróšije											
+good	genitive		хоро́шего	xoróševo	хоро́шего	xoróševo	хоро́шей	xoróšej	хоро́ших 	xoróšix											
+good	dative		хоро́шему	xoróšemu	хоро́шему	xoróšemu	хоро́шей	xoróšej	хоро́шим	xoróšim 											
+good	accusative	animate	хоро́шего	xoróševo	хоро́шее	xoróšeje	хоро́шую	xoróšuju	хоро́ших	xoróšix											
+good	accusative	inanimate	хоро́ший	xoróšij	хоро́шее	xoróšeje	хоро́шую	xoróšuju	хоро́шие	xoróšije											
+good	instrumental		хоро́шим	xoróšim	хоро́шим	xoróšim	хоро́шей, хоро́шею	xoróšej, xoróšeju 	хоро́шими 	xoróšimi											
+good	prepositional		хоро́шем	xoróšem	хоро́шем	xoróšem	хоро́шей	xoróšej	хоро́ших 	xoróšix											
+big	nominative		большо́й	bolʹšój	большо́е	bolʹšóje 	больша́я	bolʹšája	больши́е	bolʹšíje											
+big	vocative		большо́й	bolʹšój	большо́е	bolʹšóje 	больша́я	bolʹšája	больши́е	bolʹšíje											
+big	genitive		большо́го	bolʹšóvo	большо́го	bolʹšóvo	большо́й	bolʹšój	больши́х 	bolʹšíx											
+big	dative		большо́му	bolʹšómu	большо́му	bolʹšómu	большо́й	bolʹšój	больши́м	bolʹším											
+big	accusative	animate	большо́го	bolʹšóvo	большо́е	bolʹšóje	большу́ю	bolʹšúju	больши́х 	bolʹšíx											
+big	accusative	inanimate	большо́й	bolʹšój	большо́е	bolʹšóje	большу́ю	bolʹšúju	больши́х 	bolʹšíje											
+big	instrumental		больши́м	bolʹším	больши́м	bolʹším	большо́й, большо́ю	bolʹšój, bolʹšóju 	больши́ми 	bolʹšími											
+big	prepositional		большо́м	bolʹšóm	большо́м	bolʹšóm	большо́й	bolʹšój	больши́х 	bolʹšíx											
