@@ -82,6 +82,8 @@ foreign_language = Language(
                 declension_population.index([
                     *lexical_noun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/lexical-noun-declensions.tsv')),
+                    *lexical_noun_annotation.annotate(
+                        tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/adjective-agreements.tsv')),
                     *pronoun_annotation.annotate(
                         tsv_parsing.rows('data/inflection/indo-european/romance/latin/classic/pronoun-declensions.tsv')),
                 ])),
