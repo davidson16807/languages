@@ -10,11 +10,13 @@ tabular form	rendered as	behavior
 …	…	unknown but likely to have existed and necessary to demonstrate other known inflections, cards that include this character will only be omitted if the character is enclosed in a clozure	
 	...	unintentionally omitted, used to easily spot errors in deck specification
 ꜝ	ꜝ	unintentionally uninflected, used to easily spot errors in deck specification
-ˀ	ˀ	speculative	
+˙	˙	fallback, generated using inflection rules for regular words
+ˀ	ˀ	speculative, adopted for lack of better alternatives but not found in any other source	
+ᴺ	ᴺ	neologism, commonly accepted by speaking community despite no historical use	
 *	*	reconstructed	omitted if implied by the deck (e.g. proto-indo-european)
 ᴬ	ᴬ	archaic	omitted if implied by the deck (e.g. old-latin)
 ᴰ	ᴰ	dated	omitted if implied by the deck
 ᴱ	ᴱ	early	omitted if implied by the deck
 ᴹ	ᴹ	middle	omitted if implied by the deck (e.g. middle egyptian)
 ᴸ	ᴸ	late	omitted if implied by the deck (e.g. quenya)
-ᴺ	ᴺ	neologism	omitted if implied by the deck (e.g. modern hebrew)
+ᴿ	ᴿ	rare	

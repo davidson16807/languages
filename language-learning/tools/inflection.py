@@ -9,17 +9,31 @@ class RegularInflectionFallbackLookup:
     '''
     `RegularInflection` is a lookup for inflections that falls back to inflecting the lemma of a lexeme
     using inflection of a representative word that shares the same inflection pattern.
+
     `patterns_for_tags` is a lookup that maps tags to a list of (pattern, representative, replaced) tuples where:
     * `pattern` is a regular expression that must fully match the lemma,
        whose first group captures the portion of the lemma that replaces `replaced`,
     * `representative` is a word with an inflection in `inflection_for_tags`, and
     * `replaced` is the portion of the representative's inflection that is replaced.
     Patterns are attempted in order until an inflection is found.
+
     `patterns_for_tags` may be a `UniformDictLookup` if the same patterns apply to all tags,
     or a `DictLookup` if patterns only apply to certain tags, such as a script or the gender of a noun.
+
+    `missing` displays in place of the word when no lemma is found. The suggested value is '...'.
+
+    `unmatched` displays before the word when fallback fails when needed. Suggested 
+    * superscript ! 'ꜝ'
+    * superscript x 'ˣ'
+
+    `inferred` displays before the word when the fallback is used. Suggested values include:
+    * asterisk '*' 
+    * upper dot '˙'
+    * zero-width space '\u200b'
+    * the empty string ''
     '''
     def __init__(self, part_of_speech, lemma_for_tags, inflection_for_tags, patterns_for_tags, 
-            missing='...', unmatched='ꜝ', inferred='\u200b'):
+            missing='...', unmatched='ꜝ', inferred='˙'):
         self.part_of_speech = part_of_speech
         self.lemma_for_tags = lemma_for_tags
         self.inflection_for_tags = inflection_for_tags
