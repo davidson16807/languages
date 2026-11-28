@@ -202,6 +202,13 @@ defaults = DictSpace(
     }
 )
 
+subjectivity_person_blacklist = parse.termmask(
+    'subjectivity_person_blacklist', 
+    'subjectivity person',
+    '''
+    addressee  3
+    ''')
+
 # stimuli are typically only subjects or direct-objects
 subjectivity_role_blacklist = parse.termmask(
     'subjectivity_role_blacklist', 
@@ -556,6 +563,7 @@ write('flashcards/germanic/old-english/pronoun-declension.html',
         defaults.override(
             ((pronoun_traversal * declension_noun_traversal * constant['personal'])
             & noun_template_whitelist)
+            - subjectivity_person_blacklist
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
@@ -572,6 +580,7 @@ write('flashcards/germanic/old-english/correlative-declension.html',
         defaults.override(
             ((correlative_traversal * declension_noun_traversal)
             & noun_template_whitelist)
+            - subjectivity_person_blacklist
         ),
         tag_templates ={
             'dummy'      : parse.termaxis_to_term('lexical 3 singular masculine'),
