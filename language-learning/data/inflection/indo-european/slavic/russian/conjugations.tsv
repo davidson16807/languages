@@ -164,7 +164,7 @@ displease	finite	imperative	2	singular	огорча́й	ogorčáj
 displease	finite	imperative	2	plural	огорча́йте	ogorčájte				
 eat	infinitive				е́сть	jéstʹ	—	—		
 eat	participle		active		едя́щий	jedjáščij	—	—	е́вший	jévšij
-eat	participle		passive		едо́мый*	jedómyj*	—	—	е́денный	jédennyj
+eat	participle		passive		едо́мыйᴰ	jedómyjᴰ	—	—	е́денный	jédennyj
 eat	participle		adverbial		едя́	jedjá	—	—	е́в,е́вшиši	jév, jévši
 eat	finite	indicative	1	singular	е́м	jém	бу́ду е́сть	búdu jéstʹ		
 eat	finite	indicative	2	singular	е́шь	jéšʹ	бу́дешь е́сть	búdešʹ jéstʹ		
@@ -434,7 +434,7 @@ give	finite	imperative	2	singular	дава́й	daváj
 give	finite	imperative	2	plural	дава́йте	davájte				
 eat	infinitive				е́сть	jéstʹ	—	—		
 eat	participle		active		едя́щий	jedjáščij	—	—	е́вший	jévšij
-eat	participle		passive		едо́мый*	jedómyj*	—	—	е́денный	jédennyj
+eat	participle		passive		едо́мыйᴰ	jedómyjᴰ	—	—	е́денный	jédennyj
 eat	participle		adverbial		едя́	jedjá	—	—	е́в,е́вшиši	jév, jévši
 eat	finite	indicative	1	singular	е́м	jém	бу́ду е́сть	búdu jéstʹ		
 eat	finite	indicative	2	singular	е́шь	jéšʹ	бу́дешь е́сть	búdešʹ jéstʹ		
@@ -507,7 +507,7 @@ go	finite	imperative	2	plural	иди́те	idíte
 write	infinitive				писа́ть	pisátʹ	—	—		
 write	participle		active		пи́шущий	píšuščij	—	—	писа́вший	pisávšij
 write	participle		passive		—		—	—	пи́санный	písannyj
-write	participle		adverbial		пиша́*	pišá*	—	—	писа́в,писа́вшиši	pisáv, pisávši
+write	participle		adverbial		пиша́ᴰ	pišáᴰ	—	—	писа́в,писа́вшиši	pisáv, pisávši
 write	finite	indicative	1	singular	пишу́	pišú	бу́ду писа́ть	búdu pisátʹ		
 write	finite	indicative	2	singular	пи́шешь	píšešʹ	бу́дешь писа́ть	búdešʹ pisátʹ		
 write	finite	indicative	3	singular	пи́шет	píšet	бу́дет писа́ть	búdet pisátʹ		
@@ -668,7 +668,7 @@ carry	finite	imperative	2	singular	неси́	nesí
 carry	finite	imperative	2	plural	неси́те	nesíte				
 lead	infinitive				вести́	vestí	—	—		
 lead	participle		active		веду́щий	vedúščij	—	—	ве́дший	védšij
-lead	participle		passive		ведо́мый*	vedómyj*	—	—	ведённый	vedjónnyj
+lead	participle		passive		ведо́мыйᴰ	vedómyjᴰ	—	—	ведённый	vedjónnyj
 lead	participle		adverbial		ведя́	vedjá	—	—	ве́дши	védši
 lead	finite	indicative	1	singular	веду́	vedú	бу́ду вести́	búdu vestí		
 lead	finite	indicative	2	singular	ведёшь	vedjóšʹ	бу́дешь вести́	búdešʹ vestí		
@@ -1530,3 +1530,21 @@ wait	finite	indicative	neuter	singular					жда́ло	ždálo
 wait	finite	indicative	masculine	plural					жда́ли	ždáli
 wait	finite	indicative	feminine	plural					жда́ли	ždáli
 wait	finite	indicative	neuter	plural					жда́ли	ždáli
+convey	infinitive				везти́	veztí 				
+convey	participle		active		везу́щий	vezúščij			вёзший	vjózšij
+convey	participle		passive		везо́мыйᴰ△	vezómyjᴰ△			везённый	vezjónnyj
+convey	participle		adverbial		везя́	vezjá			вёзши	vjózši 
+convey	finite	indicative	1	singular	везу́	vezú	бу́ду везти́	búdu veztí		
+convey	finite	indicative	2	singular	везёшь	vezjóšʹ	бу́дешь везти́	búdešʹ veztí		
+convey	finite	indicative	3	singular	везёт	vezjót	бу́дет везти́	búdet veztí		
+convey	finite	indicative	1	plural	везём	vezjóm	бу́дем везти́	búdem veztí		
+convey	finite	indicative	2	plural	везёте	vezjóte	бу́дете везти́	búdete veztí		
+convey	finite	indicative	3	plural	везу́т	vezút	бу́дут везти́	búdut veztí 		
+convey	finite	imperative	2	singular	вези́	vezí				
+convey	finite	imperative	2	plural	вези́те	vezíte 				
+convey	finite	indicative	masculine	singular					вёз	vjóz
+convey	finite	indicative	feminine	singular					везла́	vezlá
+convey	finite	indicative	neuter	singular					везло́	vezló 
+convey	finite	indicative	masculine	plural					везли́	vezlí 
+convey	finite	indicative	feminine	plural					везли́	vezlí 
+convey	finite	indicative	neuter	plural					везли́	vezlí 
